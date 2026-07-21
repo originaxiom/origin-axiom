@@ -1,0 +1,78 @@
+============================================================================
+TOMB-L30 (S019) Stage-B recompute - Fisher metric on CS level k
+============================================================================
+
+STEP 0 - conventions instantiated (C1, C2)
+  M = [[m,1],[1,0]]      det M   = -1   tr M = m
+  char(M^2)              = -m**2*t + t**2 - 2*t + 1
+  4c^2 - 2 at I=m^2/4    = m**2 + 2   (= tr M^2 = m^2+2: True)
+  residual (4c^2-2)-(m^2+2) on I=c^2-1 = 4*I - m**2   => D(I) = 16*I**2 - 8*I*m**2 + m**4
+
+STEP 1 - the Fisher object from the declared conventions (C2+C4)
+  LE(I)     = arccosh(2I+1)
+  dLE/dI    = 1/(sqrt(I)*sqrt(I + 1))
+  F(I)      = (dLE/dI)^2 = 1/(I*(I + 1))
+  F(m) = F(I*)|I*=m^2/4  = 16/(m**2*(m**2 + 4))
+  F(m) == 16/(m^2(m^2+4)) (the banked E21(d)/V6 value):  True
+  LE(I*) == log(Lambda(M^2)) [symbolic/numeric m=1..6]: True
+
+STEP 2 - the banked identity chain, re-derived symbolically (all m)
+  disc(char(M^2))        = m**4 + 4*m**2   (= m^2(m^2+4): True)
+  F(m) * disc(char(M^2)) == 16 exactly:                  True
+  g_WP(m^2+2)            = 1/((m**2 + 2)**2 - 4)
+  F(m) == 16 * g_WP(m^2+2) exactly (all m):              True
+  Delta_eig = Lambda-1/Lambda = m*(m**3 + m**2*sqrt(m**2 + 4) + 4*m + 2*sqrt(m**2 + 4))/(m**2 + m*sqrt(m**2 + 4) + 2)   (= m*sqrt(m^2+4): True)
+  F(m) == (4/Delta_eig)^2:                               True
+
+  numeric spot table (exact rationals):
+    m | F(m)=16/(m^2(m^2+4)) | g_WP(m^2+2) | F/g_WP
+    1 |                 16/5 |         1/5 | 16
+    2 |                  1/2 |        1/32 | 16
+    3 |               16/117 |       1/117 | 16
+    4 |                 1/20 |       1/320 | 16
+    5 |               16/725 |       1/725 | 16
+    6 |                 1/90 |      1/1440 | 16
+
+STEP 3 - THE DISCRIMINATING FACT, part (i): the object is k-FREE
+  free symbols of F(m):  {m}
+  dF/dk                  = 0   (identically zero: True)
+  quantum-side family q(k) = exp(2*pi*i/(k+2)); shared variables with F: NONE
+  => the CS level k never enters the one rigorous Fisher object;
+     a 'Fisher metric reading ON k' has no computed object to read.
+     (k is moreover a DISCRETE level - the arc declares no interpolating
+      family p(x|k), so no Fisher form on k was ever constructible from
+      declared conventions; the only continuous parameter is I, i.e. m.)
+
+STEP 4 - part (ii): POSITIVITY (no indefinite/'Lorentzian' direction)
+  F(m) > 0 for all m > 0:  True
+  => a 1-D positive-definite WP coefficient; nothing indefinite exists
+     for the 'emergence' reading (atlas C4) to stand on.
+
+STEP 5 - part (iii): ZERO content beyond WP (the length element is dLE)
+  sqrt(F(I)) / (dLE/dI)  = 1
+  => sqrt(F) dI = dLE exactly: the 'information geometry' is the
+     translation-length (WP) element restated - one identity, no new
+     structure, exactly E21's 'one equation, several costumes'.
+
+============================================================================
+VERDICT INPUT
+============================================================================
+
+Recomputed, from the arc's own declared conventions:
+  F(m) = 16/(m^2(m^2+4)) = 16/disc(char(M^2)) = 16*g_WP(m^2+2) = (4/Delta_eig)^2
+holds EXACTLY for all m (symbolic; spot-checked m=1..6), with
+  (i)   dF/dk = 0 identically, free_symbols(F) = {m}: the CS level k never
+        enters - the 'reading on k' has no object,
+  (ii)  F > 0 (positive 1-D WP coefficient - no indefinite direction),
+  (iii) sqrt(F) dI = dLE (the metric is the WP/length element itself -
+        an elementary chain-rule identity, zero independent content).
+The one-hop citation target (archive/PHYSICS_RESONANCES.md) contains no
+Fisher computation ('Fisher' occurs 0 times); the only rigorous Fisher fact
+in the kill's neighborhood is the collapse identity above (E21(d)/V6).
+
+This upholds the banked kill: the S019 'information-geometry metric reading
+on the Chern-Simons level k' was heuristic with no bounded test - the only
+bounded test that ever existed collapses to Weil-Petersson on the classical
+m-line before k enters.  RECONFIRMED.
+
+ALL ASSERTIONS PASSED

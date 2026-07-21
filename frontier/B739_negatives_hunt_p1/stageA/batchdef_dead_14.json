@@ -1,0 +1,46 @@
+{
+ "name": "dead_14",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B558",
+   "findings": "frontier/B558_three_level_negative/FINDINGS.md",
+   "slug": "three level negative"
+  },
+  {
+   "id": "B561",
+   "findings": "frontier/B561_l50_crux/FINDINGS.md",
+   "slug": "l50 crux"
+  },
+  {
+   "id": "B567",
+   "findings": "frontier/B567_hamiltonian_handoff/FINDINGS.md",
+   "slug": "hamiltonian handoff"
+  },
+  {
+   "id": "B569",
+   "findings": "frontier/B569_complete_chain/FINDINGS.md",
+   "slug": "complete chain"
+  },
+  {
+   "id": "B572",
+   "findings": "frontier/B572_eleven_clauses/FINDINGS.md",
+   "slug": "eleven clauses"
+  },
+  {
+   "id": "B574",
+   "findings": "frontier/B574_offprincipal/FINDINGS.md",
+   "slug": "offprincipal"
+  },
+  {
+   "id": "B579",
+   "findings": "frontier/B579_session_handoff/FINDINGS.md",
+   "slug": "session handoff"
+  },
+  {
+   "id": "B585",
+   "findings": "frontier/B585_listener_law/FINDINGS.md",
+   "slug": "listener law"
+  }
+ ]
+}

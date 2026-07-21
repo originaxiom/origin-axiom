@@ -1,0 +1,46 @@
+{
+ "name": "dead_15",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B604",
+   "findings": "frontier/B604_rosetta_blocks/FINDINGS.md",
+   "slug": "rosetta blocks"
+  },
+  {
+   "id": "B605",
+   "findings": "frontier/B605_door2_involution/FINDINGS.md",
+   "slug": "door2 involution"
+  },
+  {
+   "id": "B619",
+   "findings": "frontier/B619_a5_bridge/FINDINGS.md",
+   "slug": "a5 bridge"
+  },
+  {
+   "id": "B624",
+   "findings": "frontier/B624_observable_bridge/FINDINGS.md",
+   "slug": "observable bridge"
+  },
+  {
+   "id": "B626",
+   "findings": "frontier/B626_jacobian_reality/FINDINGS.md",
+   "slug": "jacobian reality"
+  },
+  {
+   "id": "B632",
+   "findings": "frontier/B632_cubic_route/FINDINGS.md",
+   "slug": "cubic route"
+  },
+  {
+   "id": "B654",
+   "findings": "frontier/B654_listening_synthesis/FINDINGS.md",
+   "slug": "listening synthesis"
+  },
+  {
+   "id": "B656",
+   "findings": "frontier/B656_digest_integration/FINDINGS.md",
+   "slug": "digest integration"
+  }
+ ]
+}

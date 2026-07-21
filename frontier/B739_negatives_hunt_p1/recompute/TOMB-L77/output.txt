@@ -1,0 +1,127 @@
+==============================================================================
+B739 / TOMB-L77 recompute: the 'three regimes' vs the standard asymptotic
+expansion of the Kashaev invariant <4_1>_N -- derived, not cited (E19)
+==============================================================================
+
+==============================================================================
+PART 1 -- REGIME 'cyclotomic at finite k': exact values at N = k+2
+==============================================================================
+Each term of <4_1>_N is a Z-polynomial in q = zeta_N, so <4_1>_N is in
+Z[zeta_N] BY CONSTRUCTION of q = exp(2 pi i/(k+2)) (same tautology as the
+neighboring roots-of-unity tombstone).  Computed witness: the exact value and
+its minimal polynomial (monic, integer coefficients, degree | phi(N)).
+
+  k= 1 (N= 3): <4_1>_N = 13
+            = 13.000000000000000000
+            min poly: x - 13
+            deg=1, phi(N)=2, deg|phi(N): True, algebraic integer (monic+Z): True  -> in Z[zeta_N]: True
+  k= 2 (N= 4): <4_1>_N = 27
+            = 27.000000000000000000
+            min poly: x - 27
+            deg=1, phi(N)=2, deg|phi(N): True, algebraic integer (monic+Z): True  -> in Z[zeta_N]: True
+  k= 3 (N= 5): <4_1>_N = 2*sqrt(5) + 46
+            = 50.472135954999579393
+            min poly: x**2 - 92*x + 2096
+            deg=2, phi(N)=4, deg|phi(N): True, algebraic integer (monic+Z): True  -> in Z[zeta_N]: True
+  k= 4 (N= 6): <4_1>_N = 89
+            = 89.000000000000000000
+            min poly: x - 89
+            deg=1, phi(N)=2, deg|phi(N): True, algebraic integer (monic+Z): True  -> in Z[zeta_N]: True
+  k= 5 (N= 7): <4_1>_N = 4*sin(pi/7)**2 + 1 + 16*sin(pi/7)**2*sin(2*pi/7)**2 + 64*sin(pi/7)**2*sin(2*pi/7)**2*cos(pi/14)**2 + 256*sin(pi/7)**2*sin(2*pi/7)**2*cos(pi/14)**4 + 4096*sin(pi/7)**4*sin(2*pi/7)**4*cos(pi/14)**4 + 1024*sin(pi/7)**2*sin(2*pi/7)**4*cos(pi/14)**4
+            = 151.27902954589775963
+            min poly: x**3 - 339*x**2 + 37208*x - 1332731
+            deg=3, phi(N)=6, deg|phi(N): True, algebraic integer (monic+Z): True  -> in Z[zeta_N]: True
+  k= 6 (N= 8): <4_1>_N = 45*sqrt(2) + 187
+            = 250.63961030678927720
+            min poly: x**2 - 374*x + 30919
+            deg=2, phi(N)=4, deg|phi(N): True, algebraic integer (monic+Z): True  -> in Z[zeta_N]: True
+  k=10 (N=12): <4_1>_N = 374*sqrt(3) + 963
+            = 1610.7870020307601078
+            min poly: x**2 - 1926*x + 507741
+            deg=2, phi(N)=4, deg|phi(N): True, algebraic integer (monic+Z): True  -> in Z[zeta_N]: True
+
+  REGIME-1 WITNESS: all listed levels give cyclotomic integers: True
+
+==============================================================================
+PART 2 -- REGIME 'algebraic at k->infty': the saddle of the STANDARD expansion
+==============================================================================
+Continuum limit of the summand (x = j/N):
+  (1/N) log(term_j) -> f(x) = 2 * Integral_0^x log(2 sin(pi t)) dt
+                            = -(2/pi) * Lob(pi x)   (Lobachevsky).
+Critical-point equation f'(x) = 2 log(2 sin(pi x)) = 0  <=>  2 sin(pi x) = 1.
+
+  solutions in (0,1): [1/6, 5/6]
+  f''(1/6) = 2*sqrt(3)*pi  -> minimum
+  f''(5/6) = -2*sqrt(3)*pi  -> MAXIMUM
+  saddle: x* = 5/6  (peak term at j ~ 5/6*N)
+
+  multiplicative saddle coordinate z* = exp(2 pi i x*) = exp(-I*pi/3)
+  minimal polynomial of z*: z**2 - z + 1   (degree 2)
+  the tombstone's z_0 = exp(i pi/3): min poly z**2 - z + 1; same quadratic as z*: True
+  discriminant = -3  ->  field Q(sqrt(-3)) (the 4_1 trace field; z_0 is the
+  shape parameter of the two regular ideal tetrahedra of the 4_1 complement).
+  z* = conjugate(z_0): True
+
+  REGIME-2 WITNESS: the k->infty limit is controlled by an ALGEBRAIC number
+  (z^2 - z + 1 = 0, degree 2, disc -3), straight from the saddle equation: True
+
+==============================================================================
+PART 3 -- REGIME 'transcendental coefficient': the growth rate of the SAME sum
+==============================================================================
+  saddle value  f(x*) = (2/pi)*Lob(pi/6) = 0.3230659472194505140936365
+  D(z_0) = Im Li_2(e^(i pi/3))          = 1.014941606409653625021203
+  Vol(4_1) = 2 D(z_0)                   = 2.029883212819307250042405
+  arc constant VOL_FIG8                 = 2.029883212819307
+  |2 D(z_0) - VOL_FIG8| < 1e-15: True
+  identity f(x*) = Vol(4_1)/(2 pi) to 50 dps: True
+  => the exponential-rate coefficient of the standard expansion is Vol/2pi,
+     the dilogarithm evaluated AT the algebraic saddle of Part 2.
+
+  (a) leading exponential: (2 pi/N) log<4_1>_N -> Vol(4_1), monotone from above
+      N=   50: (2pi/N) log J_N = 2.73420087281797   err = 0.704318
+      N=  100: (2pi/N) log J_N = 2.44700630968569   err = 0.417123
+      N=  200: (2pi/N) log J_N = 2.27101969680856   err = 0.241136
+      N=  400: (2pi/N) log J_N = 2.16676136645452   err = 0.136878
+      N=  800: (2pi/N) log J_N = 2.10648276926402   err = 0.0765996
+      N= 1600: (2pi/N) log J_N = 2.07226460132678   err = 0.0423814
+      monotone decreasing toward Vol, always above: True
+
+  (b) power stratum: g_N = log J_N - N*Vol/2pi = p*log N + log C + o(1)
+      p_hat = (g_2N - g_N)/log 2  (expect p = 3/2):
+      N=  200: p_hat = 1.49798088
+      N=  400: p_hat = 1.498995546
+      N=  800: p_hat = 1.499499029
+      N= 1600: p_hat = 1.499749826
+      -> p = 3/2 (rational stratum).
+
+  (c) constant stratum: C_N = J_N / (N^(3/2) e^(N*Vol/2pi))  (expect 3^(-1/4)):
+      N=  400: C_N = 0.760892707624
+      N=  800: C_N = 0.760363132385
+      N= 1600: C_N = 0.760099144711
+      N= 3200: C_N = 0.759967349322
+      Richardson (1/N): C_inf ~ 0.759835553932
+      3^(-1/4)         = 0.759835685652
+      |C_inf - 3^(-1/4)| < 1e-4: True   (algebraic stratum, x^4 = 1/3)
+
+  (d) PSLQ integer-relation test, 120 dps, degree <= 6, |coeff| <= 10^8:
+      <4_1>_5 = 46+2*sqrt(5) (regime 1): relation [0, 0, 2096, 2004, 2005, -91, 1]  -> FOUND (algebraic, as it must be)
+      3^(-1/4) (regime-2/algebraic stratum): relation [0, 1, 0, 0, 0, -3, 0]  -> FOUND (algebraic, as it must be)
+      Vol(4_1)/(2 pi): NO relation
+      Vol(4_1): NO relation
+      -> the rate coefficient admits NO integer polynomial of degree <= 6 with
+         coefficients <= 10^8 (at 120 dps), while the regime-1/2 quantities do:
+         the 'transcendental coefficient' stratum is the expansion's own.
+
+==============================================================================
+VERDICT COMPUTATION
+==============================================================================
+  regime 1 (cyclotomic at finite k)  from the bare definition:   True
+  regime 2 (algebraic at k->infty)   from the saddle equation:   True
+  regime 3 (transcendental coeff.)   from the same expansion:    True
+
+  All three 'regimes' are strata of ONE standard asymptotic expansion of the
+  standard invariant, derived here from the ambient definitions alone --
+  q = e^(2 pi i/(k+2)) forces cyclotomic values; the saddle z^2-z+1=0 supplies
+  the algebraic k->infty datum; the rate Vol/2pi = (1/pi) Im Li_2(z_0) supplies
+  the transcendental-type coefficient.  NO framework input entered at any step.
+  The banked category-error kill is upheld: RECONFIRMED.

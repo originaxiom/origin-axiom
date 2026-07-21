@@ -1,0 +1,62 @@
+B739 Stage-C skeptic -- DEFINITION-MATCH lens -- target B58 (Stage-B verdict: REVIVED)
+Date: 2026-07-21   Checks below; scripts: b58_defmatch_check.py, b58_defmatch_check2.py (scratchpad)
+
+STEP 0: reran Stage-B recompute.py -- stdout bit-identical to banked output.txt (diff clean, exit 0).
+
+STEP 1 (definitions read from banked files):
+  - Sealed claim_killed text = verbatim B58 FINDINGS section title 'Why The Prediction
+    Cannot Be Tested Numerically (the key point)'. No quantifier inflation by Stage-B.
+  - PC12 DRAFT_NOTE_SKELETON 'Open Prediction' n=4 row: dim 15, parity 1, 7 char(M^k)
+    factors == exactly the prediction recompute PART 4 tests.
+  - Object per B58: 'ambient trace-map Jacobian ... 15x15 at (4,...,4)'. B58 left the
+    15-word set unenumerated; Stage-B adopted B59's declared list -- the SAME list+order
+    in which banked B63/B65 later fixed the exact J(m) (verified in B63 probe._words).
+  - Evidence-quote route ('representations near the identity, extract the Jacobian') is
+    the same route class Stage-B implements at eps>0 via the first-order chain-rule pinv
+    ratio; the at-the-point degeneracy (necessary component) is RECONFIRMED (P1a-P1c).
+
+STEP 2 (object-swap exclusion, computed):
+Stage-C definition-match skeptic checks for B58 REVIVED
+==========================================================================
+[C1] SL(3) ENTRYWISE |DT(0) - exact symbolic J|: max real dev = 5.85e-05, max imag = 2.62e-05
+     -> extrapolated matrix IS the ambient trace-map Jacobian (not merely isospectral): True
+[C2] SL(4) ENTRYWISE |DT(0) - B65 exact J(m=1)|: max dev = 3.42e-01, max imag = 1.08e+00  [seed-to-seed entry spread 1.34e+00]
+     -> Stage-B's numerically computed object == the ambient 15x15 Jacobian at (4,...,4) later fixed EXACTLY by B65: False
+[C2b] exact J(1) charpoly == char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1): False
+[C3] PC12 'Open Prediction' n=4 row: parity 1 + 7 char(M^k) (total 15) -- exactly what recompute PART 4 tests: True (read)
+[C3] banked headline 'Why The Prediction Cannot Be Tested Numerically (the key point)' is verbatim the B58 FINDINGS section title: True (read)
+[C3] evidence-quote route ('representations near the identity, extract the Jacobian') is the SAME route class Stage-B implements at eps>0: True
+==========================================================================
+DEFINITION-MATCH VERDICT: object swap EXCLUDED, quantifiers ALIGNED: False
+
+STEP 3 (corrected + spectrum-level closure; the C2b failure above was MY sign bug:
+        char(M^4) has det +1, i.e. t^2-7t+1):
+[C2b'] EXACT: charpoly(B65 J(1)) == char(M^-1)char(M)char(M^2)char(M^3)char(M^4)char(-M^2)(t-1)^2(t+1): True
+[C2c] Stage-B computed SL(4) spectrum vs eig(EXACT B65 J(1)): max match = 0.0101  (per-seed: 0.0196, 0.0012)
+[C2d] sv range of dx (seed 10), h=1e-6 float central differences:
+   eps=0.03: sv_max=3.84e+00  sv_13=3.82e-05 sv_14=4.09e-06  sv_min=2.93e-07  (noise floor ~1e-10)
+   eps=0.05: sv_max=6.45e+00  sv_13=1.82e-04 sv_14=3.11e-05  sv_min=2.19e-06  (noise floor ~1e-10)
+   eps=0.07: sv_max=9.08e+00  sv_13=5.17e-04 sv_14=1.17e-04  sv_min=8.15e-06  (noise floor ~1e-10)
+   eps=0.09: sv_max=1.17e+01  sv_13=1.14e-03 sv_14=3.12e-04  sv_min=2.16e-05  (noise floor ~1e-10)
+   eps=0.11: sv_max=1.44e+01  sv_13=2.15e-03 sv_14=6.77e-04  sv_min=4.69e-05  (noise floor ~1e-10)
+   -> smallest dx singular values sit within ~1e2-1e4 of the
+      finite-difference noise floor: entrywise DT is float-noisy along
+      those near-null directions (hence seed-dependent ENTRIES), while
+      the SPECTRUM -- the object the prediction is about -- is stable
+      and matches the exact J(1) eigenvalues (C2c).
+      (B65 removed even that: dps=50, h=1e-18 gives canonical entries,
+       seed spread ~8e-6 -- route-level, not method-level, noise.)
+
+ADVERSE FINDING KEPT HONEST: Stage-B's float pipeline does NOT reproduce the SL(4)
+Jacobian ENTRYWISE (max dev 3.4e-1 vs exact J(1), seed entry spread 1.3): dx sv_min
+2.9e-7 at eps=0.03 sits near the h=1e-6 noise floor. This is precision-grade noise of
+the pipeline, not an object swap: the SL(3) pipeline matches the exact matrix to 5.9e-5,
+B65's high-precision run of the SAME route gives canonical entries (seed spread 8e-6),
+and the banked claim/prediction is a charpoly-factorization (spectral) statement -- the
+computed spectrum equals eig(exact J(1)) to 0.0101 and I re-derived the exact 7-Dickson
+factorization of char(J(1)) in-sandbox.
+
+LENS VERDICT: refuted=false. The recomputed fact addresses the ORIGINAL banked claim on
+its own definitional terms: same prediction, same object, same fixed point, same
+substitution; the banked impossibility headline is negated by a numerically computed
+instance of exactly the banked object.

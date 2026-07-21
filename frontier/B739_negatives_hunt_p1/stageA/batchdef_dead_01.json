@@ -1,0 +1,46 @@
+{
+ "name": "dead_01",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B77",
+   "findings": "frontier/B77_degree_rank_mechanism/FINDINGS.md",
+   "slug": "degree rank mechanism"
+  },
+  {
+   "id": "B84",
+   "findings": "frontier/B84_sl5_gauge_barrier/FINDINGS.md",
+   "slug": "sl5 gauge barrier"
+  },
+  {
+   "id": "B87",
+   "findings": "frontier/B87_m3_genus/FINDINGS.md",
+   "slug": "m3 genus"
+  },
+  {
+   "id": "B90",
+   "findings": "frontier/B90_degree_rank_peripheral/FINDINGS.md",
+   "slug": "degree rank peripheral"
+  },
+  {
+   "id": "B101",
+   "findings": "frontier/B101_hitchin_reframing/FINDINGS.md",
+   "slug": "hitchin reframing"
+  },
+  {
+   "id": "B107",
+   "findings": "frontier/B107_physics_connection_audit/FINDINGS.md",
+   "slug": "physics connection audit"
+  },
+  {
+   "id": "B111",
+   "findings": "frontier/B111_sign_structure/FINDINGS.md",
+   "slug": "sign structure"
+  },
+  {
+   "id": "B120",
+   "findings": "frontier/B120_tower_determination/FINDINGS.md",
+   "slug": "tower determination"
+  }
+ ]
+}

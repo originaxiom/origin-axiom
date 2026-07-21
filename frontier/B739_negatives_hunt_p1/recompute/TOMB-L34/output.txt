@@ -1,0 +1,55 @@
+==============================================================================
+LEG (a): entanglement scaling  (N=1597, half filling, open chain, t=1)
+==============================================================================
+
+S(L), one boundary point (interval [0,L)):
+  L        fibonacci    periodic      random
+  10          0.8998      0.8467      0.1036
+  20          0.8819      0.9697      0.1574
+  40          1.0801      1.0891      0.3996
+  80          1.1442      1.2062      0.4290
+  160         1.2706      1.3207      0.1039
+  320         1.2876      1.4284      0.1687
+  640         1.3470      1.5088      0.2220
+
+One-cut fits  (c_eff = 6 * logslope for an open-chain end interval):
+  fibonacci  logslope=+0.1207 (R2=0.9388)  linslope=+0.000645 (R2=0.6278)  ptp(last3)=0.0765  c_eff=0.724  -> LOG (1D-CFT critical)
+  periodic   logslope=+0.1615 (R2=0.9969)  linslope=+0.000898 (R2=0.7229)  ptp(last3)=0.1881  c_eff=0.969  -> LOG (1D-CFT critical)
+  random     logslope=+0.0042 (R2=0.0022)  linslope=-0.000064 (R2=0.0119)  ptp(last3)=0.1181  c_eff=0.025  -> AREA-LAW (bounded)
+
+Two-cut (bulk interval) fits  (c_eff = 3 * logslope):
+  fibonacci  logslope=+0.2706 (R2=0.9573)  linslope=+0.001519 (R2=0.7082)  ptp(last3)=0.3813  c_eff=0.812  -> LOG (1D-CFT critical)
+  periodic   logslope=+0.3164 (R2=0.9976)  linslope=+0.001766 (R2=0.7295)  ptp(last3)=0.3745  c_eff=0.949  -> LOG (1D-CFT critical)
+  random     logslope=-0.0621 (R2=0.0699)  linslope=-0.000019 (R2=0.0002)  ptp(last3)=0.5729  c_eff=-0.186  -> AREA-LAW (bounded)
+
+RT/CFT consistency (two-cut slope / one-cut slope, expect ~2):
+  fibonacci: 2.241    periodic: 1.959
+
+==============================================================================
+LEG (b): emergent geometry  (N=987, filling 1/3, 22 probe sites, D=-log|C|)
+==============================================================================
+
+Test 1 — bulk-averaged |C(r)| decay (power-law => AdS-like; exp => localized):
+  fibonacci  power eta=+1.046 (R2=0.869)   exp 1/xi=+0.0192 (R2=0.775)   -> POWER-LAW/AdS-like
+  periodic   power eta=+0.682 (R2=0.172)   exp 1/xi=+0.0120 (R2=0.141)   -> POWER-LAW/AdS-like
+  random     power eta=+8.039 (R2=0.873)   exp 1/xi=+0.3765 (R2=0.997)   -> EXP/localized
+
+Test 2 — Gromov delta/diam of D_ij = -log|C_ij| on the 22 probe sites:
+  fibonacci  delta=4.414  diam=11.595  delta/diam=0.381  -> mildly curved
+  periodic   delta=4.855  diam=12.601  delta/diam=0.385  -> mildly curved
+  random     delta=7.201  diam=27.209  delta/diam=0.265  -> mildly curved
+
+  |delta/diam(fib) - delta/diam(per)| = 0.005  (genericity tolerance 0.05)
+  banked V37 values: fibonacci 0.381, periodic 0.385, random 0.265
+
+==============================================================================
+VERDICT CHECKS
+==============================================================================
+  [PASS] (a1) Fibonacci entanglement is LOG (not area, not volume)
+  [PASS] (a2) periodic control is in the SAME log class (genericity of 'log')
+  [PASS] (a3) disorder control is AREA-LAW (the test CAN discriminate; E19 dir-2)
+  [PASS] (b1) 'AdS-like': power-law |C(r)| decay for fib AND periodic; the localized control is EXP (Test 1 discriminates)
+  [PASS] (b2) fib ~ periodic within 0.05 in delta/diam (the geometry does not single out fib)
+  [PASS] (b3) recomputed delta/diam match the banked V37 numbers to 3 decimals (0.381 / 0.385 / 0.265)
+
+RECOMPUTED VERDICT: RECONFIRMED — the entanglement is logarithmic (generic 1D-CFT criticality, shared with the periodic control; the holographic-boundary signature would be area-law and is exhibited only by the localized control), and the emergent geometry is AdS-like but generic (Fibonacci ~ periodic). S021 does not bridge.

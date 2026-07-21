@@ -3,6 +3,14 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-07-21): B739 — the negatives hunt (P1).** The audit seat re-adjudicated every
+banked negative: 30 old kills now stand on computed facts instead of citations; 2 kills DIED on
+recompute (B58's "untestable" claim and B225's octahedral-parent kill — both reopen as OPEN,
+pending cc2). Nearly every reconfirmed kill has new anatomy it never faced — that list is the
+next campaign. In parallel: cc runs Candidate Zero (B737, the voice/ζ-pole physics lead) and the
+pathfinder compiler (B738). Repairs: B734's banking completed + its congruence level refined to
+(4); the test suite collects again after 4 days broken.
+
 **LATEST (2026-07-20): B725 — the Born rule.** Two-seat (cc SSB + cc2 axiomatic, converged): the observer construction gives Born's *form* (Gleason forces Tr(ρP) on the frame's own factors) and *why it's quadratic* (the c-swap is order-2: |ψ|²=ψ·c(ψ)), but NOT Born's quantum *content* (interference + the specific weights) — those stay open. Honest: form yes, content open. Nothing to CLAIMS.
 
 

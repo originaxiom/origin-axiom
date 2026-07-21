@@ -1,0 +1,94 @@
+[
+  {
+    "id": "B332",
+    "ground": "dead-probe",
+    "source": "frontier/B332_two_letters_two_ends/FINDINGS.md",
+    "is_negative": false,
+    "why": "Positive banked identity (g = -R*L^-1; the two arithmetic ends are the product and ratio of the founding letters), verified in-arc. The atlas mined 'dead' from the CORRECTION block and the quarantined side-hooks ('1/4 volume-suppression pattern -- DEAD', '16 = 4 + h(E6) -- a dead hook') inside a bank, not from an arc-level kill. Classic correction/positive-arc mis-class."
+  },
+  {
+    "id": "B334",
+    "ground": "dead-probe",
+    "source": "frontier/B334_seam_hilbert_class_field/FINDINGS.md",
+    "is_negative": false,
+    "why": "Positive banked theorem (H(Q(sqrt-15)) = Q(sqrt5, sqrt-3), verified two ways) with a killed internal null test ('137 ... DEAD as a prediction') supplying the mined keywords. The file even carries a 2026-07-04 VINDICATION addendum: the insight was independently rebuilt and confirmed by B401/P68 -- the program's first complete revival cycle. Not a banked negative."
+  },
+  {
+    "id": "B335",
+    "ground": "dead-probe",
+    "source": "frontier/B335_generation_symmetry_exact/FINDINGS.md (lines 8-18, 27-31)",
+    "is_negative": true,
+    "claim_killed": "The single object (the 3-fold cyclic cover of 4_1) contains the generation mass hierarchy -- killed: the deck Z/3 is an exact isometry, so every real geometric invariant and hence the masses are exactly degenerate; the hierarchy is the breaking of the symmetry and is external by definition.",
+    "kill_form": "kind-mismatch",
+    "faces_consulted": ["emittance-lengths", "congruence-tower"],
+    "depth_reached": "one cover only (the 3-fold cyclic cover of 4_1): volume ratio, shortest-geodesic multiplicities, cusp shape, isometry group order 24; no deeper congruence level, no spectral face",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "**Confirmed (SnapPy 3.3.2, values recorded for CI):**\n- `vol(3-fold cover) / vol(4₁) = 3.0` exactly (isometric deck);\n- the shortest geodesics appear with **multiplicity 3** — three *isometric* sheets;",
+    "citation_chain": "B326: computation found there? yes -- H1(3-fold cover) = Z + (Z/4)^2 and the deck action verified two independent ways (SnapPy + exact Alexander module); transfers without extra hypotheses. The kill computation itself (isometry, spectra, order-24 group) is in-arc (generation_symmetry_exact.py committed).",
+    "revival_hypothesis": "Congruence tower m004 at (4) standard/(8) mod-center (B734) probes the same (Z/4)^2 torsion deeper; and the EMITTANCE/spectral face (B735) -- this pre-B735 kill consulted volume/lengths but never the spectral face, and masses are spectral data. Oracle hints (coupling-tier only): golden, metallic, kappa.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B343",
+    "ground": "dead-probe",
+    "source": "frontier/B343_exact_tbm_irreducibility/FINDINGS.md (lines 9-26)",
+    "is_negative": true,
+    "claim_killed": "The object selects a TBM-breaking direction (TM1 or TM2), i.e. determines theta_13 -- killed: the deck Z/3 acts irreducibly (Phi_3 irreducible mod 2), 3-cycling all three Klein Z_2's and fixing none, so the full Klein survives, exact TBM (theta_13 = 0) is forced, and the entire TBM-breaking is handed to the world (theta_13 = 0 itself experimentally excluded).",
+    "kill_form": "zero-intertwiner",
+    "faces_consulted": ["congruence-tower"],
+    "depth_reached": "torsion level only: (Z/4)^2 mod 2 (the Klein 2-torsion) and mod 4; deck Z/3 action; no deeper congruence level consulted",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "sympy (`Φ₃` mod 2 irreducibility, the deck 3-cycle, `T`–`S` commutator) + numpy (`U_TBM`). No physics values.",
+    "citation_chain": "B326: computation found there? yes -- the (Z/4)^2 congruence torsion and the irreducible-mod-4 Phi_3 deck action are computed there (SnapPy + exact Alexander module) and transfer directly; the mod-2 irreducibility, the 3-cycle on the Klein elements, and the T-normalisation failure are computed in-arc (exact_tbm_irreducibility.py committed). Note: the TM2 retraction part is a correction of B342, but the banked direction-blindness kill is genuine.",
+    "revival_hypothesis": "V4 forced faces (B730) -- the neutrino residual symmetry here IS a Klein V4, so the forced-faces anatomy bears directly; also congruence tower m004 at (4)/(8) mod-center (B734), where deeper level could break the mod-2/mod-4 irreducibility and select a direction. Oracle hints (coupling-tier only): amphichiral_cp, metallic, kappa.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B360",
+    "ground": "dead-probe",
+    "source": "frontier/B360_seam_selection_rule/FINDINGS.md",
+    "is_negative": false,
+    "why": "Positive pattern-tier arc: the pre-registered parity readings died ('the parity readings die', 'REFUTED') but silver-selectivity survived and was sharpened, with a declared discriminator that B361 ran same-day and confirmed into an exact 8-pair local law. Internal hypothesis-refinement inside a live positive arc, not a banked dead end -- the mined keywords are the refuted intermediate readings."
+  },
+  {
+    "id": "B361",
+    "ground": "dead-probe",
+    "source": "frontier/B361_seam_local_law/FINDINGS.md",
+    "is_negative": false,
+    "why": "Entirely positive bank: the doubly-elliptic local law, 8 exact pairs, zero counterexamples, with cheap forward predictions. The 'REFUTED' keyword refers to H-min losing to H-loc -- the discriminator working as designed, sharpening to the surviving law. Not a kill/dead-end/impossibility."
+  },
+  {
+    "id": "B364",
+    "ground": "dead-probe",
+    "source": "frontier/B364_theta_polarization/FINDINGS.md (lines 15-19)",
+    "is_negative": true,
+    "claim_killed": "T-stability of the level-15 theta family singles out the theta lift as *the* geometric lift -- killed by its own control: the square family E'(n) = n^2/15 is also T-stable with exactly the canonical lift's multiplier, so both characteristic classes arise as theta families and T-stability alone forces nothing.",
+    "kill_form": "genericity",
+    "faces_consulted": ["none-arithmetic-only"],
+    "depth_reached": "level-15 theta families, T-side only (two lattice-shift identities, numerics at 1e-15); S-side identification explicitly not completed (the honest gap)",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "**The control that killed the conclusion (`8e-15`):** the square family `E'(n) = n²/15` is *also* T-stable",
+    "citation_chain": "",
+    "revival_hypothesis": "Born ledger B725-B729 (the atlas oracle types this obstacle as 'measure'); and the EMITTANCE/spectral face (B735) -- polarization/quantization selection is spectral territory and no pre-B735 negative consulted that face. Note B365 already partially revived the question via the half-period vanishing signature. Oracle hints (coupling-tier only): golden, eisenstein, torsion.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B365",
+    "ground": "dead-probe",
+    "source": "frontier/B365_polarization_signature/FINDINGS.md (lines 7-12)",
+    "is_negative": true,
+    "claim_killed": "The triangular (theta-lift) family is S-closed on its own 15-dim span while the square is not, i.e. S-closure selects the polarization -- killed: at odd level the S-transform's (-1)^m twist forces the level-30 metaplectic sign-doubling for BOTH polarizations, so polarization selection does not happen at the S-closure level.",
+    "kill_form": "finite-level-obstruction",
+    "faces_consulted": ["none-arithmetic-only"],
+    "depth_reached": "level 15 vs level 30; all prefactor/shift closure candidates (residuals ~0.63); q-series at K=60, floors 1e-10 to 1e-21; four half-periods scanned",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "Predicted: the triangular family is S-closed on its own 15-dim span, the square is not. **Both closure fits\nfail** (residuals ≈ 0.63 over all prefactor/shift candidates).",
+    "citation_chain": "",
+    "revival_hypothesis": "The EMITTANCE/spectral face (B735) -- the S-side is spectral-decomposition territory and no pre-B735 negative ever consulted the spectral face; bounded observer menu (B733) may bear on the level-30 doubling. The arc itself banked a surviving positive signal (the odd-theta half-period vanishing signature) pointed at W2.2. Oracle hints (coupling-tier only): golden, metallic, eisenstein, dickson_tower.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  }
+]

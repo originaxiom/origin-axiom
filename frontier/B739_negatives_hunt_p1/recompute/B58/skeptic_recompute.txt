@@ -1,0 +1,46 @@
+B739 Stage-C skeptic recompute check -- B58 REVIVED (adversarial lens: recomputation)
+Date: 2026-07-21
+
+== 1. Verbatim rerun of recompute.py: bit-identical to banked output.txt (diff empty, exit 0) ==
+
+Rerun performed twice in this session (python3 recompute.py); both runs exited 0 and
+diffed empty against the banked output.txt, including the full 15-eigenvalue spectrum,
+[P3] max match 0.0000, [P4a] max match 0.0101, [P4b] dists 0.0002 / 0.0000, [P4c]
+parity count 3, and "ALL CHECKS PASS: True".
+
+== 2. Adversarial checks S1-S6 (b58_skeptic_checks.py) ==
+
+[S1] SL(3) substitution pullback identities, 25 random SL(3,C) pairs: max |tr - poly| = 9.395e-14
+[S2] exact SL(3) J: numeric eigvals vs claimed factor roots: max match = 3.553e-15
+[S3] eps=0.03: rank(dx)=15, rel residual ||dX-DT.dx||/||dX|| = 2.896e-08
+[S3] eps=0.07: rank(dx)=15, rel residual ||dX-DT.dx||/||dX|| = 1.028e-08
+[S3] eps=0.11: rank(dx)=15, rel residual ||dX-DT.dx||/||dX|| = 6.321e-09
+[S4] eps=0.03: raw DT(eps) spectrum: dist to -phi^2 = 0.0108, to -phi^-2 = 0.0003, parity count = 3
+[S4] eps=0.05: raw DT(eps) spectrum: dist to -phi^2 = 0.0297, to -phi^-2 = 0.0008, parity count = 3
+[S4] eps=0.07: raw DT(eps) spectrum: dist to -phi^2 = 0.0573, to -phi^-2 = 0.0017, parity count = 3
+[S4] eps=0.09: raw DT(eps) spectrum: dist to -phi^2 = 0.0937, to -phi^-2 = 0.0032, parity count = 3
+[S4] eps=0.11: raw DT(eps) spectrum: dist to -phi^2 = 0.1388, to -phi^-2 = 0.0054, parity count = 3
+[S5] seeds 12,13, banked grid, deg4, h=1e-6: dist(-phi^2)=0.0001, dist(-phi^-2)=0.0000, parity=3, maxmatch(B59)=0.0023
+[S5] seeds 10,11, shifted grid 0.04-0.12, deg4, h=1e-6: dist(-phi^2)=0.0002, dist(-phi^-2)=0.0001, parity=3, maxmatch(B59)=0.0023
+[S5] seeds 10,11, banked grid, deg3, h=1e-6: dist(-phi^2)=0.0007, dist(-phi^-2)=0.0001, parity=3, maxmatch(B59)=0.0042
+[S5] seeds 10,11, banked grid, deg4, h=1e-5: dist(-phi^2)=0.0001, dist(-phi^-2)=0.0000, parity=3, maxmatch(B59)=0.0004
+[S5] seeds 10,11, banked grid, deg4, h=1e-7: dist(-phi^2)=0.0016, dist(-phi^-2)=0.0004, parity=3, maxmatch(B59)=0.0291
+[S6] eigenvalue nearest -phi^2: -2.6181+0.0001i; min dist to ANY char(M^k) (|k|<=12) or parity root = 1.0001
+
+S1 substitution identities: PASS
+S2 anchor numeric eigs: PASS
+S3 functional-dependence residual: PASS
+S4 per-eps -phi^2 tracking: PASS
+S5 robustness sweep: PASS
+S6 kill margin: PASS
+
+SKEPTIC CHECKS ALL PASS: True
+
+== 3. Lemma closure (symbolic): min dist from any char(M^k) root (all integer k) or +-1 to -phi^2 is exactly 1, attained at -phi (phi^2-phi=1); positive roots >= phi^2 away; -phi^-m roots >= 2.0 away ==
+
+== 4. Convention audit (E1) ==
+  - SL(4) word list, substitution (A,B)->(AB,A), seeds (10,11), eps grids, h=1e-6, rcond=1e-12, deg-4 extrapolation: verbatim match with frontier/B59_sl4_factorization/probe.py.
+  - SL(3) anchor rows/exchange/tau-recursion: verbatim match with frontier/B54_general_c_exchange_structure/probe.py symbolic_jacobian(m=1), and hand-rederived independently (S1 validates the pullback identities at random SL(3,C) pairs, 9.4e-14).
+  - Matcher is sum-minimizing bipartite assignment (stricter than B59 greedy).
+
+VERDICT OF THIS SKEPTIC PASS: the REVIVED recomputation SURVIVES. refuted=false.

@@ -7000,3 +7000,33 @@ E23, held for two-seat consensus; LAW_MAP rows 128/129 untouched until then). Th
 (2)^1, m004 at (2)^2 standard / (2)^3 mod-center. Artifacts + sealed hashes in
 frontier/B734_m004_is_congruence/cc3_verification/ + ADDENDUM_CC3_2026-07-21.md. Serre-defying caveat
 stands (a fortiori); nothing to CLAIMS.
+
+## B739 — THE NEGATIVES HUNT, P1 STRATUM: 30 kills EARNED + 2 REVIVED (cc3, 2026-07-21)
+The handoff's mission executed as a sealed staged campaign (prereg v1→v6 + B′ addendum, hash-first;
+§16 reviewed SEVEN times — two genuine STOPs materially fixed the design (the 20 paragraph-style
+tombstones incl. S014 were missing from the ground; a forged-verdict incident caught + owned);
+NINE forged signals defeated by journal-on-disk gating + incremental disk-written review verdicts +
+independent verification of checkable claims — full evidence chain in the arc's CAMPAIGN_LEDGER).
+GROUND: 213 banked negatives (155 atlas-dead + 47 tombstones + 11 walls) triaged twice
+independently (89% substantive agreement; 21 disagreements adjudicated under a declared
+include-when-torn bias) → 162 true negatives (51 atlas STATUS_WORDS mis-classes) → 33 P1 (kills
+resting on cited/proxy/asserted/necessary-as-sufficient grounds) → 32 sealed targets recomputed
+in-sandbox. VERDICTS: **30 RECONFIRMED — each kill now carries its actual discriminating
+computation** (incl. WALL-1's no-SM-value basis, S014's Λ-formula null statistic, B516's
+previously-asserted dim-5 Pisot counterexample, B489's gauge-enhancement kill at 13/13 checks,
+B685's state-sum re-derivation using GSWZ only as cross-check); **2 REVIVED, both surviving
+3-skeptic adversarial verify with zero refutations + banking-seat byte-identical re-runs**:
+B58 (the "SL(4) 7-factor prediction cannot be tested numerically" headline NEGATED — the
+ε-extrapolated pinv route computes the ambient fixed-line Jacobian, spectrum independently
+reproducing B59; the symbolic task reopens with a working numerical route) and B225 (the
+"2 = octahedral parent" kill rested on a TAUTOLOGICAL bad-prime proxy — disc ≡ a² mod 2 always;
+false-positives on 2-good controls; the claim reopens as OPEN, the golden half stands). Both
+pending cc2 cross-verify before correction headers land on the originals. B′ annotation (sealed
+addendum): depth-exposure (E22) flagged on 18+ reconfirmations, anatomy-exposure (P2) on 26+ —
+**nearly every reconfirmed kill has post-B730 anatomy it never consulted; the spectral census:
+160/162 negatives never touched an emittance face, ZERO ever consulted scattering** — the sealed
+P2/P3 candidate list. Look-elsewhere: 213 triaged / 32 recomputed / 2 revived; neither revival
+asserts new structure (E20 not triggered, verified per-revival). Locks test_b739 (4). Companion
+audit findings + the B734 level-(4) refinement (cc concurs; cc2 pending): see #1227/#1229 +
+AUDIT sections of the arc. Credit: cc's B738 compiler is the independent cross-check lane;
+chat-1's conductor decomposition partially rehabilitated by the B225 revival. Nothing to CLAIMS.

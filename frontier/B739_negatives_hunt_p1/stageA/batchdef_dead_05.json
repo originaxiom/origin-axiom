@@ -1,0 +1,46 @@
+{
+ "name": "dead_05",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B299",
+   "findings": "frontier/B299_trinification_triality/FINDINGS.md",
+   "slug": "trinification triality"
+  },
+  {
+   "id": "B305",
+   "findings": "frontier/B305_eisenstein_trinification_grading/FINDINGS.md",
+   "slug": "eisenstein trinification grading"
+  },
+  {
+   "id": "B307",
+   "findings": "frontier/B307_totally_real_obstruction/FINDINGS.md",
+   "slug": "totally real obstruction"
+  },
+  {
+   "id": "B310",
+   "findings": "frontier/B310_cascade_realization_exhausted/FINDINGS.md",
+   "slug": "cascade realization exhausted"
+  },
+  {
+   "id": "B313",
+   "findings": "frontier/B313_fibonacci_bridge_and_no_forced_choice/FINDINGS.md",
+   "slug": "fibonacci bridge and no forced choice"
+  },
+  {
+   "id": "B320",
+   "findings": "frontier/B320_chat1_three_points/FINDINGS.md",
+   "slug": "chat1 three points"
+  },
+  {
+   "id": "B321",
+   "findings": "frontier/B321_seam_geometry_adjudication/FINDINGS.md",
+   "slug": "seam geometry adjudication"
+  },
+  {
+   "id": "B325",
+   "findings": "frontier/B325_z3_protection_refuted/FINDINGS.md",
+   "slug": "z3 protection refuted"
+  }
+ ]
+}

@@ -1,0 +1,1866 @@
+[
+ {
+  "id": "B52",
+  "slug": "multichannel fibonacci bridge control",
+  "dirs": [
+   "frontier/B52_multichannel_fibonacci_bridge_control"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B56",
+  "slug": "figure eight invariant surface",
+  "dirs": [
+   "frontier/B56_figure_eight_invariant_surface"
+  ],
+  "obstacle": "numerology",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B56_figure_eight_invariant_surface/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B57",
+  "slug": "general m splitting",
+  "dirs": [
+   "frontier/B57_general_m_splitting"
+  ],
+  "obstacle": "selector",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B57_general_m_splitting/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B58",
+  "slug": "stage1",
+  "dirs": [
+   "frontier/B58_sl4_tower_test",
+   "frontier/B58_phaseA",
+   "frontier/B58_stage1"
+  ],
+  "obstacle": "source_free",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B58_sl4_tower_test/FINDINGS.md",
+   "frontier/B58_phaseA/FINDINGS.md",
+   "frontier/B58_stage1/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B59",
+  "slug": "sl4 factorization",
+  "dirs": [
+   "frontier/B59_sl4_factorization"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B59_sl4_factorization/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B60",
+  "slug": "sln tower",
+  "dirs": [
+   "frontier/B60_sln_tower"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B60_sln_tower/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B62",
+  "slug": "opposition involution",
+  "dirs": [
+   "frontier/B62_opposition_involution"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B62_opposition_involution/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B66",
+  "slug": "sl6 tower",
+  "dirs": [
+   "frontier/B66_sl6_tower"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B66_sl6_tower/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B77",
+  "slug": "degree rank mechanism",
+  "dirs": [
+   "frontier/B77_degree_rank_mechanism"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "topology",
+  "findings": [
+   "frontier/B77_degree_rank_mechanism/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B84",
+  "slug": "sl5 gauge barrier",
+  "dirs": [
+   "frontier/B84_sl5_gauge_barrier"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B84_sl5_gauge_barrier/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B87",
+  "slug": "m3 genus",
+  "dirs": [
+   "frontier/B87_m3_genus"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B87_m3_genus/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B90",
+  "slug": "degree rank peripheral",
+  "dirs": [
+   "frontier/B90_degree_rank_peripheral"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "representation",
+  "findings": [
+   "frontier/B90_degree_rank_peripheral/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B101",
+  "slug": "hitchin reframing",
+  "dirs": [
+   "frontier/B101_hitchin_reframing"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B101_hitchin_reframing/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B107",
+  "slug": "physics connection audit",
+  "dirs": [
+   "frontier/B107_physics_connection_audit"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B107_physics_connection_audit/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B111",
+  "slug": "sign structure",
+  "dirs": [
+   "frontier/B111_sign_structure"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B111_sign_structure/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B120",
+  "slug": "tower determination",
+  "dirs": [
+   "frontier/B120_tower_determination"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B120_tower_determination/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B128",
+  "slug": "symmetry breaking chirality",
+  "dirs": [
+   "frontier/B128_symmetry_breaking_chirality"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "topology",
+  "findings": [
+   "frontier/B128_symmetry_breaking_chirality/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B132",
+  "slug": "quantum layer",
+  "dirs": [
+   "frontier/B132_quantum_layer"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B132_quantum_layer/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B140",
+  "slug": "compute reconciliation",
+  "dirs": [
+   "frontier/B140_compute_reconciliation"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B140_compute_reconciliation/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B146",
+  "slug": "b145 calibration",
+  "dirs": [
+   "frontier/B146_b145_calibration"
+  ],
+  "obstacle": "bridge_construction",
+  "domain": "topology",
+  "findings": [
+   "frontier/B146_b145_calibration/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B154",
+  "slug": "silver bundle foundation",
+  "dirs": [
+   "frontier/B154_silver_bundle_foundation"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B154_silver_bundle_foundation/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B157",
+  "slug": "metallic exponent",
+  "dirs": [
+   "frontier/B157_metallic_exponent"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B157_metallic_exponent/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B161",
+  "slug": "cancellation locus stratification",
+  "dirs": [
+   "frontier/B161_cancellation_locus_stratification"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B161_cancellation_locus_stratification/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B177",
+  "slug": "metabolism test",
+  "dirs": [
+   "frontier/B177_metabolism_test"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B177_metabolism_test/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B192",
+  "slug": "sln higher rank",
+  "dirs": [
+   "frontier/B192_sln_higher_rank"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B192_sln_higher_rank/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B200",
+  "slug": "chat1 handoff verification",
+  "dirs": [
+   "frontier/B200_chat1_handoff_verification"
+  ],
+  "obstacle": "bridge_construction",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B200_chat1_handoff_verification/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B214",
+  "slug": "general word period law",
+  "dirs": [
+   "frontier/B214_general_word_period_law"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B214_general_word_period_law/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B216",
+  "slug": "period law f8 boundary",
+  "dirs": [
+   "frontier/B216_period_law_f8_boundary"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B216_period_law_f8_boundary/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B219",
+  "slug": "period content law",
+  "dirs": [
+   "frontier/B219_period_content_law"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B219_period_content_law/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B225",
+  "slug": "conductor decomposition test",
+  "dirs": [
+   "frontier/B225_conductor_decomposition_test"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B225_conductor_decomposition_test/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B237",
+  "slug": "silver 2O l48",
+  "dirs": [
+   "frontier/B237_silver_2O_l48"
+  ],
+  "obstacle": "numerology",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B237_silver_2O_l48/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B239",
+  "slug": "reconciled trace field law",
+  "dirs": [
+   "frontier/B239_reconciled_trace_field_law"
+  ],
+  "obstacle": "numerology",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B239_reconciled_trace_field_law/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B243",
+  "slug": "levelrank conjugation general",
+  "dirs": [
+   "frontier/B243_levelrank_conjugation_general"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "topology",
+  "findings": [
+   "frontier/B243_levelrank_conjugation_general/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B247",
+  "slug": "v1 holonomy adjudication",
+  "dirs": [
+   "frontier/B247_v1_holonomy_adjudication"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B247_v1_holonomy_adjudication/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B252",
+  "slug": "chirality obstruction",
+  "dirs": [
+   "frontier/B252_chirality_obstruction"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B252_chirality_obstruction/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B272",
+  "slug": "verification and gaps",
+  "dirs": [
+   "frontier/B272_verification_and_gaps"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B272_verification_and_gaps/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B285",
+  "slug": "commutator phase",
+  "dirs": [
+   "frontier/B285_commutator_phase"
+  ],
+  "obstacle": "cancellation",
+  "domain": "topology",
+  "findings": [
+   "frontier/B285_commutator_phase/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B294",
+  "slug": "selection verdict",
+  "dirs": [
+   "frontier/B294_selection_verdict"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B294_selection_verdict/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B295",
+  "slug": "ssb gauge status",
+  "dirs": [
+   "frontier/B295_ssb_gauge_status"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B295_ssb_gauge_status/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B296",
+  "slug": "seam arc verification",
+  "dirs": [
+   "frontier/B296_seam_arc_verification"
+  ],
+  "obstacle": "measure",
+  "domain": "topology",
+  "findings": [
+   "frontier/B296_seam_arc_verification/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B299",
+  "slug": "trinification triality",
+  "dirs": [
+   "frontier/B299_trinification_triality"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B299_trinification_triality/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B305",
+  "slug": "eisenstein trinification grading",
+  "dirs": [
+   "frontier/B305_eisenstein_trinification_grading"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B305_eisenstein_trinification_grading/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B307",
+  "slug": "totally real obstruction",
+  "dirs": [
+   "frontier/B307_totally_real_obstruction"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B307_totally_real_obstruction/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B310",
+  "slug": "cascade realization exhausted",
+  "dirs": [
+   "frontier/B310_cascade_realization_exhausted"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B310_cascade_realization_exhausted/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B313",
+  "slug": "fibonacci bridge and no forced choice",
+  "dirs": [
+   "frontier/B313_fibonacci_bridge_and_no_forced_choice"
+  ],
+  "obstacle": "selector",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B313_fibonacci_bridge_and_no_forced_choice/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B320",
+  "slug": "chat1 three points",
+  "dirs": [
+   "frontier/B320_chat1_three_points"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B320_chat1_three_points/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B321",
+  "slug": "seam geometry adjudication",
+  "dirs": [
+   "frontier/B321_seam_geometry_adjudication"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B321_seam_geometry_adjudication/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B325",
+  "slug": "z3 protection refuted",
+  "dirs": [
+   "frontier/B325_z3_protection_refuted"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B325_z3_protection_refuted/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B332",
+  "slug": "two letters two ends",
+  "dirs": [
+   "frontier/B332_two_letters_two_ends"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B332_two_letters_two_ends/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B334",
+  "slug": "seam hilbert class field",
+  "dirs": [
+   "frontier/B334_seam_hilbert_class_field"
+  ],
+  "obstacle": "numerology",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B334_seam_hilbert_class_field/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B335",
+  "slug": "generation symmetry exact",
+  "dirs": [
+   "frontier/B335_generation_symmetry_exact"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B335_generation_symmetry_exact/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B343",
+  "slug": "exact tbm irreducibility",
+  "dirs": [
+   "frontier/B343_exact_tbm_irreducibility"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B343_exact_tbm_irreducibility/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B360",
+  "slug": "seam selection rule",
+  "dirs": [
+   "frontier/B360_seam_selection_rule"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B360_seam_selection_rule/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B361",
+  "slug": "seam local law",
+  "dirs": [
+   "frontier/B361_seam_local_law"
+  ],
+  "obstacle": "selector",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B361_seam_local_law/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B364",
+  "slug": "theta polarization",
+  "dirs": [
+   "frontier/B364_theta_polarization"
+  ],
+  "obstacle": "measure",
+  "domain": "geometry",
+  "findings": [
+   "frontier/B364_theta_polarization/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B365",
+  "slug": "polarization signature",
+  "dirs": [
+   "frontier/B365_polarization_signature"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "geometry",
+  "findings": [
+   "frontier/B365_polarization_signature/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B367",
+  "slug": "value map",
+  "dirs": [
+   "frontier/B367_value_map"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B367_value_map/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B372",
+  "slug": "level45 sweeper",
+  "dirs": [
+   "frontier/B372_level45_sweeper"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B372_level45_sweeper/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B373",
+  "slug": "level45 minimal sector",
+  "dirs": [
+   "frontier/B373_level45_minimal_sector"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B373_level45_minimal_sector/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B374",
+  "slug": "level135 rung",
+  "dirs": [
+   "frontier/B374_level135_rung"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B374_level135_rung/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B385",
+  "slug": "bright dark discriminator",
+  "dirs": [
+   "frontier/B385_bright_dark_discriminator"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B385_bright_dark_discriminator/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B389",
+  "slug": "mirror mechanism",
+  "dirs": [
+   "frontier/B389_mirror_mechanism"
+  ],
+  "obstacle": null,
+  "domain": "topology",
+  "findings": [
+   "frontier/B389_mirror_mechanism/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B392",
+  "slug": "wall probes",
+  "dirs": [
+   "frontier/B392_wall_probes"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B392_wall_probes/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B394",
+  "slug": "support walk",
+  "dirs": [
+   "frontier/B394_support_walk"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B394_support_walk/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B397",
+  "slug": "last census facts",
+  "dirs": [
+   "frontier/B397_last_census_facts"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B397_last_census_facts/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B399",
+  "slug": "wall scale",
+  "dirs": [
+   "frontier/B399_wall_scale"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B399_wall_scale/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B400",
+  "slug": "canonical frame",
+  "dirs": [
+   "frontier/B400_canonical_frame"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B400_canonical_frame/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B401",
+  "slug": "sixth angle",
+  "dirs": [
+   "frontier/B401_sixth_angle"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B401_sixth_angle/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B403",
+  "slug": "lead package",
+  "dirs": [
+   "frontier/B403_lead_package"
+  ],
+  "obstacle": "observable",
+  "domain": "meta",
+  "findings": [
+   "frontier/B403_lead_package/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B405",
+  "slug": "supersingular check",
+  "dirs": [
+   "frontier/B405_supersingular_check"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B405_supersingular_check/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B406",
+  "slug": "two conductor",
+  "dirs": [
+   "frontier/B406_two_conductor"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B406_two_conductor/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B407",
+  "slug": "support nesting",
+  "dirs": [
+   "frontier/B407_support_nesting"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B407_support_nesting/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B409",
+  "slug": "stratification transport",
+  "dirs": [
+   "frontier/B409_stratification_transport"
+  ],
+  "obstacle": "cancellation",
+  "domain": "meta",
+  "findings": [
+   "frontier/B409_stratification_transport/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B411",
+  "slug": "field dictionary",
+  "dirs": [
+   "frontier/B411_field_dictionary"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B411_field_dictionary/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B412",
+  "slug": "tower measure",
+  "dirs": [
+   "frontier/B412_tower_measure"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B412_tower_measure/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B418",
+  "slug": "tw4 upstairs",
+  "dirs": [
+   "frontier/B418_tw4_upstairs"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "topology",
+  "findings": [
+   "frontier/B418_tw4_upstairs/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B428",
+  "slug": "upstairs spin walls",
+  "dirs": [
+   "frontier/B428_upstairs_spin_walls"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B428_upstairs_spin_walls/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B433",
+  "slug": "3d3d calibration",
+  "dirs": [
+   "frontier/B433_3d3d_calibration"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B433_3d3d_calibration/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B435",
+  "slug": "child founding",
+  "dirs": [
+   "frontier/B435_child_founding"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B435_child_founding/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B437",
+  "slug": "child abelian book",
+  "dirs": [
+   "frontier/B437_child_abelian_book"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B437_child_abelian_book/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B440",
+  "slug": "foreign vacuum control",
+  "dirs": [
+   "frontier/B440_foreign_vacuum_control"
+  ],
+  "obstacle": null,
+  "domain": "topology",
+  "findings": [
+   "frontier/B440_foreign_vacuum_control/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B443",
+  "slug": "child atlas",
+  "dirs": [
+   "frontier/B443_child_atlas"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B443_child_atlas/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B444",
+  "slug": "sl3 field control",
+  "dirs": [
+   "frontier/B444_sl3_field_control"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "topology",
+  "findings": [
+   "frontier/B444_sl3_field_control/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B445",
+  "slug": "e6 h1 control",
+  "dirs": [
+   "frontier/B445_e6_h1_control"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "topology",
+  "findings": [
+   "frontier/B445_e6_h1_control/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B459",
+  "slug": "klein four verification",
+  "dirs": [
+   "frontier/B459_klein_four_verification"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B459_klein_four_verification/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B465",
+  "slug": "monodromy intake",
+  "dirs": [
+   "frontier/B465_monodromy_intake"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B465_monodromy_intake/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B468",
+  "slug": "z3 adjudication",
+  "dirs": [
+   "frontier/B468_z3_adjudication"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B468_z3_adjudication/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B472",
+  "slug": "quantum commutator",
+  "dirs": [
+   "frontier/B472_quantum_commutator"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B472_quantum_commutator/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B474",
+  "slug": "tier commutator law",
+  "dirs": [
+   "frontier/B474_tier_commutator_law"
+  ],
+  "obstacle": "cancellation",
+  "domain": "dynamics",
+  "findings": [
+   "frontier/B474_tier_commutator_law/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B476",
+  "slug": "interaction algebra",
+  "dirs": [
+   "frontier/B476_interaction_algebra"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B476_interaction_algebra/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B477",
+  "slug": "sterile classes",
+  "dirs": [
+   "frontier/B477_sterile_classes"
+  ],
+  "obstacle": null,
+  "domain": "dynamics",
+  "findings": [
+   "frontier/B477_sterile_classes/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B483",
+  "slug": "fibonacci anyon face",
+  "dirs": [
+   "frontier/B483_fibonacci_anyon_face"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "topology",
+  "findings": [
+   "frontier/B483_fibonacci_anyon_face/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B484",
+  "slug": "braiding sm verdict",
+  "dirs": [
+   "frontier/B484_braiding_sm_verdict"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "topology",
+  "findings": [
+   "frontier/B484_braiding_sm_verdict/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B486",
+  "slug": "cusp hexagonal verdict",
+  "dirs": [
+   "frontier/B486_cusp_hexagonal_verdict"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B486_cusp_hexagonal_verdict/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B487",
+  "slug": "dgg su3 verdict",
+  "dirs": [
+   "frontier/B487_dgg_su3_verdict"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B487_dgg_su3_verdict/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B489",
+  "slug": "self interaction tower",
+  "dirs": [
+   "frontier/B489_self_interaction_tower"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B489_self_interaction_tower/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B492",
+  "slug": "verlinde boundary lens",
+  "dirs": [
+   "frontier/B492_verlinde_boundary_lens"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B492_verlinde_boundary_lens/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B500",
+  "slug": "child hunt",
+  "dirs": [
+   "frontier/B500_child_hunt"
+  ],
+  "obstacle": "numerology",
+  "domain": "meta",
+  "findings": [
+   "frontier/B500_child_hunt/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B513",
+  "slug": "boundary attractors",
+  "dirs": [
+   "frontier/B513_boundary_attractors"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "topology",
+  "findings": [
+   "frontier/B513_boundary_attractors/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B515",
+  "slug": "golden 3d",
+  "dirs": [
+   "frontier/B515_golden_3d"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B515_golden_3d/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B516",
+  "slug": "golden 3d ladder",
+  "dirs": [
+   "frontier/B516_golden_3d_ladder"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B516_golden_3d_ladder/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B520",
+  "slug": "handoff verification",
+  "dirs": [
+   "frontier/B520_handoff_verification"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B520_handoff_verification/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B521",
+  "slug": "audit integration",
+  "dirs": [
+   "frontier/B521_audit_integration"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B521_audit_integration/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B523",
+  "slug": "verdict reexamination",
+  "dirs": [
+   "frontier/B523_verdict_reexamination"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B523_verdict_reexamination/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B525",
+  "slug": "are you sure",
+  "dirs": [
+   "frontier/B525_are_you_sure"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B525_are_you_sure/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B526",
+  "slug": "crossing package",
+  "dirs": [
+   "frontier/B526_crossing_package"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B526_crossing_package/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B539",
+  "slug": "relations campaign",
+  "dirs": [
+   "frontier/B539_relations_campaign"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B539_relations_campaign/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B545",
+  "slug": "ghost census",
+  "dirs": [
+   "frontier/B545_ghost_census"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "dynamics",
+  "findings": [
+   "frontier/B545_ghost_census/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B548",
+  "slug": "unhideable census",
+  "dirs": [
+   "frontier/B548_unhideable_census"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B548_unhideable_census/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B550",
+  "slug": "promotion sign",
+  "dirs": [
+   "frontier/B550_promotion_sign"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B550_promotion_sign/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B553",
+  "slug": "seat1 session3",
+  "dirs": [
+   "frontier/B553_seat1_session3"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B553_seat1_session3/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B554",
+  "slug": "meditation verify",
+  "dirs": [
+   "frontier/B554_meditation_verify"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B554_meditation_verify/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B558",
+  "slug": "three level negative",
+  "dirs": [
+   "frontier/B558_three_level_negative"
+  ],
+  "obstacle": "numerology",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B558_three_level_negative/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B561",
+  "slug": "l50 crux",
+  "dirs": [
+   "frontier/B561_l50_crux"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "topology",
+  "findings": [
+   "frontier/B561_l50_crux/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B567",
+  "slug": "hamiltonian handoff",
+  "dirs": [
+   "frontier/B567_hamiltonian_handoff"
+  ],
+  "obstacle": "measure",
+  "domain": "quantum",
+  "findings": [
+   "frontier/B567_hamiltonian_handoff/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B569",
+  "slug": "complete chain",
+  "dirs": [
+   "frontier/B569_complete_chain"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B569_complete_chain/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B572",
+  "slug": "eleven clauses",
+  "dirs": [
+   "frontier/B572_eleven_clauses"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B572_eleven_clauses/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B574",
+  "slug": "offprincipal",
+  "dirs": [
+   "frontier/B574_offprincipal"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "topology",
+  "findings": [
+   "frontier/B574_offprincipal/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B579",
+  "slug": "session handoff",
+  "dirs": [
+   "frontier/B579_session_handoff"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B579_session_handoff/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B585",
+  "slug": "listener law",
+  "dirs": [
+   "frontier/B585_listener_law"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B585_listener_law/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B604",
+  "slug": "rosetta blocks",
+  "dirs": [
+   "frontier/B604_rosetta_blocks"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B604_rosetta_blocks/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B605",
+  "slug": "door2 involution",
+  "dirs": [
+   "frontier/B605_door2_involution"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B605_door2_involution/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B619",
+  "slug": "a5 bridge",
+  "dirs": [
+   "frontier/B619_a5_bridge"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B619_a5_bridge/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B624",
+  "slug": "observable bridge",
+  "dirs": [
+   "frontier/B624_observable_bridge"
+  ],
+  "obstacle": "observable",
+  "domain": "dynamics",
+  "findings": [
+   "frontier/B624_observable_bridge/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B626",
+  "slug": "jacobian reality",
+  "dirs": [
+   "frontier/B626_jacobian_reality"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B626_jacobian_reality/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B632",
+  "slug": "cubic route",
+  "dirs": [
+   "frontier/B632_cubic_route"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B632_cubic_route/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B654",
+  "slug": "listening synthesis",
+  "dirs": [
+   "frontier/B654_listening_synthesis"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B654_listening_synthesis/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B656",
+  "slug": "digest integration",
+  "dirs": [
+   "frontier/B656_digest_integration"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B656_digest_integration/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B657",
+  "slug": "invariant line",
+  "dirs": [
+   "frontier/B657_invariant_line"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B657_invariant_line/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B664",
+  "slug": "metallic landscape",
+  "dirs": [
+   "frontier/B664_metallic_landscape"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B664_metallic_landscape/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B668",
+  "slug": "triage reconciliation",
+  "dirs": [
+   "frontier/B668_triage_reconciliation"
+  ],
+  "obstacle": "observable",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B668_triage_reconciliation/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B669",
+  "slug": "track h adjudication",
+  "dirs": [
+   "frontier/B669_track_h_adjudication"
+  ],
+  "obstacle": "units_scale",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B669_track_h_adjudication/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B672",
+  "slug": "grading hunt",
+  "dirs": [
+   "frontier/B672_grading_hunt"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B672_grading_hunt/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B677",
+  "slug": "morning packet",
+  "dirs": [
+   "frontier/B677_morning_packet"
+  ],
+  "obstacle": "gauge_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B677_morning_packet/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B681",
+  "slug": "habiro pretest",
+  "dirs": [
+   "frontier/B681_habiro_pretest"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B681_habiro_pretest/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B685",
+  "slug": "generation terminal",
+  "dirs": [
+   "frontier/B685_generation_terminal"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B685_generation_terminal/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B687",
+  "slug": "sm atlas koide",
+  "dirs": [
+   "frontier/B687_sm_atlas_koide"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B687_sm_atlas_koide/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B693",
+  "slug": "loop e3 inert5",
+  "dirs": [
+   "frontier/B693_loop_e3_inert5"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B693_loop_e3_inert5/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B698",
+  "slug": "the meeting probed",
+  "dirs": [
+   "frontier/B698_the_meeting_probed"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B698_the_meeting_probed/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B699",
+  "slug": "two object surgery",
+  "dirs": [
+   "frontier/B699_two_object_surgery"
+  ],
+  "obstacle": "bridge_construction",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B699_two_object_surgery/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B703",
+  "slug": "koide sigma distance",
+  "dirs": [
+   "frontier/B703_koide_sigma_distance"
+  ],
+  "obstacle": "observable",
+  "domain": "meta",
+  "findings": [
+   "frontier/B703_koide_sigma_distance/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B705",
+  "slug": "metallic hearing campaign",
+  "dirs": [
+   "frontier/B705_metallic_hearing_campaign"
+  ],
+  "obstacle": "numerology",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B705_metallic_hearing_campaign/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B706",
+  "slug": "rung2 sm freedom",
+  "dirs": [
+   "frontier/B706_rung2_sm_freedom"
+  ],
+  "obstacle": "particle_dict",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B706_rung2_sm_freedom/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B709",
+  "slug": "turok marriage adjudication",
+  "dirs": [
+   "frontier/B709_turok_marriage_adjudication"
+  ],
+  "obstacle": "spacetime_3p1",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B709_turok_marriage_adjudication/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B710",
+  "slug": "analytic t1 thimbles",
+  "dirs": [
+   "frontier/B710_analytic_t1_thimbles"
+  ],
+  "obstacle": "cancellation",
+  "domain": "topology",
+  "findings": [
+   "frontier/B710_analytic_t1_thimbles/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B711",
+  "slug": "two z2 degeneration",
+  "dirs": [
+   "frontier/B711_two_z2_degeneration"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B711_two_z2_degeneration/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B712",
+  "slug": "object continuum",
+  "dirs": [
+   "frontier/B712_object_continuum"
+  ],
+  "obstacle": null,
+  "domain": "topology",
+  "findings": [
+   "frontier/B712_object_continuum/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B720",
+  "slug": "coupling path",
+  "dirs": [
+   "frontier/B720_coupling_path"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B720_coupling_path/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B721",
+  "slug": "thermal time",
+  "dirs": [
+   "frontier/B721_thermal_time"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B721_thermal_time/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B724",
+  "slug": "seeing readjudication",
+  "dirs": [
+   "frontier/B724_seeing_readjudication"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B724_seeing_readjudication/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B726",
+  "slug": "hearing born content",
+  "dirs": [
+   "frontier/B726_hearing_born_content"
+  ],
+  "obstacle": "cancellation",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B726_hearing_born_content/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B727",
+  "slug": "base rate the structure",
+  "dirs": [
+   "frontier/B727_base_rate_the_structure"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B727_base_rate_the_structure/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B731",
+  "slug": "object observer noncongruence",
+  "dirs": [
+   "frontier/B731_object_observer_noncongruence"
+  ],
+  "obstacle": null,
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B731_object_observer_noncongruence/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B734",
+  "slug": "m004 is congruence",
+  "dirs": [
+   "frontier/B734_m004_is_congruence"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B734_m004_is_congruence/FINDINGS.md"
+  ]
+ },
+ {
+  "id": "B736",
+  "slug": "ABC campaign",
+  "dirs": [
+   "frontier/B736_ABC_campaign"
+  ],
+  "obstacle": "measure",
+  "domain": "arithmetic",
+  "findings": [
+   "frontier/B736_ABC_campaign/FINDINGS.md"
+  ]
+ }
+]

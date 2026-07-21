@@ -1,0 +1,62 @@
+# B737 ARTIFACT HASHES (sealed before first run)
+# base repo state: main @ 889c30e2 (PR #1227); seal date 2026-07-21
+cd01a1acc558485f1f6cef81dea7419cc37a1a3edb47ba72abf0fe2cc39a96fa  PREREGISTRATION.md
+ac4b3c4a4df6c7c6e85f7d64f3e89f13305eeb67cd12c42b7c88926dfb62df43  inputs/dead_probes.json
+6455495a2cb3438ab5531c98f2b959f663ae7b688ee242b82566d1dbc2bb791d  inputs/tombstones_index.json
+d3febe5eb05be8d30440317f6b1e01f07b3d765cd1289236a4b74a57ffa9f932  inputs/walls_sectionE.md
+
+# ---- v1 SEAL VOIDED by §16 review 1 (STOP; F1 ground incomplete) — preserved above per E7/append-only ----
+
+# v2 SEAL (post-STOP corrections; 2026-07-21 ~12:35; base main @ 889c30e2 + declared b680-fix modification)
+440aee612e1c899d7f0ad00a5ba540c6a98a3a079d8451f33a0e19da55baed05  PREREGISTRATION.md
+ac4b3c4a4df6c7c6e85f7d64f3e89f13305eeb67cd12c42b7c88926dfb62df43  inputs/dead_probes.json
+3baf0b44330e428d8406eae0379b461fea04acf242e9f87a6ea0acca7879257f  inputs/tombstones_index_v2.json
+d3febe5eb05be8d30440317f6b1e01f07b3d765cd1289236a4b74a57ffa9f932  inputs/walls_sectionE.md
+2291408c855f77be3b929a58545e798d48dc6e4aa2a7e30fe6a8b0c018a29e57  ../../tests/test_b680_meditation.py
+79439de6bb87fdd51f261db2a0725f68f7caaee6237324c10f2aee33e8b549ad  reviews/S16_REVIEW_1_STOP.md
+6ed870ea0cde38ea2ee5307c7f5aafd6f188f997c91640e0ea5e217047da9c18  reviews/S16_FAKE_SEALREADY_SIGNAL.md
+709ab048b4b16f82050bc0cf23e7f03bc6c98730146fbcc6abf27d26694c6a4c  reviews/S16_REVIEW_2_SEALREADY.md
+
+# ---- v2 SEAL VOIDED by §16 review 2 GENUINE (STOP; forged gate + L148 erratum + mechanism rationale) — preserved above ----
+
+# v3 SEAL (post-STOP-2 corrections; 2026-07-21 12:31 CEST; base main @ 889c30e2 + declared b680-fix modification)
+abeffd43a919006c3a333430a1f1c616fd57dfae872a316329e55debeac20f02  PREREGISTRATION.md
+ac4b3c4a4df6c7c6e85f7d64f3e89f13305eeb67cd12c42b7c88926dfb62df43  inputs/dead_probes.json
+3baf0b44330e428d8406eae0379b461fea04acf242e9f87a6ea0acca7879257f  inputs/tombstones_index_v2.json
+d3febe5eb05be8d30440317f6b1e01f07b3d765cd1289236a4b74a57ffa9f932  inputs/walls_sectionE.md
+2291408c855f77be3b929a58545e798d48dc6e4aa2a7e30fe6a8b0c018a29e57  ../../tests/test_b680_meditation.py
+79439de6bb87fdd51f261db2a0725f68f7caaee6237324c10f2aee33e8b549ad  reviews/S16_REVIEW_1_STOP.md
+6ed870ea0cde38ea2ee5307c7f5aafd6f188f997c91640e0ea5e217047da9c18  reviews/S16_FAKE_SEALREADY_SIGNAL.md
+b5a504cab82f259b324057a3f4cbf69c8108877268f70a8daf6e93e20250bb90  reviews/S16_REVIEW_2_GENUINE_STOP.md
+4c21db5d3f1706bd4eb5fb54b407c4376f82b4c1c2dd926fe79f9d6d5fb17d1f  reviews/S16_REVIEW_2_SEALREADY_QUARANTINE_NOTE.md
+0ee8cfce4d26a078ac0cb321295bd4e0254e1ba2aba714365ed205dd4734646d  stageA/kill_graph_DELETED_NOTE.md
+
+# v4 NOTE (renumber only, 12:40 CEST): arc B737_negatives_hunt_p1 -> B739_negatives_hunt_p1 (collision: cc's #1228 took B737; cc claims B738). Only PREREGISTRATION.md changed (title + renumber note); every other v3 hash remains valid:
+96502de02d6fea38ba1da092bb2337550dab32fec9363e00793b9f7300ecbd78  PREREGISTRATION.md
+
+# v5 NOTE (12:58:34 CEST; two Stage-D renumber residues cured per convergent reviews 3+5; base re-pinned db8dfadc in ledger):
+5ae198fe1ef494cc01fc443dc7565fa4b48c85051dfed2966b84b4cf8dba7c8b  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/PREREGISTRATION.md
+5ae508e61c207872bb05235b27da4acace6212de08069b60c23a96e075b05db9  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/reviews/S16_REVIEW_3_VERDICT.md
+345d054aa4b6e38a53aec7991c3d80d2d1b865f18da670840a08af26e9c530db  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/reviews/S16_REVIEW_5_VERDICT.md
+
+# v6 SEAL (13:07:21 CEST; the reconciliation + journal containment):
+5ae198fe1ef494cc01fc443dc7565fa4b48c85051dfed2966b84b4cf8dba7c8b  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/PREREGISTRATION.md
+4648ac61991319de4d83aa943638c020906d17204f1b60c6449a60eeddfecfb9  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/reviews/S16_REVIEW_4_VERDICT.md
+316d98194c789a2a69d9a100f1556d4c20f67d85860d32aaf0606fdd8eeaa678  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/reviews/S16_REVIEW_6_VERDICT.md
+b944fa76dea163b767701254591e2de174dc15df071208db7543b65c3a55f8b5  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/stageA/journals/run1_wf63c9d0c7_journal.jsonl
+011538b00d24fce701b89eb4c72dc90888f04b2dd70c0708bcbab67c74b74f62  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/stageA/journals/run2_wf4ac2653a_journal.jsonl
+5525ef98ca58184dda017de5e027a303d4d2b946f034c6f306bd10294cd3bdd3  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/reviews/S16_REVIEW_7_VERDICT.md
+
+# TARGETS SEAL (14:48:27 CEST; Stage A' per prereg v3-v6):
+8f93bc6fd4484a40472e77dc73ae702c8bcc4336251d65e0f8cf8195b8e47db8  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/stageA/kill_graph.json
+7b0c303cb88d3be66983f6f2febc3422e02f0aa2d9e67ae55663c1c4a3d39bff  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/stageA/TARGETS.json
+
+# B' ADDENDUM SEAL (15:21:39 CEST):
+99e192681e01bab63bcbee949700c004991a1165ba78d80b2b5ce4d4bdd1a10c  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/PREREG_ADDENDUM_B_PRIME.md
+
+# FINAL BANKING SEAL (20:00:35 CEST):
+ecdfc0c3e7ffad5e7ad6cf54b8308826009f7ee7d821f3ee7abcb4f8f5399648  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/FINDINGS.md
+ae250d22937bb6a7b7918e06c4411f44f409eaec9f77391ff721cc1156f96b47  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/stageA/bprime_annotations.json
+8f93bc6fd4484a40472e77dc73ae702c8bcc4336251d65e0f8cf8195b8e47db8  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/stageA/kill_graph.json
+7b0c303cb88d3be66983f6f2febc3422e02f0aa2d9e67ae55663c1c4a3d39bff  /Users/dri/oa-audit-seat/origin-axiom/frontier/B739_negatives_hunt_p1/stageA/TARGETS.json
+f9b5aea81592d0973e69d639d887c04a52e559ff979495962ebcb56b243c9106  /Users/dri/oa-audit-seat/origin-axiom/tests/test_b739_negatives_hunt.py

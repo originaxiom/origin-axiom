@@ -1,5 +1,16 @@
 # Changelog
 
+## B739 — the negatives hunt, P1 stratum: 30 kills earned + 2 revived (B58, B225)
+213 banked negatives triaged (double-run, adjudicated); 33 P1 kills (cited/proxy/asserted bases);
+32 recomputed in-sandbox: 30 RECONFIRMED now carrying their actual discriminating computation,
+2 REVIVED through 3-skeptic verify + seat re-runs (B58: the "cannot be tested numerically" headline
+negated; B225: the octahedral-parent kill was a tautological proxy — reopens as OPEN). B′
+annotations: 21 depth-exposure + 29 anatomy-exposure flags = the sealed P2/P3 candidate list; the
+spectral census: 160/162 negatives never consulted an emittance face, zero the scattering face.
+Companion repairs this session: #1227 (B734 banking + the level-(4) refinement, cc-concurred),
+#1229 (the suite-collection fix; 3 pre-existing failures documented). Nine forged-signal incidents
+defeated + documented; seven §16 reviews. Nothing to CLAIMS.
+
 ## B736 — the A+B+C campaign: object-observer OBSTRUCTED, parameter-reduction NO-GO, consolidation written
 - Owner's A+B+C (=cc2's 1+2+3) as a joint two-seat campaign, locked. Both consensus headlines CONVERGE. All 3 tracks OUTCOME B.
 - Path B (object-observer): OBSTRUCTED — finite-level⇒no-SSB (the β=1 SSB = the ζ_{ℚ(√−3)} pole, absent at finite level) + H³ not Hermitian⇒no Shimura. cc2 converges (B701 generic on the knot-observer).

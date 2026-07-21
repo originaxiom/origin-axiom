@@ -1,0 +1,46 @@
+{
+ "name": "dead_00",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B52",
+   "findings": "frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md",
+   "slug": "multichannel fibonacci bridge control"
+  },
+  {
+   "id": "B56",
+   "findings": "frontier/B56_figure_eight_invariant_surface/FINDINGS.md",
+   "slug": "figure eight invariant surface"
+  },
+  {
+   "id": "B57",
+   "findings": "frontier/B57_general_m_splitting/FINDINGS.md",
+   "slug": "general m splitting"
+  },
+  {
+   "id": "B58",
+   "findings": "frontier/B58_sl4_tower_test/FINDINGS.md",
+   "slug": "stage1"
+  },
+  {
+   "id": "B59",
+   "findings": "frontier/B59_sl4_factorization/FINDINGS.md",
+   "slug": "sl4 factorization"
+  },
+  {
+   "id": "B60",
+   "findings": "frontier/B60_sln_tower/FINDINGS.md",
+   "slug": "sln tower"
+  },
+  {
+   "id": "B62",
+   "findings": "frontier/B62_opposition_involution/FINDINGS.md",
+   "slug": "opposition involution"
+  },
+  {
+   "id": "B66",
+   "findings": "frontier/B66_sl6_tower/FINDINGS.md",
+   "slug": "sl6 tower"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+TOMB-L63 recompute — umbrella 'Standard-theory-kills' (five members)
+Discriminating fact: all five observations derive from AMBIENT definitions
+alone and hold for non-framework objects (=> 'bridge' reading = category error).
+------------------------------------------------------------------------------
+MEMBER 1: quantum |lambda| = 1 is UNITARITY; classical |lambda| = phi^2 != 1
+  classical M = RL = [[2,1],[1,1]]  eigenvalue moduli = ['0.38196601125', '2.61803398875']
+  phi^2  = 2.61803398875   phi^-2 = 0.38196601125
+  |moduli - phi^{+-2}| = 4.59e-41  (tombstone's phi^k, k=2)
+  M J M^T = J defect 0.0 (symplectomorphism: YES);  M M^T - I max = 4.0 (unitary: NO)
+  quantum U_k = rho_k(RL) (C1/C2):  k : unitarity defect | max ||lam|-1|
+    k=1:  2.3e-41  |  1.15e-41
+    k=2:  4.59e-41  |  2.3e-41
+    k=3:  4.59e-41  |  4.59e-41
+    k=4:  2.36e-41  |  8.04e-41
+    k=5:  7.38e-41  |  1.15e-40
+    k=6:  7.3e-41  |  1.15e-40
+    k=7:  4.02e-41  |  1.15e-40
+    k=8:  8.05e-41  |  2.53e-40
+  controls: sister RL^2 at k=4 max ||lam|-1| = 1.38e-40;  generic expm(iH) = 2.07e-40
+  => |lambda|=1 is a property of EVERY unitary (ambient), classical phi^2  is the non-unitary symplectic side.  MEMBER 1 AMBIENT: True
+------------------------------------------------------------------------------
+MEMBER 2: finite-k eigenvalues are roots of unity (ambient finite image)
+    k=1: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [6, 6]
+    k=2: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [3, 1, 3]
+    k=3: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [15, 15, 15, 15]
+    k=4: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [3, 4, 1, 3, 4]
+    k=5: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [12, 12, 6, 12, 6, 12]
+    k=6: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [1, 12, 4, 12, 12, 4, 12]
+    k=7: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [12, 12, 4, 4, 12, 4, 4, 12]
+    k=8: eigenvalue orders (lam^q = 1 verified to 1.0e-18): [30, 10, 1, 10, 30, 5, 30, 30, 5]
+    sister RL^2, k=4: orders [12, 12, 4, 12, 6]
+    counterexample A: classical M has entries in Z subset Z[zeta_6], yet
+      eigenvalue phi^2 root-of-unity order = None  (None = not a root of unity)
+    counterexample B: generic UNITARY expm(iH): orders [None, None, None, None, None, None]
+      -> unitarity alone does not give roots of unity either; the ambient
+         mechanism is the FINITE IMAGE of the level-k SL(2,Z) representation
+         (congruence-subgroup property) -- still ambient, zero framework input.
+  MEMBER 2 AMBIENT (with wording refined, kill unchanged): True
+------------------------------------------------------------------------------
+MEMBER 3: Kashaev -> volume is the KNOWN volume conjecture for 4_1
+  vol(4_1) ambient (a) 2 Im Li2(z0)   = 2.029883212819307250042405
+  vol(4_1) ambient (b) 6 Lob(pi/3)    = 2.029883212819307250042405
+  |(a)-(b)| = 4.59e-41
+  Kashaev sum per S027's declared convention (one-hop citation):
+    N=  100:  (2pi/N) log J_N = 2.44700630969   [minus (3/2)log N corr: 2.01297924494]
+    N=  200:  (2pi/N) log J_N = 2.27101969681   [minus (3/2)log N corr: 2.02134237308]
+    N=  400:  (2pi/N) log J_N = 2.16676136645   [minus (3/2)log N corr: 2.02559080891]
+    N=  800:  (2pi/N) log J_N = 2.10648276926   [minus (3/2)log N corr: 2.02773154265]
+    N= 1600:  (2pi/N) log J_N = 2.07226460133   [minus (3/2)log N corr: 2.0288060141]
+  S027's 'monotone, from above' toward vol: True
+  Richardson (2 d_2N - d_N) at N=1600: 2.02988048555   |diff from vol| = 2.73e-6
+  => the growth rate IS the ambient hyperbolic volume (Kashaev 1997 /
+     proven for 4_1) -- a known-result check, not a discovered bridge.
+  MEMBER 3 AMBIENT: True
+------------------------------------------------------------------------------
+MEMBER 4: z0 / k=4 phase match is divisibility arithmetic in (k+2)
+  z0 = (1+i sqrt3)/2;  |z0^2 - z0 + 1| = 0.0  (tetrahedron shape);  arg z0 = pi/3: 0.0
+  (a) unit 2pi/(k+2) = pi/3      : k in [4]   (k=4 unique: k+2 = 6 = 2*3)
+  (b) pi/3 in lattice m*pi/(k+2) : k in [1, 4, 7, 10]   (<=> 3 | (k+2) -- not unique!)
+  (c) pi/3 among eigenphases U_k : k in [1, 5, 9, 10]
+  NOTE (precision on the banked wording): the bullet's 'at all other k they
+  are multiples of pi/(k+2) != pi/3' holds only under reading (a) (the lattice
+  UNIT); under (b) the match recurs at every k = 1 (mod 3).  Either way the
+  match is pure divisibility in (k+2) -- ambient arithmetic; non-uniqueness
+  STRENGTHENS 'coincidence, not deep'.  No framework input anywhere.
+  MEMBER 4 AMBIENT: True
+------------------------------------------------------------------------------
+MEMBER 5: 'three regimes' = the standard asymptotic/semiclassical structure
+  (i)  finite k: every U_k eigenvalue verified a root of unity (MEMBER 2);
+       e.g. k=4 orders [3, 4, 1, 3, 4] -> all in cyclotomic fields Q(zeta_q).  True
+  (ii) classical: lambda = (3+sqrt5)/2 = phi^2, minimal polynomial x**2 - 3*x + 1;
+       algebraic of degree 2 in Q(sqrt5), |lambda| != 1, NOT a root of unity
+       (order = None); log-growth 2 log phi = 0.962423650119
+  (iii) coefficient regime: growth rate recomputed above -> V/(2pi),
+       V = 2.02988321281930725;  PSLQ (dps 120) on [1, V, ..., V^6],
+       maxcoeff 1e8: None
+       (no surviving relation -> no small algebraic relation, consistent
+       with the 'transcendental coefficient' label; finite check, not proof.)
+  All three regime NUMBERS come out of the ambient construction (cyclotomic
+  from finite level-k images; phi^2 from the classical monodromy; V from
+  hyperbolic geometry) -- an interpretation ON the standard asymptotics.
+  MEMBER 5 AMBIENT: True
+------------------------------------------------------------------------------
+UMBRELLA SYNTHESIS (both E19 directions)
+  direction 1 (kill true?): members ambient-derived = [True, True, True, True, True]
+  direction 2 (kill false?): does ANY phenomenon discriminate the framework
+  object?  |lambda|=1: no (holds for sister RL^2 and generic expm(iH)).
+  roots of unity: no (holds for sister RL^2; fails for BOTH non-TQFT
+  controls => mechanism is the ambient finite image, not the golden seed).
+  volume growth: the known 4_1 result.  pi/3 match: recurs at k=1,7,10
+  under the lattice reading => not a k=4 fingerprint.  regimes: standard.
+  VERDICT: RECONFIRMED

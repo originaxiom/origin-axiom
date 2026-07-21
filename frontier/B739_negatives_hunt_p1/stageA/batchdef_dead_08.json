@@ -1,0 +1,46 @@
+{
+ "name": "dead_08",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B397",
+   "findings": "frontier/B397_last_census_facts/FINDINGS.md",
+   "slug": "last census facts"
+  },
+  {
+   "id": "B399",
+   "findings": "frontier/B399_wall_scale/FINDINGS.md",
+   "slug": "wall scale"
+  },
+  {
+   "id": "B400",
+   "findings": "frontier/B400_canonical_frame/FINDINGS.md",
+   "slug": "canonical frame"
+  },
+  {
+   "id": "B401",
+   "findings": "frontier/B401_sixth_angle/FINDINGS.md",
+   "slug": "sixth angle"
+  },
+  {
+   "id": "B403",
+   "findings": "frontier/B403_lead_package/FINDINGS.md",
+   "slug": "lead package"
+  },
+  {
+   "id": "B405",
+   "findings": "frontier/B405_supersingular_check/FINDINGS.md",
+   "slug": "supersingular check"
+  },
+  {
+   "id": "B406",
+   "findings": "frontier/B406_two_conductor/FINDINGS.md",
+   "slug": "two conductor"
+  },
+  {
+   "id": "B407",
+   "findings": "frontier/B407_support_nesting/FINDINGS.md",
+   "slug": "support nesting"
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "B107": {
+  "id": "B107",
+  "depth_exposure": true,
+  "depth_note": "Recompute closes the spectrum symbolically only at SL(3), seeds m=1 (phi) and m=2 (1+sqrt2), each = {s*(seed-dilatation)^k}, k in [-3..3]; SL(4) inherited from B103 (proved n=3,4), n>4 untouched. The \"metallic tower\" claim quantifies over all levels n and seeds. Stabilization proof needs char(J_n)=prod_d char(Sym^d M_seed) at the fixed point for every n/seed, so no new scale enters as n grows.",
+  "anatomy_exposure": true,
+  "anatomy_note": "B735 EMITTANCE-spectrum face. The revival_hypothesis names it explicitly; faces_consulted=[\"sl-n-tower\"] only. The single-scale / \"not new physics\" verdict rests solely on the discrete Jacobian channel; the object's native continuous emittance-scattering channel, plus the arc's E-fork off-principal multichannel sector (D1 root-of-unity data), was never tested and could carry scales beyond log-phi.",
+  "verdict_disagreement": false
+ },
+ "B437": {
+  "id": "B437",
+  "depth_exposure": true,
+  "depth_note": "Step 4 symbolically closes 'every knot' at FIXED slope 5 (genuine universal, not sampled). But record.depth_reached cites a broader 3-tier argument: slope-5 trefoil + slope-7 sibling + B438's 5_2 sharpening. recompute.py redid only slope-5, declined to recheck B438; slope-7 untouched. Needed: rerun method at other slopes, and independent recompute of B438's 5_2 claim.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B734 (congruence tower, m004 level-(4)-standard vs (8)-mod-center) as the data a genuine inheritance break needs to split 4_1 from 5_2. recompute.py stays entirely inside abelian H1-character/Alexander machinery (traces mod Phi_5, resultants); it never touches m004's congruence-subgroup level structure, so B734 is unconsulted exactly as the record flags.",
+  "verdict_disagreement": false,
+  "disagreement_note": "No disagreement: trefoil trace (1-sqrt5/5) and the arbitrary-numerator field-forcing theorem are exact symbolic derivations, numerically cross-checked, matching the banked assertion verbatim. RECONFIRMED stands; my flags are about scope, not correctness."
+ },
+ "B500": {
+  "id": "B500",
+  "depth_exposure": true,
+  "depth_note": "Recompute closes depth-4 exactly (0/36) and depth-5 by 2-prime F_p no-child certificates (all 150 words), but the killed 'child is a SHORT word' has no crisp depth ceiling; depth>=6 is unswept. Stabilization needs a depth-uniform obstruction: prove the d_K=-283 quartic is no word's trace-field factor at ANY depth (ramification/discriminant exclusion), or bound where a degree-4 child can appear.",
+  "anatomy_exposure": false,
+  "anatomy_note": "None apparent. The revival_hypothesis itself says 'Not anatomy-dependent'; B735 spectral is named only as the campaign-wide 'never consulted' boilerplate. The kill is a self-contained arithmetic absence question -- does the fixed quartic Q[t]/(t^4-t-1), d_K=-283, arise as a word's invariant-trace-field factor -- on which the emittance/scattering face has no evident bearing.",
+  "verdict_disagreement": false,
+  "disagreement_note": "Agree with RECONFIRMED. As originally scoped (absence at depth-4 complete, depth-5 provisional) the kill recomputes true and is in fact strengthened: depth-5 upgraded from 115/150 to all 150 via F_p certificates. Depth flag is a widening note, not a challenge."
+ },
+ "TOMB-L255": {
+  "id": "TOMB-L255",
+  "depth_exposure": true,
+  "depth_note": "Only n=2..13 at golden m=1 computed; functoriality proven d<=6, diag eigenvalue formula only d=6 -- a sketch, not an all-n proof. Stabilization needs all-d functoriality by induction (spec Sym^{n-1}M={(-1)^j phi^{n-1-2j}} every n), then Dirichlet: real-quadratic seed eigenvalues are rank-1 units => mult free rank=1 for all n and metallic m; additive rank<=2 since [Q(sqrt(m^2+4)):Q]=2.",
+  "anatomy_exposure": true,
+  "anatomy_note": "Congruence tower B734 (level-4-std/8-mod-center, m004): 'tower depth' has a second reading the recompute never consulted -- a congruence-level filtration whose index climbs before stabilizing -- and B734's SL-vs-PSL-center lesson is the factor-2 bookkeeping that could move the recompute's SL-only rank counts (det M=-1, +/-phi^e). Out(A5) B732 seats the +/- Galois check but adds no rank.",
+  "verdict_disagreement": false,
+  "disagreement_note": "Correct as-scoped: mult free rank identically 1, additive rank identically 2 over Q(sqrt5) across n=2..13; rank provably does not climb with Sym-power tower depth."
+ },
+ "B146": {
+  "id": "B146",
+  "depth_exposure": false,
+  "depth_note": "Closes the quantifier. Killed claim is universal (\"every quadratic-trace-field o-p-t bundle is amphichiral\"); one exact counterexample refutes it, regardless of range. Witness (b++RRL/RLL, Q(sqrt-7)) verified symbolically: exact trace-field degree/discriminant + SnapPy exact symmetry-group chirality. Range = B145/B146's own declared universe (maxlen=7), not an under-sample of a broader claim.",
+  "anatomy_exposure": true,
+  "anatomy_note": "Record's revival_hypothesis names B734 (congruence/Hecke tower): unresolved whether Q(sqrt-7) gives integral traces / full arithmeticity (B2, open). recompute.py only checks trace-field degree/discriminant + geometric chirality, never congruence-level membership. If RRL/RLL sits in B734's tower, that reframes its arithmetic anatomy but cannot overturn this verdict -- only bears on open item B2.",
+  "verdict_disagreement": false,
+  "disagreement_note": "No disagreement: combinatorial and geometric chirality legs agree on all 8 words, mirror-pair vol/H1/CS/isometry checks all pass, and the one prior run-1 issue was a documented verdict-logic key-mismatch bug, not a substantive-number error."
+ },
+ "TOMB-L267": {
+  "id": "TOMB-L267",
+  "depth_exposure": true,
+  "depth_note": "K-N's \"empty support\" claim covers the whole metallic family (m>=2) but recompute.py only sampled m=1..6 (algdep residual/height test per m); m>=7 untested. Closing the quantifier needs a general degree-growth theorem for the invariant trace field of b++R^mL^m (or a CM-rarity argument), not a further finite sweep. K-O's order-2880 SU(2)_3 image was enumerated exhaustively, so no exposure there.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names both faces, neither consulted: (1) B734 congruence tower \u2014 CM/disc derived via raw shape-field+algdep, not via B734's level-(4)/(8) framework separating newform vs Eisenstein content. (2) B735 emittance face \u2014 \"K-O trace leak\" only recomputes the finite SU(2)_3 quantum-group image; never touches m004's actual continuous spectrum/scattering data B735/B739 characterize.",
+  "verdict_disagreement": false,
+  "disagreement_note": "None \u2014 RECONFIRMED is well-supported within its tested scope (exact symbolic identity, residual-guarded CM extraction, exhaustive SU(2)_3 enumeration); exposures bound its reach, not correctness."
+ },
+ "TOMB-L30": {
+  "id": "TOMB-L30",
+  "depth_exposure": false,
+  "depth_note": "Closes the quantifier symbolically, not by sampling: dF/dk=0 exactly, free_symbols(F)={m}, F&gt;0 proven, sqrt(F)/dLE'=1 exactly \u2014 theorem-shaped on the free symbol m; the m=1..6 table is a redundant sanity check. K-freeness is structural, not range-limited: the arc declares no interpolating family p(x|k), so k literally cannot enter any Fisher object. No depth ceiling to stabilize.",
+  "anatomy_exposure": true,
+  "anatomy_note": "Matches revival_hypothesis: B735 EMITTANCE/spectral face. faces_consulted=[\"none-arithmetic-only\"]; recompute stays wholly in E21's classical WP/parameter-line conventions (C1-C5), never attempting a spectral/EMITTANCE construction. B735 could matter by supplying a genuinely k-varying probability family p(x|k) that the classical-line proof shows doesn't exist under current conventions.",
+  "verdict_disagreement": false,
+  "disagreement_note": "Agree with RECONFIRMED as scoped: k-freeness, positivity, and the WP-collapse identity are all proven by exact symbolic assertions, not asserted or spot-sampled. The one-hop citation check (zero \"Fisher\" hits in PHYSICS_RESONANCES.md) and E21(d)/V6 cross-reference verify. The E1 convention choice (C4) is flagged honestly as a choice, not hidden."
+ },
+ "TOMB-L9": {
+  "id": "TOMB-L9",
+  "depth_exposure": false,
+  "depth_note": "False. FACT1 (circularity) is theorem-shaped: round(T/step) bounds the fit residual to step/2=0.209 dex for ANY real T, proved analytically \u2014 the T-sweep only illustrates it, so it covers the claim's full scope. FACT2 (~60% base-rate) is Monte Carlo but the killed clause is itself statistical, matching its scope; robust across 2 base-models + 3 T-values.",
+  "anatomy_exposure": true,
+  "anatomy_note": "True. Record's revival_hypothesis says 'none apparent', but recompute never checks whether B730 (phi/Q(sqrt5) as the FORCED 'hearing' face; growth law |H1(Sigma_n)|=Lucas L_2n-2) or B734's congruence-tower depths / B733's observer-menu bits supply a NON-circular source for N \u2014 which would break FACT1's circularity leg if it existed.",
+  "verdict_disagreement": false,
+  "disagreement_note": "NOTE (process, not content): x.id/x.record/x.verdict/ARC arrived as unsubstituted template literals in this call. I located ARC and selected TOMB-L9 from the 24 items remaining in 'B-prime' run 2 per CAMPAIGN_LEDGER.md; this annotation is genuine for TOMB-L9 but may not be the id the orchestrator intended \u2014 please reconcile against the actual queue slot."
+ },
+ "WALL-1": {
+  "id": "WALL-1",
+  "depth_exposure": false,
+  "depth_note": "Legs are exact general theorems, not finite samples: Lemma L covers any finite group (not just the 6 stabilizers); C3-impossibility is a general odd-order argument; leg V's length-spectrum truncation (to 1.7) is illustrative \u2014 Neumann-Reid guarantees the trace field for ALL traces. Open item: the I-V taxonomy's exhaustiveness over every kind of SM value is asserted, not proven.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735 emittance; Part V consults it \u2014 closed. Untouched: Out(A5) B732 (2I=SL(2,F5) in leg I is the double cover of A5; outer-automorphism structure unchecked); B734 m004 level-(4) refinement (SL(2,Z/15) used, not the level-4 split); Born ledger B725-9/observer menu B733 (could reframe value as observer-relative, outside the I-V taxonomy).",
+  "verdict_disagreement": false
+ },
+ "B285": {
+  "depth_exposure": false,
+  "depth_note": "Claim is a single-point assertion (this rep, this conversion, \"~1 order\"), not universal over knots/reps/loop-orders. Recompute deepens the original: re-derives u^2+u+1=0 from the relation itself, excludes u=0, checks sign on both roots, adds a g*/eta_obs sweep (min gap 3.92 orders). Remaining gap: 2-loop RG corrections are O(1) only, can't close 4+ orders.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names Born ledger (B725-9), bounded-observer menu (B733), EMITTANCE face (B735) as unconsulted; recompute confirms this \u2014 it only redoes the group-theoretic phase and Kolb-Turner epsilon/g* bookkeeping, never a measurement-weighted reweighting, observer-restricted dof count, or spectral input. Unlikely to close a 4-5 order gap, but genuinely untouched; correct P2 candidates.",
+  "verdict_disagreement": false,
+  "disagreement_note": "",
+  "id": "B285"
+ },
+ "TOMB-L57": {
+  "depth_exposure": true,
+  "depth_note": "Sweep covers only m=1,2,3. m=1,2 hit exact quadratic shapes (pi/3, pi/2); m=3's theta is numeric, no closed form -- no law for theta_m vs m derived. m-dependence shown at 3 points, not proven to never re-hit k=4 at larger m. Needs closed-form/asymptotic theta_m (trace-field/NZ data, m->inf) bounded away from pi/3, or an extended sweep (m~20-50) plus an argument against re-crossing.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names two post-B730 faces recompute never touches: B735 (emittance/spectral) and B734 (congruence tower, m003@level-2/m004@level-4). recompute.py only does SnapPy shapes, CS phase lattice 2pi/(k+2), Lobachevsky volume -- no congruence-level or emittance/spectral machinery. A level-indexed re-derivation of k_c is genuinely unconsulted.",
+  "verdict_disagreement": false,
+  "id": "TOMB-L57"
+ },
+ "TOMB-L77": {
+  "depth_exposure": true,
+  "depth_note": "Recompute proves the identity for ONE invariant (Kashaev fig-8); killed claim says \"quantum invariants\" (general). Asymptotics are numeric extrapolation (N to 1600-8192), PSLQ-excluded only to deg<=6/coeff<=1e8, not proven transcendental. Deeper work needs: same derivation for other knots, rigorous non-numeric proof of p=3/2 & C=3^-1/4, and a real transcendence proof of Vol/2pi.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735 (EMITTANCE/spectral face): \"never confronted with actual spectral data; no pre-B735 negative consulted the spectral face.\" recompute.py/output.txt are pure sympy/mpmath symbolic-numeric derivation (cyclotomic values, saddle algebraic number, PSLQ on Vol) -- no spectral/emittance data or B735 face appears in the artifacts.",
+  "verdict_disagreement": false,
+  "disagreement_note": "No disagreement: within its declared scope (fig-8 Kashaev invariant) the recompute is a clean, checkable re-derivation matching known saddle-point/volume-conjecture asymptotics. Flags above concern quantifier scope and unconsulted post-B730 anatomy, not correctness of the verdict.",
+  "id": "TOMB-L77"
+ },
+ "B489": {
+  "depth_exposure": true,
+  "depth_note": "Recompute caps NMAX=8; claim/script assert generality (\"structural for all n\") via extrapolation, not proof. A stabilization proof needs: (1) induction on the layered-triangulation rule showing N=2n,c=1 for ALL n; (2) Binet-formula proof L(2n) strictly increases so torsion>1 for all n>=2, not just 8 samples; (3) generalize the non-knot-complement obstruction beyond n=2..8.",
+  "anatomy_exposure": true,
+  "anatomy_note": "The kill record's own revival_hypothesis names B734 (congruence tower: m004 level-(4) standard/(8) mod-center) and flags \"n=4 torsion Z/3+Z/15 untested there.\" The recompute reproduces that n=4 torsion via SnapPy's b++/RL construction alone and never touches B734's mod-center structure, so the named face was not consulted.",
+  "verdict_disagreement": false,
+  "disagreement_note": "13/13 checks pass; trace/torsion laws cross-verified via SNF against banked H1 at each level, and the m004/5_2/m206(3,1)/m160(1,2) volumes/identifications match standard census values. No error found in the RECONFIRMED verdict.",
+  "id": "B489"
+ },
+ "TOMB-L63": {
+  "depth_exposure": true,
+  "depth_note": "M1/M2 sweep only k=1..8; \"roots-of-unity/unitarity is ambient\" is a general theorem (congruence-subgroup finiteness for ALL k) but only 8 levels are enumerated, not proved generally. M5(iii) \"transcendental coefficient\" is quantified over ALL degrees but tested only via PSLQ non-hit to degree 6, maxcoeff 1e8 -- a negative numeric check, not a proof.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735 (emittance/spectral) and B733 (bounded-observer menu) as unconsulted; recompute.py is pure ambient math with no spectral/emittance quantity or observer framing. Also: M2's own mechanism (\"finite image via congruence-subgroup property\") is squarely B734's congruence-tower territory, yet B734 is never cited despite rediscovering the same phenomenon.",
+  "verdict_disagreement": false,
+  "id": "TOMB-L63"
+ },
+ "TOMB-L334": {
+  "depth_exposure": true,
+  "depth_note": "evidence_quote cites the formula as \"PROVED for all n\" (universal), but recompute only checks n=3..15 by enumeration/linear algebra, same finite range as original. A general proof needs: the reversal sigma(i)=m+1-i on {1..m} has exactly 1 fixed point iff m odd, giving (ceil(m/2),floor(m/2)) for ALL m algebraically. No level parameter varied, so B734 reindexing beyond n=15 unaddressed.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B734 (congruence tower) and B735 (emittance spectrum) verbatim as untested -- \"the rep-tower law never met the emittance spectrum.\" recompute.py is pure A_{n-1}/theta root combinatorics (C1-C5 only); it never touches B734's level indexing or B735's emittance mapping, so it can't show the sector found here is what the functor's emittance domain reaches.",
+  "verdict_disagreement": false,
+  "id": "TOMB-L334"
+ },
+ "B516": {
+  "depth_exposure": false,
+  "depth_note": "Killed claim is a \"cap at 3\" universal claim, refuted by one counterexample. Recompute exhaustively scans the declared {0,1,2} golden-module subfamily (46656/46656, not sampling) and exact-verifies 2 dim-5 witnesses symbolically (charpoly, Q(sqrt5) split, 25-digit magnitudes, M^26>0). A subfamily witness is a full-space witness, so existence is proven, not depth-limited.",
+  "anatomy_exposure": true,
+  "anatomy_note": "Recompute is pure charpoly/Pisot/golden-field math, no reference to B730/B734/B732/B733/B735. Revival_hypothesis names two gaps: (1) B730 V4-forced-faces/congruence-tower could constrain which coupling matrices are \"legal,\" possibly invalidating the C6 subfamily; (2) B735 (spectral/EMITTANCE) never consulted though the fact is itself spectral.",
+  "verdict_disagreement": false,
+  "disagreement_note": "",
+  "id": "B516"
+ },
+ "TOMB-L258": {
+  "depth_exposure": true,
+  "depth_note": "Finite sweep only: F1 checks k=2..8 (+alt to k=10), F2 checks n=2..10, but claim is implicitly universal in k,n. Reconfirming facts rest on unstated general lemmas: (a) integer t>=3 => t^2-4 never a perfect square (all k); (b) A=RL eigenvalues phi^{+-2} => all Sym^(n-1)(A) eigenvalues even phi-powers (all n). Stabilization proof = state these as closed lemmas, not brute sweeps.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis explicitly names B735: \"the shared route is the B735 spectral face (a rank observable defined directly on the emittance spectrum).\" Recompute is arithmetic-only (faces_consulted=[none-arithmetic-only]; script has sympy/mpmath matrix+PSLQ arithmetic, no emittance-spectrum computation). The one face the record flags as the revival path was not consulted.",
+  "verdict_disagreement": false,
+  "id": "TOMB-L258"
+ },
+ "TOMB-L70": {
+  "depth_exposure": true,
+  "depth_note": "Full-group BFS proving finite image (true closure) runs only at k=1,2,3; k=4..12 get only a fixed word battery, so \"universal at every finite k\" is extrapolated past k=3. Needs citing the general finite-image theorem for level-k SL(2,Z) reps (Vafa order-of-T + congruence property), or extending BFS to more k so finiteness is induction-supported, not a 3-point sample.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B734 (mod-center congruence structure, m004 level-(8)) as the nearby face \"if roots-of-unity arithmetic is re-posed.\" recompute.py never touches it: no congruence tower, Out(A5)/B732, Born ledger, bounded observer menu, or EMITTANCE reference. Computed finite-image sizes (96, 3072, 28800 at k=1,2,3) are congruence-level data whose tie to B734 was not checked.",
+  "verdict_disagreement": false,
+  "id": "TOMB-L70"
+ },
+ "TOMB-L74": {
+  "depth_exposure": false,
+  "depth_note": "The bullet's universal clause is closed algebraically, not sampled: Part 2's congruences (k\u22611 mod3, k\u22614 mod6, k=4 unique for q(k)=z0) are exact divisibility/linear-equation facts true for ALL k by construction; the k=1..1000 loop is illustrative, not the source of universality. Only Part 3's C3 sweep (k=1..12, non-load-bearing) is finite, and k=4 itself is computed exactly there.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B734 (congruence tower: m003 level-(2), m004/4_1 level-(4)/(8)) as untested \u2014 could show if arg(z0)=pi/3 (Q(sqrt-3)) recurs at other levels/manifolds. Recompute never touches it: it stays inside the single 4_1 manifold, varying only k in the SU(2)_k RT rep, not the congruence-subgroup level structure.",
+  "disagreement_note": "",
+  "verdict_disagreement": false,
+  "id": "TOMB-L74"
+ },
+ "TOMB-L67": {
+  "depth_exposure": true,
+  "depth_note": "Claim says \"true of EVERY quantum theory,\" \"EVERY level,\" \"EVERY word\" \u2014 universal. Recompute is finite sampling: k=1..12+{20,32,40}, n=1..6, 8 words, 3 MTCs beyond SU(2)_k. Closure needs: (1) closed-form proof S_ab orthogonal for ALL k, not 15 sample k's; (2) general MTC theorem (any modular cat's S,T unitary), not 3 example categories standing in for \"every theory.\"",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735 (emittance/spectral); confirmed real via B735_emittance/FINDINGS.md: length-spectrum traces 2cosh(L/2) in Z[omega], transcendental l=2log|lambda|, continuous cusp/Laplacian spectrum. Recompute (faces_consulted=[mtc-overlay] only) stays in the SL(2,Z) modular-rep register, never touches spectral data, so the transition claim is untested against B735.",
+  "verdict_disagreement": false,
+  "disagreement_note": "No disagreement. The category-error spine (unitary=>|lambda|=1, general theorem; classical N N^T != I with N^T J N = J, exact symplectic-not-unitary) is sound and both E19 directions were run. The depth exposure concerns how far \"every theory/k\" is closed by sampling vs proof, not whether tested cases were computed correctly.",
+  "id": "TOMB-L67"
+ },
+ "TOMB-L339": {
+  "depth_exposure": true,
+  "depth_note": "Parts 1/2/4 are exact/generic. But \"NOT isomonodromic\" (Part 3) rests on ONE rng(1) seed, ONE window s:2->3, ONE lam=e + control 1.01. Stabilization needs the general argument stated explicitly (det A_i~lam^2 => local exponents change unless already nilpotent), a multi-seed sweep, and treatment of excluded lam-root-of-unity/nilpotent cases.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735 (EMITTANCE/spectral face) as a length/scale channel \"no pre-B735 scale-kill consulted.\" recompute.py stays entirely inside Hitchin-base weight algebra/Schlesinger flow/monodromy (C1-C6), never touching emittance/spectral data, so this flagged face remains genuinely unconsulted -- sealed candidate for P2/P3.",
+  "verdict_disagreement": false,
+  "disagreement_note": "",
+  "id": "TOMB-L339"
+ },
+ "TOMB-L293": {
+  "depth_exposure": false,
+  "depth_note": "S032-A is a literal universal (\"no invariant escapes\"); a universal is refuted by one witness. The recompute exhibits two single-valued invariants on the exact system the tombstone scoped (the (1,2) fork), fully closing the quantifier for the claim as stated \u2014 no sweep over other seed pairs (m1,m2) is needed to sustain the RECONFIRMED verdict.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B730 (V4-forced faces) and the B734 congruence tower as source of \"new representation-dependent classes at forks.\" recompute.py never touches this: Part1 uses plain B131 SL(2) trace-ring machinery, Part2 uses Wang/MV H1+SnapPy, Part3 uses B173's gap-label module -- no V4/congruence-level structure on the fork is instantiated or ruled out.",
+  "disagreement_note": "",
+  "verdict_disagreement": false,
+  "id": "TOMB-L293"
+ },
+ "TOMB-L34": {
+  "depth_exposure": true,
+  "depth_note": "One finite instance/leg only: N=1597 seed0 (entanglement), N=987 seed1 (geometry), L to 640, 22 sites. S021 claims a general chain property, not one size. Needed: logslope/c_eff vs N across several Fibonacci lengths to show the log-class plateau is N-stable (cf B734: plateaus can jump a level deeper); multiple disorder seeds; growing probe count for delta/diam convergence.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names \"mtc-overlay Fibonacci-anyon face\" = Born ledger (B725-9) golden MTC: Fibonacci-anyon S-matrix/F-symbol (dim=phi), whose off-diagonal braid/interference structure B726 found genuinely present. It is only dismissed, never recomputed. recompute.py is pure free-fermion tight-binding numerics; never touches MTC/braid/S-matrix structure.",
+  "verdict_disagreement": false,
+  "disagreement_note": "No disagreement as scoped: independent reimplementation reproduces banked V37 geometry numbers to 3 decimals and passes both E19 directions; controls prove discrimination (random control area-law/exponential vs fib/periodic log/power-law). Genericity logic is earned by controls, not merely asserted.",
+  "id": "TOMB-L34"
+ },
+ "TOMB-L241": {
+  "depth_exposure": true,
+  "depth_note": "K-J closes fully (symbolic in c, m, lambda, mu). K-K/K-L stay finite vs universal claims: K-K tests only 37 words, alphabet {1,2}, k=1..6, for \"rank=2 for EVERY k\"; needs a general proof that disc=tr^2-4det is never a perfect square for any positive-entry period-k word/alphabet. K-L tests only n=2..8; needs a symbolic-in-d proof that gcd of the Sym^d exponent set stays 1, not per-d numeric checks.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735 EMITTANCE/spectral face as unconsulted, and recompute confirms this: it stays inside SL(2) character-variety/CFT algebra (Fricke identity, Kac determinant, gap-labeling modules, Sym^d towers) and never engages B735's spectral/emittance framework to check if it gives a non-category-error pairing for K-J/K-K/K-L's quantities.",
+  "verdict_disagreement": false,
+  "disagreement_note": "No disagreement with RECONFIRMED as scoped: the four sub-identifications as originally stated recompute exactly, symbolically, reproducibly (byte-identical reruns, spot-checked against Ising Kac roots). The flags above bound the P1 scope, not correctness of what was computed.",
+  "id": "TOMB-L241"
+ },
+ "TOMB-L310": {
+  "depth_exposure": true,
+  "depth_note": "Sweep only spans L<=6..10, same window as banked/B159's compute-bound stop (L10=2.49M histories); never extends past L10. Drift steps decelerate (+0.62,+0.58,+0.35,+0.31), so \"never converging\" rests on 5 points, not proof. Needs L11+ computed, or an analytic recursion on level sizes (1,2,6,18,49,115,283) predicting r(Lmax->inf), or a depth-invariance argument for F2's null-gap.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis says no post-B730 face applies, but seed Omega4=B155's char poly is (golden,disc5)x(phase,disc-3), invariant-form disc -15 = disc(root5)*disc(root-3) -- B730's forced V4 triple (being/hearing/meeting). F2's null only matches level sizes/edge counts; it never tests whether the DAG's generating rule encodes this V4 arithmetic (B730) or congruence tower (B734).",
+  "verdict_disagreement": false,
+  "disagreement_note": "No disagreement at P1 scope: reimplementation reproduces the banked drift sequence and null-gap (two variants, fresh seeds, estimator calibrated on ground-truth sprinklings). F2's genericity defeater (Omega above matched-shape random-DAG null) is self-contained at current depth and supports RECONFIRMED; flags above bear on P2/P3, not correctness here.",
+  "id": "TOMB-L310"
+ },
+ "TOMB-L247": {
+  "depth_exposure": true,
+  "depth_note": "S1a/S1b (reducible=>kappa=2) is exact and universal, no gap. But S2/S3 verify block-reducibility at only ONE (tau,a) point of the family the tombstone says E \"sweeps\". C4 asserts parameter-uniformity but doesn't prove it. Needed: symbolic derivation that Hermite-Halphen multipliers are period eigenvalues for all tau,a, or a multi-point/near-degenerate sweep, not one 60-digit instance.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735's spectral face directly as unconsulted by any pre-B735 negative. faces_consulted=[\"mtc-overlay\"] confirms the recompute stayed purely in Fricke/character-variety (commutator-trace) terms and never engaged a B735-style spectral reading of \"multiplier,\" which could reinterpret the quantity being compared and sidestep the kind-mismatch as computed.",
+  "verdict_disagreement": false,
+  "disagreement_note": "",
+  "id": "TOMB-L247"
+ },
+ "TOMB-L277": {
+  "depth_exposure": false,
+  "depth_note": "Claim is scoped to \"the finite image (order 2880)\", not universal/asymptotic. That image is provably finite; BFS closure asserted closed under both generators, order matches, and class-level golden count (4 classes) cross-checks element count exactly. Exhaustive census, not a sample. Caveat: verdict cites an independent \"Z[zeta_40]\" exact cross-check with no committed artifact in the repo.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B732 (Out(A5)) and B735 (spectral/emittance) as sources of a finer class-level invariant. recompute.py never touches either: only inner-conjugation classes and traces from B210 data, no outer-automorphism or spectral quantities, so it cannot exclude an Out(A5) or B735-spectral fact singling out the seed's 96-elt class among the 4 golden classes.",
+  "verdict_disagreement": false,
+  "disagreement_note": "",
+  "id": "TOMB-L277"
+ },
+ "B685": {
+  "depth_exposure": true,
+  "depth_note": "Recompute is finite-depth only: object series to (q-1)^20, hearing carriers to n=60, both pointwise checks, no induction. The killed claim is implicitly universal (all orders). Stabilization needs: (a) object side, a structural argument that v3-only denominators hold at every n; (b) hearing side, an inductive proof from the recursion that v5(den c_n)=n+v5(n!) for all n.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B734 (congruence tower: Gamma(5)/level-15 coupling, m004 level-(4)/(8) tower data) and B733 (bounded observer menu) as loci for the 5. recompute.py never touches either: it only re-derives the intrinsic Habiro/Nahm object series and intrinsic {2/5,3/5} carrier denominators; no coupling-side computation or observer-menu check appears.",
+  "verdict_disagreement": false,
+  "disagreement_note": "",
+  "id": "B685"
+ },
+ "WALL-7": {
+  "depth_exposure": true,
+  "depth_note": "Straight (d5) zero is proven for ALL t via the {A27,B27}-only subset (closed: extra C_t rows can only shrink an already-0 space). But twisted (f3) uses C_t essentially and is solved only at 3 sample points t in {1,omega,2}, not the full field K=Q(sqrt(-3)). A stabilization proof needs a symbolic-in-t rank/determinant argument plus a check of exceptional roots.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names exactly the addendum's post-B730 list: Out(A5) B732, congruence tower B734, spectral face B735, as an unconsulted residual symmetry outside the tested weight-permutation. Grep of recompute.py/output.txt for B730-B735 returns zero hits: the recompute only rebuilds B575/B299/B637 machinery, so none of these faces were consulted.",
+  "verdict_disagreement": false,
+  "id": "WALL-7"
+ },
+ "TOMB-L252": {
+  "depth_exposure": true,
+  "depth_note": "Claim is universal over ALL k; script blocks only to n=4 and samples 18 words (all k=2-4, 2-3/6-30 for k=5-7, 2/30 for k=8, none k>8). \"Closed for all n,k\" rests on a prose field-degree argument, not a machine-checked general proof. Needed: proven primitivity+simple Perron root at every n/k; a general proof T^2-4det is nonsquare for every word; full necklace coverage k=5-8 and k>8 samples.",
+  "anatomy_exposure": true,
+  "anatomy_note": "revival_hypothesis names B735: \"the rank question was never asked on the emittance/spectral anatomy.\" Recompute (faces_consulted=none-arithmetic-only) used only the Bellissard K0/gap-labeling Z-module via substitution arithmetic, never B735's emittance-operator spectral machinery. If B735 defines a distinct spectral-rank object, rank=k was never tested against it.",
+  "disagreement_note": "",
+  "verdict_disagreement": false,
+  "id": "TOMB-L252"
+ }
+}

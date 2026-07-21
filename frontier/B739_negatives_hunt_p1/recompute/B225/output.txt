@@ -1,0 +1,110 @@
+====================================================================================================
+B739 Stage-B recompute of B225's discriminating fact (E19 compute-not-cite, both directions)
+====================================================================================================
+
+PART 1 -- pipeline re-derived from the arc's declared conventions (independent implementation)
+  4_1  b(5,2)->class rep qq= 3  [arc-committed]  deg_z= 2 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 2 roots, residual<1e-40: True
+  5_2  b(7,3)->class rep qq= 3  [arc-committed]  deg_z= 3 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 3 roots, residual<1e-40: True
+  6_1  b(9,2)->class rep qq= 5  [E1-declared (twist p/2)]  deg_z= 4 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 4 roots, residual<1e-40: True
+  7_2  b(11,2)->class rep qq= 9  [E1-declared (twist p/2)]  deg_z= 5 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 5 roots, residual<1e-40: True
+  6_2  b(11,3)->class rep qq= 3  [arc-committed]  deg_z= 5 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 5 roots, residual<1e-40: True
+  6_3  b(13,5)->class rep qq= 5  [arc-committed]  deg_z= 6 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 6 roots, residual<1e-40: True
+  7_6  b(19,7)->class rep qq= 7  [arc-committed]  deg_z= 9 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 9 roots, residual<1e-40: True
+  8_3  b(17,4)->class rep qq=13  [arc-committed]  deg_z= 8 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 8 roots, residual<1e-40: True
+  8_8  b(25,9)->class rep qq= 9  [E1-declared (Schubert 25/9)]  deg_z=12 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 12 roots, residual<1e-40: True
+  9_4  b(21,5)->class rep qq= 5  [E1-declared (Schubert 21/5)]  deg_z=10 =(p-1)/2  monic_z=True  even_in_x=True  proper(nonabelian)=True  rep-check: 10 roots, residual<1e-40: True
+
+  ANCHOR (B211): Phi(4_1) == z^2-(x^2+1)z+(2x^2-1) exactly: True
+
+PART 2 -- Direction 1: the banked discriminating fact, recomputed per knot
+  knot  b(p,qq)   type      sqfree(D) v2(disc Dsf) v2(lc Dsf) 2 in bad small primes<=10^4 of lc*disc  cofactor
+  4_1   b(5, 3)  twist     True      12           0          True     [2, 5]                         1
+  5_2   b(7, 3)  twist     True      36           0          True     [2, 7]                         1
+  6_1   b(9, 5)  twist     True      36           0          True     [2, 3, 5, 19, 163]             1
+  7_2   b(11, 9)  twist     True      50           2          True     [2, 5, 7, 11, 131, 5521]       1
+  6_2   b(11, 3)  NON-twist True      43           5          True     [2, 11, 1747, 1987]            1
+  6_3   b(13, 5)  NON-twist False     46           2          True     [2, 3, 5, 11, 13, 29]          1
+  7_6   b(19, 7)  NON-twist True      133          9          True     [2, 19, 61, 71, 233, 241, 593, 1091, 4793] 154digits
+  8_3   b(17,13)  NON-twist False     114          6          True     [2, 3, 5, 13, 17, 41, 89, 127] 1
+  8_8   b(25, 9)  NON-twist True      199          11         True     [2, 3, 5, 41, 149, 467, 2141, 2377, 4229] 501digits
+  9_4   b(21, 5)  NON-twist True      148          12         True     [2, 3, 5, 7, 13, 29, 73, 6661] 324digits
+
+  twist knots: 4 (4_1,5_2,6_1,7_2)   NON-twist: 6 (6_2,6_3,7_6,8_3,8_8,9_4)
+  2 in bad-prime extraction for ALL 10/10 knots: True
+
+  arc-exact bad primes: 4_1 -> [2, 5] (banked: [2,5] = conductor 40a1);  5_2 -> [2, 7] (banked: [2,7])
+  WRINKLE 6_3: branch locus NOT squarefree -> arc-exact disc(Dr) = 0 (arc's factorint(0)={0:1} put a literal 0 in its bad set; its '2' came from LC, v2(LC)=4); repaired (squarefree) convention above still gives 2 in bad.
+  WRINKLE 8_3: branch locus NOT squarefree -> arc-exact disc(Dr) = 0 (arc's factorint(0)={0:1} put a literal 0 in its bad set; its '2' came from LC, v2(LC)=8); repaired (squarefree) convention above still gives 2 in bad.
+
+  (x^2-1) | branch locus (banked: only 4_1):
+    4_1  : True
+    5_2  : False
+    6_1  : False
+    7_2  : False
+    6_2  : False
+    6_3  : False
+    7_6  : False
+    8_3  : False
+    8_8  : False
+    9_4  : False
+  golden half (context, banked SOLID): (x^2-5) | D(4_1): True;  monodromy trace 3: t^2-4 = 5 = 5
+
+PART 3 -- Direction 2: specificity of the extraction at p=2
+
+  THEOREM (Vandermonde mod 2 / Stickelberger). For ANY f monic in z over Z[x]:
+  disc_z(f) mod 2 = Vbar^2 is a SQUARE in F_2[x] (in char 2 the Vandermonde product
+  V = prod_{i<j}(r_i - r_j) is fully symmetric, hence a polynomial in the coefficients).
+  The branch locus D therefore reduces mod 2 to a square. Consequently, for Dsf =
+  squarefree part of D with deg Dsf >= 1:
+    (i)  if lc(Dsf) is even, 2 is in the bad set via the LC clause;
+    (ii) if lc(Dsf) is odd, Dsf mod 2 keeps full (even) degree >= 2 and equals a square,
+         hence is NOT squarefree mod 2, hence 2 | disc(Dsf) -- the disc clause.
+  Either way the extraction reports 2. It reports 2 for EVERY monic-in-z input, i.e. its
+  specificity at the prime 2 is ZERO: '2 in bad' cannot distinguish any knot from any other.
+  (All ten Phi are monic in z -- asserted in Part 1.)
+
+  Empirical verification of the square structure, all 10 knots:
+  knot  Dsf mod 2 = square (x-level)  g mod 2 = square (X-level)  v2(discX g) v2(lc g)
+  4_1   True(sqrt verified)           True(sqrt verified)         4           0       
+  5_2   True(sqrt verified)           True(sqrt verified)         14          0       
+  6_1   True(sqrt verified)           True(sqrt verified)         12          0       
+  7_2   True(sqrt verified)           True(sqrt verified)         16          2       
+  6_2   True(sqrt verified)           True(sqrt verified)         12          5       
+  6_3   True(sqrt verified)           True(sqrt verified)         15          2       
+  7_6   True(sqrt verified)           True(sqrt verified)         44          9       
+  8_3   True(sqrt verified)           True(sqrt verified)         45          6       
+  8_8   True(sqrt verified)           True(sqrt verified)         68          11      
+  9_4   True(sqrt verified)           True(sqrt verified)         50          12      
+
+  CONTROLS -- same extraction on curves with PROVEN good reduction at 2:
+    11a3: y^2+y=x^3-x^2: Weierstrass Delta = -11 (ODD => good reduction at 2, computed in-script);
+       extraction on Phi = -x**3 + x**2 + z**2 + z:  branch locus 4*x**3 - 4*x**2 + 1,  bad-prime set [2, 11] -> reports 2: True  <-- FALSE POSITIVE at 2
+    37a1: y^2+y=x^3-x  : Weierstrass Delta = 37 (ODD => good reduction at 2, computed in-script);
+       extraction on Phi = -x**3 + x + z**2 + z:  branch locus 4*x**3 - 4*x + 1,  bad-prime set [2, 37] -> reports 2: True  <-- FALSE POSITIVE at 2
+
+====================================================================================================
+PART 4 -- verdict assembly
+
+  Direction 1 (RECOMPUTED TRUE): the banked boolean table reproduces exactly under the arc's
+  conventions -- 2 is in the bad-prime extraction for all 10 knots (4 twist + 6 non-twist),
+  4_1 -> {2,5} = conductor of 40a1, 5_2 -> {2,7}, (x^2-1) | branch locus only for 4_1,
+  and the golden half (x^2=5 branch = t^2-4 for trace 3) is SOLID.
+
+  Direction 2 (NOT DISCRIMINATING): the recomputed fact is a TAUTOLOGY of the extraction, not a
+  base-rate observation about 2-bridge knots. disc mod 2 of any monic-in-z polynomial is a
+  square in F_2[x]; verified sqrt-exactly for all 10 branch loci at BOTH the SL (x) and PSL (X)
+  levels; the extraction therefore fires '2 in bad' on EVERY possible input (specificity 0),
+  and demonstrably fires on the 2-GOOD curves 11a3 (Delta=-11) and 37a1 (Delta=37).
+  Likelihood ratio of the observation '2 present in non-twist knots' for the claim
+  '2-part of the genuine conductor marks the octahedral parent' = 1. The kill's base-rate
+  inference is vacuous at p=2. The only genuine conductor datum in the arc, 4_1 -> 40a1
+  (N = 40, v2 = 3), is an octahedral (Whitehead-filling) child -- CONSISTENT with the claim
+  the arc reported as refuted. The '2 = octahedral parent' half is REOPENED, undecided either
+  way pending genuine (Jacobian-conductor) 2-parts of non-twist 2-bridge character varieties.
+
+  VERDICT: REVIVED (prereg clause: recompute 'shows the banked fact was not discriminating
+  (necessary-only, proxy, wrong object)'). No new positive structure is asserted (no E20 gate
+  needed): the residue is the computed zero-specificity theorem + controls, not a claim that
+  the decomposition holds.
+
+ALL CHECKS PASS

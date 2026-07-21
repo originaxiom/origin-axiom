@@ -1,0 +1,140 @@
+========================================================================================
+B739 Stage-B recompute -- WALL-7 (LAW_MAP #E 7): the trinification triality on
+H1(D;27) -- the zero-intertwiner kill (B651 d5_triality + f3_twisted), re-derived.
+K printout: (a+br) means a + b*sqrt(-3).
+========================================================================================
+
+STAGE 0 -- exec B575 stages 0-3 (the arcs' declared construction; G1-G3 gates
+assert internally; log timestamps stripped for determinism):
+  | stage 1: 27 weights built; minuscule labels ok: True
+  | stage 1: 36 edges, 10 square constraints, GF(2) solved
+  | G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+  | G1b PASS: bracket closure dim = 78 (basis pool 78)
+  | stage 1 complete: e6 in gl(27), coordinate solver ready
+  | G2a PASS: principal sl2 relations exact
+  | G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+  | G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+  principal-grading coefficients kvals = [(16), (22), (30), (42), (30), (16)]
+
+STAGE 1 -- the weld intertwiner space at the SL(2) level (B637's declared
+method, adapted to d5's dual-rep / lambda-MATCHED convention):
+  lambda(a,b) at SL(2) = [[(-1), (0+2r)], [(0), (-1)]]   (parabolic; the cusp translation)
+  weld intertwiner space (SL2, dual rep, mu AND lambda matched): dim = 2
+    basis solution 0: u.eps = xI + zN with x = (0), z = (1)
+    basis solution 1: u.eps = xI + zN with x = (1), z = (0)
+  STRUCTURE (asserted): every weld solution is u = (xI + zN) eps^-1;
+  invertible iff x != 0; the residual weld gauge is t = z/x alone;
+  t = 0 is the DEGENERATE point (C27 = B27: the solo-rep pullback).
+
+STAGE 2 -- the 27-level dual intertwiner J1 = S27 . T27 and its gates:
+  all 27 weights have INTEGRAL root-basis coordinates relative to mu_0
+  -> the 27 lies in ONE P/Q coset: any central element acts by ONE scalar on
+     the whole 27 (the wall's 'center = scalar' parenthetical, recomputed) and
+     T27 is well-defined over Q.
+  GATE  J1 (A27^-1)^T J1^-1 == A27 : True
+  GATE  J1 (B27^-1)^T J1^-1 == B27 : True   (the FULL dual rep is intertwined)
+
+STAGE 3 -- the reconstructed doubles at the declared weld points; d5's gates +
+the banked class-level signature (pkl: h1 = 5; B637 table: h0/h1 = 1/5):
+  control (trivial coefficients): h0 = 1, h1 = 1   [target 1, 1 = b1(D)]
+  [t = 1] weld_mu:True  weld_lam:True  R1:True  R2:True  R3:True  nondegenerate:True
+  [t = 1] the 27 local system: h0 = 1, h1 = 5   [banked: 1, 5]
+  [t = omega] weld_mu:True  weld_lam:True  R1:True  R2:True  R3:True  nondegenerate:True
+  [t = omega] the 27 local system: h0 = 1, h1 = 5   [banked: 1, 5]
+  [t = 2] weld_mu:True  weld_lam:True  R1:True  R2:True  R3:True  nondegenerate:True
+  [t = 2] the 27 local system: h0 = 1, h1 = 5   [banked: 1, 5]
+
+STAGE 4 -- the weight bridge (B299 -> B575 labels) and the 8 patterns:
+  nontrivial Z3xZ3 elements: 8
+  consistent Dynkin relabelings: 1; distinct induced 27-permutations: 8
+    pattern 0 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+    pattern 1 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+    pattern 2 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+    pattern 3 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+    pattern 4 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+    pattern 5 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+    pattern 6 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+    pattern 7 (relabel (0, 5, 1, 2, 3, 4)): orbit sizes {3: 9}
+
+STAGE 5 -- the exact pattern solves (27 unknowns d_j, X[pperm[j]][j] = d_j;
+dim = 27 - #pivots of the exact rref of the X Ml - Mr X = 0 rows):
+
+  [5a] the weld-gauge-independence probe: STRAIGHT system with the {A27, B27}
+  constraints ONLY (= the degenerate t = 0 system; a constraint-subset of EVERY
+  weld point -- if dim = 0 here, the straight kill needs no weld input at all):
+    pattern 0: dim = 0
+    pattern 1: dim = 0
+    pattern 2: dim = 0
+    pattern 3: dim = 0
+    pattern 4: dim = 0
+    pattern 5: dim = 0
+    pattern 6: dim = 0
+    pattern 7: dim = 0
+
+  [5b/t = 1] straight (d5) and sigma*-twisted (f3) solves:
+    pattern 0: straight dim = 0   twisted dim = 0
+    pattern 1: straight dim = 0   twisted dim = 0
+    pattern 2: straight dim = 0   twisted dim = 0
+    pattern 3: straight dim = 0   twisted dim = 0
+    pattern 4: straight dim = 0   twisted dim = 0
+    pattern 5: straight dim = 0   twisted dim = 0
+    pattern 6: straight dim = 0   twisted dim = 0
+    pattern 7: straight dim = 0   twisted dim = 0
+
+  [5b/t = omega] straight (d5) and sigma*-twisted (f3) solves:
+    pattern 0: straight dim = 0   twisted dim = 0
+    pattern 1: straight dim = 0   twisted dim = 0
+    pattern 2: straight dim = 0   twisted dim = 0
+    pattern 3: straight dim = 0   twisted dim = 0
+    pattern 4: straight dim = 0   twisted dim = 0
+    pattern 5: straight dim = 0   twisted dim = 0
+    pattern 6: straight dim = 0   twisted dim = 0
+    pattern 7: straight dim = 0   twisted dim = 0
+
+  [5b/t = 2] straight (d5) and sigma*-twisted (f3) solves:
+    pattern 0: straight dim = 0   twisted dim = 0
+    pattern 1: straight dim = 0   twisted dim = 0
+    pattern 2: straight dim = 0   twisted dim = 0
+    pattern 3: straight dim = 0   twisted dim = 0
+    pattern 4: straight dim = 0   twisted dim = 0
+    pattern 5: straight dim = 0   twisted dim = 0
+    pattern 6: straight dim = 0   twisted dim = 0
+    pattern 7: straight dim = 0   twisted dim = 0
+
+STAGE 6 -- the float commutant diagnostic (NON-EXACT, SVD 1e-8 relative gap;
+d5/f3's context number was 415 -- the exact zeros above are the load-bearing
+facts; this stage also runs a provenance probe on that 415):
+  dim commutant({A27, B27} alone = the DEGENERATE t = 0 triple) ~ 415
+  dim commutant({A27, B27, C27}) at t = 1 ~ 322
+  dim commutant({A27, B27, C27}) at t = omega ~ 322
+  dim commutant({A27, B27, C27}) at t = 2 ~ 301
+  PROVENANCE NOTE (computed, honest-flag): the banked f3 FINDINGS quote a
+  "415-dimensional commutant" for the triple; here 415 is EXACTLY the commutant of
+  the DEGENERATE triple (C27 = B27, the t = 0 weld point -- which is also the first
+  invertible element of the weld nullspace, i.e. what a naive representative pick
+  selects), while every nondegenerate weld point gives a strictly smaller commutant.
+  Together with the fact that the degenerate pullback ALSO has Fox h0/h1 = 1/5 (so
+  the pkl's h1 = 5 gate could not distinguish it) and that d5/f3 never gated
+  C27 != B27, this suggests the pkl's J may itself have been the degenerate weld.
+  EITHER WAY THE KILL STANDS: the {A27, B27}-only solves (= the degenerate system,
+  stage 5a) are dim 0 at all 8 patterns, and the honestly nondegenerate doubles
+  (stage 5b, three weld points, all gates green) are dim 0 at all 8 patterns,
+  straight and twisted. The recompute thus both UPHOLDS the banked zeros and
+  REPAIRS their carrier: the zero-intertwiner fact is now verified on the
+  geometric (nondegenerate) double as well, not only on the suspect weld point.
+
+========================================================================================
+RESULT (56 exact solves):
+  straight (d5) dims, 8 patterns x 3 weld points:  ALL 0
+  twisted (f3) dims,  8 patterns x 3 weld points:  ALL 0
+  straight with {A27, B27} alone (t = 0 control):  ALL 0 -- the straight kill is weld-gauge-independent
+
+THE DISCRIMINATING FACT RECOMPUTED AND UPHELD: each of the 8 nontrivial Z3xZ3
+trinification elements' induced 27-permutations admits ZERO phase-lift X = P.D
+intertwining the double's holonomy -- straight (X M = M X for M in {a, b, c},
+d5's system) AND sigma*-twisted (X A = A X, X B = C X, X C = B X, f3's system)
+-- exact dim 0 at every pattern, on a double reconstructed in-sandbox from the
+arcs' own declared conventions with every gate green (weld equations, R1/R2/R3,
+nondegeneracy, h0/h1 = 1/5), and stable across the entire residual weld gauge.
+The naive Z/3 trinification triality does not act on H1(D;27) by any phase
+lift, straight or twisted: LAW_MAP #E 7 stands. RECONFIRMED.

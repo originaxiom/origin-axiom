@@ -1,0 +1,122 @@
+========================================================================
+B739 Stage B recompute -- WALL-1 (LAW_MAP #E entry 1: 'No SM value
+from the solo object').  Compute-not-cite, both directions (E19).
+python 3.12.1, sympy 1.14.0
+========================================================================
+
+LEG 1 -- the scale-torsor no-go (#E wall 10; B660/S3 + B666 cell S)
+------------------------------------------------------------------------
+A. Gal(L/Q(i)) -- banked B662-cellD: sigma: s->-s, tau: s->4i/s
+  [PASS] closure of {id, sigma, tau, sigma.tau} under composition
+  [PASS] sigma^2 = tau^2 = (sigma.tau)^2 = id and sigma.tau = tau.sigma
+  [PASS] |G| = 4 noncyclic => Klein four; G^ab = (Z/2)^2, exponent 2
+  [PASS] Gal(L/Q(i)) = V4: x^2 = 1 over R_+ only at x = 1  =>  Hom(G, R_+) = {1}
+
+B. 2I = SL(2,5) -- the hearing image ker(det) (B640/B644)
+  [PASS] |SL(2,5)| = 120; PERFECT: |[G,G]| = 120, G^ab trivial  |G|=120, |[G,G]|=120, |G^ab|=1, exp=1
+  [PASS] 2I = SL(2,5): x^1 = 1 over R_+ only at x = 1  =>  Hom(G, R_+) = {1}
+
+C. PSL(2,7) -- the kappa=14 stage shadow (B646 / B666 cell 3)
+  [PASS] |PSL(2,7)| = 168; PERFECT: |[G,G]| = 168, G^ab trivial  |G|=168, |[G,G]|=168, |G^ab|=1, exp=1
+  [PASS] PSL(2,7): x^1 = 1 over R_+ only at x = 1  =>  Hom(G, R_+) = {1}
+
+D. 2I x Z/3 -- the full level-15 hearing image im(rho) (B640)
+  [PASS] |2I x Z/3| = 360; [G,G] = 2I x {0} (120); G^ab = Z/3, exponent 3  |G|=360, |[G,G]|=120, |G^ab|=3, exp=3
+  [PASS] 2I x Z/3: x^3 = 1 over R_+ only at x = 1  =>  Hom(G, R_+) = {1}
+
+E. SL(2,Z/15) -- the mod-conductor shadow group (B640)
+  [PASS] |SL(2,Z/15)| = 2880 = 24*120; |[G,G]| = 960; G^ab = Z/3, exp 3  |G|=2880, |[G,G]|=960, |G^ab|=3, exp=3
+  [PASS] SL(2,Z/15): x^3 = 1 over R_+ only at x = 1  =>  Hom(G, R_+) = {1}
+
+F. W(E6) -- reflections in the simple-root basis (Bourbaki E6)
+  [PASS] each s_i is an involution (6/6)
+  [PASS] |W(E6)| = 51840 with det split 25920 / 25920 (det surjective)  |W|=51840, det=+1: 25920, det=-1: 25920
+  [PASS] (s_i s_j) s_i (s_i s_j)^-1 = s_j exactly on all 5 bonds (m = 3)
+  [PASS] E6 diagram connected => all 6 generators conjugate => W^ab cyclic, gen by an involution; det >= 2 => W^ab = Z/2, exponent 2
+  [PASS] W(E6): x^2 = 1 over R_+ only at x = 1  =>  Hom(G, R_+) = {1}
+
+LEG 1 CONCLUSION: six/six banked stabilizers finite, G^ab torsion
+(orders 4, 120, 168, 360, 2880, 51840; |G^ab| = 4, 1, 1, 3, 3, 2):
+Hom(G, R_+) = {1} in every case.  The sign channel exists (det:
+W(E6) ->> {+-1} -- the banked sign laws) but the SCALE channel is
+exactly zero: no mass, VEV, or dimensionful coupling is emittable.
+
+LEG 2 -- the equivariance wall (#E wall 9; B650 W2-G1)
+------------------------------------------------------------------------
+  [PASS] A1 = [[2,1],[1,1]]: tr 3, det 1, disc = 5; spec = {phi^2, phi^-2}
+  [PASS] |phi^{+-2}| != 1 (hyperbolic, off the unit circle)  phi^2 = 2.61803398875, phi^-2 = 0.38196601125
+
+  target rho_hear(RL) [B650: tr = -1/phi]: companion of x^2 - ((1 - sqrt(5))/2)x + 1
+  [PASS] rho_hear(RL) [B650: tr = -1/phi]: trace and det match the banked invariants
+  [PASS] rho_hear(RL) [B650: tr = -1/phi]: M^5 = -I, M^10 = I, no smaller power = I => order EXACTLY 10
+  [PASS] rho_hear(RL) [B650: tr = -1/phi]: disc = tr^2 - 4 < 0 with det 1 => non-real unit-circle pair  disc = -4 + (1 - sqrt(5))**2/4
+  [PASS] rho_hear(RL) [B650: tr = -1/phi]: Res(char A1, char M) = 5*(1 + sqrt(5))**2/4 != 0 (spectra DISJOINT)  numerically 13.090169944
+  [PASS] rho_hear(RL) [B650: tr = -1/phi]: |det(Sylvester operator)| = Res != 0 and the ONLY solution of T.A1 = M.T is T = 0  det = 5*sqrt(5)/2 + 15/2, solutions = {(0, 0, 0, 0)}
+
+  target sigma(A1) lift [B674: tr = +phi]: companion of x^2 - (1/2 + sqrt(5)/2)x + 1
+  [PASS] sigma(A1) lift [B674: tr = +phi]: trace and det match the banked invariants
+  [PASS] sigma(A1) lift [B674: tr = +phi]: M^5 = -I, M^10 = I, no smaller power = I => order EXACTLY 10
+  [PASS] sigma(A1) lift [B674: tr = +phi]: disc = tr^2 - 4 < 0 with det 1 => non-real unit-circle pair  disc = -4 + (1 + sqrt(5))**2/4
+  [PASS] sigma(A1) lift [B674: tr = +phi]: Res(char A1, char M) = 5*(1 - sqrt(5))**2/4 != 0 (spectra DISJOINT)  numerically 1.909830056
+  [PASS] sigma(A1) lift [B674: tr = +phi]: |det(Sylvester operator)| = Res != 0 and the ONLY solution of T.A1 = M.T is T = 0  det = 15/2 - 5*sqrt(5)/2, solutions = {(0, 0, 0, 0)}
+  [PASS] Galois-pair product: Res(-1/phi-target) * Res(+phi-target) = 25 = disc(A1)^2
+
+LEG 2 CONCLUSION: T = 0 is the unique equivariant map for BOTH
+order-10 golden targets (Res = 5 phi^2 and 5 phi^-2, product 25):
+no nonzero linear monodromy-equivariant classical -> stage map
+exists; no linear channel transports a solo value across.
+
+LEG 3 -- the kind mismatch (#E wall 11; B706 rung 2 + B704/B730)
+------------------------------------------------------------------------
+  [PASS] -3, 5, -15 all fundamental discriminants; (-3)(5) = -15 mod squares
+  [PASS] {1, -3, 5, -15} closed under multiplication mod squares => the forced faces = V4 (4 points, exponent 2)
+  [PASS] seam basis {-3, 5, -7} F2-independent: 7/7 subset products nonsquare => seam = (F_2)^3: 8 points, exponent 2  kernels = {'-3': -3, '5': 5, '-7': -7, '(-3)(5)': -15, '(-3)(-7)': 21, '(5)(-7)': -35, '(-3)(5)(-7)': 105}
+  [PASS] the seam (F_2)^3: x^2 = 1 over R_+ only at x = 1  =>  Hom(G, R_+) = {1}
+  [PASS] 8 = |F_2^3| is exceeded by 9 distinct rationals 1/2..1/10 in (0,1) => no surjection of the seam onto ANY real interval
+
+LEG 3 CONCLUSION: the solo object's entire value-selecting freedom
+is 3 F2-bits (8 points, exponent 2): dimension-0 discrete.  The SM
+freedom is a continuous ~19-26-real-parameter moduli space (B706's
+banked COUNT -- cited structure, no SM value computed, Gate 5).
+A finite discrete space carries no continuous parameter: KIND
+mismatch recomputed.
+
+LEG 4 -- the generation wall (B307): no C3 trace field
+------------------------------------------------------------------------
+  [PASS] C3 instance conductor 7 (Q(zeta7)+): minpoly x**3 + x**2 - 2*x - 1, disc 49 = 7^2 (square => Galois C3), 3/3 real roots => TOTALLY REAL
+  [PASS] C3 instance conductor 9 (Q(zeta9)+): minpoly x**3 - 3*x + 1, disc 81 = 9^2 (square => Galois C3), 3/3 real roots => TOTALLY REAL
+  [PASS] C3 instance conductor 13 (Gaussian period): minpoly x**3 + x**2 - 4*x + 1, disc 169 = 13^2 (square => Galois C3), 3/3 real roots => TOTALLY REAL
+  [PASS] control (5_2's cubic) x^3 - x^2 + 1: disc -23 nonsquare (S3), 1 real root => signature (1,1), NOT C3
+  lemma: |Gal| = 3 is odd => complex conjugation (order 2) is
+  trivial => every C3 field is totally real; a hyperbolic trace
+  field has a complex place => NO hyperbolic knot has a C3 field.
+  [PASS] fig-8 gluing (z(1-z))^2 = 1: unique Im>0 solution z = e^{i pi/3}, minpoly z^2 - z + 1, disc -3 => shape field Q(sqrt-3), degree 2, signature (0,1) -- complex place, degree != 3: not C3
+
+LEG 4 CONCLUSION: the C3 route to three symmetric generations is
+closed for every hyperbolic knot, and the object's own shape field
+(= invariant trace field, Neumann-Reid) is Q(sqrt-3): disc -3.
+
+LEG 5 -- revival-hypothesis check (B735 emittance/spectral face)
+------------------------------------------------------------------------
+  [PASS] heartbeat trace 3/2 + sqrt(3)*I/2: minpoly x**2 - 3*x + 3 monic-integer (algebraic INTEGER), disc -3, kernel -3 => generates Q(sqrt-3) = the BEING field
+  [PASS] heartbeat trace 1 + sqrt(3)*I: minpoly x**2 - 2*x + 4 monic-integer (algebraic INTEGER), disc -12, kernel -3 => generates Q(sqrt-3) = the BEING field
+  => the newly-consulted spectral face's banked arithmetic lands in
+     Z[omega] inside the being field already consulted: no new
+     value-channel KIND appears (legs 1-3 quantify over stabilizer/
+     seam structure, which the emittance face shares -- B735 'same
+     walls'); Gate 5 bars SM comparison on any face regardless.
+
+========================================================================
+ASSEMBLY -- the umbrella's discriminating conjunction
+========================================================================
+dimensionful values  -> LEG 1 (Hom(G, R_+) = {1}, six/six exact)
+linear transport     -> LEG 2 (T = 0 unique, both Galois targets)
+continuous params    -> LEG 3 (freedom = 3 F2-bits, dimension 0)
+generation structure -> LEG 4 (no C3 trace field; object's field Q(sqrt-3))
+spectral-face revival-> LEG 5 (same being field, no new kind)
+
+CHECKS: 42/42 PASS
+VERDICT SIGNAL: RECONFIRMED -- every leg of the umbrella's
+discriminating fact recomputes TRUE from the arcs' own declared
+conventions: no Standard-Model value (mass / mixing / coupling) is
+derivable from the solo object.

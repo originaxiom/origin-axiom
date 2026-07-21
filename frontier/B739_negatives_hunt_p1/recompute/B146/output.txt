@@ -1,0 +1,53 @@
+==================================================================================================
+PART 1 — combinatorial layer (B136/B145/B146 conventions, re-implemented inline)
+==================================================================================================
+range: enumerate_words(7) -> 39 cyclic-primitive words, lengths 2..7
+  anti_palindromic('RL') = True   (True => self-mirror/amphichiral word; False => chiral word)
+  anti_palindromic('RRLL') = True   (True => self-mirror/amphichiral word; False => chiral word)
+  anti_palindromic('RRL') = False   (True => self-mirror/amphichiral word; False => chiral word)
+  anti_palindromic('RLL') = False   (True => self-mirror/amphichiral word; False => chiral word)
+  mirror_word('RRL') = 'RLL'; cyclic classes: mirror 'LLR' vs RLL 'LLR'   -> RRL/RLL form a mirror PAIR: True
+
+==================================================================================================
+PART 2 — geometric layer (SnapPy kernel symmetry group; convention (5))
+==================================================================================================
+  b++RL    (class LR   ) vol=2.02988321281931     H1=Z   symmetry group D4   is_amphicheiral=True
+  b++RRLL  (class LLRR ) vol=3.66386237670888     H1=Z/2 + Z/2 + Z   symmetry group D4   is_amphicheiral=True
+  b++RRL   (class LRR  ) vol=2.66674478344906     H1=Z/2 + Z   symmetry group Z/2 + Z/2   is_amphicheiral=False
+  b++RLL   (class LLR  ) vol=2.66674478344906     H1=Z/2 + Z   symmetry group Z/2 + Z/2   is_amphicheiral=False
+  b++LR    (class LR   ) vol=2.02988321281931     H1=Z   symmetry group D4   is_amphicheiral=True
+  b++LLRR  (class LLRR ) vol=3.66386237670888     H1=Z/2 + Z/2 + Z   symmetry group D4   is_amphicheiral=True
+  b++LRR   (class LRR  ) vol=2.66674478344906     H1=Z/2 + Z   symmetry group Z/2 + Z/2   is_amphicheiral=False
+  b++LLR   (class LLR  ) vol=2.66674478344906     H1=Z/2 + Z   symmetry group Z/2 + Z/2   is_amphicheiral=False
+  rotation-invariance check: b++RRL is_isometric_to b++LRR = True   (cyclic rotation of the word gives the same bundle)
+  mirror-pair cross-checks (convention (6)): vol_eq=True  H1_eq=True  CS proxy: Im(cvol)(RRL)=+0.411233516712, Im(cvol)(RLL)=-0.411233516712, flips=True
+  b++RRL is_isometric_to b++RLL (unoriented isometry checker): True
+  GEOMETRIC chirality leg: b++RRL and b++RLL admit NO orientation-reversing self-isometry (CHIRAL), b++RL and b++RRLL do (amphichiral): True
+
+==================================================================================================
+PART 3 — invariant trace fields over the full range (Sage; B146's exact call)
+==================================================================================================
+  scanned 39 words; 3 skipped (B146 `continue` semantics): [('LLRLRR', 'find_field returned None'), ('LLRRLR', 'find_field returned None'), ('LLRLRRR', 'find_field returned None')]
+  imaginary-quadratic (degree-2, disc<0 = arithmetic-NECESSARY) invariant trace fields:
+    word   | invariant trace field | field disc | anti_palindromic (word-level amphichiral)
+    LR     | x^2 - x + 1           |         -3 | True
+    LLR    | x^2 - x + 2           |         -7 | False
+    LRR    | x^2 - x + 2           |         -7 | False
+    LLRR   | x^2 + 1               |         -4 | True
+  one-hop wrong-object check — B145's proxy (NON-invariant trace_field_gens) on the pair:
+    b++RRL: NON-invariant trace field = x^4 - x^3 + x + 1 (degree 4) — degree 2? False
+    b++RLL: NON-invariant trace field = x^4 - x^3 + x + 1 (degree 4) — degree 2? False
+
+==================================================================================================
+DISCRIMINATING FACT — evaluation
+==================================================================================================
+  imaginary-quadratic bundles in range: [('LR', 'x^2 - x + 1', -3), ('LLR', 'x^2 - x + 2', -7), ('LRR', 'x^2 - x + 2', -7), ('LLRR', 'x^2 + 1', -4)]
+  of these, GEOMETRICALLY chiral (no orientation-reversing self-isometry): [('LLR', 'x^2 - x + 2', -7), ('LRR', 'x^2 - x + 2', -7)]
+  combinatorial criterion agrees with geometry on all checked words: True
+  mirror-pair witness intact (vol/H1 equal, CS flips, unoriented-isometric): {'vol_eq': True, 'h1_eq': True, 'cs_flip': True, 'isometric_pair': True}
+
+  VERDICT LEG: RECONFIRMED — a CHIRAL o-p-t bundle with imaginary-quadratic
+  (arithmetic-necessary) invariant trace field EXISTS in B145's range:
+  b++RRL / b++RLL, invariant trace field x^2 - x + 2 = Q(sqrt(-7)), disc -7.
+  B145's 'every quadratic-trace-field o-p-t bundle is amphichiral' is FALSE
+  at the invariant-trace-field level, exactly as banked by B146.

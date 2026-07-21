@@ -1,0 +1,104 @@
+===================================================================================================
+B739 Stage-B recompute -- TOMB-L293: S032-A literal universal form (B562 P1 kill)
+===================================================================================================
+
+PART 0 -- machinery self-tests (trace-polynomial engine + monodromy words)
+  [PASS] tr(AB) = z
+  [PASS] tr(AB^2) = yz - x
+  [PASS] Fricke: tr([A,B]) = x^2+y^2+z^2-xyz-2
+  [PASS] tr((AB)^2) = z^2 - 2
+  [PASS] phi_1 words = (AB, ABB)  ('AB', 'ABB')
+  [PASS] phi_2 words = (ABB, ABBABBB)  ('ABB', 'ABBABBB')
+  [PASS] abelianized monodromy Phi_m = [[1,m],[m,m^2+1]] (trace m^2+2), m=1..6
+
+PART 1 -- the fork (trace-ring baseline, re-derived)
+  [PASS] m=1 locus (x, x/(x-1), x) is phi_1-fixed (3 trace identities == 0)
+  [PASS] m=2 conic parametrization: z(t)^2 - (2x(t)^2 - 4) == 0
+  [PASS] m=2 locus (x(t), 2x/z, z(t)) is phi_2-fixed (3 trace identities == 0)
+  kappa_1(x) = (x**4 - 3*x**3 + x**2 + 4*x - 2)/(x - 1)**2
+  kappa_2(t) = (rational function of t; kappa_2(1/2) = 4706/49)
+  [PASS] m=1: exact u at 26/26 sample points (conjugation solve, nullspace dim 1)
+  [PASS] m=1: both roots of the a-quadratic give the same u (gauge-independence spot check)
+  [PASS] m=2: exact u at 27 distinct sample points
+  [PASS] m=2: both roots of the a-quadratic give the same u
+  [PASS] m=1: u(x) interpolated (min degree) + verified on ALL points incl. 6 holdout  u_1(x) = (x**2 + x - 1)/(x - 1), degrees (2, 1)
+  [PASS] m=2: u(t) interpolated (min degree) + verified on ALL points incl. 6 holdout  degrees (8, 8)
+  [PASS] cross-check: u_1(x) == (x^2+x-1)/(x-1)  [B67 form]
+  [PASS] cross-check: u_2(t) == x(t)^4/(x(t)^2-2)  [B69/V33 form]
+  [PASS] m=1 curve relation derived + symbolically verified  kappa = u**2 - 5*u + 2
+  [PASS] m=2 curve relation derived + symbolically verified  kappa = u - 6
+  matched u values (shared suspension-trace^2): [2, 4]
+  FORK: kappa in [-4, -2]
+  [PASS] fork = {-4, -2} (matches the banked B131 fork exactly)
+  [PASS] fork is discretely MULTIVALUED: 2 distinct values
+  [PASS] both fork reps irreducible (kappa != 2)
+  pairing u -> kappa: {2: -4, 4: -2}   (kappa=-2 is the shared complete-cusp branch, per B131)
+
+PART 2 -- |H1|-torsion of X = M_1 U_T M_2 (identity gluing), with SnapPy cross-validation
+  seed m=1: SNF(I - Phi_1) invariant factors [1, 1];  H1(M_1) = Z
+  seed m=2: SNF(I - Phi_2) invariant factors [2, 2];  H1(M_2) = Z/2 + Z/2 + Z
+  seed m=3: SNF(I - Phi_3) invariant factors [3, 3];  H1(M_3) = Z/3 + Z/3 + Z
+  [PASS] H1(M_1) = Z (torsion trivial)
+  [PASS] H1(M_2) = Z + Z/2 + Z/2 (torsion (Z/2)^2, order 4)
+  [PASS] H1(M_3) = Z + Z/3 + Z/3 (the (Z/m)^2 pattern)
+  [PASS] general pattern verified m=1..6: SNF(I - Phi_m) = diag(m, m) => piece torsion (Z/m)^2
+  [PASS] SnapPy: b++LR is the figure-eight m004 (validates the bundle-name convention at m=1)
+  [PASS] SnapPy H1(b++LR) elementary divisors [0] == Wang prediction [0]  (vol 2.029883)
+  [PASS] SnapPy H1(b++LLRR) elementary divisors [0, 2, 2] == Wang prediction [0, 2, 2]  (vol 3.663862)
+  [PASS] SnapPy H1(b++LLLRRR) elementary divisors [0, 3, 3] == Wang prediction [0, 3, 3]  (vol 4.813819)
+  SnapPy identifies the m=2 seed bundle as: ['m136(0,0)']
+  MV cokernel (H0(T)->H0(+)H0 injective => H1(X) = coker(H1(T^2)->H1(M1)(+)H1(M2))):
+  H1(X) = Z/2 + Z/2 + Z;  |H1|-torsion = order 4 (Z/2 + Z/2)
+  [PASS] H1(X) = Z + Z/2 + Z/2
+  X is ONE fixed manifold; the fork indexes points of X's character variety, so:
+    branch kappa=-4: |H1(X)|-torsion = 4
+    branch kappa=-2: |H1(X)|-torsion = 4
+  [PASS] invariant (i) SINGLE-VALUED on the fork (same value at kappa=-4 and kappa=-2)  value 4 at both branches
+  BANKED value: 'Z/m1 (+) Z/m2 (= order 2 for (1,2))' [hand-derived MV]
+  RECOMPUTED value: (Z/m1)^2 (+) (Z/m2)^2 = (Z/2)^2, order 4
+  => the hand-derived MV VALUE was WRONG (each seed contributes coker(I-Phi_m) =
+     (Z/m)^2, SNF diag(m,m) -- confirmed by SnapPy on the pieces). This is exactly
+     what the arc's own 'SnapPy cross-validate' flag anticipated. The DISCRIMINATING
+     property (single-valued, a function of the seed pair alone) is UNAFFECTED:
+     the corrected value is still fork-branch-independent.
+
+PART 3 -- gap-label frequency-module rank (B173 conventions)
+  [PASS] alpha_1 = 1/lambda_1 = (sqrt5-1)/2 (golden frequency)
+  [PASS] alpha_2 = 1/lambda_2 = sqrt2 - 1 (silver frequency)
+  [PASS] alpha_4 = 1/lambda_4 = sqrt5 - 2 (same-field control, B173 R2)
+  [PASS] sqrt2, sqrt5, sqrt10 all irrational (minimal-polynomial degrees 2,2,2)  {2: 2, 5: 2, 10: 2}
+  [PASS] [Q(sqrt2,sqrt5):Q] = 4 (min poly of sqrt2+sqrt5 has degree 4)
+  [PASS] coordinates of {1, alpha_1, alpha_2} in basis {1,sqrt2,sqrt5,sqrt10} verified
+  [PASS] coordinate matrix rank = 3, row-nullspace trivial => rank(Z + Z a1 + Z a2) = 3 EXACT
+  [PASS] PSLQ finds NO integer relation in (1, alpha_1, alpha_2) [B173 R1 => rank 3]
+  [PASS] PSLQ finds NO relation even adding the product alpha_1*alpha_2 [B173 R3]
+  [PASS] positive control: PSLQ FINDS the same-field relation for (1, alpha_1, alpha_4) [B173 R2]  relation [-1, 2, -1]
+  [PASS] the found control relation verified EXACTLY in sympy  -1 + 2*alpha_1 + -1*alpha_4 == 0
+  the module is computed from the seed pair (m1,m2)=(1,2) ALONE; kappa never enters:
+    branch kappa=-4: gap-label frequency-module rank = 3
+    branch kappa=-2: gap-label frequency-module rank = 3
+  [PASS] invariant (ii) SINGLE-VALUED on the fork (rank 3 at both branches)
+  [PASS] recomputed rank == banked rank 3
+
+===================================================================================================
+VERDICT ASSEMBLY
+===================================================================================================
+
+  (F0) trace-ring invariant kappa on the (1,2) identity-glued fork: [-4, -2]
+       -- discretely 2-valued (both values irreducible, kappa != 2). RE-DERIVED end-to-end
+       (loci verified trace-map-fixed; suspension trace derived by exact conjugation solves;
+       curve relations kappa = u^2-5u+2 (m=1), kappa = u-6 (m=2) verified symbolically;
+       fork = exact intersection).
+  (F1) |H1|-torsion of the glued X: order 4 (Z/2 + Z/2) at BOTH branches
+       -- SINGLE-VALUED. (Banked hand-derived MV value 'order 2' is CORRECTED
+       to order 4 = (Z/m1)^2(+)(Z/m2)^2; SnapPy cross-validation of the pieces done,
+       as the tombstone itself required; the correction does NOT touch single-valuedness.)
+  (F2) gap-label frequency-module rank: 3 at BOTH branches -- SINGLE-VALUED
+       (exact + PSLQ, B173 conventions; positive control shows the method detects relations).
+
+  A single-valued invariant is not 'discretely-multivalued-and-unsymmetric'; two such
+  invariants exist on a fork where the trace-ring invariant IS 2-valued. Hence the literal
+  universal claim S032-A ('NO invariant escapes') is FALSE -- the banked kill stands.
+
+RESULT: ALL CHECKS PASS -- banked kill RECONFIRMED (with the |H1|-torsion value
+        corrected from order 2 to order 4; discriminating fact intact).
