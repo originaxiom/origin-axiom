@@ -1,5 +1,11 @@
 # Changelog
 
+## B743 + B744 + the B740 two-seat closure (the three-seat convergence pass)
+- B743: cc2's rung1-widened + analytic package banked, cc-verified (4/4 spot-checks exact). CM-collapse theorem; 0 gated hits across the full real tower incl. the Born-amplitude quartic; the instrument caught-and-refused Koide; analytic door 0 hits (683σ from Koide); the forced limit-hypothesis CLOSED. JUNO stays the one forward test.
+- B744: the 6 kill-graph fact-basis conflicts adjudicated — 6/6 UPHELD as computed (green locks); cc3 graded ledger rows, cc graded arcs; ledger-hygiene follow-up minted. B741's B435→B437 chain stands.
+- B740: two-seat, two-method closure (cc2's algdep/exact-containment grid matches the Sage compositum grid exactly; mutual residual closure). cc2's 20-false-lindep-witness own-goal → proposed standing rule.
+- B745 reserved (revivals cross-verify, reassigned to cc). Numbers reserved pre-use per the collision protocol.
+
 ## B742 — the negatives hunt, P1 stratum: 30 kills earned + 2 revived (B58, B225)
 213 banked negatives triaged (double-run, adjudicated); 33 P1 kills (cited/proxy/asserted bases);
 32 recomputed in-sandbox: 30 RECONFIRMED now carrying their actual discriminating computation,

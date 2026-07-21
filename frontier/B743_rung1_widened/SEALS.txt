@@ -1,0 +1,11 @@
+ea8609886e761ac6cc6241cc40a9555f7a18cbeabae988d54820374b537ac048  PREREG_RUNG1_WIDENED.md
+--- sealed 2026-07-21T18:14:35Z ---
+453f8f12bee7cfe612a996b06293ccaa631862939087d3dfd790eb28a2bcd1dd  rung1_report.json
+e93efeaa132bf7c1a6e0a3a9d41a436ff03d2aea5f626a2b404a5ef8a317e101  pdg_targets.json
+93edd0fdf96e390f7d9dca19664a1c4d3bd583ab6d46480ebb793dc17e677e73  forced_limits.json
+0f866b57c3232f7d60855681e885440b624e93be7a52bf84f7b5fc3ac9bfa2b8  null_rates.json
+--- sealed 2026-07-21T18:25:34Z ---
+191394438bd9eaad2779ef1dd3959d5e8083945678439c0d37071a141dfa70b4  /Users/dri/oa-seat-cc2/seat-work/rung1_widened/PREREG_RUNG1_WIDENED.md
+--- addendum sealed 2026-07-21T19:00:10Z ---
+1c30f6ca391f0e5bb4544213d622c2ff5a3cf7e409121c6bdc562a57c7d5adab  analytic_report.json
+--- sealed 2026-07-21T19:01:42Z ---

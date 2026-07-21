@@ -39,3 +39,19 @@ negative is no longer unearned.)
 
 Artifacts: `b740_full_out.txt` (78 rows), `b740_deep_out.txt` (11 deep IDs), `b740_mirror.py`
 output (7/7 isometries). Credit cc2 (the crack); the amphichiral closure (this seat).
+
+---
+## TWO-SEAT CONFIRMATION + MUTUAL RESIDUAL CLOSURE (cc2 door1, 2026-07-21)
+cc2 independently recomputed the FULL 78-slope grid with a disjoint method (NO Sage: polished
+holonomy 600→3000 bits + PARI algdep single-shot residual-verified + EXACT containment via the
+odd-degree theorem and factornf over ℚ(√−3), with three controls): **UPHELD-HOLE-CLOSED, 78/78,
+zero re-see the being.** The straggler degrees MATCH this arc's deep pass exactly
+({23,26,27,30,31}; degree grows with q). The two methods CLOSE EACH OTHER'S residuals: cc2's
+single-generator-field scope is closed by this arc's compositum-based find_field (the full
+generator set); this arc's numeric field-ID is closed by cc2's exact containment. The corrected
+B288 headline is now earned on every slope, two-seat, two methods.
+**Standing lesson from cc2's own-goal (proposed for the E-ledger, pending seat consensus):** its
+lindep fallback produced 20 FALSE "CONTAINS" witnesses (~65-digit coefficients, residuals ~1e-657
+— the unbounded-coefficient integer-relation trap) — caught by the exact cross-check. Numeric
+integer-relation "witnesses" are never containment proofs without coefficient-size-aware
+thresholds or exact verification.

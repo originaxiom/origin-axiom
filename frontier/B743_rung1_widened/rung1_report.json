@@ -1,0 +1,410 @@
+{
+ "rows": [
+  {
+   "target": "me/mmu",
+   "basis": "B1_sqrt5",
+   "digits": 7,
+   "found": false
+  },
+  {
+   "target": "me/mmu",
+   "basis": "B2_sqrt3",
+   "digits": 7,
+   "found": false
+  },
+  {
+   "target": "me/mmu",
+   "basis": "B3_sqrt15",
+   "digits": 7,
+   "found": false
+  },
+  {
+   "target": "me/mmu",
+   "basis": "B4_z15plus",
+   "digits": 7,
+   "found": false
+  },
+  {
+   "target": "me/mmu",
+   "basis": "B5_z20plus",
+   "digits": 7,
+   "found": false
+  },
+  {
+   "target": "me/mmu",
+   "basis": "B6_sqrtphi",
+   "digits": 7,
+   "found": true,
+   "coeffs": [
+    -11,
+    -14,
+    10,
+    11,
+    -8
+   ],
+   "exact_dec": "0.0048365593834",
+   "within_1sigma": false,
+   "null_rate": 0.7
+  },
+  {
+   "target": "me/mtau",
+   "basis": "B1_sqrt5",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    1,
+    0,
+    0
+   ],
+   "exact_dec": "0.0",
+   "within_1sigma": false,
+   "null_rate": 0.74
+  },
+  {
+   "target": "me/mtau",
+   "basis": "B2_sqrt3",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    1,
+    0,
+    0
+   ],
+   "exact_dec": "0.0",
+   "within_1sigma": false,
+   "null_rate": 0.84
+  },
+  {
+   "target": "me/mtau",
+   "basis": "B3_sqrt15",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    1,
+    0,
+    0
+   ],
+   "exact_dec": "0.0",
+   "within_1sigma": false,
+   "null_rate": 0.74
+  },
+  {
+   "target": "me/mtau",
+   "basis": "B4_z15plus",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "exact_dec": "0.0",
+   "within_1sigma": false,
+   "null_rate": 0.66
+  },
+  {
+   "target": "me/mtau",
+   "basis": "B5_z20plus",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "exact_dec": "0.0",
+   "within_1sigma": false,
+   "null_rate": 0.7
+  },
+  {
+   "target": "me/mtau",
+   "basis": "B6_sqrtphi",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "exact_dec": "0.0",
+   "within_1sigma": false,
+   "null_rate": 0.7
+  },
+  {
+   "target": "mmu/mtau",
+   "basis": "B1_sqrt5",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    -4,
+    -2,
+    1
+   ],
+   "exact_dec": "0.059016994",
+   "within_1sigma": false,
+   "null_rate": 0.74
+  },
+  {
+   "target": "mmu/mtau",
+   "basis": "B2_sqrt3",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    -9,
+    4,
+    -2
+   ],
+   "exact_dec": "0.059544265",
+   "within_1sigma": false,
+   "null_rate": 0.84
+  },
+  {
+   "target": "mmu/mtau",
+   "basis": "B3_sqrt15",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    -19,
+    5,
+    -1
+   ],
+   "exact_dec": "0.059316666",
+   "within_1sigma": false,
+   "null_rate": 0.74
+  },
+  {
+   "target": "mmu/mtau",
+   "basis": "B4_z15plus",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    -3,
+    2,
+    -1,
+    0,
+    0
+   ],
+   "exact_dec": "0.057636362",
+   "within_1sigma": false,
+   "null_rate": 0.66
+  },
+  {
+   "target": "mmu/mtau",
+   "basis": "B5_z20plus",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    6,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "exact_dec": "0.060293764",
+   "within_1sigma": false,
+   "null_rate": 0.7
+  },
+  {
+   "target": "mmu/mtau",
+   "basis": "B6_sqrtphi",
+   "digits": 4,
+   "found": true,
+   "coeffs": [
+    1,
+    2,
+    0,
+    0,
+    -1
+   ],
+   "exact_dec": "0.058171027",
+   "within_1sigma": false,
+   "null_rate": 0.7
+  },
+  {
+   "target": "alpha(0)^-1",
+   "basis": "B1_sqrt5",
+   "digits": 9,
+   "found": false
+  },
+  {
+   "target": "alpha(0)^-1",
+   "basis": "B2_sqrt3",
+   "digits": 9,
+   "found": false
+  },
+  {
+   "target": "alpha(0)^-1",
+   "basis": "B3_sqrt15",
+   "digits": 9,
+   "found": false
+  },
+  {
+   "target": "alpha(0)^-1",
+   "basis": "B4_z15plus",
+   "digits": 9,
+   "found": false
+  },
+  {
+   "target": "alpha(0)^-1",
+   "basis": "B5_z20plus",
+   "digits": 9,
+   "found": false
+  },
+  {
+   "target": "alpha(0)^-1",
+   "basis": "B6_sqrtphi",
+   "digits": 9,
+   "found": false
+  },
+  {
+   "target": "Koide_Q",
+   "basis": "B1_sqrt5",
+   "digits": 5,
+   "found": true,
+   "coeffs": [
+    3,
+    -2,
+    0
+   ],
+   "exact_dec": "0.666666667",
+   "within_1sigma": true,
+   "null_rate": 0.74
+  },
+  {
+   "target": "Koide_Q",
+   "basis": "B2_sqrt3",
+   "digits": 5,
+   "found": true,
+   "coeffs": [
+    -3,
+    2,
+    0
+   ],
+   "exact_dec": "0.666666667",
+   "within_1sigma": true,
+   "null_rate": 0.54
+  },
+  {
+   "target": "Koide_Q",
+   "basis": "B3_sqrt15",
+   "digits": 5,
+   "found": true,
+   "coeffs": [
+    3,
+    -2,
+    0
+   ],
+   "exact_dec": "0.666666667",
+   "within_1sigma": true,
+   "null_rate": 0.72
+  },
+  {
+   "target": "Koide_Q",
+   "basis": "B4_z15plus",
+   "digits": 5,
+   "found": true,
+   "coeffs": [
+    3,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "exact_dec": "0.666666667",
+   "within_1sigma": true,
+   "null_rate": 0.64
+  },
+  {
+   "target": "Koide_Q",
+   "basis": "B5_z20plus",
+   "digits": 5,
+   "found": true,
+   "coeffs": [
+    -3,
+    2,
+    0,
+    0,
+    0
+   ],
+   "exact_dec": "0.666666667",
+   "within_1sigma": true,
+   "null_rate": 0.76
+  },
+  {
+   "target": "Koide_Q",
+   "basis": "B6_sqrtphi",
+   "digits": 5,
+   "found": true,
+   "coeffs": [
+    -3,
+    2,
+    0,
+    0,
+    0
+   ],
+   "exact_dec": "0.666666667",
+   "within_1sigma": true,
+   "null_rate": 0.64
+  },
+  {
+   "target": "m_p/m_e",
+   "basis": "B1_sqrt5",
+   "digits": 10,
+   "found": false
+  },
+  {
+   "target": "m_p/m_e",
+   "basis": "B2_sqrt3",
+   "digits": 10,
+   "found": false
+  },
+  {
+   "target": "m_p/m_e",
+   "basis": "B3_sqrt15",
+   "digits": 10,
+   "found": false
+  },
+  {
+   "target": "m_p/m_e",
+   "basis": "B4_z15plus",
+   "digits": 10,
+   "found": false
+  },
+  {
+   "target": "m_p/m_e",
+   "basis": "B5_z20plus",
+   "digits": 10,
+   "found": false
+  },
+  {
+   "target": "m_p/m_e",
+   "basis": "B6_sqrtphi",
+   "digits": 10,
+   "found": false
+  }
+ ],
+ "hits": [],
+ "skipped_low_digits": [
+  "alpha_s(M_Z)",
+  "sin^2(theta_W)_MSbar(M_Z)",
+  "m_W/m_Z",
+  "|Vus|",
+  "|Vcb|",
+  "|Vub|",
+  "sin^2(theta_12)",
+  "sin^2(theta_23)",
+  "sin^2(theta_13)",
+  "delta_CP",
+  "m_c(m_c)/m_b(m_b)",
+  "m_s/m_d"
+ ],
+ "transcendental_hits": [],
+ "n_targets": 6,
+ "n_bases": 6
+}

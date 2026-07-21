@@ -255,3 +255,4 @@ hash-first status.*
 
 | RESERVED: B743 (cc — banking cc2's rung1-widened + analytic package) | — | — | 2026-07-21 | number reservation per the collision protocol (relay CC_TO_CC3_CC2_2026-07-21_diff_and_concur) |
 | RESERVED: B744 (cc — the fact-basis conflict adjudication, 6 ids from the B738×B742 diff) | — | — | 2026-07-21 | number reservation per the collision protocol |
+| RESERVED: B745 (cc — cross-verify of B742's two revivals B58/B225; reassigned from cc2 on seat closure) | — | — | 2026-07-21 | number reservation per the collision protocol |

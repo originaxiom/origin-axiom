@@ -1,0 +1,146 @@
+[
+  {
+    "name": "me/mmu",
+    "value": "0.004836331699",
+    "rel_unc": 2.225e-08,
+    "digits": 7,
+    "source": "CODATA 2022 (via PDG 2024 muon listings, pdgLive S004): muon/electron mass ratio = 206.7682827(46)",
+    "notes": "Computed as the reciprocal of the CODATA 2022 muon-electron mass ratio 206.7682827(46), which is measured directly (via muonium spectroscopy / g-2 experiments) and is far more precise than combining separately-quoted MeV masses. rel_unc equals that of the ratio itself, 2.2e-8."
+  },
+  {
+    "name": "me/mtau",
+    "value": "0.0002875740466",
+    "rel_unc": 5.065e-05,
+    "digits": 4,
+    "source": "PDG 2024 (S. Navas et al., Phys. Rev. D 110, 030001 (2024)); electron mass CODATA 2022 = 0.51099895069(16) MeV; tau mass pdgLive S035M 'OUR AVERAGE' = 1776.93(9) MeV",
+    "notes": "Electron mass uncertainty (rel ~3e-10) is negligible; ratio uncertainty is entirely dominated by the tau mass measurement (rel 5.07e-5), propagated in quadrature."
+  },
+  {
+    "name": "mmu/mtau",
+    "value": "0.05946119177",
+    "rel_unc": 5.065e-05,
+    "digits": 4,
+    "source": "PDG 2024 (S. Navas et al., Phys. Rev. D 110, 030001 (2024)); muon mass pdgLive = 105.6583755(23) MeV; tau mass pdgLive S035M 'OUR AVERAGE' = 1776.93(9) MeV",
+    "notes": "Muon mass uncertainty (rel ~2.2e-8) is negligible; ratio uncertainty is entirely dominated by the tau mass measurement (rel 5.07e-5), propagated in quadrature."
+  },
+  {
+    "name": "alpha(0)^-1",
+    "value": "137.035999177",
+    "rel_unc": 1.5325e-10,
+    "digits": 9,
+    "source": "CODATA 2022 recommended value (NIST, physics.nist.gov/cgi-bin/cuu/Value?alphinv), Mohr et al., Rev. Mod. Phys. 2024",
+    "notes": "Zero-momentum (low-energy) fine-structure constant inverse, measured via electron g-2 and atom-recoil (Rb/Cs) experiments. CODATA 2022 supersedes the CODATA 2018 value 137.035999084(21) still quoted in some PDG 2024 constants-review text; the 2022 value is used here as the current CODATA standard."
+  },
+  {
+    "name": "alpha_s(M_Z)",
+    "value": "0.1180",
+    "rel_unc": 0.007627,
+    "digits": 2,
+    "source": "PDG 2024 world average (S. Navas et al., Phys. Rev. D 110, 030001 (2024), QCD review)",
+    "notes": "World average of the strong coupling constant at the Z pole from lattice, tau decays, DIS, e+e- event shapes, and electroweak fits."
+  },
+  {
+    "name": "sin^2(theta_W)_MSbar(M_Z)",
+    "value": "0.23129",
+    "rel_unc": 0.0001729,
+    "digits": 3,
+    "source": "PDG 2024 Electroweak Model review (rpp2024-rev-standard-model.pdf), Table 10.2: š²_Z ≡ sin²θ̂_W(M_Z) = 0.23129(4)",
+    "notes": "This is the MS-bar-scheme mixing angle evaluated at the Z pole, distinct from the on-shell value s²_W = 0.22348(10) and the effective leptonic angle s̄²_ℓ = 0.23161(4) quoted in the same table; the task specifically requests the MS-bar definition."
+  },
+  {
+    "name": "m_W/m_Z",
+    "value": "0.8813581627",
+    "rel_unc": 0.0001669,
+    "digits": 3,
+    "source": "PDG 2024 world averages: m_W = 80.3692(133) GeV (LEP2+D0+ATLAS+LHCb combination excluding the 2022 CDF Run-II outlier, May 2024), m_Z = 91.1879(20) GeV (pdgLive S044M, LEP+CDF combination)",
+    "notes": "A single WebFetch pass returned an unverified 'm_W = 80.3625(77) GeV, 2026 combination' figure attributed to a supposed May-2026 update; a targeted follow-up search could not corroborate this number in any indexed PDG/arXiv page, so it was treated as an unverified/likely-hallucinated artifact of the fetch-summarization step and discarded in favor of the well cross-referenced 80.3692(133) GeV value (confirmed independently via pdgLive, Wikipedia, and the PDG W-mass review). ATLAS 2024 (80.3665±0.0159) and CMS 2025 (80.3602±0.0099) measurements exist but are not yet folded into the official PDG world average as of the sources checked."
+  },
+  {
+    "name": "Koide_Q",
+    "value": "0.6666644634",
+    "rel_unc": 7.621e-06,
+    "digits": 5,
+    "source": "Computed from PDG/CODATA lepton masses: m_e = 0.51099895069(16) MeV (CODATA 2022), m_mu = 105.6583755(23) MeV (PDG 2024), m_tau = 1776.93(9) MeV (PDG 2024, pdgLive S035M 'OUR AVERAGE')",
+    "notes": "Q = (me+mmu+mtau)/(sqrt(me)+sqrt(mmu)+sqrt(mtau))^2, all masses in MeV. Uncertainty propagated numerically (central differences on each mass); dominated almost entirely by the tau-mass uncertainty (mu and e contribute negligibly). Central value differs from the famous Koide coincidence value 2/3 = 0.666666... by about 0.43 sigma, i.e. fully consistent with it given current tau-mass precision."
+  },
+  {
+    "name": "m_p/m_e",
+    "value": "1836.152673426",
+    "rel_unc": 1.7431e-11,
+    "digits": 10,
+    "source": "CODATA 2022 recommended value (NIST, physics.nist.gov/cgi-bin/cuu/Value?mpsme)",
+    "notes": "Directly measured proton-to-electron mass ratio, one of the most precisely known dimensionless constants."
+  },
+  {
+    "name": "|Vus|",
+    "value": "0.22431",
+    "rel_unc": 0.003790,
+    "digits": 2,
+    "source": "PDG 2024 CKM Quark-Mixing Matrix review (rpp2024-rev-ckm-matrix.pdf), Eq. 12.8",
+    "notes": "From K_l3 semileptonic kaon decays combined with lattice QCD form factors."
+  },
+  {
+    "name": "|Vcb|",
+    "value": "0.0411",
+    "rel_unc": 0.02920,
+    "digits": 1,
+    "source": "PDG 2024 CKM Quark-Mixing Matrix review (rpp2024-rev-ckm-matrix.pdf), Eq. 12.11 (combined average)",
+    "notes": "PDG quotes an inclusive determination (42.2±0.5)x10^-3 and an exclusive determination (39.8±0.6)x10^-3 that are in mild tension; the official combined/inflated-uncertainty average is (41.1±1.2)x10^-3, used here."
+  },
+  {
+    "name": "|Vub|",
+    "value": "0.00382",
+    "rel_unc": 0.05236,
+    "digits": 1,
+    "source": "PDG 2024 CKM Quark-Mixing Matrix review (rpp2024-rev-ckm-matrix.pdf), Eq. 12.12 (combined average)",
+    "notes": "PDG quotes an inclusive determination (4.13 +0.16/-0.17? combined ~0.12-0.18)x10^-3 and an exclusive determination (3.67±0.09±0.12)x10^-3, combined to (3.82±0.20)x10^-3, used here. A B->tau-nu-based determination (4.11±0.39)x10^-3 is consistent."
+  },
+  {
+    "name": "sin^2(theta_12)",
+    "value": "0.308",
+    "rel_unc": 0.03734,
+    "digits": 1,
+    "source": "NuFIT 6.0 (2024) global fit, Normal Ordering, table including Super-Kamiokande atmospheric data (nu-fit.org/sites/default/files/v60.tbl-parameters.pdf)",
+    "notes": "Best fit 0.308 (+0.012/-0.011); solar mixing angle, dominated by solar-neutrino and KamLAND data, essentially unaffected by inclusion of SK atmospheric data (0.307 without SK)."
+  },
+  {
+    "name": "sin^2(theta_23)",
+    "value": "0.470",
+    "rel_unc": 0.03191,
+    "digits": 1,
+    "source": "NuFIT 6.0 (2024) global fit, Normal Ordering, table including Super-Kamiokande atmospheric data (nu-fit.org/sites/default/files/v60.tbl-parameters.pdf)",
+    "notes": "Best fit 0.470 (+0.017/-0.013), lower octant, when SK atmospheric data is included in the global fit. Without SK atmospheric data the fit instead prefers the upper octant, 0.561 (+0.012/-0.015) -- a well-known octant-degeneracy tension in current global neutrino fits. We report the 'with SK' (fully global) value as primary."
+  },
+  {
+    "name": "sin^2(theta_13)",
+    "value": "0.02215",
+    "rel_unc": 0.02573,
+    "digits": 1,
+    "source": "NuFIT 6.0 (2024) global fit, Normal Ordering, table including Super-Kamiokande atmospheric data (nu-fit.org/sites/default/files/v60.tbl-parameters.pdf)",
+    "notes": "Best fit 0.02215 (+0.00056/-0.00058); reactor mixing angle, dominated by Daya Bay/RENO/Double Chooz."
+  },
+  {
+    "name": "delta_CP",
+    "value": "3.700098014",
+    "rel_unc": 0.1580,
+    "digits": 0,
+    "source": "NuFIT 6.0 (2024) global fit, Normal Ordering, table including Super-Kamiokande atmospheric data (nu-fit.org/sites/default/files/v60.tbl-parameters.pdf): delta_CP = 212(+26/-41) degrees",
+    "notes": "Converted from best-fit 212 deg (+26/-41 deg) to radians (212 deg = 3.700098... rad); rel_unc uses the average of the asymmetric 1-sigma bounds (33.5 deg = 0.5847 rad). Uncertainty is large enough that CP conservation (delta_CP = 0 or pi) is not excluded at 1 sigma. Digits=0 correctly flags that essentially no digit beyond the leading one is trustworthy."
+  },
+  {
+    "name": "m_c(m_c)/m_b(m_b)",
+    "value": "0.3043270380",
+    "rel_unc": 0.002421,
+    "digits": 2,
+    "source": "PDG 2024 Summary Tables (rpp2024-sum-quarks.pdf): m_c(m_c) [MS-bar] = 1.2730(46) GeV (CL=90%), m_b(m_b) [MS-bar] = 4.183(7) GeV (CL=90%)",
+    "notes": "Both masses are quoted by PDG at 90% CL rather than 1-sigma; converted to 1-sigma by dividing by 1.645 (Gaussian z-value) before combining in quadrature. Flagged as reduced-precision per task instructions since quark masses carry non-trivial renormalization-scheme and lattice-systematic uncertainties beyond simple Gaussian errors."
+  },
+  {
+    "name": "m_s/m_d",
+    "value": "19.5",
+    "rel_unc": 0.07794,
+    "digits": 1,
+    "source": "PDG 2024 Summary Tables (rpp2024-sum-quarks.pdf): quoted range m_s/m_d = 17-22 (CL=90%)",
+    "notes": "PDG does not quote this ratio as a Gaussian central value +/- 1 sigma, only as a range at 90% CL; we take the midpoint (19.5) as central value and convert the half-width (2.5) to 1-sigma by dividing by 1.645, giving rel_unc ~7.8%. Flagged as low-precision per task instructions. Cross-check: combining PDG's separately-quoted ratios m_u/m_d = 0.462(20) (CL90%) and m_s/m_ud = 27.33(+0.18/-0.14) (CL90%) gives a derived m_s/m_d ~ 20.0 with ~1% precision, notably tighter than the directly-quoted range; we report the directly-quoted range as the more conservative, directly-sourced PDG statement rather than our own multi-equation derivation."
+  }
+]

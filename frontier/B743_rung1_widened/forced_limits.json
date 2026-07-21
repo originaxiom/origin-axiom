@@ -1,0 +1,90 @@
+[
+  {
+    "name": "cat_map_eigenvalue_phi_squared",
+    "value_exact": "phi^2 = (3+sqrt5)/2, root of x^2-3x+1=0",
+    "value_decimal": "2.6180339887498949...",
+    "banked_cell": "frontier/B67_figure_eight_apolynomial/FINDINGS.md (monodromy phi=[[2,1],[1,1]]); knowledge/THE_UNIQUENESS_ATLAS.md G1/G3 ('A=[[2,1],[1,1]], trace 3, eigenvalues phi^{+-2}'; 'Delta(t)=t^2-3t+1=(t-phi^2)(t-phi^-2)'); frontier/B124_time_reversal_reciprocity/FINDINGS.md:13 ('Jacobian eigenvalues {phi^2,-1,phi^-2}')",
+    "forced": "YES - the figure-eight's monodromy matrix A=[[2,1],[1,1]] is THE mapping class of the actual knot complement (trace=3 forced by the topology, det=1 forced by orientation-preservation); the eigenvalues follow algebraically with zero further choices.",
+    "field": "Q(sqrt5)"
+  },
+  {
+    "name": "topological_entropy_of_the_monodromy",
+    "value_exact": "log(phi^2) = 2 log(phi)",
+    "value_decimal": "0.9624236501192069...",
+    "banked_cell": "knowledge/THE_UNIQUENESS_ATLAS.md:19 ('G5. Lehmer/entropy: topological entropy log phi^2 = 2 log phi; the golden inflation. [banked]'); docs/LAW_MAP.md row 'TIME IS THE OBSERVER'S' (B716: 'entropy log phi^2, amphichiral time-reversal'); frontier/B124_time_reversal_reciprocity/FINDINGS.md:21 ('log phi^2, the expansion exponent')",
+    "forced": "YES - entropy of an Anosov diffeomorphism is log of the larger eigenvalue of its (forced) linearization; once the monodromy A is fixed by the topology, the entropy is a pure computation, zero choices. (Note: frontier/B233_synthesis_split_and_five/FINDINGS.md:46 records the same geodesic's length as '4 log phi' = 2 log(phi^2), the doubled convention from traversing the trace-1 generator M_1 twice to reach A=M_1^2 - consistent, not a second quantity.)",
+    "field": "transcendental (log of an algebraic unit in Q(sqrt5))"
+  },
+  {
+    "name": "fibonacci_substitution_growth_rate",
+    "value_exact": "phi = (1+sqrt5)/2, Perron-Frobenius eigenvalue of M_1=[[1,1],[1,0]]",
+    "value_decimal": "1.6180339887498949...",
+    "banked_cell": "knowledge/K002_metallic_family_continued_fractions.md ('M_m=[[m,1],[1,0]]... m=1 the golden mean'); frontier/B92_metallic_classification/FINDINGS.md ('the metallic mean is the dominant eigenvalue of the companion M_m'); knowledge/K007_fibonacci_hamiltonian_quasicrystal.md (Fibonacci substitution a->ab,b->a, KKT/Sutô trace-map identification)",
+    "forced": "YES in the figure-eight's own context - the fig-8 monodromy A is exactly M_1^2 (B122 'fig-8 = golden squared'), so M_1's substitution a->ab,b->a is the object's own generator, not a selection among the general metallic family. (Caveat: choosing 'm=1' as the distinguished member OF THE GENERAL METALLIC TOWER is flagged in B92/K002 as requiring an imported metric/selector - systole, expansion threshold, or arithmeticity - so 'golden is special among all m' is itself a separately-argued, not fully forced, selection. Within the census of THIS object it is simply what the object is.)",
+    "field": "Q(sqrt5)"
+  },
+  {
+    "name": "fibonacci_word_letter_density",
+    "value_exact": "1/phi (density of the dominant letter in the fixed point of a->ab, b->a); equivalently the gap-labeling module is Z + phi^{-1}Z",
+    "value_decimal": "0.6180339887498949...",
+    "banked_cell": "knowledge/K007_fibonacci_hamiltonian_quasicrystal.md:32-33 ('the integrated density of states takes values in Z + phi^{-1}Z (the module of the substitution)'); frontier/B724_seeing_readjudication/FINDINGS.md:15 (recomputed 'letter entropy -> 0.9594', the Shannon entropy of a Bernoulli(1/phi) source, consistent with density 1/phi; C3 refutation of an entropy-arrow claim)",
+    "forced": "YES - the letter frequency of a primitive substitution's fixed point is the (unique, forced) normalized Perron-Frobenius eigenvector entry; zero choices once the substitution a->ab,b->a is fixed.",
+    "field": "Q(sqrt5)"
+  },
+  {
+    "name": "five_absolute_hearing_tones",
+    "value_exact": "{0, 1/(2*phi), 1/2, phi/2, 1}",
+    "value_decimal": "{0, 0.3090169943749474, 0.5, 0.8090169943749475, 1}",
+    "banked_cell": "frontier/B641_twistframe_law/FINDINGS.md:11-12 ('THE LAW: Re(zeta^-1 . u-bar M_odd u), zeta^2=det, is ear-independent on ALL 360 elements... The five-tone census exact: |tone| in {0, 1/(2phi), 1/2, phi/2, 1} with multiplicities {90,72,120,72,6}'); mechanized as |chi_golden|/2 in frontier/B654_listening_synthesis/FINDINGS.md:68-73 (census reproduces exactly as class-sizes x3); docs/LAW_MAP.md 'The twist-frame tone law' + 'THE HEARING GROUP THEOREM'",
+    "forced": "YES for the census itself - exhaustive over all 360 elements of the hearing-group image (2I x Z/3) and proved ear-independent (max deviation 2.14e-60 across 360 words x 6 exact ears), zero choices in extracting the five values and their multiplicities. CAVEAT: this census lives at the golden stage (level 15 = being-prime 3 x hearing-prime 5); docs/LAW_MAP.md row 'The stage-selection question' records kappa=5 minimality as a HYPOTHESIS ('5|kappa proved; equality is not') - so the choice-free-ness is established GIVEN the stage, while 'why this stage' is a separate, not fully closed, question.",
+    "field": "Q(sqrt5) (all five values lie in Q(sqrt5); they are |chi|/2 of the golden 2-dim character of 2I=SL(2,5))"
+  },
+  {
+    "name": "weld_order10_word_hearing_amplitude",
+    "value_exact": "tr(rho(RL)) = -1/phi, ord(rho(RL))=10 on the 2-dim hearing rep; tone = |tr|/2 = 1/(2*phi)",
+    "value_decimal": "tr = -0.6180339887498949, tone = 0.3090169943749474",
+    "banked_cell": "frontier/B640_hearing_group/FINDINGS.md:22-29 ('The headline: tr rho(RL) = -1/phi (45+ digits)... ord(rho(RL)) = 10 (= B584's banked rotation)'); tone value confirmed frontier/B641_twistframe_law/FINDINGS.md + frontier/B654_listening_synthesis/FINDINGS.md:68-73 (tone=|chi|/2); docs/LAW_MAP.md row 'The hearing-group theorem' ('tr rho(RL) = -1/phi; the Anosov monodromy heard as the pentagon')",
+    "forced": "YES given the stage - RL is the distinguished golden/minimal-modulus, unit-determinant word (docs/LAW_MAP.md row 'THE HEARING LANDSCAPE THEOREM': 'the golden word: minimum nonzero modulus, the unique UNIT-DETERMINANT word'), so it is picked out by an exact arithmetic criterion, not an arbitrary word choice; its trace/order/tone then follow with zero further choices. Same stage-selection caveat as the five-tones entry applies.",
+    "field": "Q(sqrt5)"
+  },
+  {
+    "name": "golden_rotation_order10_modular_lift",
+    "value_exact": "tr(sigma(A_1)) = phi exactly, eigenvalues e^{+-i*pi/5}, det=1 (canonical weight-1/5 slash lift of the monodromy through Gamma(5), elliptic of order 10)",
+    "value_decimal": "1.6180339887498949",
+    "banked_cell": "frontier/B674_generation_leg/FINDINGS.md:18-26 ('THE GOLDEN-ROTATION LAW: the canonical lift of A_1 through the weight-1/5 slash action on Gamma(5) is ELLIPTIC of order 10 with tr sigma(A_1) = phi EXACTLY (eigenvalues e^{+-i*pi/5}); verified to 2.5e-71 and exactly in Z[phi]'); docs/LAW_MAP.md row 'THE GOLDEN-ROTATION LAW'",
+    "forced": "YES - 'canonical lift' is explicitly the point: it is THE modular-weight-1/5 slash lift of the (already-forced) hyperbolic monodromy, not a choice among lifts; LAW_MAP tags it THEOREM-grade fact, exact in Z[phi].",
+    "field": "Q(sqrt5)"
+  },
+  {
+    "name": "thurston_cusped_volume_as_dehn_filling_limit",
+    "value_exact": "Vol(4_1) = 2*V_reg_tet = (3*sqrt3/2)*L(chi_{-3},2), sup limit of Vol(4_1(p,q)) as fillings lengthen (Thurston's hyperbolic Dehn surgery theorem)",
+    "value_decimal": "2.0298832128193072...",
+    "banked_cell": "knowledge/K004_figure_eight_dehn_filling_apolynomials.md:20-22 ('By Thurston's hyperbolic Dehn surgery theorem all but finitely many fillings stay hyperbolic, with volumes increasing to the cusped volume vol(4_1)=2.0299... from below'); computationally verified frontier/B96_geometry_invariants/FINDINGS.md:22-26 ('of 156 nontrivial fillings... 155 are strictly below vol_0, 0 exceed it - the Neumann-Zagier Hessian... negative definite'); exact L-value identity frontier/B680_arithmetic_meditation (docs/LAW_MAP.md row 'THE VOLUME IS THE BEING-CHARACTER L-VALUE': 'Vol(4_1)=(3sqrt3/2)L(chi_-3,2) exactly, verified 40 digits')",
+    "forced": "YES - the complete hyperbolic structure is UNIQUE by Mostow-Prasad rigidity, and Thurston's theorem forces monotone convergence of Dehn-filled volumes to this specific number regardless of which slope sequence is sent to infinity; the limit value itself is choice-free (the CHOICE lives only in which finite (p,q) filling one inspects en route, not in the limit).",
+    "field": "transcendental (Borel regulator / Bloch-Wigner dilogarithm value in the Bloch group of Q(sqrt-3); = (3sqrt3/2) L(chi_{-3},2))"
+  },
+  {
+    "name": "neumann_zagier_quadratic_correction_constant",
+    "value_exact": "pi/sqrt3 = 2*pi/|tau_cusp|, tau_cusp = 2*sqrt3*i; coefficient of the 1/n^2 term in ell_C(1,n) = 2*pi*i/n + (pi/sqrt3)/n^2 + O(1/n^3)",
+    "value_decimal": "1.8137993642342178...",
+    "banked_cell": "frontier/B290_core_scale_ladder/FINDINGS.md:9-18 ('The 1/n^2 correction coefficient is pi/sqrt3 = 2*pi/|tau_cusp|, with the cusp shape tau_cusp = 2*sqrt3*i... matches the measured Re(ell_C)*n^2 -> 1.81379 to 5 digits'); the 1/n^3 imaginary term pi/6 also recorded there",
+    "forced": "PARTIALLY - the coefficient pi/sqrt3 is a fixed invariant of the (rigid, choice-free) complete cusp shape, extracted as the n->infinity asymptotic Taylor coefficient of the core-geodesic length; but B290's own caveat (line 20-24) notes the tidy REAL form is figure-eight-specific (because tau_cusp happens to be purely imaginary) and the general formula is ell_C = 2*pi*i/n + (2*pi*i/tau)/n^2 + ...; also the (1,n) meridian-filling family is a specific choice of surgery curve (canonical for a knot's meridian, but the family index n itself is CHOICE-PARAMETERIZED, see note below). The coefficient is forced; the surgery family exhibiting it is a natural but not unique diagnostic.",
+    "field": "transcendental (pi-type), coefficient built from tau_cusp in Q(sqrt-3)"
+  },
+  {
+    "name": "systole_complex_length",
+    "value_exact": "lambda = 1.08707... - 1.72277...i (shortest geodesic of the complete hyperbolic structure), trace x = 2*cosh(lambda/2) = 2-omega = (3-i*sqrt3)/2",
+    "value_decimal": "1.08707 - 1.72277i",
+    "banked_cell": "frontier/B559_blackhole_probes/FINDINGS.md:52-62 (table: 'Re lambda=1.08707, Im lambda=-1.72277, trace x=2-omega=(3-i*sqrt3)/2, Re(S)=Re(lambda)/2=0.5435 (systole)'); cross-referenced as the modular-surface analogue in frontier/B96_geometry_invariants/FINDINGS.md:18-20 ('m=1 is the systole... two independent simplicity measures agree') and frontier/B470_reflection_campaign/FINDINGS.md:104 ('systole stays bounded (1.087, 0.633, 0.697, 0.666)')",
+    "forced": "YES - the systole (shortest element of the discrete length spectrum) of the UNIQUE complete hyperbolic structure (Mostow-Prasad rigidity) is a rigid geometric invariant; it is the literal minimum over an intrinsically-ordered, choice-free set (the whole length spectrum), so extracting 'the shortest one' involves no selection.",
+    "field": "trace x=(3-i*sqrt3)/2 is algebraic in Q(sqrt-3) (an Eisenstein integer, 2-omega); the length lambda=2*arccosh(x/2) itself is transcendental-log-type over Q(sqrt-3)"
+  },
+  {
+    "name": "cusp_shape",
+    "value_exact": "tau_cusp = 2*sqrt(3)*i = 2*sqrt(-3)",
+    "value_decimal": "3.4641016151377544i",
+    "banked_cell": "frontier/B486_cusp_hexagonal_verdict/FINDINGS.md:8-14 ('Cusp modulus (snappy, both knot and shortest framing): tau = 2*sqrt3*i = 2*sqrt-3, purely imaginary. Reduced mod SL(2,Z): stays 2*sqrt3*i (Re=0). Rectangular lattice... NOT SL(2,Z)-equivalent to the hexagonal point e^{2*pi*i/3} - different CM points: disc -48 vs disc -3'); consistent with frontier/B290_core_scale_ladder/FINDINGS.md:14",
+    "forced": "YES - the cusp shape of the complete hyperbolic structure is a rigid Mostow-Prasad invariant computed in the canonical meridian/longitude basis (canonical for a knot complement - a single cusp, standard 0-framed longitude); B486 explicitly checked it is already SL(2,Z)-reduced (Re=0 stays 0), so there is no residual basis choice.",
+    "field": "Q(sqrt-3) (algebraic, degree 2; the specific lattice point is the CM point of discriminant -48, an order inside Q(sqrt-3), not the hexagonal/discriminant -3 point)"
+  }
+]
