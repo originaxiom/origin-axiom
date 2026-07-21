@@ -4,9 +4,18 @@ import sys
 
 import mpmath as mp
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..",
-                                "frontier", "B680_arithmetic_meditation"))
-from verify import volume_is_being_L_value, inert_5_in_eisenstein  # noqa
+# Import under a UNIQUE module name: a bare `import verify` here collides with
+# sys.modules['verify'] already claimed at collection time by test_b440 (B440's verify.py),
+# which broke collection of the whole suite (E12 family, module-name dimension).
+import importlib.util
+
+_spec = importlib.util.spec_from_file_location(
+    "b680_verify", os.path.join(os.path.dirname(__file__), "..",
+                                "frontier", "B680_arithmetic_meditation", "verify.py"))
+_b680_verify = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_b680_verify)
+volume_is_being_L_value = _b680_verify.volume_is_being_L_value
+inert_5_in_eisenstein = _b680_verify.inert_5_in_eisenstein
 
 
 def test_volume_is_being_character_L_value():
