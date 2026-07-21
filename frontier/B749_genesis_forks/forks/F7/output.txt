@@ -1,0 +1,154 @@
+==============================================================================
+B749 FORK F7 — THE STURMIAN STRATA CONTROL (seal v2)
+==============================================================================
+
+--- PART 0: instrument control on the banked carrier m004 ---
+  algdep[m004 shape] deg<=2: x^2 - x + 1  height=1  |p(t)|=8.482e-61  |p(t)|/|p'(t)|=4.897e-61  ACCEPT
+CHECK: control m004 shape minpoly = x^2 - x + 1
+CHECK: control m004 shape-field disc (squarefree part) = -3
+CHECK: control factornf(x^2+3) over Q[t]/(t^2-t+1) #factors = 2
+CHECK: control m004 volume = 2.0298832128
+CHECK: control m004 H1 = Z
+CHECK: control m004 monodromy RL trace/det = tr=3,det=1
+CHECK: control m004 dilatation minpoly = x**2 - 3*x + 1
+
+--- PART A: F7a — non-quadratic slope witness alpha = e - 2 ---
+CF(e-2) = [0;1,2,1,1,4,1,1,6,1,1,8,1,1,10,1,1,12,1,1,14,1,1,16,1,1,18,1,1,20,1,1,22,1,1,24,1,1,26,1,1,...]
+CHECK: F7a CF(e-2) first 40 digits == Euler pattern (1,2k,1 blocks) = True
+CHECK: F7a convergent p/q with |alpha - p/q| < 1/q^2 = q=2111421691000680031, err=7.7302e-39, 1/q^2=2.2431e-37
+CHECK: F7a eventually-periodic fit with preperiod<=10, period<=10 = None
+CHECK: F7a unbounded-digit evidence: strictly growing subsequence in window = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26]
+CHECK: F7a min |A a^2 + B a + C| over |A|,|B|,|C|<=50 (a = e-2) = 0.0001109039 at (A,B,C)=(-11, 26, -13)
+F7a CONCLUSION: CF(e-2) is non-eventually-periodic (Euler pattern, verified in
+  window; no small periodic fit); no integer quadratic with |coeffs|<=50 comes
+  within 1e-12; e is transcendental (Hermite). By Lagrange + the Mobius-fixed-
+  point direction, NO nontrivial substitution fixes the slope-(e-2) Sturmian
+  word: the non-quadratic stratum carries NO self-similar generator at all —
+  there is no carrier to compare. F7a stratum verdict: ROBUST.
+
+--- PART B: F7b — the sqrt(3)-1 stratum (CF period (1,2)) ---
+CHECK: F7b CF(sqrt(3)-1) (sympy, exact) = [0, [1, 2]]
+CHECK: F7b minpoly(sqrt(3)-1) = x**2 + 2*x - 2
+CHECK: F7b unique m with sqrt(3)-1 = [0;m,m,...] would be = 3/2 - sqrt(3)/2
+CHECK: F7b metallic exclusion (m=1..50, exact) = all nonzero
+CHECK: F7b Lagrange number of the (1,2)-word = 2*sqrt(3)
+CHECK: F7b Lagrange number exceeds Hurwitz bottom sqrt(5) (T4 extremality fails) = 2*sqrt(3) = 3.464101615 > sqrt(5) = 2.236067978
+CHECK: F7b composite substitution sigma = a->ababa, b->ab
+CHECK: F7b abelianization = [[1,1],[1,0]]*[[2,1],[1,0]] = [[3, 1], [2, 1]] tr=4 det=1
+CHECK: F7b monodromy class Anosov (|tr| = 4 > 2, det = +1) = yes
+CHECK: F7b sigma primitive (all abelianization entries > 0) = yes
+CHECK: F7b dilatation lambda = sqrt(3) + 2
+CHECK: F7b dilatation minpoly = x**2 - 4*x + 1
+CHECK: F7b dilatation norm +1 (every metallic mean has norm -1) = const coeff 1
+CHECK: F7b dilatation field Q(sqrt(3)): sqfree disc = 3
+CHECK: F7b m^2+4 mod 3 takes values = [1, 2]
+CHECK: F7b Q(sqrt(3)) contains NO metallic mean (3 never divides m^2+4) = proved mod 3
+CHECK: F7b hearing face: nfisisom(x^2-4x+1, x^2-3x+1) [Q(sqrt3) vs golden Q(sqrt5)] = 0
+CHECK: F7b fixed point: sigma(prefix) extends prefix = yes
+CHECK: F7b prefix (len 51409) is 1-balanced for window lengths 1..30 = True
+CHECK: F7b factor complexity p(n) = n+1 for n = 1..15 (Sturmian signature) = True
+CHECK: F7b letter-b frequency vs Perron slope (3-sqrt(3))/3 = |0.4226497 - 0.4226497| = 2.18e-10
+CHECK: F7b slope CF (sympy, exact) = [0, 2, [2, 1]]
+CHECK: F7b slope = (x+2)/(2x+5) at x = sqrt(3)-1, det[[1,2],[2,5]] = 1 = True, det = 1
+CHECK: F7b R*L*L = [[3, 1], [2, 1]]
+CHECK: F7b carrier solution type = all tetrahedra positively oriented
+CHECK: F7b carrier hyperbolic = YES (geometric solution)
+CHECK: F7b carrier orientable / #cusps = True / 1
+CHECK: F7b carrier volume = 2.666744783449059790796712462610
+CHECK: F7b identify() = [m009(0,0)]
+CHECK: F7b is_isometric_to(m009) = True
+CHECK: F7b volume match vs census m009 = |2.666744783449 - 2.666744783449| = 8.88e-16
+CHECK: F7b homology match vs m009 = Z/2 + Z vs Z/2 + Z
+CHECK: F7b cyclic words b++LLR, b++LRL isometric to carrier = both True
+CHECK: F7b SNF(A - I) = [[1, 0], [0, 2]]
+CHECK: F7b H1 = Z + Z/2 (Wang prediction == snappy) = Z/2 + Z
+CHECK: F7b knot-ness face (H1 = Z) = ABSENT (H1 has Z/2 torsion)
+  algdep[shape z0] deg<=2: x^2 - x + 2  height=2  |p(t)|=7.330e-60  |p(t)|/|p'(t)|=2.770e-60  ACCEPT
+  algdep[shape z1] deg<=2: x^2 - x + 2  height=2  |p(t)|=7.330e-60  |p(t)|/|p'(t)|=2.770e-60  ACCEPT
+  algdep[shape z2] deg<=2: x^2 + x + 2  height=2  |p(t)|=7.330e-60  |p(t)|/|p'(t)|=2.770e-60  ACCEPT
+CHECK: F7b shape minpolys = ['x^2 - x + 2', 'x^2 - x + 2', 'x^2 + x + 2']
+CHECK: F7b shape-field disc (squarefree part) for all shapes = [-7, -7, -7]
+CHECK: F7b |HP shape z0 - exact root| < 1e-55 = 2.770e-60
+CHECK: F7b |HP shape z1 - exact root| < 1e-55 = 2.770e-60
+CHECK: F7b |HP shape z2 - exact root| < 1e-55 = 2.770e-60
+CHECK: F7b ALL rect gluing+cusp equations satisfied EXACTLY in Q(sqrt(-7)) = True
+CHECK: F7b shape field (= invariant trace field, Neumann-Reid for cusped M) = Q(sqrt(-7))
+CHECK: F7b factornf(x^2+7) over Q[t]/(t^2-t+2) #factors [sqrt(-7) IN field] = 2
+CHECK: F7b factornf(x^2+3) over Q[t]/(t^2-t+2) #factors [sqrt(-3) NOT in field] = 1
+CHECK: F7b nfisisom(x^2-x+2, x^2+7) = [-1/2*x + 1/2, 1/2*x + 1/2]
+CHECK: F7b nfisisom(x^2-x+2, x^2+3) [being field] = 0
+CHECK: F7b BEING face (trace field Q(sqrt(-3))) = ABSENT — invariant trace field is Q(sqrt(-7))
+CHECK: F7b pi_1 two-generator presentation = gens=2, relator=aaBAbaabAB
+  algdep[tr(a)] deg<=2: 11091594785397799687024831516850944261624*x^2 - 36208331100717122527001551561431087887829*x + 31371767547712533960192840816354106755072  height=3.62e+40  |p(t)|=3.714e-21  |p(t)|/|p'(t)|=4.132e-61  reject
+  algdep[tr(a)] deg<=3: 723232586468063288963918305044*x^3 - 2226220779363908872619904892072*x^2 + 1605687993294693150192870090285*x + 381159566824774722045390077586  height=2.23e+30  |p(t)|=1.676e-31  |p(t)|/|p'(t)|=1.534e-61  reject
+  algdep[tr(a)] deg<=4: x^4 - 5*x^2 + 8  height=8  |p(t)|=1.843e-63  |p(t)|/|p'(t)|=2.071e-64  ACCEPT
+  algdep[tr(b)] deg<=2: 13019276010765105856709020979960439284590*x^2 + 60105794902688423682103745021594487306145*x + 73648146826810792470090354476562887624447  height=7.36e+40  |p(t)|=3.828e-21  |p(t)|/|p'(t)|=2.565e-61  reject
+  algdep[tr(b)] deg<=3: 1625725593016161757222022901286*x^3 + 6400202571665799462351208101887*x^2 + 4093920718567747386651437201748*x - 6252225317937543168900289608250  height=6.4e+30  |p(t)|=1.263e-31  |p(t)|/|p'(t)|=2.227e-62  reject
+  algdep[tr(b)] deg<=4: x^4 - 10*x^2 + 32  height=32  |p(t)|=1.671e-62  |p(t)|/|p'(t)|=6.637e-64  ACCEPT
+  algdep[tr(ab)] deg<=1: x + 2  height=2  |p(t)|=1.389e-65  |p(t)|/|p'(t)|=1.389e-65  ACCEPT
+CHECK: F7b minpoly tr(a) = x^4 - 5*x^2 + 8
+CHECK: F7b minpoly tr(b) = x^4 - 10*x^2 + 32
+CHECK: F7b minpoly tr(ab) = x + 2
+CHECK: F7b tr(a), tr(b), tr(ab) all ALGEBRAIC INTEGERS (monic integral minpolys) = True
+  Fricke: for a 2-generator group every trace is an INTEGER polynomial in
+  (tr a, tr b, tr ab); all three are algebraic integers, hence ALL traces of
+  Gamma are algebraic integers.
+CHECK: F7b ab parabolic: tr(ab) = -2 and |ab[0][1]| > 0.1 (ab != -I) = tr = -2, |offdiag| = 1.414214
+  algdep[tr(a^2)] deg<=2: x^2 - x + 2  height=2  |p(t)|=2.849e-63  |p(t)|/|p'(t)|=1.077e-63  ACCEPT
+  algdep[tr(b^2)] deg<=2: x^2 - 6*x + 16  height=16  |p(t)|=4.228e-63  |p(t)|/|p'(t)|=7.989e-64  ACCEPT
+CHECK: F7b minpoly tr(a^2) = x^2 - x + 2
+CHECK: F7b minpoly tr(b^2) (disc -28, same field Q(sqrt(-7))) = x^2 - 6*x + 16
+CHECK: F7b invariant trace field via traces AGREES with shape field = Q(sqrt(-7))
+CHECK: F7b ARITHMETICITY (Maclachlan-Reid, verified: kG = Q(sqrt(-7)) imaginary quadratic; all traces integral; cusped) = YES — commensurable with PSL2(O_-7)
+CHECK: F7b vol / covol(PSL2(O_-7)) [Humbert] = 3.0
+CHECK: F7b commensurable with m004? = NO — invariant trace fields differ (Q(sqrt(-7)) vs Q(sqrt(-3)); commensurable groups share kG)
+  algdep[cusp shape] deg<=2: 8*x^2 + 2*x + 1  height=8  |p(t)|=1.019e-60  |p(t)|/|p'(t)|=1.926e-61  ACCEPT
+CHECK: F7b cusp shape minpoly = 8*x^2 + 2*x + 1
+CHECK: F7b cusp shape exact = (-1 + i*sqrt(7))/8 — cusp field Q(sqrt(-7))
+CHECK: F7b |HP cusp shape - exact| < 1e-55 = 1.926e-61
+CHECK: F7b INTERFACE face (cusp) = PRESENT (1 cusp) — but cusp field Q(sqrt(-7)), not the banked Q(sqrt(-3))
+  algdep[m003 shape] deg<=2: x^2 - x + 1  height=1  |p(t)|=8.482e-61  |p(t)|/|p'(t)|=4.897e-61  ACCEPT
+CHECK: F7b vacuity witness: m003 (a fellow punctured-torus-bundle carrier) shape minpoly = x^2 - x + 1
+CHECK: F7b vacuity witness: m003 carries the being field Q(sqrt(-3)), vol = 2.0298832128
+
+F7b FACE TABLE (carrier = b++RLL = m009, vs banked m004 anatomy):
+  being (trace field Q(sqrt(-3))): ABSENT — field is Q(sqrt(-7)), factornf-certified
+  hearing (golden / Q(sqrt(5))): ABSENT — dilatation 2+sqrt(3) in Q(sqrt(3)); no metallic mean lies in Q(sqrt(3)) (mod-3 proof); norm +1 vs metallic -1
+  cusp/interface: PRESENT structurally (1 cusp) — field Q(sqrt(-7)) differs
+  arithmeticity: PRESENT — over Q(sqrt(-7)): a DIFFERENT Bianchi class, provably incommensurable with the banked carrier
+  knot-ness (H1 = Z): ABSENT — H1 = Z + Z/2
+CHECK: F7b banked-specific anatomy markers failed {being field, golden hearing, knot-ness} = 3 of 3 (>= 2 required)
+F7b CONCLUSION: the quadratic-non-metallic carrier is a genuine cusped
+  hyperbolic (even arithmetic) manifold — hyperbolicity and arithmeticity per
+  se do NOT discriminate — but it carries NONE of the banked V4 anatomy:
+  wrong being field, hearing side field-disjoint from every metallic mean,
+  no knot-ness; and it is incommensurable with m004. The metallic (indeed
+  golden) selection is what pins the specific fields. T4's extremality is the
+  selector (Lagrange number 2*sqrt(3) > sqrt(5) here) and its price is now
+  measured: it buys the fields, not the existence of a hyperbolic carrier.
+  F7b stratum verdict: ROBUST.
+
+--- PART C: F7c — metallic stratum ---
+F7c: covered by fork F3 (the silver m=2 bundle); cross-reference only, no
+  duplicate measurement here, per the sealed design.
+CHECK: F7c cross-reference to F3 = as sealed (no computation in F7)
+
+==============================================================================
+CHECK: F7 VERDICT (covers strata a AND b) = ROBUST
+F7 = ROBUST — earned:
+  F7a: the non-quadratic stratum admits NO self-similar generator (CF non-
+       periodicity computed on the e-2 witness; Lagrange; Mobius-fixed-point
+       direction) — there is no sibling carrier at all outside the quadratic
+       class.
+  F7b: the quadratic-non-metallic carrier exists and is hyperbolic and
+       arithmetic (both verified) yet lacks every banked-specific anatomy
+       marker: being field Q(sqrt(-3)) ABSENT (field = Q(sqrt(-7)),
+       factornf-exact), golden hearing ABSENT (dilatation field Q(sqrt(3))
+       contains no metallic mean, mod-3 exact), knot-ness ABSENT (H1 =
+       Z + Z/2, Wang-exact). Absence is informative: the fellow bundle
+       carrier m003 DOES carry Q(sqrt(-3)) (computed), so the being face was
+       reachable in this family — FRAGILE was a live outcome.
+  Prior (F7 ROBUST) is CONFIRMED — no contra-prior skeptic triggered.
+Verdict is journal-only; nothing enters CLAIMS; Gate 5 absolute.
+
+Total CHECK lines: 81

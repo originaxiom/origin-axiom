@@ -1,0 +1,17 @@
+# B749 ARTIFACT HASHES
+# v1 SEAL (23:25:43 CEST; owner red pen closed on P019 v2 per cc relay GO; base = branch genesis/axiom-chain @ ced69b62):
+fbabd79014e7f91b8d77ef91c42f41aed6829c0a44b05d8f2cc18cf10f65b63a  frontier/B749_genesis_forks/PREREGISTRATION.md
+33bdf7d8dbcc5d2d9b1a4f092d4a251891dea5a90eed64605e9871a0fefe6866  frontier/B749_genesis_forks/MEASUREMENTS.md
+efb3a40a8dd56f747ae0882f4b0f77ea2504bd1d20384788e57a154f3ee923ba  philosophy/P019_the_genesis_axiom_chain.md
+
+# v2 SEAL (23:37:35 CEST; F7 corrected per S16_REVIEW_1 STOP — the quadratic≠metallic fix + F7b stratum; EXECUTION_NOTES adopted from cc's relay; P019 erratum appended for merge-gate sign-off):
+fbabd79014e7f91b8d77ef91c42f41aed6829c0a44b05d8f2cc18cf10f65b63a  frontier/B749_genesis_forks/PREREGISTRATION.md
+dbf7e40c86b7a0ae1aae7b3c1f7ca148b048a1ae0b591f99196c999940d81e5d  frontier/B749_genesis_forks/MEASUREMENTS.md
+ae2b892162929f3393fa0b68bd836083ac04fba84099626ba91f9950b932c3ad  frontier/B749_genesis_forks/EXECUTION_NOTES.md
+9fab1ea1db5d784c61a5cc5802aeb7e8d8005dc498b80ca59b76c3b3e2f1b32d  philosophy/P019_the_genesis_axiom_chain.md
+cdde069841d7f698885528d1ff018bc6b3a61324c446c10dc08bce870f63f5c9  frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md
+
+# v3 RESULTS SEAL (00:23:58 CEST, 2026-07-22):
+d6de605bbd89ef28dcba82633a33e5bc0d065a0ccc0151d06580ebacca96b70d  frontier/B749_genesis_forks/FINDINGS.md
+4fecb3eda8498965bbbea131e89ed1663580193a17475ba04216e0f2ba015f44  frontier/B749_genesis_forks/RESULTS.json
+c240c2fea2dde48ac5695400e66a52262b3a4dcb3d6f87da192174c0ea982be7  tests/test_b749_genesis_forks.py
