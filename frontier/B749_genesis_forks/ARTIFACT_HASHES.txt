@@ -1,0 +1,5 @@
+# B749 ARTIFACT HASHES
+# v1 SEAL (23:25:43 CEST; owner red pen closed on P019 v2 per cc relay GO; base = branch genesis/axiom-chain @ ced69b62):
+fbabd79014e7f91b8d77ef91c42f41aed6829c0a44b05d8f2cc18cf10f65b63a  frontier/B749_genesis_forks/PREREGISTRATION.md
+33bdf7d8dbcc5d2d9b1a4f092d4a251891dea5a90eed64605e9871a0fefe6866  frontier/B749_genesis_forks/MEASUREMENTS.md
+efb3a40a8dd56f747ae0882f4b0f77ea2504bd1d20384788e57a154f3ee923ba  philosophy/P019_the_genesis_axiom_chain.md
