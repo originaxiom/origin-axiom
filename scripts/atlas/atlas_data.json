@@ -15491,6 +15491,36 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B750": {
+   "slug": "lack ledger",
+   "motifs": [
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B437",
+    "B532",
+    "B570",
+    "B64",
+    "B700",
+    "B711",
+    "B712",
+    "B713",
+    "B714",
+    "B715",
+    "B716",
+    "B733",
+    "B739",
+    "B746",
+    "P019"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B75": {
    "slug": "metallic degree rank",
    "motifs": [

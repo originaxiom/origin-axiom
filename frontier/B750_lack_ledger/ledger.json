@@ -1,0 +1,37 @@
+{
+  "prereg_sha8": "857f9f81",
+  "classes": {
+    "T": "no basepoint (torsor lack): option-space + symmetry supplied, canonical point proven absent",
+    "R": "no bandwidth (rigidity lack): deformation or additional channels proven absent",
+    "P": "no name-transmission (inheritance lack): identity proven lost at the interface/closing"
+  },
+  "can_fail_witnesses": {
+    "T": {"fact": "the golden real end IS Galois-fixed (a canonical point exists there)", "citation": "frontier/B712_object_continuum/FINDINGS.md"},
+    "R": {"fact": "the metallic family deforms (m varies) -- variation exists at family level", "citation": "frontier/B92_metallic_classification/FINDINGS.md"},
+    "P": {"fact": "golden dynamics traces DO transmit to the (5,1) child's abelian tower", "citation": "frontier/B437_child_abelian_book/FINDINGS.md"}
+  },
+  "entries": [
+    {"id": "T1", "class": "T", "refusal": "the two Z/2's (c and theta) are orthogonal V4 legs -- no canonical identification between them", "citation": "frontier/B711_two_z2_degeneration/FINDINGS.md"},
+    {"id": "T2", "class": "T", "refusal": "the object's own continuum has no canonical real anchor -- non-canonicity TOTAL", "citation": "frontier/B712_object_continuum/FINDINGS.md"},
+    {"id": "T3", "class": "T", "refusal": "the canonical torsor-isomorphism is OBSTRUCTED (fiber-functor phase 2); the one F2 bit = Out(A5) has no canonical labeling", "citation": "frontier/B700_fiber_functor/FINDINGS.md"},
+    {"id": "T4", "class": "T", "refusal": "chirality: the swap-symmetry has no object-side choice of side (c-as-swap)", "citation": "frontier/B713_chirality/FINDINGS.md"},
+    {"id": "T5", "class": "T", "refusal": "values: the value-space carries no canonical point; values live in the observer coupling", "citation": "frontier/B714_physics_spine/FINDINGS.md"},
+    {"id": "T6", "class": "T", "refusal": "the chord sign: the theta-odd sector is a Z/2-torsor; parity proven, sign non-canonical", "citation": "frontier/B64_parity_mechanism/FINDINGS.md"},
+    {"id": "T7", "class": "T", "refusal": "time: the Z-structure is supplied without flow, direction, or a canonical now", "citation": "frontier/B716_time_gap/FINDINGS.md"},
+    {"id": "T8", "class": "T", "refusal": "the spatial manifold: the 4d/spatial closing is the observer's, not the object's", "citation": "frontier/B715_native_gauge/FINDINGS.md"},
+    {"id": "R1", "class": "R", "refusal": "Mostow rigidity: the object cannot deform -- no moduli, cannot be slightly otherwise", "citation": "CITED-classical; in-repo witnesses: frontier/B740_b288_stragglers/FINDINGS.md", "flag": "CITED"},
+    {"id": "R2", "class": "R", "refusal": "character-rigidity: the continuous spectrum is ONE channel; no conductor character anywhere in it", "citation": "frontier/B739_character_rigidity/FINDINGS.md"},
+    {"id": "R3", "class": "R", "refusal": "the one channel is being-only: the golden column is unspeakable through the continuous voice", "citation": "frontier/B746_golden_ledger/FINDINGS.md"},
+    {"id": "P1", "class": "P", "refusal": "the census triple: 0/78 x 3 -- no closing inherits any forced face; the name does not transmit (while B437 shows the gait does)", "citation": "frontier/B748_v4_completion/FINDINGS.md"},
+    {"id": "P2", "class": "P", "refusal": "the spectral gap is objectivity's edge: the object contains its own observer/observed boundary", "citation": "frontier/B532_last_echo/FINDINGS.md"}
+  ],
+  "X": [],
+  "open_annex": [
+    {"crux": "c-into-theta (B570 Lane C) -- if it ever succeeds, T4/T6 flip: the ledger's falsification edge"},
+    {"crux": "QP-2 privacy kernel (S072) -- uncomputed; would populate or split P"}
+  ],
+  "excluded_by_criteria": [
+    {"candidate": "B733 bounded observer menu", "reason": "observer-side bound -- inadmissible by criterion (b); demonstrates the admission rule can exclude"}
+  ],
+  "verdict": "UNIFIED-3"
+}
