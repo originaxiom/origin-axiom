@@ -1,0 +1,182 @@
+==============================================================================
+PART 1 -- THE EQUIVARIANCE WALL  (recompute B650 W2-G1, exact)
+==============================================================================
+source A1 eigenvalues        : [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+  = {phi^2, phi^-2}, det 1  : True  (real, |e| != 1, infinite order)
+target rho_hear(RL) trace    : 1/2 - sqrt(5)/2   ( = -1/phi )
+target det                   : 1
+target multiplicative order  : 10   (primitive 10th root spectrum)
+target eigenvalues |e| == 1  : True
+spectra DISJOINT             : True   (hyperbolic real  vs  unitary 10th-root)
+Sylvester T*A1 = rho*T  solution set : [{t0: 0, t1: 0, t2: 0, t3: 0}]
+==> the ONLY equivariant linear map is T = 0 : True
+
+THE WALL: no nonzero C-linear monodromy-equivariant map exists from the
+classical (being) A1-module to the theta-odd (hearing) plane. Disjoint
+spectra kill every intertwiner. Mechanistically this is 'passage through
+the finite' (B644): the stage hears only the finite congruence shadow, so
+no linear channel can TRANSPORT a continuous quantity from one sector to
+the other. => the being<->hearing coupling cannot manufacture a forced
+RELATION between two continuous SM parameters. (grade-(b) mechanism dead.)
+
+==============================================================================
+PART 2 -- THE CAPACITY NO-GO  (B733 bounded ceiling + B706 kind-mismatch)
+==============================================================================
+object design-space (B733/B704)   : a DISCRETE F2-space, V4 rank 2 (up to 3 w/ stage prime)
+  full menu of observers          : 8 points (2^3), saturating, depth-independent
+  topological dimension           : 0  (a finite set is not a manifold)
+SM flavor freedom (B706 rung-2)   : a CONTINUOUS R^n moduli space
+  parameter count                 : ~19  (up to ~26 with the neutrino sector)
+
+KIND mismatch  : dim 0 discrete  vs  dim ~19 continuous  ==> different cardinality AND dimension-type.
+A dimension-0 discrete set of <=8 points cannot coordinatize a ~19-real
+continuum. No injection of the SM moduli into the observer menu exists;
+even cherry-picking EVERY bit yields 3 binary choices, not 19 tunable reals.
+=> the observer structure cannot FORCE (a) a continuous value nor (b) a
+continuous relation. (grades (a),(b) dead by cardinality/dimension.)
+
+==============================================================================
+PART 3 -- GENERICITY CONTROL  (reproduce B706 rung-1 over Q(sqrt5))
+==============================================================================
+PSLQ on basis [1, r, sqrt5, r*sqrt5] with height ceiling 1000.
+A hit would mean r is algebraic of degree<=2 over Q(sqrt5) at LOW height.
+Base-rate guard: ceiling 1000 << 10^(known digits) for every row, so the
+trivial self-rational (height ~10^k) CANNOT masquerade as a relation.
+------------------------------------------------------------------------------
+  m_mu/m_e     (~10d): PSLQ rel (h<=1000) = None  -> NONE (generic)
+  m_tau/m_mu   (~6d): PSLQ rel (h<=1000) = None  -> NONE (generic)
+------------------------------------------------------------------------------
+any low-height relation found : False   (expected False = B706 rung-1 NO-MATCH reproduced)
+=> the SM mass ratios are GENERIC over the object's audible field Q(sqrt5).
+   The object's arithmetic does not carry them. (grade (a)/(b) dead at the
+   number level too, independently of the structural walls above.)
+
+==============================================================================
+PART 4 -- THE PARAMETER-REDUCTION LEDGER
+==============================================================================
+grade: a=forced VALUE  b=forced RELATION(=reduction)  c=discrete CONSTRAINT  d=nothing
+------------------------------------------------------------------------------
+parameter                  | grade | discriminating banked fact
+------------------------------------------------------------------------------
+m_e (electron mass)        |   d   | B685: object=BEING(3), masses are level-5
+                           |       | COUPLING data, not intrinsic; object is
+                           |       | SCALELESS (symmetry-yes/scale-no, B82) => no
+                           |       | absolute mass.
+m_mu (muon mass)           |   d   | B685 (mass=coupling datum) + scaleless
+                           |       | object; B706 rung-1: m_mu/m_e generic over
+                           |       | Q(sqrt5).
+m_tau (tau mass)           |   d   | B685 + scaleless; B706 rung-1: m_tau/m_mu,
+                           |       | m_tau/m_e generic (PSLQ NO relation, Part
+                           |       | 3).
+m_u (up mass)              |   d   | B685: hearing/flavor lives in coupling, not
+                           |       | the object; scaleless object => no value.
+m_d (down mass)            |   d   | B685 terminal no-go: no framework-derivable
+                           |       | generator makes the flavor streams;
+                           |       | scaleless.
+m_s (strange mass)         |   d   | B685 (coupling datum) + scaleless; no
+                           |       | low-height ratio relation banked (B706).
+m_c (charm mass)           |   d   | B685 (coupling) + scaleless object; no
+                           |       | forced value or ratio.
+m_b (bottom mass)          |   d   | B685 (coupling) + scaleless object; no
+                           |       | forced value or ratio.
+m_t (top mass)             |   d   | B685 (coupling) + scaleless; the object
+                           |       | provides no scale (Higgs vev sets it).
+theta_12 CKM (Cabibbo)     |   d   | B706 rung-2 kind-mismatch (continuous mixing
+                           |       | vs discrete F2 seam); Cabibbo lambda~9/40 is
+                           |       | a RUNG-4 TRAP -- FIELD MISMATCH (9/40 in Q,
+                           |       | no sqrt5) + no forcing mechanism (B685).
+theta_13 CKM               |   d   | B706 rung-2: continuous mixing manifold is
+                           |       | not the object's F2-seam; no banked
+                           |       | relation.
+theta_23 CKM               |   d   | B706 rung-2 kind-mismatch; no low-height
+                           |       | relation over Q(sqrt5); nothing forced.
+delta_CKM (CP phase)       |   d   | B355 phase-null fired (Weil-layer phase
+                           |       | scan); B713: CP/chirality is the OBSERVER's
+                           |       | discrete Z/2 c-bit (B701 free), a bit --
+                           |       | WRONG KIND for a continuous phase
+                           |       | (B706/B733).
+theta_12 PMNS              |   d   | B706 rung-2 kind-mismatch; neutrino/lepton
+                           |       | mixing is coupling data (B685), not object.
+theta_13 PMNS              |   d   | B706 rung-2; no banked relation; continuous
+                           |       | vs discrete-bit kind-mismatch.
+theta_23 PMNS              |   d   | B706 rung-2; nothing forced; lepton sector
+                           |       | lives in the coupling (B685).
+delta_PMNS (CP phase)      |   d   | B713: leptonic CP = observer's discrete
+                           |       | c-bit, not a continuous angle; kind-mismatch
+                           |       | (B706).
+g1 (U(1)_Y coupling)       |   d   | B650 equivariance wall (T=0, Part 1):
+                           |       | being<->hearing carries no linear
+                           |       | intertwiner to transport a coupling;
+                           |       | PHYSICS_MAP: no gauge/dynamics crossing;
+                           |       | B706 kind-mismatch.
+g2 (SU(2)_L coupling)      |   d   | B650 wall + PHYSICS_MAP (Path 5 gauge =
+                           |       | numerology-risk, blocked); the object's only
+                           |       | inter-sector 'coupling' is the DISCRETE
+                           |       | invariant det(I-B_odd)=phi^2, not a
+                           |       | continuous gauge coupling.
+g3 (SU(3)_c coupling)      |   d   | B650 wall; PHYSICS_MAP: SL(n>=3) tower has
+                           |       | NO transfer-matrix (dynamics) realization
+                           |       | (B52); no forced value or relation among
+                           |       | {g1,g2,g3}.
+m_H (Higgs mass)           |   d   | SCALELESS object: 'symmetry yes, scale no'
+                           |       | is the standing structural theorem
+                           |       | (two-ended unification; B82 physics chapter
+                           |       | closed; DESI 122-order scale gap). No scale
+                           |       | => no value.
+v (Higgs vev)              |   d   | The vev SETS the electroweak scale; the
+                           |       | object supplies NO scale (B82, scaleless).
+                           |       | Nothing forced.
+theta_QCD (strong CP)      |   d   | B713: the object is
+                           |       | amphichiral/theta-symmetric (vector-like
+                           |       | BEING); CP is the observer's DISCRETE Z/2
+                           |       | c-bit (B701 free, B711 free swap). theta_QCD
+                           |       | is a continuous angle -> the bit is the
+                           |       | WRONG KIND (B706/B733); the constraint is on
+                           |       | the object's orientation, not on theta_QCD.
+nu masses (m1,m2,m3)       |   d   | B685: masses are coupling data; object
+                           |       | scaleless => no neutrino mass value or
+                           |       | splitting forced.
+------------------------------------------------------------------------------
+
+==============================================================================
+PART 5 -- THE COUNT + THE STRUCTURAL NO-GO THEOREM
+==============================================================================
+parameters graded            : 24
+  (a) forced VALUE           : 0
+  (b) forced RELATION        : 0   <== the REDUCTION count
+  (c) discrete CONSTRAINT    : 0
+  (d) nothing forced         : 24
+
+GENUINE REDUCTIONS (forced relations removing a free parameter) = 0
+
+THEOREM (P3 no-go). No SM free parameter is fixed, and no pair is tied by a
+framework-forced relation. Every candidate reduction dies to one of three
+independent, mutually-reinforcing obstructions:
+
+  (i)  EQUIVARIANCE WALL (B650, recomputed Part 1). The only monodromy-
+       equivariant C-linear map being->hearing is T = 0 (spectra disjoint:
+       phi^{+-2} real hyperbolic vs primitive-10th-root unitary). => no linear
+       channel transports a continuous quantity across sectors, so the
+       being<->hearing coupling CANNOT synthesize a grade-(b) relation.
+
+  (ii) KIND-MISMATCH (B706, Part 3). The object's freedom is DISCRETE (F2
+       orientation bits); the SM's is CONTINUOUS (~19 reals). Different
+       cardinality and dimension-type. Independently, PSLQ over Q(sqrt5)
+       finds NO low-height relation among the mass ratios: generic at the
+       number level too. => no grade-(a) value, no grade-(b) relation.
+
+  (iii) BOUNDED-V4 CEILING (B733/B704, Part 2). The observer/design space is
+       a bounded discrete F2-space of rank <= 3, depth-independent and
+       saturating -- a dimension-0 set of <=8 menus. It never grows toward
+       the ~19-parameter continuum. => cannot coordinatize the SM moduli;
+       no grade-(a)/(b)/(c) constraint on a continuous parameter survives.
+
+The only framework-FORCED content is DISCRETE/structural and lives entirely
+on the object side, never on an SM parameter: the arithmetic atom Q(sqrt-3)
+(Reid/B266); the V4 measurement torsor (B701/B704); the congruence bits
+(m004 @ (2)^3=(8), B734; B701 = Out(A5), B732). None of these is an SM
+parameter, and none is a relation BETWEEN SM parameters.
+
+internal consistency: wall==T=0? True   ratios generic? True
+OUTCOME: B   (A = >=1 reduction; B = zero + the rigorous no-go)
+

@@ -15063,6 +15063,43 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B736": {
+   "slug": "ABC campaign",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B266",
+    "B604",
+    "B607",
+    "B608",
+    "B650",
+    "B701",
+    "B704",
+    "B706",
+    "B723",
+    "B724",
+    "B725",
+    "B727",
+    "B729",
+    "B730",
+    "B732",
+    "B733",
+    "B734",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B74": {
    "slug": "higher spin grading",
    "motifs": [
