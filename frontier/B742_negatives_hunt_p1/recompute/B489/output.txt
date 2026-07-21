@@ -1,0 +1,68 @@
+==============================================================================
+B489 recompute: DGG abelianness of the cyclic-cover tower of 4_1, and 4c
+python 3.12.1, snappy 3.3.2, sympy 1.14.0
+==============================================================================
+
+--- PART 1: exact arithmetic of A1 = RL = [[2,1],[1,1]] ---
+[PASS] A1 = R*L = [[2,1],[1,1]], det 1  -- A1=[[2, 1], [1, 1]]
+[PASS] Delta_{4_1}(t) = charpoly(A1)
+
+ n  tr(A1^n)  L(2n)  |det(A1^n-I)|  |L(2n)-2| |Res(Delta,t^n-1)|  SNF torsion
+ 1         3      3              1          1                  1  Z/1 + Z/1 -> torsion []
+ 2         7      7              5          5                  5  Z/1 + Z/5 -> torsion [5]
+ 3        18     18             16         16                 16  Z/4 + Z/4 -> torsion [4, 4]
+ 4        47     47             45         45                 45  Z/3 + Z/15 -> torsion [3, 15]
+ 5       123    123            121        121                121  Z/11 + Z/11 -> torsion [11, 11]
+ 6       322    322            320        320                320  Z/8 + Z/40 -> torsion [8, 40]
+ 7       843    843            841        841                841  Z/29 + Z/29 -> torsion [29, 29]
+ 8      2207   2207           2205       2205               2205  Z/21 + Z/105 -> torsion [21, 105]
+[PASS] trace law tr(A1^n)=L(2n), torsion law |det(A1^n-I)|=|L(2n)-2|=|Res(Delta,t^n-1)| (Fox-Weber), n=1..8
+[PASS] odd/even split L(2n)=L(n)^2-2(-1)^n  (odd n: torsion=L(n)^2; even n: (L(n)-2)(L(n)+2))  -- odd torsions [1, 16, 121, 841], even torsions [5, 45, 320, 2205]
+[PASS] even-n torsion divisible by 5
+
+--- PART 2: the tower in SnapPy — N tets, cusps, DGG rank = N - c, vol, H1, cusp ---
+vol(m004) = 2.0298832128
+
+ n tets cusps DGGrank  gauge grp        volume     vol/v4  Re(cusp mod)  H1 / census
+ 1    2     1       1     U(1)^1   2.029883213  1.0000000      0.00e+00  H1=Z  ['m004', '4_1', 'K2_1', 'K4a1', 'otet02_00001']
+ 2    4     1       3     U(1)^3   4.059766426  2.0000000      9.33e-15  H1=Z/5 + Z  ['m206', 'otet04_00002']
+ 3    6     1       5     U(1)^5   6.089649638  3.0000000      2.96e-16  H1=Z/4 + Z/4 + Z  ['s961', 'otet06_00003']
+ 4    8     1       7     U(1)^7   8.119532851  4.0000000     -6.66e-16  H1=Z/3 + Z/15 + Z  ['t12839', 'otet08_00007']
+ 5   10     1       9     U(1)^9  10.149416064  5.0000000      2.00e-15  H1=Z/11 + Z/11 + Z  ['o10_150696', 'otet10_00019']
+ 6   12     1      11    U(1)^11  12.179299277  6.0000000     -5.63e-15  H1=Z/8 + Z/40 + Z  ['otet12_00013']
+ 7   14     1      13    U(1)^13  14.209182490  7.0000000      1.92e-15  H1=Z/29 + Z/29 + Z  ['otet14_00019']
+ 8   16     1      15    U(1)^15  16.239065703  8.0000000     -7.55e-15  H1=Z/21 + Z/105 + Z  ['otet16_00026']
+[PASS] tower n=1..8: N=2n tets, 1 cusp  =>  DGG rank 2n-1, gauge group U(1)^{2n-1} (ABELIAN); vol = n*vol(4_1) to <1e-9; Re(cusp modulus)=0 (rectangular); H1 torsion = SNF(A1^n - I); census IDs match banked table
+[PASS] handoff falsification test at n=4: DGG rank 7, U(1)^7 — NO enhancement  -- N=8, c=1, rank=7
+
+(general n: the layered triangulation of b++(RL)^n has one tetrahedron per letter,
+ so N=2n, c=1, rank=2n-1 for every n — verified instance-wise for n=1..8 above)
+
+--- PART 3: b++(RL)^2 = the unique degree-2 cover of the figure-eight ---
+[PASS] m004 has exactly one degree-2 cover (H1=Z => unique index-2 subgroup), it is cyclic, and it is isometric to m206 = b++(RL)^2  -- #covers(all)=1, #covers(cyclic)=1, iso to m206: True, iso to b++RLRL: True
+
+--- PART 4: Gang-Yonekura twist-knot SU(3) inapplicable: n>=2 not knot complements ---
+[PASS] H1 torsion order |L(2n)-2| > 1 for n=2..8  =>  H1 != Z  =>  no level n>=2 is a knot complement in S^3 (knot exteriors have H1=Z)  =>  the twist-knot SU(3) theorem cannot apply to any tower level above the base  -- torsion orders n=2..8: [5, 16, 45, 121, 320, 841, 2205]
+
+--- PART 5: 4c — 'm206(3,1) = 5_2 complement' refuted on volume + closed/cusped ---
+m206(3,1): volume = 2.568970601, solution type = all tetrahedra positively oriented, cusp filled (CLOSED): True
+5_2 complement: volume = 2.828122088, cusped: True
+m206(3,1) isometric to m160(1,2): True  (vol m160(1,2) = 2.568970601)
+volume gap |2.568971 - 2.828122| = 0.259151
+[PASS] vol(m206(3,1)) = 2.568971 (banked), manifold CLOSED
+[PASS] vol(5_2 complement) = 2.828122 (banked), manifold CUSPED
+[PASS] m206(3,1) = m160(1,2) (banked cross-ID)
+[PASS] 4c REFUTED: closed != cusped AND volumes differ by 0.259151 >> tol  =>  m206(3,1) is NOT the 5_2 complement; the surgery bridge to the twist-knot family is dead
+
+==============================================================================
+CHECKS: 13/13 passed
+VERDICT: RECONFIRMED — the discriminating fact recomputes true in both prongs:
+  (A) DGG gauge rank of b++(RL)^n is N-c = 2n-1 with N=2n tets, c=1 (verified
+      n=1..8, incl. the n=4 falsification test: rank 7, U(1)^7); the gauge group
+      U(1)^{2n-1} is abelian by the DGG construction, and the twist-knot SU(3)
+      enhancement route is blocked: every level n>=2 has H1 torsion |L(2n)-2| > 1,
+      hence is not a knot complement in S^3.  No SM gauge-symmetry enhancement
+      anywhere in the tower.
+  (B) 4c: vol(m206(3,1)) = 2.568971 (closed, = m160(1,2)) vs vol(5_2 complement)
+      = 2.828122 (cusped): the claimed identification is false.
+==============================================================================

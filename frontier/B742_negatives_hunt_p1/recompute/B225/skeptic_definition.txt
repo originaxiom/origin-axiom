@@ -1,0 +1,87 @@
+B739 Stage-C skeptic -- B225 REVIVED -- DEFINITION-MATCH lens -- 2026-07-21
+VERDICT: NOT refuted (REVIVED survives this lens). One caveat found and quantified (check C).
+
+[1] Rerun of Stage-B recompute.py: byte-identical diff vs committed output.txt; ALL CHECKS PASS.
+[2] Arc's own conductor_test.py ran to completion: reproduces banked table incl. arc-exact
+    bad~[0,2] rows for 6_3/8_3 (factorint(0) defect; 2 via LC) exactly as Stage-B's WRINKLE claims.
+
+[3-6] skeptic_check.py output (arc's VERBATIM code, not Stage-B's reimplementation):
+
+==========================================================================================
+(A) ARC-VERBATIM extraction on Stage-B's controls (2-good curves)
+  11a3 y^2+y=x^3-x^2: Delta=-11 (odd => good red. at 2: True); arc.bad_primes=[2, 11]; 2 fired: True; branch locus=4*x**3 - 4*x**2 + 1
+  37a1 y^2+y=x^3-x  : Delta=37 (odd => good red. at 2: True); arc.bad_primes=[2, 37]; 2 fired: True; branch locus=4*x**3 - 4*x + 1
+
+==========================================================================================
+(B) mod-2 square structure of the ARC's own content-stripped branch loci (independent check)
+  4_1: content odd=True; Dr mod 2 perfect square=True; disc==0=False; 2|disc=True; 2|lc=False (lc=1)
+  5_2: content odd=True; Dr mod 2 perfect square=True; disc==0=False; 2|disc=True; 2|lc=False (lc=1)
+  6_2: content odd=True; Dr mod 2 perfect square=True; disc==0=False; 2|disc=True; 2|lc=True (lc=-32)
+  6_3: content odd=True; Dr mod 2 perfect square=True; disc==0=True; 2|disc=True; 2|lc=True (lc=16)
+  7_6: content odd=True; Dr mod 2 perfect square=True; disc==0=False; 2|disc=True; 2|lc=True (lc=512)
+  8_3: content odd=True; Dr mod 2 perfect square=True; disc==0=True; 2|disc=True; 2|lc=True (lc=-6400)
+
+==========================================================================================
+(C) counterexample to Stage-B's UNIVERSAL claim ('2 for EVERY monic-in-z input')
+  Phi = -x**2 - x + z**2 - 2*z (monic in z); raw disc_z = 4*x**2 + 4*x + 4 = 4*(x^2+x+1)
+  arc.bad_primes = [3]  -> 2 fired: False
+  => the extraction does NOT tautologically report 2 for every monic-in-z input:
+     content-stripping (arc convention, kept by Stage-B) can remove the mod-2 square;
+     Stage-B's 'EVERY possible input / specificity ZERO' theorem is overstated.
+     (Its per-input empirical verification for the 10 knots and the controls is what holds.)
+
+==========================================================================================
+(D) twist/non-twist split (mirror class contains +-2 mod p) and identifications
+  4_1 b(5,2): mirror class [2, 3]; twist=True (arc label: True)
+  5_2 b(7,3): mirror class [2, 3, 4, 5]; twist=True (arc label: True)
+  6_1 b(9,2): mirror class [2, 4, 5, 7]; twist=True (arc label: True)
+  7_2 b(11,2): mirror class [2, 5, 6, 9]; twist=True (arc label: True)
+  6_2 b(11,3): mirror class [3, 4, 7, 8]; twist=False (arc label: False)
+  6_3 b(13,5): mirror class [5, 8]; twist=False (arc label: False)
+  7_6 b(19,7): mirror class [7, 8, 11, 12]; twist=False (arc label: False)
+  8_3 b(17,4): mirror class [4, 13]; twist=False (arc label: False)
+  8_8 b(25,9): mirror class [9, 11, 14, 16]; twist=False (arc label: False)
+  9_4 b(21,5): mirror class [4, 5, 16, 17]; twist=False (arc label: False)
+  6_1: (9,2)~S(9,7) same mirror class: True;  7_2: (11,2)~S(11,9) same mirror class: True
+
+ALL SKEPTIC CHECKS DONE
+
+DEFINITION-MATCH ASSESSMENT:
+- Same object: claim_killed is the GENUINE conductor 40=2^3*5 of 40a1; kill's non-twist evidence is
+  the branch-locus extraction (sealed fact_basis=proxy, 'overcounts'); revival attacks exactly that.
+- Same extraction: arc-verbatim bad_primes fires 2 on 2-good 11a3/37a1 (Delta=-11,37) -> the fired 2
+  does not track genuine 2-reduction; and all 6 arc-committed branch loci are perfect squares mod 2
+  with odd content, so '2 in bad' was forced in every sealed row (independent GF(2) check).
+- Same level: SL(x) and PSL(X=x^2) both covered; same quantifiers: 10 knots, 4 twist + 6 non-twist,
+  twist split re-derived and matching; 6_1=(9,2)~S(9,7), 7_2=(11,2)~S(11,9): no object swaps.
+- CAVEAT (real, computed): Stage-B's universal theorem 'extraction reports 2 for EVERY monic-in-z
+  input / specificity ZERO' is FALSE as stated: Phi=z^2-2z-(x^2+x) gives disc_z=4(x^2+x+1); the
+  arc-convention content-strip leaves x^2+x+1 (odd disc -3) -> arc.bad_primes=[3], no 2. The escape
+  hatch is even disc-content; no sealed row uses it (all 6 contents odd, forcing verified per row).
+  Corrected statement ('forced for every sealed input; insensitive to genuine 2-reduction') still
+  defeats the sealed base-rate kill: LR~1 for the killed claim. Genuine data in arc (4_1->40a1,
+  5_2->{2,7}) are both twist/Whitehead children, consistent with the revived claim.
+
+==========================================================================================
+SECOND INDEPENDENT PASS (same lens, separate session, 2026-07-21) -- defcheck.py
+[P1] recompute.py rerun: exit 0, 10.4s; diff vs committed output.txt: byte-identical.
+[P2] arc-VERBATIM anchors: bad_primes(4_1)=[2,5] (=40a1), bad_primes(5_2)=[2,7]; Phi(4_1)==B211: True.
+[P3] arc-VERBATIM controls: 11a3 -> [2,11], 37a1 -> [2,37]; 2 fired on both 2-good curves
+     (Delta=-11, 37 odd): fired-2 does not track genuine 2-reduction. Confirmed.
+[P4] quantifier probe (independent counterexamples, arc-verbatim code): z^2-2z-(x^2+x) -> [3];
+     z^2-(x^2+x+1) -> [3]; z^2-x -> [] (no 2 in any). Stage-B's 'fires 2 on EVERY monic-in-z
+     input / specificity ZERO' is FALSE as a universal: even disc_z-content escapes the
+     content-strip. Real quantifier slip -- but internal to Stage-B's generalization, not a
+     mismatch against the sealed kill (see P5).
+[P5] forced regime verified per SEALED row (all 6 arc-committed knots): content(disc_z) odd AND
+     Dr mod 2 a nonzero perfect square AND 2 in arc bad set -- 6/6. Every input the sealed kill
+     used was in the regime where firing is forced regardless of genuine 2-reduction.
+[P6] NEW in-family genericity probe (knots outside the sealed set): 7_3 b(13,4), 7_4 b(15,4),
+     9_2 b(15,2) -- all content-odd, all fire 2. The escape channel is not live in-family in any
+     tested case.
+SECOND-PASS VERDICT: NOT refuted (REVIVED survives definition-match). Same object (the proxy
+extraction the sealed kill rests on, fact_basis=proxy), same conventions (arc-verbatim), same
+levels (SL/PSL), same quantifiers (10 knots, 4 twist + 6 non-twist, split matches arc labels).
+Caveat stands as recorded above: the 'EVERY input' phrasing in the Stage-B verdict is an
+overreach; the corrected per-sealed-row forcing + 2-good false-positive controls are what carry
+the revival, and they do.

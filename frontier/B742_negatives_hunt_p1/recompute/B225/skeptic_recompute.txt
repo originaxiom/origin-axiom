@@ -1,0 +1,139 @@
+B739 Stage-C skeptic check output for B225 REVIVED (recomputation lens), 2026-07-21
+
+== (1) Full rerun of recompute.py ==
+exit=0, 8.55s user; diff vs committed output.txt: byte-identical
+
+== (2) Adversarial checks (skeptic_checks.py output) ==
+(C1) sympy factorint(0) = {0: 1}  factorint(1) = {}
+(C2) Delta(11a3)=-11 (odd:True)  Delta(37a1)=37 (odd:True)
+
+(C3) counterexample hunt against 'reports 2 for EVERY monic-in-z input':
+  CE1  Phi = z^2-(x^2+x+1) [monic_z, irreducible]:
+       disc_z content = 4, branch locus D = x**2 + x + 1, Dsf = x**2 + x + 1
+       disc(Dsf) = -3, lc = 1  ->  2 in bad (repaired conv): False
+       arc-exact bad set: [3]
+  CE2  Phi = (z-1)(z-(x^2+x+2)) = -x**2*z + x**2 - x*z + x + z**2 - 3*z + 2 [monic_z]:
+       disc_z content = 1, D = x**4 + 2*x**3 + 3*x**2 + 2*x + 1 (squarefree: False), Dsf = x**2 + x + 1
+       disc(Dsf) = -3, lc = 1  ->  2 in bad (repaired conv): False
+  CE3  arc-EXACT extraction on CE2 (disc of non-squarefree D is 0, factorint(0) path):
+       arc-exact bad set: [0]   <- contains 2? False
+
+(C4) true half of the theorem (unstripped disc_z mod 2 IS a square, possibly 0):
+  CE1: disc_z = 4*x**2 + 4*x + 4;  mod 2 = 0
+  CE2: disc_z = x**4 + 2*x**3 + 3*x**2 + 2*x + 1;  mod 2 = x**4 + x**2 + 1
+
+(C5) contents of disc_z for the cheap knots (content-strip gap live in-family?):
+  4_1: qq=3  content(disc_z) = 1  v2(content) = 0
+  5_2: qq=3  content(disc_z) = 1  v2(content) = 0
+  6_1: qq=5  content(disc_z) = 1  v2(content) = 0
+  6_2: qq=3  content(disc_z) = 1  v2(content) = 0
+  6_3: qq=5  content(disc_z) = 1  v2(content) = 0
+  8_3: qq=13  content(disc_z) = 1  v2(content) = 0
+
+(C6) twist classification + determinants for all 10 declared (p,q):
+  4_1: (p,q)=(5,2) mirror class [2, 3]  twist=True (expected True, match True)  det ok=True
+  5_2: (p,q)=(7,3) mirror class [2, 3, 4, 5]  twist=True (expected True, match True)  det ok=True
+  6_1: (p,q)=(9,2) mirror class [2, 4, 5, 7]  twist=True (expected True, match True)  det ok=True
+  7_2: (p,q)=(11,2) mirror class [2, 5, 6, 9]  twist=True (expected True, match True)  det ok=True
+  6_2: (p,q)=(11,3) mirror class [3, 4, 7, 8]  twist=False (expected False, match True)  det ok=True
+  6_3: (p,q)=(13,5) mirror class [5, 8]  twist=False (expected False, match True)  det ok=True
+  7_6: (p,q)=(19,7) mirror class [7, 8, 11, 12]  twist=False (expected False, match True)  det ok=True
+  8_3: (p,q)=(17,4) mirror class [4, 13]  twist=False (expected False, match True)  det ok=True
+  8_8: (p,q)=(25,9) mirror class [9, 11, 14, 16]  twist=False (expected False, match True)  det ok=True
+  9_4: (p,q)=(21,5) mirror class [4, 5, 16, 17]  twist=False (expected False, match True)  det ok=True
+
+(C7) arc cheb-rewrite vs recompute cheb-rewrite identity on 4_1's palindromic body:
+  identical: True
+
+SKEPTIC CHECKS DONE
+
+################################################################################
+B739 Stage-C skeptic SECOND PASS (adversarial recomputation lens), 2026-07-21
+Full rerun: exit=0, 9.55s, diff vs committed output.txt: byte-identical
+################################################################################
+[S0] recompute exec'd in-process: ends with ALL CHECKS PASS: True
+
+[S1] E1 drift check vs arc's conductor_test.py
+  word letters identical (arc tb_word vs recompute word_letters), all 10 knots, q and qq: True
+  Chebyshev rewrite identical j=0..14: True
+  arc char_variety(5,2) == recompute Phi(4_1): True
+  arc bad_primes(Phi(4_1)) = [2, 5]  (banked {2,5})
+  arc char_variety(7,3) == recompute Phi(5_2): True
+  arc-committed (p,q) rows match recompute: True
+
+[S2] pure-integer verification of the mod-2 mechanism (independent of sympy GF(2) code)
+  knot  deg Dsf even(Dsf) Frob-square mod2 Dsf-prime all even v2(disc)>=deg-v2(lc)
+  4_1         4 True      True             True               True                  (v2(disc)=12, n-v2(lc)=4)
+  5_2         8 True      True             True               True                  (v2(disc)=36, n-v2(lc)=8)
+  6_1        12 True      True             True               True                  (v2(disc)=36, n-v2(lc)=12)
+  7_2        16 True      True             True               True                  (v2(disc)=50, n-v2(lc)=14)
+  6_2        14 True      True             True               True                  (v2(disc)=43, n-v2(lc)=9)
+  6_3        14 True      True             True               True                  (v2(disc)=46, n-v2(lc)=12)
+  7_6        36 True      True             True               True                  (v2(disc)=133, n-v2(lc)=27)
+  8_3        18 True      True             True               True                  (v2(disc)=114, n-v2(lc)=12)
+  8_8        52 True      True             True               True                  (v2(disc)=199, n-v2(lc)=41)
+  9_4        36 True      True             True               True                  (v2(disc)=148, n-v2(lc)=24)
+
+[S3] independent discriminant via fraction-free Bareiss Sylvester resultant (pure ints)
+  hand anchor disc(x^4-6x^2+5): bareiss = 20480  == 20480 = 2^12*5: True
+  4_1: deg=  4  bareiss disc == sympy disc: True   v2 = 12 (recompute: 12)
+  5_2: deg=  8  bareiss disc == sympy disc: True   v2 = 36 (recompute: 36)
+  6_1: deg= 12  bareiss disc == sympy disc: True   v2 = 36 (recompute: 36)
+  6_2: deg= 14  bareiss disc == sympy disc: True   v2 = 43 (recompute: 43)
+  6_3: deg= 14  bareiss disc == sympy disc: True   v2 = 46 (recompute: 46)
+  8_3: deg= 18  bareiss disc == sympy disc: True   v2 = 114 (recompute: 114)
+
+[S4] E5 audit: actual worst residuals of the numeric SL(2,C) rep-check (threshold 1e-40)
+  4_1   worst residual = 1.21e-60   margin below 1e-40: True
+  5_2   worst residual = 1.97e-60   margin below 1e-40: True
+  6_1   worst residual = 2.12e-59   margin below 1e-40: True
+  7_2   worst residual = 8.49e-57   margin below 1e-40: True
+  6_2   worst residual = 3.05e-59   margin below 1e-40: True
+  6_3   worst residual = 3.69e-58   margin below 1e-40: True
+  7_6   worst residual = 8.78e-56   margin below 1e-40: True
+  8_3   worst residual = 7.57e-54   margin below 1e-40: True
+  8_8   worst residual = 1.07e-53   margin below 1e-40: True
+  9_4   worst residual = 1.38e-56   margin below 1e-40: True
+
+[S5] attack on 'extraction fires 2 for EVERY monic-in-z input' (the stated theorem)
+  CE1 = z^2-(x^2+x+1) [monic in z, NOT even in x]:
+    disc_z = 4*x**2 + 4*x + 4  (content 4: the mod-2 square is PURE CONTENT)
+    extraction fires 2: False   <-- COUNTEREXAMPLE to the stated universal claim
+  CE2 = (z-1)(z-(x^2+x+2)) [monic in z, content(disc_z)=1]:
+    disc_z = (x**2 + x + 1)**2  -> Dsf = x**2 + x + 1
+    extraction fires 2: False   <-- squarefree-part step also breaks the square
+
+  in-class repair (CORRECTED theorem): every 2-bridge Phi is EVEN in x (sign-flip A->-A,
+  B->-B of any rep, word length p-1 even => characters come in +-x pairs); for even D the
+  radical is x^eps * E(x) with E even; if lc even -> LC clause; if lc odd and deg E >= 2,
+  E mod 2 = H^2 (Frobenius) with deg H >= 1 -> Dsf mod 2 non-squarefree -> 2 | disc(Dsf).
+  SOLE escape: branch locus = +-x^(2k) (Dsf ~ x, deg E = 0), a degenerate curve branching
+  only over trace x=0 -- impossible for a knot (all 10 have even Dsf of deg 4..52).
+  Random-trial verification:
+    EVEN-in-x, deg Dsf>=2: 236/236 fire 2  (in-class specificity at 2 = 0.000)
+    EVEN-in-x degenerate (branch locus a pure power of x): 1 trial(s): [('3*x**2 + z**2', '-x**2')]
+    general trials:        232/240 fire 2  (out-of-class: NOT universal)
+    all 10 knots: Dsf even, degree >= 4 -> the corrected tautology covers the whole family
+
+[S6] controls re-verified with hand formulas (pure ints)
+  11a3: Delta = -11 (LMFDB: -11, odd => 2-good); disc_x(4x^3-4x^2+1) = -176 = -2^4*11 -> primes {2,11}: True
+  37a1: Delta = 37 (LMFDB: 37, odd => 2-good); disc_x(4x^3-4x+1)  = 592 =  2^4*37 -> primes {2,37}: True
+  sympy factorint(0) = {0: 1}  (arc's literal-0 injection confirmed possible)
+
+[S7] twist classification and determinant, all 10 declared (p,q)
+  4_1   (p,q)=(5,2) mirror class [2, 3]  twist=True expected=True ok=True  det=p=5 standard=5
+  5_2   (p,q)=(7,3) mirror class [2, 3, 4, 5]  twist=True expected=True ok=True  det=p=7 standard=7
+  6_1   (p,q)=(9,2) mirror class [2, 4, 5, 7]  twist=True expected=True ok=True  det=p=9 standard=9
+  7_2   (p,q)=(11,2) mirror class [2, 5, 6, 9]  twist=True expected=True ok=True  det=p=11 standard=11
+  6_2   (p,q)=(11,3) mirror class [3, 4, 7, 8]  twist=False expected=False ok=True  det=p=11 standard=11
+  6_3   (p,q)=(13,5) mirror class [5, 8]  twist=False expected=False ok=True  det=p=13 standard=13
+  7_6   (p,q)=(19,7) mirror class [7, 8, 11, 12]  twist=False expected=False ok=True  det=p=19 standard=19
+  8_3   (p,q)=(17,4) mirror class [4, 13]  twist=False expected=False ok=True  det=p=17 standard=17
+  8_8   (p,q)=(25,9) mirror class [9, 11, 14, 16]  twist=False expected=False ok=True  det=p=25 standard=25
+  9_4   (p,q)=(21,5) mirror class [4, 5, 16, 17]  twist=False expected=False ok=True  det=p=21 standard=21
+
+[S8] arc-EXACT bad_primes() on 6_3 (its own code, non-squarefree branch locus)
+  arc char_variety(13,5) == recompute Phi(6_3): True
+  arc bad_primes(6_3) = [0, 2]   (contains literal 0: True; contains 2: True -- via LC)
+
+STAGE-C SKEPTIC CHECKS COMPLETE

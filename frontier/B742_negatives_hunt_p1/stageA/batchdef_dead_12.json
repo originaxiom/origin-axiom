@@ -1,0 +1,46 @@
+{
+ "name": "dead_12",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B492",
+   "findings": "frontier/B492_verlinde_boundary_lens/FINDINGS.md",
+   "slug": "verlinde boundary lens"
+  },
+  {
+   "id": "B500",
+   "findings": "frontier/B500_child_hunt/FINDINGS.md",
+   "slug": "child hunt"
+  },
+  {
+   "id": "B513",
+   "findings": "frontier/B513_boundary_attractors/FINDINGS.md",
+   "slug": "boundary attractors"
+  },
+  {
+   "id": "B515",
+   "findings": "frontier/B515_golden_3d/FINDINGS.md",
+   "slug": "golden 3d"
+  },
+  {
+   "id": "B516",
+   "findings": "frontier/B516_golden_3d_ladder/FINDINGS.md",
+   "slug": "golden 3d ladder"
+  },
+  {
+   "id": "B520",
+   "findings": "frontier/B520_handoff_verification/FINDINGS.md",
+   "slug": "handoff verification"
+  },
+  {
+   "id": "B521",
+   "findings": "frontier/B521_audit_integration/FINDINGS.md",
+   "slug": "audit integration"
+  },
+  {
+   "id": "B523",
+   "findings": "frontier/B523_verdict_reexamination/FINDINGS.md",
+   "slug": "verdict reexamination"
+  }
+ ]
+}

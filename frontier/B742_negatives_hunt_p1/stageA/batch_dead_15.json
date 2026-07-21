@@ -1,0 +1,76 @@
+[
+ {
+  "id": "B604",
+  "ground": "dead-probe",
+  "source": "frontier/B604_rosetta_blocks/FINDINGS.md (R1); rosetta_output.txt line 12",
+  "is_negative": true,
+  "claim_killed": "That each theta-odd pair can be assigned to one principal block (V8 or V16): no pair-to-block assignment exists because the principal grading and the theta-pair decomposition are incompatible decompositions of the odd 26.",
+  "kill_form": "other:incompatible-decompositions (the queried assignment object does not exist; both block lines mix both pair-combinations)",
+  "faces_consulted": ["none-arithmetic-only"],
+  "depth_reached": "full principal grading h=0..8; every ambiguous height h in {1,2,3,4} resolved with exact integer mixing coefficients; all root vectors exact",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "At every ambiguous height h ∈ {1,2,3,4}, BOTH principal-block lines are genuine MIXTURES of BOTH θ-odd pair-combinations, with exact integer coefficients (banked in `rosetta_output.txt`; e.g. h = 4: V₈-line = −o₁ + o₂, V₁₆-line = −443520·o₁ − 604800·o₂",
+  "citation_chain": "",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735 (no pre-B735 negative ever consulted the spectral face; a spectral grading could re-split the mixed block lines); V4 forced faces B730 marginally. Oracle hints (coupling-tier only): eisenstein, golden, z3_generation. The kill itself is exact linear algebra and looks robust.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B605",
+  "ground": "dead-probe",
+  "source": "frontier/B605_door2_involution/FINDINGS.md",
+  "is_negative": false,
+  "why": "Correction/settlement arc, not a banked negative: the handoff's reflection conclusion is refuted, but the arc banks a positive mechanical identification (the amphichiral involutions are free Gieseking deck transformations; the mapping torus is a SMOOTH 4-manifold) and the question 'returns to the smooth setting, where free quotients are the well-behaved case'. Atlas keyed on REFUTED wording."
+ },
+ {
+  "id": "B619",
+  "ground": "dead-probe",
+  "source": "frontier/B619_a5_bridge/FINDINGS.md; output.txt lines 1-7",
+  "is_negative": true,
+  "claim_killed": "That the kappa=5 golden stage realizes A5 (order 60) as a group identity of a banked object, either as the theta-odd clock order (chat-1) or as the projective image PSL(2,5) of <rho(S),rho(T)> (CC's sharpened candidate).",
+  "kill_form": "value-mismatch",
+  "faces_consulted": ["none-arithmetic-only"],
+  "depth_reached": "kappa=5 stage only; clock orders exact (ord rho(A1)=20); projective image of <S,T> enumerated past the cap of 400 (output records 530, cap hit)",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "REFUTED: ord ρ(A₁) = 20 EXACTLY at κ = 5 (the banked order-10 odd rotation e^{±3πi/5} and order-20 even clock; the odd compression's projective order is 5). A single monodromy generates a cyclic group; no reading of the banked clocks gives 60.",
+  "citation_chain": "",
+  "revival_hypothesis": "Out(A5) B732 is the direct post-B730 bearing: the kill tested A5 only as clock order / projective image at kappa=5; the Out(A5) anatomy could relocate 60 at a different quotient or via the outer twist. Congruence tower B734 could re-read the stage's actual congruence level (~30, not 5). The spectral face B735 was never consulted. Oracle hints (coupling-tier only): eisenstein, amphichiral_cp, z3_generation, symplectic, quasicrystal.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B624",
+  "ground": "dead-probe",
+  "source": "frontier/B624_observable_bridge/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive reconciliation arc: 'the odd trace IS the Weil coset assembly (queue item 2 CLOSED)', derived and verified with 0 exceptions at kappa = 4..24 and 6/6 twelve-term tables. Nothing is killed; the only kill-adjacent word is 'resource-killed', which describes an unclaimed kappa=28..40 generality sweep. Atlas mis-keyed a keyword."
+ },
+ {
+  "id": "B626",
+  "ground": "dead-probe",
+  "source": "frontier/B626_jacobian_reality/FINDINGS.md",
+  "is_negative": false,
+  "why": "Answered-as-structure arc: the naive crossover candidate laws (J as a function of trace, J=t^2-4, J=2t-1) are refuted en route, but the banked product is a positive structural law (J is real exactly for amphichiral words, complex for chiral ones) that supersedes the original framing. A correction/positive arc, not a dead end."
+ },
+ {
+  "id": "B632",
+  "ground": "dead-probe",
+  "source": "frontier/B632_cubic_route/FINDINGS.md",
+  "is_negative": false,
+  "why": "Route-opening positive arc: h1(M;27)=3 banked exactly, the cubic invariant C unique and constructed, Omega rank 2, and 'B308's gate OPENS'. The DISSOLVED-BY-OBSTRUCTION / FAILED_RUN / 'kills' language covers a sub-prediction, an instrument fix, and a cited prior theorem inside a positive arc; the atlas keyed on those words. The embedded O1/O2 nonexistence (no symmetric solo texture) is a refinement feeding cell 3, not the arc's banked dead end."
+ },
+ {
+  "id": "B654",
+  "ground": "dead-probe",
+  "source": "frontier/B654_listening_synthesis/FINDINGS.md",
+  "is_negative": false,
+  "why": "Harvest/synthesis arc: two sealed questions answered with exact positive laws (the tetrahedral shape-field law, N0 = 75*lcm{d^2} exactly, the universal defect factor 2), plus an adjudication verifying several theorem-grade items. Every REFUTED entry is a pre-stated candidate or seat claim immediately superseded by a better banked law - corrections inside a positive arc, not a banked kill of a route."
+ },
+ {
+  "id": "B656",
+  "ground": "dead-probe",
+  "source": "frontier/B656_digest_integration/FINDINGS.md",
+  "is_negative": false,
+  "why": "Integration arc banking confirmations and laws: G4 conductor-clock law 12/12, G1 sign-hears-the-discriminant theorem 192/192 on a fresh Weyl group, G3 13/13, G2/G5 reduction theorems, plus ledger upgrades (DATA -> DERIVED, L84 discharged). 'The area law is REFUTED' is a candidate elimination that lands the universal defect law - a positive packet, not a dead end."
+ }
+]

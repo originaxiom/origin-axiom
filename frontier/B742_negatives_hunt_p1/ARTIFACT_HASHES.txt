@@ -1,0 +1,7 @@
+
+# v7 NOTE (renumber only, 20:02:58 CEST): B739→B742 (cc's #1232 banked B739_character_rigidity in parallel; second collision — numbering protocol proposal relayed). References updated in prereg title/self-refs, FINDINGS, lock filename; review artifacts preserved verbatim (historical paths stand).
+
+# v7b NOTE (20:04:55 CEST): renumber B739→B742 applied to restored files; final hashes:
+b027f5de74d4bb86036afba8246d73966374118b4595f58d2fd080535274abef  frontier/B742_negatives_hunt_p1/PREREGISTRATION.md
+a905b9fe000c812bab1eb7d5145ab8c9117d0ff907baa6eab18118b73657eabc  frontier/B742_negatives_hunt_p1/FINDINGS.md
+86204be5c7ce6e81caea5e9bb13ab16d18ac7c17266952d6b9364d00a2309fd4  frontier/B742_negatives_hunt_p1/CAMPAIGN_LEDGER.md

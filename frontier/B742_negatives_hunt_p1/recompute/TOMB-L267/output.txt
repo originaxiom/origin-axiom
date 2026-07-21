@@ -1,0 +1,67 @@
+==============================================================================
+TOMB-L267 recompute — the CM/arithmetic cluster (K-N + K-O)
+==============================================================================
+
+[1] kappa_m = tr(R^m L^m), symbolic (sympy):
+    tr(R^m L^m) = m**2 + 2
+    kappa_1 = 3   kappa_2 = 6
+
+[2] CM / invariant trace fields via shape field + algdep (residual-guarded):
+    m=1 b++RL: identify -> ['m004(0,0)', '4_1(0,0)', 'K2_1(0,0)', 'K4a1(0,0)', 'otet02_00001(0,0)']; vol = 2.02988321282
+      shape ~ 0.5000000000 + 0.8660254037 i : minpoly x^2 - x + 1  (residual 7.78e-62, height 1, quad_fit=True)
+      shape ~ 0.5000000000 + 0.8660254037 i : minpoly x^2 - x + 1  (residual 7.78e-62, height 1, quad_fit=True)
+      => shape field = invariant trace field: fundamental disc = -3
+    m=2 b++RRLL: identify -> ['m136(0,0)']; vol = 3.6638623767
+      shape ~ 1.0000000000 + 1.0000000000 i : minpoly x^2 - 2*x + 2  (residual 0.0, height 2, quad_fit=True)
+      shape ~ 0.5000000000 + 0.5000000000 i : minpoly 2*x^2 - 2*x + 1  (residual 0.0, height 2, quad_fit=True)
+      shape ~ 1.0000000000 + 1.0000000000 i : minpoly x^2 - 2*x + 2  (residual 0.0, height 2, quad_fit=True)
+      shape ~ -1.619281604 + 1.0000000000 i : minpoly x^2 + 1  (residual 3.24e-78, height 1, quad_fit=True)
+      => shape field = invariant trace field: fundamental disc = -4
+    silver vol - 4*Catalan = -8.8761e-12  (|.| < 1e-9)
+
+[2b] m=3..6: no imaginary-quadratic shape field (no CM disc exists):
+    m=3 b++RRRLLL: a shape REFUSES every honest degree<=2 fit (best candidate residual 2.2e-31, coeff height 2.04e+30) -> kM degree > 2, not CM
+    m=4 b++RRRRLLLL: a shape REFUSES every honest degree<=2 fit (best candidate residual 8.82e-31, coeff height 7.36e+30) -> kM degree > 2, not CM
+    m=5 b++RRRRRLLLLL: a shape REFUSES every honest degree<=2 fit (best candidate residual 0.0, coeff height 7.45e+30) -> kM degree > 2, not CM
+    m=6 b++RRRRRRLLLLLL: a shape REFUSES every honest degree<=2 fit (best candidate residual 1.97e-31, coeff height 2.36e+30) -> kM degree > 2, not CM
+
+[K-N verdict data]
+    golden m=1: |disc_CM| = 3  vs kappa_1 = 3  ->  EQUAL (the shared integer)
+    silver m=2: |disc_CM| = 4  vs kappa_2 = 6  ->  4 != 6  (the kill)
+    m>=3: no CM discriminant exists (kM not imaginary quadratic) -> revival condition empty
+
+[3] SU(2)_3 modular representation (B210 conventions verbatim):
+    |<S,T>| = 2880   (banked: 2880; 2I would be 120)
+    tr rho(RL) = -0.618033988749895+0.000000000000000j
+    -1/phi     = -0.618033988749895
+    nonzero-trace elements       : 1350/2880 = 0.46875  (banked 1350/2880 ~ 47%)
+    golden-magnitude |phi^(+-1)| : 384/2880 = 0.13333  (banked 384/2880 ~ 13%)
+    tr rho(RRL) = 5.88e-16  (banked: exactly 0)
+    tr rho(RLL) = 4.91e-16  (banked: exactly 0)
+    distinct |trace| values (value: count):
+       0.000000 : 1530
+       0.618034 : 192
+       0.874032 : 144
+       1.000000 : 320
+       1.236068 : 24
+       1.414214 : 240
+       1.618034 : 192
+       2.000000 : 56
+       2.288246 : 144
+       2.828427 : 12
+       3.236068 : 24
+       4.000000 : 2
+    elements sharing the seed's |trace| = 1/phi magnitude: 192 (a populated class)
+
+[K-O verdict data]
+    order 2880; nonzero 1350 (46.9%); golden-magnitude 384 (13.3%);
+    seed trace -1/phi reproduced; RRL/RLL trace 0 reproduced; seed class populated -> no distinguished signal.
+
+==============================================================================
+VERDICT: RECONFIRMED
+  K-N: |disc_CM(silver)| = 4 != 6 = kappa_2 = m^2+2 (m=2); golden 3=3 is m=1-only;
+       m=3..6 possess no CM discriminant (shape field degree > 2). Identification dead.
+  K-O: image order 2880; 1350 nonzero-trace (46.9%), 384 golden-magnitude (13.3%);
+       seed trace -1/phi exact but its class is populated. No distinguished signal.
+  The umbrella kill (math fine, identification dead) recomputes true in both branches.
+==============================================================================

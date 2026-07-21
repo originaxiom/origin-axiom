@@ -1,0 +1,103 @@
+[
+ {
+  "id": "B243",
+  "ground": "dead-probe",
+  "source": "frontier/B243_levelrank_conjugation_general/FINDINGS.md (Finding 2)",
+  "is_negative": true,
+  "claim_killed": "The figure-eight's level-rank-self-dual values V(k) form a metallic ladder V(m^2+2) in Q(sqrt(m^2+4)) for all m (golden m=1, silver m=2 extending to bronze and beyond).",
+  "kill_form": "value-mismatch",
+  "faces_consulted": ["mtc-overlay"],
+  "depth_reached": "levels k=2..10 fully verified; ladder tested and refuted at the first unchecked rung m=3 (kappa=13, deg V(11)=6)",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "**bronze** (`κ=13`, `m=3`) has `deg V(11)=6`, **not in `ℚ(√13)`**. The metallic\ncorrespondence is a **2-case coincidence**, not a ladder.",
+  "citation_chain": "",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735 — WRT/level-rank values are spectral-type data and no pre-B735 negative consulted the spectral face; the kill only checked field degrees of V(k). Oracle hints (coupling-tier): eisenstein, dickson_tower.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B247",
+  "ground": "dead-probe",
+  "source": "frontier/B247_v1_holonomy_adjudication/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "The figure-eight's geometric holonomy lives in SU(2)_long inside E6, so the knot's holonomy breaks E6 to the Standard-Model gauge group (the V1 bridge).",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": ["none-arithmetic-only"],
+  "depth_reached": "both character-variety branches (geometric x=2 in Q(sqrt-3) vs SU(2) arc x=0 in Q(sqrt5)); full Sage branching of the 78; sharpened to no embedding at all of SL(2,C) into compact E6",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "the discrete-faithful holonomy has genuinely complex word-traces\n  (commutator trace `[a,b]=(3−√−3)/2=3/2−√3/2·i ∈ ℚ(√−3)`) — confirmed from the correct matrices *and*\n  independently from SnapPy.",
+  "citation_chain": "",
+  "revival_hypothesis": "Congruence tower B734 (m004 at (4) standard / (8) mod-center) bears on the Q(sqrt-3)->2T->E6 chain the kill severed at the holonomy step; also the EMITTANCE/spectral face B735, never consulted by this kill. Oracle hints (coupling-tier): amphichiral_cp, metallic, z3_generation.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B252",
+  "ground": "dead-probe",
+  "source": "frontier/B252_chirality_obstruction/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "The figure-eight object carries some intrinsic complex-conjugation-odd (chiral / CP-odd) datum that could prefer the 27 over the 27-bar and thereby source matter.",
+  "kill_form": "other: symmetry-forced absence — amphicheirality makes every conjugation-odd invariant vanish or pair, so no chiral datum exists",
+  "faces_consulted": ["none-arithmetic-only"],
+  "depth_reached": "5 candidate conjugation-odd structures scanned (CS, spherical CS pair, L(5,2) cover, E8->E6xSU(3) branching, handedness), all symmetric; H36 re-confirmed in Sage",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "**Nothing breaks `27↔27̄`.** The obstruction holds: the object has **no intrinsic complex-conjugation-odd\ninvariant**.",
+  "citation_chain": "H36 (HINT_LEDGER): re-confirmed in-arc in Sage (E6 outer automorphism swaps 27<->27-bar), so no unverified hop remains.",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735 — the break-it table scanned only 5 pre-B735 candidates and never consulted the spectral face; an emittance-spectrum asymmetry would be a new conjugation-odd candidate. Oracle hints (coupling-tier): kappa, torsion, symplectic.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B272",
+  "ground": "dead-probe",
+  "source": "frontier/B272_verification_and_gaps/FINDINGS.md",
+  "is_negative": false,
+  "why": "Not a banked kill: this is an adversarial verification record over B262-B271 in which the core mathematics SURVIVED independent re-derivation; the negatives are three framing corrections ('overclaims - corrected') plus a gap/wall map of open items, and its one residual open item was later resolved positively (B273 cup product = 0). Atlas keyed on correction/gap keywords in a verification arc."
+ },
+ {
+  "id": "B285",
+  "ground": "dead-probe",
+  "source": "frontier/B285_commutator_phase/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive arc mis-classed via correction keywords: the banked content is a VERIFIED positive (meridian-commutator phase |arg kappa| = pi/6 exact and forced by Q(sqrt-3)); the 'retracted' language is chat-2's honest retraction of a subsidiary baryon-magnitude overclaim, and the 'sign not object-derivable' statement restates B252's already-banked kill rather than banking a new one."
+ },
+ {
+  "id": "B294",
+  "ground": "dead-probe",
+  "source": "frontier/B294_selection_verdict/FINDINGS.md (finding 3, catalogue half)",
+  "is_negative": true,
+  "claim_killed": "Some Dehn closing of the figure-eight is distinguished across all selection axes and forced to realize Standard-Model values — a selected 'our universe'.",
+  "kill_form": "no-landing-site",
+  "faces_consulted": ["children-fillings"],
+  "depth_reached": "8 selection axes tabulated with cross-axis test; arithmetic axis via B288's filling census |p|,|q|<=8 (54 hyperbolic closings, 0 re-see Q(sqrt-3)), extended to 174 closings in B296",
+  "fact_basis": "computed-in-cited-arc",
+  "evidence_quote": "3. **CATALOGUE for SM-values** — `E₆` lost on closing (B288), the CP **sign** external (B289/B295), the scale\n   **value** gapped (B290, the 122-order gap), the **chiral** datum absent (B292), the **trajectory** gated (B293).",
+  "citation_chain": "B288: computation found there? yes — arithmetic_census.py (SnapPy+Sage, two independent methods) computes 54 closed fillings with 0 arithmetic / 0 containing sqrt-3, transferring directly; B294's own selection_verdict.py re-imports B287-B293/B295 for the cross-axis test. Torn between computed-in-arc and computed-in-cited-arc; the ingredient negatives live in the cited arcs, so the weaker cited basis is recorded.",
+  "revival_hypothesis": "Bounded observer menu B733 (which world is realized is exactly its question) and congruence tower B734 (m003 at (2), m004 at (4)) as a new selection axis the 8-axis table never had; the spectral face B735 likewise unconsulted. Oracle hints (coupling-tier): golden, metallic, kappa.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B295",
+  "ground": "dead-probe",
+  "source": "frontier/B295_ssb_gauge_status/FINDINGS.md (adjudication point 2)",
+  "is_negative": true,
+  "claim_killed": "The program's gradient potential V(tau) supplies a tau-symmetric double well, so spontaneous symmetry breaking can select the CP sign in-sandbox.",
+  "kill_form": "category-error",
+  "faces_consulted": ["none-arithmetic-only"],
+  "depth_reached": "full critical-point analysis of the cubic V(tau) (one min phi, one max -1/phi, unbounded below); both +-pi/6 Eisenstein vacua identified and verified disjoint from V's critical set",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "its critical points are **golden** `φ = (1+√5)/2` (min), `−1/φ = (1−√5)/2` (max) in `ℚ(√5)` — **disjoint** from\n     the **Eisenstein** `±π/6` vacua `ω, ω² ∈ ℚ(√−3)` (verified disjoint, sympy);",
+  "citation_chain": "B279 (the 'tau is gauged' premise) followed one hop conceptually: B295 itself records that B279 flags the parity-anomaly/eta link as unverified, so that branch is a stop-gate, not part of the computed kill.",
+  "revival_hypothesis": "Born ledger B725-B729 — the kill shows the existing potential is the wrong object, and a measure/dynamics layer is exactly the missing symmetry-breaking mechanism; bounded observer menu B733 for the 'when on the clock' gauge-fixing frontier. Oracle hints (coupling-tier): metallic, z3_generation, torsion.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B296",
+  "ground": "dead-probe",
+  "source": "frontier/B296_seam_arc_verification/FINDINGS.md",
+  "is_negative": false,
+  "why": "Not a negative: an Arc-II red-team/novelty verification round over B287-B295 in which every probe SURVIVES (0 refutations, 0 firewall leaks), two results were strengthened and four tightened with caveats. Atlas likely keyed on 'red-teamed'/'retraction'/caveat vocabulary in what is a positive verification record; no kill is banked here."
+ }
+]

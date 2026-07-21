@@ -1,0 +1,94 @@
+[
+  {
+    "id": "B52",
+    "ground": "dead-probe",
+    "source": "frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "The simplest three-channel Fibonacci nearest-neighbor tight-binding model supplies a physics bridge realizing PC12's SL(3) character-variety trace recursion.",
+    "kill_form": "kind-mismatch",
+    "faces_consulted": ["none-arithmetic-only"],
+    "depth_reached": "one proposed bridge construction (3-channel nearest-neighbor, 6x6 doubled transfer matrix); exact control checks only",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "the PC12 third-order trace recursion fails on generic 6x6 transfer matrices\nthe order-six Cayley-Hamilton recursion holds, as expected for 6x6 matrices",
+    "citation_chain": "",
+    "revival_hypothesis": "B735 emittance/spectral face: the kill is purely algebraic (wrong group, wrong CH order) and no pre-B735 negative consulted the spectral face; a spectral-side reduction of the 6x6 symplectic cocycle to an SL(3) quotient was never examined. Oracle hints (coupling-tier): firewall, eisenstein, metallic.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B56",
+    "ground": "dead-probe",
+    "source": "frontier/B56_figure_eight_invariant_surface/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "The figure-eight knot sits on the self-evidencing invariant surface I = 1/4, linking its holonomy to the c=1 Eisenstein structure.",
+    "kill_form": "value-mismatch",
+    "faces_consulted": ["none-arithmetic-only"],
+    "depth_reached": "diagonal representation locus x=y=z=w only (all 3 roots of the diagonal cubic); one proposed bridge site",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "the cubic `w^3 - 2w^2 - 2w + 1 = (w+1)(w^2 - 3w + 1)` has roots `w in {-1, phi^2, phi^-2}`. The Fricke-Vogt invariant `I = 3w^2 - 2w^3 - 1` evaluates to",
+    "citation_chain": "B55: cited only for context (the c=1 symmetric-sector Eisenstein factor); the killing computation (diagonal-locus I values, tetrahedron shape polynomial) is done in B56's own probe.py.",
+    "revival_hypothesis": "Congruence tower m004 at (4) standard / (8) mod-center (B734) bears directly: the figure-eight IS m004, and B56 searched only the real diagonal SL(2,C) locus; the complex geometric point was dismissed as cyclotomic coincidence without a congruence-tower or B735 spectral-face look. Oracle hints (coupling-tier): firewall, metallic, torsion.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B57",
+    "ground": "dead-probe",
+    "source": "frontier/B57_general_m_splitting/FINDINGS.md",
+    "is_negative": false,
+    "why": "Verdict is PRODUCES-PROOF-MODULE: a positive classification of the antisymmetric-quartic integer splitting across m=1..6. The only 'kill' is an incidental 'Killed Speculation' note (class-number match at m=1 is a coincidence) inside a positive arc; atlas keyword mis-class, not a banked negative."
+  },
+  {
+    "id": "B58",
+    "ground": "dead-probe",
+    "source": "frontier/B58_sl4_tower_test/FINDINGS.md",
+    "is_negative": false,
+    "why": "Verdict is NEEDS-EXPERTISE: 'The SL(4) 7-factor tower prediction is untested -- neither confirmed nor refuted.' This is an open/blocked arc that sharpens what a test requires; it rules out only a naive numerical route, banks no kill of the claim itself. Atlas mis-class (later resolved by B59)."
+  },
+  {
+    "id": "B59",
+    "ground": "dead-probe",
+    "source": "frontier/B59_sl4_factorization/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "PC12's open prediction that the SL(4) fixed-line Jacobian factors as one degree-1 parity block plus (n^2-1-parity)/2 = 7 char(M^k) quadratics.",
+    "kill_form": "value-mismatch",
+    "faces_consulted": ["sl-n-tower"],
+    "depth_reached": "n=4 (15x15 ambient Jacobian), numerical ~3-4 digits, extrapolation method validated on SL(3) ground truth (max match 0.0000)",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "The count of `char(M^k)` is 5, not 7; a sign sector appears; the parity block is\ndegree 3. The clean `(n^2-1-parity)/2` formula does not hold.",
+    "citation_chain": "B58: cited as the NEEDS-EXPERTISE predecessor (yes, found, consistent); B54/B55: SL(3) ground truth used for validation -- the validation computation is re-run inside B59's probe.py, so the kill does not lean on an unverified transfer.",
+    "revival_hypothesis": "The refutation is numerical (~3-4 digits), not symbolic: the ambient SL(4,C) Procesi trace ring (B58's open task) could confirm or overturn it exactly. Post-B730: the sl-n-tower face plus the B735 spectral face (never consulted by any pre-B735 negative). Oracle hints (coupling-tier): torsion, firewall, eisenstein, kappa.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B60",
+    "ground": "dead-probe",
+    "source": "frontier/B60_sln_tower/FINDINGS.md",
+    "is_negative": false,
+    "why": "Verdict is PRODUCES-RESULT (numerical) for the n=3,4 cross-n map; the only negative (the SL(5) 'cond ~ 1e11 conditioning barrier') is retracted in-file: the B61 update block states the barrier 'was a misdiagnosis' (rank-23 forward-only word set) and 22/24 SL(5) multipliers subsequently resolved. Corrected/positive arc; atlas keyword mis-class."
+  },
+  {
+    "id": "B62",
+    "ground": "dead-probe",
+    "source": "frontier/B62_opposition_involution/FINDINGS.md",
+    "is_negative": false,
+    "why": "Verdict is 'CONFIRMED as a LIVE STRUCTURAL RESULT': the 2 unresolved SL(5) modes are identified as char(M^2) and the opposition-involution identification is recorded live. The phrase 'The numerical route is dead' refers to an abandoned method route inside a positive arc; atlas keyword mis-class, not a banked negative."
+  },
+  {
+    "id": "B66",
+    "ground": "dead-probe",
+    "source": "frontier/B66_sl6_tower/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "The odd-k, degree-d=3 char(M^k) multiplicity in the metallic fixed-line tower follows max(n-d,1), which would give multiplicity 3 at n=6.",
+    "kill_form": "value-mismatch",
+    "faces_consulted": ["sl-n-tower"],
+    "depth_reached": "n=6 (35-dim Jacobian), 26/35 multipliers resolved at mpmath dps 60; stress-tested on the identical pipeline at n=3..6 and at m=1,2,3",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "|k|=3 multiplicity (char(M^3)+char(-M^3)):   2        ->  max(n-d,1)=3  REFUTED",
+    "citation_chain": "B62/B64: theta-split sector dimensions cited but re-derived exactly in-arc (sector_prediction(6), pure root-system combinatorics); B58: ambient trace ring cited as still open, so the kill remains numerical, not symbolic. Caveat: excluding a third |k|=3 factor rests on the -4.434 mode having no small-root partner (gauge-corrupted), stress-tested four ways in VALIDATION.md.",
+    "revival_hypothesis": "sl-n-tower face: 9 of 35 modes are gauge-corrupted, so 5 of 15 quadratic multiplicities remain undetermined -- the symbolic SL(n,C) Procesi trace ring (B58, open) could complete or overturn the profile; the B735 spectral face was never consulted by any pre-B735 negative. Oracle hints (coupling-tier): firewall, eisenstein, golden, z3_generation.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  }
+]

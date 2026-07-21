@@ -1,0 +1,101 @@
+B739 Stage-B recompute — target B500 (child hunt, x^4 - x - 1, d_K = -283)
+engine: SageMath (the arc's own declared engine); deterministic, no network
+
+child check: disc(t^4 - t - 1) = -283 ; nfdisc = -283 ; polgalois = [24, -1, 5, "S4"]
+(-283 squarefree => Z[t]/(g) is the maximal order; splitting of every p in K is
+ read off the factorization of g mod p — used by the Part-3 certificates)
+
+==============================================================================
+PART 1 — depth-4 EXACT recompute over Q (the banked kill's COMPLETE component)
+==============================================================================
+depth-4 all-three-verb words: 36 (expected 36)
+arc hunt_results.txt: 36 logged eliminant-degree lines
+
+FFMD: sat deg 16 [=arc] factor-degrees {1:2, 5:1, 9:1} quartics=0 child-hits=0
+FFDM: sat deg 13 [=arc] factor-degrees {1:3, 5:2} quartics=0 child-hits=0
+FMFD: sat deg 24 [=arc] factor-degrees {1:3, 3:1, 5:1, 13:1} quartics=0 child-hits=0
+FMMD: sat deg 35 [=arc] factor-degrees {1:2, 2:1, 5:1, 6:1, 8:1, 12:1} quartics=0 child-hits=0
+FMDF: chain deg 300 [=arc] factor-degrees {1:22, 2:57, 3:1, 5:1, 9:1, 147:1} quartics=0 child-hits=0
+FMDM: sat deg 22 [=arc] factor-degrees {1:1, 5:3, 6:1} quartics=0 child-hits=0
+FMDD: sat deg 63 [=arc] factor-degrees {1:2, 5:1, 6:1, 50:1} quartics=0 child-hits=0
+FDFM: sat deg 21 [=arc] factor-degrees {1:3, 5:1, 13:1} quartics=0 child-hits=0
+FDMF: chain deg 316 [=arc] factor-degrees {1:205, 3:1, 5:2, 98:1} quartics=0 child-hits=0
+FDMM: sat deg 22 [=arc] factor-degrees {1:1, 5:3, 6:1} quartics=0 child-hits=0
+FDMD: sat deg 36 [=arc] factor-degrees {1:1, 2:1, 5:1, 6:1, 22:1} quartics=0 child-hits=0
+FDDM: chain deg 404 [=arc] factor-degrees {1:127, 5:2, 6:1, 10:1, 251:1} quartics=0 child-hits=0
+MFFD: sat deg 16 [=arc] factor-degrees {1:3, 3:1, 5:2} quartics=0 child-hits=0
+MFMD: sat deg 22 [=arc] factor-degrees {1:1, 5:3, 6:1} quartics=0 child-hits=0
+MFDF: chain deg 468 [=arc] factor-degrees {1:163, 2:1, 3:1, 5:1, 13:1, 282:1} quartics=0 child-hits=0
+MFDM: sat deg 22 [=arc] factor-degrees {1:1, 5:3, 6:1} quartics=0 child-hits=0
+MFDD: sat deg 22 [=arc] factor-degrees {1:1, 5:1, 6:1, 10:1} quartics=0 child-hits=0
+MMFD: sat deg 22 [=arc] factor-degrees {1:1, 5:3, 6:1} quartics=0 child-hits=0
+MMDF: chain deg 952 [=arc] factor-degrees {1:53, 2:177, 5:1, 6:1, 8:1, 12:1, 514:1} quartics=0 child-hits=0
+MDFF: chain deg 635 [=arc] factor-degrees {1:258, 2:2, 3:1, 5:1, 9:1, 87:1, 269:1} quartics=0 child-hits=0
+MDFM: sat deg 36 [=arc] factor-degrees {1:1, 2:2, 5:1, 6:1, 8:1, 12:1} quartics=0 child-hits=0
+MDFD: sat deg 36 [=arc] factor-degrees {1:1, 2:1, 5:1, 6:1, 22:1} quartics=0 child-hits=0
+MDMF: chain deg 768 [=arc] factor-degrees {1:486, 5:3, 6:1, 261:1} quartics=0 child-hits=0
+MDDF: chain deg 1056 [=arc] factor-degrees {1:27, 2:25, 5:1, 6:1, 50:1, 918:1} quartics=0 child-hits=0
+DFFM: sat deg 16 [=arc] factor-degrees {1:2, 5:1, 9:1} quartics=0 child-hits=0
+DFMF: chain deg 424 [=arc] factor-degrees {1:197, 2:1, 3:1, 5:1, 13:1, 204:1} quartics=0 child-hits=0
+DFMM: sat deg 35 [=arc] factor-degrees {1:2, 2:1, 5:1, 6:1, 8:1, 12:1} quartics=0 child-hits=0
+DFMD: sat deg 63 [=arc] factor-degrees {1:2, 5:1, 6:1, 50:1} quartics=0 child-hits=0
+DFDM: chain deg 1040 [=arc] factor-degrees {1:289, 2:2, 5:2, 6:1, 16:12, 22:1, 517:1} quartics=0 child-hits=0
+DMFF: chain deg 444 [=arc] factor-degrees {1:245, 2:1, 3:1, 5:2, 184:1} quartics=0 child-hits=0
+DMFM: sat deg 22 [=arc] factor-degrees {1:1, 5:3, 6:1} quartics=0 child-hits=0
+DMFD: sat deg 22 [=arc] factor-degrees {1:1, 5:1, 6:1, 10:1} quartics=0 child-hits=0
+DMMF: chain deg 828 [=arc] factor-degrees {1:530, 5:3, 6:1, 277:1} quartics=0 child-hits=0
+DMDF: chain deg 932 [=arc] factor-degrees {1:377, 2:1, 5:1, 6:1, 22:1, 520:1} quartics=0 child-hits=0
+DDFM: chain deg 2512 [=arc] factor-degrees {1:579, 5:2, 6:1, 32:16, 50:1, 1355:1} quartics=0 child-hits=0
+DDMF: chain deg 852 [=arc] factor-degrees {1:529, 5:1, 6:1, 10:1, 302:1} quartics=0 child-hits=0
+
+depth-4 RESULT: child (iso to Q[t]/(t^4-t-1)) hits = 0 / 36 words
+depth-4 irreducible quartic factors encountered (all iso-tested): 0
+depth-4 eliminant-degree agreement with arc log: 36/36 (exact)
+
+==============================================================================
+PART 2 — depth-5 census recount (B525-corrected numbers), from hunt_results_d5.txt
+==============================================================================
+planned depth-5 all-three-verb words (itertools order): 150 (expected 150)
+logged word-lines: 141 ; bare TIMEOUT: 26 ; analyzed: 115 ; never-reached: 9
+unchecked = timeouts + never-reached = 26 + 9 = 35 (of 150)
+'HUNT COMPLETE' present: False
+never-reached words: DDFMD DDFDM DDMFF DDMFM DDMFD DDMMF DDMDF DDDFM DDDMF
+timeout words: DDFMM DFDDM DFDMD DFDMM DFMDD DFMMD DFMMM DMDFM DMFMD FDDMD FDMDD FDMMD FDMMM FMDDD FMDMD FMDMM FMMDD FMMMD MDDFF MDDFM MDFDM MDFMD MDFMM MFMMD MMDFM MMFMD
+forbidden-string check hunt_results.txt (excl. header): CLEAN
+forbidden-string check hunt_results_d5.txt (excl. header): CLEAN
+
+==============================================================================
+PART 3 — depth-5 F_p no-child certificates, ALL 150 words (incl. the 35 unchecked)
+==============================================================================
+type-4 prime list (t^4-t-1 irreducible mod p), first 40 from 10007 up:
+  10007 10037 10091 10093 10099 10139 10181 10193 10243 10267 10333 10337 10433 10589 10597 10613 10627 10651 10771 10799 11003 11069 11083 11093 11117 11119 11161 11177 11239 11243 11257 11351 11353 11399 11443 11491 11497 11549 11551 11579
+certificate rule: prime p certifies word w iff the mod-p eliminant (chain, or
+GF(p) Jacobian-saturation elimination when the chain vanishes) has squarefree part
+with ZERO irreducible degree-4 factors; 2 certifying primes required.
+
+FFFMD [analyzed(deg 24)]: CERTIFIED by p=[10037, 10093] | p=10007 sat deg24 sqf24 q4=1; p=10037 sat deg24 sqf24 q4=0; p=10091 sat deg24 sqf24 q4=2; p=10093 sat deg24 sqf24 q4=0
+FFFDM [analyzed(deg 19)]: CERTIFIED by p=[10037, 10091] | p=10007 sat deg19 sqf19 q4=1; p=10037 sat deg19 sqf19 q4=0; p=10091 sat deg19 sqf19 q4=0
+FFMFD [analyzed(deg 22)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg22 sqf22 q4=0; p=10037 sat deg22 sqf22 q4=0
+FFMMD [analyzed(deg 43)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg43 sqf43 q4=0; p=10037 sat deg43 sqf43 q4=0
+FFMDF [analyzed(deg 1326)]: CERTIFIED by p=[10139, 10333] | p=10007 chain deg1326 sqf470 q4=2; p=10037 chain deg1326 sqf470 q4=2; p=10091 chain deg1326 sqf470 q4=3; p=10093 chain deg1326 sqf470 q4=2; p=10099 chain deg1326 sqf470 q4=1; p=10139 chain deg1326 sqf470 q4=0; p=10181 chain deg1326 sqf470 q4=2; p=10193 chain deg1326 sqf470 q4=1; p=10243 chain deg1326 sqf470 q4=4; p=10267 chain deg1326 sqf470 q4=2; p=10333 chain deg1326 sqf470 q4=0
+FFMDM [analyzed(deg 27)]: CERTIFIED by p=[10093, 10139] | p=10007 sat deg27 sqf27 q4=2; p=10037 sat deg27 sqf27 q4=2; p=10091 sat deg27 sqf27 q4=1; p=10093 sat deg27 sqf27 q4=0; p=10099 sat deg27 sqf27 q4=1; p=10139 sat deg27 sqf27 q4=0
+FFMDD [analyzed(deg 68)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg68 sqf68 q4=0; p=10037 sat deg68 sqf68 q4=0
+FFDFM [analyzed(deg 34)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg34 sqf34 q4=0; p=10037 sat deg34 sqf34 q4=0
+FFDMF [analyzed(deg 1256)]: CERTIFIED by p=[10037, 10099] | p=10007 chain deg1256 sqf287 q4=1; p=10037 chain deg1256 sqf287 q4=0; p=10091 chain deg1256 sqf287 q4=2; p=10093 chain deg1256 sqf287 q4=1; p=10099 chain deg1256 sqf287 q4=0
+FFDMM [analyzed(deg 29)]: CERTIFIED by p=[10007, 10093] | p=10007 sat deg29 sqf29 q4=0; p=10037 sat deg29 sqf29 q4=1; p=10091 sat deg29 sqf29 q4=1; p=10093 sat deg29 sqf29 q4=0
+FFDMD [analyzed(deg 42)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg42 sqf42 q4=0; p=10037 sat deg42 sqf42 q4=0
+FFDDM [analyzed(deg 27)]: CERTIFIED by p=[10037, 10091] | p=10007 sat deg27 sqf27 q4=1; p=10037 sat deg27 sqf27 q4=0; p=10091 sat deg27 sqf27 q4=0
+FMFFD [analyzed(deg 40)]: CERTIFIED by p=[10091, 10099] | p=10007 sat deg40 sqf40 q4=1; p=10037 sat deg40 sqf40 q4=1; p=10091 sat deg40 sqf40 q4=0; p=10093 sat deg40 sqf40 q4=2; p=10099 sat deg40 sqf40 q4=0
+FMFMD [analyzed(deg 64)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg64 sqf64 q4=0; p=10037 sat deg64 sqf64 q4=0
+FMFDF [analyzed(deg 1220)]: CERTIFIED by p=[10091, 10099] | p=10007 chain deg1220 sqf484 q4=2; p=10037 chain deg1220 sqf484 q4=1; p=10091 chain deg1220 sqf484 q4=0; p=10093 chain deg1220 sqf484 q4=1; p=10099 chain deg1220 sqf484 q4=0
+FMFDM [analyzed(deg 38)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg38 sqf38 q4=0; p=10037 sat deg38 sqf38 q4=0
+FMFDD [analyzed(deg 93)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg93 sqf93 q4=0; p=10037 sat deg93 sqf93 q4=0
+FMMFD [analyzed(deg 54)]: CERTIFIED by p=[10037, 10091] | p=10007 sat deg54 sqf54 q4=1; p=10037 sat deg54 sqf54 q4=0; p=10091 sat deg54 sqf54 q4=0
+FMMMD [TIMEOUT]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg76 sqf76 q4=0; p=10037 sat deg76 sqf76 q4=0
+FMMDF [analyzed(deg 2564)]: CERTIFIED by p=[10007, 10037] | p=10007 chain deg2564 sqf822 q4=0; p=10037 chain deg2564 sqf822 q4=0
+FMMDM [analyzed(deg 48)]: CERTIFIED by p=[10007, 10091] | p=10007 sat deg48 sqf48 q4=0; p=10037 sat deg48 sqf48 q4=1; p=10091 sat deg48 sqf48 q4=0
+FMMDD [TIMEOUT]: CERTIFIED by p=[10007, 10091] | p=10007 sat deg119 sqf119 q4=0; p=10037 sat deg119 sqf119 q4=6; p=10091 sat deg119 sqf119 q4=0
+FMDFF [analyzed(deg 1657)]: CERTIFIED by p=[10771, 10799] | p=10007 chain deg1657 sqf602 q4=3; p=10037 chain deg1657 sqf602 q4=3; p=10091 chain deg1657 sqf602 q4=3; p=10093 chain deg1657 sqf602 q4=1; p=10099 chain deg1657 sqf602 q4=1; p=10139 chain deg1657 sqf602 q4=1; p=10181 chain deg1657 sqf602 q4=2; p=10193 chain deg1657 sqf602 q4=2; p=10243 chain deg1657 sqf602 q4=3; p=10267 chain deg1657 sqf602 q4=2; p=10333 chain deg1657 sqf602 q4=1; p=10337 chain deg1657 sqf602 q4=1; p=10433 chain deg1657 sqf602 q4=1; p=10589 chain deg1657 sqf602 q4=3; p=10597 chain deg1657 sqf602 q4=2; p=10613 chain deg1657 sqf602 q4=2; p=10627 chain deg1657 sqf602 q4=3; p=10651 chain deg1657 sqf602 q4=3; p=10771 chain deg1657 sqf602 q4=0; p=10799 chain deg1657 sqf602 q4=0
+FMDFM [analyzed(deg 64)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg64 sqf64 q4=0; p=10037 sat deg64 sqf64 q4=0
+FMDFD [analyzed(deg 82)]: CERTIFIED by p=[10007, 10037] | p=10007 sat deg82 sqf82 q4=0; p=10037 sat deg82 sqf82 q4=0
+FMDMF [analyzed(deg 2272)]: CERTIFIED by p=[10139, 10193] | p=10007 chain deg2272 sqf509 q4=2; p=10037 chain deg2272 sqf509 q4=2; p=10091 chain deg2272 sqf509 q4=1; p=10093 chain deg2272 sqf509 q4=1; p=10099 chain deg2272 sqf509 q4=1; p=10139 chain deg2272 sqf509 q4=0; p=10181 chain deg2272 sqf509 q4=1; p=10193 chain deg2272 sqf509 q4=0

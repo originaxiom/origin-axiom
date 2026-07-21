@@ -1,0 +1,141 @@
+[
+ {
+  "id": "B710",
+  "ground": "dead-probe",
+  "source": "frontier/B710_analytic_t1_thimbles/FINDINGS.md (+ b710_compute_out.txt lines 20-53)",
+  "is_negative": true,
+  "claim_killed": "Turok's FRW Picard-Lefschetz cosmology shares the fig-8 state integral's saddle SKELETON (a structural match, not merely the method): killed — the skeletons invert (fig-8: 2 real actions on the conjugation fixed point, 1 orbit; FRW: 4 complex actions in 2 free conjugate pairs).",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": [
+   "being"
+  ],
+  "depth_reached": "fig-8: 2 non-abelian saddles (1 conjugation orbit, Vol to 4e-32 two independent ways); FRW: 4 saddles across 4 tested (Lambda,q0,q1) sets; Stokes/thimble connectivity qualitative only",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "Im(S_geo)  = 0.0   Im(S_conj) = 0.0\n   => BOTH actions are REAL (CS=0).  They form ONE conjugation-pair {+Vol,-Vol},",
+  "citation_chain": "B709/B707: framing only, not load-bearing. CS(4_1)=0 is CITED (SnapPy/textbook; amphichirality forces CS in {0,1/2}, the 0 branch not recomputed) — if torn, the weaker leg is authority-external, but every other discriminator (Vol two ways, FRW quartic saddles, orbit counts) is in the committed b710_compute.py/_out.txt, so computed-in-arc kept; not P1 either way.",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735 (never consulted by any pre-B735 negative; saddle-action/resurgence comparison is exactly spectral territory); congruence tower B734 could re-pose fixed-point-vs-free. Oracle hints (coupling-tier only): golden, metallic, kappa, symplectic, torsion.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B711",
+  "ground": "dead-probe",
+  "source": "frontier/B711_two_z2_degeneration/FINDINGS.md",
+  "is_negative": false,
+  "why": "Not a banked negative: Outcome B is a positive structural RESOLUTION — it establishes that amphichirality and the Galois involution are two commuting Z/2's acting orthogonally (the V4, feeding B730's V4 anatomy) and finds the golden Galois-fixed real end as a gift. No claim is killed as a dead end/impossibility; atlas keyword-mined 'degeneration'/'NOT refuted' in the header."
+ },
+ {
+  "id": "B712",
+  "ground": "dead-probe",
+  "source": "frontier/B712_object_continuum/FINDINGS.md (+ b712_compute_out.txt)",
+  "is_negative": true,
+  "claim_killed": "The object's one continuous modulus (the A-polynomial deformation curve) carries a canonical non-degenerate real anchor on which a real observer/coupling parameter could land: killed — the canonical point is imaginary-quadratic (tau=2*sqrt(-3), Q(sqrt(-3)), no real embedding) and the only both-real rational/torsion points are the degenerate parabolic corner.",
+  "kill_form": "no-landing-site",
+  "faces_consulted": [
+   "being"
+  ],
+  "depth_reached": "full A-polynomial curve; all Q-rational/torsion real points enumerated (only the singular corner (+-1,-1)); cusp shape cross-checked 2 fully independent ways; canonical 2-form period identified as transcendental",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "Cross-checked a second, fully independent way (explicit SL(2,ℂ)\n  Riley holonomy, relator forcing y²+y+1=0, y=ζ₃) → same τ=2√−3.",
+  "citation_chain": "Self-contained: the A-polynomial is reproduced and verified reciprocal in-arc (b712_compute.py committed), not cited from Cooper-Long/CCGLS as authority.",
+  "revival_hypothesis": "Oracle: no unused conserved resolver (saturated or novel). Post-B730: the EMITTANCE/spectral face B735 (never consulted pre-B735 — spectral data could redefine what a canonical anchor must be); Born ledger B725-B729 recasts where the observer's real parameter actually lives.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B720",
+  "ground": "dead-probe",
+  "source": "frontier/B720_coupling_path/FINDINGS.md (no compute artifacts in arc dir — literature sweep)",
+  "is_negative": true,
+  "claim_killed": "An existing discrete-to-continuous bridge program (renormalization / Connes-Marcolli, holography / AdS-CFT, or positive geometry / amplituhedron) fits the object and could own the observer's continuous coupling: killed 3 ways (wrong cyclotomic branch Z[i] vs Q(sqrt(-3)); dimensional — 3d gravity has no local DOF; wrong regime — finite-mutation not finite-type, real points degenerate).",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "depth_reached": "3 programs swept, one literature hop each; 2 arithmetic leads left explicitly UNBUILT (thermal-time/CMR torsor -> B721; Kashaev resurgence)",
+  "fact_basis": "authority-external",
+  "evidence_quote": "its cosmic Galois lives on mixed-Tate over ℤ[i] (GAUSSIAN); our object is Eisenstein ℚ(√−3)=ℚ(ζ₃) — the wrong cyclotomic branch; and its U is already continuous ⇒ it sits ON the far side of the B706 gap",
+  "citation_chain": "B706: hop taken — PSLQ no-match computed there? yes (frontier/B706_rung2_sm_freedom, computed no-relation results). B712: hop taken — degenerate real points computed there? yes. The three kill legs themselves are external-literature structure (Connes-Marcolli, 3d-gravity no-local-DOF, ABHY finite-type), arXiv-fetch-verified in-seat, so authority-external (not cited-unverified); no in-arc computation exists.",
+  "revival_hypothesis": "Bounded observer menu B733 + the EMITTANCE/spectral face B735 (a spectral bridge was not on the 2026-07-20 menu); congruence tower B734 (m003 at (2), m004 at (4)) supplies new discrete-to-continuous rungs. Oracle hints: golden, amphichiral_cp, metallic, kappa, z3_generation.",
+  "tractability": "needs-web",
+  "p1": false
+ },
+ {
+  "id": "B721",
+  "ground": "dead-probe",
+  "source": "frontier/B721_thermal_time/FINDINGS.md (+ b721_probe1-3 scripts/outputs)",
+  "is_negative": true,
+  "claim_killed": "B701's measurement torsor IS the CMR KMS torsor over Q(sqrt(-3)) and the object's intrinsic clock is the observer's thermal clock: killed — the torsors are complementary (kernel vs quotient in 1->Gal(K^ab/K)->Gal(K^ab/Q)->Gal(K/Q)->1, no sub-torsor embedding) and the object's own time is tracial type II_1 (trivial modular flow) vs the thermal clock's type III.",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "depth_reached": "3 probes (12 agents); exact-sequence level for the torsor; modular-flow triviality verified numerically to ~1e-41; Marcolli-Xu QSM shown knot-independent (probe 1 skeptic-corrected)",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "type II₁**, and a tracial state has **TRIVIAL modular flow** (Δ=1; verified σ_t(a)−a ~ 1e-41)",
+  "citation_chain": "CMR math/0501424: WebFetched + confirmed in-arc (zero-T torsor = Gal(K^ab/K), simply transitive) — that leg is external but verified; B716: hop taken — Anosov sigma=[[2,1],[1,1]] and its entropy computed there? yes. The decisive type-II_1 discriminator is computed in b721_probe3.py, so computed-in-arc kept; the weaker CMR leg noted, not P1 either way.",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735 (a spectral clock comparison was never run — no pre-B735 negative consulted the spectral face); Born ledger B725-B729 recasts the observer's state-choice that seeds the thermal flow. Oracle hints: firewall, amphichiral_cp, metallic, kappa, z3_generation.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B724",
+  "ground": "dead-probe",
+  "source": "frontier/B724_seeing_readjudication/FINDINGS.md (+ b724_probe1-4 scripts/outputs)",
+  "is_negative": true,
+  "claim_killed": "The seeing-strategy hints C2-C5 and the GGM 3D-index identity carry evidence (a symmetric spatial triad from h^1=3, an entropy arrow, the torsion hierarchy ratio 10^17, V4 covering the SM's continuous parameters, a q-series identity): all killed by recomputation; only C1 (=B713 restated) survives.",
+  "kill_form": "other: composite — base-rate (C4 forced ratio misses by x259 + 6/6 look-elsewhere controls; Path-1 GGM only shared integer is the forced prime 3), kind-mismatch (C5: 4-element set is measure-zero in R^19), finite-level-obstruction (C2: three H^1 classes in distinct-dim irreps, no SO(3)/S3), genericity (C3: zero-entropy Sturmian, amphichiral cat map, no arrow)",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "depth_reached": "6 items recomputed (20 agents); torsion look-elsewhere over 10^0.5-10^37 (~2.3 signed-combos/decade, 6/6 famous-ratio controls); 27 = Sym16+Sym8+Sym0 via Fox calculus; GGM rotated 3D-index to O(q^5)",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "Every discriminating fact RECOMPUTED in-sandbox — no banked B-number cited\nas a refutation.",
+  "citation_chain": "None load-bearing by design — the arc exists to correct the cited-negative first pass (E19); prior cites (B716, B685) recomputed in-arc rather than followed.",
+  "revival_hypothesis": "Bounded observer menu B733 (C2/C5 re-posed for a bounded observer, not the bare object); V4 forced faces B730 bears on C5's V4 counting; the EMITTANCE/spectral face B735 for any future torsion/hierarchy numerics (spectral side never consulted). Oracle hints: firewall, metallic, kappa, symplectic, dickson_tower.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B726",
+  "ground": "dead-probe",
+  "source": "frontier/B726_hearing_born_content/FINDINGS.md (+ b726_probe1-3 scripts/outputs)",
+  "is_negative": true,
+  "claim_killed": "The two bare quadratic faces Q(sqrt(-3)) + Q(sqrt(5)) alone close the B725 Born gap (supply the full quantum content): killed — the interference phase is zeta_5 (Q(sqrt5) is totally real, carries no phase; being's phases are order 3) and the amplitudes live in a real quartic field, so closure needs the cyclotomic upgrade Q(zeta_5); the A^2=M ~ |psi|^2 hook is also dead (norm -1 vs square +2.618).",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": [
+   "being",
+   "hearing",
+   "mtc-overlay"
+  ],
+  "depth_reached": "3 probes; 5 Born ingredients each to an explicit printed minimal polynomial; Yang-Baxter verified to 2.66e-16; KMS commutator ~1e-16; both seductive hooks tested and rejected at base-rate",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "Every membership below is a printed minimal polynomial, verified in-sandbox.",
+  "citation_chain": "B725 supplies the gap being tested (framing); the kill's field memberships are computed in-arc. B729/B730 correction appended in-file (amplitude field relabeled Q(sqrt(2+phi))=Q(zeta_20)+) — verdict unchanged.",
+  "revival_hypothesis": "Directly the EMITTANCE/spectral face B735 (Born phase/amplitude ownership is spectral data; no pre-B735 negative consulted it) + the Born ledger B725-B729 anatomy this kill sits inside (B729 already refined its field label); the un-run Stokes trans-series resummation flagged in-file. Oracle hints: metallic, kappa, amphichiral_cp, symplectic, torsion.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B727",
+  "ground": "dead-probe",
+  "source": "frontier/B727_base_rate_the_structure/FINDINGS.md (+ b727_probe1-3 scripts/outputs; cc2 odds cross-check)",
+  "is_negative": true,
+  "claim_killed": "The flagship structural claim that E6 recurring across three faces (McKay / Lie / CIZ) is independent evidence the object encodes the SM: killed — the three faces are one ADE classification (P(recurrence | one label) = 1), Q(sqrt(-3)) can only reach E6, the sister m003 carries every field-level resonance without being a knot, and non-arithmetic knots also surject 2T; only the B266 atom is object-specific.",
+  "kill_form": "base-rate",
+  "faces_consulted": [
+   "being",
+   "mtc-overlay"
+  ],
+  "depth_reached": "3 probes + the m003 sister control; McKay=CIZ on 5/5 ADE labels; second label 2I->E8 control; 13 hyperbolic knots scanned for 2T surjections (4/13 hit incl. non-arithmetic); 5 class-number-1 Bianchi fields",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "All discriminating facts **triple-verified in-sandbox** (both refuting skeptics confirmed every",
+  "citation_chain": "B266 (the atom): cited and explicitly NOT killed — computation banked there per FINDINGS (exactly 2 surjections), not re-followed here since it is not the kill; B282 cited as strengthened; the kill facts themselves recomputed in b727_probe1-3 and cross-verified by cc2's independent odds measurement.",
+  "revival_hypothesis": "Congruence tower B734 (the m003/m004 pair reappears there: m003 at (2), m004 at (4) standard/(8) mod-center) could re-separate field-fact from knot-fact; Out(A5) B732 touches the 2I/E8 side; the EMITTANCE/spectral face B735 never consulted. Oracle hints: firewall, metallic, kappa, z3_generation, quasicrystal.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ }
+]

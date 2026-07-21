@@ -1,0 +1,91 @@
+B739 Stage-B recompute — TOMB-L74 ('z0 / k=4 phase match' tombstone)
+Deterministic run: sympy exact arithmetic + mpmath dps 50/60 + snappy 212 bits
+
+------------------------------------------------------------------------------
+PART 1 — z0 from the figure-eight census triangulation (snappy, 212 bits)
+------------------------------------------------------------------------------
+manifold: 4_1   tetrahedra: 2   solution type: all tetrahedra positively oriented
+shape[0] = (0.5 + 0.8660254037844386467637231707529361834714j)
+shape[1] = (0.5 + 0.8660254037844386467637231707529361834714j)
+|z^2 - z + 1| at the numerical shape = 0.0
+roots of z^2 - z + 1: [1/2 - sqrt(3)*I/2, 1/2 + sqrt(3)*I/2]
+z0 (Im > 0 root)    = 1/2 + sqrt(3)*I/2 = exp(i pi/3): True
+arg(z0)             = pi/3   (exact)
+z0^6 = 1, z0^3 = -1  -> z0 is a PRIMITIVE 6th root of unity (exact)
+seam identity 1 - z0 = conj(z0): True (exact)
+=> arg(z0) = pi/3, carried by z0 = zeta_6 and nothing else.
+
+------------------------------------------------------------------------------
+PART 2 — membership of arg(z0) = pi/3 in the level-k phase lattice (exact)
+------------------------------------------------------------------------------
+(i)   2 pi/(k+2) = pi/3  (q = z0 exactly):   k in [4]   (UNIQUE: k+2 = 6)
+(ii)  pi/3 in (2 pi/(k+2))Z  <=>  6 | k+2  <=>  k ≡ 4 (mod 6): first [4, 10, 16, 22, 28, 34], count 167/1000
+(iii) pi/3 in (pi/(k+2))Z   <=>  3 | k+2  <=>  k ≡ 1 (mod 3): first [1, 4, 7, 10, 13, 16], count 334/1000
+
+k=4 instance (the bullet's own): k+2 = 6 = 2*3;  pi/3 = 1*(2 pi/6) = 2*(pi/6);
+                                 q(4) = exp(2 pi i/6) = exp(i pi/3) = z0 exactly.
+
+Universal clause check ('at all other k they are multiples of pi/(k+2) != pi/3'):
+  counterexamples on the bullet's own lattice (iii): 333 of 999 other k in 1..1000;
+    k = 1:  pi/3 = 1 * (pi/3)   (exact)
+    k = 7:  pi/3 = 3 * (pi/9)   (exact)
+    k = 10:  pi/3 = 4 * (pi/12)   (exact)
+  -> the clause is FALSE as written; the coincidence class is k ≡ 1 (mod 3),
+     [resp. k ≡ 4 (mod 6) on the coarse q-lattice], not the singleton {4}.
+     Uniqueness of k=4 survives only in formulation (i): q(k) = z0 itself.
+
+Structure-content lemma (why the match is arithmetic, not structure):
+  for ANY phase pi*p/q (gcd(p,q)=1), pi*p/q in (pi/(k+2))Z <=> q | k+2 —
+  a divisibility condition on k+2 alone; the geometric object enters only
+  through the reduced denominator q of its argument/pi.  Verified exactly:
+    p/q = 1/3: match set (k<=60) = {k : 3 | k+2} -> [1, 4, 7, 10, 13]...  OK
+    p/q = 2/3: match set (k<=60) = {k : 3 | k+2} -> [1, 4, 7, 10, 13]...  OK
+    p/q = 1/4: match set (k<=60) = {k : 4 | k+2} -> [2, 6, 10, 14, 18]...  OK
+    p/q = 3/5: match set (k<=60) = {k : 5 | k+2} -> [3, 8, 13, 18, 23]...  OK
+  arg(z0)/pi = 1/3 -> q = 3 -> the z0 match set is k ≡ 1 (mod 3): the
+  predicate uses ONLY that z0 is a primitive 6th root of unity (Part 1).
+
+------------------------------------------------------------------------------
+PART 3 — robustness (C3): SU(2)_k RT eigenphases of the fig-8 monodromy
+------------------------------------------------------------------------------
+SL(2,Z) word check: T*(S T^-1 S^-1) = ((2, 1), (1, 1))  == [[2,1],[1,1]]: True
+
+ k  dim  S^2=I    (ST)^3=I   max||l|-1|   eigenphases/pi (exact rationals)     on pi/(k+2)Z?  +-pi/3 present?
+  1    2   3.6e-51   6.8e-52         0.0   [-1/3, 1/3]                                 True         True
+  2    3   5.1e-51   9.6e-51     5.3e-51   [-2/3, 0, 2/3]                              False        False
+  3    4   6.7e-51   2.2e-50     1.6e-50   [-14/15, -4/15, 4/15, 14/15]                False        False
+  4    5   2.7e-51   9.4e-51     5.3e-51   [-2/3, -1/2, 0, 1/2, 2/3]                   True         False
+  5    6   2.3e-50   3.5e-50     1.3e-50   [-5/6, -1/3, -1/6, 1/6, 1/3, 5/6]           False        True
+  6    7   2.4e-50   3.9e-50     1.6e-50   [-5/6, -1/2, -1/6, 0, 1/6, 1/2, 5/6]        False        False
+  7    8   3.9e-50   4.2e-50     1.2e-50   [-5/6, -1/2, -1/2, -1/6, 1/6, 1/2, 1/2, 5/6]  False        False
+  8    9   4.3e-50   6.6e-50     1.6e-50   [-13/15, -4/5, -7/15, -1/5, 0, 1/5, 7/15, 4/5, 13/15]  False        False
+  9   10   3.0e-50   7.5e-50     1.9e-50   [-13/15, -11/15, -7/15, -1/3, -1/15, 1/15, 1/3, 7/15, 11/15, 13/15]  False        True
+ 10   11   5.9e-50   7.7e-50     2.4e-50   [-5/6, -2/3, -1/2, -1/3, -1/6, 0, 1/6, 1/3, 1/2, 2/3, 5/6]  True         True
+ 11   12   8.8e-50   1.3e-49     1.9e-50   [-20/21, -16/21, -10/21, -8/21, -4/21, -2/21, 2/21, 4/21, 8/21, 10/21, 16/21, 20/21]  False        False
+ 12   13   6.8e-50   1.3e-49     4.0e-50   [-5/6, -3/4, -2/3, -1/2, -1/4, -1/6, 0, 1/6, 1/4, 1/2, 2/3, 3/4, 5/6]  False        False
+
+k with an exact +-pi/3 eigenphase (C3 convention), k = 1..12: [1, 5, 9, 10]
+k ≡ 1 (mod 3) in 1..12 (the Part-2 lattice class):            [1, 4, 7, 10]
+(Reported as-is: C3 is one declared operator choice; the verdict rests on
+ Part 1 + Part 2, which are convention-independent divisibility facts.)
+
+------------------------------------------------------------------------------
+VERDICT SUMMARY
+------------------------------------------------------------------------------
+RECONFIRMED. The discriminating fact recomputes TRUE: membership of
+arg(z0) = pi/3 (recomputed: z0 = zeta_6 from the 4_1 gluing, |z^2-z+1| < 1e-40)
+in the level-k phase lattice is pure divisibility on k+2 — 3 | k+2 on the
+bullet's lattice pi/(k+2), 6 | k+2 on the q-lattice 2 pi/(k+2) — with no input
+from the figure-eight beyond arg(z0)/pi = 1/3. At k=4: k+2 = 6, q(4) = z0
+exactly (unique k). The match is cyclotomic bookkeeping; the kill of the
+'structure' reading stands. CORRECTION carried with the reconfirmation: the
+bullet's clause 'at all other k ... != pi/3' is FALSE as written — the
+coincidence class is k ≡ 1 (mod 3) (334 of k <= 1000; k = 1, 7, 10, ...),
+resp. k ≡ 4 (mod 6) on the q-lattice; k=4-uniqueness survives only as
+q(k) = z0. A larger coincidence class makes the match LESS structural, not
+more: nothing singles out k=4 = rank except formulation (i)'s tautology.
+C3 side-observation (as-is): under the standard RT operator convention the
+fig-8 monodromy at k=4 has NO +-pi/3 eigenphase (phases 0, +-pi/2, +-2pi/3;
++-pi/3 occurs at k = [1, 5, 9, 10]) — the literal eigenphase match is convention-
+dependent and absent at k=4 itself, killing the 'structure' reading from a
+second, independent direction.

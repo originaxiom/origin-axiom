@@ -1,0 +1,43 @@
+EXACT: S^2 = I (sympy)  -> S^{-1} = S, S^4 = I
+VERIFIED: max |(ST)^3 - I| entry = 2.824e-194 (60-digit evalf) -> SL(2,Z) relations hold
+EXACT: tr rho(RL) = 1/2 - sqrt(5)/2 = (1-sqrt5)/2 = -1/phi  (sympy, exact)
+
+IMAGE ORDER |<S,T>| = 2880   (banked: 2880)  MATCH
+VERIFIED: closure under right-multiplication by both generators (group confirmed)
+
+|tr| cluster table (value : multiplicity):
+   0.000000 : 1530
+   0.618034 :  192
+   0.874032 :  144
+   1.000000 :  320
+   1.236068 :   24
+   1.414214 :  240
+   1.618034 :  192
+   2.000000 :   56
+   2.288246 :  144
+   2.828427 :   12
+   3.236068 :   24
+   4.000000 :    2
+cluster separation: min inter-cluster gap = 0.125968, max within-cluster spread = 3.68e-15  (tol = 1e-06 sits safely between)
+
+THE DISCRIMINATING COUNTS (banked: 1350/2880 nonzero ~47%; 384/2880 golden-magnitude ~13%):
+  nonzero trace      : 1350/2880 = 46.88%   MATCH
+  zero trace         : 1530/2880 = 53.12%
+  golden |phi^(+-1)| : 384/2880 = 13.33%   MATCH
+
+seed rho(RL): trace = -0.618033988750-4.86e-17j   (-1/phi = -0.618033988750)
+elements with trace EXACTLY -1/phi (the seed's value): 96  -> value class populated
+
+CLASS LEVEL: 37 conjugacy classes; 4 classes carry golden-magnitude trace (sum of sizes = 384, cross-check MATCH)
+  the seed's conjugacy class: id 6, size 96 (a singleton would need size 1 AND a unique trace)
+  conjugacy classes sharing the seed's exact trace -1/phi: 1
+side-claim tr rho(RRL) = -4.16e-16+2.78e-16j   (tombstone: exactly 0) MATCH
+side-claim tr rho(RLL) = -3.47e-16-2.91e-16j   (tombstone: exactly 0) MATCH
+
+SUMMARY vs the banked kill (TOMBSTONES K-O):
+  image order        : recomputed 2880    banked 2880
+  nonzero trace      : recomputed 1350 (46.9%)  banked 1350 (~47%)
+  golden magnitude   : recomputed 384 (13.3%)   banked 384 (~13%)
+  seed trace         : recomputed -1/phi (EXACT, sympy)      banked -1/phi
+  seed class populated: 96 elements / 1 classes share the exact value; 4 classes are golden-magnitude
+KILL RECONFIRMED: nonvanishing golden trace is a populated, base-rate-heavy property; it does not single out the seed.

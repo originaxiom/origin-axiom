@@ -1,0 +1,46 @@
+{
+ "name": "dead_06",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B332",
+   "findings": "frontier/B332_two_letters_two_ends/FINDINGS.md",
+   "slug": "two letters two ends"
+  },
+  {
+   "id": "B334",
+   "findings": "frontier/B334_seam_hilbert_class_field/FINDINGS.md",
+   "slug": "seam hilbert class field"
+  },
+  {
+   "id": "B335",
+   "findings": "frontier/B335_generation_symmetry_exact/FINDINGS.md",
+   "slug": "generation symmetry exact"
+  },
+  {
+   "id": "B343",
+   "findings": "frontier/B343_exact_tbm_irreducibility/FINDINGS.md",
+   "slug": "exact tbm irreducibility"
+  },
+  {
+   "id": "B360",
+   "findings": "frontier/B360_seam_selection_rule/FINDINGS.md",
+   "slug": "seam selection rule"
+  },
+  {
+   "id": "B361",
+   "findings": "frontier/B361_seam_local_law/FINDINGS.md",
+   "slug": "seam local law"
+  },
+  {
+   "id": "B364",
+   "findings": "frontier/B364_theta_polarization/FINDINGS.md",
+   "slug": "theta polarization"
+  },
+  {
+   "id": "B365",
+   "findings": "frontier/B365_polarization_signature/FINDINGS.md",
+   "slug": "polarization signature"
+  }
+ ]
+}

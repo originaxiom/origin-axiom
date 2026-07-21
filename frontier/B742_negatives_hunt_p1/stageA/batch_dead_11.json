@@ -1,0 +1,103 @@
+[
+ {
+  "id": "B474",
+  "ground": "dead-probe",
+  "source": "frontier/B474_tier_commutator_law/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive arc mis-mined from kill keywords ('refuted', 'float-kill') in the first 1500 chars. The probe (tier-commutator correspondence) SUCCEEDED: seat-1's float numbers were corrected (54 dark at closure, not 0) and the corrected table became a new exact selection-rule law, then the master theorem (everything factors through the 36-cell divisor lattice, verified 240/240). A numeric correction inside a positive discovery arc, not a banked dead-end."
+ },
+ {
+  "id": "B476",
+  "ground": "dead-probe",
+  "source": "frontier/B476_interaction_algebra/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "The critical interaction algebra at level 15 is 36-dimensional and tensor-factors as gl(2)xgl(3), yielding the SM gauge algebra su(3)+su(2)+u(1) as a consequence of criticality.",
+  "kill_form": "value-mismatch",
+  "faces_consulted": ["none-arithmetic-only"],
+  "depth_reached": "level 15 only (240-pair span); the (1,3)/(2,3) level controls that would separate pair-specific from level-forced are named as follow-up, not run",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "## The four numbers (exact SVD ranks, gaps ≥ 10⁻¹ → ≤ 10⁻¹⁵; `span_verify.py`)",
+  "citation_chain": "",
+  "revival_hypothesis": "The B735 emittance/spectral face was never consulted (kill is pure span-rank arithmetic). The base-rate half of the kill ('parity blocks forced by level 15 alone') rests on controls not yet run; bounded-observer menu B733 could reframe what counts as forced. Oracle coupling-tier hints: eisenstein, z3_generation, amphichiral_cp.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B477",
+  "ground": "dead-probe",
+  "source": "frontier/B477_sterile_classes/FINDINGS.md",
+  "is_negative": false,
+  "why": "Not a banked negative: the arc is explicitly 'recon; law OPEN' and states 'Recon only — nothing banked as law', with queued next steps (full sign-vector extraction, correct group structure, per-cusp test). The atlas keyed on 'refuted', but that word applies only to one candidate linear law inside an ongoing open investigation; the probe itself is alive, not a kill/dead-end."
+ },
+ {
+  "id": "B483",
+  "ground": "dead-probe",
+  "source": "frontier/B483_fibonacci_anyon_face/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive arc mis-mined: the first 1500 chars are the B1 flag-closure section ('warned... wrong from digit 7... CORRECT... No banked error'), a correction-that-found-no-error. The arc's banked content is positive mathematics (the object IS a face of the Fibonacci-anyon TQFT; the Weil/Chern-Simons torsion wall banked as insight). The 3:8:15 SM-overlay kill is a firewalled numerology sub-item (ninth count-matching instance), not the probe's arc being a dead-end."
+ },
+ {
+  "id": "B484",
+  "ground": "dead-probe",
+  "source": "frontier/B484_braiding_sm_verdict/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "The SM gauge group SU(3)xSU(2)xU(1) is the braiding statistics of 4 and 5 Fibonacci anyons, with the N=4,5 braid eigenvalues as SM mixing angles.",
+  "kill_form": "genericity",
+  "faces_consulted": ["mtc-overlay"],
+  "depth_reached": "dim-2 braid trace exact; fusion dims listed N=3..7; commutant dim = 1 computed at N=3 only, extended to all N by the density theorem; interaction/multiplicity/gauging channels argued, not computed beyond N=3",
+  "fact_basis": "authority-external",
+  "evidence_quote": "Freedman–Larsen–Wang (2002): the braid representation is DENSE in SU(dim) — Fibonacci anyons are universal for quantum computation. Real theorem.",
+  "citation_chain": "External: FLW 2002 density theorem is the decisive blade, cited not reproved; in-arc braid_verify.py confirms tr = -3/phi and commutant dim 1 at N=3. Torn between computed-in-arc and authority-external; picked the weaker basis since the kill's load-bearing step (dense => no closed proper gauge subgroup) is the external theorem.",
+  "revival_hypothesis": "The B735 spectral face was never consulted. Bounded-observer menu B733 is the natural lever: density is an infinite-precision statement, and a finite-resolution observer sees finite subgroup structure a dense image cannot exclude. Oracle coupling-tier hints: eisenstein, metallic, kappa, torsion.",
+  "tractability": "needs-web",
+  "p1": false
+ },
+ {
+  "id": "B486",
+  "ground": "dead-probe",
+  "source": "frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "The figure-eight cusp is the hexagonal (Eisenstein) torus, giving a three-fold degenerate curve-length spectrum that supplies the SM's three fermion generations.",
+  "kill_form": "value-mismatch",
+  "faces_consulted": ["emittance-lengths"],
+  "depth_reached": "cusp modulus in two framings (knot and shortest, plus b++); three shortest curves measured; b++ tower cusp shapes m=4..12; the 6b power-set magnitude check attempted but priced (wrong normalization), not banked",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "**Cusp modulus** (snappy, both knot and shortest framing): τ = **2√3·i = 2√−3**, purely imaginary. Reduced mod SL(2,ℤ): stays 2√3·i (Re = 0). **Rectangular lattice.**",
+  "citation_chain": "No committed script in the arc dir ('Reproducer: the sage-python cusp-lattice check (this session)'), but the complete derivation with actual numbers (tau = 2sqrt(3)i, disc -48 vs -3, lengths 1.00/3.46/3.61, multiplicity 2 not 6) is in-text and verified two independent ways => computed-in-arc.",
+  "revival_hypothesis": "This kill consulted only the lengths face, never the B735 emittance-spectrum face (a spectral three-fold degeneracy is a different question from a lattice-length one). Congruence-tower anatomy m004 at (4)/(8) (B734) is the other lever, though B489 already found rectangular cusps at all cyclic covers n<=8. Oracle hints: metallic, kappa, hyperbolicity_split.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B487",
+  "ground": "dead-probe",
+  "source": "frontier/B487_dgg_su3_verdict/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "The figure-eight DGG theory T[S3\\4_1] has the SM gauge group SU(3)xSU(2)xU(1), derived from the knot's topology via the Gang-Yonekura SU(3) enhancement (and, in the addendum, the SM as the duality product T[4_1]xT[5_2]).",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": ["mtc-overlay"],
+  "depth_reached": "one paper read (arXiv:1803.04009); two knots (4_1, 5_2) plus the m136/m206 disambiguation; no independent computation of the 3d theory itself",
+  "fact_basis": "authority-external",
+  "evidence_quote": "Verified against the actual paper (WebFetch + WebSearch). The paper is real and the SU(3) is real — but the identification fails the structure test on four decisive points.",
+  "citation_chain": "External: Gang-Yonekura arXiv:1803.04009 / JHEP 07(2018)145 read directly; the killing facts (SU(3) is global FLAVOR not gauge, theory is 3d N=2, SU(2)xU(1) is the unenhanced subgroup, matter is two U(1) chirals) are the paper's content, not recomputed in-arc. Addendum volume facts (m206(3,1) vs 5_2) verified in-session.",
+  "revival_hypothesis": "The B735 spectral face was never consulted. The kill leaves one door named but unexplored: gauging the SU(3) flavor symmetry ('no known realization' is absence-of-mechanism, not impossibility) - the bounded-observer menu B733 and Born ledger B725-B729 framing could bear on what 'gauge vs flavor' means for an observer inside the theory. Oracle hints: eisenstein, z3_generation, kappa.",
+  "tractability": "needs-web",
+  "p1": false
+ },
+ {
+  "id": "B489",
+  "ground": "dead-probe",
+  "source": "frontier/B489_self_interaction_tower/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "The cyclic-cover (self-interaction) tower of the figure-eight carries the SM: non-abelian symmetry enhancement appears up the tower (test at n=4), and m206(3,1) = the 5_2 complement bridges the tower to the twist-knot/Gang-Yonekura SU(3) family.",
+  "kill_form": "value-mismatch",
+  "faces_consulted": ["congruence-tower", "children-fillings"],
+  "depth_reached": "n = 1..8 of the cyclic cover tower (volumes, H1, cusp shapes, DGG ranks); one filling m206(3,1) recomputed for the 4c kill",
+  "fact_basis": "proxy",
+  "evidence_quote": "The handoff's OWN falsification test (compute DGG of b++(RL)⁴, check symmetry enhancement) resolves NEGATIVE: rank 7, U(1)⁷; and n≥2 are covers of 4₁, **not twist knots** (m206 is not a knot complement), so Gang–Yonekura's twist-knot SU(3) theorem does not apply.",
+  "citation_chain": "B487: computation found there? yes - and it cuts against this kill's logic: B487 documents T[4_1] itself as a U(1) gauge theory WITH SU(3) flavor enhancement, so an abelian UV gauge rank (U(1)^{2n-1}) cannot by itself preclude enhancement; 'theorem does not apply' is inapplicability of the known sufficient condition, not absence. Torn between computed-in-arc (the abelian rank and the 4c volume kill 2.568971 vs 2.828122 are exact recomputations) and proxy (UV rank read as the enhancement check); picked the weaker per the B525 blade.",
+  "revival_hypothesis": "Strong candidate: this IS a cover tower of m004, so the congruence-tower anatomy (m003 at (2), m004 at (4) standard/(8) mod-center, B734) bears directly; and the actual IR flavor symmetry of the tower theories (superconformal index) was never computed - the B735 emittance/spectral face was never consulted. Oracle hints: eisenstein, amphichiral_cp, kappa, dickson_tower.",
+  "tractability": "sandbox-recomputable",
+  "p1": true
+ }
+]

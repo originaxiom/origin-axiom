@@ -1,0 +1,85 @@
+[
+  {
+    "id": "B192",
+    "ground": "dead-probe",
+    "source": "frontier/B192_sln_higher_rank/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "The metallic SL(n) transfer cocycle's full Lyapunov spectrum is symmetric (±-paired) iff n is even — a parity law realizing V29 — and this even-n symmetry is special to the metallic cocycle.",
+    "kill_form": "value-mismatch",
+    "faces_consulted": ["sl-n-tower"],
+    "depth_reached": "n=2..6, fair broad energy grid vs 3 cherry-picked energies; matched same-companion random control at n=4,6",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "On the fair grid the defect **grows monotonically with n** — no even/odd alternation; n=4 (even) is *more* asymmetric than n=3 (odd); n=6 (even) is *not* symmetric. The \"law\" was a property of three hand-picked energies.",
+    "citation_chain": "Self-contained kill: reproducer sln_higher_rank.py committed in the arc dir, defect tables (cherry vs fair grid) and the matched-control numbers (0.337 vs 0.344; 0.509 vs 0.503) in-text. B166 is cited only for what SURVIVES (V29 at algebra level), not for the kill.",
+    "revival_hypothesis": "The EMITTANCE/spectral face B735 — no pre-B735 negative ever consulted the spectral face, and this kill is precisely about a spectrum-symmetry diagnostic; an energy-averaged spectral-face pass could re-pose whether any weaker parity signal survives. Oracle hints (coupling-tier only): dickson_tower (det=-1 parity), symplectic.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B200",
+    "ground": "dead-probe",
+    "source": "frontier/B200_chat1_handoff_verification/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a banked negative: a handoff-verification arc whose net result BANKS a verified positive (R2: on-site is the unique finite-range Sturmian-alphabet-preserving interaction, tier [num/combinatorial]). The 'REFUTED' keywords in the first 1500 chars belong to R1, a catch on an incoming chat claim inside this net-positive arc — atlas keyword mis-class."
+  },
+  {
+    "id": "B214",
+    "ground": "dead-probe",
+    "source": "frontier/B214_general_word_period_law/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a banked negative: a positive arc — extends B204's period law to arbitrary hyperbolic words (P=lcm(det(γ−I),det(γ+I)), [num, strongly verified]) and banks the class-field conductor-split refinement. The words 'refuted/deflated/wrong' are internal corrections of over-reads (the 'interaction' framing, the 'all conjugate' relay) within a positive arc — atlas keyword mis-class."
+  },
+  {
+    "id": "B216",
+    "ground": "dead-probe",
+    "source": "frontier/B216_period_law_f8_boundary/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a standing banked negative: the arc's negative verdict ('elementary criteria exhausted; the f≥8 split is genus-theoretic, NEEDS-SPECIALIST') was itself OVERTURNED by B219 (V222) — an artifact of the ±I-only test missing the extra square-roots of 1 mod 8. The arc now stands as a retracted/corrected boundary claim superseded by B219's positive elementary content law; the atlas mined 'OVERTURNED/wrong' keywords."
+  },
+  {
+    "id": "B219",
+    "ground": "dead-probe",
+    "source": "frontier/B219_period_content_law/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a banked negative: a positive resolution arc — 'L39 RESOLVED', the period law P=lcm(t−2,t+2)/content(γ) verified exhaustively at f=8 (all genera) and spot-checked at f=16. The 'overturned/wrong' keywords refer to it overturning B216's premature deferral — a compute-before-deferring WIN, atlas keyword mis-class."
+  },
+  {
+    "id": "B225",
+    "ground": "dead-probe",
+    "source": "frontier/B225_conductor_decomposition_test/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "The figure-eight character variety's conductor 40=2^3*5 decomposes as (octahedral parent = prime 2) x (golden filling = prime 5), i.e. the prime 2 is the discriminating signature of the Whitehead/Borromean octahedral parent.",
+    "kill_form": "base-rate",
+    "faces_consulted": ["children-fillings"],
+    "depth_reached": "10 two-bridge knots (4_1..9_4), twist and non-twist; bad-prime extraction validated only at genus<=1 (4_1 {2,5}, 5_2 {2,7}), overcounts for genus>=2",
+    "fact_basis": "proxy",
+    "evidence_quote": "The bad-prime extraction (discriminant of the branch locus) is **reliable only for low genus** — `4_1` ({2,5}, validated) and `5_2` ({2,7}). For genus ≥ 2 (`6_1` up) it **overcounts** (huge spurious primes from the disc-of-disc resultant).",
+    "citation_chain": "B211: pipeline reproduces B211's 40a1 bad primes {2,5} — yes, validated in-arc. Torn between computed-in-arc (conductor_test.py committed, table in-text) and proxy: the decisive non-twist rows (6_2..9_4) sit in the genus>=2 regime where the branch-locus discriminant is an overcounting stand-in for the true Jacobian conductor, and the arc itself defers that to a specialist — picked the weaker basis (proxy) per the B525 blade.",
+    "revival_hypothesis": "Congruence tower B734 (m003 at (2), m004 at (4) standard / (8) mod-center): the conductor's 2-part might be discriminated at tower/mod-center depth rather than by bare presence-of-2, which is what the base-rate kill shows is uninformative; Born ledger B725-B729 for parent/filling bookkeeping. Oracle hints (coupling-tier only): metallic, symplectic.",
+    "tractability": "sandbox-recomputable",
+    "p1": true
+  },
+  {
+    "id": "B237",
+    "ground": "dead-probe",
+    "source": "frontier/B237_silver_2O_l48/FINDINGS.md",
+    "is_negative": true,
+    "claim_killed": "pi_1 of the silver (m=2) bundle carries a binary octahedral 2O quotient — i.e. its Q(sqrt2) trace-field match with 2O's character field reflects actual group structure (with chat1's supporting claim that all metallic bundles carry 2T and 2I).",
+    "kill_form": "zero-intertwiner",
+    "faces_consulted": ["congruence-tower"],
+    "depth_reached": "all surjections pi_1 -> G enumerated (GAP GQuotients, definitive) for G in {2T(24,3), 2I(120,5), 2O(48,28), S4(24,12)} across golden m004, silver b++RRLL, bronze b++RRRLLL",
+    "fact_basis": "computed-in-arc",
+    "evidence_quote": "**L48 answered, definitively: silver does NOT carry `2O`** (`GQuotients=0`). The `ℚ(√2)` match is a **field-only coincidence**; the group never closes — consistent with `|2O|=48 ≠ p(p²−1)` (B234).",
+    "citation_chain": "B234: cited as consistency only (|2O| = 48 is never p(p^2-1), so 2O is never SL(2,F_p)) — not load-bearing; the kill itself is the in-arc GAP GQuotients=0 computation (silver_2O.py committed, quotient table in FINDINGS).",
+    "revival_hypothesis": "Congruence tower B734 — the m004 (4) standard / (8) mod-center split: the mod-center 2-adic structure is exactly where binary/spin-vs-rotation (2O vs S4) distinctions live, so a mod-center tower pass on silver could re-pose whether 2O appears at a central-extension/covering level even though it is never a direct pi_1 quotient. Oracle hints (coupling-tier only): kappa, hyperbolicity_split.",
+    "tractability": "sandbox-recomputable",
+    "p1": false
+  },
+  {
+    "id": "B239",
+    "ground": "dead-probe",
+    "source": "frontier/B239_reconciled_trace_field_law/FINDINGS.md",
+    "is_negative": false,
+    "why": "Not a banked negative: banks a positive reconciled law (unimodular disc = t^2 - 4*det, the 2-element imaginary menu, referee-proof reframing). The keywords 'wrong/fragile/supersedes' in the first 1500 chars refer to fixing the fragile 'trace-1' FRAMING of B234/B235 — a correction inside a positive arc; its exclusion corollaries (E7 parity-excluded, sqrt(-7) below the -4 floor) restate closures banked in B234/B235. Atlas keyword mis-class."
+  }
+]

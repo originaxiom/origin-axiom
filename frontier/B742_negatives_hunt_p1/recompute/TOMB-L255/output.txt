@@ -1,0 +1,46 @@
+B739 Stage B recompute -- TOMB-L255 (K-L: rank = SL(n) tower depth)
+seed convention (B80): M = [[m,1],[1,0]] at m=1 (golden)
+tower convention (K003/B103/B117): rho_n = (+)_d Sym^d(M)^{mu_d}, mu_d = [2<=d<=n] + [0<=d<=n-3]
+
+seed: char(M) = t^2 - t - 1;  eigenvalues phi, -1/phi;  det M = -1  [verified exact]
+Sym^d(A.B) = Sym^d(A).Sym^d(B): exact 8-symbol polynomial identity, d = 1..6  [verified]
+Sym^d(diag(lam,mu)) = diag(lam^(d-j) mu^j): symbolic, d = 6 spot-verified  [mechanism]
+=> every Sym^d(M) eigenvalue lies in the FIXED group <-1, phi> for EVERY d (free rank 1 ambient)
+
+Sym^d(M) spectra DERIVED exactly for d = 0..12: each equals {(-1)^j phi^(d-2j), j=0..d}
+  (this IS B85 FINDINGS L61-64 constraint (i), now an artifact, not an assertion)
+
+char(rho_n) = prod of block charpolys: verified DIRECTLY on the assembled 8x8 (n=3) and 15x15 (n=4) integer matrices
+
+The two-sequence tower rho_n: exact eigenvalue group ranks vs depth n
+n    dim      exponent range (phi^e)     mult-rank    add-rank  claim(K-L)  climb? 
+2    3        [-2 .. 2], gcd 2           1            2         rank=2: NO  no     
+3    8        [-3 .. 3], gcd 1           1            2         rank=3: NO  no     
+4    15       [-4 .. 4], gcd 1           1            2         rank=4: NO  no     
+5    24       [-5 .. 5], gcd 1           1            2         rank=5: NO  no     
+6    35       [-6 .. 6], gcd 1           1            2         rank=6: NO  no     
+7    48       [-7 .. 7], gcd 1           1            2         rank=7: NO  no     
+8    63       [-8 .. 8], gcd 1           1            2         rank=8: NO  no     
+9    80       [-9 .. 9], gcd 1           1            2         rank=9: NO  no     
+10   99       [-10 .. 10], gcd 1         1            2         rank=10: NO no     
+11   120      [-11 .. 11], gcd 1         1            2         rank=11: NO no     
+12   143      [-12 .. 12], gcd 1         1            2         rank=12: NO no     
+
+multiplicative free rank: constant 1 for n = 2..12 (never equals n; never climbs)
+additive Z-rank (K-K reading): constant 2 (equals n only accidentally at n=2, then flat)
+
+B80 proved SL(4) catalog at m=1: 15 eigenvalues == rho_4 multiset [exact match];
+  exponents [-4, -3, -2, -2, -1, -1, 0, 0, 0, 1, 1, 2, 2, 3, 4]; free rank 1 (gcd 1)
+
+literal-wording audit: on the SEED tower the eigenvalue phi^3 (d=3) is an ODD power
+  of phi -- 'all powers of phi^2' is literally true only on the geodesic/even tower
+  Sym^d(M^2) (d = 1..6 verified: every eigenvalue a pure power of phi^2, no sign).
+  The parenthetical '(multiplicative free-rank 1)' -- the DISCRIMINATING content --
+  is exact under BOTH conventions: <-1,phi> and <phi^2> both have free rank 1.
+
+VERDICT-FACT: on the arcs' declared tower rho_n (dim n^2-1, two-sequence mu_d),
+the spectral rank = multiplicative free rank of the eigenvalue group = 1 at every
+depth n = 2..12 while depth climbs 2..12; the additive reading gives constant 2.
+Under NO reading does the rank equal or climb with n; the mechanism (functoriality +
+diagonal form, exact) pins every eigenvalue at every n inside <-1, phi>, free rank 1.
+The banked kill of K-L is RECONFIRMED by direct recomputation.

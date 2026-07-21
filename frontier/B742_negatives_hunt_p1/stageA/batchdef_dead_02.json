@@ -1,0 +1,46 @@
+{
+ "name": "dead_02",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B128",
+   "findings": "frontier/B128_symmetry_breaking_chirality/FINDINGS.md",
+   "slug": "symmetry breaking chirality"
+  },
+  {
+   "id": "B132",
+   "findings": "frontier/B132_quantum_layer/FINDINGS.md",
+   "slug": "quantum layer"
+  },
+  {
+   "id": "B140",
+   "findings": "frontier/B140_compute_reconciliation/FINDINGS.md",
+   "slug": "compute reconciliation"
+  },
+  {
+   "id": "B146",
+   "findings": "frontier/B146_b145_calibration/FINDINGS.md",
+   "slug": "b145 calibration"
+  },
+  {
+   "id": "B154",
+   "findings": "frontier/B154_silver_bundle_foundation/FINDINGS.md",
+   "slug": "silver bundle foundation"
+  },
+  {
+   "id": "B157",
+   "findings": "frontier/B157_metallic_exponent/FINDINGS.md",
+   "slug": "metallic exponent"
+  },
+  {
+   "id": "B161",
+   "findings": "frontier/B161_cancellation_locus_stratification/FINDINGS.md",
+   "slug": "cancellation locus stratification"
+  },
+  {
+   "id": "B177",
+   "findings": "frontier/B177_metabolism_test/FINDINGS.md",
+   "slug": "metabolism test"
+  }
+ ]
+}

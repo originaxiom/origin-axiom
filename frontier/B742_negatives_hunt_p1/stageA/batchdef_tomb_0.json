@@ -1,0 +1,42 @@
+{
+ "name": "tomb_0",
+ "kind": "tombstone",
+ "items": [
+  {
+   "line": 67,
+   "head": "- **Quantum tower `|\u03bb|=1`** = **unitarity** of the Chern\u2013Simons representation (true of *every* quantum theory); the"
+  },
+  {
+   "line": 70,
+   "head": "- **Finite-`k` eigenvalues are roots of unity** \u2014 **tautological**: the rep is defined over `q=exp(2\u03c0i/(k+2))`, so"
+  },
+  {
+   "line": 72,
+   "head": "- **Kashaev invariant \u2192 volume** = the **volume conjecture** (Kashaev 1997, a *verified known result*), not a"
+  },
+  {
+   "line": 74,
+   "head": "- **`z\u2080` / k=4 phase match** = a **k=4-specific arithmetic coincidence**: at `k=4`, `k+2=6=2\u00b73` divides the"
+  },
+  {
+   "line": 77,
+   "head": "- **\"Three regimes\"** (cyclotomic at finite `k` / algebraic at `k\u2192\u221e` / transcendental coefficient) = an"
+  },
+  {
+   "line": 102,
+   "head": "- **K-A/K-B \u2014 \"det=\u22121 breaks chirality / selects the Standard-Model chiral structure\" \u2014 DEAD, and INVERTED.** The"
+  },
+  {
+   "line": 111,
+   "head": "- **K-C \u2014 \"figure-eight quantized = the *physical* Fibonacci order / det=\u22121 selects the braiding chirality\" \u2014 DEAD.**"
+  },
+  {
+   "line": 119,
+   "head": "- **K-D \u2014 \"physical (unitary) topological order from the metallic family\" \u2014 DEAD.** Metallic `m\u22651` are hyperbolic \u2192"
+  },
+  {
+   "line": 124,
+   "head": "- **K-E \u2014 \"a forced dimensionful scale or non-generic physical ratio\" \u2014 DEAD.** `\u03bb_m`, `2 log \u03bb_m`, volumes, systoles"
+  }
+ ]
+}

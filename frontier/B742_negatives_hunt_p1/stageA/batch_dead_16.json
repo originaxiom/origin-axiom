@@ -1,0 +1,94 @@
+[
+ {
+  "id": "B657",
+  "ground": "dead-probe",
+  "source": "frontier/B657_invariant_line/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive verification/banking arc: banks the portal-isomorphism LAW and one-per-block LAW (both BANKED as LAW). The 'CONFLATION-REFUTED'/'dies here' wording corrects a relay's mislabel ('dark sector' = gauge singlet) that never entered the repo; ZERO-PORTAL 'refuted' is itself a positive result (the portal is a rank-5 isomorphism). Atlas keyed on refutation vocabulary in a positive arc."
+ },
+ {
+  "id": "B664",
+  "ground": "dead-probe",
+  "source": "frontier/B664_metallic_landscape/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive theorem arc: the LANDSCAPE THEOREM proved (closed form, three-value theorem, period 5), 38/38 exact checks. The 'REFUTED' wording corrects chat1's overclaims (uniqueness of the real minimum, the five-criteria collapse) inside a positive proof arc that banks the landscape law into L91. Atlas keyed on correction vocabulary."
+ },
+ {
+  "id": "B668",
+  "ground": "dead-probe",
+  "source": "frontier/B668_triage_reconciliation/FINDINGS.md (section: THE ADOPTED CORRECTION)",
+  "is_negative": true,
+  "claim_killed": "Cell F1/F' as posed: an asymptotic/resurgent S2 coefficient can be extracted from the Z-ladder via the expansion Z(k) ~ exp(kS0 + S1 + S2/k + ...).",
+  "kill_form": "category-error",
+  "faces_consulted": ["hearing"],
+  "depth_reached": "no new compute; inspection against the banked exact period P = 175560 (all k)",
+  "fact_basis": "computed-in-cited-arc",
+  "evidence_quote": "the Z-ladder is exactly periodic (P = 175560, B662/G), and a periodic sequence has ZERO asymptotic 1/k content; the expansion Z(k) ~ exp(kS₀ + S₁ + S₂/k + …) has no meaning on it; no S₂ is extractable from the ladder",
+  "citation_chain": "B662: computation found there? yes - cellG/l100_period.py + l100_results.json certify P = 175560 (CAMPAIGN_SYNTHESIS: 'CERTIFIED: P = 175560'); periodicity => zero asymptotic 1/k content transfers with no extra hypotheses (elementary).",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735: the kill only shows the periodic trace ladder carries no large-k content and itself points at growing observables (S-entries, qdims) as legal resurgence targets; no pre-B735 negative consulted the spectral face. Also Born ledger B725-B729 for which observables carry genuine asymptotics.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B669",
+  "ground": "dead-probe",
+  "source": "frontier/B669_track_h_adjudication/FINDINGS.md (h1_proper.py + h1_proper_output.txt in arc)",
+  "is_negative": true,
+  "claim_killed": "Chat1's sealed prediction that the chiral metallic words' certificate ladders |Z_k|^2 grow while the amphichiral golden's stays bounded (the amphichiral-suppression 'cosmological constant' mechanism).",
+  "kill_form": "value-mismatch",
+  "faces_consulted": ["hearing"],
+  "depth_reached": "kappa = 4..30 for words t = 3,4,5,6; 25 Weyl classes; exact q-multisets; plus SnapPy amphichirality check on m136",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "Artifacts: PREREG_H1.md (d5f025bf), h1_ladders.py + h1_output.txt (the wrong-object first pass, preserved — the control that caught it), h1_proper.py + h1_proper_output.txt (the decisive run).",
+  "citation_chain": "",
+  "revival_hypothesis": "Bounded observer menu B733 and Born ledger B725-B729: the Lambda leg died on untyped k<->scale and dimensionful value (wall 10 / R5); post-B730 observer/Born anatomy is exactly the retyping machinery. The spectral face B735 was never consulted; the boundedness kill used only exact q-support arithmetic.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B672",
+  "ground": "dead-probe",
+  "source": "frontier/B672_grading_hunt/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive arc: the grading hunt FIRES (weight-5 doublet streams recognized exactly as Rogers-Ramanujan objects, ratio = the RR continued fraction) and the branch-tiebreak lemma is PROVEN. The 'dead' keyword comes from sub-candidate exclusions (generation-leg candidates 1-4) inside a firing arc whose generation leg explicitly 'stays open, sharpened'. Atlas keyed on 'dead' in a positive arc."
+ },
+ {
+  "id": "B677",
+  "ground": "dead-probe",
+  "source": "frontier/B677_morning_packet/FINDINGS.md (G1 wave 1; generation_leg/g1_tube/)",
+  "is_negative": true,
+  "claim_killed": "The wave-1 G1 generator candidates - Tube(Fib) Hochschild classes (T0/T1) and the weld-weighted character-shaped combinations - produce the target integer streams.",
+  "kill_form": "other:multiple - HH-vanishing (Tube(Fib) semisimple => HH^{>=1}=0), value-irrationality at n=0, and support-class mismatch (fractional supports never meet 2/5, 3/5)",
+  "faces_consulted": ["mtc-overlay"],
+  "depth_reached": "Tube(Fib) dim 7 full semisimple decomposition from first principles; character candidates killed at n = 0 leading coefficient; supports 11/60, 59/60, 53/60, 17/60 vs 2/5, 3/5",
+  "fact_basis": "computed-in-arc",
+  "evidence_quote": "**T0 killed by THEOREM:** Tube(Fib) is SEMISIMPLE (dim 7, built from first principles; B484's braid trace reproduced) ⇒ HH^{≥1} = 0 identically — the kill mechanism is the classical HH-vanishing for semisimple algebras (sound; verified as logic).",
+  "citation_chain": "B484: cited only as a reproduced cross-check; the discriminating computation is local (generation_leg/g1_tube/g1_tube.py, g1_results.json, g1_run_log.txt present in arc).",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735: the six kill patterns constrain candidate SHAPE (weld-twisted module characters + an integrality mechanism) but all wave-1 candidates were trace/character objects; the spectral face was never consulted. V4 forced faces B730 could also re-source the candidate list.",
+  "tractability": "sandbox-recomputable",
+  "p1": false
+ },
+ {
+  "id": "B681",
+  "ground": "dead-probe",
+  "source": "frontier/B681_habiro_pretest/FINDINGS.md",
+  "is_negative": false,
+  "why": "Positive design-stage arc: VERDICT PASS - no v5 obstruction; the survivor's construction is pinned to the divided-power/Habiro home and the design cycle is EARNED. The 'killed/dies' wording refers to a prior kill (the Molien Sym class) and to a hypothetical failure mode the pre-test avoided. Atlas keyed on kill vocabulary in a pass arc."
+ },
+ {
+  "id": "B685",
+  "ground": "dead-probe",
+  "source": "frontier/B685_generation_terminal/FINDINGS.md",
+  "is_negative": true,
+  "claim_killed": "A framework-derivable generator from the figure-eight's intrinsic object (either the Habiro/Nahm state-integral realization or the modular/Gamma(5) Molien realization) produces the {2/5,3/5} 5-adic hearing/flavor streams.",
+  "kill_form": "other:killed-at-support - arithmetic support mismatch (object coefficients pure-3 / algebraic-integer; targets require growing 5-adic denominators)",
+  "faces_consulted": ["being", "hearing", "congruence-tower"],
+  "depth_reached": "coefficients through (q-1)^100 (denominator 3^146) read from GSWZ; both intrinsic realizations of the W3 survivor exhausted",
+  "fact_basis": "cited-unverified",
+  "evidence_quote": "GSWZ's symmetrised series Φ(h)Φ(−h) (the figure-eight's Habiro/state-integral object) has coefficients integral away from 3 — the (q−1)¹⁰⁰ denominator is 3¹⁴⁶, PURE POWERS OF 3 (re-read from the source).",
+  "citation_chain": "B683: computation found there? yes - divided_power_proof.md + verify_divided_power.py (targets need growing 5-adic denominators; transfers). The Habiro leg is authority-external (GSWZ, read not recomputed; no compute artifact in the B685 dir). The Molien leg cites 'W2 kill #8' whose computation I could not locate in one hop (not in B679-B684 FINDINGS). Torn between authority-external and cited-unverified: picked the weaker (cited-unverified) per the B525 rule.",
+  "revival_hypothesis": "The EMITTANCE/spectral face B735: the no-go itself relocates the hearing (5) to LEVEL-5 COUPLING, not the object - the spectral/coupling face was never consulted by this kill. Congruence tower B734 (m004 at (4) standard / (8) mod-center) bears directly on the level 15 = 3 x 5 coupling claim.",
+  "tractability": "needs-web",
+  "p1": true
+ }
+]

@@ -1,0 +1,141 @@
+B739 Stage-C skeptic check output -- B225 -- BASE-RATE (E20) lens
+Scripts: scratchpad/b225_rerun.py, skeptic_baserate_b225.py, skeptic_check5_b225.py (session 00f419c5); run 2026-07-21
+VERDICT OF THIS SKEPTIC: FAIL TO REFUTE (refuted=false), with one mandatory correction (F1 below).
+
+==========================================================================
+CHECK 1 -- reproducibility (full rerun of the Stage-B recompute)
+  python3 recompute.py rerun in scratchpad: exit 0, ALL CHECKS PASS,
+  output diff vs banked output.txt: IDENTICAL (111/111 lines).
+
+CHECK 2 -- E20 trigger audit (is any residue positive NEW?)
+  golden half (x^2=5 = t^2-4, trace 3): banked SOLID in B225/FINDINGS.md itself (L18-21) -- pre-banked.
+  4_1 <-> 40a1 anchor + Whitehead/octahedral framing: banked in B211/FINDINGS.md (L33-35, L101-102) -- pre-banked.
+  The zero-specificity theorem + controls: a NEGATIVE statement about the instrument, not object structure.
+  The verdict's own Part 4: "No new positive structure is asserted"; residue items stated as
+  "REOPENED, undecided either way". => E20's NEW-structure trigger is absent; residue framing compliant.
+
+CHECK 3 -- instrument null base rate (the "LR=1 / EVERY input / specificity ZERO" claim)
+  Null catalogue: 200 random monic-in-z curves (seed 739225), arc conventions:
+  fired '2 in bad' 194/200. SIX ESCAPES EXIST. Each validated through a byte-equivalent copy of the
+  arc's own bad_primes() (B225/conductor_test.py L91-99):
+    z^2-2z+(7-7x)                      -> bad=[7]                      (2 absent)
+    z^2-2z+(6x-3)                      -> bad=[3]                      (2 absent)
+    z^2+4z+6xz-7x+3                    -> bad=[3,5,13]                 (2 absent)
+    + three deg_x=3..4 curves          -> bad=[73,2129,7717,525593], [3,41,36412577], [5,13,43,54277,114925093]
+  Mechanism: content-stripping. disc_z(Phi) mod 2 is a square INCLUDING 0; when the integer content is
+  EVEN, stripping destroys the square structure (e.g. disc = 28x-24 -> content 4 -> 7x-6, mod 2 = x,
+  not a square; disc_x(linear)=1, lc=7 odd -> no 2). The Stage-B theorem's step (ii) silently assumes
+  the stripped locus keeps the mod-2 square structure -- false for even content.
+  ==> F1: the universal claim "forcing 2 for EVERY possible input: specificity at p=2 is zero,
+      LR exactly 1" is REFUTED as stated. CORRECT (verified) form: monic-in-z AND odd content of
+      disc_z ==> 2 fires. Measured generic specificity ~= 0.03, not 0.
+  WITHIN-CLASS REPAIR (verified here, not by Stage-B): v2(content(disc_z Phi)) = 0 for ALL 10 knots
+  (10/10 odd content), so the forced fire held for every actual object; both 2-good controls
+  (11a3, 37a1; odd content, even LC) still false-fire. Corrected LR of the kill's 10/10 observation:
+  <= (1/0.97)^10 ~= 1.36 against a generic null, = 1 exactly within the odd-content class, and the
+  controls give P(fire | genuinely 2-good) = 1 on all tested truth-known inputs.
+  ==> The operative conclusion (the banked kill's base-rate inference at p=2 is vacuous) SURVIVES
+      the correction. F1 is a wording/scope defect, not a verdict-flipping defect.
+
+CHECK 4 -- catalogue size for the residue's genuine datum (2 | N(4_1)=40)
+  Exact enumeration over F_2^5: 16/32 integral Weierstrass models have ODD Delta -> P ~ 1/2;
+  the bit "2 | N" carries <= ~1 bit (LR <= ~2). 40a1 model y^2=x(x-1)(x-5): Delta = 6400 = 2^8*5^2.
+  An n=1 (now n=2, see CHECK 5) coin-flip-grade consistency cannot support "2 = octahedral parent";
+  the revival states it only as open -- compliant.
+
+CHECK 5 -- sister/object-specificity (the revival's open item, actually attempted in-sandbox)
+  gp (PARI 2.17.4) genus2red/ellfromeqn ARE available here. Anchor control: ellfromeqn on
+  y^2=(x^2-1)(x^2-5) [4_1, SL level] -> conductor 40 (= banked 40a1). Genus table (all 10 knots;
+  Dsf(x)=g(x^2); Jac(y^2=Dsf) ~ Jac(y^2=g(X)) x Jac(Y^2=X g(X))):
+    4_1 twist deg Dsf=4 (genus 1) | 5_2 twist 8 (3), g quartic (1) | 6_1 twist 12 (5), g sextic (2)
+    7_2 twist 16 (7) | NON-twist: 6_2 14 (6)/7 (3), 6_3 14 (6)/7 (3), 7_6 36 (17)/18 (8),
+    8_3 18 (8)/9 (4), 8_8 52 (25)/26 (12), 9_4 36 (17)/18 (8).
+  NEW genuine data computed:
+    5_2 elliptic factor y^2=g(X): conductor 14 = 2*7  -> genuine v2(N(Jac branch locus 5_2)) >= 1.
+        (Second octahedral child with genuine 2; also genuinely confirms the banked {2,7} row at this level.
+        Odd factor Y^2=Xg(X): genus2red FaN=[2,-1;7,2] -- 2-exponent UNDETERMINED (PARI -1 convention).)
+    6_1 genus-2 factor y^2=g(X): genus2red N = 752571, FaN=[3,5;19,1;163,1] -- v2=0 DETERMINED
+        (no 2-row, no -1 marker). The 6_1 full 2-part sits in the genus-3 factor Y^2=Xg(X) -- open.
+  Discriminating direction (2 absent in genuine NON-twist conductors?): every non-twist object is
+  genus >= 3 at BOTH levels and in BOTH isogeny factors -> beyond genus2red-class reach in-sandbox.
+  ==> The revival's "open" status is genuine, not an evasion; the sister data obtained (5_2 v2>=1)
+      run CONSISTENT with the reopened claim, and no counter-datum was reachable.
+
+CHECK 6 -- look-elsewhere vs campaign width (CAMPAIGN_LEDGER 14:48:27 row)
+  Width: 213 records triaged, 32 targets sealed; REVIVED on disk: 2 (B58, B225) among 29 completed
+  recomputes -- no revival inflation. The B225 revival mechanism (controls + forced-fire) is
+  deterministic, not a selection across analysis choices; no trials-factor applies.
+
+==========================================================================
+ADJUDICATION (base-rate lens only):
+  - E20 gate: not triggered (no NEW positive structure asserted; all named positives pre-banked
+    B211/B225; residue framed as open). Had it been triggered, the residue would today stand at
+    n=2 consistent / 0 counter / base rate 1/2 per datum -- correctly NOT stated as structure.
+  - The kill-fails core survives quantitatively after correction F1 (LR <= 1.36 generic, = 1
+    in-class, controls false-fire at rate 1 on truth-known 2-good inputs).
+  - MANDATORY CORRECTION for banking (F1): restate the Direction-2 theorem conditionally
+    (monic + ODD CONTENT of disc_z => forced 2), record the 6 escape counterexamples and the
+    10/10 odd-content verification; drop "EVERY possible input" / "specificity ... ZERO" / "LR 1"
+    in favor of the measured bounds.
+  FAIL TO REFUTE: refuted=false.
+
+==========================================================================
+APPENDED v2 PASS -- independent Stage-C BASE-RATE (E20) re-check, session 00f419c5, 2026-07-21
+(fresh scripts: scratchpad/b225_skeptic_baserate_v2.py + rerun; prior record above NOT relied on --
+ its load-bearing checks re-derived with new seeds/generators)
+VERDICT OF THIS PASS: FAIL TO REFUTE (refuted=false); correction F1 above CONFIRMED and STRENGTHENED (F1b).
+
+V2-CHECK 1 (reproducibility): recompute.py rerun exit 0, ALL CHECKS PASS, diff vs banked
+  output.txt byte-identical.
+
+V2-CHECK 2 (universal-claim audit, fresh null): 300 random monic-in-z curves, seed 20260721:
+  fired 274/300 -- 26 ESCAPES; measured generic specificity 0.087, not the verdict text's "zero".
+  TWO escape mechanisms (F1b -- the second is NEW beyond the prior record's F1):
+    (a) EVEN disc_z-content: stripping destroys the mod-2 square (23/26);
+    (b) ODD content but branch locus a GLOBAL SQUARE over Z (3/26): squarefree-part-taking
+        destroys the double root, e.g. Phi=-3x+z^3-3z^2+3z -> D=-(3x-1)^2 -> Dsf=1-3x,
+        disc=1, lc=-3 -> no 2 (arc-exact convention also escapes: disc(D)=0, LC=-9 -> {0,3}).
+  So "forcing 2 ... for EVERY possible input / specificity at p=2 is zero / LR 1" is FALSE as
+  literally stated in the Stage-B verdict; correct scoped form: monic-in-z AND odd disc-content
+  AND branch locus not a global square => fire forced.
+
+V2-CHECK 3 (in-family forcing -- does the correction matter for the actual objects?): computed
+  content(disc_z Phi) for ALL 10 knots (incl. heavy 7_6/8_8/9_4, which the prior record skipped):
+  content = 1 (odd) for 10/10, and '2 in bad' fires 10/10 under the repaired convention (6_3/8_3
+  fire under the arc-exact convention too, via LC -- Stage-B WRINKLE reproduced). Within the
+  family the boolean is CONSTANT-TRUE -> zero within-family information -> the banked kill's
+  "2 present in non-twist knots" observation cannot discriminate twist vs non-twist, hence cannot
+  refute "2 = octahedral parent". The operative revival core SURVIVES the F1/F1b corrections.
+
+V2-CHECK 4 (control base rate, truth-known population): 60 random integral Weierstrass models
+  with ODD Delta (proven 2-good in-script) vs 60 with even Delta:
+    P(extraction fires 2 | genuinely 2-GOOD) = 60/60 = 1.000
+    P(extraction fires 2 | genuinely 2-bad)  = 49/60 = 0.817
+  Empirical LR (2-bad vs 2-good) = 0.82 <= 1: the fired '2' carries NO positive evidence of
+  genuine 2-bad reduction (here mildly anti-correlated -- even-Delta models are exactly the ones
+  that can hit escape hatch (a)). Generalizes the 11a3/37a1 controls from n=2 to n=120.
+
+V2-CHECK 5 (E20 trigger + catalogue size): the revival asserts NO new object structure --
+  golden half pre-banked (B225 FINDINGS L18-21 "SOLID"), 4_1<->40a1 pre-banked (B211 FINDINGS
+  L33-35/L101-102, conductor 40), twist=Whitehead-filling framing pre-banked (B225 L24-25);
+  the "40a1 consistent with octahedral parent" residue datum is coin-flip grade (exact F_2^5
+  enumeration: 16/32 model classes have odd Delta -> P(2|N) ~ 1/2, <= 1 bit) and is framed as
+  consistent/open, not as structure. The m003 sister / B734 congruence-tower item appears ONLY
+  under "Open" (a route), never as an asserted result -- nothing for E20 to gate.
+
+V2-CHECK 6 (look-elsewhere vs campaign width): ledger 14:48:27 row: 213 records, 32 sealed
+  targets; 19:34:20 row: 30 verdicts, 2 REVIVED (B58, B225) -- 2/30, no revival inflation.
+  The B225 revival mechanism is deterministic (mod-2 square structure + controls), invariant
+  under the E1 degrees of freedom (boolean unaffected by the D4 factorization bound; BOTH
+  squarefree conventions fire for 6_3/8_3; (p,q) only enters via the arc's own mirror-class
+  fallback) -> no analyst trials-factor applies to the revival.
+
+ADJUDICATION (base-rate lens, v2): the kill's base-rate inference at p=2 remains vacuous after
+  the strengthened correction (in-family LR exactly 1; generic per-object LR <= 1/0.913 ~ 1.10;
+  controls false-fire at rate 1.0 on truth-known 2-good inputs). The revival asserts no new
+  non-object-specific structure; its consistency data are pre-banked or <= 1 bit and framed as
+  open. MANDATORY CORRECTION FOR BANKING (supersedes F1): scope Direction 2 as
+  "monic-in-z + odd disc-content + branch locus not a global square" with the two escape
+  mechanisms and the 10/10 in-family forcing verification recorded; strike "EVERY possible
+  input", "specificity ... ZERO", "LR ... 1" from the computed_fact as literal claims.
+  FAIL TO REFUTE: refuted=false.

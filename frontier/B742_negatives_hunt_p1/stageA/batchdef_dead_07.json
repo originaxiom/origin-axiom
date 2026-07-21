@@ -1,0 +1,46 @@
+{
+ "name": "dead_07",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B367",
+   "findings": "frontier/B367_value_map/FINDINGS.md",
+   "slug": "value map"
+  },
+  {
+   "id": "B372",
+   "findings": "frontier/B372_level45_sweeper/FINDINGS.md",
+   "slug": "level45 sweeper"
+  },
+  {
+   "id": "B373",
+   "findings": "frontier/B373_level45_minimal_sector/FINDINGS.md",
+   "slug": "level45 minimal sector"
+  },
+  {
+   "id": "B374",
+   "findings": "frontier/B374_level135_rung/FINDINGS.md",
+   "slug": "level135 rung"
+  },
+  {
+   "id": "B385",
+   "findings": "frontier/B385_bright_dark_discriminator/FINDINGS.md",
+   "slug": "bright dark discriminator"
+  },
+  {
+   "id": "B389",
+   "findings": "frontier/B389_mirror_mechanism/FINDINGS.md",
+   "slug": "mirror mechanism"
+  },
+  {
+   "id": "B392",
+   "findings": "frontier/B392_wall_probes/FINDINGS.md",
+   "slug": "wall probes"
+  },
+  {
+   "id": "B394",
+   "findings": "frontier/B394_support_walk/FINDINGS.md",
+   "slug": "support walk"
+  }
+ ]
+}

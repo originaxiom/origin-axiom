@@ -1,0 +1,94 @@
+========================================================================================
+B739 Stage-B recompute -- B107: the SL(3) metallic-tower single-scale spectrum
+========================================================================================
+
+PART 1 -- first-principles derivation of the trace maps (exact, symbolic):
+  generic 3x3 matrices A, B (18 free symbols); each image coordinate of
+  (A,B) -> (A^m B, A) equals its decorated polynomial identically (det factors
+  explicit); specializing det=1 gives the SL(3) trace map on (x1..x8).
+    [PASS] phi_1 identity, coordinate x1' (all-matrix, 18 vars)
+    [PASS] phi_1 identity, coordinate x2' (all-matrix, 18 vars)
+    [PASS] phi_1 identity, coordinate x3' (all-matrix, 18 vars)
+    [PASS] phi_1 identity, coordinate x4' (all-matrix, 18 vars)
+    [PASS] phi_1 identity, coordinate x5' (all-matrix, 18 vars)
+    [PASS] phi_1 identity, coordinate x6' (all-matrix, 18 vars)
+    [PASS] phi_1 identity, coordinate x7' (all-matrix, 18 vars)
+    [PASS] phi_1 identity, coordinate x8' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x1' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x2' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x3' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x4' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x5' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x6' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x7' (all-matrix, 18 vars)
+    [PASS] phi_2 identity, coordinate x8' (all-matrix, 18 vars)
+  SL(3) trace map of phi_1 (det=1):
+    x1' = x3
+    x2' = x1
+    x3' = x1*x3 - x2*x4 + x6
+    x4' = x8
+    x5' = x4
+    x6' = x5
+    x7' = x2
+    x8' = -x1*x5 + x4*x8 + x7
+
+PART 2 -- exact integer cross-check on fixed SL(3,Z) pairs (no randomness):
+    [PASS] pair 0: F1(coords) == coords(AB, A) exactly
+    [PASS] pair 0: F2(coords) == coords(A^2B, A) exactly
+    [PASS] pair 1: F1(coords) == coords(AB, A) exactly
+    [PASS] pair 1: F2(coords) == coords(A^2B, A) exactly
+    [PASS] pair 2: F1(coords) == coords(AB, A) exactly
+    [PASS] pair 2: F2(coords) == coords(A^2B, A) exactly
+
+PART 3 -- THE DISCRIMINATING FACT: spectrum of the m=1 (Fibonacci) Jacobian
+  fixed point: F1(3,...,3) == (3,...,3): True
+  J1 (8x8, exact integers):
+    [0, 0, 1, 0, 0, 0, 0, 0]
+    [1, 0, 0, 0, 0, 0, 0, 0]
+    [3, -3, 3, -3, 0, 1, 0, 0]
+    [0, 0, 0, 0, 0, 0, 0, 1]
+    [0, 0, 0, 1, 0, 0, 0, 0]
+    [0, 0, 0, 0, 1, 0, 0, 0]
+    [0, 1, 0, 0, 0, 0, 0, 0]
+    [-3, 0, 0, 3, -3, 0, 1, 3]
+  char(J1) = t**8 - 6*t**7 + 3*t**6 + 24*t**5 - 18*t**4 - 18*t**3 + 15*t**2 - 1
+  factored : (t - 1)*(t + 1)*(t**2 - 4*t - 1)*(t**2 - 3*t + 1)*(t**2 + t - 1)
+  exact eigenvalues (sorted): [-sqrt(5)/2 - 1/2, -1, 2 - sqrt(5), 3/2 - sqrt(5)/2, -1/2 + sqrt(5)/2, 1, sqrt(5)/2 + 3/2, 2 + sqrt(5)]
+    [PASS] eigenvalue multiset == banked {1,-1,phi^2,phi^-2,phi^3,-phi,phi^-1,-phi^-3}
+    [PASS] every eigenvalue is s*phi^k, s in {+1,-1}, k integer (SINGLE SCALE log phi)
+  (sign, k) table:
+          -sqrt(5)/2 - 1/2  =  -1 * phi^1
+                        -1  =  -1 * phi^0
+               2 - sqrt(5)  =  -1 * phi^-3
+           3/2 - sqrt(5)/2  =  +1 * phi^-2
+          -1/2 + sqrt(5)/2  =  +1 * phi^-1
+                         1  =  +1 * phi^0
+           sqrt(5)/2 + 3/2  =  +1 * phi^2
+               2 + sqrt(5)  =  +1 * phi^3
+    [PASS] k-values are exactly [-3,-2,-1,0,0,1,2,3]
+
+PART 4 -- the B103 catalog RECOMPUTED at m=1, n=3 (not cited):
+  M_1 = [[1,1],[1,0]], eigenvalues: [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]
+    [PASS] eig(M_1) == {phi, -1/phi} exactly
+  char(Sym^0 M1)*char(Sym^2 M1)*char(Sym^3 M1) = t**8 - 6*t**7 + 3*t**6 + 24*t**5 - 18*t**4 - 18*t**3 + 15*t**2 - 1
+    [PASS] char(J1) == char(Sym^0 M1)*char(Sym^2 M1)*char(Sym^3 M1) exactly
+
+PART 5 -- mechanism / discrimination probe: the m=2 (silver) tower:
+  fixed point: F2(3,...,3) == (3,...,3): True
+  char(J2) factored: (t - 1)*(t + 1)*(t**2 - 14*t - 1)*(t**2 - 6*t + 1)*(t**2 + 2*t - 1)
+  exact eigenvalues (sorted): [-sqrt(2) - 1, -1, 7 - 5*sqrt(2), 3 - 2*sqrt(2), -1 + sqrt(2), 1, 2*sqrt(2) + 3, 7 + 5*sqrt(2)]
+    [PASS] every m=2 eigenvalue is s*lambda^k, lambda = 1+sqrt2 (SINGLE SCALE log lambda)
+    [PASS] m=2 k-values are exactly [-3,-2,-1,0,0,1,2,3]
+    [PASS] char(J2) == char(Sym^0 M2)*char(Sym^2 M2)*char(Sym^3 M2) exactly
+    [PASS] lambda is NOT +-phi^k for any |k|<=8 (the scale MOVES with the SL(2) seed)
+  minimal polynomials: phi: t**2 - t - 1  lambda: t**2 - 2*t - 1  (different quadratic fields)
+
+========================================================================================
+RESULT: ALL CHECKS PASS.
+The discriminating fact RECOMPUTED from first principles (no reliance on the
+banked B103 conjugation): the SL(3) Fibonacci tower Jacobian at the trivial
+fixed point has exactly the 8 eigenvalues {1,-1,phi^2,phi^-2,phi^3,-phi,
+phi^-1,-phi^-3} = {s*phi^k}: ONE geometric scale log phi.  The m=2 contrast
+shows the single scale is the SL(2) seed's dilatation (1+sqrt2 there): the
+tower spectrum is a function of exactly one SL(2)-determined number and
+carries no independent spectral content.  The banked kill is upheld.

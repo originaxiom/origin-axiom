@@ -1,0 +1,46 @@
+{
+ "name": "dead_13",
+ "kind": "dead-probe",
+ "items": [
+  {
+   "id": "B525",
+   "findings": "frontier/B525_are_you_sure/FINDINGS.md",
+   "slug": "are you sure"
+  },
+  {
+   "id": "B526",
+   "findings": "frontier/B526_crossing_package/FINDINGS.md",
+   "slug": "crossing package"
+  },
+  {
+   "id": "B539",
+   "findings": "frontier/B539_relations_campaign/FINDINGS.md",
+   "slug": "relations campaign"
+  },
+  {
+   "id": "B545",
+   "findings": "frontier/B545_ghost_census/FINDINGS.md",
+   "slug": "ghost census"
+  },
+  {
+   "id": "B548",
+   "findings": "frontier/B548_unhideable_census/FINDINGS.md",
+   "slug": "unhideable census"
+  },
+  {
+   "id": "B550",
+   "findings": "frontier/B550_promotion_sign/FINDINGS.md",
+   "slug": "promotion sign"
+  },
+  {
+   "id": "B553",
+   "findings": "frontier/B553_seat1_session3/FINDINGS.md",
+   "slug": "seat1 session3"
+  },
+  {
+   "id": "B554",
+   "findings": "frontier/B554_meditation_verify/FINDINGS.md",
+   "slug": "meditation verify"
+  }
+ ]
+}
