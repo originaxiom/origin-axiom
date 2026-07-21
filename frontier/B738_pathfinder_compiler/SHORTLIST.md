@@ -165,3 +165,11 @@ RAISES the look-elsewhere bar for every cell.
   ~130 overreach-class items are the corpus-wide evidence.
 - Cross-ref: relay CC2_REVISIT_REGISTER_2026-07-21.md; the register and this compiler are complementary
   (209 banked negatives vs 172 atlas-dead + walls + tombstones; both converge on the same discipline).
+
+---
+## CELL #2 CLOSED 2026-07-21: B739 — character-rigidity (OUTCOME A, 0/3 refuted)
+L2 resolved: NO conductor-(4)/(8) character anywhere in m004's continuous spectrum (the one-cusp
+pullback lemma at full strength; Fourier restriction proven; multiplicity-one exhaustion source-
+verified). The level's arithmetic is DISCRETE-NEWFORM-ONLY — the sharpest remaining spectral
+question (the newform Maass spectrum itself) is owner-gated (Hejhal-class machinery). Width ledger:
+2 cells closed. Next: B288 stragglers (queued below) → B500 reopen → the fact_computed sweep.

@@ -1,5 +1,10 @@
 # Changelog
 
+## B739 — the object's continuous spectrum is CHARACTER-RIGID (hunt-cell #2, A, 0/3 refuted)
+- L2 resolved: the continuous channel is the pullback Eisenstein series (Fourier support restricted — coset sum = 4·[μ∈O^∨], proven); φ = Λ_K(s−1)/Λ_K(s) exactly; NO conductor-(4)/(8) character anywhere in the continuous part.
+- The level's arithmetic is discrete-newform-only (B735's index-12 resonances, exact home). Residue triangle covering-invariant (2√3/vol, 40 digits).
+- Proof status honest (3 classical inputs cited+flagged; scalar weight-0 scope). 3 locks. Cell #2 closed; queue: B288 stragglers → B500 → fact_computed sweep.
+
 ## B737 Candidate Zero (B at the crux) + B738 compiler + the hygiene sweep + cc2's register folded
 - B737: the object's voice IS the exact zeta-quotient (φ_m004 = Λ_K(s)/Λ_K(s+1); Res φ = 2√3/vol(m004), 40 digits) and carries the FIRST object-specific spectral data (disc −48 conductor-4 cusp CM; palette 1/2/8) — but the crux dies: the ζ is the FIELD's (vacuity across all h=1 fields; object-deletion). Same ζ, different role. Leads L1/L2 queued.
 - Full-suite run (first since #1115): 2597 passed; 4 hygiene failures fixed (20 files' machine paths portable; chat-1→courier-seat labels; atlas 674 regen).
