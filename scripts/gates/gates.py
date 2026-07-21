@@ -162,7 +162,10 @@ def gate_atlas_fresh():
 
 # --- gate: attribution hygiene -------------------------------------------------------------
 _TOK = base64.b64decode(b"Y2xhdWRl").decode()          # encoded so this file passes itself
-ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/")
+ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/",
+                        # preserved forensic review artifacts (hash-pinned; quote seat transcript
+                        # paths verbatim as provenance pins — editing them would break their seals)
+                        "frontier/B742_negatives_hunt_p1/reviews/")
 ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this gate hunts
     "tests/test_public_surface_scan.py", "tests/test_flagship_paper.py",
     "tests/test_sl4_dehn_filling_paper.py"}
