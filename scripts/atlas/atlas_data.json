@@ -15590,11 +15590,12 @@
    ],
    "refs": [
     "B238",
+    "B592",
     "B593",
     "B751"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -15647,6 +15648,35 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B755": {
+   "slug": "carried recomputes",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B140",
+    "B332",
+    "B655",
+    "B685",
+    "B720",
+    "B751",
+    "B752",
+    "S019",
+    "V6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },

@@ -28,8 +28,12 @@ gives only 2+1 — Lorentzian signature "climbing the principal-SL(2) ladder." *
 only at `k=2`). Kill: **B101 R2**; `../docs/atlas/FAILURE_ATLAS.md` ("Spacetime Does Not Climb The Ranks", CLOSED).
 
 **S019 — Fisher metric on CS level k.** A heuristic information-geometry reading on the Chern–Simons level. **DEAD**
-— heuristic, not rigorous; no bounded test survived. Kill: the dead-sweep `V`-rows (see
-`archive/PHYSICS_RESONANCES.md`).
+— heuristic, not rigorous; no bounded test survived. Kill (citation repaired 2026-07-22, B755 cell 5 — the
+original pointer `archive/PHYSICS_RESONANCES.md` contains no Fisher content): `../docs/atlas/FAILURE_ATLAS.md`
+C4 ("Hessian-Signature And Fisher-On-k Heuristics Are Not Spacetime", CLOSED) + the E21/V6 PROXY computation
+(`paths/E21_self_evidencing_closure/probe.py`, Fisher on the metallic parameter m, NOT on k — proxy status
+explicit) + the B755 dimension theorem: any scalar-parameter family has a 1×1 Fisher form ≥ 0, so a Lorentzian
+reading is impossible at dimension 1 — the kill holds by dimension for any Fisher-on-k formulation.
 
 **S021 — entanglement = holographic.** Hoped the Fibonacci critical chain's entanglement signalled holography.
 **TESTED-NEGATIVE** — the entanglement is **logarithmic** (generic 1D-CFT criticality) and the emergent geometry is

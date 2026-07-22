@@ -7146,3 +7146,50 @@ B751's Born weight IS the program's first well-posed mixing number, now derived
 kind-correctly. The one-number pin co-signed (cc+cc3): the JUNO registration stays 0.30902
 (hint, no mechanism); 1/(φ√5) is program-internal, NOT a registration; no post-hoc
 revisions. No SM comparison anywhere. Locks test_b753 (4). Nothing to CLAIMS.
+
+## 2026-07-22 — R27-7 closed (ledger hygiene) + B754 reserved (cc3's P2 stratum = R27-6 first half)
+Ledger hygiene: the 7 label-only rows (4 LAW_MAP: the 15A8 curve, the silver octic, the
+5-adic exclusion, the exponentiation law; 3 RETRACTIONS: the child-transfer, criticality,
+and dictionary threads) now carry explicit computation paths; the location convention
+(B-number-resolvable or explicit path; cell labels must carry a path) added to LAW_MAP's
+header. R27-6's P2 half is under way: B754 reserved for cc3's spectral-face re-adjudication
+of the 19 sealed targets (branch hunt/p2-spectral, Gate 5-Q binding, PR to the cc gate);
+sequencing cleared (no Candidate Zero probes in flight; the discrete-spectrum door stays
+owner-gated). P3 deferred by stratum design.
+
+## 2026-07-22 — B753 addendum 2: the courier's sign puzzle resolved — the B592 sign-flip is the bridge
+The courier's −1/φ vs this seat's +1/φ trace: BOTH right, about the two operators the
+banked B592 sign-flip theorem relates. Untwisted RL: tr −1/φ, eigenphases ±108° (the
+courier's claim, correct there); twisted C·RL: tr +1/φ, ±72° (this arc's, the referent of
+the banked B593 element); block negation exact (‖B_tw+B_un‖ ≈ 6e−17). The eigenlines
+coincide (phase labels swap, p ↦ 1−p), so the kind-correct mixing matrix is TWIST-INVARIANT
+as a matrix — each row's overlap set {φ/√5, 1/(φ√5)} on both sides. Scope concession
+recorded ("provably empty" = the real-part level only; the kind-level distinction is real =
+cell 4). Pin unchanged. Lock extended (5 green, incl. the corrected labeling identity —
+own first draft of the lock caught wrong and fixed, logged).
+
+## 2026-07-22 — B755: the five carried recomputes — 5/5 LOCATED-BY-RECOMPUTE (R27 carried block closed)
+The sweep's NOT-LOCATED discriminating facts, each computed under seal (prereg 5627dd19):
+**B140** — the genus-2 mirror CS-flip WITNESSED at last (twister present now; S_2,1 bundle
+'abcDef': vol equal, CS exactly opposite, chirality certified by BOTH the 2CS ∉ (1/2)ℤ
+obstruction and the isometry-orientation route). **B332** — the 1/4-numerology null
+computed in-repo with the ratio set declared in-seal: 1/4 hits ZERO of the 9 declared
+targets at 2% AND 5%; controls/randoms match comparably (P=1.00) — not distinguished.
+**B685** — the sharpest: the source re-read resolved the banked extraction's internal
+inconsistency (eq (2)'s 1/3³…4/3⁵ had been mangled to ⅓…⅘ by superscript loss — the
+conclusion was right, the rendering wrong), then the fact COMPUTED: Kashaev-sum Richardson
+extraction (N ≤ 16000, 420 dps) + E25-gated PSLQ recognition reproduces the paper's
+r₁ = 11/24, r₂ = 697/1152 from the sum itself (+ r₃ = 724351/414720, beyond print — with
+a 5 in ITS denominator, sharpening why only the SYMMETRIZED object is pure-3); the exact
+symmetrized product matches eq (2) and verifies pure-3 denominators to the computed order
+(FINAL VERDICT line in cell3_out.txt); the vacuous MB12 lock replaced by real locks.
+Instrument lessons logged: the pslq working-precision trap (exact relations invisible when
+tol ignores both the trusted-digit count AND the coefficient height) and the parity trap
+(t(N)² = Φ(h)² NOT the symmetrized product — the even-fit shortcut refuted in-session).
+**B720** — the object-side halves exact (ℚ(ζ₃)⊥ℚ(i) compositum degree 4; the Markov
+quiver's mutation class = ONE quiver, entries ±2 ⇒ finite-mutation-not-finite-type);
+the two literature classifications flagged as the irreducible cited residue. **S019** —
+the broken tombstone citation repaired + the kill upgraded to a dimension theorem (any
+scalar-parameter family: 1×1 Fisher ≥ 0; Lorentzian needs ≥2 indefinite dims). Every
+recompute CONFIRMED its kill's basis (E19: nothing flipped). Locks test_b755 (5).
+Nothing to CLAIMS.

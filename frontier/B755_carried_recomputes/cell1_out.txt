@@ -1,0 +1,6 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[abcDef] chirality: CS-route (2CS = +0.01192, dist to (1/2)Z = 0.01192) => chiral True; isometry-orientation route => True
+[abcDef] vol = 5.461193199125447531196919348761039015345186909378359303253950133  mirror vol = 5.461193199125447531196919348761039015345186909378359303253950131  |dv| = 0.00e+00
+[abcDef] CS  = 0.00596121195540321907148121715441070541418379681792749372  mirror CS = -0.00596121195540321907148121715441070541418379681792749372  CS+CSm = +0.00e+00
+CHECK: WITNESSED -- genus-2 chiral bundle 'abcDef': vol equal, CS opposite, non-isometric mirror
