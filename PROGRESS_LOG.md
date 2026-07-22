@@ -7208,3 +7208,16 @@ result cc PROVED independently from the banked B666 form: a_m·a_n = a_mn ⟺ χ
 one live residual registered as L108 (is B326's ℤ/3 = B302's?). **DOOR6**: both stale
 flags FIRM (B646-iii benign; B647's law gauge-covariant, proven analytically). Locks
 test_b756 (3). Nothing to CLAIMS.
+
+## 2026-07-22 — REVIEW 28 (anchor ccadb0ee): the convergent-sentence window
+21 merges audited (B745–B756 + Gate 5-Q + E23/E24/E25). Headline: three independent arcs
+(census triple, lack ledger, genesis forks) converge on one computed sentence — the object
+provides the group/structure/gait, never the choice/variation/name — now the phenomenology
+track's designated vocabulary. Verification audit: every banked consequence in-seat
+verified; one named partial (DOOR6, → R28-4); the stopping rule held under live fire twice.
+Firewall: nothing physics-facing banked; Gate 5-Q adopted and already enforced. Errors: no
+new class; five in-session catches logged (pslq tol-vs-height; the parity trap; the
+atlas-fresh B-dir semantics ×2; a checker-side init bug; the superscript-extraction class
+with its counter-rule = recompute from the defining object). Provenance: all cross-seat
+packages hash-verified; one stale note corrected. Eight action items (3 carried, 5 new:
+DOOR6 depth, P3, B500 wrap, L108, the QP cells).
