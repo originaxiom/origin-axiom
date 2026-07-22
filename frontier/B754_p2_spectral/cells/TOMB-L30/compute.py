@@ -319,7 +319,7 @@ print("PART 6 -- token-level boundary of the frozen surface")
 # =============================================================================
 
 import os
-BASE = "/Users/dri/oa-audit-seat/origin-axiom/frontier"
+BASE = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 FOUR = ["B737_candidate_zero", "B739_character_rigidity",
         "B746_golden_ledger", "B753_mixing_structure"]
 tok_ok = True
