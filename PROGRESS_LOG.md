@@ -7319,3 +7319,15 @@ The chain lock extended (C1–C19, four axioms all PRICED-or-frontier-named). R2
 five of Review 28's eight items done within its first day; the three carried owner-gated
 items (specialist pass, L95, H-EAR was closed earlier today — correction: R28-1/R28-2 +
 R28-5 P3 + R28-6 B500-wrap remain).
+
+## 2026-07-22 — B764: C19's first out-of-field test — LAW-BREAKS; the corrected pair-separation law found same-run
+The day-old chain link tested at its own sharpest point (prereg df0f8e1c, the 5₂ prediction
+declared pre-compute). Control faithful (B759's 15/32 and per-word √3 reproduced to the
+digit); the prediction FAILED (5₂: 2.6143 ≠ √23) — and the same run found and verified the
+correction: the off-block is |u_geo − ū_geo| (the geometric Riley pair's separation),
+ALWAYS; = √|disc K| iff the field is imaginary quadratic (the quadratic-formula identity —
+m004's √3 is that theorem's instance); in general disc = (u−ū)²·∏[(u−rᵢ)(ū−rᵢ)]² and the
+off-block is the first factor only (40-digit verification at 5₂). The coupling fraction is
+object-specific too (0.3110 vs 15/32). C19 scope-corrected in the chain same-day — the
+first demonstration that chain links are falsifiable objects, not trophies. Locks
+test_b764 (3). Nothing to CLAIMS.

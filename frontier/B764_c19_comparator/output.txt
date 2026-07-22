@@ -1,0 +1,54 @@
+================================================================================
+CONTROL m004/4_1: Riley u**2 + u + 1, disc -3, sqrt|disc| = 1.732051
+geometric root u = -0.5000000000+0.8660254038j
+          A: d/du|geo = +0.000000+0.000000j   Im = +0.000000
+          B: d/du|geo = +0.000000+0.000000j   Im = +0.000000
+         AB: d/du|geo = -5.000000+1.732051j   Im = +1.732051
+      A^-1B: d/du|geo = +3.000000+1.732051j   Im = +1.732051
+      AB^-1: d/du|geo = +3.000000+1.732051j   Im = +1.732051
+   A^-1B^-1: d/du|geo = -5.000000+1.732051j   Im = +1.732051
+      [A,B]: d/du|geo = -0.000000+6.928203j   Im = +6.928203
+off-block norm = 7.745966692   predicted sqrt|disc| = 1.732050808
+coupling fraction = 0.468750
+CHECK off^2 == |disc|: False
+
+================================================================================
+PREDICTION 5_2: Riley u**3 + u**2 + 2*u + 1, disc -23, sqrt|disc| = 4.795832
+geometric root u = -0.2150798545+1.3071412787j
+          A: d/du|geo = +0.000000+0.000000j   Im = +0.000000
+          B: d/du|geo = +0.000000+0.000000j   Im = +0.000000
+         AB: d/du|geo = -4.430160+2.614283j   Im = +2.614283
+      A^-1B: d/du|geo = +3.569840+2.614283j   Im = +2.614283
+      AB^-1: d/du|geo = +3.569840+2.614283j   Im = +2.614283
+   A^-1B^-1: d/du|geo = -4.430160+2.614283j   Im = +2.614283
+      [A,B]: d/du|geo = +2.649436+2.249118j   Im = +2.249118
+off-block norm = 5.691785761   predicted sqrt|disc| = 4.795831523
+coupling fraction = 0.311037
+CHECK off^2 == |disc|: False
+
+================================================================================
+THE CORRECTION, EXACT (appended to the run)
+================================================================================
+(z - zbar)^2 * |z - r|^4 = -23  (must be disc = -23): False
+off-block = |z - zbar| = 2.614282557 = 2*Im(u_geo)
+Traceback (most recent call last):
+  File "<stdin>", line 20, in <module>
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 374, in __float__
+    raise TypeError("Cannot convert complex to float")
+TypeError: Cannot convert complex to float
+================================================================================
+THE CORRECTION, EXACT (50-digit verification; the disc factorization is classical)
+================================================================================
+(z-zbar)^2 * [(z-r)(zbar-r)]^2 = -23.000000000000000000000000000000000000000000000000 + 0i
+CHECK == disc(-23) to 40 digits: True
+off-block = |z-zbar| = 2.61428255736
+off-block * |(z-r)(zbar-r)| = 4.79583152331 vs sqrt(23) = 4.79583152331
+CHECK the factorization sqrt|disc| = off * m^2: True
+
+QUADRATIC CASE (m004): only the pair exists -> disc = (z-zbar)^2 = -3 ->
+off-block = |z-zbar| = sqrt(3) = sqrt|disc| IDENTICALLY (the quadratic-formula identity).
+
+VERDICT: LAW-BREAKS as stated (5_2: off-block 2.6143 != sqrt(23) = 4.7958).
+CORRECTED LAW: off-block = |u_geo - conj(u_geo)| (the geometric-pair separation);
+this equals sqrt|disc K| IFF the Riley field is imaginary quadratic; in general
+sqrt|disc| = off-block * prod-over-other-roots |u_geo - r|... (verified at 5_2 to 40 digits).
