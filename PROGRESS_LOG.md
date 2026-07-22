@@ -7385,3 +7385,30 @@ suite could, which is why the sweep insisted on running it). Fixed with the stan
 relative-path treatment; the cell re-executed IDENTICAL post-fix; hygiene + B754 locks
 green. Gate lesson logged: cross-seat merges get the path-hygiene lock added to the
 targeted gate subset from now on.
+
+## 2026-07-22 — B754 (retro-entry per rule 10; the fourth-pass audit caught the omission)
+B754 (cc3's P2 spectral-face stratum, banked #1255 the same day) never received its own
+PROGRESS_LOG entry — the banking note lived only in the PR body and the R28 review text.
+For the record: 19 sealed targets re-adjudicated against the banked spectral face under
+Gate 5-Q — 17 KILL-EXTENDS, 2 FACE-IRRELEVANT (B516, WALL-7), 0 FACE-OPENS; the headline:
+WALL-1 gains a four-mechanism spectral column (voice = field constant; continuous channel
+closed; voice Eisenstein-only; zero object-bits reach the carrier). Two skeptic overrides
+upheld (TOMB-L277's full 37-class census; TOMB-L77's field-conflation corrected per
+Gate 5-Q Q2). Locks test_b754 (9). Gate coverage: 8/19 cc re-exec + 8/19 cc3 spot-checks,
+zero divergence.
+
+## 2026-07-22 — THE FOURTH PASS (the multiagent campaign) — 32 findings, 18 confirmed, all dispositioned
+The owner's escalation: 8 blind lens auditors → 2 adversarial skeptics per finding → fix
+designs for survivors (90 agents, 0 errors). Confirmed and FIXED at the gate: the THIRD
+MB12 lock in three days (b711's amphichiral sub-test never consulted its curve — rewired
+and mutation-verified on its true dependency); the B756 raw log's banned model tokens
+hiding INSIDE the attribution exemption — REDACTED with a reconstruction record and the
+exemption removed (standing pattern: redaction-with-record supersedes exemption); Gate 5-Q
+wired into the mandated read path (WORKING_RULES 6a); C17's sub-claim cited (B736); B754's
+rule-10 retro-entry; the B753 seal-row scope note; REPRODUCIBILITY refreshed (~2736 tests;
+the OA_SLOW invisible tier; the sympy pin/deprecation watch); R28-9 registered (the
+122-file path sweep). FIVE locks verified GENUINE by mutation (fired and restored — the
+positive-control record in docs/audits/AUDIT_2026-07-22_fourth_pass.md). The skeptics
+killed 14 findings including the assumption-audit's attacks on the two-seat independence
+claims — their kernel adopted as practice anyway (gate re-run outputs retained in-arc).
+Four passes total: 13 real catches, every one a standing rule. Nothing to CLAIMS.

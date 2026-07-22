@@ -1,5 +1,8 @@
 # Changelog
 
+## B754 retro-entry + the fourth-pass fixes
+- B754's dedicated ledger entry added (rule-10 omission caught by the audit). Fourth-pass batch: the b711 sub-test rewired (third MB12 lock); the B756 raw log REDACTED with record (exemption removed — the gate is sighted again); Gate 5-Q wired into WORKING_RULES; C17's 24-parameters sub-claim cited (B736); the B753 seal-row scope note; REPRODUCIBILITY refreshed.
+
 ## Safety fix — the seal-ledger generator preserves the collision-protocol rows
 - The generator would have erased all RESERVED/verdict rows on regeneration; it now keeps an append-only marker section (idempotent, lossless — verified 22 RESERVED + 68 arc rows identical to HEAD). Caught by the owner's safety sweep.
 
