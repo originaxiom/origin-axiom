@@ -1,0 +1,44 @@
+========================================================================================
+CELL 2 -- B332: the 1/4-numerology null (ratio set DECLARED in the prereg)
+========================================================================================
+declared targets in (0.1, 0.6): 10 -> ['CKM_etabar', 'CKM_rhobar', 'Vus', 'alpha_s_MZ', 'm_c/m_b', 'm_u/m_d', 's2W_MZ', 'sin2_th12_PMNS', 'sin2_th23_PMNS', 'sin_thC']
+window 2%: 1/4 hits 0: []
+    control 1/5 = 0.2000: 0 hits []
+    control 1/e = 0.3679: 0 hits []
+    control 1/phi = 0.6180: 0 hits []
+    control 1/pi = 0.3183: 0 hits []
+    40 seeded randoms in [0.15,0.45]: mean hits = 0.23, P(random >= 1/4's count) = 1.00
+window 5%: 1/4 hits 0: []
+    control 1/5 = 0.2000: 0 hits []
+    control 1/e = 0.3679: 1 hits ['CKM_etabar']
+    control 1/phi = 0.6180: 0 hits []
+    control 1/pi = 0.3183: 2 hits ['m_c/m_b', 'sin2_th12_PMNS']
+    40 seeded randoms in [0.15,0.45]: mean hits = 0.53, P(random >= 1/4's count) = 1.00
+CELL 2 VERDICT: 1/4 NOT DISTINGUISHED -- controls and randoms match comparably;
+the B332 kill's null basis is now computed in-repo (was chat-cited only).
+========================================================================================
+CELL 4 -- B720: the computable halves of the threefold NO-MATCH
+========================================================================================
+(i) [Q(zeta3, i):Q] via resultant degree = 4 = 4 = 2*2 => Q(zeta3) i Q(i) linearly disjoint; intersection = Q: True
+    discs: Q(zeta3) -> -3 (prime 3), Q(i) -> -4 (prime 2) -- different ramification
+(ii) Markov-quiver mutation class size (up to relabeling) = 1 (FINITE mutation class)
+    Markov entries are +-2 (not +-1): True => NOT an ADE orientation => finite-mutation but NOT finite-type (the ABHY-side requirement)
+(iii) 3d flat connections: for closed M^3, the moduli near an irreducible flat
+    connection has dim H^1(M, ad rho); Poincare duality pairs H^1 with H^2 and
+    chi(M^3) = 0 forces the LOCAL field content to vanish -- no local DOF (the
+    phase space lives on surfaces; bounded derivation, stated not cited).
+CELL 4 VERDICT: object-side halves COMPUTED (branch disjointness exact; Markov
+mutation-finite-not-finite-type exact); literature classifications remain CITED-flagged.
+========================================================================================
+CELL 5 -- S019: the dimension-theorem formulation + citation repair
+========================================================================================
+E21/V6 proxy recomputed: Fisher(D(I)) = 16/disc(char(M^2)) = 16/(m**2*(m**2 + 4))
+positive for all m > 0: True
+THE DIMENSION THEOREM (posed, closed): any 1-parameter statistical family has a
+1x1 Fisher form >= 0; a Lorentzian reading needs >= 2 dims with indefinite
+signature -- impossible at dimension 1. 'No Lorentzian emergence from Fisher-on-k'
+holds BY DIMENSION for any scalar-k family; the kill upgrades from heuristic to
+trivial theorem. Citation repair applied to speculations/TOMBSTONES.md (S019 row).
+CELL 5 VERDICT: formulated and closed; tombstone repointed.
+========================================================================================
+CELLS 2/4/5 COMPLETE

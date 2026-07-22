@@ -1,5 +1,9 @@
 # Changelog
 
+## B755 — the five carried recomputes: 5/5 LOCATED-BY-RECOMPUTE
+- B140: the genus-2 mirror CS-flip witnessed (two chirality routes). B332: the 1/4 null computed in-repo (0 hits, declared set). B685: the GSWZ pure-3 fact computed from the Kashaev sum itself (r₁,r₂ reproduce the paper; r₃ new; the banked extraction's ⅓/⅘ inline text was superscript mangling — conclusion right); vacuous lock replaced. B720: object-side halves exact (field disjointness; Markov = one non-ADE quiver). S019: tombstone repaired; kill upgraded to a dimension theorem.
+- All five kills CONFIRMED at their basis (nothing flipped). Locks test_b755 (5).
+
 ## R27-7 closed + B754 reserved (the P2 stratum begins)
 - Ledger hygiene done: 7 label-only LAW_MAP/RETRACTIONS rows patched with computation paths; the location convention added to LAW_MAP's header.
 - B754 reserved for cc3's P2 spectral-face stratum (19 sealed targets, hunt/p2-spectral, Gate 5-Q binding). R27-6 P2 half under way; P3 deferred.
