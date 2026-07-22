@@ -24,6 +24,11 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
    speculations, reviews) is never evidence for a layer-1/2 statement. The
    firewall blocks overclaims, not mathematics; the gate is open by default
    for mature computed steps.
+6a. **Gate 5-Q stands for phenomenology.** Any arc using reflexive/phenomenological
+   vocabulary is bound by `philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` (ADOPTED
+   2026-07-22): computed-referent vocabulary, the non-universality and comparator
+   controls, input identification, stability analysis, no consciousness claims,
+   any-domain empirical constants = value-claims. Checked at prereg seal and merge.
 6. **Gate 5 stands.** No SM quantities into `CLAIMS.md`; no recycling
    structured-null numbers under new labels; physics readings wait on the
    typed functor (L91). Value comparisons need: owner directive + sealed

@@ -212,6 +212,7 @@ hash-first status.*
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
 
 
+
 | PREREG_W2 (the Molien + input-verification cells, frozen base) | frontier/B674_generation_leg/PREREG_W2.md | b4c9a6bb | 2026-07-18 | sealed BEFORE any step ran; cc2 cross-check as-received = 450608c5 |
 
 | PREREG_W3_DECISION (the terminal enumeration, frozen base) | frontier/B674_generation_leg/PREREG_W3_DECISION.md | 563a2858 | 2026-07-18 | sealed before any enumeration work; cc2 close-out as-received = 57a1ddca (verified); cc adjudication = 489aea17 |
@@ -371,3 +372,4 @@ hash-first status.*
 | RESERVED: B764 (cc — the C19 out-of-field comparator: the discriminant law tested at 5₂'s disc-−23 cubic + m009-class ℚ(√−7); predictions declared pre-compute) | — | — | 2026-07-22 | number reservation per the collision protocol |
 | B764 PREREG (C19 out-of-field test) | frontier/B764_c19_comparator/PREREGISTRATION.md | df0f8e1c | 2026-07-22 | sealed with the 5₂=√23 prediction declared pre-compute |
 | B764 VERDICT (C19 out-of-field test) | frontier/B764_c19_comparator/ | output.txt | 2026-07-22 | **LAW-BREAKS + CORRECTED**: the off-block = the geometric pair separation |u−ū| (always); = √|disc K| iff imaginary-quadratic (theorem — m004's case); disc = (u−ū)²·∏[(u−rᵢ)(ū−rᵢ)]² verified 40-digit at 5₂. C19 scope-corrected same-day. Nothing to CLAIMS |
+| B753 VERDICT — SCOPE NOTE (fourth-pass audit) | frontier/B753_mixing_structure/FINDINGS.md | addenda | 2026-07-22 | the original row predates the arc's two addenda: addendum 1 (the courier dispute layers) and addendum 2 (the B592 sign-flip resolution — the ±72° eigenphases are the TWISTED weld's; the untwisted weld carries ±108°; the kind-correct mixing matrix is twist-invariant with row overlap set {φ/√5, 1/(φ√5)}). Read the row WITH the addenda |
