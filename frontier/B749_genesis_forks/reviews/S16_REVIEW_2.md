@@ -2,7 +2,7 @@
 
 NONCE: B749R2-LIVE-8c2d5e41
 DATE: 2026-07-21
-REVIEWER: fresh, non-authoring §16 seat (audit seat, /Users/dri/oa-audit-seat)
+REVIEWER: fresh, non-authoring §16 seat (audit seat, ~/oa-audit-seat)
 SCOPE: narrow — verify the remedy for review 1's single STOP premise (MEASUREMENTS.md F7
 falsely asserted "quadratic slopes = exactly the metallic family"; witness √3−1) and check
 for regressions. All other review-1 premises were PASS and are re-checked only for
@@ -63,7 +63,7 @@ show 1e432778:<path> all reproduce the recorded v1 lines. Working tree clean at 
 ("B749 v2 re-seal"), which sits directly on the v1 seal commit 1e432778.
 
 ### CHECK 3 — EXECUTION_NOTES.md vs cc's relay: PASS
-Compared point-by-point against /Users/dri/oa-seat-cc2/seat-work/relay/
+Compared point-by-point against <cc2-seat>/seat-work/relay/
 CC_TO_CC3_2026-07-21_b749_execution_notes.md. All three strengthenings carried faithfully:
 1. ROBUST-earning + contra-prior skeptic — relay's "a ROBUST verdict states WHICH invariants
    were checked and why absence there is informative" + "any contra-prior ROBUST (F5 or F3)

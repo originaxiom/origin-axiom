@@ -7359,3 +7359,78 @@ B500 exploratory set backed up to scratch pending its run's end; (7) the untrack
 .github/workflows/core.yml identified (a minimal proven-core CI draft, 2026-07-17,
 intentionally untracked per the tracked-forbidden gate) and Archive.zip identified (a
 June-era snapshot zip — inert). Full suite running; result closes the sweep.
+
+## 2026-07-22 — THE THIRD PASS (trust-architecture lenses) — four finds, all fixed
+The owner wondered what another run would give; the answer: the classes the first two
+passes could not see, because they audited state and tooling while the trust CHAIN itself
+was untested. (1) MUTATION TESTING (do locks fire?): sample of 2 — the chain lock fired;
+the B747 census lock DID NOT (it pinned a PREFIX of the verdict line; the unresolved-count
+was corruptible undetected). New defect class named: PREFIX-NARROW LOCKS. Fixed (full
+tally + straggler line pinned; mutation retest fires). (2) SINGLE-COPY INVENTORY: the
+relay dir — 193 files, the entire cross-seat constitutional record — lived in NO git;
+the memory dir likewise. Both now locally git-versioned (integrity without publication)
++ a tar snapshot. (3) THE FORENSIC-DEPENDENCY FIND: B759/B760's seal-first proofs rested
+on 81MB of prunable session transcripts OUTSIDE the bank — the proofs are now banked
+in-arc as FORENSIC_SEAL_RECORD.md files (the git-blob-hash verification and the
+reconstruction identity, durable). (4) Environment pins verified consistent (sympy 1.14.0
+== REPRODUCIBILITY). Standing lesson: reviews gain a sampled mutation test (2 locks per
+review, restore-after) — proposed for the next template revision. The suite (pass 1's
+one open box) still runs.
+
+## 2026-07-22 — the full-suite box closes: 2715 passed; ONE failure caught and fixed
+The safety sweep's final box: the full suite (51m43s) came back 2715 passed / 35 skipped /
+1 FAILED — the path-hygiene lock caught a hardcoded seat path in B754's TOMB-L30 cell
+(arrived with the cc3 merge; the gate's targeted subset couldn't see it — only the full
+suite could, which is why the sweep insisted on running it). Fixed with the standard
+relative-path treatment; the cell re-executed IDENTICAL post-fix; hygiene + B754 locks
+green. Gate lesson logged: cross-seat merges get the path-hygiene lock added to the
+targeted gate subset from now on.
+
+## 2026-07-22 — B754 (retro-entry per rule 10; the fourth-pass audit caught the omission)
+B754 (cc3's P2 spectral-face stratum, banked #1255 the same day) never received its own
+PROGRESS_LOG entry — the banking note lived only in the PR body and the R28 review text.
+For the record: 19 sealed targets re-adjudicated against the banked spectral face under
+Gate 5-Q — 17 KILL-EXTENDS, 2 FACE-IRRELEVANT (B516, WALL-7), 0 FACE-OPENS; the headline:
+WALL-1 gains a four-mechanism spectral column (voice = field constant; continuous channel
+closed; voice Eisenstein-only; zero object-bits reach the carrier). Two skeptic overrides
+upheld (TOMB-L277's full 37-class census; TOMB-L77's field-conflation corrected per
+Gate 5-Q Q2). Locks test_b754 (9). Gate coverage: 8/19 cc re-exec + 8/19 cc3 spot-checks,
+zero divergence.
+
+## 2026-07-22 — THE FOURTH PASS (the multiagent campaign) — 32 findings, 18 confirmed, all dispositioned
+The owner's escalation: 8 blind lens auditors → 2 adversarial skeptics per finding → fix
+designs for survivors (90 agents, 0 errors). Confirmed and FIXED at the gate: the THIRD
+MB12 lock in three days (b711's amphichiral sub-test never consulted its curve — rewired
+and mutation-verified on its true dependency); the B756 raw log's banned model tokens
+hiding INSIDE the attribution exemption — REDACTED with a reconstruction record and the
+exemption removed (standing pattern: redaction-with-record supersedes exemption); Gate 5-Q
+wired into the mandated read path (WORKING_RULES 6a); C17's sub-claim cited (B736); B754's
+rule-10 retro-entry; the B753 seal-row scope note; REPRODUCIBILITY refreshed (~2736 tests;
+the OA_SLOW invisible tier; the sympy pin/deprecation watch); R28-9 registered (the
+122-file path sweep). FIVE locks verified GENUINE by mutation (fired and restored — the
+positive-control record in docs/audits/AUDIT_2026-07-22_fourth_pass.md). The skeptics
+killed 14 findings including the assumption-audit's attacks on the two-seat independence
+claims — their kernel adopted as practice anyway (gate re-run outputs retained in-arc).
+Four passes total: 13 real catches, every one a standing rule. Nothing to CLAIMS.
+
+## 2026-07-23 — R28-9 executed: the path-topology sweep (110 files) + the lock extended
+The fourth pass's one deferred fix, done with its deferral-reasons honored: 110 editable
+tracked text artifacts swept (repo paths → relative; seat paths → <seat>/ placeholders;
+home → ~); the 1 sealed and 5 frozen path-bearing files left byte-intact BY POLICY; the
+hygiene lock extended beyond .py to all tracked text with the sealed/frozen/append-only
+exemptions named in-test. Two lessons collected en route: (1) APPEND-ONLY OUTRANKS
+HYGIENE — the sweep's first attempt edited historical PROGRESS_LOG entries and the
+append-only gate caught it within seconds (revert + class exemption; the gate lattice
+defending itself in real time); (2) meta-mentions of the banned pattern in hygiene prose
+must use assembled/paraphrased forms (the guard file's own trick). Artifact-lock sanity
+over the 8 most content-coupled arcs: 50/50 green. R28-9 closed.
+
+## 2026-07-23 — the cc3-corpus audit: mathematics exemplary; the lesson flows the other way
+The owner asked; the full instrument set answered. Seals 9/9 verified; vacuous patterns 0;
+transcription drift 0; and the mutation test INVERTED its premise — four artifact
+mutations fired zero cc3 locks because their locks READ NO ARTIFACTS: they recompute the
+mathematics in-test (compute-grade locking, E6-canonical, immune to artifact corruption by
+construction — strictly stronger than this seat's artifact-grep style where the env split
+forces it). Adopted: compute-grade locks preferred wherever the suite env allows. The
+six process slips all have standing counter-rules; none ever touched a verdict. Record:
+docs/audits/AUDIT_2026-07-23_cc3_corpus.md.

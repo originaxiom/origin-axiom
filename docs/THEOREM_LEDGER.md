@@ -107,7 +107,7 @@ the census triple; the gap as objectivity's edge — the gait transmits, the nam
 
 **C17 [NO-GO — the SM record].** The no-SM-value wall stands with a four-mechanism
 spectral column (B754: 17 KILL-EXTENDS, 0 FACE-OPENS); zero of 24 SM parameters reduced
-(banked); the two live-fire claims adjudicated NOT EARNED / DISSOLVED (B751: the α_s
+(banked — the A+B+C campaign, frontier/B736_ABC_campaign/, lock `tests/test_b736_abc.py`); the two live-fire claims adjudicated NOT EARNED / DISSOLVED (B751: the α_s
 composite — three insertions + null base-rate; B752: Op-3 — universal collapse, wrong
 input, repelling point); the two-ℤ/3 identity DISSOLVED (B757: Sylow-forced coincidence);
 the B699 general gloss REFUTED (B756: six counterexamples, reading-dependence stated).

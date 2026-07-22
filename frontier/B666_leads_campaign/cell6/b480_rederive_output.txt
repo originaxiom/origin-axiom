@@ -1,4 +1,4 @@
-/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
+frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
   r = np.minimum(s[:-1], s[1:]) / np.maximum(s[:-1], s[1:])
 ==============================================================================
 B480 re-derivation: <r> for the quantized golden cat map, N = 181, 301

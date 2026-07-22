@@ -272,5 +272,5 @@ weld side-2 letters built
 [   722.5s]   Y factors through the cup coordinates: True; rank(P) = 5
 [   722.5s]   swap law: True; sigma2 involution: True; MV0 scalar law: True; sigma-covariance of OH: True
 [   722.5s]   OUTCOME: the FIFTH WALL -- the natural operator collapses (2 distinct of 3 on the quotient), every H^2-functional slice is a forced antisymmetric {0,+mu,-mu}, the PD/Hodge slice is scalar, and the star values are normalization gauge. The exact cup-value table, the sigma2/swap laws, and the natural-operator spectrum bank as the new invariants.
-[   722.5s]   persisted /Users/dri/origin-axiom/frontier/B666_leads_campaign/cell2/cell2_cup_values.json
+[   722.5s]   persisted frontier/B666_leads_campaign/cell2/cell2_cup_values.json
 [   722.5s] CELL 2 COMPUTATION COMPLETE

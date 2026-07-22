@@ -102,7 +102,7 @@ GATE C: P_min | N0: True;  5 | P_min: True
   D_period_pairs: PASS
   E_minimality_witnesses: PASS
 
-results -> /Users/dri/origin-axiom/frontier/B662_successor_campaign/cellG/l100_results.json
+results -> frontier/B662_successor_campaign/cellG/l100_results.json
 total wall time: 10.96s
 
 VERDICT: CERTIFIED — the melody's exact minimal period is 175560 = {2: 3, 3: 1, 5: 1, 7: 1, 11: 1, 19: 1}

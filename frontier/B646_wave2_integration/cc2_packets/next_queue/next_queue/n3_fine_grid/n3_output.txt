@@ -79,5 +79,5 @@ UNRESOLVED transparency confirmation set (2 globally-highest peak regions): kapp
 >>> FINAL VERDICT (depth15-adjudicated per PREREG's asymmetric rule): UNRESOLVED
 total elapsed: 153.3s (2.56 min)
 
-wrote /Users/dri/oa-seat-cc2/seat-work/next_queue/n3_fine_grid/n3_results.json
-wrote /Users/dri/oa-seat-cc2/seat-work/next_queue/n3_fine_grid/grid_table.txt
+wrote <cc2-seat>/seat-work/next_queue/n3_fine_grid/n3_results.json
+wrote <cc2-seat>/seat-work/next_queue/n3_fine_grid/grid_table.txt

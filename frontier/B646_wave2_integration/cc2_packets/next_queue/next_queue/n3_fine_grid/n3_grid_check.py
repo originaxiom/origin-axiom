@@ -21,13 +21,13 @@ import lib_banked as L
 np.seterr(over="ignore", invalid="ignore")
 
 T_START = time.time()
-WORKDIR = "/Users/dri/oa-seat-cc2/seat-work/next_queue/n3_fine_grid"
+WORKDIR = "<cc2-seat>/seat-work/next_queue/n3_fine_grid"
 GRID_TABLE_PATH = f"{WORKDIR}/grid_table.txt"
 OUT_JSON = f"{WORKDIR}/n3_results.json"
 
-BANKED_GRID_PATH = "/Users/dri/oa-seat-cc2/seat-work/veins/v11_kappa/grid_results.json"
-BANKED_DEPTH14_PATH = "/Users/dri/oa-seat-cc2/seat-work/veins/v11_kappa/depth14_results.json"
-BANKED_R3_PATH = "/Users/dri/oa-seat-cc2/seat-work/residuals_loop/r3_peak/r3_results.json"
+BANKED_GRID_PATH = "<cc2-seat>/seat-work/veins/v11_kappa/grid_results.json"
+BANKED_DEPTH14_PATH = "<cc2-seat>/seat-work/veins/v11_kappa/depth14_results.json"
+BANKED_R3_PATH = "<cc2-seat>/seat-work/residuals_loop/r3_peak/r3_results.json"
 
 with open(BANKED_GRID_PATH) as fh:
     BANKED_GRID = {float(k): v for k, v in json.load(fh).items()}

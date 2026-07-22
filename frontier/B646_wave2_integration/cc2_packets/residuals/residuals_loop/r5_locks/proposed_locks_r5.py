@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """R5 lock batch -- the top-10 exposed banked claims from the V5b sweep.
 
-Repo (read-only): /Users/dri/oa-seat-cc2/origin-axiom
-Work dir: /Users/dri/oa-seat-cc2/seat-work/residuals_loop/r5_locks/
+Repo (read-only): <cc2-seat>/origin-axiom
+Work dir: <cc2-seat>/seat-work/residuals_loop/r5_locks/
 Recomputed 2026-07-16.
 
 Each block below is a self-contained recomputation + assert (tolerance noted inline)
@@ -11,7 +11,7 @@ percentage figures) are UNREPRODUCIBLE and are NOT asserted here -- see the
 NOT-LOCKED section at the bottom and the final report for why, per the
 "do not force it" instruction (B565-T5 precedent).
 
-Run: /Users/dri/oa-seat-cc2/seat-work/.venv/bin/python proposed_locks_r5.py
+Run: <cc2-seat>/seat-work/.venv/bin/python proposed_locks_r5.py
 """
 import sys
 import json
@@ -20,7 +20,7 @@ from fractions import Fraction as Fr
 import mpmath as mp
 import sympy as sp
 
-REPO = "/Users/dri/oa-seat-cc2/origin-axiom"
+REPO = "<cc2-seat>/origin-axiom"
 PASS = []
 
 

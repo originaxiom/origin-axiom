@@ -25,7 +25,7 @@ party. This file is the entry point. Governed by `GOVERNANCE.md` §9.
 > **CI-scope disclosure (honest, 2026-07-05).** There is **no full continuous integration**. The
 > `.github/workflows/core.yml` runner is deliberately untracked (the repo's `tracked-forbidden`
 > gate forbids committing under `.github/`), and even when run it exercises **only the ~16
-> proven-core tests** (P1–P16 + a few conditionals; `sympy`/`numpy` only). The other ~1500 test
+> proven-core tests** (P1–P16 + a few conditionals; `sympy`/`numpy` only). The other ~2700 test
 > functions — including essentially all the headline frontier results (the SL(n) tower, the E₆
 > work, the `40a1` character-variety lock, WRT, the seam value theory) — are **locally locked,
 > not CI-covered**, and several need SnapPy/Sage. A handful of locks freeze recorded Sage/SnapPy
@@ -276,7 +276,7 @@ does not promote a claim unless the governance gate is explicitly run and logged
 
 ## Portability
 
-No test or probe may hardcode an absolute machine path (e.g. `/Users/...`, `/home/...`); sibling imports
+No test or probe may hardcode an absolute machine path (any absolute home-directory form); sibling imports
 resolve via `Path(__file__)`-relative paths — for a `frontier/<name>/probe.py`, the `frontier/` directory
 is `pathlib.Path(__file__).resolve().parents[1]`, and a sibling module is loaded from
 `parents[1] / "<sibling>" / "probe.py"` (use `importlib.util.spec_from_file_location` when the module name
@@ -302,3 +302,13 @@ The hook blocks a push while any gate fails and prints the decadal-review counte
 push. The counter (`python3 scripts/gates/gates.py review-due`) reads the LAST
 `anchor-commit:` in `docs/progress/REVIEWS.md` — every repo review must append an anchored
 entry there, or the counter cannot reset (this is what stranded it at 244 merges in 2026-07).
+
+## Suite-scope notes (fourth-pass audit, 2026-07-22)
+- Full-suite scale: ~2736 collected tests across ~735 files; collection alone ≈ 3 min.
+- **Module-level skips:** 16 test files skip entirely unless `OA_SLOW`/`RUN_SLOW` is set —
+  they are invisible even to `--collect-only`. A full verification pass must run once with
+  the slow flags set; reviews' "declared modulus" must state whether the slow tier ran.
+- **Version pins:** sympy is pinned by record at 1.14.0 (the table above). A known
+  deprecation (modular-integer ordered comparison) fires inside `factor_list(modulus=…)`
+  call sites and becomes an ERROR on the next sympy major — do not upgrade sympy without
+  running the full suite plus the slow tier.

@@ -3,9 +3,9 @@
 
 == S2a-G2/G3: exact verification in L ==
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B649_silver_holonomy/b649_stage2a.py", line 183, in <module>
+  File "frontier/B649_silver_holonomy/b649_stage2a.py", line 183, in <module>
     "A": invL(aL), "B": invL(bL), "C": invL(cL)}
          ^^^^^^^^
-  File "/Users/dri/origin-axiom/frontier/B649_silver_holonomy/b649_stage2a.py", line 178, in invL
+  File "frontier/B649_silver_holonomy/b649_stage2a.py", line 178, in invL
     assert d1.is_zero(), f"det != 1: {det}"
 AssertionError: det != 1: L([Fraction(-3, 1), Fraction(0, 1), Fraction(-7, 4), Fraction(0, 1)],[Fraction(-1, 1), Fraction(0, 1), Fraction(-1, 2), Fraction(0, 1)])

@@ -3,7 +3,7 @@
   {
    "id": "B58",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B58_sl4_tower_test/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B58_sl4_tower_test/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the SL(4) 7-factor tower prediction can be tested numerically at all: the representation-perturbation route is killed as computing the wrong object, so 'the prediction cannot be tested numerically'.",
    "kill_form": "category-error",
@@ -22,7 +22,7 @@
   {
    "id": "B107",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B107_physics_connection_audit/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B107_physics_connection_audit/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The metallic tower spectrum is new physics (operator anomalous dimensions / masses); killed as re-presented moduli-space monodromy carrying the single scale log phi.",
    "kill_form": "category-error",
@@ -40,7 +40,7 @@
   {
    "id": "B146",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B146_b145_calibration/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B146_b145_calibration/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "B145's arithmetic arm: 'every quadratic-trace-field o-p-t bundle is amphichiral / no arithmetic chiral o-p-t bundle' \u2014 killed: RRL/RLL are chiral with invariant trace field Q(sqrt-7).",
    "kill_form": "value-mismatch",
@@ -59,7 +59,7 @@
   {
    "id": "B225",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B225_conductor_decomposition_test/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B225_conductor_decomposition_test/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The '2 = octahedral parent' half of chat1's conductor decomposition: figure-eight character-variety conductor 40=2^3*5 factors as (octahedral parent 2) x (golden filling 5).",
    "kill_form": "base-rate",
@@ -77,7 +77,7 @@
   {
    "id": "B285",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B285_commutator_phase/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B285_commutator_phase/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-2's physics reading of the forced pi/6 commutator phase: it is the physical CP phase and yields the baryon asymmetry eta_B within ~1 order; also that the object supplies the CP sign.",
    "kill_form": "value-mismatch",
@@ -96,7 +96,7 @@
   {
    "id": "B437",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B437_child_abelian_book/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B437_child_abelian_book/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'The golden return' as INHERITANCE: the child's Q(sqrt5) abelian floor is numerator-forced (every knot at slope 5 gives Z/5 -> zeta_5 -> sqrt5), not the parent's golden memory \u2014 retracted by the trefoil control.",
    "kill_form": "genericity",
@@ -115,7 +115,7 @@
   {
    "id": "B489",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B489_self_interaction_tower/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B489_self_interaction_tower/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The cyclic-cover tower of 4_1 carries SM gauge-symmetry enhancement (handoff falsification test: DGG of b++(RL)^4); plus 4c: m206(3,1) = 5_2 complement bridging to the twist-knot SU(3) family.",
    "kill_form": "absence-at-depth-n",
@@ -134,7 +134,7 @@
   {
    "id": "B500",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B500_child_hunt/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B500_child_hunt/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The prereg'd child x\u2074\u2212x\u22121 (d_K=\u2212283) is a short word: dead at depth 4 (complete, 0/36); the depth-5 kill is PROVISIONAL only (0/115 of 150 words; 35 unchecked after B525 correction).",
    "kill_form": "absence-at-depth-n",
@@ -153,7 +153,7 @@
   {
    "id": "B516",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B516_golden_3d_ladder/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B516_golden_3d_ladder/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'3 spatial dimensions selected by a Pisot dimension cap' \u2014 dead: golden-field Pisot inflation exists at dims 1, 3 AND 5, so golden aperiodic order is not capped at 3.",
    "kill_form": "other",
@@ -171,7 +171,7 @@
   {
    "id": "B685",
    "ground": "dead-probe",
-   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B685_generation_terminal/FINDINGS.md",
+   "source": "<cc3-seat>/origin-axiom/frontier/B685_generation_terminal/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That a framework-derivable generator of the figure-eight produces the {2/5,3/5} 5-adic hearing streams: both intrinsic realizations (Molien: algebraic integers; Habiro/Nahm: pure 3-denominators) carry no 5.",
    "kill_form": "kind-mismatch",

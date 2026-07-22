@@ -8,6 +8,6 @@ cubic rebuilt: 270 ordered entries
 weld side-2 letters built
 G1': mu-match False, lambda-inversion False
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B639_conjtheta_cubic/b639_stage2.py", line 50, in <module>
+  File "frontier/B639_conjtheta_cubic/b639_stage2.py", line 50, in <module>
     assert g_mu and g_lam
 AssertionError

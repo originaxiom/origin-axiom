@@ -4,7 +4,7 @@ Order: (0) banked-rung gates k=1..7; (1) k=8 gate battery; (2) BLIND BANK;
 Diagonal-aware mp block build (T is diagonal — no full N^3 mp products)."""
 import json
 import sys
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/level_ladder_campaign/scripts')
+sys.path.insert(0, '<cc2-seat>/seat-work/level_ladder_campaign/scripts')
 
 import mpmath as mp
 import numpy as np
@@ -15,7 +15,7 @@ from p2_certify import exact_Z, mp_even_block, minpolys, eig_order
 from p3_verdict import exact_trace_theta_rho, block_magnitudes
 
 mp.mp.dps = 50
-OUT = '/Users/dri/oa-seat-cc2/seat-work/proof_queue/q1_level8/outputs'
+OUT = '<cc2-seat>/seat-work/proof_queue/q1_level8/outputs'
 
 
 def mp_blocks_diagaware(L, dps=50):

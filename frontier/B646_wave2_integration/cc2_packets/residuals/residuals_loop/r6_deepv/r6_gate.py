@@ -17,7 +17,7 @@ import sys
 import json
 import numpy as np
 
-sys.path.insert(0, "/Users/dri/oa-seat-cc2/seat-work/veins/v6_tension")
+sys.path.insert(0, "<cc2-seat>/seat-work/veins/v6_tension")
 from lib_chain import flat_occupied_orbitals          # noqa: E402
 from lib_observables import number_variance            # noqa: E402
 from lib_fit import linfit_r2                           # noqa: E402

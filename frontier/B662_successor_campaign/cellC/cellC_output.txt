@@ -32,7 +32,7 @@ weld side-2 letters built
 [  995.6s]   conj(M).M = I exactly: True
 [  995.6s]   M.conj(M) = I exactly: True
 [  995.6s] STEP 5: persist sigma_matrix_golden.json...
-[  995.6s]   saved /Users/dri/origin-axiom/frontier/B662_successor_campaign/cellC/sigma_matrix_golden.json
+[  995.6s]   saved frontier/B662_successor_campaign/cellC/sigma_matrix_golden.json
 [  995.6s] STEP 6: the golden-side invariant -- the B645 unit cross-ratio on the freshly recomputed Y table...
 [  995.6s]   Y[024] = 0 (the 024-silent condition): True
 [  995.6s]     Y[(0, 1, 2)] = 0
@@ -48,7 +48,7 @@ weld side-2 letters built
 [  995.6s]   (Y[023]*Y[134])/(Y[034]*Y[123]) = 1  [GATE: = 1 exactly]: True
 [  995.6s]   Y[023] = 24z6*Y[123]: True;  Y[034] = 24z6*Y[134]: True
 [  995.6s] STEP 7: the S4-side cross-check (B660/S4 sealed exact output; different presentation -- invariant level only)...
-[  995.6s]   source: /Users/dri/origin-axiom/frontier/B660_structure_campaign/packet/s4_massshape/s4_matrices.json
+[  995.6s]   source: frontier/B660_structure_campaign/packet/s4_massshape/s4_matrices.json
 [  995.6s]   kappas = ['(0)', '(0)', '(0)', '(0)', '(1)'];  M support (nonzero ij, i<j): [(0, 3), (1, 2), (1, 3)]
 [  995.6s]     W[(0, 1, 2)] = 0
 [  995.6s]     W[(0, 1, 3)] = 0

@@ -1,7 +1,7 @@
 CELL 6 (L96) combined run output, 2026-07-17
 
 ########## b480_rederive.py ##########
-/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
+frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
   r = np.minimum(s[:-1], s[1:]) / np.maximum(s[:-1], s[1:])
 ==============================================================================
 B480 re-derivation: <r> for the quantized golden cat map, N = 181, 301
@@ -45,7 +45,7 @@ Controls: r-statistic code on Poisson & picket-fence references
   picket-fence control (301 equal slots): <r> = 1.0000 (theory ~1)
 
 ########## b480_noise_addendum.py ##########
-/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
+frontier/B666_leads_campaign/cell6/b480_rederive.py:105: RuntimeWarning: invalid value encountered in divide
   r = np.minimum(s[:-1], s[1:]) / np.maximum(s[:-1], s[1:])
 ==============================================================================
 B480 re-derivation: <r> for the quantized golden cat map, N = 181, 301

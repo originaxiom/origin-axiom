@@ -11,7 +11,7 @@ L3 (verified here): THE UNIFORM JUMP LAW: |term_w(kappa)|/|term_w(generic)| =
    no odd/dyadic case split; tested on ALL class x r cells (r = 13..25)."""
 import json, math, sys
 from fractions import Fraction
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/next_queue/n1_counting')
+sys.path.insert(0, '<cc2-seat>/seat-work/next_queue/n1_counting')
 import numpy as np
 import sympy as sp
 import n1_jeffrey_terms as J
@@ -43,8 +43,8 @@ for bi, (key, members) in enumerate(ordered):
     rows.append({"bucket": bi, "size": len(members), "sign": members[0][2],
                  "divs": divs, "det": det})
 
-terms = json.load(open('/Users/dri/oa-seat-cc2/seat-work/next_queue/n1_counting/jeffrey_terms.json'))
-ext = json.load(open('/Users/dri/oa-seat-cc2/seat-work/next_queue/n1_counting/jeffrey_extension.json'))
+terms = json.load(open('<cc2-seat>/seat-work/next_queue/n1_counting/jeffrey_terms.json'))
+ext = json.load(open('<cc2-seat>/seat-work/next_queue/n1_counting/jeffrey_extension.json'))
 contrib = {}
 for src in (terms, ext):
     for row in src['rows']:

@@ -33,7 +33,7 @@ THE CORRECTION, EXACT (appended to the run)
 off-block = |z - zbar| = 2.614282557 = 2*Im(u_geo)
 Traceback (most recent call last):
   File "<stdin>", line 20, in <module>
-  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 374, in __float__
+  File "~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 374, in __float__
     raise TypeError("Cannot convert complex to float")
 TypeError: Cannot convert complex to float
 ================================================================================
