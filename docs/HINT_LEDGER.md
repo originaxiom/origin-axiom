@@ -509,3 +509,12 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   base-rate. The Op-3 "object sees half" claim DISSOLVED three ways (universal CH
   collapse; trace-1 input ≠ the trace-2 banked holonomy, corrected image = I; the 1/2
   fixed point is REPELLING, f'=3, vs the superattracting 1) — two-seat convergent.
+
+- THE ONE-NUMBER PIN (B753, 2026-07-22; co-signed cc + cc3): one observable, one
+  registered number. For JUNO/sin²θ₁₂ the registered number is and remains 0.30902
+  (= cos 72°, a real-part projection; a HINT with no mechanism, per H-TUROK). No
+  alternative registers post-hoc: the kind-correct mixing entry computed in B753 —
+  P_offdiag = 1/(φ√5) = 0.276393, via the exact identity |B₀₀|² = 1 − p on the weld's
+  unitary θ-odd block (eigenphases ±72°) — is PROGRAM-INTERNAL structure, not a
+  registration. Any revision of a registered number seals BEFORE the experiment reports,
+  or never (Q6's slot-population discipline applied to our own watch list).

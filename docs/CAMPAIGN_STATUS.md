@@ -1280,3 +1280,9 @@ answers itself (base-rate by the handoff's own criterion); Op-3's
 "object sees half" dissolved (universal collapse; wrong input; repelling
 point) — at its true holonomy the object's Δ-self-image is I. The
 reflexive direction stays open; the first mirror showed the costume.
+
+THE MIXING STRUCTURE (B753): the weld's θ-odd block computed exactly —
+unitary, eigenphases ±72°; the kind-correct mixing matrix is golden-exact
+(off-diagonal 1/(φ√5), = the Born weight by exact identity). The JUNO
+registration stays 0.30902 under the co-signed one-number pin. GATE 5-Q
+adopted (#1248); E23/E24/E25 adopted (#1247).

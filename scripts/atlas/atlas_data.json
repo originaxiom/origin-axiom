@@ -15583,6 +15583,21 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B753": {
+   "slug": "mixing structure",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [
+    "B238",
+    "B593",
+    "B751"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B75": {
    "slug": "metallic degree rank",
    "motifs": [
