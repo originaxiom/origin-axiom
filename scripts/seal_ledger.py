@@ -85,7 +85,25 @@ def main():
                f"(content = banked content); {n_unrec_multi} unrecorded "
                f"AND amended after banking (current hash ≠ sealed hash — "
                f"see each arc's trail).*")
-    with open(os.path.join(ROOT, "docs", "SEAL_LEDGER.md"), "w") as f:
+    # preserve the append-only reservation/verdict section (the collision
+    # protocol, adopted 2026-07-21) below the marker; create it if absent
+    ledger_path = os.path.join(ROOT, "docs", "SEAL_LEDGER.md")
+    MARKER = "## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)"
+    manual = ""
+    if os.path.exists(ledger_path):
+        cur = open(ledger_path, encoding="utf-8").read()
+        if MARKER in cur:
+            manual = cur.split(MARKER, 1)[1]
+        else:
+            # migrate: everything after the generated Totals line is manual
+            m = cur.split("*Totals:", 1)
+            if len(m) == 2:
+                tail = m[1].split("\n", 1)
+                manual = tail[1] if len(tail) == 2 else ""
+    out.append("")
+    out.append(MARKER)
+    out.append(manual.rstrip("\n") if manual.strip() else "")
+    with open(ledger_path, "w") as f:
         f.write("\n".join(out) + "\n")
     print(f"{len(rows)} rows; unrecorded single-commit {n_unrec_single}; "
           f"unrecorded amended {n_unrec_multi}")
