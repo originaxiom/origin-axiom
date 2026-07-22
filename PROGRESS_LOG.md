@@ -7306,3 +7306,16 @@ priors were on main; the structural exposure (this seat reads main + gate-arriva
 is real and now closed by the STANDING RULE: every decadal review runs the branch inventory
 and classifies every unmerged ref — an unclassified branch is a review blocker
 (REVIEW_TEMPLATE 1b). Nothing to CLAIMS.
+
+## 2026-07-22 — the chain absorbs the QP sequence: C18 PRICED, C19 minted; R28-8 closed
+The going-forward rule applied to our own freshest work: C18 (the observer's closings) now
+carries its first priced sub-structure — A7's four computed forks (B759–B762) with their
+verdicts and locks in the link text; the composite sentence banked in the chain ("the
+observer's contribution reduces to exactly the choice"); the residual frontier named
+inside C18 (the choice-mechanics/measurement torsor + the remaining c-into-θ routes).
+C19 minted: the discriminant law of integration (off-block = √|disc K|, a trace-field
+invariant; SL(2) dissociated, SL(3) integrated; the commutator purely chord-directed).
+The chain lock extended (C1–C19, four axioms all PRICED-or-frontier-named). R28-8 closed —
+five of Review 28's eight items done within its first day; the three carried owner-gated
+items (specialist pass, L95, H-EAR was closed earlier today — correction: R28-1/R28-2 +
+R28-5 P3 + R28-6 B500-wrap remain).

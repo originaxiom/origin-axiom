@@ -14,10 +14,10 @@ def _text():
 def test_chain_has_eighteen_links_with_valid_labels():
     text = _text()
     links = re.findall(r"\*\*C(\d+) \[(THEOREM|CENSUS|IDENTITY|NO-GO|AXIOM)[^\]]*\]", text)
-    assert [int(n) for n, _ in links] == list(range(1, 19))
+    assert [int(n) for n, _ in links] == list(range(1, 20))
     grades = [g for _, g in links]
-    assert grades.count("AXIOM") == 4            # C3, C4, C5, C18
-    assert "UNPRICED" in text and text.count("PRICED") >= 4
+    assert grades.count("AXIOM") == 4            # C3, C4, C5, C18 (C19 = IDENTITY)
+    assert text.count("PRICED") >= 4 and "remaining unpriced" in text
 
 
 def test_every_cited_lock_file_exists():
@@ -29,7 +29,6 @@ def test_every_cited_lock_file_exists():
 def test_axioms_priced_or_flagged():
     text = _text()
     # the three genesis axioms carry PRICED; the frontier axiom carries UNPRICED
-    for c in ("C3 [AXIOM", "C4 [AXIOM", "C5 [AXIOM"):
-        seg = text.split(c, 1)[1][:80]
+    for c in ("C3 [AXIOM", "C4 [AXIOM", "C5 [AXIOM", "C18 [AXIOM"):
+        seg = text.split(c, 1)[1][:90]
         assert "PRICED" in seg
-    assert "UNPRICED" in text.split("C18 [AXIOM", 1)[1][:60]

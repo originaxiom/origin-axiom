@@ -118,13 +118,30 @@ wording; owner+L91 gate for any change).
 
 ## Part IV — the open frontier (declared, not blurred)
 
-**C18 [AXIOM — the observer's closings; UNPRICED, the standing frontier].** Chirality,
-values, time, and the spatial manifold are the observer's closings of the object's
-incompletenesses (B713–B716 as the banked reading; the closings themselves are the
-unpriced choices). The pricing instruments exist: the QP cells (S072, behind Gate 5-Q and
-the owner's opening), the c-into-θ crux (B570 Lane C — C16's falsification edge on the
-T-class), and the phenomenology track's comparator-object control. **These forks are the
-program's continuation under this chain's discipline.**
+**C18 [AXIOM — the observer's closings; FIRST SUB-STRUCTURE PRICED 2026-07-22].**
+Chirality, values, time, and the spatial manifold are the observer's closings of the
+object's incompletenesses (B713–B716 as the banked reading; the closings themselves are
+the choices). The reflexive sub-axiom A7 (P020: the voice read as self-report — a choice;
+the mathematics stands without it) is priced by four computed forks (B759–B762):
+- **QP-3 INTEGRATED** — the chord/sum voices couple at SL(3), and the coupling obeys C19;
+- **QP-4 NO-HATCH** — no object-native operation signs the chord ({ζ₅, ζ₅⁴} inseparable;
+  five operations fail) — the c-into-θ crux tested at its sharpest point yet and HELD;
+- **QP-2 FLAT** — zero private states at n = 2, 3, 4 (the boundary description is
+  complete: no hidden variables behind the interface);
+- **QP-1 QUINE** — the emitted spectral word identifies m004 uniquely among 203,123
+  census manifolds (the sister separated by cusp shape).
+Composite: the object is a fully transparent, self-naming, integrated speaker that cannot
+choose — the observer's contribution reduces to EXACTLY the choice. The remaining unpriced
+frontier: the choice-mechanics of the coupling itself (the measurement torsor; the
+arithmetic-CS home), plus the c-into-θ crux's remaining routes. Locks:
+`tests/test_qp3_integration.py`, `tests/test_qp4_closure.py`, `tests/test_qp2_private.py`,
+`tests/test_qp1_self_naming.py`.
+
+**C19 [IDENTITY — the discriminant law of integration].** The single-trace θ-off-block
+norm at the geometric representation equals √|disc K| where K is the invariant trace
+field — a trace-field invariant, not a manifold invariant (m004: √3; SL(2) level
+dissociated, SL(3) = Sym² integrated; the commutator's Sym² trace moves purely in the
+chord direction, 4i√3). — B759. Lock: `tests/test_qp3_integration.py`.
 
 ---
 

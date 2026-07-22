@@ -1,5 +1,8 @@
 # Changelog
 
+## The chain absorbs the QP sequence — C18 priced, C19 minted (R28-8 closed)
+- C18's link text now carries A7's four priced forks with verdicts and locks; the composite banked ("the observer's contribution reduces to exactly the choice"); C19 = the discriminant law (off-block = √|disc K|). Chain lock extended to C1–C19.
+
 ## B763 — the branch-reconciliation sweep: no lost conclusions; the branch-inventory rule
 - All unmerged refs classified (6 stale deleted; 3 frozen-by-policy registered; b666-addendum1 verified fully superseded and closed with a recovery pin). The déjà-vu adjudicated: priors were on main and were consumed correctly. New standing rule: the review template gains the branch-inventory item (1b) — an unclassified unmerged branch blocks the review.
 
