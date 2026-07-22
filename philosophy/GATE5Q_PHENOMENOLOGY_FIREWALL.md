@@ -1,8 +1,7 @@
-# GATE 5-Q — the phenomenology firewall (DRAFT for the owner's red pen + cc3 concurrence)
+# GATE 5-Q — the phenomenology firewall (BINDING)
 
-> **Status: DRAFT (cc, 2026-07-22).** The agreed precondition of the owner-led
-> qualia/mathematical-phenomenology track: this gate is drafted BEFORE the track's first
-> arc and becomes binding only after the owner's red pen closes on it. Gate 5 proper
+> **Status: ADOPTED 2026-07-22** — owner approved (red pen closed on v2, Q2b/Q5b included);
+> cc3 concurrence on record (relay 2026-07-22); cc drafted and holds the merge gate. Gate 5 proper
 > (the SM-value firewall) is UNTOUCHED and applies in full everywhere; Gate 5-Q only ADDS
 > constraints for arcs that use phenomenological vocabulary. Nothing here relaxes anything.
 
@@ -35,7 +34,7 @@ Hamilton), the operation carries zero object content and the arc stops there. Th
 MB12's reflexive cousin: before asking what the object sees in the mirror, prove the
 mirror shows different things to different objects.
 
-**Q2b — The comparator-object control (cc3's R1, folded 2026-07-22; awaiting the red pen).**
+**Q2b — The comparator-object control (cc3's R1; adopted).**
 Q2 controls operations against generic inputs; phenomenological PROPERTY claims ("the
 object has awareness-layer-n / a self-name") need the comparator-OBJECT form: run the same
 property computation on the sister m003, on the Gieseking parent (available since B749),
@@ -61,8 +60,7 @@ anything about experience or consciousness; the words "qualia/aware/sees" never 
 governed rooms (speculations/, philosophy/) except as Q1-bound technical labels inside a
 frontier arc's own text.
 
-**Q5b — Empirical constants of ANY domain are value-claims (cc3's R2, folded 2026-07-22;
-awaiting the red pen).** Gate 5 proper firewalls SM values; a phenomenology arc could
+**Q5b — Empirical constants of ANY domain are value-claims (cc3's R2; adopted).** Gate 5 proper firewalls SM values; a phenomenology arc could
 "match" a psychophysical constant (temporal-integration windows, JND ratios, EEG bands)
 without technically touching an SM number. Rule: any measured empirical constant —
 physical, psychophysical, neural — is a value-claim under the FULL Gate-5 machinery
@@ -95,6 +93,5 @@ but never the name — and the observer is the exact complement.** Phenomenology
 explore what follows from that sentence; they do not get to re-derive SM physics through
 it (Gate 5), and they do not get to promote its poetry above its computations (Q1–Q7).
 
-*Owner: every rule above is an invitation to tighten or loosen in your own words; Q5 in
-particular is drawn as absolute — if you want a narrow governed exception (e.g. for the
-S-room only), it needs your explicit text. cc3: concurrence or amendments via relay.*
+*Adopted with Q5 absolute. Amendments require the owner's directive; the gate is checked
+at every phenomenology arc's prereg seal and again at the merge gate.*
