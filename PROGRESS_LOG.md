@@ -7221,3 +7221,14 @@ atlas-fresh B-dir semantics ×2; a checker-side init bug; the superscript-extrac
 with its counter-rule = recompute from the defining object). Provenance: all cross-seat
 packages hash-verified; one stale note corrected. Eight action items (3 carried, 5 new:
 DOOR6 depth, P3, B500 wrap, L108, the QP cells).
+
+## 2026-07-22 — B757: the two-ℤ/3 identity (L108) DISSOLVED — R28-7 closed
+The DOOR4 residual computed under seal (prereg 23eb35be, E20 guard declared first).
+Element level: NO, theorem-grade (deck representatives live in the torsion-free knot group;
+g has order 3). The striking mod-4 coincidence (the deck matrix on the (ℤ/4)² torsion
+EQUALS B302's g entry-for-entry) is REAL — and E20-FORCED: brute force over all 96 elements
+of GL(2,ℤ/4) shows exactly ONE conjugacy class of order-3 elements (8 elements, C ~ C²),
+so any two ℤ/3 actions coincide mod 4 and even the orientation bit dissolves; the exact
+equality is an artifact of B302's representative being the Φ₃ companion. What is genuinely
+shared = the banked Eisenstein atom, nothing more. DOOR4 stays ROUTE-OBSTRUCTED, zero live
+residuals. Locks test_b757 (3). Nothing to CLAIMS.

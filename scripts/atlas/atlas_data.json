@@ -15691,6 +15691,8 @@
     "torsion"
    ],
    "refs": [
+    "B107",
+    "B285",
     "B302",
     "B326",
     "B646",
@@ -15698,11 +15700,34 @@
     "B651",
     "B666",
     "B699",
-    "B743"
+    "B743",
+    "B754",
+    "L241",
+    "L57"
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 1,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B757": {
+   "slug": "two z3 identity",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B285",
+    "B302",
+    "B326",
+    "L108"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B75": {
