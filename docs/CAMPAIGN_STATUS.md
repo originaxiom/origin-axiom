@@ -1299,3 +1299,8 @@ the Euler-product question closed by an exact iff-law with defect
 (1−√5)/2; the commensurator route obstructed (L108 = the one residual);
 stale flags FIRM. With B754 (the P2 stratum: 17 KILL-EXTENDS, WALL-1
 gains a spectral column) the Revisit Register is at its cleanest state.
+
+THE CHAIN (B758, owner-approved cc3 plan): the forced core is now one
+labeled axiom→theorem ledger (docs/THEOREM_LEDGER.md, C1–C18) — three
+priced axioms, one unpriced frontier axiom, everything else theorem/
+census/identity/no-go with locks. The program continues by pricing C18.
