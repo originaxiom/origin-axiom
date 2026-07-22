@@ -7115,3 +7115,20 @@ HINT_LEDGER beside H-TUROK — not buried, not promoted; the one honest door sta
 constructively (derive a per-letter weight from B593's complex structure + an object-side
 scale pin, then owner + L91 functor + full checklist). Locks test_b751 (4). Gate 5 intact;
 nothing to CLAIMS.
+
+## 2026-07-22 — B752: the qualia-handoff receipt — Op-1 base-rate by its own rule; Op-3 dissolved (two-seat)
+The chat-1 handoff processed under seal (prereg ecb2fab7, sealed BEFORE cc3's independent
+receipt relay — genuine two-seat convergence on every Op-3 finding). Op-1: the requested
+c·φ⁻ⁿ family scan (50 distinct values × 25 PDG targets, both windows, 2000-surrogate null):
+at the handoff's own 0.1% rule the sin²θ₁₂ hit vanishes (pattern self-reduces to one hit,
+P=0.26); at 1% the family adds junk hits (m_u/m_d, m_b/m_t; P=0.35) — the handoff's own
+criterion fires: base-rate. B751 stands; cc3's caution adopted (no post-hoc "significant
+scale" hunt for α_s — E20). Op-3 DISSOLVED three ways, each computed: (1) Δ(A) = (3−trA)·I
+for EVERY SL(2) matrix (Cayley–Hamilton — the "collapse" is universal, zero object
+content); (2) the trace-1 input is Φ₆ (the phase factor), NOT the banked trace-2 parabolic
+holonomy (B285) — corrected, the self-image is I, the trivial tone; (3) the 1/2 fixed
+point is REPELLING (f'=3) vs the superattracting 1 (f'=0) — "converges in two steps" was
+an exact measure-zero landing; perturbed and generic seeds go to 1 or diverge. Citation
+audit: "B620" wrong, the amplitude is B593. Residue for the phenomenology track: the
+reflexive direction (one dissolved first attempt), the hint, the honest door; the mirror
+showed the costume, not the face. Locks test_b752 (4). Nothing to CLAIMS.

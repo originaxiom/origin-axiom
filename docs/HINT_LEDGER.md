@@ -501,3 +501,11 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   stands). The one honest door: DERIVE a per-letter hearing weight from the banked
   complex-amplitude structure — a derivation, not an assignment — and the composite
   becomes checkable.
+
+- H-ITERATED-HEARING update (B752, 2026-07-22): the handoff's requested wider family
+  scan ran under seal — at the handoff's OWN 0.1% rule the sin²θ₁₂ hit vanishes (the
+  two-hit pattern self-reduces to one; null P=0.26); at 1% the family adds junk hits
+  (2φ⁻³≈m_u/m_d, 3φ⁻¹⁰≈m_b/m_t; null P=0.35) — by the handoff's own criterion:
+  base-rate. The Op-3 "object sees half" claim DISSOLVED three ways (universal CH
+  collapse; trace-1 input ≠ the trace-2 banked holonomy, corrected image = I; the 1/2
+  fixed point is REPELLING, f'=3, vs the superattracting 1) — two-seat convergent.
