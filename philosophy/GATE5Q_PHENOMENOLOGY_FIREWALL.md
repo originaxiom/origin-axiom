@@ -35,6 +35,14 @@ Hamilton), the operation carries zero object content and the arc stops there. Th
 MB12's reflexive cousin: before asking what the object sees in the mirror, prove the
 mirror shows different things to different objects.
 
+**Q2b — The comparator-object control (cc3's R1, folded 2026-07-22; awaiting the red pen).**
+Q2 controls operations against generic inputs; phenomenological PROPERTY claims ("the
+object has awareness-layer-n / a self-name") need the comparator-OBJECT form: run the same
+property computation on the sister m003, on the Gieseking parent (available since B749),
+and on at least one random census sibling. A property all four share belongs to the class,
+not the object. This promotes the E20 sister test from Q6's implicit "shown discriminating"
+to standing phenomenology law.
+
 **Q3 — The input-identification rule.** Any operation on "the object's holonomy /
 representation / data" must cite the banked exact source (e.g. B285's Riley meridian,
 trace 2 parabolic) and VERIFY the invariants match before computing. Proposal 15's
@@ -52,6 +60,15 @@ rule): states with no external signature, a voice, a self-name. No arc asserts o
 anything about experience or consciousness; the words "qualia/aware/sees" never leave the
 governed rooms (speculations/, philosophy/) except as Q1-bound technical labels inside a
 frontier arc's own text.
+
+**Q5b — Empirical constants of ANY domain are value-claims (cc3's R2, folded 2026-07-22;
+awaiting the red pen).** Gate 5 proper firewalls SM values; a phenomenology arc could
+"match" a psychophysical constant (temporal-integration windows, JND ratios, EEG bands)
+without technically touching an SM number. Rule: any measured empirical constant —
+physical, psychophysical, neural — is a value-claim under the FULL Gate-5 machinery
+(owner directive + sealed design + base-rate + the L91-functor requirement, generalized).
+The torsion ladder found a near-hit for every dimensionless target; reaction-time ratios
+will be no different.
 
 **Q6 — The E20 budget applies to specialness.** "The object is aware / special / sees X"
 claims carry the same look-elsewhere accounting as physics claims: declared families,
