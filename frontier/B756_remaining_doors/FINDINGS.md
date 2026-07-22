@@ -55,3 +55,27 @@ doors (2 and 3) with in-seat recomputation.
 - OPEN_LEADS: the B326-ℤ/3 ≟ B302-ℤ/3 identity cell (DOOR4's one live residual).
 - cc2's Register erratum is theirs (their document); recorded here for provenance.
 - Locks: tests/test_b756_doors.py (the iff-law exact; the three counterexample triples).
+
+## PRE-REVIEW VERIFICATION ADDENDUM (2026-07-22, owner-requested) — coverage raised; one precision note
+
+- **M51-class independently REBUILT** (cc_verify_m51_m32.py, Sage env): b++R⁵L is the
+  trace-7 non-cover bundle — sextic ITF, field disc **−453683 (exact match to cc2's
+  claim)**, totally 5-inert, non-isometric to the double cover b++(RL)² (verified).
+  DOOR2 coverage: 4/5 counterexamples now recomputed in this seat.
+- **M32-class: mine differs from theirs, and both count.** My trace-8 build (b++R⁶L) is a
+  quartic of field disc 2917 (totally 5-inert) — a DIFFERENT trace-8 conjugacy class from
+  cc2's M32 (disc 3173). Not a contradiction: a SIXTH counterexample of the same shape.
+- **Precision note (the field reading).** Trace-7 monodromy has Alexander disc 45 = 5·3²,
+  i.e. eigenvalue field ℚ(√5) and dilatation φ⁴ (trace 7 = L₄; golden-FIELD monodromy ⟺
+  trace is an even-index Lucas number — an infinite, non-special family). So M51 is a
+  counterexample under the strict disc-5/seed reading only; under the field reading it is
+  golden-fielded. THE REFUTATION IS UNAFFECTED: m009/m022/m039/M32-class (squarefree
+  discs 3, 21, 2, 15) are non-golden under every reading. Recorded so the counterexample
+  count is stated reading-dependently (4 field-reading / 5 seed-reading / 6 with mine).
+- **B754 gate coverage raised**: 5 more cells re-executed at the gate (B107, B285,
+  TOMB-L241, TOMB-L57, WALL-7) — check/verdict lines IDENTICAL; combined coverage
+  8/19 (cc) + 8/19 (cc3 spot-checks), zero divergence anywhere.
+- **DOOR6 status stated plainly**: accepted at cc2's two-layer basis (compute +
+  adversarial verify); the trivial half re-checked here ((23|5) = −1 ✓); a full in-seat
+  re-derivation would need the B646 r-ladder convention trace — carried to the review as
+  a named partial, not blurred.
