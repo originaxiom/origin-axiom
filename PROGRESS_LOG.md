@@ -7424,3 +7424,13 @@ append-only gate caught it within seconds (revert + class exemption; the gate la
 defending itself in real time); (2) meta-mentions of the banned pattern in hygiene prose
 must use assembled/paraphrased forms (the guard file's own trick). Artifact-lock sanity
 over the 8 most content-coupled arcs: 50/50 green. R28-9 closed.
+
+## 2026-07-23 — the cc3-corpus audit: mathematics exemplary; the lesson flows the other way
+The owner asked; the full instrument set answered. Seals 9/9 verified; vacuous patterns 0;
+transcription drift 0; and the mutation test INVERTED its premise — four artifact
+mutations fired zero cc3 locks because their locks READ NO ARTIFACTS: they recompute the
+mathematics in-test (compute-grade locking, E6-canonical, immune to artifact corruption by
+construction — strictly stronger than this seat's artifact-grep style where the env split
+forces it). Adopted: compute-grade locks preferred wherever the suite env allows. The
+six process slips all have standing counter-rules; none ever touched a verdict. Record:
+docs/audits/AUDIT_2026-07-23_cc3_corpus.md.
