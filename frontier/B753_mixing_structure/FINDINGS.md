@@ -48,3 +48,21 @@ pin). Nothing to CLAIMS.
 Artifacts: compute.py + output.txt (+ the symbolic identity check in the lock). Locks
 tests/test_b753_mixing.py. Gate 5-Q noted: this arc is spectral mathematics, not
 phenomenology vocabulary; Gate 5 proper applied throughout.
+
+## ADDENDUM 2 (2026-07-22, the courier's sign puzzle) — both seats right; the B592 sign-flip is the bridge
+
+The courier seat reported tr_odd = −1/φ (its session) vs this arc's +1/φ, and correctly
+reasoned the discrepancy must be operator- or basis-level. Computed: it is the banked B592
+SIGN-FLIP THEOREM itself. The courier computed the UNTWISTED weld RL (tr −1/φ, eigenphases
+**±108°** — its e^{±i·108°} claim was RIGHT for that operator); this arc computed the
+TWISTED weld C·RL (tr +1/φ, eigenphases ±72°) — and the blocks negate exactly
+(‖B_tw + B_un‖ ≈ 6e−17), so the eigenLINES coincide (the phase labels swap: the +phase line under the twist is
+the −phase line without it, p ↦ 1−p) and **the kind-correct mixing matrix is
+TWIST-INVARIANT as a matrix: each row's overlap set is {φ/√5, 1/(φ√5)} = {0.7236,
+0.2764} for BOTH operators** — the most robust quantity in the discussion. Cell 2's verdict is refined accordingly: "FALSE" applies to the
+claim as addressed to the twisted operator (the referent of the banked B593 element);
+for the untwisted operator the courier's phases are correct; |Re| = 1/(2φ) either way.
+Scope concession recorded: this arc's "provably empty" applied to the REAL-PART-level
+distinction the dispute originally drew (Re λ = Re B₀₀, identically); the KIND-level
+distinction (projection vs overlap-squared) is real — it is exactly what cell 4 computed.
+The pin is unchanged: 0.30902 registered; 1/(φ√5) program-internal; nature decides.

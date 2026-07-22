@@ -7156,3 +7156,14 @@ header. R27-6's P2 half is under way: B754 reserved for cc3's spectral-face re-a
 of the 19 sealed targets (branch hunt/p2-spectral, Gate 5-Q binding, PR to the cc gate);
 sequencing cleared (no Candidate Zero probes in flight; the discrete-spectrum door stays
 owner-gated). P3 deferred by stratum design.
+
+## 2026-07-22 — B753 addendum 2: the courier's sign puzzle resolved — the B592 sign-flip is the bridge
+The courier's −1/φ vs this seat's +1/φ trace: BOTH right, about the two operators the
+banked B592 sign-flip theorem relates. Untwisted RL: tr −1/φ, eigenphases ±108° (the
+courier's claim, correct there); twisted C·RL: tr +1/φ, ±72° (this arc's, the referent of
+the banked B593 element); block negation exact (‖B_tw+B_un‖ ≈ 6e−17). The eigenlines
+coincide (phase labels swap, p ↦ 1−p), so the kind-correct mixing matrix is TWIST-INVARIANT
+as a matrix — each row's overlap set {φ/√5, 1/(φ√5)} on both sides. Scope concession
+recorded ("provably empty" = the real-part level only; the kind-level distinction is real =
+cell 4). Pin unchanged. Lock extended (5 green, incl. the corrected labeling identity —
+own first draft of the lock caught wrong and fixed, logged).
