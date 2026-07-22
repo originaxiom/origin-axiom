@@ -1,5 +1,9 @@
 # Changelog
 
+## R27-7 closed + B754 reserved (the P2 stratum begins)
+- Ledger hygiene done: 7 label-only LAW_MAP/RETRACTIONS rows patched with computation paths; the location convention added to LAW_MAP's header.
+- B754 reserved for cc3's P2 spectral-face stratum (19 sealed targets, hunt/p2-spectral, Gate 5-Q binding). R27-6 P2 half under way; P3 deferred.
+
 ## B753 — the mixing structure computed: the dispute dissolves into one exact identity
 - The weld's θ-odd block is exactly unitary, eigenphases ±72° (chat-1's 108° false; the eigenvalue-vs-element distinction provably empty: both real parts = 1/(2φ)). The kind-correct mixing matrix is golden-exact: P = [[φ/√5, 1/(φ√5)],…], and |B₀₀|² = 1−p exactly — B751's Born weight IS the well-posed mixing entry.
 - The one-number pin co-signed (cc+cc3): JUNO stays registered at 0.30902; 1/(φ√5) is program-internal; no post-hoc registrations. Locks test_b753 (4).
