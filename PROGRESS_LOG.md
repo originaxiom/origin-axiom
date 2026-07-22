@@ -7290,3 +7290,19 @@ integrated exactly at the θ-split level, and no way to choose — S072's headli
 (no privacy either). C18's first sub-structure is priced. Gate notes: dirs renamed to
 B759–B762 at the gate; relay files relocated; the AI-trailer commit style flagged to cc3.
 Nothing to CLAIMS.
+
+## 2026-07-22 — B763: the branch-reconciliation sweep — no lost conclusions; the branch-inventory rule minted
+Owner directive at tag pre-branch-reconciliation. Every unmerged ref classified: 6 stale
+refs of banked content deleted/pruned; 3 frozen-by-policy seat records REGISTERED (the
+closure/* pair = the parallel-audit seat's frozen record, deliverables long since ingested
+via integrate-don't-merge; audit/b739 = the collision incident's frozen record, content
+banked as B742); the one live branch (b666-addendum1, tip pinned in the FINDINGS) verified
+FULLY SUPERSEDED file-by-file — main is a strict superset (later-sealed ADDENDUM 2, the
+path-hygiene fixes, the completed campaign through WAVE3 + SYNTHESIS; L105 was adjudicated
+by main's own cell1: 2O = quotient, not the shadow) — and deleted with its recovery pin.
+The déjà-vu adjudicated honestly: components WERE computed before, and every recent arc
+consumed them correctly (QP-2←B264, QP-4←B711/712, DOOR3←B666's banked form) because the
+priors were on main; the structural exposure (this seat reads main + gate-arrivals only)
+is real and now closed by the STANDING RULE: every decadal review runs the branch inventory
+and classifies every unmerged ref — an unclassified branch is a review blocker
+(REVIEW_TEMPLATE 1b). Nothing to CLAIMS.

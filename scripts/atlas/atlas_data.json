@@ -15849,6 +15849,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B763": {
+   "slug": "branch reconciliation",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B264",
+    "B477",
+    "B492",
+    "B666",
+    "B711",
+    "B712",
+    "B737",
+    "B739",
+    "B742",
+    "B756",
+    "L105"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B76": {
    "slug": "cusp quantum group",
    "motifs": [

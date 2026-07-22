@@ -12,6 +12,11 @@ inside a review.*
    with the evidence pointer) or explicitly carried (`[>]`, restated in
    this review's own block with the same id). The `review-actions` gate
    fails the suite if a superseded block retains open items.
+1b. **The branch inventory (B763 rule, 2026-07-22).** Run
+   `git branch -r --no-merged` on both remotes and classify EVERY unmerged
+   ref: stale (delete), frozen-record (must appear in B763's registry or
+   gain an entry there), or live (process before this review closes). An
+   unclassified unmerged branch is a review blocker.
 2. **The declared modulus.** State what this review sampled and what it
    can and cannot certify (the window of merges, which arcs read in full
    vs skimmed, which locks re-run vs trusted-green). Silent truncation is
