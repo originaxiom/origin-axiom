@@ -23,7 +23,7 @@ y-coefficient; the constant-term invariance is genuine mathematics, not blindnes
 - TOMB-L30's seat path: already fixed at #1273 (the audit ran concurrently) — confirmed.
 - REPRODUCIBILITY: test-count refreshed (~2736); the OA_SLOW invisible-skip tier and the
   sympy deprecation/pin documented.
-- Deferred with a registered review item (R28-9): the 122-file /Users/-path topology sweep
+- Deferred with a registered review item (R28-9): the 122-file home-dir-path topology sweep
   over non-sealed tracked text artifacts (sealed outputs stay; the paths are low-harm but
   the sweep is due).
 

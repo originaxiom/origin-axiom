@@ -61,8 +61,8 @@ m=8:
   (s -> -sqrt(4+4sqrt2), i -> -i): rel dev vs sealed = 2.11e-19
   MATCHING EMBEDDING: (s -> +sqrt(4+4sqrt2), i -> +i)  (rel dev 2.11e-19)
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py", line 621, in <module>
+  File "frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py", line 621, in <module>
     main()
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py", line 602, in main
+  File "frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py", line 602, in main
     assert best[1] < mp.mpf('1e-25'), "numeric verification failed"
 AssertionError: numeric verification failed

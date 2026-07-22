@@ -4,7 +4,7 @@ import os
 
 # CELL5 REPRODUCTION COPY: byte-identical to git HEAD (2ec5dce) tests/test_b353_geometric_theta_identification.py
 # EXCEPT this one path line, re-pointed absolutely because this copy lives in the cell dir, not tests/.
-sys.path.insert(0, '/Users/dri/origin-axiom/frontier/B353_geometric_theta_identification')
+sys.path.insert(0, 'frontier/B353_geometric_theta_identification')
 import mpmath as mp
 from geometric_theta import (
     EXPONENTS, SIGN,

@@ -7,8 +7,8 @@ workspace.
 ## Source And Destination
 
 ```text
-canonical repo: /Users/dri/origin-axiom
-staging workspace: /Users/dri/tem_zip
+canonical repo: ~/origin-axiom
+staging workspace: ~/tem_zip
 canonical base: 514c046 / session3-synthesis-freeze
 planned branch: roadmap/atlas-paper-integration
 ```
@@ -89,9 +89,9 @@ Status: complete (`973e77f`).
 Public-safe source material:
 
 ```text
-/Users/dri/tem_zip/docs/RESEARCH_ATLAS_PLAN.md
+~/tem_zip/docs/RESEARCH_ATLAS_PLAN.md
 reader-experience architecture note from local staging
-/Users/dri/tem_zip/docs/PAPER_CANDIDATE_PIPELINE.md
+~/tem_zip/docs/PAPER_CANDIDATE_PIPELINE.md
 ```
 
 Destination:
@@ -121,11 +121,11 @@ Status: complete (`a34df57`).
 Public-safe source material:
 
 ```text
-/Users/dri/tem_zip/papers/README.md
-/Users/dri/tem_zip/papers/CANDIDATES.md
-/Users/dri/tem_zip/papers/ARTIFACT_MANIFEST.md
-/Users/dri/tem_zip/papers/candidates/PC01_obstruction_atlas/PAPER_CARD.md
-/Users/dri/tem_zip/papers/candidates/PC02_conditional_rigidity/PAPER_CARD.md
+~/tem_zip/papers/README.md
+~/tem_zip/papers/CANDIDATES.md
+~/tem_zip/papers/ARTIFACT_MANIFEST.md
+~/tem_zip/papers/candidates/PC01_obstruction_atlas/PAPER_CARD.md
+~/tem_zip/papers/candidates/PC02_conditional_rigidity/PAPER_CARD.md
 ```
 
 Destination:
@@ -155,8 +155,8 @@ Status: complete (`7ef8e77`).
 Private source material:
 
 ```text
-/Users/dri/tem_zip/sandbox/continuous_explorer/runs/campaign_quantum_selector_v1_01/
-/Users/dri/tem_zip/docs/progress/2026-05-28_quantum_selector_campaign_synthesis.md
+~/tem_zip/sandbox/continuous_explorer/runs/campaign_quantum_selector_v1_01/
+~/tem_zip/docs/progress/2026-05-28_quantum_selector_campaign_synthesis.md
 ```
 
 Destination:
@@ -306,7 +306,7 @@ batch requires a public-safe log/changelog/navigation entry.
 
 ## Verification Gate For Every Batch
 
-Run from `/Users/dri/origin-axiom`:
+Run from `~/origin-axiom`:
 
 ```bash
 python -m pytest -q

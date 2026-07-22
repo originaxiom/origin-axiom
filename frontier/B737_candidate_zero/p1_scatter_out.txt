@@ -105,7 +105,7 @@ S5. phi(s) = Lambda_K(s-1)/Lambda_K(s): completed zeta, FE, poles, zeros
   first nontrivial zero of L(s,chi_-3): rho_1 = (0.5 + 8.039737155681466681713623j)
   [PASS] rho_1 on the critical line Re=1/2 (numeric)
   [PASS] zeta_K(rho_1) = 0
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
   [PASS] zeta_K also vanishes at Riemann's rho (0.5+14.1347i): zeta_K = zeta*L
   rho_1 (L-zero): |phi(rho+1e-8)| = 1.12177e+8,  |phi(rho+1)| = 1.54783e-46

@@ -41,6 +41,6 @@ weld side-2 letters built
 [   970.7s]   Ad(relator) = I at 78 (all 4 relators)
 [   970.7s] P4: split Casimir on Sym^2, U (27bar summand), W = ker pi, P_W...
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase1.py", line 237, in <module>
+  File "frontier/B666_leads_campaign/cellA2/a2_phase1.py", line 237, in <module>
     raise AssertionError("no independent slots for the minimal polynomial")
 AssertionError: no independent slots for the minimal polynomial

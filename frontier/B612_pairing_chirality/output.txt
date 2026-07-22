@@ -8,6 +8,6 @@
 
 THE PAIRING-CHIRALITY LAW (dim_odd >= 2): FAIL
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B612_pairing_chirality/pairing_chirality.py", line 91, in <module>
+  File "frontier/B612_pairing_chirality/pairing_chirality.py", line 91, in <module>
     assert ok, "law violated"
 AssertionError: law violated

@@ -19,7 +19,7 @@ b1fddb7983f649bed1b798721e2bc2eb7ea7cbf9dd962a44eed6ec0bb2898707  ./g3_mirror/g3
 
 # DISCLOSED PRIVACY PATCHES (house rule: no model names / no seat paths in committed files):
 #   g3_mirror/g3_run.log, g3_mirror/g3_mirror.py, g1_sign/g1_sign.py:
-#     '/Users/dri/oa-seat-cc2/seat-work' -> '<seat-workdir>'
+#     '<cc2-seat>/seat-work' -> '<seat-workdir>'
 #   g3_mirror/FINDINGS_CC2.md: 'cc2 + sonnet agent' -> 'cc2 + subagent'
 # No other byte changed. SEALS.txt inside the packet verified 7/7 on receipt
 # (two bare-filename rows resolve to g1_sign/ and g4_multipliers/ FINDINGS_CC2.md).

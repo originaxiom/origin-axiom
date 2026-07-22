@@ -17,7 +17,7 @@ the Gamma-lift census (numeric length <= 6; hits exact-certified):
   family phi(a)=B: antipodal-type lifts (len<=6): 0
 
 SnapPy cross-checks:
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 SnapPy: |Isom| = 8; amphichiral: True; group: D4
 Gieseking candidate m000: vol = 1.014941606 (vol(4_1)/2 = 1.014941606); orientable: False; tetrahedra: 1

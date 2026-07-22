@@ -147,7 +147,7 @@ The two predicted orders identical? False
 ------------------------------------------------------------------------------------------
 A5. WRITING THE SEALED PREDICTIONS FILE (before any nesting-cost computation)
 ------------------------------------------------------------------------------------------
-Wrote /Users/dri/oa-seat-cc2/seat-work/residuals_loop/r4_resonance/r4_predictions_SEALED.txt  (4583 bytes)
+Wrote <cc2-seat>/seat-work/residuals_loop/r4_resonance/r4_predictions_SEALED.txt  (4583 bytes)
 SHA256(r4_predictions_SEALED.txt) = 96c005cc008cfcd2c7834241e9f6894803a5f8eca0f7757654d548f332b368a6
 
 ####################################################################################################
@@ -224,6 +224,6 @@ C2. FINAL VERDICT
 ------------------------------------------------------------------------------------------
 NEITHER predictor reaches the sealed threshold on fresh data -- V2b's post-hoc lead DIES (banked kill).
 
-Wrote /Users/dri/oa-seat-cc2/seat-work/residuals_loop/r4_resonance/outputs/r4_results.json
+Wrote <cc2-seat>/seat-work/residuals_loop/r4_resonance/outputs/r4_results.json
 
 TOTAL ELAPSED: 27.0s

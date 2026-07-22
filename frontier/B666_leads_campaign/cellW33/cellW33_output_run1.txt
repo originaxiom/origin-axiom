@@ -26,6 +26,6 @@
   isotypic 2hat: dim 2 (expected 2): True
   isotypic 4': dim 0 (expected 4): False
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellW33/b666_cellw33.py", line 492, in <module>
+  File "frontier/B666_leads_campaign/cellW33/b666_cellw33.py", line 492, in <module>
     assert ok
 AssertionError

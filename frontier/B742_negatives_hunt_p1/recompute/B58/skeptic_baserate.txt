@@ -1,7 +1,7 @@
 B739 Stage-C skeptic check output -- B58 -- BASE-RATE (E20) lens
 Script: scratchpad/skeptic_baserate.py (session 00f419c5); run 2026-07-21
 
-Git provenance (run in /Users/dri/oa-audit-seat/origin-axiom):
+Git provenance (run in <cc3-seat>/origin-axiom):
   $ git show -s --format="%H %ci %s" b53d641b
     b53d641bc5b0f2786d7659efdaf47482982d63a0 2026-06-02 09:45:00 +0200 Add B59: SL(4) fixed-line factorization (numerical); refutes tower prediction
   $ git merge-base --is-ancestor b53d641b 889c30e2 && echo IN-SEALED-BASE  -> IN-SEALED-BASE

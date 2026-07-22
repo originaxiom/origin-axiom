@@ -1,7 +1,7 @@
 """N2 part (c): measure ord(B_odd) for SU(3)_13 (kappa=16). Gate: SU(3)_2 first
 (banked clock 10, tr_odd = -1/phi). Word convention: A1 = T^2 S T (locked)."""
 import sys, os
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/veins/v7_conduit')
+sys.path.insert(0, '<cc2-seat>/seat-work/veins/v7_conduit')
 import mpmath as mp
 from engine_v7 import An_Level
 

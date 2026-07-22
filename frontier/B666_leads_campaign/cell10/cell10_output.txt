@@ -131,7 +131,7 @@ THE SHARPENING (mirror-spectrum-coprime rungs that still carry the even sector):
   G4_direct_totals: PASS
   G5_sector_carry: PASS
 
-results -> /Users/dri/origin-axiom/frontier/B666_leads_campaign/cell10/cell10_results.json
+results -> frontier/B666_leads_campaign/cell10/cell10_results.json
 total wall time: 29.0s
 
 VERDICT: THE QUEUE CLOSES CLEAN — the sector decomposition is stated and verified exactly (20 rungs, banked ladder 13/13, exact sector sums), and the Lemma-1 dependency is stated with its object-level instances exhaustively PROVEN (0 failures).

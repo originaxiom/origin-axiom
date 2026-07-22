@@ -276,7 +276,7 @@ does not promote a claim unless the governance gate is explicitly run and logged
 
 ## Portability
 
-No test or probe may hardcode an absolute machine path (e.g. `/Users/...`, `/home/...`); sibling imports
+No test or probe may hardcode an absolute machine path (any absolute home-directory form); sibling imports
 resolve via `Path(__file__)`-relative paths — for a `frontier/<name>/probe.py`, the `frontier/` directory
 is `pathlib.Path(__file__).resolve().parents[1]`, and a sibling module is loaded from
 `parents[1] / "<sibling>" / "probe.py"` (use `importlib.util.spec_from_file_location` when the module name

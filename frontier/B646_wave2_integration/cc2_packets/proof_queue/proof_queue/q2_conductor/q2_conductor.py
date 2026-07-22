@@ -5,9 +5,9 @@ import sys, math
 from fractions import Fraction
 from functools import reduce
 
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/level_ladder_campaign/scripts')
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/veins/v7_conduit')
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/next_queue/n2_clock_law')
+sys.path.insert(0, '<cc2-seat>/seat-work/level_ladder_campaign/scripts')
+sys.path.insert(0, '<cc2-seat>/seat-work/veins/v7_conduit')
+sys.path.insert(0, '<cc2-seat>/seat-work/next_queue/n2_clock_law')
 import numpy as np
 from engine import enumerate_level_weights, theta_split, HVEE, Cinv3, C6
 from engine_v7 import An_Level

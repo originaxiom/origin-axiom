@@ -44,5 +44,5 @@ weld side-2 letters built
 [  340.1s] (i1, i2) = (0, 6)   (h0, h1) = (0, 6)   [predicted (0,6),(0,6)]
 [  340.1s] VERDICT: CONFIRMED-(0,6)
 [  340.1s] per-block sums match full-78: True
-[  340.1s] wrote /Users/dri/origin-axiom/frontier/B662_successor_campaign/cellB/qblock_78.json
+[  340.1s] wrote frontier/B662_successor_campaign/cellB/qblock_78.json
 [  340.1s] TOTAL runtime 340s

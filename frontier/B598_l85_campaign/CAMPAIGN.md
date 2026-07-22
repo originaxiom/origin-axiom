@@ -107,5 +107,5 @@ identities serve as controls only until re-proved for the J-pairing;
 B597's line-distinctness does not fix relative scales (P2's normalization
 must). Quarantined (outside the cone, queued pre-synthesis): the
 B517→B530→B531→B532 chain findings, P43/P46/P51 (the 07-11/07-12 audit
-reports at /Users/dri/oaudit/oaudit2/), and B591's terminology fix
+reports at <oaudit-seat>/oaudit2/), and B591's terminology fix
 ("graph manifold" → mixed/Haken with two hyperbolic JSJ pieces).

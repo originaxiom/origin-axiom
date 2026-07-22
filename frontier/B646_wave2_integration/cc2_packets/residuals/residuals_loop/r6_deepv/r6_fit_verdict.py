@@ -33,7 +33,7 @@ import sys
 import json
 import numpy as np
 
-sys.path.insert(0, "/Users/dri/oa-seat-cc2/seat-work/veins/v6_tension")
+sys.path.insert(0, "<cc2-seat>/seat-work/veins/v6_tension")
 from lib_fit import (per_realization_curves, fit_all_realizations, mean_sem,   # noqa: E402
                       one_sample_t, welch_t, exp_fit, power_fit, linfit_r2)
 

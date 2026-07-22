@@ -1,5 +1,8 @@
 # Changelog
 
+## R28-9 done — the path-topology sweep (110 files) + the extended hygiene lock
+- Seat topology stripped from all editable tracked text; sealed/frozen bytes intact by policy; append-only records exempted by class (the append-only gate caught the sweep's first attempt at editing history — the lattice defended itself). 50/50 artifact locks green post-sweep.
+
 ## B754 retro-entry + the fourth-pass fixes
 - B754's dedicated ledger entry added (rule-10 omission caught by the audit). Fourth-pass batch: the b711 sub-test rewired (third MB12 lock); the B756 raw log REDACTED with record (exemption removed — the gate is sighted again); Gate 5-Q wired into WORKING_RULES; C17's 24-parameters sub-claim cited (B736); the B753 seal-row scope note; REPRODUCIBILITY refreshed.
 

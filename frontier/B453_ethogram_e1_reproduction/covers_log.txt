@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 == 4_1(5,1): vol=0.9813688  H1=Z/5
    deg 5 cover #0: H1=Z/11 + Z/11  b1=0  vol=4.906844 (=5.000x)

@@ -1,5 +1,5 @@
 ===== word RL (b++RL) =====
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
   J_disc = (5.0 + 2.02849481418012220641229983426382859234179724e-294j)
   (vol 2.02988321282, fit maxrel 5.26e-297, qdeg 5, t-power 2, 1s)

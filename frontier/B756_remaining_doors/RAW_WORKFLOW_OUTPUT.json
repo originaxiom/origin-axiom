@@ -146,7 +146,7 @@
     },
     "d6": {
       "cell": "DOOR6-STALE",
-      "what_done": "Read the ACTUAL Register source (found at /Users/dri/oa-seat-cc2/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json, register.stale[8] and triaged[122]/[123] — the summary line the task quoted is a compressed paraphrase of this raw record) to pin the two flags precisely before touching any banked cell, per the fabricated-citation guard. Then: (a) grepped frontier/B646_wave2_integration/ and frontier/B651_wave3_integration/ down into the actual P4 packet (PREREG_P4.md, prereg baed2eed, p4_run.py, p4_results.json, FINDINGS_CC2.md) and B651's p1_milgram certificate (p1_certificates.json); independently re-derived the E6 bucketed Gauss-sum pipeline in fresh sympy/mpmath code (own reimplementation, not calling the banked gauss_sum function) at r=23 and r=25 to 60-digit precision, and cross-checked r=23 against the certified generic-silence law via the exact Jacobi symbol (23|5). (b) grepped frontier/B647_core_mechanism/ (FINDINGS.md, PREREG_CELL2.md, b647_chain_swap.py, b647_cell2_output.txt) and frontier/B637_corrected_cell3/ (b637_threeform.py, part2b_stage2_fixed_output.txt); proved the gauge-covariance question analytically from the pipeline's own verified linear-algebra properties, and launched an independent live recomputation (extending the banked machinery, own driver script) targeting the two untested triples (0,3,4)/(1,2,4) — this run did not finish inside the session (still executing / left running; reported honestly rather than fabricated).",
+      "what_done": "Read the ACTUAL Register source (found at <cc2-seat>/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json, register.stale[8] and triaged[122]/[123] — the summary line the task quoted is a compressed paraphrase of this raw record) to pin the two flags precisely before touching any banked cell, per the fabricated-citation guard. Then: (a) grepped frontier/B646_wave2_integration/ and frontier/B651_wave3_integration/ down into the actual P4 packet (PREREG_P4.md, prereg baed2eed, p4_run.py, p4_results.json, FINDINGS_CC2.md) and B651's p1_milgram certificate (p1_certificates.json); independently re-derived the E6 bucketed Gauss-sum pipeline in fresh sympy/mpmath code (own reimplementation, not calling the banked gauss_sum function) at r=23 and r=25 to 60-digit precision, and cross-checked r=23 against the certified generic-silence law via the exact Jacobi symbol (23|5). (b) grepped frontier/B647_core_mechanism/ (FINDINGS.md, PREREG_CELL2.md, b647_chain_swap.py, b647_cell2_output.txt) and frontier/B637_corrected_cell3/ (b637_threeform.py, part2b_stage2_fixed_output.txt); proved the gauge-covariance question analytically from the pipeline's own verified linear-algebra properties, and launched an independent live recomputation (extending the banked machinery, own driver script) targeting the two untested triples (0,3,4)/(1,2,4) — this run did not finish inside the session (still executing / left running; reported honestly rather than fabricated).",
       "key_findings": [
         "[FIRM] B646-iii, precisely located: the audit's own raw record (not the one-line Register summary) reads 'r=23 cancellation never re-derived term-by-term against B651's later certificate-grade silence law' — it does NOT claim r=23 itself IS a cancellation. Read closely, neither B646 nor B651 ever asserts a cancellation at r=23: r=23 is the 3rd of 5 sealed predictions (prereg baed2eed) where the inert<=>even-sector correlate DIES (predicted split (0,1), observed (1,0)) — a KILL, not a cancellation. The genuine cancellation banked in the same short paragraph belongs to a DIFFERENT rung, kappa=25=5^2.",
         "[FIRM] Independent re-derivation (fresh sympy/mpmath reimplementation of the bucketed E6 Weyl-class Gauss-sum pipeline, 60-digit precision, deviations ~1e-61, NOT calling the banked gauss_sum function): Z_{+3}(23)=1, Z_{-3}(23)=-1 exactly => (tr_odd,tr_even)(23)=(1,0) exactly, matching banked p4_results.json's KILL verdict exactly.",
@@ -161,11 +161,11 @@
       "honest_gaps": "The B647-note untested-triples check did not complete -- I do not know whether (0,3,4) and (1,2,4) obey the single-slot defect law, the dial-triple's four-term combination form, or neither; this is a real, not rhetorical, gap. The numeric gauge-rescaling spot-check (rescaling rep[1] by a concrete field element and recomputing) also did not finish, so the gauge-covariance FIRM grade rests on the analytic proof alone, not a numeric double-check of it (the proof itself is exact and code-verified, not hand-wavy, but a second independent confirmation would strengthen it further). I took the B575/B637 prefix machinery itself as already-verified banked infrastructure (per its own gates, which passed identically on every rerun) rather than re-auditing it from scratch. I did not attempt r=21/22/24's independent re-derivation (only 23 and 25, the two rungs actually implicated in the flag).",
       "citations": [
         {
-          "ref": "/Users/dri/oa-seat-cc2/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json (register.stale[8], triaged[122]/[123]) -- the primary Register source",
+          "ref": "<cc2-seat>/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json (register.stale[8], triaged[122]/[123]) -- the primary Register source",
           "status": "verified"
         },
         {
-          "ref": "/Users/dri/oa-seat-cc2/seat-work/relay/CC2_REVISIT_REGISTER_2026-07-21.md -- the compressed summary the task quoted",
+          "ref": "<cc2-seat>/seat-work/relay/CC2_REVISIT_REGISTER_2026-07-21.md -- the compressed summary the task quoted",
           "status": "verified"
         },
         {
@@ -314,7 +314,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR2-WITNESS",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784713623112,
       "tokens": 84958,
       "toolCalls": 40,
@@ -335,7 +335,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR3-EULER",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784713048772,
       "tokens": 61642,
       "toolCalls": 15,
@@ -356,7 +356,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR4-COMMENSURATOR",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784713131734,
       "tokens": 72839,
       "toolCalls": 26,
@@ -377,12 +377,12 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR6-STALE",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784714608309,
       "tokens": 241696,
       "toolCalls": 201,
       "durationMs": 1861171,
-      "resultPreview": "{\"cell\":\"DOOR6-STALE\",\"what_done\":\"Read the ACTUAL Register source (found at /Users/dri/oa-seat-cc2/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json, register.stale[8] and triaged[122]/[123] — the summary line the task quoted is a compressed paraphrase of this raw record) to pin the two flags precisely before touching any banked cell, per the fabricated-citation guard. Then: (a) grepped fro…"
+      "resultPreview": "{\"cell\":\"DOOR6-STALE\",\"what_done\":\"Read the ACTUAL Register source (found at <cc2-seat>/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json, register.stale[8] and triaged[122]/[123] — the summary line the task quoted is a compressed paraphrase of this raw record) to pin the two flags precisely before touching any banked cell, per the fabricated-citation guard. Then: (a) grepped fro…"
     },
     {
       "type": "workflow_agent",
@@ -398,7 +398,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR2-WITNESS",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784714846776,
       "tokens": 46579,
       "toolCalls": 27,
@@ -419,7 +419,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR3-EULER",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784714752304,
       "tokens": 44133,
       "toolCalls": 10,
@@ -440,7 +440,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR4-COMMENSURATOR",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784714789208,
       "tokens": 52923,
       "toolCalls": 19,
@@ -461,7 +461,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "DOOR6-STALE (B646-iii and B647-note stale-premise flags, RA…",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784714938035,
       "tokens": 95329,
       "toolCalls": 46,
@@ -482,7 +482,7 @@
       "attempt": 1,
       "lastToolName": "StructuredOutput",
       "lastToolSummary": "Held across all four doors, with no violations found in thi…",
-      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at <cc2-seat>/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
       "lastProgressAt": 1784715136744,
       "tokens": 60772,
       "toolCalls": 9,

@@ -19,7 +19,7 @@ import itertools
 import sys
 import os
 
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/veins/v2_resonance')
+sys.path.insert(0, '<cc2-seat>/seat-work/veins/v2_resonance')
 import numpy as np
 import lib as L
 

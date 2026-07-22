@@ -1,7 +1,7 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B477_sterile_classes/sterile_scan.py", line 8, in <module>
+  File "frontier/B477_sterile_classes/sterile_scan.py", line 8, in <module>
     d = json.load(open('../B461_relation_r2_borromean/ptolemy_systems.json'))
                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: '../B461_relation_r2_borromean/ptolemy_systems.json'
