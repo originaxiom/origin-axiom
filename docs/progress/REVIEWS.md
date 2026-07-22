@@ -1994,5 +1994,8 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
 - [x] R28-7: L108 — the two-ℤ/3 identity cell (B326 ≟ B302; the one DOOR4 residual) — DONE
   2026-07-22 (B757): DISSOLVED — never the same element (torsion-freeness theorem); the mod-4
   coincidence is Sylow-forced (one order-3 class in GL(2,ℤ/4)); shared content = the banked atom
-- [ ] R28-8: the QP cells (S072) — QP-3 first, under Gate 5-Q, when the owner opens the
-  phenomenology track's first arc
+- [x] R28-8: the QP cells (S072) — QP-3 first, under Gate 5-Q, when the owner opens the
+  phenomenology track's first arc — DONE 2026-07-22: ALL FOUR computed by cc3 and banked at
+  the cc gate (B759–B762, #1266: INTEGRATED / NO-HATCH / FLAT / QUINE); the chain updated
+  (C18 priced, C19 the discriminant law); the composite: a transparent self-naming speaker
+  that cannot choose
