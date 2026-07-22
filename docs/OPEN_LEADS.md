@@ -586,3 +586,8 @@ expansions; figure-eight is the prototype — GSWZ). (4) **The inert-5
 derivation**: 5 inert in ℚ(√−3), 3 ramified, level 15 = their product;
 rebuild the hearing group as the Bianchi congruence quotient at 5
 (PSL₂(𝔽₂₅) ⊃ 2I shadow) — the bifocal-is-monofocal-one-level-up cell.
+
+- **L108 — the two ℤ/3's: is B326's congruence ℤ/3 the SAME element as B302's commensurator ℤ/3?**
+  (B756/DOOR4's one live residual; the identity was never established. A dedicated small cell:
+  express both in PGL(2,O₋₃) and test conjugacy/descent. Until then the commensurator
+  generation-route stays ROUTE-OBSTRUCTED, not closed.)

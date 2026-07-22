@@ -1,5 +1,9 @@
 # Changelog
 
+## B756 — cc2's remaining-doors package: DOOR2 law-refutation + DOOR3 exact iff-law banked
+- "5-inert ∧ fibered ⇒ golden" refuted (5 counterexamples; cc recomputed 3 from scratch); the B699 LAW_MAP row scope-corrected (m004-specific content stands).
+- The Euler-product door closes with a theorem: a_m·a_n = a_mn ⟺ χ₂(m)=+1 ∨ χ₂(n)=+1, defect (1−√5)/2 — cc-proved from the banked B666 form. DOOR4 obstructed (L108 registered); DOOR6 flags FIRM. Locks test_b756 (3).
+
 ## B755 — the five carried recomputes: 5/5 LOCATED-BY-RECOMPUTE
 - B140: the genus-2 mirror CS-flip witnessed (two chirality routes). B332: the 1/4 null computed in-repo (0 hits, declared set). B685: the GSWZ pure-3 fact computed from the Kashaev sum itself (r₁,r₂ reproduce the paper; r₃ new; the banked extraction's ⅓/⅘ inline text was superscript mangling — conclusion right); vacuous lock replaced. B720: object-side halves exact (field disjointness; Markov = one non-ADE quiver). S019: tombstone repaired; kill upgraded to a dimension theorem.
 - All five kills CONFIRMED at their basis (nothing flipped). Locks test_b755 (5).

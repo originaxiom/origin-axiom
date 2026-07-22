@@ -7193,3 +7193,18 @@ the broken tombstone citation repaired + the kill upgraded to a dimension theore
 scalar-parameter family: 1×1 Fisher ≥ 0; Lorentzian needs ≥2 indefinite dims). Every
 recompute CONFIRMED its kill's basis (E19: nothing flipped). Locks test_b755 (5).
 Nothing to CLAIMS.
+
+## 2026-07-22 — B756: cc2's remaining-doors package banked — a banked law's general form refuted; a new exact iff-law
+The reopened cc2 seat's four-door sweep (wf_b5354331, prereg ec14cacf hash-verified),
+banked under verify-on-receipt. **DOOR2**: "5-inert ∧ fibered ⇒ golden" (the B699 row's
+general gloss) REFUTED on five exact counterexamples — cc recomputed 3/5 from scratch
+(m022 quartic-697/inert/Alexander a²+5a+1→disc 21; m009 ℚ(√−7)/inert/disc 12; m039
+cubic-−44/inert/disc 32); the LAW_MAP row carries the scope-correction clause; the
+m004-specific content stands; 5-inertness is near-modal in the family. **DOOR3**: cc2's
+own Register framing erratum (mod-5, not level-15 — theirs, owned) and the honest
+result cc PROVED independently from the banked B666 form: a_m·a_n = a_mn ⟺ χ₂(m)=+1 or
+χ₂(n)=+1, exact defect (1−√5)/2 both-nonresidue — the additive Dirichlet form is FINAL.
+**DOOR4**: the commensurator ℤ/3 is real but ROUTE-OBSTRUCTED (4 mechanisms fail); the
+one live residual registered as L108 (is B326's ℤ/3 = B302's?). **DOOR6**: both stale
+flags FIRM (B646-iii benign; B647's law gauge-covariant, proven analytically). Locks
+test_b756 (3). Nothing to CLAIMS.
