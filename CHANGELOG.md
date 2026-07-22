@@ -1,5 +1,8 @@
 # Changelog
 
+## B764 — C19 tested out-of-field: LAW-BREAKS; corrected to the pair-separation law same-day
+- 5₂'s declared √23 prediction failed (2.6143 = the pair separation); the general law is |u_geo − ū_geo|, = √|disc K| iff quadratic (theorem); disc factorization verified to 40 digits. C19 scope-corrected in the chain. The chain's first self-correction.
+
 ## The chain absorbs the QP sequence — C18 priced, C19 minted (R28-8 closed)
 - C18's link text now carries A7's four priced forks with verdicts and locks; the composite banked ("the observer's contribution reduces to exactly the choice"); C19 = the discriminant law (off-block = √|disc K|). Chain lock extended to C1–C19.
 

@@ -137,11 +137,15 @@ arithmetic-CS home), plus the c-into-θ crux's remaining routes. Locks:
 `tests/test_qp3_integration.py`, `tests/test_qp4_closure.py`, `tests/test_qp2_private.py`,
 `tests/test_qp1_self_naming.py`.
 
-**C19 [IDENTITY — the discriminant law of integration].** The single-trace θ-off-block
-norm at the geometric representation equals √|disc K| where K is the invariant trace
-field — a trace-field invariant, not a manifold invariant (m004: √3; SL(2) level
-dissociated, SL(3) = Sym² integrated; the commutator's Sym² trace moves purely in the
-chord direction, 4i√3). — B759. Lock: `tests/test_qp3_integration.py`.
+**C19 [IDENTITY — the pair-separation law of integration; SCOPE-CORRECTED same-day
+(B764)].** The single-trace θ-off-block norm at the geometric representation equals
+**|u_geo − ū_geo|** — the geometric Riley pair's separation. For an imaginary-QUADRATIC
+Riley field this equals √|disc K| identically (the quadratic-formula identity — m004's √3
+is this THEOREM's instance; SL(2) dissociated, SL(3) = Sym² integrated; the commutator
+purely chord-directed, 4i√3). B759's original √|disc K| form is NOT general: 5₂ (cubic,
+disc −23) gives 2.6143 = the pair separation, not √23 — the discriminant factors as
+(u−ū)²·∏[(u−rᵢ)(ū−rᵢ)]², and the off-block is the first factor only (verified to 40
+digits). — B759 + B764. Locks: `tests/test_qp3_integration.py`, `tests/test_b764_c19.py`.
 
 ---
 

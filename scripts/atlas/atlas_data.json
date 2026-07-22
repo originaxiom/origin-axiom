@@ -15872,6 +15872,20 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B764": {
+   "slug": "c19 comparator",
+   "motifs": [
+    "figure_eight",
+    "firewall"
+   ],
+   "refs": [
+    "B759"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B76": {
    "slug": "cusp quantum group",
    "motifs": [
