@@ -1,5 +1,8 @@
 # Changelog
 
+## Safety fix — the seal-ledger generator preserves the collision-protocol rows
+- The generator would have erased all RESERVED/verdict rows on regeneration; it now keeps an append-only marker section (idempotent, lossless — verified 22 RESERVED + 68 arc rows identical to HEAD). Caught by the owner's safety sweep.
+
 ## B764 — C19 tested out-of-field: LAW-BREAKS; corrected to the pair-separation law same-day
 - 5₂'s declared √23 prediction failed (2.6143 = the pair separation); the general law is |u_geo − ū_geo|, = √|disc K| iff quadratic (theorem); disc factorization verified to 40 digits. C19 scope-corrected in the chain. The chain's first self-correction.
 

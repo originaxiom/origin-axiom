@@ -7331,3 +7331,15 @@ off-block is the first factor only (40-digit verification at 5₂). The coupling
 object-specific too (0.3110 vs 15/32). C19 scope-corrected in the chain same-day — the
 first demonstration that chain links are falsifiable objects, not trophies. Locks
 test_b764 (3). Nothing to CLAIMS.
+
+## 2026-07-22 — SAFETY FIX: the seal-ledger generator no longer erases the collision-protocol rows
+The owner's safety sweep caught it: docs/SEAL_LEDGER.md is a generated view whose generator
+rebuilt ONLY the sealed-documents table — running scripts/seal_ledger.py would have silently
+destroyed all 22 RESERVED rows + every verdict row (the collision protocol's backbone,
+adopted after the B737/B739 incident; 76 hand-appended lines total). The committed record
+survived only because nobody had regenerated since the protocol began. Fix: the generator
+now preserves an APPEND-ONLY marker section (migrating the legacy tail automatically);
+verified idempotent (double-regen stable) and lossless (22 RESERVED + 68 arc rows identical
+to HEAD). The rest of the sweep: gates 8/8; main == origin == codeberg; tree clean; branch
+inventory = exactly the 3 frozen records; chain locks 17/17 present and collecting (96
+tests); B500 still grinding; relay quiet; full suite running in background.
