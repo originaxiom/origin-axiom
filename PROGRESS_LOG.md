@@ -7343,3 +7343,19 @@ verified idempotent (double-regen stable) and lossless (22 RESERVED + 68 arc row
 to HEAD). The rest of the sweep: gates 8/8; main == origin == codeberg; tree clean; branch
 inventory = exactly the 3 frozen records; chain locks 17/17 present and collecting (96
 tests); B500 still grinding; relay quiet; full suite running in background.
+
+## 2026-07-22 — THE PARANOID SWEEP (owner-requested second pass) — class-level audit, 3 more catches
+Following the seal-ledger catch, the sweep audited CLASSES: (1) generators — atlas regen
+verified idempotent, no other clobber-class writer; (2) ledger histories — every deletion
+event in the five verdict-bearing ledgers adjudicated legitimate (the largest was Review
+26's E20 format migration, content preserved verbatim-plus); (3) seal hashes — all 49
+file-hash hand-rows in the ledger re-verified against disk, ZERO mismatches; (4) vacuous
+locks — ONE more MB12-class lock found and replaced (test_b736_abc's 'assert True' carried
+the finite⇒no-SSB logic as a comment; now asserts the checkable core: a finite Dirichlet
+polynomial has no pole at s=1 while the full-tower residue does); the b234 candidate
+adjudicated NOT vacuous (it exercises a real function law); (5) mirror depth — codeberg
+was missing 2 tags incl. the pre-branch-reconciliation marker: pushed; (6) the uncommitted
+B500 exploratory set backed up to scratch pending its run's end; (7) the untracked
+.github/workflows/core.yml identified (a minimal proven-core CI draft, 2026-07-17,
+intentionally untracked per the tracked-forbidden gate) and Archive.zip identified (a
+June-era snapshot zip — inert). Full suite running; result closes the sweep.

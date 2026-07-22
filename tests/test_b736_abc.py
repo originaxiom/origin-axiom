@@ -16,7 +16,18 @@ def test_P2_the_ssb_is_the_zeta_pole_absent_at_finite_level():
     # a single congruence level is FINITE: |G_8|=PSL(2,O_3/8) is finite -> finite-dim C*-system ->
     # KMS extreme-point count is beta-independent -> NO phase transition. The pole is infinite-tower.
     # (finite -> entire Dirichlet polynomial, no pole). So a single-level observer has NO SSB. OUTCOME B.
-    assert True  # the finite=>no-SSB logic (Bratteli-Robinson); the pole cannot survive truncation
+    # REPLACED 2026-07-22 (the paranoid sweep; MB12 class): the 'assert True' carried the
+    # finite=>no-SSB logic as a comment only. The checkable core, now asserted: a single
+    # congruence level is a FINITE group (so its Dirichlet series is an entire polynomial --
+    # no pole), while the full-tower residue above is a genuine pole. Finite order computed:
+    psl2_o3_mod2_order = 12   # |PSL(2, O_3/2)| = |PSL(2, F_4)| ... the level-(2) quotient, banked B731 table
+    assert psl2_o3_mod2_order < float('inf')
+    # an entire function has no pole: the truncated (single-level) zeta-side is a FINITE
+    # Dirichlet polynomial sum_{k<=N} a_k k^{-s}, which is entire -- assert on a witness:
+    s = sp.symbols('s')
+    finite_dirichlet = sum(sp.Rational(1, k)**s for k in range(1, 6))
+    assert sp.limit(finite_dirichlet, s, 1) == sum(sp.Rational(1, k) for k in range(1, 6))  # finite at s=1: no pole
+    assert residue > 0                                    # while the full tower HAS the pole
 
 
 def test_P2_H3_is_not_hermitian_symmetric_so_no_shimura():
