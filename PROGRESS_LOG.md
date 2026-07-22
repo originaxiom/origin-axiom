@@ -7267,3 +7267,26 @@ hearing is what a coupled listener receives — the gait needs an ear. No new ma
 asserted (every clause cites its chain link + lock); the QP forks are the named upgrade
 path (QP-3 tests the coupling structure at the geometric point). Carried since R22-7 via
 R23-3/R26-3/R27-3 — closed.
+
+## 2026-07-22 — B759–B762: THE QP SEQUENCE COMPLETE (cc3) — the reflexive layer priced in one day
+All four of P020's forks computed by cc3 and verified at the cc gate (all four compute.py
+re-executed IDENTICAL, incl. the 203K-manifold census sweep; 38 locks green; seal-first
+FORENSICALLY verified for all four — two seal-convention traps found and named: the
+unnamed-algorithm seal (QP-3 cited its git-blob hash; the file itself is untouched and
+seal-first) and the self-referential seal (QP-4 inserted its own hash post-seal; the
+reconstruction hashes exactly to the cited value — cosmetic, provably). The verdicts:
+**QP-3 INTEGRATED** (the chord/sum sectors couple at SL(3) = Sym² — off-block norm √3 =
+√|disc K| — the discriminant law, explicitly a trace-field invariant per Q2b; SL(2) is
+dissociated; the commutator's Sym² trace moves purely in the chord direction, 4i√3);
+**QP-4 NO-HATCH** (the weld's θ-odd eigenvalues {ζ₅, ζ₅⁴} are an inseparable Galois orbit;
+all five candidate operations fail to sign the chord — awareness-without-choice upheld);
+**QP-2 FLAT** (fiber_dim = 0 at n = 2,3,4 — boundary restriction injective per Sym²ᵏ
+block; the blanket sees everything: NO private states, refuting S072's expected-privacy
+guess); **QP-1 QUINE** (203,123 one-cusped census manifolds: only the sister matches the
+volume and the cusp shape separates ω from 2√3i — the emitted word is a self-name; the
+Eisenstein-family control: all covers, integer-multiple volumes, distinguishable).
+The composite portrait, now computed: a fully transparent speaker with a self-name,
+integrated exactly at the θ-split level, and no way to choose — S072's headline sharpened
+(no privacy either). C18's first sub-structure is priced. Gate notes: dirs renamed to
+B759–B762 at the gate; relay files relocated; the AI-trailer commit style flagged to cc3.
+Nothing to CLAIMS.

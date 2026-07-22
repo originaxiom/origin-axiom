@@ -69,7 +69,7 @@ Verified for a generic test point as well (coupling fraction invariant).
 ## Reproduction
 
 ```
-cd frontier/QP4_closure && python compute.py
+cd frontier/B760_qp4_closure && python compute.py
 ```
 
 Output is byte-identical on rerun (deterministic; numpy seeded by algebraic input).
