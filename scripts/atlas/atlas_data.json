@@ -15680,6 +15680,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B756": {
+   "slug": "remaining doors",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B302",
+    "B326",
+    "B646",
+    "B647",
+    "B651",
+    "B666",
+    "B699",
+    "B743"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B75": {
    "slug": "metallic degree rank",
    "motifs": [

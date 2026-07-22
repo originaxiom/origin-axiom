@@ -1,0 +1,495 @@
+{
+  "summary": "The four Register doors nobody picked up: B699 second witness (bundles table), corrected Euler product at bad primes, B302 commensurator route to asymmetric generations, and the two never-computed stale flags",
+  "agentCount": 9,
+  "logs": [],
+  "result": {
+    "d2": {
+      "cell": "DOOR2-WITNESS",
+      "what_done": "Built a joint-hypothesis table over once-punctured-torus bundles (the census sister-pairs m003/m004, m009/m010, m022/m023, m039/m040, plus three newly-constructed Twister mapping-tori at trace 6(alt), 7(primitive, non-cover), 8) using SnapPy 3.3.2 + Sage 10-ish (via `sage <script>.sage`, since plain-python SnapPy lacked Sage support for invariant_trace_field_gens/find_field) + PARI/GP (idealprimedec) in-seat. For each candidate: (a) verified fiberedness/monodromy trace via the EXACT Alexander polynomial (`M.alexander_polynomial()` in Sage-mode SnapPy) — a monic degree-2 Alexander poly a^2 - t*a + 1 is the char-poly of the genuine once-punctured-torus-bundle monodromy A in SL(2,Z), so this is a rigorous fiberedness+trace certificate, not a guess; (b) computed each manifold's invariant trace field exactly via `M.invariant_trace_field_gens().find_field(300 bits, degree≤6, optimize=True)`; (c) computed the EXACT splitting of the prime 5 in each field via PARI `idealprimedec(nfinit(poly),5)` (deterministic, symbolic ideal factorization — no numerics involved once the field poly is fixed); (d) computed monodromy discriminant t^2-4 directly from the trace via exact integer arithmetic (sympy). Also constructed three NEW once-punctured-torus bundles via `snappy.twister.Surface('S_1_1').bundle(monodromy=...)` (verified 1-cusped, positive volume ⇒ genuinely hyperbolic) to test cases the census sister-pairs don't cover: a second, non-covering trace-7 manifold (word R^5L, NOT the double cover (RL)^2 of m004 — confirmed non-isometric to that cover) to test whether \"golden-flavored\" monodromy disc (45=9·5) forces 5-inertness/Q(sqrt-3) independent of m004; a trace-8 manifold (R^3L^2); and a second, non-isometric trace-6 manifold (R^2L^2, distinct from census m039/m040's R^4L trace-6 realization) to test whether trace value alone fixes the field.",
+      "key_findings": [
+        "FORCED/FIRM: m003 (the sister) is a genuine second witness for the NARROW original triple claim — verified Alexander poly a^2+3a+1 (monic, monodromy trace -3, fibered confirmed), invariant trace field x^2-x+1 = Q(sqrt-3) (disc -3, matches m004 exactly, as expected since m003/m004 are the textbook commensurable arithmetic pair over the Bianchi group for O_{-3} — RECALLED literature fact, cross-checked numerically), and 5 is exactly INERT there (idealprimedec: (e,f)=(1,2), exact PARI computation). Monodromy disc = (-3)^2-4 = 5 exactly, matching the golden signature. So the TRIPLE co-occurrence (5-inert ∧ fibered ∧ disc-5) DOES replicate at m003 — but this replication is FORCED by the known commensurability with m004 (same trace field is automatic for commensurable arithmetic manifolds), not an independent confirmation of the general law.",
+        "COUNTEREXAMPLE (repeated, ×5): m009/m010 (trace ±4, ITF=Q(sqrt-7) disc-7), m022/m023 (trace ±5, ITF=quartic disc 697), m039/m040 (trace ±6, ITF=cubic disc -44), and two newly-built bundles M32 (trace 8, ITF=quartic disc 3173) and M51 (trace 7, a genuinely DIFFERENT non-covering manifold from m004's double cover, ITF=degree-6 field disc -453683) are ALL exactly-verified fibered (monic-degree-2-Alexander-poly or Twister-constructed once-punctured-torus bundles) AND exactly-verified 5-INERT (in fact TOTALLY inert: idealprimedec gives a single prime of residue degree = field degree in every one of these 5 cases) — yet NONE has golden (disc-5) monodromy (their monodromy discs are 12, 21, 32, 60, 45 respectively, none equal to 5). This directly falsifies '5-inert ∧ fibered ⇒ golden(disc-5)' as a general implication: the antecedent is satisfied 6 times in this 7-manifold survey, the consequent only once (m003/m004, the same field/mechanism).",
+        "RESEMBLANCE/BASE-RATE FLAG: 5-inertness (often TOTAL inertness) turned out to be the MODAL behavior across this small sample of once-punctured-torus-bundle trace fields (6/7 cases), not a rare or special co-occurrence with fiberedness as B699's phrasing implied ('the surgery's real gift is manufacturing the 5-inert AND fibered [object] at all' reads as if that conjunction were special/rare) — the base rate here argues against treating 5-inert∧fibered as a distinguishing or golden-adjacent property; it appears to be closer to generic for this family. Caveat: n=7 is a small, non-uniformly-sampled set of words (mostly single-run R^p L^q forms), so this could partly reflect a selection effect in which words were easy to construct rather than a deep arithmetic law; a larger systematic sweep would strengthen the base-rate claim.",
+        "COUNTEREXAMPLE-SIDE CONFIRMATION: constructed a genuine 5-SPLIT fibered bundle — M22alt (word R^2L^2, trace 6, a DIFFERENT non-isometric manifold from the census m039/m040 realization of trace 6 via R^4L) has invariant trace field exactly Q(i) (disc -4), and 5 SPLITS completely there (idealprimedec: two primes, each (e,f)=(1,1) — matches the classical fact 5≡1 mod 4 splits in Q(i)). Its monodromy disc is 32 (not 5) — so it correctly LACKS golden structure, consistent with (though only one data point for) the converse direction of the hypothesis.",
+        "STRUCTURAL REFINEMENT: invariant trace field of a once-punctured-torus bundle is NOT a function of the bare monodromy trace alone. Two non-isometric trace-6 bundles were found with completely different fields: m039/m040 (word R^4L, ITF = cubic field disc -44, totally 5-inert) versus the newly built M22alt (word R^2L^2, ITF = Q(i) disc -4, 5-split). This means 'monodromy disc is bundle structure, 5-inert is field structure' (as stated in the task) is correct as a distinction, but the two are not even simply correlated through trace(A) — the field depends on the finer SL(2,Z)-conjugacy class / continued-fraction data of the specific word, not reducible to |t|.",
+        "No ramification of 5 was observed anywhere in the 7-manifold sample (all splitting types had e=1); this is a minor supporting data point, not independently significant given the small sample."
+      ],
+      "outcome": "COUNTEREXAMPLE-FOUND for the general joint-hypothesis law (\"5-inert ∧ fibered ⇒ golden disc-5 monodromy\") — refuted by 5 independent instances (m009/m010, m022/m023, m039/m040, and two newly-constructed bundles M32 trace-8 and M51 trace-7-non-cover) that are exactly-verified 5-inert AND fibered but lack golden(disc-5) monodromy structure. Within that overall refutation, m003 IS a genuine SECOND-WITNESS-CONFIRMS instance for the narrow original triple co-occurrence at trace ±3 specifically — but that replication is FORCED (a known consequence of m003/m004's commensurability, not independent new evidence), so it does not rescue the general law. Net: the joint hypothesis as a LAW is falsified; as a description of the single m004/m003 pair it holds (trivially/forced).",
+      "base_rate_note": "5-inertness (often full/totally-inert Frobenius) occurred in 6 of the 7 sampled once-punctured-torus-bundle trace fields spanning degrees 2 through 6 — well above what a naive 'random prime, random field' base rate would predict for total inertia specifically in cubic/quartic/sextic fields (roughly 1/n for a degree-n field under generic Galois-group heuristics), and roughly at/above 50% for the quadratic cases. This argues against reading 5-inert∧fibered as a rare or golden-adjacent phenomenon; it appears closer to the generic/default behavior in this family. Caveat: n=7 with a non-uniform sampling of monodromy words (mostly simple R^pL^q forms chosen for constructibility, not a random/exhaustive sweep) means this could partly be a selection artifact rather than a deep law — flagged honestly rather than oversold.",
+      "firewall_note": "Gate 5 / Gate 5-Q respected throughout: all findings are stated as pure arithmetic-topology facts (fiberedness via Alexander polynomial, invariant trace field, prime splitting) with no Standard-Model value or physics label attached at any point; 'golden' and 'silver' are used purely as this project's own established shorthand for disc-5-type and Q(i)-type algebraic signatures (per the existing B699/B702 vocabulary already in the ledger), not as any physical interpretation.",
+      "honest_gaps": "Per THE LINDEP RULE: the m003/m004 field identification (Q(sqrt-3), disc -3) is FIRM — it is cross-validated by independent, well-established literature (m003/m004 are the textbook minimal-volume commensurable arithmetic pair over the Bianchi group for Q(sqrt-3); this is recalled domain knowledge, not verified from primary sources in this session) AND by the 300-bit-precision SnapPy/PARI find_field computation, which agree. The higher-degree field identifications (quartic disc 697 & 3173, cubic disc -44, degree-6 disc -453683) rest on SnapPy's standard find_field method (PSLQ/algdep-style identification at 300 bits precision, degree ≤6) — a widely used, reliable technique in the field, but NOT independently re-derived here from the raw gluing-variety/Neumann-Zagier equations, and I have no independent literature cross-check for these specific discriminants the way I do for m003/m004. This is flagged per the lindep rule as high-confidence-numerical rather than first-principles-symbolic. By contrast, the prime-5 SPLITTING computation for every field (idealprimedec via PARI) is fully exact and deterministic ONCE the defining polynomial is fixed — that step carries no numerical uncertainty. I did not attempt an exhaustive/systematic census sweep (e.g., scanning the full m00X-m0XX range programmatically) because a full-census volume-matching scan timed out (2 min) in this session; the 7-manifold sample here is representative but not exhaustive, which bears on the base-rate claim above. I also did not pin down a census name for the three Twister-constructed manifolds (M22alt, M32, M51) — they are treated as bona fide (verified 1-cusped, positive-volume, hence genuinely hyperbolic) manifolds in their own right rather than identified against the named census, which is sufficient for the counterexample argument but leaves a minor loose end for anyone wanting to cite them by census name later.",
+      "citations": [
+        {
+          "ref": "B699 (frontier/B699_two_object_surgery/FINDINGS.md, TWO_OBJECT_CLOSE.md, PREREG_TWO_OBJECT.md) - source of the joint hypothesis under test",
+          "status": "verified"
+        },
+        {
+          "ref": "docs/LAW_MAP.md row 'THE HEARING IS A BUNDLE PHENOMENON...' (B699) - exact banked wording of the overreach tested here",
+          "status": "verified"
+        },
+        {
+          "ref": "docs/LAW_MAP.md row 'THE SWAP TORSION/AUDIBILITY LAWS (B702)' - source of the project's own 'golden'/'silver' field vocabulary reused here",
+          "status": "verified"
+        },
+        {
+          "ref": "B640, B674, B743, B747, B748, B740, B298, B307, B739, B754 - grepped present in repo (non-zero hits), not individually re-read in depth this session",
+          "status": "flagged"
+        },
+        {
+          "ref": "m003/m004 known commensurable arithmetic pair over Q(sqrt-3) Bianchi group (Neumann-Reid-type result)",
+          "status": "recalled"
+        },
+        {
+          "ref": "SnapPy invariant_trace_field_gens/find_field computations (this session, Sage 10.x + SnapPy 3.3.2, 300-bit precision, degree ≤ 6) for m003, m004, m009, m010, m022, m023, m039, m040, and three Twister-built bundles",
+          "status": "verified"
+        },
+        {
+          "ref": "PARI idealprimedec(nfinit(poly),5) exact prime-5 splitting computation for all 7 fields",
+          "status": "verified"
+        },
+        {
+          "ref": "Alexander polynomials for m003,m004,m006,m007,m009,m010,m011,m015,m016,m017,m022,m023,m026,m029,m039,m040 (this session, Sage-mode SnapPy)",
+          "status": "verified"
+        }
+      ]
+    },
+    "d3": {
+      "cell": "DOOR3-EULER",
+      "what_done": "Reconstructed a_n exactly from the banked B666-cell3 definition (frontier/B666_leads_campaign/cell3/cell3_landscape.py, PART B): a_n = (phi*chi0(n) + phi^(-2)*chi2(n))/2 for n>=3, chi0 = principal char mod 5, chi2 = Legendre symbol mod 5 ({0:0,1:1,2:-1,3:-1,4:1}) -- confirmed this equals the true trace-sequence value only for n>=3 (the GF's own correction terms show physical a_1=a_2=0, so those two indices are outside the sequence's domain and were excluded from all tests). Built a sympy-exact test harness (scratchpad scripts door3_euler.py/2/3/4) and: (1) reproduced B666's a_3*a_7 != a_21 witness exactly; (2) checked gcd(21,5): 21 is COPRIME to 5, so under the ACTUAL banked modulus (which is 5, not 15) B666's witness is already a good-prime case, not a bad-prime artifact; (3) exhaustively tested restricted multiplicativity a_m*a_n = a_mn for gcd(m,n)=1, m,n>=3, mn<=400, under three coprimality filters (coprime-to-5, coprime-to-15 per the task's literal hypothesis, and unrestricted) -- all three show numerous exact failures (sympy-verified, not float); (4) derived the general closed-form algebraic law for gcd(m,5)=gcd(n,5)=1 pairs: a_m*a_n - a_mn = 0 whenever chi2(m)=+1 or chi2(n)=+1, but equals the EXACT nonzero constant (1-sqrt5)/2 whenever chi2(m)=chi2(n)=-1 (both m,n are quadratic non-residues mod 5, i.e. m,n = 2 or 3 mod 5) -- proved symbolically with sympy over all four sign combinations, not just spot-checked.",
+      "key_findings": [
+        "FORCED: the task's premise that the relevant modulus is 'level 15' with bad primes {3,5} does not match the banked B666-cell3 definition -- chi0, chi2 there are explicitly mod-5 characters (level 5, single bad prime 5); 'level 15' and its bad primes {3,5} belong to a DIFFERENT B666 object entirely (cellS's full hearing image im(rho) at level 15, B640) that has nothing to do with this generating function -- conflating the two was a citation/object-matching error in the Register, not a fact about the golden-stage GF.",
+        "OBSTRUCTED: under the correct (mod-5) modulus, gcd(21,5)=1, so B666's own a_3*a_7 vs a_21 witness is ALREADY a good-prime case, not a bad-prime one -- the premise that 'B666's kill actually only tested a bad-prime case' is FALSE; there is no bad-prime escape hatch to exploit.",
+        "FIRM (exact, sympy-verified): restricted multiplicativity a_m*a_n=a_mn FAILS even when both m,n are coprime to 5 (or to 15) and coprime to each other -- e.g. exact failures at (m,n)=(3,7)->21, (7,8)->56, and 71 more pairs found in a systematic scan to mn<=400 under the coprime-to-15 filter alone.",
+        "FIRM (exact algebraic law, proved by sympy over all sign cases, not numerics): for gcd(m,5)=gcd(n,5)=1, a_m*a_n=a_mn holds exactly IFF chi2(m)=+1 or chi2(n)=+1 (at least one a quadratic residue mod 5), and fails with the EXACT constant defect (1-sqrt5)/2 whenever chi2(m)=chi2(n)=-1. Since there are infinitely many primes in each residue class mod 5 (Dirichlet), this failure recurs at infinitely many good-prime pairs -- it cannot be patched by correcting local factors at any FINITE set of bad primes (3, 5, or otherwise).",
+        "STALE-CLOSING: the door as registered ('was the multiplicativity failure a bad-prime artifact fixable by modified local Euler factors at 3,5?') is answered definitively NO by direct exact computation, independent of and correcting the level-15/bad-prime{3,5} framing that motivated opening it."
+      ],
+      "outcome": "NO-PRODUCT — the door is CLOSED. Restricted multiplicativity away from any finite bad-prime set fails exactly (sympy-verified) and the failure is proved (not just observed) to recur infinitely often, via the closed-form defect a_m a_n - a_mn = (1-sqrt5)/2 whenever chi2(m)=chi2(n)=-1. No corrected Euler product (standard degree-2 factors at good primes, modified degree-1 factors at bad primes 3 and/or 5) can reproduce a_n for n<=200 or beyond; B666's refutation of a genuine Euler product stands, and is in fact stronger than the original witness suggested since the failure is generic rather than confined to bad primes. Additionally the task's own level-15/bad-primes-{3,5} hypothesis is factually corrected: the object's real modulus is 5 (single bad prime 5), and 21=3*7 is coprime to 5, so B666's original witness was already a good-prime case, not the bad-prime case the Register imagined.",
+      "base_rate_note": "A priori, an affine combination c1*chi_1(n) + c2*chi_2(n) of two DISTINCT Dirichlet characters (here the principal character and the Legendre symbol mod 5) with unequal, character-independent coefficients (phi/2 vs phi^-2/2) has no general reason to be multiplicative -- multiplicativity is a strong, non-generic algebraic property, and a random affine mixture of two multiplicative functions is essentially never itself multiplicative except in degenerate cases (e.g., one coefficient zero, or the two characters coincide). The a priori base rate that 'a natural-looking arithmetic sequence built this way happens to be multiplicative away from finitely many bad primes' is low; the exact computation here matches that expectation rather than overturning it -- this is a confirmatory result, not a surprising one, which lowers residual worry about an error in the negative finding.",
+      "firewall_note": "Gate 5-Q respected throughout: no SM value, no physics label was attached to a_n, chi0, chi2, or the Euler-product question -- this was treated purely as a number-theoretic/arithmetic-function question about a banked closed-form sequence and its Dirichlet-series structure. THE LINDEP RULE was honored: every claim of failure or success of a_m*a_n=a_mn was checked via sympy exact rational/radical arithmetic (sp.simplify/sp.nsimplify equality to zero), never floating-point comparison or numeric integer-relation guessing; the general algebraic law (chi2(m)=chi2(n)=-1 => exact defect (1-sqrt5)/2) was derived symbolically over all four +-1 sign combinations, not inferred from a finite numeric scan alone (the scan to n<=400 then serves as an independent corroboration of the closed-form law, not as the sole evidence).",
+      "honest_gaps": "Did not attempt to construct or rule out EVERY conceivable corrected-Euler-product ansatz (e.g., allowing the bad-prime local factors to be non-standard higher-degree, or allowing a twist/character shift of the whole product) -- the finding is that the SIMPLE restricted-multiplicativity hypothesis (a_m a_n = a_mn for m,n coprime to the modulus and to each other) fails, which is sufficient to close the specific door as registered (a genuine Euler product with corrected local factors only at finitely many bad primes requires exactly this restricted multiplicativity, so its failure is fully dispositive), but I did not explore exotic non-Euler-product 'motivic' structures that might still organize a_n (e.g. as coefficients of a Hilbert or half-integral-weight form with a different multiplicative convention) -- that remains genuinely open ground, just not what this door asked. Did not independently re-derive chi0/chi2/the closed form from first principles (i.e. did not re-run cell3_landscape.py or re-derive the SU(3)_2 trace construction) -- I took the banked closed-form definition as given (per the task's own instruction to 'reconstruct a_n exactly from the banked definition') and verified internal consistency (the a_1,a_2 correction-term reasoning) rather than re-deriving the trace formula from the group-theoretic construction myself.",
+      "citations": [
+        {
+          "ref": "B666_leads_campaign/cell3/cell3_landscape.py (PART B: a_n closed form, chi0/chi2 mod 5, GF identity, Euler-product refutation lines 441-500)",
+          "status": "verified"
+        },
+        {
+          "ref": "B664_metallic_landscape (referenced as 'the B664 registered question' in cell3_landscape.py header)",
+          "status": "verified"
+        },
+        {
+          "ref": "B570_allowed_plays/c3_e6_level2_monodromy.py (loaded directly by cell3_landscape.py for Part A stage build)",
+          "status": "verified"
+        },
+        {
+          "ref": "B594_e6_hearing (E6 stage pattern referenced in cell3_landscape.py comments)",
+          "status": "verified"
+        },
+        {
+          "ref": "B238_su32_levelrank/su32_wrt.py (loaded directly by cell3_landscape.py for the golden/SU(3)_2 stage)",
+          "status": "verified"
+        },
+        {
+          "ref": "B640_hearing_group (the actual level-15 full hearing image im(rho), cited in B666_leads_campaign/cellS/verify_rigidity.py -- a DIFFERENT object from this door's a_n, used here only to show the level-15/bad-primes-{3,5} premise was misattributed)",
+          "status": "verified"
+        }
+      ]
+    },
+    "d4": {
+      "cell": "DOOR4-COMMENSURATOR",
+      "what_done": "Read frontier/B302_multiplicity_hidden_z3 (FINDINGS.md, multiplicity_hidden_z3.py, verdict.py) plus the surrounding cluster it cites or is cited by (B298, B307, B324, B325, B326, B734, B349) to pin exactly what B302 claims and why it survives the B298/B307 impossibility. Then computed/re-verified the first discriminating step: does the hidden Z/3 act on any matter-carrying object with three genuinely inequivalent orbits (the \"asymmetric-generation shape\" the door needs), across every candidate mechanism found or derivable. Independently re-ran the load-bearing algebra in-sandbox (sympy, exact ℤ[ω] arithmetic, no floats) rather than trusting the banked scripts' printed output.\n\nB302 pinned: m004's knot group is torsion-free (no internal order-3; Sym(m004)=D4, order 8), but its commensurator (Neumann–Reid: m004 is arithmetic over ℚ(√−3)) is the Bianchi group PGL(2,O₋₃), which HAS order-3 elements (exhibited: g=[[0,−1],[1,−1]], g³=I; the Eisenstein unit ω, ω³=1) — because ℚ(√−3) carries extra (Eisenstein) units. m004 sits as an index-12 cover (Riley) of the minimal orbifold ℍ³/PGL(2,O₋₃) that carries this order-3 torsion. B302 explicitly does NOT claim this Z/3 IS the generation symmetry (physics dictionary, firewalled) — it only locates a hidden Z/3 in the relation (commensurability class), not the object.\n\nWhy B298/B307 do not kill this route (re-confirmed, FIRM): B298/B307 are theorems about a SINGLE hyperbolic knot's OWN invariant trace field — no hyperbolic knot's trace field can be Galois-cyclic (C₃, \"symmetric triple\") because Galois ⟹ totally real ⟹ no complex place, contradicting the hyperbolic geometric representation (always has a complex place). This is an INTERNAL algebraic obstruction on Γ's trace field. B302's Z/3 lives in Comm(Γ)=PGL(2,O₋₃), an EXTERNAL group acting on the ambient arithmetic lattice — a different mathematical object entirely, and in fact its absence from Γ itself (torsion-free) is the same fact underlying B298. So the escape is structurally valid, not a rules-lawyering dodge.\n\nFirst discriminating step — tested every candidate \"matter-carrying object with 3 orbits\" I could find or derive:",
+      "key_findings": [
+        "FIRM — B302's core claim re-verified in place: knot group torsion-free (Sym order 8, no order-3); commensurator PGL(2,O_-3) has an exact order-3 element g=[[0,-1],[1,-1]] (g^3=I, re-verified in sympy) and the Eisenstein unit ω (ω^3=1); this is a genuinely different object from Γ's own trace field, so B298/B307's single-object impossibility theorem does not apply to it — the escape from those theorems is valid, not a resemblance.",
+        "FORCED negative — the natural conjugation mechanism (B302/B324's own construction: three 'generations' as g^i-conjugates of the holonomy representation, gen_i = g^i·{a0,b0}·g^-i) is mechanically incapable of producing inequivalent copies. Re-verified exactly in-sandbox (sympy, ℤ[ω]): tr(a_i)=tr(b_i)=2 for i=0,1,2 identically, because conjugation always preserves trace (tr(PAP^-1)=tr(A)) — an elementary, unconditional linear-algebra fact, not a coincidence of this witness. Equal character across all three copies means they are mutually EQUIVALENT (conjugate) representations — the symmetric shape, the opposite of what the door needs. This is a structural obstruction to the whole conjugation-based family of constructions, not a resource limit.",
+        "RESEMBLANCE, not a real advance — decomposing the cross-trace overlap matrix M[i,j]=tr(a_i b_j^-1) (built from the three g-conjugates) into its three eigenspaces DOES give three formally distinct characters (re-verified exactly: eigenvalues 1, ω²=-0.5-0.866i (|·|=1), and 7-√3i (|·|=√52≈7.21), matching B324's banked numbers). But this three-way split is a generic consequence of Schur's lemma for ANY ℤ/3-linear action on ANY 3-dimensional space with distinct eigenvalues — it needs none of m004's specific arithmetic (not O_-3, not the index-12 cover, not the commensurator). It fails the cell's own base-rate-hard bar: a Z/3 splitting a 3-dim rep into 3 characters is cheap/universal, not object-specific.",
+        "FORCED negative — the coset-permutation candidate (derived this session, not previously banked as far as grep found): g of order 3 acting by left-multiplication on the 12 cosets of Γ in PSL(2,O_-3) (Riley's index-12 embedding) is provably fixed-point-free — if g fixed coset hΓ then h^-1gh∈Γ, an order-3 element of Γ, contradicting Γ torsion-free (the same fact underlying B298). Order-3 + no fixed points ⇒ every orbit has size exactly 3 ⇒ exactly 4 orbits of size 3. But size-3 orbits mean the three cosets IN each orbit are cyclically interchanged by g — symmetric/interchangeable within each triple, again the opposite of 'three inequivalent things.'",
+        "FORCED negative, different-object flag — B326 (already banked) computed a Z/3 acting on a matter-carrying arithmetic object (H₁=(ℤ/4)² of m004's 3-fold cyclic cover) via the companion matrix of Φ₃ mod 4, and found it IRREDUCIBLE mod 4 (and mod 2) — the module cannot split into three separately-labeled pieces at all ('cannot carry independent torsion labels'). This is suggestive but I flag explicitly: this Z/3 is the DECK GROUP of the canonical abelian 3-fold cyclic cover (from H₁(knot)=ℤ↠ℤ/3), which exists generically for every knot with infinite-cyclic H₁ — it is NOT shown identical to B302's hidden commensurator element g. Treating them as the same Z/3 (as B326's FINDINGS loosely implies by cross-referencing B302) would itself be an unverified resemblance; I did not find a proof they coincide.",
+        "Net: every candidate mechanism tested for 'the hidden Z/3 acts on a matter-carrying object with three inequivalent orbits' either fails by a forced structural fact (conjugation preserves trace; torsion-freeness forces fixed-point-free coset action; congruence torsion is irreducible) or only 'succeeds' via a generic representation-theory triviality unrelated to m004's specific arithmetic (Schur's-lemma eigenspace split). No genuinely object-specific, arithmetic-forced asymmetric-orbit mechanism was found or constructed."
+      ],
+      "outcome": "ROUTE-OBSTRUCTED (precisely scoped: B302's core claim — a genuine hidden ℤ/3 in the arithmetic commensurator PGL(2,O₋₃), correctly escaping B298/B307's single-object impossibility — stays FIRM/banked and is NOT what's obstructed. What is obstructed is the door's own next discriminating step: every computable candidate for that ℤ/3 acting on a matter-carrying object with three inequivalent orbits either is mechanically forced to give equivalent/symmetric copies, or gives inequivalent pieces only through a generic Schur's-lemma triviality that carries no m004-specific arithmetic content, or uses a different, unidentified Z/3 that is itself irreducible. No object-specific asymmetric-orbit realization was found.)",
+      "base_rate_note": "Two of the five candidates tested look superficially like a \"pass\" (three inequivalent things exist) but fail base-rate scrutiny on inspection: (1) the eigenspace-decomposition of a Z/3-invariant operator into 3 distinct characters is true for essentially any Z/3 acting linearly on any 3-dim space (Schur's lemma) — it requires none of m004's arithmetic, so finding it here is uninformative about this specific object; (2) \"a Z/3 exists in the commensurator\" is itself the thing the cell warns is generic (\"a Z/3 exists somewhere is generic\") — B302 already anticipated this by firewalling the generation-identification. The two genuinely forced/negative results (trace-invariance under conjugation; torsion-freeness forcing fixed-point-free coset orbits) are the informative ones, and both point away from the door, not toward it.",
+      "firewall_note": "Gate 5-Q held throughout: no SM value or physics label was asserted. Findings are stated structurally (\"a matter-carrying representation,\" \"three copies,\" \"characters/eigenspaces,\" \"orbits\") rather than in terms of masses, Yukawas, or \"the 27\" — matching B302/B324's own fencing, which this cell's computation does not cross. The generation-identification of any Z/3 found here remains explicitly firewalled, exactly as B302/B324/B325 already state.",
+      "honest_gaps": "Did not exhaustively search for mechanisms beyond the five tested (conjugation, coset-permutation, generic eigenspace split, congruence-torsion deck action, and the abstract commensurator existence itself) — e.g., did not check genus/class-field theory (moot: Q(√−3) has class number 1, so no room for a class-group Z/3), did not run a full permutation-character computation of PSL(2,O_-3) on G/Γ via GAP/Magma (my coset-orbit conclusion rests on an elementary, exact group-theory proof, not a computational enumeration, so no tool gap there), and did not resolve whether B326's cyclic-cover deck Z/3 is provably identical to or independent of B302's commensurator element g — that ambiguity is flagged, not settled, and is a legitimate loose end in the banked frontier itself (B326's FINDINGS cross-references B302 without proving the identification). Did not verify B325/B326's underlying scripts by rerunning them (relied on reading their FINDINGS.md, which cite exact SnapPy/sympy computations); did independently rerun and exactly reproduce B302's and B324's core numeric claims.",
+      "citations": [
+        {
+          "ref": "B302_multiplicity_hidden_z3 (FINDINGS.md, multiplicity_hidden_z3.py, verdict.py)",
+          "status": "verified"
+        },
+        {
+          "ref": "B298_generation_obstruction (FINDINGS.md)",
+          "status": "verified"
+        },
+        {
+          "ref": "B307_totally_real_obstruction (FINDINGS.md)",
+          "status": "verified"
+        },
+        {
+          "ref": "B324_omega_circulant_verified (FINDINGS.md) — core numeric claims independently re-derived in-sandbox and matched exactly",
+          "status": "verified"
+        },
+        {
+          "ref": "B325_z3_protection_refuted (FINDINGS.md)",
+          "status": "verified"
+        },
+        {
+          "ref": "B326_congruence_torsion (FINDINGS.md)",
+          "status": "verified"
+        },
+        {
+          "ref": "B734_m004_is_congruence (FINDINGS.md)",
+          "status": "verified"
+        },
+        {
+          "ref": "B349_irregular_covers_galois (FINDINGS.md)",
+          "status": "verified"
+        }
+      ]
+    },
+    "d6": {
+      "cell": "DOOR6-STALE",
+      "what_done": "Read the ACTUAL Register source (found at /Users/dri/oa-seat-cc2/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json, register.stale[8] and triaged[122]/[123] — the summary line the task quoted is a compressed paraphrase of this raw record) to pin the two flags precisely before touching any banked cell, per the fabricated-citation guard. Then: (a) grepped frontier/B646_wave2_integration/ and frontier/B651_wave3_integration/ down into the actual P4 packet (PREREG_P4.md, prereg baed2eed, p4_run.py, p4_results.json, FINDINGS_CC2.md) and B651's p1_milgram certificate (p1_certificates.json); independently re-derived the E6 bucketed Gauss-sum pipeline in fresh sympy/mpmath code (own reimplementation, not calling the banked gauss_sum function) at r=23 and r=25 to 60-digit precision, and cross-checked r=23 against the certified generic-silence law via the exact Jacobi symbol (23|5). (b) grepped frontier/B647_core_mechanism/ (FINDINGS.md, PREREG_CELL2.md, b647_chain_swap.py, b647_cell2_output.txt) and frontier/B637_corrected_cell3/ (b637_threeform.py, part2b_stage2_fixed_output.txt); proved the gauge-covariance question analytically from the pipeline's own verified linear-algebra properties, and launched an independent live recomputation (extending the banked machinery, own driver script) targeting the two untested triples (0,3,4)/(1,2,4) — this run did not finish inside the session (still executing / left running; reported honestly rather than fabricated).",
+      "key_findings": [
+        "[FIRM] B646-iii, precisely located: the audit's own raw record (not the one-line Register summary) reads 'r=23 cancellation never re-derived term-by-term against B651's later certificate-grade silence law' — it does NOT claim r=23 itself IS a cancellation. Read closely, neither B646 nor B651 ever asserts a cancellation at r=23: r=23 is the 3rd of 5 sealed predictions (prereg baed2eed) where the inert<=>even-sector correlate DIES (predicted split (0,1), observed (1,0)) — a KILL, not a cancellation. The genuine cancellation banked in the same short paragraph belongs to a DIFFERENT rung, kappa=25=5^2.",
+        "[FIRM] Independent re-derivation (fresh sympy/mpmath reimplementation of the bucketed E6 Weyl-class Gauss-sum pipeline, 60-digit precision, deviations ~1e-61, NOT calling the banked gauss_sum function): Z_{+3}(23)=1, Z_{-3}(23)=-1 exactly => (tr_odd,tr_even)(23)=(1,0) exactly, matching banked p4_results.json's KILL verdict exactly.",
+        "[FIRM] Same independent method at kappa=25: Z_{+3}(25)=0, Z_{-3}(25)=2 exactly => (tr_odd,tr_even)(25)=(-1,+1) exactly, confirming the banked 'EXACT CANCELLATION between parity sectors' via the actual signed sub-sector terms (not inferred from bare Z=0, directly answering the audit's stated worry that the cancellation label might be a loose inference).",
+        "[FIRM] r=23 cross-checked against B651's CERTIFICATE-GRADE generic-silence law (P1/P2, p1_certificates.json, zero floats): exact Jacobi symbol (23|5)=-1 (sympy) gives Z_generic(23)=(1-(23|5))/2=1, an exact match to Z_{+3}(23)=1. kappa=25 is OUTSIDE that certificate's scope entirely (5|25 violates the law's coprimality hypothesis; p1_certificates.json only carries witnesses at r=13,29) — confirmed by direct inspection, so B651's certificate and B646/B651's kappa=25 discovery do not conflict, they cover disjoint domains. B646 and B651 AGREE with each other and with this fresh recomputation on every point; the Register's one-line paraphrase mildly conflates which rung does which, but the underlying banked science is exact and uncracked.",
+        "[FIRM] B647-note's gauge-variance stale_premise, PROVEN (not merely spot-checked): the chain-level DEFECT LAW 'S2(J.z1;lam,mu) - conj(S1(z1;lam,mu)) = 2.conj(Y)' is GAUGE-COVARIANT under the full H1-representative rescaling freedom Y[ijk]->c_i c_j c_k Y[ijk] (Cell 3's gauge group). Derivation from three code-verified facts: (i) Side.make_omega (b637_threeform.py) is exactly trilinear in its three cocycle-vector arguments (zval is K-linear in z; Cval is a fixed trilinear cubic form over 270 banked coefficients); (ii) S_eval is a fixed K-linear combination of om(...) evaluations via certificate/Fox-calculus bookkeeping that never depends on cocycle scale, so it inherits the same linearity per argument; (iii) J=U27-compose-conj is exactly CONJUGATE-linear because kconj is a ring automorphism of K=Q(sqrt-3) (kconj(c*x)=kconj(c)*kconj(x), verified directly from K's multiplication rule a*a-3*b*b / a*b+b*a). Consequence: under rep_i -> c_i*rep_i for i in a triple, Y[ijk] scales by the PLAIN product c_i c_j c_k (Y never routes through J), while every chain-level defect pairs exactly one J-transported evaluation against one plain evaluation with a final conjugation, so it scales by conj(c_i c_j c_k) -- the identical factor that 2*conj(Y[ijk]) picks up. The equation survives in every gauge even though each side individually is gauge-variant, exactly consistent with (not contradicted by) Cell 3's separate finding that arg Y[134] alone is convention-relative.",
+        "[STALE - genuinely still open] B647-note's open_door (do the two untested nonzero triples (0,3,4) and (1,2,4), out of the six nonzero triples of {0,1,2,3,4}, obey the same single-slot defect law as the three tested 'lawful' triples?): launched an independent live recomputation extending the exact banked B637/B647 machinery (own driver script mirroring b647_chain_swap.py, restricted to skip the expensive (2,3,4)-adjacent enumeration and target only the two untested triples plus a gauge spot-check). The E6-exact-cubic pipeline is genuinely expensive on this machine (prefix stage alone ran 135-220s across three attempts, contention-dependent) and the run did not complete inside the session window. This sub-claim remains UNRESOLVED -- reported honestly rather than asserting a result I do not have. The process was left running (PID 33752; log /private/tmp/claude-501/-Users-dri-oa-seat-cc2/4f5b2428-26a6-4696-9084-2c36a8759c44/scratchpad/b647note_lean.log) and the driver script is complete, correct, and ready to finish or be rerun."
+      ],
+      "outcome": "Both Register flags located precisely against their PRIMARY source (RAW_WORKFLOW_OUTPUT.json, not the compressed one-line summary) and computed on the record. B646-iii: FIRM -- fully re-derived term-by-term (fresh 60-digit-precision sympy/mpmath, independent reimplementation) against B651's certificate-grade silence law; B646 and B651 agree exactly with each other and with the fresh computation; the Register's own phrasing ('r=23 cancellation') is a benign compression of two adjacent facts in the banked prose (kill-at-23, cancellation-at-25), not a crack in the science. B647-note: SPLIT verdict -- the gauge-variance concern is FIRM (resolved by an exact proof from the pipeline's own verified linearity/conjugate-linearity structure, not merely asserted); the untested-triples open_door remains genuinely OPEN/STALE -- the live recomputation was launched correctly but did not finish in-session, and is reported as unresolved rather than fabricated. Net: 1.5 of 2 flags fully closed; the residual is a concrete, well-scoped, still-running computation, not a re-opened doubt.",
+      "base_rate_note": "Consistent with the parent false-negative audit's own headline (~1/3 of 209 banked items reconfirm FIRM on fresh recomputation; the dominant failure mode is OVERREACH -- sound computation, over-scoped headline -- not wrong math; only 3 genuine cracks in 209 items): neither flag here cracked anything. B646-iii's underlying arithmetic was already exactly right; the only issue was a compressed paraphrase inviting a misreading. B647-note's core law (the chain-level defect identity) also holds and is now proven gauge-robust; its only real gap is incompleteness of scope (2 of 6 nonzero triples untested), the textbook OVERREACH pattern this same audit flags ~130/209 times elsewhere -- not a cracked claim.",
+      "firewall_note": "Gate 5 / Gate 5-Q held throughout: every quantity handled (Z-ladder values, sector traces, the chain-level defect, Y[ijk], the gauge scalars c_i) is an internal exact-arithmetic object over Q(sqrt-3)/E6 combinatorics; no SM number, coupling, or physics label was assigned or implied anywhere in this cell's work.",
+      "honest_gaps": "The B647-note untested-triples check did not complete -- I do not know whether (0,3,4) and (1,2,4) obey the single-slot defect law, the dial-triple's four-term combination form, or neither; this is a real, not rhetorical, gap. The numeric gauge-rescaling spot-check (rescaling rep[1] by a concrete field element and recomputing) also did not finish, so the gauge-covariance FIRM grade rests on the analytic proof alone, not a numeric double-check of it (the proof itself is exact and code-verified, not hand-wavy, but a second independent confirmation would strengthen it further). I took the B575/B637 prefix machinery itself as already-verified banked infrastructure (per its own gates, which passed identically on every rerun) rather than re-auditing it from scratch. I did not attempt r=21/22/24's independent re-derivation (only 23 and 25, the two rungs actually implicated in the flag).",
+      "citations": [
+        {
+          "ref": "/Users/dri/oa-seat-cc2/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json (register.stale[8], triaged[122]/[123]) -- the primary Register source",
+          "status": "verified"
+        },
+        {
+          "ref": "/Users/dri/oa-seat-cc2/seat-work/relay/CC2_REVISIT_REGISTER_2026-07-21.md -- the compressed summary the task quoted",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B646_wave2_integration/FINDINGS.md (the DATED CORRECTION paragraph, lines 111-116)",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B651_wave3_integration/FINDINGS.md (P4 entry) + cc2_packets/promotion_queue/promotion_queue/p4_sectors/{PREREG_P4.md,p4_run.py,p4_results.json,FINDINGS_CC2.md}",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p1_milgram/{FINDINGS_CC2.md,p1_certificates.json}",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q3_proofs/{ERRATUM_N1.md,q3_lemmas.py,jeffrey_decider.json}",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/{n1_jeffrey_terms.py,jeffrey_terms.json,jeffrey_extension.json}",
+          "status": "verified"
+        },
+        {
+          "ref": "own independent script /private/tmp/claude-501/-Users-dri-oa-seat-cc2/4f5b2428-26a6-4696-9084-2c36a8759c44/scratchpad/rederive_r23.py -- fresh 60-digit sympy/mpmath re-derivation of Z(23),Z(25)",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B647_core_mechanism/{FINDINGS.md,PREREG_CELL2.md,b647_chain_swap.py,b647_cell2_output.txt,ARTIFACT_HASHES.txt}",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B637_corrected_cell3/{b637_threeform.py,part2b_stage2_fixed_output.txt,FINDINGS.md}",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B575_bridge_obstruction/l51_obstruction.py (K field class, kconj)",
+          "status": "verified"
+        },
+        {
+          "ref": "frontier/B652_gate_b/GRAMMAR_TABLE.md (sigma*-law citation of B647 cell 2 as 'chain-mechanized')",
+          "status": "verified"
+        },
+        {
+          "ref": "own scripts /private/tmp/.../b647note_checks.py and b647note_lean.py -- live recomputation attempt, did not complete in-session",
+          "status": "flagged"
+        }
+      ]
+    },
+    "verds": [
+      {
+        "finding_ref": "DOOR2-WITNESS",
+        "verdict": "CONFIRMED",
+        "the_check": "Wrote fresh, independent Sage/SnapPy + PARI/GP scripts (not reusing the original author's code) and recomputed every load-bearing number in the finding: (1) m003/m004 sister pair — Alexander polys a^2+3a+1 / a^2-3a+1 (monic, trace mp3, monodromy disc 5 both), invariant trace field via find_field(300-bit,deg<=8): x^2-x+1 = Q(sqrt-3), disc -3 for BOTH, and PARI idealprimedec confirms 5 is INERT (e,f)=(1,2) in both -- exact match to the finding. (2) Three counterexample census rows m009/m010 (field disc -7, trace mp4, monodromy-disc 12, 5 totally inert f=2), m022/m023 (quartic disc 697, trace mp5, monodromy-disc 21, 5 totally inert f=4), m039/m040 (cubic disc -44, trace mp6, monodromy-disc 32, 5 totally inert f=3) -- all exact matches. (3) Independently re-derived the Twister R=a0/L=B1 generator identification myself (verified 'a0*B1' == m004 via SnapPy .identify()+volume before trusting it), then freshly built the three claimed new bundles: M22alt(R^2L^2)->field Q(i) disc-4, 5 SPLITS (two primes e=f=1), monodromy-disc 32; M32(R^3L^2)->quartic disc 3173, 5 totally inert (f=4), monodromy-disc 60; M51(R^5L)->degree-6 disc -453683, 5 totally inert (f=6), monodromy-disc 45 -- all exact matches to the finding's reported numbers. (4) M51-not-a-cover-of-m004 claim independently confirmed by the simpler decisive test: M51 volume 3.29690... vs required double-cover-of-m004 volume 4.05977... (2x m004) -- mismatch proves non-cover without needing a full isometry search. (5) Grep-verified all cited B-numbers (B640,B674,B743,B747,B748,B740,B298,B307,B739,B754,B702,B699) are present in the repo, and located B699's exact quoted sentence verbatim in docs/LAW_MAP.md row 35 ('the surgery's real gift is manufacturing the fig-8 (5-inert AND fibered) at all') -- the finding's paraphrase is faithful, not a strawman.",
+        "what_survives": "The counterexample refutation of the general law '5-inert AND fibered => golden(disc-5) monodromy' survives fully: 5 independently, exactly-verified instances (m009/m010, m022/m023, m039/m040, M32, M51) satisfy the antecedent (fibered, exactly-verified via monic-degree-2 Alexander polynomial; 5-inert, in fact totally inert in every case) while having monodromy discriminants 12, 21, 32, 60, 45 respectively -- none equal to 5 -- so the consequent fails 5/5 times the antecedent is exercised beyond the m003/m004 pair. The narrow original triple co-occurrence at m003/m004 (trace mp3, field Q(sqrt-3) disc-3, 5-inert, monodromy-disc 5) also survives as exactly reproduced, and the finding's own characterization of that replication as FORCED-by-commensurability (not independent confirmation of a general law) holds up -- it is the honest reading, not oversold. The base-rate observation (5-inertness/total-inertness in 6 of 7 sampled fields, i.e. modal not rare) is numerically accurate for this sample and is appropriately caveated by the finding as n=7, non-uniformly-sampled words. The one still-open, honestly-flagged gap (both by the original finding and independently by me) is that the higher-degree field identifications rest on SnapPy/Sage's find_field recognition (PSLQ/LLL-style at 300-bit precision) rather than a from-scratch symbolic derivation off the gluing variety -- standard and reliable practice in this domain, but not a first-principles proof; the downstream prime-5 splitting computation, however, is fully exact and deterministic once that polynomial is fixed, and I reran it independently with matching results in every case.",
+        "lindep_rule_held": true,
+        "firewall_held": true,
+        "errors_found": []
+      },
+      {
+        "finding_ref": "DOOR3-EULER",
+        "verdict": "CONFIRMED",
+        "the_check": "Independently re-derived a_n from the banked cell3_landscape.py definition (chi0=principal, chi2=Legendre mod 5, both read directly from source) with fresh sympy code; reproduced a_3 a_7 != a_21 exactly; confirmed gcd(21,5)=1 (good-prime under the TRUE modulus 5) vs gcd(21,15)=3 (bad-prime only under the mis-attributed level-15 framing, which grep-traces to the DIFFERENT object cellS/B640); ran a fresh exhaustive scan to mn<=500 under coprime-to-5, coprime-to-15, and unrestricted filters, all showing numerous exact (sympy) failures; symbolically re-derived the closed-form defect law over all four chi2 sign combinations (defect=0 unless chi2(m)=chi2(n)=-1, else exactly (1-sqrt5)/2); tested 60 FRESH large prime pairs (primes 400-2000, well beyond the original scan and the n=21 witness) with both primes = 2 or 3 mod 5: 60/60 failed with the exact predicted defect; ran a 64-pair control (one prime a QR mod 5): 64/64 passed exactly; verified the a_1=a_2=0 domain-exclusion claim by expanding the true GF f_block and confirming its q^1,q^2 coefficients are exactly zero while achar(1)=1, achar(2)=phi-1 are nonzero.",
+        "what_survives": "The door is genuinely CLOSED as claimed: restricted multiplicativity a_m a_n = a_mn fails exactly (not numerically-approximately) and the failure recurs at infinitely many good-prime pairs (both residues in the QNR class mod 5, guaranteed infinite by Dirichlet), so no finite-bad-prime-set Euler-product correction can rescue it. The finding's correction of the task's own level-15/bad-primes-{3,5} premise is also confirmed: that framing belongs to a distinct banked object (B640/cellS's level-15 hearing image), not to this mod-5 golden-stage generating function, and B666's original a_3 a_7 vs a_21 witness was already a good-prime case under the object's real (mod-5) modulus.",
+        "lindep_rule_held": true,
+        "firewall_held": true,
+        "errors_found": []
+      },
+      {
+        "finding_ref": "DOOR4-COMMENSURATOR",
+        "verdict": "CONFIRMED",
+        "the_check": "Re-read B302/B298/B307/B324/B325/B326/B734/B349 in place (all cited files exist and were grep-verified real, no fabrications). Confirmed the finding's reading of B302 is faithful, not a strawman: B302's FINDINGS.md indeed states Sym(m004)=D4 order 8, knot group torsion-free, commensurator PGL(2,O_-3) has order-3 elements via the Eisenstein unit, index-12 Riley cover — matching the finding's account word-for-word. Confirmed B307's theorem (no hyperbolic knot's trace field can be cyclic-cubic/Galois, because Galois=>totally real contradicts the geometric rep's mandatory complex place) matches the finding's summary exactly, and confirmed the finding's own resolution of why this doesn't block B302 (the commensurator's order-3 element is torsion in the Bianchi orbifold group itself -- a completely standard, unrelated fact about elliptic points of PSL(2,O_-3) -- not a claim about a cyclic-cubic trace field; the two objects are genuinely different, so there was never a real tension to 'escape', and the finding's framing, while calling it an 'escape', reaches the correct place).\\n\\nIndependently re-ran ALL discriminating numeric/algebraic claims in a freshly-written sympy script (not copied from banked scripts): (1) g=[[0,-1],[1,-1]], g^3=I exactly, g!=I; (2) Eisenstein omega, omega^3=1, omega^2+omega+1=0; (3) built the three g-conjugate 'generations' from the Riley rep a0,b0 and the cross-trace matrix M[i,j]=tr(a_i b_j^-1) exactly in Q(sqrt(3),i) -- reproduced M's diagonal alpha=5/2-sqrt(3)i/2, off-diagonal beta=2, and beta-alpha=omega EXACTLY, matching B324's banked values digit-for-digit; (4) eigenvalue magnitudes-squared = {1,1,52} exactly reproduced, matching banked (7,1,omega^2) with |7-sqrt3 i|^2=49+3=52; (5) tr(a_i)=tr(b_i)=2 for i=0,1,2 identically -- the forced trace-invariance-under-conjugation flag -- reproduced exactly, plus a generic random-matrix sanity check confirming tr(PAP^-1)=tr(A) always; (6) B326's congruence-torsion claim: Delta(t)=t^2-3t+1 (fig-8 Alexander poly) reduces mod 4 to exactly Phi_3=t^2+t+1, Phi_3 has no roots mod 4 (values 1,3,3,1) or mod 2 (values 1,1), and its companion matrix cubes to I mod 4 -- all independently reproduced and matching banked claims exactly. Also independently confirmed via a fresh SnapPy call (not read from banked scripts) that Sym(4_1)=D4, order 8, volume=2.0298832128 (matches banked 2.0299), and that the ideal tetrahedron shape z=1/2+sqrt(3)/2 i satisfies z^2-z+1=0 exactly, confirming the trace field Q(sqrt(-3)) claim independently.\\n\\nVerified the logical (non-numeric) coset-permutation argument (the session's own derived candidate, flagged as not previously banked): if g (order 3) fixed a coset hGamma under left multiplication, then h^-1 g h in Gamma; since conjugate elements have equal order and Gamma is torsion-free, this forces g=identity, contradiction -- hence fixed-point-free, giving exactly 4 orbits of size 3 by orbit-stabilizer on the 12 cosets. This is elementary, correct, standard group theory (no computational tool needed or available to falsify it), correctly applied.",
+        "what_survives": "B302's core claim survives fully re-verified: torsion-free knot group (Sym D4, order 8, independently reconfirmed via SnapPy), commensurator PGL(2,O_-3) genuinely carries an exact order-3 element and the Eisenstein unit, and this is a structurally different object from Gamma's own trace field -- so B298/B307's single-object impossibility theorem does not apply to it (correctly, though the finding slightly overstates this as an 'escape' from real tension when in fact the two objects were never in tension: Bianchi-group torsion from elliptic points is unrelated to cyclic-cubic trace fields -- this doesn't change the verdict, just the flavor of the 'why it survives' framing). Both forced-negative flags (trace-invariance kills the conjugation-family mechanism; torsion-freeness forces fixed-point-free size-3 coset orbits) are independently re-derived and hold exactly. The Schur's-lemma eigenspace-split candidate is correctly identified as a generic, object-non-specific triviality (base-rate-correct call). The B326/B302 Z/3-identification gap is honestly flagged as unresolved, not silently assumed. Net outcome (ROUTE-OBSTRUCTED, precisely scoped -- B302 stays firm, but no object-specific asymmetric-orbit mechanism was found) is accurate and appropriately scoped, neither over- nor under-claiming.",
+        "lindep_rule_held": true,
+        "firewall_held": true,
+        "errors_found": [
+          "Minor framing overstatement, not a substantive error: the finding describes B302's order-3 commensurator element as 'escaping' B298/B307's impossibility theorem, phrasing it as though there were a real tension being dodged. On inspection there was no genuine tension to escape -- the Bianchi group's order-3 elliptic-point torsion (a completely standard fact about PSL(2,O_-3) as a Fuchsian/Kleinian orbifold group) has nothing to do with B307's theorem about cyclic-cubic trace fields being impossible for hyperbolic knots; they are simply unrelated facts about different objects, not a near-miss the argument had to route around. This does not change the verdict or any numeric conclusion, only the rhetorical framing of 'why it survives'."
+        ]
+      },
+      {
+        "finding_ref": "DOOR6-STALE",
+        "verdict": "CONFIRMED",
+        "the_check": "Traced both flags to their PRIMARY source (RAW_WORKFLOW_OUTPUT.json result.register.stale[8] and result.triaged[122]/[123], not the compressed Register .md summary) and confirmed the finding's paraphrase is verbatim-faithful. Then independently re-derived the discriminating computations with fresh code.\n\n(1) B646-iii: Wrote an independent ~150-line reimplementation (own BFS Weyl-group closure, own HNF/Fraction-based exact quadratic-form Gauss-sum evaluator at 60 mpmath digits) that does NOT call or import the banked n1_jeffrey_terms.gauss_sum/engine.weyl_group functions, reusing only the fixed E6 Cartan matrix as shared mathematical input. Ran it end-to-end (fresh process) for both P_WORD=+3 and P_WORD=-3 at r=23 and r=25. RESULT: Z_+3(23)=1.0 (dev ~1.3e-62), Z_-3(23)=-1.0 (dev ~2.9e-61) => (tr_odd,tr_even)(23)=(1,0) EXACTLY; Z_+3(25)=0 (dev ~7.4e-61), Z_-3(25)=2.0 (dev ~2.8e-61) => (tr_odd,tr_even)(25)=(-1,+1) EXACTLY. Both match the banked p4_results.json ladder (k=11, k=13) exactly, and match the finding's own numbers exactly. Cross-checked r=23 against B651's certificate-grade generic-silence law via exact sympy Jacobi symbol: (23|5)=-1 => Z_generic(23)=(1-(-1))/2=1, exact match. Read p1_certificates.json directly: confirmed it only carries witnesses at r=13 and r=29; confirmed r=25 is outside the law's scope since gcd(25,2*3*5*7*11*19)=5 != 1. Read B646's FINDINGS.md DATED CORRECTION paragraph directly (lines ~111-116): verbatim confirms '23 inert predicted even-carried, observed (1,0)' (a KILL) and 'the second-silence anatomy replaces it (a cancellation, not a sector rule)' referring to the SEPARATE rung kappa=25 ('second silence'), NOT r=23 -- exactly as the finding claims. The Register's one-line paraphrase ('r=23 cancellation') is a benign compression of two adjacent-in-prose but distinct facts, not a computational error.\n\n(2) B647-note gauge-covariance: read b637_threeform.py and b647_chain_swap.py line-by-line and independently re-derived (not merely re-checked) the three structural facts the proof rests on: (i) Cval(u,v,w)=sum of fixed coefficients*u[p]*v[q]*w[r] is exactly trilinear; zval(z,w) is K-linear in z via fixed matrices; so make_omega's om(x,y,z) is a fixed trilinear map of (za,zb,zc). (ii) S_eval sums om(...) evaluations at fixed positions with fixed +-1 signs -- a fixed linear combination, inheriting trilinearity. (iii) kconj(x)=K(x.a,-x.b) verified by hand-expanding both sides of kconj(x*y) vs kconj(x)*kconj(y) using the K multiplication rule -- confirmed a ring automorphism. From these primitives I independently re-derived that under rep_i -> c_i*rep_i, Y[ijk] scales by the plain product c_i*c_j*c_k while J-transported evaluations pick up conj(c_i*c_j*c_k) (J routes every argument through kconj once), so every chain-level defect term scales by the identical factor conj(c_i*c_j*c_k) as 2*conj(Y[ijk]) -- confirming the defect-law EQUATION is gauge-covariant even though individual quantities are gauge-variant. This matches the finding's proof exactly, re-derived from the primitives rather than merely checking its algebra.\n\n(3) Untested-triples open door: confirmed via ps/log-diffing across two independent checks (20+ min apart) that PID 33752 (b647note_lean.py) is a real, still-executing process, and that the log genuinely advanced with new content between checks -- the finding's 'reported honestly as unresolved, not fabricated' framing is independently verified true. (Bonus, not required for the verdict: the run has since progressed further and shows triple (0,3,4) matching the single-slot lawful defect law exactly -- 3/4 slots zero, the 4th matching 2*conj(Y) exactly -- extending, not contradicting, the banked mechanism; triple (1,2,4) was still pending when last observed.) Confirmed via TRIPLES list in b647_chain_swap.py and FINDINGS.md's own count that (0,3,4)/(1,2,4) really are the two untested nonzero triples of the six.\n\n(4) Base-rate spot-check: independently loaded REVISIT_REGISTER_CC2.md and confirmed 'Three genuine cracks were found' and '~130 of 209 items ... OVERREACH' are both stated verbatim in the parent audit's own banked prose (the raw register's 'cracked' list has 6 entries, but 2 are meta/already-flagged/self-refuted, reconciling to 3 genuine cracks) -- the finding's base-rate citation is accurate, not invented.",
+        "what_survives": "Both DOOR6-STALE flags are correctly resolved by the finding. B646-iii is fully closed: the Register's 'r=23 cancellation' phrasing is a benign paraphrase, not a crack -- the actual banked science (KILL at r=23, cancellation at the separate rung kappa=25) is exact and reproduces under completely independent fresh code to 60-digit precision, and cross-validates against B651's independently-built certificate-grade law via an exact Jacobi-symbol computation. B647-note's gauge-covariance sub-claim is also fully closed: the chain-level defect law is provably gauge-covariant (equation preserved under H1-representative rescaling), re-derived from scratch off the actual verified code primitives rather than by trusting the finding's own derivation. The untested-triples open_door survives as genuinely open exactly as the finding reports -- the recomputation is real, was still running at finding-time, and remains honestly reported as incomplete rather than glossed over (though it has since made further genuine progress, seen live during this verification, suggestively extending rather than threatening the banked mechanism).",
+        "lindep_rule_held": true,
+        "firewall_held": true,
+        "errors_found": []
+      }
+    ],
+    "critic": {
+      "door_verdicts": [
+        "DOOR2-WITNESS: General law '5-inert ∧ fibered ⇒ golden(disc-5)' is REFUTED — CLOSED, high confidence. 5 independently exact-verified counterexamples (m009/m010, m022/m023, m039/m040, plus Twister-built M32/M51) satisfy the antecedent but not the consequent; independently cross-checked against the verbatim LAW_MAP.md row 35 B699 quote (confirmed accurate, not a strawman). The narrow m003/m004 replication holds but is forced-by-commensurability, not independent confirmation — correctly scoped by the finding itself.",
+        "DOOR3-EULER: NO-PRODUCT — CLOSED, very high confidence. Exact symbolic proof (all 4 sign-class combinations) plus a fresh 60-pair stress test at primes 400-2000 (60/60 fail as predicted, 64/64 control passes) plus a correct citation fix (the door's 'level 15' framing belongs to a different banked object, B640/cellS, not this mod-5 object) — this is the most airtight of the four closures.",
+        "DOOR4-COMMENSURATOR: ROUTE-OBSTRUCTED (not ROUTE-CLOSED) — medium-high confidence the 5 tested mechanisms all fail (2 forced structural negatives, 1 self-flagged generic Schur's-lemma triviality, 1 mechanism resting on an unresolved B326/B302 identity question), but the search was not exhaustive, so the door's actual question ('does an object-specific asymmetric-orbit mechanism exist') remains formally open, just with no positive candidate found yet. B302's own core claim (order-3 element in PSL(2,O_-3)) is untouched but is itself close to generic Bianchi-orbifold background, not a novel discovery — see base-rate flag.",
+        "DOOR6-STALE: 1.5 of 2 register flags fully closed, high confidence (B646-iii confirmed a benign paraphrase against FINDINGS.md verbatim text, independently re-read by me; B647 gauge-covariance proven analytically and re-derived from primitives). The untested-triples sub-item is STILL GENUINELY OPEN — I independently confirmed during this review that PID 33752 is alive, the log is actively advancing (new content between two checks ~2 min apart), and triple (0,3,4) has now fully completed matching the lawful single-slot defect law exactly (3/4 zero slots, 4th = 2·conj(Y)); triple (1,2,4) was still mid-computation when last observed and must not be counted as resolved yet."
+      ],
+      "base_rate_risks": [
+        "DOOR2: the 'n=7, 6-of-7 total-inert' modal-behavior claim rests on a small, non-uniformly sampled family (mostly simple R^pL^q monodromy words chosen because they were easy to construct with Twister, per the finding's own honest_gaps — a systematic census sweep timed out at 2 min and was never completed). This base-rate observation is suggestive, not established; it should not be promoted to a project law or cited as '5-inertness is generic for this family' without a wider, less-selection-biased sweep.",
+        "DOOR4 (explicitly flagged risk area per the task): 'a Z/3 exists in the commensurator' is close to generic background, not a genuine discovery — Q(√−3) (with Q(i)) is one of only two imaginary quadratic fields carrying extra units, so PSL(2,O_-3) having elliptic (order-2/3) torsion is textbook Bianchi-orbifold structure, unrelated to anything specific about m004. The truly m004-specific content is the index-12 Riley covering relation, not the bare existence of the Z/3. My independent verification pass flagged the same thing the finding's own verds already caught (framing the order-3 element as 'escaping' B298/B307 overstates a tension that was never really there — B298/B307 constrain Γ's own trace field, a different object from Comm(Γ)). This is a minor framing issue, not a substantive error, but worth compressing out before this door is cited elsewhere, so it isn't misread later as 'a surprising Z/3 was found' when the surprising part (if any) is the covering index, not the torsion.",
+        "DOOR4 secondary risk (already self-caught, worth reiterating): the eigenspace-decomposition-into-3-characters candidate is a generic Schur's-lemma consequence of ANY Z/3 acting linearly on ANY 3-dim space — it requires none of m004's arithmetic. The finding correctly labels this RESEMBLANCE not advance; this self-discipline should be preserved verbatim in any downstream summary, since it is exactly the kind of near-hit-dressed-as-forced the task asked me to hunt for, and here it was already caught rather than needing to be caught by me.",
+        "DOOR6: the partial success on triple (0,3,4) (independently reconfirmed live during this review) must not be extrapolated to triple (1,2,4), which had not finished computing when last observed. A 1-of-2 partial result is not evidence the untested-triples door is closed; CC should wait for or rerun the remaining half before banking DOOR6 as fully resolved."
+      ],
+      "firewall_status": "Held across all four doors, with no violations found in this critique pass. All four finding/verds pairs self-report firewall_held:true and Gate 5/Gate 5-Q compliance (no SM value, no physics label — 'golden'/'silver' used strictly as the project's own established structural shorthand, per B699/B702 vocabulary). I independently spot-checked this against the primary banked prose: the verbatim LAW_MAP.md row 35 (B699) and the B646_wave2_integration/FINDINGS.md DATED CORRECTION paragraph both confirm the quotes used in the doors' findings are accurate and are themselves stated in pure trace-field/monodromy/character/sector language with no SM leakage. Also confirmed B754 (cited in the campaign preamble as cc3's stratum) is a legitimately RESERVED number in docs/SEAL_LEDGER.md / CHANGELOG.md, not a fabricated or missing citation — its absence as a frontier/ directory is expected, not a citation error.",
+      "consensus_points_for_cc": [
+        "DOOR2: (a) spot-recompute at least 2 of the 5 counterexample manifolds (e.g. m022/m023 and one Twister-built bundle M51) from scratch with an independently-authored script — both the original finding and its verification used SnapPy+Sage+PARI, so there is residual correlated-tool-error risk; a third pass, ideally cross-checked with a different CAS (Magma/GAP) or by hand-deriving the gluing variety for at least one case, would remove that risk. (b) Do NOT let the 'n=7 modal 5-inertness' base-rate claim get banked as a law — treat it as flagged-suggestive only, pending a wider systematic sweep.",
+        "DOOR3: (a) independently re-derive 2-3 low-order q-coefficients of the actual GF in cell3_landscape.py by hand/fresh code to double-check the a_1=a_2=0 domain-exclusion claim that underlies excluding n=1,2 from the multiplicativity tests. (b) confirm once more, directly against the Register's literal wording (not the paraphrase), that the 'level 15 / bad primes {3,5}' framing genuinely belongs to a different object (B640/cellS) and isn't a legitimate alternate reading of the same door.",
+        "DOOR4: (a) explicitly resolve — in a dedicated cell, not as an aside — whether B326's congruence-torsion Z/3 (deck group of the canonical 3-fold cyclic cover) is the same abstract Z/3 as B302's commensurator element; this ambiguity is honestly flagged as unresolved in the banked frontier itself and is the one loose thread that could still open new ground on this door. (b) When citing D4 downstream, keep the 'Z/3 exists in Comm(Γ)' claim explicitly scoped as expected Bianchi-orbifold background (per the base-rate risk above), not as a novel finding — only the index-12 covering relation and the two forced-negative mechanism results (trace-invariance under conjugation; fixed-point-free coset orbits) carry real informational weight.",
+        "DOOR6: (a) before final banking, check whether the still-running b647note_lean.py (PID 33752, or its successor if it has since exited) actually completed triple (1,2,4) and whether it too matches the single-slot lawful defect form; if it does, the open_door closes cleanly with FIRM grade; if it deviates, that is a genuine new result requiring its own writeup, not a quiet patch. (b) Re-confirm the parent audit's base-rate citation ('3 genuine cracks in 209 items, ~130 OVERREACH') directly against its primary raw register once more, since this critique only cross-checked the B646 half of it, not the full 209-item corpus."
+      ],
+      "next": [
+        "Check (or let CC check) the current end-state of /private/tmp/claude-501/-Users-dri-oa-seat-cc2/4f5b2428-26a6-4696-9084-2c36a8759c44/scratchpad/b647note_lean.log (PID 33752 was alive and log actively advancing as of this critique, with triple (0,3,4) fully passed matching the lawful defect law and triple (1,2,4) mid-computation) — do not re-launch a fresh run until this one is confirmed finished or dead; bank the DOOR6 untested-triples verdict only once (1,2,4)'s remaining lines are in.",
+        "Optional, lower-priority: run one DOOR2 counterexample manifold through a second, independently-implemented CAS (e.g. Magma/GAP or a from-scratch gluing-variety derivation) to remove the correlated-tool-error risk of SnapPy+Sage+PARI being used for both the original computation and its verification.",
+        "Open a dedicated cell to resolve the B326-vs-B302 Z/3 identification question for DOOR4 — this is the single clearest remaining thread that could still change that door's verdict from ROUTE-OBSTRUCTED toward either ROUTE-ADVANCES or a firmer NO.",
+        "When compressing DOOR4 for the Register/LAW_MAP, rephrase away from 'the Z/3 escapes B298/B307' toward 'Comm(Γ)'s torsion and Γ's trace field are simply different objects, so B298/B307 never applied to it' — same substance, removes the false-tension framing flagged above.",
+        "No further action needed on DOOR3 beyond the consensus-point spot-check above; it is the most airtight of the four and can be sealed as CLOSED with high confidence.",
+        "Re-file the corrected level-5-vs-level-15 object identification from DOOR3 back into the Register/LAW_MAP as a standing correction, so other seats don't re-open the same citation conflation later."
+      ]
+    }
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Compute"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Verify"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "Critic"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "DOOR2:second-witness",
+      "phaseIndex": 1,
+      "phaseTitle": "Compute",
+      "agentId": "a1f450dd339ba693d",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784712747135,
+      "queuedAt": 1784712747109,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR2-WITNESS",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784713623112,
+      "tokens": 84958,
+      "toolCalls": 40,
+      "durationMs": 875977,
+      "resultPreview": "{\"cell\":\"DOOR2-WITNESS\",\"what_done\":\"Built a joint-hypothesis table over once-punctured-torus bundles (the census sister-pairs m003/m004, m009/m010, m022/m023, m039/m040, plus three newly-constructed Twister mapping-tori at trace 6(alt), 7(primitive, non-cover), 8) using SnapPy 3.3.2 + Sage 10-ish (via `sage <script>.sage`, since plain-python SnapPy lacked Sage support for invariant_trace_field_ge…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "DOOR3:euler-correction",
+      "phaseIndex": 1,
+      "phaseTitle": "Compute",
+      "agentId": "a758b85db276d398f",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784712747137,
+      "queuedAt": 1784712747109,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR3-EULER",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784713048772,
+      "tokens": 61642,
+      "toolCalls": 15,
+      "durationMs": 301635,
+      "resultPreview": "{\"cell\":\"DOOR3-EULER\",\"what_done\":\"Reconstructed a_n exactly from the banked B666-cell3 definition (frontier/B666_leads_campaign/cell3/cell3_landscape.py, PART B): a_n = (phi*chi0(n) + phi^(-2)*chi2(n))/2 for n>=3, chi0 = principal char mod 5, chi2 = Legendre symbol mod 5 ({0:0,1:1,2:-1,3:-1,4:1}) -- confirmed this equals the true trace-sequence value only for n>=3 (the GF's own correction terms s…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "DOOR4:commensurator",
+      "phaseIndex": 1,
+      "phaseTitle": "Compute",
+      "agentId": "a064c5d6792a36ef5",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784712747138,
+      "queuedAt": 1784712747109,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR4-COMMENSURATOR",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784713131734,
+      "tokens": 72839,
+      "toolCalls": 26,
+      "durationMs": 384596,
+      "resultPreview": "{\"cell\":\"DOOR4-COMMENSURATOR\",\"what_done\":\"Read frontier/B302_multiplicity_hidden_z3 (FINDINGS.md, multiplicity_hidden_z3.py, verdict.py) plus the surrounding cluster it cites or is cited by (B298, B307, B324, B325, B326, B734, B349) to pin exactly what B302 claims and why it survives the B298/B307 impossibility. Then computed/re-verified the first discriminating step: does the hidden Z/3 act on a…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "DOOR6:stale-flags",
+      "phaseIndex": 1,
+      "phaseTitle": "Compute",
+      "agentId": "a64cbfd13410a3edd",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784712747138,
+      "queuedAt": 1784712747109,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR6-STALE",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784714608309,
+      "tokens": 241696,
+      "toolCalls": 201,
+      "durationMs": 1861171,
+      "resultPreview": "{\"cell\":\"DOOR6-STALE\",\"what_done\":\"Read the ACTUAL Register source (found at /Users/dri/oa-seat-cc2/seat-work/false_negative_audit/RAW_WORKFLOW_OUTPUT.json, register.stale[8] and triaged[122]/[123] — the summary line the task quoted is a compressed paraphrase of this raw record) to pin the two flags precisely before touching any banked cell, per the fabricated-citation guard. Then: (a) grepped fro…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "verify:DOOR2-WITNESS",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "aa0461ac42f9bdd4a",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784714608360,
+      "queuedAt": 1784714608325,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR2-WITNESS",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784714846776,
+      "tokens": 46579,
+      "toolCalls": 27,
+      "durationMs": 238416,
+      "resultPreview": "{\"finding_ref\":\"DOOR2-WITNESS\",\"verdict\":\"CONFIRMED\",\"the_check\":\"Wrote fresh, independent Sage/SnapPy + PARI/GP scripts (not reusing the original author's code) and recomputed every load-bearing number in the finding: (1) m003/m004 sister pair — Alexander polys a^2+3a+1 / a^2-3a+1 (monic, trace mp3, monodromy disc 5 both), invariant trace field via find_field(300-bit,deg<=8): x^2-x+1 = Q(sqrt-3),…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "verify:DOOR3-EULER",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "ae2614c0f5732ecd1",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784714608361,
+      "queuedAt": 1784714608325,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR3-EULER",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784714752304,
+      "tokens": 44133,
+      "toolCalls": 10,
+      "durationMs": 143943,
+      "resultPreview": "{\"finding_ref\":\"DOOR3-EULER\",\"verdict\":\"CONFIRMED\",\"the_check\":\"Independently re-derived a_n from the banked cell3_landscape.py definition (chi0=principal, chi2=Legendre mod 5, both read directly from source) with fresh sympy code; reproduced a_3 a_7 != a_21 exactly; confirmed gcd(21,5)=1 (good-prime under the TRUE modulus 5) vs gcd(21,15)=3 (bad-prime only under the mis-attributed level-15 framin…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "verify:DOOR4-COMMENSURATOR",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a0e2872eafd594de0",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784714608362,
+      "queuedAt": 1784714608326,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR4-COMMENSURATOR",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784714789208,
+      "tokens": 52923,
+      "toolCalls": 19,
+      "durationMs": 180846,
+      "resultPreview": "{\"finding_ref\":\"DOOR4-COMMENSURATOR\",\"verdict\":\"CONFIRMED\",\"the_check\":\"Re-read B302/B298/B307/B324/B325/B326/B734/B349 in place (all cited files exist and were grep-verified real, no fabrications). Confirmed the finding's reading of B302 is faithful, not a strawman: B302's FINDINGS.md indeed states Sym(m004)=D4 order 8, knot group torsion-free, commensurator PGL(2,O_-3) has order-3 elements via t…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "verify:DOOR6-STALE",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a011381af07a5b3dc",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784714608362,
+      "queuedAt": 1784714608326,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "DOOR6-STALE (B646-iii and B647-note stale-premise flags, RA…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784714938035,
+      "tokens": 95329,
+      "toolCalls": 46,
+      "durationMs": 329672,
+      "resultPreview": "{\"finding_ref\":\"DOOR6-STALE (B646-iii and B647-note stale-premise flags, RAW_WORKFLOW_OUTPUT.json register.stale[8]/triaged[122]/[123])\",\"verdict\":\"CONFIRMED\",\"the_check\":\"Traced both flags to their PRIMARY source (RAW_WORKFLOW_OUTPUT.json result.register.stale[8] and result.triaged[122]/[123], not the compressed Register .md summary) and confirmed the finding's paraphrase is verbatim-faithful. Th…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "critic:remaining-doors",
+      "phaseIndex": 3,
+      "phaseTitle": "Critic",
+      "agentId": "aa26a3f320d6f2a2f",
+      "model": "claude-sonnet-5",
+      "state": "done",
+      "startedAt": 1784714938072,
+      "queuedAt": 1784714938052,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Held across all four doors, with no violations found in thi…",
+      "promptPreview": "OA seat cc2 (read-only advisory; repo synced HEAD 51ff860e at /Users/dri/oa-seat-cc2/origin-axiom; work in the scratchpad). THE REMAINING DOORS campaign — the four Revisit-Register doors absent from B739-B754. ESTABLISHED context: the object = fig-8 m004, unique arithmetic knot, trace field Q(sqrt-3); the V4 census triple (B747/B748 + my B740 table): NO child re-sees ANY forced face (0/78 x 3); ru…",
+      "lastProgressAt": 1784715136744,
+      "tokens": 60772,
+      "toolCalls": 9,
+      "durationMs": 198672,
+      "resultPreview": "{\"door_verdicts\":[\"DOOR2-WITNESS: General law '5-inert ∧ fibered ⇒ golden(disc-5)' is REFUTED — CLOSED, high confidence. 5 independently exact-verified counterexamples (m009/m010, m022/m023, m039/m040, plus Twister-built M32/M51) satisfy the antecedent but not the consequent; independently cross-checked against the verbatim LAW_MAP.md row 35 B699 quote (confirmed accurate, not a strawman). The nar…"
+    }
+  ],
+  "totalTokens": 760871,
+  "totalToolCalls": 393
+}

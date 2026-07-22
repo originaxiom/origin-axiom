@@ -168,7 +168,11 @@ ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/",
                         "frontier/B742_negatives_hunt_p1/reviews/")
 ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this gate hunts
     "tests/test_public_surface_scan.py", "tests/test_flagship_paper.py",
-    "tests/test_sl4_dehn_filling_paper.py"}
+    "tests/test_sl4_dehn_filling_paper.py",
+    # hash-pinned cross-seat provenance artifact (seal 1c4920b5 in the arc's SEALS.txt);
+    # its embedded scratchpad paths quote the seat harness's tmp dirs verbatim — editing
+    # would break the seal (the B742-reviews precedent, applied per-file not per-prefix)
+    "frontier/B756_remaining_doors/RAW_WORKFLOW_OUTPUT.json"}
 
 
 def gate_attribution():

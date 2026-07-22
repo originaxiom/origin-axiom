@@ -1292,3 +1292,10 @@ facts now computed in-repo — the genus-2 CS-flip witnessed, the 1/4 null
 run, the GSWZ pure-3 fact extracted from the Kashaev sum itself (eq (2)
 reproduced exactly through u⁵), B720's halves exact, S019 closed by
 dimension. The R27 carried block is empty except owner-gated items.
+
+THE REMAINING DOORS BANKED (B756, cc2 reopened + cc verify-on-receipt):
+the B699 general gloss refuted (scope-corrected, m004 content stands);
+the Euler-product question closed by an exact iff-law with defect
+(1−√5)/2; the commensurator route obstructed (L108 = the one residual);
+stale flags FIRM. With B754 (the P2 stratum: 17 KILL-EXTENDS, WALL-1
+gains a spectral column) the Revisit Register is at its cleanest state.
