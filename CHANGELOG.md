@@ -1,5 +1,9 @@
 # Changelog
 
+## B753 — the mixing structure computed: the dispute dissolves into one exact identity
+- The weld's θ-odd block is exactly unitary, eigenphases ±72° (chat-1's 108° false; the eigenvalue-vs-element distinction provably empty: both real parts = 1/(2φ)). The kind-correct mixing matrix is golden-exact: P = [[φ/√5, 1/(φ√5)],…], and |B₀₀|² = 1−p exactly — B751's Born weight IS the well-posed mixing entry.
+- The one-number pin co-signed (cc+cc3): JUNO stays registered at 0.30902; 1/(φ√5) is program-internal; no post-hoc registrations. Locks test_b753 (4).
+
 ## B752 — the qualia-handoff receipt: Op-1 base-rate by its own rule; Op-3 dissolved three ways
 - The requested family scan: at the handoff's own 0.1% window the two-hit pattern self-reduces to one (null P=0.26); at 1% junk hits appear (null P=0.35) — its own criterion answers: base-rate. B751 stands.
 - Op-3 "the object sees half": universal CH collapse (every SL(2) matrix), mislabeled input (Φ₆ phase ≠ the trace-2 holonomy; corrected image = I), and a REPELLING fixed point (f'(1/2)=3 vs f'(1)=0) — two-seat convergent with cc3's independent receipt. Locks test_b752 (4).

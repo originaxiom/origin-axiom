@@ -1,0 +1,36 @@
+========================================================================================
+CELL 1 -- the explicit 2x2 theta-odd block B_ij = u_i' W u_j (banked pipeline)
+========================================================================================
+B[0,0] = +0.309017+0.425325j   banked B593 element = +0.309017+0.425325j   match: True
+B[1,1] = +0.309017-0.425325j   == conj(B[0,0]): True
+B[0,1] = -0.809017-0.262866j   B[1,0] = +0.809017-0.262866j
+max |off-diagonal| = 8.507e-01
+========================================================================================
+CELL 2 -- chat-1's eigenvalue claim: are the block's eigenvalues e^{+-i 108deg}?
+========================================================================================
+eigenvalues of B: +0.309017+0.951057j, +0.309017-0.951057j
+|lambda_1| = 1.000000, |lambda_2| = 1.000000   (unit modulus? True)
+e^(i 108deg) = -0.309017+0.951057j; claimed real part cos(108deg) = -0.309017
+CLAIM 'eigenvalues are e^(+-i 108deg)': False
+trace(B) = +0.618034+0.000000j  (= 2*Re(banked element) = +1/phi = +0.618034; chat-1 asserted tr_odd = -1/phi = 2cos(108deg) = -0.618034)
+========================================================================================
+CELL 3 -- mixing is eigenvector-anchored: same spectrum, different mixing (demo)
+========================================================================================
+H1, H2 spectra identical: True
+H1 mixing vs e-basis: |<e1|v1>|^2 = 1.000000 (diagonal)
+H2 mixing vs e-basis: |<e1|v1>|^2 = 0.811745 = cos^2(pi/7) = 0.811745
+=> identical eigenvalues, different mixing: mixing angles are what eigenvalues
+   DON'T determine; 'basis-independent eigenphase' is a category error as a mixing analogue.
+========================================================================================
+CELL 4 -- the kind-correct object: the overlap matrix P_ij = |<u_i|w_j>|^2
+========================================================================================
+||[B, B^dag]|| = 1.082e-15  (normal block <=> orthogonal eigenvectors)
+P = |<u_i|w_j>|^2 =
+[[0.723607 0.276393]
+ [0.276393 0.723607]]
+row sums = [1. 1.], col sums = [1. 1.]
+(recorded as PROGRAM-INTERNAL numbers; no SM comparison -- the stopping rule + the pin)
+========================================================================================
+CELL 5 -- the one-number pin: co-signed (ledger line in HINT_LEDGER)
+========================================================================================
+ADJUDICATION COMPLETE

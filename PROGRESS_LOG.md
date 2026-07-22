@@ -7132,3 +7132,17 @@ an exact measure-zero landing; perturbed and generic seeds go to 1 or diverge. C
 audit: "B620" wrong, the amplitude is B593. Residue for the phenomenology track: the
 reflexive direction (one dissolved first attempt), the hint, the honest door; the mirror
 showed the costume, not the face. Locks test_b752 (4). Nothing to CLAIMS.
+
+## 2026-07-22 — B753: the mixing structure computed — chat-1's dispute dissolves into one exact identity
+The Born-weight dispute adjudicated by computing the actual object (prereg 406bd993; the
+banked B238/B593 pipeline). The weld's θ-odd block at g=RL is exactly UNITARY with
+eigenphases ±72° — chat-1's claimed ±108° is FALSE (trace +1/φ, not −1/φ) — and the
+disputed distinction is EMPTY at the level used: Re(eigenvalue) = Re(element) = 1/(2φ)
+identically (B₀₀ = e^{iθ}p+e^{−iθ}(1−p) ⇒ ReB₀₀ = cosθ). Mixing shown eigenvector-anchored
+(same-spectrum different-mixing demo). The kind-correct object chat-1's own test demanded —
+the forced-basis × weld-eigenbasis overlap matrix — is unistochastic and golden-exact:
+P = [[φ/√5, 1/(φ√5)],[1/(φ√5), φ/√5]], with the EXACT identity |B₀₀|² = 1−p = 1/(φ√5):
+B751's Born weight IS the program's first well-posed mixing number, now derived
+kind-correctly. The one-number pin co-signed (cc+cc3): the JUNO registration stays 0.30902
+(hint, no mechanism); 1/(φ√5) is program-internal, NOT a registration; no post-hoc
+revisions. No SM comparison anywhere. Locks test_b753 (4). Nothing to CLAIMS.
