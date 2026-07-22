@@ -85,3 +85,26 @@ cell 1 used a wrong solution-type filter (fixed in-session). Locks
 tests/test_b755_carried.py (5). Consequences: the B685 vacuous-lock replacement; the
 S019 tombstone repair (speculations/TOMBSTONES.md); no FINDINGS annotations needed on the
 originals — every recompute CONFIRMED its kill's basis (E19: nothing flipped).
+
+## VERIFICATION ADDENDUM (2026-07-22, owner-requested "make sure sure") — every route independent, all green
+
+1. **Out-of-sample (the strongest check possible for cell 3).** The five recognized
+   rationals PREDICT the Kashaev ratio at two N values never used in any fit:
+   N = 12345 (error 2.09e−22) and N = 9973 (7.53e−22) — both at the 1/N⁶ floor. And the
+   clincher: the two errors' ratio is 3.603 vs the pure-next-order prediction
+   (12345/9973)⁶ = 3.597 — **0.2% agreement: the residual IS the sixth-order term**,
+   which is only possible if r₁…r₅ are exactly right through fifth order.
+2. **Second-channel source read.** An independent re-fetch of arXiv:2412.04241 transcribed
+   eq (1) (11/24, 697/1152 over (3√−3)^j) and eq (2) (−1/3³, +1/3³, −4/3⁵, −1/3⁵)
+   verbatim — the read the arc gated on is stable across fetches.
+3. **Third chirality route (cell 1).** The witness bundle's symmetry group is ℤ/2 with
+   is_amphicheiral() = False — agreeing with both banked routes (2CS ∉ (1/2)ℤ; all mirror
+   isometries orientation-reversing).
+4. **Seed-independence (cell 2).** Seeds 11/99/2026, both windows: 1/4 hits 0 every time;
+   P(random ≥ 1/4's count) = 1.00 throughout.
+5. **Independent series algebra (cell 3).** A from-scratch Fraction-arithmetic
+   implementation (no sympy series machinery) reproduces the u-expansion exactly:
+   [1, 0, −1/27, 1/27, −4/243, −1/243] (rv4_independent_algebra.txt). One init bug in the
+   FIRST DRAFT of this very check (the constant double-counted) was caught by its own
+   mismatch line and fixed — the discrepancy was in the checker, not the arc; logged in
+   the spirit of full disclosure.
