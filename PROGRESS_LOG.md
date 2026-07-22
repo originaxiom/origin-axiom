@@ -7254,3 +7254,16 @@ sign on the 8-rung ladder) and the results json is BYTE-IDENTICAL to cc2's banke
 (tr_odd, tr_even)(23) = (1, 0) re-derived exactly (the correlate dies at 23, as banked);
 the κ=25 cancellation exact (~1e-17), honestly outside the certificate law's scope; the
 law's prediction at 23 agrees ((1−(23|5))/2 = 1). DOOR6 FIRM at full depth.
+
+## 2026-07-22 — R28-3 closed: H-EAR's formal principle banked (the three-review carry lands)
+The B685 reframe ("the hearing is coupling, not generated") is now a formal LAW_MAP
+principle in the H-CUSP pattern, made precise by the chain: four theorem-backed clauses —
+ORIGIN (combinatorial-dynamical, pre-geometric: K₀ = ℤ[φ]; C4), CARRIER (the θ-odd chord
+in the object; the unitary ±72° block at the weld; C12/C13), SILENCE (never emitted solo:
+the being-only voice; C10/C11 + B754-E3), ACCESS (received only by a coupled boundary
+listener — the B592/B593 second-order law — and surviving closings that kill the being:
+Sol keeps the hearing, children keep golden traces). Slogan: being is what the object says;
+hearing is what a coupled listener receives — the gait needs an ear. No new mathematics
+asserted (every clause cites its chain link + lock); the QP forks are the named upgrade
+path (QP-3 tests the coupling structure at the geometric point). Carried since R22-7 via
+R23-3/R26-3/R27-3 — closed.
