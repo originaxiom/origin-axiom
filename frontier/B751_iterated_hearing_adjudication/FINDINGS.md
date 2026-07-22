@@ -43,3 +43,20 @@ which must then enter through owner + the L91 functor + the full checklist. Unti
 stopping rule stands. Nothing to CLAIMS; no LAW_MAP row; Gate 5 intact.
 
 Artifacts: adjudicate.py + output.txt; lock tests/test_b751_adjudication.py.
+
+## ADDENDUM (2026-07-22, owner-requested re-verification) — the third insertion + a new exact identity
+
+Re-verification by independent routes confirmed every cell verdict and SHARPENED cell 2:
+
+- **New exact identity:** the banked B593 amplitude's squared modulus is
+  |u₃†M_odd u₃|² = (5−√5)/10 = **1/(φ√5)** = 0.276393… (sympy-exact, two closed forms).
+- **The third insertion:** the Born-natural weight of an amplitude is |·|², not Re(·).
+  The claim invokes quantum language ("hearing amplitude") while using the NON-quantum
+  projection: |amp|² = 0.2764 matches no target (10% from sin²θ₁₂); only the Re-choice
+  0.30902 lands near sin²θ₁₂. So the composite requires THREE free choices — per-letter
+  attribution, Re-projection over the Born weight, and the M_Z scale — before any match.
+- **Base-rate sensitivity (recorded):** P(≥2 hits) ∈ {0.06, 0.17, 0.33} across the three
+  null variants (in-family-only / sealed-wide / sealed-narrow) — none significant, and the
+  forking-paths point dominates them all: the two hits GENERATED the candidate family, so
+  in-family counting cannot credit them as evidence under any null.
+- α_s running and the n=2 gap re-confirmed by independent recompute.

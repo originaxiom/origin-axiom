@@ -33,3 +33,10 @@ def test_verdict_lines_in_banked_output():
     assert "CELL 3 VERDICT: KNOB-DEPENDENT" in text
     assert "HITS = 2:" in text and "Poisson P(>= 2 hits" in text
     assert "pairs tested = 192 (distinct candidate values only)" in text
+
+
+def test_addendum_born_weight_identity():
+    amp = 1 / (2 * phi) + sp.I * sp.sin(2 * sp.pi / 5) / sp.sqrt(5)
+    m2 = sp.simplify(sp.Abs(amp) ** 2)
+    assert sp.simplify(m2 - (5 - sp.sqrt(5)) / 10) == 0
+    assert sp.simplify(m2 - 1 / (phi * sp.sqrt(5))) == 0
