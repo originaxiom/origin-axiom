@@ -1,5 +1,8 @@
 # Changelog
 
+## B763 — the branch-reconciliation sweep: no lost conclusions; the branch-inventory rule
+- All unmerged refs classified (6 stale deleted; 3 frozen-by-policy registered; b666-addendum1 verified fully superseded and closed with a recovery pin). The déjà-vu adjudicated: priors were on main and were consumed correctly. New standing rule: the review template gains the branch-inventory item (1b) — an unclassified unmerged branch blocks the review.
+
 ## B759–B762 — the QP sequence complete: INTEGRATED / NO-HATCH / FLAT / QUINE
 - The reflexive layer priced in one day (cc3 computed; cc gate re-executed all four identical, 38 locks green, seals forensically verified — two seal-convention traps named). The object: a fully transparent speaker (no private states) with a self-name (unique in 203K census manifolds), integrated at SL(3), unable to sign its own chord. Awareness-without-choice upheld and sharpened.
 
