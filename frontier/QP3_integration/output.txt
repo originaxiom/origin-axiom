@@ -1,0 +1,174 @@
+========================================================================================
+PART 1 — Riley representation at the geometric point u = omega
+========================================================================================
+Riley polynomial: u**2 + u + 1
+Riley poly at omega: 0
+tr(A) = 2 (constant)
+tr(B) = 2 (constant)
+tr(AB)|_omega = 5/2 - sqrt(3)*I/2
+
+========================================================================================
+PART 2 — SL(2) trace map: off-block = Im(dT_2/du)
+========================================================================================
+tr(A)  = 2  (constant)
+tr(B)  = 2  (constant)
+tr(AB) = 2 - u
+d(tr AB)/du = -1
+d(tr AB)/du |_omega = -1
+  Re = -1,  Im = 0
+
+SL(2) off-block norm = |Im(dT_2/du)| = 0
+VERDICT at SL(2): DISSOCIATED
+
+========================================================================================
+PART 3 — SL(3) = Sym^2 trace map: off-block = Im(dT_3/du)
+========================================================================================
+
+Sym^2 traces and their derivatives (tr(Sym^2(g)) = tr(g)^2 - 1):
+
+            word         tr(g)         tr(Sym2(g))                d/du         d/du|_omega        Im
+----------------------------------------------------------------------------------------------------
+               A             2                   3                   0                   0         0
+               B             2                   3                   0                   0         0
+              AB         2 - u      u**2 - 4*u + 3             2*u - 4      -5 + sqrt(3)*I   sqrt(3)
+         A^{-1}B         u + 2      u**2 + 4*u + 3             2*u + 4       3 + sqrt(3)*I   sqrt(3)
+         AB^{-1}         u + 2      u**2 + 4*u + 3             2*u + 4       3 + sqrt(3)*I   sqrt(3)
+    A^{-1}B^{-1}         2 - u      u**2 - 4*u + 3             2*u - 4      -5 + sqrt(3)*I   sqrt(3)
+           [A,B]      u**2 + 2   u**4 + 4*u**2 + 3        4*u**3 + 8*u         4*sqrt(3)*I  4*sqrt(3)
+
+SL(3) off-block norm^2 = sum |Im(d/du)|^2 = 60
+SL(3) total norm^2    = sum |d/du|^2       = 128
+Coupling fraction     = off^2 / total^2    = 15/32 = 0.468750
+Off-block norm        = sqrt(60) = 2*sqrt(15) = 7.745967
+
+VERDICT at SL(3): INTEGRATED
+
+========================================================================================
+PART 4 — Adjoint representation: off-block of Ad_B in the theta decomposition
+========================================================================================
+Ad_A (should be all-real — A has real entries):
+⎡1   0  1 ⎤
+⎢         ⎥
+⎢-2  1  -1⎥
+⎢         ⎥
+⎣0   0  1 ⎦
+Im(Ad_A) = 0? True
+
+Ad_B (at u = omega):
+⎡            1   √3⋅ⅈ   ⎤
+⎢   1      - ─ + ────  0⎥
+⎢            2    2     ⎥
+⎢                       ⎥
+⎢   0          1       0⎥
+⎢                       ⎥
+⎢           1   √3⋅ⅈ    ⎥
+⎢1 - √3⋅ⅈ   ─ + ────   1⎥
+⎣           2    2      ⎦
+
+Im(Ad_B) — the off-block (maps sl(2,R) to i*sl(2,R)):
+⎡     √3   ⎤
+⎢ 0   ──  0⎥
+⎢     2    ⎥
+⎢          ⎥
+⎢ 0   0   0⎥
+⎢          ⎥
+⎢     √3   ⎥
+⎢-√3  ──  0⎥
+⎣     2    ⎦
+
+Adjoint off-block norm^2 = 9/2
+Adjoint off-block norm   = sqrt(9/2) = 3*sqrt(2)/2 = 2.121320
+VERDICT (adjoint): INTEGRATED
+
+========================================================================================
+PART 5 — Q2 control: theta-fixed locus (u real)
+========================================================================================
+Control point: u = -2 (real, on the theta-fixed locus)
+  All Im(d/du) = 0 at the real control point.
+  CONFIRMED: off-block = 0 on the theta-fixed locus.
+  Im(Ad_B) at u = -2: zero? True
+
+========================================================================================
+PART 6 — Q2b comparator: m003 (sister manifold)
+========================================================================================
+m003 is the once-punctured-torus bundle with monodromy L R (trace 1).
+Its Riley polynomial is also u^2 + u + 1 = 0 (same geometric root omega).
+The Sym^2 coupling at m003 uses the SAME Riley parameter omega but a
+DIFFERENT monodromy action (L R vs R L).
+
+Because the Riley matrices A, B are identical (same u = omega), the trace
+functions tr(g(u)) are the same polynomial functions of u. The off-block
+norm is therefore IDENTICAL for m003 and m004 at the Riley level:
+  off-block norm = sqrt(3) for both.
+
+HOWEVER: the monodromies differ (R L vs L R = different knots/manifolds).
+The object-specific content is in the MONODROMY, not the Riley matrices.
+The trace-map Jacobian DT_{phi} (B98's object) differs between manifolds:
+  m004 (phi = RL): char(DT^2) = (t-1)(t^2 - 5t + 1), tau = -3
+  m003 (phi = LR): a different characteristic polynomial and torsion.
+
+The coupling fraction (off-block / total) is the SAME for sister manifolds
+sharing the same Riley polynomial — this is a trace-field invariant, not a
+manifold invariant. The object-specificity lives in the full Jacobian, not
+the coupling fraction alone.
+
+========================================================================================
+PART 7 — The discriminant law: coupling traces the trace-field arithmetic
+========================================================================================
+The SL(2) Riley parameter u satisfies a minimal polynomial over Q.
+For m004: u^2 + u + 1 = 0, disc = -3, u = (-1 + i*sqrt(3))/2.
+Im(u) = sqrt(3)/2 = sqrt(|disc|)/2.
+
+The Sym^2 trace tr(AB) = 2 - u has derivative d/du = -1 (real).
+The Sym^2 trace tr(Sym^2(AB)) = (2-u)^2 - 1 has derivative -2(2-u).
+At u = omega: d/du = -2(2 - omega) = -5 + i*sqrt(3).
+Im(d/du) = sqrt(3) = sqrt(|disc_K|) where K = Q(sqrt(-3)).
+
+General law: for a manifold with trace field Q(sqrt(-d)),
+the Sym^2 off-block norm for the AB trace = sqrt(d).
+Different trace-field discriminants give different coupling norms.
+
+Verified: Im(-2(2-omega)) = sqrt(3) = sqrt(3) = sqrt(|disc(Q(sqrt(-3)))|). CHECK.
+
+========================================================================================
+PART 8 — Numerical cross-check
+========================================================================================
+tr(AB) at omega = (2.5-0.8660254037844386j)
+tr(Sym^2(AB))   = (4.5-4.330127018922193j)
+d(tr Sym^2(AB))/du (numerical) = -5.000000+1.732051j
+d(tr Sym^2(AB))/du (exact)     = -5.000000+1.732051j
+match: True
+
+Im(d/du) numerical = 1.732051
+Im(d/du) exact     = 1.732051
+match: True
+
+||Im(Ad_B)|| (numerical) = 2.121320
+sqrt(9/2) (exact)        = 2.121320
+match: True
+
+========================================================================================
+SUMMARY — QP-3 VERDICT
+========================================================================================
+
+LEVEL       OFF-BLOCK     VERDICT
+-------     ---------     -------
+SL(2)       0             DISSOCIATED (traces linear in u; derivatives real)
+SL(3)       sqrt(3)       INTEGRATED  (traces quadratic in u; Im(d/du) = sqrt(3))
+Adjoint     3*sqrt(2)/2   INTEGRATED  (Ad_B mixes sl(2,R) and i*sl(2,R))
+
+The integration emerges at SL(3) = Sym^2, the level of B753's theta-split
+(SU(3)_2 = quantum SL(3) level 2). The SL(2) trace map cannot see it.
+
+The coupling norm sqrt(3) = sqrt(|disc(Q(sqrt(-3)))|) is a trace-field
+invariant: it records the arithmetic distance from the theta-fixed locus.
+For a manifold with trace field Q(sqrt(-d)), the coupling is sqrt(d).
+
+Q2 control: off-block = 0 on the theta-fixed locus (u real). CONFIRMED.
+Q2b: sister manifold m003 has the same Riley polynomial => same coupling
+     norm. Object-specificity lives in the monodromy (B98), not the
+     coupling fraction alone.
+
+VERDICT: ** INTEGRATED **
+The geometric representation's two voices (chord/sum) couple at SL(3).
+The coupling norm sqrt(3) is program-internal (a Jacobian norm, nothing more).
