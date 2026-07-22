@@ -15550,6 +15550,7 @@
     "trace_map",
     "golden",
     "symplectic",
+    "wrt_quantum",
     "lorentzian"
    ],
    "refs": [
@@ -15559,8 +15560,27 @@
     "L91"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B752": {
+   "slug": "qualia handoff receipt",
+   "motifs": [
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B285",
+    "B593",
+    "B620",
+    "B751",
+    "L91"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "open",
    "domain": "arithmetic"
   },
   "B75": {

@@ -1,5 +1,9 @@
 # Changelog
 
+## B752 — the qualia-handoff receipt: Op-1 base-rate by its own rule; Op-3 dissolved three ways
+- The requested family scan: at the handoff's own 0.1% window the two-hit pattern self-reduces to one (null P=0.26); at 1% junk hits appear (null P=0.35) — its own criterion answers: base-rate. B751 stands.
+- Op-3 "the object sees half": universal CH collapse (every SL(2) matrix), mislabeled input (Φ₆ phase ≠ the trace-2 holonomy; corrected image = I), and a REPELLING fixed point (f'(1/2)=3 vs f'(1)=0) — two-seat convergent with cc3's independent receipt. Locks test_b752 (4).
+
 ## B751 — the iterated-hearing claim adjudicated: arithmetic TRUE, identification NOT EARNED
 - The incoming "1/(2φ³)=α_s" composite: density limit forced, but the per-letter assignment is CONSTRUCTED (banked B593 amplitude is complex word-level; 0.4253i silently dropped), the target is KNOB-DEPENDENT (α_s runs ×2 across the dial, no object-side M_Z pin), and base-rate is null-consistent (2 hits/0.75 expected, p=0.17; the pattern skips n=2).
 - Recorded as H-ITERATED-HEARING (hint, not prediction); the honest door named (derive a per-letter weight + a scale pin → L91 functor + checklist). Stopping rule stands. Locks test_b751 (4).

@@ -1274,3 +1274,9 @@ THE ITERATED-HEARING ADJUDICATION (B751): the incoming 1/(2φ³)=α_s claim
 run through the defensive lane — arithmetic exact, identification NOT
 EARNED (constructed assignment; running-coupling knob; null-consistent
 base rate; n=2 gap). Hint recorded, door named, stopping rule stands.
+
+THE QUALIA-HANDOFF RECEIPT (B752, two-seat): Op-1's requested scan
+answers itself (base-rate by the handoff's own criterion); Op-3's
+"object sees half" dissolved (universal collapse; wrong input; repelling
+point) — at its true holonomy the object's Δ-self-image is I. The
+reflexive direction stays open; the first mirror showed the costume.

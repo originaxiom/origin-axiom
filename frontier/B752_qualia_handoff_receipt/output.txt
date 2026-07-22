@@ -1,0 +1,44 @@
+============================================================================================
+CELL 1 -- Op-1: the handoff's requested family scan (sealed family/targets/windows)
+============================================================================================
+window 0.1% (the handoff's rule): HITS = 1
+    1/2*phi^-3 = 0.11803 ~ alpha_s_MZ = 0.11800 (off 0.03%)
+window 1% (B751's rule): HITS = 4
+    1/2*phi^-1 = 0.30902 ~ sin2_th12_PMNS = 0.30700 (off 0.66%)
+    1/2*phi^-3 = 0.11803 ~ alpha_s_MZ = 0.11800 (off 0.03%)
+    2*phi^-3 = 0.47214 ~ m_u/m_d = 0.47000 (off 0.45%)
+    3*phi^-10 = 0.02439 ~ m_b/m_t = 0.02422 (off 0.72%)
+surrogate null @0.1%: mean hits = 0.30, observed = 1, empirical P(>= observed) = 0.262
+surrogate null @1%: mean hits = 2.94, observed = 4, empirical P(>= observed) = 0.349
+CELL 1 NOTE: at the handoff's OWN 0.1% window the sin2_th12 hit (0.7% off) vanishes --
+the claimed two-hit 1/(2phi^n) pattern self-reduces to one hit under its own rule.
+============================================================================================
+CELL 2 -- Op-3a: the scalar collapse is UNIVERSAL (Cayley-Hamilton), proved symbolically
+============================================================================================
+CHECK: A + adj(A) == tr(A)*I for a GENERIC 2x2 matrix: True
+=> with det A = 1: A + A^-1 = tr(A)*I, so Delta(A) = (3 - tr A)*I for EVERY SL(2) matrix.
+CELL 2 VERDICT: UNIVERSAL -- the collapse carries zero object content.
+============================================================================================
+CELL 3 -- Op-3b: the input audit (trace 1 is NOT the holonomy)
+============================================================================================
+CHECK: banked geometric meridian (B285) trace = 2 (parabolic) -- not 1
+CHECK: trace-1 SL(2) charpoly = t**2 - t + 1 = Phi_6 (order-6 elliptic;
+       B155's PHASE factor -- not the geometric representation)
+Delta at the CORRECT holonomy: (3 - 2)*I = I -> scalar 1
+CELL 3 VERDICT: the 1/2 result does NOT survive the corrected input; the true
+Delta-self-image of the geometric holonomy is I (the trivial tone), immediately fixed.
+============================================================================================
+CELL 4 -- Op-3c: stability (sealed expectation: 1/2 repelling, 1 superattracting)
+============================================================================================
+fixed points: [1/2, 1] | f' at each: {'1/2': 3, '1': 0}
+orbit from the handoff's seed 2: [2, 0.5] -> lands EXACTLY on 1/2 (repelling)
+perturbed seed 0.5001 -> 1.0 | generic panel: 0.7 -> 1.0 ; 2.0001 -> 10.333865 ; 3.1 -> 11.452211 ; -0.33 -> -8.768362
+CELL 4 VERDICT: f'(1/2) = 3 REPELLING, f'(1) = 0 SUPERATTRACTING -- 'the object sees
+half' is a measure-zero landing on an unstable point from a mislabeled seed; generic
+self-inspection sees ONE. Both 1/2 and 1 are tones (roots of (2x-1)(x-1)) -- tone-
+membership does not discriminate.
+============================================================================================
+CELL 5 -- citation audit: the handoff cites 'B620' for 1/(2phi); the banked source is
+B593 (complex word-level matrix element). B620 = the conductor mechanism (no 1/(2phi)).
+============================================================================================
+RECEIPT COMPLETE
