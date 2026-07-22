@@ -1,5 +1,8 @@
 # Changelog
 
+## B757 — L108 dissolved: the two ℤ/3's are never the same element; the mod-4 coincidence is Sylow-forced
+- Element level NO (torsion-freeness); GL(2,ℤ/4) brute-forced: ONE order-3 class among 96 elements, so the exact matrix coincidence carries zero identification content; shared content = the banked atom. DOOR4 closed residual-free. Locks test_b757 (3). Closes R28-7.
+
 ## Review 28 — the convergent-sentence window (anchor ccadb0ee)
 - 21 merges audited; three-arc convergence named as the load-bearing deliverable; every banked consequence verified in-seat (one named partial → R28-4); Gate 5-Q adopted and enforced; no new error class; 8 action items.
 

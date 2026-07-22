@@ -1,0 +1,33 @@
+====================================================================================
+CELL 1 -- element level
+====================================================================================
+g^3 == I: True;  charpoly(g) = x**2 + x + 1 == Phi_3
+deck representatives are covering translations gamma*Gamma_3 with gamma in Gamma;
+Gamma = pi_1(m004) is TORSION-FREE (banked: B285 exact rep; classical for knot groups)
+=> every deck representative has INFINITE order; g has order 3.
+CELL 1 VERDICT: NO -- the two Z/3's are never the same element (theorem).
+====================================================================================
+CELL 2 -- the congruence-level coincidence
+====================================================================================
+Delta mod 4 = t**2 + t + 1 = Phi_3 mod 4
+companion(Delta) mod 4 = [[0, 3], [1, 3]];  g mod 4 = [[0, 3], [1, 3]]
+EXACT EQUALITY: True  (orientation: g matches t, not t^2, in the exhibited presentations)
+====================================================================================
+CELL 3 -- the E20 adjudication: order-3 structure of GL(2, Z/4), brute force
+====================================================================================
+|GL(2, Z/4)| = 96
+order-3 elements: 8
+conjugacy classes of order-3 elements: 1 (sizes [8]; representatives [[[0, 1], [3, 3]]])
+class membership: [('C=deck=g', 0), ('C^2', 0)]
+=> with 1 class(es), 'conjugate mod 4' for two arbitrary Z/3 actions is FORCED up to orientation -- the coincidence carries at most the 1-bit orientation.
+orientation canonicity: t IS canonical (the meridian generator of H_1 = Z);
+g vs g^2 is NOT (B302 exhibited a representative, not an oriented class).
+CELL 3 VERDICT: the mod-4 coincidence is BASE-RATE (Sylow-forced up to a
+non-canonical orientation bit) -- not identity content.
+====================================================================================
+CELL 4 -- verdict assembly
+====================================================================================
+VERDICT: DISSOLVED -- element-level NO (theorem); congruence-level coincidence real
+but E20-forced; no canonical orientation. The shared content is exactly the banked
+Eisenstein atom (charpoly Phi_3 / omega on both sides) and nothing more. L108 CLOSES;
+DOOR4 stays ROUTE-OBSTRUCTED (no new mechanism).

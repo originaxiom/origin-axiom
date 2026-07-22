@@ -587,7 +587,8 @@ derivation**: 5 inert in ℚ(√−3), 3 ramified, level 15 = their product;
 rebuild the hearing group as the Bianchi congruence quotient at 5
 (PSL₂(𝔽₂₅) ⊃ 2I shadow) — the bifocal-is-monofocal-one-level-up cell.
 
-- **L108 — the two ℤ/3's: is B326's congruence ℤ/3 the SAME element as B302's commensurator ℤ/3?**
-  (B756/DOOR4's one live residual; the identity was never established. A dedicated small cell:
-  express both in PGL(2,O₋₃) and test conjugacy/descent. Until then the commensurator
-  generation-route stays ROUTE-OBSTRUCTED, not closed.)
+- **L108 — the two ℤ/3's — CLOSED (B757, 2026-07-22): DISSOLVED.** Never the same element
+  (deck representatives ∈ torsion-free Γ; g has order 3 — theorem); the exact mod-4 matrix
+  coincidence is E20-FORCED (GL(2,ℤ/4) has ONE order-3 conjugacy class — brute-forced over
+  all 96 elements); the shared content is exactly the banked Eisenstein atom. DOOR4 stays
+  ROUTE-OBSTRUCTED with zero live residuals.

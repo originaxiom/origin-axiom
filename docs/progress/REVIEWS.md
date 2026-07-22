@@ -1986,6 +1986,8 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
   depth_reached field (cc3-designed; carried from R27-6's second half)
 - [ ] R28-6: B500 wrap-up — bank the straggler verdict when the run ends (26 TIMEOUT + 9
   never-reached at last count; two deep cases at PARI limits; honest-residual report)
-- [ ] R28-7: L108 — the two-ℤ/3 identity cell (B326 ≟ B302; the one DOOR4 residual)
+- [x] R28-7: L108 — the two-ℤ/3 identity cell (B326 ≟ B302; the one DOOR4 residual) — DONE
+  2026-07-22 (B757): DISSOLVED — never the same element (torsion-freeness theorem); the mod-4
+  coincidence is Sylow-forced (one order-3 class in GL(2,ℤ/4)); shared content = the banked atom
 - [ ] R28-8: the QP cells (S072) — QP-3 first, under Gate 5-Q, when the owner opens the
   phenomenology track's first arc
