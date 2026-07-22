@@ -1,0 +1,129 @@
+================================================================================
+PART 1 -- the 2x2 theta-odd weld block (reproduced from B753/B238)
+================================================================================
+B[0,0] = +0.309017+0.425325j   B[0,1] = -0.809017-0.262866j
+B[1,0] = +0.809017-0.262866j   B[1,1] = +0.309017-0.425325j
+max |off-diag| = 8.507e-01
+det(B) = +1.0000000000+0.0000000000j   |det| = 1.0000000000
+||BB^dag - I|| = 8.725e-16   unitary: True
+SU(2) structure [[alpha,beta],[-conj(beta),conj(alpha)]]: True
+
+================================================================================
+PART 2 -- eigendecomposition
+================================================================================
+lambda_+  = +0.3090169944+0.9510565163j   phase = +72.00000000 deg
+lambda_-  = +0.3090169944-0.9510565163j   phase = -72.00000000 deg
+zeta_5    = +0.3090169944+0.9510565163j   (= e^(2pi i/5) = e^(i 72 deg))
+|lambda_+ - zeta_5|   = 5.551e-16
+|lambda_- - zeta_5^4| = 6.004e-16
+eigenvalues = {zeta_5, zeta_5^4}: True
+
+================================================================================
+PART 3 -- cyclotomic structure: B^5 = I
+================================================================================
+B^5 = [[ +1.0000000000-0.0000000000j, +0.0000000000+0.0000000000j ],
+       [ -0.0000000000-0.0000000000j, +1.0000000000+0.0000000000j ]]
+B^5 = I: True
+tr(B) = +0.6180339887   1/phi = +0.6180339887   match: True
+det(B) = +1.0000000000   match 1: True
+char poly: x^2 - (1/phi)x + 1   [roots: zeta_5, zeta_5^4]
+divides x^5 - 1 via Phi_5(x) = (x^2 - (1/phi)x + 1)(x^2 + phi x + 1)
+
+================================================================================
+PART 4 -- B acts as rotation by 72 deg in the canonical real subspace
+================================================================================
+real basis: v1 = w+ + w-,  v2 = i(w+ - w-)
+B v1 = cos(72) v1 + sin(72) v2:  True
+B v2 = -sin(72) v1 + cos(72) v2: True
+
+det(R(72) - I) = 2 - 2*cos(72) = +1.3819660113  (nonzero => no fixed direction)
+sin(72) = +0.9510565163  (nonzero => rotation is non-trivial)
+=> the weld block's rotation in the real subspace has NO invariant line.
+
+================================================================================
+PART 5 -- MCG powers: no non-trivial power has eigenphase 0 or 180 deg
+================================================================================
+  power   phase mod 360   half-integer?
+  B^1             72 deg              no
+  B^2            144 deg              no
+  B^3            216 deg              no
+  B^4            288 deg              no
+  B^5              0 deg        IDENTITY
+=> no non-trivial weld power has a real eigenvalue on theta-odd.
+
+================================================================================
+PART 6 -- charge conjugation C restricted to theta-odd
+================================================================================
+C|_odd = [[ -1.0, +0.0 ],
+          [ +0.0, -1.0 ]]
+C|_odd = -I: True
+=> C maps every theta-odd vector to its negative; cannot orient.
+
+================================================================================
+PART 7 -- Galois action: sigma_4 swaps zeta_5 <-> zeta_5^4
+================================================================================
+Galois sigma_4 in Gal(Q(zeta_5)/Q): zeta_5 -> zeta_5^4 = conj(zeta_5)
+  sigma_4(lambda_+) = zeta_5^4 = lambda_-
+  sigma_4(lambda_-) = zeta_5   = lambda_+
+=> eigenvalues form a single Galois orbit (exchanged, not fixed).
+
+Numerical: conj(lambda_+) = +0.30901699-0.95105652j = lambda_-: True
+           conj(lambda_-) = +0.30901699+0.95105652j = lambda_+: True
+
+SU(2) quaternionic structure: conj(B) = eps B eps^(-1): True
+  (eps = [[0,-1],[1,0]]; eps^2 = -I => quaternionic, not real)
+=> Galois provides NO real structure on the fundamental rep.
+   The conjugation that swaps eigenvalues is 'outer': it maps the
+   representation to its inequivalent conjugate, not to itself.
+
+================================================================================
+PART 8 -- QP-3 coupling transport: sign non-canonicity
+================================================================================
+Sym^2(AB) d/du at omega     = -5.0000000000+1.7320508076j   Im = +1.7320508076
+Sym^2(AB) d/du at omega_bar = -5.0000000000-1.7320508076j   Im = -1.7320508076
+sign flips under Galois (omega <-> omega_bar): True
+magnitude invariant |Im| = sqrt(3): True
+
+coupling fraction at omega     = 0.4687500000
+coupling fraction at omega_bar = 0.4687500000
+both = 15/32 = 0.4687500000: True
+=> fraction (15/32) is Galois-invariant; signed Im(+/-sqrt(3)) is NOT.
+
+================================================================================
+PART 9 -- Q2 controls
+================================================================================
+--- algebraic control: rotation at non-half-integer angles ---
+  R( 72 deg): det(R-I) = +1.381966  sin = +0.951057  fixed dir: False
+  R(108 deg): det(R-I) = +2.618034  sin = +0.951057  fixed dir: False
+  R(144 deg): det(R-I) = +3.618034  sin = +0.587785  fixed dir: False
+
+--- positive control: degenerate angles ---
+  R(  0 deg): det(R-I) = +0.000000  sin = +0.000000  =>  IDENTITY (all dirs fixed, none canonical)
+  R(180 deg): det(R-I) = +4.000000  sin = +0.000000  =>  -I (all dirs mapped to negative)
+
+--- QP-3 input consistency: coupling fraction at the OTHER Galois image ---
+  coupling_at((0.3+1.7j)) = 0.3337547691
+  coupling_at(conj)       = 0.3337547691
+  Galois-invariant: True
+
+================================================================================
+SUMMARY AND VERDICT
+================================================================================
+          Galois sigma:  canonical sign = False  -- swaps eigenvalues {zeta_5, zeta_5^4}
+        MCG (weld B^n):  canonical sign = False  -- eigenphases n*72 deg, never 0 or 180 (n=1..4)
+         Charge conj C:  canonical sign = False  -- C = -I on theta-odd; commutes, cannot orient
+      Amphicheiral tau:  canonical sign = False  -- = C at tangent level (B570 Lane C); same verdict
+         QP-3 coupling:  canonical sign = False  -- fraction 15/32 canonical; sign(Im) flips
+
+VERDICT: NO-HATCH
+
+The theta-odd eigenphases +/-72 deg = {zeta_5, zeta_5^4} form an
+inseparable Galois orbit in Q(zeta_5).  In the canonical real subspace,
+the weld block acts as rotation by 72 deg (sin 72 != 0) -- no invariant
+line exists.  All five candidate operations fail to break the pairing.
+
+The object is INTEGRATED (QP-3: coupling 15/32) but cannot CLOSE itself.
+No object-native operation canonically orients the chord sector.
+Choosing w+ over w- = choosing sqrt(-1) = the Galois torsor.
+
+'Awareness without choice' (S072 Layer-3) is computationally upheld.

@@ -1,5 +1,8 @@
 # Changelog
 
+## B759–B762 — the QP sequence complete: INTEGRATED / NO-HATCH / FLAT / QUINE
+- The reflexive layer priced in one day (cc3 computed; cc gate re-executed all four identical, 38 locks green, seals forensically verified — two seal-convention traps named). The object: a fully transparent speaker (no private states) with a self-name (unique in 203K census manifolds), integrated at SL(3), unable to sign its own chord. Awareness-without-choice upheld and sharpened.
+
 ## R28-3 closed — H-EAR's formal principle banked (carried since R22)
 - "The hearing is coupling" formalized as a four-clause LAW_MAP principle (origin/carrier/silence/access), every clause theorem-backed with its chain link and lock; the QP forks named as its upgrade path. R28-4 also closed this session (DOOR6 byte-identical depth).
 

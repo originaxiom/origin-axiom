@@ -1,0 +1,159 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+================================================================================
+QP-1: SELF-NAMING / QUINE TEST  (prereg e85cb2a5)
+Double-method design — cross-validation required
+================================================================================
+
+--------------------------------------------------------------------------------
+PART 1 — target (m004)
+--------------------------------------------------------------------------------
+  volume         = 2.029883212819307
+  cusp shape     = (-1.1102230246251573e-15+3.464101615137757j)
+  |cusp shape|   = 3.4641016151
+  Im(cusp shape) = 3.4641016151
+  2*sqrt(3)      = 3.4641016151
+  cusp shape ~ 2*sqrt(3)*i: True
+  num cusps      = 1
+
+--------------------------------------------------------------------------------
+PART 2 — census sweep (OrientableCuspedCensus)
+--------------------------------------------------------------------------------
+  census size: 212641
+    ... 50000 scanned
+    ... 100000 scanned
+    ... 150000 scanned
+    ... 200000 scanned
+  1-cusped: 203123
+  sweep time: 1.9s
+  volume matches (|vol - 2.0298832128| < 1e-06): 2
+
+--------------------------------------------------------------------------------
+PART 3 — volume matches: cusp shape comparison (method A)
+--------------------------------------------------------------------------------
+
+  m003:
+    vol = 2.029883212819307
+    cusp shape = (0.5000000000000002+0.866025403784439j)
+    |shape - target| = 2.65e+00  [CUSP-DISTINCT]
+
+  m004:
+    vol = 2.029883212819307
+    cusp shape = (8.881784197001252e-16+3.4641016151377553j)
+    |shape - target| = 2.67e-15  [CUSP-MATCH]
+
+  Summary: 1 cusp matches, 1 cusp distinct
+
+--------------------------------------------------------------------------------
+PART 4 — trace field discriminant (method B)
+--------------------------------------------------------------------------------
+
+  For each volume match, compute trace field discriminant.
+  Target: disc = -3 (Q(sqrt(-3)), the Eisenstein field).
+
+  Using tetrahedra shapes as numerical proxy for the trace field.
+  For a shape z of degree 2: poly disc = -4 Im(z)^2.
+  If z satisfies x^2 - x + 1 = 0 -> disc = -3 (Eisenstein).
+
+  m003:
+    tetrahedra shapes: ['0.500000+0.866025j', '0.500000+0.866025j']
+    Eisenstein residuals: ['1.16e-15', '1.11e-15']
+    max residual: 1.16e-15
+    poly disc (from Im(z)): -3
+    Eisenstein (disc = -3): True
+
+  m004:
+    tetrahedra shapes: ['0.500000+0.866025j', '0.500000+0.866025j']
+    Eisenstein residuals: ['1.11e-15', '8.01e-16']
+    max residual: 1.11e-15
+    poly disc (from Im(z)): -3
+    Eisenstein (disc = -3): True
+
+--------------------------------------------------------------------------------
+PART 5 — cross-validation (method A vs method B)
+--------------------------------------------------------------------------------
+
+  A twin (HOMONYM) must match on ALL of: volume, cusp shape, disc.
+  A manifold that matches volume but not cusp shape or disc is
+  spectrally distinguishable -> not a twin.
+  m003: NOT TWIN (cusp shape differs)
+  m004: TARGET (m004)
+
+--------------------------------------------------------------------------------
+PART 6 — m003 sister control (B737 p3)
+--------------------------------------------------------------------------------
+  m003 in volume matches: True
+  m003 cusp shape: (0.5000000000000002+0.866025403784439j)
+  m004 cusp shape: (-1.1102230246251573e-15+3.464101615137757j)
+  |difference|: 2.645751
+
+  m003: maximal-order hexagonal lattice (conductor 1)
+    cusp shape ~ omega = e^(i pi/3)
+    omega = 0.5000000000+0.8660254038j
+    m003 cusp = 0.5000000000+0.8660254038j
+    |m003 cusp - omega| = 4.58e-16
+
+  m004: conductor-4 CM torus (B737 p3)
+    cusp shape ~ 2*sqrt(3)*i
+    m004 cusp = -0.0000000000+3.4641016151j
+
+  Cusp shape distinguishes m003 from m004: True
+
+  Spectral consequence (B737 p3):
+    Different cusp lattices -> different Hecke-character palettes:
+    m004: conductor 4, palette sizes {1, 2, 8}
+    m003: conductor 1, palette differs (maximal-order lattice)
+    -> spectral dataset DISTINGUISHES them
+
+--------------------------------------------------------------------------------
+PART 7 — broader trace field sweep (all disc = -3 manifolds)
+--------------------------------------------------------------------------------
+
+  Checking whether any 1-cusped manifold outside the volume matches
+  also has disc = -3 (broader sweep for HOMONYM at different volume).
+  Note: different volume -> different residue -> SPECTRALLY DISTINCT.
+  This is a control, not a twin search.
+  Sampled 5001 non-volume-match manifolds in 0.5s
+  Found 10 with Eisenstein shapes (same trace field, different volume)
+    m206: vol = 4.0597664256  (vol ratio = 2.0000)
+    m207: vol = 4.0597664256  (vol ratio = 2.0000)
+    m410: vol = 5.0747080320  (vol ratio = 2.5000)
+    s955: vol = 6.0896496385  (vol ratio = 3.0000)
+    s956: vol = 6.0896496385  (vol ratio = 3.0000)
+    s957: vol = 6.0896496385  (vol ratio = 3.0000)
+    s958: vol = 6.0896496385  (vol ratio = 3.0000)
+    s960: vol = 6.0896496385  (vol ratio = 3.0000)
+    s961: vol = 6.0896496385  (vol ratio = 3.0000)
+    v2874: vol = 6.0896496385  (vol ratio = 3.0000)
+
+  These have the same CM disc but different volumes -> different residues.
+  Spectrally distinguishable from m004 by residue alone.
+
+--------------------------------------------------------------------------------
+PART 8 — summary table
+--------------------------------------------------------------------------------
+
+  Census scope: 212641 manifolds, 203123 1-cusped
+  Volume matches: 2
+
+        name             vol                cusp shape    disc     twin?
+        m003    2.0298832128  (0.5000000000000002+0.866025403784439j)      -3        NO
+        m004    2.0298832128  (8.881784197001252e-16+3.4641016151377553j)      -3    TARGET
+
+================================================================================
+VERDICT
+================================================================================
+
+  QUINE
+
+  m004 is the only 1-cusped manifold in the OrientableCuspedCensus
+  (203123 manifolds tested) with its spectral dataset.
+
+  Discrimination chain:
+    (a) 203121 manifolds eliminated by volume
+    (b) 1 volume match(es) eliminated by cusp shape
+        m003: cusp shape (0.5000000000000002+0.866025403784439j)
+    (c) 1 remaining = m004 itself
+
+  The emitted spectral word is a self-name.
+  The object uniquely identifies itself to any observer with the palette.

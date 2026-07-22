@@ -15686,6 +15686,7 @@
     "figure_eight",
     "trace_map",
     "kappa",
+    "eisenstein",
     "golden",
     "z3_generation",
     "torsion"
@@ -15703,9 +15704,10 @@
     "B743",
     "B754",
     "L241",
-    "L57"
+    "L57",
+    "P4"
    ],
-   "obstacle": "gauge_dict",
+   "obstacle": "cancellation",
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "arithmetic"
@@ -15744,6 +15746,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B759": {
+   "slug": "qp3 integration",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B746",
+    "B753",
+    "B98"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B75": {
    "slug": "metallic degree rank",
    "motifs": [
@@ -15770,6 +15793,61 @@
    "obstacle_conf": 26,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B760": {
+   "slug": "qp4 closure",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B570",
+    "B753",
+    "S072"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B761": {
+   "slug": "qp2 private",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein"
+   ],
+   "refs": [
+    "B264",
+    "B357",
+    "B71",
+    "B73",
+    "B83",
+    "S072"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B762": {
+   "slug": "qp1 self naming",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B737",
+    "P020",
+    "S072"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B76": {
    "slug": "cusp quantum group",
