@@ -80,3 +80,34 @@ def test_cell3_b685_gswz_gates_and_pure3():
         assert frag in out
     assert "CHECK2: all denominators through u^5 are pure powers of 3: True" in out
     assert "CELL 3 FINAL VERDICT: PURE-3 CONFIRMED to order u^5" in out
+
+
+def test_verification_addendum_independent_algebra():
+    from fractions import Fraction as F
+    rs = [F(11, 24), F(697, 1152), F(724351, 414720), F(278392949, 39813120),
+          F(244284791741, 6688604160)]
+    n = 6
+    prod = [F(0)] * n
+    for j in range(6):
+        for k in range(6):
+            if j + k >= n or (j + k) % 2 == 1:
+                continue
+            aj = rs[j - 1] if j else F(1)
+            ak = rs[k - 1] if k else F(1)
+            prod[j + k] += aj * ak * ((-1) ** k) * (F(-1, 27) ** ((j + k) // 2))
+    logc = [F(0)] + [F((-1) ** (i + 1), i) for i in range(1, n)]
+    powers = {0: [F(1)] + [F(0)] * (n - 1)}
+    for m in range(1, n):
+        prev = powers[m - 1]
+        cur = [F(0)] * n
+        for i in range(n):
+            for j2 in range(n - i):
+                cur[i + j2] += prev[i] * logc[j2]
+        powers[m] = cur
+    out = [F(0)] * n
+    for m in range(n):
+        if prod[m] == 0:
+            continue
+        for i in range(n):
+            out[i] += prod[m] * powers[m][i]
+    assert [str(c) for c in out] == ["1", "0", "-1/27", "1/27", "-4/243", "-1/243"]
