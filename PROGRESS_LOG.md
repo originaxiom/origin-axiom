@@ -7245,3 +7245,12 @@ the program's continuation with its pricing instruments named. Admission sealed 
 present and collecting. Going-forward rule adopted in-document: every new banked positive
 enters the chain under a label or is explicitly hint/open — nothing in between. Lock
 test_b758 (3). Nothing to CLAIMS.
+
+## 2026-07-22 — R28-4 closed: DOOR6 verified at full depth (byte-identical re-execution)
+The window's one named partial is gone. The B646 r-ladder convention traced (r = the
+Jeffrey rung, k = r−12); cc2's own banked P4 machinery re-executed read-only in this seat —
+both internal gates passed (the P=+3 path reproduces banked r=13/19; ε=+1 the unique global
+sign on the 8-rung ladder) and the results json is BYTE-IDENTICAL to cc2's banked file.
+(tr_odd, tr_even)(23) = (1, 0) re-derived exactly (the correlate dies at 23, as banked);
+the κ=25 cancellation exact (~1e-17), honestly outside the certificate law's scope; the
+law's prediction at 23 agrees ((1−(23|5))/2 = 1). DOOR6 FIRM at full depth.

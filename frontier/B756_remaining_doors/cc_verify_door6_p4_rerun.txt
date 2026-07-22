@@ -1,0 +1,114 @@
+==============================================================================
+P4 -- SECTOR-SPLIT EXTENSION + CORRELATE STRESS TEST
+prereg sha256 baed2eedc20d5c4565263dc7ae2b8d4988b23bcc1a911b9bdee51ff47b130984
+==============================================================================
+
+---- STEP 1: P_WORD=+3 code-path gate at r=13,19 (own re-implementation) ----
+[P+3 gate] |W| = 51840
+[P+3 gate] buckets: 25
+[P+3 gate] done in 16.2s
+  r=13: computed +1.000000000000+2.05e-16i  vs banked 1.0  |dev|=4.892e-16  PASS
+  r=19: computed +2.000000000000+1.13e-16i  vs banked 2.0  |dev|=4.582e-16  PASS
+GATE PASS: own P_WORD=+3 code path reproduces banked r=13 (1.0) and r=19 (2.0) to < 1e-7.
+
+Z_{+3}(r), r=13..25 (banked, jeffrey_terms.json + jeffrey_extension.json):
+  r=13: +1.0000000000-8.23e-17i
+  r=14: +1.0000000000+2.62e-17i
+  r=15: +1.0000000000+2.54e-17i
+  r=16: +0.0000000000-5.64e-17i
+  r=17: +1.0000000000+2.42e-17i
+  r=18: +1.0000000000+7.53e-17i
+  r=19: +2.0000000000-9.37e-18i
+  r=20: +1.0000000000+1.16e-16i
+  r=21: +1.0000000000+2.01e-16i
+  r=22: +2.0000000000+4.54e-16i
+  r=23: +1.0000000000+2.01e-16i
+  r=24: +2.0000000000-2.24e-16i
+  r=25: -0.0000000000-9.95e-18i
+
+---- STEP 2: P_WORD=-3 full bucketed pipeline, r=13..25 ----
+(class-function 2-rep spot check logged inline for the 3 largest buckets at r in (13, 19))
+[P-3 full] |W| = 51840
+[P-3 full] buckets: 25
+    [spot-check] bucket 0 (size 6480, |detB|=245) r=13: 2 rep(s) -> [+15.6524758425+0.0000000000i, +15.6524758425+0.0000000000i]  max|diff|=9.657e-15  CLASS-FN OK
+    [spot-check] bucket 0 (size 6480, |detB|=245) r=19: 2 rep(s) -> [-15.6524758425-0.0000000000i, -15.6524758425-0.0000000000i]  max|diff|=1.100e-14  CLASS-FN OK
+    [spot-check] bucket 1 (size 5760, |detB|=289) r=13: 2 rep(s) -> [-17.0000000000-0.0000000000i, -17.0000000000-0.0000000000i]  max|diff|=0.000e+00  CLASS-FN OK
+    [spot-check] bucket 1 (size 5760, |detB|=289) r=19: 2 rep(s) -> [-17.0000000000-0.0000000000i, -17.0000000000-0.0000000000i]  max|diff|=0.000e+00  CLASS-FN OK
+    [spot-check] bucket 2 (size 5184, |detB|=625) r=13: 2 rep(s) -> [-25.0000000000+0.0000000000i, -25.0000000000+0.0000000000i]  max|diff|=3.202e-14  CLASS-FN OK
+    [spot-check] bucket 2 (size 5184, |detB|=625) r=19: 2 rep(s) -> [-25.0000000000+0.0000000000i, -25.0000000000+0.0000000000i]  max|diff|=2.205e-13  CLASS-FN OK
+[P-3 full] done in 95.1s
+
+det(B) multiset for P_WORD=-3 (25 Weyl classes, sorted |det B|):
+  [25, 45, 64, 64, 80, 100, 125, 125, 144, 225, 245, 289, 320, 400, 400, 500, 625, 625, 720, 1024, 1125, 2025, 2500, 3125, 15625]
+  distinct values: [25, 45, 64, 80, 100, 125, 144, 225, 245, 289, 320, 400, 500, 625, 720, 1024, 1125, 2025, 2500, 3125, 15625]
+
+Z_{-3}(r), r=13..25 (freshly computed):
+  r=13: -1.0000000000-2.93e-16i
+  r=14: -1.0000000000+1.31e-17i
+  r=15: +1.0000000000-2.60e-17i
+  r=16: +0.0000000000-5.35e-17i
+  r=17: +1.0000000000-5.50e-17i
+  r=18: -1.0000000000-3.25e-16i
+  r=19: -0.0000000000+2.02e-16i
+  r=20: +1.0000000000-1.08e-16i
+  r=21: -1.0000000000-4.16e-16i
+  r=22: -0.0000000000-7.14e-17i
+  r=23: -1.0000000000-2.15e-16i
+  r=24: +0.0000000000-4.50e-16i
+  r=25: +2.0000000000-3.60e-16i
+
+---- STEP 3: fixing the single global eps against banked ladder r=13..20 ----
+  eps=+1: 8/8 rungs match the banked ladder
+    r=13 (k=1): tr_odd=+1.000000 tr_even=-0.000000 -> (1, 0)  banked=(1, 0)  OK
+    r=14 (k=2): tr_odd=+1.000000 tr_even=+0.000000 -> (1, 0)  banked=(1, 0)  OK
+    r=15 (k=3): tr_odd=-0.000000 tr_even=+1.000000 -> (0, 1)  banked=(0, 1)  OK
+    r=16 (k=4): tr_odd=+0.000000 tr_even=+0.000000 -> (0, 0)  banked=(0, 0)  OK
+    r=17 (k=5): tr_odd=-0.000000 tr_even=+1.000000 -> (0, 1)  banked=(0, 1)  OK
+    r=18 (k=6): tr_odd=+1.000000 tr_even=-0.000000 -> (1, 0)  banked=(1, 0)  OK
+    r=19 (k=7): tr_odd=+1.000000 tr_even=+1.000000 -> (1, 1)  banked=(1, 1)  OK
+    r=20 (k=8): tr_odd=+0.000000 tr_even=+1.000000 -> (0, 1)  banked=(0, 1)  OK
+  eps=-1: 2/8 rungs match the banked ladder
+    r=13 (k=1): tr_odd=-0.000000 tr_even=+1.000000 -> (0, 1)  banked=(1, 0)  MISMATCH
+    r=14 (k=2): tr_odd=+0.000000 tr_even=+1.000000 -> (0, 1)  banked=(1, 0)  MISMATCH
+    r=15 (k=3): tr_odd=+1.000000 tr_even=-0.000000 -> (1, 0)  banked=(0, 1)  MISMATCH
+    r=16 (k=4): tr_odd=+0.000000 tr_even=+0.000000 -> (0, 0)  banked=(0, 0)  OK
+    r=17 (k=5): tr_odd=+1.000000 tr_even=-0.000000 -> (1, 0)  banked=(0, 1)  MISMATCH
+    r=18 (k=6): tr_odd=-0.000000 tr_even=+1.000000 -> (0, 1)  banked=(1, 0)  MISMATCH
+    r=19 (k=7): tr_odd=+1.000000 tr_even=+1.000000 -> (1, 1)  banked=(1, 1)  OK
+    r=20 (k=8): tr_odd=+1.000000 tr_even=+0.000000 -> (1, 0)  banked=(0, 1)  MISMATCH
+
+GATE PASS: eps = +1 is the UNIQUE global sign reproducing the entire banked sector ladder r=13..20 (8/8).
+
+---- STEP 4: full (tr_odd, tr_even) ladder k=1..13 (r=13..25) ----
+  k= 1 (r=13): tr_odd=+1.000000 tr_even=-0.000000  ~ (1,0)  [BANKED-LADDER-GATE]
+  k= 2 (r=14): tr_odd=+1.000000 tr_even=+0.000000  ~ (1,0)  [BANKED-LADDER-GATE]
+  k= 3 (r=15): tr_odd=-0.000000 tr_even=+1.000000  ~ (0,1)  [BANKED-LADDER-GATE]
+  k= 4 (r=16): tr_odd=+0.000000 tr_even=+0.000000  ~ (0,0)  [BANKED-LADDER-GATE]
+  k= 5 (r=17): tr_odd=-0.000000 tr_even=+1.000000  ~ (0,1)  [BANKED-LADDER-GATE]
+  k= 6 (r=18): tr_odd=+1.000000 tr_even=-0.000000  ~ (1,0)  [BANKED-LADDER-GATE]
+  k= 7 (r=19): tr_odd=+1.000000 tr_even=+1.000000  ~ (1,1)  [BANKED-LADDER-GATE]
+  k= 8 (r=20): tr_odd=+0.000000 tr_even=+1.000000  ~ (0,1)  [BANKED-LADDER-GATE]
+  k= 9 (r=21): tr_odd=+1.000000 tr_even=+0.000000  ~ (1,0)  [FRESH/SEALED]
+  k=10 (r=22): tr_odd=+1.000000 tr_even=+1.000000  ~ (1,1)  [FRESH/SEALED]
+  k=11 (r=23): tr_odd=+1.000000 tr_even=+0.000000  ~ (1,0)  [FRESH/SEALED]
+  k=12 (r=24): tr_odd=+1.000000 tr_even=+1.000000  ~ (1,1)  [FRESH/SEALED]
+  k=13 (r=25): tr_odd=-1.000000 tr_even=+1.000000  ~ (-1,1)  [FRESH/SEALED]
+
+---- STEP 5: the five sealed predictions, r=21..25 ----
+  r=21 (3 ramified, 7 split; NO inert odd prime):
+    predicted tr_even == 0 -> observed tr_even=+0.000000 (HOLDS)
+    predicted split (1, 0) -> observed (1,0) (HOLDS)
+  r=22 (11 === 2 mod 3 INERT):
+    predicted tr_even != 0 -> observed tr_even=+1.000000 (HOLDS)
+  r=23 (23 === 2 mod 3 INERT, prime):
+    predicted tr_even != 0 -> observed tr_even=+0.000000 (VIOLATED)
+    predicted split (0, 1) -> observed (1,0) (VIOLATED)
+  r=24 (2^3*3; NO inert odd prime):
+    predicted tr_even == 0 -> observed tr_even=+1.000000 (VIOLATED)
+    predicted split (2, 0) -> observed (1,1) (VIOLATED)
+  r=25 (5 INERT but Z = 0 (silent/vacuous)):
+    Z=-0.000/+2.000-derived silent rung (vacuous, no falsifier) -> observed split=(-1,1) BANKED AS DATA
+
+==== CORRELATE VERDICT: CORRELATE-DIES-AT-(23) ====
+
+WROTE ./p4_results.json

@@ -79,3 +79,18 @@ doors (2 and 3) with in-seat recomputation.
   adversarial verify); the trivial half re-checked here ((23|5) = −1 ✓); a full in-seat
   re-derivation would need the B646 r-ladder convention trace — carried to the review as
   a named partial, not blurred.
+
+## DOOR6 DEPTH ADDENDUM (2026-07-22, R28-4) — full in-seat re-execution, byte-identical
+
+The named partial is closed. The r-ladder convention traced: r = the Jeffrey-pipeline rung
+(k = r−12 the E₆ level); the B646-iii kill fact is the P4 sector-split at r=23. cc re-ran
+cc2's OWN banked machinery read-only (the bucketed Gauss-sum pipeline at P_WORD = ±3; both
+gates passed in my run — the P=+3 code path reproduces banked r=13/19, and ε=+1 is the
+UNIQUE global sign matching the banked 8-rung ladder): **p4_results.json byte-identical to
+cc2's banked file.** The kill fact re-derived: (tr_odd, tr_even)(23) = (1, 0) exactly
+(Z(23) = +1.0000000000, imaginary ~2e-16) — the inert⟺even-sector correlate DIES at 23,
+per the banked kill; the certificate law agrees (Z(23) = (1−(23|5))/2 = 1). κ=25: the
+exact cancellation confirmed (Z(25) = −0.0000000000, ~1e-17) with split (−1, 1), and 25 is
+honestly outside the certificate law's coprimality scope (gcd(25, 2·3·5·7·11·19) = 5).
+cc2's DOOR6 B646-iii grade FIRM is now verified at full depth in this seat.
+Artifact: cc_verify_door6_p4_rerun.txt.
