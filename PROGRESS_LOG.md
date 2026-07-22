@@ -7376,3 +7376,12 @@ reconstruction identity, durable). (4) Environment pins verified consistent (sym
 == REPRODUCIBILITY). Standing lesson: reviews gain a sampled mutation test (2 locks per
 review, restore-after) — proposed for the next template revision. The suite (pass 1's
 one open box) still runs.
+
+## 2026-07-22 — the full-suite box closes: 2715 passed; ONE failure caught and fixed
+The safety sweep's final box: the full suite (51m43s) came back 2715 passed / 35 skipped /
+1 FAILED — the path-hygiene lock caught a hardcoded seat path in B754's TOMB-L30 cell
+(arrived with the cc3 merge; the gate's targeted subset couldn't see it — only the full
+suite could, which is why the sweep insisted on running it). Fixed with the standard
+relative-path treatment; the cell re-executed IDENTICAL post-fix; hygiene + B754 locks
+green. Gate lesson logged: cross-seat merges get the path-hygiene lock added to the
+targeted gate subset from now on.
