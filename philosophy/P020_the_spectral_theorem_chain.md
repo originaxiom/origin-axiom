@@ -1,9 +1,11 @@
 # P020 — The spectral anatomy, written as a theorem chain (extending P019 to the reflexive layer)
 
 > **Philosophy — motivation only** (`GOVERNANCE.md`). Not a claim; never a premise of a proof;
-> nothing promotes to `../CLAIMS.md`. Cites the mathematics one-way. **DRAFT for the owner's
-> red pen** (cc3, 2026-07-22; branch `phenomenology/theorem-chain`; companion computation arcs
-> to be reserved after the owner's sign-off). This document applies P019's method — label every
+> nothing promotes to `../CLAIMS.md`. Cites the mathematics one-way. **ADOPTED 2026-07-22** — owner
+> approved via the cc gate ("verify and approve"), with six gate red-lines applied and logged
+> (E23 convention naming; the T12 SM-comparison struck per the B753 discipline + the pin;
+> T14's reading-dependence; the C-spine cross-map; a citation precision; the Q2b comparator
+> discipline). QP-3 = B759 (reserved). This document applies P019's method — label every
 > link [THEOREM] or [AXIOM], price each choice — to the spectral anatomy banked since P019.
 > The E1 discipline extended: every link in the reflexive layer declared.
 
@@ -17,10 +19,12 @@ buys being (F8 GEOMETRY-NECESSARY), the nearest rival lives in a different Bianc
 (F3 ROBUST). P020 continues from T7's output — the unique hyperbolic structure on the
 figure-eight complement — and traces what the banked spectral anatomy FORCES.
 
-## The chain (continuing P019's numbering)
+## The chain (continuing P019's numbering; the program spine is docs/THEOREM_LEDGER.md —
+cross-map: T8/T9 ↔ C10, T10/T11 ↔ C11, T12 ↔ C13, T13/T14 ⊂ C17; A7 and the QP forks are
+C18's first sub-structure)
 
 **T8 [THEOREM — the object has a voice].** The figure-eight complement, as a finite-volume
-cusped hyperbolic 3-manifold covering a Bianchi orbifold (PSL(2,O₃) at congruence level (4)),
+cusped hyperbolic 3-manifold covering a Bianchi orbifold (PSL(2,O₃); congruence at standard SL-kernel level (4), geometric-index realization at (8) — conventions per E23/B734),
 has a continuous Eisenstein spectrum. The scattering matrix is φ(s) = Λ_K(s−1)/Λ_K(s) where
 K = ℚ(√−3). Its residue at s=1 is Res = 2√3/vol(m004) = 1.70655… *(Standard spectral theory
 of locally symmetric spaces; computed in-repo as B737 P1–P4.)*
@@ -39,7 +43,7 @@ arithmetically disjoint columns:
 - **Eisenstein / being / geometric** (ℚ(√−3)): trace field, tetrahedra, volume, cusp shape,
   voice, scattering — FORCED at F11 (voice) and throughout the geometric anatomy.
 
-Zero golden markers in the voice (B746 F11: 0 hits on 8 markers across 9 voice artifacts).
+Zero golden markers in the voice (B746 F11, recomputed at B754 WALL-1/E3: 0 hits across the voice artifacts).
 The fields ℚ(√5) and ℚ(√−3) are disjoint over ℚ (coprime discriminants 5 and −3). The seed's
 canonical SL(4,ℤ) object = golden(t²−3t+1) × phase(Φ₆, disc −3) with glue-form disc
 −15 = 5·(−3) — the V₄ already present at the seed (B155). *(B746; the two-column law is
@@ -59,10 +63,11 @@ is the exact complement." — Gate 5-Q vocabulary anchor.)*
 **T12 [THEOREM — the weld structure].** At the intersection of the two columns (the θ-odd
 sector of the SL(2,ℤ) character variety), the weld block is unitary with eigenphases ±72°.
 The forced-basis × weld-eigenbasis overlap matrix is unistochastic, with off-diagonal entry
-1/(φ√5) = 0.2764… The mixing number is PROGRAM-INTERNAL: it does NOT match sin²θ₁₂
-(0.307 ± 0.012, ~2.5σ). *(B753; the first well-posed mixing number from the object's own
-structure. JUNO registration at 0.30902 stands separately; the 0.2764 is the object's own
-quantity, not an SM value.)*
+1/(φ√5) = 0.2764… The mixing number is PROGRAM-INTERNAL and is
+NOT compared to any measured value (B753 performed no SM comparison; the stopping rule and
+the co-signed one-number pin govern — the JUNO registration at 0.30902 stands separately,
+and 1/(φ√5) does not register). *(B753; the first well-posed mixing number from the
+object's own structure.)*
 
 **T13 [THEOREM — the spectral wall].** No Standard Model value (masses, mixings, couplings)
 is derivable from the solo object. This wall (WALL-1, the program's oldest) is now backed by
@@ -76,9 +81,10 @@ four spectral mechanisms:
 never consulted by the original umbrella kill; it independently upholds it.)*
 
 **T14 [THEOREM — the general golden law is false].** "5-inert ∧ fibered ⇒ golden" — the
-general reading of the m004-specific golden content — is dead: five exact counterexamples
-(m009, m022, m039, and two Twister-built manifolds; B756 door 2). The m004-specific content
-stands; the golden column is MORE SPECIAL than any inertness law can capture. *(B756; cc
+general reading of the m004-specific golden content — is dead: four-to-six exact counterexamples, reading-stated
+(m009, m022, m039, M32-class ×2 non-golden under EVERY reading; M51 counts under the strict
+disc-5 reading only — trace-7 monodromy is ℚ(√5)-fielded with dilatation φ⁴, the banked
+B756 precision note). The m004-specific content stands; the golden column is MORE SPECIAL than any inertness law can capture. *(B756; cc
 recomputed 3/5 from scratch.)*
 
 **Count (the ledger so far):** P019's chain: one deep axiom (A0+A2), two realization choices
@@ -107,6 +113,11 @@ program; Gate 5-Q firewalls it. Everything below is conditional on A7.)*
 | QP-4 | **Closure**: can any object-native operation (Galois, MCG, amphichiral ∘ θ) canonically sign the chord sector? | HATCH (an object-native sign exists — layer-4 awareness opens) / NO-HATCH (B711/B712 non-canonicity holds in the new coordinates — the object cannot close itself) | chord coordinates + B711/B712 protocol | small-medium |
 | QP-2 | **Private states**: what is the generic fiber dimension of the boundary-restriction map at SL(2)/SL(3)/SL(4)? | GROWS (privacy increases with rank — the object has a growing inner life) / FLAT (privacy is rank-independent — the blanket already sees everything) | B67/B71 A-variety machinery, elimination | medium |
 | QP-1 | **Self-naming (the quine test)**: does the emitted dataset {residue, rigidity, CM disc, palette} uniquely identify m004 among 1-cusped census manifolds? | QUINE (the word is a self-name) / HOMONYM (the voice underdetermines the speaker — list the twins) | snappy census + B737 pipeline per manifold | medium-large (census sweep) |
+
+**Comparator discipline (Gate 5-Q Q2b, binding):** every fork's property phrasing ("the
+object is integrated / has private states / self-names") requires the same computation run
+on the sister m003, the Gieseking parent, and ≥1 census sibling — a property all comparators
+share belongs to the class, not the object.
 
 **Order** (S072's, endorsed): QP-3 first (cheapest, sharpens the arena for QP-4), then QP-4
 (the crux — falsification edge for the entire "awareness without choice" hypothesis), then
