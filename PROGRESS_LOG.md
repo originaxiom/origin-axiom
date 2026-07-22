@@ -7232,3 +7232,16 @@ so any two ℤ/3 actions coincide mod 4 and even the orientation bit dissolves; 
 equality is an artifact of B302's representative being the Φ₃ companion. What is genuinely
 shared = the banked Eisenstein atom, nothing more. DOOR4 stays ROUTE-OBSTRUCTED, zero live
 residuals. Locks test_b757 (3). Nothing to CLAIMS.
+
+## 2026-07-22 — B758: THE CHAIN — the forced core consolidated (cc3's plan, owner-approved)
+The P019 axiom→theorem discipline applied program-wide: docs/THEOREM_LEDGER.md = 18 labeled
+links (C1–C18): the genesis with its three PRICED axioms (periodicity/carrier/orientation —
+priced by B749: ROBUST/GEOMETRY-NECESSARY/the-Gieseking-parent), the object's nine forced
+structure links (V₄ → census → congruence → voice → two-column → chord → mixing → pure-3 →
+iff-law), the two no-go links (the threefold lack; the SM record — the JUNO pin stated as a
+HINT, never a link), and the ONE unpriced axiom (C18: the observer's closings) flagged as
+the program's continuation with its pricing instruments named. Admission sealed first
+(fd934b27): exact statement + location + green lock per link; 12 lock files verified
+present and collecting. Going-forward rule adopted in-document: every new banked positive
+enters the chain under a label or is explicitly hint/open — nothing in between. Lock
+test_b758 (3). Nothing to CLAIMS.

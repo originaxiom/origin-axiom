@@ -15730,6 +15730,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B758": {
+   "slug": "theorem ledger",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [
+    "B749",
+    "P019"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B75": {
    "slug": "metallic degree rank",
    "motifs": [
