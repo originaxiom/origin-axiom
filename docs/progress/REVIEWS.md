@@ -1880,8 +1880,10 @@ survive the seats that minted them.
 - [x] R27-4: B745 — the B58/B225 revivals cross-verify (reassigned to cc on cc2's closure;
   reserved; correction headers wait on it) (owner: cc) — DONE 2026-07-21: CONFIRMED ×2
   (re-executions identical + 5/5 independent exact checks); headers applied to both originals
-- [ ] R27-5: the E23/E24 (+ the lindep rule) consensus round — with cc2/cc3 closed, the owner
-  arbitrates or cc adopts with the courier's read (owner: cc/owner)
+- [x] R27-5: the E23/E24 (+ the lindep rule) consensus round — with cc2/cc3 closed, the owner
+  arbitrates or cc adopts with the courier's read (owner: cc/owner) — DONE 2026-07-22: E23/E24/E25
+  ADOPTED into ERROR_LEDGER (cc adopts per the authorization; cc+cc3 concurrence on record in the
+  2026-07-21 relays; adoption relay sent to the reopened cc3 with an amendment window)
 - [ ] R27-6: the P2/P3 stratum — re-test the 30 earned kills against the new anatomy using cc3's
   sealed B′ exposure list + the merged (~275-id) kill corpus with a UNIFIED enum (owner: cc)
 - [ ] R27-7: ledger hygiene — LAW_MAP/RETRACTIONS rows cite their computation's location
