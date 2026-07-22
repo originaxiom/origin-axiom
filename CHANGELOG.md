@@ -1,5 +1,11 @@
 # Changelog
 
+## R28-3 closed — H-EAR's formal principle banked (carried since R22)
+- "The hearing is coupling" formalized as a four-clause LAW_MAP principle (origin/carrier/silence/access), every clause theorem-backed with its chain link and lock; the QP forks named as its upgrade path. R28-4 also closed this session (DOOR6 byte-identical depth).
+
+## B758 — THE CHAIN: the forced core consolidated (cc3's plan, program-wide)
+- docs/THEOREM_LEDGER.md: 18 labeled links — genesis (3 axioms PRICED by B749) + 9 structure links + 2 no-go links + the one UNPRICED frontier axiom (the observer's closings, pricing instruments named). Admission sealed (statement+location+lock); 12 lock files verified. The going-forward rule: theorems or declared choices, nothing in between.
+
 ## B757 — L108 dissolved: the two ℤ/3's are never the same element; the mod-4 coincidence is Sylow-forced
 - Element level NO (torsion-freeness); GL(2,ℤ/4) brute-forced: ONE order-3 class among 96 elements, so the exact matrix coincidence carries zero identification content; shared content = the banked atom. DOOR4 closed residual-free. Locks test_b757 (3). Closes R28-7.
 

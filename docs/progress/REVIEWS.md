@@ -1979,9 +1979,14 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
 - [ ] R28-1: the external specialist pass — the package now adds the genesis pricing
   (Gieseking parent), the V₄ census triple, and the GSWZ computation (carried from R27-1)
 - [ ] R28-2: the web seat's L95 prereg — verify-on-receipt (carried from R27-2)
-- [ ] R28-3: H-EAR's residual formal statement (carried from R27-3)
-- [ ] R28-4: DOOR6 depth — the B646 r-ladder convention trace + in-seat re-derivation of
-  the (tr_odd,tr_even)(23) fact (the window's one named partial)
+- [x] R28-3: H-EAR's residual formal statement (carried from R27-3) — DONE 2026-07-22: the
+  formal principle banked as a LAW_MAP row (four theorem-backed clauses: origin/carrier/
+  silence/access — each citing its chain link + lock; the H-CUSP pattern); the QP forks are
+  its named upgrade path
+- [x] R28-4: DOOR6 depth — the B646 r-ladder convention trace + in-seat re-derivation of
+  the (tr_odd,tr_even)(23) fact (the window's one named partial) — DONE 2026-07-22: cc2's own
+  p4 machinery re-executed read-only, BYTE-IDENTICAL results json; (1,0)@23 re-derived exactly;
+  the κ=25 cancellation exact; the certificate law agrees; DOOR6 FIRM at full depth
 - [ ] R28-5: the P3 stratum — depth-exposure (E22) re-adjudication from the kill_graph
   depth_reached field (cc3-designed; carried from R27-6's second half)
 - [ ] R28-6: B500 wrap-up — bank the straggler verdict when the run ends (26 TIMEOUT + 9

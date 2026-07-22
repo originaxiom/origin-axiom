@@ -7232,3 +7232,38 @@ so any two ℤ/3 actions coincide mod 4 and even the orientation bit dissolves; 
 equality is an artifact of B302's representative being the Φ₃ companion. What is genuinely
 shared = the banked Eisenstein atom, nothing more. DOOR4 stays ROUTE-OBSTRUCTED, zero live
 residuals. Locks test_b757 (3). Nothing to CLAIMS.
+
+## 2026-07-22 — B758: THE CHAIN — the forced core consolidated (cc3's plan, owner-approved)
+The P019 axiom→theorem discipline applied program-wide: docs/THEOREM_LEDGER.md = 18 labeled
+links (C1–C18): the genesis with its three PRICED axioms (periodicity/carrier/orientation —
+priced by B749: ROBUST/GEOMETRY-NECESSARY/the-Gieseking-parent), the object's nine forced
+structure links (V₄ → census → congruence → voice → two-column → chord → mixing → pure-3 →
+iff-law), the two no-go links (the threefold lack; the SM record — the JUNO pin stated as a
+HINT, never a link), and the ONE unpriced axiom (C18: the observer's closings) flagged as
+the program's continuation with its pricing instruments named. Admission sealed first
+(fd934b27): exact statement + location + green lock per link; 12 lock files verified
+present and collecting. Going-forward rule adopted in-document: every new banked positive
+enters the chain under a label or is explicitly hint/open — nothing in between. Lock
+test_b758 (3). Nothing to CLAIMS.
+
+## 2026-07-22 — R28-4 closed: DOOR6 verified at full depth (byte-identical re-execution)
+The window's one named partial is gone. The B646 r-ladder convention traced (r = the
+Jeffrey rung, k = r−12); cc2's own banked P4 machinery re-executed read-only in this seat —
+both internal gates passed (the P=+3 path reproduces banked r=13/19; ε=+1 the unique global
+sign on the 8-rung ladder) and the results json is BYTE-IDENTICAL to cc2's banked file.
+(tr_odd, tr_even)(23) = (1, 0) re-derived exactly (the correlate dies at 23, as banked);
+the κ=25 cancellation exact (~1e-17), honestly outside the certificate law's scope; the
+law's prediction at 23 agrees ((1−(23|5))/2 = 1). DOOR6 FIRM at full depth.
+
+## 2026-07-22 — R28-3 closed: H-EAR's formal principle banked (the three-review carry lands)
+The B685 reframe ("the hearing is coupling, not generated") is now a formal LAW_MAP
+principle in the H-CUSP pattern, made precise by the chain: four theorem-backed clauses —
+ORIGIN (combinatorial-dynamical, pre-geometric: K₀ = ℤ[φ]; C4), CARRIER (the θ-odd chord
+in the object; the unitary ±72° block at the weld; C12/C13), SILENCE (never emitted solo:
+the being-only voice; C10/C11 + B754-E3), ACCESS (received only by a coupled boundary
+listener — the B592/B593 second-order law — and surviving closings that kill the being:
+Sol keeps the hearing, children keep golden traces). Slogan: being is what the object says;
+hearing is what a coupled listener receives — the gait needs an ear. No new mathematics
+asserted (every clause cites its chain link + lock); the QP forks are the named upgrade
+path (QP-3 tests the coupling structure at the geometric point). Carried since R22-7 via
+R23-3/R26-3/R27-3 — closed.
