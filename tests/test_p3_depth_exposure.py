@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def _load():
-    with open(ROOT / "frontier/P3_depth_exposure/results.json") as f:
+    with open(ROOT / "frontier/B765_p3_depth/results.json") as f:
         return json.load(f)
 
 

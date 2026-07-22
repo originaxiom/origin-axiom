@@ -7434,3 +7434,18 @@ construction — strictly stronger than this seat's artifact-grep style where th
 forces it). Adopted: compute-grade locks preferred wherever the suite env allows. The
 six process slips all have standing counter-rules; none ever touched a verdict. Record:
 docs/audits/AUDIT_2026-07-23_cc3_corpus.md.
+
+## 2026-07-23 — B765: the P3 depth stratum (cc3) — the hunt completes; the depth-closure backlog named
+The strata program's last leg, banked at the gate (re-execution IDENTICAL; 13 locks; the
+seal follows the new named-algorithm convention verbatim — the counter-rules landing).
+21 depth-flagged P1 negatives re-adjudicated double-method (structural depth analysis ×
+anatomy/P2 closure): 8 DEPTH-CLOSED (universal proof steps — no gap), 6 DEPTH-HELD (real
+gaps closed by the P2 spectral face — the strata compounding), and 7 DEPTH-EXPOSED with
+named unexecuted stabilization paths: B489 (DGG abelianness at n≤8 vs a universal claim),
+B500 (depth≥6 — exactly R28-6's running sweep), B685 (pointwise n≤60), TOMB-L255 (the
+Sym-tower n≤13, sketch-not-proof), TOMB-L310, TOMB-L34, WALL-7 (twisted 3-point only).
+cc3's sentence banked verbatim: THESE KILLS ARE NOT WRONG — THEY ARE UNDERPROVED. The
+backlog registered as R28-10. Gate regularizations: B765 reserved post-hoc (cc3 ran on
+the R28-5 queue authority; the GO crossed mid-flight), dir renamed, relay to the channel.
+R28-5 closed; the negatives hunt's three strata are complete: P1 earned, P2 spectral,
+P3 depth. Nothing to CLAIMS.
