@@ -1,0 +1,425 @@
+[
+ {
+  "id": "B107",
+  "record": {
+   "id": "B107",
+   "ground": "dead-probe",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B107_physics_connection_audit/FINDINGS.md",
+   "is_negative": true,
+   "claim_killed": "The metallic tower spectrum is new physics (operator anomalous dimensions / masses); killed as re-presented moduli-space monodromy carrying the single scale log phi.",
+   "kill_form": "category-error",
+   "faces_consulted": [
+    "sl-n-tower"
+   ],
+   "depth_reached": "SL(3) full 8-eigenvalue spectrum symbolic; SL(4) via B103 factorization (proved n=3,4)",
+   "fact_basis": "proxy",
+   "evidence_quote": "{  1,  \u22121,  \u03c6\u00b2,  \u03c6\u207b\u00b2,  \u03c6\u00b3,  \u2212\u03c6,  \u03c6\u207b\u00b9,  \u2212\u03c6\u207b\u00b3 }   ( k \u2208 {\u22123,\u2026,3}, sign \u00b11 )   [verified]",
+   "citation_chain": "B103: \u220fSym^d factorization found there? yes (proved n=3,4). Torn computed-in-arc vs proxy; picked proxy: single-scale fact stands in for 'not new physics', an uncomputed genericity premise.",
+   "revival_hypothesis": "The arc's own E fork: off-principal multichannel sector (D1 root-of-unity data breaks single-scale); B735 emittance-spectrum face never consulted \u2014 the single-scale premise could be tested against it.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "B735 EMITTANCE-spectrum face. The revival_hypothesis names it explicitly; faces_consulted=[\"sl-n-tower\"] only. The single-scale / \"not new physics\" verdict rests solely on the discrete Jacobian channel; the object's native continuous emittance-scattering channel, plus the arc's E-fork off-principal multichannel sector (D1 root-of-unity data), was never tested and could carry scales beyond log-phi."
+ },
+ {
+  "id": "B285",
+  "record": {
+   "id": "B285",
+   "ground": "dead-probe",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B285_commutator_phase/FINDINGS.md",
+   "is_negative": true,
+   "claim_killed": "Chat-2's physics reading of the forced pi/6 commutator phase: it is the physical CP phase and yields the baryon asymmetry eta_B within ~1 order; also that the object supplies the CP sign.",
+   "kill_form": "value-mismatch",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "one rep (geometric Riley root); eta_B at order-of-magnitude only",
+   "fact_basis": "asserted",
+   "evidence_quote": "`sin(\u03c0/6)=1/2` into standard baryogenesis gives `\u03b7_B ~ 10\u207b\u2074\u2026\u207b\u2075` vs observed `10\u207b\u2079\u00b7\u00b2`, off by 4\u20135 orders; the smallness is standard cosmology, not the object.",
+   "citation_chain": "Torn computed-in-arc vs asserted: the pi/6 math IS computed (commutator_phase.py), but the eta_B conversion appears only as prose in verdict.py's docstring (grepped) \u2014 picked the weaker basis.",
+   "revival_hypothesis": "Born ledger (B725\u2013B729) / bounded-observer menu (B733): a measurement-weighted accounting could shift the eta_B bookkeeping; the spectral face (B735) was never consulted.",
+   "tractability": "sandbox-recomputable",
+   "p1": true,
+   "adjudication": "unstable-included"
+  },
+  "exposure_note": "revival_hypothesis names Born ledger (B725-9), bounded-observer menu (B733), EMITTANCE face (B735) as unconsulted; recompute confirms this \u2014 it only redoes the group-theoretic phase and Kolb-Turner epsilon/g* bookkeeping, never a measurement-weighted reweighting, observer-restricted dof count, or spectral input. Unlikely to close a 4-5 order gap, but genuinely untouched; correct P2 candidates."
+ },
+ {
+  "id": "B516",
+  "record": {
+   "id": "B516",
+   "ground": "dead-probe",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B516_golden_3d_ladder/FINDINGS.md",
+   "is_negative": true,
+   "claim_killed": "'3 spatial dimensions selected by a Pisot dimension cap' \u2014 dead: golden-field Pisot inflation exists at dims 1, 3 AND 5, so golden aperiodic order is not capped at 3.",
+   "kill_form": "other",
+   "faces_consulted": [
+    "coupled-double"
+   ],
+   "depth_reached": "dims 1,3,5 exhibited; recursion x\u2192x(1+\u221ax) checked to dim 7; {0,1,2} scans of 2- and 3-copy couplings",
+   "fact_basis": "asserted",
+   "evidence_quote": "Golden-field Pisot inflation numbers exist at **dim 1** (\u03c6), **dim 3** (\u03b2=\u03c6(1+\u221a\u03c6), B515), AND **dim 5** (found in the {0,1,2} coupling scan of three Fibonacci copies)",
+   "citation_chain": "B515: yes, \u03b2 computed+locked. But the load-bearing dim-5 counterexample has NO script/artifact; tests/test_b516.py locks only Finding 2. Torn computed-in-arc vs asserted \u2014 weaker chosen.",
+   "revival_hypothesis": "If the dim-5 scan cannot be reproduced, the cap reading revives; V4 forced faces (B730) bear on which couplings are legal; spectral face B735 never consulted.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "Recompute is pure charpoly/Pisot/golden-field math, no reference to B730/B734/B732/B733/B735. Revival_hypothesis names two gaps: (1) B730 V4-forced-faces/congruence-tower could constrain which coupling matrices are \"legal,\" possibly invalidating the C6 subfamily; (2) B735 (spectral/EMITTANCE) never consulted though the fact is itself spectral."
+ },
+ {
+  "id": "TOMB-L241",
+  "record": {
+   "id": "TOMB-L241",
+   "ground": "tombstone",
+   "source": "speculations/TOMBSTONES.md:L241",
+   "is_negative": true,
+   "claim_killed": "Umbrella: the spectral-rank cluster \u2014 every 'rank' identification from the CFT/quantum-chaos review session (K-J..K-M) identifying spectral rank with a repo quantity is dead.",
+   "kill_form": "category-error",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "four identifications (K-J..K-M), one review session",
+   "fact_basis": "asserted",
+   "evidence_quote": "A CFT / quantum-chaos review session on the seed produced several \"rank\" identifications that dissolved on scrutiny. The *math* underneath each is fine and standard; the *identification* is the kill.",
+   "citation_chain": "No arc cited for the umbrella; the sole survivor is banked S023 / OPEN_LEADS L16.",
+   "revival_hypothesis": "B735 EMITTANCE/spectral face \u2014 the whole cluster is about spectral rank, and no pre-B735 negative ever consulted the spectral face.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B735 EMITTANCE/spectral face as unconsulted, and recompute confirms this: it stays inside SL(2) character-variety/CFT algebra (Fricke identity, Kac determinant, gap-labeling modules, Sym^d towers) and never engages B735's spectral/emittance framework to check if it gives a non-category-error pairing for K-J/K-K/K-L's quantities."
+ },
+ {
+  "id": "TOMB-L247",
+  "record": {
+   "id": "TOMB-L247",
+   "ground": "tombstone",
+   "source": "speculations/TOMBSTONES.md:L247",
+   "is_negative": true,
+   "claim_killed": "K-J: \u03c6\u00b2 is the degenerate-block (\u03c6_{2,1}) torus-block monodromy multiplier of the seed; the '3=3' numerical confirmation of that identification.",
+   "kill_form": "kind-mismatch",
+   "faces_consulted": [
+    "mtc-overlay"
+   ],
+   "depth_reached": "one identification; reducible (\u03ba=2) vs irreducible (\u03ba>2) rep comparison",
+   "fact_basis": "asserted",
+   "evidence_quote": "The degenerate (`\u03c6_{2,1}`) torus block is **reducible** (`\u03ba = 2`); the seed is **irreducible** (`\u03ba > 2`). They are different points of the character variety.",
+   "citation_chain": "No arc or script cited; review-session in-text reasoning only (MB6 method note).",
+   "revival_hypothesis": "B735 spectral face: a spectral-face reading of monodromy multipliers could re-pose the question; no pre-B735 negative consulted the spectral face.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B735's spectral face directly as unconsulted by any pre-B735 negative. faces_consulted=[\"mtc-overlay\"] confirms the recompute stayed purely in Fricke/character-variety (commutator-trace) terms and never engaged a B735-style spectral reading of \"multiplier,\" which could reinterpret the quantity being compared and sidestep the kind-mismatch as computed."
+ },
+ {
+  "id": "TOMB-L252",
+  "record": {
+   "id": "TOMB-L252",
+   "ground": "tombstone",
+   "source": "speculations/TOMBSTONES.md:L252",
+   "is_negative": true,
+   "claim_killed": "K-K: gap-labeling spectral rank equals the composition period k of the seed geodesic.",
+   "kill_form": "value-mismatch",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "all periods k, single seed (2x2 substitution-matrix argument)",
+   "fact_basis": "asserted",
+   "evidence_quote": "A period-`k` geodesic is a `2\u00d72` matrix = a 2-letter substitution = **always rank 2**, independent of `k`.",
+   "citation_chain": "No arc/script; one-line standard-math derivation in-text \u2014 torn computed-in-arc vs asserted, chose weaker (asserted).",
+   "revival_hypothesis": "B735 spectral face: gap-labeling is intrinsically spectral and the rank question was never asked on the emittance/spectral anatomy.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B735: \"the rank question was never asked on the emittance/spectral anatomy.\" Recompute (faces_consulted=none-arithmetic-only) used only the Bellissard K0/gap-labeling Z-module via substitution arithmetic, never B735's emittance-operator spectral machinery. If B735 defines a distinct spectral-rank object, rank=k was never tested against it."
+ },
+ {
+  "id": "TOMB-L258",
+  "record": {
+   "id": "TOMB-L258",
+   "ground": "tombstone",
+   "source": "speculations/TOMBSTONES.md:L258",
+   "is_negative": true,
+   "claim_killed": "K-M: the 'measurable gap-labeling-rank prediction' built on K-K/K-L (an observable rank tracking composition period or tower depth).",
+   "kill_form": "other",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "derivative only \u2014 falls with its premises, no independent depth",
+   "fact_basis": "asserted",
+   "evidence_quote": "With its premises (K-K/K-L) dead, the prediction falls. The *correct* rank statement is field-multiplicity (S023 / L16), not period or tower depth.",
+   "citation_chain": "Premises are K-K/K-L in the same tombstone cluster; no independent computation anywhere.",
+   "revival_hypothesis": "Revives only if K-K or K-L revives \u2014 the shared route is the B735 spectral face (a rank observable defined directly on the emittance spectrum).",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis explicitly names B735: \"the shared route is the B735 spectral face (a rank observable defined directly on the emittance spectrum).\" Recompute is arithmetic-only (faces_consulted=[none-arithmetic-only]; script has sympy/mpmath matrix+PSLQ arithmetic, no emittance-spectrum computation). The one face the record flags as the revival path was not consulted."
+ },
+ {
+  "id": "TOMB-L267",
+  "record": {
+   "id": "TOMB-L267",
+   "ground": "tombstone",
+   "source": "speculations/TOMBSTONES.md:L267",
+   "is_negative": true,
+   "claim_killed": "Umbrella: the CM/arithmetic cluster \u2014 the two identifications from the 2026-06-11 review session + audit (K-N disc=\u03ba, K-O trace leak) are dead; math fine, identification killed.",
+   "kill_form": "category-error",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "two identifications (K-N, K-O); one session plus one audit",
+   "fact_basis": "asserted",
+   "evidence_quote": "A second review session (and an audit) ran a CM-volume / arithmetic line on the seed; two items are kills. The *math* is fine; the *identification* is the kill.",
+   "citation_chain": "docs/CROSS_SESSION_2026-06-11_disposition.md exists and records R3/R5 dispositions; survivors banked in B147 FINDINGS.",
+   "revival_hypothesis": "Congruence tower B734 for the arithmetic side; B735 spectral face for the trace-class side.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names both faces, neither consulted: (1) B734 congruence tower \u2014 CM/disc derived via raw shape-field+algdep, not via B734's level-(4)/(8) framework separating newform vs Eisenstein content. (2) B735 emittance face \u2014 \"K-O trace leak\" only recomputes the finite SU(2)_3 quantum-group image; never touches m004's actual continuous spectrum/scattering data B735/B739 characterize."
+ },
+ {
+  "id": "TOMB-L277",
+  "record": {
+   "id": "TOMB-L277",
+   "ground": "tombstone",
+   "source": "speculations/TOMBSTONES.md:L277",
+   "is_negative": true,
+   "claim_killed": "K-O: the golden 'trace leak' tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6 is a distinguished signal \u2014 the seed singled out by nonvanishing golden trace.",
+   "kill_form": "base-rate",
+   "faces_consulted": [
+    "mtc-overlay"
+   ],
+   "depth_reached": "full finite image: all 2880 elements, class-level count",
+   "fact_basis": "asserted",
+   "evidence_quote": "in the finite image (order **2880**), **1350/2880 \u2248 47%** of elements have nonzero trace and **384/2880 \u2248 13%** have golden-magnitude (`|\u03c6^{\u00b11}|`) trace",
+   "citation_chain": "Disposition doc R5 restates the count; no script or committed artifact for the 2880 enumeration found anywhere in the repo \u2014 torn cited-unverified vs asserted, chose weaker (asserted).",
+   "revival_hypothesis": "Out(A5) B732 or the B735 spectral face: a class-level invariant separating the seed from the other ~13% golden-magnitude classes could come from outer-symmetry or spectral data.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B732 (Out(A5)) and B735 (spectral/emittance) as sources of a finer class-level invariant. recompute.py never touches either: only inner-conjugation classes and traces from B210 data, no outer-automorphism or spectral quantities, so it cannot exclude an Out(A5) or B735-spectral fact singling out the seed's 96-elt class among the 4 golden classes."
+ },
+ {
+  "id": "TOMB-L30",
+  "record": {
+   "id": "TOMB-L30",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L30",
+   "is_negative": true,
+   "claim_killed": "S019: Fisher/information-geometry metric reading on the Chern\u2013Simons level k. Killed \u2014 heuristic, not rigorous; no bounded test survived.",
+   "kill_form": "other",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "heuristic reading on CS level; no bounded test constructed",
+   "fact_basis": "asserted",
+   "evidence_quote": "heuristic, not rigorous; no bounded test survived",
+   "citation_chain": "Cites 'dead-sweep V-rows' (PHYSICS_RESONANCES V28/29/34/56/58/65) \u2014 no Fisher-specific computation there; E21/V6 separately got Fisher=16\u00b7g_WP but tombstone leans on asserted 'heuristic'. Weaker basis chosen.",
+   "revival_hypothesis": "EMITTANCE/spectral face B735 \u2014 an information metric on the spectral face was never constructed; the CS-level reading collapsed to WP before any bounded spectral test.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "Matches revival_hypothesis: B735 EMITTANCE/spectral face. faces_consulted=[\"none-arithmetic-only\"]; recompute stays wholly in E21's classical WP/parameter-line conventions (C1-C5), never attempting a spectral/EMITTANCE construction. B735 could matter by supplying a genuinely k-varying probability family p(x|k) that the classical-line proof shows doesn't exist under current conventions."
+ },
+ {
+  "id": "TOMB-L334",
+  "record": {
+   "id": "TOMB-L334",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L334",
+   "is_negative": true,
+   "claim_killed": "B85 Sym(W)\u2192trace-ring functor wall: the functor provably cannot reach the mult-2 char(M\u00b2) sector before n=5; mult at height 2 = ceil((n\u22122)/2), first dim-2 at n=5 (\u03b8-fixed height-2 index exists iff n odd).",
+   "kill_form": "finite-level-obstruction",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "height 2; orbit enumeration n=3..15",
+   "fact_basis": "cited-unverified",
+   "evidence_quote": "the closed form mult char(M^h)=ceil((n-h)/2), char(-M^h)=floor((n-h)/2) is PROVED for all n.",
+   "citation_chain": "B85 named, but the formula is proved in B112 (probe.py): yes \u2014 mult char(M^h)=ceil((n-h)/2) PROVED all n\u226412/all h; h=2 gives ceil((n-2)/2). B111/B116/B118 corroborate.",
+   "revival_hypothesis": "The sl-n-tower / spectral face B735 \u2014 the ceil((n-2)/2) rep-tower law never met the emittance spectrum; the congruence tower (B734) could reindex the height-2 sector.",
+   "tractability": "sandbox-recomputable",
+   "p1": true,
+   "adjudication": "unstable-included"
+  },
+  "exposure_note": "revival_hypothesis names B734 (congruence tower) and B735 (emittance spectrum) verbatim as untested -- \"the rep-tower law never met the emittance spectrum.\" recompute.py is pure A_{n-1}/theta root combinatorics (C1-C5 only); it never touches B734's level indexing or B735's emittance mapping, so it can't show the sector found here is what the functor's emittance domain reaches."
+ },
+ {
+  "id": "TOMB-L339",
+  "record": {
+   "id": "TOMB-L339",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L339",
+   "is_negative": true,
+   "claim_killed": "L38 Higgs-scale do-or-die: PVI time has C* weight 0 (dimensionless), the only C*-fixed base point is h=0 (nilpotent), base dilation is not isomonodromic \u2014 no intrinsic scale on the Hitchin/Higgs side.",
+   "kill_form": "no-landing-site",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "one C*-fixed base point (h=0)",
+   "fact_basis": "asserted",
+   "evidence_quote": "the only C*-fixed Hitchin-base point is h=0 (nilpotent); base dilation is NOT isomonodromic (drift 3e5 vs invariant 1.7e-10); hbar-compensation exact.",
+   "citation_chain": "No arc cited; no committed PVI/weight reproducer located in B565 dir (RESULTS restates numbers without a script). Prior no-scale art B167/B290/B291 uncited here. Asserted, favor P1.",
+   "revival_hypothesis": "The B735 EMITTANCE/spectral face is a length/scale channel no pre-B735 scale-kill consulted; emittance-lengths could carry the intrinsic scale the Hitchin side lacks.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B735 (EMITTANCE/spectral face) as a length/scale channel \"no pre-B735 scale-kill consulted.\" recompute.py stays entirely inside Hitchin-base weight algebra/Schlesinger flow/monodromy (C1-C6), never touching emittance/spectral data, so this flagged face remains genuinely unconsulted -- sealed candidate for P2/P3."
+ },
+ {
+  "id": "TOMB-L57",
+  "record": {
+   "id": "TOMB-L57",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L57",
+   "is_negative": true,
+   "claim_killed": "The CS-crossover coincidence: the Chern-Simons level crosses over near k\u22484, matching the rank n=4 \u2014 read as structure rather than a figure-eight-volume accident.",
+   "kill_form": "value-mismatch",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "m=1..3 of the metallic family (k\u22484, k\u22482, k\u22481)",
+   "fact_basis": "cited-unverified",
+   "evidence_quote": "**TESTED-NEGATIVE / DEAD.** Tested across `m` and killed cleanly (Chat-1 seven-hints A4); do not re-chase.",
+   "citation_chain": "Kill cites 'Chat-1 seven-hints A4' \u2014 not an arc dir; no B### to hop to and no script/artifact found. Values k\u22482 (m=2), k\u22481 (m=3) stated but underived => cited-unverified.",
+   "revival_hypothesis": "B735 emittance/spectral face never consulted by this kill; congruence tower (B734, m003 at (2), m004 at (4)) could re-index the k-crossover at fixed level structure.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names two post-B730 faces recompute never touches: B735 (emittance/spectral) and B734 (congruence tower, m003@level-2/m004@level-4). recompute.py only does SnapPy shapes, CS phase lattice 2pi/(k+2), Lobachevsky volume -- no congruence-level or emittance/spectral machinery. A level-indexed re-derivation of k_c is genuinely unconsulted."
+ },
+ {
+  "id": "TOMB-L63",
+  "record": {
+   "id": "TOMB-L63",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L63",
+   "is_negative": true,
+   "claim_killed": "UMBRELLA: five quantum-tower / knot-invariant observations (Chat-2) read as framework-specific bridges; killed as the ambient theory's own definitions doing the work.",
+   "kill_form": "category-error",
+   "faces_consulted": [
+    "none-arithmetic-only"
+   ],
+   "depth_reached": "five member observations triaged (Chat-2); umbrella carries no computation of its own",
+   "fact_basis": "asserted",
+   "evidence_quote": "Five quantum-tower / knot-invariant observations that are **the ambient theory's definitions doing the work**, mistaken for framework-specific bridges.",
+   "citation_chain": "Torn authority-external vs asserted for the umbrella itself (members carry the specifics); picked the weaker per the blade. No arc cited at umbrella level.",
+   "revival_hypothesis": "B735 spectral face \u2014 none of the five consulted emittance/spectral data; bounded-observer menu (B733) could reframe the bridge-vs-definition tier rule.",
+   "tractability": "needs-web",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B735 (emittance/spectral) and B733 (bounded-observer menu) as unconsulted; recompute.py is pure ambient math with no spectral/emittance quantity or observer framing. Also: M2's own mechanism (\"finite image via congruence-subgroup property\") is squarely B734's congruence-tower territory, yet B734 is never cited despite rediscovering the same phenomenon."
+ },
+ {
+  "id": "TOMB-L67",
+  "record": {
+   "id": "TOMB-L67",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L67",
+   "is_negative": true,
+   "claim_killed": "That |\u03bb|=1 in the quantum tower is a framework-specific signal; killed: it is unitarity of the Chern-Simons representation, true of every quantum theory.",
+   "kill_form": "category-error",
+   "faces_consulted": [
+    "mtc-overlay"
+   ],
+   "depth_reached": "single structural identity; all k (quantum side) vs classical |\u03bb|=\u03c6^k",
+   "fact_basis": "asserted",
+   "evidence_quote": "**Quantum tower `|\u03bb|=1`** = **unitarity** of the Chern\u2013Simons representation (true of *every* quantum theory)",
+   "citation_chain": "",
+   "revival_hypothesis": "B735 spectral face: the unitarity kill never consulted the emittance spectrum; the quantum-classical transition could be re-posed against spectral data. Otherwise none apparent.",
+   "tractability": "sandbox-recomputable",
+   "p1": true,
+   "adjudication": "unstable-included"
+  },
+  "exposure_note": "revival_hypothesis names B735 (emittance/spectral); confirmed real via B735_emittance/FINDINGS.md: length-spectrum traces 2cosh(L/2) in Z[omega], transcendental l=2log|lambda|, continuous cusp/Laplacian spectrum. Recompute (faces_consulted=[mtc-overlay] only) stays in the SL(2,Z) modular-rep register, never touches spectral data, so the transition claim is untested against B735."
+ },
+ {
+  "id": "TOMB-L70",
+  "record": {
+   "id": "TOMB-L70",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L70",
+   "is_negative": true,
+   "claim_killed": "That finite-k eigenvalues being roots of unity is a discovered arithmetic signal; killed as tautological \u2014 true by construction of the rep over q=exp(2\u03c0i/(k+2)).",
+   "kill_form": "category-error",
+   "faces_consulted": [
+    "mtc-overlay"
+   ],
+   "depth_reached": "all finite k, by construction of the rep",
+   "fact_basis": "asserted",
+   "evidence_quote": "**tautological**: the rep is defined over `q=exp(2\u03c0i/(k+2))`, so everything is roots of unity *by construction*.",
+   "citation_chain": "",
+   "revival_hypothesis": "None apparent \u2014 a tautology stands; the mod-center congruence structure (B734, m004 at (8)) is the only nearby face if roots-of-unity arithmetic is re-posed.",
+   "tractability": "sandbox-recomputable",
+   "p1": true,
+   "adjudication": "stable"
+  },
+  "exposure_note": "revival_hypothesis names B734 (mod-center congruence structure, m004 level-(8)) as the nearby face \"if roots-of-unity arithmetic is re-posed.\" recompute.py never touches it: no congruence tower, Out(A5)/B732, Born ledger, bounded observer menu, or EMITTANCE reference. Computed finite-image sizes (96, 3072, 28800 at k=1,2,3) are congruence-level data whose tie to B734 was not checked."
+ },
+ {
+  "id": "TOMB-L77",
+  "record": {
+   "id": "TOMB-L77",
+   "ground": "tombstone",
+   "source": "TOMBSTONES.md:L77",
+   "is_negative": true,
+   "claim_killed": "The 'three regimes' (cyclotomic / algebraic / transcendental) read as a framework discovery; killed as an interpretation of the standard asymptotic expansion of quantum invariants.",
+   "kill_form": "category-error",
+   "faces_consulted": [
+    "mtc-overlay"
+   ],
+   "depth_reached": "interpretive triage only; no computation performed",
+   "fact_basis": "asserted",
+   "evidence_quote": "an interpretation laid on top of the **standard asymptotic expansion** of quantum invariants; not wrong, not new.",
+   "citation_chain": "Torn authority-external vs asserted: 'standard asymptotic expansion' is invoked without a specific citation or computation; picked the weaker per the blade.",
+   "revival_hypothesis": "B735 emittance-spectrum face: the regime picture was never confronted with actual spectral data; no pre-B735 negative consulted the spectral face.",
+   "tractability": "needs-web",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B735 (EMITTANCE/spectral face): \"never confronted with actual spectral data; no pre-B735 negative consulted the spectral face.\" recompute.py/output.txt are pure sympy/mpmath symbolic-numeric derivation (cyclotomic values, saddle algebraic number, PSLQ on Vol) -- no spectral/emittance data or B735 face appears in the artifacts."
+ },
+ {
+  "id": "WALL-1",
+  "record": {
+   "id": "WALL-1",
+   "ground": "wall",
+   "source": "docs/LAW_MAP.md #E 1",
+   "is_negative": true,
+   "claim_killed": "The solo object yields no Standard-Model value (masses/mixings/couplings) by itself \u2014 the hardened top-level negative (wall 1).",
+   "kill_form": "genericity",
+   "faces_consulted": [
+    "being"
+   ],
+   "depth_reached": "aggregate 'hardened record'; solo object, all SM values",
+   "fact_basis": "asserted",
+   "evidence_quote": "No SM value from the solo object (the hardened record; wall 1).",
+   "citation_chain": "no arc cited in text; umbrella statement leaning on the B307/B604/B632/B706 corpus \u2014 no single discriminating computation attaches to this row itself.",
+   "revival_hypothesis": "the EMITTANCE/spectral face B735 \u2014 no pre-B735 negative consulted spectral invariants; but Gate-5-SM firewall bars SM values regardless of the face.",
+   "tractability": "sandbox-recomputable",
+   "p1": true
+  },
+  "exposure_note": "revival_hypothesis names B735 emittance; Part V consults it \u2014 closed. Untouched: Out(A5) B732 (2I=SL(2,F5) in leg I is the double cover of A5; outer-automorphism structure unchecked); B734 m004 level-(4) refinement (SL(2,Z/15) used, not the level-4 split); Born ledger B725-9/observer menu B733 (could reframe value as observer-relative, outside the I-V taxonomy)."
+ },
+ {
+  "id": "WALL-7",
+  "record": {
+   "id": "WALL-7",
+   "ground": "wall",
+   "source": "docs/LAW_MAP.md #E 7",
+   "is_negative": true,
+   "claim_killed": "The naive Z/3 trinification triality does not act on H1(D;27) by any phase-lift, straight or twisted \u2014 the 3+2 split as proposed is dead (the rebase).",
+   "kill_form": "zero-intertwiner",
+   "faces_consulted": [
+    "coupled-double"
+   ],
+   "depth_reached": "all 8 nontrivial Z3xZ3 patterns, straight (d5) + sigma*-twisted (f3)",
+   "fact_basis": "cited-unverified",
+   "evidence_quote": "each triality's induced 27-permutation admits ZERO phase-lift X = P.D intertwining the double's holonomy (exact solve, 27 unknowns vs the a/b/c commutation constraints; dim 0 at every pattern).",
+   "citation_chain": "no B### cited in wall text ('the rebase'); located via search: B651 cc2_packets d5_triality (straight, 8/8 dim-0) + f3_twisted (sigma*-twisted, 8/8 dim-0), exact solves \u2014 yes.",
+   "revival_hypothesis": "Out(A5) B732 / the congruence tower B734 \u2014 both arcs already flag a residual symmetry OUTSIDE the triality's weight-permutation; the spectral face B735 was never tried on the double.",
+   "tractability": "sandbox-recomputable",
+   "p1": true,
+   "adjudication": "stable"
+  },
+  "exposure_note": "revival_hypothesis names exactly the addendum's post-B730 list: Out(A5) B732, congruence tower B734, spectral face B735, as an unconsulted residual symmetry outside the tested weight-permutation. Grep of recompute.py/output.txt for B730-B735 returns zero hits: the recompute only rebuilds B575/B299/B637 machinery, so none of these faces were consulted."
+ }
+]
