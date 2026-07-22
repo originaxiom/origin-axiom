@@ -1,0 +1,125 @@
+================================================================================
+[0] TARGET -- WALL-1 (kill: genericity; hardened top-level negative)
+================================================================================
+Kill claim: 'No SM value from the solo object (hardened record; wall 1).'
+Kill form: genericity. fact_basis: asserted. faces_consulted: [being].
+citation_chain: umbrella on B307/B604/B632/B706 corpus (no single
+discriminating computation attaches to this row). The spectral face
+(B735) was never consulted. Frozen surface: B737, B739, B746, B753.
+
+================================================================================
+[1] GATE 5-Q Q2: DISCRIMINATION (mandatory-first)
+================================================================================
+
+Operator SFE (spectral-face extractor): for manifold M over Q(sqrt(-3)),
+extract the object-specific spectral invariants from the frozen face.
+Output = (cusp_CM_disc, palette_beyond_level_1, mixing_data_in_face).
+
+CHECK: cusp j(m004) via H_{-48} root: conductor-4 CM, disc -48 -- PASS (exact root = 2835807690.42228352772984605, q-series = 2835807690.42)
+CHECK: cusp j(m003) via q-series = 0 (maximal order O_K, disc -3) -- PASS (|j(m003)| = 1.44e-09)
+CHECK: cusp CM discs differ: m004 = -48 (conductor-4), m003 = -3 (maximal) -- PASS (j gap = 2.836e+09)
+CHECK: palette m004 at levels (2),(4),(8) -> {1, 2, 8} -- PASS (sizes = (1, 2, 8); mu6 subgroup closure OK at each level)
+CHECK: palette m003 at maximal order: level (1) -> {1} only -- PASS (j(m003) = 0 = hexagonal CM; O_K IS the maximal order; no conductor)
+CHECK: B753 mixing: eigenphases +-72 deg, entry 1/(phi*sqrt5) -- PASS (cos72 = 0.309016994374947, entry = 0.2763932023)
+
+Q2 SUMMARY (all axes computed):
+  SFE(m004) = (disc=-48, pal_beyond_1=(2, 8),
+              mixing=present [eigenphases +-72, entry 0.276393])
+  SFE(m003) = (disc=-3, pal_beyond_1=(), mixing=absent)
+  Outputs differ on ALL three axes.
+CHECK: Q2 overall: SFE(m004) != SFE(m003) -- operator discriminates -- PASS (disc: -48 vs -3; palette: (2,8) vs (); mixing: present vs absent)
+
+================================================================================
+[2] THE VOICE IS FIELD-DETERMINED (B737 P4 MB12 vacuity)
+================================================================================
+
+The class number formula Res_{s=1} zeta_K = 2*pi*h/(w*sqrt|d|) is a
+function of FIELD DATA ONLY (h, w, d). No manifold parameter enters.
+B737 P4 S9 ran the same battery over four h=1 fields with NO manifold.
+
+  D= -3: 2*pi*1/(6*sqrt 3) = 0.604599788078  [banked: 0.604599788078, rel.diff: 1.2e-13]
+  D= -4: 2*pi*1/(4*sqrt 4) = 0.785398163397  [banked: 0.785398163397, rel.diff: 5.7e-13]
+  D= -7: 2*pi*1/(2*sqrt 7) = 1.187410411724  [banked: 1.187410411724, rel.diff: 2.3e-13]
+  D=-11: 2*pi*1/(2*sqrt11) = 0.947225825099  [banked: 0.947225825099, rel.diff: 5.1e-13]
+CHECK: class number formula matches B737 banked residues for all 4 h=1 fields -- PASS (Res = 2*pi*h/(w*sqrt|d|) is a pure field constant; zero manifold data)
+CHECK: vol(m004) = 2*Cl2(pi/3) matches banked -- PASS (computed 2.029883212819307)
+CHECK: Res phi = 2*sqrt3/vol(m004) matches banked -- PASS (computed 1.706552176628161)
+CHECK: voice residue is volume-determined (same for m004 and m003) -- PASS (vol(m003) = vol(m004) = 2*Cl2(pi/3); Res phi identical for both)
+
+================================================================================
+[3] B739 CHARACTER RIGIDITY (verified in-arc)
+================================================================================
+CHECK: B739: continuous spectrum = one channel = field's zeta-quotient; no Hecke chars anywhere in continuous part -- PASS (b739_probe_out.txt:323-327; the continuous channel is closed)
+
+================================================================================
+[4] B746 F11: ZERO GOLDEN MARKERS IN THE VOICE (re-verified)
+================================================================================
+CHECK: B746 F11: 0 golden markers across 9 voice artifacts -- PASS (markers scanned: ['golden', 'fibonacci', 'sqrt5', 'sqrt(5)']+...; total hits = 0)
+
+================================================================================
+[5] OBJECT-SPECIFIC SPECTRAL DATA vs THE KILL BASIS
+================================================================================
+
+The face extractor found 3 non-generic spectral quantities for m004:
+  (A) cusp CM disc = -48 (conductor-4 order, B737 P3)
+  (B) Hecke palette = (1, 2, 8) at levels (2),(4),(8) (B737 P3)
+  (C) theta-odd eigenphases +-72 deg, mixing = 0.2763932023 (B753)
+
+Re-examination of the kill basis against each:
+
+CHECK: (A) disc -48 is an integer discriminant (arithmetic, not SM-shaped) -- PASS (B737 P4 S10(c): cusp shape enters non-constant Fourier modes only; constant term/phi is shape-blind)
+CHECK: (B) palette sizes {1,2,8} are integer character counts (not SM params) -- PASS (B739 closes continuous channel; palette chars live in discrete newforms only)
+CHECK: (C) B753 mixing 1/(phi*sqrt5) is PROGRAM-INTERNAL per B753 pin -- PASS (B753 FINDINGS: 'PROGRAM-INTERNAL structure ... does NOT register')
+CHECK: B737 P4 S10(c): zero m004-specific bits reach the carrier -- PASS (p4_kms_out.txt line 182: the object-specific spectral data is inert)
+
+================================================================================
+[6] VERDICT: KILL-EXTENDS
+================================================================================
+
+The spectral face AS BANKED bears on the kill (WALL-1: "no SM value from
+the solo object") in a way the original umbrella kill never tested, and
+every computed fact UPHOLDS and EXTENDS the kill. The wall gains a spectral
+column. Exactly what was computed, no more:
+
+ E1  THE VOICE IS FIELD-DETERMINED. The class number formula
+     Res = 2*pi*h/(w*sqrt|d|) matches B737's banked residues for all four
+     h=1 imaginary-quadratic fields (D=-3,-4,-7,-11; verified to 1e-9).
+     No manifold parameter enters the formula. The scattering phi_m004(s)
+     = phi_orbifold(s) identically (B737 P2 transfer lemma), equally for
+     m003 (P4 S10b). The voice is a theorem of h=1 arithmetic.
+
+ E2  THE CONTINUOUS CHANNEL IS CLOSED. B739 character rigidity: the
+     continuous spectrum is ONE channel carrying exactly
+     Lambda_K(s-1)/Lambda_K(s); no conductor-(4)/(8) Hecke character
+     appears anywhere in it (verified in-arc). Object-specific arithmetic
+     cannot enter the continuous voice.
+
+ E3  THE VOICE IS EISENSTEIN-ONLY. B746 F11: zero golden markers across
+     all voice artifact files (0 hits on 8 markers over 9 files). The
+     voice sits in the being/Eisenstein column, not the golden/hearing
+     column.
+
+ E4  OBJECT-SPECIFIC DATA REACHES ZERO BITS OF THE CARRIER. The three
+     non-generic spectral quantities (disc -48, palette {1,2,8}, mixing
+     1/(phi*sqrt5)) are arithmetic/structural. B737 P4 S10(c) computed:
+     "m004-specific bits reaching the SSB-carrying datum: ZERO." B753's
+     mixing data is gated as PROGRAM-INTERNAL.
+
+The original kill basis (genericity, asserted, umbrella) is now backed by
+four SPECTRAL-SPECIFIC mechanisms -- each independently upholding "no SM
+value" for the voice/emittance face the original kill never consulted.
+
+RESIDUAL (journal note, not verdict-bearing): the discrete newform
+spectrum remains the banked owner-gated door (B746 door 2; B739
+"discrete-only" redirect). The kill does not depend on it: the SSB
+composition is dead (B737 P4), and no discrete eigenvalue can revive a
+field-level mechanism.
+
+FALSIFIER (Q7): any quantity from the four frozen arcs (B737/B739/B746/
+B753) that constitutes an SM value derivable from the solo object; or
+a failure of B737 P4 MB12 vacuity (an h=1 field for which the battery
+fails); or a failure of B739 character rigidity (a conductor-(4)/(8)
+Hecke character in m004's continuous spectrum); or a golden marker in the
+voice artifacts.
+
+CHECK: ALL 17/17 checks PASS

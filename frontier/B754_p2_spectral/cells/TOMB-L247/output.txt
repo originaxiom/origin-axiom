@@ -1,0 +1,125 @@
+========================================================================================
+[0] TARGET -- TOMB-L247 / kill K-J (kind-mismatch, mtc-overlay face only, basis: asserted)
+========================================================================================
+Exposure note: revival_hypothesis names the B735 spectral face as unconsulted;
+the original recompute stayed in Fricke/character-variety (commutator-trace) terms.
+Frozen surface consulted here: B737, B739, B746, B753 -- and NOTHING else.
+
+========================================================================================
+[1] THE CLAIM'S QUANTITY, EXACT -- the seed and phi^2 (recomputes B746 F1/F2, S1)
+========================================================================================
+CHECK: seed = R*L = [[2,1],[1,1]], tr = 3, det = 1 (exact) -- PASS
+CHECK: char poly t^2-3t+1: disc = 5; larger root = phi^2 = (3+sqrt5)/2 -- PASS (phi^2 = 2.618033988749895)
+CHECK: phi^2 * phi^-2 = 1 and phi^2 + phi^-2 = 3, exact in Q(sqrt5) -- PASS
+CHECK: Cayley-Hamilton battery 200/200 exact: A^2 - tr(A)*A + I = 0 for random SL(2,Q) -- PASS (eigenvalue-trace == matrix-trace IDENTICALLY; the seed-side '3' is forced by Vieta)
+
+========================================================================================
+[2] THE ORIGINAL KILL BASIS: asserted -> COMPUTED (the kind-mismatch, exact)
+========================================================================================
+CHECK: Fricke battery 300/300 exact: tr[A,B] = x^2+y^2+z^2-xyz-2 -- PASS
+CHECK: general-position pairs are NOT pinned: 298/300 have tr[A,B] != 2 -- PASS (tr[A,B]=2 is a PROPER special locus (2/300 random pairs land on it), in contrast to the reducible battery below, which is pinned there without exception)
+CHECK: reducible battery 300/300 EXACT: tr[A,B] = 2 for ALL reducible (triangular) pairs -- PASS (the degenerate/reducible (phi_{2,1}) side is PINNED at kappa = 2)
+CHECK: kind-correct comparison: 2 != 3 -- PASS (commutator-trace of the reducible side (2, computed) vs the seed's kappa = 3 (B746 F1, S1); the '3=3' put an eigenvalue-trace (=matrix trace, [1]) against a commutator-trace: cross-kind, and the kind-correct degenerate-side value is 2 -- the kill's inequality now COMPUTED, not asserted)
+
+========================================================================================
+[3] THE CONSULTATION OPERATOR SFH + Q2 DISCRIMINATION (mandatory-first)
+========================================================================================
+SFH (spectral-face host scan): input = a candidate quantity q; output = (i) exact-
+equality hits of q against every banked object-specific quantity of the frozen
+surface, (ii) field-membership of q in the banked voice fields Q(sqrt-3) and
+Q(j_{-48}), (iii) the kind ledger (unimodular phase / probability / residue /
+volume vs dilatation).  Face-data extractor applied to a MANIFOLD = its banked
+(cusp CM j, palette, voice residue) triple, recomputed from closed forms.
+
+CHECK: vol(m004) = 2*Cl2(pi/3) matches banked to 1e-12 -- PASS (computed 2.029883212819307)
+CHECK: Res phi = 2*sqrt3/vol(m004) matches banked 1.706552176628161... to 1e-12 -- PASS (computed 1.706552176628161)
+CHECK: Res_{s=1} zeta_K = 2pi/(6*sqrt3) = 0.6045997880... -- PASS (computed 0.604599788078)
+CHECK: j(m004 cusp): exact root of banked H_{-48} poly reproduces banked decimal (17 digits) -- PASS (root = 2835807690.42228352772984605)
+CHECK: j(m004 cusp) via q-series agrees with the exact root to 1e-3 -- PASS (q-series 2835807690.422278)
+CHECK: j(m003 cusp) via q-series = 0 (hexagonal CM point, banked exact 0) -- PASS (|j| = 1.44e-09)
+CHECK: palette recomputed by enumeration: levels (2),(4),(8) -> 1, 2, 8 (mu6-image a subgroup) -- PASS (|units| = 3,12,48; |im mu6| = 3,6,6)
+CHECK: B753 block: eigenvalues = e^{+-i 72deg} (from banked entries), |lambda| = 1 -- PASS (lam = 0.309017+-0.951057i, tr = 0.618034 = 1/phi)
+CHECK: B753 exact identity |B00|^2 = 1/(phi*sqrt5) = (5-sqrt5)/10, exact in Q(sqrt5) -- PASS (= 0.2763932023)
+
+Q2 DISCRIMINATION (computed, both axes, BEFORE the consultation):
+  manifold axis  : extractor(m004) = (j = 2835807690.42, palette (4)/(8) = 2/8,
+                   Res phi = 1.706552176628)  vs  extractor(m003) = (j = 0,
+                   palette (2) = 1, same voice by the B737 transfer) -- j differs by
+                   2.836e+09 (12 orders), palettes differ (enumerated above).
+CHECK: Q2 manifold axis: SFH face-extractor output differs, object vs sister m003 -- PASS (j: 2835807690.42 vs 0; palette: {2,8} vs {1})
+CHECK: Q2 quantity axis: SFH(2*sqrt3/vol) = HIT at 1e-12 (banked decimal vs Clausen route) -- PASS (the operator can return YES; it is not constant -- B752 failure mode excluded)
+
+========================================================================================
+[4] THE CONSULTATION -- SFH(phi^2) over the ENTIRE frozen surface
+========================================================================================
+    |phi^2 - Res phi (B737/B739)                   | = |2.618034 -     1.706552| = 0.911482
+    |phi^2 - Res zeta_K (B737)                     | = |2.618034 -     0.604600| = 2.013434
+    |phi^2 - vol(m004) (B737)                      | = |2.618034 -     2.029883| = 0.588151
+    |phi^2 - 2*sqrt3 = cusp covol (B737)           | = |2.618034 -     3.464102| = 0.846068
+    |phi^2 - Cl2(pi/3)                             | = |2.618034 -     1.014942| = 1.603092
+    |phi^2 - j(m004 cusp) (B737)                   | = |2.618034 - 2835807690.422283| = 2835807687.804249
+    |phi^2 - j(m003 cusp) (B737)                   | = |2.618034 -     0.000000| = 2.618034
+    |phi^2 - palette size level (2) (B737/B739)    | = |2.618034 -     1.000000| = 1.618034
+    |phi^2 - palette size level (4)                | = |2.618034 -     2.000000| = 0.618034
+    |phi^2 - palette size level (8)                | = |2.618034 -     8.000000| = 5.381966
+    |phi^2 - B753 cos72 = Re B00 = 1/(2phi)        | = |2.618034 -     0.309017| = 2.309017
+    |phi^2 - B753 sin72/sqrt5 = Im B00             | = |2.618034 -     0.425325| = 2.192709
+    |phi^2 - B753 |B00|                            | = |2.618034 -     0.525731| = 2.092303
+    |phi^2 - B753 |B00|^2 = 1/(phi*sqrt5)          | = |2.618034 -     0.276393| = 2.341641
+    |phi^2 - B753 P00 = phi/sqrt5                  | = |2.618034 -     0.723607| = 1.894427
+    |phi^2 - B753 tr B = 1/phi                     | = |2.618034 -     0.618034| = 2.000000
+    |phi^2 - B753 |eigenvalue|                     | = |2.618034 -     1.000000| = 1.618034
+    |phi^2 - B753 eigenphase (rad)                 | = |2.618034 -     1.256637| = 1.361397
+    |phi^2 - B753 eigenphase (deg)                 | = |2.618034 -    72.000000| = 69.381966
+CHECK: HOST SCAN: NO banked spectral-face quantity equals phi^2 (tolerance 1e-9) -- PASS (min gap = 0.588151 at 'vol(m004) (B737)')
+CHECK: sqrt5 not in Q(sqrt-3): x^2=5 has no rational solution (5 not a square, squarefree); -3y^2=5 impossible by sign -- PASS
+CHECK: D = disc(H_{-48}) = 8041792158027000000: D > 0, NOT a perfect square, NOT 5*k^2 => sqrt5 not in Q(sqrt-3, j_{-48}) -- PASS (D%5 = 0, issquare(D/5) = False, -3D < 0 kills the third subfield)
+CHECK: kind ledger: every B753 eigenvalue has |lambda| = 1; |phi^2| = 2.618... != 1 -- PASS (gap phi^2 - 1 = 1.618034: unimodular phase vs dilatation = kind-distinct)
+
+========================================================================================
+[5] THE CONTINUOUS CHANNEL IS CLOSED -- B739 rigidity + B746 F11, re-verified
+========================================================================================
+CHECK: B746-F11 rescan: 0 golden markers across all 9 banked voice artifacts (B737 + B739, FINDINGS + every output incl. FAILED transcripts) -- PASS (markers = ['golden', 'fibonacci', 'sqrt5', 'sqrt(5)', '1.618', '2.618', '0.618', '√5'], total hits = 0)
+CHECK: B739 rigidity as banked: continuous spectrum = ONE channel = exactly Lambda_K(s-1)/Lambda_K(s); no other character anywhere in it (citation verified in-arc) -- PASS (b739_probe_out.txt:323-330; FINDINGS.md:7-16)
+
+========================================================================================
+[6] VERDICT: KILL-EXTENDS
+========================================================================================
+The spectral face AS BANKED bears on kill K-J in a way the original (mtc-overlay-
+only, fact_basis: asserted) kill never tested, and every computed fact UPHOLDS and
+EXTENDS the kill.  Exactly what was computed, no more:
+
+ E1  The kill's core inequality is now COMPUTED, not asserted: on the reducible
+     (degenerate phi_{2,1}) side the commutator trace is PINNED at 2 (300/300 exact,
+     Fricke identity verified 300/300), the general-position locus is not (298/300
+     off the tr[A,B]=2 locus -- it is proper, not generic), and the
+     seed's kappa = 3 (disc-5 seed recomputed exactly; banked B746 F1/S1).  The '3=3'
+     confirmation compared an eigenvalue-trace -- which IS the matrix trace identically
+     (Cayley-Hamilton 200/200) and so carries zero confirmation content -- against a
+     commutator-trace whose kind-correct degenerate-side value is 2, not 3.  This is
+     the B753 emptiness mechanism (Re lam = Re B00 identically, 'regardless of p')
+     transplanted to the kill's '3=3' leg and computed.
+
+ E2  The host scan over the ENTIRE frozen surface finds no home for phi^2: no banked
+     spectral-face quantity equals it (min gap 0.588), and no banked voice field can
+     contain it (sqrt5 not in Q(sqrt-3), exact; sqrt5 not in Q(sqrt-3, j_{-48}),
+     exact via the D = 5k^2 test).  The only golden-bearing face quantities (B753)
+     are unimodular eigenphases and unistochastic entries -- kind-distinct from a
+     dilatation-multiplier reading of phi^2 (modulus 1 and < 1 vs 2.618).
+
+ E3  B739's character-rigidity (verified in-arc) leaves the continuous channel no
+     room for ANY re-posed 'multiplier' beyond the field's zeta-quotient: the
+     spectral re-reading named in the revival hypothesis has no continuous-spectrum
+     home; B746 F11's zero-golden-marker fact re-verified in-cell (0 hits, 9 files).
+
+RESIDUAL (journal note per S16 review CHECK 4 convention; NOT verdict-bearing): the
+discrete newform spectrum remains the banked owner-gated door (B746 door 2; B739
+'discrete-only' redirect).  The killed identification does not depend on it: no
+spectral fact can make the reducible kappa=2 block irreducible.
+
+FALSIFIER (Q7): any banked quantity inside the four frozen arcs equal to phi^2; or
+D = 5k^2 / a rational solution of (x+y*sqrt-3)^2 = 5; or one exact reducible SL(2,Q)
+pair with tr[A,B] != 2; or a failure of B739's rigidity (a second continuous channel,
+or a conductor-(4)/(8) character in the continuous spectrum).
+
+CHECK: ALL 25/25 checks PASS

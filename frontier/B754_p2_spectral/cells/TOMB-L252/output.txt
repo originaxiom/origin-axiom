@@ -1,0 +1,145 @@
+B754 P2 CELL -- TOMB-L252
+claim_killed : K-K: gap-labeling spectral rank equals the composition
+               period k of the seed geodesic.  [kill_form: value-mismatch]
+kill basis   : 'A period-k geodesic is a 2x2 matrix = a 2-letter
+               substitution = always rank 2, independent of k.'  (arithmetic only)
+revival hyp. : the rank question was never asked on the emittance/spectral anatomy.
+face frozen  : B737 + B739 + B746 + B753 (the ONLY face-sources).
+
+=============================================================================
+SECTION 1 -- Q2 DISCRIMINATION FIRST (mandatory): the consultation operator
+FR(M) = (voice-field disc, cusp multiplier-ring disc, Hecke-character palette
+size at M's congruence level, #cusps) -- computed for m004 vs the sister m003.
+An operator with the same output for generic inputs voids the cell.
+=============================================================================
+CHECK: [PASS] palette level (2^1): |(O/2)^x| = 3, |mu6 image| = 3 (subgroup: True), quotient = 1
+CHECK: [PASS] palette level (2^2): |(O/4)^x| = 12, |mu6 image| = 6 (subgroup: True), quotient = 2
+CHECK: [PASS] palette level (2^3): |(O/8)^x| = 48, |mu6 image| = 6 (subgroup: True), quotient = 8
+CHECK: [PASS] palette sizes (1,2,8) at levels (2),(4),(8) -- B737 P3 face fact RECOMPUTED  got (1, 2, 8)
+CHECK: [PASS] [O : Lam] = |det[[1,0],[2,4]]| = 4  (B739's index-4, recomputed)
+CHECK: [PASS] multiplier ring of Lam = Lam itself = the order Z[2 sqrt(-3)] (box scan |a|,|b|<=8)
+CHECK: [PASS] disc(multiplier ring) = 4^2 * disc(O_K) = -48 = conductor-4 order  (B737 P3 'disc -48')
+CHECK: [PASS] all norm-4 elements of O are 2*mu6 (found 6: [(-2, -2), (-2, 0), (0, -2), (0, 2), (2, 0), (2, 2)])
+CHECK: [PASS] 2O != Lam  (2w in 2O has w-coeff 2 != 0 mod 4)  => cusp tori NON-similar (B737 P3 recomputed)
+FR(m004) = ('voice field disc -3', 'cusp order disc -48', 'palette at level (4)/(8) = 2/8', '#cusps 1')
+FR(m003) = ('voice field disc -3', 'cusp order disc -3', 'palette at level (2) = 1', '#cusps 1')
+CHECK: [PASS] Q2 DISCRIMINATION: FR(m004) != FR(m003) in 2 of 4 components (cusp-order disc -48 vs -3; palette 2/8 vs 1) -- COMPUTED, operator not generic
+
+=============================================================================
+SECTION 2 -- THE KILL BASIS RE-EXAMINED (original arithmetic scope):
+period-k geodesic words over R=[[1,1],[0,1]], L=[[1,0],[1,1]], all primitive
+mixed necklaces k<=6 plus R^(k-1)L for k=7,8; gap-labeling Z-module rank per word.
+=============================================================================
+  k=2  w=LR        tr=3    det=1  disc=5     rank=2  rank==k: True
+  k=3  w=LLR       tr=4    det=1  disc=12    rank=2  rank==k: False
+  k=3  w=LRR       tr=4    det=1  disc=12    rank=2  rank==k: False
+  k=4  w=LLLR      tr=5    det=1  disc=21    rank=2  rank==k: False
+  k=4  w=LLRR      tr=6    det=1  disc=32    rank=2  rank==k: False
+  k=4  w=LRRR      tr=5    det=1  disc=21    rank=2  rank==k: False
+  k=5  w=LLLLR     tr=6    det=1  disc=32    rank=2  rank==k: False
+  k=5  w=LLLRR     tr=8    det=1  disc=60    rank=2  rank==k: False
+  k=5  w=LLRLR     tr=10   det=1  disc=96    rank=2  rank==k: False
+  k=5  w=LLRRR     tr=8    det=1  disc=60    rank=2  rank==k: False
+  k=5  w=LRLRR     tr=10   det=1  disc=96    rank=2  rank==k: False
+  k=5  w=LRRRR     tr=6    det=1  disc=32    rank=2  rank==k: False
+  k=6  w=LLLLLR    tr=7    det=1  disc=45    rank=2  rank==k: False
+  k=6  w=LLLLRR    tr=10   det=1  disc=96    rank=2  rank==k: False
+  k=6  w=LLLRLR    tr=13   det=1  disc=165   rank=2  rank==k: False
+  k=6  w=LLLRRR    tr=11   det=1  disc=117   rank=2  rank==k: False
+  k=6  w=LLRLRR    tr=15   det=1  disc=221   rank=2  rank==k: False
+  k=6  w=LLRRLR    tr=15   det=1  disc=221   rank=2  rank==k: False
+  k=6  w=LLRRRR    tr=10   det=1  disc=96    rank=2  rank==k: False
+  k=6  w=LRLRRR    tr=13   det=1  disc=165   rank=2  rank==k: False
+  k=6  w=LRRRRR    tr=7    det=1  disc=45    rank=2  rank==k: False
+  k=7  w=RRRRRRL   tr=8    det=1  disc=60    rank=2  rank==k: False
+  k=8  w=RRRRRRRL  tr=9    det=1  disc=77    rank=2  rank==k: False
+CHECK: [PASS] all 23 period-k words (k=2..8): det=1, tr>=3, disc non-square => gap-labeling rank = 2, independent of k
+CHECK: [PASS] rank == k ONLY at the seed coincidence k=2; the law 'rank = k' is FALSE for every k != 2 (value-mismatch UPHELD)
+CHECK: [PASS] seed RL: trace 3, charpoly t^2-3t+1, disc 5 -> gait field Q(sqrt5)  (B746 F1/F2 concordance: kappa_seed=3, Alexander disc 5)
+
+=============================================================================
+SECTION 3 -- THE FACE CONSULTED: every rank-type invariant in the frozen
+surface, recomputed/verified, scanned for k-dependence.
+=============================================================================
+CHECK: [PASS] B739 rank-type invariants: continuous multiplicity = 1, scattering dim = 1 -- k-independent constants (no k in 2..8 equals them except none)
+CHECK: [PASS] trigamma sanity: psi1(1) = pi^2/6  err 2.22e-16
+  L(2,chi_-3)        = 0.781302412896486
+  zeta_K(2)          = 1.285190955484150
+  vol(m004) = 2*Cl2(pi/3) = 2.029883212819307   banked 2.029883212819307
+  route 1: 2 pi^2/(9 zeta_K(2)) = 1.706552176628161
+  route 2: 2 sqrt3 / vol(m004)  = 1.706552176628162
+CHECK: [PASS] vol(m004) matches banked 2.029883212819307... (B737 p2 L85) to < 1e-12  err 4.44e-16
+CHECK: [PASS] Res phi = 2 pi^2/(9 zeta_K(2)) = 2 sqrt3/vol(m004) = 1.706552176628161... (B737 L53-55, B739 L245-249) both routes < 1e-12  errs 4.44e-16, 2.22e-16
+CHECK: [PASS] the residue is a single number pinned to (field, volume) -- carries NO k-indexed family  phi(s) = Lambda_K(s-1)/Lambda_K(s): field data only (K = Q(sqrt-3))
+CHECK: [PASS] B753 banked B00 = 1/(2 phi) + i sin72/sqrt5 = 0.309017+0.425325j (output.txt L4)  (0.309017,0.425325)
+CHECK: [PASS] eigenphases +-72 deg: acos(1/(2 phi)) = 72.000000 deg (B753 output.txt L11: 0.309017+-0.951057j)  72.000000000
+CHECK: [PASS] EXACT: cos72 = (sqrt5-1)/4 = 1/(2 phi) via 4x^2+2x-1 = 0 in Q(sqrt5) (symbolic)
+CHECK: [PASS] B753 rank-type invariants: theta-odd block dim = 2 (weight basis {u3,u6}), eigenphase pair fixed at +-72 deg -- k-independent constants
+  -phi     = sign -1 * phi^+1  exact: True
+  phi^-1   = sign +1 * phi^-1  exact: True
+  phi^3    = sign +1 * phi^+3  exact: True
+  -phi^-3  = sign -1 * phi^-3  exact: True
+CHECK: [PASS] B746 F3 spectrum: all four values EXACTLY +-phi^odd (Q(sqrt5) arithmetic); exponent lattice gcd(1,1,3,3)=1 => multiplicative rank mod +-1 = 1
+CHECK: [PASS] B746 F3 rank-type invariant: multiplicative rank = 1 -- k-independent (same lesson as tombstone K-L, now from the face side)
+CHECK: [PASS] ALL 23 gap-labeling modules live in REAL quadratic fields (disc > 0, squarefree part != -3): Q(sqrt d) n Q(sqrt-3) = Q for every k
+CHECK: [PASS] => by B739's rigidity (continuous channel = the SINGLE Eisenstein channel, carries ONLY Lambda_K data; FINDINGS L8-16, proof b739 PART A-C) the rank-2 gait module has NO CARRIER in the continuous spectral anatomy
+CHECK: [PASS] B746 F11 re-verified: 0 golden markers in the 7 banked voice artifacts (marker set of 11, 'phi' excluded as scattering-notation collision)  hits = 0
+
+=============================================================================
+SECTION 4 -- THE SEED COINCIDENCE FLAGGED (the tombstone's own MB6 trap):
+at the seed, period k=2, gap-labeling rank 2, theta-odd block dim 2 -- three
+2's of DIFFERENT provenance (word period / #letters / theta-parity dim).
+=============================================================================
+CHECK: [PASS] as k moves 3..8: gap-labeling rank stays 2, block dim stays 2, multiplicity stays 1 -- NONE tracks k; the seed's 2=2=2 is the K-J-class reproduction-is-not-interpretation coincidence, now computed
+
+=============================================================================
+SECTION 5 -- VERDICT
+=============================================================================
+
+VERDICT: KILL-EXTENDS.
+
+The face AS BANKED does bear on the killed claim, in exactly the way the
+original (arithmetic-only) kill never tested -- and it comes out on the
+kill's side. What was computed, and no more:
+
+ (1) The kill basis re-examined and upheld: for every period-k word (all
+     primitive mixed necklaces k<=6 plus R^(k-1)L, k=7,8) the induced
+     2-letter substitution has gap-labeling Z-module rank exactly 2;
+     rank == k only at the accidental seed value k=2.
+ (2) The revival transported: every rank-type invariant the frozen spectral
+     surface actually defines for the object is a computed k-INDEPENDENT
+     constant -- continuous-channel multiplicity 1 = #cusps (B739),
+     scattering size 1x1 (B739), theta-odd block dimension 2 with eigenphases
+     +-72 deg (B753), theta-odd spectrum multiplicative rank 1 (B746 F3).
+     No banked spectral object is indexed by geodesic period at all.
+ (3) The closure: every period-k gap-labeling module lives in a REAL
+     quadratic gait field (disjoint from Q(sqrt-3) over Q, computed for all
+     tested k), while B739's rigidity theorem pins the continuous anatomy to
+     Lambda_K data ONLY, and the voice artifacts contain zero golden markers
+     (B746 F11, re-verified collision-aware). The emittance anatomy is
+     structurally closed to the arithmetic the gap-labeling rank is made of.
+
+So 'ask the rank question on the emittance/spectral anatomy' (the revival
+hypothesis) HAS an answer on the frozen surface: the anatomy offers no
+k-tracking rank object; the kill's k-independence lesson holds ON THE FACE,
+not just in the substitution arithmetic. The wall gains a column.
+
+NOT claimed (Q6 specialness budget): none of this is special to THIS claim
+or object -- the same closure argument runs for the sister m003 (its cusp
+order disc -3, palette 1; Section 1 comparator). The extension is the
+computed k-independence + field-disjointness, nothing further.
+
+Known open door, NOT an opening of this cell: whether the DISCRETE newform
+spectrum carries golden/rank data is already named open and owner-gated
+INSIDE the frozen surface itself (B739 FINDINGS L47-49 'unique home...
+owner-gated'; B746 door 2). The killed claim does not depend on it: no
+discrete-spectrum answer can change rank(gap-labeling) = 2 != k.
+
+FALSIFIER: (i) any object banked in B737/B739/B746/B753 indexed by geodesic
+period whose value tracks k; (ii) a golden-marker hit in the voice artifacts
+under the collision-aware set; (iii) a period-k word whose gap-labeling
+field degree != 2; (iv) failure of any recomputation here against the
+banked digits (palette 1/2/8, disc -48, Res 1.7065521766..., vol
+2.0298832128...). Any one voids KILL-EXTENDS.
+
+CHECK: 28/28 checks passed

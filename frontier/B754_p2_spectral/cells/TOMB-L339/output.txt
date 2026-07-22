@@ -1,0 +1,76 @@
+CHECK: [PASS] L(2,chi_-3) recomputed from scratch (Hurwitz-EM) vs banked B737 p3 L21  (reldiff=8.1e-62)
+CHECK: [PASS] L(1,chi_-3): independent series+EM vs pi/(3*sqrt3)  (reldiff=3.1e-25)
+CHECK: [PASS] Res_{s=1} zeta_K = pi/(3*sqrt3) vs banked B737 p2_cover L11 (class no. formula)  (reldiff=3.6e-62)
+CHECK: [PASS] field-closure: Res phi = 2pi^2/(9 zeta_K(2)) recomputed vs banked 39-digit value  (reldiff=2.7e-41)
+CHECK: [PASS] field-closure: vol_orb = 3*sqrt3*zeta_K(2)/(4pi^2) vs banked B737 p3 L22  (reldiff=1.1e-60)
+CHECK: [PASS] field-closure: vol(m004) = 9*sqrt3*zeta_K(2)/pi^2 vs banked 60-digit B737 p3 L5  (reldiff=8.8e-61)
+CHECK: [PASS] identity chain: 2*sqrt3/vol(m004) == Res phi (B737 p2_cover L133-136 triangle)  (reldiff=0.0e+00)
+CHECK: [PASS] class-degeneracy: (sqrt3/6)/vol_orb == Res phi (index-12 cancellation, B739 L251)  (reldiff=0.0e+00)
+CHECK: [PASS] sister-equality of the whole degree!=0 sector: vol(m003)==vol(m004) (banked strings B737 p3 L5==L9), area(m003)==area(m004)==2*sqrt3 (L34-35, residual 0.0)  (banked in-arc, quad-double)
+CHECK: [PASS] j(m004 cusp) from scratch satisfies banked disc -48 class poly x^2-2835810000x+6549518250000 (B737 p3 L41)  (|P(j)|/j^2=2.0e-78)
+CHECK: [PASS] j(m004 cusp) matches banked in-arc value 2835807690.42228352772984605248 (L40)  (absdiff=4.8e-21)
+CHECK: [PASS] j(m003 cusp) == 0 (hexagonal CM point, disc -3; B737 p3 L39)  (|j|=3.6e-251)
+CHECK: [PASS] Q2 discriminator (shape): j(m004 cusp) != j(m003 cusp)
+CHECK: [PASS] palette |(O/2^k)^x/mu_6| for k=1,2,3 enumerated == (1,2,8) (B737 p3 L73-75; B739 FINDINGS; B746 S4)  (computed [1, 2, 8])
+CHECK: [PASS] Q2 discriminator (level): palette(m003 level (2)) = 1 != {1,2,8} available at m004 levels (4)/(8)
+CHECK: [PASS] CM disc -48 = -(2^4)*3: primes {2,3} only, 5 absent (B746 spot_checks S4)
+CHECK: [PASS] B753 unistochasticity EXACT in Q(sqrt5): phi/sqrt5 + 1/(phi*sqrt5) == 1
+CHECK: [PASS] B753 mixing entry EXACT: 1/(phi*sqrt5) == (5-sqrt5)/10
+CHECK: [PASS] B753 P-matrix values reproduced: (0.723607, 0.276393) (output.txt L29)  (computed (0.723607, 0.276393))
+CHECK: [PASS] B753 eigenphase real part EXACT: cos 72deg == 1/(2phi) == (sqrt5-1)/4  (reldiff=9.7e-85)
+CHECK: [PASS] B753 eigenvalues e^{+-i 72deg}: real part 0.309017 (output.txt L11), trace=+1/phi
+
+THE SCALE-AUDIT LEDGER (operator W = the kill's own template, TOMBSTONES.md L343-44)
+banked face datum                   deg  scope      source
+vol                                  +3  CLASS      B737 p3 L5/L9/L23-24; B739 L16
+max-cusp area                        +2  CLASS      B737 p3 L34-35 (residual 0.0)
+Res phi (scatt.)                     -1  CLASS      B737 p2 L133-136; B739 L245-251
+vol_orb (base)                       +3  CLASS      B737 p3 L22
+cusp j-invariant                     +0  OBJECT     B737 p3 L39-49
+cusp CM disc                         +0  OBJECT     B737 p3 L42; B746 S4
+char palette                         +0  OBJECT     B737 p3 L73-75; B739 FINDINGS
+H1 marking co-ix                     +0  OBJECT     B737 p3 L60-62
+theta-odd eigenphases +-72deg        +0  PROGRAM    B753 output L11
+mixing entry 1/(phi*sqrt5)           +0  PROGRAM    B753 output L28-31
+golden/Eisenstein column grades      +0  PROGRAM    B746 ledger F1-F12
+
+CHECK: [PASS] VERDICT INCLUSION 1: every OBJECT-specific banked face datum has dilation-degree 0
+CHECK: [PASS] VERDICT INCLUSION 1b: every PROGRAM-side banked face datum (B753/B746) has degree 0
+CHECK: [PASS] VERDICT INCLUSION 2: every degree!=0 banked face datum is class-generic (sister-equal + covering-invariant) AND field-closed in Q[pi, sqrt3, zeta_K(2)]
+CHECK: [PASS] Q2 OPERATOR DISCRIMINATES: W(m004) != W(m003) -- entirely via the degree-0 sector
+
+CHECKS: 25/25 PASS
+
+VERDICT: KILL-EXTENDS
+
+The L38 kill computed: no intrinsic scale on the Hitchin/Higgs side (PVI time
+C*-weight 0; only C*-fixed base point h=0; base dilation not isomonodromic).
+Its residual-hint prescribed the weight table as the reusable scale-audit
+template for any future scale-channel claim.  This cell transported that
+template to the spectral face AS BANKED (B737/B739/B746/B753 only) -- the
+channel the B-prime annotation flagged as unconsulted -- and computed:
+
+  (1) Every banked face datum that separates m004 from its sister m003
+      (cusp j-invariant 2835807690.42... vs 0; CM disc -48 vs -3; character
+      palette {1,2,8} vs {1}; H1 marking) and every banked B753/B746 datum
+      (eigenphases +-72deg, unistochastic entries phi/sqrt5 and 1/(phi*sqrt5),
+      column grades) has dilation-degree 0: dimensionless.
+  (2) The face's only degree!=0 banked data (vol, max-cusp area 2*sqrt3,
+      Res phi) are sister-equal and covering-invariant (the index-12
+      cancellation, B739 L251) and field-closed:
+        Res phi = 2pi^2/(9 zeta_K(2)),  vol(m004) = 9*sqrt3*zeta_K(2)/pi^2,
+        area = 2*sqrt3  --  all in Q[pi, sqrt3, zeta_K(2)], the field's
+      numbers with no object-borne scale entering.
+
+EXTENSION (exactly what was computed, no more): consulted as banked, the
+flagged spectral channel reproduces the kill's verdict on its own side --
+its object-specific content is entirely dimensionless, and its scale-classed
+content carries the field/commensurability-class scale, not the object's.
+The no-landing-site wall gains the spectral column: as banked, the face also
+supplies no object-intrinsic scale for the killed claim to revive on.
+
+NOT claimed (residuals, out of this cell's scope): the discrete (newform)
+spectrum is unbanked (owner-gated, B739 honest bounds; open door 2, B746);
+B735 emittance internals are not among the four frozen sources; any
+Hitchin-side transfer/landing question is depth (P3).  Nothing to CLAIMS.
+

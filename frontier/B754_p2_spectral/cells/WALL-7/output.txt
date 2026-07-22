@@ -1,0 +1,166 @@
+========================================================================
+B754 P2 CELL: WALL-7 vs THE SPECTRAL FACE
+========================================================================
+
+WALL-7 KILL:
+  Claim killed: the naive Z/3 trinification triality does not act
+  on H1(D;27) by any phase-lift, straight or twisted.
+  Kill form: zero-intertwiner (dim Hom = 0 at every pattern)
+  Depth: all 8 nontrivial Z3xZ3 patterns, straight (d5) + sigma*-twisted (f3)
+  Method: exact solve, 27 unknowns vs a/b/c commutation constraints
+  Source: B651 cc2_packets d5_triality + f3_twisted
+
+SPECTRAL FACE (the four frozen arcs):
+  B737: phi_m004(s) = Lambda_K(s-1)/Lambda_K(s), Res = 2*sqrt(3)/vol(m004)
+  B739: continuous spectrum = 1 channel, character-rigid (no Hecke chars)
+  B746: two-column law (golden = gait/dynamics, Eisenstein = voice)
+  B753: theta-odd eigenphases +/-72 deg, unistochastic mixing P
+
+========================================================================
+GATE 5-Q Q2: DISCRIMINATION TEST
+========================================================================
+
+Operator A: scattering residue Res = 2*sqrt(3)/vol(M)
+  m004 (object):   Res = 1.7065521766
+  m003 (sister):   Res = 1.7065521766
+  m006 (generic):  Res = 1.2248770085
+
+  The formula Res = 2*sqrt(3)/vol(M) applies to ANY one-cusped manifold
+  over Q(sqrt(-3)). It is a function of VOLUME ALONE -- it says nothing
+  about E6 representation theory or intertwiner dimensions.
+  Discrimination: NONE (volume-generic, not object-specific for this purpose)
+
+Operator B: character rigidity (no Hecke chars in continuous spectrum)
+  m004 (object):   cusps = 1, character-rigid = True
+  m003 (sister):   cusps = 1, character-rigid = True
+  (any 1-cusped):  cusps = 1, character-rigid = True
+
+  Character rigidity is a consequence of #cusps = 1 (multiplicity-one
+  exhaustion, Sarnak/Friedman). Generic to all one-cusped manifolds.
+  Discrimination: NONE (topological invariant, not E6-specific)
+
+Operator C: two-column law (B746)
+  Golden = dynamical/hearing column (monodromy, dilatation, entropy, ...)
+  Eisenstein = geometric/being column (trace field, volume, cusp, voice)
+  This is a CLASSIFICATION of existing data, not an operator on a manifold.
+  It provides no Z/3 symmetry and no constraint on intertwiner dimensions.
+  Discrimination: NOT APPLICABLE (no computable output; organizational only)
+
+Operator D: theta-odd eigenphases (B753)
+  Eigenphases: +/-72.0 degrees
+  cos(72) = 1/(2*phi) = 0.3090169944
+
+  T-phase ratio: 2/5 = 0.4000000000
+  = 2/5 exactly: True
+
+  Cyclic order of eigenphases: 5 (Z/5)
+  WALL-7 requires: Z/3 action on 27-dim space
+  Operator D provides: Z/5 on 2-dim space
+  5 and 3 are coprime (gcd = 1)
+
+  Even granting that the eigenphases discriminate (they do -- they depend
+  on the monodromy g = RL), the output TYPE is wrong: a Z/5 datum on a
+  2-dim block cannot constrain dim Hom for Z/3 intertwiners on a 27-dim
+  E6-twisted cohomology. The discrimination is CATEGORICALLY IRRELEVANT.
+
+========================================================================
+SECTION 2: CATEGORICAL MISMATCH
+========================================================================
+
+WALL-7 mathematical domain:
+  - Objects: pi_1(D)-modules in the 27-dim E6 representation
+  - Space: H1(D; 27) where D = the double of the figure-eight knot
+  - Question: existence of Z/3 phase-lift intertwiners X = P*D
+  - Method: exact linear algebra (27 unknowns, commutation constraints)
+  - Coefficients: E6-twisted (the 27-dim minuscule representation)
+
+Spectral face mathematical domain:
+  - Objects: Laplacian eigenvalues on M = m004 (scalar, TRIVIAL coefficients)
+  - Space: L2(Gamma\H3) with the TRIVIAL local system
+  - Content: scattering phi(s), Eisenstein series, Hecke characters
+  - Plus: SU(3)_2 quantum hearing (the theta-odd block)
+
+MISMATCH 1: The kill concerns the DOUBLE D, the spectral face concerns M = m004.
+  The banked surface contains no spectral data for the double.
+
+MISMATCH 2: The kill uses E6-27 twisted coefficients, the spectral face uses
+  TRIVIAL coefficients (scalar Laplacian). These are different local systems.
+
+MISMATCH 3: The kill is algebraic (exact linear algebra over the holonomy),
+  the spectral face is analytic (Laplacian spectrum, meromorphic scattering).
+  No known formula links scalar Laplacian eigenvalues to E6-twisted
+  cohomological intertwiner dimensions.
+
+========================================================================
+SECTION 3: Z/3 EXTRACTION TEST
+========================================================================
+
+B737 scattering: phi(s) = Lambda_K(s-1)/Lambda_K(s)
+  This is a scalar meromorphic function of s. It does not act on any
+  27-dimensional space. No Z/3 symmetry can be extracted from it.
+
+B739 character rigidity: a boolean (TRUE for m004)
+  A boolean datum carries no group action on any space.
+
+B746 two-column law: an organizational classification
+  Not an operator; provides no symmetry of any order.
+
+B753 theta-odd eigenphases: +/-72 deg, order = 360/72 = 5
+  The cyclic order is 5 (Z/5), NOT 3 (Z/3).
+  Moreover, it acts on a 2-DIMENSIONAL block, not a 27-dimensional space.
+  Even a Z/3 action on a 2-dim space cannot produce a Z/3 on a 27-dim space
+  without additional structure that the spectral face does not provide.
+
+REVIVAL HYPOTHESIS CHECK:
+  The revival hypothesis names Out(A5) (B732), congruence tower (B734),
+  and spectral face (B735) as potential residual symmetries.
+  But Out(A5) and the congruence tower are NOT part of the spectral face.
+  They are separate arcs (B732, B734), outside the frozen surface.
+  The spectral face (B737/B739/B746/B753) provides:
+    - analytic data (scattering, spectrum): no group action
+    - quantum data (mixing matrix): Z/5 on 2 dims, not Z/3 on 27 dims
+  None of these are symmetries of the type needed to revive WALL-7.
+
+========================================================================
+SUMMARY: FACE-IRRELEVANT
+========================================================================
+
+CHECK: Q2 -- Operator A (scattering residue) returns a volume-dependent
+  real number for ALL one-cusped manifolds over Q(sqrt(-3)); does not
+  discriminate the object from the sister or any generic manifold
+  in any E6-relevant way.
+
+CHECK: Q2 -- Operator B (character rigidity) returns TRUE for ALL
+  one-cusped manifolds; zero discrimination.
+
+CHECK: Q2 -- Operator C (two-column law) is organizational, not
+  computable; provides no discriminating output.
+
+CHECK: Q2 -- Operator D (theta-odd eigenphases) returns +/-72 deg.
+  These DO discriminate m004 (monodromy-dependent via g = RL), but the
+  output type is Z/5 on 2 dims -- categorically irrelevant to Z/3 on 27 dims.
+  gcd(5,3) = 1; no Z/3 subaction extractable.
+
+CHECK: WALL-7 lives in algebraic representation theory of pi_1(D)
+  on H1(D;27) with E6-twisted coefficients. The spectral face lives
+  in analytic spectral theory of M=m004 with trivial coefficients.
+  Different space (D vs M), different coefficients (27 vs trivial),
+  different mathematical category (algebra vs analysis).
+
+CHECK: No datum in the spectral face (B737/B739/B746/B753) provides
+  a Z/3 symmetry on any 27-dimensional space. The only cyclic structure
+  (B753 eigenphases) has order 5 and dimension 2.
+
+CHECK: The B-prime exposure annotation lumped the spectral face (B735)
+  with Out(A5) (B732) and congruence tower (B734) as unconsulted
+  residual symmetries. But B732/B734 provide group-theoretic structures
+  (potentially Z/3-bearing); the spectral face provides analytic/quantum
+  data with no Z/3 content. The annotation was over-cautious.
+
+VERDICT: FACE-IRRELEVANT
+  The spectral face provably does not touch WALL-7's claim.
+  The B' exposure flag grouped 'spectral face' with group-theoretic
+  arcs (Out(A5), congruence tower) that DO provide residual symmetries,
+  but the spectral face itself provides data of a categorically
+  different type (analytic spectrum, quantum hearing) that cannot
+  produce Z/3 intertwiners on E6-twisted cohomology.

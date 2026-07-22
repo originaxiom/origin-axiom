@@ -1,0 +1,109 @@
+==============================================================================
+TOMB-L57 x the frozen spectral face: is the crossover level level-indexed?
+==============================================================================
+CHECK: [PASS] kill source: TOMBSTONES.md carries the banked kill verbatim
+
+[1] The kill basis re-anchored (the banked B742 conventions C1-C4)
+CHECK: [PASS] C1 anchor: b++RL is isometric to m004
+  m=1: theta_max = 1.047197551197, k_c = 4.000000000000, vol = 2.029883212819
+CHECK: [PASS] m=1: Lobachevsky angle-sum volume matches SnapPy (<1e-9)
+  m=2: theta_max = 1.570796326795, k_c = 2.000000000000, vol = 3.663862376709
+CHECK: [PASS] m=2: Lobachevsky angle-sum volume matches SnapPy (<1e-9)
+  m=3: theta_max = 1.669056823433, k_c = 1.764512519265, vol = 4.813819186104
+CHECK: [PASS] m=3: Lobachevsky angle-sum volume matches SnapPy (<1e-9)
+CHECK: [PASS] kill re-anchor: k_c(1) = 4 exactly (theta = pi/3 to 1e-12)
+CHECK: [PASS] kill re-anchor: k_c(2) = 2 exactly (theta = pi/2 to 1e-12)
+CHECK: [PASS] kill re-anchor: k_c(3) = 1.7645... != 4
+CHECK: [PASS] kill re-anchor: m-dependent AND k_c = n = 4 only at m=1 (the banked kill stands as scoped)
+
+[2] Q2 discrimination of the consultation operator (BEFORE the face is used)
+  Operator X(M) = (k_c(M) by C3/C4, level-datum(M) where the face banks one).
+  X k_c-component: m004 (object)  = 4.000000000000
+                   m003 (sister)  = 4.000000000000
+                   m000 (parent)  = 4.000000000000
+                   m006 (generic) = 3.786259954058
+                   m009 (generic) = 3.195165861859
+CHECK: [PASS] Q2: operator separates the object from generic census input (m006)  -- k_c(m006) = 3.786260 != 4
+CHECK: [PASS] Q2: operator separates the object from generic census input (m009)  -- k_c(m009) = 3.195166 != 4
+CHECK: [PASS] Q2: the two generic outputs also differ from each other (no constant operator)
+CHECK: [PASS] Q2/Q6: the sisters are genuinely distinct manifolds (not isometric)
+
+[3] Face source B737 (sister/level probe): grep-verify in-arc, then recompute
+CHECK: [PASS] B737 in-arc: 'level (2)  [m003]' with '#characters = 1' present
+CHECK: [PASS] B737 in-arc: 'level (4)  [m004 std]' with '#characters = 2' present
+CHECK: [PASS] B737 in-arc: conductor-4 identity '2*sqrt(-3) = 4*omega + 2 exactly: True' present
+CHECK: [PASS] B737 in-arc: class-generic regular-ideal-tessellation membership stated
+  recomputed ray-class palette |Cl_n|: (2) -> 1, (4) -> 2, (8) -> 8
+CHECK: [PASS] B737 shadow recomputed: palette 1 / 2 / 8 at levels (2)/(4)/(8)
+CHECK: [PASS] cusp moduli recomputed: m003 = zeta_6 (hexagonal), m004 = 2*sqrt(3)*i (<1e-12)
+CHECK: [PASS] j(m003 cusp) = 0 exactly-to-1e-40 (maximal order, disc -3)
+CHECK: [PASS] j(m004 cusp) = larger root of the banked disc -48 class polynomial (<1e-30)  -- x^2 - 2835810000 x + 6549518250000 (B737 p3, algdep-banked; verified exactly here)
+CHECK: [PASS] conductor-4 identity recomputed exactly: 2*sqrt(-3) = 4*omega + 2, omega = (-1+sqrt(-3))/2
+
+[4] The axis the kill never varied: LEVEL at FIXED geometry
+CHECK: [PASS] sisters share the geometry datum: vol(m003) = vol(m004) (<1e-50)
+CHECK: [PASS] sisters share the shape datum: all shapes of BOTH = e^{i pi/3} (<1e-12)
+CHECK: [PASS] hence k_c(m003) = k_c(m004) = 4 (both to 1e-10) — k_c is CLASS data
+CHECK: [PASS] the Gieseking parent m000 (1 regular tetrahedron): k_c = 4 as well — the whole tessellation class sits at k_c = 4
+
+  The level-indexed re-derivation of k_c (the revival hypothesis), computed:
+    banked level datum:  m003 -> (2), palette 1;   m004 -> (4), palette 2
+    computed crossover:  k_c(m003) = 4.0000000000;  k_c(m004) = 4.0000000000
+CHECK: [PASS] R1 'k_c = level' DEAD: predicts k_c(m003) = 2, computed 4
+CHECK: [PASS] R2 'k_c = palette size' DEAD: predicts k_c(m004) = 2, computed 4
+CHECK: [PASS] R3 level-DECOUPLING computed: level data differ at every banked layer, k_c identical
+
+[5] Face source B739 (character rigidity): grep-verify in-arc, then recompute
+CHECK: [PASS] B739 in-arc: 'NO conductor-(4)/(8) Hecke character appears ANYWHERE' present
+CHECK: [PASS] B739 in-arc: residue value 1.706552176628161608820573265788 present (banked)
+  route G (geometric):  2*sqrt(3)/vol(m004)  = 1.706552176628161608820573265788
+  route A (analytic):   2*pi^2/(9*zeta_K(2))  = 1.706552176628161608820573265788
+CHECK: [PASS] L(2,chi_-3) recomputed (Hurwitz) matches B737's banked 55-digit value head
+CHECK: [PASS] residue two-route agreement (<1e-40): the continuous channel's ONE object-datum is 1/vol — a VOLUME reciprocal, not a level index
+CHECK: [PASS] Humbert chain recomputed: vol(m004)/vol_orb = 12 (<1e-30)
+  => B739 (verified in-arc): the continuous channel of the object carries NO
+     level-(4)/(8) character term at all — there is no level-dependent quantity
+     in the banked continuous spectrum from which a level-indexed k could be
+     sourced; its scattering entry is the LEVEL-1 base quotient Lambda_K(s-1)/
+     Lambda_K(s), and its sole object normalization is 1/vol (recomputed above).
+
+[6] Face sources B753 / B746: the face's own numbers do not re-derive k = 4
+CHECK: [PASS] B753 in-arc: eigenvalues +0.309017+-0.951057j (= e^{+-i 72deg}) present
+CHECK: [PASS] B753 shadow recomputed: cos(72deg) = 1/(2*phi) exactly (sympy)
+CHECK: [PASS] B753 phase into the C2 lattice: 2*pi/(k+2) = 72deg gives k = 3 != 4 — the face's one banked eigenphase does NOT re-derive the crossover
+CHECK: [PASS] the crossover angle is NOT the face's mixing angle: cos(theta_geom) = cos(60deg) = 1/2 (rational), vs cos(72deg) = 1/(2*phi) (golden) — exactly distinct
+CHECK: [PASS] B746 in-arc: S4 'palette {1,2,8} powers of 2' + '5 absent' present (spectral data of the object is 5-free)
+CHECK: [PASS] B746 column guard: no golden marker in the crossover values (k_c(1),k_c(2) integers; |k_c(3)-phi| > 0.1, |k_c(3)-1/phi| > 0.1)  -- k_c inputs are tetrahedron-shape/volume data = the GEOMETRIC column of the two-column law (B746 F11/E-column); the kill's 'volume accident' lives there
+
+==============================================================================
+VERDICT: KILL-EXTENDS
+
+Computed, exactly and no more:
+ (1) The kill re-anchors under its own conventions: k_c = 4, 2, 1.7645 at m = 1,2,3
+     (m-dependent; = n = 4 at m=1 only), with the angle datum tied to the volume by
+     the Lobachevsky sum — the banked basis reproduced, not cited.
+ (2) The axis the kill never varied — LEVEL at fixed geometry — is answered by the
+     frozen face: the sister pair m003/m004 (not isometric; identical volume to
+     1e-50 and identical shapes e^{i pi/3}) has IDENTICAL crossover k_c = 4, while
+     every face-banked level datum differs between them (level (2) vs (4); ray-class
+     palette 1 vs 2, recomputed; cusp order maximal (j=0) vs conductor-4 (disc -48,
+     j = the banked class-poly root, recomputed to 1e-30)). The Gieseking parent
+     m000 sits at k_c = 4 as well. The crossover is CLASS data; the level is OBJECT
+     data; a level-indexed re-derivation of k_c fails at its first computable
+     instance, in both readings (R1 'k = level' predicts 2 at m003, computed 4;
+     R2 'k = palette' predicts 2 at m004, computed 4).
+ (3) The banked continuous-spectral surface cannot supply any other level index:
+     B739 (verified in-arc) leaves NO conductor-(4)/(8) character anywhere in the
+     continuous channel, and its single object-datum recomputes as 2*sqrt(3)/vol =
+     2*pi^2/(9*zeta_K(2)) (two routes, <1e-40) — a VOLUME reciprocal.
+ (4) The face's one banked eigenphase (72deg, B753) lands at lattice k = 3 != 4;
+     the crossover angle (60deg, rational cosine) is not a face angle; no golden
+     marker appears in any k_c value (B746 column guard).
+EXTENSION BANKED: the kill 'figure-eight-VOLUME coincidence, not structure' gains
+the level-decoupling column — the k~4 <-> n=4 match also fails as a level-(4) match,
+because the level-(2) sister crosses at the same k_c = 4. The revival hypothesis's
+named mechanism (congruence-tower re-indexing of k_c) is computed dead on the only
+level data the frozen face banks. Nothing beyond these computations is claimed; the
+m>=2 members' own congruence structure (different trace fields) is outside the
+frozen surface and outside this cell.
+

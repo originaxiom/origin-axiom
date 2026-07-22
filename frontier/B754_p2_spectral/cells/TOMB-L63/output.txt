@@ -1,0 +1,132 @@
+========================================================================================
+PART 0 -- Q2 DISCRIMINATION GATE (mandatory first; Gate 5-Q)
+========================================================================================
+Consultation operator O_mix: weld-block |-> kind-correct mixing entry
+P[0,1] of the eigenvector overlap matrix (the B753 CELL-4 object).
+Consultation operator O_pal: congruence level n |-> |(O/n)^x / im(mu_6)|
+(the B737-P3 / B739-Part-0.5 palette).
+
+O_mix(object block, g=RL)              = 0.2763932023
+O_mix(spectrum-matched generic V D V^d) = 0.7080734183   (= sin^2(1) = 0.7080734183)
+O_mix(RL^2-word block, same pipeline)   = 0.1026727639   (also unitary:
+    ||B B^dag - I|| = 5.27e-16; eigenphase root-of-unity orders [2, 6]
+    -- the M2 ambient finite-image mechanism holds on the comparator too,
+    while O_mix separates the words)
+CHECK: Q2 O_mix discriminates object from generic comparator (|0.276393 - 0.708073| > 1e-6): True
+CHECK: Q2 O_mix discriminates object from RL^2-word comparator: True
+O_pal level (2) sister m003       : |(O/n)^x| =  3, |im mu_6| = 3, palette = 1
+O_pal level (4) m004 std          : |(O/n)^x| = 12, |im mu_6| = 6, palette = 2
+O_pal level (8) m004 mod-center   : |(O/n)^x| = 48, |im mu_6| = 6, palette = 8
+CHECK: Q2 O_pal discriminates object (m004 levels (4)/(8) -> palette 2/8) from sister m003 (level (2) -> palette 1): True
+CHECK: palette sizes (1,2,8) == banked (1,2,8) [B737 p3_sister_out.txt:73-75; B739 b739_probe_out.txt:39-44]: True
+Q2 GATE: PASS -- both consultation operators discriminate; the cell proceeds.
+========================================================================================
+PART 1 -- the banked face object reproduced (B753 CELL 1, verbatim pipeline)
+========================================================================================
+B[0,0] = +0.309017+0.425325j   banked B593/B753 element = +0.309017+0.425325j
+CHECK: block reproduces banked B753 CELL-1 value (|diff| = 6.68e-16 < 1e-12): True
+CHECK: block unitary, ||B B^dag - I|| = 8.72e-16 < 1e-12: True
+eigenvalues = +0.309017+0.951057j, +0.309017-0.951057j  (banked: e^{+-i 72 deg})
+========================================================================================
+PART 2 -- the eigenvalue stratum of the face's own quantum object is
+          AMBIENT twice over (members M1 + M2 mechanisms, computed)
+========================================================================================
+ambient construction parameter (banked B238 pipeline): kappa = k + N = 5
+  -> construction cyclotomy q = e^(2 pi i/5) [B238 header: 'the golden
+     cyclotomic field Q(zeta_5)'; B746 F6 grades this cyclotomy IMPORTED]
+CHECK: M1 mechanism on the face object -- |lambda| = 1 by unitarity: True
+CHECK: M2 mechanism on the face object -- eigenvalues are exact 5th roots of unity, |lambda^5 - 1| < 1e-12 both: True
+CHECK: the block itself has finite order 5, ||B^5 - I|| = 4.35e-15 < 1e-12: True
+CHECK: 'golden' in the eigenvalue is the cyclotomic identity 2cos(2pi/5) = 1/phi -- exact ((sqrt5-1)/2)^2 + (sqrt5-1)/2 - 1 = 0 + 0*sqrt5, numeric |diff| = 1.11e-16: True
+  => Re(lambda) = 1/(2 phi) is a theorem of Q(zeta_5) -- the construction
+     field -- not object data.  [B746 F6/F8: zeta_5-cyclotomy IMPORTED;
+     weights FORCED -- the banked grading, re-instantiated by computation]
+
+member-observable battery (M1/M2/M4) -- object vs spectrum-matched comparator:
+  [object g=RL   ] M1 moduli = (1.0, 1.0)
+  [object g=RL   ] M2 root-of-unity orders = [5, 5]
+  [object g=RL   ] M4 phases/pi = (0.4, -0.4); in pi/3-lattice = (False, False)
+  [generic V D V^d] M1 moduli = (1.0, 1.0)
+  [generic V D V^d] M2 root-of-unity orders = [5, 5]
+  [generic V D V^d] M4 phases/pi = (0.4, -0.4); in pi/3-lattice = (False, False)
+CHECK: all three eigenvalue-stratum member observables (M1/M2/M4) identical on object block vs generic comparator: True
+CHECK: while O_mix separates the same two inputs (0.276393 vs 0.708073): True
+  => the five member observables have ZERO discriminating power on the
+     banked face's own quantum object; the object-specific datum the face
+     banks (the mixing entry) is in the EIGENVECTOR stratum, which none
+     of the five members measures.  KILL EXTENDED, column 1.
+========================================================================================
+PART 3 -- the kind-correct face datum is exact and OUTSIDE the members' menu
+========================================================================================
+P(object) = [[0.723607 0.276393]
+ [0.276393 0.723607]]
+CHECK: computed mixing entry satisfies 5p^2 - 5p + 1 = 0 (residual 4.44e-16 < 1e-9): True
+CHECK: exact: p = (5 - sqrt5)/10 = 1/(phi sqrt5) is a root of 5x^2 - 5x + 1 [banked B753 CELL 4: P01 = 0.276393]: True
+CHECK: 0 < p < 1 strictly (0.276393) -- not a modulus (all member-M1 values = 1) and not a root of unity (all member-M2/M4 values have modulus 1): True
+  => the face's object-specific number is of a KIND none of the five
+     member observables produces (B753 CELL 3's own wording: eigenphase-vs-
+     mixing is a category error -- the SAME kill_form as this tombstone).
+========================================================================================
+PART 4 -- member M4 (z0 / k=4 phase match) against the continuous-spectrum face
+========================================================================================
+CHECK: z0 = e^(i pi/3) is the torsion unit zeta_6 = 1 + omega of O_K -- exact: zeta_6^2 - zeta_6 + 1 = (0, 0) in O_K [z^2 - z + 1 = the banked tetrahedron-shape polynomial]: True
+CHECK: ord(zeta_6) = 6 and arg(zeta_6) = 0.333333 pi = pi/3: True
+       mu_6 = <zeta_6> = O_K^x exactly (the 6 powers: [(1, 1), (0, 1), (-1, 0), (-1, -1), (0, -1), (1, 0)])
+CHECK: q_k = e^(2 pi i/(k+2)) lands in mu_6 = mu(K) iff (k+2) | 6 -- scan k = 1..24 gives k in [1, 4], primitive generator only at k in [4]: True
+  => M4's entire phase stratum (multiples of pi/3 = arg z0) is mu_6-valued.
+
+the banked face is defined MODULO exactly this group (computed):
+CHECK: level (4): multiplication by zeta_6 preserves every palette coset (all 12 units, 2 cosets): True
+CHECK: level (8): multiplication by zeta_6 preserves every palette coset (all 48 units, 8 cosets): True
+  [B737 p3_sister_out.txt:72 -- Cl_n = (O/n)^*/image(mu_6); B739
+   b739_probe_out.txt:203-208,311-312 -- the continuous spectrum is the
+   single zeta_K channel, multiplicity exactly 1; no level character occurs]
+  => every character the banked continuous-spectrum face could ever carry
+     is CONSTANT on the zeta_6 phase orbit; the face is structurally blind
+     to M4's observable.  Consulting the face cannot revive M4.
+
+specialness budget (Q6): mu_6 is FIELD data, shared by the sister --
+m003's cusp lattice is O_K itself [B737 p3_sister_out.txt:29-46, j=0,
+hexagonal], with the SAME mu_6; only the palette SIZE separates m004 from
+m003 (2/8 vs 1, PART 0), and that datum is zeta_6-invariant by the coset
+check above.  M4's phase match is field-generic: zero object-discrimination.
+KILL EXTENDED, column 2: 'coincidence, not structure' (B742) is upgraded to
+'mu_6-torsion data, quotiented out of the banked face by definition'.
+========================================================================================
+PART 5 -- novelty + members M3/M5 face-contact scan (computed, not asserted)
+========================================================================================
+  hit: recompute.py:4: B739 Stage-B recompute — TOMB-L63 (speculations/TOMBSTONES.md:L63)
+CHECK: original-kill artifacts contain 1 face-term hit(s), and the single hit is the file's header label 'B739 Stage-B recompute' (a stage name -- no palette/mixing/Eisenstein content anywhere): True
+  => the consultation run here is NEW: the original kill never tested the
+     claim against the banked spectral surface.
+
+  B746 'colored' at FINDINGS.md:25: | F6 quantum/WRT | the hearing conjugation √5→−√5 has its real domain ON
+CHECK: M3/M5 subject terms across the four frozen FINDINGS total 1 hit(s), the sole hit being the 'colored-Jones' domain label in B746's F6 grading row: True
+       (that row's own verdict is 'zeta_5-cyclotomy ... IMPORTED (generic
+       quantum-group, E20)' -- a grading that SUPPORTS the kill; no
+       Kashaev/asymptotic computation exists on the frozen surface.)
+  => the face carries no computation touching M3/M5; those members' kills
+     are untouched (nothing to revive them with; nothing contradicts them).
+========================================================================================
+VERDICT: KILL-EXTENDS
+========================================================================================
+The banked spectral face bears on TOMB-L63 in a way the original kill
+never tested, and it UPHOLDS the kill, adding two computed columns:
+(1) on the face's own quantum object (the B753 theta-odd block, built from
+    the banked SU(3)_2 pipeline, kappa = 5): the eigenvalue stratum is
+    ambient twice over -- moduli 1 by unitarity (M1's mechanism), exact
+    5th-roots-of-unity phases with block order 5 (M2's finite-image
+    mechanism), Re(lambda) = 1/(2 phi) a Q(zeta_5) field identity -- and
+    all three eigenvalue-stratum member observables are IDENTICAL on the
+    object and a spectrum-matched generic comparator, while the banked
+    object-specific datum (the kind-correct mixing entry, root of
+    5x^2 - 5x + 1) lives in the eigenvector stratum that no member
+    observable measures;
+(2) member M4's phase stratum is exactly mu_6 = <z0>, the torsion of O_K --
+    field data shared by the sister m003 -- and the banked continuous-
+    spectrum face is defined modulo mu_6 (palette cosets zeta_6-invariant,
+    computed; continuous channel = zeta_K only, B739), so the face is
+    structurally blind to M4's observable.
+Exactly this and no more: no new bridge is claimed; M3/M5 are untouched by
+the frozen surface (computed scan).  The umbrella stays DEAD; the wall
+gains the two columns above.

@@ -1,0 +1,72 @@
+==============================================================================
+B754/P2 cell TOMB-L334 — the Sym(W)->trace-ring functor wall vs the banked
+spectral face (B737, B739, B746, B753 ONLY)
+==============================================================================
+
+PART A — the kill basis recomputed (C1-C5 scope: roots + theta only)
+------------------------------------------------------------------------------
+CHECK: [A1] [PASS] theta=-w0 on height-2 roots == the reversal sigma(i)=(n-h+1)-i, all n=3..15 (direct root action recomputed, not imported)
+CHECK: [A1] [PASS] height-2 (+1,-1) eigenspace dims = (ceil((n-2)/2), floor((n-2)/2)), n=3..15 — cycle count AND exact rank agree (the tombstone's mult law recomputed)
+CHECK: [A1] [PASS] max height-2 sector multiplicity for n<5 is 1; first n with a multiplicity-2 height-2 sector = 5 — LABELING-INDEPENDENT: no height-2 char factor of EITHER sign reaches mult 2 before n=5
+CHECK: [A1] [PASS] theta-fixed height-2 index exists iff n odd (n=3..15) — the tombstone's parity clause
+CHECK: [A2] [PASS] all heights h=1..n-1, n=3..15: dims = (ceil((n-h)/2), floor((n-h)/2)); totals = n(n-1)/2 — the closed form of the evidence_quote recomputed
+
+  [A3] kill-basis status, re-examined at source (B112_closed_form_proof/
+       FINDINGS.md status relabel, three tiers): Tier 1 (the ceil/floor
+       eigenspace DIMS, all n) is the proved theorem and is what PART A
+       recomputes; the char(M^h)-vs-char(-M^h) LABELING is tower-verified
+       n<=5 with the B118 fixed-root sign (-1)^(h+1) caveat for even h.
+       The kill's operative content — no mult-2 height-2 sector of any
+       sign before n=5, attainment at n=5 — needs only Tier 1 plus the
+       n<=5-verified labeling range. The 'PROVED for all n' evidence_quote
+       is thereby refined, and the kill survives the refinement.
+CHECK: [A3] [PASS] the finite-level obstruction (nothing of dim 2 at height 2 before n=5) rests on Tier-1 dims (recomputed above) + labeling inside its verified range n<=5
+CHECK: [A4] [PASS] seed charpoly t^2-3t+1, disc 5 (banked B746 F1: kappa_seed=3 => disc 5)
+CHECK: [A4] [PASS] char(M^2) = t^2 - 7t + 1 (tr M^2 = 7 = L_4), disc 45 = 3^2*5, squarefree part 5 — the height-2 sector char factors split over Q(sqrt5): a GOLDEN-column object (char(-M^2) = t^2+7t+1 has the same disc 45)
+
+PART B — Gate 5-Q Q2: the consultation operator CONSULT(X)
+------------------------------------------------------------------------------
+  CONSULT(X) := ( m_cont(X) = banked continuous-channel multiplicity,
+                  palette chain |(O/2^k)^x / im(mu_6)| along the 2-adic
+                    congruence filtration (2) c (4) c (8)  [E23: named],
+                  N_excl(X) = nontrivial palette classes available at X's
+                    banked level that rigidity must exclude,
+                  (disc, h) of X's banked cusp CM order,
+                  golden-prime presence in X's banked voice invariants )
+  Consulted against the claim: can the emittance face host / reindex a
+  multiplicity-2, Q(sqrt5)-split height-2 sector?
+
+  |(O/2)^x| = 3, palette |(O/2)^x / im(mu_6)| = 1
+  |(O/4)^x| = 12, palette |(O/4)^x / im(mu_6)| = 2
+  |(O/8)^x| = 48, palette |(O/8)^x / im(mu_6)| = 8
+CHECK: [B1] [PASS] palette chain (1, 2, 8) at levels (2), (4), (8) — recomputed exactly (matches B737 p3_sister_out.txt PART[5] and B739 b739_probe_out.txt PART 0.5)
+CHECK: [B2] [PASS] N_excl(m004) = 1 at level (4), 7 at level (8) (m004's banked levels, B737-P3); N_excl(m003) = 0 at m003's level (2) — CONSULT DISCRIMINATES: the rigidity consultation is CONTENTFUL for the object (7 available classes to exclude) and VACUOUS for the sister (nothing available)
+CHECK: [B3] [PASS] cusp-order trace-form discs: m004 -> -48 (h(-48) = 2 by reduced-forms enumeration), m003 -> -3 (h(-3) = 1) — CONSULT DISCRIMINATES on the cusp CM component (conductor-4 order vs maximal)
+CHECK: [B4] [PASS] prime support of EVERY banked voice invariant = [2, 3]; the golden prime 5 is ABSENT (B746 spot-check S4 recomputed) — vs the height-2 sector's disc 45 where 5 is PRESENT
+
+  Q2 VERDICT: CONSULT(m004) = (1, (1,2,8), N_excl={1,7}, (-48, h=2), 5-absent)
+              CONSULT(m003) = (1, (1,..), N_excl={0},   (-3,  h=1), --)
+  The outputs DIFFER in three computed components (N_excl 7 vs 0; cusp order
+  -48/h=2 vs -3/h=1; palette chain depth). Honest note: m_cont = #cusps = 1
+  alone would NOT discriminate (both are one-cusped); the discrimination
+  rests on the palette / cusp-order components — exactly the components that
+  make B739's rigidity a nontrivial theorem about THIS object. Q2 PASS.
+CHECK: [Q2] [PASS] the consultation operator discriminates the object from the sister comparator (computed, not asserted); the cell does not stop at Q2
+
+PART C — the revival hypothesis consulted against the banked face
+------------------------------------------------------------------------------
+  B' revival_hypothesis (sealed record): 'the ceil((n-2)/2) rep-tower law
+  never met the emittance spectrum; the congruence tower could reindex the
+  height-2 sector.' The original kill was arithmetic-only (faces_consulted
+  = none). The frozen surface now answers three of its load-bearing steps:
+
+CHECK: [C1] [PASS] CAPACITY: the banked continuous emittance channel has multiplicity 1 (= #cusps; B739 b739_probe_out.txt PART C L184-208, source-verified there at two primary documents) < 2 = the sector's multiplicity from n=5 on (PART A). A single-channel voice cannot host ANY multiplicity-2 sector at any n.
+CHECK: [C2] [PASS] COLUMN: the height-2 sector is Q(sqrt5)-split (disc 45, PART A4) while every banked voice invariant has prime support in {2,3} (PART B4) and the continuous channel carries the zeta_K-quotient of K = Q(sqrt-3) ONLY (B739 FINDINGS L8-16; B746 F11: zero golden markers in the voice; the two-column law: gait transmits, name does not). The sector's field never appears in the banked voice.
+CHECK: [C3] [PASS] MECHANISM: the congruence-level reindexing resource the revival names IS the palette (1,2,8 recomputed, PART B1) along the named 2-adic filtration — and B739 proves the continuous channel excludes ALL of it (Fourier support locked to O^v: b739_probe_out.txt L81 and L283; 'NO conductor-(4)/(8) Hecke character appears ANYWHERE' L327). The reindexing route is CLOSED for the continuous channel; the level's arithmetic lives only in the discrete newform spectrum.
+CHECK: [C4] [PASS] GAIT SIDE: B753's kind-correct mixing identity |B00|^2 = 1 - phi/sqrt5 = 1/(phi sqrt5) = (5-sqrt5)/10 verified EXACTLY in Q(sqrt5), and cos72 = 1/(2 phi) exactly — the one banked 2-dim theta-odd spectral block (B753 output.txt L11/L27/L29) is unitary with GOLDEN eigenphases e^{+-i72}, and it lives on the weld/gait side, NOT in the emittance channel: mult-2 theta-structure, where the program has actually banked it, sits in the golden column — consistent with C2.
+CHECK: [C4b] [PASS] B753's banked eigenvalues match e^{+-i 72deg} to the printed 6 digits; cos(72deg) = (sqrt5-1)/4 to 1e-15 (float cross-check of the exact identity)
+
+==============================================================================
+CHECK: [VERDICT] [PASS] KILL-EXTENDS — exactly what was computed: (i) the kill basis recomputed (mult at height 2 = ceil((n-2)/2), first mult-2 sector at n=5, theta-fixed index iff n odd; labeling-independent for n<5); (ii) the height-2 sector is Q(sqrt5)-split (disc 45); (iii) the banked emittance face offers exactly ONE continuous channel (mult = #cusps = 1), character-rigid (all 7 available nontrivial palette classes at the object's level excluded), with prime support {2,3} in every banked voice invariant. The reindexing mechanism the revival hypothesis names (the congruence-level palette) is the exact resource B739 excludes from the continuous channel. The wall gains a spectral column: the functor cannot reach the mult-2 char(M^2) sector before n=5 (algebra, recomputed), AND the object's continuous emittance face can neither host nor reindex ANY mult-2 sector at any n (capacity 1 < 2; field disjoint; mechanism closed). Scope: the CONTINUOUS channel only — the discrete newform spectrum is the frozen surface's own named remainder (B739 honest-bounds; B746 door 2, owner-gated), not an opening this cell can compute or needs for the verdict.
+
+ALL CHECKS PASS: True

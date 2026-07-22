@@ -1,0 +1,113 @@
+==============================================================================
+TOMB-L70 P2 cell: spectral face vs. roots-of-unity tautology kill
+==============================================================================
+
+--- SECTION 1: Q2 discriminator (disc of Alexander polynomial) ---
+  m004: kappa = 3, disc(t^2 - 3t + 1) = 3^2 - 4 = 5
+  CHECK: disc(Alexander, m004) = 5 (golden)
+
+  Comparator: kappa = 1, disc(t^2 - 1t + 1) = 1^2 - 4 = -3
+  CHECK: disc(Alexander, comparator kappa=1) = -3 (Eisenstein, NOT golden)
+
+  Additional comparators:
+    kappa=0: disc = -4, golden: no
+    kappa=2: disc = 0, golden: no
+    kappa=4: disc = 12, golden: no
+    kappa=5: disc = 21, golden: no
+
+  CHECK: Q2 PASSES -- disc(m004)=5 vs disc(comparator)=-3; operator discriminates
+
+--- SECTION 2: B753 eigenphases as roots of unity ---
+  phi = (1+sqrt(5))/2 = 1.618033988749895
+  cos(72 deg) = 0.309016994374947
+  1/(2*phi)   = 0.309016994374947
+  difference  = 5.55e-17
+  CHECK: cos(72 deg) = 1/(2*phi), verified to 6e-17
+
+  72 deg / 360 deg = 0.2 = 1/5
+  => e^{i*72 deg} = e^{i*2*pi/5} is a primitive 5th root of unity
+
+  (e^{i*72 deg})^5 = 1.000000000000000 + -0.000000000000000i
+  |z^5 - 1| = 1.57e-16
+  CHECK: B753 eigenphase e^{i*72 deg} has order 5 (5th root of unity)
+
+  Eigenphase order = 5
+  disc(Alexander)  = 5
+  Both equal 5: the classical root-of-unity order is linked to the golden disc
+  CHECK: eigenphase order 5 = disc(Alexander) 5 -- golden structural, not quantum tautological
+
+--- SECTION 3: quantum level k=3 gives the SAME cyclotomic order, generically ---
+  At quantum level k=3: q = exp(2*pi*i/(k+2)) = exp(2*pi*i/5)
+  q_angle = 72.0 deg = 2*pi/5
+  q is a primitive 5th root of unity
+  q^5 = 1.000000000000000 + -0.000000000000000i
+  |q^5 - 1| = 1.57e-16
+
+  CRITICAL: q = exp(2*pi*i/5) at level k=3 for EVERY manifold.
+  The quantum roots-of-unity order at k=3 is 5, same as B753's
+  classical eigenphase order, but from a DIFFERENT mechanism:
+    Classical: disc(Alexander) = 5 -> golden structure -> order 5 [FORCED, object-specific]
+    Quantum:   q = exp(2*pi*i/(k+2)) at k=3 -> order 5 [IMPORTED, generic]
+  CHECK: quantum order 5 = classical eigenphase order 5 -- same order, independent mechanisms
+
+--- SECTION 4: comparator lacks the golden eigenphase ---
+  Comparator (kappa=1): Alexander = t^2 - t + 1
+  Roots: e^{+/-i*60 deg} = e^{+/-i*pi/3}
+  cos(60 deg) = 0.500000000000000 = 1/2 (NOT 1/(2*phi))
+  Root order = 6 (6th root of unity, NOT 5th)
+  (e^{i*60 deg})^6 = 1.000000000000000 + -0.000000000000001i, |z^6-1| = 8.62e-16
+
+  m004 eigenphase order:       5 (from disc 5)
+  Comparator eigenphase order: 6 (from disc -3)
+  CHECK: eigenphase orders differ (5 vs 6); the golden 5th-root is object-specific
+
+--- SECTION 5: B746 F11 -- spectral voice is pure being-field ---
+  B746 F11 (verified at FINDINGS.md line 30):
+    Voice = NONE (zero golden markers in the banked voice artifacts B737/B739)
+    phi(s) = Lambda_K(s-1)/Lambda_K(s) over K = Q(sqrt(-3))
+    Cusp CM disc -48 = -2^4 * 3 (factor 5 absent)
+    disc_cusp = -48, divisible by 5: False
+  CHECK: voice carries zero golden (5-linked) markers -- the spectral channel
+         where roots-of-unity could be a 'signal' is pure being-field
+
+  B739 (verified at FINDINGS.md lines 3-14):
+    Continuous spectrum is character-rigid: carries ONLY zeta_K
+    NO conductor-(4)/(8) Hecke characters in the continuous spectrum
+    The cyclotomic/root-of-unity content of the voice = 0
+  CHECK: B739 character rigidity -> no root-of-unity signal in the voice
+
+--- SECTION 6: the two-column separation extends the kill ---
+
+  B746 two-column law (verified at FINDINGS.md lines 36-44):
+    GAIT column (golden/dynamical): monodromy, dilatation, Alexander, eigenphases
+    VOICE column (Eisenstein/being): trace field, volume, cusp, scattering
+
+  The killed claim: 'finite-k eigenvalues are roots of unity = a discovered signal'
+  B746 F6: quantum cyclotomy = IMPORTED (generic quantum-group, E20)
+           -> 'discovered signal' reading is dead via the spectral-face grading
+
+  The classical eigenphases (B753): roots of unity at order 5
+           -> arise from golden structure (disc 5), FORCED, object-specific
+           -> a DIFFERENT phenomenon from the quantum tautology
+
+  The voice (B737/B739/B746 F11): zero golden/cyclotomic markers
+           -> the spectral channel has no root-of-unity signal at all
+
+  EXTENSION: the spectral face independently confirms the kill through three routes:
+    (a) B746 F6: quantum cyclotomy graded IMPORTED (= tautological)
+    (b) B753: classical roots-of-unity are golden-structural, not quantum-discovered
+    (c) B746 F11 + B739: the voice carries no root-of-unity signal
+  The wall gains a column: the original kill said 'tautological'; the spectral face
+  adds 'and the two-column law confirms it -- cyclotomy is IMPORTED, the voice is
+  root-of-unity-free, and the only roots-of-unity in the classical spectrum (B753)
+  are golden-structural, not quantum-discovered.'
+
+==============================================================================
+CHECK: VERDICT = KILL-EXTENDS
+  The spectral face (B746 F6, B753, B746 F11, B739) independently confirms
+  the tautology kill through the two-column grading: quantum cyclotomy = IMPORTED,
+  classical eigenphases = FORCED golden, voice = root-of-unity-free.
+  The claim that roots-of-unity at finite k is a 'discovered signal' is dead from
+  two independent directions: the original construction argument AND the spectral
+  face's IMPORTED grading + two-column separation.
+==============================================================================

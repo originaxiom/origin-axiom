@@ -1,0 +1,129 @@
+SKEPTIC REPORT — TOMB-L277 (verdict: FACE-OPENS)
+OUTCOME: REFUTED — the gap is trivially closable; correct verdict is KILL-EXTENDS.
+
+================================================================================
+THE CLAIM UNDER ATTACK
+================================================================================
+The cell declares FACE-OPENS, asserting a GAP: the frozen surface evaluated the
+weld block at only 1 word (B753: g=RL), and the full weld-block-trace census over
+the 37 conjugacy classes of the 2880 image "does not exist in the banked record."
+The opens_spec asks: is golden-magnitude weld-block-trace common (kill extends) or
+seed-special (revival candidate)?
+
+================================================================================
+THE ATTACK: COMPUTE THE CENSUS THE CELL REFUSED TO COMPUTE
+================================================================================
+The cell already had ALL the machinery to answer its own opens_spec:
+  - PART 1 builds the full 2880 image and its 37 conjugacy classes
+  - PARTS 3/6 build the weld-block function theta_odd_block(M6) from B753's pipeline
+  - The census requires iterating theta_odd_block over 37 class representatives
+
+The extension is a for-loop over class representatives (code: ~10 lines; runtime:
+~10 seconds). The skeptic ran it.
+
+================================================================================
+PRELIMINARY: TWO STRUCTURAL FINDINGS
+================================================================================
+1. |tr_weld| IS A CLASS FUNCTION despite complex tr_weld varying within classes.
+   Within the seed's class alone, the complex weld-block trace takes 10 distinct
+   values (phases differ), but ALL have |tr| = 0.618034 = 1/phi exactly. Verified
+   for all 2880 elements across all 37 classes: max magnitude spread within any
+   class < 1e-8.
+
+2. |tr_weld| IS KERNEL-INVARIANT. 5760 kernel tests (all 2880 elements x 2
+   generators), 0 magnitude violations. The magnitude is well-defined on the 2880
+   image even though the full SU(3)_2 block is not (311 kernel violations where
+   different SL(2,Z) words give different SU(3)_2 blocks, but identical |tr_weld|).
+
+   => The 37-class census IS well-posed for the golden-MAGNITUDE question.
+
+================================================================================
+THE CENSUS RESULT
+================================================================================
+  class  0 (size    1): |tr_weld|=2.000  golden=False
+  class  1 (size  180): |tr_weld|=0.000  golden=False
+  class  2 (size   72): |tr_weld|=0.618  golden=True
+  class  3 (size  160): |tr_weld|=1.000  golden=False
+  class  4 (size   72): |tr_weld|=1.618  golden=True
+  class  5 (size   72): |tr_weld|=1.618  golden=True
+  class  6 (size   96): |tr_weld|=0.618  golden=True   <-- SEED
+  class  7 (size   12): |tr_weld|=0.618  golden=True
+  class  8 (size  240): |tr_weld|=1.000  golden=False
+  class  9 (size    6): |tr_weld|=2.000  golden=False
+  class 10 (size  240): |tr_weld|=0.000  golden=False
+  class 11 (size   72): |tr_weld|=0.618  golden=True
+  class 12 (size  120): |tr_weld|=1.000  golden=False
+  class 13 (size   72): |tr_weld|=1.618  golden=True
+  class 14 (size  120): |tr_weld|=1.000  golden=False
+  class 15 (size   96): |tr_weld|=1.618  golden=True   <-- SU2-GOLDEN (+phi)
+  class 16 (size   12): |tr_weld|=1.618  golden=True
+  class 17 (size  144): |tr_weld|=1.618  golden=True
+  class 18 (size  180): |tr_weld|=0.000  golden=False
+  class 19 (size  144): |tr_weld|=0.618  golden=True
+  class 20 (size   90): |tr_weld|=0.000  golden=False
+  class 21 (size   96): |tr_weld|=1.618  golden=True   <-- SU2-GOLDEN (-phi)
+  class 22 (size   20): |tr_weld|=1.000  golden=False
+  class 23 (size  160): |tr_weld|=1.000  golden=False
+  class 24 (size    6): |tr_weld|=2.000  golden=False
+  class 25 (size   72): |tr_weld|=0.618  golden=True
+  class 26 (size    8): |tr_weld|=2.000  golden=False
+  class 27 (size   12): |tr_weld|=1.618  golden=True
+  class 28 (size  120): |tr_weld|=1.000  golden=False
+  class 29 (size   30): |tr_weld|=0.000  golden=False
+  class 30 (size   96): |tr_weld|=0.618  golden=True   <-- SU2-GOLDEN (+1/phi)
+  class 31 (size   12): |tr_weld|=2.000  golden=False
+  class 32 (size    6): |tr_weld|=2.000  golden=False
+  class 33 (size   12): |tr_weld|=0.618  golden=True
+  class 34 (size   20): |tr_weld|=1.000  golden=False
+  class 35 (size    8): |tr_weld|=2.000  golden=False
+  class 36 (size    1): |tr_weld|=2.000  golden=False
+
+TOTALS:
+  16/37 classes (43%) have golden-magnitude weld-block trace
+  1152/2880 elements (40%) have golden-magnitude weld-block trace
+  8 classes with |tr|=1/phi, 8 classes with |tr|=phi
+  ALL FOUR SU2-golden classes are in the golden-weld set
+  Golden-weld does NOT separate seed from other golden classes
+
+================================================================================
+WHY THIS REFUTES FACE-OPENS
+================================================================================
+The opens_spec explicitly defines the discriminator:
+  "golden-block-trace rate + whether it separates seed from other 3 golden classes"
+  "what-an-answer-changes: rare+seed-only -> revival candidate; common -> kill extends"
+
+The answer is: COMMON (16/37 = 43% of classes; 40% of elements) and NOT seed-separating
+(all 4 SU2-golden classes have golden weld trace). This is the "kill extends" outcome.
+
+The cell's 3-word sample (RL golden; RRL, RLL not golden) was misleading because:
+  - The 3 words happen to straddle the golden/non-golden boundary
+  - RRL and RLL have |tr_weld| = 1.000 (Eisenstein-unit), one of only 4 magnitude values
+  - The cell correctly warned that 3 words are not a census -- but then stopped instead
+    of running the census it could trivially compute
+
+The cell had the infrastructure in PART 1 (all 37 classes) and PARTS 3/6 (weld block
+construction). The missing computation is a for-loop over 37 class representatives,
+adding ~10 lines of code and ~10 seconds of runtime.
+
+================================================================================
+ADDITIONAL FINDING: THE CELL'S DESCENT TEST WAS DANGEROUSLY THIN
+================================================================================
+The cell tested descent with 1 pair (RL and RL*S^2) and found blocks identical. But:
+  - 311/5760 generator applications hit SU(3)_2 kernel violations (||M6_new - M6_old|| > 0)
+  - The full theta-odd BLOCK is NOT kernel-invariant (block_diff > 0 in many cases)
+  - Only the trace MAGNITUDE is kernel-invariant (0/5760 magnitude violations)
+  - The cell's single-pair test happened to hit a pair where even the full block agreed
+
+The cell's characterization "descent NOT REFUTED" is technically true for its 1 pair
+but profoundly misleading about the general picture. Descent DOES fail for the full
+block; it only holds for the magnitude.
+
+================================================================================
+CHECKS VERIFIED
+================================================================================
+- Reran compute.py: 20/20 checks pass (reproduced identically)
+- Golden-free grep in B737/B739: confirmed 0 hits
+- B753 pipeline: same B238 import, same theta_odd_block construction
+- Full 37-class census: computed using cell's own infrastructure
+- |tr_weld| class-constancy: verified for all 2880 elements
+- |tr_weld| kernel-invariance: verified for 5760 generator applications
