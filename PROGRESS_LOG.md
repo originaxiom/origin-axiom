@@ -7359,3 +7359,20 @@ B500 exploratory set backed up to scratch pending its run's end; (7) the untrack
 .github/workflows/core.yml identified (a minimal proven-core CI draft, 2026-07-17,
 intentionally untracked per the tracked-forbidden gate) and Archive.zip identified (a
 June-era snapshot zip — inert). Full suite running; result closes the sweep.
+
+## 2026-07-22 — THE THIRD PASS (trust-architecture lenses) — four finds, all fixed
+The owner wondered what another run would give; the answer: the classes the first two
+passes could not see, because they audited state and tooling while the trust CHAIN itself
+was untested. (1) MUTATION TESTING (do locks fire?): sample of 2 — the chain lock fired;
+the B747 census lock DID NOT (it pinned a PREFIX of the verdict line; the unresolved-count
+was corruptible undetected). New defect class named: PREFIX-NARROW LOCKS. Fixed (full
+tally + straggler line pinned; mutation retest fires). (2) SINGLE-COPY INVENTORY: the
+relay dir — 193 files, the entire cross-seat constitutional record — lived in NO git;
+the memory dir likewise. Both now locally git-versioned (integrity without publication)
++ a tar snapshot. (3) THE FORENSIC-DEPENDENCY FIND: B759/B760's seal-first proofs rested
+on 81MB of prunable session transcripts OUTSIDE the bank — the proofs are now banked
+in-arc as FORENSIC_SEAL_RECORD.md files (the git-blob-hash verification and the
+reconstruction identity, durable). (4) Environment pins verified consistent (sympy 1.14.0
+== REPRODUCIBILITY). Standing lesson: reviews gain a sampled mutation test (2 locks per
+review, restore-after) — proposed for the next template revision. The suite (pass 1's
+one open box) still runs.
