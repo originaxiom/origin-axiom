@@ -1269,3 +1269,8 @@ a sealed enum — UNIFIED-3: no basepoint (×8), no bandwidth (×3), no
 name-transmission (×2), nothing unclassifiable. The exact lackness: the
 object provides the group, never the choice; the structure, never the
 variation; the gait, never the name. The observer is the complement.
+
+THE ITERATED-HEARING ADJUDICATION (B751): the incoming 1/(2φ³)=α_s claim
+run through the defensive lane — arithmetic exact, identification NOT
+EARNED (constructed assignment; running-coupling knob; null-consistent
+base rate; n=2 gap). Hint recorded, door named, stopping rule stands.

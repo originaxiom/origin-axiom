@@ -7098,3 +7098,20 @@ boundary; the observer is the exact complement (picks points, reads the channel,
 name). Falsification edges declared (X; c-into-θ flips T4/T6; QP-2 populates P). Assembly
 arc — no new math beyond citations (all paths lock-verified). Locks test_b750 (4). Nothing
 to CLAIMS.
+
+## 2026-07-22 — B751: the iterated-hearing claim adjudicated — arithmetic TRUE, identification NOT EARNED
+Owner-directed adjudication (B655 defensive pattern; the stopping rule untouched) of the
+incoming "1/(2φ³) = α_s" claim, prereg cd550335 sealed pre-compute. Cells: (1) arithmetic
+TRUE — the b-density 1/φ² is the forced Perron limit and the product identity is exact;
+(2) the assignment CONSTRUCTED — no banked per-letter hearing weight exists; the banked
+B593 amplitude is COMPLEX word-level (|amp|=0.5257) and the claim silently drops
+i·sin(2π/5)/√5 = 0.4253; (3) the target KNOB-DEPENDENT — α_s runs 0.173→0.088 across the
+scale dial with no object-side pin at M_Z; (4) base-rate NULL-CONSISTENT — 2 hits (the
+claim's own two) vs 0.75 expected, Poisson p=0.17, and the 1/(2φⁿ) pattern skips n=2
+(0.1910 is 15% from every target: target-shopping signature); instrument dedup fix logged
+(1/(2φⁿ)≡φ⁻ⁿ/2 double-count); (5) the Fox iteration NEEDS-DEFINITION. Verdict per the
+sealed template: NOT EARNED (2,3,4 fail independently); recorded as H-ITERATED-HEARING in
+HINT_LEDGER beside H-TUROK — not buried, not promoted; the one honest door stated
+constructively (derive a per-letter weight from B593's complex structure + an object-side
+scale pin, then owner + L91 functor + full checklist). Locks test_b751 (4). Gate 5 intact;
+nothing to CLAIMS.
