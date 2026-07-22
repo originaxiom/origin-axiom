@@ -35,3 +35,11 @@ def test_door2_five_inert_in_the_recomputed_fields():
         fac = sp.factor_list(poly, modulus=5)
         degs = sorted(sp.Poly(f, x).degree() for f, m in fac[1] for _ in range(m))
         assert degs == [deg]                            # totally inert at 5
+
+
+def test_addendum_m51_field_reading_and_lucas_family():
+    t = sp.symbols("t")
+    assert sp.discriminant(t**2 - 7 * t + 1, t) == 45          # 5 * 3^2 -> Q(sqrt5)
+    phi4 = ((1 + sp.sqrt(5)) / 2) ** 4
+    assert sp.simplify(phi4**2 - 7 * phi4 + 1) == 0            # dilatation phi^4
+    assert sp.discriminant(t**2 - 8 * t + 1, t) == 60          # squarefree 15, non-golden
