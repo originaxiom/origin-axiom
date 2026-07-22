@@ -29,7 +29,7 @@ from fractions import Fraction as Fr
 import numpy as np
 import sympy as sp
 
-REPO = "/Users/dri/oa-seat-cc2/origin-axiom"
+REPO = "<cc2-seat>/origin-axiom"
 B637 = os.path.join(REPO, "frontier", "B637_corrected_cell3")
 
 mod = {"__name__": "b637_module", "__file__": os.path.join(B637, "b637_threeform.py")}

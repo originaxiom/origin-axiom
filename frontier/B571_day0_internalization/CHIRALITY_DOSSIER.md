@@ -100,15 +100,15 @@ Trace the dynamical residue (−1)^((N−1)/2) — carried by the orientation do
 ---
 
 ## Source files (all absolute)
-- `/Users/dri/origin-axiom/frontier/B470_reflection_campaign/FINDINGS.md` — chiral limbs / amphichiral body, CS towers, RF3 residue rhythm
-- `/Users/dri/origin-axiom/frontier/B356_sigma_stability_scan/FINDINGS.md` — chirality-window = Eisenstein ω, reality theorem, det-lemma
-- `/Users/dri/origin-axiom/frontier/B469_breath_campaign/FINDINGS.md` — orientation ℤ/2 residue = norm of the scale, orientation double cover
-- `/Users/dri/origin-axiom/frontier/B568_own_questions/RESULTS.md` — Q2 arrow (each rung +1 bit); + `PROGRESS_LOG.md:3254` σ̄≠σ, D_KL≈12 bits, 4 forbidden bigrams
-- `/Users/dri/origin-axiom/frontier/B565_gauge_behavior_campaign/RESULTS.md` — T3 chiral index ≡ 0, H1 real-form theorem, two-faces split
-- `/Users/dri/origin-axiom/frontier/B565_gauge_behavior_campaign/realform_adjoint_traces.py` — the non-real adjoint trace + Jordan-type reproducer
-- `/Users/dri/origin-axiom/frontier/B569_complete_chain/FINDINGS.md` — 26 of F₄ self-dual ⇒ vector-like for every subgroup; Z=+1 correction
-- `/Users/dri/origin-axiom/docs/THEOREM_REGISTRY.md` — T-θTANGENT (amphichiral involution = θ = Out E₆), T-MIRROR
-- `/Users/dri/origin-axiom/PROGRESS_LOG.md` — PC25 (real-form theorem), B303 (CP sign = CS-clock sign = arrow), Door-2 amphichirality-allows-not-forces
+- `frontier/B470_reflection_campaign/FINDINGS.md` — chiral limbs / amphichiral body, CS towers, RF3 residue rhythm
+- `frontier/B356_sigma_stability_scan/FINDINGS.md` — chirality-window = Eisenstein ω, reality theorem, det-lemma
+- `frontier/B469_breath_campaign/FINDINGS.md` — orientation ℤ/2 residue = norm of the scale, orientation double cover
+- `frontier/B568_own_questions/RESULTS.md` — Q2 arrow (each rung +1 bit); + `PROGRESS_LOG.md:3254` σ̄≠σ, D_KL≈12 bits, 4 forbidden bigrams
+- `frontier/B565_gauge_behavior_campaign/RESULTS.md` — T3 chiral index ≡ 0, H1 real-form theorem, two-faces split
+- `frontier/B565_gauge_behavior_campaign/realform_adjoint_traces.py` — the non-real adjoint trace + Jordan-type reproducer
+- `frontier/B569_complete_chain/FINDINGS.md` — 26 of F₄ self-dual ⇒ vector-like for every subgroup; Z=+1 correction
+- `docs/THEOREM_REGISTRY.md` — T-θTANGENT (amphichiral involution = θ = Out E₆), T-MIRROR
+- `PROGRESS_LOG.md` — PC25 (real-form theorem), B303 (CP sign = CS-clock sign = arrow), Door-2 amphichirality-allows-not-forces
 
 **Tier legend used:** THEOREM = proven/standard Lie theory; COMPUTED = in-sandbox verified + locked; OPEN = the Q-A/Q-B/Q-C next steps; SPECULATIVE = none banked here (the reframe is treated as a *hypothesis to test*, correctly placed, not crossed).
 

@@ -102,4 +102,4 @@
      observation.
 
   total runtime 246.2s
-  wrote /Users/dri/origin-axiom/frontier/B666_leads_campaign/cellW33/cellW33_doublet_streams.json
+  wrote frontier/B666_leads_campaign/cellW33/cellW33_doublet_streams.json

@@ -1,7 +1,7 @@
 # SUMMIT DOSSIER §6 — THE THEOREM INVENTORY
 ### Independent pre-publication verification pass over the hearing-side and chord-side rows of `docs/LAW_MAP.md`
 
-**Scope.** Source repo: `/Users/dri/oa-seat-cc2/origin-axiom` (READ-ONLY; nothing was modified there).
+**Scope.** Source repo: `<cc2-seat>/origin-axiom` (READ-ONLY; nothing was modified there).
 Primary document audited: `docs/LAW_MAP.md` (149 lines, sections A–E). `CLAIMS.md` was checked as the
 project's formal promotion ledger — cross-referenced where relevant (none of the audited LAW_MAP rows
 are yet promoted to `CLAIMS.md`; they are frontier-tier by design, so `CLAIMS.md`'s own proven/conditional

@@ -6,7 +6,7 @@ import json
 
 files = ["singles_1215.json", "singles_1215_p3.json", "singles_1215_p456.json",
          "singles_1215_p7_10.json", "singles_1215_p11_20.json", "singles_1215_p14_20.json"]
-BASE = "/Users/dri/oa-seat-cc2/origin-axiom/frontier/B399_wall_scale/"
+BASE = "<cc2-seat>/origin-axiom/frontier/B399_wall_scale/"
 DATA = {}
 for f in files:
     try:

@@ -1999,7 +1999,7 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
   the cc gate (B759–B762, #1266: INTEGRATED / NO-HATCH / FLAT / QUINE); the chain updated
   (C18 priced, C19 the discriminant law); the composite: a transparent self-naming speaker
   that cannot choose
-- [ ] R28-9 (added by the fourth-pass audit): the path-topology sweep — strip /Users/…
+- [ ] R28-9 (added by the fourth-pass audit): the path-topology sweep — strip home-dir …
   paths from the ~122 non-sealed tracked text artifacts (sealed outputs keep theirs with
   the redaction-record pattern where warranted); extend the path-hygiene lock beyond .py
   (owner: cc)

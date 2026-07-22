@@ -5,14 +5,14 @@ sector order must divide the CSP bound ord(A1 mod ord T_k) (else FLAG — would
 contradict congruence); multiplicities integer to 1e-30, nonneg, sum=dim;
 character at j=1 must equal the banked sector traces."""
 import sys, json
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/level_ladder_campaign/scripts')
+sys.path.insert(0, '<cc2-seat>/seat-work/level_ladder_campaign/scripts')
 import numpy as np
 import mpmath as mp
 from engine import Level, enumerate_level_weights, theta_split, weyl_group, HVEE
 
 mp.mp.dps = 50
-OUTDIR = '/Users/dri/oa-seat-cc2/seat-work/next_queue/n1_counting'
-NPZ = '/Users/dri/oa-seat-cc2/seat-work/level_ladder_campaign/outputs/level%d_blocks.npz'
+OUTDIR = '<cc2-seat>/seat-work/next_queue/n1_counting'
+NPZ = '<cc2-seat>/seat-work/level_ladder_campaign/outputs/level%d_blocks.npz'
 BANKED_Z = {1: 1, 2: 1, 3: 1, 4: 0, 5: 1, 6: 1, 7: 2}
 BANKED_SECT = {1: (1, 0), 2: (1, 0), 3: (0, 1), 4: (0, 0), 5: (0, 1), 6: (1, 0), 7: (1, 1)}
 CSP_BOUND = {1: 12, 2: 24, 3: 60, 4: 12, 5: 36, 6: 36, 7: 36}   # ord(A1 mod ordT), n2 table

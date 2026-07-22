@@ -6,8 +6,8 @@ odd block is REDUCIBLE = chi' (+) sigma with chi' an A1-blind character carrying
 mod-4 conductor part and sigma a 2-dim constituent whose own conductor drives the
 k>=3 law (ord(A1 mod 21) = 8, split-7 kill -> 4 = banked clock)."""
 import sys
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/level_ladder_campaign/scripts')
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/veins/v7_conduit')
+sys.path.insert(0, '<cc2-seat>/seat-work/level_ladder_campaign/scripts')
+sys.path.insert(0, '<cc2-seat>/seat-work/veins/v7_conduit')
 import mpmath as mp
 from engine import Level, weyl_group
 from engine_v7 import An_Level

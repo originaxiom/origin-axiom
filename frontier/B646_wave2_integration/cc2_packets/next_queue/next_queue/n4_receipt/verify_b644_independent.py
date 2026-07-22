@@ -20,7 +20,7 @@ import sys
 
 import mpmath as mp
 
-sys.path.insert(0, "/Users/dri/oa-seat-cc2/seat-work/veins/v7_conduit")
+sys.path.insert(0, "<cc2-seat>/seat-work/veins/v7_conduit")
 from engine_v7 import An_Level  # noqa: E402
 
 mp.mp.dps = 50

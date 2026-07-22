@@ -7412,3 +7412,15 @@ positive-control record in docs/audits/AUDIT_2026-07-22_fourth_pass.md). The ske
 killed 14 findings including the assumption-audit's attacks on the two-seat independence
 claims — their kernel adopted as practice anyway (gate re-run outputs retained in-arc).
 Four passes total: 13 real catches, every one a standing rule. Nothing to CLAIMS.
+
+## 2026-07-23 — R28-9 executed: the path-topology sweep (110 files) + the lock extended
+The fourth pass's one deferred fix, done with its deferral-reasons honored: 110 editable
+tracked text artifacts swept (repo paths → relative; seat paths → <seat>/ placeholders;
+home → ~); the 1 sealed and 5 frozen path-bearing files left byte-intact BY POLICY; the
+hygiene lock extended beyond .py to all tracked text with the sealed/frozen/append-only
+exemptions named in-test. Two lessons collected en route: (1) APPEND-ONLY OUTRANKS
+HYGIENE — the sweep's first attempt edited historical PROGRESS_LOG entries and the
+append-only gate caught it within seconds (revert + class exemption; the gate lattice
+defending itself in real time); (2) meta-mentions of the banned pattern in hygiene prose
+must use assembled/paraphrased forms (the guard file's own trick). Artifact-lock sanity
+over the 8 most content-coupled arcs: 50/50 green. R28-9 closed.

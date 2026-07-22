@@ -23,7 +23,7 @@ PART 0.3 -- the two lattices, exactly (sympy)
   [PASS] 2+4w = 4 + 2 sqrt(-3), hence Z+(2+4w)Z = Z + 2 sqrt(-3) Z (differ by 4 in Z)
   [PASS] 2 sqrt(-3) = -2 + 4w  (Lam-basis O-coords (1,0) and (-2,4))
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B739_character_rigidity/b739_probe.py", line 198, in <module>
+  File "frontier/B739_character_rigidity/b739_probe.py", line 198, in <module>
     snf = sp.Matrix.hstack(*[c for c in Mcoords.columns()])  # placeholder, SNF below
                                         ^^^^^^^^^^^^^^^
 AttributeError: 'MutableDenseMatrix' object has no attribute 'columns'

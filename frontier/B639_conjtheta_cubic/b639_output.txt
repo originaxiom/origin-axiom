@@ -11,6 +11,6 @@ weld side-2 letters built
 == G1: the lambda -> +lambda intertwiner ==
   intertwiner space: dim 1
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B639_conjtheta_cubic/b639_conjtheta.py", line 56, in <module>
+  File "frontier/B639_conjtheta_cubic/b639_conjtheta.py", line 56, in <module>
     assert u2 is not None, "G1 FAIL: no invertible +lambda intertwiner"
 AssertionError: G1 FAIL: no invertible +lambda intertwiner

@@ -1,8 +1,8 @@
 # R5 lock-batch — full detail
 
-Repo (read-only): `/Users/dri/oa-seat-cc2/origin-axiom`
-Work dir: `/Users/dri/oa-seat-cc2/seat-work/residuals_loop/r5_locks/`
-Python: `/Users/dri/oa-seat-cc2/seat-work/.venv/bin/python` (3.12.1; numpy 2.5.1, scipy 1.18.0, sympy 1.14.0, mpmath bundled)
+Repo (read-only): `<cc2-seat>/origin-axiom`
+Work dir: `<cc2-seat>/seat-work/residuals_loop/r5_locks/`
+Python: `<cc2-seat>/seat-work/.venv/bin/python` (3.12.1; numpy 2.5.1, scipy 1.18.0, sympy 1.14.0, mpmath bundled)
 Recomputed: 2026-07-16. Repo not modified (read-only throughout).
 
 Artifacts: `proposed_locks_r5.py` (20 asserts, all PASS), `runs/` (raw script outputs

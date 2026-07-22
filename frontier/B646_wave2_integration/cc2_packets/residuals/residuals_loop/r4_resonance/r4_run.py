@@ -3,7 +3,7 @@ R4 -- the resonance order-prediction hypothesis: promoting or KILLING V2b's post
 SEALED preregistered design (this cell's whole point is that it is sealed, unlike V2b's
 own B7 which was explicitly flagged post-hoc/exploratory).
 
-Reuses /Users/dri/oa-seat-cc2/seat-work/veins/v2_resonance/lib.py VERBATIM for all core
+Reuses <cc2-seat>/seat-work/veins/v2_resonance/lib.py VERBATIM for all core
 machinery: fp, U, ph, cost (the nesting-cost statistic), Cga (the coin), incidence_matrix,
 is_primitive, best_matched_consecutive_level, word_len_series, null_stats_uniform. No
 re-implementation of anything the bank already has.
@@ -39,7 +39,7 @@ import time
 import numpy as np
 from scipy.stats import spearmanr
 
-sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/veins/v2_resonance')
+sys.path.insert(0, '<cc2-seat>/seat-work/veins/v2_resonance')
 import lib as L
 
 HERE = os.path.dirname(os.path.abspath(__file__))

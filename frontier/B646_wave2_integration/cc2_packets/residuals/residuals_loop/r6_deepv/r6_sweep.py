@@ -36,7 +36,7 @@ import json
 import time
 import numpy as np
 
-sys.path.insert(0, "/Users/dri/oa-seat-cc2/seat-work/veins/v6_tension")
+sys.path.insert(0, "<cc2-seat>/seat-work/veins/v6_tension")
 from lib_chain import (sigma_prefix, periodic_word, charges_of,        # noqa: E402
                         build_H_bands, LETTERS)
 from scipy.linalg import eigh_tridiagonal                              # noqa: E402

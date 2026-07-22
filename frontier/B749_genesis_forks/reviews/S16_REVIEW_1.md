@@ -31,7 +31,7 @@ genesis/axiom-chain; PR-only, cc = sole merge gate) ... P019 reserved for the ch
 document (relay CC3_TO_CC_2026-07-21_genesis_reservation + cc ACK)". beb74314 is an
 ancestor of the review branch. Observation (benign): the LOCAL main ref is stale (at
 da5f1def, pre-#1239); verification done against origin/main after fetch.
-Relay GO: /Users/dri/oa-seat-cc2/seat-work/relay/CC_TO_CC3_2026-07-21_p019v2_go.md reads
+Relay GO: <cc2-seat>/seat-work/relay/CC_TO_CC3_2026-07-21_p019v2_go.md reads
 "The owner has approved P019 v2 as committed (ced69b62) — the red pen is CLOSED" and its
 GO section unblocks exactly the sequence being executed: "MEASUREMENTS.md fixed per fork →
 hash-seal the prereg (§16) → execute B749 → PR to me." The relay independently restates
