@@ -1,0 +1,48 @@
+==========================================================================================
+CELL 1 -- arithmetic (the forced part)
+==========================================================================================
+CHECK: 1/(2*phi^3) = 0.1180339887  (phi^3 == 2+sqrt5: True)
+CHECK: Fibonacci-word b-density (Perron eigenvector) = 3/2 - sqrt(5)/2 == 1/phi^2: True
+CHECK: (1/phi^2)*(1/(2*phi)) == 1/(2*phi^3): True
+CELL 1 VERDICT: TRUE -- the identity is exact; the b-density limit is forced.
+==========================================================================================
+CELL 2 -- the assignment audit (derived or inserted?)
+==========================================================================================
+the BANKED amplitude (B593, word-level, golden word RL): u3' M_odd u3 = 0.309016994 + 0.425325404*I
+CHECK: |amplitude| = 0.525731112  vs the claim's Re-only 1/(2*phi) = 0.309016994
+CHECK: the imaginary part dropped by the claim = 0.425325404  (NOT small)
+grep-audit result (run 2026-07-22, recorded): NO banked per-LETTER hearing weight exists;
+the banked 1/(2*phi) is the real part of a COMPLEX WORD-level matrix element at g = RL.
+CELL 2 VERDICT: CONSTRUCTED -- word-level Re x letter-density is a free composition:
+  insertion 1: per-letter attribution of a word-level quantity (no banked derivation);
+  insertion 2: silent Re projection discarding i*sin(2pi/5)/sqrt5 = 0.4253 (|amp| = 0.5257);
+  the 'sigma applied to its own data' phrase covers the DENSITY limit only (cell 1).
+==========================================================================================
+CELL 3 -- the target audit (is alpha_s a fixed target?)
+==========================================================================================
+  alpha_s(   10.0 GeV) = 0.1731
+  alpha_s(   91.2 GeV) = 0.1180
+  alpha_s( 1000.0 GeV) = 0.0877
+CHECK: the target moves 0.18 -> 0.087 across 10 GeV..1 TeV; the match holds ONLY at mu ~ MZ.
+free knobs: renormalization scale (chosen: M_Z), scheme (MS-bar), value source (world avg).
+object-side scale-pinning offered by the claim: NONE (no banked structure selects M_Z).
+contrast: the sin^2(theta12) comparison went through the B648 calibration machinery ONE-SHOT
+and was graded LOW evidential weight (FP ~ 32%, neighbors unseparated); its license is SPENT.
+CELL 3 VERDICT: KNOB-DEPENDENT -- the 0.04 sigma framing has no meaning under a free scale dial.
+==========================================================================================
+CELL 4 -- base-rate (the owner's requested check; family and table sealed in the prereg)
+==========================================================================================
+pairs tested = 192 (distinct candidate values only); matching rule |ratio-1| < 1% (sealed)
+HITS = 2:
+  1/(2*phi^1) = 0.30902  ~  sin2_th12_PMNS = 0.30700  (ratio-1 = +0.0066)
+  1/(2*phi^3) = 0.11803  ~  alpha_s_MZ = 0.11800  (ratio-1 = +0.0003)
+expected hits under the log-uniform null ~ 0.75
+Poisson P(>= 2 hits | lambda = 0.75) = 0.17
+CHECK: the n=2 gap -- 1/(2*phi^2) = 0.1910; nearest target: sin_thC (off by 15%)
+CELL 4 VERDICT: the observed hit count is consistent with the null; the claimed pattern
+1/(2*phi^n) skips n=2 entirely -- the signature of target-shopping, not of a law.
+==========================================================================================
+CELL 5 -- the Fox fixed point: NEEDS-DEFINITION (no well-posed iteration received;
+cc3's pre-assessment: dimension doubles per step). Uncounted, per the sealed prereg.
+==========================================================================================
+ADJUDICATION COMPLETE

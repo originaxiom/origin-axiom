@@ -1,5 +1,9 @@
 # Changelog
 
+## B751 — the iterated-hearing claim adjudicated: arithmetic TRUE, identification NOT EARNED
+- The incoming "1/(2φ³)=α_s" composite: density limit forced, but the per-letter assignment is CONSTRUCTED (banked B593 amplitude is complex word-level; 0.4253i silently dropped), the target is KNOB-DEPENDENT (α_s runs ×2 across the dial, no object-side M_Z pin), and base-rate is null-consistent (2 hits/0.75 expected, p=0.17; the pattern skips n=2).
+- Recorded as H-ITERATED-HEARING (hint, not prediction); the honest door named (derive a per-letter weight + a scale pin → L91 functor + checklist). Stopping rule stands. Locks test_b751 (4).
+
 ## B750 — the lack ledger: the object's refusal to close is threefold (no point, no width, no name)
 - Sealed-enum classification of all 13 banked refusals: UNIFIED-3 (T/torsor ×8, R/rigidity ×3, P/no-inheritance ×2), X empty; every class carries a banked can-fail witness; machine-checkable ledger.json + citation-existence locks.
 - Distilled verdict: the object provides the group but never the choice, the structure but never the variation, the gait but never the name — the observer is the exact complement. Falsification edges declared (c-into-θ; QP-2). Dual of P019.

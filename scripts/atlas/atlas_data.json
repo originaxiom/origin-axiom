@@ -15544,6 +15544,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B751": {
+   "slug": "iterated hearing adjudication",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "symplectic",
+    "lorentzian"
+   ],
+   "refs": [
+    "B593",
+    "B648",
+    "B655",
+    "L91"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B75": {
    "slug": "metallic degree rank",
    "motifs": [

@@ -486,3 +486,18 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   INDEPENDENT numerical hints, never derived predictions; NOT to be registered as
   framework predictions (would breach Gate 5). chat-1's claimed "existing hash" for
   sin²θ₁₂ is unverified — no such sealed claim exists in the record.
+
+- H-ITERATED-HEARING (B751, 2026-07-22): the incoming "σ-on-own-data" composite
+  (1/φ²)·(1/(2φ)) = 1/(2φ³) = 0.118034 vs α_s(M_Z) = 0.1180(9) — adjudicated
+  (prereg cd550335): the DENSITY limit is forced but the composite is CONSTRUCTED
+  (no banked per-letter hearing weight exists; the banked B593 amplitude is COMPLEX
+  word-level, |amp| = 0.5257, and the claim silently drops i·sin(2π/5)/√5 = 0.4253);
+  the target is KNOB-DEPENDENT (α_s runs 0.173→0.088 across 10 GeV–1 TeV; no
+  object-side scale pin selects M_Z); base-rate: 2 hits / 0.75 expected, Poisson
+  p = 0.17 (null-consistent), and the claimed 1/(2φⁿ) pattern skips n=2 entirely
+  (0.1910 is 15% from every target — target-shopping signature). Recorded as a
+  numerical hint ONLY, alongside H-TUROK's 1/(2φ); NOT a prediction; any forward
+  use requires owner + the L91 functor + the full checklist (the stopping rule
+  stands). The one honest door: DERIVE a per-letter hearing weight from the banked
+  complex-amplitude structure — a derivation, not an assignment — and the composite
+  becomes checkable.
