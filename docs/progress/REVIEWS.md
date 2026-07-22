@@ -1987,8 +1987,14 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
   the (tr_odd,tr_even)(23) fact (the window's one named partial) — DONE 2026-07-22: cc2's own
   p4 machinery re-executed read-only, BYTE-IDENTICAL results json; (1,0)@23 re-derived exactly;
   the κ=25 cancellation exact; the certificate law agrees; DOOR6 FIRM at full depth
-- [ ] R28-5: the P3 stratum — depth-exposure (E22) re-adjudication from the kill_graph
-  depth_reached field (cc3-designed; carried from R27-6's second half)
+- [x] R28-5: the P3 stratum — depth-exposure (E22) re-adjudication from the kill_graph
+  depth_reached field (cc3-designed; carried from R27-6's second half) — DONE 2026-07-23
+  (B765, cc3): 21 targets — 8 CLOSED / 6 HELD-by-P2 / 7 EXPOSED (the depth-closure backlog,
+  → R28-10); gate re-exec IDENTICAL, 13 locks, seal convention followed
+- [ ] R28-10 (from B765): execute the depth-closure backlog — the 6 non-B500 exposed items
+  (B489 n>8; B685 beyond n=60; TOMB-L255 proof-not-sketch; TOMB-L310 L>10; TOMB-L34
+  multi-seed; WALL-7 beyond twisted 3-point) each along its named stabilization path;
+  B500's item = R28-6 (owner: cc/cc3 split at the next sequencing)
 - [ ] R28-6: B500 wrap-up — bank the straggler verdict when the run ends (26 TIMEOUT + 9
   never-reached at last count; two deep cases at PARI limits; honest-residual report)
 - [x] R28-7: L108 — the two-ℤ/3 identity cell (B326 ≟ B302; the one DOOR4 residual) — DONE

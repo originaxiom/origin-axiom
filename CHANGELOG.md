@@ -1,5 +1,8 @@
 # Changelog
 
+## B765 — the P3 depth stratum: the hunt completes (8 CLOSED / 6 HELD / 7 EXPOSED)
+- The E22 lesson applied to all 21 depth-flagged kills; the depth-closure backlog named (7 items, stabilization paths known, none executed — "not wrong, underproved") and registered as R28-10. The three strata are done: earned, spectral, depth. Gate: re-exec identical, 13 locks, seal convention verbatim.
+
 ## R28-9 done — the path-topology sweep (110 files) + the extended hygiene lock
 - Seat topology stripped from all editable tracked text; sealed/frozen bytes intact by policy; append-only records exempted by class (the append-only gate caught the sweep's first attempt at editing history — the lattice defended itself). 50/50 artifact locks green post-sweep.
 

@@ -1,0 +1,196 @@
+====================================================================================
+P3 DEPTH-EXPOSURE STRATUM — E22 RE-ADJUDICATION
+====================================================================================
+
+Targets: 21
+P2 overlap: 14
+P3-only: 7
+
+────────────────────────────────────────────────────────────────────────────────────
+METHOD B: ANATOMY CROSS-VALIDATION
+────────────────────────────────────────────────────────────────────────────────────
+
+B107         | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: n>4 value uncomputed, but category-error is structural at every n
+             | B-reason: structural category-error; type conflict depth-independent
+
+B437         | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: slope-5 universally proved; slope-7/B438 are additional evidence, not verdict-bearing
+             | B-reason: universal proof step in depth_note
+
+B489         | A=DEPTH-EXPOSED  | B=DEPTH-EXPOSED  | final=DEPTH-EXPOSED
+             | gap: n=1..8 checked; claim universal; no induction/stabilization proof
+             | B-reason: not in P2; no independent anatomy closure identified
+
+B500         | A=DEPTH-EXPOSED  | B=DEPTH-EXPOSED  | final=DEPTH-EXPOSED
+             | gap: depth>=6 unswept; no depth-uniform obstruction proved
+             | B-reason: not in P2; no independent anatomy closure identified
+
+B685         | A=DEPTH-EXPOSED  | B=DEPTH-EXPOSED  | final=DEPTH-EXPOSED
+             | gap: kind-mismatch evidence is pointwise to n=60/order 20; no inductive proof
+             | B-reason: not in P2; no independent anatomy closure identified
+
+TOMB-L241    | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: K-J symbolic (closed); K-K/K-L finite but K-J alone sustains the verdict
+             | B-reason: structural category-error; type conflict depth-independent
+
+TOMB-L247    | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: S1a/S1b exact and universal; S2/S3 gap is in auxiliary verification
+             | B-reason: structural kind-mismatch; type conflict depth-independent
+
+TOMB-L252    | A=DEPTH-EXPOSED  | B=DEPTH-HELD     | final=DEPTH-HELD
+             | gap: claim universal over all k; prose closure only, k>8 unchecked
+             | B-reason: P2 KILL-EXTENDS closes independently (B754 spectral face)
+
+TOMB-L255    | A=DEPTH-EXPOSED  | B=DEPTH-EXPOSED  | final=DEPTH-EXPOSED
+             | gap: n=2..13 computed; functoriality sketch not proof; n>13 open
+             | B-reason: not in P2; no independent anatomy closure identified
+
+TOMB-L258    | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: derivative kill; gap is in K-K/K-L premises (TOMB-L241), not independent
+             | B-reason: universal proof step in depth_note
+
+TOMB-L267    | A=DEPTH-EXPOSED  | B=DEPTH-HELD     | final=DEPTH-HELD
+             | gap: K-N sampled m=1..6; claim covers m>=2; m>=7 untested
+             | B-reason: P2 KILL-EXTENDS closes independently (B754 spectral face)
+
+TOMB-L310    | A=DEPTH-EXPOSED  | B=DEPTH-EXPOSED  | final=DEPTH-EXPOSED
+             | gap: L<=10 only; convergence inference from 5 points; L11+ uncomputed
+             | B-reason: not in P2; no independent anatomy closure identified
+
+TOMB-L334    | A=DEPTH-EXPOSED  | B=DEPTH-HELD     | final=DEPTH-HELD
+             | gap: recompute n=3..15 only; 'proved for all n' not machine-verified
+             | B-reason: P2 KILL-EXTENDS closes independently (B754 spectral face)
+
+TOMB-L339    | A=DEPTH-EXPOSED  | B=DEPTH-HELD     | final=DEPTH-HELD
+             | gap: Part 3 (not isomonodromic) rests on one seed, one window
+             | B-reason: P2 KILL-EXTENDS closes independently (B754 spectral face)
+
+TOMB-L34     | A=DEPTH-EXPOSED  | B=DEPTH-EXPOSED  | final=DEPTH-EXPOSED
+             | gap: one N, two seeds; claim is general chain property; N-stability unproved
+             | B-reason: not in P2; no independent anatomy closure identified
+
+TOMB-L57     | A=DEPTH-EXPOSED  | B=DEPTH-HELD     | final=DEPTH-HELD
+             | gap: m=1,2,3 only; theta(m) not proved bounded away from pi/3 at large m
+             | B-reason: P2 KILL-EXTENDS closes independently (B754 spectral face)
+
+TOMB-L63     | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: category-error structural: ambient unitarity is a general theorem (all k)
+             | B-reason: structural category-error; type conflict depth-independent
+
+TOMB-L67     | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: classical-vs-quantum type distinction is structural at every k
+             | B-reason: structural category-error; type conflict depth-independent
+
+TOMB-L70     | A=DEPTH-CLOSED   | B=DEPTH-CLOSED   | final=DEPTH-CLOSED
+             | gap: disc=5 vs disc=-3 field distinction is depth-independent
+             | B-reason: structural category-error; type conflict depth-independent
+
+TOMB-L77     | A=DEPTH-EXPOSED  | B=DEPTH-HELD     | final=DEPTH-HELD
+             | gap: one invariant only; claim universal; asymptotics numeric not proved
+             | B-reason: P2 KILL-EXTENDS closes independently (B754 spectral face)
+
+WALL-7       | A=DEPTH-EXPOSED  | B=DEPTH-EXPOSED  | final=DEPTH-EXPOSED
+             | gap: twisted (f3) zero at 3 points only; symbolic-in-t proof needed
+             | B-reason: P2 FACE-IRRELEVANT; no anatomy closure
+
+====================================================================================
+VERDICT SUMMARY
+====================================================================================
+  DEPTH-CLOSED    : 8
+  DEPTH-HELD      : 6
+  DEPTH-EXPOSED   : 7
+
+────────────────────────────────────────────────────────────────────────────────────
+DEPTH-CLOSED cells (kill is universal-by-proof; no depth gap):
+────────────────────────────────────────────────────────────────────────────────────
+  B107         (category-error) — n>4 value uncomputed, but category-error is structural at every n
+  B437         (genericity) — slope-5 universally proved; slope-7/B438 are additional evidence, not verdict-bearing
+  TOMB-L241    (category-error) — K-J symbolic (closed); K-K/K-L finite but K-J alone sustains the verdict
+  TOMB-L247    (kind-mismatch) — S1a/S1b exact and universal; S2/S3 gap is in auxiliary verification
+  TOMB-L258    (other) — derivative kill; gap is in K-K/K-L premises (TOMB-L241), not independent
+  TOMB-L63     (category-error) — category-error structural: ambient unitarity is a general theorem (all k)
+  TOMB-L67     (category-error) — classical-vs-quantum type distinction is structural at every k
+  TOMB-L70     (category-error) — disc=5 vs disc=-3 field distinction is depth-independent
+
+────────────────────────────────────────────────────────────────────────────────────
+DEPTH-HELD cells (gap exists but independently closed by P2/anatomy):
+────────────────────────────────────────────────────────────────────────────────────
+  TOMB-L252    (value-mismatch) — claim universal over all k; prose closure only, k>8 unchecked [P2: KILL-EXTENDS]
+  TOMB-L267    (category-error) — K-N sampled m=1..6; claim covers m>=2; m>=7 untested [P2: KILL-EXTENDS]
+  TOMB-L334    (finite-level-obstruction) — recompute n=3..15 only; 'proved for all n' not machine-verified [P2: KILL-EXTENDS]
+  TOMB-L339    (no-landing-site) — Part 3 (not isomonodromic) rests on one seed, one window [P2: KILL-EXTENDS]
+  TOMB-L57     (value-mismatch) — m=1,2,3 only; theta(m) not proved bounded away from pi/3 at large m [P2: KILL-EXTENDS]
+  TOMB-L77     (category-error) — one invariant only; claim universal; asymptotics numeric not proved [P2: KILL-EXTENDS]
+
+────────────────────────────────────────────────────────────────────────────────────
+DEPTH-EXPOSED cells (genuine E22-pattern open gap):
+────────────────────────────────────────────────────────────────────────────────────
+  B489         (absence-at-depth-n, adj=unadjudicated-included) — n=1..8 checked; claim universal; no induction/stabilization proof [not in P2]
+  B500         (absence-at-depth-n, adj=stable) — depth>=6 unswept; no depth-uniform obstruction proved [not in P2]
+  B685         (kind-mismatch, adj=stable) — kind-mismatch evidence is pointwise to n=60/order 20; no inductive proof [not in P2]
+  TOMB-L255    (value-mismatch, adj=unstable-included) — n=2..13 computed; functoriality sketch not proof; n>13 open [not in P2]
+  TOMB-L310    (genericity, adj=stable) — L<=10 only; convergence inference from 5 points; L11+ uncomputed [not in P2]
+  TOMB-L34     (genericity, adj=none) — one N, two seeds; claim is general chain property; N-stability unproved [not in P2]
+  WALL-7       (zero-intertwiner, adj=stable) — twisted (f3) zero at 3 points only; symbolic-in-t proof needed [P2: FACE-IRRELEVANT]
+
+────────────────────────────────────────────────────────────────────────────────────
+CROSS-VALIDATION: structural form consistency
+────────────────────────────────────────────────────────────────────────────────────
+  WARNING: B685 has structural kill_form (kind-mismatch) but gap_threatens_verdict=True
+         → VALID: kind-mismatch evidence is pointwise; denominators could converge at higher order
+  WARNING: TOMB-L267 has structural kill_form (category-error) but gap_threatens_verdict=True
+         → VALID: category-error for K-N 'empty support' sampled m=1..6; m>=7 could behave differently
+  WARNING: TOMB-L77 has structural kill_form (category-error) but gap_threatens_verdict=True
+         → VALID: category-error for one invariant; claim covers all quantum invariants
+
+====================================================================================
+THE P3 FINDING
+====================================================================================
+
+Of 21 depth-flagged P1 negatives:
+  8 DEPTH-CLOSED — kill argument contains a universal proof step
+  6 DEPTH-HELD — depth gap exists but independently closed by P2 spectral face
+  7 DEPTH-EXPOSED — genuine E22-pattern open gap
+
+The DEPTH-EXPOSED cells are the program's honest residual:
+kills whose evidence is finite-depth sampling, whose claims are universal,
+and whose gaps are not closed by any independent face in the current anatomy.
+
+These kills are NOT wrong — they are UNDERPROVED. The verdicts may be
+correct, but the evidence standard falls short of the claim scope.
+The E22 lesson: a finite-depth check is not a universal proof.
+
+Exposed cells and their stabilization needs:
+
+  B489 (absence-at-depth-n):
+    Gap: n=1..8 checked; claim universal; no induction/stabilization proof
+    Stabilization: needs: (1) induction on the layered-triangulation rule showing N=2n,c=1 for ALL n; (2) Binet-formula proof L(2n) strictly increases so torsion>1 for all n>=2, not just 8 samples; (3) generalize the no
+
+  B500 (absence-at-depth-n):
+    Gap: depth>=6 unswept; no depth-uniform obstruction proved
+    Stabilization: needs a depth-uniform obstruction: prove the d_K=-283 quartic is no word's trace-field factor at ANY depth (ramification/discriminant exclusion), or bound where a degree-4 child can appear.
+
+  B685 (kind-mismatch):
+    Gap: kind-mismatch evidence is pointwise to n=60/order 20; no inductive proof
+    Stabilization: needs: (a) object side, a structural argument that v3-only denominators hold at every n; (b) hearing side, an inductive proof from the recursion that v5(den c_n)=n+v5(n!) for all n.
+
+  TOMB-L255 (value-mismatch):
+    Gap: n=2..13 computed; functoriality sketch not proof; n>13 open
+    Stabilization: needs all-d functoriality by induction (spec Sym^{n-1}M={(-1)^j phi^{n-1-2j}} every n), then Dirichlet: real-quadratic seed eigenvalues are rank-1 units => mult free rank=1 for all n and metallic m; a
+
+  TOMB-L310 (genericity):
+    Gap: L<=10 only; convergence inference from 5 points; L11+ uncomputed
+    Stabilization: Needs L11+ computed, or an analytic recursion on level sizes (1,2,6,18,49,115,283) predicting r(Lmax->inf), or a depth-invariance argument for F2's null-gap.
+
+  TOMB-L34 (genericity):
+    Gap: one N, two seeds; claim is general chain property; N-stability unproved
+    Stabilization: Needed: logslope/c_eff vs N across several Fibonacci lengths to show the log-class plateau is N-stable (cf B734: plateaus can jump a level deeper); multiple disorder seeds; growing probe count for del
+
+  WALL-7 (zero-intertwiner):
+    Gap: twisted (f3) zero at 3 points only; symbolic-in-t proof needed
+    Stabilization: needs a symbolic-in-t rank/determinant argument plus a check of exceptional roots.
+
+────────────────────────────────────────────────────────────────────────────────────
+HALT = False
+────────────────────────────────────────────────────────────────────────────────────
