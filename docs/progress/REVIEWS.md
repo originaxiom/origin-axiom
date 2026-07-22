@@ -1884,9 +1884,12 @@ survive the seats that minted them.
   arbitrates or cc adopts with the courier's read (owner: cc/owner) — DONE 2026-07-22: E23/E24/E25
   ADOPTED into ERROR_LEDGER (cc adopts per the authorization; cc+cc3 concurrence on record in the
   2026-07-21 relays; adoption relay sent to the reopened cc3 with an amendment window)
-- [ ] R27-6: the P2/P3 stratum — re-test the 30 earned kills against the new anatomy using cc3's
+- [>] R27-6 (P2 half UNDER WAY 2026-07-22: B754 reserved, cc3 on hunt/p2-spectral; P3 deferred by design): the P2/P3 stratum — re-test the 30 earned kills against the new anatomy using cc3's
   sealed B′ exposure list + the merged (~275-id) kill corpus with a UNIFIED enum (owner: cc)
-- [ ] R27-7: ledger hygiene — LAW_MAP/RETRACTIONS rows cite their computation's location
-  (exact_scope pointers), so ledger-scoped audits verify without the hop (owner: cc)
+- [x] R27-7: ledger hygiene — LAW_MAP/RETRACTIONS rows cite their computation's location
+  (exact_scope pointers), so ledger-scoped audits verify without the hop (owner: cc) — DONE
+  2026-07-22: 4 LAW_MAP + 3 RETRACTIONS label-only rows patched with paths; the location
+  convention added to LAW_MAP's header (B-number-resolvable OR explicit path; cell labels
+  must carry a path)
 
 anchor-commit: `a9d0a1d1` (Review 27)

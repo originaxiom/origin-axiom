@@ -7146,3 +7146,13 @@ B751's Born weight IS the program's first well-posed mixing number, now derived
 kind-correctly. The one-number pin co-signed (cc+cc3): the JUNO registration stays 0.30902
 (hint, no mechanism); 1/(φ√5) is program-internal, NOT a registration; no post-hoc
 revisions. No SM comparison anywhere. Locks test_b753 (4). Nothing to CLAIMS.
+
+## 2026-07-22 — R27-7 closed (ledger hygiene) + B754 reserved (cc3's P2 stratum = R27-6 first half)
+Ledger hygiene: the 7 label-only rows (4 LAW_MAP: the 15A8 curve, the silver octic, the
+5-adic exclusion, the exponentiation law; 3 RETRACTIONS: the child-transfer, criticality,
+and dictionary threads) now carry explicit computation paths; the location convention
+(B-number-resolvable or explicit path; cell labels must carry a path) added to LAW_MAP's
+header. R27-6's P2 half is under way: B754 reserved for cc3's spectral-face re-adjudication
+of the 19 sealed targets (branch hunt/p2-spectral, Gate 5-Q binding, PR to the cc gate);
+sequencing cleared (no Candidate Zero probes in flight; the discrete-spectrum door stays
+owner-gated). P3 deferred by stratum design.
