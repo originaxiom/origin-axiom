@@ -1,0 +1,33 @@
+ladder: N = 800..16000 (20 points), dps = 420
+c0 (must be 1): full fit 1.0
+  j=1: trusted ~47d, r_1 = 11/24  (residual 2.02e-51, accept: True)
+  j=2: trusted ~42d, r_2 = 697/1152  (residual 1.31e-46, accept: True)
+  j=3: trusted ~38d, r_3 = 724351/414720  (residual 5.3e-42, accept: True)
+  j=4: trusted ~34d, r_4 = 278392949/39813120  (residual 1.49e-37, accept: True)
+  j=5: trusted ~30d, r_5 = 244284791741/6688604160  (residual 3.08e-33, accept: True)
+  j=6: trusted digits ~27; NOT recognized -- stop here
+GATES: r1 = 11/24 exact, r2 = 697/1152 exact -- the paper's eq (1) REPRODUCED; 5 coefficients recognized
+
+Phi(h)Phi(-h)/prefactor, expanded in u = q-1:
+  u^0: 1   denominator 1 = 1  pure-3: True
+  u^1: 0   denominator 1 = 1  pure-3: True
+  u^2: -1/27   denominator 27 = {3: 3}  pure-3: True   [eq(2) prints -1/27: MATCH]
+  u^3: 1/27   denominator 27 = {3: 3}  pure-3: True   [eq(2) prints 1/27: MATCH]
+  u^4: -4/243   denominator 243 = {3: 5}  pure-3: True   [eq(2) prints -4/243: MATCH]
+  u^5: -1/243   denominator 243 = {3: 5}  pure-3: True   [eq(2) prints -1/243: MATCH]
+
+CHECK: all denominators through u^5 are pure powers of 3: True
+CHECK: eq (2) printed coefficients reproduced: True
+CELL 3 VERDICT: PURE-3 CONFIRMED to order 5 (computed, not cited); the 3^146-at-order-100 valuation remains cited beyond this order (reported honestly).
+
+PART 2 -- the symmetrized product from ALL recognized coefficients
+Phi(h)Phi(-h)/prefactor in u = q-1, through u^5 (from r_1..r_5):
+  u^0: 1   den 1 = 1  pure-3: True
+  u^1: 0   den 1 = 1  pure-3: True
+  u^2: -1/27   den 27 = {3: 3}  pure-3: True   [eq(2): -1/27 -> MATCH]
+  u^3: 1/27   den 27 = {3: 3}  pure-3: True   [eq(2): 1/27 -> MATCH]
+  u^4: -4/243   den 243 = {3: 5}  pure-3: True   [eq(2): -4/243 -> MATCH]
+  u^5: -1/243   den 243 = {3: 5}  pure-3: True   [eq(2): -1/243 -> MATCH]
+CHECK2: all denominators through u^5 are pure powers of 3: True
+CHECK2: printed eq(2) coefficients reproduced: True
+CELL 3 FINAL VERDICT: PURE-3 CONFIRMED to order u^5 (computed, not cited); 3^146-at-order-100 remains cited beyond.

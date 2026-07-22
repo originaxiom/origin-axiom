@@ -1286,3 +1286,9 @@ unitary, eigenphases ±72°; the kind-correct mixing matrix is golden-exact
 (off-diagonal 1/(φ√5), = the Born weight by exact identity). The JUNO
 registration stays 0.30902 under the co-signed one-number pin. GATE 5-Q
 adopted (#1248); E23/E24/E25 adopted (#1247).
+
+THE CARRIED RECOMPUTES CLOSED (B755): all five NOT-LOCATED discriminating
+facts now computed in-repo — the genus-2 CS-flip witnessed, the 1/4 null
+run, the GSWZ pure-3 fact extracted from the Kashaev sum itself (eq (2)
+reproduced exactly through u⁵), B720's halves exact, S019 closed by
+dimension. The R27 carried block is empty except owner-gated items.

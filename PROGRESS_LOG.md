@@ -7167,3 +7167,29 @@ as a matrix — each row's overlap set {φ/√5, 1/(φ√5)} on both sides. Scop
 recorded ("provably empty" = the real-part level only; the kind-level distinction is real =
 cell 4). Pin unchanged. Lock extended (5 green, incl. the corrected labeling identity —
 own first draft of the lock caught wrong and fixed, logged).
+
+## 2026-07-22 — B755: the five carried recomputes — 5/5 LOCATED-BY-RECOMPUTE (R27 carried block closed)
+The sweep's NOT-LOCATED discriminating facts, each computed under seal (prereg 5627dd19):
+**B140** — the genus-2 mirror CS-flip WITNESSED at last (twister present now; S_2,1 bundle
+'abcDef': vol equal, CS exactly opposite, chirality certified by BOTH the 2CS ∉ (1/2)ℤ
+obstruction and the isometry-orientation route). **B332** — the 1/4-numerology null
+computed in-repo with the ratio set declared in-seal: 1/4 hits ZERO of the 9 declared
+targets at 2% AND 5%; controls/randoms match comparably (P=1.00) — not distinguished.
+**B685** — the sharpest: the source re-read resolved the banked extraction's internal
+inconsistency (eq (2)'s 1/3³…4/3⁵ had been mangled to ⅓…⅘ by superscript loss — the
+conclusion was right, the rendering wrong), then the fact COMPUTED: Kashaev-sum Richardson
+extraction (N ≤ 16000, 420 dps) + E25-gated PSLQ recognition reproduces the paper's
+r₁ = 11/24, r₂ = 697/1152 from the sum itself (+ r₃ = 724351/414720, beyond print — with
+a 5 in ITS denominator, sharpening why only the SYMMETRIZED object is pure-3); the exact
+symmetrized product matches eq (2) and verifies pure-3 denominators to the computed order
+(FINAL VERDICT line in cell3_out.txt); the vacuous MB12 lock replaced by real locks.
+Instrument lessons logged: the pslq working-precision trap (exact relations invisible when
+tol ignores both the trusted-digit count AND the coefficient height) and the parity trap
+(t(N)² = Φ(h)² NOT the symmetrized product — the even-fit shortcut refuted in-session).
+**B720** — the object-side halves exact (ℚ(ζ₃)⊥ℚ(i) compositum degree 4; the Markov
+quiver's mutation class = ONE quiver, entries ±2 ⇒ finite-mutation-not-finite-type);
+the two literature classifications flagged as the irreducible cited residue. **S019** —
+the broken tombstone citation repaired + the kill upgraded to a dimension theorem (any
+scalar-parameter family: 1×1 Fisher ≥ 0; Lorentzian needs ≥2 indefinite dims). Every
+recompute CONFIRMED its kill's basis (E19: nothing flipped). Locks test_b755 (5).
+Nothing to CLAIMS.
