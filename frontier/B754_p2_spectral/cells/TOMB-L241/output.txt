@@ -1,0 +1,86 @@
+==============================================================================
+B754 P2 cell TOMB-L241 -- the spectral-rank cluster (K-J..K-M) vs the face
+==============================================================================
+
+[A] Q2 DISCRIMINATION of the consultation operator SPECFACE
+  level (2^1): |(O/2^1)^x| = 3, |im mu_6| = 3, |Cl| = 1   [filtration named (E23): ray-class Cl_n = (O/n)^x / im(mu_6), h(K)=1, no real places -- B737 P5]
+  level (2^2): |(O/2^2)^x| = 12, |im mu_6| = 6, |Cl| = 2   [filtration named (E23): ray-class Cl_n = (O/n)^x / im(mu_6), h(K)=1, no real places -- B737 P5]
+  level (2^3): |(O/2^3)^x| = 48, |im mu_6| = 6, |Cl| = 8   [filtration named (E23): ray-class Cl_n = (O/n)^x / im(mu_6), h(K)=1, no real places -- B737 P5]
+CHECK: A1a palette (1,2,8) at levels (2),(4),(8) recomputed = B737-banked: PASS
+CHECK: A1b [O:Lam] = 4 and disc(Lam) = -48 (B739 L19-20 / B737 P3): PASS
+CHECK: A1c h(-48) = 2 and h(-3) = 1 recomputed = B737-banked: PASS
+  SPECFACE channel-part(m004) = (m_cont=1 [=#cusps, B739 PART C], palette=(1,2,8), disc=-48, h=2)
+  SPECFACE channel-part(m003) = (m_cont=1 [1-cusped],            palette=(1,),    disc=-3,  h=1)
+CHECK: A1d channel-part DISCRIMINATES object from sister m003 (palette,disc,h): PASS
+  flagged: the m_cont component ALONE (1 vs 1) does NOT discriminate; nothing below rests on it alone.
+CHECK: A2a charpolys: seed t^2-3t+1, comparator t^2-6t+1: PASS
+CHECK: A2b phi^2 is an exact root of the seed charpoly (Z[phi]): PASS
+  free-rank of <phi^2, phi^-2> = 1 (exponent gcd 2 != 0; phi not a root of unity)
+  free-rank of comparator eigengroup = 1 as well  ==> rank alone: 1 = 1
+CHECK: A2c FLAG: naked free-rank does NOT discriminate (1 = 1; the B752 trap): PASS  [flagged non-discriminating; retained only jointly]
+CHECK: A2d field-part DISCRIMINATES: sqfree kernel disc 5 vs 32 -> 5 != 2: PASS
+CHECK: A2e exact bounds 3/2 < phi < 2 (so phi^k != 1 for k != 0): PASS
+CHECK: A2f phi^k irrational (b-coeff != 0) for 1 <= |k| <= 12, exact: PASS
+  ==> Q2 PASS: SPECFACE discriminates the object (channel-part vs m003;
+      field-part vs the silver comparator); the components that do not
+      discriminate are flagged and never carry a conclusion alone.
+
+[B] K-K / K-L KILL BASIS recomputed + FACE-SIDE RANKS (do they climb?)
+CHECK: B1 K-K basis: all mixed words k=2..8 (494 words): tr>=3, disc=tr^2-4 non-square => alpha_w quadratic irrational => rank(Z+Z*alpha_w)=2, independent of k: PASS  [494 words]
+CHECK: B2a F4 tower (B746): char(F^k) = t^2 - L_k t + (-1)^k, roots +-phi^{+-k}, k=1..8 exact in Z[phi]: PASS
+  Sym^1(seed): all 2 eigenvalues = phi^(2(n-1-2j)) exact; per-level multiplicative free-rank = 1
+  Sym^2(seed): all 3 eigenvalues = phi^(2(n-1-2j)) exact; per-level multiplicative free-rank = 1
+  Sym^3(seed): all 4 eigenvalues = phi^(2(n-1-2j)) exact; per-level multiplicative free-rank = 1
+CHECK: B2b F5 tower (B746): Sym^(n-1) eigenvalues in phi^2Z for n=2,3,4, exact in Z[phi]: PASS
+CHECK: B3 F3 chord spectrum {-phi, phi^-1, phi^3, -phi^-3}: each = +-phi^k exact; exponent gcd = 1 => group = {+-1} x phi^Z: free-rank 1, torsion 2 -- STILL rank 1 in the face's new odd sector (K-L extends): PASS
+CHECK: B4 JOINT face rank: chord + F4 tower(k<=8) + F5 tower(n<=4) generate a subgroup of {+-1} x phi^Z: free-rank exactly 1 at every level -- NO face rank climbs with period k or depth n: PASS
+
+[C] the face's ONLY banked 2x2 spectral block (B753) vs K-J
+CHECK: C1 (zeta5 + zeta5^-1)^2 + (zeta5+zeta5^-1) - 1 = 0 exact in Q(zeta5): PASS
+CHECK: C2 the positive root is phi - 1 = 1/phi: (phi-1)^2 + (phi-1) - 1 = 0 exact in Z[phi]; so tr(block) = 2cos72 = 1/phi (B753-banked): PASS
+CHECK: C2s [float sanity] |2cos(72 deg) - (phi-1)| < 1e-12: PASS
+CHECK: C3 |eigenvalue| = 1 exact (zeta5 * zeta5^4 = 1) and eigenvalue^5 = 1 (zeta5^5 = 1): torsion order 5, free-rank 0: PASS
+CHECK: C4 KIND-WALL exact: |tr(face block)| = phi-1 < 2 (elliptic-unitary) vs tr(monodromy) = 3 > 2 (hyperbolic); and spectral radius 1 != phi^2 (phi^2 - 1 = phi != 0): NO non-category-error pairing for K-J: PASS
+  the original K-J wall (reducible != irreducible) is untouched; the face
+  ADDS an independent wall: unitary != hyperbolic, computed exactly.
+CHECK: C5 phi*sqrt5 = phi + 2 exact (so 1/(phi sqrt5) = 1/(phi+2)): PASS
+CHECK: C6 |B00|^2 = 1/(phi sqrt5) exact: cos^2 72 + (1-cos^2 72)/5 = (3-phi)/5 and (phi+2)*(3-phi)/5 = 1 (B753 cell-4 identity re-proved in Z[phi]): PASS
+CHECK: C7 unistochastic row: p + (1-p) with p = phi/sqrt5 = (phi+2)/5: p + q = 1 exact; q = (5-sqrt5)/10 [float 0.276393]: PASS
+
+[D] the continuous-channel data vs the cluster's golden quantities
+CHECK: D1 prime support of ALL banked object-specific continuous-channel integers (B737/B739; B746 S4 extended) = {2,3}: 5 ABSENT; none is a nontrivial phi-power (rational vs irrational, A2f): PASS
+  values audited: {'disc_cusp': 48, '[O:Lam]': 4, 'covering degree': 12, 'covol^2 (2sqrt3)^2': 12, '|disc K|': 3, 'palette(2)': 1, 'palette(4)': 2, 'palette(8)': 8}
+  vs the cluster's quantities: phi^2 (kernel 5), word dilatations (quadratic units, kernel 5 at the seed), tower powers phi^2Z -- all sqfree-kernel-5 objects; field mismatch is exact (5 not in {2,3}).
+CHECK: D2 the face's only climbing quantity (palette 1,2,8; indexed by the 2-adic level filtration, NOT by composition data) mismatches K-K numerically (8 != 3 at the 3rd term) and K-L immediately (1 != 2): PASS
+  and B739 (verified at FINDINGS L13-16, probe PART C) proves the palette
+  never enters the continuous channel at all: its multiplicity is exactly
+  1 = #cusps -- pinned topological, constant in k and n.
+
+==============================================================================
+VERDICT: KILL-EXTENDS
+==============================================================================
+Consulting the frozen face (B737/B739/B746/B753) against TOMB-L241 yields NO
+non-category-error pairing for K-J/K-K/K-L's quantities and ADDS three computed
+face-side walls the arithmetic-only kill never tested:
+ (1) K-J: the face's only banked 2x2 spectral block (B753 theta-odd weld) is
+     exactly unitary -- spectral radius 1, eigenphase torsion order 5, free-rank
+     0, |tr| = phi-1 < 2 -- kind-opposite to the hyperbolic monodromy multiplier
+     phi^2 (spectral radius phi^2 in (5/2,3), free-rank 1, tr = 3 > 2). [C1-C7]
+ (2) K-K/K-L: every face-banked spectral rank is constant or non-climbing:
+     m_cont = 1 = #cusps (topological, B739); chord + towers generate a joint
+     multiplicative group of free-rank exactly 1 ({+-1} x phi^Z, exact); the one
+     climbing face quantity (palette 1,2,8) is level-indexed, numerically
+     mismatches period and depth, and provably never enters the continuous
+     channel (B739 character-rigidity). [B1-B4, D2]
+ (3) K-M / umbrella: the object-specific continuous-channel data has prime
+     support {2,3} with 5 absent (disc -48, palette 2-powers, degree 12, index
+     4) -- an exact field mismatch against every golden quantity the cluster
+     tried to pair (sqfree kernel 5); the two-column law (B746) is the
+     structural home: the cluster paired gait-column quantities with a
+     rank; the emission side is being-only. [D1]
+Consistency with the sole survivor (S023/L16): the Q2 audit itself computed that
+integer rank does NOT discriminate golden from silver (1 = 1) while the FIELD
+does (5 != 2) -- face-aligned with 'the correct rank statement is
+field-multiplicity', and exactly that, no more.
+
+CHECKS PASSED: 25/25

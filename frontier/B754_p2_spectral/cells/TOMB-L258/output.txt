@@ -1,0 +1,144 @@
+========================================================================================
+PART 0 — TARGET INTEGRITY (the kill line and its premises, read at source)
+========================================================================================
+  L258: - **K-M — the "measurable gap-labeling-rank prediction" built on K-K/K-L — DEAD.** With its premises
+CHECK: [L258] L258 is the K-M kill line  -> PASS
+CHECK: [L258] K-M is derivative on K-K/K-L (kill basis = premises only)  -> PASS
+CHECK: [L252] premise K-K at L252  -> PASS
+CHECK: [L255] premise K-L at L255  -> PASS
+  The original kill consulted NO face (faces_consulted = [none-arithmetic-only]);
+  the B' revival route: 'a rank observable defined directly on the emittance spectrum'.
+
+========================================================================================
+PART 1 — Q2 DISCRIMINATION (MANDATORY FIRST): the consultation operator V
+========================================================================================
+
+Operator V(cusp-lattice L, constant-list S) =
+  ( c  = conductor of the multiplier order of L in O = Z[omega], K = Q(sqrt(-3)),
+    D  = discriminant of that order,
+    P  = the ray-class palette ladder |(O/2^k)^x / im(mu_6)| at levels (2),(4),(8)
+         [E23: the filtration is the unit groups of O/(2^k) modulo the global units mu_6],
+    g  = golden-detector count on S: #elements x with an EXACT integer relation
+         a*1 + b*phi + c*x = 0, |coeffs| <= 10^6, found by PSLQ at 60 digits and
+         then verified EXACTLY in sympy (E25) )
+Q2 requires: V must NOT return the same output for the object and for the
+comparators (sister m003; the gait/golden-column constants of the program).
+
+  level (2^1)=(2): |(O/n)^x| =  3, |im mu_6| = 3, palette = 1
+  level (2^2)=(4): |(O/n)^x| = 12, |im mu_6| = 6, palette = 2
+  level (2^3)=(8): |(O/n)^x| = 48, |im mu_6| = 6, palette = 8
+CHECK: [Q2-PALETTE] palette ladder (1,2,8) at levels (2),(4),(8) — matches [F-e] B737-P3/B739-0.5 banked  -> PASS
+CHECK: [Q2-LATTICE] Z+(2+4w)Z == Z+4wZ (HNF equal) — m004 cusp lattice is the f=4 order  -> PASS
+CHECK: [Q2-COND] m004 cusp order: conductor 4, disc -48; m003 cusp order: conductor 1, disc -3 — matches [F-f]  -> PASS
+  detector(Res_s=2 phi = 2sqrt3/vol(m004)        ) = NONE at maxcoeff 1e6, 60 digits (bounded negative)
+  detector(Res_s=1 zeta_K = pi/(3 sqrt3)         ) = NONE at maxcoeff 1e6, 60 digits (bounded negative)
+  detector(vol(m004)                             ) = NONE at maxcoeff 1e6, 60 digits (bounded negative)
+  detector(phi^2 (K-K/K-L spectrum base)         ) = [1, 1, -1], exact-verified: True
+CHECK: [Q2-E25] golden relation for phi^2 found AND sympy-exact  -> PASS
+  detector(phi^3 (B746 F3 chord dominant)        ) = [-1, -2, 1], exact-verified: True
+CHECK: [Q2-E25] golden relation for phi^3 found AND sympy-exact  -> PASS
+  detector(cos72 = 1/(2 phi) (B753 eigen Re)     ) = [1, -1, 2], exact-verified: True
+CHECK: [Q2-E25] golden relation for cos72 = 1/(2 phi) found AND sympy-exact  -> PASS
+  detector(1/(phi sqrt5) (B753 mixing entry)     ) = [-3, 1, 5], exact-verified: True
+CHECK: [Q2-E25] golden relation for 1/(phi sqrt5) found AND sympy-exact  -> PASS
+CHECK: [Q2-EXACT] 2 sqrt3 NOT in Q(phi): both cases (b=0: a^2=12; b=-2a: 5a^2=12) have no rational root  -> PASS
+
+  V(m004 cusp, voice constants) = (c=4, D=-48, palette (1,2,8) w/ levels (4)/(8) open, g=0)
+  V(m003 cusp, voice constants) = (c=1, D=-3,  level (2): palette 1 — only zeta_K,  g=0)
+  V(  — ,      gait constants ) = ( —,  —,  —,                                      g=4)
+CHECK: [Q2] operator output differs on BOTH axes (object vs sister: (4,-48,{1,2,8}) vs (1,-3,{1}); voice g=0 vs gait g=4): NOT constant — cell proceeds  -> PASS
+
+========================================================================================
+PART 2 — THE ORIGINAL KILL BASIS, RE-VERIFIED (the premises' arithmetic; upholds)
+========================================================================================
+  k=1: gap-label ranks over all hyperbolic {R,L}-words = []
+  k=2: gap-label ranks over all hyperbolic {R,L}-words = [2]
+  k=3: gap-label ranks over all hyperbolic {R,L}-words = [2]
+  k=4: gap-label ranks over all hyperbolic {R,L}-words = [2]
+  k=5: gap-label ranks over all hyperbolic {R,L}-words = [2]
+  k=6: gap-label ranks over all hyperbolic {R,L}-words = [2]
+CHECK: [KK] rank = 2 for ALL 114 hyperbolic words, k=2..6 (k=1: R,L parabolic, no closed geodesic) — constant in k (K-K basis re-verified; golden RL included, rank 2 not 1)  -> PASS
+CHECK: [KL-SEED] seed charpoly = t^2 - 3t + 1 (disc 5; eigenvalues phi^2, phi^-2)  -> PASS
+CHECK: [KL-SEED] (3+sqrt5)/2 == phi^2 exact  -> PASS
+  n=2: charpoly(Sym^1 seed) roots == {phi^{2(m-2j)}}: True; phi-exponent lattice = 2*Z, free-rank 1
+CHECK: [KL] n=2: tower eigenvalues are powers of phi^2 (exact), free-rank 1  -> PASS
+  n=3: charpoly(Sym^2 seed) roots == {phi^{2(m-2j)}}: True; phi-exponent lattice = 4*Z, free-rank 1
+CHECK: [KL] n=3: tower eigenvalues are powers of phi^2 (exact), free-rank 1  -> PASS
+  n=4: charpoly(Sym^3 seed) roots == {phi^{2(m-2j)}}: True; phi-exponent lattice = 2*Z, free-rank 1
+CHECK: [KL] n=4: tower eigenvalues are powers of phi^2 (exact), free-rank 1  -> PASS
+  n=5: charpoly(Sym^4 seed) roots == {phi^{2(m-2j)}}: True; phi-exponent lattice = 4*Z, free-rank 1
+CHECK: [KL] n=5: tower eigenvalues are powers of phi^2 (exact), free-rank 1  -> PASS
+  n=6: charpoly(Sym^5 seed) roots == {phi^{2(m-2j)}}: True; phi-exponent lattice = 2*Z, free-rank 1
+CHECK: [KL] n=6: tower eigenvalues are powers of phi^2 (exact), free-rank 1  -> PASS
+CHECK: [KL] free-rank = 1 at EVERY n in 2..6 — constant in n (K-L basis re-verified)  -> PASS
+
+========================================================================================
+PART 3 — THE FACE CONSULTED (what the original kill never did): the banked
+         emittance channel vs 'a rank observable tracking k or n'
+========================================================================================
+
+K-M's prediction requires: a rank observable R defined directly on the emittance
+spectrum with R NON-CONSTANT in composition period k or tower depth n.
+The banked face facts, consumed one-hop-verified:
+  [F-a] the continuous emittance spectrum of m004 is the SINGLE ray [1,oo),
+        multiplicity = #cusps = 1  (b739_probe_out.txt L184-208).
+  [F-b] its complete spectral data is the field's Lambda_K-quotient and nothing
+        else — divisor of phi = zeta_K zeros/poles ONLY; no conductor-(4)/(8)
+        character anywhere in the channel  (L211-236).
+  [F-c] geodesic/length data (where the composition period k lives) is classified
+        NON-SPECTRAL — outside the Laplace spectrum entirely  (L230-231).
+
+CHECK: [FACE-GAP] banked continuous channel = 1 ray, 0 interior gaps, 1 channel: the gap-label set is EMPTY and the channel count is 1 — every rank observable on this channel is CONSTANT  -> PASS
+  constancy table (the observable K-M predicts cannot exist here):
+    R_cont(k) for k=1..8 : [0, 0, 0, 0, 0, 0, 0, 0]  (gap-label rank — no gaps to label)
+    R_cont(n) for n=2..6 : [no n-indexed object exists on the frozen surface —
+                            the banked emittance face is the SL(2) Laplacian only;
+                            the SL(n) tower has no banked emittance spectrum]
+CHECK: [FACE-K] k cannot enter: k lives in geodesic/length data, NON-SPECTRAL per [F-c] (B739 PART D(2))  -> PASS
+CHECK: [FACE-N] n cannot enter: no n-indexed emittance object exists in B737/B739/B746/B753 (frozen-surface fact; the tower's own spectra are PART 2's, free-rank 1)  -> PASS
+CHECK: [FACE-RES] L(1,chi_-3): digamma route == pi/(3 sqrt3) to 55 digits; Res_s=1 zeta_K = 0.60459978808...  -> PASS
+CHECK: [FACE-RES] matches B737 banked 0.6045997880...  -> PASS
+CHECK: [FACE-VOL] vol(m004) = 3*Cl_2(2pi/3): clsin and Im Li_2 routes agree; vol = 2.02988321281930725...  -> PASS
+  2 pi^2/(9 zeta_K(2)) = 1.70655217662816160882057326578789718873795426
+  2 sqrt3 / vol(m004)  = 1.70655217662816160882057326578789718873795426
+  banked (B739 L247-249): 1.706552176628161608820573265787897188738
+CHECK: [FACE-RES2] Res_{s=2} phi: both exact-definition routes agree AND reproduce the banked 40 digits  -> PASS
+CHECK: [FACE-HUM] vol(m004)/vol(orbifold) = 12 (Humbert; B737-P1 datum recomputed)  -> PASS
+CHECK: [FACE-COL] voice constants: 0 golden relations (height 1e6, 60 digits; 2sqrt3 exact-impossible); gait controls: 4/4 exact — period/depth data (phi-powers) is gait-column, the channel is being-column  -> PASS
+
+========================================================================================
+PART 4 — VERDICT
+========================================================================================
+
+KILL-EXTENDS.  The original kill of K-M was purely derivative (PART 0: falls with
+K-K/K-L, no face consulted).  Consulting the banked spectral face adds a column the
+original kill never had:
+
+  (1) The B'-named revival route — "a rank observable defined directly on the
+      emittance spectrum" tracking composition period k or tower depth n — is
+      CLOSED on the banked face:
+        - on the continuous channel every rank observable is CONSTANT (single
+          gapless ray, multiplicity 1: PART 3a, from [F-a]); a constant tracks
+          nothing;
+        - the channel is field-rigid: it carries the Lambda_K-quotient and
+          nothing else [F-b], and its pinned constants carry zero golden-ring
+          relations (PART 3c) while k- and n-tracking data is phi-power (gait-
+          column) arithmetic (PART 2);
+        - k cannot reach the channel at all: geodesic/length data is classified
+          NON-SPECTRAL by the banked arc itself [F-c];
+        - n indexes nothing on the frozen surface: no SL(n) emittance object is
+          banked (PART 3a).
+  (2) The premises' arithmetic re-verified (PART 2): rank 2 at every k <= 6,
+      free-rank 1 at every n <= 6 — the kill's basis stands.
+
+Exactly what was computed, no more.  NOT claimed: anything about the DISCRETE
+newform spectrum (B739 PART D names it the unique spectral home of the level's
+arithmetic, owner-gated, no Maass computation banked).  No FACE-OPENS is owed
+there: K-M's observable needs k- or n-dependence, and on the banked face k-data
+is non-spectral [F-c] and no n-indexed emittance family exists; the open discrete
+question (golden data in the discrete spectrum, B746 door 2) is not a question
+K-M's claim depends on.
+
+CHECK: [VERDICT] KILL-EXTENDS — all verdict-bearing checks passed  -> PASS
+
+RESULT: ALL CHECKS PASS

@@ -1,0 +1,95 @@
+==============================================================================
+B754 P2 cell B107 — the single-scale kill vs the banked spectral face
+==============================================================================
+
+SECTION 1 — the kill basis (single scale log phi) recomputed exactly
+CHECK: charpoly(Sym^0(M1)) = prod(x - s*phi^k) over the expected 1 eigenvalues, EXACT in Q(sqrt5)
+CHECK: charpoly(Sym^1(M1)) = prod(x - s*phi^k) over the expected 2 eigenvalues, EXACT in Q(sqrt5)
+CHECK: charpoly(Sym^2(M1)) = prod(x - s*phi^k) over the expected 3 eigenvalues, EXACT in Q(sqrt5)
+CHECK: charpoly(Sym^3(M1)) = prod(x - s*phi^k) over the expected 4 eigenvalues, EXACT in Q(sqrt5)
+CHECK: SL(3) tower 8-spectrum = B107 evidence quote {1,-1,phi^2,phi^-2,phi^3,-phi,phi^-1,-phi^-3}, sets EXACTLY equal (assembly per B103 prod-Sym^d factorization, proved n=3,4 — banked)
+CHECK: every SL(3) tower eigenvalue = s*phi^k with s=+-1, k in {-3..3} (single geometric scale log phi) — EXACT
+CHECK: disc(x^2-3x+1) = 5 (the golden seed disc; B746 F1/F2 FORCED rows: kappa_seed=3, Alexander t^2-3t+1)
+CHECK: B746 F3 theta-odd chord spectrum {-phi, phi^-1, phi^3, -phi^-3} = Sym^3(M1) spectrum EXACTLY = the odd-k half of the SL(3) tower — the face already carries the tower's odd half on the GAIT column
+
+SECTION 2 — Q2 discrimination: operator V on m004 vs sister m003
+CHECK: [Q2] m003 comparator: j((1+sqrt(-3))/2) = 0 exactly (|j| computed = 3.30e-45 < 1e-6) — the GENERIC maximal-order point (B737 P3)
+CHECK: [Q2] m004: j(2sqrt(3)i) = 2835807691.876 = larger root 2835807690.422 of x^2-2835810000x+6549518250000 (rel err 5.1e-10 < 1e-8; Im j = 0.0e+00) — disc -48 conductor-4 CM (B737 P3)
+CHECK: [Q2] cusp lattice index [O:Lambda] = |det[[1,0],[-2,4]]| = 4 = 4; Smith form diag(1,4) -> O/Lambda = Z/4 (B739 (a))
+CHECK: [Q2] Z<1,4omega-2> = Z<1,4omega+2> (basis change by [[1,4],[0,1]], det 1) — B739's presentation and B737's are the same lattice
+CHECK: [Q2] 2 inert in O_K: x^2-x+1 has no root mod 2 (values [1, 1])
+CHECK: [Q2] level (2^1): |(O/2^1)^x| = 3 = 3*4^0; |(O/2^1)^x / mu_6| = 1
+CHECK: [Q2] level (2^2): |(O/2^2)^x| = 12 = 3*4^1; |(O/2^2)^x / mu_6| = 2
+CHECK: [Q2] level (2^3): |(O/2^3)^x| = 48 = 3*4^2; |(O/2^3)^x / mu_6| = 8
+CHECK: [Q2] palette along the 2-adic filtration (2)>(4)>(8) = (1, 2, 8) = (1, 2, 8) (B737 P3) — m004's level admits 8 characters at (8); m003's level admits only zeta_K (palette 1)
+
+Q2 OUTPUT m004 : ( j = 2835807690.2 [disc -48, conductor-4 order],
+                   palette (1,2,8) — 8 characters available at (8),
+                   golden query mode = EXCLUDED-BY-RIGIDITY: room exists
+                   and B739 proves NONE appears in the continuous channel )
+Q2 OUTPUT m003 : ( j = 0 [disc -3, maximal order],
+                   palette (1) — only zeta_K available,
+                   golden query mode = EXCLUDED-BY-VACUITY: no room —
+                   the exclusion is carried by the field, not the object )
+CHECK: [Q2] V(m004) != V(m003) in EVERY component (j: 2.8e9 vs 0; palette: 8 vs 1; exclusion mode: rigidity vs vacuity) — the operator DISCRIMINATES; the cell may proceed
+
+SECTION 3 — the banked voice invariants, recomputed from scratch
+CHECK: Res zeta_K = L(1,chi_-3) computed = 0.604599788078 = 2pi/(6sqrt3) = 0.604599788078 (|diff| = 0.0e+00 < 1e-9) — B737 P1 residue chain endpoint 0.6045997880...
+CHECK: zeta(2) computed by Euler-Maclaurin = 1.64493406684823 = pi^2/6 (|diff| < 1e-12)
+vol(m004) = 2*Cl2(pi/3) = 2.029883212819307  (two regular ideal tetrahedra)
+CHECK: Res phi_m004 = 2sqrt3/vol(m004) computed = 1.70655217662816 = banked 1.70655217662816 (B737 P2; |diff| = 2.2e-15 < 1e-11)
+CHECK: two-route: 2pi^2/(9 zeta_K(2)) = 1.706552176628 vs 2sqrt3/vol = 1.706552176628 (|diff| = 1.1e-15 < 1e-9) — B739 (e), covering-invariance chain
+
+SECTION 4 — the extension: field disjointness, computed exactly
+CHECK: squarefree(5) = 5 != -3 = squarefree(-3): Q(sqrt5) != Q(sqrt-3); both degree 2 over Q, so Q(sqrt5) n Q(sqrt-3) = Q
+CHECK: -15 = 5*(-3) is not a rational square (isqrt(15)^2 = 9 != 15): the compositum Q(sqrt5, sqrt-3) has degree 4 — the fields are linearly disjoint
+CHECK: phi = (1+sqrt5)/2 is real irrational (5 not a square) and Q(sqrt(-3)) n R = Q -> phi NOT in Q(sqrt(-3)): the voice field cannot contain the tower scale
+CHECK: all 6 scale-carrying tower eigenvalues (the six with k != 0) have nonzero sqrt5-part — each generates Q(sqrt5), none lies in K = Q(sqrt(-3)); the two rational ones (+-1) have log|lambda| = 0 (no scale)
+
+EXTENSION (exactly what was computed, no more): the continuous
+emittance-scattering channel of m004 — the channel the B' exposure
+flagged as never tested — is, as banked (B739 + B737 P2), the single
+multiplicity-1 Eisenstein channel with scattering Lambda_K(s-1)/
+Lambda_K(s), character-rigid, Fourier support in O^dual; its
+arithmetic content lies in K = Q(sqrt(-3)). Computed here: the tower
+spectrum is exactly {s*phi^k} in Q(sqrt5) (Section 1), and Q(sqrt5)
+meets Q(sqrt(-3)) only in Q, with phi not in K (Section 4). Hence the
+single scale log phi CANNOT appear in the continuous channel: the one
+channel the kill never consulted EXCLUDES the tower, upholding the
+category-error kill (monodromy-not-spectrum) from the spectral side.
+
+SECTION 5 — root-of-unity data carry phases, not scales
+CHECK: B753 block eigenvalues e^(+-i72deg): |lambda| = 1.000000000000000 = 1 exactly (unitary) -> ZERO eigenvalue-modulus scale content
+CHECK: B753: Re e^(i72deg) = cos72 = 1/(2phi) = (sqrt5-1)/4 EXACT in Q(sqrt5) (numeric cos(2pi/5) = 0.309016994374947, (sqrt5-1)/4 = 0.309016994374947) — the face's own root-of-unity block is GOLDEN in phase arithmetic: gait column (B746), no new scale
+CHECK: D1 data (target source B107 Addition 3): omega roots of x^2+x+1, disc = -3 -> squarefree part -3 = the BEING/voice field Q(sqrt(-3)); +-i: x^2+1, disc -4 -> Q(i). All moduli = 1: |omega| = 1.000000000000000, |i| = 1
+
+AUDIT RESULT: every root-of-unity datum in play (face: e^(+-i72deg);
+target-source D1: omega, omega^2, +-i, -1) has modulus exactly 1 —
+phases, ZERO scale. The revival clause 'could carry scales beyond
+log phi' gains nothing from root-of-unity data: on the banked face the
+only non-unit-modulus golden spectra remain the +-phi^k towers
+themselves (single scale, Section 1), and the phase arithmetic of the
+face's own unitary block is golden (gait column) while D1's omega is
+Eisenstein (being) — the two-column split the kill rests on, intact.
+
+SCOPE: B739 is weight-0 scalar; the DISCRETE newform spectrum (owner-
+gated, B746 door 2) and the off-principal multichannel sector remain
+outside the frozen surface. NEITHER is load-bearing for THIS claim:
+B107-E states the tower does not touch the off-principal reps and
+flags that sector 'explicitly NOT the dead spectral claims of C';
+B107 Addition 3 banks D1 as CONFIRMING the single-scale thesis. The
+extension claimed here is for the continuous channel exactly as the
+B' exposure flagged it — no more. (Residual open questions belong to
+the next arc's queue per the S16 review's convention note; they do not
+change this cell's verdict.)
+
+==============================================================================
+ALL CHECKS PASS
+VERDICT: KILL-EXTENDS — the banked spectral face answers the
+B'-flagged untested channel and the answer upholds the kill: the
+continuous emittance-scattering channel is K = Q(sqrt(-3))-rigid
+(B739/B737) and provably cannot carry the tower's single scale
+log phi (computed disjointness); the face's own golden spectra
+(B746 F3, B753 block) sit on the gait/monodromy column — exactly
+the kill's category. The wall gains the spectral-face column.
+==============================================================================

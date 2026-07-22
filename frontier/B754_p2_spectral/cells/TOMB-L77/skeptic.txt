@@ -1,0 +1,118 @@
+B754 ADVERSARIAL SKEPTIC -- TOMB-L77 (FACE-IRRELEVANT)
+======================================================
+
+CONCLUSION: REFUTED. The FACE-IRRELEVANT verdict rests on a material
+computational error: the Q2 operator was applied to the wrong algebraic
+datum. Three of the four pillars of the verdict are undermined. The face
+DOES touch the claim through the shared field Q(sqrt(-3)). The correct
+verdict is KILL-EXTENDS, not FACE-IRRELEVANT.
+
+ATTACKS MOUNTED (four; two succeed at overturning the verdict):
+
+1. F_ALG MISIDENTIFICATION (SUCCEEDS): The cell defines F_alg = Q(sqrt(5))
+   citing "B746 F2: Alexander poly t^2 - 3t + 1, disc = 5 -> A-poly field
+   Q(sqrt(5))." This is doubly wrong:
+   (a) The Alexander polynomial is NOT the A-polynomial (different objects
+       in knot theory; the cell conflates them at line 92 of compute.py).
+   (b) The killed claim says "algebraic at k->inf." The B742 RECOMPUTE
+       (the sibling computation for THIS SAME TOMBSTONE, Part 2, output
+       lines 58-62) explicitly computes: the saddle z* = exp(-i*pi/3),
+       minimal polynomial z^2 - z + 1, discriminant = -3, field Q(sqrt(-3)).
+       Verbatim: "discriminant = -3 -> field Q(sqrt(-3)) (the 4_1 trace
+       field; z_0 is the shape parameter of the two regular ideal
+       tetrahedra of the 4_1 complement)."
+
+   The corrected operator:
+     F_spec(m004) = Q(sqrt(-3))  [B737 scattering]
+     F_saddle(m004) = Q(sqrt(-3))  [B742 recompute Part 2, the regime-2 saddle]
+     O_corrected(m004) = True (they are the SAME field)
+
+   Pillars 2 (Q2 failure) and 3 (number-field disjointness) of the verdict
+   both tested Q(sqrt(-3)) vs Q(sqrt(5)) and found them disjoint. The correct
+   comparison is Q(sqrt(-3)) vs Q(sqrt(-3)), which trivially intersects.
+   These pillars collapse.
+
+2. COLUMN MISASSIGNMENT (SUCCEEDS): The cell's Section 4 places Regime 2
+   in the GOLDEN/hearing column via "A-polynomial -> GOLDEN/hearing." But
+   the regime-2 saddle z_0 is the SHAPE PARAMETER (geometric, not dynamical).
+   B746 FINDINGS line 42 explicitly classifies the shape/trace-field data:
+   "geometric/being column (trace field, tetrahedra, volume, cusp, voice)."
+
+   Correct column assignment:
+     Regime 2 (saddle z_0 in Q(sqrt(-3))): EISENSTEIN/being column
+     Regime 3 (Vol = 2*D(z_0)):            EISENSTEIN/being column
+     Spectral face (B737/B739):            EISENSTEIN/being column (B746 F11)
+
+   All three are in the SAME column. The two-column law does not separate
+   the face from Regime 2; it unifies them. The cell's conclusion that the
+   face "is field-disjoint from Regime 2 (golden, Q(sqrt(5)))" is an
+   artifact of the Alexander-for-saddle substitution error.
+
+3. SUB-LEADING COEFFICIENT (SUPPORTS BUT DOES NOT INDEPENDENTLY SUCCEED):
+   The B742 recompute Part 3(c) shows the WRT sub-leading coefficient is
+   3^(-1/4). The 3 here is |disc(Q(sqrt(-3)))| = 3, the absolute
+   discriminant of the spectral face's field. This provides a concrete
+   numerical channel: the spectral face's field discriminant enters the
+   WRT expansion's sub-leading algebraic stratum. However, this connection
+   is through the trace field and is shared by all Q(sqrt(-3)) manifolds
+   (m003 has the same 3^(-1/4}), so it supports attack 1 without
+   independently refuting the universality argument.
+
+4. UNIVERSALITY ARGUMENT PROVES TOO MUCH (PARTIAL): The cell's fourth
+   pillar ("the three-regime structure is universal") is logically true
+   but does not distinguish FACE-IRRELEVANT from KILL-EXTENDS. The face
+   touches the claim through the shared field Q(sqrt(-3)); the touch
+   CONFIRMS rather than REVIVES the kill. The face shows the regime
+   coefficients (z_0, Vol = 2D(z_0), 3^(-1/4}) all trace to the same
+   Q(sqrt(-3)) that builds the scattering -- this adds a spectral
+   column to the kill, it does not open a gap.
+
+WHY ATTACKS 1-2 SUCCEED:
+
+The B754 PREREGISTRATION defines FACE-IRRELEVANT as requiring: "the face
+provably does not touch the claim's subject." But the regime-2 saddle z_0
+IS in the spectral face's field Q(sqrt(-3)). The scattering (B737) is
+built from zeta_K where K = Q(sqrt(-3)), and z_0 = exp(i*pi/3) is a unit
+in O_K = Z[omega]. The connection is structural:
+
+  z_0 in O_K  ->  saddle of WRT expansion (Regime 2)
+  zeta_K(s)   ->  scattering phi(s) = Lambda_K(s-1)/Lambda_K(s) (B737)
+  D(z_0)      ->  Vol = 2*D(z_0) (Regime 3)
+  |disc(K)|   ->  sub-leading coefficient 3^(-1/4}
+
+All four are manifestations of the SAME ring O_K. The face's field content
+enters the expansion's coefficient structure. The cell's proof of
+irrelevance was built on comparing against the wrong field (Alexander
+Q(sqrt(5)) instead of saddle Q(sqrt(-3))), causing a false negative on Q2.
+
+WHY THIS DOES NOT REVIVE THE KILLED CLAIM:
+
+The face's contact with the regimes runs through the trace field, which is
+shared with m003 and all covers of the Bianchi orbifold. It does not make
+the regime structure specific to m004. The kill ("not wrong, not new")
+stands because the regime structure IS standard. But the face's contact
+makes the correct verdict KILL-EXTENDS (the face adds a spectral column
+confirming the regime coefficients trace to the standard hyperbolic
+structure), not FACE-IRRELEVANT (which claims no contact at all).
+
+RESIDUAL RISK:
+
+The discrete newform spectrum (B739: "the level's new arithmetic lives ONLY
+in the discrete newform spectrum"; B746 door #2: "owner-gated, Hejhal-class")
+could provide m004-SPECIFIC spectral data bearing on the WRT expansion
+through the Selberg trace formula. The conductor-4 Hecke characters that
+B739 excluded from the continuous spectrum DO live in the discrete spectrum
+(B739 FINDINGS line 13-14). If these discrete eigenvalues enter the WRT
+sub-leading terms in a manifold-specific way (different from m003), the
+kill itself might need reassessment. Neither the cell nor this skeptic can
+resolve this computationally (Hejhal-class machinery required).
+
+VERIFIED CHECKS:
+- z_0 = exp(i*pi/3) satisfies z^2 - z + 1 = 0, disc -3: verified to 1e-16
+- z_0 = -omega^2, omega = exp(2*pi*i/3), confirming z_0 is a unit in O_K: verified
+- B742 recompute output lines 58-62 say disc = -3, field Q(sqrt(-3)): verbatim
+- B746 FINDINGS line 42 classifies trace field in being column: verbatim
+- Cell compute.py line 92 says "Alexander poly -> A-poly field": conflation verified
+- Corrected O(m004) = True (Q(sqrt(-3)) intersects Q(sqrt(-3))): trivial
+- Sub-leading 3^(-1/4} confirmed at B742 recompute Part 3(c): verbatim
+- Res phi = sqrt(|disc(K)|)/D(z_0) numerical chain: verified to 15 digits

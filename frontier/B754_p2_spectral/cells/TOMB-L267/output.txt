@@ -1,0 +1,76 @@
+=============================================================================
+B754 P2 cell TOMB-L267 -- the CM/arithmetic cluster vs the spectral face
+=============================================================================
+
+PART 1 -- Q2 GATE: does the operator CuspCM discriminate?
+  CuspCM(m004 cusp, tau^2=-12):  disc -48, conductor 4, h 2, forms [(1, 0, 12), (3, 0, 4)]
+  CuspCM(m003 cusp, tau=zeta_6): disc -3, conductor 1, h 1, forms [(1, 1, 1)]
+  CuspCM(generic, tau^3=2):      NO-CM (End = Z)
+CHECK: Q2-OBJ CuspCM(m004 cusp) = (disc -48, conductor 4, h 2) ... PASS
+CHECK: Q2-SIS CuspCM(m003 cusp) = (disc -3, conductor 1, h 1) ... PASS
+CHECK: Q2-GEN CuspCM(generic deg-3 lattice) = NO-CM (End = Z) ... PASS
+CHECK: Q2-DISCRIMINATES: three pairwise-distinct outputs (object/sister/generic) -- operator is not generic ... PASS
+
+PART 2 -- face recomputation (B737-P3 / B739 data, exact)
+CHECK: F1 [O_K : Z+2sqrt(-3)Z] = det[[1,0],[-2,4]] = 4 (matches B739 coord matrix, SNF diag(1,4)) ... PASS
+CHECK: F2 disc End(Lambda_m004) = -48 = 4^2 * (-3): fundamental part -3, conductor 4 (matches B737-P3) ... PASS
+CHECK: F3 h(-48) = 2 via primitive reduced forms {(1,0,12),(3,0,4)} (matches B737-P3 h(-48)=2) ... PASS
+
+PART 3 -- K-N: the object-floor discriminant vs kappa
+CHECK: KN-OLD field floor: |disc Q(sqrt-3)| = 3 = kappa_1 (the banked 3=3); silver |disc Q(i)| = 4 != 6 = kappa_2 (the banked kill recomputed) ... PASS
+CHECK: KN-NEW object floor AT THE SEED: |disc End(cusp lattice m004)| = 48 != 3 = kappa_1 -- the identification fails at m=1 on the object's own spectral CM datum ... PASS
+CHECK: KN-NEW2 m^2 + 2 = 48 has no integer solution (m^2 = 46 not a square) -- the object-floor disc matches NO metallic kappa ... PASS
+CHECK: KN-NEW3 the 3=3 coincidence is field-floor only: field disc is recovered from the object's disc only as -48/4^2 = -3 (divide by conductor^2) ... PASS
+CHECK: Q6-SPECIAL sister m003 object floor: |disc End(O_K)| = 3 = kappa_1 WOULD pass at the seed -- the field/object split the face computes is m004-specific (conductor 4 > 1); the face's bearing is not generic ... PASS
+
+PART 4 -- K-O: the golden trace value vs the continuous channel
+CHECK: KO-1 v = -1/phi = (1-sqrt5)/2 satisfies x^2-x-1 = 0 exactly; x^2-x-1 has no rational root (monic => irreducible) -> Q(v) = Q(sqrt5) ... PASS
+CHECK: KO-2 Q(sqrt5) cap Q(sqrt-3) = Q: sqrt5 = a+b*sqrt(-3) forces ab=0; b=0 branch: 5 squarefree > 1 -> not a rational square (odd 5-adic valuation; scan empty); a=0 branch: -3b^2 = 5 < 0 impossible -> -1/phi NOT in K = Q(sqrt-3) ... PASS
+CHECK: KO-3 membership-in-K operator discriminates on the K-O table: comparator traces 0 (RRL/RLL/T^2R rows) ARE in K; the seed's -1/phi is NOT in K (KO-2) ... PASS
+CHECK: KO-4 prime support of the object's spectral CM datum |disc|=48 is {2,3}; disc(minpoly(-1/phi)) = 5; disjoint (matches B746 S4 '5 absent') ... PASS
+CHECK: KO-5 B739 (in-arc verified): the continuous channel is the single Eisenstein channel over K, every coefficient restricted from the level-one base, NO conductor-(4)/(8) character -> no continuous-channel home exists for a Q(sqrt5) value (b739_probe_out.txt:283,327) ... [FACE-SOURCE]
+CHECK: KO-6 B753 placement: the theta-odd weld block trace = 2cos72 = 1/phi = phi-1 exact (phi*(phi-1)=1 verified; |2cos72-0.618034|<1e-6) -- golden spectral data lives in the program-internal gait block, NOT in the object's emission channel ... PASS
+
+=============================================================================
+VERDICT: KILL-EXTENDS
+=============================================================================
+
+The spectral face bears on the killed claim in a way the original kill never
+tested, and every new column UPHOLDS the kill (kill_form category-error,
+field-vs-object -- the same kill-form B737-P4 computed for the scattering
+data itself):
+
+K-N extension (computed): the original kill tested only FIELD discriminants
+  (golden 3=3 stands as coincidence; silver 4 != 6 kills the law). The face
+  supplies the object's OWN spectral CM discriminant -- the cusp torus has CM
+  by the conductor-4 order, disc -48 (recomputed in-cell from the B739-banked
+  lattice Z+2sqrt(-3)Z; h(-48)=2 by exact form enumeration). On the object
+  floor the identification fails ALREADY AT THE SEED: 48 != 3 = kappa_1, and
+  48 = m^2+2 has no integer solution. The banked '3 = 3' was a field-floor
+  artifact: the field disc is recovered from the object's disc only after
+  dividing by conductor^2 (48/16 = 3). Sister check (Q6): m003's object-floor
+  disc IS -3, so the split is m004-specific -- the face's bearing is special
+  to this object, not generic.
+
+K-O extension (computed): the original kill counted classes in the finite
+  SU(2)_3 image. The face adds a channel fact: -1/phi generates Q(sqrt5),
+  exactly disjoint from K = Q(sqrt-3) (in-cell exact), while B739 proves the
+  object's continuous emission channel carries ONLY level-one data over K
+  (no conductor-(4)/(8) character anywhere); the object's spectral CM datum
+  has prime support {2,3}, 5 absent (B746 S4, recomputed). The 'leak'
+  reading placed a Q(sqrt5) gait-column value (B753: the theta-odd block,
+  trace +1/phi, eigenphases +-72deg -- program-internal) into the object's
+  emission channel, which is provably closed to it. A category error, now
+  with a computed spectral column the class count never touched.
+
+Exactly what was computed, no more: no revival adjudicated; the discrete
+newform spectrum stays outside the frozen surface (already registered as
+B746 door 2, owner-gated -- no new gap to queue).
+
+FALSIFIER: an exact recomputation giving End(Z+2sqrt(-3)Z) a discriminant
+other than -48 (equivalently: m004's cusp modulus is not 2sqrt(-3),
+contradicting B739's PASS line); OR an integer m with m^2+2 = 48; OR a
+source showing K-N's banked disc_CM was already the object's cusp-order
+disc -48 rather than the field disc -3; OR -1/phi in Q(sqrt-3).
+
+CHECKS: 17 PASS, 0 FAIL (+1 face-source fact verified at its arc)

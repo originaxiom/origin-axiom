@@ -1,0 +1,118 @@
+========================================================================
+B754 P2 / B516: spectral face vs golden-field Pisot dimension kill
+========================================================================
+
+--- CHECK A: arithmetic disjointness of voice and Pisot fields ---
+
+Voice field: Q(sqrt(-3)), discriminant = -3
+Pisot field: Q(sqrt(5)),  discriminant = 5
+
+Proof that sqrt(5) not in Q(sqrt(-3)):
+  If sqrt(5) = a + b*sqrt(-3) for rational a,b, then
+  5 = a^2 - 3*b^2 + 2*a*b*sqrt(-3).
+  Rationality forces 2*a*b = 0.
+  b=0 => 5 = a^2: no rational root (sqrt(5) irrational).
+  a=0 => 5 = -3*b^2 < 0: impossible.
+  Therefore sqrt(5) not in Q(sqrt(-3)).
+
+CHECK: Q(sqrt(-3)) intersect Q(sqrt(5)) = Q (fields arithmetically disjoint)
+CHECK: Compositum Q(sqrt(-3), sqrt(5)) has degree 4 over Q
+
+--- CHECK B: spectral face parameter census ---
+
+B737 parameters (zeta-quotient voice):
+  Scattering determinant: phi(s) = Lambda_K(s-1)/Lambda_K(s), K=Q(sqrt(-3))
+  Residue: Res phi = 2*sqrt(3)/vol(m004) = 1.7065521766
+  Res(zeta_K, s=1) = 2*pi/(6*sqrt(3)) = 0.6045997881
+  Cusp CM: disc -48 = -2^4 * 3 (no factor of 5)
+  Palette levels: {{1, 2, 8}} (no 5)
+  Field: ALL parameters lie in Q(sqrt(-3)) or Q. None in Q(sqrt(5)).
+
+B739 parameters (character rigidity):
+  Continuous spectrum: [1, inf), multiplicity 1
+  Content: one Eisenstein series = pullback from Bianchi orbifold
+  Hecke characters: NONE appear (conductor-4/8 palette empty)
+  Field: all data lives in Q(sqrt(-3)). No golden markers.
+
+B746 parameters (golden ledger):
+  Floors F1-F10: golden (Q(sqrt(5))) in structural/dynamical column
+  Floor F11 (voice): GAP — zero golden markers
+  Two-column law: golden = gait; Eisenstein = voice
+  F3 chord eigenvalues: [-1.618034, 0.618034, 4.236068, -0.236068]
+  These are powers of phi — structural, NOT voice parameters.
+  The F11 gap means: the SPECTRAL data of m004 has no golden content.
+
+B753 parameters (mixing structure):
+  Block entry B00 = 1/(2*phi) + i*sin(72deg)/sqrt(5)
+    Re(B00) = cos(72deg) = 1/(2*phi) = 0.3090169944
+  Eigenphases: +-72deg (5th roots of unity)
+  Mixing entry: 1/(phi*sqrt(5)) = 0.2763932023
+  These are properties of m004's theta-odd block in its weight basis.
+  They constrain m004's internal mixing, NOT the algebraic number theory
+  of coupling matrices for Fibonacci tilings.
+
+CHECK: No spectral face parameter constrains Pisot existence in golden fields
+CHECK: B746 F11 confirms voice has zero golden markers
+
+--- CHECK C: Q2 discrimination test ---
+
+Operator: 'does any spectral-face parameter match or constrain the input?'
+
+Object (B516 dim-5 Pisot): lambda = 5.571406
+  No spectral-face parameter matches lambda. Closest distances:
+    B746 F3 phi^3 = 4.236068, distance = 1.3353
+    B737 vol(m004) = 2.029883, distance = 3.5415
+    B737 Res(phi) = 1.706552, distance = 3.8649
+  Operator output for object: NO MATCH
+
+Comparator (plastic number): rho = 1.324720
+  No spectral-face parameter matches rho. Closest distances:
+    B739 multiplicity = 1.000000, distance = 0.3247
+    B737 Res(phi) = 1.706552, distance = 0.3818
+    B737 vol(m004) = 2.029883, distance = 0.7052
+  Operator output for comparator: NO MATCH
+
+CHECK: Q2 same output for object and comparator: True
+CHECK: Operator does not discriminate => no meaningful face consultation
+
+--- STRUCTURAL ARGUMENT ---
+
+The spectral face (B737/B739/B746/B753) is IRRELEVANT to B516's kill because:
+
+1. FIELD DISJOINTNESS: B516's kill lives in Q(sqrt(5)) extensions.
+   The voice lives in Q(sqrt(-3)). These fields share only Q (Check A).
+   Voice data cannot constrain golden-field Pisot numbers.
+
+2. TWO-COLUMN SEPARATION: B746 shows golden is the GAIT column;
+   the voice is the BEING column. F11 (voice) has zero golden markers.
+   Even within the spectral face, golden and voice are decoupled.
+
+3. DOMAIN INDEPENDENCE: Whether a k*k integer matrix has a Pisot
+   dominant eigenvalue is determined by its characteristic polynomial.
+   No spectral property of m004 (a specific 3-manifold) constrains
+   the eigenvalues of arbitrary integer coupling matrices.
+
+The 'spectral' in B516 means eigenvalues of finite integer matrices.
+The 'spectral' in the face means eigenvalues of the Laplace-Beltrami
+operator on m004. These are different mathematical objects with no
+theorem or pathway connecting them.
+
+========================================================================
+VERDICT: FACE-IRRELEVANT
+
+The spectral face (B737/B739/B746/B753) does not bear on the B516 kill.
+The kill is pure algebraic number theory (Pisot numbers in golden fields
+at matrix dimension 5). The spectral face is about the Laplacian spectrum
+of m004. These are mathematically independent: different operators on
+different spaces, in arithmetically disjoint number fields (Q(sqrt(-3))
+vs Q(sqrt(5))), and B746 F11 explicitly confirms zero golden markers in
+the voice. No operator consulting the face against this claim discriminates
+(Q2, Check C). The B-prime exposure flag was over-cautious: the word
+'spectral' in B516 (matrix eigenvalues) and in the face (Laplacian
+spectrum) refers to different mathematical objects.
+
+FALSIFIER: a theorem connecting Pisot numbers of coupling matrices to
+spectral data of hyperbolic 3-manifolds (e.g., if m004's discrete spectrum
+forced constraints on golden-field Pisot existence at dim 5). No such
+theorem exists in the banked surface or in known mathematics.
+========================================================================

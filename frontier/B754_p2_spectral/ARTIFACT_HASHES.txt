@@ -1,0 +1,4 @@
+# B754 ARTIFACT HASHES
+# v1 SEAL (08:15:47 CEST; base 870d8cc3; reservation #1250):
+f326adbb5a7b471c32cb7365bdeb85687bd98b5955254ab8b31d533011ddb262  frontier/B754_p2_spectral/PREREGISTRATION.md
+fbca26c178dd1ee4d96ecc3e2e2675edeab6ce0379344a17735b25108fe40d8d  frontier/B754_p2_spectral/TARGETS.json

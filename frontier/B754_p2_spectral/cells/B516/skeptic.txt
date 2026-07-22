@@ -1,0 +1,82 @@
+B754 ADVERSARIAL SKEPTIC — B516 (FACE-IRRELEVANT)
+==================================================
+
+CONCLUSION: NOT REFUTED. The FACE-IRRELEVANT verdict is correct but its
+three-check proof has five real weaknesses that do not individually or
+collectively establish a route by which the face constrains the kill.
+
+ATTACKS MOUNTED (five; none succeeds at overturning the verdict):
+
+1. CHECK A STRAW MAN: The field disjointness proof shows Q(sqrt(-3)) cap
+   Q(sqrt(5)) = Q, but the face is not purely Q(sqrt(-3)). The verdict's
+   own parameter census includes 4 parameters in Q(sqrt(5)): B746 F3
+   phi^3, phi^-1; B753 cos(72deg) = 1/(2*phi), mixing = 1/(phi*sqrt(5)).
+   CHECK A proves the VOICE field is disjoint from the Pisot field, not
+   that the FACE is disjoint. The face spans both the being and hearing
+   fields.
+
+2. Q2 OPERATOR RIGGED: The Q2 test (numerical equality with tolerance
+   1e-6) is trivially non-discriminating. A field-membership operator
+   discriminates: Q(sqrt(5)) is contained in Q(lambda_1) (the dim-5
+   Pisot's field — its sextic minpoly factors [3,3] over Q(sqrt(5))),
+   and Q(sqrt(5)) is present in the face via phi^3, etc. But Q(sqrt(5))
+   is NOT contained in Q(rho) for the plastic number (cubic extension,
+   disc -23, no quadratic subfield — degree 3 is odd). Different outputs.
+
+3. F11 GAP IS PARTIAL: B746 F11 "zero golden markers" relies on B739's
+   character rigidity, which covers the CONTINUOUS spectrum only (scalar
+   weight-0 Laplacian). B746 door #2 verbatim: "whether the DISCRETE
+   (newform) part carries golden data is open — Hejhal-class machinery,
+   owner-gated." B739 itself redirects: "the level's arithmetic lives
+   ONLY in the discrete newform spectrum." The two-column law's voice
+   = Eisenstein claim is unproven for the discrete part.
+
+4. FACE CONTAINS FINITE-MATRIX EIGENVALUES: The structural argument
+   claims the face's "spectral" = Laplacian eigenvalues, different from
+   B516's finite-matrix eigenvalues. But B746 F3 chord eigenvalues
+   {-phi, phi^-1, phi^3, -phi^-3} are eigenvalues of a finite integer
+   matrix (the SL(3) theta-odd block), not the Laplacian. Both the face
+   (F3) and the kill (coupling matrices) involve eigenvalues of finite
+   integer matrices derived from F = [[1,1],[1,0]].
+
+5. COUPLING MATRICES ARE NOT ARBITRARY: B516's coupling scan builds block
+   matrices from F = [[1,1],[1,0]]. m004's monodromy IS F^2 = [[2,1],[1,1]]
+   (the cat map; B730: "the object IS a once-punctured-torus bundle
+   (monodromy = cat map)"; B746 F2: "monodromy dilatation phi^2").
+   The kill's subject is about couplings of the object's own dynamical
+   core, not arbitrary matrices.
+
+WHY NONE SUCCEED:
+
+The kill is an existence proof: golden-field Pisot coupling matrices exist
+at dim 5. The B742 recompute confirms this with exact arithmetic (two
+distinct sextic Pisot witnesses, 46656 couplings scanned). The face's
+golden parameters (phi^3, 1/(phi*sqrt(5))) are sibling consequences of
+the same golden ratio / Fibonacci matrix, not constraints on the coupling
+scan's outcomes.
+
+For the face to be relevant, a theorem would need to show that m004's
+spectral data (Laplacian eigenvalues, scattering matrix, or mixing
+structure) RESTRICTS which F-couplings can have Pisot dominant eigenvalues.
+The Selberg trace formula connects the Laplacian spectrum to the length
+spectrum (which encodes monodromy data), but this connection goes from
+monodromy -> spectral data. The monodromy F^2 is already fully known
+algebraically; the spectral data is a consequence of it, not a constraint
+on the algebraic properties of F-coupling block matrices.
+
+RESIDUAL RISK (the sharpest open question):
+If m004's DISCRETE newform spectrum carries golden-field eigenvalues (the
+open question flagged at B746 door #2), AND those eigenvalues constrain
+Fibonacci-coupling Pisot existence through a currently unknown theorem,
+the irrelevance verdict falls. Both conditionals are open and neither can
+be computationally resolved with available tools (Hejhal-class machinery
+required for the first; no known mathematics bears on the second).
+
+ALSO NOTED:
+- B735 (emittance) was named in the sealed target's revival hypothesis
+  as "never consulted" — the B754 cell still does not consult it. B735's
+  heartbeat (length spectrum traces in Z[omega]) is being-side, consistent
+  with irrelevance, but the gap is noted.
+- The sealed target's revival hypothesis also names "V4 forced faces (B730)
+  bear on which couplings are legal" — this route was not tested by the
+  B754 cell and is not testable without defining "legal coupling."

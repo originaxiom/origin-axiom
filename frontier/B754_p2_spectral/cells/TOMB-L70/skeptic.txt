@@ -1,0 +1,79 @@
+ADVERSARIAL SKEPTIC — TOMB-L70 (KILL-EXTENDS)
+Skeptic trigger: deterministic 1-in-3 sample (index 15, 15 mod 3 = 0)
+Date: 2026-07-22
+
+VERDICT: NOT REFUTED. KILL-EXTENDS stands.
+
+================================================================================
+ATTACKS MOUNTED (5)
+================================================================================
+
+ATTACK 1: Q2 discrimination — does the claim-bearing part discriminate?
+  The disc(kappa^2-4) discriminates (5 vs -3). But the claim-bearing output
+  (IMPORTED grading) is the SAME for every manifold — it does not discriminate.
+  The cell transparently separates these: disc carries the object-specific
+  eigenphase information, IMPORTED grading carries the universal tautology
+  confirmation. For a kill-extension confirming a universal tautology,
+  universality is the correct behavior. The Q2 split is honest.
+  RESULT: PASSES WITH CAVEAT.
+
+ATTACK 2: computational novelty — is this an argument or a computation?
+  The cell's own computations are sanity-check grade: disc=kappa^2-4 (trivial
+  algebra), cos(72)=1/(2*phi) (machine-epsilon identity), (e^{i*72})^5=1
+  (numerical check), q^5=1 at k=3 (numerical check), -48 mod 5 != 0 (trivial).
+  All cited facts come FROM banked sources (B746 F1/F6/F11, B753, B739). The
+  "extension" is primarily the application of banked spectral vocabulary
+  (IMPORTED/FORCED/two-column) to a tombstone that never consulted it.
+  COUNTER: The prereg requires "a computed spectral-face fact upholds/extends
+  the kill." The cell computes the checks and states the extension as exactly
+  what was computed. The threshold is met minimally.
+  RESULT: SOFT PASS.
+
+ATTACK 3: independent mechanisms — are classical and quantum order-5 truly
+  independent?
+  The Alexander roots (3+/-sqrt(5))/2 = phi^2, phi^{-2} are real, NOT on the
+  unit circle. The B753 eigenphases e^{+/-i*72 deg} come from the unitary
+  weld block, not Alexander directly. Chain: disc=5 -> sqrt(5) -> phi ->
+  cos(72)=1/(2*phi) -> weld eigenphase.
+  At k=3, [2]_q = q+q^{-1} = 1/phi — quantum integers ARE golden. But this
+  is precisely the tautology: q=exp(2*pi*i/5) at k=3 BY DEFINITION, and
+  Q(zeta_5) contains Q(sqrt(5)). At k=4, [2]_q = 1 (rational, not golden).
+  The golden content in quantum integers at k=3 is k-specific (tautological);
+  the golden content in classical eigenphases is object-specific.
+  RESULT: PASSES.
+
+ATTACK 4: B734 congruence-tower escape route
+  The sealed target's revival_hypothesis names B734 (mod-center congruence
+  structure, m004 at level 8) as the "only nearby face if roots-of-unity
+  arithmetic is re-posed." The cell does not address B734.
+  COUNTER: B734 is outside the frozen four-arc spectral surface (B737/B739/
+  B746/B753). The P2 scope is the spectral face; B734 is a different face.
+  RESULT: NOT APPLICABLE to this cell's scope.
+
+ATTACK 5: face source verification
+  [1] B746 F6 line 25: IMPORTED grading for zeta_5-cyclotomy — VERIFIED.
+  [2] B746 F1 line 20: kappa_seed=3, disc=5 — VERIFIED.
+  [3] B746 F11 line 30: voice=NONE (zero golden markers) — VERIFIED.
+  [4] B753 lines 15-16: eigenvalues e^{+/-i*72 deg}, cos(72)=1/(2*phi) — VERIFIED.
+  [5] B739 lines 3-14: character-rigid, zeta_K only — VERIFIED.
+  RESULT: ALL 5 SOURCES VERIFIED.
+
+================================================================================
+RESIDUAL CONCERNS (non-blocking)
+================================================================================
+
+1. The extension is primarily argumentative — a vocabulary upgrade (the spectral
+   face's IMPORTED/FORCED grading restates the tautology kill in its own terms)
+   rather than a computational discovery. The three-route structure is logically
+   sound but all three routes cite pre-existing banked facts.
+
+2. The B734 congruence-tower escape route is genuinely open (outside this cell's
+   scope). If B734 defines a manifold-specific root-of-unity invariant at
+   level-(8) that is not tautological, it would be a separate question not
+   addressed by the spectral-face extension.
+
+================================================================================
+FINAL: NOT REFUTED. The computation reproduces exactly, all 5 face sources
+verify at the cited lines, the Q2 discrimination is correctly structured, and
+the three-route extension logic is coherent. KILL-EXTENDS stands.
+================================================================================

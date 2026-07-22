@@ -1,0 +1,122 @@
+====================================================================================================
+PART 0 — the killed claim's object, exact (sympy; B742/B210 conventions)
+====================================================================================================
+CHECK: [PASS] tr rho_SU(2)_3(RL) = 1/2 - sqrt(5)/2 = -1/phi EXACT (sympy) — the killed claim's number, matches banked kill
+
+====================================================================================================
+PART 1 — the kill's ground re-established: the 2880 image, census, classes (B742 C1-C7)
+====================================================================================================
+CHECK: [PASS] image order 2880 (banked 2880), nonzero-trace 1350 (banked 1350), golden-magnitude 384 (banked 384)
+CHECK: [PASS] 37 classes (banked 37); 4 golden classes (banked 4); seed class size 96 (banked 96)
+CHECK: [PASS] the 4 golden classes carry the 4 REAL signed traces {-phi, -1/phi, +1/phi, +phi} (sizes [96, 96, 96, 96])
+
+====================================================================================================
+PART 2 — NEW, never in the kill: the eigenphase census of the golden classes
+        (the kill counted |trace| only; the face speaks in eigenphases — B753's ±72deg)
+====================================================================================================
+  class tr =    -phi  size  96  eigenphases {-156, -84, +84, +156}deg
+  class tr =  -1/phi  size  96  eigenphases {-168, -48, +48, +168}deg  <-- the SEED's class
+  class tr =  +1/phi  size  96  eigenphases {-132, -12, +12, +132}deg
+  class tr =    +phi  size  96  eigenphases {-96, -24, +24, +96}deg
+CHECK: [PASS] the seed's class is the unique tr = -1/phi class (banked: 1 class shares the seed's value)
+  classes (of all 37) whose eigenphases contain the face's pair {+-72deg}: [(33, 1.236068, 12)]  [(id, trace, size)]
+CHECK: [PASS] the face's phase pair {+-72deg} is carried by NO golden class and NOT by the seed's class (it lands only on the classes above); the seed's class phases are {-168, -48, +48, +168}deg
+
+====================================================================================================
+PART 3 — the face object rebuilt from B753's OWN banked pipeline (one-hop inside the arc)
+====================================================================================================
+CHECK: [PASS] B753's theta-odd weld block at the SEED element g=RL: unitary (dev 8.7e-16), trace +0.618034+4.4e-16j = +1/phi, eigenphases {-72, +72}deg — matches B753/output.txt L11 (e^{+-i 72deg}) and L15 (trace +0.618034)
+CHECK: [PASS] the face's block trace is +1/phi, NOT the seed's -1/phi (B753 cell 2 computed chat-1's -1/phi/108deg hypothesis False — verified at B753/output.txt L14-L15)
+
+====================================================================================================
+PART 4 — Gate 5-Q Q2 (MANDATORY BEFORE USE): both operators discriminate
+====================================================================================================
+  O[SEED class (tr=-1/phi)  ] = tr -0.618034+0.000000j, phases {-168, -48, +48, +168}deg, echo {}
+  O[+1/phi class            ] = tr +0.618034-0.000000j, phases {-132, -12, +12, +132}deg, echo ['B746-F3-chord(+1/phi)', 'B753-block-trace(+1/phi)']
+  O[+phi class              ] = tr +1.618034-0.000000j, phases {-96, -24, +24, +96}deg, echo {}
+  O[-phi class              ] = tr -1.618034+0.000000j, phases {-156, -84, +84, +156}deg, echo ['B746-F3-chord(-phi)']
+  O[GENERIC: rho(RRL) class ] = tr -0.000000-0.000000j, phases {-150, -30, +30, +150}deg, echo {}
+  O[GENERIC: rho(t) class   ] = tr +0.874032+0.000000j, phases {-117, -27, +27, +117}deg, echo {}
+CHECK: [PASS] Q2a[O]: O separates the object from both generic comparators (all three outputs distinct) — the operator is not the constant map
+CHECK: [PASS] Q2b[O]: the face-ECHO component alone is non-constant across inputs (non-empty on the +1/phi and -phi classes) — an empty echo is an informative negative, not operator deadness (the B752 lesson)
+
+====================================================================================================
+PART 5 — the consultation: where the frozen surface's golden data lands in the image
+====================================================================================================
+CHECK: [PASS] the SEED's class echoes NOTHING in the frozen surface: no banked golden spectral value and no banked phase pair matches the seed's class
+CHECK: [PASS] the face's TRACE-level golden echo lands on the OTHER |1/phi| class (a non-seed class); its PHASE pair {+-72deg} lands on no golden class at all (only on the non-golden classes listed in PART 2) — the banked face data, wherever it touches the image, touches NON-seed classes
+  grep for the seed's value (-1/phi | −1/φ | -0.618) across the four frozen arcs: 4 hit(s)
+    B753_mixing_structure/FINDINGS.md:16: e^{±i·108°} (trace = +1/φ, not −1/φ; cos 72° = +1/(2φ)). And the distinction the
+    B753_mixing_structure/FINDINGS.md:38: - chat-1's specific eigenvalue claim (108°, tr = −1/φ, "different quantity") fails on all
+    B753_mixing_structure/compute.py:69: f"asserted tr_odd = -1/phi = 2cos(108deg) = {2*math.cos(math.radians(108)):+.6f})")
+    B753_mixing_structure/output.txt:15: trace(B) = +0.618034+0.000000j  (= 2*Re(banked element) = +1/phi = +0.618034; chat-1 asserted tr_odd = -1/phi 
+CHECK: [PASS] the seed's value -1/phi occurs in the frozen surface ONLY inside B753's REFUTATION lines (4 hits, all carrying a refutation marker) — the face never speaks -1/phi as a computed value
+CHECK: [PASS] voice column re-verified golden-free by VALUE tokens (0.618|1.618|golden|sqrt5|sqrt(5)|2.2360): 0 hits in all committed B737+B739 files — B746 F11 reconfirmed (the letter 'phi' is excluded by design: it names the scattering matrix phi(s) there, a notation collision, not a golden marker; B739's theorem makes this structural: the continuous channel carries Lambda_K(s-1)/Lambda_K(s) and nothing else)
+
+====================================================================================================
+PART 6 — Q6 specialness budget: the SAME banked block at the tombstone's comparator words
+        (RRL, RLL — the words the tombstone lists with SU(2)_3 trace exactly 0)
+====================================================================================================
+  word RL   [SU(2)_3 trace -1/phi]: theta-odd weld block trace +0.618034+0.000000j, |trace| 0.618034, unitarity dev 8.72e-16, golden-magnitude True
+  word RRL  [SU(2)_3 trace      0]: theta-odd weld block trace -0.500000+0.866025j, |trace| 1.000000, unitarity dev 8.02e-16, golden-magnitude False
+  word RLL  [SU(2)_3 trace      0]: theta-odd weld block trace -0.500000-0.866025j, |trace| 1.000000, unitarity dev 5.27e-16, golden-magnitude False
+CHECK: [PASS] the comparator blocks' traces are EXACTLY e^{+-i 2pi/3} (|trace| = 1): being-column (Eisenstein-unit) values in B746's two-column vocabulary — not golden
+CHECK: [PASS] Q6 comparator outcome computed: golden-magnitude block at RL True, at RRL False, at RLL False -> the face's golden datum IS seed-special among the tombstone's own words (3 words are NOT a census — see PART 7/8)
+  descent probe: S6^2 != I (||S6^2 - I|| = 4.000), S6^4 = I (||S6^4 - I|| = 2.9e-15)
+    full block at RL      : trace +0.618034+0.000000j
+    full block at RL*s^2  : trace +0.618034+0.000000j
+    full block difference norm: 7.4e-16
+CHECK: [PASS] descent NOT REFUTED: S6^2 != I in SU(3)_2 (||S6^2-I|| = 4.000, the test pair is non-trivial), yet the theta-odd blocks at RL and RL*s^2 are IDENTICAL (diff 7.4e-16) — the block is invariant under the SU(2)_3-kernel element S6^2, consistent with being a function of the SU(2)_3 class (1 pair, not a proof of descent for all kernel elements)
+
+====================================================================================================
+PART 7 — THE GAP DEMONSTRATED: none of the four frozen arcs answers the census question
+====================================================================================================
+CHECK: [PASS] token 'RRL|RLL' appears NOWHERE in the four frozen arcs (0 hits) — no arc ever evaluated the weld at any comparator word
+CHECK: [PASS] token '2880' appears NOWHERE in the four frozen arcs (0 hits) — no arc ever touched the finite 2880 image at all
+CHECK: [PASS] 'weld' appears only in B753 (9 hits); B753/compute.py builds it at the single word g=RL (W_weld = C @ R @ L, its L42) — ONE evaluated word in the whole frozen surface
+  per-arc shortfall (the four arcs, one line each):
+   - B753: evaluates B(w) at exactly one word (RL); no comparator, no base rate, no census;
+     its own scope line: 'the 2x2 theta-odd block of the twisted weld at g = RL'.
+   - B737: scattering/voice only — phi(s)=Lambda_K(s-1)/Lambda_K(s), residue, cusp CM;
+     no finite-image or weld quantity anywhere (greps above: 0 hits).
+   - B739: the character-rigidity theorem is scoped to the CONTINUOUS channel of the
+     scalar weight-0 Laplacian (its 'Honest bounds'); silent on the MTC/weld face.
+   - B746: a mapping ledger; its golden-spectral entries cite other floors (F3 chord,
+     F8 overlay); its own open doors (F11-adjacent: discrete-spectrum golden question
+     owner-gated; door 1 mirror sweep never run) mark the golden-spectral census unrun.
+
+====================================================================================================
+PART 8 — VERDICT
+====================================================================================================
+VERDICT: FACE-OPENS
+THE OPENED QUESTION (queued, NOT claimed — the kill's own base-rate lesson is exactly
+why 3 words are not a census):
+  operator      : w |-> (trace, eigenphases) of B(w) = U^dag C rho_{SU(3)_2}(w) U — the face's
+                  own theta-odd weld block (B753's banked pipeline), extended from B753's single
+                  word to a census.
+  input         : the word/SL(2,Z)-class census over the banked 2880 image's 37 classes — with
+                  the descent not refuted here (PART 6: RL and RL*s^2, same SU(2)_3 element
+                  but different SU(3)_2 elements, produce IDENTICAL blocks — consistent with
+                  descent, 1 pair) so the census may be posed on image classes if full descent
+                  is confirmed, else on SL(2,Z) classes or the joint level-rank image.
+  discriminator : the weld-face golden rate (fraction of classes/words with golden-magnitude
+                  block trace) and whether golden-block-ness separates the seed's class from
+                  the other 3 golden classes.
+  what-an-answer-changes:
+                  rare-and-seed-only  -> the tombstone's own revival condition ('a class-level
+                  invariant separating the seed from the other golden-magnitude classes')
+                  acquires its FIRST computed candidate — next-arc queue entry;
+                  base-rate-common    -> K-O's kill extends onto the weld face and the B'
+                  exposure closes.
+WHY THIS CELL CANNOT SETTLE IT: the computed evidence is 3 words (RL golden; RRL, RLL exactly
+e^{+-i 2pi/3}, not golden) — the same sample size whose per-element table the original kill
+REFUTED by the full 2880 census; banking 'seed-special' from 3 words would repeat the exact
+error K-O died of. The frozen surface contains ONE evaluated word (PART 7): the census does
+not exist in the banked record.
+WHAT THE CELL DID SETTLE (the kill-upholding side, computed): the seed's class echoes NOTHING
+banked (PART 5); -1/phi is spoken by the frozen surface only as B753's refuted assertion; the
+voice is golden-free (B746 F11 reconfirmed); the face's banked golden datum carries the
+signature of NON-seed classes (trace-echo on the +1/phi class; phase-pair on non-golden
+classes only).
+
+CHECK-SUMMARY: 20/20 passed
