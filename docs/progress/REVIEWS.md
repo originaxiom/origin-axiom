@@ -1884,7 +1884,7 @@ survive the seats that minted them.
   arbitrates or cc adopts with the courier's read (owner: cc/owner) — DONE 2026-07-22: E23/E24/E25
   ADOPTED into ERROR_LEDGER (cc adopts per the authorization; cc+cc3 concurrence on record in the
   2026-07-21 relays; adoption relay sent to the reopened cc3 with an amendment window)
-- [>] R27-6 (P2 half UNDER WAY 2026-07-22: B754 reserved, cc3 on hunt/p2-spectral; P3 deferred by design): the P2/P3 stratum — re-test the 30 earned kills against the new anatomy using cc3's
+- [>] R27-6 (P2 half DONE 2026-07-22: B754 banked #1255 — 17 KILL-EXTENDS / 2 FACE-IRRELEVANT / 0 FACE-OPENS; P3 carried to R28): the P2/P3 stratum — re-test the 30 earned kills against the new anatomy using cc3's
   sealed B′ exposure list + the merged (~275-id) kill corpus with a UNIFIED enum (owner: cc)
 - [x] R27-7: ledger hygiene — LAW_MAP/RETRACTIONS rows cite their computation's location
   (exact_scope pointers), so ledger-scoped audits verify without the hop (owner: cc) — DONE
@@ -1893,3 +1893,99 @@ survive the seats that minted them.
   must carry a path)
 
 anchor-commit: `a9d0a1d1` (Review 27)
+
+---
+
+## Review 28 — 2026-07-22
+
+anchor-commit: `ccadb0ee`. Window: 21 first-parent merges since R27 (`a9d0a1d1`), #1239–#1257
+(B745–B756 + the governance adoptions). Single-seat window on the cc side with two partner-seat
+packages received and gated (cc3's B749/B754; the reopened cc2's B756); the pre-review
+verification sweep ran at the owner's request and BANKED before this review (#1257) — the
+review starts from an audited ledger, not an asserted one.
+
+### (1) The window's headline results
+
+- **The convergent sentence, three independent arcs.** The census triple (B747/B748: no child
+  in the 78-slope grid re-sees being, hearing, OR meeting — the forced V₄ is interface-only),
+  the lack ledger (B750: UNIFIED-3 — no point, no width, no name; X empty), and the genesis
+  forks (B749: golden survives Sol closure; ℚ(√−3) is bought exactly at geometrization) land
+  on one computed sentence from three directions: **the object provides the group but never
+  the choice, the structure but never the variation, the gait but never the name.** This is
+  the window's load-bearing deliverable and the phenomenology track's designated vocabulary.
+- **The golden ledger (B746).** "Golden all the way up" verified as a sealed 12-floor remap:
+  10/12 FORCED — and the gap IS the finding (the voice is pure being-field). First vertical
+  PROGRESS_LOG remap.
+- **The genesis priced (B749, cc3).** Four robust forks, two fragile — the discarded det −1
+  sibling IS the Gieseking (m004's parent; both sealed routes + a cc third route), and A5 is
+  the step that buys the being field (all four redundancy witnesses failed exactly).
+- **The revivals confirmed (B745)** — headers on B58/B225; the SL(5)+ numerical tower door
+  open; the octahedral-parent question honestly OPEN.
+- **The mixing structure (B753).** The weld's θ-odd block is exactly unitary (eigenphases
+  ±72°); the kind-correct mixing matrix is golden-exact with |B₀₀|² = 1−p = 1/(φ√5); the
+  courier's sign puzzle resolved as the B592 sign-flip (both seats right); the one-number
+  pin co-signed — the JUNO registration stays 0.30902, no post-hoc alternatives.
+- **The carried recomputes (B755, 5/5)** — the genus-2 CS-flip witnessed; the GSWZ pure-3
+  fact computed FROM the Kashaev sum (r₁–r₅ recognized, eq (2) reproduced exactly, pure-3
+  through u⁵, out-of-sample scaling law at 0.2%); three vacuous/broken artifacts repaired.
+- **The P2 stratum (B754, cc3).** 19/19: 17 KILL-EXTENDS, 0 FACE-OPENS — WALL-1 gains a
+  four-mechanism spectral column.
+- **The remaining doors (B756, cc2).** The B699 general gloss REFUTED (six counterexamples
+  across two seats; scope-corrected in place; the field-reading precision note recorded);
+  the Euler-product question closed by an exact iff-law with defect (1−√5)/2; L108 minted.
+
+### (2) The two-seat verification audit
+
+Every banked consequence in the window carries in-seat verification: B749 (7/7 re-exec +
+4 independent + 3 skeptics), B754 (8/19 cc re-exec + 8/19 cc3 spot-checks, zero divergence),
+B756 (DOOR2 4/5 + a 6th counterexample; DOOR3 proved independently), B745/B755 (independent-
+route addenda; B755's out-of-sample test is the window's methodological high point). The two
+adjudications (B751/B752) reached two-seat convergence with SEALED-BEFORE-RELAY provability.
+**Named partial, carried:** DOOR6 rests at cc2's two-layer basis (R28-4). The stopping rule
+held under live fire twice (the α_s claim; the Born-weight dispute) — both resolved by
+computation, neither by authority, and the registered forward test is UNCHANGED.
+
+### (3) The firewall / Gate-5 audit
+
+Nothing physics-facing banked; the two SM-adjacent episodes ran in the defensive lane with
+sealed preregs and ended in HINT_LEDGER rows + named honest doors. **GATE 5-Q ADOPTED**
+(#1248, owner red pen + cc3 concurrence + cc2 compliance in B756) — the phenomenology
+firewall with the comparator-object control and the any-domain value-claim rule; checked at
+every prereg seal from now on. S072 (the qualia program) and P019 (the genesis chain) sit
+in their governed rooms with falsification edges declared.
+
+### (4) Error-class recurrence
+
+E23/E24/E25 ADOPTED (#1247, consensus-final). The window's fresh instances, all caught
+in-session and logged: the pslq tol-vs-height trap (B755 — an E25 cousin on the recognition
+side), the parity trap (t² = Φ², not the symmetrized product — self-caught before misleading),
+the atlas-fresh gate's B-dir semantics (twice: B749, B754 — now relayed as a standing note to
+cc3), the checker-side init bug (B755's verification addendum — caught by its own mismatch
+line), and the superscript-mangling source-extraction failure (B685's old inline text — the
+class: PDF-extraction artifacts read as coefficients; the counter-rule is the B755 pattern:
+recompute the series from the defining object, don't re-read the rendering). No NEW error
+class minted this window; E19/E20/E25 discipline demonstrably load-bearing throughout.
+
+### (5) Provenance
+
+All cross-seat packages hash-verified on receipt (B749's seals + erratum re-seal; B754's
+bd24a285; B756's ec14cacf + the sealed raw log carried under a narrow per-file attribution
+exemption — the B742 precedent, per-file not per-prefix). The relay channel's monitor
+discipline (self-noise filtered) held across two session restarts. One stale cross-seat note
+corrected in relay (cc3's "B745 pending" — it had banked two days prior).
+
+### Action items (Review 28)
+
+- [ ] R28-1: the external specialist pass — the package now adds the genesis pricing
+  (Gieseking parent), the V₄ census triple, and the GSWZ computation (carried from R27-1)
+- [ ] R28-2: the web seat's L95 prereg — verify-on-receipt (carried from R27-2)
+- [ ] R28-3: H-EAR's residual formal statement (carried from R27-3)
+- [ ] R28-4: DOOR6 depth — the B646 r-ladder convention trace + in-seat re-derivation of
+  the (tr_odd,tr_even)(23) fact (the window's one named partial)
+- [ ] R28-5: the P3 stratum — depth-exposure (E22) re-adjudication from the kill_graph
+  depth_reached field (cc3-designed; carried from R27-6's second half)
+- [ ] R28-6: B500 wrap-up — bank the straggler verdict when the run ends (26 TIMEOUT + 9
+  never-reached at last count; two deep cases at PARI limits; honest-residual report)
+- [ ] R28-7: L108 — the two-ℤ/3 identity cell (B326 ≟ B302; the one DOOR4 residual)
+- [ ] R28-8: the QP cells (S072) — QP-3 first, under Gate 5-Q, when the owner opens the
+  phenomenology track's first arc

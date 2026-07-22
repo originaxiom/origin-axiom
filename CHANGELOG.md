@@ -1,5 +1,8 @@
 # Changelog
 
+## Review 28 — the convergent-sentence window (anchor ccadb0ee)
+- 21 merges audited; three-arc convergence named as the load-bearing deliverable; every banked consequence verified in-seat (one named partial → R28-4); Gate 5-Q adopted and enforced; no new error class; 8 action items.
+
 ## B756 — cc2's remaining-doors package: DOOR2 law-refutation + DOOR3 exact iff-law banked
 - "5-inert ∧ fibered ⇒ golden" refuted (5 counterexamples; cc recomputed 3 from scratch); the B699 LAW_MAP row scope-corrected (m004-specific content stands).
 - The Euler-product door closes with a theorem: a_m·a_n = a_mn ⟺ χ₂(m)=+1 ∨ χ₂(n)=+1, defect (1−√5)/2 — cc-proved from the banked B666 form. DOOR4 obstructed (L108 registered); DOOR6 flags FIRM. Locks test_b756 (3).
