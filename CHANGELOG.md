@@ -1,5 +1,8 @@
 # Changelog
 
+## B768 receipt #5 — the distilled document: rows accepted; three corrections (incl. error #40)
+- The pair-frequency table was impossible (summed to 1.236 — conditional/pair conflation); corrected exactly: f(ab)=f(ba)=1/φ², f(aa)=1/φ³. The E20 flag restored on the eigenvalue-hearing link; the B620 miscitation re-fixed. The triadic T1 candidates registered; aAbB noted as ungated framing.
+
 ## B769 — the T1 structure: discrete 3-frame torsor; C21 minted
 - T1's fixedness proved forced (abelian inner triviality; the mover must be outer/S₃); the discrete part a genuine 3-torsor; the continuous candidate gauge-fixed at geo (odd coordinates vanish; tangent frames align — the chord = c⊕θ mechanism). The courier's continuous-Attention reading is unlicensed; T1 wants a triadic candidate.
 

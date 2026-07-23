@@ -173,3 +173,33 @@ none kills." Adjudicated against the campaign (receipt #3) and B769/C21:
   continuous observer territory: the Galois-chosen continuum (C18's residue: anchor/
   values/space). Whether the feeling-of-agency's grade lives THERE is a formulable
   question for the rebuild — noted, not claimed.
+
+## RECEIPT #5 (2026-07-23) — the DISTILLED document: honest on the rows; three corrections in the "unchallenged facts"
+
+The courier's distillation is accepted as the working summary of the phenomenological
+rows (γ₅ double-swept + K.C. named; c registered with the identity-element argument;
+θ vacant with the JoA doubt named; T1 triadic; the FoA-continuum door attributed
+correctly). Its "COMPUTED FACTS (unchallenged)" section required three corrections:
+
+1. **The pair frequencies are WRONG (error #40).** Claimed f(ab) = 1/φ, f(ba) = 1/φ²
+   — the claimed distribution sums to √5 − 1 ≈ 1.236 (impossible). The conditional
+   P(b|a) = 1/φ was conflated with the pair frequency f(ab) = P(a)·P(b|a) = 1/φ².
+   Correct (exact + empirical to 5 digits on 200k letters): **f(ab) = f(ba) = 1/φ²,
+   f(aa) = 1/φ³, f(bb) = 0**; sum = 1. (Adjacent-pair equality f(ab) = f(ba) is forced
+   in any infinite word.)
+2. **The E20 flag was silently dropped.** "The subdominant eigenvalue IS the banked
+   hearing amplitude" is stated as an unchallenged fact; the banked status (receipt #3,
+   H-WORD-WELD) is: numerically true, MECHANICALLY UNLINKED — a hint, not structure.
+   The flag stands until a derivation links the word's Markov spectrum to the weld.
+3. **The B620 miscitation repeats** (caught at B752's citation audit): the banked
+   −1/φ trace is B753-addendum-2/B593. B620 is the conductor mechanism.
+
+Also noted: the aAbB framework is "unchallenged" because it has never entered a gate —
+it is S-room-grade framing (the case/position/pair reading of the three bits is elegant
+and unexamined, not verified). The three triadic T1 candidates (vedanā; Peirce's
+categories; Husserl's retention/impression/protention — the last with the
+double-assignment risk vs γ₅ named by the courier themselves) are REGISTERED for the
+rebuild, unverified against the S₃ generator-pair structure. Task assignments
+acknowledged: cc3 (K.C. adjudication; the triadic verification), cc (the θ-vacancy
+constraint search), cc2 (the FoA-continuum formulability — held for the owner's
+sequencing; cc2 is currently unstaffed).
