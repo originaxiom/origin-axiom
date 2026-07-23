@@ -1,0 +1,83 @@
+{
+ "voice": {
+  "arity": 1,
+  "symmetry": "none (rigid)",
+  "relations": "emits the self-name's data",
+  "invariance": "covering-invariant residue",
+  "falsifier": "a second channel or any conductor character",
+  "lock": "tests -- B737/B739 family",
+  "banked": "C10"
+ },
+ "self-name": {
+  "arity": 1,
+  "symmetry": "none",
+  "relations": "composed of the voice's four data",
+  "invariance": "unique in 203,123; twin separated by cusp lattice",
+  "falsifier": "an unrelated census homonym",
+  "lock": "tests/test_qp1_self_naming.py",
+  "banked": "B762"
+ },
+ "transparency": {
+  "arity": "all-ranks",
+  "symmetry": "deck-equivariant",
+  "relations": "makes the self-name boundary-readable",
+  "invariance": "fiber_dim = 0 at n=2,3,4 (double-method)",
+  "falsifier": "any nonzero fiber",
+  "lock": "tests/test_qp2_private.py",
+  "banked": "B761"
+ },
+ "integration": {
+  "arity": 2,
+  "symmetry": "theta-split",
+  "relations": "couples chord & sum sectors",
+  "invariance": "onset exactly at SL(3); strength |u-ubar| (the pair-separation law)",
+  "falsifier": "SL(2) coupling or a field-independent strength",
+  "lock": "tests/test_qp3_integration.py + test_b764_c19.py",
+  "banked": "B759+B764/C19"
+ },
+ "no-closure": {
+  "arity": 1,
+  "symmetry": "Galois",
+  "relations": "what the three bits supply from outside",
+  "invariance": "{zeta5, zeta5^4} inseparable; 5 operations fail",
+  "falsifier": "any object-native sign",
+  "lock": "tests/test_qp4_closure.py",
+  "banked": "B760"
+ },
+ "three-bits": {
+  "arity": 3,
+  "symmetry": "F2^3",
+  "relations": "chord = c XOR theta; gamma3 == c",
+  "invariance": "rank EXACTLY 3 = the menu (saturated)",
+  "falsifier": "a fourth independent bit or a collapse",
+  "lock": "tests/test_b766_torsor.py",
+  "banked": "B766/C20"
+ },
+ "time=basepoint": {
+  "arity": 1,
+  "symmetry": "gamma5",
+  "relations": "ONE bit appearing as time-arrow AND basepoint AND sqrt5-branch",
+  "invariance": "(1-phi)^2 = phi^-2 exact",
+  "falsifier": "an instrument separating the two appearances",
+  "lock": "tests/test_b766_torsor.py",
+  "banked": "B766"
+ },
+ "unmoved-axis": {
+  "arity": 1,
+  "symmetry": "outside the banked involutions",
+  "relations": "the c/theta pairing itself",
+  "invariance": "fixed by all of I",
+  "falsifier": "an involution moving it (= the instrument)",
+  "lock": "reported in B766 output",
+  "banked": "B766 (the named door)"
+ },
+ "galois-continuum": {
+  "arity": "continuous",
+  "symmetry": "Galois-chosen (K020)",
+  "relations": "beyond all three bits",
+  "invariance": "total non-canonicity (B712)",
+  "falsifier": "a canonical point anywhere in it",
+  "lock": "tests -- B711/B712 family",
+  "banked": "C16/K020"
+ }
+}

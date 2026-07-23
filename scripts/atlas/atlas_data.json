@@ -15946,6 +15946,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B768": {
+   "slug": "correspondence crosstest",
+   "motifs": [
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [
+    "B701",
+    "B753",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B76": {
    "slug": "cusp quantum group",
    "motifs": [
