@@ -2078,7 +2078,10 @@ relay channel locally versioned; the collision protocol's rows now generator-saf
 - [ ] R29-3: B500 wrap-up (carried from R28-6; the run's final processes)
 - [ ] R29-4: the depth-closure backlog (carried from R28-10; 6 items + B500's via R29-3;
   sequencing split cc/cc3 at the owner's call)
-- [ ] R29-5: the measurement-torsor cell — C18's residual frontier (OWNER-GATED: the
-  phenomenology track's next substantive opening)
+- [x] R29-5: the measurement-torsor cell — C18's residual frontier (OWNER-GATED: the
+  phenomenology track's next substantive opening) — OPENED by the owner and DONE
+  2026-07-23 (B766): RANK-SATURATED — the discrete closing set has rank exactly 3 =
+  the B733 menu (generators c/θ/γ₅); time's arrow = the basepoint bit; the chord = c⊕θ;
+  C20 minted
 - [ ] R29-6: the sampled mutation test (2 locks, restore-after) becomes a standing review
   step — first execution due at Review 30

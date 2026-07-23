@@ -1,0 +1,51 @@
+========================================================================================
+CELL 1 -- the action table (each entry an in-sandbox re-derivation)
+========================================================================================
+[ground] tr(AB)|geo = 5/2 - sqrt(3)*I/2;  chord value = sqrt(3) (= sqrt3, purely 'odd')
+[ground] monodromy eigenvalues = [sqrt(5)/2 + 3/2, 3/2 - sqrt(5)/2]
+  T4 chirality-side     : c=FLIP  theta=FIX  gamma5=FIX  gamma3=FLIP (== c on this axis: both conjugate sqrt-3)
+  T6 chord-sign         : c=FLIP  theta=FLIP  gamma5=FIX (chord values in sqrt3*Q at geo)  gamma3=FLIP (conjugates sqrt-3)
+  T7 time-direction     : c=FIX  theta=FIX  gamma5=FLIP  gamma3=FIX (eigenvalues in Q(sqrt5))
+  T1 c/theta-pairing    : c=FIX  theta=FIX  gamma5=FIX  gamma3=FIX   [UNDECIDED-BY-I: no banked involution moves this axis]
+  T3 basepoint-bit      : c=FIX  theta=FIX  gamma5=FLIP (Out(A5) = the 5A/5B swap = Frobenius/gamma5; B701)  gamma3=FIX
+
+========================================================================================
+CELL 2 -- the relation lattice and the rank
+========================================================================================
+gamma3 column == c column on all axes: True  (gamma3 drops as a generator)
+  T4 chirality-side      flip-vector (c,theta,gamma5) = (1, 0, 0)
+  T6 chord-sign          flip-vector (c,theta,gamma5) = (1, 1, 0)
+  T7 time-direction      flip-vector (c,theta,gamma5) = (0, 0, 1)
+  T3 basepoint-bit       flip-vector (c,theta,gamma5) = (0, 0, 1)
+
+the span of the four moved axes' flip-vectors: F2-rank = 3
+explicit relations found:
+  T7 time-direction == T3 basepoint-bit (same flip-vector: one choice determines the other)
+
+DISCRETE RANK of the moved measurement torsor = 3 bits
++ T1: one axis UNMOVED by the banked involution set (its choice, if genuine, is
+  outside I's reach -- reported per the prereg, not counted in the I-rank)
++ the continuous residue (T2/T5/T8): non-canonical per B712 -- dimension counted
+  separately; NO discrete reduction claimed
+
+========================================================================================
+CELL 3 -- the menu comparison (the headline)
+========================================================================================
+B733's observer menu: F2-rank 3 (banked; diagonal saturation [0,2,3,3,3,3])
+B766's discrete torsor rank (under I): 3
+VERDICT: RANK-SATURATED -- the discrete choice-space the involutions reach equals
+the banked menu rank: the observer's discrete menu IS the full discrete closing set.
+
+========================================================================================
+CELL 4 -- Q2b comparators
+========================================================================================
+m003: identical flip-table on shared axes (same field, same eigenvalues -- the
+      relations are FIELD/CLASS-level; the object-specific residue = T3's bit)
+Gieseking parent: T4 degenerate (non-orientable -- no side to choose): the table's
+      T4 row exists ONLY downstream of the A6/orientation choice (C5) -- structural
+      control PASS: the torsor's axes are choice-DEPENDENT, exactly as C18 states.
+
+CELL 5 -- the K020 connection: the continuous residue (T2/T5/T8) is the banked
+'value Galois-chosen' territory; recorded as structure; no value computation (the pin).
+
+B766 COMPLETE
