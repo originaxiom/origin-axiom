@@ -7595,3 +7595,17 @@ miscitation repeated (it's B753-add.2/B593). The aAbB framing noted as S-room-gr
 (never gated). The three triadic T1 candidates registered unverified (vedanā / Peirce /
 Husserl's temporal triad, the last with the courier's own double-assignment caveat).
 Nothing to CLAIMS.
+
+## 2026-07-23 — the Closure Program drafted (merged); the courier's handoff received with one governance refusal
+The courier's closure handoff diffed against cc's phase design and absorbed where it
+survives (docs/CLOSURE_PROGRAM.md, DRAFT pending cc3's close-out + the owner's go).
+Adjudication: two STALE items (the depth-kill count is 4+B500, not seven — B767 already
+closed two; "let the stabilisations complete" postdates their delivery); one internal
+CONTRADICTION (their new θ-candidate "ownership" is the c-side by their own Side-B
+citations — cannot occupy θ; upādāna enters the gate as genuinely new); one governance
+REFUSAL banked: their proposal to timestamp BOTH JUNO numbers violates the co-signed
+one-number pin — the registration stays 0.30902 alone; timestamping hardens provenance,
+it must not widen the bet. Their genuinely new contributions: the OpenTimestamps idea
+(amended to the pin), upādāna, the D₅=Spin(10) check, the delivery criteria (absorbed
+into Phase 5). Their plan lacks the walls phase and the null/T1-mover/H-WORD-WELD
+structural cells — kept from cc's design. Sequencing stands: cc3's close-out first.
