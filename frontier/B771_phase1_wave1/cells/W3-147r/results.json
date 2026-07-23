@@ -1,0 +1,136 @@
+{
+ "defect_reproduced": true,
+ "n_coeffs_checked": 168,
+ "corrupted_coeffs": [
+  {
+   "m": "5",
+   "idx": 8,
+   "stored": "1324075",
+   "buggy": 1324074,
+   "correct": 1324075
+  }
+ ],
+ "selftest_stratified_wrong_count": 12,
+ "selftest_stratified_tested": 2400,
+ "polys_changed_by_fix": {
+  "5": "t**3"
+ },
+ "palindrome_check": {
+  "1": {
+   "palindromic": false,
+   "anti_palindromic": true
+  },
+  "4": {
+   "palindromic": false,
+   "anti_palindromic": true
+  },
+  "5": {
+   "palindromic": false,
+   "anti_palindromic": true
+  },
+  "7": {
+   "palindromic": false,
+   "anti_palindromic": true
+  },
+  "8": {
+   "palindromic": false,
+   "anti_palindromic": true
+  },
+  "11": {
+   "palindromic": false,
+   "anti_palindromic": true
+  }
+ },
+ "m1_matches_wave2": true,
+ "delta5_at_1_buggy": "-1",
+ "delta5_at_1_fixed": "0",
+ "m5_old_vs_new": {
+  "2": {
+   "old": "-723876607",
+   "new": "361938304",
+   "changed": true
+  },
+  "3": {
+   "old": "-285996435271441921",
+   "new": "95332144781721600",
+   "changed": true
+  },
+  "4": {
+   "old": "-96548829794612052088664887",
+   "new": "24137207388529846155417600",
+   "changed": true
+  },
+  "5": {
+   "old": "-30369670811955279481643389803873251",
+   "new": "6073934162391055797622681409985025",
+   "changed": true
+  }
+ },
+ "results_by_m": {
+  "1": {
+   "all_integer": true,
+   "values": {
+    "2": "7",
+    "3": "36",
+    "4": "175",
+    "5": "841",
+    "6": "4032",
+    "7": "19321",
+    "8": "92575",
+    "9": "443556",
+    "10": "2125207",
+    "11": "10182481",
+    "12": "48787200",
+    "13": "233753521",
+    "14": "1119980407",
+    "15": "5366148516",
+    "16": "25710762175",
+    "17": "123187662361",
+    "18": "590227549632",
+    "19": "2827950085801",
+    "20": "13549522879375",
+    "21": "64919664311076",
+    "22": "311048798676007",
+    "23": "1490324329068961",
+    "24": "7140572846668800",
+    "25": "34212539904275041"
+   }
+  },
+  "4": {
+   "all_integer": true,
+   "values": {
+    "2": "573440",
+    "3": "238827690000",
+    "4": "95648125849436160",
+    "5": "38068649366116867201201"
+   }
+  },
+  "5": {
+   "all_integer": true,
+   "values": {
+    "2": "361938304",
+    "3": "95332144781721600",
+    "4": "24137207388529846155417600",
+    "5": "6073934162391055797622681409985025"
+   }
+  }
+ },
+ "numeric_cross_check_m5_pass": true,
+ "selftest_vacuity_depends_on_cfree": true,
+ "selftest_T2_true_vs_buggy_differ": true,
+ "new_class_survives_fix": true,
+ "gate_reading": "evidence for gate-A 'no forced choice' EXTENDED on corrected data",
+ "summary": {
+  "defect_reproduced": true,
+  "n_corrupted_coeffs_in_banked_data": 1,
+  "polys_changed_by_fix": [
+   5
+  ],
+  "m1_all_integer": true,
+  "m4_all_integer": true,
+  "m5_all_integer_fixed": true,
+  "numeric_cross_check_m5_pass": true,
+  "vacuity_selftest_pass": true,
+  "new_class_survives_fix": true
+ }
+}

@@ -1,0 +1,8 @@
+[     0.0s] == STEP 0: re-derive frequencies from the substitution incidence matrix ==
+[     0.0s] GATE G0 Perron freq vector == banked closed form (phi,sqrt(phi)): PASS  max|diff|=5.55e-17
+[     7.8s] GATE G0b sympy: banked FREQ is an exact eigenvector of the incidence matrix: PASS  M F parallel to F (exact)
+[     7.8s]   TARGET_IDS = [np.float64(0.272019649514069), np.float64(0.44013703852159747), np.float64(0.7861513777574233)]
+[     7.8s] == STEP 1: eps->0 (curvature-removed) slopes + banked-protocol reading ==
+[    23.6s]   d= 7 N=   12069 | eps0 A:s1=0.201576 s2=0.192869 r=1.045144 | eps0 B:r=1.070424 | banked(line,large-eps):s1=0.192747 s2=0.154695 r=1.245977 | curv b1=-0.822 b2=-1.865 [15.8s]
+[    77.9s]   d= 8 N=   44368 | eps0 A:s1=0.179892 s2=0.156732 r=1.147767 | eps0 B:r=1.150253 | banked(line,large-eps):s1=0.191485 s2=0.152628 r=1.254589 | curv b1=0.160 b2=-0.224 [54.3s]
+[   232.1s]   d= 9 N=  163106 | eps0 A:s1=0.174601 s2=0.152089 r=1.148021 | eps0 B:r=1.152869 | banked(line,large-eps):s1=0.191444 s2=0.152378 r=1.256376 | curv b1=0.439 b2=-0.007 [154.2s]

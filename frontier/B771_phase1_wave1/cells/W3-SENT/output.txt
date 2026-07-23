@@ -1,0 +1,136 @@
+[   0.00s] === in-cell re-derivation of e1,e2,e3 (Q[z]/Phi_27) ===
+[   0.04s] sum(2cos) == 0 exactly:      True
+[   0.04s] S2 == -3 exactly (=> e2 = S2/144 = -1/48): True
+[   0.04s] S3 == z^3+z^-3 (=2cos(2pi/9)) exactly: True
+[   0.05s] e3 = (1*c9)/1728,  c9 = 2cos(2pi/9),  numeric e3 = 0.000886625512869
+[   0.05s] e3 numerator coefficient (lowest terms): 1   denominator: 1728
+[   0.05s] e1 = 0   e2 = -1/48   (= S2/144, S2=-3, UNREDUCED pair (-3,144))
+[   0.07s] minimal polynomial of c9 = 2cos(2pi/9):  x**3 - 3*x + 1 = 0
+[   0.07s] discriminant of that minimal polynomial: 81
+[   0.07s] === self-test: W2-SENT's e2 pair was a genuine defect (not vacuous) ===
+[   0.07s]   old buggy pair value  -3/48  = -1/16  (== true e2 -1/48? False)
+[   0.07s]   fixed pair value     -3/144  = -1/48  (== true e2 -1/48? True)
+[   0.07s]   self-test PASS: old pair genuinely wrong (-1/16 != -1/48); fixed pair genuinely correct.
+[   0.07s] === SET A: arithmetic content of e1,e2,e3 (numerators/denominators/discriminant) ===
+[   0.07s]   e1_num = 0: factors (unit/zero)
+[   0.07s]   e1_den = 1: factors (unit/zero)
+[   0.07s]   e2_num = -3: factors {3: 1}
+[   0.07s]   e2_den = 144: factors {2: 4, 3: 2}
+[   0.07s]   e3_num = 1: factors (unit/zero)
+[   0.07s]   e3_den = 1728: factors {2: 6, 3: 3}
+[   0.07s]   minpoly_c9_discriminant = 81: factors {3: 4}
+[   0.07s]   Set A prime union: [2, 3]
+[   0.07s]   cross-check (reduced e2 pair -1/48 instead): prime union = [2, 3]  (matches unreduced pair: True)
+[   0.07s] === SET B: label/index content (pre-existing bookkeeping, NOT Gram arithmetic) ===
+[   0.07s]   level_N = 1215: factors {3: 5, 5: 1}
+[   0.07s]   order_O1 = 1620: factors {2: 2, 3: 4, 5: 1}
+[   0.07s]   mod45_residue = 31: factors {31: 1}
+[   0.07s]   k_root_indices entry 1: factors (unit)
+[   0.07s]   k_root_indices entry 10: factors {2: 1, 5: 1}
+[   0.07s]   k_root_indices entry 19: factors {19: 1}
+[   0.07s]   triple_classes entry 121: factors {11: 2}
+[   0.07s]   triple_classes entry 256: factors {2: 8}
+[   0.07s]   triple_classes entry 391: factors {17: 1, 23: 1}
+[   0.07s]   cyclotomic_index = 27: factors {3: 3}
+[   0.07s]   subfield_degree_index = 9: factors {3: 2}
+[   0.07s]   Set B prime union: [2, 3, 5, 11, 17, 19, 23, 31]  (NOT eligible for the sentinel predicates -- index labels, not Gram quantities)
+[   0.07s] sentinel-eligible prime pool (Set A only): [2, 3]
+[   0.07s] for the record, Set B \ Set A (labels that would be false positives if wrongly conflated with Gram arithmetic): [5, 11, 17, 19, 23, 31]
+[   0.07s] === sentinel checks ===
+[   0.07s] B403: e3 denominator 1728 factors = {2: 6, 3: 3} (2,3-smooth)
+[   0.07s] B403: e2 denominator 144 (unreduced) factors = {2: 4, 3: 2}
+[   0.07s] B403: numerator primes found across e1,e2,e3 = [3] (e3 numerator coeff = 1, a unit, contributes none)
+[   0.07s] B403: registered set {17,19} intersect numerator primes = []  => no fire (PASS)
+[   0.07s] B403 near-miss (recorded, does not satisfy the predicate): k=19 is one of the root-index labels {1,10,19} identifying class 256 -- an index, not a numerator prime factor; the registered predicate is specifically about numerator prime factors, so this does NOT count as a fire.
+[   0.07s] B405: banked supersingular_below_200 (15a1) = [7, 23, 31, 79, 167]
+[   0.07s] B405: primes in the e1/e2/e3 identification outside the predicted-smooth {2,3,5} set = []  (this is the candidate pool of 'exceptional primes' to test)
+[   0.07s] B405: {2,3,5}-exceptional primes intersect supersingular sentinel list = []  => no fire (PASS -- no exceptional prime exists to test)
+[   0.07s] B406: is 31 among the primes appearing in the e1/e2/e3 exact identification? False
+[   0.07s] B406: full prime set again for reference = [2, 3]
+[   0.07s] B406: registered consequence if fired = simultaneous death of Chat-1's E2 'split-principal primes absent from the program' row AND a live B405 sentinel firing (31 is on both the E2 list and the supersingular list) => no fire (PASS)
+[   0.07s] B406 note: Set B's mod45_residue=31 is PRE-EXISTING banked structure (the level-1215 support's residue-class gate, banked in B399 before OI-031/this cell ever ran) -- not new content surfaced BY the triple identification, and not a Gram-quantity numerator/denominator either. It is scanned and logged above (Set B) for completeness/honesty but is explicitly excluded from ALL_PRIMES_PRESENT (Set A only). 31 in Set B \ Set A: True (recorded near-miss, does not satisfy the predicate). The predicate concerns what the IDENTIFICATION of e1,e2,e3 itself arithmetically equals; e1=0, e2=-1/48, e3=(1*c9)/1728, discriminant 81 introduce no 31.
+[   0.07s] === verdict ===
+[   0.07s]   B403: PASS  (17 or 19 divides a seam-channel numerator)
+[   0.07s]   B405: PASS  (an exceptional (non-{2,3,5}) prime in the level-1215 identification lands on the 15a1 supersingular list)
+[   0.07s]   B406: PASS  (31 surfaces in the 1215-triple (e1,e2,e3) identification)
+[   0.07s] VERDICT: RESOLVED-A
+[   0.07s] CARRY-FIX CONSEQUENCE: correcting W2-SENT's e2 pair from the buggy (-3,48) [=-1/16] to the true (-3,144)=(-1,48) [=-1/48] leaves the sentinel-eligible prime pool unchanged ({2,3} either way, since 48=2^4*3 and 144=2^4*3^2 share the same prime support) -- so all three sentinel verdicts are UNCHANGED from W2-SENT's (all PASS), but they are now sound: computed from the correct value of e2 rather than by accident matching despite a wrong intermediate fraction.
+{
+ "cell": "W3-SENT",
+ "target": "e1=0, e2=-1/48 (CORRECTED pair -3/144), e3=cos(2*pi/9)/864=(1*c9)/1728 in Q(zeta9)+ (OI-031, RESOLVED-A)",
+ "carry_fix": "W2-SENT SET_A e2 pair (-3,48)=[-1/16, WRONG] -> (-3,144)=[-1/48, CORRECT]",
+ "e1": "0",
+ "e2": "-1/48",
+ "e3_form": "(1*c9)/1728",
+ "e3_numeric": 0.0008866255128691875,
+ "minpoly_c9": "x**3 - 3*x + 1",
+ "minpoly_c9_discriminant": 81,
+ "set_A_arithmetic_primes": [
+  2,
+  3
+ ],
+ "set_B_label_primes_excluded": [
+  2,
+  3,
+  5,
+  11,
+  17,
+  19,
+  23,
+  31
+ ],
+ "sentinel_eligible_pool": [
+  2,
+  3
+ ],
+ "sentinels": {
+  "B403": {
+   "predicate": "17 or 19 divides a seam-channel numerator",
+   "fired": false,
+   "evidence": {
+    "e3_numerator": 1,
+    "e3_denominator_factors": {
+     "2": 6,
+     "3": 3
+    },
+    "e2_numerator": -3,
+    "e2_denominator_factors": {
+     "2": 4,
+     "3": 2
+    },
+    "numerator_primes_found": [
+     3
+    ],
+    "near_miss_k19_is_index_not_numerator": true
+   }
+  },
+  "B405": {
+   "predicate": "an exceptional (non-{2,3,5}) prime in the level-1215 identification lands on the 15a1 supersingular list",
+   "fired": false,
+   "evidence": {
+    "exceptional_candidates": [],
+    "supersingular_list": [
+     7,
+     23,
+     31,
+     79,
+     167
+    ],
+    "intersection": []
+   }
+  },
+  "B406": {
+   "predicate": "31 surfaces in the 1215-triple (e1,e2,e3) identification",
+   "fired": false,
+   "evidence": {
+    "prime_union": [
+     2,
+     3
+    ],
+    "mod45_residue_is_preexisting_not_new": true
+   }
+  }
+ },
+ "any_fired": false,
+ "verdict": "RESOLVED-A"
+}

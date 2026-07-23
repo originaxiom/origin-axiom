@@ -1,0 +1,97 @@
+========================================================================
+PART (b0): E6 level-1 modular data derived in-cell (sympy exact)
+========================================================================
+positive roots: 36   dim g = 78
+h^vee(E6) = 12
+comark-1 nodes -> primaries omega_[1, 6]; # level-1 primaries = 3
+h(27) = 2/3   h(27bar) = 2/3
+central charge c = 6
+twist theta_0 = 1
+twist theta_1 = -1/2 - sqrt(3)*I/2
+twist theta_2 = -1/2 - sqrt(3)*I/2
+Gauss sum (1/sqrt3) sum theta_g = -I;  e^(2 pi i c/8) = -I
+[PASS] Gauss sum = e^{2 pi i c/8} = -i  -> pointed Z3 model IS the E6 lvl-1 MTC data.
+[PASS] c(a,a)=theta_a and b(a,b)=q(a+b)/q(a)q(b) hold exactly on Z3.
+[PASS] modular data: S symmetric+unitary, S^2 = charge-conj, (ST)^3 = S^2 (normalized T);
+       un-normalized (S Ttilde)^3 anomaly = -I = e^(2 pi i c/8) (Vafa).
+       S_{a,b} = omega^{-ab}/sqrt3 ; normalized Hopf reference S_ab/S_00 = omega^{-ab}.
+
+========================================================================
+PART (b1): generic matrix braid-closure pipeline (used by the b2 control)
+========================================================================
+
+========================================================================
+PART (b2): nonabelian control -- pipeline reproduces Jones(3_1), Jones(4_1)
+========================================================================
+[PASS] (U_q(sl2) fund) YBE + invertibility + [R,mu x mu]=0 + Markov(+/-) exact; a = q**2
+J(unknot)  = 1
+J(trefoil) = q**(-2) + q**(-6) - 1/q**8
+J(4_1)     = q**4 - q**2 + 1 - 1/q**2 + q**(-4)
+[PASS] pipeline = Jones for 3_1 and 4_1; J(4_1)-1 = (q - 1)**2*(q + 1)**2*(q**2 - q + 1)*(q**2 + q + 1)/q**4 != 0 (not blind).
+
+========================================================================
+PART (b3): the NON-VACUOUS E6-level-1 colored theater (colored LINKS)
+========================================================================
+
+-- SELF-TEST 0: the wave-2 defect reproduced (KNOT => free symbol gives 1) --
+   free-symbol J(3_1) = 1   (independent of s: VACUOUS -- this is the defect)
+   free-symbol J(4_1) = 1   (independent of s: VACUOUS -- this is the defect)
+   => confirmed: for ONE component the theater is vacuous for ANY braiding scalar.
+
+-- E6 level-1 colored LINK invariants (colors 27=1, 27bar=2) --
+   Hopf(27^1,27^1): J_right = -1/2 + sqrt(3)*I/2 = b(1,1) ; J_left = -1/2 - sqrt(3)*I/2 ; S_11/S_00 = -1/2 - sqrt(3)*I/2  [match=True]
+   Hopf(27^1,27^2): J_right = -1/2 - sqrt(3)*I/2 = b(1,2) ; J_left = -1/2 + sqrt(3)*I/2 ; S_12/S_00 = -1/2 + sqrt(3)*I/2  [match=True]
+   Hopf(27^2,27^2): J_right = -1/2 + sqrt(3)*I/2 = b(2,2) ; J_left = -1/2 - sqrt(3)*I/2 ; S_22/S_00 = -1/2 - sqrt(3)*I/2  [match=True]
+   (2,4)-torus link (27,27bar): J = -1/2 + sqrt(3)*I/2 = b(1,2)^2  (lk=2 -> monodromy squared)
+   NON-TRIVIAL colored link values at color pairs [(1, 1), (1, 2), (2, 2)] (J != 1).
+
+-- SELF-TEST 1: the SAME machinery on the Hopf link is NON-VACUOUS --
+   free-symbol Hopf(27,27bar) = I*(re(s12)*im(s21) + re(s21)*im(s12)) + re(s12)*re(s21) - im(s12)*im(s21)  (= s12*s21, the raw braiding product)
+     input E6 twist           -> -1/2 - sqrt(3)*I/2
+     input trivial braiding   -> 1
+     input arbitrary (2,3)    -> 6
+   three distinct inputs -> three distinct outputs (NON-CONSTANT in the key quantity);
+   substitute E6 twist -> -1/2 - sqrt(3)*I/2 ;  substitute trivial braiding -> 1 ;  DISTINCT
+   => the E6-level-1 twist GENUINELY ENTERS the colored link answer (NON-VACUOUS).
+
+-- the colored 4_1 KNOT value, with vacuity honestly bounded --
+   J_27(4_1) = 1,  J_27bar(4_1) = 1  (= 1, the pointed-category theorem)
+[COMPUTED FACT -- part (b)] In the E6 level-1 pointed Z3 theater the colored
+  4_1 KNOT invariant is 1 -- but this is now a BOUNDED statement: it is the
+  one-component pointed-category theorem, NOT machinery blindness. The SAME
+  colored theater is NON-VACUOUS -- the E6 twist enters through the monodromy
+  charges b(a,b)=omega^{ab}, giving J(Hopf; 27,27)=omega, J(Hopf; 27,27bar)=
+  omega^2, J((2,4)-torus;27,27bar)=omega, all reproducing the E6-level-1
+  modular S-matrix (S_ab/S_00) that we built and verified independently, and
+  all MOVING under a free-symbol substitution (self-test 1). B580 Q1's cited
+  colored-blindness is thus computed AND correctly located: it lives on knots,
+  the object's twist speaks on every multi-component diagram.
+
+========================================================================
+PART (d): 4_1(5,1) vs 4_1(-5,1)  (SnapPy, orientation-sensitive)
+========================================================================
+m004 cusped CS = 8.9991289 E-17 (~0)
+M1 = m004(5,1):  all tetrahedra positively oriented, vol = 0.98136882889
+M2 = m004(-5,1): all tetrahedra positively oriented, vol = 0.98136882889
+identify(M1) = [m003(-2,3)];  identify(M2) = [m003(-2,3)]
+CS(M1) = 0.077038180264;  CS(M2) = -0.077038180264
+is_isometric_to(M1,M2) [orientation-insensitive] = True
+symmetry_group(M1) = Z/2 + Z/2, is_amphicheiral = False
+symmetry_group(M2) = Z/2 + Z/2, is_amphicheiral = False
+[seed 2 HP] CS(M1) = 0.077038180263770222544395901810932442533126134856970197170502
+[seed 2 HP] CS(M2) = -0.077038180263770222544395901810932442533126134856970197170502
+[seed 2 rand #0] symmetry_group = Z/2 + Z/2, is_amphicheiral = False
+[seed 2 rand #1] symmetry_group = Z/2 + Z/2, is_amphicheiral = False
+CS(M1) double-vs-HP |diff| = 1.110e-16
+CS(M1) + CS(M2) = 0.000e+00
+|CS(M1)-CS(M2)| mod 1/2 = 0.154076360528  (need 0 for orientation-preserving isometry)
+[COMPUTED FACT -- part (d)] ORIENTED MIRROR PAIR: CS(M1) = -CS(M2), distinct
+  mod 1/2, is_amphicheiral False (both fillings, original + randomized), and
+  is_isometric_to True -- same unoriented manifold, opposite orientations.
+
+========================================================================
+CELL VERDICT INPUTS:
+  (b) non-vacuous colored theater : True  (link J!=1, free-symbol MOVES, E6 twist enters)
+  (d) Meyerhoff oriented mirror   : True  (ORIENTED-MIRROR-PAIR)
+CELL VERDICT: RESOLVED-A
+========================================================================

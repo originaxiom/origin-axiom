@@ -1,0 +1,153 @@
+========================================================================
+PART 0: rebuild the escalator matrices M_n = T^n(F)
+========================================================================
+  M_0: size   2, entries range [0, 1]
+  M_1: size   4, entries range [0, 2]
+  M_2: size   8, entries range [0, 6]
+  M_3: size  16, entries range [0, 46]
+  M_4: size  32, entries range [0, 1122]
+  M_5: size  64, entries range [0, 160264]
+
+========================================================================
+PART 1: Exel/EFW hypothesis check -- irreducibility + aperiodicity
+========================================================================
+  n=0: strongly connected = True, primitive at power k=2  -> hypothesis HOLDS
+  n=1: strongly connected = True, primitive at power k=2  -> hypothesis HOLDS
+  n=2: strongly connected = True, primitive at power k=2  -> hypothesis HOLDS
+  n=3: strongly connected = True, primitive at power k=2  -> hypothesis HOLDS
+  n=4: strongly connected = True, primitive at power k=2  -> hypothesis HOLDS
+  n=5 (size 64, boolean-pattern check): strongly connected = True, primitive at power k=2  -> hypothesis HOLDS
+  ALL n=0..5: Exel/EFW hypothesis (irreducible + aperiodic) HOLDS: True
+
+========================================================================
+PART 2: independent re-derivation of the spectral doubling correspondence
+========================================================================
+  K(x,mu) = x^2 - 2*mu*x + mu^2 - mu^3   tested on 3 INDEPENDENT rung-transitions:
+    charpoly_1 == Res_mu(charpoly_0, K)  residual = 0   (0 = confirmed)
+    charpoly_2 == Res_mu(charpoly_1, K)  residual = 0   (0 = confirmed)
+    charpoly_3 == Res_mu(charpoly_2, K)  residual = 0   (0 = confirmed)
+  (x-mu)^2 - mu^3 - K(x,mu) = 0  (0 confirms x = mu +/- mu*sqrt(mu))
+
+========================================================================
+PART 3: cross-validate the closed-form PF recursion against matrix power iteration
+========================================================================
+  n=0 size=  2: power-iter(seedA)=1.6180339887498948482  (iters=47, rel.err vs closed-form: 10^-41.2)
+           power-iter(seedB)=1.6180339887498948482  (iters=48, rel.err vs closed-form: 10^-41.2, seedA vs seedB agree to 10^-80.9)
+  n=1 size=  4: power-iter(seedA)=3.6762050160213870985  (iters=42, rel.err vs closed-form: 10^-41.1)
+           power-iter(seedB)=3.6762050160213870985  (iters=43, rel.err vs closed-form: 10^-41.6, seedA vs seedB agree to 10^-41.3)
+  n=2 size=  8: power-iter(seedA)=10.724751771861389215  (iters=79, rel.err vs closed-form: 10^-40.8)
+           power-iter(seedB)=10.724751771861389215  (iters=79, rel.err vs closed-form: 10^-41.1, seedA vs seedB agree to 10^-40.6)
+  n=3 size= 16: power-iter(seedA)=45.84688400094394418  (iters=147, rel.err vs closed-form: 10^-40.7)
+           power-iter(seedB)=45.84688400094394418  (iters=140, rel.err vs closed-form: 10^-40.5, seedA vs seedB agree to 10^-40.3)
+  n=4 size= 32: power-iter(seedA)=356.2776353619000499  (iters=313, rel.err vs closed-form: 10^-40.5)
+           power-iter(seedB)=356.2776353619000499  (iters=309, rel.err vs closed-form: 10^-40.4, seedA vs seedB agree to 10^-41.2)
+  n=5 size= 64: power-iter(seedA)=7081.1313534740491743  (iters=399, rel.err vs closed-form: 10^-18.2)
+           power-iter(seedB)=7081.1313534740491726  (iters=399, rel.err vs closed-form: 10^-18.4, seedA vs seedB agree to 10^-18.6)
+  worst-case agreement (seedA vs closed form) across n=0..5: 10^-18.2
+  worst-case agreement (seedB vs closed form) across n=0..5: 10^-18.4
+  => the closed-form recursion lambda_n = lambda_{n-1}(1+sqrt(lambda_{n-1})) IS the PF
+     eigenvalue of M_n, confirmed independently by 2-seed high-precision power iteration,
+     for n=0..5 (10+ digit agreement both directions, per house method).
+
+========================================================================
+PART 4: the beta_n ladder in log-space, and the exact 3/2 asymptotic
+========================================================================
+  beta_0 = log(phi) = 0.4812118250596034475
+  beta_ 1 =     1.30188097443484   beta_1/beta_0 = 2.70542182597775   |ratio-3/2| = 1.20542
+  beta_ 2 =     2.37255431973145   beta_2/beta_1 = 1.82240494048344   |ratio-3/2| = 0.322405
+  beta_ 3 =     3.82530723567208   beta_3/beta_2 = 1.61231597686036   |ratio-3/2| = 0.112316
+  beta_ 4 =     5.87571030151992   beta_4/beta_3 = 1.53601003514888   |ratio-3/2| = 0.03601
+  beta_ 5 =     8.86518896961022   beta_5/beta_4 = 1.50878591943462   |ratio-3/2| = 0.00878592
+  beta_ 6 =     13.3095970164697   beta_6/beta_5 = 1.501332578707   |ratio-3/2| = 0.00133258
+  beta_ 7 =     19.9656825237697   beta_7/beta_6 = 1.50009669707231   |ratio-3/2| = 9.66971e-5
+  beta_ 8 =     29.9485699702451   beta_8/beta_7 = 1.50000231319868   |ratio-3/2| = 2.3132e-6
+  beta_ 9 =     44.9228552692382   beta_9/beta_8 = 1.50000001048032   |ratio-3/2| = 1.04803e-8
+  beta_10 =     67.3842829040331   beta_10/beta_9 = 1.50000000000391   |ratio-3/2| = 3.91434e-12
+  beta_11 =      101.07642435605   beta_11/beta_10 = 1.5   |ratio-3/2| = 3.46043e-17
+  beta_12 =     151.614636534075   beta_12/beta_11 = 1.5   |ratio-3/2| = 1.114e-24
+  beta_13 =     227.421954801112   beta_13/beta_12 = 1.5   |ratio-3/2| = 7.88059e-36
+  beta_14 =     341.132932201668   beta_14/beta_13 = 1.5   |ratio-3/2| = 1.81601e-52
+  beta_15 =     511.699398302502   beta_15/beta_14 = 1.5   |ratio-3/2| = 2.46034e-77
+
+  cross-check: log(lambda_n from matrix power-iteration) vs log-space beta_n:
+    n=0: beta(matrix)=0.481211825059603  beta(log-recursion)=0.481211825059603  rel.diff 10^-40.9
+    n=1: beta(matrix)=1.30188097443484  beta(log-recursion)=1.30188097443484  rel.diff 10^-41.3
+    n=2: beta(matrix)=2.37255431973145  beta(log-recursion)=2.37255431973145  rel.diff 10^-41.2
+    n=3: beta(matrix)=3.82530723567208  beta(log-recursion)=3.82530723567208  rel.diff 10^-41.3
+    n=4: beta(matrix)=5.87571030151992  beta(log-recursion)=5.87571030151992  rel.diff 10^-41.3
+    n=5: beta(matrix)=8.86518896961022  beta(log-recursion)=8.86518896961022  rel.diff 10^-19.1
+
+  analytic error-bound check: predicted (ratio - 3/2) ~ exp(-beta_{n-1}/2)/beta_{n-1}
+    n= 1: actual (ratio-3/2)=     1.2054218   predicted=     1.6336909   rel.err(actual/predicted - 1) = 10^-0.58
+    n= 2: actual (ratio-3/2)=    0.32240494   predicted=    0.40061652   rel.err(actual/predicted - 1) = 10^-0.71
+    n= 3: actual (ratio-3/2)=    0.11231598   predicted=    0.12870346   rel.err(actual/predicted - 1) = 10^-0.90
+    n= 4: actual (ratio-3/2)=   0.036010035   predicted=    0.03860813   rel.err(actual/predicted - 1) = 10^-1.17
+    n= 5: actual (ratio-3/2)=  0.0087859194   predicted=  0.0090166527   rel.err(actual/predicted - 1) = 10^-1.59
+    n= 6: actual (ratio-3/2)=  0.0013325787   predicted=   0.001340481   rel.err(actual/predicted - 1) = 10^-2.23
+    n= 7: actual (ratio-3/2)=  9.6697072e-5   predicted=  9.6759324e-5   rel.err(actual/predicted - 1) = 10^-3.19
+    n= 8: actual (ratio-3/2)=  2.3131987e-6   predicted=  2.3132521e-6   rel.err(actual/predicted - 1) = 10^-4.64
+    n= 9: actual (ratio-3/2)=  1.0480319e-8   predicted=  1.0480321e-8   rel.err(actual/predicted - 1) = 10^-6.80
+    n=10: actual (ratio-3/2)= 3.9143402e-12   predicted= 3.9143402e-12   rel.err(actual/predicted - 1) = 10^-10.06
+    n=11: actual (ratio-3/2)= 3.4604316e-17   predicted= 3.4604316e-17   rel.err(actual/predicted - 1) = 10^-14.93
+
+  => beta_n/beta_{n-1} -> 3/2 PROVEN analytically from the exact recursion
+     (not a curve fit): the correction is exp(-beta_{n-1}/2)/beta_{n-1}, matching
+     the computed ladder to the precision shown -- the '3/2 law' from the
+     literature sweep is now a derived fact, with its exact error term.
+
+========================================================================
+PART 5: SELF-TEST -- control escalator (drop the M^2 coupling)
+========================================================================
+  control T_ctrl(M) = [[M,M],[M,M]]  (same doubling-in-size shape, no M^2 term)
+    ctrl M_0: size   2
+    ctrl M_1: size   4
+    ctrl M_2: size   8
+    ctrl M_3: size  16
+    ctrl n=0: PF eigenvalue = 1.61803399   predicted 2^n * phi = 1.61803399   match = True
+    ctrl n=1: PF eigenvalue = 3.23606798   predicted 2^n * phi = 3.23606798   match = True
+    ctrl n=2: PF eigenvalue = 6.47213595   predicted 2^n * phi = 6.47213595   match = True
+    ctrl n=3: PF eigenvalue = 12.94427191   predicted 2^n * phi = 12.94427191   match = True
+  control beta_n = log(phi) + n*log(2)  -- ADDITIVE, so beta_n/beta_{n-1} -> 1, NOT 3/2:
+    ctrl beta_1 = 1.174359006   ratio to beta_0 = 2.4404201
+    ctrl beta_2 = 1.867506186   ratio to beta_1 = 1.5902345
+    ctrl beta_3 = 2.560653367   ratio to beta_2 = 1.3711619
+    ctrl beta_4 = 3.253800547   ratio to beta_3 = 1.2706915
+    ctrl beta_5 = 3.946947728   ratio to beta_4 = 1.2130269
+    ctrl beta_6 = 4.640094908   ratio to beta_5 = 1.175616
+    ctrl beta_7 = 5.333242089   ratio to beta_6 = 1.1493821
+
+  SELF-TEST RESULT: the control (same size-doubling shape, M^2 term removed)
+  gives ratio -> 1 (additive law), sharply DIFFERENT from the real escalator's
+  ratio -> 3/2 (multiplicative-in-log law). The 3/2 exponent is therefore a
+  genuine consequence of the M -> M^2 coupling (the cubic mu^3 term in K(x,mu)),
+  NOT a vacuous artifact of 'the matrix doubles in size every rung.'
+
+========================================================================
+PART 6: concrete KMS state at rung 0 (Exel/EFW Parry-type construction)
+========================================================================
+  F*v - phi*v (should be ~0): 4.21688e-81
+  Parry transition matrix P (from PF eigenvector, beta_0=log(phi)):
+    row 0: ['0.6180339887', '0.3819660113']   row-sum = 1.0
+    row 1: ['1.0', '0.0']   row-sum = 1.0
+  stationary vertex measure pi = ['0.723606797749979', '0.276393202250021']   sum=1.0
+  stationarity check pi*P - pi: 1.05422e-81
+  => a genuine probability-measure KMS state at beta_0=log(phi) is EXHIBITED
+     (stochastic + stationary, both to >50 digits) -- Exel's theorem instantiated,
+     not merely cited.
+
+========================================================================
+VERDICT
+========================================================================
+  Exel/EFW hypothesis (irreducible+aperiodic, n=0..5): True
+  spectral doubling kernel K(x,mu)=x^2-2*mu*x+mu^2-mu^3 confirmed on 3 independent rungs: True
+  closed-form PF ladder lambda_n=lambda_(n-1)(1+sqrt(lambda_(n-1))) cross-validated (2-seed, >10 digits): True
+  asymptotic law beta_n/beta_(n-1) -> 3/2 PROVEN analytically + verified numerically: True
+  self-test (control escalator gives a DIFFERENT law, ratio->1): non-vacuous: True
+  concrete KMS state exhibited + verified stochastic/stationary (rung 0): True
+  ALL STRUCTURE CHARACTERIZED: True
+  => RESOLVED-A: the KMS temperature ladder beta_n=log(lambda_PF(M_n)) is computed
+     exactly (closed-form recursion from phi), its Exel/EFW existence hypothesis
+     verified (no obstruction), its asymptotic 3/2 growth law PROVEN (not just
+     observed), and shown non-vacuous by a structurally-matched control.
+
+  total wall time: 15.63s

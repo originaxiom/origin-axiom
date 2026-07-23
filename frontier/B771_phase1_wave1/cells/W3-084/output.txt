@@ -1,0 +1,49 @@
+[   0.00s] ===== Fibonacci: sub={'a': 'ab', 'b': 'a'} =====
+[   0.01s] GATE Fibonacci:primitive: PASS  M^2>0
+[   0.20s] GATE Fibonacci:aperiodic: PASS  p(n)=[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] (>= n+1, non-decreasing, unbounded)
+[   0.25s] Fibonacci: [info] charpoly(M)=x**2 - x - 1  Perron irrational (not used for aperiodicity)
+[   0.25s] GATE Fibonacci:recognizable(Mosse): PASS  primitive + aperiodic => recognizable
+[   0.28s] Fibonacci: raw substitution forces border? False
+[   0.31s] Fibonacci: collared tiles (admissible 3-blocks): 4 -> ['aab', 'aba', 'baa', 'bab']
+[   0.31s] Fibonacci: AP complex  E=4 V=3 b1=2
+[   0.31s] Fibonacci: induced H_1 matrix B =
+Matrix([[1, 1], [1, 0]])
+[   0.31s] Fibonacci: charpoly(B) = x**2 - x - 1
+[   0.31s] Fibonacci: eventual rank r=2  det-on-image d=-1  primes(inverted)={}
+[   0.31s] Fibonacci: Hˇ^0(Omega)=Z   Hˇ^1(Omega) = Z^2
+[   0.31s] GATE Fibonacci:CONTROL matches known Hˇ^1: PASS  got Z^2, expected Z^2
+[   0.31s] ===== Thue-Morse: sub={'a': 'ab', 'b': 'ba'} =====
+[   0.32s] GATE Thue-Morse:primitive: PASS  M^1>0
+[   0.48s] GATE Thue-Morse:aperiodic: PASS  p(n)=[2, 4, 6, 10, 12, 16, 20, 22, 24, 28, 32, 36] (>= n+1, non-decreasing, unbounded)
+[   0.48s] Thue-Morse: [info] charpoly(M)=x**2 - 2*x  Perron rational/integer (not used for aperiodicity)
+[   0.48s] GATE Thue-Morse:recognizable(Mosse): PASS  primitive + aperiodic => recognizable
+[   0.51s] Thue-Morse: raw substitution forces border? False
+[   0.53s] Thue-Morse: collared tiles (admissible 3-blocks): 6 -> ['aab', 'aba', 'abb', 'baa', 'bab', 'bba']
+[   0.54s] Thue-Morse: AP complex  E=6 V=4 b1=3
+[   0.54s] Thue-Morse: induced H_1 matrix B =
+Matrix([[1, 1, 0], [1, 0, 1], [1, 1, 0]])
+[   0.54s] Thue-Morse: charpoly(B) = x**3 - x**2 - 2*x
+[   0.54s] Thue-Morse: eventual rank r=2  det-on-image d=-2  primes(inverted)={2: 1}
+[   0.54s] Thue-Morse: Hˇ^0(Omega)=Z   Hˇ^1(Omega) = Z (+) Z[1/2]
+[   0.54s] GATE Thue-Morse:CONTROL matches known Hˇ^1: PASS  got Z (+) Z[1/2], expected Z (+) Z[1/2]
+[   0.54s] GATE vacuity:controls-differ: PASS  Fib=Z^2  TM=Z (+) Z[1/2]
+[   0.54s] ===== sigma_4: sub={'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'} =====
+[   0.55s] GATE sigma_4:primitive: PASS  M^2>0
+[   0.95s] GATE sigma_4:aperiodic: PASS  p(n)=[4, 7, 10, 13, 17, 20, 23, 26, 30, 34, 37, 40] (>= n+1, non-decreasing, unbounded)
+[   0.97s] sigma_4: [info] charpoly(M)=x**4 - 2*x**3 - 5*x**2 - 4*x - 1  Perron irrational (not used for aperiodicity)
+[   0.97s] GATE sigma_4:recognizable(Mosse): PASS  primitive + aperiodic => recognizable
+[   1.04s] sigma_4: raw substitution forces border? False
+[   1.11s] sigma_4: collared tiles (admissible 3-blocks): 10 -> ['AAB', 'ABa', 'Aab', 'BaA', 'Bab', 'aAB', 'aAa', 'abA', 'bAA', 'bAB']
+[   1.11s] sigma_4: AP complex  E=10 V=7 b1=4
+[   1.11s] sigma_4: induced H_1 matrix B =
+Matrix([[0, 0, 1, 1], [1, 0, 1, 1], [1, 1, 1, 1], [1, 1, 2, 1]])
+[   1.12s] sigma_4: charpoly(B) = x**4 - 2*x**3 - 5*x**2 - 4*x - 1
+[   1.12s] sigma_4: eventual rank r=4  det-on-image d=-1  primes(inverted)={}
+[   1.12s] sigma_4: Hˇ^0(Omega)=Z   Hˇ^1(Omega) = Z^4
+[   1.16s] GATE sigma_4:7-transitions(banked): PASS  admissible 2-blocks=['AA', 'AB', 'Aa', 'Ba', 'aA', 'ab', 'bA']
+[   1.16s] GATE vacuity:sigma4-differs-from-Fib: PASS  sigma_4 b1=4 vs Fib b1=2
+[   1.16s] ============================================================
+[   1.16s] VERDICT: RESOLVED-A
+[   1.16s] HEADLINE: border-forced AP complex of sigma_4 built (E=10, V=7, b1=4); Hˇ^0=Z, Hˇ^1=Z^4
+[   1.16s] FAILED GATES: []
+[   1.16s] wrote /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W3-084/results.json

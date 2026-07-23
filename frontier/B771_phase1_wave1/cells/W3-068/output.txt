@@ -1,0 +1,127 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[   1.15s] ====================================================================================================
+[   1.15s] W3-068 / L11 -- rank-2 (degree-2) covers of the metallic bundles: does trace-field
+[   1.15s] content lift predictably?  (pyenv, no sage; PARI algdep via `cypari`)
+[   1.15s] ====================================================================================================
+[   1.16s] SELF-TEST (vacuity guard): algdep(pi, degree<=10) -> NOT FOUND (correct: pi is transcendental, no low-degree relation)
+[   1.16s] 
+[   1.16s] --- golden (m=1, SnapPy 'm004') ---
+[   1.18s]   golden BASE: bits500 seed0 (~140dig) -> deg=2 disc_sf=-3 resid~2.07e-149
+[   1.18s]   golden BASE: bits500 seed1 (~140dig) -> deg=2 disc_sf=-3 resid~2.02e-148
+[   1.18s]   golden BASE: bits900 seed0 (~252dig) -> deg=2 disc_sf=-3 resid~0.00e+00
+[   1.18s]   golden BASE: bits900 seed1 (~252dig) -> deg=2 disc_sf=-3 resid~0.00e+00
+[   1.18s]   golden BASE fingerprint: degree=2 disc_sf=-3 stable=True  poly=x^2 - 28*x + 244
+[   1.18s]   golden: 1 degree-2 cover(s)
+[   1.23s]   golden cover#0 (m004~cyc~0(0,0)): bits500 seed0 (~140dig) -> deg=2 disc_sf=-3 resid~2.08e-149
+[   1.23s]   golden cover#0 (m004~cyc~0(0,0)): bits500 seed1 (~140dig) -> deg=2 disc_sf=-3 resid~1.02e-147
+[   1.24s]   golden cover#0 (m004~cyc~0(0,0)): bits900 seed0 (~252dig) -> deg=2 disc_sf=-3 resid~1.94e-267
+[   1.24s]   golden cover#0 (m004~cyc~0(0,0)): bits900 seed1 (~252dig) -> deg=2 disc_sf=-3 resid~3.65e-267
+[   1.24s]   golden cover#0 [m004~cyc~0(0,0)] fingerprint: degree=2 disc_sf=-3 stable=True  poly=x^2 + 24*x + 819
+[   1.24s] 
+[   1.24s] --- silver (m=2, SnapPy 'b++RRLL') ---
+[   1.27s]   silver BASE: bits500 seed0 (~140dig) -> deg=8 disc_sf=1 resid~6.84e-141
+[   1.28s]   silver BASE: bits500 seed1 (~140dig) -> deg=8 disc_sf=1 resid~4.04e-134
+[   1.29s]   silver BASE: bits900 seed0 (~252dig) -> deg=8 disc_sf=1 resid~6.06e-261
+[   1.31s]   silver BASE: bits900 seed1 (~252dig) -> deg=8 disc_sf=1 resid~3.03e-254
+[   1.31s]   silver BASE fingerprint: degree=8 disc_sf=1 stable=True  poly=x^8 + 48*x^7 + 1360*x^6 + 20928*x^5 + 35168*x^4 - 946944*x^3 + 115870976*x^2 + 1746822144*x + 13449228544
+[   1.31s]   silver: 7 degree-2 cover(s)
+[   1.36s]   silver cover#0 (b++RRLL~cyc~0(0,0)(0,0)): bits500 seed0 (~140dig) -> deg=4 disc_sf=2 resid~7.70e-147
+[   1.36s]   silver cover#0 (b++RRLL~cyc~0(0,0)(0,0)): bits500 seed1 (~140dig) -> deg=4 disc_sf=2 resid~8.22e-144
+[   1.37s]   silver cover#0 (b++RRLL~cyc~0(0,0)(0,0)): bits900 seed0 (~252dig) -> deg=4 disc_sf=2 resid~3.22e-267
+[   1.37s]   silver cover#0 (b++RRLL~cyc~0(0,0)(0,0)): bits900 seed1 (~252dig) -> deg=4 disc_sf=2 resid~1.58e-264
+[   1.37s]   silver cover#0 [b++RRLL~cyc~0(0,0)(0,0)] fingerprint: degree=4 disc_sf=2 stable=True  poly=x^4 + 24*x^3 + 636*x^2 + 4000*x + 39272
+[   1.43s]   silver cover#1 (b++RRLL~cyc~1(0,0)): bits500 seed0 (~140dig) -> deg=8 disc_sf=1 resid~6.14e-139
+[   1.43s]   silver cover#1 (b++RRLL~cyc~1(0,0)): bits500 seed1 (~140dig) -> deg=8 disc_sf=1 resid~1.71e-132
+[   1.45s]   silver cover#1 (b++RRLL~cyc~1(0,0)): bits900 seed0 (~252dig) -> deg=8 disc_sf=1 resid~2.12e-258
+[   1.46s]   silver cover#1 (b++RRLL~cyc~1(0,0)): bits900 seed1 (~252dig) -> deg=8 disc_sf=1 resid~2.86e-252
+[   1.46s]   silver cover#1 [b++RRLL~cyc~1(0,0)] fingerprint: degree=8 disc_sf=1 stable=True  poly=x^8 - 160*x^7 + 16904*x^6 - 1095008*x^5 + 53210016*x^4 - 1687375488*x^3 + 40526657600*x^2 - 502143591168*x + 8137897028672
+[   1.51s]   silver cover#2 (b++RRLL~cyc~2(0,0)): bits500 seed0 (~140dig) -> deg=8 disc_sf=1 resid~1.71e-141
+[   1.52s]   silver cover#2 (b++RRLL~cyc~2(0,0)): bits500 seed1 (~140dig) -> deg=8 disc_sf=1 resid~2.24e-135
+[   1.54s]   silver cover#2 (b++RRLL~cyc~2(0,0)): bits900 seed0 (~252dig) -> deg=8 disc_sf=1 resid~2.63e-261
+[   1.55s]   silver cover#2 (b++RRLL~cyc~2(0,0)): bits900 seed1 (~252dig) -> deg=8 disc_sf=1 resid~4.90e-255
+[   1.55s]   silver cover#2 [b++RRLL~cyc~2(0,0)] fingerprint: degree=8 disc_sf=1 stable=True  poly=x^8 - 80*x^7 + 3528*x^6 + 23520*x^5 + 278752*x^4 + 79139840*x^3 + 1841053248*x^2 + 15762443520*x + 48533842496
+[   1.60s]   silver cover#3 (b++RRLL~cyc~3(0,0)(0,0)): bits500 seed0 (~140dig) -> deg=4 disc_sf=2 resid~3.52e-147
+[   1.60s]   silver cover#3 (b++RRLL~cyc~3(0,0)(0,0)): bits500 seed1 (~140dig) -> deg=4 disc_sf=2 resid~2.30e-144
+[   1.61s]   silver cover#3 (b++RRLL~cyc~3(0,0)(0,0)): bits900 seed0 (~252dig) -> deg=4 disc_sf=2 resid~3.26e-267
+[   1.61s]   silver cover#3 (b++RRLL~cyc~3(0,0)(0,0)): bits900 seed1 (~252dig) -> deg=4 disc_sf=2 resid~1.98e-264
+[   1.61s]   silver cover#3 [b++RRLL~cyc~3(0,0)(0,0)] fingerprint: degree=4 disc_sf=2 stable=True  poly=x^4 - 24*x^3 + 412*x^2 - 5568*x + 32744
+[   1.66s]   silver cover#4 (b++RRLL~cyc~4(0,0)(0,0)): bits500 seed0 (~140dig) -> deg=4 disc_sf=1 resid~1.24e-146
+[   1.66s]   silver cover#4 (b++RRLL~cyc~4(0,0)(0,0)): bits500 seed1 (~140dig) -> deg=4 disc_sf=1 resid~5.62e-143
+[   1.66s]   silver cover#4 (b++RRLL~cyc~4(0,0)(0,0)): bits900 seed0 (~252dig) -> deg=4 disc_sf=1 resid~1.93e-266
+[   1.66s]   silver cover#4 (b++RRLL~cyc~4(0,0)(0,0)): bits900 seed1 (~252dig) -> deg=4 disc_sf=1 resid~9.83e-263
+[   1.66s]   silver cover#4 [b++RRLL~cyc~4(0,0)(0,0)] fingerprint: degree=4 disc_sf=1 stable=True  poly=x^4 - 128*x^3 + 5416*x^2 - 46176*x + 116768
+[   1.72s]   silver cover#5 (b++RRLL~cyc~5(0,0)): bits500 seed0 (~140dig) -> deg=8 disc_sf=1 resid~5.13e-139
+[   1.73s]   silver cover#5 (b++RRLL~cyc~5(0,0)): bits500 seed1 (~140dig) -> deg=8 disc_sf=1 resid~7.97e-133
+[   1.74s]   silver cover#5 (b++RRLL~cyc~5(0,0)): bits900 seed0 (~252dig) -> deg=8 disc_sf=1 resid~8.74e-259
+[   1.76s]   silver cover#5 (b++RRLL~cyc~5(0,0)): bits900 seed1 (~252dig) -> deg=8 disc_sf=1 resid~1.50e-252
+[   1.76s]   silver cover#5 [b++RRLL~cyc~5(0,0)] fingerprint: degree=8 disc_sf=1 stable=True  poly=x^8 + 160*x^7 + 11752*x^6 + 569376*x^5 + 20528672*x^4 + 556551552*x^3 + 11802289216*x^2 + 190321507584*x + 1789551080512
+[   1.81s]   silver cover#6 (b++RRLL~cyc~6(0,0)): word 'c' UNRELIABLE (Newton-stall guard: digit run 154->2 at bits=500->900, did not grow; raw value agreement ~154 digits [misleading -- both zero-padded]) -- excluded
+[   1.81s]   silver cover#6 (b++RRLL~cyc~6(0,0)): using 9/10 reliable words: ['a', 'b', 'd', 'ab', 'ac', 'ad', 'bc', 'bd', 'cd']
+[   1.82s]   silver cover#6 (b++RRLL~cyc~6(0,0)): bits500 seed0 (~140dig) -> deg=8 disc_sf=1 resid~2.04e-138
+[   1.82s]   silver cover#6 (b++RRLL~cyc~6(0,0)): bits500 seed1 (~140dig) -> deg=8 disc_sf=1 resid~2.94e-131
+[   1.84s]   silver cover#6 (b++RRLL~cyc~6(0,0)): bits900 seed0 (~252dig) -> deg=8 disc_sf=1 resid~3.79e-258
+[   1.85s]   silver cover#6 (b++RRLL~cyc~6(0,0)): bits900 seed1 (~252dig) -> deg=8 disc_sf=1 resid~4.38e-250
+[   1.85s]   silver cover#6 [b++RRLL~cyc~6(0,0)] fingerprint: degree=8 disc_sf=1 stable=True  poly=x^8 + 1184*x^6 + 16128*x^5 + 1080064*x^4 - 16330752*x^3 + 2663890944*x^2 - 91322155008*x + 2625929248768
+[   1.85s] 
+[   1.85s] --- bronze (m=3, SnapPy 'b++RRRLLL') ---
+[   1.89s]   bronze BASE: word 'c' UNRELIABLE (Newton-stall guard: digit run 194->194 at bits=500->900, did not grow; raw value agreement ~999 digits [misleading -- both zero-padded]) -- excluded
+[   1.89s]   bronze BASE: using 5/6 reliable words: ['a', 'b', 'ab', 'ac', 'bc']
+[   1.90s]   bronze BASE: bits500 seed0 (~140dig) -> deg=8 disc_sf=21 resid~1.29e-140
+[   1.91s]   bronze BASE: bits500 seed1 (~140dig) -> deg=8 disc_sf=21 resid~3.51e-136
+[   1.92s]   bronze BASE: bits900 seed0 (~252dig) -> deg=8 disc_sf=21 resid~3.10e-260
+[   1.93s]   bronze BASE: bits900 seed1 (~252dig) -> deg=8 disc_sf=21 resid~8.01e-256
+[   1.93s]   bronze BASE fingerprint: degree=8 disc_sf=21 stable=True  poly=x^8 - 71*x^7 + 3162*x^6 - 118601*x^5 + 3019859*x^4 - 54670413*x^3 + 778903097*x^2 - 6069972265*x + 19734092819
+[   1.93s]   bronze: 1 degree-2 cover(s)
+[   2.05s]   bronze cover#0 (b++RRRLLL~cyc~0(0,0)): word 'c' UNRELIABLE (Newton-stall guard: digit run 194->194 at bits=500->900, did not grow; raw value agreement ~999 digits [misleading -- both zero-padded]) -- excluded
+[   2.05s]   bronze cover#0 (b++RRRLLL~cyc~0(0,0)): using 5/6 reliable words: ['a', 'b', 'ab', 'ac', 'bc']
+[   2.06s]   bronze cover#0 (b++RRRLLL~cyc~0(0,0)): bits500 seed0 (~140dig) -> deg=8 disc_sf=21 resid~9.18e-138
+[   2.09s]   bronze cover#0 (b++RRRLLL~cyc~0(0,0)): bits500 seed1 (~140dig) -> deg=8 disc_sf=21 resid~1.50e-133
+[   2.11s]   bronze cover#0 (b++RRRLLL~cyc~0(0,0)): bits900 seed0 (~252dig) -> deg=8 disc_sf=21 resid~2.24e-256
+[   2.14s]   bronze cover#0 (b++RRRLLL~cyc~0(0,0)): bits900 seed1 (~252dig) -> deg=8 disc_sf=21 resid~1.62e-252
+[   2.14s]   bronze cover#0 [b++RRRLLL~cyc~0(0,0)] fingerprint: degree=8 disc_sf=21 stable=True  poly=x^8 - 137*x^7 + 1537*x^6 + 252539*x^5 + 203001*x^4 - 53850356*x^3 + 358418004*x^2 - 547098195*x + 1317059324
+[   2.14s] 
+[   2.14s] ====================================================================================================
+[   2.14s] STAGE 1: degree/discriminant fingerprint comparison
+[   2.14s] ====================================================================================================
+[   2.14s] 
+[   2.14s]   bundle                            cover   base(deg,disc)  cover(deg,disc)  SAME FIELD?   CUSPS(base->cov)
+[   2.14s]   golden                  m004~cyc~0(0,0)           (2,-3)           (2,-3)         True               1->1
+[   2.14s]   silver          b++RRLL~cyc~0(0,0)(0,0)            (8,1)            (4,2)        False               1->2
+[   2.14s]   silver               b++RRLL~cyc~1(0,0)            (8,1)            (8,1)         True               1->1
+[   2.14s]   silver               b++RRLL~cyc~2(0,0)            (8,1)            (8,1)         True               1->1
+[   2.14s]   silver          b++RRLL~cyc~3(0,0)(0,0)            (8,1)            (4,2)        False               1->2
+[   2.14s]   silver          b++RRLL~cyc~4(0,0)(0,0)            (8,1)            (4,1)        False               1->2
+[   2.14s]   silver               b++RRLL~cyc~5(0,0)            (8,1)            (8,1)         True               1->1
+[   2.14s]   silver               b++RRLL~cyc~6(0,0)            (8,1)            (8,1)         True               1->1
+[   2.14s]   bronze             b++RRRLLL~cyc~0(0,0)           (8,21)           (8,21)         True               1->1
+[   2.14s] 
+[   2.14s] ====================================================================================================
+[   2.14s] STAGE 2: independent compositum-degree CONTAINMENT verification (not the deg/disc heuristic)
+[   2.14s] ====================================================================================================
+[   2.14s] (zeta_base + BIGPRIME*zeta_cover; deg(compositum)==deg(base) <=> cover's field IS
+[   2.14s]  contained in the base's field -- the mathematically decisive test)
+[   2.14s] 
+[   2.25s]   golden cover#0 [m004~cyc~0(0,0)]: deg(base)=2 deg(cover)=2 deg(compositum)=2 -> CONTAINED (cover field subset-of/equal-to base field)
+[   2.36s]   silver cover#0 [b++RRLL~cyc~0(0,0)(0,0)]: deg(base)=8 deg(cover)=4 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   2.47s]   silver cover#1 [b++RRLL~cyc~1(0,0)]: deg(base)=8 deg(cover)=8 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   2.57s]   silver cover#2 [b++RRLL~cyc~2(0,0)]: deg(base)=8 deg(cover)=8 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   2.67s]   silver cover#3 [b++RRLL~cyc~3(0,0)(0,0)]: deg(base)=8 deg(cover)=4 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   2.76s]   silver cover#4 [b++RRLL~cyc~4(0,0)(0,0)]: deg(base)=8 deg(cover)=4 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   2.87s]   silver cover#5 [b++RRLL~cyc~5(0,0)]: deg(base)=8 deg(cover)=8 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   2.98s]   silver cover#6 [b++RRLL~cyc~6(0,0)]: deg(base)=8 deg(cover)=8 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   3.17s]   bronze cover#0 [b++RRRLLL~cyc~0(0,0)]: deg(base)=8 deg(cover)=8 deg(compositum)=8 -> CONTAINED (cover field subset-of/equal-to base field)
+[   3.17s] 
+[   3.17s] ====================================================================================================
+[   3.17s] VERDICT ANALYSIS
+[   3.17s] ====================================================================================================
+[   3.17s] Total base/cover pairs checked (Stage 2 containment): 9
+[   3.17s] CONTAINED (predictable): 9
+[   3.17s] NOT CONTAINED (obstruction): 0
+[   3.17s] 
+[   3.17s] VERDICT: RESOLVED-A
+[   3.17s] HEADLINE: the trace field of every rank-2 cover tested (9/9, golden+silver x7+bronze) is CONTAINED IN (compositum-degree verified) the base metallic bundle's trace field -- 6/9 are an EXACT match (cusp-preserving covers), the other 3/9 drop to a genuine divisor-degree subfield exactly on cusp-splitting covers; field content lifts predictably, governed by cusp behaviour, never unrelated
+[   3.17s] ====================================================================================================
+
+FINAL: RESOLVED-A
+the trace field of every rank-2 cover tested (9/9, golden+silver x7+bronze) is CONTAINED IN (compositum-degree verified) the base metallic bundle's trace field -- 6/9 are an EXACT match (cusp-preserving covers), the other 3/9 drop to a genuine divisor-degree subfield exactly on cusp-splitting covers; field content lifts predictably, governed by cusp behaviour, never unrelated
