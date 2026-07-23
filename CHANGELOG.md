@@ -1,5 +1,8 @@
 # Changelog
 
+## B766 — the measurement torsor: RANK-SATURATED (three bits close the object)
+- The discrete closing set has 𝔽₂-rank exactly 3 = the banked menu (generators c/θ/γ₅; γ₃ ≡ c). Two exact identities: time's arrow = the basepoint bit (the golden branch); the chord's sign = c⊕θ. C20 minted; T1 a named door; the continuous residue stays Galois-chosen. Locks test_b766 (5).
+
 ## Review 29 — the verification window (anchor 58e9add3)
 - 21 merges audited on a gold-standard day (2730/0 + slow tier 102/0 first-ever + rule 1b clean). C18 priced; the chain self-corrected once by sealed prediction; the hunt complete; 14+ safety catches all ruled. Six action items.
 

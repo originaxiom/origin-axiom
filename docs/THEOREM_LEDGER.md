@@ -147,6 +147,16 @@ disc −23) gives 2.6143 = the pair separation, not √23 — the discriminant f
 (u−ū)²·∏[(u−rᵢ)(ū−rᵢ)]², and the off-block is the first factor only (verified to 40
 digits). — B759 + B764. Locks: `tests/test_qp3_integration.py`, `tests/test_b764_c19.py`.
 
+**C20 [IDENTITY — the measurement-torsor rank; R29-5, owner-opened].** The discrete
+choice-space closing the object has 𝔽₂-rank EXACTLY 3 — the independent generators are
+conjugation (c), reversal (θ), and the golden-Galois branch (γ₅); the being-Galois γ₃
+acts identically to c on every closing axis. Two exact relations: **time's direction =
+the basepoint bit** (both are the γ₅ choice: (1−φ)² = φ⁻² is the Galois action), and
+**the chord's sign = c ⊕ θ**. The rank equals the banked observer-menu rank (B733) —
+RANK-SATURATED: the menu is the full discrete closing set. The continuous residue
+(anchor/values/space) stays Galois-chosen (K020), and the unmoved T1 axis is a named
+door. — B766. Lock: `tests/test_b766_torsor.py`.
+
 ---
 
 *Maintenance: additions require the B758 admission criteria (exact statement + location +

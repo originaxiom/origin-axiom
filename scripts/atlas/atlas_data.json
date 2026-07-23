@@ -15926,6 +15926,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B766": {
+   "slug": "measurement torsor",
+   "motifs": [
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B701",
+    "B712",
+    "B733",
+    "B760",
+    "K020"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B76": {
    "slug": "cusp quantum group",
    "motifs": [

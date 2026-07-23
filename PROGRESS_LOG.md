@@ -7480,3 +7480,19 @@ prediction); the hunt's three strata complete; H-EAR lands; the safety campaign'
 catches all standing rules; the cc3 audit inverted (compute-grade locking adopted).
 No new error class; the counter-rules demonstrably working. Six action items (4 carried,
 2 new: the torsor cell owner-gate; the mutation test as standing review practice).
+
+## 2026-07-23 — B766: THE MEASUREMENT TORSOR — three bits close the object; time's arrow IS the golden branch
+R29-5, owner-opened, sealed c371e18e. The action table computed (every entry re-derived):
+c flips the side and the chord; θ flips only the chord; γ₅ flips time AND the basepoint;
+γ₃ ≡ c on every closing axis (the being-Galois IS conjugation there — it drops as a
+generator). The lattice over 𝔽₂: TWO exact identities — time's direction = the basepoint
+bit (both the γ₅ branch; (1−φ)² = φ⁻² is the Galois action) and the chord's sign = c⊕θ —
+leaving independent generators exactly (c, θ, γ₅): RANK 3 = the banked B733 menu rank.
+**RANK-SATURATED: the observer's discrete menu is the full discrete closing set —
+measurement closes the object with exactly three bits.** Honest residue: T1 unmoved by 𝕀
+(a named door); the continuous anchor/value/space residue stays K020's Galois-chosen
+territory (no value computation — the pin); Q2b: the relations are field/class-level, the
+Gieseking control passes structurally (T4 exists only downstream of C5's choice); Q7:
+neither damage direction fired (rank ≠ 0; no involution signs an axis — NO-HATCH
+consistent). C20 minted in the chain. Locks test_b766 (5, compute-grade). Nothing to
+CLAIMS.

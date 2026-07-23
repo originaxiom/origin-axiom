@@ -1304,3 +1304,9 @@ THE CHAIN (B758, owner-approved cc3 plan): the forced core is now one
 labeled axiom→theorem ledger (docs/THEOREM_LEDGER.md, C1–C18) — three
 priced axioms, one unpriced frontier axiom, everything else theorem/
 census/identity/no-go with locks. The program continues by pricing C18.
+
+THE MEASUREMENT TORSOR (B766, owner-opened): three bits close the
+object — conjugation, reversal, the golden branch — with time's arrow
+identified with the basepoint choice and the chord's sign as their XOR.
+The banked observer menu is exactly the full discrete closing set
+(RANK-SATURATED). The values live beyond all three, Galois-chosen.
