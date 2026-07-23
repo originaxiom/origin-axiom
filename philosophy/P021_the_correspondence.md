@@ -30,6 +30,19 @@ That is the deal: your categories, our theorems, the forks decide what the pairi
 | 8 | **The unmoved axis** — T1 (the c/θ pairing) is outside every banked involution's reach (B766's named door) | ⟨placeholder: the unaskable?⟩ __________ | filling this slot REQUIRES proposing the instrument that moves T1 — the slot is a research program in itself |
 | 9 | **The Galois-chosen continuum** — anchor, values, space: beyond all three bits (K020 territory; the pin stands) | ⟨placeholder: the qualitative residue?⟩ __________ | NO value computation follows from any filling (the stopping rule); what follows is placement: which experiential magnitudes you locate here vs in the bits |
 
+## v2 (2026-07-23, owner's redirection): CROSS-TEST, don't elicit
+
+The slots above are no longer to be filled by introspection. The correspondence becomes a
+COMPUTATION: (a) the mathematical column's structural signatures are formalized in-seat
+(the sealed signature table, frontier-side); (b) the phenomenological side's candidate
+categories come with their DOCUMENTED structural properties — literature-cited, each
+structural claim locatable (the courier seat's sweep, in progress); (c) the matching runs
+under SEALED rules (below, hash-first, BEFORE any candidate matrix is received); (d) the
+owner adjudicates the computed candidate matrix — the choice remains the final axiom
+(C18's logic), but informed, not guessed. Rows 3 and 7 (the surprises) become the
+DISCRIMINATING tests: a phenomenological catalogue that cannot host the transparency
+result or the time=basepoint identity fails structurally, whatever its intuitive appeal.
+
 ## The two ground rules for filling
 
 1. **React to the surprises first** (rows 3 and 7): a correspondence that only confirms

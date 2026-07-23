@@ -379,3 +379,4 @@ hash-first status.*
 | RESERVED: B766 (cc — THE MEASUREMENT TORSOR: the choice-mechanics of the coupling; R29-5, owner-opened; Gate 5-Q) | — | — | 2026-07-23 | number reservation per the collision protocol |
 | B766 PREREG (the measurement torsor) | frontier/B766_measurement_torsor/PREREGISTRATION.md | c371e18e | 2026-07-23 | sha256; Gate 5-Q battery in-seal; owner-opened (R29-5) |
 | B766 VERDICT (the measurement torsor) | frontier/B766_measurement_torsor/ | output.txt | 2026-07-23 | **RANK-SATURATED**: discrete rank 3 = the B733 menu (c/θ/γ₅; γ₃≡c); time = basepoint (γ₅); chord = c⊕θ; T1 unmoved (named door); continuous residue = K020 territory. C20 minted. Nothing to CLAIMS |
+| RESERVED: B768 (cc — the correspondence cross-test: sealed matching rules + the mathematical signature table; the courier's phenomenology matrix gated on receipt) | — | — | 2026-07-23 | number reservation per the collision protocol (B767 pre-cleared for cc3's stabilizations) |
