@@ -135,3 +135,41 @@ killed as stated by a pre-declared falsifier, the c row is under live threat, an
 chord's phenomenological half remains undocumented. The cross-test's first full cycle:
 a literature-killed row via its own sealed falsifier. Handed to cc3 for the independent
 verification pass (owner-directed); the owner adjudicates after.
+
+## RECEIPT #4 (2026-07-23) — the courier's own fork sweep: convergence, one real contribution, one repair dead-on-arrival, two overclaims
+
+The courier ran the four forks independently and reports "all four strengthen or refine;
+none kills." Adjudicated against the campaign (receipt #3) and B769/C21:
+
+- **F1: CONVERGENT — genuine strengthening.** Two independent sweeps (theirs and the
+  campaign's) found the same thing: no clean dissociation; documented co-occurrence
+  (DPD temporal-disintegration correlations; ketamine; schizophrenia). Their sweep OMITS
+  the K.C. case — the campaign's honest residual kill-candidate stays on the books. Net:
+  γ₅'s row is now double-swept and strengthened, with one named residual.
+- **F2: a real CONTRIBUTION, not a settlement.** Their identity-element argument (nondual
+  awareness = the boundary NOT DRAWN = the ℤ/2 identity, not a third element) is exactly
+  the right TYPE of resolution for the crux the campaign named (absence vs positive-third)
+  — registered as the leading candidate resolution. But the positive-state literature
+  (nondual awareness as reflexivity with its own phenomenal character, not mere absence)
+  is not dispatched by assertion. F2 stays UNDECIDED with their argument on file.
+- **F3: the kill STANDS; the repair is DEAD ON ARRIVAL.** They concede the graded-FoA
+  finding (= the campaign's unanimous kill of θ = binary-Agency) but reframe it as a
+  "refinement": θ = the binary JUDGMENT of agency, T1 = the graded FEELING of agency —
+  the Synofzik two-level model mapped onto "one binary bit + one continuous axis."
+  Elegant — and **B769/C21 removed the continuous axis an hour earlier: T1 is a DISCRETE
+  3-frame torsor; the graded FoA has NO slot.** The repair's θ-half (JoA-binary) is a NEW
+  candidate that must re-enter through the gates (with a falsifier, and with the
+  structural doubt named: JoA is post-hoc by their own earlier Wegner citation — does a
+  post-hoc attribution qualify as a pre-reflective CLOSING choice?). The bookkeeping
+  stands: the original row DIED; "none kills" is false as delivered.
+- **F4: overclaimed.** "The Buber reading holds structurally" concedes no-literal-XOR and
+  re-asserts derivative-ness — which was never the contested part. The two-flips-cancel
+  invariance remains undocumented; UNDECIDED stands.
+- **Process note:** the courier graded their own sweep — against their own stated
+  discipline ("neither side grades its own work"). cc3's independent verification remains
+  the arbiter; this receipt registers the deltas, banks no self-grades.
+- **One door opened by the collision (cc's note, speculative, S-room grade):** the
+  homeless graded FoA is CONTINUOUS observer-content — and the chain has exactly one
+  continuous observer territory: the Galois-chosen continuum (C18's residue: anchor/
+  values/space). Whether the feeling-of-agency's grade lives THERE is a formulable
+  question for the rebuild — noted, not claimed.
