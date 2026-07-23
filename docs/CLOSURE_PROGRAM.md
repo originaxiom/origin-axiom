@@ -22,10 +22,14 @@ signature move made systematic.
   with corrections: the count is FOUR + B500, not seven — B767 already closed B489 and
   TOMB-L255; their 1.3 "let the stabilisations complete" is stale — B767 DELIVERED.]
 - **Phase 2 — structural closures.** The T1-mover hunt (the outer-S₃ spec — expected
-  wall); H-WORD-WELD derive-or-dismiss; the correspondence enumeration + permutation
-  null (built by us); the D₅ = Spin(10) McKay check [courier T4]; Op-2 and the
-  discrete-spectrum door if the owner opens them. [All absent from the courier's plan
-  except the McKay item.]
+  wall); H-WORD-WELD derive-or-dismiss; the aAbB derivation door [adopted from the
+  courier's session-closing handoff, which for the first time states its own
+  verification condition honestly: derive the three closing bits {c, θ, γ₅} FROM
+  σ: a→ab's algebraic/statistical structure, or the framework stays an analogy —
+  distinct from H-WORD-WELD (the eigenvalue link) and run derive-or-dismiss the same
+  way]; the correspondence enumeration + permutation null (built by us); the
+  D₅ = Spin(10) McKay check [courier T4]; Op-2 and the discrete-spectrum door if the
+  owner opens them.
 - **Phase 3 — the correspondence closure.** cc3's folded verdicts; the θ-vacancy search
   [courier 2.1 — with the CONFLICT flagged: their candidate "ownership" IS the
   self/other boundary by their own Side-B citations (Gallagher: ownership = the c-side)

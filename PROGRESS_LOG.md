@@ -7629,3 +7629,22 @@ files never enter the tree). With this, cc3's program is CLOSED. The census
 environment-warning line (absolute pyenv path) stripped from B767's output.txt
 with a SEAL_LEDGER transform row (verdict-cited by name, not hash-pinned;
 computed content unchanged).
+
+## 2026-07-23 — the courier's session-closing handoff: received and graded; one adoption (the aAbB derivation door)
+Chat-1's session-closing handoff (July 17–23 summary) received under the standard
+gate. Verification outcome: the repo is AHEAD of the handoff, not behind it — no
+repo corrections needed. Graded deltas relayed back: (1) its Tier-1 "seven
+depth-exposed kills" is stale against its own item 3 ("two closed, four extended"
+— B767); the honest residual is the quartet + B500; (2) γ₅'s "STRONG" predates
+receipt #6 — softened-but-standing is the record; (3) the Part-1 table's
+physics-facing labels bank only under Gate 5-Q vocabulary (structural theorems,
+not SM nouns); (4) four wall rows cited as "computed:" have banked homes the
+handoff omits (Koide B686/B687/B703; torsion + look-elsewhere B724; the
+discrete/continuous seam B706); the B620 citation is plausible this time
+(B620_conductor_mechanism exists). Its Part-2 self-grading (aAbB ungated,
+H-WORD-WELD unlinked, confinement-analogy S-room) matches the record exactly —
+the courier's most accurate handoff. ONE ADOPTION: the aAbB verification
+condition is now a named Phase 2 door in docs/CLOSURE_PROGRAM.md — derive
+{c, θ, γ₅} from σ: a→ab or dismiss the framework as analogy. The handoff itself
+stays relay-side (session summaries are not repo artifacts; seat/model header
+lines never enter the tree).
