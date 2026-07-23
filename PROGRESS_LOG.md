@@ -7584,3 +7584,14 @@ candidate with the post-hoc structural doubt named); F4 overclaimed (derivative-
 never the contested part). "None kills" is false as bookkeeping. One S-room door noted:
 the homeless graded FoA vs the Galois continuum. cc3's independent verification remains
 the arbiter. Nothing to CLAIMS.
+
+## 2026-07-23 — B768 receipt #5: the DISTILLED document — honest rows; error #40 caught in the "unchallenged facts"
+The courier's distillation accepted as the working row summary — and its "unchallenged"
+computed-facts section needed three fixes: the pair frequencies were WRONG (claimed
+distribution sums to 1.236; the conditional P(b|a)=1/φ conflated with the pair frequency
+f(ab)=1/φ² — corrected exactly + empirically, error #40), the H-WORD-WELD E20 flag was
+silently dropped (restored: numerically true, mechanically unlinked), and the B620
+miscitation repeated (it's B753-add.2/B593). The aAbB framing noted as S-room-grade
+(never gated). The three triadic T1 candidates registered unverified (vedanā / Peirce /
+Husserl's temporal triad, the last with the courier's own double-assignment caveat).
+Nothing to CLAIMS.
