@@ -7464,3 +7464,10 @@ explicit byte-frozen-by-hash-citation list — THE HASH CITATION OUTRANKS PATH H
 (the append-only lesson's sibling). All manifest/artifact locks green post-restore;
 gates 8/8. The sweep's residual scope stands correct: 60 genuinely free text artifacts
 cleaned; every pinned byte back in place.
+
+## 2026-07-23 — the slow tier executes for the first time in recent memory: 102/102 GREEN
+The fourth-pass audit's "invisible tier" (the OA_SLOW/RUN_SLOW-gated files, unseen even by
+collection) ran in full: 2h45m, 102 locks, ZERO failures. The last conditional on the
+impact question closes: no verdict-bearing lock anywhere in the program was hiding a
+failure. REPRODUCIBILITY's slow-tier requirement is now satisfied with a dated record;
+reviews' declared-modulus rule can cite this run until the next slow-tier execution.
