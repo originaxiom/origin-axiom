@@ -7648,3 +7648,15 @@ condition is now a named Phase 2 door in docs/CLOSURE_PROGRAM.md — derive
 {c, θ, γ₅} from σ: a→ab or dismiss the framework as analogy. The handoff itself
 stays relay-side (session summaries are not repo artifacts; seat/model header
 lines never enter the tree).
+
+## 2026-07-23 — B770: the Closure Census banked; Phase 0 DONE; the owner checkpoint is open
+The census workflow (87 agents, 0 errors; one mid-run repair — the dedup step's
+output-ceiling failure fixed by a groups-only merge contract, extraction cache
+replayed) classified the record's complete open surface: 352 unique items (431
+raw, 10/10 sources) → LIVE 225 (phase 1: 56, phase 2: 74, phase 3: 50, phase 4:
+11, phase 5: 20, unassigned 14), EXTERNAL 50, CLOSED 39, STALE 27,
+CONSTITUTIVELY-OPEN 6, WALLED 5. The no-unearned-closure invariant held under
+an adversarial pass that refuted 16 candidate closures back to LIVE with named
+unrun work. Artifacts: census.json (record), CENSUS.md (digest), 6 locks. cc
+spot-verified a seeded sample by hand. Phase 1 (the mechanical lane: the quartet
++ B500 + 54 more) launches on the owner's checkpoint go.

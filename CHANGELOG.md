@@ -1,5 +1,8 @@
 # Changelog
 
+## B770 — the Closure Census: the record's full open surface mapped (Phase 0 DONE)
+- 431 raw items from 10/10 ledgers → 352 unique → 352 classified into the six sealed states (prereg 7682759b before compute): LIVE 225 (phased into the program's five phases), EXTERNAL 50, CLOSED 39, STALE 27, CONSTITUTIVELY-OPEN 6, WALLED 5. The adversarial pass refuted 16 unearned closures back to LIVE; every surviving closure carries an opened-and-verified citation. 87 agents, 0 errors; 6 compute-grade locks. The owner checkpoint (Phase 1 go/no-go) is next.
+
 ## cc3 close-out gated — the forks verification adopted (F1 SOFTENED); two audits banked; WALL-7 at 18 points; cc3's program CLOSED
 - cc3's four branches gated by cc: the forks grading (F3/F2/F4 CONFIRMED, F1 SOFTENED — receipt #6's Ferroni correction verified against the campaign's own JSON and adopted; θ stays VACANT, K.C. the genuine residual), the B768 and B769 audits (both CONFIRMED, reproduced in-sandbox, 20 locks), and the WALL-7 twisted extension (3→18 points, all dim=0, 865 for closure — Phase 1 carries). One relay-file-in-tree violation cherry-picked around. Stale branch pointers deleted; the three frozen-record branches stand.
 
