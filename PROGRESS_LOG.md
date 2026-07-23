@@ -7471,3 +7471,12 @@ collection) ran in full: 2h45m, 102 locks, ZERO failures. The last conditional o
 impact question closes: no verdict-bearing lock anywhere in the program was hiding a
 failure. REPRODUCIBILITY's slow-tier requirement is now satisfied with a dated record;
 reviews' declared-modulus rule can cite this run until the next slow-tier execution.
+
+## 2026-07-23 — REVIEW 29 (anchor 58e9add3): the verification window
+21 merges audited on a same-day gold-standard state (full 2730/0; slow tier 102/0 first
+execution; gates 8/8; mirrors identical). Rule 1b's first application: zero unclassified
+refs. Substance: C18 priced + the chain's first self-correction (C19, by sealed
+prediction); the hunt's three strata complete; H-EAR lands; the safety campaign's 14+
+catches all standing rules; the cc3 audit inverted (compute-grade locking adopted).
+No new error class; the counter-rules demonstrably working. Six action items (4 carried,
+2 new: the torsor cell owner-gate; the mutation test as standing review practice).
