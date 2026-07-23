@@ -1,5 +1,8 @@
 # Changelog
 
+## B769 — the T1 structure: discrete 3-frame torsor; C21 minted
+- T1's fixedness proved forced (abelian inner triviality; the mover must be outer/S₃); the discrete part a genuine 3-torsor; the continuous candidate gauge-fixed at geo (odd coordinates vanish; tangent frames align — the chord = c⊕θ mechanism). The courier's continuous-Attention reading is unlicensed; T1 wants a triadic candidate.
+
 ## B768 receipt #3 — the forks fire: one row killed by its own falsifier
 - F3 unanimous: pre-reflective agency is GRADED — θ-as-binary dies; C7 dead three ways; the elimination collapsed. F1: γ₅'s row strengthened at its sharpest point (the DPD case dissolves phenomenally; K.C. the honest residual). F2/F4 undecided. The matrix PARTIALLY FALSIFIED — the cross-test working as designed. To cc3 for verification.
 

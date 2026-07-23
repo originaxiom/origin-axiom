@@ -157,6 +157,16 @@ RANK-SATURATED: the menu is the full discrete closing set. The continuous residu
 (anchor/values/space) stays Galois-chosen (K020), and the unmoved T1 axis is a named
 door. — B766. Lock: `tests/test_b766_torsor.py`.
 
+**C21 [THEOREM — the T1 structure].** The unmoved axis is DISCRETE: a 3-element torsor
+(the V₄-frame choice) under an S₃ of which the banked object-native operations realize
+only the identity — T1's fixedness under the closing set is FORCED (abelian inner
+triviality), so any instrument moving it must realize an outer V₄-automorphism. The
+candidate continuous modulus (the relative position of the c- and θ-eigensplittings) is
+GAUGE-FIXED at the geometric point: the θ-odd coordinates vanish there identically (the
+point is θ-fixed) and the tangent frames align exactly — the alignment that produces
+chord = c⊕θ. No continuous T1 content exists where the object lives. — B769. Lock:
+`tests/test_b769_t1.py`.
+
 ---
 
 *Maintenance: additions require the B758 admission criteria (exact statement + location +

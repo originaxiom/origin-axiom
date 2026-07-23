@@ -15996,6 +15996,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B769": {
+   "slug": "t1 structure",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B766"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B76": {
    "slug": "cusp quantum group",
    "motifs": [
