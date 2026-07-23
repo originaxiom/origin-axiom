@@ -1,5 +1,8 @@
 # Changelog
 
+## B768 receipt #3 — the forks fire: one row killed by its own falsifier
+- F3 unanimous: pre-reflective agency is GRADED — θ-as-binary dies; C7 dead three ways; the elimination collapsed. F1: γ₅'s row strengthened at its sharpest point (the DPD case dissolves phenomenally; K.C. the honest residual). F2/F4 undecided. The matrix PARTIALLY FALSIFIED — the cross-test working as designed. To cc3 for verification.
+
 ## B767 — the stabilizations: two kills fully closed (Binet; functoriality); the quartet carries
 - B489 and TOMB-L255 no longer underproved (all-n / all-d theorems, compute-grade locked). WALL-7/B685/TOMB-L310/TOMB-L34 extended with named residuals. Plus the B766 audit merged: RANK-SATURATED confirmed; the trace-blindness lesson banked (the chord is invisible to tr()).
 

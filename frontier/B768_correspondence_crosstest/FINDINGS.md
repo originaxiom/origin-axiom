@@ -98,3 +98,40 @@ has ever received — and as a candidate.
   now ALSO decides C7 — and with it whether the elimination's last step stands.
 4. **The XOR documentation** (the chord): does any phenomenology-of-encounter literature
   support the two-flips-cancel structure, beyond the Buber gloss?
+
+## RECEIPT #3 (2026-07-23) — the four consequence forks executed: ONE ROW KILLED; the sharpest falsifier survived
+
+The research campaign (wf_6e8cae9a: 4 both-directions researchers + 2 adversarial
+source-checkers each; 12 agents, 0 errors). Verdicts:
+
+- **F3 (FoA-arity): KILLS-THE-ROW — unanimous (7 kill-evidence rows, 0 support, 0 skeptic
+  refutes).** The pre-reflective feeling of agency is documented as GRADED in the primary
+  literature (the Synofzik line and successors), not binary. **θ = Agency-as-binary-primitive
+  is DEAD as delivered — and with it C7, the uniqueness tiebreaker, now dead THREE ways**
+  (enumeration absent; the Haggard–Tsakiris over-read; the underlying claim killed).
+  The courier's own falsifier text pre-declared the repair path ("might survive as a T1
+  pairing — continuous"), which now collides with Attention for the continuous slot: the
+  elimination structure is collapsed; θ is VACANT.
+- **F1 (double-dissociation): UNDECIDED — and the row STRENGTHENED at its sharpest point.**
+  The named danger case dissolved in the row's favor: Ferroni et al. 2025 directly tested
+  the clinical-vs-phenomenal distinction and found DPD patients keep factual date-knowledge
+  while phenomenal temporal self-reference is IMPAIRED — at the phenomenal grain, self- and
+  time-disruption CO-OCCUR. Meditation (Berkovich-Ohana 2021; Linares Gutiérrez 2022) and
+  confabulation (La Corte 2011) load self+time on one dissolution axis. The honest residual
+  kill-candidate: patient K.C. (semantic self preserved, autonoetic time-travel abolished)
+  — with the construct caveat named (episodic self-projection ≠ felt temporal flow).
+  Skeptic split (1 refute on evidence-row accuracy; the other confirmed Ferroni verbatim) —
+  flagged for the cc3 verification pass.
+- **F2 (third-state): UNDECIDED, 0 refutes.** Peer-reviewed claims of a positive third
+  state exist (nondual-awareness neurophenomenology; we-mode intersubjectivity) — c's
+  falsifier is LIVE, not decided.
+- **F4 (XOR): UNDECIDED, 1 refute.** No literature documents the two-flips-cancel
+  invariance; the chord's XOR remains the program's formalization (the Merleau-Ponty
+  touch-reversal case complicates rather than supports).
+
+**The candidate matrix after the forks: PARTIALLY FALSIFIED, exactly as the machinery
+intends** — the γ₅ row emerges strengthened from its own sharpest falsifier, the θ row is
+killed as stated by a pre-declared falsifier, the c row is under live threat, and the
+chord's phenomenological half remains undocumented. The cross-test's first full cycle:
+a literature-killed row via its own sealed falsifier. Handed to cc3 for the independent
+verification pass (owner-directed); the owner adjudicates after.

@@ -7547,3 +7547,15 @@ Legendre structure found — (−3/5) = −1 — the 3-integrality formalization
 TOMB-L310 (drift decelerating, L11+ needs the DAG rebuild), TOMB-L34 (c_eff not
 stabilized — honest inconclusive). The honest residual: 4 + B500. Gate fixups: B767
 reserved+renamed; relay to the channel. Nothing to CLAIMS.
+
+## 2026-07-23 — B768 receipt #3: the forks fire — θ-as-binary-Agency KILLED; γ₅ strengthened
+The four sealed consequence forks executed (12 agents; both-directions searches +
+adversarial source-checking). F3 unanimous KILL: pre-reflective FoA is documented GRADED —
+the θ row dies by its own pre-declared falsifier and C7 (the uniqueness tiebreaker) is
+dead three ways; θ is VACANT and the elimination structure collapsed. F1: the sharpest
+falsifier SURVIVED with the row strengthened — the DPD danger case dissolved at the
+phenomenal grain (Ferroni 2025: clinical orientation intact, phenomenal temporal
+self-reference impaired — co-occurrence, not dissociation); K.C. remains the honest
+residual with its construct caveat. F2/F4 undecided (live falsifier; undocumented XOR).
+The matrix: PARTIALLY FALSIFIED — the machinery working. Package to cc3 for the
+owner-directed verification pass. Nothing to CLAIMS.
