@@ -15976,11 +15976,23 @@
    "slug": "correspondence crosstest",
    "motifs": [
     "golden",
-    "lorentzian"
+    "lorentzian",
+    "firewall"
    ],
    "refs": [
+    "B593",
+    "B620",
     "B701",
+    "B749",
+    "B752",
     "B753",
+    "B754",
+    "B765",
+    "B766",
+    "B767",
+    "B769",
+    "P019",
+    "P020",
     "P1",
     "P2",
     "P3",
@@ -16037,6 +16049,21 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B770": {
+   "slug": "closure census",
+   "motifs": [],
+   "refs": [
+    "B470",
+    "B500",
+    "B685",
+    "L310",
+    "L34"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
   },
   "B77": {
    "slug": "degree rank mechanism",
