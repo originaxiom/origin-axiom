@@ -1,0 +1,23 @@
+== V1: the co-emergence transition matrix -- is T stochastic, eigenvalues {1, -1/phi}? ==
+rows sum to 1: [1, 1]
+eigenvalues: [1, 1/2 - sqrt(5)/2]
+CHECK {1, -1/phi}: True
+
+== V2: is T actually the Fibonacci word's letter-transition matrix? (empirical, 100k letters) ==
+P(a|a) = 0.381966 (1/phi^2 = 0.381966)  P(b|a) = 0.618034 (1/phi = 0.618034)
+P(a|b) = 0.999987 (claim: 1)                 P(b|b) = 0.000000 (claim: 0)
+CHECK P(b|b) = 0 exactly (no 'bb' anywhere): True
+
+== V3: the 'subdominant eigenvalue = the hearing amplitude' claim ==
+subdominant = -1/phi = -0.618034
+the banked theta-odd trace of the UNTWISTED weld (B753 addendum 2) = -1/phi: IDENTICAL as numbers
+E20 FLAG (mandatory): 1/phi-valued quantities are ubiquitous in this program (the tone set
+{0, 1/phi, 1} itself); a numerical coincidence of two golden quantities carries ~zero bits
+without a MECHANISM linking the word's Markov spectrum to the weld's theta-odd trace.
+STATUS: numerically true, mechanically UNLINKED -- recorded as H-class, not structure.
+
+== V4: the gamma3 == c collapse -- honest scope restatement ==
+B766 verified the identity on the FIVE DISCRETE closing axes (T1,T3,T4,T6,T7) -- every
+axis in the rank computation. The continuous axes (T2/T5/T8) were NOT tested (out of the
+rank's scope). The handoff's 'every closing axis' is TRUE for the discrete torsor that the
+rank-3 theorem is about; open for the continuum. The collapse supporting C2 STANDS as used.

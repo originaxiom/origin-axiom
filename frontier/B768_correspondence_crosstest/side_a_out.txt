@@ -1,0 +1,11 @@
+9 signatures; core components re-asserted exactly
+  voice              arity=1          inv: covering-invariant residue
+  self-name          arity=1          inv: unique in 203,123; twin separated by cusp lattice
+  transparency       arity=all-ranks  inv: fiber_dim = 0 at n=2,3,4 (double-method)
+  integration        arity=2          inv: onset exactly at SL(3); strength |u-ubar| (the pair-separati
+  no-closure         arity=1          inv: {zeta5, zeta5^4} inseparable; 5 operations fail
+  three-bits         arity=3          inv: rank EXACTLY 3 = the menu (saturated)
+  time=basepoint     arity=1          inv: (1-phi)^2 = phi^-2 exact
+  unmoved-axis       arity=1          inv: fixed by all of I
+  galois-continuum   arity=continuous inv: total non-canonicity (B712)
+WROTE side_a_signatures.json
