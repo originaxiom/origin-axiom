@@ -1,0 +1,1541 @@
+[
+ {
+  "m": 5,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 12,
+  "log": "probelog_extra.txt"
+ },
+ {
+  "m": 5,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 12,
+  "log": "probelog_extra.txt"
+ },
+ {
+  "m": 5,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 12,
+  "log": "probelog_extra.txt"
+ },
+ {
+  "m": 2,
+  "o": 5,
+  "n": 5,
+  "exps": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 6,
+  "log": "probelog_extra.txt"
+ },
+ {
+  "m": 2,
+  "o": 5,
+  "n": 5,
+  "exps": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 4,
+  "log": "probelog_extra.txt"
+ },
+ {
+  "m": 4,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 9,
+  "of": 15,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 4,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 5,
+  "o": 4,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   3
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 15,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 5,
+  "o": 4,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   3
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 5,
+  "o": 3,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   2
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 15,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 5,
+  "o": 3,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   2
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 4,
+  "o": 3,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   2
+  ],
+  "s": -1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 12,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 4,
+  "o": 3,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   2
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 12,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_highm.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": -1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": 1,
+  "k": 5,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "s": -1,
+  "k": 5,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6bn4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 5,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 5,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o6n4.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 1,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": -1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 5,
+  "log": "probelog_m1o6n6.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 5,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 1,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 5,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m1o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 10,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o10n4.txt"
+ },
+ {
+  "m": 2,
+  "o": 10,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o10n4.txt"
+ },
+ {
+  "m": 2,
+  "o": 10,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o10n4.txt"
+ },
+ {
+  "m": 2,
+  "o": 10,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o10n4.txt"
+ },
+ {
+  "m": 2,
+  "o": 10,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o10n4.txt"
+ },
+ {
+  "m": 2,
+  "o": 10,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o10n4.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 3,
+  "of": 10,
+  "log": "probelog_m2o6n3.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m2o6n3.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m2o6n3.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m2o6n3.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m2o6n3.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m2o6n3.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 8,
+  "log": "probelog_m2o8e8.txt"
+ },
+ {
+  "m": 3,
+  "o": 9,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   8
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m3o9n3.txt"
+ },
+ {
+  "m": 3,
+  "o": 9,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   8
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m3o9n3.txt"
+ },
+ {
+  "m": 3,
+  "o": 9,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   8
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m3o9n3.txt"
+ },
+ {
+  "m": 3,
+  "o": 9,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   8
+  ],
+  "s": -1,
+  "k": 2,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m3o9n3.txt"
+ },
+ {
+  "m": 3,
+  "o": 9,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   8
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m3o9n3.txt"
+ },
+ {
+  "m": 3,
+  "o": 9,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   8
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_m3o9n3.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 1,
+  "hits": 4,
+  "of": 10,
+  "log": "probelog_verify2.txt"
+ },
+ {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 2,
+  "rng": 1,
+  "hits": 0,
+  "of": 10,
+  "log": "probelog_verify2.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 1,
+  "hits": 0,
+  "of": 25,
+  "log": "probelog_verify2.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 4,
+  "exps": [
+   0,
+   0,
+   1,
+   5
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 1,
+  "hits": 0,
+  "of": 25,
+  "log": "probelog_verify2.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 1,
+  "hits": 0,
+  "of": 25,
+  "log": "probelog_verify2.txt"
+ },
+ {
+  "m": 2,
+  "o": 8,
+  "n": 4,
+  "exps": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "s": -1,
+  "k": 1,
+  "rng": 1,
+  "hits": 0,
+  "of": 25,
+  "log": "probelog_verify2.txt"
+ },
+ {
+  "m": 1,
+  "o": 4,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   3
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 6,
+  "log": "probe_m1_o4_n3_013.json"
+ },
+ {
+  "m": 1,
+  "o": 4,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   3
+  ],
+  "s": -1,
+  "k": 4,
+  "rng": 0,
+  "hits": 0,
+  "of": 6,
+  "log": "probe_m1_o4_n3_013.json"
+ },
+ {
+  "m": 1,
+  "o": 4,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   3
+  ],
+  "s": 1,
+  "k": 3,
+  "rng": 0,
+  "hits": 5,
+  "of": 6,
+  "log": "probelog_valid_m1o4n3.txt"
+ },
+ {
+  "m": 1,
+  "o": 4,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   3
+  ],
+  "s": -1,
+  "k": 3,
+  "rng": 0,
+  "hits": 0,
+  "of": 6,
+  "log": "probelog_valid_m1o4n3.txt"
+ },
+ {
+  "m": 4,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "s": 1,
+  "k": 1,
+  "rng": 1,
+  "hits": 11,
+  "of": 15,
+  "log": "probelog_secondstream.txt"
+ },
+ {
+  "m": 1,
+  "o": 6,
+  "n": 6,
+  "exps": [
+   0,
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "s": 1,
+  "k": 4,
+  "rng": 1,
+  "hits": 2,
+  "of": 8,
+  "log": "probelog_secondstream.txt"
+ }
+]

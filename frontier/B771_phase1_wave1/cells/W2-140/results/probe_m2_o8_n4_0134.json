@@ -1,0 +1,42 @@
+{
+ "s=+1 k=1": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ },
+ "s=-1 k=1": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ },
+ "s=+1 k=2": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ },
+ "s=-1 k=2": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ },
+ "s=+1 k=3": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ },
+ "s=-1 k=3": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ },
+ "s=+1 k=4": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ },
+ "s=-1 k=4": {
+  "hits": 0,
+  "of": 8,
+  "sample": null
+ }
+}

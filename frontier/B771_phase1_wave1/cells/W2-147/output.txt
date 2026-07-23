@@ -1,0 +1,157 @@
+==============================================================================
+STEP 0 -- re-read the sealed context (sanity echo, not authority)
+==============================================================================
+B581 stored data: /Users/dri/origin-axiom/frontier/B581_six_torsions/six_torsions_results.json exists: True
+  banked Delta_1(t) = t**3 - 6*t**2 + 6*t - 1
+  banked Delta_4(t) = t**9 - 18*t**8 + 2187*t**7 - 80329*t**6 + 490905*t**5 - 490905*t**4 + 80329*t**3 - 2187*t**2 + 18*t - 1
+  banked Delta_5(t) = t**11 - 22*t**10 + 3413*t**9 - 1324075*t**8 + 50524266*t**7 - 310086527*t**6 + 310086527*t**5 - 50524266*t**4 + 1324074*t**3 - 3413*t**2 + 22*t - 1
+  banked Delta_7(t) = t**15 - 30*t**14 - 388149*t**13 - 52565703*t**12 + 114318088809*t**11 - 26512784097351*t**10 + 997450462539256*t**9 - 6117928512560295*t**8 + 6117928512560295*t**7 - 997450462539256*t**6 + 26512784097351*t**5 - 114318088809*t**4 + 52565703*t**3 + 388149*t**2 + 30*t - 1
+  banked Delta_8(t) = t**17 - 34*t**16 - 1296886*t**15 - 474015319*t**14 + 2671917981726*t**13 - 3555106266350720*t**12 + 819072580819022607*t**11 - 30814963753252727008*t**10 + 189010708578318639855*t**9 - 189010708578318639855*t**8 + 30814963753252727008*t**7 - 819072580819022607*t**6 + 3555106266350720*t**5 - 2671917981726*t**4 + 474015319*t**3 + 1296886*t**2 + 34*t - 1
+  banked Delta_11(t) = t**23 - 46*t**22 + 327322322*t**21 - 5285989102521*t**20 + 105386721209135510*t**19 - 317501775860813407752*t**18 + 19689672877502941824683790*t**17 - 172101915864513668276407478954*t**16 + 243641104610188104286789109075709*t**15 - 56224042184043606463501002339617272*t**14 + 2115282184517309174928886814005451154*t**13 - 12974522456834038933920113724120694121*t**12 + 12974522456834038933920113724120694121*t**11 - 2115282184517309174928886814005451154*t**10 + 56224042184043606463501002339617272*t**9 - 243641104610188104286789109075709*t**8 + 172101915864513668276407478954*t**7 - 19689672877502941824683790*t**6 + 317501775860813407752*t**5 - 105386721209135510*t**4 + 5285989102521*t**3 - 327322322*t**2 + 46*t - 1
+
+==============================================================================
+STEP 1 -- INDEPENDENT re-derivation of Delta_1(t) (adjoint, m=1) from scratch
+==============================================================================
+Direct exact Fox calculus over QQ(omega), Sym^2 (3x3), NOT the B581/B425 CRT pipeline.
+  omega^2+omega+1 (reduced) = 0  (must be 0)
+  rho(relator) = [[1, 0], [0, 1]]  (must be I)
+  Fox derivative dR/db has 5 terms
+  det(S) = [ t**3 - 9*t**2 + 27*t - 38 + 27/t - 9/t**2 + t**(-3) ]  +  [ 0 ] * omega
+  (omega-coefficient must vanish identically -- 'sqrt(-3) cancels in the
+   determinant', the exact B425 finding, re-derived independently here)
+  N(t) = t**3 - 9*t**2 + 27*t - 38 + 27/t - 9/t**2 + t**(-3)  (a Laurent polynomial in t -- Fox calculus prefixes can have
+                  negative total exponent, hence negative powers of t)
+  D(t) = t**3 - 3*t**2 + 3*t - 1
+  cancel(N(t)/D(t)) = num/den, num = t**3 - 6*t**2 + 6*t - 1  den = t**3
+  (denominator is a bare monomial t^3 -- exactly the standard
+   +-t^k unit ambiguity of Reidemeister/Wada torsion, not a bug)
+  INDEPENDENTLY DERIVED Delta_1(t) = t**3 - 6*t**2 + 6*t - 1
+  BANKED (B581) Delta_1(t)        = t**3 - 6*t**2 + 6*t - 1
+  MATCH (up to overall sign): True
+
+  CROSS-CHECK PASSED: independent direct Sym^2 Fox-calculus derivation over QQ(omega)
+  reproduces the banked B581/B425 (CRT-over-F_p) result EXACTLY, two independent
+  routes, one polynomial: Delta_1(t) = t**3 - 6*t**2 + 6*t - 1
+
+==============================================================================
+STEP 2 -- factor Delta_1(t), confirm the banked factorization
+==============================================================================
+  Delta_1(t) = (t - 1)*(t**2 - 5*t + 1)
+  roots: {1: 1, 5/2 - sqrt(21)/2: 1, sqrt(21)/2 + 5/2: 1}
+
+==============================================================================
+STEP 3 -- THE NEW CLASS: adjoint-twisted cyclic-cover torsion T_m(n)
+==============================================================================
+
+T_m(n) := prod_{j=1}^{n-1} Delta_m(zeta_n^j)   (zeta_n primitive n-th root of unity)
+
+standard fact: for a polynomial f(t) in QQ[t], prod_{zeta: zeta^n=1} f(zeta) = Res(x^n-1, f(x))
+(monic resultant); dividing by f(1) removes the j=0 term.  All exact (sympy resultant).
+
+Delta_1(1) = 0  (expected 0 -- forced by dim H^1=1, per B581)
+  Delta_1(t)/(t-1) = t**2 - 5*t + 1  (the reduced quadratic g_1(t))
+  T_1(n) = prod_{j=1}^{n-1} g_1(zeta_n^j), n=2..25:
+    n= 2: T_1(n) = 7  (integer: True)
+    n= 3: T_1(n) = 36  (integer: True)
+    n= 4: T_1(n) = 175  (integer: True)
+    n= 5: T_1(n) = 841  (integer: True)
+    n= 6: T_1(n) = 4032  (integer: True)
+    n= 7: T_1(n) = 19321  (integer: True)
+    n= 8: T_1(n) = 92575  (integer: True)
+    n= 9: T_1(n) = 443556  (integer: True)
+    n=10: T_1(n) = 2125207  (integer: True)
+    n=11: T_1(n) = 10182481  (integer: True)
+    n=12: T_1(n) = 48787200  (integer: True)
+    n=13: T_1(n) = 233753521  (integer: True)
+    n=14: T_1(n) = 1119980407  (integer: True)
+    n=15: T_1(n) = 5366148516  (integer: True)
+    n=16: T_1(n) = 25710762175  (integer: True)
+    n=17: T_1(n) = 123187662361  (integer: True)
+    n=18: T_1(n) = 590227549632  (integer: True)
+    n=19: T_1(n) = 2827950085801  (integer: True)
+    n=20: T_1(n) = 13549522879375  (integer: True)
+    n=21: T_1(n) = 64919664311076  (integer: True)
+    n=22: T_1(n) = 311048798676007  (integer: True)
+    n=23: T_1(n) = 1490324329068961  (integer: True)
+    n=24: T_1(n) = 7140572846668800  (integer: True)
+    n=25: T_1(n) = 34212539904275041  (integer: True)
+
+  ALL T_1(n) integers for n=2..25: True
+
+==============================================================================
+STEP 4 -- closed form for T_1(n) via the companion Lucas sequence of g_1
+==============================================================================
+
+g_1(t) = t^2 - 5t + 1 (roots alpha,beta with alpha+beta=5, alpha*beta=1 -- a UNIT pair,
+matches B581's note: root = (5+sqrt(21))/2 is the banked B520 BTZ entropy value).
+Standard identity: prod_{zeta^n=1} g_1(zeta) = (alpha^n-1)(beta^n-1) = 2 - V_n
+  where V_n = alpha^n+beta^n satisfies V_0=2, V_1=5, V_n = 5 V_{n-1} - V_{n-2}  (Lucas-type).
+So  T_1(n) = [2-V_n] / g_1(1)  =  (V_n-2)/3   (g_1(1) = 1-5+1 = -3).
+
+  CLOSED FORM  T_1(n) = (V_n - 2)/3  VERIFIED for n=2..25: True
+
+==============================================================================
+STEP 5 -- >=2-seed numeric cross-check (mpmath, tolerance-height rule)
+==============================================================================
+  n= 3: numeric(60dps)=36.0  exact=36.0  |diff|=0.0  OK=True
+  n= 5: numeric(60dps)=841.0  exact=841.0  |diff|=1.5931e-58  OK=True
+  n= 7: numeric(60dps)=19321.0  exact=19321.0  |diff|=2.5489e-57  OK=True
+  n= 8: numeric(60dps)=92575.0  exact=92575.0  |diff|=0.0  OK=True
+  n=11: numeric(60dps)=10182481.0  exact=10182481.0  |diff|=3.9152e-54  OK=True
+  n=13: numeric(60dps)=233753521.0  exact=233753521.0  |diff|=0.0  OK=True
+  n=17: numeric(60dps)=123187662361.0  exact=123187662361.0  |diff|=4.2764e-50  OK=True
+  n=19: numeric(60dps)=2827950085801.0  exact=2827950085801.0  |diff|=3.4211e-49  OK=True
+  n=23: numeric(60dps)=1490324329068961.0  exact=1490324329068961.0  |diff|=1.5765e-45  OK=True
+
+  numeric cross-check (independent complex-root seed) all pass: True
+
+==============================================================================
+STEP 6 -- extend to m=4,5,7,8,11 (the full E6 exponent set): T_m(n) integrality sweep
+==============================================================================
+  m=4: Delta_m(1) = 0
+    n=2: T_4(n) = 573440  (integer: True)
+    n=3: T_4(n) = 238827690000  (integer: True)
+    n=4: T_4(n) = 95648125849436160  (integer: True)
+    n=5: T_4(n) = 38068649366116867201201  (integer: True)
+  m=4: all tested T_4(n) integer: True
+  m=5: Delta_m(1) = -1
+    Delta_5(1) != 0 -- do not strip a (t-1) factor; use Delta_m directly.
+    n=2: T_5(n) = -723876607  (integer: True)
+    n=3: T_5(n) = -285996435271441921  (integer: True)
+    n=4: T_5(n) = -96548829794612052088664887  (integer: True)
+    n=5: T_5(n) = -30369670811955279481643389803873251  (integer: True)
+  m=5: all tested T_5(n) integer: True
+
+  (m in {7,8,11}: degree-15/17/23 polynomials -- resultant sweep skipped here for
+   runtime honesty on a shared machine; NOT claimed tested. Named as residual below.)
+
+==============================================================================
+STEP 7 -- GATE A READING: is this new class symmetrizable / no forced choice?
+==============================================================================
+
+The B330 mechanism: a finite Galois orbit is always symmetrizable.  Here the "orbit" acted on
+by Gal(Q(zeta_n)/Q) is {zeta_n^j : j=1..n-1}; because Delta_m(t) has RATIONAL coefficients
+(Galois symmetry rho-bar = rho o phi forces Q, per B581), permuting the zeta_n^j merely permutes
+the factors of the product T_m(n) -- so T_m(n) is AUTOMATICALLY Galois-fixed (in Q), and (per the
+integrality checks above) lands in Z exactly, at every (m,n) probed.  No sign ambiguity, no
+unresolved member: the object hands you ONE integer per (m,n), never an orbit requiring a choice.
+This extends gate A's evidence to a genuinely NEW invariant class (adjoint-twisted cyclic-cover
+torsion) that neither B350 (trivial rep) nor B581 (n=1 only) computed.
+
+BONUS (unforced): the m=1 case has an exact closed form via a companion Lucas sequence
+V_n (V_0=2,V_1=5,V_n=5V_{n-1}-V_{n-2}), whose n=1 root (5+sqrt(21))/2 IS the banked B520 BTZ
+entropy root -- B581 flagged this "unit-trace ladder {5,26,...}" as unregistered; this cell
+identifies it exactly as the companion sequence of g_1(t)=t^2-5t+1, T_1(n)=(V_n-2)/3.
+
+SUMMARY: {
+ "delta1_cross_check_match": true,
+ "closed_form_T1_verified": true,
+ "T1_all_integer_swept": true,
+ "numeric_cross_check_pass": true,
+ "extend_all_integer": {
+  "4": true,
+  "5": true
+ }
+}
+
+[results.json written]

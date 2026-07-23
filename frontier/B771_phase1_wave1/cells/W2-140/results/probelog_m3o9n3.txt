@@ -1,0 +1,6 @@
+m=3 o=9 n=3 exps=[0, 1, 8]  s=+1 k=1 : hits=0/10 
+m=3 o=9 n=3 exps=[0, 1, 8]  s=-1 k=1 : hits=0/10 
+m=3 o=9 n=3 exps=[0, 1, 8]  s=+1 k=2 : hits=0/10 
+m=3 o=9 n=3 exps=[0, 1, 8]  s=-1 k=2 : hits=0/10 
+m=3 o=9 n=3 exps=[0, 1, 8]  s=+1 k=3 : hits=0/10 
+m=3 o=9 n=3 exps=[0, 1, 8]  s=-1 k=3 : hits=0/10 

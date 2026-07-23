@@ -1,0 +1,214 @@
+{
+ "depth_data": {
+  "7": {
+   "N": 12069,
+   "seedA": [
+    0.19304556966489894,
+    0.15490896101619941
+   ],
+   "seedB": [
+    0.19067356779039007,
+    0.15545188628315554
+   ],
+   "ratioA": 1.2461872340923612,
+   "ratioB": 1.226576095983025
+  },
+  "8": {
+   "N": 44368,
+   "seedA": [
+    0.19168353870208524,
+    0.15265706979989824
+   ],
+   "seedB": [
+    0.18889829231093347,
+    0.15259619545880615
+   ],
+   "ratioA": 1.2556479628054082,
+   "ratioB": 1.237896474043661
+  },
+  "9": {
+   "N": 163106,
+   "seedA": [
+    0.19162575075628002,
+    0.1523872213119791
+   ],
+   "seedB": [
+    0.18880076006506144,
+    0.1522574404443614
+   ],
+   "ratioA": 1.2574922562828856,
+   "ratioB": 1.2400100744768126
+  },
+  "10": {
+   "N": 599611,
+   "seedA": [
+    0.19162540089366537,
+    0.15236413023992082
+   ],
+   "seedB": [
+    0.1888000162581565,
+    0.15222593971891313
+   ],
+   "ratioA": 1.2576805353853404,
+   "ratioB": 1.2402617885412817
+  },
+  "11": {
+   "N": 2204293,
+   "seedA": [
+    0.19162540045939508,
+    0.15236393899420014
+   ],
+   "seedB": [
+    0.18880001405778618,
+    0.1522255806817923
+   ],
+   "ratioA": 1.2576821111633867,
+   "ratioB": 1.2402646993506825
+  }
+ },
+ "seed_agree_digits": {
+  "7": 1.8030804998721939,
+  "8": 1.849633114538753,
+  "9": 1.8569096869511534,
+  "10": 1.8585534321964974,
+  "11": 1.8585872633997949
+ },
+ "r_seq_depths_7_11": [
+  1.2461872340923612,
+  1.2556479628054082,
+  1.2574922562828856,
+  1.2576805353853404,
+  1.2576821111633867
+ ],
+ "aitken": [
+  1.257938845576415,
+  1.25770194161282,
+  1.2576821244629701
+ ],
+ "consecutive_depth_digits": [
+  2.122943307133029,
+  2.833675288989765,
+  3.824768220253615,
+  5.902075838108345
+ ],
+ "aitken_pair_digits": [
+  3.725005404489542,
+  4.802529694936171
+ ],
+ "best_estimate": 1.2576821244629701,
+ "achieved_digits": 1,
+ "failed_candidate_sqrt(1/phi^2+1)": {
+  "value": "1.17557050458495",
+  "error": "0.0821116"
+ },
+ "candidate_battery": {
+  "sqrt(1/phi^2+1)": {
+   "value": "1.17557050458495",
+   "rel_err": "0.0652881"
+  },
+  "phi/sqrt(phi^2-phi)": {
+   "value": "1.61803398874989",
+   "rel_err": "0.286521"
+  },
+  "sqrt(phi)": {
+   "value": "1.27201964951407",
+   "rel_err": "0.0114"
+  },
+  "phi^2/phi": {
+   "value": "1.61803398874989",
+   "rel_err": "0.286521"
+  },
+  "6/5": {
+   "value": "1.2",
+   "rel_err": "0.0458638"
+  },
+  "sqrt(29)/phi^2": {
+   "value": "2.05694992130561",
+   "rel_err": "0.635509"
+  },
+  "phi^(1/2)*phi^(-1/6)": {
+   "value": "1.17398499670533",
+   "rel_err": "0.0665487"
+  },
+  "1+1/phi^3": {
+   "value": "1.23606797749979",
+   "rel_err": "0.0171857"
+  },
+  "sqrt(1+1/(2phi))": {
+   "value": "1.14412280563537",
+   "rel_err": "0.0902925"
+  },
+  "(1+sqrt(phi))/phi": {
+   "value": "1.40418536650732",
+   "rel_err": "0.116487"
+  }
+ },
+ "near_matches_at_achieved_precision": [
+  "sqrt(1/phi^2+1)",
+  "phi/sqrt(phi^2-phi)",
+  "sqrt(phi)",
+  "phi^2/phi",
+  "6/5",
+  "sqrt(29)/phi^2",
+  "phi^(1/2)*phi^(-1/6)",
+  "1+1/phi^3",
+  "sqrt(1+1/(2phi))",
+  "(1+sqrt(phi))/phi"
+ ],
+ "pslq_degree_sweep_untrusted_if_G4_fails": {
+  "1": [
+   -39,
+   31
+  ],
+  "2": [
+   5,
+   -9,
+   4
+  ],
+  "3": [
+   2,
+   0,
+   0,
+   -1
+  ],
+  "4": [
+   1,
+   0,
+   0,
+   -3,
+   2
+  ],
+  "5": [
+   0,
+   1,
+   0,
+   0,
+   -3,
+   2
+  ],
+  "6": [
+   0,
+   0,
+   1,
+   0,
+   0,
+   -3,
+   2
+  ]
+ },
+ "pslq_linear_golden_basis": [
+  0,
+  0,
+  1,
+  0,
+  0,
+  -1
+ ],
+ "verdict": "RESOLVED-B",
+ "obstruction": "finite-N tight-binding + eps-linear-response numerics plateau at 1 honest digits (seed-agreement / consecutive-depth / Aitken-pair digit floor), well short of the sealed rule's >=15-digit requirement; no closed-form perturbative (trace-map) formula for the individual slopes exists in the banked machinery (FINDINGS.md Movement XXXIII item 6 names this explicitly as future work); PSLQ at the achieved tolerance returns multiple simultaneously-close golden-family candidates (base-rate collision), so no identification is trustworthy. EXTERNAL next step: derive the multi-letter substitution's trace map (analogous to the Fibonacci 2D trace map) to get an exact perturbative slope formula, OR push windowed diagonalization past depth 11 with extended (mpmath) precision arithmetic for the tridiagonal eigenproblem.",
+ "failed_gates": [
+  "G1 depth-9 seedA reproduces banked slope1 (Movement XXXIII, tol 0.005)",
+  "G3 depth-9 seedA reproduces banked ratio 1.204 (tol 0.005)",
+  "G4 sealed tolerance-height rule is satisfiable (needs agree-14 >= 1, i.e. >=15 honest digits)"
+ ]
+}

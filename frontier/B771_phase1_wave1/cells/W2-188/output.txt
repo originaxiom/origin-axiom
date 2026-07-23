@@ -1,0 +1,150 @@
+==============================================================================
+PART 0 -- the kappa-naming identity: Fricke invariant = kappa + 2
+==============================================================================
+Fricke invariant := x^2+y^2+z^2-xyz ; tr[A,B] = that - 2  (kappa := tr[A,B])
+  fricke_invariant - (tr[A,B] + 2) simplifies to: 0  -- PASS
+T-UNIQ symbolic check: tr[A_m,A_n] - (2-(mn(n-m))^2) simplifies to: 0  -- PASS
+chain (golden,silver) pair: kappa = tr[A1,A2] = -2  (banked B471: -2, the cusp-closing / CRITICAL value) --  PASS
+letter-tower seed: tr(A1) = m^2+2 at m=1 = 3  (H114 reads this off-critical value as kappa=3 in the tower-seed sense) --  PASS
+PART 0 verdict: PASS
+==============================================================================
+PART 1 -- de-orphan: 'the missing-4 in the operator-order census'
+==============================================================================
+Located: papers/P4_markov_stage/DRAFT_v8.md S4.3, Theorem G(ii) -- the
+'divisor-lattice' 36-cell master table on gx=gcd(j,20) x gy=gcd(l,12),
+ord(W1)=20, ord(W2)=12 over the level-15 Weil rep. Re-deriving the FULL
+240-point census (j=1..20, l=1..12) from the exact F_p engine at TWO
+primes, cross-checked against Theorem G(i)'s pure-integer closed form
+kappa_q(j,l) = eps(jl) * chi5(j,l), and checking the printed 36-cell
+table (paper S4.3) for internal consistency, ESPECIALLY at gx=4/gy=4
+(the specific divisor named 'missing' by H114).
+
+mod-3 sign vs (jl parity) correspondence: 0 mismatches out of 240 --  PASS (parity<->sign law holds)
+p=61: ord(W1)=20, ord(W2)=12  --  PASS (20,12)
+p=61: Weil-rep trace vs CRT-predicted kappa_q, 240/240 points: 240/240 agree -- PASS
+p=421: ord(W1)=20, ord(W2)=12  --  PASS (20,12)
+p=421: Weil-rep trace vs CRT-predicted kappa_q, 240/240 points: 240/240 agree -- PASS
+cross-prime (61 vs 421) consistency: 240/240 agree -- PASS
+single-valuedness of kappa_q on the (gx,gy) divisor lattice: 0 violations --  PASS (factors through gcd exactly)
+divisors of 20 realized as gx: [1, 2, 4, 5, 10, 20]
+divisors of 12 realized as gy: [1, 2, 3, 4, 6, 12]
+lattice size: 6 x 6 = 36 cells (paper claims 36) --  PASS
+
+Diffing our from-scratch 36-cell table against the PRINTED paper table
+(papers/P4_markov_stage/DRAFT_v8.md S4.3), cell by cell, flagging gx=4/gy=4 first:
+  (gx= 1,gy= 1): ours= -1  printed=-1  [OK]
+  (gx= 1,gy= 2): ours=  3  printed=3  [OK]
+  (gx= 1,gy= 3): ours= -5  printed=-5  [OK]
+  (gx= 1,gy= 4): ours=  3  printed=3  [OK] <-- gx=4 or gy=4
+  (gx= 1,gy= 6): ours= 15  printed=15  [OK]
+  (gx= 1,gy=12): ours= 15  printed=15  [OK]
+  (gx= 2,gy= 1): ours=  3  printed=3  [OK]
+  (gx= 2,gy= 2): ours=  3  printed=3  [OK]
+  (gx= 2,gy= 3): ours= 15  printed=15  [OK]
+  (gx= 2,gy= 4): ours=  3  printed=3  [OK] <-- gx=4 or gy=4
+  (gx= 2,gy= 6): ours= 15  printed=15  [OK]
+  (gx= 2,gy=12): ours= 15  printed=15  [OK]
+  (gx= 4,gy= 1): ours=  3  printed=3  [OK] <-- gx=4 or gy=4
+  (gx= 4,gy= 2): ours=  3  printed=3  [OK] <-- gx=4 or gy=4
+  (gx= 4,gy= 3): ours= 15  printed=15  [OK] <-- gx=4 or gy=4
+  (gx= 4,gy= 4): ours=  3  printed=3  [OK] <-- gx=4 or gy=4
+  (gx= 4,gy= 6): ours= 15  printed=15  [OK] <-- gx=4 or gy=4
+  (gx= 4,gy=12): ours= 15  printed=15  [OK] <-- gx=4 or gy=4
+  (gx= 5,gy= 1): ours= -5  printed=-5  [OK]
+  (gx= 5,gy= 2): ours= 15  printed=15  [OK]
+  (gx= 5,gy= 3): ours= -5  printed=-5  [OK]
+  (gx= 5,gy= 4): ours= 15  printed=15  [OK] <-- gx=4 or gy=4
+  (gx= 5,gy= 6): ours= 15  printed=15  [OK]
+  (gx= 5,gy=12): ours= 15  printed=15  [OK]
+  (gx=10,gy= 1): ours= 15  printed=15  [OK]
+  (gx=10,gy= 2): ours= 15  printed=15  [OK]
+  (gx=10,gy= 3): ours= 15  printed=15  [OK]
+  (gx=10,gy= 4): ours= 15  printed=15  [OK] <-- gx=4 or gy=4
+  (gx=10,gy= 6): ours= 15  printed=15  [OK]
+  (gx=10,gy=12): ours= 15  printed=15  [OK]
+  (gx=20,gy= 1): ours= 15  printed=15  [OK]
+  (gx=20,gy= 2): ours= 15  printed=15  [OK]
+  (gx=20,gy= 3): ours= 15  printed=15  [OK]
+  (gx=20,gy= 4): ours= 15  printed=15  [OK] <-- gx=4 or gy=4
+  (gx=20,gy= 6): ours= 15  printed=15  [OK]
+  (gx=20,gy=12): ours= 15  printed=15  [OK]
+
+TOTAL disagreements vs printed table: 0 -- table CONFIRMED, no missing/wrong cell at gx=4 or gy=4
+
+READING (the actual referent of 'the missing-4'): the printed 5x5 sample
+table (paper S4.1, j,l=1..5) is NOT itself the census -- it is a small window
+into the 36-cell divisor-lattice census (S4.3, Theorem G). Row j=4 in the
+5x5 window (values [3,3,15,3,3], IDENTICAL to row j=2) is exactly the
+gx=4 row of the REAL census, sampled only at l=1..5 (gy in {1,2,3,4,1}),
+so it never shows the gx=4,gy=6 or gx=4,gy=12 cells where gx=4 first
+diverges from gx=2 (2,6)=15dark vs (4,6)=15dark [same], (2,12)=15dark vs
+(4,12)=15qrs [DIFFERENT TIER, same value] -- the tier at gx=4 is invisible
+in the 5x5 window and undocumented outside S4.3. That is the orphan:
+the j=4 row of the small commutator table (S4.1) LOOKS like a duplicate of
+j=2's row (same 5 numbers) with no remark explaining why, when in the full
+census gx=4 and gx=2 are DISTINCT lattice points that merely COINCIDE on
+value (not tier) at the sampled gy in {1,2,3,4}. Confirmed exactly above:
+all 240 points + the 36-cell table recompute clean; the annotation needed
+is a note at S4.1 cross-referencing S4.3 so 'j=4 row = j=2 row' reads as
+a computed coincidence, not a silent duplication.
+==============================================================================
+PART 2 -- de-orphan: 'the half-chain 3-phase quasi-invariant'
+==============================================================================
+Located: frontier/B471_chain_verification/CHAIN_SCOUT_FINDINGS.md (W3):
+  'the half-chain's cubic is NOT conserved but is a 3-PHASE QUASI-INVARIANT
+  (constant on two of three Pisano phases: 13; 29,29; 1133; 40325,40325; ...)'
+Re-deriving the half-chain and its Markov-type cubic from scratch (integer
+exact arithmetic), reproducing the quoted values, and identifying the
+period-3 mechanism (Pisano-3 parity of the half-letter dets).
+
+half-chain traces v_n (n=0..15): [2, 1, 4, 6, 23, 142, 3272, 464601, 1520174614, 706274645842286, 1073660787121283824463003, 758299392178834754808087426832100119472, 814156322280318817961622845061561788368027755790670147189736702, 617374244323721259496912305105818966731580432282496423047530820203890647982964368775645665502598798341, 502639144229191896393989378475728464389362187285673911918220424239534418084015159865337883529844400005697001709359942540993444598757748183826116522447521385484530854, 310316461836019286609489679729086483090091087565119314218491345244648011362159897772241398118741192723534127654270354855865883249696773882023596260887782703729829865548466689240004291314024029848162633296211782495256169478996511983246832987618581798063227411728249916]
+half-chain dets   d_n (n=0..15): [-1, -1, 1, -1, -1, 1, -1, -1, 1, -1, -1, 1, -1, -1, 1, -1]
+dets are exactly period-3 from k=0: True  pattern = [-1, -1, 1]
+twisted Fricke composition law v_{n+1}=v_n v_{n-1} - det(s_{n-1}) v_{n-2}: PASS (holds for all n=2..14)
+plain Markov cubic x^2+y^2+z^2-xyz on consecutive half-chain triples: [13, 29, 29, 1133, 40325, 40325, 431729590373, 4621861714100097989, 4621861714100097989, 2305494971603789484720337896325482083855402967613, 1150035936357580471421730828853041524773036919580832447810465053938633347117565, 1150035936357580471421730828853041524773036919580832447810465053938633347117565, 762301915108571743604127126496543768926717535699260061547337110721926322012938484005589432906605944441579233290107229470340901413082581323931615064874104362413024071248794733918047862676789788442540378173, 505292218622908746565903882513875043405724417734602497516940613815531452328210556217469595648144819009397006772698667449906851621354752127373755165549320638606826615706636123007770600546439655109808168026756927255892372057923998732571162683555148905383755026464822072347102199473336986022262295292711564564667277898791456955938629]
+quoted sequence (CHAIN_SCOUT_FINDINGS.md): [13, 29, 29, 1133, 40325, 40325]
+our cubic-value sequence, first 6 terms: [13, 29, 29, 1133, 40325, 40325]
+EXACT reproduction of the quoted numbers: PASS
+  block k=0: (v=13, v=29, v=29)  phase(3k+1)==phase(3k+2): True  phase(3k)!=phase(3k+1): True
+  block k=1: (v=1133, v=40325, v=40325)  phase(3k+1)==phase(3k+2): True  phase(3k)!=phase(3k+1): True
+  block k=2: (v=431729590373, v=4621861714100097989, v=4621861714100097989)  phase(3k+1)==phase(3k+2): True  phase(3k)!=phase(3k+1): True
+  block k=3: (v=2305494971603789484720337896325482083855402967613, v=1150035936357580471421730828853041524773036919580832447810465053938633347117565, v=1150035936357580471421730828853041524773036919580832447810465053938633347117565)  phase(3k+1)==phase(3k+2): True  phase(3k)!=phase(3k+1): True
+'two of three phases coincide' holds in 4/4 blocks
+3-PHASE QUASI-INVARIANT claim (2 of 3 phases per block coincide, cubic NOT globally conserved): CONFIRMED
+==============================================================================
+PART 3 -- de-orphan: silent-word field shadows (sqrt3, sqrt35)
+==============================================================================
+Located: frontier/B471_chain_verification/CHAIN_SCOUT_FINDINGS.md (W3):
+  'silent-word fields read sqrt3 (n=2), sqrt35 = sqrt5*sqrt7 (n=5)'
+  and FINDINGS.md: 'BR-N rides the word tower ... small-number notes
+  (5, 8, 40 -> sqrt10, 20160 -> sqrt35)'.
+Re-deriving: silent words (det +1, i.e. BODY-parity half-words) carry the
+COVER FORM disc = v^2 - 4 (as opposed to breathing words' det -1, metallic
+form v^2+4). Building the half-chain words explicitly, tagging each by its
+det parity (breathing vs silent), and computing disc = tr^2 -+ 4 -> its
+squarefree part, for n=2 and n=5.
+
+ n  trace v_n  det     parity  disc(cover v^2-4)   sqfree disc(metallic v^2+4)   sqfree
+ 0          2   -1 breathing(-1)                  0        0                    8        2
+ 1          1   -1 breathing(-1)                 -3        3                    5        5
+ 2          4    1 silent(+1)                 12        3                   20        5
+ 3          6   -1 breathing(-1)                 32        2                   40       10
+ 4         23   -1 breathing(-1)                525       21                  533      533
+ 5        142    1 silent(+1)              20160       35                20168     5042
+ 6       3272   -1 breathing(-1)           10705980  2676495             10705988  2676497
+ 7     464601   -1 breathing(-1)       215854089197 215854089197         215854089205 215854089205
+ 8 1520174614    1 silent(+1) 2310930857050048992 144433178565628062  2310930857050049000 23109308570500490
+
+n=2: parity=silent(+1), cover-form squarefree part = 3 (claim: 3) -- PASS
+n=5: parity=silent(+1), cover-form squarefree part = 35 (claim: 35 = 5*7) -- PASS
+
+Silent-word field shadows de-orphaning verdict: CONFIRMED
+==============================================================================
+SUMMARY
+==============================================================================
+PART 0 (kappa-naming identity, Fricke inv = kappa+2, T-UNIQ, level-sets): PASS
+PART 1 (missing-4 operator-order census -- located + verified + explained): PASS
+PART 2 (half-chain 3-phase quasi-invariant -- reproduced): PASS
+PART 3 (silent-word field shadows sqrt3/sqrt35 -- reproduced): PASS
+
+OVERALL CELL VERDICT: RESOLVED-A (pass completed, every annotation cited and independently re-derived in-sandbox)

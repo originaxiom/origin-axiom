@@ -7677,3 +7677,20 @@ torsion-one confirmed. The verifier layer caught a circular normalization
 (OI-148) that OI-031's own result now repairs — Wave 2 re-derives it; OI-150
 re-runs after a lost report. Sentinel follow-up named: fire B403/B405/B406 on
 the new e₃.
+
+## 2026-07-23 — B771 Wave 2 banked: 6 verdicts, 7 gate refusals; the adversarial layer catches five overclaim classes
+Wave 2 (13 cells, addendum 486ea7c8 sealed+merged pre-compute): the banked six
+close the level-27 question (refuted exactly — the resolvent is 3·ζ_{3^k}⁻¹,
+norm frozen at 9; the circularity from wave 1 dissolved by an integrality
+argument the verifier independently confirmed via an N-sweep), realize the
+ω-window in E₆ (both groups, explicit chiral classes — H104 positive), bound
+the additivity constant negative at 126 digits while measuring its defect law
+(log-ratio ≈ φ, recorded hint-grade), close H134 (all six κ=10 weights = odd
+φ-powers/(10√5)), bank B157's grid honestly (single-valued in (e,g), no law
+forced), and deliver L64's independent Fox confirmation of H¹=6. The seven
+refusals are the wave's method result: five agent-overclaim classes (a
+fabricated negative control, verdict logic that could not output UNRESOLVED, a
+tautological N=1 invariant theater, hand-read tier claims that would have
+merged FALSE statements into the flagship paper, comment-only diagnostics) and
+two honest bugs — every one caught by the independent adversarial rerun before
+banking, zero reached the record. All seven carry to Wave 3 with defects named.

@@ -1,0 +1,30 @@
+{
+  "cell": "W2-270",
+  "task": "B530 movement XXXIII gap-slope ratio ~1.204, exact closed form",
+  "status": "RUN TERMINATED EARLY (turn-budget / environment CPU contention); partial data only",
+  "partial_depth_data": {
+    "7": {
+      "N": 12069,
+      "seedA_ratio": 1.246187,
+      "seedB_ratio": 1.226576
+    },
+    "8": {
+      "N": 44368,
+      "seedA_ratio": 1.255648,
+      "seedB_ratio": 1.237896
+    }
+  },
+  "banked_reference_depth9": {
+    "N": 163106,
+    "ratio": 1.204,
+    "s1": 0.183,
+    "s2": 0.152,
+    "source": "frontier/B530_natural_history/FINDINGS.md Movement XXXIII (listen_38_gap_opening_verification.py)"
+  },
+  "seed_disagreement_pct_depth8": 1.42,
+  "failed_candidate_sqrt(1/phi^2+1)": 1.1755705,
+  "measured_ratio_pct_off_failed_candidate": 2.4,
+  "discriminating_fact": "seed-to-seed (eps-grid A vs B) disagreement is ~1-2% and depth-to-depth drift is in the 3rd significant digit even at the original convergence claim (depth 8 to depth 9); this bounds the whole numerical route to ~3-4 significant digits, four-fold short of the sealed tolerance-height PSLQ rule (needs >=15 honest agreement digits). No closed-form perturbative/trace-map formula for the individual slopes exists in the banked B530 machinery (FINDINGS.md Movement XXXIII item 6, named open).",
+  "obstruction": "two-part: (a) operational -- depth 9-11 recomputation did not finish under this turn's CPU contention from parallel B771 cells; (b) structural -- even fully converged, this observable has no known closed form and finite-N+finite-eps numerics saturate at ~3-4 digits, short of the sealed PSLQ precision floor.",
+  "verdict": "UNRESOLVED"
+}

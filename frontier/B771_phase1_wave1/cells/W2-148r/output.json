@@ -1,0 +1,14 @@
+{
+ "cell": "W2-148r",
+ "verdict": "RESOLVED-B",
+ "normalization": "v_c = (zeta27^k + zeta27^-k)/12, classes {121,256,391} -> k {121: 10, 256: 19, 391: 1} -- re-proven in-cell (symbolic Q[z]/Phi_27 + all-20-prime F_p multiset match + mpmath dps 50/100 + integrality: 12v is an algebraic integer, v is not)",
+ "prediction_object": "|12*L(chi)|^2, the Z/3-resolvent norm of the algebraic-integer forms 12v of the innovation triple (level-9 anchor re-derived: banked zeta9+zeta9^4+zeta9^7+3*zeta9^8 = 3*zeta9^-1, norm 9)",
+ "registered_prediction": 27,
+ "computed_exact": 9,
+ "resolvent_closed_form": "12L = 3*zeta27^(-+1) symbolically; = 3*zeta27^t, t=17, mod all 20 primes from raw data",
+ "circularity_addressed": "old N=12-from-'-3' shown tautological (solve(-N^2/48=-3) = [12]); counterfactual N=12*sqrt3 excluded: Q(zeta27) has the unique quadratic subfield Q(sqrt-3) ((z^9-z^18)^2=-3, 2 primitive root mod 27)",
+ "d_sweep_reconciled": "identify_1215_triple.py Method 2 swept Q(zeta9)+ numerators over D (12 included); deg(2cos(2pi/27))=9 > 3 = [Q(zeta9)+:Q] and the relative trace of y vanishes: the negative is implied by the proven form and never tested the denominator 12",
+ "freeze_lemma": "resolvent = 3*zeta_{3^k}^-1 for k=2..7 symbolically (conditional on the additive orbit persisting; data-proven at k=2,3)",
+ "flat_magnitude_survives": "|L(chi_nontrivial)| = 1/4 at level 27 (= B413 mass); L(chi_0) = 0 (mean-zero innovation)",
+ "gates_failed": []
+}

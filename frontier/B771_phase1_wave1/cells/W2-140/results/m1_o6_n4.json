@@ -1,0 +1,34 @@
+{
+ "m": 1,
+ "o": 6,
+ "n": 4,
+ "exps": [
+  0,
+  0,
+  1,
+  5
+ ],
+ "eff": 6,
+ "g": 1,
+ "e": 6,
+ "rng_seeds": [
+  0,
+  1
+ ],
+ "seeds_per_stream": 350,
+ "n_irred": 64,
+ "n_lox": 64,
+ "geo": {},
+ "geo_unique": false,
+ "k_values": [],
+ "signs": [],
+ "k": null,
+ "s": null,
+ "clean_geo_reps": 0,
+ "lox_err_median": 29603.579753995724,
+ "fin": {},
+ "fin_orders": [],
+ "sample": null,
+ "secs": 106.1,
+ "id": "m1_o6_n4"
+}

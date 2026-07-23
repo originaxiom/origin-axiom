@@ -1,0 +1,32 @@
+{
+ "s=+1 k=1": {
+  "hits": 0,
+  "of": 10,
+  "sample": null
+ },
+ "s=-1 k=1": {
+  "hits": 0,
+  "of": 10,
+  "sample": null
+ },
+ "s=+1 k=2": {
+  "hits": 0,
+  "of": 10,
+  "sample": null
+ },
+ "s=-1 k=2": {
+  "hits": 0,
+  "of": 10,
+  "sample": null
+ },
+ "s=+1 k=3": {
+  "hits": 0,
+  "of": 10,
+  "sample": null
+ },
+ "s=-1 k=3": {
+  "hits": 0,
+  "of": 10,
+  "sample": null
+ }
+}

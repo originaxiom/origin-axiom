@@ -1,0 +1,21 @@
+PASS  A1: 2T has 24 elements, 7 conjugacy classes, sizes sum to 24
+PASS  A2: eps is a homomorphism 2T -> Z/3 (all 576 pairs, exact)
+PASS  A3: ker eps = Q8 (contains -1 and every order-4 element)
+PASS  A4: 2T character table orthonormal + sum dim^2 = 24 (exact)
+PASS  B1: rho2 is a homomorphism (all 576 pairs, exact)
+PASS  B2: rho2 faithful
+PASS  B3: w^3 = 1 exactly
+PASS  B4: rho3 lands in SU(3) (det 1, unitary), all 24 elements, exact
+PASS  B5: rho3 hom (structural from A2+B1+B3; exact spot-check, 40 pairs)
+PASS  B6: char(rho3) = chi_1' + chi_2' on all classes (faithful complex 3 of 2T)
+PASS  B7: R lands in SO(3) subset SU(3) (det 1, orthogonal real), all 24, exact
+PASS  B8: R is a homomorphism (exact spot-check, 40 pairs)
+PASS  B9: ker R = {+-1} exactly (R factors through a FAITHFUL A4)
+PASS  B10: eps factors through A4 (eps(-g) = eps(g) for all g)
+PASS  B11: <i, (1+i+j+k)/2> = 2T (closure)
+PASS  C1: I3 invariant under P(rho3(i)) (untwisted, order-4 gen, symbolic)
+PASS  C2: I3 invariant under P(rho3(t)), t=(1+i+j+k)/2 (untwisted, order-6 gen, symbolic)
+PASS  C3: I3 invariant under the central scalar w.Id (w^3 = 1, symbolic)
+PASS  C4: I3 invariant under the TWISTED W2T(t) directly (symbolic)
+PASS  C5: I3 invariant under P(R(i)) (A4 route, order-2 image, symbolic)
+PASS  C6: I3 invariant under the TWISTED WA4(t) directly (symbolic)

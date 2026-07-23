@@ -1,0 +1,110 @@
+========================================================================
+PART (b0): E6 level-1 theater data derived in-cell (sympy exact)
+========================================================================
+positive roots: 36   dim g = 78
+highest root (simple-root coords) = (1, 2, 2, 3, 2, 1), height = 11
+h^vee(E6) = 12
+marks/comarks of theta: [1, 2, 2, 3, 2, 1]
+comark-1 nodes (level-1 nontrivial primaries): omega_[1, 6]
+number of level-1 primaries = 3 (vacuum + those)
+h(27)  = (omega1, omega1+2rho)/26 = 2/3
+h(27b) = (omega6, omega6+2rho)/26 = 2/3
+central charge c = k dim g/(k+h^vee) = 6
+twist theta_0 = 1
+twist theta_1 = exp(-2*I*pi/3)
+twist theta_2 = exp(-2*I*pi/3)
+Gauss sum (1/sqrt3) sum theta_g = -I;  e^(2 pi i c/8) = -I
+[PASS] Gauss sum equals e^{2 pi i c/8} = -i exactly -> the pointed Z3 model
+       with q(g)=e^{2 pi i (2/3) g^2} IS the E6 level-1 theater's MTC data.
+[PASS] R(g,h)=omega^{2gh}: ribbon condition theta_g = R(g,g) and
+       R(g,h)R(h,g) = q(g+h)/(q(g)q(h)) hold exactly on all of Z3.
+
+========================================================================
+PART (b1): the generic braid-closure pipeline (Turaev enhanced YB)
+========================================================================
+
+========================================================================
+PART (b2): nonabelian control -- the pipeline reproduces Jones(3_1), Jones(4_1)
+========================================================================
+Markov-condition solutions for mu = diag(x,y), a: [{a_mark: q**2, x: 1/q, y: q}]
+chosen mu = diag(1/q, q), a = q**2
+[PASS] (U_q(sl2) fund) YBE + invertibility + [R,mu x mu]=0 + Markov(+/-) all exact; a = q**2
+J(unknot)  = 1
+J(trefoil) = q**(-2) + q**(-6) - 1/q**8
+J(4_1)     = q**4 - q**2 + 1 - 1/q**2 + q**(-4)
+[PASS] J(trefoil) = Jones(trefoil) under ['t->q^2', 't->q^-2'] (chirality convention resolved)
+[PASS] J(4_1) = Jones(4_1) = t^-2 - t^-1 + 1 - t + t^2  (under t = q^{+-2})
+[FACT] nonabelian theater DISTINGUISHES 4_1 from the unknot: J(4_1) - 1 = (q - 1)**2*(q + 1)**2*(q**2 - q + 1)*(q**2 + q + 1)/q**4 != 0
+       => the pipeline is NOT vacuous; whatever it returns at level 1 is a
+          property of the theater, not of the machinery.
+
+========================================================================
+PART (b3): the colored 4_1 invariant at E6 level 1 (exact roots of unity)
+========================================================================
+[PASS] (E6 lvl1, color 27) YBE + invertibility + [R,mu x mu]=0 + Markov(+/-) all exact; a = -1/2 - sqrt(3)*I/2
+       (color 27: Markov mark a = theta_1 = -1/2 - sqrt(3)*I/2 -- the framing anomaly; the canonical correction a^-w removes exactly it)
+color 27:  J(unknot) = 1,  J(3_1) = 1,  J(4_1) = 1
+       framed value, unknot (writhe 1): theta^w = -1/2 - sqrt(3)*I/2
+       framed value, 3_1 (writhe 3): theta^w = 1
+       framed value, 4_1 (writhe 0): theta^w = 1
+[PASS] (E6 lvl1, color 27bar) YBE + invertibility + [R,mu x mu]=0 + Markov(+/-) all exact; a = -1/2 - sqrt(3)*I/2
+       (color 27bar: Markov mark a = theta_2 = -1/2 - sqrt(3)*I/2 -- the framing anomaly; the canonical correction a^-w removes exactly it)
+color 27bar:  J(unknot) = 1,  J(3_1) = 1,  J(4_1) = 1
+       framed value, unknot (writhe 1): theta^w = -1/2 - sqrt(3)*I/2
+       framed value, 3_1 (writhe 3): theta^w = 1
+       framed value, 4_1 (writhe 0): theta^w = 1
+
+[COMPUTED FACT -- part (b)] At E6 level 1, for BOTH nontrivial colors
+  a in {27, 27bar}:  J_a(4_1) = J_a(3_1) = J_a(unknot) = 1  EXACTLY
+  (exact roots of unity end-to-end; zero floating point). The only
+  knot-dependence in the framed value is theta_a^writhe -- a regular-isotopy
+  artifact removed by the canonical framing correction. The identical
+  pipeline distinguishes these knots at a nonabelian theater (b2), so the
+  silence is the theater's, not the method's. B580 Q1's cited abelian
+  colored-blindness is now an in-sandbox computed fact.
+
+========================================================================
+PART (d): 4_1(5,1) vs 4_1(-5,1)  (SnapPy, orientation-sensitive)
+========================================================================
+m004 = 4_1 complement; cusped CS = 8.9991289 E-17 (~0)
+M1 = m004(5,1):  solution = all tetrahedra positively oriented, vol = 0.98136882889
+M2 = m004(-5,1): solution = all tetrahedra positively oriented, vol = 0.98136882889
+identify(M1) = [m003(-2,3)]
+identify(M2) = [m003(-2,3)]
+CS(M1) = 0.077038180264
+CS(M2) = -0.077038180264
+is_isometric_to(M1, M2) [orientation-insensitive kernel check] = True
+symmetry_group(M1) = Z/2 + Z/2, is_amphicheiral = False
+symmetry_group(M2) = Z/2 + Z/2, is_amphicheiral = False
+[seed 2, HP] vol(M1) = 0.981368828892232088091452189794427068238164321906312438642604200
+[seed 2, HP] vol(M2) = 0.981368828892232088091452189794427068238164321906312438642604200
+[seed 2, HP] CS(M1) = 0.077038180263770222544395901810932442533126134856970197170502
+[seed 2, HP] CS(M2) = -0.077038180263770222544395901810932442533126134856970197170502
+[seed 2, randomized #0] symmetry_group = Z/2 + Z/2, is_amphicheiral = False
+[seed 2, randomized #1] symmetry_group = Z/2 + Z/2, is_amphicheiral = False
+CS(M1) double-vs-HP agreement: |diff| = 1.110e-16
+CS(M1) + CS(M2) = 0.000e+00  (mirror-pair signature: sum = 0)
+|CS(M1) - CS(M2)| mod 1/2 = 0.154076360528  (0 would be needed for an
+  orientation-preserving isometry; ambiguity-safe threshold 1e-9)
+
+[COMPUTED FACT -- part (d)] ORIENTED MIRROR PAIR.
+  (i)  CS(4_1(5,1)) = +0.0770381802... and CS(4_1(-5,1)) = -0.0770381802...
+       exactly opposite (sum ~ 0 to double-double precision), and distinct
+       mod 1/2 -- no orientation-preserving isometry can exist.
+  (ii) symmetry_group(4_1(+-5,1)) = Z/2 + Z/2 with is_amphicheiral = False
+       (both fillings, original + randomized retriangulations) -- the
+       closed manifold admits NO orientation-reversing self-isometry.
+  (iii) is_isometric_to = True (orientation-insensitive): they ARE the same
+       unoriented manifold -- exactly why SnapPy's census tag coincides.
+  Conclusion: 4_1(-5,1) = mirror(4_1(5,1)), orientation-reversingly
+  isometric but NOT orientation-preservingly: the Meyerhoff manifold is
+  CHIRAL and the +-5 fillings form an oriented mirror pair. The
+  amphichirality of the 4_1 complement does NOT descend through the
+  (5,1) filling (the reversing symmetry sends slope 5 -> -5).
+
+========================================================================
+CELL VERDICT: both parts computed.
+  (b) level-1 colored 4_1 invariant = 1 exactly (both colors; computed, not
+      cited; nonabelian control validates the pipeline).
+  (d) ORIENTED-MIRROR-PAIR: the +-5 Meyerhoff fillings are mirror images, chiral.
+========================================================================

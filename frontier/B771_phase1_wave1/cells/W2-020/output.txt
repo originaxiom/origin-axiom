@@ -1,0 +1,39 @@
+[   0.00s] stage 0: deriving the Riley relation a W = W b, W = b^-1 a b a^-1 (from scratch, symbolic in w)
+[   0.70s]   relator condition (0,1) entry: w**2 + w + 1 = 0
+[   0.70s]   relator condition (1,0) entry (must share the same nontrivial factor): w*(w**2 + w + 1)
+[   0.97s]   Riley polynomial w^2+w+1=0 roots: [-1/2 - sqrt(3)*I/2, -1/2 + sqrt(3)*I/2]  (primitive cube roots of unity, in Q(sqrt(-3)))
+[   0.97s]   both seeds verified exactly in the hand-rolled K field: w1=(-1/2+1/2*sqrt(-3)), w2=(-1/2+-1/2*sqrt(-3))
+[   0.97s]   W word = 'BabA', W^-1 word = 'aBAb', full relator word R = 'aBabABaBAb' (len 10)
+[   0.97s] ===== SEED S1 (w=(-1+sqrt(-3))/2): w = (-1/2+1/2*sqrt(-3)) =====
+[   0.97s]   relator 'aBabABaBAb' -> identity, EXACT, confirmed in 2x2 (end-to-end presentation check)
+[   0.97s]   tr(AB) = (5/2+-1/2*sqrt(-3))  (in Q(sqrt(-3)), consistent with the figure-eight's known invariant trace field)
+[   0.98s]   m= 1 (Sym^2 , dim  3, theta-even (F4-shared)  ): H0=0 Z1=4 B1=3 -> H1=1, H2=1
+[   1.18s]   m= 4 (Sym^8 , dim  9, theta-odd (E6-only)     ): H0=0 Z1=10 B1=9 -> H1=1, H2=1
+[   1.64s]   m= 5 (Sym^10, dim 11, theta-even (F4-shared)  ): H0=0 Z1=12 B1=11 -> H1=1, H2=1
+[   2.82s]   m= 7 (Sym^14, dim 15, theta-even (F4-shared)  ): H0=0 Z1=16 B1=15 -> H1=1, H2=1
+[   4.38s]   m= 8 (Sym^16, dim 17, theta-odd (E6-only)     ): H0=0 Z1=18 B1=17 -> H1=1, H2=1
+[   8.91s]   m=11 (Sym^22, dim 23, theta-even (F4-shared)  ): H0=0 Z1=24 B1=23 -> H1=1, H2=1
+[   8.91s]   TOTAL: dim H^1(pi_1, Ad_E6 rho_geo) = 6   (banked value: 6)
+[   8.91s]   TOTAL: dim H^2 = 6
+[   8.91s]   theta-split: theta-even (F4-shared, m in [1, 5, 7, 11]) H1 sum = 4  (banked: 4)
+[   8.91s]   theta-split: theta-odd  (E6-only,   m in [4, 8]) H1 sum = 2  (banked: 2)
+[   8.91s] ===== SEED S2 (w=(-1-sqrt(-3))/2, conjugate): w = (-1/2+-1/2*sqrt(-3)) =====
+[   8.91s]   relator 'aBabABaBAb' -> identity, EXACT, confirmed in 2x2 (end-to-end presentation check)
+[   8.91s]   tr(AB) = (5/2+1/2*sqrt(-3))  (in Q(sqrt(-3)), consistent with the figure-eight's known invariant trace field)
+[   8.92s]   m= 1 (Sym^2 , dim  3, theta-even (F4-shared)  ): H0=0 Z1=4 B1=3 -> H1=1, H2=1
+[   9.11s]   m= 4 (Sym^8 , dim  9, theta-odd (E6-only)     ): H0=0 Z1=10 B1=9 -> H1=1, H2=1
+[   9.47s]   m= 5 (Sym^10, dim 11, theta-even (F4-shared)  ): H0=0 Z1=12 B1=11 -> H1=1, H2=1
+[  10.45s]   m= 7 (Sym^14, dim 15, theta-even (F4-shared)  ): H0=0 Z1=16 B1=15 -> H1=1, H2=1
+[  12.01s]   m= 8 (Sym^16, dim 17, theta-odd (E6-only)     ): H0=0 Z1=18 B1=17 -> H1=1, H2=1
+[  16.61s]   m=11 (Sym^22, dim 23, theta-even (F4-shared)  ): H0=0 Z1=24 B1=23 -> H1=1, H2=1
+[  16.61s]   TOTAL: dim H^1(pi_1, Ad_E6 rho_geo) = 6   (banked value: 6)
+[  16.61s]   TOTAL: dim H^2 = 6
+[  16.61s]   theta-split: theta-even (F4-shared, m in [1, 5, 7, 11]) H1 sum = 4  (banked: 4)
+[  16.61s]   theta-split: theta-odd  (E6-only,   m in [4, 8]) H1 sum = 2  (banked: 2)
+[  16.61s] ======================================================================
+[  16.61s] VERDICT ASSEMBLY
+[  16.61s]   seed S1 (w=(-1+sqrt(-3))/2): total H1=6, theta-even=4, theta-odd=2  -> MATCH
+[  16.61s]   seed S2 (w=(-1-sqrt(-3))/2, conjugate): total H1=6, theta-even=4, theta-odd=2  -> MATCH
+[  16.61s]   cross-seed per-block H1 agreement: True
+[  16.61s] FINAL VERDICT: RESOLVED-A
+[  16.61s] Independent inputs used: Riley 1975 presentation shape (a,b meridians, W=b^-1aba^-1) as an ansatz; the polynomial w^2+w+1=0 pinning the representation was DERIVED in-cell, not asserted. E6/F4 exponent sets {1,4,5,7,8,11}/{1,5,7,11} are standard Bourbaki-table Lie data (Coxeter degrees - 1), used as bedrock, not computed here.

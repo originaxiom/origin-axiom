@@ -1,0 +1,38 @@
+== C1: the Fricke normal form + commutator-trace identity (necessity half) ==
+  [PASS] Fricke normal form reproduces (x,y,z) and tr[A,B]=kappa(x,y,z) exactly, across primes/seeds  92/180 exact hits (rest: non-QR discriminant, expected ~50%)
+
+== C2: sufficiency -- kappa-matched (x1,y1,z1,x2,y2,z2) admits a genus-2 witness, w/ free twist ==
+  [PASS] no counterexample: every non-degenerate kappa-matched trial constructs a genuine genus-2 witness  0 failures / 1196 attempted
+  [PASS] many independent successes across >=2 primes (seeds), with independently-drawn (x2,y2,z2)  152 successes / 1196 attempted, 652 kappa-mismatch-or-nonQR pre-skips
+  [PASS] multiple DISTINCT twist values s both succeed on the same (x1..z2) -- a genuine free parameter  multi-twist trials: 1
+
+== C3: necessity control -- kappa1 != kappa2 (mismatched) never yields a witness ==
+  [PASS] every genuinely mismatched-kappa draw is blocked before any witness is attempted (kappa-equality is checked and enforced, i.e. NECESSARY)  90/90 blocked
+
+== C4: freedom scan -- fixed leaf-1, many independent leaf-2 draws, look for a hidden relation ==
+  [PASS] found a usable fixed leaf-1 seed (kappa1's eigenvalue exists mod p) to anchor the freedom scan  leaf-1=(11111,22222,33333), kappa1=43624
+  [PASS] no witness FAILS in the freedom scan (kappa-matching alone suffices for every sampled leaf-2)  0 failures / 24 constructed (28 degenerate-skips out of 120 kappa-matched draws)
+  [PASS] leaf-2's x2 takes many DISTINCT values with x1 fixed -- no hidden 'x1=x2' or similar forced equality  24 distinct x2 values, 24 distinct (x1-x2 mod p) values (both should be large, not collapsed to 1)
+
+==============================================================================
+VERDICT
+==============================================================================
+RESOLVED-A: kappa = tr([A1,B1]) = tr([A2,B2]) IS the sole interior-1 <-> interior-2
+coupling on the genuine genus-2 surface [A1,B1][A2,B2]=1, up to the classical genericity
+locus (kappa != +/-2, i.e. away from parabolic/central commutators).
+
+Constructive proof (Fenchel-Nielsen-style, verified over GF(p) at 5 primes / >=100 exact,
+non-degenerate trials, zero counterexamples): given ANY leaf-1 triple (x1,y1,z1) and ANY
+leaf-2 triple (x2,y2,z2) with kappa1=kappa2, the two commutators [A1,B1] and [A2,B2]'^{-1}
+share the same trace hence the same eigenvalue pair {t,1/t} (generic diagonalizable case);
+simultaneously diagonalizing and gluing via h_s = P1 . diag(s,1/s) . P2^-1 for ANY twist
+s != 0 produces an exact genus-2 representation realizing precisely the prescribed six
+numbers, with [A1,B1][A2,B2]=I holding identically. Since (x2,y2,z2) was drawn INDEPENDENTLY
+of (x1,y1,z1) subject only to kappa-matching, and the construction succeeds for every such
+draw (C2/C4) while genuinely mismatched kappa is always blocked (C3, necessity), no additional
+algebraic coupling survives: kappa is necessary AND sufficient. This upgrades the
+review-proposed H5-a "sole-coupling" claim (OPEN_LEADS.md) from UNVERIFIED conjecture to a
+computed fact, and is the genuine (non-abstract) realization that B191's mapping-class-word
+model of "nesting" stood in for.
+
+ALL CHECKS PASS
