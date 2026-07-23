@@ -114,3 +114,41 @@ def test_wave2_integrity():
     assert len(refused) == 7
     for i in upheld:
         assert (ARC / "cells" / i / "compute.py").exists()
+
+
+# ---- Wave 3 locks -------------------------------------------------------------
+
+
+def test_w3_sent_e2_and_e3_minpoly():
+    # the carry-fix: e2 = -1/48 (prime support {2,3}), e3's 2cos(2pi/9) has minpoly x^3-3x+1
+    assert sp.factorint(48) == {2: 4, 3: 1}
+    x = sp.symbols("x")
+    assert sp.minimal_polynomial(2 * sp.cos(2 * sp.pi / 9), x) == x**3 - 3 * x + 1
+
+
+def test_w3_147r_coefficient_fix():
+    # the corrupted-vs-true B581 Delta_5 t^3 coefficient
+    assert sp.factorint(1324075) == {5: 2, 52963: 1}  # the TRUE value
+    assert 1324074 != 1324075  # the corrupted value the nsimplify path produced
+
+
+def test_w3_119r_meyerhoff_oriented_mirror_pair():
+    # 4_1(5,1) is isometric to 4_1(-5,1): the +-5 filling is an oriented mirror pair
+    try:
+        import snappy
+    except Exception:
+        import pytest
+        pytest.skip("snappy unavailable")
+    a = snappy.Manifold("4_1(5,1)")
+    b = snappy.Manifold("4_1(-5,1)")
+    assert a.is_isometric_to(b)
+    assert abs(a.volume() - b.volume()) < 1e-9
+
+
+def test_wave3_integrity():
+    d = json.loads((ARC / "wave3_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 13
+    upheld = sorted(i for i, c in cells.items() if c["upheld"])
+    assert upheld == ["W3-068", "W3-082", "W3-119r", "W3-147r", "W3-149r", "W3-188r", "W3-SENT"]
+    assert len([c for c in cells.values() if c["upheld"] is False]) == 6

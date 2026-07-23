@@ -1,0 +1,110 @@
+==============================================================================
+STEP 0 -- sanity-test the form enumerator against textbook class numbers
+==============================================================================
+  h(  -3) computed=  1  expected=  1  OK
+  h(  -4) computed=  1  expected=  1  OK
+  h(  -7) computed=  1  expected=  1  OK
+  h(  -8) computed=  1  expected=  1  OK
+  h( -11) computed=  1  expected=  1  OK
+  h( -15) computed=  2  expected=  2  OK
+  h( -19) computed=  1  expected=  1  OK
+  h( -20) computed=  2  expected=  2  OK
+  h( -23) computed=  3  expected=  3  OK
+  h( -24) computed=  2  expected=  2  OK
+  h( -47) computed=  5  expected=  5  OK
+  h( -56) computed=  4  expected=  4  OK
+  h( -84) computed=  4  expected=  4  OK
+  enumerator sanity: ALL PASS
+
+==============================================================================
+STEP 1 -- IKZ triple-symbol precondition check (fetched in-cell, arXiv:2403.17957)
+==============================================================================
+  IKZ Def (p.5): symbol [p1,p2,p3] requires p1==p2==1 (mod4) [their eq before (1.1)]
+                 AND a third prime p3==1(mod4) with (p1/p3)=(p2/p3)=1.
+  Our data: p=11 mod4 = 3   q=809 mod4 = 1
+  We ALSO only have a PAIR, not a triple.
+  IKZ precondition on p=11: FAILS (p=3 mod4)
+  IKZ precondition on q=809: holds
+  => the classical (untwisted) IKZ triple symbol is FLATLY INAPPLICABLE to (11,809).
+  This is the exact defect named in docs/LITERATURE_SWEEP2_2026-07-13.md: the
+  'twisted Redei-Reichardt form' is needed. We now build and run that general form.
+
+==============================================================================
+STEP 2 -- the twisted/general Redei-Reichardt 4-rank criterion for D=disc(11,809)
+==============================================================================
+--- target: (p,q) = (11, 809) ---
+  p=11 (p mod4=3) -> prime discriminant p*=-11
+  q=809 (q mod4=1) -> prime discriminant q*=809
+  D = p*.q* = -8899   (t=2 prime-discriminant factors, D fundamental (imaginary quad. field))
+  (p*/q) = (-11/809) = -1
+  (q*/p) = (809/11) = -1
+  genus theory: 2-rank(Cl(D)) = t-1 = 1  (UNCONDITIONAL)
+  Redei-Reichardt route A (symbol criterion): 4-rank predicted = 0
+  route B (direct enumeration): h(-8899) = 14  ord_2(h) = 1  -> Sylow_2 = Z/2 (cyclic, forced since 2-rank=1)  -> 4-rank(direct) = 0
+  route A vs route B agreement: MATCH
+  GAP = 2-rank - 4-rank = 1
+
+==============================================================================
+STEP 3 -- self-test: hunt a CONTROL pair with predicted 4-rank = 1 (opposite of target)
+==============================================================================
+  found control pair (p,q) = (3, 13)  [p mod4=3, q mod4=1]
+
+  p=3 (p mod4=3) -> prime discriminant p*=-3
+  q=13 (q mod4=1) -> prime discriminant q*=13
+  D = p*.q* = -39   (t=2 prime-discriminant factors, D fundamental (imaginary quad. field))
+  (p*/q) = (-3/13) = 1
+  (q*/p) = (13/3) = 1
+  genus theory: 2-rank(Cl(D)) = t-1 = 1  (UNCONDITIONAL)
+  Redei-Reichardt route A (symbol criterion): 4-rank predicted = 1
+  route B (direct enumeration): h(-39) = 4  ord_2(h) = 2  -> Sylow_2 = Z/4 (cyclic, forced since 2-rank=1)  -> 4-rank(direct) = 1
+  route A vs route B agreement: MATCH
+  GAP = 2-rank - 4-rank = 0
+
+  SELF-TEST RESULT: the target pair (11,809) gives 4-rank=0 (gap=1); the control
+  pair (3,13) gives 4-rank=1 (gap=0) -- both computed by the SAME
+  code, agreeing via TWO independent routes each. The machinery is not vacuous:
+  a free/dummy discriminant plugged into the same pipeline would not reproduce
+  this discrimination (route A and route B are structurally independent computations
+  -- one is a Legendre-symbol criterion, the other a from-scratch class-number
+  enumeration -- and they were only ever asserted to match after being computed).
+
+==============================================================================
+STEP 4 -- consistency with the already-banked lk2(11,809)=1 fact
+==============================================================================
+  banked (tests/test_sweep2_facts.py): legendre_symbol(809,11) = -1
+  banked (tests/test_sweep2_facts.py): legendre_symbol(-11,809) = -1
+  this cell's route-A inputs:          (q*/p)=(809/11) = -1   (p*/q)=(-11/809) = -1
+  identical symbols (as expected -- lk2 IS the genus-theory linking datum): True
+  lk2(11,809)=1 forces 2 | h(-8899) (genus theory, always true when linked); this cell's
+  NEW fact is the finer one: that link does NOT extend to a 4-torsion class -- the
+  Sylow-2 subgroup of Cl(Q(sqrt(-8899))) is EXACTLY Z/2, not Z/4 or larger.
+
+==============================================================================
+STEP 4b -- THIRD independent check: Dirichlet finite analytic class-number sum
+==============================================================================
+  analytic h(-23) = 3  expected 3  OK
+  analytic h(-15) = 2  expected 2  OK
+  analytic h(-39) = 4  expected 4  OK
+  analytic h(-47) = 5  expected 5  OK
+  analytic h(-8899) = 14   (route-B enumeration gave h=14)
+  route B (form enumeration) vs route C (Dirichlet analytic sum): MATCH
+  => h(-8899)=14 is now confirmed by THREE independent computations:
+     (A) Redei-Reichardt Legendre-symbol 4-rank criterion [predicts 4-rank=0],
+     (B) direct reduced-binary-quadratic-form enumeration [h=14, ord_2=1],
+     (C) Dirichlet's finite analytic class-number sum [h=14, no lattice reduction].
+
+==============================================================================
+FINAL RESULT
+==============================================================================
+  D = disc(11* . 809*) = -8899   (fundamental, imaginary quadratic)
+  h(-8899) = 14  =  2 * 7   (ord_2 = 1)
+  2-rank(Cl(D)) = 1  (genus theory, unconditional)
+  4-rank(Cl(D)) = 0  (Redei-Reichardt criterion, MATCHES direct enumeration)
+  TWISTED REDEI GAP (2-rank minus 4-rank) = 1
+  => the gap does NOT vanish to zero-content -- it is the exact value 1, i.e. the
+     arithmetic-CS ZZ/4 lift of the (11,809) linking DEGENERATES: genus theory forces
+     2 | h(-8899) but the Redei-Reichardt symbols [(-11/809)=-1, (809/11)=-1] BOTH
+     obstruct the lift to 4-torsion, so Sylow_2(Cl(Q(sqrt(-8899)))) = Z/2 EXACTLY
+     (confirmed independently by direct class-number enumeration: h=14, ord_2=1).
+  VERDICT: RESOLVED-B -- the twisted gap is computed exactly and DEGENERATES (=1,
+     i.e. the deeper 4-torsion structure vanishes) for an exact, in-cell-computed reason.

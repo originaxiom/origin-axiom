@@ -7694,3 +7694,17 @@ tautological N=1 invariant theater, hand-read tier claims that would have
 merged FALSE statements into the flagship paper, comment-only diagnostics) and
 two honest bugs — every one caught by the independent adversarial rerun before
 banking, zero reached the record. All seven carry to Wave 3 with defects named.
+
+## 2026-07-23 — B771 Wave 3 banked: 7 verdicts (5 of them Wave-2 repairs), 6 carries
+Wave 3 paired the 7 Wave-2 refusals (each with its named defect as a fix
+instruction) with 6 fresh pool cells. Five carries repaired and banked: the
+sentinel e₂ bug, the nsimplify parse corruption, the fabricated genus-2 control
+(now 108/108 real failures), the tautological E₆ theater (now twist-sensitive;
+Meyerhoff ±5 = oriented mirror pair), and the flagship-endangering hand-read
+tiers (now 0/36 computed). Fresh banks: rank-2 covers lift predictably (9/9),
+the Rédei–Reichardt exact gap at p=809. Six refused again: two substantive
+(W3-270r still didn't converge; W3-017 falsely reported census class 10 empty,
+contradicting B461) and four math-sound-but-house-method-incomplete (no verdict
+block, "5 seeds" framing, self-fulfilling verdict logic, un-gated border-forcing).
+The verify layer is now well-calibrated — clean math through, process/overclaim
+gaps held, no false rejects. Wave 4 inherits the 6.

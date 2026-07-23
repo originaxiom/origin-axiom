@@ -1,0 +1,123 @@
+==============================================================================
+PART 0 -- transcription self-check of the printed S4.3 table
+==============================================================================
+  row gx= 1 literal match in DRAFT_v8.md: True
+  row gx= 2 literal match in DRAFT_v8.md: True
+  row gx= 4 literal match in DRAFT_v8.md: True
+  row gx= 5 literal match in DRAFT_v8.md: True
+  row gx=10 literal match in DRAFT_v8.md: True
+  row gx=20 literal match in DRAFT_v8.md: True
+PART 0 verdict: PASS (PRINTED_S43 is a verbatim transcription)
+==============================================================================
+PART 1 -- kappa_q(j,l) recomputed exactly, two primes, full 240-point grid
+==============================================================================
+cross-prime (61 vs 421) agreement: 240/240 -- PASS
+kappa_q single-valuedness on (gx,gy): 0 violations -- PASS
+==============================================================================
+PART 2 -- exact tier computation (route A: cyclotomic Q(zeta_60) engine)
+==============================================================================
+points computed: 240 (expect 240) --  PASS
+every pattern is one of the 5 legal tiers: 0 exceptions -- PASS
+global tier point-counts (all 240 points, no gcd-reduction yet): {'qrs': 10, 'rs': 20, 'dark': 70, 'free': 120, 'qs': 20}
+paper's stated counts (Theorem G(ii) prose): free=120 qs=20 rs=20 qrs=10 dark=70
+counts match paper prose: PASS {'qrs': 10, 'rs': 20, 'dark': 70, 'free': 120, 'qs': 20}
+==============================================================================
+PART 3 -- route B: independent floating-point cross-check (cmath, no
+cyclo_engine, no shared code with Part 2's exact arithmetic)
+==============================================================================
+3a. spectral cross-check: 4-fold Galois-averaged float forward-DFT vs exact sm,
+    240 points:
+    max error = 3.031e-14, worst point = (19, 7, (-0.08385254915624318-0.01613743060922786j), (-0.08385254915624211-0.016137430609197572j))
+    tolerance 1e-9 (>=9 significant digits): PASS
+3b. physical-point float reconstruction vs exact pattern, 240*4=960 entries:
+    mismatches: 0 -- PASS
+    smallest float magnitude among entries the exact route calls NONZERO: 3.863e-02 (threshold 1e-8 -- comfortable separation from 0 confirms no near-degenerate/ambiguous point)
+==============================================================================
+PART 4 -- 36-cell divisor-lattice reduction + diff vs printed S4.3
+==============================================================================
+tier+value single-valuedness on (gx,gy): 0 violations -- PASS (factors through gcd exactly)
+lattice cells populated: 36 (expect 36)
+
+Full 36-cell computed table (ours) vs printed S4.3, every cell:
+  (gx= 1,gy= 1): ours=(-1, 'free')  printed=(-1, 'free')  [OK]
+  (gx= 1,gy= 2): ours=(3, 'free')  printed=(3, 'free')  [OK]
+  (gx= 1,gy= 3): ours=(-5, 'qs')  printed=(-5, 'qs')  [OK]
+  (gx= 1,gy= 4): ours=(3, 'free')  printed=(3, 'free')  [OK]
+  (gx= 1,gy= 6): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx= 1,gy=12): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx= 2,gy= 1): ours=(3, 'free')  printed=(3, 'free')  [OK]
+  (gx= 2,gy= 2): ours=(3, 'free')  printed=(3, 'free')  [OK]
+  (gx= 2,gy= 3): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx= 2,gy= 4): ours=(3, 'dark')  printed=(3, 'dark')  [OK]
+  (gx= 2,gy= 6): ours=(15, 'qrs')  printed=(15, 'qrs')  [OK]
+  (gx= 2,gy=12): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx= 4,gy= 1): ours=(3, 'free')  printed=(3, 'free')  [OK]
+  (gx= 4,gy= 2): ours=(3, 'dark')  printed=(3, 'dark')  [OK]
+  (gx= 4,gy= 3): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx= 4,gy= 4): ours=(3, 'free')  printed=(3, 'free')  [OK]
+  (gx= 4,gy= 6): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx= 4,gy=12): ours=(15, 'qrs')  printed=(15, 'qrs')  [OK]
+  (gx= 5,gy= 1): ours=(-5, 'free')  printed=(-5, 'free')  [OK]
+  (gx= 5,gy= 2): ours=(15, 'rs')  printed=(15, 'rs')  [OK]
+  (gx= 5,gy= 3): ours=(-5, 'qs')  printed=(-5, 'qs')  [OK]
+  (gx= 5,gy= 4): ours=(15, 'rs')  printed=(15, 'rs')  [OK]
+  (gx= 5,gy= 6): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx= 5,gy=12): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx=10,gy= 1): ours=(15, 'rs')  printed=(15, 'rs')  [OK]
+  (gx=10,gy= 2): ours=(15, 'rs')  printed=(15, 'rs')  [OK]
+  (gx=10,gy= 3): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx=10,gy= 4): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx=10,gy= 6): ours=(15, 'qrs')  printed=(15, 'qrs')  [OK]
+  (gx=10,gy=12): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx=20,gy= 1): ours=(15, 'rs')  printed=(15, 'rs')  [OK]
+  (gx=20,gy= 2): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx=20,gy= 3): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx=20,gy= 4): ours=(15, 'rs')  printed=(15, 'rs')  [OK]
+  (gx=20,gy= 6): ours=(15, 'dark')  printed=(15, 'dark')  [OK]
+  (gx=20,gy=12): ours=(15, 'qrs')  printed=(15, 'qrs')  [OK]
+
+TOTAL disagreements (value+tier) vs printed S4.3 table: 0 -- PAPER CONFIRMED
+==============================================================================
+PART 5 -- adjudicating the W2-188 gx=2-vs-gx=4 tier claims
+==============================================================================
+ gy |    gx=2 (val,tier) |    gx=4 (val,tier) | value-same tier-same
+  1 |        (3, 'free') |        (3, 'free') |  True  True
+  2 |        (3, 'free') |        (3, 'dark') |  True False
+  3 |       (15, 'dark') |       (15, 'dark') |  True  True
+  4 |        (3, 'dark') |        (3, 'free') |  True False
+  6 |        (15, 'qrs') |       (15, 'dark') |  True False
+ 12 |       (15, 'dark') |        (15, 'qrs') |  True False
+
+Of the 6 gy values, TIER matches gx=2 vs gx=4 at 2, DIFFERS at 4.
+Computed first tier-divergence gy: 2
+
+Checking the three specific W2-188 claims (proposed_patches.md Patch 6 / 
+compute.py 'READING' text) against the computed table:
+  claim (a) (2,6)=dark: computed tier = 'qrs' --  CONTRADICTS CLAIM (W2-188 WRONG)
+  claim (a) (4,6)=dark: computed tier = 'dark' --  MATCHES CLAIM
+  claim (b) (2,12)=dark: computed tier = 'dark' --  MATCHES CLAIM
+  claim (b) (4,12)=qrs: computed tier = 'qrs' --  MATCHES CLAIM
+  claim (b) same VALUE at gy=12: True --  MATCHES CLAIM
+  claim (c) 'first diverge in tier at gy=6 or 12' (i.e. gy=1,2,3,4 all tier-agree): computed first divergence = gy=2 --  CONTRADICTS CLAIM (W2-188 WRONG)
+    -- specifically, gx=2 and gx=4 ALREADY DIFFER IN TIER at gy in [2, 4] (before gy=6 at all)
+
+SUMMARY: of 5 explicit/implicit W2-188 tier assertions checked, 2 are WRONG: ['(2,6)=dark', 'first-divergence-at-6-or-12']
+Of the 6 gy columns compared tier-wise between gx=2 and gx=4, the TRUE computed pattern is: agree at gy in [1, 3], differ at gy in [2, 4, 6, 12] -- i.e. 4 of 6 gy-columns show a tier difference, not the 1-of-6 (gy=12 only) that W2-188's narration implied.
+==============================================================================
+PART 6 -- vacuity self-test (corrupt the construction, expect FAILURE)
+==============================================================================
+with the sqrt5<->sqrt-3 channels SWAPPED, tier vs printed S4.3 mismatches: 40/240 points
+vacuity self-test: PASS (corruption breaks agreement -- the real check is non-tautological)
+==============================================================================
+SUMMARY
+==============================================================================
+PART 0 (printed-table transcription self-check): PASS
+PART 1 (kappa_q grid, 2 primes, single-valued): PASS
+PART 2 (exact tier grid, route A, cyclotomic exact arithmetic): PASS
+PART 3 (route B, independent float cross-check, tol 1e-9): PASS
+PART 4 (36-cell table vs printed S4.3): CONFIRMED, 0 disagreements
+PART 5 (W2-188 gx=2-vs-gx=4 tier claims): 2 of the checked W2-188 assertions are WRONG -- ['(2,6)=dark', 'first-divergence-at-6-or-12']
+PART 6 (vacuity self-test): PASS (check is discriminating)
+
+OVERALL: the paper's S4.3 table is exactly correct; the defect was entirely in W2-188's hand-read narration/patch text (now identified and itemized in PART 5), not in the paper.
+kappa/tier computation phase: ALL CHECKS PASS

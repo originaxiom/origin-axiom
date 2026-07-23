@@ -1,0 +1,54 @@
+== S0: exact symbolic proof -- conjugation preserves trace, det=1 => tr(M^-1)=tr(M) ==
+  [PASS] tr(H M H^-1) - tr(M) simplifies to EXACTLY 0 (generic symbolic entries, det H != 0 assumed symbolically)  residual: 0
+  [PASS] tr(adj(M)) - tr(M) simplifies to EXACTLY 0 (so for det M=1, tr(M^-1)=tr(M) identically)  residual: 0
+  => EXACT CONSEQUENCE: [A2,B2] = h[A2',B2']h^-1 has trace k2 for ANY h (S0a); if
+     [A1,B1][A2,B2]=I then [A2,B2]=[A1,B1]^-1 which has trace k1 (S0b). So k1=k2 is
+     PROVED necessary for gluing under ANY conjugator, symbolically, not by a guard clause.
+
+== S1: REAL mismatched-kappa construction attempt (M1 vs M2 directly, no guard-clause bailout) ==
+  [PASS] genuinely mismatched trials were actually CONSTRUCTED and CHECKED (not pre-filtered by a guard clause)  108 non-skip attempts / 2000 total (1892 unrelated-degeneracy skips)
+  [PASS] REAL failure count: every non-skip mismatched-kappa construction attempt actually FAILS the closure check  108 genuine FAILUREs / 108 attempted, 0 unexpected successes
+
+== S2: positive-control sanity -- same machinery, kappa-MATCHED, must succeed (rules out 'always False') ==
+  [PASS] same code path, kappa-MATCHED: genuine successes occur (rules out an 'always returns False' bug)  53 successes, 0 failures / 53 non-skip attempts (326 skips)
+
+== S3: independent brute-force control -- random h in GL(2,GF(p)) directly, mismatched kappa ==
+  [PASS] brute random-h search (model-independent of the diagonalize construction) over mismatched-kappa pairs: zero successes over a large sample  0 successes / 250 random-h attempts
+
+== S4: paired vacuity self-test -- SAME leaf-1/leaf-2 draw, only kappa2 flipped match<->mismatch ==
+  same (x1,y1,z1,x2,y2)=(21339,87536,29324,21165,92581); z2_match=78946 (k2=74474) => True;  z2_mismatch=78947 (k2=14278) => False
+  [PASS] flipping ONLY kappa2 (via z2) on an otherwise IDENTICAL draw flips the outcome success<->failure (kappa is the actual controlling variable, not a free/unused symbol)
+
+==============================================================================
+VERDICT
+==============================================================================
+RESOLVED-A: the wrong-gluing negative control is REAL and CONFIRMS necessity.
+
+S0 (exact, symbolic): tr(H M H^-1) = tr(M) identically and tr(M^-1) = tr(M) for det M = 1 --
+proved with free symbolic matrix entries, not asserted. Consequence: [A2,B2] always has trace
+k2 regardless of the conjugator h, and closure [A1,B1][A2,B2]=I forces trace k1; so k1=k2 is
+an exact algebraic necessity, established in-cell.
+
+S1 (the actual carry fix): 108 genuine, ACTUALLY-CONSTRUCTED failures out of
+108 non-skip mismatched-kappa attempts across 5 primes -- every one of them built
+real Fricke matrices, diagonalized, formed h, conjugated, multiplied the commutators, and
+compared to I, and every one of them FAILED the closure check (0 unexpected successes). This
+replaces W2-149's fabricated "90/90 blocked" guard-clause count (and its nowhere-appearing "12
+genuine FAILUREs" claim) with a real, non-vacuous, non-tautological negative control.
+
+S2: the identical code path SUCCEEDS on kappa-matched input (53 successes, 0 failures)
+-- S1's failures are not an "always False" artifact.
+
+S3: an independent brute-force search over random conjugators in GL(2,GF(p)) (bypassing the
+diagonalize construction entirely) found 0/250 successes on mismatched-kappa pairs --
+model-independent confirmation.
+
+S4: flipping ONLY kappa2 (via a +1 shift in z2) on an otherwise identical draw flips the outcome
+match(True) <-> mismatch(False) -- kappa genuinely controls the result (not a free/unused symbol).
+
+CONCLUSION: the B174/W2-149 sole-kappa screening verdict (kappa = tr([A1,B1]) = tr([A2,B2]) is
+the sole leaf1<->leaf2 coupling on the glued genus-2 surface) now rests on a REAL negative
+control, not a fabricated one. The positive half (W2-149/C2, kappa-matched => witness exists,
+with a genuine free twist) was already a real construction and stands unchanged.
+
+ALL CHECKS PASS

@@ -1,0 +1,207 @@
+{
+  "verdict": "RESOLVED-A",
+  "headline": "border-forced AP complex of sigma_4 built (E=10, V=7, b1=4); H\u02c7^0=Z, H\u02c7^1=Z^4",
+  "failed_gates": [],
+  "results": {
+    "fibonacci": {
+      "name": "Fibonacci",
+      "sub": {
+        "a": "ab",
+        "b": "a"
+      },
+      "primitive": true,
+      "aperiodic": true,
+      "recognizable": true,
+      "raw_forces_border": false,
+      "n_collared_tiles": 4,
+      "collared_tiles": [
+        "aab",
+        "aba",
+        "baa",
+        "bab"
+      ],
+      "E": 4,
+      "V": 3,
+      "b1": 2,
+      "B": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "charpoly_B": "x**2 - x - 1",
+      "rank": 2,
+      "det_image": -1,
+      "primes_inverted": {},
+      "H0": "Z",
+      "H1": "Z^2",
+      "comp": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "control_expected": "Z^2",
+      "control_ok": true
+    },
+    "thue_morse": {
+      "name": "Thue-Morse",
+      "sub": {
+        "a": "ab",
+        "b": "ba"
+      },
+      "primitive": true,
+      "aperiodic": true,
+      "recognizable": true,
+      "raw_forces_border": false,
+      "n_collared_tiles": 6,
+      "collared_tiles": [
+        "aab",
+        "aba",
+        "abb",
+        "baa",
+        "bab",
+        "bba"
+      ],
+      "E": 6,
+      "V": 4,
+      "b1": 3,
+      "B": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "charpoly_B": "x**3 - x**2 - 2*x",
+      "rank": 2,
+      "det_image": -2,
+      "primes_inverted": {
+        "2": 1
+      },
+      "H0": "Z",
+      "H1": "Z (+) Z[1/2]",
+      "comp": [
+        2,
+        4,
+        6,
+        10,
+        12,
+        16,
+        20,
+        22,
+        24,
+        28,
+        32,
+        36
+      ],
+      "control_expected": "Z (+) Z[1/2]",
+      "control_ok": true
+    },
+    "sigma_4": {
+      "name": "sigma_4",
+      "sub": {
+        "a": "abAAB",
+        "b": "aAB",
+        "A": "abAB",
+        "B": "aA"
+      },
+      "primitive": true,
+      "aperiodic": true,
+      "recognizable": true,
+      "raw_forces_border": false,
+      "n_collared_tiles": 10,
+      "collared_tiles": [
+        "AAB",
+        "ABa",
+        "Aab",
+        "BaA",
+        "Bab",
+        "aAB",
+        "aAa",
+        "abA",
+        "bAA",
+        "bAB"
+      ],
+      "E": 10,
+      "V": 7,
+      "b1": 4,
+      "B": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ]
+      ],
+      "charpoly_B": "x**4 - 2*x**3 - 5*x**2 - 4*x - 1",
+      "rank": 4,
+      "det_image": -1,
+      "primes_inverted": {},
+      "H0": "Z",
+      "H1": "Z^4",
+      "comp": [
+        4,
+        7,
+        10,
+        13,
+        17,
+        20,
+        23,
+        26,
+        30,
+        34,
+        37,
+        40
+      ]
+    }
+  },
+  "sigma_4_H0": "Z",
+  "sigma_4_H1": "Z^4",
+  "sigma_4_charpoly_B": "x**4 - 2*x**3 - 5*x**2 - 4*x - 1",
+  "sigma_4_b1": 4,
+  "sigma_4_E": 10,
+  "sigma_4_V": 7,
+  "sigma_4_det_image": -1,
+  "sigma_4_primes_inverted": {}
+}
