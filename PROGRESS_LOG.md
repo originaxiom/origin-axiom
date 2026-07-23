@@ -7510,3 +7510,17 @@ enumeration is absent (the elimination re-run and the permutation null both bloc
 it — scrutiny the courier's own handoff requested). Three deliverables named: the
 enumeration, the citations, then the null. P4's math half banked (the b-b exclusion);
 P2's dissociative-state contact = a Q5b watch. Locks test_b768 (3). Nothing to CLAIMS.
+
+## 2026-07-23 — B768 receipt #2: Side B with citations — CANDIDATE-DOCUMENTED; C7 over-read caught
+The courier's citation layer arrived (five candidates × sources + components + falsifiers
+— the sealed bar met in form). Spot-checks: Gallagher 2000 VERIFIED as cited (the
+ownership/agency dissociation carries c ⊥ θ soundly); Haggard & Tsakiris 2009 REAL but
+OVER-READ — the paper distinguishes feeling-vs-judgment of agency (levels), not
+binary-vs-graded (arity); "binary is the primitive" is stronger than the source. That
+gloss is exactly C7, the tiebreaker that produced "uniqueness" — now DOCUMENTED-WEAK.
+Scoring: c and γ₅ full (accurate glosses incl. the Husserl/Heidegger co-constitution);
+θ partial; the chord's XOR interpretive; T1 full. Both discriminators PASS WITH CITATIONS.
+The null remains blocked (no enumeration). Verdict: CANDIDATE-DOCUMENTED — the
+best-documented candidate ever received, and a candidate: "unique" doubly blocked. Four
+consequence forks named, each literature-decidable (the FoA-arity fork now also decides
+C7). Nothing to CLAIMS.

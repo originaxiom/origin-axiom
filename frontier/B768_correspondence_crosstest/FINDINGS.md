@@ -53,3 +53,48 @@ data triggers the full value-claim machinery).
 
 Artifacts: side_a_signatures.{py,json}, receipt_verifications.txt; the package archived
 in the relay channel. Lock: tests/test_b768_crosstest.py.
+
+## RECEIPT #2 (2026-07-23, same day) — Side B WITH citations: CANDIDATE-DOCUMENTED; uniqueness doubly blocked
+
+The courier delivered the citation layer: five candidates, each with named sources,
+matchable components (arity/symmetry/dependence), and a stated falsifier — the sealed
+Side-B bar is MET in form. Spot-verification of the two load-bearing citations:
+
+- **Gallagher 2000 (TiCS 4(1), 14–21): VERIFIED as cited** — the ownership/agency
+  distinction, the dissociation evidence, the pages. This carries the independence
+  component (c ⊥ θ) soundly.
+- **Haggard & Tsakiris 2009: the paper is REAL, the attribution is an OVER-READ.** Its
+  actual distinction is FEELING of agency (pre-reflective, "non-conceptual feeling of
+  control") vs JUDGMENT of agency — levels, not arity. The courier's "binary structure is
+  the phenomenological primitive" is stronger than the source supports, and graded-FoA
+  readings are live in the surrounding literature. **Consequence: C7 — the tiebreaker
+  that eliminated Attention-as-θ and produced "uniqueness" — is DOCUMENTED-WEAK.**
+
+Scoring under the sealed rules:
+- Components: c and γ₅ score fully (arity, involution, independence/inseparability, each
+  literature-backed — the γ₅ row's Husserl/Heidegger co-constitution gloss is accurate);
+  θ scores on arity/involution/independence but its BINARY-PRIMITIVE component is
+  over-read; the chord's XOR-coherence is INTERPRETIVE (Buber's I-Thou is not literally
+  an XOR algebra — the two-flips-cancel claim is the courier's formalization); T1 scores
+  on continuity + orthogonality (James/Metzinger/Dehaene, accurate glosses).
+- Discriminators (rule 3): BOTH PASS WITH CITATIONS (Metzinger's transparency constraint
+  genuinely hosts FLAT; the co-constitution literature genuinely hosts T7=T3).
+- The null (rule 2): STILL BLOCKED — the 18-assignment enumeration remains undelivered;
+  without the rejected candidates the permutation null cannot run.
+
+**Verdict: CANDIDATE-DOCUMENTED** (upgraded from provisional). "UNIQUE" is now DOUBLY
+blocked: the enumeration is missing AND the uniqueness-producing tiebreaker (C7) rests on
+an over-read source. The assignment stands as the best-documented candidate the program
+has ever received — and as a candidate.
+
+## The consequence forks (named; each a genuine literature-decidable question)
+1. **The double-dissociation search** (γ₅'s falsifier): does clinical literature document
+  temporal orientation preserved + identity disrupted, or the converse? The courier's
+  supporting syndromes (Korsakoff, fugue) co-disrupt; a clean dissociation kills the row.
+2. **The third-state question** (c's falsifier): contemplative/neurophenomenology on a
+  positive third position beyond self/other.
+3. **The FoA-arity question** (θ's falsifier, now sharpened by the spot-check): is the
+  pre-reflective feeling of agency binary or graded in the primary literature? This fork
+  now ALSO decides C7 — and with it whether the elimination's last step stands.
+4. **The XOR documentation** (the chord): does any phenomenology-of-encounter literature
+  support the two-flips-cancel structure, beyond the Buber gloss?
