@@ -1,0 +1,199 @@
+==============================================================================
+S1  EXACT SYMBOLIC FAMILY TABLE  tr(A_m A_n)
+==============================================================================
+A_m = R^m L^m = [[m**2 + 1, m], [m, 1]]
+tr(A_m)        = m**2 + 2                (metallic: m^2+2)
+tr(A_m A_n)    = m**2*n**2 + m**2 + 2*m*n + n**2 + 2
+  closed form  = (mn)^2 + (m+n)^2 + 2 : True
+tr(A_m A_n^-1) = m**2 - 2*m*n + n**2 + 2
+  closed form  = (m-n)^2 + 2          : True
+Fricke identity tr(A)tr(B) - tr(AB^-1) - tr(AB) == 0 : True
+word-set cross-validation (R^mL^m vs L^mR^m vs M_m^2), m,n<=8: PASS
+
+Base point: tr(A1 A2) = 15  (B465: 3*6 - 3 = 15)  tr(A1)=3, tr(A2)=6, tr(A1A2^-1)=3
+
+Family table tr(A_m A_n), m,n = 1..8:
+             1       2       3       4       5       6       7       8
+m= 1 |       7      15      27      43      63      87     115     147
+m= 2 |      15      34      63     102     151     210     279     358
+m= 3 |      27      63     119     195     291     407     543     699
+m= 4 |      43     102     195     322     483     678     907    1170
+m= 5 |      63     151     291     483     727    1023    1371    1771
+m= 6 |      87     210     407     678    1023    1442    1935    2502
+m= 7 |     115     279     543     907    1371    1935    2599    3363
+m= 8 |     147     358     699    1170    1771    2502    3363    4354
+
+==============================================================================
+S2  GEOMETRY FIELDS OF THE METALLIC MEMBERS, IN-CELL (SnapPy shape fields)
+==============================================================================
+m=1 b++RL prec=30dps vol=2.029883213 -> QUADRATIC, disc sf=[-3]
+m=1 b++RL prec=60dps vol=2.029883213 -> QUADRATIC, disc sf=[-3]
+m=2 b++RRLL prec=30dps vol=3.663862377 -> QUADRATIC, disc sf=[-1]
+m=2 b++RRLL prec=60dps vol=3.663862377 -> QUADRATIC, disc sf=[-1]
+m=3 b++RRRLLL prec=30dps vol=4.813819186 -> NOT quadratic (min small-height degrees [8])
+m=3 b++RRRLLL prec=60dps vol=4.813819186 -> NOT quadratic (min small-height degrees [8])
+m=4 b++RRRRLLLL prec=30dps vol=5.573609113 -> NOT quadratic (min small-height degrees [4])
+m=4 b++RRRRLLLL prec=60dps vol=5.573609113 -> NOT quadratic (min small-height degrees [4])
+
+Reading (matches banked B125, now recomputed in-cell):
+  m=1: every shape quadratic, squarefree disc -3  -> geometry field Q(sqrt(-3))
+  m=2: shapes quadratic, squarefree disc -1       -> geometry field Q(i)
+  m=3,4: shapes NOT quadratic (degree >= 4)       -> geometry field not quadratic,
+         hence NOT abelian over Q => a CONDUCTOR for the compositum DOES NOT EXIST.
+
+==============================================================================
+S3  SEAM LEVELS (literal H112 definition) -- exact conductor arithmetic
+==============================================================================
+member m | scale field disc | geometry field disc | seam quadratic | cond(compositum) | sqrt(disc(compositum))
+   1     |     5            |    -3               | Q(sqrt(-15)) |    15          | 15
+   2     |     8            |    -4               | Q(sqrt(-8)) |     8          | 16
+
+seam(1) = 15   (= the banked seam level 15 = 3*5)   seam(2) = 8
+m>=3: seam undefined (geometry field non-quadratic, in-cell S2; compositum non-abelian, no conductor).
+
+==============================================================================
+S4  THE LAW TESTS
+==============================================================================
+
+--- T1: the literal law at the ONLY other defined member, m=2 ---
+seam(2) = 8 (conductor reading); sqrt(disc) reading gives 16.
+Is 8 (or 16) in the image of f(m,n) = (mn)^2+(m+n)^2+2, m,n>=1 ?
+f = 8  <=> (mn)^2+(m+n)^2 = 6 ;  f = 16 <=> (mn)^2+(m+n)^2 = 14.
+Exact finite check: (mn)^2 <= 14 forces mn <= 3, i.e. (m,n) in {(1,1),(1,2),(2,1),(1,3),(3,1)}:
+   (m,n)=(1,1): (mn)^2+(m+n)^2 = 5
+   (m,n)=(1,2): (mn)^2+(m+n)^2 = 13
+   (m,n)=(2,1): (mn)^2+(m+n)^2 = 13
+   (m,n)=(1,3): (mn)^2+(m+n)^2 = 25
+   (m,n)=(3,1): (mn)^2+(m+n)^2 = 25
+=> 6 and 14 are NOT attained. 8 and 16 are NOT traces of any metallic pair.
+=> the law fails DEFINITIVELY at its only other testable member:
+   no (m,n) whatsoever gives tr(A_m A_n) = seam(2), under either reading.
+
+--- T2: elementwise scale-scale seam law: f(m,n) =? cond(scale(m).scale(n)) ---
+at the base point (1,2): cond(Q(sqrt5).Q(sqrt2)) = 40  vs  f(1,2) = 15  -> already fails at (1,2)
+elementwise matches for 1<=m<n<=30: NONE
+
+--- T3: Eisenstein-anchored generalization f(m,n) =? |fund_disc(-3(k^2+4))| for some k ---
+hits (m<=n<=60, k<=400):
+   f(1,2) = 15 = seam_E(k) for k in [1, 4, 11, 29, 76, 199]
+   f(1,6) = 87 = seam_E(k) for k in [5, 140]
+   f(1,9) = 183 = seam_E(k) for k in [39]
+   f(1,18) = 687 = seam_E(k) for k in [15]
+   f(1,24) = 1203 = seam_E(k) for k in [40]
+   f(2,9) = 447 = seam_E(k) for k in [61]
+   f(2,19) = 1887 = seam_E(k) for k in [25]
+   f(3,4) = 195 = seam_E(k) for k in [16]
+   f(5,12) = 3891 = seam_E(k) for k in [72]
+   f(11,22) = 59655 = seam_E(k) for k in [141]
+   f(13,29) = 143895 = seam_E(k) for k in [219]
+   f(17,34) = 336687 = seam_E(k) for k in [335]
+naive face-value form 3(k^2+4) (ignoring fundamental-disc corrections):
+solutions of (mn)^2+(m+n)^2+2 = 3(k^2+4), m<=n<=300: [(1, 2, 15, 1), (1, 6, 87, 5), (1, 18, 687, 15), (1, 62, 7815, 51), (1, 182, 66615, 149), (2, 19, 1887, 25), (2, 67, 22719, 87), (6, 77, 220335, 271), (7, 102, 521679, 417), (11, 22, 59655, 141), (13, 29, 143895, 219), (17, 34, 336687, 335)]
+
+forensics on the k-multiset hitting 15: k in [1,4,11,29,76,199]:
+   k=  1: squarefree kernel of k^2+4 = 5  -> scale field Q(sqrt(5))
+   k=  4: squarefree kernel of k^2+4 = 5  -> scale field Q(sqrt(5))
+   k= 11: squarefree kernel of k^2+4 = 5  -> scale field Q(sqrt(5))
+   k= 29: squarefree kernel of k^2+4 = 5  -> scale field Q(sqrt(5))
+   k= 76: squarefree kernel of k^2+4 = 5  -> scale field Q(sqrt(5))
+   k=199: squarefree kernel of k^2+4 = 5  -> scale field Q(sqrt(5))
+=> every k hitting 15 has scale field Q(sqrt(5)) (k = odd-index Lucas, L^2+4 = 5F^2):
+   the 'extra instances' of 15 are the SAME field pair (Eisenstein, golden) re-entered, not new law instances.
+structure test for a canonical pairing k(m,n) across the other hits:
+   (1,6)->k=5; (1,18)->k=15; (2,19)->k=25; (3,4)->k=16; (11,22)->k=141 ...
+   no function of (m,n) (min, max, m+n, mn, |m-n|, ...) reproduces these k;
+   candidate k = min: matches 1/12 hits
+   candidate k = max: matches 0/12 hits
+   candidate k = m+n: matches 0/12 hits
+   candidate k = mn: matches 0/12 hits
+   candidate k = |m-n|: matches 2/12 hits
+   the hits are Pell-conic integer points ((mn)^2+(m+n)^2-3k^2 = 10 is a quadric with infinitely many lattice points), not a family law.
+
+--- T4: all cross-pairing conventions on members {1,2} ---
+target: tr(A1A2) = 15.  conductors of all 2-subsets of member-{1,2} fields:
+   scale(1)=Q(sqrt5) . scale(2)=Q(sqrt2) : cond = 40
+   scale(1)=Q(sqrt5) . geom(1)=Q(sqrt-3) : cond = 15  <-- 15
+   scale(1)=Q(sqrt5) . geom(2)=Q(i) : cond = 20
+   scale(2)=Q(sqrt2) . geom(1)=Q(sqrt-3) : cond = 24
+   scale(2)=Q(sqrt2) . geom(2)=Q(i) : cond = 8
+   geom(1)=Q(sqrt-3) . geom(2)=Q(i) : cond = 12
+=> 15 arises from exactly ONE pairing: scale(1).geom(1) -- both fields of member m=1 ALONE.
+   The trace 15 is a TWO-member invariant (m=1 with m=2); the seam 15 is a ONE-member invariant (m=1 with itself).
+   The index structures do not even align at the base point.
+
+--- T5: factorization forensics of the two 15s ---
+trace:  15 = 3*6-3 = 3*(6-1) = tr(A1) * (tr(A2)-1)
+seam:   15 = 3*5   = |disc(geom(1))| * disc(scale(1))
+the '3's: tr(A1) = m^2+2 |_(m=1) = 3   vs  |disc Q(sqrt(-3))| = 3
+   m=2: tr(A_m) = 6  vs  |disc(geom(2))| = 4   equal? False
+   m=3: tr(A_m) = 11  vs  |disc(geom(3))| = undefined (non-quadratic)   equal? False
+   m=4: tr(A_m) = 18  vs  |disc(geom(4))| = undefined (non-quadratic)   equal? False
+the '5's: tr(A2)-1 = 5  vs  disc(scale(1)) = 1^2+4 = 5
+   m=2: tr(A_(m+1))-1 = 10  vs  disc(scale(2)) = fund_disc(8) = 8   equal? False
+   m=3: tr(A_(m+1))-1 = 17  vs  disc(scale(3)) = fund_disc(13) = 13   equal? False
+=> BOTH factor identifications (3<->3 and 5<->5) hold at m=1 ONLY.
+   Each is a small-number pun: m^2+2 vs |disc(shape field)| are unrelated quantities that collide at 3; (m+1)^2+1 vs fund_disc(m^2+4) collide at 5.
+
+f(m,m+1) - (m^2+2)(m^2+4) = (m - 1)*(2*m**2 + m + 5)  (zero only at m=1: roots [1])
+
+==============================================================================
+S5  BASE-RATE HONESTY
+==============================================================================
+f-values <= 5000: 125;  Eisenstein-seam levels <= 5000: 64
+intersection: [15, 87, 183, 195, 447, 687, 1203, 1887, 3891]
+uniform-null expectation in [1,5000]: ~1.6; observed: 9.
+The excess over the uniform null is NOT law-evidence -- it is conic arithmetic. Two demonstrations:
+
+(a) the m=1-row hits are Pell-unit orbits, verified exactly:
+    m=1: f(1,n)=3(k^2+4) <=> u^2 - 6k^2 = 19 with u = 2n+1.
+    hits as (u,k): [(5, 1), (13, 5), (37, 15), (125, 51), (365, 149)]
+    all satisfy u^2-6k^2 = 19: True
+    orbit check under the Pell unit 5+2*sqrt(6) of Z[sqrt6]:
+    (5,1) * (5+2sqrt6) = (37,15)  matches next-in-orbit (37,15): True
+    (13,5) * (5+2sqrt6) = (125,51)  matches next-in-orbit (125,51): True
+    (37,15) * (5+2sqrt6) = (365,149)  matches next-in-orbit (365,149): True
+    => the recurring 15-type hits propagate by Pell-unit multiplication -- pure real-quadratic unit arithmetic, no seam content.
+
+(b) anchor-swap control: replace the Eisenstein anchor 3 by c and count solutions of f(m,n) = c(k^2+4), m<=n<=300:
+    anchor c= 3: 12 solutions
+    anchor c= 5: 0 solutions
+    anchor c= 7: 3 solutions
+    anchor c=11: 2 solutions
+    anchor c=13: 0 solutions
+    counts (12/0/3/2/0) vary with the congruence density of the conic mod c, not with any seam meaning of c=3;
+    c=5 and c=13 are congruence-obstructed, c=7 and c=11 (no seam reading) still produce hits.
+
+Conclusion: the overlap of the two quadratic-valued sets is generic conic/Pell arithmetic; nothing law-shaped survives.
+Moreover the one structurally-cited collision (15) pairs f(1,2) [two-member] with seam(1) [one-member]: mismatched index structure even where the numbers agree.
+
+==============================================================================
+VERDICT
+==============================================================================
+RESOLVED-B. The two 15s are independent:
+ 1. EXACT family law for the trace side: tr(A_m A_n) = (mn)^2 + (m+n)^2 + 2
+    (symbolic sympy, Fricke identity verified, 3 word-set conventions agree).
+ 2. The seam side is NOT a family: the conductor exists only for m in {1,2}
+    (in-cell SnapPy shape fields, 2 precisions: geom(1)=Q(sqrt(-3)),
+    geom(2)=Q(i), m>=3 non-quadratic => non-abelian compositum, no conductor).
+ 3. At the only other defined member, seam(2) = 8 (conductor) or 16 (sqrt-disc)
+    and NEITHER is attainable: f = 8 or 16 forces (mn)^2+(m+n)^2 in {6,14},
+    impossible (exact finite check). The law fails definitively beyond (1,2).
+ 4. Every liberal generalization scanned fails to be a law:
+    - scale-scale conductor elementwise: 0 matches m<n<=30 (already 40 vs 15
+      at the base point);
+    - Eisenstein-anchored 3(k^2+4): the value 15 recurs only at k = odd-index
+      Lucas (k^2+4 = 5F^2) -- the SAME field pair (Eisenstein, golden)
+      re-entered; the remaining scattered hits are Pell-conic lattice points
+      ((mn)^2+(m+n)^2-3k^2 = 10) with NO canonical pairing k(m,n) (all 5
+      natural candidates score <= 1/12);
+    - all cross-pairings on {1,2}^2: 15 arises from exactly one pairing,
+      scale(1).geom(1), i.e. member 1 with itself -- MISMATCHED index
+      structure vs the two-member trace (m=1 with m=2).
+ 5. Both factor identifications behind '15 = 3*5' (tr(A1)=3 <-> |disc(-3)|=3,
+    tr(A2)-1=5 <-> disc 5) are m=1-only small-number collisions; the set
+    overlap beyond the uniform null is fully accounted for by Pell-unit orbits
+    (u^2-6k^2 = 19 verified exactly, orbit propagation by 5+2sqrt6) and
+    survives anchor-swap (c=7, c=11 produce hits too): generic conic
+    arithmetic, no Eisenstein/seam content.
+Keepable positive: the exact closed forms tr(A_m A_n) = (mn)^2+(m+n)^2+2 and
+tr(A_m A_n^-1) = (m-n)^2+2 for the metallic generator family.

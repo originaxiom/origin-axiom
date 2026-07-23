@@ -1,0 +1,57 @@
+OI-063: all-t symbolic Gauss-sum proof of P(gamma)=lcm(t-2,t+2)/content(gamma)
+==============================================================================
+
+[E1] det Q_eps = tr(W) - (-1)^r 2 prod(eps): symbolic r<=7 + random r<=12 ...
+     PROVED-SYMBOLIC (r<=7 over Z[q]) + random integer checks: OK
+
+[E2] Q_gamma well-defined mod (t-+2) on Z^2/(gamma-+I)Z^2: symbolic ...
+     PROVED-SYMBOLIC (difference vanishes identically at t=+-2): OK
+
+[E3] value identity denominators clear: det(Q)*x^T Q x in Z[q,y], r<=6, both corners ...
+     PROVED-SYMBOLIC: OK
+
+[E6] t^2-4 never a square (t>=3)  [cross-family no-cancellation]:
+     PROVED ((t-1)^2 < t^2-4 < t^2) + numeric t<3000: OK
+
+[SWEEP] building trace classes t=3..26 (<=3 reps per (t,content) bucket) + f=8/f=16 stars ...
+     120 gamma classes
+
+[E4] form content + primitive-represents-coprime (constructive, exact): ...
+     OK
+
+[P1-P3,E5] per-gamma exact analysis (closed form 1e-9 window | multisets | exact period == law == (t^2-4)/(g*dd)):
+     P1 closed form |Z|=(1/2)|P_- - P_+| on n=8..47:      OK (worst err 8.75e-14)
+     P2 sector freqs == Q_gamma value multisets (h=+-1):  OK (h=+1: 152, h=-1: 88)
+     sig(Q_-) == sig(Q_+) for every gamma:                OK
+     det Q_eps == tr W - (-1)^r 2 prod(eps), every gamma: OK
+     P3 exact period == lcm(t-2,t+2)/content == (t^2-4)/(g*dd): OK
+     E5 g*dd | t^2-4:                                     OK
+     classes by content: {1: 72, 2: 18, 3: 15, 4: 7, 5: 3, 8: 4, 16: 1}
+
+[P4] end-to-end: B219 robust detector (window 48, tol 2e-3) reproduces the law:
+     gamma=[[2, 1], [1, 1]]  t=3 content=1  measured=5 law=5  OK
+     gamma=[[5, 2], [2, 1]]  t=6 content=2  measured=4 law=4  OK
+     gamma=[[7, 3], [2, 1]]  t=8 content=1  measured=30 law=30  OK
+     gamma=[[10, 3], [3, 1]]  t=11 content=3  measured=39 law=39  OK
+     gamma=[[7, 5], [4, 3]]  t=10 content=1  measured=24 law=24  OK
+     gamma=[[13, -8], [-8, 5]]  t=18 content=8  measured=10 law=10  OK
+     gamma=[[17, -4], [-4, 1]]  t=18 content=4  measured=20 law=20  OK
+     gamma=[[9, 4], [2, 1]]  t=10 content=2  measured=12 law=12  OK
+     gamma=[[12, 5], [7, 3]]  t=15 content=1  measured=221 law=221  OK
+     gamma=[[41, -64], [-16, 25]]  t=66 content=16  measured=68 law=68  OK
+
+==============================================================================
+E1=True E2=True E3=True E4=True E5=True E6=True P1=True P2=True SIG=True DET=True P3=True P4=True
+wall time: 23.5s
+
+ALL CHECKS PASS
+
+THEOREM (all-t; proof chain Steps 1-7 in the docstring).  For every hyperbolic gamma in SL(2,Z),
+t = |tr gamma| > 2, the WRT level function has the exact closed form
+      |Z(gamma;n)| = (1/2) | P_-(n) - P_+(n) |,
+      P_-+(n) = (t-+2)^{-1/2} sum_{v in Z^2/(gamma-+I)Z^2} e^{-2 pi i n Q_gamma(v)/(t-+2)},
+      Q_gamma(v) = c v1^2 + (d-a) v1 v2 - b v2^2,
+and its minimal period in the level is EXACTLY
+      P(gamma) = lcm(t-2, t+2) / content(gamma),   content = gcd(b, c, a-d).
+The B219 period-content law is PROVED for all t (classical input: multi-dim Gauss reciprocity
+for even N, as in B204).  L39's last [proved]-tier step is closed.

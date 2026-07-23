@@ -1,0 +1,59 @@
+{
+ "recompute": {
+  "Zabs_dps120": "1.784988724784665521124751704550397770824070598784395831840149983656666446935122097524225771982535781525842119610040976",
+  "Z_dps120": "(-0.20710678118654752440084436210484903928483593768847403658834 + 1.77293302998024545113660759080970759108124298880009282336512j)",
+  "seed_agreement_digits": 62,
+  "stored_B678_agreement_digits": 40
+ },
+ "pslq_degree_sweep": {
+  "1": null,
+  "2": null,
+  "3": null,
+  "4": null,
+  "5": null,
+  "6": null,
+  "7": null,
+  "8": [
+   -97,
+   0,
+   172,
+   0,
+   -98,
+   0,
+   20,
+   0,
+   -1
+  ]
+ },
+ "pslq_linear_multiquadratic_with_phi": [
+  1,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  -2,
+  0
+ ],
+ "pslq_linear_multiquadratic": null,
+ "pslq_y_biquadratic": [
+  -5,
+  1,
+  2,
+  -2,
+  1
+ ],
+ "octic": "x**8 - 20*x**6 + 98*x**4 - 172*x**2 + 97",
+ "candidate": "sqrt(-2*sqrt(2) - sqrt(6) + 2*sqrt(3) + 5)",
+ "sqrtdenest": "sqrt(-2*sqrt(2) - sqrt(6) + 2*sqrt(3) + 5)",
+ "row_identity": {
+  "Re": "1/2 - sqrt(2)/2",
+  "Im": "sqrt(-4*sqrt(6) - 6*sqrt(2) + 8*sqrt(3) + 17)/2",
+  "Zabs2": "-2*sqrt(2) - sqrt(6) + 2*sqrt(3) + 5",
+  "Zabs": "sqrt(-2*sqrt(2) - sqrt(6) + 2*sqrt(3) + 5)"
+ },
+ "verdict": "RESOLVED-A",
+ "failed_gates": []
+}

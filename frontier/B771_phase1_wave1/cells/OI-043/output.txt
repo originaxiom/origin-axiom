@@ -1,0 +1,33 @@
+[    0.0s] GATE 0: building the global level-15 theta model (exact)...
+[   13.3s] GATE 0 PASS: orders (o1,o2)=(20,12); 240-cell table C built.
+[   13.3s] GATE 1: the CRT/tensor identity C = C3 * C5 at multiplier (2,2)...
+[   15.9s] GATE 1 PASS: C[j,l] = C3[j,l]*C5[j,l] exactly, 240/240 cells at (u3,u5)=(2,2).
+[   15.9s] GATE 1 negative control: multiplier (1,1)...
+[   18.4s] GATE 1 CONTROL PASS: (1,1) fails at 146/240 cells (multiplier is load-bearing).
+[   18.4s] GATE 2: the det-class indicator is CRT-local...
+[   18.4s] GATE 2 PASS: det-class is CRT-local (240/240); window-support census {1: 84, 3: 12, 5: 28, 15: 4} (B382's 128 cells); with C != 0 it refines to {1: 84, 3: 0, 5: 6, 15: 0} (every class-3 window cell has C = 0 -- the 3-side silence is cell-wise).
+[   18.4s] GATE 3: the direct global class partials (the P64 reading, from C)...
+[   18.4s]   class- 1 partial = ('0', '0', '-1/16', '-1/16')  (target ('0', '0', '-1/16', '-1/16'))  EXACT
+[   18.4s]   class- 3 partial = ('0', '0', '0', '0')  (target ('0', '0', '0', '0'))  EXACT
+[   18.4s]   class- 5 partial = ('0', '0', '-1/48', '-1/48')  (target ('0', '0', '-1/48', '-1/48'))  EXACT
+[   18.4s]   class-15 partial = ('0', '0', '0', '0')  (target ('0', '0', '0', '0'))  EXACT
+[   18.4s] GATE 3 PASS: -1/12 = -1/16 + -1/48 by det-class, exactly (P64 recomputed in-cell).
+[   18.4s] GATE 4: the periodicity facts under the closed form...
+[   18.4s] GATE 4 PASS: periods {'C3': [4, 4], 'C5': [10, 6], 'ind3': [4, 4], 'ind5': [10, 6]} -- 3-side lives on Z4 x Z4, 5-side on Z10 x Z6; the shared 2-part forces the two-branch (parity-graded) split.
+[   18.4s] GATE 5: THE CRT CLOSED FORM -- assembly and exact evaluation...
+[   18.4s]   window-splitting identities zeta20^k = zeta4^k zeta5^-k, zeta12^k = zeta4^-k zeta3^k: EXACT
+[   18.4s]   class-1 closed form  = ('0', '0', '-1/16', '-1/16')  == direct partial  == target  EXACT
+[   18.5s]   class-5 closed form  = ('0', '0', '-1/48', '-1/48')  == direct partial  == target  EXACT
+[   18.5s] GATE 5 PASS: the CRT closed form is an exact identity for both classes.
+[   18.5s] -- the branch constants of the -1/16 (class-1), term (6,2):
+[   18.5s]      GH[00] = ('25/4', '-1/4', '0', '-1/2')
+[   18.5s]      GH[01] = ('-5/8', '-1/8', '5/8', '5/8')
+[   18.5s]      GH[10] = ('-5/8', '-1/8', '5/8', '5/8')
+[   18.5s]      GH[11] = ('25/4', '-1/4', '0', '-1/2')
+[   18.5s] -- the branch constants of the -1/48 (class-5), term (6,2):
+[   18.5s]      GH[00] = ('5/8', '1/8', '-5/8', '-1/8')
+[   18.5s]      GH[01] = ('0', '0', '0', '0')
+[   18.5s]      GH[10] = ('0', '0', '0', '0')
+[   18.5s]      GH[11] = ('5/8', '1/8', '-5/8', '-1/8')
+[   18.5s] ALL GATES PASS -- the CRT closed form of the -1/16 phase sum is derived and proven (exact finite identity over Q(zeta_60)); artifacts: closed_form_verified.json
+DONE

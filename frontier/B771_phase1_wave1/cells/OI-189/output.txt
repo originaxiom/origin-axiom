@@ -1,0 +1,57 @@
+======================================================================
+STEP 1: independent recomputation of e_n = det(I - M_n)
+======================================================================
+  n=0  size=  2  e_n=-1   (0.000s)
+  n=1  size=  4  e_n=-11   (0.001s)
+  n=2  size=  8  e_n=-809   (0.005s)
+  n=3  size= 16  e_n=-18845089   (0.043s)
+  n=4  size= 32  e_n=-228654672055316545291   (0.251s)
+  n=5  size= 64  e_n=-14551745085338356602787456737044854593029948485574326872937769   (2.096s)
+  MATCH: recomputed e_n agrees with the banked B556 table (independent confirmation).
+
+======================================================================
+STEP 2: re-verify the two mechanism facts directly from the matrices
+======================================================================
+  K(1,mu) == -g(mu):  CONFIRMED (identity check)
+  (a) charpoly_1(x) == Res_mu(charpoly_0(mu), K(x,mu))  exactly (ratio=1)
+  (a) charpoly_2(x) == Res_mu(charpoly_1(mu), K(x,mu))  exactly (ratio=1)
+  (a) charpoly_3(x) == Res_mu(charpoly_2(mu), K(x,mu))  exactly (ratio=1)
+  (b) e_1 == Res_mu(charpoly_0(mu), g(mu))  exactly: -11
+  (b) e_2 == Res_mu(charpoly_1(mu), g(mu))  exactly: -809
+  (b) e_3 == Res_mu(charpoly_2(mu), g(mu))  exactly: -18845089
+  (b) e_4 == Res_mu(charpoly_3(mu), g(mu))  exactly: -228654672055316545291
+
+======================================================================
+STEP 3: the golden-norm doubling transfer, pushed to n=4,5 (new range)
+======================================================================
+  g_2 = D(g_1)  degree=9   (0.009s)
+  g_3 = D(g_2)  degree=27   (0.027s)
+  g_4 = D(g_3)  degree=81   (0.101s)
+  g_5 = D(g_4)  degree=243   (0.454s)
+  n=1:  N(g_1(phi)) = -11   e_1 = -11   -> MATCH   (0.002s)
+  n=2:  N(g_2(phi)) = -809   e_2 = -809   -> MATCH   (0.002s)
+  n=3:  N(g_3(phi)) = -18845089   e_3 = -18845089   -> MATCH   (0.006s)
+  n=4:  N(g_4(phi)) = -228654672055316545291   e_4 = -228654672055316545291   -> MATCH   (0.023s)
+  n=5:  N(g_5(phi)) = -14551745085338356602787456737044854593029948485574326872937769   e_5 = -14551745085338356602787456737044854593029948485574326872937769   -> MATCH   (0.009s)
+  ALL n in [2, 3, 4, 5] (n>=2) MATCH EXACTLY. (n=2,3 repeat the banked FL2 check;
+  n=4,5 are NEW tested points, degree 81 and 243 respectively.)
+
+======================================================================
+STEP 4: proof sketch -- generic resultant-transitivity lemma
+======================================================================
+  [generic deg-2/deg-2 K, generic A,G (abstract lemma)] LHS-RHS = 0   LHS/RHS = 1
+  [escalator-shaped K (x^2-2yx+y^2-y^3), generic A,G] LHS-RHS = 0   LHS/RHS = 1
+  Both generic checks CONFIRM the transitivity lemma EXACTLY (ratio=1, diff=0).
+  Combined with facts 2(a)/2(b) (independently re-verified above) this gives an
+  INDUCTIVE PROOF that e_n = N_{Q(sqrt5)/Q}(g_n(phi)) for ALL n>=1, not merely
+  the tested values -- the n=1..5 numerical matches in Step 3 are the base case
+  plus corroboration, not the whole argument.
+
+======================================================================
+VERDICT
+======================================================================
+  golden-norm transfer exact for tested n = 2,3,4,5 (n=4,5 NEW beyond banked FL2): True
+  general proof sketch (resultant transitivity + induction) verified: True
+  => RESOLVED-A: H115's 'closed form beyond n=1' promotion is CONFIRMED,
+     with an actual mechanism (not just a wider numerical net).
+  total wall time: 78.29s

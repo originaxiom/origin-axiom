@@ -1,0 +1,110 @@
+[     0.0s] loaded 20 primes: [30000781, 30015361, 30029941, 30078541, 30083401, 30093121, 30136861, 30141721, 30166021, 30195181, 30204901, 30209761, 30214621, 30229201, 30238921, 30263221, 30272941, 30277801, 30302101, 30321541]
+[     0.0s] all 20 primes pass the structural gates: 24 cells, mod-45=31, 12x(1/12) line, triple constant on {121,256,391} mod 405, e1=0, e2=-1/48
+[     0.0s] embedding gates pass on all primes (s5^2=5, s3^2=3, s15^2=15)
+[     0.1s] LLL engine: python-flint 0.9.0
+[     0.1s] === field-ladder hunt (LLL on CRT residues) ===
+[     0.1s]                    Q dim= 2 B1(primes 1-10)  (12446340378580923265211446369399787417) / 19236025185241494442053623666714199722  (norm 19236025185241494442053623666714199722)  [0.0s]
+[     0.1s]                    Q dim= 2 B2(primes 11-20) (-7527505748861175447940857372461221327) / 714283999373030556196546547650234754  (norm 7527505748861175447940857372461221327)  [0.0s]
+[     0.1s]                    Q dim= 2 ALL(20)          (146200629842607292718860313536979791261107622851189270499014084371139477427) / 253825250095360164515403732461670286561574290004585845344834343424312751895  (norm 253825250095360164515403732461670286561574290004585845344834343424312751895)  [0.0s]
+[     0.1s]     candidate in Q: norm 2.54e+74 vs noise floor ~6.26e+74; batch-stable=False; den/prime collision=False
+[     0.1s]     => rejected (fails the stability/collision/margin guard)
+[     0.1s]             Q(sqrt5) dim= 3 B1(primes 1-10)  (-2500082639642386656683571 +4958089430733823347630414*s5) / 1725164470158088956096701  (norm 4958089430733823347630414)  [0.0s]
+[     0.1s]             Q(sqrt5) dim= 3 B2(primes 11-20) (-4236677011665048439026293 -1008321339056060178339979*s5) / 5493690586850502829400388  (norm 5493690586850502829400388)  [0.0s]
+[     0.1s]             Q(sqrt5) dim= 3 ALL(20)          (63373972152057441177370493047757207949894480652295 +23466763422009832619109930691524608796773042088840*s5) / 19880736513331588288837761054768600709267078034646  (norm 63373972152057441177370493047757207949894480652295)  [0.0s]
+[     0.1s]     candidate in Q(sqrt5): norm 6.34e+49 vs noise floor ~7.31e+49; batch-stable=False; den/prime collision=False
+[     0.1s]     => rejected (fails the stability/collision/margin guard)
+[     0.1s]             Q(sqrt3) dim= 3 B1(primes 1-10)  (1828944703502041192417878 -3494998939789554315317583*s3) / 790195084052431198109353  (norm 3494998939789554315317583)  [0.0s]
+[     0.1s]             Q(sqrt3) dim= 3 B2(primes 11-20) (-3641061065857051384630421 +82709558252453029090975*s3) / 6936829195469306962974112  (norm 6936829195469306962974112)  [0.0s]
+[     0.1s]             Q(sqrt3) dim= 3 ALL(20)          (-40880043600137113686423162863488710725800351174953 +19276593819031523003909815020125350825748695132753*s3) / 3196106497968467860529163487023895573490290735828  (norm 40880043600137113686423162863488710725800351174953)  [0.0s]
+[     0.1s]     candidate in Q(sqrt3): norm 4.09e+49 vs noise floor ~7.31e+49; batch-stable=False; den/prime collision=False
+[     0.1s]     => rejected (fails the stability/collision/margin guard)
+[     0.1s]            Q(sqrt15) dim= 3 B1(primes 1-10)  (1707973873582052700603688 +2191441580758080684134691*s15) / 6940448279462400490181317  (norm 6940448279462400490181317)  [0.0s]
+[     0.1s]            Q(sqrt15) dim= 3 B2(primes 11-20) (5849196664697745427660193 +5976972538358797490358779*s15) / 5406033399885962599786533  (norm 5976972538358797490358779)  [0.0s]
+[     0.1s]            Q(sqrt15) dim= 3 ALL(20)          (-22172299072710375858827759186205160399328688364772 -30533412157713978194919875314581253546876016316013*s15) / 57730066173888067713983370491323357839015587799985  (norm 57730066173888067713983370491323357839015587799985)  [0.0s]
+[     0.1s]     candidate in Q(sqrt15): norm 5.77e+49 vs noise floor ~7.31e+49; batch-stable=False; den/prime collision=False
+[     0.1s]     => rejected (fails the stability/collision/margin guard)
+[     0.1s]       Q(sqrt3,sqrt5) dim= 5 B1(primes 1-10)  (-140900808464133 +19081791430101*s5 -321640906622826*s3 +158006369350208*s15) / 347020124207846  (norm 347020124207846)  [0.0s]
+[     0.1s]       Q(sqrt3,sqrt5) dim= 5 B2(primes 11-20) (-309098969156362 -643138707553564*s5 -144399200127335*s3 +380377407566466*s15) / 113327622370575  (norm 643138707553564)  [0.0s]
+[     0.1s]       Q(sqrt3,sqrt5) dim= 5 ALL(20)          (-143200543311764871557058253716 +293355797983696700276647373860*s5 -62024543044374899937715143510*s3 +508678468232992401937175537299*s15) / 37952741449363210168258254045  (norm 508678468232992401937175537299)  [0.0s]
+[     0.1s]     candidate in Q(sqrt3,sqrt5): norm 5.09e+29 vs noise floor ~8.29e+29; batch-stable=False; den/prime collision=False
+[     0.1s]     => rejected (fails the stability/collision/margin guard)
+[     0.1s]            Q(zeta9)+ dim= 4 B1(primes 1-10)  (+1*c9) / 1728  (norm 1728)  [0.0s]
+[     0.1s]            Q(zeta9)+ dim= 4 B2(primes 11-20) (+1*c9) / 1728  (norm 1728)  [0.0s]
+[     0.1s]            Q(zeta9)+ dim= 4 ALL(20)          (+1*c9) / 1728  (norm 1728)  [0.0s]
+[     0.1s]     candidate in Q(zeta9)+: norm 1.73e+03 vs noise floor ~2.5e+37; batch-stable=True; den/prime collision=False
+[     0.1s]     => ACCEPTED (batch-stable, collision-free, >6 orders below floor)
+[     0.1s] === independent complex recomputation (direct powers of unitary W1) ===
+[     0.8s] unitarity |W1 W1* - I|_max = 4.44e-16
+[     4.6s] |W1^1620 - I|_max = 4.83e-14 (the order-1620 claim, binary powering)
+[   145.9s]   400/1620 powers
+[   270.9s]   800/1620 powers
+[   372.7s]   1200/1620 powers
+[   473.3s]   1600/1620 powers
+[   478.1s] |P_1620 - I|_max = 4.91e-14 (end-of-run drift)
+[   478.1s] conj-symmetry max |trs[k] - conj(trs[1620-k])| = 1.45e-13
+[   478.6s]   trace spot-check k=    1 (iterated vs binary powering): 0.00e+00
+[   479.7s]   trace spot-check k=    5 (iterated vs binary powering): 9.65e-16
+[   482.1s]   trace spot-check k=  100 (iterated vs binary powering): 8.15e-15
+[   485.5s]   trace spot-check k=  777 (iterated vs binary powering): 5.11e-15
+[   489.6s]   trace spot-check k= 1619 (iterated vs binary powering): 6.88e-15
+[   489.6s] numeric support: 24 cells; equals F_p support: True
+[   489.6s] max |Im| on support = 4.42e-15  (values are real)
+[   489.6s] 1/12-line max deviation = 2.00e-15
+[   489.6s] triple values (4-cell class means, spread 2.19e-15):
+[   489.6s]    class 121: -0.114373606311455
+[   489.6s]    class 256: -0.047800538785182
+[   489.6s]    class 391: +0.162174145096636
+[   489.6s] numeric e1 = -5.135e-16 (banked 0)
+[   489.6s] numeric e2 = -0.020833333333333 vs -1/48 = -0.020833333333333  (diff 3.19e-16)
+[   489.6s] numeric e3 = +0.000886625512869172
+[   489.6s] sum rule Sigma_support = 1.000000000000003 (banked 1)
+[   489.6s] root identification: class c -> cos(2*pi*k/27)/6, k = {121: 10, 256: 19, 391: 1}; max |numeric - root| = 1.39e-15
+[   489.6s] === exact cyclotomic factorization check (Q[z]/Phi_27) ===
+[   490.1s] sum(12t_k) == 0:                 True
+[   490.1s] e2 = -3/144 = -1/48 exactly:     True  (sum of pair products of 12t_k = -3)
+[   490.1s] e3 = 2cos(2pi/9)/1728 exactly:   True  (product of 12t_k = z^3 + z^-3)
+[   490.1s] === verdict ===
+[   490.1s] e3 = (+1*c9) / 1728   in Q(zeta9)+
+[   490.1s] closed form numerically = +0.000886625512869187
+[   490.1s] independent float e3    = +0.000886625512869172
+[   490.1s] agreement: 1.54e-17 absolute, ~13.8 significant digits
+[   490.1s] form reproduces all 20 prime residues: True
+[   490.1s] |e3| = 8.866255e-04 < 1/864 = 1.157407e-03 (real-triple bound): True
+[   490.1s] exact cyclotomic factorization of the cubic: True
+[   490.1s] VERDICT: RESOLVED-A
+{
+ "cell": "OI-031",
+ "primes": [
+  30000781,
+  30015361,
+  30029941,
+  30078541,
+  30083401,
+  30093121,
+  30136861,
+  30141721,
+  30166021,
+  30195181,
+  30204901,
+  30209761,
+  30214621,
+  30229201,
+  30238921,
+  30263221,
+  30272941,
+  30277801,
+  30302101,
+  30321541
+ ],
+ "e1": "0 (regated on 20 primes + numeric)",
+ "e2": "-1/48 (regated on 20 primes + numeric)",
+ "verdict": "RESOLVED-A",
+ "field": "Q(zeta9)+",
+ "e3": "(+1*c9) / 1728",
+ "e3_closed_form": "2*cos(2*pi/9)/1728 = cos(2*pi/9)/864",
+ "triple_roots": "t_c = cos(2*pi*k/27)/6, k=10,19,1 for classes c=121,256,391 (exact, root_dev 1.4e-15)",
+ "exact_factorization": true,
+ "e3_numeric": 0.0008866255128691721,
+ "e3_form_value": 0.0008866255128691875,
+ "agree_digits": 13.8
+}
