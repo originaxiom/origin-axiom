@@ -7524,3 +7524,13 @@ The null remains blocked (no enumeration). Verdict: CANDIDATE-DOCUMENTED — the
 best-documented candidate ever received, and a candidate: "unique" doubly blocked. Four
 consequence forks named, each literature-decidable (the FoA-arity fork now also decides
 C7). Nothing to CLAIMS.
+
+## 2026-07-23 — the B766 audit (cc3): RANK-SATURATED CONFIRMED; the trace-blindness lesson
+cc3 independently re-derived all five action-table entries — rank 3 = the menu stands. One
+catch against the arc: θ-on-T6 was hardcoded "definitional"; cc3's trace-level first pass
+returned FIX (traces are cyclic-invariant — θ-even always) before the matrix-level pass
+confirmed FLIP (6 nonzero Sym²-difference derivative entries, trace exactly 0 — cc
+re-verified at the gate). The lesson banked: THE CHORD IS INVISIBLE TO tr() — matrix-level
+observables need matrix-level derivations; hardcoded "definitional" entries are the MB12
+class's subtlest cousin. γ₃≡c upgraded to field-theoretic; the T1 door certified genuine
+(probed against central τ). 17 audit locks green; gate re-execution identical.

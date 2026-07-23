@@ -50,3 +50,16 @@ The object is closed by exactly three independent discrete choices — conjugati
 reversal, and the golden branch — with time's arrow and the basepoint identified as one
 of them, the chord's sign determined by the other two, and the values living beyond all
 three in the Galois-chosen continuum. Locks: tests/test_b766_torsor.py (compute-grade).
+
+## AUDIT ADDENDUM (2026-07-23, cc3's independent scrutiny — CONFIRMED, one derivation upgraded)
+
+cc3 re-derived all five action-table entries independently: RANK-SATURATED CONFIRMED
+(rank 3 = the menu). One genuine catch against this arc: the θ-on-T6 entry was hardcoded
+"definitional" rather than derived — and cc3's first-pass TRACE-level test returned FIX,
+because traces are cyclically invariant (θ-even always). The chord sign is a MATRIX-level
+observable: d/du[Sym²(AB) − Sym²(BA)] at the geometric point has 6 nonzero entries with
+trace exactly 0 (cc re-verified independently at the gate). **The lesson, banked: any
+trace-based θ test is blind to the chord — matrix-level observables need matrix-level
+derivations.** The hardcoded entry is now backed by cc3's audit_compute.py derivation.
+Also upgraded: γ₃ ≡ c is FIELD-THEORETIC (the CM-field theorem), not an axis coincidence;
+the T1 door probed against amphichiral τ (central, τ = −I — the door is genuine).
