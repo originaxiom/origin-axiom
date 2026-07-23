@@ -1,0 +1,50 @@
+========================================================================
+B771 W2-237: additivity constant c -- recompute + identify
+========================================================================
+PARI stack size set to 4000000000 bytes, maximum size set to 8000000000
+[P1] n=9 len=55 tets=55 bits=512  minIm=0.3542 agree-with-ManifoldHP.volume()=65.9 digits (4.2s)
+     vol = 51.368283960296386975621905020567852105464447473199360322117154340059614583578855
+[P1] n=10 len=89 tets=89 bits=512  minIm=0.3542 agree-with-ManifoldHP.volume()=64.4 digits (6.8s)
+     vol = 83.139607962500864637751420055103914751372609726112535122724030946712248394764319
+[P1] n=11 len=144 tets=144 bits=512  minIm=0.3542 agree-with-ManifoldHP.volume()=65.5 digits (42.1s)
+     vol = 134.50789192279725161337332507567176685683705719930389046650701874542748478533274
+[P1] n=12 len=233 tets=233 bits=512  minIm=0.3542 agree-with-ManifoldHP.volume()=64.6 digits (144.6s)
+     vol = 217.64749988529811625112474513077568160820966692541642558923104969213973318009701
+[P1] n=13 len=377 tets=377 bits=512  minIm=0.3542 agree-with-ManifoldHP.volume()=64.7 digits (332.2s)
+     vol = 352.15539180809536786449807020644744846504672412472031605573806843756721796542975
+[P1-cond] n12b384: agree with primary = 117.0 digits (62.6s)
+[P1-cond] n13b384: agree with primary = 116.7 digits (202.7s)
+[P1-cond] n12mirror: agree with primary = 155.6 digits (121.1s)
+
+[P2] additivity defects d(n)=v(n)-v(n-1)-v(n-2):
+  d(11) = -8.00498e-48   log10|d| = -47.10
+  d(12) = -4.87768e-77   log10|d| = -76.31
+  d(13) = -1.91112e-124   log10|d| = -123.72
+  log-defect ratios: 1.6203, 1.6212 (phi = 1.6180)
+  c_11 = 0.93410201805778798026418779065521143193575587443569279540352
+  c_12 = 0.93410201805778798026418779065521143193575587443569279540352
+  c_13 = 0.93410201805778798026418779065521143193575587443569279540352
+  agree(c_11,c_13) = 78 digits; agree(c_12,c_13) = 126 digits
+  defect-tail model: log10|d(14)| ~ -201 => c_13 intrinsic error beyond precision floor
+  TRUSTED digits for c: 126
+
+  c = 0.93410201805778798026418779065521143193575587443569279540351958491744926144027615744719878654874084994437447203525514739850716
+  banked 28-digit value agrees to 30 digits (CONFIRMS the bank)
+
+[P3] PSLQ sweeps at tol = 1e-112 (rule: 10^-(agree-14)), working dps 170
+  [S0] algebraicity: PSLQ on powers of c, deg 2..8, maxcoeff 1e10
+    all NEGATIVE (c not algebraic of deg<=8, height<=1e10 at tol)
+  [S1] singles: c = (p/q) x, |p|,|q| <= 1e8
+    29 singles NEGATIVE
+  [S2] pairs from the full candidate list, maxcoeff 1e6
+    428 pairs NEGATIVE, 7 internal (coeff(c)=0, classical Lobachevsky identities, discarded)
+  [S3] triples over the independent basis, maxcoeff 1e4
+    286 triples NEGATIVE, 0 internal
+  [S4] full independent basis (13 elements + c), maxcoeff 1e3
+    internal relation [0, -5, -10, -15, 15, 9, 0, 0, 0, 0, 0, 0, 0, 0] (coeff(c)=0) -> dropping Lob(pi/3)
+    NEGATIVE over [c] + ['Lob(pi/5)', 'Lob(2pi/5)', 'Lob(pi/15)', 'Lob(2pi/15)', 'Catalan', 'pi^2', 'pi^2/sqrt5', 'pi*logphi', 'pi*log5', 'logphi^2', 'zeta3/pi', 'one']
+  [S5] Z[sqrt5]-coefficient pairs: c vs {x, sqrt5 x, y, sqrt5 y}, golden sector, maxcoeff 1e4
+    28 NEGATIVE, 0 internal
+
+[VERDICT-INPUT]
+  ALL SWEEPS NEGATIVE at the recorded heights/tolerance => bounded-negative (RESOLVED-B shape)

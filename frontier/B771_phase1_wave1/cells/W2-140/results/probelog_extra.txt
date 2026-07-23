@@ -1,0 +1,6 @@
+m=5 o=6 n=3 exps=[0, 1, 5] s=+1 k=4 : hits=0/12 None
+m=5 o=6 n=3 exps=[0, 1, 5] s=+1 k=1 : hits=0/12 None
+m=5 o=6 n=3 exps=[0, 1, 5] s=+1 k=2 : hits=0/12 None
+m=2 o=5 n=5 exps=[0, 1, 2, 3, 4] s=+1 k=2 : hits=0/6 None
+m=2 o=5 n=5 exps=[0, 1, 2, 3, 4] s=+1 k=1 : hits=0/4 None
+DONE

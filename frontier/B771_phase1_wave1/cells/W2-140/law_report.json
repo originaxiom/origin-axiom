@@ -1,0 +1,1063 @@
+{
+ "points": [
+  {
+   "id": "m1_o3_n3",
+   "m": 1,
+   "o": 3,
+   "n": 3,
+   "eff": 3,
+   "g": 1,
+   "e": 3,
+   "k": 4,
+   "s": 1,
+   "clean_geo_reps": 177,
+   "n_lox": 282
+  },
+  {
+   "id": "m1_o4_n3",
+   "m": 1,
+   "o": 4,
+   "n": 3,
+   "eff": 4,
+   "g": 1,
+   "e": 4,
+   "k": 3,
+   "s": 1,
+   "clean_geo_reps": 600,
+   "n_lox": 300
+  },
+  {
+   "id": "m2_o3_n3",
+   "m": 2,
+   "o": 3,
+   "n": 3,
+   "eff": 3,
+   "g": 1,
+   "e": 3,
+   "k": 4,
+   "s": 1,
+   "clean_geo_reps": 164,
+   "n_lox": 246
+  },
+  {
+   "id": "m2_o4_n3",
+   "m": 2,
+   "o": 4,
+   "n": 3,
+   "eff": 4,
+   "g": 2,
+   "e": 2,
+   "k": 2,
+   "s": 1,
+   "clean_geo_reps": 69,
+   "n_lox": 210
+  },
+  {
+   "id": "m3_o4_n3",
+   "m": 3,
+   "o": 4,
+   "n": 3,
+   "eff": 4,
+   "g": 1,
+   "e": 4,
+   "k": 3,
+   "s": 1,
+   "clean_geo_reps": 393,
+   "n_lox": 205
+  },
+  {
+   "id": "m3_o6_n3",
+   "m": 3,
+   "o": 6,
+   "n": 3,
+   "eff": 6,
+   "g": 3,
+   "e": 2,
+   "k": 1,
+   "s": 1,
+   "clean_geo_reps": 81,
+   "n_lox": 135
+  },
+  {
+   "id": "m1_o3_n4",
+   "m": 1,
+   "o": 3,
+   "n": 4,
+   "eff": 3,
+   "g": 1,
+   "e": 3,
+   "k": 4,
+   "s": -1,
+   "clean_geo_reps": 329,
+   "n_lox": 193
+  },
+  {
+   "id": "m1_o8_n4",
+   "m": 1,
+   "o": 8,
+   "n": 4,
+   "eff": 4,
+   "g": 1,
+   "e": 4,
+   "k": 3,
+   "s": 1,
+   "clean_geo_reps": 259,
+   "n_lox": 255
+  },
+  {
+   "id": "m2_o8_n4",
+   "m": 2,
+   "o": 8,
+   "n": 4,
+   "eff": 4,
+   "g": 2,
+   "e": 2,
+   "k": 2,
+   "s": 1,
+   "clean_geo_reps": 25,
+   "n_lox": 57
+  },
+  {
+   "id": "m1_o5_n5",
+   "m": 1,
+   "o": 5,
+   "n": 5,
+   "eff": 5,
+   "g": 1,
+   "e": 5,
+   "k": 2,
+   "s": 1,
+   "clean_geo_reps": 6,
+   "n_lox": 313
+  },
+  {
+   "id": "m3_o8_n4",
+   "m": 3,
+   "o": 8,
+   "n": 4,
+   "eff": 4,
+   "g": 1,
+   "e": 4,
+   "k": 3,
+   "s": -1,
+   "clean_geo_reps": 3,
+   "n_lox": 4
+  },
+  {
+   "id": "probe_m4_o6_n3",
+   "m": 4,
+   "o": 6,
+   "n": 3,
+   "eff": 6,
+   "g": 2,
+   "e": 3,
+   "k": 1,
+   "s": 1,
+   "clean_geo_reps": 20,
+   "n_lox": 20
+  },
+  {
+   "id": "probe_m1_o6_n6",
+   "m": 1,
+   "o": 6,
+   "n": 6,
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "k": 4,
+   "s": 1,
+   "clean_geo_reps": 3,
+   "n_lox": 3
+  },
+  {
+   "id": "probe_m2_o6_n3",
+   "m": 2,
+   "o": 6,
+   "n": 3,
+   "eff": 6,
+   "g": 2,
+   "e": 3,
+   "k": 1,
+   "s": 1,
+   "clean_geo_reps": 7,
+   "n_lox": 7
+  }
+ ],
+ "weak": [],
+ "empty": [
+  "m1_o6_n4",
+  "m2_o6_n3",
+  "m2_o8e8_n4",
+  "m1_o8e8_n4",
+  "m1_o6b_n4",
+  "m2_o10_n4",
+  "m3_o9_n3",
+  "probe_m5_o6_n3_probeempty",
+  "probe_m2_o5_n5_probeempty",
+  "probe_m5_o4_n3_probeempty",
+  "probe_m5_o3_n3_probeempty",
+  "probe_m4_o3_n4_probeempty",
+  "probe_m2_o6_n4_probeempty"
+ ],
+ "probe_established": [
+  {
+   "id": "probe_m4_o6_n3",
+   "m": 4,
+   "o": 6,
+   "n": 3,
+   "exps": [
+    0,
+    1,
+    5
+   ],
+   "eff": 6,
+   "g": 2,
+   "e": 3,
+   "k": 1,
+   "s": 1,
+   "hits": 20,
+   "streams": [
+    0,
+    1
+   ],
+   "established": true,
+   "clean_geo_reps": 20,
+   "n_lox": 20
+  },
+  {
+   "id": "probe_m1_o6_n6",
+   "m": 1,
+   "o": 6,
+   "n": 6,
+   "exps": [
+    0,
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "k": 4,
+   "s": 1,
+   "hits": 3,
+   "streams": [
+    0,
+    1
+   ],
+   "established": true,
+   "clean_geo_reps": 3,
+   "n_lox": 3
+  },
+  {
+   "id": "probe_m2_o6_n3",
+   "m": 2,
+   "o": 6,
+   "n": 3,
+   "exps": [
+    0,
+    1,
+    5
+   ],
+   "eff": 6,
+   "g": 2,
+   "e": 3,
+   "k": 1,
+   "s": 1,
+   "hits": 7,
+   "streams": [
+    0,
+    1
+   ],
+   "established": true,
+   "clean_geo_reps": 7,
+   "n_lox": 7
+  },
+  {
+   "id": "probe_m1_o4_n3",
+   "m": 1,
+   "o": 4,
+   "n": 3,
+   "exps": [
+    0,
+    1,
+    3
+   ],
+   "eff": 4,
+   "g": 1,
+   "e": 4,
+   "k": 3,
+   "s": 1,
+   "hits": 5,
+   "streams": [
+    0
+   ],
+   "established": true
+  }
+ ],
+ "probe_empty": [
+  {
+   "id": "probe_m5_o6_n3",
+   "m": 5,
+   "o": 6,
+   "n": 3,
+   "exps": [
+    0,
+    1,
+    5
+   ],
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "k_tried": [
+    1,
+    2,
+    4
+   ],
+   "total_seeds": 36
+  },
+  {
+   "id": "probe_m2_o5_n5",
+   "m": 2,
+   "o": 5,
+   "n": 5,
+   "exps": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "eff": 5,
+   "g": 1,
+   "e": 5,
+   "k_tried": [
+    1,
+    2
+   ],
+   "total_seeds": 10
+  },
+  {
+   "id": "probe_m5_o4_n3",
+   "m": 5,
+   "o": 4,
+   "n": 3,
+   "exps": [
+    0,
+    1,
+    3
+   ],
+   "eff": 4,
+   "g": 1,
+   "e": 4,
+   "k_tried": [
+    2,
+    3
+   ],
+   "total_seeds": 25
+  },
+  {
+   "id": "probe_m5_o3_n3",
+   "m": 5,
+   "o": 3,
+   "n": 3,
+   "exps": [
+    0,
+    1,
+    2
+   ],
+   "eff": 3,
+   "g": 1,
+   "e": 3,
+   "k_tried": [
+    3,
+    4
+   ],
+   "total_seeds": 25
+  },
+  {
+   "id": "probe_m4_o3_n4",
+   "m": 4,
+   "o": 3,
+   "n": 4,
+   "exps": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "eff": 3,
+   "g": 1,
+   "e": 3,
+   "k_tried": [
+    4
+   ],
+   "total_seeds": 20
+  },
+  {
+   "id": "probe_m2_o6_n4",
+   "m": 2,
+   "o": 6,
+   "n": 4,
+   "exps": [
+    0,
+    0,
+    1,
+    5
+   ],
+   "eff": 6,
+   "g": 2,
+   "e": 3,
+   "k_tried": [
+    1,
+    2
+   ],
+   "total_seeds": 20
+  },
+  {
+   "id": "probe_m1_o6_n4",
+   "m": 1,
+   "o": 6,
+   "n": 4,
+   "exps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "k_tried": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "total_seeds": 80
+  },
+  {
+   "id": "probe_m1_o6_n4",
+   "m": 1,
+   "o": 6,
+   "n": 4,
+   "exps": [
+    0,
+    0,
+    1,
+    5
+   ],
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "k_tried": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "total_seeds": 130
+  },
+  {
+   "id": "probe_m1_o8_n4",
+   "m": 1,
+   "o": 8,
+   "n": 4,
+   "exps": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "eff": 8,
+   "g": 1,
+   "e": 8,
+   "k_tried": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "total_seeds": 80
+  },
+  {
+   "id": "probe_m2_o10_n4",
+   "m": 2,
+   "o": 10,
+   "n": 4,
+   "exps": [
+    0,
+    1,
+    3,
+    6
+   ],
+   "eff": 10,
+   "g": 2,
+   "e": 5,
+   "k_tried": [
+    1,
+    2,
+    3
+   ],
+   "total_seeds": 48
+  },
+  {
+   "id": "probe_m2_o8_n4",
+   "m": 2,
+   "o": 8,
+   "n": 4,
+   "exps": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "eff": 8,
+   "g": 2,
+   "e": 4,
+   "k_tried": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "total_seeds": 114
+  },
+  {
+   "id": "probe_m3_o9_n3",
+   "m": 3,
+   "o": 9,
+   "n": 3,
+   "exps": [
+    0,
+    1,
+    8
+   ],
+   "eff": 9,
+   "g": 3,
+   "e": 3,
+   "k_tried": [
+    1,
+    2,
+    3
+   ],
+   "total_seeds": 60
+  }
+ ],
+ "k_single_valued_on_(e,g)": true,
+ "(e,g)_classes": {
+  "(2, 2)": [
+   2
+  ],
+  "(2, 3)": [
+   1
+  ],
+  "(3, 1)": [
+   4
+  ],
+  "(3, 2)": [
+   1
+  ],
+  "(4, 1)": [
+   3
+  ],
+  "(5, 1)": [
+   2
+  ],
+  "(6, 1)": [
+   4
+  ]
+ },
+ "k_single_valued_on_(o,m)": true,
+ "candidates": {
+  "C1 floor((7-e)/g)": {
+   "fits_all_values": false,
+   "value_failures": [
+    [
+     "probe_m4_o6_n3",
+     1,
+     2
+    ],
+    [
+     "probe_m1_o6_n6",
+     4,
+     1
+    ],
+    [
+     "probe_m2_o6_n3",
+     1,
+     2
+    ]
+   ],
+   "existence_failures": [
+    [
+     "m1_o6_n4",
+     1
+    ],
+    [
+     "m1_o6b_n4",
+     1
+    ],
+    [
+     "m3_o9_n3",
+     1
+    ],
+    [
+     "probe_m5_o6_n3_probeempty",
+     1
+    ],
+    [
+     "probe_m2_o5_n5_probeempty",
+     2
+    ],
+    [
+     "probe_m5_o4_n3_probeempty",
+     3
+    ],
+    [
+     "probe_m5_o3_n3_probeempty",
+     4
+    ],
+    [
+     "probe_m4_o3_n4_probeempty",
+     4
+    ],
+    [
+     "probe_m2_o6_n4_probeempty",
+     2
+    ]
+   ]
+  },
+  "C2 piecewise(7-e | 4-g)": {
+   "fits_all_values": false,
+   "value_failures": [
+    [
+     "probe_m4_o6_n3",
+     1,
+     2
+    ],
+    [
+     "probe_m1_o6_n6",
+     4,
+     1
+    ],
+    [
+     "probe_m2_o6_n3",
+     1,
+     2
+    ]
+   ],
+   "existence_failures": [
+    [
+     "m1_o6_n4",
+     1
+    ],
+    [
+     "m1_o6b_n4",
+     1
+    ],
+    [
+     "m3_o9_n3",
+     1
+    ],
+    [
+     "probe_m5_o6_n3_probeempty",
+     1
+    ],
+    [
+     "probe_m2_o5_n5_probeempty",
+     2
+    ],
+    [
+     "probe_m5_o4_n3_probeempty",
+     3
+    ],
+    [
+     "probe_m5_o3_n3_probeempty",
+     4
+    ],
+    [
+     "probe_m4_o3_n4_probeempty",
+     4
+    ],
+    [
+     "probe_m2_o6_n4_probeempty",
+     2
+    ]
+   ]
+  },
+  "C3 4-m(o-3) [banked partial]": {
+   "fits_all_values": false,
+   "value_failures": [
+    [
+     "m3_o4_n3",
+     3,
+     1
+    ],
+    [
+     "m3_o6_n3",
+     1,
+     -5
+    ],
+    [
+     "m1_o8_n4",
+     3,
+     -1
+    ],
+    [
+     "m2_o8_n4",
+     2,
+     -6
+    ],
+    [
+     "m3_o8_n4",
+     3,
+     -11
+    ],
+    [
+     "probe_m4_o6_n3",
+     1,
+     -8
+    ],
+    [
+     "probe_m1_o6_n6",
+     4,
+     1
+    ],
+    [
+     "probe_m2_o6_n3",
+     1,
+     -2
+    ]
+   ],
+   "existence_failures": [
+    [
+     "m1_o6_n4",
+     1
+    ],
+    [
+     "m1_o6b_n4",
+     1
+    ],
+    [
+     "probe_m5_o3_n3_probeempty",
+     4
+    ],
+    [
+     "probe_m4_o3_n4_probeempty",
+     4
+    ]
+   ]
+  },
+  "C4 7-o": {
+   "fits_all_values": false,
+   "value_failures": [
+    [
+     "m2_o4_n3",
+     2,
+     3
+    ],
+    [
+     "m1_o8_n4",
+     3,
+     -1
+    ],
+    [
+     "m2_o8_n4",
+     2,
+     -1
+    ],
+    [
+     "m3_o8_n4",
+     3,
+     -1
+    ],
+    [
+     "probe_m1_o6_n6",
+     4,
+     1
+    ]
+   ],
+   "existence_failures": [
+    [
+     "m1_o6_n4",
+     1
+    ],
+    [
+     "m1_o6b_n4",
+     1
+    ],
+    [
+     "probe_m5_o6_n3_probeempty",
+     1
+    ],
+    [
+     "probe_m2_o5_n5_probeempty",
+     2
+    ],
+    [
+     "probe_m5_o4_n3_probeempty",
+     3
+    ],
+    [
+     "probe_m5_o3_n3_probeempty",
+     4
+    ],
+    [
+     "probe_m4_o3_n4_probeempty",
+     4
+    ],
+    [
+     "probe_m2_o6_n4_probeempty",
+     1
+    ]
+   ]
+  },
+  "C5 7-eff": {
+   "fits_all_values": false,
+   "value_failures": [
+    [
+     "m2_o4_n3",
+     2,
+     3
+    ],
+    [
+     "m2_o8_n4",
+     2,
+     3
+    ],
+    [
+     "probe_m1_o6_n6",
+     4,
+     1
+    ]
+   ],
+   "existence_failures": [
+    [
+     "m1_o6_n4",
+     1
+    ],
+    [
+     "m1_o6b_n4",
+     1
+    ],
+    [
+     "probe_m5_o6_n3_probeempty",
+     1
+    ],
+    [
+     "probe_m2_o5_n5_probeempty",
+     2
+    ],
+    [
+     "probe_m5_o4_n3_probeempty",
+     3
+    ],
+    [
+     "probe_m5_o3_n3_probeempty",
+     4
+    ],
+    [
+     "probe_m4_o3_n4_probeempty",
+     4
+    ],
+    [
+     "probe_m2_o6_n4_probeempty",
+     1
+    ]
+   ]
+  },
+  "C6 (8-e-g)/g-integrality": {
+   "fits_all_values": false,
+   "value_failures": [
+    [
+     "probe_m4_o6_n3",
+     1,
+     null
+    ],
+    [
+     "probe_m1_o6_n6",
+     4,
+     1
+    ],
+    [
+     "probe_m2_o6_n3",
+     1,
+     null
+    ]
+   ],
+   "existence_failures": [
+    [
+     "m1_o6_n4",
+     1
+    ],
+    [
+     "m1_o6b_n4",
+     1
+    ],
+    [
+     "probe_m5_o6_n3_probeempty",
+     1
+    ],
+    [
+     "probe_m2_o5_n5_probeempty",
+     2
+    ],
+    [
+     "probe_m5_o4_n3_probeempty",
+     3
+    ],
+    [
+     "probe_m5_o3_n3_probeempty",
+     4
+    ],
+    [
+     "probe_m4_o3_n4_probeempty",
+     4
+    ]
+   ]
+  },
+  "C7 floor((8-e-g)/g)": {
+   "fits_all_values": false,
+   "value_failures": [
+    [
+     "probe_m1_o6_n6",
+     4,
+     1
+    ]
+   ],
+   "existence_failures": [
+    [
+     "m1_o6_n4",
+     1
+    ],
+    [
+     "m1_o6b_n4",
+     1
+    ],
+    [
+     "probe_m5_o6_n3_probeempty",
+     1
+    ],
+    [
+     "probe_m2_o5_n5_probeempty",
+     2
+    ],
+    [
+     "probe_m5_o4_n3_probeempty",
+     3
+    ],
+    [
+     "probe_m5_o3_n3_probeempty",
+     4
+    ],
+    [
+     "probe_m4_o3_n4_probeempty",
+     4
+    ],
+    [
+     "probe_m2_o6_n4_probeempty",
+     1
+    ]
+   ]
+  }
+ },
+ "sublocus_empty_cells": [
+  {
+   "id": "m1_o6_n4",
+   "m": 1,
+   "o": 6,
+   "n": 4,
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "n_lox": 64
+  },
+  {
+   "id": "m1_o6b_n4",
+   "m": 1,
+   "o": 6,
+   "n": 4,
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "n_lox": 60
+  },
+  {
+   "id": "m3_o9_n3",
+   "m": 3,
+   "o": 9,
+   "n": 3,
+   "eff": 9,
+   "g": 3,
+   "e": 3,
+   "n_lox": 403
+  },
+  {
+   "id": "probe_m5_o6_n3_probeempty",
+   "m": 5,
+   "o": 6,
+   "n": 3,
+   "eff": 6,
+   "g": 1,
+   "e": 6,
+   "n_lox": 999
+  },
+  {
+   "id": "probe_m2_o5_n5_probeempty",
+   "m": 2,
+   "o": 5,
+   "n": 5,
+   "eff": 5,
+   "g": 1,
+   "e": 5,
+   "n_lox": 999
+  },
+  {
+   "id": "probe_m5_o4_n3_probeempty",
+   "m": 5,
+   "o": 4,
+   "n": 3,
+   "eff": 4,
+   "g": 1,
+   "e": 4,
+   "n_lox": 999
+  },
+  {
+   "id": "probe_m5_o3_n3_probeempty",
+   "m": 5,
+   "o": 3,
+   "n": 3,
+   "eff": 3,
+   "g": 1,
+   "e": 3,
+   "n_lox": 999
+  },
+  {
+   "id": "probe_m4_o3_n4_probeempty",
+   "m": 4,
+   "o": 3,
+   "n": 4,
+   "eff": 3,
+   "g": 1,
+   "e": 3,
+   "n_lox": 999
+  },
+  {
+   "id": "probe_m2_o6_n4_probeempty",
+   "m": 2,
+   "o": 6,
+   "n": 4,
+   "eff": 6,
+   "g": 2,
+   "e": 3,
+   "n_lox": 999
+  }
+ ],
+ "affine_fits_1_2_features": []
+}

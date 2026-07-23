@@ -1,0 +1,24 @@
+PASS  N1: W2T hom all 576 pairs (<1e-10)
+PASS  N2: WA4 hom all 576 pairs (<1e-10)
+PASS  N3: W2T injective (kernel trivial)
+PASS  N4: ker WA4 = {+-1} (faithful A4)
+  orders: [1, 2, 3, 3, 4, 6, 6] eps: [0, 0, 1, 2, 0, 2, 1] sizes: [1, 1, 4, 4, 6, 4, 4]
+  chi 27|W2T: [27. +0.j        3. +0.j       -4.5+7.794229j -4.5-7.794229j
+ 15. +0.j       -1.5-2.598076j -1.5+2.598076j]
+  chi 27|WA4: [27. +0.j       27. +0.j       -4.5+7.794229j -4.5-7.794229j
+  3. +0.j       -4.5-7.794229j -4.5+7.794229j]
+  27|W2T = {'1': 3, "1'": 9, "1''": 3, '2': 3, "2''": 3}  27|WA4 = {"1'": 9, '3': 6}
+PASS  N5: 27|W2T = 3.1+9.1'+3.1''+3.2+0.2'+3.2''  (n1,n2)=(9,0)
+PASS  N6: 27|WA4 = 9.1' + 6.3 (no spinor irreps; genuine A4 assembly)
+PASS  N7: DISCRIMINATING FACT 2T: chi non-real, = 9w at an order-3 class
+PASS  N8: DISCRIMINATING FACT A4: chi non-real, = 9w at an order-3 class
+  Sym^3 trivial mult (2T V, 2T V*, A4 V, A4 V*): (365, 365, 430, 430)
+PASS  N9: (Sym^3 V)^G, (Sym^3 V*)^G >= 1 for both witnesses (invariant cubic present)
+  [seed 0] Stab(I3) nullity = 78 (expect 78); gap ratio = 1.320e+14
+PASS  N10(seed 0): dim Stab(I3) = 78 = dim e6, gap > 1e6 (nondegenerate)
+PASS  N11(seed 0): I3 numerically invariant under both witnesses at random pts
+  [seed 1] Stab(I3) nullity = 78 (expect 78); gap ratio = 1.336e+14
+PASS  N10(seed 1): dim Stab(I3) = 78 = dim e6, gap > 1e6 (nondegenerate)
+PASS  N11(seed 1): I3 numerically invariant under both witnesses at random pts
+
+AUX VERDICT: ALL PASS -> RESOLVED-A (both omega-window groups realized)

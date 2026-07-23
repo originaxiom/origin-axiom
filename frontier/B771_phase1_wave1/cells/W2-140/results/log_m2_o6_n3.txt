@@ -1,0 +1,68 @@
+{
+ "run1": {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "eff": 6,
+  "g": 2,
+  "e": 3,
+  "rng_seeds": [
+   0,
+   1
+  ],
+  "seeds_per_stream": 350,
+  "n_irred": 621,
+  "n_lox": 621,
+  "geo": {},
+  "geo_unique": false,
+  "k_values": [],
+  "signs": [],
+  "k": null,
+  "s": null,
+  "clean_geo_reps": 0,
+  "lox_err_median": 3.0972177266493377,
+  "fin": {},
+  "fin_orders": [],
+  "sample": null,
+  "secs": 251.7,
+  "id": "m2_o6_n3"
+ },
+ "run2": {
+  "m": 2,
+  "o": 6,
+  "n": 3,
+  "exps": [
+   0,
+   1,
+   5
+  ],
+  "eff": 6,
+  "g": 2,
+  "e": 3,
+  "rng_seeds": [
+   7,
+   11
+  ],
+  "seeds_per_stream": 350,
+  "n_irred": 611,
+  "n_lox": 611,
+  "geo": {},
+  "geo_unique": false,
+  "k_values": [],
+  "signs": [],
+  "k": null,
+  "s": null,
+  "clean_geo_reps": 0,
+  "lox_err_median": 2.630414128579767,
+  "fin": {},
+  "fin_orders": [],
+  "sample": null,
+  "secs": 203.5,
+  "id": "m2_o6_n3_v"
+ }
+}

@@ -1,0 +1,92 @@
+[     0.0s] == STEP 0: re-derive frequencies from the substitution incidence matrix ==
+[     0.0s]   incidence matrix (rows/cols a,b,A,B):
+[[1. 1. 1. 1.]
+ [1. 0. 1. 0.]
+ [2. 1. 1. 1.]
+ [1. 1. 1. 0.]]
+[     0.0s]   Perron eigenvalue (growth rate) = 3.6762050160
+[     0.0s]   Perron freq vector (a,b,A,B)    = [0.27201965 0.16811739 0.34601434 0.21384862]
+[     0.0s]   banked closed-form FREQ (a,b,A,B) = [0.27201965 0.16811739 0.34601434 0.21384862]
+[     0.0s] GATE G0 Perron freq vector matches banked closed form phi,sqrt(phi): PASS  max|diff|=5.55e-17
+[     0.0s] GATE G0b Perron growth rate matches phi^1.5 = phi*sqrt(phi): FAIL  perron=3.6762050160 phi^1.5=2.0581710273
+[     0.0s]   TARGET_IDS = [np.float64(0.272019649514069), np.float64(0.44013703852159747), np.float64(0.7861513777574233)]
+[     0.0s] == STEP 1: gap-opening slopes, two seeds, depths 7..11 ==
+[    17.9s]   depth= 7 N=   12069  seedA: s1=0.193046 s2=0.154909 r=1.246187  seedB: s1=0.190674 s2=0.155452 r=1.226576  [17.9s]
+[    69.8s]   depth= 8 N=   44368  seedA: s1=0.191684 s2=0.152657 r=1.255648  seedB: s1=0.188898 s2=0.152596 r=1.237896  [51.9s]
+
+============================================================================
+RUN TERMINATED EARLY (time-budget / environment-contention decision).
+============================================================================
+The compute.py depth sweep (depths 7..11, two seeds, windowed LAPACK
+eigensolves) was started as a background process. At the point this cell's
+turn budget forced a verdict, only depths 7 and 8 had completed (killed
+after depth 8, PID 26348). The machine was running >10 other B771 Wave-2
+cells concurrently (visible via `ps aux`), which slowed the windowed
+diagonalizations well below the single-process benchmark timing measured
+before launch (17s/call unloaded vs the observed 52s for depth 8's block
+under contention). depth-9 (the depth at which the ORIGINAL run first
+reported convergence to 1.204) and depths 10-11 (the NEW depths this cell
+intended to add) did not complete.
+
+PARTIAL DATA OBTAINED (this cell, independent recomputation):
+  depth 7 (N=12069):  seedA r=1.246187  seedB r=1.226576
+  depth 8 (N=44368):  seedA r=1.255648  seedB r=1.237896
+These are CONSISTENT with the banked FINDINGS.md Movement XXXIII
+self-correction, which explicitly flags depth 7-8 as PRE-CONVERGENCE
+("ratio 1.27 at depth 8" is named there as an artifact; convergence to
+1.204 is only claimed at depth 9, N=163106). This cell's independent
+numbers reproduce that same non-monotonic pre-convergence pattern
+(1.246 -> 1.256, moving AWAY from 1.204, not yet turned over) -- an
+independent confirmation of the qualitative claim "depths 7-8 are not
+converged," but this cell did NOT reach depth 9 to confirm the 1.204
+convergence value itself, and did NOT reach the new depths 10-11 this
+cell was designed to add for extra precision.
+
+DISCRIMINATING FACT computed in-cell (the actionable finding of this run):
+  Seed-to-seed disagreement (eps-grid A vs eps-grid B, same depth) is
+  itself ~1-2% (e.g. depth 8: 1.2556 vs 1.2379, differ by ~1.4%). This
+  bounds the ACHIEVABLE PRECISION of this whole numerical route at
+  1-2 SIGNIFICANT DIGITS per depth, before even reaching the N->infinity
+  extrapolation. Combined with the ORIGINAL run's own finding that the
+  ratio only stabilizes in the THIRD digit between depth 8 and depth 9
+  (1.204 vs an implied depth-8 value near 1.27 per the self-correction
+  note), the honest ceiling on this method's precision is ~3-4
+  significant digits even at full convergence. The sealed tolerance-
+  height PSLQ rule requires >=15 honest agreement digits (tol=10^-(agree-14)
+  with agree>=15 for a nonvacuous, non-forced tolerance). 3-4 digits is
+  roughly 4x short of that floor. This is the discriminating fact against
+  a confident identification via this numerical route, independent of
+  which depths get completed: THE METHOD'S OWN NOISE FLOOR (seed
+  disagreement + depth-to-depth drift), not merely insufficient runtime,
+  is the binding obstruction.
+
+VERDICT: UNRESOLVED (=> EXTERNAL).
+Obstruction (two-part, both independently sufficient):
+  (a) OPERATIONAL: depth 9-11 recomputation did not complete in the
+      available turn budget under heavy environment CPU contention from
+      parallel B771 Wave-2 cells; re-running compute.py standalone
+      (outside the batch window) would let it finish (est. 15-45 min
+      unloaded based on the pre-launch benchmarks in this cell's history).
+  (b) STRUCTURAL (the deeper one -- would apply even with unlimited
+      runtime): this observable (a finite-size linear-response slope of a
+      Cantor-spectrum tight-binding chain) has NO known closed-form
+      perturbative expression in the banked B530 machinery (FINDINGS.md
+      Movement XXXIII item 6 names this explicitly: "should be derivable
+      from the substitution's trace-map dynamics" but the 4-letter
+      trace map "hasn't been worked out"). Without that derivation, the
+      only route to the ratio is finite-N diagonalization + finite-eps
+      linear fit, and BOTH seeds/depths tried here (and in the original
+      Movement XXXIII run) show this route saturates at ~3-4 significant
+      digits -- far short of the sealed tolerance-height rule's >=15-digit
+      floor for a trustworthy PSLQ hit. The already-refuted candidate
+      sqrt(1/phi^2+1)=1.176 (2.4% off) is the base-rate proof: at 2-3
+      digit precision, "close-looking" golden-family numbers are
+      abundant and not discriminating.
+NEXT STEP (external): either (i) derive the multi-letter substitution's
+trace map exactly (a genuine open mathematical problem, not a compute
+budget problem) to get an exact perturbative slope formula, enabling
+arbitrary-precision PSLQ; or (ii) re-run this cell's compute.py standalone
+with a dedicated time/CPU slot to at least confirm depth 9-11 numerically
+and tighten the Aitken-extrapolation error bar (this would likely still
+plateau at ~4-5 digits, per (b), but is worth doing to close out the
+operational half of the obstruction).

@@ -70,3 +70,47 @@ def test_wave_integrity():
         assert cells[i]["verdict"] in ("RESOLVED-A", "RESOLVED-B")
         assert (ARC / "cells" / i / "compute.py").exists()
         assert (ARC / "cells" / i / "output.txt").exists()
+
+
+# ---- Wave 2 locks -------------------------------------------------------------
+
+
+def test_w2_148r_resolvent_norm_frozen():
+    # the exact structure behind the refutation: |sum_j omega^j (z^k + z^-k)| = 3 in Q(zeta27),
+    # i.e. the Z/3 resolvent of the Chebyshev triple is 3*(a root of unity) -- norm 9, not 27
+    z = sp.exp(2 * sp.pi * sp.I / 27)
+    omega = sp.exp(2 * sp.pi * sp.I / 3)
+    res = sum(omega**j * (z ** (10**j % 27) + z ** (-(10**j) % 27)) for j in range(3))
+    assert abs(sp.N(sp.Abs(res) - 3, 60)) < sp.Float(10) ** -50
+    # the level-9 anchor is 3*zeta9^-1 in disguise: zeta9 + zeta9^4 + zeta9^7 = 0
+    z9 = sp.exp(2 * sp.pi * sp.I / 9)
+    assert abs(sp.N(z9 + z9**4 + z9**7, 60)) < sp.Float(10) ** -50
+
+
+def test_w2_148r_sqrt3_counterfactual_excluded():
+    # (z^9 - z^18)^2 = -3 exactly: the unique quadratic subfield of Q(zeta27) is Q(sqrt(-3)),
+    # so sqrt(3) is not in the field and the N = 12*sqrt(3) rescue cannot exist
+    z = sp.exp(2 * sp.pi * sp.I / 27)
+    assert abs(sp.N((z**9 - z**18) ** 2 + 3, 60)) < sp.Float(10) ** -50
+
+
+def test_w2_197_weights_are_odd_phi_powers():
+    # the six closed-formed kappa=10 weights: {phi^1, phi^-1, phi^3, phi^-3, 4phi^1, 4phi^-1}/(10 sqrt 5)
+    phi = (1 + sp.sqrt(5)) / 2
+    weights = [phi, 1 / phi, phi**3, 1 / phi**3, 4 * phi, 4 / phi]
+    scaled = [sp.nsimplify(w / (10 * sp.sqrt(5))) for w in weights]
+    assert len(set(scaled)) == 6  # six distinct values, all exact in Q(sqrt5)
+    for s_ in scaled:
+        assert sp.simplify(sp.expand(s_ * 10 * sp.sqrt(5)) - sp.expand(weights[scaled.index(s_)])) == 0
+
+
+def test_wave2_integrity():
+    d = json.loads((ARC / "wave2_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 13
+    upheld = [i for i, c in cells.items() if c["upheld"]]
+    assert sorted(upheld) == ["W2-020", "W2-140", "W2-148r", "W2-174", "W2-197", "W2-237"]
+    refused = [i for i, c in cells.items() if c["upheld"] is False]
+    assert len(refused) == 7
+    for i in upheld:
+        assert (ARC / "cells" / i / "compute.py").exists()
