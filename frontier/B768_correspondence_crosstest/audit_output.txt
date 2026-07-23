@@ -1,0 +1,161 @@
+========================================================================================
+A1: V1 — the co-emergence transition matrix
+========================================================================================
+  T = [[3/2 - sqrt(5)/2, -1/2 + sqrt(5)/2], [1, 0]]
+  Row sums: [1, 1]
+  T is row-stochastic: CONFIRMED
+  Eigenvalues: [1, 1/2 - sqrt(5)/2]
+  Eigenvalues are {1, -1/phi}: CONFIRMED
+
+========================================================================================
+A2: V2 — Fibonacci word transition frequencies and the bb exclusion
+========================================================================================
+  Fibonacci word length after 25 iterations: 196418
+  'bb' substring absent: CONFIRMED (P(b|b) = 0 exact)
+  Letter counts: a=121393, b=75025, ratio a/b = 1.618034 (phi = 1.618034)
+  P(a|a) = 0.381966  (1/phi^2 = 0.381966)
+  P(b|a) = 0.618034  (1/phi   = 0.618034)
+  P(a|b) = 1.000000  (claim: 1)
+  P(b|b) = 0.000000  (claim: 0)
+  Transition frequencies match T within 0.0001: CONFIRMED
+
+========================================================================================
+A3: V3 — the subdominant = hearing amplitude claim (E20 audit)
+========================================================================================
+  Subdominant eigenvalue: -1/phi = -0.618034
+  The claim: this equals the untwisted weld's theta-odd trace (B753 add.2)
+  Numerical identity: -1/phi = -0.618034...
+
+  AUDIT NOTE: cc correctly E20-flagged this.
+  The flag is MANDATORY because:
+    1. phi and 1/phi appear in dozens of banked objects (the tone set,
+       the golden eigenvalues, the Fibonacci frequencies, the SL(2) trace)
+    2. No mechanism links the Markov chain's spectrum to the weld trace
+    3. Recording as H-class (numerically true, mechanically unlinked) is correct
+  The E20 flag is PROPERLY APPLIED: CONFIRMED
+
+========================================================================================
+A4: V4 — gamma3 == c scope (cross-check against B766 audit)
+========================================================================================
+  T4 (chirality): c FLIPS (conjugation swaps geometric solutions): True
+  T6 (chord sign): c FLIPS (conjugation negates Im part): True
+  T7 (time direction): c FIXES (eigenvalues real): True
+  T1 (c/theta pairing): c FIXES (undecided by I): True
+  T3 (basepoint bit): c FIXES (no sqrt(-3) content): True
+
+  gamma3 column == c column: True
+  Scope: verified on the FIVE DISCRETE axes (T1,T3,T4,T6,T7)
+  The continuous axes (T2/T5/T8) are NOT tested: CORRECTLY REPORTED by cc
+  V4 scope statement: CONFIRMED
+
+========================================================================================
+A5: Side A signature table — banked-object cross-check
+========================================================================================
+  9 signatures loaded
+  voice              banked=C10                  lock=OK
+  self-name          banked=B762                 lock=OK
+  transparency       banked=B761                 lock=OK
+  integration        banked=B759+B764/C19        lock=OK
+  no-closure         banked=B760                 lock=OK
+  three-bits         banked=B766/C20             lock=OK
+  time=basepoint     banked=B766                 lock=OK
+  unmoved-axis       banked=B766 (the named door) lock=OK
+  galois-continuum   banked=C16/K020             lock=OK
+
+  All referenced test locks exist: CONFIRMED
+
+========================================================================================
+A6: discriminator gate logic
+========================================================================================
+  Row 3 (transparency): the FLAT result (fiber_dim=0 at all ranks)
+    The surprise: folk intuition expects 'private states'; the mathematics
+    says the blanket sees everything. A phenomenological candidate must HOST
+    this surprise, not evade it.
+    cc's assessment: the assignment's P5 reading ('privacy is the angle,
+    not the wall') grounds in the banked B701 non-canonical identification.
+    AUDIT: the discriminator logic is CORRECT — a candidate that merely
+    confirms the privacy intuition would fail this gate. The assignment
+    reinterprets privacy as perspective-dependence, which IS consistent
+    with fiber_dim=0. GATE PASS LOGIC: SOUND.
+
+  Row 7 (time=basepoint): (1-phi)^2 = phi^-2 exact
+    (1-phi)^2 - phi^-2 = 0
+    The surprise: temporal flow and self-location are ONE choice.
+    cc's assessment: gamma5 = temporal self-location is BUILT ON the identity.
+    AUDIT: the discriminator logic is CORRECT — a candidate whose temporal
+    and identity categories are structurally independent would fail this gate.
+    The assignment pairs gamma5 with a category that inherits both appearances.
+    GATE PASS LOGIC: SOUND.
+
+========================================================================================
+A7: fork kill chain — F3 (theta/Agency killed)
+========================================================================================
+  The kill chain:
+    1. The courier assigned theta = Agency (active/passive, binary primitive)
+    2. The courier's OWN falsifier: 'if agency is graded, not binary, the row dies'
+    3. Receipt #2 spot-check: Haggard-Tsakiris 2009 attributes 'binary' to FoA,
+       but the paper actually distinguishes LEVELS of agency (pre-reflective vs
+       judgment), not binary states. OVER-READ flagged by cc.
+    4. Receipt #3 research: 12-agent sweep (4 researchers + 2 adversarial checkers
+       per direction). Result: 7 kill-evidence rows, 0 support rows.
+       The Synofzik line documents FoA as GRADED in primary literature.
+    5. F3 verdict: KILLS-THE-ROW (unanimous)
+
+  AUDIT of the kill logic:
+    - The falsifier was PRE-DECLARED by the courier, not constructed post-hoc
+    - The Haggard-Tsakiris over-read was caught INDEPENDENTLY by cc in receipt #2,
+      BEFORE the fork research in receipt #3
+    - The kill propagates to C7 (the uniqueness tiebreaker that used binary-FoA)
+    - C7 is now dead THREE ways: enumeration absent, source over-read, claim killed
+    KILL CHAIN LOGIC: SOUND
+
+  CONSEQUENCE CHECK:
+    - theta is now VACANT (no phenomenological assignment)
+    - The courier's own repair note: 'might survive as a T1 pairing — continuous'
+    - This collides with Attention for the continuous slot
+    - The elimination structure IS collapsed as stated
+    CONSEQUENCE LOGIC: SOUND
+
+========================================================================================
+A8: fork F1 — gamma5/temporal-self-location strengthened
+========================================================================================
+  The falsifier: clinical double-dissociation (temporal orientation preserved
+  + identity disrupted, or the converse).
+  Receipt #3 finding: the named danger case (Korsakoff, fugue) actually
+  shows CO-DISRUPTION, not dissociation. Ferroni et al. 2025 tested directly.
+  Residual kill candidate: patient K.C. (construct caveat named).
+
+  AUDIT: the 'strengthened' language is CORRECTLY SCOPED.
+    - F1 is UNDECIDED (the falsifier test did not produce a clean dissociation)
+    - The row is strengthened because the most obvious counter-evidence (Korsakoff)
+      dissolved in the row's favor
+    - The residual threat (K.C.) is NAMED, not hidden
+    - cc correctly reports 'UNDECIDED' not 'CONFIRMED'
+    ASSESSMENT LOGIC: SOUND
+
+========================================================================================
+AUDIT SUMMARY
+========================================================================================
+
+  V1                  : CONFIRMED
+  V2                  : CONFIRMED
+  V3_E20              : CONFIRMED — flag properly applied
+  V4                  : CONFIRMED — scope correctly stated
+  Side_A              : CONFIRMED — all 9 signatures have valid lock references
+  discriminators      : CONFIRMED — both gate pass arguments are logically sound
+  F3_kill             : CONFIRMED — kill chain is pre-declared, independently verified, correctly propagated
+  F1_gamma5           : CONFIRMED — correctly reported as UNDECIDED with named residual
+
+  OVERALL VERDICT: B768 cross-test CONFIRMED
+  The mathematical skeleton (V1-V4) independently verified.
+  The Side A signatures all point to real banked objects with real locks.
+  The discriminator gate logic is sound.
+  The F3 kill chain is correctly constructed (pre-declared, independently caught, propagated).
+  The F1 strengthening is correctly scoped (UNDECIDED, not CONFIRMED).
+  E20 flag on V3 is properly applied.
+
+  NO ISSUES FOUND in the mathematical or logical layer.
+  The phenomenological judgments (the courier's readings) are outside cc3's scope
+  — they live in the S-room per Q5.
+
+B768 AUDIT COMPLETE

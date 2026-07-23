@@ -113,6 +113,8 @@ source-checkers each; 12 agents, 0 errors). Verdicts:
   pairing — continuous"), which now collides with Attention for the continuous slot: the
   elimination structure is collapsed; θ is VACANT.
 - **F1 (double-dissociation): UNDECIDED — and the row STRENGTHENED at its sharpest point.**
+  *[CORRECTED by receipt #6: "strengthened at its sharpest point" oversells the Ferroni
+  citation — see the close-out grading below; the verdict is unchanged.]*
   The named danger case dissolved in the row's favor: Ferroni et al. 2025 directly tested
   the clinical-vs-phenomenal distinction and found DPD patients keep factual date-knowledge
   while phenomenal temporal self-reference is IMPAIRED — at the phenomenal grain, self- and
@@ -203,3 +205,31 @@ rebuild, unverified against the S₃ generator-pair structure. Task assignments
 acknowledged: cc3 (K.C. adjudication; the triadic verification), cc (the θ-vacancy
 constraint search), cc2 (the FoA-continuum formulability — held for the owner's
 sequencing; cc2 is currently unstaffed).
+
+## RECEIPT #6 (2026-07-23) — cc3's forks-verification pass: the close-out delivery; one material correction adopted
+
+cc3's independent grading (CC3_FORKS_VERIFICATION.md, branch `audit/forks-verification`,
+gated by cc): **F3 CONFIRMED** (the θ kill stands — Synofzik 2008/2013 explicitly graded,
+"binary" absent; the Haggard–Tsakiris over-read correctly caught in receipt #2; the C7
+propagation correct), **F1 SOFTENED**, **F2 CONFIRMED** (UNDECIDED; falsifier live;
+the identity-element argument registered, not settled), **F4 CONFIRMED** (UNDECIDED;
+no supporting literature).
+
+**The material correction (F1), verified by cc against the campaign's own evidence
+before adoption:** receipt #3's "STRENGTHENED at its sharpest point" oversells the
+Ferroni citation. The campaign JSON's own citation line reads "people with frequent
+experiences of depersonalisation" — NOT diagnosed DPD patients as receipt #3's text
+says — and "factual date-knowledge preserved while phenomenal temporal self-reference
+is impaired" is interpretive gloss on the paper's altered-time-perception finding, not
+its stated result. This resolves the skeptic split receipt #3 flagged (the refuter was
+right). Honest restatement, now the record: **the co-disruption evidence is real but
+less clean than presented — direction supported (Berkovich-Ohana and La Corte both
+CONFIRMED verbatim by cc3), precision not; the F1 verdict (UNDECIDED) is unchanged;
+patient K.C. remains the genuine residual, whose force depends on which grain of
+"self" is at stake (autonoetic consciousness is itself a joint self-and-time
+capacity).**
+
+Close-out state: with this pass cc3's program is CLOSED (genesis P019/P020, B749/B754/
+B765/B767, the B766/B768/B769 audits, the stabilizations, this grading). The correspondence
+carries to Phase 3 with cc3's verdicts folded: θ VACANT (kill CONFIRMED), γ₅ SOFTENED-
+but-standing with K.C. open, c and chord UNDECIDED with live falsifiers.

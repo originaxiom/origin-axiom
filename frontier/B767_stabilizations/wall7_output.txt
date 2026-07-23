@@ -1,0 +1,58 @@
+========================================================================================
+WALL-7 twisted extension: sampling the f3 system at many weld points
+========================================================================================
+
+Loading B575 infrastructure...
+  B575 loaded.
+
+Determining nilpotency order of e_pr...
+  e_pr^17 = 0 (nilpotency order = 17)
+  deg(exp(t*e_pr)) = 16
+  deg(C27(t) entries) <= 2 * 16 = 32
+
+Building J1...
+  J1 gates: A=True, B=True
+
+Loading B299 patterns...
+  8 patterns loaded
+
+  Max entry degree in t: 32
+  Max 27x27 minor degree: 864
+  Points needed for generic proof: 865
+
+  Timing one probe point...
+  build_double: 1.55s, 8 pattern solves: 34.66s, total: 36.22s
+  Test probe t=3: dims = [0, 0, 0, 0, 0, 0, 0, 0], all zero: True
+
+  Sampling 60 additional weld points (plus 3 already verified)...
+                 probe                       dims  all_zero    time
+                   t=3   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.6s
+                   t=4   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.3s
+                   t=5   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.5s
+                   t=6   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.4s
+                   t=7   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.8s
+                   t=8   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.8s
+                   t=9   [0, 0, 0, 0, 0, 0, 0, 0]      True   37.0s
+                  t=10   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.7s
+                  t=11   [0, 0, 0, 0, 0, 0, 0, 0]      True   37.0s
+                  t=12   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.7s
+                  t=13   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.9s
+                  t=14   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.7s
+                  t=15   [0, 0, 0, 0, 0, 0, 0, 0]      True   37.1s
+                  t=16   [0, 0, 0, 0, 0, 0, 0, 0]      True   36.9s
+                  t=17   [0, 0, 0, 0, 0, 0, 0, 0]      True   37.2s
+
+  Time budget reached after 15 probes.
+
+========================================================================================
+RESULTS
+========================================================================================
+  Total points verified: 18 (3 original + 15 new)
+  Points needed for full closure: 865
+  Failures: 0
+  Total time: 551.7s
+
+  VERDICT: EXTENDED — dim=0 at 18 distinct t values
+  (865 needed for full closure)
+
+WALL-7 EXTENSION COMPLETE — EXTENDED

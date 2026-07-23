@@ -1,5 +1,3 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
-  warnings.warn('Plink failed to import tkinter, GUI will not be available')
 
 ========================================================================================
   CELL 1 — B489: Binet induction (stabilization of the n=1..8 check)

@@ -7609,3 +7609,23 @@ it must not widen the bet. Their genuinely new contributions: the OpenTimestamps
 (amended to the pin), upādāna, the D₅=Spin(10) check, the delivery criteria (absorbed
 into Phase 5). Their plan lacks the walls phase and the null/T1-mover/H-WORD-WELD
 structural cells — kept from cc's design. Sequencing stands: cc3's close-out first.
+
+## 2026-07-23 — cc3's program CLOSED: the forks-verification close-out gated; one material correction adopted (receipt #6)
+cc3's close-out delivery (branch audit/forks-verification) gated by cc after
+verification: F3 CONFIRMED (the θ kill stands), F1 SOFTENED, F2/F4 CONFIRMED.
+The one material correction — receipt #3's "strengthened at its sharpest point"
+oversells Ferroni 2025 (frequent-DP participants, not diagnosed DPD; the
+preserved/impaired framing is interpretive gloss) — was verified by cc against
+the campaign's own evidence JSON (the citation line itself says "frequent
+experiences of depersonalisation") and adopted as B768 receipt #6, with a
+correction marker at receipt #3. The F1 verdict (UNDECIDED) is unchanged; K.C.
+remains the genuine residual. Also gated: cc3's B768 audit (CONFIRMED, 13 locks),
+B769 audit (CONFIRMED, 7 locks; C21 minting independently supported), and the
+WALL-7 twisted extension (18/865 points, all dim=0 — Phase 1 quartet material,
+moved to frontier/B767_stabilizations/). One process violation handled: a relay
+file at repo root in audit/b768-correspondence was cherry-picked around (relay
+files never enter the tree). With this, cc3's program is CLOSED. The census
+(B770, running) will fold these verdicts at synthesis. Gate hygiene: one
+environment-warning line (absolute pyenv path) stripped from B767's output.txt
+with a SEAL_LEDGER transform row (verdict-cited by name, not hash-pinned;
+computed content unchanged).
