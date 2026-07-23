@@ -1,5 +1,8 @@
 # Changelog
 
+## Review 29 — the verification window (anchor 58e9add3)
+- 21 merges audited on a gold-standard day (2730/0 + slow tier 102/0 first-ever + rule 1b clean). C18 priced; the chain self-corrected once by sealed prediction; the hunt complete; 14+ safety catches all ruled. Six action items.
+
 ## B765 — the P3 depth stratum: the hunt completes (8 CLOSED / 6 HELD / 7 EXPOSED)
 - The E22 lesson applied to all 21 depth-flagged kills; the depth-closure backlog named (7 items, stabilization paths known, none executed — "not wrong, underproved") and registered as R28-10. The three strata are done: earned, spectral, depth. Gate: re-exec identical, 13 locks, seal convention verbatim.
 
