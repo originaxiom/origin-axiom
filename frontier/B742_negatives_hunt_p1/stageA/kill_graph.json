@@ -3,7 +3,7 @@
   {
    "id": "B52",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The naive three-channel Fibonacci nearest-neighbor tight-binding model supplies the physics bridge to PC12's 3x3 SL(3) character-variety recursion.",
    "kill_form": "kind-mismatch",
@@ -21,7 +21,7 @@
   {
    "id": "B56",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B56_figure_eight_invariant_surface/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B56_figure_eight_invariant_surface/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The figure-eight knot sits on the self-evidencing surface I=1/4, linking it to the c=1 Eisenstein structure (holonomy/I=1/4 bridge).",
    "kill_form": "value-mismatch",
@@ -39,7 +39,7 @@
   {
    "id": "B57",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B57_general_m_splitting/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B57_general_m_splitting/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: verdict PRODUCES-PROOF-MODULE (positive classification of quartic splitting for m=1..6); atlas miner tripped on the subordinate 'Killed Speculation' note (class-number match coincidence).",
    "kill_form": "other",
@@ -55,7 +55,7 @@
   {
    "id": "B58",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B58_sl4_tower_test/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B58_sl4_tower_test/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the SL(4) 7-factor tower prediction can be tested numerically at all: the representation-perturbation route is killed as computing the wrong object, so 'the prediction cannot be tested numerically'.",
    "kill_form": "category-error",
@@ -74,7 +74,7 @@
   {
    "id": "B59",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B59_sl4_factorization/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B59_sl4_factorization/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "PC12's open prediction that the SL(4) fixed-line Jacobian is 1 parity factor + 7 char(M^k) (the (n^2-1-parity)/2 formula); actual: 3 parity + 5 char(M^k) + char(-M^2).",
    "kill_form": "value-mismatch",
@@ -92,7 +92,7 @@
   {
    "id": "B60",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B60_sln_tower/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B60_sln_tower/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: verdict PRODUCES-RESULT (n=3,4 cross-n tower map); the SL(5) 'cond ~1e11 barrier' negative was rediagnosed in-file by B61 (rank-23 word set; 22/24 resolved) - superseded, not a live kill.",
    "kill_form": "other",
@@ -108,7 +108,7 @@
   {
    "id": "B62",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B62_opposition_involution/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B62_opposition_involution/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: verdict 'CONFIRMED as a LIVE STRUCTURAL RESULT' completing the SL(5) fixed-line factorization; atlas miner tripped on the subordinate line 'The numerical route is dead (re-verified)'.",
    "kill_form": "other",
@@ -124,7 +124,7 @@
   {
    "id": "B66",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B66_sl6_tower/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B66_sl6_tower/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The tower multiplicity formula max(n-d,1) for odd-k degree-d=3 char(M^k) factors (predicting multiplicity 3 at n=6); the computed |k|=3 multiplicity is 2, same as SL(5).",
    "kill_form": "value-mismatch",
@@ -142,7 +142,7 @@
   {
    "id": "B77",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B77_degree_rank_mechanism/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B77_degree_rank_mechanism/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "A-D unification: degree=rank is the geometric shadow of the Dickson tower's top factor char(M^n), i.e. meridian/longitude eigenvalues are the roots of char(M^n).",
    "kill_form": "genericity",
@@ -160,7 +160,7 @@
   {
    "id": "B84",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B84_sl5_gauge_barrier/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B84_sl5_gauge_barrier/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "I1: the SL(5) pinv-limit tower scatter is a fixable gauge/basis artifact \u2014 basis-canonicalization (theta-split) or seed-averaging would recover the tower.",
    "kill_form": "value-mismatch",
@@ -178,7 +178,7 @@
   {
    "id": "B87",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B87_m3_genus/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B87_m3_genus/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The metallic spectral-curve genus sequence decreases 3\u21921\u21920 ('gauge theories of decreasing rank'); also V33's looser claim that m=3 irrationality forces genus \u22652.",
    "kill_form": "value-mismatch",
@@ -196,7 +196,7 @@
   {
    "id": "B90",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B90_degree_rank_peripheral/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B90_degree_rank_peripheral/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The degree=rank exponent mechanism: exponent = rank because of A's degree-n Cayley\u2013Hamilton, via the L1a+L1b reduction (L1a also killed as a tautology, not constraint content).",
    "kill_form": "value-mismatch",
@@ -214,7 +214,7 @@
   {
    "id": "B101",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B101_hitchin_reframing/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B101_hitchin_reframing/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The 'tower of spacetimes up the ranks' / phase-space-dimension '3+1D at SL(3)' idea: Lorentzian signature recurs up the principal symmetric-space ladder.",
    "kill_form": "kind-mismatch",
@@ -232,7 +232,7 @@
   {
    "id": "B107",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B107_physics_connection_audit/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B107_physics_connection_audit/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The metallic tower spectrum is new physics (operator anomalous dimensions / masses); killed as re-presented moduli-space monodromy carrying the single scale log phi.",
    "kill_form": "category-error",
@@ -250,7 +250,7 @@
   {
    "id": "B111",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B111_sign_structure/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B111_sign_structure/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: headline is a POSITIVE structural result (sign structure = theta closed form + one degree=rank promotion); atlas trips on sub-items ('TESTED-NEGATIVE', 'bridge DEAD').",
    "kill_form": "other",
@@ -266,7 +266,7 @@
   {
    "id": "B120",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B120_tower_determination/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B120_tower_determination/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: a positive determination/correction arc (tower = tower(n; trace, det); prize reframed as plethysm). Atlas 'dead' trips on 'wrong' from three corrected handoff formulas.",
    "kill_form": "other",
@@ -282,7 +282,7 @@
   {
    "id": "B128",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B128_symmetry_breaking_chirality/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B128_symmetry_breaking_chirality/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "K-F: the single-torsion Z/n -> SU(n) center -> gauge-group bridge (broken vacuum = single torsion); torsion tracks periodicity/symmetry-order, not chirality.",
    "kill_form": "value-mismatch",
@@ -300,7 +300,7 @@
   {
    "id": "B132",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B132_quantum_layer/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B132_quantum_layer/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: banks positive quantum-layer results (K015/K016, Lee-Yang S030 upgrade). Atlas tripped on the B133 correction banner (WITHDRAWN / tombstone K-H); that kill is banked via B133, not here.",
    "kill_form": "other",
@@ -316,7 +316,7 @@
   {
    "id": "B140",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B140_compute_reconciliation/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B140_compute_reconciliation/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "B139-G hedge: that genus >= 2 is where chirality stops being a mere CS-sign \u2014 killed: mirror M-bar shares every standard orientation-independent invariant at all genus; only CS flips.",
    "kill_form": "other",
@@ -334,7 +334,7 @@
   {
    "id": "B146",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B146_b145_calibration/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B146_b145_calibration/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "B145's arithmetic arm: 'every quadratic-trace-field o-p-t bundle is amphichiral / no arithmetic chiral o-p-t bundle' \u2014 killed: RRL/RLL are chiral with invariant trace field Q(sqrt-7).",
    "kill_form": "value-mismatch",
@@ -353,7 +353,7 @@
   {
    "id": "B154",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B154_silver_bundle_foundation/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B154_silver_bundle_foundation/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: positive foundation arc (degree=rank generalizes; meridian mu=A^-m t derived). Atlas tripped on the B157 correction banner ('REFUTED') in its header; the kill is banked in B157.",
    "kill_form": "other",
@@ -369,7 +369,7 @@
   {
    "id": "B157",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B157_metallic_exponent/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B157_metallic_exponent/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The closed form k = 4 - m(o-3) for the metallic degree=rank exponent (and any <=3-parameter affine/modular law on the grid); bronze m=3 gives k=3 at o=4 and k=1 at o=6, not 1 and -5.",
    "kill_form": "value-mismatch",
@@ -387,7 +387,7 @@
   {
    "id": "B161",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B161_cancellation_locus_stratification/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B161_cancellation_locus_stratification/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: banks the positive structural finding S034 (kappa=2 cancellation codim-1/non-generic, kappa>2 generic Cantor). The in-text 'refuted' only retires its own over-strong 'forced/empty' phrasing.",
    "kill_form": "other",
@@ -404,7 +404,7 @@
   {
    "id": "B177",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B177_metabolism_test/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B177_metabolism_test/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "H3: kappa>2 order is metabolic / flux-sustained, starving when unfed (a self-maintaining cell). Killed: the object is a conservative, reversible crystal/horseshoe; metabolism/arrow relocate external.",
    "kill_form": "kind-mismatch",
@@ -422,7 +422,7 @@
   {
    "id": "B192",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B192_sln_higher_rank/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B192_sln_higher_rank/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Metallic SL(n) Lyapunov spectrum is symmetric iff n even (parity law realizing V29) and the even-n symmetry is special to the metallic cocycle (163x vs generic).",
    "kill_form": "value-mismatch",
@@ -440,7 +440,7 @@
   {
    "id": "B200",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B200_chat1_handoff_verification/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B200_chat1_handoff_verification/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "R1: the doublon is a single-particle replica with kappa1=kappa2=3 at U=t (t_eff=2t^2/U so lambda_eff=lambda_single) \u2014 an 'interaction-level golden ratio' fixed point.",
    "kill_form": "value-mismatch",
@@ -459,7 +459,7 @@
   {
    "id": "B214",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B214_general_word_period_law/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B214_general_word_period_law/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: positive arc banking the general-word period law + conductor-split refinement; 'refuted/deflated' items are internal corrections of over-reads (atlas tripped on those keywords).",
    "kill_form": "other",
@@ -475,7 +475,7 @@
   {
    "id": "B216",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B216_period_law_f8_boundary/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B216_period_law_f8_boundary/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "No standing negative: its NEEDS-SPECIALIST wall ('f>=8 split is genus-theoretic, elementary exhausted') was OVERTURNED by B219 (V222) \u2014 elementary content law resolves f=8,16; atlas tripped on the banner's 'wrong'.",
    "kill_form": "other",
@@ -491,7 +491,7 @@
   {
    "id": "B219",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B219_period_content_law/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B219_period_content_law/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: positive resolution arc (L39 RESOLVED, P=lcm(t-2,t+2)/content verified exhaustively at f=8); 'wrong' in the text refers to B216's overturned verdict \u2014 a correction/positive arc.",
    "kill_form": "other",
@@ -507,7 +507,7 @@
   {
    "id": "B225",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B225_conductor_decomposition_test/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B225_conductor_decomposition_test/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The '2 = octahedral parent' half of chat1's conductor decomposition: figure-eight character-variety conductor 40=2^3*5 factors as (octahedral parent 2) x (golden filling 5).",
    "kill_form": "base-rate",
@@ -525,7 +525,7 @@
   {
    "id": "B237",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B237_silver_2O_l48/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B237_silver_2O_l48/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Silver (m=2) pi_1 carries a binary octahedral 2O quotient (the L48/H33 hypothesis from its Q(sqrt 2) trace field); also chat1's 'all metallic bundles carry 2T and 2I'.",
    "kill_form": "zero-intertwiner",
@@ -543,7 +543,7 @@
   {
    "id": "B239",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B239_reconciled_trace_field_law/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B239_reconciled_trace_field_law/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: reconciliation arc banking the positive unimodular trace-field law; 'wrong' is a hypothetical referee misreading; the exclusions (E7 parity, sqrt(-7) below -4 floor) are corollaries of the law.",
    "kill_form": "other",
@@ -559,7 +559,7 @@
   {
    "id": "B243",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B243_levelrank_conjugation_general/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B243_levelrank_conjugation_general/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The 'metallic ladder': the level-rank self-dual value V(m^2+2) lies in Q(sqrt(m^2+4)) for all m \u2014 golden (m=1) and silver (m=2) extend to a metallic family.",
    "kill_form": "value-mismatch",
@@ -577,7 +577,7 @@
   {
    "id": "B247",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B247_v1_holonomy_adjudication/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B247_v1_holonomy_adjudication/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "V1 handoff: C_{E6}(SU(2)_long)=SU(3)xSU(2)xU(1)^2 and the figure-eight geometric holonomy lives in SU(2)_long, so E6 breaks to the SM as a geometric consequence of the knot.",
    "kill_form": "kind-mismatch",
@@ -595,7 +595,7 @@
   {
    "id": "B252",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B252_chirality_obstruction/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B252_chirality_obstruction/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the figure-eight carries any intrinsic complex-conjugation-odd (chiral/CP-odd) datum letting it prefer 27 over 27-bar \u2014 an object-intrinsic source of matter chirality.",
    "kill_form": "zero-intertwiner",
@@ -613,7 +613,7 @@
   {
    "id": "B272",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B272_verification_and_gaps/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B272_verification_and_gaps/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: an adversarial verification record \u2014 core B262\u2013B271 math survived re-derivation, three framing overclaims corrected, gap/wall map extended. Correction/audit arc mis-classed by keyword mining.",
    "kill_form": "other",
@@ -629,7 +629,7 @@
   {
    "id": "B285",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B285_commutator_phase/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B285_commutator_phase/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-2's physics reading of the forced pi/6 commutator phase: it is the physical CP phase and yields the baryon asymmetry eta_B within ~1 order; also that the object supplies the CP sign.",
    "kill_form": "value-mismatch",
@@ -648,7 +648,7 @@
   {
    "id": "B294",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B294_selection_verdict/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B294_selection_verdict/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the seam closings select a distinguished SM-valued world: E6 lost on closing, CP sign external, scale value gapped, chiral datum absent \u2014 no closing is forced to be 'our universe'.",
    "kill_form": "no-landing-site",
@@ -666,7 +666,7 @@
   {
    "id": "B295",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B295_ssb_gauge_status/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B295_ssb_gauge_status/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-2's SSB loophole: the program's potential V(tau) is the tau-symmetric double-well that spontaneously breaks amphichirality and selects the CP sign in-sandbox.",
    "kill_form": "category-error",
@@ -684,7 +684,7 @@
   {
    "id": "B296",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B296_seam_arc_verification/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B296_seam_arc_verification/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: Arc II red-team + novelty audit of B287\u2013B295 \u2014 all probes SURVIVE, 0 refutations, two results strengthened. A verification/campaign record mis-classed by keyword mining.",
    "kill_form": "other",
@@ -700,7 +700,7 @@
   {
    "id": "B299",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B299_trinification_triality/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B299_trinification_triality/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "H-label = \u03c6-eigenvalue on the 27: the doublet-triplet/color split is forced by (\u03b8,\u03c6). \u03c6 acts freely \u2014 no per-weight eigenvalue exists; the color choice is external Wilson-line input.",
    "kill_form": "no-landing-site",
@@ -718,7 +718,7 @@
   {
    "id": "B305",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B305_eisenstein_trinification_grading/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B305_eisenstein_trinification_grading/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-1's cascade endpoint 'saddle u=i\u03c0/3 gives SU(3) color': surviving roots are A\u2081\u00d7A\u2081\u00d7A\u2081 = SU(2)\u00b3, and A\u2082 is impossible (needs a height-12 root, E\u2086 tops at 11).",
    "kill_form": "kind-mismatch",
@@ -736,7 +736,7 @@
   {
    "id": "B307",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B307_totally_real_obstruction/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B307_totally_real_obstruction/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Three symmetric generations from a single hyperbolic knot's cyclic-cubic (C\u2083) trace field \u2014 impossible: C\u2083 cubics are totally real, a hyperbolic knot's trace field always has a complex place.",
    "kill_form": "kind-mismatch",
@@ -754,7 +754,7 @@
   {
    "id": "B310",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B310_cascade_realization_exhausted/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B310_cascade_realization_exhausted/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The E\u2086 cascade as new object-specific content: equal \u03c0i/3 deformation spacing realized on 4\u2081's character variety and identified with the cusp shape \u2014 gaps are unequal and the cusp modulus is 2\u221a3\u00b7i, not \u03c0i/3.",
    "kill_form": "value-mismatch",
@@ -772,7 +772,7 @@
   {
    "id": "B313",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B313_fibonacci_bridge_and_no_forced_choice/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B313_fibonacci_bridge_and_no_forced_choice/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'The SM's chiral fermions are the Fibonacci anyons' (27 \u2192 7 = \u03c4): the actual branching is 27 \u2192 (7,3)+(1,6); the Fibonacci 7 comes tensored with color-3, the 27 is not a single anyon.",
    "kill_form": "value-mismatch",
@@ -790,7 +790,7 @@
   {
    "id": "B320",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B320_chat1_three_points/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B320_chat1_three_points/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-1's fusion 'firewall A and generations C are the same \u2124/3' plus 'the mod-7\u2192Fano\u2192G\u2082 chain selects color object-specifically': A is order 2, C is order 3; the chain is fiber-generic (Heawood 7; 2T \u2260 S\u2084).",
    "kill_form": "kind-mismatch",
@@ -808,7 +808,7 @@
   {
    "id": "B321",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B321_seam_geometry_adjudication/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B321_seam_geometry_adjudication/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'The CP phase \u03c0/6 is the core geodesic length of filling (6,3)=3\u00d7(2,1)': non-primitive slope (gcd 3), trivial Q(3z)=9Q(z) scaling, and an angle equated with a length \u2014 a dimensional splice.",
    "kill_form": "category-error",
@@ -826,7 +826,7 @@
   {
    "id": "B325",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B325_z3_protection_refuted/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B325_z3_protection_refuted/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-2's \u2124/3-protection: 'a \u2124/3-invariant cubic cannot split the light (1,\u03c9\u00b2) masses, so the CRUX relocates to Level 4' \u2014 the light modes are distinct 1-dim irreps; a \u2124/3-invariant circulant generically splits them.",
    "kill_form": "category-error",
@@ -844,7 +844,7 @@
   {
    "id": "B332",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B332_two_letters_two_ends/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B332_two_letters_two_ends/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: a correction/positive arc banking the verified identity g=-R*L^-1 and product/ratio = the two arithmetic ends; the dead hooks (1/4 suppression, 16=4+h(E6)) are quarantined asides, not the finding.",
    "kill_form": "other",
@@ -860,7 +860,7 @@
   {
    "id": "B334",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B334_seam_hilbert_class_field/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B334_seam_hilbert_class_field/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: banks the verified theorem H(Q(sqrt-15))=Q(sqrt5,sqrt-3); only the 137 numerology null test died; the file itself records the insight as VINDICATED by B401/P68 (first complete revival cycle).",
    "kill_form": "other",
@@ -876,7 +876,7 @@
   {
    "id": "B335",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B335_generation_symmetry_exact/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B335_generation_symmetry_exact/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The object contains the generation mass hierarchy \u2014 killed: the deck Z/3 is an exact isometry, so every real geometric invariant is Z/3-equal and masses are exactly degenerate; the hierarchy is external breaking.",
    "kill_form": "kind-mismatch",
@@ -895,7 +895,7 @@
   {
    "id": "B343",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B343_exact_tbm_irreducibility/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B343_exact_tbm_irreducibility/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The object selects a TBM-breaking direction (TM1/TM2, theta13 != 0) \u2014 killed: the deck Z/3 acts irreducibly (Phi3 irred mod 2), cycles all three Z2s, selects none; forced exact TBM theta13=0 is experimentally excluded.",
    "kill_form": "zero-intertwiner",
@@ -913,7 +913,7 @@
   {
    "id": "B360",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B360_seam_selection_rule/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B360_seam_selection_rule/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: a campaign arc \u2014 the pre-registered run pruned two parity readings but banked surviving silver-selectivity with a declared discriminator, sharpened same-day into B361's positive law.",
    "kill_form": "other",
@@ -929,7 +929,7 @@
   {
    "id": "B361",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B361_seam_local_law/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B361_seam_local_law/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: banks a positive exact law (bright iff the pair contains a doubly-elliptic seed; 8 pairs, zero counterexamples); the H-min refutation is internal pruning en route to the law.",
    "kill_form": "other",
@@ -945,7 +945,7 @@
   {
    "id": "B364",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B364_theta_polarization/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B364_theta_polarization/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "T-stability singles out the theta lift as THE geometric lift \u2014 killed by its own control: the square family is also T-stable with exactly the canonical lift's multiplier, so T-stability alone forces nothing.",
    "kill_form": "genericity",
@@ -963,7 +963,7 @@
   {
    "id": "B365",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B365_polarization_signature/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B365_polarization_signature/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Polarization selection happens at the S-closure level (triangular S-closed, square not) \u2014 killed: both closure fits fail; at odd level the S-transform forces the level-30 metaplectic sign-doubling for BOTH polarizations.",
    "kill_form": "finite-level-obstruction",
@@ -981,7 +981,7 @@
   {
    "id": "B367",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B367_value_map/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B367_value_map/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The level-15 value map s(m1,m2) factors through CRT-local data: both the B361 support law (bright iff a seed elliptic at both primes) and the V3 local-symbol product formula die at the declared complexity.",
    "kill_form": "value-mismatch",
@@ -999,7 +999,7 @@
   {
    "id": "B372",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B372_level45_sweeper/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B372_level45_sweeper/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: positive discovery arc \u2014 the prereg null (seam does not persist at 45) was REFUTED, seam persists and its arithmetic home GROWS; E16 promoted. Atlas tripped on REFUTED/kill keywords.",
    "kill_form": "other",
@@ -1015,7 +1015,7 @@
   {
    "id": "B373",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B373_level45_minimal_sector/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B373_level45_minimal_sector/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: measurement/data arc (E17 certified) \u2014 kill test returned MOVED (golden quasi-energy moved 108\u00b0\u219236\u00b0); its gapless extrapolation was corrected same-day by B374. Atlas tripped on kill/REFUTED words.",
    "kill_form": "other",
@@ -1031,7 +1031,7 @@
   {
    "id": "B374",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B374_level135_rung/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B374_level135_rung/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Three tower laws for the minimal invariant sector: pinned exponent \u00b16 (dies at N=135), pentagon-pair phase (dies at N=75, phase 90\u00b0), and sector existence itself (dies at N=225 \u2014 no invariant sector at mixed m=15).",
    "kill_form": "absence-at-depth-n",
@@ -1049,7 +1049,7 @@
   {
    "id": "B385",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B385_bright_dark_discriminator/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B385_bright_dark_discriminator/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That any cheap-layer invariant separates bright from dark pairs: \u03b3-group invariants, word-grid det-class stats, support closures, quasi-period presence, and the translation-kill draft all fail; criterion OPEN.",
    "kill_form": "other",
@@ -1067,7 +1067,7 @@
   {
    "id": "B389",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B389_mirror_mechanism/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B389_mirror_mechanism/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the banked mirror law t(a,\u2212b)=\u03c4\u2083(t(a,b)) is a shadow of group inversion: the inversion law t(\u2212a,\u2212b)=t(a,b) (M1) and the a-flip reduction (M2) fail on the banked table \u2014 the dihedral route is twist-blocked.",
    "kill_form": "value-mismatch",
@@ -1085,7 +1085,7 @@
   {
    "id": "B392",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B392_wall_probes/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B392_wall_probes/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The tricritical-Ising identification of the seam sector (T-spectrum; with the cited triangular-S no-match, dead at both S and T), the E\u2086\u2216F\u2084 exponent alignment for chirality, and the a\u22611 mod 15 support-walk prediction.",
    "kill_form": "value-mismatch",
@@ -1103,7 +1103,7 @@
   {
    "id": "B394",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B394_support_walk/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B394_support_walk/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Not a banked negative: discovery arc \u2014 both registered walk-rule candidates killed en route, but the banked outcome is THE UNIFIED SINGLES LAW ((1+c)/12, sum rule \u03a3=1), amending W5. Atlas tripped on kill/dead keywords.",
    "kill_form": "other",
@@ -1120,7 +1120,7 @@
   {
    "id": "B397",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B397_last_census_facts/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B397_last_census_facts/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the (2,3) half-group stabilization is local: pointwise sigma-19 fixing distinguishes nothing and no power-relabel intertwines sigma-19 for any pair; also the sigma-sqrt5 trace-conjugacy read as inter-model.",
    "kill_form": "zero-intertwiner",
@@ -1138,7 +1138,7 @@
   {
    "id": "B399",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B399_wall_scale/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B399_wall_scale/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The 1215-rung candidates CAND-FIX (12 cells) and CAND-DEG (36 cells) \u2014 both dead (actual 24); plus A2 wall: the singles tower cannot generate scale hierarchy (bounded, monotone contraction).",
    "kill_form": "value-mismatch",
@@ -1156,7 +1156,7 @@
   {
    "id": "B400",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B400_canonical_frame/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B400_canonical_frame/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That a canonical 3x3 frame links the golden seam line and the (2,3) Mercedes frame \u2014 the only choice-free common space puts them in disjoint spectral sectors with zero relative geometry.",
    "kill_form": "no-landing-site",
@@ -1174,7 +1174,7 @@
   {
    "id": "B401",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B401_sixth_angle/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B401_sixth_angle/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: a positive structural arc (class-group orbit confirmed, genus selection rules, cell-wise Eisenstein law); atlas tripped on 'KILLED' from a minor P2 sub-bet killed inside it.",
    "kill_form": "other",
@@ -1191,7 +1191,7 @@
   {
    "id": "B403",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B403_lead_package/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B403_lead_package/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The class-field prime-filter theorem: vacuous on denominators (DFT forces {2,3,5}-smooth regardless of class field theory) and refuted on numerators (inert 7, 13, 49 = 7^2 sit in seam channels).",
    "kill_form": "value-mismatch",
@@ -1209,7 +1209,7 @@
   {
    "id": "B405",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B405_supersingular_check/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B405_supersingular_check/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the supersingular alignment a7 = a23 = 0 for 15a1 carries structural content: #E = p+1 is automatic, controls p = 11,13,17,19 all give 16 (equally dressable, unfalsifiable), 2I dictionary unstatable.",
    "kill_form": "base-rate",
@@ -1227,7 +1227,7 @@
   {
    "id": "B406",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B406_two_conductor/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B406_two_conductor/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The 'modular correspondence = quantization map' lead: the mod-4 Hecke congruence a_p(15a1) = a_p(40a1) is forced by rational torsion of both curves; mod 8 nothing survives beyond torsion.",
    "kill_form": "base-rate",
@@ -1245,7 +1245,7 @@
   {
    "id": "B407",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B407_support_nesting/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B407_support_nesting/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "supp(sqrt-3) contained in supp(sqrt-15) as a universal per-pair law: true at (1,2) but (2,4) has both exclusives and (1,3) nests in reverse; also the phi-identity extension to 23 is an overclaim.",
    "kill_form": "value-mismatch",
@@ -1263,7 +1263,7 @@
   {
    "id": "B409",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B409_stratification_transport/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B409_stratification_transport/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "B407's count-conservation transport ('table anatomy = product stratification') as a universal law / separate Paper-1 theorem; it holds only where multiplicity <= 1 and folds into P67/M1.",
    "kill_form": "value-mismatch",
@@ -1281,7 +1281,7 @@
   {
    "id": "B411",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B411_field_dictionary/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B411_field_dictionary/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The naive dictionary: a cell's full H-field-type is a function of gamma-prime arithmetic invariants (chi_-3(det), chi_5(det), gcd(det,15)) \u2014 multi-valued on generic cells (6 H-types share the class-1 label).",
    "kill_form": "value-mismatch",
@@ -1299,7 +1299,7 @@
   {
    "id": "B412",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B412_tower_measure/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B412_tower_measure/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: a directional POSITIVE reframe (tower = mass-conserving Iwasawa-type measure). The word 'killed' refers to B408's prior scale-wall kill of HIERARCHY, not a new negative banked here.",
    "kill_form": "other",
@@ -1315,7 +1315,7 @@
   {
    "id": "B418",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B418_tw4_upstairs/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B418_tw4_upstairs/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "B411's hope that the mirror becomes cell-local upstairs: no Galois element of Gal(Q(zeta_60)/Q) realizes t(a,-b)=sigma_c(t(a,b)) on the raw table \u2014 emergence is intrinsic, not a Pi_H artifact.",
    "kill_form": "no-landing-site",
@@ -1333,7 +1333,7 @@
   {
    "id": "B428",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B428_upstairs_spin_walls/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B428_upstairs_spin_walls/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Fermion content upstairs: E6 level-1 has zero theta=-1 objects (27 is a Z/3 anyon, h=2/3), and the principal sl2 makes 78 and 27 all integer-spin \u2014 no spinorial matter via the forced bridge.",
    "kill_form": "kind-mismatch",
@@ -1351,7 +1351,7 @@
   {
    "id": "B433",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B433_3d3d_calibration/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B433_3d3d_calibration/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: a POSITIVE calibration (Coulomb branch = SL(2) character variety, verified exact, two independent routes). 'FAIL' in text refers only to the three wrong-convention controls; no kill banked.",
    "kill_form": "other",
@@ -1367,7 +1367,7 @@
   {
    "id": "B435",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B435_child_founding/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B435_child_founding/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: a positive founding computation (H1=Z/5; 26 abelian E6 vacua) later CORRECTED (#562). The kill of the 'birthmark/inheritance' reading is the trefoil control banked in B437, not here.",
    "kill_form": "other",
@@ -1383,7 +1383,7 @@
   {
    "id": "B437",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B437_child_abelian_book/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B437_child_abelian_book/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'The golden return' as INHERITANCE: the child's Q(sqrt5) abelian floor is numerator-forced (every knot at slope 5 gives Z/5 -> zeta_5 -> sqrt5), not the parent's golden memory \u2014 retracted by the trefoil control.",
    "kill_form": "genericity",
@@ -1402,7 +1402,7 @@
   {
    "id": "B440",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B440_foreign_vacuum_control/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B440_foreign_vacuum_control/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The child K(5,1) SL(2,C) vacuum spectrum carries a figure-eight-unique feature ('golden inversion'): 4_1 and 5_2 children both have 4 irreducible vacua in the same -283 field; golden chars are universal abelian Z/5.",
    "kill_form": "genericity",
@@ -1420,7 +1420,7 @@
   {
    "id": "B443",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B443_child_atlas/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B443_child_atlas/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'The Standard Model is what the object PRODUCES': falsified at every computable floor of the forced child 4_1(5,1) \u2014 exact-SM fails everywhere; nothing figure-eight-unique at any floor (tier 3 empty).",
    "kill_form": "absence-at-depth-n",
@@ -1440,7 +1440,7 @@
   {
    "id": "B444",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B444_sl3_field_control/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B444_sl3_field_control/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "SL(3) field Q(sqrt-7) as figure-eight fingerprint / rung to 3 generations: separation from 5_2 is inherited from SL(2) arithmeticity, control not commensurable, field already known (Falbel 2008).",
    "kill_form": "genericity",
@@ -1458,7 +1458,7 @@
   {
    "id": "B445",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B445_e6_h1_control/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B445_e6_h1_control/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "L50 dichotomy 'nonzero E6-beyond-SL(3) H1 content implies fingerprint': H1 = 6 = rank(E6) is universal \u2014 5_2 gives the identical 6, block by block, including both theta-odd E6-only directions.",
    "kill_form": "genericity",
@@ -1476,7 +1476,7 @@
   {
    "id": "B459",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B459_klein_four_verification/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B459_klein_four_verification/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: verification/correction arc \u2014 arithmetic VERIFIED bit-for-bit, mechanism identified (subfield lattice), new facts banked; dictionary HELD, not killed. Atlas tripped on 'FALSE'/'dead'.",
    "kill_form": "other",
@@ -1492,7 +1492,7 @@
   {
    "id": "B465",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B465_monodromy_intake/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B465_monodromy_intake/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "SU(3)/SU(4)/Pati\u2013Salam readings of the 8-4-3 monodromy: no irreducible 8-dim invariant subspace \u2014 the '8' is 4\u22954, two eigenspaces with different eigenvalues; branching comparison dead; '4 = 3bar+1' ill-posed.",
    "kill_form": "kind-mismatch",
@@ -1510,7 +1510,7 @@
   {
    "id": "B468",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B468_z3_adjudication/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B468_z3_adjudication/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'The Z/3 color SEES the darkness' (and downstream gauge / A4 / neutrino chain): exact dark distribution is (24,24,22), uniform; claimed 34/9/10 was a float artifact. Confinement rule also refuted (1798/4000).",
    "kill_form": "value-mismatch",
@@ -1528,7 +1528,7 @@
   {
    "id": "B472",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B472_quantum_commutator/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B472_quantum_commutator/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: computation/correction arc \u2014 exact kappa_q table (3 lifts), closure theorem [W1^2,W2^3]=I, seam phase zeta15 banked; refutations correct seat-1 arithmetic only. Atlas tripped on 'WRONG'/'refuted'.",
    "kill_form": "other",
@@ -1544,7 +1544,7 @@
   {
    "id": "B474",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B474_tier_commutator_law/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B474_tier_commutator_law/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: correction+positive arc \u2014 seat-1's float numbers corrected exactly (seventh float-kill) and a new exact selection-rule law + master theorem banked; atlas tripped on 'refuted'.",
    "kill_form": "other",
@@ -1560,7 +1560,7 @@
   {
    "id": "B476",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B476_interaction_algebra/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B476_interaction_algebra/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Seat-1: dim span at level 15 = 36 = 4x9 = gl(2) tensor gl(3), containing su(3)+su(2)+u(1) \u2014 the SM gauge algebra as a consequence of criticality.",
    "kill_form": "value-mismatch",
@@ -1578,7 +1578,7 @@
   {
    "id": "B477",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B477_sterile_classes/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B477_sterile_classes/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: recon arc, law explicitly OPEN ('Recon only \u2014 nothing banked as law'); only a tentative linear-law hint is refuted in passing by s776's count; atlas tripped on 'sterile'/'refuted'.",
    "kill_form": "other",
@@ -1594,7 +1594,7 @@
   {
    "id": "B483",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B483_fibonacci_anyon_face/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B483_fibonacci_anyon_face/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: positive arc banking the Fibonacci-anyon identification and the Weil/CS torsion wall as real mathematics; the 3:8:15 SM-overlay kill is a subsidiary firewall note; atlas tripped on 'killed'/'trap'.",
    "kill_form": "other",
@@ -1610,7 +1610,7 @@
   {
    "id": "B484",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B484_braiding_sm_verdict/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B484_braiding_sm_verdict/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "SM gauge group SU(3)xSU(2)xU(1) = braiding statistics of 4 and 5 Fibonacci anyons; N=4,5 braid eigenvalues = SM mixing angles (figure-eight braid trace -3/phi as anchor).",
    "kill_form": "genericity",
@@ -1628,7 +1628,7 @@
   {
    "id": "B486",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The figure-eight cusp is hexagonal (Eisenstein), giving a three-fold degenerate curve-length spectrum = three fermion generations (plus dependent Priorities 3-4 and the voice-box reading).",
    "kill_form": "value-mismatch",
@@ -1646,7 +1646,7 @@
   {
    "id": "B487",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B487_dgg_su3_verdict/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B487_dgg_su3_verdict/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "T[S3\\4_1] has SU(3) enhancement (per Gang-Kim-Lee 1803.04009); combined with SU(2) and U(1) this IS the SM gauge group derived from figure-eight topology; plus the T[4_1]xT[5_2]=SM duality product.",
    "kill_form": "kind-mismatch",
@@ -1664,7 +1664,7 @@
   {
    "id": "B489",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B489_self_interaction_tower/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B489_self_interaction_tower/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The cyclic-cover tower of 4_1 carries SM gauge-symmetry enhancement (handoff falsification test: DGG of b++(RL)^4); plus 4c: m206(3,1) = 5_2 complement bridging to the twist-knot SU(3) family.",
    "kill_form": "absence-at-depth-n",
@@ -1683,7 +1683,7 @@
   {
    "id": "B492",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B492_verlinde_boundary_lens/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B492_verlinde_boundary_lens/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The Verlinde/Affleck-Ludwig boundary-entropy lens yields new object-specific or SM-relevant structure; it only re-dresses the already-banked golden phi (g_tau/g_1 = phi, D = sqrt(2+phi)).",
    "kill_form": "genericity",
@@ -1701,7 +1701,7 @@
   {
    "id": "B500",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B500_child_hunt/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B500_child_hunt/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The prereg'd child x\u2074\u2212x\u22121 (d_K=\u2212283) is a short word: dead at depth 4 (complete, 0/36); the depth-5 kill is PROVISIONAL only (0/115 of 150 words; 35 unchecked after B525 correction).",
    "kill_form": "absence-at-depth-n",
@@ -1720,7 +1720,7 @@
   {
    "id": "B513",
    "ground": "tombstone",
-   "source": "<cc3-seat>/origin-axiom/frontier/B513_boundary_attractors/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B513_boundary_attractors/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The (3,1) filtered-signature story: the Hessian-of-kappa signature split ((3,0) vs (2,1)) is kappa-controlled and object-specific ('the object on its light cone').",
    "kill_form": "genericity",
@@ -1738,7 +1738,7 @@
   {
    "id": "B515",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B515_golden_3d/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B515_golden_3d/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "NOT a negative: correction/reopening arc \u2014 reverses B514's premature 'golden 3d impossible' kill and banks a positive (\u03b2=\u03c6(1+\u221a\u03c6), 3d Rauzy fractal; D1 REOPENED). Atlas tripped on kill/WRONG keywords.",
    "kill_form": "other",
@@ -1754,7 +1754,7 @@
   {
    "id": "B516",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B516_golden_3d_ladder/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B516_golden_3d_ladder/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "'3 spatial dimensions selected by a Pisot dimension cap' \u2014 dead: golden-field Pisot inflation exists at dims 1, 3 AND 5, so golden aperiodic order is not capped at 3.",
    "kill_form": "other",
@@ -1772,7 +1772,7 @@
   {
    "id": "B520",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B520_handoff_verification/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B520_handoff_verification/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Handoff's \u03b2-function 'correction' (g(0)\u2248\u22120.31, zero at transcendental \u03ba*\u22480.764, 'first emergent value') and 'dim 3 is the max': both false \u2014 the zero is at the pointer \u03ba\u22480.",
    "kill_form": "value-mismatch",
@@ -1790,7 +1790,7 @@
   {
    "id": "B521",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B521_audit_integration/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B521_audit_integration/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Gate C: the figure-eight commensurator \u2124/3 realizes three symmetric 27-copies (generation-3) \u2014 no: it is \u03c9-multiplication within ONE Eisenstein module (trinification, not generation). Corroborates trunk negative.",
    "kill_form": "kind-mismatch",
@@ -1809,7 +1809,7 @@
   {
    "id": "B523",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B523_verdict_reexamination/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B523_verdict_reexamination/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That any banked negative was a wrong leap (5 cells: none); sharpest new kill (C3/Malament): the four-verb monoid preserves one causal cone \u2014 no: four verbs, four causal types; only evolution is (1,3), and generically so.",
    "kill_form": "genericity",
@@ -1827,7 +1827,7 @@
   {
    "id": "B525",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B525_are_you_sure/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B525_are_you_sure/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: an adversarial re-audit CAMPAIGN over nine existing negatives (4 CONFIRMED, 2 SHAKY, 3 CRACKED, one retraction). A correction/audit arc; atlas tripped on RETRACTED/CRACKED keywords.",
    "kill_form": "other",
@@ -1843,7 +1843,7 @@
   {
    "id": "B526",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B526_crossing_package/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B526_crossing_package/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That M_* can be both the isotropic propagation law and a positive one-step Stein evolution for the Perron-weighted tetrahedral metric S_tet (narrowed by B527: S_tet-specific, not a general isotropy-Stein no-go).",
    "kill_form": "value-mismatch",
@@ -1861,7 +1861,7 @@
   {
    "id": "B539",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B539_relations_campaign/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B539_relations_campaign/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the SM's 19 independent dimensionless parameters satisfy any of the object's frozen two-variable integer relations beyond chance (relations door, dialed bin): NO-MATCH per frozen criteria.",
    "kill_form": "base-rate",
@@ -1879,7 +1879,7 @@
   {
    "id": "B545",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B545_ghost_census/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B545_ghost_census/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That ghost level c=1 admits a realized witness pair: all class-(1,0,0) slot discriminants are negative-definite (elliptic-lock) and h(\u22123)=h(\u22124)=1 gives completeness \u2014 c=1 is a proved ghost.",
    "kill_form": "no-landing-site",
@@ -1897,7 +1897,7 @@
   {
    "id": "B548",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B548_unhideable_census/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B548_unhideable_census/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That un-hideability discriminates the object (un-hideable iff Pisot/self-priored): the property is generic at small alphabet size \u2014 even non-Pisot and reducible substitutions collapse to one language.",
    "kill_form": "genericity",
@@ -1915,7 +1915,7 @@
   {
    "id": "B550",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B550_promotion_sign/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B550_promotion_sign/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-1's Promotion-Sign Conjecture (height-1 promotion has sign (\u22121)\u207f): at n=3 the exact tower is (0,1) vs the predicted (1,0). Replaced by the uniform meridian rule; n=5 left as the discriminating test.",
    "kill_form": "value-mismatch",
@@ -1933,7 +1933,7 @@
   {
    "id": "B553",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B553_seat1_session3/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B553_seat1_session3/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: a verify-don't-trust HARVEST of Seat-1's session-3 summary \u2014 verifications and corrections; the Markoff-unicity deflation was itself corrected to OPEN. Atlas tripped on wrong/deflation keywords.",
    "kill_form": "other",
@@ -1949,7 +1949,7 @@
   {
    "id": "B554",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B554_meditation_verify/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B554_meditation_verify/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Station 4's identity: species = forward bit-pairs, i.e. matter = one bit remembering its successor (struct/tunnel_i = old/new_{i+1}). Fails at 61% of sites; species is radius-1 two-sided (B551).",
    "kill_form": "value-mismatch",
@@ -1967,7 +1967,7 @@
   {
    "id": "B558",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B558_three_level_negative/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B558_three_level_negative/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That SM numbers live in the architecture at any algebraic level: dictionary values (17 components), cubic relations, or Fibonacci-Hamiltonian gap-edge ratios; incl. the 0.236 ~ sin2thetaW near-miss.",
    "kill_form": "value-mismatch",
@@ -1985,7 +1985,7 @@
   {
    "id": "B561",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B561_l50_crux/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B561_l50_crux/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the figure-eight's Eisenstein Z/3 selects SU(3)^2 inside F4 (addendum: that the golden Z/2 selects SO(9)): no order-3 selector exists at the geometric point; F4 is the terminus.",
    "kill_form": "kind-mismatch",
@@ -2003,7 +2003,7 @@
   {
    "id": "B567",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B567_hamiltonian_handoff/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B567_hamiltonian_handoff/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The QFT reading H = -i log rho(A1): six pi/3-spaced levels, degeneracies (3,2,2,3,3,2), zero mode, 87.7% interaction fraction, 28/27 at level 165 \u2014 impossible for the level-15 monodromy.",
    "kill_form": "value-mismatch",
@@ -2021,7 +2021,7 @@
   {
    "id": "B569",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B569_complete_chain/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B569_complete_chain/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Sixteenth chain: compactness from E6 CS level-1 (Z = -1 bit) and G_SM unique chiral theory on F4. Z=-1 is a word artifact of inconsistent (S,T); the 26 of F4 is self-dual, so zero chiral theories exist.",
    "kill_form": "kind-mismatch",
@@ -2039,7 +2039,7 @@
   {
    "id": "B572",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B572_eleven_clauses/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B572_eleven_clauses/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Seventeenth chain at cost zero: 27|_princ = V3+V7+V17 (false; it is V17+V9+V1) and 'sigma distinguishes 27 from 27-bar' (a c-fact spent as theta-chirality; the F4 -> Spin(10)xU(1) switch unpaid).",
    "kill_form": "category-error",
@@ -2057,7 +2057,7 @@
   {
    "id": "B574",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B574_offprincipal/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B574_offprincipal/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Off-principal escape: 'minimal nilpotent of E6 has centralizer D5 = Spin(10)' (false \u2014 su(6), dim 35 not 45) and 'nearby minimal-meridian points' (regularity Zariski-open; none exist near geometric point).",
    "kill_form": "value-mismatch",
@@ -2075,7 +2075,7 @@
   {
    "id": "B579",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B579_session_handoff/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B579_session_handoff/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: adjudication/correction arc \u2014 verifications banked (theta-odd {1,3,8,17}), char-poly and attribution corrections, phi-scan routed to HINT_LEDGER; CMB null is a seat-reported H-entry, not a kill.",
    "kill_form": "other",
@@ -2091,7 +2091,7 @@
   {
    "id": "B585",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B585_listener_law/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B585_listener_law/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "M1 mechanism: a tone fires at kappa iff the word's trace field embeds in Q(zeta_kappa) (silver iff 8|k, bronze iff 13|k, RRL iff 12|k) \u2014 refuted by its own preregistered prediction; LAW-E also failed hold-out.",
    "kill_form": "value-mismatch",
@@ -2111,7 +2111,7 @@
   {
    "id": "B604",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B604_rosetta_blocks/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B604_rosetta_blocks/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat-1's Rosetta ask: an assignment of the theta-odd root pairs to the V8/V16 principal-block lines exists (which pair goes to which block, hence torsions label gauge vs matter sectors).",
    "kill_form": "kind-mismatch",
@@ -2129,7 +2129,7 @@
   {
    "id": "B605",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B605_door2_involution/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B605_door2_involution/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: correction/settlement arc \u2014 refutes the handoff's reflection reading but banks a positive identification (tau = free Gieseking deck involution; smooth mapping torus, not orbifold).",
    "kill_form": "other",
@@ -2145,7 +2145,7 @@
   {
    "id": "B619",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B619_a5_bridge/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B619_a5_bridge/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The A5 bridge: the kappa=5 golden-stage clocks realize A5 (order 60) \u2014 chat-1's '|A5|=60 clock order' reading and CC's sharpened 'projective image of <rho(S),rho(T)> = PSL(2,5)' candidate.",
    "kill_form": "value-mismatch",
@@ -2164,7 +2164,7 @@
   {
    "id": "B624",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B624_observable_bridge/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B624_observable_bridge/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: positive campaign-cell result \u2014 odd-trace/Weil-coset bridge identity derived and verified 6/6, queue item CLOSED; atlas likely tripped on 'resource-killed' (an unclaimed sweep residual).",
    "kill_form": "other",
@@ -2180,7 +2180,7 @@
   {
    "id": "B626",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B626_jacobian_reality/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B626_jacobian_reality/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: naive crossover laws refuted en route, but the arc banks a positive structural law (J real iff amphichiral) \u2014 headline is ANSWERED-AS-STRUCTURE, a found law, not a dead end.",
    "kill_form": "other",
@@ -2196,7 +2196,7 @@
   {
    "id": "B632",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B632_cubic_route/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B632_cubic_route/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: banks h1(M;27)=3 plus cell-2 texture theorems (positive results, opens B308's gate); atlas tripped on correction language ('kills', 'wrong', 'FAILED', 'DISSOLVED-BY-OBSTRUCTION').",
    "kill_form": "other",
@@ -2212,7 +2212,7 @@
   {
    "id": "B654",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B654_listening_synthesis/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B654_listening_synthesis/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: synthesis/harvest arc banking positive laws (shape-field law, N0 decomposition, universal defect factor 2, tone-character id); internal REFUTED items are adjudications inside a positive harvest.",
    "kill_form": "other",
@@ -2228,7 +2228,7 @@
   {
    "id": "B656",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B656_digest_integration/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B656_digest_integration/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: verification/integration arc \u2014 G1-G5 confirmed/accepted, new LAW_MAP rows banked; 'area law is REFUTED' and 'killed' are sub-results inside a positive packet (atlas keyword trip).",
    "kill_form": "other",
@@ -2244,7 +2244,7 @@
   {
    "id": "B657",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B657_invariant_line/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B657_invariant_line/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Positive campaign arc: banks the portal-isomorphism and one-per-block LAWS; W0a refutes a relayed mislabel (correction, not a dead-end). Atlas tripped on 'REFUTED'/'dies'.",
    "kill_form": "other",
@@ -2260,7 +2260,7 @@
   {
    "id": "B664",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B664_metallic_landscape/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B664_metallic_landscape/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Positive theorem arc: the landscape theorem PROVED (closed form, three-value theorem, period 5); refutations of chat1's Facts are corrections inside a banked positive. Atlas tripped on 'REFUTED'.",
    "kill_form": "other",
@@ -2276,7 +2276,7 @@
   {
    "id": "B668",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B668_triage_reconciliation/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B668_triage_reconciliation/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Cell F1/F-prime as posed: resurgent S2 extraction from the Z-ladder. The ladder is exactly periodic (P=175560) so it has zero asymptotic 1/k content; no S2 is extractable.",
    "kill_form": "category-error",
@@ -2294,7 +2294,7 @@
   {
    "id": "B669",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B669_track_h_adjudication/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B669_track_h_adjudication/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Chat1's amphichiral-suppression mechanism: chiral metallic words' |Z_k|^2 grows, giving a Lambda-suppression ratio. All words are BOUNDED (exactly periodic ladders); and m136 (silver) is amphichiral anyway.",
    "kill_form": "genericity",
@@ -2313,7 +2313,7 @@
   {
    "id": "B672",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B672_grading_hunt/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B672_grading_hunt/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Positive arc: the grading hunt FIRES (Rogers-Ramanujan recognition, exact) and the branch-tiebreak lemma is PROVEN; the candidate kills 1-4 are subsidiary sharpening. Atlas tripped on 'dead'/'no-go'.",
    "kill_form": "other",
@@ -2329,7 +2329,7 @@
   {
    "id": "B677",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B677_morning_packet/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B677_morning_packet/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "G1 wave-1 generator candidates T0/T1/T2: Tube(Fib) HH route (semisimple => HH^{>=1}=0) and character-shaped candidates (Q(zeta5)-irrational leading coeffs vs integer targets; supports never meet 2/5, 3/5).",
    "kill_form": "value-mismatch",
@@ -2348,7 +2348,7 @@
   {
    "id": "B681",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B681_habiro_pretest/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B681_habiro_pretest/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Positive design pre-test: VERDICT PASS \u2014 no v5 obstruction, survivor earned, construction pinned to divided-power/Habiro. Nothing new killed; prior kills only referenced. Atlas tripped on 'killed'/'dies'.",
    "kill_form": "other",
@@ -2364,7 +2364,7 @@
   {
    "id": "B685",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B685_generation_terminal/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B685_generation_terminal/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That a framework-derivable generator of the figure-eight produces the {2/5,3/5} 5-adic hearing streams: both intrinsic realizations (Molien: algebraic integers; Habiro/Nahm: pure 3-denominators) carry no 5.",
    "kill_form": "kind-mismatch",
@@ -2385,7 +2385,7 @@
   {
    "id": "B687",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B687_sm_atlas_koide/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B687_sm_atlas_koide/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: live-candidate/campaign arc \u2014 SM atlas triage plus h(27)=2/3 Koide clue, E1/E2 running ('either end is honest'). Atlas tripped on '8 DEAD' in the mixing-angle triage line.",
    "kill_form": "other",
@@ -2402,7 +2402,7 @@
   {
    "id": "B693",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B693_loop_e3_inert5/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B693_loop_e3_inert5/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "chat1's hope that the inert-5 Hecke eigenvalue of the base-changed (Bianchi) level-15 form carries golden \u03c6 (or good-prime 3\u00b2) structure \u2014 a_(5)=+1, the trivial Steinberg value, rational, in the BEING field.",
    "kill_form": "value-mismatch",
@@ -2423,7 +2423,7 @@
   {
    "id": "B698",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B698_the_meeting_probed/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B698_the_meeting_probed/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "S067 row 2 strong reading \u2014 the level-15 meeting's analytic content (special L-values) entangles being-prime 3 and hearing-prime 5. Killed: the automorphic rep factors; the meeting is a product, not a fusion.",
    "kill_form": "zero-intertwiner",
@@ -2443,7 +2443,7 @@
   {
    "id": "B699",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B699_two_object_surgery/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B699_two_object_surgery/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "Golden hearing is born in the 5-split\u21925-inert surgery coupling; 5-inert is necessary for golden SL(2,5) capacity. Refuted: the 5-SPLIT Whitehead already fills SL(2,5); filling is generic (strong approximation).",
    "kill_form": "genericity",
@@ -2464,7 +2464,7 @@
   {
    "id": "B703",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B703_koide_sigma_distance/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B703_koide_sigma_distance/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: correction/adjudication arc \u2014 chat1's ~7\u03c3 REFUTED, \u03b8\u2080 is 0.89\u03c3 from 2/9; outcome is a firewalled live near-coincidence with a standing falsifier, not a kill. Atlas tripped on 'REFUTED'.",
    "kill_form": "other",
@@ -2480,7 +2480,7 @@
   {
    "id": "B705",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B705_metallic_hearing_campaign/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B705_metallic_hearing_campaign/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a banked negative: positive campaign arc \u2014 the audibility law (golden uniquely audible three ways: unit, bundle, arithmetic). Atlas likely tripped on 'SILENT'/'dead' keywords; sub-kills only confirm B699/close Q5.",
    "kill_form": "other",
@@ -2496,7 +2496,7 @@
   {
    "id": "B706",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B706_rung2_sm_freedom/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B706_rung2_sm_freedom/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "The SM flavor freedom matches the object: rung 1 \u2014 flavor ratios algebraic over \u211a(\u221a5); rung 2 \u2014 SM parameter freedom organized as the \ud835\udd3d\u2082-seam. Both NO-MATCH; the flavor lives entirely in the coupling.",
    "kill_form": "kind-mismatch",
@@ -2514,7 +2514,7 @@
   {
    "id": "B709",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B709_turok_marriage_adjudication/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B709_turok_marriage_adjudication/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "chat-1's Turok 'marriage' as an identity: framework \u2124/2 = Turok CPT with joint value predictions (T1 FRW embedding, I4 vacuum=torsor, T3 DM mass, I5 36-roots). Refuted \u2014 an inversion plus kind-complementarity only.",
    "kill_form": "category-error",
@@ -2534,7 +2534,7 @@
   {
    "id": "B710",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B710_analytic_t1_thimbles/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B710_analytic_t1_thimbles/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That Turok's FRW lapse integral shares saddle-skeleton STRUCTURE (not just the Picard-Lefschetz method) with the fig-8 state integral - the T1 identification at thimble level.",
    "kill_form": "kind-mismatch",
@@ -2552,7 +2552,7 @@
   {
    "id": "B711",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B711_two_z2_degeneration/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B711_two_z2_degeneration/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "That amphichirality and the Q(sqrt(-3)) Galois involution are one locked Z/2 on X(4_1) - B709's koan read as a single symmetry rather than two orthogonal legs of a V4.",
    "kill_form": "other",
@@ -2572,7 +2572,7 @@
   {
    "id": "B712",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B712_object_continuum/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B712_object_continuum/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the object's one continuous modulus (the A-polynomial deformation curve) carries a canonical non-degenerate real anchor a real parameter could land on - killed: non-canonicity is TOTAL.",
    "kill_form": "no-landing-site",
@@ -2590,7 +2590,7 @@
   {
    "id": "B720",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B720_coupling_path/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B720_coupling_path/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That renormalization (Connes-Marcolli cosmic Galois), holography, or positive geometry owns a discrete-to-continuous bridge meeting the object - 3 NO-MATCH, B706 reconfirmed 3 ways (2 leads left unbuilt).",
    "kill_form": "kind-mismatch",
@@ -2609,7 +2609,7 @@
   {
    "id": "B721",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B721_thermal_time/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B721_thermal_time/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That B701's torsor IS the CMR KMS torsor over Q(sqrt(-3)) and observer time is the object's own modular flow - killed: complementary torsors; tracial II_1 clock vs type III thermal.",
    "kill_form": "kind-mismatch",
@@ -2628,7 +2628,7 @@
   {
    "id": "B724",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B724_seeing_readjudication/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B724_seeing_readjudication/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "chat-1's seeing routes C2-C5 + GGM path (signature triad, arrow, torsion hierarchy, 2-bit parameters, q-series identity) - refuted/blocked/base-rate-dead by recomputation; only C1 (=B713) sound.",
    "kill_form": "base-rate",
@@ -2647,7 +2647,7 @@
   {
    "id": "B726",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B726_hearing_born_content/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B726_hearing_born_content/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That the two bare quadratic faces Q(sqrt(-3)) + Q(sqrt(5)) close the Born-rule gap - killed: interference phase lives in Q(zeta_5) and amplitudes in a real quartic, owned by neither bare face (weights half does close).",
    "kill_form": "no-landing-site",
@@ -2667,7 +2667,7 @@
   {
    "id": "B727",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B727_base_rate_the_structure/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B727_base_rate_the_structure/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "That E6 recurring across McKay/Lie/CIZ faces is independent accumulating evidence the object encodes the SM - killed: P(recurrence|one label)=1, imaginary-quadratic menu is {E6} only; one field-fact refracted.",
    "kill_form": "base-rate",
@@ -2685,7 +2685,7 @@
   {
    "id": "B731",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B731_object_observer_noncongruence/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B731_object_observer_noncongruence/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a live banked negative: the headline kill (m004 non-congruence / no finite congruence observer) was RETRACTED by B734 (E22, shallow level-check) \u2014 m004 IS congruence at level (8). Arc is a superseded record.",
    "kill_form": "other",
@@ -2701,7 +2701,7 @@
   {
    "id": "B734",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B734_m004_is_congruence/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B734_m004_is_congruence/FINDINGS.md",
    "is_negative": false,
    "claim_killed": "Not a negative: a correction/POSITIVE arc \u2014 m004 IS a congruence subgroup at level (2)^3=(8) (index 12 reached), retracting B731's NO-GO. Atlas tripped on 'WRONG' keyword; no kill is banked here.",
    "kill_form": "other",
@@ -2717,7 +2717,7 @@
   {
    "id": "B736",
    "ground": "dead-probe",
-   "source": "<cc3-seat>/origin-axiom/frontier/B736_ABC_campaign/FINDINGS.md",
+   "source": "/Users/dri/oa-audit-seat/origin-axiom/frontier/B736_ABC_campaign/FINDINGS.md",
    "is_negative": true,
    "claim_killed": "P2: m004's level-(8) observer (order-2560) carries a beta=1 Bost-Connes SSB \u2014 killed (finite level => no transition; H3 not Hermitian => no Shimura). P3: any SM-parameter reduction \u2014 killed (T=0 + kind-mismatch).",
    "kill_form": "finite-level-obstruction",

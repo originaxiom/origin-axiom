@@ -24,7 +24,7 @@ multi-stage pipeline (exact SL(2,L) holonomy → 27-dim E6 Sym-lift → "double"
 construction → H¹ Fox-calculus cohomology → weld intertwiner → antilinear
 involution) — was **not** reproduced from scratch for bronze in this session;
 that pipeline took five registered stages for silver alone
-(`<cc2-seat>/seat-work/finisher_queue/f4_receipt/b649_copy/`, read
+(`/Users/dri/oa-seat-cc2/seat-work/finisher_queue/f4_receipt/b649_copy/`, read
 for context only, not modified). In its place I computed an honest, directly
 verified **proxy for torsion status**: the exact shape parameters of bronze's
 ideal-tetrahedron triangulation. That proxy, plus the exact trace field, is

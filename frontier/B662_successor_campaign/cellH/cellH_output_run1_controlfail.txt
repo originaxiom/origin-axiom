@@ -30,7 +30,7 @@ weld side-2 letters built
 [   280.8s]   PHITRIV rows (relator abelianizations): [[1, -1, 0, 0], [0, 0, 1, -1], [1, 0, -1, 0], [0, 0, 0, 0]]
 [   280.8s]   phi (left-null of PHITRIV, normalized) = ['(0)', '(0)', '(0)', '(1)']
 Traceback (most recent call last):
-  File "frontier/B662_successor_campaign/cellH/massey_first.py", line 432, in <module>
+  File "/Users/dri/origin-axiom/frontier/B662_successor_campaign/cellH/massey_first.py", line 432, in <module>
     assert all((lhs[t] - rhs[t]).is_zero() for t in range(108)), \
 AssertionError: CONTROL A FAILS: relator-chain vs Fox sign mismatch
 EXIT: 1

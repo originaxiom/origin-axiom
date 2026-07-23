@@ -11,12 +11,12 @@ import mpmath as mp
 import numpy as np
 import sympy as sp
 
-sys.path.insert(0, '<cc2-seat>/seat-work/level_ladder_campaign/scripts')
+sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/level_ladder_campaign/scripts')
 from engine import weyl_group, C6
 
 P_WORD = 3
 RS = (13, 14, 15, 16, 17, 18, 19)
-OUTDIR = '<cc2-seat>/seat-work/next_queue/n1_counting'
+OUTDIR = '/Users/dri/oa-seat-cc2/seat-work/next_queue/n1_counting'
 
 
 def hnf_column(B):

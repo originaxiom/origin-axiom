@@ -13,7 +13,7 @@ C1 fig-8 control reproduces banked [1, 1, 1, 0, 1, 1, 2, 1]: False
   R3L (trace 5)        max = 1.0000; the sealed 'grows' prediction REFUTED (bounded like the fig-8)
 
 == m136 amphichirality (SnapPy) ==
-~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
   |Isom(m136)| = 8; amphichiral: True
 

@@ -12,7 +12,7 @@ Primes: 61, 421, 541 (already exact_engine.PRIMES) + 1201 (named in FINDINGS but
 from exact_engine.PRIMES -- added here). All four are ≡ 1 (mod 60).
 """
 import sys
-sys.path.insert(0, "<cc2-seat>/origin-axiom/frontier/B465_monodromy_intake")
+sys.path.insert(0, "/Users/dri/oa-seat-cc2/origin-axiom/frontier/B465_monodromy_intake")
 from exact_engine import build, matmul, find_root_of_unity, matpow  # noqa: E402
 
 PRIMES = (61, 421, 541, 1201)

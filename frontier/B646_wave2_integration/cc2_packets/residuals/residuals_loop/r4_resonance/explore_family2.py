@@ -6,7 +6,7 @@ so the 8-point test can actually distinguish them rather than being degenerate.
 """
 import sys
 import itertools
-sys.path.insert(0, '<cc2-seat>/seat-work/veins/v2_resonance')
+sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/veins/v2_resonance')
 import numpy as np
 from scipy.stats import spearmanr
 import lib as L

@@ -14,3 +14,12 @@ Anyone holding the original (the cc2 seat archive; the relay zip) can verify: ap
 transform and hash. The redaction touches ONLY the banned tokens — no computation content,
 verdicts, or timestamps changed. Redaction-with-record supersedes exemption as the standing
 pattern (the gate goes blind behind exemptions; it stays sighted over redactions).
+
+## Transform layer 2 (2026-07-23, the R28-9 path sweep — recorded per the layering pattern)
+
+The redacted file was subsequently swept by R28-9 (seat-topology paths → placeholders):
+- layer-1 (redacted) sha256: `e5221618…` (above)
+- layer-2 transform: the standard R28-9 path replacements (repo → relative; seat dirs →
+  `<seat>/`; home → `~`) applied to the redacted text
+- layer-2 (current) sha256: `331e1148…`
+Verification chain: original (cc2 archive) → redact → `e5221618` → sweep → `331e1148`.

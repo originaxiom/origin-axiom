@@ -4,7 +4,7 @@ Seat cc2, read-only/advisory. Repo untouched (no git operations performed).
 Prereg cited: `MASTERPLAN_AND_PREREG.md`, sha256 =
 `a06a1b074f22548d5d875baa8845914ca98bb007e5f789d6190df216d24cf6b6`
 (verified by local `shasum -a 256` against the file at
-`<cc2-seat>/seat-work/metallic_hearing_campaign/MASTERPLAN_AND_PREREG.md`
+`/Users/dri/oa-seat-cc2/seat-work/metallic_hearing_campaign/MASTERPLAN_AND_PREREG.md`
 — matches exactly).
 
 **Firewall (Gate 5), stated up front:** everything below is a σ-distance and a
