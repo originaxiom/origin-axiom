@@ -1,5 +1,8 @@
 # Changelog
 
+## cc3 close-out gated — the forks verification adopted (F1 SOFTENED); two audits banked; WALL-7 at 18 points; cc3's program CLOSED
+- cc3's four branches gated by cc: the forks grading (F3/F2/F4 CONFIRMED, F1 SOFTENED — receipt #6's Ferroni correction verified against the campaign's own JSON and adopted; θ stays VACANT, K.C. the genuine residual), the B768 and B769 audits (both CONFIRMED, reproduced in-sandbox, 20 locks), and the WALL-7 twisted extension (3→18 points, all dim=0, 865 for closure — Phase 1 carries). One relay-file-in-tree violation cherry-picked around. Stale branch pointers deleted; the three frozen-record branches stand.
+
 ## B768 receipt #5 — the distilled document: rows accepted; three corrections (incl. error #40)
 - The pair-frequency table was impossible (summed to 1.236 — conditional/pair conflation); corrected exactly: f(ab)=f(ba)=1/φ², f(aa)=1/φ³. The E20 flag restored on the eigenvalue-hearing link; the B620 miscitation re-fixed. The triadic T1 candidates registered; aAbB noted as ungated framing.
 

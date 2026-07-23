@@ -1,0 +1,80 @@
+========================================================================================
+A1: the unmovedness theorem — abelian inner triviality
+========================================================================================
+  Conjugation trivial on V4 by brute force: True
+  |Aut(V4)| = |GL(2,F2)| = 6
+  |Inn(V4)| = 1 (abelian)
+  |Out(V4)| = 6 = S3
+  CONFIRMED: T1's fixedness under I is FORCED by abelian inner triviality.
+
+========================================================================================
+A2: the 3-frame torsor
+========================================================================================
+  Nontrivial V4 elements: ['c', 'th', 'cth']
+  Generating pairs (frames): [('c', 'th'), ('c', 'cth'), ('th', 'cth')]
+  Number of frames: 3
+  All 3 pairs generate V4: True
+  S3 acts transitively on the 3 frames: True (3 = 3!/2 orbits of the stabilizer)
+  Realized subgroup: {id} (I trivial, tau central)
+  CONFIRMED: T1 is a 3-element torsor under unrealized S3.
+
+========================================================================================
+A3: derivative plane alignment — independent re-derivation
+========================================================================================
+  tr(AB) = 2 - u
+  tr(Sym^2 AB) = tr(AB)^2 - 1 = u**2 - 4*u + 3
+  d/du [tr(Sym^2 AB)] at u=omega = -5 + sqrt(3)*I
+  Real part (theta-even): -5
+  Imaginary part (theta-odd): sqrt(3)
+  cc's probe = -5 + i*sqrt(3): CONFIRMED
+  theta-frame ALIGNED with c-frame: CONFIRMED (angle = 0)
+  This alignment IS the mechanism behind chord = c XOR theta:
+  both involutions negate the same line (Im axis).
+
+========================================================================================
+A4: SL(3) 8-space intersections — independent re-derivation
+========================================================================================
+  x1 = 3
+  x2 = 3
+  x3 = 9/2 - 5*sqrt(3)*I/2
+  x4 = 3
+  x5 = 3
+  x6 = 1/2 + 3*sqrt(3)*I/2
+  x7 = 1/2 + 3*sqrt(3)*I/2
+  x8 = 9/2 - 5*sqrt(3)*I/2
+  x1=x4=3, x2=x5=3: CONFIRMED
+  x1 - x4 = 0
+  x2 - x5 = 0
+  x3 - x8 = 0
+  x6 - x7 = 0
+  ALL theta-odd coordinates ZERO: True
+
+  AUDIT NOTE: the 'purely imaginary' conclusion is VACUOUSLY TRUE.
+  Zero IS purely imaginary, but the content is: the geometric point is
+  theta-FIXED as a point of the character variety. The relative-position
+  question moves to the tangent space (cell 3), where the answer is genuine.
+  cc's findings correctly identify the vacuity and redirect to the tangent.
+  x3=x8, x6=x7: CONFIRMED (theta-symmetry at the geometric point)
+
+========================================================================================
+A5: C21 correctness — the composite verdict
+========================================================================================
+  T1 = 3-frame discrete torsor: CONFIRMED (cell 2)
+  Continuous modulus gauge-fixed at geo: CONFIRMED (cells 3+4)
+  Mover must be outer/S3: CONFIRMED (cell 1)
+  The continuous reading dies at the geometric point: CONFIRMED
+  C21 minting is CORRECTLY SUPPORTED by the computation.
+
+========================================================================================
+AUDIT SUMMARY
+========================================================================================
+  cell1     : CONFIRMED
+  cell2     : CONFIRMED
+  cell3     : CONFIRMED
+  cell4     : CONFIRMED — vacuity correctly identified by cc
+  C21       : CONFIRMED
+
+  OVERALL: B769 CONFIRMED — T1 is a discrete 3-frame torsor;
+  continuous modulus gauge-fixed at geo; C21 correctly minted.
+
+B769 AUDIT COMPLETE
