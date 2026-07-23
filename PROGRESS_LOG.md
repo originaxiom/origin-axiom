@@ -7559,3 +7559,17 @@ self-reference impaired — co-occurrence, not dissociation); K.C. remains the h
 residual with its construct caveat. F2/F4 undecided (live falsifier; undocumented XOR).
 The matrix: PARTIALLY FALSIFIED — the machinery working. Package to cc3 for the
 owner-directed verification pass. Nothing to CLAIMS.
+
+## 2026-07-23 — B769: THE T1 STRUCTURE — discrete (a 3-frame torsor); the continuous reading dies at geo
+The unmoved axis computed (prereg c2d69536, both formalizations declared first).
+(1) THEOREM: T1's fixedness under the closing set is FORCED — (ℤ/2)³ is abelian, inner
+action trivial; the mover must be an OUTER V₄-automorphism (S₃) — the door is now a
+precise target. (2) The discrete part: a genuine 3-frame torsor (banked operations
+realize only the identity of S₃). (3) The continuous candidate dies in two computed
+stages: the θ-odd coordinates VANISH IDENTICALLY at the geometric point (x1=x4, x2=x5,
+x3=x8, x6=x7 exact — the point is θ-fixed; an in-cell near-vacuity caught and restated),
+and on the tangent plane the c- and θ-frames align EXACTLY (the alignment that produces
+chord = c⊕θ). C21 minted. Correspondence consequence recorded: "T1 = Attention
+(continuous)" is not mathematically licensed — T1 wants a TRIADIC candidate; with F3's
+kill the matrix now has two vacant slots and one unanticipated triadic constraint.
+Locks test_b769 (3, compute-grade). Nothing to CLAIMS.

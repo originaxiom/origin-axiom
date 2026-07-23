@@ -14,7 +14,7 @@ def _text():
 def test_chain_has_eighteen_links_with_valid_labels():
     text = _text()
     links = re.findall(r"\*\*C(\d+) \[(THEOREM|CENSUS|IDENTITY|NO-GO|AXIOM)[^\]]*\]", text)
-    assert [int(n) for n, _ in links] == list(range(1, 21))
+    assert [int(n) for n, _ in links] == list(range(1, 22))
     grades = [g for _, g in links]
     assert grades.count("AXIOM") == 4            # C3, C4, C5, C18 (C19 = IDENTITY)
     assert text.count("PRICED") >= 4 and "remaining unpriced" in text

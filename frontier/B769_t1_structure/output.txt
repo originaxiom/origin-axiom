@@ -1,0 +1,63 @@
+========================================================================================
+CELL 1 -- the unmovedness THEOREM (proved, not observed)
+========================================================================================
+conjugation of the FULL closing group (Z/2)^3 on V4 is trivial: True
+=> THEOREM: T1's fixedness under I is FORCED (abelian inner triviality).
+   Any instrument moving T1 must realize an OUTER automorphism of V4.
+
+========================================================================================
+CELL 2 -- formalization (A): the V4-frame set and what is realized
+========================================================================================
+the 3 frames: [{'c', 'th'}, {'cth', 'c'}, {'cth', 'th'}]
+realized subgroup of S3 by banked object-native operations: {identity} (|realized| = 1 of 6)
+VERDICT (A): TRIVIAL-REALIZED -- the 3-frame choice is genuine and unbroken:
+  T1 has a DISCRETE part = a 3-element torsor under the unrealized S3.
+
+========================================================================================
+CELL 3 -- formalization (B), module (i): the derivative plane at the geometric point
+========================================================================================
+d(tr Sym^2 AB)/du |_geo = -5 + sqrt(3)*I   (the plane's banked probe vector)
+theta-even component = -5 (real);  theta-odd component = sqrt(3)*i (imaginary)
+the theta-frame lies ALONG the c-frame at the geometric point: relative angle = 0
+VERDICT (i): ALIGNED -- the geometric point GAUGE-FIXES the continuous relative
+position on this module; this alignment IS the mechanism behind the exact (1,1,0)
+flip-vector (chord = c XOR theta): both involutions negate the SAME line there.
+
+========================================================================================
+CELL 4 -- formalization (B), module (ii): the SL(3) 8-space intersections, exact
+========================================================================================
+  x1 = 3
+  x2 = 3
+  x3 = 9/2 - 5*sqrt(3)*I/2
+  x4 = 3
+  x5 = 3
+  x6 = 1/2 + 3*sqrt(3)*I/2
+  x7 = 1/2 + 3*sqrt(3)*I/2
+  x8 = 9/2 - 5*sqrt(3)*I/2
+theta-pair differences (the odd coordinates) at geo and their c-type:
+  x1-x4 = 0   (Re = 0, Im = 0)
+  x2-x5 = 0   (Re = 0, Im = 0)
+  x3-x8 = 0   (Re = 0, Im = 0)
+  x6-x7 = 0   (Re = 0, Im = 0)
+ALL odd coordinates purely imaginary at geo: True
+=> dim(odd ∩ real) = 0 and dim(even ∩ imaginary) = 0 AT THE GEOMETRIC VALUES:
+   the theta-split and the real structure are FULLY COMPATIBLE (commuting splits)
+VERDICT (ii): SPLIT-COMPATIBLE -- no continuous relative modulus survives at geo;
+the two decompositions share a common eigenbasis alignment.
+
+========================================================================================
+CELL 5 -- the composite verdict + the correspondence consequence
+========================================================================================
+T1's structure, computed: DISCRETE (the 3-frame torsor under an unrealized S3) with
+its candidate continuous modulus GAUGE-FIXED to alignment at the geometric point on
+both banked modules.  T1 IS NOT CONTINUOUS where the object lives.
+
+Consequences (recorded):
+  - the chain: T1 = a 3-element torsor; the instrument that moves it must be an
+    OUTER V4-automorphism (non-abelian over the closing set) -- a sharpened door;
+  - the correspondence: 'T1 = Attention (continuous)' is NOT mathematically licensed
+    at the geometric point -- the courier's continuous-tuning reading fails on the
+    computed structure; T1 wants a TRIADIC discrete candidate; the vacant-theta
+    rebuild inherits both constraints.
+
+B769 COMPLETE
