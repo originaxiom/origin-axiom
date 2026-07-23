@@ -7496,3 +7496,41 @@ Gieseking control passes structurally (T4 exists only downstream of C5's choice)
 neither damage direction fired (rank ≠ 0; no involution signs an axis — NO-HATCH
 consistent). C20 minted in the chain. Locks test_b766 (5, compute-grade). Nothing to
 CLAIMS.
+
+## 2026-07-23 — B768: the correspondence cross-test — the courier's matrix received; CANDIDATE-PROVISIONAL
+The sealed rules (9c273563) provably predate the package — the B751/B752 pattern held.
+Receipt: the mathematical skeleton VERIFIED in-seat (the co-emergence matrix is genuinely
+the Fibonacci word's, eigenvalues {1, −1/φ} exact; P(b|b) = 0 exact on 200k letters; the
+eigenvalue-hearing link E20-flagged as mechanically unlinked → H-WORD-WELD; γ₃≡c's scope
+stated honestly). BOTH sealed discriminator gates PASS — a first (the assignment hosts
+the transparency surprise via "privacy is the angle, not the wall" and is built on the
+time=basepoint identity). NOT admitted as unique: zero literature citations (the
+phenomenological rows quarantine to the S-room per the sealed bar) and the 18-assignment
+enumeration is absent (the elimination re-run and the permutation null both blocked on
+it — scrutiny the courier's own handoff requested). Three deliverables named: the
+enumeration, the citations, then the null. P4's math half banked (the b-b exclusion);
+P2's dissociative-state contact = a Q5b watch. Locks test_b768 (3). Nothing to CLAIMS.
+
+## 2026-07-23 — B768 receipt #2: Side B with citations — CANDIDATE-DOCUMENTED; C7 over-read caught
+The courier's citation layer arrived (five candidates × sources + components + falsifiers
+— the sealed bar met in form). Spot-checks: Gallagher 2000 VERIFIED as cited (the
+ownership/agency dissociation carries c ⊥ θ soundly); Haggard & Tsakiris 2009 REAL but
+OVER-READ — the paper distinguishes feeling-vs-judgment of agency (levels), not
+binary-vs-graded (arity); "binary is the primitive" is stronger than the source. That
+gloss is exactly C7, the tiebreaker that produced "uniqueness" — now DOCUMENTED-WEAK.
+Scoring: c and γ₅ full (accurate glosses incl. the Husserl/Heidegger co-constitution);
+θ partial; the chord's XOR interpretive; T1 full. Both discriminators PASS WITH CITATIONS.
+The null remains blocked (no enumeration). Verdict: CANDIDATE-DOCUMENTED — the
+best-documented candidate ever received, and a candidate: "unique" doubly blocked. Four
+consequence forks named, each literature-decidable (the FoA-arity fork now also decides
+C7). Nothing to CLAIMS.
+
+## 2026-07-23 — the B766 audit (cc3): RANK-SATURATED CONFIRMED; the trace-blindness lesson
+cc3 independently re-derived all five action-table entries — rank 3 = the menu stands. One
+catch against the arc: θ-on-T6 was hardcoded "definitional"; cc3's trace-level first pass
+returned FIX (traces are cyclic-invariant — θ-even always) before the matrix-level pass
+confirmed FLIP (6 nonzero Sym²-difference derivative entries, trace exactly 0 — cc
+re-verified at the gate). The lesson banked: THE CHORD IS INVISIBLE TO tr() — matrix-level
+observables need matrix-level derivations; hardcoded "definitional" entries are the MB12
+class's subtlest cousin. γ₃≡c upgraded to field-theoretic; the T1 door certified genuine
+(probed against central τ). 17 audit locks green; gate re-execution identical.

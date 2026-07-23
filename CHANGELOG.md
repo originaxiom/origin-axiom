@@ -1,5 +1,11 @@
 # Changelog
 
+## B768 receipt #2 — Side B cited: CANDIDATE-DOCUMENTED; the uniqueness tiebreaker over-read
+- Citations delivered and spot-checked: Gallagher verified; Haggard & Tsakiris real but over-read (feeling-vs-judgment ≠ binary-vs-graded) — C7, the uniqueness tiebreaker, is documented-weak. Both discriminators pass with citations; the null still blocked on the enumeration. Four literature-decidable consequence forks named.
+
+## B768 — the correspondence cross-test: the first matrix, CANDIDATE-PROVISIONAL
+- The courier's assignment (Self/Other, Active/Passive, When/Which, encounter=XOR, Attention=T1) is the first to pass both sealed discriminator gates; its mathematical skeleton verified (the Fibonacci transition matrix, P(b|b)=0 exact). Not unique yet: no citations (S-room quarantine per the sealed bar), no enumeration (the null blocked). H-WORD-WELD flagged. Locks test_b768 (3).
+
 ## B766 — the measurement torsor: RANK-SATURATED (three bits close the object)
 - The discrete closing set has 𝔽₂-rank exactly 3 = the banked menu (generators c/θ/γ₅; γ₃ ≡ c). Two exact identities: time's arrow = the basepoint bit (the golden branch); the chord's sign = c⊕θ. C20 minted; T1 a named door; the continuous residue stays Galois-chosen. Locks test_b766 (5).
 
