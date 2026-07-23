@@ -1,0 +1,153 @@
+
+========================================================================
+PART 1 -- the conditional kill, formalized ALL-n (symbolic)
+========================================================================
+Legendre (-3/5) = -1   (inert iff -1)
+roots of T^2+T+1 mod 5: []  (empty <=> 5 inert, Z[w]/(5) = F_25)
+sympy is_irreducible over F_5: True
+3 is a unit at 5: 3 * 2 = 6 = 1 mod 5
+norm identity: N(a + b*omega) = a**2 - a*b + b**2
+LEMMA proved (all-n): c in Z[omega][1/3]  ==>  v_5(c) >= 0.
+kill inequality n + v5(n!) >= 1 for n=1..60: True
+=> CONDITIONAL KILL FORMALIZED (all-n): [Psi in Z[omega][1/3][[u]]]
+   ==> [v5(every coefficient) >= 0] ==> [no order can carry the
+   5-adic hearing denominators]. ONE premise remains: 3-integrality.
+
+========================================================================
+PART 2 -- the stream r_j, extracted in-cell (two ladders + PSLQ)
+========================================================================
+dps = 520, Vol(4_1) = 2.02988321281930725
+ladder A: N = 1600..35200 (22 pts); ladder B: N = 2400..36000 (22 pts)
+[A] c0 (must be 1): 1.0
+  [A] j=1: trusted ~58d, r_1 = 11/24 (residual 3.72e-63, accept: True)
+  [A] j=2: trusted ~53d, r_2 = 697/1152 (residual 5.86e-58, accept: True)
+  [A] j=3: trusted ~48d, r_3 = 724351/414720 (residual 5.77e-53, accept: True)
+  [A] j=4: trusted ~44d, r_4 = 278392949/39813120 (residual 3.98e-48, accept: True)
+  [A] j=5: trusted ~40d, r_5 = 244284791741/6688604160 (residual 2.05e-43, accept: True)
+  [A] j=6: trusted ~36d, r_6 = 1140363907117019/4815794995200 (residual 8.15e-39, accept: True)
+  [A] j=7: trusted ~33d; NOT recognized -- stop
+  (51s elapsed)
+[B] c0 (must be 1): 1.0
+  [B] j=1: trusted ~58d, r_1 = 11/24 (residual 7.12e-64, accept: True)
+  [B] j=2: trusted ~53d, r_2 = 697/1152 (residual 1.17e-58, accept: True)
+  [B] j=3: trusted ~49d, r_3 = 724351/414720 (residual 1.21e-53, accept: True)
+  [B] j=4: trusted ~44d, r_4 = 278392949/39813120 (residual 8.73e-49, accept: True)
+  [B] j=5: trusted ~40d, r_5 = 244284791741/6688604160 (residual 4.71e-44, accept: True)
+  [B] j=6: trusted ~37d, r_6 = 1140363907117019/4815794995200 (residual 1.97e-39, accept: True)
+  [B] j=7: trusted ~33d; NOT recognized -- stop
+  (138s elapsed)
+cross-ladder agreement: r_1..r_6 identical on both seeds
+GATES: r1 = 11/24, r2 = 697/1152 -- printed eq (1) REPRODUCED in-cell
+
+prime support of den(r_j)  [the Phi-level stream]:
+  den r_1 = {2: 3, 3: 1}   pure-3: False   v5 = 0
+  den r_2 = {2: 7, 3: 2}   pure-3: False   v5 = 0
+  den r_3 = {2: 10, 3: 4, 5: 1}   pure-3: False   v5 = 1
+  den r_4 = {2: 15, 3: 5, 5: 1}   pure-3: False   v5 = 1
+  den r_5 = {2: 18, 3: 6, 5: 1, 7: 1}   pure-3: False   v5 = 1
+  den r_6 = {2: 22, 3: 8, 5: 2, 7: 1}   pure-3: False   v5 = 2
+FACT: the Phi-level stream is integral away from 3: False
+  (5 enters at j=3, 7 at j=5: the prime support GROWS -- there is
+   no termwise integrality to induct on; the 3-integrality, if true,
+   is a cancellation between the two Galois-conjugate saddle series.)
+
+========================================================================
+PART 3 -- structure of the claim (exact symbolic) + prediction
+========================================================================
+T1 (evenness + Q-form) generic check to order 12: True
+T2 (T(k,j) = j! s(k,j)/k!) check to order 12: True
+Q_2 = 1   Q_4 = 51/4
+[h^4]Psi = 17/972, den = {2: 2, 3: 5}  -> pure-3 in h: False
+FACT: pure-3 FAILS in the h = log q variable (den carries 2^2);
+      the property is specific to u = q-1 -- the HABIRO/(q-1)-adic
+      level -- not a formal-variable triviality.
+
+congruence-tower schedule (first k where v_p(T(k,2m)) < 0, k <= 20):
+  p =  2: enters at k = 4
+  p =  5: enters at k = 6
+  p =  7: enters at k = 8
+  p = 11: enters at k = 12
+  p = 13: enters at k = 14
+  p = 17: enters at k = 18
+  p = 19: enters at k = 20
+=> EVERY prime p != 3 eventually multiplies the Q-stream with a
+   negative v_p weight: pure-3 at all orders = an UNBOUNDED family
+   of independent congruences on {Q_2m} (fresh ones at every k).
+
+c_6(Q_6) = 623/29160 - Q6/19683
+c_7(Q_6) = Q6/6561 - 343/9720
+u^6 pins Q_6 = 16821/40 mod Z[1/3];  u^7 pins Q_6 = 9261/40 mod Z[1/3]
+consistency: difference = 189 (must lie in Z[1/3]): True
+=> the two conditions are CONSISTENT (a nontrivial internal check of
+   the congruence tower at a depth beyond the banked u^5).
+
+PREDICTION TEST (recognized r_6 = 1140363907117019/4815794995200):
+  Q_6 = 17821/40
+  Q_6 - 16821/40 = 25, den = {} -> in Z[1/3]: True
+  PREDICTION VERIFIED: the stream obeys the u^6/u^7 congruence.
+
+Psi in u = q-1 through u^7:
+  u^0: 1   den 1   pure-3: True
+  u^1: 0   den 1   pure-3: True
+  u^2: -1/27   den {3: 3}   pure-3: True   [eq(2) prints -1/27: MATCH]
+  u^3: 1/27   den {3: 3}   pure-3: True   [eq(2) prints 1/27: MATCH]
+  u^4: -4/243   den {3: 5}   pure-3: True   [eq(2) prints -4/243: MATCH]
+  u^5: -1/243   den {3: 5}   pure-3: True   [eq(2) prints -1/243: MATCH]
+  u^6: -25/19683   den {3: 9}   pure-3: True
+  u^7: 214/6561   den {3: 8}   pure-3: True
+pure-3 through u^7: True
+eq (2) printed coefficients reproduced: True
+
+========================================================================
+PART 4 -- the obstruction, demonstrated (why no in-cell all-n proof)
+========================================================================
+c_4(r_3 -> r_3 + eps) = -11*epsilon/8748 - 4/243
+at eps = 1 (a Z-perturbation): c_4 = -155/8748, den = {2: 2, 3: 7}, pure-3: False
+=> pure-3 is NOT a consequence of the symmetrisation structure;
+   it is an arithmetic identity binding the ENTIRE stream {r_j}.
+
+THE BLOCKER (named): the stream {r_j} is defined only through the
+asymptotic expansion of the Kashaev sum -- the cell holds no all-order
+generating principle for it. An all-n proof of Z[omega][1/3]-membership
+must therefore supply an all-order structural theorem about the stream;
+the one that exists is EXTERNAL: Garoufalidis-Scholze-Wheeler-Zagier,
+"The Habiro ring of a number field" (arXiv:2412.04241) -- Phi(h)Phi(-h)
+is (the (q-1)-expansion of) an element of the Habiro ring of Q(sqrt(-3)),
+i.e. a collection of series at roots of unity that ARITHMETICALLY GLUE
+after Frobenius; integrality away from the ramified prime 3 follows.
+That gluing apparatus (K_3-graded modules, Frobenius descent) is not a
+finite symbolic computation: in-cell we can (and did) verify any finite
+depth and the tower's internal consistency, but each new order imposes
+FRESH congruences (Part 3 schedule), so no finite computation exhausts
+the premise. The named level is OBSTRUCTED in-sandbox.
+
+========================================================================
+VERDICT
+========================================================================
+RESOLVED-B (OBSTRUCTED, blocker named).
+  PROVED all-n in-cell (symbolic):
+    (i)  5 inert in Z[omega]; every c in Z[omega][1/3] has v_5(c) >= 0;
+         combined with the divided-power law's v5 = n + v5(n!) >= 1, the
+         depth-exposed kill is FORMALIZED at every order, conditional on
+         exactly one premise (3-integrality of the symmetrised series).
+    (ii) T1/T2: the even/Q_2m product form and the u-transfer (the frame
+         in which the premise is a well-posed arithmetic statement).
+  COMPUTED in-cell (the premise's status):
+    - the Phi-level stream is NOT integral away from 3 (5 at j=3, 7 at
+      j=5, growing support) -- no termwise route;
+    - pure-3 FAILS in the h-variable ([h^4] = 17/972) -- the property
+      lives only at the (q-1)/Habiro level;
+    - pure-3 verified exactly to the reachable depth (u^7 if r_6
+      recognized on both ladders, else the banked u^5), extending B755;
+    - the u^6/u^7 congruences on Q_6 are mutually consistent and the
+      recognized r_6 SATISFIES the pinned value 16821/40 mod Z[1/3];
+    - a Z-perturbation of one r_j preserves all formalized structure
+      and breaks pure-3: the premise is an arithmetic identity on the
+      whole stream, with fresh congruences mod every prime p != 3
+      entering at k = p+1 (unbounded tower).
+  BLOCKER: all-order 3-integrality = Habiro-ring-of-Q(sqrt(-3))
+  membership of Phi(h)Phi(-h) (GSWZ, arXiv:2412.04241) -- an external
+  arithmetic-gluing theorem, not reproducible as a finite in-sandbox
+  symbolic computation. B685's terminal no-go now rests on: [in-cell
+  all-n conditional kill, PROVED] + [one named external premise].
+total 185s

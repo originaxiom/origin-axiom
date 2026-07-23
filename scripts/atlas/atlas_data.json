@@ -16065,6 +16065,39 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B771": {
+   "slug": "phase1 wave1",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B171",
+    "B178",
+    "B332",
+    "B386",
+    "B399",
+    "B403",
+    "B405",
+    "B406",
+    "B685",
+    "H103",
+    "H112",
+    "H115",
+    "L39",
+    "P66"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B77": {
    "slug": "degree rank mechanism",
    "motifs": [

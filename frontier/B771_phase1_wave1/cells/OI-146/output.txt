@@ -1,0 +1,62 @@
+==============================================================================
+OI-146 / B332 -- Bianchi commensurator index [Gamma:Gamma cap g Gamma g^-1]
+==============================================================================
+
+--- PART 0: symbolic sanity checks (exact, over Z[w] / Z[omega]) ---
+  g_eq_negRLinv: True
+  ginv_a_eq_negL: True
+  g_is_order3: True
+  gag^-1: [[1, 0], [-1, 1]]
+  gag^-1_eq_Linv: True
+  relator_forces: w**2 + w + 1
+  g_b_ginv_symbolic: [[1 - w, w], [-w, w + 1]]
+
+--- PART 1a: independent (M-free) true-index confirmation, Humbert volume ---
+  vol(minimal orbifold H^3/PSL(2,O_3)) = 0.1672511561058697136562440373516608004329
+  vol(4_1 complement)                  = 2.007013873270436563874928448219929605195
+  ratio (= true [PSL(2,O_3):Gamma])     = 12.0  (rounds to 12: True)
+  => since finite-level index at M=8 (below) attains this SAME value 12, and
+     finite-level index <= true index always with equality iff congruence at
+     that level, M=8 is PROVABLY an exact congruence level for Gamma (no
+     B731-style premature-plateau risk -- decisive already at M=8).
+
+--- PART 1b: finite congruence-quotient computation ---
+
+Reproduction of B734's banked levels (build-quality check):
+  level 2: ambient=60 Gamma_bar=10 SL_index=6  matches_banked=True  [0.0s]
+  level 4: ambient=3840 Gamma_bar=320 SL_index=12  matches_banked=True  [0.2s]
+  level 8: ambient=245760 Gamma_bar=20480 SL_index=12  matches_banked=True  [13.5s]
+
+MAIN RESULT (level 8, omega-basis):
+  det(g) mod 8 = (1, 0)  (must be (1,0) for g in SL(2,O/8))
+  |Gamma_bar| = 20480
+  |g Gamma_bar g^-1| = 20480  (direct-conjugation build matches independent BFS-from-conjugated-generators build: True)
+  |Gamma_bar cap g Gamma_bar g^-1| = 2048
+  [Gamma_bar : Gamma_bar cap g Gamma_bar g^-1] = 10.0  (exact integer division: True)
+  same index using g^-1 instead of g: 10.0
+  central scalars mod 8: 8, of which in Gamma_bar: 8
+
+CROSS-CHECK (independent z-basis, B734 convention):
+  [Gamma_bar : Gamma_bar cap g Gamma_bar g^-1] = 10.0  (exact: True)
+
+CROSS-CHECK (level 16, still an exact congruence level, 8 | 16):
+  |Gamma_bar| = 1310720, [Gamma_bar : Gamma_bar cap g Gamma_bar g^-1] = 10.0  (exact: True)  [32.0s]
+
+--- PART 1c: THIRD independent method -- explicit 12-coset orbit count ---
+  num right cosets of Gamma_bar in ambient SL(2,O/8): 12 (matches geometric index 12: True)
+  orbit of g*Gamma_bar under LEFT mult by Gamma_bar: size 10  (= [Gamma_bar : Gamma_bar cap g Gamma_bar g^-1] by orbit-stabilizer, independently of the subgroup-intersection count above)
+
+==============================================================================
+CLAIMED (B332, quarantined, 'not asserted'): [Gamma:Gamma cap g Gamma g^-1] = 3
+COMPUTED (subgroup-intersection, omega-basis, level 8):  10
+COMPUTED (subgroup-intersection, z-basis,     level 8):  10
+COMPUTED (subgroup-intersection, omega-basis, level 16): 10
+COMPUTED (g^-1 direction,        omega-basis, level 8):  10
+COMPUTED (explicit 12-coset orbit count,      level 8):  10
+ALL FIVE INDEPENDENT COMPUTATIONS AGREE WITH EACH OTHER: True
+THAT SHARED VALUE EQUALS THE CLAIMED 3: False
+==============================================================================
+
+VERDICT: RESOLVED-B: discrepancy shown. The claimed index is 3; the rigorously computed index is 10 (5 independent computations agree with EACH OTHER: True; the M=8 read is provably exact -- not a premature plateau -- via the Humbert true-index match to 12, see PART 1a). The claim '=3' does not hold; the actual exact value is 10.
+
+[written] output.json

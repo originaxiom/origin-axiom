@@ -1,0 +1,182 @@
+{
+ "part0_symbolic": {
+  "g_eq_negRLinv": true,
+  "ginv_a_eq_negL": true,
+  "g_is_order3": true,
+  "gag^-1": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "-1",
+    "1"
+   ]
+  ],
+  "gag^-1_eq_Linv": true,
+  "relator_forces": "w**2 + w + 1",
+  "g_b_ginv_symbolic": "[[1 - w, w], [-w, w + 1]]"
+ },
+ "humbert_true_index": {
+  "vol_orbifold": "0.1672511561058697136562440373516608004329",
+  "vol_m004": "2.007013873270436563874928448219929605195",
+  "index_ratio": "12.0",
+  "index_ratio_rounds_to_12": true
+ },
+ "part1_finite": {
+  "reproduction_of_B734": {
+   "2": {
+    "basis": "omega",
+    "M": 2,
+    "ambient_order": 60,
+    "Gamma_bar_order": 10,
+    "SL_index_of_Gamma": 6,
+    "det_g_mod_M": [
+     1,
+     0
+    ],
+    "conjugate_build_matches_direct": true,
+    "conj_gGammag_inv_order": 10,
+    "intersection_order": 2,
+    "index_Gamma_over_intersection": 5.0,
+    "index_Gamma_over_intersection_exact": 5,
+    "index_divides_exactly": true,
+    "index_ginv_direction": 5.0,
+    "index_ginv_exact": 5,
+    "n_central_scalars_mod_M": 1,
+    "n_central_scalars_in_Gamma_bar": 1,
+    "secs_gamma_bfs": 0.0,
+    "secs_ambient_bfs": 0.0,
+    "matches_banked_B734": true
+   },
+   "4": {
+    "basis": "omega",
+    "M": 4,
+    "ambient_order": 3840,
+    "Gamma_bar_order": 320,
+    "SL_index_of_Gamma": 12,
+    "det_g_mod_M": [
+     1,
+     0
+    ],
+    "conjugate_build_matches_direct": true,
+    "conj_gGammag_inv_order": 320,
+    "intersection_order": 32,
+    "index_Gamma_over_intersection": 10.0,
+    "index_Gamma_over_intersection_exact": 10,
+    "index_divides_exactly": true,
+    "index_ginv_direction": 10.0,
+    "index_ginv_exact": 10,
+    "n_central_scalars_mod_M": 4,
+    "n_central_scalars_in_Gamma_bar": 2,
+    "secs_gamma_bfs": 0.01,
+    "secs_ambient_bfs": 0.18,
+    "matches_banked_B734": true
+   },
+   "8": {
+    "basis": "omega",
+    "M": 8,
+    "ambient_order": 245760,
+    "Gamma_bar_order": 20480,
+    "SL_index_of_Gamma": 12,
+    "det_g_mod_M": [
+     1,
+     0
+    ],
+    "conjugate_build_matches_direct": true,
+    "conj_gGammag_inv_order": 20480,
+    "intersection_order": 2048,
+    "index_Gamma_over_intersection": 10.0,
+    "index_Gamma_over_intersection_exact": 10,
+    "index_divides_exactly": true,
+    "index_ginv_direction": 10.0,
+    "index_ginv_exact": 10,
+    "n_central_scalars_mod_M": 8,
+    "n_central_scalars_in_Gamma_bar": 8,
+    "secs_gamma_bfs": 0.51,
+    "secs_ambient_bfs": 11.84,
+    "matches_banked_B734": true
+   }
+  },
+  "main_level8_omega": {
+   "basis": "omega",
+   "M": 8,
+   "ambient_order": null,
+   "Gamma_bar_order": 20480,
+   "SL_index_of_Gamma": null,
+   "det_g_mod_M": [
+    1,
+    0
+   ],
+   "conjugate_build_matches_direct": true,
+   "conj_gGammag_inv_order": 20480,
+   "intersection_order": 2048,
+   "index_Gamma_over_intersection": 10.0,
+   "index_Gamma_over_intersection_exact": 10,
+   "index_divides_exactly": true,
+   "index_ginv_direction": 10.0,
+   "index_ginv_exact": 10,
+   "n_central_scalars_mod_M": 8,
+   "n_central_scalars_in_Gamma_bar": 8,
+   "secs_gamma_bfs": 0.5,
+   "secs_ambient_bfs": null
+  },
+  "main_level8_zbasis": {
+   "basis": "z",
+   "M": 8,
+   "ambient_order": null,
+   "Gamma_bar_order": 20480,
+   "SL_index_of_Gamma": null,
+   "det_g_mod_M": [
+    1,
+    0
+   ],
+   "conjugate_build_matches_direct": true,
+   "conj_gGammag_inv_order": 20480,
+   "intersection_order": 2048,
+   "index_Gamma_over_intersection": 10.0,
+   "index_Gamma_over_intersection_exact": 10,
+   "index_divides_exactly": true,
+   "index_ginv_direction": 10.0,
+   "index_ginv_exact": 10,
+   "n_central_scalars_mod_M": 8,
+   "n_central_scalars_in_Gamma_bar": 8,
+   "secs_gamma_bfs": 0.48,
+   "secs_ambient_bfs": null
+  },
+  "level16_stability_check": {
+   "basis": "omega",
+   "M": 16,
+   "ambient_order": null,
+   "Gamma_bar_order": 1310720,
+   "SL_index_of_Gamma": null,
+   "det_g_mod_M": [
+    1,
+    0
+   ],
+   "conjugate_build_matches_direct": true,
+   "conj_gGammag_inv_order": 1310720,
+   "intersection_order": 131072,
+   "index_Gamma_over_intersection": 10.0,
+   "index_Gamma_over_intersection_exact": 10,
+   "index_divides_exactly": true,
+   "index_ginv_direction": 10.0,
+   "index_ginv_exact": 10,
+   "n_central_scalars_mod_M": 8,
+   "n_central_scalars_in_Gamma_bar": 8,
+   "secs_gamma_bfs": 34.46,
+   "secs_ambient_bfs": null,
+   "secs_total": 115.44
+  }
+ },
+ "coset_orbit_cross_check": {
+  "num_cosets": 12,
+  "orbit_size": 10,
+  "matches_geometric_index": true
+ },
+ "claimed_index": 3,
+ "computed_index_main": 10,
+ "all_five_methods_agree_with_each_other": true,
+ "agree_with_claim": false,
+ "verdict": "RESOLVED-B: discrepancy shown. The claimed index is 3; the rigorously computed index is 10 (5 independent computations agree with EACH OTHER: True; the M=8 read is provably exact -- not a premature plateau -- via the Humbert true-index match to 12, see PART 1a). The claim '=3' does not hold; the actual exact value is 10."
+}

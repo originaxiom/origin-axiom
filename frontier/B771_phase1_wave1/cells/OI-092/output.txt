@@ -1,0 +1,54 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+==============================================================================================================
+OI-092 -- genus-2 twister complex_volume re-run (B771 Phase-1 Wave-1)
+snappy version: 3.3.2
+python: 3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]
+==============================================================================================================
+
+[Step 0] Reproduce the original failure verbatim (before any fix)
+    num_tetrahedra: 13
+    solution_type: all tetrahedra positively oriented
+    num_cusps: 1
+    cusp_filling: (1.0, 0.0)
+    raw_error: ValueError("The Chern-Simons invariant isn't currently known.")
+    raw_failed: True
+
+[Step 1] Chirality check (symmetry group) -- confirms this genus-2 example is chiral
+    is_full_group: True
+    is_amphicheiral: False
+    symmetry_group_str: Z/2 + Z/2
+
+[Step 2] Two-seed re-run with the CS-initialization fix (unfill -> chern_simons() -> refill)
+    word: a*B*c*d*E, filling: (1.0, 0.0)
+    seed1: num_tet=11 randomize_tries=0
+        unfilled_solution_type = contains negatively oriented tetrahedra
+        cs_unfilled (init)     = -0.14785566126051297
+        refilled_solution_type = all tetrahedra positively oriented
+        complex_volume         = 7.5176898965 - 2.3816866587*I
+    seed2: num_tet=11 randomize_tries=0
+        unfilled_solution_type = all tetrahedra positively oriented
+        cs_unfilled (init)     = -0.14785566126051344
+        refilled_solution_type = all tetrahedra positively oriented
+        complex_volume         = 7.5176898965 - 2.3816866587*I
+    seed1 vs seed2 |diff| = 2.921e-14  (tol 1e-09)  agree: True
+
+[Step 3] Mirror manifold, same two-seed protocol
+    mirror_seed1: num_tet=11  complex_volume = 7.5176898965 + 2.3816866587*I
+    mirror_seed2: num_tet=10  complex_volume = 7.5176898965 + 2.3816866587*I
+    mirror seed1 vs seed2 |diff| = 1.601e-15  agree: True
+
+[Step 4] Orientation-reversal structural check (the B140 claim, now numeric at genus 2)
+    M    complex_volume = (7.517689896474573-2.3816866587273093j)
+    Mbar complex_volume = (7.517689896474568+2.381686658727326j)
+    |vol(M) - vol(Mbar)| = 4.441e-15   vol_equal (tol 1e-09): True
+    CS(M) + CS(Mbar)     = 1.688e-14   cs_opposite (tol 1e-09): True
+    CS(M) nonzero (chiral, consistent with Step 1): True
+
+    ALL CHECKS PASS: True
+
+==============================================================================================================
+VERDICT INPUTS:
+    raw_call_failed_as_recorded: True
+    fix_resolves_and_confirms_banked_structure: True
+==============================================================================================================

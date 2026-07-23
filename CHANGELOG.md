@@ -1,5 +1,8 @@
 # Changelog
 
+## B771 Wave 1 — the first closure batch: 11 verdicts banked (e₃ EXACT; B685 formalized-to-premise; the D4 ceiling identified)
+- Headliners: e₃ = cos(2π/9)/864 exactly — the depth-5 triple closes and the level-1215 triple IS the ζ₂₇ Chebyshev-trisection rung (three independent routes); B685's conditional kill proved all-n in-cell with the single premise pinned to the GSWZ Habiro-ring theorem (obstruction computed, not asserted) and depth extended u⁵→u⁷ with a verified congruence prediction; the D4 ceiling 1.7849887… = √(5+2√3−2√2−√6) (deg-8 minpoly, 120 digits). Also: L39 promoted to theorem; B332's quarantined index refuted (=10, five ways); H103 refuted (a chiral 2T subgroup exists — Level 3 reachable); H112's two 15s independent (family law tr(A_mA_n)=(mn)²+(m+n)²+2 exact); H115 promoted; genus-2 CS and torsion-one confirmed. The verification layer caught one circular scale choice (OI-148 — stays LIVE, re-derives under the new e₃ normalization) and one lost report (OI-150 — clean re-run). 7 locks.
+
 ## B770 — the Closure Census: the record's full open surface mapped (Phase 0 DONE)
 - 431 raw items from 10/10 ledgers → 352 unique → 352 classified into the six sealed states (prereg 7682759b before compute): LIVE 225 (phased into the program's five phases), EXTERNAL 50, CLOSED 39, STALE 27, CONSTITUTIVELY-OPEN 6, WALLED 5. The adversarial pass refuted 16 unearned closures back to LIVE; every surviving closure carries an opened-and-verified citation. 87 agents, 0 errors; 6 compute-grade locks. The owner checkpoint (Phase 1 go/no-go) is next.
 

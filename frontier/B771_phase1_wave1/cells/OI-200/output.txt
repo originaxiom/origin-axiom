@@ -1,0 +1,90 @@
+[     0.0s] == STEP 1: independent recomputation, two precisions ==
+[     0.0s] ---- pipeline run at dps=120 ----
+[     0.0s] GATE G0[k=2,dps=120] S unitary: PASS  err=1.94e-121
+[     0.0s] GATE G0[k=2,dps=120] S symmetric: PASS  err=0.0
+[     0.0s] GATE G0[k=2,dps=120] S^2 = C(conjugation): PASS  err=1.74e-121
+[     0.0s] GATE G0[k=2,dps=120] S^4 = I: PASS  err=3.25e-121
+[     0.0s] GATE G0[k=2,dps=120] (ST)^3 = S^2: PASS  err=4.75e-121
+[     0.0s] GATE G0[k=2,dps=120] S00 > 0: PASS  S00=(0.303531 - 1.117921e-122j)
+[     0.0s] GATE G1[dps=120] golden |tr_odd|(k=2,m=1) = 1/phi: PASS  err=5.81e-121
+[     0.4s] GATE G0[k=5,dps=120] S unitary: PASS  err=3.29e-121
+[     0.4s] GATE G0[k=5,dps=120] S symmetric: PASS  err=0.0
+[     0.4s] GATE G0[k=5,dps=120] S^2 = C(conjugation): PASS  err=3.31e-121
+[     0.4s] GATE G0[k=5,dps=120] S^4 = I: PASS  err=6.57e-121
+[     0.4s] GATE G0[k=5,dps=120] (ST)^3 = S^2: PASS  err=7.55e-121
+[     0.4s] GATE G0[k=5,dps=120] S00 > 0: PASS  S00=(0.059786578 + 0.0j)
+[     0.8s] GATE G3[dps=120] k=5 ceiling attained at n=10: PASS  argmax n=10
+[     0.8s]   (n=10,kappa=8): tr_odd = (-0.2071067811865475244008443621048490392848 + 1.772933029980245451136607590809707591081j)
+[     0.8s]   |tr_odd| = 1.784988724784665521124751704550397770824
+[     0.8s] ---- pipeline run at dps=60 ----
+[     0.9s] GATE G0[k=2,dps=60] S unitary: PASS  err=1.7e-61
+[     0.9s] GATE G0[k=2,dps=60] S symmetric: PASS  err=0.0
+[     0.9s] GATE G0[k=2,dps=60] S^2 = C(conjugation): PASS  err=1.7e-61
+[     0.9s] GATE G0[k=2,dps=60] S^4 = I: PASS  err=3.41e-61
+[     0.9s] GATE G0[k=2,dps=60] (ST)^3 = S^2: PASS  err=2.92e-61
+[     0.9s] GATE G0[k=2,dps=60] S00 > 0: PASS  S00=(0.303531 + 8.9821489e-63j)
+[     0.9s] GATE G1[dps=60] golden |tr_odd|(k=2,m=1) = 1/phi: PASS  err=7.78e-62
+[     1.1s] GATE G0[k=5,dps=60] S unitary: PASS  err=3.89e-61
+[     1.1s] GATE G0[k=5,dps=60] S symmetric: PASS  err=0.0
+[     1.1s] GATE G0[k=5,dps=60] S^2 = C(conjugation): PASS  err=3.89e-61
+[     1.1s] GATE G0[k=5,dps=60] S^4 = I: PASS  err=7.78e-61
+[     1.1s] GATE G0[k=5,dps=60] (ST)^3 = S^2: PASS  err=5.97e-61
+[     1.1s] GATE G0[k=5,dps=60] S00 > 0: PASS  S00=(0.059786578 + 0.0j)
+[     1.5s] GATE G3[dps=60] k=5 ceiling attained at n=10: PASS  argmax n=10
+[     1.5s]   (n=10,kappa=8): tr_odd = (-0.2071067811865475244008443621048490392848 + 1.772933029980245451136607590809707591081j)
+[     1.5s]   |tr_odd| = 1.784988724784665521124751704550397770824
+[     1.5s] ---- gate run k=9 at dps=50 (N=55) ----
+[     5.8s] GATE G0[k=9,dps=50] S unitary: PASS  err=6.38e-51
+[     5.8s] GATE G0[k=9,dps=50] S symmetric: PASS  err=0.0
+[     5.8s] GATE G0[k=9,dps=50] S^2 = C(conjugation): PASS  err=6.45e-51
+[     5.8s] GATE G0[k=9,dps=50] S^4 = I: PASS  err=1.28e-50
+[     5.8s] GATE G0[k=9,dps=50] (ST)^3 = S^2: PASS  err=1.53e-50
+[     5.8s] GATE G0[k=9,dps=50] S00 > 0: PASS  S00=(0.012891712 + 0.0j)
+[     6.7s] GATE G2 cross-campaign |tr_odd|(k=9,m=2) = sqrt(3)-1: PASS  err=6.68e-51
+[     6.7s] seed agreement dps120 vs dps60: 62 digits
+[     6.7s] GATE G4 two-seed agreement >= 50 digits: PASS  agree=62
+[     6.7s] agreement with stored B678 39-digit value: 40 digits
+[     6.7s] == STEP 2: PSLQ identification ==
+[     6.7s] tolerance-height rule: tol = 10^-48
+[     6.7s]   degree 1 (maxcoeff=10000): None
+[     6.7s]   degree 2 (maxcoeff=10000): None
+[     6.7s]   degree 3 (maxcoeff=10000): None
+[     6.7s]   degree 4 (maxcoeff=10000): None
+[     6.7s]   degree 5 (maxcoeff=10000): None
+[     6.8s]   degree 6 (maxcoeff=10000): None
+[     6.9s]   degree 7 (maxcoeff=10000): None
+[     6.9s]   degree 8 (maxcoeff=1000000): [-97, 0, 172, 0, -98, 0, 20, 0, -1]
+[     6.9s]   linear over {1,sqrt2,sqrt3,sqrt5,sqrt6,sqrt10,sqrt15,sqrt30,phi}+x: [1, 0, 0, 1, 0, 0, 0, 0, -2, 0]
+[     6.9s] GATE G5c degenerate-basis relation does not involve x: PASS  internal basis relation only (phi dependent on {1,sqrt5})
+[     7.1s]   linear over the non-degenerate multiquadratic basis {1,sqrt2,sqrt3,sqrt5,sqrt6,sqrt10,sqrt15,sqrt30}+x: None  (x is NOT multiquadratic -- this is WHY the B678 attempt failed)
+[     7.1s] GATE G5d x not in Q(sqrt2,sqrt3,sqrt5) at height 10^4 (expected negative): PASS  
+[     7.1s]   y = x^2 over {1, y, sqrt2, sqrt3, sqrt6}: [-5, 1, 2, -2, 1]
+[     7.1s] GATE G5 PSLQ found the octic: PASS  [-97, 0, 172, 0, -98, 0, 20, 0, -1]
+[     7.1s] GATE G5b PSLQ found y in Q(sqrt2,sqrt3): PASS  [-5, 1, 2, -2, 1]
+[     7.1s] == STEP 3: exact candidate + BOTH-direction verification ==
+[     7.2s]   PSLQ octic: x**8 - 20*x**6 + 98*x**4 - 172*x**2 + 97
+[     7.2s]   octic irreducible over Q: True
+[     7.2s] GATE G6 octic irreducible (degree exactly 8): PASS  
+[     7.2s]   candidate: x = sqrt(-2*sqrt(2) - sqrt(6) + 2*sqrt(3) + 5)
+[     7.2s]   sqrtdenest attempt: sqrt(-2*sqrt(2) - sqrt(6) + 2*sqrt(3) + 5)
+[     7.2s]   direction 1: |octic(x_recomputed)| = 8.3047e-119
+[     7.2s] GATE G7 direction-1: octic residual < 1e-100: PASS  resid=8.3e-119
+[     7.2s]   direction 2: candidate vs recomputed agree to 120 digits
+[     7.2s] GATE G8 direction-2: >= 100 digits agreement: PASS  agree=120
+[     7.2s]   minimal_polynomial(candidate) = x**8 - 20*x**6 + 98*x**4 - 172*x**2 + 97
+[     7.2s] GATE G9 minpoly(candidate) == PSLQ octic (exact, sympy): PASS  
+[     7.2s]   quartic in y = x^2: y**4 - 20*y**3 + 98*y**2 - 172*y + 97
+[     7.2s] GATE G10 y-conjugates are 5+2s*sqrt3+2t*sqrt2+st*sqrt6 (exact): PASS  
+[     7.2s] == STEP 4: complete (n=10,kappa=8) row identification ==
+[     7.2s]   Re(tr_odd) vs (1-sqrt2)/2: err = 8.96e-121
+[     7.2s]   Im(tr_odd) vs sqrt(17+8sqrt3-6sqrt2-4sqrt6)/2: err = 1.55e-120
+[     7.2s] GATE G11 Re(tr_odd) = (1-sqrt2)/2 (110+ digits): PASS  err=8.96e-121
+[     7.2s] GATE G12 Im(tr_odd) = sqrt(17+8sqrt3-6sqrt2-4sqrt6)/2 (110+ digits): PASS  err=1.55e-120
+[     7.2s] GATE G13 Re^2 + Im^2 == y (exact, sympy): PASS  
+[     7.2s] == DONE: all gates passed; results.json written ==
+
+IDENTIFICATION (verified both directions):
+  |tr_odd|(n=10, kappa=8) = sqrt(-2*sqrt(2) - sqrt(6) + 2*sqrt(3) + 5)
+  minimal polynomial: x**8 - 20*x**6 + 98*x**4 - 172*x**2 + 97  (irreducible/Q, degree 8)
+  x^2 in Q(sqrt2, sqrt3); x itself degree 8 (nested radical --
+  NOT in the multiquadratic Q(sqrt2,sqrt3,sqrt5,phi) B678 searched)

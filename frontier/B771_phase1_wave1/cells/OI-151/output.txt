@@ -1,0 +1,97 @@
+========================================================================
+OI-151 -- B38/B39 torsion-one identity (B771 Phase-1 Wave-1)
+Scope: the algebraic identity only. T1-naturality WALL untouched.
+========================================================================
+
+------------------------------------------------------------------------
+PART 1 -- basis-free identity: det(N-I) = 2 - tr(N) for N in SL(2)
+------------------------------------------------------------------------
+    generic N = [[a, b], [c, d]], det(N) = a*d - b*c
+    det(N)=1 solved for d: d = (b*c + 1)/a
+    det(N-I) [generic, det=1 imposed]  = -(a**2 - 2*a + b*c + 1)/a
+    2 - tr(N) [same substitution]      = -(a**2 - 2*a + b*c + 1)/a
+    residual (must be 0)               = 0
+    Cayley-Hamilton cross-check: charpoly(1) = 2 - mu = 2-mu  (independent route)
+
+    VERIFIED: for ANY 2x2 matrix N with det(N)=1, det(N-I)=2-tr(N)
+    exactly -- basis-independent, proven two independent ways
+    (direct symbolic determinant + Cayley-Hamilton at t=1).
+
+------------------------------------------------------------------------
+PART 2 -- the REAL trace-map Jacobians (independently re-derived, not cited)
+------------------------------------------------------------------------
+
+    [half-return T^3]
+        image T^3(0,0,c) subs = (0, 0, -c)
+        char(DT^3) = (t + 1)*(-4*c**2*t + t**2 + 2*t + 1)
+        det(DT^3)  = -1
+        trivial eigenvalue (exact rational root of char poly) = -1
+        transverse quadratic factor = -4*c**2*t + t**2 + 2*t + 1
+        transverse factor constant term (must be 1, i.e. det=1) = 1
+        => transverse block is genuinely SL(2): trace mu(c) = 4*c**2 - 2
+        consistency: det(DT^3) should equal trivial-eigenvalue * 1 = -1
+        det(transverse - I) = 2 - mu(c) = 4 - 4*c**2   [Part 1 identity applied]
+
+    [full-return T^6]
+        image T^6(0,0,c) subs = (0, 0, c)
+        char(DT^6) = (t - 1)*(-16*c**4*t + t**2 - 2*t + 1)
+        det(DT^6)  = 1
+        trivial eigenvalue (exact rational root of char poly) = 1
+        transverse quadratic factor = -16*c**4*t + t**2 - 2*t + 1
+        transverse factor constant term (must be 1, i.e. det=1) = 1
+        => transverse block is genuinely SL(2): trace mu(c) = 16*c**4 + 2
+        consistency: det(DT^6) should equal trivial-eigenvalue * 1 = 1
+        det(transverse - I) = 2 - mu(c) = -16*c**4   [Part 1 identity applied]
+
+------------------------------------------------------------------------
+PART 3 -- solve |2-mu|=1 exactly; hyperbolic-branch uniqueness; A cross-check
+------------------------------------------------------------------------
+
+    [half-return T^3]  mu(c) = 4*c**2 - 2
+        |2-mu|=1  =>  mu in [1, 3]
+        hyperbolic branch (|mu|>2): [3]
+        mu(c)=3  =>  c^2 in [5/4]
+          mu=1 [non-hyperbolic (excluded)]: c^2 in [3/4]
+          mu=3 [hyperbolic (|mu|>2)]: c^2 in [5/4]
+
+    [full-return T^6]  mu(c) = 16*c**4 + 2
+        |2-mu|=1  =>  mu in [1, 3]
+        hyperbolic branch (|mu|>2): [3]
+        mu(c)=3  =>  c^2 in [-1/4, 1/4]
+          mu=1 [non-hyperbolic (excluded)]: c^2 in [-I/4, I/4]
+          mu=3 [hyperbolic (|mu|>2)]: c^2 in [-1/4, 1/4]
+
+    [A cross-check] literal seed matrix A = [[2,1],[1,1]]
+        A = [[2, 1], [1, 1]],  det(A)=1,  tr(A)=3
+        det(A-I) = -1   (direct, no formula invoked)
+        |det(A-I)| = 1  ->  A is torsion-one, tr(A)=3
+        matches: the torsion-one selection on the tangent return (Part 2/3)
+        reproduces EXACTLY A's own (trace, torsion) -- self-consistent.
+
+------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------
+
+    The torsion-one identity is PROVEN EXACTLY:
+
+        For any 2x2 matrix N with det(N)=1:  det(N-I) = 2 - tr(N).      [Part 1, general, basis-free]
+
+        The real trace-map Jacobians' transverse SL(2) factors (independently
+        re-derived, both the half-return T^3 and the full-return T^6) satisfy
+        det=1 by direct computation, so this identity applies to them exactly,
+        not merely to an assumed companion-matrix stand-in.               [Part 2]
+
+        |2-mu|=1 has exactly two roots {1,3}; hyperbolicity (|mu|>2) alone
+        (no extra sign choice needed) selects mu=3 UNIQUELY, in BOTH the T^3
+        and T^6 word-sets, exactly reproducing tr(A)=3 and A's own torsion
+        |det(A-I)|=1.                                                     [Part 3]
+
+    This closes the algebraic identity component of B38/B44 exactly (RESOLVED-A).
+
+    NOT resolved by this cell, and not attempted: T1 -- whether the tangent
+    return is entitled/required to have this filter imposed on it at all.
+    That is the separate, still-open Selector-naturality (T1/S1) wall
+    (docs/TRACE_SELECTOR_THEOREM.md, docs/LEAD_REGISTER.md). This cell says:
+    IF torsion-one is imposed, the algebra that follows is exact and
+    unambiguous. It does not say torsion-one MUST be imposed.
+    

@@ -1,0 +1,24 @@
+[     0.0s] loaded 20 primes from B399_wall_scale/*.json: [30000781, 30015361, 30029941, 30078541, 30083401, 30093121, 30136861, 30141721, 30166021, 30195181, 30204901, 30209761, 30214621, 30229201, 30238921, 30263221, 30272941, 30277801, 30302101, 30321541]
+[     0.0s] gate: e1 == 0 mod all 20 primes (trace-zero innovation, re-derived in-cell)
+[     0.0s] gate: e2 == -1/48 mod all 20 primes (re-derived in-cell, matches B399's banked value)
+[     0.0s] small-integer scan on 1728*e3 in [-5000,5000] against all 20 primes: None
+[     0.0s] pure-Q rational reconstruction of e3 from all 20 primes (full-height bound ~sqrt(M/2), M ~10^150): 146200629842607292718860313536979791261107622851189270499014084371139477427/253825250095360164515403732461670286561574290004585845344834343424312751895
+[     0.0s]   candidate verified mod all 20 primes: True  (height num~10^75, den~10^75)
+[     0.0s]   CAVEAT (not a positive result): with a reconstruction bound this large (~10^75), the extended-Euclidean algorithm ALWAYS returns SOME fraction under the bound for essentially any residue -- this is not evidence e3 IS this fraction, only that no genuine collapse to a small-height rational occurred. The informative test is the small-integer scan above (None found in [-5000,5000]) -- e3 is NOT small/simple in Q. Consistent with recon_e3.py (Q(sqrt5) ansatz, UNSTABLE) and OI-031 (Q and Q(sqrt5) both rejected on the stability/margin guard). e3's exact closed form remains UNRESOLVED -- that is OI-031's question, not this cell's; this cell's verdict does not depend on it.
+[     0.2s] SYMBOLIC PROOF: (r0+w r1+w^2 r2)(r0+w^2 r1+w r2) = e1^2 - 3 e2 exactly (w^2+w+1=0 used; identity holds for ALL cyclic orderings since e1,e2 symmetric)
+[     0.2s] CONTROL (level 9, x^3-3x+1): resolvent norm e1^2-3e2 = 9  (must equal the banked |12 L(chi_1)|^2 = 9 from B413) -> MATCH
+[     0.2s] level-27/1215 triple, RAW tower value v: e1=0, e2=-1/48  => resolvent norm |L(v)|^2 = e1^2-3e2 = 1/16
+[     0.2s] clearing transform y=12v: 12^3*(t^3-(1/48)t-e3)|_{t=y/12} = -1728*q + y**3 - 3*y
+[     0.2s]   coefficient of y^1: -3  (compare level 9's x^3 -3x +1 coefficient -3)
+[     0.2s]   coefficient of y^0 (constant term): -1728*q  = -1728*e3 (e3 still unknown, unused below)
+[     0.2s] level-27/1215 triple, 12-CLEARED value y=12v: e1=0, e2=-3  => resolvent norm |L(y)|^2 = e1^2-3e2 = 9   (this is the number directly comparable to level 9's exact 9 -- BOTH e3-independent)
+[     0.2s] per-prime check: y_i^3 - 3y_i identical across the 3 roots (i.e. e2(y)=-3 exactly, e3-independent) for all 20 primes: True
+[     0.2s] 
+[     0.2s] === THE COMPARISON (T1's registered prediction vs the exact in-cell computation) ===
+[     0.2s]   T1 registered prediction (t1_continuum.py gauss_norm_at_level(3)): |L|^2 = 27
+[     0.2s]   exact in-cell computation (12-cleared resolvent norm, e3-independent): |L|^2 = 9
+[     0.2s]   level-9 anchor (recomputed as a control, same identity): |L|^2 = 9
+[     0.2s]   MATCH: False
+[     0.2s]   DISCREPANCY: computed 9 != predicted 27 (computed EQUALS the level-9 value 9 instead -- the norm is FROZEN at 9, not growing to 3^3=27; the '3^k growth' hypothesis in T1's script is REFUTED by an exact rational computation, not a numeric near-miss)
+[     0.2s] 
+[     0.2s] DONE. wrote output.json

@@ -7660,3 +7660,20 @@ an adversarial pass that refuted 16 candidate closures back to LIVE with named
 unrun work. Artifacts: census.json (record), CENSUS.md (digest), 6 locks. cc
 spot-verified a seeded sample by hand. Phase 1 (the mechanical lane: the quartet
 + B500 + 54 more) launches on the owner's checkpoint go.
+
+## 2026-07-23 — B771 Wave 1 banked: 11 verdicts, 2 carries; the wave's headline is e₃
+The first Phase-1 closure batch (13 cells, prereg 7955049f sealed first; 25
+agents; every verdict independently rerun and adversarially checked; cc
+spot-verified three claims by hand). Banked: e₃ = cos(2π/9)/864 EXACT (the
+ζ₂₇ trisection rung — B399's wall-scale question closes); B685's kill
+formalized all-n conditional on exactly the GSWZ Habiro-ring theorem (the
+obstruction computed three ways; depth u⁷; prediction verified; → EXTERNAL);
+the D4 ceiling identified (√(5+2√3−2√2−√6), both directions, 120 digits); L39
+promoted to theorem; B332's quarantined index KILLED (true value 10); H103's
+hoped theorem refuted by an explicit chiral 2T subgroup (Level 3 reachable);
+H112's conductor coincidence dissolved (the exact family law derived, the two
+15s independent); H115's closed form promoted to n≥2; genus-2 CS and
+torsion-one confirmed. The verifier layer caught a circular normalization
+(OI-148) that OI-031's own result now repairs — Wave 2 re-derives it; OI-150
+re-runs after a lost report. Sentinel follow-up named: fire B403/B405/B406 on
+the new e₃.
