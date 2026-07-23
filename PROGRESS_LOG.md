@@ -7496,3 +7496,17 @@ Gieseking control passes structurally (T4 exists only downstream of C5's choice)
 neither damage direction fired (rank ≠ 0; no involution signs an axis — NO-HATCH
 consistent). C20 minted in the chain. Locks test_b766 (5, compute-grade). Nothing to
 CLAIMS.
+
+## 2026-07-23 — B768: the correspondence cross-test — the courier's matrix received; CANDIDATE-PROVISIONAL
+The sealed rules (9c273563) provably predate the package — the B751/B752 pattern held.
+Receipt: the mathematical skeleton VERIFIED in-seat (the co-emergence matrix is genuinely
+the Fibonacci word's, eigenvalues {1, −1/φ} exact; P(b|b) = 0 exact on 200k letters; the
+eigenvalue-hearing link E20-flagged as mechanically unlinked → H-WORD-WELD; γ₃≡c's scope
+stated honestly). BOTH sealed discriminator gates PASS — a first (the assignment hosts
+the transparency surprise via "privacy is the angle, not the wall" and is built on the
+time=basepoint identity). NOT admitted as unique: zero literature citations (the
+phenomenological rows quarantine to the S-room per the sealed bar) and the 18-assignment
+enumeration is absent (the elimination re-run and the permutation null both blocked on
+it — scrutiny the courier's own handoff requested). Three deliverables named: the
+enumeration, the citations, then the null. P4's math half banked (the b-b exclusion);
+P2's dissociative-state contact = a Q5b watch. Locks test_b768 (3). Nothing to CLAIMS.

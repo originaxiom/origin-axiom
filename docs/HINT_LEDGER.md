@@ -518,3 +518,9 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   unitary θ-odd block (eigenphases ±72°) — is PROGRAM-INTERNAL structure, not a
   registration. Any revision of a registered number seals BEFORE the experiment reports,
   or never (Q6's slot-population discipline applied to our own watch list).
+
+- H-WORD-WELD (B768, 2026-07-23): the Fibonacci word's subdominant transition eigenvalue
+  (−1/φ, verified) numerically equals the untwisted weld's θ-odd trace (B753-add.2) —
+  E20-flagged: golden quantities are ubiquitous; NO mechanism links the word's Markov
+  spectrum to the weld. A derivation connecting them would promote this; until then it
+  is a numerical hint beside H-ITERATED-HEARING.
