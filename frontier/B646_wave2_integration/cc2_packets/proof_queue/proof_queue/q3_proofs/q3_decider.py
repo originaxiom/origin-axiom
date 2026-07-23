@@ -3,7 +3,7 @@ for the unmeasured ladder rungs E6 k=8..13 (conditional on the two-pipeline iden
 exact-verified 7/7 at r=13..19). Also discriminates the v2(kappa)=2 dyadic jump case
 (r=20, 24) left open by the 130/150 jump-law fit."""
 import json, sys
-sys.path.insert(0, '<cc2-seat>/seat-work/next_queue/n1_counting')
+sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/next_queue/n1_counting')
 import numpy as np
 import n1_jeffrey_terms as J
 
@@ -41,7 +41,7 @@ for r in RS:
     out[str(r)] = [z.real, z.imag]
     print(f"  kappa = {r} (E6 k = {r - 12}): Z_J = {z.real:+.10f} {z.imag:+.10f}i",
           flush=True)
-with open('<cc2-seat>/seat-work/next_queue/n1_counting/jeffrey_decider.json',
+with open('/Users/dri/oa-seat-cc2/seat-work/next_queue/n1_counting/jeffrey_decider.json',
           'w') as f:
     json.dump({"totals": out, "rows": rows}, f, indent=1)
 print("DONE — jeffrey_decider.json written", flush=True)

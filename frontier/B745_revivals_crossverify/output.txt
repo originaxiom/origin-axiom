@@ -1,4 +1,4 @@
-~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py:6282: SymPyDeprecationWarning: 
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py:6282: SymPyDeprecationWarning: 
 
 Ordered comparisons with modular integers are deprecated.
 

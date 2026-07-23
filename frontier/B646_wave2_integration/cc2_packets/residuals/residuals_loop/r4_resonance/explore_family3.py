@@ -5,7 +5,7 @@ random search over 8-tuples is cheap, instead of rescanning the whole candidate 
 """
 import sys
 import time
-sys.path.insert(0, '<cc2-seat>/seat-work/veins/v2_resonance')
+sys.path.insert(0, '/Users/dri/oa-seat-cc2/seat-work/veins/v2_resonance')
 import numpy as np
 from scipy.stats import spearmanr
 import lib as L

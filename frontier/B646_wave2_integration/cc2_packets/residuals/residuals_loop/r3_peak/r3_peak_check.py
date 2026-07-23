@@ -66,9 +66,9 @@ np.seterr(over="ignore", invalid="ignore")
 T_START = time.time()
 BUDGET_S = 25 * 60
 
-WORKDIR = "<cc2-seat>/seat-work/residuals_loop/r3_peak"
-BANKED_GRID_PATH = "<cc2-seat>/seat-work/veins/v11_kappa/grid_results.json"
-BANKED_DEPTH14_PATH = "<cc2-seat>/seat-work/veins/v11_kappa/depth14_results.json"
+WORKDIR = "/Users/dri/oa-seat-cc2/seat-work/residuals_loop/r3_peak"
+BANKED_GRID_PATH = "/Users/dri/oa-seat-cc2/seat-work/veins/v11_kappa/grid_results.json"
+BANKED_DEPTH14_PATH = "/Users/dri/oa-seat-cc2/seat-work/veins/v11_kappa/depth14_results.json"
 OUT_JSON = f"{WORKDIR}/r3_results.json"
 
 with open(BANKED_GRID_PATH) as fh:

@@ -23,7 +23,7 @@ ae588211f55d019fbbba20cb65144a99ee7c170bf1156844c9ee224032124285  ./w2_silver/RE
 f932257971240f34fe45245e9fc92b5f5369ec13ddc168b5e2294df6c5e263a5  ./w2_silver/w2a_silver.py
 
 # DISCLOSED PRIVACY PATCHES (house rule: no model names / no seat paths):
-#   all files: '<cc2-seat>/origin-axiom' -> '<repo>';
-#   '<cc2-seat>/seat-work' -> '<seat-workdir>'; 'sonnet agent' -> 'subagent'
+#   all files: '/Users/dri/oa-seat-cc2/origin-axiom' -> '<repo>';
+#   '/Users/dri/oa-seat-cc2/seat-work' -> '<seat-workdir>'; 'sonnet agent' -> 'subagent'
 #   run logs renamed *.log -> *_log.txt (the repo ignores *.log)
 # No other byte changed. Packet SEALS.txt verified 8/8 on receipt (before patching).

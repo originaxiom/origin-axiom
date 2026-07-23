@@ -56,10 +56,10 @@ weld side-2 letters built
 
 == F2: the tau*-matrix (mod coboundaries) ==
 Traceback (most recent call last):
-  File "frontier/B643_flip_symmetry/b643_swapflip.py", line 177, in <module>
+  File "/Users/dri/origin-axiom/frontier/B643_flip_symmetry/b643_swapflip.py", line 177, in <module>
     co = S.coords(list(tau_swap(r, W1, W2)))
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "frontier/B637_corrected_cell3/../B575_bridge_obstruction/l51_obstruction.py", line 140, in coords
+  File "/Users/dri/origin-axiom/frontier/B637_corrected_cell3/../B575_bridge_obstruction/l51_obstruction.py", line 140, in coords
     raise ValueError("vector not in span")
 ValueError: vector not in span
 executing B575 stages 0-3...

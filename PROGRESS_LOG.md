@@ -7449,3 +7449,18 @@ backlog registered as R28-10. Gate regularizations: B765 reserved post-hoc (cc3 
 the R28-5 queue authority; the GO crossed mid-flight), dir renamed, relay to the channel.
 R28-5 closed; the negatives hunt's three strata are complete: P1 earned, P2 spectral,
 P3 depth. Nothing to CLAIMS.
+
+## 2026-07-23 — R28-9 ERRATUM (the post-sweep full suite caught it): the sweep over-reached into hash-pinned artifacts
+The post-sweep verification suite failed exactly where it should have: B646's manifest
+locks caught the R28-9 sweep editing files inside the hash-pinned cc2_packets archive.
+The systematic check then found the full over-reach: 29 packet files + 21 further files
+whose pre-sweep sha8 is CITED elsewhere (manifests, SEAL_LEDGER rows, FINDINGS) or which
+are seal/forensic-class (§16 reviews, stageA sealed inputs, ORIGINALS_MANIFESTs). ALL
+RESTORED to their pre-sweep bytes; the one legitimately-layered file (B756's redacted raw
+log, swept after redaction) got its second transform RECORDED in the redaction record
+(the layering pattern: original → redact → e5221618 → sweep → 331e1148). The text lock
+now knows the class: sealed patterns extended (MANIFEST, S16 reviews, stageA) + an
+explicit byte-frozen-by-hash-citation list — THE HASH CITATION OUTRANKS PATH HYGIENE
+(the append-only lesson's sibling). All manifest/artifact locks green post-restore;
+gates 8/8. The sweep's residual scope stands correct: 60 genuinely free text artifacts
+cleaned; every pinned byte back in place.
