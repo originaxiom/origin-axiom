@@ -1,5 +1,8 @@
 # Changelog
 
+## B767 — the stabilizations: two kills fully closed (Binet; functoriality); the quartet carries
+- B489 and TOMB-L255 no longer underproved (all-n / all-d theorems, compute-grade locked). WALL-7/B685/TOMB-L310/TOMB-L34 extended with named residuals. Plus the B766 audit merged: RANK-SATURATED confirmed; the trace-blindness lesson banked (the chord is invisible to tr()).
+
 ## B768 receipt #2 — Side B cited: CANDIDATE-DOCUMENTED; the uniqueness tiebreaker over-read
 - Citations delivered and spot-checked: Gallagher verified; Haggard & Tsakiris real but over-read (feeling-vs-judgment ≠ binary-vs-graded) — C7, the uniqueness tiebreaker, is documented-weak. Both discriminators pass with citations; the null still blocked on the enumeration. Four literature-decidable consequence forks named.
 

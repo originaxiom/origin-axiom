@@ -2076,9 +2076,12 @@ relay channel locally versioned; the collision protocol's rows now generator-saf
   the priced chain C1–C19 and the QP composite)
 - [ ] R29-2: the web seat's L95 prereg — verify-on-receipt (carried from R28-2)
 - [ ] R29-3: B500 wrap-up (carried from R28-6; the run's final processes)
-- [ ] R29-4: the depth-closure backlog (carried from R28-10; 6 items + B500's via R29-3;
-  sequencing split cc/cc3 at the owner's call) — SEQUENCED 2026-07-23: cc3 takes all six
-  stabilizations (their P3 follow-up; named paths, mechanical); cc gates on receipt
+- [>] R29-4: the depth-closure backlog (carried from R28-10; 6 items + B500's via R29-3;
+  sequencing split cc/cc3 at the owner's call) — SEQUENCED 2026-07-23: cc3 takes all six;
+  DELIVERED same-day (B767): 2 STABILIZED (B489 Binet all-n; TOMB-L255 functoriality all-d
+  — two kills no longer underproved), 4 EXTENDED with named residuals (WALL-7 needs the
+  53-point twisted sweep; B685 the 3-integrality formalization; TOMB-L310 the L11+ DAG;
+  TOMB-L34 the c_eff plateau) — the residual quartet carries
 - [x] R29-5: the measurement-torsor cell — C18's residual frontier (OWNER-GATED: the
   phenomenology track's next substantive opening) — OPENED by the owner and DONE
   2026-07-23 (B766): RANK-SATURATED — the discrete closing set has rank exactly 3 =

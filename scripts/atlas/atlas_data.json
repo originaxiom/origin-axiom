@@ -15942,7 +15942,33 @@
     "K020"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 7,
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B767": {
+   "slug": "stabilizations",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B27",
+    "B489",
+    "B685",
+    "L11",
+    "L255",
+    "L310",
+    "L34"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

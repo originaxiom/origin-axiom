@@ -7534,3 +7534,16 @@ re-verified at the gate). The lesson banked: THE CHORD IS INVISIBLE TO tr() — 
 observables need matrix-level derivations; hardcoded "definitional" entries are the MB12
 class's subtlest cousin. γ₃≡c upgraded to field-theoretic; the T1 door certified genuine
 (probed against central τ). 17 audit locks green; gate re-execution identical.
+
+## 2026-07-23 — B767: the stabilizations (cc3) — two kills fully closed; the backlog quartet named
+The R28-10/R29-4 backlog delivered same-day (prereg 17fb9e5b, gate re-exec IDENTICAL,
+25 compute-grade locks). **B489 STABILIZED**: the cyclic-cover tower has DGG rank 2n−1
+for ALL n — structural topology + the Binet identity (torsion = (φⁿ−φ⁻ⁿ)² > 0, ≥5 for
+n≥2), SnapPy-verified n≤16; the kill is no longer underproved. **TOMB-L255 STABILIZED**:
+the polynomial-functor theorem (Sym^d(M) eigenvalues {(−1)ʲφ^{d−2j}} for ALL d, exact
+8-variable identity d≤12, dimensions n²−1 verified n≤20); the sketch is now a proof.
+Four EXTENDED honestly: WALL-7 (twisted dim-0 at 3/53 needed points), B685 (the inert-5
+Legendre structure found — (−3/5) = −1 — the 3-integrality formalization remains),
+TOMB-L310 (drift decelerating, L11+ needs the DAG rebuild), TOMB-L34 (c_eff not
+stabilized — honest inconclusive). The honest residual: 4 + B500. Gate fixups: B767
+reserved+renamed; relay to the channel. Nothing to CLAIMS.
