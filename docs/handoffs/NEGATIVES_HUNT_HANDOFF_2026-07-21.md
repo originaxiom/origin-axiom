@@ -89,7 +89,7 @@ main = `d8f8d83` (PC27 capstone banked). The honest capstone: the forced core is
 ℚ(√−3) + the V₄ torsor + the congruence realization + the Born ledger; methodology = the
 base-rate firewall turned inward; the two ambitious doors closed. 673 atlas probes; gates 8/8;
 Reviews through R26 (anchor 7e40985); errors through E22. Seats: cc (banking) + cc2 (independent,
-relay at `/Users/dri/oa-seat-cc2/seat-work/relay/`) + chat1 (courier; verify before banking).
+relay at `<cc2-seat>/seat-work/relay/`) + chat1 (courier; verify before banking).
 Read `WORKING_RULES.md` first (binding); deep context: `docs/LAW_MAP.md`, `docs/ERROR_LEDGER.md`,
 `docs/PROGRESS_LOG.md` (tail), `MEMORY` auto-loads.
 

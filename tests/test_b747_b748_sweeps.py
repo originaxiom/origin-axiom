@@ -30,7 +30,8 @@ def test_sealed_input_integrity_and_parity_split():
 
 def test_b747_verdict_mirror_silent():
     out = _read(os.path.join(B747, "b747_out.txt"))
-    assert "TALLY: 54 excluded by parity + 23 exact-negative + 0 HITS" in out
+    assert "TALLY: 54 excluded by parity + 23 exact-negative + 0 HITS + 1 unresolved" in out
+    assert "UNRESOLVED: ['3,8']" in out                     # the one straggler, closed by b747_closure
     assert out.count("contains sqrt5 = False") == 23
     assert "contains sqrt5 = True" not in out.split("STAGE 2")[1]
     closure = _read(os.path.join(B747, "b747_closure_out.txt"))

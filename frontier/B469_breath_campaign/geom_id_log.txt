@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 m=1 b++RL: identify=[m004(0,0), 4_1(0,0), K2_1(0,0), K4a1(0,0), otet02_00001(0,0)], vol=2.02988321, shape minpoly coeffs (c0..cd)=[np.int64(1), np.int64(-1), 1]
 m=2 b++RRLL: identify=[m136(0,0)], vol=3.66386238, shape minpoly coeffs (c0..cd)=[np.int64(2), np.int64(-2), 1]

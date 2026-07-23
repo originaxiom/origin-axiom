@@ -1,5 +1,20 @@
 # Changelog
 
+## B766 — the measurement torsor: RANK-SATURATED (three bits close the object)
+- The discrete closing set has 𝔽₂-rank exactly 3 = the banked menu (generators c/θ/γ₅; γ₃ ≡ c). Two exact identities: time's arrow = the basepoint bit (the golden branch); the chord's sign = c⊕θ. C20 minted; T1 a named door; the continuous residue stays Galois-chosen. Locks test_b766 (5).
+
+## Review 29 — the verification window (anchor 58e9add3)
+- 21 merges audited on a gold-standard day (2730/0 + slow tier 102/0 first-ever + rule 1b clean). C18 priced; the chain self-corrected once by sealed prediction; the hunt complete; 14+ safety catches all ruled. Six action items.
+
+## B765 — the P3 depth stratum: the hunt completes (8 CLOSED / 6 HELD / 7 EXPOSED)
+- The E22 lesson applied to all 21 depth-flagged kills; the depth-closure backlog named (7 items, stabilization paths known, none executed — "not wrong, underproved") and registered as R28-10. The three strata are done: earned, spectral, depth. Gate: re-exec identical, 13 locks, seal convention verbatim.
+
+## R28-9 done — the path-topology sweep (110 files) + the extended hygiene lock
+- Seat topology stripped from all editable tracked text; sealed/frozen bytes intact by policy; append-only records exempted by class (the append-only gate caught the sweep's first attempt at editing history — the lattice defended itself). 50/50 artifact locks green post-sweep.
+
+## B754 retro-entry + the fourth-pass fixes
+- B754's dedicated ledger entry added (rule-10 omission caught by the audit). Fourth-pass batch: the b711 sub-test rewired (third MB12 lock); the B756 raw log REDACTED with record (exemption removed — the gate is sighted again); Gate 5-Q wired into WORKING_RULES; C17's 24-parameters sub-claim cited (B736); the B753 seal-row scope note; REPRODUCIBILITY refreshed.
+
 ## Safety fix — the seal-ledger generator preserves the collision-protocol rows
 - The generator would have erased all RESERVED/verdict rows on regeneration; it now keeps an append-only marker section (idempotent, lossless — verified 22 RESERVED + 68 arc rows identical to HEAD). Caught by the owner's safety sweep.
 

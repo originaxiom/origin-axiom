@@ -15886,6 +15886,66 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B765": {
+   "slug": "p3 depth",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B107",
+    "B437",
+    "B489",
+    "B500",
+    "B685",
+    "B742",
+    "B754",
+    "L241",
+    "L247",
+    "L252",
+    "L255",
+    "L258",
+    "L267",
+    "L310",
+    "L334",
+    "L339",
+    "L34",
+    "L57",
+    "L63",
+    "L67",
+    "L70",
+    "L77",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B766": {
+   "slug": "measurement torsor",
+   "motifs": [
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B701",
+    "B712",
+    "B733",
+    "B760",
+    "K020"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B76": {
    "slug": "cusp quantum group",
    "motifs": [

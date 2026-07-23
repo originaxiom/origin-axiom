@@ -1,4 +1,4 @@
-/Users/dri/origin-axiom/frontier/B448_heartbeat_adjudication/silver_control.py:1: SyntaxWarning: invalid escape sequence '\F'
+frontier/B448_heartbeat_adjudication/silver_control.py:1: SyntaxWarning: invalid escape sequence '\F'
   """B448 control: the silver monodromy's orbit fields (same computation, m=2).
 twist trace maps verified against 2x2: True
 L o R == T1^2: True

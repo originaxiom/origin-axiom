@@ -1,5 +1,5 @@
 B666 CELL T — verification trail (2026-07-17)
-Repo: /Users/dri/origin-axiom. All checks are read-only greps/reads of the
+Repo: ~/origin-axiom. All checks are read-only greps/reads of the
 committed ledgers; no computation cells were run (wave 0 is a records triage).
 
 SOURCES READ IN FULL

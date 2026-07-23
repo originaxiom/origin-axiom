@@ -103,5 +103,5 @@ weld side-2 letters built
 [  3334.8s]     [(0+124/9r), (31/36+31/108r), (19431004723200+17494702848000r), (0), (-17880800+3715040r)]
 [  3334.8s]     [(0), (0), (-242161920+-117976320r), (17880800+-3715040r), (0)]
 [  3334.8s] P10: checkpoint dump...
-[  3335.3s] checkpoint written: /Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/ckpt_phase1.json (5015 KB)
+[  3335.3s] checkpoint written: frontier/B666_leads_campaign/cellA2/ckpt_phase1.json (5015 KB)
 [  3335.3s] PHASE 1 COMPLETE

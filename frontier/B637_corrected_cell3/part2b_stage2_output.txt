@@ -20,6 +20,6 @@ reference Y[012] = (130593407/59400+1081413503/59400r)
   G-B antisymmetry (12 swap -> -Y): False
   G-C section independence (sig(mu lam) = LONG+a): True
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B637_corrected_cell3/b637_stage2.py", line 89, in <module>
+  File "frontier/B637_corrected_cell3/b637_stage2.py", line 89, in <module>
     assert ok_all, "CLASS-LEVEL GATES FAILED — values are not banked"
 AssertionError: CLASS-LEVEL GATES FAILED — values are not banked

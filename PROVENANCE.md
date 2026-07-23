@@ -173,7 +173,7 @@ the decision to move to a local development environment. The source narrative fo
 
 ---
 
-## 4. Repo root — current new canonical repo (`/Users/dri/origin-axiom`)
+## 4. Repo root — current new canonical repo (`~/origin-axiom`)
 
 | File | Origin | Role |
 |---|---|---|

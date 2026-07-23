@@ -1987,10 +1987,17 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
   the (tr_odd,tr_even)(23) fact (the window's one named partial) — DONE 2026-07-22: cc2's own
   p4 machinery re-executed read-only, BYTE-IDENTICAL results json; (1,0)@23 re-derived exactly;
   the κ=25 cancellation exact; the certificate law agrees; DOOR6 FIRM at full depth
-- [ ] R28-5: the P3 stratum — depth-exposure (E22) re-adjudication from the kill_graph
-  depth_reached field (cc3-designed; carried from R27-6's second half)
-- [ ] R28-6: B500 wrap-up — bank the straggler verdict when the run ends (26 TIMEOUT + 9
-  never-reached at last count; two deep cases at PARI limits; honest-residual report)
+- [x] R28-5: the P3 stratum — depth-exposure (E22) re-adjudication from the kill_graph
+  depth_reached field (cc3-designed; carried from R27-6's second half) — DONE 2026-07-23
+  (B765, cc3): 21 targets — 8 CLOSED / 6 HELD-by-P2 / 7 EXPOSED (the depth-closure backlog,
+  → R28-10); gate re-exec IDENTICAL, 13 locks, seal convention followed
+- [>] R28-10 (from B765): execute the depth-closure backlog — the 6 non-B500 exposed items
+  (B489 n>8; B685 beyond n=60; TOMB-L255 proof-not-sketch; TOMB-L310 L>10; TOMB-L34
+  multi-seed; WALL-7 beyond twisted 3-point) each along its named stabilization path;
+  B500's item = R28-6 (owner: cc/cc3 split at the next sequencing) — CARRIED to R29-4
+- [>] R28-6: B500 wrap-up — bank the straggler verdict when the run ends (26 TIMEOUT + 9
+  never-reached at last count; two deep cases at PARI limits; honest-residual report) —
+  CARRIED to R29-3 (the run's final processes still executing at review time)
 - [x] R28-7: L108 — the two-ℤ/3 identity cell (B326 ≟ B302; the one DOOR4 residual) — DONE
   2026-07-22 (B757): DISSOLVED — never the same element (torsion-freeness theorem); the mod-4
   coincidence is Sylow-forced (one order-3 class in GL(2,ℤ/4)); shared content = the banked atom
@@ -1999,3 +2006,82 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
   the cc gate (B759–B762, #1266: INTEGRATED / NO-HATCH / FLAT / QUINE); the chain updated
   (C18 priced, C19 the discriminant law); the composite: a transparent self-naming speaker
   that cannot choose
+- [x] R28-9 (added by the fourth-pass audit): the path-topology sweep — strip home-dir …
+  paths from the ~122 non-sealed tracked text artifacts (sealed outputs keep theirs with
+  the redaction-record pattern where warranted); extend the path-hygiene lock beyond .py
+  (owner: cc) — DONE 2026-07-23: 110 swept; 6 sealed/frozen left by policy; append-only
+  records exempted by class (the gate caught the first attempt editing history); the
+  extended lock green
+
+---
+
+## Review 29 — 2026-07-23
+
+anchor-commit: `58e9add3`. Window: 21 first-parent merges since R28 (`ccadb0ee`),
+#1258–#1278 + the direct milestone commit. The verification-heaviest window in the
+program's history, closed on a same-day gold-standard state: full suite 2730/0, the slow
+tier's FIRST full execution 102/0 (2h45m), gates 8/8, mirrors byte-identical with tags.
+
+### (1) The loop
+R28: 8 of 10 resolved in-window (R28-3/4/5/7/8/9 done + the two audits' items); R28-1/2
+carried (owner-gated, → R29-1/2); R28-6 carried (B500's final processes still executing,
+→ R29-3); R28-10 carried (the depth-closure backlog, → R29-4). No open items remain in
+the superseded block.
+
+### (1b) The branch inventory (rule 1b, FIRST APPLICATION)
+`git branch -r --no-merged`, both remotes: exactly the three registered frozen records
+(closure/phase0-hygiene, closure/phase1-duels, audit/b739-negatives-hunt-p1) and their
+codeberg mirrors — all in B763's registry. Zero unclassified refs. PASS.
+
+### (2) The declared modulus
+Read in full: every arc banked this window (B757–B765 + P020 + the audits). Suites run
+IN-WINDOW: full ×3 (2715/1 → the TOMB-L30 catch; 2714/3 → the sweep-erratum catch; 2730/0
+gold-standard post-repair), the slow tier 102/0 (first execution — prior reviews' moduli
+never included it; this one does). Mutation testing: 13 locks sampled across two audits
+(11 fired; 2 found blind and repaired). What this review cannot certify: the Sage-env
+locks beyond their in-window targeted runs; cc2's archived packet interiors (manifest-
+verified, not re-executed).
+
+### (3) The window's substance
+- **The QP sequence (B759–762)** + the chain's absorption: C18 priced — the composite
+  ("a transparent, self-naming, integrated speaker that cannot choose") is the window's
+  scientific headline; C19 minted, then SCOPE-CORRECTED SAME-DAY by sealed out-of-field
+  prediction (B764: the pair-separation law) — the chain's first self-correction, its
+  falsifiability demonstrated by use.
+- **The hunt completes (B765)**: P1 earned / P2 spectral / P3 depth; the depth-closure
+  backlog named (7 items, "not wrong — underproved").
+- **H-EAR formalized** (the R22-era carry lands); **B757** dissolves L108; **B758** the
+  chain itself; **P020** adopted with six gate red-lines.
+- **The safety campaign**: four passes + the multiagent fourth (90 agents, 32→18
+  findings), 14+ catches, every one now a standing rule; the cc3-corpus audit inverted
+  its premise (compute-grade locking adopted FROM the audited seat); the sweep-erratum
+  cycle proved the lattice self-policing against its own maintainer.
+
+### (4) Error-class recurrence
+No new class minted. The window's instances all landed in existing classes with their
+counter-rules demonstrably WORKING: E22's counter-rule structured B765's entire design;
+the seal conventions (the two traps) were followed verbatim in the very next arc; the two
+sweep over-reaches were caught by the append-only gate and the manifest locks within one
+cycle each. The MB12 tally reached three vacuous locks found by three different
+instruments — the sampled mutation test (2 locks/review) is ADOPTED into this template's
+practice from R29 forward.
+
+### (5) Provenance
+All cross-seat packages hash-verified; the two forensic seal reconstructions banked
+in-arc; the redaction/layering pattern established (transform chains hash-linked); the
+relay channel locally versioned; the collision protocol's rows now generator-safe.
+
+### Action items (Review 29)
+- [ ] R29-1: the external specialist pass (carried from R28-1; the package now includes
+  the priced chain C1–C19 and the QP composite)
+- [ ] R29-2: the web seat's L95 prereg — verify-on-receipt (carried from R28-2)
+- [ ] R29-3: B500 wrap-up (carried from R28-6; the run's final processes)
+- [ ] R29-4: the depth-closure backlog (carried from R28-10; 6 items + B500's via R29-3;
+  sequencing split cc/cc3 at the owner's call)
+- [x] R29-5: the measurement-torsor cell — C18's residual frontier (OWNER-GATED: the
+  phenomenology track's next substantive opening) — OPENED by the owner and DONE
+  2026-07-23 (B766): RANK-SATURATED — the discrete closing set has rank exactly 3 =
+  the B733 menu (generators c/θ/γ₅); time's arrow = the basepoint bit; the chord = c⊕θ;
+  C20 minted
+- [ ] R29-6: the sampled mutation test (2 locks, restore-after) becomes a standing review
+  step — first execution due at Review 30

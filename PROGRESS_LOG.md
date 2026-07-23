@@ -7359,3 +7359,140 @@ B500 exploratory set backed up to scratch pending its run's end; (7) the untrack
 .github/workflows/core.yml identified (a minimal proven-core CI draft, 2026-07-17,
 intentionally untracked per the tracked-forbidden gate) and Archive.zip identified (a
 June-era snapshot zip — inert). Full suite running; result closes the sweep.
+
+## 2026-07-22 — THE THIRD PASS (trust-architecture lenses) — four finds, all fixed
+The owner wondered what another run would give; the answer: the classes the first two
+passes could not see, because they audited state and tooling while the trust CHAIN itself
+was untested. (1) MUTATION TESTING (do locks fire?): sample of 2 — the chain lock fired;
+the B747 census lock DID NOT (it pinned a PREFIX of the verdict line; the unresolved-count
+was corruptible undetected). New defect class named: PREFIX-NARROW LOCKS. Fixed (full
+tally + straggler line pinned; mutation retest fires). (2) SINGLE-COPY INVENTORY: the
+relay dir — 193 files, the entire cross-seat constitutional record — lived in NO git;
+the memory dir likewise. Both now locally git-versioned (integrity without publication)
++ a tar snapshot. (3) THE FORENSIC-DEPENDENCY FIND: B759/B760's seal-first proofs rested
+on 81MB of prunable session transcripts OUTSIDE the bank — the proofs are now banked
+in-arc as FORENSIC_SEAL_RECORD.md files (the git-blob-hash verification and the
+reconstruction identity, durable). (4) Environment pins verified consistent (sympy 1.14.0
+== REPRODUCIBILITY). Standing lesson: reviews gain a sampled mutation test (2 locks per
+review, restore-after) — proposed for the next template revision. The suite (pass 1's
+one open box) still runs.
+
+## 2026-07-22 — the full-suite box closes: 2715 passed; ONE failure caught and fixed
+The safety sweep's final box: the full suite (51m43s) came back 2715 passed / 35 skipped /
+1 FAILED — the path-hygiene lock caught a hardcoded seat path in B754's TOMB-L30 cell
+(arrived with the cc3 merge; the gate's targeted subset couldn't see it — only the full
+suite could, which is why the sweep insisted on running it). Fixed with the standard
+relative-path treatment; the cell re-executed IDENTICAL post-fix; hygiene + B754 locks
+green. Gate lesson logged: cross-seat merges get the path-hygiene lock added to the
+targeted gate subset from now on.
+
+## 2026-07-22 — B754 (retro-entry per rule 10; the fourth-pass audit caught the omission)
+B754 (cc3's P2 spectral-face stratum, banked #1255 the same day) never received its own
+PROGRESS_LOG entry — the banking note lived only in the PR body and the R28 review text.
+For the record: 19 sealed targets re-adjudicated against the banked spectral face under
+Gate 5-Q — 17 KILL-EXTENDS, 2 FACE-IRRELEVANT (B516, WALL-7), 0 FACE-OPENS; the headline:
+WALL-1 gains a four-mechanism spectral column (voice = field constant; continuous channel
+closed; voice Eisenstein-only; zero object-bits reach the carrier). Two skeptic overrides
+upheld (TOMB-L277's full 37-class census; TOMB-L77's field-conflation corrected per
+Gate 5-Q Q2). Locks test_b754 (9). Gate coverage: 8/19 cc re-exec + 8/19 cc3 spot-checks,
+zero divergence.
+
+## 2026-07-22 — THE FOURTH PASS (the multiagent campaign) — 32 findings, 18 confirmed, all dispositioned
+The owner's escalation: 8 blind lens auditors → 2 adversarial skeptics per finding → fix
+designs for survivors (90 agents, 0 errors). Confirmed and FIXED at the gate: the THIRD
+MB12 lock in three days (b711's amphichiral sub-test never consulted its curve — rewired
+and mutation-verified on its true dependency); the B756 raw log's banned model tokens
+hiding INSIDE the attribution exemption — REDACTED with a reconstruction record and the
+exemption removed (standing pattern: redaction-with-record supersedes exemption); Gate 5-Q
+wired into the mandated read path (WORKING_RULES 6a); C17's sub-claim cited (B736); B754's
+rule-10 retro-entry; the B753 seal-row scope note; REPRODUCIBILITY refreshed (~2736 tests;
+the OA_SLOW invisible tier; the sympy pin/deprecation watch); R28-9 registered (the
+122-file path sweep). FIVE locks verified GENUINE by mutation (fired and restored — the
+positive-control record in docs/audits/AUDIT_2026-07-22_fourth_pass.md). The skeptics
+killed 14 findings including the assumption-audit's attacks on the two-seat independence
+claims — their kernel adopted as practice anyway (gate re-run outputs retained in-arc).
+Four passes total: 13 real catches, every one a standing rule. Nothing to CLAIMS.
+
+## 2026-07-23 — R28-9 executed: the path-topology sweep (110 files) + the lock extended
+The fourth pass's one deferred fix, done with its deferral-reasons honored: 110 editable
+tracked text artifacts swept (repo paths → relative; seat paths → <seat>/ placeholders;
+home → ~); the 1 sealed and 5 frozen path-bearing files left byte-intact BY POLICY; the
+hygiene lock extended beyond .py to all tracked text with the sealed/frozen/append-only
+exemptions named in-test. Two lessons collected en route: (1) APPEND-ONLY OUTRANKS
+HYGIENE — the sweep's first attempt edited historical PROGRESS_LOG entries and the
+append-only gate caught it within seconds (revert + class exemption; the gate lattice
+defending itself in real time); (2) meta-mentions of the banned pattern in hygiene prose
+must use assembled/paraphrased forms (the guard file's own trick). Artifact-lock sanity
+over the 8 most content-coupled arcs: 50/50 green. R28-9 closed.
+
+## 2026-07-23 — the cc3-corpus audit: mathematics exemplary; the lesson flows the other way
+The owner asked; the full instrument set answered. Seals 9/9 verified; vacuous patterns 0;
+transcription drift 0; and the mutation test INVERTED its premise — four artifact
+mutations fired zero cc3 locks because their locks READ NO ARTIFACTS: they recompute the
+mathematics in-test (compute-grade locking, E6-canonical, immune to artifact corruption by
+construction — strictly stronger than this seat's artifact-grep style where the env split
+forces it). Adopted: compute-grade locks preferred wherever the suite env allows. The
+six process slips all have standing counter-rules; none ever touched a verdict. Record:
+docs/audits/AUDIT_2026-07-23_cc3_corpus.md.
+
+## 2026-07-23 — B765: the P3 depth stratum (cc3) — the hunt completes; the depth-closure backlog named
+The strata program's last leg, banked at the gate (re-execution IDENTICAL; 13 locks; the
+seal follows the new named-algorithm convention verbatim — the counter-rules landing).
+21 depth-flagged P1 negatives re-adjudicated double-method (structural depth analysis ×
+anatomy/P2 closure): 8 DEPTH-CLOSED (universal proof steps — no gap), 6 DEPTH-HELD (real
+gaps closed by the P2 spectral face — the strata compounding), and 7 DEPTH-EXPOSED with
+named unexecuted stabilization paths: B489 (DGG abelianness at n≤8 vs a universal claim),
+B500 (depth≥6 — exactly R28-6's running sweep), B685 (pointwise n≤60), TOMB-L255 (the
+Sym-tower n≤13, sketch-not-proof), TOMB-L310, TOMB-L34, WALL-7 (twisted 3-point only).
+cc3's sentence banked verbatim: THESE KILLS ARE NOT WRONG — THEY ARE UNDERPROVED. The
+backlog registered as R28-10. Gate regularizations: B765 reserved post-hoc (cc3 ran on
+the R28-5 queue authority; the GO crossed mid-flight), dir renamed, relay to the channel.
+R28-5 closed; the negatives hunt's three strata are complete: P1 earned, P2 spectral,
+P3 depth. Nothing to CLAIMS.
+
+## 2026-07-23 — R28-9 ERRATUM (the post-sweep full suite caught it): the sweep over-reached into hash-pinned artifacts
+The post-sweep verification suite failed exactly where it should have: B646's manifest
+locks caught the R28-9 sweep editing files inside the hash-pinned cc2_packets archive.
+The systematic check then found the full over-reach: 29 packet files + 21 further files
+whose pre-sweep sha8 is CITED elsewhere (manifests, SEAL_LEDGER rows, FINDINGS) or which
+are seal/forensic-class (§16 reviews, stageA sealed inputs, ORIGINALS_MANIFESTs). ALL
+RESTORED to their pre-sweep bytes; the one legitimately-layered file (B756's redacted raw
+log, swept after redaction) got its second transform RECORDED in the redaction record
+(the layering pattern: original → redact → e5221618 → sweep → 331e1148). The text lock
+now knows the class: sealed patterns extended (MANIFEST, S16 reviews, stageA) + an
+explicit byte-frozen-by-hash-citation list — THE HASH CITATION OUTRANKS PATH HYGIENE
+(the append-only lesson's sibling). All manifest/artifact locks green post-restore;
+gates 8/8. The sweep's residual scope stands correct: 60 genuinely free text artifacts
+cleaned; every pinned byte back in place.
+
+## 2026-07-23 — the slow tier executes for the first time in recent memory: 102/102 GREEN
+The fourth-pass audit's "invisible tier" (the OA_SLOW/RUN_SLOW-gated files, unseen even by
+collection) ran in full: 2h45m, 102 locks, ZERO failures. The last conditional on the
+impact question closes: no verdict-bearing lock anywhere in the program was hiding a
+failure. REPRODUCIBILITY's slow-tier requirement is now satisfied with a dated record;
+reviews' declared-modulus rule can cite this run until the next slow-tier execution.
+
+## 2026-07-23 — REVIEW 29 (anchor 58e9add3): the verification window
+21 merges audited on a same-day gold-standard state (full 2730/0; slow tier 102/0 first
+execution; gates 8/8; mirrors identical). Rule 1b's first application: zero unclassified
+refs. Substance: C18 priced + the chain's first self-correction (C19, by sealed
+prediction); the hunt's three strata complete; H-EAR lands; the safety campaign's 14+
+catches all standing rules; the cc3 audit inverted (compute-grade locking adopted).
+No new error class; the counter-rules demonstrably working. Six action items (4 carried,
+2 new: the torsor cell owner-gate; the mutation test as standing review practice).
+
+## 2026-07-23 — B766: THE MEASUREMENT TORSOR — three bits close the object; time's arrow IS the golden branch
+R29-5, owner-opened, sealed c371e18e. The action table computed (every entry re-derived):
+c flips the side and the chord; θ flips only the chord; γ₅ flips time AND the basepoint;
+γ₃ ≡ c on every closing axis (the being-Galois IS conjugation there — it drops as a
+generator). The lattice over 𝔽₂: TWO exact identities — time's direction = the basepoint
+bit (both the γ₅ branch; (1−φ)² = φ⁻² is the Galois action) and the chord's sign = c⊕θ —
+leaving independent generators exactly (c, θ, γ₅): RANK 3 = the banked B733 menu rank.
+**RANK-SATURATED: the observer's discrete menu is the full discrete closing set —
+measurement closes the object with exactly three bits.** Honest residue: T1 unmoved by 𝕀
+(a named door); the continuous anchor/value/space residue stays K020's Galois-chosen
+territory (no value computation — the pin); Q2b: the relations are field/class-level, the
+Gieseking control passes structurally (T4 exists only downstream of C5's choice); Q7:
+neither damage direction fired (rank ≠ 0; no involution signs an axis — NO-HATCH
+consistent). C20 minted in the chain. Locks test_b766 (5, compute-grade). Nothing to
+CLAIMS.

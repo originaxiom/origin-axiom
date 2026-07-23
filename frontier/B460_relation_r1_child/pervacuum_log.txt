@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 ===== slope (5,1): SnapPy geometric CS = 0.0770381803 =====
   t=-2.000000+0.000000i  m*=0.000000+3.141593j  CS=+0.29999995  Im/voldrop=-4.059768

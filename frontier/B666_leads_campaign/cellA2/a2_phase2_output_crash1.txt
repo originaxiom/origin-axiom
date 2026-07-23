@@ -52,19 +52,19 @@ weld side-2 letters built
 [   493.5s]   prime 1073741671 emb +: rank(lam) = 1007, rank(sym) = 1088  (70s)
 [   565.6s]   prime 1073741671 emb -: rank(lam) = 1007, rank(sym) = 1088  (72s)
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 430, in <module>
+  File "frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 430, in <module>
     v = try_reconstruct(*item)
         ^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 404, in try_reconstruct
+  File "frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 404, in try_reconstruct
     return reconstruct_vec(vp, vm, pr, sv)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 243, in reconstruct_vec
+  File "frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 243, in reconstruct_vec
     x = reconstruct_K([v[t] for v in vecs_plus],
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 228, in reconstruct_K
+  File "frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 228, in reconstruct_K
     ua, m = crt_pair(ra, primes)
             ^^^^^^^^^^^^^^^^^^^^
-  File "/Users/dri/origin-axiom/frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 199, in crt_pair
+  File "frontier/B666_leads_campaign/cellA2/a2_phase2.py", line 199, in crt_pair
     return x % m, m
            ~~^~~
 OverflowError: Python int too large to convert to C long

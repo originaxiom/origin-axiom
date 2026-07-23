@@ -3,7 +3,7 @@
   T_m-orbit partition: 1 fixed, 1 period-2 swaps, 0 STRAY(off-variety!)
   period-2 orbit: minpoly(z) = z**2 - 3*z + 3  (partner same factor: True)
   fixed point:  z = 0, minpoly = z
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+~/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
   snappy geometric ID: TypeError: cannot create mpf from mpc(real='1.0', imag='0.0')
 ===== m = 2 =====

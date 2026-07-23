@@ -27,3 +27,53 @@ def test_no_absolute_machine_paths_in_py():
             if frag in text:
                 offenders.append(f"{path.relative_to(_ROOT)} contains {frag!r}")
     assert not offenders, "hardcoded absolute paths found:\n" + "\n".join(offenders)
+
+
+def test_no_absolute_machine_paths_in_tracked_text(  # R28-9 (the fourth-pass audit)
+):
+    """Extends the guard to tracked text artifacts (.md/.txt/.json/.log). Sealed and
+    frozen records are exempt BY NAME (their bytes are hash-pinned); everything else
+    must use repo-relative, ~/, or <seat>/ placeholder forms."""
+    import re
+    import subprocess
+    tracked = subprocess.run(["git", "ls-files"], capture_output=True, text=True,
+                             cwd=_ROOT).stdout.splitlines()
+    sealed_pat = re.compile(r"PREREG|SEALED|ARTIFACT_HASHES|SEALS\.txt|REDACTION_RECORD"
+                            r"|FORENSIC_SEAL|ORIGINALS_MANIFEST|reviews/S16_|/stageA/")
+    # byte-frozen artifacts: their sha8 is recorded elsewhere in the repo (manifests,
+    # SEAL_LEDGER rows, FINDINGS citations) -- the hash citation outranks path hygiene
+    frozen_by_hash = {
+        "frontier/B632_cubic_route/FAILED_RUN_1.txt",
+        "frontier/B643_flip_symmetry/b643_output.txt",
+        "frontier/B654_listening_synthesis/q_period_field_output.txt",
+        "frontier/B662_successor_campaign/cellC/cellC_output.txt",
+        "frontier/B662_successor_campaign/cellH/cellH_output_run1_controlfail.txt",
+        "frontier/B669_track_h_adjudication/h1_output.txt",
+        "frontier/B705_metallic_hearing_campaign/FINDINGS_C_CC2.md",
+        "frontier/B705_metallic_hearing_campaign/FINDINGS_D_CC2.md",
+        "frontier/B745_revivals_crossverify/output.txt",
+        "frontier/B749_genesis_forks/RESULTS.json",
+        "frontier/B754_p2_spectral/TARGETS.json",
+    }
+    frozen_prefixes = ("frontier/B742_negatives_hunt_p1/reviews/", "legacy/")
+    offenders = []
+    for rel in tracked:
+        if not rel.endswith((".md", ".txt", ".json", ".log")):
+            continue
+        if rel.startswith(frozen_prefixes) or sealed_pat.search(rel):
+            continue
+        if rel in frozen_by_hash:
+            continue
+        if rel == "PROGRESS_LOG.md" or rel.startswith("docs/progress/PROGRESS_"):
+            continue          # append-only records: historical bytes outrank path hygiene
+        if "cc2_packets" in rel:
+            continue                                  # archived packet records: history
+        try:
+            text = (_ROOT / rel).read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        for frag in _FORBIDDEN:
+            if frag in text:
+                offenders.append(rel)
+                break
+    assert not offenders, "absolute paths in tracked text:\n" + "\n".join(offenders[:20])
