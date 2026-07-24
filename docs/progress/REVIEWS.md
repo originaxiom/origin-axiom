@@ -2088,5 +2088,63 @@ relay channel locally versioned; the collision protocol's rows now generator-saf
   2026-07-23 (B766): RANK-SATURATED — the discrete closing set has rank exactly 3 =
   the B733 menu (generators c/θ/γ₅); time's arrow = the basepoint bit; the chord = c⊕θ;
   C20 minted
-- [ ] R29-6: the sampled mutation test (2 locks, restore-after) becomes a standing review
+- [x] R29-6: the sampled mutation test (2 locks, restore-after) becomes a standing review
   step — first execution due at Review 30
+
+## Review 30 — 2026-07-24
+
+anchor-commit: `e64a8ffe` (Review 30)
+
+**(1) The scope.** 38 first-parent merges since Review 29 (anchor `58e9add3`), #1278–#1307
+— the session's largest window, spanning the whole **Closure Program**: the census (B770),
+Phase-1 mechanical (B771, five waves), the negatives adequacy audit + chord re-computation
+(B772/B773), the chord-pass campaign (B774), Phase-2 structural (B775, two waves), the B685
+homework (B776), the cc3 fold (B777), and the cleanup wave (B778, partial). Plus the
+measurement torsor / T1-structure / correspondence arcs (B766/B768/B769) that opened the window.
+
+### (1b) The branch inventory (rule 1b)
+Remote branches after prune: `main` + 3 frozen-record (`audit/b739-negatives-hunt-p1`,
+`closure/phase0-hygiene`, `closure/phase1-duels`) + cc3's `audit/b775-braver-questions`
+(folded as B777; cc3 merges nothing — kept as their record). All frontier/b77* working
+branches merged-and-pruned; every arc's content verified present in main. **No unclassified
+branch. No orphaned work.**
+
+### (2) The headline results
+- **The census (B770)** mapped the full open surface: 352 items, six sealed states, 16
+  unearned closures caught by the adversarial pass.
+- **Phase 1 (B771)** net-banked 38 of 44 targets across 5 waves — e₃=cos(2π/9)/864 exact,
+  the D4 ceiling identified, B685 formalized, the metallic genus (3,1,41), L39/H103/selection-rule.
+- **The methodological thread (B772→B774)** is the window's most important: the owner's
+  "are we computing properly?" produced the blind-projection finding (E26), one real overturn
+  (W4-304, the θ-odd sector carried tr_odd=1/4 the trace read as zero), and then the chord-pass
+  proved it ISOLATED — 129/174 negatives structurally immune, 12/12 load-bearing walls hardened,
+  and cc3's independent audit + the H133 chord-suspect (B778) both concurring.
+- **B685 (B776)** — the program's most load-bearing negative — corroborated AND upgraded from
+  cited-by-title to reconstructed-in-cell to depth 105 (3¹⁴⁶@100 anchor reproduced from first
+  principles); the B772 provenance flag closed.
+- **Phase 2 (B775)** opened the structural substance: the T1-mover WALLED, γ₅ derived from
+  σ:a→ab, the mirror mechanism, the p-adic L-function, three courier frameworks tombstoned.
+
+### (3) The mutation test (R29-6, FIRST EXECUTION)
+Two locks sampled and mutated: (a) B776's r7 v₅-plateau ([0,0,1,1,1,2,2]→...2,3) — lock FAILED
+as required; (b) B774's Stage-B all-harden (HARDENS→OVERTURNED) — lock FAILED as required. Both
+restored byte-exact; the suite passes clean after restore. Both locks are genuine (assert the
+mathematical fact, not a vacuous tautology). The standing step is ADOPTED — 2 locks/review.
+
+### (4) Corrections/hygiene this window
+- E26 minted (blind-projection negative); E15/E4 instances recorded (OI-055 provenance, now upgraded).
+- LATIN forcing-overclaim caught and downgraded (B772-class); W3-082c false chord-positive caught
+  (B773); the discipline held symmetrically throughout.
+- B778 partial: 3 cells cc-self-verified (deterministic re-run + hand-check) when the pass ended
+  before the agent verifiers — a sound fallback, recorded honestly.
+
+### Action items (Review 30)
+- [ ] R30-1: complete B778's 2 pending cells (CL-W4115 fabrication strip, CL-LATIN non-current
+  block) next pass.
+- [ ] R30-2: fold cc3's V4-genericity computation when it delivers (the highest-value falsifier;
+  green-lit, running independently).
+- [ ] R30-3: the GSWZ question is well-posed (B776) — the SEND remains owner-gated; draft stays
+  unsent until the owner's go.
+- [ ] R30-4: Phase 2 continues (63 structural rows remain); then Phases 3–5.
+- [ ] R30-5: the mutation test (2 locks) fires again at Review 31.
+- [ ] R30-6 (carried): R29-1 specialist pass (owner-gated), R29-2 L95.
