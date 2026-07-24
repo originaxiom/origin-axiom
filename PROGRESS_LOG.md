@@ -7889,3 +7889,12 @@ cc3's "no new math" claim confirmed. It halves the Phase-3 enumeration 8→4 and
 correspondence bridge from bounded-freedom to minimal-freedom. This is the first genuine Phase-3
 advance, done under agent-quota constraint by direct computation + hand-verification. The
 masterplan's Phase-3 "Galois-vs-reversal gate" item is now DONE.
+
+## 2026-07-24 — B781: the m003 sister-distinction closed (the V4 residual, the #1 falsifier fully defused)
+Continuing by direct computation. Closed the one named residual from the V4 result: m004
+and m003 share trace field, volume, and V4. The monodromy-trace/homology mechanism
+|H₁ torsion|=|2−tr(M)| distinguishes them decisively — m004 trace +3 (golden φ², H₁=ℤ, the
+σ-manifold), m003 trace≠3 (H₁=ℤ/5+ℤ). The downstream Fibonacci/golden/trace-3 chain selects
+m004 uniquely. A structural beauty fell out: the golden 5 is the field √5 in m004 and torsion
+ℤ/5 in the sister — the same number in two homological guises. With B777+B781 the #1 falsifier
+(V4 genericity) is fully defused. Direct computation + hand-verification (agent quota spent).

@@ -78,7 +78,7 @@ The phenomenological correspondence closure, with cc3's B777 feeders folded:
   formally separate c from θ; derivable from existing math, not yet built. Highest-value
   Phase-3 construction: halves the enumeration, converts the bridge from
   "interpretive-with-bounded-freedom" to "interpretive-with-minimal-freedom".
-- **The m003 sister-distinction** (from the verified V4 result): m004 and m003 share V4 + volume; what separates the figure-eight from its sister in the downstream chain (D4 vs Z/2+Z/4 symmetry, trace-3/Fibonacci) needs explicit verification — the named residual risk.
+- **The m003 sister-distinction** ✅ CLOSED (B781): |H₁ torsion|=|2−tr(M)| selects m004 (trace 3, golden φ², H₁=ℤ) over m003 (trace≠3, H₁=ℤ/5+ℤ); the golden 5 is field √5 in m004, torsion ℤ/5 in the sister. The #1 falsifier (V4) is now fully defused.
 - P021 sealed-and-matched — vacancies KEPT as vacancies if that is the truth.
 **Discipline:** no consciousness claim (Q5 absolute); the bridge is priced as axiom C18;
 score structure, never sentience.
