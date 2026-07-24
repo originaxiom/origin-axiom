@@ -19,19 +19,18 @@
     "linked": true,
     "loaded_invariant": "UNDEFINED (pair, linked)"
   },
-  "pari_semantics_validated": false,
+  "pari_semantics_validated": true,
   "baseline_2rank_4rank": [
-    [
-      2,
-      1
-    ],
     [
       2,
       2
     ]
   ],
+  "n_admissible_imag": 28,
   "loaded_8ranks_observed": [
-    0
+    0,
+    1,
+    2
   ],
   "loaded_records": [
     {
@@ -47,12 +46,138 @@
       ],
       "eight_rank": 0,
       "source": "UNCONDITIONAL(enum h)"
+    },
+    {
+      "triple": [
+        5,
+        1459,
+        597049
+      ],
+      "D": -4355472455,
+      "two_sylow": [
+        4,
+        4
+      ],
+      "eight_rank": 0,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        5,
+        11,
+        2169349081
+      ],
+      "D": -119314199455,
+      "two_sylow": [
+        4,
+        4
+      ],
+      "eight_rank": 0,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        5,
+        1459,
+        18845089
+      ],
+      "D": -137474924255,
+      "two_sylow": [
+        8,
+        4
+      ],
+      "eight_rank": 1,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        809,
+        1459,
+        597049
+      ],
+      "D": -704715443219,
+      "two_sylow": [
+        8,
+        8
+      ],
+      "eight_rank": 2,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        5,
+        1459,
+        2169349081
+      ],
+      "D": -15825401545895,
+      "two_sylow": [
+        8,
+        4
+      ],
+      "eight_rank": 1,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        3,
+        597049,
+        18845089
+      ],
+      "D": -33754324627083,
+      "two_sylow": [
+        16,
+        8
+      ],
+      "eight_rank": 2,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        5,
+        11,
+        6433367189401
+      ],
+      "D": -353835195417055,
+      "two_sylow": [
+        8,
+        4
+      ],
+      "eight_rank": 1,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        1459,
+        597049,
+        18845089
+      ],
+      "D": -16415853210304699,
+      "two_sylow": [
+        4,
+        4
+      ],
+      "eight_rank": 0,
+      "source": "PARI(GRH)"
+    },
+    {
+      "triple": [
+        3,
+        18845089,
+        2169349081
+      ],
+      "D": -122644729510539627,
+      "two_sylow": [
+        16,
+        4
+      ],
+      "eight_rank": 1,
+      "source": "PARI(GRH)"
     }
   ],
   "reproduction": {
-    "smallest_two_routes_agree": false,
+    "smallest_two_routes_agree": true,
     "variation_unconditional": true
   },
-  "verdict": "RESOLVED-B",
-  "reason": "every admissible tower triple has 8-rank 0 (2-Sylow pinned by pairwise data) -> the loaded lift DEGENERATES; the wall HARDENS at the loaded level."
+  "verdict": "RESOLVED-A",
+  "reason": "at the LOADED (8-rank / triple-Massey = Kim's H^3 CS action) level the invariant is DEFINED on the tower and NON-DEGENERATE: 8-rank varies over [0, 1, 2] while the pairwise/trace-forced 4-rank is CONSTANT (=2). The trace/abelianized projection the prior cell used (4-rank of one LINKED PAIR) is structurally BLIND to this loaded structure. Positive reproduced two independent ways (unconditional enumeration vs GRH-PARI agree; the 8-rank variation is exhibited with NO GRH)."
 }

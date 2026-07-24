@@ -16115,6 +16115,24 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B773": {
+   "slug": "chord recompute",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B332",
+    "B772",
+    "K016"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B77": {
    "slug": "degree rank mechanism",
    "motifs": [
