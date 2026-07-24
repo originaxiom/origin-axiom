@@ -7828,3 +7828,13 @@ prediction) — these seed Phase 3. Reconciled with my P2-ENUM (complementary: n
 says scoring is decorative, cc3's enumeration says the architecture pins 3/5 fillings).
 Meanwhile B776 (the B685 homework) runs. cc3's V4-genericity is independent (separate
 clones, no contention).
+
+## 2026-07-24 — B776 the B685 homework banked: B685 corroborated, upgraded to first-principles
+Chat-1's homework, both cells upheld. r7 identified (den 2²⁵·3⁹·5²·7, v5 plateaus at 2).
+The headline: Φ(h)Φ(−h) reconstructed FROM FIRST PRINCIPLES (Kashaev saddle, Wick in
+ℚ(√−3)) for the first time in-repo — pure-3 through order 50 (3⁷³@50 dead on the line
+to 3¹⁴⁶@100), NO prime ≠3 in any denominator (B685 NOT reversed). This closes the B772
+provenance flag (OI-055 was cited-by-title; now it is reconstructed-in-cell on-trajectory
+to depth 100). The order-100 anchor is completing via the cell's MM=105 re-run (bg
+bctrbodsk). The GSWZ question is now maximally well-posed; the SEND stays owner-gated.
+Next: MM=105 anchor closes → then the B778 cleanup wave (fix everything).

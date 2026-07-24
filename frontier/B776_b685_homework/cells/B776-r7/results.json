@@ -1,0 +1,73 @@
+{
+  "cell": "B776-r7",
+  "prereg": "0cdfcf44",
+  "computation": "1 -- PUSH r_7",
+  "verdict": "RESOLVED-A",
+  "anchor_reproduced": true,
+  "gates": {
+    "r1": "11/24",
+    "r2": "697/1152",
+    "reproduced_on_both_ladders": true
+  },
+  "method": {
+    "dps": 1200,
+    "ladderA": {
+      "N_min": 2000,
+      "N_max": 64000,
+      "npts": 32
+    },
+    "ladderB": {
+      "N_min": 3000,
+      "N_max": 65000,
+      "npts": 32
+    },
+    "ladders_disjoint": true,
+    "r7_trusted_digits_approx": 63,
+    "OI055_r7_trusted_digits_approx": 33
+  },
+  "r7": {
+    "value": "212114205337147471/115579079884800",
+    "num": 212114205337147471,
+    "den": 115579079884800,
+    "den_factorization": {
+      "2": 25,
+      "3": 9,
+      "5": 2,
+      "7": 1
+    },
+    "v5": 2,
+    "reproduced_on_ladders": [
+      "A",
+      "B"
+    ]
+  },
+  "r8_bonus": {
+    "value": "367362844229968131557/22191183337881600",
+    "den_factorization": {
+      "2": 31,
+      "3": 10,
+      "5": 2,
+      "7": 1
+    },
+    "v5": 2
+  },
+  "v5_sequence_r1_to_r7": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2
+  ],
+  "v5_growth_continues_at_r7": false,
+  "v5_note": "v5(r6)=v5(r7)=2 : the 0,0,1,1,1,2 pattern PLATEAUS at r_7 (no +1 step); it does NOT keep growing.",
+  "independent_crosscheck": {
+    "psi_pure3_through_u9": true,
+    "eq2_coeffs_reproduced": true,
+    "note": "arithmetic identity r7,r8 satisfy, independent of the fit"
+  },
+  "gate_5_5Q": "pure number theory; no physics; nothing to CLAIMS; pin untouched",
+  "runtime_seconds": 564.5
+}
