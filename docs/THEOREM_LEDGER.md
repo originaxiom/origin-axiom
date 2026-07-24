@@ -179,6 +179,19 @@ statement: the observer completes the object from outside; the Born shape = ampl
 (the equivariant, computable part) vs outcomes (the section, not computable). NOT
 asserted in the chain; NOT in CLAIMS.]*
 
+**C23 [NO-GO — the T1-mover; closes the door C21 opened].** C21 established that T1's
+fixedness is FORCED (abelian inner triviality) and therefore that any instrument moving
+it must realize an OUTER V₄-automorphism. **That door is now closed:** the subgroup of
+Out(V₄)=S₃ realized by the object's native operations is exactly **{identity}**. The
+three closing legs carry DISTINCT conjugation-robust signatures under two invariants —
+the orientation homomorphism (holo/antiholo) and the geometric-pair orbit type
+(fix/swap {ρ_geo, ρ̄}): c=(antiholo,swap), j₂=c·θ=(holo,swap), τ=θ=(antiholo,fix) —
+which leaves only the identity in S₃; and the sole permutation surviving the orientation
+invariant (the transposition (c,τ)) is refuted independently, because every object-native
+operation stabilizes {ρ_geo, ρ̄} while c(ρ_geo)=ρ̄ is a free orbit. **The T1 3-frame torsor
+choice is genuinely unbroken: any mover lies outside the object's native symmetry group.**
+— B775 Wave 1 (P2-T1MOVER). Lock: `tests/test_b783_c23.py`.
+
 ---
 
 *Maintenance: additions require the B758 admission criteria (exact statement + location +
