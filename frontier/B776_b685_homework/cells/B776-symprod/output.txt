@@ -1,0 +1,67 @@
+[setup] M=105, P=214, dt=15.9s  building vertices ...
+[setup] vertices built dt=57.1s ; running exp-recursion to k=210 ...
+    ... exp k=20/210  dt=57.2s
+    ... exp k=40/210  dt=58.4s
+    ... exp k=60/210  dt=63.6s
+    ... exp k=80/210  dt=79.6s
+    ... exp k=100/210  dt=117.7s
+    ... exp k=120/210  dt=190.7s
+    ... exp k=140/210  dt=325.7s
+    ... exp k=160/210  dt=554.9s
+    ... exp k=180/210  dt=924.2s
+    ... exp k=200/210  dt=1499.1s
+[stream] r_n extracted (all pure rational) dt=1888.5s
+  r_1 = 11/24   (gate 11/24)
+  r_2 = 697/1152   (gate 697/1152)
+  GATE r1=11/24, r2=697/1152 : PASSED (normalisation fixed, not fitted)
+[eq2] Phi(h)Phi(-h) = 1 - u^2/27 + u^3/27 - 4u^4/243 - u^5/243 + ... reproduced: True
+
+[denominators] order : coefficient-denominator factorisation
+  u^  0 : den = 3^0
+  u^  1 : den = 3^0
+  u^  2 : den = 3^3
+  u^  3 : den = 3^3
+  u^  4 : den = 3^5
+  u^  5 : den = 3^5
+  u^  6 : den = 3^9
+  u^  7 : den = 3^8
+  u^  8 : den = 3^12
+  u^  9 : den = 3^12
+  u^ 10 : den = 3^13
+  u^ 11 : den = 3^13
+  u^ 12 : den = 3^17
+  u^ 15 : den = 3^20
+  u^ 20 : den = 3^30
+  u^ 25 : den = 3^35
+  u^ 30 : den = 3^43
+  u^ 35 : den = 3^48
+  u^ 40 : den = 3^58
+  u^ 45 : den = 3^65
+  u^ 50 : den = 3^73
+  u^ 55 : den = 3^78
+  u^ 60 : den = 3^90
+  u^ 65 : den = 3^94
+  u^ 70 : den = 3^103
+  u^ 75 : den = 3^111
+  u^ 80 : den = 3^120
+  u^ 85 : den = 3^122
+  u^ 90 : den = 3^133
+  u^ 95 : den = 3^138
+  u^100 : den = 3^146
+  u^101 : den = 3^146
+  u^105 : den = 3^153
+
+====================================================================
+ANCHOR GUARD (3^146 at (q-1)^100, pure 3):
+  order 100 denominator = 3^146  (pure power of 3)
+  B685 anchor 3^146 : REPRODUCED
+====================================================================
+
+####################################################################
+VERDICT: RESOLVED-B
+  anchor_reproduced = True
+  five_appears (literal 5^k/7^k.. in a denominator, order>100) = False
+  Anchor 3^146@100 REPRODUCED in-cell from first principles; the symmetrised product Phi(h)Phi(-h) is PURE-3 through order u^105 (no literal 5^k/7^k/... in any denominator). B685's 3-only pattern holds to depth 105; still unproved (GSWZ Habiro-ring theorem remains the all-order mechanism). all_pure3_through_M=True
+####################################################################
+total dt=1889.0s
+wrote results.json
