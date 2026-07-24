@@ -1,0 +1,30 @@
+================================================================================
+B780  THE GALOIS-VS-REVERSAL GATE
+================================================================================
+S1 rank-onset:
+  theta at SL(2): tr(AB)-tr(BA) = 0  => theta TRIVIAL at SL(2): True
+  c at SL(2): conj(2-omega) != (2-omega) => c NON-TRIVIAL at SL(2): True
+  theta at SL(3): permutation (1 4)(2 5)(3 8)(6 7) => NON-TRIVIAL at SL(3): True
+S2 action-type:
+  c = coordinate-wise conjugation (DIAGONAL action-type): True
+  theta = permutation matrix, involution P^2=I: True; NOT diagonal (moves coords): True
+S3 solo-flip:
+  c solo flip-axes: ['T4_chirality']  => c HAS a solo axis: True
+  theta solo flip-axes: []  => theta has NO solo axis: True
+  (theta appears only in the chord T6 = T4 XOR theta)
+
+================================================================================
+THE GATE on ground truth + the swap:
+  real c signature   (True, True, True) -> classified: c
+  real theta signature (False, False, False) -> classified: theta
+  SWAP (c's filler forced into the theta slot): reads 'c', NOT theta => swap FAILS: True
+
+================================================================================
+VERDICT: RESOLVED-A
+  The Galois-vs-reversal gate is VERIFIED: all three signatures (rank-onset,
+  action-type, solo-flip) genuinely discriminate c from theta, computed in-cell
+  from the SL(2)/SL(3)/flip-table data; the gate classifies real c and real theta
+  correctly and REJECTS the swap. cc3's 'no new math' claim holds. The gate halves
+  the Phase-3 correspondence enumeration (8 families -> 4) by forcing each
+  candidate's c-slot filler to carry the c-signature and its theta-slot the theta.
+================================================================================

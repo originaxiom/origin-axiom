@@ -7878,3 +7878,14 @@ the absolute value |·| on modular data is the non-Galois step in both, so the m
 non-Galois behavior and the hearing Latin square's non-forcing are the same phenomenon.
 Both cc-self-verified. B778 is now 7/7 (R30-1 closed). The masterplan (docs/CLOSURE_MASTERPLAN.md)
 is the spine; Phase-2 continuation and Phase 3 resume next agent pass.
+
+## 2026-07-24 — B780: the Galois-vs-reversal gate built + verified (Phase-3's highest-value construction)
+Continuing the masterplan by direct computation. Built and verified cc3's Move-3 gate — the
+missing discriminator separating c (Galois) from θ (reversal), which both my P2-ENUM null-test
+and cc3's enumeration identified as needed. Three banked signatures each genuinely discriminate
+(computed in-cell from SL(2)/SL(3)/flip-table): S1 rank-onset, S2 action-type (diagonal vs
+permutation), S3 solo-flip. The gate classifies real c and θ correctly and rejects the swap —
+cc3's "no new math" claim confirmed. It halves the Phase-3 enumeration 8→4 and converts the
+correspondence bridge from bounded-freedom to minimal-freedom. This is the first genuine Phase-3
+advance, done under agent-quota constraint by direct computation + hand-verification. The
+masterplan's Phase-3 "Galois-vs-reversal gate" item is now DONE.
