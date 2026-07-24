@@ -16241,6 +16241,28 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B780": {
+   "slug": "galois reversal gate",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B766",
+    "B775",
+    "B777",
+    "P2",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [

@@ -74,7 +74,7 @@ The phenomenological correspondence closure, with cc3's B777 feeders folded:
   nor attention-continuous — cc3's framing); test the upādāna candidate.
 - The triadic-T1 verification vs the S₃ frame algebra (vedanā / Peirce / Husserl).
 - F2's settlement (nondual = identity-element or third state?); the K.C. residual.
-- **The Galois-vs-reversal GATE** (cc3's #3) — the missing discriminator that would
+- **The Galois-vs-reversal GATE** ✅ DONE (B780, verified) — the missing discriminator that
   formally separate c from θ; derivable from existing math, not yet built. Highest-value
   Phase-3 construction: halves the enumeration, converts the bridge from
   "interpretive-with-bounded-freedom" to "interpretive-with-minimal-freedom".
