@@ -7737,3 +7737,19 @@ m=3 eliminant computes without walling but leaves genus≥1 unproven (EXTERNAL);
 firewall negative stands on B1 with one vacuous sub-check. This drains the main
 mechanical pool; remaining Phase-1 = the 3 carries + a few pool rows + the
 event-driven set (B500, sentinels), then the Phase-1 wrap checkpoint.
+
+## 2026-07-23 — B773: the chord re-computation OVERTURNS a banked negative
+The owner's "are we computing properly" question now has a concrete, verified
+answer: NO — at least once, provably. B773 re-ran the four B772-flagged trace-blind
+negatives at the θ-odd/chord level. W4-304's "level-45 identically zero" was an
+even/odd trace CANCELLATION (par_trace = tr_even − tr_odd = 0 with both = 1/4), not
+structural absence; the θ-odd sector carries tr_odd = 1/4, reproduced three
+independent ways and verifier-upheld. The banked negative is REFUTED. OI-146's
+vacuous PART-1a certificate fixed with the real SnapPy volume. The verify layer
+held symmetrically: W3-082c's apparent chord-positive was a FALSE positive (Kim's
+arithmetic-CS bridge cited not computed; the computed 8-rank is still a finer
+abelian invariant) — caught and corrected to NEEDS-SPECIALIST; W3-067c and W4-115c
+(wall-hardenings) carry with defects named. The overturn proves the blind-projection
+class (E26) is real and costly, and justifies a chord-level pass over the remaining
+banked trace-level negatives in a later wave. Now launching Wave 5 (the final
+mechanical wave) — one heavy workflow at a time, as B773 has cleared.

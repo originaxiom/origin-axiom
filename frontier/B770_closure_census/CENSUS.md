@@ -72,7 +72,7 @@ Adversarial pass: 71 closures upheld, **16 refuted → reverted to LIVE** (the n
 - **OI-249** THE GHOST SCANNER: upgrade census to theorems (B547)
 - **OI-266** Track L (cc2 ladder) — standing, event-driven
 - **OI-284** The cosmogony sweep (gitignored)
-- **OI-304** W2/2a — level-45 pair sector constants
+- **OI-304** W2/2a — level-45 pair sector constants  *[B773: trace-negative OVERTURNED — θ-odd sector nonzero (tr_odd=1/4)]*
 - **OI-311** Phase 0 — the Closure Census
 - **OI-335** DOOR 6 — B647 gauge-covariant defect law: untested triples
 - **OI-340** Sentinels — armed watcher (numerator-prime trigger)
