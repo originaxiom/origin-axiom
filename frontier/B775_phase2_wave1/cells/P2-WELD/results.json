@@ -1,0 +1,21 @@
+{
+  "word_subdominant": -0.6180339887498949,
+  "weld_untwisted_odd_trace": -0.6180339887498959,
+  "weld_twisted_odd_trace": 0.6180339887498959,
+  "coincidence_reproduced": true,
+  "minpoly_2cos3pi5": "x**2 - x - 1",
+  "all_same_algebraic_number": true,
+  "weld_trace_is_symmetric_polynomial": true,
+  "weld_trace_is_genuine_chord": false,
+  "N_sources_hitting_minus_1_over_phi": 6,
+  "repo_files_touching_golden_0p618": 168,
+  "m136_monodromy_subdominant": 0.2679491924311227,
+  "m136_weld_odd_trace_real": 0.5000000000000003,
+  "m136_weld_odd_trace_imag": -0.8660254037844393,
+  "m136_weld_trace_is_complex": true,
+  "correspondence_generalizes": false,
+  "verdict": "RESOLVED-B",
+  "headline": "DISMISSED as base-rate golden coincidence: -1/phi is the Galois conjugate golden unit produced by N>=3 distinct sources; the weld theta-odd 'trace' is a symmetric trace polynomial (abelian, not a chord); the word<->weld equality FAILS to generalize to m136 (real 2-sqrt3 vs complex omega). E20 stands; tombstone.",
+  "mechanism_found": false,
+  "base_rate_dismissal": true
+}

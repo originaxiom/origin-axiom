@@ -1,0 +1,38 @@
+orders (o1,o2) = (20, 12)  field Q(zeta60), DEG = 16
+
+[V0] raw trace table C[j][l] lies in Q(zeta15): True
+
+[V1] support selection: nonzero rows == K1 : True
+     nonzero rows = [0, 1, 4, 5, 6, 9, 11, 14, 15, 16, 19]
+
+[V2] silent AND supported rows : [16]  (unique row-16 silence: True )
+     row-16 support (real, Q(sqrt5)): {0: ('1/24', '1/120', '0', '0'), 4: ('5/48', '-1/240', '0', '0'), 8: ('5/48', '-1/240', '0', '0')}
+
+[V3] mirror law  tau3(t(a,b)) = t(a,-b)  holds all 240 : True
+     => silence <=> row-evenness.  row16 even: True  row4 even: False  (row4 bright/odd, row16 silent/even)
+
+[V4] silence is arithmetic-reality, NOT single-symmetry-forced:
+     R1 (b->7b) holds row4,row16 : (True, True)  (twin symmetry constraints)
+     Galois c mapping raw row4 -> raw row16 : [] (none)
+     Galois c fixing raw row16 entirely     : [1, 31] (only Q(zeta15)-stabilizer {1,31})
+     => the mirror reduces silence to evenness, but no ambient symmetry SELECTS
+        row16 over its twin row4; the darkness is the ARITHMETIC vanishing of the
+        sqrt-3/sqrt-15 content of the level-15 theta values (finite-exact fact).
+
+[V5] +-1/48 SIGN-SELECTION theorem:
+     pure-seam |s|=1/48 cells: [(0, 4), (0, 8), (4, 4), (4, 8), (6, 2), (6, 10), (14, 2), (14, 10)]
+     per-row sector sign eps (s = eps*z): {0: -1, 4: -1, 6: 1, 14: 1}  clean: True
+     [repro 1] seam s = eps(a)*z, eps = sector sign (+/-1)
+     [repro 2] sigma_7 (sqrt5-flip) flips seam s, fixes sqrt-3 z : True
+       flagship t(0,4)= ('-1/48', '-1/80', '-1/48', '1/48')  sigma_7 -> ('-1/48', '1/80', '-1/48', '-1/48')
+     magnitude 1/48=(1/4)(1/12), 1/12=1/16+1/48 : True
+     sector constants sqrt5-conjugate  (0,0,-1/12,-1/12)<->(0,0,-1/12,+1/12): True
+     => the +-1/48 seam SIGN is the sqrt5-Galois face (phi <-> -1/phi); the two
+        sectors (slot/3-block) are sigma_sqrt5-conjugate; within a sector the sign
+        flips under the mirror law b->-b (tau3).  SIGN SELECTION = Galois-forced.
+
+========================================================================
+VERDICT: RESOLVED-A (terminal: RESOLVED-A)
+Row-16 silence + +-1/48 sign selection PROVEN: row 16 is the UNIQUE silent-but-supported row (arithmetic reality, mirror-reduced to row-evenness, not symmetry-forced); the +-1/48 seam sign is the sqrt5-Galois face (sigma_sqrt5-conjugate sectors), reproduced two ways.
+silence_proven = True  | sign_selection_proven = True
+========================================================================

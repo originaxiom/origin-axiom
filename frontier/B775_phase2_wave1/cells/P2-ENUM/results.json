@@ -1,0 +1,113 @@
+{
+  "cell": "P2-ENUM",
+  "charter": "correspondence enumeration + permutation null (B775 P2 W1)",
+  "prereg": "4f73e186 (B775); null spec inherited from B768 seal 9c273563 rule 2",
+  "gate": "5-Q STRICT (structural scoring only; NO consciousness claim)",
+  "n_signatures": 9,
+  "discriminators": [
+    "transparency",
+    "time=basepoint"
+  ],
+  "discriminator_facts": {
+    "transparency": "fiber_dim = 0 at n=2,3,4 (private self-name yet boundary-readable)",
+    "time=basepoint": "(1-phi)^2 = phi^-2 exact (ONE bit as time-arrow AND basepoint AND sqrt5-branch)"
+  },
+  "correspondence": {
+    "voice": "the self-model's emitted voice / self-report channel",
+    "self-name": "the self's proper name (mineness of the self-model)",
+    "transparency": "phenomenal transparency (Metzinger) -- 'privacy is the angle, not the wall' [P5]",
+    "integration": "binding/integration -- the felt coupling of contents",
+    "no-closure": "openness -- what the experience takes from outside itself",
+    "three-bits": "the closing bits {c=Self/Other, theta=Active/Passive, gamma5=When/Which}",
+    "time=basepoint": "temporal self-location (gamma5) -- the felt now as basepoint [T7]",
+    "unmoved-axis": "the unmoved witness -- the c/theta pairing itself",
+    "galois-continuum": "the qualitative continuum -- values/anchor/space"
+  },
+  "signature_types": {
+    "voice": [
+      "1",
+      "none-rigid"
+    ],
+    "self-name": [
+      "1",
+      "none"
+    ],
+    "transparency": [
+      "all-ranks",
+      "deck-equivariant"
+    ],
+    "integration": [
+      "2",
+      "theta-split"
+    ],
+    "no-closure": [
+      "1",
+      "Galois"
+    ],
+    "three-bits": [
+      "3",
+      "F2^3"
+    ],
+    "time=basepoint": [
+      "1",
+      "gamma5"
+    ],
+    "unmoved-axis": [
+      "1",
+      "outside-involutions"
+    ],
+    "galois-continuum": [
+      "continuous",
+      "Galois-chosen"
+    ]
+  },
+  "null_full_type": {
+    "label": "FULL structural type (arity + symmetry)",
+    "exact_marginals": {
+      "transparency": "1/9",
+      "time=basepoint": "1/9"
+    },
+    "E_score": 0.2222222222222222,
+    "courier_score": 2,
+    "p_both_exact": 0.013888888888888888,
+    "p_ge_courier_mc": 0.0148,
+    "mc_dist": {
+      "0": 3953,
+      "1": 973,
+      "2": 74
+    },
+    "mc_mean": 0.2242
+  },
+  "null_arity_only": {
+    "label": "ARITY-ONLY (looser match)",
+    "exact_marginals": {
+      "transparency": "1/9",
+      "time=basepoint": "5/9"
+    },
+    "E_score": 0.6666666666666666,
+    "courier_score": 2,
+    "p_both_exact": 0.06944444444444445,
+    "p_ge_courier_mc": 0.0662,
+    "mc_dist": {
+      "0": 2009,
+      "1": 2660,
+      "2": 331
+    },
+    "mc_mean": 0.6644
+  },
+  "b774_self_test": {
+    "arity_swap_invariant": true,
+    "full_type_equals_fixed_point_indicator": true,
+    "pass_is_symmetric_label_invariant": true
+  },
+  "content_null": {
+    "independent_reading_types_delivered": false,
+    "theta_row_independently_typed_and_died": true
+  },
+  "beats_null_mechanically": true,
+  "above_null_is_content": false,
+  "verdict": "RESOLVED-B",
+  "terminal_state": "DISMISSED-TOMBSTONE",
+  "headline": "The permutation null's above-chance score is EXACTLY the base-rate for two labeled fixed points (1/72); the pass-indicator is a proven symmetric label invariant (B774 fail). The correspondence's discriminator-passing is structurally DECORATIVE -- above the combinatorial null, but carrying zero phenomenological bits beyond the labels the courier attached.",
+  "discriminating_fact": "EXACT permutation null (in-cell, corroborated by 5000 MC shuffles per prereg rule 2): under FULL structural type, P(pass BOTH sealed discriminators) = good/9! = 1/72 = 0.01389; the courier(identity) scores 2/2, i.e. the top 1.39% -- MECHANICALLY above null. BUT the B774 self-test proves the FULL-type pass IS the fixed-point indicator [perm[i]==i] at the two slots (verified equal on 3000 perms) and the ARITY score is invariant under swapping the two arity-1 readings voice<->self-name (3000 perms) -- a symmetric label-equality carrying no content. The above-null = exactly the base-rate rarity of reshuffling two UNIQUE type-labels ('all-ranks' is the unique arity; 'gamma5' the unique symmetry) back onto their slots. No independent phenomenology-derived reading types were delivered (FINDINGS 3x); the one row independently typed (theta) was killed (graded FoA). Hence the mechanical above-null is a permutation base-rate artifact -- decorative -- not the earned positive B772 warns against."
+}

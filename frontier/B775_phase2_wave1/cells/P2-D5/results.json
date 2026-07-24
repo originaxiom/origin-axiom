@@ -1,0 +1,56 @@
+{
+  "cell": "P2-D5",
+  "campaign": "B775 Phase 2 Wave 1",
+  "question": "the D5 = Spin(10) McKay check (courier T4 / OI-314)",
+  "gate": "5-Q (structural Lie/McKay only)",
+  "partA_McKay_Dic3_is_affine_D5": true,
+  "partB_D5_is_Spin10": true,
+  "generic_correspondence_holds": true,
+  "object_native": false,
+  "spin10_is_mckay_on_object": false,
+  "mckay_degree_seq_Dic3": [
+    1,
+    1,
+    1,
+    1,
+    3,
+    3
+  ],
+  "affine_D5_degree_seq": [
+    1,
+    1,
+    1,
+    1,
+    3,
+    3
+  ],
+  "perron_eigenvalue": 2.0,
+  "marks_sorted": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    2
+  ],
+  "coxeter_number_D5": 8,
+  "twoT_order": 24,
+  "twoT_abelianization_order": 3,
+  "twoT_subgroup_orders": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    24
+  ],
+  "twoT_has_order12_subgroup": false,
+  "BD3_subset_2T": false,
+  "E6_27_branch_16_10_1": true,
+  "E6_78_branch": true,
+  "verdict": "RESOLVED-B",
+  "terminal_state": "DISMISSED-TOMBSTONE",
+  "headline": "The D5=Spin(10) McKay analogy FAILS as an object connection: the generic McKay(BD_3)=affine D5=Spin(10) is TRUE but B727-forced (P=1), and the object's McKay ancestor 2T (->E6) neither contains BD_3 nor emits D5; Spin(10) touches the object only as a Lie subgroup of E6 (27=16+10+1), a non-McKay embedding already walled (B570 fifth wall, vector-like).",
+  "discriminating_fact": "In-cell: (A) the McKay graph of the binary-dihedral/dicyclic group Dic_3 (order 12), built from explicit SU(2) matrices of all 6 irreps, is the affine D5^(1) Dynkin graph (degree seq {1,1,1,1,3,3}, Perron=2, marks {1,1,1,1,2,2} sum=8=h(D5), spectra match); (B) D5 Lie = so(10) = Lie(Spin(10)) (2n=10, dim 45, Cartan det 4); BUT (C) the object's native McKay ancestor is 2T=SL(2,3) (order 24, 2T^ab=Z/3 has NO index-2 subgroup, and an exhaustive 2-generated-subgroup search gives orders {1,2,3,4,6,8,24} -- NO order-12 subgroup) so BD_3 (order 12) is NOT a subgroup of 2T and the object emits affine E6, not D5. Spin(10) reaches the object ONLY as the Lie subgroup so(10) in e6 (27=16+10+1), which is a Lie-branching, not a McKay correspondence, and whose chiral 16 is the walled B570 fifth wall. The generic McKay-Lie D5<->Spin(10) identity is real but B727-forced (P=1), not evidence."
+}

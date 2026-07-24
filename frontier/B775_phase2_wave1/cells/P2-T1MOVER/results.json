@@ -1,0 +1,43 @@
+{
+  "cell": "P2-T1MOVER",
+  "campaign": "B775 Phase-2 Wave-1",
+  "prereg": "4f73e186",
+  "verdict": "RESOLVED-B",
+  "terminal_state": "WALLED",
+  "headline": "WALLED: no object-native operation is outer -- the 3-frame choice is genuinely unbroken",
+  "V4_abelian": true,
+  "signatures_I1holo_I2fixpair": {
+    "c": [
+      1,
+      0
+    ],
+    "j2": [
+      0,
+      0
+    ],
+    "tau": [
+      1,
+      1
+    ]
+  },
+  "signatures_distinct": true,
+  "realized_subgroup_of_S3": [
+    "identity"
+  ],
+  "reproduction_A_signatures_only_identity": true,
+  "reproduction_B_c_tau_refuted": true,
+  "both_reproductions_agree": true,
+  "c_fixes_rho_geom": false,
+  "tau_fixes_rho_geom": true,
+  "discriminating_fact": "The three legs carry DISTINCT conjugation-robust signatures under (I1 orientation homomorphism holo/antiholo, I2 geometric-pair orbit fix/swap): c=(1, 0), j2(=c*theta)=(0, 0), tau(=theta)=(1, 1); and the sole I1-surviving transposition (c,tau) is refuted independently because every object-native operation fixes rho_geom while c(rho_geom)=rho_bar (free orbit).",
+  "object_native_ops_frame_action": {
+    "c   (Galois/being-swap, in V4)": "identity (inner; V4 abelian)",
+    "j2  (holo involution = c*theta, in V4)": "identity (inner; V4 abelian)",
+    "tau (amphichirality = theta, in V4)": "identity (inner; V4 abelian)",
+    "gamma5 = Gal(Q(sqrt5))": "identity (disjoint field; commutes with c,j2,tau)",
+    "gamma3 (being-Galois == c, B766)": "identity (inner)",
+    "Isom(4_1)=D4 geometric symmetries": "identity on frames (all fix rho_geom => cannot send c->tau; j2 canonical by I1)",
+    "amphichiral tau=-I central (cc3 audit)": "identity (central)"
+  },
+  "notes": "theta:=tau=amphichirality (object is theta-symmetric); c*theta=j2. Isom(4_1)=D4 order 8 amphichiral (SnapPy) all fix rho_geom. meridian-sign flips s:(x,y)->(-x,y) are NOT object-native (B711: 0 pi_1 endomorphisms) and are excluded. Gate 5/5-Q clean; nothing to CLAIMS; no consciousness claims; one-number pin untouched."
+}

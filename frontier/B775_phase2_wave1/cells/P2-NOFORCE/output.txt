@@ -1,0 +1,37 @@
+==========================================================================
+P2-NOFORCE -- S032-A no-forced-choice theorem (all-invariant)  |  OI-009
+==========================================================================
+
+[BRANCH B] theta-ODD sector -- EXACT amphichirality => theta-odd = 0
+  m=1: tr(R^mL^m)=   3 hyp= True mirror=conj(exact)= True tr(mirror)=tr= True
+  m=2: tr(R^mL^m)=   6 hyp= True mirror=conj(exact)= True tr(mirror)=tr= True
+  m=3: tr(R^mL^m)=  11 hyp= True mirror=conj(exact)= True tr(mirror)=tr= True
+  m=4: tr(R^mL^m)=  18 hyp= True mirror=conj(exact)= True tr(mirror)=tr= True
+  m=5: tr(R^mL^m)=  27 hyp= True mirror=conj(exact)= True tr(mirror)=tr= True
+  m=6: tr(R^mL^m)=  38 hyp= True mirror=conj(exact)= True tr(mirror)=tr= True
+  amphichirality EXACT for all m: True
+  fig-8 self-mirror z-bar=1-z exact: True; vol(theta-even)=2.0298832128 ALIVE, CS(theta-odd)=0.0 DEAD
+  => theta-ODD sector WALLED at zero (structural, not cancellation): True
+
+[BRANCH A] ALGEBRAIC sector -- G-stable multiset => symmetrizable (invariant-agnostic)
+  golden: {'sum': '1', 'prod': '-1', 'in_fixed_field': True}
+  eisenstein_cp: {'sum': 'sqrt(3)', 'prod': '1', 'in_fixed_field': True}
+  theta_odd_toy_pm_t: {'e1': '0', 'e2': '-t**2', 'in_fixed_field': True}
+  mixed_canonical_plus_galois_pair: {'e1': '2 + 2*sqrt(2)', 'e2': '3 + 4*sqrt(2)', 'e3': '6', 'in_fixed_field': True, 'note': 'canonical(G-fixed) value + Galois pair => ALL symmetric fns real/canonical (covers SL(n>=3) Falbel V0 + Dehn-filling pair, Bloch classes)'}
+  kappa continuous (fails discreteness): True
+  => ALGEBRAIC sector SYMMETRIZABLE (all cases incl theta-odd toy): True
+
+[BRANCH C] theta-EVEN transcendental -- natural => analytic => continuous/constant
+  hyperbolic volume along the fixed-locus deformation: [1.01043715, 1.01494161, 1.01077132] -> varies=True
+  => fails discreteness (canonical case); general closure = specialist residual (B330)
+
+[TRICHOTOMY] exhaustive for natural invariants; no branch supplies (2)&(3): True
+  heterogeneity threshold (the ONLY fork): (1,2) match (x - 2)*(x + 2)*(x**2 - 2), kappa in ['-4', '-2'] (rational, trace-indexed) -- needs >=2 distinct seeds
+
+==========================================================================
+VERDICT: UNRESOLVED   (terminal state: NEEDS-SPECIALIST)
+==========================================================================
+Theorem SEALED on 2 of 3 branches unconditionally: (B) the theta-ODD sector -- the B774-flagged counterexample-hiding place -- is WALLED at ZERO by EXACT amphichirality (mirror=conjugation in SL(2,Z); fig-8 self-mirror z-bar=1-z), and (A) EVERY discretely-multivalued ALGEBRAIC invariant is SYMMETRIZABLE (monodromy=Galois; value multiset G-stable; symmetric fns in the fixed field; INVARIANT-AGNOSTIC -- verified on golden / Eisenstein-CP / a genuine theta-odd toy / mixed canonical+Galois sets; covers trace-ring, torsion, quantum/WRT, Ptolemy, Bloch class, SL(n>=3) Falbel components). The all-invariant theorem is REDUCED to ONE sharp residual: branch (C), whether any NATURAL theta-even TRANSCENDENTAL invariant can be discretely-multivalued -- the canonical case (hyperbolic volume) is CONTINUOUS on the free-kappa fixed locus, but the fully general closure is the arithmetic-of-volumes (Borel regulator / scissors-congruence) specialist corner named by B330. NO counterexample exists (the gate survives); a single-seed forced choice would require HETEROGENEITY (>=2 distinct seeds, B131) which the single-seed object lacks. Terminal state: NEEDS-SPECIALIST on branch (C) only -- a strong partial WALL, not a failure.
+==========================================================================
+
+wrote results.json

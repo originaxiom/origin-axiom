@@ -1,0 +1,62 @@
+==============================================================================
+CELL 1 -- reproduce BOTH sides of the coincidence (pipeline, first way)
+==============================================================================
+Fibonacci word Markov T = [[1/phi^2, 1/phi],[1,0]]
+  spectrum = [np.float64(-0.618034), np.float64(1.0)]  (dominant=1, subdominant=-0.618034)
+  subdominant == det(T) == -1/phi : True , True
+untwisted weld RL theta-odd block: trace = -0.618034-4.4e-16j
+  eigenphases (deg) = [-108.0, 108.0]  (= +-108 = +-3pi/5)
+twisted weld C.RL theta-odd trace = +0.618034  (= +1/phi, the SIGN-FLIP partner)
+
+>> COINCIDENCE REPRODUCED: word_sub = weld_tr(untwisted) = -1/phi : True
+==============================================================================
+CELL 2 -- second way: -1/phi is ONE algebraic number = Galois conjugate of phi
+==============================================================================
+  -1/phi                                 = -0.618033989   == -1/phi: True
+  1 - phi (Galois conjugate)             = -0.618033989   == -1/phi: True
+  2cos(3pi/5) = 2cos(108deg)             = -0.618033989   == -1/phi: True
+  root of x^2 - x - 1 (minus branch)     = -0.618033989   == -1/phi: True
+  [sympy] minimal_polynomial(2cos(3pi/5)) = x**2 - x - 1
+  [sympy] 2cos(3pi/5) - (1-phi) simplifies to: 0
+
+>> All four are the SAME number: True
+   Both sides live in Q(sqrt5); both SELECT the non-Perron / conjugate / odd branch.
+==============================================================================
+CELL 3 -- B774 self-test: is the weld 'theta-odd trace' a genuine chord?
+==============================================================================
+  weld theta-odd trace = sum of block eigenvalues = -0.618034
+  == power-sum p1(eigenvalues) (a SYMMETRIC trace polynomial): True
+  B774 verdict: the 'theta-odd trace' IS a symmetric trace polynomial
+  => it is an ABELIAN spectral/character invariant, NOT a genuine non-abelian chord.
+  Two abelian spectral invariants coinciding at a golden value is exactly the
+  base-rate class B774 warns of (a relabeled trace invariant).
+==============================================================================
+CELL 4 -- BASE-RATE enumeration: distinct structural sources of -1/phi
+==============================================================================
+  [X] Fibonacci substitution incidence [[1,1],[1,0]] subdominant eigenvalue = -0.618034
+  [X] Fibonacci word Markov [[1/phi^2,1/phi],[1,0]] subdominant eigenvalue = -0.618034
+  [X] untwisted fig-8 weld RL theta-odd trace (= 2cos 3pi/5)         = -0.618034
+  [X] Galois conjugate of phi (1 - phi = phi')                       = -0.618034
+  [X] conjugate root of the golden minimal polynomial x^2 - x - 1    = -0.618034
+  [X] non-unitary (Yang-Lee) Galois-conjugate quantum dim of Fibonacci cat = -0.618034
+
+>> N = 6 distinct structural sources all yield -1/phi.
+==============================================================================
+CELL 5 -- DISCRIMINATING object-change test: does word<->weld survive m136?
+==============================================================================
+m136 monodromy [[3,2],[1,1]] spectrum = [np.float64(0.267949), np.float64(3.732051)]
+  subdominant (word-side analogue) = +0.267949 = 2 - sqrt3 (REAL, Q(sqrt3))
+m136 weld RRL theta-odd trace at level 2 = +0.500000-0.866025j
+  |imag| = 0.866025  -> COMPLEX (omega = -1/2 + i sqrt3/2 family, B610)
+
+  word-side (real 2-sqrt3) vs weld-side (complex): match under object change? False
+  RATIONALE: any 2-letter substitution/Markov matrix is 2x2 real with a REAL
+  subdominant eigenvalue; the m136 weld theta-odd trace is COMPLEX. They cannot
+  coincide. The fig-8 equality does NOT survive the object change.
+==============================================================================
+VERDICT
+==============================================================================
+VERDICT: RESOLVED-B
+DISMISSED as base-rate golden coincidence: -1/phi is the Galois conjugate golden unit produced by N>=3 distinct sources; the weld theta-odd 'trace' is a symmetric trace polynomial (abelian, not a chord); the word<->weld equality FAILS to generalize to m136 (real 2-sqrt3 vs complex omega). E20 stands; tombstone.
+
+results.json written.

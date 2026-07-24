@@ -1,0 +1,66 @@
+{
+ "V0_C_in_Qzeta15": true,
+ "V1_support_is_K1": true,
+ "V2_row16_unique_silent": true,
+ "V2_row16_nontrivial_real": true,
+ "V2_row16_support": {
+  "0": [
+   "1/24",
+   "1/120",
+   "0",
+   "0"
+  ],
+  "4": [
+   "5/48",
+   "-1/240",
+   "0",
+   "0"
+  ],
+  "8": [
+   "5/48",
+   "-1/240",
+   "0",
+   "0"
+  ]
+ },
+ "V3_mirror_law_all240": true,
+ "V3_row16_even": true,
+ "V3_row4_even": false,
+ "V4_R1_twins": [
+  true,
+  true
+ ],
+ "V4_no_galois_row4_to_row16": true,
+ "V4_raw16_stabilizer": [
+  1,
+  31
+ ],
+ "V5_sign_selection": {
+  "seam_1over48_cells": [
+   "0,4",
+   "0,8",
+   "14,10",
+   "14,2",
+   "4,4",
+   "4,8",
+   "6,10",
+   "6,2"
+  ],
+  "sector_signs": {
+   "0": -1,
+   "4": -1,
+   "6": 1,
+   "14": 1
+  },
+  "sector_clean": true,
+  "sigma7_flips_seam_fixes_z": true,
+  "magnitude_1over48_eq_quarter_twelfth": true,
+  "sector_constants_sqrt5_conjugate": true
+ },
+ "V5_ok": true,
+ "verdict": "RESOLVED-A",
+ "terminal_state": "RESOLVED-A",
+ "headline": "Row-16 silence + +-1/48 sign selection PROVEN: row 16 is the UNIQUE silent-but-supported row (arithmetic reality, mirror-reduced to row-evenness, not symmetry-forced); the +-1/48 seam sign is the sqrt5-Galois face (sigma_sqrt5-conjugate sectors), reproduced two ways.",
+ "silence_proven": true,
+ "sign_selection_proven": true
+}

@@ -1,0 +1,94 @@
+==========================================================================
+B775 P2-D5 :: the D5 = Spin(10) McKay check
+==========================================================================
+
+--------------------------------------------------------------------------
+PART A -- McKay(Dic_3, order 12)  =?=  affine D5
+--------------------------------------------------------------------------
+all 6 reps satisfy the Dic_3 relations (r^6=1, s^2=r^3, srs^-1=r^-1):  True
+irreducible characters orthonormal (=> all irreducible, complete):  True
+sum of dim^2 =  12  (must equal |G|=12)
+
+McKay matrix a_ij = mult(rho_j in V(x)rho_i), V = 2a natural:
+[[0 0 0 0 1 0]
+ [0 0 0 0 1 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 1]
+ [1 1 0 0 0 1]
+ [0 0 1 1 1 0]]
+symmetric (V self-dual):  True
+simple graph (0/1, no loops):  True
+degree sequence (McKay):  [1, 1, 1, 1, 3, 3]
+Perron eigenvalue (must be 2):  2.0
+marks (Kac labels, sorted):  [1, 1, 1, 1, 2, 2]  sum = 8
+
+affine D5^(1) reference graph:
+  degree sequence:  [1, 1, 1, 1, 3, 3]
+  spectrum:         [-2.0, -1.0, -0.0, 0.0, 1.0, 2.0]
+  Coxeter number h(D5) = 2n-2 =  8  (== sum of marks)
+McKay(Dic_3) spectrum:  [-2.0, -1.0, -0.0, 0.0, 1.0, 2.0]
+>>> McKay(Dic_3)  ==  affine D5^(1)  (iso as unlabeled graph):  True
+
+--------------------------------------------------------------------------
+PART B -- D5 (Lie)  ==  so(10)  ==  Lie(Spin(10))
+--------------------------------------------------------------------------
+D5 Cartan matrix:
+[[ 2 -1  0  0  0]
+ [-1  2 -1  0  0]
+ [ 0 -1  2 -1 -1]
+ [ 0  0 -1  2  0]
+ [ 0  0 -1  0  2]]
+det(Cartan D5) =  4  (D_n Cartan det = 4 => center Z/4 or Z/2xZ/2)
+dim(D5) = n(2n-1) =  45   (dim so(10) = 45)
+#roots(D5) = 2n(n-1) =  40 ;  rank =  5 ;  #roots+rank =  45
+>>> D5 == so(10) == Lie(Spin(10)) [dim 45, so(2*5), Cartan det 4]:  True
+
+>>> GENERIC pure-math correspondence  McKay(BD_3)=affine D5,  D5=Spin(10):  True
+
+--------------------------------------------------------------------------
+PART C -- object-nativity test (the B727 discipline)
+--------------------------------------------------------------------------
+Banked atom (B266/B727): pi_1(m004) ->> 2T = SL(2,3), order 24, exactly 2
+surjections;  McKay(2T) = affine E6.  That is the object's ONLY native
+McKay ancestor.  The D5 ancestor is BD_3 = Dic_3 (order 12).
+
+|SL(2,3)| =  24  (must be 24)
+|[2T,2T]| =  8  ;  |2T^ab| = |2T|/|[2T,2T]| =  3  (2T^ab = Z/3)
+2T has an index-2 (order-12) subgroup?  False   =>  BD_3 (order 12) is NOT a subgroup of 2T
+2T element-order profile:  {1: 1, 2: 1, 3: 8, 4: 6, 6: 8}
+all subgroup orders realized by 2-generated subgroups of 2T:  [1, 2, 3, 4, 6, 8, 24]
+2T has ANY order-12 subgroup?  False   (2nd, independent brute-force proof; Dic_3 has order 12)
+>>> BD_3 (D5 McKay ancestor)  subset of  2T (object's E6 ancestor)?  False
+affine E6 nodes =  7 ; affine D5 nodes =  6 ; D5 is NOT the McKay graph of the object's ancestor (that graph is E6).
+
+--------------------------------------------------------------------------
+PART C' -- Spin(10)'s ACTUAL contact with the object
+--------------------------------------------------------------------------
+Spin(10) x U(1)  is a maximal SUBGROUP of E6, with  27 = 16 + 10 + 1.
+Check the dimension arithmetic of that branching (in-cell):
+  78 (E6 adj) = 45 (so10) + 1 (u1) + 16 + 16bar =  78  ok: True
+  27 (E6 fund) = 16 (spinor) + 10 (vector) + 1 (singlet) =  27  ok: True
+This embedding is a LIE-SUBALGEBRA branching (so10 in e6), NOT the McKay
+finite-subgroup correspondence.  Two DIFFERENT 'D5's are being conflated:
+  (i)  McKay-D5   : affine Dynkin of the finite group BD_3 subset SU(2)
+  (ii) Lie-D5     : so(10) subset e6, reached by 27 = 16+10+1
+The object realizes (ii) [via its E6], NOT (i).  And (ii)'s chiral 16 is
+the B570 FIFTH WALL: the object's holonomy closure is the theta-stable
+principal SL(2,C), under which 27 is self-dual/vector-like -- the chiral
+16 of Spin(10) is UNREACHABLE, embedding-independently.  (cited as prior
+banked wall, not re-derived here; this cell's own discriminating facts
+are Parts A/B/C computed above.)
+
+==========================================================================
+VERDICT
+==========================================================================
+GENERIC_HOLDS (McKay(BD_3)=affine D5  &  D5=Spin(10)) : True
+OBJECT_NATIVE (object's ancestor emits BD_3/D5)       : False
+SPIN10_IS_MCKAY_ON_OBJECT (vs Lie embedding in E6)    : False
+
+VERDICT   : RESOLVED-B
+TERMINAL  : DISMISSED-TOMBSTONE
+HEADLINE  : The D5=Spin(10) McKay analogy FAILS as an object connection: the generic McKay(BD_3)=affine D5=Spin(10) is TRUE but B727-forced (P=1), and the object's McKay ancestor 2T (->E6) neither contains BD_3 nor emits D5; Spin(10) touches the object only as a Lie subgroup of E6 (27=16+10+1), a non-McKay embedding already walled (B570 fifth wall, vector-like).
+
+DISCRIMINATING FACT:
+In-cell: (A) the McKay graph of the binary-dihedral/dicyclic group Dic_3 (order 12), built from explicit SU(2) matrices of all 6 irreps, is the affine D5^(1) Dynkin graph (degree seq {1,1,1,1,3,3}, Perron=2, marks {1,1,1,1,2,2} sum=8=h(D5), spectra match); (B) D5 Lie = so(10) = Lie(Spin(10)) (2n=10, dim 45, Cartan det 4); BUT (C) the object's native McKay ancestor is 2T=SL(2,3) (order 24, 2T^ab=Z/3 has NO index-2 subgroup, and an exhaustive 2-generated-subgroup search gives orders {1,2,3,4,6,8,24} -- NO order-12 subgroup) so BD_3 (order 12) is NOT a subgroup of 2T and the object emits affine E6, not D5. Spin(10) reaches the object ONLY as the Lie subgroup so(10) in e6 (27=16+10+1), which is a Lie-branching, not a McKay correspondence, and whose chiral 16 is the walled B570 fifth wall. The generic McKay-Lie D5<->Spin(10) identity is real but B727-forced (P=1), not evidence.
