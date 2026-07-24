@@ -1,0 +1,10 @@
+{
+ "arc": "B782",
+ "chain_link": "C22",
+ "verdict": "RESOLVED-A",
+ "action_free": true,
+ "action_transitive": true,
+ "equivariant_sections": [],
+ "no_equivariant_section": true,
+ "headline": "C22 [NO-GO]: the measurement torsor (C20) is a free transitive (Z/2)^3-action; a free action has no G-fixed point, so no equivariant section selects a closing; the choice is not computable by any symmetry-respecting internal process -- it is broken from outside. Math-only; the observer/Born reading is the priced C18 bridge."
+}
