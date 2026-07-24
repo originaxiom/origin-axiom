@@ -7765,3 +7765,14 @@ tracker (carries for a decorative check). Also banked: σ-signature ill-posed, t
 31-collision base-rate, the being-hand defect to n=9, B647 triples EXTERNAL. With
 Wave 5 the Phase-1 mechanical lane is done; only cosmetic strips (W5-139, W5-100) and
 the 3 B773 chord-carries remain. Phase-1 wrap checkpoint next.
+
+## 2026-07-23 — PHASE 1 WRAP: the mechanical closure lane is done (docs/PHASE1_WRAP.md)
+Five compute waves + the adequacy audit + the chord re-computation, all sealed and
+adversarially verified. 44 distinct targets, 38 net-banked, 5 genuinely-open (2
+cosmetic strips + 3 chord-carries). Headlines: e₃=cos(2π/9)/864 exact, B685
+formalized-to-GSWZ, the D4 ceiling identified, level-27 refuted, the metallic genus
+sequence (3,1,41), and — the result the owner's question produced — a banked negative
+OVERTURNED at the chord level (W4-304). R29-3 closed (B500 stragglers EXTERNAL —
+in-sandbox compute wall). Open strategic question for the Phase-1→2 boundary: the
+W4-304 overturn justifies a chord-level pass over the OTHER banked trace-level
+negatives before building Phase-2 structural work on the negatives base.

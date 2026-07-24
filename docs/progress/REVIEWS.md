@@ -1998,6 +1998,7 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
 - [>] R28-6: B500 wrap-up — bank the straggler verdict when the run ends (26 TIMEOUT + 9
   never-reached at last count; two deep cases at PARI limits; honest-residual report) —
   CARRIED to R29-3 (the run's final processes still executing at review time)
+  [CLOSED 2026-07-23: the stragglers hit the IN-SANDBOX compute wall — 35/150 timeout/never-reached (PARI stack + 3600s), 1 resolved (DFDMM child ABSENT deg 74); EXTERNAL/specialist, not a math wall; raw logs uncommitted per the exploratory rule. See docs/PHASE1_WRAP.md]
 - [x] R28-7: L108 — the two-ℤ/3 identity cell (B326 ≟ B302; the one DOOR4 residual) — DONE
   2026-07-22 (B757): DISSOLVED — never the same element (torsion-freeness theorem); the mod-4
   coincidence is Sylow-forced (one order-3 class in GL(2,ℤ/4)); shared content = the banked atom
