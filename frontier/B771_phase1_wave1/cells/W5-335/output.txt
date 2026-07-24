@@ -1,0 +1,31 @@
+loading b637_threeform.py (B575 prefix + cubic build) ...
+[100.0s] b637 module loaded
+[1043.7s] double_Y done; nonzero triples: [(0, 2, 3), (0, 3, 4), (1, 2, 3), (1, 2, 4), (1, 3, 4), (2, 3, 4)]
+== triple (1, 3, 4) ==
+  fwd (mu,lam): S1(J z2) == conj S2(z2): True
+  rev (mu,lam): S2(Jinv z1) == conj S1(z1): True
+  fwd (lam,mu): S1(J z2) == conj S2(z2): True
+  rev (lam,mu): S2(Jinv z1) == conj S1(z1): False  defect (1/12+-1/36r)
+[control] (1,3,4) pattern matches bank: True; rev(lam,mu) defect = (1/12+-1/36r) (bank: (1/12+-1/36r))
+== triple (0, 3, 4) ==
+  fwd (mu,lam): S1(J z2) == conj S2(z2): True
+  rev (mu,lam): S2(Jinv z1) == conj S1(z1): True
+  fwd (lam,mu): S1(J z2) == conj S2(z2): True
+  rev (lam,mu): S2(Jinv z1) == conj S1(z1): False  defect (0+-4/3r)
+== triple (1, 2, 4) ==
+  fwd (mu,lam): S1(J z2) == conj S2(z2): True
+  rev (mu,lam): S2(Jinv z1) == conj S1(z1): True
+  fwd (lam,mu): S1(J z2) == conj S2(z2): True
+  rev (lam,mu): S2(Jinv z1) == conj S1(z1): False  defect (0+-4/3r)
+[law check control] (1,3,4): {'Y_ijk': '(1/24+1/72r)', '2*conj(Y)': '(1/12+-1/36r)', 'rev(lam,mu)_defect': '(1/12+-1/36r)', 'law_holds_exact': True}
+[law check] 034: {'Y_ijk': '(0+2/3r)', '2*conj(Y)': '(0+-4/3r)', 'rev(lam,mu)_defect': '(0+-4/3r)', 'law_holds_exact': True}
+[law check] 124: {'Y_ijk': '(0+2/3r)', '2*conj(Y)': '(0+-4/3r)', 'rev(lam,mu)_defect': '(0+-4/3r)', 'law_holds_exact': True}
+[dial check] 034: {'combo': '(0+-4/3r)', '2*conj(Y)': '(0+-4/3r)', 'dial_law_holds_exact': True}
+[dial check] 124: {'combo': '(0+-4/3r)', '2*conj(Y)': '(0+-4/3r)', 'dial_law_holds_exact': True}
+[verdict] triple 034: LAWFUL (single-slot defect law holds)
+[verdict] triple 124: LAWFUL (single-slot defect law holds)
+[vacuity self-test] perturbed-by-1 defect: law_holds_exact would report False (must be False/fail-detectable) -- self-test PASS
+
+=== FINAL VERDICT: RESOLVED-A ===
+both untested triples (0,3,4) and (1,2,4) satisfy the gauge-covariant defect law exactly (checked directly, not merely gauge-transformed)
+[1904.0s] total runtime
