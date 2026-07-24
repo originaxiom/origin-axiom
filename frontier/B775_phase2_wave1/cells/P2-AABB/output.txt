@@ -1,0 +1,72 @@
+==========================================================================
+PART 1 -- sigma's exact structure (the raw material of any derivation)
+==========================================================================
+  incidence M = [[1, 1], [1, 0]]
+  char poly(M) = lambda**2 - lambda - 1    discriminant = 5
+  eig(M) = [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]   (= 1-phi , phi)
+  det(M) = -1   (orientation-reversing: det < 0)
+  Markov T eig = [1/2 - sqrt(5)/2, 1]   (= -1/phi , 1)  det(T)=1/2 - sqrt(5)/2
+  letter lengths |sigma(a)|,|sigma(b)| = 2,1  (a->ab doubles; b->a does not)
+  alphabet(sigma) = {a,b}  -> size 2  -> ONE native 'which-letter' bit
+
+==========================================================================
+PART 2 -- bit-by-bit: does a CANONICAL involution emerge from sigma, AND is its
+          identification with the NAMED object-bit FORCED (not chosen)?
+==========================================================================
+
+[gamma5]  candidate native Z/2 = Gal(Q(sqrt5)/Q) on the eigenvalues of M
+    route(i)  disc(charpoly) = 5 => splitting field Q(sqrt5), Gal = Z/2  [True]
+    route(ii) nontrivial aut: phi -> 1-phi ; phi*(1-phi) = det(M) = -1          [True]
+    IDENTIFICATION FORCED?  object gamma5 IS the Q(sqrt5) Galois on {phi,1-phi}
+    -> SAME field, SAME numbers, SAME involution.  FORCED = True
+
+[theta]   candidate native Z/2 #1 = word/subshift REVERSAL  sigma~(a)=ba, sigma~(b)=a
+    sigma~ = {'a': 'ba', 'b': 'a'} ;  reverse-of-reverse = sigma  [True] ;  sigma~ != sigma  [True]
+          candidate native Z/2 #2 = sign of the subdominant eigenvalue = sign(-1/phi) = -
+    subdominant eig(T) = -1/phi < 0  [True]  (the oscillation sign)
+    IDENTIFICATION FORCED?  #2 is E20-UNLINKED (quarantined to P2-WELD); #1 needs
+    an unbuilt substitution<->trace-map bridge (object theta is MATRIX-level, B774).
+    -> a native Z/2 EXISTS, but its map to object-theta is ANALOGY.  FORCED = False
+
+[c]       candidate native Z/2 = the letter-swap  s: a<->b  (the self/other flip)
+    (s o sigma o s) = {'a': 'b', 'b': 'ba'}   vs   sigma = {'a': 'ab', 'b': 'a'}
+    a<->b an automorphism of sigma?  False   (sigma is NOT letter-symmetric: a spawns 2, b spawns 1)
+    det(M) = -1 is an orientation VALUE, not a free involution, and encodes no self/other side.
+    courier maps c to CASE {a,A}: uppercase A,B are NOT in sigma's alphabet {a,b} -> IMPORTED.
+    -> NO native conjugation involution (a<->b not an automorphism); case-bit imported.  FORCED = False
+
+==========================================================================
+PART 3 -- the counting obstruction (why the FULL 3-bit map cannot come from sigma)
+==========================================================================
+  sigma alphabet {a,b}: 2 letters -> 1 independent letter-bit
+  courier {a,A,b,B}: 4 letters -> only 2 independent bits
+    => the 3 distinctions {case,position,pair} are DEPENDENT (one = XOR of the other two)
+    => matches B766 'chord = c XOR theta' (rank-3 lives on the RICHER object, not sigma)
+  the object's rank-3 discrete menu (B766) lives on the character variety / CM field;
+  it is NOT canonically sourced by the 2-letter substitution alone.
+
+==========================================================================
+PART 4 -- VERDICT LOGIC (in-code; emits UNRESOLVED for PARTIAL)
+==========================================================================
+  per-bit DERIVED (emerges AND forced-identification AND reproduced): {'c': False, 'theta': False, 'gamma5': True}
+  count derived = 1 of 3
+
+  VERDICT = UNRESOLVED   (terminal: PARTIAL)
+  Reading:
+   * gamma5 GENUINELY DERIVES -- it is the Q(sqrt5) Galois on eig(M)={phi,1-phi};
+     same field, same numbers, same involution as B766's gamma5. Reproduced 2 ways
+     (disc=5 => Z/2 ; phi*(1-phi)=det M=-1 with phi->1-phi). NOT base-rate: sigma's
+     growth field IS Q(sqrt5), the object's gamma5 field.
+   * theta: a native Z/2 EXISTS (subshift reversal; subdominant sign<0) but its map
+     to the object's MATRIX-level SL(2)-trace theta is UNFORCED -- the -1/phi route
+     is E20-UNLINKED (P2-WELD's job) and the reversal route lacks a subst<->trace
+     bridge. ANALOGY, not derivation.
+   * c: NO native involution -- a<->b is not a sigma-automorphism (sigma is letter-
+     asymmetric); det=-1 is a value not an involution; the case bit {a,A} is imported
+     (not in sigma's alphabet). ANALOGY/IMPORT, not derivation.
+   * counting obstruction: a 2-letter substitution carries 1 native letter-bit + the
+     eigenvalue-Galois bit; it cannot canonically source THREE independent named
+     involutions. The object's rank-3 menu lives on the richer character-variety/CM
+     structure (B766), not on sigma.
+   => the courier {case,position,pair}<->{c,theta,gamma5} map is gamma5-anchored
+      ANALOGY: 1 of 3 bits derives; 2 of 3 are imposed. PARTIAL -> UNRESOLVED.
