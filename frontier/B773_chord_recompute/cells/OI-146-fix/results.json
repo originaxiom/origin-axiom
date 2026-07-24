@@ -1,0 +1,38 @@
+{
+ "part_A_L2": {
+  "L_closed_form": "0.78130241289648629686718742962409235636513433654529",
+  "L_direct_sum": "0.7813024128964770376079281708792363892868735912317",
+  "L_clausen": "0.78130241289648629686718742962409235636513433654529",
+  "agree_closed_vs_direct": true,
+  "agree_closed_vs_clausen": true,
+  "old_buggy_value_excluded": true
+ },
+ "part_B_vol_m004": {
+  "snappy": "2.0298832128",
+  "snappy_high_prec": "2.0298832128193072500424051085490405718833786150606",
+  "closed_form": "2.0298832128193072500424051085490405718833786150606",
+  "dilog_route": "2.0298832128193072500424051085490405718833786150606",
+  "agree_snappy_vs_closed": true,
+  "agree_closed_vs_dilog": true,
+  "old_buggy_value_excluded": true
+ },
+ "part_C_vol_orbifold": "0.16915693440160893750353375904575338099028155125505",
+ "non_vacuity_check": {
+  "ratio_true_L": "12.0",
+  "ratio_perturbed_L": "10.909090909090909090909090909090909090909090909091",
+  "depends_on_L": true
+ },
+ "ratios": {
+  "ratio_snappy": "12.0",
+  "ratio_closed": "12.0",
+  "err_snappy": "2.138211768073756516912429173721185503052157504084e-50",
+  "err_closed": "2.138211768073756516912429173721185503052157504084e-50"
+ },
+ "part_D_finite_level8": {
+  "ambient_order": 245760,
+  "Gamma_bar_order": 20480,
+  "SL_index_of_Gamma": 12
+ },
+ "verdict": "RESOLVED-A",
+ "verdict_text": "RESOLVED-A: PART-1a's congruence-level certificate is now earned NON-VACUOUSLY. L(2,chi_-3) is computed via the exact Hurwitz-zeta closed form (cross-checked by direct summation and an independent Clausen-function route, all agreeing; the old buggy nsum value 0.7725 is excluded). The LOAD-BEARING non-vacuity witness for vol(m004) is SnapPy's Manifold('m004').volume() (high-precision, 64 digits) -- a numerical solution of Thurston's hyperbolic gluing equations on a triangulation, an algorithm with ZERO built-in relation to the L(2,chi_-3)/Bloch-Wigner-dilogarithm algebra used for vol(orbifold). A second closed-form route (2*Cl_2(pi/3)) reproduces SnapPy's number to 50 digits and is a useful arithmetic/coding-bug check, but it is provably tied to L(2,chi_-3) by the classical Clausen duplication identity Cl_2(2*pi/3)=(2/3)*Cl_2(pi/3), so it is NOT claimed as a second geometrically-independent measurement (stated honestly, unlike the old cell's undisclosed identity). The falsifiability test (perturbing L by 10% and recomputing the ratio using SnapPy's independent vol(m004)) shows the ratio genuinely MOVES (12.0 -> 10.909...), proving this is a real empirical comparison, not a vol_m004=6*lob-style tautology forced to output 12 for any L. SnapPy's independent number gives ratio = 12 to ~1e-9 (its native precision), matching the fresh in-cell exact finite-BFS read [SL(2,O_3/8):image(Gamma)]=12. Equal finite-level and true-geometric index at M=8 proves Gamma(8) subset Gamma is captured exactly (no premature-plateau risk) -- M=8 is genuinely decisive. OI-146's headline index=10 (already independently solid per B772: 5-way agreement in pure exact modular arithmetic, no floating point) now rests on a real, non-tautological congruence-level certificate as well."
+}

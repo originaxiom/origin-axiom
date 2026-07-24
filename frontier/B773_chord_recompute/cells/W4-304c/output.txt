@@ -1,0 +1,22 @@
+prime seed A (start=1e6): [1000081, 1000621, 1002241, 1004401, 1005481, 1006021]
+prime seed B (start=7e6): [7005421, 7007041, 7008121, 7009201, 7010281, 7010821]
+  [15] Gamma-averaged over |G|=4 at 6 primes in 0.7s; reps=[1, 7, 11, 17] held=[13, 19]
+STAGE 1 gate (numpy par == banked fp_engine flagship at N=15): True
+  par(0,4) numpy=['-1/48', '-1/80', '-1/48', '1/48'] banked=['-1/48', '-1/80', '-1/48', '1/48']
+  par(0,8) numpy=['-1/48', '-1/80', '1/48', '-1/48'] banked=['-1/48', '-1/80', '1/48', '-1/48']
+chord-readout reproduction (odd_trace two independent ways): True (linear (plain-par)/2 = 385899, explicit P_odd projector = 385899)
+  [45] Gamma-averaged over |G|=4 at 6 primes in 9.4s; reps=[1, 7, 11, 13, 17, 23, 31, 37, 41, 47, 61, 71] held=[19, 29]
+STAGE 2: N=45  o1=60 o2=12  (target rows {6,54} = +-6 in Z/60)
+TARGET rows [6, 54]:  PAR all-zero=True  ODD(chord) all-zero=False  EVEN all-zero=False
+  row 6: nonzero cells /12  par=0 odd=2 even=2 plain=2
+  row 54: nonzero cells /12  par=0 odd=2 even=2 plain=2
+control row 1: ODD nonzero = True (proves the chord machinery is not trivially all-zero)
+vacuity free row 7: ODD resolved = True
+BASE RATE (odd sector): 563/720 = 0.782 of cells are zero  (par sector: 0.800)
+  P(both target rows' 24 cells all zero | base rate) ~ 0.782^24 = 2.730e-03
+  target-zero is INFORMATIVE against the base rate: False (zero only counts as evidence if unlikely under the base rate)
+  [45] Gamma-averaged over |G|=4 at 6 primes in 9.3s; reps=[1, 7, 11, 13, 17, 23, 31, 37, 41, 47, 61, 71] held=[19, 29]
+POSITIVE reproduction: seed-B agrees=True, projector-consistent=True => reproduced=True
+  [135] Gamma-averaged over |G|=4 at 4 primes in 192.7s; reps=[1, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43] held=[67, 77]
+LEVEL 135 extension: o1=180 o2=36 rows=[6, 174]  [mod-p, basis-free] odd nonzero cells on +-6 rows=0/72 (par=0); declared-12dim-basis-holds=False (basis inadequate at 135 -> exact read deferred, mod-p detection stands)
+VERDICT: RESOLVED-A -- the theta-ODD (chord) sector LIGHTS UP on the level-45 target rows {6,54} where par-trace read zero -- the trace projection was HIDING structure. Independently reproduced (2nd prime seed + explicit projector). The wall was a trace-cancellation artifact, not structural absence.

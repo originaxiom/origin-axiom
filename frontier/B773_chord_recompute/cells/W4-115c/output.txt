@@ -1,0 +1,95 @@
+================================================================================
+(0) CHORD OBJECTS: twisted Alexander polynomials of 4_1 (Fox calculus, IN-CELL)
+================================================================================
+parabolic rep valid  rho(relator)=I : True   (trace field Q(sqrt-3), s=(1+sqrt-3)/2)
+SL(2) twisted Alexander (Wada)  = (t**2 - 4*t + 1)/t**4
+   verified two independent ways (d/da == d/db): True
+   essential polynomial: t**2 - 4*t + 1   -> discriminant 12
+ADJOINT twisted Alexander (Wada) = (t**3 - 6*t**2 + 6*t - 1)/t**6
+   verified two independent ways (d/da == d/db): True
+   numerator t**3 - 6*t**2 + 6*t - 1 = (t - 1)*(t**2 - 5*t + 1)
+   essential quadratic: t**2 - 5*t + 1   -> discriminant 21
+
+================================================================================
+(1) COVER-TORSION TOWERS  |W_n-2|,  W_{n+1}=b W_n - W_{n-1}  (b=3 abelian / 4 SL2 / 5 adj)
+================================================================================
+abelian tower b=3 == |L_{2n}-2| (H_1 of cyclic cover) : verified n<=12
+
+  b=3  abelian (untwisted, blind) field Q(sqrt5)
+     n=1: 1          {}
+     n=2: 5          {5: 1}
+     n=3: 16         {2: 4}
+     n=4: 45         {3: 2, 5: 1}
+     n=5: 121        {11: 2}
+     n=6: 320        {2: 6, 5: 1}
+     n=7: 841        {29: 2}
+     n=8: 2205       {3: 2, 5: 1, 7: 2}
+
+  b=4  SL(2) chord (holonomy)     field Q(sqrt3)
+     n=1: 2          {2: 1}
+     n=2: 12         {2: 2, 3: 1}
+     n=3: 50         {2: 1, 5: 2}
+     n=4: 192        {2: 6, 3: 1}
+     n=5: 722        {2: 1, 19: 2}
+     n=6: 2700       {2: 2, 3: 3, 5: 2}
+     n=7: 10082      {2: 1, 71: 2}
+     n=8: 37632      {2: 8, 3: 1, 7: 2}
+
+  b=5  adjoint chord              field Q(sqrt21)
+     n=1: 3          {3: 1}
+     n=2: 21         {3: 1, 7: 1}
+     n=3: 108        {2: 2, 3: 3}
+     n=4: 525        {3: 1, 5: 2, 7: 1}
+     n=5: 2523       {3: 1, 29: 2}
+     n=6: 12096      {2: 6, 3: 3, 7: 1}
+     n=7: 57963      {3: 1, 139: 2}
+     n=8: 277725     {3: 1, 5: 2, 7: 1, 23: 2}
+
+  odd-n sqrt(|W-2|/2) sequences (the 'content' of the odd-n square):
+     b=3 Q(sqrt5)    : [0, None, None, None, None, None, None, None]   contains 11: False
+     b=4 Q(sqrt3)    : [1, 5, 19, 71, 265, 989, 3691, 13775]   contains 11: False
+     b=5 Q(sqrt21)   : [1, None, None, None, None, None, None, None]   contains 11: False
+
+================================================================================
+(2) CHARGE TOWER  e_n = det(I - M_n)  --  earning the 11-periodicity to n>=10
+================================================================================
+exact charge anchors |e_0..e_5| (det, bignum): [1, 11, 809, 18845089, 228654672055316545291, 14551745085338356602787456737044854593029948485574326872937769]
+exact v_11(e_n), n=0..5: {0: 0, 1: 1, 2: 0, 3: 0, 4: 2, 5: 0}   -> 11|e_n at n in [1, 4]
+direct det(I-M_n) mod 11, n=0..10 (dim up to 2048, 58s): 11|e_n at n = [1, 4, 7, 10]
+eigenvalue-multiset reproduction, n=0..13: 11|e_n at n = [1, 4, 7, 10, 13]   (F_121 escape flag: True)
+three methods (exact / direct-mod11 / eigenvalue) agree on n<=5: True
+charge 11-index earned = [1, 4, 7, 10] (direct, n<=10) + [1, 4, 7, 10, 13] (eig, n<=13)  ==  n = 1 mod 3 : True
+
+================================================================================
+(3) CHORD-LEVEL CROSS TESTS  (cover chord/adjoint towers  vs  charge tower)
+================================================================================
+  cover b=3 abelian (untwisted, blind): 11-index [5, 10, 15, 20, 25, 30]  period 5
+  cover b=4 SL(2) chord (holonomy)    : 11-index [10, 20, 30, 40]  period 10
+  cover b=5 adjoint chord             : 11-index [12, 24, 36]  period 12
+  charge tower                        : 11-index [1, 4, 7, 10, 13]  period 3
+  11-divisibility periods {'abelian_cover': 5, 'sl2_chord_cover': 10, 'adjoint_cover': 12, 'charge': 3}  -> all pairwise-incompatible APs: True
+  chord tower b=4:  T==e_m NONE ;  T==e_m^2 NONE
+  chord tower b=5:  T==e_m NONE ;  T==e_m^2 NONE
+
+  11 divides ABELIAN cover at ODD n = [5, 15, 25, 35]  (n=5: T=121=L_5^2, L_5=11=e_1): True
+  11 divides CHORD cover at odd n = [] ; ADJOINT at odd n = []
+  chord OR adjoint reproduces an odd-index 11 (the coincidence): False
+    abelian odd content L_n = [1, 4, 11, 29, 76, 199]  vs  chord content [1, 5, 19, 71, 265, 989]
+
+  FIELD of each object and splitting of 11:
+     abelian_cover_and_charge  : Q(sqrt  5)   11 splits
+     sl2_chord_cover           : Q(sqrt  3)   11 splits
+     adjoint_cover             : Q(sqrt 21)   11 inert 
+     trace_field               : Q(sqrt -3)   11 inert 
+  non-abelian refinement moves cover torsion OFF the charge field Q(sqrt5): True
+
+================================================================================
+(4) VERDICT LOGIC
+================================================================================
+
+  computed_ok=True  law_evidence=NONE  wall_hardens=True
+
+################################################################################
+VERDICT: RESOLVED-B
+No law even at the chord/non-abelian level; the wall HARDENS. The non-abelian refinement REMOVES the only apparent coincidence rather than revealing structure: the untwisted (abelianized) cover torsion Delta=t^2-3t+1 lives in Q(sqrt5) -- the SAME field as the charge tower -- which is the entire source of the T(5)=121=11^2=e_1^2 hit (its content is sqrt(T(5))=L_5=11=e_1). But the GENUINE chord objects, the twisted Alexander polynomials of 4_1 for the SL(2,C) holonomy (t^2-4t+1, Q(sqrt3)) and its adjoint ((t-1)(t^2-5t+1), Q(sqrt21)), move the cover torsion OFF Q(sqrt5); their odd-n 'content' sequences (chord 1,5,19,71,...; adjoint 7,815,...) NEVER hit 11; there are no value collisions with the charge tower; and the 11-divisibility periods are pairwise incompatible (abelian cover 5, chord cover 10, adjoint cover 12, charge 3 -- earned to n>=10 by direct modular determinant and reproduced by eigenvalue tracking to n=13, n=1 mod 3). The abelian Q(sqrt5) 'shared home' was a projection artifact, not chord structure.
+################################################################################

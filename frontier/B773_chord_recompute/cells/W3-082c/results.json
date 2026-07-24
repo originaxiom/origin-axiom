@@ -1,0 +1,58 @@
+{
+  "charge_primes": [
+    11,
+    809,
+    1459,
+    597049,
+    18845089,
+    2169349081,
+    6433367189401,
+    19807876161211,
+    114192827433802916537068946505308579
+  ],
+  "pair_11_809": {
+    "D": -8899,
+    "h": 14,
+    "ord2h": 1,
+    "rank2": 1,
+    "rank4": 0,
+    "linked": true,
+    "loaded_invariant": "UNDEFINED (pair, linked)"
+  },
+  "pari_semantics_validated": false,
+  "baseline_2rank_4rank": [
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "loaded_8ranks_observed": [
+    0
+  ],
+  "loaded_records": [
+    {
+      "triple": [
+        5,
+        809,
+        1459
+      ],
+      "D": -5901655,
+      "two_sylow": [
+        4,
+        4
+      ],
+      "eight_rank": 0,
+      "source": "UNCONDITIONAL(enum h)"
+    }
+  ],
+  "reproduction": {
+    "smallest_two_routes_agree": false,
+    "variation_unconditional": true
+  },
+  "verdict": "RESOLVED-B",
+  "reason": "every admissible tower triple has 8-rank 0 (2-Sylow pinned by pairwise data) -> the loaded lift DEGENERATES; the wall HARDENS at the loaded level."
+}

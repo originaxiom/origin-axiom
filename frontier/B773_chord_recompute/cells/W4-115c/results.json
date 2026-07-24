@@ -1,0 +1,145 @@
+{
+  "cell": "W4-115c",
+  "lead": "L76",
+  "level": "chord/non-abelian",
+  "checks": {
+    "twisted_alexander": {
+      "sl2": "t**2 - 4*t + 1",
+      "sl2_two_ways": true,
+      "adjoint_numerator": "t**3 - 6*t**2 + 6*t - 1",
+      "adjoint_essential": "(t - 1)*(t**2 - 5*t + 1)",
+      "adjoint_two_ways": true,
+      "rep_valid": true
+    },
+    "cover_towers": {
+      "3": {
+        "field": "Q(sqrt5)",
+        "values_n1_8": [
+          1,
+          5,
+          16,
+          45,
+          121,
+          320,
+          841,
+          2205
+        ],
+        "odd_sqrt_seq": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "odd_seq_contains_11": false
+      },
+      "4": {
+        "field": "Q(sqrt3)",
+        "values_n1_8": [
+          2,
+          12,
+          50,
+          192,
+          722,
+          2700,
+          10082,
+          37632
+        ],
+        "odd_sqrt_seq": [
+          1,
+          5,
+          19,
+          71,
+          265,
+          989,
+          3691,
+          13775
+        ],
+        "odd_seq_contains_11": false
+      },
+      "5": {
+        "field": "Q(sqrt21)",
+        "values_n1_8": [
+          3,
+          21,
+          108,
+          525,
+          2523,
+          12096,
+          57963,
+          277725
+        ],
+        "odd_sqrt_seq": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "odd_seq_contains_11": false
+      }
+    },
+    "charge": {
+      "exact_v11_n0_5": {
+        "0": 0,
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0
+      },
+      "direct_mod11_index_n0_10": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "eigenvalue_index_n0_13": [
+        1,
+        4,
+        7,
+        10,
+        13
+      ],
+      "methods_agree": true,
+      "charge_11_is_period3_nmod3eq1": true
+    },
+    "cross_chord": {
+      "periods": {
+        "abelian_cover": 5,
+        "sl2_chord_cover": 10,
+        "adjoint_cover": 12,
+        "charge": 3
+      },
+      "periods_all_incompatible": true,
+      "collisions": {
+        "4": {
+          "equal": [],
+          "square": []
+        },
+        "5": {
+          "equal": [],
+          "square": []
+        }
+      },
+      "abelian_odd_seq_hits_11": true,
+      "chord_or_adjoint_odd_seq_hits_11": false,
+      "field_shift_off_Qsqrt5": true,
+      "field_of": {
+        "abelian_cover_and_charge": 5,
+        "sl2_chord_cover": 3,
+        "adjoint_cover": 21,
+        "trace_field": -3
+      }
+    }
+  },
+  "verdict": "RESOLVED-B",
+  "headline": "No law even at the chord/non-abelian level; the wall HARDENS. The non-abelian refinement REMOVES the only apparent coincidence rather than revealing structure: the untwisted (abelianized) cover torsion Delta=t^2-3t+1 lives in Q(sqrt5) -- the SAME field as the charge tower -- which is the entire source of the T(5)=121=11^2=e_1^2 hit (its content is sqrt(T(5))=L_5=11=e_1). But the GENUINE chord objects, the twisted Alexander polynomials of 4_1 for the SL(2,C) holonomy (t^2-4t+1, Q(sqrt3)) and its adjoint ((t-1)(t^2-5t+1), Q(sqrt21)), move the cover torsion OFF Q(sqrt5); their odd-n 'content' sequences (chord 1,5,19,71,...; adjoint 7,815,...) NEVER hit 11; there are no value collisions with the charge tower; and the 11-divisibility periods are pairwise incompatible (abelian cover 5, chord cover 10, adjoint cover 12, charge 3 -- earned to n>=10 by direct modular determinant and reproduced by eigenvalue tracking to n=13, n=1 mod 3). The abelian Q(sqrt5) 'shared home' was a projection artifact, not chord structure.",
+  "discriminating_fact": "Twisted Alexander polynomials of the figure-eight (computed in-cell by Fox calculus, verified d/da==d/db): SL(2,C) holonomy -> t^2-4t+1 (field Q(sqrt3)); adjoint -> (t-1)(t^2-5t+1) (field Q(sqrt21)). The untwisted/abelianized cover Delta=t^2-3t+1 lives in Q(sqrt5), the charge tower's field -- the sole reason the abelian comparison found a shared home and the 121=11^2 hit. Under the non-abelian refinement the cover torsion LEAVES Q(sqrt5): the chord and adjoint odd-n content sequences never equal 11, there are zero value collisions with the charge tower, and the 11-divisibility periods are pairwise incompatible (abelian 5 / chord 10 / adjoint 12 / charge 3). Charge periodicity n=1 mod 3 is now EARNED to n>=10 (direct det mod 11 gives 11|e_n at n=1,4,7,10; eigenvalue-multiset tracking independently reproduces n=1,4,7,10,13). The wall hardens at the chord level; the coincidence was an abelian projection artifact."
+}

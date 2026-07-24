@@ -1,0 +1,42 @@
+{
+  "cell": "W4-017r",
+  "verdict": "PENDING_PART_B",
+  "part_A": {
+    "class10_populated": true,
+    "class10_npts": 1,
+    "class10_degrees": [
+      4
+    ],
+    "class10_minpolys": [
+      [
+        9,
+        27,
+        -12,
+        -9,
+        1
+      ]
+    ],
+    "class10_all_recognized": true,
+    "class10_is_quartic": true,
+    "land_deg2": true,
+    "land_deg4": true,
+    "land_deg8": true,
+    "landmarks_ok": true,
+    "class8_octic_exact": true,
+    "class8_degs": [
+      8,
+      8,
+      8
+    ],
+    "class2_empty": true,
+    "all_degs": [
+      2,
+      4,
+      8
+    ],
+    "field_resists": false,
+    "total_resist": 0,
+    "nonvacuous_A": true,
+    "census_done": true
+  }
+}

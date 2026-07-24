@@ -1,0 +1,38 @@
+{
+  "cell": "W3-067c",
+  "batch": "B773",
+  "level": "chord / twist-curve (raw, un-squared traces) -- matched to quantum framing/Dehn-twist data",
+  "verdict": "RESOLVED-B",
+  "reason": "the 2-block composite's chord trace field is an EXACT irreducible degree-14 NON-cyclotomic field (phi(n)=14 has no solution; 14 does not divide [Q(zeta12):Q]=4; gcd with Phi_12 is 1), so it is neither Q(zeta12) nor the seed compositum -- chord-level fusion is ABSENT and the K016 wall HARDENS at the matched (un-squared, framing-carrying) level. Un-squaring makes the classical field MORE generic, not cyclotomic: the mod-4 fusion is a QUANTUM-only phenomenon",
+  "all_checks_pass": true,
+  "two_block_manifold": "b++RLRRLL(0,0)",
+  "two_block_identify": [
+    "s892(0,0)"
+  ],
+  "chord_trace_tr_a_minpoly": "x**14 - 2*x**13 - 3*x**12 + 6*x**11 + 6*x**10 - 4*x**9 - 11*x**8 - 10*x**7 + 14*x**6 + 32*x**5 - 26*x**4 - 36*x**3 + 52*x**2 - 21*x + 3",
+  "chord_trace_field_degree": 14,
+  "chord_trace_field_irreducible": true,
+  "chord_trace_field_cyclotomic": false,
+  "phi_n_equals_deg_solvable": false,
+  "minpoly_residual": "1.107e-60",
+  "reproduced_mixers": 3,
+  "reproduced_second_precision": true,
+  "quantum_matched_field_2block": "Q(zeta12)",
+  "quantum_composite_fields_k4": {
+    "(1, 2)": "Q(zeta12)",
+    "(2, 1)": "Q(zeta12)",
+    "(1, 1, 2, 2)": "Q(zeta12)",
+    "(1, 2, 1)": "Q(sqrt-3)",
+    "(2, 1, 2)": "Q(sqrt-3)"
+  },
+  "single_seed_controls": {
+    "golden_chord_minpoly": "x**2 + 2*x + 4",
+    "golden_chord_field": "Q(sqrt-3) [cyclotomic, coherent seed]",
+    "silver_chord_minpoly": "x**4 - 4*x**2 + 8",
+    "silver_chord_field": "Q(sqrt(2+2i)) [non-cyclotomic, order-8 T-phase]",
+    "silver_squared_minpoly": "x**2 + 4",
+    "silver_squared_field": "Q(i) [what the blind projection saw]",
+    "golden_quantum_field": "Q(sqrt-3)",
+    "silver_quantum_field": "Q(zeta12)"
+  }
+}
