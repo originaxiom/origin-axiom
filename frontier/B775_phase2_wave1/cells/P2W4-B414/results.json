@@ -1,0 +1,188 @@
+{
+ "golden_support": [
+  2,
+  10
+ ],
+ "mercedes_support": [
+  0,
+  1,
+  3,
+  4,
+  5,
+  7,
+  8,
+  9,
+  11
+ ],
+ "supports_disjoint": true,
+ "antipodal_row14_is_minus_row6": true,
+ "mercedes_equilateral": true,
+ "mercedes_sums_to_zero": true,
+ "cos2_principal_angle": "0",
+ "L_perp_P_exact": true,
+ "principal_directions_selected": 0,
+ "sym_23_affine": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   1,
+   8
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   5,
+   8
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   7,
+   4
+  ],
+  [
+   7,
+   8
+  ],
+  [
+   11,
+   0
+  ],
+  [
+   11,
+   4
+  ],
+  [
+   11,
+   8
+  ]
+ ],
+ "sym_12_affine": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   6
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   7,
+   6
+  ],
+  [
+   11,
+   0
+  ],
+  [
+   11,
+   6
+  ]
+ ],
+ "sym_joint": [
+  [
+   1,
+   0
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   11,
+   0
+  ]
+ ],
+ "tau_cycles_mercedes": true,
+ "tau_in_sym_23": true,
+ "tau_in_sym_12": false,
+ "tau_g_matches_a_banked_row": false,
+ "tauP_charpoly": "x^2 - (-1)x + (1)",
+ "det(tauP - I)": "3",
+ "dim_P_fixed_by_Z3": 0,
+ "Z3_fixed_point_free_on_P": true,
+ "golden_unit_character": {
+  "1": 1,
+  "5": -1,
+  "7": 1,
+  "11": -1
+ },
+ "P_unit_eigenlines": [
+  [
+   "C0",
+   {
+    "1": 1,
+    "5": -1,
+    "7": 1,
+    "11": -1
+   },
+   true
+  ],
+  [
+   "C1-C2",
+   {
+    "1": 1,
+    "5": 1,
+    "7": 1,
+    "11": 1
+   },
+   false
+  ]
+ ],
+ "dim_Hom_joint(L,P)": 1,
+ "unit7_acts_trivially_on_all_data": true,
+ "joint_group_order": 4,
+ "sym_23_order": 12,
+ "sym_12_order": 8,
+ "Z3_of_(2,3)_moves_golden_line": true,
+ "t6_in_sym_12": true,
+ "t6_in_sym_23": false,
+ "t6_of_(1,2)_moves_golden_line": true,
+ "t6_image_of_golden_row": [
+  0,
+  4
+ ],
+ "norm_ratio_|g|^2/|C0|^2": "6",
+ "isometric_lambda_rational": false,
+ "lambda_pinned_by_object": false,
+ "dim_Z3_orbit_of_golden_line": 2,
+ "Z3_orbit_of_golden_sums_to_zero": true,
+ "near_frame_Ltil_iso_P": true,
+ "near_frame_uses_nonbanked_lines": true,
+ "near_frame_residual_freedom": "C^* (Schur: rotation x scale), still unpinned",
+ "double_LxL_perp_PxP": true,
+ "dim_(PxP)_fixed_by_Z3": 2,
+ "double_golden_stable_under_Z3": false,
+ "double_inherits_wall": true,
+ "verdict": "RESOLVED-B"
+}

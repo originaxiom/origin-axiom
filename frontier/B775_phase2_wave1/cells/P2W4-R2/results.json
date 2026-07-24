@@ -1,0 +1,143 @@
+{
+ "cell": "P2W4-R2",
+ "oi": "OI-072",
+ "question": "Is the R2 (b++RRLL) SL(3) trace-map fixed locus 0-dimensional (sealing valid) or positive-dimensional (sealing fails)?",
+ "identification": "b++RRLL = phi_2^2 = R^2L^2 = [[5,2],[2,1]] = silver m=2 once-punctured-torus bundle (census m136)",
+ "locus": "Fix(T_2^2) on the 8 B48 SL(3) trace coordinates",
+ "trace_map_certificate": {
+  "passed": true,
+  "cases": 6
+ },
+ "calibration_m1_B71_dim2": true,
+ "R2_krull_dimension": 2,
+ "R2_slice_certificate_dim": {
+  "11": 2,
+  "29": 2
+ },
+ "R2_off_sublocus_dim": {
+  "x1 - x4": 2,
+  "x2 - x5": 2,
+  "x3 - x8": 2,
+  "x6 - x7": 2
+ },
+ "reproduced_second_way": true,
+ "verdict": "RESOLVED-B",
+ "headline": "R2's fixed locus Fix(T_2^2) is POSITIVE-DIMENSIONAL: Krull dim = 2, and it stays dim 2 after the entire self-dual (SL(2)-derived / Sym^2) sub-locus is removed -- so R2's finite 50-point sample can never seal; the R2 sealing FAILS as a method",
+ "discriminating_fact": "b++RRLL is the bundle monodromy phi_2^2 = R^2L^2 = [[5,2],[2,1]] (silver m=2, census m136). Its SL(3) trace-map fixed locus Fix(T_2^2) in the 8 B48 coordinates has KRULL DIMENSION 2, not 0: (i) grevlex Groebner over Q + Kredel-Weispfenning maximal-independent-set gives 2 with witness ['x3', 'x8']; (ii) an independent generic-slice certificate at 2 seeds gives exactly 2 (nonempty through 2 generic hyperplanes, ideal = (1) at 3); (iii) constructively, 5/5 random rational fibers over the witness pair are nonempty -- an explicit 2-parameter continuum of fixed characters. Crucially the same holds OFF the sub-locus: saturating by each of x1-x4, x2-x5, x3-x8, x6-x7 (which together cut out the self-dual locus, containing every SL(2)-derived family, i.e. B71's Sym^2 component V0 and any metallic sub-locus) leaves dimension {'x1 - x4': 2, 'x2 - x5': 2, 'x3 - x8': 2, 'x6 - x7': 2} with 5/5 nonempty generic fibers. m=1 calibration reproduces B71's figure-eight dim 2. This also reconciles B565/R2's own numeric 'local dim 10': 10 = 2 (character) + 8 (dim PGL(3,C) gauge orbit). A finite 50-point sample cannot seal a property over a 2-dimensional family.",
+ "terminal_state": "CLOSED: the R2 sealing method is refuted -- the residual K-membership question needs a whole-family (2-parameter) argument, not point sampling",
+ "detail": {
+  "m1": {
+   "m": 1,
+   "bundle_monodromy": "[[2, 1], [1, 1]]",
+   "n_fix_polys": 8,
+   "fix_poly_degrees": [
+    2,
+    1,
+    3,
+    2,
+    1,
+    1,
+    1,
+    3
+   ],
+   "groebner_size": 7,
+   "krull_dimension": 2,
+   "dim_witness_sets": [
+    [
+     "x3",
+     "x8"
+    ],
+    [
+     "x6",
+     "x7"
+    ],
+    [
+     "x7",
+     "x8"
+    ]
+   ],
+   "slice_certificate_dim": {
+    "11": 2,
+    "29": 2
+   },
+   "generic_fiber_nonempty": "5/5",
+   "off_selfdual_dim": {
+    "x1 - x4": 2,
+    "x2 - x5": 2,
+    "x3 - x8": 2,
+    "x6 - x7": 2
+   },
+   "off_selfdual_witness": [
+    "x6",
+    "x7"
+   ],
+   "off_selfdual_slice_dim": {
+    "11": 2,
+    "29": 2
+   },
+   "off_selfdual_generic_fiber_nonempty": "5/5"
+  },
+  "m2": {
+   "m": 2,
+   "bundle_monodromy": "[[5, 2], [2, 1]]",
+   "n_fix_polys": 8,
+   "fix_poly_degrees": [
+    5,
+    2,
+    7,
+    5,
+    2,
+    3,
+    3,
+    7
+   ],
+   "groebner_size": 29,
+   "krull_dimension": 2,
+   "dim_witness_sets": [
+    [
+     "x3",
+     "x8"
+    ],
+    [
+     "x4",
+     "x7"
+    ],
+    [
+     "x5",
+     "x8"
+    ],
+    [
+     "x6",
+     "x7"
+    ]
+   ],
+   "slice_certificate_dim": {
+    "11": 2,
+    "29": 2
+   },
+   "generic_fiber_nonempty": "5/5",
+   "off_selfdual_dim": {
+    "x1 - x4": 2,
+    "x2 - x5": 2,
+    "x3 - x8": 2,
+    "x6 - x7": 2
+   },
+   "off_selfdual_witness": [
+    "x4",
+    "x7"
+   ],
+   "off_selfdual_slice_dim": {
+    "11": 2,
+    "29": 2
+   },
+   "off_selfdual_generic_fiber_nonempty": "5/5"
+  }
+ },
+ "runtime_s": 145.8,
+ "gate": {
+  "structural_only": true,
+  "no_SM_values": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true
+ }
+}

@@ -1,0 +1,36 @@
+[1] Gamma rule  Gamma_N = <tau,sigma>  vs the hard-coded banked groups
+    N= 15 n3= 3 n5= 5 tau= 31 sig= 49 Gamma=[1, 19, 31, 49] banked=[1, 19, 31, 49] match=True  phi/2=4
+    N= 45 n3= 9 n5= 5 tau= 91 sig=109 Gamma=[1, 19, 91, 109] banked=[1, 19, 91, 109] match=True  phi/2=12
+    N= 75 n3= 3 n5=25 tau=151 sig= 49 Gamma=[1, 49, 151, 199] banked=None match=(prediction)  phi/2=20
+    N=135 n3=27 n5= 5 tau=271 sig=109 Gamma=[1, 109, 271, 379] banked=[1, 109, 271, 379] match=True  phi/2=36
+[2] N= 15 (o1,o2)=(20,12) phi(4N)=16 | raw stab=[1] dim=16  obs stab=[1, 19, 31, 49] dim=4 (pred 4)  stab==Gamma=True  2-prime-stable=True
+[3] N= 15 tau=31 acts by pure label transport: True | mirror-decoy [1, 11, 31, 41] excluded: True
+[2] N= 45 (o1,o2)=(60,12) phi(4N)=48 | raw stab=[1] dim=48  obs stab=[1, 19, 91, 109] dim=12 (pred 12)  stab==Gamma=True  2-prime-stable=True
+[3] N= 45 tau=91 acts by pure label transport: True | mirror-decoy [1, 71, 91, 161] excluded: True
+[2] N= 75 (o1,o2)=(100,60) phi(4N)=80 | raw stab=[1] dim=80  obs stab=[1, 49, 151, 199] dim=20 (pred 20)  stab==Gamma=True  2-prime-stable=True
+[3] N= 75 tau=151 acts by pure label transport: True | mirror-decoy [1, 101, 151, 251] excluded: True
+[2] N=135 (o1,o2)=(180,36) phi(4N)=144 | raw stab=[1] dim=144  obs stab=[1, 109, 271, 379] dim=36 (pred 36)  stab==Gamma=True  2-prime-stable=True
+[3] N=135 tau=271 acts by pure label transport: True | mirror-decoy [1, 161, 271, 431] excluded: True
+[5] conventions gate: N=15 must reproduce banked B367 flagship cells
+    cell (0,4) got ['-1/48', '-1/80', '-1/48', '1/48']  banked ['-1/48', '-1/80', '-1/48', '1/48']  match=True
+    cell (0,8) got ['-1/48', '-1/80', '1/48', '-1/48']  banked ['-1/48', '-1/80', '1/48', '-1/48']  match=True
+[4] fresh level N=75: exact identification in the predicted 20-dim home
+    p=7004401: identified 6000/6000 cells, outside-span/failed 0
+    p=7006201: identified 6000/6000 cells, outside-span/failed 0
+    p=7007101: identified 6000/6000 cells, outside-span/failed 0
+    p=7007401: identified 6000/6000 cells, outside-span/failed 0
+    N=75: nonzero cells 495/6000, Q-rank 20/20, recon-fail 0, cells with sqrt-3 content 418
+    N=75 seam membership (computed): sqrt5, sqrt-15 in the 20-dim home = True
+[6] banked Q-rank: N=15 4/4, N=45 12/12  closure=True
+
+  check gamma_rule_matches_3_banked_levels: True
+  check conventions_gate_N15: True
+  check obs_stabilizer_equals_Gamma_all_levels: True
+  check stable_across_two_prime_blocks: True
+  check tau_label_transport_all_levels: True
+  check N75_fills_20dim_home: True
+  check banked_rank_closure: True
+  check mirror_decoy_excluded_all_levels: True
+  check seam_elements_sqrt5_sqrtm15_in_N75_home: True
+  VERDICT: RESOLVED-A  -- dim V_N = phi(N)/2, V_N = Q(zeta_n3).Q(zeta_n5)^+ ; verified at N=15,45 (banked) and at the fresh levels N=75, N=135, two ways
+  elapsed 231.6s

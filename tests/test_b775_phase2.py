@@ -97,3 +97,26 @@ def test_p2w3_wave3_shape():
     # two theorems + a structural positive banked
     assert cells["P2W3-L56"]["verdict"] == "RESOLVED-A"
     assert cells["P2W3-OCTA"]["verdict"] == "RESOLVED-A"
+
+
+# ---- Wave 4 locks -------------------------------------------------------------
+
+
+def test_p2w4_z1_values_in_golden_ring():
+    # Z1: every observed Z_k is an algebraic integer in Z[phi] (ring of integers of Q(sqrt5))
+    x = sp.Symbol("x")
+    vals = [sp.Integer(-2), sp.Integer(0), -sp.sqrt(5), sp.Integer(1), sp.Integer(2), 2 - sp.sqrt(5)]
+    for v in vals:
+        mp = sp.minimal_polynomial(v, x)
+        coeffs = sp.Poly(mp, x).all_coeffs()
+        assert coeffs[0] == 1 and all(c.is_integer for c in coeffs)   # monic, integer => in Z[phi]
+
+
+def test_p2w4_wave4_shape():
+    d = json.loads((ARC / "wave4_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 8
+    # R2 sealing fails (positive-dimensional); HEAR reprices kappa=5 as a choice
+    assert cells["P2W4-R2"]["verdict"] == "RESOLVED-B"
+    assert cells["P2W4-HEAR"]["verdict"] == "RESOLVED-B"
+    assert cells["P2W4-L54"]["verdict"] == "RESOLVED-A"

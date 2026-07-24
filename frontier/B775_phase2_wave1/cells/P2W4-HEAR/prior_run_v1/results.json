@@ -1,0 +1,36 @@
+{
+ "D2_grid": [
+  [
+   "A2",
+   2,
+   5
+  ],
+  [
+   "A4",
+   1,
+   6
+  ],
+  [
+   "A5",
+   1,
+   7
+  ]
+ ],
+ "D2_grid_reproduced": true,
+ "closed_form_second_way": true,
+ "A5_SU6_excluded": true,
+ "both_survivors_hear_cond5": true,
+ "HEAR_predicate_solution_count": 2,
+ "cusp_field": "Q(sqrt-3)",
+ "cusp_selects_A2": true,
+ "branch_is_symmetric_Z2": true,
+ "verdict": "RESOLVED-B",
+ "headline": "H-EAR forces the Galois PAIR {SU(3)_2 kappa=5, SU(5)_1 kappa=6}, NOT kappa=5; kappa=5 is a priced choice -- the price is one orientation bit (the 1/phi branch / E6-cusp-end anchor / minimal kappa).",
+ "discriminating_fact": "The shadow-realization predicate H-EAR has EXACTLY TWO solutions -- SU(3)_2 (kappa=5, value 1/phi) and SU(5)_1 (kappa=6, value phi) -- the two Galois conjugates (sqrt5<->-sqrt5) of ONE golden doublet, BOTH genuine conductor-5 hearings (Part 3). SU(6)_1 (kappa=7) is excluded exactly by two walls (projective T-order 4!=5; sqrt5 not in Q(zeta24)). kappa=5 is singled out only by an EXTRA principle -- cusp-field match Q(sqrt-3)=A2 (Part 4) or, equivalently, re-invoked minimality -- and that principle chooses one side of a Z/2 the theta-symmetric object does not itself break (non-canonicity, banked). Hence kappa=5 is forced only up to the Galois pair; the last step is a priced choice, not a theorem.",
+ "gate_5Q": {
+  "structural_only": true,
+  "no_SM_values": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true
+ }
+}

@@ -1,0 +1,68 @@
+P2W4-Z1  H133-successor: the Z(level) ladder, Z_k = Tr rho_k(A1), E6 level k
+==============================================================================
+mechanism: Res(x^n-1, x^2-3x+1) == 2 - L_2n for n=1..20 : True
+           |det(w^2-3w+I)| over W(E6): [1, 5, 16, 25, 45, 80, 81, 100, 121, 125, 180, 225, 245, 256, 320, 361, 400, 576, 605, 625, 1125, 1280, 1600, 4096]
+           characteristic primes (Lucas/Fibonacci divisors): [2, 3, 5, 7, 11, 19]
+------------------------------------------------------------------------------
+ k  kappa      N   Z (exact)                      certificate
+ 1    13       3   1                            OK    [0.0s]
+ 2    14       9   1                            OK    [0.0s]
+ 3    15      20   1                            OK    [0.1s]
+ 4    16      42   0                            OK    [0.1s]
+ 5    17      78   1                            OK    [0.2s]
+ 6    18     139   1                            OK    [0.4s]
+ 7    19     231   2                            OK    [0.5s]
+ 8    20     372   1                            OK    [0.8s]
+ 9    21     573   1                            OK    [1.1s]
+10    22     861   2                            OK    [1.7s]
+11    23    1254   1                            OK    [2.4s]
+12    24    1791   2                            OK    [3.4s]
+13    25    2499   0                            OK    [4.8s]
+14    26    3432   0                            OK    [6.5s]
+15    27    4629   0                            OK    [8.8s]
+16    28    6162   1                            OK    [11.7s]
+17    29    8085   0                            OK    [15.3s]
+18    30   10492   2 - 1*sqrt5                  OK    [20.0s]
+19    31   13455   0                            OK    [25.7s]
+20    32   17094   0                            OK    [32.6s]
+21    33   21503   2                            OK    [41.0s]
+22    34   26832   0                            OK    [51.2s]
+23    35   33201   0 - 1*sqrt5                  OK    [63.8s]
+24    36   40795   -2                           OK    [78.4s]
+25    37   49764   1                            OK    [96.7s]
+26    38   60333   2                            OK    [116.1s]
+27    39   72687   0                            OK    [140.0s]
+28    40   87096   2 - 1*sqrt5                  OK    [167.1s]
+------------------------------------------------------------------------------
+gate k=1: words-agree=4.1e-14  norm(float)/sqrt3.kappa^3-1=2.6e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=2: words-agree=1.1e-13  norm(float)/sqrt3.kappa^3-1=1.7e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=3: words-agree=2.0e-13  norm(float)/sqrt3.kappa^3-1=2.0e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=4: words-agree=3.5e-13  norm(float)/sqrt3.kappa^3-1=1.7e-15  Z_float=-0.000000000  Z_exact=+0.000000000
+gate k=5: words-agree=5.7e-13  norm(float)/sqrt3.kappa^3-1=4.3e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=6: words-agree=8.6e-13  norm(float)/sqrt3.kappa^3-1=4.1e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=7: words-agree=1.4e-12  norm(float)/sqrt3.kappa^3-1=3.7e-15  Z_float=+2.000000000  Z_exact=+2.000000000
+gates: {'G4_reality': True, 'G5_no_false_certificate': True, 'G1_two_word': True, 'G2_normalization': True, 'G3_float_vs_exact': True}
+------------------------------------------------------------------------------
+  levels_identified_in_Q(sqrt5): 28/28
+  C1_Z_identically_1: False
+  C2_all_rational_integers: False
+  C3_all_in_Z[phi]: True
+  C4_max_abs_Z: 2.23606797749979
+  C4_max_abs_conjugate: 4.23606797749979
+  C5_Z1_iff_coprime_to_charprimes: False
+  C6_periodic_in_kappa: False
+  C6_periods: []
+  C7_function_of_kappa_mod_m: []
+  C10_multiplicative_in_kappa: False
+  C10_violating_kappa: [26, 34, 39]
+  C8_last_nonzero_level: 28
+  C8_zero_tail_length: 0
+  nonzero_levels: [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 21, 23, 24, 25, 26, 28]
+  C9_irrational_only_if_5_divides_kappa: True
+  irrational_levels: [18, 23, 28]
+  kappa_with_5: [15, 20, 25, 30, 35, 40]
+  value_multiset: ['-2', '0', '0 - 1*sqrt5', '1', '2', '2 - 1*sqrt5']
+==============================================================================
+VERDICT: RESOLVED-B
+  NO predictive law for Z(level). H133 is dead in the strong sense: Z is not identically 1 (Z=+1 only at k=1,2,3; Z_4=0), and the continued ladder is LAWLESS as a function of the level -- not periodic in kappa (no period <= half the computed range), not a function of kappa mod m for any m<=14, not multiplicative in kappa (the CRT/Weil-factorisation route is refuted at [26, 34, 39]), and not governed by the characteristic-prime (Lucas) divisibility of kappa. What IS established (the cell's positive content, exactly certified at every level): the ladder is a bounded sequence of GOLDEN INTEGERS -- every Z_k lies in Z[phi] = O_{Q(sqrt5)}, the ring of integers of the fig-8 monodromy's OWN eigenvalue field (char poly x^2-3x+1, eigenvalues phi^{+-2}); the values stay small -- max|Z| = 2.2361, max|Z'| = 4.2361 over the computed range -- but are NOT all rational integers; observed values ['-2', '0', '0 - 1*sqrt5', '1', '2', '2 - 1*sqrt5']; irrational values occur only at 5 | kappa (levels [18, 23, 28]), which is forced -- sqrt5 lies in Q(zeta_{36 kappa}) iff 5 | kappa. The VALUE FIELD is a law; the level-dependence is not.
+  ladder Z_k (k=1..28): 1, 1, 1, 0, 1, 1, 2, 1, 1, 2, 1, 2, 0, 0, 0, 1, 0, 2 - 1*sqrt5, 0, 0, 2, 0, 0 - 1*sqrt5, -2, 1, 2, 0, 2 - 1*sqrt5

@@ -1,0 +1,240 @@
+{
+ "vol": {
+  "bloch_wigner": "2.02988321281930725",
+  "lobachevsky": "2.02988321281930725",
+  "snappy_HP": "2.02988321281930725",
+  "agree_AB": true,
+  "agree_AC": true,
+  "CS_complete": -1.1102230246251565e-15,
+  "CS_is_zero": true
+ },
+ "kappa_vacuum": {
+  "fricke_on_fixed_locus_matches_B67": true,
+  "identity_kappa=T^4-5T^2+2_verified": true,
+  "kappa(T=2)": -2,
+  "vacuum_is_kappa_-2": true,
+  "deformation_coordinate": "(T - 2)*(T - 1)*(T + 1)*(T + 2)"
+ },
+ "deformation_law": {
+  "kappa+2 (meridian u)": "3*u^2 + 5/4*u^4 + O(u^6)",
+  "kappa+2 (longitude v)": "-1/4*v^2 + O(v^4)   [kappa = -2cosh(v/2) exact]",
+  "tau^2 = (dv/du)^2": "-12",
+  "tau": "2*sqrt(-3)  (|tau| = 2*sqrt(3))",
+  "atom_Q(sqrt-3)_lock": true,
+  "snappy_cusp_shape": "(8.881784197001252e-16+3.4641016151377526j)",
+  "cusp_shape_matches_2sqrt3i": true
+ },
+ "scale_curvature": {
+  "model": "Vol(u) = Vol(0) - C*|u|^2 + O(|u|^4)",
+  "C_richardson_per_family": {
+   "q1_double": 0.866025293913,
+   "q1_HP": 0.866025412357,
+   "q2_double": 0.866025247212,
+   "q3_HP": 0.866025506717
+  },
+  "C_mean": 0.86602536505,
+  "family_spread": 2.595e-07,
+  "stable_across_seeds_and_precisions": true,
+  "C_exact_candidate": "sqrt(3)/2 = Im(tau)/4 = 0.8660254038",
+  "C_matches_sqrt3_over_2": true,
+  "in_kappa_coordinate": "Vol = Vol_0 - (C/3)*(kappa+2) + ...  on the REAL-u section (kappa+2 = 3u^2), leading order only; C/3 = 1/(2*sqrt3) = 0.2886751"
+ },
+ "deformation_scale": {
+  "form": "S(k,u) = exp(-(k/2pi)*Vol(u)) = base(u)**k",
+  "rate_Vol/2pi(vacuum)": "0.323065947219451",
+  "base_exp(-Vol/2pi)": 0.7239261118795244,
+  "base_is_O1_not_tiny": true,
+  "scale_at_level_k": {
+   "1": 0.7239261118795244,
+   "2": 0.5240690154610056,
+   "6": 0.14393468145563837,
+   "12": 0.02071719252573609,
+   "50": 9.65410663617775e-08
+  },
+  "k_needed_for_scale<1e-3": 21.382,
+  "family_exponent_min(in-cell)": 0.9813688289,
+  "family_exponent_min_slope": [
+   5,
+   1
+  ],
+  "family_exponent_max(=vacuum, Thurston max)": 2.0298832128,
+  "family_exponent_window": 1.0485143839,
+  "per_level_base_range_over_family": [
+   0.723926,
+   0.855397
+  ],
+  "n_geometric_slopes(in-cell)": 36,
+  "n_slopes_without_geometric_solution(in-cell, <=6 retriangulations)": 11,
+  "slopes_without_geometric_solution": [
+   [
+    -4,
+    1
+   ],
+   [
+    -3,
+    1
+   ],
+   [
+    -2,
+    1
+   ],
+   [
+    -1,
+    0
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    1
+   ]
+  ],
+  "note_on_exceptional": "a slope listed here failed to produce a positively-oriented solution in-cell; that is an in-cell computational fact, not a claim of non-hyperbolicity",
+  "exponent_bounded_O1": true
+ },
+ "level_and_null": {
+  "CS_complete": -1.1102230246251565e-15,
+  "object_supplies_no_level_quantization": true,
+  "null_test_rate_identify": "none",
+  "null_test_rate_pslq_deg<=8_coeff<=1e10": "no algebraic relation survives dps=250",
+  "pslq_candidates_rejected_as_lattice_artifacts": [
+   {
+    "deg": 6,
+    "rel": [
+     9602095,
+     -35809846,
+     7707562,
+     46877514,
+     -31536605,
+     -27417537,
+     19147250
+    ],
+    "residual_at_dps250": "1.1357e-46",
+    "survives": false
+   },
+   {
+    "deg": 8,
+    "rel": [
+     39799,
+     -192431,
+     181403,
+     -78052,
+     720463,
+     -569311,
+     23766,
+     288600,
+     755399
+    ],
+    "residual_at_dps250": "1.4944e-46",
+    "survives": false
+   }
+  ],
+  "rate_arithmetically_undistinguished": true,
+  "control_curvature_identify": "((12-sqrt(0))/8)/sqrt(3)",
+  "control_|C-sqrt3/2|": 3.873e-08
+ },
+ "cell": "P2W4-L38",
+ "lead": "OI-062 / S039 Act II -- the kappa=-2 deformation scale (e^{-k*Vol})",
+ "verdict": "RESOLVED-B",
+ "terminal_state": "EXTERNAL",
+ "why": "the kappa=-2 deformation scale is computed WITH its structure and contains no forced small number: exponent Vol_0=2.02988 (rate Vol/2pi=0.32307, base=0.72393, O(1)); the deformation is exactly kappa+2 = 3u^2 = -v^2/4 with the ratio tau=2*sqrt(-3) (the atom) and volume curvature C=sqrt(3)/2 (= Im(tau)/4), so Vol = Vol_0 - (1/(2*sqrt3))(kappa+2) + ... on the real-u section; the exponent is BOUNDED over the whole deformation family (in-cell window [0.98137, 2.02988], per-level base in [0.7239, 0.8554]); and CS(complete)=0 supplies no level quantization -- so the smallness of e^{-k Vol} is set ENTIRELY by the EXTERNAL level k (5th firewall mode; B213 Act I extended to the kappa=-2 vacuum deformation)",
+ "gate5": "structural deformation scale only; NO SM Higgs claim; no SM value; nothing to CLAIMS.md; one-number pin untouched",
+ "chord_discipline_B774": "exponent = the genuine hyperbolic invariant Vol(4_1); deformation = the genuine peripheral (u,v) holonomy pair and the trace-map kappa = tr[A,B]; no abelianized/character proxy",
+ "reproduced_2nd_way": "Vol: Bloch-Wigner = Lobachevsky = snappy-HP;  tau = 2sqrt(-3): exact symbolic (u,v) series from the B67 trace-map fixed locus AND snappy cusp modulus/log-holonomy ratio;  C = sqrt(3)/2: two filling families x two precisions, Richardson-conditioned",
+ "numerics_conditioning": {
+  "q1_double": [
+   [
+    0.0980339927877773,
+    0.8646257150544245
+   ],
+   [
+    0.04906950494218602,
+    0.8656770397226969
+   ],
+   [
+    0.02454144857635176,
+    0.8659383733526118
+   ],
+   [
+    0.012271565517030535,
+    0.866003563772612
+   ]
+  ],
+  "q1_HP": [
+   [
+    0.0980339927877775,
+    0.8646257175636732
+   ],
+   [
+    0.049069504942185996,
+    0.8656770665760396
+   ],
+   [
+    0.024541448576351904,
+    0.8659384215602393
+   ],
+   [
+    0.01227156551703042,
+    0.8660036646574832
+   ]
+  ],
+  "q2_double": [
+   [
+    0.09761505460306177,
+    0.8645919342494536
+   ],
+   [
+    0.04901597939396777,
+    0.865674822562267
+   ],
+   [
+    0.024534720164371897,
+    0.8659382685352506
+   ],
+   [
+    0.012270723274385246,
+    0.8660035025426116
+   ]
+  ],
+  "q3_HP": [
+   [
+    0.09692793960108317,
+    0.864541926833201
+   ],
+   [
+    0.048927152350079745,
+    0.8656711872709646
+   ],
+   [
+    0.024523518386034962,
+    0.8659380431885076
+   ],
+   [
+    0.01226931992157538,
+    0.8660036408349606
+   ]
+  ]
+ }
+}

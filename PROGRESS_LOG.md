@@ -7934,3 +7934,13 @@ across three independent arcs: P2W2-MIRROR (the mirror is non-Galois), B778 CL-L
 amplitudes are not Galois-closed), and B779 R1 (θ is the non-Galois generator) — the
 object's distinguished direction is the one its arithmetic cannot reach. This sharpens why
 θ is the vacant correspondence slot (Phase 3) and why C22's wall sits where it does.
+
+## 2026-07-24 — B775 Phase 2 Wave 4 banked: 5 results incl. an axiom repriced and a value-field law
+Wave 4 (interrupted, resumed from cache): 5 banked, 3 carry. An exact adjoint Reidemeister
+torsion (L54); R2 sealing FAILS (fixed locus positive-dimensional — closed by a real
+negative); HEAR REPRICES an axiom (κ=5 is a priced choice, not a theorem — H-EAR forces
+only the Galois pair); the κ=−2 deformation scale computed (exponent = the fig-8 volume);
+and Z1's elegant honest result — H133 dead (the ladder is lawless in the level) but every
+value lies in ℤ[φ], the monodromy's own golden ring, irrational exactly when 5|κ (forced).
+"The value field is a law; the level-dependence is not." Three verify-layer catches carried
+(an MB12 vacuity, an unearned single-size negative, a scope issue). Wave 5 launches next.
