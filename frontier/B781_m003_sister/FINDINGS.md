@@ -11,7 +11,7 @@ For a once-punctured torus bundle with monodromy M ∈ SL(2,ℤ),
 | | m004 (figure-eight) | m003 (sister) |
 |---|---|---|
 | H₁ (SnapPy) | **ℤ** (torsion-free) | **ℤ/5 + ℤ** |
-| monodromy trace | **+3** (RL = [[2,1],[1,1]]) | ≠ 3 (torsion 5 ⟹ tr ∈ {−3, 7}; sister = −3) |
+| monodromy trace | **+3** (RL = [[2,1],[1,1]]) | **−3, COMPUTED** (B784 audit established m003's monodromy is −RL two ways; cc had only asserted −3 by convention, with the honest disjunction {−3,7} from \|2−tr\|=5) |
 | char poly | x²−3x+1 (**golden φ²**) | x²+3x+1 |
 | structure | **knot complement**, the σ-manifold | not a knot complement |
 
@@ -35,3 +35,9 @@ m004 UNIQUELY — m003 is excluded by the monodromy-trace/homology (B781, here).
 figure-eight's structural specificity is established; the #1 falsifier is fully defused.
 
 Gate 5 / Gate 5-Q: structural topology. Nothing to CLAIMS.
+
+
+---
+
+## AUDIT UPGRADE (B784, 2026-07-24)
+cc asserted m003's trace as −3 "by the sister convention" — only |2−tr|=5 was forced, leaving {−3, 7}. **The B784 audit COMPUTED it: m003's monodromy is −RL, trace −3, established two ways.** The conclusion (m004 uniquely trace-3, the sister excluded) was correct and survives, but it is now computed rather than assumed. The audit also confirms H₁(m004)=ℤ and H₁(m003)=ℤ/5+ℤ are genuinely computed and could have coincided.

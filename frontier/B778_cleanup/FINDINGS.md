@@ -52,3 +52,10 @@ non-Galois (anti-diagonal axis map) and the hearing Latin square is not fully fo
 for the same reason: |S| discards the Galois sign that would close the orbit.
 
 **B778 is now 7/7 complete.** Gate 5 / Gate 5-Q clean; nothing to CLAIMS.
+
+
+## B784 CORRECTIONS to this arc (2026-07-24)
+- **CL-W4115** — verdict RESOLVED-B (the wall hardens) STANDS, but the audit retracts the supporting facts: the 'essential adjoint content [3,21,108,525,2523]' framing does not support the conclusion as stated. The wall rests on the field-disjointness (chord ℚ(√3), adjoint ℚ(√21), charge ℚ(√5)) — that part is real; the content-sequence argument is withdrawn.
+- **CL-LATIN** — verdict RESOLVED-B STANDS. Scope narrowed: replace 'confirmed by TWO independent routes' with **'cross-checked two ways on ONE mechanism'** (the cell's T-battery and cc's Galois-orbit check share the same |·| premise — they are not independent).
+- **CL-H133** — verdict STANDS, wording restated: not 'the θ-odd sector is empty' but **'both parity-graded TRACE readouts vanish at level 4'** — a statement about the trace readouts, not about the sector itself.
+- **CL-W5139 and CL-W5100 STAND AS BANKED** (the audit's strongest two).
