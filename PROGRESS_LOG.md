@@ -7910,3 +7910,14 @@ statement and CLAIMS (Gate 5-Q). The chain is now C1–C22 — the grammar force
 the measurement a rank-3 torsor with a discrete T1 frame (C18–C21), the selection provably
 not computable from inside (C22). Phase 4's capstone wall is in the chain. Next agent pass:
 the bulk Phase-2 sweep, the rest of Phase 3, the remaining Phase-4 walls, Phase-5 capstone.
+
+## 2026-07-24 — B775 Phase 2 Wave 3 banked: 7 structural results (2 theorems, an octahedral parent)
+Full multiagent cadence resumed (quota reset). Wave 3: 7 banked, 1 carry. Two theorems
+(L53 E6 all-orders smoothness/formality via MFP+PL+Kostant with an independent certificate;
+L56 the triple-phase reality theorem, 605/605 via a *-structure), a genuine octahedral
+parent for the conductor-40 family (OCTA — projective mod-3 image = S₄, resolving the
+B225-revived question positive), the S031a sealing generalized (φ-fixed locus entirely
+reducible), two honest EXTERNAL walls (SL5 pinv-discontinuity = B81; H4 = Reid's arithmeticity
+theorem), and a partial (N1 mod-5 square-exclusion proven, mod-7 open). Carry: the 1/4-walk
+CRT-multiplicativity mechanism is genuine but its "frozen 1/4 forever" claim breaks at N=405
+(frozenness is level-bounded — re-frame next wave). Phase 2 continues; ~55 structural rows remain.

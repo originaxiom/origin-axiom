@@ -1,0 +1,13 @@
+=== P2W3-H4 / OI-088 ===
+object-native family: metallic tower R^m L^m
+  m=1 (RL      ) field=Q(sqrt-3)  arithmetic=True
+  m=2 (RRLL    ) field=Q(sqrt-1)  arithmetic=True
+  m=3 (RRRLLL  ) field=212604300178165260569225204396778906261109983240*x^4 - 20988900463509661671418323697054803135876270150453*x^3 + 3894079379532985224187518091606075564028771570121393*x^2 - 8862859974001604900774961904558546199238214167379097*x - 9807846235313480801958022299928211955655499852746882 arithmetic=False
+  m=4 (RRRRLLLL) field=16*x^4 - 3036*x^3 + 1181113*x^2 - 88375222*x - 4063950098 arithmetic=False
+  off RRL  (RRL     ) field=Q(sqrt-7)  arithmetic=True
+  off RLL  (RLL     ) field=Q(sqrt-7)  arithmetic=True
+conditioning (seed2): {'m1_seed2': {'deg': 2, 'field': 'Q(sqrt-3)'}, 'm2_seed2': {'deg': 2, 'field': 'Q(sqrt-1)'}}
+arithmetic metallic members: [1, 2] | off-family arithmetic: ['RRL', 'RLL']
+unique m=1 in tower? False | scattered? True
+VERDICT: RESOLVED-B
+Object-natively arithmeticity is SCATTERED (metallic {m=1,m=2} + off-family ['RRL', 'RLL']), not minimal at RL; the figure-eight's arithmetic UNIQUENESS lives only in the external class 'knot complements in S^3' = Reid's theorem (EXTERNAL).

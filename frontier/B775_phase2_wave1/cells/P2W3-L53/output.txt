@@ -1,0 +1,34 @@
+=== P2W3-L53 (OI-014): E6 all-orders local smoothness / Goldman-Millson formality at rho_prin ===
+    FIREWALLED (deformation theory of flat connections, not physics). Pure python, exact mod p.
+
+p = 99991
+  block cohomology H^*(4_1, Sym^{2m}) per Kostant exponent m:
+    m= 1  dim Sym= 3   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 4  dim Sym= 9   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 5  dim Sym=11   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 7  dim Sym=15   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 8  dim Sym=17   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m=11  dim Sym=23   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+  totals: dim H^0(M)=0, dim H^1(M)=6, dim H^2(M)=6   | meridian regular: True (ker total=6=rank E6)
+  boundary: dim H^0(dM)=ker(mu-I)=6 (Kostant z(e) abelian) => dim H^1(dM)=12=2*rank
+  half-lives-half-dies: (1/2)dim H^1(dM)=6 = dim H^1(M)=6 => restriction injective, image Lagrangian
+  nonlinear sl(2)=adjoint(m=1) cup obstruction: cocycle o1=0:True  q nonzero (non-vacuous):True  [q]=0 in H^2:True
+
+p = 100003
+  block cohomology H^*(4_1, Sym^{2m}) per Kostant exponent m:
+    m= 1  dim Sym= 3   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 4  dim Sym= 9   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 5  dim Sym=11   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 7  dim Sym=15   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m= 8  dim Sym=17   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+    m=11  dim Sym=23   h0=0 h1=1 h2=1   ker(mu-I)=1 (regular)
+  totals: dim H^0(M)=0, dim H^1(M)=6, dim H^2(M)=6   | meridian regular: True (ker total=6=rank E6)
+  boundary: dim H^0(dM)=ker(mu-I)=6 (Kostant z(e) abelian) => dim H^1(dM)=12=2*rank
+  half-lives-half-dies: (1/2)dim H^1(dM)=6 = dim H^1(M)=6 => restriction injective, image Lagrangian
+  nonlinear sl(2)=adjoint(m=1) cup obstruction: cocycle o1=0:True  q nonzero (non-vacuous):True  [q]=0 in H^2:True
+
+VERDICT: RESOLVED-A
+  all-orders local smoothness = formality: reduced to Menal-Ferrer--Porti + Poincare-Lefschetz half-lives-half-dies + Kostant, with in-cell certificates dim H^1(M)=6=(1/2)dim H^1(dM), meridian regular, and the dimension-forcing Phi==0 (H^1 dim 6 = smooth-germ dim 6 => all Massey products vanish)
+  discriminating fact: dim H^1(M)=6=(1/2)dim H^1(dM)=(1/2)*12 with meridian regular -- the MFP smoothness
+  signature; via half-lives-half-dies it forces injectivity, and the smooth 6-dim germ filling H^1 (dim 6)
+  forces the Goldman-Millson map Phi==0 to all orders (all higher Massey products cohomologically vanish).

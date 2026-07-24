@@ -1,0 +1,121 @@
+{
+  "cell": "P2W3-L56",
+  "observable": "B_ijk = tr(P_i Q_j R_k), level-15 Weil rep",
+  "T1_exact_modular": {
+    "primes_c1": [
+      {
+        "p": 61,
+        "c": 1,
+        "orders": {
+          "1": 20,
+          "2": 12,
+          "3": 6
+        },
+        "nproj": [
+          11,
+          11,
+          5
+        ],
+        "triples": 605,
+        "nonreal": 0
+      },
+      {
+        "p": 181,
+        "c": 1,
+        "orders": {
+          "1": 20,
+          "2": 12,
+          "3": 6
+        },
+        "nproj": [
+          11,
+          11,
+          5
+        ],
+        "triples": 605,
+        "nonreal": 0
+      },
+      {
+        "p": 241,
+        "c": 1,
+        "orders": {
+          "1": 20,
+          "2": 12,
+          "3": 6
+        },
+        "nproj": [
+          11,
+          11,
+          5
+        ],
+        "triples": 605,
+        "nonreal": 0
+      }
+    ],
+    "convention_c2": {
+      "p": 241,
+      "c": 2,
+      "orders": {
+        "1": 20,
+        "2": 12,
+        "3": 6
+      },
+      "nproj": [
+        11,
+        11,
+        5
+      ],
+      "triples": 605,
+      "nonreal": 0
+    }
+  },
+  "T2_numerical": {
+    "float_c1": {
+      "c": 1,
+      "triples": 605,
+      "nonreal": 0,
+      "worst_im": 3.923875683159232e-15,
+      "worst_idempotency": 2.5685759443754137e-14
+    },
+    "float_c2": {
+      "c": 2,
+      "triples": 605,
+      "nonreal": 0,
+      "worst_im": 4.2526746013571426e-15,
+      "worst_idempotency": 3.1147678186523334e-14
+    },
+    "mpmath": {
+      "dps": 48,
+      "sampled": 40,
+      "worst_im": 1.6918600614883598e-48
+    }
+  },
+  "T3_sl2_identities": {
+    "S_inverts_Am": true,
+    "D_gives_A_negm": true,
+    "inverse_ok": true
+  },
+  "T3_mechanism": {
+    "conj_TS_ok": true,
+    "K_rel": 3.974327755761389e-15,
+    "S_rel_op": 4.725501054778369e-15,
+    "intertwiner_nulldim": 4,
+    "U_unitary": 1.2641170765882407e-14,
+    "U_intertwines": 1.359452428263418e-14,
+    "J_commutes": 1.2899232027567535e-14,
+    "antiunitary_trace_id": 1.8033521790747422e-14,
+    "S_relation_B": 5.630825826506995e-15,
+    "C_relation_B": 7.312540756325203e-15
+  },
+  "verdict": "RESOLVED-A",
+  "headline": "Reality THEOREM: all triple-phases tr(P_i Q_j R_k) are real. Proof = S-relation (S inverts each metallic word) + antiunitary J=U^H K (self-conjugacy of the restricted Weil rep); exact modular certificate 605/605 over 3 primes + convention c=2.",
+  "exact_summary": {
+    "triples": 605,
+    "nonreal_total_over_primes_and_c2": 0
+  },
+  "gates": {
+    "exact_ok": true,
+    "numeric_ok": true,
+    "mechanism_ok": true
+  }
+}

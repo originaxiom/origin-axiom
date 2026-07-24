@@ -1,0 +1,65 @@
+=== raw gp ===
+COND=40
+CONDB=40
+J=148176/25
+TORS=[2, 2]
+ISOG3=1
+PSI3=3*x^4 - 24*x^3 + 30*x^2 - 25
+IRRED=1
+GALA=S4
+GALA_ORD=24
+GALB=S4
+DISC=-1105920000
+DISCFAC=[-1, 1; 2, 16; 3, 3; 5, 4]
+SQFREE=-3
+SPLITDEG=24
+RAM=[2, 3, 5]
+CUBRES_GAL=S3
+
+=== verdict ===
+{
+ "cell": "P2W3-OCTA",
+ "question": "OI-050 octahedral parent for the conductor-40 family",
+ "backend": "PARI/gp (exact)",
+ "seeds": [
+  "y^2=x(x-1)(x-5)",
+  "minimal model 40a1 [0,0,0,-7,-6]"
+ ],
+ "facts": {
+  "conductor_seedA": 40,
+  "conductor_seedB": 40,
+  "torsion": "[2, 2]",
+  "rational_3_isogeny": false,
+  "psi3": "3*x^4 - 24*x^3 + 30*x^2 - 25",
+  "psi3_irreducible": true,
+  "psi3_galois_seedA": "S4",
+  "psi3_galois_seedB": "S4",
+  "disc_psi3_factored": "[-1, 1; 2, 16; 3, 3; 5, 4]",
+  "quad_subfield_sqfree": -3,
+  "projective_mod3_field_degree": 24,
+  "ramification_of_S4_field": [
+   2,
+   3,
+   5
+  ],
+  "cubic_resolvent_galois": "S3"
+ },
+ "tests": {
+  "S4_reproduced_two_seeds": true,
+  "non_abelian_B774_ok": true,
+  "surjective_mod3_proved": true,
+  "ramified_exactly_tower_primes_235": true,
+  "quad_subfield_is_Q_sqrt_m3": true,
+  "cubic_resolvent_S3": true
+ },
+ "verdict": "RESOLVED-A",
+ "headline": "Genuine octahedral parent EXISTS: the projective mod-3 Galois rep of the conductor-40 curve is an S4 (octahedral) extension ramified at exactly the tower primes {2,3,5}, quad subfield Q(sqrt(-3)).",
+ "discriminating_fact": "psi3 = 3x^4-24x^3+30x^2-25 is irreducible with Galois group S4 (both seeds); no rational 3-isogeny; disc(psi3) = -2^16*3^3*5^4 (squarefree part -3); the projective mod-3 field has degree 24 = |S4| ramified at EXACTLY {2,3,5}; cubic resolvent Galois = S3. GL(2,3) is the NON-SPLIT double cover 2.S4 (its unique index-2 subgroup is SL(2,3)~2T, not S4), so projective image S4 forces the full mod-3 image GL(2,3) (surjective, -I in image). => a genuine, non-abelian S4-extension canonically attached to the conductor-40 curve, tying prime 2 (octahedral/Whitehead Q(i)), prime 3 (figure-eight Q(sqrt-3)), prime 5 (golden Q(sqrt5)). Contrast the retracted prime-2 BIT (B742: vacuous): this is a rank-rich non-abelian object with ramification forced = the tower primes.",
+ "terminal_state": "STRUCTURAL-POSITIVE (S4 octahedral extension exhibited)",
+ "gate_5of5Q": {
+  "structural_only": true,
+  "no_SM_values": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true
+ }
+}

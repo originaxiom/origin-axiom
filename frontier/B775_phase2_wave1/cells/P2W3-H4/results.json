@@ -1,0 +1,88 @@
+{
+ "cell": "P2W3-H4",
+ "oi": "OI-088",
+ "question": "object-native reason for figure-eight arithmetic-minimality vs Reid (EXTERNAL)?",
+ "verdict": "RESOLVED-B",
+ "headline": "Object-natively arithmeticity is SCATTERED (metallic {m=1,m=2} + off-family ['RRL', 'RLL']), not minimal at RL; the figure-eight's arithmetic UNIQUENESS lives only in the external class 'knot complements in S^3' = Reid's theorem (EXTERNAL).",
+ "discriminating_fact": {
+  "object_native_family": "metallic once-punctured-torus bundles R^m L^m (the trace-map tower)",
+  "arithmetic_metallic_members": [
+   "m=1",
+   "m=2"
+  ],
+  "arithmetic_off_metallic_short_words": [
+   "RRL",
+   "RLL"
+  ],
+  "arithmeticity_selects_unique_m1_in_tower": false,
+  "arithmeticity_scattered_over_object_family": true,
+  "figure8_unique_only_as": "arithmetic KNOT complement in S^3 (Reid 1991) -- knot-in-S^3 restriction is NOT object-native",
+  "residual_min_is_word_length": "RL is the SHORTEST arithmetic word; 'minimal-arithmetic' reduces to word-length monotonicity among a scattered arithmetic set -- the exact OI-088 deflation costume, not an independent arithmetic minimum"
+ },
+ "results": {
+  "metallic": {
+   "1": {
+    "word": "RL",
+    "field": "Q(sqrt-3)",
+    "deg": 2,
+    "integral_traces": true,
+    "arithmetic": true
+   },
+   "2": {
+    "word": "RRLL",
+    "field": "Q(sqrt-1)",
+    "deg": 2,
+    "integral_traces": true,
+    "arithmetic": true
+   },
+   "3": {
+    "word": "RRRLLL",
+    "field": "212604300178165260569225204396778906261109983240*x^4 - 20988900463509661671418323697054803135876270150453*x^3 + 3894079379532985224187518091606075564028771570121393*x^2 - 8862859974001604900774961904558546199238214167379097*x - 9807846235313480801958022299928211955655499852746882",
+    "deg": 4,
+    "integral_traces": null,
+    "arithmetic": false
+   },
+   "4": {
+    "word": "RRRRLLLL",
+    "field": "16*x^4 - 3036*x^3 + 1181113*x^2 - 88375222*x - 4063950098",
+    "deg": 4,
+    "integral_traces": null,
+    "arithmetic": false
+   }
+  },
+  "off_metallic": {
+   "RRL": {
+    "word": "RRL",
+    "field": "Q(sqrt-7)",
+    "deg": 2,
+    "integral_traces": true,
+    "arithmetic": true
+   },
+   "RLL": {
+    "word": "RLL",
+    "field": "Q(sqrt-7)",
+    "deg": 2,
+    "integral_traces": true,
+    "arithmetic": true
+   }
+  },
+  "conditioning": {
+   "m1_seed2": {
+    "deg": 2,
+    "field": "Q(sqrt-3)"
+   },
+   "m2_seed2": {
+    "deg": 2,
+    "field": "Q(sqrt-1)"
+   }
+  }
+ },
+ "method": "SnapPy 3.3.2 + cypari; Maclachlan-Reid Thm 8.3.2 (imag-quad invariant trace field + integral traces); 2 seeds",
+ "reuses": [
+  "B123",
+  "B125",
+  "B147"
+ ],
+ "external": "Reid 1991 (unique arithmetic knot); Maclachlan-Reid; BMR (arithmetic o-p-t bundles finite)",
+ "gate": "5-Q: structural only, no SM values, nothing to CLAIMS, one-number pin untouched"
+}

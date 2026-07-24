@@ -1,0 +1,18 @@
+== T1 EXACT MODULAR (F_p, p=1 mod 60; no floating point) ==
+   p=  61 c=1  orders={1: 20, 2: 12, 3: 6} nproj=[11, 11, 5] triples=605 nonreal=0
+   p= 181 c=1  orders={1: 20, 2: 12, 3: 6} nproj=[11, 11, 5] triples=605 nonreal=0
+   p= 241 c=1  orders={1: 20, 2: 12, 3: 6} nproj=[11, 11, 5] triples=605 nonreal=0
+   p=241 c=2  orders={1: 20, 2: 12, 3: 6} nproj=[11, 11, 5] triples=605 nonreal=0
+   EXACT total=605  nonreal_across_all=0
+== T2 NUMERICAL ==
+   float c=1: triples=605 nonreal=0 worst|Im|=3.92e-15 idempotency=2.6e-14
+   float c=2: nonreal=0 worst|Im|=4.25e-15
+   mpmath dps=48 sample=40 worst|Im|=1.69e-48
+== T3 MECHANISM ==
+   SL2:  S A_m S^-1=A_m^-1:True  D A_m D^-1=A_-m:True
+   conj(T)=T^-1,conj(S)=S^-1:True  K:rho(A_m)->rho(A_-m) res=4.0e-15
+   S-rel operator res=4.7e-15  intertwiner nulldim=4
+   U unitary=1.3e-14  U intertwines=1.4e-14  J commutes=1.3e-14  anti-trace-id=1.8e-14
+   (*) B=B_bar res=5.6e-15   (**) conjB=B_bar res=7.3e-15
+== VERDICT ==
+   RESOLVED-A: Reality THEOREM: all triple-phases tr(P_i Q_j R_k) are real. Proof = S-relation (S inverts each metallic word) + antiunitary J=U^H K (self-conjugacy of the restricted Weil rep); exact modular certificate 605/605 over 3 primes + convention c=2.

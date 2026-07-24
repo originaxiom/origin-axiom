@@ -1,0 +1,41 @@
+{
+ "cell": "P2W3-L53",
+ "oi": "OI-014",
+ "topic": "E6 all-orders local smoothness / GM formality at rho_prin",
+ "firewalled": true,
+ "env": "pyenv python3 (no sage)",
+ "primes": [
+  99991,
+  100003
+ ],
+ "certificates": {
+  "dim_H0_M": 0,
+  "dim_H1_M": 6,
+  "dim_H2_M": 6,
+  "meridian_regular": true,
+  "ker_mu_total": 6,
+  "dim_H1_boundary": 12,
+  "half_lives_identity": true,
+  "per_block_h1": {
+   "1": 1,
+   "4": 1,
+   "5": 1,
+   "7": 1,
+   "8": 1,
+   "11": 1
+  }
+ },
+ "nonlinear_cup": {
+  "non_vacuous": true,
+  "vanishes": true
+ },
+ "reduction": [
+  "Kostant 1963 (regular nilpotent centralizer abelian, dim=rank)",
+  "Poincare-Lefschetz half-lives-half-dies",
+  "Menal-Ferrer--Porti / Heusener--Porti smoothness criterion",
+  "dimension forcing: smooth dim6 germ in H^1 dim6 => Phi==0 all orders => DGLA formal"
+ ],
+ "both_primes_agree": true,
+ "verdict": "RESOLVED-A",
+ "reason": "all-orders local smoothness = formality: reduced to Menal-Ferrer--Porti + Poincare-Lefschetz half-lives-half-dies + Kostant, with in-cell certificates dim H^1(M)=6=(1/2)dim H^1(dM), meridian regular, and the dimension-forcing Phi==0 (H^1 dim 6 = smooth-germ dim 6 => all Massey products vanish)"
+}
