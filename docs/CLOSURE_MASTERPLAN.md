@@ -112,7 +112,7 @@ The program's signature move made systematic — proving *why* doors stay shut:
 
 | item | state | gate |
 |---|---|---|
-| cc3's V4-genericity | ✅ DELIVERED + cc-VERIFIED (B777): V4 NOT generic — gated by amphicheirality; #1 falsifier defused; m003 sister-distinction carries to Phase 3 |
+| cc3's V4-genericity | ✅ DELIVERED + cc-VERIFIED (B777) | V4 NOT generic — amphicheirality-gated; #1 falsifier defused; m003 sister-distinction → Phase 3 |
 | B778's 2 pending cells (CL-W4115, CL-LATIN) | next pass | R30-1 |
 | The GSWZ question (Habiro all-order theorem) | WELL-POSED, unsent | ⛔ owner-gated send; the draft stays internal |
 | The 5 NEEDS-SPECIALIST leads | EXTERNAL register | Phase-5 dossier |
