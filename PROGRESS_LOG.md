@@ -7898,3 +7898,15 @@ and m003 share trace field, volume, and V4. The monodromy-trace/homology mechani
 m004 uniquely. A structural beauty fell out: the golden 5 is the field √5 in m004 and torsion
 ℤ/5 in the sister — the same number in two homological guises. With B777+B781 the #1 falsifier
 (V4 genericity) is fully defused. Direct computation + hand-verification (agent quota spent).
+
+## 2026-07-24 — B782/C22: the choice-incomputability wall minted (the capstone Phase-4 wall)
+Continuing by direct computation. Formalized C22, the capstone wall, as a verified
+group-theoretic no-go: the measurement torsor (C20) is a free transitive (Z/2)³-action
+(exhaustive fixed-point check — no non-identity element fixes a closing), so it admits no
+equivariant section; no process internal to the object's symmetry selects a closing — the
+choice is broken from outside. The math is airtight (a free torsor has no canonical point);
+the observer/Born reading is firewalled to the priced C18 bridge, kept OUT of the chain
+statement and CLAIMS (Gate 5-Q). The chain is now C1–C22 — the grammar forced (C1–C17),
+the measurement a rank-3 torsor with a discrete T1 frame (C18–C21), the selection provably
+not computable from inside (C22). Phase 4's capstone wall is in the chain. Next agent pass:
+the bulk Phase-2 sweep, the rest of Phase 3, the remaining Phase-4 walls, Phase-5 capstone.

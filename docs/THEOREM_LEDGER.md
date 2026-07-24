@@ -167,6 +167,18 @@ point is θ-fixed) and the tangent frames align exactly — the alignment that p
 chord = c⊕θ. No continuous T1 content exists where the object lives. — B769. Lock:
 `tests/test_b769_t1.py`.
 
+**C22 [NO-GO — the choice-incomputability of the closing].** The measurement torsor
+(C20) is a FREE TRANSITIVE (ℤ/2)³-action on its 8 closings — verified exhaustively: no
+non-identity element of (c, θ, γ₅) fixes any closing. A free action has no G-fixed
+point, hence the torsor admits NO equivariant (symmetry-respecting) section; therefore
+no process internal to the object's symmetry selects a closing — the choice must be
+broken from OUTSIDE the object's symmetry group. This is the group-theoretic form of
+"computation is equivariant, choice is symmetry-breaking." — B782. Lock:
+`tests/test_b782_c22.py`. *[Interpretation, PRICED to C18, firewalled OUT of this
+statement: the observer completes the object from outside; the Born shape = amplitudes
+(the equivariant, computable part) vs outcomes (the section, not computable). NOT
+asserted in the chain; NOT in CLAIMS.]*
+
 ---
 
 *Maintenance: additions require the B758 admission criteria (exact statement + location +

@@ -1,0 +1,8 @@
+closing group (Z/2)^3 |G|=8; torsor size=8
+action FREE (no non-identity g fixes a closing): True
+action TRANSITIVE (a torsor): True
+G-fixed closings (equivariant sections): []  -> exists: False
+
+VERDICT: RESOLVED-A  -- C22 [NO-GO]: the free measurement torsor admits NO equivariant
+section; no symmetry-respecting process internal to the object selects a closing;
+the choice must be broken from outside. (Interpretation firewalled to C18.)

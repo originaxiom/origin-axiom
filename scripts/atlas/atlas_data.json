@@ -16281,6 +16281,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B782": {
+   "slug": "choice incomputability",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B766"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [
