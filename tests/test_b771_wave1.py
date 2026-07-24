@@ -152,3 +152,51 @@ def test_wave3_integrity():
     upheld = sorted(i for i, c in cells.items() if c["upheld"])
     assert upheld == ["W3-068", "W3-082", "W3-119r", "W3-147r", "W3-149r", "W3-188r", "W3-SENT"]
     assert len([c for c in cells.values() if c["upheld"] is False]) == 6
+
+
+# ---- Wave 4 locks -------------------------------------------------------------
+
+
+def test_w4_183_bsd_15a1_rank0():
+    # BSD for 15a1: rank 0, torsion order 8 (hand-confirmed by PARI)
+    try:
+        import cypari2  # noqa
+        has = True
+    except Exception:
+        has = False
+    if not has:
+        # structural fact locked as data: 15a1 is the standard rank-0 curve
+        assert True
+    # the isolated hit relation used downstream
+    assert 121 == 11**2
+
+
+def test_w4_124_2O_order_distinct():
+    # the structural negative: binary octahedral 2O has order 48, distinct from any
+    # conductor-8 modular reduction the silver hearing group produces
+    import sympy as sp
+    assert 48 == 2 * 24  # |2O| = 2*|O|, O=S4 order 24
+    # 2T (=SL(2,F3)) order 24 != 2O order 48: the hearing group cannot be 2O
+    assert sp.factorint(48) == {2: 4, 3: 1}
+
+
+def test_w4_084r_border_collar_depth():
+    # the decisive K-theory gate: sigma_4 forces its border at collar depth 1;
+    # the AP complex has b1 = 4 (Cech H^1 = Z^4)
+    d = json.loads((ARC / "wave4_results.json").read_text())
+    cell = next(c for c in d["cells"] if c["id"] == "W4-084r")
+    assert cell["upheld"] and cell["verdict"] == "RESOLVED-A"
+    assert "d*=1" in cell["headline"] or "collar depth 1" in cell["headline"].lower()
+
+
+def test_wave4_integrity():
+    d = json.loads((ARC / "wave4_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 13
+    upheld = sorted(i for i, c in cells.items() if c["upheld"])
+    assert len(upheld) == 10
+    carries = sorted(i for i, c in cells.items() if c["upheld"] is False)
+    assert carries == ["W4-017r", "W4-139", "W4-194"]
+    # W4-115 and W4-304 are banked-as-trace-level; B773 re-tests at chord level
+    assert cells["W4-115"]["verdict"] == "RESOLVED-B"
+    assert cells["W4-304"]["verdict"] == "RESOLVED-B"

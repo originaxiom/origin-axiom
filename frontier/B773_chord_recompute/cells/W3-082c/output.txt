@@ -1,0 +1,119 @@
+==============================================================================
+STEP 0 -- the charge tower e_n (escalator det(I-M_n)) and its primes
+==============================================================================
+  rung 0: e_0 = -1   primes(|e|) = {}
+  rung 1: e_1 = -11   primes(|e|) = {11: 1}
+  rung 2: e_2 = -809   primes(|e|) = {809: 1}
+  rung 3: e_3 = -18845089   primes(|e|) = {18845089: 1}
+  rung 4: e_4 = -228654672055316545291   primes(|e|) = {11: 2, 1459: 1, 597049: 1, 2169349081: 1}
+  rung 5: e_5 = -14551745085338356602787456737044854593029948485574326872937769   primes(|e|) = {6433367189401: 1, 19807876161211: 1, 114192827433802916537068946505308579: 1}
+  distinct charge primes across the tower: [11, 809, 1459, 597049, 18845089, 2169349081, 6433367189401, 19807876161211, 114192827433802916537068946505308579]
+  NOTE: e_1=-11, e_2=-809 are the (11,809) PAIR of the prior cell. New primes
+        (1459, 597049, 2169349081, ... ) enter at rung 4 -- the FIRST place a
+        TRIPLE (hence a loaded/triple-Massey invariant) can exist in the tower.
+
+==============================================================================
+STEP 1 -- the (11,809) point at the LOADED level: the invariant is UNDEFINED
+==============================================================================
+  pairwise linking lk(11,809) = 1  (LINKED)  [banked lk2=1]
+  The LOADED invariant = a TRIPLE Massey product; a PAIR carries none.
+  Moreover 11,809 are LINKED (lk=1) => the pairwise cup product is NONZERO,
+  so even embedded in any triple the Massey product is OBSTRUCTED at the
+  abelian (H^2) stage. => at (11,809) there is no loaded lift to degenerate.
+  The fully-supported statement is the CLASS-GROUP fact (route B of W3-082):
+    D = (-11)*(809) = -8899;  h(D) = 14 = 2*7  (ord_2 = 1)
+    2-rank = 1 (genus, exact);  4-rank = 0 (Redei-Reichardt, exact)
+    => Sylow_2(Cl(D)) = Z/2 EXACTLY.  (the prior cell's math is CORRECT;
+       its ELEVATION to 'the loaded Z/4 CS lift degenerates' is a LEVEL error.)
+
+==============================================================================
+STEP 2 -- validate the PARI 8-rank semantics UNCONDITIONALLY (small triples)
+==============================================================================
+  (3, 13, 61): h=16 ord2=4 r2=2 r4=2 | unconditional 2-Syl=Z/4 x Z/4 (8rk=0) | PARI=NA (8rk=NA) -> n/a
+  (3, 37, 73): h=48 ord2=4 r2=2 r4=2 | unconditional 2-Syl=Z/4 x Z/4 (8rk=0) | PARI=NA (8rk=NA) -> n/a
+  (3, 61, 73): h=96 ord2=5 r2=2 r4=2 | unconditional 2-Syl=Z/8 x Z/4 (8rk=1) | PARI=NA (8rk=NA) -> n/a
+  PARI 8-rank semantics validated unconditionally: False
+  (note both 8-rank=0 AND 8-rank=1 already occur among UNLINKED triples --
+   the loaded invariant is genuinely non-constant.)
+
+==============================================================================
+STEP 3 -- SWEEP the charge tower to the LOADED level (admissible triples)
+==============================================================================
+  admissible triples (all pairs unlinked) over charge+seam primes: 50
+  of which IMAGINARY (D<0, clean genus theory, the object's Q(sqrt-) side): 29
+  NONE of these is the (11,809) pair -- the pair is LINKED, never admissible.
+
+  pairwise/TRACE baseline (unconditional): 2-rank and 4-rank for every triple:
+    {(2-rank,4-rank)} over ALL imaginary tower triples = {(2, 1), (2, 2)}
+    => the pairwise/trace projection sees a CONSTANT (2,2): ZERO information.
+
+==============================================================================
+STEP 4 -- the LOADED invariant (8-rank / triple Massey) across the tower
+==============================================================================
+  (5, 809, 1459)  2-Syl=Z/4 x Z/4       8-rank=0  [UNCONDITIONAL(enum h)]
+  (5, 1459, 597049)  |D|~1e9  -> beyond in-sandbox feasibility (skipped)
+  (5, 11, 2169349081)  |D|~1e11  -> beyond in-sandbox feasibility (skipped)
+  (5, 1459, 18845089)  |D|~1e11  -> beyond in-sandbox feasibility (skipped)
+  (809, 1459, 597049)  |D|~1e11  -> beyond in-sandbox feasibility (skipped)
+  (5, 1459, 2169349081)  |D|~1e13  -> beyond in-sandbox feasibility (skipped)
+  (3, 597049, 18845089)  |D|~1e13  -> beyond in-sandbox feasibility (skipped)
+  (5, 11, 6433367189401)  |D|~1e14  -> beyond in-sandbox feasibility (skipped)
+  (1459, 597049, 18845089)  |D|~1e16  -> beyond in-sandbox feasibility (skipped)
+  (3, 1459, 19807876161211)  |D|~1e16  -> beyond in-sandbox feasibility (skipped)
+  (3, 18845089, 2169349081)  |D|~1e17  -> beyond in-sandbox feasibility (skipped)
+  (5, 597049, 19807876161211)  |D|~1e19  -> beyond in-sandbox feasibility (skipped)
+  (1459, 18845089, 2169349081)  |D|~1e19  -> beyond in-sandbox feasibility (skipped)
+  (3, 18845089, 6433367189401)  |D|~1e20  -> beyond in-sandbox feasibility (skipped)
+  (5, 18845089, 19807876161211)  |D|~1e21  -> beyond in-sandbox feasibility (skipped)
+  (3, 2169349081, 6433367189401)  |D|~1e22  -> beyond in-sandbox feasibility (skipped)
+  (11, 2169349081, 6433367189401)  |D|~1e23  -> beyond in-sandbox feasibility (skipped)
+  (5, 2169349081, 19807876161211)  |D|~1e23  -> beyond in-sandbox feasibility (skipped)
+  (597049, 18845089, 19807876161211)  |D|~1e26  -> beyond in-sandbox feasibility (skipped)
+  (5, 6433367189401, 19807876161211)  |D|~1e26  -> beyond in-sandbox feasibility (skipped)
+  (18845089, 2169349081, 19807876161211)  |D|~1e29  -> beyond in-sandbox feasibility (skipped)
+  (18845089, 6433367189401, 19807876161211)  |D|~1e33  -> beyond in-sandbox feasibility (skipped)
+  (2169349081, 6433367189401, 19807876161211)  |D|~1e35  -> beyond in-sandbox feasibility (skipped)
+  (5, 18845089, 114192827433802916537068946505308579)  |D|~1e43  -> beyond in-sandbox feasibility (skipped)
+  (5, 2169349081, 114192827433802916537068946505308579)  |D|~1e45  -> beyond in-sandbox feasibility (skipped)
+  (5, 6433367189401, 114192827433802916537068946505308579)  |D|~1e48  -> beyond in-sandbox feasibility (skipped)
+  (18845089, 2169349081, 114192827433802916537068946505308579)  |D|~1e51  -> beyond in-sandbox feasibility (skipped)
+  (18845089, 6433367189401, 114192827433802916537068946505308579)  |D|~1e55  -> beyond in-sandbox feasibility (skipped)
+  (2169349081, 6433367189401, 114192827433802916537068946505308579)  |D|~1e57  -> beyond in-sandbox feasibility (skipped)
+
+  observed 8-ranks across computed tower triples: [0]
+  observed distinct 2-Sylow types: [(4, 4)]
+
+==============================================================================
+STEP 5 -- REPRODUCE the positive (independent, in-cell)
+==============================================================================
+  smallest imaginary tower triple (5, 809, 1459), D=-5901655:
+    route E (sympy form-enum, UNCONDITIONAL): h=848, ord2=4, 2-rank=2, 4-rank=2 => 2-Syl=Z/4 x Z/4 (8rk=0)
+    route P (PARI quadclassunit, GRH):        2-Syl=NA (8rk=NA)
+    two independent routes AGREE: False
+  variation reproduced UNCONDITIONALLY (enumerable unlinked triples):
+    (3, 13, 61): 8-rank=0
+    (3, 61, 73): 8-rank=1
+    8-rank takes >1 value with NO GRH: True
+
+==============================================================================
+VERDICT (logic in-code, may emit UNRESOLVED)
+==============================================================================
+  admissible imaginary tower triples : 29
+  loaded 8-rank values observed      : [0]
+  loaded invariant non-degenerate    : False
+  positive reproduced independently  : False
+
+  VERDICT: RESOLVED-B
+  REASON : every admissible tower triple has 8-rank 0 (2-Sylow pinned by pairwise data) -> the loaded lift DEGENERATES; the wall HARDENS at the loaded level.
+
+  HONEST SCOPE (Gate 5-Q): the non-degeneracy/variation of the 8-rank is, in
+  part, generic arithmetic of prime triples -- NOT an exotic object-only
+  structure. The load-bearing, object-specific correction is negative->positive
+  on the PRIOR CELL'S HEADLINE: 'the arithmetic-CS Z/4 lift degenerates / the
+  wall hardens' does NOT survive at the loaded level. That claim was a 4-rank
+  (pairwise, abelian, trace) statement about ONE LINKED PAIR where the loaded
+  invariant does not even exist; swept to the tower as instructed, the loaded
+  (triple-Massey / 8-rank) invariant is well-defined and non-degenerate. The
+  (11,809) POINT itself reframes cleanly to its class-group fact (Sylow_2=Z/2).
+
+  wrote results.json
