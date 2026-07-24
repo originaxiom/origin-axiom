@@ -1,0 +1,11 @@
+{
+ "arc": "B780",
+ "verdict": "RESOLVED-A",
+ "S1_rank_onset_discriminates": true,
+ "S2_action_type_discriminates": true,
+ "S3_solo_flip_discriminates": true,
+ "gate_correct_on_truth": true,
+ "gate_rejects_swap": true,
+ "verified": true,
+ "headline": "The Galois-vs-reversal gate is VERIFIED: three banked signatures (rank-onset SL(2) c-nontrivial/theta-trivial; action-type c-diagonal/theta-permutation (1 4)(2 5)(3 8)(6 7); solo-flip c-has-T4/theta-none) genuinely separate c from theta and reject the swap. cc3's Move 3 confirmed, no new math. Halves the Phase-3 enumeration 8->4."
+}
