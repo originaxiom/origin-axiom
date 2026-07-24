@@ -1,0 +1,194 @@
+{
+  "cell": "W5-204",
+  "target": "B690 being-hand 3-adic defect d(n) = v3(denom) - (n + v3(n!))",
+  "extraction": {
+    "dps": 1300,
+    "n_points": 48,
+    "coeffs_recognised": 8,
+    "r_j": [
+      "11/24",
+      "697/1152",
+      "724351/414720",
+      "278392949/39813120",
+      "244284791741/6688604160",
+      "1140363907117019/4815794995200",
+      "212114205337147471/115579079884800",
+      "367362844229968131557/22191183337881600"
+    ],
+    "log": [
+      {
+        "j": 1,
+        "r": "11/24",
+        "trusted_digits": 125
+      },
+      {
+        "j": 2,
+        "r": "697/1152",
+        "trusted_digits": 120
+      },
+      {
+        "j": 3,
+        "r": "724351/414720",
+        "trusted_digits": 115
+      },
+      {
+        "j": 4,
+        "r": "278392949/39813120",
+        "trusted_digits": 110
+      },
+      {
+        "j": 5,
+        "r": "244284791741/6688604160",
+        "trusted_digits": 106
+      },
+      {
+        "j": 6,
+        "r": "1140363907117019/4815794995200",
+        "trusted_digits": 101
+      },
+      {
+        "j": 7,
+        "r": "212114205337147471/115579079884800",
+        "trusted_digits": 97
+      },
+      {
+        "j": 8,
+        "r": "367362844229968131557/22191183337881600",
+        "trusted_digits": 93
+      }
+    ]
+  },
+  "even_reach": 8,
+  "u_order_exact": 9,
+  "checks": {
+    "pure3": true,
+    "eq2_printed_match": true,
+    "odd_h_vanishes": true
+  },
+  "defect_rows": [
+    {
+      "n": 2,
+      "coeff": "-1/27",
+      "den": "27",
+      "pure3": true,
+      "v3": 3,
+      "pred": 2,
+      "defect": 1,
+      "eq2_printed": "-1/27",
+      "eq2_match": true
+    },
+    {
+      "n": 3,
+      "coeff": "1/27",
+      "den": "27",
+      "pure3": true,
+      "v3": 3,
+      "pred": 4,
+      "defect": -1,
+      "eq2_printed": "1/27",
+      "eq2_match": true
+    },
+    {
+      "n": 4,
+      "coeff": "-4/243",
+      "den": "243",
+      "pure3": true,
+      "v3": 5,
+      "pred": 5,
+      "defect": 0,
+      "eq2_printed": "-4/243",
+      "eq2_match": true
+    },
+    {
+      "n": 5,
+      "coeff": "-1/243",
+      "den": "243",
+      "pure3": true,
+      "v3": 5,
+      "pred": 6,
+      "defect": -1,
+      "eq2_printed": "-1/243",
+      "eq2_match": true
+    },
+    {
+      "n": 6,
+      "coeff": "-25/19683",
+      "den": "19683",
+      "pure3": true,
+      "v3": 9,
+      "pred": 8,
+      "defect": 1,
+      "eq2_printed": null,
+      "eq2_match": null
+    },
+    {
+      "n": 7,
+      "coeff": "214/6561",
+      "den": "6561",
+      "pure3": true,
+      "v3": 8,
+      "pred": 9,
+      "defect": -1,
+      "eq2_printed": null,
+      "eq2_match": null
+    },
+    {
+      "n": 8,
+      "coeff": "-12842/531441",
+      "den": "531441",
+      "pure3": true,
+      "v3": 12,
+      "pred": 10,
+      "defect": 2,
+      "eq2_printed": null,
+      "eq2_match": null
+    },
+    {
+      "n": 9,
+      "coeff": "-47749/531441",
+      "den": "531441",
+      "pure3": true,
+      "v3": 12,
+      "pred": 13,
+      "defect": -1,
+      "eq2_printed": null,
+      "eq2_match": null
+    }
+  ],
+  "defect_pattern": {
+    "2": 1,
+    "3": -1,
+    "4": 0,
+    "5": -1,
+    "6": 1,
+    "7": -1,
+    "8": 2,
+    "9": -1
+  },
+  "max_abs_defect": 2,
+  "exact_ns": [
+    4
+  ],
+  "external_boundary": {
+    "n": 100,
+    "v3_cited": 146,
+    "pred": 148,
+    "defect_cited": -2,
+    "source": "GSWZ full 600-term tower (unpublished scripts); CITED, not in-cell"
+  },
+  "b772_parity_note": {
+    "target_is_trace": true,
+    "P_is_theta_even_symmetrisation": true,
+    "theta_odd_denominator_primes": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "theta_odd_carries_non3": true,
+    "reading": "the pure-3 being law is a property of the h-EVEN (theta-even) symmetrisation P=Phi(h)Phi(-h); the theta-odd analog Phi/Phi carries non-3 primes that the symmetrisation cancels -- the defect pattern is an even-sector statement, per the B772 lesson"
+  },
+  "verdict": "RESOLVED-B",
+  "headline": "partial d(n) computed n=2..9 (|d|<=2, exact at n=[4]); EXTERNAL boundary = full GSWZ 600-term tower (n=100 v3=146 cited, unpublished scripts)",
+  "gate_5Q": "structural labels being/hearing only; no SM reading; nothing to CLAIMS"
+}

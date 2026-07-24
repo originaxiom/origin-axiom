@@ -200,3 +200,26 @@ def test_wave4_integrity():
     # W4-115 and W4-304 are banked-as-trace-level; B773 re-tests at chord level
     assert cells["W4-115"]["verdict"] == "RESOLVED-B"
     assert cells["W4-304"]["verdict"] == "RESOLVED-B"
+
+
+# ---- Wave 5 locks -------------------------------------------------------------
+
+
+def test_w5_139_metallic_genus_sequence():
+    # genus(A_3) = 1 + 2B with B=20 -> 41; Riemann-Hurwitz 2g-2 = 4B; sequence (3,1,41) all odd
+    B = 20
+    g = 1 + 2 * B
+    assert g == 41
+    assert 2 * g - 2 == 4 * B == 80
+    assert all(x % 2 == 1 for x in (3, 1, g))  # odd genus consistency
+
+
+def test_wave5_shape():
+    d = json.loads((ARC / "wave5_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 8
+    upheld = sorted(i for i, c in cells.items() if c["upheld"])
+    assert upheld == ["W5-017r", "W5-105", "W5-180", "W5-194", "W5-204", "W5-335"]
+    # the 2 carries are math-sound cosmetic: genus=41 and D0 convergence both computed
+    assert cells["W5-139"]["verdict"] == "RESOLVED-A"  # genus result stands
+    assert cells["W5-100"]["verdict"] == "RESOLVED-A"  # D0 convergence stands

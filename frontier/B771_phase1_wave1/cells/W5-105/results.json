@@ -1,0 +1,95 @@
+{
+  "cell": "W5-105",
+  "target": "sigma-signature (+-1)^6 on six H^1 directions @ E6 geometric point (B466 follow-up)",
+  "verdict": "RESOLVED-B",
+  "geometric_point_char": [
+    "sqrt(-3)/2 + 3/2",
+    "3/2 - sqrt(-3)/2",
+    "3/2 - sqrt(-3)/2"
+  ],
+  "char_rho_o_sigma": [
+    "3/2 - sqrt(-3)/2",
+    "sqrt(-3)/2 + 3/2",
+    "sqrt(-3)/2 + 3/2"
+  ],
+  "galois_conj_char_rho": [
+    "3/2 - sqrt(-3)/2",
+    "sqrt(-3)/2 + 3/2",
+    "sqrt(-3)/2 + 3/2"
+  ],
+  "char_rho_o_sigma2": [
+    "sqrt(-3)/2 + 3/2",
+    "3/2 - sqrt(-3)/2",
+    "3/2 - sqrt(-3)/2"
+  ],
+  "checks": {
+    "geometric_point_is_cusp": true,
+    "sigma_fixes_P": false,
+    "sigma_is_galois_on_P": true,
+    "sigma2_fixes_P": true,
+    "hilbert90_all_trivializable": true,
+    "numeric_seed_valid": true,
+    "numeric_sigma_matches_symbolic": true,
+    "numeric_sigma_is_conjugate_char": true,
+    "chord_theta_odd_same_as_even": true
+  },
+  "hilbert90_samples": [
+    [
+      "r/2 + 1/2",
+      true
+    ],
+    [
+      "1/2 - r/2",
+      true
+    ],
+    [
+      "4*r/7 + 1/7",
+      true
+    ],
+    [
+      "r/2 - 1/2",
+      true
+    ],
+    [
+      "-1",
+      true
+    ]
+  ],
+  "chord_check_blocks": [
+    {
+      "m": 4,
+      "theta": "odd",
+      "chi_a": "12*sqrt(-3) + 67",
+      "chi_sigma_a": "67 - 12*sqrt(-3)",
+      "sigma_char_is_galois_conj": true,
+      "sigma_fixes_block": false
+    },
+    {
+      "m": 5,
+      "theta": "even",
+      "chi_a": "108*sqrt(-3) - 91",
+      "chi_sigma_a": "-108*sqrt(-3) - 91",
+      "sigma_char_is_galois_conj": true,
+      "sigma_fixes_block": false
+    },
+    {
+      "m": 7,
+      "theta": "even",
+      "chi_a": "1256 - 768*sqrt(-3)",
+      "chi_sigma_a": "768*sqrt(-3) + 1256",
+      "sigma_char_is_galois_conj": true,
+      "sigma_fixes_block": false
+    },
+    {
+      "m": 8,
+      "theta": "odd",
+      "chi_a": "4941*sqrt(-3)/2 + 6671/2",
+      "chi_sigma_a": "6671/2 - 4941*sqrt(-3)/2",
+      "sigma_char_is_galois_conj": true,
+      "sigma_fixes_block": false
+    }
+  ],
+  "discriminating_fact": "char(rho o sigma) = (3/2 - sqrt(-3)/2, sqrt(-3)/2 + 3/2, sqrt(-3)/2 + 3/2) = Galois-conjugate of char(rho), and != char(rho) since x != xbar; hence the E6 geometric point is NOT sigma-fixed. A (+-1) signature is defined only at a fixed point of a LINEAR involution. The only linear sigma-map at P is sigma^2 (= monodromy = identity on the 6-dim H^1: trivial +1^6, degenerate); the genuine order-2 sigma-map is anti-linear (Galois) with every per-line sign rescalable to +1 by Hilbert-90. No intrinsic (+-1)^6.",
+  "b772_note": "Target is six per-direction signs, not a summed scalar, so the par=even-odd trace-cancellation trap (B772/W4-304) cannot apply. theta-odd blocks {4,8} computed explicitly via Sym^{2m}(rho_geo): same anti-linear (Galois) behavior as theta-even -- no hidden theta-odd sigma-sign.",
+  "distinct_from": "This is NOT B347's theta-grading (-w0, a genuine LINEAR involution splitting exponents even {1,5,7,11}=F4 vs odd {4,8}). Reporting the sigma-signature AS the theta-parity would be exactly the chord/trace conflation error."
+}

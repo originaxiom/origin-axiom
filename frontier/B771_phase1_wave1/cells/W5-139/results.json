@@ -1,0 +1,48 @@
+{
+ "step1": {
+  "Fmain": "x**3*z**2 - 2*x**2*z**2 - x**2*z + x*z - x + z**2 + z",
+  "Delta": "(x**2 - x - 1)*(5*x**2 - 5*x - 1)",
+  "gF0": 1,
+  "crosscheck_disc3": true
+ },
+ "step2": {
+  "P_validated": true,
+  "n_seeds": 6
+ },
+ "controls": {
+  "control1_x_minus_x0": true,
+  "control2_w": true,
+  "control3_pole": true
+ },
+ "character_consistency": {
+  "all_products_consistent": true,
+  "seven_char_sizes": {
+   "R1=P": 10,
+   "R2=P-4": 14,
+   "R3=S^2-4": 16,
+   "R1R2": 16,
+   "R1R3": 14,
+   "R2R3": 10,
+   "R1R2R3": 0
+  },
+  "cover_connected": true
+ },
+ "step5": {
+  "odd_P": 10,
+  "odd_P4": 14,
+  "odd_S2m4": 16,
+  "B": 20,
+  "genus_from_1_plus_2B": 41
+ },
+ "cover": {
+  "degree": 8,
+  "base_genus": 1,
+  "connected": true
+ },
+ "verdict": "RESOLVED-A",
+ "headline": "m=3 A-polynomial curve genus = 41; metallic spectral-genus sequence completed as (3, 1, 41) -- NOT a decreasing family, the genus GROWS at m=3",
+ "discriminating_fact": "genus(A_3) = 1 + 2B = 41, computed by an actual covering computation (not the failed m=1/m=2 hyperelliptic reader): A_3(M,L)=0 is EXACTLY the connected degree-8 (Z/2)^3 cover C(F0)(sqrt P, sqrt(P-4), sqrt(S^2-4)) of the genus-1 trace-relation curve F0: w^2 = (x^2-x-1)(5x^2-5x-1), where S=L+1/L=kappa and P=tr(t)^2=(M+1/M)^2. Riemann-Hurwitz for this cover forces genus = 1 + 2B (inertia at every ramified point is order 2 -- order 4 is IMPOSSIBLE since two odd R_i force an even product), with B = 20 = the number of points of F0 carrying odd valuation of some R_i, counted here from the ODD supports |odd(P)|=10, |odd(P-4)|=14, |odd(S^2-4)|=16. The order estimator is validated in-cell against THREE control functions of KNOWN divisor (x-x0, w, and 1/(x-x0)); each odd support has EVEN cardinality (divisor degree 0); and -- the decisive independent check -- the branch set of every product character equals the symmetric difference of its generator branch sets (odd(RiRj)=odd(Ri) XOR odd(Rj)), computed by feeding the DISTINCT product function to the same estimator (a buggy counter cannot pass this). Connectivity of the degree-8 cover is forced in-cell by RECONSTRUCTING A_3(M,L) here (not cited) and verifying it is the single irreducible degree-24-in-L / 40-in-M curve. genus=1+2B is necessarily ODD, matching the known m=1 (g=3) and m=2 (g=1). This closes the W4-139 residual (the fiber-product ramification bookkeeping) that B69/2026-07-09 flagged as needing Magma.",
+ "notes": "F0 genus 1 (rigorous, squarefree quartic branch = banked disc3). Cover degree 8 (8-preimage count + A_3 irreducibility). Per-generator double covers F0(sqrt R_i) have genera 6,8,9. B772/even-odd (chord) check: the target P=tr(t)^2 is the EVEN (trace-squared) quantity; its odd 'chord' analog tr(t)=M+1/M is NOT collapsed -- it is exactly the sqrt(P)=R1 cover, so the theta-odd meridian sector is retained, not hidden (the M vs M^2 distinction is the R1 double cover; likewise L-1/L is R3). odd(P.(P-4).(S^2-4))=empty: the product of the three ramification classes is an UNRAMIFIED character (at each ramified point exactly TWO R_i are odd), a genuine feature not a defect. Lower bound genus>=1 reconfirmed. No SM values; character-variety geometry only; nothing to CLAIMS.md.",
+ "genus": 41,
+ "runtime_seconds": 66.49112200737
+}

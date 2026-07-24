@@ -1,0 +1,29 @@
+[extract] ladder N=900..43200 (48 pts), dps=1300
+  r_1 = 11/24  (trusted ~125d, den~1e2, resid 2.52e-129, accept=True)
+  r_2 = 697/1152  (trusted ~120d, den~1e4, resid 1.07e-123, accept=True)
+  r_3 = 724351/414720  (trusted ~115d, den~1e6, resid 2.95e-118, accept=True)
+  r_4 = 278392949/39813120  (trusted ~110d, den~1e8, resid 5.93e-113, accept=True)
+  r_5 = 244284791741/6688604160  (trusted ~106d, den~1e10, resid 9.25e-108, accept=True)
+  r_6 = 1140363907117019/4815794995200  (trusted ~101d, den~1e13, resid 1.17e-102, accept=True)
+  r_7 = 212114205337147471/115579079884800  (trusted ~97d, den~1e15, resid 1.22e-97, accept=True)
+  r_8 = 367362844229968131557/22191183337881600  (trusted ~93d, den~1e17, resid 1.09e-92, accept=True)
+  r_9: trusted ~89d, NOT recognised -- extraction stops
+[extract] 8 coefficients recognised; r1,r2 match GSWZ eq (1).
+  n=2: coeff=-1/27  v3=3  pred=2  d=1  [eq(2) -1/27: MATCH]
+  n=3: coeff=1/27  v3=3  pred=4  d=-1  [eq(2) 1/27: MATCH]
+  n=4: coeff=-4/243  v3=5  pred=5  d=0  [eq(2) -4/243: MATCH]
+  n=5: coeff=-1/243  v3=5  pred=6  d=-1  [eq(2) -1/243: MATCH]
+  n=6: coeff=-25/19683  v3=9  pred=8  d=1
+  n=7: coeff=214/6561  v3=8  pred=9  d=-1
+  n=8: coeff=-12842/531441  v3=12  pred=10  d=2
+  n=9: coeff=-47749/531441  v3=12  pred=13  d=-1
+
+========================================================================
+VERDICT: RESOLVED-B
+partial d(n) computed n=2..9 (|d|<=2, exact at n=[4]); EXTERNAL boundary = full GSWZ 600-term tower (n=100 v3=146 cited, unpublished scripts)
+defect pattern d(n) [in-cell, n=2..9]: d(2)=+1, d(3)=-1, d(4)=+0, d(5)=-1, d(6)=+1, d(7)=-1, d(8)=+2, d(9)=-1
+  |d|<= 2; exact (d=0) only at n=[4]
+EXTERNAL (cited, full tower): d(100) = -2 (v3=146, pred=148)
+checks: pure3=True  eq2_match=True  odd_h_vanishes=True
+B772 parity: theta-odd (Phi/Phi) denominator primes = [2, 3, 5, 7] (non-3 present: True)
+========================================================================

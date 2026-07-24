@@ -1,0 +1,98 @@
+{
+  "cell": "W5-180",
+  "target": "B406 31-collision: identity or base-rate?",
+  "curve": "15a1: y^2+xy+y=x^3+x^2-10x-10 (conductor 15)",
+  "field": "Q(sqrt(-15)) disc -15, h=2",
+  "sanity_checks_pass": true,
+  "seedA": {
+    "bound": 200,
+    "supersingular": [
+      7,
+      23,
+      31,
+      79,
+      167
+    ],
+    "classified": {
+      "7": "inert",
+      "23": "split-nonprincipal",
+      "31": "split-principal",
+      "79": "split-principal",
+      "167": "split-nonprincipal"
+    },
+    "classes_present": [
+      "inert",
+      "split-nonprincipal",
+      "split-principal"
+    ],
+    "cross_check_vs_b405": true,
+    "n_total_primes": 43,
+    "n_principal": 9,
+    "n_nonprincipal": 11,
+    "n_inert": 23,
+    "density_principal": 0.20930232558139536
+  },
+  "seedB": {
+    "bound": 3000,
+    "supersingular": [
+      7,
+      23,
+      31,
+      79,
+      167,
+      431,
+      479,
+      983,
+      1303,
+      1607,
+      1871,
+      2351
+    ],
+    "classified": {
+      "7": "inert",
+      "23": "split-nonprincipal",
+      "31": "split-principal",
+      "79": "split-principal",
+      "167": "split-nonprincipal",
+      "431": "inert",
+      "479": "inert",
+      "983": "split-nonprincipal",
+      "1303": "inert",
+      "1607": "split-nonprincipal",
+      "1871": "inert",
+      "2351": "inert"
+    },
+    "classes_present": [
+      "inert",
+      "split-nonprincipal",
+      "split-principal"
+    ],
+    "cross_check_vs_b405": null,
+    "n_total_primes": 427,
+    "n_principal": 98,
+    "n_nonprincipal": 111,
+    "n_inert": 218,
+    "density_principal": 0.22950819672131148
+  },
+  "e20_margin_seedA": {
+    "k": 5,
+    "density_principal": 0.20930232558139536,
+    "observed_principal": 2,
+    "expected_principal": 1.0465116279069768,
+    "p_value_ge_observed": 0.2818742798330297
+  },
+  "e20_margin_seedB": {
+    "k": 12,
+    "density_principal": 0.22950819672131148,
+    "observed_principal": 2,
+    "expected_principal": 2.7540983606557377,
+    "p_value_ge_observed": 0.799757214899101
+  },
+  "reasons": [
+    "cross-check vs B405 sentinels.json (bound=200): MATCH",
+    "seed A splitting-classes hit by supersingular primes: ['inert', 'split-nonprincipal', 'split-principal']",
+    "seed B splitting-classes hit by supersingular primes: ['inert', 'split-nonprincipal', 'split-principal']",
+    "supersingularity of 15a1 hits ALL THREE splitting classes (inert, split-nonprincipal, split-principal) at both bounds -- no single class-group identity can underlie it; the 31/79 overlap with the split-principal list is consistent with the measured background density (E20 base-rate, not an anomaly)"
+  ],
+  "verdict": "RESOLVED-B"
+}
