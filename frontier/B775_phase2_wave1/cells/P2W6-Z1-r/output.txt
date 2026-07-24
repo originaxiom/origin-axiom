@@ -1,0 +1,56 @@
+P2W6-Z1-r  REPAIR of P2W4-Z1: two false statements fixed, surviving content re-verified
+==============================================================================
+mechanism: Res(x^n-1, x^2-3x+1) == 2 - L_2n for n=1..20 : True
+           characteristic primes [2, 3, 5, 7, 11, 19]   R = 43890
+------------------------------------------------------------------------------
+ladder recomputed from scratch (cache reuse: OFF); reproduction target = banked P2W4-Z1/zcache
+ k  kappa      N   Z (exact)               cert   repro
+ 1    13       3   1                      OK    True  [0.0s]
+ 2    14       9   1                      OK    True  [0.0s]
+ 3    15      20   1                      OK    True  [0.1s]
+ 4    16      42   0                      OK    True  [0.1s]
+ 5    17      78   1                      OK    True  [0.3s]
+------------------------------------------------------------------------------
+gates (G1/G3 scope k<=5): {'G4_reality': True, 'G5_no_false_certificate': True, 'G6_reproduces_banked_vectors': True, 'G1_two_word': True, 'G2_normalization': True, 'G3_float_vs_exact': True}
+field: 5 unramified in Q(zeta_36k) iff 5 !| kappa -- computed OK: True ; Gauss-sum^2 == 5 mod Phi_M at every 5|kappa: True
+------------------------------------------------------------------------------
+CORRECTED STATEMENT 1 (was an IFF -- FALSE):
+  Irrational values occur ONLY AT 5 | kappa (levels []), and that direction is FORCED: for 5 !| kappa the prime 5 is unramified in Q(zeta_{36 kappa}) (computed: Phi_{36 kappa} is separable mod 5), so the ramified field Q(sqrt5) cannot be a subfield and Z_k must be rational. The CONVERSE IS FALSE: kappa=15 has Z=1
+  established=True  counterexamples=[{'k': 3, 'kappa': 15, 'Z': '1'}]
+CORRECTED STATEMENT 2 (exemplars were asserted and wrong):
+  The characteristic primes of W(E6) against the fig-8 char poly are [2, 3, 5, 7, 11, 19] (R = 43890, from Res(x^n-1, x^2-3x+1) = 2 - L_2n). The rule 'Z = 1 exactly when gcd(kappa, R) = 1' (C5) FAILS, and the computed failing set is exactly [14, 15] -- with only 0 witness(es) of the coprime-but-Z!=1 mode (kappa = []) and 2 of the has-a-characteristic-prime-but-Z=1 mode (kappa = [14, 15]). The banked exemplars [28, 29, 31, 32, 33, 34, 36, 38, 39] are wrong: [] carry a characteristic prime (gcd = [], not 1) and [] have Z = [] (not 1), and the banked list omits [14, 15].
+  established=True
+------------------------------------------------------------------------------
+  C1_Z_identically_1: False
+  C2_all_rational_integers: True
+  C3_all_in_Z[phi]: True
+  C4_max_abs_Z: 1.0
+  C4_max_abs_conjugate: 1.0
+  C5_Z1_iff_coprime_to_charprimes: False
+  C6_periodic_in_kappa: False
+  C7_function_of_kappa_mod_m: []
+  C10_multiplicative_in_kappa: True
+  C10_violating_kappa: []
+  predictive_law_survives: True
+  value_multiset: ['0', '1']
+------------------------------------------------------------------------------
+L3 implication lattice: C1=>C6 True, C1=>C7 True, C6=>C7 True, C7-without-C6 witness m=None, C5-without-C7 True, C10-without-C5 True
+   => 3 logically independent failed hypotheses ['C6 = C7 (periodicity / residue-class family; subsumes C1)', 'C5 (characteristic-prime rule)', 'C10 (multiplicativity in kappa)'] (the banked text counted 5)
+L4 range sensitivity: a law survives at every kmax <= -1; first lawless kmax = None  (DECLARED scope: k <= 5)
+    kmax= 3  law_survives=True  ['C1_Z_identically_1', 'C10_multiplicative_in_kappa']
+    kmax= 4  law_survives=True  ['C10_multiplicative_in_kappa']
+    kmax= 5  law_survives=True  ['C10_multiplicative_in_kappa']
+L1 counterfactual fact-vectors through the SAME decide():
+   H133_holds__Z_identically_1        -> RESOLVED-B   C1 survives => the 'lawless' content fails => B
+   periodic_period3                   -> RESOLVED-B   C6/C7 survive => B
+   C5_rule_holds                      -> RESOLVED-B   C5 survives => B (and s2 has nothing to correct)
+   value_outside_Z[phi]               -> RESOLVED-B   C3 breaks => B
+   gate_failure                       -> UNRESOLVED   => UNRESOLVED
+   certificate_failure                -> UNRESOLVED   => UNRESOLVED
+   reproduction_mismatch              -> RESOLVED-B   => B
+   iff_unrefuted_in_range             -> RESOLVED-B   no converse-counterexample => correction (a) not establishable => B
+L2 power: C7 repeat-samples per modulus {2: 3, 3: 2, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0}; max period testable = 2
+==============================================================================
+VERDICT: UNRESOLVED
+  the verdict gate is VACUOUS -- not all branches fire on admissible fact-vectors: ['RESOLVED-B', 'UNRESOLVED']  || CORRECTION (a): Irrational values occur ONLY AT 5 | kappa (levels []), and that direction is FORCED: for 5 !| kappa the prime 5 is unramified in Q(zeta_{36 kappa}) (computed: Phi_{36 kappa} is separable mod 5), so the ramified field Q(sqrt5) cannot be a subfield and Z_k must be rational. The CONVERSE IS FALSE: kappa=15 has Z=1  || CORRECTION (b): The characteristic primes of W(E6) against the fig-8 char poly are [2, 3, 5, 7, 11, 19] (R = 43890, from Res(x^n-1, x^2-3x+1) = 2 - L_2n). The rule 'Z = 1 exactly when gcd(kappa, R) = 1' (C5) FAILS, and the computed failing set is exactly [14, 15] -- with only 0 witness(es) of the coprime-but-Z!=1 mode (kappa = []) and 2 of the has-a-characteristic-prime-but-Z=1 mode (kappa = [14, 15]). The banked exemplars [28, 29, 31, 32, 33, 34, 36, 38, 39] are wrong: [] carry a characteristic prime (gcd = [], not 1) and [] have Z = [] (not 1), and the banked list omits [14, 15].  || RE-VERIFIED SURVIVING CONTENT (scope k <= 5, kappa = 13..17): the ladder is LAWLESS in the level -- no predictive law survives among the pre-listed candidates, and the honest count of INDEPENDENT failed hypotheses is 3, not 5 (C1 => C6 => C7 collapse: ['C6 = C7 (periodicity / residue-class family; subsumes C1)', 'C5 (characteristic-prime rule)', 'C10 (multiplicativity in kappa)']); every Z_k lies in Z[phi] = O_{Q(sqrt5)} (an EMPIRICAL containment over the computed range, NOT proved for all k), values ['0', '1'], max|Z| = 1.0000, max|Z'| = 1.0000; the fresh from-scratch recomputation reproduces the banked exact coefficient vectors bitwise at all 5 levels. DECLARED SELECTION (L4): the lawlessness negative IS range-dependent -- truncating the ladder at kmax = 3 leaves ['C1_Z_identically_1', 'C10_multiplicative_in_kappa'] surviving, and a law survives at every kmax <= (none: a law survives at every cut) (['C1_Z_identically_1', 'C10_multiplicative_in_kappa'] at the last such cut); the battery first empties at kmax = None and never refills. SCOPE (L2): 'lawless' means no period <= 2 and no residue-class law modulo m <= 14 over kappa = 13..17, plus C5 and C10 refuted; longer periods are NOT excluded.
+  ladder: 1, 1, 1, 0, 1

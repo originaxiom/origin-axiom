@@ -1,31 +1,38 @@
-"""C23 -- the T1-mover no-go: the realized subgroup of Out(V4)=S3 is {identity}."""
+"""C23 -- the T1-mover no-go. Locks on FALSIFIABLE computed facts (not entailed restatements).
+
+NOTE (self-correction 2026-07-24): the first version of this lock asserted "distinct
+signatures => only the identity permutation preserves them", which is ENTAILED by
+distinctness and cannot fail — an L1/MB12 vacuity, the exact rule cc had just made binding
+on the Wave-6 cells. Replaced with the computed geometric facts the wall actually rests on.
+"""
 import itertools
 import json
 import pathlib
 
+import sympy as sp
+
 ARC = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B775_phase2_wave1"
 
 
-def test_V4_abelian_so_inner_action_trivial():
-    # C21's premise, re-locked: V4 abelian => conjugation acts trivially => a mover must be OUTER
+def test_geometric_pair_is_non_real_so_c_has_a_free_orbit():
+    # THE load-bearing fact (can fail: a real curve, or a c fixing rho, breaks it)
+    y, x = sp.symbols("y x")
+    curve = y**2 - (x**2 - 1) * y + (x**2 - 1)      # the B711 character-variety curve
+    rho, rhobar = sp.solve(curve.subs(x, 2), y)
+    assert sp.simplify(sp.im(sp.nsimplify(rho))) != 0        # rho_geo is NON-real
+    assert sp.simplify(sp.conjugate(rho) - rho) != 0          # c MOVES it
+    assert sp.simplify(sp.conjugate(rho) - rhobar) == 0       # c SWAPS the pair (free orbit)
+    # and the pair is Galois-conjugate over Q (symmetric functions rational)
+    assert sp.simplify(rho + rhobar).is_rational and sp.simplify(rho * rhobar).is_rational
+
+
+def test_V4_abelian_so_any_mover_must_be_outer():
+    # C21's premise, re-locked (can fail for a non-abelian group)
     V4 = list(itertools.product([0, 1], repeat=2))
-    mul = lambda a, b: tuple((x + y) % 2 for x, y in zip(a, b))
-    inv = lambda a: a                      # every element is its own inverse in V4
+    mul = lambda a, b: tuple((p + q) % 2 for p, q in zip(a, b))
     for g in V4:
         for v in V4:
-            assert mul(mul(g, v), inv(g)) == v      # conjugation trivial
-
-
-def test_three_legs_have_distinct_signatures_leaving_only_identity():
-    # the two conjugation-robust invariants: (orientation holo/antiholo, pair-orbit fix/swap)
-    sig = {"c": (1, 0), "j2": (0, 0), "tau": (1, 1)}   # antiholo=1, swap=0/fix=1 per the cell
-    assert len(set(sig.values())) == 3                  # all three DISTINCT
-    # a nontrivial S3 element must permute the legs while preserving both invariants;
-    # distinct signatures => only the identity permutation can
-    import itertools as it
-    legs = list(sig)
-    survivors = [p for p in it.permutations(legs) if all(sig[a] == sig[b] for a, b in zip(legs, p))]
-    assert survivors == [tuple(legs)]                   # identity only
+            assert mul(mul(g, v), g) == v          # conjugation trivial => inner action trivial
 
 
 def test_c23_banked_from_wave1():

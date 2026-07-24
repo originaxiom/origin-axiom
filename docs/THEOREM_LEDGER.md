@@ -186,11 +186,17 @@ Out(V₄)=S₃ realized by the object's native operations is exactly **{identity
 three closing legs carry DISTINCT conjugation-robust signatures under two invariants —
 the orientation homomorphism (holo/antiholo) and the geometric-pair orbit type
 (fix/swap {ρ_geo, ρ̄}): c=(antiholo,swap), j₂=c·θ=(holo,swap), τ=θ=(antiholo,fix) —
-which leaves only the identity in S₃; and the sole permutation surviving the orientation
-invariant (the transposition (c,τ)) is refuted independently, because every object-native
-operation stabilizes {ρ_geo, ρ̄} while c(ρ_geo)=ρ̄ is a free orbit. **The T1 3-frame torsor
-choice is genuinely unbroken: any mover lies outside the object's native symmetry group.**
-— B775 Wave 1 (P2-T1MOVER). Lock: `tests/test_b783_c23.py`.
+which leaves only the identity in S₃. **Scope stated honestly (per the arc's own verifier):
+the universal spine is the orientation homomorphism I1 (which needs only that the operation
+is holo/antiholo) PLUS the explicit fixed-point argument — c(ρ_geo)=ρ̄ is a free orbit
+(ρ_geo is non-real, computed) while every object-native operation stabilizes {ρ_geo,ρ̄}.
+The pair-orbit invariant I2 and that fixed-point argument SHARE the stabilization premise
+and are NOT independent of each other; the enumerated object-native list (D4 via Mostow,
+γ₅ field-disjoint, γ₃≡c, V₄ abelian) establishes membership in the holo/antiholo
+pair-stabilizing class rather than adding a third argument.** Within that class the wall is
+proven: **the T1 3-frame torsor choice is unbroken by any object-native operation; a mover
+must lie outside the object's native symmetry group.** — B775 Wave 1 (P2-T1MOVER). Lock:
+`tests/test_b783_c23.py`.
 
 ---
 

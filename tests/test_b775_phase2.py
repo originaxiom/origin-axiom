@@ -103,24 +103,108 @@ def test_p2w3_wave3_shape():
 
 
 def test_p2w4_z1_values_in_golden_ring():
-    # Z1: every observed Z_k is an algebraic integer in Z[phi]; values read from the banked ladder
+    # Z1: every value of the ladder is an algebraic integer in Z[phi].  The values are NOT
+    # hardcoded any more (P2W6-Z1-r repair): they are read from the recomputed ladder, whose
+    # low-k entries are themselves recomputed from scratch by the locks below.
     x = sp.Symbol("x")
     d = json.loads((ARC / "wave4_results.json").read_text())
     z1 = next(c for c in d["cells"] if c["id"] == "P2W4-Z1")
     assert z1["verdict"] == "RESOLVED-B"        # the verdict is correct and reproduced
     assert z1["upheld"] is False                 # carried: two false statements in the claim text
-    for v in [sp.Integer(-2), sp.Integer(0), -sp.sqrt(5), sp.Integer(1), sp.Integer(2), 2 - sp.sqrt(5)]:
+    r = json.loads((ARC / "cells" / "P2W6-Z1-r" / "results.json").read_text())
+    vals = sorted({e["Z"] for e in r["ladder"]})
+    assert len(vals) >= 4
+    for s in vals:
+        v = sp.sympify(s.replace("sqrt5", "sqrt(5)"))
         coeffs = sp.Poly(sp.minimal_polynomial(v, x), x).all_coeffs()
         assert coeffs[0] == 1 and all(c.is_integer for c in coeffs)   # monic integer => in Z[phi]
+        assert sp.degree(sp.minimal_polynomial(v, x), x) <= 2         # degree <= 2 over Q
 
 
-def test_p2w4_z1_irrationality_is_one_directional():
-    # THE CORRECTION: irrational => 5|kappa is forced; the CONVERSE FAILS (kappa=15,20,25 rational).
-    # cc originally wrote an iff -- an E4 (necessary-read-as-sufficient) error, corrected.
-    kappa_div5_with_rational_Z = [15, 20, 25]
-    assert all(k % 5 == 0 for k in kappa_div5_with_rational_Z)   # divisible by 5...
-    # ...yet their Z is rational -> the iff is false; only one direction holds
-    assert len(kappa_div5_with_rational_Z) > 0
+def _z1r():
+    """load the repair cell's exact pipeline (module import is ~1 s: E6 Weyl group)."""
+    import importlib.util
+    p = ARC / "cells" / "P2W6-Z1-r" / "compute.py"
+    spec = importlib.util.spec_from_file_location("p2w6_z1r", p)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+# ---- Wave 6 locks (repairs) ---------------------------------------------------
+
+
+def test_p2w6_z1r_recomputes_ladder_entries():
+    # RECOMPUTING lock (replaces the six hardcoded values): Z_k is recomputed FROM SCRATCH
+    # through the exact cyclotomic pipeline and certified mod Phi_{36 kappa}.
+    from fractions import Fraction
+    m = _z1r()
+    for k, want in ((1, (1, 0)), (3, (1, 0)), (4, (0, 0))):
+        N, kap, M, coeff = m.exact_Z_vector(k, read_cache=False, write_cache=False)
+        z, p, q, st = m.identify(coeff, M, kap)
+        assert st == "exact" and (p, q) == (Fraction(want[0]), Fraction(want[1]))
+        assert m.certify(coeff, M, kap, p, q)                 # the certificate holds ...
+        assert not m.certify(coeff, M, kap, p + 1, q)         # ... and is falsifiable
+        assert m.in_Zphi(p, q)                                # value lies in Z[phi]
+    # k=4 is the H133 killer: the coefficient vector is identically zero
+    _, _, _, c4 = m.exact_Z_vector(4, read_cache=False, write_cache=False)
+    assert not c4.any()
+
+
+def test_p2w6_z1r_irrationality_is_one_directional():
+    # CORRECTION (a): "irrational EXACTLY WHEN 5|kappa" is FALSE.  Recomputed counterexample:
+    # k=3 has kappa=15 (divisible by 5) and Z=1 -- RATIONAL -- even though sqrt5 DOES live in
+    # Q(zeta_540) (Gauss sum g with g^2 = 5, verified exactly mod Phi_540).
+    from fractions import Fraction
+    m = _z1r()
+    N, kap, M, coeff = m.exact_Z_vector(3, read_cache=False, write_cache=False)
+    assert kap == 15 and kap % 5 == 0
+    z, p, q, st = m.identify(coeff, M, kap)
+    assert st == "exact" and q == 0 and p == Fraction(1)      # rational, so the iff fails
+    ram = m.ramification_facts([15, 16])
+    assert ram["gausssum_ok"]          # sqrt5 IS available at kappa=15 -> not a field obstruction
+    assert ram["unramified_ok"]        # and 5 is unramified at kappa=16 -> the other direction
+    # the forced direction: 5 unramified in Q(zeta_{36 kappa}) whenever 5 does not divide kappa
+    row = {r["kappa"]: r for r in ram["rows"]}
+    assert row[16]["5_unramified_in_Q(zeta_36k)"] is True
+    assert row[15]["5_unramified_in_Q(zeta_36k)"] is False
+
+
+def test_p2w6_z1r_characteristic_prime_exemplars():
+    # CORRECTION (b): the banked exemplars are wrong -- kappa=32,34,39 DO carry a
+    # characteristic prime.  R is RECOMPUTED from W(E6), not quoted.
+    import math
+    m = _z1r()
+    import numpy as np
+    Wi = m.W.astype(np.int64)
+    dets = np.rint(np.linalg.det((Wi @ Wi - 3 * Wi
+                                  + np.eye(6, dtype=np.int64)[None, :, :]).astype(float)))
+    prim = sorted({p for d in {abs(int(v)) for v in dets.astype(np.int64)} if d
+                   for p in sp.factorint(d)})
+    assert prim == [2, 3, 5, 7, 11, 19]
+    R = 1
+    for p in prim:
+        R *= p
+    assert R == 43890
+    assert [math.gcd(k, R) for k in (32, 34, 39)] == [2, 2, 3]   # NOT coprime -> banked text wrong
+    # and the computed C5-failing set, rebuilt from the recomputed ladder
+    r = json.loads((ARC / "cells" / "P2W6-Z1-r" / "results.json").read_text())
+    fail = [e["kappa"] for e in r["ladder"]
+            if (e["Z"] == "1") != (math.gcd(e["kappa"], R) == 1)]
+    assert fail == [14, 15, 18, 20, 21, 28, 29, 31]
+    assert [k for k in fail if math.gcd(k, R) == 1] == [29, 31]  # only two of that mode
+
+
+def test_p2w6_z1r_verdict_gate_is_not_vacuous():
+    # every branch of the sealed decision function fires on an admissible fact-vector
+    m = _z1r()
+    r = json.loads((ARC / "cells" / "P2W6-Z1-r" / "results.json").read_text())
+    assert r["verdict"] == "RESOLVED-A"
+    fired = {c["verdict"] for c in r["L1_counterfactuals"]} | {r["verdict"]}
+    assert fired == {"RESOLVED-A", "RESOLVED-B", "UNRESOLVED"}
+    assert r["gates"]["G6_reproduces_banked_vectors"] is True   # bitwise repro of P2W4-Z1
+    assert r["L3_implication_lattice"]["independent_count"] == 3   # not the banked 5
+    assert r["L4_range_sensitivity"]["first_kmax_with_no_surviving_law"] == 14
 
 
 def test_p2w4_wave4_shape():

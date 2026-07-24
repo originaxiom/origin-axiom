@@ -7968,3 +7968,20 @@ chain correction — the spine never carried it as forced, so that repricing is 
 Judiciousness noted: the other Phase-2 theorems (heredity, clock law, Landsberg–Schaar,
 all-chirality, L53, L56) are supporting structure and stay in the arcs — the chain is the
 forced core, not a catalogue.
+
+## 2026-07-24 — C23 CORRECTED on the owner's challenge ("u sure"): two cc defects self-caught
+The owner challenged the C23 minting. Both concerns were real:
+(1) **My C23 lock was VACUOUS** — it asserted "distinct signatures ⟹ only the identity
+permutation preserves them", which is ENTAILED by distinctness and cannot fail. That is an
+L1/MB12 violation, written in the same session I made L1 binding on the Wave-6 cells.
+Replaced with falsifiable computed facts (ρ_geo non-real ⟹ c has a free orbit; the pair is
+Galois-conjugate; V₄ abelian ⟹ inner action trivial) — each of which could come out otherwise.
+(2) **My C23 statement overclaimed independence** — I wrote that the surviving transposition
+is "refuted independently" while stating the shared stabilization premise in the same
+sentence. The arc's own verifier had already flagged that I2 and the fixed-point argument
+are NOT independent. This is the SAME independence-collapse pattern I had just carried
+P2W5-GATEB for. Corrected: the universal spine is I1 (needs only holo/antiholo) + the
+explicit fixed-point argument; the object-native enumeration establishes class membership,
+not a third reason. The VERDICT stands (the verifier called the caveat non-material) — the
+wall is proven within the holo/antiholo pair-stabilizing class, and that scope is now stated
+in the chain rather than elided. Both instances logged in the ERROR_LEDGER as cc's own.
