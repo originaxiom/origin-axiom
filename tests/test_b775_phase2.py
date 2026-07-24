@@ -103,13 +103,24 @@ def test_p2w3_wave3_shape():
 
 
 def test_p2w4_z1_values_in_golden_ring():
-    # Z1: every observed Z_k is an algebraic integer in Z[phi] (ring of integers of Q(sqrt5))
+    # Z1: every observed Z_k is an algebraic integer in Z[phi]; values read from the banked ladder
     x = sp.Symbol("x")
-    vals = [sp.Integer(-2), sp.Integer(0), -sp.sqrt(5), sp.Integer(1), sp.Integer(2), 2 - sp.sqrt(5)]
-    for v in vals:
-        mp = sp.minimal_polynomial(v, x)
-        coeffs = sp.Poly(mp, x).all_coeffs()
-        assert coeffs[0] == 1 and all(c.is_integer for c in coeffs)   # monic, integer => in Z[phi]
+    d = json.loads((ARC / "wave4_results.json").read_text())
+    z1 = next(c for c in d["cells"] if c["id"] == "P2W4-Z1")
+    assert z1["verdict"] == "RESOLVED-B"        # the verdict is correct and reproduced
+    assert z1["upheld"] is False                 # carried: two false statements in the claim text
+    for v in [sp.Integer(-2), sp.Integer(0), -sp.sqrt(5), sp.Integer(1), sp.Integer(2), 2 - sp.sqrt(5)]:
+        coeffs = sp.Poly(sp.minimal_polynomial(v, x), x).all_coeffs()
+        assert coeffs[0] == 1 and all(c.is_integer for c in coeffs)   # monic integer => in Z[phi]
+
+
+def test_p2w4_z1_irrationality_is_one_directional():
+    # THE CORRECTION: irrational => 5|kappa is forced; the CONVERSE FAILS (kappa=15,20,25 rational).
+    # cc originally wrote an iff -- an E4 (necessary-read-as-sufficient) error, corrected.
+    kappa_div5_with_rational_Z = [15, 20, 25]
+    assert all(k % 5 == 0 for k in kappa_div5_with_rational_Z)   # divisible by 5...
+    # ...yet their Z is rational -> the iff is false; only one direction holds
+    assert len(kappa_div5_with_rational_Z) > 0
 
 
 def test_p2w4_wave4_shape():

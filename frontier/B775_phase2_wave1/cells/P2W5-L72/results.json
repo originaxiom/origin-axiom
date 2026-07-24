@@ -1,0 +1,284 @@
+{
+ "A_modular_data": {
+  "1": {
+   "rank": 3,
+   "c": "6",
+   "weights": [
+    "000000",
+    "000001",
+    "100000"
+   ],
+   "h": [
+    "0",
+    "2/3",
+    "2/3"
+   ],
+   "qdim": [
+    "1.0",
+    "1.0",
+    "1.0"
+   ],
+   "multiplicity_free": true,
+   "checks": {
+    "unitary_err": "2.3e-41",
+    "S2_is_permutation": true,
+    "ST3_err": "3.13e-41",
+    "verlinde_int_err": "5.97e-41",
+    "N_min": 0,
+    "N_max": 1
+   }
+  },
+  "2": {
+   "rank": 9,
+   "c": "78/7",
+   "weights": [
+    "000000",
+    "000001",
+    "000002",
+    "000010",
+    "001000",
+    "010000",
+    "100000",
+    "100001",
+    "200000"
+   ],
+   "h": [
+    "0",
+    "13/21",
+    "4/3",
+    "25/21",
+    "25/21",
+    "6/7",
+    "13/21",
+    "9/7",
+    "4/3"
+   ],
+   "qdim": [
+    "1.0",
+    "2.24697960372",
+    "1.0",
+    "1.8019377358",
+    "1.8019377358",
+    "1.8019377358",
+    "2.24697960372",
+    "2.24697960372",
+    "1.0"
+   ],
+   "multiplicity_free": true,
+   "checks": {
+    "unitary_err": "3.44e-41",
+    "S2_is_permutation": true,
+    "ST3_err": "1.75e-40",
+    "verlinde_int_err": "4.79e-41",
+    "N_min": 0,
+    "N_max": 1
+   }
+  }
+ },
+ "A_modular_data_validated": true,
+ "B_level1": {
+  "pointed": true,
+  "fusion_group": "Z/3",
+  "fusion_ok": true,
+  "h_27": "2/3",
+  "c": "6",
+  "solutions_p_r": [
+   [
+    0,
+    6,
+    "Sbar"
+   ]
+  ],
+  "n_F_symbols": 27,
+  "n_R_symbols": 9,
+  "closed_form": "F^{abc}=exp(2pi i p a(b+c-[b+c]_3)/9), R^{ab}=exp(2pi i r ab/9)",
+  "verified": true
+ },
+ "C_level2": {
+  "rank": 9,
+  "simple_currents": [
+   "000000",
+   "000002",
+   "200000"
+  ],
+  "pointed_subcat_modular": true,
+  "det_S_pointed": "0.035282801",
+  "centralizer": [
+   "000000",
+   "010000",
+   "100001"
+  ],
+  "centralizer_qdim": [
+   "1.0",
+   "1.8019377358",
+   "2.24697960372"
+  ],
+  "centralizer_h": [
+   "0",
+   "6/7",
+   "9/7"
+  ],
+  "deligne_factorization": {
+   "bijection_ok": true,
+   "S_err": "2.09e-41",
+   "T_err": "1.38e-40",
+   "N_err": 0
+  },
+  "pointed_factor": {
+   "theta_J": "exp(2pi i * 4/3)",
+   "solutions_p_r": [
+    [
+     0,
+     3,
+     "Sbar"
+    ]
+   ]
+  },
+  "rank3_factor": {
+   "identified_as": "SU(2)_5 even part (integer spins), q = exp(i pi/7)",
+   "pentagon_worst": "3.64e-40",
+   "pentagon_eqs": 580,
+   "hexagon_worst": "2.83e-40",
+   "hopf_S_err": "4.41e-41",
+   "twist_err": "4.46e-41",
+   "n_F_symbols": 98
+  },
+  "n_F_symbols_level2": 2646,
+  "verified": true
+ },
+ "D_object": {
+  "level1_knot_invariant": "framing phase only (pointed) -> normalized 1 for every knot",
+  "level2_colored_invariants_of_4_1": {
+   "N=1 (spin 0)": "(1.0 + 0.0j)",
+   "N=3 (spin 1)": "(2.0881460000204 + 3.4999854577467e-41j)",
+   "N=5 (spin 2)": "(-0.6920214716301 - 7.0061431920628e-41j)"
+  },
+  "habiro_control_err": "0.0",
+  "adjoint_color_note": "the E6 adjoint 78 sits at spin 2 (N=5) of the rank-3 factor"
+ },
+ "E_principal_index": {
+  "index": "156",
+  "control_su3": "4",
+  "closed_form": "156",
+  "ok": true
+ },
+ "F_CS_basepoint": {
+  "snappy": {
+   "4_1": {
+    "vol": "2.02988321281931",
+    "cs": "8.88178e-16"
+   },
+   "m004": {
+    "vol": "2.02988321281931",
+    "cs": "-1.33227e-15"
+   }
+  },
+  "CS_SL2_is_zero": true,
+  "CS_E6_principal": "0"
+ },
+ "G_deformation": {
+  "per_exponent": {
+   "1": {
+    "dim": 3,
+    "rel_ok": false,
+    "h0": 0,
+    "h1": 0,
+    "periph_inv": 1,
+    "periph_h1": 2,
+    "agree_across_primes": true
+   },
+   "4": {
+    "dim": 9,
+    "rel_ok": false,
+    "h0": 0,
+    "h1": 0,
+    "periph_inv": 1,
+    "periph_h1": 2,
+    "agree_across_primes": true
+   },
+   "5": {
+    "dim": 11,
+    "rel_ok": false,
+    "h0": 0,
+    "h1": 0,
+    "periph_inv": 1,
+    "periph_h1": 2,
+    "agree_across_primes": true
+   },
+   "7": {
+    "dim": 15,
+    "rel_ok": false,
+    "h0": 0,
+    "h1": 0,
+    "periph_inv": 1,
+    "periph_h1": 2,
+    "agree_across_primes": true
+   },
+   "8": {
+    "dim": 17,
+    "rel_ok": false,
+    "h0": 0,
+    "h1": 0,
+    "periph_inv": 1,
+    "periph_h1": 2,
+    "agree_across_primes": true
+   },
+   "11": {
+    "dim": 23,
+    "rel_ok": false,
+    "h0": 0,
+    "h1": 0,
+    "periph_inv": 1,
+    "periph_h1": 2,
+    "agree_across_primes": true
+   }
+  },
+  "total_h1": 0,
+  "rank_E6": 6,
+  "peripheral_total": 12,
+  "theta_odd_exponents": [
+   4,
+   8
+  ],
+  "lagrangian": false,
+  "validated": false
+ },
+ "H_CS_theta_even": {
+  "samples": {
+   "error": "The Chern-Simons invariant isn't currently known."
+  },
+  "computable": false,
+  "relation": "CS_E6principal = index * CS_SL2 = 156 * CS_SL2"
+ },
+ "I_wall": {
+  "theta_odd_not_SL2_induced": true,
+  "smallest_faithful_E6_rep": 27,
+  "index_of_27": "6",
+  "ptolemy_coords_per_tetrahedron": 4056,
+  "tetrahedra_of_4_1": 2,
+  "ptolemy_variables": 8112,
+  "wall_type": "EXTERNAL",
+  "computed_obstruction": true
+ },
+ "verdict": "UNRESOLVED",
+ "gates": {
+  "modular_data": true,
+  "level1_6j": true,
+  "level2_6j": true,
+  "A2_6j_both_levels": true,
+  "A3_CS_theta_odd": false,
+  "W_computed_wall": false,
+  "index_ok": true,
+  "deformation_ok": false,
+  "theta_odd_directions_exist": false
+ },
+ "headline": "E6 6j COMPUTED at both levels: level 1 is pointed (Z/3, theta_27 = exp(4 pi i/3)) with a closed-form cocycle associator; level 2 (rank 9, c = 78/7) SPLITS as a Deligne product of its modular Z/3 current subcategory and its Mueger centralizer, which is the even part of SU(2)_5 at q = exp(i pi/7) -- so the level-2 6j are the quantum Racah symbols (pentagon, hexagons, Hopf-link S and twists all verified), and the E6 level-2 invariants of 4_1 are the SU(2)_5 colored Jones at zeta_7. PHASE 3 splits: CS of the E6-principal geometric connection = 156 x 0 = 0 and the deformation space is exactly 6 = rank(E6) (one direction per exponent, a Lagrangian on the boundary), the CS functional is computable along the theta-EVEN m=1 direction, and WALLED (EXTERNAL, 8112-variable PGL(27) Ptolemy) along the theta-ODD m = 4, 8.",
+ "discriminating_fact": "The Z/3 simple-current subcategory of E6 level 2 is MODULAR (|det S_pointed| = 0.0352828 != 0), so E6_2 = Pointed(Z/3) (x) Centralizer with the centralizer of rank 3 -- and that rank-3 factor's S-matrix and twists match the even part of SU(2)_5 entry-by-entry (errS 4.41e-41, errT 4.46e-41). That is what makes the level-2 6j symbols closed-form instead of an unsolved rank-9 pentagon system.",
+ "residuals_external": [
+  "an extended-Bloch group / Cheeger-Chern-Simons class for E6 (the theta-odd CS functional)",
+  "the E6 A-polynomial of 4_1 (the potential of the computed 6-dim Lagrangian)",
+  "a 8112-variable PGL(27,C) Ptolemy solve on the 2-tetrahedron triangulation",
+  "uniqueness-up-to-gauge of the level-2 F-symbols (constructed + verified, not classified)"
+ ],
+ "runtime_sec": 4.8
+}

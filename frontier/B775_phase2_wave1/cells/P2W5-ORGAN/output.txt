@@ -1,0 +1,170 @@
+======================================================================
+P2W5-ORGAN (OI-123 / L98) -- one-organ-or-two: a new statistic
+======================================================================
+
+-- seal gate on the B666 cellW34 sealed L98 falsifier --
+  L98_FALSIFIER_PREREG.md: sha256 112345cb3bccccda...  MATCHES SEAL: True
+  l98_falsifier.py: sha256 36d0157f265665df...  MATCHES SEAL: True
+  l98_lib.py: sha256 0904fb4a35cfc555...  MATCHES SEAL: True
+  provenance gate (metallic_word/spectrum vs banked packet lib): PASS
+
+== cell_decision selftest (MB12: each branch can FIRE and can FAIL) ==
+  (100000000.0, 100000000.0, 'ONE-ORGAN', 'ONE-ORGAN', 1, 5) -> RESOLVED-A  (expected RESOLVED-A ) OK
+  (100000000.0, 100000000.0, 'TWO-ORGANS', 'TWO-ORGANS', 2, 5) -> RESOLVED-A  (expected RESOLVED-A ) OK
+  (0.5, 100000000.0, 'ONE-ORGAN', 'ONE-ORGAN', 1, 5) -> RESOLVED-B  (expected RESOLVED-B ) OK
+  (100000000.0, 0.9, 'ONE-ORGAN', 'ONE-ORGAN', 1, 5) -> RESOLVED-B  (expected RESOLVED-B ) OK
+  (100000000.0, 100000000.0, 'UNRESOLVED', 'UNRESOLVED', 0, 0) -> RESOLVED-B  (expected RESOLVED-B ) OK
+  (100000000.0, 100000000.0, 'ONE-ORGAN', 'TWO-ORGANS', 1, 5) -> UNRESOLVED  (expected UNRESOLVED ) OK
+  (100000000.0, 100000000.0, 'ONE-ORGAN', 'UNRESOLVED', 1, 5) -> UNRESOLVED  (expected UNRESOLVED ) OK
+  (100000000.0, 100000000.0, 'TWO-ORGANS', 'TWO-ORGANS', 2, 1) -> UNRESOLVED  (expected UNRESOLVED ) OK
+  branches fired: ['RESOLVED-A', 'RESOLVED-B', 'UNRESOLVED']  (all three reachable: True)
+  selftest PASS
+
+-- measured perturbation floor (5 seeds x 2 kappas x depths 14,15) --
+  floor d=14 kappa=1.00: max|dg|=5.362e-11 max|dG|=6.358e-11 label-invariant=True
+  floor d=14 kappa=1.30: max|dg|=5.362e-11 max|dG|=6.358e-11 label-invariant=True
+  floor d=15 kappa=1.00: max|dg|=5.362e-11 max|dG|=8.303e-11 label-invariant=True
+  floor d=15 kappa=1.30: max|dg|=5.362e-11 max|dG|=8.303e-11 label-invariant=True
+  floor used = 8.303e-11   (N3's box_dim jitter floor was 1.4337e-2, 1.73e+08 times larger)
+
+-- exact gap hierarchy on the EXTENDED grid (kappa 0.55..1.9 step 0.05, 28 pts, depths (13, 14, 15)) --
+  d=13 L=610 kappa=0.55: g=0.080375 l1=0.38197 e2/e1=1.0000  (computed 3.7s)
+  d=13 L=610 kappa=0.60: g=0.075592 l1=0.38197 e2/e1=1.0000  (computed 4.3s)
+  d=13 L=610 kappa=0.65: g=0.071860 l1=0.38197 e2/e1=1.0000  (computed 4.1s)
+  d=13 L=610 kappa=0.70: g=0.069503 l1=0.38197 e2/e1=1.0000  (computed 3.5s)
+  d=13 L=610 kappa=0.75: g=0.069048 l1=0.38197 e2/e1=1.0000  (computed 3.9s)
+  d=13 L=610 kappa=0.80: g=0.070671 l1=0.38197 e2/e1=1.0000  (computed 4.2s)
+  d=13 L=610 kappa=0.85: g=0.073927 l1=0.38197 e2/e1=1.0000  (computed 3.7s)
+  d=13 L=610 kappa=0.90: g=0.078202 l1=0.38197 e2/e1=1.0000  (computed 4.0s)
+  d=13 L=610 kappa=0.95: g=0.079469 l1=0.38197 e2/e1=1.0000  (computed 4.0s)
+  d=13 L=610 kappa=1.00: g=0.078970 l1=0.38197 e2/e1=1.0000  (computed 3.6s)
+  d=13 L=610 kappa=1.05: g=0.077441 l1=0.38197 e2/e1=1.0000  (computed 4.1s)
+  d=13 L=610 kappa=1.10: g=0.076139 l1=0.38197 e2/e1=1.0000  (computed 4.2s)
+  d=13 L=610 kappa=1.15: g=0.075022 l1=0.38197 e2/e1=1.0000  (computed 4.1s)
+  d=13 L=610 kappa=1.20: g=0.074061 l1=0.38197 e2/e1=1.0000  (computed 3.4s)
+  d=13 L=610 kappa=1.25: g=0.071438 l1=0.38197 e2/e1=1.0000  (computed 4.2s)
+  d=13 L=610 kappa=1.30: g=0.066495 l1=0.38197 e2/e1=1.0000  (computed 4.2s)
+  d=13 L=610 kappa=1.35: g=0.060710 l1=0.38197 e2/e1=1.0000  (computed 4.3s)
+  d=13 L=610 kappa=1.40: g=0.054144 l1=0.38197 e2/e1=1.0000  (computed 3.8s)
+  d=13 L=610 kappa=1.45: g=0.043288 l1=0.38197 e2/e1=1.0000  (computed 4.5s)
+  d=13 L=610 kappa=1.50: g=0.032186 l1=0.38197 e2/e1=1.0000  (computed 4.6s)
+  d=13 L=610 kappa=1.55: g=0.032986 l1=0.38197 e2/e1=1.0000  (computed 4.5s)
+  d=13 L=610 kappa=1.60: g=0.040988 l1=0.38197 e2/e1=1.0000  (computed 4.4s)
+  d=13 L=610 kappa=1.65: g=0.040922 l1=0.38197 e2/e1=1.0000  (computed 4.2s)
+  d=13 L=610 kappa=1.70: g=0.035855 l1=0.38197 e2/e1=1.0000  (computed 4.0s)
+  d=13 L=610 kappa=1.75: g=0.030085 l1=0.38197 e2/e1=1.0000  (computed 3.3s)
+  d=13 L=610 kappa=1.80: g=0.021939 l1=0.38197 e2/e1=1.0000  (computed 3.2s)
+  d=13 L=610 kappa=1.85: g=0.021065 l1=0.38197 e2/e1=1.0000  (computed 3.2s)
+  d=13 L=610 kappa=1.90: g=0.019346 l1=0.38197 e2/e1=1.0000  (computed 3.2s)
+  d=14 L=987 kappa=0.55: g=0.079661 l1=0.38197 e2/e1=0.9928  (computed 7.8s)
+  d=14 L=987 kappa=0.60: g=0.074677 l1=0.38197 e2/e1=0.9906  (computed 8.0s)
+  d=14 L=987 kappa=0.65: g=0.070699 l1=0.38197 e2/e1=0.9889  (computed 7.5s)
+  d=14 L=987 kappa=0.70: g=0.068299 l1=0.38197 e2/e1=0.9896  (computed 7.4s)
+  d=14 L=987 kappa=0.75: g=0.068045 l1=0.38197 e2/e1=0.9918  (computed 7.3s)
+  d=14 L=987 kappa=0.80: g=0.069935 l1=0.38197 e2/e1=0.9946  (computed 7.3s)
+  d=14 L=987 kappa=0.85: g=0.073448 l1=0.38197 e2/e1=0.9971  (computed 7.0s)
+  d=14 L=987 kappa=0.90: g=0.077927 l1=0.38197 e2/e1=0.9989  (computed 6.7s)
+  d=14 L=987 kappa=0.95: g=0.079246 l1=0.38197 e2/e1=0.9880  (computed 6.3s)
+  d=14 L=987 kappa=1.00: g=0.078535 l1=0.38197 e2/e1=0.9873  (computed 6.7s)
+  d=14 L=987 kappa=1.05: g=0.077122 l1=0.38197 e2/e1=0.9999  (computed 7.1s)
+  d=14 L=987 kappa=1.10: g=0.075911 l1=0.38197 e2/e1=0.9994  (computed 6.6s)
+  d=14 L=987 kappa=1.15: g=0.074889 l1=0.38197 e2/e1=0.9986  (computed 6.3s)
+  d=14 L=987 kappa=1.20: g=0.074023 l1=0.38197 e2/e1=0.9531  (computed 6.6s)
+  d=14 L=987 kappa=1.25: g=0.071139 l1=0.38197 e2/e1=0.9384  (computed 6.5s)
+  d=14 L=987 kappa=1.30: g=0.066041 l1=0.38197 e2/e1=0.9616  (computed 7.4s)
+  d=14 L=987 kappa=1.35: g=0.060816 l1=0.38197 e2/e1=0.9614  (computed 8.3s)
+  d=14 L=987 kappa=1.40: g=0.054325 l1=0.38197 e2/e1=0.9943  (computed 9.2s)
+  d=14 L=987 kappa=1.45: g=0.043897 l1=0.38197 e2/e1=0.9831  (computed 9.3s)
+  d=14 L=987 kappa=1.50: g=0.033984 l1=0.38197 e2/e1=0.9454  (computed 8.9s)
+  d=14 L=987 kappa=1.55: g=0.034346 l1=0.38197 e2/e1=0.9656  (computed 8.6s)
+  d=14 L=987 kappa=1.60: g=0.040824 l1=0.38197 e2/e1=0.9792  (computed 8.8s)
+  d=14 L=987 kappa=1.65: g=0.040034 l1=0.38197 e2/e1=0.9415  (computed 8.7s)
+  d=14 L=987 kappa=1.70: g=0.035207 l1=0.38197 e2/e1=0.9609  (computed 8.7s)
+  d=14 L=987 kappa=1.75: g=0.030946 l1=0.38197 e2/e1=0.9828  (computed 8.1s)
+  d=14 L=987 kappa=1.80: g=0.025014 l1=0.38197 e2/e1=0.8881  (computed 8.0s)
+  d=14 L=987 kappa=1.85: g=0.022095 l1=0.38197 e2/e1=0.9199  (computed 8.1s)
+  d=14 L=987 kappa=1.90: g=0.017139 l1=0.38197 e2/e1=0.8629  (computed 7.8s)
+  d=15 L=1597 kappa=0.55: g=0.079285 l1=0.38197 e2/e1=0.9973  (computed 24.8s)
+  d=15 L=1597 kappa=0.60: g=0.074230 l1=0.38197 e2/e1=0.9964  (computed 26.6s)
+  d=15 L=1597 kappa=0.65: g=0.070237 l1=0.38197 e2/e1=0.9955  (computed 28.8s)
+  d=15 L=1597 kappa=0.70: g=0.067910 l1=0.38197 e2/e1=0.9956  (computed 24.8s)
+  d=15 L=1597 kappa=0.75: g=0.067758 l1=0.38197 e2/e1=0.9966  (computed 16.5s)
+  d=15 L=1597 kappa=0.80: g=0.069763 l1=0.38197 e2/e1=0.9978  (computed 13.8s)
+  d=15 L=1597 kappa=0.85: g=0.073374 l1=0.38197 e2/e1=0.9988  (computed 24.4s)
+  d=15 L=1597 kappa=0.90: g=0.077925 l1=0.38197 e2/e1=0.9996  (computed 29.5s)
+  d=15 L=1597 kappa=0.95: g=0.078654 l1=0.38197 e2/e1=0.9942  (computed 28.1s)
+  d=15 L=1597 kappa=1.00: g=0.078005 l1=0.38197 e2/e1=0.9932  (computed 25.8s)
+  d=15 L=1597 kappa=1.05: g=0.077114 l1=0.38197 e2/e1=0.9984  (computed 23.6s)
+  d=15 L=1597 kappa=1.10: g=0.075883 l1=0.38197 e2/e1=0.9983  (computed 24.9s)
+  d=15 L=1597 kappa=1.15: g=0.074830 l1=0.38197 e2/e1=0.9983  (computed 24.0s)
+  d=15 L=1597 kappa=1.20: g=0.072055 l1=0.38197 e2/e1=0.9791  (computed 30.7s)
+  d=15 L=1597 kappa=1.25: g=0.068437 l1=0.38197 e2/e1=0.9761  (computed 34.6s)
+  d=15 L=1597 kappa=1.30: g=0.064358 l1=0.38197 e2/e1=0.9883  (computed 32.6s)
+  d=15 L=1597 kappa=1.35: g=0.059310 l1=0.38197 e2/e1=0.9885  (computed 21.0s)
+  d=15 L=1597 kappa=1.40: g=0.054201 l1=0.38197 e2/e1=0.9971  (computed 19.9s)
+  d=15 L=1597 kappa=1.45: g=0.043493 l1=0.38197 e2/e1=0.9935  (computed 14.4s)
+  d=15 L=1597 kappa=1.50: g=0.032883 l1=0.38197 e2/e1=0.9781  (computed 12.6s)
+  d=15 L=1597 kappa=1.55: g=0.033532 l1=0.38197 e2/e1=0.9872  (computed 12.7s)
+  d=15 L=1597 kappa=1.60: g=0.040950 l1=0.38197 e2/e1=0.9654  (computed 14.3s)
+  d=15 L=1597 kappa=1.65: g=0.040005 l1=0.38197 e2/e1=0.9445  (computed 15.5s)
+  d=15 L=1597 kappa=1.70: g=0.035567 l1=0.38197 e2/e1=0.9550  (computed 15.0s)
+  d=15 L=1597 kappa=1.75: g=0.030755 l1=0.38197 e2/e1=0.9932  (computed 16.2s)
+  d=15 L=1597 kappa=1.80: g=0.022887 l1=0.38197 e2/e1=0.9662  (computed 13.8s)
+  d=15 L=1597 kappa=1.85: g=0.021361 l1=0.38197 e2/e1=0.9621  (computed 11.5s)
+  d=15 L=1597 kappa=1.90: g=0.015505 l1=0.38197 e2/e1=0.9752  (computed 11.2s)
+
+-- S1 (SEALED L98 falsifier, sealed 16-point window, verbatim) --
+  depth 13: peak regions at kappa [0.95, 1.55]
+  depth 14: peak regions at kappa [0.95, 1.55]
+  depth 15: peak regions at kappa [0.95, 1.55]
+  sealed criterion, RAW verdict: TWO-ORGANS   organs=[(3, 3, 3), (15, 15, 15)]   N2=1
+  bound-hugging organs (D3, non-identifiable): [(15, 15, 15)]
+  identifiable-filtered verdict on the sealed window: ONE-ORGAN
+  decision margin 3.626e-04 / floor 8.303e-11 = 4.37e+06 x floor
+
+-- S1x (same sealed criterion, EXTENDED identifiable window) --
+  depth 13: peak regions at kappa [0.55, 0.95, 1.6]   argmax kappa=0.55
+  depth 14: peak regions at kappa [0.55, 0.95, 1.6]   argmax kappa=0.55
+  depth 15: peak regions at kappa [0.55, 0.95, 1.6]   argmax kappa=0.55
+  RAW verdict: TWO-ORGANS   organs (kappa) = [[0.55, 0.55, 0.55], [0.95, 0.95, 0.95], [1.6, 1.6, 1.6]]
+  bound-hugging (excluded): [[0.55, 0.55, 0.55]]
+  IDENTIFIABLE organs: [[0.95, 0.95, 0.95], [1.6, 1.6, 1.6]]
+  S1x verdict = TWO-ORGANS
+  decision margin 6.530e-05 / floor 8.303e-11 = 7.86e+05 x floor
+  depth-flapping pairs (sign(dg) not depth-constant): 0/27
+
+-- S2 (exact dominant-gap label l1 = n_small/L) --
+  depth 13: distinct l1 = [0.382]   spread = 0.000000
+  depth 14: distinct l1 = [0.382]   spread = 0.000000
+  depth 15: distinct l1 = [0.382]   spread = 0.000000
+  S2 = ONE GAP REGIME   (label perturbation-invariant = True; phi-hierarchy label spacing >= 0.09)
+
+-- S3 (NEW: gap-hierarchy co-location, ranks k=1..5, extended window) --
+  rank k=1: identifiable depth-consistent organs at kappa [[0.95, 0.95, 0.95], [1.6, 1.6, 1.6]]   (bound-hugging dropped: 1)
+  rank k=2: identifiable depth-consistent organs at kappa [[0.95, 0.95, 0.95], [1.6, 1.6, 1.6]]   (bound-hugging dropped: 1)
+  rank k=3: identifiable depth-consistent organs at kappa [[1.4, 1.45, 1.4]]   (bound-hugging dropped: 1)
+  rank k=4: identifiable depth-consistent organs at kappa [[1.4, 1.4, 1.4]]   (bound-hugging dropped: 1)
+  rank k=5: identifiable depth-consistent organs at kappa [[1.15, 1.15, 1.1]]   (bound-hugging dropped: 1)
+  pooled depth-14 organ locations across ranks: [0.95, 1.15, 1.4, 1.45, 1.6]
+  co-location clusters (single-linkage gap<=1, i.e. separation >=2): [[0.95], [1.15], [1.4, 1.45], [1.6]]  -> 4 cluster(s)
+  ranks contributing an identifiable organ: 5/5
+  worst decision margin over ranks 2.094e-05 / floor = 2.52e+05 x floor
+  S3 = TWO-ORGANS
+
+-- the N3 sub-question: identifiable organs INSIDE the plateau [0.80,1.55] --
+  [[0.95, 0.95, 0.95]]  -> 1 organ(s)
+
+======================================================================
+CELL VERDICT
+======================================================================
+  powered (both margins >= 2.0 x measured floor): True   [S1x 7.86e+05x, S3 2.52e+05x]
+  identifiable (no verdict-bearing organ at a scan bound): True
+  concordant: True   [S1x=TWO-ORGANS, S3=TWO-ORGANS, S2=ONE GAP REGIME]
+  CELL = RESOLVED-A    organ call = TWO-ORGANS
+  SCOPE (verbatim from the sealed prereg): a ONE-ORGAN verdict falsifies
+  the two-organ hypothesis in its GAP-MECHANISTIC form; a two-organ
+  structure invisible to the gap functional and to the gap labels is NOT
+  excluded by this test (box_dim cannot see it either -- N3's floor).
+  Gate 5/5-Q: structural only; no SM values; nothing to CLAIMS.
+
+written: results.json

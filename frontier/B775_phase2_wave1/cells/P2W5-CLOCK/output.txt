@@ -1,0 +1,108 @@
+==============================================================================
+P2W5-CLOCK -- L81(b)/OI-120: the listener's clock law on SU(3)_k
+==============================================================================
+
+S1  CONDUCTOR  N_k = ord(T_k), exact from the rational T-phases
+    k=1..40: N_k = 3*kappa   VERIFIED
+    proof (k>=2): the alcove contains (0,0),(1,0),(1,1); numerator differences are 4 and 9, gcd=1
+                  => gcd_i n_i = 1 => lcm_i denom = 3*kappa.  EXACT
+
+S0  GATES (B585 reproduction)
+    k=2: tr_odd = -0.618034 (= -1/phi), tr_even = +0.000000, clock = 10   PASS
+
+S2  FACTORIZATION + EXACT KERNEL  (BFS over the full Cayley graph)
+    k kap   N  dim   |image|  |SL2(Z/N)|  edge-dev   |K_k|  K_k
+    1   4  12    1     1152       1152  2.8e-15    288  index-4 kernel of chi(W)=i^(#R-#L)  [rho_odd(R)=0.000+1.000j=i, rho_odd(L)=0.000-1.000j=-i, index 4]
+    2   5  15    2     2880       2880  5.5e-15      8  1 x Q8 subset SL(2,Z/5) x SL(2,Z/3)  [all = I mod 5; 6 trace-0 + {+-I} mod 3]
+    3   6  18    4     3888       3888  3.4e-15      6  graph of sgn: SL(2,Z/2)=S_3 -> {+-I} subset SL(2,Z/9)  [6 distinct mod-2 images; mod-9 part = +I iff odd order in S_3]
+    4   7  21    6     8064       8064  3.4e-14      1  trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))
+    5   8  24    9     9216       9216  3.6e-14      1  trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))
+    6   9  27   12    17496      17496  3.3e-14      1  trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))
+    7  10  30   16    17280      17280  4.9e-14      1  trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))
+    => the theta-odd rep FACTORS THROUGH SL(2,Z/3kappa) on every edge (k=1..7): PROVED
+
+S3  THE CLOCK LAW on a 52-word family (lengths 2..5, both letters)
+    predicted clock = ord( W in SL(2,Z/3kappa) / K_k );  K_k = 1 PREDICTED for k>=4
+    (k=8..16: K_k = 1 is prediction-first -- no BFS was run there)
+    k kap   N  dim  inst  law-hits  naive-hits  est-agree  min-sep    max-resid
+    1   4  12    1    52    52/52     10/52      52/52    1.41e+00  4.5e-15   [5s]
+    2   5  15    2    52    52/52     28/52      52/52    5.26e-01  3.0e-14   [5s]
+    3   6  18    4    52    52/52     36/52      52/52    1.00e+00  1.2e-14   [5s]
+    4   7  21    6    52    52/52     52/52      52/52    5.77e-01  8.9e-14   [6s]
+    5   8  24    9    52    52/52     52/52      52/52    1.00e+00  5.0e-14   [6s]
+    6   9  27   12    52    52/52     52/52      52/52    1.00e+00  8.7e-14   [6s]
+    7  10  30   16    52    52/52     52/52      52/52    5.77e-01  6.5e-14   [6s]
+    8  11  33   20    52    52/52     52/52      52/52    1.00e+00  8.1e-14   [7s]
+    9  12  36   25    52    52/52     52/52      52/52    1.07e+00  7.7e-14   [7s]
+   10  13  39   30    52    52/52     52/52      52/52    5.77e-01  1.3e-13   [8s]
+   11  14  42   36    52    52/52     52/52      52/52    1.00e+00  1.4e-13   [9s]
+   12  15  45   42    52    52/52     52/52      52/52    1.00e+00  1.3e-13   [11s]
+   13  16  48   49    52    52/52     52/52      52/52    5.77e-01  1.5e-13   [13s]
+   14  17  51   56    52    52/52     52/52      52/52    1.01e+00  1.9e-13   [15s]
+   15  18  54   64    52    52/52     52/52      52/52    5.00e-01  2.0e-13   [19s]
+   16  19  57   72    52    52/52     52/52      52/52    5.77e-01  1.9e-13   [23s]
+    LAW    misses: 0 / 832
+    NAIVE  misses: 82 / 832  (levels [1, 2, 3]) <- the criterion BITES
+
+S4  CLOSED FORM for the figure-eight word RL = Q^2 (Q = Fibonacci matrix):
+    clock(k) = ord(Q^2 mod 3kappa) = pi(3kappa)/2   (pi = Pisano period)
+    k kap    N   pi(N)  pi(N)/2  measured  banked(B585)  match
+    1   4   12     24      12        1           1      -
+    2   5   15     40      20       10          10      -
+    3   6   18     24      12       12          12      YES
+    4   7   21     16       8        8           8      YES
+    5   8   24     24      12       12          12      YES
+    6   9   27     72      36       36          36      YES
+    7  10   30    120      60       60          60      YES
+    8  11   33     40      20       20          20      YES
+    9  12   36     24      12       12          12      YES
+   10  13   39     56      28       28          28      YES
+   11  14   42     48      24       24          24      YES
+   12  15   45    120      60       60          60      YES
+   13  16   48     24      12       12        None      YES
+   14  17   51     72      36       36        None      YES
+   15  18   54     72      36       36        None      YES
+   16  19   57     72      36       36        None      YES
+   17  20   60    120      60       60        None      YES
+   18  21   63     48      24       24        None      YES
+   19  22   66    120      60       60        None      YES
+   20  23   69     48      24       24        None      YES
+   21  24   72     24      12       12        None      YES
+   22  25   75    200     100      100        None      YES
+    pi(3kappa)/2 law for k>=3 (k=3..22): VERIFIED
+    B585 banked table k=1..12 reproduced: YES
+    the 60 at kappa=10,15 is pi(30) = pi(45) = 120.
+
+S5  PRECISION SEED (independent arithmetic): k=6 rebuilt at mpmath dps=40
+    k=6 (kappa=9, N=27): predicted 36; mpmath dps=40 order = 36 (dev 1.63e-39)   PASS
+
+==============================================================================
+VERDICT
+==============================================================================
+  conductor N=3kappa (k=1..40) ....... True
+  gates (B585 k=2 + banked table) .... True
+  factorization through SL(2,Z/3kap).. True   (k=1..7, every edge)
+  kernels K_k identified exactly ..... True
+  law hits (52 words x k=1..16) ...... True   misses=0
+  two estimators agree ............... True
+  orders identifiable (sep>0.001) ..... True
+  Pisano closed form k=3..22 ......... True
+  mpmath precision seed .............. True
+  [non-vacuity] naive law DOES fail .. True at levels [1, 2, 3]
+
+  VERDICT: RESOLVED-A
+  the listener's clock law: clock(W,k) = ord(W in SL(2,Z/3kappa)/K_k); K_k=1 for k>=4; for the figure-eight clock = pi(3kappa)/2
+
+  THE LAW (all clauses computed in-cell):
+   (i)   ord(T_k) = 3*kappa = 3(k+3)                                [exact, proved]
+   (ii)  the theta-odd block factors through SL(2,Z/3kappa)         [k=1..7, all edges]
+   (iii) K_1 = ker(chi), chi(W)=i^(#R-#L), index 4
+         K_2 = 1 x Q8 in SL(2,Z/5)xSL(2,Z/3)   (order 8)
+         K_3 = graph of sgn: SL(2,Z/2)=S_3 -> {+-I} in SL(2,Z/9)   (order 6)
+         K_k = 1 for k >= 4  -- the odd block is FAITHFUL
+   (iv)  clock(W,k) = ord( W in SL(2,Z/3kappa)/K_k )   [52 words x 16 levels]
+   (v)   W = RL = Q^2  =>  clock(k) = pi(3kappa)/2, half the Pisano period
+         pi(30)=pi(45)=120  =>  the 60 at the golden-voiced kappa=10,15
+
+  runtime 81s
+  results.json written

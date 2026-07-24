@@ -1,0 +1,84 @@
+========================================================================
+P2W5-LSCHAAR — the Landsberg-Schaar closed form at SU(3) (OI-121 / L82)
+========================================================================
+golden monodromy A = [[2, 1], [1, 1]]  tr = 3  A_21 = 1
+
+-- G1  structure + conductor identities (exact / symbolic) --
+  [PASS] G1 F = K.B and det(A(x)(+-w)-I4) = det(+-w) det(B) on all 12 terms  menu 1,-5,16,25,4
+  [PASS] G1 symbolic eigenvalue identity (l^2 - T l + 1) = -l (T - l - l^-1)  
+  [PASS] G1 B587's registered conductor menu reproduced  
+       Smith divisors of A(x)(+-w) - I4: +w0:[1, 1, 1, 1], +w1:[1, 1, 1, 5], +w2:[1, 1, 1, 5], +w3:[1, 1, 4, 4], +w4:[1, 1, 4, 4], +w5:[1, 1, 1, 5]
+
+-- G2  well-definedness + free-lattice reduction Theta_F(k) = (1/12) G_F(6k) --
+  [PASS] G2 6 | F[nu] and 6 | 2 mu^T F nu for nu in Q  (=> phase well defined)  
+  [PASS] G2 12 * Theta-counts == G_F(6 kappa)-counts, exact, kappa=2..7 x 12 terms  
+
+-- G3  modulus theorem |Theta_F|^2 = n R_F  (elementary orthogonality) --
+  [PASS] G3 |Theta_F(kappa)|^2 == 3 kappa^2 * R_F(kappa) EXACTLY (29 kappa x 12 terms)  0 exceptions
+
+-- G4  normalisation: R_K = 1 and t_{+w0} = 1 exactly (kills the g0 input) --
+  [PASS] G4 R_K(kappa) = 1 for kappa = 1..60 (K delta = 0 <=> delta in kappa Q)  
+
+-- G5  conductor-modulus theorem |t|^2 = prod_i gcd(kappa, e_i) --
+  [PASS] G5 R_F(kappa) = prod gcd(kappa, Smith divisors of A(x)(+-w)-I4), kappa=1..60  
+
+-- G5b independent estimator: the B587 Weil MATRICES (and B238 stage traces) --
+  [PASS] G5b t_{+w0} = 1 on the honest Weil matrices (kappa=4..12)  max dev 2.02e-14
+  [PASS] G5b matrix per-term traces == the (P7) closed forms (8 kappa x 12 terms)  max dev 4.13e-14
+  [PASS] G5b assembled Z(RL;SU(3)_k) from the closed forms == banked B238, kappa=4..14  max dev 2.88e-15
+
+-- G6  CRT multiplicativity, shift recursion, and the ratio lemma --
+  [PASS] G6 CRT: G_F(M1 M2) = g_F(M2,M1) g_F(M1,M2) on 6 coprime splits x 12 terms  
+       stabilisation onset v0 (proven per term/prime), then verified:
+  [PASS] G6 p=2 coverage: every F has odd det F, or is a scalar multiple c.K (reduces to K at level shifted by v_2(c); det K = 3, odd)  scalars [1, 2, 4, 5]
+  [PASS] G6 shift recursion g_F(a,p^v) = p^2 g_F(a,p^{v-2}) for v >= v0 (v0 = v_p(d2)+2 odd p; 3 + v_2(c) at p = 2), p = 2,3,5,7,11,13, a = 1,2  0 exceptions; v0 per term/prime from the Smith divisors [(1, 3), (1, 15), (2, 6), (4, 12), (5, 15)]
+  [PASS] G6 ratio lemma g_F/g_K = (det B | p)^{v mod 2} at p = 7..31, v = 1,2  0 exceptions
+  [PASS] G6 (5|p) = (p|5) (reciprocity, 5 = 1 mod 4) => the det B = 5 terms are functions of kappa mod 5  
+
+-- G7  THE CLOSED FORMS: exact cyclotomic verification, two disjoint ranges --
+  [PASS] G7 exact: Theta_F == t_closedform * Theta_K, range A: kappa = 1..60 (60 kappa x 12 terms)  0 mismatches
+  [PASS] G7 exact: Theta_F == t_closedform * Theta_K, range B: kappa = 61..200 sparse (21 kappa x 12 terms)  0 mismatches
+  [PASS] G7c deep valuations v2 <= 10, v3 <= 6, v5 <= 4 (kappa up to 1024, 8 kappa x 12 terms)  0 mismatches
+       the twelve closed forms (P7):
+         +w0    : 1
+         +-refl : g(kappa,5)/sqrt5 resp. g(2 kappa,5)/sqrt5   [= (kappa|5) off 5, sqrt5 at 5|kappa]
+         +rot   : (-2)^min(v2(kappa),2)      -rot : -(-2)^min(v2(kappa),1)
+         -w0    : -(-5)^min(v5(kappa),1)
+
+-- G8  LAW-O for all kappa; LAW-E gets a closed form (new) --
+  [PASS] G8 LAW-O = [4|kappa] - [5|kappa]/phi from the closed forms, kappa = 1..400  
+  [PASS] G8 LAW-E closed form: ([5 not| k] - (k|5))/2 if v2(k) != 1, else -(1 + [5|k] + (k|5))/2  
+  [PASS] G8 banked B587 even-channel values (kappa = 6..14) reproduced  
+  [PASS] G8 LAW-O symbolic (exact sqrt5 algebra) on a full period kappa = 20..39  
+
+-- G9  boundary: does the proof extend to the other balanced words? --
+         RL: A_21 = 1, tr = 3  ->  Gaussian-kernel ansatz matches 60/60 per-term ratios
+       RRLL: A_21 = 2, tr = 6  ->  Gaussian-kernel ansatz matches 16/60 per-term ratios
+     RRRLLL: A_21 = 3, tr = 11  ->  Gaussian-kernel ansatz matches 9/60 per-term ratios
+  [PASS] G9 the ansatz is EXACT for RL (A_21 = 1)  
+  [PASS] G9 the ansatz FAILS for R^nL^n, n >= 2 (A_21 = n > 1): a computed boundary, not a citation  silver 16/60, bronze 9/60
+
+========================================================================
+VERDICT BLOCK (branches: RESOLVED-A / RESOLVED-B(EXTERNAL) / UNRESOLVED)
+========================================================================
+  reduction (P1/P6 free-lattice)          : True
+  modulus theorem + normalisation (P3-P5) : True
+  local structure / ratio lemma (P6)      : True
+  closed forms exact, two ranges (P7)     : True
+  independent estimators (matrices, B238) : True
+  LAW-O all kappa + LAW-E closed form (P8): True
+  structure/conductor identities (P2)     : True
+  general-word boundary computed (P9)     : True
+
+  FAILED GATES: none
+
+  VERDICT: RESOLVED-A
+  the SU(3) per-term closed form is PROVEN and the Landsberg-Schaar / multivariate-reciprocity input is ELIMINATED: t = Theta_F/Theta_K, amplitude and eighth-root phase cancel in the ratio, only a Legendre symbol survives
+
+  DISCRIMINATING FACT (in-cell): |Theta_F(kappa)|^2 = 3 kappa^2 R_F(kappa) by orthogonality alone,
+  and R_K = 1, so t_{+w0} = |g0|^2/n = 1 EXACTLY -- the B666-R3 inputs (I4) g0 = -i sqrt3 kappa
+  and (I5) multivariate reciprocity are both unnecessary; t = Theta_F/Theta_K.
+  Twelve closed forms in kappa (not residue tables), exact over 81 kappa.
+  NEW: LAW-E is NOT lawless (B587) -- it is the quadratic character (kappa|5) modulated by v2(kappa).
+  RESIDUAL (computed boundary): R^nL^n with n >= 2 has A_21 = n > 1, the Weil kernel is not
+  a Gaussian on P/kappa Q, and the ratio ansatz fails at every kappa tested => L24(c) proper stays open.
