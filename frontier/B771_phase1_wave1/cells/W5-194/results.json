@@ -1,0 +1,335 @@
+{
+  "partA_screening": {
+    "n_curves": 32,
+    "n_pfits": 31,
+    "positivity_fraction": 0.48697916666666663,
+    "monotone_fraction": 0.6392045454545454,
+    "p_mean": 2.0250002742409543,
+    "p_std": 1.4526870581795843,
+    "p_cv": 0.7173762278743916,
+    "p_min": -0.3145845408022737,
+    "p_max": 5.974282266952165,
+    "A1_positivity": false,
+    "A2_monotone": false,
+    "A3_universal_law": false,
+    "screening_qualitative": false,
+    "screening_specific_law": false
+  },
+  "partB_confinement": {
+    "legs": [
+      {
+        "L": 220,
+        "kF": 1.5707963267948966,
+        "eta_by_n": {
+          "2": 0.4999050391060506,
+          "3": 0.22915500917706239,
+          "5": 0.0802614349855364,
+          "7": 0.04086350211174852,
+          "11": 0.01653612148846961,
+          "13": 0.011838279615829124,
+          "17": 0.006922080218309533
+        },
+        "R2ll_by_n": {
+          "2": 0.9999999879032062,
+          "3": 0.9999682141586528,
+          "5": 0.9999987658147775,
+          "7": 0.999999781079038,
+          "11": 0.9999999587562314,
+          "13": 0.9999999736613752,
+          "17": 0.9999999848882702
+        },
+        "R2le_by_n": {
+          "2": 0.9368747871556853,
+          "3": 0.9341675053889096,
+          "5": 0.9363244747020063,
+          "7": 0.9366194992063452,
+          "11": 0.9367390776638328,
+          "13": 0.9367573353645098,
+          "17": 0.9367748980545657
+        },
+        "adrift_n11": [
+          -0.0007892309642838768,
+          -0.00010528930138046372
+        ],
+        "B1_pass": true,
+        "B2_pass": true,
+        "smooth_law_k": 2.0098480551983613,
+        "smooth_law_R2": 0.999795568615662,
+        "n11_residual_sigma": 0.031221159191727493,
+        "validity_ok": true
+      },
+      {
+        "L": 220,
+        "kF": 1.0471975511965976,
+        "eta_by_n": {
+          "2": 0.484489594351541,
+          "3": 0.2213890003685304,
+          "5": 0.07996088271249664,
+          "7": 0.04080675099395322,
+          "11": 0.01652663079919236,
+          "13": 0.011832847142529102,
+          "17": 0.006919650209855843
+        },
+        "R2ll_by_n": {
+          "2": 0.40251312984439136,
+          "3": 0.9959430682695493,
+          "5": 0.9999793811692665,
+          "7": 0.9999975568488303,
+          "11": 0.9999996071495532,
+          "13": 0.9999997498405194,
+          "17": 0.9999998531740154
+        },
+        "R2le_by_n": {
+          "2": 0.3843547582830469,
+          "3": 0.9350573188905721,
+          "5": 0.9370488887017485,
+          "7": 0.9369305186874524,
+          "11": 0.9368827414566998,
+          "13": 0.9368755269076879,
+          "17": 0.9368686063744849
+        },
+        "adrift_n11": [
+          -0.0007850718710220167,
+          -0.0001060894787761335
+        ],
+        "B1_pass": true,
+        "B2_pass": true,
+        "smooth_law_k": 1.9484008424075272,
+        "smooth_law_R2": 0.9998048800276602,
+        "n11_residual_sigma": 0.2024868775811517,
+        "validity_ok": true
+      },
+      {
+        "L": 320,
+        "kF": 1.5707963267948966,
+        "eta_by_n": {
+          "2": 0.4999376996931862,
+          "3": 0.2279677263183984,
+          "5": 0.08019317792780485,
+          "7": 0.040849873923467,
+          "11": 0.01653388328146244,
+          "13": 0.01183702438749224,
+          "17": 0.006921539329986718
+        },
+        "R2ll_by_n": {
+          "2": 0.9999999916051537,
+          "3": 0.9999649787528236,
+          "5": 0.9999989134820366,
+          "7": 0.9999998211501921,
+          "11": 0.9999999684085829,
+          "13": 0.9999999801870015,
+          "17": 0.9999999889040928
+        },
+        "R2le_by_n": {
+          "2": 0.91190499695986,
+          "3": 0.9086789786753487,
+          "5": 0.9113320730201011,
+          "7": 0.9116524434094448,
+          "11": 0.9117763791782632,
+          "13": 0.9117948272798224,
+          "17": 0.9118124152196387
+        },
+        "adrift_n11": [
+          -0.0007892309642838768,
+          -6.431744207639756e-05
+        ],
+        "B1_pass": true,
+        "B2_pass": true,
+        "smooth_law_k": 2.0082009317787697,
+        "smooth_law_R2": 0.9998597577651935,
+        "n11_residual_sigma": 0.03192132316125276,
+        "validity_ok": true
+      },
+      {
+        "L": 320,
+        "kF": 1.0471975511965976,
+        "eta_by_n": {
+          "2": 0.487737251593239,
+          "3": 0.22172554163256,
+          "5": 0.07997732279521645,
+          "7": 0.040810674020155965,
+          "11": 0.016527536343410896,
+          "13": 0.01183342199131795,
+          "17": 0.006919945079120308
+        },
+        "R2ll_by_n": {
+          "2": 0.48159303913558593,
+          "3": 0.9980079750014896,
+          "5": 0.999990940910259,
+          "7": 0.9999989399495892,
+          "11": 0.9999998295970798,
+          "13": 0.9999998912823115,
+          "17": 0.9999999359433367
+        },
+        "R2le_by_n": {
+          "2": 0.4413880451275959,
+          "3": 0.9112114056682874,
+          "5": 0.912010159334798,
+          "7": 0.9119329665847821,
+          "11": 0.9119020036645828,
+          "13": 0.9118973028663108,
+          "17": 0.911892780988456
+        },
+        "adrift_n11": [
+          -0.0007850718710220167,
+          -6.39588808781788e-05
+        ],
+        "B1_pass": true,
+        "B2_pass": true,
+        "smooth_law_k": 1.959443780984581,
+        "smooth_law_R2": 0.999872665503218,
+        "n11_residual_sigma": 0.19548258558972048,
+        "validity_ok": true
+      }
+    ],
+    "B1_per_leg": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "B2_per_leg": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "B1_stable": true,
+    "B2_stable": true,
+    "B1_algebraic_agg": true,
+    "B2_notspecial_agg": true,
+    "confinement_status": "STABLE",
+    "confinement_holds": false,
+    "B3_removed": true,
+    "B3_removal_reason": "open-closed differential multiplies det() by a column-diagonal whose determinant is a fixed unit-modulus phase e^(i2pi/n); log|G_open|=log|G_closed| identically for all r,n -- vacuous by construction, verified in-cell to 1.11e-16 (float noise around an exact algebraic identity), never entered the verdict below."
+  },
+  "verdict": "RESOLVED-B",
+  "headline": "W4-194's H121-dissolves negative SURVIVES B3 removal: with the vacuous open-closed differential (identically zero by unit-modulus-determinant construction) stripped out, the confining signature still dissolves on B1 (n=11 string decay is ALGEBRAIC not exponential, effective rate -> 0) and B2 (eta(n)=k/n^2 smooth, Z/11 not special), reproduced STABLY across a 2-grid (L=220,320) x 2-seed (k_F=pi/2,pi/3) hardening sweep (4/4 legs agree on both). The screening law (p->0.9 universal) independently dissolves as in W4-194. H121 remains dissolved: gauge-signatures do not survive as object-specific structural facts.",
+  "discriminating_fact": "p_CV=0.717 (need <0.15) with p in [-0.31,5.97] => class A dissolves; B1 algebraic-decay verdict across 4 legs (L in [220, 320], kF in [1.5708,1.0472]) = [True, True, True, True] (stable=True); B2 not-special verdict across same 4 legs = [True, True, True, True] (stable=True); B3 (open-closed differential) proven identically 0 by unit-modulus-determinant algebra (1.11e-16 residual) and REMOVED from the verdict.",
+  "screening_qualitative_survivor": false,
+  "class_A_screening_law": false,
+  "class_B_confinement": false,
+  "validity_checks_pass": true,
+  "all_internal_checks_pass": false,
+  "checks": [
+    {
+      "name": "A0 LE-code calibration: free lambda=0, E=2.5 -> arccosh(1.25)=0.6931 (asserts code correct)",
+      "passed": true,
+      "detail": "computed 0.69328 vs 0.69315",
+      "direction": "|diff|<1e-2",
+      "kind": "validity"
+    },
+    {
+      "name": "A0b free-critical control: lambda=0, E=0 (|E|<2) -> LE ~ 0",
+      "passed": true,
+      "detail": "computed 0.000000",
+      "direction": "|LE|<5e-3",
+      "kind": "validity"
+    },
+    {
+      "name": "A1 SCREENING positivity: LE>0 for all coupling lam>0 (never a free/AF direction)",
+      "passed": false,
+      "detail": "positive-fraction=0.487 over 32 curves",
+      "direction": "frac>0.90",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "A2 SCREENING monotonicity: dgamma/dlam>0",
+      "passed": false,
+      "detail": "monotone-step-fraction=0.639",
+      "direction": "frac>0.85",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "A3 SCREENING specific law: p is a STABLE universal exponent ~0.9",
+      "passed": false,
+      "detail": "p_mean=2.025 CV=0.717",
+      "direction": "CV<0.15 & |p-0.9|<0.15",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B0 [L=220,kF=1.5708] string-op control: n->1e6 => log|G|~0",
+      "passed": true,
+      "detail": "log|G_1e6|=-1.41e-11",
+      "direction": "|log|G||<1e-3",
+      "kind": "validity"
+    },
+    {
+      "name": "B1 [L=220,kF=1.5708] decay ALGEBRAIC not exponential (n=11)",
+      "passed": true,
+      "detail": "R2_loglog=1.0000>R2_exp=0.9367; a_eff -0.00079->-0.00011; family_alg_frac=1.00",
+      "direction": "loglog>exp & rate->0 & family>=0.8",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B2 [L=220,kF=1.5708] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special",
+      "passed": true,
+      "detail": "R2=0.9998 k=2.0098; n11 residual z=0.03 sigma",
+      "direction": "R2>0.95 & z(11)<3",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B0 [L=220,kF=1.0472] string-op control: n->1e6 => log|G|~0",
+      "passed": true,
+      "detail": "log|G_1e6|=-1.38e-11",
+      "direction": "|log|G||<1e-3",
+      "kind": "validity"
+    },
+    {
+      "name": "B1 [L=220,kF=1.0472] decay ALGEBRAIC not exponential (n=11)",
+      "passed": true,
+      "detail": "R2_loglog=1.0000>R2_exp=0.9369; a_eff -0.00079->-0.00011; family_alg_frac=1.00",
+      "direction": "loglog>exp & rate->0 & family>=0.8",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B2 [L=220,kF=1.0472] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special",
+      "passed": true,
+      "detail": "R2=0.9998 k=1.9484; n11 residual z=0.20 sigma",
+      "direction": "R2>0.95 & z(11)<3",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B0 [L=320,kF=1.5708] string-op control: n->1e6 => log|G|~0",
+      "passed": true,
+      "detail": "log|G_1e6|=-1.41e-11",
+      "direction": "|log|G||<1e-3",
+      "kind": "validity"
+    },
+    {
+      "name": "B1 [L=320,kF=1.5708] decay ALGEBRAIC not exponential (n=11)",
+      "passed": true,
+      "detail": "R2_loglog=1.0000>R2_exp=0.9118; a_eff -0.00079->-0.00006; family_alg_frac=1.00",
+      "direction": "loglog>exp & rate->0 & family>=0.8",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B2 [L=320,kF=1.5708] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special",
+      "passed": true,
+      "detail": "R2=0.9999 k=2.0082; n11 residual z=0.03 sigma",
+      "direction": "R2>0.95 & z(11)<3",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B0 [L=320,kF=1.0472] string-op control: n->1e6 => log|G|~0",
+      "passed": true,
+      "detail": "log|G_1e6|=-1.38e-11",
+      "direction": "|log|G||<1e-3",
+      "kind": "validity"
+    },
+    {
+      "name": "B1 [L=320,kF=1.0472] decay ALGEBRAIC not exponential (n=11)",
+      "passed": true,
+      "detail": "R2_loglog=1.0000>R2_exp=0.9119; a_eff -0.00079->-0.00006; family_alg_frac=1.00",
+      "direction": "loglog>exp & rate->0 & family>=0.8",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B2 [L=320,kF=1.0472] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special",
+      "passed": true,
+      "detail": "R2=0.9999 k=1.9594; n11 residual z=0.20 sigma",
+      "direction": "R2>0.95 & z(11)<3",
+      "kind": "hypothesis"
+    }
+  ]
+}

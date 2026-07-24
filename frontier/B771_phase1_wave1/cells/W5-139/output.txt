@@ -1,0 +1,77 @@
+==============================================================================
+STEP 1 -- F0 = w^2 = Delta(x), genus 1; the functions S and P
+==============================================================================
+Fmain = x**3*z**2 - 2*x**2*z**2 - x**2*z + x*z - x + z**2 + z
+[a,b,c] = [(x - 1)*(x**2 - x - 1), -x**2 + x + 1, -x]
+Delta = (x**2 - x - 1)*(5*x**2 - 5*x - 1)  deg 4  squarefree: True
+cross-check Delta == banked disc3 (x^2-x-1)(5x^2-5x-1): True  -> genus(F0) = 1
+S = kappa = x**2 - x*z**2 + 2*z**2 - 2
+==============================================================================
+STEP 2 -- build P = tr(t)^2 on F0 (null-space minors; validated vs apoly_m3)
+==============================================================================
+Psq_xz built (deg num/den in (x,z): 30 / 23 )
+  seed x0=3.7 z0=-0.2469: tr(t)^2 indep=42.823210 P(x,z)=42.823210 ok=True
+  seed x0=3.7 z0=+0.6173: tr(t)^2 indep=51.716494 P(x,z)=51.716494 ok=True
+  seed x0=4.7 z0=-0.1743: tr(t)^2 indep=93.413185 P(x,z)=93.413185 ok=True
+  seed x0=4.7 z0=+0.4446: tr(t)^2 indep=104.315854 P(x,z)=104.315854 ok=True
+  seed x0=5.3 z0=-0.1485: tr(t)^2 indep=136.910220 P(x,z)=136.910220 ok=True
+  seed x0=5.3 z0=+0.3810: tr(t)^2 indep=149.081458 P(x,z)=149.081458 ok=True
+P validated at 6 seeds vs independent apoly_m3 code path: True
+==============================================================================
+STEP 3 -- express S, P as alpha(x) + beta(x) w on F0 (exact)
+==============================================================================
+S: deg(alpha_num,beta_num) ~ 6 1
+P: alpha_P num/den deg 5 / 2
+  check S: alpha+beta*w=8.775042+0.000000j vs direct=8.775042+0.000000j ok=True
+  check P: alpha+beta*w=29.127913+0.000000j vs direct=29.127913+0.000000j ok=True
+==============================================================================
+STEP 4 -- validated local-order estimator on F0 (w^2 = Delta)
+==============================================================================
+CONTROL 1: h = x - x0gen  (x0gen generic) -> order 1 over x0gen, -1 at each infinity
+  order over x0gen: sheet+=1 sheet-=1; at inf: -1,-1
+  CONTROL 1 pass: True
+CONTROL 2: h = w  -> order 1 at each Weierstrass point, -2 at each infinity
+  order at Weierstrass pts: [1, 1, 1, 1]; at inf: -2,-2
+  CONTROL 2 pass: True
+CONTROL 3: h = 1/(x - x0gen)  -> order -1 (ODD pole) over x0gen, +1 at each infinity
+  order over x0gen: sheet+=-1 sheet-=-1; at inf: 1,1
+  CONTROL 3 pass: True
+==============================================================================
+STEP 5 -- odd-valuation support of R1=P, R2=P-4, R3=S^2-4; count B
+==============================================================================
+  |odd(R1=P)| = 10
+  |odd(R2=P-4)| = 14
+  |odd(R3=S^2-4)| = 16
+==============================================================================
+STEP 5b -- (Z/2)^3 character consistency  odd(Ri Rj) == odd(Ri) XOR odd(Rj)
+==============================================================================
+  R1R2: |odd_direct|=16  |XOR|=16  sets_equal=True
+  R1R3: |odd_direct|=14  |XOR|=14  sets_equal=True
+  R2R3: |odd_direct|=10  |XOR|=10  sets_equal=True
+  R1R2R3: |odd_direct|=0  |XOR|=0  sets_equal=True
+  ALL 4 product characters consistent with symmetric differences of generators: True
+  seven character branch-set sizes: {'R1=P': 10, 'R2=P-4': 14, 'R3=S^2-4': 16, 'R1R2': 16, 'R1R3': 14, 'R2R3': 10, 'R1R2R3': 0}
+  NOTE: odd(R1R2R3)=0 -> P(P-4)(S^2-4) has even valuation everywhere = an UNRAMIFIED
+        character (at every ramified point EXACTLY TWO of the R_i are odd, never one/three).
+        This does NOT split the cover; connectivity is settled by A_3 irreducibility below.
+==============================================================================
+STEP 5c -- reconstruct A_3(M,L) in-cell and verify irreducibility (=> cover connected)
+==============================================================================
+  [8.8s] A_3 core: degree 24 in L, 40 in M; single (M,L)-factor: True
+  cover CONNECTED (A_3 irreducible, degree matches W4-139's 24/40): True
+
+B = |odd(R1) ∪ odd(R2) ∪ odd(R3)| = 20
+genus(A_3) = 1 + 2*B = 41
+==============================================================================
+STEP 6 -- cross-checks
+==============================================================================
+per-generator double-cover genera F0(sqrt R_i):  R1: 6,  R2: 8,  R3: 9
+lower bound genus(A_3) >= genus(F0) = 1 : True
+==============================================================================
+VERDICT
+==============================================================================
+VERDICT: RESOLVED-A
+HEADLINE: m=3 A-polynomial curve genus = 41; metallic spectral-genus sequence completed as (3, 1, 41) -- NOT a decreasing family, the genus GROWS at m=3
+DISCRIMINATING FACT: genus(A_3) = 1 + 2B = 41, computed by an actual covering computation (not the failed m=1/m=2 hyperelliptic reader): A_3(M,L)=0 is EXACTLY the connected degree-8 (Z/2)^3 cover C(F0)(sqrt P, sqrt(P-4), sqrt(S^2-4)) of the genus-1 trace-relation curve F0: w^2 = (x^2-x-1)(5x^2-5x-1), where S=L+1/L=kappa and P=tr(t)^2=(M+1/M)^2. Riemann-Hurwitz for this cover forces genus = 1 + 2B (inertia at every ramified point is order 2 -- order 4 is IMPOSSIBLE since two odd R_i force an even product), with B = 20 = the number of points of F0 carrying odd valuation of some R_i, counted here from the ODD supports |odd(P)|=10, |odd(P-4)|=14, |odd(S^2-4)|=16. The order estimator is validated in-cell against THREE control functions of KNOWN divisor (x-x0, w, and 1/(x-x0)); each odd support has EVEN cardinality (divisor degree 0); and -- the decisive independent check -- the branch set of every product character equals the symmetric difference of its generator branch sets (odd(RiRj)=odd(Ri) XOR odd(Rj)), computed by feeding the DISTINCT product function to the same estimator (a buggy counter cannot pass this). Connectivity of the degree-8 cover is forced in-cell by RECONSTRUCTING A_3(M,L) here (not cited) and verifying it is the single irreducible degree-24-in-L / 40-in-M curve. genus=1+2B is necessarily ODD, matching the known m=1 (g=3) and m=2 (g=1). This closes the W4-139 residual (the fiber-product ramification bookkeeping) that B69/2026-07-09 flagged as needing Magma.
+
+[results.json written; runtime 68.1s]

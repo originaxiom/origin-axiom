@@ -1,0 +1,69 @@
+{
+  "cell": "W5-017r",
+  "verdict": "RESOLVED-A",
+  "reason": "class 10 correctly populated (dimension-reduced batched solve; W3-017 false-empty corrected) -- 1 isolated point(s) on the banked deg-4 quartic [[9, 27, -12, -9, 1]] -- the banked L6a4 fields reproduced at every census degree {2,4,8} from the low-height classes, the genuine-empty class held, the recognizer non-vacuous (incl. deg 8), and the >=0.19 Ruelle spectral gap certified beyond n=6",
+  "part_A": {
+    "class10_populated": true,
+    "class10_npts": 1,
+    "class10_degrees": [
+      4
+    ],
+    "class10_minpolys": [
+      [
+        9,
+        27,
+        -12,
+        -9,
+        1
+      ]
+    ],
+    "class10_all_recognized": true,
+    "class10_is_quartic": true,
+    "land_deg2": true,
+    "land_deg4": true,
+    "land_deg8": true,
+    "landmarks_ok": true,
+    "class8_octic_exact": true,
+    "class8_degs": [
+      8,
+      8,
+      8
+    ],
+    "class2_empty": true,
+    "all_degs": [
+      2,
+      4,
+      8
+    ],
+    "field_resists": false,
+    "total_resist": 0,
+    "nonvacuous_A": true,
+    "census_done": true
+  },
+  "part_B": {
+    "gap_table": {
+      "6": 0.2853204857935941,
+      "7": 0.3405374650054328,
+      "8": 0.35081908324154487
+    },
+    "exact_counts": {
+      "1": 0,
+      "2": 4,
+      "3": 0,
+      "4": 8,
+      "5": 10,
+      "6": 22,
+      "7": 28,
+      "8": 48
+    },
+    "cert_ok": true,
+    "gap_holds": true,
+    "gap_closes": false,
+    "gap8_min": 0.2408742415130789,
+    "min_gap_beyond6": 0.2408742415130789,
+    "certified_beyond6": true,
+    "nonvacuous": true,
+    "lead_agree": true
+  },
+  "runtime_s": 594.4
+}

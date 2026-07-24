@@ -1,0 +1,60 @@
+B771 Wave-5 W5-180: the 31-collision tension (B406) -- identity or base-rate?
+Curve: 15a1  y^2+xy+y = x^3+x^2-10x-10  (conductor 15)
+Field: Q(sqrt(-15))  disc -15, class number 2, forms {x^2+xy+4y^2 (principal), 2x^2+xy+2y^2 (non-principal)}
+
+=== Sanity checks ===
+  a_p(7) fast=+0 slow=+0  OK
+  a_p(11) fast=-4 slow=-4  OK
+  a_p(13) fast=-2 slow=-2  OK
+  a_p(17) fast=+2 slow=+2  OK
+  a_p(19) fast=+4 slow=+4  OK
+  a_p(23) fast=+0 slow=+0  OK
+  a_p(29) fast=-2 slow=-2  OK
+  19 = 1^2+1*2+4*2^2 = 19; represented_by_principal_form=True  OK
+  31 = 3^2+3*2+4*2^2 = 31; represented_by_principal_form=True  OK
+  79 = 7^2+7*2+4*2^2 = 79; represented_by_principal_form=True  OK
+All sanity checks: PASS
+
+=== SEED [seed A (matches B405 bound)]: bound=200 ===
+  supersingular(15a1) primes <= 200: [7, 23, 31, 79, 167]
+  cross-check vs B405 banked sentinels.json [7, 23, 31, 79, 167]: MATCH
+  classification of each supersingular prime in Q(sqrt(-15)):
+        7: inert
+       23: split-nonprincipal
+       31: split-principal
+       79: split-principal
+      167: split-nonprincipal
+  distinct splitting-classes hit by supersingular primes: ['inert', 'split-nonprincipal', 'split-principal']
+  base-rate over all 43 primes <= 200 (p!=2,3,5): principal=9 (0.2093), non-principal=11 (0.2558), inert=23 (0.5349)
+
+=== SEED [seed B (extended, base-rate statistics)]: bound=3000 ===
+  supersingular(15a1) primes <= 3000: [7, 23, 31, 79, 167, 431, 479, 983, 1303, 1607, 1871, 2351]
+  classification of each supersingular prime in Q(sqrt(-15)):
+        7: inert
+       23: split-nonprincipal
+       31: split-principal
+       79: split-principal
+      167: split-nonprincipal
+      431: inert
+      479: inert
+      983: split-nonprincipal
+     1303: inert
+     1607: split-nonprincipal
+     1871: inert
+     2351: inert
+  distinct splitting-classes hit by supersingular primes: ['inert', 'split-nonprincipal', 'split-principal']
+  base-rate over all 427 primes <= 3000 (p!=2,3,5): principal=98 (0.2295), non-principal=111 (0.2600), inert=218 (0.5105)
+
+=== E20 base-rate margin ===
+  seed A (bound=200): k=5 supersingular primes, background P(split-principal)=0.2093, expected principal-hits=1.047, observed=2, P(>=observed | null independence)=0.2819
+  seed B (bound=3000): k=12 supersingular primes, background P(split-principal)=0.2295, expected principal-hits=2.754, observed=2, P(>=observed | null independence)=0.7998
+
+=== VERDICT LOGIC ===
+  - cross-check vs B405 sentinels.json (bound=200): MATCH
+  - seed A splitting-classes hit by supersingular primes: ['inert', 'split-nonprincipal', 'split-principal']
+  - seed B splitting-classes hit by supersingular primes: ['inert', 'split-nonprincipal', 'split-principal']
+  - supersingularity of 15a1 hits ALL THREE splitting classes (inert, split-nonprincipal, split-principal) at both bounds -- no single class-group identity can underlie it; the 31/79 overlap with the split-principal list is consistent with the measured background density (E20 base-rate, not an anomaly)
+
+VERDICT: RESOLVED-B
+
+results.json written to /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W5-180/results.json

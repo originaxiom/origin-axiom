@@ -1,0 +1,89 @@
+{
+  "cell": "W5-335",
+  "question": "B647 gauge-covariant defect law on the named UNTESTED triples (0,3,4) and (1,2,4) out of the 6 nonzero Y-classes",
+  "source_of_untested_list": "frontier/B756_remaining_doors/RAW_WORKFLOW_OUTPUT.json (register.stale[8]/triaged[122,123]); SYNTHESIS_CC2.md; FINDINGS.md DOOR6",
+  "regression_control": {
+    "triple": "1,3,4",
+    "matches_bank_pattern": true,
+    "rev_lam_mu_defect": "(1/12+-1/36r)",
+    "banked_rev_lam_mu_defect": "1/12+-1/36r",
+    "law_check": {
+      "Y_ijk": "(1/24+1/72r)",
+      "2*conj(Y)": "(1/12+-1/36r)",
+      "rev(lam,mu)_defect": "(1/12+-1/36r)",
+      "law_holds_exact": true
+    }
+  },
+  "vacuity_self_test": {
+    "perturbed_defect_reports_fail": true
+  },
+  "untested_triples": {
+    "034": {
+      "checks": {
+        "fwd_(mu,lam)": {
+          "exact": true,
+          "defect": "(0)"
+        },
+        "rev_(mu,lam)": {
+          "exact": true,
+          "defect": "(0)"
+        },
+        "fwd_(lam,mu)": {
+          "exact": true,
+          "defect": "(0)"
+        },
+        "rev_(lam,mu)": {
+          "exact": false,
+          "defect": "(0+-4/3r)"
+        }
+      },
+      "single_slot_law_check": {
+        "Y_ijk": "(0+2/3r)",
+        "2*conj(Y)": "(0+-4/3r)",
+        "rev(lam,mu)_defect": "(0+-4/3r)",
+        "law_holds_exact": true
+      },
+      "dial_combination_law_check": {
+        "combo": "(0+-4/3r)",
+        "2*conj(Y)": "(0+-4/3r)",
+        "dial_law_holds_exact": true
+      },
+      "pattern_verdict": "LAWFUL (single-slot defect law holds)"
+    },
+    "124": {
+      "checks": {
+        "fwd_(mu,lam)": {
+          "exact": true,
+          "defect": "(0)"
+        },
+        "rev_(mu,lam)": {
+          "exact": true,
+          "defect": "(0)"
+        },
+        "fwd_(lam,mu)": {
+          "exact": true,
+          "defect": "(0)"
+        },
+        "rev_(lam,mu)": {
+          "exact": false,
+          "defect": "(0+-4/3r)"
+        }
+      },
+      "single_slot_law_check": {
+        "Y_ijk": "(0+2/3r)",
+        "2*conj(Y)": "(0+-4/3r)",
+        "rev(lam,mu)_defect": "(0+-4/3r)",
+        "law_holds_exact": true
+      },
+      "dial_combination_law_check": {
+        "combo": "(0+-4/3r)",
+        "2*conj(Y)": "(0+-4/3r)",
+        "dial_law_holds_exact": true
+      },
+      "pattern_verdict": "LAWFUL (single-slot defect law holds)"
+    }
+  },
+  "final_verdict": "RESOLVED-A",
+  "final_reason": "both untested triples (0,3,4) and (1,2,4) satisfy the gauge-covariant defect law exactly (checked directly, not merely gauge-transformed)",
+  "runtime_s": 1904.0
+}

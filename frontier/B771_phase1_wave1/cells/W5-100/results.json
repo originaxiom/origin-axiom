@@ -1,0 +1,372 @@
+{
+  "cell": "W5-100",
+  "V": 2.0,
+  "members": {
+    "1": "golden",
+    "2": "silver"
+  },
+  "criterion": {
+    "conv_range_tol": 0.03,
+    "rule": "Two adaptive band trackers are built: (i) a grid-refinement tracker (literal 'refine the grid where the local slope is unstable') and (ii) a grid-free recursive band-EDGE tracker (periodic Delta=+2 / antiperiodic Delta=-2 eigenvalues -> exactly q bands, no thin band can hide). RESOLVED-A iff a correct adaptive tracker makes D_0 CONVERGE at V=2 for BOTH seeds (bands fully resolved n=q at every level AND the last-3 level-pair D_0 range < conv_range_tol). RESOLVED-B iff no adaptive tracker converges (gate genuinely inconclusive at V=2). UNRESOLVED iff bands not fully resolved / seeds disagree. The grid-refinement tracker's fate is reported separately."
+  },
+  "seeds": {
+    "golden": {
+      "m": 1,
+      "ks": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "periods": [
+        34,
+        55,
+        89,
+        144,
+        233,
+        377,
+        610,
+        987
+      ],
+      "rows": [
+        {
+          "k": 7,
+          "q": 34,
+          "n_exact": 34,
+          "S_exact": 0.059718235618304805,
+          "n_adap6": 20,
+          "S_adap6": 0.03989787239275344,
+          "ev6": 150000,
+          "relS6": 0.33189800435892375,
+          "n_adap10": 28,
+          "S_adap10": 0.051837108194693116,
+          "ev10": 150000,
+          "relS10": 0.13197187328146665,
+          "adap_run": true,
+          "n_per": 34,
+          "n_anti": 34
+        },
+        {
+          "k": 8,
+          "q": 55,
+          "n_exact": 55,
+          "S_exact": 0.03380689120665736,
+          "n_adap6": 23,
+          "S_adap6": 0.015201560181194118,
+          "ev6": 150000,
+          "relS6": 0.55034137601506,
+          "n_adap10": 23,
+          "S_adap10": 0.017153391399628237,
+          "ev10": 150000,
+          "relS10": 0.4926066613232294,
+          "adap_run": true,
+          "n_per": 55,
+          "n_anti": 55
+        },
+        {
+          "k": 9,
+          "q": 89,
+          "n_exact": 89,
+          "S_exact": 0.018993889318852153,
+          "n_adap6": 9,
+          "S_adap6": 0.002017700776327125,
+          "ev6": 150000,
+          "relS6": 0.8937710574987672,
+          "n_adap10": 25,
+          "S_adap10": 0.005922627877311903,
+          "ev10": 150000,
+          "relS10": 0.6881824581638752,
+          "adap_run": true,
+          "n_per": 89,
+          "n_anti": 89
+        },
+        {
+          "k": 10,
+          "q": 144,
+          "n_exact": 144,
+          "S_exact": 0.010715919494877157,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 144,
+          "n_anti": 144
+        },
+        {
+          "k": 11,
+          "q": 233,
+          "n_exact": 233,
+          "S_exact": 0.006031867304067351,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 233,
+          "n_anti": 233
+        },
+        {
+          "k": 12,
+          "q": 377,
+          "n_exact": 377,
+          "S_exact": 0.003399537392867913,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 377,
+          "n_anti": 377
+        },
+        {
+          "k": 13,
+          "q": 610,
+          "n_exact": 610,
+          "S_exact": 0.0019146436864110328,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 610,
+          "n_anti": 610
+        },
+        {
+          "k": 14,
+          "q": 987,
+          "n_exact": 987,
+          "S_exact": 0.0010787502273841287,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 987,
+          "n_anti": 987
+        }
+      ],
+      "d0_exact": [
+        0.4580930104927459,
+        0.4549822194947384,
+        0.45671361171779223,
+        0.45574924463191985,
+        0.4562827433737905,
+        0.4559877994593782,
+        0.4561504290991988
+      ],
+      "pair_labels": [
+        "7->8",
+        "8->9",
+        "9->10",
+        "10->11",
+        "11->12",
+        "12->13",
+        "13->14"
+      ],
+      "d0_grid": [
+        0.12651724710712162,
+        -0.8678282022781292
+      ],
+      "pair_labels_grid": [
+        "7->8",
+        "8->9"
+      ],
+      "grid_recovery_fraction": {
+        "34": 0.5882352941176471,
+        "55": 0.41818181818181815,
+        "89": 0.10112359550561797
+      },
+      "grid_tracker_converges": false,
+      "d0_last3_range": 0.0002949439144123156,
+      "converged": true,
+      "bands_complete": true,
+      "d0_final_estimate": 0.4561504290991988
+    },
+    "silver": {
+      "m": 2,
+      "ks": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "periods": [
+        41,
+        99,
+        239,
+        577,
+        1393
+      ],
+      "rows": [
+        {
+          "k": 4,
+          "q": 41,
+          "n_exact": 41,
+          "S_exact": 0.057398155948210294,
+          "n_adap6": 25,
+          "S_adap6": 0.04467755090072334,
+          "ev6": 150000,
+          "relS6": 0.2216204482068137,
+          "n_adap10": 29,
+          "S_adap10": 0.04923002801504017,
+          "ev10": 150000,
+          "relS10": 0.14230645215397045,
+          "adap_run": true,
+          "n_per": 41,
+          "n_anti": 41
+        },
+        {
+          "k": 5,
+          "q": 99,
+          "n_exact": 99,
+          "S_exact": 0.020683730297483605,
+          "n_adap6": 23,
+          "S_adap6": 0.00865202163464307,
+          "ev6": 150000,
+          "relS6": 0.5816991659528804,
+          "n_adap10": 32,
+          "S_adap10": 0.009085980640854086,
+          "ev10": 150000,
+          "relS10": 0.5607184724334038,
+          "adap_run": true,
+          "n_per": 99,
+          "n_anti": 99
+        },
+        {
+          "k": 6,
+          "q": 239,
+          "n_exact": 239,
+          "S_exact": 0.0074960845603344595,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 239,
+          "n_anti": 239
+        },
+        {
+          "k": 7,
+          "q": 577,
+          "n_exact": 577,
+          "S_exact": 0.0027112022269099034,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 577,
+          "n_anti": 577
+        },
+        {
+          "k": 8,
+          "q": 1393,
+          "n_exact": 1393,
+          "S_exact": 0.0009812973140947978,
+          "n_adap6": null,
+          "S_adap6": null,
+          "ev6": 0,
+          "relS6": null,
+          "n_adap10": null,
+          "S_adap10": null,
+          "ev10": 0,
+          "relS10": null,
+          "adap_run": false,
+          "n_per": 1393,
+          "n_anti": 1393
+        }
+      ],
+      "d0_exact": [
+        0.4634328513471899,
+        0.46476766263728214,
+        0.4642824803178836,
+        0.4644561358303091
+      ],
+      "pair_labels": [
+        "4->5",
+        "5->6",
+        "6->7",
+        "7->8"
+      ],
+      "d0_grid": [
+        -0.053508178160999884
+      ],
+      "pair_labels_grid": [
+        "4->5"
+      ],
+      "grid_recovery_fraction": {
+        "41": 0.6097560975609756,
+        "99": 0.23232323232323232
+      },
+      "grid_tracker_converges": false,
+      "d0_last3_range": 0.00048518231939853607,
+      "converged": true,
+      "bands_complete": true,
+      "d0_final_estimate": 0.4644561358303091
+    }
+  },
+  "parity_note": "D_0 is built from the trace Delta=tr(M) via |Delta|<=2, even in the boundary parity. Band edges split as periodic(Delta=+2) U antiperiodic(Delta=-2), q each. A single-parity (chord / theta-odd) restriction keeps only q of the 2q edges and MISCOUNTS the bands -> the chord analog differs; the full even |Delta|<=2 count is the correct one used here.",
+  "brute_validation": {
+    "q": 55,
+    "counts": {
+      "2000": 6,
+      "20000": 49,
+      "200000": 55,
+      "1000000": 55
+    },
+    "monotone_below_q": true
+  },
+  "verdict": "RESOLVED-A",
+  "headline": "D_0 CONVERGES at V=2. The grid-free recursive band-EDGE tracker (periodic Delta=+2 / antiperiodic Delta=-2 eigenvalues) resolves every one of the q exponentially-thin bands (n=q at every level, brute-force validated) and the level-pair D_0 sequence settles for BOTH golden (~0.456) and silver (~0.464), last-3 range < 0.03. The criticality gate is CONCLUSIVE at V=2. NOTE the literal grid-refinement adaptive tracker is exponentially defeated (recovers a shrinking fraction of bands) -- convergence requires the grid-free edge tracker, not grid refinement.",
+  "discriminating_fact": {
+    "golden_D0_final": 0.4561504290991988,
+    "silver_D0_final": 0.4644561358303091,
+    "golden_last3_range": 0.0002949439144123156,
+    "silver_last3_range": 0.00048518231939853607,
+    "bands_complete_both": true,
+    "grid_refinement_tracker_converges": false,
+    "golden_grid_recovery": {
+      "34": 0.5882352941176471,
+      "55": 0.41818181818181815,
+      "89": 0.10112359550561797
+    },
+    "silver_grid_recovery": {
+      "41": 0.6097560975609756,
+      "99": 0.23232323232323232
+    }
+  }
+}

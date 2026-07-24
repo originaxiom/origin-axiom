@@ -1,0 +1,42 @@
+======================================================================================
+PART A -- SCREENING (T4): transfer-matrix Lyapunov gamma(g) on the letter floor
+======================================================================================
+  [PASS] A0 LE-code calibration: free lambda=0, E=2.5 -> arccosh(1.25)=0.6931 (asserts code correct)  ::  computed 0.69328 vs 0.69315
+  [PASS] A0b free-critical control: lambda=0, E=0 (|E|<2) -> LE ~ 0  ::  computed 0.000000
+  n(LE curves)=32  n(power-law fits)=31
+  positivity fraction = 0.4870  monotone fraction = 0.6392
+  power-law exponent p: mean=2.025 CV=0.717 range=[-0.315,5.974]
+  [FAIL] A1 SCREENING positivity: LE>0 for all coupling lam>0 (never a free/AF direction)  ::  positive-fraction=0.487 over 32 curves
+  [FAIL] A2 SCREENING monotonicity: dgamma/dlam>0  ::  monotone-step-fraction=0.639
+  [FAIL] A3 SCREENING specific law: p is a STABLE universal exponent ~0.9  ::  p_mean=2.025 CV=0.717
+======================================================================================
+PART B -- CONFINING string tension (T5): B1+B2 ONLY (B3 removed, vacuous by construction)
+======================================================================================
+  [DOC, not a check] B3-vacuity algebra: log|G_closed(90)|=-0.1119842411  log|G_open(90)|=-0.1119842411  diff=-1.110e-16  (predicted exactly 0 since diag(D) has unit-modulus determinant e^(i2pi/11); B3 measured this identity, not a physical differential -- REMOVED from the verdict)
+  [PASS] B0 [L=220,kF=1.5708] string-op control: n->1e6 => log|G|~0  ::  log|G_1e6|=-1.41e-11
+  [PASS] B1 [L=220,kF=1.5708] decay ALGEBRAIC not exponential (n=11)  ::  R2_loglog=1.0000>R2_exp=0.9367; a_eff -0.00079->-0.00011; family_alg_frac=1.00
+  [PASS] B2 [L=220,kF=1.5708] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special  ::  R2=0.9998 k=2.0098; n11 residual z=0.03 sigma
+  [PASS] B0 [L=220,kF=1.0472] string-op control: n->1e6 => log|G|~0  ::  log|G_1e6|=-1.38e-11
+  [PASS] B1 [L=220,kF=1.0472] decay ALGEBRAIC not exponential (n=11)  ::  R2_loglog=1.0000>R2_exp=0.9369; a_eff -0.00079->-0.00011; family_alg_frac=1.00
+  [PASS] B2 [L=220,kF=1.0472] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special  ::  R2=0.9998 k=1.9484; n11 residual z=0.20 sigma
+  [PASS] B0 [L=320,kF=1.5708] string-op control: n->1e6 => log|G|~0  ::  log|G_1e6|=-1.41e-11
+  [PASS] B1 [L=320,kF=1.5708] decay ALGEBRAIC not exponential (n=11)  ::  R2_loglog=1.0000>R2_exp=0.9118; a_eff -0.00079->-0.00006; family_alg_frac=1.00
+  [PASS] B2 [L=320,kF=1.5708] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special  ::  R2=0.9999 k=2.0082; n11 residual z=0.03 sigma
+  [PASS] B0 [L=320,kF=1.0472] string-op control: n->1e6 => log|G|~0  ::  log|G_1e6|=-1.38e-11
+  [PASS] B1 [L=320,kF=1.0472] decay ALGEBRAIC not exponential (n=11)  ::  R2_loglog=1.0000>R2_exp=0.9119; a_eff -0.00079->-0.00006; family_alg_frac=1.00
+  [PASS] B2 [L=320,kF=1.0472] E20 comparator: eta(n)=k/n^2 smooth, Z/11 not special  ::  R2=0.9999 k=1.9594; n11 residual z=0.20 sigma
+  B1 across 4 legs (2 grids x 2 seeds): [True, True, True, True]  stable=True
+  B2 across 4 legs (2 grids x 2 seeds): [True, True, True, True]  stable=True
+======================================================================================
+VERDICT
+======================================================================================
+  validity/calibration checks pass: True
+  screening qualitative (generic, not object-specific): False
+  screening SPECIFIC law [class A]: False
+  confinement genuine, non-vacuous legs only [class B]: False  (status=STABLE)
+  => VERDICT: RESOLVED-B
+
+HEADLINE: W4-194's H121-dissolves negative SURVIVES B3 removal: with the vacuous open-closed differential (identically zero by unit-modulus-determinant construction) stripped out, the confining signature still dissolves on B1 (n=11 string decay is ALGEBRAIC not exponential, effective rate -> 0) and B2 (eta(n)=k/n^2 smooth, Z/11 not special), reproduced STABLY across a 2-grid (L=220,320) x 2-seed (k_F=pi/2,pi/3) hardening sweep (4/4 legs agree on both). The screening law (p->0.9 universal) independently dissolves as in W4-194. H121 remains dissolved: gauge-signatures do not survive as object-specific structural facts.
+DISCRIMINATING FACT: p_CV=0.717 (need <0.15) with p in [-0.31,5.97] => class A dissolves; B1 algebraic-decay verdict across 4 legs (L in [220, 320], kF in [1.5708,1.0472]) = [True, True, True, True] (stable=True); B2 not-special verdict across same 4 legs = [True, True, True, True] (stable=True); B3 (open-closed differential) proven identically 0 by unit-modulus-determinant algebra (1.11e-16 residual) and REMOVED from the verdict.
+
+wrote results.json

@@ -1,0 +1,43 @@
+==============================================================================
+B771 W5-100 : adaptive band tracker for D_0 at V=2 (B447 named follow-up)
+==============================================================================
+
+--- seed m=1 (golden)  levels k=[7, 8, 9, 10, 11, 12, 13, 14] periods=[34, 55, 89, 144, 233, 377, 610, 987] ---
+  k= 7 q=  34 | exact n=  34 S=0.05972 | adap6 n=  20 S=0.03990 relS=3.3e-01 | adap10 n=  28 relS=1.3e-01 | parity +34/-34
+  k= 8 q=  55 | exact n=  55 S=0.03381 | adap6 n=  23 S=0.01520 relS=5.5e-01 | adap10 n=  23 relS=4.9e-01 | parity +55/-55
+  k= 9 q=  89 | exact n=  89 S=0.01899 | adap6 n=   9 S=0.00202 relS=8.9e-01 | adap10 n=  25 relS=6.9e-01 | parity +89/-89
+  k=10 q= 144 | exact n= 144 S=0.01072 | adaptive SKIPPED (q>99) | parity +144/-144
+  k=11 q= 233 | exact n= 233 S=0.00603 | adaptive SKIPPED (q>99) | parity +233/-233
+  k=12 q= 377 | exact n= 377 S=0.00340 | adaptive SKIPPED (q>99) | parity +377/-377
+  k=13 q= 610 | exact n= 610 S=0.00191 | adaptive SKIPPED (q>99) | parity +610/-610
+  k=14 q= 987 | exact n= 987 S=0.00108 | adaptive SKIPPED (q>99) | parity +987/-987
+  D_0 (edge tracker) per pair: 7->8:0.4581  8->9:0.4550  9->10:0.4567  10->11:0.4557  11->12:0.4563  12->13:0.4560  13->14:0.4562
+  D_0 (grid tracker) per pair: 7->8:0.1265  8->9:-0.8678
+  grid-refinement recovery fraction n_grid/q: q34:0.59  q55:0.42  q89:0.10  -> grid tracker converges=False
+  last-3 edge-D_0 range=0.0003 (tol 0.03) -> converged=True ; bands_complete(n==q all levels)=True
+
+--- seed m=2 (silver)  levels k=[4, 5, 6, 7, 8] periods=[41, 99, 239, 577, 1393] ---
+  k= 4 q=  41 | exact n=  41 S=0.05740 | adap6 n=  25 S=0.04468 relS=2.2e-01 | adap10 n=  29 relS=1.4e-01 | parity +41/-41
+  k= 5 q=  99 | exact n=  99 S=0.02068 | adap6 n=  23 S=0.00865 relS=5.8e-01 | adap10 n=  32 relS=5.6e-01 | parity +99/-99
+  k= 6 q= 239 | exact n= 239 S=0.00750 | adaptive SKIPPED (q>99) | parity +239/-239
+  k= 7 q= 577 | exact n= 577 S=0.00271 | adaptive SKIPPED (q>99) | parity +577/-577
+  k= 8 q=1393 | exact n=1393 S=0.00098 | adaptive SKIPPED (q>99) | parity +1393/-1393
+  D_0 (edge tracker) per pair: 4->5:0.4634  5->6:0.4648  6->7:0.4643  7->8:0.4645
+  D_0 (grid tracker) per pair: 4->5:-0.0535
+  grid-refinement recovery fraction n_grid/q: q41:0.61  q99:0.23  -> grid tracker converges=False
+  last-3 edge-D_0 range=0.0005 (tol 0.03) -> converged=True ; bands_complete(n==q all levels)=True
+
+--- brute-force uniform-grid band count vs edge tracker (m=1, k=8, q=55) ---
+  uniform ngrid=    2000: bands=  6  (edge tracker n=q=55)
+  uniform ngrid=   20000: bands= 49  (edge tracker n=q=55)
+  uniform ngrid=  200000: bands= 55  (edge tracker n=q=55)
+  uniform ngrid= 1000000: bands= 55  (edge tracker n=q=55)
+  brute validation (counts climb toward q, never exceed): True
+
+==============================================================================
+VERDICT: RESOLVED-A
+D_0 CONVERGES at V=2. The grid-free recursive band-EDGE tracker (periodic Delta=+2 / antiperiodic Delta=-2 eigenvalues) resolves every one of the q exponentially-thin bands (n=q at every level, brute-force validated) and the level-pair D_0 sequence settles for BOTH golden (~0.456) and silver (~0.464), last-3 range < 0.03. The criticality gate is CONCLUSIVE at V=2. NOTE the literal grid-refinement adaptive tracker is exponentially defeated (recovers a shrinking fraction of bands) -- convergence requires the grid-free edge tracker, not grid refinement.
+  golden D_0 final=0.4562, last3 range=0.0003, bands_complete=True
+  silver D_0 final=0.4645, last3 range=0.0005, bands_complete=True
+  grid-refinement adaptive tracker converges: False (defeated by exponential band-thinning)
+==============================================================================

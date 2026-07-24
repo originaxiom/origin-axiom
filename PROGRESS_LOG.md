@@ -7753,3 +7753,15 @@ abelian invariant) — caught and corrected to NEEDS-SPECIALIST; W3-067c and W4-
 class (E26) is real and costly, and justifies a chord-level pass over the remaining
 banked trace-level negatives in a later wave. Now launching Wave 5 (the final
 mechanical wave) — one heavy workflow at a time, as B773 has cleared.
+
+## 2026-07-23 — B771 Wave 5 banked: the Phase-1 mechanical lane is drained
+The final mechanical wave: 6 banked, 2 cosmetic-carry (both math verified). W4-017r's
+fabrication stripped and W4-194's firewall-negative re-confirmed on non-vacuous
+evidence (both wave-4 carries close). New: the metallic spectral-genus sequence
+completes (3,1,41) — the genus GROWS at m=3 (genus(A₃)=41 via Riemann–Hurwitz on the
+degree-8 (ℤ/2)³ cover, 6-seed monodromy cross-check; carries only for a dead
+verdict-branch); D₀ converges at V=2 (golden 0.4562/silver 0.4645) via the adaptive
+tracker (carries for a decorative check). Also banked: σ-signature ill-posed, the
+31-collision base-rate, the being-hand defect to n=9, B647 triples EXTERNAL. With
+Wave 5 the Phase-1 mechanical lane is done; only cosmetic strips (W5-139, W5-100) and
+the 3 B773 chord-carries remain. Phase-1 wrap checkpoint next.
