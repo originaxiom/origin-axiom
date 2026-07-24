@@ -1,0 +1,17 @@
+=== P2W4-L54  adjoint Reidemeister torsion of 4_1 (geometric rep) ===
+rep u = (1+sqrt(-3))/2 ; relator==I: True ; meridian trace: 2
+Alexander (raw): -t + 3 - 1/t
+adjoint hom on relator == I3: True
+Wada num det : (t - 1)**4*(t**2 - 5*t + 1)/t**3
+Wada den det : (t - 1)**3
+adjoint twisted-Alexander torsion: (t - 1)*(t**2 - 5*t + 1)/t**3
+--- torsion polynomial (both routes) ---
+ route A/extracted p(T) = T**2 - 5*T + 1   roots in Q(sqrt(21)) = ['5/2 - sqrt(21)/2', 'sqrt(21)/2 + 5/2']
+ route B98 char|geom     = (t-1)*( t**2 - 5*t + 1 )  c= 5
+ tau_1 = p(1) = -3   (B98: -3 )
+--- Galois (S032-A) ---
+ sym sum = 5  sym prod = 1  -> symmetrizable orbit
+ c(x_geom) both branches: 5 5  -> Galois-invariant: True
+checks: {"route_A_rep_and_adjoint_hom_ok": true, "reproduced_second_way_B98": true, "polys_agree": true, "tau1_agree_and_eq_-3": true, "galois_symmetrizable(sum,prod rational)": true, "galois_invariant_over_sqrt(-3)": true}
+VERDICT: RESOLVED-A
+adjoint Reidemeister torsion of 4_1 at the geometric rep computed: torsion polynomial T^2-5T+1, tau_1 = p(1) = -3 (rational); roots a symmetric Galois orbit in Q(sqrt(21)); the S032-A mechanism holds -> not a forced choice

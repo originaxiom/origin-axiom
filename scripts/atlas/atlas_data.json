@@ -16259,7 +16259,7 @@
     "S3"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 10,
+   "obstacle_conf": 13,
    "status": "banked",
    "domain": "arithmetic"
   },

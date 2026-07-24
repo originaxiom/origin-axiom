@@ -1,0 +1,41 @@
+{
+ "cell": "P2W4-L38",
+ "lead": "OI-062 / S039 Act II -- the kappa=-2 deformation scale (e^{-k*Vol})",
+ "verdict": "RESOLVED-B",
+ "terminal_state": "EXTERNAL",
+ "Vol_4_1": {
+  "bloch_wigner_2ImLi2(e^{ipi/3})": "2.02988321281931",
+  "lobachevsky_6Lambda(pi/3)": "2.02988321281931",
+  "snappy": "2.0298832128",
+  "agree_AB": true,
+  "agree_AC": true
+ },
+ "CS_complete": -1.1102230246251565e-15,
+ "CS_is_zero": true,
+ "deformation_scale": {
+  "form": "S(k) = exp(-(k/2pi)*Vol) = base**k",
+  "rate_Vol_over_2pi": "0.323065947219",
+  "base_exp(-Vol/2pi)": 0.7239261118795244,
+  "base_is_O1_not_tiny": true,
+  "scale_at_level_k": {
+   "1": 0.7239261118795244,
+   "2": 0.5240690154610056,
+   "3": 0.37938724471921614,
+   "6": 0.14393468145563837,
+   "12": 0.02071719252573609,
+   "50": 9.65410663617775e-08,
+   "100": 9.320177494269129e-15
+  },
+  "k_needed_for_scale<1e-3": 21.382,
+  "smallness_source": "external level k (rate is forced/O(1))"
+ },
+ "deformation_curvature": {
+  "cusp_shape_tau": "(8.881784197001252e-16+3.4641016151377526j)",
+  "tau^2": "(-11.999999999999986+6.153480596427401e-15j)",
+  "curvature_field_is_atom_Q(sqrt-3)": true
+ },
+ "why": "no forced tiny number: the deformation RATE Vol/2pi is a forced O(1) hyperbolic invariant (0.3231; base exp(-Vol/2pi)=0.724 is O(1)), and the SMALLNESS of e^{-k*Vol} is set entirely by the EXTERNAL level k -- the scale is external (5th firewall mode, extending B213 Act I to the kappa=-2 vacuum deformation)",
+ "gate5": "structural deformation scale only; NO SM Higgs claim; nothing to CLAIMS; one-number pin untouched",
+ "chord_discipline_B774": "the exponent is the genuine hyperbolic invariant Vol(4_1) (topological volume + NZ cusp modulus), not a character/abelian proxy",
+ "reproduced_2nd_way": "Vol via Bloch-Wigner dilog AND Lobachevsky AND snappy (all agree)"
+}
