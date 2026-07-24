@@ -1,0 +1,659 @@
+{
+ "cell": "B776-symprod",
+ "M_reached": 105,
+ "verdict": "RESOLVED-B",
+ "anchor_reproduced": true,
+ "five_appears": false,
+ "gates": {
+  "r1": "11/24",
+  "r2": "697/1152",
+  "r1_ok": true,
+  "r2_ok": true,
+  "eq2_ok": true
+ },
+ "three_exponent_at_100": 146,
+ "three_exponents": {
+  "0": 0,
+  "1": 0,
+  "2": 3,
+  "3": 3,
+  "4": 5,
+  "5": 5,
+  "6": 9,
+  "7": 8,
+  "8": 12,
+  "9": 12,
+  "10": 13,
+  "11": 13,
+  "12": 17,
+  "13": 16,
+  "14": 20,
+  "15": 20,
+  "16": 22,
+  "17": 22,
+  "18": 27,
+  "19": 25,
+  "20": 30,
+  "21": 30,
+  "22": 32,
+  "23": 32,
+  "24": 36,
+  "25": 35,
+  "26": 39,
+  "27": 39,
+  "28": 39,
+  "29": 39,
+  "30": 43,
+  "31": 42,
+  "32": 46,
+  "33": 46,
+  "34": 48,
+  "35": 48,
+  "36": 53,
+  "37": 51,
+  "38": 56,
+  "39": 56,
+  "40": 58,
+  "41": 58,
+  "42": 62,
+  "43": 61,
+  "44": 65,
+  "45": 65,
+  "46": 66,
+  "47": 66,
+  "48": 70,
+  "49": 69,
+  "50": 73,
+  "51": 73,
+  "52": 75,
+  "53": 75,
+  "54": 81,
+  "55": 78,
+  "56": 84,
+  "57": 84,
+  "58": 86,
+  "59": 86,
+  "60": 90,
+  "61": 89,
+  "62": 93,
+  "63": 93,
+  "64": 94,
+  "65": 94,
+  "66": 98,
+  "67": 97,
+  "68": 101,
+  "69": 101,
+  "70": 103,
+  "71": 103,
+  "72": 108,
+  "73": 106,
+  "74": 111,
+  "75": 111,
+  "76": 113,
+  "77": 113,
+  "78": 117,
+  "79": 116,
+  "80": 120,
+  "81": 120,
+  "82": 120,
+  "83": 120,
+  "84": 123,
+  "85": 122,
+  "86": 126,
+  "87": 126,
+  "88": 128,
+  "89": 128,
+  "90": 133,
+  "91": 131,
+  "92": 136,
+  "93": 136,
+  "94": 138,
+  "95": 138,
+  "96": 142,
+  "97": 141,
+  "98": 145,
+  "99": 145,
+  "100": 146,
+  "101": 146,
+  "102": 150,
+  "103": 149,
+  "104": 153,
+  "105": 153
+ },
+ "first_nonthree_prime_order": null,
+ "first_nonthree_prime_factors": null,
+ "denominator_factorisation": {
+  "0": {
+   "three_exp": 0,
+   "nonthree": {},
+   "pure3": true
+  },
+  "1": {
+   "three_exp": 0,
+   "nonthree": {},
+   "pure3": true
+  },
+  "2": {
+   "three_exp": 3,
+   "nonthree": {},
+   "pure3": true
+  },
+  "3": {
+   "three_exp": 3,
+   "nonthree": {},
+   "pure3": true
+  },
+  "4": {
+   "three_exp": 5,
+   "nonthree": {},
+   "pure3": true
+  },
+  "5": {
+   "three_exp": 5,
+   "nonthree": {},
+   "pure3": true
+  },
+  "6": {
+   "three_exp": 9,
+   "nonthree": {},
+   "pure3": true
+  },
+  "7": {
+   "three_exp": 8,
+   "nonthree": {},
+   "pure3": true
+  },
+  "8": {
+   "three_exp": 12,
+   "nonthree": {},
+   "pure3": true
+  },
+  "9": {
+   "three_exp": 12,
+   "nonthree": {},
+   "pure3": true
+  },
+  "10": {
+   "three_exp": 13,
+   "nonthree": {},
+   "pure3": true
+  },
+  "11": {
+   "three_exp": 13,
+   "nonthree": {},
+   "pure3": true
+  },
+  "12": {
+   "three_exp": 17,
+   "nonthree": {},
+   "pure3": true
+  },
+  "13": {
+   "three_exp": 16,
+   "nonthree": {},
+   "pure3": true
+  },
+  "14": {
+   "three_exp": 20,
+   "nonthree": {},
+   "pure3": true
+  },
+  "15": {
+   "three_exp": 20,
+   "nonthree": {},
+   "pure3": true
+  },
+  "16": {
+   "three_exp": 22,
+   "nonthree": {},
+   "pure3": true
+  },
+  "17": {
+   "three_exp": 22,
+   "nonthree": {},
+   "pure3": true
+  },
+  "18": {
+   "three_exp": 27,
+   "nonthree": {},
+   "pure3": true
+  },
+  "19": {
+   "three_exp": 25,
+   "nonthree": {},
+   "pure3": true
+  },
+  "20": {
+   "three_exp": 30,
+   "nonthree": {},
+   "pure3": true
+  },
+  "21": {
+   "three_exp": 30,
+   "nonthree": {},
+   "pure3": true
+  },
+  "22": {
+   "three_exp": 32,
+   "nonthree": {},
+   "pure3": true
+  },
+  "23": {
+   "three_exp": 32,
+   "nonthree": {},
+   "pure3": true
+  },
+  "24": {
+   "three_exp": 36,
+   "nonthree": {},
+   "pure3": true
+  },
+  "25": {
+   "three_exp": 35,
+   "nonthree": {},
+   "pure3": true
+  },
+  "26": {
+   "three_exp": 39,
+   "nonthree": {},
+   "pure3": true
+  },
+  "27": {
+   "three_exp": 39,
+   "nonthree": {},
+   "pure3": true
+  },
+  "28": {
+   "three_exp": 39,
+   "nonthree": {},
+   "pure3": true
+  },
+  "29": {
+   "three_exp": 39,
+   "nonthree": {},
+   "pure3": true
+  },
+  "30": {
+   "three_exp": 43,
+   "nonthree": {},
+   "pure3": true
+  },
+  "31": {
+   "three_exp": 42,
+   "nonthree": {},
+   "pure3": true
+  },
+  "32": {
+   "three_exp": 46,
+   "nonthree": {},
+   "pure3": true
+  },
+  "33": {
+   "three_exp": 46,
+   "nonthree": {},
+   "pure3": true
+  },
+  "34": {
+   "three_exp": 48,
+   "nonthree": {},
+   "pure3": true
+  },
+  "35": {
+   "three_exp": 48,
+   "nonthree": {},
+   "pure3": true
+  },
+  "36": {
+   "three_exp": 53,
+   "nonthree": {},
+   "pure3": true
+  },
+  "37": {
+   "three_exp": 51,
+   "nonthree": {},
+   "pure3": true
+  },
+  "38": {
+   "three_exp": 56,
+   "nonthree": {},
+   "pure3": true
+  },
+  "39": {
+   "three_exp": 56,
+   "nonthree": {},
+   "pure3": true
+  },
+  "40": {
+   "three_exp": 58,
+   "nonthree": {},
+   "pure3": true
+  },
+  "41": {
+   "three_exp": 58,
+   "nonthree": {},
+   "pure3": true
+  },
+  "42": {
+   "three_exp": 62,
+   "nonthree": {},
+   "pure3": true
+  },
+  "43": {
+   "three_exp": 61,
+   "nonthree": {},
+   "pure3": true
+  },
+  "44": {
+   "three_exp": 65,
+   "nonthree": {},
+   "pure3": true
+  },
+  "45": {
+   "three_exp": 65,
+   "nonthree": {},
+   "pure3": true
+  },
+  "46": {
+   "three_exp": 66,
+   "nonthree": {},
+   "pure3": true
+  },
+  "47": {
+   "three_exp": 66,
+   "nonthree": {},
+   "pure3": true
+  },
+  "48": {
+   "three_exp": 70,
+   "nonthree": {},
+   "pure3": true
+  },
+  "49": {
+   "three_exp": 69,
+   "nonthree": {},
+   "pure3": true
+  },
+  "50": {
+   "three_exp": 73,
+   "nonthree": {},
+   "pure3": true
+  },
+  "51": {
+   "three_exp": 73,
+   "nonthree": {},
+   "pure3": true
+  },
+  "52": {
+   "three_exp": 75,
+   "nonthree": {},
+   "pure3": true
+  },
+  "53": {
+   "three_exp": 75,
+   "nonthree": {},
+   "pure3": true
+  },
+  "54": {
+   "three_exp": 81,
+   "nonthree": {},
+   "pure3": true
+  },
+  "55": {
+   "three_exp": 78,
+   "nonthree": {},
+   "pure3": true
+  },
+  "56": {
+   "three_exp": 84,
+   "nonthree": {},
+   "pure3": true
+  },
+  "57": {
+   "three_exp": 84,
+   "nonthree": {},
+   "pure3": true
+  },
+  "58": {
+   "three_exp": 86,
+   "nonthree": {},
+   "pure3": true
+  },
+  "59": {
+   "three_exp": 86,
+   "nonthree": {},
+   "pure3": true
+  },
+  "60": {
+   "three_exp": 90,
+   "nonthree": {},
+   "pure3": true
+  },
+  "61": {
+   "three_exp": 89,
+   "nonthree": {},
+   "pure3": true
+  },
+  "62": {
+   "three_exp": 93,
+   "nonthree": {},
+   "pure3": true
+  },
+  "63": {
+   "three_exp": 93,
+   "nonthree": {},
+   "pure3": true
+  },
+  "64": {
+   "three_exp": 94,
+   "nonthree": {},
+   "pure3": true
+  },
+  "65": {
+   "three_exp": 94,
+   "nonthree": {},
+   "pure3": true
+  },
+  "66": {
+   "three_exp": 98,
+   "nonthree": {},
+   "pure3": true
+  },
+  "67": {
+   "three_exp": 97,
+   "nonthree": {},
+   "pure3": true
+  },
+  "68": {
+   "three_exp": 101,
+   "nonthree": {},
+   "pure3": true
+  },
+  "69": {
+   "three_exp": 101,
+   "nonthree": {},
+   "pure3": true
+  },
+  "70": {
+   "three_exp": 103,
+   "nonthree": {},
+   "pure3": true
+  },
+  "71": {
+   "three_exp": 103,
+   "nonthree": {},
+   "pure3": true
+  },
+  "72": {
+   "three_exp": 108,
+   "nonthree": {},
+   "pure3": true
+  },
+  "73": {
+   "three_exp": 106,
+   "nonthree": {},
+   "pure3": true
+  },
+  "74": {
+   "three_exp": 111,
+   "nonthree": {},
+   "pure3": true
+  },
+  "75": {
+   "three_exp": 111,
+   "nonthree": {},
+   "pure3": true
+  },
+  "76": {
+   "three_exp": 113,
+   "nonthree": {},
+   "pure3": true
+  },
+  "77": {
+   "three_exp": 113,
+   "nonthree": {},
+   "pure3": true
+  },
+  "78": {
+   "three_exp": 117,
+   "nonthree": {},
+   "pure3": true
+  },
+  "79": {
+   "three_exp": 116,
+   "nonthree": {},
+   "pure3": true
+  },
+  "80": {
+   "three_exp": 120,
+   "nonthree": {},
+   "pure3": true
+  },
+  "81": {
+   "three_exp": 120,
+   "nonthree": {},
+   "pure3": true
+  },
+  "82": {
+   "three_exp": 120,
+   "nonthree": {},
+   "pure3": true
+  },
+  "83": {
+   "three_exp": 120,
+   "nonthree": {},
+   "pure3": true
+  },
+  "84": {
+   "three_exp": 123,
+   "nonthree": {},
+   "pure3": true
+  },
+  "85": {
+   "three_exp": 122,
+   "nonthree": {},
+   "pure3": true
+  },
+  "86": {
+   "three_exp": 126,
+   "nonthree": {},
+   "pure3": true
+  },
+  "87": {
+   "three_exp": 126,
+   "nonthree": {},
+   "pure3": true
+  },
+  "88": {
+   "three_exp": 128,
+   "nonthree": {},
+   "pure3": true
+  },
+  "89": {
+   "three_exp": 128,
+   "nonthree": {},
+   "pure3": true
+  },
+  "90": {
+   "three_exp": 133,
+   "nonthree": {},
+   "pure3": true
+  },
+  "91": {
+   "three_exp": 131,
+   "nonthree": {},
+   "pure3": true
+  },
+  "92": {
+   "three_exp": 136,
+   "nonthree": {},
+   "pure3": true
+  },
+  "93": {
+   "three_exp": 136,
+   "nonthree": {},
+   "pure3": true
+  },
+  "94": {
+   "three_exp": 138,
+   "nonthree": {},
+   "pure3": true
+  },
+  "95": {
+   "three_exp": 138,
+   "nonthree": {},
+   "pure3": true
+  },
+  "96": {
+   "three_exp": 142,
+   "nonthree": {},
+   "pure3": true
+  },
+  "97": {
+   "three_exp": 141,
+   "nonthree": {},
+   "pure3": true
+  },
+  "98": {
+   "three_exp": 145,
+   "nonthree": {},
+   "pure3": true
+  },
+  "99": {
+   "three_exp": 145,
+   "nonthree": {},
+   "pure3": true
+  },
+  "100": {
+   "three_exp": 146,
+   "nonthree": {},
+   "pure3": true
+  },
+  "101": {
+   "three_exp": 146,
+   "nonthree": {},
+   "pure3": true
+  },
+  "102": {
+   "three_exp": 150,
+   "nonthree": {},
+   "pure3": true
+  },
+  "103": {
+   "three_exp": 149,
+   "nonthree": {},
+   "pure3": true
+  },
+  "104": {
+   "three_exp": 153,
+   "nonthree": {},
+   "pure3": true
+  },
+  "105": {
+   "three_exp": 153,
+   "nonthree": {},
+   "pure3": true
+  }
+ },
+ "discriminating_fact": "Anchor 3^146@100 REPRODUCED in-cell from first principles; the symmetrised product Phi(h)Phi(-h) is PURE-3 through order u^105 (no literal 5^k/7^k/... in any denominator). B685's 3-only pattern holds to depth 105; still unproved (GSWZ Habiro-ring theorem remains the all-order mechanism). all_pure3_through_M=True",
+ "elapsed_sec": 1889.0
+}

@@ -53,3 +53,14 @@ to depth 100.
 
 Gate 5/5-Q: pure number theory. Nothing to CLAIMS; the one-number pin untouched;
 nothing sent to anyone.
+
+## ANCHOR CLOSED (MM=105 completion, 2026-07-24)
+The order-100 anchor run completed (bg bctrbodsk, 1889s). **u^100 : denominator = 3^146
+— B685's anchor REPRODUCED in-cell from first principles**, and the symmetrised product
+is **PURE-3 through order u^105** (u^105 : 3^153; NO literal 5^k/7^k in any denominator,
+0..105 complete). anchor_reproduced=True, five_appears=False. The 3-exponent trajectory
+is clean and linear (~1.46·k: 3^20@15, 3^73@50, 3^146@100, 3^153@105). **B685's 3-only
+pattern now holds to depth 105, reconstructed from first principles — no longer cited.**
+Still unproved at ALL orders (the GSWZ Habiro-ring theorem remains the all-order
+mechanism — that is the precise, well-posed question for the authors). This is the
+strongest in-sandbox form the negative can take.
