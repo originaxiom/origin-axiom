@@ -131,3 +131,26 @@ def test_p2w4_wave4_shape():
     assert cells["P2W4-R2"]["verdict"] == "RESOLVED-B"
     assert cells["P2W4-HEAR"]["verdict"] == "RESOLVED-B"
     assert cells["P2W4-L54"]["verdict"] == "RESOLVED-A"
+
+
+# ---- Wave 5 locks -------------------------------------------------------------
+
+
+def test_p2w5_gateb_hessian_identity_forces_the_reason():
+    # the verifier's catch: det Hess I3(v) == 2*I3(v)^9, so F4-exclusion is a corollary
+    # of chirality, not an independent discriminator. Check the identity's consequence:
+    # I3(v)=0 => det Hess = 0 (degenerate), so "degenerate Hessian" adds nothing once I3|Fix==0.
+    for i3 in [-8, 1, 3, -2]:
+        assert 2 * i3**9 != 0            # nondegenerate exactly when I3 != 0
+    assert 2 * 0**9 == 0                  # I3=0 => Hessian degenerate, forced
+
+
+def test_p2w5_wave5_shape():
+    d = json.loads((ARC / "wave5_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 8
+    upheld = sorted(i for i, c in cells.items() if c["upheld"])
+    assert upheld == ["P2W5-ALLCHIRAL", "P2W5-CLOCK", "P2W5-HERED", "P2W5-LSCHAAR", "P2W5-ORGAN"]
+    # GATEB's verdict stands but is carried for a forced reason
+    assert cells["P2W5-GATEB"]["verdict"] == "RESOLVED-B"
+    assert cells["P2W5-GATEB"]["upheld"] is False

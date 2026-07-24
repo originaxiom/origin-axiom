@@ -168,3 +168,21 @@ CELL VERDICT
   Gate 5/5-Q: structural only; no SM values; nothing to CLAIMS.
 
 written: results.json
+======================================================================
+P2W5-ORGAN FINAL
+======================================================================
+  CELL VERDICT     : RESOLVED-A  (TWO-ORGANS)
+  sealed-window RAW: TWO-ORGANS -> bound-hugging organ [[1.55, 1.55, 1.55]] dropped -> ONE-ORGAN
+  extended window  : organs [[0.95, 0.95, 0.95], [1.6, 1.6, 1.6]]
+  inside plateau   : [[0.95, 0.95, 0.95]]  (1 organ)
+  S3 clusters      : [[0.95], [1.15], [1.4, 1.45], [1.6]]  (4)
+  S2 gap regime    : ONE GAP REGIME (l1 == 0.38197 = F(n-2)/F(n) everywhere)
+  power            : S1x 7.86e+05 x floor, S3 2.52e+05 x floor; floor 8.30e-11
+  N3 floor ratio   : 1.73e+08 (N3's jitter floor / this statistic's floor)
+  normalisation-robust: True
+  BC-robust           : False (open BC: [[1.15, 1.15]])
+  R3 banked scan reproduced with periodic=False, max|diff| = 0.0e+00
+
+RESOLVED-A is the sealed cell criterion: a structurally discriminating statistic was designed, sealed, run and met its stated power (decision margin 7.86e+05 x the MEASURED floor; N3's box_dim floor was 1.7e8 x this statistic's floor; 0/27 depth-flapping pairs). The ORGAN COUNT it returns is conditional on the declared boundary condition: PERIODIC (the sealed convention) gives 2 identifiable organs (kappa 0.95, 1.60) and exactly 1 inside N3's plateau [0.80,1.55]; OPEN gives 1 identifiable organ (kappa 1.15). The count is normalisation-robust but NOT boundary-condition-robust. N3's own candidate peaks (1.10, 1.45) are peaks of NEITHER.
+
+written: results.json (robustness block appended)

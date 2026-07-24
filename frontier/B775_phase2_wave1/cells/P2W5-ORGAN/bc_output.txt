@@ -1,0 +1,78 @@
+fib_word(16) length 1597; metallic_word(15,1) length 1597; identical string: True
+
+(1)+(2) R3's recipe (periodic=False) vs periodic=True, R3's own grid
+  kappa=0.80: open=0.04127117  banked_R3=0.04127117  |diff|=0.00e+00   periodic=0.06976264
+  kappa=0.90: open=0.05256915  banked_R3=0.05256915  |diff|=0.00e+00   periodic=0.07792454
+  kappa=1.00: open=0.05756787  banked_R3=0.05756787  |diff|=0.00e+00   periodic=0.07800501
+  kappa=1.10: open=0.06251722  banked_R3=0.06251722  |diff|=0.00e+00   periodic=0.07588276
+  kappa=1.20: open=0.06299079  banked_R3=0.06299079  |diff|=0.00e+00   periodic=0.07205495
+  kappa=1.30: open=0.05658234  banked_R3=0.05658234  |diff|=0.00e+00   periodic=0.06435821
+  kappa=1.40: open=0.05030141  banked_R3=0.05030141  |diff|=0.00e+00   periodic=0.05420104
+  kappa=1.50: open=0.03295308  banked_R3=0.03295308  |diff|=0.00e+00   periodic=0.03288262
+  kappa=1.60: open=0.02951523  banked_R3=0.02951523  |diff|=0.00e+00   periodic=0.04094981
+  kappa=1.80: open=0.01461429  banked_R3=0.01461429  |diff|=0.00e+00   periodic=0.02288729
+  MAX |open - banked_R3| over the 10 points = 0.00e+00  => R3's scan reproduced: True
+  max |periodic - open| = 2.8491e-02   (the undeclared switch)
+
+(3) organ structure under OPEN BC on this cell's extended grid
+  open d=13 kappa=0.55: g=0.064239
+  open d=13 kappa=0.60: g=0.062124
+  open d=13 kappa=0.65: g=0.054612
+  open d=13 kappa=0.70: g=0.047434
+  open d=13 kappa=0.75: g=0.040978
+  open d=13 kappa=0.80: g=0.041988
+  open d=13 kappa=0.85: g=0.048676
+  open d=13 kappa=0.90: g=0.052938
+  open d=13 kappa=0.95: g=0.054962
+  open d=13 kappa=1.00: g=0.057133
+  open d=13 kappa=1.05: g=0.059568
+  open d=13 kappa=1.10: g=0.062360
+  open d=13 kappa=1.15: g=0.064730
+  open d=13 kappa=1.20: g=0.062430
+  open d=13 kappa=1.25: g=0.060578
+  open d=13 kappa=1.30: g=0.058053
+  open d=13 kappa=1.35: g=0.054169
+  open d=13 kappa=1.40: g=0.051206
+  open d=13 kappa=1.45: g=0.045857
+  open d=13 kappa=1.50: g=0.034601
+  open d=13 kappa=1.55: g=0.032369
+  open d=13 kappa=1.60: g=0.029673
+  open d=13 kappa=1.65: g=0.028124
+  open d=13 kappa=1.70: g=0.025613
+  open d=13 kappa=1.75: g=0.020160
+  open d=13 kappa=1.80: g=0.017134
+  open d=13 kappa=1.85: g=0.015920
+  open d=13 kappa=1.90: g=0.010693
+  open d=14 kappa=0.55: g=0.063639
+  open d=14 kappa=0.60: g=0.061753
+  open d=14 kappa=0.65: g=0.054136
+  open d=14 kappa=0.70: g=0.046857
+  open d=14 kappa=0.75: g=0.040334
+  open d=14 kappa=0.80: g=0.041273
+  open d=14 kappa=0.85: g=0.047841
+  open d=14 kappa=0.90: g=0.051417
+  open d=14 kappa=0.95: g=0.055202
+  open d=14 kappa=1.00: g=0.057391
+  open d=14 kappa=1.05: g=0.059787
+  open d=14 kappa=1.10: g=0.062415
+  open d=14 kappa=1.15: g=0.063376
+  open d=14 kappa=1.20: g=0.062676
+  open d=14 kappa=1.25: g=0.060002
+  open d=14 kappa=1.30: g=0.055471
+  open d=14 kappa=1.35: g=0.051781
+  open d=14 kappa=1.40: g=0.048981
+  open d=14 kappa=1.45: g=0.040969
+  open d=14 kappa=1.50: g=0.029601
+  open d=14 kappa=1.55: g=0.030916
+  open d=14 kappa=1.60: g=0.027681
+  open d=14 kappa=1.65: g=0.026832
+  open d=14 kappa=1.70: g=0.025409
+  open d=14 kappa=1.75: g=0.020355
+  open d=14 kappa=1.80: g=0.016497
+  open d=14 kappa=1.85: g=0.016340
+  open d=14 kappa=1.90: g=0.012059
+
+  OPEN-BC peaks: [[0.55, 1.15], [0.55, 1.15, 1.55]]
+  OPEN-BC identifiable organs: [[1.15, 1.15]]  -> 1 cluster(s);  dec_margin=1.569e-04
+  BC-ROBUST (>=2 identifiable organs under open BC too): False
+written: bc_check.json

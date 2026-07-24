@@ -47,3 +47,20 @@
   d=14 kappa=1.40: e1=0.213269 bbox=3.9258 maxpair=3.8982 g_bbox=0.054325 g_diam=0.054709
   d=14 kappa=1.45: e1=0.172606 bbox=3.9321 maxpair=3.9069 g_bbox=0.043897 g_diam=0.044180
   d=14 kappa=1.50: e1=0.133837 bbox=3.9383 maxpair=3.9155 g_bbox=0.033984 g_diam=0.034182
+  d=14 kappa=1.55: e1=0.135478 bbox=3.9445 maxpair=3.9240 g_bbox=0.034346 g_diam=0.034525
+  d=14 kappa=1.60: e1=0.161283 bbox=3.9507 maxpair=3.9326 g_bbox=0.040824 g_diam=0.041012
+  d=14 kappa=1.65: e1=0.158411 bbox=3.9569 maxpair=3.9411 g_bbox=0.040034 g_diam=0.040195
+  d=14 kappa=1.70: e1=0.139527 bbox=3.9630 maxpair=3.9496 g_bbox=0.035207 g_diam=0.035327
+  d=14 kappa=1.75: e1=0.122831 bbox=3.9692 maxpair=3.9580 g_bbox=0.030946 g_diam=0.031033
+  d=14 kappa=1.80: e1=0.099442 bbox=3.9754 maxpair=3.9665 g_bbox=0.025014 g_diam=0.025071
+  d=14 kappa=1.85: e1=0.087971 bbox=3.9816 maxpair=3.9749 g_bbox=0.022095 g_diam=0.022132
+  d=14 kappa=1.90: e1=0.068347 bbox=3.9877 maxpair=3.9833 g_bbox=0.017139 g_diam=0.017158
+
+-- peak structure under each convention (same sealed peak rule) --
+  bbox : peaks [[0.55, 0.95, 1.6], [0.55, 0.95, 1.6]]  identifiable organs at kappa [[0.95, 0.95], [1.6, 1.6]]  -> 2 cluster(s)  dec_margin=6.530e-05
+  diam : peaks [[0.55, 0.95, 1.6], [0.55, 0.95, 1.6]]  identifiable organs at kappa [[0.95, 0.95], [1.6, 1.6]]  -> 2 cluster(s)  dec_margin=9.012e-05
+  raw  : peaks [[0.55, 0.95, 1.6], [0.55, 0.95, 1.6]]  identifiable organs at kappa [[0.95, 0.95], [1.6, 1.6]]  -> 2 cluster(s)  dec_margin=4.581e-06
+
+  organ-cluster count by convention: {'bbox': 2, 'diam': 2, 'raw': 2}
+  CONVENTION-ROBUST: True
+written: aux_convention.json
