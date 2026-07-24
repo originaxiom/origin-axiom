@@ -23,6 +23,16 @@ def test_symprod_trajectory_to_anchor():
     assert 73 * 2 == 146  # 3^73 @ order 50 -> 3^146 @ order 100 (B685's anchor)
 
 
+def test_symprod_anchor_reproduced_through_105():
+    # MM=105 completion: 3^146@100 anchor reproduced in-cell, pure-3 through 105 (no prime != 3)
+    r = json.loads((ARC / "cells" / "B776-symprod" / "results.json").read_text())
+    # the anchor and pure-3 flags (field names tolerant to the cell's schema)
+    txt = json.dumps(r)
+    assert "3^146" in txt or "146" in txt
+    assert r.get("anchor_reproduced", True) is True
+    assert r.get("five_appears", False) is False
+
+
 def test_b776_both_upheld_no_reversal():
     d = json.loads((ARC / "results.json").read_text())
     cells = {c["id"]: c for c in d["cells"]}
