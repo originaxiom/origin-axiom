@@ -7956,3 +7956,15 @@ N3 unresolved. The GATEB carry is the session's sharpest methodological catch: t
 makes the headline F₄-exclusion a corollary of the witness's own chirality, so two of the
 three advertised reasons restate the premise; only the twist-rigidity argument is
 independent. Restate on that. Phase 2 now ~31 structural results across five waves.
+
+## 2026-07-24 — C23 minted: the T1-mover no-go (the chain reaches C23)
+While Wave 6 runs, folded Phase-2's chain-worthy result into the spine. C21 had named the
+T1-mover as an open door ("any instrument moving it must realize an outer V₄-automorphism");
+Wave 1's P2-T1MOVER closed it — the realized subgroup of Out(V₄)=S₃ is exactly {identity},
+via distinct conjugation-robust signatures on the three closing legs plus an independent
+refutation of the one surviving transposition. The T1 3-frame choice is genuinely unbroken.
+Chain now C1–C23 with the lock updated. Also verified: the κ=5 repricing (HEAR) needs NO
+chain correction — the spine never carried it as forced, so that repricing is arc-level only.
+Judiciousness noted: the other Phase-2 theorems (heredity, clock law, Landsberg–Schaar,
+all-chirality, L53, L56) are supporting structure and stay in the arcs — the chain is the
+forced core, not a catalogue.
