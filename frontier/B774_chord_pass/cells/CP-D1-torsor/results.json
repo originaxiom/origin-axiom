@@ -1,0 +1,107 @@
+{
+  "cell": "CP-D1-torsor",
+  "campaign": "B774 Stage B chord-pass",
+  "source_negative": "B701 (LAW_MAP D1 / B700 phase 2)",
+  "group": "2I = SL(2,5), order 120 (built as unit icosian quaternions)",
+  "construction_independent_of_source": true,
+  "chi2_irreducible_inner_product": "1",
+  "ordinary_FS": {
+    "irrep_A_nu2": "-1",
+    "irrep_B_nu2": "-1",
+    "both_minus_one": true
+  },
+  "G_perfect_Gab_trivial": true,
+  "theta_grading_source_exists": false,
+  "theta_odd_character_part_identically_zero": true,
+  "theta_graded_FS_indicator": {
+    "nu_odd_A": "0",
+    "nu_odd_B": "0",
+    "distinguishes_the_two_irreps": false
+  },
+  "higher_FS_indicators": {
+    "1": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "2": {
+      "A": "-1",
+      "B": "-1",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "3": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "4": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "5": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "6": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "7": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "8": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "9": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "10": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "11": {
+      "A": "0",
+      "B": "0",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    },
+    "12": {
+      "A": "1",
+      "B": "1",
+      "kind": "RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)"
+    }
+  },
+  "blind_rational_indicators_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "distinguishing_but_torsor_valued_n": [],
+  "genuineness": {
+    "theta_odd_piece_nonzero": false,
+    "even_odd_cancellation_with_nonzero_odd": false,
+    "indicator_is_character_sum": true,
+    "restores_canonical_basepoint": false
+  },
+  "is_genuine_chord": false,
+  "verdict": "HARDENS",
+  "headline": "Theta-graded FS indicator is identically 0 on the golden irreps (self-conjugacy) and every FS-type indicator is a Galois-equivariant character sum -- blind if rational, the torsor itself if irrational. No canonical basepoint. B701 HARDENS."
+}

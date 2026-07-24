@@ -1,0 +1,62 @@
+B774 CHORD-PASS  CELL CP-W2-yukawa
+chord analog of the typing wall (1'): the full theta-odd cup-product
+family tensor (Sym^3 chord object), uncontracted, on identical families.
+
+========================================================================
+PATH 1: the cup family tensor is ALTERNATING at the uncontracted
+        vector level -- an object-independent structural theorem,
+        demonstrated on explicit closed-manifold cup models.
+========================================================================
+  coefficient cubic C_abc totally symmetric (Sym^3): True
+  polarization mu(x,y)=C(x,y,.) symmetric in (x,y): True
+  -- pairwise vector cup on T^2 (models [u_i cup u_j] in H^2(D;27bar)):
+     graded-commutativity  W(i,j) = -W(j,i)  (all ordered pairs, VECTOR-valued): True
+     vector cup NONZERO on 12 off-diagonal ordered pairs (e.g. W(0,1) = [14, -9, 51])
+     symmetric part 1/2(W(i,j)+W(j,i)) = 0 for ALL pairs (no symmetric family tensor at the vector level): True
+  -- triple cup / scalar Yukawa on T^3 (models Y_ijk = C(u_i,u_j,u_k)):
+     Y(A,B,D) totally ANTISYMMETRIC in the family arguments (all 6 permutations): True
+     totally-symmetric part sum_perm Y = 0 (the Yukawa-type family tensor is zero): True
+     Y(0,1,2) = -13 != 0: the triple cup is alive but ALTERNATING (not Yukawa-type)
+  PATH 1 conclusion: the family cup tensor is ALTERNATING already at
+  the uncontracted vector (Sym^3) level; the scalar Yukawa inherits
+  antisymmetry in the FAMILY indices, so its symmetric (Yukawa-type)
+  part is zero. The zero is NOT introduced by contraction -- it is
+  forced by graded-commutativity of cup on degree-1 classes.
+
+========================================================================
+PATH 2: the REAL object -- golden figure-eight weld double D.
+        Banked EXACT cup-value table over K = Q(sqrt-3); the
+        decisive invariants re-derived here from raw coordinates.
+========================================================================
+  source artifact: b666_cell2_cup_values  (K = Q(sqrt-3); [a,b] means a + b*sqrt(-3))
+  (i)  vector cup NONZERO on all six off-diagonal solo pairs [(2, 3), (3, 2), (2, 4), (4, 2), (3, 4), (4, 3)]: True
+        [c_23] nonzero = True
+        [c_32] nonzero = True
+        [c_24] nonzero = True
+        [c_42] nonzero = True
+        [c_34] nonzero = True
+        [c_43] nonzero = True
+  (ii) graded-commutativity [c_ij] = -[c_ji] re-derived on all 25 ordered pairs: True
+  (iii) symmetric part [c_ij]+[c_ji] = 0 for all pairs (no symmetric family tensor at the vector level): True
+  (iv) v0-contracted 2-form MV0 antisymmetric (=> solo block spectrum {0,+mu,-mu}, det 0): True
+  (v)  natural operator O=thetabar.theta on the generation quotient: charpoly = lam**3 - 6*lam**2 + 9*lam - 4
+        eigenvalues {val:mult} = {1: 2, 4: 1}; distinct = 2
+
+  PATH 2 conclusion: on the real object the full vector cup tensor
+  is nonzero (six solo pairs) yet EXACTLY antisymmetric (25/25); its
+  symmetric part vanishes identically; the v0-contraction is an
+  antisymmetric 2-form; the only conjugation-invariant operator
+  collapses. No symmetric (Yukawa-type) family tensor exists at the
+  uncontracted level -- consistent with PATH 1 and with the record's
+  own L106 reading (the nonzero vector cup is the live ALTERNATING
+  object; the typing wall stands).
+
+========================================================================
+VERDICT BLOCK
+========================================================================
+  PATH 1 hardens (model theorem): True
+  PATH 2 hardens (real object):   True
+  computed chord object is genuine theta-odd: True
+  negative is a contraction artifact: False
+  VERDICT: HARDENS
+  The full theta-odd cup-product (Sym^3) family tensor is nonzero but EXACTLY alternating at the uncontracted level; no symmetric Yukawa-type family tensor exists -- the typing wall is a graded-commutativity fact, not a contraction artifact.

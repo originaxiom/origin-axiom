@@ -1,0 +1,32 @@
+==========================================================================
+CP-S032A -- chord-pass of the S032-A no-forced-choice negative
+theta-odd (Chern-Simons) invariant across the character-variety fork
+==========================================================================
+
+[PART A] GEOMETRIC -- the theta-odd Chern-Simons invariant
+  m=1: monodromy R^m L^m trace=3 hyperbolic=True  R<->L mirror == conjugation: True
+  m=2: monodromy R^m L^m trace=6 hyperbolic=True  R<->L mirror == conjugation: True
+  m=3: monodromy R^m L^m trace=11 hyperbolic=True  R<->L mirror == conjugation: True
+  m=4: monodromy R^m L^m trace=18 hyperbolic=True  R<->L mirror == conjugation: True
+  => R^m L^m AMPHICHIRAL for all m tested: True  (mirror = conjugation, exact SL(2,Z)) => CS = -CS = 0 forced
+  fig-8 (m=1) complex volume: theta-EVEN Vol=2.029883 (= 2*Cl_2(pi/3): True), theta-ODD CS=0.000000
+  shape self-mirror (z-bar = 1 - z, exact): True
+  theta-EVEN alive=True  theta-ODD dead=True  even=odd CANCELLATION? False
+  => the theta-odd zero is STRUCTURAL (even piece alive, odd piece 0), NOT the W4-304 even=odd cancellation.
+
+[PART B] ALGEBRAIC -- the symmetrization lemma is invariant-agnostic
+  B318 CP-sign pair e^{+-i pi/6}: sum=sqrt(3) (sqrt3: True), prod=1 (1: True)
+  members theta-odd (Im flips sign, sum of Im = 0): True
+  SAME lemma on a genuine theta-ODD invariant tau_+=+t, tau_-=-t:
+    e1=0 (fixed field: True), e2=-t**2 (fixed field: True)
+  => lemma invariant-agnostic (theta-odd orbits symmetrize too): True
+
+[PART C] THE FORK -- two-seed (1,2), exact
+  gluing match  k1 - k2 = x**4 - 6*x**2 + 8 = (x - 2)*(x + 2)*(x**2 - 2)
+  kappa fork = ['-4', '-2']  rational=True  all irreducible (kappa!=2)=True
+  fork is TRACE-indexed (kappa = tr[A,B] itself separates branches): True
+
+==========================================================================
+VERDICT: HARDENS
+The genuine theta-odd, representation-dependent, NON-trace-polynomial invariant (SL(2,C) Chern-Simons / complex volume) is STRUCTURALLY ZERO on the metallic bundle -- forced by the amphichirality R^m L^m ~ mirror (L^m R^m = R^{-m}(R^m L^m)R^m, exact), so CS = -CS = 0 -- while the theta-EVEN volume is ALIVE (2.0299). This is the OPPOSITE of the W4-304 overturn signature: no nonzero theta-odd piece hides under the trace. Independently, the S032-A symmetrization lemma is invariant-AGNOSTIC: on a finite Galois orbit even a theta-odd invariant has symmetric functions in the fixed field (e1=0, e2=-t^2), so multivalued theta-odd invariants symmetrize exactly as the abelian ones (B314/B318 reproduced). The two-seed (1,2) fork kappa in {-4,-2} is RATIONAL and TRACE-indexed already; nothing is genuinely (non-abelianly / unsymmetrizably) fork-indexed. S032-A HARDENS at the chord level, and is revealed to be projection-INDEPENDENT (a Galois/amphichirality fact, not a trace fact).
+==========================================================================

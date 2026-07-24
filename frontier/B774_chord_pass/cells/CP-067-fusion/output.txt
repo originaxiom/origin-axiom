@@ -1,0 +1,57 @@
+============================================================================================
+STEP 0 -- chord-vs-squared positive controls on the KNOWN single seeds
+============================================================================================
+golden(m=1) chord tr(a) = (-1.0 - 1.73205080756887729352745j)   minpoly = x**2 + 2*x + 4 (deg 2)
+  [PASS] golden chord trace generates Q(sqrt-3) (deg-2, disc -12) -- coherent seed, chord == invariant
+silver(m=2) chord tr(a)    = (1.55377397403003730734416 - 0.643594252905582624735443j)   minpoly = x**4 - 4*x**2 + 8 (deg 4)
+silver(m=2) SQUARED tr(a^2)= (5.15291901567770664658163e-231 - 2.0j)   minpoly = x**2 + 4 (deg 2)
+  [PASS] silver CHORD tr(a) = order-8 x^4-4x^2+8 = sqrt(2+-2i) (carries the exp(m*pi*i/4) T-phase)
+  [PASS] silver SQUARED tr(a^2) collapses to deg 2 (Q(i)) -- squaring hides the framing (B772 blindness real)
+
+============================================================================================
+STEP 1 -- QUANTUM comparator on the 2-block composite (the matched, framing-carrying level)
+============================================================================================
+   seq=(1,2) word=RLRRLL  k=4: eigenvalue-orders [6, 6, 4, 4, 2] -> Q(zeta12)
+   seq=(2,1) word=RRLLRL  k=4: eigenvalue-orders [6, 6, 4, 4, 2] -> Q(zeta12)
+  [PASS] MATCHED COMPARATOR: the 2-block words fuse to the cyclotomic Q(zeta12) on the QUANTUM side
+
+============================================================================================
+STEP 2 -- THE FINISH: the FULL un-squared trace field K = Q(tr a, tr b, tr ab) of s892
+============================================================================================
+2-block composite = b++RLRRLL(0,0)  vol=5.62537824957  identify()=['s892(0,0)']
+   tr(a)  = (1.56394139357554371094472773011 - 0.589627666842050833176763950558j)
+   tr(b)  = (2.93520320468684163440914433245 + 1.38332473761144862508085035367j)
+   tr(ab) = (2.93520320468684163440914433245 - 1.38332473761144862508085035367j)   (= conj(tr b): 0.0 away)
+
+tr(a) EXACT minimal polynomial over Q (residual 8.839e-294, 3 mixers):
+   m(x) = x**14 - 2*x**13 - 3*x**12 + 6*x**11 + 6*x**10 - 4*x**9 - 11*x**8 - 10*x**7 + 14*x**6 + 32*x**5 - 26*x**4 - 36*x**3 + 52*x**2 - 21*x + 3
+   degree = 14   irreducible = True
+  [PASS] tr(a) reproduces the EXACT B773 irreducible degree-14 minimal polynomial
+
+tr(b)  in Q(tr a)? True   (residual 2.971e-288)
+tr(ab) in Q(tr a)? True  (residual 4.483e-289)
+  [PASS] tr(b) AND tr(ab) both lie in Q(tr a) => the FULL trace field K = Q(tr a,tr b,tr ab) COLLAPSES to Q(tr a)
+
+tr(b) OWN minimal polynomial: degree = 14  irreducible = True  (residual 1.167e-289)
+  [PASS] 2nd PATH (tr(b) own minpoly): [Q(tr b):Q]=14 with tr(b) in Q(tr a) => Q(tr b)=Q(tr a); the field does not grow, confirming the collapse independently of the membership PSLQ
+
+sqrt(-3) in K? False   (residual 1.099e+11)
+i        in K? False   (residual 1.224e+11)
+  [PASS] sqrt(-3) is NOT in the full chord field K
+  [PASS] i is NOT in the full chord field K
+  [PASS] => Q(zeta12) = Q(sqrt-3, i) is NOT contained in the full chord field K (no fusion via tr b / tr ab either)
+
+EXACT: some cyclotomic field has degree 14?  False  (phi(n)=14 solvable?)
+EXACT: [Q(zeta12):Q]=4 divisible by deg K=14?  False  (Q(zeta12) in K needs 4 % 14 == 0)
+  [PASS] EXACT: K is NON-cyclotomic (no Q(zeta_n) has degree 14; phi(n)=14 has no solution)
+
+============================================================================================
+STEP 3 -- fusion verdict at the FULL chord (un-squared trace-field) level
+============================================================================================
+
+VERDICT: RESOLVED-B
+REASON: the FULL un-squared twist-curve trace field K = Q(tr a, tr b, tr ab) COLLAPSES to Q(tr a): tr(b) and tr(ab) both lie in Q(tr a) (residual ~1e-288 at 980-bit, agreed across 3 PSLQ mixers, and confirmed by a 2nd structural path -- tr(b)'s own irreducible degree-14 minpoly => Q(tr b)=Q(tr a); tr(ab)=conj(tr b)). K is the exact irreducible degree-14 NON-cyclotomic field, and NEITHER sqrt(-3) NOR i lies in it, so Q(zeta12)=Q(sqrt-3,i) is NOT contained in K (also 4 does not divide 14). Chord-level fusion is ABSENT for the WHOLE trace field, not merely tr(a): the W3-067c carry is discharged and the K016 wall HARDENS at the matched, un-squared, framing-carrying level. The mod-4 fusion is QUANTUM-only.
+
+ALL CHECKS PASS
+
+wrote results.json

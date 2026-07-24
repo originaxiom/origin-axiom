@@ -1,0 +1,1466 @@
+{
+ "total_scanned": 174,
+ "candidates": 45,
+ "loadbearing": 37,
+ "all": [
+  {
+   "id": "OI-028",
+   "title": "L108 \u2014 \u03b35\u2032 functor's modular-form assignment (B685 GENERATION LEG)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "No-go rests on discriminant \u22123 / GSWZ 3-integrality of the figure-eight's own arithmetic (an integrality/class-number fact), not a trace or abelianized quantity reading zero."
+  },
+  {
+   "id": "OI-130",
+   "title": "3+1 spacetime \u2014 no route (B716 Probe 2)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rests on oriented 3-bordism-group triviality (a cobordism-classification/cardinality fact: infinitely many fillings exist, none canonical) \u2014 a topological classification result, not a trace projection."
+  },
+  {
+   "id": "OI-161",
+   "title": "H50 Part B \u2014 chirality reduces to gauged-vs-SSB of \u03c4?",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Wall rests on 3 category-mismatch arguments (3-mfld invariant vs 4d phenomenon; McKay label vs gauge group; missing external SSB dynamics) \u2014 none is a trace computation. Flagged LOAD-BEARING for centrality to the standing c-vs-\u03b8 crux even though chord-immune."
+  },
+  {
+   "id": "OI-168",
+   "title": "Distinguished closing (Sol torus bundle) = 'our universe'?",
+   "projection": "MIXED",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Uniqueness corroborated 3 ways: Alexander polynomial (an ABELIANIZED/H1-based invariant, chord-suspect on its own) plus Twister-bundle isometry and Regina census recognition (both structural/geometric). 2 of 3 legs are non-abelian, so the WALLED conclusion is over-determined; the Alexander leg alone is the piece worth flagging."
+  },
+  {
+   "id": "OI-255",
+   "title": "F-P5 species-lift boundary theorem-let (B551)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Both proofs are exact combinatorics-on-words facts (forbidden factor 'aaa'; provably non-Sturmian word complexity ~3n vs n+1) \u2014 symbolic/complexity arguments independent of any trace or character projection."
+  },
+  {
+   "id": "OI-001",
+   "title": "L6 \u2014 general non-metallic SL(3) sealing",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Deliberately scoped out / never run (not exhausted by computation) \u2014 no negative was actually computed, so there is nothing to chord-recompute yet."
+  },
+  {
+   "id": "OI-002",
+   "title": "L19 \u2014 off-axis Cantor uniform-hyperbolicity theorem",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "Supporting diagnostics (Bowen-Ruelle escape rate, box-counting dimension) live on the \u03ba=tr[A,B] trace-map dynamics, but no negative claim is actually banked here \u2014 the all-orders theorem stays unproven, not refuted."
+  },
+  {
+   "id": "OI-003",
+   "title": "L22 \u2014 SL(5) exact-symbolic metallic exponent k",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "B199's 'no closed form k(o,m)' no-go is built from explicit spectrum/trace collisions (o=4/o=8 collision, A^m-spectrum collision) \u2014 a trace-level indistinguishability, exactly the chord-blind signature."
+  },
+  {
+   "id": "OI-004",
+   "title": "L23(a) \u2014 closed-form silver SL(3) A-polynomial",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "B202's negative ('no tidy [A,B]=c\u00b7\u03bc\u1d4f relation') is a numeric score check on trace/eigenvalue relations (O(1) vs <1e-6 threshold) \u2014 a trace-projection comparison, not a structural obstruction."
+  },
+  {
+   "id": "OI-005",
+   "title": "L34 \u2014 canonical-component arithmetic silver/bronze (m\u22652)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "The character variety itself is constructed via a trace-map fixed-locus method (B71-style Fix(T\u00b2)); genus/irregularity is then read off that construction, so a theta-odd variant of the fixed-locus method could surface a different component."
+  },
+  {
+   "id": "OI-006",
+   "title": "L44 \u2014 higher-conductor Jacobian-conductor computation",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Branch-locus discriminant computation is an arithmetic/Galois fact about the cover, independent of any trace projection."
+  },
+  {
+   "id": "OI-008",
+   "title": "H5-a \u2014 large-N multi-cusp gluing / true geometric connector",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "Mechanism is explicitly characterized 'at the trace-ring/abstract-connector level' with a \u03ba-fork proliferation \u2014 the genuine geometric connector could behave differently once read beyond trace invariants."
+  },
+  {
+   "id": "OI-010",
+   "title": "\u03c1_n catalog \u2014 all-n tower stabilization proof",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The stalled route is precisely the Procesi trace-ring construction (the ring of ALL trace invariants of the two-matrix system) hitting the B85 wall \u2014 the quintessential trace-projection framework; a beyond-trace (chord/character) construction is the natural escape hatch."
+  },
+  {
+   "id": "OI-011",
+   "title": "L50 \u2014 class-S for type E6 (T[4\u2081;E6] state integral / CRUX)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The 'CRUX' Eisenstein-\u2124/3 selection computed-negative (B561) is a gauge-fixing result on holonomy/trace data; this CRUX gate is cited as load-bearing by multiple other rows (OI-163/165/171)."
+  },
+  {
+   "id": "OI-012",
+   "title": "B391 \u2014 local doublet/line classification at p-power conductor",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Census across eleven prime-power conductors is an arithmetic/local-representation classification, not a trace-projection computation."
+  },
+  {
+   "id": "OI-013",
+   "title": "B264/B274/B347 \u2014 E6 character variety novelty confirmation",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Purely a novelty/prior-art gate on an already-banked positive result (H\u00b9=6, smoothness); not itself a negative subject to chord recompute."
+  },
+  {
+   "id": "OI-022",
+   "title": "L86 \u2014 object-scale coupling comparison (GATED)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A governance/anti-p-hacking freeze gated on an owner directive, not a computed mathematical negative."
+  },
+  {
+   "id": "OI-023",
+   "title": "L87 \u2014 composite\u2194observable derivation (GATED)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Twin of OI-022: governance gate (B629 freeze), not a computed negative."
+  },
+  {
+   "id": "OI-027",
+   "title": "L95 \u2014 web seat's standing triality-vector cubic prereg",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Sealed and owned by a peer seat, pending verify-on-receipt; this seat has not computed anything to reconsider."
+  },
+  {
+   "id": "OI-030",
+   "title": "PD3.1 \u2014 AK-model identification",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Novelty-only gate on already-computed Galois-component/cross-level-transport results; not itself a negative."
+  },
+  {
+   "id": "OI-039",
+   "title": "THE ONE-NUMBER PIN (B753) sin\u00b2\u03b8\u2081\u2082=0.30902",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Sealed HINT awaiting an external JUNO experimental report \u2014 not an in-sandbox trace computation."
+  },
+  {
+   "id": "OI-041",
+   "title": "External specialist/novelty pass (R29-1 carried)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Standing literature/novelty gate carried across reviews; a human prior-art pass, not a math negative."
+  },
+  {
+   "id": "OI-064",
+   "title": "L43 \u2014 exact 4\u2081 3d-3d\u21922d SUSY reduction",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Qualitative CFT/geometric classification (hyperbolic vs non-hyperbolic divide); insufficient method detail to call trace vs structural, and the remaining gap is an explicit boundary computation, not a banked negative."
+  },
+  {
+   "id": "OI-069",
+   "title": "L16/B165 residuals \u2014 off-axis module-vs-menu + Sturmian generator",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Reduced to ONE hypothesis: uniform hyperbolicity of the COMPLEXIFIED TRACE MAP off the real axis \u2014 directly the \u03ba=tr[A,B] trace-map dynamics central to the quasicrystal-bridge/gap-is-the-wall program."
+  },
+  {
+   "id": "OI-073",
+   "title": "B565 R3 \u2014 Bezout bound tightness",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Multihomogeneous Bezout degree bound is an algebraic-geometry counting bound, not a trace projection."
+  },
+  {
+   "id": "OI-074",
+   "title": "B565 R4 \u2014 necklace/peel CH-cutoff (corrected)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "The associated false corroboration was already struck by adversarial review; no live negative remains in this row to recompute."
+  },
+  {
+   "id": "OI-087",
+   "title": "H2 \u2014 SL(4) L=\u2212M\u2074 novelty gate",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Novelty-only gate on a proved POSITIVE exact identity (degree=rank tower); not a negative."
+  },
+  {
+   "id": "OI-089",
+   "title": "B85 \u2014 functorial Sym(W) \u2192 trace-ring wall",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The obstruction is explicitly a char(M\u00b2)\u00b2 DEGENERACY \u2014 a characteristic-polynomial/trace-level collision that can't separate two cases; the textbook chord-blind pattern, and the same Procesi wall as OI-010."
+  },
+  {
+   "id": "OI-091",
+   "title": "K011 \u2014 GHH-iff promotion",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A literature-fidelity check on whether a published paper (GHH 2008) states its criterion as an iff \u2014 not an in-sandbox computation."
+  },
+  {
+   "id": "OI-094",
+   "title": "L51 \u2014 gate B/C/D specialist outreach",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Human outreach action (briefs prepared, sending is external), not a math negative."
+  },
+  {
+   "id": "OI-106",
+   "title": "B467 \u2014 shared-surgery literature gate (4\u2081(5,1)\u2245\u22125\u2082(5,1))",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Core claim verified via genuine SnapPy isometry (canonical-triangulation matching), a structural geometric equivalence stronger than any trace projection; H1/CS values only corroborate."
+  },
+  {
+   "id": "OI-126",
+   "title": "L91 \u2014 Reid 1991 uniqueness as selection principle",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rests on a classical published arithmetic uniqueness theorem (minimum-volume arithmetic manifold), a structural/number-theoretic fact, not a trace computation. Tagged HIGH-VALUE in the source."
+  },
+  {
+   "id": "OI-129",
+   "title": "Gate C \u2014 Multiplicity \u2192 generation count (B307 gate)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "B307's theorem is literally about the TRACE FIELD (no hyperbolic knot's trace field is cyclic-cubic) \u2014 a field built entirely from traces of the holonomy rep; a beyond-trace/chord structure could still carry 3-fold symmetric data the trace field misses."
+  },
+  {
+   "id": "OI-132",
+   "title": "PD1.2 \u2014 anyon-door sector identification (T3 triangular S)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The NO-MATCH is explicitly 'at sector level' via a triangular modular S-matrix \u2014 S/T act on character/trace data of the TQFT; a full non-sector (chord) treatment could differ."
+  },
+  {
+   "id": "OI-137",
+   "title": "engine_v7 gate_report upstream patch \u2014 deployment",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Software deployment action by conduit owners, not a mathematical negative at all."
+  },
+  {
+   "id": "OI-163",
+   "title": "Wall #4 \u2014 chiral 4d lift of T[4\u2081]",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "An exhaustive 3-candidate enumeration (checked and ruled out); insufficient method detail to determine whether the per-candidate check was trace-based, but the wall is central to the chirality campaign."
+  },
+  {
+   "id": "OI-165",
+   "title": "Wall B \u2014 hidden commensurator \u2124/3 texture (generation multiplicity)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The single-knot route is closed via the same B307 trace-field theorem as OI-129; the relational/texture question stays open behind the CRUX gate, so a chord recompute of B307 would reopen this too."
+  },
+  {
+   "id": "OI-167",
+   "title": "Prior-art round for the seam-arc's novel connections",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Pure novelty/prior-art literature gate on speculative claims, not a computed negative."
+  },
+  {
+   "id": "OI-169",
+   "title": "CP-sign \u2192 baryon asymmetry reading",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "CP magnitude (\u03c0/6, Galois handedness) is banked, but the SIGN is stated 'not object-derivable' \u2014 an ambiguity that plausibly reflects a swap/conjugation symmetry the trace-level computation can't break; directly touches the standing c-vs-\u03b8 chirality crux (can c be carried into \u03b8)."
+  },
+  {
+   "id": "OI-170",
+   "title": "Does running scale k gauge-fix the CP sign?",
+   "projection": "UNCLEAR",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "'SSB potential ABSENT' result method detail insufficient to classify trace vs structural; plausibly a computed potential/trace quantity."
+  },
+  {
+   "id": "OI-171",
+   "title": "Does Dehn filling supply the N=2\u2192N=1 chiral datum in one act?",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Firewalled physics reading of an uncomputed correspondence (DGG); not itself a computed negative."
+  },
+  {
+   "id": "OI-172",
+   "title": "Which SU(3) factor is color / RG-flow vs Higgsing?",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Firewalled physical-interpretation gap layered on a banked POSITIVE grading fact (E6\u2192SU(3)\u00b3 at Eisenstein \u03c9); not a negative to recompute."
+  },
+  {
+   "id": "OI-196",
+   "title": "H124/B566-S2 \u2014 Connes\u2013Rovelli thermal-time reading",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "The banked math is an exact numeric inequality (KMS weight 0.362 \u2260 letter frequency 0.272) \u2014 a hard mismatch, not a cancellation-to-zero reading; only the physical INTERPRETATION is firewalled/external."
+  },
+  {
+   "id": "OI-206",
+   "title": "H-KOIDE (B703) \u03b8\u2080=2/9 awaiting tighter m_\u03c4",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Dependency on a future external PDG measurement update, not an in-sandbox math negative."
+  },
+  {
+   "id": "OI-234",
+   "title": "Coupling-channel unification arc (B410)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The residual is explicitly staged as needing 'the full-field convolution's frequency structure' \u2014 convolution/frequency-domain analysis is inherently abelian-character-based; the per-side cancellation criterion could differ under a non-abelian treatment."
+  },
+  {
+   "id": "OI-252",
+   "title": "F1 \u2014 E8 peak extraction (needs PDFs)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Blocked on digitizing external published data, not a math negative."
+  },
+  {
+   "id": "OI-253",
+   "title": "E7 pre-loaded watch (standing queue)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Awaiting an external material measurement to fire; the in-sandbox spectrum computation is a locked positive result, not a negative."
+  },
+  {
+   "id": "OI-257",
+   "title": "Further JUNO/observational comparison (post-B648)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Governance 'license spent, needs owner directive' gate, not a math negative."
+  },
+  {
+   "id": "OI-262",
+   "title": "The 1/(2\u03c6) gate (B659 novelty dossier)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Novelty-only literature gate on exact algebraic identity matches (tan\u00b2=1/\u221a5 etc.), not a negative."
+  },
+  {
+   "id": "OI-280",
+   "title": "B497 Monoid Campaign \u2014 atoroidality / 3-mfld-with-boundary",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A bounded combinatorial search for periodic conjugacy classes (cyclic classes length\u22646, powers\u22644) \u2014 an enumeration, not a trace projection."
+  },
+  {
+   "id": "OI-287",
+   "title": "Golden-3d P5/specialist write-up (B517)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Novelty-only gate; underlying math (Pisot/substitution field, CD=F\u00b3 forcing) is combinatorial, and the gate itself is a citation check."
+  },
+  {
+   "id": "OI-291",
+   "title": "Two residual doors (B523) \u2014 second-seed seam / external contact",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Explicitly registered as needing external (lab/specialist) contact by definition, not an in-sandbox trace question; the resolved door (C3/Malament) already confirmed its negative separately."
+  },
+  {
+   "id": "OI-308",
+   "title": "Novelty NEEDS-SPECIALIST items (PC24, PC22, fusion Q)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Three parallel lit-gates on already-computed facts; the gates themselves are not math negatives."
+  },
+  {
+   "id": "OI-342",
+   "title": "Existence law proved for general N (W4/B391)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Twin of OI-012: verified across eleven prime-power censuses, an arithmetic classification, not a trace projection."
+  },
+  {
+   "id": "OI-345",
+   "title": "Full-level Weil-TQFT / modular-data identification",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rests on the same T3 sector-level triangular-S NO-MATCH as OI-132 \u2014 a character/trace-level S-matrix argument that a beyond-sector (chord) treatment could revisit."
+  },
+  {
+   "id": "OI-055",
+   "title": "B685 3-integrality: Habiro-ring obstruction (GSWZ) named as blocker",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Discriminating fact is prime-denominator/valuation growth (v_5, v_p) in the Kashaev-expansion coefficients over Z[omega][1/3] -- an arithmetic no-go (unbounded prime support forces the external Habiro-ring theorem), not a trace value reading zero from even/odd cancellation; no theta-odd analog is conceivable since the object is scalar coefficient arithmetic."
+  },
+  {
+   "id": "OI-146",
+   "title": "B332 subgroup index refuted: true value 10 not 3 (Bianchi congruence quotient)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Refutation is an exact finite-group cardinality/index computation (|\u0393\u0304|=20480, |\u0393\u0304\u2229\u1e21\u0393\u0304\u1e21\u207b\u00b9|=2048, index=20480/2048=10, cross-checked 5 ways incl. Humbert volume) -- an order/cardinality mismatch fact, the textbook structural (B766-immune) case, not a trace projection."
+  },
+  {
+   "id": "OI-148",
+   "title": "Level-27 mu_inf norm frozen at 9, not 27=3^k",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Resolvent norm |L|^2=e1^2-3e2 proven symbolically e3-independent (sympy identity) and pinned by exact CRT reconstruction across 20 primes; this is a Galois resolvent/symmetric-function identity refuting a growth-law, not a trace reading zero from sector cancellation -- refined and closed by W2-148r's field-containment proof."
+  },
+  {
+   "id": "OI-173",
+   "title": "H103 refuted: chiral (non-sigma-stable) 2T subgroup exists in E6, Level 3 reachable",
+   "projection": "MIXED",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "The discriminating fact IS a character computation (chi=9*omega on an order-3 twisted class, giving n1=9 != n2=0) -- exactly the trace/character machinery the signature warns about -- but here it reads a definite non-real, non-canceling nonzero value (the opposite of the vanishing-from-cancellation trap), and is proven robust under the full Out(2T) action (only permutes {9,0}, cannot force equality); the theta-odd twist is precisely what was tested, so a further chord-level recompute would not plausibly overturn it."
+  },
+  {
+   "id": "OI-186",
+   "title": "H112: seam-conductor family dies beyond m=2 despite exact tr(A_m A_n) law",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Core object is an explicit SL(2,C) trace identity tr(A_m A_n)=(mn)^2+(m+n)^2+2 in the metallic tower, and the seam-conductor non-attainability is derived purely from this trace-level formula plus shape-field arithmetic; this family has documented history (B90/B95/B153/B154 in memory) where trace-only results were later corrected by full non-abelian/representation-level (chord) analysis, so a theta-odd or genuine chord-level recompute (rather than trace-formula-only) could plausibly reopen m>=3 or the seam(2) reading."
+  },
+  {
+   "id": "W2-148r",
+   "title": "Level-27 mu_inf re-derived exactly: resolvent = 3*zeta_{3^k}^-1, norm frozen at 9 (companion/closure of OI-148)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Three independent exact routes (symbolic factorization in Q[z]/Phi_27, raw 20-prime data, mpmath high precision) agree, and the counterfactual norm-27 alternative is excluded by a genuine Galois field-containment argument (sqrt3 not in Q(zeta27), unique quadratic subfield) -- an exact algebraic-number-theory exclusion, not a trace cancellation; this is the B766-immune closure of OI-148."
+  },
+  {
+   "id": "W2-237",
+   "title": "Constant c: 126-digit recompute + PSLQ bounded-negative (no algebraic relation found)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "This is a numeric integer-relation search (PSLQ) over a real constant against many bases at fixed height/precision bounds -- a bounded Diophantine no-match, not a group-representation trace/character projection; no even/odd sector or theta-odd analog applies to this kind of search, so it is not a chord-recompute candidate (though as a *bounded* negative it remains falsifiable by extending precision/height, that is a different axis than chord vs trace)."
+  },
+  {
+   "id": "W2-140",
+   "title": "B157 metallic exponent k: banked partial law falsified via explicit A-poly-slope reps",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "The refuting data comes from explicit loxodromic SL(2,C) representations found by constrained Newton probes ([A,B]=mu^1 etc., verified irreducible/loxodromic on independent RNG streams) and their A-polynomial slope -- i.e. already a full chord-level (non-abelianized) computation, not a trace-only shortcut, so recomputing at the chord level would reproduce rather than overturn this finding."
+  },
+  {
+   "id": "W3-270r",
+   "title": "Gap-slope ratio: banked 1.204 is curvature artifact; true ratio ~1.15, no exact form",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Computed via Bellissard IDS gap-labeling / eps->0 linear-response slopes of spectral gap widths (window function on the quasiperiodic word), verified via a Perron eigenvector -- no group-representation trace, character, or theta-odd/even sector anywhere in the pipeline. The negative is a numeric-precision ceiling (2-3 digits vs a 15-digit PSLQ floor), not a cancellation-blind zero reading; a non-abelian/chord analog has no natural meaning here."
+  },
+  {
+   "id": "W3-067",
+   "title": "Classical composite trace fields do not fuse to Q(zeta12) (K016 negative)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Computed strictly at the INVARIANT TRACE FIELD level (tr(a^2), tr(b^2), tr((ab)^2)) via PSLQ compositum-containment; the quantum comparator (B132's SU(2)_k mod-4 T-matrix fusion to Q(zeta12)) is a framing/Dehn-twist (chord-level, non-conjugacy-invariant) construction that the abstract trace field is blind to by construction -- B772's own adversarial audit flagged this cell TRACE-BLIND-RISK for exactly this reason, and B773's chord-level recompute (W3-067c, un-squared twist-curve trace field) found the wall 'likely hardens' but is VERIFY-FAILED / still an open carry (only tr(a) certified, not the full invariant trace field \u27e8tr a, tr b, tr ab\u27e9 the cell's own docstring names). Genuinely still a live chord-recompute candidate, not yet closed."
+  },
+  {
+   "id": "W3-082",
+   "title": "Redei triple symbol inapplicable to 11\u22613 mod 4; 4-rank(Cl(-8899))=0 (Z/4 lift degenerates)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The raw arithmetic (h(-8899)=14, Sylow_2=Z/2, 4-rank=0) is genuinely STRUCTURAL: exact genus-theory + Redei-Reichardt Legendre-symbol criterion + independent form-enumeration + Dirichlet analytic sum, quadruple-cross-checked, with a real non-vacuity control that flips sign. That part is NOT a chord-recompute candidate on its own. BUT the headline's identification of this mod-2/mod-4 class-group computation WITH 'the arithmetic-CS Z/4 lift DEGENERATES' is asserted by naming-continuity, not derived at B708's loaded H1-torsor/Kim-bar (the actual non-abelian CS action) level -- B772 flagged this NEEDS-DEEPER-LEVEL/TRACE-BLIND-RISK, and B773's attempted chord-level lift (W3-082c) was itself caught as a FALSE chord-positive (a finer abelian invariant relabeled as non-abelian) and downgraded to NEEDS-SPECIALIST. So the class-group fact is structural-immune, but the CS-degeneration headline riding on it is exactly the kind of naming-continuity gap this campaign targets -- still open."
+  },
+  {
+   "id": "W4-270r",
+   "title": "Gap-slope ratio is fit-protocol dependent (1.148 vs 1.256); candidate sqrt(1/phi^2+1) refuted both ways",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Re-derivation of W3-270r with an honest depth cap and two eps seeds -- same Bellissard-gap-width / linear-response-slope machinery, no trace or character quantity involved. Fit-protocol sensitivity and precision ceiling, not a sector-cancellation zero; no theta-odd/chord analog applies."
+  },
+  {
+   "id": "W4-067r",
+   "title": "6-word carry-fix: classical composite trace fields still do not fuse to Q(zeta12)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "This is the wave-4 framing-repair of W3-067 (same invariant-trace-field-vs-quantum-fusion pipeline, now 6 distinct words / 18 tests, fusion_class_tally={'outside compositum':17}). B772's own audit treats this as the carry-fix for the SAME cell it flagged TRACE-BLIND-RISK, and B773's chord-level pass (W3-067c) is still VERIFY-FAILED/open (only tr(a) certified, not the full trace field). Same chord-blindness concern as W3-067, unresolved by this reframing (it fixed the statistical-language overclaim, not the trace-vs-chord gap)."
+  },
+  {
+   "id": "W4-115",
+   "title": "No law relates cover-torsion tower to charge tower e_n; n=5 hit is a base-rate single-prime collision",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Both towers are explicitly trace/abelianized invariants: cover-torsion = H1 of a cyclic (abelian) cover, an Alexander-polynomial-type quantity; charge tower = det(I-M_n), a conjugation-invariant eigenvalue functional. Neither touches ordered-word/chord structure. B772's adversarial audit flagged this TRACE-BLIND-RISK verbatim (the program's own theta-odd/chord thesis says trace-level 'no law' cannot rule out a non-abelian/twisted correlation) and B773's chord-level recompute (W4-115c) claims the wall hardens but is VERIFY-FAILED (a fabricated content string needs stripping and re-verification) -- an open carry, not a closed wall."
+  },
+  {
+   "id": "W4-124",
+   "title": "Silver hearing group (SL(2,Z/8), order 384) does not realize 2O (order 48); conjectured mechanism fails",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Exact order/cardinality mismatch (|SL(2,Z/8)|=384 != |2O|=48) computed from full SL(2) matrix/group data throughout, not a trace-only projection -- this is the prompt's own textbook example of a B766-immune structural negative. B772's audit independently confirms LEVEL/PROJECTION=TESTED-AT-CHORD-LEVEL (no chord-blindness) though it also found the 'no natural quotient realizes 2O' sub-claim under-resolved (only 1 of 3 order-8 normal subgroups checked; B772's own deeper check found a near-miss group matching every coarse invariant, ruled out only by exhaustive isomorphism search) -- a resolution gap, not a projection gap. Not a chord-recompute candidate."
+  },
+  {
+   "id": "W4-192",
+   "title": "Baez-Schwahn 5th F4 door is real but not canonical: nested qubit-qutrit pair sits on positive-dimensional G2/F4 orbits",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Structural Lie/Jordan-algebra dimension-counting (der(O)=g2=14, der(h3(O))=f4=52, Stab_f4(nested C)=12, orbit tangent dims 6 and 16, all matching textbook values via SVD gaps of ~1e14-1e15) -- non-canonicity is carried by strictly-positive orbit dimensions, dispositive independent of any trace/character projection; B772 rates LEVEL/PROJECTION=N/A (not a trace-cyclic-invariance construction at all) and separately flags this CONTENT-FREE-THESIS-PREDICTED (a 5th instance of an already-predicted pattern, low marginal information) -- not load-bearing new evidence and not a chord-recompute candidate."
+  },
+  {
+   "id": "W4-194",
+   "title": "H121 dissolves: screening exponent not universal (CV=0.72); Z/11 string tension is a finite-range fit artifact of algebraic decay eta=2/n^2",
+   "projection": "MIXED",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "The confinement diagnostic G_n(r)=det(1+(w-1)C_A) is a twisted trace/character of a Z/n charge (Levitov-Klich-type FCS generating function) and the screening exponent comes from an SL(2,R) trace-map cocycle -- genuinely trace/abelian machinery. But the negative's failure modes are NOT a cancellation-blind zero: class A (screening) fails on huge cross-sample VARIANCE (CV=0.717, p in [-0.31,5.97]) and class B (confinement) fails because R2 favors algebraic over exponential decay and matches an exact law eta=2/n^2 with Z/11 residual 0.03 sigma -- neither is 'reads zero because even/odd sectors cancel.' Priority LOAD-BEARING given the double-wave robustness investment (see W5-194)."
+  },
+  {
+   "id": "W5-194",
+   "title": "H121-dissolves negative survives B3 removal: B1+B2 reproduce stably across 4 grid/seed legs; B3 proven vacuous by algebra",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "This cell explicitly did its own chord-style check on the one leg that structurally resembled a par-cancellation trap: the open-minus-closed differential (a_O-a_C, the closest analog to a par=tr_even-tr_odd quantity in this setup) is proven IDENTICALLY zero by an exact algebraic identity (det(M_open)=det(M_closed)*unit-modulus phase, verified to 1.11e-16) -- a genuinely structural reason for the zero, not an unexplored even/odd cancellation hiding live structure. With that leg removed, the surviving B1/B2 legs (algebraic decay R2, eta=k/n^2 fit) are curve-fit/variance results, reproduced across 4 independent grid x seed legs. Not a chord-recompute candidate; the campaign's own diagnostic was already applied in-cell."
+  },
+  {
+   "id": "W5-105",
+   "title": "sigma-signature on E6 geometric point is ill-posed: sigma sends P to its Galois conjugate, not a fixed linear involution",
+   "projection": "MIXED",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Core computation is exact Fricke-trace algebra over Q(sqrt-3) (trace-level), but the cell explicitly runs the B772/B773-style chord check IN-CELL: char_{2m}(Z) computed via Chebyshev recurrence for symmetric powers Sym^{2m} at BOTH theta-odd {4,8} and theta-even {5,7} blocks, finding uniform anti-linearity (Galois-conjugate mismatch) across parity with no hidden theta-odd sign, and the cell notes the sealed target (six per-direction signs, not a summed scalar) structurally cannot fall into the par=even-odd cancellation trap. The chord-level question was already asked and answered negatively inside this cell -- not an outstanding candidate."
+  },
+  {
+   "id": "W5-180",
+   "title": "31-collision (B406) is base-rate: 15a1 supersingular primes hit all three splitting classes of Q(sqrt-15), not just chat-1's split-principal class",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "a_p (trace of Frobenius) is technically a trace quantity, but the negative itself is a Galois-splitting-type classification (inert / split-principal / split-nonprincipal via the exact criterion 4p=u^2+15v^2) plus a binomial base-rate test -- the finding is that ALL THREE classes occur among supersingular primes (a genuine refinement beyond a single-class reading, including primes like 7 that are supersingular yet not even split), which is the opposite of a coarse trace projection missing structure. There is no theta-odd/non-abelian analog of 'which ideal class a prime falls into.' Refutes a specific chat-1 claim (E2 row), so load-bearing as a cross-check guard."
+  },
+  {
+   "id": "W5-204",
+   "title": "Being-hand 3-adic defect d(n) computed to n=9: |d|<=2, exact only at n=4; full pattern needs GSWZ's unpublished tower (EXTERNAL)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "The defect law is extracted from Phi(h)Phi(-h), an explicitly SYMMETRIZED (theta-even) product; the cell's own note flags that the theta-odd analog Phi(h)/Phi(-h) carries denominator primes {2,3,5,7} beyond just 3 -- i.e. the 'pure-3' pattern is self-identified as possibly an even-sector symmetrization artifact, with the odd-sector object never actually computed in-cell. This is close to a textbook match for the campaign signature (an even/symmetrized quantity standing in for a claim about the full object) and was only partially addressed. Priority INCIDENTAL: an isolated extension of a published external (GSWZ) result, not evidently load-bearing to the flagship thesis."
+  },
+  {
+   "id": "LAWMAP-E11-B706",
+   "title": "THE STRUCTURAL-BRIDGE NO-MATCH (B706)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rung-1 no-match (no low-height algebraicity over \u211a(\u221a5)) is a numeric/PSLQ-type search (structural), but the underlying flavor-ratio data it tests is built from trace-based hearing quantities (Z(\u03ba), tr_odd) elsewhere in the record; rung-2 kind-mismatch (discrete \ud835\udd3d\u2082 vs continuous ~19-param) is purely structural/cardinality. Headline wall for the whole program."
+  },
+  {
+   "id": "LAWMAP-E1-stopping",
+   "title": "No SM value from the solo object (hardened stopping-rule record)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Aggregates the entire B615-family null record; many constituent checks compare trace-based quantities (Z(\u03ba), tr_odd) to SM values, others are pure field/structural nulls \u2014 a genuine mix, so a chord-graded recomputation of the trace-based sub-checks could conceivably differ."
+  },
+  {
+   "id": "LAWMAP-E2-typing",
+   "title": "The typing wall (1\u2032): no Yukawa-type family tensor",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "An S\u2083 representation-typing selection rule (alternating family tensor \u2297 symmetric E\u2086 cubic contains no trivial rep) \u2014 a Koszul/rep-theoretic non-existence fact independent of theta parity, not a trace-projection reading zero."
+  },
+  {
+   "id": "LAWMAP-E3-B632",
+   "title": "No symmetric mass-shaped object on the solo complement (B632)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Stated as a cohomological non-existence result (cd/Koszul-style), not derived from a trace or character sum that could hide an odd-sector cancellation."
+  },
+  {
+   "id": "LAWMAP-E4-B604",
+   "title": "No G_SM sector alignment of principal blocks (B604/B607/B608)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Sector-alignment/branching checks of this kind are typically computed via character restriction (\u03c7_G|_H decomposition), which is exactly the abelianized/trace-projection signature that could mask a theta-odd contribution."
+  },
+  {
+   "id": "LAWMAP-E5-chiral-index",
+   "title": "Chiral index 0 for every single-object construction (B565-T3, B605)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "A 'chiral index' is an Atiyah-Bott/Lefschetz-type alternating trace sum by construction; a zero index is exactly the chord-blind pattern (even and odd fixed-point contributions could cancel rather than genuinely vanish)."
+  },
+  {
+   "id": "LAWMAP-E6-B307",
+   "title": "No C\u2083 trace field for any hyperbolic knot \u2014 three symmetric generations impossible (B307)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The invariant trace field is by definition generated by traces of holonomy elements; the no-go is stated in terms of this trace field's arithmetic, so a full (non-trace, chord-level) representation check is conceivably different even though degree/Galois constraints give it real structural teeth too."
+  },
+  {
+   "id": "LAWMAP-E7-rebase",
+   "title": "Naive \u2124/3 triality does not act on H\u00b9(D;27) (the rebase)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Center acts as a scalar and Coxeter scales the holonomy \u2014 a group-action structural fact (how a specific central element acts), not a trace projection reading zero from cancellation."
+  },
+  {
+   "id": "LAWMAP-E8-mirror",
+   "title": "THE TOTAL MIRROR WALL",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The intertwiner dimensions per Sym^k block (d=(0,0,1), all higher blocks 0) are the classic signature of a character-inner-product / averaged-trace computation (dim Hom = \u27e8\u03c7_A,\u03c7_B\u27e9); a zero on a higher block is exactly the kind of reading that could be masked cancellation rather than genuine absence."
+  },
+  {
+   "id": "LAWMAP-E9-equivariance",
+   "title": "THE EQUIVARIANCE WALL (Sylvester T=0)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The vanishing intertwiner T=0 is derived via a Sylvester-equation solve (structural linear algebra) but is explicitly tied to the golden CHARACTER (mod-conductor \u2218 golden character, B644) \u2014 a trace/character ingredient sits inside the mechanism, so a theta-odd analog of that character could plausibly move T off zero."
+  },
+  {
+   "id": "LAWMAP-E10-dimensionful",
+   "title": "THE DIMENSIONFUL NO-GO / scale-torsor no-go (B660/S3, B666 cell S)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Hom(G,\u211d\u208a)=0 for any finite group G is a pure torsion-vs-torsion-free cardinality fact (\u211d\u208a under multiplication is torsion-free) \u2014 textbook structural no-go, completely independent of any trace/par-trace projection; B766-immune by design."
+  },
+  {
+   "id": "LAWMAP-A1-uniqueness",
+   "title": "Golden-word uniqueness claim refuted (B665, quiet+real recurs mod 15)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "The refutation is computed directly from |tr_odd(n)| values across n; since tr_odd is exactly the projection this campaign targets, additional quiet+real recurrences could be a cancellation artifact rather than genuine non-uniqueness at the chord level."
+  },
+  {
+   "id": "LAWMAP-A1b-euler",
+   "title": "Euler-product form of the generating function REFUTED (B665)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A formal-identity mismatch (additive Dirichlet form holds, multiplicative Euler-product form does not) \u2014 an algebraic-form failure, not a trace reading zero via cancellation."
+  },
+  {
+   "id": "LAWMAP-A2-Sentry",
+   "title": "S-entry correction: 1/D \u2209 \u211a(\u221a5) (B663)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A field-membership fact (minimal polynomial/degree argument), independent of trace projection."
+  },
+  {
+   "id": "LAWMAP-A3-B699-B756",
+   "title": "'5-inert \u2227 fibered \u21d2 golden' REFUTED (B699/B756)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Refuted by exact holonomy-image orders (fills SL(2,5) or SL(2,\ud835\udd3d25), a cardinality/genericity fact via strong approximation) plus five explicit counterexample manifolds \u2014 a structural/group-order argument, not a trace projection."
+  },
+  {
+   "id": "LAWMAP-A4-W33",
+   "title": "5-adic exclusion instance 1: the W33 ladder exclusion",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Turns on unboundedly growing 5-power denominators in reduced q-series coefficients; if this coefficient stream is itself a character/Molien-type generating function (as instance 2 explicitly is), a theta-odd analog could carry different valuations."
+  },
+  {
+   "id": "LAWMAP-A5-W2Molien",
+   "title": "5-adic exclusion instance 2: the W2 Molien/twisted-character kill",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Explicitly: 'ANY finite-order operator's Molien/twisted character is algebraic-integral.' Molien series IS a character (trace) generating function by construction \u2014 textbook chord-pass candidate; a theta-odd/non-abelian analog of the twisted character could conceivably fail to be integral."
+  },
+  {
+   "id": "LAWMAP-A6-genleg",
+   "title": "THE GENERATION LEG CLOSES \u2014 terminal no-go (B685)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Aggregates the Molien/character kill (trace-based, A5) with the Habiro/Nahm integrality argument (q-series coefficient integrality away from 3); the trace-based leg makes the whole terminal no-go a chord-pass candidate on that leg."
+  },
+  {
+   "id": "LAWMAP-A7-B702retract",
+   "title": "Retracted sub-claim: 'metallic hearing \u21d4 real-quadratic SWAP field' (B702)",
+   "projection": "UNCLEAR",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Self-correction of a conceptual conflation (being-face SWAP vs hearing-face WELD), not a computation whose projection level is in question."
+  },
+  {
+   "id": "LAWMAP-A8-Mahler",
+   "title": "Mahler measure is NOT a rational multiple of L\u2032(E\u2081\u2085,0) (B683/L3)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A PSLQ integer-relation search over two real numbers found nothing \u2014 a numerical/arithmetic-independence check, unrelated to theta-parity trace projection."
+  },
+  {
+   "id": "LAWMAP-A9-bronzeCF",
+   "title": "Bronze has no algebraic continued-fraction value (S2)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "220-digit PSLQ search finds no algebraic relation \u2014 numerical/structural, not trace-projection-based."
+  },
+  {
+   "id": "LAWMAP-A10-bronzeHost",
+   "title": "Bronze has no hosting stage (B675)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Kronecker\u2013Weber / Galois-group-structure argument (bronze cusp field Galois S\u2084 non-abelian \u21d2 no cyclotomic Coxeter plane can contain it) \u2014 a Galois-structure fact, not a trace reading."
+  },
+  {
+   "id": "LAWMAP-A11-Hcusp-bronze",
+   "title": "H-CUSP: no stage family hears bronze at any rank",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Same Galois S\u2084-non-abelian structural mechanism as A10, stated as the negative half of the H-CUSP predictive principle."
+  },
+  {
+   "id": "LAWMAP-C1-cubicDich",
+   "title": "The solo carries NO cubic scalar (cubic dichotomy, cd2+Koszul)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "A cohomological-dimension + Koszul vanishing argument (class-wide theorem), not a trace/character sum that could hide an odd-sector term."
+  },
+  {
+   "id": "LAWMAP-C2-Massey",
+   "title": "THE MASSEY WALL: off-diagonal solo triple products UNDEFINED (B662/H)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "An indeterminacy/definedness fact about Massey products at the cochain level, not a vanishing trace reading \u2014 'undefined' is a different failure mode than 'reads zero.'"
+  },
+  {
+   "id": "LAWMAP-D1-B701",
+   "title": "NO canonical fiber-functor torsor isomorphism exists (B701, Phase 2)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The obstruction rests on the Frobenius\u2013Schur indicator (FS=\u22121 both irreps \u21d2 symmetric/self-conjugate), which is literally a character-sum (trace) invariant (1/|G|)\u03a3\u03c7(g\u00b2); a theta-odd/chord-graded FS-type invariant could conceivably distinguish the two irreps and restore a canonical basepoint. Central to B704/B708\u2013B723."
+  },
+  {
+   "id": "LAWMAP-D3-B713",
+   "title": "No \u2124/3 triality acts (B713; Isom(4\u2081)=D\u2084, order 8)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "A finite-group-order fact: D\u2084 (order 8) has no subgroup of order 3, so no \u2124/3 can act \u2014 pure cardinality, immune to any trace/par-trace projection choice."
+  },
+  {
+   "id": "LAWMAP-D4-B715coda",
+   "title": "6\u2032 generations FULLY CLOSED (B715 coda)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Combines the incommensurable-block obstruction (17\u22959\u22951, block-preserving under any correspondence including Hecke), the no-\u2124/3-symmetry fact (D3), and the being\u00d7hearing disjointness (B685) \u2014 all structural/block-cardinality arguments, no trace projection involved."
+  },
+  {
+   "id": "LAWMAP-D5-B718",
+   "title": "THE CHILD LEDGER: reality authors no skeleton (B718)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rests on the child's ramified prime giving a full generic SL(2,283) image (a strong-approximation genericity/cardinality argument, same family as A3), plus field-law and McKay-correspondence mismatches \u2014 structural throughout."
+  },
+  {
+   "id": "LAWMAP-D6-B720",
+   "title": "Three no-match reconfirmations of B706 (renormalization/holography/amplituhedron, B720)",
+   "projection": "MIXED",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Holography (3d has no local DOF) and amplituhedron (wrong cluster regime) are domain/structural mismatches; the renormalization classification (Gaussian vs Eisenstein branch) may involve character-type classification but the verdict is a branch/type mismatch, not a vanishing trace."
+  },
+  {
+   "id": "LAWMAP-D7-B721",
+   "title": "Our \u2124/2 is complementary to, NOT a piece of, CMR's torsor (B721)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A Galois-group inclusion/complementary-subgroup structural fact (quotient vs kernel relationship), not derived from a trace projection."
+  },
+  {
+   "id": "LAWMAP-D8-B722",
+   "title": "The Stokes/resurgence continuum is arithmetically rigid \u2014 no free dial (B722)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rigidity is established via exact Borel-singularity location and integer Stokes constants \u2014 an integrality/arithmetic-rigidity fact, not a trace reading zero."
+  },
+  {
+   "id": "LAWMAP-D9-B726",
+   "title": "Two bare faces (being+hearing) do NOT close the Born-content gap (B726, OUTCOME B)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Decided by minimal-polynomial degree/field-membership checks (amplitudes need a real quartic, phase needs \u211a(\u03b6\u2085), neither reachable from the two bare quadratics) \u2014 field-degree structural facts."
+  },
+  {
+   "id": "LAWMAP-D10-B727",
+   "title": "E\u2086-across-three-faces claim is FORCED, not a signal (B727 self-audit)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "McKay=Lie=CIZ collapses to one canonical ADE graph identity (P=1, forced), and {E\u2086} is the only exceptional label reachable over an imaginary-quadratic field by a birthday-problem-style cardinality argument \u2014 structural throughout, flagship self-audit."
+  },
+  {
+   "id": "LAWMAP-D11-B728",
+   "title": "\u03b6\u2085 is IMPORTED, not intrinsic to the Stokes resummation (B728)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Decisive leg is a Galois-group cardinality/structure mismatch: C\u2084=Gal(\u211a(\u03b6\u2085)/\u211a) \u2260 C\u2082\u00d7C\u2082=Gal(\u211a(\u221a\u22123,\u221a5)/\u211a) \u2014 exactly the 'Galois fact' example of a structural, B766-immune negative."
+  },
+  {
+   "id": "LAWMAP-D12-B729",
+   "title": "Amplitude sector \u211a(\u221a(2+\u03c6)) is also an overlay, not native (B729)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "PSLQ search over 33 filling trace fields found nothing, plus a ramification-disjointness argument ({2,5} vs the object's prime 3) \u2014 numerical/arithmetic structural checks, completes the Born ledger."
+  },
+  {
+   "id": "LAWMAP-D13-B730",
+   "title": "\u211a(\u221a\u22127) is a fiber-functor stage, not a 4th forced face (B730)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Proven via Neumann\u2013Reid rigidity, A-polynomial branch structure, and a group-order explosion (V\u2084\u2192(\u2124/2)\u00b3 on adjoining \u221a\u22127) \u2014 all structural/cardinality arguments, not trace-projection readings."
+  },
+  {
+   "id": "LAWMAP-D14-B733",
+   "title": "The menu of observers is a BOUNDED discrete \ud835\udd3d\u2082-space, never the continuous ~19\u201320-param space physics needs (B733)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Established via Out(G_n) growth-saturation analysis and Aut(O\u2083)=\u2124/2 \u2014 group-order/growth structural facts, immune to trace-projection choice."
+  },
+  {
+   "id": "LAWMAP-D15-B736pathB",
+   "title": "Object-level observer OBSTRUCTED \u2014 no \u03b2=1 SSB, no Shimura action (B736 Path B)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rests on a \u03b6_K-pole existence/absence argument (finite level has no pole \u21d2 no phase transition) and a dimension-parity fact (H\u00b3 odd-dimensional, not Hermitian symmetric) \u2014 structural/arithmetic, not trace-based."
+  },
+  {
+   "id": "LAWMAP-D16-B736pathC",
+   "title": "Parameter-reduction RIGOROUS NO-GO \u2014 0/24 SM parameters reduced (B736 Path C)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Directly reuses the equivariance-wall's T=0 mechanism (which itself carries a golden-character/trace ingredient, see E9), plus purely structural kind-mismatch and boundedness arguments \u2014 mixed on the trace-adjacent leg."
+  },
+  {
+   "id": "LAWMAP-D17-B737",
+   "title": "The Candidate Zero composition dies (B737, cell #1 crux)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Killed by an MB12-vacuity argument (the 'shared substrate' test passes for any h=1 field with no manifold, so it never discriminates) and an object-deletion fact (BC/CMR has no m004 parameter) \u2014 both structural/design-flaw arguments, not trace projections."
+  },
+  {
+   "id": "LAWMAP-D18-B739",
+   "title": "No conductor-(4)/(8) Hecke character appears in the continuous spectrum (B739)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Proven via an explicit finite-abelian character sum (the O/\u039b\u2245\u2124/4 coset character sum = 4\u00b7[\u03bc\u2208O^\u2228]) restricting the Fourier support \u2014 a textbook abelianized/character computation; a non-abelian or theta-odd refinement of the coset structure could in principle surface a nonzero character."
+  },
+  {
+   "id": "LAWMAP-D19-B724-C2",
+   "title": "Courier C2 BLOCKED: 3 H\u00b9 classes are incommensurable 17/9/1 blocks (B724)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Fox-calculus block-dimension computation (17/9/1 incommensurable), a structural dimension-count, not a trace/character projection."
+  },
+  {
+   "id": "LAWMAP-D20-B724-C3",
+   "title": "Courier C3 REFUTED: Sturmian zero-entropy + amphichiral no-arrow (B724)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Topological/dynamical entropy vanishing is a classical Sturmian-sequence fact, a robust dynamical invariant rather than a trace cancellation artifact."
+  },
+  {
+   "id": "LAWMAP-D21-B724-C4",
+   "title": "Courier C4 BASE-RATE-DEAD: forced \u03b8-odd torsion ratio misses hierarchy by \u00d7259 (B724)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The 'torsion ratio' is an H\u2081 (abelianized \u03c0\u2081) invariant by construction \u2014 exactly the abelianization-is-not-a-proxy pattern the program has flagged elsewhere; a full non-abelian/chord-level recomputation could plausibly give a materially different ratio than the abelianized one."
+  },
+  {
+   "id": "LAWMAP-D22-B724-C5",
+   "title": "Courier C5 REFUTED: 2 bits = measure-zero in \u211d^19 (B724)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A trivial measure-theoretic fact (any finite discrete set has Lebesgue measure zero in a continuous space) \u2014 no trace projection involved."
+  },
+  {
+   "id": "S014",
+   "title": "Cosmological-constant value formula \u039b=\u039b_Planck\u00b7\u03c6\u207b\u00b2\u1d3a",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Killed by circularity (N defined by its own answer) plus a null-hypothesis frequency test; no trace/character/abelianized quantity involved at all \u2014 archetype of the numerology discipline, not a projection artifact."
+  },
+  {
+   "id": "S015",
+   "title": "Tower eigenvalues = masses/operator dimensions",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Kill is a dictionary/identification correction (moduli-space monodromy \u00b1\u03c6\u1d4f vs a fluctuation Hessian), not a value that read zero via trace cancellation; category mismatch, not projection ambiguity."
+  },
+  {
+   "id": "S016",
+   "title": "Goldman metric (1,1) Lorentzian on character variety",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Definite Riemannian signature (2,0) computed directly from the symplectic/Goldman form; a signature computation, not a trace value reading zero from even/odd cancellation."
+  },
+  {
+   "id": "S017",
+   "title": "Phase-space 3+1D at SL(3) (6 real dims \u2192 3+1)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Dimension count is arithmetic; the kill is that the metric is Riemannian not Lorentzian (signature fact), independent of any trace/theta-odd projection."
+  },
+  {
+   "id": "S018",
+   "title": "Spacetime tower climbing the principal-SL(2) ranks",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Lorentzian signature found only at k=2 by direct computation across ranks; a signature/rank fact, not a trace projection that could cancel differently."
+  },
+  {
+   "id": "S019",
+   "title": "Fisher metric on Chern\u2013Simons level k",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Killed by a dimension theorem: any scalar-parameter family gives a 1\u00d71 (hence non-Lorentzian) Fisher form \u2014 a structural dimension-counting no-go, not a trace/character zero-read."
+  },
+  {
+   "id": "S021",
+   "title": "Entanglement = holographic bridge (Fibonacci chain)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "Entanglement entropy is literally a partial-trace (par-trace-like, -Tr[\u03c1_A log \u03c1_A]) quantity; the negative is 'generic, not zero,' so it does not strictly match the zero-read signature, but a theta-odd/chiral subsystem partial trace could plausibly give a different (non-generic) scaling \u2014 worth a look, low confidence."
+  },
+  {
+   "id": "META-COLLISION",
+   "title": "'One collision causes all walls' (single \u22121 root cause)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Withdrawn because n=5 is three distinct A_{n\u22121} obstacles with different eigenvalues/independent derivations \u2014 a framing/counting correction, not a trace-cancellation zero-read."
+  },
+  {
+   "id": "MATH-THETA-C",
+   "title": "\u03b8\u2192c: order-2 involution predicts order-4 degree=rank scalar",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Pure order/cardinality mismatch (\u03b8=\u2212w\u2080 order 2 cannot single out order-4 c=i) \u2014 exactly the Galois/order-mismatch structural archetype the campaign explicitly excludes; heavily cross-referenced (blocks the successor lead S022)."
+  },
+  {
+   "id": "MATH-SN-C",
+   "title": "s_n=c: tower sign predicts degree=rank scalar",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Same order-mismatch argument as MATH-THETA-C (order \u22642 sign cannot equal order-4 secondary c=i); a cardinality fact, immune to re-projection."
+  },
+  {
+   "id": "VALUE-CS-CROSSOVER",
+   "title": "CS level crossover k\u22484 \u2194 rank n=4",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Killed as an m-dependent value coincidence (k\u22482 at m=2, k\u22481 at m=3) via a genericity test across m \u2014 same numerology family as S014, not a trace-sector cancellation."
+  },
+  {
+   "id": "STD-UNITARITY",
+   "title": "Quantum tower |\u03bb|=1 = unitarity bridge",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Tautological/definitional identification (true of every quantum theory's unitary rep), not a computed trace value that could cancel differently."
+  },
+  {
+   "id": "STD-ROOTS-UNITY",
+   "title": "Finite-k eigenvalues are roots of unity",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "True by construction (rep defined over q=exp(2\u03c0i/(k+2))); definitional tautology, not a projection-dependent result."
+  },
+  {
+   "id": "STD-KASHAEV-VOLUME",
+   "title": "Kashaev invariant \u2192 volume as a discovered bridge",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Identified as the known Volume Conjecture (Kashaev 1997); an identification/citation kill, not a computation that read zero."
+  },
+  {
+   "id": "STD-Z0-K4-PHASE",
+   "title": "z\u2080/k=4 phase match",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Explained by a divisibility fact (k+2=6=2\u00b73 divides the cyclotomic argument at k=4 only) \u2014 an arithmetic/cyclotomic structural fact, same family as Galois/totient examples."
+  },
+  {
+   "id": "STD-THREE-REGIMES",
+   "title": "'Three regimes' (cyclotomic/algebraic/transcendental) reading",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "An interpretive overlay on the standard asymptotic expansion of quantum invariants; not a distinct computed trace result."
+  },
+  {
+   "id": "FRAMING-PROMOTION",
+   "title": "char(M\u00b9)\u2192char(M\u207f) 'promotion' / two separable halves",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Superseded by an exact dimension identity ((n+1)(n+2)/2\u2212(n\u00b2\u22121)=\u2212(n\u22124)(n+1)/2) showing one Sym two-sequence object; an algebraic dimension-count identity, not trace cancellation."
+  },
+  {
+   "id": "K-A_K-B",
+   "title": "det=\u22121 breaks/selects chirality (CS invariant reading)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "CS invariant \u22610 for the whole metallic family is forced by the amphichiral (orientation-reversing) symmetry itself \u2014 a symmetry-forced structural vanishing (order-2 deck transformation forces CS=\u2212CS), not a trace/character projection that could differ under a theta-odd refinement; CS is a geometric topological invariant, not literally tr()/par-trace. Central load-bearing kill (feeds K-C, K-D, K-I, P21)."
+  },
+  {
+   "id": "K-C",
+   "title": "Figure-eight quantized = physical Fibonacci braiding chirality selector",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Killed by 4 independent structural reasons, decisively by arithmetic field disjointness \u211a(\u03b63)\u2229\u211a(\u03b65)=\u211a (a Galois fact) plus non-unitary-categorification and CS=0 no-go; none is a trace-cancellation-that-could-flip-sign argument."
+  },
+  {
+   "id": "K-D",
+   "title": "Physical (unitary) topological order from the metallic family",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Existence no-go: hyperbolic\u27f9non-unitary and CS=0\u27f9c\u208b=0 for all m\u22651, only m=0 (non-hyperbolic) could work but has no expansion \u2014 a structural exhaustion, not a cancellable trace read."
+  },
+  {
+   "id": "K-E",
+   "title": "Forced dimensionful scale / non-generic physical ratio",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Value-matching genericity test (\u03bb_m, volumes, systoles vs \u03b1\u207b\u00b9, m_p/m_e, sin\u00b2\u03b8_W) \u2014 same numerology family as S014, not a trace-sector cancellation."
+  },
+  {
+   "id": "K-F",
+   "title": "Single H\u2081 torsion \u2124/n \u2192 SU(n) center \u2192 gauge bridge",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Reason (1) is explicitly an ABELIANIZED-invariant test \u2014 H\u2081 is the abelianization of \u03c0\u2081 \u2014 and it demonstrably fails to track chirality (both single- and doubled-torsion counterexamples both ways); a fuller non-abelian/theta-odd invariant on the same manifolds could plausibly separate what H\u2081 alone cannot. Reason (2) (center\u2260gauge group) is a pure conceptual/structural conflation, immune to re-projection. Heavily cross-referenced revival condition makes this load-bearing."
+  },
+  {
+   "id": "K-H",
+   "title": "Chirality shifts eigenvalue arithmetic (trace field \u211a(\u221a\u22123) vs \u211a(\u03b6\u2081\u2082))",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The entire claim and its kill live in trace-field content of SL(2,C) representations (classic 'trace' projection); the decisive control shows achiral words alone already span all three trace fields (spin-content-mod-4 confound), but this confound was only checked via the ordinary trace/quantum-group projection \u2014 a theta-odd-sector-aware trace decomposition has not been tried and could plausibly separate chirality from spin-content. Banked as a 'third recurrence,' firmly load-bearing to the quantum-layer arc."
+  },
+  {
+   "id": "K-I",
+   "title": "Borromean/s776 SU(3) gauge enhancement from SL(2,C) dim=rank coincidence",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Three independent structural kills: manifold misidentification (s776\u2260actual Borromean rings, is_isometric_to=False), Thurston's dim=k(cusps) theorem (a hard structural count, not a trace read), and SL(2,C) dim \u2260 SL(3,C) rank (wrong structure group entirely) \u2014 none hinges on trace-sector cancellation."
+  },
+  {
+   "id": "K-G",
+   "title": "Metallic structure has a forced choice (isolated \u03ba-valued fixed points)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Resolved via an empty \u03ba-elimination ideal + Jacobian rank test (the 'isolated points' are degenerate points of a continuous curve) \u2014 an algebraic-geometry dimensionality fact, not a trace/character projection ambiguity, even though \u03ba itself is a commutator trace."
+  },
+  {
+   "id": "K-J",
+   "title": "\u03c6\u00b2 = degenerate-block monodromy multiplier",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "The apparent match was diagnosed as comparing an eigenvalue-trace against a commutator-trace (different quantities) \u2014 the underlying artifact is trace-related, but the actual verdict rests on the structural impossibility of a representation being simultaneously reducible (\u03ba=2) and irreducible (\u03ba>2); re-projecting cannot make one rep both."
+  },
+  {
+   "id": "K-K",
+   "title": "Gap-labeling rank = composition period k",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "A period-k geodesic is always a 2\u00d72 matrix / 2-letter substitution, hence rank 2 regardless of k \u2014 a matrix-dimension (cardinality) fact, not a projection-dependent trace read."
+  },
+  {
+   "id": "K-L",
+   "title": "Spectral rank = SL(n) tower depth",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "All tower eigenvalues are powers of a single unit \u03c6\u00b2 at every n (multiplicative free-rank 1), a fact proved elsewhere via the CRT/symbolic-m Jacobian (B63/B64) \u2014 a proven structural multiplicative-rank fact, not an unresolved trace cancellation."
+  },
+  {
+   "id": "K-M",
+   "title": "Measurable gap-labeling-rank prediction (built on K-K/K-L)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Falls automatically once its structural premises K-K/K-L are dead; derivative kill, no independent trace computation."
+  },
+  {
+   "id": "K-N",
+   "title": "|disc_CM| = \u03ba_m (CM discriminant equals commutator parameter)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Killed by a cross-m value-matching test (golden m=1 coincidence |\u22123|=3 fails to generalize to silver, 4\u22606) \u2014 numerology-genre genericity test, not a trace-sector cancellation."
+  },
+  {
+   "id": "K-O",
+   "title": "Golden 'trace leak' tr \u03c1_SU(2)\u2083(A) = \u22121/\u03c6 as distinguished signal",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "INCIDENTAL",
+   "rationale": "Directly a group-representation trace computation; killed not because it vanishes but because a full class count (order-2880 finite image) shows the trace value is common (13% share golden magnitude) rather than distinguishing \u2014 the count was done at the ordinary trace/quantum-group level; a theta-odd-sector-refined class count on the same finite image has not been tried and could plausibly re-isolate the seed."
+  },
+  {
+   "id": "S032-A",
+   "title": "'No invariant escapes the trace ring's discretely-multivalued-and-unsymmetric behavior' (probation P1)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Refuted by finding that |H\u2081|-torsion (an ABELIANIZED invariant \u2014 H\u2081 = \u03c0\u2081 abelianized) and the gap-label frequency-module rank are both single-valued, i.e. NOT indexed by the character-variety fork; the residual-hint itself explicitly restricts the surviving claim to 'representation-dependent classes' and flags topological/abelianized invariants as 'the wrong test class' \u2014 this is precisely the chord-recompute signature and is already flagged for a sharpened (non-abelian, theta-odd-aware) re-test."
+  },
+  {
+   "id": "P13-GENERATIONS",
+   "title": "Generations via commensurator-triality-on-27 (probation P13)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Killed by an explicit orbit-enumeration/branching-rule computation (E\u2086\u2192SU(3)\u00b3 splits the 27 as 9+9+9, verified via Sage, B298/B299) \u2014 a representation-decomposition (branching-rule) fact, not a trace value subject to even/odd sector cancellation."
+  },
+  {
+   "id": "P20-CAUSALSET",
+   "title": "Causal-set poset reading of the strict-full class DAG (probation P20)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Killed via the Myrheim\u2013Meyer dimension estimator on a combinatorial partial order \u2014 a poset/order-theoretic computation with no trace or abelianization involved."
+  },
+  {
+   "id": "P21-FRAMEWORK",
+   "title": "External SM/GR framework search (probation P21)",
+   "projection": "MIXED",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "A multi-signature filter (\u2124/11 charge, \u03b8-fold F\u2084 no order-3, quartic-Pisot spectrum, CS=0/no-scale) where no candidate framework survives all four; CS=0 is one leg (see K-A/K-B, itself structural) but the other three legs are independent structural/arithmetic facts, so the composite verdict does not hinge on a single trace projection."
+  },
+  {
+   "id": "P22-KLEINFOUR",
+   "title": "Klein-four \u2192 SO(9) route via \u03b3=Gal(\u211a(\u221a5)/\u211a) (probation P22)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Killed by a Galois fixed-field argument (\u03b3 fixes \u211a(\u221a\u22123) pointwise; the \u03b8-even H\u00b9/F\u2084 sector lives entirely over \u211a(\u221a\u22123), so \u03b3 acts trivially on the four exponents) \u2014 a Galois/field-fixing structural fact, the exact archetype excluded from the campaign."
+  },
+  {
+   "id": "R1-B85-FUNCTORWALL",
+   "title": "Sym(W)\u2192trace-ring functor wall at height 2 (probation R1)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Exact combinatorial formula mult(char(M^h)) at height2 = ceil((n\u22122)/2), verified by orbit enumeration n=3..15 \u2014 a proven multiplicity formula (structural/exact identity), not a trace value that reads zero from sector cancellation."
+  },
+  {
+   "id": "R5-L38-HIGGSSCALE",
+   "title": "Higgs-scale do-or-die on the Hitchin/PVI side (probation R5)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "PVI time has exact C*-weight 0 and the only C*-fixed Hitchin-base point is the nilpotent h=0; C*-weight is an abelian-torus character but the whole argument is dimensional/grading analysis exhaustive by construction (weight-0 means literally invariant, not a cancellation of two nonzero pieces) plus a numerical non-isomonodromy drift check \u2014 a structural no-intrinsic-scale result, immune to a theta-odd refinement of what is fundamentally a torus-grading argument. Flagged explicitly as 'do-or-die', load-bearing for the physics-scale question."
+  },
+  {
+   "id": "B145-ARITHMETIC-SUBARM",
+   "title": "'No arithmetic chiral bundle exists / arithmetic\u27f9amphichiral' (B145 sub-arm, refined B147)",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Refuted directly via trace-field computation: RRL/RLL are fully arithmetic chiral bundles (invariant trace field \u211a(\u221a\u22127), integral traces) \u2014 mechanism is trace-field based, but the kill is a decisive explicit counterexample construction, not an ambiguous zero-read, so a theta-odd re-projection would not overturn an already-exhibited counterexample."
+  },
+  {
+   "id": "LAWMAP-W1",
+   "title": "Wall 1 \u2014 \"No SM value from the solo object\" (the hardened record)",
+   "projection": "MIXED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "Self-documented as an umbrella/aggregate with no single discriminating computation (B754 P2 WALL-1 cell: 'citation_chain: umbrella on B307/B604/B632/B706 corpus'); its sub-citations mix genuine structural theorems (B307 Galois signature, B604 explicit coefficient mixing) with at least one trace/contraction-based sub-result (B632's cubic, see LAWMAP-W2). Because it inherits from a trace-projection component, a chord re-check of that component could in principle move the umbrella; the umbrella itself is not independently a candidate but is only as sound as its weakest cited leg."
+  },
+  {
+   "id": "LAWMAP-W2",
+   "title": "Wall 2 (typing wall 1\u2032) \u2014 no Yukawa-type family tensor at the classical-cohomology level",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The vanishing is stated for the CONTRACTED symmetric cubic invariant C(v0,\u00b7,\u00b7) \u2014 a scalar contraction/trace of the underlying cup-product structure \u2014 for identical families. A companion finding (B637/B662-H/B670-C1, LAW_MAP row 'the cubic dichotomy') already shows the pattern directly: the vector CUP CLASSES are NONZERO on all six off-diagonal solo pairs even where the contracted cubic reads zero/alternating, and 'the cubic = its contraction shadow.' This is exactly the W4-304 signature (scalar projection zero over a nonzero richer object) already partially demonstrated in this program's own record \u2014 a strong candidate, though the specific identical-family vanishing invoked by wall 2 rests on the Koszul sign rule for a CLOSED 3-manifold triple product (see W3 for the structural half); the chord-level (cup-class) content is the part that could differ and, per the record, already does on nearby cells."
+  },
+  {
+   "id": "LAWMAP-W3",
+   "title": "Wall 3 \u2014 no symmetric mass-shaped object on the solo complement (B632)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Koszul/graded-commutativity forces the SOLO (open-manifold) triple product to be fully alternating; this is a general algebraic-topology identity (parity of the cup product under Poincar\u00e9 duality for an odd-degree class), not a par=tr_even\u2212tr_odd cancellation. Crucially the wall's own statement is already chord-aware: it explicitly restricts the claim to the solo complement and separately identifies the CLOSED double (the chord) as where a symmetric texture becomes well-defined (B580 G1) \u2014 so it does not claim anything false about the chord side and needs no re-projection."
+  },
+  {
+   "id": "LAWMAP-W4",
+   "title": "Wall 4 \u2014 no G_SM sector alignment of the principal blocks (B604/B607/B608)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "B604 computed the FULL explicit integer-coefficient mixing of every principal-block line against both \u03b8-pair combinations (e.g. h=4: V16-line = \u2212443520\u00b7o1 \u2212 604800\u00b7o2) \u2014 a direct vector-level decomposition, not a scalar trace/par that could hide a cancelling \u03b8-odd remainder. The 'no assignment exists' verdict was read off exact nonzero mixing coefficients in every graded slot, already at chord granularity."
+  },
+  {
+   "id": "LAWMAP-W5-T3",
+   "title": "Wall 5 / B565-T3 \u2014 chiral index \u2261 0 (\"the object is gauge-vector-like\")",
+   "projection": "TRACE-OR-ABELIANIZED",
+   "chord_could_differ": true,
+   "priority": "LOAD-BEARING",
+   "rationale": "The computed quantities are explicitly par-shaped: 'sublattice imbalance 0' (a count-even minus count-odd invariant) and 'amphichiral label pairing \u03c3+(1\u2212\u03c3)=1 EXACT' (a symmetric even/odd sum). The record itself flags that 'the one nonzero-looking winding was a closed-gap artifact' \u2014 i.e. a near-miss non-cancellation was explained away rather than chord-verified. This is the closest direct match in the record to the W4-304 signature (par reads zero, could be even=odd cancellation rather than both-vanish), and it underwrites the program's central 'amphichiral \u27fa \u03b8-symmetric \u27fa vector-like' claim (see MEMORY: two-chiralities-c-vs-theta) \u2014 a genuine \u03b8-odd/chord-level chiral index recompute has not been shown to reproduce the zero independently of the trace/imbalance readout."
+  },
+  {
+   "id": "LAWMAP-W6",
+   "title": "Wall 6 \u2014 no C\u2083 trace field for any hyperbolic knot (B307)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "A proved Galois-signature theorem: a cyclic-cubic (C\u2083) number field is totally real (Galois, no complex automorphism), while every hyperbolic 3-manifold's trace field has a complex place \u2014 the two classes are disjoint by definition, independent of any specific representation's even/odd decomposition. 'Trace field' here names an arithmetic invariant of the whole holonomy group, not a par=tr_even\u2212tr_odd projection subject to cancellation; census-confirmed on 500 manifolds. B766-immune."
+  },
+  {
+   "id": "LAWMAP-W7",
+   "title": "Wall 7 \u2014 the naive \u2124/3 triality does not act on H\u00b9(D;27) (\"the rebase\")",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "INCIDENTAL",
+   "rationale": "Killed by two standard structural facts: the E\u2086 center acts on the 27 as the scalar \u03c9 (Schur's-lemma-type \u2014 a scalar action splits nothing, not a trace cancellation), and non-central order-3 elements provably fail to commute with the holonomy (Coxeter scaling, checked by direct non-commutation, not by a vanishing trace sum). Neither fact is a par/character projection that could hide a \u03b8-odd analog; the obstruction is algebraic (scalar-center + non-commutation), not computational cancellation."
+  },
+  {
+   "id": "LAWMAP-W8",
+   "title": "Wall 8 \u2014 THE TOTAL MIRROR WALL (B643/B658)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "The intertwiner space was computed BLOCK-BY-BLOCK on the principal-SL(2) isotypic decomposition (Sym^16 \u2295 Sym^8 \u2295 Sym^0, the object's own \u03b8-graded pieces) with dimension vector d=(0,0,1) \u2014 each theta-graded block checked individually, not summed/differenced into a single par. This is already the chord-granular check the campaign is hunting for elsewhere; there is no summed trace that could be masking a nonzero Sym^16 or Sym^8 contribution."
+  },
+  {
+   "id": "LAWMAP-W9",
+   "title": "Wall 9 \u2014 THE EQUIVARIANCE WALL (B644/B650, Sylvester T=0)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Solved the FULL Sylvester equation T\u00b7A1 = \u03c1_hear(RL)\u00b7T for every entry of the intertwiner matrix T (not a trace or scalar projection of T) and found T=0 the unique solution, explained by disjoint spectra (infinite-order hyperbolic vs finite-order congruence). Since the whole matrix \u2014 already mapping into the \u03b8-odd hearing plane \u2014 was solved for directly, the computation is already at chord/structural granularity; no cancellation of a summed quantity is possible here."
+  },
+  {
+   "id": "LAWMAP-W10",
+   "title": "Wall 10 \u2014 THE DIMENSIONFUL NO-GO / scale-torsor no-go (B660/S3, B666 cellS)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Hom(G, \u211d\u208a) = 0 for finite/profinite G is a torsion-vs-torsion-free group-theory fact (verified exactly on several concrete groups: Gal(L/\u211a(i)), 2I, PSL(2,7), 2I\u00d7\u2124/3, SL(2,\u2124/15), W(E6)) \u2014 a structural no-go independent of any trace/character projection; this is exactly the instructions' own example of a B766-immune structural negative."
+  },
+  {
+   "id": "LAWMAP-W11-B706",
+   "title": "Wall 11 (headline) \u2014 THE STRUCTURAL-BRIDGE NO-MATCH, rung 1 + rung 2 (B706)",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Rung 1 (PSLQ algebraicity of SM ratios over Q(sqrt5)) is a Diophantine integer-relation search on already-scalar real numbers, not a par/trace projection subject to even/odd cancellation. Rung 2 (discrete F2-seam vs continuous ~19-param SM moduli) is an explicit cardinality/dimension-type mismatch (finite set vs positive-dimensional manifold) \u2014 exactly the instructions' 'order/cardinality mismatch' example of a structural negative. Neither rung's zero result is a trace-cancellation artifact."
+  },
+  {
+   "id": "B743-P1",
+   "title": "B743 Part 1 \u2014 rung-1 widened algebraic sweep, 6 bases \u00d7 18 PDG targets, 0 gated hits",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "PSLQ integer-relation detection across the object's real algebraic tower (Q(sqrt3), Q(sqrt15), Q(zeta15)+, Q(zeta20)+, Q(sqrtphi), Q(sqrt5)) against 18 calibrated SM targets. The compared quantities are already-scalar real numbers (masses ratios, Koide Q, alpha^-1, etc.); the null is a base-rate-calibrated Diophantine non-match, not a par=tr_even-tr_odd computation, so there is no natural theta-odd analog whose cancellation could be hiding a hit. Genuinely the program's headline 'rung-1 sweep, zero hits' negative."
+  },
+  {
+   "id": "B743-P2",
+   "title": "B743 Part 2 \u2014 the L-function/analytic sweep (L(E,2), L'(E,0), L(E,1), Mahler, Beilinson combos), 0/126 hits",
+   "projection": "CHORD-OR-STRUCTURAL",
+   "chord_could_differ": false,
+   "priority": "LOAD-BEARING",
+   "rationale": "Compared a pre-named list of analytic L-function special values and regulator/Mahler-measure combinations of the figure-eight's associated curve 15A8 against the 18 SM targets at +/-1 sigma \u2014 again a Diophantine/near-hit comparison of scalar analytic constants, not a group-representation trace/character/par computation; the L(E,2) vs Koide near-miss was independently recomputed and shown to be 683-sigma apart (not a near-hit). This is the program's 'L-function sweep, zero matches' headline negative; no chord-vs-trace decomposition applies to an L-value."
+  }
+ ],
+ "rank": {
+  "structural_count": 129,
+  "dropped_count": 25,
+  "queue": [
+   {
+    "id": "LAWMAP-E5-chiral-index",
+    "title": "Chiral index \u2261 0 for every single-object construction (B565-T3/B605) [merges LAWMAP-W5-T3]",
+    "chord_analog": "Recompute the chiral/Lefschetz index as a \u03b8-graded odd-minus-even fixed-point sum instead of the amphichiral par-sum \u2014 test whether the 'closed-gap-artifact' near-miss winding is actually a genuine nonzero \u03b8-odd index, not an even=odd cancellation read as zero (this underwrites the flagship amphichiral\u27fa\u03b8-symmetric\u27favector-like claim)."
+   },
+   {
+    "id": "LAWMAP-W2",
+    "title": "No Yukawa-type family tensor at classical-cohomology level (contracted symmetric cubic C(v0,\u00b7,\u00b7)=0)",
+    "chord_analog": "Compute the \u03b8-odd cup-product family tensor (the full Sym\u00b3 chord object) on identical families rather than its scalar contraction \u2014 the program's own record already shows the vector cup classes are NONZERO on all six off-diagonal pairs where the contracted cubic reads zero, so the overturn is partly pre-demonstrated."
+   },
+   {
+    "id": "OI-169",
+    "title": "CP-sign \u2192 baryon-asymmetry reading (sign 'not object-derivable')",
+    "chord_analog": "Recompute the CP sign from a \u03b8-odd, conjugation-sensitive holonomy pairing rather than the swap-symmetric trace magnitude \u2014 directly tests the standing crux (can c be carried into \u03b8) by asking whether the sign the trace computation leaves free is fixed once the chord/\u03b8-odd sector is exposed."
+   },
+   {
+    "id": "LAWMAP-D1-B701",
+    "title": "No canonical fiber-functor torsor isomorphism (B701, Phase 2; FS=\u22121 both irreps)",
+    "chord_analog": "Compute a \u03b8-graded Frobenius\u2013Schur-type indicator (1/|G|)\u03a3 \u03c7_odd(g\u00b2) that could distinguish the two self-conjugate FS=\u22121 irreps and restore a canonical basepoint the ordinary character-sum indicator cannot (central to the whole B704/B708\u2013B723 measurement-as-torsor arc)."
+   },
+   {
+    "id": "OI-010",
+    "title": "\u03c1_n all-n tower stabilization / Procesi trace-ring B85 wall [merges OI-089/B85 char(M\u00b2)\u00b2 degeneracy]",
+    "chord_analog": "Build the tower/intertwiner in the character (chord) ring instead of the Procesi trace ring, using an invariant finer than any symmetric trace polynomial \u2014 separate exactly the two cases the char(M\u00b2)\u00b2 characteristic-polynomial degeneracy collides."
+   },
+   {
+    "id": "LAWMAP-A5-W2Molien",
+    "title": "5-adic exclusion: W2 Molien/twisted-character kill [merges LAWMAP-A4-W33 + LAWMAP-A6-genleg terminal no-go]",
+    "chord_analog": "Compute the \u03b8-odd twisted-character Molien/q-series and test its 5-adic integrality directly \u2014 a non-abelian twisted character need not inherit the algebraic-integrality that kills the \u03b8-even Molien series and closes the generation leg."
+   },
+   {
+    "id": "LAWMAP-E8-mirror",
+    "title": "The total mirror wall \u2014 intertwiner dims per Sym^k block (0,0,1) then 0",
+    "chord_analog": "Recompute the per-Sym^k-block Hom-dimensions as a \u03b8-graded intertwiner count rather than as \u27e8\u03c7_A,\u03c7_B\u27e9 character inner products \u2014 test whether the higher-block zeros are masked even/odd cancellations rather than genuine absences."
+   },
+   {
+    "id": "LAWMAP-E9-equivariance",
+    "title": "Equivariance wall (Sylvester T=0) [merges LAWMAP-D16-B736pathC parameter-reduction 0/24]",
+    "chord_analog": "Re-solve the Sylvester equivariance system with the \u03b8-odd analog of the golden character in place of the \u03b8-even one \u2014 test whether the intertwiner T moves off zero, which would simultaneously reopen the B736 Path-C parameter-reduction no-go it feeds."
+   },
+   {
+    "id": "LAWMAP-E6-B307",
+    "title": "No C\u2083 trace field for any hyperbolic knot \u2014 3 symmetric generations impossible [merges OI-129 Gate-C + OI-165 Wall-B]",
+    "chord_analog": "Test three-fold-symmetric generation data on a beyond-trace (chord) invariant of the holonomy rep rather than the invariant trace field \u2014 check whether \u03b8-odd structure carries the C\u2083 texture the cyclic-cubic trace-field theorem is blind to (Galois/degree teeth make this the sturdier of the load-bearing cases, hence ranked below the cleaner zero-reads)."
+   },
+   {
+    "id": "OI-011",
+    "title": "L50 class-S for E6 \u2014 T[4\u2081;E6] state integral CRUX (B561 Eisenstein-\u2124/3 selection)",
+    "chord_analog": "Redo the Eisenstein-\u2124/3 selection with a \u03b8-odd gauge-fixing of the holonomy/trace data \u2014 test whether the CRUX gate's computed-negative survives beyond trace-level selection (a positive would cascade through the rows citing it: OI-163/165/171)."
+   },
+   {
+    "id": "W3-067",
+    "title": "Classical composite trace fields do not fuse to \u211a(\u03b612) (K016) [merges W4-067r 6-word carry-fix]",
+    "chord_analog": "Compute the full un-squared twist-curve (chord/framing-level, non-conjugacy-invariant) trace field \u27e8tr a, tr b, tr ab\u27e9 and test fusion to \u211a(\u03b6\u2081\u2082) \u2014 finishing B773's VERIFY-FAILED W3-067c pass that certified only tr(a); genuinely still an open carry."
+   },
+   {
+    "id": "S032-A",
+    "title": "'No invariant escapes the trace ring's discretely-multivalued/unsymmetric behavior' (probation P1)",
+    "chord_analog": "Evaluate a representation-dependent, \u03b8-odd-aware invariant across the character-variety fork \u2014 test whether anything is genuinely fork-indexed once the abelianized single-valued invariants (|H\u2081|-torsion, gap-label frequency-module rank) are excluded as the wrong test class (representative of the secondary abelianization/H\u2081-not-a-proxy batch: D21-B724-C4, W4-115, K-F, K-H)."
+   }
+  ],
+  "note": "STRUCTURAL COUNT: 174 scanned \u2212 45 flagged chord-blind = 129 STRUCTURAL / B766-immune (correctly not candidates). This bounds the campaign: only ~26% (45/174) of the banked-negatives base was ever at projection risk; ~74% is projection-immune, so the maximum blast radius of any chord recompute is \u226445 negatives.\n\nDEDUP: the 45 flagged collapse to 34 distinct underlying negatives via 9 merges \u2014 B307 trace-field {OI-129+OI-165+E6-B307}, Molien 5-adic {A4+A5+A6}, T3 sector-S {OI-132+OI-345}, Procesi/B85 tower {OI-010+OI-089}, \u211a(\u03b612) fusion {W3-067+W4-067r}, chiral-index B565-T3 {E5+W5-T3}, equivariance/param-reduce {E9+D16}, complexified-trace-map {OI-069+OI-002}, SM-value umbrella {E1+W1}. The 12 queue entries above carry 20 of the 45 flagged ids (as primaries or merged members).\n\nRANKING BASIS: LOAD-BEARING first, then W4-304 overturn plausibility \u2014 the signature being a scalar / par / character-inner-product / abelianized quantity reading ZERO over a plausibly-nonzero richer chord object (masked even=odd cancellation, not genuine vanishing). Ties broken by cross-reference centrality and c-vs-\u03b8-crux proximity. Ranks 1\u20133 are the cases where the overturn is already partly demonstrated in-record (E5 near-miss winding explained away; W2 cup classes nonzero where the contracted cubic is zero) or hits the flagship crux head-on (OI-169 CP-sign = 'can c be carried into \u03b8'). All 12 are LOAD-BEARING.\n\nDROPPED: 25 flagged candidates fall below the cap, in five buckets. (a) INCIDENTAL / no negative actually banked / low-confidence: OI-002 (theorem unproven not refuted), OI-005, OI-008, OI-170 (UNCLEAR projection), S021, K-O, LAWMAP-A1-uniqueness, W5-204. (b) Explicitly 'not a target' per the standing negatives-hunt directive: LAWMAP-E11-B706 (B736 survives only via its queued E9 twin, not on its own). (c) Aggregate umbrellas with no single discriminating computation, only as sound as their weakest already-queued leg: LAWMAP-E1-stopping, LAWMAP-W1. (d) Secondary abelianization/H\u2081-not-a-proxy batch \u2014 same mechanism as queued S032-A, best run as one follow-on: LAWMAP-D21-B724-C4, W4-115, K-F, K-H (W4-115 and K-H are live open carries but rank just below cap). (e) Lower-plausibility trace-formula / numeric-score / character-restriction singletons: OI-003, OI-004, OI-069, OI-132+OI-345 (sector-S), OI-186, OI-234, LAWMAP-E4-B604, LAWMAP-D18-B739, W3-082 (class-group half is structural-immune; only its naming-continuity CS-degeneration headline is live). Recommend running the queued S032-A together with bucket (d) as a single abelianization sweep, since they share one H\u2081-blind mechanism with documented overturn precedent (B90/B95/B153/B154)."
+ }
+}

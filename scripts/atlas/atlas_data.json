@@ -16133,6 +16133,31 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B774": {
+   "slug": "chord pass",
+   "motifs": [
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B307",
+    "B701",
+    "B736",
+    "B766",
+    "B773",
+    "B85",
+    "K016"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B77": {
    "slug": "degree rank mechanism",
    "motifs": [

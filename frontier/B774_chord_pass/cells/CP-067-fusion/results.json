@@ -1,0 +1,36 @@
+{
+  "cell": "CP-067-fusion",
+  "batch": "B774",
+  "source_negative": "W3-067 / K016 (finishes B773 VERIFY-FAILED W3-067c)",
+  "level": "full un-squared twist-curve trace field K = Q(tr a, tr b, tr ab) -- chord/framing-carrying",
+  "verdict": "RESOLVED-B",
+  "structured_verdict": "HARDENS",
+  "reason": "the FULL un-squared twist-curve trace field K = Q(tr a, tr b, tr ab) COLLAPSES to Q(tr a): tr(b) and tr(ab) both lie in Q(tr a) (residual ~1e-288 at 980-bit, agreed across 3 PSLQ mixers, and confirmed by a 2nd structural path -- tr(b)'s own irreducible degree-14 minpoly => Q(tr b)=Q(tr a); tr(ab)=conj(tr b)). K is the exact irreducible degree-14 NON-cyclotomic field, and NEITHER sqrt(-3) NOR i lies in it, so Q(zeta12)=Q(sqrt-3,i) is NOT contained in K (also 4 does not divide 14). Chord-level fusion is ABSENT for the WHOLE trace field, not merely tr(a): the W3-067c carry is discharged and the K016 wall HARDENS at the matched, un-squared, framing-carrying level. The mod-4 fusion is QUANTUM-only.",
+  "all_checks_pass": true,
+  "is_genuine_chord": false,
+  "genuine_chord_note": "un-squared trace field is a finer CHARACTER invariant (Neumann-Reid trace field), not a non-abelian/theta-odd object; built from generator-trace polynomials -- the W3-082c finer-abelian pattern. A negative here, so no chord-positive is claimed.",
+  "two_block_manifold": "b++RLRRLL(0,0)",
+  "two_block_identify": [
+    "s892(0,0)"
+  ],
+  "holonomy_precision_bits": 980,
+  "tr_a_minpoly": "x**14 - 2*x**13 - 3*x**12 + 6*x**11 + 6*x**10 - 4*x**9 - 11*x**8 - 10*x**7 + 14*x**6 + 32*x**5 - 26*x**4 - 36*x**3 + 52*x**2 - 21*x + 3",
+  "tr_a_minpoly_matches_B773": true,
+  "full_field_degree": 14,
+  "full_field_equals_Q_tr_a": true,
+  "tr_b_in_Q_tr_a": true,
+  "tr_ab_in_Q_tr_a": true,
+  "sqrt_m3_in_K": false,
+  "i_in_K": false,
+  "Q_zeta12_contained_in_K": false,
+  "full_field_cyclotomic": false,
+  "4_divides_degree": false,
+  "tr_b_own_minpoly_degree": 14,
+  "collapse_confirmed_2nd_path": true,
+  "quantum_matched_field_2block": "Q(zeta12)",
+  "single_seed_controls": {
+    "golden_chord_minpoly": "x**2 + 2*x + 4",
+    "silver_chord_minpoly": "x**4 - 4*x**2 + 8",
+    "silver_squared_minpoly": "x**2 + 4"
+  }
+}

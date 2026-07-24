@@ -1,0 +1,79 @@
+==========================================================================
+B774 CP-E9-equiv : chord re-computation of the EQUIVARIANCE WALL (LAW_MAP E9)
+==========================================================================
+
+[1] BEING module A1 (cat map):
+    A1 = [[2, 1], [1, 1]]  tr=3 det=1
+    eigenvalues = {phi^2, phi^-2} = {2.618034, 0.381966}  (REAL hyperbolic)
+    banked-shape check: True
+
+[2] SYLVESTER SOLVE  T.A1 = B.T  for the whole golden orbit
+    (kernel dim > 0  <=>  intertwiner moves off zero):
+
+  theta-EVEN  chi(5A)=  phi      tr=+1.61803 ord= 5 theta=+1
+      target eigenvalues on unit circle: True;  shares a being-eig: False
+      dim ker (diagonal target)     = 0
+      dim ker (NON-diagonal target) = 0   [genuine non-abelian conjugate]
+      note: A5 / hearing seen mod center (banked-adjacent)
+
+  theta-EVEN  chi(5B)= -1/phi    tr=-0.61803 ord= 5 theta=+1
+      target eigenvalues on unit circle: True;  shares a being-eig: False
+      dim ker (diagonal target)     = 0
+      dim ker (NON-diagonal target) = 0   [genuine non-abelian conjugate]
+      note: A5 Galois conjugate
+
+  theta-ODD   chi(10)= -1/phi    tr=-0.61803 ord=10 theta=-1
+      target eigenvalues on unit circle: True;  shares a being-eig: False
+      dim ker (diagonal target)     = 0
+      dim ker (NON-diagonal target) = 0   [genuine non-abelian conjugate]
+      note: faithful 2I  (B650 banked target: tr=-1/phi, order 10)
+
+  theta-ODD   chi(10)=  phi      tr=+1.61803 ord=10 theta=-1
+      target eigenvalues on unit circle: True;  shares a being-eig: False
+      dim ker (diagonal target)     = 0
+      dim ker (NON-diagonal target) = 0   [genuine non-abelian conjugate]
+      note: faithful 2I  Galois conjugate  <== THE CHORD ANALOG
+
+  theta-ODD   chi(5) =  1/phi    tr=+0.61803 ord= 5 theta=-1
+      target eigenvalues on unit circle: True;  shares a being-eig: False
+      dim ker (diagonal target)     = 0
+      dim ker (NON-diagonal target) = 0   [genuine non-abelian conjugate]
+      note: faithful 2I, order-5 class
+
+  theta-ODD   chi(5) = -phi      tr=-1.61803 ord= 5 theta=-1
+      target eigenvalues on unit circle: True;  shares a being-eig: False
+      dim ker (diagonal target)     = 0
+      dim ker (NON-diagonal target) = 0   [genuine non-abelian conjugate]
+      note: faithful 2I, order-5 class, Galois conj
+
+[3] SECOND PATH -- genuine faithful theta-ODD 2I rep (center acts as -I):
+    B_faithful = [[cos36,-sin36],[sin36,cos36]] (exact: cos36=phi/2)
+    tr(B_faithful) = 1/2 + sqrt(5)/2  (= phi, a golden value); det = 1
+    (B_faithful)^5 = -I  (theta-ODD, center acts nontrivially): True
+    (B_faithful)^10 = I: True
+    dim ker  T.A1 = B_faithful.T  = 0 (numeric rank) / 0 (symbolic)
+
+[4] THE 'BRIDGE'  det(I - B_odd):
+    det(I - B_odd) = sqrt(5)/2 + 3/2  =  phi^2 = 2.618034  (matches lambda(A1)=2.618034): True
+    BUT phi^2 is NOT an eigenvalue of B_odd (its eigs are unit-circle):
+      eig(B_odd) = ['-sqrt(5)/4 + 1/4 - I*sqrt(sqrt(5)/8 + 5/8)', '-sqrt(5)/4 + 1/4 + I*sqrt(sqrt(5)/8 + 5/8)']
+    => the bridge is an INVARIANT-LEVEL shadow (a determinant), not a shared
+       spectral value.  It cannot force an intertwiner.  (Confirms B650 W2-G2.)
+
+[5] W4-304 overturn-signature test:
+    theta-ODD analog moved T off zero?          False
+    zero is UNIFORM across theta-parity (even & odd both T=0)?  True
+    => no 'even = odd cancellation with a nonzero theta-odd piece';
+       the vanishing is a spectral-disjointness fact, identical for both
+       parities.  No W4-304 overturn signature.
+
+[6] genuine-chord adjudication (W3-082c trap):
+    dim ker(T.A=B.T) is a function of spec(A),spec(B) ONLY (Roth) => abelian/
+    character-level.  Not a genuine non-abelian theta-odd object.
+    is_genuine_chord = False
+
+==========================================================================
+VERDICT: HARDENS
+HEADLINE: theta-odd golden character gives T=0 too: the Equivariance Wall holds for BOTH theta-parities and BOTH Galois conjugates
+is_genuine_chord: False
+==========================================================================

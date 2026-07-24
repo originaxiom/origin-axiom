@@ -1,0 +1,72 @@
+======================================================================
+PATH 1 -- E6 LEVEL 2: the theta-graded chiral index of the monodromy
+======================================================================
+|W(E6)| = 51840 (exact, own BFS enumeration)
+GATE S: unitary 3.30e-14, symmetric 0.00e+00
+GATE modular: ||(ST)^3-S^2|| = 1.15e-13, ||S^4-I|| = 6.30e-14
+GATE C = S^2 = the theta diagram flip (charge conjugation): True
+GATE Verlinde: 729 fusion numbers non-neg integers (max dev 3.22e-14)
+rho(A1): two SL(2,Z) words agree to 1.15e-13
+
+[rho(A1), C] = 5.37e-14   (C central => monodromy commutes with conjugation)
+
+--- the theta-graded chiral index, three ways ---
+(1) CHIRAL INDEX = even<->odd transport ||P_odd rho P_even|| = 1.05e-14
+                                       ||P_even rho P_odd|| = 1.04e-14
+    -> IDENTICALLY ZERO, forced by [rho,C]=0. The monodromy CANNOT rotate
+       a vector-like state into a chiral one. GENUINE zero (not a cancel).
+(2) theta-graded supertrace  Tr(rho|odd) - Tr(rho|even) = +1.000000 - +0.000000 = +1.000000
+    ungraded par-sum  Z = Tr rho(A1) = +1.000000
+    but this graded number = -tr(theta . rho) = -(-1.000000)  (an ORDINARY CHARACTER value; theta acts as +1 on even, -1 on odd)
+    -> NONZERO, but it is a trace/character polynomial => the W3-082c trap,
+       NOT a genuine non-abelian object, and it does NOT measure 27-vs-27bar.
+(3) the theta-odd 3x3 block: eigenvalues [-0.-1.j  0.+1.j  1.-0.j]
+    non-scalar? ||B - B00 I|| = 1.9455;  det = +1.0000-0.0000i;  order = 4
+    -> GENUINE NON-ABELIAN theta-odd object (SU(3), order 4) -- BUT block-diagonal (see (1)) => index-BLIND.
+
+======================================================================
+PATH 2 -- the species chain: the gap-label / winding chiral index
+======================================================================
+substitution Perron eigenvalue lambda = 3.676205
+letter frequencies (abelian K0 trace data): {'a': np.float64(0.27202), 'b': np.float64(0.168117), 'A': np.float64(0.346014), 'B': np.float64(0.213849)}
+
+gap label sigma, amphichiral partner (1-sigma), and par-sum:
+  f_b        : sigma=0.168117  1-sigma=0.831883  par-sum=1.000000
+  f_B        : sigma=0.213849  1-sigma=0.786151  par-sum=1.000000
+  f_a        : sigma=0.272020  1-sigma=0.727980  par-sum=1.000000
+  f_A        : sigma=0.346014  1-sigma=0.653986  par-sum=1.000000
+  f_a+f_b    : sigma=0.440137  1-sigma=0.559863  par-sum=1.000000
+  tau_ladder : sigma=0.109946  1-sigma=0.890054  par-sum=1.000000
+amphichiral par-sum sigma+(1-sigma)=1 EXACT for all labels: True
+
+theta-graded ODD-minus-EVEN over each amphichiral pair {sigma, 1-sigma}:
+  f_b        : odd-piece(sigma)=-0.663765  odd-piece(partner)=+0.663765  sum=+0.000000
+  f_B        : odd-piece(sigma)=-0.572303  odd-piece(partner)=+0.572303  sum=+0.000000
+  f_a        : odd-piece(sigma)=-0.455961  odd-piece(partner)=+0.455961  sum=-0.000000
+  f_A        : odd-piece(sigma)=-0.307971  odd-piece(partner)=+0.307971  sum=-0.000000
+  f_a+f_b    : odd-piece(sigma)=-0.119726  odd-piece(partner)=+0.119726  sum=+0.000000
+  tau_ladder : odd-piece(sigma)=-0.780107  odd-piece(partner)=+0.780107  sum=+0.000000
+=> each pair's theta-odd pieces are NONZERO and CANCEL (0 net).
+   SURFACE-READ: this LOOKS like the W4-304 even=odd cancellation signature.
+   BUT the pieces (2 sigma - 1) are AFFINE functions of gap labels sigma,
+   and sigma lives in the Z-MODULE of letter frequencies = an ABELIAN K0
+   trace. (2 sigma - 1) is therefore a CHARACTER / trace value, NOT a
+   non-abelian object -> the W3-082c trap. The cancellation is ABELIAN;
+   there is no hidden non-abelian theta-odd structure in the winding index.
+
+finite chain L=4000: chiral defect ||Gamma H Gamma + H|| = 0.00e+00 (exact chiral symmetry)
+sublattice imbalance nA - nB = 0  (the topological chiral index)
+
+======================================================================
+VERDICT LOGIC
+======================================================================
+
+index is a GENUINE zero (not even=odd cancellation): True
+a genuine non-abelian theta-odd OBJECT exists (SU3 order 4): True
+...but it is INDEX-BLIND (block-diagonal, C central): True
+the theta-graded chiral INDEX itself is a genuine chord: False
+
+VERDICT: HARDENS
+The chiral-index zero is GENUINE, forced by C=S^2 central ([rho,C]=0 -> zero even<->odd transport). The theta-graded chord is an abelian character invariant (W3-082c trap); the genuine non-abelian theta-odd object (SU(3), order 4) exists but is block-diagonal / index-blind. No even=odd cancellation.
+
+wrote results.json

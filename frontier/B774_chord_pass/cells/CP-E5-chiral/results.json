@@ -1,0 +1,42 @@
+{
+  "path1_e6_level2": {
+    "commutator_rho_C": 5.3662780200661785e-14,
+    "chiral_index_even_odd_mixing": 1.0497581614161048e-14,
+    "chiral_index_odd_even_mixing": 1.0412207414542673e-14,
+    "theta_graded_supertrace": 0.9999999999999785,
+    "equals_character_tr_theta_rho": -0.9999999999999885,
+    "ungraded_par_sum_Z": 1.0000000000000064,
+    "theta_odd_block_nonscalar_norm": 1.945469433156902,
+    "theta_odd_block_order": 4,
+    "theta_odd_block_is_genuine_nonabelian_SU3": true,
+    "chiral_index_is_genuine_zero": true
+  },
+  "path2_species_chain": {
+    "perron_lambda": 3.676205016021389,
+    "amphichiral_par_sum_exact": true,
+    "theta_odd_pieces_per_gap": [
+      -0.663765221984943,
+      -0.5723027555148466,
+      -0.45596070097186214,
+      -0.3079713215283483,
+      -0.11972592295680529,
+      -0.7801072765279276
+    ],
+    "pairs_cancel": true,
+    "cancellation_is_abelian_frequency_module": true,
+    "gap_labels_are_K0_trace": true,
+    "chiral_defect": 0.0,
+    "sublattice_imbalance": 0
+  },
+  "verdict": {
+    "cell": "CP-E5-chiral",
+    "source_negative": "B565-T3 / B605 (LAW_MAP E5)",
+    "verdict": "HARDENS",
+    "headline": "The chiral-index zero is GENUINE, forced by C=S^2 central ([rho,C]=0 -> zero even<->odd transport). The theta-graded chord is an abelian character invariant (W3-082c trap); the genuine non-abelian theta-odd object (SU(3), order 4) exists but is block-diagonal / index-blind. No even=odd cancellation.",
+    "index_genuine_zero": true,
+    "genuine_theta_odd_object_exists": true,
+    "theta_odd_object_is_index_blind": true,
+    "chord_index_is_genuine_nonabelian": false,
+    "discriminating_fact": "C = S^2 (charge conjugation) is central => [rho(A1), C] = 0 => rho is block-diagonal in the theta-split => the even<->odd chiral transport (the index) is IDENTICALLY 0, not a difference of two nonzero pieces. The only nonzero theta-graded numbers (supertrace tr(theta.rho)=+1; per-gap (2 sigma - 1)) are character / abelian-frequency values (W3-082c trap). The genuine non-abelian theta-odd monodromy (SU(3) order 4) lives WITHIN the odd sector and cannot select 27 over 27bar."
+  }
+}

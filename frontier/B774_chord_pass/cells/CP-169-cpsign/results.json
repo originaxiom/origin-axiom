@@ -1,0 +1,26 @@
+{
+  "cell": "CP-169-cpsign",
+  "source_wall": "OI-169 / B289 CP-sign law (trace/abelianized level)",
+  "chord_analog": "recompute the CP sign from a theta-odd, conjugation-sensitive holonomy pairing",
+  "cp_discriminant_is_trace_abelian": true,
+  "c_swaps_the_two_cp_signs": true,
+  "theta_fixes_all_sl2_traces": true,
+  "minpoly_tr_ab": "t**2 - 5*t + 7",
+  "rep27_is_homomorphism": true,
+  "per_block_forms_verified_exact": true,
+  "theta_even_form_dim": {
+    "+ (u=omega)": 3,
+    "- (u=omega2)": 3
+  },
+  "theta_odd_form_dim": {
+    "+ (u=omega)": 0,
+    "- (u=omega2)": 0
+  },
+  "holonomy_vector_like_under_theta": true,
+  "theta_odd_sector_empty_on_holonomy": true,
+  "theta_odd_does_not_distinguish_cp_sign": true,
+  "w4304_signature_present": false,
+  "sign_fixed_by_theta_odd_chord": false,
+  "verdict": "HARDENS",
+  "is_genuine_chord": false
+}

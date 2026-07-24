@@ -1,0 +1,95 @@
+{
+  "c3_targets": {
+    "Q(zeta_7)+": {
+      "disc": 49,
+      "galois": "C3",
+      "signature": [
+        3,
+        0
+      ],
+      "totally_real": true
+    },
+    "Q(zeta_9)+": {
+      "disc": 81,
+      "galois": "C3",
+      "signature": [
+        3,
+        0
+      ],
+      "totally_real": true
+    },
+    "cond-13 cubic": {
+      "disc": 169,
+      "galois": "C3",
+      "signature": [
+        3,
+        0
+      ],
+      "totally_real": true
+    }
+  },
+  "knot_5_2_trace_field": {
+    "poly": "x^3-x^2+1",
+    "disc": -23,
+    "galois": "S3",
+    "signature": [
+      1,
+      1
+    ],
+    "has_complex_place": true
+  },
+  "knot_4_1_trace_field": {
+    "poly": "x^2+x+1 (Q(sqrt-3)=Q(omega))",
+    "disc": -3,
+    "n_real_embeddings": 0,
+    "n_complex_pairs": 1,
+    "has_complex_place": true
+  },
+  "chord_galois_orbit": {
+    "free_Z3_orbit_size": 3,
+    "forced_complex_suborbit_size": 2,
+    "three_does_not_divide_two": true,
+    "note": "governs every k\u0393-invariant (trace field AND quaternion algebra AND cohomology)"
+  },
+  "chord_quaternion_algebra": {
+    "object": "invariant quaternion algebra A_Gamma over k\u0393 (genuinely noncommutative)",
+    "skolem_noether_autos_inner_fix_center": true,
+    "generation_permutation_must_move_center": true,
+    "center_order3_action_requires_C3_field": true,
+    "verdict": "noncommutativity gives NO extra C3 room; C3 collapses to the (forbidden) C3 center"
+  },
+  "genuineness_check_W3_082c": {
+    "permutation_character": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "decomposition_multiplicities": {
+      "triv": 1.0,
+      "chi": 1.0,
+      "chibar": 1.0
+    },
+    "is_pure_character_sum": true,
+    "all_Z3_irreps_are_1_dimensional": true,
+    "eisenstein_omega_acts_as_scalar_character_chi": true,
+    "conclusion": "the C3 'symmetric triple' texture is an ABELIAN character sum (class function), expressible as a trace polynomial -> a W3-082c trap, NOT a genuine chord object"
+  },
+  "W4_304_signature": {
+    "trace_obstruction_is_nonzero_constraint": true,
+    "even_equals_odd_cancellation_with_theta_odd_remnant": false,
+    "note": "obstruction = PRESENCE of a complex place (a nonzero fact), not a cancelling trace-zero"
+  },
+  "verdict": {
+    "verdict": "HARDENS",
+    "is_genuine_chord": false,
+    "hardens_conjuncts": {
+      "c3_targets_all_totally_real": true,
+      "hyperbolic_trace_field_has_complex_place": true,
+      "galois_orbit_3_nmid_2": true,
+      "quaternion_autos_inner_center_fixing": true,
+      "c3_texture_is_abelian_character_sum": true,
+      "no_W4_304_cancellation_signature": true
+    },
+    "discriminating_fact": "The invariant quaternion algebra A_Gamma -- the genuinely NON-ABELIAN beyond-trace invariant -- has only INNER (Skolem-Noether) automorphisms, which fix its center k\u0393 pointwise. A C3 permutation of three interchangeable generations must move the center, so it descends to an order-3 Galois action on k\u0393 = a C3 subfield -- exactly the totally-real field the hyperbolic complex place (disc -3 for 4_1) forbids. The chord level INHERITS the Galois/degree obstruction (3 does not divide the forced size-2 complex conjugate suborbit); the only C3 texture actually available (Eisenstein omega in Q(sqrt-3)) is the abelian character chi of Z/3 -- a class function / trace polynomial, the W3-082c trap -- not a genuine theta-odd object. No W4-304 even=odd cancellation."
+  }
+}
