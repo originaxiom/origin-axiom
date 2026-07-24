@@ -1,0 +1,78 @@
+==========================================================================================
+CELL 0 -- the object, exact (B711 curve + geometric pair)
+==========================================================================================
+  C : y^2-(x^2-1)y+(x^2-1)=0 ;  rho_geom=(2,3/2 + sqrt(3)*I/2)  rho_bar=(2,3/2 - sqrt(3)*I/2)
+  rho_geom on C : True ;  rho_bar on C : True
+  the two are DISTINCT (a genuine pair) : True
+
+==========================================================================================
+CELL 1 -- {id,c,j2,tau} is a Klein-4 group (abelian, involutions), verified exact
+==========================================================================================
+  c   ^2 = id : True
+  j2  ^2 = id : True
+  tau ^2 = id : True
+  c and j2 commute (c o j2 = j2 o c) : True
+  tau = c o j2  (so V4={id,c,j2,tau}, cl osed) : True
+  => V4 abelian : True   (matches B769's inner-triviality theorem)
+
+==========================================================================================
+CELL 2 -- the two conjugation-robust invariants (the signature table)
+==========================================================================================
+  leg   (I1 antiholo?, I2 fixes geometric pair?)
+    c    -> (1, 0)   [antiholo, SWAP pair]
+    j2   -> (0, 0)   [holo , SWAP pair]
+    tau  -> (1, 1)   [antiholo, FIX pair]
+  all three signatures DISTINCT : True
+  (I1 = orientation homomorphism, conj-invariant; I2 = geometric-pair orbit type,
+   conj-invariant for any op that stabilizes the pair {rho,rho_bar}.)
+
+==========================================================================================
+CELL 3 -- the 3 frames and Aut(V4)=S3
+==========================================================================================
+  the 3 closing frames (unordered generator-pairs): [{'c', 'j2'}, {'tau', 'c'}, {'tau', 'j2'}]
+  Aut(V4)=S3 has 6 elements (permutations of ['c', 'j2', 'tau'])
+  permutations preserving the (I1,I2) signature : [('c', 'j2', 'tau')]
+  => the ONLY signature-respecting automorphism is the identity
+
+==========================================================================================
+CELL 4 -- second, independent reproduction: the rho_geom contradiction on (c,tau)
+==========================================================================================
+  c fixes rho_geom  : False   (c sends rho_geom -> rho_bar : the free 2-orbit, B711)
+  tau fixes rho_geom: True
+  Suppose an object-native g realizes (c,tau):  g c g^-1 = tau.
+  Apply both sides to rho_geom:  g c g^-1 (rho) = tau(rho) = rho  (tau fixes rho).
+  => c fixes g^-1(rho).  But Fix(c) is disjoint from the geometric pair {rho,rho_bar}
+     (c SWAPS them -- just verified).  Every object-native operation stabilizes
+     {rho,rho_bar}:
+       - Isom(4_1)=D4 (SnapPy, order 8, amphichiral): every isometry preserves the
+         hyperbolic structure => FIXES rho_geom (Mostow rigidity);
+       - gamma5 = Gal(Q(sqrt5)) acts on the DISJOINT golden sector => fixes rho_geom
+         (rho_geom in Q(sqrt-3), fields linearly disjoint, B756);
+       - gamma3 == c on the closing axes (B766) -- inner;
+       - the V4 elements permute {rho,rho_bar} among themselves (abelian: inner-trivial).
+     So g^-1(rho) in {rho,rho_bar}, neither of which is in Fix(c). CONTRADICTION.
+  => (c,tau) is NOT realizable by any object-native operation : True
+
+  enumerated object-native operations and their induced S3 image on the frames:
+    c   (Galois/being-swap, in V4)              : identity (inner; V4 abelian)
+    j2  (holo involution = c*theta, in V4)      : identity (inner; V4 abelian)
+    tau (amphichirality = theta, in V4)         : identity (inner; V4 abelian)
+    gamma5 = Gal(Q(sqrt5))                      : identity (disjoint field; commutes with c,j2,tau)
+    gamma3 (being-Galois == c, B766)            : identity (inner)
+    Isom(4_1)=D4 geometric symmetries           : identity on frames (all fix rho_geom => cannot send c->tau; j2 canonical by I1)
+    amphichiral tau=-I central (cc3 audit)      : identity (central)
+
+==========================================================================================
+CELL 5 -- VERDICT
+==========================================================================================
+  realized subgroup of Aut(V4)=S3 by object-native operations : {identity}
+  reproduction A (signature table)  -> only-identity : True
+  reproduction B (rho_geom, on (c,tau)) -> refuted   : True
+  both reproductions agree                            : True
+
+  VERDICT: RESOLVED-B
+  WALLED: no object-native operation is outer -- the 3-frame choice is genuinely unbroken
+
+  results.json written (1862 bytes)
+
+P2-T1MOVER COMPLETE

@@ -1,0 +1,143 @@
+{
+ "branchB_theta_odd": {
+  "amphichirality_exact_rows": [
+   {
+    "m": 1,
+    "trace_RmLm": 3,
+    "hyperbolic": true,
+    "mirror_eq_conjugation_exact": true,
+    "trace_mirror_equal": true
+   },
+   {
+    "m": 2,
+    "trace_RmLm": 6,
+    "hyperbolic": true,
+    "mirror_eq_conjugation_exact": true,
+    "trace_mirror_equal": true
+   },
+   {
+    "m": 3,
+    "trace_RmLm": 11,
+    "hyperbolic": true,
+    "mirror_eq_conjugation_exact": true,
+    "trace_mirror_equal": true
+   },
+   {
+    "m": 4,
+    "trace_RmLm": 18,
+    "hyperbolic": true,
+    "mirror_eq_conjugation_exact": true,
+    "trace_mirror_equal": true
+   },
+   {
+    "m": 5,
+    "trace_RmLm": 27,
+    "hyperbolic": true,
+    "mirror_eq_conjugation_exact": true,
+    "trace_mirror_equal": true
+   },
+   {
+    "m": 6,
+    "trace_RmLm": 38,
+    "hyperbolic": true,
+    "mirror_eq_conjugation_exact": true,
+    "trace_mirror_equal": true
+   }
+  ],
+  "amphichirality_exact_all_m": true,
+  "theta_odd_zero_fig8": {
+   "fig8_shape_z": "exp(i*pi/3)",
+   "self_mirror_zbar_eq_1_minus_z_exact": true,
+   "vol_theta_even": 2.0298832128,
+   "vol_matches_2Cl2_pi3": true,
+   "cs_theta_odd": 0.0,
+   "theta_even_alive": true,
+   "theta_odd_dead": true,
+   "structural_zero_not_cancellation": true
+  },
+  "theta_odd_walled": true,
+  "note": "theta-ODD invariants vanish (f=-f=0) by EXACT amphichirality; the flagged counterexample-hiding sector is WALLED at zero. Reproduced 2 ways (matrix conjugation identity over Z; fig-8 self-mirror shape)."
+ },
+ "branchA_algebraic": {
+  "galois_lemma_invariant_agnostic": {
+   "golden": {
+    "sum": "1",
+    "prod": "-1",
+    "in_fixed_field": true
+   },
+   "eisenstein_cp": {
+    "sum": "sqrt(3)",
+    "prod": "1",
+    "in_fixed_field": true
+   },
+   "theta_odd_toy_pm_t": {
+    "e1": "0",
+    "e2": "-t**2",
+    "in_fixed_field": true
+   },
+   "mixed_canonical_plus_galois_pair": {
+    "e1": "2 + 2*sqrt(2)",
+    "e2": "3 + 4*sqrt(2)",
+    "e3": "6",
+    "in_fixed_field": true,
+    "note": "canonical(G-fixed) value + Galois pair => ALL symmetric fns real/canonical (covers SL(n>=3) Falbel V0 + Dehn-filling pair, Bloch classes)"
+   }
+  },
+  "lemma_holds_all_cases_incl_theta_odd": true,
+  "kappa_continuous": {
+   "kappa": "x**2 - x*y*z + y**2 + z**2 - 2",
+   "grad": [
+    "2*x - y*z",
+    "-x*z + 2*y",
+    "-x*y + 2*z"
+   ],
+   "continuous_not_discrete": true
+  },
+  "algebraic_symmetrizable": true,
+  "note": "ANY discretely-multivalued algebraic invariant has a G-STABLE value multiset (monodromy=Galois) => elementary symmetric fns in the fixed field => SYMMETRIZABLE. Invariant-agnostic (theta-odd algebraic too). Covers trace-ring, torsion, quantum/WRT, Ptolemy, Bloch class, SL(n>=3) Falbel component labels."
+ },
+ "branchC_theta_even_transcendental": {
+  "volume_continuous": {
+   "vol_samples_along_deformation": [
+    1.01043715,
+    1.01494161,
+    1.01077132
+   ],
+   "volume_varies_continuously": true,
+   "theta_even_transcendental_fails_discreteness": true
+  },
+  "theta_even_transc_continuous_or_constant": true,
+  "residual_named": "A fully general proof that NO natural theta-even transcendental invariant is discretely-multivalued for EVERY single-seed object (all covers / all SL(n)) is the arithmetic-of-volumes (Borel regulator / scissors-congruence) residual -- the specialist corner. Volume, the canonical case, is continuous (shown)."
+ },
+ "trichotomy": {
+  "branches": {
+   "A_algebraic": "discretely-multivalued => G-stable multiset => symmetrizable (fails 3)",
+   "B_transc_theta_odd": "=> f = -f = 0 by exact amphichirality (fails 2)",
+   "C_transc_theta_even": "natural => analytic => continuous/constant (fails 2); locally-constant => component label => branch A"
+  },
+  "exhaustive_for_natural_invariants": true,
+  "no_branch_supplies_(2)and(3)": true,
+  "heterogeneity_threshold": {
+   "match_poly": "x**4 - 6*x**2 + 8",
+   "match_factored": "(x - 2)*(x + 2)*(x**2 - 2)",
+   "fork_kappa": [
+    "-4",
+    "-2"
+   ],
+   "fork_is_rational_trace_indexed": true,
+   "single_seed_is_a_continuum": true
+  },
+  "note": "A forced choice can appear ONLY via heterogeneity (>=2 distinct seeds, B131/K014); even that (1,2) fork is rational & trace-indexed (symmetrizable). The SINGLE-seed object -- the object of S032-A -- supplies no (2)&(3) invariant in any branch."
+ },
+ "verdict": "UNRESOLVED",
+ "terminal_state": "NEEDS-SPECIALIST",
+ "reason": "Theorem SEALED on 2 of 3 branches unconditionally: (B) the theta-ODD sector -- the B774-flagged counterexample-hiding place -- is WALLED at ZERO by EXACT amphichirality (mirror=conjugation in SL(2,Z); fig-8 self-mirror z-bar=1-z), and (A) EVERY discretely-multivalued ALGEBRAIC invariant is SYMMETRIZABLE (monodromy=Galois; value multiset G-stable; symmetric fns in the fixed field; INVARIANT-AGNOSTIC -- verified on golden / Eisenstein-CP / a genuine theta-odd toy / mixed canonical+Galois sets; covers trace-ring, torsion, quantum/WRT, Ptolemy, Bloch class, SL(n>=3) Falbel components). The all-invariant theorem is REDUCED to ONE sharp residual: branch (C), whether any NATURAL theta-even TRANSCENDENTAL invariant can be discretely-multivalued -- the canonical case (hyperbolic volume) is CONTINUOUS on the free-kappa fixed locus, but the fully general closure is the arithmetic-of-volumes (Borel regulator / scissors-congruence) specialist corner named by B330. NO counterexample exists (the gate survives); a single-seed forced choice would require HETEROGENEITY (>=2 distinct seeds, B131) which the single-seed object lacks. Terminal state: NEEDS-SPECIALIST on branch (C) only -- a strong partial WALL, not a failure.",
+ "gate_5Q": {
+  "structural_language_only": true,
+  "no_SM_values": true,
+  "no_consciousness_claims": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true
+ },
+ "elapsed_seconds": 0.3453199863433838
+}

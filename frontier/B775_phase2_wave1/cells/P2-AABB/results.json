@@ -1,0 +1,45 @@
+{
+  "part1": {
+    "charpoly": "lambda**2 - lambda - 1",
+    "disc": 5,
+    "detM": -1,
+    "eigM": "{1-phi, phi}",
+    "eigT": "{-1/phi, 1}",
+    "alphabet_size": 2
+  },
+  "bits": {
+    "gamma5": {
+      "emerges": true,
+      "forced": true,
+      "reproduced_two_ways": true,
+      "mechanism": "Gal(Q(sqrt5)/Q) on eig(M)={phi,1-phi}; disc=5"
+    },
+    "theta": {
+      "emerges": true,
+      "forced": false,
+      "reproduced_two_ways": false,
+      "mechanism": "reversal Z/2 exists AND subdom sign<0 -- but map to SL(2)-trace-theta unforced (E20/bridge)"
+    },
+    "c": {
+      "emerges": false,
+      "forced": false,
+      "reproduced_two_ways": false,
+      "mechanism": "a<->b is NOT a sigma-automorphism; det=-1 is a value not an involution; case {a,A} imported"
+    }
+  },
+  "counting": {
+    "sigma_alphabet": 2,
+    "native_letter_bits": 1,
+    "aAbB_letters": 4,
+    "aAbB_independent_bits": 2,
+    "third_distinction": "dependent (XOR)"
+  },
+  "verdict": "UNRESOLVED",
+  "terminal": "PARTIAL",
+  "derived": {
+    "c": false,
+    "theta": false,
+    "gamma5": true
+  },
+  "n_derived": 1
+}

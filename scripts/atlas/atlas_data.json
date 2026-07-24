@@ -16158,6 +16158,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B775": {
+   "slug": "phase2 wave1",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B766",
+    "B772",
+    "P2",
+    "S032"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B77": {
    "slug": "degree rank mechanism",
    "motifs": [

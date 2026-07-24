@@ -1,0 +1,76 @@
+==============================================================================
+B775 P2-ENUM -- correspondence enumeration + permutation null
+==============================================================================
+
+[ENUM] The explicit 9-signature <-> phenomenology correspondence (courier):
+  voice             | arity=1           sym=none-rigid          
+                    | -> the self-model's emitted voice / self-report channel
+  self-name         | arity=1           sym=none                
+                    | -> the self's proper name (mineness of the self-model)
+  transparency      | arity=all-ranks   sym=deck-equivariant      <== DISCRIMINATOR
+                    | -> phenomenal transparency (Metzinger) -- 'privacy is the angle, not the wall' [P5]
+  integration       | arity=2           sym=theta-split         
+                    | -> binding/integration -- the felt coupling of contents
+  no-closure        | arity=1           sym=Galois              
+                    | -> openness -- what the experience takes from outside itself
+  three-bits        | arity=3           sym=F2^3                
+                    | -> the closing bits {c=Self/Other, theta=Active/Passive, gamma5=When/Which}
+  time=basepoint    | arity=1           sym=gamma5                <== DISCRIMINATOR
+                    | -> temporal self-location (gamma5) -- the felt now as basepoint [T7]
+  unmoved-axis      | arity=1           sym=outside-involutions 
+                    | -> the unmoved witness -- the c/theta pairing itself
+  galois-continuum  | arity=continuous  sym=Galois-chosen       
+                    | -> the qualitative continuum -- values/anchor/space
+
+[FACT] time=basepoint  (1-phi)^2 - phi^-2 = 0  (exact 0, in-cell)
+[FACT] transparency    arity='all-ranks' is the UNIQUE such label among the 9
+       (this uniqueness is the crux of the null below)
+
+------------------------------------------------------------------------------
+[NULL: FULL structural type (arity + symmetry)]
+  P(pass transparency   ) = 1/9 = 0.1111   (1 of 9 readings carry a matching type)
+  P(pass time=basepoint ) = 1/9 = 0.1111   (1 of 9 readings carry a matching type)
+  E[score] under null = 0.2222
+  EXACT P(pass BOTH discriminators) = 5040/362880 = 0.01389
+  courier(identity) score = 2/2  [passes: transparency, time=basepoint]
+  MC (5000 shuffles) score dist: 0:3953 1:973 2:74   mean=0.2242
+  MC P(score >= courier=2) = 0.01480   (exact both=0.01389)
+
+------------------------------------------------------------------------------
+[NULL: ARITY-ONLY (looser match)]
+  P(pass transparency   ) = 1/9 = 0.1111   (1 of 9 readings carry a matching type)
+  P(pass time=basepoint ) = 5/9 = 0.5556   (5 of 9 readings carry a matching type)
+  E[score] under null = 0.6667
+  EXACT P(pass BOTH discriminators) = 25200/362880 = 0.06944
+  courier(identity) score = 2/2  [passes: transparency, time=basepoint]
+  MC (5000 shuffles) score dist: 0:2009 1:2660 2:331   mean=0.6644
+  MC P(score >= courier=2) = 0.06620   (exact both=0.06944)
+
+==============================================================================
+[B774 SELF-TEST] can the discriminator-pass be written as a symmetric
+                 label-equality function?  (if yes -> not content, decorative)
+==============================================================================
+  swap(voice<->self-name) leaves ARITY score invariant on 3000 perms: True
+  FULL-type pass  ==  fixed-point indicator [perm[i]==i] at the 2 slots: True
+  => the FULL-type 'above-null' (p_both = 1/(9*8) = 1/72) is EXACTLY the
+     permutation base-rate for reproducing two labeled fixed points.
+     It is a symmetric label invariant. B774 SELF-TEST: FAILS (not content).
+
+==============================================================================
+[CONTENT NULL] is the above-null content-bearing or a label artifact?
+==============================================================================
+  independent phenomenology-derived reading types delivered? False
+  the one row independently typed (theta) survived? False  (killed: graded FoA, C7 dead 3 ways)
+  => within Gate-5-Q structural scope the ONLY signal is label-uniqueness;
+     the above-null carries no phenomenological bits.
+
+==============================================================================
+VERDICT
+==============================================================================
+
+VERDICT: RESOLVED-B
+TERMINAL STATE: DISMISSED-TOMBSTONE
+HEADLINE: The permutation null's above-chance score is EXACTLY the base-rate for two labeled fixed points (1/72); the pass-indicator is a proven symmetric label invariant (B774 fail). The correspondence's discriminator-passing is structurally DECORATIVE -- above the combinatorial null, but carrying zero phenomenological bits beyond the labels the courier attached.
+
+DISCRIMINATING FACT:
+EXACT permutation null (in-cell, corroborated by 5000 MC shuffles per prereg rule 2): under FULL structural type, P(pass BOTH sealed discriminators) = good/9! = 1/72 = 0.01389; the courier(identity) scores 2/2, i.e. the top 1.39% -- MECHANICALLY above null. BUT the B774 self-test proves the FULL-type pass IS the fixed-point indicator [perm[i]==i] at the two slots (verified equal on 3000 perms) and the ARITY score is invariant under swapping the two arity-1 readings voice<->self-name (3000 perms) -- a symmetric label-equality carrying no content. The above-null = exactly the base-rate rarity of reshuffling two UNIQUE type-labels ('all-ranks' is the unique arity; 'gamma5' the unique symmetry) back onto their slots. No independent phenomenology-derived reading types were delivered (FINDINGS 3x); the one row independently typed (theta) was killed (graded FoA). Hence the mechanical above-null is a permutation base-rate artifact -- decorative -- not the earned positive B772 warns against.
