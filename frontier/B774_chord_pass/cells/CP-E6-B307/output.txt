@@ -1,0 +1,36 @@
+==============================================================================
+B774 CHORD-PASS  CP-E6-B307  --  C3 generation texture on a beyond-trace invariant
+==============================================================================
+
+[1] TRACE-LEVEL TEETH (re-derived in-cell)
+    C3 target Q(zeta_7)+      : disc=  49  C3  sig=(3, 0)  totally_real=True
+    C3 target Q(zeta_9)+      : disc=  81  C3  sig=(3, 0)  totally_real=True
+    C3 target cond-13 cubic   : disc= 169  C3  sig=(3, 0)  totally_real=True
+    5_2 trace field x^3-x^2+1 : disc=-23 S3 sig=(1, 1) complex_place=True
+    4_1 trace field Q(sqrt-3) : disc=-3 sig=(0,1) complex_place=True
+    => C3 forces totally real; hyperbolic forces a complex place. DISJOINT.
+
+[2] CHORD GALOIS-ORBIT GENERALIZATION (governs every kΓ-invariant)
+    free Z/3 orbit size = 3 ;  forced complex-conjugate suborbit size = 2 ;  3 nmid 2 = True
+    => no free Z/3 triple of real places; obstruction INHERITED beyond the trace.
+
+[3] GENUINELY NON-ABELIAN CANDIDATE: invariant quaternion algebra A_Gamma
+    Skolem-Noether: algebra autos are INNER & fix the center pointwise = True
+    generation-permutation must move the center -> order-3 Gal on kΓ -> a C3 subfield
+    => a C3 center is exactly the forbidden totally-real field. NO extra chord room.
+
+[4] W3-082c GENUINENESS TRAP: is the available C3 texture a genuine chord object?
+    Z/3 permutation character = [np.float64(3.0), np.float64(0.0), np.float64(0.0)]
+    decomposition = triv+1 (+) chi+1 (+) chibar+1  (all 1-dimensional)
+    pure character sum / class function = True ; Eisenstein omega = scalar character chi
+    => the C3 texture is ABELIAN (a trace polynomial). is_genuine_chord = False
+
+[5] W4-304 OVERTURN SIGNATURE
+    trace obstruction is a NONZERO constraint (complex place present) = True
+    even=odd cancellation with theta-odd remnant present = False
+    => no par-zero hiding a theta-odd piece; nothing to overturn.
+
+==============================================================================
+VERDICT: HARDENS    is_genuine_chord: False
+==============================================================================
+The invariant quaternion algebra A_Gamma -- the genuinely NON-ABELIAN beyond-trace invariant -- has only INNER (Skolem-Noether) automorphisms, which fix its center kΓ pointwise. A C3 permutation of three interchangeable generations must move the center, so it descends to an order-3 Galois action on kΓ = a C3 subfield -- exactly the totally-real field the hyperbolic complex place (disc -3 for 4_1) forbids. The chord level INHERITS the Galois/degree obstruction (3 does not divide the forced size-2 complex conjugate suborbit); the only C3 texture actually available (Eisenstein omega in Q(sqrt-3)) is the abelian character chi of Z/3 -- a class function / trace polynomial, the W3-082c trap -- not a genuine theta-odd object. No W4-304 even=odd cancellation.

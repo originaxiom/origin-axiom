@@ -1,0 +1,121 @@
+{
+  "cell": "CP-011-crux",
+  "source_negative": "OI-011 / B561 (L50 CRUX)",
+  "step1_trace_level": {
+    "E6_exponents": [
+      1,
+      4,
+      5,
+      7,
+      8,
+      11
+    ],
+    "coxeter_h": 12,
+    "theta_even_F4": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "theta_odd_26": [
+      4,
+      8
+    ],
+    "theta_even_is_units_mod12": true,
+    "mult_orders_on_theta_even": {
+      "1": 1,
+      "5": 2,
+      "7": 2,
+      "11": 2
+    },
+    "theta_even_is_klein_four": true,
+    "no_multiplicative_order3": true
+  },
+  "step2_chord_observation": {
+    "additive_Z3_subgroup_of_Z12": [
+      0,
+      4,
+      8
+    ],
+    "chord_Z3_nonzero_classes_equal_theta_odd": true,
+    "theta_odd_exponents_are_cube_roots_of_unity": true,
+    "theta_odd_eigenvalues": {
+      "4": [
+        -0.49999999999999967,
+        0.8660254037844389
+      ],
+      "8": [
+        -0.5000000000000008,
+        -0.8660254037844384
+      ]
+    },
+    "note": "the order-3 LABEL the trace read as absent DOES sit in the theta-odd sector {4,8} = omega,omega^2 eigenspaces of the mark-3 F4 element",
+    "exponent_set_is_Z3_coset_invariant": false,
+    "shift_by_4_is_not_a_permutation_of_exponents": true,
+    "shift_by_4_example": {
+      "1": 5,
+      "4": 8,
+      "5": 9,
+      "7": 11,
+      "8": 0,
+      "11": 3
+    }
+  },
+  "step3_holonomy": {
+    "riley_word": "a (b a^-1 b^-1 a) = (b a^-1 b^-1 a) b",
+    "riley_polynomial_in_u": "u**3 + u**2 + u",
+    "riley_roots": [
+      "0",
+      "-1/2 - sqrt(3)*I/2",
+      "-1/2 + sqrt(3)*I/2"
+    ],
+    "u_star_nonabelian": "-1/2 - sqrt(3)*I/2",
+    "u_star_min_poly": "x**2 + x + 1",
+    "trace_field_degree": 2,
+    "trace_field_disc": -3,
+    "trace_field_squarefree_disc": -3,
+    "trace_field_is_Q_sqrt_minus3": true,
+    "galois_order": 2,
+    "tr_commutator_at_u_star": "3/2 + sqrt(3)*I/2"
+  },
+  "step3b_genuineness_gate": {
+    "omega_is_not_a_field_automorphism": true,
+    "omega_multiplicativity_defect": "-3*sqrt(3)*I",
+    "galois_order": 2,
+    "galois_has_order3_element": false,
+    "isometry_group_order_D4": 8,
+    "isometry_has_order3_element": false,
+    "lagrange_forbids_order3": true,
+    "genuine_theta_odd_order3_action_exists": false,
+    "both_no_gos_are_gauge_fixing_invariant": true
+  },
+  "step4_genuineness": {
+    "chord_Z3_is_cyclic_abelian_subgroup_of_Z12": true,
+    "eisenstein_character_sum_over_theta_odd": "-1+1.554e-15j",
+    "eisenstein_character_sum_is_-1_a_class_function_value": true,
+    "expressible_as_ordinary_character_polynomial": true
+  },
+  "step5_w4_304": {
+    "trace_level_order3_count": 0,
+    "theta_odd_order3_LABEL_count_additive": 2,
+    "theta_odd_order3_ACTION_count": 0,
+    "even_and_odd_are_the_same_vanishing_quantity": false,
+    "w4_304_cancellation_signature_present": false
+  },
+  "verdict": {
+    "verdict": "HARDENS",
+    "is_genuine_chord": false,
+    "hardens_conjuncts": {
+      "chord_Z3_label_sits_in_theta_odd_sector": true,
+      "but_no_order3_permutes_the_deformation_directions": true,
+      "galois_of_trace_field_is_Z2_no_order3": true,
+      "omega_is_not_a_field_automorphism": true,
+      "isometry_D4_order8_no_order3_lagrange": true,
+      "both_no_gos_gauge_fixing_invariant": true,
+      "chord_Z3_is_abelian_subgroup_of_Z12_relabeled": true,
+      "eisenstein_texture_is_a_character_sum": true,
+      "no_W4_304_even_equals_odd_cancellation": true
+    },
+    "discriminating_fact": "The chord observation is REAL and previously unrecorded: the order-3 the trace-level tooth read as absent DOES sit in the discarded theta-odd sector -- {4,8} are exactly the nonzero classes of the unique order-3 subgroup <4>={0,4,8} of the ADDITIVE Coxeter grading (Z/12,+), i.e. the omega,omega^2 eigenspaces of the mark-3 order-3 element of F4 (centralizer SU(3)^2). B561 only checked the MULTIPLICATIVE unit group (Z/12)* on the theta-EVEN sector (-> Klein four), so it missed this. BUT the label is not an action: <4> is a cyclic (abelian) subgroup of Z/12 relabeled onto theta-odd exponents; it does NOT permute the six H^1 deformation directions (the exponent multiset is not a union of its cosets: 1->5 but 5->9 is not an exponent), it produces only the Eisenstein character sum omega+omega^2=-1 (a class function = the W3-082c trap), and it does NOT act as a holonomy automorphism. The two load-bearing no-go's are GAUGE-FIXING-INVARIANT: an order-3 automorphism moving the trace field would give an order-3 in Gal(Q(sqrt-3)/Q)=Z/2 (3 nmid 2; and omega is not even multiplicative), and one fixing the field would be an order-3 isometry in D4 (order 8; 3 nmid 8). A theta-odd gauge-fixing rescales the holonomy representative but changes neither the trace field (Galois) nor the isometry group (topological), so it cannot promote the theta-odd order-3 LABEL to an order-3 ACTION. No W4-304 signature: the trace-'zero' (0 multiplicative order-3) and the theta-odd '2' (additive labels) live in DIFFERENT group structures -- a structure-swap, not an even=odd cancellation of one vanishing holonomy quantity. The CRUX gate's negative HARDENS beyond trace level; F4 remains the terminus."
+  }
+}

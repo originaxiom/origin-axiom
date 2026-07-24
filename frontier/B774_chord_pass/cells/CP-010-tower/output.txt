@@ -1,0 +1,60 @@
+B774 CP-010-tower -- CHORD PASS over the B85 char(M^2)^2 tower wall
+==============================================================================
+
+[1] THE WALL: char poly of J(m) on rho_5 carries char(M^2)^2 (doubled Sym^2).
+    multiplicity of char(M^2)  [theta-EVEN, k=2] in tower(5) = 2
+    multiplicity of char(-M^2) [theta-ODD  partner ] in tower(5) = 1
+    => the DEGENERACY (the wall) lives entirely in the char(M^2) = theta-EVEN sector.
+
+[2] THE TWO COLLIDING BLOCKS. tower = prod_{d=2}^n Sym^d  *  prod_{d=0}^{n-3} Sym^d.
+    At n=5 the value d=2 (Sym^2) occurs ONCE in each sequence -> two Sym^2 summands.
+    Sym^2 char poly (up ) = (t + 1)*(-m**2*t + t**2 - 2*t + 1)
+    Sym^2 char poly (dn ) = (t + 1)*(-m**2*t + t**2 - 2*t + 1)
+    the two colliding blocks are the SAME M_m-module Sym^2(V)?  True
+    => they are ISOMORPHIC as M_m = SL(2)-modules. No invariant of the M-action
+       whatsoever (char poly, full CHARACTER, Jordan form, eigen-anything) can
+       distinguish two isomorphic summands -- the degeneracy is a MULTIPLICITY, intrinsic.
+    check  char(Sym^2) == (t+1)*char(M^2) ?  True   [the doubled char(M^2)]
+
+[3] CHORD PROBE: does the theta-odd invariant separate the char(M^2)^2 collision?
+    both colliding copies sit at height k=2 -> theta parity = 'even' (EVEN).
+    the theta-ODD content at this height is the DISTINCT factor char(-M^2), which appears
+    with multiplicity 1 (NOT doubled) -- it is a different, non-degenerate block.
+    do the two colliding copies have OPPOSITE theta-parity?  False
+    => NO. Both copies are theta-EVEN; the theta-odd sector (char(-M^2)) is a SEPARATE,
+       single block. The theta-odd / chord invariant is EMPTY at the degeneracy.
+
+[4] W4-304 SIGNATURE: an overturn needs a par/trace ZERO = even=odd CANCELLATION
+    with a NONZERO theta-odd piece. Here the wall is char(M^2)^2 -- a DOUBLED NONZERO
+    factor (a multiplicity 2), NOT a vanishing. There is nothing that cancels to zero.
+    is the degeneracy a par-zero (a cancellation)?  False
+    => the W4-304 overturn signature is ABSENT. No trace-hidden theta-odd cancellation.
+
+[5] THE ACTUAL SEPARATOR (honesty gate vs W3-082c).
+    The two isomorphic Sym^2 blocks ARE separated in the Procesi ring -- by the DEGREE
+    FILTRATION (B522 T-FILTRATION): the 'up' copy sits at trace-word degree d=2, the
+    'lag-3' copy at a different filtration degree. That separator is a Z-GRADING
+    (word-length / Procesi degree) -- an ABELIAN, scalar datum, finer than the char poly
+    but expressible as graded DIMENSIONS. Per W3-082c ('an 8-rank is still abelian;
+    a finer character/grading is NOT a chord'), a grading refinement is NOT a chord positive.
+    No non-abelian / theta-odd object is required or available to split the collision:
+    the two summands are literally the same module, distinguished only by position.
+
+==============================================================================
+VERDICT LOGIC
+  W4-304 overturn signature (par-zero = even-odd cancellation): False
+  theta-odd sector separates the char(M^2)^2 collision:          False
+  colliding copies are isomorphic theta-EVEN Sym^2 modules:      True
+  only separator = abelian degree grading (not a chord):         True
+
+  VERDICT = HARDENS
+  is_genuine_chord = False
+
+  READING: the B85 char(M^2)^2 wall is NOT a trace-projection artifact. The two colliding
+  blocks are the SAME theta-EVEN module Sym^2(V) (a genuine multiplicity), not an even=odd
+  cancellation hiding a theta-odd piece (contrast W4-304). The theta-odd/chord sector at this
+  height is a separate, non-degenerate block char(-M^2). The finer invariant that DOES split
+  the collision is the ABELIAN Procesi degree grading (B522) -- a character/grading refinement,
+  explicitly NOT a non-abelian chord object (W3-082c trap). The wall HARDENS at the chord level;
+  the residual all-n proof remains the ABELIAN grading/catalog task (NEEDS-LIT, per B522/OI-010),
+  untouched by any theta-odd structure. Gate 5/5-Q clean; nothing to CLAIMS; one-number pin untouched.

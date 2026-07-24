@@ -1,0 +1,38 @@
+{
+  "cell": "CP-A5-molien",
+  "campaign": "B774 Stage B chord-pass",
+  "source_negative": "LAW_MAP 5-ADIC EXCLUSION (generation leg) / B685 W2 Molien kill",
+  "banked_level": "theta-even / abelianized (trace-level algebraic-integrality)",
+  "chord_computed": "theta-ODD twisted-character Molien on genuinely non-abelian A5",
+  "target_v5_denominator": {
+    "1": 1,
+    "10": 12,
+    "40": 49,
+    "80": 99,
+    "119": 146
+  },
+  "path1_abelian_doublet": {
+    "operator": "sigma(A1) golden rotation, order 10, eig zeta10^{+-1}",
+    "theta_odd_all_integer": true,
+    "theta_odd_min_v5": "0",
+    "note": "matches banked STEP3_VERDICT pt.4 diagnostic (M-M')/sqrt5 -> integers"
+  },
+  "path2_nonabelian_A5": {
+    "object": "A5 icosahedral 3-dim rep, twisted by chi_odd = chi_3 - chi_3'",
+    "M_odd_form": "(sqrt5/5)*(1/D5a - 1/D5b)",
+    "prefactor_v5": "-1/2 (5^{-1/2}, the only 5-denominator candidate)",
+    "prefactor_cancelled_by": "sqrt5 of the Galois-odd difference (1/D5a-1/D5b)",
+    "all_coeffs_integer": true,
+    "min_v5": "0",
+    "max_denominator_v5": 0,
+    "cross_check_2nd_path": true,
+    "ncoef_tested": 42
+  },
+  "chord_positive": false,
+  "is_genuine_chord": false,
+  "genuine_chord_reason": "twisted Molien with chi_3-chi_3' is a character-difference sum = an ordinary character/trace polynomial (W3-082c trap); not a genuine non-abelian invariant beyond the character ring",
+  "w4_304_signature": "ABSENT (no surviving nonzero theta-odd denominator)",
+  "verdict": "HARDENS",
+  "headline": "theta-odd twisted-character Molien is ALGEBRAIC-INTEGRAL on the genuinely non-abelian A5 object -- 5-adic exclusion survives the theta-odd projection",
+  "discriminating_fact": "M_odd(t) = (sqrt5/5)(1/D5a - 1/D5b): the tantalizing 5^(-1/2) prefactor (v5=-1/2) is EXACTLY cancelled by the sqrt5 carried by the Galois-odd difference (1/D5a-1/D5b), so every theta-odd twisted-Molien coefficient is a RATIONAL INTEGER (min v5>=0, max denominator-v5 = 0). No growing 5-power denominator appears; the target needs v5(denom)=1,12,49,99,146. The exclusion is NOT projection-specific."
+}

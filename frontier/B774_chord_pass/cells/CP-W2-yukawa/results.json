@@ -1,0 +1,30 @@
+{
+  "cell": "CP-W2-yukawa",
+  "campaign": "B774 chord-pass, Stage B",
+  "source_negative": "LAW_MAP section C -- the typing wall (1'): alternating family tensor (X) symmetric E6 cubic = 0, no Yukawa-type family tensor (B632/B637, PC26 wall 1')",
+  "banked_level": "scalar contraction of the E6 cubic on three identical H^1(D;27) classes (totally symmetric Yukawa Y_ijk)",
+  "chord_analog_computed": "the full uncontracted theta-odd cup-product family tensor: [u_i cup u_j] in H^2(D;27bar) (vector) and the triple cup in H^3 (scalar) -- the Sym^3 chord object",
+  "verdict": "HARDENS",
+  "headline": "The full theta-odd cup-product (Sym^3) family tensor is nonzero but EXACTLY alternating at the uncontracted level; no symmetric Yukawa-type family tensor exists -- the typing wall is a graded-commutativity fact, not a contraction artifact.",
+  "discriminating_fact": "The cup family tensor's antisymmetry is present ALREADY at the uncontracted vector level: [c_ij] = -[c_ji] exactly on all 25 pairs (re-derived from the banked coordinates) and provably so on the T^2/T^3 cup model, forced by graded-commutativity of cup on degree-1 classes -- so the scalar-Yukawa zero is NOT an even=odd cancellation hiding a theta-odd survivor (no W4-304 signature) but a TYPE mismatch symmetric-cubic (X) alternating-cup = 0. The nonzero vector cup is a genuine theta-odd chord object, but it is ALTERNATING, hence not Yukawa-type; it confirms the wall rather than overturning it.",
+  "is_genuine_chord": true,
+  "path1_model_theorem": {
+    "vector_cup_antisymmetric": true,
+    "vector_cup_nonzero": true,
+    "symmetric_part_identically_zero": true,
+    "scalar_yukawa_totally_antisymmetric_in_families": true,
+    "symmetric_yukawa_part_zero": true,
+    "triple_cup_alive_but_alternating": true
+  },
+  "path2_real_object": {
+    "six_solo_pairs_nonzero": true,
+    "antisymmetry_25of25": true,
+    "symmetric_part_zero": true,
+    "MV0_antisymmetric": true,
+    "natural_operator_distinct_eigenvalues": 2,
+    "natural_operator_charpoly": "lam**3 - 6*lam**2 + 9*lam - 4"
+  },
+  "W4_304_signature_present": false,
+  "reproduced_two_independent_paths": true,
+  "notes": "HARDENS. The vector cup family tensor is nonzero on all six off-diagonal solo pairs (confirming B660/B670) but is EXACTLY alternating at the uncontracted vector level (25/25), with its totally-symmetric part identically zero and its v0-contraction an antisymmetric 2-form. The symmetric E6 cubic annihilates it by a type mismatch (symmetric (X) antisymmetric = 0), NOT by an even=odd cancellation with a theta-odd survivor -- so no W4-304 overturn signature. The chord object is genuine (27bar-valued double cohomology, antilinear swap conj(S)S=I, over k(Gamma)=Q(sqrt-3)) yet its non-vanishing does NOT constitute a Yukawa-type (symmetric) coupling. This matches the record's own L106 reading: the nonzero vector cup is the live ALTERNATING object; the typing wall stands. The negative is NOT a contraction artifact.  Gate 5/5-Q: structural theta-odd fact of the object; nothing to CLAIMS; one-number pin untouched."
+}
