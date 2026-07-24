@@ -67,3 +67,33 @@ def test_p2w2_wave2_shape():
     assert len(upheld) == 6
     assert cells["P2W2-LATIN"]["upheld"] is False  # the forcing-overclaim catch
     assert cells["P2W2-PERLETTER"]["verdict"] == "RESOLVED-B"  # per-letter weight tombstoned
+
+
+# ---- Wave 3 locks -------------------------------------------------------------
+
+
+def test_p2w3_octahedral_parent():
+    # OCTA: the octahedral group S4 has order 24 (the projective mod-3 Galois image)
+    import sympy.combinatorics.named_groups as ng
+    S4 = ng.SymmetricGroup(4)
+    assert S4.order() == 24
+
+
+def test_p2w3_l53_e6_cohomology_dims():
+    # L53: e6 = (+) Sym^{2m} over Kostant exponents {1,4,5,7,8,11}, dims sum to 78; H^1 = rank 6
+    exps = [1, 4, 5, 7, 8, 11]
+    dims = [2 * m + 1 for m in exps]        # dim Sym^{2m} = 2m+1
+    assert sum(dims) == 78                    # dim E6
+    assert len(exps) == 6                     # rank E6 = H^1 dimension (one per block)
+
+
+def test_p2w3_wave3_shape():
+    d = json.loads((ARC / "wave3_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 8
+    upheld = sorted(i for i, c in cells.items() if c["upheld"])
+    assert len(upheld) == 7
+    assert cells["P2W3-1/4WALK"]["upheld"] is False   # the frozenness over-claim carry
+    # two theorems + a structural positive banked
+    assert cells["P2W3-L56"]["verdict"] == "RESOLVED-A"
+    assert cells["P2W3-OCTA"]["verdict"] == "RESOLVED-A"

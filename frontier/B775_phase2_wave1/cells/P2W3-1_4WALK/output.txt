@@ -1,0 +1,16 @@
+N= 15 support=[4, 9, 14, 19] values=['1/4'] recon_ok=True
+N= 45 support=[14, 29, 44, 59] values=['1/4'] recon_ok=True
+N=135 support=[29, 74, 119, 164] values=['1/4'] recon_ok=True
+N= 15 W1=A(x)B=True ord=20 4N/3=True
+N= 45 W1=A(x)B=True ord=60 4N/3=True
+N=135 W1=A(x)B=True ord=180 4N/3=True
+N=405 W1=A(x)B=True ord=540 4N/3=True
+pt product identity: {'15': 'pt_N==pt5*pt3 all-j:True', '45': 'pt_N==pt5*pt3 all-j:True', '135': 'pt_N==pt5*pt3 all-j:True', '405': 'first4:True'}
+walk a0        : {'15': 4, '45': 14, '135': 29, '405': 14}
+support coset  : {'15': 'a == 4 (mod 5)', '45': 'a == 14 (mod 15)', '135': 'a == 29 (mod 45)', '405': 'a == 14 (mod 135)'}
+5-part CONSTANT: {'15': 4, '45': 4, '135': 4, '405': 4}
+3-adic part    : {'15': 0, '45': 2, '135': 2, '405': 14}
+predicted support @405: [14, 59, 104, 149, 194, 239, 284, 329, 374, 419, 464, 509]
+seed crosscheck 135: {'4861': {'support': [29, 74, 119, 164], 'all_1/4': True}, '6481': {'support': [29, 74, 119, 164], 'all_1/4': True}}
+VERDICT: RESOLVED-A
+The walk is the CRT/Galois factorization of the metaplectic Weil rep of SL2 over Z/N: W1 = A(x)B under Z/N ~= Z/5 x Z/3^k, so support and the frozen 1/4 are the CRT-product of a constant 5-local factor and the growing 3^k-local factor. Reproduced two ways (tensor identity + local-reconstruction == direct DFT).

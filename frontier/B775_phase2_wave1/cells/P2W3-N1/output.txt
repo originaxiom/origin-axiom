@@ -1,0 +1,10 @@
+e_n mod 5 (n=0..9): [4, 4, 1, 1, 4, 1, 1, 4, 4, 1]
+e_n mod 7 (n=0..9): [6, 3, 3, 3, 6, 4, 2, 3, 5, 1]
+routes agree: True
+e_n mod5 all squares: True  hit: [1, 4]  excluded: [0, 2, 3]
+mod7 non-squares hit (=> 7 inert, norm surjective): [3, 5, 6]  hit: [1, 2, 3, 4, 5, 6]
+5|e_n in range: False   7|e_n in range: False
+forward-orbit maxdeg mod5: [2, 4, 8, 8, 8, 16, 16, 32, 64]
+forward-orbit maxdeg mod7: [4, 8, 16, 32, 64, 128, 128, 256]
+VERDICT: UNRESOLVED
+TERMINAL: WALLED: partial residue-exclusion PROVEN (e_n mod5 in {0,1,4}, residues 2,3 excluded, via golden-norm + ramification); full 0-exclusion & eventual periodicity obstructed by the unbounded forward doubling-orbit degree (no finite-state / Lucas reduction). No counterexample.

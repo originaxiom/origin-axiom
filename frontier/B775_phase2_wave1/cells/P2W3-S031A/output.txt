@@ -1,0 +1,62 @@
+====================================================================================================
+P2W3-S031A (OI-071) -- S031a full-locus: phi-fixed system 0-dimensional/isolated?
+system: A g^{-1} A g = g A g^{-1}  ==>  g A g A = A g^2  (B=g^{-1}Ag);  SL(3) character variety
+====================================================================================================
+
+[0] exact reduction  g(AgAg^-1 - g^-1Ag)g = gAgA - Ag^2  (task <-> polynomial, g invertible): True
+    (phi-fixedness of the numeric solutions is independently confirmed in [1]: char-coord dev ~1e-16)
+
+----------------------------------------------------------------------------------------------------
+[1] eigenvalue-stratum sweep (finite-order vs generic-regular)
+----------------------------------------------------------------------------------------------------
+
+[principal {1,-1,-1} (order 2, B142)]  eigs=['(1+0j)', '(-1+0j)', '(-1+0j)']  mult=[1, 2]  dim Z(A)=5
+    converged/invertible solutions: 238   (phi-fixed char-coord max dev: 1.7e-16)
+    well-conditioned (cond<1e6): 238/238   max cond=2.4e+02
+    local dim of g-locus (well-cond, SVD Jacobian): [5]  (max 5)
+    => character-locus dim (well-cond) = max_local_dim - dim Z(A) = 0
+    algebra dims of <A,B> (tolerance-free gap-rank): [3]  (9 = irreducible)
+    reducible by common invariant subspace (tol 1e-4): 238/238
+    GENUINE irreducibles (gap-rank 9 AND no inv-subspace AND cond<1e6): 0
+
+[{1, i, -i} (order 4)]  eigs=['(1+0j)', '1j', '(-0-1j)']  mult=[1, 1, 1]  dim Z(A)=3
+    converged/invertible solutions: 171   (phi-fixed char-coord max dev: 3.0e-16)
+    well-conditioned (cond<1e6): 171/171   max cond=1.2e+04
+    local dim of g-locus (well-cond, SVD Jacobian): [3, 4, 5]  (max 5)
+    => character-locus dim (well-cond) = max_local_dim - dim Z(A) = 2
+    algebra dims of <A,B> (tolerance-free gap-rank): [1, 5, 7]  (9 = irreducible)
+    reducible by common invariant subspace (tol 1e-4): 171/171
+    GENUINE irreducibles (gap-rank 9 AND no inv-subspace AND cond<1e6): 0
+
+[{1, w, w^2} (order 3)]  eigs=['(1+0j)', '(-0.5+0.8660254037844386j)', '(-0.5-0.8660254037844386j)']  mult=[1, 1, 1]  dim Z(A)=3
+    NO invertible phi-fixed solution found (2 seeds x 120 starts) -> stratum EMPTY
+
+[generic-regular {2,3,1/6}]  eigs=['(2+0j)', '(3+0j)', '(0.16666666666666666+0j)']  mult=[1, 1, 1]  dim Z(A)=3
+    NO invertible phi-fixed solution found (2 seeds x 120 starts) -> stratum EMPTY
+
+[generic-regular random (mu^2!=1, not root of unity)]  eigs=['(1.7+0.4j)', '(0.9-1.3j)', '(0.2688524590163935+0.24262295081967217j)']  mult=[1, 1, 1]  dim Z(A)=3
+    NO invertible phi-fixed solution found (2 seeds x 120 starts) -> stratum EMPTY
+
+----------------------------------------------------------------------------------------------------
+[2] exact Groebner (GF(p)) dimension of V={g: gAgA=Ag^2, det!=0}, A=diag(1,-1,-1)
+----------------------------------------------------------------------------------------------------
+    {'ok': True, 'p': 32003, 'gb_size': 8, 'krull_dim_with_t': 5, 'dim_V_det_nonzero': 5, 'note': 'dim in (g,t); t is functionally determined so equals dim of V∩{det≠0}'}
+    exact dim V (det!=0) = 5;  dim Z(A)=5 => char-locus dim = 0
+
+----------------------------------------------------------------------------------------------------
+[3] finite-order pinning of A (B564 factor, verified roots-of-unity)
+----------------------------------------------------------------------------------------------------
+    finite-order factor = (mu - 1)**3*(mu + 1)**3*(mu**2 + 1)*(mu**2 + mu + 1)
+    roots (value, mult. order): [('-1', 2), ('1', 1)]
+    all roots are roots of unity: True; orders present: [1, 2]
+
+====================================================================================================
+VERDICT
+====================================================================================================
+  - any GENUINE irreducible phi-fixed point (any stratum): False
+  - generic-regular strata (mu not root of unity): EMPTY = True  (finite-order pinning)
+  - max character-locus dim over occupied strata: 2
+  - all occupied strata reducible: True
+
+  VERDICT: RESOLVED-A
+  phi-fixed locus entirely REDUCIBLE at full SL(3) locus: A pinned to finite order, B block-diagonal 1+2; NO irreducible fixed point -> sealing generalizes
