@@ -1,0 +1,12 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+m004 homology: Z | m003 homology: Z/5 + Z
+m004 monodromy RL trace = 3, char poly = x**2 - 3*x + 1 (golden phi^2), |2-tr| = 1 => H_1 = Z
+m003 H_1 torsion Z/5 => |2-tr| = 5 => monodromy trace in [-3, 7] (sister = -3); != 3
+
+VERDICT: RESOLVED-A
+m004 is UNIQUELY the golden Fibonacci bundle: monodromy trace 3 (eigenvalue phi^2),
+H_1 = Z (a knot complement). m003 is the sister: trace != 3, H_1 = Z + Z/5 -- the
+golden '5' appears as TORSION in the sister where m004 carries it as the field sqrt5.
+The downstream chain (Fibonacci/golden/trace-3/H_1=Z) selects m004 over m003.
+=> the V4 residual risk is CLOSED.

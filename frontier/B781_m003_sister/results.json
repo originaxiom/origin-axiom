@@ -1,0 +1,14 @@
+{
+ "arc": "B781",
+ "verdict": "RESOLVED-A",
+ "m004_homology": "Z",
+ "m003_homology": "Z/5 + Z",
+ "m004_monodromy_trace": 3,
+ "m004_charpoly": "x**2 - 3*x + 1",
+ "m003_torsion_forces_trace_in": [
+  -3,
+  7
+ ],
+ "distinguished": true,
+ "headline": "m003 sister-distinction RESOLVED: |H_1 torsion| = |2-tr(monodromy)| distinguishes m004 (trace 3, golden phi^2, H_1=Z, the sigma-manifold) from m003 (trace != 3, H_1=Z+Z/5). The golden 5 is the field sqrt5 in m004, torsion Z/5 in the sister. The V4 residual is CLOSED -- the downstream chain selects m004 uniquely."
+}

@@ -16263,6 +16263,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B781": {
+   "slug": "m003 sister",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B777",
+    "V4"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [
