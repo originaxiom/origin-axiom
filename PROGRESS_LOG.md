@@ -8011,3 +8011,16 @@ reasoning layer, but half the instances are MECHANICAL — a DISCONNECTED VERDIC
 flag deciding the outcome is not wired to any computed quantity (literals, hardcoded
 booleans, silent except-fallbacks). The arithmetic layer is sound; everything downstream of
 the number is where it breaks.
+
+## 2026-07-24 — B775 Phase 2 Wave 6 banked: the repair wave (5 banked, 3 further catches)
+The wave where L1–L4 were binding. Five repairs, three landed cleanly: GATEB-r is a MODEL
+repair — the forced-reason defect fixed MECHANICALLY (the demoted F₄/SL(2) facts are absent
+from the verdict's argument key-set, checked by V0), non-vacuity earned by a complete
+208/3010 census, and L1 discharged by 5 counterfactual worlds each realized by in-cell rep
+theory. Z1-r corrects cc's own E4 iff error with a recomputing lock. B414-r re-decides on a
+non-vacuous gate. Plus a new all-n THEOREM (B138, S031a sealing SL(3)→SL(4)) and the rank-4
+census (B106). But three carries all failed a lesson AGAIN: D3-r relapsed into E27 (text not
+wired to the computed CI), B465-r re-committed the E4 universal it was repairing, PD22's
+headline law is falsified by its own code. The meta-lesson banked: naming a rule doesn't
+prevent re-committing it — only an in-code mechanical check does. That validates E27's
+remedy (the flag must trace to a computed quantity) over mere prose discipline.

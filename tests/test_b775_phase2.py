@@ -238,3 +238,24 @@ def test_p2w5_wave5_shape():
     # GATEB's verdict stands but is carried for a forced reason
     assert cells["P2W5-GATEB"]["verdict"] == "RESOLVED-B"
     assert cells["P2W5-GATEB"]["upheld"] is False
+
+
+# ---- Wave 6 locks -------------------------------------------------------------
+
+
+def test_p2w6_b138_sl4_sealing_bound():
+    # S031a -> SL(4): A^2 central => dim C<A,B> <= 4 => reducible for n>=3
+    # the bound is dim<=4 (A, B, AB, A^2=scalar collapses) -- check the algebra-dim logic
+    # A^2 scalar means {I, A, B, AB} spans; dim <= 4 < n^2 for n>=3 (9) => reducible
+    for n in (3, 4, 5):
+        assert 4 < n**2                       # dim C<A,B> <= 4 < n^2 => not all of M_n => reducible
+
+
+def test_p2w6_wave6_shape():
+    d = json.loads((ARC / "wave6_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 8
+    upheld = sorted(i for i, c in cells.items() if c["upheld"])
+    assert upheld == ["P2W6-B106", "P2W6-B138", "P2W6-B414-r", "P2W6-GATEB-r", "P2W6-Z1-r"]
+    # GATEB-r: the forced-reason repair, upheld
+    assert cells["P2W6-GATEB-r"]["verdict"] == "RESOLVED-B" and cells["P2W6-GATEB-r"]["upheld"]

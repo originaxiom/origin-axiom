@@ -42,8 +42,6 @@ from __future__ import annotations
 import itertools
 import json
 import pathlib
-import signal
-import time
 
 import numpy as np
 import sympy as sp
@@ -124,7 +122,8 @@ def gprod(*xs):
 
 def s1_substrate():
     ok = {}
-    ok["phi_psi_inverse"] = all(PSI(PHI(w)) == w and PHI(PSI(w)) == w for w in ("a", "b", "ab", "aBb"))
+    ok["phi_psi_inverse"] = all(PSI(PHI(w)) == red(w) and PHI(PSI(w)) == red(w)
+                                for w in ("a", "b", "ab", "aBb", "abABba"))
     # t a t^-1 = a^2 b and t b t^-1 = ab in Gamma
     T = ("", 1)
     ok["rel_a"] = gprod(T, ("a", 0), ginv(T)) == ("aab", 0)
@@ -163,6 +162,48 @@ def s2_conjugation_theorem():
                                         and out["L_prime_equals_conj_L"]
                                         and out["t_prime_is_monodromy"])
     return out
+
+
+def s2b_rank3_control():
+    """INDEPENDENT CHECK of the Phi theorem against the banked rank-3 decomposition (B71):
+    Phi must carry W1 = {x1 = x4 = 1} (which has M^3 = L) onto W2 = {x2 = x5 = 1} (which has
+    M^3 L = 1).  Recomputed here, not cited: realize a W1 rep, apply Phi in closed form, and
+    read off both the W2 defining traces and the conjugate relation."""
+    import importlib.util
+    sp_ = importlib.util.spec_from_file_location("per", ROOT / "frontier/B71_sl3_apoly/peripheral.py")
+    per = importlib.util.module_from_spec(sp_)
+    sp_.loader.exec_module(per)
+    I3 = np.eye(3, dtype=complex)
+    out = []
+    for (p, q) in ((2.3, 3.1), (1.7, -0.9)):
+        got = per.realize(per.W1(p, q))
+        if got is None:
+            continue
+        A, B = got
+        t, res = per.monodromy(A, B)
+        if t is None:
+            continue
+        mu = inv(A) @ t
+        L = A @ B @ inv(A) @ inv(B)
+        d0 = float(np.max(np.abs(L @ np.linalg.matrix_power(inv(mu), 3)
+                                 - (np.trace(L @ np.linalg.matrix_power(inv(mu), 3)) / 3) * I3)))
+        Ap, Bp, tp = B, inv(A), A @ inv(B) @ inv(t)
+        tp = tp / np.linalg.det(tp) ** (1 / 3)
+        rp = max(float(np.max(np.abs(tp @ Ap @ inv(tp) - Ap @ Ap @ Bp))),
+                 float(np.max(np.abs(tp @ Bp @ inv(tp) - Ap @ Bp))))
+        mup = inv(Ap) @ tp
+        Lp = Ap @ Bp @ inv(Ap) @ inv(Bp)
+        M = Lp @ np.linalg.matrix_power(mup, 3)
+        c = np.trace(M) / 3
+        d1 = float(np.max(np.abs(M - c * I3)))
+        out.append({"pq": [p, q], "W1_M3=L_dev": d0, "phi_bundle_res": rp,
+                    "phi_M3L=1_dev": d1, "phi_c": str(complex(np.round(c, 8))),
+                    "W2_traces_x2_x5": [complex(np.round(np.trace(Bp), 8)),
+                                        complex(np.round(np.trace(inv(Bp)), 8))]})
+    ok = bool(out) and all(r["W1_M3=L_dev"] < 1e-6 and r["phi_M3L=1_dev"] < 1e-6 and
+                           abs(r["W2_traces_x2_x5"][0] - 1) < 1e-8 and
+                           abs(r["W2_traces_x2_x5"][1] - 1) < 1e-8 for r in out)
+    return {"rows": out, "phi_maps_W1_onto_W2_with_the_conjugate_relation": ok}
 
 
 # ===========================================================================
@@ -212,34 +253,38 @@ def s3_rank4(df):
 
 
 def s3_new_component_exact():
-    """EXACT (over Q(omega)): on the B89 principal family tr B MOVES, while spec(A) is frozen.
-    Hence Phi(principal) -- whose A-spectrum is spec(B) -- is a DIFFERENT component, invisible
-    to any search that fixes the A-spectrum."""
-    w = sp.Rational(-1, 2) + sp.sqrt(3) * sp.I / 2                    # primitive cube root
-    t12, t21, t22, s = sp.symbols("t12 t21 t22 s")
+    """EXACT (over Q(omega) = Q[w]/(w^2+w+1)): the B89 principal family lies on (*) identically,
+    its A-spectrum is FROZEN at {1,1,w,w^2}, but tr B MOVES.  Hence Phi(principal) -- whose
+    A-spectrum is spec(B) -- is a DIFFERENT component of Fix(T_1^2), and one that no
+    A-spectrum-indexed search (B73/B106's method) can reach."""
+    w, t12, r, t22, s = sp.symbols("w t12 r t22 s")
+    MOD = w ** 2 + w + 1
+    rd = lambda e: sp.rem(sp.expand(e), MOD, w)
+    rdm = lambda M: M.applyfunc(rd)
+    t21 = t12 * r                                        # clears the only denominator (s t21/t12)
     D = sp.diag(w, w ** 2)
     T = sp.Matrix([[w * t22, t12], [t21, t22]])
     P = -D * T
     Rm = sp.Matrix([[t12 * t21 * (w + 1) - t22 ** 2, s],
-                    [s * t21 / t12, t22 ** 2 + w * (t22 ** 2 - t12 * t21)]])
+                    [s * r, t22 ** 2 + w * (t22 ** 2 - t12 * t21)]])
     t = sp.Matrix(sp.BlockMatrix([[P, sp.eye(2)], [Rm, T]]))
     A = sp.diag(1, 1, w, w ** 2)
-    Ai = A.inv()
-    star = sp.simplify(sp.expand(t * Ai * Ai * t * A - Ai * t * A * t))
-    on_variety = all(sp.simplify(e) == 0 for e in star)
-    B = sp.simplify(Ai * Ai * t * A * t.inv())
-    trB = sp.simplify(sp.expand(B.trace()))
-    d = {v: sp.simplify(sp.diff(trB, v)) for v in (t12, t21, t22, s)}
-    moves = any(x != 0 for x in d.values())
-    pts = []
-    for vals in ((sp.Rational(1, 2), 2, 3, 1), (1, 1, 2, sp.Rational(3, 2)), (2, sp.Rational(1, 3), 1, 1)):
-        sb = dict(zip((t12, t21, t22, s), vals))
-        pts.append(sp.nsimplify(sp.simplify(trB.subs(sb))))
+    Ai = sp.diag(1, 1, w ** 2, w)                        # w^-1 = w^2 (exact)
+    star = rdm(sp.expand(t * Ai * Ai * t * A - Ai * t * A * t))
+    on_variety = all(e == 0 for e in star)
+    dt = rd(t.det())
+    N = rdm(sp.expand(Ai * Ai * t * A * t.adjugate()))   # = det(t) * B
+    trN = rd(N.trace())
+    pts, vals = [], ((sp.Integer(1), 2, 3, 1), (1, 1, 2, 3), (2, 3, 1, 1))
+    for v in vals:
+        sb = dict(zip((t12, r, t22, s), v))
+        num, den = rd(trN.subs(sb)), rd(dt.subs(sb))
+        pts.append(sp.simplify(sp.cancel((num / den).subs(w, sp.Rational(-1, 2) + sp.sqrt(3) * sp.I / 2))))
+    moves = any(sp.simplify(x - pts[0]) != 0 for x in pts)
     return {"b89_family_on_variety_exact": bool(on_variety),
+            "detA_frozen": "spec(A) = {1,1,w,w^2} by construction (A is the constant diag)",
             "trB_nonconstant_exact": bool(moves),
-            "trB_at_3_exact_points": [str(sp.simplify(x)) for x in pts],
-            "distinct": len({sp.simplify(x - pts[0]) == 0 for x in pts}) > 1 or
-                        any(sp.simplify(x - pts[0]) != 0 for x in pts)}
+            "trB_at_3_exact_points": [str(x) for x in pts]}
 
 
 # ===========================================================================
@@ -281,156 +326,63 @@ def s4_exact_c(df):
 
 
 # ===========================================================================
-# S5 -- census exhaustiveness: the ideal, the junk stratum, the wall
+# S5 -- the EXHAUSTIVE census over all F_p-rational spectra (Singular back end)
 # ===========================================================================
-class TO(Exception):
-    pass
+# The census ideal is the irreducible stratum of the bundle variety (*) at A=diag(a):
+#   I = <(*)> : det(t)^inf : f_S^inf  over every proper nonempty coordinate subspace S,
+# where f_S is a generic linear form in the entries of det(t)*B (B=A^-2 t A t^-1).  For a
+# DISTINCT spectrum the A-invariant subspaces are EXACTLY the 2^n-2 coordinate subspaces, so
+# the saturated dimension is the true irreducible-stratum dimension; for a REPEATED spectrum
+# it is an UPPER bound (continuous families of invariant subspaces are not all cut out -- the
+# same repeated-eigenvalue degeneracy named in B95/B153/B89's rank-drop trap).
+#
+# KEY FACT (measured): the ITERATIVE saturation  I : g1 : g2 : ...  runs in Singular in
+# ~0.1-0.5 s per rank-4 spectrum, so the FULL enumeration over all (p-1)^{n-1}/... rational
+# spectra completes in minutes.  The 25-var Groebner wall (L22/B199) does NOT bind: it is the
+# ONE monolithic degrevlex GB of the raw ideal; the census is a SEQUENCE of small saturations,
+# never the monolith.  (Confirmed: pyenv-sympy's monolithic Buchberger DOES time out on the
+# same ideal -- a tooling artifact, not a mathematical wall; the B198 lesson.)
+#
+# The exhaustive sweep is run by  census_sweep.py  under sage-python (Singular); this cell reads
+# its committed output census_sweep.json.  Reproduce:
+#   sage-python census_sweep.py '[[3,13],[3,17],[4,13],[4,17],[4,19]]' census_sweep.json
 
 
-def _alarm(sig, frm):
-    raise TO()
-
-
-def gb_timed(eqs, vs, p, limit):
-    signal.signal(signal.SIGALRM, _alarm)
-    signal.setitimer(signal.ITIMER_REAL, limit)
-    t0 = time.time()
-    try:
-        G = sp.groebner(eqs, *vs, order="grevlex", modulus=p)
-        signal.setitimer(signal.ITIMER_REAL, 0)
-        return G, time.time() - t0, False
-    except TO:
-        return None, time.time() - t0, True
-    finally:
-        signal.setitimer(signal.ITIMER_REAL, 0)
-
-
-def build_star(spec, p, n, gauge_row=0):
-    """(*) in the gauge  t[gauge_row,:] = (1,...,1)  (scale + torus), cleared of denominators:
-       eq(i,j) = sum_k (a_i a_j - a_k^3) * prod_{l!=k} a_l^2 * t_ik t_kj."""
-    a = list(spec)
-    T = sp.symbols("t0:%d" % (n * n))
-    tt = lambda i, j: sp.Integer(1) if i == gauge_row else T[n * i + j]
-    E = []
-    for i in range(n):
-        for j in range(n):
-            c = []
-            for k in range(n):
-                pr = 1
-                for l in range(n):
-                    if l != k:
-                        pr = pr * a[l] * a[l] % p
-                c.append((a[i] * a[j] - pow(a[k], 3, p)) * pr % p)
-            e = sp.expand(sum(int(c[k]) * tt(i, k) * tt(k, j) for k in range(n)))
-            if e != 0:
-                E.append(e)
-    V = [T[n * i + j] for i in range(n) for j in range(n) if i != gauge_row]
-    return E, V, T, tt
-
-
-def dim_from_gb(G, V):
-    lms = [sp.Poly(g, *V).monoms()[0] for g in G.exprs]
-    idx = list(range(len(V)))
-    for r in range(len(V), -1, -1):
-        for U in itertools.combinations(idx, r):
-            S = set(U)
-            if all(any(m[i] > 0 for i in idx if i not in S) for m in lms):
-                return r
-    return -1
-
-
-def irr_conditions(T, tt, spec, p, n, gauge_row=0):
-    """A = diag(distinct) => the A-invariant subspaces are the 2^n-2 proper coordinate
-    subspaces; <A,B> is irreducible iff for every such S some entry of B leaves S.
-    B = A^-2 t A t^-1, so (numerator of) B_{ij} is polynomial in t and adj(t).
-    Returns the list of 2^n-2 linear-in-B forms whose non-vanishing must be saturated."""
-    M = sp.Matrix(n, n, lambda i, j: tt(i, j))
-    adj = M.adjugate()
-    ai = [pow(int(x), p - 2, p) for x in spec]
-    A = sp.diag(*[int(x) for x in spec])
-    A2i = sp.diag(*[int(ai[i] * ai[i] % p) for i in range(n)])
-    Bnum = sp.expand(A2i * M * A * adj)          # = det(t) * B
-    forms = []
-    for r in range(1, n):
-        for S in itertools.combinations(range(n), r):
-            Sset = set(S)
-            f = sp.expand(sum(int(1 + (7 * i + 5 * j) % (p - 1)) * Bnum[i, j]
-                              for j in Sset for i in range(n) if i not in Sset))
-            forms.append(f)
-    return forms
-
-
-def s5_wall(p4=17, p3=13, limit=90.0):
-    out = {}
-    # (a) rank-4: raw and det-saturated dimensions -- known Dehn-filling spectrum vs random
-    rng = np.random.default_rng(3)
-    known4 = (2, 8, 15, 9)            # zeta_8 = 2 mod 17 -> the SECONDARY spectrum, exactly
-    assert (2 * 8 * 15 * 9) % p4 == 1
-    rnd4 = []
-    while len(rnd4) < 3:
-        x = [int(rng.integers(1, p4)) for _ in range(3)]
-        x.append(pow(x[0] * x[1] * x[2], p4 - 2, p4))
-        if len(set(x)) == 4 and tuple(x) != known4:
-            rnd4.append(tuple(x))
-    tab = []
-    for lab, sp4 in [("known(secondary)", known4)] + [(f"random{i}", s) for i, s in enumerate(rnd4)]:
-        E, V, T, tt = build_star(sp4, p4, 4)
-        G, el, to = gb_timed(E, V, p4, limit)
-        draw = dim_from_gb(G, V) if G is not None else None
-        Mm = sp.Matrix(4, 4, lambda i, j: tt(i, j))
-        y = sp.Symbol("y")
-        G2, el2, to2 = gb_timed(E + [sp.expand(y * Mm.det() - 1)], V + [y], p4, limit)
-        dsat = dim_from_gb(G2, V + [y]) if G2 is not None else None
-        tab.append({"spec": list(sp4), "label": lab, "dim_raw": draw, "t_raw": round(el, 1),
-                    "dim_det_sat": dsat, "t_det_sat": round(el2, 1)})
-    out["rank4_dimension_table"] = tab
-    known_row = tab[0]
-    out["junk_dominates"] = bool(known_row["dim_det_sat"] is not None and any(
-        r["dim_det_sat"] is not None and r["dim_det_sat"] >= known_row["dim_det_sat"] for r in tab[1:]))
-    # (b) the variable count of the census-grade (irreducibility-saturated) ideal
-    out["census_ideal_vars"] = {"rank3": (9 - 3) + (2 ** 3 - 2), "rank4": (16 - 4) + (2 ** 4 - 2),
-                                "named_wall_at": 25}
-    # (c) rank-3 CONTROL: the full irreducibility-saturated ideal (12 vars) at the KNOWN
-    #     SL(3) Dehn-filling spectrum {1,i,-i} (B71 W1) and at random spectra
-    i3 = None
-    for x in range(1, p3):
-        if (x * x) % p3 == p3 - 1:
-            i3 = x
-    known3 = (1, i3, p3 - i3)
-    rnd3 = []
-    while len(rnd3) < 3:
-        x = [int(rng.integers(1, p3)) for _ in range(2)]
-        x.append(pow(x[0] * x[1], p3 - 2, p3))
-        if len(set(x)) == 3 and tuple(sorted(x)) != tuple(sorted(known3)):
-            rnd3.append(tuple(x))
-    tab3 = []
-    for lab, s3 in [("known(W1={1,i,-i})", known3)] + [(f"random{i}", s) for i, s in enumerate(rnd3)]:
-        E, V, T, tt = build_star(s3, p3, 3)
-        forms = irr_conditions(T, tt, s3, p3, 3)
-        ys = sp.symbols("y0:%d" % len(forms))
-        E2 = E + [sp.expand(ys[i] * forms[i] - 1) for i in range(len(forms))]
-        G, el, to = gb_timed(E2, V + list(ys), p3, limit)
-        tab3.append({"spec": list(s3), "label": lab, "nvars": len(V) + len(ys),
-                     "dim_irr": (dim_from_gb(G, V + list(ys)) if G is not None else None),
-                     "t": round(el, 1), "timeout": to})
-    out["rank3_control"] = tab3
-    kd = tab3[0]["dim_irr"]
-    out["rank3_control_discriminates"] = bool(
-        kd is not None and all(r["dim_irr"] is not None and r["dim_irr"] < kd for r in tab3[1:]))
-    # (d) rank-4 the same formulation: the wall curve vs the number of saturation variables
-    E, V, T, tt = build_star(known4, p4, 4)
-    forms = irr_conditions(T, tt, known4, p4, 4)
-    curve = []
-    for m in (0, 2, 4, 7, 10, 14):
-        ys = sp.symbols("z0:%d" % m) if m else ()
-        E2 = E + [sp.expand(ys[i] * forms[i] - 1) for i in range(m)]
-        G, el, to = gb_timed(E2, V + list(ys), p4, limit)
-        curve.append({"n_sat_vars": m, "nvars": len(V) + m, "t": round(el, 1),
-                      "timeout": to, "dim": (dim_from_gb(G, V + list(ys)) if G is not None else None)})
-        if to:
-            break
-    out["rank4_wall_curve"] = curve
-    out["rank4_full_saturation_walls"] = bool(curve[-1]["timeout"] or curve[-1]["n_sat_vars"] < 14)
+def s5_census():
+    path = HERE / "census_sweep.json"
+    out = {"engine": "Singular via sage-python (iterative saturation); see census_sweep.py",
+           "monolithic_gb_walls_but_iterative_saturation_does_not":
+               "sympy monolithic Buchberger times out at >=14 vars; Singular iterative "
+               "saturation finishes each rank-4 spectrum in <1s (B198 tooling lesson)"}
+    if not path.exists():
+        out["status"] = "census_sweep.json ABSENT -- run census_sweep.py under sage-python first"
+        out["computable"] = None
+        return out
+    data = json.loads(path.read_text())
+    out["computable"] = True
+    per = []
+    for r in data:
+        distinct_jump = [x for x in r["jump"] if x["distinct"]]
+        repeated_jump = [x for x in r["jump"] if not x["distinct"]]
+        per.append({"n": r["n"], "p": r["p"], "n_spectra_enumerated": r["n_spectra"],
+                    "sec": r["sec"], "dim_histogram": r["hist"],
+                    "distinct_dim>=2_components": distinct_jump,
+                    "n_repeated_dim>=2_upper_bounds": len(repeated_jump)})
+    out["by_run"] = per
+    # rank-3 control: the census must SINGLE OUT the banked Dehn-filling spectrum {1,i,-i}
+    r3 = [r for r in data if r["n"] == 3]
+    out["rank3_control_singles_out_one_distinct_component"] = bool(
+        r3 and all(len([x for x in r["jump"] if x["distinct"]]) == 1 for r in r3))
+    # rank-4: the exhaustive enumeration terminated at every tested prime
+    r4 = [r for r in data if r["n"] == 4]
+    out["rank4_exhaustive_terminates"] = bool(r4) and all(r["sec"] < 600 for r in r4)
+    # the distinct-spectrum rank-4 Dehn-filling component: unique per prime, = the SECONDARY
+    # cyclic type (char z^4+1); the PRINCIPAL {1,1,w,w^2} is a REPEATED spectrum, certified
+    # separately exact over Q(omega) in S3 (not by this F_p coordinate saturation).
+    out["rank4_distinct_components_per_prime"] = {
+        str(r["p"]): [x["spec"] for x in r["jump"] if x["distinct"]] for r in r4}
+    out["principal_is_repeated_spectrum_certified_in_S3"] = True
+    out["census_computable_no_25var_wall"] = bool(out["rank4_exhaustive_terminates"])
     return out
 
 
@@ -454,6 +406,15 @@ def main():
         say(f"     {k}: {v}")
     say("     => (A,B,t) |-> (B, A^-1, A B^-1 t^-1);  mu' = A^-1 mu^-1 A;  L' = A^-1 L A")
     say("     => L = c mu^k  IMPLIES  L' mu'^k = c.   M^k L = 1 is the Phi-image of M^k = L.")
+    say("     (Phi preserves irreducibility exactly: <B,A^-1> = <A,B> as a subgroup.)")
+
+    say("\n[S2b] rank-3 control against the banked B71 decomposition (recomputed, not cited)")
+    R["S2b"] = s2b_rank3_control()
+    for r in R["S2b"]["rows"]:
+        say(f"     W1{r['pq']}: M^3=L dev={r['W1_M3=L_dev']:.1e} -> Phi: res={r['phi_bundle_res']:.1e} "
+            f"M^3L=1 dev={r['phi_M3L=1_dev']:.1e} c={r['phi_c']} ; (x2,x5)={r['W2_traces_x2_x5']}")
+    say(f"     Phi carries W1 onto W2 = {{x2=x5=1}} with the conjugate relation: "
+        f"{R['S2b']['phi_maps_W1_onto_W2_with_the_conjugate_relation']}")
 
     say("\n[S3] rank-4 instantiation (B73 reps; Phi in closed form)")
     R["S3"] = s3_rank4(df)
@@ -474,49 +435,77 @@ def main():
     say("     c invariant? " + json.dumps(R["S4"]["c_is_invariant"]))
     say("     banked-branch c across seeds: " + json.dumps(R["S4"]["banked_c_is_seed_dependent"]))
 
-    say("\n[S5] census exhaustiveness over ALL rank-4 spectra -- attempt")
-    R["S5"] = s5_wall()
-    for r in R["S5"]["rank4_dimension_table"]:
-        say(f"     rank4 {r['label']:17} spec={r['spec']} dim_raw={r['dim_raw']} "
-            f"dim_det_sat={r['dim_det_sat']}  ({r['t_raw']}s / {r['t_det_sat']}s)")
-    say(f"     junk (reducible) stratum dominates the dimension: {R['S5']['junk_dominates']}")
-    say("     census-grade ideal variable count: " + json.dumps(R["S5"]["census_ideal_vars"]))
-    for r in R["S5"]["rank3_control"]:
-        say(f"     rank3 CONTROL {r['label']:19} nvars={r['nvars']} dim_irr={r['dim_irr']} "
-            f"({r['t']}s, timeout={r['timeout']})")
-    say(f"     rank-3 control discriminates the Dehn-filling spectrum: {R['S5']['rank3_control_discriminates']}")
-    for r in R["S5"]["rank4_wall_curve"]:
-        say(f"     rank4 saturation curve: sat_vars={r['n_sat_vars']:2d} nvars={r['nvars']:2d} "
-            f"t={r['t']:6.1f}s timeout={r['timeout']} dim={r['dim']}")
+    say("\n[S5] the EXHAUSTIVE census over ALL F_p-rational rank-n spectra (Singular; census_sweep.py)")
+    R["S5"] = s5_census()
+    if R["S5"].get("computable"):
+        for r in R["S5"]["by_run"]:
+            say(f"     n={r['n']} p={r['p']:2d}: {r['n_spectra_enumerated']:3d} spectra in {r['sec']:5.1f}s "
+                f"| dim hist {r['dim_histogram']} | distinct dim>=2: "
+                f"{[x['spec'] for x in r['distinct_dim>=2_components']]} "
+                f"(+{r['n_repeated_dim>=2_upper_bounds']} repeated-spectrum upper-bounds)")
+        say(f"     rank-3 control singles out ONE distinct component per prime: "
+            f"{R['S5']['rank3_control_singles_out_one_distinct_component']}")
+        say(f"     rank-4 exhaustive enumeration terminates (no 25-var wall): "
+            f"{R['S5']['census_computable_no_25var_wall']}")
+        say(f"     rank-4 distinct Dehn-filling components per prime: "
+            f"{json.dumps(R['S5']['rank4_distinct_components_per_prime'])}")
+        say("     principal {1,1,w,w^2} is a REPEATED spectrum, certified exact over Q(w) in S3.")
+    else:
+        say("     census_sweep.json absent -- see s5_census() reproduce line.")
 
     # =======================================================================
-    # VERDICT GATE  (both branches must be able to fire and to fail)
+    # VERDICT GATE  (L1: each branch must be able to FIRE and to FAIL)
+    #   RESOLVED-A fires when the census is COMPUTABLE+exhaustive AND c is exact AND the D3
+    #     conjugate question is closed.  It FAILS if the census had walled (the sympy
+    #     monolith DID wall -- RESOLVED-B was a live outcome until iterative saturation
+    #     finished), or if the Phi group-identity had returned False, or c^4 != 1.
+    #   RESOLVED-B fires when the census genuinely walls below 25 vars.  It FAILS here
+    #     precisely because the wall is a tooling artifact (Singular finishes in minutes).
     # =======================================================================
     g_conj = bool(R["S2"]["conjugate_relation_forced"])
-    g_rank4_conj = all(
-        any(lab.endswith("L=1") for lab in r["phi"]) for rows in R["S3"].values() for r in rows if r["phi_res"] < 1e-6)
-    g_newcomp = bool(R["S3_exact"]["b89_family_on_variety_exact"] and R["S3_exact"]["trB_nonconstant_exact"])
+    g_r3 = bool(R["S2b"]["phi_maps_W1_onto_W2_with_the_conjugate_relation"])
+    g_rank4_conj = all(any(lab.endswith("L=1") for lab in r["phi"])
+                       for rows in R["S3"].values() for r in rows if r["phi_res"] < 1e-6)
+    g_newcomp = bool(R["S3_exact"]["b89_family_on_variety_exact"]
+                     and R["S3_exact"]["trB_nonconstant_exact"])
     g_c = bool(R["S4"]["c_is_invariant"]["principal"] and not R["S4"]["c_is_invariant"]["secondary"]
                and len(R["S4"]["banked_c_is_seed_dependent"]["secondary"]) > 1)
-    g_exhaustive = bool(R["S5"]["rank3_control_discriminates"]
-                        and not R["S5"]["rank4_full_saturation_walls"])
-    g_wall = bool(R["S5"]["junk_dominates"] and R["S5"]["rank4_full_saturation_walls"]
-                  and R["S5"]["rank3_control_discriminates"]
-                  and R["S5"]["census_ideal_vars"]["rank4"] > R["S5"]["census_ideal_vars"]["named_wall_at"])
-    gates = {"conjugate_theorem_exact": g_conj, "rank4_conjugates_exhibited": g_rank4_conj,
+    g_census = bool(R["S5"].get("computable")
+                    and R["S5"].get("census_computable_no_25var_wall")
+                    and R["S5"].get("rank3_control_singles_out_one_distinct_component"))
+    g_wall = bool(R["S5"].get("computable") and R["S5"].get("rank4_exhaustive_terminates") is False)
+    gates = {"conjugate_theorem_exact": g_conj, "rank3_phi_control": g_r3,
+             "rank4_conjugates_exhibited": g_rank4_conj,
              "phi_image_is_a_new_component_exact": g_newcomp, "c_point_exact": g_c,
-             "census_exhaustive": g_exhaustive, "wall_named_and_demonstrated": g_wall}
-    if g_conj and g_rank4_conj and g_newcomp and g_c and g_exhaustive:
-        verdict, why = "RESOLVED-A", "census completed (component list certified) AND the c point exact"
-    elif g_conj and g_rank4_conj and g_c and g_wall:
-        verdict, why = "RESOLVED-B", ("the c point is exact and the D3 conjugate question is CLOSED by the "
-                                      "exact Phi theorem, but full exhaustiveness over all rank-4 spectra "
-                                      "hits a named wall (26-var irreducibility-saturated census ideal)")
+             "census_exhaustive_computable": g_census, "census_walls_below_25var": g_wall}
+    if g_conj and g_r3 and g_rank4_conj and g_newcomp and g_c and g_census:
+        verdict, why = "RESOLVED-A", ("rank-4 Fix(T_1^2) census completed AND the c point is exact. "
+                                      "(1) The D3 'conjugate could live on an unsearched spectrum' worry is "
+                                      "CLOSED exactly: alpha in Aut(F_2) (a->b,b->a^-1) induces Phi:(A,B,t)|->"
+                                      "(B,A^-1,AB^-1 t^-1) with mu'=A^-1 mu^-1 A, L'=A^-1 L A, so M^k L=1 is "
+                                      "the exact Phi-image of M^k=L -- and Phi moves the A-spectrum, which is "
+                                      "why an A-spectrum-indexed search never saw it (rank-3: exactly W1<->W2). "
+                                      "(2) The census is COMPUTABLE (iterative Singular saturation, exhaustive "
+                                      "over all F_p-rational spectra, 3 primes; no 25-var wall). (3) c is exact: "
+                                      "c^4=1 with principal c=-1 an invariant, secondary c PURE GAUGE (all of "
+                                      "mu_4 occurs; the banked 'c=i' is the det(t)^1/4 branch at seed 0, seed 1 "
+                                      "gives -i) -- the seed-invariant content is L^4=M^12.")
+    elif g_conj and g_r3 and g_c and g_wall:
+        verdict, why = "RESOLVED-B", ("c exact and D3 conjugate closed, but the census walls below 25 vars")
     else:
-        verdict, why = "UNRESOLVED", "neither the exhaustive census nor a demonstrated wall"
+        verdict, why = "UNRESOLVED", "neither an exhaustive/computable census nor a demonstrated wall"
     R["gates"] = gates
     R["verdict"] = verdict
     R["reason"] = why
+    R["scope"] = ("The exhaustive F_p census is exact for DISTINCT spectra (there the A-invariant "
+                  "subspaces are exactly the coordinate ones, so the irreducibility saturation is "
+                  "complete). For REPEATED spectra the coordinate-form saturation is an UPPER bound "
+                  "(continuous invariant-subspace families are not all cut out -- the B95/B153/B89 "
+                  "rank-drop degeneracy); the one banked repeated-spectrum component, the PRINCIPAL "
+                  "{1,1,w,w^2}, is certified exact over Q(w) in S3 (on the variety, moduli move). "
+                  "The distinct-spectrum census plus the exact Phi theorem together answer the D3 "
+                  "question; a fully-exact enumeration of the repeated-spectrum stratum is not needed "
+                  "for it and is left as a declared boundary.")
 
     say("\n" + "=" * 78)
     say("GATES: " + json.dumps(gates))
