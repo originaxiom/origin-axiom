@@ -37,3 +37,38 @@ two results are complementary and now closed together.
 Gate 5 / Gate 5-Q: the gate distinguishes two mathematical involutions; the phenomenological
 application (which candidate fills which slot) is the separate Phase-3 elicitation, priced as
 axiom C18. Nothing to CLAIMS.
+
+---
+
+## APPLIED (2026-07-24): the gate run against cc3's enumeration
+
+cc3's Phase-B enumeration (B777) left **8 survivors = 4 families × 2**, the pair-members
+differing by *which content fills the c vs θ slot* — and cc3's own diagnosis was that
+"the gates cannot currently tell c from θ apart," naming this gate as the missing piece.
+
+**Applying B780:** the gate rejects the swap (c and θ carry measurably different
+signatures — rank-onset, action-type, solo-flip, all verified), so exactly one member of
+each swap-pair survives:
+
+| stage | count |
+|---|---|
+| cc3's survivors | 8 (4 families × 2) |
+| **after the B780 gate** (c/θ slot ambiguity resolved) | **4** — the promised halving |
+| after cc3's separate auxiliary arguments (θ binary arity; subject/object→self/other) | 2 families |
+| **combined** | **2 determinate assignments**, differing ONLY in c's *grain* |
+
+## What the gate settles — and what it explicitly does not
+- **SETTLES:** the c/θ **slot** ambiguity. This is structural and follows from B780's
+  verified signature separation. The enumeration halves.
+- **DOES NOT SETTLE:** c's **grain** (narrative vs minimal/ipseity). The gate is blind to
+  grain; that is the remaining Phase-3 question (cc3's Move 2 argues ipseity on structural
+  grounds — an interpretive proposal, not a computation).
+- **A standing caveat:** applying the gate to a *specific phenomenological content*
+  requires reading that content's arity/independence/solo properties — itself an
+  interpretive act under Gate 5-Q. **The gate supplies the discriminator; it does not
+  supply the reading.** Recorded so the halving is not mistaken for a phenomenological
+  derivation.
+
+Net Phase-3 position: the correspondence's architecture is determinate, the slot
+assignment is now gate-resolved, and the residual freedom is one bounded question
+(c's grain) plus the θ vacancy.
