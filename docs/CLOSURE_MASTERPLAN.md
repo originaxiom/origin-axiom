@@ -113,7 +113,7 @@ The program's signature move made systematic — proving *why* doors stay shut:
 | item | state | gate |
 |---|---|---|
 | cc3's V4-genericity | ✅ DELIVERED + cc-VERIFIED (B777) | V4 NOT generic — amphicheirality-gated; #1 falsifier defused; m003 sister-distinction → Phase 3 |
-| B778's 2 pending cells (CL-W4115, CL-LATIN) | next pass | R30-1 |
+| B778's 2 pending cells | ✅ DONE (2026-07-24, direct compute) | CL-W4115 wall hardens on field-disjointness (fabrication stripped); CL-LATIN downgrade confirmed (amplitudes not Galois-closed, the |.| non-Galois step = the mirror's) |
 | The GSWZ question (Habiro all-order theorem) | WELL-POSED, unsent | ⛔ owner-gated send; the draft stays internal |
 | The 5 NEEDS-SPECIALIST leads | EXTERNAL register | Phase-5 dossier |
 | R29-1 specialist pass / R29-2 L95 | carried | owner-gated |

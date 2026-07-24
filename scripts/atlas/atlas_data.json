@@ -16200,7 +16200,12 @@
     "figure_eight",
     "metallic",
     "golden",
-    "torsion"
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall",
+    "five_web"
    ],
    "refs": [
     "B774",

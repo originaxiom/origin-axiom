@@ -1,0 +1,227 @@
+{
+  "J_group": [
+    "1",
+    "351p",
+    "351pb"
+  ],
+  "J_order3": true,
+  "J_orbits": [
+    [
+      "1",
+      "351p",
+      "351pb"
+    ],
+    [
+      "27",
+      "650",
+      "27b"
+    ],
+    [
+      "78",
+      "351",
+      "351b"
+    ]
+  ],
+  "pair_rep_orbits": {
+    "27": 1,
+    "351p": 0,
+    "351": 2
+  },
+  "identity_orbit": 0,
+  "current_rep_is_351p_in_identity_orbit": true,
+  "orbit_absS_over_S00": [
+    [
+      1.8019377358048383,
+      2.246979603717467,
+      1.0
+    ],
+    [
+      2.246979603717467,
+      1.0,
+      1.8019377358048383
+    ],
+    [
+      1.0,
+      1.8019377358048383,
+      2.246979603717467
+    ]
+  ],
+  "qd_pair_27_351p_351": [
+    2.246979603717467,
+    1.0,
+    1.8019377358048383
+  ],
+  "qd_value_set": [
+    1.0,
+    1.8019377358048383,
+    2.246979603717467
+  ],
+  "noncurrent_block_measured": {
+    "N00_27_27": 1.8019377358048383,
+    "N02_27_351": 1.0,
+    "N22_351_351": 2.246979603717467
+  },
+  "block_entries_in_qd_set": true,
+  "full_orbitS_is_latin": true,
+  "current_row_pred_qdvec": [
+    2.246979603717467,
+    1.0,
+    1.8019377358048383
+  ],
+  "current_row_meas": [
+    2.246979603717467,
+    1.0,
+    1.8019377358048383
+  ],
+  "current_row_dev": 3.111507638930571e-61,
+  "current_row_FORCED_by_simple_current": true,
+  "B_row_sqsums": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "B_col_sqsums": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "B_magsq_doubly_stochastic": true,
+  "current_Bsq_row": [
+    0.5431339622578341,
+    0.10757434232607613,
+    0.34929169541608984
+  ],
+  "family_equations": "p = 1-m0-q ; s = 1-m2-q ; q free (2 eqns, 3 unknowns)",
+  "family_free_parameter": 1,
+  "q_latin_measured": 0.10757434232607613,
+  "explicit_nonlatin_solution": {
+    "q_N02sq": 0.3,
+    "p_N00sq": 0.15686603774216595,
+    "s_N22sq": 0.35070830458391017,
+    "row0_sqsum": 1.0,
+    "row2_sqsum": 1.0,
+    "sqrt_entries": [
+      1.20756387853626,
+      1.669960802825004,
+      1.8055880639144615
+    ]
+  },
+  "block_NOT_forced_by_sym_unitarity_current": true,
+  "simple_current_group": [
+    "1",
+    "351p",
+    "351pb"
+  ],
+  "T1_current_images_of_block_reps": [
+    {
+      "J^k": "1",
+      "rep": "27",
+      "image": "27"
+    },
+    {
+      "J^k": "1",
+      "rep": "351",
+      "image": "351"
+    },
+    {
+      "J^k": "351p",
+      "rep": "27",
+      "image": "650"
+    },
+    {
+      "J^k": "351p",
+      "rep": "351",
+      "image": "351b"
+    },
+    {
+      "J^k": "351pb",
+      "rep": "27",
+      "image": "27b"
+    },
+    {
+      "J^k": "351pb",
+      "rep": "351",
+      "image": "78"
+    }
+  ],
+  "T1_current_crosses_block_orbits": false,
+  "T1_simple_current_forces_block": false,
+  "T1_current_links_27_to_351": false,
+  "T2_galois_generators_t": [
+    1,
+    5,
+    11,
+    13,
+    17,
+    19,
+    23,
+    25,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    55,
+    59,
+    61,
+    65,
+    67,
+    71,
+    73,
+    79,
+    83,
+    85,
+    89,
+    95,
+    97,
+    101,
+    103,
+    107,
+    109,
+    113,
+    115,
+    121,
+    125
+  ],
+  "T2_block_entries_are_nonreal": true,
+  "T2_galois_moves_a_block_modulus": true,
+  "T2_galois_perms_on_pairs": [
+    [
+      4,
+      8,
+      5
+    ],
+    [
+      5,
+      4,
+      8
+    ],
+    [
+      8,
+      5,
+      4
+    ]
+  ],
+  "T2_galois_forces_block": false,
+  "T3_fusion_is_output_of_same_S": true,
+  "T3_block_value_qd351_for_27_27": 1.8019377358048383,
+  "T3_matches_qd351": true,
+  "T3_block_value_qd27_for_351_351": 2.246979603717467,
+  "T3_matches_qd27": true,
+  "T3_block_offdiag_27_351": 1.0,
+  "T3_offdiag_is_one": true,
+  "T3_block_is_exact_but_unexplained_measurement": true,
+  "T4_B_is_genuine_unitary": true,
+  "T4_block_phases_not_current_forced": true,
+  "T4_unitarity_removes_family": false,
+  "block_forced_by_any_structural_candidate": false,
+  "block_forcing_candidates": {
+    "T1_simple_current": false,
+    "T2_galois": false,
+    "T4_unitarity_phases": false
+  },
+  "verdict": "RESOLVED-B",
+  "headline": "The non-current 2x2 block 3-valuedness is genuinely MEASURED, not forced. Only the CURRENT row (351'=J, identity orbit O0) is forced -- |S_{351',mu}|=|S_{0,mu}|=S00*qd(mu) (dev 3.1e-61). The block on {27(O1),351(O2)} is untouched by any current relation (the Z/3 current group never links O1<->O2 or to O0; T1), is not pinned by Galois (block entries are non-real, arg = odd*pi/3, and |.| is not Galois-equivariant; T2 moves a block modulus), and symmetry+doubly-stochastic-unitarity+the forced current row leave a 1-PARAMETER family with an explicit valid NON-Latin magnitude solution. The three block equalities |S_{27,27}|=S00*qd(351), |S_{351,351}|=S00*qd(27), |S_{27,351}|=S00 are the exact-but-unexplained B629 measurements, fed into H6 as a PREMISE. The honest B775 W2 downgrade STANDS: exact + current-row-explained, NOT fully forced."
+}
