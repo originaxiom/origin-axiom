@@ -1,0 +1,36 @@
+B778 CL-DARKHYP  —  N=p^2 dark-hyperbola law: all-p symbolic proof (re-run)
+========================================================================
+
+[symbolic] completed-square identities (ring Z[j,l], exact):
+   [OK] d1 == j/2
+   [OK] cross_term == 0
+   [OK] d2 == -(jl+4)/(2j)
+   [OK] e1 == -j/2
+   [OK] e2 == (l+2)/2
+   [OK] detM == -(jl+4)/4
+   [OK] l=-2 & jl=-4 => j=2
+   => proof identities hold: True
+
+[R0] operator trace == group-ring formula (construction sanity):
+   p=3 N=9: max|T_op - T_formula| = 3.95e-14  ok=True
+
+[R1] EXACT spectrum + counts (group-ring, ZERO floats) p=3,5,7:
+   p=3 N=9: {'0': 11, '1': 63, 'sqrt(p)': 6, 'p': 1}  formula=True  off-catalog=NONE  peak=[(2, 7)]
+   p=5 N=25: {'0': 79, '1': 525, 'sqrt(p)': 20, 'p': 1}  formula=True  off-catalog=NONE  peak=[(2, 23)]
+   p=7 N=49: {'0': 251, '1': 2107, 'sqrt(p)': 42, 'p': 1}  formula=True  off-catalog=NONE  peak=[(2, 47)]
+
+[R2] valuation classifier: counts (7 levels) + pointwise==R1 (p=3,5,7):
+   p= 3 N=  9: {'0': 11, '1': 63, 'sqrt(p)': 6, 'p': 1}  formula-match=True  pointwise==R1:True
+   p= 5 N= 25: {'0': 79, '1': 525, 'sqrt(p)': 20, 'p': 1}  formula-match=True  pointwise==R1:True
+   p= 7 N= 49: {'0': 251, '1': 2107, 'sqrt(p)': 42, 'p': 1}  formula-match=True  pointwise==R1:True
+   p=11 N=121: {'0': 1099, '1': 13431, 'sqrt(p)': 110, 'p': 1}  formula-match=True
+   p=13 N=169: {'0': 1871, '1': 26533, 'sqrt(p)': 156, 'p': 1}  formula-match=True
+   p=17 N=289: {'0': 4351, '1': 78897, 'sqrt(p)': 272, 'p': 1}  formula-match=True
+   p=19 N=361: {'0': 6155, '1': 123823, 'sqrt(p)': 342, 'p': 1}  formula-match=True
+
+========================================================================
+  proof_ok=True  R0_ok=True  R1_ok(p357)=True  R2_counts_ok(7lv)=True  R2_pointwise_ok(p357)=True
+  VERDICT : RESOLVED-A
+  TERMINAL: THEOREM (all-p symbolic proof)
+  HEADLINE: THEOREM: at N=p^2 the theta-lift Weil seam has magnitude spectrum exactly {0,1,sqrt(p),p}; v_p(jl+4) stratifies (Z/p^2)^2 into counts p^2(p^2-p+1)/p(p-1)/1/(p^3-2p^2+p-1). Proved all odd p by prime-power Gauss-sum diagonalisation; exact (zero floats) at 7 levels p=3..19.
+  DISC    : The PEAK |T|=p is the UNIQUE point (2,-2) mod p^2 where the form fully degenerates (jl==-4 mod p^2) AND the residual linear character vanishes (l==-2 mod p^2); every other hyperbola point is sqrt(p) (v=1, l==-2 mod p) or dark. Counts sqrt(p)=p(p-1), peak=1, dark=p^3-2p^2+p-1, bulk=p^2(p^2-p+1).

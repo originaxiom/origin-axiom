@@ -16194,6 +16194,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B778": {
+   "slug": "cleanup",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B774",
+    "H133"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B77": {
    "slug": "degree rank mechanism",
    "motifs": [

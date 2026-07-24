@@ -1,0 +1,120 @@
+{
+ "cell": "CL-H133",
+ "task": "chord-check H133: is Z4=Tr rho(A1)=0 genuine or an even/odd cancellation?",
+ "method": "in-cell independent recompute of E6 level-k Weil rep (c3/B570 builder); theta-odd chord = Tr(rho | theta-odd eigenspace), [theta,rho]=0 verified.",
+ "tol": 1e-09,
+ "ladder": [
+  {
+   "k": 1,
+   "N": 3,
+   "words_agree": 4.1311954527654145e-14,
+   "[theta,rho]": 4.725300138959203e-15,
+   "||S^2-theta||": 8.009107565048833e-15,
+   "dim_theta_odd": 1,
+   "Z": [
+    1.0,
+    -0.0
+   ],
+   "Z_theta": [
+    -1.0,
+    0.0
+   ],
+   "tr_even": [
+    -0.0,
+    0.0
+   ],
+   "tr_odd": [
+    1.0,
+    -0.0
+   ],
+   "identity_resid": 2.924223117228159e-17
+  },
+  {
+   "k": 2,
+   "N": 9,
+   "words_agree": 1.1078248887957265e-13,
+   "[theta,rho]": 2.8258187299605297e-14,
+   "||S^2-theta||": 3.1323220442583646e-14,
+   "dim_theta_odd": 3,
+   "Z": [
+    1.0,
+    -0.0
+   ],
+   "Z_theta": [
+    -1.0,
+    0.0
+   ],
+   "tr_even": [
+    0.0,
+    -0.0
+   ],
+   "tr_odd": [
+    1.0,
+    -0.0
+   ],
+   "identity_resid": 5.003707553108401e-17
+  },
+  {
+   "k": 3,
+   "N": 20,
+   "words_agree": 1.971527553753759e-13,
+   "[theta,rho]": 7.065595628968132e-14,
+   "||S^2-theta||": 5.565716571606756e-14,
+   "dim_theta_odd": 8,
+   "Z": [
+    1.0,
+    -0.0
+   ],
+   "Z_theta": [
+    1.0,
+    -0.0
+   ],
+   "tr_even": [
+    1.0,
+    -0.0
+   ],
+   "tr_odd": [
+    -0.0,
+    -0.0
+   ],
+   "identity_resid": 1.0103182026100663e-16
+  },
+  {
+   "k": 4,
+   "N": 42,
+   "words_agree": 3.478389548435941e-13,
+   "[theta,rho]": 1.064077913090682e-13,
+   "||S^2-theta||": 8.754112118563935e-14,
+   "dim_theta_odd": 17,
+   "Z": [
+    -0.0,
+    -0.0
+   ],
+   "Z_theta": [
+    -0.0,
+    -0.0
+   ],
+   "tr_even": [
+    -0.0,
+    -0.0
+   ],
+   "tr_odd": [
+    -0.0,
+    -0.0
+   ],
+   "identity_resid": 4.967681370964001e-17
+  }
+ ],
+ "level4": {
+  "Z4": -0.0,
+  "Z4_theta": -0.0,
+  "tr_even": -0.0,
+  "tr_odd_chord": -0.0,
+  "dim_theta_odd": 17,
+  "commutator_theta_rho": 1.064077913090682e-13,
+  "identity_residual": 4.967681370964001e-17
+ },
+ "chord_discipline_B774": "PASS -- tr_odd is Tr(rho restricted to the genuine theta=-1 eigenspace) of the non-abelian Weil-rep monodromy (rho commutes with theta exactly); the same object B773's verifier accepted as a real chord for W4-304, not an abelian relabel. Self-test note: it is a trace, but of the non-abelian rho on a genuine invariant subspace -- the accepted lineage.",
+ "verdict": "RESOLVED-B",
+ "reason": "Z4 = Tr rho(A1) = 0 is a GENUINE structural zero: BOTH parity sectors vanish independently (tr_odd = tr_even = 0), computed from SEPARATE traces Z and Z_theta -- NOT an even/odd cancellation. Unlike W4-304 (where only the parity-difference was banked and tr_odd=1/4 was hidden), here Z=0 AND Z_theta=0, forcing tr_odd=(Z-Z_theta)/2=0. The theta-odd chord is empty; H133's death HARDENS at the chord level."
+}

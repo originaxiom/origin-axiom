@@ -1,0 +1,24 @@
+{
+  "cell": "CL-W3082",
+  "D": -8899,
+  "h": 14,
+  "ord2_h": 1,
+  "two_rank": 1,
+  "four_rank": 0,
+  "sylow2_Cl_minus8899": "Z/2",
+  "pari_h": "14",
+  "pari_cyc": "[14]",
+  "pari_h_agrees": true,
+  "linked_pair_11_809": true,
+  "trace_negative_lifts_to_loaded_wall": false,
+  "kim_H3_bridge_computed": false,
+  "loaded_positive_established": false,
+  "external_boundary_confirmed": true,
+  "bridge_source_flags": [
+    "B708_kim_seam/FINDINGS.md:L55-56 (arithmetic-CS ACTION NEEDS-SPECIALIST)",
+    "docs/LAW_MAP.md:L101 (full arithmetic-CS ACTION, Kim's bar)"
+  ],
+  "chord_self_test": "2-Sylow rank is an ABELIAN invariant; no non-abelian chord content on its own -> only the un-built H^3 bridge would load it (fails B774 chord test as a standalone).",
+  "verdict": "RESOLVED-B",
+  "reason": "EXTERNAL boundary CONFIRMED: the trace-negative does NOT lift to a loaded wall (the LINKED (11,809) pair has nonzero H^2 cup, so the loaded triple-Massey invariant is undefined there), and the loaded positive is NOT established (its RESOLVED-A rests on identifying the class-group 8-rank with Kim's H^3 arithmetic-CS ACTION, which is self-flagged NEEDS-SPECIALIST / uncomputed in B708 and LAW_MAP). The honest, fully-supported reframe is the in-cell EXACT class-group fact Sylow_2(Cl(-8899))=Z/2 (h=14=2*7, 2-rank=1 genus, 4-rank=0 Redei; unconditional form enumeration, PARI-corroborated). B773 W3-082c is honest EXTERNAL (Kim bridge NEEDS-SPECIALIST)."
+}

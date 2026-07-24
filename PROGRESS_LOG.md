@@ -7838,3 +7838,15 @@ provenance flag (OI-055 was cited-by-title; now it is reconstructed-in-cell on-t
 to depth 100). The order-100 anchor is completing via the cell's MM=105 re-run (bg
 bctrbodsk). The GSWZ question is now maximally well-posed; the SEND stays owner-gated.
 Next: MM=105 anchor closes → then the B778 cleanup wave (fix everything).
+
+## 2026-07-24 — session restart integrity + B778 cleanup (partial 5/7) banked
+Session restarted mid-cleanup-wave. INTEGRITY VERIFIED: git clean, all three remotes
+synced at d4489c84, no uncommitted work, no stray branches, no lost banked arcs. The
+B778 cleanup wave had completed 5 of 7 cells before the pass ended; the 5 are banked
+(2 agent-verified in-run, 3 self-verified by cc via deterministic re-run + hand-check).
+Results: the dark-hyperbola law is now a THEOREM (all-p, spectrum {0,1,√p,p}); W3-082c
+confirmed EXTERNAL (class-group fact in-cell); cc3's H133 chord-suspect HARDENS (genuine
+zero, not a W4-304 cancellation — so the blind-projection problem stays W4-304-isolated);
+the two cosmetic strips done. Pending next pass: CL-W4115 (fabrication strip) and
+CL-LATIN (non-current block) — never started. cc3's V4-genericity computation has not
+yet delivered (independent clone). The monitor is being re-armed.
