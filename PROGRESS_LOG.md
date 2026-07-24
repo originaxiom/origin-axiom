@@ -7723,3 +7723,17 @@ citation → E4 + label downgrade; W4-139 mislabeled). E26 minted (blind-project
 negative). B773 launches the chord-level re-computation of the four trace-blind
 negatives: if they stay empty the walls harden; if any lights up, the trace
 projection was hiding structure.
+
+## 2026-07-23 — B771 Wave 4 banked: 10 verdicts, 3 carries; the mechanical pool drained
+Wave 4 (interrupted mid-run, resumed clean from cache) banked 10 of 13. Highlights:
+the σ₄ border forced at collar depth 1 (the K-theory gate wave 3 skipped, now
+certified); BSD 15a1 rank 0 (PARI hand-confirmed); the gap-slope ratio shown
+protocol-dependent with √(1/φ²+1) refuted both ways; three Gate-5-Q firewall
+negatives held (2O/E7 killed, F₄ no-canonical-selection, H121 dissolves). W4-115 and
+W4-304 banked as trace-level negatives and handed straight to B773's chord re-test —
+their durable status awaits that. Carries: W4-017r corrected W3-017's false-empty
+class 10 (degree-4 quartic, genuine) but carries a fabricated scope-comment; W4-139's
+m=3 eliminant computes without walling but leaves genus≥1 unproven (EXTERNAL); W4-194's
+firewall negative stands on B1 with one vacuous sub-check. This drains the main
+mechanical pool; remaining Phase-1 = the 3 carries + a few pool rows + the
+event-driven set (B500, sentinels), then the Phase-1 wrap checkpoint.

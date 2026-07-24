@@ -1,0 +1,59 @@
+========================================================================================
+STEP 0 -- the chord vs squared contrast on the KNOWN single seeds (positive controls)
+========================================================================================
+golden(m=1) chord tr(a) = (-1.0 - 1.73205080756887729352745j)
+   minpoly = x**2 + 2*x + 4   deg=2   disc=-12
+  [PASS] golden chord trace generates Q(sqrt-3) (deg-2, disc -12) -- the coherent seed, chord == invariant
+
+silver(m=2) chord tr(a)   = (1.55377397403003730734416 - 0.643594252905582624735443j)   minpoly = x**4 - 4*x**2 + 8 (deg 4)
+silver(m=2) SQUARED tr(a^2)= (1.94748773772575792676878e-64 - 2.0j)   minpoly = x**2 + 4 (deg 2)
+  [PASS] silver CHORD tr(a) is degree-4 order-8 x^4-4x^2+8 = sqrt(2+-2i) (carries the exp(m*pi*i/4) T-phase)
+  [PASS] silver SQUARED tr(a^2) collapses to degree 2 (Q(i)) -- squaring HALVES the order, hides the framing
+  [PASS] => chord level is STRICTLY richer than the squared projection (deg 4 vs 2): B772 blindness confirmed real
+
+quantum single-seed fields (k=4):  golden RL -> Q(sqrt-3) (orders [6, 6, 6, 2, 2]);  silver RRLL -> Q(zeta12) (orders [6, 4, 4, 2, 2])
+   note: silver chord field (non-cyclotomic Q(sqrt(2+2i))) != silver quantum field Q(zeta12) --
+   chord and quantum are DIFFERENT objects even for a single seed; only golden's Q(sqrt-3) coincides.
+
+========================================================================================
+STEP 1 -- QUANTUM comparator on the composite words (the matched, framing-carrying level)
+========================================================================================
+   seq=(1, 2) word=RLRRLL       k=4:  eigenvalue-orders [6, 6, 4, 4, 2] -> Q(zeta12)
+   seq=(2, 1) word=RRLLRL       k=4:  eigenvalue-orders [6, 6, 4, 4, 2] -> Q(zeta12)
+   seq=(1, 1, 2, 2) word=RLRLRRLLRRLL k=4:  eigenvalue-orders [4, 4, 3, 3, 1] -> Q(zeta12)
+   seq=(1, 2, 1) word=RLRRLLRL     k=4:  eigenvalue-orders [3, 3, 3, 1, 1] -> Q(sqrt-3)
+   seq=(2, 1, 2) word=RRLLRLRRLL   k=4:  eigenvalue-orders [6, 6, 3, 2, 1] -> Q(sqrt-3)
+   the quantum eigenvalue field is CYCLOTOMIC at every level (monodromy eigenvalues are roots of unity).
+  [PASS] MATCHED COMPARATOR: the 2-block words fuse to the cyclotomic Q(zeta12) on the quantum side
+
+========================================================================================
+STEP 2 -- THE DISCRIMINATING FACT: exact chord trace field of the 2-block composite (s892)
+========================================================================================
+2-block composite = b++RLRRLL(0,0)  vol=5.62537824957  identify()=['s892(0,0)']
+chord twist-curve trace tr(a) = (1.563941393575543710944727730109180904811 - 0.5896276668420508331767639505581696013644j)
+EXACT minimal polynomial over Q (residual 1.107e-60, agreed across 3 mixers):
+   m(x) = x**14 - 2*x**13 - 3*x**12 + 6*x**11 + 6*x**10 - 4*x**9 - 11*x**8 - 10*x**7 + 14*x**6 + 32*x**5 - 26*x**4 - 36*x**3 + 52*x**2 - 21*x + 3
+   degree = 14   irreducible over Q = True
+  [PASS] CONDITIONING: the identical minimal polynomial is recovered at an independent 2nd precision (60 dps)
+
+EXACT symbolic certification:
+   irreducible over Q ........................ True
+   some cyclotomic field has this degree? .... False  (is phi(n)=14 solvable?)
+   not-in-Q(zeta12) certificate .............. {'[Q(zeta12):Q]': 4, 'Phi_12': 'x**4 - x**2 + 1', 'deg(minpoly)': 14, 'deg_divides_4': False, 'gcd(minpoly,Phi12)_is_constant': True}
+  [PASS] EXACT: chord trace field is NON-CYCLOTOMIC (no Q(zeta_n) has degree 14) -- phi(n)=14 has no solution
+  [PASS] EXACT: chord trace tr(a) is NOT in Q(zeta12) (degree 14 does not divide [Q(zeta12):Q]=4; gcd(m, Phi_12)=1) -- the chord field cannot be the quantum fusion field
+
+========================================================================================
+STEP 3 -- fusion verdict at the CHORD level
+========================================================================================
+  [PASS] chord field is not even the compositum of the two seed chord fields (deg 14 does not divide 8) -- composition yields a NEW generic field, the opposite of collapse-to-a-shared-fusion-field
+
+========================================================================================
+VERDICT
+========================================================================================
+VERDICT: RESOLVED-B
+REASON: the 2-block composite's chord trace field is an EXACT irreducible degree-14 NON-cyclotomic field (phi(n)=14 has no solution; 14 does not divide [Q(zeta12):Q]=4; gcd with Phi_12 is 1), so it is neither Q(zeta12) nor the seed compositum -- chord-level fusion is ABSENT and the K016 wall HARDENS at the matched (un-squared, framing-carrying) level. Un-squaring makes the classical field MORE generic, not cyclotomic: the mod-4 fusion is a QUANTUM-only phenomenon
+
+ALL CHECKS PASS
+
+wrote results.json
