@@ -1,0 +1,58 @@
+==========================================================================
+CL-W3082  --  confirm W3-082c EXTERNAL boundary (Kim H^3 = NEEDS-SPECIALIST)
+==========================================================================
+
+The (11,809) charge-pair point:  D = (-11)*(809) = -8899
+  fundamental discriminant? True   (D mod 4 = 1, squarefree -11*809)
+  prime divisors: 11 (=3 mod 4), 809 (=1 mod 4)
+
+--------------------------------------------------------------------------
+STEP A -- EXACT unconditional class number via reduced forms (no GRH)
+--------------------------------------------------------------------------
+  h(-8899) = #{reduced primitive forms} = 14  (unconditional, no GRH)
+  14 = 2 * 7  =>  the 2-part of the class group has order 2.
+
+--------------------------------------------------------------------------
+STEP B -- EXACT 2-rank (genus) and 4-rank (Redei-Reichardt)
+--------------------------------------------------------------------------
+  2-rank (Gauss genus, = #primes - 1) = 1
+  Redei matrix over F_2 = [[1, 1], [1, 1]]
+  4-rank (Redei-Reichardt) = 0
+  ord_2(h) = 1  (odd part = 7)
+
+  => Sylow_2(Cl(-8899)) = Z/2
+     (2-rank 1 => cyclic; 4-rank 0 => order exactly 2; ord_2(h)=1 consistent)
+
+--------------------------------------------------------------------------
+STEP C -- independent cross-check (PARI/gp quadclassunit)
+--------------------------------------------------------------------------
+  PARI quadclassunit(-8899): h=14  cyc=[14]
+  PARI h agrees with form-enumeration: True
+
+==========================================================================
+STEP D -- CONFIRM the EXTERNAL boundary (the three findings)
+==========================================================================
+  [1] trace-negative -> loaded wall?  NO.
+      (11,809) are LINKED (lk=1) => nonzero pairwise cup in H^2 =>
+      the loaded triple-Massey invariant is OBSTRUCTED/undefined at the
+      pair. The 4-rank=0 trace fact has no loaded lift to elevate.
+  [2] loaded positive established?   NO.
+      W3-082c's RESOLVED-A identifies the class-group 8-rank with Kim's
+      H^3 arithmetic-CS ACTION. That ACTION is self-flagged
+      NEEDS-SPECIALIST in B708/FINDINGS.md (L55-56) and LAW_MAP (L101):
+      the bridge is UNCOMPUTED. B774 chord self-test: the 2-Sylow rank is
+      an ABELIAN invariant (no non-abelian chord content on its own);
+      only the un-built H^3 bridge would load it. Positive not established.
+  [3] reframe to the fully-supported fact:
+      Sylow_2(Cl(-8899)) = Z/2   -- computed in-cell, exact,
+      unconditional (form enumeration + genus/Redei), PARI-corroborated.
+
+==========================================================================
+VERDICT (logic in-code)
+==========================================================================
+  EXTERNAL boundary confirmed         : True
+  Sylow_2(Cl(-8899)) = Z/2 in-cell    : True
+  Kim H^3 bridge attempted            : False (per task: do NOT attempt)
+
+  VERDICT: RESOLVED-B
+  REASON : EXTERNAL boundary CONFIRMED: the trace-negative does NOT lift to a loaded wall (the LINKED (11,809) pair has nonzero H^2 cup, so the loaded triple-Massey invariant is undefined there), and the loaded positive is NOT established (its RESOLVED-A rests on identifying the class-group 8-rank with Kim's H^3 arithmetic-CS ACTION, which is self-flagged NEEDS-SPECIALIST / uncomputed in B708 and LAW_MAP). The honest, fully-supported reframe is the in-cell EXACT class-group fact Sylow_2(Cl(-8899))=Z/2 (h=14=2*7, 2-rank=1 genus, 4-rank=0 Redei; unconditional form enumeration, PARI-corroborated). B773 W3-082c is honest EXTERNAL (Kim bridge NEEDS-SPECIALIST).

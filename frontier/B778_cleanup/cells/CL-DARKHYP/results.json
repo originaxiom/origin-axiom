@@ -1,0 +1,117 @@
+{
+ "cell": "CL-DARKHYP",
+ "campaign": "B778 cleanup",
+ "reruns": "B775 P2W2-DARKHYP (dropped on output cap)",
+ "construction": "theta-lift Weil seam (B534 convention), level N=p^2",
+ "verdict": "RESOLVED-A",
+ "terminal_state": "THEOREM (all-p symbolic proof)",
+ "headline": "THEOREM: at N=p^2 the theta-lift Weil seam has magnitude spectrum exactly {0,1,sqrt(p),p}; v_p(jl+4) stratifies (Z/p^2)^2 into counts p^2(p^2-p+1)/p(p-1)/1/(p^3-2p^2+p-1). Proved all odd p by prime-power Gauss-sum diagonalisation; exact (zero floats) at 7 levels p=3..19.",
+ "discriminating_fact": "The PEAK |T|=p is the UNIQUE point (2,-2) mod p^2 where the form fully degenerates (jl==-4 mod p^2) AND the residual linear character vanishes (l==-2 mod p^2); every other hyperbola point is sqrt(p) (v=1, l==-2 mod p) or dark. Counts sqrt(p)=p(p-1), peak=1, dark=p^3-2p^2+p-1, bulk=p^2(p^2-p+1).",
+ "checks": {
+  "proof_identities": true,
+  "R0_operator": true,
+  "R1_exact_p357": true,
+  "R2_counts_7lv": true,
+  "R2_pointwise_p357": true
+ },
+ "spectrum": [
+  "0",
+  "1",
+  "sqrt(p)",
+  "p"
+ ],
+ "count_formulas": {
+  "|T|=1": "p^2(p^2-p+1)",
+  "|T|=sqrt(p)": "p(p-1)",
+  "|T|=p": "1",
+  "|T|=0": "p^3-2p^2+p-1",
+  "total": "p^4"
+ },
+ "peak_point": "(2,-2) mod p^2 (unique)",
+ "levels": [
+  {
+   "p": 3,
+   "N": 9,
+   "counts": {
+    "0": 11,
+    "1": 63,
+    "sqrt(p)": 6,
+    "p": 1
+   },
+   "formula_match": true
+  },
+  {
+   "p": 5,
+   "N": 25,
+   "counts": {
+    "0": 79,
+    "1": 525,
+    "sqrt(p)": 20,
+    "p": 1
+   },
+   "formula_match": true
+  },
+  {
+   "p": 7,
+   "N": 49,
+   "counts": {
+    "0": 251,
+    "1": 2107,
+    "sqrt(p)": 42,
+    "p": 1
+   },
+   "formula_match": true
+  },
+  {
+   "p": 11,
+   "N": 121,
+   "counts": {
+    "0": 1099,
+    "1": 13431,
+    "sqrt(p)": 110,
+    "p": 1
+   },
+   "formula_match": true
+  },
+  {
+   "p": 13,
+   "N": 169,
+   "counts": {
+    "0": 1871,
+    "1": 26533,
+    "sqrt(p)": 156,
+    "p": 1
+   },
+   "formula_match": true
+  },
+  {
+   "p": 17,
+   "N": 289,
+   "counts": {
+    "0": 4351,
+    "1": 78897,
+    "sqrt(p)": 272,
+    "p": 1
+   },
+   "formula_match": true
+  },
+  {
+   "p": 19,
+   "N": 361,
+   "counts": {
+    "0": 6155,
+    "1": 123823,
+    "sqrt(p)": 342,
+    "p": 1
+   },
+   "formula_match": true
+  }
+ ],
+ "gate_5Q": {
+  "structural_only": true,
+  "no_SM_values": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true,
+  "chord_discipline": "honest: T is a Weil-rep trace / Gauss sum, claimed as such, NOT relabeled as a non-abelian theta-odd chord (it is a symmetric trace invariant by construction)."
+ }
+}
