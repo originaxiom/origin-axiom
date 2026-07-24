@@ -1,0 +1,55 @@
+==============================================================================
+STEP 0 -- read the prior state (sanity echo, not authority)
+==============================================================================
+B87 FINDINGS.md exists: True
+m=1 spectral genus = 3 (B67, PROVED); m=2 = 1 (V33/V70, a MINIMUM). m=3: THIS CELL.
+
+==============================================================================
+STEP 1 -- fixed locus Fxz(x,z), the trace-relation curve, kappa(x,z)
+==============================================================================
+assert OK: pseq(3,x,y,z)[3] is degree 1 (linear) in y
+y(x,z) [from the linear equation, the 'missing 3rd fixed-point eqn'] = z*(x - 1)
+Fxz(x,z) [fixed locus, factored] = (x*z - z + 1)*(x**3*z**2 - 2*x**2*z**2 - x**2*z + x*z - x + z**2 + z)
+degree in z: 3
+R_S eliminant computed in 0.013s; main (degree-2-in-S) component isolated
+discriminant squarefree part (branch locus) = (x**2 - x - 1)*(5*x**2 - 5*x - 1)
+cross-check vs B69-banked disc3 = (x^2-x-1)(5x^2-5x-1): True
+base (trace-relation) curve C: squarefree quartic branch -> genus 1  (reconfirms B69/B87 2026-06-05; NOT new)
+
+==============================================================================
+STEP 2 -- the (M,L)-eliminant engine: Psq(x,z) = tr(t)^2 via exact null-space minors
+==============================================================================
+collected 10 numeric (x0,z0) seeds on the fixed locus from 4 x-values
+GOOD rows (2, 5, 6): reduced Psq(x,z) = num(deg 30) / den(deg 23)
+  x0=4.70 z0=-0.1743+0.0000j: monodromy_res=1.8e-11 trt^2(apoly_m3, independent)=93.413185 Psq(x,z)(this cell)=93.413185 match=True
+  x0=4.70 z0=-0.1743+0.0000j: monodromy_res=1.8e-11 trt^2(apoly_m3, independent)=93.413185 Psq(x,z)(this cell)=93.413185 match=True
+  x0=4.70 z0=0.4446+0.0000j: monodromy_res=1.1e-11 trt^2(apoly_m3, independent)=104.315854 Psq(x,z)(this cell)=104.315854 match=True
+  x0=5.30 z0=-0.1485+0.0000j: monodromy_res=4.4e-11 trt^2(apoly_m3, independent)=136.910220 Psq(x,z)(this cell)=136.910220 match=True
+  x0=5.30 z0=-0.1485+0.0000j: monodromy_res=4.4e-11 trt^2(apoly_m3, independent)=136.910220 Psq(x,z)(this cell)=136.910220 match=True
+  x0=5.30 z0=0.3810+0.0000j: monodromy_res=2.2e-11 trt^2(apoly_m3, independent)=149.081458 Psq(x,z)(this cell)=149.081458 match=True
+  x0=6.10 z0=0.3202+0.0000j: monodromy_res=9.6e-11 trt^2(apoly_m3, independent)=226.828454 Psq(x,z)(this cell)=226.828454 match=True
+  x0=3.70 z0=-0.2469+0.0000j: monodromy_res=1.7e-12 trt^2(apoly_m3, independent)=42.823210 Psq(x,z)(this cell)=42.823210 match=True
+  x0=3.70 z0=-0.2469+0.0000j: monodromy_res=1.7e-12 trt^2(apoly_m3, independent)=42.823210 Psq(x,z)(this cell)=42.823210 match=True
+  x0=3.70 z0=0.6173+0.0000j: monodromy_res=8.4e-13 trt^2(apoly_m3, independent)=51.716494 Psq(x,z)(this cell)=51.716494 match=True
+
+ALL 10 SEEDS MATCH the independent numeric code path (< 1e-3 abs, monodromy < 1e-6): True
+
+negative control rows (0, 1, 2): |Ptr|=2.2e-29 |Dettr|=8.4e-27 (identically degenerate on the curve, as expected) -> True
+
+==============================================================================
+STEP 3 -- the (S, Psq) eliminant (eliminating x, z) and A_3(M,L)
+==============================================================================
+R_P eliminant computed in 1.034s; main (degree-2-in-Psq) component isolated (degree in x = 12)
+resultant_x(main_S, main_P) computed in 4.521s -> the (S,Psq) eliminant, degree 12 in S, 10 in Psq
+
+A_3(M,L) obtained by direct substitution: degree 24 in L, 40 in M, irreducible=True
+(this IS the deliverable the 2026-07-09 FINDINGS.md addendum said needed Magma -- the CRT/minors eliminant engine built here reaches it in-sandbox)
+
+==============================================================================
+VERDICT
+==============================================================================
+VERDICT: UNRESOLVED
+HEADLINE: the (M,L)-eliminant SUCCEEDS exactly (A_3(M,L) computed in-sandbox, irreducible, degree 24 in L / 40 in M) -- refuting the 2026-06 'elimination too slow' framing -- but A_3 is NOT degree-2-in-L, so the m=1/m=2 hyperelliptic w^2=disc_L genus reader does not transfer; the genus number itself is not extracted
+DISCRIMINATING FACT: A_3(M,L) computed exactly (degree 24 in L, 40 in M, irreducible) is the in-cell discriminating fact for why the m=1/m=2 reader fails: that reader assumes degree-2-in-L (a literal hyperelliptic double cover of the M-line), which holds at m=1,2 but is DISPROVED here at m=3 by direct computation, not assumed. A rigorous LOWER BOUND is available: A_3(M,L) fibers over the genus-1 trace-relation base curve C via a degree-2 cover in L (branched at S=+-2) composed with a degree-4 cover in M (branched at Psq in {0,4,infinity}); by Riemann-Hurwitz for any degree-d>=1 cover of a genus-1 curve, genus(A_3) >= 1. Completing the exact value needs the fiber-product ramification (monodromy of the two branch loci on C, whether they coincide) -- a well-posed but NOT-completed-here computation (the residual this cell leaves; NOT the 'too-slow' wall).
+
+[results.json written; total runtime 57.2s]

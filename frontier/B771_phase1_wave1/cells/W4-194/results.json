@@ -1,0 +1,159 @@
+{
+  "partA_screening": {
+    "n_curves": 32,
+    "n_pfits": 31,
+    "positivity_fraction": 0.48697916666666663,
+    "monotone_fraction": 0.6392045454545454,
+    "p_mean": 2.0250002742409543,
+    "p_std": 1.4526870581795843,
+    "p_cv": 0.7173762278743916,
+    "p_min": -0.3145845408022737,
+    "p_max": 5.974282266952165,
+    "A1_positivity": false,
+    "A2_monotone": false,
+    "A3_universal_law": false,
+    "screening_qualitative": false,
+    "screening_specific_law": false,
+    "calib_free_hyperbolic": 0.6932802651759441,
+    "calib_free_critical": 0.0
+  },
+  "partB_confinement": {
+    "eta_by_n": {
+      "2": 0.4999060704157306,
+      "3": 0.2291223302813507,
+      "5": 0.08025943148297919,
+      "7": 0.040863092989274416,
+      "11": 0.016536052968046538,
+      "13": 0.011838240975381343,
+      "17": 0.006922063443030151
+    },
+    "R2_loglog_by_n": {
+      "2": 0.9999999880068822,
+      "3": 0.9999680938400006,
+      "5": 0.9999987684110752,
+      "7": 0.9999997819772578,
+      "11": 0.9999999589977736,
+      "13": 0.9999999738287083,
+      "17": 0.9999999849943402
+    },
+    "R2_exp_by_n": {
+      "2": 0.936249787047407,
+      "3": 0.9335266651309126,
+      "5": 0.93569818972813,
+      "7": 0.9359942468177552,
+      "11": 0.9361140979939403,
+      "13": 0.936132385216673,
+      "17": 0.9361499722002475
+    },
+    "a_eff_drift_n11": [
+      -0.0008309913877367868,
+      -0.00010596869163329373
+    ],
+    "smooth_law_k": 2.0098030744528743,
+    "smooth_law_R2": 0.999797499141775,
+    "n11_residual_sigma": 0.031241553473948372,
+    "open_closed_diff_windows": {
+      "12-40": [
+        -0.0007100499408313684,
+        -0.0007100499408313731,
+        -4.7704895589362195e-18
+      ],
+      "40-90": [
+        -0.0002667730083688404,
+        -0.00026677300836883843,
+        1.951563910473908e-18
+      ],
+      "90-160": [
+        -0.0001355094268655708,
+        -0.00013550942686556974,
+        1.0570971181733668e-18
+      ]
+    },
+    "diff_by_n": {
+      "2": 0.0,
+      "3": -5.204170427930421e-18,
+      "5": 0.0,
+      "7": -6.505213034913027e-19,
+      "11": -5.421010862427522e-20,
+      "13": -1.2739375526704677e-18,
+      "17": 2.1277467635028025e-18
+    },
+    "B1_algebraic": true,
+    "B2_not_special": true,
+    "B3_artifact": true,
+    "confinement_holds": false
+  },
+  "verdict": "RESOLVED-B",
+  "headline": "H121 dissolves: the SCREENING power-law exponent is not a stable universal ~0.9 (it varies strongly with energy/word), and the CONFINING string tension is a finite-range artifact of exponential-fitting an ALGEBRAIC (deconfined) decay whose exponent is a smooth eta=k/n^2 -- Z/11 is not special. Only a GENERIC monotone-LE survives, which is true of any quasiperiodic operator, not the object's own gauge phenomenology.",
+  "discriminating_fact": "p_CV=0.717 (need <0.15 for a universal law) with p in [-0.31,5.97]; n=11 string decay is algebraic (R2_loglog=1.000 > R2_exp=0.936) with effective rate -0.0008->-0.0001; eta(n)=k/n^2 smooth R2=1.000, n=11 residual 0.03 sigma (not special).",
+  "screening_qualitative_survivor": false,
+  "class_A_screening_law": false,
+  "class_B_confinement": false,
+  "validity_checks_pass": true,
+  "all_internal_checks_pass": false,
+  "checks": [
+    {
+      "name": "A0 LE-code calibration: free lambda=0, E=2.5 -> arccosh(1.25)=0.6931 (asserts code correct)",
+      "passed": true,
+      "detail": "computed 0.69328 vs 0.69315",
+      "direction": "|diff|<1e-2",
+      "kind": "validity"
+    },
+    {
+      "name": "A0b free-critical control: lambda=0, E=0 (|E|<2) -> LE ~ 0",
+      "passed": true,
+      "detail": "computed 0.000000",
+      "direction": "|LE|<5e-3",
+      "kind": "validity"
+    },
+    {
+      "name": "A1 SCREENING positivity: LE>0 for all coupling lam>0 (never a free/AF direction)",
+      "passed": false,
+      "detail": "positive-fraction=0.487 over 32 curves",
+      "direction": "frac>0.90",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "A2 SCREENING monotonicity: dgamma/dlam>0 (LE increases with coupling, never AF)",
+      "passed": false,
+      "detail": "monotone-step-fraction=0.639",
+      "direction": "frac>0.85",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "A3 SCREENING specific law: p is a STABLE universal exponent ~0.9 (H121's quantitative claim)",
+      "passed": false,
+      "detail": "p_mean=2.025 CV=0.717 (need CV<0.15 and |p-0.9|<0.15)",
+      "direction": "CV<0.15 & |p-0.9|<0.15",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B0 string-op control: n->1e6 (w->1) => |G|->1 => log|G| ~ 0",
+      "passed": true,
+      "detail": "log|G_{1e6}(120)| = -1.41e-11",
+      "direction": "|log|G||<1e-3",
+      "kind": "validity"
+    },
+    {
+      "name": "B1 decay is ALGEBRAIC not exponential (n=11: log-log fit beats exp fit AND effective rate ->0)",
+      "passed": true,
+      "detail": "R2_loglog=1.0000 > R2_exp=0.9361; a_eff -0.0008->-0.0001 (drift=0.13); family_algebraic_frac=1.00",
+      "direction": "loglog>exp & rate->0 & family>=0.8",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B2 E20 comparator: eta(n) is a SMOOTH 1/n^2 law; Z/11 is NOT special (no outlier at n=11)",
+      "passed": true,
+      "detail": "eta=k/n^2 fit R2=0.9998 (k=2.0098); n=11 residual z=0.03 sigma",
+      "direction": "R2>0.95 & z(11)<3",
+      "kind": "hypothesis"
+    },
+    {
+      "name": "B3 open-closed differential is a VANISHING, non-special artifact (collapses with range; not Z/11-special)",
+      "passed": true,
+      "detail": "|a_O-a_C| near=0.00000 far=0.00000 (ratio=0.22); |diff|@11=0.00000 vs max(other)=0.00000",
+      "direction": "far<0.5*near & 11 not outlier",
+      "kind": "hypothesis"
+    }
+  ]
+}

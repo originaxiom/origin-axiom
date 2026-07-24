@@ -1,0 +1,50 @@
+{
+ "cell": "W4-304",
+ "task": "W2/2a: level-45 pair-sector constants",
+ "independent_prime_seed_start": 5000000000,
+ "primes_used": [
+  5000001841,
+  5000005441,
+  5000009761
+ ],
+ "stage1_gate": {
+  "gate_ok": true,
+  "gate_04": true,
+  "gate_08": true,
+  "n15_failures": 0
+ },
+ "stage2_n45": {
+  "nonzero_pair_cells": 144,
+  "failures": 0
+ },
+ "target_rows": [
+  6,
+  54
+ ],
+ "target_all_zero": true,
+ "target_any_identification_failure": false,
+ "comparator_control_row": 1,
+ "comparator_control_nonzero": true,
+ "vacuity_free_row": 7,
+ "vacuity_free_row_resolved": true,
+ "vacuity_free_row_nonzero_cells": 0,
+ "const45_exact": "0",
+ "ratio_candidates_tested": [
+  "R1 (identity)",
+  "R2 (phi)",
+  "R2 (1/phi)",
+  "R2 (phi^2)",
+  "R2 (1/phi^2)",
+  "R2 (-1)",
+  "R2 (-phi)",
+  "R2 (-1/phi)",
+  "R3 (Pisano pi(45)/pi(15)=3)",
+  "R3 (1/3)",
+  "R4 (9)",
+  "R4 (1/9)"
+ ],
+ "ratio_matches": [],
+ "verdict": "RESOLVED-B",
+ "reason": "the level-45 pair-sector value rows (W1-exponents +-6) are IDENTICALLY ZERO across the full graded column set (independently reproduced with a fresh prime seed); const(45)=0 fails every pre-registered ratio candidate -- the registered KILL branch fires. The sector is empty/degenerate at level 45 (matches the banked B387 2a/2b finding, reproduced independently in this cell, not cited).",
+ "elapsed_seconds": 274.37917590141296
+}

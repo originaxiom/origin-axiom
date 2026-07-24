@@ -1,0 +1,35 @@
+[     0.0s] == STEP 0: re-derive frequencies from the substitution incidence matrix ==
+[     0.0s] GATE G0 Perron freq vector == banked closed form (phi,sqrt(phi)): PASS  max|diff|=5.55e-17
+[     7.0s] GATE G0b sympy: banked FREQ is an exact eigenvector of the incidence matrix: PASS  M F parallel to F (exact)
+[     7.0s]   TARGET_IDS = [0.272019649514069, 0.44013703852159747, 0.7861513777574233]
+[     7.0s] == STEP 1: eps->0 (curvature-removed) + banked (large-eps line) sweep ==
+[    24.3s]   d= 7 N=   12069 | eps0 A r=1.045144 B r=1.070424 | banked A r=1.245977 B r=1.257450 | curv b1=-0.822 b2=-1.865 [17.3s]
+[    82.7s]   d= 8 N=   44368 | eps0 A r=1.147767 B r=1.150253 | banked A r=1.254589 B r=1.264712 | curv b1=0.160 b2=-0.224 [58.5s]
+[   281.3s]   d= 9 N=  163106 | eps0 A r=1.148021 B r=1.152869 | banked A r=1.256376 B r=1.266313 | curv b1=0.439 b2=-0.007 [198.5s]
+[   281.3s]   depth 10 SKIPPED: est 834s > remaining budget 239s (honest depth cap = 9)
+[   281.3s] GATE G-sweep at least depths 7,8,9 completed (mandatory floor): PASS  completed = [7, 8, 9]
+[   281.3s]   HONEST DEPTH CAP (deepest completed this run) = 9 (N=163106)
+[   281.3s] GATE G1 gap1 eps-curvature is real & >> gap2's at the depth cap (the mechanism inflating the banked line reading): PASS  b1=0.439 (>0.2)  b2=-0.007 (|.|<0.1)
+[   281.3s] GATE G2 banked straight-through-origin reading in [1.18,1.28] at depth cap (reproduces the headline-style number): PASS  banked ratio (seedA) = 1.256376
+[   281.3s] GATE G3 banked and eps->0 readings DISAGREE by >3% at depth cap (proves the ratio is fit-protocol dependent, not a single number): PASS  |banked - eps0|/eps0 = 9.44%
+[   281.3s] == STEP 2: N-convergence + seed noise floor of BOTH readings ==
+[   281.3s]   eps->0 reading: value 1.148021  noise 4.22e-03 (seed 4.22e-03, drift 2.21e-04) ~ 2.37 digits
+[   281.3s]   banked reading: value 1.256376  noise 7.91e-03 (seed 7.91e-03, drift 1.42e-03) ~ 2.10 digits
+[   281.3s] GATE G4 eps->0 reading converged to better than 2% at the depth cap (so a percent-level candidate CAN be tested against it): PASS  noise 4.22e-03 (< 2e-2 required)
+[   281.3s] == STEP 3: test candidate sqrt(1/phi^2+1) against BOTH readings ==
+[   281.3s]   candidate sqrt(1/phi^2+1) = 1.175570505
+[   281.3s]   vs eps->0 1.148021: rel err 2.4% (noise 4.22e-03)
+[   281.3s]   vs banked 1.256376: rel err 6.43% (noise 7.91e-03)
+[   281.3s] GATE G5 candidate REFUTED vs eps->0 reading (miss > 3x noise, converged): PASS  miss 2.40e-02 vs 3*noise 1.27e-02
+[   281.3s] GATE G6 candidate REFUTED vs banked reading (miss > 3x noise, converged): PASS  miss 6.43e-02 vs 3*noise 2.37e-02
+[   281.3s]   E20 base-rate control: golden/simple forms within 3x noise of the eps->0 reading (1.14802): ['sqrt(1+1/(2phi))', '23/20', 'sqrt(4/3)']
+[   281.3s] GATE G7 base-rate control: the eps->0 reading does NOT uniquely single out the named candidate (either it is refuted, or several forms collide): PASS  close forms = ['sqrt(1+1/(2phi))', '23/20', 'sqrt(4/3)']
+[   281.3s] == STEP 4: sealed tolerance-height rule tol = 10^-(agree-14) ==
+[   281.3s] GATE G8 sealed PSLQ rule satisfiable (needs >=15 honest digits: agree-14>=1): FAIL  achieved=2 -> tol_exp=-12 (>=1)
+[   281.3s]   PSLQ NOT run at a trusted tolerance: achieved precision (2 digits) is below the rule's 15-digit floor; running it at the achieved tolerance would only re-report the base-rate collisions above (untrusted by construction).
+[   281.3s] GATE G9 verdict function NON-DEGENERATE: RESOLVED-A / RESOLVED-B / UNRESOLVED each reachable (fixes carry-chain defect D1): PASS  selftest -> A:RESOLVED-A B:RESOLVED-B U1:UNRESOLVED U2:UNRESOLVED
+[   281.3s] GATE G10 non-vacuity: substituting a free value (1.5) for the reading changes the base-rate answer (criterion reads the computed value, not a tautology): PASS  real close=['sqrt(1+1/(2phi))', '23/20', 'sqrt(4/3)'] vs fake(1.5) close=[]
+[   281.3s] == STEP 5: VERDICT ==
+[   281.3s]   FINAL VERDICT: RESOLVED-B
+[   281.3s]   rationale: bounded negative: the depth-cap reading is converged (<2%) and the named candidate is refuted with a >3x-noise margin in BOTH fit-protocol readings; no exact form is identifiable at this precision
+[   281.3s] == DONE: results.json written, verdict RESOLVED-B, 1 failed gates ==

@@ -1,0 +1,191 @@
+{
+  "cell": "W4-067r",
+  "carries_from": "W3-067",
+  "reframe": "composite words are DISTINCT WORDS under one fixed method, not statistical independence seeds; negative result and its proof chain unchanged, re-verified from scratch, one word added for breadth (6 total vs W3-067's 5)",
+  "question": "L10/K016: do classical composite (golden+silver) trace fields fuse to Q(zeta12) like the quantum ones?",
+  "n_words": 6,
+  "n_tests": 18,
+  "words_tested": [
+    {
+      "seq": [
+        1,
+        2
+      ],
+      "block_word": "RLRRLL",
+      "name": "b++RLRRLL(0,0)",
+      "volume": "5.62537824957",
+      "prec_digits": 63,
+      "identify": [
+        "s892(0,0)"
+      ]
+    },
+    {
+      "seq": [
+        2,
+        1
+      ],
+      "block_word": "RRLLRL",
+      "name": "b++RRLLRL(0,0)",
+      "volume": "5.62537824957",
+      "prec_digits": 63,
+      "identify": [
+        "s892(0,0)"
+      ]
+    },
+    {
+      "seq": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "block_word": "RLRLRRLLRRLL",
+      "name": "b++RLRLRRLLRRLL(0,0)",
+      "volume": "11.301176379",
+      "prec_digits": 63,
+      "identify": []
+    },
+    {
+      "seq": [
+        1,
+        2,
+        1
+      ],
+      "block_word": "RLRRLLRL",
+      "name": "b++RLRRLLRL(0,0)",
+      "volume": "7.64171059442",
+      "prec_digits": 63,
+      "identify": [
+        "t12648(0,0)"
+      ]
+    },
+    {
+      "seq": [
+        2,
+        1,
+        2
+      ],
+      "block_word": "RRLLRLRRLL",
+      "name": "b++RRLLRLRRLL(0,0)",
+      "volume": "9.2862127538",
+      "prec_digits": 63,
+      "identify": [
+        "o10_146418(0,0)"
+      ]
+    },
+    {
+      "seq": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "block_word": "RLRRLLRLRRLL",
+      "name": "b++RLRRLLRLRRLL(0,0)",
+      "volume": "11.2507564991",
+      "prec_digits": 63,
+      "identify": []
+    }
+  ],
+  "fusion_class_tally": {
+    "outside compositum": 17,
+    "Q(i)/Q(sqrt-3)": 1
+  },
+  "any_fusion_found": false,
+  "checks": [
+    {
+      "name": "golden tr(a^2) in Q(sqrt(-3)) [Re rational, Im/sqrt3 rational]",
+      "pass": true,
+      "extra": "(-4.0 + 3.464101615137754587054892683011744733885610507620761256111613958j)"
+    },
+    {
+      "name": "golden tr(b^2) in Q(sqrt(-3)) [Re rational, Im/sqrt3 rational]",
+      "pass": true,
+      "extra": "(-0.5 + 2.598076211353315940291169512258808550414207880715570942083710469j)"
+    },
+    {
+      "name": "golden tr((ab)^2) in Q(sqrt(-3)) [Re rational, Im/sqrt3 rational]",
+      "pass": true,
+      "extra": "(-9.999999999999999999999999999999999999999999999999999999999999995 - 13.856406460551018348219570732046978935542442030483045024446455834j)"
+    },
+    {
+      "name": "silver tr(a^2) in Q(i) [Re rational, Im rational]",
+      "pass": true,
+      "extra": "(1.9474877377257579267687784436405177562127445266836174803601894e-64 - 2.0j)"
+    },
+    {
+      "name": "silver tr(b^2) in Q(i) [Re rational, Im rational]",
+      "pass": true,
+      "extra": "(2.000000000000000000000000000000000000000000000000000000000000003 - 6.60206581298125521621138889953144098476805306767908221016477071e-64j)"
+    },
+    {
+      "name": "silver tr((ab)^2) in Q(i) [Re rational, Im rational]",
+      "pass": true,
+      "extra": "(-6.000000000000000000000000000000000000000000000000000000000000004 - 4.000000000000000000000000000000000000000000000000000000000000007j)"
+    },
+    {
+      "name": "silver tr(a) [non-invariant] is genuinely degree 4 (NOT degree <=2), confirming the trace-field vs invariant-trace-field distinction is real here (not a bookkeeping error)",
+      "pass": true,
+      "extra": "minpoly-degree=4 rel=[-8, 0, 4, 0, -1]"
+    },
+    {
+      "name": "TAUTOLOGY SELF-TEST: in_Q_sqrt3() applied to a FREE high-precision decimal with no planted relation to sqrt(3) returns None (no relation) -- the containment machinery is a genuine discriminant, not a theater that always succeeds",
+      "pass": true,
+      "extra": "1.234567891011121314151617181920212223242526272829303132333435363738"
+    },
+    {
+      "name": "POSITIVE CONTROL: every golden generator is compatible with Q(sqrt-3) (>=1 genuinely, not just via the rational fluke) and every silver generator is compatible with Q(i) (>=1 genuinely) -- the classifier correctly reproduces the KNOWN single-seed fields (K015/B125/B129) and never spuriously calls it fusion",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "name": "VACUITY SELF-TEST: substituting a free/generic transcendental (pi + e*i, unrelated to any manifold) into in_compositum() correctly returns NOT-CONTAINED -- the test is not a tautology that always passes",
+      "pass": true,
+      "extra": "(3.141592653589793238462643383279502884197169399375105820974944592307816406286209 + 2.7182818284590452353602874713526624977572470936999595749669676277240766303535476j)"
+    },
+    {
+      "name": "VACUITY SELF-TEST (2): a genuine algebraic number from an UNRELATED quadratic field (3+2*sqrt(5)) is correctly rejected by in_Q_sqrt3() -- the sqrt(3)-basis check is not accidentally permissive",
+      "pass": true,
+      "extra": "7.4721359549995793928183473374625524708812367192230514485417944908210418512756098"
+    },
+    {
+      "name": "MAIN RESULT: across 6 distinct composite words (one fixed method, not statistical seeds) x 3 invariant-trace generators (18 tests), NONE classify as genuine compositum-only fusion -- every composite trace either stays outside the compositum entirely, or (rarely) lands back in a trivial rational/single-quadratic value",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "name": "CONDITIONING (2nd precision seed): re-running fusion_class() at truncated ~40-digit precision (independent numerical input, tol=10^-(40-14), height<=1e6) gives the SAME non-fusion verdict on every composite generator, across all 6 words -- the negative is not a 63-digit-only artifact",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "name": "SUPPORTING: neither representative composite trace (2 distinct words) has a degree<=10, height<=1e6 closed form (consistent with -- not a proof of -- a generic non-arithmetic trace field, NOT the low-degree cyclotomic compositum)",
+      "pass": true,
+      "extra": "[{'seq': (1, 2), 'tag': 'tr(b^2)', 'degree_found': None}, {'seq': (1, 2, 1, 2), 'tag': 'tr(a^2)', 'degree_found': None}]"
+    }
+  ],
+  "pipeline_sane": true,
+  "minpoly_supporting_evidence": [
+    {
+      "seq": [
+        1,
+        2
+      ],
+      "tag": "tr(b^2)",
+      "degree_found": null
+    },
+    {
+      "seq": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "tag": "tr(a^2)",
+      "degree_found": null
+    }
+  ],
+  "verdict": "RESOLVED-B",
+  "reason": "all 6 distinct composite words (golden+silver block mixes, evaluated under one fixed method -- not statistical seeds), all 3 invariant-trace generators each, stay OUTSIDE the compositum Q(zeta12)=Q(sqrt-3,i) at ~63-70 digit precision / height<=1e8, robust to an independent ~40-digit truncation and consistent with a generic non-arithmetic (no low-degree closed form found up to degree 10, checked on 2 words) trace field -- classical composition does NOT mimic the quantum mod-4 fusion; the field-fusion in L10/B193 is a QUANTUM-only phenomenon, as K016 expected. This reproduces and reframes W3-067's negative under corrected language (distinct words under one method, not independent statistical seeds).",
+  "all_checks_pass": true
+}

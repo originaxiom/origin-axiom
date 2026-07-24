@@ -1,0 +1,136 @@
+{
+  "cell": "W4-124",
+  "lead": "L105",
+  "gate": "5-Q",
+  "checks": {
+    "words": {
+      "golden": {
+        "word": "R^1L",
+        "matrix": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "trace": 3,
+        "det": 1,
+        "char_disc": 5,
+        "squarefree_field": 5,
+        "fund_disc": 5
+      },
+      "silver": {
+        "word": "R^4L",
+        "matrix": [
+          5,
+          4,
+          1,
+          1
+        ],
+        "trace": 6,
+        "det": 1,
+        "char_disc": 32,
+        "squarefree_field": 2,
+        "fund_disc": 8
+      },
+      "silver_is_Qsqrt2_cond8": true
+    },
+    "controls": {
+      "SL2F3_invariants_eq_2T": true,
+      "SL2F5_order_120": true
+    },
+    "ref_2T": {
+      "order": 24,
+      "center": 2,
+      "abelianization": 3,
+      "order_hist": {
+        "1": 1,
+        "2": 1,
+        "3": 8,
+        "4": 6,
+        "6": 8
+      }
+    },
+    "ref_2O": {
+      "order": 48,
+      "center": 2,
+      "abelianization": 2,
+      "order_hist": {
+        "1": 1,
+        "2": 1,
+        "3": 8,
+        "4": 18,
+        "6": 8,
+        "8": 12
+      }
+    },
+    "premise_2O": {
+      "irrep_degrees": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "natrep_trace_field_has_sqrt2": true,
+      "ambivalent_all_real": true,
+      "char_field_Q_sqrt2": true,
+      "all_rational": false,
+      "mckay_type": "affine_E7",
+      "mckay_degree_seq": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "premise_true": true
+    },
+    "e20_field_comparator": {
+      "dihedral16_has_sqrt2": true,
+      "note": "Q(sqrt2) shared with dihedral -> field match cannot by itself pin 2O"
+    },
+    "involution_signature": {
+      "2O": 1,
+      "GL(2,3)": 13,
+      "GL23_iso_2O": false,
+      "shadow_involutions": {
+        "3": 1,
+        "5": 1,
+        "4": 7,
+        "8": 15
+      },
+      "SL2Z8_is_binary_polyhedral": false
+    },
+    "e20_SL2q": {
+      "sl2q_orders": {
+        "2": 6,
+        "3": 24,
+        "4": 60,
+        "5": 120,
+        "7": 336,
+        "8": 504,
+        "9": 720,
+        "11": 1320
+      },
+      "q_with_order48": [],
+      "only_2T_and_2I_are_SL2q": true
+    },
+    "test": {
+      "mod8_order": 384,
+      "direct_is_2O": false,
+      "SL2Z4_order": 48,
+      "SL2Z4_iso_2O": false,
+      "shows_2O_structure": false
+    }
+  },
+  "verdict": "RESOLVED-B",
+  "reason": "the silver hearing group does NOT show 2O structure and CANNOT: its mod-8 shadow is SL(2,Z/8) (order 384, not 48); the only order-48 natural quotient SL(2,Z/4) is not 2O (it has zero order-8 elements and 7 involutions, whereas 2O has 12 order-8 elements and a UNIQUE involution -- the binary-polyhedral signature); and 2O is never SL(2,q) for any prime power q. The shadow mechanism yields a binary polyhedral group only at ODD-PRIME conductors (SL(2,F3)=2T at 3, SL(2,F5)=2I at 5, each with a unique involution); the silver conductor is 8 (even, =2^3), whose shadow SL(2,Z/8) has 15 involutions and is not binary polyhedral at all. So the metallic ladder does NOT descend the exceptional series via the hearing-group mechanism -- golden->2I=SL(2,5) and being->2T=SL(2,3) are EXACTLY the two exceptional isomorphisms where a binary polyhedral group is an SL(2,q); 2O is not one, so the E7 rung is structurally absent. The conjecture is true only at the FIELD level (Q(sqrt2)=char field of 2O=E7's McKay partner, verified in-cell), which is necessary-not-sufficient and E20-deflated (the order-16 dihedral group shares Q(sqrt2)); the hearing GROUP the object actually produces at conductor 8 is SL(2,Z/8), not 2O.",
+  "discriminating_fact": "The object's hearing group at the silver conductor is <R,L> mod 8 = SL(2,Z/8), order 384 != 48=|2O|. The shadow mechanism gives a binary polyhedral group (unique involution) only at odd-prime conductors: SL(2,F3)=2T at 3 (E6), SL(2,F5)=2I at 5 (E8), each with exactly 1 involution. The silver conductor 8 is even: SL(2,Z/8) has 15 involutions (not binary polyhedral), and its unique order-48 natural quotient SL(2,Z/4) has order-histogram {1: 1, 2: 7, 3: 8, 4: 24, 6: 8} (0 order-8, 7 involutions) vs 2O's {1: 1, 2: 1, 3: 8, 4: 18, 6: 8, 8: 12} (12 order-8, 1 involution) -- not isomorphic. And 2O is not SL(2,q) for any q (|SL(2,q)|=q(q^2-1) is 24 at q=3, 120 at q=5, never 48). So the golden->2I/E8 match is one of exactly TWO exceptional isomorphisms 2T=SL(2,3), 2I=SL(2,5); there is no q for 2O/E7, so the descent breaks at the silver rung. Verify-don't-trust: the folklore '2O=GL(2,3)' is FALSE (GL(2,3) has 13 involutions; the two are non-isomorphic double covers of S4). Premise (Q(sqrt2)=char field of 2O [8 irreps, degs 1,1,2,2,2,3,3,4, all values in Q(sqrt2)], McKay quiver=affine E7) is TRUE but necessary-not-sufficient and shared with dihedral-16.",
+  "headline": "the silver hearing group does NOT show 2O structure and CANNOT: its mod-8 shadow is SL(2,Z/8) (order 384, not 48); the only order-48 natural quotient SL(2,Z/4) is not 2O (it has zero order-8 elements and 7 involutions, whereas 2O has 12 order-8 elements and a UNIQUE involution -- the binary-polyhedral signature); and 2O is never SL(2,q) for any prime power q. The shadow mechanism yields a binary polyhedral group only at ODD-PRIME conductors (SL(2,F3)=2T at 3, SL(2,F5)=2I at 5, each with a unique involution); the silver conductor is 8 (even, =2^3), whose shadow SL(2,Z/8) has 15 involutions and is not binary polyhedral at all. So the metallic ladder does NOT descend the exceptional series via the hearing-group mechanism -- golden->2I=SL(2,5) and being->2T=SL(2,3) are EXACTLY the two exceptional isomorphisms where a binary polyhedral group is an SL(2,q); 2O is not one, so the E7 rung is structurally absent. The conjecture is true only at the FIELD level (Q(sqrt2)=char field of 2O=E7's McKay partner, verified in-cell), which is necessary-not-sufficient and E20-deflated (the order-16 dihedral group shares Q(sqrt2)); the hearing GROUP the object actually produces at conductor 8 is SL(2,Z/8), not 2O."
+}

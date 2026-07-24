@@ -1,0 +1,116 @@
+{
+  "cell": "W4-078r",
+  "carry_from": "W3-078",
+  "question": "N2 KMS ladder beta_n=log(lambda_PF(M_n)) via Exel/EFW, honest verdict logic",
+  "verdict_logic_self_test": {
+    "scenario_all_pass": {
+      "checks": {
+        "hyp": true,
+        "kernel": true,
+        "kms": true,
+        "asymp": true
+      },
+      "precision_digits": 40.0,
+      "result": "RESOLVED-A"
+    },
+    "scenario_forced_fail": {
+      "checks": {
+        "hyp": false,
+        "kernel": true,
+        "kms": true,
+        "asymp": true
+      },
+      "precision_digits": 40.0,
+      "result": "RESOLVED-B"
+    },
+    "scenario_precision_starved": {
+      "checks": {
+        "hyp": true,
+        "kernel": true,
+        "kms": true,
+        "asymp": true
+      },
+      "precision_digits": 3.0,
+      "result": "UNRESOLVED"
+    },
+    "scenario_no_numeric_attempt": {
+      "checks": {
+        "hyp": true,
+        "kernel": true,
+        "kms": true,
+        "asymp": true
+      },
+      "precision_digits": null,
+      "result": "UNRESOLVED"
+    },
+    "all_three_outcomes_reachable": true
+  },
+  "resolved_b_reachability_on_real_data": {
+    "description": "vandalized M_3 (vertex 0 edges cut) fed through the real strongly_connected() checker",
+    "strongly_connected_after_vandalism": false,
+    "decide_verdict_result": "RESOLVED-B",
+    "reachable": true
+  },
+  "unresolved_reachability_on_real_data": {
+    "description": "M_5 power_iterate() truncated to 3 iterations (deliberately unconverged)",
+    "agreement_digits_after_starvation": 0.0916239740624259,
+    "decide_verdict_result": "UNRESOLVED",
+    "reachable": true
+  },
+  "real_computation": {
+    "matrix_sizes": {
+      "0": 2,
+      "1": 4,
+      "2": 8,
+      "3": 16,
+      "4": 32,
+      "5": 64
+    },
+    "exel_efw_hypothesis_per_n": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "doubling_kernel": "x^2 - 2*mu*x + mu^2 - mu^3",
+    "doubling_kernel_confirmed_3_rungs": true,
+    "pf_recursion": "lambda_n = lambda_{n-1}*(1+sqrt(lambda_{n-1})), lambda_0=phi",
+    "worst_case_agreement_digits_n0to5": 18.194011690693134,
+    "beta_ladder_n0to15": [
+      "0.48121182505960344749775891342436842313518433438566051966101816884016386760822177",
+      "1.3018809744348373757818983729257576973743776661314639562277193659329427955157529",
+      "2.372554319731446425602783435245135284398829662873966397230122733536542928805954",
+      "3.8253072356720785561027702022027047966595228961219530726266248955306882112614171",
+      "5.8757103015199192722565513611155532725881346429454316723897455194999387849481947",
+      "8.8651889696102193958778631622000090222331512199782481647874277742308195200980473",
+      "13.309597016469738344087846010225412271672564254512375676124169883961731953892851",
+      "19.965682523769712332520861801786623452549278746137282918222128161952370108911557",
+      "29.948569970245077972359107705091436004066494131268688251008818538375032086607965",
+      "44.922855269238184262165249363121786974166706830976627678845367032589504699481413",
+      "67.384282904033119732580746538497554926973670816416625965278000243105321219071536",
+      "101.07642435604968193065815824682304152855083289549878539511482153477070327078415",
+      "151.61463653407452289598734996892144301208545477615727680984528498744283452119211",
+      "227.42195480111178434398102495338216571294131835324878811166186052925223144868885",
+      "341.13293220166767651597153743007324856941197752987322346748627255790420506875022",
+      "511.69939830250151477395730614510987285411796629480983520122940883685630760313373"
+    ],
+    "beta_ratio_n15_over_n14": "1.5000000000000000000000000000000000000000000000000000000000000000000000000000246",
+    "asymptotic_law_confirmed": true,
+    "logspace_vs_matrix_crosscheck_ok": true,
+    "control_math_self_test_non_vacuous": true,
+    "kms_state_valid": true
+  },
+  "real_checks": {
+    "exel_efw_hypothesis_holds": true,
+    "doubling_kernel_confirmed": true,
+    "asymptotic_law_confirmed": true,
+    "kms_state_valid": true,
+    "logspace_crosscheck_ok": true
+  },
+  "worst_case_agreement_digits": 18.194011690693134,
+  "verdict": "RESOLVED-A",
+  "verdict_reason": "all structural checks pass, 18.2-digit numeric confirmation",
+  "wall_time_s": 11.518347978591919
+}

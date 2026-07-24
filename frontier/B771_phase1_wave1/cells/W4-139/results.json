@@ -1,0 +1,136 @@
+{
+ "step1": {
+  "Fxz_factored": "(x*z - z + 1)*(x**3*z**2 - 2*x**2*z**2 - x**2*z + x*z - x + z**2 + z)",
+  "kappa_disc_squarefree": "(x**2 - x - 1)*(5*x**2 - 5*x - 1)",
+  "crosscheck_vs_banked_disc3": true,
+  "base_curve_genus": 1,
+  "main_S": "S**2*x**6 - 4*S**2*x**5 + 4*S**2*x**4 + 2*S**2*x**3 - 4*S**2*x**2 + S**2 - 2*S*x**8 + 8*S*x**7 - 4*S*x**6 - 17*S*x**5 + 12*S*x**4 + 19*S*x**3 - 12*S*x**2 - 7*S*x + 2*S + x**10 - 4*x**9 + 15*x**7 - 4*x**6 - 29*x**5 + 4*x**4 + 33*x**3 - 2*x**2 - 14*x"
+ },
+ "step2": {
+  "good_rows": [
+   2,
+   5,
+   6
+  ],
+  "bad_rows": [
+   0,
+   1,
+   2
+  ],
+  "n_seeds": 10,
+  "all_seeds_match": true,
+  "negative_control_degenerate": true,
+  "validation": [
+   {
+    "x0": 4.7,
+    "z0real": -0.17432288595094317,
+    "monodromy_residual": 1.801936377887614e-11,
+    "trt2_truth": 93.4131848865386,
+    "Psq_computed": 93.41318488652736,
+    "match": true
+   },
+   {
+    "x0": 4.7,
+    "z0real": -0.17432288595094317,
+    "monodromy_residual": 1.801936377887614e-11,
+    "trt2_truth": 93.4131848865386,
+    "Psq_computed": 93.41318488652736,
+    "match": true
+   },
+   {
+    "x0": 4.7,
+    "z0real": 0.4445931562212134,
+    "monodromy_residual": 1.1198153515579179e-11,
+    "trt2_truth": 104.31585355152885,
+    "Psq_computed": 104.31585355154466,
+    "match": true
+   },
+   {
+    "x0": 5.3,
+    "z0real": -0.1484587886046974,
+    "monodromy_residual": 4.4423131839721464e-11,
+    "trt2_truth": 136.9102202246645,
+    "Psq_computed": 136.9102202246333,
+    "match": true
+   },
+   {
+    "x0": 5.3,
+    "z0real": -0.1484587886046974,
+    "monodromy_residual": 4.4423131839721464e-11,
+    "trt2_truth": 136.9102202246645,
+    "Psq_computed": 136.9102202246333,
+    "match": true
+   },
+   {
+    "x0": 5.3,
+    "z0real": 0.38101692813958116,
+    "monodromy_residual": 2.1941559680271894e-11,
+    "trt2_truth": 149.08145760922096,
+    "Psq_computed": 149.08145760923543,
+    "match": true
+   },
+   {
+    "x0": 6.1,
+    "z0real": 0.32015476119447034,
+    "monodromy_residual": 9.598011274647433e-11,
+    "trt2_truth": 226.82845365385364,
+    "Psq_computed": 226.82845365370883,
+    "match": true
+   },
+   {
+    "x0": 3.7,
+    "z0real": -0.2469331979153806,
+    "monodromy_residual": 1.6697754290362354e-12,
+    "trt2_truth": 42.82320969605538,
+    "Psq_computed": 42.82320969605433,
+    "match": true
+   },
+   {
+    "x0": 3.7,
+    "z0real": -0.2469331979153806,
+    "monodromy_residual": 1.6697754290362354e-12,
+    "trt2_truth": 42.82320969605538,
+    "Psq_computed": 42.82320969605433,
+    "match": true
+   },
+   {
+    "x0": 3.7,
+    "z0real": 0.617303568285751,
+    "monodromy_residual": 8.388082272460532e-13,
+    "trt2_truth": 51.71649441963115,
+    "Psq_computed": 51.71649441962978,
+    "match": true
+   }
+  ],
+  "Psq_numerator_degree": 30,
+  "Psq_denominator_degree": 23
+ },
+ "step3": {
+  "degS_eliminant": 12,
+  "degPsq_eliminant": 10
+ },
+ "step3b": {
+  "A3_degree_in_L": 24,
+  "A3_degree_in_M": 40,
+  "A3_irreducible": true
+ },
+ "verdict_unresolved": {
+  "base_curve_genus_lower_bound": 1,
+  "L_cover_degree": 2,
+  "L_cover_branch_values": [
+   2,
+   -2
+  ],
+  "M_cover_degree": 4,
+  "M_cover_branch_values_Psq": [
+   0,
+   4,
+   "infinity"
+  ],
+  "residual": "fiber-product Riemann-Hurwitz over C not completed (monodromy/coincidence check needed)"
+ },
+ "verdict": "UNRESOLVED",
+ "headline": "the (M,L)-eliminant SUCCEEDS exactly (A_3(M,L) computed in-sandbox, irreducible, degree 24 in L / 40 in M) -- refuting the 2026-06 'elimination too slow' framing -- but A_3 is NOT degree-2-in-L, so the m=1/m=2 hyperelliptic w^2=disc_L genus reader does not transfer; the genus number itself is not extracted",
+ "discriminating_fact": "A_3(M,L) computed exactly (degree 24 in L, 40 in M, irreducible) is the in-cell discriminating fact for why the m=1/m=2 reader fails: that reader assumes degree-2-in-L (a literal hyperelliptic double cover of the M-line), which holds at m=1,2 but is DISPROVED here at m=3 by direct computation, not assumed. A rigorous LOWER BOUND is available: A_3(M,L) fibers over the genus-1 trace-relation base curve C via a degree-2 cover in L (branched at S=+-2) composed with a degree-4 cover in M (branched at Psq in {0,4,infinity}); by Riemann-Hurwitz for any degree-d>=1 cover of a genus-1 curve, genus(A_3) >= 1. Completing the exact value needs the fiber-product ramification (monodromy of the two branch loci on C, whether they coincide) -- a well-posed but NOT-completed-here computation (the residual this cell leaves; NOT the 'too-slow' wall).",
+ "runtime_seconds": 55.96157789230347
+}

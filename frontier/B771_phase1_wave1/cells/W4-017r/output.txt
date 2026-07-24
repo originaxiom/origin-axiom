@@ -1,0 +1,20 @@
+
+==============================================================================
+PART A -- L6a4 SL(3) Ptolemy census: class-10 FIX + full re-census
+==============================================================================
+L6a4 SL(3): 14 obstruction classes.
+W3-017 seeded random Newton in the FULL 33-dim complex space; that solver missed
+the class-10 real points (basins unreachable in full dimension) and reported
+class 10 EMPTY -- contradicting the wave-3 verifier (two seedings found points).
+FIX: reduce EVERY class first (fix u to each primitive cube root of unity via its
+cubic 1+u+u^2=0, eliminate all linear pins: 33->26 unknowns), then seed Newton in
+the reduced space where the basins are reachable.  The SAME reduced solver is
+applied UNIFORMLY to all 14 classes -- no class-10-only special-casing.
+
+  Full re-census (uniform reduced solver, both u-sheets, multi-seed):
+  ci | pts | isolated-field-degrees | family | resist | REF(W3-017)
+   0 |   0 | []                     |      0 |      0 | []  (26s)
+   1 |   2 | [2, 2]                 |      0 |      0 | [2, 2]  (33s)
+        deg 2  minpoly [-1, 0, 5]  (real-subfield gen degrees [1, 2])
+        deg 2  minpoly [-1, 0, 5]  (real-subfield gen degrees [1, 2])
+   2 |   0 | []                     |      0 |      0 | []  (27s)

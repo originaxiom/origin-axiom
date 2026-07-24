@@ -26,7 +26,7 @@ Adversarial pass: 71 closures upheld, **16 refuted → reverted to LIVE** (the n
 - **OI-042** B500 straggler run wrap-up (R29-3)
 - **OI-043** CRT closed form of the −1/16 phase sum (residue of P64)
 - **OI-054** WALL-7 53-point sweep
-- **OI-055** B685 3-integrality
+- **OI-055** B685 3-integrality  *[B772: EXTERNAL→SEARCH-BOUNDED(depth 100) — GSWZ cited by title, not pinned]*
 - **OI-056** TOMB-L310 DAG
 - **OI-057** TOMB-L34 c_eff
 - **OI-063** L39 — all-t symbolic Gauss-sum proof of the period-content law
@@ -43,7 +43,7 @@ Adversarial pass: 71 closures upheld, **16 refuted → reverted to LIVE** (the n
 - **OI-119** L80(b)/(d) — level-1 R-matrix computation and the Meyerhoff ±5 question
 - **OI-124** L105 — the 2O/E7 silver-hearing conjecture
 - **OI-139** B87 — m=3 metallic spectral-curve genus
-- **OI-146** B332 — Bianchi index [Γ:Γ∩gΓg⁻¹]=3 on the √−3 side
+- **OI-146** B332 — Bianchi index [Γ:Γ∩gΓg⁻¹]=3 on the √−3 side  *[B772: headline (index 10) sound; PART-1a self-cert vacuous — needs rerun]*
 - **OI-147** B313 — S032-A single-seed invariant classes
 - **OI-148** B415 — level-27 μ_∞ confirmation
 - **OI-149** B174 — genus-2 sole-κ screening

@@ -1,0 +1,107 @@
+{
+  "cell": "W4-115",
+  "lead": "L76",
+  "checks": {
+    "cover_tower_T": {
+      "1": 1,
+      "2": 5,
+      "3": 16,
+      "4": 45,
+      "5": 121,
+      "6": 320,
+      "7": 841,
+      "8": 2205,
+      "9": 5776,
+      "10": 15125,
+      "11": 39601,
+      "12": 103680
+    },
+    "cover_tower_methods_agree": true,
+    "odd_n_torsion_is_square": {
+      "1": 1,
+      "3": 4,
+      "5": 11,
+      "7": 29,
+      "9": 76,
+      "11": 199
+    },
+    "charge_tower_e_abs": {
+      "0": "1",
+      "1": "11",
+      "2": "809",
+      "3": "18845089",
+      "4": "228654672055316545291",
+      "5": "14551745085338356602787456737044854593029948485574326872937769"
+    },
+    "charge_tower_methods_agree": true,
+    "both_are_Qsqrt5_norms": true,
+    "cross": {
+      "equality_hits": [],
+      "square_hits": [
+        [
+          5,
+          1
+        ]
+      ],
+      "higher_power_hits": [],
+      "e_divides_T_hits": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "shared_primes": [
+        11
+      ],
+      "charge_primes_absent_from_cover": [
+        809,
+        1459,
+        597049,
+        18845089,
+        2169349081,
+        "6433367189401",
+        "19807876161211",
+        114192827433802916537068946505308579
+      ],
+      "cover_11_index": [
+        5,
+        10
+      ],
+      "charge_11_index": [
+        1,
+        4
+      ],
+      "cover_11_is_mod5": true,
+      "charge_11_is_mod3": true,
+      "eleven_patterns_incompatible": true
+    },
+    "control": {
+      "lucas_roots": {
+        "1": 1,
+        "3": 4,
+        "5": 11,
+        "7": 29,
+        "9": 76,
+        "11": 199
+      },
+      "control_hits": [
+        [
+          5,
+          11,
+          true,
+          true
+        ]
+      ],
+      "num_collisions": 1,
+      "n5_square_is_generic": true,
+      "only_11_collision": true
+    }
+  },
+  "verdict": "RESOLVED-B",
+  "headline": "no law relating the towers; the n=5 hit is isolated/base-rate -- T(5)=121 is a square by the generic odd-n law (T(odd n)=L_n^2), its only content is the single small-prime collision L_5=11=e_1; the 11-divisibility patterns are incompatible (cover n=0 mod5, charge n=1 mod3), charge primes {809,1459,...} are absent from the cover tower, and growth rates differ (single vs double exponential). Shared arithmetic HOME (both are Q(sqrt5) norms) is a common framework, not a term-law.",
+  "discriminating_fact": "T(5)=121=11^2 and e_1=11, but (a) T(odd n)=L_n^2 is a perfect square for EVERY odd n so '121 is a square' carries no information; its content is L_5=11=e_1, a single small-prime value-collision (exactly 1 collision across all odd n<=12). (b) 11 | T(n) iff n=0 mod 5 (5-periodic) while 11 | e_n iff n=1 mod 3 (3-periodic): incompatible index laws. (c) charge primes 809,1459,597049,2169349081 divide NO cover-torsion T(n), n<=12. (d) growth rates differ (cover single-exponential phi^{2n}; charge double-exponential, log|e_n| triples per rung). The only genuine shared structure is that BOTH are norms from Q(sqrt5) -- a common home, not a relating law."
+}

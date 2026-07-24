@@ -1,0 +1,152 @@
+   realprecision = 77 significant digits (60 digits displayed)
+N=15
+disc=50625
+j=111284641/50625
+cprod=8
+badfac=[3, 1; 5, 1]
+localdat=[[1, 8, 0, 2], [1, 8, 0, 4]]
+torsorder=8
+torsstruct=[4, 2]
+arank=0
+Lval_modsym=0.350150760583150505795045209202429651153491832183360285329704
+Lval_generic=0.350150760583150505795045209202429651153491832183360285329704
+alg_rank=0
+Om1=1.40060304233260202318018083680971860461396732873344114131882
+Sha_hp=1.00000000000000000000000000000000000000000000000000000000000
+Sha_hp_resid=8.636168555094444625 E-78
+Sha_hp_wrongcprod_resid=0.333333333333333333333333333333333333333333333333333333333333
+Sha_hp_wrongtors_resid=0.234375000000000000000000000000000000000000000000000000000000
+prime=3 f=1 kod=8 c_p=2 n_from_disc=4 n_from_kod=4 split=0
+prime=5 f=1 kod=8 c_p=4 n_from_disc=4 n_from_kod=4 split=1
+
+
+=== PARSED / VERDICT SUMMARY ===
+{
+  "cell": "W4-183",
+  "curve_label": "15a1",
+  "weierstrass_coeffs_a1a2a3a4a6": [
+    1,
+    1,
+    1,
+    -10,
+    -10
+  ],
+  "sealed_criterion": "BSD quantities computed and the formula verified/consistent => RESOLVED-A; a component resists in-sandbox => RESOLVED-B (specialist residual named).",
+  "engine": "PARI/GP 2.17 subprocess (not sage)",
+  "bsd_quantities": {
+    "conductor": 15,
+    "discriminant": 50625,
+    "analytic_rank": 0,
+    "algebraic_rank_2descent": 0,
+    "L_value_at_1_modular_symbol_method": 0.35015076058315053,
+    "L_value_at_1_generic_lfun_method": 0.35015076058315053,
+    "regulator": 1.0,
+    "real_period_fundamental_Om1": 1.4006030423326021,
+    "Omega_BSD_convention": 2.8012060846652043,
+    "torsion_order": 8,
+    "tamagawa_product": 8,
+    "per_prime_local_data": [
+      {
+        "p": 3,
+        "conductor_exponent_f": 1,
+        "kod_code": 8,
+        "c_p": 2,
+        "I_n_from_valuation_disc": 4,
+        "I_n_from_kod_code": 4,
+        "kod_matches_disc_valuation": true,
+        "split_multiplicative": false
+      },
+      {
+        "p": 5,
+        "conductor_exponent_f": 1,
+        "kod_code": 8,
+        "c_p": 4,
+        "I_n_from_valuation_disc": 4,
+        "I_n_from_kod_code": 4,
+        "kod_matches_disc_valuation": true,
+        "split_multiplicative": true
+      }
+    ],
+    "Sha_computed_modsym": 1.0,
+    "Sha_computed_generic": 1.0,
+    "Sha_nearest_integer": 1,
+    "Sha_residual_from_integer": 0.0,
+    "Sha_hp_60digit": 1.0,
+    "Sha_hp_60digit_residual_from_integer": 8.636168555094445e-78
+  },
+  "comparator_control": {
+    "true_tamagawa_product": 8,
+    "wrong_tamagawa_product_used": 3,
+    "Sha_with_wrong_cprod": 2.6666666666666665,
+    "residual_with_wrong_cprod": 0.3333333333333335,
+    "residual_with_wrong_cprod_hp60digit": 0.3333333333333333,
+    "wrong_torsion_order_used": 7,
+    "residual_with_wrong_torsion_hp60digit": 0.234375,
+    "Sha_with_wrong_torsion": 0.765625,
+    "residual_with_wrong_torsion": 0.234375
+  },
+  "checks": [
+    {
+      "name": "curve nonsingular (disc != 0)",
+      "cond": true,
+      "detail": "disc=50625"
+    },
+    {
+      "name": "conductor recomputed in-sandbox equals 15 (the 15a1 label's conductor)",
+      "cond": true,
+      "detail": "N=15"
+    },
+    {
+      "name": "analytic rank (modular-symbol path) == algebraic rank (independent 2-descent)",
+      "cond": true,
+      "detail": "arank=0 alg_rank=0"
+    },
+    {
+      "name": "two independent L(E,1) computations (modsym vs generic lfun) agree to TOL_LVAL",
+      "cond": true,
+      "detail": "|diff|=0.000e+00 tol=1e-30"
+    },
+    {
+      "name": "L(E,1) is nonzero (consistent with the computed rank 0 -- BSD leading term sanity)",
+      "cond": true,
+      "detail": "Lval_modsym=0.35015076058315053"
+    },
+    {
+      "name": "BSD formula solved for Sha lands within TOL_SHA_INTEGER of an integer, computed at gp's native 60-digit precision (NOT degraded through a python float64 round-trip)",
+      "cond": true,
+      "detail": "Sha_hp=1.0 (60-digit residual)=8.636e-78 tol=1e-20; [double-precision cross-check] Sha_computed=1.0 resid=0.000e+00; Sha_generic=1.0 resid=0.000e+00"
+    },
+    {
+      "name": "the integer Sha lands on is a perfect square (necessary structural constraint on Sha)",
+      "cond": true,
+      "detail": "nearest_int=1"
+    },
+    {
+      "name": "Sha == 1 exactly (the object's Sha is trivial), at the 60-digit-precision discriminating level",
+      "cond": true,
+      "detail": "nearest_int=1 60-digit-resid=8.636e-78"
+    },
+    {
+      "name": "per-prime Kodaira-code-derived I_n matches ord_p(disc)-derived I_n at every bad prime (internal consistency of the local reduction data)",
+      "cond": true,
+      "detail": "[{'p': 3, 'conductor_exponent_f': 1, 'kod_code': 8, 'c_p': 2, 'I_n_from_valuation_disc': 4, 'I_n_from_kod_code': 4, 'kod_matches_disc_valuation': True, 'split_multiplicative': False}, {'p': 5, 'conductor_exponent_f': 1, 'kod_code': 8, 'c_p': 4, 'I_n_from_valuation_disc': 4, 'I_n_from_kod_code': 4, 'kod_matches_disc_valuation': True, 'split_multiplicative': True}]"
+    },
+    {
+      "name": "SELF-TEST / non-vacuous comparator: forcing the Tamagawa product to the WRONG value (3 instead of the computed 8) breaks integrality of the solved Sha (the check is discriminating, not tautological) -- gated on the 60-digit gp residual",
+      "cond": true,
+      "detail": "Sha_wrong_cprod=2.6666666666666665 60-digit-resid=3.333e-01 (must exceed 1e-06); double-precision resid=3.333e-01"
+    },
+    {
+      "name": "VACUITY GUARD: forcing the torsion order to a wrong free value (7 instead of the computed 8) also breaks integrality of the solved Sha -- gated on the 60-digit gp residual",
+      "cond": true,
+      "detail": "Sha_wrong_tors=0.765625 60-digit-resid=2.344e-01 (must exceed 1e-06); double-precision resid=2.344e-01"
+    }
+  ],
+  "total_checks": 11,
+  "total_holds": 11,
+  "total_violated": 0,
+  "blocking_violations": [],
+  "verdict": "RESOLVED-A",
+  "specialist_residual": null,
+  "wall_time_s": 0.0
+}
