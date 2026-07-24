@@ -1,0 +1,27 @@
+CL-H133 chord-check: is Z4 = Tr rho(A1) = 0 genuine, or an even/odd cancellation?
+==============================================================================
+k=1: N=  3  gate(words-agree)=4.1e-14  [theta,rho]=4.7e-15  ||S^2-theta||=8.0e-15  dim(theta-odd)=1
+      Z=Tr rho      = +1.0000000000 -1.9e-14i
+      Z_theta       = -1.0000000000 +2.5e-14i
+      tr_even       = -0.0000000000 +3.2e-15i
+      tr_odd (chord)= +1.0000000000 -2.2e-14i   (identity resid 2.9e-17)
+k=2: N=  9  gate(words-agree)=1.1e-13  [theta,rho]=2.8e-14  ||S^2-theta||=3.1e-14  dim(theta-odd)=3
+      Z=Tr rho      = +1.0000000000 -3.8e-14i
+      Z_theta       = -1.0000000000 +3.5e-14i
+      tr_even       = +0.0000000000 -1.5e-15i
+      tr_odd (chord)= +1.0000000000 -3.7e-14i   (identity resid 5.0e-17)
+k=3: N= 20  gate(words-agree)=2.0e-13  [theta,rho]=7.1e-14  ||S^2-theta||=5.6e-14  dim(theta-odd)=8
+      Z=Tr rho      = +1.0000000000 -2.8e-14i
+      Z_theta       = +1.0000000000 -2.1e-14i
+      tr_even       = +1.0000000000 -2.4e-14i
+      tr_odd (chord)= -0.0000000000 -3.6e-15i   (identity resid 1.0e-16)
+k=4: N= 42  gate(words-agree)=3.5e-13  [theta,rho]=1.1e-13  ||S^2-theta||=8.8e-14  dim(theta-odd)=17
+      Z=Tr rho      = -0.0000000000 -3.5e-14i
+      Z_theta       = -0.0000000000 -3.3e-14i
+      tr_even       = -0.0000000000 -3.4e-14i
+      tr_odd (chord)= -0.0000000000 -1.2e-15i   (identity resid 5.0e-17)
+==============================================================================
+
+VERDICT: RESOLVED-B
+  Z4 = -0.0   tr_even = -0.0   tr_odd = -0.0
+  Z4 = Tr rho(A1) = 0 is a GENUINE structural zero: BOTH parity sectors vanish independently (tr_odd = tr_even = 0), computed from SEPARATE traces Z and Z_theta -- NOT an even/odd cancellation. Unlike W4-304 (where only the parity-difference was banked and tr_odd=1/4 was hidden), here Z=0 AND Z_theta=0, forcing tr_odd=(Z-Z_theta)/2=0. The theta-odd chord is empty; H133's death HARDENS at the chord level.
