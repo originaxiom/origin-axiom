@@ -1,0 +1,68 @@
+{
+ "cell": "P2W2-PADIC",
+ "p": 3,
+ "object": "single-seed tower measure (B412/B399), level 1215 (=15*3^4)",
+ "part1_boundedness": {
+  "numerator_valuations": {
+   "2cos(2pi/9)": "0",
+   "2cos(2pi/27)": "0",
+   "2cos(2pi/81)": "0",
+   "1+2cos(2pi/9)": "1/3"
+  },
+  "numerators_integral": true,
+  "value_v3_min": -1,
+  "attained_on": "frozen 1/12 line",
+  "e3_valuation": -3,
+  "e3_witness_consistent": true,
+  "conclusion": "12*mu is 3-integral; tower measure BOUNDED; Amice transform exists",
+  "residual_assumption": "denominator stays 12 up the tower (banked 'frozen line'/normalizer stability, B399/B412); numerators 2cos(2pi/3^j) are 3-units for all j>=2 by the same trisection Newton polygon (const term 1)."
+ },
+ "part2_transform": {
+  "coordinate": "x_a = a mod 81 (3-part of Z/1620)",
+  "pushforward_support_size": 6,
+  "m0_total_mass": "1",
+  "c0_is_1": true,
+  "amice_coeff_fields": {
+   "0": "Q",
+   "1": "Q(zeta27)+",
+   "2": "Q(zeta27)+",
+   "3": "Q(zeta27)+",
+   "4": "Q(zeta27)+",
+   "5": "Q(zeta27)+",
+   "6": "Q(zeta27)+",
+   "7": "Q(zeta27)+",
+   "8": "Q(zeta27)+",
+   "9": "Q(zeta27)+",
+   "10": "Q(zeta27)+",
+   "11": "Q(zeta27)+",
+   "12": "Q(zeta27)+"
+  },
+  "moment_fields": {
+   "0": "Q",
+   "1": "Q(zeta27)+",
+   "2": "Q(zeta27)+",
+   "3": "Q(zeta27)+",
+   "4": "Q(zeta27)+",
+   "5": "Q(zeta27)+",
+   "6": "Q(zeta27)+",
+   "7": "Q(zeta27)+",
+   "8": "Q(zeta27)+",
+   "9": "Q(zeta27)+",
+   "10": "Q(zeta27)+",
+   "11": "Q(zeta27)+",
+   "12": "Q(zeta27)+"
+  },
+  "coefficient_field_grows_beyond_Q": true,
+  "mu_invariant_range": "[-1,0], pole order 1 (12*mu integral, edge attained)",
+  "abelian_note": "A_mu is the Mellin transform of an abelian Fourier/character measure (B774 chord: reported as abelian, not non-abelian)."
+ },
+ "part3_independent": {
+  "m0_float": 0.9999999999999998,
+  "max_coeff_deviation_float_vs_exact": "2.22e-16"
+ },
+ "verdict": "RESOLVED-A",
+ "headline": "The tower measure is 3-adically BOUNDED (every value = (3-unit or Eisenstein element)/12, so v_3 >= -1 with -1 attained on the frozen 1/12 line; e3 = cos(2pi/9)/864 has v_3 = -3 = 3*(-1), an in-cell witness), hence 12*mu is 3-integral and its Amice-Mazur p-adic L-function A_mu(T)=sum c_n T^n EXISTS as a bounded power series in C_3[[T]]; computed with its structure: constant term c_0 = total mass = 1 (trace-zero coherence), mu-invariant = boundedness pole of ORDER 1, coefficient field Q(zeta27)+ (grows up the ramified tower -- so it is the transform of a C_3-valued bounded Fourier/character measure, NOT a classical fixed-field Kubota-Leopoldt L-function). Reproduced two ways (exact cyclotomic + independent float, agree to ~1e-15).",
+ "discriminating_fact": "Numerators 2cos(2pi/3^j) are 3-adic UNITS (minimal polynomials x^3-3x+1, and the degree-9/27 trisection polynomials, all have constant term 1 -> flat 3-adic Newton polygon -> v_3=0) while 1+2cos(2pi/9) is Eisenstein at 3 (v_3=1/3); dividing by 12 gives v_3 >= -1 with equality on the 1/12 line -- BOUNDEDNESS, the exact condition (Amice) for the p-adic L-function to exist. e3's valuation -3 = 3*(-1) cross-confirms.",
+ "terminal_state": "COMPUTED (bounded measure; transform + structure in hand)",
+ "gate5Q": "structural only; no SM values; no classical-interpolation claim; abelian Mellin transform; nothing to CLAIMS.md; one-number pin untouched"
+}

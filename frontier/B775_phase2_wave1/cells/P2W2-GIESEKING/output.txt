@@ -1,0 +1,46 @@
+==========================================================================
+P2W2-GIESEKING  --  B469 Phase 2b: parity column + Gieseking descent
+==========================================================================
+
+[A] NON-ORIENTABLE PARENT (symbolic, all m): half-monodromy X_m, X_m^2 = A_m
+   X_m^2 == A_m  (all m): True
+   det X_m == -1 (all m): True  = N(metallic unit) = the residue
+   det A_m == +1 (cover): True
+   eig(X_1) signs: [-1, 1]  -> exactly one NEGATIVE eig (the residue): True
+
+[B] GIESEKING DESCENT PROPER (m=1): floor m000 -> cover m004
+   floor m000 non-orientable: True  | cover m004 orientable: True
+   orientation_cover(m000) isometric to figure-eight m004: True
+   vol(m004)/vol(m000) = 2.0 -> exactly 2: True
+   #tet: m000 = 1  m004 = 2  (floor is exactly half): True
+   Cl2(pi/3) = 1.014941606415  vs vol(m000) = 1.01494160641  -> match (2nd way): True
+   shape m000 = (0.49999999999999994+0.8660254037844387j)   m004 = (0.4999999999999996+0.8660254037844382j)
+   shape = regular ideal tetra exp(i pi/3) both: True
+   shape min poly z^2-z+1, disc = -3 -> invariant trace field Q(sqrt-3) DESCENDS: True
+   cover m004 isometric to its mirror (amphichiral): True  -> orientation-ODD invariants (CS) forced to 0
+
+[C] PARITY COLUMN: banked invariant -> sigma-parity (EVEN descends / ODD cover-only)
+   invariant                            par   value class
+   hyperbolic volume Vol                EVEN  nonzero
+   invariant trace field (as field)     EVEN  nonzero
+   ideal-triangulation shape z field    EVEN  nonzero
+   Ruelle zeta / analytic torsion       EVEN  nonzero
+   trace-field GALois group Z/2         EVEN  nonzero
+   Chern-Simons invariant               ODD   zero
+   eta invariant                        ODD   zero
+   orientation det-character (det X)    ODD   is_the_bit
+   signed rep-volume on Falbel V_i      ODD   zero
+   P2 falsifier hits: NONE  -> parity organization is GOVERNING: True
+   EVEN invariants verified to descend (Vol ratio 2 + trace field Q(sqrt-3)): True
+   ODD invariants are cover-only (non-orientable floor carries no CS/eta; cover amphichiral): True
+
+==========================================================================
+VERDICT LOGIC
+==========================================================================
+Part A (family-uniform parent, symbolic): True
+Part B (Gieseking descent proper, m=1)  : True
+Part C (parity column + falsifier)      : True  falsifier_fired: False
+
+VERDICT: RESOLVED-A / DESCENT-COMPLETED
+HEADLINE: Parity column completed and the Gieseking non-orientable descent closes: every metallic bundle A_m = X_m^2 double-covers the det(-1) half-monodromy floor (m=1: m000, orientation_cover isometric to figure-eight, vol ratio exactly 2, invariant trace field Q(sqrt-3) shared); EVEN invariants descend, ODD invariants are cover-only, P2 falsifier does not fire.
+DISCRIMINATING FACT: orientation_cover(m000) is isometric to the figure-eight m004 with volume ratio exactly 2 and a common regular-ideal-tetra shape field Q(sqrt-3) (disc -3), so the EVEN invariants (Vol, invariant trace field) descend to the non-orientable Gieseking floor while the ODD invariants (CS, eta, the det(-1) residue) are exactly the obstruction to that floor being orientable -- the parity column IS the descent.

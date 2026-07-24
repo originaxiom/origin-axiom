@@ -1,0 +1,186 @@
+{
+  "cell": "P2W2-DARKHYP",
+  "campaign": "B775 Phase-2 Wave-2",
+  "oi": "OI-007",
+  "construction": "theta-lift Weil seam (B534 convention), level N=p^2",
+  "verdict": "RESOLVED-A",
+  "terminal_state": "THEOREM (all-p symbolic proof)",
+  "headline": "THEOREM: at N=p^2 the theta-lift Weil seam has magnitude spectrum exactly {0,1,sqrt(p),p}; the p-adic valuation v_p(jl+4) stratifies (Z/p^2)^2 into counts p^2(p^2-p+1)/p(p-1)/1/(p^3-2p^2+p-1), proved for all odd primes by prime-power Gauss-sum diagonalisation and verified exactly (zero floats) at 7 levels p=3..19.",
+  "discriminating_fact": "The PEAK |T|=p is the UNIQUE point (2,-2) mod p^2 where the quadratic form fully degenerates (jl==-4 mod p^2) AND the residual linear character vanishes (l==-2 mod p^2); every other hyperbola point is sqrt(p) (v=1, l==-2 mod p) or dark. Counts sqrt(p)=p(p-1), peak=1, dark=p^3-2p^2+p-1, |T|=1 bulk=p^2(p^2-p+1), sum=p^4.",
+  "proof_identities_ok": true,
+  "R0_operator_equals_formula_ok": true,
+  "R1_exact_spectrum_counts_ok_p357": true,
+  "R2_classifier_counts_ok_7levels": true,
+  "R2_classifier_pointwise_ok_p357": true,
+  "spectrum": [
+    "0",
+    "1",
+    "sqrt(p)",
+    "p"
+  ],
+  "count_formulas": {
+    "|T|=1": "p^2(p^2-p+1)",
+    "|T|=sqrt(p)": "p(p-1)",
+    "|T|=p": "1",
+    "|T|=0": "p^3-2p^2+p-1"
+  },
+  "peak_point": "(2,-2) mod p^2 (unique)",
+  "levels": [
+    {
+      "p": 3,
+      "N": 9,
+      "classifier_counts": {
+        "0": 11,
+        "1": 63,
+        "sqrt(p)": 6,
+        "p": 1
+      },
+      "formula": {
+        "1": 63,
+        "sqrt(p)": 6,
+        "p": 1,
+        "0": 11
+      },
+      "formula_match": true,
+      "exact_match": true,
+      "exact_counts": {
+        "0": 11,
+        "1": 63,
+        "sqrt(p)": 6,
+        "p": 1
+      }
+    },
+    {
+      "p": 5,
+      "N": 25,
+      "classifier_counts": {
+        "0": 79,
+        "1": 525,
+        "sqrt(p)": 20,
+        "p": 1
+      },
+      "formula": {
+        "1": 525,
+        "sqrt(p)": 20,
+        "p": 1,
+        "0": 79
+      },
+      "formula_match": true,
+      "exact_match": true,
+      "exact_counts": {
+        "0": 79,
+        "1": 525,
+        "sqrt(p)": 20,
+        "p": 1
+      }
+    },
+    {
+      "p": 7,
+      "N": 49,
+      "classifier_counts": {
+        "0": 251,
+        "1": 2107,
+        "sqrt(p)": 42,
+        "p": 1
+      },
+      "formula": {
+        "1": 2107,
+        "sqrt(p)": 42,
+        "p": 1,
+        "0": 251
+      },
+      "formula_match": true,
+      "exact_match": true,
+      "exact_counts": {
+        "0": 251,
+        "1": 2107,
+        "sqrt(p)": 42,
+        "p": 1
+      }
+    },
+    {
+      "p": 11,
+      "N": 121,
+      "classifier_counts": {
+        "0": 1099,
+        "1": 13431,
+        "sqrt(p)": 110,
+        "p": 1
+      },
+      "formula": {
+        "1": 13431,
+        "sqrt(p)": 110,
+        "p": 1,
+        "0": 1099
+      },
+      "formula_match": true,
+      "exact_match": true,
+      "exact_counts": null
+    },
+    {
+      "p": 13,
+      "N": 169,
+      "classifier_counts": {
+        "0": 1871,
+        "1": 26533,
+        "sqrt(p)": 156,
+        "p": 1
+      },
+      "formula": {
+        "1": 26533,
+        "sqrt(p)": 156,
+        "p": 1,
+        "0": 1871
+      },
+      "formula_match": true,
+      "exact_match": true,
+      "exact_counts": null
+    },
+    {
+      "p": 17,
+      "N": 289,
+      "classifier_counts": {
+        "0": 4351,
+        "1": 78897,
+        "sqrt(p)": 272,
+        "p": 1
+      },
+      "formula": {
+        "1": 78897,
+        "sqrt(p)": 272,
+        "p": 1,
+        "0": 4351
+      },
+      "formula_match": true,
+      "exact_match": true,
+      "exact_counts": null
+    },
+    {
+      "p": 19,
+      "N": 361,
+      "classifier_counts": {
+        "0": 6155,
+        "1": 123823,
+        "sqrt(p)": 342,
+        "p": 1
+      },
+      "formula": {
+        "1": 123823,
+        "sqrt(p)": 342,
+        "p": 1,
+        "0": 6155
+      },
+      "formula_match": true,
+      "exact_match": true,
+      "exact_counts": null
+    }
+  ],
+  "gate_5Q": {
+    "structural_only": true,
+    "no_SM_values": true,
+    "no_consciousness": true,
+    "nothing_to_CLAIMS": true,
+    "one_number_pin_untouched": true,
+    "chord_discipline": "honest: T is a Weil-rep trace / Gauss sum, claimed as such, NOT relabeled as a non-abelian theta-odd object"
+  }
+}

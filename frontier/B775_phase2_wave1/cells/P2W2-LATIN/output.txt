@@ -1,0 +1,58 @@
+==============================================================================
+B775 P2W2-LATIN  --  Latin square of the E6_2 hearing matrix, from fusion data
+==============================================================================
+[gates] S unitary 4.2e-61  symmetric 0.0e+00  S^2=conj 3.8e-61
+[B] trace=-1.000000+7.4e-61i  order-4 dev 3.6e-60  unitary dev 1.2e-60
+
+MEASURED A-index matrix k(i,j)  (pairs order 27,351',351):
+   1  2  3
+   2  3  1
+   3  1  2
+   is Latin [[1,2,3],[2,3,1],[3,1,2]] : True   (max dev to A_k = 3.9e-61)
+
+H1  B_ij = -2i t_i^2 t_j Im S_{a_i a_j}   dev = 3.6e-61
+    S_{abar,b}=conj(S_{a,b}) identity     dev = 1.4e-61
+    => |B_ij| = 2|Im S_{a_i a_j}|         dev = 3.1e-61
+
+H2  J=351' simple current: qd(J)=1.000000  order-3=True  perm=True
+      orbit: 1, 351p, 351pb
+      orbit: 27, 650, 27b
+      orbit: 78, 351, 351b
+    27,351',351 orbits = [1, 0, 2]  (one per orbit: True)
+
+H3  current (351') row  meas = [0.736976, 0.327985, 0.591009]
+    sqrt3*S00*(qd27,qd351',qd351) = [0.736976, 0.327985, 0.591009]   dev = 2.3e-61
+    is permutation of {A1,A2,A3}: True   orbit qds distinct: True
+
+H4  arg S/(pi/3) = [[-1.0, -2.0, -2.0], [-2.0, 2.0, 2.0], [-2.0, 2.0, -1.0]]
+    all multiples of pi/3: True   |Im S|=(sqrt3/2)|S| uniformly: True
+
+H5  |S_{a_i a_j}|/S00 (qd values {1.000000, 1.801938, 2.246980}):
+      1.801938  2.246980  1.000000
+      2.246980  1.000000  1.801938
+      1.000000  1.801938  2.246980
+    all entries are qd values: True   is Latin: True
+
+H6  unique symmetric completion (rows&cols perm of A-indices, middle row=(2,3,1)):
+      #valid completions = 1   unique Latin: True
+      sqsum(=1) forces each row a permutation: True
+
+B774  B order-4 not order-2: True   B^4=I: True   (theta-odd op genuinely order-4;
+      Latin square = abelian Z/3 arrangement; values A_k transcendental modular data)
+
+------------------------------------------------------------------------------
+CHECKS (all must hold for RESOLVED-A):
+   [PASS] H1_reduction
+   [PASS] H1_amp_2ImS
+   [PASS] H2_simple_current
+   [PASS] H2_three_orbits
+   [PASS] H2_pairs_one_per_orbit
+   [PASS] H3_current_row_forced
+   [PASS] H4_uniform_phase
+   [PASS] H5_three_valued_S
+   [PASS] H6_unique_completion
+   [PASS] measured_is_latin
+   [PASS] B774_genuine_order4
+------------------------------------------------------------------------------
+VERDICT: RESOLVED-A
+THEOREM (forced by E6 level-2 fusion): the hearing-matrix Latin square is derived end-to-end from Kac-Peterson S/T data. Exact reduction B_ij = -2i t_i^2 t_j Im S_{a_i,a_j} => |B_ij| = sqrt3 |S_{a_i,a_j}| (uniform +-pi/3,+-2pi/3 phase, h_J=1/3). The order-3 simple current J=351' (qd=1) gives 3 free orbits with 27,351',351 one per orbit; the current relation S_{J,mu}=e^{2pi i Q(mu)}S_{0mu} forces the 351'-row to be sqrt3*S00*(qd27,qd351',qd351)=(A2,A3,A1), a permutation of {A1,A2,A3}; unitarity + symmetry + the Z/3-orbit 3-valuedness of |S| then force the UNIQUE Latin completion [[1,2,3],[2,3,1],[3,1,2]]. The arrangement is the abelian Z/3 center; the values A_k=(2/sqrt7)sin(2pi k/7) are the transcendental modular qd-data. Reproduced two ways.
