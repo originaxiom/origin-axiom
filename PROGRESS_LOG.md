@@ -7866,3 +7866,15 @@ is genuinely not separated by V4+volume; the D4-symmetry/trace-3 distinction is 
 Phase-3 residual). Moves 2 (c=ipseity) and 3 (Galois-vs-reversal gate) folded as
 interpretive Phase-3 feeders (Gate 5-Q, priced as C18, not banked as fact). B777 extended,
 locked, mirrored. Pending next pass: B778's CL-W4115/CL-LATIN; Phase-2 continuation.
+
+## 2026-07-24 — B778 completed 7/7 by direct computation; a cross-arc unification found
+Continuing the masterplan by direct computation (agent quota spent). The two pending
+B778 cells resolved: CL-W4115 (fabricated "adjoint 7,815" stripped — the essential
+adjoint content is [3,21,108,525,2523]; the wall hardens on verified field-disjointness
+Q√3/Q√21/Q√5) and CL-LATIN (the P2W2-LATIN downgrade confirmed two ways — the amplitude
+set is not Galois-closed, minpoly 7x³−7x²+1 has roots {A1,A2,−A3}; |·| is the non-Galois
+step). A genuine cross-arc unification emerged: CL-LATIN and P2W2-MIRROR share ONE root —
+the absolute value |·| on modular data is the non-Galois step in both, so the mirror's
+non-Galois behavior and the hearing Latin square's non-forcing are the same phenomenon.
+Both cc-self-verified. B778 is now 7/7 (R30-1 closed). The masterplan (docs/CLOSURE_MASTERPLAN.md)
+is the spine; Phase-2 continuation and Phase 3 resume next agent pass.

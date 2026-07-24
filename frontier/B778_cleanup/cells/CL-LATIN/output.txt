@@ -1,0 +1,32 @@
+==============================================================================
+B778 CL-LATIN -- is the NON-CURRENT 2x2 block 3-valuedness FORCED or MEASURED?
+==============================================================================
+orbit-|S|/S00 3x3  (rows/cols = 27, 351'[=J,current], 351):
+   1.801938  2.246980  1.000000
+   2.246980  1.000000  1.801938 <- current row (FORCED)
+   1.000000  1.801938  2.246980
+   qd-vector (27,351',351) = [2.24698, 1.0, 1.801938]
+   full orbit-|S| is Latin (measured): True
+
+[FORCED]  current row = qd-vector  dev = 3.1e-61   (351'=J in identity orbit O0)
+
+NON-CURRENT block {27(O1),351(O2)} measured entries:
+   |S_{27,27}|/S00  = 1.801938  (= qd351 1.801938 : True)
+   |S_{27,351}|/S00 = 1.000000  (= 1 : True)
+   |S_{351,351}|/S00= 2.246980  (= qd27 2.246980 : True)
+
+1-PARAMETER family (sym + doubly-stochastic + forced current row): p = 1-m0-q ; s = 1-m2-q ; q free (2 eqns, 3 unknowns)
+   explicit valid NON-Latin solution: q(N02^2)=0.3000 p(N00^2)=0.1569 s(N22^2)=0.3507
+   -> both non-current rows sq-sum to 1 (1.000, 1.000); entries NOT in {A_k}
+
+STRUCTURAL FORCING CANDIDATES on the block:
+   T1 simple current  : crosses O1<->O2 ? False ; links 27<->351 ? False  -> forces: False
+   T2 Galois          : moves a block modulus ? True (block non-real: True) -> forces: False
+   T3 Verlinde fusion : block = exact-but-unexplained qd measurement ? True (fusion is
+                        an OUTPUT of the same S -> no independent forcing)
+   T4 unitarity+phases: block phases current-forced ? False -> removes family: False
+
+   block forced by ANY structural candidate: False
+------------------------------------------------------------------------------
+VERDICT: RESOLVED-B
+The non-current 2x2 block 3-valuedness is genuinely MEASURED, not forced. Only the CURRENT row (351'=J, identity orbit O0) is forced -- |S_{351',mu}|=|S_{0,mu}|=S00*qd(mu) (dev 3.1e-61). The block on {27(O1),351(O2)} is untouched by any current relation (the Z/3 current group never links O1<->O2 or to O0; T1), is not pinned by Galois (block entries are non-real, arg = odd*pi/3, and |.| is not Galois-equivariant; T2 moves a block modulus), and symmetry+doubly-stochastic-unitarity+the forced current row leave a 1-PARAMETER family with an explicit valid NON-Latin magnitude solution. The three block equalities |S_{27,27}|=S00*qd(351), |S_{351,351}|=S00*qd(27), |S_{27,351}|=S00 are the exact-but-unexplained B629 measurements, fed into H6 as a PREMISE. The honest B775 W2 downgrade STANDS: exact + current-row-explained, NOT fully forced.

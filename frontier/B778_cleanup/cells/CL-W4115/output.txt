@@ -1,0 +1,22 @@
+==============================================================================
+CL-W4115: strip the fabricated adjoint string; re-verify the wall on real data
+==============================================================================
+chord odd-n content sqrt(res/2) = [1, 5, 19, 71]   (headline '1,5,19,71')
+  chord '1,5,19,71' REAL: True
+essential-adjoint content     = [3, 21, 108, 525, 2523]   (headline claimed '7,815')
+  adjoint '7,815' FABRICATED (absent from the real content): True
+
+chord field disc = 12 (Q(sqrt3)); adjoint disc = 21 (Q(sqrt21)); charge/abelian disc = 5 (Q(sqrt5))
+  three DISTINCT number fields: True
+  abelian (Q(sqrt5)) content divisible by 11 at n = [5, 10] (period 5) -- the T(5)=121=11^2 = e_1^2 hit, a Q(sqrt5) phenomenon
+
+==============================================================================
+VERDICT: RESOLVED-B
+  Fabricated 'adjoint 7,815' string STRIPPED (absent from the real content).
+  The wall HARDENS on the VERIFIED mechanism: the cover-torsion towers live in
+  three distinct fields (chord Q(sqrt3), adjoint Q(sqrt21), charge Q(sqrt5)), so
+  no value-collision law relates chord/adjoint to the charge tower; the lone
+  rational hit T(5)=121=11^2 is an abelian-Q(sqrt5) coincidence (period 5),
+  NOT chord structure. The chord recompute confirms W4-115c's RESOLVED-B verdict
+  on real data, with the fabrication removed.
+==============================================================================

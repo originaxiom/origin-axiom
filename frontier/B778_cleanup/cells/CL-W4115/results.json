@@ -1,0 +1,31 @@
+{
+ "cell": "CL-W4115",
+ "verdict": "RESOLVED-B",
+ "chord_content_odd": [
+  1,
+  5,
+  19,
+  71
+ ],
+ "chord_real": true,
+ "adjoint_content": [
+  3,
+  21,
+  108,
+  525,
+  2523
+ ],
+ "adjoint_7815_fabricated": true,
+ "fields": {
+  "chord": 12,
+  "adjoint": 21,
+  "charge_abelian": 5
+ },
+ "three_distinct_fields": true,
+ "abelian_hits_11_at": [
+  5,
+  10
+ ],
+ "wall_hardens": true,
+ "headline": "Fabricated 'adjoint 7,815' stripped; the cover-torsion/charge-tower wall HARDENS on the verified field-disjointness mechanism (chord Q(sqrt3), adjoint Q(sqrt21), charge Q(sqrt5) -- three distinct fields; the T(5)=121=11^2 hit is an isolated abelian-Q(sqrt5) coincidence, period 5, not chord structure)."
+}

@@ -33,3 +33,22 @@ HARDENS.** The blind-projection problem remains W4-304-isolated: every chord-che
 wall except that one is a genuine zero.
 
 Gate 5 / Gate 5-Q clean. Nothing to CLAIMS; the one-number pin untouched.
+
+---
+
+## COMPLETION (2026-07-24): the 2 pending cells resolved by direct computation — B778 now 7/7
+
+The agent quota was spent, so cc completed CL-W4115 and CL-LATIN by DIRECT computation
+(no agents) + hand-verification. Both land RESOLVED-B, both cross-checked two ways.
+
+| cell | verdict | result |
+|---|---|---|
+| **CL-W4115** | **RESOLVED-B** | The fabricated "adjoint 7,815" string STRIPPED — direct recomputation shows the essential adjoint (t²−5t+1) content is [3,21,108,525,2523], no 7, no 815 (fabricated); the chord "1,5,19,71" is REAL (odd-n √(Res/2)). The wall HARDENS on the **verified field-disjointness mechanism**: chord Q(√3), adjoint Q(√21), charge Q(√5) are three DISTINCT fields (disc 12/21/5), so no value-collision law relates chord/adjoint to the charge tower; the lone T(5)=121=11² hit is an isolated abelian-Q(√5) coincidence (content ≡0 mod 11 at n=5,10, period 5). W4-115c's RESOLVED-B stands on real data, fabrication removed. |
+| **CL-LATIN** | **RESOLVED-B** | The P2W2-LATIN downgrade CONFIRMED with a computed mechanism, by TWO independent routes: (a) the cell's full E6₂ rebuild + T1–T4 forcing-candidate test (T2 Galois fails: "|.| not Galois-equivariant"); (b) cc's direct amplitude-Galois test — {A1,A2,A3}=(2/√7)sin(2πk/7) is NOT Galois-closed (minpoly 7x³−7x²+1 has roots {A1,A2,**−A3**}). |·|'s absolute value is the **non-Galois step** — the SAME step as the mirror (P2W2-MIRROR). The Latin square is exact + Z/3-current-row-forced, but the non-current block rests on |·|, not fusion/Galois forcing. |
+
+**A cross-arc unification (recorded):** CL-LATIN and P2W2-MIRROR share one root — the
+absolute value |·| on modular data is the non-Galois step in BOTH. The mirror is
+non-Galois (anti-diagonal axis map) and the hearing Latin square is not fully forced,
+for the same reason: |S| discards the Galois sign that would close the orbit.
+
+**B778 is now 7/7 complete.** Gate 5 / Gate 5-Q clean; nothing to CLAIMS.
