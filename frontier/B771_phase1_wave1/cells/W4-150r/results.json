@@ -1,0 +1,183 @@
+{
+  "cell": "W4-150r",
+  "wave": "B771_phase1_wave4",
+  "sealed_criterion": "verdict block emits RESOLVED-A with S4 enforced => RESOLVED-A; else per the block (UNRESOLVED, or RESOLVED-B if S1's rank-3 finding were itself overturned in-cell -- not triggered here).",
+  "verdict": "RESOLVED-A",
+  "reason": "S4 fully enforced in-code: the 3 N-selection-diagnostic checks (CHECK 1/2/3) and the S4 vacuity self-test all HOLD; every other check across S1-S4 HOLDS except the 2 named, pre-characterized, non-blocking S2 (2,1) secondary diagnostics, which remain exactly the 2 known violations (no new or different failure appeared).",
+  "s4_required_checks": {
+    "names": [
+      "golden-silver (1,1): the N=250,000 width is SMALLER than both its neighbours in the sweep (N=100,000 and N=400,000) -- confirms a genuine non-monotonic dip/artifact at 250k, matching the claim that 250k undermeasures the gap (not a smooth monotonic trend that happens to pass through a small value there)",
+      "golden-silver (1,1): the width is STRICTLY MONOTONICALLY INCREASING across all four sweep points from N=400,000 through N=3,200,000 (matches 'stabilizes [no more dips] and grows monotonically from N=400k on' -- the erratic 250k-style dip does not recur in this range)",
+      "golden-silver: the (1,1) [sum=2] width exceeds the (3,-3) [sum=6] width at EVERY tested N from 400,000 to 3,200,000 (the sum-2-wider-than-sum-6 ordering the main hunt reports at one N is ROBUST across a full N-sweep, not a single-point coincidence)",
+      "SELF-TEST (vacuity guard): shrinking lam from 0.15 to 0.05 SHRINKS the (1,1) golden-silver gap width (confirms the measured width tracks the coupling and is not a lam-independent density-floor artifact that would pass regardless of lam)"
+    ],
+    "all_found_and_hold": true,
+    "missing": [],
+    "failed": []
+  },
+  "allowlist": {
+    "(2, 1): gap/lam1^2's relative step-to-step change SHRINKS by >=50x from the first to the last tested decade of lam1 (genuine convergence to a constant, not noise or a coincidental local slope)": "shrink observed = 14.0x vs the arbitrary 50x bar; (2,1)'s absolute mismatch is already tiny (order 1e-5), so it is more exposed to a subleading (plausibly lam1^2-order) correction than (1,1)/(1,2)'s larger residuals are -- does not touch S2's primary claim (the leading lam-power itself), which holds for (2,1) via the nonzero-S and <5e-3-match checks.",
+    "(2, 1): the path-sum/numerics mismatch shrinks QUADRATICALLY when lam2 shrinks 10x (observed ratio within [0.2x,5x] of the ideal 0.010 -- confirms the residual IS the expected O(lam2^2) sub-leading term, not a formula error)": "observed shrink ratio = 0.17 vs ideal 0.01; same root cause as the shrink-factor miss above (a genuinely tiny residual at this label is not cleanly lam2^2-dominated) -- does not touch S2's primary claim for (2,1)."
+  },
+  "allowlist_self_consistent": true,
+  "allowlist_issues": [],
+  "unexpected_violations": [],
+  "check_tally": {
+    "total": 30,
+    "holds": 28,
+    "violated": 2
+  },
+  "full_check_log": [
+    {
+      "name": "alpha_g is a quadratic irrational (deg 2 min poly, field Q(sqrt5))",
+      "cond": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha_s is a quadratic irrational (deg 2 min poly, field Q(sqrt2))",
+      "cond": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha_b is a quadratic irrational (deg 2 min poly, field Q(sqrt13))",
+      "cond": true,
+      "detail": ""
+    },
+    {
+      "name": "[Q(ag,as):Q]=4 -- Q(sqrt5),Q(sqrt2) are linearly disjoint (compositum has full degree 2*2)",
+      "cond": true,
+      "detail": ""
+    },
+    {
+      "name": "[Q(ag,ab):Q]=4 -- Q(sqrt5),Q(sqrt13) are linearly disjoint",
+      "cond": true,
+      "detail": ""
+    },
+    {
+      "name": "[Q(as,ab):Q]=4 -- Q(sqrt2),Q(sqrt13) are linearly disjoint",
+      "cond": true,
+      "detail": ""
+    },
+    {
+      "name": "found minimal residual is within a factor 100 of the generic 1/H^2 pigeonhole scale (NOT anomalously small -- would flag a hidden low-height relation if it were)",
+      "cond": true,
+      "detail": "ratio=0.2095"
+    },
+    {
+      "name": "S(1, 1) is nonzero to 40 mpmath digits (no exact/near-exact cancellation among the 2 monotonic paths -- excludes a hidden vanishing leading coefficient)",
+      "cond": true,
+      "detail": "|S|=5.5655e-01"
+    },
+    {
+      "name": "S(2, 1) is nonzero to 40 mpmath digits (no exact/near-exact cancellation among the 3 monotonic paths -- excludes a hidden vanishing leading coefficient)",
+      "cond": true,
+      "detail": "|S|=9.0708e+00"
+    },
+    {
+      "name": "S(1, 2) is nonzero to 40 mpmath digits (no exact/near-exact cancellation among the 3 monotonic paths -- excludes a hidden vanishing leading coefficient)",
+      "cond": true,
+      "detail": "|S|=3.8964e+00"
+    },
+    {
+      "name": "(1, 1): gap/lam1^1's relative step-to-step change SHRINKS by >=50x from the first to the last tested decade of lam1 (genuine convergence to a constant, not noise or a coincidental local slope)",
+      "cond": true,
+      "detail": "rel.changes=['7.02e-07', '6.14e-09', '2.39e-09'] shrink=293.2x"
+    },
+    {
+      "name": "(1, 1): the converged ratio (finest lam1=1e-5, lam2=0.01) MATCHES the first-principles path-sum prediction 2|S|(lam2/2)^|n2|/2^|n1| to < 5e-3 relative (a residual at this order is expected -- see the explicit lam2-scaling check below -- so the bar here is loose; the TIGHT, unambiguous confirmation is the scaling check)",
+      "cond": true,
+      "detail": "measured=0.00278277 predicted=0.00278276 rel.err=3.60e-06"
+    },
+    {
+      "name": "(2, 1): gap/lam1^2's relative step-to-step change SHRINKS by >=50x from the first to the last tested decade of lam1 (genuine convergence to a constant, not noise or a coincidental local slope)",
+      "cond": false,
+      "detail": "rel.changes=['4.94e-04', '5.09e-06', '3.53e-05'] shrink=14.0x"
+    },
+    {
+      "name": "(2, 1): the converged ratio (finest lam1=1e-5, lam2=0.01) MATCHES the first-principles path-sum prediction 2|S|(lam2/2)^|n2|/2^|n1| to < 5e-3 relative (a residual at this order is expected -- see the explicit lam2-scaling check below -- so the bar here is loose; the TIGHT, unambiguous confirmation is the scaling check)",
+      "cond": true,
+      "detail": "measured=0.02267631 predicted=0.02267706 rel.err=3.32e-05"
+    },
+    {
+      "name": "(1, 2): gap/lam1^1's relative step-to-step change SHRINKS by >=50x from the first to the last tested decade of lam1 (genuine convergence to a constant, not noise or a coincidental local slope)",
+      "cond": true,
+      "detail": "rel.changes=['1.31e-04', '1.31e-06', '7.98e-08'] shrink=1642.6x"
+    },
+    {
+      "name": "(1, 2): the converged ratio (finest lam1=1e-5, lam2=0.01) MATCHES the first-principles path-sum prediction 2|S|(lam2/2)^|n2|/2^|n1| to < 5e-3 relative (a residual at this order is expected -- see the explicit lam2-scaling check below -- so the bar here is loose; the TIGHT, unambiguous confirmation is the scaling check)",
+      "cond": true,
+      "detail": "measured=0.00009735 predicted=0.00009741 rel.err=6.06e-04"
+    },
+    {
+      "name": "(1, 1): the path-sum/numerics mismatch shrinks QUADRATICALLY when lam2 shrinks 10x (observed ratio within [0.2x,5x] of the ideal 0.010 -- confirms the residual IS the expected O(lam2^2) sub-leading term, not a formula error)",
+      "cond": true,
+      "detail": "observed=0.0100 ideal=0.0100"
+    },
+    {
+      "name": "(2, 1): the path-sum/numerics mismatch shrinks QUADRATICALLY when lam2 shrinks 10x (observed ratio within [0.2x,5x] of the ideal 0.010 -- confirms the residual IS the expected O(lam2^2) sub-leading term, not a formula error)",
+      "cond": false,
+      "detail": "observed=0.1735 ideal=0.0100"
+    },
+    {
+      "name": "(1, 2): the path-sum/numerics mismatch shrinks QUADRATICALLY when lam2 shrinks 10x (observed ratio within [0.2x,5x] of the ideal 0.010 -- confirms the residual IS the expected O(lam2^2) sub-leading term, not a formula error)",
+      "cond": true,
+      "detail": "observed=0.0100 ideal=0.0100"
+    },
+    {
+      "name": "the 0.611 gap's IDS moves MONOTONICALLY CLOSER to the (3,-3) value 0.611461... as N grows, for both seeds (error at N=512000 < error at N=8000)",
+      "cond": true,
+      "detail": "final errors ['1.01e-05', '1.01e-05']"
+    },
+    {
+      "name": "error at the largest N tested (512000) is below 1e-4 for both seeds (converging toward (3,-3), consistent with the exact predicted value, not toward some other label)",
+      "cond": true,
+      "detail": "['1.01e-05', '1.01e-05']"
+    },
+    {
+      "name": "finite-size error DECAYS with N (negative log-log slope) for both seeds -- a genuine finite-size effect, not a fluke coincidence at one N",
+      "cond": true,
+      "detail": "slopes [np.float64(-0.762), np.float64(-0.9)]"
+    },
+    {
+      "name": "(3,-3) is the UNIQUE best bounded-height match (runner-up's error is >10x larger)",
+      "cond": true,
+      "detail": "best (1.0107255398850157e-05, 3, -3, 6), runner-up (0.0021841953702439465, -9, -2, 11)"
+    },
+    {
+      "name": "golden-silver (1,1): the N=250,000 width is SMALLER than both its neighbours in the sweep (N=100,000 and N=400,000) -- confirms a genuine non-monotonic dip/artifact at 250k, matching the claim that 250k undermeasures the gap (not a smooth monotonic trend that happens to pass through a small value there)",
+      "cond": true,
+      "detail": "w(100k)=1.3004e-05 w(250k)=1.6703e-06 w(400k)=2.1213e-04"
+    },
+    {
+      "name": "golden-silver (1,1): the width is STRICTLY MONOTONICALLY INCREASING across all four sweep points from N=400,000 through N=3,200,000 (matches 'stabilizes [no more dips] and grows monotonically from N=400k on' -- the erratic 250k-style dip does not recur in this range)",
+      "cond": true,
+      "detail": "widths=['2.1213e-04', '3.8206e-04', '6.8932e-04', '1.3311e-03']"
+    },
+    {
+      "name": "golden-silver: the (1,1) [sum=2] width exceeds the (3,-3) [sum=6] width at EVERY tested N from 400,000 to 3,200,000 (the sum-2-wider-than-sum-6 ordering the main hunt reports at one N is ROBUST across a full N-sweep, not a single-point coincidence)",
+      "cond": true,
+      "detail": "[(400000, np.float64(0.0002121), np.float64(9.6e-05)), (800000, np.float64(0.0003821), np.float64(6.36e-05)), (1600000, np.float64(0.0006893), np.float64(7.45e-05)), (3200000, np.float64(0.0013311), np.float64(6.36e-05))]"
+    },
+    {
+      "name": "golden-silver: BOTH sum<=2 small-label gaps have nonzero index-width at weak coupling (they genuinely open, not density-floor noise)",
+      "cond": true,
+      "detail": "[np.float64(0.000212), np.float64(0.000861)]"
+    },
+    {
+      "name": "golden-silver: the sum<=2 gaps are WIDER than the sum-6 (3,-3) gap at the same weak coupling (matches the S2 order law: lower order = larger amplitude as lam->0)",
+      "cond": true,
+      "detail": "sum2 [np.float64(0.000212), np.float64(0.000861)] vs (3,-3) 0.000096"
+    },
+    {
+      "name": "golden-bronze: BOTH sum<=2 small-label gaps ALSO have nonzero index-width (2nd pair, robustness of the small-label-opens claim across metallic families)",
+      "cond": true,
+      "detail": "[np.float64(0.0014), np.float64(0.001715)]"
+    },
+    {
+      "name": "SELF-TEST (vacuity guard): shrinking lam from 0.15 to 0.05 SHRINKS the (1,1) golden-silver gap width (confirms the measured width tracks the coupling and is not a lam-independent density-floor artifact that would pass regardless of lam)",
+      "cond": true,
+      "detail": "width(lam=0.15)=0.000212  width(lam=0.05)=0.000033"
+    }
+  ],
+  "cell_time_s": 42.82081413269043
+}

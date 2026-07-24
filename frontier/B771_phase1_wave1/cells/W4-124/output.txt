@@ -1,0 +1,65 @@
+========================================================================
+W4-124  L105: the 2O/E7 silver-hearing conjecture (Gate 5-Q)
+========================================================================
+
+[metallic words]
+  golden  R^1L  trace=3 disc=5 field=Q(sqrt5) conductor(fund_disc)=5
+  silver  R^4L  trace=6 disc=32 field=Q(sqrt2) conductor(fund_disc)=8
+
+[congruence shadows  <R,L> mod N  (det=+1 alphabet)]
+  mod 3: |<R,L>|= 24  |SL(2,Z/3)|= 24  full=True  center=2 ab=3 hist={1: 1, 2: 1, 3: 8, 4: 6, 6: 8}
+  mod 5: |<R,L>|=120  |SL(2,Z/5)|=120  full=True  center=2 ab=1 hist={1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24}
+  mod 4: |<R,L>|= 48  |SL(2,Z/4)|= 48  full=True  center=2 ab=4 hist={1: 1, 2: 7, 3: 8, 4: 24, 6: 8}
+  mod 8: |<R,L>|=384  |SL(2,Z/8)|=384  full=True  center=4 ab=4 hist={1: 1, 2: 15, 3: 32, 4: 144, 6: 96, 8: 96}
+
+[controls] SL(2,F3) invariants == 2T: True (2T=SL(2,3), E6 being end)
+           |SL(2,F5)| == 120 == |2I|  : True (2I=SL(2,5), E8 golden, banked B644)
+
+[binary octahedral 2O (unit quaternions over Q(sqrt2))]
+  2T: order=24 center=2 ab=3 hist={1: 1, 2: 1, 3: 8, 4: 6, 6: 8}
+  2O: order=48 center=2 ab=2 hist={1: 1, 2: 1, 3: 8, 4: 18, 6: 8, 8: 12}
+
+[PREMISE: 2O character field and McKay type]
+  (exact) 2O natural-rep trace values 2a+2b*sqrt2: sqrt2 attained (some b!=0): True
+  (exact) 2O ambivalent (all characters real): True
+  2O irrep degrees [1, 1, 2, 2, 2, 3, 3, 4]  sum(sq)=48 (=48: True)
+  all 2O character values in Q(sqrt2): True   all rational (vacuity guard->False): False
+  2O McKay quiver: nodes=8 symmetric=True degree-seq=[1, 1, 1, 2, 2, 2, 2, 3] -> affine_E7
+  PREMISE (2O char field=Q(sqrt2), McKay=affine E7 = E7 partner): True
+
+[E20 comparator: Q(sqrt2) is NOT unique to 2O]
+  dihedral group of order 16 has +-sqrt2 in its character field: True
+  => 'char field Q(sqrt2)' is necessary-not-sufficient for 2O (shared with dihedral).
+
+[unique-involution signature: 2O vs GL(2,3), and vs the shadows]
+  |GL(2,3)|=48 involutions=13  vs  2O involutions=1  -> GL(2,3)~=2O: False
+  (2O has a UNIQUE involution = binary-polyhedral signature; GL(2,3) is a DIFFERENT double cover of S4)
+  involutions in shadows: {3: 1, 5: 1, 4: 7, 8: 15}  (odd-prime 3,5 -> unique; even 4,8 -> many)
+  => SL(2,Z/8) has 15 involutions -> NOT binary polyhedral -> cannot be 2O.
+
+[E20: is 2O ever SL(2,q)?  (only 2T=SL(2,3), 2I=SL(2,5) among binary polyhedral)]
+  |SL(2,q)| small: {2: 6, 3: 24, 4: 60, 5: 120, 7: 336, 8: 504, 9: 720, 11: 1320}
+  prime powers with |SL(2,q)|=48: []  (empty => 2O is NEVER SL(2,q))
+  binary-polyhedral matches: 24@q=3 (2T), 120@q=5 (2I); NO 48 -> the ladder's
+  SL(2,q)=binary-polyhedral coincidence occurs at EXACTLY two rungs, not three.
+
+[THE TEST: silver hearing group = <R,L> mod 8]
+  direct: |mod-8 shadow| = 384 == 48? False
+  natural quotient SL(2,Z/4): order=48 invariants==2O? False
+    SL(2,Z/4) hist {1: 1, 2: 7, 3: 8, 4: 24, 6: 8} (no order-8)  vs  2O hist {1: 1, 2: 1, 3: 8, 4: 18, 6: 8, 8: 12} (12 order-8)
+  silver mod-8 shadow shows 2O structure: False
+
+========================================================================
+VERDICT LOGIC
+========================================================================
+   controls_ok (2T@3,2I@5)                             : True
+   premise_true (2O=E7 McKay, char field Q(sqrt2))     : True
+   silver_shadow_shows_2O                              : False
+   2O_unreachable_as_hearing_group                     : True
+
+VERDICT: RESOLVED-B
+REASON : the silver hearing group does NOT show 2O structure and CANNOT: its mod-8 shadow is SL(2,Z/8) (order 384, not 48); the only order-48 natural quotient SL(2,Z/4) is not 2O (it has zero order-8 elements and 7 involutions, whereas 2O has 12 order-8 elements and a UNIQUE involution -- the binary-polyhedral signature); and 2O is never SL(2,q) for any prime power q. The shadow mechanism yields a binary polyhedral group only at ODD-PRIME conductors (SL(2,F3)=2T at 3, SL(2,F5)=2I at 5, each with a unique involution); the silver conductor is 8 (even, =2^3), whose shadow SL(2,Z/8) has 15 involutions and is not binary polyhedral at all. So the metallic ladder does NOT descend the exceptional series via the hearing-group mechanism -- golden->2I=SL(2,5) and being->2T=SL(2,3) are EXACTLY the two exceptional isomorphisms where a binary polyhedral group is an SL(2,q); 2O is not one, so the E7 rung is structurally absent. The conjecture is true only at the FIELD level (Q(sqrt2)=char field of 2O=E7's McKay partner, verified in-cell), which is necessary-not-sufficient and E20-deflated (the order-16 dihedral group shares Q(sqrt2)); the hearing GROUP the object actually produces at conductor 8 is SL(2,Z/8), not 2O.
+
+DISCRIMINATING FACT: The object's hearing group at the silver conductor is <R,L> mod 8 = SL(2,Z/8), order 384 != 48=|2O|. The shadow mechanism gives a binary polyhedral group (unique involution) only at odd-prime conductors: SL(2,F3)=2T at 3 (E6), SL(2,F5)=2I at 5 (E8), each with exactly 1 involution. The silver conductor 8 is even: SL(2,Z/8) has 15 involutions (not binary polyhedral), and its unique order-48 natural quotient SL(2,Z/4) has order-histogram {1: 1, 2: 7, 3: 8, 4: 24, 6: 8} (0 order-8, 7 involutions) vs 2O's {1: 1, 2: 1, 3: 8, 4: 18, 6: 8, 8: 12} (12 order-8, 1 involution) -- not isomorphic. And 2O is not SL(2,q) for any q (|SL(2,q)|=q(q^2-1) is 24 at q=3, 120 at q=5, never 48). So the golden->2I/E8 match is one of exactly TWO exceptional isomorphisms 2T=SL(2,3), 2I=SL(2,5); there is no q for 2O/E7, so the descent breaks at the silver rung. Verify-don't-trust: the folklore '2O=GL(2,3)' is FALSE (GL(2,3) has 13 involutions; the two are non-isomorphic double covers of S4). Premise (Q(sqrt2)=char field of 2O [8 irreps, degs 1,1,2,2,2,3,3,4, all values in Q(sqrt2)], McKay quiver=affine E7) is TRUE but necessary-not-sufficient and shared with dihedral-16.
+
+[wrote output.txt, results.json]

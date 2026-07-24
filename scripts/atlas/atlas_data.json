@@ -16098,6 +16098,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B772": {
+   "slug": "negatives adequacy",
+   "motifs": [
+    "figure_eight",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B525",
+    "B734",
+    "B766",
+    "B773"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B77": {
    "slug": "degree rank mechanism",
    "motifs": [

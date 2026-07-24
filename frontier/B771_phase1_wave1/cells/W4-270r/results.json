@@ -1,0 +1,142 @@
+{
+ "target_ids": [
+  0.272019649514069,
+  0.44013703852159747,
+  0.7861513777574233
+ ],
+ "depth_data": {
+  "7": {
+   "N": 12069,
+   "eps0_seedA": [
+    0.2015764133225519,
+    0.1928694850784567
+   ],
+   "eps0_seedB": [
+    0.1937968165199006,
+    0.181046849215802
+   ],
+   "curv_b_seedA": [
+    -0.8218658897165656,
+    -1.8650687439050733
+   ],
+   "ratio_eps0_A": 1.0451441462632274,
+   "ratio_eps0_B": 1.0704235801911197,
+   "banked_seedA": [
+    0.1927468398631622,
+    0.15469539178354708
+   ],
+   "banked_seedB": [
+    0.19408012571714464,
+    0.1543442042984863
+   ],
+   "ratio_banked_A": 1.2459766101685659,
+   "ratio_banked_B": 1.2574500390167747
+  },
+  "8": {
+   "N": 44368,
+   "eps0_seedA": [
+    0.17989170623175765,
+    0.15673190673444512
+   ],
+   "eps0_seedB": [
+    0.1783886659259731,
+    0.15508639346285638
+   ],
+   "curv_b_seedA": [
+    0.16029705036705,
+    -0.22415365814837593
+   ],
+   "ratio_eps0_A": 1.1477669734252183,
+   "ratio_eps0_B": 1.150253493828894,
+   "banked_seedA": [
+    0.19148498494285912,
+    0.15262764918499921
+   ],
+   "banked_seedB": [
+    0.19306852024842414,
+    0.1526580870390428
+   ],
+   "ratio_banked_A": 1.2545890994544582,
+   "ratio_banked_B": 1.2647120371621468
+  },
+  "9": {
+   "N": 163106,
+   "eps0_seedA": [
+    0.17460105770803686,
+    0.1520887381500983
+   ],
+   "eps0_seedB": [
+    0.17511405469309393,
+    0.15189414986438604
+   ],
+   "curv_b_seedA": [
+    0.4388560998162899,
+    -0.0069746863156433135
+   ],
+   "ratio_eps0_A": 1.1480209503462437,
+   "ratio_eps0_B": 1.152868987050779,
+   "banked_seedA": [
+    0.19144392237978083,
+    0.15237792965531857
+   ],
+   "banked_seedB": [
+    0.1930512108206246,
+    0.1524514206689526
+   ],
+   "ratio_banked_A": 1.2563756628852367,
+   "ratio_banked_B": 1.2663129669341306
+  }
+ },
+ "completed_depths": [
+  7,
+  8,
+  9
+ ],
+ "honest_depth_cap": 9,
+ "ratio_eps0_by_depth": {
+  "7": 1.0451441462632274,
+  "8": 1.1477669734252183,
+  "9": 1.1480209503462437
+ },
+ "ratio_banked_by_depth": {
+  "7": 1.2459766101685659,
+  "8": 1.2545890994544582,
+  "9": 1.2563756628852367
+ },
+ "eps0": {
+  "value": 1.1480209503462437,
+  "noise": 0.004222951421812452,
+  "digits": 2.3743839143979995,
+  "converged": true
+ },
+ "banked": {
+  "value": 1.2563756628852367,
+  "noise": 0.007909500591624916,
+  "digits": 2.101850937127941,
+  "converged": true
+ },
+ "achieved_digits": 2,
+ "candidate_sqrt(1/phi^2+1)": {
+  "value": "1.17557050458",
+  "rel_err_vs_eps0": "0.023997",
+  "rel_err_vs_banked": "0.064316",
+  "refuted_eps0": true,
+  "refuted_banked": true,
+  "refuted_both": true
+ },
+ "base_rate_close_forms": [
+  "sqrt(1+1/(2phi))",
+  "23/20",
+  "sqrt(4/3)"
+ ],
+ "pslq_hit_trusted": null,
+ "pslq_rule_satisfiable": false,
+ "verdict": "RESOLVED-B",
+ "rationale": "bounded negative: the depth-cap reading is converged (<2%) and the named candidate is refuted with a >3x-noise margin in BOTH fit-protocol readings; no exact form is identifiable at this precision",
+ "failed_gates": [
+  "G8 sealed PSLQ rule satisfiable (needs >=15 honest digits: agree-14>=1)"
+ ],
+ "_partial": false,
+ "_stage": "final",
+ "discriminating_fact": "The gap-slope 'ratio' is fit-protocol dependent, not a single number. gap-1's width has real positive eps-curvature (d2 gap/d eps2 ~ 0.44) while gap-2's is ~0 (b2 ~ -0.007); a curvature-removed eps->0 fit gives ratio 1.14802 (depth cap 9, N=163106, two eps seeds, noise 4.2e-03 ~ 2.4 digits) while the banked straight-through-origin large-eps line gives 1.25638. The named candidate sqrt(1/phi^2+1) = 1.17557 lies BETWEEN the two readings and matches NEITHER: it misses the eps->0 reading by 2.40% and the banked reading by 6.43%, both > 3x the respective noise floors -- refuted in BOTH directions. No exact form is identifiable via this numerical route: the achieved precision (2 honest digits) is far below the sealed tolerance-height rule's 15-digit floor, and the base-rate control shows simple/golden forms collide at this precision."
+}

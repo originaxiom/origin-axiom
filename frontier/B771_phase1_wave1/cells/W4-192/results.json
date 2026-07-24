@@ -1,0 +1,27 @@
+{
+  "cell": "W4-192",
+  "hint": "H118",
+  "gate": "5-Q (structural only; no SM-value/physics claim; E20 on specialness)",
+  "verdict": "RESOLVED-B",
+  "headline": "door real (Stab_f4(nested C)=12=dim su3+su2+u1) but the nested pair sits on positive-dim moduli (complex-struct orbit 6, idempotent orbit 16; comparators R=15,H=16 != 12): NO canonical selection -- the qubit-qutrit pair is a choice, not forced",
+  "discriminating_fact": "Stab_f4(nested h2(C)<h3(C)<h3(O)) has dim 12 (= dim su3+su2+u1 = 12 iff door real); but the complex structure inside O lies on a 6-dim G2-orbit and the h2-selecting idempotent on a 16-dim F4-orbit, and the SAME nested-stabilizer recipe gives dim 15 for R and 16 for H -- so C, and the pair, are chosen not canonically forced.",
+  "g2_dim": 14,
+  "f4_dim": 52,
+  "stab_nested_C_dim": 12,
+  "stab_h3C_only_dim": 16,
+  "stab_nested_R_dim": 15,
+  "stab_nested_H_dim": 16,
+  "complex_structure_orbit_dim": 6,
+  "primitive_idempotent_orbit_dim": 16,
+  "door_exists": true,
+  "comparators_show_C_is_a_choice": true,
+  "noncanonical_positive_moduli": true,
+  "svd_gaps": {
+    "g2": 1004830602859302.5,
+    "f4": 281117959039326.25,
+    "stab_C": 435001013647227.1,
+    "stab_R": 386179570064892.8,
+    "stab_H": 375671395327373.2
+  },
+  "notes": "dim-12 stabilizer is reported as dim(su3 (+) su2 (+) u1), a Lie-algebra structure fact only; no Standard-Model value or physics reading is asserted (Gate 5-Q).  The verdict turns on whether the nested pair is canonically selected (rigid) or chosen from a moduli space; positive orbit dims => chosen."
+}

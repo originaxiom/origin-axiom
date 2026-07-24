@@ -1,0 +1,49 @@
+[   0.00s] ===== Fibonacci: sub={'a': 'ab', 'b': 'a'} =====
+[   0.01s] GATE Fibonacci:primitive: PASS  M^2>0
+[   0.24s] GATE Fibonacci:aperiodic: PASS  p(n)=[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] (>= n+1, non-decreasing, unbounded)
+[   0.24s] GATE Fibonacci:recognizable(Mosse): PASS  primitive+aperiodic => Mosse
+[   0.29s] Fibonacci: collar depth 1: tiles=4  forces_border=True
+[   0.36s] GATE Fibonacci:forcing-stable@2: PASS  border must remain forced under further collaring
+[   0.36s] Fibonacci: raw forces_border=False   force_table=[(0, False), (1, True), (2, True)]   d*=1
+[   0.40s] Fibonacci: @d*=1  AP complex E=4 V=3 b1=2
+[   0.40s] Fibonacci: @d*=1  induced H_1 matrix B=
+Matrix([[1, 1], [1, 0]])
+[   0.40s] Fibonacci: @d*=1  charpoly(B)=x**2 - x - 1  rank=2  det_image=-1  primes_inverted={}
+[   0.40s] Fibonacci: @d*=1  Hˇ^0=Z  Hˇ^1=Z^2
+[   0.41s] GATE Fibonacci:Hˇ^1 stable under extra collar: PASS  Hˇ^1@d*=Z^2  Hˇ^1@d*+1=Z^2
+[   0.41s] GATE Fibonacci:CONTROL matches textbook Hˇ^1: PASS  got Z^2, expected Z^2
+[   0.42s] ===== Thue-Morse: sub={'a': 'ab', 'b': 'ba'} =====
+[   0.42s] GATE Thue-Morse:primitive: PASS  M^1>0
+[   0.75s] GATE Thue-Morse:aperiodic: PASS  p(n)=[2, 4, 6, 10, 12, 16, 20, 22, 24, 28, 32, 36] (>= n+1, non-decreasing, unbounded)
+[   0.75s] GATE Thue-Morse:recognizable(Mosse): PASS  primitive+aperiodic => Mosse
+[   0.80s] Thue-Morse: collar depth 1: tiles=6  forces_border=True
+[   0.88s] GATE Thue-Morse:forcing-stable@2: PASS  border must remain forced under further collaring
+[   0.88s] Thue-Morse: raw forces_border=False   force_table=[(0, False), (1, True), (2, True)]   d*=1
+[   0.89s] Thue-Morse: @d*=1  AP complex E=6 V=4 b1=3
+[   0.89s] Thue-Morse: @d*=1  induced H_1 matrix B=
+Matrix([[1, 1, 0], [1, 0, 1], [1, 1, 0]])
+[   0.89s] Thue-Morse: @d*=1  charpoly(B)=x**3 - x**2 - 2*x  rank=2  det_image=-2  primes_inverted={2: 1}
+[   0.89s] Thue-Morse: @d*=1  Hˇ^0=Z  Hˇ^1=Z (+) Z[1/2]
+[   0.90s] GATE Thue-Morse:Hˇ^1 stable under extra collar: PASS  Hˇ^1@d*=Z (+) Z[1/2]  Hˇ^1@d*+1=Z (+) Z[1/2]
+[   0.90s] GATE Thue-Morse:CONTROL matches textbook Hˇ^1: PASS  got Z (+) Z[1/2], expected Z (+) Z[1/2]
+[   0.91s] GATE vacuity:controls-differ: PASS  Fib=Z^2  TM=Z (+) Z[1/2]
+[   0.91s] ===== sigma_4: sub={'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'} =====
+[   0.91s] GATE sigma_4:primitive: PASS  M^2>0
+[   1.44s] GATE sigma_4:aperiodic: PASS  p(n)=[4, 7, 10, 13, 17, 20, 23, 26, 30, 34, 37, 40] (>= n+1, non-decreasing, unbounded)
+[   1.44s] GATE sigma_4:recognizable(Mosse): PASS  primitive+aperiodic => Mosse
+[   1.53s] sigma_4: collar depth 1: tiles=10  forces_border=True
+[   1.70s] GATE sigma_4:forcing-stable@2: PASS  border must remain forced under further collaring
+[   1.70s] sigma_4: raw forces_border=False   force_table=[(0, False), (1, True), (2, True)]   d*=1
+[   1.72s] sigma_4: @d*=1  AP complex E=10 V=7 b1=4
+[   1.72s] sigma_4: @d*=1  induced H_1 matrix B=
+Matrix([[0, 0, 1, 1], [1, 0, 1, 1], [1, 1, 1, 1], [1, 1, 2, 1]])
+[   1.72s] sigma_4: @d*=1  charpoly(B)=x**4 - 2*x**3 - 5*x**2 - 4*x - 1  rank=4  det_image=-1  primes_inverted={}
+[   1.72s] sigma_4: @d*=1  Hˇ^0=Z  Hˇ^1=Z^4
+[   1.75s] GATE sigma_4:Hˇ^1 stable under extra collar: PASS  Hˇ^1@d*=Z^4  Hˇ^1@d*+1=Z^4
+[   1.80s] GATE sigma_4:7-transitions(banked): PASS  admissible 2-blocks=['AA', 'AB', 'Aa', 'Ba', 'aA', 'ab', 'bA']
+[   1.80s] GATE sigma_4:raw-does-not-force(comparator): PASS  raw substitution fails border-forcing => collaring does real work
+[   1.80s] ================================================================
+[   1.80s] VERDICT: RESOLVED-A
+[   1.80s] HEADLINE: sigma_4 border FORCED at collar depth d*=1; certified AP complex E=10 V=7 b1=4; Hˇ^0=Z, Hˇ^1=Z^4 (stable under extra collaring)
+[   1.80s] FAILED GATES: []
+[   1.80s] wrote /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W4-084r/results.json
