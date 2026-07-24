@@ -1,0 +1,44 @@
+[    0.0s] CONVENTIONS: p=3, coordinate x_a = a mod 81, v_3(3)=1, values exact.
+[    0.0s] loaded 24 support cells: 12 line (1/12) + 12 triple; triple classes mod405 [121, 256, 391] -> k [10, 19, 1]
+[    0.0s] === PART 1: 3-adic boundedness of the tower values ===
+[    0.0s]   2cos(2pi/9) : minpoly deg 3, const term 1, v_3(roots) = {'0'} -> UNIT (v_3=0)
+[    0.1s]   2cos(2pi/27) : minpoly deg 9, const term 1, v_3(roots) = {'0'} -> UNIT (v_3=0)
+[    0.2s]   2cos(2pi/81) : minpoly deg 27, const term 1, v_3(roots) = {'0'} -> UNIT (v_3=0)
+[    0.2s]   1+2cos(2pi/9)  : minpoly x**3 - 3*x**2 + 3 (Eisenstein at 3), v_3(roots) = {'1/3'}
+[    0.2s]   => numerators all v_3 >= 0 : True
+[    0.2s]   => every value = numerator/12 has v_3 >= -1; v_3(1/12 line) = -1 EXACT.
+[    0.2s]   => 12*mu is 3-integral; the tower measure is 3-adically BOUNDED (pole/boundedness-defect = one factor of 3).
+[    0.2s]   e3 witness: v_3(e3 = cos(2pi/9)/864) = -3 = 3*(-1) (three triple values, each v_3 = -1) -- matches the line edge.
+[    0.2s] === PART 2: Amice-Mazur transform A_mu(T) = sum c_n T^n, exact ===
+[    0.2s]   pushforward nu supported on 6 residues mod 81 (24 cells; 18 3-adic collisions)
+[    0.2s]   m_0 (total mass, int 1 dmu) = 1  (banked sum rule: 1)
+[    0.2s]   c_ 0 : field Q             1
+[    0.2s]   c_ 1 : field Q(zeta27)+    
+[    0.2s]   c_ 2 : field Q(zeta27)+    
+[    0.2s]   c_ 3 : field Q(zeta27)+    
+[    0.2s]   c_ 4 : field Q(zeta27)+    
+[    0.2s]   c_ 5 : field Q(zeta27)+    
+[    0.2s]   c_ 6 : field Q(zeta27)+    
+[    0.2s]   c_ 7 : field Q(zeta27)+    
+[    0.2s]   c_ 8 : field Q(zeta27)+    
+[    0.2s]   c_ 9 : field Q(zeta27)+    
+[    0.2s]   c_10 : field Q(zeta27)+    
+[    0.2s]   c_11 : field Q(zeta27)+    
+[    0.2s]   c_12 : field Q(zeta27)+    
+[    0.2s]   A_mu(T) constant term c_0 = m_0 = 1 : True
+[    0.2s]   coefficient field grows into Q(zeta27)+ (beyond Q) : True
+[    0.2s]   mu-invariant (min_n v_3(c_n)) in [-1, 0]; = -1 attained (1/12 line coefficient); the boundedness pole is ORDER 1.
+[    0.2s] === PART 3: independent float recomputation (different arithmetic) ===
+[    0.2s]   m_0 (float) = 1.000000000000000  (exact 1)
+[    0.3s]   max RELATIVE |c_n(float) - c_n(exact)| over n<= 12 = 2.22e-16  (exact transform reproduced independently)
+[    0.3s] === VERDICT ===
+[    0.3s] VERDICT: RESOLVED-A
+[    0.3s] The tower measure is 3-adically BOUNDED (every value = (3-unit or Eisenstein element)/12, so v_3 >= -1 with -1 attained on the frozen 1/12 line; e3 = cos(2pi/9)/864 has v_3 = -3 = 3*(-1), an in-cell witness), hence 12*mu is 3-integral and its Amice-Mazur p-adic L-function A_mu(T)=sum c_n T^n EXISTS as a bounded power series in C_3[[T]]; computed with its structure: constant term c_0 = total mass = 1 (trace-zero coherence), mu-invariant = boundedness pole of ORDER 1, coefficient field Q(zeta27)+ (grows up the ramified tower -- so it is the transform of a C_3-valued bounded Fourier/character measure, NOT a classical fixed-field Kubota-Leopoldt L-function). Reproduced two ways (exact cyclotomic + independent float, agree to ~1e-15).
+
+{
+ "cell": "P2W2-PADIC",
+ "verdict": "RESOLVED-A",
+ "headline": "The tower measure is 3-adically BOUNDED (every value = (3-unit or Eisenstein element)/12, so v_3 >= -1 with -1 attained on the frozen 1/12 line; e3 = cos(2pi/9)/864 has v_3 = -3 = 3*(-1), an in-cell witness), hence 12*mu is 3-integral and its Amice-Mazur p-adic L-function A_mu(T)=sum c_n T^n EXISTS as a bounded power series in C_3[[T]]; computed with its structure: constant term c_0 = total mass = 1 (trace-zero coherence), mu-invariant = boundedness pole of ORDER 1, coefficient field Q(zeta27)+ (grows up the ramified tower -- so it is the transform of a C_3-valued bounded Fourier/character measure, NOT a classical fixed-field Kubota-Leopoldt L-function). Reproduced two ways (exact cyclotomic + independent float, agree to ~1e-15).",
+ "discriminating_fact": "Numerators 2cos(2pi/3^j) are 3-adic UNITS (minimal polynomials x^3-3x+1, and the degree-9/27 trisection polynomials, all have constant term 1 -> flat 3-adic Newton polygon -> v_3=0) while 1+2cos(2pi/9) is Eisenstein at 3 (v_3=1/3); dividing by 12 gives v_3 >= -1 with equality on the 1/12 line -- BOUNDEDNESS, the exact condition (Amice) for the p-adic L-function to exist. e3's valuation -3 = 3*(-1) cross-confirms.",
+ "terminal_state": "COMPUTED (bounded measure; transform + structure in hand)"
+}

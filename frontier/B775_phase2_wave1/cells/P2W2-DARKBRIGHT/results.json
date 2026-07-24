@@ -1,0 +1,216 @@
+{
+ "cell": "P2W2-DARKBRIGHT",
+ "OI": "OI-044",
+ "definition": "dark <=> s-matrix (sqrt(-15) coeff of H-proj DFT pair-trace) == 0",
+ "verdict": "UNRESOLVED",
+ "terminal_state": "WALLED: no closed-form seed/group/marked-trace criterion; verified EFFECTIVE test (B390 s-channel locality, 12/12+OOS) standing; genuine separator is the non-abelian v_word layer (B385), unreduced",
+ "headline": "D3(a) has an explicit VERIFIED effective test (bright <=> the sqrt(-15) coefficient of the local q=3*q=5 convolution is nonzero -- a fixed rank-2 form, 12/12 + out-of-sample), but NO closed-form arithmetic criterion on (m1,m2): the unmarked SL(2,Z/15) group bundle is identical for (1,3)-dark and (3,4)-bright, the canonical marked commutator trace is identical for (1,4)-dark and (3,4)-bright (kappa=-142), and no single seed-trace congruence beats 11/12; the genuine separator lives in the non-abelian v_word (Heisenberg) layer and is unreduced to closed form.",
+ "discriminating_fact": "TWO in-cell no-go facts against a closed-form seed criterion: (B1) (1,3)-DARK and (3,4)-BRIGHT have a byte-identical UNMARKED SL(2,Z/15) group bundle (|G|=480, mod3=4, mod5=120; identical order/trace-15/3/5 and det(g-I) multisets); (B2) (1,4)-DARK and (3,4)-BRIGHT share the identical canonical MARKED coordinate kappa=tr[g1,g2]=-142.  s-channel (reproduced in-cell): (1,3)=0 cells DARK, (1,4)=0 cells DARK, (3,4)=24 cells BRIGHT.  No single seed-trace congruence beats 11/12.",
+ "partA_riddle_verdicts": {
+  "1,3": {
+   "ords": [
+    20,
+    6
+   ],
+   "s_bright": false,
+   "n_s_cells": 0,
+   "sum_s_sq": "0",
+   "banked": "dark",
+   "predicted": "dark",
+   "match": true
+  },
+  "1,4": {
+   "ords": [
+    20,
+    20
+   ],
+   "s_bright": false,
+   "n_s_cells": 0,
+   "sum_s_sq": "0",
+   "banked": "dark",
+   "predicted": "dark",
+   "match": true
+  },
+  "3,4": {
+   "ords": [
+    6,
+    20
+   ],
+   "s_bright": true,
+   "n_s_cells": 24,
+   "sum_s_sq": "1/192",
+   "banked": "bright",
+   "predicted": "bright",
+   "match": true
+  }
+ },
+ "partA_all3_reproduced": true,
+ "partB1_unmarked_bundle_13": {
+  "absG": 480,
+  "absG3": 4,
+  "absG5": 120,
+  "minusI_in_G": true,
+  "order_multiset": {
+   "1": 1,
+   "2": 3,
+   "3": 20,
+   "4": 124,
+   "5": 24,
+   "6": 60,
+   "10": 72,
+   "12": 80,
+   "20": 96
+  },
+  "trace15_multiset": {
+   "0": 60,
+   "1": 20,
+   "2": 25,
+   "3": 50,
+   "4": 20,
+   "5": 30,
+   "6": 40,
+   "7": 25,
+   "8": 25,
+   "9": 40,
+   "10": 30,
+   "11": 20,
+   "12": 50,
+   "13": 25,
+   "14": 20
+  },
+  "trace3_multiset": {
+   "0": 240,
+   "1": 120,
+   "2": 120
+  },
+  "trace5_multiset": {
+   "0": 120,
+   "1": 80,
+   "2": 100,
+   "3": 100,
+   "4": 80
+  },
+  "detgmI_class_multiset": {
+   "0": 25,
+   "1": 20,
+   "2": 60,
+   "3": 20,
+   "4": 25,
+   "5": 50,
+   "6": 20,
+   "7": 30,
+   "8": 40,
+   "9": 25,
+   "10": 25,
+   "11": 40,
+   "12": 30,
+   "13": 20,
+   "14": 50
+  }
+ },
+ "partB1_unmarked_bundle_34": {
+  "absG": 480,
+  "absG3": 4,
+  "absG5": 120,
+  "minusI_in_G": true,
+  "order_multiset": {
+   "1": 1,
+   "2": 3,
+   "3": 20,
+   "4": 124,
+   "5": 24,
+   "6": 60,
+   "10": 72,
+   "12": 80,
+   "20": 96
+  },
+  "trace15_multiset": {
+   "0": 60,
+   "1": 20,
+   "2": 25,
+   "3": 50,
+   "4": 20,
+   "5": 30,
+   "6": 40,
+   "7": 25,
+   "8": 25,
+   "9": 40,
+   "10": 30,
+   "11": 20,
+   "12": 50,
+   "13": 25,
+   "14": 20
+  },
+  "trace3_multiset": {
+   "0": 240,
+   "1": 120,
+   "2": 120
+  },
+  "trace5_multiset": {
+   "0": 120,
+   "1": 80,
+   "2": 100,
+   "3": 100,
+   "4": 80
+  },
+  "detgmI_class_multiset": {
+   "0": 25,
+   "1": 20,
+   "2": 60,
+   "3": 20,
+   "4": 25,
+   "5": 50,
+   "6": 20,
+   "7": 30,
+   "8": 40,
+   "9": 25,
+   "10": 25,
+   "11": 40,
+   "12": 30,
+   "13": 20,
+   "14": 50
+  }
+ },
+ "partB1_unmarked_identical": true,
+ "partB2_kappa_14": -142,
+ "partB2_kappa_34": -142,
+ "partB2_commutator_wall": true,
+ "partB3_single_separators": [],
+ "partB3_best_seed_rule_score": "11/12",
+ "seed_types": {
+  "1": [
+   "ell",
+   "par"
+  ],
+  "2": [
+   "ell",
+   "ell"
+  ],
+  "3": [
+   "par",
+   "ell"
+  ],
+  "4": [
+   "ell",
+   "par"
+  ],
+  "5": [
+   "ell",
+   "par"
+  ],
+  "7": [
+   "ell",
+   "ell"
+  ]
+ },
+ "effective_test": "B390: bright <=> sqrt(-15) coeff of the local q=3*q=5 convolution is nonzero (rank-2 pairing); verified 12/12 + out-of-sample (2,5); re-run this session (tensor gate PASS, G1+G2 12/12).",
+ "chord_discipline_note": "B774: the s-channel is theta-odd but factorizes through a rank-2 bilinear form on abelian local spectra (B390) -- a character-level object.  B385 verified that group and character/word-statistic invariants do NOT separate; the only layer that sees the riddle is the non-abelian v_word (Heisenberg-accumulated word shift).  So the s-channel test is an effective characterization, not the closed theta-odd criterion; presenting it as 'the criterion' would be a relabeled trace invariant (the flagged failure mode).",
+ "base_rate_caveat": "With enough ad-hoc Boolean features one can always fit 12 labeled points; the honest statement is that no NATURAL single seed-trace congruence/QR separates, and two identical-invariant/opposite-verdict pairs prove the two canonical candidate levels (unmarked group; commutator trace) cannot.",
+ "gate_5Q": {
+  "structural_only": true,
+  "no_SM_values": true,
+  "no_consciousness": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true
+ }
+}

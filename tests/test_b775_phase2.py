@@ -43,3 +43,27 @@ def test_p2_wave1_all_upheld():
     # the three tombstones
     tomb = [c for c in cells if c.get("terminal_state", "").startswith("DISMISSED")]
     assert len(tomb) == 3
+
+
+# ---- Wave 2 locks -------------------------------------------------------------
+
+
+def test_p2w2_mirror_empty_set():
+    # the mirror as a diagonal index-scaling needs c=1 mod 20 AND c=-1 mod 12 -> impossible
+    assert (1 % 4) != (3 % 4)  # c=1 mod20 => 1 mod4; c=-1 mod12 => 3 mod4
+    # the (2,3) stabilizer = units mod 60 with c = +-1 mod 5 (the sqrt5-fixing half-group)
+    units60 = [c for c in range(1, 60) if sp.gcd(c, 60) == 1]
+    half = [c for c in units60 if c % 5 in (1, 4)]
+    assert half == [1, 11, 19, 29, 31, 41, 49, 59]
+    # the phantom unit 49 is index-trivial at orders (12,6)
+    assert 49 % 12 == 1 and 49 % 6 == 1
+
+
+def test_p2w2_wave2_shape():
+    d = json.loads((ARC / "wave2_results.json").read_text())
+    cells = {c["id"]: c for c in d["cells"]}
+    assert len(cells) == 7  # DARKHYP dropped on the output cap
+    upheld = sorted(i for i, c in cells.items() if c["upheld"])
+    assert len(upheld) == 6
+    assert cells["P2W2-LATIN"]["upheld"] is False  # the forcing-overclaim catch
+    assert cells["P2W2-PERLETTER"]["verdict"] == "RESOLVED-B"  # per-letter weight tombstoned

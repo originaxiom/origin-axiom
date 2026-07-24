@@ -1,0 +1,77 @@
+==========================================================================================
+CELL P2W2-PERLETTER -- is a per-letter hearing weight FORCED by structure?
+==========================================================================================
+
+-- STEP 0: reproduce the banked WORD-level amplitude (gate) --
+  q(RL) = u3^dag (C rho(RL)) u3 = +0.309016994+0.425325404j
+  banked 1/(2phi) + i sin(2pi/5)/sqrt5 = +0.309016994+0.425325404j
+  GATE match: True   [Re = 1/(2phi) = 0.309016994, |amp| = 0.525731112]
+
+-- STEP 1: the per-letter candidate = the hearing form at LENGTH-1 welds --
+  q(R) = u3^dag (C rho(R)) u3 = -0.669130606-0.743144825j   |q(R)| = 1.000000000
+  q(L) = u3^dag (C rho(L)) u3 = +0.522851102+0.054953865j   |q(L)| = 0.525731112
+
+  the R-letter collapses to a CHARACTER/SPIN invariant (B774 chord discipline):
+    theta_fund (topological spin of the fundamental) = +0.669130606+0.743144825j
+    q(R) = -theta_fund EXACTLY: True   |q(R)| = 1: True
+    => the diagonal letter R contributes ONLY a phase (abelian spin), no
+       magnitude, no non-abelian content -- the exact 'relabeled character
+       invariant' B774 warns against.
+
+  the L-letter carries the FULL modulus:
+    |q(L)|^2 = 0.276393202 = (5-sqrt5)/10 = 1/(phi*sqrt5): True
+    |q(RL)| = |q(L)| = 0.525731112  -- the word adds NO magnitude over L.
+
+-- STEP 2: the amplitude factors over R, but R's factor is a pure phase --
+  q(RL) = +0.309016994+0.425325404j
+  q(LR) = +0.309016994+0.425325404j   q(RL)==q(LR): True (order-independent here)
+  theta_fund * q(L) = +0.309016994+0.425325404j
+  q(RL) = theta_fund * q(L) = -q(R)*q(L) EXACTLY: True
+  => the ONLY per-letter decomposition the structure forces is:
+       R-letter -> a spin PHASE (character invariant, |.|=1, no magnitude)
+       L-letter -> the entire complex amplitude (|.|=0.5257 = sqrt(1/(phi*sqrt5)))
+     there is ONE non-trivial hearing amplitude (L's); it is not a per-letter
+     DISTRIBUTION of weight -- a single generator carries all of it.
+
+-- STEP 3: the killed 1/(2phi) is a projection knob, not a per-letter value --
+    Re q(RL) (the killed 1/(2phi))     = +0.309016994
+    |q(L)|  (modulus proj)             = +0.525731112
+    |q(L)|^2 (Born proj)               = +0.276393202
+    Re q(L)                            = +0.522851102
+    Re q(R)                            = -0.669130606
+    |q(R)|^2                           = +1.000000000
+  1/(2phi) = Re q(RL) MIXES R's phase (theta_fund) with L's magnitude; it
+  equals none of the forced single-letter magnitudes. Choosing Re vs |.| vs
+  |.|^2 changes the number (0.3090 / 0.5257 / 0.2764) -- the B751-addendum
+  three-projection knob. No projection is object-forced.
+
+-- STEP 4: two disjoint alphabets -- frequency (forced) != amplitude (weld-only) --
+  substitution alphabet {a,b} (a->ab, b->a): forced Perron frequencies
+    freq(a) = -1/2 + sqrt(5)/2 = 0.618034 (= 1/phi)
+    freq(b) = 3/2 - sqrt(5)/2 = 0.381966 (= 1/phi^2)
+  mapping-class alphabet {R,L}: the hearing amplitude q(.) lives HERE.
+  the frequencies are amplitude-LESS (no hearing form on a bare substitution
+  letter -- hearing is defined only on welds/monodromy words). The killed
+  (1/phi^2)_{a,b} * (1/(2phi))_{R,L} MULTIPLIES across two disjoint alphabets;
+  no forced functor identifies b with R or L, or a with the other.
+
+==========================================================================================
+VERDICT
+==========================================================================================
+  (C1) forced/derivable from B593 (length-1 welds):        True
+  (C2) genuinely non-abelian per letter (not a character): False
+       [q(R) = -theta_fund exactly -> abelian spin invariant, B774 trap]
+  (C3) a per-letter DISTRIBUTION of weight:                False
+       [q(RL) = theta_fund*q(L): R contributes only a phase, L carries all]
+  (C4) forced alphabet bridge + forced real projection:    False
+       [Fibonacci {a,b} freqs forced (1/phi,1/phi^2) but amplitude-less;
+        Re vs |.| vs |.|^2 = 0.3090/0.5257/0.2764 is a free knob]
+
+  VERDICT: RESOLVED-B
+  NO non-arbitrary per-letter hearing weight: the only structure-forced per-letter decomposition is q(RL)=theta_fund*q(L) -- the diagonal letter R is a pure spin/character invariant (B774 trap) and the single non-diagonal generator L carries the ENTIRE amplitude, so there is no per-letter DISTRIBUTION; the amplitude lives in the mapping-class alphabet {R,L}, disjoint from the Fibonacci {a,b} whose forced per-letter structure is the amplitude-less FREQUENCY (1/phi,1/phi^2); and 1/(2phi)=Re q(RL) is a word-level projection knob (Re/|.|/|.|^2 all 'natural'). The per-letter attribution is a free composition -- a knob, tombstone.
+
+  DISCRIMINATING FACT:
+  The hearing form factors over the diagonal letter, q(RL)=theta_fund*q(L)=-q(R)q(L), with q(R)=-theta_fund EXACTLY (|q(R)|=1) -- a pure spin/character invariant (B774 trap) -- and the single non-diagonal generator L carrying the ENTIRE modulus |q(L)|^2=(5-sqrt5)/10=1/(phi*sqrt5). So there is no per-letter DISTRIBUTION of hearing weight (one generator holds all of it), the chiral content is not a per-letter property, and these amplitudes live in the mapping-class alphabet {R,L}, disjoint from the Fibonacci {a,b} whose only forced per-letter structure is the amplitude-less FREQUENCY 1/phi, 1/phi^2. The killed 1/(2phi)=Re q(RL) is a word-level projection (Re vs |.| vs |.|^2 = 0.3090/0.5257/0.2764, a free knob). => no non-arbitrary per-letter hearing weight is forced.
+
+  GATE 5 self-check: no SM value compared (alpha_s NOT recomputed or matched);
+  one-number pin untouched; structural only; no consciousness claim. PASS.

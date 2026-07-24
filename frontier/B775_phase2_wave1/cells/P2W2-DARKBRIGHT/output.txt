@@ -1,0 +1,32 @@
+convention (u3,u5)=(1,1): mismatches 146/240
+convention (u3,u5)=(2,2): mismatches 0/240
+L1 PASS
+DONE
+== Part A: bright/dark verdict reproduced in-cell (theta s-channel) ==
+  (1,3) banked=dark   predicted=dark   s_cells= 0 sum_s^2=0  OK
+  (1,4) banked=dark   predicted=dark   s_cells= 0 sum_s^2=0  OK
+  (3,4) banked=bright predicted=bright s_cells=24 sum_s^2=1/192  OK
+  Part A: 3/3 verdicts reproduced = True  (full 12/12+OOS via B390 tensor machinery, re-run this session)
+
+== Part B1: UNMARKED group-invariant wall  (1,3)-dark  vs  (3,4)-bright ==
+  |G(1,3)|=480 (mod3=4,mod5=120); |G(3,4)|=480 (mod3=4,mod5=120)
+  order multiset match : True
+  trace15 multiset match: True
+  det(g-I) multiset match: True
+  UNMARKED BUNDLE IDENTICAL: True   -> no group invariant separates
+
+== Part B2: MARKED commutator/Fricke wall  (1,4)-dark  vs  (3,4)-bright ==
+  kappa(1,4)=-142  (DARK) ;  kappa(3,4)=-142  (BRIGHT)
+  commutator trace IDENTICAL across opposite verdict: True   -> the canonical marked coordinate cannot separate
+
+== Part B3: does ANY single seed-trace congruence/QR separate 12/12? ==
+  single-invariant value-set separators (disjoint bright/dark): NONE
+  best banked seed rule 'has (ell,ell) seed' = 11/12 (fails only the riddle)
+  seed types (t@3,t@5): {1: ('ell', 'par'), 2: ('ell', 'ell'), 3: ('par', 'ell'), 4: ('ell', 'par'), 5: ('ell', 'par'), 7: ('ell', 'ell')}
+
+== Part C: verdict ==
+  VERDICT: UNRESOLVED
+  TERMINAL: WALLED: no closed-form seed/group/marked-trace criterion; verified EFFECTIVE test (B390 s-channel locality, 12/12+OOS) standing; genuine separator is the non-abelian v_word layer (B385), unreduced
+  D3(a) has an explicit VERIFIED effective test (bright <=> the sqrt(-15) coefficient of the local q=3*q=5 convolution is nonzero -- a fixed rank-2 form, 12/12 + out-of-sample), but NO closed-form arithmetic criterion on (m1,m2): the unmarked SL(2,Z/15) group bundle is identical for (1,3)-dark and (3,4)-bright, the canonical marked commutator trace is identical for (1,4)-dark and (3,4)-bright (kappa=-142), and no single seed-trace congruence beats 11/12; the genuine separator lives in the non-abelian v_word (Heisenberg) layer and is unreduced to closed form.
+
+results.json written. DONE
