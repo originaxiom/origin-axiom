@@ -7944,3 +7944,15 @@ and Z1's elegant honest result — H133 dead (the ladder is lawless in the level
 value lies in ℤ[φ], the monodromy's own golden ring, irrational exactly when 5|κ (forced).
 "The value field is a law; the level-dependence is not." Three verify-layer catches carried
 (an MB12 vacuity, an unearned single-size negative, a scope issue). Wave 5 launches next.
+
+## 2026-07-24 — B775 Phase 2 Wave 5 banked: four theorems/laws + a powered statistic
+The best structural wave yet: 5 banked, 3 carry. The B471 heredity conjecture is now a
+THEOREM (explicit lattice); the listener's clock LAW found (θ-odd block factors through
+SL(2,ℤ/3κ)); the SU(3) per-term closed form PROVEN with the Landsberg–Schaar input
+ELIMINATED; the all-chirality criterion characterized exactly in κ; and a discriminating
+statistic designed and sealed-run at 7.9e5× its floor, escaping the jitter bound that left
+N3 unresolved. The GATEB carry is the session's sharpest methodological catch: the verdict
+(Level 3 stays closed) is right and the chiral 2T witness is real — but det Hess I₃ ≡ 2·I₃⁹
+makes the headline F₄-exclusion a corollary of the witness's own chirality, so two of the
+three advertised reasons restate the premise; only the twist-rigidity argument is
+independent. Restate on that. Phase 2 now ~31 structural results across five waves.

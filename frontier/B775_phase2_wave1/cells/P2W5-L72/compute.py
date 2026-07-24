@@ -269,17 +269,24 @@ sols1 = pointed_solutions(theta_gen1, MD[1]['S'], D1t)
 P(f"[B] level 1: pointed={pointed1}  Z/3 fusion={grp_ok}  theta_27 = exp(2pi i * {MD[1]['hs'][1]})")
 P(f"    (p,r) solutions of pentagon+hexagons+twist+Hopf-S : {[(s[0],s[1],s[2]) for s in sols1]}")
 LEVEL1_OK = bool(pointed1 and grp_ok and len(sols1) >= 1)
+assoc1 = None
 if sols1:
     p1, r1 = sols1[0][0], sols1[0][1]
-    P(f"    => F^{{abc}} = omega_{p1}(a,b,c) = exp(2pi i * {p1} a(b+c-[b+c]_3)/9)   "
-      f"(values in mu_3),  R^{{ab}} = exp(2pi i * {r1} ab/9)")
-    P(f"    27 F-symbols and 9 R-symbols, all roots of unity: the level-1 6j system is CLOSED FORM.")
+    assoc1 = 'TRIVIAL' if p1 % 3 == 0 else f'omega_{p1 % 3}'
+    P(f"    => associator class in H^3(Z/3,U(1)) = Z/3 is {assoc1}: every level-1 6j symbol"
+      f" F^{{abc}}_{{a+b+c}} = 1 (27 of them); the braiding is the bicharacter"
+      f" R^{{ab}} = zeta_3^{{{(r1 % 9)//3 if r1 % 3 == 0 else r1}ab}} = exp(2pi i * {r1} ab/9),"
+      f" theta_a = R^{{aa}}.")
+    P(f"    => E6_1 = the Z/3 anyon theory with q(a) = exp(4 pi i a^2/3) = conj(SU(3)_1);"
+      f" pointed => the RT invariant of ANY knot is framing-only. LEVEL 1 IS DEAF TO THE OBJECT.")
 OUT['B_level1'] = dict(pointed=bool(pointed1), fusion_group='Z/3', fusion_ok=bool(grp_ok),
                        h_27=str(MD[1]['hs'][1]), c=str(MD[1]['cc']),
                        solutions_p_r=[[s[0], s[1], s[2]] for s in sols1],
                        n_F_symbols=27, n_R_symbols=9,
-                       closed_form=('F^{abc}=exp(2pi i p a(b+c-[b+c]_3)/9), '
+                       associator_class=assoc1,
+                       closed_form=('F^{abc}=omega_p(a,b,c) with p=0 => all 27 F-symbols = 1; '
                                     'R^{ab}=exp(2pi i r ab/9)'),
+                       identified_as='Z/3 anyons, q(a)=exp(4 pi i a^2/3) = conj(SU(3)_1)',
                        verified=bool(LEVEL1_OK))
 
 # =====================================================================
@@ -600,22 +607,20 @@ def matmul(X, Y, p):
 
 def cohomology_dims(m, p):
     """dim H^0, H^1 of the 4_1 group with coefficients Sym^{2m}(rho_geo) over F_p."""
-    om = None
-    for x in range(2, p):
-        if (x * x + x + 1) % p == 0:
-            om = x
-            break
-    assert om is not None, 'p must be 1 mod 3'
-    a2 = (1, 1, 0, 1)                       # rho(a) = [[1,1],[0,1]]  (entries a,b,c,d)
-    b2 = (1, 0, om % p, 1)                  # rho(b) = [[1,0],[u,1]], u = omega
+    # u is pinned by rho(relator) = I; both x^2 -+ x + 1 = 0 are tried and the
+    # relator is CHECKED (never assumed).  u = primitive 6th root (P2W4-L54 / B425).
+    roots = [x for x in range(2, p) if (x * x - x + 1) % p == 0] + \
+            [x for x in range(2, p) if (x * x + x + 1) % p == 0]
+    assert roots, 'p must be 1 mod 3'
     n = 2 * m
-    Ra = sym_power(a2, n, p)
-    Rb = sym_power(b2, n, p)
     dim = n + 1
-    # inverses via the 2x2 inverse (det = 1), then Sym
-    Ai = sym_power((1, -1 % p, 0, 1), n, p)
-    Bi = sym_power((1, 0, (-om) % p, 1), n, p)
-    tab = {'a': Ra, 'A': Ai, 'b': Rb, 'B': Bi}
+    def build(u):
+        Ra = sym_power((1, 1, 0, 1), n, p)              # rho(a) = [[1,1],[0,1]]
+        Rb = sym_power((1, 0, u % p, 1), n, p)          # rho(b) = [[1,0],[u,1]]
+        Ai = sym_power((1, -1 % p, 0, 1), n, p)         # inverses (det = 1)
+        Bi = sym_power((1, 0, (-u) % p, 1), n, p)
+        return Ra, Rb, {'a': Ra, 'A': Ai, 'b': Rb, 'B': Bi}
+    Ra, Rb, tab = build(roots[0])
     def word(s):
         M = [[1 if i == j else 0 for j in range(dim)] for i in range(dim)]
         for ch in s:
@@ -624,8 +629,15 @@ def cohomology_dims(m, p):
     # relator r = a w b^{-1} w^{-1}, w = b A B a  (Riley presentation of 4_1)
     wword = 'bABa'
     winv = wword[::-1].swapcase()
-    rel = word('a' + wword + 'B' + winv)
-    rel_ok = all(rel[i][j] % p == (1 if i == j else 0) for i in range(dim) for j in range(dim))
+    def is_id(Mx):
+        return all(Mx[i][j] % p == (1 if i == j else 0) for i in range(dim) for j in range(dim))
+    rel_ok = is_id(word('a' + wword + 'B' + winv))
+    if not rel_ok:
+        for u in roots[1:]:
+            Ra, Rb, tab = build(u)
+            if is_id(word('a' + wword + 'B' + winv)):
+                rel_ok = True
+                break
     # Fox derivatives of r = a w B w^{-1}
     #   d/da(r) = 1 + a*d/da(w) - a w B w^{-1} * d/da(w) ... computed by the chain rule below
     def fox(wrd, gen):
@@ -669,21 +681,160 @@ for m in EXPONENTS:
     rows = [cohomology_dims(m, p) for p in PRIMES]
     agree = all(r == rows[0] for r in rows)
     coh[m] = dict(rows[0], agree_across_primes=agree)
+# characteristic-0 control: the SAME computation exactly over Q(zeta_6) = Q[u]/(u^2-u+1)
+class K:                                   # exact arithmetic in Q(zeta_6)
+    __slots__ = ('a', 'b')
+    def __init__(self, a=0, b=0):
+        self.a, self.b = Fraction(a), Fraction(b)
+    def __add__(s, o): return K(s.a + o.a, s.b + o.b)
+    def __sub__(s, o): return K(s.a - o.a, s.b - o.b)
+    def __neg__(s): return K(-s.a, -s.b)
+    def __mul__(s, o):                     # u^2 = u - 1
+        return K(s.a * o.a - s.b * o.b, s.a * o.b + s.b * o.a + s.b * o.b)
+    def inv(s):
+        nrm = s.a * s.a + s.a * s.b + s.b * s.b
+        return K((s.a + s.b) / nrm, -s.b / nrm)
+    def is_zero(s): return s.a == 0 and s.b == 0
+    def __repr__(s): return f'({s.a}+{s.b}u)'
+
+
+ONE, ZERO, U = K(1), K(0), K(0, 1)
+
+
+def kmat_mul(X, Y):
+    n_, k_, m_ = len(X), len(Y), len(Y[0])
+    return [[sum((X[i][t] * Y[t][j] for t in range(k_)), ZERO) for j in range(m_)] for i in range(n_)]
+
+
+def krank(M):
+    M = [row[:] for row in M]
+    rows, cols = len(M), len(M[0])
+    r = 0
+    for c in range(cols):
+        piv = next((i for i in range(r, rows) if not M[i][c].is_zero()), None)
+        if piv is None:
+            continue
+        M[r], M[piv] = M[piv], M[r]
+        iv = M[r][c].inv()
+        M[r] = [x * iv for x in M[r]]
+        for i in range(rows):
+            if i != r and not M[i][c].is_zero():
+                f = M[i][c]
+                M[i] = [M[i][j] - f * M[r][j] for j in range(cols)]
+        r += 1
+        if r == rows:
+            break
+    return r
+
+
+def sym_power_K(Mat, n):
+    a, b, c, dd = Mat
+    dim = n + 1
+    Rm = [[ZERO] * dim for _ in range(dim)]
+    for i in range(dim):
+        coeffs = {}
+        for s_ in range(i + 1):
+            for t_ in range(n - i + 1):
+                cf = K(math.comb(i, s_) * math.comb(n - i, t_))
+                for _ in range(s_): cf = cf * a
+                for _ in range(i - s_): cf = cf * c
+                for _ in range(t_): cf = cf * b
+                for _ in range(n - i - t_): cf = cf * dd
+                k_ = s_ + t_
+                coeffs[k_] = coeffs.get(k_, ZERO) + cf
+        for k_, v in coeffs.items():
+            Rm[k_][i] = v
+    return Rm
+
+
+def cohomology_dims_exact(m):
+    n = 2 * m
+    dim = n + 1
+    Ra = sym_power_K((ONE, ONE, ZERO, ONE), n)             # rho(a) = [[1,1],[0,1]]
+    Rb = sym_power_K((ONE, ZERO, U, ONE), n)               # rho(b) = [[1,0],[u,1]], u = zeta_6
+    Ai = sym_power_K((ONE, -ONE, ZERO, ONE), n)
+    Bi = sym_power_K((ONE, ZERO, -U, ONE), n)
+    tab = {'a': Ra, 'A': Ai, 'b': Rb, 'B': Bi}
+    eye = [[ONE if i == j else ZERO for j in range(dim)] for i in range(dim)]
+    def word(w):
+        M = eye
+        for ch in w:
+            M = kmat_mul(M, tab[ch])
+        return M
+    wword = 'bABa'
+    rword = 'a' + wword + 'B' + wword[::-1].swapcase()
+    rel = word(rword)
+    rel_ok = all((rel[i][j] - eye[i][j]).is_zero() for i in range(dim) for j in range(dim))
+    def fox(w, gen):
+        Mtot = [[ZERO] * dim for _ in range(dim)]
+        pref = eye
+        for ch in w:
+            if ch.lower() == gen:
+                add = pref if ch.islower() else [[-x for x in row] for row in kmat_mul(pref, tab[ch])]
+                Mtot = [[Mtot[i][j] + add[i][j] for j in range(dim)] for i in range(dim)]
+            pref = kmat_mul(pref, tab[ch])
+        return Mtot
+    Fa, Fb = fox(rword, 'a'), fox(rword, 'b')
+    rk = krank([Fa[i] + Fb[i] for i in range(dim)])
+    h0 = dim - krank([[Ra[i][j] - eye[i][j] for j in range(dim)] for i in range(dim)]
+                     + [[Rb[i][j] - eye[i][j] for j in range(dim)] for i in range(dim)])
+    per = dim - krank([[Ra[i][j] - eye[i][j] for j in range(dim)] for i in range(dim)])
+    return dict(rel_ok=bool(rel_ok), h0=int(h0), h1=int(dim - rk + h0), periph_inv=int(per))
+
+
+exact_ctrl = {m: cohomology_dims_exact(m) for m in EXPONENTS}
+for m in EXPONENTS:
+    coh[m]['exact_Qzeta6'] = exact_ctrl[m]
+    coh[m]['exact_agrees'] = bool(exact_ctrl[m]['h1'] == coh[m]['h1']
+                                  and exact_ctrl[m]['h0'] == coh[m]['h0']
+                                  and exact_ctrl[m]['periph_inv'] == coh[m]['periph_inv']
+                                  and exact_ctrl[m]['rel_ok'])
 h1_tot = sum(coh[m]['h1'] for m in EXPONENTS)
 per_tot = sum(coh[m]['periph_h1'] for m in EXPONENTS)
-theta_odd = [m for m in EXPONENTS if m % 2 == 0]        # B581: sign(tau_m) = (-1)^m
+# --- re-verify B581's sign law IN-CELL from its banked exact coefficients ---
+b581_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         '..', '..', '..', 'B581_six_torsions', 'six_torsions_results.json')
+tau_signs, b581_ok = {}, False
+try:
+    B581 = json.load(open(os.path.normpath(b581_path)))
+    tau_vals = {}
+    for m in EXPONENTS:
+        co = [(int(a), int(b)) for a, b in B581[str(m)]['quotient']]
+        assert all(b == 0 for _, b in co), 'coefficients must be rational'
+        c = [Fraction(a) for a, _ in co]
+        c = [x / c[0] for x in c]                 # monic-at-top-degree (Review-17 convention)
+        deg = len(c) - 1                          # coefficients descending in t
+        tau = sum(c[k] * (deg - k) for k in range(len(c)))     # d/dt at t = 1
+        tau_vals[m] = tau
+        tau_signs[m] = int(math.copysign(1, float(tau)))
+    assert tau_vals[1] == -3, 'convention anchor: tau_1 must reproduce B425/P2W4-L54 = -3'
+    b581_ok = all(tau_signs[m] == (-1)**m for m in EXPONENTS)
+except Exception as ex:                                        # pragma: no cover
+    tau_signs = {'error': str(ex)}
+theta_parity = {m: ('odd' if (-1)**(m + 1) == -1 else 'even') for m in EXPONENTS}
+P(f"[G] B581 sign law re-verified in-cell from the banked exact torsions: "
+  f"tau_1 = -3 anchor OK; sign(tau_m) = {tau_signs} == (-1)^m: {b581_ok};  theta-parity (B353, (-1)^(m+1)): {theta_parity}")
+theta_odd = [m for m in EXPONENTS if theta_parity[m] == 'odd']
 P(f"[G] dim H^1(M; Sym^2m rho_geo) per E6 exponent: "
   f"{ {m: coh[m]['h1'] for m in EXPONENTS} }  (h^0 = { {m: coh[m]['h0'] for m in EXPONENTS} }, "
   f"2 primes agree: {all(coh[m]['agree_across_primes'] for m in EXPONENTS)})")
 P(f"    total = {h1_tot} = rank(E6) -> smooth point of the E6 character variety, "
   f"one direction per exponent; theta-odd directions m = {theta_odd} (B581 sign law).")
+P(f"    char-0 control, exact over Q(zeta_6), all six blocks: "
+  f"h1 = { {m: exact_ctrl[m]['h1'] for m in EXPONENTS} }, relator = I everywhere: "
+  f"{all(exact_ctrl[m]['rel_ok'] for m in EXPONENTS)}, agrees with F_p: "
+  f"{all(coh[m]['exact_agrees'] for m in EXPONENTS)}")
 P(f"    peripheral dim H^1(T^2; Sym^2m) = 2 per block, total {per_tot} = 2 rank(E6): "
   f"the image is a {h1_tot}-dim LAGRANGIAN -> CS along the deformation = its potential.")
-DEF_OK = (h1_tot == 6 and all(coh[m]['h1'] == 1 for m in EXPONENTS)
+DEF_OK = (b581_ok and h1_tot == 6 and all(coh[m]['h1'] == 1 for m in EXPONENTS)
+          and all(coh[m]['exact_agrees'] for m in EXPONENTS)
           and all(coh[m]['h0'] == 0 for m in EXPONENTS)
           and all(coh[m]['agree_across_primes'] and coh[m]['rel_ok'] for m in EXPONENTS)
           and per_tot == 12)
-OUT['G_deformation'] = dict(per_exponent={str(m): coh[m] for m in EXPONENTS},
+OUT['G_deformation'] = dict(B581_sign_law_reverified=bool(b581_ok),
+                            tau_signs={str(k): v for k, v in tau_signs.items()},
+                            theta_parity={str(k): v for k, v in theta_parity.items()},
+                            per_exponent={str(m): coh[m] for m in EXPONENTS},
                             total_h1=h1_tot, rank_E6=6, peripheral_total=per_tot,
                             theta_odd_exponents=theta_odd,
                             lagrangian=bool(h1_tot * 2 == per_tot), validated=bool(DEF_OK))
@@ -695,12 +846,14 @@ cs_curve = {}
 try:
     import snappy
     Mf = snappy.Manifold('4_1')
+    Mf.chern_simons()                       # pins the cusped CS invariant (= 0) first
     for (pp, qqf) in [(5, 1), (5, 2), (7, 1), (6, 1), (8, 3)]:
         Mf.dehn_fill((pp, qqf))
-        cv = Mf.complex_volume()
-        cs_curve[f'({pp},{qqf})'] = dict(vol=mp.nstr(mp.mpf(float(cv.real())), 12),
-                                          cs_SL2=mp.nstr(mp.mpf(float(cv.imag())), 12),
-                                          cs_E6_principal=mp.nstr(156 * mp.mpf(float(cv.imag())), 12))
+        cs = mp.mpf(float(Mf.chern_simons()))
+        cs_curve[f'({pp},{qqf})'] = dict(vol=mp.nstr(mp.mpf(float(Mf.volume())), 12),
+                                         cs_SL2=mp.nstr(cs, 10),
+                                         cs_E6_principal_mod1=mp.nstr(mp.mpf(156) * cs
+                                                                      - mp.floor(mp.mpf(156) * cs), 10))
     Mf.dehn_fill((0, 0))
     H_OK = len(cs_curve) >= 3 and any(abs(float(v['cs_SL2'])) > 1e-6 for v in cs_curve.values())
 except Exception as ex:                                             # pragma: no cover
@@ -708,8 +861,11 @@ except Exception as ex:                                             # pragma: no
 P(f"[H] CS functional sampled along the theta-EVEN (m=1) direction "
   f"(Dehn fillings of 4_1; CS_E6 = 156 * CS_SL2): "
   + ', '.join(f"{k}: CS_SL2={v['cs_SL2']}" for k, v in cs_curve.items() if k != 'error'))
+P(f"    (156 is EVEN, so the E6 value is well defined mod 1 even though the SL(2,C) CS of a "
+  f"closed manifold is only defined mod 1/2.)")
 OUT['H_CS_theta_even'] = dict(samples=cs_curve, computable=bool(H_OK),
-                              relation='CS_E6principal = index * CS_SL2 = 156 * CS_SL2')
+                              relation='CS_E6principal = index * CS_SL2 = 156 * CS_SL2',
+                              mod_note='156 even => 156*CS is well defined mod 1 even for CS mod 1/2')
 
 # =====================================================================
 # I.  the wall on the theta-ODD directions (computed, not cited)
@@ -753,8 +909,8 @@ else:
     verdict = 'UNRESOLVED'
 
 headline = (
-    "E6 6j COMPUTED at both levels: level 1 is pointed (Z/3, theta_27 = exp(4 pi i/3)) with a "
-    "closed-form cocycle associator; level 2 (rank 9, c = 78/7) SPLITS as a Deligne product of "
+    "E6 6j COMPUTED at both levels: level 1 is pointed (Z/3, theta_27 = exp(4 pi i/3)) with TRIVIAL "
+    "associator (all 27 F-symbols = 1); level 2 (rank 9, c = 78/7) SPLITS as a Deligne product of "
     "its modular Z/3 current subcategory and its Mueger centralizer, which is the even part of "
     "SU(2)_5 at q = exp(i pi/7) -- so the level-2 6j are the quantum Racah symbols (pentagon, "
     "hexagons, Hopf-link S and twists all verified), and the E6 level-2 invariants of 4_1 are the "
@@ -789,8 +945,13 @@ OUT['residuals_external'] = [
     "an extended-Bloch group / Cheeger-Chern-Simons class for E6 (the theta-odd CS functional)",
     "the E6 A-polynomial of 4_1 (the potential of the computed 6-dim Lagrangian)",
     f"a {ptolemy_vars}-variable PGL(27,C) Ptolemy solve on the 2-tetrahedron triangulation",
-    "uniqueness-up-to-gauge of the level-2 F-symbols (constructed + verified, not classified)",
+    ("the level-2 rank-3 factor is identified with the SU(2)_5 even part by COMPLETE modular "
+     "data (S and T entrywise, 1e-41); a categorical equivalence -- rather than modular-data "
+     "equality -- and gauge-uniqueness of the F-symbols are not proved in-cell"),
 ]
+OUT['gate5'] = ('structural only: no SM values, nothing to CLAIMS.md, one-number pin untouched; '
+                'all outputs are named mathematics (modular data, 6j systems, cohomology dims, '
+                'CS values of hyperbolic 3-manifolds)')
 OUT['runtime_sec'] = round(time.time() - t_start, 1)
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'results.json'), 'w') as f:
     json.dump(OUT, f, indent=1)
