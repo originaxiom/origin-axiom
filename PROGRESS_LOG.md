@@ -7850,3 +7850,19 @@ zero, not a W4-304 cancellation — so the blind-projection problem stays W4-304
 the two cosmetic strips done. Pending next pass: CL-W4115 (fabrication strip) and
 CL-LATIN (non-current block) — never started. cc3's V4-genericity computation has not
 yet delivered (independent clone). The monitor is being re-armed.
+
+## 2026-07-24 — THE CLOSURE MASTERPLAN banked + cc3's V4-genericity VERIFIED
+Owner "continue all through a masterplan our style." Wrote docs/CLOSURE_MASTERPLAN.md —
+the strategic map from here to the sealed capstone (Phases 2–5, the cross-cutting ledger,
+the decision tree, the completion criterion; supersedes CLOSURE_PROGRAM.md as strategy
+reference). Then checked cc3's reply: they delivered the three-moves campaign, and Move 1
+(V4-genericity — the #1 falsifier) came back NOT generic. Verified in-sandbox
+(verify-don't-trust, hardest because it's the convenient direction): SnapPy re-computation
+confirms amphicheirality gates V4 exactly (m004/m003/m025 amphicheiral+V4, m009/m010
+non-amphicheiral+Z/2; symmetry groups D4/Z2+Z4/Z6/Z2+Z2/Z2+Z2 match to the letter). The
+program's structural crown jewel is NOT generic — the #1 falsifier is DEFUSED. cc3's
+honesty confirmed by the data (m004 and m003 share volume 2.029883 AND V4 — the sister
+is genuinely not separated by V4+volume; the D4-symmetry/trace-3 distinction is the named
+Phase-3 residual). Moves 2 (c=ipseity) and 3 (Galois-vs-reversal gate) folded as
+interpretive Phase-3 feeders (Gate 5-Q, priced as C18, not banked as fact). B777 extended,
+locked, mirrored. Pending next pass: B778's CL-W4115/CL-LATIN; Phase-2 continuation.
