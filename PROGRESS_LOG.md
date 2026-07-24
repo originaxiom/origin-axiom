@@ -7708,3 +7708,18 @@ contradicting B461) and four math-sound-but-house-method-incomplete (no verdict
 block, "5 seeds" framing, self-fulfilling verdict logic, un-gated border-forcing).
 The verify layer is now well-calibrated — clean math through, process/overclaim
 gaps held, no false rejects. Wave 4 inherits the 6.
+
+## 2026-07-23 — B772: the negatives adequacy audit (owner's "are we computing properly?")
+Answer computed, not asserted. 14 banked negatives, 4 adversarial adequacy axes.
+Headline: the seam is fine, the projection is not. My over-determination hypothesis
+was REFUTED (12/14 object-native, seam-independent — the corpus does test the object
+independently). The confirmed risk is the projection one: 6/14 compute at trace/
+abelianized level, 4 flagged TRACE-BLIND-RISK against B766's own θ-odd lesson —
+and no negative has ever computed a chord-level analog of its target and found it
+also empty. So trace-level absence has been read as structural absence. Only 4/14
+negatives are currently load-bearing (OI-173, OI-186, W2-148r, W2-237). Three
+banked-cell defects recorded (OI-146 vacuous PART-1a → E2; OI-055 title-only
+citation → E4 + label downgrade; W4-139 mislabeled). E26 minted (blind-projection
+negative). B773 launches the chord-level re-computation of the four trace-blind
+negatives: if they stay empty the walls harden; if any lights up, the trace
+projection was hiding structure.

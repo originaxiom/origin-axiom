@@ -1,0 +1,12 @@
+independent prime seed: start=5000000000 -> primes=[5000001841, 5000005441, 5000009761]
+STAGE 1 gate (fresh primes reproduce banked N=15 flagship cells): True
+  (0,4) fresh=['-1/48', '-1/80', '-1/48', '1/48'] banked=['-1/48', '-1/80', '-1/48', '1/48']
+  (0,8) fresh=['-1/48', '-1/80', '1/48', '-1/48'] banked=['-1/48', '-1/80', '1/48', '-1/48']
+  N=15 failures: 0
+STAGE 2: N=45 independent run -- nonzero pair cells 144, failures 0
+target rows [6, 54]: all-zero=True, identification-failures=False
+comparator control row 1: nonzero=True (proves the machinery is not trivially all-zero)
+vacuity self-test, free row 7: fully resolved=True, nonzero cells=0/12 (a genuinely computed, non-hard-coded read)
+ratio candidate matches (const(45)=0 tested against R1-R4): [] (expect: empty -- 0 cannot equal any nonzero candidate unit)
+VERDICT: RESOLVED-B -- the level-45 pair-sector value rows (W1-exponents +-6) are IDENTICALLY ZERO across the full graded column set (independently reproduced with a fresh prime seed); const(45)=0 fails every pre-registered ratio candidate -- the registered KILL branch fires. The sector is empty/degenerate at level 45 (matches the banked B387 2a/2b finding, reproduced independently in this cell, not cited).
+elapsed: 274.4s

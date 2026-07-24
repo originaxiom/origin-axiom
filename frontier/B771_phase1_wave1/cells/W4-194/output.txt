@@ -1,0 +1,46 @@
+======================================================================================
+PART A -- SCREENING (T4): transfer-matrix Lyapunov gamma(g) on the letter floor
+======================================================================================
+  [PASS] A0 LE-code calibration: free lambda=0, E=2.5 -> arccosh(1.25)=0.6931 (asserts code correct)  ::  computed 0.69328 vs 0.69315
+  [PASS] A0b free-critical control: lambda=0, E=0 (|E|<2) -> LE ~ 0  ::  computed 0.000000
+  n(LE curves)=32  n(power-law fits)=31
+  positivity fraction (LE>0 for lam>0) = 0.4870
+  monotone-increasing fraction (dgamma/dlam>0) = 0.6392
+  power-law exponent p across seeds/grids/words: mean=2.025 std=1.453 CV=0.717  range=[-0.315,5.974]
+  [FAIL] A1 SCREENING positivity: LE>0 for all coupling lam>0 (never a free/AF direction)  ::  positive-fraction=0.487 over 32 curves
+  [FAIL] A2 SCREENING monotonicity: dgamma/dlam>0 (LE increases with coupling, never AF)  ::  monotone-step-fraction=0.639
+  [FAIL] A3 SCREENING specific law: p is a STABLE universal exponent ~0.9 (H121's quantitative claim)  ::  p_mean=2.025 CV=0.717 (need CV<0.15 and |p-0.9|<0.15)
+======================================================================================
+PART B -- CONFINING string tension (T5): Z/n charge-string decay on free-fermion floor
+======================================================================================
+  [PASS] B0 string-op control: n->1e6 (w->1) => |G|->1 => log|G| ~ 0  ::  log|G_{1e6}(120)| = -1.41e-11
+  n   eta(log-log)   R2_loglog   R2_exp    a_eff(r~20)  a_eff(r~156)   2/n^2
+   2   0.49991      1.00000   0.93625   -0.02505     -0.00321     0.50000
+   3   0.22912      0.99997   0.93353   -0.01186     -0.00145     0.22222
+   5   0.08026      1.00000   0.93570   -0.00406     -0.00051     0.08000
+   7   0.04086      1.00000   0.93599   -0.00206     -0.00026     0.04082
+  11   0.01654      1.00000   0.93611   -0.00083     -0.00011     0.01653
+  13   0.01184      1.00000   0.93613   -0.00059     -0.00008     0.01183
+  17   0.00692      1.00000   0.93615   -0.00035     -0.00004     0.00692
+  [PASS] B1 decay is ALGEBRAIC not exponential (n=11: log-log fit beats exp fit AND effective rate ->0)  ::  R2_loglog=1.0000 > R2_exp=0.9361; a_eff -0.0008->-0.0001 (drift=0.13); family_algebraic_frac=1.00
+  [PASS] B2 E20 comparator: eta(n) is a SMOOTH 1/n^2 law; Z/11 is NOT special (no outlier at n=11)  ::  eta=k/n^2 fit R2=0.9998 (k=2.0098); n=11 residual z=0.03 sigma
+  open-closed effective-tension differential a_O - a_C by range window (n=11):
+    r in (12, 40):  a_C=-0.00071  a_O=-0.00071  a_O-a_C=-0.00000
+    r in (40, 90):  a_C=-0.00027  a_O=-0.00027  a_O-a_C=+0.00000
+    r in (90, 160):  a_C=-0.00014  a_O=-0.00014  a_O-a_C=+0.00000
+  [PASS] B3 open-closed differential is a VANISHING, non-special artifact (collapses with range; not Z/11-special)  ::  |a_O-a_C| near=0.00000 far=0.00000 (ratio=0.22); |diff|@11=0.00000 vs max(other)=0.00000
+======================================================================================
+VERDICT
+======================================================================================
+  validity/calibration checks (code correctness) pass: True
+  screening qualitative (LE>0 & monotone, GENERIC not object-specific): False
+  screening SPECIFIC law (p->~0.9 universal)  [class A] : False
+  confinement genuine (exp/area-law, Z/11-special) [class B] : False
+  => VERDICT: RESOLVED-B
+
+HEADLINE: H121 dissolves: the SCREENING power-law exponent is not a stable universal ~0.9 (it varies strongly with energy/word), and the CONFINING string tension is a finite-range artifact of exponential-fitting an ALGEBRAIC (deconfined) decay whose exponent is a smooth eta=k/n^2 -- Z/11 is not special. Only a GENERIC monotone-LE survives, which is true of any quasiperiodic operator, not the object's own gauge phenomenology.
+DISCRIMINATING FACT: p_CV=0.717 (need <0.15 for a universal law) with p in [-0.31,5.97]; n=11 string decay is algebraic (R2_loglog=1.000 > R2_exp=0.936) with effective rate -0.0008->-0.0001; eta(n)=k/n^2 smooth R2=1.000, n=11 residual 0.03 sigma (not special).
+VALIDITY/CALIBRATION CHECKS PASS (code health): True
+(the A1/A2/A3 FAILs are hypothesis outcomes = the finding, not code faults)
+
+wrote results.json
