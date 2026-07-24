@@ -1,0 +1,116 @@
+==========================================================================
+B774 CP-A5-molien : theta-ODD twisted-character Molien 5-adic test
+==========================================================================
+Banked negative: finite-order Molien/twisted-char is ALGEBRAIC-INTEGRAL
+  => 5-adically integral (v5>=0) => cannot carry the target's growing
+     5-power denominators v5(denom)=1,12,49,99,146 at n=1,10,40,80,119.
+Chord question: does the theta-ODD projection produce a NON-integral
+  (5-adic-denominator-bearing) series and thereby become projection-
+  specific?  Compute directly on a genuinely NON-ABELIAN object.
+
+Target denominator 5-valuations (banked W33): {1: 1, 10: 12, 40: 49, 80: 99, 119: 146}
+(POSITIVE v5(denom) = a genuine 5-power in the DENOMINATOR of reduced c_n)
+
+--------------------------------------------------------------------------
+PATH 1  abelian golden-rotation doublet  W = sigma(A1), eig zeta10^{+-1}
+--------------------------------------------------------------------------
+n :  M_n (in Z[phi])            theta-even=M+M'   theta-odd=(M-M')/sqrt5
+ 0: 1                          even=2        odd=0      v5(odd)=oo Z[phi]?True oddInt?True
+ 1: 1/2 + sqrt(5)/2            even=1        odd=1      v5(odd)=0 Z[phi]?True oddInt?True
+ 2: 1/2 + sqrt(5)/2            even=1        odd=1      v5(odd)=0 Z[phi]?True oddInt?True
+ 3: 1                          even=2        odd=0      v5(odd)=oo Z[phi]?True oddInt?True
+ 4: 0                          even=0        odd=0      v5(odd)=oo Z[phi]?True oddInt?True
+ 5: -1                         even=-2       odd=0      v5(odd)=oo Z[phi]?True oddInt?True
+ 6: -sqrt(5)/2 - 1/2           even=-1       odd=-1     v5(odd)=0 Z[phi]?True oddInt?True
+ 7: -sqrt(5)/2 - 1/2           even=-1       odd=-1     v5(odd)=0 Z[phi]?True oddInt?True
+ 8: -1                         even=-2       odd=0      v5(odd)=oo Z[phi]?True oddInt?True
+ 9: 0                          even=0        odd=0      v5(odd)=oo Z[phi]?True oddInt?True
+10: 1                          even=2        odd=0      v5(odd)=oo Z[phi]?True oddInt?True
+11: 1/2 + sqrt(5)/2            even=1        odd=1      v5(odd)=0 Z[phi]?True oddInt?True
+
+PATH 1 verdict: theta-odd coefficients ALL integers = True; min v5(theta-odd) = 0 (>=0 => NO denominator).
+  => matches the banked diagnostic (STEP3_VERDICT pt.4: (M-M')/sqrt5 gives
+     integers -2,...). theta-odd HARDENS at the abelian level.
+  NOTE: (M-M')/sqrt5 is a linear combo of two TRACES => a character
+  polynomial => NOT a genuine chord object (the W3-082c trap).
+
+--------------------------------------------------------------------------
+PATH 2  GENUINELY NON-ABELIAN : A5 icosahedral, TWISTED Molien series
+--------------------------------------------------------------------------
+A5 (order 60). Conjugacy classes [size]: 1[1], (2,2)[15], (3)[20],
+  (5a)[12], (5b)[12].  The 3-dim icosahedral rotation rep rho:
+  eigenvalues of rho(g) per class (roots of unity):
+    1  : (1,1,1)                       det(1-t rho)=(1-t)^3
+    2  : (1,-1,-1)                      =(1-t)(1+t)^2
+    3  : (1, w, w^2)                    =(1-t)(1+t+t^2)
+    5a : (1, z5, z5^-1), 2cos72=phi-1   =(1-t)(1-(phi-1)t+t^2)
+    5b : (1, z5^2,z5^-2),2cos144=-phi    =(1-t)(1+phi t+t^2)
+
+A5 has TWO 3-dim irreps 3, 3' with characters differing ONLY on the
+order-5 classes:  chi_3(5a)=phi, chi_3(5b)=psi ;  chi_3'(5a)=psi,
+chi_3'(5b)=phi.  The theta involution = the Galois swap 3<->3'.
+theta-ODD class function:  chi_odd = chi_3 - chi_3'  (sqrt5-antisymmetric)
+  chi_odd = 0 on classes 1,2,3 ;  chi_odd(5a)=phi-psi=+sqrt5 ;
+  chi_odd(5b)=psi-phi=-sqrt5.
+
+SANITY (theta-even, untwisted): Hilbert series of A5-invariants in Sym(3).
+  first coeffs = [1, 0, 1, 0, 1, 0, 2, 0, 2, 0, 3, 0, 4, 0, 4, 1]
+  (icosahedral invariants: generators in degrees 2,6,10,15; all >=0 ints)
+
+theta-ODD twisted Molien (exhibited exactly):
+  M_odd(t) = (12*sqrt5/60) * ( 1/D5a - 1/D5b )
+           = (sqrt5/5) * ( 1/D5a - 1/D5b )
+  PREFACTOR sqrt5/5 = 1/sqrt5 = 5^(-1/2)  <-- the tantalizing 5-adic
+  DENOMINATOR (v5 = -1/2).  THIS is the only place a 5-power could enter.
+
+W4-304 SIGNATURE CHECK (even==odd cancellation with nonzero theta-odd?):
+  (1/D5a - 1/D5b) is Galois-ODD (sqrt5 |-> -sqrt5 swaps 5a<->5b), so its
+  every coefficient = sqrt5 * (rational).  Hence
+    M_odd_n = (sqrt5/5) * sqrt5 * r_n = (5/5) r_n = r_n  (rational).
+  The 5^(-1/2) prefactor is EXACTLY CANCELLED by the sqrt5 of the
+  antisymmetric difference.  There is NO surviving theta-odd denominator.
+
+n :  M_odd_n      is_integer?   v5(M_odd_n)   (theta-odd twisted Molien)
+ 0: 0            int?True  v5=oo
+ 1: 1            int?True  v5=0
+ 2: 0            int?True  v5=oo
+ 3: 0            int?True  v5=oo
+ 4: 0            int?True  v5=oo
+ 5: 0            int?True  v5=oo
+ 6: 1            int?True  v5=0
+ 7: 0            int?True  v5=oo
+ 8: 0            int?True  v5=oo
+ 9: 0            int?True  v5=oo
+10: 0            int?True  v5=oo
+11: 1            int?True  v5=0
+12: 0            int?True  v5=oo
+13: 0            int?True  v5=oo
+14: 0            int?True  v5=oo
+15: 0            int?True  v5=oo
+40: 0            int?True  v5=oo
+41: 1            int?True  v5=0
+
+PATH 2 verdict: theta-odd twisted Molien coeffs ALL integers = True
+  min v5 over nonzero coeffs = 0  (>=0 => algebraic-integral)
+  max v5(DENOMINATOR) over window = 0  (target needs 1,12,49,...; a 0 here => NO 5-denominator)
+
+CROSS-CHECK (2nd structural path): M_odd_n == r_n (from 1/D5a-1/D5b over
+  sqrt5, independent of the twisted-Molien assembly) : True
+
+==========================================================================
+VERDICT
+==========================================================================
+chord_positive     : False
+is_genuine_chord   : False
+  reason: M_odd = (1/60) sum_g (chi_3-chi_3')(g)/det(1-t rho(g)) is a
+  CHARACTER-difference twisted Molien = an ordinary character/trace
+  polynomial (W3-082c trap: a twisted character IS a character sum).
+VERDICT            : HARDENS
+HEADLINE           : theta-odd twisted-character Molien is ALGEBRAIC-INTEGRAL on the genuinely non-abelian A5 object -- 5-adic exclusion survives the theta-odd projection
+
+W4-304 real-overturn signature ABSENT: the par/trace zero (chi_odd=0 on
+classes 1,2,3) carries NO nonzero theta-odd DENOMINATOR -- the even==odd
+structure resolves to integers, not to a surviving 5-adic piece.
+
+Gate 5/5-Q: structural theta-odd fact of the object; nothing to CLAIMS;
+the one-number pin untouched.

@@ -1,0 +1,49 @@
+E6-in-gl(27) build loaded in 93.6s
+block dims = [17, 9, 1] (Sym16, Sym8, Sym0); sum=27
+
+FAMILY flip_o2_amphichiral (a->a, b->baB)
+  peripheral conjugator (w,s,t) = ('', None, None)
+  MIRROR (theta-even, orient-REVERSING, banked): off-diag rows=172 sol_dim=1  per-Sym^k Hom-dim (Sym16,Sym8,Sym0)=(0,0,1)  invertible-in-span=False
+      d = ((0), (0), (1))
+    c-graded: c-even dim=1 present=[False, False, True] | c-odd dim=0 present=[False, False, False]
+  [2nd path] mirror N in block basis: diag-block-scalar(Sym16,Sym8,Sym0)=[False, False, True]  block-offdiag=False  => a per-Sym^k companion can exist only where diag-block is scalar
+  [W3-082c control] drop-c (orient-PRESERVING 27bar): per-Sym^k Hom-dim=(1,1,1) invertible-in-span=True  N-diag-block-scalar=[True, True, True]
+    --> this is a DIFFERENT map (not the mirror); its (1,1,1) does NOT overturn the wall (W3-082c: a relabeled abelian object, orient-preserving)
+    Sym16: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+    Sym8: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+
+FAMILY flip_o2_side-exchange (a->b, b->abA)
+  peripheral conjugator (w,s,t) = ('aBAb', 1, -1)
+  MIRROR (theta-even, orient-REVERSING, banked): off-diag rows=172 sol_dim=1  per-Sym^k Hom-dim (Sym16,Sym8,Sym0)=(0,0,1)  invertible-in-span=False
+      d = ((0), (0), (1))
+    c-graded: c-even dim=1 present=[False, False, True] | c-odd dim=0 present=[False, False, False]
+  [2nd path] mirror N in block basis: diag-block-scalar(Sym16,Sym8,Sym0)=[False, False, True]  block-offdiag=False  => a per-Sym^k companion can exist only where diag-block is scalar
+  [W3-082c control] drop-c (orient-PRESERVING 27bar): per-Sym^k Hom-dim=(1,1,1) invertible-in-span=True  N-diag-block-scalar=[True, True, True]
+    --> this is a DIFFERENT map (not the mirror); its (1,1,1) does NOT overturn the wall (W3-082c: a relabeled abelian object, orient-preserving)
+    Sym16: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+    Sym8: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+
+FAMILY flip_o4_A (a->A, b->bAB)
+  MIRROR (theta-even, orient-REVERSING, banked): off-diag rows=172 sol_dim=1  per-Sym^k Hom-dim (Sym16,Sym8,Sym0)=(0,0,1)  invertible-in-span=False
+      d = ((0), (0), (1))
+    c-graded: c-even dim=1 present=[False, False, True] | c-odd dim=0 present=[False, False, False]
+  [2nd path] mirror N in block basis: diag-block-scalar(Sym16,Sym8,Sym0)=[False, False, True]  block-offdiag=False  => a per-Sym^k companion can exist only where diag-block is scalar
+  [W3-082c control] drop-c (orient-PRESERVING 27bar): per-Sym^k Hom-dim=(1,1,1) invertible-in-span=True  N-diag-block-scalar=[True, True, True]
+    --> this is a DIFFERENT map (not the mirror); its (1,1,1) does NOT overturn the wall (W3-082c: a relabeled abelian object, orient-preserving)
+    Sym16: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+    Sym8: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+
+FAMILY flip_o4_B (a->B, b->aBA)
+  peripheral conjugator (w,s,t) = ('aBAb', -1, 1)
+  MIRROR (theta-even, orient-REVERSING, banked): off-diag rows=172 sol_dim=1  per-Sym^k Hom-dim (Sym16,Sym8,Sym0)=(0,0,1)  invertible-in-span=False
+      d = ((0), (0), (1))
+    c-graded: c-even dim=1 present=[False, False, True] | c-odd dim=0 present=[False, False, False]
+  [2nd path] mirror N in block basis: diag-block-scalar(Sym16,Sym8,Sym0)=[False, False, True]  block-offdiag=False  => a per-Sym^k companion can exist only where diag-block is scalar
+  [W3-082c control] drop-c (orient-PRESERVING 27bar): per-Sym^k Hom-dim=(1,1,1) invertible-in-span=True  N-diag-block-scalar=[True, True, True]
+    --> this is a DIFFERENT map (not the mirror); its (1,1,1) does NOT overturn the wall (W3-082c: a relabeled abelian object, orient-preserving)
+    Sym16: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+    Sym8: mirror Hom-dim=0 (c-even present=False, c-odd present=False) -> GENUINE ABSENCE: Hom-dim 0 = c-even 0 + c-odd 0 (dims add; no signed quantity to cancel)
+
+VERDICT: HARDENS
+  reason: The mirror wall HARDENS at the chord level, and the negative is chord-IMMUNE by structure. (1) GATE: the c-linear (orientation-reversing) block-scalar system reproduces the banked per-Sym^k Hom-dims (0,0,1)/non-invertible byte-faithfully on all four D4 families. (2) The banked quantity is an UNSIGNED Hom-DIMENSION, not a signed trace/par: under the c (theta) grading a dimension ADDS, d_k = d_k^{c-even} + d_k^{c-odd}, so a higher-block zero (Sym16, Sym8) forces BOTH parities to be zero -- there is no signed even-minus-odd quantity that could cancel to zero (the W4-304 signature is structurally impossible for a Hom-dimension). The computed c-grading confirms it: the single surviving intertwiner is the real Sym0 line (c-even dim 1, c-odd dim 0), and Sym16/Sym8 are 0 in both parities. (3) The 2nd path (the double-flip operator N in the block basis) independently shows N's Sym16/Sym8 diagonal blocks are NON-scalar, so no per-Sym^k companion can exist there in any grading. (4) W3-082c: dropping the c gives (1,1,1) invertible, but that is the orientation-PRESERVING map on 27bar -- a different geometric object, an abelian relabeling, NOT the mirror; it does not overturn the wall. is_genuine_chord = False.
+  is_genuine_chord: False

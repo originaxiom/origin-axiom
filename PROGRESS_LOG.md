@@ -7776,3 +7776,17 @@ OVERTURNED at the chord level (W4-304). R29-3 closed (B500 stragglers EXTERNAL �
 in-sandbox compute wall). Open strategic question for the Phase-1→2 boundary: the
 W4-304 overturn justifies a chord-level pass over the OTHER banked trace-level
 negatives before building Phase-2 structural work on the negatives base.
+
+## 2026-07-23 — B774: the chord-pass campaign — the negatives base is SOUND
+The owner's chord-pass (after the W4-304 overturn) is complete and the answer is
+reassuring: the projection blind spot is real but NOT systemic. Stage A: 174 banked
+negatives, 129 structural/B766-immune (74%). Stage B: the 12 load-bearing chord-blind
+walls all HARDEN at the θ-odd level, zero overturns, every one verified, no panel
+escalation needed. The flagship foundations — vector-like (chiral index a genuine
+central-charge-forced zero), values-not-in-object (fiber-functor torsor, FS indicator
+≡0), no-Yukawa (θ-odd cup genuinely nonzero but alternating — a graded-commutativity
+type fact), the mirror wall, CP-sign — all confirmed at the level where the object
+lives. The W3-082c trap held: 11/12 chord analogs were abelian/character relabels or
+structural zeros; the one genuine θ-odd object confirms its wall. W4-304 stands as the
+isolated exception the audit found and fixed. Closes the W3-067c carry. The negatives
+base Phase 2 will build on is verified sound. Next: Phase 2 (structural) is clear to open.

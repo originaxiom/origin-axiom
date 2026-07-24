@@ -1,0 +1,110 @@
+{
+  "cell": "CP-E9-equiv",
+  "campaign": "B774 Stage B chord-pass",
+  "source_negative": "LAW_MAP E9 (THE EQUIVARIANCE WALL) + B736 Path-C parameter-reduction NO-GO",
+  "banked_negative_level": "theta-even / trace-abelianized (B650 W2-G1: Sylvester T=0)",
+  "chord_analog": "Sylvester T.A1=B.T with the theta-ODD golden character target",
+  "being_module": {
+    "matrix": [
+      [
+        "2",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "eigenvalues": [
+      "phi^2",
+      "phi^-2"
+    ],
+    "spectrum_type": "real hyperbolic, off unit circle"
+  },
+  "golden_orbit": [
+    {
+      "label": "theta-EVEN  chi(5A)=  phi ",
+      "trace": "1/2 + sqrt(5)/2",
+      "order": 5,
+      "theta_parity": 1,
+      "target_on_unit_circle": true,
+      "shares_being_eigenvalue": false,
+      "ker_dim_diag": 0,
+      "ker_dim_conj": 0,
+      "note": "A5 / hearing seen mod center (banked-adjacent)"
+    },
+    {
+      "label": "theta-EVEN  chi(5B)= -1/phi",
+      "trace": "1/2 - sqrt(5)/2",
+      "order": 5,
+      "theta_parity": 1,
+      "target_on_unit_circle": true,
+      "shares_being_eigenvalue": false,
+      "ker_dim_diag": 0,
+      "ker_dim_conj": 0,
+      "note": "A5 Galois conjugate"
+    },
+    {
+      "label": "theta-ODD   chi(10)= -1/phi",
+      "trace": "1/2 - sqrt(5)/2",
+      "order": 10,
+      "theta_parity": -1,
+      "target_on_unit_circle": true,
+      "shares_being_eigenvalue": false,
+      "ker_dim_diag": 0,
+      "ker_dim_conj": 0,
+      "note": "faithful 2I  (B650 banked target: tr=-1/phi, order 10)"
+    },
+    {
+      "label": "theta-ODD   chi(10)=  phi ",
+      "trace": "1/2 + sqrt(5)/2",
+      "order": 10,
+      "theta_parity": -1,
+      "target_on_unit_circle": true,
+      "shares_being_eigenvalue": false,
+      "ker_dim_diag": 0,
+      "ker_dim_conj": 0,
+      "note": "faithful 2I  Galois conjugate  <== THE CHORD ANALOG"
+    },
+    {
+      "label": "theta-ODD   chi(5) =  1/phi",
+      "trace": "-1/2 + sqrt(5)/2",
+      "order": 5,
+      "theta_parity": -1,
+      "target_on_unit_circle": true,
+      "shares_being_eigenvalue": false,
+      "ker_dim_diag": 0,
+      "ker_dim_conj": 0,
+      "note": "faithful 2I, order-5 class"
+    },
+    {
+      "label": "theta-ODD   chi(5) = -phi ",
+      "trace": "-sqrt(5)/2 - 1/2",
+      "order": 5,
+      "theta_parity": -1,
+      "target_on_unit_circle": true,
+      "shares_being_eigenvalue": false,
+      "ker_dim_diag": 0,
+      "ker_dim_conj": 0,
+      "note": "faithful 2I, order-5 class, Galois conj"
+    }
+  ],
+  "faithful_2I_second_path": {
+    "trace": "1/2 + sqrt(5)/2",
+    "is_theta_odd_center_minus_I": true,
+    "order_10": true,
+    "sylvester_kernel_dim": 0
+  },
+  "bridge_det_I_minus_Bodd": {
+    "value": "phi^2",
+    "is_shared_eigenvalue": false,
+    "reading": "invariant-level determinant shadow (B650 W2-G2)"
+  },
+  "theta_odd_moved_off_zero": false,
+  "zero_uniform_across_theta_parity": true,
+  "w4_304_overturn_signature": false,
+  "is_genuine_chord": false,
+  "verdict": "HARDENS",
+  "headline": "theta-odd golden character gives T=0 too: the Equivariance Wall holds for BOTH theta-parities and BOTH Galois conjugates",
+  "discriminating_fact": "The Sylvester kernel dim(ker: T.A1=B.T) = 0 for every golden-character target (theta-EVEN chi=phi/-1/phi order-5 AND theta-ODD chi=-1/phi/phi order-10, both Galois conjugates, diagonal AND genuine non-diagonal conjugate reps, plus the faithful 2I element with (.)^5=-I): the being spectrum {phi^2,phi^-2} is REAL hyperbolic and every golden-character trace has |trace|<2 giving a UNIT-CIRCLE target spectrum, so the spectra are disjoint for both theta-parities. The det(I-B_odd)=phi^2 'bridge' is an invariant-level determinant shadow, not a shared eigenvalue, and cannot force an intertwiner."
+}

@@ -1,0 +1,15 @@
+{
+  "cell": "CP-010-tower",
+  "source_wall": "OI-010 / B85 Procesi wall",
+  "chord_analog": "separate char(M^2)^2 degeneracy by an invariant finer than a symmetric trace polynomial",
+  "mult_char_M2_even": 2,
+  "mult_char_negM2_odd": 1,
+  "two_blocks_isomorphic_M_modules": true,
+  "sym2_equals_tplus1_times_charM2": true,
+  "theta_odd_separates_collision": false,
+  "w4304_signature_present": false,
+  "separator": "degree grading (Z-graded Procesi filtration) -- ABELIAN",
+  "separator_is_genuine_chord": false,
+  "verdict": "HARDENS",
+  "is_genuine_chord": false
+}

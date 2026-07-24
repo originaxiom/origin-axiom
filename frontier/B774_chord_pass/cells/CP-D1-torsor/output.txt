@@ -1,0 +1,82 @@
+==========================================================================
+CELL CP-D1-torsor  --  theta-graded Frobenius-Schur torsor indicator
+==========================================================================
+2I built as unit icosian quaternions: |G| = 120  (expect 120)
+closure sample check (144 products): CLOSED
+<chi_2, chi_2> = 1   (expect 1  => irreducible)
+
+--------------------------------------------------------------------------
+(A) ORDINARY FS indicator  nu_2(chi) = (1/|G|) sum_g chi(g^2)
+--------------------------------------------------------------------------
+  irrep A (chi_2)        : nu_2 = -1
+  irrep B (Galois conj.) : nu_2 = -1
+  both FS = -1 : True   -> both QUATERNIONIC, self-conjugate, INDISTINGUISHABLE by nu_2.
+  all chi_2 values lie in Q(sqrt5) c R  => chi_2 = conj(chi_2) : True
+
+--------------------------------------------------------------------------
+(B) does a theta / Z2 grading of G exist to source chi_odd ?
+--------------------------------------------------------------------------
+  |[G,G]| (from commutators) = 120  (expect 120 => PERFECT)
+  G perfect (G^ab trivial): True
+  => NO nontrivial homomorphism G -> Z/2, NO sign character,
+     NO group-sourced Z/2 grading. The ONLY 'theta-odd' notion is
+     complex conjugation on reps.
+
+--------------------------------------------------------------------------
+(C) THETA-GRADED FS indicator  nu_odd(chi) = (1/|G|) sum_g chi_odd(g^2)
+    with chi_odd = (chi - conj(chi))/2   (theta = conjugation)
+--------------------------------------------------------------------------
+  chi_odd(g) is IDENTICALLY zero on all 120 elements: True
+  nu_odd(A) = 0     nu_odd(B) = 0
+  => the theta-graded FS indicator is 0 for BOTH irreps.
+  It does NOT distinguish them and supplies NO basepoint.
+  CRUCIAL: the zero is because chi_odd == 0 IDENTICALLY (self-
+  conjugacy), NOT an even=odd cancellation with a NONZERO odd piece.
+  The W4-304 overturn signature (nonzero theta-odd piece) is ABSENT.
+
+--------------------------------------------------------------------------
+(D) SECOND PATH -- higher FS indicators nu_n, Galois equivariance
+--------------------------------------------------------------------------
+  nu_n(chi) = (1/|G|) sum_g chi(g^n):
+   n= 1: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 2: A=                    -1  B=                    -1  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 3: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 4: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 5: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 6: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 7: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 8: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n= 9: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n=10: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n=11: A=                     0  B=                     0  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+   n=12: A=                     1  B=                     1  RATIONAL  -> EQUAL for A,B  -> blind (no basepoint)
+
+  NO higher FS indicator distinguishes A from B: every nu_n is
+  rational (Galois-fixed) -> all blind. The indicators cannot even
+  tell the two irreps apart, let alone canonically point them.
+
+==========================================================================
+VERDICT
+==========================================================================
+  theta-odd piece nonzero?                 False
+  even=odd cancellation w/ nonzero odd?    False
+  indicator expressible as character sum?  True
+  restores a canonical basepoint?          False
+  is_genuine_chord?                        False
+
+  VERDICT: HARDENS
+
+  The theta-graded FS indicator (1/|G|) sum chi_odd(g^2) is:
+    * IDENTICALLY 0 on the golden irreps (self-conjugacy => chi_odd=0),
+      so it cannot distinguish them and supplies no basepoint;
+    * and every FS-type indicator (ordinary or higher) is a Galois-
+      equivariant CHARACTER SUM: rational ones are blind (equal), the
+      irrational ones ARE the Z/2 torsor (Galois-conjugate pair, no
+      canonical choice). This is exactly the W3-082c trap: an FS
+      indicator IS a character sum, hence NOT a chord positive.
+    * The W4-304 overturn signature (a zero decomposing as even=odd
+      with a NONZERO theta-odd piece) is ABSENT: the odd piece is
+      identically zero by self-conjugacy, not cancelling a nonzero one.
+
+  => B701 HARDENS. No canonical basepoint is restored; 'no canonical
+     fiber functor' stands. The one-number pin is untouched.

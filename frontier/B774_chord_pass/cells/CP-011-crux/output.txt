@@ -1,0 +1,48 @@
+==============================================================================
+B774 CHORD-PASS  CP-011-crux  --  L50 CRUX (B561): Eisenstein Z/3 selection
+                 re-computed with a THETA-ODD gauge-fixing of the holonomy
+==============================================================================
+
+[1] TRACE-LEVEL TEETH re-derived in-cell (reproduce B561)
+    E6 exponents [1, 4, 5, 7, 8, 11], Coxeter h=12
+    theta-even (F4 sector) = [1, 5, 7, 11] = (Z/12)* ; theta-odd (26) = [4, 8]
+    mult orders on theta-even = {1: 1, 5: 2, 7: 2, 11: 2} -> Klein four = True
+    => trace/F4 reading: no multiplicative order-3 = True
+
+[2] CHORD OBSERVATION (where the trace projection is blind)
+    additive order-3 subgroup <4> of (Z/12,+) = [0, 4, 8]
+    its nonzero classes == theta-odd exponents [4, 8] : True
+    theta-odd eigenvalues are cube roots of unity (omega,omega^2): True
+    -> the order-3 LABEL sits in the DISCARDED theta-odd sector (real, new).
+    but shift-by-4 is NOT a permutation of the six exponents (1->5 ok, 5->9 not an exp): True
+    exponent set is Z/3-coset-invariant = False (must be True to ACT)
+
+[3] THETA-ODD GAUGE-FIXED HOLONOMY (built from first principles)
+    Riley word: a(b a^-1 b^-1 a) = (b a^-1 b^-1 a)b ;  Riley poly in u: u**3 + u**2 + u
+    nonabelian root u* = -1/2 - sqrt(3)*I/2 ,  min poly x**2 + x + 1
+    trace field: degree 2, disc -3 (squarefree -3) -> Q(sqrt-3) = True
+    Galois order = 2
+
+[3b] GENUINENESS GATE (decisive, gauge-fixing-invariant)
+    (i)  omega is NOT a field automorphism (multiplicativity defect -3*sqrt(3)*I): True
+         Gal(Q(sqrt-3)/Q) order 2; has order-3 element = False
+    (ii) Isom(4_1) = D4 order 8; Lagrange forbids order-3 = True
+    => genuine theta-odd order-3 ACTION exists = False
+       (both no-go's unchanged by any theta-odd gauge-fixing)
+
+[4] W3-082c GENUINENESS TRAP
+    chord Z/3 = <4> is a cyclic ABELIAN subgroup of Z/12, relabeled onto theta-odd
+    Eisenstein sum over theta-odd = omega+omega^2 = -1+1.554e-15j (a class-function value): True
+    => expressible as an ordinary character polynomial -> NOT a genuine chord
+
+[5] W4-304 OVERTURN SIGNATURE
+    theta-even (multiplicative) order-3 count = 0
+    theta-odd (additive) order-3 LABELS      = 2
+    theta-odd order-3 ACTIONS                = 0
+    even & odd are ONE vanishing quantity = False (they are different group structures)
+    => W4-304 cancellation signature present = False
+
+==============================================================================
+VERDICT: HARDENS    is_genuine_chord: False
+==============================================================================
+The chord observation is REAL and previously unrecorded: the order-3 the trace-level tooth read as absent DOES sit in the discarded theta-odd sector -- {4,8} are exactly the nonzero classes of the unique order-3 subgroup <4>={0,4,8} of the ADDITIVE Coxeter grading (Z/12,+), i.e. the omega,omega^2 eigenspaces of the mark-3 order-3 element of F4 (centralizer SU(3)^2). B561 only checked the MULTIPLICATIVE unit group (Z/12)* on the theta-EVEN sector (-> Klein four), so it missed this. BUT the label is not an action: <4> is a cyclic (abelian) subgroup of Z/12 relabeled onto theta-odd exponents; it does NOT permute the six H^1 deformation directions (the exponent multiset is not a union of its cosets: 1->5 but 5->9 is not an exponent), it produces only the Eisenstein character sum omega+omega^2=-1 (a class function = the W3-082c trap), and it does NOT act as a holonomy automorphism. The two load-bearing no-go's are GAUGE-FIXING-INVARIANT: an order-3 automorphism moving the trace field would give an order-3 in Gal(Q(sqrt-3)/Q)=Z/2 (3 nmid 2; and omega is not even multiplicative), and one fixing the field would be an order-3 isometry in D4 (order 8; 3 nmid 8). A theta-odd gauge-fixing rescales the holonomy representative but changes neither the trace field (Galois) nor the isometry group (topological), so it cannot promote the theta-odd order-3 LABEL to an order-3 ACTION. No W4-304 signature: the trace-'zero' (0 multiplicative order-3) and the theta-odd '2' (additive labels) live in DIFFERENT group structures -- a structure-swap, not an even=odd cancellation of one vanishing holonomy quantity. The CRUX gate's negative HARDENS beyond trace level; F4 remains the terminus.
