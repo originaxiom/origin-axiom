@@ -1,0 +1,116 @@
+{
+ "cell": "P2W2-GIESEKING",
+ "OI": "OI-018",
+ "campaign": "B469 Phase 2b (parity column + Gieseking descent)",
+ "gate": "5-Q structural (orientation/parity); no SM values; nothing to CLAIMS",
+ "b774_chord_note": "residue is honestly ABELIAN (orientation character / det -1 / order-2 deck involution); no non-abelian chord claimed",
+ "checks": {
+  "A1_Xsq_eq_A_symbolic": true,
+  "A2_detX_eq_minus1": true,
+  "A3_detA_eq_plus1": true,
+  "A4_X_has_one_negative_eig": true,
+  "B1_floor_nonorientable": true,
+  "B2_cover_orientable": true,
+  "B3_cover_iso_figure8": true,
+  "B4_vol_ratio_exactly_2": true,
+  "B5_tet_count_doubles": true,
+  "B6_vol_clausen_second_way": true,
+  "B7a_shapes_regular_ideal_tet": true,
+  "B7b_shape_field_disc_minus3": true,
+  "B8_cover_amphichiral": true,
+  "C_parity_column_assigned": true,
+  "C_falsifier_not_fired": true,
+  "C_even_invariants_descend": true,
+  "C_odd_invariants_cover_only": true
+ },
+ "data": {
+  "parent": {
+   "X_m": "[[m,1],[1,0]]",
+   "A_m": "[[m^2+1,m],[m,1]]",
+   "detX": "-1",
+   "detA": "+1"
+  },
+  "snappy_available": true,
+  "descent": {
+   "vol_floor": 1.0149416064096535,
+   "vol_cover": 2.029883212819307,
+   "vol_ratio": 2.0,
+   "ntet_floor": 1,
+   "ntet_cover": 2,
+   "shape": "(0.5+0.8660254037844386j)",
+   "shape_minpoly": "z^2 - z + 1",
+   "disc": -3,
+   "invariant_trace_field": "Q(sqrt-3)"
+  },
+  "parity_column": [
+   {
+    "invariant": "hyperbolic volume Vol",
+    "parity": "EVEN",
+    "law": "Vol(M-bar)=Vol(M); descends, floor = 1/2 cover",
+    "value_class": "nonzero",
+    "forced": false
+   },
+   {
+    "invariant": "invariant trace field (as field)",
+    "parity": "EVEN",
+    "law": "conj fixes Q(sqrt-3) as a field",
+    "value_class": "nonzero",
+    "forced": false
+   },
+   {
+    "invariant": "ideal-triangulation shape z field",
+    "parity": "EVEN",
+    "law": "shape field Q(sqrt-3) common to floor & cover",
+    "value_class": "nonzero",
+    "forced": false
+   },
+   {
+    "invariant": "Ruelle zeta / analytic torsion",
+    "parity": "EVEN",
+    "law": "real, orientation-independent modulus",
+    "value_class": "nonzero",
+    "forced": false
+   },
+   {
+    "invariant": "trace-field GALois group Z/2",
+    "parity": "EVEN",
+    "law": "conj IS the Galois action; the field is stable",
+    "value_class": "nonzero",
+    "forced": false
+   },
+   {
+    "invariant": "Chern-Simons invariant",
+    "parity": "ODD",
+    "law": "CS(M-bar) = -CS(M) mod 1",
+    "value_class": "zero",
+    "forced": true
+   },
+   {
+    "invariant": "eta invariant",
+    "parity": "ODD",
+    "law": "eta(M-bar) = -eta(M)",
+    "value_class": "zero",
+    "forced": true
+   },
+   {
+    "invariant": "orientation det-character (det X)",
+    "parity": "ODD",
+    "law": "= the residue itself (det X_m = -1)",
+    "value_class": "is_the_bit",
+    "forced": true
+   },
+   {
+    "invariant": "signed rep-volume on Falbel V_i",
+    "parity": "ODD",
+    "law": "odd under conj; V_i conj-stable => 0 (2a)",
+    "value_class": "zero",
+    "forced": true
+   }
+  ],
+  "falsifier_hits": []
+ },
+ "verdict": "RESOLVED-A",
+ "terminal_state": "DESCENT-COMPLETED",
+ "headline": "Parity column completed and the Gieseking non-orientable descent closes: every metallic bundle A_m = X_m^2 double-covers the det(-1) half-monodromy floor (m=1: m000, orientation_cover isometric to figure-eight, vol ratio exactly 2, invariant trace field Q(sqrt-3) shared); EVEN invariants descend, ODD invariants are cover-only, P2 falsifier does not fire.",
+ "discriminating_fact": "orientation_cover(m000) is isometric to the figure-eight m004 with volume ratio exactly 2 and a common regular-ideal-tetra shape field Q(sqrt-3) (disc -3), so the EVEN invariants (Vol, invariant trace field) descend to the non-orientable Gieseking floor while the ODD invariants (CS, eta, the det(-1) residue) are exactly the obstruction to that floor being orientable -- the parity column IS the descent."
+}
