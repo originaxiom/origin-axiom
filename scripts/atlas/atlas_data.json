@@ -16177,6 +16177,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B776": {
+   "slug": "b685 homework",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B685",
+    "B772"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B77": {
    "slug": "degree rank mechanism",
    "motifs": [

@@ -1,0 +1,90 @@
+
+========================================================================
+PART 1 -- extract the r-stream on TWO DISJOINT ladders (dps=1200)
+========================================================================
+dps = 1200,  Vol(4_1) = 2.02988321281930725
+ladder A: N = 2000..64000 (32 pts)
+ladder B: N = 3000..65000 (32 pts)  (disjoint)
+[A] npts=32  N=2000..64000  c0 (must be 1) = 1.0
+  [A] j=1: trusted ~91d, r_1 = 11/24  (residual 3.9e-96, accept: True)
+  [A] j=2: trusted ~86d, r_2 = 697/1152  (residual 1.63e-90, accept: True)
+  [A] j=3: trusted ~81d, r_3 = 724351/414720  (residual 4.36e-85, accept: True)
+  [A] j=4: trusted ~76d, r_4 = 278392949/39813120  (residual 8.36e-80, accept: True)
+  [A] j=5: trusted ~71d, r_5 = 244284791741/6688604160  (residual 1.22e-74, accept: True)
+  [A] j=6: trusted ~67d, r_6 = 1140363907117019/4815794995200  (residual 1.42e-69, accept: True)
+  [A] j=7: trusted ~63d, r_7 = 212114205337147471/115579079884800  (residual 1.35e-64, accept: True)
+  [A] j=8: trusted ~59d, r_8 = 367362844229968131557/22191183337881600  (residual 1.07e-59, accept: True)
+  (4s elapsed)
+[B] npts=32  N=3000..65000  c0 (must be 1) = 1.0
+  [B] j=1: trusted ~92d, r_1 = 11/24  (residual 6.13e-97, accept: True)
+  [B] j=2: trusted ~86d, r_2 = 697/1152  (residual 2.64e-91, accept: True)
+  [B] j=3: trusted ~81d, r_3 = 724351/414720  (residual 7.29e-86, accept: True)
+  [B] j=4: trusted ~76d, r_4 = 278392949/39813120  (residual 1.44e-80, accept: True)
+  [B] j=5: trusted ~72d, r_5 = 244284791741/6688604160  (residual 2.18e-75, accept: True)
+  [B] j=6: trusted ~68d, r_6 = 1140363907117019/4815794995200  (residual 2.63e-70, accept: True)
+  [B] j=7: trusted ~64d, r_7 = 212114205337147471/115579079884800  (residual 2.58e-65, accept: True)
+  [B] j=8: trusted ~60d, r_8 = 367362844229968131557/22191183337881600  (residual 2.1e-60, accept: True)
+  (5s elapsed)
+
+========================================================================
+PART 2 -- gates, cross-ladder agreement, and r_7
+========================================================================
+GATE r_1 = 11/24, r_2 = 697/1152 -- printed eq (1) REPRODUCED, both ladders
+banked r_1..r_6 REPRODUCED on both ladders
+cross-ladder agreement: r_1..r_8 identical on both disjoint seeds
+
+*** r_7 = 212114205337147471/115579079884800  (reproduced on ladders A and B) ***
+    r_8 = 367362844229968131557/22191183337881600  (also cross-agreed -- bonus)
+
+========================================================================
+PART 3 -- denominator factorization and the v5 pattern
+========================================================================
+prime support of den(r_j)  [the Phi-level GZ stream]:
+  den r_1 = {2: 3, 3: 1}   v5 = 0   v7 = 0
+  den r_2 = {2: 7, 3: 2}   v5 = 0   v7 = 0
+  den r_3 = {2: 10, 3: 4, 5: 1}   v5 = 1   v7 = 0
+  den r_4 = {2: 15, 3: 5, 5: 1}   v5 = 1   v7 = 0
+  den r_5 = {2: 18, 3: 6, 5: 1, 7: 1}   v5 = 1   v7 = 1
+  den r_6 = {2: 22, 3: 8, 5: 2, 7: 1}   v5 = 2   v7 = 1
+  den r_7 = {2: 25, 3: 9, 5: 2, 7: 1}   v5 = 2   v7 = 1
+  den r_8 = {2: 31, 3: 10, 5: 2, 7: 1}   v5 = 2   v7 = 1
+
+r_7 denominator factorization: {2: 25, 3: 9, 5: 2, 7: 1}
+v5(r_7) = 2
+v5 sequence r_1..r_8: [0, 0, 1, 1, 1, 2, 2, 2]
+v5(r_6) = 2, v5(r_7) = 2: plateau -- growth does NOT continue at r_7
+
+========================================================================
+PART 4 -- INDEPENDENT cross-check: Psi pure-3 identity through u^9
+========================================================================
+Psi = Phi(h)Phi(-h) in u = q-1 through u^9 (uses r_1..r_8):
+  u^0: 1   den 1   pure-3: True
+  u^1: 0   den 1   pure-3: True
+  u^2: -1/27   den {3: 3}   pure-3: True  [eq(2): MATCH]
+  u^3: 1/27   den {3: 3}   pure-3: True  [eq(2): MATCH]
+  u^4: -4/243   den {3: 5}   pure-3: True  [eq(2): MATCH]
+  u^5: -1/243   den {3: 5}   pure-3: True  [eq(2): MATCH]
+  u^6: -25/19683   den {3: 9}   pure-3: True
+  u^7: 214/6561   den {3: 8}   pure-3: True
+  u^8: -12842/531441   den {3: 12}   pure-3: True
+  u^9: -47749/531441   den {3: 12}   pure-3: True
+pure-3 through u^9: True   |  eq(2) coeffs reproduced: True
+
+========================================================================
+VERDICT
+========================================================================
+RESOLVED-A -- r_7 IDENTIFIED EXACTLY.
+  r_7 = 212114205337147471/115579079884800
+      den = {2: 25, 3: 9, 5: 2, 7: 1}
+  Reproduced on TWO DISJOINT ladders (A: N=2000..64000, B: N=3000..65000),
+  32 pts each, dps=1200, r_7 cleared ~63 trusted digits (OI-055 had ~33).
+  v5(r_7) = 2.  v5 sequence r_1..r_8 = [0, 0, 1, 1, 1, 2, 2, 2].
+  The 0,0,1,1,1,2 pattern does NOT keep growing at r_7: v5(r_6)=v5(r_7)=2
+  (a PLATEAU, not a continuation of the +1 steps).  [E15 GUARD respected:
+  v5 read from the exact factorization; 3^9 is a power of 3, not a 5.]
+  INDEPENDENT CHECK: r_7 (and r_8) satisfy the symmetrised-product
+  3-integrality identity -- Psi = Phi(h)Phi(-h) stays pure-3 through u^9
+  -- an arithmetic constraint unrelated to the numerical fit.
+  [Bonus: r_8 = 367362844229968131557/22191183337881600 also cross-agreed, den {2: 31, 3: 10, 5: 2, 7: 1}.]
+
+results.json written.  total 6s
