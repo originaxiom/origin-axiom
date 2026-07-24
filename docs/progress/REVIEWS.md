@@ -2073,10 +2073,12 @@ in-arc; the redaction/layering pattern established (transform chains hash-linked
 relay channel locally versioned; the collision protocol's rows now generator-safe.
 
 ### Action items (Review 29)
-- [ ] R29-1: the external specialist pass (carried from R28-1; the package now includes
-  the priced chain C1–C19 and the QP composite)
-- [ ] R29-2: the web seat's L95 prereg — verify-on-receipt (carried from R28-2)
-- [ ] R29-3: B500 wrap-up (carried from R28-6; the run's final processes)
+- [>] R29-1: the external specialist pass (carried from R28-1; the package now includes
+  the priced chain C1–C19 and the QP composite) — CARRIED to R30-6 (owner-gated; still pending)
+- [>] R29-2: the web seat's L95 prereg — verify-on-receipt (carried from R28-2) — CARRIED to R30-6
+- [x] R29-3: B500 wrap-up (carried from R28-6) — DONE 2026-07-23: the stragglers hit the
+  IN-SANDBOX compute wall (35/150 timeout/never-reached, PARI stack + 3600s; 1 resolved =
+  DFDMM child ABSENT deg 74); EXTERNAL/specialist, not a math wall (docs/PHASE1_WRAP.md)
 - [>] R29-4: the depth-closure backlog (carried from R28-10; 6 items + B500's via R29-3;
   sequencing split cc/cc3 at the owner's call) — SEQUENCED 2026-07-23: cc3 takes all six;
   DELIVERED same-day (B767): 2 STABILIZED (B489 Binet all-n; TOMB-L255 functoriality all-d
