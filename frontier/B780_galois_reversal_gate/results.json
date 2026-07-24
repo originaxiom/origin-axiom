@@ -8,11 +8,5 @@
  "gate_rejects_swap": true,
  "verified": true,
  "headline": "The Galois-vs-reversal gate is VERIFIED: three banked signatures (rank-onset SL(2) c-nontrivial/theta-trivial; action-type c-diagonal/theta-permutation (1 4)(2 5)(3 8)(6 7); solo-flip c-has-T4/theta-none) genuinely separate c from theta and reject the swap. cc3's Move 3 confirmed, no new math. Halves the Phase-3 enumeration 8->4.",
- "applied_to_enumeration": {
-  "cc3_survivors": 8,
-  "after_gate": 4,
-  "after_gate_and_aux": 2,
-  "settles": "the c/theta slot ambiguity (structural)",
-  "does_not_settle": "c's grain (narrative vs ipseity) -- interpretive, Gate 5-Q"
- }
+ "RETRACTED_B784": "the 'gate verified' and '8->4 halving' claims are retracted as vacuous (literal signature tuples + a classify() that maps them by definition); the upstream signature differences (SL(2) onset, diagonal-vs-permutation, solo flip-axis) stand"
 }

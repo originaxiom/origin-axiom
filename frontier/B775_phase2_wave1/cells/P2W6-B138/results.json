@@ -1,0 +1,1103 @@
+{
+ "cell": "P2W6-B138",
+ "OI": "OI-142",
+ "target": "S031a sealing capstone: SL(3) -> SL(4)",
+ "engine": {
+  "coefficient_form_exact": {
+   "n2_m1": true,
+   "n2_m2": true,
+   "n3_m1": true,
+   "n3_m2": true,
+   "n4_m1": true,
+   "n4_m2": true,
+   "n5_m1": true,
+   "n5_m2": true
+  },
+  "fixedness_equivalence_exact": {
+   "n2_m1": true,
+   "n2_m2": true,
+   "n3_m1": true,
+   "n3_m2": true,
+   "n4_m1": true,
+   "n4_m2": true,
+   "n5_m1": true,
+   "n5_m2": true
+  },
+  "lemma_N_normaliser": {
+   "gAg^-1": "B in Gamma",
+   "gBg^-1": "B^{-1}A in Gamma  (= (gAg^-1)^{-1} * g(AB)g^-1)",
+   "g^-1Ag": "AB in Gamma",
+   "g^-1Bg": "A in Gamma",
+   "conclusion": "g Gamma g^-1 = Gamma : g normalises Gamma, so it permutes its invariant subspaces"
+  }
+ },
+ "theorem_Q": {
+  "free_algebra_certificates": {
+   "C1_BAB=A": true,
+   "C3_ABA=B": true,
+   "C2_lamBA=AB": true,
+   "C4_lamAB=BA": true,
+   "FIN_(lam^2-1)AB_in_I": true
+  },
+  "all_certificates_hold": true,
+  "normal_form_basis": [
+   "",
+   "A",
+   "AB",
+   "B"
+  ],
+  "dim_bound": 4,
+  "models": {
+   "Q8_n2": {
+    "algdim": 4,
+    "n2": 4,
+    "A2_central": true,
+    "A2_scalar": "-1",
+    "irreducible_by_burnside": true
+   },
+   "principal_Sym2_n3": {
+    "algdim": 3,
+    "n2": 9,
+    "A2_central": true,
+    "A2_scalar": "1",
+    "irreducible_by_burnside": false
+   },
+   "principal_Sym3_n4": {
+    "algdim": 4,
+    "n2": 16,
+    "A2_central": true,
+    "A2_scalar": "-1",
+    "irreducible_by_burnside": false
+   },
+   "Klein4_n3": {
+    "algdim": 3,
+    "n2": 9,
+    "A2_central": true,
+    "A2_scalar": "1",
+    "irreducible_by_burnside": false
+   }
+  },
+  "statement": "phi_1-fixed and A^2 central => lam^2=1, AB=lam*BA, dim C<A,B> <= 4; Burnside => reducible for all n>=3, irreducible possible ONLY at n=2",
+  "sl3_vs_sl4": "odd n forces lam=1 (lam^n=det-compatible, lam^2=1) => SL(3) only sees Klein-4 (B142); SL(4) admits lam=-1 => Q8, a branch absent at SL(3)"
+ },
+ "theorem_T": {
+  "per_cycle_length": {
+   "1": {
+    "det(M^L-I)": 1,
+    "kernel_order": 1,
+    "smith_divisors": [
+     1,
+     1
+    ],
+    "kernel_exponent_N": 1,
+    "n_solution_tuples": 1,
+    "count_matches_det": true,
+    "sample_tuples": [
+     [
+      "z1^0"
+     ]
+    ],
+    "all_roots_of_unity": true
+   },
+   "2": {
+    "det(M^L-I)": -1,
+    "kernel_order": 1,
+    "smith_divisors": [
+     1,
+     1
+    ],
+    "kernel_exponent_N": 1,
+    "n_solution_tuples": 1,
+    "count_matches_det": true,
+    "sample_tuples": [
+     [
+      "z1^0",
+      "z1^0"
+     ]
+    ],
+    "all_roots_of_unity": true
+   },
+   "3": {
+    "det(M^L-I)": 4,
+    "kernel_order": 4,
+    "smith_divisors": [
+     2,
+     2
+    ],
+    "kernel_exponent_N": 2,
+    "n_solution_tuples": 4,
+    "count_matches_det": true,
+    "sample_tuples": [
+     [
+      "z2^0",
+      "z2^0",
+      "z2^0"
+     ],
+     [
+      "z2^0",
+      "z2^1",
+      "z2^1"
+     ],
+     [
+      "z2^1",
+      "z2^0",
+      "z2^1"
+     ],
+     [
+      "z2^1",
+      "z2^1",
+      "z2^0"
+     ]
+    ],
+    "all_roots_of_unity": true
+   },
+   "4": {
+    "det(M^L-I)": -5,
+    "kernel_order": 5,
+    "smith_divisors": [
+     1,
+     5
+    ],
+    "kernel_exponent_N": 5,
+    "n_solution_tuples": 5,
+    "count_matches_det": true,
+    "sample_tuples": [
+     [
+      "z5^0",
+      "z5^0",
+      "z5^0",
+      "z5^0"
+     ],
+     [
+      "z5^1",
+      "z5^2",
+      "z5^4",
+      "z5^3"
+     ],
+     [
+      "z5^2",
+      "z5^4",
+      "z5^3",
+      "z5^1"
+     ],
+     [
+      "z5^3",
+      "z5^1",
+      "z5^2",
+      "z5^4"
+     ],
+     [
+      "z5^4",
+      "z5^3",
+      "z5^1",
+      "z5^2"
+     ]
+    ],
+    "all_roots_of_unity": true
+   },
+   "5": {
+    "det(M^L-I)": 11,
+    "kernel_order": 11,
+    "smith_divisors": [
+     1,
+     11
+    ],
+    "kernel_exponent_N": 11,
+    "n_solution_tuples": 11,
+    "count_matches_det": true,
+    "sample_tuples": [
+     [
+      "z11^0",
+      "z11^0",
+      "z11^0",
+      "z11^0",
+      "z11^0"
+     ],
+     [
+      "z11^1",
+      "z11^3",
+      "z11^9",
+      "z11^5",
+      "z11^4"
+     ],
+     [
+      "z11^2",
+      "z11^6",
+      "z11^7",
+      "z11^10",
+      "z11^8"
+     ],
+     [
+      "z11^3",
+      "z11^9",
+      "z11^5",
+      "z11^4",
+      "z11^1"
+     ],
+     [
+      "z11^4",
+      "z11^1",
+      "z11^3",
+      "z11^9",
+      "z11^5"
+     ],
+     [
+      "z11^5",
+      "z11^4",
+      "z11^1",
+      "z11^3",
+      "z11^9"
+     ]
+    ],
+    "all_roots_of_unity": true
+   },
+   "6": {
+    "det(M^L-I)": -16,
+    "kernel_order": 16,
+    "smith_divisors": [
+     4,
+     4
+    ],
+    "kernel_exponent_N": 4,
+    "n_solution_tuples": 16,
+    "count_matches_det": true,
+    "sample_tuples": [
+     [
+      "z4^0",
+      "z4^0",
+      "z4^0",
+      "z4^0",
+      "z4^0",
+      "z4^0"
+     ],
+     [
+      "z4^0",
+      "z4^1",
+      "z4^3",
+      "z4^2",
+      "z4^1",
+      "z4^1"
+     ],
+     [
+      "z4^0",
+      "z4^2",
+      "z4^2",
+      "z4^0",
+      "z4^2",
+      "z4^2"
+     ],
+     [
+      "z4^0",
+      "z4^3",
+      "z4^1",
+      "z4^2",
+      "z4^3",
+      "z4^3"
+     ],
+     [
+      "z4^1",
+      "z4^0",
+      "z4^1",
+      "z4^3",
+      "z4^2",
+      "z4^1"
+     ],
+     [
+      "z4^1",
+      "z4^1",
+      "z4^0",
+      "z4^1",
+      "z4^3",
+      "z4^2"
+     ]
+    ],
+    "all_roots_of_unity": true
+   }
+  },
+  "n4_cycle_types": {
+   "4": {
+    "cycle_lengths": [
+     4
+    ],
+    "kernel_orders": [
+     5
+    ]
+   },
+   "3+1": {
+    "cycle_lengths": [
+     3,
+     1
+    ],
+    "kernel_orders": [
+     4,
+     1
+    ]
+   },
+   "2+2": {
+    "cycle_lengths": [
+     2,
+     2
+    ],
+    "kernel_orders": [
+     1,
+     1
+    ]
+   },
+   "2+1+1": {
+    "cycle_lengths": [
+     2,
+     1,
+     1
+    ],
+    "kernel_orders": [
+     1,
+     1,
+     1
+    ]
+   },
+   "1+1+1+1": {
+    "cycle_lengths": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "kernel_orders": [
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "statement": "monomial g => eigenvalues are periodic solutions of the multiplicative Fibonacci recursion => finite group ker(N^{-L}-I) => ALL ROOTS OF UNITY; B = g A g^-1 is diagonal there => <A,B> abelian => reducible"
+ },
+ "census": {
+  "2": [
+   {
+    "name": "{i,-i}  (phi-fixed Q8: KNOWN irreducible)",
+    "n": 2,
+    "m": 1,
+    "eigs": [
+     "0+1j",
+     "-0-1j"
+    ],
+    "A2_central": true,
+    "starts": 36,
+    "hits": 36,
+    "hit_rate": 1.0,
+    "occupied": true,
+    "algdims": [
+     4
+    ],
+    "n2": 4,
+    "n_irreducible_burnside": 36,
+    "min_proper_submodule_dim": 2,
+    "max_fixedness_dev": 2.4986185198476503e-15,
+    "seconds": 0.6
+   },
+   {
+    "name": "{1,1}   (trivial/unipotent)",
+    "n": 2,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "1+0j"
+    ],
+    "A2_central": true,
+    "starts": 36,
+    "hits": 36,
+    "hit_rate": 1.0,
+    "occupied": true,
+    "algdims": [
+     1,
+     3
+    ],
+    "n2": 4,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 1,
+    "max_fixedness_dev": 6.89411847443645e-15,
+    "seconds": 0.2
+   },
+   {
+    "name": "generic-regular {2,1/2}",
+    "n": 2,
+    "m": 1,
+    "eigs": [
+     "2+0j",
+     "0.5+0j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 4,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 11.2
+   }
+  ],
+  "3": [
+   {
+    "name": "{1,-1,-1} principal (B142 Klein-4)",
+    "n": 3,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "-1+0j",
+     "-1+0j"
+    ],
+    "A2_central": true,
+    "starts": 36,
+    "hits": 36,
+    "hit_rate": 1.0,
+    "occupied": true,
+    "algdims": [
+     3
+    ],
+    "n2": 9,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 2,
+    "max_fixedness_dev": 3.756755865433588e-15,
+    "seconds": 0.9
+   },
+   {
+    "name": "{1,i,-i}  (order 4)",
+    "n": 3,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "0+1j",
+     "-0-1j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 26,
+    "hit_rate": 0.722,
+    "occupied": true,
+    "algdims": [
+     5,
+     7
+    ],
+    "n2": 9,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 3,
+    "max_fixedness_dev": 4.271113254555058e-15,
+    "seconds": 7.0
+   },
+   {
+    "name": "{1,w,w^2} (order 3)",
+    "n": 3,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "-0.5+0.866j",
+     "-0.5-0.866j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 9,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 21.5
+   },
+   {
+    "name": "generic-regular {2,3,1/6}",
+    "n": 3,
+    "m": 1,
+    "eigs": [
+     "2+0j",
+     "3+0j",
+     "0.1667+0j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 9,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 21.4
+   }
+  ],
+  "4": [
+   {
+    "name": "{i,i,-i,-i} PRINCIPAL Sym^3 (A^2=-I)",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "0+1j",
+     "0+1j",
+     "-0-1j",
+     "-0-1j"
+    ],
+    "A2_central": true,
+    "starts": 36,
+    "hits": 36,
+    "hit_rate": 1.0,
+    "occupied": true,
+    "algdims": [
+     4
+    ],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 4,
+    "max_fixedness_dev": 1.8741406512043205e-14,
+    "seconds": 2.0
+   },
+   {
+    "name": "{1,1,-1,-1} (A^2=+I)",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "1+0j",
+     "-1+0j",
+     "-1+0j"
+    ],
+    "A2_central": true,
+    "starts": 36,
+    "hits": 36,
+    "hit_rate": 1.0,
+    "occupied": true,
+    "algdims": [
+     4
+    ],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 4,
+    "max_fixedness_dev": 2.4349091853294375e-15,
+    "seconds": 2.1
+   },
+   {
+    "name": "{1,1,1,1}   (A^2=+I, trivial)",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "1+0j",
+     "1+0j",
+     "1+0j"
+    ],
+    "A2_central": true,
+    "starts": 36,
+    "hits": 36,
+    "hit_rate": 1.0,
+    "occupied": true,
+    "algdims": [
+     1
+    ],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 1,
+    "max_fixedness_dev": 1.1972019345342438e-14,
+    "seconds": 0.6
+   },
+   {
+    "name": "{i,i,i,i}   (A=iI central)",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "0+1j",
+     "0+1j",
+     "0+1j",
+     "0+1j"
+    ],
+    "A2_central": true,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 0.2
+   },
+   {
+    "name": "{1,1,i,-i}  (A^2 NOT central)",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "1+0j",
+     "0+1j",
+     "-0-1j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 28,
+    "hit_rate": 0.778,
+    "occupied": true,
+    "algdims": [
+     7,
+     9
+    ],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 3,
+    "max_fixedness_dev": 2.9617832099238427e-12,
+    "seconds": 9.0
+   },
+   {
+    "name": "{1,-1,i,-i} (A^2 NOT central)",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "-1+0j",
+     "0+1j",
+     "-0-1j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 10.8
+   },
+   {
+    "name": "{-1,-1,i,-i}(A^2 NOT central)",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "-1+0j",
+     "-1+0j",
+     "0+1j",
+     "-0-1j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 29.5
+   },
+   {
+    "name": "{z5,z5^2,z5^3,z5^4} primitive 5th roots",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "0.309+0.9511j",
+     "-0.809+0.5878j",
+     "-0.809-0.5878j",
+     "0.309-0.9511j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 18,
+    "hit_rate": 0.5,
+    "occupied": true,
+    "algdims": [
+     4
+    ],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": 4,
+    "max_fixedness_dev": 5.8103162272747105e-11,
+    "seconds": 20.1
+   },
+   {
+    "name": "{w,w,w^2,w^2} order 3",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "-0.5+0.866j",
+     "-0.5+0.866j",
+     "-0.5-0.866j",
+     "-0.5-0.866j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 27.4
+   },
+   {
+    "name": "{1,1,w,w^2} order 3",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "1+0j",
+     "1+0j",
+     "-0.5+0.866j",
+     "-0.5-0.866j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 31.3
+   },
+   {
+    "name": "{z8,z8^3,z8^5,z8^7} order 8",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "0.7071+0.7071j",
+     "-0.7071+0.7071j",
+     "-0.7071-0.7071j",
+     "0.7071-0.7071j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 36.4
+   },
+   {
+    "name": "{i,-i,2,1/2} mixed",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "0+1j",
+     "-0-1j",
+     "2+0j",
+     "0.5+0j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 36.4
+   },
+   {
+    "name": "generic-regular {2,3,5,1/30}",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "2+0j",
+     "3+0j",
+     "5+0j",
+     "0.03333+0j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 34.7
+   },
+   {
+    "name": "generic-regular random",
+    "n": 4,
+    "m": 1,
+    "eigs": [
+     "1.7+0.4j",
+     "0.9-1.3j",
+     "0.6+0.2j",
+     "0.5246+0.2295j"
+    ],
+    "A2_central": false,
+    "starts": 36,
+    "hits": 0,
+    "hit_rate": 0.0,
+    "occupied": false,
+    "algdims": [],
+    "n2": 16,
+    "n_irreducible_burnside": 0,
+    "min_proper_submodule_dim": null,
+    "max_fixedness_dev": null,
+    "seconds": 35.5
+   }
+  ]
+ },
+ "census_m2": [
+  {
+   "name": "{i,i,-i,-i} PRINCIPAL Sym^3 (A^2=-I)",
+   "n": 4,
+   "m": 2,
+   "eigs": [
+    "0+1j",
+    "0+1j",
+    "-0-1j",
+    "-0-1j"
+   ],
+   "A2_central": true,
+   "starts": 36,
+   "hits": 36,
+   "hit_rate": 1.0,
+   "occupied": true,
+   "algdims": [
+    4,
+    7,
+    8
+   ],
+   "n2": 16,
+   "n_irreducible_burnside": 0,
+   "min_proper_submodule_dim": 4,
+   "max_fixedness_dev": 1.4162199163704847e-14,
+   "seconds": 2.0
+  },
+  {
+   "name": "{1,1,-1,-1} (A^2=+I)",
+   "n": 4,
+   "m": 2,
+   "eigs": [
+    "1+0j",
+    "1+0j",
+    "-1+0j",
+    "-1+0j"
+   ],
+   "A2_central": true,
+   "starts": 36,
+   "hits": 36,
+   "hit_rate": 1.0,
+   "occupied": true,
+   "algdims": [
+    6,
+    7,
+    8
+   ],
+   "n2": 16,
+   "n_irreducible_burnside": 0,
+   "min_proper_submodule_dim": 4,
+   "max_fixedness_dev": 3.9460776457590996e-15,
+   "seconds": 2.0
+  },
+  {
+   "name": "{1,1,1,1}   (A^2=+I, trivial)",
+   "n": 4,
+   "m": 2,
+   "eigs": [
+    "1+0j",
+    "1+0j",
+    "1+0j",
+    "1+0j"
+   ],
+   "A2_central": true,
+   "starts": 36,
+   "hits": 36,
+   "hit_rate": 1.0,
+   "occupied": true,
+   "algdims": [
+    1
+   ],
+   "n2": 16,
+   "n_irreducible_burnside": 0,
+   "min_proper_submodule_dim": 1,
+   "max_fixedness_dev": 1.1972019345342438e-14,
+   "seconds": 0.6
+  },
+  {
+   "name": "generic-regular {2,3,5,1/30}",
+   "n": 4,
+   "m": 2,
+   "eigs": [
+    "2+0j",
+    "3+0j",
+    "5+0j",
+    "0.03333+0j"
+   ],
+   "A2_central": false,
+   "starts": 36,
+   "hits": 0,
+   "hit_rate": 0.0,
+   "occupied": false,
+   "algdims": [],
+   "n2": 16,
+   "n_irreducible_burnside": 0,
+   "min_proper_submodule_dim": null,
+   "max_fixedness_dev": null,
+   "seconds": 39.1
+  }
+ ],
+ "groebner_gf": {
+  "p=40961 {i,i,-i,-i} principal": {
+   "ok": true,
+   "trivial_ideal": false,
+   "dim": 8,
+   "gb_size": 25,
+   "seconds": 32.7
+  },
+  "p=40961 {1,1,-1,-1}": {
+   "ok": true,
+   "trivial_ideal": false,
+   "dim": 8,
+   "gb_size": 41,
+   "seconds": 1.3
+  },
+  "p=40961 {1,1,i,-i}": {
+   "ok": true,
+   "trivial_ideal": false,
+   "dim": 6,
+   "gb_size": 69,
+   "seconds": 11.2
+  },
+  "p=40961 {z5,z5^2,z5^3,z5^4}": {
+   "ok": false,
+   "timeout": true,
+   "cap_seconds": 90,
+   "seconds": 90.0
+  },
+  "p=65537 {i,i,-i,-i} principal": {
+   "ok": true,
+   "trivial_ideal": false,
+   "dim": 8,
+   "gb_size": 25,
+   "seconds": 23.2
+  },
+  "p=65537 {1,1,-1,-1}": {
+   "ok": true,
+   "trivial_ideal": false,
+   "dim": 8,
+   "gb_size": 41,
+   "seconds": 1.0
+  },
+  "p=65537 {1,1,i,-i}": {
+   "ok": true,
+   "trivial_ideal": false,
+   "dim": 6,
+   "gb_size": 69,
+   "seconds": 10.3
+  }
+ },
+ "dim_ZA": {
+  "{i,i,-i,-i}": 8,
+  "{1,1,-1,-1}": 8,
+  "{1,1,i,-i}": 6,
+  "{z5,..}": 4
+ },
+ "L1_nonvacuity": {
+  "n2_irreducibles_found": 36,
+  "tau_control": {
+   "stratum": [
+    "2+0j",
+    "3+0j",
+    "5+0j",
+    "0.03333+0j"
+   ],
+   "n": 4,
+   "starts": 20,
+   "hits": 20,
+   "algdims": [
+    6,
+    8,
+    10,
+    16
+   ],
+   "n_irreducible_burnside": 10
+  },
+  "branch_B_reachable": true,
+  "counterfactual_gate": {
+   "counterfactual_irreducible_at_SL4": "RESOLVED-B",
+   "counterfactual_thmQ_fails": "RESOLVED-B",
+   "counterfactual_unclassified_stratum": "UNRESOLVED",
+   "counterfactual_no_power": "UNRESOLVED"
+  }
+ },
+ "L2_power": {
+  "occupied_strata": [
+   "{i,i,-i,-i} PRINCIPAL Sym^3 (A^2=-I)",
+   "{1,1,-1,-1} (A^2=+I)",
+   "{1,1,1,1}   (A^2=+I, trivial)",
+   "{1,1,i,-i}  (A^2 NOT central)",
+   "{z5,z5^2,z5^3,z5^4} primitive 5th roots"
+  ],
+  "occupied_with_A2_noncentral": [
+   "{1,1,i,-i}  (A^2 NOT central)",
+   "{z5,z5^2,z5^3,z5^4} primitive 5th roots"
+  ],
+  "hit_rates": [
+   1.0,
+   1.0,
+   1.0,
+   0.778,
+   0.5
+  ],
+  "detection_floor_at_8pct": 0.9503,
+  "power_ok": true
+ },
+ "L4_selection": {
+  "budget_sensitivity": [
+   {
+    "starts_per_seed": 6,
+    "empty_stratum_hits": 0,
+    "occupied_stratum_hits": 14
+   },
+   {
+    "starts_per_seed": 12,
+    "empty_stratum_hits": 0,
+    "occupied_stratum_hits": 28
+   },
+   {
+    "starts_per_seed": 24,
+    "empty_stratum_hits": 0,
+    "occupied_stratum_hits": 55
+   }
+  ],
+  "seeds": [
+   20260724,
+   424242,
+   7771
+  ],
+  "max_nfev": 500,
+  "primes": [
+   40961,
+   65537
+  ],
+  "exhaustive": false,
+  "note": "finite declared stratum list; Theorems Q and T are sampling-free"
+ },
+ "facts": {
+  "power_ok": true,
+  "thmQ_ok": true,
+  "n4_irreducible": 0,
+  "n4_unclassified": 0
+ },
+ "verdict": "RESOLVED-A",
+ "headline": "the S031a sealing extends to SL(4): the phi-fixed SL(4) locus is entirely REDUCIBLE",
+ "discriminating_fact": "Theorem Q (rigorous, all n) seals every A^2-central stratum -- including the SL(4) principal one, Sym^3(diag(i,-i)), A^2=-I, a lambda=-1/Q8 branch that cannot occur at SL(3); the census finds 0 irreducibles (algdim=16) across the declared SL(4) strata at demonstrated power",
+ "seconds_total": 694.3
+}

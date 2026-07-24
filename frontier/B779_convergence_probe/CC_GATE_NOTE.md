@@ -33,7 +33,10 @@ the **Galois** part reaches only within a coset; the two cosets are separated ex
 results compose: the object's arithmetic (Galois) can move you within a θ-parity class
 but never between them, and nothing internal picks a point at all.
 
-## The convergence (a third instance of one thread — recorded)
+## The convergence — **RETRACTED** **[RETRACTED B784, 2026-07-24: the "non-Galois motif across three arcs" was WRONG. MIRROR and CL-LATIN both reduce to "absolute value is not a field automorphism" — trivially true of any field, not a discovery about this object — while R1 (θ is geometric) is a different kind of statement. Conflating them was pattern-matching. The individual facts stand; the motif does not.]**
+
+<!-- original claim retained below for the record -->
+### (retracted) a third instance of one thread
 This is now the THIRD independent appearance of the same structural motif in this program:
 1. **P2W2-MIRROR** — the mirror is non-Galois (the anti-diagonal axis map; |·| the step).
 2. **B778 CL-LATIN** — the hearing Latin square is not Galois-forced; |·| again the

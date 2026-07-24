@@ -5,7 +5,10 @@ every link is labeled — **[THEOREM]** (symbolic/exact or computer-assisted-fin
 **[CENSUS]** (bounded enumeration, bound in the statement), **[IDENTITY]** (computed exact
 equality), **[NO-GO]** (dissolution/obstruction with its discriminating computation banked),
 or **[AXIOM]** (a declared choice — PRICED when its forks are computed, UNPRICED-flagged
-otherwise). Admission per the sealed prereg fd934b27: exact statement + banked computation
+otherwise), or **[COROLLARY]** (an immediate consequence of an earlier link plus a
+definition — carries NO independent computed content and must name the link its content
+is inherited from; added 2026-07-24 by the B784 audit, which found C22 had been minted as
+a computed [NO-GO] when its computation could not fail). Admission per the sealed prereg fd934b27: exact statement + banked computation
 location + green lock. **The going-forward rule: every new banked positive either enters
 this chain under one of the five labels or is explicitly a hint/open door — nothing in
 between.** This document is a VIEW of the bank; it asserts nothing new. Gate 5: no physics
@@ -167,17 +170,19 @@ point is θ-fixed) and the tangent frames align exactly — the alignment that p
 chord = c⊕θ. No continuous T1 content exists where the object lives. — B769. Lock:
 `tests/test_b769_t1.py`.
 
-**C22 [NO-GO — the choice-incomputability of the closing].** The measurement torsor
-(C20) is a FREE TRANSITIVE (ℤ/2)³-action on its 8 closings — verified exhaustively: no
-non-identity element of (c, θ, γ₅) fixes any closing. A free action has no G-fixed
-point, hence the torsor admits NO equivariant (symmetry-respecting) section; therefore
-no process internal to the object's symmetry selects a closing — the choice must be
-broken from OUTSIDE the object's symmetry group. This is the group-theoretic form of
-"computation is equivariant, choice is symmetry-breaking." — B782. Lock:
-`tests/test_b782_c22.py`. *[Interpretation, PRICED to C18, firewalled OUT of this
-statement: the observer completes the object from outside; the Born shape = amplitudes
-(the equivariant, computable part) vs outcomes (the section, not computable). NOT
-asserted in the chain; NOT in CLAIMS.]*
+**C22 [COROLLARY of C20 — no canonical closing].** Immediate from C20 and the definition
+of torsor: the closing set is a (ℤ/2)³-torsor, and a torsor has no canonical point. **The
+earned content is C20's rank-3 FAITHFULNESS**, not this restatement — note that the
+abstract set {c, θ, γ₅, γ₃} does NOT act freely (γ₃·c is trivial); freeness holds exactly
+after C20's quotient. Given that quotient, the action on the 8 closings is free, there is
+no G-fixed closing, and no G-equivariant selection exists. **The freeness/no-fixed-point
+step is DEFINITIONAL — the regular action of any group is free — and is not an independent
+computation.** — B782 (corollary cell; its compute verifies a group-theoretic identity only
+and cannot fail). Lock: `tests/test_b766_torsor.py` (the failable content);
+`tests/test_b782_c22.py` is a tautology check, NOT a regression lock. *[BRIDGE, PRICED to
+C18 and NOT asserted here: if every object-internal process is modelled as G-equivariant,
+then no internal process selects a closing and the selection is symmetry-breaking rather
+than computation. That premise is a modelling assumption, not a result of this arc.]*
 
 **C23 [NO-GO — the T1-mover; closes the door C21 opened].** C21 established that T1's
 fixedness is FORCED (abelian inner triviality) and therefore that any instrument moving

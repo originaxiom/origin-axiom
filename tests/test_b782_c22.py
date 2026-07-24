@@ -1,4 +1,10 @@
-"""B782 -- C22: the choice-incomputability wall (free torsor has no equivariant section)."""
+"""B782 -- C22 DEFINITIONAL IDENTITY CHECK (NOT a regression lock).
+
+AUDIT (B784, 2026-07-24): this file asserts a TAUTOLOGY — the regular action of any group
+on itself is free and transitive by construction, so these checks pass forever regardless
+of any change to the object. The failable content lives in tests/test_b766_torsor.py
+(C20's rank-3 faithfulness). Retained as a definitional identity check only.
+"""
 import itertools
 import json
 import pathlib

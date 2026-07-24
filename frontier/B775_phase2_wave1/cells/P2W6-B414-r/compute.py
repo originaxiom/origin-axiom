@@ -516,8 +516,11 @@ DISCRIMINATING FACT (in-cell, exact over Q, from frontier/B367_value_map/step0_t
  frame directions, permuted simply-transitively-per-factor by t6 and tau, both of which
  the object itself supplies.  Choosing a frame = choosing a point of that torsor --
  exactly an external datum.
- Repaired defects: the verdict no longer gates on tau's action (MATERIAL-1: the
- A-branch fires on real alternative selections and on synthetic sectors), the sqrt(6)
+ Repaired defects: the verdict no longer gates on tau's action (MATERIAL-1: RESOLVED-A
+ actually FIRES on 38 of the 4500 gate-passing counterfactual sectors, pattern 1111, e.g.
+ rows [3,0,0,0,0,3,0,0,-1,0,0,3] with the triple (e5-e11, e11-e6, e6-e5), where G23 has no
+ order-3 element and the K-canonical line is G23-stable; no REAL selection reaches it, and
+ the object's own alternatives are enumerated in L4), the sqrt(6)
  rationality leg is deleted (MATERIAL-2), P(x)P is computed (MATERIAL-3), and "two
  independent routes" is downgraded to one banked route (W-B1 orthogonality, reported as
  context) plus one new symmetry-group route (MODERATE).""")

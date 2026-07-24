@@ -1,4 +1,9 @@
-"""B780 -- the Galois-vs-reversal gate: locks on the three discriminating signatures."""
+"""B780 -- the SIGNATURE FACTS only (the 'gate' and its 8->4 halving were RETRACTED by B784).
+
+The retracted claims rested on literal signature tuples and a classify() that mapped them
+by definition — they could not fail. What remains here are the genuinely computed facts
+that c and theta differ: SL(2) rank-onset, action type (diagonal vs permutation).
+"""
 import json
 import pathlib
 
@@ -24,21 +29,3 @@ def test_S2_action_type_permutation_not_diagonal():
     assert all(perm[k] != k for k in perm)          # moves every coord => NOT diagonal
 
 
-def test_gate_separates_and_rejects_swap():
-    d = json.loads((ARC / "results.json").read_text())
-    assert d["verdict"] == "RESOLVED-A"
-    assert d["S1_rank_onset_discriminates"]
-    assert d["S2_action_type_discriminates"]
-    assert d["S3_solo_flip_discriminates"]
-    assert d["gate_correct_on_truth"] and d["gate_rejects_swap"]
-
-
-def test_gate_application_halves_enumeration():
-    # cc3's 8 survivors = 4 families x 2 (the c/theta swap); the gate rejects the swap
-    d = json.loads((ARC / "results.json").read_text())
-    app = d["applied_to_enumeration"]
-    assert app["cc3_survivors"] == 8
-    assert app["after_gate"] == 4          # the promised halving (slot ambiguity resolved)
-    assert app["after_gate_and_aux"] == 2  # + cc3's auxiliary family reductions
-    # the gate is explicitly blind to c's grain
-    assert "grain" in app["does_not_settle"]

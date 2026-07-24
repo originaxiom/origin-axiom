@@ -7985,3 +7985,29 @@ explicit fixed-point argument; the object-native enumeration establishes class m
 not a third reason. The VERDICT stands (the verifier called the caveat non-material) — the
 wall is proven within the holo/antiholo pair-stabilizing class, and that scope is now stated
 in the chain rather than elided. Both instances logged in the ERROR_LEDGER as cc's own.
+
+## 2026-07-24 — B784 AUDIT: five retractions, four demotions, one chain link corrected
+The owner asked what else I was unsure about. I named six worries and ran an adversarial
+audit of my own self-verified work (B784). The audit confirmed all six and was harsher than
+my framing on several:
+- **C22 OVERSTATED → DEMOTED to [COROLLARY of C20].** The cell verified a DEFINITION: the
+  regular action of a group on itself is free+transitive by construction, so its stated
+  failure branch was UNREACHABLE. The earned content is C20's rank-3 faithfulness — and
+  notably {c,θ,γ₅,γ₃} does NOT act freely (γ₃·c is trivial); freeness holds only after C20's
+  quotient. The chain's unqualified "therefore no internal process selects a closing" needed
+  an unproven equivariance premise and CONTRADICTED the cell's own declared firewall; it is
+  now moved into the priced C18 bridge. A sixth chain label [COROLLARY] was added explicitly
+  (header rationale recorded) rather than smuggled.
+- **B780 VACUOUS → the "gate verified" and "8→4 halving" RETRACTED.** The signature tuples
+  were literals and classify() mapped them by definition; nothing could fail. The upstream
+  signature differences (SL(2) onset, diagonal-vs-permutation, solo axis) stand.
+- **The non-Galois "motif" WRONG → RETRACTED** from all documents. MIRROR and CL-LATIN both
+  reduce to "|·| is not a field automorphism" (trivially true), and R1 is a different kind of
+  claim. It was pattern-matching.
+- B781, B778 supporting facts: OVERSTATED, corrections pending in this pass.
+- **B776 (the B685 anchor) STANDS** — the one item that is pure single-cell computation.
+**The audit corrected my self-diagnosis as "too flattering":** I located the failure in a
+reasoning layer, but half the instances are MECHANICAL — a DISCONNECTED VERDICT, where the
+flag deciding the outcome is not wired to any computed quantity (literals, hardcoded
+booleans, silent except-fallbacks). The arithmetic layer is sound; everything downstream of
+the number is where it breaks.

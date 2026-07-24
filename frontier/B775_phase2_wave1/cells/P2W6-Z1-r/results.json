@@ -4,7 +4,8 @@
  "task": "fix Z1's two false statements (the irrationality IFF; the characteristic-prime exemplars) and re-verify the surviving content with a recomputing lock",
  "object": "Z_k = Tr rho_k(T^2 S T) = sum_a t_a^3 S_aa, E6 level k, kappa = k + 12",
  "method": "full from-scratch exact recomputation (no banked-cache reuse) of the cyclotomic coefficient vectors in Z[zeta_{36 kappa}], PSLQ identification in Q(sqrt5) CERTIFIED exactly mod Phi_{36 kappa}, bitwise reproduction check against the banked P2W4-Z1 vectors, + computed field facts (separability of Phi_M mod 5; Gauss sum g^2 == 5) for the forcing",
- "kmax": 5,
+ "kmax": 28,
+ "run_note": "levels 1..26 were computed FROM SCRATCH in this cell's first run (the process was killed by the host at k=27 under load) and re-read from THIS cell's own fresh cache; levels 27, 28 computed from scratch in the resumed run. No banked P2W4-Z1 vector is ever read as an input -- the banked vectors are only the reproduction TARGET (G6).",
  "ladder": [
   {
    "k": 1,
@@ -45,6 +46,190 @@
    "Z": "1",
    "cert": true,
    "repro": true
+  },
+  {
+   "k": 6,
+   "kappa": 18,
+   "N": 139,
+   "Z": "1",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 7,
+   "kappa": 19,
+   "N": 231,
+   "Z": "2",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 8,
+   "kappa": 20,
+   "N": 372,
+   "Z": "1",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 9,
+   "kappa": 21,
+   "N": 573,
+   "Z": "1",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 10,
+   "kappa": 22,
+   "N": 861,
+   "Z": "2",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 11,
+   "kappa": 23,
+   "N": 1254,
+   "Z": "1",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 12,
+   "kappa": 24,
+   "N": 1791,
+   "Z": "2",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 13,
+   "kappa": 25,
+   "N": 2499,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 14,
+   "kappa": 26,
+   "N": 3432,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 15,
+   "kappa": 27,
+   "N": 4629,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 16,
+   "kappa": 28,
+   "N": 6162,
+   "Z": "1",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 17,
+   "kappa": 29,
+   "N": 8085,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 18,
+   "kappa": 30,
+   "N": 10492,
+   "Z": "2 - 1*sqrt5",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 19,
+   "kappa": 31,
+   "N": 13455,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 20,
+   "kappa": 32,
+   "N": 17094,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 21,
+   "kappa": 33,
+   "N": 21503,
+   "Z": "2",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 22,
+   "kappa": 34,
+   "N": 26832,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 23,
+   "kappa": 35,
+   "N": 33201,
+   "Z": "0 - 1*sqrt5",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 24,
+   "kappa": 36,
+   "N": 40795,
+   "Z": "-2",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 25,
+   "kappa": 37,
+   "N": 49764,
+   "Z": "1",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 26,
+   "kappa": 38,
+   "N": 60333,
+   "Z": "2",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 27,
+   "kappa": 39,
+   "N": 72687,
+   "Z": "0",
+   "cert": true,
+   "repro": true
+  },
+  {
+   "k": 28,
+   "kappa": 40,
+   "N": 87096,
+   "Z": "2 - 1*sqrt5",
+   "cert": true,
+   "repro": true
   }
  ],
  "gates": {
@@ -57,24 +242,47 @@
  },
  "correction_a_irrationality_one_directional": {
   "direction_irrational_implies_5_divides_kappa": true,
-  "irrational_levels": [],
-  "irrational_kappa": [],
+  "irrational_levels": [
+   18,
+   23,
+   28
+  ],
+  "irrational_kappa": [
+   30,
+   35,
+   40
+  ],
   "kappa_divisible_by_5": [
-   15
+   15,
+   20,
+   25,
+   30,
+   35,
+   40
   ],
   "converse_counterexamples": [
    {
     "k": 3,
     "kappa": 15,
     "Z": "1"
+   },
+   {
+    "k": 8,
+    "kappa": 20,
+    "Z": "1"
+   },
+   {
+    "k": 13,
+    "kappa": 25,
+    "Z": "0"
    }
   ],
   "forcing_5_unramified_when_5_nmid_kappa": true,
   "forcing_sqrt5_present_when_5_mid_kappa": true,
-  "rational_at_5_divides_kappa_count": 1,
+  "rational_at_5_divides_kappa_count": 3,
   "iff_is_false": true,
   "established": true,
-  "corrected_text": "Irrational values occur ONLY AT 5 | kappa (levels []), and that direction is FORCED: for 5 !| kappa the prime 5 is unramified in Q(zeta_{36 kappa}) (computed: Phi_{36 kappa} is separable mod 5), so the ramified field Q(sqrt5) cannot be a subfield and Z_k must be rational. The CONVERSE IS FALSE: kappa=15 has Z=1"
+  "corrected_text": "Irrational values occur ONLY AT 5 | kappa (levels [18, 23, 28]), and that direction is FORCED: for 5 !| kappa the prime 5 is unramified in Q(zeta_{36 kappa}) (computed: Phi_{36 kappa} is separable mod 5), so the ramified field Q(sqrt5) cannot be a subfield and Z_k must be rational. The CONVERSE IS FALSE: kappa=15 has Z=1, kappa=20 has Z=1, kappa=25 has Z=0"
  },
  "correction_b_characteristic_prime_exemplars": {
   "characteristic_primes": [
@@ -88,12 +296,25 @@
   "R": 43890,
   "C5_failing_kappa": [
    14,
-   15
+   15,
+   18,
+   20,
+   21,
+   28,
+   29,
+   31
   ],
-  "mode_coprime_but_Z_ne_1": [],
+  "mode_coprime_but_Z_ne_1": [
+   29,
+   31
+  ],
   "mode_has_charprime_but_Z_eq_1": [
    14,
-   15
+   15,
+   18,
+   20,
+   21,
+   28
   ],
   "banked_cited_exemplars": [
    28,
@@ -106,54 +327,112 @@
    38,
    39
   ],
-  "banked_exemplars_that_are_wrong_mode_a": [],
-  "banked_exemplars_that_are_wrong_mode_b": [],
+  "banked_exemplars_that_are_wrong_mode_a": [
+   {
+    "kappa": 32,
+    "gcd_with_R": 2,
+    "claim_no_charprime_is": false
+   },
+   {
+    "kappa": 34,
+    "gcd_with_R": 2,
+    "claim_no_charprime_is": false
+   },
+   {
+    "kappa": 39,
+    "gcd_with_R": 3,
+    "claim_no_charprime_is": false
+   }
+  ],
+  "banked_exemplars_that_are_wrong_mode_b": [
+   {
+    "kappa": 33,
+    "Z": "2",
+    "claim_Z_is_1_is": false
+   },
+   {
+    "kappa": 36,
+    "Z": "-2",
+    "claim_Z_is_1_is": false
+   },
+   {
+    "kappa": 38,
+    "Z": "2",
+    "claim_Z_is_1_is": false
+   }
+  ],
   "banked_exemplar_set_equals_failing_set": false,
   "omitted_by_the_banked_text": [
    14,
-   15
+   15,
+   18,
+   20,
+   21
   ],
   "correction_needed": true,
   "established": true,
-  "corrected_text": "The characteristic primes of W(E6) against the fig-8 char poly are [2, 3, 5, 7, 11, 19] (R = 43890, from Res(x^n-1, x^2-3x+1) = 2 - L_2n). The rule 'Z = 1 exactly when gcd(kappa, R) = 1' (C5) FAILS, and the computed failing set is exactly [14, 15] -- with only 0 witness(es) of the coprime-but-Z!=1 mode (kappa = []) and 2 of the has-a-characteristic-prime-but-Z=1 mode (kappa = [14, 15]). The banked exemplars [28, 29, 31, 32, 33, 34, 36, 38, 39] are wrong: [] carry a characteristic prime (gcd = [], not 1) and [] have Z = [] (not 1), and the banked list omits [14, 15]."
+  "corrected_text": "The characteristic primes of W(E6) against the fig-8 char poly are [2, 3, 5, 7, 11, 19] (R = 43890, from Res(x^n-1, x^2-3x+1) = 2 - L_2n). The rule 'Z = 1 exactly when gcd(kappa, R) = 1' (C5) FAILS, and the computed failing set is exactly [14, 15, 18, 20, 21, 28, 29, 31] -- with only 2 witness(es) of the coprime-but-Z!=1 mode (kappa = [29, 31]) and 6 of the has-a-characteristic-prime-but-Z=1 mode (kappa = [14, 15, 18, 20, 21, 28]). The banked exemplars [28, 29, 31, 32, 33, 34, 36, 38, 39] are wrong: [32, 34, 39] carry a characteristic prime (gcd = [2, 2, 3], not 1) and [33, 36, 38] have Z = ['2', '-2', '2'] (not 1), and the banked list omits [14, 15, 18, 20, 21]."
  },
  "laws": {
   "C1_Z_identically_1": false,
-  "C2_all_rational_integers": true,
+  "C2_all_rational_integers": false,
   "C3_all_in_Z[phi]": true,
-  "C4_max_abs_Z": 1.0,
-  "C4_max_abs_conjugate": 1.0,
+  "C4_max_abs_Z": 2.23606797749979,
+  "C4_max_abs_conjugate": 4.23606797749979,
   "C5_Z1_iff_coprime_to_charprimes": false,
   "C6_periodic_in_kappa": false,
   "C6_periods": [],
   "C7_function_of_kappa_mod_m": [],
   "C7_power_repeat_samples_per_m": {
-   "2": 3,
-   "3": 2,
-   "4": 1,
-   "5": 0,
-   "6": 0,
-   "7": 0,
-   "8": 0,
-   "9": 0,
-   "10": 0,
-   "11": 0,
-   "12": 0,
-   "13": 0,
-   "14": 0
+   "2": 26,
+   "3": 25,
+   "4": 24,
+   "5": 23,
+   "6": 22,
+   "7": 21,
+   "8": 20,
+   "9": 19,
+   "10": 18,
+   "11": 17,
+   "12": 16,
+   "13": 15,
+   "14": 14
   },
-  "C10_violating_kappa": [],
-  "C10_multiplicative_in_kappa": true,
-  "predictive_law_survives": true,
+  "C10_violating_kappa": [
+   26,
+   34,
+   39
+  ],
+  "C10_multiplicative_in_kappa": false,
+  "predictive_law_survives": false,
   "value_multiset": [
+   "-2",
    "0",
-   "1"
+   "0 - 1*sqrt5",
+   "1",
+   "2",
+   "2 - 1*sqrt5"
   ],
   "nonzero_levels": [
    1,
    2,
    3,
-   5
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   16,
+   18,
+   21,
+   23,
+   24,
+   25,
+   26,
+   28
   ]
  },
  "L3_implication_lattice": {
@@ -199,9 +478,163 @@
      "C10_multiplicative_in_kappa"
     ],
     "C3_Zphi": true
+   },
+   {
+    "kmax": 6,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 7,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 8,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 9,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 10,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 11,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 12,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 13,
+    "law_survives": true,
+    "which": [
+     "C10_multiplicative_in_kappa"
+    ],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 14,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 15,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 16,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 17,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 18,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 19,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 20,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 21,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 22,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 23,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 24,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 25,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 26,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 27,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
+   },
+   {
+    "kmax": 28,
+    "law_survives": false,
+    "which": [],
+    "C3_Zphi": true
    }
   ],
-  "first_kmax_with_no_surviving_law": null,
+  "first_kmax_with_no_surviving_law": 14,
   "verdict_is_range_sensitive": true
  },
  "L1_counterfactuals": [
@@ -248,7 +681,7 @@
  ],
  "chord_discipline_B774": "PASS -- same object as H133/B600/CL-H133/P2W4-Z1: the trace of the E6 level-k Weil-rep monodromy rho(A1) on the FULL primary space. No abelian relabel, no finer invariant. The repair changes only two STATEMENTS about the ladder, not the ladder or the chord.",
  "gate5": "structural only -- modular data of an E6 WZW theory and cyclotomic arithmetic; no SM value, nothing routed to CLAIMS.md, one-number pin untouched",
- "discriminating_fact": "kappa = 15, 20, 25 are divisible by 5 and have Z = 1, 1, 0 -- all RATIONAL, each exactly certified mod Phi_{36 kappa} -- while sqrt5 DOES lie in Q(zeta_{36 kappa}) for those kappa (Gauss sum g with g^2 == 5 verified exactly). So the banked 'irrational EXACTLY WHEN 5 | kappa' is refuted by the ladder's own certified values, and only 'irrational => 5 | kappa' survives (forced: for 5 !| kappa, Phi_{36 kappa} is separable mod 5, i.e. 5 is unramified, so the 5-ramified field Q(sqrt5) cannot embed). Second: gcd(32, 43890) = 2, gcd(34, 43890) = 2, gcd(39, 43890) = 3 -- all != 1, so kappa = 32, 34, 39 DO carry a characteristic prime, and the computed C5-failing set is exactly [14, 15], with the coprime-but-Z!=1 mode witnessed ONLY by kappa = [].",
- "verdict": "UNRESOLVED",
- "reason": "the verdict gate is VACUOUS -- not all branches fire on admissible fact-vectors: ['RESOLVED-B', 'UNRESOLVED']  || CORRECTION (a): Irrational values occur ONLY AT 5 | kappa (levels []), and that direction is FORCED: for 5 !| kappa the prime 5 is unramified in Q(zeta_{36 kappa}) (computed: Phi_{36 kappa} is separable mod 5), so the ramified field Q(sqrt5) cannot be a subfield and Z_k must be rational. The CONVERSE IS FALSE: kappa=15 has Z=1  || CORRECTION (b): The characteristic primes of W(E6) against the fig-8 char poly are [2, 3, 5, 7, 11, 19] (R = 43890, from Res(x^n-1, x^2-3x+1) = 2 - L_2n). The rule 'Z = 1 exactly when gcd(kappa, R) = 1' (C5) FAILS, and the computed failing set is exactly [14, 15] -- with only 0 witness(es) of the coprime-but-Z!=1 mode (kappa = []) and 2 of the has-a-characteristic-prime-but-Z=1 mode (kappa = [14, 15]). The banked exemplars [28, 29, 31, 32, 33, 34, 36, 38, 39] are wrong: [] carry a characteristic prime (gcd = [], not 1) and [] have Z = [] (not 1), and the banked list omits [14, 15].  || RE-VERIFIED SURVIVING CONTENT (scope k <= 5, kappa = 13..17): the ladder is LAWLESS in the level -- no predictive law survives among the pre-listed candidates, and the honest count of INDEPENDENT failed hypotheses is 3, not 5 (C1 => C6 => C7 collapse: ['C6 = C7 (periodicity / residue-class family; subsumes C1)', 'C5 (characteristic-prime rule)', 'C10 (multiplicativity in kappa)']); every Z_k lies in Z[phi] = O_{Q(sqrt5)} (an EMPIRICAL containment over the computed range, NOT proved for all k), values ['0', '1'], max|Z| = 1.0000, max|Z'| = 1.0000; the fresh from-scratch recomputation reproduces the banked exact coefficient vectors bitwise at all 5 levels. DECLARED SELECTION (L4): the lawlessness negative IS range-dependent -- truncating the ladder at kmax = 3 leaves ['C1_Z_identically_1', 'C10_multiplicative_in_kappa'] surviving, and a law survives at every kmax <= (none: a law survives at every cut) (['C1_Z_identically_1', 'C10_multiplicative_in_kappa'] at the last such cut); the battery first empties at kmax = None and never refills. SCOPE (L2): 'lawless' means no period <= 2 and no residue-class law modulo m <= 14 over kappa = 13..17, plus C5 and C10 refuted; longer periods are NOT excluded."
+ "discriminating_fact": "kappa = 15, 20, 25 are divisible by 5 and have Z = 1, 1, 0 -- all RATIONAL, each exactly certified mod Phi_{36 kappa} -- while sqrt5 DOES lie in Q(zeta_{36 kappa}) for those kappa (Gauss sum g with g^2 == 5 verified exactly). So the banked 'irrational EXACTLY WHEN 5 | kappa' is refuted by the ladder's own certified values, and only 'irrational => 5 | kappa' survives (forced: for 5 !| kappa, Phi_{36 kappa} is separable mod 5, i.e. 5 is unramified, so the 5-ramified field Q(sqrt5) cannot embed). Second: gcd(32, 43890) = 2, gcd(34, 43890) = 2, gcd(39, 43890) = 3 -- all != 1, so kappa = 32, 34, 39 DO carry a characteristic prime, and the computed C5-failing set is exactly [14, 15, 18, 20, 21, 28, 29, 31], with the coprime-but-Z!=1 mode witnessed ONLY by kappa = [29, 31].",
+ "verdict": "RESOLVED-A",
+ "reason": "both false statements corrected and the surviving content re-verified.  || CORRECTION (a): Irrational values occur ONLY AT 5 | kappa (levels [18, 23, 28]), and that direction is FORCED: for 5 !| kappa the prime 5 is unramified in Q(zeta_{36 kappa}) (computed: Phi_{36 kappa} is separable mod 5), so the ramified field Q(sqrt5) cannot be a subfield and Z_k must be rational. The CONVERSE IS FALSE: kappa=15 has Z=1, kappa=20 has Z=1, kappa=25 has Z=0  || CORRECTION (b): The characteristic primes of W(E6) against the fig-8 char poly are [2, 3, 5, 7, 11, 19] (R = 43890, from Res(x^n-1, x^2-3x+1) = 2 - L_2n). The rule 'Z = 1 exactly when gcd(kappa, R) = 1' (C5) FAILS, and the computed failing set is exactly [14, 15, 18, 20, 21, 28, 29, 31] -- with only 2 witness(es) of the coprime-but-Z!=1 mode (kappa = [29, 31]) and 6 of the has-a-characteristic-prime-but-Z=1 mode (kappa = [14, 15, 18, 20, 21, 28]). The banked exemplars [28, 29, 31, 32, 33, 34, 36, 38, 39] are wrong: [32, 34, 39] carry a characteristic prime (gcd = [2, 2, 3], not 1) and [33, 36, 38] have Z = ['2', '-2', '2'] (not 1), and the banked list omits [14, 15, 18, 20, 21].  || RE-VERIFIED SURVIVING CONTENT (scope k <= 28, kappa = 13..40): the ladder is LAWLESS in the level -- no predictive law survives among the pre-listed candidates, and the honest count of INDEPENDENT failed hypotheses is 3, not 5 (C1 => C6 => C7 collapse: ['C6 = C7 (periodicity / residue-class family; subsumes C1)', 'C5 (characteristic-prime rule)', 'C10 (multiplicativity in kappa)']); every Z_k lies in Z[phi] = O_{Q(sqrt5)} (an EMPIRICAL containment over the computed range, NOT proved for all k), values ['-2', '0', '0 - 1*sqrt5', '1', '2', '2 - 1*sqrt5'], max|Z| = 2.2361, max|Z'| = 4.2361; the fresh from-scratch recomputation reproduces the banked exact coefficient vectors bitwise at all 28 levels. DECLARED SELECTION (L4): the lawlessness negative IS range-dependent -- truncating the ladder at kmax = 3 leaves ['C1_Z_identically_1', 'C10_multiplicative_in_kappa'] surviving, and a law survives at every kmax <= 13 (['C10_multiplicative_in_kappa'] at the last such cut); the battery first empties at kmax = 14 and never refills. SCOPE (L2): 'lawless' means no period <= 14 and no residue-class law modulo m <= 14 over kappa = 13..40, plus C5 and C10 refuted; longer periods are NOT excluded."
 }

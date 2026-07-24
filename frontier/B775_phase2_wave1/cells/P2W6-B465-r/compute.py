@@ -279,10 +279,20 @@ def leg1():
                   f"t={t} | supp(U)=supp(W)-t {affine_law} "
                   f"(+t {'FAILS' if sharp else 'N/A: support is the whole torus'})"
                   f" | |tr|^2={valsU} | banked stmt false here: {banked_false}")
+    prop = [r for r in rows if r['proper_support']]
     print(f"  D(p) = Q(p).Z^(-p/2) exact to {max(r['D_convention_err'] for r in rows):.1e} "
           f"=> U is AFFINE metaplectic; that IS the offset the prior cell fitted.")
+    print(f"  12/12 cells pass the DERIVED law ({all_ok}).  The banked statement "
+          f"'supp = im(A_cl - I)' has content only on the {len(prop)} cells with a PROPER "
+          f"support (|ker|>1); it is FALSE on every one of them "
+          f"({all(r['banked_stmt_false'] for r in prop)}), and vacuously true on the other "
+          f"{len(rows) - len(prop)} (support = whole torus).  Sign-sharpness likewise "
+          f"tested only where decidable: PASS on all {len(prop)}.")
     OUT['R1'] = dict(rows=rows, all_pass=bool(all_ok),
-                     banked_statement_false_everywhere=bool(all(r['banked_stmt_false'] for r in rows)),
+                     n_proper_support=len(prop),
+                     banked_statement_false_where_it_has_content=bool(
+                         all(r['banked_stmt_false'] for r in prop)),
+                     sign_sharp_where_decidable=bool(all(r['sign_sharp'] for r in prop)),
                      true_statement=("U = phase . W_sigma . T(t) with sigma = the computed "
                                      "conjugation action and t computed from W_sigma^-1 U; "
                                      "supp(W_sigma) = im(sigma-I) exactly, and "
@@ -747,9 +757,20 @@ def main():
     print()
     print("== VERDICT BLOCK ==")
     law_derived = bool(r1 and l2 and maxtr_law)
-    contrast_exists = bool(any(r['contrast'] for r in r3rows))
+    # SECOND DECLARED SELECTION (L4 applied to THIS cell's own criterion): survival is
+    # read EXISTENTIALLY ("the construct has a nonempty referent somewhere in the
+    # canonical family and the contrast holds there"), not as a conjunction over levels.
+    # Effect, computed both ways and reported:
+    contrast_exists = bool(any(r['contrast'] for r in r3rows))          # existential
+    contrast_all = bool(all(r['contrast'] for r in r3rows))             # universal
     uniform_everywhere = bool(not any(r['test_defined'] for r in r3rows))
     verdict = verdict_fn(law_derived, contrast_exists, uniform_everywhere)
+    verdict_universal = verdict_fn(law_derived, contrast_all, uniform_everywhere)
+    print(f"  DECLARED (criterion choice): survival read EXISTENTIALLY -> {verdict}; "
+          f"read as a conjunction over all four levels -> {verdict_universal}. "
+          f"The existential reading is used because C7 is an existence claim about a "
+          f"stratum and because the universal reading counts N=21 -- where the dark "
+          f"stratum is EMPTY and the predicate is undefined -- as a failure.")
 
     # --- MB12 / B414 non-vacuity: every branch must be able to FIRE and to FAIL, on
     #     LOGICALLY POSSIBLE counterfactual fact-vectors.
@@ -774,8 +795,9 @@ def main():
 
     print()
     print("  DEFECT LEDGER")
-    print(f"   D1 support law   : REPAIRED -- banked statement is FALSE at all 12 cells "
-          f"({OUT['R1']['banked_statement_false_everywhere']}); true statement DERIVED "
+    print(f"   D1 support law   : REPAIRED -- banked statement is FALSE at every cell where "
+          f"it has content ({OUT['R1']['banked_statement_false_where_it_has_content']}, "
+          f"{OUT['R1']['n_proper_support']} proper-support cells); true statement DERIVED "
           f"(computed sigma + independently computed t; the fitted flip is gone -- the "
           f"real dictionary is the coordinate SWAP, the offset is the D-convention).")
     print(f"   D2 |ker|=15      : REPAIRED -- saturated closure |G|={OUT['R2']['group_order']}, "
@@ -792,6 +814,7 @@ def main():
 
     OUT['verdict'] = dict(
         verdict=verdict, law_derived=law_derived, contrast_exists=contrast_exists,
+        contrast_all_four_levels=contrast_all, verdict_under_universal_reading=verdict_universal,
         uniform_everywhere=uniform_everywhere,
         counterfactual_gate={k: v for k, v in cf.items()},
         branches_reachable=sorted(reach),

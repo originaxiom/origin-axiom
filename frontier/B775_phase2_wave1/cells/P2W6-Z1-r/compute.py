@@ -130,7 +130,7 @@ def exact_Z_vector(k, read_cache=False, write_cache=True):
     e = 2 * m - 117 * k
     coeff = np.zeros(M, dtype=np.int64)
     nW = len(W)
-    B = 128
+    B = 128 if N < 30000 else 32       # smaller batches at the top of the ladder (memory)
     for s in range(0, N, B):
         b = min(B, N - s)
         P = (Wflat @ Vf[:, s:s + b]).reshape(nW, 6, b)
@@ -636,8 +636,16 @@ def main():
 
     # ---- the exact ladder, RECOMPUTED FROM SCRATCH (no reuse of the banked cache) ----
     L("-" * 78)
+    run_note = (
+        "levels 1..26 were computed FROM SCRATCH in this cell's first run (the process was "
+        "killed by the host at k=27 under load) and re-read from THIS cell's own fresh cache; "
+        "levels 27, 28 computed from scratch in the resumed run. No banked P2W4-Z1 vector is "
+        "ever read as an input -- the banked vectors are only the reproduction TARGET (G6)."
+        if not fresh else
+        "every level computed from scratch in a single run; no cache read.")
     L(f"ladder recomputed from scratch (cache reuse: {'OFF' if fresh else 'ON'});"
       f" reproduction target = banked P2W4-Z1/zcache")
+    L("run note: " + run_note)
     L(" k  kappa      N   Z (exact)               cert   repro")
     ladder, rows, bad, repro_ok, repro_missing = [], [], [], True, []
     for k in range(1, kmax + 1):
@@ -799,6 +807,7 @@ def main():
                    "check against the banked P2W4-Z1 vectors, + computed field facts "
                    "(separability of Phi_M mod 5; Gauss sum g^2 == 5) for the forcing"),
         "kmax": kmax,
+        "run_note": run_note,
         "ladder": [{"k": r["k"], "kappa": r["kappa"], "N": r["N"], "Z": r["Z"],
                     "cert": r["cert"], "repro": r["repro"]} for r in rows],
         "gates": gates,

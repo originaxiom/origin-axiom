@@ -1,0 +1,141 @@
+====================================================================================================
+P2W6-B138 (OI-142) -- S031 sealing capstone: SL(3) -> SL(4)
+phi_m(A,B) = (A^m B, A);  fixed <=> exists g:  B = gAg^-1,  E_m(g) = g A^m g A - A g^2 = 0
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+[0] EXACT ENGINE (all n, all m)
+----------------------------------------------------------------------------------------------------
+    coefficient form  sum_k (a_j a_k^m - a_i) g_ik g_kj = 0  exact: {'n2_m1': True, 'n2_m2': True, 'n3_m1': True, 'n3_m2': True, 'n4_m1': True, 'n4_m2': True, 'n5_m1': True, 'n5_m2': True}
+    fixedness equivalence (det-cleared) exact:                     {'n2_m1': True, 'n2_m2': True, 'n3_m1': True, 'n3_m2': True, 'n4_m1': True, 'n4_m2': True, 'n5_m1': True, 'n5_m2': True}
+    Lemma N: g normalises Gamma=<A,B>  (gAg^-1=B, g^-1Ag=AB, gBg^-1=B^-1A, g^-1Bg=A)
+             => g permutes Gamma's invariant subspaces (blocks may be exchanged, not fixed)
+
+----------------------------------------------------------------------------------------------------
+[1] THEOREM Q (rigorous, all n): A^2 central => lam^2=1, AB=lam BA, dim C<A,B> <= 4
+----------------------------------------------------------------------------------------------------
+    free-algebra certificate C1_BAB=A                : True
+    free-algebra certificate C3_ABA=B                : True
+    free-algebra certificate C2_lamBA=AB             : True
+    free-algebra certificate C4_lamAB=BA             : True
+    free-algebra certificate FIN_(lam^2-1)AB_in_I    : True
+    normal-form basis of the quotient algebra: ['', 'A', 'AB', 'B']  -> dim <= 4
+    Burnside: dim <= 4 < n^2 for every n >= 3  => REDUCIBLE;  n=2 has n^2 = 4 (sharp)
+      model Q8_n2                      algdim=  4  n^2=  4  A^2=  -1  irreducible=True
+      model principal_Sym2_n3          algdim=  3  n^2=  9  A^2=   1  irreducible=False
+      model principal_Sym3_n4          algdim=  4  n^2= 16  A^2=  -1  irreducible=False
+      model Klein4_n3                  algdim=  3  n^2=  9  A^2=   1  irreducible=False
+    SL(3) vs SL(4): odd n forces lam=1 (lam^n=det-compatible, lam^2=1) => SL(3) only sees Klein-4 (B142); SL(4) admits lam=-1 => Q8, a branch absent at SL(3)
+
+----------------------------------------------------------------------------------------------------
+[2] THEOREM T (rigorous, all n): the monomial branch and its finite-order pinning
+----------------------------------------------------------------------------------------------------
+    cycle length L=1: det(M^L-I)=    1  |ker|=  1  exponent N= 1  solution tuples=1  (= |ker|: True)  all roots of unity: True
+        eigenvalue tuples (zN^k): [['z1^0']]
+    cycle length L=2: det(M^L-I)=   -1  |ker|=  1  exponent N= 1  solution tuples=1  (= |ker|: True)  all roots of unity: True
+        eigenvalue tuples (zN^k): [['z1^0', 'z1^0']]
+    cycle length L=3: det(M^L-I)=    4  |ker|=  4  exponent N= 2  solution tuples=4  (= |ker|: True)  all roots of unity: True
+        eigenvalue tuples (zN^k): [['z2^0', 'z2^0', 'z2^0'], ['z2^0', 'z2^1', 'z2^1'], ['z2^1', 'z2^0', 'z2^1'], ['z2^1', 'z2^1', 'z2^0']]
+    cycle length L=4: det(M^L-I)=   -5  |ker|=  5  exponent N= 5  solution tuples=5  (= |ker|: True)  all roots of unity: True
+        eigenvalue tuples (zN^k): [['z5^0', 'z5^0', 'z5^0', 'z5^0'], ['z5^1', 'z5^2', 'z5^4', 'z5^3'], ['z5^2', 'z5^4', 'z5^3', 'z5^1'], ['z5^3', 'z5^1', 'z5^2', 'z5^4']]
+    cycle length L=5: det(M^L-I)=   11  |ker|= 11  exponent N=11  solution tuples=11  (= |ker|: True)  all roots of unity: True
+        eigenvalue tuples (zN^k): [['z11^0', 'z11^0', 'z11^0', 'z11^0', 'z11^0'], ['z11^1', 'z11^3', 'z11^9', 'z11^5', 'z11^4'], ['z11^2', 'z11^6', 'z11^7', 'z11^10', 'z11^8'], ['z11^3', 'z11^9', 'z11^5', 'z11^4', 'z11^1']]
+    cycle length L=6: det(M^L-I)=  -16  |ker|= 16  exponent N= 4  solution tuples=16  (= |ker|: True)  all roots of unity: True
+        eigenvalue tuples (zN^k): [['z4^0', 'z4^0', 'z4^0', 'z4^0', 'z4^0', 'z4^0'], ['z4^0', 'z4^1', 'z4^3', 'z4^2', 'z4^1', 'z4^1'], ['z4^0', 'z4^2', 'z4^2', 'z4^0', 'z4^2', 'z4^2'], ['z4^0', 'z4^3', 'z4^1', 'z4^2', 'z4^3', 'z4^3']]
+    n=4 cycle types -> kernel orders: {'4': [5], '3+1': [4, 1], '2+2': [1, 1], '2+1+1': [1, 1, 1], '1+1+1+1': [1, 1, 1, 1]}
+
+----------------------------------------------------------------------------------------------------
+[3] CENSUS -- ladder n = 2, 3, 4 (m = 1), declared strata, 3 seeds x 12 starts
+----------------------------------------------------------------------------------------------------
+
+  --- n = 2 ---
+    [{i,-i}  (phi-fixed Q8: KNOWN irreducible) ] A^2 central=True  hits= 36/36 (1.00)  algdims=[4]            n^2= 4  irr=36  min submodule dim=2  -> IRREDUCIBLE FOUND   [0.6s]
+    [{1,1}   (trivial/unipotent)               ] A^2 central=True  hits= 36/36 (1.00)  algdims=[1, 3]         n^2= 4  irr=0  min submodule dim=1  -> reducible   [0.2s]
+    [generic-regular {2,1/2}                   ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2= 4  irr=0  min submodule dim=None  -> EMPTY   [11.2s]
+
+  --- n = 3 ---
+    [{1,-1,-1} principal (B142 Klein-4)        ] A^2 central=True  hits= 36/36 (1.00)  algdims=[3]            n^2= 9  irr=0  min submodule dim=2  -> reducible   [0.9s]
+    [{1,i,-i}  (order 4)                       ] A^2 central=False hits= 26/36 (0.72)  algdims=[5, 7]         n^2= 9  irr=0  min submodule dim=3  -> reducible   [7.0s]
+    [{1,w,w^2} (order 3)                       ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2= 9  irr=0  min submodule dim=None  -> EMPTY   [21.5s]
+    [generic-regular {2,3,1/6}                 ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2= 9  irr=0  min submodule dim=None  -> EMPTY   [21.4s]
+
+  --- n = 4 ---
+    [{i,i,-i,-i} PRINCIPAL Sym^3 (A^2=-I)      ] A^2 central=True  hits= 36/36 (1.00)  algdims=[4]            n^2=16  irr=0  min submodule dim=4  -> reducible   [2.0s]
+    [{1,1,-1,-1} (A^2=+I)                      ] A^2 central=True  hits= 36/36 (1.00)  algdims=[4]            n^2=16  irr=0  min submodule dim=4  -> reducible   [2.1s]
+    [{1,1,1,1}   (A^2=+I, trivial)             ] A^2 central=True  hits= 36/36 (1.00)  algdims=[1]            n^2=16  irr=0  min submodule dim=1  -> reducible   [0.6s]
+    [{i,i,i,i}   (A=iI central)                ] A^2 central=True  hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [0.2s]
+    [{1,1,i,-i}  (A^2 NOT central)             ] A^2 central=False hits= 28/36 (0.78)  algdims=[7, 9]         n^2=16  irr=0  min submodule dim=3  -> reducible   [9.0s]
+    [{1,-1,i,-i} (A^2 NOT central)             ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [10.8s]
+    [{-1,-1,i,-i}(A^2 NOT central)             ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [29.5s]
+    [{z5,z5^2,z5^3,z5^4} primitive 5th roots   ] A^2 central=False hits= 18/36 (0.50)  algdims=[4]            n^2=16  irr=0  min submodule dim=4  -> reducible   [20.1s]
+    [{w,w,w^2,w^2} order 3                     ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [27.4s]
+    [{1,1,w,w^2} order 3                       ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [31.3s]
+    [{z8,z8^3,z8^5,z8^7} order 8               ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [36.4s]
+    [{i,-i,2,1/2} mixed                        ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [36.4s]
+    [generic-regular {2,3,5,1/30}              ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [34.7s]
+    [generic-regular random                    ] A^2 central=False hits=  0/36 (0.00)  algdims=[]             n^2=16  irr=0  min submodule dim=None  -> EMPTY   [35.5s]
+
+  --- n = 4, m = 2 (silver member) spot-check ---
+    [{i,i,-i,-i} PRINCIPAL Sym^3 (A^2=-I)      ] hits= 36/36  algdims=[4, 7, 8]       irr=0  -> reducible   [2.0s]
+    [{1,1,-1,-1} (A^2=+I)                      ] hits= 36/36  algdims=[6, 7, 8]       irr=0  -> reducible   [2.0s]
+    [{1,1,1,1}   (A^2=+I, trivial)             ] hits= 36/36  algdims=[1]             irr=0  -> reducible   [0.6s]
+    [generic-regular {2,3,5,1/30}              ] hits=  0/36  algdims=[]              irr=0  -> EMPTY   [39.1s]
+
+----------------------------------------------------------------------------------------------------
+[4] EXACT GF(p) GROEBNER (CRT engine, 2 primes) on the OCCUPIED SL(4) strata
+----------------------------------------------------------------------------------------------------
+    p=40961 {i,i,-i,-i} principal      -> {'ok': True, 'trivial_ideal': False, 'dim': 8, 'gb_size': 25, 'seconds': 32.7}
+    p=40961 {1,1,-1,-1}                -> {'ok': True, 'trivial_ideal': False, 'dim': 8, 'gb_size': 41, 'seconds': 1.3}
+    p=40961 {1,1,i,-i}                 -> {'ok': True, 'trivial_ideal': False, 'dim': 6, 'gb_size': 69, 'seconds': 11.2}
+    p=40961 {z5,z5^2,z5^3,z5^4}        -> {'ok': False, 'timeout': True, 'cap_seconds': 90, 'seconds': 90.0}
+    p=65537 {i,i,-i,-i} principal      -> {'ok': True, 'trivial_ideal': False, 'dim': 8, 'gb_size': 25, 'seconds': 23.2}
+    p=65537 {1,1,-1,-1}                -> {'ok': True, 'trivial_ideal': False, 'dim': 8, 'gb_size': 41, 'seconds': 1.0}
+    p=65537 {1,1,i,-i}                 -> {'ok': True, 'trivial_ideal': False, 'dim': 6, 'gb_size': 69, 'seconds': 10.3}
+    dim Z(A) per stratum (subtract to read the character-locus dimension): {'{i,i,-i,-i}': 8, '{1,1,-1,-1}': 8, '{1,1,i,-i}': 6, '{z5,..}': 4}
+
+----------------------------------------------------------------------------------------------------
+[5] L1 NON-VACUITY -- can the RESOLVED-B branch fire?  Two realised fact-vectors
+----------------------------------------------------------------------------------------------------
+    (a) same pipeline at n=2: irreducible phi-fixed points detected = 36  (Theorem Q's conclusion FLIPS at n=2: dim 4 = n^2)
+    (b) sibling automorphism tau(a,b)=(b,a), SAME solver/detector, SAME generic-regular SL(4) stratum that is phi-EMPTY:
+        {'stratum': ['2+0j', '3+0j', '5+0j', '0.03333+0j'], 'n': 4, 'starts': 20, 'hits': 20, 'algdims': [6, 8, 10, 16], 'n_irreducible_burnside': 10}
+    => RESOLVED-B branch demonstrably reachable at n=4 by this machinery: True
+    gate exercised on counterfactual fact-vectors: {'counterfactual_irreducible_at_SL4': 'RESOLVED-B', 'counterfactual_thmQ_fails': 'RESOLVED-B', 'counterfactual_unclassified_stratum': 'UNRESOLVED', 'counterfactual_no_power': 'UNRESOLVED'}
+
+----------------------------------------------------------------------------------------------------
+[6] L2 POWER / IDENTIFIABILITY of the emptiness readings
+----------------------------------------------------------------------------------------------------
+    estimator = occupancy count at a fixed budget (36 starts, 3 seeds); NOT an argmax.
+    occupied SL(4) strata: ['{i,i,-i,-i} PRINCIPAL Sym^3 (A^2=-I)', '{1,1,-1,-1} (A^2=+I)', '{1,1,1,1}   (A^2=+I, trivial)', '{1,1,i,-i}  (A^2 NOT central)', '{z5,z5^2,z5^3,z5^4} primitive 5th roots']
+    of which A^2 NOT central (so occupancy is not an artefact of the central case): ['{1,1,i,-i}  (A^2 NOT central)', '{z5,z5^2,z5^3,z5^4} primitive 5th roots']
+    observed hit rates on occupied strata: [1.0, 1.0, 1.0, 0.778, 0.5]  (min 0.5)
+    detection floor: a stratum with per-start hit rate >= 8% is found with prob >= 0.950
+    POWER OK (detector finds a known irreducible at n=2; solver finds solutions on non-central SL(4) strata; tau control finds irreducibles at n=4): True
+
+----------------------------------------------------------------------------------------------------
+[7] L4 DECLARED SELECTIONS and their effect
+----------------------------------------------------------------------------------------------------
+    budget 6x3 starts: generic-regular hits=0, {1,1,i,-i} hits=14
+    budget 12x3 starts: generic-regular hits=0, {1,1,i,-i} hits=28
+    budget 24x3 starts: generic-regular hits=0, {1,1,i,-i} hits=55
+    => the occupied/empty split is stable across 3 budgets; the verdict does not depend on it.
+    declared: stratum list above (14 at n=4), seeds (20260724, 424242, 7771), max_nfev=500,
+              primes 40961 & 65537, m in {1,2}, Burnside rank via singular-value gap.
+    NOT declared-exhaustive: the SL(4) eigenvalue strata form a continuous family; the
+              census covers a finite declared list.  Theorem Q covers ALL A^2-central
+              strata and Theorem T ALL monomial solutions, for every n, with no sampling.
+
+====================================================================================================
+VERDICT
+====================================================================================================
+  facts: {'power_ok': True, 'thmQ_ok': True, 'n4_irreducible': 0, 'n4_unclassified': 0}
+  - Theorem Q certificates hold, quotient-algebra dim bound = 4 (<= 4)
+  - SL(4) principal stratum Sym^3(diag(i,-i)): A^2 = -I => Q8 => algdim 4 < 16 => REDUCIBLE (rigorous)
+  - SL(4) census: 5 occupied / 14 declared strata, 0 irreducible (algdim=16) found
+  - L3 note: Theorem Q and Theorem T are NOT independent proofs of one claim -- they seal
+    DISJOINT mechanisms (non-abelian 4-dim algebra vs. diagonal/abelian); the only stratum
+    they share is {1,1,-1,-1} (3-cycle + fixed point).  The census is corroboration, not
+    a third independent reason.
+
+  VERDICT: RESOLVED-A
+  the S031a sealing extends to SL(4): the phi-fixed SL(4) locus is entirely REDUCIBLE

@@ -1,3 +1,18 @@
+# B780 — THE GALOIS-VS-REVERSAL GATE — **RETRACTED IN PART (B784 audit, 2026-07-24)**
+
+> **RETRACTION.** The B784 adversarial audit found this cell **VACUOUS**: `c_sig=(True,True,True)`
+> and `theta_sig=(False,False,False)` are LITERALS, not wired to any computed boolean, and
+> `classify()` maps them to 'c' and 'theta' BY DEFINITION — so "the gate rejects the swap"
+> cannot fail. **The claims "the gate is VERIFIED" and "applying it halves cc3's enumeration
+> 8→4" are RETRACTED.** What survives is upstream and was already banked elsewhere: c and θ
+> genuinely differ on (i) SL(2) rank-onset — tr(AB)=tr(BA) makes θ trivial there, (ii) action
+> type — conjugation is diagonal, word-reversal is the permutation (1 4)(2 5)(3 8)(6 7),
+> (iii) the B766 flip-table solo axis. **Those differences are real; the "gate" built on top
+> of them added nothing.** Any future enumeration reduction must be derived from the signature
+> facts directly, with each candidate's signature COMPUTED, not asserted.
+
+---
+
 # B780 — THE GALOIS-VS-REVERSAL GATE: cc3's Move 3 built + VERIFIED
 
 *2026-07-24. The missing discriminator that formally separates c (Galois/conjugation) from
