@@ -7921,3 +7921,16 @@ reducible), two honest EXTERNAL walls (SL5 pinv-discontinuity = B81; H4 = Reid's
 theorem), and a partial (N1 mod-5 square-exclusion proven, mod-7 open). Carry: the 1/4-walk
 CRT-multiplicativity mechanism is genuine but its "frozen 1/4 forever" claim breaks at N=405
 (frozenness is level-bounded — re-frame next wave). Phase 2 continues; ~55 structural rows remain.
+
+## 2026-07-24 — B779: cc3's convergence roadmap gated; R1 verified and it refines C22
+cc3 reported their state intact and delivered the R1–R7 convergence roadmap. Gated and
+folded under B779 (reserved for them). R1 (Galois orbits on the closing torsor) verified
+by cc exactly: V₄=Gal(ℚ(√5,√−3)/ℚ) is a subgroup of the closing group 𝔽₂³ and its two
+orbits are labeled by the θ-coordinate — the one NON-Galois generator. This refines C22:
+the full group acts freely (nothing internal selects a closing), and the Galois part can
+move only within a θ-parity class, never across. R6′ (Maass newforms) is honestly BLOCKED
+at the wall with R7 blocked on it — registered EXTERNAL. A structural motif is now recorded
+across three independent arcs: P2W2-MIRROR (the mirror is non-Galois), B778 CL-LATIN (the
+amplitudes are not Galois-closed), and B779 R1 (θ is the non-Galois generator) — the
+object's distinguished direction is the one its arithmetic cannot reach. This sharpens why
+θ is the vacant correspondence slot (Phase 3) and why C22's wall sits where it does.
