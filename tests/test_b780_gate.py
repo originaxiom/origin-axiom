@@ -13,13 +13,13 @@ ARC = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B780_galois_re
 
 
 def test_S1_rank_onset():
-    # theta trivial at SL(2) (trace symmetry); c nontrivial (geometric value non-real)
-    u = sp.symbols("u")
-    A = sp.Matrix([[1, 1], [0, 1]])
-    B = sp.Matrix([[1, 0], [-u, 1]])
-    assert sp.simplify((A * B).trace() - (B * A).trace()) == 0        # theta trivial @ SL(2)
-    w = sp.Rational(-1, 2) + sp.I * sp.sqrt(3) / 2
-    assert sp.simplify(sp.conjugate(2 - w) - (2 - w)) != 0            # c nontrivial @ SL(2)
+    # theta is trivial at SL(2) *by the universal trace identity* tr(AB)=tr(BA):
+    #   the 27<->27bar swap has no SL(2)-trace signature because tr is cyclic for ALL
+    #   matrices. That is not separately lockable (its counterfactual is impossible), so
+    #   it is documented as the mechanism, not asserted. The FALSIFIABLE signature -- the
+    #   one that would fail if the geometric value were real -- is c's non-triviality:
+    w = sp.Rational(-1, 2) + sp.I * sp.sqrt(3) / 2          # omega, the geometric value
+    assert sp.simplify(sp.conjugate(2 - w) - (2 - w)) != 0  # c nontrivial @ SL(2): 2-w non-real
 
 
 def test_S2_action_type_permutation_not_diagonal():
