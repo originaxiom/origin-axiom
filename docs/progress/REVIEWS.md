@@ -2215,6 +2215,18 @@ Both restored byte-clean; the targeted suites and the FULL test suite (all locks
   merged; relays sent for every verdict. Nothing to CLAIMS; the JUNO one-number pin untouched;
   the GSWZ send still owner-gated.
 
+### (6) The law harvest (FIRST EXECUTION, owner-prompted — "do we write the laws down or bury them?")
+The capture machinery exists (THEOREM_LEDGER 23 links + LAW_MAP 102 rows + the per-PR rule)
+but LEAKS on sub-lemmas. First harvest of this window found **6 genuine theorem-grade results
+in NEITHER registry**, now promoted to LAW_MAP: (1) THE CYCLIC-COVER RANK LAW (B489, DGG rank
+2n−1 all n); (2) THE GOLDEN ADJOINT-TOWER SPECTRUM LAW (TOMB-L255, Sym^d spectrum all d);
+(3) THE θ-TRIVIALITY SCOPING LEMMA (the c-odd/θ-odd firewall); (4) THE CM-COLLAPSE THEOREM
+(B743, real subfield = ℚ(√5)); (5) THE e₃ CUBIC (cos(2π/9)/864, roots cos(2πk/27)/6 —
+cc-reproduced); (6) THE L39 PERIOD THEOREM (P(γ)=lcm(t−2,t+2)/content(γ) all-t). WORKING_RULES
+rule 10 strengthened: sub-lemmas get their own LAW_MAP row; a law-harvest runs every review.
+A heuristic scan flagged ~14 more strong-claim arcs, but the rest read as negatives/census/
+process/already-captured — no further genuine burial in this window.
+
 ### Action items (Review 31)
 - [ ] R31-1: cherry-pick nothing further from cc3 without in-sandbox reproduction — cc3's
   "CONFIRMED" is not a gate (the b769/C21 lesson: it re-confirmed a defective mechanism).
@@ -2224,4 +2236,6 @@ Both restored byte-clean; the targeted suites and the FULL test suite (all locks
 - [ ] R31-4: audit the remaining torsor/chain links for the θ-conflation class — confirm
   C20/B766's θ is the matrix/representation-level involution (not a trace-level one) before the
   capstone leans on it.
+- [ ] R31-6: the law-harvest is now STANDING (WORKING_RULES 10) — run it every review; next
+  pass extends it to the pre-B700 backlog (this harvest covered the recent window only).
 - [ ] R31-5 (carried): GSWZ send owner-gated (R30-3); R29-1 specialist pass owner-gated; R29-2 L95.

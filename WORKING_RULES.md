@@ -45,7 +45,13 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
 10. **Bank completely.** Every banked arc updates PROGRESS_LOG (append at
     END) + CHANGELOG + CAMPAIGN_STATUS in the same/next PR; a new law adds
     its LAW_MAP row in the same PR; new inner terms get TERMINOLOGY.md
-    lines; the atlas regenerates per new B-dir.
+    lines; the atlas regenerates per new B-dir. **This covers SUB-LEMMAS,
+    not just an arc's headline: any theorem/law-grade result proved along
+    the way (an all-n/all-d structural fact, an exact value, a scoping
+    lemma) gets its own LAW_MAP row — else it gets buried in FINDINGS.**
+    A standing **law-harvest** runs at every review (see the review
+    template): read the window's strong-claim arcs and promote anything
+    genuine that slipped. The positive twin of the negatives-hunt.
 11. **Attribution and privacy.** Commits as `originaxiom`; no AI mentions in
     anything public-facing; scrub sandbox paths from committed files. After
     every merge to `main`: `git push codeberg main` (the mirror).
