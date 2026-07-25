@@ -163,12 +163,21 @@ door. — B766. Lock: `tests/test_b766_torsor.py`.
 **C21 [THEOREM — the T1 structure].** The unmoved axis is DISCRETE: a 3-element torsor
 (the V₄-frame choice) under an S₃ of which the banked object-native operations realize
 only the identity — T1's fixedness under the closing set is FORCED (abelian inner
-triviality), so any instrument moving it must realize an outer V₄-automorphism. The
-candidate continuous modulus (the relative position of the c- and θ-eigensplittings) is
-GAUGE-FIXED at the geometric point: the θ-odd coordinates vanish there identically (the
-point is θ-fixed) and the tangent frames align exactly — the alignment that produces
-chord = c⊕θ. No continuous T1 content exists where the object lives. — B769. Lock:
-`tests/test_b769_t1.py`.
+triviality), so any instrument moving it must realize an outer V₄-automorphism. There is
+no continuous T1 modulus where the object lives (its invariant trace data): the candidate —
+the relative position of the c- and θ-eigensplittings — does not exist there, because on the
+Sym²(SL(2)) character variety the θ-involution (the 27↔27̄ contragredient g↦g⁻¹) acts
+TRIVIALLY. In SL(2) tr(g⁻¹)=tr(g), so every θ-odd trace coordinate and its tangent vanish
+IDENTICALLY (not merely at the geometric point): the geometric-point tangent
+d/du[tr Sym²(AB)]|_ω = −5 + i√3 has θ-odd (contragredient) part exactly 0, and its imaginary
+part is c-odd, not θ-odd. Only the c-eigensplitting exists on this module, so there is nothing
+for a θ-frame to be positioned against — the candidate modulus is vacuous. (θ's non-triviality
+is a matrix/representation-level fact, gauge from the invariant standpoint; chord = c⊕θ is the
+banked torsor relation C20/B766, NOT a tangent-frame alignment derived here.) — B769
+[mechanism corrected 2026-07-25: the earlier "tangent frames align → chord = c⊕θ" wording
+conflated the c-odd imaginary direction with a θ-odd one — the same class as the B780/B784
+c-vs-θ slip; the theorem, discrete T1 with no invariant continuous modulus, is unchanged].
+Lock: `tests/test_b769_t1.py`.
 
 **C22 [COROLLARY of C20 — no canonical closing].** Immediate from C20 and the definition
 of torsor: the closing set is a (ℤ/2)³-torsor, and a torsor has no canonical point. **The
