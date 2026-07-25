@@ -9,7 +9,8 @@ STAGE 1  reproduce the banked PD2.2 rungs (B372/B373/B374 + rung75/rung225)
 
 ==============================================================================
 STAGE 2  DECLARED SELECTION (L4): the banked arc sampled ONLY N in 15*3^k / 15*5^k.
-         Widening to all odd N in [3,49] + {63,75,105,135,147,225,243,245}:
+         Widening to all odd N in [3,49] + {63,75,105,135,147,225,243,245}
+         + the FALSIFIERS {363=3*11^2, 605=5*11^2} the original scan omitted (L4 fix):
   N=   3 ord=   4 4N/3=    4.00 pairs=  1 sectors=[(1, 3)] phase=[90.0]
   N=   5 ord=  10 4N/3=    6.67 pairs=  2 sectors=[(1, 9)] phase=[36.0]
   N=   7 ord=   8 4N/3=    9.33 pairs=  3 sectors=[] phase=[]
@@ -42,9 +43,11 @@ STAGE 2  DECLARED SELECTION (L4): the banked arc sampled ONLY N in 15*3^k / 15*5
   N= 225 ord= 300 4N/3=  300.00 pairs= 16 sectors=[] phase=[]
   N= 243 ord= 324 4N/3=  324.00 pairs=121 sectors=[(81, 243)] phase=[90.0]
   N= 245 ord= 280 4N/3=  326.67 pairs= 26 sectors=[(28, 252)] phase=[36.0]
+  N= 363 ord= 220 4N/3=  484.00 pairs=  0 sectors=[] phase=[]
+  N= 605 ord= 110 4N/3=  806.67 pairs=  0 sectors=[] phase=[]
   SELECTION EFFECT phases inside the banked 3-tower {15,45,135}: [36.0, 108.0]  (the 'pentagon pair')
   SELECTION EFFECT phases over the widened frame:              [36.0, 90.0, 108.0]
-  SELECTION EFFECT 'ord = 4N/3' FAILS at N = [21, 33, 39, 63, 105, 147] (3|N but ord != 4N/3)
+  SELECTION EFFECT 'ord = 4N/3' FAILS at N = [21, 33, 39, 63, 105, 147, 363] (3|N but ord != 4N/3)
 
 ==============================================================================
 STAGE 3  MECHANISM: the exact CRT tensor identity (independent fact #1)
@@ -91,7 +94,9 @@ STAGE 4  THE ATOMS: lines and sectors of each prime power (independent fact #2)
 ==============================================================================
 STAGE 5  EXISTENCE LAW vs the direct census (the CONVERSE direction is fact #2b:
          the direct census is an INDEPENDENT check that no further sector exists)
-  existence law: 32/32 levels predicted correctly (incl. the N=225 death)
+  MISMATCH N=363: predicted 1, observed 0
+  MISMATCH N=605: predicted 1, observed 0
+  existence law: 32/34 levels predicted correctly (incl. the N=225 death)
 
 ==============================================================================
 STAGE 6  THE PHASE MAP: the twist -> phase map on the atoms
@@ -115,9 +120,10 @@ STAGE 6  THE PHASE MAP: the twist -> phase map on the atoms
   TWIST MAP: a 3-power atom's phase is twist-RIGID at 90 deg (eigenvalue +-i);
              a 5-power atom's phase is 36 deg iff (u|5) = +1, else 108 deg.
 
-  CLOSED FORM (corollary): sector exists  <=>  v_p(N) even for every p >= 7 AND
-     (v_3(N) odd or v_5(N) odd).  Phase = 90 deg if v_5(N) is even (the 3-part
-     supplies it); else 36 deg if (N/5^v5 | 5) = +1 and 108 deg if = -1.
+  CLOSED FORM (corollary; the EXISTENCE half is FALSIFIED at 363/605, see STAGE 5 --
+     the correct existence condition needs every p>=7 ABSENT, = prior-banked P63):
+     sector exists ~ (v_3 odd or v_5 odd) [with p>=7 absent].  Phase = 90 deg if
+     v_5 even (3-part supplies); else 36 deg if (N/5^v5 | 5)=+1 and 108 deg if =-1.
   N=   3: predicted 90.0 deg, observed 90.0 deg  hit=True
   N=   5: predicted 36.0 deg, observed 36.0 deg  hit=True
   N=  15: predicted 108.0 deg, observed 108.0 deg  hit=True
@@ -136,9 +142,9 @@ STAGE 7  HELD-OUT PREDICTIONS (registered in-code BEFORE the heavy census;
   B374's registered pre-registration:  405 EXISTS/36deg,  375 EXISTS,  675 NO SECTOR
   THIS CELL predicts:                  405 EXISTS/36deg,  375 EXISTS/108deg,  675 EXISTS/90deg
   => 675 is a DECISIVE disagreement with the banked pre-registration.
-  N= 375 ord= 500 pairs= 63 sectors=[(150, 350)] phase=108.0  PREDICTED (1, 108.0)  hit=True [27s]
-  N= 405 ord= 540 pairs= 42 sectors=[(54, 486)] phase=36.0  PREDICTED (1, 36.0)  hit=True [33s]
-  N= 675 ord= 900 pairs= 25 sectors=[(225, 675)] phase=90.0  PREDICTED (1, 90.0)  hit=True [156s]
+  N= 375 ord= 500 pairs= 63 sectors=[(150, 350)] phase=108.0  PREDICTED (1, 108.0)  hit=True [29s]
+  N= 405 ord= 540 pairs= 42 sectors=[(54, 486)] phase=36.0  PREDICTED (1, 36.0)  hit=True [35s]
+  N= 675 ord= 900 pairs= 25 sectors=[(225, 675)] phase=90.0  PREDICTED (1, 90.0)  hit=True [163s]
   held-out: 3/3
   B374's registered 'N=675: NO sector' is REFUTED by direct computation: 675 carries 1 sector at phase 90.0 deg (cross-prime confirmed).
 
@@ -146,23 +152,24 @@ STAGE 7  HELD-OUT PREDICTIONS (registered in-code BEFORE the heavy census;
 STAGE 8  VERDICT LOGIC (pure function; exercised on counterfactual fact-vectors)
   invariant -> phase table (collision-free = True): {"('three', 0)": 90.0, "('five', 1)": 36.0, "('five', -1)": 108.0}
   L1 non-vacuity -- the verdict function on logically possible fact-vectors:
-  counterfactual [as computed] -> RESOLVED-A  (the phase map is characterised: existence + phase are fixed functions of the prime factorisation of N)
-  counterfactual [675 had come back with phase 36 (a value the object does realise elsewhere)] -> UNRESOLVED  (law fits in-sample but fails held-out levels)
+  counterfactual [as computed] -> UNRESOLVED  (the law is only partial)
+  counterfactual [675 had come back with phase 36 (a value the object does realise elsewhere)] -> UNRESOLVED  (the law is only partial)
   counterfactual [phases collide: two levels, same invariants, different phase] -> RESOLVED-B  (two levels share every structural invariant yet carry different phases: the phase is genuinely free)
   counterfactual [no structural rule reproduces any phase] -> RESOLVED-B  (no structural rule reproduces any observed phase: free)
   counterfactual [only 2 levels carry a sector] -> UNRESOLVED  (fewer than 3 levels carry a sector: underpowered)
   counterfactual [the tensor identity had failed] -> UNRESOLVED  (no factorisation mechanism established)
-  branches reachable on possible worlds: ['RESOLVED-A', 'RESOLVED-B', 'UNRESOLVED']
+  branches reachable on possible worlds: ['RESOLVED-B', 'UNRESOLVED']
 
 ==============================================================================
-VERDICT: RESOLVED-A
-REASON : the phase map is characterised: existence + phase are fixed functions of the prime factorisation of N
+VERDICT: UNRESOLVED
+REASON : the law is only partial
 PHASE MAP (the answer to OI-133):
   ord(W1) at level N = lcm over prime powers of  ord(3^a)=4*3^(a-1),
     ord(5^b)=2*5^b, ord(p^c)=ord(p)*p^(c-1)  -- 'ord = 4N/3' is the 3-5 corner only.
-  A 2-dim invariant sector EXISTS  <=>  v_p(N) is EVEN for every prime p >= 7,
-    AND (v_3(N) is odd OR v_5(N) is odd).  It is then UNIQUE, because 5^odd carries
-    no invariant line -- uniqueness is forced, not observed luck.
+  NAIVE LAW (FALSIFIED at 363/605): 'sector EXISTS <=> v_p even for every p>=7 AND
+    (v_3 odd OR v_5 odd)'.  This OVERPREDICTS -- an even 11^2 line has dim>1 and kills
+    the mult-1 sector, so 363=3*11^2 and 605=5*11^2 carry 0 sectors, not 1.  The
+    CORRECT law needs every p>=7 ABSENT (v_p=0), which is the prior-banked P63/B391.
   Its PHASE is then completely determined:
     v_5(N) odd  -> the 5-part supplies the sector: 36 deg (trace phi) if the
                    Legendre symbol (N/5^v5 | 5) = +1, else 108 deg (trace 1-phi);
@@ -170,4 +177,4 @@ PHASE MAP (the answer to OI-133):
   The 'pentagon pair' was the 5-atom's Galois orbit seen through a fixed 5-part;
   rung 75 broke it because at 75 = 3*5^2 the SUPPLIER changes from the 5-part to
   the 3-part.  The phase is NOT free.
-[304s total]
+[355s total]

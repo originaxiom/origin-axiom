@@ -256,6 +256,15 @@ def test_p2w6_wave6_shape():
     cells = {c["id"]: c for c in d["cells"]}
     assert len(cells) == 8
     upheld = sorted(i for i, c in cells.items() if c["upheld"])
-    assert upheld == ["P2W6-B106", "P2W6-B138", "P2W6-B414-r", "P2W6-GATEB-r", "P2W6-Z1-r"]
+    # 2026-07-25 carries-repair pass: D3-r (E27 clause derived) and B465-r (scoped to l=0 +
+    # Stone-von Neumann reframe) repaired and now banked; PD22 WITHDRAWN (naive law falsified
+    # at 363/605, duplicate of P63/B391) -> stays out.
+    assert upheld == ["P2W6-B106", "P2W6-B138", "P2W6-B414-r", "P2W6-B465-r",
+                      "P2W6-D3-r", "P2W6-GATEB-r", "P2W6-Z1-r"]
     # GATEB-r: the forced-reason repair, upheld
     assert cells["P2W6-GATEB-r"]["verdict"] == "RESOLVED-B" and cells["P2W6-GATEB-r"]["upheld"]
+    # PD22: withdrawn -> verdict flipped off RESOLVED-A once the L4 falsifiers are in scope
+    assert cells["P2W6-PD22"]["verdict"] == "UNRESOLVED" and not cells["P2W6-PD22"]["upheld"]
+    # D3-r / B465-r verdicts stand after repair
+    assert cells["P2W6-D3-r"]["verdict"] == "RESOLVED-B" and cells["P2W6-D3-r"]["upheld"]
+    assert cells["P2W6-B465-r"]["verdict"] == "RESOLVED-A" and cells["P2W6-B465-r"]["upheld"]

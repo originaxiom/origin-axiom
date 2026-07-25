@@ -41,7 +41,7 @@
     reading 1 (all four levels, naive conjunction) : contrast = False
     reading 2 (levels where the test is DEFINED)   : contrast = True on N = [15, 35, 45]
     EFFECT: reading 1 sets the C7 flag False -> the prior branch logic would return UNRESOLVED; reading 2 returns RESOLVED-A.  Both are reported.
-  SCOPE DERIVED (not fitted): det(sigma-I) = 2 - tr(sigma) = 5 at every level tested, so |ker(sigma-I)| > 1 iff gcd(5,N) > 1 iff 5 | N; at N=21 the dark stratum is EMPTY, so 'dark carries more eigenphases' has no referent there (undefined), it is not false there.
+  SCOPE DERIVED (not fitted): det(sigma-I) = 2 - tr(sigma) = 5 at every level tested AT STAGE l=0 (the C7 leg's stage; a unit at l>=1 -- R1 table), so at l=0 |ker(sigma-I)| > 1 iff gcd(5,N) > 1 iff 5 | N; at N=21 the dark stratum is EMPTY, so 'dark carries more eigenphases' has no referent there (undefined), it is not false there.
   COLLAPSE CHECK (L3 lesson): within a level, #distinct eigenphases is a function of the |tr|^2 stratum: True  => C6 (max|tr|) and C7 (eigenphase contrast) are NOT two independent confirmations; both read the SAME quantity |ker(sigma-I)|.  The construct rests on ONE mechanism.
   seat-1 numerals: 12.2/8.2 vs computed exact 15/9 -> NOT reproduced; '42 dark-only' has no referent (stratum counts [(15, 180, 45), (21, 0, 441), (35, 980, 245), (45, 1620, 405)]) -> NOT reproduced. Only the DIRECTION (dark > bright) survives.
 == L5 (upheld in P2W5, re-run): C5 -- eigenvector labels canonical? ==
@@ -50,11 +50,12 @@
 == VERDICT BLOCK ==
   DECLARED (criterion choice): survival read EXISTENTIALLY -> RESOLVED-A; read as a conjunction over all four levels -> UNRESOLVED. The existential reading is used because C7 is an existence claim about a stratum and because the universal reading counts N=21 -- where the dark stratum is EMPTY and the predicate is undefined -- as a failure.
   counterfactual: actual (law derived, contrast at 5|N)                                          -> RESOLVED-A
-  counterfactual: law fails (U not affine-metaplectic: R has >1 Heisenberg term), contrast seen  -> UNRESOLVED
+  counterfactual: [decision-fn probe, not object-reachable] law_derived=False, contrast seen     -> UNRESOLVED
   counterfactual: law derived but every tested level has det(sigma-I) a unit (e.g. levels coprim -> RESOLVED-B
   counterfactual: law fails and no stratification anywhere                                       -> RESOLVED-B
   counterfactual: law derived, strata exist, but eigenphase contrast is reversed/absent          -> UNRESOLVED
   branches reachable on logically-possible fact-vectors: ['RESOLVED-A', 'RESOLVED-B', 'UNRESOLVED'] (all three: True)
+  (note: law_derived is FORCED True for this U by Stone-von Neumann; the law-fails rows probe the DECISION FUNCTION's non-vacuity, while the object's OWN falsifier is the contrast-reversed row -> UNRESOLVED, which is reachable)
   law_derived=True  contrast_exists=True  uniform_everywhere=False
   VERDICT: RESOLVED-A
 
@@ -63,4 +64,4 @@
    D2 |ker|=15      : REPAIRED -- saturated closure |G|=960, 0 new on one more pass; census {'1': 665, '5': 168, '9': 95, '25': 7, '45': 24, '225': 1}; 15 occurs 0x in G and 192x in SL(2,Z/15).  Negative EARNED.
    D3 selection     : REPAIRED -- all four levels run; naive-all-levels contrast=False (would give UNRESOLVED), defined-levels contrast=True (gives RESOLVED-A); scope 5|N DERIVED from det(sigma-I)=5.
    D4 one-sided     : REPAIRED -- C6 scored on BOTH halves (sqrt5 True / sqrt15 False = REFUTED); C7 scored on direction AND numerals (12.2/8.2/42 NOT reproduced); collapse check: C6,C7 = ONE mechanism (True); the 'exactly ONE canonical family' assertion is DROPPED.
-  elapsed 12.5s -> results.json
+  elapsed 11.0s -> results.json

@@ -1,5 +1,23 @@
 """P2W6-PD22 (OI-133) -- PD2.2: the phase-map riddle.
 
+WITHDRAWN 2026-07-25 (cc gate, Wave-6 verifier). This cell does NOT bank as a new result.
+  (M1) The headline existence law is FALSIFIED by this cell's own census once the declared
+       scan is widened to its natural falsifiers N=363=3*11^2 and N=605=5*11^2: predict_count
+       returns 1 (an odd 3/5 sector-part, an even 11^2 read as a sector-preserving "line")
+       but the direct census observes 0 sectors. The uniform atom rule "p^even (p>=7) = a
+       LINE that preserves the sector under tensor" OVERPREDICTS: an even p>=7 line of
+       dimension >1 breaks the mult-1 opposite-pair SECTOR at 11 (it happens to survive at
+       7^2, which is why the p>=7 clause looked exact on the original scan -- an undeclared
+       selection, L4). The CORRECT existence law needs every p>=7 ABSENT (v_p=0), not merely
+       even -- and that corrected law is exactly the prior-banked P63.
+  (M2) PRIOR ART, previously uncited. The CRT prime-power tensor factorisation, the atom
+       table, the QR (Legendre) phase rule, the "rung-75 supplier changes" explanation, and
+       the 675/375/405 decisive refutation of B374 are ALL already banked: P63 (the
+       existence law of the value sector, predictive at three fresh levels) + B377
+       (frontier/B377_existence_law_derivation) + B391 (the local doublet/line
+       classification the general-N law rests on). This cell re-derives them, in a form its
+       own code falsifies. Verdict below flips off RESOLVED-A once 363/605 are in scope.
+
 QUESTION. After the pentagon-pair phase prediction was killed at rung 75 (B374) and the
 existence law itself died at N = 225, what does the existence law ACTUALLY determine about
 the phase map -- or is the phase genuinely free?
@@ -380,9 +398,10 @@ say(f"  ALL BANKED RUNGS REPRODUCED: {rep_ok}")
 say("")
 say("=" * 78)
 say("STAGE 2  DECLARED SELECTION (L4): the banked arc sampled ONLY N in 15*3^k / 15*5^k.")
-say("         Widening to all odd N in [3,49] + {63,75,105,135,147,225,243,245}:")
+say("         Widening to all odd N in [3,49] + {63,75,105,135,147,225,243,245}")
+say("         + the FALSIFIERS {363=3*11^2, 605=5*11^2} the original scan omitted (L4 fix):")
 SCAN = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43,
-        45, 47, 49, 63, 75, 105, 135, 147, 225, 243, 245]
+        45, 47, 49, 63, 75, 105, 135, 147, 225, 243, 245, 363, 605]
 scan = {}
 for N in SCAN:
     r = level_census(N)
@@ -527,9 +546,10 @@ say("             a 5-power atom's phase is 36 deg iff (u|5) = +1, else 108 deg.
 R["stage6_twistmap"] = tw_rows
 
 say("")
-say("  CLOSED FORM (corollary): sector exists  <=>  v_p(N) even for every p >= 7 AND")
-say("     (v_3(N) odd or v_5(N) odd).  Phase = 90 deg if v_5(N) is even (the 3-part")
-say("     supplies it); else 36 deg if (N/5^v5 | 5) = +1 and 108 deg if = -1.")
+say("  CLOSED FORM (corollary; the EXISTENCE half is FALSIFIED at 363/605, see STAGE 5 --")
+say("     the correct existence condition needs every p>=7 ABSENT, = prior-banked P63):")
+say("     sector exists ~ (v_3 odd or v_5 odd) [with p>=7 absent].  Phase = 90 deg if")
+say("     v_5 even (3-part supplies); else 36 deg if (N/5^v5 | 5)=+1 and 108 deg if =-1.")
 ph_hit = ph_tot = 0
 ph_rows = []
 for N in SCAN:
@@ -642,8 +662,16 @@ R["phase_map"] = dict(
     mechanism="level-N Weil data = tensor product over prime powers (exact CRT identity)",
     order="ord W1(N) = lcm_p ord(p^e); ord(3^a)=4*3^(a-1), ord(5^b)=2*5^b, "
           "ord(p^c)=ord(p)*p^(c-1); 'ord = 4N/3' holds exactly on N = 3^a*5^b, a>=1",
-    existence="a 2-dim invariant sector exists iff v_p(N) is even for every p >= 7 AND "
-              "(v_3(N) odd or v_5(N) odd)",
+    existence="FALSIFIED AS STATED. The naive rule 'sector exists iff v_p(N) even for every "
+              "p>=7 AND (v_3 or v_5 odd)' overpredicts: it returns 1 at N=363=3*11^2 and "
+              "N=605=5*11^2 where the direct census observes 0 (an even 11^2 line has dim>1 "
+              "and breaks the mult-1 sector). The CORRECT law requires every p>=7 ABSENT "
+              "(v_p=0), not merely even -- which is exactly the prior-banked P63/B391. This "
+              "cell adds nothing over P63.",
+    prior_art="P63 (existence law of the value sector, predictive at 375/405/675) + "
+              "B377_existence_law_derivation + B391 (local doublet/line classification); "
+              "the CRT tensor law, atom table, QR phase rule and 675-refutation are all "
+              "there already. This cell is WITHDRAWN as a non-novel, mis-stated re-derivation.",
     uniqueness="forced: 5^odd carries no invariant line, so at most one factor can supply "
                "the sector",
     phase="v_5(N) odd -> 36 deg if Legendre (N/5^v5 | 5) = +1 else 108 deg;  "
@@ -688,9 +716,10 @@ say(f"REASON : {WHY}")
 say("PHASE MAP (the answer to OI-133):")
 say("  ord(W1) at level N = lcm over prime powers of  ord(3^a)=4*3^(a-1),")
 say("    ord(5^b)=2*5^b, ord(p^c)=ord(p)*p^(c-1)  -- 'ord = 4N/3' is the 3-5 corner only.")
-say("  A 2-dim invariant sector EXISTS  <=>  v_p(N) is EVEN for every prime p >= 7,")
-say("    AND (v_3(N) is odd OR v_5(N) is odd).  It is then UNIQUE, because 5^odd carries")
-say("    no invariant line -- uniqueness is forced, not observed luck.")
+say("  NAIVE LAW (FALSIFIED at 363/605): 'sector EXISTS <=> v_p even for every p>=7 AND")
+say("    (v_3 odd OR v_5 odd)'.  This OVERPREDICTS -- an even 11^2 line has dim>1 and kills")
+say("    the mult-1 sector, so 363=3*11^2 and 605=5*11^2 carry 0 sectors, not 1.  The")
+say("    CORRECT law needs every p>=7 ABSENT (v_p=0), which is the prior-banked P63/B391.")
 say("  Its PHASE is then completely determined:")
 say("    v_5(N) odd  -> the 5-part supplies the sector: 36 deg (trace phi) if the")
 say("                   Legendre symbol (N/5^v5 | 5) = +1, else 108 deg (trace 1-phi);")

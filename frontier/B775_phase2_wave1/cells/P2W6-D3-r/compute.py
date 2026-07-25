@@ -681,6 +681,14 @@ aobs_txt = "/".join("-" if a is None else f"{a:.2f}" for a in aobs)
 spr_txt = "n/a" if math.isnan(cross_spread) else f"{cross_spread:.2f}"
 res_k = sorted({k for r in resolv for k in r["resolvable_k"]})
 
+# exclusion clause DERIVED from the computed excl_all flag (no hardcoded claim that
+# could contradict it -- this is the E27 fix the P2W6 verifier required)
+excl_clause = (
+    f"the {n_ident} identifiable size(s) DO jointly exclude the whole golden lattice from "
+    "their CI (so an exclusion-based refutation would be earnable IF it were powered)"
+    if excl_all else
+    "the identifiable sizes do not jointly exclude the whole golden lattice")
+
 if verdict == "RESOLVED-B":
     terminal = (
         "EXTERNAL, NO NEGATIVE CLAIMED. The P2W4-D3 defects are repaired: the golden "
@@ -689,12 +697,15 @@ if verdict == "RESOLVED-B":
         "that smooths the very oscillation being sought), over a log-chord window "
         f"du={rowsA[0]['du']:.1f}-{rowsA[-1]['du']:.1f} (~4x the P2W4 window), with an estimator "
         "carrying a stated identifiability test (interior argmax, 95% profile CI, BIC gain) and "
-        "a cycle floor that forbids the P2W4 failure mode of an argmax running to the scan "
-        f"bound. Outcome: the estimator is identifiable at {n_ident}/{len(rowsA)} sizes "
+        "a cycle floor that DETECTS and marks non-identifiable the P2W4 failure mode of an "
+        f"argmax running to the scan floor. Outcome: the estimator is identifiable at "
+        f"{n_ident}/{len(rowsA)} sizes "
         f"(a law needs >={IDENT_MIN_N} of them agreeing to better than {CROSS_SPR}; the observed "
         f"spread is {spr_txt} over the identifiable sizes and {all_spread:.2f} over all six); "
-        "no golden k is admitted by the CI at every identifiable size, and none excludes the "
-        "whole lattice either -- so NEITHER a confirmation NOR a refutation of the golden "
+        f"no golden k is admitted by the CI at every identifiable size, while {excl_clause} -- so "
+        f"the refutation is unearned for want of POWER ({n_ident} identifiable size"
+        f"{'s' if n_ident != 1 else ''}, a law needs >={IDENT_MIN_N}), NOT for want of exclusion, "
+        "and NEITHER a confirmation NOR a refutation of the golden "
         "hypothesis is earnable. The underpower is MEASURED, not asserted, on three counts that "
         "are ONE fact (leg F): (a) signal injection into the real residual puts the detection "
         f"floor at A*={astar_txt} sigma across the six sizes, while the modulation actually "

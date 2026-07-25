@@ -31,9 +31,12 @@ re-litigated: the F_p certificate L2, the commutant/C5 result L5).
        (d) supp(W_sigma) == im(sigma_U - I) is then tested as an EXACT SET EQUALITY (no
            flip, no translate, 0 included) -- this is the true linear law.
        (e) the affine part t is extracted INDEPENDENTLY OF THE SUPPORT from
-           R := W_sigma^-1 U, which must be a SINGLE Heisenberg term T(t) (1 of N^2 --
-           a test that can fail).  Then supp(U) == supp(W_sigma) - t is a PREDICTION;
-           the opposite sign (+t) is checked and must FAIL, so the test is sharp.
+           R := W_sigma^-1 U.  Once (d) holds (sigma_W = sigma_U), R normalizes the
+           Heisenberg group trivially, so by Stone-von Neumann R is FORCED to be a single
+           scalar.T(t): the single-term outcome CONFIRMS affineness, it is NOT an
+           independent 1-of-N^2 falsifier.  supp(U) == supp(W_sigma) - t then follows
+           algebraically (T(t)T(v) ~ T(t+v)); the genuine, non-forced check is the SIGN --
+           the opposite sign (+t) must FAIL, i.e. 2t not in im(sigma-I).
        (f) the origin of t is derived: the code convention D(p) = diag(z^{p j(j-1)/2})
            equals Q(p) . Z^{-p/2}, i.e. the quadratic phase TIMES a Heisenberg
            translation -- so U is an AFFINE, not linear, metaplectic element.  Verified
@@ -46,8 +49,9 @@ re-litigated: the F_p certificate L2, the commutant/C5 result L5).
        not a level-15 impossibility, and it is exhaustive (not a scan).
   R3 (fixes D3)  ALL FOUR levels are run in the C7 leg, the selection is DECLARED, its
        verdict effect is computed BOTH WAYS, and the scope condition is DERIVED:
-       det(sigma - I) = 2 - tr(sigma) = 5 at every level and every stage tested, so the
-       dark stratum is nonempty iff gcd(5, N) > 1 iff 5 | N.
+       det(sigma - I) = 2 - tr(sigma) = 5 at stage l=0 for every level tested (a UNIT at
+       stages l>=1: 2/14/17/19/44 -- see the R1 table), so at l=0 the dark stratum is
+       nonempty iff gcd(5, N) > 1 iff 5 | N.
   R4 (fixes D4)  Two-sided rubric: each seat-1 item is scored on ALL of its components
        (a refuted half is reported as refuted), and the L3/GATEB lesson is applied by
        an explicit COLLAPSE CHECK -- are C6 and C7 independent confirmations, or two
@@ -453,7 +457,8 @@ def leg4():
     print(f"    EFFECT: reading 1 sets the C7 flag False -> the prior branch logic would "
           f"return UNRESOLVED; reading 2 returns RESOLVED-A.  Both are reported.")
     print(f"  SCOPE DERIVED (not fitted): det(sigma-I) = 2 - tr(sigma) = 5 at every level "
-          f"tested, so |ker(sigma-I)| > 1 iff gcd(5,N) > 1 iff 5 | N; at N=21 the dark "
+          f"tested AT STAGE l=0 (the C7 leg's stage; a unit at l>=1 -- R1 table), so at l=0 "
+          f"|ker(sigma-I)| > 1 iff gcd(5,N) > 1 iff 5 | N; at N=21 the dark "
           f"stratum is EMPTY, so 'dark carries more eigenphases' has no referent there "
           f"(undefined), it is not false there.")
     # is #distinct a FUNCTION of the |tr|^2 stratum within a level?  (L3/GATEB collapse)
@@ -776,7 +781,11 @@ def main():
     #     LOGICALLY POSSIBLE counterfactual fact-vectors.
     cf = {
         "actual (law derived, contrast at 5|N)": verdict_fn(True, True, False),
-        "law fails (U not affine-metaplectic: R has >1 Heisenberg term), contrast seen":
+        # NB: for THIS U, law_derived is FORCED True (Stone-von Neumann, step (e)); the two
+        # 'law fails' rows probe the DECISION FUNCTION on hypothetical inputs, they are not
+        # object-reachable states. The object's own falsifier is the 'contrast
+        # reversed/absent' row below, which IS reachable and yields UNRESOLVED.
+        "[decision-fn probe, not object-reachable] law_derived=False, contrast seen":
             verdict_fn(False, True, False),
         "law derived but every tested level has det(sigma-I) a unit (e.g. levels coprime "
         "to 5 only) -> no dark stratum anywhere": verdict_fn(True, False, True),
@@ -789,6 +798,9 @@ def main():
     reach = set(cf.values())
     print(f"  branches reachable on logically-possible fact-vectors: {sorted(reach)} "
           f"(all three: {len(reach) == 3})")
+    print(f"  (note: law_derived is FORCED True for this U by Stone-von Neumann; the "
+          f"law-fails rows probe the DECISION FUNCTION's non-vacuity, while the object's "
+          f"OWN falsifier is the contrast-reversed row -> UNRESOLVED, which is reachable)")
     print(f"  law_derived={law_derived}  contrast_exists={contrast_exists}  "
           f"uniform_everywhere={uniform_everywhere}")
     print(f"  VERDICT: {verdict}")
@@ -818,8 +830,11 @@ def main():
         uniform_everywhere=uniform_everywhere,
         counterfactual_gate={k: v for k, v in cf.items()},
         branches_reachable=sorted(reach),
-        defects_repaired=dict(D1_support_law=True, D2_earned_negative=bool(earned),
-                              D3_selection_declared=True, D4_two_sided_criteria=True),
+        defects_repaired=dict(
+            D1_support_law=bool(OUT['R1']['all_pass']),
+            D2_earned_negative=bool(earned),
+            D3_selection_declared=bool(len(r3rows) == 4 and OUT['R3']['selection_declared']),
+            D4_two_sided_criteria=bool(c6_a and not c6_b)),
         C6="HALF: sqrt5 at c=1 REPRODUCED+DERIVED (= sqrt|ker(sigma-I)|); "
            "sqrt15 at the other c REFUTED (exact value 1) with the negative now EARNED",
         C7="DIRECTION ONLY: dark > bright (15/9, 35/21, 45/27) on the levels where the "
@@ -836,18 +851,23 @@ def main():
             "linear Weil operator W_sigma INDEPENDENTLY as a word in the computed sigmas "
             "of F and Q gives supp(W_sigma) = im(sigma - I) EXACTLY (set equality, 0 "
             "included) with |tr|^2 = |ker(sigma-I)| on it; and W_sigma^-1 U is a SINGLE "
-            "Heisenberg term T(t) (1 of N^2), so U = phase . W_sigma . T(t) is AFFINE, "
-            "whence supp(U) = im(sigma-I) - t -- verified as a prediction at all 12 (N,l) "
-            "cells, with the opposite sign failing. The affine part is not an accident: "
+            "Heisenberg term T(t) -- which is FORCED once sigma_W = sigma_U (Stone-von "
+            "Neumann: W_sigma^-1 U then normalizes the Heisenberg group trivially, hence is "
+            "scalar.T(t)), CONFIRMING U = phase . W_sigma . T(t) is AFFINE rather than being "
+            "an independent 1-of-N^2 test; supp(U) = im(sigma-I) - t then follows "
+            "algebraically (T(t)T(v) ~ T(t+v)) and is checked at all 12 (N,l) cells, the "
+            "genuine non-forced check being the opposite SIGN (+t), which fails. The affine "
+            "part is not an accident: "
             "D(p) = diag(z^{p j(j-1)/2}) = Q(p) . Z^{-p/2} exactly (matrix identity to "
             "1e-13), so the B465 convention itself inserts the translation. Consequences: "
-            "max|tr| = sqrt|ker(sigma-I)| and det(sigma-I) = 2 - tr(sigma) = 5 at every "
-            "tested level and stage, so (i) sqrt15 would need |ker| = 15, which occurs 0 "
+            "max|tr| = sqrt|ker(sigma-I)|, and AT STAGE l=0 det(sigma-I) = 2 - tr(sigma) = 5 "
+            "at every tested level (a UNIT at stages l>=1: 2/14/17/19/44, the R1 table), so "
+            "(i) sqrt15 would need |ker| = 15, which occurs 0 "
             "times in the SATURATED closure of <A1,A2,-I> (|G| = 960, 0 new elements on "
             "one more pass, census {1,5,9,25,45,225}) while occurring 192 times in the "
             "ambient SL(2,Z/15) -- the negative is earned and is a fact about the word "
-            "group, not the level; and (ii) the dark stratum is nonempty iff 5 | N, so "
-            "N = 21 has 0 dark / 441 bright and the C7 test is UNDEFINED there."),
+            "group, not the level; and (ii) at stage l=0 the dark stratum is nonempty iff "
+            "5 | N, so N = 21 has 0 dark / 441 bright and the C7 test is UNDEFINED there."),
         elapsed_s=round(time.time() - T0, 1))
 
     with open(f"{CELL}/results.json", "w") as f:
