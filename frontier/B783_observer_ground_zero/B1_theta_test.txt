@@ -1,0 +1,206 @@
+B1 -- DOES THE TRACKING CHOICE CORRESPOND TO THETA?
+
+Source data: A1 (tracking computation), A2 (torsor construction).
+Independent verification: scratchpad/theta_verify2.py, theta_verify3.py.
+
+========================================================================
+1.  WHAT THE COMPUTATION FOUND
+========================================================================
+
+A1 Section 7 tests the relationship between tracking and reversal by
+constructing sigma_mirror = R . sigma . R (the reversal-conjugated
+substitution):
+
+  sigma(a) = ab,  sigma(b) = a
+  sigma_mirror(a) = ba,  sigma_mirror(b) = a
+
+Result (Section 7a): For every 'a' position in F_k (tested k=3..8,
+all a-positions at each level -- 3, 5, 8, 13, 21, 34 positions):
+
+  parent(sigma, i) == child(sigma_mirror, i)   for ALL i
+  child(sigma, i)  == parent(sigma_mirror, i)  for ALL i
+
+Zero mismatches. Perfect swap at every position, every level.
+
+Result (Section 7b): Multi-step trajectories (12 steps from F_3 to
+F_15, all 5 starting positions):
+
+  parent-trajectory(sigma) == child-trajectory(sigma_mirror)
+  child-trajectory(sigma)  == parent-trajectory(sigma_mirror)
+
+All 10 comparisons match exactly.
+
+========================================================================
+2.  THE CONTENT vs POSITION DISTINCTION
+========================================================================
+
+The tracking choice can be interpreted two ways:
+
+  CONTENT-BASED:  parent = "follow the original letter 'a'"
+                  child  = "follow the new letter 'b'"
+
+  POSITION-BASED: left  = "follow offset+0 in the expansion pair"
+                  right = "follow offset+1 in the expansion pair"
+
+Under sigma:  a -> 'ab'.  original 'a' = LEFT,  new 'b' = RIGHT.
+Under mirror: a -> 'ba'.  original 'a' = RIGHT, new 'b' = LEFT.
+
+The two descriptions COINCIDE under sigma (parent = left, child = right)
+but DIVERGE under sigma_mirror (parent = right, child = left).
+
+Independent computation (theta_verify3.py) confirms:
+
+  left(sigma) == left(sigma_mirror)    for all start positions  [TRUE]
+  right(sigma) == right(sigma_mirror)  for all start positions  [TRUE]
+  parent(sigma) == parent(sigma_mirror)                         [FALSE]
+  parent(sigma) == child(sigma_mirror)                          [TRUE]
+
+POSITION labels (left/right) are theta-INVARIANT.
+CONTENT labels (parent/child) are theta-SWAPPED.
+
+========================================================================
+3.  WHAT THE TRACKING CHOICE IS
+========================================================================
+
+The A1 computation defines tracking as CONTENT-BASED: parent means
+"follow the letter that was already there," child means "follow the
+letter that is new."  This is the biologically natural definition
+(parent = progenitor, child = offspring).
+
+Under this definition:
+  - Theta (conjugating sigma by reversal R) SWAPS the tracking choice.
+  - parent(sigma) becomes child(sigma_mirror), and vice versa.
+  - The swap is exact, verified at every position, every level.
+
+The POSITION-BASED labels (left/right) do NOT swap.  Both sigma and
+sigma_mirror expand 'a' into two letters starting at the same offset.
+"Follow the left one" gives the same trajectory regardless of whether
+the left letter is 'a' or 'b'.
+
+Therefore: the tracking choice is the CONTENT label, which is the
+RELATIONAL property between position-in-pair and letter-identity.
+This relational property IS what theta acts on.
+
+========================================================================
+4.  THE THIRD OPTION: ALIGNMENT WITH SIGMA'S DIRECTION
+========================================================================
+
+The task poses a third interpretive frame: the tracking choice is about
+alignment with the substitution's preferred direction.
+
+  sigma writes 'ab' (preferred: a-left, b-right).
+  sigma_mirror writes 'ba' (reversed: b-left, a-right).
+
+  "Aligned tracking" = follow the letter at the position that sigma
+  puts first.  Under sigma this is LEFT='a'=parent.  Under sigma_mirror
+  this is LEFT='b'=child.
+
+  "Anti-aligned tracking" = follow the other.
+
+This IS the correct geometric description.  The tracking choice measures
+the relative orientation between:
+  (i)  the observer's tracking direction (which letter to follow), and
+  (ii) the substitution's intrinsic direction (how it writes the pair).
+
+Theta reverses (ii) while leaving (i) in place.  The relative orientation
+flips.  Equivalently: theta swaps which content label (parent/child)
+sits at which position (left/right).
+
+The tracking choice is neither purely content nor purely position.  It is
+the ALIGNMENT between them -- a relational, geometric quantity.  Theta
+acts on precisely this alignment.
+
+========================================================================
+5.  CONSISTENCY WITH THE TORSOR STRUCTURE
+========================================================================
+
+From A2 Section 2, theta's flip-vector:
+
+  theta flips: T6 (chord) alone.
+  T6 is composite: T6 = T4 xor theta (the chord's sign is the XOR of
+  conjugation and reversal choices).
+
+The tracking choice, being swapped by theta, is a theta-ODD quantity.
+It changes sign under reversal.  This is consistent with the flip-table:
+the tracking bit lives on the theta-sensitive axis T6.
+
+From A2 Section 4 (onset discriminator): theta is TRIVIAL at SL(2),
+NON-TRIVIAL at SL(3).  The tracking choice on the Fibonacci word is a
+pre-geometric (combinatorial) operation.  But its non-trivial geometric
+CONTENT -- the fact that it corresponds to an involution that couples
+theta-even and theta-odd sectors with norm sqrt(3) -- requires the
+SL(3) = Sym^2 level to manifest.  This matches the onset signature.
+
+From A2 Section 5 (visibility): theta is listed as "AMBIGUOUS" at the
+word level -- word reversal exists as an operation on the substitution,
+but its full non-trivial action requires geometry.  The tracking choice
+demonstrates the word-level SHADOW of theta: the swap is detectable
+purely combinatorially, but the geometric weight (coupling fraction
+15/32, discriminant law sqrt(|disc(K)|)) only appears at SL(3).
+
+========================================================================
+6.  WHAT THE BIOLOGICAL METAPHOR GETS RIGHT AND WRONG
+========================================================================
+
+RIGHT: The parent/child distinction IS a genuine binary choice.  It IS
+swapped by theta.  The metaphor correctly identifies the choice as
+involving an "original" vs "new" distinction, which is the content
+distinction that theta acts on.
+
+WRONG: The metaphor suggests the choice is about IDENTITY (which letter
+is the "same one").  In fact it is about ALIGNMENT (which direction the
+observer tracks relative to the substitution's direction).  The word
+"parent" imports a notion of temporal precedence that obscures the
+spatial (directional) nature of the choice.
+
+More precisely:
+  "parent-tracking" = tracking aligned with sigma's writing direction
+  "child-tracking"  = tracking opposed to sigma's writing direction
+  theta = reversal of sigma's writing direction
+
+The biological metaphor is a useful label but a misleading analogy.
+
+========================================================================
+7.  VERDICT
+========================================================================
+
+CONFIRMED.  The parent/child tracking choice corresponds to theta
+(word reversal) in the F_2^3 torsor.
+
+Mechanism: theta acts by conjugating the substitution sigma -> R.sigma.R
+= sigma_mirror, which reverses the pair orientation within the expansion
+rule (ab -> ba).  This swaps the content labels (parent <-> child) while
+leaving position labels (left/right) fixed.  The tracking choice, being
+defined as a content label (follow the original vs follow the new), is
+thereby swapped by theta.
+
+Confidence: HIGH.
+
+Evidence:
+  (a) Perfect position-by-position swap at all levels tested (k=3..8,
+      up to 34 a-positions per level): zero mismatches.
+  (b) Perfect multi-step trajectory match (12 steps, all 5 start
+      positions): parent(sigma) == child(sigma_mirror) and
+      child(sigma) == parent(sigma_mirror) for every trajectory.
+  (c) Independent verification reproduces all A1 results exactly.
+  (d) Position-based tracking (left/right) independently confirmed as
+      theta-invariant -- the swap is specifically of the content labels.
+  (e) Consistent with the torsor flip-table (theta flips T6 alone).
+  (f) Consistent with the onset discriminator (theta trivial at SL(2),
+      non-trivial at SL(3); tracking is combinatorially visible but
+      geometrically weighted only at Sym^2).
+
+Caveats:
+  (1) The correspondence is via conjugation of sigma, not direct action
+      on words.  "Theta swaps tracking" means "conjugating sigma by
+      reversal swaps which content label sits at which position."
+  (2) The tracking choice is more precisely described as an alignment
+      (relative orientation between observer direction and substitution
+      direction), not as a content identity (original vs new).
+  (3) The biological metaphor (parent/child) imports associations that
+      are absent from the geometry.  "Aligned/anti-aligned" or
+      "left/right-of-sigma" would be structurally more faithful labels.
+
+========================================================================
+END
+========================================================================

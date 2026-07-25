@@ -1,0 +1,284 @@
+B2 -- TEST: IS READING DIRECTION = gamma_5 (GOLDEN CONJUGATION)?
+
+Tested by: cc3 audit seat, 2026-07-24
+Inputs: A1 (tracking computation), A2 (torsor construction),
+        B749 F8 (Q(sqrt(5)) is combinatorial), K021 (founding identity)
+Gate 5-Q; structural only; nothing to CLAIMS.
+
+========================================================================
+VERDICT: NOT CONFIRMED.  Reading direction is not gamma_5.
+========================================================================
+
+The proposal (A2 Section 10, P16.2) that reading direction on the
+Fibonacci word corresponds to gamma_5 (the Galois automorphism
+sqrt(5) -> -sqrt(5), phi -> phi_bar) FAILS three decisive tests
+and survives only one -- and the surviving one is incomplete.
+
+========================================================================
+1.  THE ROTATION-ANGLE RESULT (the one thing that works, partially)
+========================================================================
+
+The Fibonacci word is the cutting sequence of the circle rotation
+R_alpha, where alpha = 1/phi^2 = (3-sqrt(5))/2.
+
+Under gamma_5:  alpha -> (3+sqrt(5))/2
+
+  gamma_5(alpha) mod 1 = (3+sqrt(5))/2 - 2 = (sqrt(5)-1)/2 = 1/phi
+  -alpha mod 1 = 1 - alpha = (sqrt(5)-1)/2 = 1/phi
+
+  EXACT MATCH:  gamma_5(alpha) = -alpha  (mod Z)
+
+So at the rotation-angle level, gamma_5 reverses the direction of
+rotation.  Reversed rotation produces the reversed cutting sequence.
+This is exact arithmetic and it is the strongest argument for the
+proposal.
+
+BUT gamma_5 also acts on the PARTITION of the circle:
+
+  Original partition: [0, 1-alpha) = [0, 1/phi) for 'a'
+  gamma_5 partition:  [0, alpha) = [0, 1/phi^2) for 'a'
+
+  The 'a' interval shrinks from 1/phi to 1/phi^2.
+  Letter frequencies swap: d(a) = 1/phi -> d(a) = 1/phi^2.
+
+Therefore:  gamma_5 = reversal + letter swap (complement a<->b)
+
+This was verified computationally: the cutting sequence under
+gamma_5(alpha) with the gamma_5-conjugated partition boundary
+is EXACTLY the complement of the original Fibonacci word
+(Test 4: 50/50 position match).  It is NOT the reversed word.
+
+Conclusion: the rotation-angle argument gives gamma_5 = reversal
+composed with complement, not pure reversal.  Reading direction
+is pure reversal without letter swap.
+
+========================================================================
+2.  THE FREQUENCY TEST (decisive FAILURE)
+========================================================================
+
+The Fibonacci word has letter frequencies:
+  d(a) = 1/phi,   d(b) = 1/phi^2
+
+Under gamma_5 (phi -> phi_bar = -1/phi):
+  d(a) -> 1/phi_bar = -phi (not a probability)
+
+In the positive-cone interpretation: gamma_5 swaps the two real
+embeddings of Z[phi], taking d(a) = 1/phi to d(a) = 1/phi^2
+(the complement frequency).
+
+Under word reversal:
+  d(a) -> d(a) (frequencies are INVARIANT under reversal)
+
+This was verified for F_2 through F_11: d(a) in the forward and
+reversed words are IDENTICAL to all digits.
+
+Conclusion: reversal preserves frequencies.  gamma_5 swaps them.
+Reading direction is not gamma_5 on the frequency vector.
+
+========================================================================
+3.  THE SECTION 7 CONSTRAINT (decisive structural FAILURE)
+========================================================================
+
+A1 Section 7 established a perfect algebraic result:
+
+  sigma_mirror (the RTL substitution) EXACTLY exchanges
+  parent-tracking and child-tracking at every tested level
+  (k=3 through k=8, 0 mismatches in all cases).
+
+  Equivalently:
+    parent(sigma) = child(sigma_mirror)     [EXACT]
+    child(sigma) = parent(sigma_mirror)     [EXACT]
+
+  Verified on multi-step trajectories for all 5 starting positions
+  (Section 7b): MATCH = True for every case.
+
+Now apply the proposed correspondence:
+  reading direction = gamma_5
+  tracking choice   = theta
+
+The Section 7 result says: switching reading direction has the SAME
+effect as switching tracking choice.  Algebraically: gamma_5 and
+theta have IDENTICAL actions on the trajectory representation.
+
+  gamma_5 * theta = identity on trajectory space
+  => gamma_5 * theta is in the kernel of the representation
+  => gamma_5 and theta are INDISTINGUISHABLE at the trajectory level
+
+This means: no trajectory-level observable can separate gamma_5 from
+theta.  The assignment "direction = gamma_5" vs "direction = theta"
+is arbitrary at this level.  There is no computational test within
+substitution-word tracking that distinguishes the two.
+
+In the flip table (A2 Section 2): gamma_5 * theta flips T6, T7, T3.
+So these three axes are invisible at the trajectory level.  The
+trajectory representation has rank at most 2 (seeing only T4, T1)
+out of the torsor's rank 3.
+
+========================================================================
+4.  THE EIGENVALUE TEST (failure)
+========================================================================
+
+The substitution matrix M = [[1,1],[1,0]] has eigenvalues phi and
+phi_bar.  Both parent-tracking and child-tracking position ratios
+converge to phi (A1 Section 5).  Neither direction of reading
+produces growth at rate phi_bar.
+
+The phi_bar eigenvalue is NEGATIVE (-0.618...).  It has no role as
+a growth rate.  Its effect appears only in the alternating sign of
+the convergence error: n_{k+1}/n_k - phi ~ C * (phi_bar/phi)^k.
+But this alternation is the SAME for both reading directions.
+
+The K-theory positive cone K_0^+ in Z[phi] is determined by the
+phi-embedding, not by reading direction.  Both LTR and RTL readers
+inhabit the same positive cone.  gamma_5 would switch to the
+phi_bar-embedding, producing a different ordered group -- but
+reading direction does not do this.
+
+========================================================================
+5.  WHAT READING DIRECTION ACTUALLY IS
+========================================================================
+
+Reading direction = word reversal.  Word reversal acts on the
+SPATIAL ORDER of letters, not on their algebraic identities or
+frequencies.
+
+At the substitution level:
+  sigma(a) = ab     sigma_mirror(a) = ba
+  sigma(b) = a      sigma_mirror(b) = a
+
+  sigma_mirror = R . sigma . R  (conjugation by reversal)
+
+At the trajectory level (Section 7):
+  sigma_mirror exchanges parent and child tracking.
+
+At the 2-gram level:
+  Reversal swaps #ab <-> #ba (verified for k = 5,7,9,11).
+  Reversal preserves #aa, #bb.
+  Reversal preserves all 1-gram frequencies.
+
+These are all ORDER operations, not ALGEBRAIC ones.
+
+In contrast, gamma_5 acts algebraically (phi -> phi_bar) on the
+FIELD Q(sqrt(5)), not spatially on the word's letter sequence.
+Its word-level avatar is the COMPLEMENT operation (a<->b swap),
+which changes letter identities without changing order.
+
+The complement operation:
+  C . sigma . C: a->b, b->ba     (NOT sigma_mirror)
+  sigma . C:     a->a, b->ab     (NOT C . sigma)
+  Complement does not commute with sigma.
+
+So: reversal and complement are DIFFERENT operations on the word,
+producing different substitution conjugates, corresponding to
+different torsor generators.  Reading direction is reversal (a
+spatial/order operation), not complement (an algebraic/label
+operation).  gamma_5 is complement, not reversal.
+
+========================================================================
+6.  THE CORRECT IDENTIFICATION (if any)
+========================================================================
+
+The data supports:
+
+  word reversal (reading direction) = theta  (or gamma_5*theta;
+     indistinguishable at trajectory level)
+
+  letter complement (a<->b swap) = gamma_5
+
+  parent/child tracking = theta  (or gamma_5*theta;
+     indistinguishable at trajectory level)
+
+Since reversal = parent/child swap on trajectories, and both are
+proposed to be different generators, there is a DEGENERACY: the
+trajectory representation cannot separate them.  The two operations
+that were supposed to be gamma_5 and theta respectively turn out to
+be the SAME operation at the observable level.
+
+This is not a paradox for the torsor (different generators can have
+the same action on a quotient representation), but it means P16.2
+(direction = gamma_5) is not testable within the trajectory framework
+and fails when tested against the cutting-sequence framework.
+
+========================================================================
+7.  RELATION TO B749 F8 AND THE COMBINATORIAL CARRIER
+========================================================================
+
+B749 F8 established: Q(sqrt(5)) is combinatorial -- it exists at
+the substitution/word level before hyperbolization.
+
+This means gamma_5 (acting on Q(sqrt(5))) should have a combinatorial
+avatar.  The analysis above identifies that avatar as the COMPLEMENT
+operation (a<->b swap), not as reading direction.
+
+The complement operation swaps letter frequencies:
+  d(a) = 1/phi  <->  d(a) = 1/phi^2
+
+This correctly implements phi -> phi_bar on frequencies.  It is
+a genuine combinatorial gamma_5.  But it is not reading direction.
+
+========================================================================
+SUMMARY TABLE
+========================================================================
+
+  test                              | direction = gamma_5? | detail
+  ----------------------------------|---------------------|------------------
+  1. rotation angle                 | PARTIAL             | gamma_5 = reversal
+                                    |                     | + complement, not
+                                    |                     | pure reversal
+  2. frequency preservation         | FAILS               | reversal preserves
+                                    |                     | d(a); gamma_5 swaps
+  3. Section 7 (reversal = swap)    | FAILS               | indistinguishable
+                                    |                     | from theta
+  4. eigenvalue / growth rate       | FAILS               | both directions
+                                    |                     | see phi, not phi_bar
+  5. K-theory positive cone         | FAILS               | same cone for both
+                                    |                     | reading directions
+
+  Tests passed: 0 clean, 1 partial
+  Tests failed: 4
+
+========================================================================
+FINAL VERDICT
+========================================================================
+
+Reading direction is NOT gamma_5.
+
+gamma_5's combinatorial avatar is the COMPLEMENT operation (a<->b
+swap on the Fibonacci word), which correctly swaps phi and phi_bar
+content at the frequency and cutting-sequence levels.
+
+Reading direction is the REVERSAL operation (sigma_mirror), which
+is a spatial/order operation.  At the trajectory level, reversal
+is indistinguishable from the parent/child swap (theta).
+
+The proposal P16.2 is REFUTED at the combinatorial level.
+
+Confidence: HIGH.  The frequency-preservation argument and the
+cutting-sequence decomposition (gamma_5 = reversal + complement)
+are exact arithmetic, not approximations.
+
+========================================================================
+IMPLICATIONS FOR THE POINTER CORRESPONDENCE
+========================================================================
+
+If gamma_5 = complement (not direction), the revised correspondence
+would be:
+
+  complement (a<->b relabeling)  <-->  gamma_5  (golden conjugation)
+  reversal / direction           <-->  theta    (word reversal)
+  tracking choice                <-->  ???      (indistinguishable
+                                                 from theta on
+                                                 trajectories)
+
+The third slot (c) remains untested in this analysis.
+
+The degeneracy between reversal and tracking at the trajectory level
+suggests that the trajectory representation has rank <= 2 in the
+F_2^3 torsor, with gamma_5*theta in the kernel.  Separating theta
+from the other generators requires observables beyond position
+tracking -- possibly the SL(3) / Sym^2 structure where theta first
+becomes non-trivial (A2 Section 4: S1 onset at SL(3)).
+
+========================================================================
+END
+========================================================================

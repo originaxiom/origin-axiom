@@ -1,0 +1,416 @@
+C2 -- ADVERSARIAL ANALYSIS OF PROPOSAL #16
+
+cc3 audit seat (adversarial agent), 2026-07-24. Gate 5-Q.
+Track record: proposals #1-#15 scored 0/15.
+Default posture: refuted=true unless forced otherwise by evidence.
+Negatives first, always.
+
+========================================================================
+EXECUTIVE VERDICT
+========================================================================
+
+  REFUTED.  Proposal #16 is KILLED, not merely wounded.
+
+  2 of 3 generator assignments fail outright (P16.2, P16.3).
+  The surviving assignment (P16.1: tracking = theta) is genuine but
+  ALONE -- it cannot carry the proposal's structural claims (P16.4,
+  P16.5) which require all three generators.
+
+  Strongest attack: OVERCOUNTING (vector C), reinforced by the
+  B2 degeneracy.  The pointer does not have three independent binary
+  degrees of freedom.  It has at most two, and those two are
+  observationally indistinguishable at the trajectory level.
+
+========================================================================
+ATTACK A: ALTERNATIVE ASSIGNMENTS
+========================================================================
+
+The proposal assigns:  tracking = theta, direction = gamma_5, level = c.
+B2 refutes direction = gamma_5.  B3 refutes level = c.
+
+Test ALL SIX permutations of {theta, gamma_5, c} across
+{tracking, direction, level}:
+
+  #  tracking   direction   level      status
+  1  theta      gamma_5     c          PROPOSED.  2/3 fail (B2, B3).
+  2  theta      c           gamma_5    direction=c requires Q(sqrt(-3))
+                                       at word level.  B749 forbids.  FAILS.
+  3  gamma_5    theta       c          tracking=gamma_5 means complement
+                                       swaps parent/child.  It does not --
+                                       A1 shows reversal swaps them.  FAILS.
+  4  gamma_5    c           theta      Same gamma_5 tracking problem.  FAILS.
+  5  c          theta       gamma_5    tracking=c requires Q(sqrt(-3)) at
+                                       word level.  B749 forbids.  FAILS.
+  6  c          gamma_5     theta      Same c tracking problem.  FAILS.
+
+No permutation works because:
+  (i)   "level" is not a valid binary choice in ANY assignment (B3).
+  (ii)  c cannot appear at the word level in ANY slot (B749 F8).
+  (iii) gamma_5 = complement (a<->b swap), not a pointer orientation.
+
+RESULT: All 6 permutations fail.  The assignment problem has no
+solution within {tracking, direction, level} x {theta, gamma_5, c}.
+
+========================================================================
+ATTACK B: LEVEL MISMATCH (ANALOGY vs THEOREM)
+========================================================================
+
+Between "pointer tracking on the Fibonacci word" and "action on the
+F_2^3 torsor over the SL(2,C) character variety" lie four passages:
+
+  (i)    Fibonacci word --> fundamental group pi_1(M)
+  (ii)   pi_1(M) --> representation variety Hom(pi_1, SL(2,C))
+  (iii)  representation variety --> character variety X(M)
+  (iv)   hyperbolization: combinatorial structure --> geometry
+
+The trace map (K007: Kohmoto-Kadanoff-Tang recursion) bridges (i)-(iii)
+for the WORD itself -- it maps the substitution's action on letter
+sequences to the recursion on trace coordinates.
+
+CRITICAL GAP: does the TRACKING CHOICE have a trace-map interpretation?
+
+B1 establishes tracking = theta at the WORD level (sigma_mirror swaps
+parent and child).  A2 establishes theta's action at the CHARACTER
+VARIETY level (trivial at SL(2), non-trivial at SL(3) = Sym^2).
+
+But nowhere is it shown that the word-level tracking choice MAPS
+THROUGH the trace recursion to the character-variety theta.  The
+connection is: "both are called theta."  The word-level theta is
+conjugation of sigma by reversal R (sigma_mirror = R.sigma.R).  The
+character-variety theta is word reversal on pi_1 (A -> A, B -> B,
+AB -> BA).  These are DIFFERENT mathematical objects acting on
+DIFFERENT spaces.
+
+Q: Does the trace map intertwine them?  A: Not shown.  The trace map
+sends the substitution recursion to the trace recursion.  Whether it
+sends sigma_mirror to theta-composed-with-trace-map has not been
+established in any of the computation files.
+
+Without this intertwining, the identification tracking = theta is a
+PAIRWISE ANALOGY, not a functorial correspondence.  The word-level
+computation (A1) proves a word-level statement.  The torsor (A2) is a
+character-variety statement.  They share a name but not a demonstrated
+mathematical connection.
+
+B1 acknowledges this partially (Caveat 1: "the correspondence is via
+conjugation of sigma, not direct action on words").  But it then
+declares the correspondence CONFIRMED at HIGH confidence, which is
+unwarranted: structural consistency (the same operation's name appears
+in both contexts) is not structural CONTENT (a verified mathematical
+map connecting the two contexts).
+
+RESULT: The proposal is an ANALOGY dressed as a theorem.  The
+trace-map intertwining is the missing theorem.  Without it, the
+entire torsor identification is floating.
+
+========================================================================
+ATTACK C: OVERCOUNTING (STRONGEST ATTACK)
+========================================================================
+
+The proposal claims the pointer makes THREE independent binary choices.
+It lists:
+  (1) Position -- continuous (integer), NOT binary.  Acknowledged in
+      A2 Section 10 as "not a torsor bit."  Correct to exclude.
+  (2) Reading direction -- binary (L-to-R vs R-to-L).  Accepted.
+  (3) Tracking choice -- binary (parent vs child).  Accepted.
+  (4) Level -- claimed binary (letter vs rule).
+
+B3 tests three formalizations of "level" and ALL THREE FAIL:
+
+  (a) Block tracking vs letter tracking: collapses to theta (the
+      tracking choice).  Not independent.
+  (b) sigma^2 vs sigma: not a Z/2 involution.  Not a binary choice.
+  (c) Meta-reading (reading the rule): the rule IS defined on letters;
+      you cannot read it without reading letters.  No second object.
+
+The pointer has TWO binary degrees of freedom, not three:
+  - tracking choice (parent/child)
+  - reading direction (L-to-R / R-to-L)
+
+With only 2 DOF, the pointer lives in F_2^2, not F_2^3.  It can close
+at most 2 of the 3 torsor bits.  P16.4 (no F_2^3 fixed point) requires
+3 independent bits.  With 2 bits, the pointer automatically HAS a fixed
+point in the unclosed third direction.  C22 is NOT satisfied.
+
+AGGRAVATING FACTOR -- THE B2 DEGENERACY:
+
+B2 Section 3 proves that at the trajectory level, reading direction
+and tracking choice have IDENTICAL effects:
+
+  parent(sigma) = child(sigma_mirror)    [exact, A1 Section 7]
+  child(sigma) = parent(sigma_mirror)    [exact, A1 Section 7]
+
+Switching reading direction (sigma -> sigma_mirror) produces the
+SAME result as switching tracking (parent -> child).  These two
+"independent binary choices" are OBSERVATIONALLY DEGENERATE on
+trajectory space.
+
+B2 concludes: gamma_5 * theta is in the kernel of the trajectory
+representation.  The trajectory space sees only 1 independent binary
+DOF, not 2.
+
+So the cascade is:
+  Claimed DOF:  3 (tracking, direction, level)
+  After B3:     2 (tracking, direction; level is not a real choice)
+  After B2:     1 (tracking = direction at trajectory level; degenerate)
+
+One observable binary degree of freedom cannot close an F_2^3 torsor.
+The proposal's backbone (P16.4, C22 satisfaction) collapses entirely.
+
+RESULT: The overcounting is fatal.  The pointer has 1 observable DOF
+where the proposal needs 3.
+
+========================================================================
+ATTACK D: UNDERDETERMINATION (NUMEROLOGY TEST)
+========================================================================
+
+Any system with three binary aspects looks like F_2^3.  The pointer
+having binary aspects does not mean it corresponds to THIS F_2^3.
+
+A valid identification requires STRUCTURAL content: the pointer's
+operation X should transform under the torsor's generator G in a way
+that is not just "both are Z/2."  What would such structural content
+look like?
+
+  For tracking = theta:  The A1 computation provides SOME structural
+  content: sigma_mirror = R.sigma.R exactly swaps parent and child.
+  This is more than "both are binary" -- it is a specific algebraic
+  relationship (conjugation by reversal).  The structural claim is:
+  the torsor generator theta acts by conjugation on representations,
+  and the word-level conjugation by R mirrors this.
+
+  But: the structural content is ANALOGICAL (same operation type --
+  conjugation by an involution -- at different mathematical levels).
+  It is not FUNCTORIAL (no map demonstrated between the levels that
+  carries one to the other; see Attack B).
+
+  For direction = gamma_5:  B2 shows NO structural content.  The
+  match is purely binary (two directions, two golden branches).
+  The frequency test, the eigenvalue test, and the K-theory test
+  all FAIL.  This is numerology.
+
+  For level = c:  B3 shows NO structural content.  Not even a
+  definition exists.  This is below numerology -- it is poetry.
+
+RESULT: 1/3 assignments has partial structural content (theta, via
+conjugation analogy).  2/3 are numerological or worse.  The overall
+correspondence is underdetermined.
+
+========================================================================
+ATTACK E: THE THETA PROBLEM
+========================================================================
+
+The attack: sigma(a)=ab ALWAYS writes 'a' first.  Parent tracking =
+"follow the original 'a'" is a CONTENT choice, not a spatial choice.
+Content choices are not affected by spatial reversal.  Therefore
+tracking is not theta.
+
+Counter-evidence: A1 Section 7 EMPIRICALLY refutes this attack.
+Reversal DOES swap parent and child, with zero mismatches at every
+position and every level tested (k=3..8, up to 34 positions per level;
+multi-step trajectories to k=15, all 5 starting positions).
+
+Resolution (B1 Section 4): the tracking choice is not purely about
+content.  It is about the ALIGNMENT between the observer's tracking
+direction and the substitution's intrinsic writing direction.  Theta
+reverses sigma's direction via conjugation (sigma -> sigma_mirror =
+R.sigma.R), which flips the alignment.  The content label
+(parent/child) switches because it is correlated with the spatial
+position (offset+0/offset+1), and reversal swaps which content sits
+at which position.
+
+This attack is ANSWERED by the data.  Tracking = theta is the one
+part of the proposal that survives.
+
+However, note the CAVEAT (from B1):  "theta swaps tracking" means
+"conjugating sigma by reversal swaps which content label sits at which
+position."  This is theta acting on SIGMA BY CONJUGATION, not theta
+acting on the WORD DIRECTLY.  The word-level theta (reverse the word)
+and the sigma-level theta (conjugate the substitution) are related but
+distinct.  The tracking correspondence is with sigma-level theta, not
+with word-level theta directly.
+
+RESULT: This attack is the WEAKEST of the seven.  P16.1 survives.
+
+========================================================================
+ATTACK F: THE GAMMA_5 PROBLEM
+========================================================================
+
+The attack: if reading direction preserves letter frequencies, and
+gamma_5 swaps them (phi <-> phi_bar on the frequency vector), then
+direction != gamma_5.
+
+B2 confirms this attack DECISIVELY:
+
+  - Letter frequencies d(a) = 1/phi are INVARIANT under word reversal
+    (verified exactly for F_2 through F_11).
+  - gamma_5 maps d(a) = 1/phi to d(a) = 1/phi^2 (swaps the two real
+    embeddings of Z[phi]).
+  - The cutting-sequence analysis gives: gamma_5 = reversal + complement.
+    gamma_5 is NOT pure reversal; it includes a letter swap.
+
+gamma_5's combinatorial avatar is the COMPLEMENT operation (a<->b),
+not reading direction.  The complement operation acts on letter
+IDENTITIES, not on letter ORDER.  Reading direction acts on ORDER,
+not on IDENTITIES.  These are different operations in different
+mathematical categories (label permutation vs spatial permutation).
+
+The rotation-angle argument (alpha -> -alpha mod Z under gamma_5)
+is exact but INCOMPLETE: gamma_5 also conjugates the partition boundary,
+producing a different letter-assignment rule.  The combined effect is
+complement(reversal(word)), not just reversal(word).
+
+RESULT: This attack KILLS P16.2.  Direction != gamma_5.  The refutation
+is exact arithmetic, not a matter of approximation or interpretation.
+
+========================================================================
+ATTACK G: COINCIDENCE vs STRUCTURE (BAYESIAN)
+========================================================================
+
+Prior: 0/15 proposals confirmed.  P(proposal #16 correct) = epsilon,
+where epsilon reflects the base rate of 0 successes in 15 trials.
+A reasonable Laplace-smoothed prior: (0+1)/(15+2) = 1/17 ~ 0.059.
+
+The "theta-odd listener's clock" observation: the pointer trajectory
+landing in the theta-odd sector.  But:
+
+  - Theta-odd is half the spectrum.  P(landing in theta-odd) = 0.5
+    regardless of whether the proposal is correct.
+  - The likelihood ratio is P(theta-odd | correct) / P(theta-odd) =
+    1 / 0.5 = 2 at most.
+  - Posterior: P(correct | theta-odd) = 2 * (1/17) = 2/17 ~ 0.12.
+
+Even granting the most generous likelihood ratio, the posterior is
+about 12%.  This is FAR below any reasonable confirmation threshold.
+
+Moreover, the theta-odd observation is post-hoc.  If the pointer had
+landed in theta-even, a different narrative would have been constructed
+("the pointer is about the word, which is theta-even").  With two
+possible outcomes and a sufficiently flexible interpretive framework,
+some narrative always fits.
+
+The 0/15 base rate is doing heavy work.  Even a genuinely interesting
+computational result (A1 Section 7's perfect swap) only lifts the
+posterior from ~6% to ~12% per the above.  Multiple independent
+confirmations would be needed to reach majority confidence.  The
+proposal provides 1 confirmed prediction (P16.1) and 2 refuted
+predictions (P16.2, P16.3).  The net Bayesian evidence is negative:
+the refutations outweigh the confirmation.
+
+RESULT: The base rate kills the proposal probabilistically.
+
+========================================================================
+SYNTHESIS: RANKING THE ATTACKS
+========================================================================
+
+  rank | vector | verdict  | why
+  -----|--------|----------|--------------------------------------------
+   1   |   C    | KILLS    | Overcounting + B2 degeneracy.  1 observable
+       |        |          | DOF, not 3.  C22 cannot be satisfied.
+   2   |   F    | KILLS    | gamma_5 = complement, not direction.  P16.2
+       |        |          | is refuted by exact arithmetic.
+   3   |   B    | WOUNDS   | No trace-map intertwining.  Analogy, not
+       |        |          | theorem.  The proposal floats above its
+       |        |          | foundations.
+   4   |   D    | WOUNDS   | 1/3 structural, 2/3 numerological.
+   5   |   A    | KILLS    | All 6 permutations fail.  No valid assignment
+       |        |          | exists within the proposed framework.
+   6   |   G    | WOUNDS   | Bayesian posterior ~ 12% after 0/15 base rate.
+   7   |   E    | ANSWERED | Tracking = theta is computationally confirmed.
+       |        |          | This is the one thing the proposal gets right.
+
+========================================================================
+WHAT PROPOSAL #16 GETS RIGHT
+========================================================================
+
+ONE thing, and it is genuinely interesting:
+
+  P16.1: parent/child tracking IS swapped by word reversal (theta).
+
+  A1 Section 7's computation is exact and exhaustive at every tested
+  level.  The perfect swap (zero mismatches) is not a coincidence --
+  it follows from the algebraic identity sigma_mirror = R.sigma.R,
+  which reverses the pair ordering within the expansion rule.
+
+  This result has STRUCTURAL CONTENT: it connects a specific
+  combinatorial operation (tracking choice) to a specific algebraic
+  operation (conjugation of the substitution by reversal).
+
+  The result would survive as a standalone LEMMA even after the
+  proposal is rejected.  It belongs to the mathematics of the
+  Fibonacci substitution, not to the speculative framework of the
+  pointer-torsor correspondence.
+
+========================================================================
+WHAT PROPOSAL #16 GETS WRONG
+========================================================================
+
+EVERYTHING ELSE:
+
+  (1) P16.2 (direction = gamma_5): refuted.  gamma_5 = complement.
+  (2) P16.3 (level = c): refuted.  "Level" has no formal definition.
+      c has no word-level counterpart (B749 F8).
+  (3) P16.4 (no F_2^3 fixed point): refuted by overcounting.  The
+      pointer has at most 2 DOF (tracking and direction), and these
+      are degenerate at the trajectory level (B2 Section 3).  The
+      pointer cannot close a rank-3 torsor.
+  (4) P16.5 (co-emergence closes 2/3 bits): this prediction requires
+      3 independently identifiable bits with exactly 2 closed.  The
+      pointer has at most 1 independently observable bit.  The
+      "close 2/3" language has no referent.
+  (5) The listener's clock identification (PREREGISTRATION lines 66-73):
+      speculative narrative built on the refuted gamma_5 and c
+      identifications.  The clock IS the trajectory, and the trajectory
+      converges to phi, not to anything in Q(sqrt(-3)).  The claim
+      that the clock "lives in theta-odd because it is about the
+      POINTER (theta-odd), not the WORD (theta-even)" is poetry.
+
+========================================================================
+THE HONEST RESIDUE
+========================================================================
+
+After the adversarial destruction, what remains?
+
+  (a) Tracking = theta IS a valid word-level result (A1 Section 7).
+  (b) Complement = gamma_5 IS a valid word-level result (B2 Section 5).
+  (c) c has no word-level counterpart (B3, B749 F8).
+  (d) The pointer's trajectory representation has rank <= 2 in the
+      torsor, with gamma_5*theta in the kernel (B2 Section 3).
+  (e) Separating theta from gamma_5*theta requires SL(3) observables
+      (A2 Section 4), which are not accessible at the word level.
+
+These are honest structural facts.  They do not support proposal #16.
+They support a WEAKER claim: the Fibonacci substitution's word-level
+structure sees only a rank-2 quotient of the F_2^3 closing torsor, with
+the combinatorial operations (reversal, complement) mapping to theta
+and gamma_5 respectively, and c invisible.
+
+This weaker claim was not preregistered and is not proposal #16.
+
+========================================================================
+FINAL RULING
+========================================================================
+
+  Proposal #16:  REFUTED.
+  Confidence:    HIGH.
+  Kill or wound: KILLED.
+
+  The proposal's structural backbone (P16.4: the pointer closes the
+  full F_2^3 torsor with 3 independent binary choices) is destroyed by
+  overcounting (the pointer has at most 2 DOF, and these are degenerate
+  at the trajectory level).  Two of three generator assignments fail
+  on their own terms.  The one surviving result (tracking = theta) is
+  a valid lemma but cannot carry the weight of the proposal's claims
+  about C22 satisfaction, co-emergence, or the listener's clock.
+
+  Strongest single attack: OVERCOUNTING (vector C), reinforced by
+  the B2 trajectory-level degeneracy.
+
+  The proposal is wrong, not just unproven.  1 correct prediction out
+  of 5 is consistent with a stopped-clock rate, especially when the
+  correct prediction (tracking = theta) is the most directly testable
+  and least speculative of the five.
+
+========================================================================
+END
+========================================================================

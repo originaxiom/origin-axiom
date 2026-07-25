@@ -1,0 +1,255 @@
+C1 -- SYNTHESIS: PROPOSAL #16 VERDICT AND TWO-OUTCOME GRADING
+
+cc3 audit seat (synthesis agent), 2026-07-24.  Gate 5-Q.
+Negatives first.  Observations, not claims.
+
+========================================================================
+NEGATIVES FIRST
+========================================================================
+
+1.  TWO OF THREE IDENTIFICATIONS FAIL.
+
+    P16.2 (reading direction = gamma_5): REFUTED.
+    Four independent tests fail.  Reversal preserves letter frequencies;
+    gamma_5 swaps them (d(a) = 1/phi -> 1/phi^2).  The cutting-sequence
+    decomposition proves gamma_5 = reversal + complement, not pure
+    reversal.  gamma_5's actual combinatorial avatar is the COMPLEMENT
+    operation (a<->b letter swap), which correctly implements phi ->
+    phi_bar on frequencies.  Reading direction is a spatial/order
+    operation; gamma_5 is an algebraic/label operation.  These are
+    categorically different.
+
+    P16.3 (level distinction = c): REFUTED.
+    No formal Z/2 involution definition exists for "level distinction."
+    Three candidate formalizations tested and failed: (i) block tracking
+    collapses to theta (parent and child always land in the SAME block);
+    (ii) sigma^2 tracking is a subsequence, not an involution; (iii)
+    meta-reading has no second word for the pointer to scan.  c's
+    rank-onset signature (S1: non-trivial at SL(2); S2: diagonal; S3:
+    solo axis T4) does not match any word-level operation.  B749 F8
+    independently forbids word-level c: Q(sqrt(-3)) is born at
+    hyperbolization, and the substitution rule is purely combinatorial.
+
+2.  THE TWO PROPOSED INDEPENDENT BINARY CHOICES COLLAPSE TO ONE.
+
+    A1 Section 7 proves: switching reading direction (sigma -> sigma_mirror)
+    has EXACTLY the same effect as switching tracking choice (parent <->
+    child).  Zero mismatches, all levels k=3..8, all starting positions.
+    The two operations are INDISTINGUISHABLE at the trajectory level.
+
+    This means gamma_5*theta is in the kernel of the trajectory
+    representation.  The pointer's two binary degrees of freedom (direction
+    and tracking) are not independent observables.  They collapse to a
+    single effective Z/2, not two.
+
+3.  THE POINTER CLOSES ONLY 1 OF 3 TORSOR BITS.
+
+    The pointer state (position, direction, tracking) breaks exactly one
+    F_2^3 generator: theta.  It does not break gamma_5 (because reading
+    direction is not gamma_5; gamma_5 = complement, which is not a pointer
+    state component).  It does not break c (because c is geometric and the
+    pointer is combinatorial).
+
+    Consequence: 4 of the 8 elements of F_2^3 (identity, gamma_5, c,
+    gamma_5*c) fix the pointer state.  The fixed-point set is non-trivial.
+    C22 (no equivariant section) is NOT satisfied by the pointer alone.
+
+4.  THE "2/3 BITS CLOSED" PREDICTION IS WRONG.
+
+    P16.5 predicted the pointer closes 2 of 3 bits (theta and gamma_5,
+    with c left for geometry).  Actual: 1 of 3.  The pointer is a rank-1
+    device in a rank-3 torsor.
+
+========================================================================
+THE POSITIVE
+========================================================================
+
+5.  P16.1 (TRACKING CHOICE = THETA): CONFIRMED.
+
+    This is a genuine, computationally verified result.  The evidence:
+
+    (a) Perfect position-by-position swap at all levels k=3..8 (up to 34
+        a-positions per level): parent(sigma, i) = child(sigma_mirror, i)
+        for every a-position i.  Zero mismatches.
+
+    (b) Perfect multi-step trajectory match (12 steps, all 5 starting
+        positions): parent-trajectory(sigma) = child-trajectory(sigma_mirror)
+        for all 10 comparisons.
+
+    (c) Independent verification reproduces all results exactly.
+
+    (d) Position-based tracking (left/right) independently confirmed as
+        theta-INVARIANT: the swap is specifically of the content labels
+        (parent/child), not the position labels.
+
+    (e) Consistent with the torsor flip-table: theta flips T6 (chord)
+        alone, and the tracking bit is a theta-odd quantity living on
+        this axis.
+
+    (f) Consistent with the onset discriminator: theta is trivial at
+        SL(2), non-trivial at SL(3).  Tracking is combinatorially
+        visible but geometrically weighted only at Sym^2.
+
+    The mechanism is precise: theta acts by conjugating the substitution
+    sigma -> R.sigma.R = sigma_mirror.  This reverses the pair
+    orientation within the expansion rule (ab -> ba), swapping which
+    content label (parent/child) sits at which position (left/right).
+    The tracking choice, defined as a content label, is thereby swapped.
+
+    The tracking choice is more precisely an ALIGNMENT: the relative
+    orientation between the observer's tracking direction and the
+    substitution's intrinsic writing direction.  Theta reverses the
+    substitution's direction, flipping this alignment.
+
+========================================================================
+MONODROMY CONSISTENCY
+========================================================================
+
+6.  The parent-tracking trajectories show clean Fibonacci-number positions
+    (Section 3-4): starting from position 1, parent-tracking visits
+    1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377 -- exact Fibonacci
+    numbers.  Ratios converge to phi (Section 5).
+
+    Child-tracking trajectories alternate between a and b letters (Section
+    8: a, b, a, b, a, b, ...) and converge to phi more slowly (from above,
+    not oscillating around it).
+
+    The tracking-dependent structure IS theta-odd: parent trajectories
+    stay in the theta-even sector (always letter 'a' after the first step),
+    while child trajectories mix theta-even and theta-odd content (alternating
+    a/b).  The difference between parent and child trajectories is a
+    theta-odd observable.
+
+    This is consistent with the listener's clock law (theta-odd block
+    factoring through SL(2, Z/3kappa)), but the data available does not
+    test the specific SL(2, Z/3kappa) structure.  That would require
+    computing the monodromy representation explicitly at SL(3), which is
+    beyond the scope of the trajectory-level computation.
+
+========================================================================
+SYMMETRY-BREAKING PROFILE
+========================================================================
+
+7.  The pointer breaks exactly one generator of F_2^3:
+
+    generator  |  pointer breaks?  |  reason
+    -----------|-------------------|-----------------------------------
+    theta      |  YES              |  tracking choice is theta-odd
+               |                   |  (computationally verified)
+    gamma_5    |  NO               |  gamma_5 = complement, not direction;
+               |                   |  complement is not a pointer component
+    c          |  NO               |  c is geometric (B749 F8 forbids
+               |                   |  word-level c); pointer is combinatorial
+
+    Fixed subgroup under the pointer: <gamma_5, c> = V_4 (4 elements
+    of the 8-element group fix the pointer state).
+
+    C22 status: NOT satisfied by co-emergence.  The pointer's equivariant
+    defect has rank 2, not 0.
+
+========================================================================
+PROPOSAL #16 GRADING
+========================================================================
+
+    prediction  |  statement                    |  result
+    ------------|-------------------------------|------------------
+    P16.1       |  tracking = theta             |  PASS (confirmed)
+    P16.2       |  direction = gamma_5          |  FAIL (refuted)
+    P16.3       |  level = c                    |  FAIL (refuted)
+    P16.4       |  no F_2^3 fixed point         |  FAIL (fixed V_4)
+    P16.5       |  2/3 bits closed              |  FAIL (1/3 closed)
+
+    Score: 1/5.  Previous proposals: 0 for 15.  Cumulative: 1 for 20.
+
+    The theta identification (P16.1) is the first computationally verified
+    structural result in the observer program.  It is genuine.  But the
+    overall proposal fails: the framework for mapping pointer components
+    to torsor generators was 1-for-3 on the identifications, and the
+    downstream predictions (P16.4, P16.5) fail as consequences.
+
+    This is not error forty-two.  It is a partial result: one verified
+    identification embedded in an incorrect structural picture.  The
+    theta result survives the proposal's failure.
+
+========================================================================
+WHAT REMAINS
+========================================================================
+
+8.  THE THETA RESULT IS BANKED.
+
+    tracking = theta is established.  It does not depend on the other
+    identifications.  It is a standalone fact about the Fibonacci
+    substitution and its reversal-conjugate.
+
+9.  THE gamma_5 SLOT IS OPEN.
+
+    gamma_5's combinatorial avatar is the COMPLEMENT operation (a<->b
+    letter swap).  This IS a well-defined Z/2 involution on the Fibonacci
+    word.  But it is NOT a current pointer state component.  The pointer
+    has position, direction, and tracking -- not complement.
+
+    Options for the observer program:
+    (a) Expand the pointer to include a complement bit (letter-relabeling
+        choice: does the observer read 'a' as 'a', or 'a' as 'b'?).
+        This would be a fourth state component.
+    (b) Recognize that complement acts on the word's CONTENT, not on the
+        pointer's PARSING.  The pointer reads whatever letters are there.
+        Complement changes what letters are there.  This is an operation
+        on the object (the word), not on the observer (the pointer).
+        If so, gamma_5 is an object-side symmetry, not an observer-side
+        choice, and the pointer cannot close it by co-emergence.
+    (c) Revisit the trajectory-level degeneracy.  Since direction and
+        tracking are indistinguishable on trajectories, one of them is
+        redundant.  Could direction actually carry gamma_5*theta (not
+        pure theta)?  B2's frequency test says no: direction preserves
+        frequencies, gamma_5*theta would swap them.  But this test
+        operates at the frequency level, not the trajectory level.  If
+        the trajectory representation is the physically relevant one,
+        the assignment is ambiguous.
+
+10. THE c SLOT IS STRUCTURAL.
+
+    c requires geometry (Q(sqrt(-3)) born at hyperbolization).  The
+    pointer is combinatorial.  This gap is not a deficiency -- it is
+    axiom A5 ("geometry buys being").  The c-bit is not closable by
+    any combinatorial mechanism.  It requires the hyperbolization step.
+
+    The observer program's next question: what is the geometric
+    counterpart of the pointer?  The pointer is the combinatorial
+    observer.  The geometric observer would need a state component
+    that lives in Q(sqrt(-3)) -- the chirality choice (T4, rho_geom vs
+    rho_bar_geom).  This is not a word-level operation.  It is a
+    choice of which geometric point to sit on.
+
+11. THE REVISED PICTURE.
+
+    combinatorial level:  pointer closes theta (1 bit)
+                          complement closes gamma_5 (1 bit, if observer-side)
+                          c is invisible (0 bits)
+
+    geometric level:      hyperbolization introduces Q(sqrt(-3))
+                          chirality choice closes c (1 bit)
+
+    Total bits closable: 2 or 3, depending on whether gamma_5 (complement)
+    is observer-side or object-side.
+
+    C22 status under the revised picture:
+    - If all 3 are closed: C22 satisfied (no equivariant section, no
+      fixed point).  But this requires showing each closure is genuinely
+      symmetry-breaking, not just a labeling convention.
+    - If only 2 are closed (theta + c, with gamma_5 object-side): C22
+      fails, residual Z/2.
+    - Current status (pointer alone, combinatorial): 1 closed, C22 fails.
+
+========================================================================
+VERDICT (one sentence)
+========================================================================
+
+Proposal #16 scores 1/5: the tracking-theta identification is the first
+verified structural result in the observer program, but the direction-gamma_5
+and level-c identifications are decisively refuted, leaving the pointer as
+a rank-1 device in a rank-3 torsor with C22 unsatisfied.
+
+========================================================================
+END
+========================================================================

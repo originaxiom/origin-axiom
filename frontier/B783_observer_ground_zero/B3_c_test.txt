@@ -1,0 +1,198 @@
+B3 -- TEST: DOES THE LEVEL DISTINCTION CORRESPOND TO c?
+
+cc3 audit seat (agent B3), 2026-07-24. Gate 5-Q.
+Negatives first.
+
+========================================================================
+1.  THE PROPOSAL UNDER TEST
+========================================================================
+
+P16.3 proposes: the "level distinction" -- reading the word at the
+LETTER level vs reading the substitution RULE -- corresponds to c
+(complex conjugation, sqrt(-3) -> -sqrt(-3)) in the F_2^3 torsor.
+
+The motivation (K021): RL (product, trace 3, Q(sqrt(5))) represents
+the word's content (letter level), while g = -RL^{-1} (ratio,
+trace -1, Q(sqrt(-3))) represents the rule's structure (rule level).
+Switching between them switches between Q(sqrt(5)) and Q(sqrt(-3)),
+which is what c does.
+
+========================================================================
+2.  THE NEGATIVES (three independent failure modes)
+========================================================================
+
+--- 2a: The level distinction has NO formal definition as a Z/2 ---
+
+For c to BE the level distinction, "level" must be a well-defined
+binary operation (an involution) on some space where c also acts.
+Unlike theta = tracking choice (which has a clean definition: at
+each 'a', follow offset or offset+1) and unlike gamma_5 = reading
+direction (L-to-R vs R-to-L), the "level distinction" has no clean
+formal realization.
+
+Candidate formalizations TESTED AND FAILED:
+
+(i)  BLOCK TRACKING vs LETTER TRACKING.  The most natural candidate:
+     at rule level, the pointer tracks which sigma-block it belongs
+     to rather than which letter it sits on.  COMPUTED: when 'a'
+     maps to 'ab', parent (pos 0 in block) and child (pos 1 in
+     block) are ALWAYS in the SAME block.  The within-block position
+     IS the parent/child distinction = theta.  Block membership adds
+     no independent binary information.  At every 'a' position in
+     F_3 through F_9 (verified exhaustively), parent lands at
+     within-block-pos 0, child lands at within-block-pos 1.
+     Block tracking collapses to theta, not c.
+
+(ii) SIGMA^2 vs SIGMA TRACKING.  "Rule level" as composing the
+     substitution: track through sigma^2 instead of sigma.  COMPUTED:
+     the sigma^2 trajectory is a SUBSEQUENCE of the sigma^1 trajectory
+     (every other step).  This is not a binary choice (Z/2 involution);
+     it is a different sampling rate.  No involution structure.
+
+(iii) META-READING (reading the rule itself).  "The pointer reads the
+     rule a->ab, b->a instead of the letters a, b."  But the rule IS
+     defined on the letters.  You cannot read the rule without reading
+     letters.  The rule is not a separate object the pointer can point
+     at; it is the MAP between successive words.  There is no second
+     "word of rules" for the pointer to scan.
+
+All three formalizations fail.  The level distinction is NOT a
+well-defined Z/2 involution on the pointer's state space.
+
+--- 2b: c's signature profile DOES NOT MATCH any word-level operation ---
+
+From A2 (the rank-onset discriminator, S1/S2/S3):
+
+  S1: c is non-trivial at SL(2)
+  S2: c acts DIAGONALLY (coordinate-wise conjugation on traces)
+  S3: c has a SOLO axis (T4, chirality -- flipped by c alone)
+
+Any word-level formalization of "level" would:
+  - Act by PERMUTATION (relabeling what the pointer reads), not
+    diagonally.  This is S2-type = theta, not c.
+  - Have no natural connection to T4 (chirality).  Chirality is
+    the distinction between the two geometric points (rho_geom vs
+    rho_bar_geom in Q(sqrt(-3))).  "Letter vs rule" does not flip
+    handedness.
+  - Be trivial or undefined at SL(2), since the level distinction
+    is a parsing convention, not a coordinate conjugation.
+
+The signature mismatch (S2 especially) is structural: c acts by
+field automorphism (diagonal), not by permutation (spatial).  No
+word-level parsing distinction can reproduce diagonal action on
+trace coordinates.
+
+--- 2c: B749 F8 FORBIDS a word-level c ---
+
+The key constraint: Q(sqrt(-3)) does NOT exist at the combinatorial
+level (B749 F8).  It is born at hyperbolization (axiom A5).  The
+combinatorial carrier sees ONLY Q(sqrt(5)).
+
+If "level distinction" were definable at the word level (as all three
+candidate formalizations attempt), then c would be visible at the word
+level.  But B749 says c is NOT visible at the word level.
+
+The proposal tries to escape via: "the substitution rule is meta-level,
+requiring geometry."  But this is false.  The rule sigma: a->ab, b->a
+is PURELY COMBINATORIAL.  It requires no geometry to state, no
+hyperbolization to apply.  The rule is as combinatorial as the letters
+it acts on.  The passage to geometry is hyperbolization (A5), which is
+a separate, non-trivial step that has nothing to do with parsing at
+the letter level vs the rule level.
+
+========================================================================
+3.  THE ONE HONEST POSITIVE
+========================================================================
+
+The K021 analogy is real at the ALGEBRAIC level:
+
+  RL    = product  = trace 3  = Q(sqrt(5))  = the word's content
+  g     = ratio    = trace -1 = Q(sqrt(-3)) = the rule's structure
+
+The ratio g = -RL^{-1} does encode "the relationship between the two
+generators" (the rule's structure in an algebraic sense).  And c does
+conjugate Q(sqrt(-3)), which is where g lives.
+
+But this analogy operates at the ALGEBRAIC level of SL(2,Z) generators,
+not at the POINTER level of the Fibonacci word.  The pointer has no
+operation that maps to this algebraic-level distinction.  The analogy
+motivates the proposal but does not instantiate it.
+
+========================================================================
+4.  THE RESOLUTION: c HAS NO WORD-LEVEL COUNTERPART
+========================================================================
+
+The filtration from A2 Section 5 is confirmed and sharpened:
+
+  gamma_5:  present at the combinatorial level (pre-geometry)
+  theta:    word operation pre-geometry, non-trivial action at SL(3)
+  c:        REQUIRES GEOMETRY.  No combinatorial precursor.
+
+This is NOT a failure of the pointer model.  It is a STRUCTURAL FACT:
+
+  The pointer lives in the combinatorial world.
+  c lives in the geometric world.
+  They do not overlap.
+
+B749 F8 is the theorem: the combinatorial carrier (substitution +
+K-theory) sees only Q(sqrt(5)).  Q(sqrt(-3)) -- and therefore c --
+is born at hyperbolization.  There is no "shadow" or "precursor" of
+c at the word level.
+
+The pointer's state space has (at most) two binary choices:
+  - theta (parent/child tracking)
+  - gamma_5 (reading direction)
+
+It does NOT have a third binary choice that could be c.  The third
+generator of F_2^3 is geometric, and the pointer is combinatorial.
+
+========================================================================
+5.  COMPARISON WITH THETA-TEST (B1)
+========================================================================
+
+For calibration: the theta = tracking test in A1/B1 has:
+
+  - A FORMAL DEFINITION: parent vs child tracking at each 'a'
+  - EXACT COMPUTATION: word reversal swaps parent <-> child with
+    ZERO mismatches across all tested levels (F_3 through F_8,
+    every position, perfect swap)
+  - MULTI-STEP VERIFICATION: full trajectories under sigma match
+    trajectories under sigma_mirror (Section 7b, all 5 starting
+    positions, all 12 steps, perfect match)
+
+The c = level test has:
+
+  - NO FORMAL DEFINITION (three candidates tested, all failed)
+  - NO COMPUTATION (nothing to compute without a definition)
+  - NO MATCH CRITERION (no mathematical content to verify)
+
+The contrast is categorical: theta = tracking is a THEOREM (proved
+by exhaustive computation).  c = level is a METAPHOR (no mathematical
+formalization found).
+
+========================================================================
+6.  VERDICT
+========================================================================
+
+  P16.3 (level distinction = c):  NOT CONFIRMED.
+
+The level distinction is not a well-defined binary operation on the
+pointer.  All candidate formalizations (block tracking, sigma^2
+tracking, meta-reading) either collapse to theta (the tracking
+choice) or lack Z/2 involution structure.  The rank-onset signature
+profile (S1/S2/S3) of c does not match any word-level operation.
+B749 F8 independently forbids a word-level c.
+
+The honest conclusion: c has NO word-level pointer counterpart.
+Q(sqrt(-3)) is geometric (born at hyperbolization).  The pointer is
+combinatorial.  The gap between them is not a deficiency of the
+pointer model -- it is the gap between combinatorics and geometry
+that B749 F8 and axiom A5 identify as the price of being.
+
+Confidence: HIGH.  The negative result has three independent legs
+(no formal Z/2, wrong signature profile, B749 forbids it), each
+sufficient alone.
+
+========================================================================
+END
+========================================================================

@@ -1,0 +1,768 @@
+========================================================================
+SECTION 1 -- Fibonacci words F_0 .. F_18
+========================================================================
+  F_ 0  len=     1  prefix=a
+  F_ 1  len=     2  prefix=ab
+  F_ 2  len=     3  prefix=aba
+  F_ 3  len=     5  prefix=abaab
+  F_ 4  len=     8  prefix=abaababa
+  F_ 5  len=    13  prefix=abaababaabaab
+  F_ 6  len=    21  prefix=abaababaabaababaababa
+  F_ 7  len=    34  prefix=abaababaabaababaababaabaababaabaab
+  F_ 8  len=    55  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_ 9  len=    89  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_10  len=   144  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_11  len=   233  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_12  len=   377  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_13  len=   610  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_14  len=   987  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_15  len=  1597  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_16  len=  2584  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_17  len=  4181  prefix=abaababaabaababaababaabaababaabaababaaba...
+  F_18  len=  6765  prefix=abaababaabaababaababaabaababaabaababaaba...
+
+========================================================================
+SECTION 2 -- Position maps  F_k -> F_{k+1}  (verify k=2 first)
+========================================================================
+
+Verification: F_2 = 'aba' -> F_3 = 'abaab'
+  pos 0 ('a')  offset=0  parent=0  child=1
+  pos 1 ('b')  offset=2  parent=2  child=N/A
+  pos 2 ('a')  offset=3  parent=3  child=4
+  [VERIFIED OK]
+
+  Map F_0 (len 1) -> F_1 (len 2):
+    i=0 'a'  offset=0  parent=0  child=1
+
+  Map F_1 (len 2) -> F_2 (len 3):
+    i=0 'a'  offset=0  parent=0  child=1
+    i=1 'b'  offset=2  parent=2  child=---
+
+  Map F_2 (len 3) -> F_3 (len 5):
+    i=0 'a'  offset=0  parent=0  child=1
+    i=1 'b'  offset=2  parent=2  child=---
+    i=2 'a'  offset=3  parent=3  child=4
+
+  Map F_3 (len 5) -> F_4 (len 8):
+    i=0 'a'  offset=0  parent=0  child=1
+    i=1 'b'  offset=2  parent=2  child=---
+    i=2 'a'  offset=3  parent=3  child=4
+    i=3 'a'  offset=5  parent=5  child=6
+    i=4 'b'  offset=7  parent=7  child=---
+
+  Map F_4 (len 8) -> F_5 (len 13):
+    i=0 'a'  offset=0  parent=0  child=1
+    i=1 'b'  offset=2  parent=2  child=---
+    i=2 'a'  offset=3  parent=3  child=4
+    i=3 'a'  offset=5  parent=5  child=6
+    i=4 'b'  offset=7  parent=7  child=---
+    i=5 'a'  offset=8  parent=8  child=9
+    i=6 'b'  offset=10  parent=10  child=---
+    i=7 'a'  offset=11  parent=11  child=12
+
+  Map F_5 (len 13) -> F_6 (len 21):
+    i=0 'a'  offset=0  parent=0  child=1
+    i=1 'b'  offset=2  parent=2  child=---
+    i=2 'a'  offset=3  parent=3  child=4
+    i=3 'a'  offset=5  parent=5  child=6
+    i=4 'b'  offset=7  parent=7  child=---
+    i=5 'a'  offset=8  parent=8  child=9
+    i=6 'b'  offset=10  parent=10  child=---
+    i=7 'a'  offset=11  parent=11  child=12
+    i=8 'a'  offset=13  parent=13  child=14
+    i=9 'b'  offset=15  parent=15  child=---
+    i=10 'a'  offset=16  parent=16  child=17
+    i=11 'a'  offset=18  parent=18  child=19
+    i=12 'b'  offset=20  parent=20  child=---
+
+========================================================================
+SECTION 3 & 4 -- Parent-tracking and child-tracking trajectories
+           Starting positions 0..4 in F_3, tracking to F_15
+========================================================================
+
+--- PARENT-tracking trajectories ---
+
+  Start pos 0 in F_3 (letter 'a'):
+    k     pos  letter  len(F_k)
+    3       0     a           5
+    4       0     a           8
+    5       0     a          13
+    6       0     a          21
+    7       0     a          34
+    8       0     a          55
+    9       0     a          89
+   10       0     a         144
+   11       0     a         233
+   12       0     a         377
+   13       0     a         610
+   14       0     a         987
+   15       0     a        1597
+
+  Start pos 1 in F_3 (letter 'b'):
+    k     pos  letter  len(F_k)
+    3       1     b           5
+    4       2     a           8
+    5       3     a          13
+    6       5     a          21
+    7       8     a          34
+    8      13     a          55
+    9      21     a          89
+   10      34     a         144
+   11      55     a         233
+   12      89     a         377
+   13     144     a         610
+   14     233     a         987
+   15     377     a        1597
+
+  Start pos 2 in F_3 (letter 'a'):
+    k     pos  letter  len(F_k)
+    3       2     a           5
+    4       3     a           8
+    5       5     a          13
+    6       8     a          21
+    7      13     a          34
+    8      21     a          55
+    9      34     a          89
+   10      55     a         144
+   11      89     a         233
+   12     144     a         377
+   13     233     a         610
+   14     377     a         987
+   15     610     a        1597
+
+  Start pos 3 in F_3 (letter 'a'):
+    k     pos  letter  len(F_k)
+    3       3     a           5
+    4       5     a           8
+    5       8     a          13
+    6      13     a          21
+    7      21     a          34
+    8      34     a          55
+    9      55     a          89
+   10      89     a         144
+   11     144     a         233
+   12     233     a         377
+   13     377     a         610
+   14     610     a         987
+   15     987     a        1597
+
+  Start pos 4 in F_3 (letter 'b'):
+    k     pos  letter  len(F_k)
+    3       4     b           5
+    4       7     a           8
+    5      11     a          13
+    6      18     a          21
+    7      29     a          34
+    8      47     a          55
+    9      76     a          89
+   10     123     a         144
+   11     199     a         233
+   12     322     a         377
+   13     521     a         610
+   14     843     a         987
+   15    1364     a        1597
+
+--- CHILD-tracking trajectories ---
+
+  Start pos 0 in F_3 (letter 'a'):
+    k     pos  letter  len(F_k)
+    3       0     a           5
+    4       1     b           8
+    5       2     a          13
+    6       4     b          21
+    7       7     a          34
+    8      12     b          55
+    9      20     a          89
+   10      33     b         144
+   11      54     a         233
+   12      88     b         377
+   13     143     a         610
+   14     232     b         987
+   15     376     a        1597
+
+  Start pos 1 in F_3 (letter 'b'):
+    k     pos  letter  len(F_k)
+    3       1     b           5
+    4       2     a           8
+    5       4     b          13
+    6       7     a          21
+    7      12     b          34
+    8      20     a          55
+    9      33     b          89
+   10      54     a         144
+   11      88     b         233
+   12     143     a         377
+   13     232     b         610
+   14     376     a         987
+   15     609     b        1597
+
+  Start pos 2 in F_3 (letter 'a'):
+    k     pos  letter  len(F_k)
+    3       2     a           5
+    4       4     b           8
+    5       7     a          13
+    6      12     b          21
+    7      20     a          34
+    8      33     b          55
+    9      54     a          89
+   10      88     b         144
+   11     143     a         233
+   12     232     b         377
+   13     376     a         610
+   14     609     b         987
+   15     986     a        1597
+
+  Start pos 3 in F_3 (letter 'a'):
+    k     pos  letter  len(F_k)
+    3       3     a           5
+    4       6     b           8
+    5      10     a          13
+    6      17     b          21
+    7      28     a          34
+    8      46     b          55
+    9      75     a          89
+   10     122     b         144
+   11     198     a         233
+   12     321     b         377
+   13     520     a         610
+   14     842     b         987
+   15    1363     a        1597
+
+  Start pos 4 in F_3 (letter 'b'):
+    k     pos  letter  len(F_k)
+    3       4     b           5
+    4       7     a           8
+    5      12     b          13
+    6      20     a          21
+    7      33     b          34
+    8      54     a          55
+    9      88     b          89
+   10     143     a         144
+   11     232     b         233
+   12     376     a         377
+   13     609     b         610
+   14     986     a         987
+   15    1596     b        1597
+
+========================================================================
+SECTION 5 -- Position ratios  n_{k+1} / n_k
+           phi = 1.6180339887
+========================================================================
+
+--- PARENT-tracking ---
+
+  Start pos 0:
+    k= 4: pos      0 /      0 =   inf (prev=0)
+    k= 5: pos      0 /      0 =   inf (prev=0)
+    k= 6: pos      0 /      0 =   inf (prev=0)
+    k= 7: pos      0 /      0 =   inf (prev=0)
+    k= 8: pos      0 /      0 =   inf (prev=0)
+    k= 9: pos      0 /      0 =   inf (prev=0)
+    k=10: pos      0 /      0 =   inf (prev=0)
+    k=11: pos      0 /      0 =   inf (prev=0)
+    k=12: pos      0 /      0 =   inf (prev=0)
+    k=13: pos      0 /      0 =   inf (prev=0)
+    k=14: pos      0 /      0 =   inf (prev=0)
+    k=15: pos      0 /      0 =   inf (prev=0)
+
+  Start pos 1:
+    k= 4: pos      2 /      1 =   2.00000000  (diff from phi: +0.38196601)
+    k= 5: pos      3 /      2 =   1.50000000  (diff from phi: -0.11803399)
+    k= 6: pos      5 /      3 =   1.66666667  (diff from phi: +0.04863268)
+    k= 7: pos      8 /      5 =   1.60000000  (diff from phi: -0.01803399)
+    k= 8: pos     13 /      8 =   1.62500000  (diff from phi: +0.00696601)
+    k= 9: pos     21 /     13 =   1.61538462  (diff from phi: -0.00264937)
+    k=10: pos     34 /     21 =   1.61904762  (diff from phi: +0.00101363)
+    k=11: pos     55 /     34 =   1.61764706  (diff from phi: -0.00038693)
+    k=12: pos     89 /     55 =   1.61818182  (diff from phi: +0.00014783)
+    k=13: pos    144 /     89 =   1.61797753  (diff from phi: -0.00005646)
+    k=14: pos    233 /    144 =   1.61805556  (diff from phi: +0.00002157)
+    k=15: pos    377 /    233 =   1.61802575  (diff from phi: -0.00000824)
+    last ratio = 1.6180257511,  phi = 1.6180339887
+
+  Start pos 2:
+    k= 4: pos      3 /      2 =   1.50000000  (diff from phi: -0.11803399)
+    k= 5: pos      5 /      3 =   1.66666667  (diff from phi: +0.04863268)
+    k= 6: pos      8 /      5 =   1.60000000  (diff from phi: -0.01803399)
+    k= 7: pos     13 /      8 =   1.62500000  (diff from phi: +0.00696601)
+    k= 8: pos     21 /     13 =   1.61538462  (diff from phi: -0.00264937)
+    k= 9: pos     34 /     21 =   1.61904762  (diff from phi: +0.00101363)
+    k=10: pos     55 /     34 =   1.61764706  (diff from phi: -0.00038693)
+    k=11: pos     89 /     55 =   1.61818182  (diff from phi: +0.00014783)
+    k=12: pos    144 /     89 =   1.61797753  (diff from phi: -0.00005646)
+    k=13: pos    233 /    144 =   1.61805556  (diff from phi: +0.00002157)
+    k=14: pos    377 /    233 =   1.61802575  (diff from phi: -0.00000824)
+    k=15: pos    610 /    377 =   1.61803714  (diff from phi: +0.00000315)
+    last ratio = 1.6180371353,  phi = 1.6180339887
+
+  Start pos 3:
+    k= 4: pos      5 /      3 =   1.66666667  (diff from phi: +0.04863268)
+    k= 5: pos      8 /      5 =   1.60000000  (diff from phi: -0.01803399)
+    k= 6: pos     13 /      8 =   1.62500000  (diff from phi: +0.00696601)
+    k= 7: pos     21 /     13 =   1.61538462  (diff from phi: -0.00264937)
+    k= 8: pos     34 /     21 =   1.61904762  (diff from phi: +0.00101363)
+    k= 9: pos     55 /     34 =   1.61764706  (diff from phi: -0.00038693)
+    k=10: pos     89 /     55 =   1.61818182  (diff from phi: +0.00014783)
+    k=11: pos    144 /     89 =   1.61797753  (diff from phi: -0.00005646)
+    k=12: pos    233 /    144 =   1.61805556  (diff from phi: +0.00002157)
+    k=13: pos    377 /    233 =   1.61802575  (diff from phi: -0.00000824)
+    k=14: pos    610 /    377 =   1.61803714  (diff from phi: +0.00000315)
+    k=15: pos    987 /    610 =   1.61803279  (diff from phi: -0.00000120)
+    last ratio = 1.6180327869,  phi = 1.6180339887
+
+  Start pos 4:
+    k= 4: pos      7 /      4 =   1.75000000  (diff from phi: +0.13196601)
+    k= 5: pos     11 /      7 =   1.57142857  (diff from phi: -0.04660542)
+    k= 6: pos     18 /     11 =   1.63636364  (diff from phi: +0.01832965)
+    k= 7: pos     29 /     18 =   1.61111111  (diff from phi: -0.00692288)
+    k= 8: pos     47 /     29 =   1.62068966  (diff from phi: +0.00265567)
+    k= 9: pos     76 /     47 =   1.61702128  (diff from phi: -0.00101271)
+    k=10: pos    123 /     76 =   1.61842105  (diff from phi: +0.00038706)
+    k=11: pos    199 /    123 =   1.61788618  (diff from phi: -0.00014781)
+    k=12: pos    322 /    199 =   1.61809045  (diff from phi: +0.00005646)
+    k=13: pos    521 /    322 =   1.61801242  (diff from phi: -0.00002157)
+    k=14: pos    843 /    521 =   1.61804223  (diff from phi: +0.00000824)
+    k=15: pos   1364 /    843 =   1.61803084  (diff from phi: -0.00000315)
+    last ratio = 1.6180308422,  phi = 1.6180339887
+
+--- CHILD-tracking ---
+
+  Start pos 0:
+    k= 4: pos      1 /      0 =   inf (prev=0)
+    k= 5: pos      2 /      1 =   2.00000000  (diff from phi: +0.38196601)
+    k= 6: pos      4 /      2 =   2.00000000  (diff from phi: +0.38196601)
+    k= 7: pos      7 /      4 =   1.75000000  (diff from phi: +0.13196601)
+    k= 8: pos     12 /      7 =   1.71428571  (diff from phi: +0.09625173)
+    k= 9: pos     20 /     12 =   1.66666667  (diff from phi: +0.04863268)
+    k=10: pos     33 /     20 =   1.65000000  (diff from phi: +0.03196601)
+    k=11: pos     54 /     33 =   1.63636364  (diff from phi: +0.01832965)
+    k=12: pos     88 /     54 =   1.62962963  (diff from phi: +0.01159564)
+    k=13: pos    143 /     88 =   1.62500000  (diff from phi: +0.00696601)
+    k=14: pos    232 /    143 =   1.62237762  (diff from phi: +0.00434363)
+    k=15: pos    376 /    232 =   1.62068966  (diff from phi: +0.00265567)
+    last ratio = 1.6206896552,  phi = 1.6180339887
+
+  Start pos 1:
+    k= 4: pos      2 /      1 =   2.00000000  (diff from phi: +0.38196601)
+    k= 5: pos      4 /      2 =   2.00000000  (diff from phi: +0.38196601)
+    k= 6: pos      7 /      4 =   1.75000000  (diff from phi: +0.13196601)
+    k= 7: pos     12 /      7 =   1.71428571  (diff from phi: +0.09625173)
+    k= 8: pos     20 /     12 =   1.66666667  (diff from phi: +0.04863268)
+    k= 9: pos     33 /     20 =   1.65000000  (diff from phi: +0.03196601)
+    k=10: pos     54 /     33 =   1.63636364  (diff from phi: +0.01832965)
+    k=11: pos     88 /     54 =   1.62962963  (diff from phi: +0.01159564)
+    k=12: pos    143 /     88 =   1.62500000  (diff from phi: +0.00696601)
+    k=13: pos    232 /    143 =   1.62237762  (diff from phi: +0.00434363)
+    k=14: pos    376 /    232 =   1.62068966  (diff from phi: +0.00265567)
+    k=15: pos    609 /    376 =   1.61968085  (diff from phi: +0.00164686)
+    last ratio = 1.6196808511,  phi = 1.6180339887
+
+  Start pos 2:
+    k= 4: pos      4 /      2 =   2.00000000  (diff from phi: +0.38196601)
+    k= 5: pos      7 /      4 =   1.75000000  (diff from phi: +0.13196601)
+    k= 6: pos     12 /      7 =   1.71428571  (diff from phi: +0.09625173)
+    k= 7: pos     20 /     12 =   1.66666667  (diff from phi: +0.04863268)
+    k= 8: pos     33 /     20 =   1.65000000  (diff from phi: +0.03196601)
+    k= 9: pos     54 /     33 =   1.63636364  (diff from phi: +0.01832965)
+    k=10: pos     88 /     54 =   1.62962963  (diff from phi: +0.01159564)
+    k=11: pos    143 /     88 =   1.62500000  (diff from phi: +0.00696601)
+    k=12: pos    232 /    143 =   1.62237762  (diff from phi: +0.00434363)
+    k=13: pos    376 /    232 =   1.62068966  (diff from phi: +0.00265567)
+    k=14: pos    609 /    376 =   1.61968085  (diff from phi: +0.00164686)
+    k=15: pos    986 /    609 =   1.61904762  (diff from phi: +0.00101363)
+    last ratio = 1.6190476190,  phi = 1.6180339887
+
+  Start pos 3:
+    k= 4: pos      6 /      3 =   2.00000000  (diff from phi: +0.38196601)
+    k= 5: pos     10 /      6 =   1.66666667  (diff from phi: +0.04863268)
+    k= 6: pos     17 /     10 =   1.70000000  (diff from phi: +0.08196601)
+    k= 7: pos     28 /     17 =   1.64705882  (diff from phi: +0.02902483)
+    k= 8: pos     46 /     28 =   1.64285714  (diff from phi: +0.02482315)
+    k= 9: pos     75 /     46 =   1.63043478  (diff from phi: +0.01240079)
+    k=10: pos    122 /     75 =   1.62666667  (diff from phi: +0.00863268)
+    k=11: pos    198 /    122 =   1.62295082  (diff from phi: +0.00491683)
+    k=12: pos    321 /    198 =   1.62121212  (diff from phi: +0.00317813)
+    k=13: pos    520 /    321 =   1.61993769  (diff from phi: +0.00190371)
+    k=14: pos    842 /    520 =   1.61923077  (diff from phi: +0.00119678)
+    k=15: pos   1363 /    842 =   1.61876485  (diff from phi: +0.00073086)
+    last ratio = 1.6187648456,  phi = 1.6180339887
+
+  Start pos 4:
+    k= 4: pos      7 /      4 =   1.75000000  (diff from phi: +0.13196601)
+    k= 5: pos     12 /      7 =   1.71428571  (diff from phi: +0.09625173)
+    k= 6: pos     20 /     12 =   1.66666667  (diff from phi: +0.04863268)
+    k= 7: pos     33 /     20 =   1.65000000  (diff from phi: +0.03196601)
+    k= 8: pos     54 /     33 =   1.63636364  (diff from phi: +0.01832965)
+    k= 9: pos     88 /     54 =   1.62962963  (diff from phi: +0.01159564)
+    k=10: pos    143 /     88 =   1.62500000  (diff from phi: +0.00696601)
+    k=11: pos    232 /    143 =   1.62237762  (diff from phi: +0.00434363)
+    k=12: pos    376 /    232 =   1.62068966  (diff from phi: +0.00265567)
+    k=13: pos    609 /    376 =   1.61968085  (diff from phi: +0.00164686)
+    k=14: pos    986 /    609 =   1.61904762  (diff from phi: +0.00101363)
+    k=15: pos   1596 /    986 =   1.61866126  (diff from phi: +0.00062727)
+    last ratio = 1.6186612576,  phi = 1.6180339887
+
+========================================================================
+SECTION 6 -- Normalized positions  n_k / len(F_k)
+========================================================================
+
+--- PARENT-tracking ---
+
+  Start pos 0:
+    k= 3:      0 /      5 = 0.0000000000
+    k= 4:      0 /      8 = 0.0000000000
+    k= 5:      0 /     13 = 0.0000000000
+    k= 6:      0 /     21 = 0.0000000000
+    k= 7:      0 /     34 = 0.0000000000
+    k= 8:      0 /     55 = 0.0000000000
+    k= 9:      0 /     89 = 0.0000000000
+    k=10:      0 /    144 = 0.0000000000
+    k=11:      0 /    233 = 0.0000000000
+    k=12:      0 /    377 = 0.0000000000
+    k=13:      0 /    610 = 0.0000000000
+    k=14:      0 /    987 = 0.0000000000
+    k=15:      0 /   1597 = 0.0000000000
+    converges toward: 0.0000000000
+
+  Start pos 1:
+    k= 3:      1 /      5 = 0.2000000000
+    k= 4:      2 /      8 = 0.2500000000
+    k= 5:      3 /     13 = 0.2307692308
+    k= 6:      5 /     21 = 0.2380952381
+    k= 7:      8 /     34 = 0.2352941176
+    k= 8:     13 /     55 = 0.2363636364
+    k= 9:     21 /     89 = 0.2359550562
+    k=10:     34 /    144 = 0.2361111111
+    k=11:     55 /    233 = 0.2360515021
+    k=12:     89 /    377 = 0.2360742706
+    k=13:    144 /    610 = 0.2360655738
+    k=14:    233 /    987 = 0.2360688956
+    k=15:    377 /   1597 = 0.2360676268
+    converges toward: 0.2360676268
+
+  Start pos 2:
+    k= 3:      2 /      5 = 0.4000000000
+    k= 4:      3 /      8 = 0.3750000000
+    k= 5:      5 /     13 = 0.3846153846
+    k= 6:      8 /     21 = 0.3809523810
+    k= 7:     13 /     34 = 0.3823529412
+    k= 8:     21 /     55 = 0.3818181818
+    k= 9:     34 /     89 = 0.3820224719
+    k=10:     55 /    144 = 0.3819444444
+    k=11:     89 /    233 = 0.3819742489
+    k=12:    144 /    377 = 0.3819628647
+    k=13:    233 /    610 = 0.3819672131
+    k=14:    377 /    987 = 0.3819655522
+    k=15:    610 /   1597 = 0.3819661866
+    converges toward: 0.3819661866
+
+  Start pos 3:
+    k= 3:      3 /      5 = 0.6000000000
+    k= 4:      5 /      8 = 0.6250000000
+    k= 5:      8 /     13 = 0.6153846154
+    k= 6:     13 /     21 = 0.6190476190
+    k= 7:     21 /     34 = 0.6176470588
+    k= 8:     34 /     55 = 0.6181818182
+    k= 9:     55 /     89 = 0.6179775281
+    k=10:     89 /    144 = 0.6180555556
+    k=11:    144 /    233 = 0.6180257511
+    k=12:    233 /    377 = 0.6180371353
+    k=13:    377 /    610 = 0.6180327869
+    k=14:    610 /    987 = 0.6180344478
+    k=15:    987 /   1597 = 0.6180338134
+    converges toward: 0.6180338134
+
+  Start pos 4:
+    k= 3:      4 /      5 = 0.8000000000
+    k= 4:      7 /      8 = 0.8750000000
+    k= 5:     11 /     13 = 0.8461538462
+    k= 6:     18 /     21 = 0.8571428571
+    k= 7:     29 /     34 = 0.8529411765
+    k= 8:     47 /     55 = 0.8545454545
+    k= 9:     76 /     89 = 0.8539325843
+    k=10:    123 /    144 = 0.8541666667
+    k=11:    199 /    233 = 0.8540772532
+    k=12:    322 /    377 = 0.8541114058
+    k=13:    521 /    610 = 0.8540983607
+    k=14:    843 /    987 = 0.8541033435
+    k=15:   1364 /   1597 = 0.8541014402
+    converges toward: 0.8541014402
+
+--- CHILD-tracking ---
+
+  Start pos 0:
+    k= 3:      0 /      5 = 0.0000000000
+    k= 4:      1 /      8 = 0.1250000000
+    k= 5:      2 /     13 = 0.1538461538
+    k= 6:      4 /     21 = 0.1904761905
+    k= 7:      7 /     34 = 0.2058823529
+    k= 8:     12 /     55 = 0.2181818182
+    k= 9:     20 /     89 = 0.2247191011
+    k=10:     33 /    144 = 0.2291666667
+    k=11:     54 /    233 = 0.2317596567
+    k=12:     88 /    377 = 0.2334217507
+    k=13:    143 /    610 = 0.2344262295
+    k=14:    232 /    987 = 0.2350557244
+    k=15:    376 /   1597 = 0.2354414527
+    converges toward: 0.2354414527
+
+  Start pos 1:
+    k= 3:      1 /      5 = 0.2000000000
+    k= 4:      2 /      8 = 0.2500000000
+    k= 5:      4 /     13 = 0.3076923077
+    k= 6:      7 /     21 = 0.3333333333
+    k= 7:     12 /     34 = 0.3529411765
+    k= 8:     20 /     55 = 0.3636363636
+    k= 9:     33 /     89 = 0.3707865169
+    k=10:     54 /    144 = 0.3750000000
+    k=11:     88 /    233 = 0.3776824034
+    k=12:    143 /    377 = 0.3793103448
+    k=13:    232 /    610 = 0.3803278689
+    k=14:    376 /    987 = 0.3809523810
+    k=15:    609 /   1597 = 0.3813400125
+    converges toward: 0.3813400125
+
+  Start pos 2:
+    k= 3:      2 /      5 = 0.4000000000
+    k= 4:      4 /      8 = 0.5000000000
+    k= 5:      7 /     13 = 0.5384615385
+    k= 6:     12 /     21 = 0.5714285714
+    k= 7:     20 /     34 = 0.5882352941
+    k= 8:     33 /     55 = 0.6000000000
+    k= 9:     54 /     89 = 0.6067415730
+    k=10:     88 /    144 = 0.6111111111
+    k=11:    143 /    233 = 0.6137339056
+    k=12:    232 /    377 = 0.6153846154
+    k=13:    376 /    610 = 0.6163934426
+    k=14:    609 /    987 = 0.6170212766
+    k=15:    986 /   1597 = 0.6174076393
+    converges toward: 0.6174076393
+
+  Start pos 3:
+    k= 3:      3 /      5 = 0.6000000000
+    k= 4:      6 /      8 = 0.7500000000
+    k= 5:     10 /     13 = 0.7692307692
+    k= 6:     17 /     21 = 0.8095238095
+    k= 7:     28 /     34 = 0.8235294118
+    k= 8:     46 /     55 = 0.8363636364
+    k= 9:     75 /     89 = 0.8426966292
+    k=10:    122 /    144 = 0.8472222222
+    k=11:    198 /    233 = 0.8497854077
+    k=12:    321 /    377 = 0.8514588859
+    k=13:    520 /    610 = 0.8524590164
+    k=14:    842 /    987 = 0.8530901722
+    k=15:   1363 /   1597 = 0.8534752661
+    converges toward: 0.8534752661
+
+  Start pos 4:
+    k= 3:      4 /      5 = 0.8000000000
+    k= 4:      7 /      8 = 0.8750000000
+    k= 5:     12 /     13 = 0.9230769231
+    k= 6:     20 /     21 = 0.9523809524
+    k= 7:     33 /     34 = 0.9705882353
+    k= 8:     54 /     55 = 0.9818181818
+    k= 9:     88 /     89 = 0.9887640449
+    k=10:    143 /    144 = 0.9930555556
+    k=11:    232 /    233 = 0.9957081545
+    k=12:    376 /    377 = 0.9973474801
+    k=13:    609 /    610 = 0.9983606557
+    k=14:    986 /    987 = 0.9989868288
+    k=15:   1596 /   1597 = 0.9993738259
+    converges toward: 0.9993738259
+
+========================================================================
+SECTION 7 -- THE CRITICAL REVERSAL TEST
+========================================================================
+
+--- 7a: Full conjugation test ---
+  sigma_mirror(a)=ba, sigma_mirror(b)=a
+  Test: parent-tracking under sigma_mirror == child-tracking under sigma?
+        child-tracking under sigma_mirror == parent-tracking under sigma?
+
+  Algebraic check: sigma_mirror(w) vs R(sigma(R(w)))
+    w=a           sigma_mirror(w)=ba               R(sigma(R(w)))=ba               OK
+    w=b           sigma_mirror(w)=a                R(sigma(R(w)))=a                OK
+    w=ab          sigma_mirror(w)=baa              R(sigma(R(w)))=baa              OK
+    w=aba         sigma_mirror(w)=baaba            R(sigma(R(w)))=baaba            OK
+    w=abaab       sigma_mirror(w)=baababaa         R(sigma(R(w)))=baababaa         OK
+
+  Position-by-position reversal test:
+
+  k=3, F_k has length 5:
+    i=   0  p_sigma=    0  c_sigma=    1  p_mirror=    1  c_mirror=    0  p==c_m:True  c==p_m:True
+    i=   2  p_sigma=    3  c_sigma=    4  p_mirror=    4  c_mirror=    3  p==c_m:True  c==p_m:True
+    i=   3  p_sigma=    5  c_sigma=    6  p_mirror=    6  c_mirror=    5  p==c_m:True  c==p_m:True
+    Total 'a' positions: 3
+    parent_sigma == child_mirror mismatches:  0
+    child_sigma  == parent_mirror mismatches: 0
+    *** PERFECT SWAP: reversal exactly exchanges parent <-> child ***
+
+  k=4, F_k has length 8:
+    i=   0  p_sigma=    0  c_sigma=    1  p_mirror=    1  c_mirror=    0  p==c_m:True  c==p_m:True
+    i=   2  p_sigma=    3  c_sigma=    4  p_mirror=    4  c_mirror=    3  p==c_m:True  c==p_m:True
+    i=   3  p_sigma=    5  c_sigma=    6  p_mirror=    6  c_mirror=    5  p==c_m:True  c==p_m:True
+    i=   5  p_sigma=    8  c_sigma=    9  p_mirror=    9  c_mirror=    8  p==c_m:True  c==p_m:True
+    i=   7  p_sigma=   11  c_sigma=   12  p_mirror=   12  c_mirror=   11  p==c_m:True  c==p_m:True
+    Total 'a' positions: 5
+    parent_sigma == child_mirror mismatches:  0
+    child_sigma  == parent_mirror mismatches: 0
+    *** PERFECT SWAP: reversal exactly exchanges parent <-> child ***
+
+  k=5, F_k has length 13:
+    i=   0  p_sigma=    0  c_sigma=    1  p_mirror=    1  c_mirror=    0  p==c_m:True  c==p_m:True
+    i=   2  p_sigma=    3  c_sigma=    4  p_mirror=    4  c_mirror=    3  p==c_m:True  c==p_m:True
+    i=   3  p_sigma=    5  c_sigma=    6  p_mirror=    6  c_mirror=    5  p==c_m:True  c==p_m:True
+    Total 'a' positions: 8
+    parent_sigma == child_mirror mismatches:  0
+    child_sigma  == parent_mirror mismatches: 0
+    *** PERFECT SWAP: reversal exactly exchanges parent <-> child ***
+
+  k=6, F_k has length 21:
+    i=   0  p_sigma=    0  c_sigma=    1  p_mirror=    1  c_mirror=    0  p==c_m:True  c==p_m:True
+    i=   2  p_sigma=    3  c_sigma=    4  p_mirror=    4  c_mirror=    3  p==c_m:True  c==p_m:True
+    i=   3  p_sigma=    5  c_sigma=    6  p_mirror=    6  c_mirror=    5  p==c_m:True  c==p_m:True
+    Total 'a' positions: 13
+    parent_sigma == child_mirror mismatches:  0
+    child_sigma  == parent_mirror mismatches: 0
+    *** PERFECT SWAP: reversal exactly exchanges parent <-> child ***
+
+  k=7, F_k has length 34:
+    i=   0  p_sigma=    0  c_sigma=    1  p_mirror=    1  c_mirror=    0  p==c_m:True  c==p_m:True
+    i=   2  p_sigma=    3  c_sigma=    4  p_mirror=    4  c_mirror=    3  p==c_m:True  c==p_m:True
+    i=   3  p_sigma=    5  c_sigma=    6  p_mirror=    6  c_mirror=    5  p==c_m:True  c==p_m:True
+    Total 'a' positions: 21
+    parent_sigma == child_mirror mismatches:  0
+    child_sigma  == parent_mirror mismatches: 0
+    *** PERFECT SWAP: reversal exactly exchanges parent <-> child ***
+
+  k=8, F_k has length 55:
+    i=   0  p_sigma=    0  c_sigma=    1  p_mirror=    1  c_mirror=    0  p==c_m:True  c==p_m:True
+    i=   2  p_sigma=    3  c_sigma=    4  p_mirror=    4  c_mirror=    3  p==c_m:True  c==p_m:True
+    i=   3  p_sigma=    5  c_sigma=    6  p_mirror=    6  c_mirror=    5  p==c_m:True  c==p_m:True
+    Total 'a' positions: 34
+    parent_sigma == child_mirror mismatches:  0
+    child_sigma  == parent_mirror mismatches: 0
+    *** PERFECT SWAP: reversal exactly exchanges parent <-> child ***
+
+--- 7b: Multi-step trajectory test ---
+  Does a full parent-trajectory under sigma equal full child-trajectory under sigma_mirror?
+
+  Start pos 0:
+    parent(sigma) positions:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    child(sigma_mirror) positions: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    MATCH: True
+    child(sigma) positions:        [0, 1, 2, 4, 7, 12, 20, 33, 54, 88, 143, 232, 376]
+    parent(sigma_mirror) positions:[0, 1, 2, 4, 7, 12, 20, 33, 54, 88, 143, 232, 376]
+    MATCH: True
+
+  Start pos 1:
+    parent(sigma) positions:       [1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377]
+    child(sigma_mirror) positions: [1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377]
+    MATCH: True
+    child(sigma) positions:        [1, 2, 4, 7, 12, 20, 33, 54, 88, 143, 232, 376, 609]
+    parent(sigma_mirror) positions:[1, 2, 4, 7, 12, 20, 33, 54, 88, 143, 232, 376, 609]
+    MATCH: True
+
+  Start pos 2:
+    parent(sigma) positions:       [2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
+    child(sigma_mirror) positions: [2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
+    MATCH: True
+    child(sigma) positions:        [2, 4, 7, 12, 20, 33, 54, 88, 143, 232, 376, 609, 986]
+    parent(sigma_mirror) positions:[2, 4, 7, 12, 20, 33, 54, 88, 143, 232, 376, 609, 986]
+    MATCH: True
+
+  Start pos 3:
+    parent(sigma) positions:       [3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
+    child(sigma_mirror) positions: [3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
+    MATCH: True
+    child(sigma) positions:        [3, 6, 10, 17, 28, 46, 75, 122, 198, 321, 520, 842, 1363]
+    parent(sigma_mirror) positions:[3, 6, 10, 17, 28, 46, 75, 122, 198, 321, 520, 842, 1363]
+    MATCH: True
+
+  Start pos 4:
+    parent(sigma) positions:       [4, 7, 11, 18, 29, 47, 76, 123, 199, 322, 521, 843, 1364]
+    child(sigma_mirror) positions: [4, 7, 11, 18, 29, 47, 76, 123, 199, 322, 521, 843, 1364]
+    MATCH: True
+    child(sigma) positions:        [4, 7, 12, 20, 33, 54, 88, 143, 232, 376, 609, 986, 1596]
+    parent(sigma_mirror) positions:[4, 7, 12, 20, 33, 54, 88, 143, 232, 376, 609, 986, 1596]
+    MATCH: True
+
+========================================================================
+SECTION 8 -- Letter-visit patterns (start pos 0 in F_3)
+========================================================================
+
+  PARENT-tracking from pos 0:
+    Letter sequence: a a a a a a a a a a a a a
+    a-count: 13/13 = 1.000000
+    b-count: 0/13 = 0.000000
+    Expected d(a) = 1/phi = 0.618034
+
+  CHILD-tracking from pos 0:
+    Letter sequence: a b a b a b a b a b a b a
+    a-count: 7/13 = 0.538462
+    b-count: 6/13 = 0.461538
+    Expected d(a) = 1/phi = 0.618034
+
+========================================================================
+SECTION 9 -- Choice patterns
+========================================================================
+  At each step, record: letter at current position, and which way we went.
+  'P' = parent chosen, 'C' = child chosen, '.' = no choice (letter was b)
+
+  PARENT-tracking:
+    Start 0: PPPPPPPPPPPP  (choices at 'a': 12, forced at 'b': 0)
+    Start 1: .PPPPPPPPPPP  (choices at 'a': 11, forced at 'b': 1)
+    Start 2: PPPPPPPPPPPP  (choices at 'a': 12, forced at 'b': 0)
+    Start 3: PPPPPPPPPPPP  (choices at 'a': 12, forced at 'b': 0)
+    Start 4: .PPPPPPPPPPP  (choices at 'a': 11, forced at 'b': 1)
+
+  CHILD-tracking:
+    Start 0: C.C.C.C.C.C.  (choices at 'a': 6, forced at 'b': 6)
+    Start 1: .C.C.C.C.C.C  (choices at 'a': 6, forced at 'b': 6)
+    Start 2: C.C.C.C.C.C.  (choices at 'a': 6, forced at 'b': 6)
+    Start 3: C.C.C.C.C.C.  (choices at 'a': 6, forced at 'b': 6)
+    Start 4: .C.C.C.C.C.C  (choices at 'a': 6, forced at 'b': 6)
+
+========================================================================
+SECTION 10 -- A vs B density along trajectories
+========================================================================
+  Global density: d(a) = 1/phi = 0.6180339887
+                  d(b) = 1/phi^2 = 0.3819660113
+
+  PARENT-tracking:
+    Start 0: a=13/13=1.000000  b=0/13=0.000000  (dev from global: +0.381966)
+    Start 1: a=12/13=0.923077  b=1/13=0.076923  (dev from global: +0.305043)
+    Start 2: a=13/13=1.000000  b=0/13=0.000000  (dev from global: +0.381966)
+    Start 3: a=13/13=1.000000  b=0/13=0.000000  (dev from global: +0.381966)
+    Start 4: a=12/13=0.923077  b=1/13=0.076923  (dev from global: +0.305043)
+
+  CHILD-tracking:
+    Start 0: a=7/13=0.538462  b=6/13=0.461538  (dev from global: -0.079572)
+    Start 1: a=6/13=0.461538  b=7/13=0.538462  (dev from global: -0.156496)
+    Start 2: a=7/13=0.538462  b=6/13=0.461538  (dev from global: -0.079572)
+    Start 3: a=7/13=0.538462  b=6/13=0.461538  (dev from global: -0.079572)
+    Start 4: a=6/13=0.461538  b=7/13=0.538462  (dev from global: -0.156496)
+
+========================================================================
+SUMMARY
+========================================================================
+  phi = 1.6180339887
+  1/phi = 0.6180339887
+  Fibonacci word lengths: [1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765]
+
+  Position ratio convergence (last 3 steps, start pos 0):
+    CHILD k=13: 1.6250000000
+    CHILD k=14: 1.6223776224
+    CHILD k=15: 1.6206896552
+
+  Normalized position convergence (last step, all starts):
+    PARENT start=0: n/L = 0.0000000000
+    PARENT start=1: n/L = 0.2360676268
+    PARENT start=2: n/L = 0.3819661866
+    PARENT start=3: n/L = 0.6180338134
+    PARENT start=4: n/L = 0.8541014402
+    CHILD start=0: n/L = 0.2354414527
+    CHILD start=1: n/L = 0.3813400125
+    CHILD start=2: n/L = 0.6174076393
+    CHILD start=3: n/L = 0.8534752661
+    CHILD start=4: n/L = 0.9993738259

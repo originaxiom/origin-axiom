@@ -1,0 +1,331 @@
+A2 -- EXPLICIT CONSTRUCTION OF THE CLOSING TORSOR F_2^3 = <c, theta, gamma_5>
+
+Assembled from: B766 (flip-table), B780 (S1/S2/S3 discriminators), B769 (T1
+structure / SL(3) 8-space), B759 (theta-coupling sqrt(3), fraction 15/32),
+B711 (two orthogonal Z/2's), B712 (total non-canonicity), K021 (founding
+identity), B749 (genesis forks F8).
+
+Gate 5-Q; structural only; nothing to CLAIMS.
+
+========================================================================
+1.  THE 8 ELEMENTS OF F_2^3
+========================================================================
+
+Each element is a triple (c_bit, theta_bit, gamma5_bit) in {0,1}^3,
+where 0 = identity action, 1 = involution applied.
+
+  index | (c, theta, gamma5) | element name           | flip-vector on (T4,T6,T7,T3)
+  ------|--------------------|-----------------------|------------------------------
+    0   |   (0, 0, 0)        | identity  e           | flips nothing
+    1   |   (1, 0, 0)        | c  (conjugation)      | flips T4, T6
+    2   |   (0, 1, 0)        | theta  (reversal)     | flips T6
+    3   |   (0, 0, 1)        | gamma_5  (golden)     | flips T7, T3
+    4   |   (1, 1, 0)        | c*theta               | flips T4  (= T6 xor T6 cancel; T4 survives)
+    5   |   (1, 0, 1)        | c*gamma_5             | flips T4, T6, T7, T3
+    6   |   (0, 1, 1)        | theta*gamma_5         | flips T6, T7, T3
+    7   |   (1, 1, 1)        | c*theta*gamma_5       | flips T4, T7, T3
+
+The group law is componentwise addition mod 2 (abelian).
+
+NOTE: gamma_3 (the being-Galois, sqrt(-3) -> -sqrt(-3) on disc) is
+IDENTICALLY c on every axis (B766: identical columns). It drops as a
+generator. The Galois involution of Q(sqrt(-3)) IS complex conjugation
+on the closing axes -- this is field-theoretic (CM-field theorem), not
+an axis coincidence (B766 audit addendum).
+
+========================================================================
+2.  THE FLIP-TABLE  (from B766, re-derived)
+========================================================================
+
+The five discrete T-class axes and the action of each generator:
+
+  axis  |  c (conjugation)  |  theta (reversal)  |  gamma_5 (golden)
+  ------|-------------------|--------------------|-------------------
+  T3    |      FIXED        |      FIXED         |     FLIPPED
+  T4    |     FLIPPED       |      FIXED         |      FIXED
+  T6    |     FLIPPED       |     FLIPPED        |      FIXED
+  T7    |      FIXED        |      FIXED         |     FLIPPED
+  T1    |      FIXED        |      FIXED         |      FIXED
+
+Flip-vectors over F_2:
+
+  c      = (0, 1, 1, 0)   in the basis (T3, T4, T6, T7)
+  theta  = (0, 0, 1, 0)
+  gamma_5= (1, 0, 0, 1)
+
+Relations read off:
+  (R1)  T7 = T3:  time direction and basepoint bit carry the SAME
+        flip-vector (0,0,0,1) -- both are the gamma_5 branch.
+        Choosing time's arrow = choosing sqrt(5)'s sign = choosing
+        the Out(A_5) side (5A vs 5B Frobenius swap, B701).
+
+  (R2)  T6 = T4 + theta:  the chord's sign is the XOR of the
+        conjugation and reversal choices.  (1,1,0) = (1,0,0) + (0,1,0)
+        over F_2.  The chord is NOT an independent bit.
+
+  (R3)  T1 is UNMOVED by all of {c, theta, gamma_5} -- B769's theorem:
+        the closing group is abelian, so its conjugation action on
+        V_4 = <c, theta> is trivial.  T1's structure is a 3-frame
+        torsor (the choice of which pair in {c, theta, c*theta}
+        generates V_4), with mover in Aut(V_4) = S_3 -- external to
+        the abelian closing set.
+
+Independent generators: exactly (c, theta, gamma_5).  Rank = 3.
+This EQUALS B733's menu rank (F_2, rank <= 3, saturated).  The
+observer's discrete menu is PRECISELY the full discrete closing set.
+
+========================================================================
+3.  ACTIONS ON SL(2) TRACE COORDINATES
+========================================================================
+
+The geometric point of the figure-eight knot complement m004 on the
+SL(2,C) character variety:
+
+  (x, y, z) = (tr A, tr B, tr AB) = (2, (3+sqrt(-3))/2, (3+sqrt(-3))/2)
+
+where A, B are the Riley generators and u = (-1+i*sqrt(3))/2 = omega
+is the Riley parameter (root of u^2 + u + 1 = 0).
+
+--- c (complex conjugation, sqrt(-3) -> -sqrt(-3)) ---
+
+Acts coordinate-wise:
+  (2, (3+sqrt(-3))/2, (3+sqrt(-3))/2)  -->  (2, (3-sqrt(-3))/2, (3-sqrt(-3))/2)
+
+This SWAPS the two geometric points (rho_geom and rho_bar_geom).
+The action is NON-TRIVIAL at SL(2).  The two points are a FREE
+2-orbit inside Fix(amphichirality) (B711).
+
+--- theta (word reversal, A -> A, B -> B, AB -> BA) ---
+
+At SL(2): tr(AB) = tr(BA) ALWAYS (trace is cyclically invariant).
+So theta acts TRIVIALLY on the SL(2) trace triple.
+
+At SL(3) = Sym^2:  NON-TRIVIAL.  The 8-coordinate SL(3) trace space
+(B769) carries the permutation
+
+    theta : (1 4)(2 5)(3 8)(6 7)
+
+an involution with 4 transpositions, no fixed points on its support.
+At the geometric point, the theta-odd coordinates VANISH IDENTICALLY
+(x1=x4, x2=x5, x3=x8, x6=x7, exactly in Q(sqrt(-3))) -- the
+geometric point is theta-FIXED as a point.  The non-triviality lives
+in the tangent space: the Sym^2 Jacobian has off-block (theta-odd)
+norm sqrt(3) (B759), with coupling fraction 15/32 of total Jacobian
+energy.
+
+--- gamma_5 (golden conjugation, sqrt(5) -> -sqrt(5)) ---
+
+At the geometric point, the traces live in Q(sqrt(-3)), NOT in
+Q(sqrt(5)).  So gamma_5 acts TRIVIALLY at the geometric point.
+
+gamma_5 acts NON-TRIVIALLY on:
+  - the A-polynomial deformation parameters where sqrt(5) appears
+  - the monodromy eigenvalues (phi^2, phi^{-2}) where (1-phi)^2 = phi^{-2}
+    exactly -- the eigenvalue inversion IS the Galois action (B766)
+  - the K-theory class K_0 = Z[phi] (Effros-Shen, B749 F8)
+
+========================================================================
+4.  THE RANK-ONSET DISCRIMINATOR  (S1 from B780)
+========================================================================
+
+The S1 signature separates c from theta by where each first becomes
+non-trivial in the trace-representation tower:
+
+  Signature   |  c (Galois)                    |  theta (reversal)
+  ------------|--------------------------------|---------------------------
+  S1 onset    |  non-trivial at SL(2)          |  trivial at SL(2),
+              |  (conj swaps geometric pts)    |  non-trivial at SL(3)
+  S2 type     |  DIAGONAL (coord-wise conj)    |  PERMUTATION (word rev
+              |                                |  exchanges coordinates)
+  S3 solo     |  has solo axis: T4 (chirality  |  NO solo axis (appears
+              |  alone, without theta)         |  only in T6 = T4 + theta)
+
+These three signatures form a GATE (B780): any candidate involution
+can be classified as c-type or theta-type.  The gate HALVES the
+correspondence enumeration (8 -> 4 families).
+
+The critical structural fact: theta's non-triviality EMERGES at
+SL(3) = Sym^2, exactly where:
+  - B753's theta-split operates (SU(3)_2 = quantum SL(3) level 2)
+  - the two-column law (B746) first manifests
+  - the off-block coupling norm sqrt(3) appears (B759)
+
+========================================================================
+5.  CONNECTION TO THE FOUNDING IDENTITY  (K021)
+========================================================================
+
+From K021: the two simplest length-2 words in R, L (generators of
+SL(2,Z)) are the two ends:
+
+  PRODUCT:   RL = [[2,1],[1,1]]   trace 3, disc 5,  field Q(sqrt(5))
+  RATIO:  -RL^{-1} = g = [[0,-1],[1,-1]]  trace -1, disc -3, field Q(sqrt(-3))
+
+  RL   -->  the golden/hearing end  -->  2I  -->  E_8  (monodromy/ambient)
+  g    -->  the Eisenstein/being end -->  2T  -->  E_6  (gauge + generations)
+
+From B749 F8: the combinatorial carrier (substitution + K-theory)
+sees ONLY Q(sqrt(5)).  The field Q(sqrt(-3)) is BORN at hyperbolization
+(axiom A5: "geometry buys being").
+
+This determines the VISIBILITY of each generator at the word level
+(before geometry):
+
+  generator  |  visible at word level?  |  reason
+  -----------|-------------------------|----------------------------------
+  gamma_5    |  YES                     |  acts on Q(sqrt(5)) content;
+             |                          |  K_0 = Z[phi], the combinatorial
+             |                          |  carrier already has sqrt(5)
+  c          |  NO                      |  Q(sqrt(-3)) does not exist at
+             |                          |  the word level; it is born at
+             |                          |  hyperbolization (A5)
+  theta      |  AMBIGUOUS               |  word reversal is a spatial
+             |                          |  operation on the substitution;
+             |                          |  trivial at SL(2), non-trivial
+             |                          |  at SL(3) -- its full content
+             |                          |  requires geometry
+
+The ONSET ORDER of the three generators:
+
+  (i)   gamma_5 is present at the combinatorial level (pre-geometry)
+  (ii)  theta exists as a word operation pre-geometry but its
+        non-trivial ACTION requires geometry (SL(3))
+  (iii) c requires geometry (the field Q(sqrt(-3)) is geometric)
+
+This gives a filtration:  gamma_5  <  theta  <  c
+(combinatorial)  (spatial/word)  (geometric/field)
+
+========================================================================
+6.  THE TWO Z/2's AND TOTAL NON-CANONICITY  (B711, B712)
+========================================================================
+
+From B711: on the SL(2,C) character variety X(4_1), amphichirality
+and the Q(sqrt(-3)) Galois involution are two DISTINCT, COMMUTING
+Z/2's acting ORTHOGONALLY at the geometric point.  They form a
+V_4 = Z/2 x Z/2.
+
+  V_4 = {id, c, tau, j_2}
+
+where:
+  - c = complex conjugation (sqrt(-3) -> -sqrt(-3))
+  - tau = amphichirality (conjugation composed with j_2)
+  - j_2 = the holomorphic curve-involution
+
+The geometric points rho_geom and rho_bar_geom BOTH lie in
+Fix(amphichirality), and Galois c SWAPS them -- a FREE 2-orbit
+inside Fix(tau).
+
+The golden point (sqrt(5), 2) is the Galois-FIXED real end on the
+amphichiral slice.  So: the being field Q(sqrt(-3)) is Galois-SWAPPED
+while the hearing field Q(sqrt(5)) is Galois-FIXED and real.
+
+From B712: the object's A-polynomial deformation curve carries NO
+canonical non-degenerate real anchor.  The canonical (complete-structure)
+point has cusp shape tau = 2*sqrt(-3) in Q(sqrt(-3)) -- imaginary
+quadratic, no real embedding.  Non-canonicity is TOTAL (discrete B706
++ continuous B712).
+
+========================================================================
+7.  THE THETA-COUPLING AT SL(3)  (B759)
+========================================================================
+
+At the discrete faithful representation, the theta-odd and theta-even
+sectors of the Sym^2 trace map's Jacobian COUPLE:
+
+  Level   |  off-block norm  |  status
+  --------|-----------------|-------------------
+  SL(2)   |  0              |  DISSOCIATED
+  SL(3)   |  sqrt(3)        |  INTEGRATED
+  Adjoint |  3*sqrt(2)/2    |  INTEGRATED
+
+The coupling fraction at SL(3): 15/32 (approximately 46.9%) of the
+total Jacobian energy is in the off-block (theta-odd) sector.
+
+The discriminant law: the single-trace off-block norm is
+
+  |Im(d tr(Sym^2(AB))/du)| = sqrt(|disc(K)|)
+
+where K = Q(sqrt(-3)) is the trace field.  For the figure-eight knot:
+disc = -3, coupling = sqrt(3).  This is a TRACE-FIELD INVARIANT.
+
+The commutator [A,B] has a PURELY IMAGINARY Sym^2 derivative (4i*sqrt(3))
+-- its Sym^2 trace moves entirely in the theta-odd direction.
+
+========================================================================
+8.  THE T1 STRUCTURE  (B769)
+========================================================================
+
+T1 is the axis measuring the c/theta pairing.  Its structure:
+
+  DISCRETE PART: a genuine 3-element torsor.  The three V_4-frames
+  (which pair of {c, theta, c*theta} generates V_4) are permuted by
+  S_3.  The object-native operations realize ONLY the identity on
+  this torsor (the closing group is abelian -> trivial conjugation
+  on V_4).  The frame choice is UNBROKEN.
+
+  CONTINUOUS PART: DIES at the geometric point.  On the 8-coordinate
+  SL(3) trace space:
+  - the theta-odd coordinates VANISH IDENTICALLY at the geometric
+    point (x1=x4, x2=x5, x3=x8, x6=x7 exactly in Q(sqrt(-3)))
+  - on the tangent plane (u-derivative at omega), the theta-frame
+    lies EXACTLY along the c-frame: relative angle = 0
+  - this alignment IS the mechanism behind T6 = T4 + theta
+    (both involutions negate the same tangent line)
+
+  The continuous modulus is GAUGE-FIXED at the geometric point.
+  T1's genuine content is TRIADIC-DISCRETE (a 3-valued choice).
+
+========================================================================
+9.  THE TORSOR'S STRUCTURAL SUMMARY
+========================================================================
+
+The closing torsor F_2^3 = <c, theta, gamma_5> has:
+
+  GENERATORS:          3  (c, theta, gamma_5; gamma_3 = c drops)
+  ELEMENTS:            8  (the 2^3 combinations)
+  ACTED-ON AXES:       4  (T3, T4, T6, T7; T1 unmoved)
+  INDEPENDENT AXES:    2  (T4 and T7; T6 = T4+theta, T3 = T7)
+  UNMOVED AXES:        1  (T1: a 3-torsor, mover external)
+  CONTINUOUS RESIDUE:  non-canonical (B712: total non-canonicity)
+
+The rank equation:
+  rank(closing group) = rank(discrete menu) = 3
+  This is B733's saturation: the observer's discrete choices EXHAUST
+  the object's discrete closing set.
+
+The two fields and their generators:
+  Q(sqrt(-3)):  c acts (Galois swap), born at geometry (B749 F8)
+  Q(sqrt(5)):   gamma_5 acts (golden conjugation), combinatorial (B749 F8)
+  theta:        spatial (word reversal), trivial at SL(2), non-trivial at SL(3)
+
+The key structural relationships:
+  (a) c and amphichirality are ORTHOGONAL (B711: V_4, free orbit)
+  (b) theta and c are ALIGNED at the geometric point tangent (B769)
+  (c) gamma_5 is INVISIBLE at the geometric point (traces in Q(sqrt(-3)))
+  (d) the chord T6 is COMPOSITE: T6 = T4 xor theta (not independent)
+  (e) time T7 and basepoint T3 are IDENTIFIED (same flip-vector)
+
+========================================================================
+10.  POINTER-TRACKING CORRESPONDENCE (recorded for downstream testing)
+========================================================================
+
+The pointer on the Fibonacci word has three binary choices:
+
+  (i)   Position (breaks translation symmetry -- continuous, not a
+        torsor bit; maps to the continuous residue, not the F_2^3)
+  (ii)  Reading direction (left-to-right vs right-to-left) -- binary
+  (iii) Tracking choice (parent vs child when sigma acts) -- binary
+
+The proposal to be tested downstream:
+
+  reading direction  <-->  gamma_5  (golden conjugation)
+  tracking choice    <-->  theta    (reversal)
+  level/chirality    <-->  c        (conjugation)
+
+This is RECORDED for the testing agents, NOT asserted.  The structural
+data above is what constrains any such correspondence: the flip-table,
+the rank-onset signatures, the field-visibility filtration, and the
+coupling data are the testing agents' inputs.
+
+========================================================================
+END
+========================================================================
