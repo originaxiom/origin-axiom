@@ -275,6 +275,32 @@ invisible there, the functor cannot carry B783's word-level θ result
 to the character variety. The bridge that B784 attempted to build
 does not exist at the trace level.
 
+### The mapping class is θ-insensitive and ι-insensitive
+
+**ADDENDUM (2026-07-25, chat1 task 3).** The monodromy trace
+tr(ρ(meridian)) = 2 (parabolic) is θ- and ι-insensitive at all ranks.
+The trace map T_σ = T_{σ_mirror} (θ trivial on traces). Moreover,
+ι commutes with ALL homomorphisms: φ(g⁻¹) = φ(g)⁻¹. So ι·σ = σ·ι
+on all of F₂. No trace-map dynamics can detect either θ or ι.
+
+### The Fox calculus IS the non-trace bridge
+
+**ADDENDUM (2026-07-25, chat1 task 4).** The Fox Jacobian in the group
+ring ZF₂ IS θ-sensitive:
+
+    J_σ = [[1, a], [1, 0]]         det(J_σ) = -a  in ZF₂
+    J_{σ_mirror} = [[b, 1], [1, 0]]  det(J_{σ_m}) = -1  in ZF₂
+
+DIFFERENT. Under ρ at the geometric point: the 4×4 matrices have the
+same eigenvalues (φ, −1/φ each double) but different entries. The
+difference ρ(J_σ) − ρ(J_{σ_m}) = [[I−B, A−I], [0, 0]] lives in the
+NILPOTENT (cusp) directions: I−B = ω·e₂₁, A−I = e₁₂. θ is visible
+in the cusp data that traces erase.
+
+θ-sensitivity grows with rank: rank(I − Symⁿ(A)) = n. At SL(n+1), the
+Fox bridge carries n independent cusp directions where θ acts non-trivially.
+This is the first θ-sensitive invariant connected to the geometry.
+
 ---
 
 ## ERRATUM ON K007

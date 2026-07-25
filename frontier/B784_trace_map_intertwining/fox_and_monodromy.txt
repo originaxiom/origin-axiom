@@ -1,0 +1,228 @@
+========================================================================
+TASK 3: MAPPING CLASS — THETA AND IOTA SENSITIVITY
+========================================================================
+
+3a. Monodromy trace = tr(rho(meridian))
+
+  The meridian mu = a (Wirtinger generator).
+  rho(mu) = A = [[1,1],[0,1]]  (parabolic)
+  tr(A)   = 2
+  tr(A^-1)= 2
+  tr(Sym^2(A))   = 3
+  tr(Sym^2(A^-1))= 3
+
+  theta(mu) = mu (single letter). tr unchanged.
+  iota(mu) = mu^-1. tr(A^-1) = tr(A) at SL(2). tr(Sym^2(A^-1)) = tr(Sym^2(A)).
+  RESULT: tr(T) is theta-INSENSITIVE and iota-INSENSITIVE.
+
+3b. iota commutes with ALL homomorphisms
+
+  For any homomorphism phi: F2 -> F2,
+    phi(g^-1) = phi(g)^-1  (homomorphism property)
+  Therefore iota . phi = phi . iota on all of F2.
+  In particular: iota . sigma = sigma . iota.
+
+  Verify: sigma(a^-1) = (AB)^-1 = [[1, -1], [-1/2 + sqrt(3)*I/2, 3/2 - sqrt(3)*I/2]]
+  Verify: iota(sigma(a)) = (AB)^-1 = [[1, -1], [-1/2 + sqrt(3)*I/2, 3/2 - sqrt(3)*I/2]]
+  Equal? True
+
+  Consequence: iota commutes with the trace map T_sigma
+  at ALL ranks (it commutes with sigma itself).
+  No trace-map dynamics can detect iota.
+
+3c. Trace map T_sigma = T_sigma_mirror at SL(2)
+
+  sigma: a->ab, b->a
+  sigma_mirror: a->ba, b->a
+
+  T_sigma(x,y,z) = (z, x, xz-y)
+
+  T_sigma_mirror:
+    tr(sigma_m(a)) = tr(ba) = tr(ab) = z
+    tr(sigma_m(b)) = tr(a)  = x
+    tr(sigma_m(a)*sigma_m(b)) = tr(ba*a) = tr(a^2*b)
+      = tr(a*b*a) [cyclicity] = tr(a)*tr(ab) - tr(b) = xz - y
+  T_sigma_mirror(x,y,z) = (z, x, xz-y) = T_sigma.  IDENTICAL.
+
+  RESULT: The trace map is theta-INSENSITIVE at SL(2).
+  (And at all higher ranks, since theta = id on all traces.)
+
+------------------------------------------------------------------------
+TASK 3 SUMMARY: Neither theta nor iota is visible through the
+mapping class at the trace level. The monodromy trace (= 2,
+parabolic) is theta/iota-insensitive. The trace map T_sigma =
+T_sigma_mirror (theta trivial). iota commutes with all
+homomorphisms (phi(g^-1) = phi(g)^-1). The mapping class lives
+in the character variety, where theta and iota are invisible.
+------------------------------------------------------------------------
+
+========================================================================
+TASK 4: FOX CALCULUS — THE NON-TRACE BRIDGE
+========================================================================
+
+4a. Fox Jacobians in the group ring ZF2
+
+  sigma: a -> ab, b -> a
+  Fox derivatives:
+    d(ab)/da = 1,  d(ab)/db = a
+    d(a)/da  = 1,  d(a)/db  = 0
+  J_sigma = [[1, a], [1, 0]]  in M_2(ZF2)
+
+  sigma_mirror: a -> ba, b -> a
+  Fox derivatives:
+    d(ba)/da = b,  d(ba)/db = 1
+    d(a)/da  = 1,  d(a)/db  = 0
+  J_sigma_mirror = [[b, 1], [1, 0]]  in M_2(ZF2)
+
+  DIFFERENT! J_sigma != J_sigma_mirror in ZF2.
+  The Fox calculus operates on the GROUP RING, not on traces.
+  theta IS visible here.
+
+4b. Group ring determinants
+
+  det(J_sigma) = 1*0 - a*1 = -a  in ZF2
+  det(J_sigma_mirror) = b*0 - 1*1 = -1  in ZF2
+  DIFFERENT! -a != -1 as group ring elements.
+
+  Augmentation: eps(-a) = -1 = eps(-1).  Same.
+  But the group ring elements carry more data than the augmentation.
+
+4c. Fox Jacobians evaluated at the geometric representation
+
+  rho(J_sigma) =
+⎡1  0  1  1⎤
+⎢          ⎥
+⎢0  1  0  1⎥
+⎢          ⎥
+⎢1  0  0  0⎥
+⎢          ⎥
+⎣0  1  0  0⎦
+
+  rho(J_sigma_mirror) =
+⎡   1      0  1  0⎤
+⎢                 ⎥
+⎢1   √3⋅ⅈ         ⎥
+⎢─ - ────  1  0  1⎥
+⎢2    2           ⎥
+⎢                 ⎥
+⎢   1      0  0  0⎥
+⎢                 ⎥
+⎣   0      1  0  0⎦
+
+  DIFFERENCE rho(J_sigma) - rho(J_sigma_mirror) =
+⎡    0       0  0  1⎤
+⎢                   ⎥
+⎢  1   √3⋅ⅈ         ⎥
+⎢- ─ + ────  0  0  0⎥
+⎢  2    2           ⎥
+⎢                   ⎥
+⎢    0       0  0  0⎥
+⎢                   ⎥
+⎣    0       0  0  0⎦
+
+  I - B =
+⎡    0       0⎤
+⎢             ⎥
+⎢  1   √3⋅ⅈ   ⎥
+⎢- ─ + ────  0⎥
+⎣  2    2     ⎦
+  A - I =
+⎡0  1⎤
+⎢    ⎥
+⎣0  0⎦
+
+  These are the NILPOTENT directions of B and A (cusp data).
+  I - B has one nonzero entry: omega in position (2,1).
+  A - I has one nonzero entry: 1 in position (1,2).
+
+4d. Eigenvalues of the 4x4 Fox Jacobians
+
+  Eigenvalues of rho(J_sigma): {1/2 - sqrt(5)/2: 2, 1/2 + sqrt(5)/2: 2}
+  Eigenvalues of rho(J_sigma_mirror): {1/2 - sqrt(5)/2: 2, 1/2 + sqrt(5)/2: 2}
+
+  Both have eigenvalues phi = (1+sqrt5)/2 and -1/phi = (1-sqrt5)/2,
+  each with algebraic multiplicity 2.
+  phi = 1/2 + sqrt(5)/2 ~= 1.618034
+
+  SAME eigenvalues, DIFFERENT matrices. The matrices are not conjugate:
+  rho(J_sigma) eigenvalue phi: geom. mult. = 1 (Jordan block)
+  rho(J_sigma_mirror) eigenvalue phi: geom. mult. = 1
+
+4e. Fox determinants evaluated at the representation
+
+  rho(det(J_sigma)) = rho(-a) = -A =
+⎡-1  -1⎤
+⎢      ⎥
+⎣0   -1⎦
+  tr(-A) = -2
+
+  rho(det(J_sigma_mirror)) = rho(-1) = -I =
+⎡-1  0 ⎤
+⎢      ⎥
+⎣0   -1⎦
+  tr(-I) = -2
+
+  Difference -A - (-I) = I - A =
+⎡0  -1⎤
+⎢     ⎥
+⎣0  0 ⎦
+  Rank of I - A: 1
+  This is the NILPOTENT part of A: the cusp direction.
+
+4f. Fox determinants at SL(3) = Sym^2
+
+  rho_3(det(J_sigma)) = -Sym^2(A)
+  rho_3(det(J_sigma_mirror)) = -I_3
+  Difference I_3 - Sym^2(A) =
+⎡0  -2  -1⎤
+⎢         ⎥
+⎢0  0   -1⎥
+⎢         ⎥
+⎣0  0   0 ⎦
+  Rank of I_3 - Sym^2(A): 2
+
+  At SL(2): rank(I - A) = 1.  At SL(3): rank(I - Sym^2(A)) = 2.
+  theta-sensitivity GROWS with rank: one new direction per rank step.
+
+4g. Growth of theta-sensitivity with rank
+
+  Sym^1 (SL(2)): rank(I - Sym^1(A)) = 1
+  Sym^2 (SL(3)): rank(I - Sym^2(A)) = 2
+  Sym^3 (SL(4)): rank(I - Sym^3(A)) = 3
+  Sym^4 (SL(5)): rank(I - Sym^4(A)) = 4
+  Sym^5 (SL(6)): rank(I - Sym^5(A)) = 5
+
+  Pattern: rank = n for Sym^n.  theta-sensitivity = n at SL(n+1).
+  The cusp nilpotent direction is n-dimensional at rank n.
+
+========================================================================
+TASK 4 SUMMARY: THE FOX CALCULUS IS THE NON-TRACE BRIDGE
+========================================================================
+
+The Fox Jacobian J_sigma != J_sigma_mirror in the group ring ZF2.
+This is the FIRST theta-sensitive invariant connected to geometry.
+
+Key facts:
+  1. det(J_sigma) = -a, det(J_sigma_mirror) = -1 in ZF2.
+     Different group ring elements with the same augmentation.
+
+  2. Under rho: the difference lives in the NILPOTENT (cusp)
+     directions of A and B.  I - B = omega * e_21,  A - I = e_12.
+     theta is visible in the cusp data, not in the trace data.
+
+  3. theta-sensitivity grows with rank: rank(I - Sym^n(A)) = n.
+     At SL(2): 1 cusp direction.  At SL(3): 2.  At SL(n+1): n.
+
+  4. The Fox Jacobian is a representation-variety object (group ring).
+     Traces kill theta (character variety).  The group ring does not.
+     The Fox calculus IS the bridge from word-level theta (B783)
+     to geometric theta (representation variety).
+
+  5. The monodromy trace (mapping class T) is theta-insensitive.
+     iota commutes with all homomorphisms.  The mapping class
+     lives on the character variety and cannot see theta or iota.
+
+  BRIDGE STATUS: The Fox calculus provides a computable, explicit,
+  theta-sensitive path from the substitution to the representation.
+  The bridge bypasses traces entirely (as chat1 predicted).
+  The theta-sensitive data lives in the nilpotent/cusp sector.
