@@ -524,3 +524,35 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   E20-flagged: golden quantities are ubiquitous; NO mechanism links the word's Markov
   spectrum to the weld. A derivation connecting them would promote this; until then it
   is a numerical hint beside H-ITERATED-HEARING.
+
+- H-B787-INTERACTION (B787, 2026-07-25): the interaction programme's base-rate + adversarial-
+  verify survivors. NONE is a claim; the campaign is 1 structural HIT / 6 door-MISSes, nothing
+  to CLAIMS, JUNO pin untouched. Four staged hints:
+  (1) H-B787-IOTA (type MATH; the Phase-1 HIT): ι = inversion (g→g⁻¹) is a genuinely
+      independent 4th involution on the SL(3) figure-eight character variety — it FLIPS T7
+      (time; monodromy inverts the loxodromic spectrum {φ²,φ⁻²}) but FIXES T3 (basepoint;
+      A₅ is ambivalent — g∼g⁻¹ via the EVEN element (1 4)(2 3), so inversion cannot realize
+      the Out(A₅)/γ₅ 5A–5B swap). Since B766 welded T7=T3 as one choice, ι lies outside
+      ⟨c,θ,γ₅⟩ and raises the 𝔽₂-rank 3→4, forced by exact identities. EXTENDS (does not
+      contradict) B766's banked rank-3 observer menu: ι is a character-variety-native symmetry
+      whose status AS an observer/measurement closing operation is UNESTABLISHED — so "the
+      measurement torsor is rank 4" is the overreach to avoid; the cleared content is "a 4th
+      involution independent of B766's set {c,θ,γ₅,γ₃}." Proven-theorem-grade → lock-eligible
+      with a compute test (not yet written). Arms the Phase-3 relabel trigger (ι≠θ), which was
+      NOT propagated to B759/B769/Wave-5. Sharpens B786 (unconditional here; B786 was
+      conditional on a corrected intertwiner S).
+  (2) H-B787-D2-FLOOR (type MATH): the diagonal Fibonacci-R self-overlap Born
+      \|⟨ψ\|R\|ψ⟩\|² is EXACTLY V₄-invariant (c only conjugates, θ only relabels the two fusion
+      channels) with achievable floor sin²36° = (5−√5)/8 = 0.34549, below which BOTH JUNO
+      (0.30902) and the theorem \|S_ττ\|² = 1/(φ√5) = 0.27639 lie — a structural
+      unreachability, not a near-miss. (The braid matrix B=FRF gives real transition Born
+      1/φ², 1/φ, none = JUNO.)
+  (3) H-B787-D4-TAU (type MATH): the E₆→F₄ folding τ (the unique nontrivial Aut(E₆ Dynkin)=
+      ℤ/2 element) splits the exponents into τ-even {1,5,7,11} (F₄ degrees 2,6,8,12) / τ-odd
+      {4,8} (E₆-only degrees 5,9), forced by dim h^τ=4 / dim h^{−τ}=2; torsion identity
+      U_m(3/2)=F_{2m+2}. Exact but standard, and NOT c/θ-distinguished (τ is a V₄-coset,
+      neither c nor θ) — hence the D4 door MISS.
+  (4) H-B787-D1-INNER (type MATH): σ_mirror = a⁻¹·σ·a exactly — the Fibonacci substitution's
+      mirror is inner conjugation by generator a; every Fox observable is a signed sum of
+      prefix group-elements, so it lives in the trace ring. Demotes the hoped θ-content to a
+      trace-trivial gauge (explains the 0/9 whole-image trace non-separation).

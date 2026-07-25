@@ -16341,6 +16341,37 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B787": {
+   "slug": "interaction programme",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B101",
+    "B680",
+    "B71",
+    "B759",
+    "B766",
+    "B769",
+    "B786",
+    "B99",
+    "V0",
+    "V4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [

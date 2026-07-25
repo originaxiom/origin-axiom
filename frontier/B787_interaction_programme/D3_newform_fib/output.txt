@@ -1,0 +1,96 @@
+========================================================================
+B787 D3 — level-15 newform 15.a (Cremona 15a) at Fibonacci indices
+========================================================================
+curve rep 15a1  a-invariants=(1, 1, 1, -10, -10)  conductor=15  CM=False
+all 8 curves 15a1..15a8 are isogenous -> identical L-function -> identical a_n
+
+INDEPENDENT CROSS-CHECK a_p (sage anlist) vs naive #E(F_p) count, good p<90:
+  p : (anlist, naive)
+   2: (-1, -1)
+   7: (0, 0)
+  11: (-4, -4)
+  13: (-2, -2)
+  17: (2, 2)
+  19: (4, 4)
+  23: (0, 0)
+  29: (-2, -2)
+  31: (0, 0)
+  37: (-10, -10)
+  41: (10, 10)
+  43: (4, 4)
+  47: (8, 8)
+  53: (-10, -10)
+  59: (-4, -4)
+  61: (-2, -2)
+  67: (12, 12)
+  71: (-8, -8)
+  73: (10, 10)
+  79: (0, 0)
+  83: (12, 12)
+  89: (-6, -6)
+  ALL MATCH: True
+
+FIBONACCI-INDEX COEFFICIENTS a_{F_n}, F in [1, 2, 3, 5, 8, 13, 21, 34, 55, 89] :
+   [1, -1, -1, 1, 3, -2, 0, -2, -4, -6]
+
+Per-index Hecke provenance (composite indices are FORCED, nothing new):
+  a_ 1 =   1   a_1 = 1 (definition)
+  a_ 2 =  -1   prime 2 (good): a_2 read off
+  a_ 3 =  -1   prime 3 (BAD (mult. reduction)): a_3 read off
+  a_ 5 =   1   prime 5 (BAD (mult. reduction)): a_5 read off
+  a_ 8 =   3   Hecke: a_2^^3=3 = 3 (matches 3: True)
+  a_13 =  -2   prime 13 (good): a_13 read off
+  a_21 =   0   Hecke: a_3^^1=-1 * a_7^^1=0 = 0 (matches 0: True)
+  a_34 =  -2   Hecke: a_2^^1=-1 * a_17^^1=2 = -2 (matches -2: True)
+  a_55 =  -4   Hecke: a_5^^1=1 * a_11^^1=-4 = -4 (matches -4: True)
+  a_89 =  -6   prime 89 (good): a_89 read off
+
+------------------------------------------------------------------------
+STRUCTURE TESTS (is there a law BEYOND generic Hecke multiplicativity?)
+------------------------------------------------------------------------
+[T1] Fibonacci-additive a_(k+1)=a_k+a_(k-1) holds for all? False
+     (a_{k-1}, a_k, sum, actual a_{k+1}):
+       (1, -1, 0, -1)
+       (-1, -1, -2, 1)
+       (-1, 1, 0, 3)
+       (1, 3, 4, -2)
+       (3, -2, 1, 0)
+       (-2, 0, -2, -2)
+       (0, -2, -2, -4)
+       (-2, -4, -6, -6)
+
+[T2] Constant-coefficient linear recurrence fitting ALL 10 terms (over-determined):
+     order r=1: fits=False  coeffs=['-1']  [checked]
+     order r=2: fits=False  coeffs=['-1', '0']  [checked]
+     order r=3: fits=False  coeffs=['-3/2', '-2', '-1/2']  [checked]
+     order r=4: fits=False  coeffs=['95/26', '-25/26', '18/13', '-3/13']  [checked]
+
+[T3] Raw-value periodicity? (Hasse bound |a_n|<=2 sqrt(n) grows -> impossible):
+     a_ 1=  1   |a|<=2 sqrt(n)=2.00
+     a_ 2= -1   |a|<=2 sqrt(n)=2.83
+     a_ 3= -1   |a|<=2 sqrt(n)=3.46
+     a_ 5=  1   |a|<=2 sqrt(n)=4.47
+     a_ 8=  3   |a|<=2 sqrt(n)=5.66
+     a_13= -2   |a|<=2 sqrt(n)=7.21
+     a_21=  0   |a|<=2 sqrt(n)=9.17
+     a_34= -2   |a|<=2 sqrt(n)=11.66
+     a_55= -4   |a|<=2 sqrt(n)=14.83
+     a_89= -6   |a|<=2 sqrt(n)=18.87
+     naive-periodic flag: False
+
+[T4] Periodicity mod m of the a_{F_n} sequence (period=None means none <= len/2):
+     mod 2: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0]   period=None
+     mod 3: [1, 2, 2, 1, 0, 1, 0, 1, 2, 0]   period=None
+     mod 4: [1, 3, 3, 1, 3, 2, 0, 2, 0, 2]   period=None
+     mod 5: [1, 4, 4, 1, 3, 3, 0, 3, 1, 4]   period=None
+     mod 6: [1, 5, 5, 1, 3, 4, 0, 4, 2, 0]   period=None
+     mod 7: [1, 6, 6, 1, 3, 5, 0, 5, 3, 1]   period=None
+
+[T5] Prime-Fibonacci-index subsequence (the only 'free' draws):
+     a_ 2= -1  (good)   [F=2 is prime]
+     a_ 3= -1  (bad)   [F=3 is prime]
+     a_ 5=  1  (bad)   [F=5 is prime]
+     a_13= -2  (good)   [F=13 is prime]
+     a_89= -6  (good)   [F=89 is prime]
+     good-prime draws {2,13,89}: a_2,a_13,a_89 = [-1, -2, -6] in Hasse intervals [2.83, 7.21, 18.87]
+     bad-prime draws {3,5}: a_3,a_5 = [-1, 1] forced by reduction type (non-split@3=-1, split@5=+1), standard newform data

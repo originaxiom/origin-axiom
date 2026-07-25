@@ -1,0 +1,98 @@
+==========================================================================
+B787 D2 -- Fibonacci R-matrix braiding, Born probs at the 4 V4 orientations
+==========================================================================
+R = diag(e^(-4 pi i/5), e^(3 pi i/5))
+  lam1 = e^(-4pi i/5) = -sqrt(5)/4 - 1/4 - I*sqrt(5/8 - sqrt(5)/8)   (num -0.809017-0.587785j)
+  lam2 = e^(+3pi i/5) = -sqrt(5)/4 + 1/4 + I*sqrt(sqrt(5)/8 + 5/8)   (num -0.309017+0.951057j)
+  |lam1|=|lam2|=1 exact: True
+
+Targets:
+  JUNO  = 15451/50000 = 0.309020   (the pin)
+  |S_tautau|^2 = 1/(phi sqrt5) = 1/2 - sqrt(5)/10 = 0.276393   (THEOREM, != JUNO)
+  |S_tautau|^2 closed form (5-sqrt5)/10 check: True
+
+Eigen-phase overlap  cos(arg lam1 - arg lam2) = Re(lam1 conj(lam2)):
+  = 1/4 - sqrt(5)/4 = -0.3090170   [ = cos(3pi/5) = -(sqrt5-1)/4 ]
+  identity cos(3pi/5) = -(sqrt5-1)/4 : True
+
+--------------------------------------------------------------------------
+STEP 1  self-overlap reading  |<psi_g|R|psi_g>|^2  -- V4 invariance (symbolic)
+--------------------------------------------------------------------------
+  born[1      ](P,Q) = P**2 - sqrt(5)*P*Q/2 + P*Q/2 - sqrt(5)*Q**2/8 + 3*Q**2/8 + Q**2*sqrt(10*sqrt(5) + 30)/8
+  born[c      ](P,Q) = P**2 - sqrt(5)*P*Q/2 + P*Q/2 - sqrt(5)*Q**2/8 + 3*Q**2/8 + Q**2*sqrt(10*sqrt(5) + 30)/8
+  born[theta  ](P,Q) = -sqrt(5)*P**2/8 + 3*P**2/8 + P**2*sqrt(10*sqrt(5) + 30)/8 - sqrt(5)*P*Q/2 + P*Q/2 + Q**2
+  born[ctheta ](P,Q) = -sqrt(5)*P**2/8 + 3*P**2/8 + P**2*sqrt(10*sqrt(5) + 30)/8 - sqrt(5)*P*Q/2 + P*Q/2 + Q**2
+  born[1]-born[c]      = 0 ? True
+  born[1]-born[theta]  = 0 ? True    (needs sqrt(30+10sqrt5)=5+sqrt5 denest)
+  born[1]-born[ctheta] = 0 ? True
+  ==> ALL FOUR V4 ORIENTATIONS EQUAL (exact): True
+  generic closed form (Q=1-P):  Born(P) = 1 - 2 P(1-P)(3+sqrt5)/4
+     matches computed born[1]|Q=1-P : True
+
+--------------------------------------------------------------------------
+STEP 2  exact range of the self-overlap Born over ALL pointer-object states
+--------------------------------------------------------------------------
+  min at P=1/2 : Born = -5*sqrt(5)/32 + sqrt(10*sqrt(5) + 30)/32 + 15/32 = 0.345492   [ = sin^2(36deg) = (5-sqrt5)/8 ]
+     identity (5-sqrt5)/8 = sin^2(pi/5): True
+  max at P=0/1 : Born = -sqrt(5)/8 + 3/8 + sqrt(10*sqrt(5) + 30)/8 = 1.000000
+  ==> self-overlap Born in [ (5-sqrt5)/8 , 1 ] = [0.34549, 1]
+  JUNO=0.30902  <  0.34549 = min ?  True   -> JUNO STRUCTURALLY UNREACHABLE
+  |S_tautau|^2=0.27639  <  0.34549 = min ?  True   -> also unreachable
+
+--------------------------------------------------------------------------
+STEP 3  self-overlap Born at the two PRINCIPLED states
+--------------------------------------------------------------------------
+  quantum-dim weight P_qd = 1/(1+phi^2) = 1/(phi sqrt5) = 1/2 - sqrt(5)/10 = 0.276393  (equals |S_tautau|^2)
+  equal        P=1/2   : Born = -5*sqrt(5)/32 + sqrt(10*sqrt(5) + 30)/32 + 15/32 = 0.345492   [(5-sqrt5)/8]
+  quantum-dim  P=P_qd  : Born = 7/10 - sqrt(5)/10 = 0.476393   [(7-sqrt5)/10]
+     (7-sqrt5)/10 check: True
+  self-overlap Born =? JUNO at either principled state: False
+  self-overlap Born =? |S_tautau|^2 at either principled state: False
+
+  numeric cross-check (explicit complex vectors, all four g):
+    equal      : 1=0.345492  c=0.345492  theta=0.345492  ctheta=0.345492
+    quantum-dim: 1=0.476393  c=0.476393  theta=0.476393  ctheta=0.476393
+
+--------------------------------------------------------------------------
+STEP 4  adversarial reading  |<psi|R|psi_g>|^2  (transition, not the door's obs.)
+--------------------------------------------------------------------------
+  |lam1+lam2|^2 = 5/2 - sqrt(5)/2 = 1.381966   [ = (5-sqrt5)/2 ]
+     (5-sqrt5)/2 check: True
+  equal      : 1=0.345492  c=0.345492  theta=0.345492  ctheta=0.345492
+               exact theta-branch = 5/8 - sqrt(5)/8
+  quantum-dim: 1=0.476393  c=0.476393  theta=0.276393  ctheta=0.276393
+               exact theta-branch = 1/2 - sqrt(5)/10
+  quantum-dim theta-transition =? |S_tautau|^2 (the THEOREM, NOT JUNO): True
+  JUNO in transition-theta requires TUNED P(1-P) = 2 JUNO/(5-sqrt5) = 0.223609
+     -> non-canonical P in [0.33755, 0.66245] (neither 1/2 nor 1/(phi sqrt5))
+     transition-theta range over P: [0, (5-sqrt5)/8] = [0, 0.34549] CONTAINS JUNO -> a 1-param family sweeps it = BASE-RATE TRAP, not a hit.
+
+--------------------------------------------------------------------------
+STEP 5  base-rate assessment + verdict
+--------------------------------------------------------------------------
+  cos(72deg) = (sqrt5-1)/4 = 0.3090170  vs JUNO 0.3090200  Delta = 3.01e-06
+    -- but (sqrt5-1)/4 is (a) the eigen-phase OVERLAP, NOT a Born number, and
+       (b) a pentagon/phi anchor already in the look-elsewhere candidate set.
+
+  candidate anchors in [0,1] (prereg set): JUNO 0.30902, 1/phi 0.61803, 1/(phi sqrt5) 0.27639,
+     2/3, 1/2, 1/3, cos^2/sin^2 of cardinal angles, small rationals  (~12 candidates)
+  programme look-elsewhere budget ~ 3.6 expected chance hits (error-48 density).
+
+  Born numbers produced at PRINCIPLED states (exact radicals):
+     self-overlap  equal      : (5-sqrt5)/8  = 0.345492
+     self-overlap  quantum-dim: (7-sqrt5)/10 = 0.476393
+     transition    quantum-dim: (5-sqrt5)/10 = 0.276393  (= |S_tautau|^2 THEOREM)
+  JUNO matches at a principled state: NONE.
+  self-overlap Born is V4-INVARIANT (exact) and bounded below by (5-sqrt5)/8=0.34549,
+     so JUNO=0.30902 and |S_tautau|^2=0.27639 are BOTH structurally unreachable.
+  JUNO appears only by tuning a free amplitude in the transition reading (the trap).
+
+  VERDICT: OUTCOME B -- physics-silent MISS.
+     Exact structural residue (NOT a JUNO hit, recorded to HINT_LEDGER only):
+       (i)  the pointer-object braiding self-overlap Born is exactly V4-invariant
+            (the measurement torsor is INVISIBLE to a diagonal R -- c only conjugates,
+            theta only relabels channels; |sum p_i lam_i|^2 is invariant under both);
+       (ii) it is bounded below by sin^2(36deg)=(5-sqrt5)/8, placing JUNO and
+            |S_tautau|^2 strictly outside the achievable window;
+       (iii)the quantum-dim transition-theta Born reproduces |S_tautau|^2=(5-sqrt5)/10
+            EXACTLY (self-consistency with the MTC theorem, not JUNO).
