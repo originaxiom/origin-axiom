@@ -1,0 +1,30 @@
+================================================================================
+A. theta(reversal) vs iota(inversion) on the GENUINE SL(3) character variety
+================================================================================
+  tr(W)=49, tr(W^R)=49, tr(W^-1)=409
+  theta (reversal) moves the trace at SL(3): False   (FALSE => trace-trivial)
+  iota  (inversion) moves the trace at SL(3): True   (TRUE  => trace-active)
+
+================================================================================
+B. the character-variety generators are {c, IOTA, gamma5} -- rank 3, iota NOT theta
+================================================================================
+  c active on Q(sqrt-3) trace values : True
+  iota active on SL(3) trace         : True
+  gamma5 active (Gal(Q(sqrt5)))      : True
+  theta active on the character variety: False  -> it is the MATRIX-LEVEL chord
+
+================================================================================
+C. the OBJECT (fig-8 = Sym^2(SL(2)), self-dual/V0): iota and theta both collapse
+================================================================================
+  on Sym^2(SL(2)): iota trace-active=False, theta trace-active=False
+  => BOTH trivial on the object's traces (tr(g^-1)=tr(g)=tr(g^R) in SL(2)); they coincide.
+  => object measurement rank = 3 {c, (theta~iota collapsed), gamma5}. C20 STANDS.
+
+================================================================================
+VERDICT (B786): the character-variety torsor generator is IOTA=inversion, not
+THETA=reversal; theta is the matrix-level chord. On the object (self-dual Sym^2) the two
+collapse, so C20's rank-3 is correct -- but its third generator is properly iota on the
+character variety. The full non-self-dual SL(3) variety can carry theta as a distinct
+4th (matrix-level) involution (cc3 N8, S-derivation pending on cc3).
+
+wrote results.json

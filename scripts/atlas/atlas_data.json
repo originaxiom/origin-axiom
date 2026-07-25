@@ -16325,6 +16325,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B786": {
+   "slug": "torsor theta iota",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B766"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [

@@ -1,0 +1,22 @@
+{
+ "A": {
+  "theta_trace_active_sl3": false,
+  "iota_trace_active_sl3": true
+ },
+ "B": {
+  "charvariety_generators": [
+   "c",
+   "iota",
+   "gamma5"
+  ],
+  "rank": 3,
+  "theta_is_matrix_level_chord": true
+ },
+ "C": {
+  "object_iota_trace_active": false,
+  "object_theta_trace_active": false,
+  "object_rank": 3,
+  "c20_stands": true
+ },
+ "verdict": "charvariety generator = iota (not theta); theta = matrix-level chord; object rank 3 stands; full-SL(3) rank-4 open on cc3's S"
+}

@@ -164,8 +164,10 @@ the chord is corrected to a MATRIX-LEVEL observable (θ is trace-trivial ⇒ the
 c-odd, not θ-odd — the chord is Sym²(AB)−Sym²(BA), invisible to tr); and θ=reversal
 (trace-trivial at all ranks, matrix-level only) is distinguished from ι=inversion
 (trace-active at genuine SL(3), cc3 N7 gated) — on the object's self-dual (Sym²/V0) component
-ι~θ so the rank-3 STANDS; the full SL(3) variety may carry ι as a 4th generator.]** Lock:
-`tests/test_b766_torsor.py`.
+ι~θ so the rank-3 STANDS; the full SL(3) variety may carry ι as a 4th generator. **B786 pins
+the character-variety third generator = ι (inversion), with θ (reversal) the matrix-level
+chord; object rank 3 unconditional.**]** Locks: `tests/test_b766_torsor.py`,
+`tests/test_b786_theta_iota.py`.
 
 **C21 [THEOREM — the T1 structure].** The unmoved axis is DISCRETE: a 3-element torsor
 (the V₄-frame choice) under an S₃ of which the banked object-native operations realize
