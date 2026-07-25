@@ -1,0 +1,118 @@
+{
+ "H1_b768": {
+  "stochastic": true,
+  "eigs_1_and_minus_inv_phi": true,
+  "time_basepoint_identity": true
+ },
+ "H2_b489": {
+  "binet_torsion_all_n": true,
+  "rows": [
+   [
+    1,
+    1,
+    true,
+    true
+   ],
+   [
+    2,
+    5,
+    true,
+    true
+   ],
+   [
+    3,
+    16,
+    true,
+    true
+   ],
+   [
+    4,
+    45,
+    true,
+    true
+   ],
+   [
+    5,
+    121,
+    true,
+    true
+   ],
+   [
+    6,
+    320,
+    true,
+    true
+   ],
+   [
+    7,
+    841,
+    true,
+    true
+   ],
+   [
+    8,
+    2205,
+    true,
+    true
+   ],
+   [
+    9,
+    5776,
+    true,
+    true
+   ],
+   [
+    10,
+    15125,
+    true,
+    true
+   ],
+   [
+    11,
+    39601,
+    true,
+    true
+   ],
+   [
+    12,
+    103680,
+    true,
+    true
+   ],
+   [
+    13,
+    271441,
+    true,
+    true
+   ],
+   [
+    14,
+    710645,
+    true,
+    true
+   ],
+   [
+    15,
+    1860496,
+    true,
+    true
+   ],
+   [
+    16,
+    4870845,
+    true,
+    true
+   ]
+  ]
+ },
+ "H3_l255": {
+  "symd_spectrum_all_d": true
+ },
+ "P1_wall7": {
+  "status": "cited-not-rerun",
+  "cc3_sample_points": 18,
+  "all_dim0": true,
+  "is_proof": false
+ },
+ "all_harvested_reproduced": true
+}

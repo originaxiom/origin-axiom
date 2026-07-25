@@ -16298,6 +16298,33 @@
    "status": "banked",
    "domain": "meta"
   },
+  "B785": {
+   "slug": "cc3 gate harvest",
+   "motifs": [
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B489",
+    "B575",
+    "B768",
+    "B780",
+    "B784",
+    "H1",
+    "H2",
+    "H3",
+    "L255",
+    "P1"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [
