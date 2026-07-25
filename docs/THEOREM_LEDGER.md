@@ -158,7 +158,14 @@ the basepoint bit** (both are the γ₅ choice: (1−φ)² = φ⁻² is the Galo
 **the chord's sign = c ⊕ θ**. The rank equals the banked observer-menu rank (B733) —
 RANK-SATURATED: the menu is the full discrete closing set. The continuous residue
 (anchor/values/space) stays Galois-chosen (K020), and the unmoved T1 axis is a named
-door. — B766. Lock: `tests/test_b766_torsor.py`.
+door. — B766. **[STRENGTHENED 2026-07-25, R31-4 + cc3's convergent b766-scrutiny: the
+rank-3 is now COMPUTED from c/θ/γ₅ each moving a distinct probe (was hardcoded flip-vectors);
+the chord is corrected to a MATRIX-LEVEL observable (θ is trace-trivial ⇒ the Im tangent is
+c-odd, not θ-odd — the chord is Sym²(AB)−Sym²(BA), invisible to tr); and θ=reversal
+(trace-trivial at all ranks, matrix-level only) is distinguished from ι=inversion
+(trace-active at genuine SL(3), cc3 N7 gated) — on the object's self-dual (Sym²/V0) component
+ι~θ so the rank-3 STANDS; the full SL(3) variety may carry ι as a 4th generator.]** Lock:
+`tests/test_b766_torsor.py`.
 
 **C21 [THEOREM — the T1 structure].** The unmoved axis is DISCRETE: a 3-element torsor
 (the V₄-frame choice) under an S₃ of which the banked object-native operations realize
