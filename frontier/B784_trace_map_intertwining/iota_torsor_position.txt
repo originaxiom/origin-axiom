@@ -1,0 +1,104 @@
+========================================================================
+PART 1: THE STRUCTURAL IDENTITY  iota = theta * inner(S)
+========================================================================
+
+At SL(2): P = diag(1, -1) satisfies P A^-1 P^-1 = A, P B^-1 P^-1 = B.
+At SL(3): S = Sym^2(P) = diag(1, -1, 1).
+
+SL(2) verification: P * rho(w^-1) * P^-1 = rho(w^R)?
+  w = A             P w^-1 P^-1 = w^R?  True
+  w = B             P w^-1 P^-1 = w^R?  True
+  w = AB            P w^-1 P^-1 = w^R?  True
+  w = A^-1 B        P w^-1 P^-1 = w^R?  True
+  w = A B^-1        P w^-1 P^-1 = w^R?  True
+  w = A^-1 B^-1     P w^-1 P^-1 = w^R?  True
+  All words: True
+
+Sym^2 verification: S * Sym^2(w^-1) * S^-1 = Sym^2(w^R)?
+  w = AB            S Sym^2(w^-1) S^-1 = Sym^2(w^R)?  True
+  w = A^-1 B        S Sym^2(w^-1) S^-1 = Sym^2(w^R)?  True
+  w = A B^-1        S Sym^2(w^-1) S^-1 = Sym^2(w^R)?  True
+  w = A^-1 B^-1     S Sym^2(w^-1) S^-1 = Sym^2(w^R)?  True
+  w = A^2 B         S Sym^2(w^-1) S^-1 = Sym^2(w^R)?  True
+  w = A B A         S Sym^2(w^-1) S^-1 = Sym^2(w^R)?  True
+  All words: True
+
+IDENTITY PROVED: iota = theta * inner(S) on V0.
+S = diag(1,-1,1) is the Sym^2 lift of the SL(2) self-duality matrix.
+Since inner automorphisms are gauge, iota = theta (mod gauge) on V0.
+Both are trivial on the V0 character variety.
+
+========================================================================
+PART 2: iota vs EACH ELEMENT OF (Z/2)^3 ON TRACES
+========================================================================
+
+iota's trace action on V0 compared to each element of (Z/2)^3:
+
+  iota = id                  ?  True
+  iota = c                   ?  False
+  iota = theta               ?  True
+  iota = gamma5              ?  True
+  iota = c*theta             ?  False
+  iota = c*gamma5            ?  False
+  iota = theta*gamma5        ?  True
+  iota = c*theta*gamma5      ?  False
+
+On V0 traces: iota = id = theta = gamma5 = theta*gamma5 (all trivial).
+On V0 traces: iota ≠ c, c*theta, c*gamma5, c*theta*gamma5 (c is non-trivial).
+
+========================================================================
+PART 3: iota SEPARATES FROM theta AT GENERIC SL(3)
+========================================================================
+
+  Trial 1: theta diff = 2.22e-16, iota diff = 1.39e+00, inner S nullity = 0 (OUTER)
+  Trial 2: theta diff = 2.22e-16, iota diff = 1.63e+00, inner S nullity = 0 (OUTER)
+  Trial 3: theta diff = 4.97e-16, iota diff = 3.52e+00, inner S nullity = 0 (OUTER)
+  Trial 4: theta diff = 0.00e+00, iota diff = 4.81e+00, inner S nullity = 0 (OUTER)
+  Trial 5: theta diff = 6.28e-16, iota diff = 1.24e+01, inner S nullity = 0 (OUTER)
+
+theta is ALWAYS trivial on traces (diff = 0).
+iota is generically NON-trivial at SL(3) (diff > 0).
+No inner S exists at generic SL(3): iota is OUTER on W1/W2.
+
+========================================================================
+CONCLUSION
+========================================================================
+
+Chat1's three options:
+  (1) iota = c:              NO. c conjugates traces, iota permutes them.
+  (2) iota = c*theta (chord): NO. c*theta = c on traces (theta trivial).
+  (3) iota independent:       YES, with gauge caveat.
+
+THE STRUCTURAL RESULT:
+
+  iota = theta * inner(S),  S = Sym^2(diag(1,-1)) = diag(1,-1,1)
+
+  - On V0 (Sym^2, self-dual): S exists, iota is GAUGE-EQUIVALENT
+    to theta.  Both are trivial.  B766's rank 3 stands.
+
+  - On W1/W2 (generic SL(3), NOT self-dual): no S exists.
+    iota is OUTER and genuinely independent of {c, theta, gamma5}.
+    The full SL(3) character-variety involution group is (Z/2)^4
+    = <c, theta, iota, gamma5>, with rank 4.
+
+  - iota's non-triviality IS the non-self-duality obstruction.
+    Wherever the representation is self-dual, iota = theta (mod gauge).
+    Wherever it is not, iota adds new structure.
+
+  - The self-duality matrix S = diag(1,-1,1) IS B766's chord-sign
+    sector: it has eigenvalues +1, -1, +1 in the Sym^2 basis,
+    splitting Sym^2(V) into the even and odd sectors under the
+    SL(2) parity involution g -> P g P^-1.
+
+FOR THE OBSERVER PROGRAMME:
+
+  The geometric component V0 has rank 3: <c, theta, gamma5>.
+  iota = theta (mod gauge) on V0, so it adds nothing new.
+  The physical content of B780's permutation, on V0, is the SAME
+  as theta (reversal) -- just accessed through the self-duality
+  isomorphism rather than through trace cyclicity.
+
+  The full SL(3) character variety has rank 4, but the new bit
+  lives on W1/W2 (non-geometric, trace-1 components).  These
+  are degenerate representations not relevant to the geometric
+  programme.

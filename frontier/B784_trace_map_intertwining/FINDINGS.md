@@ -2,10 +2,17 @@
 
 cc3 audit seat, 2026-07-25. Gate 5-Q. Negatives first.
 
+**CORRECTED** per cc relay (2026-07-25) and chat1's trace-cyclicity
+theorem. Original claimed θ closes 1 bit via trace-map lift.
+Correction: θ is trivial on ALL traces at ALL ranks. 0 bits closed
+at the character-variety level. Score: 1/5 (was 2/5).
+
 ## Campaign: 5 agents, 3 phases, ~1700s runtime
 
 Two intertwining theorems tested: θ (reversal) and γ₅ (complement/
-golden Galois). The θ bridge lifts. The γ₅ bridge collapses.
+golden Galois). Both collapse on the character variety — θ because
+word reversal is invisible to traces, C because it is inner/gauge.
+The observer programme closes 0 bits at the trace level.
 
 ---
 
@@ -77,29 +84,95 @@ The two number fields Q(√5) and Q(√-3) are linearly disjoint over Q.
 No matrix operation at the geometric point can reach γ₅ because the
 geometric-point data lives in Q(√-3), where γ₅ acts trivially.
 
+### 6. θ is TRIVIAL on the character variety at ALL ranks
+
+**CORRECTION (cc relay, 2026-07-25).** The original FINDINGS claimed
+P784.1 as a non-trivial PASS ("θ is OUTER at SL(3)... the intertwining
+is a genuine constraint"). This is wrong. θ = word reversal acts as the
+IDENTITY on ALL trace functions at ALL ranks.
+
+**Three independent proofs, all conclusive:**
+
+(a) **Trace cyclicity on generators.** θ fixes tr(A), tr(B) (single
+    letters). θ(AB) = BA, and tr(AB) = tr(BA) by trace cyclicity.
+    ALL trace functions on F₂ are polynomials in (tr A, tr B, tr AB).
+    θ = id on the entire character variety at SL(2). Since Sym^n traces
+    are polynomials in SL(2) traces, θ = id at ALL ranks.
+
+(b) **Chat1's cyclic-permutation theorem.** σ_mirror(w) is a cyclic
+    permutation of σ(w) for every word w. The shift follows a Fibonacci
+    sub-sequence (0, 1, 0, 1, 3, 6, 11, 19, 32, 53, 87, 142...).
+    Therefore tr(ρ(σ_mirror(w))) = tr(ρ(σ(w))) at every rank n, for
+    any representation ρ, by trace cyclicity of the matrix product.
+
+(c) **cc3's own A3 computation.** A3_sym2_trace_computation PART 3
+    prints "theta TRIVIAL at SL(3) trace level: True". The FINDINGS
+    erroneously interpreted "θ OUTER at SL(3)" (a matrix-level fact from
+    Schur's lemma: no inner matrix conjugates Sym²(AB) to Sym²(BA)) as
+    "non-trivial on the character variety." OUTER ≠ NON-TRIVIAL ON TRACES.
+    Sym²(AB) ≠ Sym²(BA) as matrices, but tr(Sym²(AB)) = tr(Sym²(BA)).
+
+The intertwining T_{σ_mirror} = θ∘T_σ∘θ collapses to T_σ = T_σ at
+every rank: a tautology. P784.1 is vacuously true, not a structural
+constraint.
+
+### 7. B780 mislabels ι (inversion) as θ (reversal)
+
+B780 attributes the permutation (1 4)(2 5)(3 8)(6 7) on the 8 Lawton
+SL(3) trace coordinates to "θ at SL(3)". The 8 coordinates (B71/B48):
+
+    x = (tr A, tr B, tr AB, tr A⁻¹, tr B⁻¹, tr A⁻¹B, tr AB⁻¹, tr A⁻¹B⁻¹)
+
+The permutation swaps each direct-trace with its inverse-trace partner:
+x1↔x4, x2↔x5, x3↔x8, x6↔x7. This is the INVERSION map ι: w → w⁻¹,
+not the REVERSAL map θ: w → w^R. Verified at random SL(3) matrices:
+θ = identity on all 8 coordinates, ι = exact permutation match.
+
+- At SL(2): both ι and θ are trace-trivial (tr(M) = tr(M⁻¹), tr(XY) = tr(YX)).
+  B780's mislabeling arises because they coincide at SL(2).
+- At SL(3): ι separates (tr(M) ≠ tr(M⁻¹) for generic SL(3)), while θ
+  stays trivial (trace cyclicity).
+- On V0 (Sym² locus): ι also collapses back (tr(Sym²(M)) = (tr M)² - 1
+  = (tr M⁻¹)² - 1 = tr(Sym²(M⁻¹))). The permutation has content only on
+  the W1/W2 components (non-geometric, trace-1 components of the SL(3)
+  character variety).
+
+The "rank-onset at SL(3)" signature in B780 is real, but it belongs to ι,
+not θ. The two involutions separate at SL(3): ι acts on direct/inverse
+trace pairs, θ acts on nothing (trace level) or on matrix entries
+(representation level).
+
+### 8. ι (inversion) is INDEPENDENT of ⟨c, θ, γ₅⟩ but GAUGE on V0
+
+**ADDENDUM (2026-07-25).** Chat1's follow-up: where does ι sit in the
+closing group (Z/2)³ = ⟨c, θ, γ₅⟩? Three options: ι = c, ι = cθ (chord),
+or ι independent (rank > 3).
+
+**Answer: ι = θ · inner(S), where S = diag(1,−1,1) = Sym²(diag(1,−1)).**
+
+This is the Sym² lift of the SL(2) self-duality matrix P = diag(1,−1).
+For ALL words w: P·ρ₂(w⁻¹)·P⁻¹ = ρ₂(w^R) at SL(2), and
+S·Sym²(w⁻¹)·S⁻¹ = Sym²(w^R) on V0. Verified symbolically at 6 words
+including AB, A⁻¹B, AB⁻¹, A²B, ABA.
+
+Consequences:
+- On V0 (Sym², self-dual): S exists, ι is gauge-equivalent to θ. Both
+  trivial on the character variety. B766's rank 3 stands.
+- On W1/W2 (generic SL(3), NOT self-dual): no such S exists (verified:
+  nullity 0 at 5 random SL(3) trials). ι is OUTER and genuinely
+  independent of {c, θ, γ₅}. Full SL(3) group: (Z/2)⁴.
+- Chat1's options: (1) ι = c → NO (c conjugates traces, ι permutes
+  them). (2) ι = cθ → NO (cθ = c on traces, c ≠ ι). (3) ι independent
+  → YES, but gauge on V0.
+- ι's non-triviality IS the non-self-duality obstruction. Where the
+  representation is self-dual, ι = θ (mod gauge). Where not, they
+  separate and ι adds a fourth bit.
+
 ---
 
 ## THE POSITIVE
 
-### 6. θ intertwining lifts to the character variety
-
-**Theorem:** T_{σ_mirror} = θ ∘ T_σ ∘ θ
-
-at every SL(n,C) character variety, by functoriality of the trace map.
-
-At SL(2): trivially true (θ = id on traces). T_σ = T_{σ_mirror} =
-(z, x, xz-y). The four substitutions collapse to two trace maps.
-
-At SL(3): non-trivially true. θ is OUTER at SL(3) (proved by Schur's
-lemma + irreducibility of the Sym² representation: no inner matrix
-can conjugate Sym²(AB) to Sym²(BA)). The intertwining is a genuine
-constraint, not a tautology.
-
-Consequence: B783's word-level result (tracking = θ) lifts to the
-character variety. The tracking choice is the SL(3) θ-bit, seen
-through the trace-map functor.
-
-### 7. The C intertwining holds but is vacuous
+### 8. The C intertwining holds but is vacuous
 
 **Theorem:** T_{CσC} = C ∘ T_σ ∘ C  where C: (x,y,z) → (y,x,z)
 
@@ -117,78 +190,90 @@ Two dynamical systems that are conjugate by an inner automorphism
 describe the SAME physics — the C-swap is a choice of coordinates,
 not a structural distinction.
 
-### 8. The inner/outer classification of involutions
+### 9. The inner/outer classification of involutions (CORRECTED)
 
-| involution | inner/outer at SL(3) | flip-vector (c,θ,γ₅) | rank-onset |
+| involution | matrix level | character variety | flip-vector (c,θ,γ₅) |
 |---|---|---|---|
-| identity | inner | (0,0,0) | — |
-| c | outer | (1,0,0) | SL(2) |
-| θ | outer | (0,1,0) | SL(3) |
-| γ₅ | outer (arithmetic) | (0,0,1) | eigenvalues |
-| **C (swap)** | **inner** | **(0,0,0)** | **never** |
+| identity | inner | trivial | (0,0,0) |
+| c | outer | NON-TRIVIAL (flips T4) | (1,0,0) |
+| θ (reversal) | outer (Schur) | TRIVIAL (all traces) | (0,1,0) — rep. variety only |
+| γ₅ | outer (arithmetic) | NON-TRIVIAL (flips T3,T7) | (0,0,1) |
+| C (swap) | inner | TRIVIAL (gauge) | (0,0,0) |
+| ι (inversion) | outer | SL(3): non-trivial on W1/W2 | not in torsor |
 
-C = identity on the character variety. The complement is gauge.
+θ and C are both trivial on the character variety, by DIFFERENT
+mechanisms: θ because reversal = cyclic permutation (trace-invisible),
+C because inner automorphism (gauge). θ's flip-vector (0,1,0) applies
+to T6, which is a REPRESENTATION-VARIETY (matrix-level) observable,
+not a character-variety (trace-level) one.
 
 ---
 
-## SCORE CARD
+## SCORE CARD (CORRECTED per cc relay)
 
 | prediction | statement | result |
 |---|---|---|
-| P784.1 | T_{σ_mirror} = θ∘T_σ∘θ at SL(3) | **PASS** |
+| P784.1 | T_{σ_mirror} = θ∘T_σ∘θ at SL(3) | VACUOUS (θ = id on traces) |
 | P784.2 | T_{CσC} = C∘T_σ∘C at SL(2) | **PASS** |
 | P784.3 | C = γ₅ at incidence-matrix level | FAIL |
 | P784.4 | C = γ₅ at SL(3) character variety | FAIL |
 | P784.5 | coupling norm √3 in C decomposition | FAIL |
 
-Score: 2/5. Cumulative: 3 for 25 (B783: 1/5, B784: 2/5).
+Score: 1/5. Cumulative: 2 for 25 (B783: 1/5, B784: 1/5).
 
 ---
 
-## CONSEQUENCE FOR THE OBSERVER PROGRAMME
+## CONSEQUENCE FOR THE OBSERVER PROGRAMME (CORRECTED)
 
-### The revised picture (after B783 + B784)
+### The revised picture (after B783 + B784 + trace-cyclicity correction)
 
-| operation | torsor element | level | status |
+| operation | torsor element | level | char. variety status |
 |---|---|---|---|
-| tracking (parent/child) | θ | combinatorial | **CLOSED** (lifts to SL(3)) |
+| tracking (parent/child) | θ | combinatorial | INVISIBLE (trivial on traces) |
 | complement (a↔b swap) | gauge (identity) | — | DEAD (inner automorphism) |
-| γ₅ (golden Galois) | γ₅ | arithmetic | OPEN (no combinatorial avatar) |
-| c (complex conjugation) | c | geometric | OPEN (requires Q(√-3)) |
+| γ₅ (golden Galois) | γ₅ | arithmetic | OPEN (non-trivial on T3, T7) |
+| c (complex conjugation) | c | geometric | OPEN (non-trivial on T4) |
 
-The pointer closes 1 bit (θ). The complement slot is DEAD — not open,
-DEAD. It cannot close anything because it is gauge.
+The pointer closes 0 bits at the character-variety level. θ is
+invisible to traces at every rank. The observer's tracking choice is
+REPRESENTATION-VARIETY structure — visible on matrices (Sym²(AB) ≠
+Sym²(BA)), invisible on traces (tr(Sym²(AB)) = tr(Sym²(BA))). It
+lives in the gap between the representation variety and the character
+variety: the fibre-functor torsor (B701).
 
-Residual = ⟨γ₅, c⟩ = Z/2 × Z/2 = 2 bits open.
+Character-variety torsor: ⟨c, γ₅⟩ ≅ Z/2 × Z/2 = 2 bits open.
+Full torsor: ⟨c, θ, γ₅⟩ ≅ F₂³ = 3 bits, all open at the character
+variety. θ requires representation-variety data to detect.
 
-### Why γ₅ has no combinatorial avatar
+### Why NO combinatorial operation reaches the character variety
 
-γ₅ acts on Q(√5) — the field of the incidence-matrix eigenvalues.
-But Q(√5) does not appear in the representation matrices (which live
-in Q(√-3) at the geometric point). The two fields are linearly
-disjoint over Q.
+The combinatorial landscape {id, R, C, R·C} maps to {id, id, id, id}
+on the character variety:
 
-No operation on the WORD (reversal, complement, or any combination)
-can reach γ₅ because:
-- Reversal R maps to θ (outer at SL(3), but θ ≠ γ₅)
-- Complement C maps to the identity (inner, gauge)
-- R·C maps to θ (since C = id on the character variety)
+- R (reversal) → id (trace cyclicity, all ranks)
+- C (complement) → id (inner automorphism, gauge)
+- R·C → id (both factors trivial)
 
-The combinatorial landscape {id, R, C, R·C} maps to {id, θ, id, θ}
-in the character-variety group — a rank-1 image, not rank-2. The
-golden Galois γ₅ is arithmetically inaccessible from word operations.
+The character-variety image has RANK 0, not rank 1 as originally
+claimed. No word-level operation produces a non-trivial action on
+traces. The golden Galois γ₅ and the complex conjugation c both
+require operations OUTSIDE the combinatorial landscape.
 
-### The stratification
+### The stratification (corrected)
 
-1. Combinatorial level (word, substitution): θ closable, C = gauge,
-   γ₅ invisible → 1 bit closed
-2. Arithmetic level (number fields): γ₅ lives here (Q(√5) eigenvalues).
-   Closable by an arithmetic observer? Unknown.
-3. Geometric level (hyperbolization): c lives here (Q(√-3)).
-   Closable by chirality choice? Unknown.
+1. Character variety (traces): sees c and γ₅. 2 bits open. The
+   combinatorial landscape maps entirely to the identity here.
+2. Representation variety (matrices): adds θ. 3 bits open. θ is
+   visible through Sym²(AB) ≠ Sym²(BA) (traceless matrix difference
+   with 6 nonzero entries). This is the level of T6 (chord sign).
+3. Combinatorial (word): tracking = θ confirmed (B783). But this
+   does NOT propagate to the character variety because θ is
+   trace-invisible. The word-level structure is finer than traces.
 
-The three bits of the torsor live at three different levels.
-No single mechanism closes all three.
+The trace-map functor operates ON the character variety. Since θ is
+invisible there, the functor cannot carry B783's word-level θ result
+to the character variety. The bridge that B784 attempted to build
+does not exist at the trace level.
 
 ---
 

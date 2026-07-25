@@ -1,0 +1,36 @@
+================================================================================
+B780 COORDINATE AUDIT: theta vs iota on the 8 Lawton SL(3) traces
+================================================================================
+
+theta (reversal) = identity on all 8 coords? True
+  max |x - x_theta| = 4.58e-16
+
+iota (inversion) = permutation (1 4)(2 5)(3 8)(6 7)? True
+  max |x_iota[i] - x[perm[i]]| = 4.58e-16
+
+================================================================================
+V0 (Sym^2) CHECK: iota on Sym^2 traces at the geometric point
+================================================================================
+  tr(Sym^2(A)) = 3,  tr(Sym^2(A^-1)) = 3,  equal = True
+  tr(Sym^2(B)) = 3,  tr(Sym^2(B^-1)) = 3,  equal = True
+  tr(Sym^2(AB)) = 9/2 - 5*sqrt(3)*I/2,  tr(Sym^2(AB^-1)) = 9/2 - 5*sqrt(3)*I/2,  equal = True
+  tr(Sym^2(A^-1 B)) = 1/2 + 3*sqrt(3)*I/2,  tr(Sym^2(A^-1 B^-1)) = 1/2 + 3*sqrt(3)*I/2,  equal = True
+
+iota trivial on V0 (Sym^2)? True
+
+================================================================================
+VERDICT
+================================================================================
+
+B780 MISLABELS iota (inversion) as theta (reversal).
+
+  theta (word reversal): IDENTITY on all 8 Lawton coords, ALL ranks.
+  iota (inversion):      permutation (1 4)(2 5)(3 8)(6 7) at SL(3),
+                         trivial at SL(2), trivial on V0 (Sym^2 locus).
+
+  The mislabeling arises because theta and iota coincide at SL(2)
+  (tr(M) = tr(M^-1) and tr(XY) = tr(YX)). They separate at SL(3).
+
+  The 'rank-onset at SL(3)' signature in B780 is REAL but belongs to
+  iota, not theta. theta has NO rank-onset (trivial at all ranks on traces).
+  theta's non-triviality is matrix-level (Sym^2(AB) != Sym^2(BA)), not trace-level.
