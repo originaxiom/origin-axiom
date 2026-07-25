@@ -2141,12 +2141,87 @@ mathematical fact, not a vacuous tautology). The standing step is ADOPTED — 2 
   before the agent verifiers — a sound fallback, recorded honestly.
 
 ### Action items (Review 30)
-- [ ] R30-1: complete B778's 2 pending cells (CL-W4115 fabrication strip, CL-LATIN non-current
-  block) next pass.
-- [ ] R30-2: fold cc3's V4-genericity computation when it delivers (the highest-value falsifier;
-  green-lit, running independently).
-- [ ] R30-3: the GSWZ question is well-posed (B776) — the SEND remains owner-gated; draft stays
-  unsent until the owner's go.
-- [ ] R30-4: Phase 2 continues (63 structural rows remain); then Phases 3–5.
-- [ ] R30-5: the mutation test (2 locks) fires again at Review 31.
-- [ ] R30-6 (carried): R29-1 specialist pass (owner-gated), R29-2 L95.
+- [x] R30-1: complete B778's 2 pending cells — DONE (B778 COMPLETE 7/7 + cross-arc unification,
+  #63286642); the B784 audit later corrected its supporting facts (verdicts stand).
+- [x] R30-2: fold cc3's V4-genericity — DONE (#874f6436 masterplan + V4-genericity verified;
+  B781 defused the V4 falsifier fully, m003 sister-distinction closed).
+- [>] R30-3: the GSWZ send remains owner-gated; draft unsent. → carried R31-5.
+- [>] R30-4: Phase 2 progressed (Waves 3–6 banked this window); ~31 structural rows remain. → carried R31-2.
+- [x] R30-5: the mutation test (2 locks) fired at Review 31 — see R31 §(4).
+- [>] R30-6 (carried): R29-1 specialist pass (owner-gated), R29-2 L95. → carried R31-5.
+
+
+## Review 31 — 2026-07-25
+
+anchor-commit: `50693038` (Review 31)
+
+**(1) The scope.** 27 first-parent merges since Review 30 (anchor `e64a8ffe`), #1308–#1334
+— the window that COMPLETED the Closure Program's structural spine and then turned the
+firewall inward. It banks B778 (7/7), Phase-2 Waves 3–6 (B775), mints the three T1/torsor
+chain links (C21/C22/C23) and then self-CORRECTS two of them, runs the B784 self-audit
+(5 retractions, E27 minted), the E27 mechanical sweep, the Wave-6 carries repair, the cc3
+five-branch gate + the C21 mechanism correction, and the B785 harvest.
+
+### (1b) The branch inventory (rule 1b)
+Remote: `main` + 3 frozen-record + cc3's `audit/b775-braver-questions` (its record; unmerged).
+cc3 opened FIVE new audit branches this window (b768 / b769 / r28-10 / wall7 / forks) — all
+GATED, none merged (cc the sole gate); the passing deliverables harvested to main as B785, the
+failing one (b769 → C21 mechanism) excluded. cc3's own B783/B784 (its numbering, distinct from
+main's) stay on its branch. No unclassified branch; no orphaned work.
+
+### (2) The headline results
+- **Structural spine completed**: B778 7/7; Phase-2 Waves 3–6 banked the T1-mover WALL, the
+  m003 sister-distinction (B781, V4 falsifier defused via |H₁|=|2−tr|), the
+  choice-incomputability wall (B782), the four method lessons made binding (L1/L2/L3/L4).
+- **The chain grew to C23, then self-corrected**: C21 (T1 discrete torsor), C22
+  (no-canonical-closing), C23 (T1-mover no-go) minted — then C22 DEMOTED to [COROLLARY] (its
+  cell verified a definition), C23's vacuous lock replaced with falsifiable facts, and C21's
+  mechanism corrected (§3). A sixth chain label, [COROLLARY], added with rationale.
+- **The B784 self-audit** — the window's turn: owner scrutiny produced 5 retractions/demotions
+  (B780 gate vacuous, C22 over-stated, the non-Galois motif wrong, the C23 lock vacuous, the
+  false "independently") and MINTED **E27 (disconnected verdict)**. Through-line the owner
+  surfaced: every defect this session came from work cc both produced AND self-verified; the
+  agent layer and the owner caught them all. The remedy is mechanical (verdict flags must trace
+  to computed quantities).
+- **The E27 mechanical sweep**: 20/20 data-connected session locks wired; 4 data-free locks
+  tautology-checked (one L1-vacuous assertion demoted). 0 genuine disconnected verdicts remain.
+- **The cc3 five-branch gate** (owner: "process and verify them all"): each load-bearing claim
+  reproduced in-sandbox — b768 CONFIRMED (T eigenvalues {1,−1/φ}), r28-10 two STABILIZED
+  (B489 Binet torsion, TOMB-L255 Sym^d spectrum), wall7 honest 18-point sample, forks
+  firewall-side — and b769 caught a real defect in **merged C21**. Harvested as B785.
+
+### (3) The θ-conflation — the window's cross-cutting defect class
+The single most important methodological finding: a recurring conflation of the **c-odd
+(complex-conjugation) imaginary direction with a θ-odd (contragredient / reversal) one** on the
+Sym²(SL(2)) module, where θ is TRIVIAL on traces because tr(g⁻¹)=tr(g)=tr(g^R) in SL(2). It
+appeared THREE times — the B780 Galois-reversal gate (retracted), cc3's B784 θ-bridge (refuted
+at the gate), and, most seriously, **merged chain link C21**, whose "tangent frames align →
+chord = c⊕θ" mechanism labeled the c-odd imaginary tangent (Im of d/du[tr Sym²(AB)]|_ω = −5+i√3,
+whose θ-odd part is exactly 0) as θ-odd. C21's mechanism corrected 2026-07-25; the theorem
+(discrete T1, no invariant continuous modulus) is UNCHANGED. Standing rule recorded: a "θ-odd"
+quantity computed on the Sym²(SL(2)) trace/character level is almost always c-odd — θ-odd lives
+only at the matrix/representation level.
+
+### (4) The mutation test (R30-5, executed)
+Two locks mutated: (a) wave6_results.json PD22 verdict UNRESOLVED→RESOLVED-A — test_b775_phase2
+FAILED as required; (b) census.json raw_count 431→123456 — test_b770_census FAILED as required.
+Both restored byte-clean; the targeted suites and the FULL test suite (all locks) pass green.
+
+### (5) Error-class recurrence + provenance
+- **E27 (disconnected verdict) MINTED** and immediately swept to 0. E4 recurred (cc's Z1
+  "irrational exactly when 5|κ" iff-error — self-caught, banked→carry, logged as a cc instance).
+  The θ-conflation named as a standing class (B780/B784/C21).
+- Provenance internal (cc + cc3 seats). cc3's 5 branches gated and harvested (B785); cc3 never
+  merged; relays sent for every verdict. Nothing to CLAIMS; the JUNO one-number pin untouched;
+  the GSWZ send still owner-gated.
+
+### Action items (Review 31)
+- [ ] R31-1: cherry-pick nothing further from cc3 without in-sandbox reproduction — cc3's
+  "CONFIRMED" is not a gate (the b769/C21 lesson: it re-confirmed a defective mechanism).
+- [ ] R31-2 (carried R30-4): Phase 2 continues (~31 structural rows remain); then Phases 3–5
+  (θ-vacancy, triadic-T1, P021; the walls; the capstone PC26 + methodology paper + dossier).
+- [ ] R31-3: the mutation test (2 locks) fires again at Review 32.
+- [ ] R31-4: audit the remaining torsor/chain links for the θ-conflation class — confirm
+  C20/B766's θ is the matrix/representation-level involution (not a trace-level one) before the
+  capstone leans on it.
+- [ ] R31-5 (carried): GSWZ send owner-gated (R30-3); R29-1 specialist pass owner-gated; R29-2 L95.
