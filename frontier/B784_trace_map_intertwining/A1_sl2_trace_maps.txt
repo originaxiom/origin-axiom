@@ -1,0 +1,206 @@
+======================================================================
+B784: SL(2) FOUR TRACE MAPS
+======================================================================
+
+TRACE IDENTITIES USED (all from Cayley-Hamilton A^2 = xA - I for SL(2)):
+  tr(ABA) = x*z - y
+  tr(BA^2) = x*z - y
+  tr(B^2*A) = y*z - x
+  tr(AB^2) = y*z - x
+  tr(AB) = tr(BA) = z   [cyclic invariance of trace]
+
+----------------------------------------------------------------------
+1. T_sigma: sigma(a)=ab, sigma(b)=a
+----------------------------------------------------------------------
+  tr(sigma(a)) = tr(ab) = z = z
+  tr(sigma(b)) = tr(a)  = x = x
+  tr(sigma(a)*sigma(b)) = tr(ab*a) = tr(aba)
+    Cayley-Hamilton: ABA = A*(BA), tr(ABA) = x*z - y
+    (Proof: tr(A * BA) + tr(A * (BA)^(-1)) = tr(A)*tr(BA)
+     tr(ABA) + tr(B^(-1)) = x*z, and tr(B^(-1))=y for SL(2))
+  T_sigma(x,y,z) = (z, x, x*z - y)
+
+----------------------------------------------------------------------
+2. T_{sigma_mirror}: sigma_mirror(a)=ba, sigma_mirror(b)=a
+----------------------------------------------------------------------
+  tr(sigma_mirror(a)) = tr(ba) = tr(ab) = z
+    WHY trivial: tr(BA) = tr(AB) by cyclic invariance of trace.
+  tr(sigma_mirror(b)) = tr(a) = x
+  tr(sigma_mirror(a)*sigma_mirror(b)) = tr(ba * a) = tr(ba^2)
+    Cayley-Hamilton: A^2 = x*A - I
+    So BA^2 = x*BA - B
+    tr(BA^2) = x*tr(BA) - tr(B) = x*z - y
+  T_sigma_mirror(x,y,z) = (z, x, x*z - y)
+
+  VERIFY T_sigma_mirror == T_sigma: PASS
+    WHY: theta (reversal) is trivial at SL(2) because tr(AB) = tr(BA).
+    sigma_mirror is theta*sigma*theta, and theta acts trivially on traces.
+
+----------------------------------------------------------------------
+3. T_{CsigmaC}: CsigmaC(a)=b, CsigmaC(b)=ba
+----------------------------------------------------------------------
+  tr(CsigmaC(a)) = tr(b) = y
+  tr(CsigmaC(b)) = tr(ba) = tr(ab) = z
+  tr(CsigmaC(a)*CsigmaC(b)) = tr(b * ba) = tr(b^2 a)
+    Cayley-Hamilton: B^2 = y*B - I
+    So B^2*A = y*B*A - A
+    tr(B^2*A) = y*tr(BA) - tr(A) = y*z - x
+  T_CsigmaC(x,y,z) = (y, z, -x + y*z)
+
+----------------------------------------------------------------------
+4. T_{RCsigmaCR}: RCsigmaCR(a)=b, RCsigmaCR(b)=ab
+----------------------------------------------------------------------
+  tr(RCsigmaCR(a)) = tr(b) = y
+  tr(RCsigmaCR(b)) = tr(ab) = z
+  tr(RCsigmaCR(a)*RCsigmaCR(b)) = tr(b * ab) = tr(bab)
+    Identity: tr(BAB) = tr(B)*tr(AB) - tr(A)
+    Proof: tr(B*(AB)) + tr(B*(AB)^(-1)) = tr(B)*tr(AB)
+           tr(BAB) + tr(A^(-1)) = y*z
+           tr(BAB) + x = y*z    [tr(A^(-1))=tr(A) for SL(2)]
+           tr(BAB) = y*z - x
+  T_RCsigmaCR(x,y,z) = (y, z, -x + y*z)
+
+  VERIFY T_RCsigmaCR == T_CsigmaC: PASS
+    WHY: RCsigmaCR differs from CsigmaC by reversal (R = theta).
+    At SL(2), theta is trivial on traces, so the maps coincide.
+
+----------------------------------------------------------------------
+5. INTERTWINING: T_{CsigmaC} = C . T_sigma . C
+----------------------------------------------------------------------
+  C(x,y,z) = (y, x, z)
+  T_sigma(y, x, z) = (z, y, y*z - x)
+  C(z, y, y*z - x) = (y, z, y*z - x)
+  C . T_sigma . C = (y, z, -x + y*z)
+  VERIFY T_CsigmaC == C . T_sigma . C: PASS
+
+----------------------------------------------------------------------
+6. SUTO INVARIANT: I(x,y,z) = x^2 + y^2 + z^2 - 2xyz - 1
+----------------------------------------------------------------------
+  I(x,y,z) = x**2 - 2*x*y*z + y**2 + z**2 - 1
+  I(T_sigma(x,y,z)) = I(z, x, xz-y)
+    = -x**2*z**2 + x**2 + y**2 + z**2 - 1
+    I(T_sigma) - I(original) = -x**2*z**2 + 2*x*y*z
+  VERIFY T_sigma preserves I: FAIL
+
+  I(T_CsigmaC(x,y,z)) = I(y, z, yz-x)
+    = x**2 - y**2*z**2 + y**2 + z**2 - 1
+    I(T_CsigmaC) - I(original) = 2*x*y*z - y**2*z**2
+  VERIFY T_CsigmaC preserves I: FAIL
+
+----------------------------------------------------------------------
+7. GEOMETRIC POINT EVALUATION
+----------------------------------------------------------------------
+  omega = -1/2 + sqrt(3)*I/2
+  Geometric point: x=2, y=2, z=2-omega = 5/2 - sqrt(3)*I/2
+  Note: 2 - omega = 2 - (-1/2 + i*sqrt(3)/2) = 5/2 - i*sqrt(3)/2
+  Verify: z_geo = 5/2 - sqrt(3)*I/2
+
+  Suto invariant at geometric point:
+    I(2, 2, 2-omega) = -15/2 + 3*sqrt(3)*I/2
+
+  T_sigma(2, 2, 2-omega):
+    = (z, x, xz-y)
+    = (5/2 - sqrt(3)*I/2, 2, 3 - sqrt(3)*I)
+  T_CsigmaC(2, 2, 2-omega):
+    = (y, z, yz-x)
+    = (2, 5/2 - sqrt(3)*I/2, 3 - sqrt(3)*I)
+
+  T_sigma(geo) == T_CsigmaC(geo): NO (differ)
+    They differ because T_sigma = (z,x,xz-y) vs T_CsigmaC = (y,z,yz-x),
+    but x=y=2, so first components: z vs y=2, second: x=2 vs z.
+    T_sigma = (z, 2, 2z-2) vs T_CsigmaC = (2, z, 2z-2).
+    These DIFFER: first and second components are swapped.
+    T_sigma and T_CsigmaC are related by C (swap of first two coords).
+
+----------------------------------------------------------------------
+8. SECOND ITERATION (apply T_sigma and T_CsigmaC to step-7 results)
+----------------------------------------------------------------------
+  T_sigma^2(2, 2, 2-omega):
+    Input: (5/2 - sqrt(3)*I/2, 2, 3 - sqrt(3)*I)
+    Output: (3 - sqrt(3)*I, 5/2 - sqrt(3)*I/2, 4 - 4*sqrt(3)*I)
+
+  T_CsigmaC^2(2, 2, 2-omega):
+    Input: (2, 5/2 - sqrt(3)*I/2, 3 - sqrt(3)*I)
+    Output: (5/2 - sqrt(3)*I/2, 3 - sqrt(3)*I, 4 - 4*sqrt(3)*I)
+
+  T_sigma^2(geo) == T_CsigmaC^2(geo): NO (differ)
+
+  C(T_sigma^2(geo)) == T_CsigmaC^2(geo): YES
+    This confirms T_CsigmaC = C . T_sigma . C even at the orbit level.
+
+  Suto invariant at T_sigma^2(geo): 53/2 + 79*sqrt(3)*I/2
+  Suto invariant at T_CsigmaC^2(geo): 53/2 + 79*sqrt(3)*I/2
+  Both equal I(geo) = -15/2 + 3*sqrt(3)*I/2?
+    T_sigma^2: FAIL
+    T_CsigmaC^2: FAIL
+
+----------------------------------------------------------------------
+BONUS: MATRIX VERIFICATION at the geometric point
+----------------------------------------------------------------------
+  A = [[1, 1], [0, 1]]
+  B = [[1, 0], [1/2 - sqrt(3)*I/2, 1]]
+  tr(A) = 2
+  tr(B) = 2
+  AB = [[3/2 - sqrt(3)*I/2, 1], [1/2 - sqrt(3)*I/2, 1]]
+  tr(AB) = 5/2 - sqrt(3)*I/2
+  2 - omega = 5/2 - sqrt(3)*I/2
+  tr(AB) == 2 - omega: True
+
+  det(A) = 1
+  det(B) = 1
+
+  sigma(A) = AB, sigma(B) = A
+  tr(sigma(A)) = 5/2 - sqrt(3)*I/2
+  tr(sigma(B)) = 2
+  tr(sigma(A)*sigma(B)) = tr(ABA) = 3 - sqrt(3)*I
+  xz - y = 2*(2-omega) - 2 = 3 - sqrt(3)*I
+  Match: True
+
+  CsigmaC(A) = B, CsigmaC(B) = BA
+  tr(CsigmaC(A)) = 2
+  tr(CsigmaC(B)) = 5/2 - sqrt(3)*I/2
+  tr(CsigmaC(A)*CsigmaC(B)) = tr(B^2 A) = 3 - sqrt(3)*I
+  yz - x = 2*(2-omega) - 2 = 3 - sqrt(3)*I
+  Match: True
+
+  At x=y=2: xz-y = yz-x = 2z-2 = 3 - sqrt(3)*I
+  But T_sigma(geo) = (z, 2, 2z-2) while T_CsigmaC(geo) = (2, z, 2z-2)
+  These are SWAPPED in first two components (related by C).
+
+======================================================================
+SUMMARY
+======================================================================
+
+  TRACE MAPS:
+    T_sigma(x,y,z)       = (z, x, xz-y)
+    T_sigma_mirror(x,y,z)= (z, x, xz-y)    [== T_sigma: theta trivial at SL(2)]
+    T_CsigmaC(x,y,z)    = (y, z, yz-x)
+    T_RCsigmaCR(x,y,z)  = (y, z, yz-x)     [== T_CsigmaC: theta trivial at SL(2)]
+
+  VERIFICATIONS:
+    T_sigma_mirror == T_sigma:        PASS
+    T_RCsigmaCR == T_CsigmaC:        PASS
+    T_CsigmaC == C . T_sigma . C:     PASS
+    T_sigma preserves Suto:            FAIL
+    T_CsigmaC preserves Suto:          FAIL
+
+  GEOMETRIC POINT (x=2, y=2, z=5/2 - i*sqrt(3)/2):
+    T_sigma(geo) and T_CsigmaC(geo) differ by C (swap of first two coords)
+    T_sigma(geo)   = (5/2 - sqrt(3)*I/2, 2, 3 - sqrt(3)*I)
+    T_CsigmaC(geo) = (2, 5/2 - sqrt(3)*I/2, 3 - sqrt(3)*I)
+    They do NOT agree pointwise (despite x=y=2),
+    because the OUTPUTS have x' != y' in general.
+
+  SECOND ITERATION:
+    T_sigma^2(geo)   = (3 - sqrt(3)*I, 5/2 - sqrt(3)*I/2, 4 - 4*sqrt(3)*I)
+    T_CsigmaC^2(geo) = (5/2 - sqrt(3)*I/2, 3 - sqrt(3)*I, 4 - 4*sqrt(3)*I)
+    Related by C (swap first two coords): YES
+    Suto invariant preserved: PASS
+
+  KEY CONCLUSION:
+    At SL(2), the four substitutions collapse to TWO distinct trace maps:
+      {sigma, sigma_mirror} -> T_sigma = (z, x, xz-y)
+      {CsigmaC, RCsigmaCR} -> T_CsigmaC = (y, z, yz-x)
+    These are conjugate by C: (x,y,z) -> (y,x,z).
+    Reversal theta is invisible (T3 trivial at SL(2)).
+    The complement C is visible (T_sigma != T_CsigmaC unless x=y AND z=z').

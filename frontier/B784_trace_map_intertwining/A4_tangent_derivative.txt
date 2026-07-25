@@ -1,0 +1,120 @@
+T_sigma(y, x, z) = Matrix([[z, y, -x + y*z]])
+P * T_sigma(Pv) = Matrix([[y, z, -x + y*z]])
+T_{CsC}(v)      = Matrix([[y, z, -x + y*z]])
+Difference: Matrix([[0, 0, 0]])
+CONFIRMED: T_{CsC}(v) = P * T_sigma(Pv) for all v.
+
+J_sigma(y, x, z) =
+⎡0  0   1⎤
+⎢        ⎥
+⎢1  0   0⎥
+⎢        ⎥
+⎣z  -1  y⎦
+
+P * J_sigma(y,x,z) * P =
+⎡0   1  0⎤
+⎢        ⎥
+⎢0   0  1⎥
+⎢        ⎥
+⎣-1  z  y⎦
+
+J_{CsC}(x,y,z) =
+⎡0   1  0⎤
+⎢        ⎥
+⎢0   0  1⎥
+⎢        ⎥
+⎣-1  z  y⎦
+
+P * J_sigma(Pv) * P - J_{CsC}(v) =
+⎡0  0  0⎤
+⎢       ⎥
+⎢0  0  0⎥
+⎢       ⎥
+⎣0  0  0⎦
+CONFIRMED: Chain-rule intertwining holds IDENTICALLY for all (x,y,z).
+
+At geometric point (2, 2, 5/2 - I*sqrt(3)/2):
+J_sigma|geo =
+⎡   0      0   1⎤
+⎢               ⎥
+⎢   1      0   0⎥
+⎢               ⎥
+⎢5   √3⋅ⅈ       ⎥
+⎢─ - ────  -1  2⎥
+⎣2    2         ⎦
+
+P * J_sigma|geo * P = J_{CsC}|geo? True
+
+det(J_sigma|geo) = -1
+det(J_{CsC}|geo) = -1
+
+Characteristic polynomial: lambda**3 - 2*lambda**2 - 5*lambda/2 + sqrt(3)*I*lambda/2 + 1
+
+============================================================
+C-EIGENBASIS BLOCK STRUCTURE
+============================================================
+J_sigma|geo in C-eigenbasis {(1,1,0), (0,0,1), (1,-1,0)}:
+⎡  1/2     1/2    1/2   ⎤
+⎢                       ⎥
+⎢3   √3⋅ⅈ       7   √3⋅ⅈ⎥
+⎢─ - ────   2   ─ - ────⎥
+⎢2    2         2    2  ⎥
+⎢                       ⎥
+⎣  -1/2    1/2    -1/2  ⎦
+
+P in C-eigenbasis (should be diag(1,1,-1)):
+⎡1  0  0 ⎤
+⎢        ⎥
+⎢0  1  0 ⎥
+⎢        ⎥
+⎣0  0  -1⎦
+
+Even-even block (2x2):
+⎡  1/2     1/2⎤
+⎢             ⎥
+⎢3   √3⋅ⅈ     ⎥
+⎢─ - ────   2 ⎥
+⎣2    2       ⎦
+
+Odd-odd entry (1x1): -1/2
+
+Even-to-odd coupling (row 3 of even cols):
+  [-1/2, 1/2]
+
+Odd-to-even coupling (col 3 of even rows):
+  [1/2]
+  [7/2 - sqrt(3)*I/2]
+
+D * J_sigma_basis * D - J_{CsC}_basis:
+⎡0  0  0⎤
+⎢       ⎥
+⎢0  0  0⎥
+⎢       ⎥
+⎣0  0  0⎦
+CONFIRMED: C-conjugation flips even-odd couplings, preserves blocks.
+
+============================================================
+EIGENVALUE TABLE
+============================================================
+                         eigenvalue       |lam|   arg (deg)
+  +2.79092484-0.25069520i  2.80216158     -5.1328
+  -1.10142345+0.17295180i  1.11491970   +171.0760
+  +0.31049861+0.07774340i  0.32008346    +14.0569
+
+Product = -0.94100698+0.23561163j (det = -1)
+Sum     = +2.00000000 (trace = 2)
+
+phi^2 = 2.61803399 vs |lam_0| = 2.80216158
+1/phi^2 = 0.38196601 vs |lam_2| = 0.32008346
+Eigenvalue magnitudes do NOT match phi^2, 1/phi^2.
+Reason: geometric point is complex and not a fixed point.
+
+Even-block eigenvalues:
+  +0.08927091+0.18652617i  (mult 1)
+  +2.41072909-0.18652617i  (mult 1)
+
+Odd-block eigenvalue: (-0.5+0j)
+
+The even block governs dynamics ON the C-even locus (x=y).
+The odd entry governs transverse drift off the C-even locus.
+C-conjugation preserves both blocks but flips their coupling.

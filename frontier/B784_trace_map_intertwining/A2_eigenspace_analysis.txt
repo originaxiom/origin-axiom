@@ -1,0 +1,177 @@
+========================================================================
+B784  INCIDENCE-MATRIX EIGENSPACE ANALYSIS
+========================================================================
+
+--- 1. INCIDENCE MATRICES ---
+  M_sigma = [[1, 1], [1, 0]]
+  M_CsC   = [[0, 1], [1, 1]]
+  C        = [[0, 1], [1, 0]]
+
+--- 2. REVERSAL INVISIBILITY ---
+  [PASS]  2a: M_sigma == M_sigma_mirror
+         WHY trivial: abelianisation kills word order.
+  [PASS]  2b: M_CsC == M_RCsCR
+         Same reason: reversal permutes letters within a word, not counts.
+
+--- 3. EIGENVALUES ---
+  [PASS]  3a: same char poly
+         Both = lambda**2 - lambda - 1
+  [PASS]  3b: eigenvalues are phi, phi_bar
+         phi = 1/2 + sqrt(5)/2,  phi_bar = 1/2 - sqrt(5)/2
+  [PASS]  3c: -1/phi == phi_bar
+
+--- 4. EIGENVECTORS ---
+  [PASS]  4a: v_phi(M_sigma) ~ [phi, 1]
+         SymPy returns [1/2 + sqrt(5)/2, 1]
+  [PASS]  4b: v_phibar(M_sigma) ~ [phi_bar, 1]
+         SymPy returns [1/2 - sqrt(5)/2, 1]
+  [PASS]  4c: v_phi(M_CsC) ~ [1, phi]
+         SymPy returns [-1/2 + sqrt(5)/2, 1]
+  [PASS]  4d: v_phibar(M_CsC) ~ [1, phi_bar]
+         SymPy returns [-sqrt(5)/2 - 1/2, 1]
+
+--- 5. CONJUGATION AND INTERTWINING ---
+  [PASS]  5a: M_CsC = C * M_sigma * C
+  [PASS]  5b: C * v_phi(sigma) ~ v_phi(CsC)
+         C * [phi,1] = [1, 1/2 + sqrt(5)/2]
+  [PASS]  5c: C * v_phibar(sigma) ~ v_phibar(CsC)
+         C * [phi_bar,1] = [1, 1/2 - sqrt(5)/2]
+
+  => C maps eigenvectors of M_sigma to eigenvectors of M_CsC,
+     PRESERVING the eigenvalue label (phi stays phi, phi_bar stays phi_bar).
+
+--- 6. C IN THE EIGENBASIS OF M_sigma (THE CRITICAL TEST) ---
+  P (eigenvector columns) = [[phi, phi_bar], [1, 1]]
+  det(P) = sqrt(5) = sqrt(5)
+  P^(-1) * C * P =
+    [2*sqrt(5)/5, 1/2 - sqrt(5)/10]
+    [sqrt(5)/10 + 1/2, -2*sqrt(5)/5]
+  [FAIL]  6a: C in eigenbasis == swap [[0,1],[1,0]]
+         THIS IS THE CLAIM 'C = gamma_5'.  If FALSE, C does NOT simply swap eigenspaces.
+
+  DETAILED ANALYSIS of C in eigenbasis:
+  tr(C_eig) = 0
+  det(C_eig) = -1
+  C_eig^2 = Matrix([[1, 0], [0, 1]])
+  [PASS]  6b: C_eig is an involution (C_eig^2 = I)
+
+  Since tr=0, det=-1: eigenvalues of C_eig are +1 and -1.
+  C_eig IS a reflection/involution, but NOT the swap of eigenspaces.
+
+  +1 eigenvector of C (i.e. [1,1]) in eigenbasis: [sqrt(5)/10 + 1/2, 1/2 - sqrt(5)/10]
+  -1 eigenvector of C (i.e. [1,-1]) in eigenbasis: [-1/2 + 3*sqrt(5)/10, -3*sqrt(5)/10 - 1/2]
+
+--- 6'. DIRECT COMPARISON: C vs gamma_5 ON EIGENSPACES ---
+  gamma_5 acts on Q(sqrt(5)) by sqrt(5) -> -sqrt(5), i.e. phi -> phi_bar.
+  It maps eigenvector [phi, 1] of M_sigma to [phi_bar, 1] of M_sigma.
+  gamma_5 SWAPS eigenvalues: the phi-eigenvector becomes the phi_bar-eigenvector.
+
+  C acts on R^2 by [x,y] -> [y,x].
+  It maps eigenvector [phi, 1] of M_sigma to [1, phi], which is the
+  phi-eigenvector of M_CsC (a DIFFERENT matrix).
+  C PRESERVES eigenvalues: the phi-eigenvector stays a phi-eigenvector.
+
+  Image of [phi, 1]:
+    under gamma_5: [phi_bar, 1],  slope = 1/phi_bar = -phi
+    under C:       [1, phi],      slope = phi
+    These are DIFFERENT lines (slopes -phi vs phi).
+  [FAIL]  6c: C([phi,1]) ~ gamma_5([phi,1])
+         gamma_5([phi,1]) = [phi_bar,1], C([phi,1]) = [1,phi]. NOT proportional.
+
+--- 6''. FREQUENCY VECTOR UNDER C vs gamma_5 ---
+  PF frequencies of M_sigma: freq(a) = 1/phi = -1/2 + sqrt(5)/2
+                              freq(b) = 1/phi^2 = 3/2 - sqrt(5)/2
+  Under C: freq(a) -> 3/2 - sqrt(5)/2, freq(b) -> -1/2 + sqrt(5)/2
+  Under gamma_5: freq(a) -> -sqrt(5)/2 - 1/2, freq(b) -> 4/(1 - sqrt(5))**2
+  [FAIL]  6d: C on frequencies == gamma_5 on frequencies
+         C gives (3/2 - sqrt(5)/2, -1/2 + sqrt(5)/2), gamma_5 gives (-sqrt(5)/2 - 1/2, 4/(1 - sqrt(5))**2). gamma_5(1/phi) = -phi (negative!), not 1/phi^2.
+
+--- 7. WHAT IS TRUE: STRUCTURAL INTERTWINING ---
+  [PASS]  7a: C * P_sigma == P_CsC (row swap of eigenvector matrix)
+         C acts on P by swapping rows <=> swapping generators a,b.
+  [PASS]  7b: C^2 = I (involution)
+
+--- 8. PRECISE RELATIONSHIP ---
+  The eigenspace decomposition of M_sigma gives two invariant lines:
+    L_phi     = span([phi, 1])     slope = 1/phi = -1/2 + sqrt(5)/2
+    L_phibar  = span([phi_bar, 1]) slope = 1/phi_bar = -sqrt(5)/2 - 1/2
+
+  gamma_5 acts WITHIN M_sigma's eigenspaces:
+    L_phi -> L_phibar  (swaps the two lines of the SAME matrix)
+    Eigenvalue label CHANGES: phi -> phi_bar
+
+  C acts BETWEEN the two substitutions:
+    L_phi(M_sigma) -> L_phi(M_CsC)  (maps to eigenvector of DIFFERENT matrix)
+    Eigenvalue label PRESERVED: phi -> phi
+
+  These are different Z/2 actions on the eigenspace data.
+  gamma_5 is 'vertical' (moves between eigenvalue strata).
+  C is 'horizontal' (moves between substitution matrices).
+
+--- 9. WHERE C = gamma_5 MIGHT STILL HOLD ---
+  The incidence matrix is a SHADOW (abelianisation) of the substitution.
+  At higher levels:
+    - SL(2) trace map T_sigma(x,y,z) = (z, x, xz-y): C and gamma_5
+      could coincide on the Suto surface x^2+y^2+z^2-2xyz-1 = 0.
+    - Character variety of m004: the geometric point has
+      tr(A)=tr(B)=2, so C (swapping A,B) is trivially the identity.
+      gamma_5 might act non-trivially on other points of the variety.
+    - SL(3) Sym^2 traces: reversal theta becomes non-trivial,
+      which could change the C-vs-gamma_5 comparison.
+
+========================================================================
+SUMMARY
+========================================================================
+
+  15 PASS, 3 FAIL out of 18 checks.
+
+  FAILURES (negatives first):
+    [FAIL] 6a: C in eigenbasis == swap [[0,1],[1,0]]
+    [FAIL] 6c: C([phi,1]) ~ gamma_5([phi,1])
+    [FAIL] 6d: C on frequencies == gamma_5 on frequencies
+
+  [PASS]  2a: M_sigma == M_sigma_mirror
+  [PASS]  2b: M_CsC == M_RCsCR
+  [PASS]  3a: same char poly
+  [PASS]  3b: eigenvalues are phi, phi_bar
+  [PASS]  3c: -1/phi == phi_bar
+  [PASS]  4a: v_phi(M_sigma) ~ [phi, 1]
+  [PASS]  4b: v_phibar(M_sigma) ~ [phi_bar, 1]
+  [PASS]  4c: v_phi(M_CsC) ~ [1, phi]
+  [PASS]  4d: v_phibar(M_CsC) ~ [1, phi_bar]
+  [PASS]  5a: M_CsC = C * M_sigma * C
+  [PASS]  5b: C * v_phi(sigma) ~ v_phi(CsC)
+  [PASS]  5c: C * v_phibar(sigma) ~ v_phibar(CsC)
+  [FAIL]  6a: C in eigenbasis == swap [[0,1],[1,0]]
+  [PASS]  6b: C_eig is an involution (C_eig^2 = I)
+  [FAIL]  6c: C([phi,1]) ~ gamma_5([phi,1])
+  [FAIL]  6d: C on frequencies == gamma_5 on frequencies
+  [PASS]  7a: C * P_sigma == P_CsC (row swap of eigenvector matrix)
+  [PASS]  7b: C^2 = I (involution)
+
+  CONCLUSION:
+  -----------
+  PROVED:
+    (a) Reversal R is invisible at incidence-matrix level (trivial).
+    (b) C conjugates M_sigma to M_CsC, preserving eigenvalues phi, phi_bar.
+    (c) C * P_sigma = P_CsC: C swaps generator labels (rows of eigenvector matrix).
+    (d) C is an involution, as is gamma_5.
+
+  NOT PROVED (NEGATIVE):
+    (e) C in the eigenbasis of M_sigma is NOT the swap matrix.
+        It is a reflection with tr=0, det=-1, but its axis is [1,1]
+        (the fixed point of the generator swap), not the diagonal of the
+        eigenbasis.  C does not swap the phi and phi_bar eigenspaces.
+    (f) C and gamma_5 act differently on eigenvectors:
+        gamma_5([phi,1]) = [phi_bar, 1]  (swaps eigenvalue labels)
+        C([phi,1])       = [1, phi]      (preserves eigenvalue labels)
+        These map to DIFFERENT lines in R^2.
+    (g) C and gamma_5 act differently on frequencies:
+        gamma_5(1/phi) = -phi (negative, not a frequency)
+        C(1/phi) = 1/phi^2 (positive, the other frequency)
+
+  STATUS: The claim "C = gamma_5 at the incidence-matrix level" is FALSE
+  in the precise sense of eigenspace-swapping.  C and gamma_5 are
+  genuinely different Z/2 actions.  The question "C = gamma_5 at the
+  character variety?" remains OPEN and cannot be settled at this level.
+
