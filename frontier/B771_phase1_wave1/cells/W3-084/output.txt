@@ -46,4 +46,4 @@ Matrix([[0, 0, 1, 1], [1, 0, 1, 1], [1, 1, 1, 1], [1, 1, 2, 1]])
 [   1.16s] VERDICT: RESOLVED-A
 [   1.16s] HEADLINE: border-forced AP complex of sigma_4 built (E=10, V=7, b1=4); Hˇ^0=Z, Hˇ^1=Z^4
 [   1.16s] FAILED GATES: []
-[   1.16s] wrote /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W3-084/results.json
+[   1.16s] wrote <repo>/frontier/B771_phase1_wave1/cells/W3-084/results.json

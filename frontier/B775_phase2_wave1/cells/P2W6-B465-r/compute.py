@@ -70,7 +70,7 @@ import numpy as np
 
 OUT = {}
 T0 = time.time()
-CELL = "/Users/dri/origin-axiom/frontier/B775_phase2_wave1/cells/P2W6-B465-r"
+CELL = "<repo>/frontier/B775_phase2_wave1/cells/P2W6-B465-r"
 
 # ------------------------------------------------------------------ shared kit (verbatim
 # conventions of B465's exact_engine / c_family, so the repair speaks about the SAME object)
@@ -361,7 +361,7 @@ def leg3():
     Ts = heis(N, Z, X)
     import importlib.util
     spec = importlib.util.spec_from_file_location(
-        "cf", "/Users/dri/origin-axiom/frontier/B465_monodromy_intake/c_family.py")
+        "cf", "<repo>/frontier/B465_monodromy_intake/c_family.py")
     cf = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(cf)
     cfam = {}

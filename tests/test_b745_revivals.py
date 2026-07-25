@@ -51,8 +51,13 @@ def test_c4_disc_mod_2_always_square_vacuity():
         if D == 0 or sp.Poly(D, x).degree() <= 0:
             continue
         tested += 1
-        fac = sp.factor_list(sp.Poly(D, x, modulus=2).as_expr(), modulus=2)
-        assert all(mult % 2 == 0 for _, mult in fac[1])
+        # square-in-char-2 <=> D mod 2 lies in GF(2)[x^2] <=> every odd-degree coeff vanishes.
+        # (Coefficient test, NOT factor_list mod 2: same square-mod-2 property, but avoids the
+        # python-flint "nmods cannot be ordered" backend error.)
+        Dp = sp.Poly(D, x)
+        deg = Dp.degree()
+        coeffs = Dp.all_coeffs()            # coeffs[i] is the coefficient of x^(deg-i)
+        assert all(int(coeffs[deg - k]) % 2 == 0 for k in range(1, deg + 1, 2))
     assert tested >= 20
 
 

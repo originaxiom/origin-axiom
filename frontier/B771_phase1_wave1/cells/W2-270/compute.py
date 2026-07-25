@@ -59,7 +59,7 @@ import sympy as sp
 T0 = time.time()
 OUT = {}
 FAILED = []
-CELL_DIR = "/Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W2-270"
+CELL_DIR = "<repo>/frontier/B771_phase1_wave1/cells/W2-270"
 RESULTS = f"{CELL_DIR}/results.json"
 
 

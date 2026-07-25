@@ -11,4 +11,4 @@ verdict : RESOLVED-B
 reason  : epsilon-pinv route reproduces the SL(5) tower to 22/24 including ONE k=2 copy (conditioned), but STALLS on the second char(M^2) copy: the residual 2-dim mode lands off-catalog and SCATTERS across seeds (gauge-dependent).
 wall    : svd_pinv discontinuity at the fixed-line rank-loss, at the doubly-degenerate even-k / Lambda^2=e_2 eigenspace collision (char(M^2) mult-2). Same wall hit independently by B61 (real SVD-pinv), B58-phaseA (exact F_p normal-equation pinv-limit -> a_2=1), and B66. EXTERNAL: the exact second copy needs the symbolic ambient SL(5,C) trace ring (NEEDS-SPECIALIST); recovered structurally by B62's opposition involution theta=-w0, which does NOT pass through the pinv-limit.
 
-wrote /Users/dri/origin-axiom/frontier/B775_phase2_wave1/cells/P2W3-SL5/results.json
+wrote <repo>/frontier/B775_phase2_wave1/cells/P2W3-SL5/results.json

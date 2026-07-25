@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+<home>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 m004 homology: Z | m003 homology: Z/5 + Z
 m004 monodromy RL trace = 3, char poly = x**2 - 3*x + 1 (golden phi^2), |2-tr| = 1 => H_1 = Z

@@ -48,7 +48,7 @@ from collections import defaultdict
 import sympy as sp
 
 T0 = time.time()
-CELL = "/Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W3-084"
+CELL = "<repo>/frontier/B771_phase1_wave1/cells/W3-084"
 OUT = {}
 FAILED = []
 

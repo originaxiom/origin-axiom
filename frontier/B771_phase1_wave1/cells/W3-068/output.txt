@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+<home>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 [   1.15s] ====================================================================================================
 [   1.15s] W3-068 / L11 -- rank-2 (degree-2) covers of the metallic bundles: does trace-field

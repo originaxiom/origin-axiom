@@ -1,7 +1,7 @@
 ==============================================================================
 STEP 0 -- re-read the sealed context (sanity echo, not authority)
 ==============================================================================
-B581 stored data: /Users/dri/origin-axiom/frontier/B581_six_torsions/six_torsions_results.json exists: True
+B581 stored data: <repo>/frontier/B581_six_torsions/six_torsions_results.json exists: True
   banked Delta_1(t) = t**3 - 6*t**2 + 6*t - 1
   banked Delta_4(t) = t**9 - 18*t**8 + 2187*t**7 - 80329*t**6 + 490905*t**5 - 490905*t**4 + 80329*t**3 - 2187*t**2 + 18*t - 1
   banked Delta_5(t) = t**11 - 22*t**10 + 3413*t**9 - 1324075*t**8 + 50524266*t**7 - 310086527*t**6 + 310086527*t**5 - 50524266*t**4 + 1324074*t**3 - 3413*t**2 + 22*t - 1

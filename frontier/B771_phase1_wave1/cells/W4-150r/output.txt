@@ -291,7 +291,7 @@ S5 -- VERDICT BLOCK (Wave-4 deliverable: promotes RESOLVED-A from agent prose in
 
   cell-wide tally: 30 checks total, 28 HOLD, 2 VIOLATED (0 of which unaccounted-for by the allowlist).
 
-  results.json written unconditionally -> /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W4-150r/results.json
+  results.json written unconditionally -> <repo>/frontier/B771_phase1_wave1/cells/W4-150r/results.json
 ============================================================================================
 TOTAL cell time: 45.1s
 ============================================================================================
