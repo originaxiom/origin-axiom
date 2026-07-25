@@ -1,0 +1,136 @@
+========================================================================
+SECTION 1: SELF-DUALITY INTERTWINER (CORRECTED)
+========================================================================
+
+  S_sd [[0,0,1],[0,-2,0],[1,0,0]]
+    S*Sym2(g)*S^-1 = Sym2(g)^{-T}?  True
+  cc disc-form [[0,0,2],[0,-1,0],[2,0,0]]
+    S*Sym2(g)*S^-1 = Sym2(g)^{-T}?  False
+  Sym2(J)
+    S*Sym2(g)*S^-1 = Sym2(g)^{-T}?  False
+
+RESULT: S_sd = [[0,0,1],[0,-2,0],[1,0,0]] is the UNIQUE (up to scalar)
+self-duality intertwiner in the {x^2, 2xy, y^2} Sym2 basis.
+cc's [[0,0,2],[0,-1,0],[2,0,0]] is WRONG (not a scalar multiple).
+
+========================================================================
+SECTION 2: V0 CONJUGATING MATRICES
+========================================================================
+
+Conjugating matrices on V0:
+  iota:           S_iota = diag(1,-1,1) = Sym2(diag(1,-1))
+  contragredient: S_sd   = [[0,0,1],[0,-2,0],[1,0,0]]
+  theta_T:        Q      = S_iota * S_sd^-1 = [[0, 0, 1], [0, 1/2, 0], [1, 0, 0]]
+
+  iota              : S*f(A)*S^-1 = A? True,  S*f(B)*S^-1 = B? True
+  contragredient    : S*f(A)*S^-1 = A? True,  S*f(B)*S^-1 = B? True
+  theta_T           : S*f(A)*S^-1 = A? True,  S*f(B)*S^-1 = B? True
+
+========================================================================
+SECTION 3: V0 INNERNESS CENSUS (NUMERICAL)
+========================================================================
+
+Testing all 7 nontrivial elements of <theta_T, iota, c> on V0:
+
+  Trial 1:
+    theta_T               : nullity=1  (INNER)
+    iota                  : nullity=1  (INNER)
+    c                     : nullity=0  (OUTER)
+    contragredient        : nullity=1  (INNER)
+    c*theta_T             : nullity=0  (OUTER)
+    c*iota                : nullity=0  (OUTER)
+    c*contragredient      : nullity=0  (OUTER)
+
+  Trial 2:
+    theta_T               : nullity=1  (INNER)
+    iota                  : nullity=1  (INNER)
+    c                     : nullity=0  (OUTER)
+    contragredient        : nullity=1  (INNER)
+    c*theta_T             : nullity=0  (OUTER)
+    c*iota                : nullity=0  (OUTER)
+    c*contragredient      : nullity=0  (OUTER)
+
+  Trial 3:
+    theta_T               : nullity=1  (INNER)
+    iota                  : nullity=1  (INNER)
+    c                     : nullity=0  (OUTER)
+    contragredient        : nullity=1  (INNER)
+    c*theta_T             : nullity=0  (OUTER)
+    c*iota                : nullity=0  (OUTER)
+    c*contragredient      : nullity=0  (OUTER)
+
+  Trial 4:
+    theta_T               : nullity=1  (INNER)
+    iota                  : nullity=1  (INNER)
+    c                     : nullity=0  (OUTER)
+    contragredient        : nullity=1  (INNER)
+    c*theta_T             : nullity=0  (OUTER)
+    c*iota                : nullity=0  (OUTER)
+    c*contragredient      : nullity=0  (OUTER)
+
+  Trial 5:
+    theta_T               : nullity=1  (INNER)
+    iota                  : nullity=1  (INNER)
+    c                     : nullity=0  (OUTER)
+    contragredient        : nullity=1  (INNER)
+    c*theta_T             : nullity=0  (OUTER)
+    c*iota                : nullity=0  (OUTER)
+    c*contragredient      : nullity=0  (OUTER)
+
+========================================================================
+SECTION 4: GENERIC SL(3) INNERNESS CENSUS
+========================================================================
+
+Testing all 7 nontrivial elements on generic SL(3):
+
+  Trial 1: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 2: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 3: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 4: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 5: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 6: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 7: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 8: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 9: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+  Trial 10: theta_T=O, iota=O, c=O, contragredient=O, c*theta_T=O, c*iota=O, c*contragredient=O
+
+========================================================================
+SECTION 5: THE RANK PICTURE
+========================================================================
+
+V0 = Sym^2(SL(2)):
+  theta_T:        INNER  (Q = [[0,0,1],[0,1/2,0],[1,0,0]])
+  iota:           INNER  (S_iota = diag(1,-1,1))
+  contragredient: INNER  (S_sd^{-1} = [[0,0,1],[0,-1/2,0],[1,0,0]])
+  c:              OUTER  (complex conjugation)
+  gamma5:         OUTER  (Galois on sqrt(5))
+
+  => V0 rep-variety rank = 2 = {c, gamma5}
+  => B766's 'rank 3' counted theta at raw-matrix level
+     (Sym2(AB) != Sym2(BA), but the REPRESENTATIONS are conjugate)
+
+Generic SL(3) (W1/W2):
+  theta_T:        OUTER  (nullity 0 at all 10 trials)
+  iota:           OUTER  (nullity 0 at all 10 trials)
+  contragredient: OUTER  (nullity 0, = theta_T * iota)
+  c:              OUTER
+  gamma5:         OUTER
+
+  => Full SL(3) rep-variety rank = 4 = {c, theta_T, iota, gamma5}
+  => contragredient = theta_T * iota (dependent)
+
+The rank JUMP V0 -> full SL(3):
+  V0: theta_T, iota, contragredient all INNER (self-dual + Riley P)
+  SL(3): all three OUTER (no self-duality, no Riley structure)
+  This is EXACTLY the non-self-duality obstruction.
+
+KEY IDENTITY: theta_T * iota = contragredient.
+  theta_T: (A,B) -> (A^T, B^T)
+  iota:    (A,B) -> (A^{-1}, B^{-1})
+  product: (A,B) -> ((A^{-1})^T, (B^{-1})^T) = (A^{-T}, B^{-T})
+  This is the contragredient, which is OUTER for SL(n), n >= 3
+  (standard vs dual representation have different highest weights).
+
+ANSWER TO CC's OPEN DOOR: YES, rank 4 on full SL(3).
+The 4th generator is theta_T (transpose involution), independent
+of iota because their product = contragredient = outer at SL(3).

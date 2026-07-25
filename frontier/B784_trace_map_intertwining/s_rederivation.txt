@@ -1,0 +1,140 @@
+========================================================================
+SECTION 1: P vs J — INVERSION vs CONTRAGREDIENT
+========================================================================
+
+J * g * J^{-1} for generic g =
+⎡d   -c⎤
+⎢      ⎥
+⎣-b  a ⎦
+
+g^{-T} =
+⎡d   -c⎤
+⎢      ⎥
+⎣-b  a ⎦
+
+J*g*J^{-1} = g^{-T} for generic g?  True
+
+P * g * P^{-1} for generic g =
+⎡a   -b⎤
+⎢      ⎥
+⎣-c  d ⎦
+
+g^{-T} =
+⎡d   -c⎤
+⎢      ⎥
+⎣-b  a ⎦
+
+P*g*P^{-1} = g^{-T} for generic g?  False
+
+------------------------------------------------------------------------
+KEY: J implements g -> g^{-T} (contragredient) for all SL(2).
+     P implements M^{-1} -> M (inversion) for Riley family only.
+     Different operations, different matrices, both correct.
+------------------------------------------------------------------------
+
+========================================================================
+SECTION 2: P WORKS FOR THE ENTIRE RILEY FAMILY
+========================================================================
+
+P * A(u)^{-1} * P^{-1} = A(u)?  True  (all u)
+P * B(u)^{-1} * P^{-1} = B(u)?  True  (all u)
+
+WHY: A = [[1,1],[0,1]], A^{-1} = [[1,-1],[0,1]].  Inversion negates
+the off-diagonal entry.  P = diag(1,-1) also negates off-diagonal
+entries (conjugation: [[a,-b],[-c,d]]).  So P*A^{-1}*P^{-1} = A.
+Same for B = [[1,0],[-u,1]], B^{-1} = [[1,0],[u,1]].
+
+Does J implement inversion at the geometric point?
+  J * A^{-1} * J^{-1} = [[1, 0], [1, 1]]
+  A =                  [[1, 1], [0, 1]]
+  Equal?  False  (NO — J gives the contragredient, not inversion)
+
+========================================================================
+SECTION 3: THE CORRECT GENERAL STATEMENT
+========================================================================
+
+For SL(2): g^{-1} = J * g^T * J^{-1}  (standard identity).
+Therefore: M^{-1} = J * M^T * J^{-1}.
+
+At the Riley parametrization: P * M^{-1} * P^{-1} = M  for all (A(u), B(u)).
+Combining: P * J * M^T * J^{-1} * P^{-1} = M.
+So: (PJ) * M^T * (PJ)^{-1} = M  for Riley matrices.
+
+P * J = [[0, 1], [1, 0]],  det = -1
+
+(PJ) * A(u)^T * (PJ)^{-1} = A(u)?  True
+(PJ) * B(u)^T * (PJ)^{-1} = B(u)?  True
+
+So the inversion/contragredient relationship at Riley is:
+  inversion P = contragredient J composed with transpose conjugator.
+  P = (PJ) * (J^{-1}),  where PJ implements transpose-to-identity
+  and J implements identity-to-contragredient.
+
+========================================================================
+SECTION 4: Sym^2 LIFT — S vs Sym^2(J)
+========================================================================
+
+S = Sym^2(P) = Sym^2(diag(1,-1)) =
+⎡1  0   0⎤
+⎢        ⎥
+⎢0  -1  0⎥
+⎢        ⎥
+⎣0  0   1⎦
+
+Sym^2(J) =
+⎡0  0   1⎤
+⎢        ⎥
+⎢0  -1  0⎥
+⎢        ⎥
+⎣1  0   0⎦
+
+cc's test with Sym^2(J) at g = [[3,1],[2,1]] (det=1):
+  Sym^2(J) * Sym^2(g) * Sym^2(J)^{-1} = Sym^2(g^{-T})?  True
+
+My test with S at w=AB (geometric point):
+  S * Sym^2((AB)^{-1}) * S^{-1} = Sym^2(BA)?  True
+
+Cross-test: Sym^2(J) on my inversion identity at w=AB:
+  Sym^2(J) * Sym^2((AB)^{-1}) * Sym^2(J)^{-1} = Sym^2(BA)?  False
+
+Cross-test: S on cc's contragredient identity at g=[[3,1],[2,1]]:
+  S * Sym^2(g) * S^{-1} = Sym^2(g^{-T})?  False
+
+------------------------------------------------------------------------
+RESULT: Each matrix passes ITS OWN identity, fails the OTHER's.
+  S = diag(1,-1,1): inversion at Riley (P*M^{-1}*P^{-1} = M)
+  Sym^2(J) = [[0,0,1],[0,-1,0],[1,0,0]]: contragredient (generic)
+------------------------------------------------------------------------
+
+========================================================================
+SECTION 5: BOTH PROVE THE SAME CONCLUSION — RANK 3 ON V0
+========================================================================
+
+Via P (inversion route):
+  P*A^{-1}*P^{-1} = A, P*B^{-1}*P^{-1} = B  =>  (A,B) ~ (A^{-1},B^{-1})
+  => iota is trivial on character variety  =>  rank 3 on V0
+
+Via J (contragredient route):
+  Sym^2 is self-dual:  Sym^2(M)^{-T} = Sym^2(J) Sym^2(M) Sym^2(J)^{-1}
+  Self-dual representations have tr(M) = tr(M^{-1})  (same character)
+  => iota is trivial on V0 traces  =>  rank 3 on V0
+
+Same conclusion by different paths.  cc's contragredient route is the
+standard proof.  My Riley-P route is concrete and parametrization-aware.
+The mislabel 'self-duality matrix' conflated the two.
+
+========================================================================
+CORRECTION SUMMARY
+========================================================================
+
+WRONG: 'S = diag(1,-1,1) = Sym^2 of the SL(2) self-duality matrix'
+RIGHT: 'S = diag(1,-1,1) = Sym^2(P), where P = diag(1,-1) is the
+        Riley off-diagonal negation.  P implements iota as theta
+        for the Riley family: P*M^{-1}*P^{-1} = M for all (A(u),B(u)).'
+
+The standard SL(2) self-duality matrix is J = [[0,1],[-1,0]],
+which implements the contragredient M -> M^{-T}, not inversion
+M -> M^{-1}.  cc tested the contragredient identity on my S;
+that test correctly fails because S implements a different operation.
+
+The rank-3 conclusion is UNAFFECTED by this relabeling.

@@ -148,12 +148,17 @@ trace pairs, θ acts on nothing (trace level) or on matrix entries
 closing group (Z/2)³ = ⟨c, θ, γ₅⟩? Three options: ι = c, ι = cθ (chord),
 or ι independent (rank > 3).
 
-**Answer: ι = θ · inner(S), where S = diag(1,−1,1) = Sym²(diag(1,−1)).**
+**Answer: ι = θ · inner(S), where S = diag(1,−1,1) = Sym²(P),
+P = diag(1,−1) = the Riley off-diagonal negation.**
 
-This is the Sym² lift of the SL(2) self-duality matrix P = diag(1,−1).
-For ALL words w: P·ρ₂(w⁻¹)·P⁻¹ = ρ₂(w^R) at SL(2), and
-S·Sym²(w⁻¹)·S⁻¹ = Sym²(w^R) on V0. Verified symbolically at 6 words
-including AB, A⁻¹B, AB⁻¹, A²B, ABA.
+P negates off-diagonal entries: [[a,b],[c,d]] → [[a,−b],[−c,d]]. For
+the entire Riley family (A = [[1,1],[0,1]], B = [[1,0],[−u,1]], all u),
+inversion negates the single off-diagonal entry, so P·M⁻¹·P⁻¹ = M.
+S = Sym²(P) lifts this to V0: S·Sym²(w⁻¹)·S⁻¹ = Sym²(w^R) for ALL
+words w. Verified symbolically at 6 words including AB, A⁻¹B, AB⁻¹,
+A²B, ABA. P is NOT the standard SL(2) self-duality matrix — that is
+J = [[0,1],[−1,0]], which implements the contragredient (M → M^{−T}),
+not inversion (M → M⁻¹). Both prove rank 3 on V0 by different routes.
 
 Consequences:
 - On V0 (Sym², self-dual): S exists, ι is gauge-equivalent to θ. Both
@@ -192,20 +197,54 @@ not a structural distinction.
 
 ### 9. The inner/outer classification of involutions (CORRECTED)
 
-| involution | matrix level | character variety | flip-vector (c,θ,γ₅) |
-|---|---|---|---|
-| identity | inner | trivial | (0,0,0) |
-| c | outer | NON-TRIVIAL (flips T4) | (1,0,0) |
-| θ (reversal) | outer (Schur) | TRIVIAL (all traces) | (0,1,0) — rep. variety only |
-| γ₅ | outer (arithmetic) | NON-TRIVIAL (flips T3,T7) | (0,0,1) |
-| C (swap) | inner | TRIVIAL (gauge) | (0,0,0) |
-| ι (inversion) | outer | SL(3): non-trivial on W1/W2 | not in torsor |
+The three rep-variety involutions from θ and ι:
 
-θ and C are both trivial on the character variety, by DIFFERENT
-mechanisms: θ because reversal = cyclic permutation (trace-invisible),
-C because inner automorphism (gauge). θ's flip-vector (0,1,0) applies
-to T6, which is a REPRESENTATION-VARIETY (matrix-level) observable,
-not a character-variety (trace-level) one.
+| involution | action on (A,B) | V0 status | generic SL(3) status |
+|---|---|---|---|
+| θ_T (transpose) | (A^T, B^T) | INNER (Q) | OUTER |
+| ι (inversion) | (A⁻¹, B⁻¹) | INNER (S_ι) | OUTER |
+| contragredient (= θ_T·ι) | (A^{−T}, B^{−T}) | INNER (S_sd⁻¹) | OUTER |
+| c | (Ā, B̄) | OUTER | OUTER |
+| γ₅ | Galois on √5 | OUTER | OUTER |
+| C (swap) | inner (gauge) | INNER | INNER |
+
+Conjugating matrices on V0:
+- ι: S_ι = diag(1,−1,1) = Sym²(P), P = Riley off-diagonal negation
+- contragredient: S_sd⁻¹ = [[0,0,1],[0,−1/2,0],[1,0,0]], where
+  S_sd = [[0,0,1],[0,−2,0],[1,0,0]] is the self-duality intertwiner
+- θ_T: Q = S_ι · S_sd⁻¹ = [[0,0,1],[0,1/2,0],[1,0,0]]
+
+On V0: rank = 2 = {c, γ₅}. θ_T, ι, contragredient all gauge.
+On generic SL(3): rank = 4 = {c, θ_T, ι, γ₅}. All three become outer.
+The rank jump IS the non-self-duality obstruction.
+
+### 10. Rank 4 on full SL(3): the complete innerness census
+
+**ADDENDUM (2026-07-25).** cc's open door (B786 green-lit):
+does θ genuinely separate from ι at the representation level on
+non-self-dual SL(3)? ANSWER: YES.
+
+The key identity: θ_T · ι = contragredient. The contragredient sends
+(A,B) → (A^{−T}, B^{−T}). For SL(n) with n ≥ 3, the standard and
+dual representations have different highest weights ((1,0,...) vs
+(0,...,1)), so the contragredient is OUTER for generic irreducible
+representations. Since θ_T · ι is outer, θ_T and ι are independent.
+
+Verified numerically: all 7 nontrivial elements of ⟨c, θ_T, ι⟩ have
+nullity 0 (OUTER) at 10 random SL(3) pairs. On V0 (Sym²(SL(2))):
+all 3 of {θ_T, ι, contragredient} have nullity 1 (INNER) at 5 trials.
+
+The full involution group on the SL(3) representation variety:
+(Z/2)⁴ = ⟨c, θ_T, ι, γ₅⟩, rank 4.
+
+The self-duality intertwiner (CORRECTED from both cc and cc3):
+S_sd = [[0,0,1],[0,−2,0],[1,0,0]]. This satisfies
+S_sd · Sym²(g) · S_sd⁻¹ = Sym²(g)^{−T} for all g ∈ SL(2).
+cc's proposed [[0,0,2],[0,−1,0],[2,0,0]] is WRONG (not a scalar
+multiple). Sym²(J) satisfies a DIFFERENT identity:
+Sym²(J) · Sym²(g) · Sym²(J)⁻¹ = Sym²(g^{−T}), where
+Sym²(g^{−T}) ≠ Sym²(g)^{−T} because Sym² doesn't commute with
+transpose (the factor-of-2 entries).
 
 ---
 
@@ -242,8 +281,9 @@ lives in the gap between the representation variety and the character
 variety: the fibre-functor torsor (B701).
 
 Character-variety torsor: ⟨c, γ₅⟩ ≅ Z/2 × Z/2 = 2 bits open.
-Full torsor: ⟨c, θ, γ₅⟩ ≅ F₂³ = 3 bits, all open at the character
-variety. θ requires representation-variety data to detect.
+V0 rep-variety torsor: ⟨c, γ₅⟩ = rank 2 (θ_T, ι, contragredient
+all INNER/gauge on V0). Full SL(3) rep-variety: ⟨c, θ_T, ι, γ₅⟩ =
+rank 4 (all three become OUTER when self-duality breaks).
 
 ### Why NO combinatorial operation reaches the character variety
 
@@ -259,21 +299,21 @@ claimed. No word-level operation produces a non-trivial action on
 traces. The golden Galois γ₅ and the complex conjugation c both
 require operations OUTSIDE the combinatorial landscape.
 
-### The stratification (corrected)
+### The stratification (corrected, with rank-4 update)
 
 1. Character variety (traces): sees c and γ₅. 2 bits open. The
    combinatorial landscape maps entirely to the identity here.
-2. Representation variety (matrices): adds θ. 3 bits open. θ is
-   visible through Sym²(AB) ≠ Sym²(BA) (traceless matrix difference
-   with 6 nonzero entries). This is the level of T6 (chord sign).
-3. Combinatorial (word): tracking = θ confirmed (B783). But this
-   does NOT propagate to the character variety because θ is
-   trace-invisible. The word-level structure is finer than traces.
-
-The trace-map functor operates ON the character variety. Since θ is
-invisible there, the functor cannot carry B783's word-level θ result
-to the character variety. The bridge that B784 attempted to build
-does not exist at the trace level.
+   At full SL(3): ι adds a 3rd bit (tr(g⁻¹) ≠ tr(g)). Char-variety
+   rank = 3 = {c, ι, γ₅} on full SL(3).
+2. Representation variety (mod conjugation): on V0, θ_T and ι are
+   BOTH gauge (inner). On full SL(3), both become outer: rank = 4 =
+   {c, θ_T, ι, γ₅}. The rank jump is the non-self-duality obstruction.
+   θ_T · ι = contragredient (outer at SL(3), inner at SL(2)/Sym²).
+3. Raw matrices (pre-conjugation): θ is visible as Sym²(AB) ≠ Sym²(BA)
+   even on V0, but this is a pre-quotient observable, NOT a
+   representation-variety invariant. B766's "rank 3" counted this.
+4. Combinatorial (word): tracking = θ confirmed (B783). Does NOT
+   propagate to the character variety (θ trace-invisible).
 
 ### The mapping class is θ-insensitive and ι-insensitive
 

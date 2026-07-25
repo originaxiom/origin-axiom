@@ -9,11 +9,12 @@ Three options tested:
   (2) iota = c*theta (chord)             -> NO
   (3) iota independent (rank >= 4)       -> YES, but INNER on V0
 
-Result: iota = theta * (self-duality inner automorphism).  On V0 (Sym^2),
-self-duality holds via S = diag(1,-1,1), so iota is gauge-equivalent to
-theta.  On W1/W2 (generic SL(3), not self-dual), iota is OUTER and
-genuinely independent.  B766's rank 3 stands for V0.  The full SL(3)
-character variety has rank 4.
+Result: iota = theta * inner(S), where S = Sym^2(P), P = diag(1,-1) is
+the Riley off-diagonal negation (NOT the SL(2) self-duality matrix J).
+P*M^{-1}*P^{-1} = M for the entire Riley family (all u).  On V0 (Sym^2),
+S exists and iota is gauge-equivalent to theta.  On W1/W2 (generic SL(3),
+not self-dual), iota is OUTER and genuinely independent.  B766's rank 3
+stands for V0.  The full SL(3) character variety has rank 4.
 
 Gate 5-Q.
 """
@@ -93,7 +94,9 @@ print(f"  All words: {all_ok_s}")
 print()
 
 print("IDENTITY PROVED: iota = theta * inner(S) on V0.")
-print("S = diag(1,-1,1) is the Sym^2 lift of the SL(2) self-duality matrix.")
+print("S = diag(1,-1,1) = Sym^2(P), P = diag(1,-1) = Riley off-diagonal negation.")
+print("P is NOT the SL(2) self-duality matrix J = [[0,1],[-1,0]].")
+print("P implements inversion (M -> M^{-1}); J implements contragredient (M -> M^{-T}).")
 print("Since inner automorphisms are gauge, iota = theta (mod gauge) on V0.")
 print("Both are trivial on the V0 character variety.")
 print()
