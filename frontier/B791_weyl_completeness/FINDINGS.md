@@ -1,5 +1,14 @@
 # B791 — Weyl completeness criterion + independent verification of the B788 bank
 
+> ### ⚠ TWO CORRECTIONS POSTED 2026-07-28 — read before using anything below
+> 1. **The per-sector count is dim(V_i)·W(T), NOT W(T)** (`sector_count_correction.py`).
+>    §2's uniform criterion carried a factor error. **Chat-1's headline "live defect" in §3
+>    EVAPORATES**: Gate 9's sealed interval CAN discharge Gate 5. The real bug is the hand-set
+>    screen cap — cc's separate catch, now the whole story rather than an addendum.
+> 2. **λ₁(parent) = 51.014 is UNSOURCED** (`PROVENANCE_ALERT.md`). §4's second calibration point
+>    has no retrievable source and may be model-fabricated. **GATE8R2 must not execute.** The
+>    0.344 % Weyl agreement is withdrawn as evidence — it is consistent with fabrication.
+
 **Receipt on B788** (`frontier/B788_maass_spectrum_programme`, the external Gates 0–9R Maass
 bank). Companion receipt: **B790** (cc's adjudication of the original Chat-1 handoff).
 Gate 5 + Gate 5-Q binding. **Nothing here reaches CLAIMS.md.**

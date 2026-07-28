@@ -32,15 +32,42 @@ def test_per_sector_budget_table():
         assert abs(W * mp.mpf(T) ** 3 - claim) < 0.002
 
 
-def test_gate9_cannot_discharge_gate5():
-    """Gate 9's sealed interval [0.5,12] yields ~4.94/sector; Gate 5 requires 10."""
+def test_sector_counts_carry_the_dim_factor():
+    """CORRECTION: sector i contributes dim(V_i)*W(T), NOT W(T).
+
+    E_rho = E1+E5+E6 has RANKS 1,5,6; Weyl on a rank-m flat bundle gives m*W(T)
+    eigenvalues, generically simple (irreducible holonomy, and the degree-12 cover is
+    non-regular so no deck group forces degeneracy).
+    """
     W = _W()
-    mu = W * (mp.mpf(12) ** 3 - mp.mpf("0.5") ** 3)
-    assert abs(mu - mp.mpf("4.9357")) < mp.mpf("1e-3")
-    assert mu < 10                                   # the defect
-    r_needed = (mp.mpf(10) / W) ** (mp.mpf(1) / 3)
-    assert abs(r_needed - mp.mpf("15.184")) < mp.mpf("1e-2")
-    assert abs((r_needed / 12) ** 3 - mp.mpf("2.026")) < mp.mpf("1e-2")
+    dims = {"V1": 1, "V5": 5, "V6": 6}
+    T = mp.mpf(12)
+    # the ranks must sum to the index, and the totals to m004's own Weyl count
+    assert sum(dims.values()) == 12
+    assert abs(sum(d * W * T ** 3 for d in dims.values()) - 12 * W * T ** 3) < mp.mpf("1e-20")
+    # V1 is the inherited parent sector -- dim 1, so it equals the parent count exactly.
+    # (This is why the factor error hid: both readings agree at V1.)
+    assert abs(dims["V1"] * W * T ** 3 - W * T ** 3) < mp.mpf("1e-25")
+    # the discriminator: the bank's own Gate-9 screen retained V5=25, V6=24 (cap 24)
+    assert abs(5 * W * T ** 3 - mp.mpf("24.68")) < mp.mpf("0.05")   # ~= observed 25
+    assert abs(6 * W * T ** 3 - mp.mpf("29.62")) < mp.mpf("0.05")   # > cap 24 => truncated
+
+
+def test_gate9_CAN_discharge_gate5_under_the_corrected_counting():
+    """Chat-1's headline 'live defect' evaporates once the dim factor is restored.
+
+    Gate 5 needs 10 distinct per sector; solving dim(V_i)*W*T^3 = 10 gives r = 8.88 (V5)
+    and 8.36 (V6), both INSIDE Gate 9's sealed interval [0.5, 12].
+    """
+    W = _W()
+    for dim, r_claim in ((5, 8.88), (6, 8.36)):
+        r_needed = (mp.mpf(10) / (dim * W)) ** (mp.mpf(1) / 3)
+        assert abs(r_needed - r_claim) < mp.mpf("0.02")
+        assert r_needed < 12                      # inside the sealed interval
+    # and the per-sector budget on [0.5,12] comfortably exceeds Gate 5's requirement
+    for dim in (5, 6):
+        mu = dim * W * (mp.mpf(12) ** 3 - mp.mpf("0.5") ** 3)
+        assert mu > 10
 
 
 def test_second_calibration_point_is_the_parent_ground_state():
