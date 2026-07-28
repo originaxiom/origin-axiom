@@ -1,0 +1,30 @@
+Building systems (Y = 0.75, Y = 0.62; rmax 7.45) ...
+  S1: 516 modes / 705 pts; S2: 774 modes / 1044 pts
+
+   r (refined)       lambda |dr| Y1-Y2                     sv tail (mult) S-inv dev
+    3.93891686    16.515066    1.0e-09    2.3e-01 2.2e-01 2.2e-10 2.1e-10   1.2e+00  mult=2 NEW (Gamma_41)
+    4.90008537    25.010837    1.0e-09    5.1e-01 2.3e-01 2.2e-01 1.7e-10   1.1e+00  mult=1 NEW (Gamma_41)
+    5.67072003    33.157066    1.0e-09    2.2e-01 1.8e-01 5.9e-10 5.8e-10   1.1e+00  mult=2 NEW (Gamma_41)
+    5.91291788    35.962598    1.0e-09    2.2e-01 1.8e-01 1.8e-01 3.5e-11   1.1e+00  mult=1 NEW (Gamma_41)
+    6.63280230    44.994066    1.0e-09    2.1e-01 2.0e-01 4.3e-10 4.3e-10   1.2e+00  mult=2 NEW (Gamma_41)
+    7.07200419    51.013243    1.0e-09    2.2e-01 5.0e-02 4.7e-02 4.4e-10   7.1e-10  mult=1 OLD (Bianchi)
+
+(S-inv dev: rel deviation of f under S = [[0,-1],[1,0]] in
+ PSL(2,O3) \ Gamma_41 — an old form is S-invariant, a newform not)
+
+Count to T = 7.072: 6 distinct, 9 with multiplicity; bare Weyl main term = 12.1
+(deficit is the cusp/Eisenstein correction, negative for one-cusp
+ manifolds; the exact scattering phase phi = Lam_K(s-1)/Lam_K(s)
+ [B737/B739] makes this computable — registered as follow-up)
+
+Spectral gap: lambda_1 = 16.515066 >> 1; no exceptional eigenvalues
+(scans of nu in (0.05, 0.95) at both windows found NO lam < 1 dips;
+ consistent with Luo-Rudnick-Sarnak lam_1 >= 3/4 with huge margin)
+
+GATE-8R2 VERIFICATION (cc's ask, MAASS_numbering relay section 4):
+  parent ground state (this computation): lambda = 51.013243, r = 7.07200419
+  secondary-sourced G-H value:            lambda = 51.014,   r = 7.072058
+  |delta r| = 5.38e-05 (~5-digit agreement = 1996 FEM accuracy; transcription VERIFIED,
+   value sharpened to ~9 digits by an independent method)
+
+Saved eigenvalues_final.json

@@ -1,0 +1,2596 @@
+{
+ "manifold": "m004",
+ "cutoff": 6.0,
+ "geodesics": [
+  {
+   "re": 1.0870701449957392,
+   "im": -1.7227684498700906,
+   "mult": 1,
+   "topology": "circle",
+   "word": "a"
+  },
+  {
+   "re": 1.0870701449957387,
+   "im": 1.7227684498700901,
+   "mult": 1,
+   "topology": "circle",
+   "word": "bC"
+  },
+  {
+   "re": 1.6628858910586224,
+   "im": -2.3921237881723134,
+   "mult": 2,
+   "topology": "circle",
+   "word": "AB"
+  },
+  {
+   "re": 1.6628858910586208,
+   "im": 2.3921237881723116,
+   "mult": 2,
+   "topology": "circle",
+   "word": "CbC"
+  },
+  {
+   "re": 1.725109255324122,
+   "im": -0.9218389314813368,
+   "mult": 1,
+   "topology": "circle",
+   "word": "cb"
+  },
+  {
+   "re": 1.7251092553241225,
+   "im": 0.9218389314813363,
+   "mult": 1,
+   "topology": "circle",
+   "word": "BaB"
+  },
+  {
+   "re": 2.174140289991472,
+   "im": -2.837648407439409,
+   "mult": 2,
+   "topology": "circle",
+   "word": "bba"
+  },
+  {
+   "re": 2.1741402899914783,
+   "im": 2.837648407439403,
+   "mult": 2,
+   "topology": "circle",
+   "word": "BcBB"
+  },
+  {
+   "re": 2.4161132869099635,
+   "im": -1.2086857931835011,
+   "mult": 2,
+   "topology": "circle",
+   "word": "aBCC"
+  },
+  {
+   "re": 2.4161132869099635,
+   "im": 1.2086857931834996,
+   "mult": 2,
+   "topology": "circle",
+   "word": "BaBBa"
+  },
+  {
+   "re": 2.6339157938496323,
+   "im": -1.1532040809085681e-15,
+   "mult": 1,
+   "topology": "circle",
+   "word": "Abcb"
+  },
+  {
+   "re": 2.633915793849628,
+   "im": 3.1415926535897905,
+   "mult": 6,
+   "topology": "circle",
+   "word": "BcBBB"
+  },
+  {
+   "re": 2.8394698923783896,
+   "im": -2.192690439615661,
+   "mult": 4,
+   "topology": "circle",
+   "word": "cBcBB"
+  },
+  {
+   "re": 2.8394698923784003,
+   "im": 2.192690439615594,
+   "mult": 4,
+   "topology": "circle",
+   "word": "caBB"
+  },
+  {
+   "re": 2.921563226226471,
+   "im": -1.3817440905462088,
+   "mult": 3,
+   "topology": "circle",
+   "word": "cccbA"
+  },
+  {
+   "re": 2.9215632262264726,
+   "im": 1.381744090546205,
+   "mult": 3,
+   "topology": "circle",
+   "word": "BaBaBaB"
+  },
+  {
+   "re": 3.0401611341503583,
+   "im": -2.9324998133192444,
+   "mult": 4,
+   "topology": "circle",
+   "word": "BBBabCB"
+  },
+  {
+   "re": 3.040161134150427,
+   "im": 2.9324998133192106,
+   "mult": 4,
+   "topology": "circle",
+   "word": "aBABBC"
+  },
+  {
+   "re": 3.261210434987217,
+   "im": -1.114879957569314,
+   "mult": 2,
+   "topology": "circle",
+   "word": "BcabCA"
+  },
+  {
+   "re": 3.2612104349872184,
+   "im": 1.1148799575693142,
+   "mult": 2,
+   "topology": "circle",
+   "word": "bCBcabC"
+  },
+  {
+   "re": 3.2753390261864874,
+   "im": -0.7151391547830939,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AbbCBc"
+  },
+  {
+   "re": 3.2753390261864825,
+   "im": 0.715139154783089,
+   "mult": 4,
+   "topology": "circle",
+   "word": "BcaaB"
+  },
+  {
+   "re": 3.3257717821172372,
+   "im": -1.4989377308349678,
+   "mult": 7,
+   "topology": "circle",
+   "word": "AbbCAc"
+  },
+  {
+   "re": 3.325771782117246,
+   "im": 1.4989377308349516,
+   "mult": 7,
+   "topology": "circle",
+   "word": "AbccAb"
+  },
+  {
+   "re": 3.369922215131987,
+   "im": -0.33420553977993894,
+   "mult": 4,
+   "topology": "circle",
+   "word": "Abcbb"
+  },
+  {
+   "re": 3.3699222151319903,
+   "im": 0.3342055397799336,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AbcbAb"
+  },
+  {
+   "re": 3.3958831836785768,
+   "im": -2.7854650056541415,
+   "mult": 6,
+   "topology": "circle",
+   "word": "bACbbC"
+  },
+  {
+   "re": 3.395883183678608,
+   "im": 2.7854650056540735,
+   "mult": 6,
+   "topology": "circle",
+   "word": "cbbbba"
+  },
+  {
+   "re": 3.450218510648193,
+   "im": -1.8436778629627206,
+   "mult": 4,
+   "topology": "circle",
+   "word": "aaBACa"
+  },
+  {
+   "re": 3.4502185106482774,
+   "im": 1.8436778629626278,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AbAbAA"
+  },
+  {
+   "re": 3.525494348078174,
+   "im": -2.1588771306901884e-15,
+   "mult": 6,
+   "topology": "circle",
+   "word": "bAAcabA"
+  },
+  {
+   "re": 3.6123167927403683,
+   "im": -2.140511242627064,
+   "mult": 4,
+   "topology": "circle",
+   "word": "bAbca"
+  },
+  {
+   "re": 3.6123167927403084,
+   "im": 2.1405112426267907,
+   "mult": 4,
+   "topology": "circle",
+   "word": "bcbAbC"
+  },
+  {
+   "re": 3.6635612141564673,
+   "im": -1.5836087722212673,
+   "mult": 4,
+   "topology": "circle",
+   "word": "abCbCbC"
+  },
+  {
+   "re": 3.663561214156469,
+   "im": 1.5836087722211223,
+   "mult": 4,
+   "topology": "circle",
+   "word": "cBaaa"
+  },
+  {
+   "re": 3.7078272576130322,
+   "im": -2.6788564851031205,
+   "mult": 4,
+   "topology": "circle",
+   "word": "bCABAb"
+  },
+  {
+   "re": 3.7078272576132267,
+   "im": 2.6788564851028616,
+   "mult": 4,
+   "topology": "circle",
+   "word": "cbbbbba"
+  },
+  {
+   "re": 3.714849612400207,
+   "im": -0.27797158492797946,
+   "mult": 4,
+   "topology": "circle",
+   "word": "ACbCBcB"
+  },
+  {
+   "re": 3.7148496124001795,
+   "im": 0.27797158492795776,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AcbbaB"
+  },
+  {
+   "re": 3.794126968821597,
+   "im": -2.3905276454179316,
+   "mult": 8,
+   "topology": "circle",
+   "word": "AAbAbbC"
+  },
+  {
+   "re": 3.79412696882172,
+   "im": 2.3905276454176008,
+   "mult": 8,
+   "topology": "circle",
+   "word": "bACbbA"
+  },
+  {
+   "re": 3.8510805373272055,
+   "im": -1.0844065547545039,
+   "mult": 4,
+   "topology": "circle",
+   "word": "ACCbCB"
+  },
+  {
+   "re": 3.8510805373271726,
+   "im": 1.084406554754474,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AcbbAA"
+  },
+  {
+   "re": 3.911622765214609,
+   "im": 3.1415926535897882,
+   "mult": 8,
+   "topology": "circle",
+   "word": "ACBB"
+  },
+  {
+   "re": 3.9165886153521368,
+   "im": -0.5040279476990263,
+   "mult": 8,
+   "topology": "circle",
+   "word": "Abcbbb"
+  },
+  {
+   "re": 3.91658861535215,
+   "im": 0.5040279476990136,
+   "mult": 8,
+   "topology": "circle",
+   "word": "ccAbbCbcBAb"
+  },
+  {
+   "re": 3.953821401174385,
+   "im": -1.6475685507821642,
+   "mult": 10,
+   "topology": "circle",
+   "word": "bCCBAb"
+  },
+  {
+   "re": 3.953821401174225,
+   "im": 1.647568550781827,
+   "mult": 10,
+   "topology": "circle",
+   "word": "ccccccAb"
+  },
+  {
+   "re": 3.983304782098631,
+   "im": -2.5990651461379595,
+   "mult": 12,
+   "topology": "circle",
+   "word": "ccBBAb"
+  },
+  {
+   "re": 3.983304782099023,
+   "im": 2.5990651461375003,
+   "mult": 12,
+   "topology": "circle",
+   "word": "AbCBA"
+  },
+  {
+   "re": 4.118026175983568,
+   "im": -0.6873435842351387,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AccBAC"
+  },
+  {
+   "re": 4.118026175983583,
+   "im": 0.6873435842350999,
+   "mult": 4,
+   "topology": "circle",
+   "word": "cccAbbCbcBAb"
+  },
+  {
+   "re": 4.126874137791117,
+   "im": -4.392322603575676e-14,
+   "mult": 12,
+   "topology": "circle",
+   "word": "AbCBcaB"
+  },
+  {
+   "re": 4.172076618339976,
+   "im": -2.7726262742998182,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AAbbCB"
+  },
+  {
+   "re": 4.1720766183407525,
+   "im": 2.772626274299271,
+   "mult": 4,
+   "topology": "circle",
+   "word": "cBBcBca"
+  },
+  {
+   "re": 4.174849405809367,
+   "im": -2.1208249630883516,
+   "mult": 8,
+   "topology": "circle",
+   "word": "cccbbA"
+  },
+  {
+   "re": 4.174849405809653,
+   "im": 2.120824963087443,
+   "mult": 8,
+   "topology": "circle",
+   "word": "CCbcbA"
+  },
+  {
+   "re": 4.208237152495328,
+   "im": -1.6975240926928628,
+   "mult": 8,
+   "topology": "circle",
+   "word": "cccccccbA"
+  },
+  {
+   "re": 4.208237152495395,
+   "im": 1.6975240926923296,
+   "mult": 8,
+   "topology": "circle",
+   "word": "bCbccbA"
+  },
+  {
+   "re": 4.228752385018254,
+   "im": -2.537577374709237,
+   "mult": 9,
+   "topology": "circle",
+   "word": "ccBcAbAb"
+  },
+  {
+   "re": 4.228752385018579,
+   "im": 2.5375773747084205,
+   "mult": 9,
+   "topology": "circle",
+   "word": "BBBBBBCaaB"
+  },
+  {
+   "re": 4.304437514379996,
+   "im": -1.0707529448327755,
+   "mult": 7,
+   "topology": "circle",
+   "word": "AbAbCBcB"
+  },
+  {
+   "re": 4.304437514379972,
+   "im": 1.0707529448327404,
+   "mult": 7,
+   "topology": "circle",
+   "word": "bCBcBAbbC"
+  },
+  {
+   "re": 4.31277313831031,
+   "im": -0.8369953248864801,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AcccAbbC"
+  },
+  {
+   "re": 4.312773138310313,
+   "im": 0.8369953248864284,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ACbcBBB"
+  },
+  {
+   "re": 4.32355945045388,
+   "im": -1.3025861770239247,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AcaBAC"
+  },
+  {
+   "re": 4.3235594504539225,
+   "im": 1.302586177023885,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbAABB"
+  },
+  {
+   "re": 4.34828057998297,
+   "im": -0.6078884923007888,
+   "mult": 10,
+   "topology": "circle",
+   "word": "Abcbbbb"
+  },
+  {
+   "re": 4.348280579982988,
+   "im": 0.6078884923007352,
+   "mult": 10,
+   "topology": "circle",
+   "word": "AbCBcBaB"
+  },
+  {
+   "re": 4.355902576851441,
+   "im": -2.917446973131214,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BaBBCaaB"
+  },
+  {
+   "re": 4.355902576851888,
+   "im": 2.917446973130686,
+   "mult": 8,
+   "topology": "circle",
+   "word": "bbbbbCbcBAbbCb"
+  },
+  {
+   "re": 4.368163715717412,
+   "im": -1.5264281704673235,
+   "mult": 4,
+   "topology": "circle",
+   "word": "BcabCAcabAA"
+  },
+  {
+   "re": 4.368163715717404,
+   "im": 1.5264281704673102,
+   "mult": 4,
+   "topology": "circle",
+   "word": "ABBBBA"
+  },
+  {
+   "re": 4.408395221295897,
+   "im": -0.3893918507251982,
+   "mult": 4,
+   "topology": "circle",
+   "word": "AbAbCbcBAb"
+  },
+  {
+   "re": 4.408395221295918,
+   "im": 0.38939185072517896,
+   "mult": 4,
+   "topology": "circle",
+   "word": "cBccabAA"
+  },
+  {
+   "re": 4.434620999131729,
+   "im": -1.7375789572849099,
+   "mult": 12,
+   "topology": "circle",
+   "word": "abCbcc"
+  },
+  {
+   "re": 4.434620999131866,
+   "im": 1.7375789572840974,
+   "mult": 12,
+   "topology": "circle",
+   "word": "cbcBAAb"
+  },
+  {
+   "re": 4.449420108905401,
+   "im": -2.488971398862211,
+   "mult": 8,
+   "topology": "circle",
+   "word": "cccBab"
+  },
+  {
+   "re": 4.449420108905515,
+   "im": 2.488971398861359,
+   "mult": 8,
+   "topology": "circle",
+   "word": "bCABBBA"
+  },
+  {
+   "re": 4.488897415204428,
+   "im": -0.18592624766570726,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BcBabCBcBBabCB"
+  },
+  {
+   "re": 4.488897415204474,
+   "im": 0.18592624766563937,
+   "mult": 8,
+   "topology": "circle",
+   "word": "AbAABBC"
+  },
+  {
+   "re": 4.498058821658397,
+   "im": -0.9604467361656551,
+   "mult": 8,
+   "topology": "circle",
+   "word": "AbCCBcB"
+  },
+  {
+   "re": 4.498058821658516,
+   "im": 0.9604467361655323,
+   "mult": 8,
+   "topology": "circle",
+   "word": "cccccAbbCbcBAb"
+  },
+  {
+   "re": 4.5184990422652,
+   "im": -1.9330501696591502,
+   "mult": 12,
+   "topology": "circle",
+   "word": "abAAcabAAca"
+  },
+  {
+   "re": 4.5184990422656615,
+   "im": 1.9330501696579319,
+   "mult": 12,
+   "topology": "circle",
+   "word": "BCBcBaB"
+  },
+  {
+   "re": 4.532370621460178,
+   "im": -3.0389440732701387,
+   "mult": 12,
+   "topology": "circle",
+   "word": "bCbbAbAbA"
+  },
+  {
+   "re": 4.532370621460809,
+   "im": 3.0389440732698243,
+   "mult": 12,
+   "topology": "circle",
+   "word": "BaBaBaaaB"
+  },
+  {
+   "re": 4.584863339122396,
+   "im": -1.513843817135012e-14,
+   "mult": 18,
+   "topology": "circle",
+   "word": "AbAbbCbcBAb"
+  },
+  {
+   "re": 4.61531360919021,
+   "im": -2.1114559500423327,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BcBBaBBBa"
+  },
+  {
+   "re": 4.615313609190518,
+   "im": 2.111455950040425,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ccBBabCBcB"
+  },
+  {
+   "re": 4.638477867605004,
+   "im": -1.770384644598939,
+   "mult": 17,
+   "topology": "circle",
+   "word": "AccBBcB"
+  },
+  {
+   "re": 4.638477867604538,
+   "im": 1.7703846445975335,
+   "mult": 17,
+   "topology": "circle",
+   "word": "bcBBcBBBa"
+  },
+  {
+   "re": 4.649479015395346,
+   "im": -2.4496995340915033,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BBACBa"
+  },
+  {
+   "re": 4.649479015395541,
+   "im": 2.4496995340894117,
+   "mult": 8,
+   "topology": "circle",
+   "word": "CBCBabC"
+  },
+  {
+   "re": 4.673005923404564,
+   "im": -1.0634576874684318,
+   "mult": 12,
+   "topology": "circle",
+   "word": "ABBBCabA"
+  },
+  {
+   "re": 4.673005923404625,
+   "im": 1.0634576874683561,
+   "mult": 12,
+   "topology": "circle",
+   "word": "ACbCCbCB"
+  },
+  {
+   "re": 4.691520870158773,
+   "im": -0.16761789804774296,
+   "mult": 12,
+   "topology": "circle",
+   "word": "BccabCB"
+  },
+  {
+   "re": 4.691520870158768,
+   "im": 0.16761789804771857,
+   "mult": 12,
+   "topology": "circle",
+   "word": "CCBaBaBaB"
+  },
+  {
+   "re": 4.70039771091739,
+   "im": 3.1415926535896563,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ABBBBBBBCaaBA"
+  },
+  {
+   "re": 4.704414210235373,
+   "im": -0.6782294284908609,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ACCCCbCB"
+  },
+  {
+   "re": 4.704414210235242,
+   "im": 0.6782294284907161,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AABBBBC"
+  },
+  {
+   "re": 4.716179130558204,
+   "im": -1.445186004517506,
+   "mult": 8,
+   "topology": "circle",
+   "word": "ABCaabA"
+  },
+  {
+   "re": 4.716179130558181,
+   "im": 1.445186004517438,
+   "mult": 8,
+   "topology": "circle",
+   "word": "AbbCbccbA"
+  },
+  {
+   "re": 4.721016934255243,
+   "im": -2.2726603768490623,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BcBccaB"
+  },
+  {
+   "re": 4.721016934255664,
+   "im": 2.2726603768473286,
+   "mult": 8,
+   "topology": "circle",
+   "word": "bcAbAbAbAb"
+  },
+  {
+   "re": 4.73490920820568,
+   "im": -2.7678085487848993,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cBBBabCBcBcB"
+  },
+  {
+   "re": 4.73490920820599,
+   "im": 2.7678085487834743,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cBBabab"
+  },
+  {
+   "re": 4.804772616675495,
+   "im": -0.31742718409281223,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCCbaBA"
+  },
+  {
+   "re": 4.804772616675675,
+   "im": 0.31742718409264253,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ACCCCbCBcB"
+  },
+  {
+   "re": 4.823839294764326,
+   "im": -1.7977290916077804,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BcBaabCA"
+  },
+  {
+   "re": 4.823839294763863,
+   "im": 1.7977290916058584,
+   "mult": 8,
+   "topology": "circle",
+   "word": "aBABBBBCC"
+  },
+  {
+   "re": 4.832226573819168,
+   "im": -2.4173715863685468,
+   "mult": 39,
+   "topology": "circle",
+   "word": "CbbAbAbC"
+  },
+  {
+   "re": 4.832226573819989,
+   "im": 2.417371586365439,
+   "mult": 39,
+   "topology": "circle",
+   "word": "AbCbCbCBcB"
+  },
+  {
+   "re": 4.83767620824474,
+   "im": -1.1503860622262185,
+   "mult": 13,
+   "topology": "circle",
+   "word": "cccccccbAAcabA"
+  },
+  {
+   "re": 4.83767620824474,
+   "im": 1.1503860622260782,
+   "mult": 13,
+   "topology": "circle",
+   "word": "ACCbcBB"
+  },
+  {
+   "re": 4.859693118987674,
+   "im": -3.0541918861606874,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BcBBBBBBBBBabCBcB"
+  },
+  {
+   "re": 4.859693118991296,
+   "im": 3.0541918861600252,
+   "mult": 8,
+   "topology": "circle",
+   "word": "abACCCbC"
+  },
+  {
+   "re": 4.921384433484638,
+   "im": -0.45068782131724616,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCbcbAAc"
+  },
+  {
+   "re": 4.921384433484714,
+   "im": 0.45068782131716656,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cccAbbCbcBAbbCbcBAb"
+  },
+  {
+   "re": 4.946270324079444,
+   "im": -2.546789488854592,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BccBaBB"
+  },
+  {
+   "re": 4.94627032407886,
+   "im": 2.5467894888501608,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cBAcccc"
+  },
+  {
+   "re": 4.955777460576948,
+   "im": -3.1583179639652925e-14,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AcbcbaB"
+  },
+  {
+   "re": 4.976827870069695,
+   "im": -2.106297974518287,
+   "mult": 12,
+   "topology": "circle",
+   "word": "abcBAbbCbcB"
+  },
+  {
+   "re": 4.976827870070911,
+   "im": 2.106297974514217,
+   "mult": 12,
+   "topology": "circle",
+   "word": "cBACbaBBaB"
+  },
+  {
+   "re": 4.98370139829854,
+   "im": -1.0591004078693613,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BcabCBcabCBcabCA"
+  },
+  {
+   "re": 4.9837013982984875,
+   "im": 1.0591004078692845,
+   "mult": 8,
+   "topology": "circle",
+   "word": "cBACbcBACbcBACbcB"
+  },
+  {
+   "re": 4.9886576731759025,
+   "im": -0.8931860573374364,
+   "mult": 18,
+   "topology": "circle",
+   "word": "AbbCBcabCBc"
+  },
+  {
+   "re": 4.988657673175844,
+   "im": 0.8931860573373086,
+   "mult": 18,
+   "topology": "circle",
+   "word": "cBACbcBACbcBACbaB"
+  },
+  {
+   "re": 4.992569233934575,
+   "im": -1.2245232753338082,
+   "mult": 24,
+   "topology": "circle",
+   "word": "BcabCBcabCBcabAA"
+  },
+  {
+   "re": 4.992569233934591,
+   "im": 1.2245232753337403,
+   "mult": 24,
+   "topology": "circle",
+   "word": "cabCBcabCBcBabCBcB"
+  },
+  {
+   "re": 4.993747847490341,
+   "im": -1.820860492252338,
+   "mult": 8,
+   "topology": "circle",
+   "word": "bCCBAbbA"
+  },
+  {
+   "re": 4.993747847488829,
+   "im": 1.8208604922497884,
+   "mult": 8,
+   "topology": "circle",
+   "word": "aBBAAbc"
+  },
+  {
+   "re": 5.000281348614594,
+   "im": -2.390331202045221,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BaBaBABBC"
+  },
+  {
+   "re": 5.000281348613257,
+   "im": 2.3903312020406977,
+   "mult": 8,
+   "topology": "circle",
+   "word": "bccAbAbAb"
+  },
+  {
+   "re": 5.007308142456724,
+   "im": -0.7290955195642586,
+   "mult": 12,
+   "topology": "circle",
+   "word": "AbCCaaBA"
+  },
+  {
+   "re": 5.007308142456678,
+   "im": 0.7290955195641561,
+   "mult": 12,
+   "topology": "circle",
+   "word": "cBACbcBACbcBACaaB"
+  },
+  {
+   "re": 5.010415346707033,
+   "im": -2.979178736011333,
+   "mult": 24,
+   "topology": "circle",
+   "word": "aBBabcc"
+  },
+  {
+   "re": 5.010415346708964,
+   "im": 2.9791787360099367,
+   "mult": 24,
+   "topology": "circle",
+   "word": "BBBBBBBCaaBACaaB"
+  },
+  {
+   "re": 5.014814813436642,
+   "im": -1.3872060929923227,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AbCCBaBaB"
+  },
+  {
+   "re": 5.014814813436779,
+   "im": 1.3872060929920738,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AABBBBBB"
+  },
+  {
+   "re": 5.038954853683401,
+   "im": -0.5690152986354265,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbCBccBA"
+  },
+  {
+   "re": 5.038954853683776,
+   "im": 0.5690152986351726,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbCABAbA"
+  },
+  {
+   "re": 5.049485992975038,
+   "im": -1.5451440533309995,
+   "mult": 18,
+   "topology": "circle",
+   "word": "ccBcBAbAb"
+  },
+  {
+   "re": 5.049485992975038,
+   "im": 1.5451440533309004,
+   "mult": 18,
+   "topology": "circle",
+   "word": "AbAbbCbcBcB"
+  },
+  {
+   "re": 5.061127781780454,
+   "im": -2.66234339678578,
+   "mult": 12,
+   "topology": "circle",
+   "word": "ABBBBCaaBACaaBAC"
+  },
+  {
+   "re": 5.061127781783916,
+   "im": 2.6623433967827177,
+   "mult": 12,
+   "topology": "circle",
+   "word": "cBcBaBABB"
+  },
+  {
+   "re": 5.082418915170328,
+   "im": -0.41483006011288853,
+   "mult": 24,
+   "topology": "circle",
+   "word": "BcabCBcBabCBcBBabCB"
+  },
+  {
+   "re": 5.082418915170178,
+   "im": 0.41483006011259577,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbCCCCCCbCB"
+  },
+  {
+   "re": 5.095252268581001,
+   "im": -1.6967021023134259,
+   "mult": 16,
+   "topology": "circle",
+   "word": "aBAAcbba"
+  },
+  {
+   "re": 5.0952522685767985,
+   "im": 1.6967021023096787,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BAcaBaB"
+  },
+  {
+   "re": 5.1361837636329355,
+   "im": -0.2680058356263162,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AccBBAC"
+  },
+  {
+   "re": 5.136183763632883,
+   "im": 0.2680058356260429,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCBccBAb"
+  },
+  {
+   "re": 5.138364321279941,
+   "im": -1.2883705369396106,
+   "mult": 8,
+   "topology": "circle",
+   "word": "aBABBBBBBBBBCaaB"
+  },
+  {
+   "re": 5.138364321279814,
+   "im": 1.288370536939489,
+   "mult": 8,
+   "topology": "circle",
+   "word": "AcbbbbcBc"
+  },
+  {
+   "re": 5.150556264009308,
+   "im": -1.840675832201567,
+   "mult": 48,
+   "topology": "circle",
+   "word": "cBACBBBBa"
+  },
+  {
+   "re": 5.150556264008088,
+   "im": 1.840675832196778,
+   "mult": 48,
+   "topology": "circle",
+   "word": "aBBBCBcB"
+  },
+  {
+   "re": 5.152960753915214,
+   "im": -2.9142916259832528,
+   "mult": 13,
+   "topology": "circle",
+   "word": "babcBBBa"
+  },
+  {
+   "re": 5.152960753919726,
+   "im": 2.914291625980948,
+   "mult": 13,
+   "topology": "circle",
+   "word": "ABABcabA"
+  },
+  {
+   "re": 5.155740649586458,
+   "im": -2.3674003924355893,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bCBCabCb"
+  },
+  {
+   "re": 5.155740649585636,
+   "im": 2.367400392431223,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bCBcabCAAB"
+  },
+  {
+   "re": 5.155783927179187,
+   "im": -0.6741123018695337,
+   "mult": 12,
+   "topology": "circle",
+   "word": "ACbCBcBBabCBcB"
+  },
+  {
+   "re": 5.155783927179212,
+   "im": 0.6741123018691748,
+   "mult": 12,
+   "topology": "circle",
+   "word": "cccccAbbCbcBAbbCbcBAb"
+  },
+  {
+   "re": 5.17532776596992,
+   "im": -2.765516794446493,
+   "mult": 17,
+   "topology": "circle",
+   "word": "CbCCbcBACa"
+  },
+  {
+   "re": 5.175327765973671,
+   "im": 2.765516794442309,
+   "mult": 17,
+   "topology": "circle",
+   "word": "cAbbCbbCBcB"
+  },
+  {
+   "re": 5.198559093917906,
+   "im": -0.1295440588075442,
+   "mult": 8,
+   "topology": "circle",
+   "word": "BcBabCBcBBabCBcBBabCB"
+  },
+  {
+   "re": 5.198559093917904,
+   "im": 0.12954405880747397,
+   "mult": 8,
+   "topology": "circle",
+   "word": "ABABBBBC"
+  },
+  {
+   "re": 5.213758473756506,
+   "im": -1.9762919154986087,
+   "mult": 12,
+   "topology": "circle",
+   "word": "BaBaBBBabCC"
+  },
+  {
+   "re": 5.213758473756167,
+   "im": 1.9762919154927787,
+   "mult": 12,
+   "topology": "circle",
+   "word": "CCCBABB"
+  },
+  {
+   "re": 5.252328677038293,
+   "im": -1.0562891151609963,
+   "mult": 16,
+   "topology": "circle",
+   "word": "CCbbbbbCb"
+  },
+  {
+   "re": 5.252328677038347,
+   "im": 1.0562891151608673,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbAABBBB"
+  },
+  {
+   "re": 5.267831587699286,
+   "im": -1.236304760454088e-13,
+   "mult": 46,
+   "topology": "circle",
+   "word": "AbAAccBB"
+  },
+  {
+   "re": 5.267831587698866,
+   "im": 3.141592653589743,
+   "mult": 8,
+   "topology": "circle",
+   "word": "AcbACbcBAbbC"
+  },
+  {
+   "re": 5.2707186090259635,
+   "im": -0.7676146069485196,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AbCAAAbA"
+  },
+  {
+   "re": 5.270718609026085,
+   "im": 0.7676146069480801,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AbcccAbbCbcBAb"
+  },
+  {
+   "re": 5.275789883881837,
+   "im": -1.3438467150343227,
+   "mult": 24,
+   "topology": "circle",
+   "word": "BcBabcBAbbC"
+  },
+  {
+   "re": 5.275789883881849,
+   "im": 1.3438467150340458,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbCBAcbA"
+  },
+  {
+   "re": 5.28325486688865,
+   "im": -2.1031644763757,
+   "mult": 16,
+   "topology": "circle",
+   "word": "CBaBaBAC"
+  },
+  {
+   "re": 5.283254866890501,
+   "im": 2.103164476367042,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbbCbbcbA"
+  },
+  {
+   "re": 5.2878372176189234,
+   "im": -2.857741361371983,
+   "mult": 24,
+   "topology": "circle",
+   "word": "CbcbAbCC"
+  },
+  {
+   "re": 5.287837217623339,
+   "im": 2.8577413613670326,
+   "mult": 24,
+   "topology": "circle",
+   "word": "aBaBBAbc"
+  },
+  {
+   "re": 5.296121041768383,
+   "im": -1.8578357636892315,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bcbAAcaa"
+  },
+  {
+   "re": 5.296121041769989,
+   "im": 1.8578357636837917,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cBBBabCBBcB"
+  },
+  {
+   "re": 5.300301348471804,
+   "im": -2.347721520301188,
+   "mult": 24,
+   "topology": "circle",
+   "word": "abACbaaB"
+  },
+  {
+   "re": 5.300301348471735,
+   "im": 2.3477215202931334,
+   "mult": 24,
+   "topology": "circle",
+   "word": "CBaBCabC"
+  },
+  {
+   "re": 5.328992896483619,
+   "im": -0.4896695612392058,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCCCbCBcBBabCB"
+  },
+  {
+   "re": 5.328992896483466,
+   "im": 0.48966956123893124,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCCCCCCCbCB"
+  },
+  {
+   "re": 5.337976944228744,
+   "im": -1.618869559843411,
+   "mult": 36,
+   "topology": "circle",
+   "word": "AbccBBcAb"
+  },
+  {
+   "re": 5.337976944223058,
+   "im": 1.6188695598385117,
+   "mult": 36,
+   "topology": "circle",
+   "word": "AAbAbCBC"
+  },
+  {
+   "re": 5.342380697165291,
+   "im": -0.12045444719711386,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ACbbCAcAb"
+  },
+  {
+   "re": 5.3423806971651935,
+   "im": 0.12045444719693689,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cAbbCbcBAbbCbcBAbbCbcBAb"
+  },
+  {
+   "re": 5.345644142462917,
+   "im": -2.5845854508852697,
+   "mult": 28,
+   "topology": "circle",
+   "word": "bCAAbAbAbAbAb"
+  },
+  {
+   "re": 5.345644142465614,
+   "im": 2.584585450878325,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AbAbAbAbccBA"
+  },
+  {
+   "re": 5.357559131843299,
+   "im": -2.2212270426455882,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ACaaBAAbAb"
+  },
+  {
+   "re": 5.3575591318445515,
+   "im": 2.2212270426389624,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BcBBBabCBcBBabCBcBBabCBcB"
+  },
+  {
+   "re": 5.383012158268861,
+   "im": -0.8510155744959339,
+   "mult": 13,
+   "topology": "circle",
+   "word": "cccccccbAAcabAAcabA"
+  },
+  {
+   "re": 5.383012158268981,
+   "im": 0.8510155744957693,
+   "mult": 13,
+   "topology": "circle",
+   "word": "BBBBBBBBabCBcBBabCBcBBa"
+  },
+  {
+   "re": 5.39795955030348,
+   "im": -2.9403401464490386,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bCABBAbbA"
+  },
+  {
+   "re": 5.397959550309006,
+   "im": 2.9403401464447065,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BabcBACbcBa"
+  },
+  {
+   "re": 5.405559188502183,
+   "im": -1.3924398798358495,
+   "mult": 16,
+   "topology": "circle",
+   "word": "aBABBBBBBBBBBBCaaB"
+  },
+  {
+   "re": 5.405559188502078,
+   "im": 1.3924398798355995,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBBBBBBBBBBBabCBcBBa"
+  },
+  {
+   "re": 5.415590795253602,
+   "im": -2.8081072496364485,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BaBabccc"
+  },
+  {
+   "re": 5.415590795255576,
+   "im": 2.8081072496323825,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AAbAbccBB"
+  },
+  {
+   "re": 5.420752386286617,
+   "im": -0.23194695163492435,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ccbAAcabAAcabAAcabA"
+  },
+  {
+   "re": 5.420752386286529,
+   "im": 0.2319469516346131,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCABBAB"
+  },
+  {
+   "re": 5.431932473922157,
+   "im": -1.8728372969964113,
+   "mult": 16,
+   "topology": "circle",
+   "word": "CbbCBcBBabCC"
+  },
+  {
+   "re": 5.431932473920988,
+   "im": 1.8728372969892422,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBBabbCBcBa"
+  },
+  {
+   "re": 5.435350724977161,
+   "im": -2.330656942174949,
+   "mult": 31,
+   "topology": "circle",
+   "word": "bAbACBcBA"
+  },
+  {
+   "re": 5.435350724981533,
+   "im": 2.3306569421656147,
+   "mult": 31,
+   "topology": "circle",
+   "word": "bCBcccBcAb"
+  },
+  {
+   "re": 5.488972086725238,
+   "im": -1.0543693265485239,
+   "mult": 12,
+   "topology": "circle",
+   "word": "AbCCabAA"
+  },
+  {
+   "re": 5.488972086725232,
+   "im": 1.05436932654836,
+   "mult": 12,
+   "topology": "circle",
+   "word": "AbAbcbabAAc"
+  },
+  {
+   "re": 5.492210184964021,
+   "im": -0.9256385407343101,
+   "mult": 48,
+   "topology": "circle",
+   "word": "AbCAAbAA"
+  },
+  {
+   "re": 5.492210184961679,
+   "im": 0.925638540734038,
+   "mult": 48,
+   "topology": "circle",
+   "word": "AbCAAbCB"
+  },
+  {
+   "re": 5.494046330009555,
+   "im": -1.1829217495677211,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AcbccccAbbC"
+  },
+  {
+   "re": 5.494046330009637,
+   "im": 1.1829217495675282,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AbAbbCbCBcB"
+  },
+  {
+   "re": 5.50169477034475,
+   "im": -0.3348189315583504,
+   "mult": 32,
+   "topology": "circle",
+   "word": "ACCCbCBcBBabCBcB"
+  },
+  {
+   "re": 5.501694770344958,
+   "im": 0.3348189315576405,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbAABAbbA"
+  },
+  {
+   "re": 5.50370162331889,
+   "im": -0.7978043068442192,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AAccBAbbC"
+  },
+  {
+   "re": 5.503701623318812,
+   "im": 0.797804306844061,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AACBBC"
+  },
+  {
+   "re": 5.505249437209836,
+   "im": -3.0145028831626646,
+   "mult": 36,
+   "topology": "circle",
+   "word": "ABAbCbcBAbbC"
+  },
+  {
+   "re": 5.505249437216549,
+   "im": 3.014502883160045,
+   "mult": 36,
+   "topology": "circle",
+   "word": "aBBcBBBBaBC"
+  },
+  {
+   "re": 5.507283686319491,
+   "im": -1.3102355675194952,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AccbcBAC"
+  },
+  {
+   "re": 5.507283686319577,
+   "im": 1.3102355675192099,
+   "mult": 24,
+   "topology": "circle",
+   "word": "ACbbbbCbcBAb"
+  },
+  {
+   "re": 5.515495057089906,
+   "im": -2.431803693560833,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbAbcaBBc"
+  },
+  {
+   "re": 5.515495057085681,
+   "im": 2.4318036935504956,
+   "mult": 24,
+   "topology": "circle",
+   "word": "bCbCBBBCa"
+  },
+  {
+   "re": 5.523182350235982,
+   "im": -0.6719020878380982,
+   "mult": 18,
+   "topology": "circle",
+   "word": "AbCBcaBBC"
+  },
+  {
+   "re": 5.523182350235791,
+   "im": 0.6719020878378439,
+   "mult": 18,
+   "topology": "circle",
+   "word": "AbCCBabCB"
+  },
+  {
+   "re": 5.5283407835752545,
+   "im": -1.4353168416431936,
+   "mult": 32,
+   "topology": "circle",
+   "word": "ACCCbCBcBBabCB"
+  },
+  {
+   "re": 5.528340783574925,
+   "im": 1.4353168416424247,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbCCCCCCbCBcB"
+  },
+  {
+   "re": 5.536764649764111,
+   "im": -2.7642549232893114,
+   "mult": 20,
+   "topology": "circle",
+   "word": "CbcBAccbAA"
+  },
+  {
+   "re": 5.536764649764806,
+   "im": 2.7642549232812748,
+   "mult": 20,
+   "topology": "circle",
+   "word": "abACBaBBa"
+  },
+  {
+   "re": 5.537318766627181,
+   "im": -1.146694868588461e-13,
+   "mult": 36,
+   "topology": "circle",
+   "word": "AcccccbAAAb"
+  },
+  {
+   "re": 5.549106187363801,
+   "im": -2.1011212858587878,
+   "mult": 32,
+   "topology": "circle",
+   "word": "bcBACbcBACbaBBa"
+  },
+  {
+   "re": 5.549106187359891,
+   "im": 2.1011212858437935,
+   "mult": 32,
+   "topology": "circle",
+   "word": "BcabCAcaBaB"
+  },
+  {
+   "re": 5.5502034356745575,
+   "im": -0.5488780691027062,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbccBcBBc"
+  },
+  {
+   "re": 5.550203435675047,
+   "im": 0.5488780691023893,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCAAAbbA"
+  },
+  {
+   "re": 5.5567087831098805,
+   "im": -1.5572809913744963,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbAAABBC"
+  },
+  {
+   "re": 5.556708783110055,
+   "im": 1.5572809913743182,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ACbCBcBaBaB"
+  },
+  {
+   "re": 5.559204713825929,
+   "im": -1.8860613025859707,
+   "mult": 20,
+   "topology": "circle",
+   "word": "aBCaaaa"
+  },
+  {
+   "re": 5.559204713825854,
+   "im": 1.8860613025743043,
+   "mult": 20,
+   "topology": "circle",
+   "word": "bbbCbcBAbbCBC"
+  },
+  {
+   "re": 5.562034545230676,
+   "im": -2.3157236066365052,
+   "mult": 28,
+   "topology": "circle",
+   "word": "cBBcAbbCbcBcB"
+  },
+  {
+   "re": 5.5620345452325495,
+   "im": 2.3157236066181013,
+   "mult": 28,
+   "topology": "circle",
+   "word": "BACbCbCbC"
+  },
+  {
+   "re": 5.5841650184144065,
+   "im": -0.4295495604161663,
+   "mult": 64,
+   "topology": "circle",
+   "word": "AbACbcBAbbCbcBAb"
+  },
+  {
+   "re": 5.584165018414446,
+   "im": 0.4295495604155634,
+   "mult": 64,
+   "topology": "circle",
+   "word": "ccccAbbCbcBAbbCbcBAbbCbcBAb"
+  },
+  {
+   "re": 5.5917518523637035,
+   "im": -1.6753831707026992,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBBabCCBaBaB"
+  },
+  {
+   "re": 5.591751852356919,
+   "im": 1.675383170694322,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cbACCBA"
+  },
+  {
+   "re": 5.597043772154332,
+   "im": -2.5251276644369995,
+   "mult": 40,
+   "topology": "circle",
+   "word": "aBabcBAAc"
+  },
+  {
+   "re": 5.597043772160192,
+   "im": 2.5251276644187595,
+   "mult": 40,
+   "topology": "circle",
+   "word": "baaBBaBaBa"
+  },
+  {
+   "re": 5.598063843163246,
+   "im": -0.9926356721242298,
+   "mult": 36,
+   "topology": "circle",
+   "word": "AbACBcBaB"
+  },
+  {
+   "re": 5.598063843163421,
+   "im": 0.9926356721239438,
+   "mult": 36,
+   "topology": "circle",
+   "word": "AbAABBBBB"
+  },
+  {
+   "re": 5.609445056676784,
+   "im": -3.081280845345013,
+   "mult": 32,
+   "topology": "circle",
+   "word": "BaBBcaBaB"
+  },
+  {
+   "re": 5.609445056692186,
+   "im": 3.0812808453426257,
+   "mult": 32,
+   "topology": "circle",
+   "word": "cBBabbbbba"
+  },
+  {
+   "re": 5.624358740065969,
+   "im": -0.3145793952846996,
+   "mult": 12,
+   "topology": "circle",
+   "word": "ACbcBAbCbcBAbbCbcBAbbCbcBAb"
+  },
+  {
+   "re": 5.624358740065928,
+   "im": 0.31457939528457635,
+   "mult": 12,
+   "topology": "circle",
+   "word": "cBACbcBACaaBACaaBACaaB"
+  },
+  {
+   "re": 5.6327498133926435,
+   "im": -1.7890344209131877,
+   "mult": 24,
+   "topology": "circle",
+   "word": "ACbcBcBAA"
+  },
+  {
+   "re": 5.632749813387039,
+   "im": 1.7890344209017763,
+   "mult": 24,
+   "topology": "circle",
+   "word": "cBACbbcBB"
+  },
+  {
+   "re": 5.644746949623383,
+   "im": -1.4734024581625236,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AbbCBcabCBcBBabCB"
+  },
+  {
+   "re": 5.644746949623722,
+   "im": 1.4734024581617196,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AbCBccccB"
+  },
+  {
+   "re": 5.65187725864529,
+   "im": -2.7252726297575856,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AcbACbbaB"
+  },
+  {
+   "re": 5.651877258656824,
+   "im": 2.7252726297436345,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBabcBBAbC"
+  },
+  {
+   "re": 5.667317742228132,
+   "im": -0.5166947782332055,
+   "mult": 19,
+   "topology": "circle",
+   "word": "cccccbAAcabAAcabAAcabA"
+  },
+  {
+   "re": 5.6673177422281755,
+   "im": 0.5166947782326836,
+   "mult": 19,
+   "topology": "circle",
+   "word": "cccccAbbCbcBAbbCbcBAbbCbcBAb"
+  },
+  {
+   "re": 5.670012682640267,
+   "im": -0.20446535929477755,
+   "mult": 32,
+   "topology": "circle",
+   "word": "ACCCCbCBcBBabCBcB"
+  },
+  {
+   "re": 5.670012682639918,
+   "im": 0.20446535929378684,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbCABABAb"
+  },
+  {
+   "re": 5.6789397847602885,
+   "im": -1.8978044279555306,
+   "mult": 58,
+   "topology": "circle",
+   "word": "bAbCCCBAb"
+  },
+  {
+   "re": 5.678939784747875,
+   "im": 1.8978044279403417,
+   "mult": 58,
+   "topology": "circle",
+   "word": "cAbbCCbbCA"
+  },
+  {
+   "re": 5.679222504129039,
+   "im": -2.611151250944994,
+   "mult": 16,
+   "topology": "circle",
+   "word": "caBBcBAAb"
+  },
+  {
+   "re": 5.67922250413349,
+   "im": 2.611151250927916,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bCBABAbAb"
+  },
+  {
+   "re": 5.681308280617066,
+   "im": -2.302549389218797,
+   "mult": 34,
+   "topology": "circle",
+   "word": "bAbbAbAbCb"
+  },
+  {
+   "re": 5.6813082806161175,
+   "im": 2.302549389201137,
+   "mult": 34,
+   "topology": "circle",
+   "word": "aBCBaaaBaB"
+  },
+  {
+   "re": 5.700466055972767,
+   "im": -1.0529999195130668,
+   "mult": 16,
+   "topology": "circle",
+   "word": "ACbabcbA"
+  },
+  {
+   "re": 5.70046605597262,
+   "im": 1.0529999195127404,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbAABCaaBAC"
+  },
+  {
+   "re": 5.710416052768196,
+   "im": 3.1415926535895795,
+   "mult": 48,
+   "topology": "circle",
+   "word": "AbCbbCbCBcB"
+  },
+  {
+   "re": 5.712528569666855,
+   "im": -0.8221061815570734,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbccAbbCbcBAbbA"
+  },
+  {
+   "re": 5.712528569666829,
+   "im": 0.8221061815568179,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbbCBcabCBcBaB"
+  },
+  {
+   "re": 5.715150473130485,
+   "im": -1.2834345045443631,
+   "mult": 40,
+   "topology": "circle",
+   "word": "ACCCCbCBcBBabCB"
+  },
+  {
+   "re": 5.715150473130021,
+   "im": 1.2834345045437505,
+   "mult": 40,
+   "topology": "circle",
+   "word": "AcbbAAcabAA"
+  },
+  {
+   "re": 5.7203334880085555,
+   "im": -0.09954318655998348,
+   "mult": 36,
+   "topology": "circle",
+   "word": "ACbbCBcabAAc"
+  },
+  {
+   "re": 5.72033348800845,
+   "im": 0.09954318655967109,
+   "mult": 36,
+   "topology": "circle",
+   "word": "cBACaaBACaaBACaaBACaaB"
+  },
+  {
+   "re": 5.723404610559249,
+   "im": -2.913155906589664,
+   "mult": 24,
+   "topology": "circle",
+   "word": "CCbcbACBa"
+  },
+  {
+   "re": 5.723404610574711,
+   "im": 2.9131559065793735,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbbAbAbAbAbAbAA"
+  },
+  {
+   "re": 5.729552927869561,
+   "im": -2.0014133782691714,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bbbbbabAABC"
+  },
+  {
+   "re": 5.729552927868915,
+   "im": 2.0014133782496186,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cabbbCBcB"
+  },
+  {
+   "re": 5.750483440213896,
+   "im": -0.5968419326221602,
+   "mult": 48,
+   "topology": "circle",
+   "word": "AbAAAAbbA"
+  },
+  {
+   "re": 5.750483440213741,
+   "im": 0.5968419326216561,
+   "mult": 48,
+   "topology": "circle",
+   "word": "AbCBcaBaBaB"
+  },
+  {
+   "re": 5.755331373246831,
+   "im": -1.5074374319744803,
+   "mult": 40,
+   "topology": "circle",
+   "word": "aBABBBBBBBBBBBBBBCaaB"
+  },
+  {
+   "re": 5.75533137324638,
+   "im": 1.5074374319741028,
+   "mult": 40,
+   "topology": "circle",
+   "word": "AbCCCCCCCbCBcB"
+  },
+  {
+   "re": 5.761411958825152,
+   "im": -2.6904222987277335,
+   "mult": 64,
+   "topology": "circle",
+   "word": "bcBccAbcbAb"
+  },
+  {
+   "re": 5.761411958827373,
+   "im": 2.6904222987116024,
+   "mult": 64,
+   "topology": "circle",
+   "word": "BaBaBBaBaBB"
+  },
+  {
+   "re": 5.774541900715279,
+   "im": -1.479093848504697e-13,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbbCbcBAbbCbcBAbbCbcBAbbCbcBAb"
+  },
+  {
+   "re": 5.7838440293226,
+   "im": -2.0997161903501307,
+   "mult": 24,
+   "topology": "circle",
+   "word": "baBAcabb"
+  },
+  {
+   "re": 5.783844029323947,
+   "im": 2.0997161903295196,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbCBcBcBBB"
+  },
+  {
+   "re": 5.791974090627649,
+   "im": -1.908301070929218,
+   "mult": 12,
+   "topology": "circle",
+   "word": "CCCbCBBAB"
+  },
+  {
+   "re": 5.7919740906258,
+   "im": 1.908301070906363,
+   "mult": 12,
+   "topology": "circle",
+   "word": "aBCCBBcBBa"
+  },
+  {
+   "re": 5.793975932082802,
+   "im": -2.2908432804506855,
+   "mult": 24,
+   "topology": "circle",
+   "word": "cBabCbbCBcB"
+  },
+  {
+   "re": 5.793975932078002,
+   "im": 2.2908432804278562,
+   "mult": 24,
+   "topology": "circle",
+   "word": "ABCCBBB"
+  },
+  {
+   "re": 5.79940569408614,
+   "im": -1.1075823521284072,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbCAAAbAbA"
+  },
+  {
+   "re": 5.7994056940864604,
+   "im": 1.1075823521276886,
+   "mult": 32,
+   "topology": "circle",
+   "word": "BBBBBBBBBBBBabCBcBBabCBcBBa"
+  },
+  {
+   "re": 5.808124507349534,
+   "im": -3.0869497758192783,
+   "mult": 20,
+   "topology": "circle",
+   "word": "bAbCCCabA"
+  },
+  {
+   "re": 5.80812450736837,
+   "im": 3.086949775817063,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AcbbbabaBA"
+  },
+  {
+   "re": 5.811564623782534,
+   "im": -0.38247893277431805,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AccccccccAbbC"
+  },
+  {
+   "re": 5.811564623782286,
+   "im": 0.38247893277374556,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AbCCbcbAAc"
+  },
+  {
+   "re": 5.817986914204281,
+   "im": -1.7200275515430419,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bbabAbCBca"
+  },
+  {
+   "re": 5.817986914187331,
+   "im": 1.7200275515272034,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbbAAccBcB"
+  },
+  {
+   "re": 5.821781722096261,
+   "im": -2.478302718086169,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBccBaBaB"
+  },
+  {
+   "re": 5.821781722105473,
+   "im": 2.478302718066794,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BabaaBaBBa"
+  },
+  {
+   "re": 5.831899828529363,
+   "im": -0.09410557959083149,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbCCCCCCbCBcBBabCB"
+  },
+  {
+   "re": 5.831899828529288,
+   "im": 0.094105579590278,
+   "mult": 24,
+   "topology": "circle",
+   "word": "BBabCBcBBabCBcBBabCBcBBabCBcBBa"
+  },
+  {
+   "re": 5.833143108175883,
+   "im": -0.6705782188940542,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AbCCCBcBB"
+  },
+  {
+   "re": 5.833143108176603,
+   "im": 0.6705782188933346,
+   "mult": 20,
+   "topology": "circle",
+   "word": "BcBBBBBBBBBabCBcBBabCBcBBabCB"
+  },
+  {
+   "re": 5.841113153007456,
+   "im": -2.1926824152826225,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBABcBAbbC"
+  },
+  {
+   "re": 5.841113153000102,
+   "im": 2.1926824152593,
+   "mult": 16,
+   "topology": "circle",
+   "word": "bAbcaab"
+  },
+  {
+   "re": 5.843126452441184,
+   "im": -2.7634881810992837,
+   "mult": 30,
+   "topology": "circle",
+   "word": "bCBcBccAbbCbC"
+  },
+  {
+   "re": 5.843126452456689,
+   "im": 2.7634881810852154,
+   "mult": 30,
+   "topology": "circle",
+   "word": "BBabcBcBAC"
+  },
+  {
+   "re": 5.860591364421692,
+   "im": -1.5380208074431312,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AcbbAbbCbcBAb"
+  },
+  {
+   "re": 5.860591364421607,
+   "im": 1.5380208074427648,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbcccbbAA"
+  },
+  {
+   "re": 5.865813024952227,
+   "im": -2.659102069453071,
+   "mult": 36,
+   "topology": "circle",
+   "word": "abCbbACC"
+  },
+  {
+   "re": 5.865813024965338,
+   "im": 2.6591020694348853,
+   "mult": 36,
+   "topology": "circle",
+   "word": "CBABCaaBAC"
+  },
+  {
+   "re": 5.8916595367618525,
+   "im": -1.051988757045104,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AbccAbbAAc"
+  },
+  {
+   "re": 5.891659536762157,
+   "im": 1.0519887570448319,
+   "mult": 20,
+   "topology": "circle",
+   "word": "ACbCCbcBAbbC"
+  },
+  {
+   "re": 5.891728650387542,
+   "im": -0.18282023017352872,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbCBcccccAb"
+  },
+  {
+   "re": 5.891728650386887,
+   "im": 0.18282023017142876,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AbCAccBBAb"
+  },
+  {
+   "re": 5.8939307037608,
+   "im": -0.9467872299916444,
+   "mult": 40,
+   "topology": "circle",
+   "word": "AbCBcBBabCBcBBabCBcB"
+  },
+  {
+   "re": 5.893930703760971,
+   "im": 0.9467872299911724,
+   "mult": 40,
+   "topology": "circle",
+   "word": "cBAcabAAcabAAca"
+  },
+  {
+   "re": 5.894935125332247,
+   "im": -1.157110701462775,
+   "mult": 64,
+   "topology": "circle",
+   "word": "aBABBBBBBBBBBBBCaaBACaaB"
+  },
+  {
+   "re": 5.894935125331232,
+   "im": 1.1571107014619861,
+   "mult": 64,
+   "topology": "circle",
+   "word": "AbccccccAbbCbcBAb"
+  },
+  {
+   "re": 5.899012869453352,
+   "im": -1.917738836086724,
+   "mult": 54,
+   "topology": "circle",
+   "word": "bbcBaBBab"
+  },
+  {
+   "re": 5.899012869451535,
+   "im": 1.9177388360612686,
+   "mult": 54,
+   "topology": "circle",
+   "word": "bcBcccccAbbCBc"
+  },
+  {
+   "re": 5.9007197285633834,
+   "im": -2.2803746099980096,
+   "mult": 64,
+   "topology": "circle",
+   "word": "bbaaBBca"
+  },
+  {
+   "re": 5.9007197285611594,
+   "im": 2.2803746099687277,
+   "mult": 64,
+   "topology": "circle",
+   "word": "BBabCBCCCC"
+  },
+  {
+   "re": 5.90171886287404,
+   "im": -0.8420911028865171,
+   "mult": 45,
+   "topology": "circle",
+   "word": "AbCBcabbbC"
+  },
+  {
+   "re": 5.901718862873828,
+   "im": 0.8420911028858543,
+   "mult": 45,
+   "topology": "circle",
+   "word": "AcbACCBC"
+  },
+  {
+   "re": 5.902596168136828,
+   "im": -3.0372866289021676,
+   "mult": 32,
+   "topology": "circle",
+   "word": "BBCBCBC"
+  },
+  {
+   "re": 5.902596168157113,
+   "im": 3.037286628896122,
+   "mult": 32,
+   "topology": "circle",
+   "word": "cBccBAbCBc"
+  },
+  {
+   "re": 5.903694605717568,
+   "im": -1.2615724649960363,
+   "mult": 32,
+   "topology": "circle",
+   "word": "AbCBccccAbbC"
+  },
+  {
+   "re": 5.903694605717438,
+   "im": 1.2615724649956337,
+   "mult": 32,
+   "topology": "circle",
+   "word": "ABCaaBACabAb"
+  },
+  {
+   "re": 5.914902843226428,
+   "im": -0.7384701661691765,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AccbAAccBB"
+  },
+  {
+   "re": 5.9149028432264945,
+   "im": 0.738470166168848,
+   "mult": 24,
+   "topology": "circle",
+   "word": "CabCBcabCBcabAA"
+  },
+  {
+   "re": 5.917786404999053,
+   "im": -1.3648169084152604,
+   "mult": 36,
+   "topology": "circle",
+   "word": "AbACbCCBaB"
+  },
+  {
+   "re": 5.9177864049992746,
+   "im": 1.3648169084149266,
+   "mult": 36,
+   "topology": "circle",
+   "word": "ACbbCBcBBabCBcB"
+  },
+  {
+   "re": 5.923992544643825,
+   "im": -2.8308784830415963,
+   "mult": 24,
+   "topology": "circle",
+   "word": "BcBabCBAbCC"
+  },
+  {
+   "re": 5.923992544660813,
+   "im": 2.83087848302498,
+   "mult": 24,
+   "topology": "circle",
+   "word": "AcccccBB"
+  },
+  {
+   "re": 5.9332763301671045,
+   "im": -0.6364605745116578,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AcbcccAbbCbcBAb"
+  },
+  {
+   "re": 5.933276330167063,
+   "im": 0.6364605745113114,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AbAbbCCCCbCB"
+  },
+  {
+   "re": 5.936978799016989,
+   "im": -1.4663273865780195,
+   "mult": 42,
+   "topology": "circle",
+   "word": "BcabCBcabCBcabCAcabAAcabAA"
+  },
+  {
+   "re": 5.93697879901723,
+   "im": 1.466327386577453,
+   "mult": 42,
+   "topology": "circle",
+   "word": "AbCbbCBcabCBcB"
+  },
+  {
+   "re": 5.953419646452846,
+   "im": -0.2662724861982048,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AABBBBBBA"
+  },
+  {
+   "re": 5.953419646453244,
+   "im": 0.26627248619782884,
+   "mult": 28,
+   "topology": "circle",
+   "word": "AbCBABBBBC"
+  },
+  {
+   "re": 5.956558496699835,
+   "im": -0.5365490147280864,
+   "mult": 60,
+   "topology": "circle",
+   "word": "AbCCbbcBA"
+  },
+  {
+   "re": 5.956558496699673,
+   "im": 0.5365490147275146,
+   "mult": 60,
+   "topology": "circle",
+   "word": "AbbCBccccAb"
+  },
+  {
+   "re": 5.9609721252635515,
+   "im": -1.5656415278237914,
+   "mult": 48,
+   "topology": "circle",
+   "word": "BcabCBcabCBcabAAcabAAcabAA"
+  },
+  {
+   "re": 5.960972125264229,
+   "im": 1.5656415278229863,
+   "mult": 48,
+   "topology": "circle",
+   "word": "cabCBcabCBcBabCBcBBabCBcBBabCBcB"
+  },
+  {
+   "re": 5.96209013374078,
+   "im": -2.3629272677334363,
+   "mult": 19,
+   "topology": "circle",
+   "word": "aaBABBBCaaBACaaBACaaBACaaB"
+  },
+  {
+   "re": 5.962090133748849,
+   "im": 2.362927267694459,
+   "mult": 19,
+   "topology": "circle",
+   "word": "BACbbCbbC"
+  },
+  {
+   "re": 5.965485407483588,
+   "im": -2.630817565057814,
+   "mult": 40,
+   "topology": "circle",
+   "word": "cBcabccb"
+  },
+  {
+   "re": 5.965485407507164,
+   "im": 2.6308175650319052,
+   "mult": 40,
+   "topology": "circle",
+   "word": "bcBBccccccc"
+  },
+  {
+   "re": 5.984407868542251,
+   "im": -0.4391605891117933,
+   "mult": 16,
+   "topology": "circle",
+   "word": "AbCCBcBcAb"
+  },
+  {
+   "re": 5.9844078685416315,
+   "im": 0.4391605891114773,
+   "mult": 16,
+   "topology": "circle",
+   "word": "cBACbcBACbcBACaaBACaaBACaaB"
+  },
+  {
+   "re": 5.986445692254248,
+   "im": -5.604478919521819e-13,
+   "mult": 68,
+   "topology": "circle",
+   "word": "AbCCCCCCCbCBcBBabCB"
+  },
+  {
+   "re": 5.987147465720138,
+   "im": -1.2022070364272568,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBBBBBBBBBBBBCaaBACaaBAC"
+  },
+  {
+   "re": 5.987147465720321,
+   "im": 1.2022070364265898,
+   "mult": 16,
+   "topology": "circle",
+   "word": "BBBBBBBBBBBBBBabCBcBBabCBcBBa"
+  },
+  {
+   "re": 5.989413365992867,
+   "im": -1.662361009493076,
+   "mult": 20,
+   "topology": "circle",
+   "word": "bbCbbbAbbA"
+  },
+  {
+   "re": 5.989413365983255,
+   "im": 1.6623610094736796,
+   "mult": 20,
+   "topology": "circle",
+   "word": "aaBBCCBaBa"
+  },
+  {
+   "re": 5.993899511000497,
+   "im": -2.9920084482860303,
+   "mult": 20,
+   "topology": "circle",
+   "word": "BabCbCBcBcc"
+  },
+  {
+   "re": 5.993899511022186,
+   "im": 2.992008448276999,
+   "mult": 20,
+   "topology": "circle",
+   "word": "AAcaBaabC"
+  },
+  {
+   "re": 5.993973818290119,
+   "im": -2.0987089920357325,
+   "mult": 32,
+   "topology": "circle",
+   "word": "cBccccBAcb"
+  },
+  {
+   "re": 5.993973818281909,
+   "im": 2.0987089920045587,
+   "mult": 32,
+   "topology": "circle",
+   "word": "cbcAbbCbcb"
+  },
+  {
+   "re": 5.99547052690367,
+   "im": -0.8010513865386778,
+   "mult": 40,
+   "topology": "circle",
+   "word": "AbCAcccBA"
+  },
+  {
+   "re": 5.9954705269020385,
+   "im": 0.801051386537015,
+   "mult": 40,
+   "topology": "circle",
+   "word": "AbCAACbaBAC"
+  },
+  {
+   "re": 6.000656152294503,
+   "im": -1.926269617367207,
+   "mult": 24,
+   "topology": "circle",
+   "word": "bAbAbAbcbbabA"
+  },
+  {
+   "re": 6.000656152293731,
+   "im": 1.9262696173363227,
+   "mult": 24,
+   "topology": "circle",
+   "word": "BBBBCBBBabC"
+  }
+ ]
+}

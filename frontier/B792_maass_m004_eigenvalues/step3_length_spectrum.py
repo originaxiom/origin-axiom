@@ -1,4 +1,4 @@
-r"""B788 Step 3 groundwork: geodesic length spectrum of m004.
+r"""B792 (ex-B788) Step 3 groundwork: geodesic length spectrum of m004.
 
 Method B input (Selberg trace formula consistency check) per the Maass
 handoff. SnapPy computes complex lengths (length + i*torsion) of closed
@@ -56,7 +56,7 @@ print()
 print("Shortest geodesic (systole):",
       min(r['re'] for r in rows))
 
-with open('frontier/B788_maass_spectrum/length_spectrum.json', 'w') as f:
+with open('frontier/B792_maass_m004_eigenvalues/length_spectrum.json', 'w') as f:
     json.dump({'manifold': 'm004', 'cutoff': used, 'geodesics': rows}, f,
               indent=1)
 print("Saved length_spectrum.json")

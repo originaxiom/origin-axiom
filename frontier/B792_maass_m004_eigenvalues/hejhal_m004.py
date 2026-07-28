@@ -1,6 +1,6 @@
 r"""Hejhal/Then collocation solver for Maass cusp forms on m004.
 
-B788 Step 3, Method A, in-sandbox (no specialist). cc3 seat, independent.
+B792 (ex-B788) Step 3, Method A, in-sandbox (no specialist). cc3 seat, independent.
 
 THE SETUP. m004 = Gamma_41 \ H^3 with Gamma_41 = <A, B> the Riley
 holonomy (the campaign's banked geometric point):
@@ -59,7 +59,7 @@ Bi = np.array([[1, 0], [OMEGA, 1]], dtype=complex)
 GEN = {'a': A, 'A': Ai, 'b': B, 'B': Bi}
 CANCEL = ('aA', 'Aa', 'bB', 'Bb')
 
-OUTDIR = 'frontier/B788_maass_spectrum'
+OUTDIR = 'frontier/B792_maass_m004_eigenvalues'
 
 
 def wmat(w):
@@ -483,10 +483,123 @@ def scan(rmin=0.8, rmax=6.5, dr=0.01, Y=None, tag='scanA',
     print(f"[{tag}] saved. total {time.time() - t_start:.0f}s")
 
 
+# ----------------------------------------------------------------
+# Refinement: golden-section on sigma_min + second-Y verification
+# ----------------------------------------------------------------
+
+class System:
+    """Reusable collocation system at fixed Y (r enters only via K)."""
+
+    def __init__(self, lat, moves, Y, rmax, margin=21.0, oversample=1.35,
+                 seed=11):
+        self.Y = Y
+        xcut = np.pi * rmax / 2 + margin
+        Rcut = xcut / (2 * np.pi * Y)
+        self.mus = lat.modes(Rcut)
+        zs = sample_points(lat, int(oversample * len(self.mus)), rng_seed=seed)
+        zstar = np.empty(len(zs), dtype=complex)
+        tstar = np.empty(len(zs))
+        mv = np.zeros(len(zs), dtype=bool)
+        for j, z in enumerate(zs):
+            zstar[j], tstar[j], mv[j] = reduce_pt(lat, moves, z, Y)
+        keep = mv & (tstar > Y * (1 + 1e-9))
+        self.zs = np.array(zs)[keep]
+        self.zstar, self.tstar = zstar[keep], tstar[keep]
+        absmu = np.abs(self.mus)
+        self.norms, self.nrm_idx = np.unique(np.round(absmu, 12),
+                                             return_inverse=True)
+        self.heights = np.concatenate([[Y], self.tstar])
+        self.args = (2 * np.pi * np.outer(self.norms, self.heights)).ravel()
+        self.ts, self.wts = bessel_nodes(rmax, self.args.min())
+        d0 = (np.outer(self.zs.real, self.mus.real)
+              + np.outer(self.zs.imag, self.mus.imag))
+        d1 = (np.outer(self.zstar.real, self.mus.real)
+              + np.outer(self.zstar.imag, self.mus.imag))
+        self.P0 = np.exp(2j * np.pi * d0)
+        self.P1 = np.exp(2j * np.pi * d1)
+
+    def sigma_min(self, r):
+        KT = K_table(self.args, self.ts, self.wts, [r], [])
+        KT = KT.reshape(len(self.norms), len(self.heights))
+        KY = KT[self.nrm_idx, 0]
+        Kst = KT[self.nrm_idx, 1:]
+        V = ((self.Y * KY)[None, :] * self.P0
+             - (self.tstar[:, None] * Kst.T) * self.P1)
+        cn = np.linalg.norm(V, axis=0)
+        cn[cn == 0] = 1.0
+        sv = np.linalg.svd(V / cn[None, :], compute_uv=False)
+        return sv[-1]
+
+
+def golden_min(f, a, b, tol=2e-8):
+    g = (np.sqrt(5) - 1) / 2
+    c, d = b - g * (b - a), a + g * (b - a)
+    fc, fd = f(c), f(d)
+    while b - a > tol:
+        if fc < fd:
+            b, d, fd = d, c, fc
+            c = b - g * (b - a)
+            fc = f(c)
+        else:
+            a, c, fc = c, d, fd
+            d = a + g * (b - a)
+            fd = f(d)
+    return (a + b) / 2, min(fc, fd)
+
+
+def refine(dips_json=f"{OUTDIR}/scanA_dips.json", rmax=6.5,
+           Y2=0.62, halfwidth=0.02):
+    with open(dips_json) as f:
+        scan_data = json.load(f)
+    tau, _, _, _ = find_cusp_lattice()
+    lat = Lattice(tau)
+    moves = build_moves()
+
+    Y1 = scan_data['Y']
+    print(f"Building systems at Y1 = {Y1} and Y2 = {Y2} ...")
+    S1 = System(lat, moves, Y1, rmax)
+    S2 = System(lat, moves, Y2, rmax, seed=23)
+    print(f"  S1: {len(S1.mus)} modes / {len(S1.zs)} pts;  "
+          f"S2: {len(S2.mus)} modes / {len(S2.zs)} pts")
+    print()
+
+    results = []
+    for d in scan_data['dips']:
+        r0 = d['r']
+        r1, s1 = golden_min(S1.sigma_min, r0 - halfwidth, r0 + halfwidth)
+        r2, s2 = golden_min(S2.sigma_min, r1 - halfwidth, r1 + halfwidth)
+        dev = abs(r1 - r2)
+        stable = dev < 5e-4 and s2 < 0.1 * scan_data['median_sigma']
+        results.append({'r_Y1': r1, 'sigma_Y1': s1, 'r_Y2': r2,
+                        'sigma_Y2': s2, 'dev': dev, 'stable': bool(stable)})
+        lam = 1 + r1 ** 2
+        print(f"  dip {r0:.4f}: Y1 -> r = {r1:.8f} (sig {s1:.2e}), "
+              f"Y2 -> r = {r2:.8f} (sig {s2:.2e}), |dr| = {dev:.2e} "
+              f"{'STABLE' if stable else 'spurious?'}  lam = {lam:.6f}")
+
+    stable_rs = [x['r_Y1'] for x in results if x['stable']]
+    print()
+    print(f"STABLE EIGENVALUES: {len(stable_rs)}")
+    for r in stable_rs:
+        print(f"  r = {r:.8f}   lambda = 1 + r^2 = {1 + r ** 2:.8f}")
+    vol = 2.029883212819307
+    weylc = vol / (6 * np.pi ** 2)
+    if stable_rs:
+        T = max(stable_rs)
+        print(f"  Weyl check: N({T:.2f}) predicted "
+              f"{weylc * T ** 3:.1f}, found {len(stable_rs)}")
+    with open(f"{OUTDIR}/refined_eigenvalues.json", 'w') as f:
+        json.dump({'Y1': Y1, 'Y2': Y2, 'results': results,
+                   'stable_r': stable_rs}, f, indent=1)
+    print("Saved refined_eigenvalues.json")
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'groundwork'
     if cmd == 'groundwork':
         groundwork()
+    elif cmd == 'refine':
+        refine()
     elif cmd == 'scan':
         kw = {}
         if len(sys.argv) > 2:
