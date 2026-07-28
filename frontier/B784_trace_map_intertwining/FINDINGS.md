@@ -201,14 +201,18 @@ The three rep-variety involutions from θ and ι:
 
 | involution | action on (A,B) | V0 status | generic SL(3) status |
 |---|---|---|---|
-| θ_T (transpose) | (A^T, B^T) | INNER (Q) | OUTER |
+| θ_T = transpose∘reversal | (A^T, B^T) | INNER (rep-dep.) | OUTER |
 | ι (inversion) | (A⁻¹, B⁻¹) | INNER (S_ι) | OUTER |
 | contragredient (= θ_T·ι) | (A^{−T}, B^{−T}) | INNER (S_sd⁻¹) | OUTER |
 | c | (Ā, B̄) | OUTER | OUTER |
 | γ₅ | Galois on √5 | OUTER | OUTER |
 | C (swap) | inner (gauge) | INNER | INNER |
 
-Conjugating matrices on V0:
+Naming note (B789 scoping): the rep-variety involution (A,B) → (A^T, B^T)
+is w ↦ ρ(w^R)^T = transpose∘reversal — the reversal is what makes it a
+homomorphism. "Transpose alone" is an anti-homomorphism, not a rep.
+
+Conjugating matrices for the Riley family (rep-dependent, not universal):
 - ι: S_ι = diag(1,−1,1) = Sym²(P), P = Riley off-diagonal negation
 - contragredient: S_sd⁻¹ = [[0,0,1],[0,−1/2,0],[1,0,0]], where
   S_sd = [[0,0,1],[0,−2,0],[1,0,0]] is the self-duality intertwiner
@@ -245,14 +249,28 @@ cc's disc-form [[0,0,2],[0,−1,0],[2,0,0]] is the SAME object in the
 {x², xy, y²} basis (verified: 2 · D⁻ᵀ · S_sd · D⁻¹ = disc-form,
 D = diag(1,2,1)). Both satisfy S · Sym²(g) · S⁻¹ = Sym²(g)^{−T}.
 
-The Q intertwiner for θ_T (DEFENDED, q_defense.py):
-Q = S_ι · S_sd⁻¹ = [[0,0,1],[0,1/2,0],[1,0,0]]. Satisfies
-Q · Sym²(g)^T · Q⁻¹ = Sym²(g) for the entire Riley family.
-cc's refutation tested Sym²(g^T), not Sym²(g)^T — these differ
-because Sym² doesn't commute with transpose (factor-of-2 entries).
-Algebraic proof: transpose self-duality → S_sd⁻¹ · M^T · S_sd = M⁻¹,
-compose with iota → (S_ι · S_sd⁻¹) · M^T · (S_sd · S_ι⁻¹) = M.
-S_ι and S_sd commute, so Q⁻¹ = S_sd · S_ι⁻¹. QED.
+The Q intertwiner (DEFENDED → BANKED as B789, main 1c7d7f0d):
+Q = S_ι · S_sd⁻¹ = [[0,0,1],[0,1/2,0],[1,0,0]].
+SCOPING (cc's banked phrasing, adopted):
+- Q implements **ρ∘(transpose∘reversal) ≅ ρ**, NOT "θ_T inner on
+  Sym²(SL(2))" — the latter is false by the abelian obstruction.
+  transpose∘reversal is a homomorphism because the two order-reversals
+  cancel; transpose alone is only an anti-homomorphism.
+- Q is **rep-dependent**, adapted to the normalised Riley family
+  (A=[[1,1],[0,1]], B=[[1,0],[−u,1]], generic u). Each irreducible
+  Sym² pair has its OWN intertwiner (nullity 1 per pair); Q is not a
+  single matrix for all of V0. Say "for the Riley family", not "on V0".
+- cc's strengthening: ρ₂ DESCENDS to π₁(S³∖4₁) — the correct knot
+  relator (w = ab⁻¹a⁻¹b, found by search; the guessed b⁻¹aba⁻¹ FAILS)
+  is respected. The result is about the knot group, not merely F₂.
+Dispute record: cc's first refutation tested Sym²(g^T) (wrong identity,
+accepted by cc); second raised the abelian obstruction (correct math,
+wrong question — it kills condition (A), never claimed; innerness is
+condition (B), rep conjugacy). cc RETRACTED in writing and banked.
+Algebraic proof of Q: transpose self-duality → S_sd⁻¹·M^T·S_sd = M⁻¹,
+compose with iota; S_ι and S_sd commute, so Q⁻¹ = S_sd·S_ι⁻¹. QED.
+Rank consequence: NIL at the character variety — ρ₂ ≅ ρ₁ IS the banked
+θ-triviality (now with explicit matrix witness). B766/B787 untouched.
 
 ---
 
