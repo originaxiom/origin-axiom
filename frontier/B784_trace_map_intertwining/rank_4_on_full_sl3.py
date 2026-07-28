@@ -7,10 +7,11 @@ ANSWER: YES. On generic SL(3), all 7 nontrivial elements of
 <c, theta_T, iota> are OUTER (nullity 0). The full involution group is
 (Z/2)^4 = <c, theta_T, iota, gamma5>.
 
-KEY CORRECTION: On V0 (Sym^2(SL(2))), theta_T is INNER (not outer),
-conjugated by Q = S_iota * S_sd^{-1} = [[0,0,1],[0,1/2,0],[1,0,0]].
-So the V0 rep-variety rank from {theta_T, iota, contragredient} = 0 (all gauge).
-The V0 total = 2 = {c, gamma5}.
+On V0 (Sym^2(SL(2))), theta_T is INNER (not outer), conjugated by
+Q = S_iota * S_sd^{-1} = [[0,0,1],[0,1/2,0],[1,0,0]].
+V0 rep-variety rank = 2 = {c, gamma5} (theta_T, iota, contragredient
+all gauge). B766's closing-axis rank 3 measures a different object
+(T-coordinate choices, not the rep-variety quotient by inner).
 
 The three involutions on representations (A,B):
   theta_T (transpose):       (A,B) -> (A^T, B^T)
@@ -21,8 +22,9 @@ Innerness test: exists S with S*f(A)*S^{-1} = A and S*f(B)*S^{-1} = B?
 Vectorize: S*f(A) = A*S gives (f(A)^T kron I - I kron A) vec(S) = 0.
 Stack both generators; nullity > 0 = inner, nullity 0 = outer.
 
-The self-duality intertwiner (CORRECTED):
-  S_sd = [[0,0,1],[0,-2,0],[1,0,0]]  (NOT cc's [[0,0,2],[0,-1,0],[2,0,0]])
+The self-duality intertwiner (basis-dependent):
+  S_sd = [[0,0,1],[0,-2,0],[1,0,0]]  in {x^2, 2xy, y^2} basis
+  cc's [[0,0,2],[0,-1,0],[2,0,0]] is the SAME object in {x^2, xy, y^2}
   S_sd * Sym2(g) * S_sd^{-1} = Sym2(g)^{-T} for all g in SL(2).
 
 Gate 5-Q.
@@ -102,9 +104,9 @@ for name, S in [('S_sd [[0,0,1],[0,-2,0],[1,0,0]]', S_sd),
     print(f"    S*Sym2(g)*S^-1 = Sym2(g)^{{-T}}?  {ok}")
 
 print()
-print("RESULT: S_sd = [[0,0,1],[0,-2,0],[1,0,0]] is the UNIQUE (up to scalar)")
-print("self-duality intertwiner in the {x^2, 2xy, y^2} Sym2 basis.")
-print("cc's [[0,0,2],[0,-1,0],[2,0,0]] is WRONG (not a scalar multiple).")
+print("RESULT: S_sd = [[0,0,1],[0,-2,0],[1,0,0]] in {x^2, 2xy, y^2} basis.")
+print("cc's [[0,0,2],[0,-1,0],[2,0,0]] is the SAME object in {x^2, xy, y^2}.")
+print("Both are the disc-form (unique up to scalar in their respective bases).")
 print()
 
 # ================================================================
@@ -209,8 +211,8 @@ print("  c:              OUTER  (complex conjugation)")
 print("  gamma5:         OUTER  (Galois on sqrt(5))")
 print()
 print("  => V0 rep-variety rank = 2 = {c, gamma5}")
-print("  => B766's 'rank 3' counted theta at raw-matrix level")
-print("     (Sym2(AB) != Sym2(BA), but the REPRESENTATIONS are conjugate)")
+print("  B766's closing-axis rank 3 measures T-coordinate choices,")
+print("  a DIFFERENT object from the rep-variety quotient by inner.")
 print()
 
 print("Generic SL(3) (W1/W2):")

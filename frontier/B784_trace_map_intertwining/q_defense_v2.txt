@@ -1,0 +1,115 @@
+========================================================================
+SECTION 1: THE TWO CONDITIONS
+========================================================================
+
+Condition (A) — GROUP-LEVEL (cc's test):
+  Q * rho(w)^T * Q^{-1} = rho(w) for ALL words w
+  Equivalently: Q * Sym2(AB)^T * Q^{-1} = Sym2(AB)?
+
+  Q * Sym2(AB)^T * Q^-1 = Sym2(AB)?  False
+  Q * Sym2(BA)^T * Q^-1 = Sym2(BA)?  False
+
+  Q * Sym2(AB)^T * Q^-1 = Sym2(BA)?  True
+  (Q reverses the word order — this is the anti-homomorphism at work)
+
+Condition (B) — REP-VARIETY INNERNESS:
+  rho_2(a) = Sym2(A)^T, rho_2(b) = Sym2(B)^T
+  Q * rho_2(w) * Q^{-1} = rho_1(w) for all words w?
+
+  On a:  Q * Sym2(A)^T * Q^-1 = Sym2(A)?  True
+  On b:  Q * Sym2(B)^T * Q^-1 = Sym2(B)?  True
+
+  On ab: Q * rho_2(ab) * Q^-1 = rho_1(ab)?  True
+         where rho_2(ab) = Sym2(A)^T * Sym2(B)^T
+         and   rho_1(ab) = Sym2(A) * Sym2(B) = Sym2(AB)
+
+  CRUCIAL: rho_2(ab) = Sym2(A)^T * Sym2(B)^T
+           rho_1(ab)^T = Sym2(AB)^T = Sym2(B)^T * Sym2(A)^T
+           rho_2(ab) == rho_1(ab)^T?  False
+           (Different order! A^T*B^T != B^T*A^T)
+
+========================================================================
+SECTION 2: INNERNESS HOLDS ON ALL WORDS (ALGEBRAIC PROOF)
+========================================================================
+
+If Q * A^T * Q^-1 = A and Q * B^T * Q^-1 = B, then for any word w:
+  Q * rho_2(w) * Q^-1 = rho_1(w)
+
+Proof: rho_2 is a HOMOMORPHISM (F_2 is free, any pair defines a rep).
+  rho_2(ab) = rho_2(a) * rho_2(b) = A^T * B^T
+  Q * rho_2(ab) * Q^-1 = Q * A^T * B^T * Q^-1
+                       = (Q*A^T*Q^-1) * (Q*B^T*Q^-1)
+                       = A * B = rho_1(ab)
+
+For an arbitrary word w = a^{e1} b^{e2} a^{e3} ...:
+  Q * rho_2(w) * Q^-1 = Q * (A^T)^{e1} * (B^T)^{e2} * ... * Q^-1
+                      = A^{e1} * B^{e2} * ... = rho_1(w)
+
+The abelian obstruction does NOT apply because:
+  - It proves: no Q with Q*M^T*Q^-1 = M for all M in a non-abelian group
+  - Innerness asks: Q*rho_2(w)*Q^-1 = rho_1(w) for all w in F_2
+  - These are different: rho_2(ab) = A^T*B^T  !=  (AB)^T = B^T*A^T
+
+========================================================================
+SECTION 3: EXHAUSTIVE WORD-LEVEL VERIFICATION
+========================================================================
+
+  w=a         : cc's test=    1, innerness=    1
+  w=b         : cc's test=    1, innerness=    1
+  w=ab        : cc's test=    0, innerness=    1 <-- cc fails, innerness works
+  w=ba        : cc's test=    0, innerness=    1 <-- cc fails, innerness works
+  w=a^-1      : cc's test=    1, innerness=    1
+  w=b^-1      : cc's test=    1, innerness=    1
+  w=a^-1*b    : cc's test=    0, innerness=    1 <-- cc fails, innerness works
+  w=a*b^-1    : cc's test=    0, innerness=    1 <-- cc fails, innerness works
+  w=aba       : cc's test=    1, innerness=    1
+  w=bab       : cc's test=    1, innerness=    1
+  w=abab      : cc's test=    0, innerness=    1 <-- cc fails, innerness works
+  w=a^2*b     : cc's test=    0, innerness=    1 <-- cc fails, innerness works
+
+cc's condition (A) passes on all words: False
+Innerness condition (B) passes on all words: True
+
+========================================================================
+SECTION 4: THE ABELIAN OBSTRUCTION EXPLAINED
+========================================================================
+
+cc's argument: if Q*M^T*Q^-1 = M for all M in group G,
+then Q*(MN)^T*Q^-1 = MN. But (MN)^T = N^T*M^T, so
+Q*N^T*M^T*Q^-1 = (Q*N^T*Q^-1)(Q*M^T*Q^-1) = N*M = MN.
+So N*M = M*N for all M,N => G abelian. Contradiction.
+
+THIS IS CORRECT but addresses condition (A), not (B).
+
+Condition (B) does NOT require Q*Sym2(AB)^T*Q^-1 = Sym2(AB).
+It requires Q*rho_2(ab)*Q^-1 = Sym2(AB), where
+rho_2(ab) = Sym2(A)^T * Sym2(B)^T  (product of transposed GENERATORS).
+
+Verify:
+  Q * (Sym2(A)^T * Sym2(B)^T) * Q^-1 = Sym2(A)*Sym2(B)?  True
+  Q * Sym2(AB)^T * Q^-1 = Sym2(AB)?  False  (cc's test)
+  Q * Sym2(AB)^T * Q^-1 = Sym2(BA)?  True  (Q reverses)
+
+Q * (A^T*B^T) * Q^-1 = AB  (innerness: rho_2 conjugate to rho_1)
+Q * (AB)^T * Q^-1 = BA  (word reversal, not identity)
+
+The abelian obstruction kills the group-level question.
+The rep-variety innerness question has no abelian obstruction
+because rho_2(ab) = A^T*B^T has the SAME multiplication order
+as rho_1(ab) = A*B after conjugation by Q.
+
+========================================================================
+SUMMARY
+========================================================================
+
+cc's q_defense_gate confuses two questions:
+
+  (A) Is M -> Q*M^T*Q^-1 the identity on Sym2(SL(2))?
+      NO (abelian obstruction). cc's 'AB -> False' confirms this.
+
+  (B) Are (A,B) and (A^T,B^T) conjugate on the rep variety?
+      YES. Q*A^T*Q^-1 = A, Q*B^T*Q^-1 = B (verified, Riley family).
+      This implies Q*rho_2(w)*Q^-1 = rho_1(w) for ALL words w.
+
+theta_T innerness on V0 is condition (B), not (A).
+Q = [[0,0,1],[0,1/2,0],[1,0,0]] is the correct intertwiner.

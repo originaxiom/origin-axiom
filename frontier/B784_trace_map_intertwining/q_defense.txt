@@ -1,0 +1,116 @@
+========================================================================
+SECTION 1: Sym2(g)^T != Sym2(g^T)
+========================================================================
+
+Sym2(g) in {x^2, 2xy, y^2} basis:
+  Sym2(g)^T  = transpose of the 3x3 matrix
+  Sym2(g^T)  = Sym2 applied to g^T
+
+Difference Sym2(g)^T - Sym2(g^T):
+  row 0: [0, -a*c, 0]
+  row 1: [a*b, 0, c*(b*c + 1)/a]
+  row 2: [0, -b*(b*c + 1)/a, 0]
+
+Sym2(g)^T == Sym2(g^T)?  False
+
+The factor-of-2 entries (positions (0,1) and (1,0), (1,2) and (2,1))
+move DIFFERENTLY under matrix transpose vs functorial transpose.
+This is the SAME non-commutativity as Sym2(g)^{-T} != Sym2(g^{-T}).
+
+========================================================================
+SECTION 2: cc's identity (WRONG) vs innerness identity (RIGHT)
+========================================================================
+
+Testing at geometric point (A = [[1,1],[0,1]], B = [[1,0],[-w,1]]):
+
+  cc's identity:     Q * Sym2(A) * Q^-1 = Sym2(A^T)?  False
+                     Q * Sym2(B) * Q^-1 = Sym2(B^T)?  False
+
+  Innerness identity: Q * Sym2(A)^T * Q^-1 = Sym2(A)?  True
+                      Q * Sym2(B)^T * Q^-1 = Sym2(B)?  True
+
+cc tested Sym2(g^T); innerness requires Sym2(g)^T. DIFFERENT.
+
+========================================================================
+SECTION 3: Q works for GENERIC Riley (symbolic, parameter u)
+========================================================================
+
+  Q * Sym2(A(u))^T * Q^-1 = Sym2(A(u))?  True
+  Q * Sym2(B(u))^T * Q^-1 = Sym2(B(u))?  True
+
+Q intertwines theta_T for the ENTIRE Riley family (all u).
+
+========================================================================
+SECTION 4: Algebraic derivation of Q
+========================================================================
+
+Q = S_iota * S_sd^{-1}
+
+Given:
+  S_iota * Sym2(g)^{-1} * S_iota^{-1} = Sym2(g)   [iota, Riley family]
+  S_sd   * Sym2(g)   * S_sd^{-1}   = Sym2(g)^{-T}  [self-duality, all SL(2)]
+
+Transpose the self-duality identity:
+  S_sd^{-T} * Sym2(g)^T * S_sd^T = Sym2(g)^{-1}
+
+S_sd is symmetric: True
+So S_sd^T = S_sd, S_sd^{-T} = S_sd^{-1}.
+
+Therefore: S_sd^{-1} * Sym2(g)^T * S_sd = Sym2(g)^{-1}
+
+Composing with the iota identity:
+  S_iota * [S_sd^{-1} * Sym2(g)^T * S_sd] * S_iota^{-1} = Sym2(g)
+  (S_iota * S_sd^{-1}) * Sym2(g)^T * (S_sd * S_iota^{-1}) = Sym2(g)
+
+S_iota and S_sd commute: True
+So S_sd * S_iota^{-1} = S_iota^{-1} * S_sd = (S_iota * S_sd^{-1})^{-1} = Q^{-1}
+
+Result: Q * Sym2(g)^T * Q^{-1} = Sym2(g) for the entire Riley family.
+Q = S_iota * S_sd^{-1} = [[0,0,1],[0,1/2,0],[1,0,0]].  QED.
+
+Q computed: [[0, 0, 1], [0, 1/2, 0], [1, 0, 0]]
+Q matches:  True
+
+========================================================================
+SECTION 5: Numerical confirmation (nullity test)
+========================================================================
+
+Nullity test for theta_T on V0 (Sym2 of random SL(2) pairs):
+The nullity test finds S with S*A^T = A*S and S*B^T = B*S.
+This is the CORRECT theta_T innerness test (not Sym2(g^T)).
+
+  Trial 1: nullity=1 (INNER), S[0,2]=1.0000-0.0000j, S[1,1]=0.4732+0.1825j, S[2,0]=1.0000-0.0000j
+  Trial 2: nullity=1 (INNER), S[0,2]=1.0000-0.0000j, S[1,1]=-10.2035+22.9973j, S[2,0]=1.0000+0.0000j
+  Trial 3: nullity=1 (INNER), S[0,2]=1.0000+0.0000j, S[1,1]=-3.4651+3.3032j, S[2,0]=1.0000-0.0000j
+  Trial 4: nullity=1 (INNER), S[0,2]=1.0000+0.0000j, S[1,1]=0.5099-0.1217j, S[2,0]=1.0000-0.0000j
+  Trial 5: nullity=1 (INNER), S[0,2]=1.0000+0.0000j, S[1,1]=1.2060-0.1176j, S[2,0]=1.0000-0.0000j
+
+========================================================================
+SECTION 6: Basis reconciliation (disc-form)
+========================================================================
+
+cc's disc-form [[0,0,2],[0,-1,0],[2,0,0]] is in the {x^2, xy, y^2} basis.
+cc3's S_sd [[0,0,1],[0,-2,0],[1,0,0]] is in the {x^2, 2xy, y^2} basis.
+
+Change of basis from {x^2, 2xy, y^2} to {x^2, xy, y^2}: D = diag(1, 2, 1).
+Intertwiner transforms as: S' = D^{-T} * S * D^{-1}
+
+S' = D^(-T) * S_sd * D^(-1) = [[0, 0, 1], [0, -1/2, 0], [1, 0, 0]]
+2 * S' = [[0, 0, 2], [0, -1, 0], [2, 0, 0]]
+cc's disc-form = [[0, 0, 2], [0, -1, 0], [2, 0, 0]]
+2 * S' == cc's disc-form?  True
+
+cc's disc-form = 2 * (basis-changed S_sd). Same object, scalar * basis change.
+Both are correct in their respective bases.
+
+========================================================================
+SUMMARY
+========================================================================
+
+1. Q = [[0,0,1],[0,1/2,0],[1,0,0]] IS the correct theta_T intertwiner on V0.
+2. cc tested Sym2(g^T), not Sym2(g)^T. These differ (factor-of-2 issue).
+3. Q = S_iota * S_sd^{-1}, derived algebraically from the iota + self-duality
+   identities. Verified symbolically for generic Riley parameter u.
+4. cc's disc-form and cc3's S_sd are the SAME mathematical object in
+   different Sym2 basis conventions ({x^2,xy,y^2} vs {x^2,2xy,y^2}).
+5. The nullity test confirms theta_T INNER on V0 at 5 random trials.

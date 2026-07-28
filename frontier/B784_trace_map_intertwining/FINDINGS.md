@@ -214,9 +214,11 @@ Conjugating matrices on V0:
   S_sd = [[0,0,1],[0,−2,0],[1,0,0]] is the self-duality intertwiner
 - θ_T: Q = S_ι · S_sd⁻¹ = [[0,0,1],[0,1/2,0],[1,0,0]]
 
-On V0: rank = 2 = {c, γ₅}. θ_T, ι, contragredient all gauge.
-On generic SL(3): rank = 4 = {c, θ_T, ι, γ₅}. All three become outer.
+On V0 rep variety: rank = 2 = {c, γ₅}. θ_T, ι, contragredient all gauge.
+On generic SL(3) rep variety: rank = 4 = {c, θ_T, ι, γ₅}. All three outer.
 The rank jump IS the non-self-duality obstruction.
+B766's closing-axis rank 3 measures a DIFFERENT object (measurement choices
+on T-coordinates, not the rep-variety quotient by inner). Both valid.
 
 ### 10. Rank 4 on full SL(3): the complete innerness census
 
@@ -237,14 +239,20 @@ all 3 of {θ_T, ι, contragredient} have nullity 1 (INNER) at 5 trials.
 The full involution group on the SL(3) representation variety:
 (Z/2)⁴ = ⟨c, θ_T, ι, γ₅⟩, rank 4.
 
-The self-duality intertwiner (CORRECTED from both cc and cc3):
-S_sd = [[0,0,1],[0,−2,0],[1,0,0]]. This satisfies
-S_sd · Sym²(g) · S_sd⁻¹ = Sym²(g)^{−T} for all g ∈ SL(2).
-cc's proposed [[0,0,2],[0,−1,0],[2,0,0]] is WRONG (not a scalar
-multiple). Sym²(J) satisfies a DIFFERENT identity:
-Sym²(J) · Sym²(g) · Sym²(J)⁻¹ = Sym²(g^{−T}), where
-Sym²(g^{−T}) ≠ Sym²(g)^{−T} because Sym² doesn't commute with
-transpose (the factor-of-2 entries).
+The self-duality intertwiner (basis-dependent):
+S_sd = [[0,0,1],[0,−2,0],[1,0,0]] in the {x², 2xy, y²} Sym² basis.
+cc's disc-form [[0,0,2],[0,−1,0],[2,0,0]] is the SAME object in the
+{x², xy, y²} basis (verified: 2 · D⁻ᵀ · S_sd · D⁻¹ = disc-form,
+D = diag(1,2,1)). Both satisfy S · Sym²(g) · S⁻¹ = Sym²(g)^{−T}.
+
+The Q intertwiner for θ_T (DEFENDED, q_defense.py):
+Q = S_ι · S_sd⁻¹ = [[0,0,1],[0,1/2,0],[1,0,0]]. Satisfies
+Q · Sym²(g)^T · Q⁻¹ = Sym²(g) for the entire Riley family.
+cc's refutation tested Sym²(g^T), not Sym²(g)^T — these differ
+because Sym² doesn't commute with transpose (factor-of-2 entries).
+Algebraic proof: transpose self-duality → S_sd⁻¹ · M^T · S_sd = M⁻¹,
+compose with iota → (S_ι · S_sd⁻¹) · M^T · (S_sd · S_ι⁻¹) = M.
+S_ι and S_sd commute, so Q⁻¹ = S_sd · S_ι⁻¹. QED.
 
 ---
 
@@ -284,6 +292,9 @@ Character-variety torsor: ⟨c, γ₅⟩ ≅ Z/2 × Z/2 = 2 bits open.
 V0 rep-variety torsor: ⟨c, γ₅⟩ = rank 2 (θ_T, ι, contragredient
 all INNER/gauge on V0). Full SL(3) rep-variety: ⟨c, θ_T, ι, γ₅⟩ =
 rank 4 (all three become OUTER when self-duality breaks).
+B766's closing-axis rank 3 is a separate measurement (T-coordinate
+choices), not the rep-variety quotient. B787 reaches rank 4 on closing
+axes independently (iota de-welds T7/T3 via A5 ambivalence).
 
 ### Why NO combinatorial operation reaches the character variety
 
@@ -309,9 +320,9 @@ require operations OUTSIDE the combinatorial landscape.
    BOTH gauge (inner). On full SL(3), both become outer: rank = 4 =
    {c, θ_T, ι, γ₅}. The rank jump is the non-self-duality obstruction.
    θ_T · ι = contragredient (outer at SL(3), inner at SL(2)/Sym²).
-3. Raw matrices (pre-conjugation): θ is visible as Sym²(AB) ≠ Sym²(BA)
-   even on V0, but this is a pre-quotient observable, NOT a
-   representation-variety invariant. B766's "rank 3" counted this.
+3. Closing axes (B766): rank 3 = {c, θ, γ₅} as measurement choices on
+   T-coordinates. This is a DIFFERENT object from the rep-variety rank
+   (which quotients by inner). B787 extends to rank 4 via iota de-weld.
 4. Combinatorial (word): tracking = θ confirmed (B783). Does NOT
    propagate to the character variety (θ trace-invisible).
 
