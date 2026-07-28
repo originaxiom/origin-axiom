@@ -96,6 +96,67 @@ then come from a symmetry OUTSIDE the coset action (orientation /
 complex conjugation), not from the sector structure. B791's "generic
 multiplicity" phrasing should be scoped accordingly.
 
+## THE FULL WINDOW r < 10: 17 DISTINCT, 27 WITH MULTIPLICITY
+
+Upper window (7.3, 10), scanD + two-system refinement, all 11 STABLE:
+
+| r | λ | mult | type |
+|---|---|---|---|
+| 7.34952664 | 55.015542 | 2 | NEW |
+| 7.40661560 | 55.857955 | 1 | NEW |
+| 7.68767117 | 60.100288 | 1 | NEW |
+| 7.85778326 | 62.744758 | 2 | NEW |
+| 8.30822480 | 70.026599 | 2 | NEW |
+| 8.86340536 | 79.559955 | 2 | NEW |
+| 9.02742152 | 82.494339 | 1 | NEW |
+| 9.04778823 | 82.862472 | 2 | NEW |
+| 9.08064862 | 83.458179 | 1 | NEW |
+| 9.64012103 | 93.931933 | 2 | NEW |
+| 9.83711622 | 97.768855 | 2 | NEW |
+
+No old (Bianchi) form in (7.3, 10): the parent's r₂ lies above 10 or
+inside a mult-2 eigenspace (the S-test uses the generic SVD null
+vector; a hidden old component inside a double would need a projection
+test — registered caveat, not load-bearing). No exceptional λ < 1
+anywhere in (0.8, 10).
+
+## WEYL COMPLETENESS (scattering-corrected, exact φ)
+
+`weyl_scattering_check.py`: N_disc(T) vs (vol/6π²)T³ + the scattering
+correction −(1/4π)∫(φ'/φ)(1+it)dt computed from the EXACT
+φ = Λ_K(s−1)/Λ_K(s) (B737/B739). Residual after correction: −0.6 at
+T=3 → −3.6 at T=7 → −7.0 at T=9.9, tracking −(T/π)ln T (the one-cusp
+parabolic term, NOT computed into the prediction): shape-predicted
+−4.3 and −7.2 at those T. Smooth, no integer-step downward anomaly:
+**no missing-eigenvalue signature**. B791's completeness criterion
+passes empirically on the m004 window.
+
+## THE LAST DOOR: SM COMPARISON — CLEAN NULL (Tests 1–3)
+
+`sm_comparison_tests.py`, pre-registered protocol in the docstring
+(B743 rules: surrogate nulls, base-rate gate 0.02, PSLQ caps 64/16):
+
+- **Test 1 (direct)**: 17 r's + 17 λ's vs 18 banked PDG targets.
+  2 candidates (δ_CP, m_s/m_d — both low-digit targets), surrogate
+  p = 0.65/0.53 → FAIL base rate.
+- **Test 2 (ratios)**: 272 r-ratios + 272 λ-ratios vs 18 targets.
+  39 candidates, ALL at 1–2-digit targets with surrogate p ≥ 0.24
+  (sin²θ₂₃: p = 0.994) → ALL FAIL base rate.
+- **Test 3-lite (algebraicity, 8-digit)**: PSLQ of every r, λ against
+  all six B743 bases: ZERO relations, null rates 0.00. The near-
+  integers λ₂ = 25.0108, λ₅ = 44.9941 are 0.04% off — correctly NOT
+  relations at tol 1e−7 (the protocol kills exactly this numerology).
+
+**VERDICT: CLEAN NULL at 8-digit precision, 17 eigenvalues, r < 10.**
+The SM values are not in the low Maass spectrum of m004 at testable
+precision. The banked H0 — the object is valueless; the values live in
+the observer–object coupling — now stands at the SPECTRAL level too:
+the manifold's last unexplored mathematical structure has been opened
+and it contains no SM numbers. Honest remainder: handoff Test 3 at
+50+ digits (deep algebraicity) needs high-precision eigenvalues
+(mp-arithmetic solve; symmetrized modes would make it tractable) and
+stays OPEN, not claimed in either direction.
+
 ## TRACE-NORM SPLIT AT CUTOFF 6.0 (B790 follow-up (a): DONE)
 
 m004: 370 distinct traces (7513 geodesics w/ mult), m003: 411 (7413),
@@ -116,9 +177,24 @@ ALL traces in Z[ω] to 2.4e−10 (L2 algebraicity extends).
   Γ₄₁'s traces — consistent with the level-4 cusp structure
   (B737: O/Λ ≅ Z/4, CM by the conductor-4 order, disc −48).
 - B790's cutoff-5 phrasing was sample-limited: no odd m004-exclusive
-  trace exists below cutoff 5. Observed regularity, sample-bounded at
-  cutoff 6; the algebraic proof (congruence level of Γ₄₁) is the
-  natural next step.
+  trace exists below cutoff 5.
+
+## THEOREMS (mod4_trace_law_proof.py — the law PROVED, plus congruence)
+
+Finite computation in SL(2, Z[ω]/4), no citations:
+- **Theorem 1**: ⟨A,B⟩ mod 4 has order 320 (H̄ = 160 in PSL);
+  the Bianchi generators surject onto SL(2, Z[ω]/4) (closure = 3840,
+  verified); [PSL(2,Z[ω]/4) : H̄] = 1920/160 = 12 = [PSL(2,O₃) : Γ₄₁]
+  ⟹ Γ₄₁ = preimage(H̄) ⟹ **Γ(4) ≤ Γ₄₁: the figure-eight knot group
+  is a CONGRUENCE subgroup, of level exactly (4)** (mod-2 image is
+  D₅ < A₅ of index 6, so Γ(2) ⊄ Γ₄₁). Explains B791's coset-image
+  order 1920 = |PSL(2, Z[ω]/4)| and its stabilizer order 160 = |H̄|.
+  Note: A₅ = PSL(2,F₄) with dihedral D₅ image — B787's 5A/5B
+  ambivalence structure lives at the mod-2 level of Γ₄₁.
+- **Theorem 2**: traces of H have norms {0,3} mod 4 ⟹ every m004
+  geodesic trace norm avoids 1 mod 4 at EVERY cutoff. The observed
+  law is a theorem. (The m003-side "≡ 1 mod 4 exactly" statement
+  remains observational — m003's holonomy is not ⟨A,B⟩.)
 
 ---
 

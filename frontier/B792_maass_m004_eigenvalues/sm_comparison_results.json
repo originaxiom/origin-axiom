@@ -1,0 +1,305 @@
+{
+ "n_eigenvalues": 17,
+ "r_max": 9.837116218,
+ "test1": [
+  {
+   "target": "delta_CP",
+   "kind": "r",
+   "x": 3.938916864,
+   "p_null": 0.65,
+   "gated": false
+  },
+  {
+   "target": "m_s/m_d",
+   "kind": "lam",
+   "x": 16.515066061503592,
+   "p_null": 0.526,
+   "gated": false
+  }
+ ],
+ "test2": [
+  {
+   "target": "sin^2(theta_12)",
+   "kind": "lam-ratio",
+   "x": 0.3237407586491711,
+   "p_null": 0.856,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_12)",
+   "kind": "lam-ratio",
+   "x": 0.30018910124527987,
+   "p_null": 0.856,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_12)",
+   "kind": "lam-ratio",
+   "x": 0.295661847379117,
+   "p_null": 0.856,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_12)",
+   "kind": "lam-ratio",
+   "x": 0.31436464259402247,
+   "p_null": 0.856,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_12)",
+   "kind": "lam-ratio",
+   "x": 0.3031824589795331,
+   "p_null": 0.856,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_12)",
+   "kind": "lam-ratio",
+   "x": 0.3018355124743922,
+   "p_null": 0.856,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_12)",
+   "kind": "lam-ratio",
+   "x": 0.2996810717983742,
+   "p_null": 0.856,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "r-ratio",
+   "x": 0.474098493649053,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "r-ratio",
+   "x": 0.4444022027418149,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "r-ratio",
+   "x": 0.49812213909131225,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.49808587416279637,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.4592289499480498,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.490281250191506,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.4546140203862687,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.44775783182756457,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.4734924444460947,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.4520188341374614,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.4790071355615414,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "sin^2(theta_23)",
+   "kind": "lam-ratio",
+   "x": 0.46020858244498086,
+   "p_null": 0.994,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 2.7244254563148673,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.0888912603175562,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.3312335319692887,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.38224227733291,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.6391188363085925,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.7992435255551387,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 4.240164654285913,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 2.7998503337415688,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 4.817416667210476,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.181019314857945,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.298343853288382,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.3130627731713314,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.336880751256793,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.755649390696993,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 2.832938664701005,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 2.61193403736774,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 3.9090597729699836,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 2.948658253591346,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "delta_CP",
+   "kind": "lam-ratio",
+   "x": 2.7186260518398515,
+   "p_null": 0.962,
+   "gated": false
+  },
+  {
+   "target": "m_c(m_c)/m_b(m_b)",
+   "kind": "lam-ratio",
+   "x": 0.3031824589795331,
+   "p_null": 0.242,
+   "gated": false
+  }
+ ],
+ "test3": [],
+ "pslq_null_rates": {
+  "B1 Q(sqrt5)": 0.0,
+  "B2 Q(sqrt3)": 0.0,
+  "B3 Q(sqrt15)": 0.0,
+  "B4 Q(zeta15+)": 0.0,
+  "B5 Q(zeta20+)": 0.0,
+  "B6 Q(sqrt-phi)": 0.0
+ },
+ "clean_null": true
+}
