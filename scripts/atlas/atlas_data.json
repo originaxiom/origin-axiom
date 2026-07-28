@@ -16512,6 +16512,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B797": {
+   "slug": "maass spectrum harvest",
+   "motifs": [
+    "figure_eight",
+    "metallic"
+   ],
+   "refs": [
+    "B713",
+    "B716",
+    "B790",
+    "B791",
+    "B792",
+    "B795",
+    "H0"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "dormant",
+   "domain": "topology"
+  },
   "B79": {
    "slug": "mn table",
    "motifs": [

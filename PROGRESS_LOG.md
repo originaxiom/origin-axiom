@@ -8104,3 +8104,16 @@ cutoff restored them at 54x and 15x. Stopping one run earlier would have produce
 negative from cc's own instrument aimed at another seat's correct result. Scope recorded because
 cc overreached: sigma_min establishes existence, never sector — only cc3's S-invariance test can
 decide whether r = 8.863405 is the parent's second eigenvalue. Nothing to CLAIMS.
+
+B797 — the Maass programme's central question is answered at achievable precision. Seventeen
+eigenvalues of m004 now exist where the literature had none, mode-count certified to 5.4e-9 and
+independently re-derived by cc in B795; the sixth is the parent Bianchi ground state, which also
+discharges the provenance alert cc raised against the secondary-sourced Grunewald-Huntebrinker
+value. The SM comparison returns a clean null under a properly sealed protocol: thirty-nine raw
+ratio candidates, several clustering near delta_CP, every one killed by the per-target surrogate
+null. That is the result -- not the null itself but the fact that the machinery killed forty
+tempting near-misses. The verdict is scoped as a generic-spectrum null over a bounded window,
+with the deep-precision and algebraicity questions left open in both directions; an earlier
+draft's appeal to the banked valueless thesis was struck as a scope import. Three of four gate
+items closed, with the certification margin recorded honestly at 1.8x above the tolerance floor
+and the sector call on r = 8.863405 left open as a standing prediction. Nothing to CLAIMS.
