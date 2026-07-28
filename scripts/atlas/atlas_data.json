@@ -16525,10 +16525,11 @@
     "B791",
     "B792",
     "B795",
-    "H0"
+    "H0",
+    "V1"
    ],
    "obstacle": "observable",
-   "obstacle_conf": 1,
+   "obstacle_conf": 9,
    "status": "dormant",
    "domain": "topology"
   },

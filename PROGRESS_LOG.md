@@ -8117,3 +8117,14 @@ with the deep-precision and algebraicity questions left open in both directions;
 draft's appeal to the banked valueless thesis was struck as a scope import. Three of four gate
 items closed, with the certification margin recorded honestly at 1.8x above the tolerance floor
 and the sector call on r = 8.863405 left open as a standing prediction. Nothing to CLAIMS.
+
+B797 addendum — the sector question is settled and cc's advance prediction is refuted. cc3's
+projective-line test finds exactly one parent eigenvalue in the certified window, r = 7.072004
+at nine orders of separation, and puts r = 8.863405 firmly in the no-parent band. cc had
+predicted the opposite from its Weyl position, and the error is worth keeping because cc argued
+the contrary case the same day: a 0.344% Weyl agreement was dismissed as too weak to verify the
+Grunewald-Huntebrinker value, then a 0.18% one was used to predict a sector. The Weyl law is
+asymptotic and at k=2 the positional fluctuation is order one, so the proximity carried no
+resolving power at all. Logged as an E4 instance rather than a new class. The count itself is
+fine — one parent found against 2.55 expected is z = -0.97 — so the failure was of sector, not
+census. Nothing to CLAIMS.

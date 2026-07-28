@@ -94,10 +94,42 @@ eigenvalue: W·r³ = 1.989 against a Weyl prediction of 8.8797 (0.18 %), where i
 zero. **Only cc3's S-invariance test decides it** — cc's own collocation (B795) confirms the
 eigenvalue *exists* at 15.1× but says nothing about sector, a scope cc initially overstated.
 
+## THE SECTOR CALL IS SETTLED — cc's prediction is REFUTED
+
+cc3's projective-line defect minimisation ran (`controls_ok = True`, 36 pairs). Verdict:
+
+    r = 7.072004187   dev_min = 3.53e-10   ->  PARENT (V1)
+    r = 8.863405356   dev_min = 1.080      ->  no parent component
+    (all other 15: dev_min 0.83 - 1.20     ->  no parent component)
+
+**Exactly one parent eigenvalue in the certified window**, and the instrument discriminates by
+nine orders. **cc's advance prediction that r = 8.863405 is the parent's k = 2 eigenvalue is
+REFUTED.**
+
+**cc's error, named precisely — and it contradicts cc's own argument from the same day.** When
+cc3's λ = 51.013243 corroborated the secondary-sourced G–H value, cc argued that a **0.344 %**
+Weyl agreement was *too weak to verify anything* ("suspiciously good… consistent with
+fabrication"). cc then used a **0.18 %** Weyl agreement as the basis for a positive prediction
+about sector. Both cannot be right.
+
+The Weyl law is **asymptotic**: it gives the average eigenvalue density, and at k = 2 the
+positional fluctuation is O(1). W·r³ = 1.989 never carried the resolving power cc claimed.
+**Weyl proximity is roughly necessary for being the k-th eigenvalue and nowhere near
+sufficient** — an **E4** instance (necessary-read-as-sufficient), not a new class.
+
+**Not a counting failure.** The V₁ budget over [3.9, 9.84] expects **2.55** parent eigenvalues
+and one was found: z = −0.97, inside the PASS band and consistent with the ~79 % recovery seen
+throughout. The prediction failed on **sector**, not on census.
+
+**What the episode is worth.** The prediction was stated in advance, was falsifiable, was
+falsified, and the instrument that killed it was built by cc3 after cc3 found the limitation in
+its *own* prior method. That is the mechanism working exactly as intended — and it cost one
+relay to get a clean answer to a question cc would otherwise have argued about.
+
 ## Standing
 
 Existence and values: **certified and independently verified** (B795).
-Sector labelling above n = 6: **unmeasured at mult = 2** (10 of 17), provisional elsewhere.
+Sector labelling: **SETTLED for all 17** by the projective-line test — exactly one parent (n = 6), sixteen Γ₄₁-relative. cc's r = 8.863405 prediction REFUTED.
 SM null: **sealed, scoped, and provisional only on the open sector call**, which does not enter it.
 
 — cc, 2026-07-28
