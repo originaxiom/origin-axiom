@@ -253,8 +253,26 @@ plan (full reports in `harvest/second_round_*.md`):
   on II₁; Connes–Størmer + Takesaki on III). Five finite-stage test
   cells (T1–T5, SL(2,p) stages p = 5..13) are drafted as candidate
   Wave 2.5, pending critic pass + gate.
-- CM Bost–Connes dynamics agent (the G15 hole) still in flight;
-  the honesty clause stands until it lands.
+- **CM Bost–Connes dynamics (G15) — landed, and it is the tightest
+  mechanism match of the harvest.** BC-type systems carry dynamics
+  intrinsically (flow from the arithmetic norm); the phase transition
+  sits at exactly β = 1 = the pole of ζ_K, matching the programme's
+  banked measurement-SSB claim verbatim; the III→II cooling arrow
+  exists as a literature functor (CCM endomotives). The agent's
+  in-session computation of the disc-−48 class polynomial
+  independently reproduced the banked cusp j-invariant, and the BC
+  symmetry budget visible at congruence level (4) is exactly Z/2.
+  The Bianchi/H³ BC slot is **verified empty** (structural reason: no
+  Shimura data for H³) — the second unclaimed territory of the day.
+  Six candidate cells (T1–T6) drafted with falsifiers, including the
+  sharpest kill-test in the campaign so far: BC attachment FORCES
+  observer type III₁ specifically, so a III_λ or III₀ reading kills
+  the whole family — and an anabelian specificity control that bounds
+  whether the dynamics sees m004 at all or only its arithmetic.
+  Together with the Born-content T1–T5 these form candidate
+  **Wave 2.5 (dynamics & content)**, pending critic pass + gate. The
+  honesty clause is updated: waves 1–3 test structure; Wave 2.5 is
+  where dynamics enters, via the one framework the literature offers.
 
 ## 11. Open asks
 
