@@ -1,0 +1,50 @@
+========================================================================
+STEP (a): H = <A, B> mod 4
+========================================================================
+  |H| = 320
+  -I in H: True
+  |Hbar| in PSL(2, Z[w]/4): 160
+
+========================================================================
+STEP (b): full group from Bianchi generators mod 4 (surjectivity)
+========================================================================
+  |<T, U, S> mod 4| = 3840  (|SL(2, Z[w]/4)| = 3840)
+  reduction PSL(2,O3) -> PSL(2,Z[w]/4) surjective: True
+  |PSL(2, Z[w]/4)| = 1920 (= B791's coset-image order 1920: True)
+
+========================================================================
+STEP (c): the index, and Theorem 1
+========================================================================
+  [PSL(2, Z[w]/4) : Hbar] = 1920 / 160 = 12
+  [PSL(2, O3) : Gamma_41] = 12 (B792 Step 2, exact)
+
+  Gamma_41 <= preimage(Hbar), and both have index 12 in
+  PSL(2,O3)  =>  Gamma_41 = preimage(Hbar)  =>
+  THEOREM 1: Gamma(4) <= Gamma_41. The figure-eight knot
+  group is a CONGRUENCE subgroup of level (2)^2 = (4).
+
+Level check mod 2: |H mod 2| = 10, |SL(2,F4)| = 60
+  [PSL(2,F4) : H mod 2] = 6  (PSL(2,F4) = SL(2,F4) ~ A5)
+  The mod-2 image is PROPER (order 10 = D5 < A5), of
+  index 6 != 12, so Gamma(2) is NOT contained in Gamma_41
+  (else Gamma_41 would equal the index-6 mod-2 preimage).
+  => the congruence LEVEL is exactly (4). Consistent with
+  B790's 'not principal congruence' and B737's conductor-4 /
+  disc -48 cusp structure. Note A5 = PSL(2,F4) appears with
+  the dihedral D5 image — the 5A/5B structure of B787's
+  ambivalence argument lives at the mod-2 level of Gamma_41.
+
+========================================================================
+STEP (d): trace enumeration, and Theorem 2
+========================================================================
+  distinct traces of H mod 4: 8
+  their norms mod 4: [0, 3]
+
+  THEOREM 2: for EVERY gamma in Gamma_41, N(tr gamma) mod 4
+  is in {0, 3}. All m004 geodesic trace norms avoid 1 mod 4,
+  at every cutoff. The observed cutoff-6 law is PROVED.
+
+Cross-checks against observed data:
+  - trace 3+w:  3 mod 4 (= 3, the
+    cutoff-6 'violation' of B790's law — consistent: 3 in {0,3})
+  - even traces: N == 0 mod 4 (2 inert) — the B790 cutoff-5 set
