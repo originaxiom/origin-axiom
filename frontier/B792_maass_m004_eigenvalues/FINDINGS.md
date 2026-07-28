@@ -96,14 +96,29 @@ then come from a symmetry OUTSIDE the coset action (orientation /
 complex conjugation), not from the sector structure. B791's "generic
 multiplicity" phrasing should be scoped accordingly.
 
-## LENGTH SPECTRUM AT CUTOFF 6.0 (B790 follow-up (a), in progress)
+## TRACE-NORM SPLIT AT CUTOFF 6.0 (B790 follow-up (a): DONE)
 
-m004: 370 distinct complex lengths (7513 geodesics with multiplicity)
-at cutoff 6.0 vs 134 at B790's 5.0. Systole 1.0870701449957387 =
-B790's banked value. ALL traces 2cosh(ℓ_C/2) in Z[ω] to 2.4e−10 —
-B790's L2 algebraicity extends to the raised cutoff. The mod-4/odd
-split test awaits the m003 cutoff-6 run (in progress);
-`trace_norm_split.py` is the checker.
+m004: 370 distinct traces (7513 geodesics w/ mult), m003: 411 (7413),
+~2.7× B790's cutoff-5 sample. Systoles match banked values exactly;
+ALL traces in Z[ω] to 2.4e−10 (L2 algebraicity extends).
+
+**B790's split is STABLE in REFINED form** (`trace_norm_split.py`):
+- B790's "m004-only norms ≡ 0 mod 4" FAILS at cutoff 6: norm 7 enters
+  via the m004-exclusive traces 3+ω and 2−ω.
+- The real law (all three tests pass at cutoff 6):
+  - m004-only norms ≡ 0 or 3 (mod 4)
+  - m003-only norms ≡ 1 (mod 4) exactly (sharper than B790's "odd")
+  - **ALL m004 trace norms avoid 1 mod 4** (shared norms are {0,3} too)
+- Reading: 2 is inert in Z[ω] (residue field F₄), so norm ≡ 0 mod 4 =
+  even trace. For ODD traces the mod-4 norm class splits the sisters:
+  m004's odd traces have N ≡ 3, m003's ≡ 1. The norm ≡ 1 mod 4 traces
+  are exactly m003's exclusives. A mod-4 congruence condition on
+  Γ₄₁'s traces — consistent with the level-4 cusp structure
+  (B737: O/Λ ≅ Z/4, CM by the conductor-4 order, disc −48).
+- B790's cutoff-5 phrasing was sample-limited: no odd m004-exclusive
+  trace exists below cutoff 5. Observed regularity, sample-bounded at
+  cutoff 6; the algebraic proof (congruence level of Γ₄₁) is the
+  natural next step.
 
 ---
 

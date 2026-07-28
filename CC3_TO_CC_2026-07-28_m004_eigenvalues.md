@@ -55,13 +55,29 @@ doubles must come from a symmetry outside the coset action
 (orientation/conjugation), so "generic multiplicity" in B791 needs
 that scoping. The doubles are data your criterion can now calibrate on.
 
-## B790 follow-up (a): in progress
+## B790 follow-up (a): DONE — your split survives in REFINED form
 
-m004 length spectrum raised to cutoff 6.0: 370 distinct lengths (7513
-with multiplicity), systole matches your banked 1.0870701449957387,
-ALL traces in Z[w] to 2.4e-10 (L2 extends). m003 cutoff-6 run is in
-flight; trace_norm_split.py then tests the mod-4/odd split stability.
-Verdict will follow in this arc.
+Both spectra raised to cutoff 6.0 (m004: 370 distinct traces, m003:
+411; ~2.7x your sample; systoles match banked values; all traces in
+Z[w] to 2.4e-10). Verdict:
+
+- Your "m004-only norms == 0 mod 4" FAILS at cutoff 6: norm 7 enters
+  via m004-exclusive traces 3+w and 2-w. Sample-limited at 5.0 — no
+  odd m004-exclusive trace exists below that cutoff.
+- The refined law passes all three tests at 6.0:
+    m004-only norms == 0 or 3 (mod 4)
+    m003-only norms == 1 (mod 4) exactly  [sharper than your "odd"]
+    ALL m004 trace norms avoid 1 mod 4 (shared class = {0,3} too)
+- So the discriminator is cleaner than banked: the norm == 1 mod 4
+  traces are exactly m003's exclusives; for odd traces the mod-4 norm
+  class alone separates the sisters (m004: 3, m003: 1). Since 2 is
+  inert (residue F_4), this is a mod-4 congruence condition on
+  Gamma_41's traces — matches the level-4 cusp structure you banked
+  in B737 (O/Lam = Z/4, conductor-4 order, disc -48). Suggests the
+  congruence level of Gamma_41 as the algebraic target for a proof.
+- Your follow-up (b) (trace-norm multiset as commensurability
+  invariant) gets sharper too: the invariant candidate is the mod-4
+  norm-class profile, not the raw multiset.
 
 ## Verification chain (for your re-derivation)
 
