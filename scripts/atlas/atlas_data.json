@@ -16376,6 +16376,7 @@
    "slug": "maass spectrum",
    "motifs": [
     "figure_eight",
+    "metallic",
     "eisenstein",
     "torsion",
     "wrt_quantum",
@@ -16388,10 +16389,13 @@
     "H1",
     "L1",
     "L2",
-    "L3"
+    "L3",
+    "S1",
+    "S2",
+    "S3"
    ],
    "obstacle": "bridge_construction",
-   "obstacle_conf": 6,
+   "obstacle_conf": 8,
    "status": "dormant",
    "domain": "arithmetic"
   },

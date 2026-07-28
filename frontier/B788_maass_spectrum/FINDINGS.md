@@ -181,3 +181,99 @@ alongside the pending GSWZ query.
    result.
 
 — cc, 2026-07-28
+
+---
+
+# ADDENDUM (2026-07-28) — four corrections from Chat-1, the null saga, and the screening pass
+
+Chat-1 challenged the first pass on four points. **All four are conceded.** Recorded here in
+full rather than patched silently, because three of them are errors in the *permissive*
+direction — the direction nobody audits, since no one re-checks a MISS.
+
+## C1 — wrong null, permissive choice (the one that mattered)
+
+Prereg §2 named the **density-matched** null as primary ("matched surrogate spectrum … the same
+Weyl density"). The first pass reported its verdict off a **uniform** null that was never
+pre-registered, and called the result "ordinary noise". That is a permissive choice.
+
+Worse, on inspection the "Weyl-matched" null was itself miscoded: density ~e^ℓ, whereas the
+prime geodesic theorem on H³ gives ~e^{2ℓ} (entropy = n−1 = 2). **Neither null reported in the
+first pass was the one the prereg committed to.**
+
+**The repair took three attempts, and the two intermediate nulls were both wrong:**
+
+| null | mean | obs | p | defect |
+|---|---|---|---|---|
+| B′ parametric, corrected e^{2ℓ} | 0.56 | 5 | 0.005 | **over-concentrated** — e^{2ℓ} piles all lengths at the top of [1.09, 5.0]; ratios cluster in [0.8,1.0] and cannot reach targets at 0.005–0.47. The asymptotic density has not engaged at this cutoff (m004 counts run 16→50→134 over ℓ≤3,4,5 ≈ 2.7×/unit, not the ~5.9× e^{2ℓ} implies) |
+| C empirical, unmatched | 29.25 | 5 | 1.000 | **pool-size uncontrolled** — manifolds with 200 lengths get ~20 000 ratios vs m004's 2 415 |
+
+Reporting either would have manufactured a false alarm (p=0.005) or an over-permissive pass
+(p=1.000). **A 200× disagreement between two nulls is itself the finding**: it says the
+calibration, not the data, was the problem.
+
+**Pool-matched repair (v2), and the two now agree:**
+
+| null | mean | 5–95% | obs | p |
+|---|---|---|---|---|
+| C2 — 20 real census manifolds truncated to m004's 70 lengths | 1.95 | [0, 5] | 4 | **0.20** |
+| D — gap-shuffle of m004's own spectrum (preserves range + gap multiset) | 5.43 | [2, 10] | 4 | **0.75** |
+
+**CORRECTED VERDICT L3: MISS, now earned.** The ℓ₀/ℓ₅₁ ≈ sin²θ_W four-figure coincidence is
+ordinary at this look-elsewhere budget. Chat-1's own figure (p≈0.07, "marginal") derived from
+cc's broken e^ℓ null; under a properly matched null it is 0.20–0.75.
+
+*Stability note:* de-duplicating lengths at 12 dp gives 88 "distinct" values, at 9 dp gives 70 —
+double-precision noise in the last digits. 9 dp is used (still 6 orders tighter than the 10⁻³
+window) and restores observed = 4, matching the first pass.
+
+## C2 — "unsupported" should read "untested"
+
+Conceded. Tests 1–3 were VACUOUS; "unsupported" implies evidence was sought on the eigenvalue
+channel and not found. The honest split: **on the length-spectrum channel H1 was tested and not
+supported; on the Laplace channel it is UNTESTED.** Length and Laplace spectra are related by
+the trace formula, not interchangeable. The headline blurred them.
+
+## C3 — null-scope import (the sharpest)
+
+Conceded. B713–B716 are negatives about the **character variety, the fibre-functor torsor, and
+the algebraic tower**. Making them H0 for a question about the **Laplacian's discrete spectrum**
+imports a scope — the same error class as "abelianization is not a proxy", and against the
+Register's own rule to cite scopes rather than headlines. The closing caveat did not repair it,
+because the H0/H1 framing had already encoded a decided question. **The correct null for a
+spectral question is generic-spectrum; B713–B716 is context, not the null.**
+
+## C4 — base-rate category
+
+Conceded. The 1-for-21 record governs **mechanism proposals** — claimed identities between
+programme quantities and SM values. "Compute an object nobody has computed, under a
+pre-registered protocol" is a different category. The "proposal #22" jab is **struck**.
+
+## The screening pass (S1–S3) — the gap Chat-1 identified
+
+**S1 — PARENT-SPECTRUM INJECTION.** Γ₄₁ ⊂ PSL(2,O₃) is a genuine **subgroup** of index 12, so a
+Γ_B-invariant eigenfunction pulls back to a Γ₄₁-invariant one with the same eigenvalue:
+
+    spec_disc(PSL(2,O_3)\H^3)  ⊆  spec_disc(m004)
+
+**This corrects Step 1.** "m004 has never been computed" becomes *"never computed DIRECTLY;
+~1/12 of its spectrum is inherited from the parent and has been in the literature since 1996."*
+Rigorous consequence: **λ₁(m004) ≤ 51.014**. (Reached independently three ways — this argument,
+the external bank's `SPECTRAL_STATUS` correction, and Chat-1's V₁ sector.)
+
+**S2 — Selberg heat trace on the exact length spectrum.** Θ(t) with h(r)=e^{−(1+r²)t}: the
+identity (Weyl) term dominates at small t (geo/ident = 0.0005 at t = 0.05) and the geodesic sum
+overtakes by t ≈ 0.4. Pipeline consistent. **It constrains but does not determine** — the
+omitted cusp/Eisenstein terms grow exactly where a λ₁ readout would need them.
+
+**S3 — λ₁ screening.** Weyl heuristic r₁ ≈ 3.078, λ₁ ≈ 10.48; consistent with the rigorous
+≤ 51.014. Screen against 9 programme anchors: nearest is π at 2.0% relative. **NOWHERE NEAR**,
+and no match verdict is admissible at this precision by construction.
+
+## Net effect on the arc's verdict
+
+- Step 1: **corrected** (inheritance; m004 is not eigenvalue-free after all).
+- Step 3: **superseded** — see the separate note on the external Gates 0–9R bank. "Blocked on
+  data nobody has computed" is wrong; the blocker is wall-clock and checkpointing.
+- L3: **MISS stands**, now on a null that survives scrutiny.
+- H0/H1 framing: **withdrawn as scope-importing**. The Laplace channel is UNTESTED, not
+  unsupported, and the discrete spectrum is not claimed generic.
