@@ -1,0 +1,89 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+========================================================================
+SECTION 1: MANIFOLD IDENTITY (SnapPy, pitfall-4 check)
+========================================================================
+
+  m004 volume (quad precision): 2.029883212819307250042405108549040571883378615060599584034978214
+  m003 volume (sister):         2.029883212819307250042405108549040571883378615060599584034978214
+  4_1  volume (knot exterior):  2.029883212819307250042405108549040571883378615060599584034978214
+
+  H1(m004) = Z   <- Z: this IS the knot complement
+  H1(m003) = Z/5 + Z   <- Z + Z/5: the sister, NOT the knot
+  H1(4_1)  = Z
+
+  4_1 isometric to m004: True
+  m004 solution type: all tetrahedra positively oriented
+  m004 cusps: 1
+  m004 tetrahedra: 2  (the 2 regular ideal tetrahedra)
+
+========================================================================
+SECTION 2: EXACT VOLUME OF m004
+========================================================================
+
+  Cl2(pi/3) (Gieseking const.) = 1.0149416064096536250212025542745202859416893075303
+  Vol(m004) = 2*Cl2(pi/3)      = 2.0298832128193072500424051085490405718833786150606
+  L(2, chi_-3)                 = 0.78130241289648629686718742962409235636513433654529
+  (3 sqrt3/4) * L(2,chi_-3)    = 1.0149416064096536250212025542745202859416893075303
+  V_tet identity holds: True
+  SnapPy vol matches exact: True
+
+========================================================================
+SECTION 3: HUMBERT'S FORMULA FOR THE BIANCHI ORBIFOLD
+========================================================================
+
+  |D|^(3/2) = 3^(3/2)          = 5.19615242270663188058233902452
+  zeta_K(2) = zeta(2)*L(2,chi) = 1.2851909554841494029175117986995746039691783970289
+  Vol(PSL(2,O3)\H^3)           = 0.16915693440160893750353375904575338099028155125505
+  (sqrt3/8)*L(2,chi_-3)        = 0.16915693440160893750353375904575338099028155125505
+  Closed form holds: True
+
+  Derivation: 3^(3/2) * (pi^2/6) * L / (4 pi^2) = (3 sqrt3 / 24) L
+            = (sqrt3/8) L.  The pi^2 cancels; only L remains.
+
+========================================================================
+SECTION 4: THE INDEX (EXACT)
+========================================================================
+
+  Vol(m004) / Vol(PSL(2,O3)\H^3) = 12.0
+
+  Exact cancellation:
+    index = 2 * (3 sqrt3/4) L  /  ((sqrt3/8) L)
+          = (3 sqrt3/2) * (8/sqrt3)
+          = 24/2 = 12       (L and sqrt3 cancel EXACTLY)
+
+  |index - 12| = 3.7338e-60
+
+  [PSL(2,O3) : Gamma_41] = 12   (exact; Riley 1975 concurs)
+
+  PGL note: PGL(2,O3) contains PSL(2,O3) with index 2, so
+  [PGL(2,O3) : Gamma_41] = 24. The handoff's restriction step
+  should use PSL (holonomy lands in PSL(2,C)).
+
+========================================================================
+SECTION 5: CONSEQUENCES FOR THE MAASS PROGRAMME
+========================================================================
+
+  Spectral inclusion: every PSL(2,O3)-invariant Maass form is
+  automatically Gamma_41-invariant (Gamma_41 is a SUBgroup), with
+  the SAME eigenvalue. So the level-1 Bianchi spectrum embeds in
+  the m004 spectrum. Restriction preserves eigenvalues.
+
+  Weyl-law bookkeeping (N(T) ~ c T^3):
+    c(m004)    = Vol/(6 pi^2) = 0.03427836163
+    c(Bianchi) = 0.002856530136
+    ratio = 12: the m004 spectrum is ~12x denser.
+
+  => Asymptotically only ~1/12 of m004 eigenvalues are 'old'
+     (level-1 Bianchi) forms; ~11/12 are NEW forms of Gamma_41.
+     LMFDB level-1 d=3 data (Step 1, CC2) covers at most the old
+     1/12. The handoff's false-failure clause (index > 100 =>
+     direct computation) does NOT trigger, but 12 is enough that
+     Step 3 (direct computation) is required for the new forms.
+
+    Expected counts for m004: N(5) ~ 4.285, N(10) ~ 34.28, N(20) ~ 274.2, N(50) ~ 4284.8
+
+  Congruence structure: Gamma_41 is index 12 = |PSL(2,F_3)| in
+  PSL(2,O3); the quotient acts on the 12 cosets. Useful for Step 3:
+  the fundamental domain of Gamma_41 = 12 copies of the Bianchi
+  domain (or SnapPy's 2-tetrahedron Ford domain directly).
