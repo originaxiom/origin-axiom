@@ -16495,6 +16495,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B795": {
+   "slug": "eigenvalue verification",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B788",
+    "B789",
+    "B792",
+    "B793"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B79": {
    "slug": "mn table",
    "motifs": [

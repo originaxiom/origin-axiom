@@ -8091,3 +8091,16 @@ silently dropped long geodesics — exactly the disconfirming data. That yields 
 portable output, a new error class: a filter that discards data must report its discards, or it
 silently selects for the author's expectation. B790's separate finding (not principal congruence
 at level √−3) stands and is now the weaker half of a sharper statement. Nothing to CLAIMS.
+
+B795 — cc3's seventeen m004 Maass eigenvalues had been gated on process but never reproduced;
+cc built an independent collocation solver from the method (no shared source, every free
+parameter different) and confirmed 7 of 7 against displaced controls, including the parent
+ground state at 54x. The verification also produced two cc instrument errors worth keeping. The
+first run was underdetermined — 90 points against 112 modes, so sigma_min vanished identically
+and the test would have confirmed anything; the displacement controls caught it because every
+ratio came back at 1. The second run had adequate rank but insufficient Bessel truncation, whose
+margin is strongly r-dependent, and the top two eigenvalues read as absent; raising the mode
+cutoff restored them at 54x and 15x. Stopping one run earlier would have produced a false
+negative from cc's own instrument aimed at another seat's correct result. Scope recorded because
+cc overreached: sigma_min establishes existence, never sector — only cc3's S-invariance test can
+decide whether r = 8.863405 is the parent's second eigenvalue. Nothing to CLAIMS.

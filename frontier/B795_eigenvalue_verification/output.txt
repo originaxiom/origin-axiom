@@ -1,0 +1,19 @@
+fixed: npts = 3x modes
+cc INDEPENDENT collocation:  Y=0.62  |mu|<=3.2  modes=112  points=336
+  (overdetermined by 3.0x -- required for sigma_min to mean anything)
+
+       r (cc3)    sigma_min   sigma@r+0.02   sigma@r-0.02     ratio
+   3.938916864    9.904e-05      2.955e-03      2.965e-03      29.8x
+   4.900085373    2.529e-04      4.116e-03      4.084e-03      16.2x
+   5.670720035    1.135e-03      4.908e-03      4.776e-03       4.2x
+   5.912917882    5.683e-04      2.803e-03      2.711e-03       4.8x
+   6.632802303    1.100e-03      4.066e-03      4.142e-03       3.7x
+   7.072004187    2.875e-03      5.187e-03      5.441e-03       1.8x
+   8.863405356    7.716e-03      7.445e-03      9.955e-03       1.0x
+
+HIGH-TRUNCATION: Y=0.62 |mu|<=5.4 modes=322 points=805
+  Bessel margin at r=8.86: 2pi*5.4*0.62 = 21.0 vs r -> 2.37x
+
+             r    sigma_min   ctrl(+.02)   ctrl(-.02)    ratio
+   7.072004187    7.816e-07    4.244e-05    4.218e-05    54.0x
+   8.863405356    3.906e-06    5.913e-05    5.882e-05    15.1x
