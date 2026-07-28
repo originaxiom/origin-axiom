@@ -1,0 +1,94 @@
+
+==========================================================================
+STEP 2 - the figure-eight inside the Bianchi group PSL(2,O_3)
+==========================================================================
+  zeta_K(2)                 = 1.2851909554841494029
+  vol(PSL(2,O_3)\H^3)      = 0.1691569344016089375
+  vol(m004)                 = 2.02988321281930725
+  [PSL(2,O_3) : Gamma_41]   = 12.0
+  index is exactly 12?        True    (Riley 1975 - CONFIRMED by volume)
+
+  omega mod sqrt(-3)        = 2 in F_3
+  |image of Gamma_41 in SL(2,F_3)| = 24  of |SL(2,F_3)| = 24
+  Gamma_41 surjects onto PSL(2,F_3) = A_4?  True
+  => Gamma_41 is NOT contained in Gamma(sqrt-3): index 12, but NOT the principal
+     congruence subgroup. (Both have index 12; they are different subgroups.)
+
+  Spectral bookkeeping: level-1 Bianchi forms can supply at most 1/12 = 0.0833
+  of m004's eigenvalues (Weyl ~ volume). => the handoff's Step-1 library route is
+  structurally capped near 8%; ~92% of the spectrum needs direct computation.
+
+==========================================================================
+L1 - length spectra of m004 vs m003 (Test 4, eigenvalue-free)
+==========================================================================
+
+  m004: vol=2.029883212819  H_1=Z  (6 geodesics, Re(l) <= 2.0)
+      Re(l)=1.087070144995739  Im(l)=-1.722768449870090  mult=1
+      Re(l)=1.087070144995739  Im(l)=+1.722768449870090  mult=1
+      Re(l)=1.662885891058621  Im(l)=-2.392123788172313  mult=2
+      Re(l)=1.662885891058621  Im(l)=+2.392123788172313  mult=2
+      Re(l)=1.725109255324122  Im(l)=-0.921838931481337  mult=1
+      Re(l)=1.725109255324122  Im(l)=+0.921838931481337  mult=1
+
+  m003: vol=2.029883212819  H_1=Z/5 + Z  (4 geodesics, Re(l) <= 2.0)
+      Re(l)=0.862554627662061  Im(l)=-2.680673187849125  mult=2
+      Re(l)=0.862554627662061  Im(l)=+2.680673187849125  mult=2
+      Re(l)=1.087070144995739  Im(l)=-1.722768449870090  mult=1
+      Re(l)=1.087070144995739  Im(l)=+1.722768449870090  mult=1
+
+  systole(m004) = 1.087070144995739
+  systole(m003) = 0.862554627662061
+  length spectra identical up to cutoff 2.0?  False
+  => VERDICT L1: m004 and m003 are NOT isospectral, despite EQUAL VOLUME and the
+     same trace field. By the Selberg trace formula, differing length spectra force
+     differing eigenvalue spectra. Test 4 discrimination achieved WITHOUT eigenvalues.
+
+==========================================================================
+L2 - is the length spectrum ALGEBRAIC over the programme field Q(sqrt-3)?
+==========================================================================
+  For loxodromic gamma with complex length l:  tr(gamma) = 2 cosh(l/2).
+  Gamma_41 < PSL(2,O_3) => every trace must lie in Z[omega], omega=(-1+sqrt-3)/2.
+
+  m004 Re(l)=1.0870701450: tr = (1.5 - 0.86602540378444j)  = 1 + -1w   in Z[w]? True  N=3  <-- norm 3 = the ramified prime
+  m004 Re(l)=1.0870701450: tr = (1.5 + 0.86602540378444j)  = 2 + 1w   in Z[w]? True  N=3  <-- norm 3 = the ramified prime
+  m004 Re(l)=1.6628858911: tr = (1.0 - 1.7320508075689j)  = 0 + -2w   in Z[w]? True  N=4
+  m004 Re(l)=1.6628858911: tr = (1.0 + 1.7320508075689j)  = 2 + 2w   in Z[w]? True  N=4
+  m004 Re(l)=1.7251092553: tr = (2.5 - 0.86602540378444j)  = 2 + -1w   in Z[w]? True  N=7
+  m004 Re(l)=1.7251092553: tr = (2.5 + 0.86602540378444j)  = 3 + 1w   in Z[w]? True  N=7
+  m003 Re(l)=0.8625546277: tr = (0.5 - 0.86602540378444j)  = 0 + -1w   in Z[w]? True  N=1
+  m003 Re(l)=0.8625546277: tr = (0.5 + 0.86602540378444j)  = 1 + 1w   in Z[w]? True  N=1
+  m003 Re(l)=1.0870701450: tr = (1.5 - 0.86602540378444j)  = 1 + -1w   in Z[w]? True  N=3  <-- norm 3 = the ramified prime
+  m003 Re(l)=1.0870701450: tr = (1.5 + 0.86602540378444j)  = 2 + 1w   in Z[w]? True  N=3  <-- norm 3 = the ramified prime
+
+  ALL traces lie in Z[omega]?  True
+  => VERDICT L2: OUTCOME A. The length spectrum is EXACTLY algebraic over the
+     programme's own field Q(sqrt-3) - not approximately, not to a tolerance.
+     Contrast: Maass eigenvalues are believed transcendental (Booker-Stromberg-
+     -sson-Venkatesh ruled out low-degree algebraicity for PSL(2,Z)).
+
+==========================================================================
+L3 - Tests 1&2 protocol WITH base-rate control, on the length spectrum
+==========================================================================
+  targets = 8 SM dimensionless ratios (enumerated above, fixed before matching)
+  candidates = 9   window = +-0.001 relative
+  EXPECTED CHANCE HITS  E = targets x candidates x 2*TOL = 0.1440
+  (stated BEFORE looking - prereg section 2)
+
+  no candidate falls within the pre-stated window of any target.
+
+  observed hits = 0   expected by chance = 0.1440
+  => VERDICT L3: OUTCOME B (MISS). The length spectrum carries NO SM value at the
+     pre-registered window; the observed count does not exceed chance expectation.
+     Recorded as a MISS with its base-rate number, per prereg section 2.
+
+==========================================================================
+PREREG SECTION 1 GATE - Tests 1,2,3 on EIGENVALUES
+==========================================================================
+  Tests 1-3 require r_n to >=20 digits (>=50 to claim non-algebraicity).
+  No such eigenvalues were computed in this cell. Per prereg section 1 these tests
+  are therefore VACUOUS = DATA-UNAVAILABLE, explicitly NOT 'no match'.
+  Blocker: Hejhal's algorithm for H^3 quotients; Step-1 library verdict pending.
+
+==========================================================================
+results.json written
+==========================================================================

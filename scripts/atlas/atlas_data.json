@@ -16372,6 +16372,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B788": {
+   "slug": "maass spectrum",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B713",
+    "B716",
+    "H0",
+    "H1",
+    "L1",
+    "L2",
+    "L3"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 6,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [

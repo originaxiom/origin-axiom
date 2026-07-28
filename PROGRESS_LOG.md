@@ -8024,3 +8024,21 @@ wired to the computed CI), B465-r re-committed the E4 universal it was repairing
 headline law is falsified by its own code. The meta-lesson banked: naming a rule doesn't
 prevent re-committing it — only an in-code mechanical check does. That validates E27's
 remedy (the flag must trace to a computed quantity) over mere prose discipline.
+
+B788 — the Maass Spectrum Programme (Chat-1 handoff), owner-scoped to the FULL plan
+including the value-facing Tests 1–2. Prereg sealed first (d91a8b99e8170b9e). The arc is an
+adjudication, not a discovery: it settles what is known, what is computable, and what the
+blocked part would cost. Three things came out of it. (1) The handoff's library step rests on
+the Hecke-vs-Laplace conflation it warned against — LMFDB carries no Laplace eigenvalues for
+any Bianchi group; the only d=3 data is ~3 digits, for the parent group, from 1996; m004 has
+never been computed. (2) Step 2 closed exactly (index 12 by Humbert) plus two refinements the
+handoff lacks: Γ₄₁ is NOT the principal congruence subgroup (it surjects onto A₄), and Weyl
+caps the library route at 1/12. So Tests 1–3 are VACUOUS = DATA-UNAVAILABLE — recorded as a
+blocker, never as a negative. (3) The length spectrum, which the handoff demotes, is exactly
+computable and settled Test 4 without eigenvalues (m004 and m003 are not isospectral despite
+equal volume). The most useful output is the earned negative: the value-matching protocol
+surfaced sin²θ_W to 4 significant figures out of a 2555-candidate pool, and the surrogate null
+showed it to be ordinary noise. Also recorded: my own first-pass analytic base-rate estimate
+was wrong (non-uniform ratios) and was replaced by the prereg-mandated empirical null — the
+correction is written into FINDINGS rather than silently patched. H0 stands; the discrete
+spectrum is NOT claimed generic. Nothing to CLAIMS.

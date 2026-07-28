@@ -556,3 +556,14 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       mirror is inner conjugation by generator a; every Fox observable is a signed sum of
       prefix group-elements, so it lives in the trace ring. Demotes the hoped θ-content to a
       trace-trivial gauge (explains the 0/9 whole-image trace non-separation).
+  (5) H-B788-NORMSPLIT (type MATH, OBSERVATION on truncated data): at cutoff Re(ℓ)≤5 the
+      geodesic trace-norms N(a+bω)=a²−ab+b² present for m004 but NOT m003 are {4,16,48,64,
+      112,144} — every one ≡0 (mod 4); those for m003 but not m004 are {1,9,13,21,25,37,49,
+      57,61,73,81,93,97,109,117,121,129,133} — every one ODD. Min trace-norm: m004=3 (the
+      ramified prime), m003=1 (a unit). NOT a law: one cutoff, unproved, stability unchecked.
+      Cheap in-sandbox follow-up registered (raise the cutoff; test completeness as a
+      commensurability invariant).
+  (6) H-B788-BKL (type HOOK): JHEP 11 (2025) 160 / arXiv:2507.08788 identifies the 5D BKL
+      billiard with PSL(2,O) for Gaussian OR Eisenstein integers — so the handoff's "the knot
+      and quantum cosmology share the same arithmetic group" OVERSTATES specificity (d=3 is
+      one of two). The paper is formal; no eigenvalue tables, no citation to the 1996 d=3 data.
