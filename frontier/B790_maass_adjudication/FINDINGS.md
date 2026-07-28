@@ -1,4 +1,17 @@
-# B788 — THE MAASS SPECTRUM PROGRAMME — FINDINGS
+# B790 — MAASS SPECTRUM PROGRAMME: cc's ADJUDICATION RECEIPT (on B788)
+
+> **RENUMBERED 2026-07-28.** This arc was originally banked as B788. **B788 now denotes the
+> external Gates 0–9R Maass bank** (`frontier/B788_maass_spectrum_programme`), which carries 62
+> recorded artifact hashes and internal cross-references that renumbering would break. This
+> arc carries no such cost, so it moved. It is a **receipt on B788**, not a competing programme.
+>
+> **The sealed `PREREGISTRATION.md` is deliberately NOT edited** — its bytes are hash-pinned
+> (sha256[0:16] = `d91a8b99e8170b9e`, SEAL_LEDGER) and still say "B788". Preserving a seal
+> outranks cosmetic renumbering; a sealed artifact that gets rewritten is no longer sealed.
+> Same for `ARTIFACT_HASHES.txt` and the compute scripts' header citations.
+>
+> Related receipts: **B791** (Weyl completeness criterion + independent verification of the
+> B788 bank). cc3's independent Step-2 re-derivation is logged as replication in B791.
 
 Processing of the Chat-1 MAASS_SPECTRUM_HANDOFF (2026-07-25) at owner-selected FULL scope
 (Tests 1–2 included). Prereg sealed BEFORE compute: `PREREGISTRATION.md`,

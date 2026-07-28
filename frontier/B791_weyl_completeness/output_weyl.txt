@@ -1,0 +1,62 @@
+==========================================================================
+THE BUDGET
+==========================================================================
+  Vol(PSL(2,O_3)\H^3) = 0.169156934401609
+  W = Vol_p/(6 pi^2)  = 0.00285653013581       (receipt: 0.0028565)
+
+  CONSISTENCY (the step that makes per-sector uniformity work):
+    12 * W                 = 0.0342783616298
+    Vol(m004)/(6 pi^2)     = 0.0342783616298
+    equal?  True   <- 1+5+6 = 12 checks out
+
+==========================================================================
+EXPECTED DISTINCT EIGENVALUES PER SECTOR
+==========================================================================
+      r <=     N_i(T) = W T^3
+       5.0             0.3571
+       8.0             1.4625
+      10.0             2.8565
+      12.0             4.9361
+      15.2            10.0316
+      18.0            16.6593
+      20.0            22.8522
+      24.5            42.0085
+
+==========================================================================
+THE GATE-9 / GATE-5 SPECIFICATION MISMATCH (verified vs the sealed JSON)
+==========================================================================
+  GATE9_PROTOCOL search_interval      = [0.5, 12.0]
+  GATE5_PROTOCOL distinct/sector = 10, trial_count = 80
+  budget on Gate 9's interval   mu    = 4.93573 per sector
+  r required for 10 per sector        = 15.184
+  spectral-volume cost of 12 -> 15.2  = 2.0259x
+  => Gate 9 as sealed buys ~49% of what Gate 5 requires. REAL DEFECT.
+
+==========================================================================
+THE ARBITRARY CONSTANT THIS REPLACES (cc's addition)
+==========================================================================
+  GATE9_PROTOCOL.json  screen.maximum_minima_per_sector = 24  (hand-set, not derived)
+  Gate 9's observed screen retention: V5 = 25, V6 = 24
+  => the run failed the guard `screen_minimum_cap_respected` because V5 hit 25 against
+     an ARBITRARY cap of 24. W(T) supplies the principled replacement: a cap derived
+     from the spectral budget (mu ~ 4.94/sector on [0.5,12], so a coarse screen should
+     retain a stated multiple of mu, and the confirmation stage should return to ~mu).
+     This is why 'calibrate then extend' fixes the ACTUAL failure cause.
+
+==========================================================================
+THE SECOND CALIBRATION POINT (Chat-1, verified here)
+==========================================================================
+  parent lambda_1 = 51.014  =>  r = 7.072057692
+  Weyl first-eigenvalue prediction  W(T)=1 at r = 7.047802574
+  agreement = 0.3442 %
+  W(r=7.0721) = 1.01036  <- it IS the ground state, so
+                lambda_1(m004) <= 51.014 is likely TIGHT on V1, not just a bound.
+  W(r=24.5033) = 42.0255  <- the existing DCHY control
+  Bessel mode-budget ratio 24.5033/7.0721 = 3.465x
+  => independent SOURCE (G-H 1996 vs DCHY 2025) at the OPPOSITE spectral end, and
+     truncation is r-dependent -- which is exactly how Gate 8 died. Two heights at one
+     r cannot pin truncation; they share the target.
+
+==========================================================================
+results.json written
+==========================================================================

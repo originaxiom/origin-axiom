@@ -1,4 +1,4 @@
-"""B788 — the Maass Spectrum Programme: locks on what was actually computed.
+"""B790 — cc's Maass adjudication receipt (on B788): locks on what was actually computed.
 
 Locks the EXACT structural facts only (Step 2 + L1/L2). The eigenvalue tests (1-3) were
 VACUOUS = DATA-UNAVAILABLE and have nothing to lock -- that is the point, and the lock on
@@ -56,7 +56,7 @@ def test_L2_geodesic_traces_lie_in_Z_omega_exactly():
     Uses the m004 complex lengths recorded in the arc (cutoff 2.0). N(a+b w) = a^2-ab+b^2.
     """
     mp.mp.dps = 30
-    lengths = [                                  # (Re l, Im l) from frontier/B788.../output.txt
+    lengths = [                                  # (Re l, Im l) from frontier/B790_maass_adjudication/output.txt
         ("1.087070144995739", "1.722768449870090"),
         ("1.662885891058621", "2.392123788172313"),
         ("1.725109255324122", "0.921838931481337"),

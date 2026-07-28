@@ -16372,33 +16372,6 @@
    "status": "banked",
    "domain": "arithmetic"
   },
-  "B788": {
-   "slug": "maass spectrum",
-   "motifs": [
-    "figure_eight",
-    "metallic",
-    "eisenstein",
-    "torsion",
-    "wrt_quantum",
-    "lorentzian"
-   ],
-   "refs": [
-    "B713",
-    "B716",
-    "H0",
-    "H1",
-    "L1",
-    "L2",
-    "L3",
-    "S1",
-    "S2",
-    "S3"
-   ],
-   "obstacle": "bridge_construction",
-   "obstacle_conf": 8,
-   "status": "dormant",
-   "domain": "arithmetic"
-  },
   "B789": {
    "slug": "theta intertwiner",
    "motifs": [
@@ -16444,6 +16417,51 @@
    "obstacle_conf": 9,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B790": {
+   "slug": "maass adjudication",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B713",
+    "B716",
+    "B788",
+    "B791",
+    "H0",
+    "H1",
+    "L1",
+    "L2",
+    "L3",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B791": {
+   "slug": "weyl completeness",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B788",
+    "B790",
+    "S1"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
   },
   "B79": {
    "slug": "mn table",

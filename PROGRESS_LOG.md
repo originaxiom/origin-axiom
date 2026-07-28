@@ -8058,3 +8058,23 @@ the correct relator had to be found by search. A two-outcome check is only as so
 in-sandbox derivation of its input. The cross-seat record is kept in FINDINGS: cc3 corrected cc
 twice, cc corrected cc3 twice, and the surviving statement is sharper than either opening
 position. Nothing to CLAIMS.
+
+B790/B791 — the Maass numbering settled and the external bank verified. B788 stays with the
+external Gates 0–9R bank (renumbering it would break 62 artifact hashes); cc's adjudication
+becomes B790, a receipt, and the Weyl work banks as B791. B790's sealed prereg is left byte-
+frozen even though it still says B788 — a sealed artifact that gets rewritten is no longer
+sealed. B791 re-derives the bank's structural claims from raw generators alone and confirms all
+of them, including that the V₁⊕V₅⊕V₆ decomposition is FORCED by a central fixed-point-free
+involution rather than fitted. The banked criterion is Chat-1's: N_i(T) ≈ W(T) distinct
+eigenvalues per sector, uniform across sectors because 1+5+6=12, verified against m004's own
+Weyl count. It supplies a completeness gate against silently skipped eigenvalues without
+touching any physical value. Two defects confirmed: Gate 9's sealed interval buys ~49% of what
+Gate 5 requires, and — cc's addition — the run actually died on a hand-set screen cap of 24 that
+V₅ tripped at 25, so the budget is the principled replacement for the exact constant that broke
+it. A second calibration point was found sitting inside cc's own S1: the parent ground state at
+r = 7.0721, corroborated by Weyl to 0.344%, from a different source at the opposite spectral end
+from the single figure-caption value the bank had been resting on. Sealed as GATE8R2, framed as
+localisation not precision. cc3's same-day re-derivation of Step 2 is banked as accidental
+independent replication on the evidence side and logged as a scheduling defect on the
+coordination side. The chain from generators to a certified spectral parameter remains verified
+at both ends and unverified in the middle. Nothing to CLAIMS.
