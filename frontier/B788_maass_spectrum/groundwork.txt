@@ -1,0 +1,61 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+========================================================================
+GROUNDWORK: holonomy, cusp lattice, reduction, Bessel
+========================================================================
+
+Relator check (which presentations the Riley rep satisfies):
+  w = aBAb:  |wA - Bw| = 1.24e-16,  |Aw - wB| = 1.73e+00
+  w = AbaB:  |wA - Bw| = 1.24e-16,  |Aw - wB| = 1.73e+00
+  w = bABa:  |wA - Bw| = 1.73e+00,  |Aw - wB| = 1.24e-16
+  w = BabA:  |wA - Bw| = 1.73e+00,  |Aw - wB| = 1.24e-16
+
+  tr A = 2.000000+0.000000j, tr B = 2.000000+0.000000j, tr AB = 2.500000-0.866025j
+
+Cusp lattice: tau = -0.000000000000+3.464101615138j  (from word 'bABaaBAb', 2 parabolics found, 0 outside Z+Z*tau)
+  SnapPy cusp shape: -0.000000000000+3.464101615138j
+  Im(tau) matches SnapPy: True
+  covol(Lam) = 3.464101615, dual basis u1 = 1.000000+0.000000j, u2 = 0.000000+0.288675j
+  |mu|_min = 0.288675135  (modes with |mu|<=3: 90)
+
+Reduction move set: 91 distinct (c,d) rows (words len <= 5, 0 < |c| <= 2.2)
+  Gamma-invariance of reduced height, 60 random (point, g), t0 in [0.4, 1.5]: max rel dev = 1.40e-14
+  (a nonzero dev = ascent stalls; harmless for collocation, each translate is exact)
+
+Horosphere rise check (fraction of grid points strictly raised):
+  Y = 0.75: raised 200/200, min t* = 0.8687
+  Y = 0.68: raised 200/200, min t* = 0.8910
+  Y = 0.62: raised 200/200, min t* = 0.9048
+  Y = 0.56: raised 200/200, min t* = 0.9114
+  Y = 0.50: raised 200/200, min t* = 0.9077
+  Y = 0.45: raised 200/200, min t* = 0.8941
+
+K-Bessel trapezoid vs mpmath (relative error):
+  r = 1.3, x =  0.95:  rel err = 1.20e-16
+  r = 1.3, x =  1.70:  rel err = 2.53e-16
+  r = 1.3, x =  3.00:  rel err = 0.00e+00
+  r = 1.3, x =  8.00:  rel err = 0.00e+00
+  r = 1.3, x = 20.00:  rel err = 9.38e-16
+  r = 1.3, x = 31.00:  rel err = 6.30e-16
+  r = 4.7, x =  0.95:  rel err = 9.74e-15
+  r = 4.7, x =  1.70:  rel err = 8.46e-15
+  r = 4.7, x =  3.00:  rel err = 0.00e+00
+  r = 4.7, x =  8.00:  rel err = 3.52e-16
+  r = 4.7, x = 20.00:  rel err = 1.24e-15
+  r = 4.7, x = 31.00:  rel err = 5.79e-13
+  r = 6.4, x =  0.95:  rel err = 4.33e-13
+  r = 6.4, x =  1.70:  rel err = 1.82e-13
+  r = 6.4, x =  3.00:  rel err = 6.46e-14
+  r = 6.4, x =  8.00:  rel err = 1.31e-15
+  r = 6.4, x = 20.00:  rel err = 1.60e-15
+  r = 6.4, x = 31.00:  rel err = 2.43e-12
+  nu = 0.3 (real), x =  0.95:  rel err = 1.19e-16
+  nu = 0.3 (real), x =  1.70:  rel err = 1.64e-16
+  nu = 0.3 (real), x =  3.00:  rel err = 1.97e-16
+  nu = 0.8 (real), x =  0.95:  rel err = 0.00e+00
+  nu = 0.8 (real), x =  1.70:  rel err = 1.44e-16
+  nu = 0.8 (real), x =  3.00:  rel err = 1.82e-16
+
+Bessel nodes for rmax 6.5: Q = 34 points (h = 0.1461)
+
+GROUNDWORK COMPLETE.
