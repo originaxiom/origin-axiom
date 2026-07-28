@@ -83,3 +83,27 @@ def test_second_calibration_point_is_the_parent_ground_state():
     assert W * mp.mpf("24.5033") ** 3 > 40
     # r-dependent truncation: the mode-budget ratio the gate is designed to probe
     assert abs(mp.mpf("24.5033") / r - mp.mpf("3.465")) < mp.mpf("1e-2")
+
+
+def test_multiplicity_trap_is_locked():
+    """The criterion counts WITH MULTIPLICITY on both sides. Locking the concrete case that
+    caught cc out, so the units mismatch cannot silently return.
+
+    cc3's B792 run over [0.8, 7.35]: 6 distinct confirmed parameters with multiplicities
+    (2,1,2,1,2,1) summing to 9. Comparing 6 (distinct) to the with-multiplicity budget gives a
+    spurious FAIL-LOW; comparing 9 gives the correct PASS.
+    """
+    W = _W()
+    lo, hi = mp.mpf("0.8"), mp.mpf("7.35")
+    mu = 12 * W * (hi ** 3 - lo ** 3)                 # WITH multiplicity
+    assert abs(mu - mp.mpf("13.59")) < mp.mpf("0.02")
+    mult = [2, 1, 2, 1, 2, 1]
+    n_distinct, n_with_mult = len(mult), sum(mult)
+    assert n_distinct == 6 and n_with_mult == 9
+    z_wrong = (n_distinct - mu) / mp.sqrt(mu)         # the trap
+    z_right = (n_with_mult - mu) / mp.sqrt(mu)        # the criterion as defined
+    assert z_wrong < -2                                # would have read FAIL-LOW: SKIPPING
+    assert abs(z_right) <= 2                           # actually PASSES
+    # and the parent sector: exactly one inherited eigenvalue is available below r=7.35,
+    # which is why anything below the parent ground state must be Gamma_41-relative.
+    assert abs(W * (hi ** 3 - lo ** 3) - mp.mpf("1.13")) < mp.mpf("0.02")

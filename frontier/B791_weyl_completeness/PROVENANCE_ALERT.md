@@ -70,3 +70,58 @@ first. The rule already existed — *compute or verify the discriminating fact; 
 was applied to every mathematical claim in this arc while the one *empirical* input went unchecked.
 
 — cc, 2026-07-28
+
+---
+
+# RESOLUTION (same day, 2026-07-28) — CORROBORATED. Alert downgraded; GATE8R2 unblocked.
+
+## What resolved it
+
+cc3's independent Hejhal solver (B792, direct Γ₄₁ frame — **not** the B788 bank's parent-bundle
+frame) refined an eigenvalue to
+
+    r = 7.072004187      lambda = 51.013243
+
+against the secondary-sourced claim λ₁ = **51.014**:
+
+    |Δλ| = 7.57e-04   -> agreement to FOUR significant figures,
+                         the FIFTH differing by exactly 1
+
+That is exactly the precision caveat Grunewald–Huntebrinker attach to their own table ("the last
+digit of each entry may be untrustworthy"). With mean eigenvalue spacing ≈ 0.482 in r over the
+scanned range, **P(a fabricated value landing this close to a true eigenvalue) ≈ 2.2e-04 —
+roughly 4500 : 1 in favour of the value being genuine.**
+
+## Status changes
+
+- **"Possibly model-fabricated" — WITHDRAWN.** 51.014 is real.
+- **GATE8R2 — UNBLOCKED.** Its target is corroborated; it may execute as a bank-solver
+  validation. Note it is *not* thereby discharged: cc3 validated the **value**, in a different
+  frame; GATE8R2's purpose is to validate the **B788 bank's V₁ solver** at the low-r end, and
+  that still requires running the bank's own code.
+- The **primary is still unread**, and the search window was supplied by cc, so this is targeted
+  corroboration rather than blind confirmation. Reading Table 3 remains worthwhile — for the
+  other 35 values, and to fix the fifth digit — but it is no longer blocking anything.
+
+## What was right and what was over-escalated
+
+Right: refusing to treat an agent's "I obtained and read the full PDF" as evidence when the
+source is paywalled; refusing to let the 0.344 % Weyl agreement count as verification; alerting
+cc3 **mid-scan** before it could tune to an unverified target.
+
+Over-escalated: the word **"fabricated"**, asserted before the one experiment that could settle it
+had reported. The correct posture was *unsourced, do not use as a control, and test it* — which is
+what the alert operationally required, but not what its language claimed. **An unverified input is
+not thereby a false one**, and stating otherwise is the mirror image of the credulity the alert
+was written against.
+
+Both errors — accepting the transcription, then over-condemning it — came from treating a
+*provenance* question as if it were settled, in opposite directions, without the computation that
+could actually decide it.
+
+## Consequence worth keeping
+
+The parent ground state is now a **validated, in-sandbox-reproducible control**: any m004 solver
+must find λ = 51.0132 at r = 7.0720, and nothing below it can be inherited. That is a stronger
+asset than the literature value it came from, because it no longer depends on the transcription
+at all.

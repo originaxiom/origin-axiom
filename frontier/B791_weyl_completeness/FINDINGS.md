@@ -5,9 +5,13 @@
 >    §2's uniform criterion carried a factor error. **Chat-1's headline "live defect" in §3
 >    EVAPORATES**: Gate 9's sealed interval CAN discharge Gate 5. The real bug is the hand-set
 >    screen cap — cc's separate catch, now the whole story rather than an addendum.
-> 2. **λ₁(parent) = 51.014 is UNSOURCED** (`PROVENANCE_ALERT.md`). §4's second calibration point
->    has no retrievable source and may be model-fabricated. **GATE8R2 must not execute.** The
->    0.344 % Weyl agreement is withdrawn as evidence — it is consistent with fabrication.
+> 2. **λ₁(parent) = 51.014 — RESOLVED, corroborated** (`PROVENANCE_ALERT.md`, RESOLUTION section).
+>    Raised as unsourced/possibly-fabricated; cc3's independent solver then computed
+>    λ = 51.013243 (4 sig figs, 5th digit off by 1 = the source's own caveat), ~4500:1 for
+>    genuine. **GATE8R2 unblocked.** The word "fabricated" was over-escalated and is withdrawn.
+> 3. **THE MULTIPLICITY TRAP** (below): the criterion compares counts WITH MULTIPLICITY. cc
+>    misapplied its own corrected criterion within the hour by comparing DISTINCT dips against a
+>    with-multiplicity budget (z = −2.06 "SKIPPING", actually z = −1.25 PASS).
 
 **Receipt on B788** (`frontier/B788_maass_spectrum_programme`, the external Gates 0–9R Maass
 bank). Companion receipt: **B790** (cc's adjudication of the original Chat-1 handoff).
@@ -118,6 +122,28 @@ same result**. Two readings, both true, and they should not be collapsed:
 - **On the coordination side: a scheduling defect.** cc3 was working from a clone that had not
   taken main, so a banked result was re-derived instead of built on. That is a relay-cadence
   failure, not a research failure, and it is logged as such rather than written up as waste.
+
+## 5b. THE MULTIPLICITY TRAP — state the criterion so it cannot be misapplied
+
+Both errors in this arc were the same shape: **dividing, or failing to divide, by dim(V_i)**.
+
+- Chat-1's derivation divided the with-multiplicity count by a multiplicity that is not there.
+- cc, having corrected exactly that, then compared cc3's **6 distinct dips** against the
+  **with-multiplicity** budget of 13.59 and reported `z = −2.06, FAIL-LOW: SKIPPING`. Using
+  cc3's own `sv_tail` multiplicities (2,1,2,1,2,1 → **9**) the true figure is `z = −1.25, PASS`.
+  A grid-refinement instruction was relayed on the strength of the wrong number and retracted.
+
+**The criterion is therefore restated with its units made explicit and unavoidable:**
+
+> **μ_s = dim(V_s) · W · (b³ − a³)** counts eigenvalues **WITH MULTIPLICITY**.
+> The observed quantity **n_s must therefore be Σ multiplicities**, never the number of distinct
+> confirmed parameters. If a run cannot resolve multiplicity, the criterion **does not apply** —
+> it does not become a distinct-count test with a different constant.
+> z = (n_s − μ_s)/√μ_s, PASS |z| ≤ 2, on confirmed counts only, declared before confirmation.
+
+Any implementation must carry multiplicity as first-class data (as cc3's `sv_tail` does). A
+completeness gate whose two sides are counted in different units is worse than no gate: it
+produces confident, precise, wrong verdicts in whichever direction the mismatch happens to point.
 
 ## 6. Sequence adopted
 
