@@ -8042,3 +8042,19 @@ showed it to be ordinary noise. Also recorded: my own first-pass analytic base-r
 was wrong (non-uniform ratios) and was replaced by the prereg-mandated empirical null — the
 correction is written into FINDINGS rather than silently patched. H0 stands; the discrete
 spectrum is NOT claimed generic. Nothing to CLAIMS.
+
+B789 — the explicit θ-intertwiner, harvested from the cc3 audit seat and approved. cc3's Q
+was re-derived here from scratch under a new number (cc3 never merges). The banked
+θ-triviality had been a trace identity only; B789 exhibits the conjugating matrix
+Q = S_ι·S_sd⁻¹ that carries ρ∘(transpose∘reversal) to ρ for the figure-eight rep, and derives
+it rather than guessing it. The arc adds a check neither seat had run: ρ₂ = transpose∘reversal
+DESCENDS to π₁(S³∖4₁), not merely to the free group. Three scoping facts are locked alongside
+the result, because they are what keep it honest — the group-level identity is FALSE (abelian
+obstruction: it would force the image abelian), Q is rep-dependent rather than universal, and
+the earlier disc-form dispute was an empty basis convention. No rank consequence: θ-triviality
+adds no generator, so B766 and B787 both stand. One method lesson banked the hard way — cc's
+first pass guessed the knot relator, which produced a fabricated "does not descend" negative;
+the correct relator had to be found by search. A two-outcome check is only as sound as the
+in-sandbox derivation of its input. The cross-seat record is kept in FINDINGS: cc3 corrected cc
+twice, cc corrected cc3 twice, and the surviving statement is sharper than either opening
+position. Nothing to CLAIMS.

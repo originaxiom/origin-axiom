@@ -16395,6 +16395,27 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B789": {
+   "slug": "theta intertwiner",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B766",
+    "B787",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B78": {
    "slug": "degree rank n5",
    "motifs": [
