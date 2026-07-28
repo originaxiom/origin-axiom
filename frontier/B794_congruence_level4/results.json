@@ -1,0 +1,12 @@
+{
+  "SL_order": 3840,
+  "PSL_order": 1920,
+  "surjective": true,
+  "index_mod4": 12,
+  "mod2_image_order": 10,
+  "mod2_index": 6,
+  "trace_norms_mod4": [
+    0,
+    3
+  ]
+}

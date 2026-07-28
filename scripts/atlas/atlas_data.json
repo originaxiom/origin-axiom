@@ -16475,6 +16475,24 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B794": {
+   "slug": "congruence level4",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "torsion"
+   ],
+   "refs": [
+    "B787",
+    "B788",
+    "B790",
+    "B791"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B79": {
    "slug": "mn table",
    "motifs": [

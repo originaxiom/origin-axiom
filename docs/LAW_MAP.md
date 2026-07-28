@@ -198,3 +198,4 @@ path. All rows audited to this rule this date.*
 *Maintenance rule: every new banked law adds a row in the same PR (the
 same/next-PR ledger discipline); status upgrades edit in place with the
 date; nothing is deleted — dead laws move to §E with their epitaph.*
+| **THE mod-4 TRACE LAW / Γ₄₁ CONGRUENCE THEOREM** | Γ₄₁ is a congruence subgroup of level **exactly (4)** (Γ(4) ⊆ Γ₄₁, Γ(2) ⊄ Γ₄₁), and consequently **N(tr γ) ≡ 0 or 3 (mod 4) for every γ ∈ Γ₄₁** — every m004 geodesic trace norm avoids 1 mod 4 at every cutoff. Proof by finite computation in ℤ[ω]/4 (2 inert, residue field 𝔽₄). Explains B791's coset-image order: **1920 = |PSL(2,ℤ[ω]/4)|**, so the B788 bank's coset action IS reduction mod 4 | **THEOREM (exact, computer-assisted)** | cc3 `1757d6d5`, re-derived independently in B794; refines B790 (not principal congruence at √−3) and REFUTES B790's hint H-B788-NORMSPLIT | tests/test_b794_congruence.py |

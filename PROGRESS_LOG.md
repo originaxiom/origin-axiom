@@ -8078,3 +8078,16 @@ localisation not precision. cc3's same-day re-derivation of Step 2 is banked as 
 independent replication on the evidence side and logged as a scheduling defect on the
 coordination side. The chain from generators to a certified spectral parameter remains verified
 at both ends and unverified in the middle. Nothing to CLAIMS.
+
+B794 — the figure-eight knot group is a congruence subgroup of level (4), and the mod-4
+trace law is proved. Both theorems are cc3's; re-derived here from scratch under a new number.
+The proof is a finite computation in ℤ[ω]/4 (2 is inert, so the residue field is 𝔽₄), and it
+retroactively explains a number cc had verified in B791 without understanding: the coset-image
+order 1920 IS |PSL(2,ℤ[ω]/4)|, so the external bank's coset action is reduction mod 4. It also
+settles a dispute between the seats in cc's disfavour. cc's hint that m004-only trace norms are
+all ≡0 mod 4 is retracted: the real law is {0,3}, and the odd norms cc3 found are all ≡3. cc's
+own re-verification appeared to uphold the claim, but it was produced by a tolerance filter that
+silently dropped long geodesics — exactly the disconfirming data. That yields the arc's most
+portable output, a new error class: a filter that discards data must report its discards, or it
+silently selects for the author's expectation. B790's separate finding (not principal congruence
+at level √−3) stands and is now the weaker half of a sharper statement. Nothing to CLAIMS.

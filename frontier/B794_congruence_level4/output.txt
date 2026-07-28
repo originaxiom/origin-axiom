@@ -1,0 +1,49 @@
+======================================================================
+STEP A - the ambient group mod 4
+======================================================================
+  |Z[w]/4| = 16   (2 inert => residue field F_4)
+  |SL(2,Z[w]/4)|  = 3840
+  |PSL(2,Z[w]/4)| = 1920   <-- equals B791's verified coset-image order 1920: True
+  => the B788 bank's coset action IS reduction mod 4. Its ambient_order 3840 =
+     |SL(2,O/4)|, image 1920 = |PSL(2,O/4)|, kernel 2 = {+-I}. Explained, not observed.
+
+======================================================================
+STEP B - surjectivity of PSL(2,O_3) -> PSL(2,Z[w]/4)
+======================================================================
+  |<T,U,S> mod 4| = 3840  -> surjective onto SL: True
+
+======================================================================
+STEP C - THEOREM 1
+======================================================================
+  |H = <A,B> mod 4| = 320   -I in H: True   |Hbar| = 160
+  [PSL(2,Z[w]/4) : Hbar] = 12    and  [PSL(2,O_3) : Gamma_41] = 12 (B790, exact)
+  equal indices => Gamma_41 = preimage(Hbar) => Gamma(4) <= Gamma_41: True
+
+  |H mod 2| = 10   (|SL(2,F_4)| = 60, and SL(2,F_4) = PSL(2,F_4) = A_5)
+  [A_5 : H mod 2] = 6  != 12  => Gamma(2) NOT <= Gamma_41
+  => the congruence LEVEL is exactly (4).
+
+======================================================================
+STEP D - THEOREM 2 (the trace law)
+======================================================================
+  distinct traces of H mod 4: 8
+  their norms mod 4: [0, 3]
+  1 mod 4 is ABSENT: True
+  => for EVERY gamma in Gamma_41, N(tr gamma) == 0 or 3 (mod 4). Proved for all
+     cutoffs, not observed at one. (Geodesic traces are +-tr and N(-x)=N(x).)
+
+======================================================================
+WHAT THIS DOES TO cc's OWN B790 CLAIMS
+======================================================================
+  B790 proved: Gamma_41 is NOT the principal congruence subgroup of level sqrt(-3).
+    -> STILL TRUE, and now seen as the weaker half: it is congruence, at level 4.
+  B790 HINT H-B788-NORMSPLIT: 'm004-only norms all == 0 mod 4'  -> REFUTED.
+    The real law is {0,3}. The odd norms cc3 found (7,103,127,175,367) are all == 3,
+    consistent with the theorem. cc's contrary 'verification' was an artifact of a
+    tolerance filter that SILENTLY DROPPED long geodesics -- i.e. it discarded exactly
+    the disconfirming data. New error class registered.
+  check: 7,103,127,175,367 all == 3 (mod 4): True
+
+======================================================================
+results.json written
+======================================================================

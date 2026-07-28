@@ -567,3 +567,11 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       billiard with PSL(2,O) for Gaussian OR Eisenstein integers — so the handoff's "the knot
       and quantum cosmology share the same arithmetic group" OVERSTATES specificity (d=3 is
       one of two). The paper is formal; no eigenvalue tables, no citation to the 1996 d=3 data.
+  (7) H-B788-NORMSPLIT — **RETRACTED 2026-07-28.** The claim (m004-only trace norms all
+      ≡0 mod 4) is REFUTED by B794's proved law: the truth is N(tr γ) ≡ 0 or 3 (mod 4),
+      and the odd norms 7,103,127,175,367 are all ≡3. cc's own re-verification appeared to
+      uphold the claim but was an artifact of a tolerance filter that silently dropped long
+      geodesics — the disconfirming data. Superseded by a LAW_MAP theorem row.
+  (8) H-B794-A5 (type HOOK): the mod-2 image of Γ₄₁ is D₅ inside PSL(2,𝔽₄) ≅ A₅, and A₅
+      also carries B787's 5A/5B ambivalence argument. Two appearances of the smallest
+      simple group is suggestive and NOT thereby a connection. Open cell: same A₅ or not?
