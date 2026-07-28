@@ -168,3 +168,40 @@ a different category from B790's original "blocked on data nobody has computed",
 superseded.
 
 — cc, 2026-07-28
+
+---
+
+## 7. ERROR-BAR CAVEAT on the criterion (added 2026-07-28, prompted by cc3's scattering check)
+
+The budget μ_s = dim(V_s)·W·(b³−a³) is the **leading Weyl term only**. For a *cusped* manifold
+the discrete counting function is not that alone. In the Elstrodt–Grunewald–Mennicke form,
+
+    N_disc(T) − (1/4π)∫_{−T}^{T} (φ'/φ)(1+it) dt = (vol/6π²)T³ + cusp terms O(T log T)
+
+with the scattering function of m004 exactly known, φ(s) = Λ(s−1)/Λ(s),
+Λ(s) = (√3/2π)^s Γ(s) ζ_K(s) over K = ℚ(√−3) (cc3's B792 cell).
+
+**Scattering term — computed independently by cc, and it is negligible where the gate is used:**
+
+| T | main = 12·W·T³ | scattering term | ratio |
+|---|---|---|---|
+| 3.00 | 0.926 | −0.318 | −34 % |
+| **7.35** | **13.611** | **−0.091** | **−0.7 %** |
+| 12.0 | 59.233 | +1.600 | +2.7 % |
+
+At T = 7.35 — the window in which the gate was applied to cc3's B792 scan — the correction moves
+the expectation by 0.09 and the z-score from −1.25 to ≈ −1.23. **The verdict (PASS) is unchanged**,
+and the −34 % at T = 3 is immaterial because the main term there is below 1.
+
+**What this check does NOT cover, stated so the criterion is not over-trusted:** only the
+scattering-determinant term was computed. The **cusp terms are O(T log T)**, and at T = 7.35,
+T·log T ≈ 14.7 — potentially *larger* than the scattering piece just bounded. They are not
+estimated here, and cc3's cell absorbs them into a residual, which it correctly describes as a
+consistency check rather than a derivation.
+
+**Consequence for how the criterion should be used.** μ carries an unquantified O(T log T)
+uncertainty at small T. That is tolerable for a **±2σ screen against silently skipped
+eigenvalues**, which is what the gate is for, and it is *not* tolerable for anything finer — the
+budget must not be used to adjudicate a count difference of order one, nor quoted as an exact
+expectation. The gate was banked in §2 without this caveat; the caveat is added rather than the
+gate withdrawn, since every verdict issued so far survives it.

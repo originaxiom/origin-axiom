@@ -16451,17 +16451,19 @@
    "slug": "weyl completeness",
    "motifs": [
     "figure_eight",
-    "eisenstein"
+    "eisenstein",
+    "golden"
    ],
    "refs": [
     "B788",
     "B790",
+    "B792",
     "S1"
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 4,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B793": {
    "slug": "gate8r2a parent localisation",
