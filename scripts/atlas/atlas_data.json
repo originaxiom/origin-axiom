@@ -16463,6 +16463,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B793": {
+   "slug": "gate8r2a parent localisation",
+   "motifs": [],
+   "refs": [
+    "B788",
+    "B792"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B79": {
    "slug": "mn table",
    "motifs": [
