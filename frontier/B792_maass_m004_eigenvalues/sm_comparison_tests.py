@@ -41,16 +41,35 @@ mp.mp.dps = 14
 OUTDIR = 'frontier/B792_maass_m004_eigenvalues'
 RNG = np.random.default_rng(31)
 
-# ---- spectral set ----
+# ---- spectral set (A1: mode-count certified; sealed prereg c6954bfa) ----
 eigs = []
 with open(f"{OUTDIR}/eigenvalues_final.json") as f:
     eigs += [e['r'] for e in json.load(f)['eigenvalues']]
 with open(f"{OUTDIR}/scanD_refined.json") as f:
     eigs += [e['r'] for e in json.load(f)['eigenvalues']]
 rs = sorted(set(round(r, 9) for r in eigs))
+
+try:
+    with open(f"{OUTDIR}/mode_count_certification.json") as f:
+        cert = json.load(f)
+    cert_map = {round(row['r_banked'], 9): row['dr'] for row in cert['rows']}
+    excluded = [r for r in rs if cert_map.get(r, 1.0) > 1e-6]
+    rs = [r for r in rs if cert_map.get(r, 1.0) <= 1e-6]
+    max_rel_dr = max((cert_map[r] / r for r in rs), default=0.0)
+    print(f"A1: certified set — {len(rs)} kept, excluded {excluded}")
+    print(f"A2: max_rel_dr = {max_rel_dr:.2e} -> tolerance floor "
+          f"{10 * max_rel_dr:.2e}")
+except FileNotFoundError:
+    print("WARNING: no certification file — DRY-RUN MODE (uncertified set)")
+    max_rel_dr = 0.0
+
 lams = [1 + r * r for r in rs]
 print(f"Spectral set: {len(rs)} distinct eigenvalues, "
       f"r in [{rs[0]:.4f}, {rs[-1]:.4f}]")
+
+
+def tol_for(tg):
+    return max(2 * tg['rel_unc'], 1e-8, 10 * max_rel_dr)
 
 with open('frontier/B743_rung1_widened/pdg_targets.json') as f:
     targets = json.load(f)
@@ -76,7 +95,7 @@ print("=" * 72)
 t1_hits = []
 for tg in targets:
     v = float(tg['value'])
-    tau = max(2 * tg['rel_unc'], 1e-8)
+    tau = tol_for(tg)
     cands = [('r', x) for x in rs if abs(x / v - 1) < tau]
     cands += [('lam', x) for x in lams if abs(x / v - 1) < tau]
     # surrogate probability of >= 1 candidate for this target
@@ -108,7 +127,7 @@ ratios_l = [lams[i] / lams[j] for i in range(len(lams))
 t2_hits = []
 for tg in targets:
     v = float(tg['value'])
-    tau = max(2 * tg['rel_unc'], 1e-8)
+    tau = tol_for(tg)
     cands = [('r-ratio', x) for x in ratios_r if abs(x / v - 1) < tau]
     cands += [('lam-ratio', x) for x in ratios_l if abs(x / v - 1) < tau]
     cnt = 0
@@ -199,14 +218,14 @@ print(f"Test 2 candidates {len(t2_hits)}, gated {sum(h['gated'] for h in t2_hits
 print(f"Test 3 relations  {len(t3_hits)}, gated {sum(h['gated'] for h in t3_hits)}")
 if not gated:
     print()
-    print("CLEAN NULL across all three tests at 8-digit precision.")
-    print("The SM values are NOT in the low Maass spectrum of m004 at")
-    print("testable precision (n <= {} eigenvalues, r <= {:.2f}).".format(
+    print("CLEAN NULLS: no SM value is reachable from this spectral set")
+    print("at 8-digit precision under the stated base-rate control")
+    print("(n = {} certified eigenvalues, r <= {:.2f}).".format(
         len(rs), rs[-1]))
-    print("The banked H0 (the object is valueless; values live in the")
-    print("observer-object coupling) STANDS at the spectral level.")
-    print("Open remainder: handoff Test 3 at 50+ digits (algebraicity),")
-    print("blocked pending high-precision eigenvalues.")
+    print("This is a GENERIC-SPECTRUM null over a bounded window. The")
+    print("deep-precision question (20+ digits) and the algebraicity")
+    print("question (50+ digits) remain open, untested, in both")
+    print("directions. (Scope per sealed prereg c6954bfa, amendment A3.)")
 else:
     print()
     print("GATED HIT(S) FOUND — extraordinary. Do NOT bank: relay to cc")

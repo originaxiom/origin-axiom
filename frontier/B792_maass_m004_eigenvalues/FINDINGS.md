@@ -64,21 +64,37 @@ Verification protocol:
    matrices, produced a dip at r = 7.0720 — the Bianchi orbifold
    ground state seen through the index-12 restriction (Step 2).
 
-## GATE-8R2 VERIFICATION (cc's ask §4, discharged computationally)
+## THE r = 7.0720 EIGENVALUE: BLIND OBSERVATION (provenance-corrected)
 
-cc's external calibration rests on λ₁(parent) = 51.014 (r = 7.072058),
-sourced from a SECONDARY report of Grunewald–Huntebrinker 1996 Table 3,
-flagged UNVERIFIED. This computation gives the parent ground state — 
-through m004, by an entirely independent method (collocation vs FEM),
-with the eigenfunction's Bianchi-invariance verified at 7e−10 —
+**Provenance arc (full record, 2026-07-28):** (i) 51.014 entered via a
+secondary report of Grunewald–Huntebrinker 1996 Table 3; (ii) cc's
+URGENT alert flagged it unsourced (paywalled primary; the reporting
+subagent's "read the PDF" claim not credible) and withdrew it as a
+control; (iii) cc then WITHDREW the fabrication alarm after this
+computation: with mean spacing ≈ 0.482 in r, a fabricated value
+landing 5.4e−5 from a true eigenvalue has p ≈ 2.2e−4 (~4500:1 the
+value is genuine). This section previously said "transcription
+VERIFIED" — the durable statement is weaker and stated exactly below.
+
+What this computation establishes, on its own evidence:
 
     r = 7.07200419,  λ = 51.0132434
 
-|Δr| = 5.4e−5 vs the secondary value: agreement at 1996-FEM accuracy.
-**The transcription is VERIFIED as correct to its precision** (no
-wrong-object or wrong-magnitude error), and the value is sharpened by
-~4 digits. Note 51.014 rounds the true 51.0132 up at the 4th decimal —
-anyone comparing at 5+ digits should use 51.0132434 (r = 7.07200419).
+**Targeted confirmation, not blind discovery**: the scanC window was
+chosen because the alleged value existed; but solver parameters were
+frozen at scanA (r ∈ (0.8, 6.5)) before any high-r scan, and 7.072 was
+never used to tune, filter, accept, or reject anything. The
+eigenfunction is invariant under S ∈ PSL(2,O₃)∖Γ₄₁ to 7e−10 — a
+level-1 Bianchi (parent) eigenvalue; by the ground-state argument
+(nothing below the parent's λ₁ is inheritable) plus the V₁ Weyl
+budget (1.13 expected on the window), it is the parent ground state.
+Independently reproduced on cc's separate instrument (7/7 eigenvalues;
+parent at 54× displaced controls).
+
+Open action: reading the actual Experiment. Math. 5(1) 57–80 Table 3
+(the other ~35 values). The programme's citable value is 51.0132434;
+51.014 is its 4-sig-fig secondary echo (G–H's own "last digit may be
+untrustworthy" caveat covers the 5th-digit difference).
 
 ## WEYL BUDGET (B791 cross-reference)
 
@@ -114,11 +130,20 @@ Upper window (7.3, 10), scanD + two-system refinement, all 11 STABLE:
 | 9.64012103 | 93.931933 | 2 | NEW |
 | 9.83711622 | 97.768855 | 2 | NEW |
 
-No old (Bianchi) form in (7.3, 10): the parent's r₂ lies above 10 or
-inside a mult-2 eigenspace (the S-test uses the generic SVD null
-vector; a hidden old component inside a double would need a projection
-test — registered caveat, not load-bearing). No exceptional λ < 1
-anywhere in (0.8, 10).
+No old (Bianchi) form in (7.3, 10) — now PROVEN at eigenspace level:
+the nullspace projection test (`sector_projection_test.py`) minimizes
+the S-invariance defect over each FULL mult-2 eigenspace (generalized
+2×2 eigenproblem of defect vs norm forms), closing the hidden-parent
+caveat. Result: dev_min ∈ [0.83, 1.2] for all 16 non-parent
+eigenvalues (no S-invariant direction anywhere), vs 3.5e−10 at 7.072.
+Controls: every below-ground-state eigenspace parent-free (required by
+the ground-state argument) ✓; 7.072 reads parent ✓.
+**cc's pre-stated prediction "r = 8.8634 is the parent's k=2 (V₁)" is
+REFUTED** — its Weyl-position argument (W·r³ = 1.989, 0.18% from slot
+2) loses to the direct invariance test; the V₁ budget deficit in
+[7.3, 10] (expected 1.75, observed 0, z = −1.32) stands as a
+fluctuation, and the parent's k=2 eigenvalue lies above r = 10.
+No exceptional λ < 1 anywhere in (0.8, 10).
 
 ## WEYL COMPLETENESS (scattering-corrected, exact φ)
 
@@ -147,15 +172,23 @@ passes empirically on the m004 window.
   integers λ₂ = 25.0108, λ₅ = 44.9941 are 0.04% off — correctly NOT
   relations at tol 1e−7 (the protocol kills exactly this numerology).
 
-**VERDICT: CLEAN NULL at 8-digit precision, 17 eigenvalues, r < 10.**
-The SM values are not in the low Maass spectrum of m004 at testable
-precision. The banked H0 — the object is valueless; the values live in
-the observer–object coupling — now stands at the SPECTRAL level too:
-the manifold's last unexplored mathematical structure has been opened
-and it contains no SM numbers. Honest remainder: handoff Test 3 at
-50+ digits (deep algebraicity) needs high-precision eigenvalues
-(mp-arithmetic solve; symmetrized modes would make it tractable) and
-stays OPEN, not claimed in either direction.
+**VERDICT (scope-corrected per cc gate, 2026-07-28): clean nulls —
+no SM value is reachable from this spectral set at 8-digit precision
+under the stated base-rate control.** This is a GENERIC-SPECTRUM null
+over 17 eigenvalues on a bounded window, with B713–B716 (the
+character-variety/torsor negatives) as context, NOT as the hypothesis
+— the Laplace spectrum is a different object and imports no prior H0.
+The deep-precision question (20+ digits, handoff Tests 1–2 as posed)
+and the algebraicity question (50+ digits, Test 3) remain OPEN,
+untested, in both directions.
+
+PROCESS NOTE: the first execution of these tests ran from an unsealed
+docstring protocol and an uncertified spectral set — cc's hold relay
+arrived after the run. Remediation: the protocol is extracted verbatim
+to SM_COMPARISON_PREREGISTRATION.md and sealed, the spectral set is
+mode-count certified (see certification below), and the tests re-run
+from the sealed protocol on the certified set. The first run is
+retained as a labeled dry-run (sm_comparison_results.*).
 
 ## TRACE-NORM SPLIT AT CUTOFF 6.0 (B790 follow-up (a): DONE)
 

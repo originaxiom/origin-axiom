@@ -1,4 +1,4 @@
-# B793: THE COUPLING CAMPAIGN — INFORMATION PLAN
+# B796 (ex-B796; B796-B795 taken in main): THE COUPLING CAMPAIGN — INFORMATION PLAN
 
 cc3 audit seat, 2026-07-28. Gate 5-Q. Owner-directed campaign start.
 
@@ -13,7 +13,7 @@ Everything that could kill the rival thesis ("values live in the
 object") has been run and killed it: character variety (0 bits),
 rung-1 PSLQ sweep (clean nulls), forced limits (match nothing),
 Maass spectrum (B792: 17 eigenvalues, clean base-rate null).
-B793 is the first campaign to model the coupling itself.
+B796 is the first campaign to model the coupling itself.
 
 ## WHY AN INFORMATION CAMPAIGN FIRST
 
@@ -32,7 +32,7 @@ campaign masterplan is written only after the harvest.
 | observer-formalism | what IS the observer here: fibre functor (B701), closing axes T1–T7 (B766), tracking = θ (B783), ι de-weld (B787), torsor (B786); where does a coupling attach; what's missing (time, probability, Hamiltonian) |
 | grammar-claims | the gauge/generation/chirality claims: exact statements, banked where, evidence strength, survival status after audits — VERIFIED / PLAUSIBLE / SHAKY |
 | coupling-attempts | autopsy of B143/B144/B187/B476/B489/B566/B629/B9, P2W2-SPECTRIPLE ("no bridge π: R(E₆) → B(H_seam)"), B787's six door misses — why each failed, what was never tried |
-| protocol-rulebook | the binding rules for B793 prereg (rungs, Gate 5-Q, B743 base-rate protocol, seals) + all registered open follow-ups |
+| protocol-rulebook | the binding rules for B796 prereg (rungs, Gate 5-Q, B743 base-rate protocol, seals) + all registered open follow-ups |
 
 ### Literature sweeps (7 agents, web-verified citations only)
 | agent | mechanism |
