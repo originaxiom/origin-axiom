@@ -127,9 +127,54 @@ Cell 7 → standing control for every value-facing model.
 Cell 3 → gatekeeper for fermionic follow-ups.
 A failed upstream cell VISIBLY voids its dependents.
 
-## EXCLUDED AS UNTESTABLE (verbatim from the critic; no drift back)
+## SECOND-ROUND HARVEST RESULTS (2026-07-29; two of three landed)
 
-T[m004, E6] (no definition); unique-coupling selection from CS/quantum
+**Novelty re-search (G13) — both our claims failed as written; narrowed
+statements adopted:**
+- Claim 1 NARROWED: Müller (1501.07851) has regularized heat-trace
+  small-time asymptotics on cusped hyperbolic manifolds; Park
+  (math/0111175) and Friedman (math/0605288) have regularized
+  determinants/eta. Surviving novelty: no Chamseddine–Connes
+  spectral-action PACKAGING for any cusped hyperbolic 3-manifold, and
+  nothing for m004 specifically. Cell 4's cusp-term sub-deliverable
+  should BUILD ON Müller's published unipotent terms, not re-derive
+  blind. Name-collision flag: Fan–Fathizadeh–Marcolli "Bianchi IX" =
+  cosmological metrics, NOT Bianchi groups — never cite as prior art.
+- Claim 2 REFUTED: **F_K(4₁) EXISTS** (Gukov–Manolescu 1904.06057,
+  figure-eight is the flagship example) — a NEW ASSET for Cell 5
+  (cross-check basis), plus Willetts' ADO unification (2003.09854)
+  and Park's R-matrix F_K (2004.02087). Ẑ^G is defined for any root
+  system on plumbings (Park 1909.13002); general-G blocks for Seifert
+  (Murakami–Terashima 2308.04010). The §exclusion wording is updated
+  accordingly.
+
+**Born-content (G14) — the route is no longer unharvested:**
+- Sharp algebra-type dichotomy verified: II₁ = unique trace/dimension
+  (Gleason–Yeadon forcing); III = no trace, KMS/flow-of-weights only
+  (Connes–Størmer homogeneity); the bridge = Takesaki's conditional-
+  expectation criterion + centralizer-trace fact.
+- **The programme's specific framing (Born content at a II₁→III
+  interface) is UNCLAIMED TERRITORY** — verified negative with named
+  near-misses (gravitational crossed products CLPW 2206.10780;
+  QFT-measurement literature states the type-III probability problem
+  as open). Publishable-shaped gap; priority risk noted (2026
+  boundary-reduction preprints are adjacent).
+- Five concrete finite-stage cells (T1 I₂-block census, T2 invariant-
+  measure simplex vs 1:φ² weights, T3 envariance swap-availability,
+  T4 sub-effect-algebra Busch, T5 finite Takesaki interface) —
+  CANDIDATE WAVE 2.5, pending an adversarial critic pass and cc gate;
+  all state falsifiers; all type-I-mirage-scoped ("stable along the
+  tower," never II₁ claims).
+
+CM Bost–Connes (G15) agent still in flight; dynamics deferral stands
+until it lands.
+
+## EXCLUDED AS UNTESTABLE (updated post-re-search; no drift back)
+
+T[m004, E6] — narrowed: exists by the ADE (2,0) construction but has
+never been made explicit or evaluated for ANY manifold; still no
+computable cell (exclusion stands, reason corrected). Unique-coupling
+selection from CS/quantum
 modularity (no point-selection theorem; dense dial); β=1 SSB at finite
 level (needs the tower); time arrow/Lorentzian from the object
 (contradicts bank; no falsifier); Born CONTENT this campaign (G14/G15
