@@ -122,6 +122,17 @@ predicted positions. Priority refinements (GH-first):
       it. GH's 122.19 vs computed 122.1786: the same last-digit
       pattern as 51.014 vs 51.0132.
 
+RUNG-#1 STATUS CHANGE, explained (per chat1's demand for the
+separated values): the "unresolved cluster" was RESOLVED by
+computation, not folded on proximity — the dedicated fine scan
+(dr = 5e−4) separated TWO objects: the mult-2 NEWFORM at
+r = 10.99654819 (λ = 121.924072, S-dev 0.99) and the mult-1 PARENT
+at r = 11.00811336 (λ = 122.178560, S-dev 8.0e−10), 0.0116 apart;
+the tight bracket (±2e−3 < spacing) then refined the parent to
+1.8e−15 two-system agreement. CORROBORATION NUMBER (chat1's
+base-rate): P(≥2 rungs by chance) = 9.5e−5 — ~10,000:1; three rungs
+stronger still.
+
 **CELL 1 VERDICT: ALL THREE pre-stated GH rungs CONFIRMED as parent
 (S-invariant) eigenvalues** — 122.178560 (r = 11.00811336),
 157.252504 (r = 12.50010017), 177.708175 (r = 13.29316271). The
