@@ -98,6 +98,14 @@ exists to catch.
 - **Name the defect path before discarding your own result.** Suspicion that cannot name a route is
   not a reason.
 - **An unearned negative is as bad as numerology.**
+- **Apparatus-inflation (E34).** Before attributing a conclusion to the object, name the largest
+  structure the derivation passes through and ask whether the conclusion is already a property of
+  *that*. For an instrument, ask whether the pattern is the tool's own footprint.
+- **An instrument that works but cannot be found has failed.** Review 33's sharpest finding was not
+  a broken artifact but a correct one: the stagnation oracle (`scripts/atlas/query.py`) worked, was
+  honest about its own selection effects, and was reachable from **zero** entry points at exactly the
+  moment it was needed. **No gate catches this**, because nothing was wrong with the artifact. When
+  you build an instrument, the same commit must put it in the path of the seat who will need it.
 - **The commensurability rule (B803, adopted 2026-07-29).** *Any derivation step routing through
   the invariant trace field, the invariant quaternion algebra, or arithmeticity is a statement about
   the COMMENSURABILITY CLASS, not about the object.* m003 and m004 share `ℚ(√−3)` and are

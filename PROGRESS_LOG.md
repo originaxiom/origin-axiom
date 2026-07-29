@@ -8497,3 +8497,26 @@ is genuinely absent from the corpus, but the underlying volume conjecture is alr
 adjacent prior art in a novelty sweep, so the absence is narrower than stated. The commensurability
 rule is registered as a manual practice, since no gate can decide whether a mathematical derivation
 routes through a commensurability invariant. Nothing to CLAIMS.
+
+The review seat's addendum proposed a scope gate over the chain's twenty-three links with a
+pre-committed split and a standing instruction that a disagreement means the audit is wrong rather
+than the gate loose. The classifier was built and run before any tags were written, and it
+disagreed: three class, five manifold, thirteen prior, two both, against a predicted nine and four.
+The pre-commitment allowed two outcomes and neither is right. The chain in the theorem ledger does
+not contain the E-six, McKay, generation cascade at all: those terms appear zero times there and
+thirteen, four and eight times in the law map. The addendum's table describes the E-six derivation
+chain while the ledger is the genesis forced-core ledger, two different objects sharing one word, so
+the split could never have matched and the table is not thereby wrong. Two further facts sink the
+stated procedure: scope is transitive, since a step downstream of the trace field is class-level
+even when its own text names no trigger, and only five of twenty-three links cite another link, so
+the closure cannot be computed from the text either. Retargeting the check at the law map, where the
+conclusions actually live, produced exactly one row pairing an object-specificity claim with a
+class trigger, and that row is the very arc that found the genericity, reading that the only
+object-specific content is the atom. That is a negation, correct discipline flagged as a violation,
+and separating the assertion from the negation needs sentence-level parsing rather than a pattern
+match. A hard-fail gate that fires on a right answer teaches readers to ignore it, so the gate was
+not built and the reason is recorded instead of the gate being quietly dropped. What was adopted is
+the error class, merged with the atlas's own honest refusal of its method's recurrence into one
+class with two layers, since the failure is identical and only the layer differs. One further
+practice was adopted on the addendum's closing note: an instrument that works but cannot be found
+has failed, and no gate catches that, because nothing is wrong with the artifact. Nothing to CLAIMS.

@@ -93,3 +93,65 @@ literature step, not a computation), the Dirac spectrum (Cell 3, authorized and 
 two-parameter deformation reading of intuitions (2)/(5). Those remain the audit's on its evidence.
 
 `verify.py` · lock `tests/test_b803_commensurability.py`
+
+---
+
+# ADDENDUM — the gate spec is MIS-TARGETED, and the error class is minted
+
+The audit's addendum proposed a `chain-scope` gate over *"the same 23 links"* of THE CHAIN, with a
+pre-committed split (~9 CLASS, 4 MANIFOLD, rest PRIOR) and the standing instruction: *"if the gate's
+first run disagrees with that split, the audit is wrong and should be re-derived, not the gate
+loosened."* I built the classifier and ran it before writing any tags.
+
+## The first run disagreed — and a third possibility was the right one
+
+Measured over THE CHAIN's 23 links: **3 CLASS, 5 MANIFOLD, 13 PRIOR, 2 BOTH.**
+
+The pre-commitment allowed two outcomes (audit wrong / gate loosened). **Neither is correct.**
+
+| term | THE CHAIN | LAW_MAP | CLAIMS |
+|---|---|---|---|
+| McKay | **0** | 4 | 2 |
+| E₆ | **0** | 13 | 6 |
+| generations | **0** | 8 | 1 |
+| 2T | **0** | 3 | 0 |
+
+**THE CHAIN does not contain the E₆/McKay/generation cascade at all.** The audit's §1 table describes
+the *E₆ derivation chain*; `docs/THEOREM_LEDGER.md` is the *genesis/forced-core* ledger. Two
+different objects sharing the word "chain". The split could never have matched, and the audit's §1
+is not thereby wrong — it is about its own chain.
+
+Two further mechanical facts: scope is **transitive** (a link downstream of the trace field is CLASS
+even if its own text names no trigger), and only **5 of 23** links cite another C-link, so the
+closure is not computable from the text either. The stated decision procedure — *"grep each link;
+no judgement call"* — cannot deliver the property.
+
+## And the hard-fail assertion has a false positive on correct text
+
+Targeting the gate where the conclusions actually live (LAW_MAP, 117 rows, 35 citing a CLASS
+trigger) yields exactly **one** row asserting object-specificity alongside a CLASS trigger — and it
+is **B727's own row**, which reads *"the ONLY object-specific content is the atom (B266)"*. That is a
+**negation**: correct scope discipline, flagged as a violation.
+
+Separating *"X is object-specific"* from *"the only object-specific content is Y"* needs
+sentence-level parsing, not a regex. **A hard-fail gate that fires on a right answer trains readers
+to ignore it**, which is worse than no gate — so the gate is **not built**, and the reason is
+recorded rather than the gate quietly dropped.
+
+**Worth noting for the record:** B727's row already banks the class/manifold split — *"the sister
+m003 ties m004's field ℚ(√−3) (snappy-verified) but isn't a knot (H₁ = ℤ/5+ℤ)"*. The observation was
+not two years late. **The mechanism — that commensurability invariance forces it — is the audit's
+genuine contribution**, and that is what B803 verifies.
+
+## What was adopted instead
+
+**E34 — apparatus-inflation**, merging the audit's proposed *scope-inflation* with the atlas's
+*method-inflation* as one class with two layers, because the failure is identical and only the layer
+differs: **a property of the instrument or of a larger structure, read off the results as a property
+of the object.** Minted in `docs/ERROR_LEDGER.md`, registered MANUAL in `docs/PRACTICES.md`.
+
+Also adopted, on the audit's closing note and independent of everything above:
+
+> **An instrument that works but cannot be found has failed.** No gate catches it, because nothing
+> is wrong with the artifact. When you build an instrument, the same commit must put it in the path
+> of the seat who will need it.

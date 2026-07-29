@@ -1,5 +1,17 @@
 # Changelog
 
+## B803 addendum — the proposed scope gate is MIS-TARGETED; E34 minted instead
+- The review seat proposed a `chain-scope` gate over THE CHAIN's *"same 23 links"*, with a pre-committed split (~9 CLASS / 4 MANIFOLD / rest PRIOR) and the instruction *"if the first run disagrees, the audit is wrong, not the gate."* Classifier built and run **before** tagging.
+- **First run: 3 CLASS / 5 MANIFOLD / 13 PRIOR / 2 BOTH.** The pre-commitment allowed two outcomes; **neither was right.**
+- **THE CHAIN does not contain the E₆/McKay/generation cascade at all** — McKay **0**, E₆ **0**, generations **0**, 2T **0**, against 4 / 13 / 8 / 3 in `LAW_MAP`. The addendum's §1 table is the *E₆ derivation chain*; `THEOREM_LEDGER.md` is the *genesis/forced-core* ledger. **Two different objects sharing the word "chain."** The split could never have matched, and §1 is not thereby wrong.
+- Two further facts sink the stated procedure: **scope is transitive** (a step downstream of the trace field is CLASS even if its own text names no trigger), and only **5 of 23** links cite another link, so the closure is not computable from the text. *"Grep each link; no judgement call"* cannot deliver the property.
+- **Retargeted at LAW_MAP** (117 rows, 35 citing a CLASS trigger): exactly **one** hard-fail candidate — and it is **B727's own row**, reading *"the ONLY object-specific content is the atom"*. A **negation**; correct discipline flagged as a violation. Separating that from a real assertion needs sentence-level parsing. **A hard-fail gate that fires on a right answer trains readers to ignore it**, so the gate is NOT built and the reason is recorded.
+- **For the record:** B727's row already banks the class/manifold split (*"m003 ties m004's field ℚ(√−3) (snappy-verified) but isn't a knot (H₁ = ℤ/5+ℤ)"*). The observation was not late; **the mechanism** — commensurability invariance forcing it — is the audit's genuine contribution, and B803 verifies that.
+- **E34 minted — apparatus-inflation**, merging the proposed *scope-inflation* with the atlas's *method-inflation* into one class, two layers: **a property of the instrument or of a larger structure, read off the results as a property of the object.** MANUAL in `docs/PRACTICES.md`.
+- Also adopted: **an instrument that works but cannot be found has failed** — no gate catches it, because nothing is wrong with the artifact.
+- 18/18 gates. Nothing to `CLAIMS.md`.
+
+
 ## B803 — the commensurability audit VERIFIED (premise first), one claim refined
 - An incoming audit argued **B727's genericity was FORCED by the derivation chain's shape, not discovered statistically**. Everything rests on one premise, so that was verified before the conclusion.
 - **PREMISE HOLDS (snappy, not trust)**: m003 and m004 both have invariant trace field `x²−x+1` → **ℚ(√−3)**, identical volume **2.0298832128**; both arithmetic + cusped ⟹ quaternion algebra `M₂(k)` for both ⟹ **commensurable**.
