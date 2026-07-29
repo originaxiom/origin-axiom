@@ -8610,3 +8610,27 @@ on its first run against this very arc, because the arc documenting the blindnes
 invisible to the lexicon, which is the strongest available evidence for the finding and is recorded
 rather than smoothed. What this does not show is that the object has more than eighteen facets; it
 shows the instrument could not have told us either way. Nothing to CLAIMS.
+
+The residual is discharged and the answer is sharper than the question expected. Deriving a lexicon
+from the corpus first required fixing this seat's own instance of the very error under study: a
+frequency-ranked extractor returned the programme's process vocabulary, the words exactly, verdict,
+frontier and independent, which measure how the programme writes rather than what it studies, and
+that was the third instance of the vocabulary trap in a single session, this time inside the tool
+built to detect it. The fix is a different statistic, since a motif is bursty and concentrated in a
+subset of arcs while register is uniform across nearly all of them, so scoring on mean intensity
+within a non-universal document-frequency band collapses seven hundred and twenty-two noisy
+candidates to seven. Six of the seven are genuine and absent from the authored motifs, the seventh
+being process vocabulary correctly rejected on reading. The finding underneath is that the programme
+carries two disjoint anatomies of one object: the kill compiler classifies negatives across eleven
+named faces, the atlas surveys recurrence across eighteen named motifs, and the overlap between
+those two vocabularies is exactly zero, not one face is a motif. Each instrument is internally
+coherent and together they cannot be joined, which is why an arc can be attached in one and
+invisible in the other. And the centre is missing from both, since the observer scores the highest
+intensity of any derived candidate and appears in neither vocabulary, while the arcs that proved its
+menu bounded and then rank-saturated at exactly three constitute the deepest late structural result
+the programme has. The direct answer to what was learned and never named is therefore that the
+object was found to have an anatomy and an observer, and neither was named in the instrument used to
+check whether anything is being lost, so the two things most recently learned are the two the survey
+cannot represent. Unifying the vocabularies would move every number in this arc and in the atlas and
+needs its own sealed prereg rather than a patch appended to the arc that found the problem. Nothing
+to CLAIMS.

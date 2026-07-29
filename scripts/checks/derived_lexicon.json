@@ -1,0 +1,37 @@
+[
+ {
+  "term": "handoff",
+  "arcs": 125,
+  "intensity": 3.03
+ },
+ {
+  "term": "principal",
+  "arcs": 99,
+  "intensity": 3.04
+ },
+ {
+  "term": "observer",
+  "arcs": 48,
+  "intensity": 4.08
+ },
+ {
+  "term": "hearing",
+  "arcs": 81,
+  "intensity": 3.0
+ },
+ {
+  "term": "reducible",
+  "arcs": 40,
+  "intensity": 3.12
+ },
+ {
+  "term": "meeting",
+  "arcs": 17,
+  "intensity": 4.0
+ },
+ {
+  "term": "cascade",
+  "arcs": 16,
+  "intensity": 3.62
+ }
+]

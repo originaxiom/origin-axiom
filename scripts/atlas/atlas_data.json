@@ -16766,13 +16766,29 @@
   },
   "B806": {
    "slug": "lexicon blindness",
-   "motifs": [],
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "quasicrystal",
+    "wrt_quantum",
+    "firewall",
+    "hyperbolicity_split"
+   ],
    "refs": [
     "B19",
     "B51",
     "B537",
     "B679",
+    "B733",
     "B744",
+    "B766",
     "B770",
     "B793",
     "B798",
@@ -16783,10 +16799,10 @@
     "K024",
     "K025"
    ],
-   "obstacle": "bridge_construction",
-   "obstacle_conf": 2,
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
    "status": "dead",
-   "domain": "dynamics"
+   "domain": "arithmetic"
   },
   "B80": {
    "slug": "sl4 adproof",

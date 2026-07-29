@@ -1,5 +1,16 @@
 # Changelog
 
+## B806 residual DISCHARGED — two disjoint vocabularies, and neither names the observer
+- Deriving a corpus lexicon first required fixing **cc's own instance of the same error**: a frequency-ranked extractor returned **process vocabulary** — *exactly* (69 % of arcs), *verdict* (55 %), *frontier* (50 %) — measuring **how the programme writes, not what it studies**. Third instance of the vocabulary trap in one session, this time **inside the tool built to detect it**.
+- **The fix is a different statistic**: a motif is **bursty** (concentrated in a subset); register is **uniform**. Scoring on *intensity* inside a non-universal df band collapses **722 noisy candidates to 7**.
+- **6 of 7 are genuine and absent from the 18**: **observer** (48 arcs, intensity **4.1** — the highest), **meeting** (4.0), **cascade** (3.6), **reducible** (3.1), **principal** (3.0), **hearing** (3.0). The 7th (*handoff*) is process vocabulary, correctly rejected on reading.
+- **THE FINDING — the programme carries TWO DISJOINT ANATOMIES of one object.** `kill_graph`'s **11 faces** (being, hearing, meeting, children, congruence-tower, sln-tower, coupled-double, mtc-overlay, emittance-×2, infinite-hecke) versus the atlas's **18 motifs**. **Overlap: ZERO — not one face is a motif.** Each is internally coherent; together they cannot be joined, which is why an arc can be attached in one and invisible in the other.
+- **And the centre is missing from both**: `observer` has the **highest intensity of any derived candidate** and is in **neither** vocabulary — while **B733** proved the observer menu **bounded and depth-independent** and **B766** proved it **RANK-SATURATED at exactly 3**. The programme's deepest late structural result, and **no survey instrument can see it**.
+- **The direct answer to "what did we learn and never name?"** — *the object has an **anatomy** (11 faces) and an **observer** (saturated at 3 bits), and neither is named in the instrument used to check whether anything is being lost.* The two things most recently learned are the two the survey cannot represent.
+- **Unifying the vocabularies is NOT done here**: it would move every number in this arc and in the atlas, so it needs its own sealed prereg rather than a patch appended to the arc that found the problem. The 7 candidates and the zero-overlap measurement are its input.
+- 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## B806 — the instrument built to detect what recurs cannot see anything new, by construction
 - Digs into the owner's standing doubt (*"losing emerging branches"*) and finds a **mechanism**, not a feeling.
 - **(1) Face attachment is not mechanizable.** 88 % of unattached arcs *name* a face — but calibrated against the 166 human-classified arcs: **precision 0.45, recall 0.63, exact-set match 13 %**, over-predicting by 55 %. **This falsifies the 88 % cc had computed minutes earlier.** Same failure as the verdict classifier, same cause: reads **vocabulary, not content**.
