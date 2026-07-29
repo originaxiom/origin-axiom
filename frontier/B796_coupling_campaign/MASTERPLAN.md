@@ -273,6 +273,11 @@ correction): 8 → 50 digits is NOT a refinement** — modes scale
 (~244×), plus 10–100× arbitrary-precision overhead: **10⁴–10⁵× the
 certified run, on a different numerical stack** (mp Bessel + mp
 linear algebra). The §16 review is cheap; the computation is not.
+PRECEDENT (chat1's literature check, paired with the measured
+feasibility): H² has reached 1000 digits (BSV); H³ has reached ~10
+(Then, 13,950 Picard eigenvalues). **Nobody has published 50-digit
+Maass forms on H³, ever** — Cell 9 is UNPRECEDENTED AND REACHABLE,
+and the pair is the paper's second headline.
 Outcome semantics per the restructured falsifier: negative-in-box ⇒
 the BC/CM route CLOSES (primary, bounded); the H2 inference is the
 separate conditional. A positive goes to cc for adversarial

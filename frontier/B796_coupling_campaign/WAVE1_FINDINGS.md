@@ -74,15 +74,26 @@ is unearned. Scoping facts:
   satisfy BASE-CHANGE relations, not naive Bianchi–Hecke — if some
   of the 17 are lifts, the abort is the correct outcome of the WRONG
   construction, not evidence against Hecke theory.
-- THEORY-FIRST NEXT TEST (chat1's discipline, adopted): get the
-  base-change archimedean normalization from the literature, derive
-  ONE prediction, test that (DOF ≥ 1 or it is not a test). chat1's
-  own numerical lift-matching (3 hits at 0.07–0.17% across 4
-  normalizations × 10 sources × 17 targets) was base-rated by chat1
-  itself to P(≥3) = 0.14 — NOT usable, and not used.
-Stage 1 remains BLOCKED pending: (a) the Steil read, (b) the correct
-level-(4)/base-change operator, (c) simultaneous diagonalization
-methodology for the 2-planes.
+- THEORY-FIRST TEST: **RAN, and the level-1 lift reading is
+  REFUTED** (chat1, 2026-07-29): the base-change archimedean
+  normalization fixed from Then's published Picard table is
+  r_K = 2·r_Q (two exact 8-digit matches, one rule, zero fitted
+  parameters). First possible PSL(2,Z) level-1 lift:
+  r = 2·9.5337 = 19.067 — 1.4× ABOVE our scan ceiling 13.5. **None
+  of the 43 eigenvalues (parent forms included) can be a level-1
+  base-change lift.** Scope: this closes Steil-type level-1 lifts;
+  the level-variant (base change of Γ₀(4)-forms over Q, if it
+  applies to Γ₄₁ newforms) is NOT excluded by this test and is the
+  one remaining lift avenue — flagged, untested.
+- LIVE READINGS for the split-prime zero, discriminable: (i) **CM** —
+  forces vanishing at a DENSITY-½ set of primes, not one; the test
+  is a_π at ~10 primes, count the zeros; (ii) **wrong double-coset
+  construction** — predicts diffuse order-1 error, NOT a zero
+  tracking splitting. The a_π census is the next Cell-2 computation.
+Stage 1 remains BLOCKED pending: (a) the Steil read (now for CLASS
+LABELS, not multiplicities — the gate ran mult-1 only), (b) the
+correct level-(4) operator, (c) simultaneous diagonalization for the
+2-planes.
 
 Instrument note (E31 discipline, on the record): the gate's own
 construction caught two embedding errors before producing a trustable
@@ -123,7 +134,12 @@ tuned to any of them; deviations |Δλ| = 0.011–0.076 are
 Full window results: 26 stable distinct eigenvalues in (10, 13.5),
 45 with multiplicity, of which THREE parent; the 12.71 shoulder was
 spurious (gone at dr = 5e−4). No exceptional eigenvalues. V₁ budget
-in-window: expected 4.17, found 3, z = −0.57, PASS. Combined
+in-window: expected 4.17, found 3, z = −0.57, PASS — **as a ±2σ
+SCREEN only. Completeness scope limit (chat1's quantitative form of
+the B791 caveat, adopted): sub-leading Weyl terms are 43–60% of the
+leading term for r ≤ 13.5, dropping below 10% only near r ≈ 60; the
+budget CANNOT assert the 43 are complete at this r. No completeness
+claim is made or implied for the paper dataset.** Combined
 certified spectrum r < 13.5: **43 distinct, 72 with multiplicity,
 4 parent forms (7.072004, 11.008113, 12.500100, 13.293163)**.
 Remaining Cell-1 piece: the parity census (requires the
