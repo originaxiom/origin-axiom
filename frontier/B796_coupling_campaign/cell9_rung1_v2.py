@@ -206,17 +206,26 @@ class Sys:
         return tab
 
     def rows(self, r_arb, row_idx):
-        # k0 cache: the height-Y Bessel factor is row-independent
+        # k0 cache: the height-Y Bessel factor is row-independent.
+        # COLUMN EQUILIBRATION (exact): each column is divided by its
+        # Y-term magnitude |Y*K(2pi|mu|Y)| — g's root is invariant
+        # under column scaling (M D)(D^-1 a) = e keeps g = row_n a
+        # unchanged — and the truncation-edge dynamic range (~1e-19 at
+        # shakedown, ~1e-32 at the real run) collapses to O(1),
+        # which arb's certified LU requires at n >~ 1300.
         k0c = [K_ir(r_arb, self.norm_arb[m] * self.two_pi * self.Yb)
                for m in range(self.n)]
+        scale = [(flint.acb(self.Yb) * k0c[m]).abs_lower()
+                 for m in range(self.n)]
         out = []
         for j in row_idx:
             row = []
             for m in range(self.n):
                 k1 = K_ir(r_arb, self.norm_arb[m] * self.two_pi
                           * self.ts_arb[j])
-                row.append(flint.acb(self.Yb) * k0c[m] * self.ph0[j][m]
-                           - flint.acb(self.ts_arb[j]) * k1 * self.ph1[j][m])
+                e = (flint.acb(self.Yb) * k0c[m] * self.ph0[j][m]
+                     - flint.acb(self.ts_arb[j]) * k1 * self.ph1[j][m])
+                row.append(e / scale[m])
             out.append(row)
         return out
 
