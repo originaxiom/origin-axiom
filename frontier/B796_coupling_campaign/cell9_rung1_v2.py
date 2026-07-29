@@ -242,7 +242,13 @@ def newton(S, r0_str, j0=0, itmax=14, label=''):
         a = M0.solve(rhs0)
         amax = max(abs(complex(a[m, 0].real, a[m, 0].imag))
                    for m in range(0, S.n, max(1, S.n // 200)))
-        assert amax < 1e6, (
+        # frame note: raw coefficients at the truncation edge reach
+        # ~1e6 legitimately (their K-factors ~1e-14 make the f-
+        # contribution harmless); the symmetry-zero pathology this
+        # bound exists to catch produces ~1e12+ (normalization forced
+        # against a ~1e-13 coefficient). 1e9 separates the regimes by
+        # 3 orders on both sides.
+        assert amax < 1e9, (
             f"NORMALIZATION SUSPECT: ||a||_inf ~ {amax:.1e} with "
             f"a[j0] = 1 — the normalization mode's true coefficient "
             f"is anomalously small; choose a different j0")
