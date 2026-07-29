@@ -240,7 +240,11 @@ def gate_review_actions():
     carried `[>]` only). The latest block's open count is advisory."""
     path = os.path.join(ROOT, REVIEWS)
     if not os.path.exists(path):
-        return True, "no REVIEWS.md"
+        # FAIL-CLOSED (restart-resistance audit): deleting REVIEWS.md silently disabled BOTH
+        # this gate and views-fresh. The review register is constitutive (GOVERNANCE §15).
+        if os.path.isdir(os.path.dirname(path)):
+            return False, "docs/progress/ exists but REVIEWS.md is MISSING -- §15 register gone"
+        return True, "no docs/progress/ yet"
     text = _read(REVIEWS)
     blocks = re.findall(r"### Action items \(Review [^)]+\)\n((?:- \[.\][^\n]*\n?)+)",
                         text)
@@ -280,7 +284,11 @@ def gate_views_fresh():
     Zero commits touching a view since the anchor == that review did not refresh it."""
     path = os.path.join(ROOT, REVIEWS)
     if not os.path.exists(path):
-        return True, "no REVIEWS.md"
+        # FAIL-CLOSED (restart-resistance audit): deleting REVIEWS.md silently disabled BOTH
+        # this gate and views-fresh. The review register is constitutive (GOVERNANCE §15).
+        if os.path.isdir(os.path.dirname(path)):
+            return False, "docs/progress/ exists but REVIEWS.md is MISSING -- §15 register gone"
+        return True, "no docs/progress/ yet"
     anchors = re.findall(r"anchor-commit: `?([0-9a-f]{7,40})`?", _read(REVIEWS))
     if not anchors:
         return True, "no review anchor yet"
@@ -316,7 +324,9 @@ def gate_id_collisions():
     a duplicated Step-2 computation and two renumbering rulings."""
     fdir = os.path.join(ROOT, "frontier")
     if not os.path.isdir(fdir):
-        return True, "no frontier/"
+        # FAIL-CLOSED (restart-resistance audit): frontier/ is the lab bench; its absence in
+        # this repository means a broken checkout, not a repository without arcs.
+        return False, "frontier/ is MISSING -- broken checkout, not an empty lab bench"
     seen, dups = {}, []
     for name in sorted(os.listdir(fdir)):
         if not os.path.isdir(os.path.join(fdir, name)):
@@ -346,7 +356,13 @@ def gate_knowledge_index():
     kdir = os.path.join(ROOT, "knowledge")
     index = os.path.join(kdir, "INDEX.md")
     if not os.path.isfile(index):
-        return True, "no knowledge/INDEX.md"
+        # FAIL-CLOSED (2026-07-29 restart-resistance audit): this gate previously PASSED when
+        # the very index it guards was deleted -- verified by deleting it in a fresh clone.
+        # A gate that goes quiet when its subject vanishes is worse than no gate.
+        if os.path.isdir(kdir):
+            return False, ("knowledge/ exists but INDEX.md is MISSING -- the layer's only entry "
+                           "point is gone")
+        return True, "no knowledge/ layer"
     on_disk = {m.group(1) for f in os.listdir(kdir)
                if (m := re.match(r"(K\d{3})_.*\.md$", f))}
     body = _read(index)

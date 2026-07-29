@@ -1,5 +1,15 @@
 # Changelog
 
+## Restart resistance: tested in a fresh clone, and it was broken two ways
+- **Owner's question**: is the mechanism reset/restart-resistant?
+- **Tested, not reasoned about.** A clean `git clone` runs **all 16 gates, exit 0, no setup** — that part held.
+- **DISCOVERABILITY WAS BROKEN at the most important link.** the gitignored session pointer file sends a fresh seat to `WORKING_RULES.md` — which mentioned **neither the gates nor the practice register (zero hits)**. A seat could work indefinitely without learning the enforcement layer exists. `WORKING_RULES.md` now names both, plus the "a killed suite is not a fast suite" rule.
+- **THREE GATES WERE FAIL-OPEN**, proven by deleting the files they guard inside a fresh clone: `knowledge-index` **PASSED** with `knowledge/INDEX.md` deleted; `review-actions` **and** `views-fresh` **both PASSED** with `REVIEWS.md` deleted. A gate that goes quiet when its subject vanishes reports assurance it is not providing. All now **fail closed** and re-verified by deletion; `frontier/` removal fails too.
+- **An accident worth keeping**: because `WORKING_RULES.md` and `CHANGELOG.md` now cite `docs/PRACTICES.md` by path, deleting it trips **`path-refs`** as well as `practices-register`. Discoverability and enforcement now guard each other.
+- **Honest limitation, recorded not patched**: four git-reading gates soft-skip outside a git checkout. A zip download genuinely cannot verify git facts, and a fabricated failure would be worse. Written down so nobody rediscovers it as a surprise.
+- 16/16 gates green. Nothing to `CLAIMS.md`.
+
+
 ## Practice register instituted — and its own gates caught two live defects on the first run
 - **Owner's question**: how do we keep practices from being forgotten between pushes and reviews?
 - **The measured answer.** A day of sweeps produced a *perfect split*: **six practices drifted, every one ungated; five held, every one gated.** The clearest case — `GOVERNANCE.md` §12 clause two was adopted **2026-07-16**, written into the constitution, and **not executed for thirteen days** while the surfaces it governs drifted. **A written rule has a half-life; a gate does not.**

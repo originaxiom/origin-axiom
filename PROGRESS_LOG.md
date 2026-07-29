@@ -8445,3 +8445,20 @@ instead of being dressed up as checkable, and the register names the preregistra
 mechanism that actually works for them, on the evidence of the twelve-doors arc where a warning sign
 declared in advance is what made the outcome interpretable rather than self-congratulatory. Nothing
 to CLAIMS.
+
+Restart resistance was tested rather than assumed, and it was broken in two ways that a fresh clone
+exposed immediately. All sixteen gates do run in a clean clone with no setup, which is the part that
+worked. But discoverability was broken at the most important link: the pointer file sends a new seat
+to the working rules, and that document mentioned neither the gates nor the practice register, so a
+seat could have worked indefinitely without learning the enforcement layer existed. It now names
+both. Worse, three gates were fail-open, which was verified by deleting the very files they guard
+inside a fresh clone: the knowledge-index gate passed with the index deleted, and both the
+review-actions and view-freshness gates passed with the review register deleted. A gate that goes
+quiet when its subject vanishes is worse than no gate, because it reports assurance it is not
+providing. All three now fail closed, re-verified by deletion, and the frontier-missing case fails
+too. One accident is worth keeping: because the working rules and the changelog now cite the
+practice register by path, deleting that register trips the path-reference gate as well as its own,
+so discoverability and enforcement now guard each other. Four gates that read git history still
+soft-skip outside a git checkout, and that is recorded as an honest limitation rather than patched
+with a fabricated failure, since a zip download genuinely cannot verify git facts. Nothing to
+CLAIMS.

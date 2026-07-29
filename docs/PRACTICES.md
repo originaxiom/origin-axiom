@@ -69,6 +69,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | A gate must be **observed to fail** before it counts as a gate | **MANUAL** | mutation-test at the time of writing; recorded in the arc |
 | A **complete** suite run is required before claiming green — a killed run is a *different, weaker* check | **MANUAL** | see §Judgement |
 | Superseded review blocks carry no open action items | **GATED** | `review-actions` |
+| Gates **fail closed** — a gate whose subject is missing must FAIL, never go quiet | **GATED** | verified by deletion in a fresh clone; see §Restart resistance |
 
 ### Cadence
 
@@ -106,6 +107,28 @@ So: **for anything judgement-shaped, seal a prereg with a two-outcome criterion.
 closest thing to a gate that judgement admits.
 
 ---
+
+## Restart resistance — verified, not assumed
+
+The register is worth nothing if a fresh seat never finds it or a fresh clone silently loses it.
+Both were **tested in a clean `git clone`**, and both were initially broken:
+
+- **All 16 gates run in a fresh clone**, exit 0, no setup. ✔
+- **Discoverability was BROKEN.** the gitignored session pointer file sends a new seat to `WORKING_RULES.md`, and that file
+  mentioned **neither** the gates nor this register — zero hits. A seat could work indefinitely
+  without learning the enforcement layer exists. `WORKING_RULES.md` now names both.
+- **Three gates were FAIL-OPEN**, verified by deleting the very files they guard in a fresh clone:
+  `knowledge-index` **passed** with `knowledge/INDEX.md` deleted; `review-actions` and
+  `views-fresh` **both passed** with `REVIEWS.md` deleted. All are now **fail-closed** — a gate
+  whose subject has vanished reports failure rather than silence. Re-verified by deletion.
+- **`docs/PRACTICES.md` is now protected by a second, independent gate**: because
+  `WORKING_RULES.md` and `CHANGELOG.md` cite it by path, deleting it trips `path-refs` as well as
+  `practices-register`. Linking it from the entry point made discoverability and enforcement guard
+  each other — an accident worth keeping.
+- **Known and accepted soft-skip:** four gates that read git history report "git unavailable —
+  skipped" outside a git checkout. That is an honest limitation, not a hole: a zip download
+  genuinely cannot verify git facts, and a fabricated failure would be worse. It is recorded here
+  so nobody rediscovers it as a surprise.
 
 ## Maintaining this file
 

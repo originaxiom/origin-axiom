@@ -68,3 +68,22 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
     executing seat. Blinded lanes (predictor/comparator) still require
     genuinely separated seats — the subagent equivalence is for FACTUAL
     review only.
+
+## Enforcement — read this before assuming a rule is optional
+
+Rules in this file are **prose, and prose has a half-life.** On 2026-07-29 a measured sweep found
+six drifted practices and five that held, split perfectly by whether a gate existed. So:
+
+- **`docs/PRACTICES.md` is the single register of agreed practices.** One row each, with an explicit
+  enforcement column (GATED / TESTED / SCHEDULED / MANUAL). **A practice not in that table is not an
+  agreed practice** — including anything agreed in conversation.
+- **`python3 scripts/gates/gates.py`** runs every governance gate in a few seconds. Run it before
+  banking. The full suite (`python3 -m pytest -q`) runs them too, via `tests/test_repo_gates.py`,
+  but takes ~70 minutes — and **a killed suite is not a fast suite, it is a weaker check**, so never
+  quote a partial run as green.
+- Gates **fail closed**: if a gate's subject is missing, the gate fails rather than going quiet.
+  That property was added after an audit found three gates passing while the files they guarded had
+  been deleted.
+- For anything judgement-shaped that no gate can check, **seal a preregistration with a two-outcome
+  criterion before computing**. That is the only mechanism that forces the judgement while it is
+  still cheap.
