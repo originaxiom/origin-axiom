@@ -1,5 +1,16 @@
 # Changelog
 
+## B804 — the Dirac spectrum: structure settled, eigenvalues need machinery, and a falsifier that could not fire
+- **Prereg `b955c637ae6a46ba` sealed at `9d298657` BEFORE compute** — and **rewritten before sealing** after a literature-first review.
+- **The first draft's bounded falsifier was EXCLUDED BY A THEOREM.** It gated an expensive cell behind *"if both spin structures give continuous spectrum, the campaign is over"*, with the literature gate placed **after** it. **The kill branch could never fire.**
+- **Cell 1 — the cobordism computation, exact.** `Ω^spin₂ ≅ ℤ/2` detected by Arf; on `T²` exactly **one** of four structures is non-bounding — **(1,1), the Lie structure, the generator**. The cusp cross-section **bounds the compact core** ⟹ `[T²,σ] = 0` ⟹ **Arf = 0** ⟹ **bounding**, for *every* spin structure on the manifold, hence both of m004's (B279) and **identically m003's**. So the Dirac spectral **type** is **CLASS-level by construction (E34)** and the m003 scope sub-cell is a **corollary, not a check**.
+- **Cited, not derived:** *bounding cusp structure → spectral type* (Bär, *J. Diff. Geom.* **54** (2000) 439, via Martelli–Reid). Its direction is **not** asserted from memory.
+- **Cell 2 — the pre-registered Weyl caveat, made concrete.** `vol(m003) = vol(m004) = 2.0298832128`, and the only manifold-dependent input at leading order is volume ⟹ the leading-order Dirac counting functions are **identically equal (difference 0.0 at every λ)**. **An identity, not a measurement.** Any real separation must be **fluctuation-level** — where B790 found the Laplacian one.
+- **Cell 3 NOT PERFORMED, reported plainly.** No Dirac eigenvalue was computed. It needs a spinor-valued Hejhal-type collocation solver — the Maass machinery's analogue — which does not exist in this repository. The prereg lists claiming otherwise as a failure of the arc.
+- **The durable output is methodological**: *a bounded falsifier declared before its governing theorem is retrieved is not yet known to be a falsifier.* A falsifier that cannot fire is **decoration, and worse than none, because it advertises a rigour the design does not have.* Registered in `docs/PRACTICES.md`.
+- 18/18 gates. Nothing to `CLAIMS.md`.
+
+
 ## B803 second addendum — the CLASS column was too wide, and the prior art was missed
 - **Correction 1 (accepted after verification).** The banked rule read *"everything downstream of the field"* — **too wide**. A character variety is `Hom(Γ,G)//G`: its input is **Γ**, and **commensurable groups have different character varieties**. The discriminator is *what the statement's input is*, not whether the field appears upstream.
   - **CLASS** (input = field/algebra): trace field, quaternion algebra, arithmeticity, `𝔽₃`, `SL(2,𝔽₃)=2T`, **the E₆ label**.

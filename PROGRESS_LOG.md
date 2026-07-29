@@ -8539,3 +8539,25 @@ trace field, closing the single-knot route for every hyperbolic knot; a third ha
 hexagonal-cusp route. That is a convergence rather than a duplication, and it strengthens the
 reading: the new arc says why the chain is class-level, the older ones say what actually lives in the
 class and what provably cannot live in the object. Nothing to CLAIMS.
+
+The Dirac campaign ran, and its most durable output is a lesson about its own design rather than a
+spectrum. The first draft gated an expensive cell behind a bounded falsifier and placed the
+literature gate after it. Review established that the kill branch is excluded by a theorem: the cusp
+cross-section of a one-cusped spin three-manifold bounds the compact core, so its class in the
+second spin bordism group is zero, so its Arf invariant is zero, so the induced structure is the
+bounding one, for every spin structure on the manifold and identically for the sister. The falsifier
+could never have fired. The flaw was ordering, not reasoning, and the general form is that a bounded
+falsifier declared before its governing theorem is retrieved is not yet known to be a falsifier,
+because a falsifier that cannot fire is decoration and worse than none, since it advertises a rigour
+the design does not have. The prereg was rewritten and resealed before any computation. The
+cobordism step was then computed exactly rather than cited: four spin structures on the torus,
+exactly one of them non-bounding, the bordism group of order two detected by the Arf invariant, and
+the bounding conclusion forced. The implication from a bounding cusp structure to the spectral type
+is cited, not re-derived, and its direction is not asserted from memory. The Weyl caveat was
+pre-registered and then made concrete: since the sister and the object have equal volume and the
+only manifold-dependent input at leading order is volume, the leading-order Dirac counting functions
+are identically equal, which is an identity and not a measurement, so any real separation must live
+in the fluctuations where the Laplacian separation was found. No eigenvalue was computed. A cusped
+Dirac eigenvalue computation needs a spinor-valued collocation solver on the scale of the Maass
+machinery, which does not exist here, and the prereg names claiming otherwise as a failure of the
+arc, so it is reported plainly instead. Nothing to CLAIMS.

@@ -16708,16 +16708,38 @@
     "figure_eight",
     "trace_map",
     "eisenstein",
+    "z3_generation",
     "amphichiral_cp",
     "torsion"
    ],
    "refs": [
+    "B266",
+    "B302",
+    "B307",
+    "B486",
     "B659",
     "B727",
+    "B790",
+    "P49",
+    "P51"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B804": {
+   "slug": "dirac spectrum",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B279",
     "B790"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 2,
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
   },
