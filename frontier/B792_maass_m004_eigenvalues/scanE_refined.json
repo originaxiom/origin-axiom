@@ -77,6 +77,25 @@
    "type": "NEW"
   },
   {
+   "r": 10.99654819,
+   "lambda": 121.924072,
+   "r_Y2": 10.99654819,
+   "dr": 0.0,
+   "sigma_Y1": 1e-10,
+   "sigma_Y2": 1.3e-10,
+   "sv_tail": [
+    null,
+    null,
+    1e-10,
+    1.3e-10
+   ],
+   "multiplicity": 2,
+   "S_invariance_dev": 0.99,
+   "stable": true,
+   "type": "NEW",
+   "note": "restored \u2014 patch tolerance had wrongly removed it"
+  },
+  {
    "r": 11.008113359,
    "lambda": 122.17856,
    "r_Y2": 11.008113359,
