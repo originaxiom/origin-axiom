@@ -8586,3 +8586,27 @@ no proved arc, including the congruence tower with thirty-four arcs attached and
 thirty-two. The consequence for the backlog is that the unverdicted arcs were mispriced as
 bookkeeping when they are the graph's missing nodes, and the dependency field is its edge relation.
 Nothing to CLAIMS.
+
+The owner's standing doubt about losing emerging branches now has a mechanism rather than a feeling,
+and it was reached by three measurements in sequence. First, face attachment is not mechanizable:
+eighty-eight per cent of unattached arcs name a face somewhere in their text, but calibrated against
+the hundred and sixty-six human-classified arcs the keyword classifier scores precision zero point
+four five and reproduces the exact face set thirteen per cent of the time, over-predicting by more
+than half, which falsifies the eighty-eight per cent this seat had computed minutes earlier and
+repeats the verdict-classifier failure for the same reason, that it reads vocabulary rather than
+content. Second, the corpus looks extremely concentrated: eighteen distinct motifs over seven
+hundred and thirty-four probes, three of which cover ninety-three per cent. Third, and this is the
+finding, that concentration belongs to the instrument. The motif lexicon is eighteen hand-authored
+regular-expression sets whose own header states it is grounded in the knowledge layer up to its
+twenty-second explainer, it was last authored on the first of July, four hundred and nine arcs have
+been banked since, and the three newest explainers are outside its grounding. An arc whose content
+matches none of the eighteen is invisible to the survey by construction, and the survey is
+self-sealing, since eighteen labels will always report concentration in eighteen things and can
+never report a nineteenth. The decisive instance is that the arc defining the programme's own
+current falsifier matches zero motifs, so the instrument built to detect what recurs cannot see what
+the programme is presently betting on, and four other substantive recent arcs share that fate. The
+new gate holds the count of invisible probes to a high-water mark rather than a budget, and it fired
+on its first run against this very arc, because the arc documenting the blindness is itself
+invisible to the lexicon, which is the strongest available evidence for the finding and is recorded
+rather than smoothed. What this does not show is that the object has more than eighteen facets; it
+shows the instrument could not have told us either way. Nothing to CLAIMS.

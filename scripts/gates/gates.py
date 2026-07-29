@@ -587,6 +587,37 @@ def gate_law_map_provenance():
     return True, f"ok ({len(rows)} rows all traceable; {locked} locked -- index, not ledger)"
 
 
+# B806. A HIGH-WATER MARK, not a budget: raising it must be a deliberate, recorded act.
+# 19 at measurement -> 20 the moment B806 itself was banked, because the arc DOCUMENTING the
+# lexicon's blindness is invisible to the lexicon. The finding demonstrating itself is the
+# strongest evidence for it, and the ceiling records that rather than hiding it.
+LEXICON_BLIND_CEILING = 20
+
+
+def gate_atlas_lexicon_current():
+    """The atlas lexicon must not go blind: zero-motif probes may not grow.
+
+    B806: the LEXICON is 18 hand-authored regex sets, authored 2026-07-01 and grounded in
+    K001..K022. 409 arcs have been banked since; K023-K025 are outside its grounding. An arc
+    matching none of the 18 is invisible to the atlas BY CONSTRUCTION -- including B798, which
+    defines the programme's own current falsifier.
+
+    The instrument is self-sealing: 18 labels will always report the corpus concentrated in 18
+    things. This gate cannot make it discover new motifs; it makes its GOING BLIND detectable,
+    which is the property it lacked."""
+    import json as _json
+    p = os.path.join(ROOT, "scripts", "atlas", "atlas_data.json")
+    if not os.path.isfile(p):
+        return False, "atlas_data.json missing -- the lexicon check has no input"
+    probes = _json.load(open(p, encoding="utf-8"))["probes"]
+    blind = [k for k, v in probes.items() if not v.get("motifs")]
+    if len(blind) > LEXICON_BLIND_CEILING:
+        return False, (f"{len(blind)} probes match ZERO motifs (ceiling "
+                       f"{LEXICON_BLIND_CEILING}) -- the lexicon has gone stale relative to the "
+                       f"corpus; new: {sorted(blind)[-5:]}")
+    return True, f"ok ({len(blind)}/{len(probes)} zero-motif, ceiling {LEXICON_BLIND_CEILING})"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -606,6 +637,7 @@ GATES = {
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,
+    "atlas-lexicon-current": gate_atlas_lexicon_current,
 }
 
 

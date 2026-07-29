@@ -1,5 +1,19 @@
 # Changelog
 
+## B806 — the instrument built to detect what recurs cannot see anything new, by construction
+- Digs into the owner's standing doubt (*"losing emerging branches"*) and finds a **mechanism**, not a feeling.
+- **(1) Face attachment is not mechanizable.** 88 % of unattached arcs *name* a face — but calibrated against the 166 human-classified arcs: **precision 0.45, recall 0.63, exact-set match 13 %**, over-predicting by 55 %. **This falsifies the 88 % cc had computed minutes earlier.** Same failure as the verdict classifier, same cause: reads **vocabulary, not content**.
+- **(2) The corpus looks extremely concentrated**: **18 motifs over 734 probes; 3 cover 93.3 %; 11 cover 100 %.**
+- **(3) That concentration is the INSTRUMENT'S.** The atlas `LEXICON` is **18 hand-authored regex sets**; its own header grounds it in *"knowledge/K001..K022"*. Last authored **2026-07-01**; **409 arcs banked since**; **K023/K024/K025 outside its grounding**.
+- **The mechanism:** *an arc whose content matches none of 18 regex sets frozen on 2026-07-01 is invisible to the atlas by construction.* And it is **self-sealing** — 18 labels will always report concentration in 18 things and can never report a nineteenth. *"Nothing new is recurring"* is its output regardless of input.
+- **The decisive instance: `B798`, which defines the programme's own current falsifier, matches ZERO motifs.** The instrument built to detect what recurs cannot see what the programme is betting on. Also invisible: **B537** (a PROVED result), **B770**, **B793**, **B744**.
+- **This is E34 one level deeper**: not the *method's* recurrence read as the object's unity, but the **lexicon's granularity read as the object's granularity**.
+- **New `atlas-lexicon-current` gate** — a **high-water mark, not a budget**. It **fired on its first run, on B806 itself**: the count went 19 → 20 because *the arc documenting the blindness is invisible to the lexicon*. Recorded rather than smoothed.
+- **What it does NOT show**: that the object has more than 18 facets. It shows **the instrument could not have told us either way**.
+- **Residual**: derive a lexicon *from* the corpus rather than authoring it ahead — the gap against the current 18 **is the list of things the programme learned and never named**.
+- 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## B805 — K024 made live: the forcing graph, and the 77 % never attached to the object
 - **K024** (*"the forcing map: the object's anatomy, and what can escape it"*) was written 2026-07-08 on the owner's directive and has sat since as **916 words of prose — 15 nodes, 15 arrows, ZERO edges marked PROVEN/KNOWN/OPEN**. Assembled here from the record.
 - **The correction that made it buildable (owner's, and cc's frame was wrong):** object and observer are **one system**. The observer side is *forced and finite* — **B733** (bounded, discrete 𝔽₂, depth-independent; *"the mechanism is forced"*) and **B766** (**RANK-SATURATED at exactly 3** — conjugation, reversal, the golden branch — *"PRECISELY the full discrete closing set"*). cc had quoted K013/B712, which govern the **continuous residue**, as if they governed the whole system, and concluded it does not force its world. **Retracted.** "Account for everything" is a **finite** target: forced structure + a 3-bit residue proved complete.
