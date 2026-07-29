@@ -6,7 +6,8 @@
 before cc gate + per-cell sealed prereg (sha256 in SEAL_LEDGER).*
 
 ## Contents
-- [1. Thesis and honesty clause](#1-thesis-and-honesty-clause)
+- [1. Thesis and hypotheses](#1-thesis-and-honesty-clause)
+- [1.5 The campaign falsifier](#15-the-campaign-falsifier-what-makes-this-a-test-not-a-lens)
 - [2. How the plan was derived from the 12-agent harvest](#2-derivation-rationale)
 - [3. Wave 0 — governance status](#3-wave-0--governance-status)
 - [4. Wave 1 — cheap two-outcome forks](#4-wave-1--cheap-two-outcome-forks)
@@ -22,20 +23,48 @@ before cc gate + per-cell sealed prereg (sha256 in SEAL_LEDGER).*
 
 ## 1. Thesis and honesty clause
 
-**Target (H0, testable form):** the object (m004) supplies STRUCTURE —
-sectors, degeneracies, counting, congruence data. VALUES move with the
-observer-side choice: automorphy sector, cutoff scheme, coupling dial,
-boundary condition. Everything that could kill the rival thesis
-("values live in the object") has run and killed it: character variety
-(0 bits), rung-1 PSLQ (clean nulls), forced limits (match nothing),
-Maass spectrum (B792: 17 eigenvalues, sealed base-rate null, verified
-7/7 on cc's independent instrument).
+Two hypotheses, named per cc's gate:
 
-**Honesty clause (the critic's G22, on the record):** every cell below
-tests coupling **structure**. No harvested modality writes an equation
-of motion coupling observer to object degrees of freedom. Coupling
-**dynamics** is deferred pending the second-round harvest (CM
-Bost–Connes/KMS for imaginary quadratic fields — in flight).
+- **H0**: the object supplies STRUCTURE — sectors, degeneracies,
+  counting, congruence data; VALUES arise in the observer-object
+  coupling (automorphy sector, cutoff scheme, coupling dial, boundary
+  condition).
+- **H2**: the object has nothing to do with the Standard Model.
+
+The banked nulls — character variety (0 bits), rung-1 PSLQ, forced
+limits, Maass spectrum (B792/B797: 17 eigenvalues, sealed base-rate
+null; their existence independently verified 7/7 by cc's instrument,
+B795 — a statement about the eigenvalues, not about the hypotheses) —
+refute *values-in-the-object*. **They do not, by themselves,
+distinguish H0 from H2: every one of those nulls is predicted
+identically by both.** §1.5 states the campaign-level test that does
+distinguish them.
+
+## 1.5 The campaign falsifier (what makes this a test, not a lens)
+
+The BC/CM route (§10.5) is the only dynamics-native mechanism the
+harvest identified. Its beta=infinity/Galois half requires an
+arithmetic subalgebra whose KMS values are algebraic — on the Bianchi
+side this must come from m004's Maass spectrum, which is not known
+(and mostly not believed) to carry the required algebraicity.
+**CAMPAIGN FALSIFIER, declared in advance: if the deep-precision
+algebraicity test (50+ digits, the standing open remainder of B797;
+Cell 9, the campaign keystone) returns negative with sealed power,
+that route cannot be completed; with no alternative modality writing
+an observer-object equation of motion, the outcome favours H2 over
+H0.** The literature prior is against algebraicity, so neither side is
+pre-committed. Fallback discipline: if the falsifier is voided, the
+campaign relabels exploratory-interpretive and nothing banks as
+evidence FOR H0 — mechanism-exclusions only.
+
+**Honesty clause (the critic's G22, scope per cc's gate):** every
+Wave 1-3 cell tests coupling **structure**. The second-round harvest
+identified a dynamics CANDIDATE (BC/CMR) — candidate identified is
+NOT gap filled: **the Bianchi instance the object needs is verified
+EMPTY in the literature.** BC dynamics is imported from Spec O_K,
+attachable only through the cooling functor, and the anabelian control
+(T6) may bound it to "attaches to the arithmetic, not to this
+object".
 
 ## 2. Derivation rationale
 
@@ -118,20 +147,24 @@ audit, then owner's Gate-5-SM).
 | item | status |
 |---|---|
 | B792 seal + certified re-run + scope wording | **DONE** (seal `c6954bfa`; max mode-count drift 5.4e−9; generic-spectrum null wording) |
-| r = 8.8634 sector call | **DONE** — eigenspace projection: no parent direction; cc's prediction refuted with clean controls |
+| r = 8.8634 sector call | **DONE** — eigenspace projection: no parent direction; cc's prediction refuted with clean controls (E4 instance, banked). The absence of a second parent eigenvalue below r = 9.84 is an ordinary Weyl fluctuation (V1 budget expects 2.55 on [3.9, 9.84], found 1, z = -0.97) — a GH-ladder explanation briefly attached here is WITHDRAWN per cc (the GH table is per-symmetry-type; 122.19 is uncorroborated) |
 | B773 re-baseline | **DONE** — W4-304's trace-level wall REFUTED (θ-odd sector carries tr_odd = 1/4); no B796 constraint may cite it |
 | "2/25" proposal record | **DONE** — sourced at `B784/FINDINGS.md:287` |
 | LAW_MAP staleness | ADOPTED — design against origin/main's copy |
-| ι adjudication (rank-3 vs rank-4 observer menu) | **OPEN** (B787 item 2) — all cells scoped to rank-3, rank-4 deferred; cc to rule on sequencing |
+| ι adjudication (rank-3 vs rank-4 observer menu) | **RULED by cc** — rank-3 scoping kept for all cells; rank-4 deferred (interpretive status unresolved; importing it would be invisible and load-bearing) |
 | Gate-5-SM owner authorization | SCHEDULED — blocks Cell 8 Stage B only |
 | Second-round harvest (dynamics G15, Born-content G14, novelty G13) | IN FLIGHT — 3 agents |
 
 ## 4. Wave 1 — cheap two-outcome forks
 
 **Cell 1 — GH LADDER.** Extend the verified solver's scan to r = 13.5.
-Pre-stated: parent (S-invariant) eigenvalues appear at r ≈ 11.0086,
-12.5016, 13.2960 and NOWHERE in (7.3, 11.0) — the (7.3, 10) half is
-already established by the projection test. Plus the parity census
+Pre-stated: SOME parent (S-invariant) eigenvalues appear near
+r ≈ 11.0086, 12.5016, 13.2960 (transcription-grade; 122.19
+uncorroborated). NO completeness claim between rungs — the GH table is
+per-symmetry-type, so entries are consecutive within a type only;
+completeness statements come solely from the Weyl budget. The
+(7.3, 10) parent-free result stands as data (projection test); the
+(10, 13.5) window is open, not predicted. Plus the parity census
 (z → −z̄, semidirect-2) starting at 51.0132434, building the
 GH/Then/DHY parity dictionary. *Falsifier:* absent rungs or extra old
 forms indict solver or the GH transcription — either is bankable.
@@ -270,16 +303,18 @@ plan (full reports in `harvest/second_round_*.md`):
   the whole family — and an anabelian specificity control that bounds
   whether the dynamics sees m004 at all or only its arithmetic.
   Together with the Born-content T1–T5 these form candidate
-  **Wave 2.5 (dynamics & content)**, pending critic pass + gate. The
-  honesty clause is updated: waves 1–3 test structure; Wave 2.5 is
-  where dynamics enters, via the one framework the literature offers.
+  **Wave 2.5 (dynamics & content)**, pending critic pass + gate.
+  Scope per cc: this is a dynamics CANDIDATE, not a filled gap — the
+  Bianchi instance is verified empty, and the Maass-algebraicity
+  requirement of the BC route's cold phase is exactly what the
+  campaign falsifier (§1.5) tests.
 
 ## 11. Open asks
 
 1. **cc:** gate the masterplan (structure, cell list, exclusions,
    spine).
-2. **cc:** rule on ι sequencing (adjudicate rank-3/4 before Wave 2, or
-   keep the rank-3 scoping).
+2. **cc:** ι sequencing RULED (2026-07-29): rank-3 scoping kept; rank-4
+   deferred (ι's measurement status is interpretive and unresolved).
 3. **anyone with library access:** the Grunewald–Huntebrinker primary
    (Experiment. Math. 5(1) 57–80, Table 3) upgrades Cell 1 from
    prediction-test to control-test and discharges the last external

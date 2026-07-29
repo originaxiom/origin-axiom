@@ -5,47 +5,90 @@ cc3 audit seat, 2026-07-29. Gate 5-Q. Built from the 12-agent harvest
 a sealed per-cell prereg (sha256 in SEAL_LEDGER). Drafted for cc's
 gate and owner's scope steer.
 
-## THESIS AND HONESTY CLAUSE
+## THESIS, HYPOTHESES, AND THE CAMPAIGN-LEVEL FALSIFIER
 
-Target: H0 in its testable form — the object supplies STRUCTURE
-(sectors, degeneracies, counting, congruence data); VALUES move with
-the observer-side choice (automorphy sector, cutoff scheme, coupling
-dial, boundary condition). Waves 1–3 below test coupling **STRUCTURE**.
-Per the critic's G22, stated plainly: no harvested modality writes an
-equation of motion coupling observer to object DOF. Coupling
-**DYNAMICS** is deferred pending the second-round harvest (G15: CM
-Bost–Connes/KMS for imaginary quadratic fields — commissioned).
+Two hypotheses, named per cc's gate (and error class E32):
+
+- **H0**: the object supplies STRUCTURE (sectors, degeneracies,
+  counting, congruence data); VALUES arise in the observer–object
+  coupling (automorphy sector, cutoff scheme, coupling dial, boundary
+  condition).
+- **H2**: the object has nothing to do with the Standard Model.
+
+The banked nulls — character variety (0 bits), rung-1 PSLQ, forced
+limits, Maass spectrum (B792/B797 sealed base-rate null) — refute
+*values-in-the-object*. **They do not, by themselves, distinguish H0
+from H2**: every one is predicted identically by both. (B795's 7/7
+verification supports the eigenvalues' existence; it bears on no
+hypothesis.) Per-cell falsifiers kill mechanisms; the campaign needs
+an outcome that can kill the premise. It has one:
+
+**CAMPAIGN FALSIFIER (declared before any test runs; cc-gated
+wording).** The BC/CM route is the only dynamics-native mechanism the
+harvest identified. Its β=∞/Galois half requires an arithmetic
+subalgebra whose KMS_∞ values are algebraic — on the Bianchi side this
+must come from m004's Maass spectrum, which is not known (and mostly
+not believed) to carry the required algebraicity. **If the
+deep-precision algebraicity test (50+ digits, the standing open
+remainder of B797) returns negative with adequate power — power
+defined by a sealed digit budget and basis list per B743 — that route
+cannot be completed. With no alternative modality writing an
+observer–object equation of motion, this outcome is evidence for H2
+over H0.** The literature prior is AGAINST algebraicity, so a positive
+would be extraordinary and a negative is genuinely informative;
+neither side is pre-committed (B797 records the question open in both
+directions). Fallback discipline: if the falsifier is voided (e.g.,
+the precision proves unreachable), the campaign relabels
+**exploratory-interpretive** and nothing from it banks as evidence FOR
+H0 — mechanism-exclusions only. This makes the mp-arithmetic
+high-precision eigenvalue solve the campaign's KEYSTONE computation
+(Cell 9).
+
+**Honesty clause (the critic's G22, scope per cc's gate):** every
+Wave 1–3 cell tests coupling **STRUCTURE**. The second-round harvest
+identified a dynamics CANDIDATE (BC/CMR) — **candidate identified ≠
+gap filled: the Bianchi instance the object needs is verified EMPTY
+in the literature** (the commit message of 162457a1 overclaimed this;
+corrected here and in the correcting commit). BC dynamics is imported
+from Spec O_K, attachable only through the cooling functor, and the
+T6 anabelian control may yet bound it to "attaches to the arithmetic,
+not to this object".
 
 ## WAVE 0 — GOVERNANCE (prerequisites; several already discharged)
 
 | item | status |
 |---|---|
 | B792 seal + certified re-run + scope wording (critic G2) | **DONE** (87d7f270; seal c6954bfa) |
-| r = 8.8634 sector call (G3) | **DONE** — eigenspace projection test; no parent direction; cc's prediction refuted; consistent with the GH ladder placing parent k=2 at ≈ 11.01, not the Weyl slot 8.88 |
+| r = 8.8634 sector call (G3) | **DONE** — eigenspace projection test; no parent direction; cc's prediction refuted (E4 instance, banked cec8b099). The absence of a second parent eigenvalue below r = 9.84 is UNEXPLAINED and needs no explanation: V₁ budget on [3.9, 9.84] expects 2.55, found 1, z = −0.97, ordinary. (A GH-ladder story was briefly attached here and is WITHDRAWN per cc: the GH table is per-symmetry-type, entries are not consecutive in the full spectrum, and 122.19 is uncorroborated secondary data) |
 | Mode-count certification (G2c) | **DONE** — max |Δr| = 5.4e−9 |
 | B773 re-baseline of the negatives inventory (G8) | **DONE** (2026-07-29): W4-304's trace-level wall is REFUTED (θ-odd chord sector carries tr_odd = 1/4; par_trace read cancellation as absence — B773 FINDINGS). NO B796 constraint may cite W4-304; the chord sector is structure-bearing, not empty |
 | LAW_MAP: design against origin/main copy (G9) | ADOPTED — origin/main fetched; cell preregs cite origin/main rows (θ-triviality lemma, CM-collapse) |
 | "2/25" proposal record recompute (G10) | **DONE**: record is in-repo at frontier/B784_trace_map_intertwining/FINDINGS.md:287 ("Cumulative: 2 for 25, B783: 1/5, B784: 1/5") — the critic grepped docs/ only. Sourced; base-rate prior citable |
-| ι adjudication: rank 3 vs 4 observer menu (G1) | OPEN (B787 item 2) — until run, every cell is scoped to the rank-3 menu with rank-4 explicitly deferred |
+| ι adjudication: rank 3 vs 4 observer menu (G1) | RULED by cc (2026-07-29): keep the rank-3 scoping; do NOT adjudicate before Wave 2 (ι's measurement status is interpretive and unresolved; importing rank-4 would be invisible and load-bearing in every cell). Rank-4 explicitly deferred |
 | Gate-5-SM owner authorization (G21) | SCHEDULED — blocks Cell 8 Stage B only |
 
 ## SECOND-ROUND HARVEST (commissioned 2026-07-29, 3 agents)
 
-- **H2-1 (G15, the big hole):** CM Bost–Connes systems for imaginary
+- **HR2-1 (G15, the big hole):** CM Bost–Connes systems for imaginary
   quadratic fields (Connes–Marcolli–Ramachandran), KMS states, class
   field theory as symmetry breaking — the only named observer-side
   dynamics route (B721/B723).
-- **H2-2 (G14):** Born-CONTENT routes — POVM-Gleason on type III
+- **HR2-2 (G14):** Born-CONTENT routes — POVM-Gleason on type III
   (Busch), Zurek envariance.
-- **H2-3 (G13):** adversarial novelty re-search on the two one-pass
+- **HR2-3 (G13):** adversarial novelty re-search on the two one-pass
   negatives ("no spectral action on cusped hyperbolic 3-manifolds",
   "no E6 T[M3]"); Müller relative-trace school, Park, 2025–26.
 
 ## WAVE 1 — CHEAP TWO-OUTCOME FORKS (days; run after cc gate)
 
 **Cell 1 — GH LADDER.** Extend the scan to r = 13.5. Pre-stated:
-parent (S-invariant) eigenvalues appear at r ≈ 11.0086, 12.5016,
-13.2960 (GH-tolerance) and NOWHERE in (7.3, 11.0); parity census
+SOME parent (S-invariant) eigenvalues appear near r ≈ 11.0086,
+12.5016, 13.2960 (GH-tolerance; transcription-grade, 122.19
+uncorroborated). NO completeness claim between rungs — the GH table
+is per-symmetry-type, so entries are consecutive within a type only;
+completeness statements come solely from the Weyl budget. The
+(7.3, 10) parent-free result stands as data (projection test); the
+(10, 13.5) window is open, not predicted. Parity census
 (z → −z̄ and the semidirect-2 generator) starting at 51.0132434,
 producing the GH/Then/DHY parity dictionary (G4). Falsifier: absent
 rungs or extra old forms indict solver or GH completeness — either is
@@ -117,6 +160,23 @@ negative. Stage B (ONLY with owner-sealed Gate-5-SM design): 1–2-loop
 Λ_i/Λ_j ratios under one unification boundary condition vs SM ratios
 under the B743 harness, selection entropy declared in bits;
 bits(selection) ≥ bits(match) voids the cell.
+
+## THE KEYSTONE — CELL 9 (the campaign falsifier's instrument)
+
+**Cell 9 — DEEP-PRECISION EIGENVALUES + ALGEBRAICITY.** Build the
+mp-arithmetic Hejhal solve (symmetrized modes to cut the system size;
+50+ digit K-Bessel via mpmath; Newton refinement on the reduced
+square system from the double-precision eigenvectors). Target: λ₁–λ₆
+of m004 and the parent ground state at ≥ 50 digits. Then the sealed
+algebraicity test: PSLQ against a pre-named basis list and digit
+budget (per B743, sealed BEFORE the solve completes). This is the
+instrument of the CAMPAIGN FALSIFIER: a negative with the sealed
+power favors H2 over H0; a positive would be extraordinary
+(literature prior against) and goes to cc for adversarial
+re-derivation before anything else. Engineering risk is real
+(high-precision linear algebra at ~10²–10³ dims); if the precision
+proves unreachable, the fallback discipline (exploratory-interpretive
+relabel) triggers — that outcome is itself recorded, not hidden.
 
 ## DEPENDENCY SPINE (sealed with the preregs)
 

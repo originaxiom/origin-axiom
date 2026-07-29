@@ -140,9 +140,13 @@ Controls: every below-ground-state eigenspace parent-free (required by
 the ground-state argument) ✓; 7.072 reads parent ✓.
 **cc's pre-stated prediction "r = 8.8634 is the parent's k=2 (V₁)" is
 REFUTED** — its Weyl-position argument (W·r³ = 1.989, 0.18% from slot
-2) loses to the direct invariance test; the V₁ budget deficit in
-[7.3, 10] (expected 1.75, observed 0, z = −1.32) stands as a
-fluctuation, and the parent's k=2 eigenvalue lies above r = 10.
+2) loses to the direct invariance test (E4 instance, banked cec8b099).
+The absence of a second parent eigenvalue below r = 9.84 is an
+ordinary fluctuation (V₁ budget on [3.9, 9.84] expects 2.55, found 1,
+z = −0.97) and is otherwise UNEXPLAINED — a GH-ladder explanation
+briefly attached here is WITHDRAWN per cc's gate: the GH table is
+per-symmetry-type (entries not consecutive in the full spectrum) and
+122.19 is uncorroborated secondary data.
 No exceptional λ < 1 anywhere in (0.8, 10).
 
 ## WEYL COMPLETENESS (scattering-corrected, exact φ)
