@@ -16546,6 +16546,43 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B799": {
+   "slug": "uncomputed doors",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B140",
+    "B332",
+    "B408",
+    "B412",
+    "B426",
+    "B433",
+    "B435",
+    "B437",
+    "B579",
+    "B662",
+    "B668",
+    "B682",
+    "B685",
+    "B720",
+    "B731",
+    "B734",
+    "B738",
+    "S019"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B79": {
    "slug": "mn table",
    "motifs": [

@@ -8311,3 +8311,28 @@ more but to distrust partial runs as evidence of a clean tree: a killed suite is
 it is a different and much weaker check. Fixed by naming that seat the review seat throughout,
 which is distinct from the audit seat already used for cc3 and carries the same meaning. Nothing
 to CLAIMS.
+
+B799 resolves the twelve uncomputed doors, the first wave of the compaction programme, resequenced
+to run first because a known violation of the programme's own standing rule should not wait behind
+infrastructure work. The prereg was sealed and committed before any computation and allowed exactly
+four outcomes, with no disposition available for a door that merely reads well. Two doors were
+computed here in exact arithmetic. The founding letters' element g is elliptic of order three, with
+characteristic polynomial x squared plus x plus one, while the bundle's monodromy is hyperbolic with
+det of A minus I equal to minus one, and a finite-order elliptic element cannot be the monodromy of
+a hyperbolic mapping torus, so g is not the generation-cycling deck element. The E6 centre was
+computed from the Cartan matrix rather than cited: determinant three, Smith form ending in three, so
+the centre is cyclic of order three and the 27's highest weight has order exactly three, meaning the
+centre acts by a primitive cube root of unity, a scalar with one eigenvalue across the whole 27,
+which splits nothing. Five doors were dispositioned as cited to another arc of this repository, and
+the prereg made that the criterion that could fail: every cited lock was executed in this run rather
+than trusted, and all five passed. Five doors were downgraded honestly, and the reasons differ in
+kind. One cites a standard published theorem, which is legitimate mathematics but still not an
+in-sandbox computation. One is a proxy resting on the seat's own failed derivations, which prove
+nothing about underivability. One re-read an integrality fact from its source using the same kind of
+read that produced the misreading that arc exists to correct. One rests on classification facts
+about other people's frameworks and is permanently uncomputable here. One was never well posed at
+all and is better labelled ill-posed than uncomputed. The prereg's declared warning sign did not
+fire: had every door landed computed or cited, the compiler's flag would have carried no
+information, and five surviving downgrades show that it does. One door turned out to be stale rather
+than uncomputed, its kill already retracted elsewhere while its revival score still stood at the
+corpus maximum. Nothing to CLAIMS.

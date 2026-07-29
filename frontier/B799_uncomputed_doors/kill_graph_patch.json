@@ -1,0 +1,98 @@
+[
+ {
+  "id": "B140",
+  "disposition": "HONEST-DOWNGRADE",
+  "discriminating_fact": "genus-general orientation-reversal (mirror: same volume, opposite CS, conjugate trace field)",
+  "resolution": "The discriminating fact for the GENUS-GENERAL leg is a standard published theorem, correctly cited, and instance-verified only (tests/test_b140_compute_reconciliation.py::test_genus_general_mirror_snappy checks instances, not the theorem). Citing standard mathematics is legitimate; it is still not an in-sandbox computation, so the compiler's flag is ACCURATE and stays. NOTE: the door's OTHER leg -- the retraction of the never-banked '~35 non-principal phi-fixed points carry Q(sqrt-3)' -- IS computed and locked (test_phi_fixed_unique_irreducible_is_rational: the content is Q, tighter than Q(sqrt-3)).",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B332",
+  "disposition": "COMPUTED",
+  "discriminating_fact": "g = -R*L^-1 is elliptic of order 3; the deck element is hyperbolic with det(A-I) = -1",
+  "resolution": "Computed here in exact arithmetic. g = [[0,-1],[1,-1]], trace -1, det 1, charpoly x^2+x+1, order 3, eigenvalues the primitive cube roots -- ELLIPTIC. The bundle's monodromy A = [[1,1],[1,0]] has trace 1, det -1, det(A-I) = -1 (the prereg's named fact), eigenvalues phi and 1-phi (real, |phi|>1) -- HYPERBOLIC. A finite-order elliptic element cannot be the monodromy of a hyperbolic mapping torus, so g is NOT the generation-cycling deck element. Closure STANDS.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B412",
+  "disposition": "IN-REPO-CITED",
+  "discriminating_fact": "all channels contract (the hierarchy kill)",
+  "resolution": "Cited to B408. Lock tests/test_b408_seam_hierarchy.py executed in this run: 3 passed.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B433",
+  "disposition": "IN-REPO-CITED",
+  "discriminating_fact": "scale enters only via external embedding (the scale wall)",
+  "resolution": "Cited to B426. Lock tests/test_b426_scale_lever.py executed in this run: 5 passed. (The E6-assembly leg remains the priced L50 specialist gate and is untouched here.)",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B435",
+  "disposition": "IN-REPO-CITED",
+  "discriminating_fact": "H1 = Z/p for EVERY knot at slope p (the trefoil control)",
+  "resolution": "Cited to B437. Lock tests/test_b437_abelian_book.py executed in this run: 3 passed.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B579",
+  "disposition": "HONEST-DOWNGRADE",
+  "discriminating_fact": "that no framework derivation yields the values package",
+  "resolution": "The kill is a PROXY: it rests on the seat's own five failed derivations. A failed derivation is not a proof of underivability, and no in-sandbox computation discriminates the general claim. What IS computed and locked (tests/test_b579_handoff.py): the T(F) char-poly correction x^4-2x^3-5x^2-4x-1 and the theta-odd sequence {1,3,8,17}. The values-scan kill itself stays UNCOMPUTED and is relabelled so.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B668",
+  "disposition": "IN-REPO-CITED",
+  "discriminating_fact": "the Z-ladder is exactly periodic (P = 175560), so it has zero asymptotic 1/k content",
+  "resolution": "Cited to B662. Lock tests/test_b662_wave1.py executed in this run: 5 passed.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B685",
+  "disposition": "HONEST-DOWNGRADE",
+  "discriminating_fact": "GSWZ integrality: coefficients integral away from 3, (q-1)^100 denominator = 3^146",
+  "resolution": "RE-READ FROM THE SOURCE, not recomputed in-sandbox -- and the arc itself flags that this is the same kind of read which produced the B682 misreading this arc corrects. An in-sandbox Habiro-ring recomputation was NOT attempted here; it is tractable in principle and is therefore NOT marked NEEDS-SPECIALIST (prereg forbids that label before the route is exhausted). Registered as the highest-value remaining recompute in this batch.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B720",
+  "disposition": "HONEST-DOWNGRADE",
+  "discriminating_fact": "three NO-MATCH classifications (mixed-Tate over Z[i]; 3d gravity has no local DOF; ABHY finite-type)",
+  "resolution": "These are classification facts about OTHER frameworks. They were independently re-verified by direct source fetch, but they are not in-sandbox computable even in principle -- there is no object-side computation that discriminates them. The flag is accurate and permanent; the honest label is cited-external, not computed.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "B731",
+  "disposition": "IN-REPO-CITED",
+  "discriminating_fact": "the congruence index jumps to 12 at level (8), so m004 IS congruence",
+  "resolution": "Cited to B734. Lock tests/test_b734_m004_congruence.py executed in this run: 2 passed. ADDITIONALLY: this record is STALE, not merely uncomputed -- the kill was already RETRACTED by B734 under error class E22, and its revival_score of 10 (the corpus maximum) is obsolete bookkeeping for a door that has already reopened. Flagged for correction in the source record.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "W7-rebase",
+  "disposition": "COMPUTED",
+  "discriminating_fact": "the E6 centre acts on the 27 as the scalar omega, so it splits nothing",
+  "resolution": "Computed here from the Cartan matrix rather than cited. det Cartan(E6) = 3 and Smith normal form [1,1,1,1,1,3], so P/Q = Z(E6) = Z/3 cyclic; the 27's highest-weight class has order exactly 3, so the centre acts by a primitive cube root of unity. A scalar has a single eigenvalue on the whole 27 (multiplicity 27, verified), hence NO invariant splitting -- the naive Z/3 triality cannot produce a 3+2 generation split. Closure STANDS.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ },
+ {
+  "id": "S019 - Fisher metric on CS level k",
+  "disposition": "HONEST-DOWNGRADE",
+  "discriminating_fact": "none -- the claim was never well-posed",
+  "resolution": "No discriminating fact was ever computed because none was ever formulated: the claim has no bounded test. Any future work here is a FIRST FORMULATION, not a recomputation. Relabelled as ill-posed rather than uncomputed, which is the more accurate description.",
+  "arc": "B799",
+  "prereg": "3243c1c219ea7ca0"
+ }
+]
