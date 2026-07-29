@@ -2522,8 +2522,11 @@ cited by path.)
 - [x] R33-2: `WORKING_RULES.md` gains the *instruments* section (atlas, failure atlas, views,
   chain, law map with its measured caveat, error ledger).
 - [x] R33-3: generated front door linked from `README.md`; reachability re-verified.
-- [ ] R33-4: **LAW_MAP is 4 % locked and ungated.** Decide deliberately: either lock the load-bearing
-  rows and gate them, or mark the ledger explicitly as *unenforced index* so no seat mistakes a row
-  for a checked fact. **Do not leave it ambiguous** — that ambiguity is what this review found.
+- [x] R33-4 DECIDED: **LAW_MAP is an UNENFORCED INDEX with traceable provenance**, and says so in
+  its own header. Locking all 113 rows was rejected as an unfunded mandate (108 to author); but
+  **96 % already cite an arc**, so provenance is traceable even unlocked. New `law-map-provenance`
+  gate enforces the two cheap invariants that do catch drift: every row cites its arc (4 rows fixed),
+  and any cited lock resolves. A reader is told, in the file, that an unlocked row is a *claim about
+  the bank*, not a checked fact — and pointed at THE CHAIN and CLAIMS, which ARE gate-enforced.
 - [ ] R33-5 (carried from R32-15): 701 arcs need authored verdicts; ~111 negatives unregistered;
   B685's normalisation un-pinned; B731's stale `revival_score: 10`.

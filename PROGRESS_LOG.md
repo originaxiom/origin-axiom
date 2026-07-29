@@ -8462,3 +8462,15 @@ so discoverability and enforcement now guard each other. Four gates that read gi
 soft-skip outside a git checkout, and that is recorded as an honest limitation rather than patched
 with a fabricated failure, since a zip download genuinely cannot verify git facts. Nothing to
 CLAIMS.
+
+Review 33's open decision is closed. The law map held a hundred and thirteen rows of which five
+cited a test lock, four per cent, and no gate touched the file at all, so a reader could take an
+unlocked row for a checked fact. Locking all of them was rejected as an unfunded mandate, a hundred
+and eight rows to author, and that rejection is recorded rather than quietly deferred. What the
+measurement showed instead is that ninety-six per cent of rows already cite the arc behind them, so
+provenance is traceable even where proof is not locked. The decided posture is therefore an
+unenforced index with traceable provenance, declared in the file's own header so no seat has to
+infer it, with the reader pointed at the chain and the claim ledger, both of which are genuinely
+gate-enforced. Two cheap invariants are now gated: every row cites its arc, which required fixing
+four rows, and any row that does cite a lock has one that resolves, which all of them did. The gate
+was mutation-tested by removing a citation and watching it fire. Nothing to CLAIMS.

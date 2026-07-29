@@ -556,6 +556,37 @@ def gate_chain_locks():
     return True, f"ok ({len(links)} links, every non-AXIOM one locked)"
 
 
+LAW_MAP = "docs/LAW_MAP.md"
+
+
+def gate_law_map_provenance():
+    """LAW_MAP rows must be traceable, and any lock they cite must resolve.
+
+    Review 33 (R33-4) measured LAW_MAP at 113 rows with 5 test locks (4 %) and NO gate touching
+    it, then rejected "lock all 113" as an unfunded mandate (108 rows to author). The decided
+    posture is UNENFORCED INDEX WITH TRACEABLE PROVENANCE, and these are the two cheap
+    invariants that make that posture honest rather than an excuse."""
+    if not os.path.isfile(os.path.join(ROOT, LAW_MAP)):
+        return False, "docs/LAW_MAP.md missing -- the law index is constitutive"
+    text = _read(LAW_MAP)
+    rows = [l for l in text.splitlines()
+            if l.startswith("|") and l.count("|") >= 4 and "---" not in l
+            and not re.match(r"^\|\s*(law|name)", l, re.I)]
+    noarc = [r for r in rows if not re.search(r"\bB\d{2,3}\b", r)]
+    broken = [m for r in rows for m in re.findall(r"tests/(test_[a-z0-9_]+\.py)", r)
+              if not os.path.isfile(os.path.join(ROOT, "tests", m))]
+    problems = []
+    if noarc:
+        problems.append(f"{len(noarc)} row(s) cite no arc: " +
+                        "; ".join(r.split("|")[1].strip()[:40] for r in noarc[:3]))
+    if broken:
+        problems.append("cited locks absent: " + ", ".join(broken[:3]))
+    if problems:
+        return False, "LAW_MAP provenance -- " + "; ".join(problems)
+    locked = sum(1 for r in rows if re.search(r"tests/test_[a-z0-9_]+\.py", r))
+    return True, f"ok ({len(rows)} rows all traceable; {locked} locked -- index, not ledger)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -574,6 +605,7 @@ GATES = {
     "practices-register": gate_practices_register,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
+    "law-map-provenance": gate_law_map_provenance,
 }
 
 

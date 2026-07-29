@@ -1,5 +1,13 @@
 # Changelog
 
+## R33-4 decided: LAW_MAP is an unenforced index, and now says so
+- **Measured**: 113 rows, **5 cite a test lock (4 %)**, and **no gate referenced the file at all** — a reader could take an unlocked row for a checked fact.
+- **"Lock all 113" REJECTED as an unfunded mandate** (108 rows to author) — and the rejection is recorded, not quietly deferred.
+- **But 96 % already cite their arc**, so provenance is traceable even where proof is not locked. Decided posture: **UNENFORCED INDEX WITH TRACEABLE PROVENANCE**, declared in the file's own header so no seat has to infer it, with the reader pointed at THE CHAIN and `CLAIMS.md`, which *are* gate-enforced.
+- New **`law-map-provenance`** gate enforces the two cheap invariants that catch drift: every row cites its arc (4 rows fixed), and any cited lock resolves. Mutation-verified by deleting a citation.
+- 18/18 gates green. Nothing to `CLAIMS.md`.
+
+
 ## Restart resistance: tested in a fresh clone, and it was broken two ways
 - **Owner's question**: is the mechanism reset/restart-resistant?
 - **Tested, not reasoned about.** A clean `git clone` runs **all 16 gates, exit 0, no setup** — that part held.
