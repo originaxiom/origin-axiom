@@ -1,0 +1,65 @@
+[scanE] Y = 0.75
+[scanE] modes: 862 (|mu| <= 8.956), sample pts: 1178
+[scanE] pullbacks: 1178 kept (dropped 0), t* range [0.852, 1.333], 1.8s
+[scanE] distinct norms: 171, Bessel nodes: 43, xmin = 1.360
+[scanE] scanning 1751 r values + 19 small-eig nu values
+[scanE] 60/1770  elapsed 55s  eta 1568s
+[scanE] 120/1770  elapsed 109s  eta 1493s
+[scanE] 180/1770  elapsed 162s  eta 1433s
+[scanE] 240/1770  elapsed 213s  eta 1355s
+[scanE] 300/1770  elapsed 265s  eta 1297s
+[scanE] 360/1770  elapsed 318s  eta 1245s
+[scanE] 420/1770  elapsed 362s  eta 1164s
+[scanE] 480/1770  elapsed 405s  eta 1089s
+[scanE] 540/1770  elapsed 453s  eta 1032s
+[scanE] 600/1770  elapsed 498s  eta 972s
+[scanE] 660/1770  elapsed 543s  eta 913s
+[scanE] 720/1770  elapsed 588s  eta 858s
+[scanE] 780/1770  elapsed 633s  eta 804s
+[scanE] 840/1770  elapsed 678s  eta 750s
+[scanE] 900/1770  elapsed 723s  eta 699s
+[scanE] 960/1770  elapsed 769s  eta 649s
+[scanE] 1020/1770  elapsed 814s  eta 599s
+[scanE] 1080/1770  elapsed 857s  eta 547s
+[scanE] 1140/1770  elapsed 899s  eta 497s
+[scanE] 1200/1770  elapsed 941s  eta 447s
+[scanE] 1260/1770  elapsed 983s  eta 398s
+[scanE] 1320/1770  elapsed 1024s  eta 349s
+[scanE] 1380/1770  elapsed 1065s  eta 301s
+[scanE] 1440/1770  elapsed 1108s  eta 254s
+[scanE] 1500/1770  elapsed 1152s  eta 207s
+[scanE] 1560/1770  elapsed 1195s  eta 161s
+[scanE] 1620/1770  elapsed 1242s  eta 115s
+[scanE] 1680/1770  elapsed 1290s  eta 69s
+[scanE] 1740/1770  elapsed 1336s  eta 23s
+[scanE] 1770/1770  elapsed 1359s  eta 0s
+[scanE] median sigma_min = 1.504e-02; 27 dips:
+    r = 10.1400  sigma_min = 9.368e-05  (2nd: 1.416e-04)
+    r = 10.1500  sigma_min = 2.870e-04  (2nd: 2.880e-04)
+    r = 10.3380  sigma_min = 1.159e-04  (2nd: 1.278e-04)
+    r = 10.8160  sigma_min = 5.554e-04  (2nd: 2.454e-02)
+    r = 10.9960  sigma_min = 8.599e-05  (2nd: 8.800e-05)
+    r = 11.0080  sigma_min = 1.442e-04  (2nd: 1.804e-03)
+    r = 11.0540  sigma_min = 3.077e-05  (2nd: 3.240e-05)
+    r = 11.0980  sigma_min = 1.297e-04  (2nd: 1.969e-04)
+    r = 11.2420  sigma_min = 2.521e-04  (2nd: 3.484e-04)
+    r = 11.5400  sigma_min = 1.291e-04  (2nd: 1.319e-04)
+    r = 11.6300  sigma_min = 2.977e-05  (2nd: 4.091e-03)
+    r = 11.6400  sigma_min = 7.168e-05  (2nd: 7.335e-05)
+    r = 11.6600  sigma_min = 2.167e-04  (2nd: 2.356e-04)
+    r = 11.7580  sigma_min = 4.662e-04  (2nd: 2.775e-02)
+    r = 12.2380  sigma_min = 1.061e-04  (2nd: 5.527e-04)
+    r = 12.2900  sigma_min = 2.779e-04  (2nd: 2.842e-04)
+    r = 12.4220  sigma_min = 2.099e-04  (2nd: 2.202e-04)
+    r = 12.5000  sigma_min = 8.194e-05  (2nd: 4.079e-02)
+    r = 12.7100  sigma_min = 6.460e-03  (2nd: 1.456e-02)
+    r = 12.7300  sigma_min = 1.174e-03  (2nd: 1.212e-03)
+    r = 12.7400  sigma_min = 3.426e-04  (2nd: 3.770e-04)
+    r = 12.8320  sigma_min = 8.307e-05  (2nd: 4.530e-04)
+    r = 12.8500  sigma_min = 1.185e-04  (2nd: 3.318e-04)
+    r = 13.2420  sigma_min = 2.476e-05  (2nd: 1.012e-03)
+    r = 13.2940  sigma_min = 1.316e-03  (2nd: 1.362e-02)
+    r = 13.3740  sigma_min = 2.724e-04  (2nd: 2.731e-04)
+    r = 13.4300  sigma_min = 2.046e-04  (2nd: 2.092e-04)
+[scanE] small-eigenvalue (lam<1) candidates: NONE
+[scanE] saved. total 1359s

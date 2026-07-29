@@ -102,20 +102,39 @@ predicted positions. Priority refinements (GH-first):
       S-dev = 5.7e−10 → **OLD (PARENT), STABLE — CONFIRMED**
     GH rung #3 (pred. 13.2960): r = 13.29316271, λ = 177.708175,
       S-dev = 8.9e−9 → **OLD (PARENT), STABLE — CONFIRMED**
-    GH rung #1 (pred. 11.0086): UNRESOLVED — the 11.008 dip sits in
-      a cluster (double at 10.9960 adjacent); the ±6e−3 golden
-      bracket straddled neighbors (|dr| = 4e−3, σ ~ 1e−4, wandered
-      to 11.002). Full refinement separates the cluster.
+    GH rung #1 (pred. 11.0086): **CONFIRMED after cluster
+      resolution** — r = 11.008113359, λ = 122.178560, stable to
+      1.8e−15, S-dev = 8.0e−10 → OLD (PARENT), mult 1. The wide
+      bracket had fallen into the adjacent mult-2 newform at
+      10.99654819 (λ = 121.924, Δr = 0.0116); fine scanF (dr = 5e−4)
+      re-found the genuine simple dip and the tight bracket decided
+      it. GH's 122.19 vs computed 122.1786: the same last-digit
+      pattern as 51.014 vs 51.0132.
 
-Consequence: **two of the three GH transcription values
-(12.5016, 13.2960) are now computationally retro-corroborated as
-parent eigenvalues** — the same pattern as 51.014 (targeted
-confirmation; the solver was never tuned to them; the falsifier did
-not fire against GH on these rungs). 122.19 (rung #1) remains
-uncorroborated pending the cluster resolution. Full 27-dip
-refinement + parity census in flight; the parity census additionally
-requires the J-normalization check (does z ↦ −z̄ normalize Γ₄₁) —
-part of the cell, not assumed.
+**CELL 1 VERDICT: ALL THREE pre-stated GH rungs CONFIRMED as parent
+(S-invariant) eigenvalues** — 122.178560 (r = 11.00811336),
+157.252504 (r = 12.50010017), 177.708175 (r = 13.29316271). The
+sealed falsifier did NOT fire; the GH transcription — including the
+previously uncorroborated 122.19 — is computationally
+retro-corroborated (targeted confirmation; the solver was never
+tuned to any of them; deviations |Δλ| = 0.011–0.076 are
+1996-FEM-scale, growing with r as expected).
+
+Full window results: 26 stable distinct eigenvalues in (10, 13.5),
+45 with multiplicity, of which THREE parent; the 12.71 shoulder was
+spurious (gone at dr = 5e−4). No exceptional eigenvalues. V₁ budget
+in-window: expected 4.17, found 3, z = −0.57, PASS. Combined
+certified spectrum r < 13.5: **43 distinct, 72 with multiplicity,
+4 parent forms (7.072004, 11.008113, 12.500100, 13.293163)**.
+Remaining Cell-1 piece: the parity census (requires the
+J-normalization check first — does z ↦ −z̄ normalize Γ₄₁; part of
+the cell, not assumed) — in progress, not blocking the verdict.
+
+Instrument lesson banked (E31-adjacent, self-caught): a golden
+bracket wider than the local eigenvalue spacing FALLS INTO the
+deeper adjacent well — refinement brackets must be narrower than
+the observed minimum spacing at that r (here 0.0116); the fine
+rescan protocol (dr = 5e−4) is the standing remedy.
 
 ## CELL 9 LADDER — rung (i) status
 

@@ -1,0 +1,26 @@
+[scanF] Y = 0.75
+[scanF] modes: 728 (|mu| <= 8.136), sample pts: 986
+[scanF] pullbacks: 986 kept (dropped 0), t* range [0.852, 1.333], 1.4s
+[scanF] distinct norms: 145, Bessel nodes: 39, xmin = 1.360
+[scanF] scanning 121 r values + 19 small-eig nu values
+[scanF] 60/140  elapsed 27s  eta 36s
+[scanF] 120/140  elapsed 53s  eta 9s
+[scanF] 140/140  elapsed 64s  eta 0s
+[scanF] median sigma_min = 1.980e-03; 2 dips:
+    r = 10.9965  sigma_min = 6.297e-06  (2nd: 7.105e-06)
+    r = 11.0080  sigma_min = 1.427e-04  (2nd: 1.514e-03)
+[scanF] small-eigenvalue (lam<1) candidates: NONE
+[scanF] saved. total 64s
+[scanG] Y = 0.75
+[scanG] modes: 816 (|mu| <= 8.710), sample pts: 1116
+[scanG] pullbacks: 1116 kept (dropped 0), t* range [0.852, 1.332], 1.6s
+[scanG] distinct norms: 163, Bessel nodes: 42, xmin = 1.360
+[scanG] scanning 141 r values + 19 small-eig nu values
+[scanG] 60/160  elapsed 43s  eta 72s
+[scanG] 120/160  elapsed 83s  eta 28s
+[scanG] 160/160  elapsed 111s  eta 0s
+[scanG] median sigma_min = 5.666e-03; 2 dips:
+    r = 12.7310  sigma_min = 6.177e-05  (2nd: 6.310e-05)
+    r = 12.7405  sigma_min = 1.243e-04  (2nd: 1.257e-04)
+[scanG] small-eigenvalue (lam<1) candidates: NONE
+[scanG] saved. total 111s
