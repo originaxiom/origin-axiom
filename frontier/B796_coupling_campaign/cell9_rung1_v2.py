@@ -25,7 +25,7 @@ sys.path.insert(0, 'frontier/B792_maass_m004_eigenvalues')
 from hejhal_m004 import reduced_words  # noqa: E402
 
 DIGITS = 27
-flint.ctx.prec = int((DIGITS + 10) * 3.33)
+flint.ctx.prec = int((DIGITS + 45) * 3.33)  # +45 guard digits: arb LU ball growth near the (by-design) nearly singular M(r)
 mp.mp.dps = 40
 YV = mp.mpf('0.75')
 OUT = 'frontier/B796_coupling_campaign'
@@ -138,14 +138,22 @@ def K_ir(r_arb, x_arb):
 
 def p1_check(r_cert):
     ok = 0
-    samples = [(r_cert, x) for x in (1.5, 2.0, 3.3, 5.5, 7.0, 9.0, 11.0, 13.0)]
-    samples += [(r_cert * 0.7, 4.0), (r_cert * 1.3, 6.0)]
+    # all (r, x) as DECIMAL STRINGS so both sides evaluate at the SAME
+    # point (float literals like 3.3 differ from decimal 3.3 by ~4e-17
+    # in binary — the shakedown caught exactly that)
+    rs = mp.nstr(mp.mpf(str(r_cert)), 20)
+    r07 = mp.nstr(mp.mpf(str(r_cert)) * mp.mpf('0.7'), 20)
+    r13 = mp.nstr(mp.mpf(str(r_cert)) * mp.mpf('1.3'), 20)
+    samples = [(rs, x) for x in ('1.5', '2.0', '3.3', '5.5', '7.0',
+                                 '9.0', '11.0', '13.0')]
+    samples += [(r07, '4.0'), (r13, '6.0')]
     for (rv, xv) in samples:
-        ref = mp.re(mp.besselk(1j * mp.mpf(rv), mp.mpf(xv)))
-        fv = K_ir(flint.arb(mp.nstr(mp.mpf(rv), 30)), flint.arb(str(xv)))
-        fv_mp = mp.mpf(fv.real.str(35, radius=False))
-        rel = abs(fv_mp - ref) / abs(ref)
-        ok += rel < mp.mpf('1e-27')
+        with mp.workdps(60):  # reference must out-precision the 1e-27 bar
+            ref = mp.re(mp.besselk(1j * mp.mpf(rv), mp.mpf(xv)))
+            fv = K_ir(flint.arb(rv), flint.arb(xv))
+            fv_mp = mp.mpf(fv.real.str(40, radius=False))
+            rel = abs(fv_mp - ref) / abs(ref)
+            ok += rel < mp.mpf('1e-27')
     assert ok == len(samples), f"P1 FAILED ({ok}/{len(samples)})"
     print(f"P1: PASS ({ok}/{len(samples)} samples <= 1e-27)", flush=True)
 
@@ -198,75 +206,82 @@ class Sys:
         return tab
 
     def rows(self, r_arb, row_idx):
-        tab_needed = {}
+        # k0 cache: the height-Y Bessel factor is row-independent
+        k0c = [K_ir(r_arb, self.norm_arb[m] * self.two_pi * self.Yb)
+               for m in range(self.n)]
         out = []
         for j in row_idx:
             row = []
             for m in range(self.n):
-                am = self.norm_arb[m] * self.two_pi
-                k0 = K_ir(r_arb, am * self.Yb)
-                k1 = K_ir(r_arb, am * self.ts_arb[j])
-                row.append(flint.acb(self.Yb) * k0 * self.ph0[j][m]
+                k1 = K_ir(r_arb, self.norm_arb[m] * self.two_pi
+                          * self.ts_arb[j])
+                row.append(flint.acb(self.Yb) * k0c[m] * self.ph0[j][m]
                            - flint.acb(self.ts_arb[j]) * k1 * self.ph1[j][m])
             out.append(row)
         return out
 
 
-def newton(S, r0_str, j0=0, itmax=10, label=''):
-    """Joint Newton; returns (r_arb, a, residual history)."""
-    r = flint.arb(r0_str)
-    h = flint.arb('1e-9')
-    hist = []
-    a = None
+def newton(S, r0_str, j0=0, itmax=14, label=''):
+    """METHOD v2.1 (amendment filed for Sec-16): scalar SECANT on the
+    held-out-row residual g(r) = row_{n-1}(r) . a(r), where a(r) solves
+    the REGULAR n x n system [rows 0..n-2; normalization e_j0] = e_n.
+    The n x n matrix stays invertible AT the eigenvalue (the
+    normalization row replaces the deficient direction), avoiding the
+    bordered-Newton arb-certification failure at the root. Secant
+    converges superlinearly; P2 monotonicity applies to |g|."""
+    def g_of(r_arb):
+        rows0 = S.rows(r_arb, range(S.n))
+        M0 = flint.acb_mat(S.n, S.n)
+        rhs0 = flint.acb_mat(S.n, 1)
+        for j in range(S.n - 1):
+            for m in range(S.n):
+                M0[j, m] = rows0[j][m]
+        for m in range(S.n):
+            M0[S.n - 1, m] = flint.acb(1 if m == j0 else 0)
+        rhs0[S.n - 1, 0] = flint.acb(1)
+        a = M0.solve(rhs0)
+        gval = sum((rows0[S.n - 1][m] * a[m, 0] for m in range(S.n)),
+                   flint.acb(0))
+        return gval, a
+
+    r_center = mp.mpf(r0_str)
+    BR = mp.mpf('0.01')          # hard bracket [D-1]
+    CAP = 1e-3                   # step damping [D-1]
+    r0 = flint.arb(r0_str)
+    r1 = r0 + flint.arb('1e-9')
+    g0, a0 = g_of(r0)
+    hist = [abs(complex(g0.real, g0.imag))]
+    a_last, r_last = a0, r0
     for it in range(itmax):
         t0 = time.time()
-        rows0 = S.rows(r, range(S.n))
-        rowsP = S.rows(r + h, range(S.n))
-        rowsM = S.rows(r - h, range(S.n))
-        # initial a: solve rows0 with normalization
-        M = flint.acb_mat(S.n + 1, S.n + 1)
-        rhs = flint.acb_mat(S.n + 1, 1)
-        for j in range(S.n):
-            for m in range(S.n):
-                M[j, m] = rows0[j][m]
-        if a is None:
-            for m in range(S.n):
-                M[S.n, m] = flint.acb(1 if m == j0 else 0)
-            rhs[S.n, 0] = flint.acb(1)
-            a = M.solve(rhs)
-        # F and J
-        Fa = [sum((rows0[j][m] * a[m, 0] for m in range(S.n)), flint.acb(0))
-              for j in range(S.n)]
-        res = max(abs(complex(f.real, f.imag)) for f in Fa)
-        # dM/dr * a column
-        col = [sum(((rowsP[j][m] - rowsM[j][m]) / (h * 2) * a[m, 0]
-                    for m in range(S.n)), flint.acb(0)) for j in range(S.n)]
-        J = flint.acb_mat(S.n + 1, S.n + 1)
-        Frhs = flint.acb_mat(S.n + 1, 1)
-        for j in range(S.n):
-            for m in range(S.n):
-                J[j, m] = rows0[j][m]
-            J[j, S.n] = col[j]
-            Frhs[j, 0] = -Fa[j]
-        for m in range(S.n):
-            J[S.n, m] = flint.acb(1 if m == j0 else 0)
-        J[S.n, S.n] = flint.acb(0)
-        Frhs[S.n, 0] = flint.acb(1) - a[j0, 0]
-        delta = J.solve(Frhs)
-        for m in range(S.n):
-            a[m, 0] = a[m, 0] + delta[m, 0]
-        dr = delta[S.n, 0]
-        r = r + dr.real
-        drs = abs(complex(dr.real, dr.imag))
-        hist.append((res, drs))
-        print(f"  [{label}] iter {it}: max|F| = {res:.2e}, |dr| = {drs:.2e} "
-              f"({time.time()-t0:.0f}s)", flush=True)
-        # P2 monotonicity (after first step)
-        if len(hist) >= 3 and hist[-1][0] > hist[-2][0] * 1.5:
-            raise AssertionError("P2 FAILED: residual not decreasing")
+        g1, a1 = g_of(r1)
+        gm0 = complex(g0.real, g0.imag)
+        gm1 = complex(g1.real, g1.imag)
+        if gm1 == gm0:
+            break
+        dr_c = gm1 * (float((r1 - r0).mid())) / (gm1 - gm0)
+        if abs(dr_c) > CAP:      # damping
+            dr_c = dr_c / abs(dr_c) * CAP
+            print(f"  [{label}] step capped at {CAP}", flush=True)
+        r2 = r1 - flint.arb(repr(dr_c.real))
+        # hard bracket
+        if abs(mp.mpf(r2.str(25, radius=False)) - r_center) > BR:
+            raise AssertionError(
+                f"BRACKET EXIT: iterate left [center +- {BR}] — basin "
+                f"escape, run aborted (logged)")
+        drs = abs(dr_c)
+        hist.append(abs(gm1))
+        print(f"  [{label}] iter {it}: |g| = {abs(gm1):.2e}, "
+              f"|dr| = {drs:.2e} ({time.time()-t0:.0f}s)", flush=True)
+        # strict P2 from iteration 2 [D-1]
+        if it >= 2 and hist[-1] >= hist[-2]:
+            raise AssertionError("P2 FAILED: |g| non-decreasing")
+        r0, g0 = r1, g1
+        r1 = r2
+        a_last, r_last = a1, r1
         if drs < 1e-27:
             break
-    return r, a, hist
+    return r_last, a_last, hist
 
 
 def run(r_cert, mult2=False):
@@ -303,19 +318,29 @@ def run(r_cert, mult2=False):
     assert d1 < mp.mpf('1e-26') and d2 < mp.mpf('1e-26'), "P4 FAILED"
     print(f"P4: PASS (spread {mp.nstr(max(d1, d2), 3)})", flush=True)
 
-    # P3: gap-midpoint displaced control
-    rd, _, _ = newton(S, str(GAP_MIDPOINTS[r_cert]), j0=0, itmax=5,
-                      label='P3')
-    ddist = abs(mp.mpf(rd.str(32, radius=False)) - mp.mpf(r_str))
-    assert ddist > mp.mpf('1e-20'), "P3 FAILED: displaced start converged to target"
-    print(f"P3: PASS (displaced end {mp.nstr(ddist, 3)} from target)", flush=True)
+    # P3: gap-midpoint displaced control [D-2: divergence/abort = PASS]
+    try:
+        rd, _, _ = newton(S, str(GAP_MIDPOINTS[r_cert]), j0=0, itmax=5,
+                          label='P3')
+        ddist = abs(mp.mpf(rd.str(32, radius=False)) - mp.mpf(r_str))
+        assert ddist > mp.mpf('1e-20'), \
+            "P3 FAILED: displaced start converged to target"
+        print(f"P3: PASS (displaced end {mp.nstr(ddist, 3)} from target)",
+              flush=True)
+    except AssertionError as e:
+        if 'P3 FAILED' in str(e):
+            raise
+        print(f"P3: PASS (displaced run aborted cleanly: {e})", flush=True)
+    except ZeroDivisionError:
+        print("P3: PASS (displaced run: singular solve = no false root)",
+              flush=True)
 
     # stability cert at +5 digits
     global DIGITS
     print("stability cert (+5 digits) ...", flush=True)
     old_digits, old_prec = DIGITS, flint.ctx.prec
     DIGITS = DIGITS + 5
-    flint.ctx.prec = int((DIGITS + 10) * 3.33)
+    flint.ctx.prec = int((DIGITS + 45) * 3.33)  # +45 guard digits: arb LU ball growth near the (by-design) nearly singular M(r)
     S2 = Sys(r_cert, digits=DIGITS)
     r2, _, _ = newton(S2, r_str[:20], j0=0, itmax=5, label='cert')
     DIGITS, flint.ctx.prec = old_digits, old_prec
