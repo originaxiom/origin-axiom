@@ -8561,3 +8561,28 @@ in the fluctuations where the Laplacian separation was found. No eigenvalue was 
 Dirac eigenvalue computation needs a spinor-valued collocation solver on the scale of the Maass
 machinery, which does not exist here, and the prereg names claiming otherwise as a failure of the
 arc, so it is reported plainly instead. Nothing to CLAIMS.
+
+The forcing map is live. It had been written three weeks earlier on the owner's own directive to
+measure the whole body and see its self-triggering structure, and had sat since as nine hundred
+words of prose with fifteen nodes, fifteen arrows and not one edge marked proven, known or open.
+What made it buildable was a correction the owner supplied: object and observer are one system, not
+two, and the programme has already proved the observer side forced and finite, bounded and
+depth-independent in one arc and rank-saturated at exactly three in another, those three being
+conjugation, reversal and the golden branch, and that being the whole closing set rather than a
+sample of it. This seat had quoted the results about the continuous residue as though they governed
+the entire system and concluded it does not force its world, which is retracted here. Accounting for
+everything is therefore a finite target: the forced structure plus a three-bit residue proved
+complete. The graph assembles eleven faces of the anatomy, twenty-five explainers, seven hundred and
+thirty-three arcs and the three bits, with three hundred and thirty arc-to-face attachments, two
+hundred and fifty-three explainer anchors, three hundred and forty-four law citations, forty-eight
+chain citations and nineteen authored dependencies. The instrument states its own constraint in its
+first paragraph: a citation is not a forcing, so every edge but the authored ones is attachment, the
+two are never conflated, and only nineteen edges are forcing-grade. What it measures is the owner's
+doubt made precise. Five hundred and sixty-seven arcs of seven hundred and thirty-three, seventy-
+seven per cent, are attached to no face at all, and the mechanism is specific rather than vague:
+face-attachment exists only for the negatives, because the faces come from the kill compiler, so the
+positive results were never attached to the object's anatomy at any point. Six of eleven faces carry
+no proved arc, including the congruence tower with thirty-four arcs attached and the rank tower with
+thirty-two. The consequence for the backlog is that the unverdicted arcs were mispriced as
+bookkeeping when they are the graph's missing nodes, and the dependency field is its edge relation.
+Nothing to CLAIMS.

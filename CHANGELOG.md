@@ -1,5 +1,16 @@
 # Changelog
 
+## B805 — K024 made live: the forcing graph, and the 77 % never attached to the object
+- **K024** (*"the forcing map: the object's anatomy, and what can escape it"*) was written 2026-07-08 on the owner's directive and has sat since as **916 words of prose — 15 nodes, 15 arrows, ZERO edges marked PROVEN/KNOWN/OPEN**. Assembled here from the record.
+- **The correction that made it buildable (owner's, and cc's frame was wrong):** object and observer are **one system**. The observer side is *forced and finite* — **B733** (bounded, discrete 𝔽₂, depth-independent; *"the mechanism is forced"*) and **B766** (**RANK-SATURATED at exactly 3** — conjugation, reversal, the golden branch — *"PRECISELY the full discrete closing set"*). cc had quoted K013/B712, which govern the **continuous residue**, as if they governed the whole system, and concluded it does not force its world. **Retracted.** "Account for everything" is a **finite** target: forced structure + a 3-bit residue proved complete.
+- **Built**: 11 faces (the anatomy `kill_graph` already uses), 25 facets, 733 arcs, 3 saturated bits. Edges: 330 arc→face, 253 facet→arc, 344 law→arc, 48 chain→arc, **19 arc→arc AUTHORED**.
+- **The honesty constraint is in the instrument itself: A CITATION IS NOT A FORCING.** Every edge but `arc→arc` is **attachment**; the graph marks the difference and never conflates them. Only **19** edges are forcing-grade. It does not claim to have derived the self-triggering structure — only to have assembled the substrate and made the holes visible.
+- **THE MEASURED RESULT — the owner's doubt, quantified**: **567 of 733 arcs (77 %) are attached to NO face**; 704 have no verdict; **6 of 11 faces have no proved arc** (`congruence-tower` with 34 arcs attached, `sln-tower` 32, `children` 20, `coupled-double` 16); 22 chain links rest on unverdicted arcs.
+- **The mechanism is specific, not entropy**: face-attachment exists **only for the negatives**, because the faces come from `kill_graph`. **The positives were never attached to the object's anatomy at all** — a step nobody took, and exactly the *"we're computing parts of it"* feeling made measurable.
+- **This reprices the backlog**: the 701 unverdicted arcs are not bookkeeping — **they are the graph's missing nodes**, and `depends_on` is its edge relation. The compaction campaign built this substrate without either seat noticing what it was for.
+- 18/18 gates. Nothing to `CLAIMS.md`.
+
+
 ## B804 — the Dirac spectrum: structure settled, eigenvalues need machinery, and a falsifier that could not fire
 - **Prereg `b955c637ae6a46ba` sealed at `9d298657` BEFORE compute** — and **rewritten before sealing** after a literature-first review.
 - **The first draft's bounded falsifier was EXCLUDED BY A THEOREM.** It gated an expensive cell behind *"if both spin structures give continuous spectrum, the campaign is over"*, with the literature gate placed **after** it. **The kill branch could never fire.**

@@ -16743,6 +16743,27 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B805": {
+   "slug": "forcing graph",
+   "motifs": [
+    "metallic",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B712",
+    "B733",
+    "B766",
+    "B803",
+    "B804",
+    "K013",
+    "K024"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B80": {
    "slug": "sl4 adproof",
    "motifs": [
