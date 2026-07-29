@@ -1,5 +1,17 @@
 # Changelog
 
+## B803 second addendum — the CLASS column was too wide, and the prior art was missed
+- **Correction 1 (accepted after verification).** The banked rule read *"everything downstream of the field"* — **too wide**. A character variety is `Hom(Γ,G)//G`: its input is **Γ**, and **commensurable groups have different character varieties**. The discriminator is *what the statement's input is*, not whether the field appears upstream.
+  - **CLASS** (input = field/algebra): trace field, quaternion algebra, arithmeticity, `𝔽₃`, `SL(2,𝔽₃)=2T`, **the E₆ label**.
+  - **MANIFOLD** (input = Γ): **character varieties**, cohomology, torsion at the E₆ exponents, homology, knottedness ⟹ amphichirality, congruence data, **the spectra**.
+- **Checked for a live instance: none.** `CLAIMS` **P49/P51 are NOT scope-inflated** — P51's *"ρ_prin's deformation space in the figure-eight's E₆ character variety"* is correctly object-level, since the variety is built from Γ₄₁, not ℚ(√−3). The defect was in the audit's table, not in the bank.
+- **This also corrects B803's own §1**: *"exactly three things survive as manifold-level"* **understated** it — the representation theory of Γ₄₁ survives too.
+- **Correction 2 — the programme got there two months earlier and B803 cited none of it.** **B302** (June): the generation ℤ/3 is in the **commensurator**, not the object — m004 has no order-3 element (Sym = D₄; knot groups torsion-free), `PGL(2,O₋₃)` does, by **Neumann–Reid**, because m004 is *the* arithmetic ℚ(√−3) knot. **B307** (June): **theorem** — no hyperbolic knot has a C₃ trace field, closing the single-knot route for *all* hyperbolic knots. **B486**: hexagonal-cusp route refuted (11th kill).
+- **A convergence, not a duplication**: B803 says *why* the chain is class-level; B302 says *what lives in the class*; B307 says *what provably cannot live in the object*. Three independent closures, all pointing away from the object toward the class. Cross-linked in both directions.
+- **Corrected row**: the generation count is neither CLASS-by-E₆-decomposition nor MANIFOLD-by-cohomology — the single-knot route is **closed** (B307), the surviving route is the **commensurator's hidden ℤ/3** (B302).
+- 18/18 gates. Nothing to `CLAIMS.md`.
+
+
 ## B803 addendum — the proposed scope gate is MIS-TARGETED; E34 minted instead
 - The review seat proposed a `chain-scope` gate over THE CHAIN's *"same 23 links"*, with a pre-committed split (~9 CLASS / 4 MANIFOLD / rest PRIOR) and the instruction *"if the first run disagrees, the audit is wrong, not the gate."* Classifier built and run **before** tagging.
 - **First run: 3 CLASS / 5 MANIFOLD / 13 PRIOR / 2 BOTH.** The pre-commitment allowed two outcomes; **neither was right.**

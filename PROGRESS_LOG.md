@@ -8520,3 +8520,22 @@ the error class, merged with the atlas's own honest refusal of its method's recu
 class with two layers, since the failure is identical and only the layer differs. One further
 practice was adopted on the addendum's closing note: an instrument that works but cannot be found
 has failed, and no gate catches that, because nothing is wrong with the artifact. Nothing to CLAIMS.
+
+Two corrections to the commensurability arc, both accepted after verification, and both mine to
+carry. The first is that the rule as banked was too wide. It read that everything downstream of the
+invariant trace field is class-level, but a character variety is built from the group itself and
+commensurable groups have different ones, so the discriminator is what a statement's input is rather
+than whether the field appears somewhere upstream. Field, quaternion algebra and arithmeticity, and
+what follows from those alone, are class-level; anything whose input is the group is not, which
+includes the character varieties, the cohomology, the torsion at the exponents, the homology,
+knottedness and the spectra. A search for a live instance of the defect found none, so the two
+standing claims about the principal representation's deformation space are correctly object-level
+and were never inflated; what the search found was a defect in the audit's own table. The second
+correction is that the programme had reached this conclusion two months earlier from the other
+direction and the arc cited none of it. One June arc banked that the generation cycle is not in the
+object but in its relation to its arithmetic siblings, since the object has no order-three element
+while its commensurator does; another proved as a theorem that no hyperbolic knot has a cyclic-cubic
+trace field, closing the single-knot route for every hyperbolic knot; a third had already refuted the
+hexagonal-cusp route. That is a convergence rather than a duplication, and it strengthens the
+reading: the new arc says why the chain is class-level, the older ones say what actually lives in the
+class and what provably cannot live in the object. Nothing to CLAIMS.

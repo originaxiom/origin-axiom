@@ -155,3 +155,47 @@ Also adopted, on the audit's closing note and independent of everything above:
 > **An instrument that works but cannot be found has failed.** No gate catches it, because nothing
 > is wrong with the artifact. When you build an instrument, the same commit must put it in the path
 > of the seat who will need it.
+
+---
+
+# SECOND ADDENDUM — the CLASS column was too wide, and the prior art was missed
+
+Two corrections, both accepted after verification. Neither touches the verified premise (§1) or the
+DKY/organ results (§3–§4).
+
+## Correction 1 — "class-determined group" ≠ "everything computed in it is class-level"
+
+The first draft's rule read *"everything downstream of the field"*. That is **too wide**. A character
+variety is `Hom(Γ, G)//G` — its input is **Γ**, and **commensurable groups have different character
+varieties**. So the CLASS column must split by *what the statement's input is*:
+
+| | |
+|---|---|
+| **CLASS** (input = field/algebra) | invariant trace field, quaternion algebra, arithmeticity, `𝔽₃`, `SL(2,𝔽₃) = 2T`, **the E₆ label** |
+| **MANIFOLD** (input = Γ) | **character varieties**, cohomology, torsion at the E₆ exponents, homology, knottedness ⟹ **amphichirality**, congruence data, **the spectra** |
+
+**Consequence, checked:** `CLAIMS` **P49/P51 are NOT scope-inflated.** P51's *"ρ_prin's deformation
+space in the figure-eight's E₆ character variety"* is correctly object-level — the variety is built
+from Γ₄₁, not from ℚ(√−3). A search for a live instance of the defect found **none**; what it found
+was a defect in the audit's own table.
+
+**This also corrects a claim B803 made in its own §1**: "exactly three things survive as
+manifold-level" understated the list. The representation theory of Γ₄₁ survives too.
+
+## Correction 2 — the programme reached this two months earlier, and B803 cited none of it
+
+| arc | date | what it banked |
+|---|---|---|
+| **B302** | June | *"the generation ℤ/3 is not in the object — it is in the object's relation to its arithmetic siblings, the commensurability class."* m004 has **no** order-3 element (Sym = D₄, order 8; knot groups are torsion-free); the **commensurator** `PGL(2,O₋₃)` does, by **Neumann–Reid**, precisely because m004 is *the* arithmetic ℚ(√−3) knot |
+| **B307** | June | **theorem**: three *symmetric* generations need a cyclic-cubic (C₃) trace field, and **no hyperbolic knot has one** — the single-knot route is closed for **all** hyperbolic knots |
+| **B486** | — | *"hexagonal cusp → three generations"* **REFUTED** (11th kill); the cusp is rectangular |
+
+**B803 arrived at the same structure from the other direction and cited none of these.** That is a
+convergence, not a duplication, and it makes the reading stronger: **B803 says *why* the chain's
+conclusions are class-level; B302 says *what actually lives in the class* (the commensurator's
+hidden ℤ/3); B307 says *what provably cannot live in the object* (a symmetric C₃).** Three
+independent closures on the same question, all pointing away from the object and toward the class.
+
+**Corrected row:** the generation count is *neither* CLASS-by-E₆-block-decomposition *nor*
+MANIFOLD-by-Γ-cohomology. The single-knot route is **closed** (B307); the surviving route is the
+**commensurator's hidden ℤ/3** (B302).

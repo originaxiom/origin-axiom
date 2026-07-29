@@ -106,6 +106,36 @@ exists to catch.
   honest about its own selection effects, and was reachable from **zero** entry points at exactly the
   moment it was needed. **No gate catches this**, because nothing was wrong with the artifact. When
   you build an instrument, the same commit must put it in the path of the seat who will need it.
+- **The commensurability rule (B803, adopted 2026-07-29; CORRECTED 2026-07-29 at review).**
+  *A step that depends ONLY on the invariant trace field, the invariant quaternion algebra, or
+  arithmeticity is a statement about the COMMENSURABILITY CLASS. A step that depends on the GROUP Γ
+  itself is not.* The discriminator is **what the statement's input is**, not whether the field
+  appears somewhere upstream.
+  - **CLASS** — trace field, quaternion algebra, arithmeticity, and what follows from those alone:
+    the ramified prime 3, `SL(2,𝔽₃) = 2T`, **the E₆ label**. m003 shares m004's field `ℚ(√−3)` at
+    identical volume (verified), so these tie **by construction**.
+  - **MANIFOLD** — anything whose input is Γ: **character varieties `Hom(Γ,G)//G`** (commensurable
+    groups have *different* ones), cohomology, torsion at the E₆ exponents, homology, knottedness
+    and hence **amphichirality**, congruence data, and the **spectra**.
+  - **The first draft of this rule said "everything downstream of the field", which swept in the
+    representation theory and was wrong.** Consequence: `CLAIMS` P49/P51 are **not** scope-inflated —
+    P51's *"ρ_prin's deformation space in the figure-eight's E₆ character variety"* is correctly
+    object-level, because a character variety is built from Γ₄₁, not from ℚ(√−3).
+  - **Prior art the first draft missed** — the programme reached this two months earlier from the
+    other side: **B302** (the generation ℤ/3 is in the *commensurator*, not the object — Neumann–Reid,
+    since m004 is *the* arithmetic ℚ(√−3) knot), **B307** (no hyperbolic knot has a C₃ trace field —
+    a theorem, closing the single-knot route), **B486** (hexagonal-cusp route refuted). B803 supplies
+    *why* the chain is class-level; B302/B307 supply *what lives in the class* and *what provably
+    cannot live in the object*.
+
+- **Apparatus-inflation (E34).** Before attributing a conclusion to the object, name the largest
+  structure the derivation passes through and ask whether the conclusion is already a property of
+  *that*. For an instrument, ask whether the pattern is the tool's own footprint.
+- **An instrument that works but cannot be found has failed.** Review 33's sharpest finding was not
+  a broken artifact but a correct one: the stagnation oracle (`scripts/atlas/query.py`) worked, was
+  honest about its own selection effects, and was reachable from **zero** entry points at exactly the
+  moment it was needed. **No gate catches this**, because nothing was wrong with the artifact. When
+  you build an instrument, the same commit must put it in the path of the seat who will need it.
 - **The commensurability rule (B803, adopted 2026-07-29).** *Any derivation step routing through
   the invariant trace field, the invariant quaternion algebra, or arithmeticity is a statement about
   the COMMENSURABILITY CLASS, not about the object.* m003 and m004 share `ℚ(√−3)` and are
