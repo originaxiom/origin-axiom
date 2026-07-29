@@ -32,6 +32,7 @@ OUT = 'frontier/B796_coupling_campaign'
 SQ3 = mp.sqrt(3)
 TAU = 2 * SQ3 * mp.mpc(0, 1)
 
+SHAKEDOWN = False
 GAP_MIDPOINTS = {3.938916864: 4.42, 4.900085373: 5.29, 7.072004187: 7.21}
 CERT = {3.938916864: '3.938916864', 4.900085373: '4.900085373',
         7.072004187: '7.072004187'}
@@ -279,7 +280,8 @@ def newton(S, r0_str, j0=0, itmax=14, label=''):
         r0, g0 = r1, g1
         r1 = r2
         a_last, r_last = a1, r1
-        if drs < 1e-27:
+        conv = 1e-13 if SHAKEDOWN else 1e-27
+        if drs < conv:
             break
     return r_last, a_last, hist
 
@@ -315,7 +317,8 @@ def run(r_cert, mult2=False):
         vals.append(rv.str(32, radius=False))
     d1 = abs(mp.mpf(vals[0]) - mp.mpf(vals[1]))
     d2 = abs(mp.mpf(vals[0]) - mp.mpf(vals[2]))
-    assert d1 < mp.mpf('1e-26') and d2 < mp.mpf('1e-26'), "P4 FAILED"
+    p4bar = mp.mpf('1e-12') if SHAKEDOWN else mp.mpf('1e-26')
+    assert d1 < p4bar and d2 < p4bar, "P4 FAILED"
     print(f"P4: PASS (spread {mp.nstr(max(d1, d2), 3)})", flush=True)
 
     # P3: gap-midpoint displaced control [D-2: divergence/abort = PASS]
@@ -345,8 +348,9 @@ def run(r_cert, mult2=False):
     r2, _, _ = newton(S2, r_str[:20], j0=0, itmax=5, label='cert')
     DIGITS, flint.ctx.prec = old_digits, old_prec
     dstab = abs(mp.mpf(r2.str(34, radius=False)) - mp.mpf(r_str))
-    print(f"|dr|_stab = {mp.nstr(dstab, 3)}  (require < 1e-26)", flush=True)
-    ok_stab = dstab < mp.mpf('1e-26')
+    stab_bar = mp.mpf('1e-11') if SHAKEDOWN else mp.mpf('1e-26')
+    print(f"|dr|_stab = {mp.nstr(dstab, 3)}  (require < {stab_bar})", flush=True)
+    ok_stab = dstab < stab_bar
 
     result = {'r_certified': r_cert, 'r_refined': r_str,
               'r_stability': r2.str(34, radius=False),
@@ -372,5 +376,19 @@ def run(r_cert, mult2=False):
     print(f"TOTAL {time.time()-t00:.0f}s — saved", flush=True)
 
 
+
+def enable_shakedown():
+    """Mini-instance: digits=14, thresholds scaled. Output labeled
+    SHAKEDOWN — exercises the full pipeline; results NEVER bankable."""
+    global DIGITS, SHAKEDOWN
+    DIGITS = 14
+    flint.ctx.prec = int((DIGITS + 45) * 3.33)
+    SHAKEDOWN = True
+    print("### SHAKEDOWN MODE: digits=14, thresholds scaled, "
+          "results not bankable ###", flush=True)
+
+
 if __name__ == '__main__':
+    if '--shakedown' in sys.argv:
+        enable_shakedown()
     run(float(sys.argv[1]), mult2='--mult2' in sys.argv)
