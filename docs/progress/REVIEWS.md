@@ -2317,12 +2317,12 @@ HIGH items are already closed; Gate B's sub-mechanism is CLOSED-NEGATIVE (B561);
 was ~55 arcs behind.
 
 ### Action items (Review 32)
-- [ ] R32-1: cc3 to fix Cell 6's group (it names PSL(2,ℤ[ω]/4), which gives a degree-6 action, not
+- [>] R32-1 (CARRIED — cc3 scope, owner-suspended 2026-07-29): cc3 to fix Cell 6's group (it names PSL(2,ℤ[ω]/4), which gives a degree-6 action, not
   the degree-12 one carrying 1+5+6) — would misdirect a seat immediately.
-- [ ] R32-2: cc3 to establish whether B736 (the equivariance wall, a rigorous NO-GO on Cell 8
+- [>] R32-2 (CARRIED — cc3 scope, owner-suspended): cc3 to establish whether B736 (the equivariance wall, a rigorous NO-GO on Cell 8
   Stage B's exact target) was missed by the autopsy or failed to propagate — the answer says
   whether the autopsy is trustworthy for the other seven arcs.
-- [ ] R32-3: cc3 to promote B796's bounded mechanism-exclusion to the PRIMARY falsifier; §10.7's
+- [>] R32-3 (CARRIED — cc3 scope, owner-suspended): cc3 to promote B796's bounded mechanism-exclusion to the PRIMARY falsifier; §10.7's
   honest rider currently makes the H2 inference unbounded (E32 through the front door).
 - [x] R32-4: **DONE (B798).** Power box computed and sealed. Headline: **"50+ digits" is
   under-specified** — at 50 digits the d ≤ 10 exclusion reaches only H ≤ 10^3.5, whereas **BSV
@@ -2338,7 +2338,7 @@ was ~55 arcs behind.
   prereg; its null may not be reported as "the door is shut". Per Chat-1: cc's first reading was
   right about evidence and too harsh about the run — 39 → 0 gated is a real result about the
   pipeline and the ground for trusting rung 1.
-- [ ] R32-7: re-harvest B792's **certified** SM run (main currently carries the dry run) and
+- [>] R32-7 (CARRIED — BLOCKED: needs cc3's directory, out of scope): re-harvest B792's **certified** SM run (main currently carries the dry run) and
   correct B795's instrument table.
 - [x] R32-8: **DONE.** L109–L113 registered (m003 congruence half; parent r₂ above 10; the
   τ-parity V₅/V₆ prototype; the [0.5, 7.6] two-instrument cross-run; and the algebraicity (d,H)
@@ -2389,3 +2389,57 @@ Almost all are frontier FINDINGS (append-only history, correctly untouched). Thr
 review): `GOVERNANCE.md`, `METHOD.md`, `WORKING_RULES.md`, `TERMINOLOGY.md`, `PROVENANCE.md`,
 `REPRODUCIBILITY.md`, `CLAIMS.md`. `AUDIT_REPORT.md` is a dated historical audit and stays as
 history.
+
+### Review 32 — SECOND ADDENDUM: the whole-corpus digest (owner: "redigest the whole repo md files")
+
+Six parallel reads over the full 1928 tracked `.md` — frontier B1–B199 / B200–B399 / B400–B599 /
+B600–B799, the intellectual-architecture rooms (knowledge, philosophy, story, core, paths), and
+speculations + papers. `legacy/` excluded (checked-in history, never a source of claims); `docs/`
+was digested earlier in this review.
+
+**It found four defects, three of them in cc's own work from earlier the same day.**
+
+1. **cc's law-harvest filter was CASE-SENSITIVE.** `\b(THEOREM|PROVED|...)\b` missed every arc
+   writing "theorem" in lowercase — including B307, whose FINDINGS headline is *"the answer is a
+   **theorem**"*. Corrected filter: **123 candidates, not 28**. R32-9 read 22 and covered ~18 % of
+   the real space; **105 remain unread**. Registered as **R32-9b** with the candidate list saved.
+   (B307 itself is fine — already cited in CLAIMS ×1 and LAW_MAP ×3.)
+2. **cc banked a classical result without its attribution.** The B471 row presented
+   `tr[A_m,A_n] = 2 − (mn(n−m))²` as a harvested theorem. **B471's own FINDINGS is scrupulous
+   about this** — *"the most classical territory in the subject (**Cohn 1955**, Markov, Fricke):
+   the novelty is the METALLIC-BODY reading, never the Markov… lit-gate (Cohn 1955), cited not
+   claimed"* — and cc dropped that scruple in the harvest, which would have made a classical
+   identity read as the programme's. **Corrected in the row and in the lock's docstring.**
+3. **A live paper/ledger inconsistency.** `papers/P2_trinity/THEOREMS.md` Theorem 5 still carried
+   *"no pairwise ratio equals an SM mass ratio (exact, within 2%)"* — a physics-frame claim with
+   **no CLAIMS.md analogue**, while LAW_MAP records the opposite (B736: 0 of 24 SM parameters
+   reduced, a rigorous NO-GO). **The paper's own review had already cut this clause from
+   `PAPER.md`** (*"it imports a physics frame with no antecedent in a pure-math paper"*) and the
+   companion file had drifted. **Fixed**, citing the paper's own resolution.
+4. **Structural gap, logged not fixed:** `knowledge/INDEX.md`'s table — described as "the contract
+   for what each note covers" — omits **K021–K024**, though each note carries its own
+   no-promotion disclaimer.
+
+**Recorded, not actioned (firewalled but rhetorically hot):** `knowledge/THE_GOLDEN_CAT_MAP_PRINCIPLE.md`
+("the physics question — settled, and now UNDERSTOOD") and `THE_ORIGIN_POSTULATE.md` ("the object
+is the generative principle of physical law", self-labelled hypothesis). Both sit in governed
+rooms under §13's one-way firewall and neither is cited by any claim, so the mechanism is
+holding — but this is the vocabulary an outside reader would meet first.
+
+**Buried significance surfaced by the digest** (candidates for R32-9b, none actioned here):
+**B150** — the trace map's SL(2,ℤ) action coincides with N=2* class-S S-duality, primary-source
+verified, then immediately firewalled rather than pursued; **B376** — the level tower is the
+quantised golden cat map, linking to Hecke/arithmetic-quantum-chaos theory; **B697** — locates
+exactly where φ enters arithmetically (Frobenius gluing trivial at p=3, nontrivial at p=5);
+**B632** — h¹(M;27) = 3, three generations as a cohomological multiplicity, computed exact over
+ℚ(ω).
+
+### Action items (Review 32, addendum)
+- [ ] R32-9b: re-run the law-harvest over the **105 unread** corrected-filter candidates. Top by
+  density: B530, B490, B517, B186, B173, B103, B116, B521, B569.
+- [ ] R32-10: add K021–K024 to `knowledge/INDEX.md`.
+- [>] R32-11 (carried): the flagship did not clear its own internal review (3 referees →
+  major-revision / reject-as-fused) and `REVIEW_VERDICT_2026-07-05.md` lists unactioned findings
+  (a disc(√5) sign error, an unsupported "three methods agree", a conjecture badged "Theorem",
+  "'machine-verified' overstates the suite"). Whether those were ever discharged is unknown to
+  this review's modulus.

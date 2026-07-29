@@ -8213,3 +8213,17 @@ distinction rather than burial. One near-miss is recorded, where cc's own transc
 B120 clauses mis-ordered them and produced a false mismatch at n equals two; the newly minted rule
 about naming a defect path before reporting caught that the defect was cc's, and the lock now
 guards that exact ordering. Nothing to CLAIMS.
+
+Review 32's second addendum digests the whole markdown corpus on the owner's instruction, six
+parallel reads across all 1928 tracked files. It found four defects, three of them in cc's own
+work from earlier the same day. cc's law-harvest filter was case-sensitive and missed every arc
+that wrote theorem in lowercase, so the corrected candidate set is a hundred and twenty-three
+rather than twenty-eight and a hundred and five arcs remain unread. cc banked the metallic
+commutator identity without the Cohn 1955 attribution that the arc itself had been careful to
+record, which would have made classical territory read as the programme's own; the correction
+restores that the novelty is the metallic-body specialisation and not the Fricke or Markov
+identity. A live inconsistency was found and fixed between a paper's theorem list and its own main
+text, where a Standard Model mass-ratio clause survived in the companion file after the paper's
+review had cut it as importing a physics frame with no antecedent. Two items are logged without
+action: the knowledge index omits four notes from its coverage contract, and the flagship never
+cleared its own internal review. Nothing to CLAIMS.

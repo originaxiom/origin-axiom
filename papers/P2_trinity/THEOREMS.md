@@ -80,8 +80,13 @@ Theorem 4b) — realizing the double uniqueness (Section 2) as two computed disc
 −3, whose product √5·√−3 = √−15 is the seam field.
 
 **Theorem 5 (Hessian).** The Chern–Simons Hessian spectrum on H¹(4₁,𝔢₆) is the six per-
-exponent torsions {τ_{m_i}} (∏ = τ(E₆)); it is Fibonacci-golden and no pairwise ratio equals
-an SM mass ratio (exact, within 2%). [lock: test_b424]
+exponent torsions {τ_{m_i}} (∏ = τ(E₆)); it is Fibonacci-golden. [lock: test_b424]
+`[review 2026-07-29: the clause "and no pairwise ratio equals an SM mass ratio (exact, within
+2%)" is CUT here, applying the correction PAPER.md had already made and this companion file had
+not — "it imports a physics frame with no antecedent in a pure-math paper". The two files had
+drifted apart, leaving a live physics-frame claim in the theorem list with no CLAIMS.md analogue;
+the ledger holds zero SM-mass rows and docs/LAW_MAP.md records the opposite result (B736: 0 of 24
+SM parameters reduced, a rigorous NO-GO). Found by the Review-32 corpus digest.]`
 
 **Theorem 6 (quantum invariant).** The Kashaev invariant ⟨4₁⟩_N satisfies
 2π log⟨4₁⟩_N/N → Vol(4₁) (volume conjecture regime) and ⟨4₁⟩_N ∈ ℚ(ζ_N)⁺ with nonzero

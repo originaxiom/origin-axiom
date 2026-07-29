@@ -1,5 +1,11 @@
 """B471 (harvested at Review 32, R32-9) — the metallic commutator trace identity.
 
+PRIOR ART (attribution corrected 2026-07-29): the Fricke commutator identity and the Markov
+spine are CLASSICAL — B471 records the lit-gate as "Cohn 1955, cited not claimed". What is the
+programme's own contribution is the METALLIC-BODY specialisation: that the metallic pair (m,n)
+makes the commutator parabolic exactly at (1,2). cc's first harvest row dropped the Cohn
+attribution the arc had been careful to keep.
+
 The arc proved it and labelled it "not a scan, a theorem", but it had no row in LAW_MAP,
 THEOREM_LEDGER or CLAIMS. Re-verified symbolically here before banking.
 """
