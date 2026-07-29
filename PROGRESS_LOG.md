@@ -8128,3 +8128,19 @@ asymptotic and at k=2 the positional fluctuation is order one, so the proximity 
 resolving power at all. Logged as an E4 instance rather than a new class. The count itself is
 fine — one parent found against 2.55 expected is z = -0.97 — so the failure was of sector, not
 census. Nothing to CLAIMS.
+
+Context re-read (owner-directed, "properly with cc3"). A four-agent sweep of the governance,
+ledger, campaign and leads documents produced four findings, three of them defects in cc's own
+work of the last two days. The sharpest is a congruence-level discrepancy: cc found an explicit
+word, aababaabab, equal to -I mod 4, which forces the PSL index to 12 at level 4 rather than the
+6 B731 recorded and the level-8 realisation B734 banked. It is logged as a discrepancy for cc3 to
+resolve against their code, not as a verdict, because E22 exists precisely because this question
+was called settled too early once before. cc's own B794 row violated E23 by not naming its
+filtration and is fixed. The most consequential finding is that the SM comparison was a rung-4
+single-ratio test, which the Listening Protocol rules dead on arrival before it runs, so the clean
+null confirms an inadmissible comparison and is not evidence; the admissible comparison is rung-1
+algebraicity, which is independently where the coupling campaign's falsifier and the Bost-Connes
+harvest both landed. The missing Gate-5 input-completeness row was audited and added at 8 pass, 3
+n/a, 1 partial, with source freshness passing by inheritance from B743's hash-stable, cited target
+list. The B739 law row is now connected to the Maass arcs it pre-registered as its upgrade path.
+Nothing to CLAIMS.

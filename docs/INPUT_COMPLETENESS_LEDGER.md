@@ -28,3 +28,36 @@ from assistant knowledge, accurate but unarchived). Items 5, 6 partially (M_GUT 
 undflagged in-grid; CKM source unstated). **The verdicts survive the audit** — B615-R
 re-ran the failed items and the conclusion strengthened (dissolution). The ledger exists
 so the next cell passes all twelve at design time.
+
+---
+
+## Second application: the Maass spectral comparison (B792 / B797, audited 2026-07-29)
+
+*Audited by cc AFTER banking — the row was missing, which is itself a rule-6 defect. The
+substance passes; the paper trail did not exist. Recorded rather than quietly added.*
+
+| # | Item | Status for B792/B797 |
+|---|---|---|
+| 1 | Scheme | **N/A-by-construction.** The compared quantities are Laplace eigenvalues r_n, λ_n = 1+r_n² of a fixed hyperbolic 3-manifold — scheme-free. The SM targets carry their own schemes via the B743 list (item 11). |
+| 2 | Scale | **N/A on the object side** (no μ enters a Laplace eigenvalue); the object supplies no scale (I6: ABSENT), which is precisely why only *dimensionless* PDG ratios were targeted. |
+| 3 | Uncertainties | **PASS.** τ_v = max(2·rel_unc_v, 1e-8) uses the full quoted relative uncertainty per target, and the **surrogate null runs the identical window**, so windows and null are matched. Eigenvalue-side uncertainty is mode-count certified: **max \|Δr\| = 5.42e-9**, below the 1e-8 floor (by 1.8× — see the caveat below). |
+| 4 | Multi-modal fits | **N/A.** No global-fit targets (no θ₂₃/octant-type quantities in the B743 list). |
+| 5 | Convention constants | **PASS by absence** — no M_GUT/unification-scale/scheme-effective targets in the list. |
+| 6 | Fit-vs-direct | **N/A** — the B743 list carries per-target sources; no fit/direct ambiguity arises for the mass ratios used. |
+| 7 | Look-elsewhere | **PASS.** Per-target surrogate probability (not a headline-only correction), 500 surrogate spectra, applied across Test 1, Test 2's full pairwise-ratio family, and Test 3's six bases. 39 raw Test-2 candidates, **0 gated**. |
+| 8 | The matched null | **PASS.** Surrogates are Weyl-distributed (density ~ r² over the observed window, same count) — the same measure the match criterion uses. |
+| 9 | MB13 grep | **PARTIAL.** No keyword/atlas check is recorded in the arc. Mitigated: the comparison's *kill* is the standing banked pattern (C17 no-SM-record), so a duplicate-banking risk is low — but the grep was not run and is marked as not-run. |
+| 10 | The firewall question | **PASS, and decisive.** Yes, this cell asks the object for VALUES. Per `LISTENING_PROTOCOL` §1 its Tests 1–2 are **rung 4 (single-ratio, number≈number) = "DEAD ON ARRIVAL, however small the σ-distance"**; only **Test 3 (algebraicity) is rung 1**, falsifiable-to-precision, and it was correctly left unclaimed in both directions at 8 digits. **The clean null on Tests 1–2 therefore confirms an inadmissible comparison and is not evidence.** |
+| 11 | Source freshness | **PASS by inheritance.** Targets are `frontier/B743_rung1_widened/pdg_targets.json`, sha256 **e93efeaa** — re-verified 2026-07-29 as **byte-identical to B743's sealed record, no drift**. 18 entries, each carrying an explicit source (CODATA 2022 via PDG 2024 muon listings; PDG 2024, Navas et al., Phys. Rev. D 110). Web-verified by two non-authoring agents at B743. **Not recalled from model memory** — the failure mode B615 hit on this item. |
+| 12 | Sealing | **PASS, with a disclosed history.** Prereg `c6954bfa`, hash re-verified byte-identical on harvest into B797. The first run was **demoted to a dry run** and the seal placed before the *certified* run, with three declared amendments (A1 mode-certified spectral set, A2 tolerance floor from certification, A3 scope-corrected verdict). |
+
+**Net: 8 PASS, 3 N/A, 1 PARTIAL (item 9, MB13 grep not run).** No item fails.
+
+**Two caveats that belong with the row, not buried in the arc:**
+- **Item 3 margin.** The certification clears the *typical* τ_v ≈ 2e-5 by ~4000×, but the **1e-8
+  floor by only 1.8×** — eigenvalue uncertainty is 54 % of the tightest usable tolerance. Adequate
+  as run; **any future comparison at tighter τ must re-certify first.**
+- **Item 10 is the finding.** The protocol had already ruled Tests 1–2 inadmissible before they
+  ran. The result worth carrying forward from this cell is not the null but that **rung 1
+  (algebraicity) is the only admissible comparison available** — which is independently where the
+  B796 campaign falsifier landed.
