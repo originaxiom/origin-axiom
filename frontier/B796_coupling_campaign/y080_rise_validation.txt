@@ -1,0 +1,2 @@
+Y = 0.75: raised 200/200, min t* = 0.868744, margin t*-Y = 0.118744, assert >= 0.05: True
+Y = 0.8: raised 200/200, min t* = 0.850327, margin t*-Y = 0.050327, assert >= 0.05: True
