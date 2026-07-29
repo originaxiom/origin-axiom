@@ -11,14 +11,18 @@ arc number. A programme whose firewall works is mostly negatives; this is the sh
 | mechanism | doors | facts not computed |
 |---|---|---|
 | `kind-mismatch` | 47 | 4 |
-| `other` | 46 |  |
 | `genericity` | 33 | 1 |
 | `no-landing-site` | 30 | 1 |
 | `value-numerology` | 24 | 2 |
+| `other` | 16 |  |
 | `method-limit` | 13 | 2 |
+| `incoming-claim-refuted` | 10 |  |
+| `self-audit-retraction` | 9 |  |
 | `zero-intertwiner` | 9 |  |
 | `absence-at-depth` | 9 |  |
+| `census-counterexample` | 8 |  |
 | `cited-as-sufficient` | 4 | 1 |
+| `selection-not-unique` | 3 |  |
 | `finite-truncation` | 2 | 1 |
 
 ## Closures whose discriminating fact was not computed (12)

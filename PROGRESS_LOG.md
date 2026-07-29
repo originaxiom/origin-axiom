@@ -8357,3 +8357,21 @@ its adoption while every navigation surface stayed hand-maintained. It emits thr
 first of them reports its own coverage, currently four per cent, so that no other view can imply a
 completeness it does not have. W3 gated it: hand-editing a generated view now fails the suite, and
 regenerating clears it, which was confirmed by doing both. Nothing to CLAIMS.
+
+Compaction waves W4 and W5 complete the programme. W4's reviewer front door is generated rather
+than written, and lands at five hundred and forty-five words, about three pages, well inside the
+thirty-minute criterion the plan set for it. It leads with the object, states its own coverage
+before any other figure, and tells a reviewer they do not need to read the record to check the
+programme, which is the point of the page. W5 attacked the taxonomy gap and met its criterion. The
+catch-all mechanism held forty-six of two hundred and seventeen closures, twenty-one per cent, which
+means the taxonomy did not cover its own corpus. Four mechanisms separated cleanly out of it, each
+required to hold at least three records so the distribution could not be tidied by inventing
+categories that fit one case each: an incoming claim from another seat adjudicated and refuted, a
+kill by census or exhaustive cross-tab or failed hold-out, the programme retracting its own earlier
+overclaim, and selection machinery that fails to discretize. The catch-all falls to sixteen records,
+seven point four per cent, and the residue is reported rather than driven to zero, since half of it
+is the orphan class that has no arc directory at all. The schema drift the review seat identified
+resolves into two different faults rather than one: the depth annotation is genuine optional prose
+and is now declared optional, while the file-missing flag is derivable from the tree and should
+never have been stored, which is exactly why it was inconsistent. The rule that falls out is that a
+derivable field must not be persisted and an optional field must be declared. Nothing to CLAIMS.

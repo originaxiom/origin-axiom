@@ -1,0 +1,63 @@
+{
+ "reclassified": {
+  "B197": "incoming-claim-refuted",
+  "B520": "incoming-claim-refuted",
+  "B550": "incoming-claim-refuted",
+  "B553": "incoming-claim-refuted",
+  "B567": "incoming-claim-refuted",
+  "B681": "incoming-claim-refuted",
+  "B724": "incoming-claim-refuted",
+  "B87": "incoming-claim-refuted",
+  "B554": "incoming-claim-refuted",
+  "B545": "incoming-claim-refuted",
+  "B193": "census-counterexample",
+  "B199": "census-counterexample",
+  "B219": "census-counterexample",
+  "B468": "census-counterexample",
+  "B477": "census-counterexample",
+  "B585": "census-counterexample",
+  "B372": "census-counterexample",
+  "B401": "census-counterexample",
+  "B296": "self-audit-retraction",
+  "B389": "self-audit-retraction",
+  "B403": "self-audit-retraction",
+  "B409": "self-audit-retraction",
+  "B491": "self-audit-retraction",
+  "B515": "self-audit-retraction",
+  "B90": "self-audit-retraction",
+  "B59": "self-audit-retraction",
+  "B214": "self-audit-retraction",
+  "B185": "selection-not-unique",
+  "B191": "selection-not-unique",
+  "B325": "selection-not-unique"
+ },
+ "remaining_other": [
+  "B397",
+  "B407",
+  "B472",
+  "B516",
+  "B624",
+  "B626",
+  "B654",
+  "B711",
+  "Meta-kill — one collision causes all walls",
+  "Standard-theory-kills — quantum/knot probing triage (Chat-2)",
+  "K-G — the metallic structure HAS a forced choice (isolated κ fixed points)",
+  "K-K — gap-labeling rank = composition period",
+  "K-L — rank = SL(n) tower depth",
+  "K-M — measurable gap-labeling-rank prediction",
+  "S032-A — the literal universal no-escape form (probation P1)",
+  "R1 — the B85 Sym(W)→trace-ring functor wall (B565, earned)"
+ ],
+ "new_forms": {
+  "incoming-claim-refuted": 10,
+  "census-counterexample": 8,
+  "self-audit-retraction": 9,
+  "selection-not-unique": 3
+ },
+ "schema_drift_resolution": {
+  "depth_note": "KEEP as optional prose. 155/217 carry it; it is a genuine free-text annotation and forcing it on every record would produce padding, not information. Documented as optional rather than left ambiguous.",
+  "file_missing": "DROP from the stored schema. It is DERIVABLE -- a record's arc directory either exists on disk or it does not -- so storing it invites exactly the inconsistency observed (present on 87/217, and of those 80 are false). Compute it at view time instead of persisting it.",
+  "rule": "a field that can be derived from the tree must not be stored; a field that is genuinely optional prose must be declared optional. The two inconsistent fields were one of each."
+ }
+}

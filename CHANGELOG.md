@@ -1,5 +1,17 @@
 # Changelog
 
+## Compaction W1–W5 COMPLETE — the views are generated, and three plan claims were refuted by executing them
+- **Owner**: green light, then *"continue until finish."* All five waves executed; **GOVERNANCE §12 clause two is now executed** for the first time since its adoption 2026-07-16.
+- **W1 pilot (30 arcs, stratified) refuted its own plan twice.** (a) The premise that *malformed titles mark the hard arcs* is **backwards**: **83 %** of uninformative-title arcs carry an explicit `## Verdict` block vs **19 %** of the rest — the heuristic **anti-correlates** with classifiability. Early arcs used a template that recorded the verdict; later arcs moved it into a rich title. (b) The genuinely hard stratum is **11 arcs (1.5 %)**, not 90: **A = 183 (25 %)** extractable · **B = 537 (73.5 %)** title-carried · **C = 11 (1.5 %)**. (c) **`verdict.json` is not a free filename** — `B440_foreign_vacuum_control` already uses it with an unrelated schema; renamed `arc_verdict.json`.
+- **A fourth finding, flagged not extrapolated**: 2 of the pilot's 5 NEGATIVEs are **absent from `kill_graph`**, so its 217 records are a **lower bound** on the corpus's negatives, not a census. n=5 cannot carry a rate.
+- **W2 generator** (`scripts/views/generate.py`) emits `docs/views/{COVERAGE,VERDICT_LEDGER,CLOSED_DOORS,REVIEWER}.md`. **COVERAGE.md reports its own 4.1 % coverage on its face**, so no other view can imply completeness it lacks.
+- **W3 gate `views-generated`** is strictly stronger than `views-fresh`: it asks whether a view still **equals** what its sources produce, making hand-edits detectable rather than merely dated. Verified both ways.
+- **W4 reviewer front door**: **545 words, ~3 pages** — inside the 30-minute criterion. Leads with the object, states coverage before any other figure, and closes with how to falsify any of it.
+- **W5 taxonomy gap — criterion MET.** `other` was the **second-largest** mechanism (46/217 = **21.2 %**): the taxonomy did not cover its own corpus. Four mechanisms separated out, **each required to hold ≥3 records** so the distribution could not be tidied by one-record inventions — `incoming-claim-refuted` (10), `self-audit-retraction` (9), `census-counterexample` (8), `selection-not-unique` (3). **`other` falls to 16 = 7.4 %**, and the residue is *reported*, not driven to zero (half of it is the orphan class with no arc directory).
+- **The schema drift resolves as two faults, not one**: `depth_note` is genuine optional prose → **declared optional**; `file_missing` is **derivable from the tree** and should never have been stored, which is precisely why it was inconsistent (present on 87/217, of which 80 are `false`) → **dropped, computed at view time**. Rule: *a derivable field must not be persisted; an optional field must be declared.*
+- 14/14 gates green. Nothing to `CLAIMS.md`.
+
+
 ## B799 — the twelve uncomputed doors resolved (Compaction W0)
 - **Owner directive**: green light on the Compaction Masterplan. **W0 resequenced to FIRST at review** — a known violation of the programme's own standing rule must not wait behind an infrastructure programme.
 - **Prereg `3243c1c219ea7ca0` sealed and committed at `56df99cc` BEFORE any computation**, allowing exactly four outcomes with **no fifth**, so "reads fine" was not available as a disposition.

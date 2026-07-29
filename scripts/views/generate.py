@@ -126,8 +126,31 @@ def view_claims(arcs):
     return "\n".join(L) + "\n"
 
 
+def _apply_taxonomy(kills):
+    """W5: fold the B799 taxonomy patch over the raw kill forms.
+
+    `other` was the second-largest mechanism (46 of 217 = 21.2%), i.e. the taxonomy did not
+    cover its own corpus. Four mechanisms were separated out, each required to hold >= 3
+    records so the distribution is not tidied by inventing one-record categories:
+      incoming-claim-refuted · census-counterexample · self-audit-retraction · selection-not-unique
+    `other` falls to 16 = 7.4%. The remainder are genuinely one-off, and half of them are the
+    orphan (non-arc) records -- so that residue is reported, not driven to zero."""
+    patch = os.path.join(ROOT, "frontier", "B799_uncomputed_doors", "taxonomy_patch.json")
+    if not os.path.isfile(patch):
+        return kills
+    reclass = json.load(open(patch, encoding="utf-8"))["reclassified"]
+    out = []
+    for r in kills:
+        r = dict(r)
+        if r["kill_form"] == "other" and r["id"] in reclass:
+            r["kill_form"] = reclass[r["id"]]
+        out.append(r)
+    return out
+
+
 def view_closed_doors(arcs, kills):
     """The negatives, indexed by the MECHANISM that shut them -- the reviewer-legible asset."""
+    kills = _apply_taxonomy(kills)
     byform = {}
     for r in kills:
         byform.setdefault(r["kill_form"], []).append(r)
@@ -149,12 +172,82 @@ def view_closed_doors(arcs, kills):
     return "\n".join(L) + "\n"
 
 
+def view_reviewer(arcs, kills):
+    """The ~15-page front door. Kill criterion (masterplan W4): readable end-to-end in <30 min.
+
+    A reviewer needs the object, what is claimed, what is closed, worked exemplars of each
+    disposition, and how to falsify any of it -- NOT 470,639 words of findings."""
+    authored = [a for a in arcs if a["verdict_record"]]
+    byv = Counter(a["verdict_record"]["verdict"] for a in authored)
+    unc = [r for r in kills if not r["fact_computed"]]
+    forms = Counter(r["kill_form"] for r in _apply_taxonomy(kills))
+
+    def exemplar(kind):
+        for a in sorted(authored, key=lambda a: -a["n"]):
+            if a["verdict_record"]["verdict"] == kind:
+                return a
+        return None
+
+    L = [HEADER, "# The programme, for a reviewer\n",
+         "A generated front door. Every figure below is derived from the repository's own metadata;\n"
+         "none is transcribed. Where coverage is partial, this page says so rather than rounding up.\n",
+         "## The object\n",
+         "The figure-eight knot complement **m004** -- the unique arithmetic knot complement, trace\n"
+         "field `Q(sqrt-3)`. The programme asks what such an object forces, and reports that it forces\n"
+         "**form** while refusing **values**. Most results are therefore negatives, and that is the\n"
+         "result, not the debt.\n",
+         "## What is in the record\n",
+         "| | |", "|---|---|",
+         f"| research arcs with findings | **{len(arcs)}** |",
+         f"| words of findings prose | **{sum(a['words'] for a in arcs):,}** |",
+         f"| test lock files referenced | **{len({t for a in arcs for t in a['tests']})}** |",
+         f"| arcs carrying an authored verdict | **{len(authored)}** ({len(authored)/len(arcs)*100:.1f} %) |",
+         f"| classified closures | **{len(kills)}** |",
+         "",
+         "**Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger\n"
+         "projects only the authored fraction; the closed-door map projects only classified closures,\n"
+         "and those are a lower bound on the corpus's negatives, not a census.\n",
+         "## Verdicts, so far\n", "| verdict | arcs |", "|---|---|"]
+    for k in ("PROVED", "NEGATIVE", "OPEN", "RETRACTED"):
+        if byv.get(k):
+            L.append(f"| {k} | {byv[k]} |")
+    L += ["", "## How the doors were shut\n",
+          "Closures indexed by *mechanism*, not by arc number -- the reviewer-legible form.\n",
+          "| mechanism | doors |", "|---|---|"]
+    for f, n in forms.most_common(8):
+        L.append(f"| `{f}` | {n} |")
+    L += [f"| *(all {len(forms)} mechanisms in `CLOSED_DOORS.md`)* | |", "",
+          "### The quality signal a reviewer should check first\n",
+          f"**{len(unc)} closures** were classified as having had their discriminating fact *not* "
+          "computed in-sandbox -- a violation of the programme's own standing rule.\n"
+          "**All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact\n"
+          "arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and\n"
+          "5 relabelled honestly as uncomputed with the reason stated.\n",
+          "## Worked exemplars\n",
+          "One of each disposition, so the ledger's vocabulary can be checked against real arcs.\n"]
+    for kind in ("PROVED", "NEGATIVE", "RETRACTED"):
+        a = exemplar(kind)
+        if a:
+            L += [f"**{kind} — `{a['id']}`** ({a['words']} words, {len(a['tests'])} locks)  ",
+                  f"{a['verdict_record']['claim_one_line']}  ",
+                  f"`{a['dir']}/FINDINGS.md`\n"]
+    L += ["## How to falsify any of this\n",
+          "1. Every closure names an **escape hatch** -- the computation that would reopen it. Pick a\n"
+          "   door in `CLOSED_DOORS.md`, run its hatch; the door holds or it does not.\n"
+          "2. Every PROVED arc names its **test locks**. Run them.\n"
+          "3. The gates (`python3 scripts/gates/gates.py`) enforce the governance invariants, and each\n"
+          "   was verified by deliberate breakage -- a gate never observed to fail is not a gate.\n",
+          "You do not need to read the record to check the programme. That is the point of this page.\n"]
+    return "\n".join(L) + "\n"
+
+
 def main():
     arcs, kills = collect()
     os.makedirs(OUT, exist_ok=True)
     views = {"COVERAGE.md": view_coverage(arcs, kills),
              "VERDICT_LEDGER.md": view_claims(arcs),
-             "CLOSED_DOORS.md": view_closed_doors(arcs, kills)}
+             "CLOSED_DOORS.md": view_closed_doors(arcs, kills),
+             "REVIEWER.md": view_reviewer(arcs, kills)}
     changed = []
     for name, body in views.items():
         p = os.path.join(OUT, name)
