@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-07-29 from 735 frontier probes.
+> Last generated: 2026-07-29 from 736 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,10 +11,10 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 735 frontier probes; status {'banked': 496, 'dead': 170, 'open': 51, 'dormant': 18}
+  corpus: 736 frontier probes; status {'banked': 497, 'dead': 170, 'open': 51, 'dormant': 18}
   the ONE conserved first integral: kappa (recurs 189x, 25%) -- genuine unity, MUST recur
-  top recurring motifs: golden(478), firewall(475), eisenstein(404), figure_eight(354), metallic(344), trace_map(337)
-  recurrence is: structural-invariant 2691 mentions | conserved-integral 189 | TOOL 337
+  top recurring motifs: golden(479), firewall(475), eisenstein(404), figure_eight(354), metallic(344), trace_map(337)
+  recurrence is: structural-invariant 2692 mentions | conserved-integral 189 | TOOL 337
   the honest split: the trace-map TOOL is in 337 probes (45%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B521, B156, B598, B309, B321
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -26,7 +26,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
-| golden | 478 | 65% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| golden | 479 | 65% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
 | firewall | 475 | 64% | structure | structural | meta | the firewall / structural theorem / form-not-values |
 | eisenstein | 404 | 54% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
 | figure_eight | 354 | 48% | object | no | topology | the simplest hyperbolic knot; the carrier object |
@@ -48,7 +48,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **189** probes (25%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **2691** mentions — invariants of the object's transforms.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **2692** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **337** probes (45%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
@@ -59,7 +59,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 |---|---|---|---|
 | cancellation | 40 | golden | golden(28), eisenstein(25), firewall(25), trace_map(22) |
 | selector | 17 | firewall | firewall(11), trace_map(10), eisenstein(10), golden(10) |
-| measure | 52 | golden | golden(34), firewall(33), eisenstein(25), figure_eight(23) |
+| measure | 53 | golden | golden(35), firewall(33), eisenstein(25), figure_eight(23) |
 | units_scale | 84 | firewall | firewall(61), golden(56), metallic(47), trace_map(42) |
 | gauge_dict | 39 | firewall | firewall(29), eisenstein(26), figure_eight(25), golden(24) |
 | particle_dict | 55 | eisenstein | eisenstein(45), golden(40), firewall(40), z3_generation(35) |
@@ -115,7 +115,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | gauge_dict | 39/64 |
 | cancellation | 40/62 |
 | numerology | 22/34 |
-| measure | 52/80 |
+| measure | 53/81 |
 | spacetime_3p1 | 95/143 |
 | units_scale | 84/120 |
 

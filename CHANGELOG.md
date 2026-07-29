@@ -1,5 +1,18 @@
 # Changelog
 
+## B807 — the two vocabularies are ORTHOGONAL AXES, and the observer is a third
+- **Prereg `40b7ff01274b4c01` sealed at `ad2edefe` BEFORE compute**, and it **refused the obvious action**: zero overlap between 11 faces and 18 motifs reads as a bug, but the prereg set a discriminating test with thresholds fixed in advance — merge only if the vocabularies prove **redundant**.
+- **Measured**: **P = 163** populated (face, motif) pairs of 198 possible (**82 %**) against a sealed floor of 60; **top-5 share 0.168** against a sealed ceiling of 0.50; **normalised mutual information 0.031** — essentially zero.
+- **VERDICT: SPREAD ⟹ ORTHOGONAL AXES. Do NOT merge — merging would destroy information.** A *face* says **WHERE** on the object; a *motif* says **WHAT** structure. Independent by construction, and the corpus agrees: an arc's face tells you almost nothing about its motif. **B806's zero overlap was a signal, not a defect** — the only thing missing was that the relation had never been declared.
+- **Honesty on strength**: the prereg pre-stated SPREAD and got SPREAD. **A confirmed expectation is weaker evidence than a surprised one**, recorded rather than glossed; the **margins** carry the weight (163 vs 60, 0.168 vs 0.50, NMI 0.031).
+- **The observer is a THIRD AXIS — tested, not assumed.** 57 arcs, touching **6 of 11 faces and 18 of 18 motifs**. It crosses *every* structure rather than sitting in one corner — exactly as *"measurement closes the object"* predicts.
+- **The structure, now declared**: the object's description is **three-dimensional** — **WHERE** (11 faces, authored) × **WHAT** (18 motifs, authored, frozen 2026-07-01) × **WHICH CLOSING** (**3**, and the only axis **PROVED complete**: B733 bounded it, B766 proved it rank-saturated). A complete accounting of an arc is a **triple**.
+- **This rescopes B806**: the frozen lexicon is a defect on the **WHAT axis only**. The WHERE axis is fine; the WHICH-CLOSING axis is proved complete. A one-axis repair, not a broken vocabulary.
+- **No instrument was edited** (prereg §4) — and the verdict means none should be. B806's numbers are untouched and remain the evidence for the arc that produced this one.
+- **Residual**: widen the WHAT axis (still its own sealed act); and **record the WHICH-CLOSING axis in an instrument** — it is proved complete and appears in *no* instrument at all.
+- 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## B806 residual DISCHARGED — two disjoint vocabularies, and neither names the observer
 - Deriving a corpus lexicon first required fixing **cc's own instance of the same error**: a frequency-ranked extractor returned **process vocabulary** — *exactly* (69 % of arcs), *verdict* (55 %), *frontier* (50 %) — measuring **how the programme writes, not what it studies**. Third instance of the vocabulary trap in one session, this time **inside the tool built to detect it**.
 - **The fix is a different statistic**: a motif is **bursty** (concentrated in a subset); register is **uniform**. Scoring on *intensity* inside a non-universal df band collapses **722 noisy candidates to 7**.

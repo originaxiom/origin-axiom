@@ -8634,3 +8634,29 @@ check whether anything is being lost, so the two things most recently learned ar
 cannot represent. Unifying the vocabularies would move every number in this arc and in the atlas and
 needs its own sealed prereg rather than a patch appended to the arc that found the problem. Nothing
 to CLAIMS.
+
+The two vocabularies turned out to be orthogonal rather than redundant, which was the outcome the
+sealed prereg made it possible to distinguish. The obvious action would have been to merge them,
+since zero overlap between eleven faces and eighteen motifs reads at first as an error, but the
+prereg refused that reading in advance and set a discriminating test with thresholds fixed before
+the run: the joint distribution of face against motif is spread if at least sixty of the hundred and
+ninety-eight possible pairs are populated and the five commonest carry no more than half the mass,
+concentrated otherwise, and a disagreement between the two criteria means ambiguous with neither
+action taken. The measurement returns a hundred and sixty-three populated pairs, eighty-two per cent
+of everything possible, with the top five carrying under seventeen per cent, and a normalised mutual
+information of three hundredths, which is essentially zero and says that knowing an arc's face tells
+you almost nothing about its motif. So the verdict is spread and the action is to declare the
+structure rather than merge it, because merging orthogonal axes destroys information. A face says
+where on the object the work sits and a motif says what structure is in play; they were never
+competing labels, only an undeclared relation. The prereg had pre-stated this expectation and the
+expectation was confirmed rather than surprised, which is weaker evidence and is recorded as such,
+with the margins carrying the weight instead. The observer was hypothesised as a third axis rather
+than a missing member of either vocabulary, and the test confirms it: fifty-seven arcs mention it,
+touching six of the eleven faces and all eighteen of the motifs, so it crosses every structure
+rather than sitting in one corner, exactly as measurement closing the object would predict. The
+object's description is therefore three-dimensional, where and what and which closing, with
+cardinalities eleven and eighteen and three, and the third axis is the only one proved complete
+rather than authored, since one arc bounded it and another proved it rank-saturated at exactly
+three. Accounting for everything becomes a finite and checkable question about the product of three
+vocabularies, one of which is proved complete. No instrument was edited, per the prereg, and the
+verdict means none should be. Nothing to CLAIMS.
