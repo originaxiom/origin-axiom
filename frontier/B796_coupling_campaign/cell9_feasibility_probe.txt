@@ -1,0 +1,68 @@
+========================================================================
+1. STACK INVENTORY
+========================================================================
+  python-flint (arb, C-speed): AVAILABLE
+  gmpy2: absent
+  flamp: absent
+  sage: absent
+  mpmath (pure python): AVAILABLE (baseline)
+
+========================================================================
+2. MEASURED UNIT COSTS
+========================================================================
+  K_ir(x) via mpmath.besselk @ dps 60: 10.2 ms/eval
+  K_ir(x) via mp trapezoid (71 nodes) @ dps 60: 9.3 ms/eval
+  mp.lu_solve @ dps 30: n=100: 3.33s, n=200: 26.22s  -> ~9.8 us/op (25-digit stack)
+  mp.lu_solve @ dps 60: n=100: 3.58s, n=200: 28.96s  -> ~10.9 us/op (50-digit stack)
+
+========================================================================
+3. REQUIRED SYSTEM SIZES (truncation law)
+========================================================================
+ digits     Y modes (full) modes (/8 sym)
+     25  0.75         2634            329
+     25  0.85         2051            256
+     50  0.75         8395           1049
+     50  0.85         6536            817
+
+  (certified 8-digit run: 664-900 modes — chat1's ~5600 estimate
+   for 50 digits corresponds to Y=0.85 full: 6536)
+
+========================================================================
+4. COST TABLE (per Newton solve; ~6 solves per eigenvalue)
+========================================================================
+                            config      n    per solve  per eigenvalue
+25-digit, Y=0.85,    full:         2051        7.9 h          47.2 h
+25-digit, Y=0.85,  /8 sym:          256         58 s         5.8 min
+50-digit, Y=0.85,    full:         6536      280.8 h        1684.6 h
+50-digit, Y=0.85,  /8 sym:          817     33.1 min           3.3 h
+
+========================================================================
+5. VERDICT
+========================================================================
+
+FEASIBILITY VERDICT (measured, not guessed):
+
+- 50 digits, FULL system (n = 6536): ~1685 h per
+  eigenvalue in pure mpmath — INFEASIBLE in-sandbox.
+- 50 digits, /8 SYMMETRIZED (n = 817): ~3.3 h per
+  eigenvalue — FEASIBLE in-sandbox IF the symmetrization is built
+  (the one real engineering task; the D4 x conjugation action on the
+  cusp torus must be implemented and validated against the certified
+  8-digit eigenvectors).
+- python-flint/arb available: True — if True, C-speed
+  arb linear algebra cuts the mp constant by ~50-100x and even the
+  full system becomes cheap; if False, the symmetrization is the
+  feasibility hinge.
+- 25 digits (the intermediate rung, enough to kill low-height
+  relations d<=4, H<=10^4 per the power law): needs symmetrization —
+  n = 2051 full / 256 symmetrized.
+
+CONSEQUENCE FOR THE CAMPAIGN: Cell 9 is NOT unreachable — the
+falsifier can fire — but its cost is a ladder, not a run: (i) 25-digit
+rung first (validates the mp stack against the certified values and
+already carries nonzero PSLQ power), (ii) symmetrization build,
+(iii) 50-digit rung. The sealed (d, H) power box must be chosen PER
+RUNG at prereg. If the symmetrization build fails validation, the
+25-digit rung still runs and the campaign relabels only the 50-digit
+claim, not the whole test.
+

@@ -102,6 +102,7 @@ not to this object".
 | "2/25" proposal record recompute (G10) | **DONE**: record is in-repo at frontier/B784_trace_map_intertwining/FINDINGS.md:287 ("Cumulative: 2 for 25, B783: 1/5, B784: 1/5") — the critic grepped docs/ only. Sourced; base-rate prior citable |
 | ι adjudication: rank 3 vs 4 observer menu (G1) | RULED by cc (2026-07-29): keep the rank-3 scoping; do NOT adjudicate before Wave 2 (ι's measurement status is interpretive and unresolved; importing rank-4 would be invisible and load-bearing in every cell). Rank-4 explicitly deferred |
 | Gate-5-SM owner authorization (G21) | SCHEDULED — blocks Cell 8 Stage B only |
+| **Cell 9 feasibility (chat1's ranked-#1)** | **ANSWERED (cell9_feasibility_probe.py, measured):** REACHABLE. Pure-mpmath full system at 50 digits = INFEASIBLE (~1685 h/eigenvalue, n = 6536); /8-symmetrized = 3.3 h/eigenvalue; **python-flint/arb IS installed** (C-speed mp linear algebra → even the full system tractable). The falsifier CAN fire. Cost is a LADDER: (i) 25-digit rung (n = 2051 full / 256 sym — validates the stack against certified values; nonzero PSLQ power: d ≤ 4, H ≤ 10⁴), (ii) symmetrization/arb build, (iii) 50-digit rung. (d, H) power box sealed PER RUNG. If the sym build fails validation, only the 50-digit claim relabels — not the whole test |
 
 ## SECOND-ROUND HARVEST (commissioned 2026-07-29, 3 agents)
 
@@ -114,6 +115,35 @@ not to this object".
 - **HR2-3 (G13):** adversarial novelty re-search on the two one-pass
   negatives ("no spectral action on cusped hyperbolic 3-manifolds",
   "no E6 T[M3]"); Müller relative-trace school, Park, 2025–26.
+
+## GREENLIGHT STRUCTURE (chat1's final-handoff §5, owner-directed)
+
+Cells 1–7 + 8-Stage-A are greenlit as **standalone spectral geometry
+and arithmetic of m004/m003** — extended eigenvalues, Hecke data, spin
+structure, Selberg closure, sector assignment, the sister spectrum, an
+anomaly audit. None exists in the literature; all of it is worth
+having whether or not H0 is true; each is bounded and falsifiable.
+Branch-side sealed preregs per cell; cc remains the merge gate for
+banking. Cell 8 Stage B stays owner-gated and must position against
+B736. Cell 9 runs as the LADDER above, algebraicity test only after
+the sealed (d, H) box + §16 non-authoring review.
+
+**NAMED DELIVERABLE — THE PAPER (chat1 §5a):** Cells 1–7 produce a
+publishable result in computational spectral geometry — the first
+computed discrete spectrum of m004, with Hecke data, sector
+decomposition, and the sister comparison. This is an explicit
+deliverable of the campaign: it has the highest probability of
+mattering independent of every hypothesis in §1, and it is insurance
+against another null.
+
+**THE BEST CASE, STATED IN ADVANCE (chat1 §5b):** if every cell lands
+and Cell 9 returns POSITIVE algebraicity, what is established is:
+**the BC/CM route is not closed.** There is still NO map from "Maass
+forms carry algebraicity" to any SM value — the GL(2)-over-K Bianchi
+slot is verified empty in the literature, and someone must build that
+system before any value claim exists. A future session reading a
+positive Cell 9 as more than this is repeating the programme's
+recurring failure; this paragraph exists so it cannot.
 
 ## WAVE 1 — CHEAP TWO-OUTCOME FORKS (days; run after cc gate)
 

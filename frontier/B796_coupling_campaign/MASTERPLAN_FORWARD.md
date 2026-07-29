@@ -1,9 +1,11 @@
 # B796 — THE COUPLING CAMPAIGN MASTERPLAN (forwardable edition)
 
-*cc3 audit seat, 2026-07-29. Self-contained for forwarding. Repo copy:
-`frontier/B796_coupling_campaign/MASTERPLAN.md`; harvest reports in
-`frontier/B796_coupling_campaign/harvest/`. Gate 5-Q. No cell runs
-before cc gate + per-cell sealed prereg (sha256 in SEAL_LEDGER).*
+*cc3 audit seat, 2026-07-29. Self-contained for forwarding.
+**GENERATED FROM the repo copy at branch commit `d978da01`+1** — per
+chat1's drift rule, this edition is stamped with its source commit;
+if the stamp is stale against `frontier/B796_coupling_campaign/
+MASTERPLAN.md`, the repo copy governs. Gate 5-Q. No cell runs before
+cc gate + per-cell sealed prereg (sha256 in SEAL_LEDGER).*
 
 ## Contents
 - [1. Thesis and hypotheses](#1-thesis-and-honesty-clause)
@@ -272,7 +274,11 @@ anything numeric; m003 comparator; digit budget stated per cell
 (8-digit ceiling until mp-eigenfunctions exist); negatives computed
 in-sandbox; distinct-vs-multiplicity counting explicit;
 discard-reporting on every filter; structural coincidences face the
-same base-rate knife as decimals.
+same base-rate knife as decimals; rung-4 comparisons run ONLY as
+labelled INSTRUMENT CALIBRATION, never as evidence, stated at prereg
+(the B792/B797 null is the worked example: 39 candidates → 0 gated,
+including a 4-sig-figure near-hit — the calibration that grounds
+trusting rung-1 when Cell 9 runs).
 
 ## 10.5 Second-round harvest — first results (landed while drafting)
 
@@ -365,6 +371,26 @@ four changes a reader of this plan should know:
   certified artifact); two of cc's corrections accepted on the
   branch (A5/D5 scoped to HOOK; Weyl residual as consistency check,
   never an order-one adjudicator).
+
+## 10.8 Cell 9 feasibility — ANSWERED (Wave 0, measured)
+
+chat1's ranked-#1 question — can a 50-digit m004 eigenvalue be
+computed at all — is answered by measurement (cell9_feasibility_
+probe.py): **REACHABLE.** Pure-mpmath full-system: infeasible
+(~1685 h/eigenvalue at n = 6536). /8-symmetrized: 3.3 h/eigenvalue.
+And **python-flint/arb is installed** — C-speed mp linear algebra
+makes even the full system tractable. The falsifier CAN fire. The
+cost is a ladder: 25-digit rung (validates the stack; nonzero power
+d ≤ 4, H ≤ 10⁴) → symmetrization/arb build → 50-digit rung; the
+(d, H) box seals per rung. The campaign is a test, not a lens.
+
+Also adopted from the final handoff: Cells 1–7 + 8A greenlit as
+standalone spectral geometry (worth having whether or not H0 is
+true); **the PAPER is a named deliverable** (first computed discrete
+spectrum of m004, Hecke data, sister comparison); and **the best
+case is stated in advance** — a positive Cell 9 establishes only
+"the BC/CM route is not closed," never an SM value (the Bianchi
+slot must first be built; it is verified empty).
 
 ## 11. Open asks
 
