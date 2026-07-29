@@ -49,7 +49,7 @@ proven core already owns (P8/C5). Nothing to `CLAIMS.md`.
 
 ## The fence
 Exact sympy (integer matrices, cyclotomics, SNF, lattice arithmetic); no numerics, no physics
-values. `cyclic_cover_torsion.py` · `tests/test_b347_cyclic_cover_torsion_galois.py`.
+values. `cyclic_cover_torsion.py` · `tests/test_b350_cyclic_cover_torsion_galois.py`.
 Related: **B330** (mechanism + the untested-classes list), **B326** (`(ℤ/4)²`, re-derived),
 **P8** (torsion ladder), **C5** (Lucas hierarchy), **B98/B99** (adjoint torsion, cited),
 **OPEN_PROBLEMS.md** gate A, **K020**. Lit: Fox–Milnor / standard cyclic-cover torsion

@@ -364,6 +364,37 @@ def gate_knowledge_index():
     return True, f"ok ({len(on_disk)} explainers, all indexed)"
 
 
+def gate_path_refs():
+    """Every backticked repo-path cited in a tracked .md must resolve.
+
+    The repo cites its artifacts as backticked paths (~1300) far more than as markdown links
+    (~32), so this covers the reference graph a link-checker misses. Resolution is tried
+    repo-root-relative AND relative to the citing file's own directory (the B600 packet README
+    legitimately cites its own `scripts/engine.py`). Exemptions for append-only history and
+    hash-pinned seals live in the checker module, documented there.
+
+    NB the checker lives under scripts/checks/, not scripts/audit/: .gitignore line 11 is a
+    bare `audit/`, which is UNANCHORED and so swallows any directory named audit at any
+    depth. A scripts/audit/ would be silently untracked and the gate would soft-skip on a
+    fresh clone -- passing while checking nothing."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import check_path_references as cpr
+    except Exception as exc:
+        # FAIL-CLOSED, deliberately. The near-miss above (a scripts/audit/ copy would have been
+        # silently gitignored) showed that "module missing" is exactly the state in which this
+        # gate must not report ok — a gate that soft-skips when its checker vanishes passes
+        # while checking nothing, which is worse than having no gate at all.
+        return False, f"path-reference checker missing or unimportable: {exc}"
+    finally:
+        sys.path.pop(0)
+    total, bad = cpr.scan()
+    if bad:
+        pairs = sorted({f"{r} -> {t}" for r, t in bad})
+        return False, f"{len(pairs)} unresolved path citation(s): " + "; ".join(pairs[:5])
+    return True, f"ok ({total} citations resolve)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -376,6 +407,7 @@ GATES = {
     "views-fresh": gate_views_fresh,
     "id-collisions": gate_id_collisions,
     "knowledge-index": gate_knowledge_index,
+    "path-refs": gate_path_refs,
 }
 
 

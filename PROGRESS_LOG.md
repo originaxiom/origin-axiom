@@ -8252,3 +8252,30 @@ appended by hand, so a knowledge-index gate now checks both directions: every K-
 in the index, and every indexed K-number must have a file, the second catching dead links as the
 mirror of the first. The gate was confirmed to fail when it should by deleting a row and watching
 it fire, then restoring. Nothing to CLAIMS.
+
+Path-reference audit across the whole repo. The programme cites its own artifacts as backticked
+paths far more than as markdown links -- about thirteen hundred of the former against thirty-two of
+the latter -- so a conventional link checker audits two percent of the real reference graph. An
+audit of the other ninety-eight percent found thirteen non-resolving citations, of which exactly two
+were defects. The sl4_dehn_filling paper pointed at frontier/B149/ for a directory actually named
+B149_sl4_ideal_completeness, which matters more than the count suggests because that paper is headed
+for external deposit and the path would have failed for a reader who could not guess the correction.
+B350's FINDINGS cited a test under B347's number, from before the arc was renumbered. Both fixed.
+The remaining eleven were legitimate and are now handled by rule rather than by whitelist wherever
+possible: six were the B600 packet README citing its own packet-relative scripts, which do exist, so
+the checker now resolves a path against the citing file's directory as well as the repo root. Three
+classes needed explicit exemption and got it with the reason recorded -- append-only history, whose
+staleness is what makes it history; the hash-pinned forensic review seals, where correcting a path
+would break the seal the file exists to preserve; and a cross-clone provenance pin naming the audit
+seat's own terminal doc, which would be a forgery to create here. The audit is now a re-runnable
+instrument and a gate, verified to fire on an injected break. Nothing to CLAIMS.
+
+A near-miss worth recording from that same sweep. The checker was first placed at
+scripts/audit/, and the commit refused it: .gitignore line 11 is a bare `audit/`, which is
+unanchored and therefore swallows any directory named audit at any depth, not just the standing
+audit room at the root. Had the file been added with force, the gate would have imported it fine
+locally and soft-skipped on any fresh clone -- passing while checking nothing, which is worse than
+having no gate, because it reports assurance it is not providing. The checker now lives under
+scripts/checks/, the gotcha is documented at both ends, and the gate was changed from fail-open to
+fail-closed so that a missing checker reads as a failure rather than a pass. Confirmed by hiding
+the module and watching the gate go red.
