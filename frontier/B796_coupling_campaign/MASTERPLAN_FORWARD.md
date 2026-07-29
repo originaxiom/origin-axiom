@@ -17,6 +17,8 @@ before cc gate + per-cell sealed prereg (sha256 in SEAL_LEDGER).*
 - [8. Dependency spine](#8-dependency-spine)
 - [9. Excluded as untestable](#9-excluded-as-untestable)
 - [10. Protocol wrapper](#10-protocol-wrapper)
+- [10.5 Second-round harvest results](#105-second-round-harvest--first-results-landed-while-drafting)
+- [10.7 Context-sweep addendum](#107-context-sweep-addendum-2026-07-29-after-the-five-sweep-repo-re-analysis)
 - [11. Open asks](#11-open-asks)
 
 ---
@@ -308,6 +310,50 @@ plan (full reports in `harvest/second_round_*.md`):
   Bianchi instance is verified empty, and the Maass-algebraicity
   requirement of the BC route's cold phase is exactly what the
   campaign falsifier (§1.5) tests.
+
+## 10.7 Context-sweep addendum (2026-07-29, after the five-sweep repo re-analysis)
+
+A full re-analysis of the authoritative origin/main docs (progress
+spine, leads/doors, error/protocol rulebook, changelog/history, and
+cc's banked B793-B797 arcs; reports in `context_sweep/`) produced
+four changes a reader of this plan should know:
+
+- **PROPOSED RIDER to the campaign falsifier (cc-gated wording):**
+  the falsifier's "no alternative modality writing an observer-object
+  equation of motion" clause is HARVEST-scoped. The repo already
+  registers two in-house dynamics leads the harvest missed: the
+  parked **trace-map transfer-operator campaign** (the object's one
+  analytic/dynamical face — "no laundering theorem covers its
+  transfer-operator spectrum," B451 Ruelle data banked, flagged
+  "strongest H1 candidate," parked 2026-07-10 on a naming collision)
+  and **L72** (the CS-functional/dynamics program). Both are
+  object-side dynamics with no observer coupling, so the falsifier is
+  not voided — but its "no alternative" clause must not fire until
+  each is developed toward an observer coupling or shown unable to
+  host one. The asymmetry favors the campaign: BC is imported and
+  possibly object-blind (T6); the transfer operator is object-NATIVE.
+  Wave 2.5 gains candidate family TM-1..n.
+- **Cell hardening from the registries:** Cell 6 declares B384-T3's
+  banked triangular S-compression negative as a control; Cell 8 must
+  cite three registered priors (H118 Baez-Schwahn F4->SM door,
+  registered "expected NO"; B561 "the chain stops at F4"; B565/H121
+  gauge-behavior verdicts) and fill all 12 INPUT_COMPLETENESS_LEDGER
+  rows at prereg; the protocol wrapper regains the atlas +
+  FAILURE_ATLAS consult; the m003 comparator is used ALONGSIDE the
+  banked D2/B447 m-scan control; base-rate priors are cited with
+  scope (main's 1-for-21 governs mechanism proposals; 2-for-25 is
+  the audit seat's cumulative score).
+- **Exclusion re-scope:** the "unique-coupling selection / dense
+  dial" exclusion does not dispose of PD1.4/W2.11 (the +-1/48
+  selection-rule theorem — finite exact arithmetic, the programme's
+  single forced-coupling candidate, the gate on PD1 AND PD4);
+  remanded to cc as candidate cell vs exclusion-on-its-own-reason.
+- **Record corrections in flight both ways:** three corrections to
+  cc's banked B794/B797 records relayed (locked-test figures:
+  m004-only norm count, certification-margin units, dry-run-vs-
+  certified artifact); two of cc's corrections accepted on the
+  branch (A5/D5 scoped to HOOK; Weyl residual as consistency check,
+  never an order-one adjudicator).
 
 ## 11. Open asks
 
