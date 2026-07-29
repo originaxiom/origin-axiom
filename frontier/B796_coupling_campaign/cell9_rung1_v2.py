@@ -240,6 +240,12 @@ def newton(S, r0_str, j0=0, itmax=14, label=''):
             M0[S.n - 1, m] = flint.acb(1 if m == j0 else 0)
         rhs0[S.n - 1, 0] = flint.acb(1)
         a = M0.solve(rhs0)
+        amax = max(abs(complex(a[m, 0].real, a[m, 0].imag))
+                   for m in range(0, S.n, max(1, S.n // 200)))
+        assert amax < 1e6, (
+            f"NORMALIZATION SUSPECT: ||a||_inf ~ {amax:.1e} with "
+            f"a[j0] = 1 — the normalization mode's true coefficient "
+            f"is anomalously small; choose a different j0")
         gval = sum((rows0[S.n - 1][m] * a[m, 0] for m in range(S.n)),
                    flint.acb(0))
         return gval, a
@@ -305,9 +311,15 @@ def run(r_cert, mult2=False):
     print(f"n = {S.n} modes, x_cut = {S.x_cut:.1f}, Y = 0.75, "
           f"prec = {flint.ctx.prec} bits", flush=True)
 
-    j0_low = min(range(S.n),
-                 key=lambda m: S.modes[m][0]**2 + S.modes[m][1]**2 / 12.0)
-    print(f"normalization mode j0 = {j0_low} (lowest |mu|)", flush=True)
+    # C8 v2 (data-driven, after the symmetry-zero abort): normalization
+    # mode = the LARGEST-|a| mode of the certified double-precision
+    # eigenvector (the lowest-|mu| mode (0,1) is an exact symmetry zero
+    # for these forms — they live on the even-m2 sublattice).
+    J0_MODE = {4.900085373: (0, 2), 7.072004187: (0, 4)}
+    tgt = J0_MODE[r_cert]
+    j0_low = S.modes.index(tgt)
+    print(f"normalization mode j0 = {j0_low} = mode {tgt} "
+          f"(certified max-|a| mode)", flush=True)
     r_fin, a_fin, _ = newton(S, CERT[r_cert], j0=j0_low, label='main')
     r_str = r_fin.str(32, radius=False)
     print(f"MAIN: r = {r_str}")
