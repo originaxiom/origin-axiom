@@ -1,0 +1,5 @@
+### SHAKEDOWN MODE: digits=14, thresholds scaled, results not bankable ###
+=== CELL 9 RUNG (i) v2: target r = 4.900085373 (prereg 3ba81779) ===
+P1: PASS (10/10 samples <= 1e-27)
+n = 782 modes, x_cut = 39.9, Y = 0.75, prec = 196 bits
+  [main] iter 0: |g| = 8.67e-19, |dr| = 9.70e-05 (280s)

@@ -1,15 +1,14 @@
-r"""CELL 9 RUNG (i) v2 — conformant to sealed prereg 3ba81779.
+r"""CELL 9 RUNG (i) — conformant to sealed prereg v3 (169e9042).
 
 Usage:  python cell9_rung1_v2.py <r_certified> [--mult2]
 
-Implements EXACTLY the sealed method: Y = 0.75; joint square Newton on
-(a, r) with normalization row; P1 (>= 10 samples, compared in mpmath,
-<= 1e-27), P2 (monotone residual), P3 (gap-midpoint displaced control),
-P4 (three perturbed starts agree to >= 26 digits); validation gate
-(>= 7 overlap digits vs certified); stability cert at +5 digits sets
-|dr|_stab; mult-2 dual-normalization protocol with the pre-declared
-pair outcome. PSLQ runs in a separate stage (cell9_pslq.py) using the
-sealed noise-floor tolerance formula.
+Sealed method v3: Y = 0.75; DAMPED BRACKETED SECANT on the held-out
+row residual g(r) with the regular n x n normalized solve; P1 (10
+decimal-string samples vs mpmath dps 60, <= 1e-27); P2 strict from
+iteration 2; P3 gap-midpoint with divergence/abort = PASS; P4 three
+starts >= 26 digits; gate >= 7 overlap digits; stability cert +5
+digits. lam_1 (mult 2) is DEFERRED to rung (i-b) per v3 D-3 and is
+REFUSED by this script. PSLQ in a separate sealed stage.
 
 Gate 5-Q.
 """
@@ -272,8 +271,13 @@ def newton(S, r0_str, j0=0, itmax=14, label=''):
                 f"escape, run aborted (logged)")
         drs = abs(dr_c)
         hist.append(abs(gm1))
+        dt_it = time.time() - t0
         print(f"  [{label}] iter {it}: |g| = {abs(gm1):.2e}, "
-              f"|dr| = {drs:.2e} ({time.time()-t0:.0f}s)", flush=True)
+              f"|dr| = {drs:.2e} ({dt_it:.0f}s)", flush=True)
+        if it == 0 and dt_it > 1500:
+            print(f"  [{label}] C8 CHECKPOINT: iteration > 25 min — the "
+                  f"4-8 h/eigenvalue estimate must be revised before the "
+                  f"second target", flush=True)
         # strict P2 from iteration 2 [D-1]
         if it >= 2 and hist[-1] >= hist[-2]:
             raise AssertionError("P2 FAILED: |g| non-decreasing")
@@ -287,15 +291,24 @@ def newton(S, r0_str, j0=0, itmax=14, label=''):
 
 
 def run(r_cert, mult2=False):
+    assert abs(r_cert - 3.938916864) > 1e-6, (
+        "lam_1 (mult 2) is DEFERRED to rung (i-b) per sealed v3 D-3 — "
+        "refused")
+    assert not mult2, (
+        "--mult2 pair protocol is the superseded v2 procedure; deferred "
+        "to rung (i-b)")
     t00 = time.time()
     print(f"=== CELL 9 RUNG (i) v2: target r = {r_cert} "
-          f"(prereg 3ba81779) ===", flush=True)
+          f"(prereg v3 169e9042) ===", flush=True)
     p1_check(r_cert)
     S = Sys(r_cert)
     print(f"n = {S.n} modes, x_cut = {S.x_cut:.1f}, Y = 0.75, "
           f"prec = {flint.ctx.prec} bits", flush=True)
 
-    r_fin, a_fin, _ = newton(S, CERT[r_cert], j0=0, label='main')
+    j0_low = min(range(S.n),
+                 key=lambda m: S.modes[m][0]**2 + S.modes[m][1]**2 / 12.0)
+    print(f"normalization mode j0 = {j0_low} (lowest |mu|)", flush=True)
+    r_fin, a_fin, _ = newton(S, CERT[r_cert], j0=j0_low, label='main')
     r_str = r_fin.str(32, radius=False)
     print(f"MAIN: r = {r_str}")
 
@@ -313,7 +326,7 @@ def run(r_cert, mult2=False):
     vals = [r_str]
     for eps in ('+1e-7', '-1e-7'):
         rp = mp.nstr(mp.mpf(CERT[r_cert]) + mp.mpf(eps), 20)
-        rv, _, _ = newton(S, rp, j0=0, itmax=6, label=f'P4{eps}')
+        rv, _, _ = newton(S, rp, j0=j0_low, itmax=6, label=f'P4{eps}')
         vals.append(rv.str(32, radius=False))
     d1 = abs(mp.mpf(vals[0]) - mp.mpf(vals[1]))
     d2 = abs(mp.mpf(vals[0]) - mp.mpf(vals[2]))
@@ -323,8 +336,8 @@ def run(r_cert, mult2=False):
 
     # P3: gap-midpoint displaced control [D-2: divergence/abort = PASS]
     try:
-        rd, _, _ = newton(S, str(GAP_MIDPOINTS[r_cert]), j0=0, itmax=5,
-                          label='P3')
+        rd, _, _ = newton(S, str(GAP_MIDPOINTS[r_cert]), j0=j0_low,
+                          itmax=5, label='P3')
         ddist = abs(mp.mpf(rd.str(32, radius=False)) - mp.mpf(r_str))
         assert ddist > mp.mpf('1e-20'), \
             "P3 FAILED: displaced start converged to target"
@@ -345,7 +358,8 @@ def run(r_cert, mult2=False):
     DIGITS = DIGITS + 5
     flint.ctx.prec = int((DIGITS + 45) * 3.33)  # +45 guard digits: arb LU ball growth near the (by-design) nearly singular M(r)
     S2 = Sys(r_cert, digits=DIGITS)
-    r2, _, _ = newton(S2, r_str[:20], j0=0, itmax=5, label='cert')
+    j0b = min(range(S2.n), key=lambda m: S2.modes[m][0]**2 + S2.modes[m][1]**2 / 12.0)
+    r2, _, _ = newton(S2, r_str[:20], j0=j0b, itmax=5, label='cert')
     DIGITS, flint.ctx.prec = old_digits, old_prec
     dstab = abs(mp.mpf(r2.str(34, radius=False)) - mp.mpf(r_str))
     stab_bar = mp.mpf('1e-11') if SHAKEDOWN else mp.mpf('1e-26')
@@ -356,7 +370,7 @@ def run(r_cert, mult2=False):
               'r_stability': r2.str(34, radius=False),
               'dr_stab': mp.nstr(dstab, 5), 'stab_ok': bool(ok_stab),
               'n_modes': S.n, 'Y': 0.75, 'digits': 27,
-              'gate_overlap_digits': agree, 'prereg': '3ba81779'}
+              'gate_overlap_digits': agree, 'prereg': '169e9042'}
 
     if mult2:
         # dual normalization
@@ -371,7 +385,10 @@ def run(r_cert, mult2=False):
               f"{'NEAR-DEGENERATE PAIR' if result['near_degenerate_pair'] else 'single parameter'}",
               flush=True)
 
-    with open(f"{OUT}/cell9_rung1_v2_{r_cert:.4f}.json", 'w') as f:
+    result['shakedown'] = bool(SHAKEDOWN)
+    result['digits_actual'] = DIGITS
+    tag = '_SHAKEDOWN' if SHAKEDOWN else ''
+    with open(f"{OUT}/cell9_rung1_v3_{r_cert:.4f}{tag}.json", 'w') as f:
         json.dump(result, f, indent=1)
     print(f"TOTAL {time.time()-t00:.0f}s — saved", flush=True)
 
