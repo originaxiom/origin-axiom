@@ -40,41 +40,45 @@ verdict as a prior; anything generic to Q(√−3) objects is credited
 to the field, never to m004 (the T6 anabelian control enforces the
 same discipline on the dynamics side).
 
-**CAMPAIGN FALSIFIER (declared before any test runs; cc-gated
-wording).** The BC/CM route is the only dynamics-native mechanism the
-harvest identified. Its β=∞/Galois half requires an arithmetic
-subalgebra whose KMS_∞ values are algebraic — on the Bianchi side this
-must come from m004's Maass spectrum, which is not known (and mostly
-not believed) to carry the required algebraicity. **If the
-deep-precision algebraicity test (50+ digits, the standing open
-remainder of B797) returns negative with adequate power — power
-defined by a sealed digit budget and basis list per B743 — that route
-cannot be completed. With no alternative modality writing an
-observer–object equation of motion, this outcome is evidence for H2
-over H0.** The literature prior is AGAINST algebraicity, so a positive
-would be extraordinary and a negative is genuinely informative;
-neither side is pre-committed (B797 records the question open in both
-directions). Fallback discipline: if the falsifier is voided (e.g.,
-the precision proves unreachable), the campaign relabels
-**exploratory-interpretive** and nothing from it banks as evidence FOR
-H0 — mechanism-exclusions only. This makes the mp-arithmetic
-high-precision eigenvalue solve the campaign's KEYSTONE computation
-(Cell 9).
+**CAMPAIGN FALSIFIER (restructured per chat1's review, 2026-07-29;
+wording cc-gated).** The BC/CM route is the only dynamics-native
+mechanism the harvest identified. Its β=∞/Galois half requires an
+arithmetic subalgebra whose KMS_∞ values are algebraic — on the
+Bianchi side this must come from m004's Maass spectrum, not known
+(and mostly not believed) to carry the required algebraicity.
 
-**PROPOSED RIDER to the campaign falsifier (filed to cc; the wording
-is cc-gated):** the falsifier's clause "no alternative modality
-writing an observer–object equation of motion" is HARVEST-scoped.
-The context sweep found two REPO-registered dynamics leads the
-harvest missed: the parked trace-map transfer-operator campaign (the
-object's one analytic/dynamical face, no laundering theorem covers
-it, B451 Ruelle spectrum banked, "strongest H1 candidate") and L72
-(the CS-functional/dynamics program). Both are object-side dynamics
-without an observer coupling — the falsifier is not voided — but
-before its "no alternative" clause can fire, each must be either
-developed toward an observer coupling or shown unable to host one.
-Note the asymmetry: BC is imported and possibly object-blind (T6);
-the transfer operator is object-NATIVE. Wave 2.5 gains candidate
-family TM-1..n (the parked prereg's four unrun sub-items).
+- **PRIMARY (bounded, bankable): the mechanism-exclusion.** If the
+  deep-precision algebraicity test (Cell 9) returns negative within
+  the SEALED POWER BOX — degree/height bounds (d, H) and digit budget
+  fixed in the Cell 9 prereg BEFORE the solve, per the PSLQ power law
+  N ≳ 1.43·d·log₁₀H (at 8 digits there is NO power; at 50 digits,
+  d ≤ 4 relations of height ≤ 10⁸ are excluded; at 100 digits,
+  d ≤ 8 / H ≤ 10⁹) — then **the BC/CM route CLOSES.** Bounded,
+  decidable, needs no survey of alternatives.
+- **SECONDARY (conditional): the H2-favoring inference.** The
+  further step "…and therefore evidence for H2 over H0" fires ONLY
+  once the two in-house dynamics leads (the parked transfer-operator
+  campaign, L72) are separately dispositioned — developed toward an
+  observer coupling or shown unable to host one. Until then the
+  campaign's bankable outcome is the mechanism-exclusion, never the
+  premise verdict. (This keeps §9's standard one level up without
+  the §10.7 rider re-opening E32 through the honest door.)
+
+The literature prior is AGAINST algebraicity: a positive would be
+extraordinary (→ cc adversarial re-derivation before anything else);
+a negative is genuinely informative; neither side pre-committed.
+Fallback: if the sealed power box proves unreachable, the campaign
+relabels **exploratory-interpretive**; mechanism-exclusions only.
+Cell 9 is the KEYSTONE computation.
+
+**RIDER (context sweep; now folded into the SECONDARY clause
+above):** the two repo-registered dynamics leads the harvest missed —
+the parked trace-map transfer-operator campaign (object-NATIVE, B451
+Ruelle data, "strongest H1 candidate") and L72 — gate only the
+SECONDARY H2-inference, never the PRIMARY mechanism-exclusion.
+Asymmetry on the record: BC is imported and possibly object-blind
+(T6); the transfer operator is object-native. Wave 2.5 gains
+candidate family TM-1..n (the parked prereg's four unrun sub-items).
 
 **Honesty clause (the critic's G22, scope per cc's gate):** every
 Wave 1–3 cell tests coupling **STRUCTURE**. The second-round harvest
@@ -183,7 +187,11 @@ engineering cost: holonomy ≠ ⟨A,B⟩), compute to r = 10 at 8 digits.
 Pre-stated: parent forms incl. 51.0132434 appear IDENTICALLY in both
 sisters; newform spectra differ. Then the STANDING GATE, sealed now
 for all future value-facing cells: **any coupling model that fires
-equally on m003 and m004 is refuted as volume numerology.** Also:
+equally on m003 and m004 is refuted as volume numerology.**
+PROVENANCE (chat1): this gate is B727's decisive control given an
+instrument — B727 already established that m003 TIES m004 on field
+and volume (the SM-resonance is the field's); the gate operationalizes
+that finding at the spectral level rather than inventing it. Also:
 attempt the m003 "≡ 1 mod 4" congruence half (my mod-4 method applies
 if m003's holonomy is pinned in PSL(2,O₃)).
 
@@ -193,12 +201,25 @@ if m003's holonomy is pinned in PSL(2,O₃)).
 enumerate anomaly-free compact-slice + matter assignments the grammar
 admits; Distler–Garibaldi-style chirality audit BEFORE any numerics.
 If none pass: the E6-skeleton coupling family closes — a clean
-negative. REGISTERED PRIORS Stage A must cite (context sweep): H118
+negative. REGISTERED PRIORS Stage A must cite (context sweep + chat1): H118
 (the Baez–Schwahn F₄→SM door, arXiv 2606.15235, registered "expected
 NO"); B561 ("the chain stops at F₄" — no order-3 automorphism at the
-geometric point, five independent checks); and, as Stage-B priors,
-B565/H121's gauge-behavior verdicts (screening, never asymptotically
-free). Stage B (ONLY with owner-sealed Gate-5-SM design): 1–2-loop
+geometric point, five independent checks); **B727/E20 one-bit
+statement in the prereg** (the E₆ label carries one bit — trace field
+Q(√−3) — relabelled downstream; the cell inherits no unaudited
+grammar premise); and, as Stage-B priors, B565/H121's gauge-behavior
+verdicts (screening, never asymptotically free) **plus B736's
+rigorous NO-GO on Stage B's exact target** (the equivariance wall:
+the Sylvester intertwiner being↔hearing has disjoint spectra ⇒
+T = 0; no C-linear map transports a continuous quantity across;
+0 of ~24 SM parameters reduced) — Stage B's prereg must state
+explicitly how transmutation-with-one-imported-scale evades or
+respects that wall, or Stage B cannot seal. AUTOPSY NOTE: B736's
+equivariance wall was MISSED by the coupling-attempts autopsy (its
+PATH B appears in the observer-formalism harvest; the wall itself
+nowhere) because the agent's target list enumerated arcs and B736
+was not on it — the autopsy is authoritative only for the arcs
+named; its "never-tried" list is not exhaustive. Stage B (ONLY with owner-sealed Gate-5-SM design): 1–2-loop
 Λ_i/Λ_j ratios under one unification boundary condition vs SM ratios
 under the B743 harness, all 12 INPUT_COMPLETENESS_LEDGER rows filled
 at prereg time, selection entropy declared in bits;
@@ -208,18 +229,25 @@ bits(selection) ≥ bits(match) voids the cell.
 
 **Cell 9 — DEEP-PRECISION EIGENVALUES + ALGEBRAICITY.** Build the
 mp-arithmetic Hejhal solve (symmetrized modes to cut the system size;
-50+ digit K-Bessel via mpmath; Newton refinement on the reduced
-square system from the double-precision eigenvectors). Target: λ₁–λ₆
-of m004 and the parent ground state at ≥ 50 digits. Then the sealed
-algebraicity test: PSLQ against a pre-named basis list and digit
-budget (per B743, sealed BEFORE the solve completes). This is the
-instrument of the CAMPAIGN FALSIFIER: a negative with the sealed
-power favors H2 over H0; a positive would be extraordinary
-(literature prior against) and goes to cc for adversarial
-re-derivation before anything else. Engineering risk is real
-(high-precision linear algebra at ~10²–10³ dims); if the precision
-proves unreachable, the fallback discipline (exploratory-interpretive
-relabel) triggers — that outcome is itself recorded, not hidden.
+50+ digit K-Bessel; Newton refinement on the reduced square system
+from the double-precision eigenvectors). Target: λ₁–λ₆ of m004 and
+the parent ground state at ≥ 50 digits. Then the sealed algebraicity
+test: PSLQ against a pre-named basis list with a **SEALED POWER BOX**
+— degree and height bounds (d, H) fixed in the prereg per
+N ≳ 1.43·d·log₁₀H (chat1's calibration off BSV: d ≤ 10, H ≤ 10⁷ at
+~100 digits). Without the sealed (d, H) box, "negative with adequate
+power" is repairable after the fact by pleading higher degree, and
+the campaign falsifier stops being one. **HONEST COST (chat1's
+correction): 8 → 50 digits is NOT a refinement** — modes scale
+~linearly with precision (900 → ~5600), the dense solve as the cube
+(~244×), plus 10–100× arbitrary-precision overhead: **10⁴–10⁵× the
+certified run, on a different numerical stack** (mp Bessel + mp
+linear algebra). The §16 review is cheap; the computation is not.
+Outcome semantics per the restructured falsifier: negative-in-box ⇒
+the BC/CM route CLOSES (primary, bounded); the H2 inference is the
+separate conditional. A positive goes to cc for adversarial
+re-derivation before anything else. If the box proves unreachable:
+exploratory-interpretive relabel, recorded, not hidden.
 
 ## DEPENDENCY SPINE (sealed with the preregs)
 
@@ -330,7 +358,12 @@ negatives computed in-sandbox; distinct-vs-multiplicity counting
 explicit; discard-reporting on every filter (the new error class);
 structural coincidences face the same base-rate knife as decimals;
 atlas + FAILURE_ATLAS consult before each probe (mandated by prior
-campaigns; restored here); base-rate priors cited with scope — Chat-1's
+campaigns; restored here); rung-4 comparisons run ONLY as labelled
+INSTRUMENT CALIBRATION, never as evidence, stated at prereg (chat1's
+amendment: the B792/B797 null is the worked example — 39 candidates
+→ 0 gated, including cc's 4-sig-fig near-hit, is a calibration
+result about the base-rate machinery, and that calibration is the
+ground for trusting rung-1 when Cell 9 runs); base-rate priors cited with scope — Chat-1's
 1-for-21 governs mechanism proposals (B790:260), cc3's 2-for-25 is the
 audit seat's cumulative score (B784:287); the m003 comparator is used
 ALONGSIDE the banked standard control D2/B447 (the m-scan harness),

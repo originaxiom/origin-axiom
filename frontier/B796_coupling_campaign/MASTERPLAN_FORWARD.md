@@ -49,15 +49,21 @@ harvest identified. Its beta=infinity/Galois half requires an
 arithmetic subalgebra whose KMS values are algebraic — on the Bianchi
 side this must come from m004's Maass spectrum, which is not known
 (and mostly not believed) to carry the required algebraicity.
-**CAMPAIGN FALSIFIER, declared in advance: if the deep-precision
-algebraicity test (50+ digits, the standing open remainder of B797;
-Cell 9, the campaign keystone) returns negative with sealed power,
-that route cannot be completed; with no alternative modality writing
-an observer-object equation of motion, the outcome favours H2 over
-H0.** The literature prior is against algebraicity, so neither side is
-pre-committed. Fallback discipline: if the falsifier is voided, the
-campaign relabels exploratory-interpretive and nothing banks as
-evidence FOR H0 — mechanism-exclusions only.
+**CAMPAIGN FALSIFIER (restructured per chat1's review): PRIMARY =
+the bounded mechanism-exclusion** — a negative from the deep-precision
+algebraicity test (Cell 9, the keystone) within a SEALED POWER BOX
+(degree/height bounds (d, H) + digit budget fixed at prereg per
+N ≳ 1.43·d·log₁₀H; at 8 digits there is NO power) **closes the BC/CM
+route.** Bounded, bankable, needs no survey of alternatives.
+**SECONDARY (conditional):** the H2-favoring inference fires only
+once the two in-house dynamics leads (the parked transfer-operator
+campaign, L72) are separately dispositioned — this keeps the §10.7
+rider from re-opening E32 through the honest door. The literature
+prior is against algebraicity; neither side pre-committed. Fallback:
+if the box proves unreachable, exploratory-interpretive relabel;
+mechanism-exclusions only. Honest cost note: 8 → 50 digits is
+10⁴–10⁵× the certified run on a different numerical stack — the §16
+review is cheap; the computation is not.
 
 **Honesty clause (the critic's G22, scope per cc's gate):** every
 Wave 1-3 cell tests coupling **structure**. The second-round harvest
@@ -205,7 +211,12 @@ Declared trap: b = 1 factorization degenerates; the closed-form route
 is mandatory.
 
 **Cell 6 — SECTOR LADDER.** Decompose L²(m004) under the
-PSL(2,Z[ω]/4) coset action (12 = 1+5+6); assign all 17 eigenvalues;
+**SL(2,Z[ω]/4)/{±I}** coset action (12 = 1+5+6) — E21 guard (chat1):
+the TRUE PSL(2,Z[ω]/4) has center order 4 and order 960, and its
+coset action on the image has degree 6; the degree-12 action carrying
+1+5+6 is the intermediate quotient SL/{±I}, order 1920. A seat
+building PSL from the definition gets degree 6 and the cell fails for
+the wrong reason. Assign all 17 eigenvalues;
 sealed-in-advance table of which functionals are object-fixed vs
 sector-moving. Cross-check against the projection-test labels —
 disagreement indicts one method.
