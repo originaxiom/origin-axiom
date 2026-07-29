@@ -8279,3 +8279,22 @@ having no gate, because it reports assurance it is not providing. The checker no
 scripts/checks/, the gotcha is documented at both ends, and the gate was changed from fail-open to
 fail-closed so that a missing checker reads as a failure rather than a pass. Confirmed by hiding
 the module and watching the gate go red.
+
+Vacuity sweep over the test suite, on the owner's directive for another verification swipe. Of
+2903 test functions, eight passed unconditionally. The worst was a cross-seat check: a test named
+for agreement between two seats compared cc's flip vectors against a second hand-typed copy of the
+same literals, so it verified its own transcription and nothing else. Close behind, an F11 lock
+that called itself grep-verifiable counted marker hits and then executed a bare pass, and named a
+directory that does not exist, so it would have scanned nothing even had it asserted. A BSD test
+read assert True followed by an assertion that 121 equals 11 squared. Every underlying claim was
+computed before any repair, and every one of them held: the 15a1 curve has rank 0 and torsion of
+order 8 with structure Z/4 plus Z/2, the voice artifacts are genuinely free of golden markers, the
+Eisenstein ring has exactly two automorphisms, and the derived flip vectors reproduce the banked
+literals exactly. So nothing banked was falsified. What the sweep bought is not a correction but
+the restored ability to detect one. Each repair was then mutation-tested: breaking the golden
+Galois or the theta action turns the flip-vector locks red, planting a marker turns F11 red,
+making gamma5 the identity turns the canonicity lock red. The scanner itself needed calibration
+first, having reported 103 both-literal comparisons of which a hand-sample of six showed two were
+its own false positives; after excluding mutated and reassigned bindings it reports 65, and that
+number is registered as a review queue rather than a defect count, since deliberate data-locks
+written as arithmetic also cannot fail but are documentation. Nothing to CLAIMS.

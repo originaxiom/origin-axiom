@@ -2437,7 +2437,21 @@ exactly where φ enters arithmetically (Frobenius gluing trivial at p=3, nontriv
 ### Action items (Review 32, addendum)
 - [ ] R32-9b: re-run the law-harvest over the **105 unread** corrected-filter candidates. Top by
   density: B530, B490, B517, B186, B173, B103, B116, B521, B569.
-- [ ] R32-10: add K021–K024 to `knowledge/INDEX.md`.
+- [x] R32-10: K021–K024 (and K025, a loose bullet) restored to `knowledge/INDEX.md`; a
+  `knowledge-index` gate now enforces both directions.
+- [x] R32-12 (vacuity sweep, owner: *"another verification swipe"*): 8 unconditionally-passing
+  tests found and repaired — every underlying claim verified TRUE first, so nothing banked was
+  falsified; the locks simply were not locking. Worst three: a *cross-seat* check comparing two
+  hand-typed copies of the same dict (`test_flip_vectors_match_cc`), an F11 lock that counted
+  grep hits then executed `pass` **and** named a directory that does not exist, and a BSD test
+  reading `assert True` + `assert 121 == 11**2`. All repairs mutation-verified (break the
+  mechanism → test goes red). New `test-vacuity` gate enforces the two hard classes.
+- [ ] R32-12b: triage the **65** BOTH-LITERAL entries in
+  `docs/progress/R32_vacuity_review_queue.txt`. This is a REVIEW QUEUE, **not** a defect list —
+  a sample of six gave 1 real vacuity (fixed: `test_b709_turok`), 2 scanner false positives
+  (both now excluded by rule), and 3 deliberate data-locks written as arithmetic
+  (`assert 52 + 26 == 78`, recording E6 adj = F4 adj + the 26) which cannot fail but are
+  documentation, not mistakes. Do not quote 65 as a defect count.
 - [>] R32-11 (carried): the flagship did not clear its own internal review (3 referees →
   major-revision / reject-as-fused) and `REVIEW_VERDICT_2026-07-05.md` lists unactioned findings
   (a disc(√5) sign error, an unsupported "three methods agree", a conjecture badged "Theorem",

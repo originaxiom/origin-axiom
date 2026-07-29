@@ -395,6 +395,33 @@ def gate_path_refs():
     return True, f"ok ({total} citations resolve)"
 
 
+def gate_test_vacuity():
+    """No test may be unconditionally-passing: no NO-ASSERT, no TAUTOLOGY.
+
+    The programme's ledger already carries this failure twice (E31 vacuous verification; MB12
+    check-the-criterion-can-fail), and a 2026-07-29 sweep found 8 live instances -- among them a
+    'cross-seat check' comparing two hand-typed copies of the same dict, and an F11 'grep-
+    verifiable' lock that counted marker hits and then executed `pass`. Every underlying claim
+    turned out TRUE, so nothing banked was falsified; the locks simply were not locking.
+
+    Only the two hard classes gate. The checker's BOTH-LITERAL class needs human judgement (a
+    deliberate data-lock like `assert 52 + 26 == 78` also cannot fail but is documentation, not
+    a defect), so it is reported, not enforced."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import check_test_vacuity as ctv
+    except Exception as exc:
+        return False, f"vacuity checker missing or unimportable: {exc}"   # fail-closed
+    finally:
+        sys.path.pop(0)
+    total, no_assert, tautology, both_lit = ctv.scan()
+    problems = no_assert + tautology
+    if problems:
+        return False, f"{len(problems)} unconditionally-passing test(s): " + \
+                      "; ".join(problems[:5])
+    return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -408,6 +435,7 @@ GATES = {
     "id-collisions": gate_id_collisions,
     "knowledge-index": gate_knowledge_index,
     "path-refs": gate_path_refs,
+    "test-vacuity": gate_test_vacuity,
 }
 
 

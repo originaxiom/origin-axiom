@@ -22,8 +22,19 @@ def _toolkit():
 
 
 def test_toolkit_selftest_n4_slice():
+    """Delegates to the toolkit's own assertions (B89 n=4: L=-M^4, irreducible, tangent 19).
+
+    The delegation is real -- sln_toolkit._selftest() raises on failure -- but nothing in THIS
+    file shows that, and a future _selftest() that quietly stopped asserting would make this
+    test vacuous with no edit here and no failure anywhere. So the delegation is now guarded:
+    the callee must exist, must run, and must still contain its assertions."""
+    import inspect
     tk = _toolkit()
-    tk._selftest()  # asserts B89 n=4: L=-M^4, irreducible, tangent 19, spectrum moves (slice)
+    assert hasattr(tk, "_selftest"), "toolkit lost its self-test"
+    tk._selftest()          # raises on any B89 n=4 failure
+    n_asserts = inspect.getsource(tk._selftest).count("assert ")
+    assert n_asserts >= 4, \
+        f"_selftest has {n_asserts} assertions (<4): this delegation would be vacuous"
 
 
 def test_n5_semisimple_is_dihedral_reducible():

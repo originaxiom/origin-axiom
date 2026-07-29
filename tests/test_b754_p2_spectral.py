@@ -58,25 +58,36 @@ def test_tomb_l77_saddle_field():
     assert abs(z0 - (-omega**2)) < 1e-14, "z₀ = -ω² ∈ O_K"
 
 def test_b746_f11_golden_free():
-    """B746 F11 reconfirmed: zero golden markers in voice artifacts."""
+    """B746 F11 reconfirmed: zero golden markers in the banked voice artifacts (B737/B739).
+
+    Repaired 2026-07-29. The previous body was vacuous TWICE OVER: it counted marker hits and
+    then executed `pass`, so it passed no matter what the files contained; and it named
+    'B737_zeta_quotient_voice', which does not exist (the arc is 'B737_candidate_zero'), so the
+    `if not os.path.isdir: continue` silently skipped half the intended scan. A test that can
+    pass by finding nothing to look at is the same defect as one that asserts nothing.
+
+    F11 calls itself "grep-verifiable", so this now greps and asserts -- including a guard that
+    files were actually scanned, which is what the directory typo defeated."""
     import glob
     voice_dirs = [
         os.path.join(os.path.dirname(__file__), '..', 'frontier', d)
-        for d in ['B737_zeta_quotient_voice', 'B739_character_rigidity']
+        for d in ['B737_candidate_zero', 'B739_character_rigidity']
     ]
     markers = ['golden', 'fibonacci', 'sqrt5', 'sqrt(5)', 'phi^2', 'phi**2']
+    scanned, offenders = [], []
     for vd in voice_dirs:
-        if not os.path.isdir(vd):
-            continue
+        assert os.path.isdir(vd), f"voice dir missing -- F11's scan would be vacuous: {vd}"
         for fn in glob.glob(os.path.join(vd, '**', '*.md'), recursive=True):
             if 'FINDINGS' not in os.path.basename(fn):
                 continue
             with open(fn) as f:
                 text = f.read().lower()
+            scanned.append(fn)
             for m in markers:
-                hits = text.count(m.lower())
-                if hits > 0 and m in ('golden', 'fibonacci'):
-                    pass  # these may appear in metadata/cross-refs, not as voice values
+                if text.count(m.lower()):
+                    offenders.append((os.path.relpath(fn), m, text.count(m.lower())))
+    assert len(scanned) >= 2, f"expected a FINDINGS in each voice dir, scanned {scanned}"
+    assert not offenders, f"F11 claims zero golden markers; found {offenders}"
 
 def test_face_irrelevant_b516():
     """B516 FACE-IRRELEVANT: Q(√−3) ∩ Q(√5) = Q (fields arithmetically disjoint)."""

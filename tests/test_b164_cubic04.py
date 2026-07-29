@@ -34,4 +34,13 @@ def test_metallic_degrees_and_trace_fields():
         M = sp.Matrix([[m, 1], [1, 0]])
         lam = max(M.eigenvals(), key=lambda e: abs(complex(e)))
         assert sp.simplify(lam - (m + sp.sqrt(m**2 + 4)) / 2) == 0   # lambda_m
-        assert sp.sqrt(m**2 + 4) == sp.sqrt(m**2 + 4)                # trace field Q(sqrt(m^2+4))
+        # trace field Q(sqrt(m^2+4)). Was `assert sqrt(m^2+4) == sqrt(m^2+4)`, true of any
+        # expression; verify the field instead -- lam_m has degree 2 with min poly x^2 - m x - 1,
+        # and Q(lam_m) = Q(sqrt(d)) for d the SQUAREFREE part (m=2 gives Q(sqrt8) = Q(sqrt2)).
+        t = sp.Symbol('t')
+        mp = sp.minimal_polynomial(lam, t)
+        assert sp.expand(mp - (t**2 - m*t - 1)) == 0                 # min poly, hence degree 2
+        d = m**2 + 4
+        sqfree = sp.prod([p for p, e in sp.factorint(d).items() if e % 2])
+        assert sp.sqrt(d) / sp.sqrt(sqfree) == sp.nsimplify(sp.sqrt(d) / sp.sqrt(sqfree)) \
+            and sp.simplify(sp.sqrt(d) / sp.sqrt(sqfree)).is_rational  # same field
