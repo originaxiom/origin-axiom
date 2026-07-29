@@ -2362,3 +2362,30 @@ was ~55 arcs behind.
   produced a false n=2 mismatch; the E33 rule (name the defect path before reporting) caught that
   the defect was cc's. Locked in `tests/test_b534_b533_b120_harvest.py`, which guards that exact
   ordering error. Backlog before B113 remains uncertified by this review's modulus.
+
+### Review 32 — ADDENDUM (same day): the rest of the documentation
+
+The first pass refreshed six `docs/` views and **left the front door**. Owner challenge —
+*"what about readme and all other mds"* — prompted a full survey of the 1928 tracked `.md`.
+Almost all are frontier FINDINGS (append-only history, correctly untouched). Three findings:
+
+1. **README described B152–B230 as "the frontier"** while the bank stood at B798 — roughly 570
+   arcs behind, and silent on the observer turn, the closure programme, THE CHAIN, and the whole
+   spectral turn. **Refreshed**, and `README.md` + `ROADMAP.md` are now **inside the `views-fresh`
+   gate**, so the front door can no longer go stale without failing the build.
+2. **Two cross-seat relay files were tracked.** Relays are correspondence, not substrate. But the
+   two are not alike: the loose one at repo root is the violation, while the one inside
+   `frontier/B702_.../` is that arc's **archived evidence packet** — the same distinction the
+   path guard already makes for `cc2_packets` ("history, not live code"). The
+   `tracked-forbidden` gate now forbids **loose** relays (root or `docs/`) and allows archived
+   arc packets; the pre-existing loose one is grandfathered, since §12 forbids removing banked
+   paths.
+3. **A checked non-conflict, recorded so it is not re-opened.** README says the character variety
+   **is** `40a1`; LAW_MAP carries `15A8`. These are **different objects** — 40a1 is the character
+   variety (B211, CLAIMS E9, conductor 2³·5), 15A8 is the curve at conductor 3·5 = the congruence
+   level. Verified before editing rather than "corrected" on sight.
+
+**Constitution-tier documents deliberately NOT refreshed** (they change by amendment, not by
+review): `GOVERNANCE.md`, `METHOD.md`, `WORKING_RULES.md`, `TERMINOLOGY.md`, `PROVENANCE.md`,
+`REPRODUCIBILITY.md`, `CLAIMS.md`. `AUDIT_REPORT.md` is a dated historical audit and stays as
+history.

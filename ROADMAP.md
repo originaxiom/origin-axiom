@@ -150,3 +150,26 @@ failure modes is itself the contribution.
   tried? the adjacent unasked question to each banked result? what would a skeptic say is missing?") → new
   `QUESTION`-type rows in `docs/HINT_LEDGER.md`. (Internalizes the chat1/chat2 cross-check so new questions don't
   depend on it.)
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*Navigation view, regenerated at each decadal review; freshness enforced by the `views-fresh`
+gate (GOVERNANCE §12: "freeze the substrate; generate the views").*
+
+**Where the phase ladder actually stands.** Phase 0 locked; Phase A complete; **Phase B is the
+live frontier**; Phase C in progress. The operative planning document is no longer this file but
+`docs/CLOSURE_MASTERPLAN.md` (Phase 2 structural sweep → Phase 3 correspondence enumeration →
+Phase 4 walls → an unreached Phase 5 capstone), with `docs/THEOREM_LEDGER.md` (C1–C23) as the
+forced-core ledger it feeds.
+
+**Cadences — status.** The WIDEN / QUESTION cadences remain standing. The **law-harvest** (a
+standing item since Review 31) ran twice: 6 buried laws recovered at Review 31, and **4 more at
+Review 32** from a 33-arc pre-B788 backlog filter (B471, B534, B533, B120). The **decadal review**
+fires every ~20 merges and now additionally **must refresh every navigation view** — enforced, not
+remembered.
+
+**Live gates on any physics reading:** Gate 5 (no SM quantities to CLAIMS), Gate 5-Q
+(phenomenology firewall), and **L91** — the typed-functor obligation that `WORKING_RULES` rule 6
+names as the thing physics readings wait on. L91 obligations (1)–(3) are open.

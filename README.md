@@ -70,26 +70,37 @@ The honest one-line status:
 > physical theory of spacetime, matter, or cosmology; the physics arc is closed at its
 > honest boundary.
 >
-> The frontier since then maps the **one object through four faces** (B152–B230): the
-> figure-eight character variety **is** the elliptic curve `40a1` (conductor `2³·5`,
-> non-CM); the object's **dual McKay** structure is `E₈` (golden field `ℚ(√5)`) + `E₆`
-> (hyperbolic field `ℚ(√−3)`), with `E₇` excluded; and the golden case's multiplicity
-> drives an **emergent `N=1` superconformal (tricritical-Ising, `c=7/10`) symmetry**, with
-> golden uniquely SUSY. Every one of these is a *structural rhyme* at the Betti / rep-theory
-> / dimensionless level — the dimensional firewall is reconfirmed against external
-> frameworks, nothing crosses to physics, nothing promotes to `CLAIMS.md`.
+> **The frontier since then** (refreshed 2026-07-29, Review 32). The four-faces era
+> (B152–B230) established the arithmetic core: the figure-eight character variety **is** the
+> elliptic curve `40a1`; the **dual McKay** structure is `E₈` (`ℚ(√5)`) + `E₆` (`ℚ(√−3)`), `E₇`
+> excluded; and the golden case drives an emergent `N=1` superconformal (`c=7/10`) symmetry.
+> Work since has moved through three further phases:
 >
-> **Since then (B231–B314), the firewall itself became a theorem.** The object is **two-ended**
-> (`E₆`/`ℚ(√−3)`/Eisenstein ↔ `E₈`/`ℚ(√5)`/golden, `E₇` excluded by Niven), its `E₆`
-> character variety carries the standard `E₆` GUT cascade (generic Lie theory + the one
-> object-specific datum, the Eisenstein `ω` at trinification), and its quantization (Face IV)
-> houses the *same* `E₆` as the CIZ `SU(2)₁₀` modular invariant — but always the **form**, never
-> the values. The honest one-line: **the object forces *form/structure*, never physical
-> *values*** — and this is now a **Galois theorem**: every discrete invariant is a Galois orbit
-> of the object's own arithmetic (the `±π/6` CP sign on `ℚ(√−3)`, the colored-Jones data on
-> `ℚ(√5)`), so a "value" is exactly what a Galois orbit cannot be. This *strengthens* the
-> firewall (`GOVERNANCE §2` proven, not merely imposed); it is **not** a theory of physics.
-> See `knowledge/K020`, `philosophy/P013`. Still nothing crosses; nothing promotes to `CLAIMS.md`.
+> - **The observer turn (B700s).** The object is characterised as *timeless, scaleless and
+>   valueless*: chirality, values, time and the spatial manifold are the **observer's closings**
+>   of its incompletenesses. This is formalised as a measurement torsor and a forced-core chain
+>   (`docs/THEOREM_LEDGER.md`, C1–C23).
+> - **The closure programme (B770s).** A structural sweep, a correspondence enumeration, and a
+>   standing negatives-hunt — with a heavy record of *self-correction*: a single audit produced
+>   five retractions and four demotions.
+> - **The spectral turn (B788–B798).** m004's **Maass spectrum now exists** — 17 eigenvalues,
+>   mode-count certified, independently reproduced on a second instrument, one inherited from the
+>   parent Bianchi group and sixteen Γ₄₁-relative. Two theorems fell out (Γ₄₁ is **congruence of
+>   level (4)**; every geodesic trace norm is **≡ 0 or 3 mod 4**). An SM comparison returned a
+>   clean null — and the protocol had already ruled that comparison **inadmissible as evidence**
+>   (`docs/LISTENING_PROTOCOL.md` §1: rung-4 number-matching is "dead on arrival"), so it counts
+>   as *instrument calibration*, not a result about the object.
+>
+> **Where the physics question actually stands.** No no-go theorem blocks it; the constitution
+> (§2) already scopes the project to the *form* of physics, never its *contents*, and
+> `WORKING_RULES` rule 6 names the gate: **physics readings wait on L91**, whose obligations
+> (1)–(3) are open. The one live quantitative thread is **rung-1 algebraicity** of the Maass
+> spectrum — the hinge of the only dynamics-native mechanism found (Bost–Connes/CM), and the
+> declared falsifier of the current coupling campaign. `frontier/B798` seals what "adequate
+> power" must mean there: BSV parity needs **100 certified digits**, not 50.
+>
+> Everything above is **structure**, at the Betti / rep-theory / dimensionless level. The
+> dimensional firewall stands; nothing crosses to physics; nothing promotes to `CLAIMS.md`.
 
 ---
 
@@ -175,3 +186,9 @@ question-shapes to probe IDs.
 ## Author
 
 Dritëro M. — independent researcher, Prishtina.
+
+---
+
+*Front-door freshness is enforced: `views-fresh` in `scripts/gates/gates.py` fails the build if a
+decadal review does not refresh this file. It was added at Review 32, after this section had
+described B152–B230 as "the frontier" while the bank stood at B798.*

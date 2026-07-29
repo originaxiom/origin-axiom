@@ -199,9 +199,20 @@ def gate_tracked_forbidden():
     rc, out = _git("ls-files")
     if rc != 0:
         return True, "git unavailable — skipped"
+    # Cross-seat RELAY files are correspondence, not substrate, and must not be committed
+    # LOOSE (at root or in docs/). Relays ARCHIVED INSIDE a frontier arc directory are that
+    # arc's evidence record and are allowed — the same distinction the path guard already
+    # makes for cc2_packets ("archived cross-seat packet records: history, not live code").
+    # One loose relay predates this rule and is grandfathered: GOVERNANCE §12 forbids removing
+    # banked paths, so the gate's job is to stop the NEXT one.
+    GRANDFATHERED_RELAYS = {"CC3_TO_CC_2026-07-22_p3_complete.md"}
     bad = [f for f in out.splitlines()
            if f.startswith(".github/") or f == "Archive.zip"
-           or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))]
+           or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))
+           or (re.match(r"(CC_TO_CC3|CC3_TO_CC|CC_TO_CC2|CC2_TO_CC)[^/]*\.md$", f)
+               and os.path.basename(f) not in GRANDFATHERED_RELAYS)
+           or (f.startswith("docs/")
+               and re.search(r"/(CC_TO_CC3|CC3_TO_CC|CC_TO_CC2|CC2_TO_CC)[^/]*\.md$", f))]
     return not bad, bad
 
 
@@ -253,6 +264,8 @@ def gate_review_actions():
 # HIGH targets, and the Maass work off-register for four arcs because nobody could see the
 # register was stale. A written rule did not prevent that; this gate does.
 VIEWS = (
+    "README.md",          # the front door: it described B152–B230 as "the frontier" at Review 32
+    "ROADMAP.md",         # the phase ladder / cadences
     "docs/CAMPAIGN_STATUS.md",
     "docs/MASTERPLAN.md",
     "docs/LEAD_REGISTER.md",
