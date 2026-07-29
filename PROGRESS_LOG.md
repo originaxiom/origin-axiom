@@ -8298,3 +8298,16 @@ first, having reported 103 both-literal comparisons of which a hand-sample of si
 its own false positives; after excluding mutated and reassigned bindings it reports 65, and that
 number is registered as a review queue rather than a defect count, since deliberate data-locks
 written as arithmetic also cannot fail but are documentation. Nothing to CLAIMS.
+
+Regression found and fixed, and the way it was found matters more than the fix. The first
+complete suite run of the session, 2933 passed and 35 skipped in seventy-eight minutes, returned
+one failure: the public-surface scan caught the label of a review seat written into two living
+docs, LAW_MAP and ERROR_LEDGER. The label was mine, introduced across three banked commits earlier
+today while recording that seat's catches. It survived those commits because the gates do not scan
+for it and because the two suite runs I made in between were killed at 192 and 421 tests, neither
+reaching the scanner. So a private-surface leak sat on main through several merges while the
+session reported green, and only an uninterrupted full run surfaced it. The lesson is not to scan
+more but to distrust partial runs as evidence of a clean tree: a killed suite is not a fast suite,
+it is a different and much weaker check. Fixed by naming that seat the review seat throughout,
+which is distinct from the audit seat already used for cc3 and carries the same meaning. Nothing
+to CLAIMS.
