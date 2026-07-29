@@ -24,7 +24,7 @@ sys.path.insert(0, 'frontier/B792_maass_m004_eigenvalues')
 from hejhal_m004 import reduced_words  # noqa: E402
 
 DIGITS = 27
-flint.ctx.prec = int((DIGITS + 45) * 3.33)  # +45 guard digits: arb LU ball growth near the (by-design) nearly singular M(r)
+flint.ctx.prec = int((DIGITS + 45) * 3.33) + 250  # +45 guard digits + 250 bits: MEASURED arb LU ball growth (~60 digits at n ~ 1300, random-matrix test 2026-07-29) + conditioning near the root
 mp.mp.dps = 40
 YV = mp.mpf('0.75')
 OUT = 'frontier/B796_coupling_campaign'
@@ -388,7 +388,7 @@ def run(r_cert, mult2=False):
     print("stability cert (+5 digits) ...", flush=True)
     old_digits, old_prec = DIGITS, flint.ctx.prec
     DIGITS = DIGITS + 5
-    flint.ctx.prec = int((DIGITS + 45) * 3.33)  # +45 guard digits: arb LU ball growth near the (by-design) nearly singular M(r)
+    flint.ctx.prec = int((DIGITS + 45) * 3.33) + 250  # +45 guard digits + 250 bits: MEASURED arb LU ball growth (~60 digits at n ~ 1300, random-matrix test 2026-07-29) + conditioning near the root
     S2 = Sys(r_cert, digits=DIGITS)
     j0b = S2.modes.index(tgt)  # same data-driven mode as the main run
     r2, _, _ = newton(S2, r_str[:20], j0=j0b, itmax=5, label='cert')
@@ -431,7 +431,7 @@ def enable_shakedown():
     SHAKEDOWN — exercises the full pipeline; results NEVER bankable."""
     global DIGITS, SHAKEDOWN
     DIGITS = 14
-    flint.ctx.prec = int((DIGITS + 45) * 3.33)
+    flint.ctx.prec = int((DIGITS + 45) * 3.33) + 250
     SHAKEDOWN = True
     print("### SHAKEDOWN MODE: digits=14, thresholds scaled, "
           "results not bankable ###", flush=True)
