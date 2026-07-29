@@ -152,3 +152,5 @@ verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had
 inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
 whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
+
+> **Review 33 (2026-07-29)** — the compaction masterplan executed in full and is CLOSED. It refuted three of its own claims during execution (the hard-arc premise was backwards; the hard stratum is 11 arcs not 90; `verdict.json` was not a free filename). Remaining scope is authoring, not engineering.

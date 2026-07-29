@@ -65,3 +65,5 @@ verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had
 inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
 whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
+
+> **Review 33 (2026-07-29)** — no door repriced. Note from B799/B800: the twelve closures whose discriminating fact was never computed are resolved; **B685's remains the one genuine to-do** (reproduce GSWZ's normalisation), and it is explicitly NOT specialist-blocked — the in-sandbox route is open and unexhausted.

@@ -518,6 +518,44 @@ def gate_log_changelog_paired():
     return True, "ok (changelog at or after progress-log)"
 
 
+CHAIN = "docs/THEOREM_LEDGER.md"
+
+
+def gate_chain_locks():
+    """Every link in THE CHAIN must cite a resolvable test lock -- its OWN admission rule.
+
+    THE CHAIN's stated admission bar is "exact statement + banked computation location + green
+    lock". A 2026-07-29 review found four [THEOREM] links citing locks only in PROSE ("the B730
+    locks", "test_b734") -- which no gate can verify and no reader can run. This enforces the
+    rule the ledger already set for itself; it does not invent a new mandate."""
+    if not os.path.isfile(os.path.join(ROOT, CHAIN)):
+        return False, "docs/THEOREM_LEDGER.md missing -- THE CHAIN is the theorem bank"
+    text = _read(CHAIN)
+    blocks = re.split(r"(?=^\*\*C\d+ \[)", text, flags=re.M)
+    links = [b for b in blocks if re.match(r"\*\*C\d+ \[", b)]
+    bad, missing = [], []
+    for b in links:
+        cid = re.match(r"\*\*(C\d+) \[([A-Z-]+)", b)
+        name, label = cid.group(1), cid.group(2)
+        if label == "AXIOM":                      # a declared choice needs a price, not a lock
+            continue
+        paths = re.findall(r"tests/(test_[A-Za-z0-9_]+\.py)", b)
+        if not paths:
+            bad.append(f"{name}[{label}]")
+            continue
+        for pth in paths:
+            if not os.path.isfile(os.path.join(ROOT, "tests", pth)):
+                missing.append(f"{name} -> tests/{pth}")
+    problems = []
+    if bad:
+        problems.append("links citing no resolvable lock: " + ", ".join(bad))
+    if missing:
+        problems.append("locks cited but absent: " + ", ".join(missing))
+    if problems:
+        return False, "THE CHAIN -- " + "; ".join(problems)
+    return True, f"ok ({len(links)} links, every non-AXIOM one locked)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -535,6 +573,7 @@ GATES = {
     "views-generated": gate_views_generated,
     "practices-register": gate_practices_register,
     "log-changelog-paired": gate_log_changelog_paired,
+    "chain-locks": gate_chain_locks,
 }
 
 

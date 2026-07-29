@@ -173,3 +173,5 @@ remembered.
 **Live gates on any physics reading:** Gate 5 (no SM quantities to CLAIMS), Gate 5-Q
 (phenomenology firewall), and **L91** — the typed-functor obligation that `WORKING_RULES` rule 6
 names as the thing physics readings wait on. L91 obligations (1)–(3) are open.
+
+> **Review 33 (2026-07-29)** — the compaction campaign is CLOSED (W0–W5 + residuals B800/B801/B802). Next load-bearing work is authoring: **701 of 731 arcs still need verdicts** (the generated ledger projects 4.1 %), and **~111 negatives are unregistered** in the kill graph (B801, measured, CI 55–168).

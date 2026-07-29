@@ -57,6 +57,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | practice | enforcement | mechanism |
 |---|---|---|
 | `CLAIMS.md` rows well-formed; every PROVEN row cites an existing test | **GATED** | `claims` |
+| Every link in THE CHAIN cites a **resolvable** test lock (the ledger's own admission rule) | **GATED** | `chain-locks` |
 | No speculative room (`speculations/`, `philosophy/`, `story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |

@@ -148,3 +148,5 @@ verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had
 inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
 whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
+
+> **Review 33 (2026-07-29)** — no lead status changed this review; the work was infrastructure and absorption. New registered item **R33-4**: decide LAW_MAP's enforcement posture (lock the load-bearing rows and gate them, or mark the ledger explicitly as an unenforced index). Ambiguity there is what the review found.

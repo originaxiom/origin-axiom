@@ -2471,3 +2471,59 @@ exactly where φ enters arithmetically (Frobenius gluing trivial at p=3, nontriv
   (a disc(√5) sign error, an unsupported "three methods agree", a conjecture badged "Theorem",
   "'machine-verified' overstates the suite"). Whether those were ever discharged is unknown to
   this review's modulus.
+
+## Review 33 — the absorption review (anchor-commit: `c5dc95c1`)
+
+Triggered by the `review-due` counter at 20 merges. The owner asked two questions that turned out
+to be the same question: **are the theorems and laws absorbed by a fresh seat, and is the distilled
+wisdom reachable when stuck?** Both were measured rather than argued.
+
+### Finding 1 — the assets are reachable; the LAWS are not enforced
+
+All ledgers are reachable from the entry points. But:
+
+| ledger | rows | citing a test lock |
+|---|---|---|
+| `CLAIMS.md` PROVEN | — | **100 %** (gated by `claims`) |
+| THE CHAIN (`THEOREM_LEDGER.md`) | 23 links | 8 explicit, 11 prose, **4 with none** |
+| `LAW_MAP.md` | **113** | **5 = 4 %**, and **no gate references LAW_MAP at all** |
+
+**The claim ledger is enforced; the law map is prose.** Same pattern as the practices: written
+without a gate, and it decays. Reported, not silently mandated — see Actions.
+
+### Finding 2 — THE CHAIN violated its own admission rule
+
+Its stated bar is *"exact statement + banked computation location + **green lock**"*. Five links
+cited locks only in prose — *"the B285-family locks in the suite"*, *"the B730 locks"*,
+*"test_b734"*, *"via B749/F3+F7 controls"* — which **no gate can verify and no reader can run**.
+All five resolved to real paths; new gate **`chain-locks`** enforces the ledger's own rule
+(AXIOM links exempt: a declared choice needs a *price*, not a lock). Mutation-verified.
+
+### Finding 3 — the bottleneck-bypass oracle was reachable from nowhere
+
+`scripts/atlas/query.py` **works** — it returns the corpus card, the one conserved first integral
+(`kappa`, 188 recurrences), and the honest **unity-vs-tool split** (the trace map recurs in 45 % of
+probes because it is our *method*; the atlas says so rather than flattering the pattern). It answers
+*what has resolved this obstacle before*, *can this dead end be revived*, *where are the gaps*.
+
+**It was mentioned in zero of `WORKING_RULES`, `README`, `METHOD`, `PRACTICES`.** The instrument
+built to bypass stagnation was undiscoverable at the moment of stagnation. `WORKING_RULES.md` now
+carries a *"When you are stuck"* section naming it and the other instruments.
+
+### Finding 4 — the generated front door was UNREACHABLE
+
+`docs/views/REVIEWER.md` was built this session and linked from nothing. Now linked from `README`.
+(Same defect class as `knowledge/INDEX.md` losing four entries, and as PRACTICES before it was
+cited by path.)
+
+### Action items (Review 33)
+
+- [x] R33-1: five CHAIN locks resolved from prose to paths; `chain-locks` gate added + registered.
+- [x] R33-2: `WORKING_RULES.md` gains the *instruments* section (atlas, failure atlas, views,
+  chain, law map with its measured caveat, error ledger).
+- [x] R33-3: generated front door linked from `README.md`; reachability re-verified.
+- [ ] R33-4: **LAW_MAP is 4 % locked and ungated.** Decide deliberately: either lock the load-bearing
+  rows and gate them, or mark the ledger explicitly as *unenforced index* so no seat mistakes a row
+  for a checked fact. **Do not leave it ambiguous** — that ambiguity is what this review found.
+- [ ] R33-5 (carried from R32-15): 701 arcs need authored verdicts; ~111 negatives unregistered;
+  B685's normalisation un-pinned; B731's stale `revival_score: 10`.

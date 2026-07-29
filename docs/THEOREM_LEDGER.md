@@ -11,7 +11,7 @@ is inherited from; added 2026-07-24 by the B784 audit, which found C22 had been 
 a computed [NO-GO] when its computation could not fail). Admission per the sealed prereg fd934b27: exact statement + banked computation
 location + green lock. **The going-forward rule: every new banked positive either enters
 this chain under one of the five labels or is explicitly a hint/open door — nothing in
-between.** This document is a VIEW of the bank; it asserts nothing new. Gate 5: no physics
+between.** This document is a VIEW of the bank; it asserts nothing new. **Every link's lock is cited as a resolvable `tests/...py` path and is gate-checked (`chain-locks`)** — a 2026-07-29 review found four [THEOREM] links citing their locks only in prose ('the B730 locks'), which no gate could verify and no reader could run. Gate 5: no physics
 statement appears below; SM-facing content enters only as NO-GO links.*
 
 ---
@@ -25,7 +25,7 @@ quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b749_genesis_fork
 **C2 [THEOREM — the self-selection, one criterion].** Hurwitz extremality at the golden
 slope IS the all-1s continued fraction (the bottom of the Lagrange spectrum): the
 minimal-description principle applied to its own parameter has a unique fixed point.
-— P019 T4 (v2, the unified form). Lock: via B749/F3+F7 controls.
+— P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` (the F3+F7 controls).
 
 **C3 [AXIOM — being is inexhaustible description; PRICED].** The one deep metaphysical
 commitment (P019's A0+A2 under the honest recount). Price computed: the periodic sibling
@@ -47,13 +47,13 @@ det −1 sibling IS the Gieseking manifold — m004's own orientation double cov
 **C6 [THEOREM — Thurston/Riley; banked realization].** The mapping torus of the
 once-punctured torus under [[2,1],[1,1]] is the figure-eight knot complement: unique
 hyperbolic structure, trace field ℚ(√−3), THE arithmetic knot. — B285 (exact Riley rep,
-u² + u + 1 = 0); B282. Locks: the B285-family locks in the suite.
+u² + u + 1 = 0); B282. Lock: `tests/test_b285_commutator_phase.py`.
 
 ## Part II — the object's forced structure
 
 **C7 [THEOREM — the forced faces].** The object's intrinsic arithmetic forces exactly
 three quadratic faces = one Klein-four V₄: being ℚ(√−3) · hearing ℚ(√5) · meeting
-ℚ(√−15) (fund. disc −15). — B730 (two-seat). Locks: the B730 locks.
+ℚ(√−15) (fund. disc −15). — B730 (two-seat). Lock: `tests/test_b730_faces_cosmos.py`.
 
 **C8 [CENSUS — the interface-only V₄].** No closed hyperbolic filling of m004 in the
 |p|,q ≤ 8 grid (78 hyperbolic slopes) has an invariant trace field containing √−3, √5,
@@ -63,12 +63,12 @@ all-slopes theorem). — B288/B740 (two-seat, two-method) + B747 + B748 (with th
 
 **C9 [THEOREM — congruence, conventions named per E23].** m004 IS congruence: standard
 SL-kernel level (4); mod-center/PSL filtration realizes the geometric index 12 at (8);
-the sisters at (2). — B734 (correcting B731; two-seat). Locks: test_b734.
+the sisters at (2). — B734 (correcting B731; two-seat). Lock: `tests/test_b734_m004_congruence.py`.
 
 **C10 [THEOREM — character-rigidity + the voice].** The continuous spectrum is ONE
 channel — the pullback Eisenstein series, φ(s) = Λ_K(s−1)/Λ_K(s) exactly, with NO
 conductor character anywhere in the continuous part; Res φ = 2√3/vol(m004)
-(covering-invariant). — B739 + B737. Locks: the B737/B739 locks.
+(covering-invariant). — B739 + B737. Locks: `tests/test_b737_candidate_zero.py`, `tests/test_b739_rigidity.py`.
 
 **C11 [IDENTITY — the two-column law].** Ten of twelve structural floors carry a FORCED
 golden appearance; the emission channel carries none (the voice is pure being-field):

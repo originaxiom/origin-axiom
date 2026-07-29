@@ -16,6 +16,14 @@ sessions. It was created on 2026-05-22 after a full audit of all prior work
 > are the locks and gates (see `PROVENANCE.md` §0, `REPRODUCIBILITY.md`).
 > The project's inner vocabulary is glossed in `TERMINOLOGY.md`.
 
+## For a reviewer
+
+Start at **`docs/views/REVIEWER.md`** — a generated ~3-page front door (the object, the verdict
+ledger, the closed-door map, worked exemplars, and how to falsify any of it). It is regenerated
+from the repository's own metadata by `scripts/views/generate.py` and gate-checked, so it cannot
+go stale. Read `docs/views/COVERAGE.md` alongside it: it states what fraction of the record the
+views actually project.
+
 ## Where to start (three doors)
 
 - **Reading** — what is claimed and how strongly: `CLAIMS.md` (the
@@ -192,3 +200,5 @@ Dritëro M. — independent researcher, Prishtina.
 *Front-door freshness is enforced: `views-fresh` in `scripts/gates/gates.py` fails the build if a
 decadal review does not refresh this file. It was added at Review 32, after this section had
 described B152–B230 as "the frontier" while the bank stood at B798.*
+
+> **Review 33 (2026-07-29)** — absorption review. The generated front door is now linked (see *For a reviewer*). Measured: THE CHAIN's 23 links all carry resolvable test locks (gate `chain-locks`); `docs/LAW_MAP.md` is **4 % locked and ungated** — treat an unlocked law row as a claim about the bank, not a checked fact.

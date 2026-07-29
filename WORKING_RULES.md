@@ -87,3 +87,26 @@ six drifted practices and five that held, split perfectly by whether a gate exis
 - For anything judgement-shaped that no gate can check, **seal a preregistration with a two-outcome
   criterion before computing**. That is the only mechanism that forces the judgement while it is
   still cheap.
+
+## When you are stuck — the instruments, not the archive
+
+A seat that hits an obstacle should **not** start reading 731 arcs. The programme built instruments
+for exactly this, and a 2026-07-29 review found they were reachable from nowhere:
+
+- **`python3 scripts/atlas/query.py`** — the Recurrence Atlas context card in one command: the
+  corpus status, the ONE conserved first integral (`kappa`, 188 recurrences), the recurring motifs,
+  and the honest **unity-vs-tool split** (the trace map recurs in 45 % of probes because it is our
+  *method*, not because it is forced — the atlas says so rather than flattering the pattern). It
+  also answers *"what has historically resolved this kind of obstacle"*
+  (`query.resolutions_for(<type>)`), *"can this dead end be revived"* (`query.revive(B###)`), and
+  *"where are the gaps"* (`query.gaps()`). Explainer: `knowledge/K023_the_recurrence_atlas.md`.
+- **`docs/atlas/FAILURE_ATLAS.md`** — what has already failed, and how.
+- **`docs/views/`** — generated, never stale: `REVIEWER.md` (the ~3-page front door),
+  `CLOSED_DOORS.md` (negatives indexed by the *mechanism* that shut them), `COVERAGE.md` (what
+  fraction of the record the views actually project — **read this before trusting the others**).
+- **`docs/THEOREM_LEDGER.md`** — THE CHAIN: the forced core as an axiom→theorem ledger, every
+  non-axiom link carrying a resolvable test lock (gate `chain-locks`).
+- **`docs/LAW_MAP.md`** — the banked laws. **Caveat, measured:** 113 rows, only ~4 % cite a test
+  lock, and no gate enforces it. Treat an unlocked law row as a *claim about the bank*, not as a
+  checked fact — locate its arc and its lock before building on it.
+- **`docs/ERROR_LEDGER.md`** — the error classes E1–E33. Read before repeating one.

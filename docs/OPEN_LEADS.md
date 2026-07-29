@@ -634,3 +634,5 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 *L109–L112 originate with the cc3 seat and were surfaced by its own cross-sweep; L113 is
 cc's (B798). None had a main-side registry row before this review — the same off-register
 condition that let the whole Maass thread run unconnected for four arcs.*
+
+> **Review 33 (2026-07-29)** — no lead opened or closed. Two measured facts that bear on lead selection: the kill graph holds **~66 %** of the corpus's negatives (B801; ~111 unregistered), and the generated views project **4.1 %** of arcs — so absence from a view is not evidence of absence from the record.

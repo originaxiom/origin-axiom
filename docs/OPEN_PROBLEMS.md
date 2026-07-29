@@ -194,3 +194,5 @@ verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had
 inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
 whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
+
+> **Review 33 (2026-07-29)** — unchanged mathematically. Recorded for anyone reading a law row as settled: `docs/LAW_MAP.md` is **4 % test-locked and no gate references it**, so an unlocked row is a claim about the bank, not a checked fact. THE CHAIN (`docs/THEOREM_LEDGER.md`) *is* fully locked and gated.
