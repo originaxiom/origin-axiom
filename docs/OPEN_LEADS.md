@@ -592,3 +592,31 @@ rebuild the hearing group as the Bianchi congruence quotient at 5
   coincidence is E20-FORCED (GL(2,ℤ/4) has ONE order-3 conjugacy class — brute-forced over
   all 96 elements); the shared content is exactly the banked Eisenstein atom. DOOR4 stays
   ROUTE-OBSTRUCTED with zero live residuals.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 7 days stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- **N2** (KMS temperature ladder βₙ = log λ_PF via Exel) and the unaccounted **thermal-time /
+  Tomita modular-flow** item are the registered leads the B796 Bost–Connes direction attaches to.
+- **L86** (object-scale coupling comparison) is the registered lead B796 *is*; gated on owner
+  directive (given) + a preregistered target argument (outstanding).
+- **L91** is the formal gate Gate 5 says physics readings wait on — ★★★★ OPEN, obligations (1)–(3).
+- **NEW, off-register until now:** the Maass thread (B788–B797). "Maass" appeared in no lead
+  register; the B739 LAW_MAP row had pre-registered it as an upgrade path and is now connected.
+- **NEW open items** (from cc3, previously unregistered): the m003-side congruence half; the
+  parent-r₂-above-10 question; the τ-parity V₅/V₆ prototype; the [0.5, 7.6] two-instrument
+  cross-run.
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).

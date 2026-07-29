@@ -42,10 +42,15 @@ SL = [((a, b), (c, d)) for a in R for b in R for c in R for d in R
       if det(((a, b), (c, d))) == ONE]
 print(f"  |Z[w]/4| = {len(R)}   (2 inert => residue field F_4)")
 print(f"  |SL(2,Z[w]/4)|  = {len(SL)}")
-print(f"  |PSL(2,Z[w]/4)| = {len(SL)//2}   <-- equals B791's verified coset-image order 1920: "
+print(f"  |SL(2,Z[w]/4)/{{+-I}}| = {len(SL)//2}   <-- B791's verified coset-image order 1920: "
       f"{len(SL)//2 == 1920}")
+# E21 GUARD (2026-07-29, chat1): this is NOT PSL(2,Z[w]/4). The centre of SL(2,Z[w]/4) has
+# order 4 (lambda^2=1 -> 1, 1+2w, 3, 3+2w), so the TRUE |PSL| = 960. PSL(2,O_3) maps into
+# SL/{+-I} because O_3 is a domain; that is why SL/{+-I} is the correct target here.
+_sq1 = [l for l in R if rmul(l, l) == ONE]
+print(f"  |centre| = {len(_sq1)}  =>  TRUE |PSL(2,Z[w]/4)| = {len(SL)//len(_sq1)} (NOT 1920)")
 print("  => the B788 bank's coset action IS reduction mod 4. Its ambient_order 3840 =")
-print("     |SL(2,O/4)|, image 1920 = |PSL(2,O/4)|, kernel 2 = {+-I}. Explained, not observed.")
+print("     |SL(2,O/4)|, image 1920 = |SL(2,O/4)/{+-I}|, kernel 2 = {+-I}. Explained, not observed.")
 OUT["SL_order"], OUT["PSL_order"] = len(SL), len(SL) // 2
 
 print(f"\n{line}\nSTEP B - surjectivity of PSL(2,O_3) -> PSL(2,Z[w]/4)\n{line}")
@@ -64,7 +69,7 @@ minusI = (((3, 0), ZERO), (ZERO, (3, 0)))
 Hbar = len(H) // (2 if minusI in H else 1)
 idx = (len(SL) // 2) // Hbar
 print(f"  |H = <A,B> mod 4| = {len(H)}   -I in H: {minusI in H}   |Hbar| = {Hbar}")
-print(f"  [PSL(2,Z[w]/4) : Hbar] = {idx}    and  [PSL(2,O_3) : Gamma_41] = 12 (B790, exact)")
+print(f"  [SL(2,Z[w]/4)/{{+-I}} : Hbar] = {idx}    and  [PSL(2,O_3) : Gamma_41] = 12 (B790, exact)")
 print(f"  equal indices => Gamma_41 = preimage(Hbar) => Gamma(4) <= Gamma_41: {idx == 12}")
 OUT["index_mod4"] = idx
 

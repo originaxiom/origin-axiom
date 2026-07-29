@@ -123,3 +123,28 @@ pair). UNRUN: (a) higher precision n=9,10; (b) the metallic m-scan (is the reson
 in a structured, non-rescaling way?); (c) the un-laundering test on the ratios; (d) the quantum bridge to
 the D1/D2 spectral form factor. A full prereg was drafted then parked when "TM" resolved to Thue-Morse
 (B496), not trace map. Revisit as its own campaign.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 19 days stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- **Its top-ranked HIGH items are already closed** and must not be re-computed:
+  **B399/e₃** cleared (B578-D4, ℚ(ζ₉)⁺-cyclotomic, sentinels clean-negative);
+  **B201/B202/B203** resolved (peripheral relations resolved-negatively; the component identity
+  resolved); **B225** resolved HALF/HALF (5 = golden filling confirmed; 2 ≠ octahedral parent).
+- **B372 is an ID collision** — this file's "level-135 pair-channel" is a different probe from
+  OPEN_LEADS's "level-45 tables" (DONE). Treat as two items.
+- Live from this register: **B87** (m=3 metallic genus), **L54**, **B106**, **B138**.
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).

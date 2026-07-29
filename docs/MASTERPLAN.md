@@ -129,3 +129,26 @@ Triple-ID watcher (singles sentinels) ∥ Phase 2c → 2b ∥ Paper 1 drafting �
 (definitional-first) → Phase 5 entry gate. The triple gates the sentinels, NOT the
 coupling theory (de-serialized). Reviews + board continue; every cross-chat package gets
 B398-pattern scrutiny before entering the record.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 25 days / ~55 arcs stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- This document predates Window 12 and everything after; its NEXT/SEQUENCING items are
+  **early-era planning, not the live frontier**.
+- Its sentinels remain **standing and binding** (the new-numerator-prime class test; the
+  supersingular 15a1 test).
+- Its explicit OUT OF SCOPE decline (the SL(n)-tower specialist register) still holds.
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).

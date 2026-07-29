@@ -245,6 +245,84 @@ def gate_review_actions():
     return True, f"ok ({latest_open} open in the latest block, advisory)"
 
 
+
+# --- gate: navigation-view freshness (owner, 2026-07-29; Review 32) --------------------------
+# GOVERNANCE §12 ("freeze the substrate; GENERATE THE VIEWS") + §15 (reviews).
+# The decadal review must REFRESH the navigation views, not just the ledgers. Review 32 found
+# MASTERPLAN 25 days / ~55 arcs stale, LEAD_REGISTER listing already-closed items as its top
+# HIGH targets, and the Maass work off-register for four arcs because nobody could see the
+# register was stale. A written rule did not prevent that; this gate does.
+VIEWS = (
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/MASTERPLAN.md",
+    "docs/LEAD_REGISTER.md",
+    "docs/OPEN_PROBLEMS.md",
+    "docs/PRICED_DOORS.md",
+    "docs/OPEN_LEADS.md",
+)
+
+
+def gate_views_fresh():
+    """Every navigation view must have been touched at or after the LAST review anchor.
+    Zero commits touching a view since the anchor == that review did not refresh it."""
+    path = os.path.join(ROOT, REVIEWS)
+    if not os.path.exists(path):
+        return True, "no REVIEWS.md"
+    anchors = re.findall(r"anchor-commit: `?([0-9a-f]{7,40})`?", _read(REVIEWS))
+    if not anchors:
+        return True, "no review anchor yet"
+    anchor = anchors[-1]
+    stale = []
+    for v in VIEWS:
+        if not os.path.exists(os.path.join(ROOT, v)):
+            continue
+        rc, out = _git("rev-list", "--count", f"{anchor}..HEAD", "--", v)
+        if rc == 0 and int(out.strip() or 0) == 0:
+            stale.append(os.path.basename(v))
+    if stale:
+        return False, ("not refreshed since the last review anchor: "
+                       + ", ".join(stale) + " — the review must regenerate the views")
+    return True, "ok"
+
+
+# --- gate: arc-ID collisions (owner, 2026-07-29; Review 32) ----------------------------------
+# Five documented collisions (B788 three-way, B793 two-way, B372, L108, and the B569-B574
+# renumbering the repo already records). TWO were created in a single session, costing a
+# duplicated Step-2 computation and two renumbering rulings.
+# Historical collisions predating the gate. GOVERNANCE §12 forbids renaming banked paths
+# ("zero file moves"), so these are GRANDFATHERED explicitly rather than fixed — auditable and
+# versioned, per this file's design rule. NEW collisions still fail.
+GRANDFATHERED_IDS = frozenset({"B58"})
+
+
+def gate_id_collisions():
+    """No NEW frontier arc directory may share a B-number with another.
+
+    Historical collisions are grandfathered (§12 forbids renaming banked paths); the gate's
+    job is to stop the next one. Two were created in a single session (2026-07-28/29), costing
+    a duplicated Step-2 computation and two renumbering rulings."""
+    fdir = os.path.join(ROOT, "frontier")
+    if not os.path.isdir(fdir):
+        return True, "no frontier/"
+    seen, dups = {}, []
+    for name in sorted(os.listdir(fdir)):
+        if not os.path.isdir(os.path.join(fdir, name)):
+            continue
+        m = re.match(r"(B\d+)[a-z]?_", name)
+        if not m:
+            continue
+        bid = m.group(1)
+        if bid in seen:
+            if bid not in GRANDFATHERED_IDS:
+                dups.append(f"{bid}: {seen[bid]} vs {name}")
+        else:
+            seen[bid] = name
+    if dups:
+        return False, "arc-ID collision — " + "; ".join(dups)
+    nxt = max((int(k[1:]) for k in seen), default=0) + 1
+    return True, f"ok ({len(seen)} arcs, next free B{nxt})"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -254,6 +332,8 @@ GATES = {
     "attribution": gate_attribution,
     "tracked-forbidden": gate_tracked_forbidden,
     "review-actions": gate_review_actions,
+    "views-fresh": gate_views_fresh,
+    "id-collisions": gate_id_collisions,
 }
 
 

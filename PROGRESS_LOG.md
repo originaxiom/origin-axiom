@@ -8171,3 +8171,17 @@ cannot name one is not a reason to discard a computation. Also accepted: the run
 right about evidence and too harsh about the run, since thirty-nine raw candidates reduced to zero
 gated is a calibration result about the instrument and is the ground for trusting rung one.
 Nothing to CLAIMS.
+
+Review 32, the view-refresh review, run on the owner's directive that a decadal review should
+always refresh the documents and that we should make sure of it somehow. The making-sure is the
+substance: Review 31 strengthened the rule in prose, and the Wave-6 lesson is that prose does not
+prevent recurrence, only an in-code check does. Three mechanisms were added and each was verified
+by failing correctly on first run. A views-fresh gate requires every navigation view to be touched
+at or after the last review anchor, and it failed on all six, with the masterplan twenty-five days
+and roughly fifty-five arcs stale and the lead register still advertising already-closed items as
+its top targets. An id-collision gate catches shared arc numbers, of which five are documented and
+two were created in a single session at real cost. An E21 content guard forbids calling the
+order-1920 group PSL of Z-omega mod four, whose true order is 960, and it immediately caught a
+file the manual pass had missed. All six views were then regenerated with reconciliation blocks,
+Review 31's action block was closed with its cherry-pick rule confirmed to have held under load,
+and nine items were carried forward. Nothing to CLAIMS.

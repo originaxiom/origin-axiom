@@ -1310,3 +1310,26 @@ object — conjugation, reversal, the golden branch — with time's arrow
 identified with the basepoint choice and the chord's sign as their XOR.
 The banked observer menu is exactly the full discrete closing set
 (RANK-SATURATED). The values live beyond all three, Galois-chosen.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 6 days (header 2026-07-21, ~55 arcs behind) stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- The board's own LATEST pointer read **B742**; banked work has run through **B797** plus the
+  context-re-read corrections. Arcs B743–B797 were not on this board.
+- **CLOSED since the last refresh:** the Maass Spectrum Programme (B788–B797).
+- **LIVE:** THE CLOSURE MASTERPLAN (Phase 2 sweep, Phase 3 enumeration), THE CHAIN (C1–C23),
+  and **B796 (coupling)** — launch-approved, falsifier declared.
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).

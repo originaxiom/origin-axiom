@@ -170,3 +170,27 @@ A rigorous structural theorem — *the object forces the form of physics, not it
 amphichirality-theorem* — with four named gates (one in-sandbox hard theorem A; three specialist B/C/D) where values
 could only cross through the object's relations, not from the single monad. That is a genuine, bounded, honest frontier
 — and it is *not* a TOE one computation away. Nothing to `CLAIMS.md`; firewall intact.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 16 days stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- **Gate B's sub-mechanism is CLOSED-NEGATIVE** (B561/P12: no exceptional 3d-3d state
+  integral exists). This is the sharpest prior no-go for any 3d-3d-at-E₆ route and must be
+  cited as the reason, not "no definition".
+- **Gate C's triality-on-27 route is TOMBSTONED** (B562/P13: 27 splits 9+9+9, the wrong 3).
+- **Gate A's literal universal form is TOMBSTONED** (B562/P1); only the sharpened
+  representation-dependent form is live.
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).

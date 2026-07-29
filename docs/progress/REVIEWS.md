@@ -2228,14 +2228,109 @@ A heuristic scan flagged ~14 more strong-claim arcs, but the rest read as negati
 process/already-captured — no further genuine burial in this window.
 
 ### Action items (Review 31)
-- [ ] R31-1: cherry-pick nothing further from cc3 without in-sandbox reproduction — cc3's
-  "CONFIRMED" is not a gate (the b769/C21 lesson: it re-confirmed a defective mechanism).
-- [ ] R31-2 (carried R30-4): Phase 2 continues (~31 structural rows remain); then Phases 3–5
-  (θ-vacancy, triadic-T1, P021; the walls; the capstone PC26 + methodology paper + dossier).
-- [ ] R31-3: the mutation test (2 locks) fires again at Review 32.
-- [ ] R31-4: audit the remaining torsor/chain links for the θ-conflation class — confirm
-  C20/B766's θ is the matrix/representation-level involution (not a trace-level one) before the
-  capstone leans on it.
+- [x] R31-1: **DONE, and it held under load.** Every cc3 harvest this window was re-derived
+  in-sandbox from scratch: B789 (the θ-intertwiner, plus a descent check cc3 had not run),
+  B794 (both congruence theorems), B795 (7/7 eigenvalues on an instrument sharing no source).
+  The rule also caught its intended failure twice — cc3's Q refutation and its Δ2 norm figures
+  were both wrong on re-derivation. Note the inverse failure now logged as **E33**: cc
+  over-applied the rule and discarded a *correct* computation of its own in deference to an
+  unverified cc3 refutation.
+- [>] R31-2 (carried → R32): Phase 2 continues; Phases 3–5 unreached.
+- [x] R31-3: **DONE** — see Review 32 §(5). The two new gates were each verified by a true-positive
+  first run, and the E21 guard failed on a real offender before passing.
+- [x] R31-4: **DONE** — C20/B766's θ is confirmed matrix/representation-level, not trace-level.
+  B789 makes this explicit and computable: θ is trace-invisible (tr g = tr gᴿ = tr g⁻¹ in SL(2)),
+  and the intertwiner Q realising it lives at the matrix level, with the group-level identity
+  proved FALSE by an abelian obstruction. Locked in `tests/test_b789_intertwiner.py`.
 - [ ] R31-6: the law-harvest is now STANDING (WORKING_RULES 10) — run it every review; next
   pass extends it to the pre-B700 backlog (this harvest covered the recent window only).
 - [ ] R31-5 (carried): GSWZ send owner-gated (R30-3); R29-1 specialist pass owner-gated; R29-2 L95.
+
+## Review 32 — 2026-07-29 (THE VIEW-REFRESH REVIEW; window B788–B797 + the context re-read; anchor-commit: `605d211b`)
+
+**Declared modulus (GOVERNANCE §15).** This review sampled: the full Maass thread (B788–B797),
+the four navigation views, the four lead registers, GOVERNANCE/METHOD/LISTENING_PROTOCOL/
+NOVELTY_AUDIT, and the ERROR_LEDGER. It did **not** re-audit arcs before B788, and it does not
+certify the pre-B788 backlog. 25 merges since Review 31.
+
+### (1) The window
+B788 (Maass handoff adjudicated) → B790 (renumbered receipt) → B789 (θ-intertwiner, cc3 harvest)
+→ B791 (Weyl criterion + factor correction + error-bar caveat) → B793 (the external bank's V₁
+control is bracket-refinement, not detection) → B794 (Γ₄₁ congruence + mod-4 trace law, cc3
+harvest) → B795 (eigenvalues independently verified 7/7) → B797 (17 certified eigenvalues + a
+sealed, scoped SM null) → the context re-read → the Chat-1 review.
+
+**Substantive result:** m004's Maass spectrum now exists where the literature had none. **The SM
+null is NOT evidence** — Tests 1–2 are rung 4, which LISTENING_PROTOCOL §1 rules *"DEAD ON
+ARRIVAL"* before they run. The admissible comparison is rung 1 (algebraicity), which is
+independently where B796's falsifier and the Bost–Connes harvest both landed.
+
+### (2) THE MECHANISM — why this review adds gates, not rules
+Review 31 strengthened WORKING_RULES rule 10 in prose. The Wave-6 lesson says prose does not
+prevent recurrence — **only an in-code check does.** Three mechanisms added:
+
+- **`views-fresh` gate.** Every navigation view must be touched at or after the last review
+  anchor. It **failed on all six views on first run** — MASTERPLAN 25 days / ~55 arcs stale,
+  LEAD_REGISTER still listing already-closed items as its top HIGH targets. This is the
+  mechanism the owner asked for: *the decadal review must always refresh the docs.*
+- **`id-collisions` gate.** Five documented collisions (B788 three-way, B793 two-way, B372,
+  L108, the recorded B569–B574 renumbering); **two created in one session**, costing a duplicated
+  Step-2 and two renumbering rulings. Historical B58 is grandfathered explicitly (§12 forbids
+  renaming banked paths); new collisions fail. Now also prints the next free arc number.
+- **E21 content guard** (`tests/test_e21_group_naming_guard.py`). The SL/PSL centre class has
+  fired **three times**. The guard forbids any committed file calling the order-1920 group
+  "PSL(2,ℤ[ω]/4)" (the true order is 960), and re-derives |centre| = 4 so it cannot outlive its
+  premise. **It immediately caught a file the manual pass had missed** (B794/output.txt).
+
+### (3) The law harvest (standing, rule 10)
+One promotion this window: **THE mod-4 TRACE LAW / Γ₄₁ CONGRUENCE THEOREM** (cc3's, re-derived
+independently). Two facts promoted out of FINDINGS into the record during the review: **Z ∩ H =
+{±I} exactly** — (1+2ω)I and (3+2ω)I are not in H, which is what reconciles B731's index 6 with
+B794's 12 — and the B739 row's upgrade path, realised and now connected. No other burial found.
+
+### (4) Error-class recurrence — a heavy window, almost all cc's
+**Six new classes: E28–E33.** E28 silent-discard filter (named by Chat-1); E29 post-hoc
+analysis-model selection; E30 output-verified/derivation-unverified; E31 instrument-precondition
+unchecked; E32 unfalsifiable premise; **E33 over-correction** (wording sharpened by Chat-1:
+*scrutiny must be aimed at a named defect path*). Plus **E4a** (asymptotic average as pointwise
+predictor) and **E21's third instance**.
+
+Two findings deserve emphasis:
+- **cc retracted a CORRECT result** (H-B788-NORMSPLIT) by discarding its own right computation in
+  deference to an unverified refutation — having already raised the disproof and set it aside.
+- **cc announced a congruence "discrepancy" that never existed.** E23 had dispositioned it;
+  Chat-1 resolved it from banked data. cc handed another seat a non-problem.
+
+**The gate ran in both directions for the first time.** cc3 swept cc's arcs and found four
+defects, two locked in tests (a units error — absolute vs relative — and a wrong-run harvest).
+The errors that survived longest were the ones **two seats shared**; a third seat caught them.
+
+### (5) The mutation test (R32-5, executed)
+The two new gates were verified by their own first run: `views-fresh` failed on all six views
+(true positive), `id-collisions` failed on B58 (true positive, then grandfathered per §12). The
+E21 guard failed on a real offender before passing. All three are demonstrably non-vacuous.
+
+### (6) The views, refreshed
+All six regenerated with a dated banner, a reconciliation block naming what in them is closed or
+superseded, and a pointer to the live frontier. Notable reconciliations: LEAD_REGISTER's top two
+HIGH items are already closed; Gate B's sub-mechanism is CLOSED-NEGATIVE (B561); CAMPAIGN_STATUS
+was ~55 arcs behind.
+
+### Action items (Review 32)
+- [ ] R32-1: cc3 to fix Cell 6's group (it names PSL(2,ℤ[ω]/4), which gives a degree-6 action, not
+  the degree-12 one carrying 1+5+6) — would misdirect a seat immediately.
+- [ ] R32-2: cc3 to establish whether B736 (the equivariance wall, a rigorous NO-GO on Cell 8
+  Stage B's exact target) was missed by the autopsy or failed to propagate — the answer says
+  whether the autopsy is trustworthy for the other seven arcs.
+- [ ] R32-3: cc3 to promote B796's bounded mechanism-exclusion to the PRIMARY falsifier; §10.7's
+  honest rider currently makes the H2 inference unbounded (E32 through the front door).
+- [ ] R32-4: seal the (d, H) box for Cell 9's "adequate power" — PSLQ excludes degree-d height-H
+  relations only if digits ≳ 1.43·d·log₁₀H; at 8 digits there is no power at all.
+- [ ] R32-5: correct the Cell 9 cost estimate before anyone schedules it — 8→50 digits is 3–5
+  orders of magnitude on a different numerical stack, not a refinement.
+- [ ] R32-6: adopt the rung-4 protocol amendment — rung-4 comparisons admissible as **instrument
+  calibration**, never as evidence, labelled so at prereg.
+- [ ] R32-7: re-harvest B792's **certified** SM run (main currently carries the dry run) and
+  correct B795's instrument table.
+- [ ] R32-8: register cc3's four previously-unregistered open items in OPEN_LEADS.
+- [ ] R32-9: the pre-B788 backlog law-harvest remains uncertified by this review's modulus.

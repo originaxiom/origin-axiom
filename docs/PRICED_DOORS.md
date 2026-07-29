@@ -44,3 +44,24 @@ its exact simulation.
   in place + prove behavioral equivalence against every existing lock
   that imports it before merge. Payoff: every future high-level cell.
   **STATUS (B679, 2026-07-18): PREPARED + CORRECTNESS-VERIFIED** — main-seat bit-identical recomputation (old vs patched, same S,T, all gates + rho, N=3..15) + agent battery bit-for-bit through N=28, N=55 real-call-site agreement vs the banked B673 log, 18 locks green; no tolerance. The engine is a SEAT CONDUIT, not repo-tracked — DEPLOYMENT (drop engine_v7_patched.py over veins/v7_conduit/) is the conduit owners' to execute; the verified patch is banked in frontier/B679_engine_patch/.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 11 days stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- **PD4 (the α gate) remains GATED and unwalked**, behind PD1.4 + PD2.2. Registered, not
+  walked — unchanged.
+- The B678/B679 engine-patch deployment remains outside this campaign (conduit owners').
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).

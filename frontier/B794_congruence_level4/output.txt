@@ -3,9 +3,10 @@ STEP A - the ambient group mod 4
 ======================================================================
   |Z[w]/4| = 16   (2 inert => residue field F_4)
   |SL(2,Z[w]/4)|  = 3840
-  |PSL(2,Z[w]/4)| = 1920   <-- equals B791's verified coset-image order 1920: True
+  |SL(2,Z[w]/4)/{+-I}| = 1920   <-- B791's verified coset-image order 1920: True
+  |centre| = 4  =>  TRUE |PSL(2,Z[w]/4)| = 960 (NOT 1920)
   => the B788 bank's coset action IS reduction mod 4. Its ambient_order 3840 =
-     |SL(2,O/4)|, image 1920 = |PSL(2,O/4)|, kernel 2 = {+-I}. Explained, not observed.
+     |SL(2,O/4)|, image 1920 = |SL(2,O/4)/{+-I}|, kernel 2 = {+-I}. Explained, not observed.
 
 ======================================================================
 STEP B - surjectivity of PSL(2,O_3) -> PSL(2,Z[w]/4)
@@ -16,7 +17,7 @@ STEP B - surjectivity of PSL(2,O_3) -> PSL(2,Z[w]/4)
 STEP C - THEOREM 1
 ======================================================================
   |H = <A,B> mod 4| = 320   -I in H: True   |Hbar| = 160
-  [PSL(2,Z[w]/4) : Hbar] = 12    and  [PSL(2,O_3) : Gamma_41] = 12 (B790, exact)
+  [SL(2,Z[w]/4)/{+-I} : Hbar] = 12    and  [PSL(2,O_3) : Gamma_41] = 12 (B790, exact)
   equal indices => Gamma_41 = preimage(Hbar) => Gamma(4) <= Gamma_41: True
 
   |H mod 2| = 10   (|SL(2,F_4)| = 60, and SL(2,F_4) = PSL(2,F_4) = A_5)
