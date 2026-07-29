@@ -16819,6 +16819,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B808": {
+   "slug": "empty cells",
+   "motifs": [
+    "metallic",
+    "torsion"
+   ],
+   "refs": [
+    "B807"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B80": {
    "slug": "sl4 adproof",
    "motifs": [

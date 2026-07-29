@@ -8660,3 +8660,26 @@ rather than authored, since one arc bounded it and another proved it rank-satura
 three. Accounting for everything becomes a finite and checkable question about the product of three
 vocabularies, one of which is proved complete. No instrument was edited, per the prereg, and the
 verdict means none should be. Nothing to CLAIMS.
+
+The empty-cell proposal is refuted, and the refutation is this seat's own. Having declared the
+object's description a triple and found thirty-five of the hundred and ninety-eight face-by-motif
+cells empty, this seat immediately proposed those thirty-five as a research programme on the grounds
+that each is either unexplored or impossible. That was not a test. The empty cells concentrate on
+the smallest faces, one of which carries two arcs and ten empty cells and another three arcs and
+seven, and a face with two arcs cannot populate eighteen motifs, so calling that a gap would have
+been an unregistered null. The null was therefore sealed before counting: a margin-preserving
+permutation over ten thousand draws, with a cell called an artifact when the null empties it at
+least a tenth of the time, and the whole proposal called vacuous when thirty or more of the
+thirty-five come back artifact. Thirty-four did. The verdict is vacuous and the proposal is refuted
+against a criterion fixed in advance, which the prereg had also said was the expected outcome, so
+the refutation cannot be softened into having always known the small faces were thin. One cell
+survived, the congruence tower against the A-polynomial at four and a half per cent, and it does not
+survive its own arithmetic: testing thirty-five cells at a tenth expects three and a half below
+threshold by chance, so observing one is fewer than chance produces and the conclusion is stronger
+than vacuous, namely that there are no real gaps in that plane at all. The second measurement, fixed
+in the same seal, also came back negative, since the motif-completeness of the two largest faces is
+produced by the null nearly ninety per cent and sixty per cent of the time respectively and is not
+surprising. What this establishes positively is that the two authored axes are jointly saturated:
+the work covers the where-by-what plane as fully as the margins permit, so whatever remains
+unaccounted for is not missing from that plane, which leaves the third axis, the one proved complete
+and recorded in no instrument. Nothing to CLAIMS.

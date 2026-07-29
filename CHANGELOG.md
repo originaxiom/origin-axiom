@@ -1,5 +1,16 @@
 # Changelog
 
+## B808 — the 35 empty cells are sample size, not structure. cc's own proposal, refuted.
+- **Prereg `68d1aef066a0f555` sealed at `aaaebf4c` BEFORE compute** — and it tested **cc's own proposal** from hours earlier, that B807's 35 empty (face, motif) cells constitute a research programme.
+- **The confound, spotted before the test:** the empty cells concentrate on the *smallest* faces — `emittance-lengths` **2 arcs / 10 empty**, `infinite-hecke` **4 / 9**, `emittance-eigenvalues` **3 / 7**. A face with two arcs cannot populate eighteen motifs. Calling that a gap would be an unregistered null (**E29**).
+- **Margin-preserving permutation null, 10,000 draws:** **ARTIFACT 34 of 35**; REAL GAP **1**. Sealed verdict (VACUOUS if ≥ 30 artifact): **VACUOUS. The proposal is refuted.**
+- **And the single survivor does not survive its own arithmetic.** 35 cells tested at `p < 0.10` ⟹ **≈3.5 expected by chance**; **observed 1** — *fewer* than chance. So `congruence-tower × apolynomial` is not evidence of anything, and the honest conclusion is **stronger** than VACUOUS: **there are no real gaps in the (face, motif) plane at all.** Recorded because keeping the survivor as a consolation finding would have been easy and wrong.
+- **§4, also pre-registered, also negative**: `being` (0 empty) has `p_full = 0.895` under the null; `hearing` 0.601. **Motif-completeness of the large faces is not surprising.** The prereg named this as *"the arc's real result if the gap side dissolves"* — it dissolved too, and is reported rather than dropped.
+- **What this establishes positively:** the two **authored** axes are **jointly saturated** — the work covers the WHERE × WHAT plane as fully as the margins permit. **Whatever is unaccounted for is not missing from that plane**, which points at the third axis: proved complete (B733/B766), recorded in **no instrument**.
+- **Methodological note**: B807's proposal survived its test; B808's did not. The difference was not care — it was that **the null was registered before the count was looked at**. Worked as a programme, the 35 cells could have absorbed months of work on arithmetic.
+- 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## B807 — the two vocabularies are ORTHOGONAL AXES, and the observer is a third
 - **Prereg `40b7ff01274b4c01` sealed at `ad2edefe` BEFORE compute**, and it **refused the obvious action**: zero overlap between 11 faces and 18 motifs reads as a bug, but the prereg set a discriminating test with thresholds fixed in advance — merge only if the vocabularies prove **redundant**.
 - **Measured**: **P = 163** populated (face, motif) pairs of 198 possible (**82 %**) against a sealed floor of 60; **top-5 share 0.168** against a sealed ceiling of 0.50; **normalised mutual information 0.031** — essentially zero.
