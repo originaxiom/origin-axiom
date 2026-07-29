@@ -127,3 +127,33 @@ any seat, runs the §4 checklist and names its §1 rung first. It makes the fire
 CONSTRUCTIVE without asserting any comparison — the honest form of "how do I listen"
 ([[speculations/S069]]). No §6 door runs without a sealed, owner-authorized Gate-5-SM
 design.
+
+---
+
+## §9 — AMENDMENT (adopted 2026-07-29, Review 32 R32-6): rung 4 as instrument calibration
+
+**The problem this fixes.** §1 rules rung-4 single-ratio comparisons *"DEAD ON ARRIVAL, however
+small the σ-distance."* B792/B797 nonetheless ran Tests 1–2, which are rung 4, under owner
+directive and a sealed prereg. The record therefore showed the programme running a test its own
+protocol calls inadmissible, **with no stated reason** — which reads as either a lapse or a quiet
+exception, and is neither.
+
+**The amendment.**
+
+> **A rung-4 comparison is admissible as INSTRUMENT CALIBRATION, never as evidence.** It must be
+> labelled `RUNG-4 / CALIBRATION-ONLY` **at prereg**, before the run, and its verdict may not be
+> cited as evidence about the object in either direction — not as support, and **not as a
+> negative**.
+>
+> What a rung-4 run legitimately establishes is a property of the **instrument**: that the
+> base-rate machinery kills tempting near-misses at the stated look-elsewhere budget. B797 is the
+> worked example — **39 raw candidates → 0 gated**, including a four-significant-figure
+> ℓ₀/ℓ₅₁ ≈ sin²θ_W and a cluster of λ-ratios near δ_CP. That is a real result about the pipeline,
+> and it is the **ground for trusting a rung-1 verdict when one is run.**
+>
+> Corollary: a rung-4 null may **not** be reported as "the door is shut", and a rung-4 hit may not
+> be reported at all except as a calibration failure.
+
+**Provenance.** Chat-1's correction, 2026-07-29: cc's first reading ("the null is not evidence")
+was right about evidence and **too harsh about the run** — it discarded a genuine calibration
+result along with the inadmissible inference. Both halves are now stated.

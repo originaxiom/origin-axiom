@@ -8185,3 +8185,17 @@ order-1920 group PSL of Z-omega mod four, whose true order is 960, and it immedi
 file the manual pass had missed. All six views were then regenerated with reconciliation blocks,
 Review 31's action block was closed with its cherry-pick rule confirmed to have held under load,
 and nine items were carried forward. Nothing to CLAIMS.
+
+B798 and the Review 32 discharge. The coupling campaign's falsifier said fifty-plus digits with
+adequate power, and adequate power was never defined; an undefined power criterion can be repaired
+after the fact by pleading higher degree, which means it is not a falsifier. Computing the PSLQ
+bound settles it and produces something sharper than expected: at eight digits there is no power
+at all, so the earlier refusal to claim algebraicity in either direction was exact, but fifty
+digits is also under-specified, reaching only height ten-to-the-three-and-a-half at degree ten
+where parity with the Booker-Stromberg-Venkatesh standard needs a hundred digits. The box is now
+sealed and declared unamendable after the run. The cost was also misdescribed in cc's report: the
+hundred-digit run is four to five orders of magnitude beyond the certified one and sits on a
+different numerical stack, so it is a new instrument whose validation does not inherit from the
+existing one. The listening protocol gains an amendment making rung-four comparisons admissible as
+instrument calibration but never as evidence, which repairs a real gap in the record, and five
+previously unregistered open items are now carried. Nothing to CLAIMS.

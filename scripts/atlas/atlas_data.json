@@ -16534,6 +16534,18 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B798": {
+   "slug": "falsifier power box",
+   "motifs": [],
+   "refs": [
+    "B796",
+    "B797"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B79": {
    "slug": "mn table",
    "motifs": [

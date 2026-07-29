@@ -620,3 +620,17 @@ verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had
 inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
 whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
+
+### Registered 2026-07-29 (Review 32, R32-8) — items that existed but appeared in no register
+
+| id | item | status | cheap? |
+|---|---|---|---|
+| **L109** | the **m003-side congruence half** — m003's congruence level/filtration, the sister to B794's Γ₄₁ result | OPEN | in-sandbox, cheap |
+| **L110** | **the parent r₂-above-10 question** — the parent Bianchi spectrum's second eigenvalue lies above the certified window (r ≤ 9.84); locate it and test the V₁ budget at a second point | OPEN | in-sandbox, moderate |
+| **L111** | **the τ-parity V₅/V₆ prototype** — a candidate sector-separation instrument; would supply what neither existing solver has (the bank has assembly without detection, the direct solver has detection without sectors) | OPEN, offered | prototype exists |
+| **L112** | **the [0.5, 7.6] two-instrument cross-run** — run both independent solvers on the same interval with no literature input; agreement to ~1e-4 validates *both by detection*, the axis where evidence is currently zero (= B793's Stage-A options a/b) | OPEN, ready | cheap; both instruments exist |
+| **L113** | **the algebraicity (d, H) box** — B798 seals it: BSV parity needs **100** digits, not 50; the 100-digit stack needs **its own** certification | OPEN, sealed spec | **expensive** (10^4–10^5×) |
+
+*L109–L112 originate with the cc3 seat and were surfaced by its own cross-sweep; L113 is
+cc's (B798). None had a main-side registry row before this review — the same off-register
+condition that let the whole Maass thread run unconnected for four arcs.*

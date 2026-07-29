@@ -2324,13 +2324,27 @@ was ~55 arcs behind.
   whether the autopsy is trustworthy for the other seven arcs.
 - [ ] R32-3: cc3 to promote B796's bounded mechanism-exclusion to the PRIMARY falsifier; §10.7's
   honest rider currently makes the H2 inference unbounded (E32 through the front door).
-- [ ] R32-4: seal the (d, H) box for Cell 9's "adequate power" — PSLQ excludes degree-d height-H
-  relations only if digits ≳ 1.43·d·log₁₀H; at 8 digits there is no power at all.
-- [ ] R32-5: correct the Cell 9 cost estimate before anyone schedules it — 8→50 digits is 3–5
-  orders of magnitude on a different numerical stack, not a refinement.
-- [ ] R32-6: adopt the rung-4 protocol amendment — rung-4 comparisons admissible as **instrument
-  calibration**, never as evidence, labelled so at prereg.
+- [x] R32-4: **DONE (B798).** Power box computed and sealed. Headline: **"50+ digits" is
+  under-specified** — at 50 digits the d ≤ 10 exclusion reaches only H ≤ 10^3.5, whereas **BSV
+  parity (d ≤ 10, H ≤ 10⁷) requires N ≥ 100**. At 8 digits there is no power at all (d=2 reaches
+  10^2.8), confirming B797's refusal in both directions was exact. The (d,H) box is declared
+  before the run and **not amendable after it**.
+- [x] R32-5: **DONE (B798).** 50 digits = 10^3.4–10^4.4×; **100 digits = 10^4.3–10^5.3×**, on a
+  different numerical stack. It is a **new instrument, not a refinement** — and the 8-digit
+  instrument's two-height + mode-count validation **does not transfer to it**. cc's report said
+  "cheap"; that described the §16 review and sat misleadingly next to the computation.
+- [x] R32-6: **DONE.** LISTENING_PROTOCOL §9 amendment adopted: a rung-4 comparison is admissible
+  as **INSTRUMENT CALIBRATION**, never as evidence, labelled `RUNG-4 / CALIBRATION-ONLY` at
+  prereg; its null may not be reported as "the door is shut". Per Chat-1: cc's first reading was
+  right about evidence and too harsh about the run — 39 → 0 gated is a real result about the
+  pipeline and the ground for trusting rung 1.
 - [ ] R32-7: re-harvest B792's **certified** SM run (main currently carries the dry run) and
   correct B795's instrument table.
-- [ ] R32-8: register cc3's four previously-unregistered open items in OPEN_LEADS.
-- [ ] R32-9: the pre-B788 backlog law-harvest remains uncertified by this review's modulus.
+- [x] R32-8: **DONE.** L109–L113 registered (m003 congruence half; parent r₂ above 10; the
+  τ-parity V₅/V₆ prototype; the [0.5, 7.6] two-instrument cross-run; and the algebraicity (d,H)
+  box). None had a registry row — the same off-register condition that let the Maass thread run
+  unconnected for four arcs.
+- [>] R32-9 (in progress): the pre-B788 backlog law-harvest. A mechanical filter found **33
+  pre-B788 arcs carrying sustained theorem-language with no citation in LAW_MAP /
+  THEOREM_LEDGER / CLAIMS**; the top 22 are under agent read now. Calibration held: most will be
+  negatives, censuses or single-instance checks, which are not laws.
