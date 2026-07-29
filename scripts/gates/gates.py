@@ -451,6 +451,57 @@ def gate_views_generated():
     return True, f"ok ({len(before)} views current)"
 
 
+PRACTICES = "docs/PRACTICES.md"
+
+
+def gate_practices_register():
+    """docs/PRACTICES.md and the gate registry must agree, BOTH directions.
+
+    Instituted 2026-07-29. A day of sweeps found six drifted practices and five that held, split
+    perfectly by whether a gate existed -- and found that agreed practices had no single home
+    (they lived in WORKING_RULES prose, in this file's code, and in conversation, and the
+    conversational ones reached neither). PRACTICES.md is that home.
+
+    Direction (2) is the one that matters: a gate added WITHOUT a row in the register would make
+    the register quietly incomplete, which is exactly how knowledge/INDEX.md lost four entries."""
+    path = os.path.join(ROOT, PRACTICES)
+    if not os.path.isfile(path):
+        return False, "docs/PRACTICES.md missing -- the practice register is the agreement record"
+    text = _read(PRACTICES)
+    named = set(re.findall(r"`([a-z0-9-]+)`", text))
+    problems = []
+    missing = sorted(g for g in GATES if g not in named)
+    if missing:
+        problems.append("gates absent from the register: " + ", ".join(missing))
+    # every GATED row must name a gate that exists
+    for line in text.splitlines():
+        if "**GATED**" not in line:
+            continue
+        cited = re.findall(r"`([a-z0-9-]+)`", line)
+        if cited and not any(c in GATES for c in cited):
+            problems.append(f"GATED row names no live gate: {line.strip()[:70]}")
+    if problems:
+        return False, "practice register drift -- " + "; ".join(problems[:4])
+    return True, f"ok ({len(GATES)} gates all registered)"
+
+
+def gate_log_changelog_paired():
+    """PROGRESS_LOG and CHANGELOG must be updated together.
+
+    A standing rule that cc broke on three of its own commits in a single session (2026-07-29),
+    caught only by its own survey. Written rules have a half-life; this one now has a gate.
+    Checks that CHANGELOG was touched at or after the last PROGRESS_LOG touch."""
+    rc, a = _git("log", "-1", "--format=%ct", "--", "PROGRESS_LOG.md")
+    rc2, b = _git("log", "-1", "--format=%ct", "--", "CHANGELOG.md")
+    if rc != 0 or rc2 != 0 or not a.strip() or not b.strip():
+        return True, "git unavailable -- skipped"
+    ta, tb = int(a.strip()), int(b.strip())
+    if tb < ta:
+        return False, ("PROGRESS_LOG updated after CHANGELOG -- the standing rule is that a banked "
+                       "arc updates both in the same or next PR")
+    return True, "ok (changelog at or after progress-log)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -466,6 +517,8 @@ GATES = {
     "path-refs": gate_path_refs,
     "test-vacuity": gate_test_vacuity,
     "views-generated": gate_views_generated,
+    "practices-register": gate_practices_register,
+    "log-changelog-paired": gate_log_changelog_paired,
 }
 
 

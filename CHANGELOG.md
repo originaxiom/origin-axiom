@@ -1,5 +1,17 @@
 # Changelog
 
+## Practice register instituted — and its own gates caught two live defects on the first run
+- **Owner's question**: how do we keep practices from being forgotten between pushes and reviews?
+- **The measured answer.** A day of sweeps produced a *perfect split*: **six practices drifted, every one ungated; five held, every one gated.** The clearest case — `GOVERNANCE.md` §12 clause two was adopted **2026-07-16**, written into the constitution, and **not executed for thirteen days** while the surfaces it governs drifted. **A written rule has a half-life; a gate does not.**
+- **The structural gap**: agreed practices had **no single home** — they lived in `WORKING_RULES.md` prose, in `gates.py` code, and in conversation, and the conversational ones reached neither of the other two. That is the leak the owner named.
+- **New `docs/PRACTICES.md`** — one register, one row per practice, with an explicit enforcement column: **GATED · TESTED · SCHEDULED · MANUAL**. Rule for adding: *if it is mechanically checkable it must be GATED or TESTED* — writing it as MANUAL when it could be gated is how the six drifted. **A practice not in the table is not an agreed practice.**
+- **`practices-register` gate checks BOTH directions**: every GATED row names a live gate, **and every gate appears in the register**. Direction two is the load-bearing one — a gate added without a row would make the register quietly incomplete, which is precisely how `knowledge/INDEX.md` lost four entries.
+- **`log-changelog-paired` gate**: the standing "update both" rule that cc broke on **three of its own commits** in one session, caught then only by its own survey.
+- **Both gates fired on their FIRST run, on real defects.** `practices-register` caught cc marking the decadal review **GATED** against `review-due` — which is a *counter*, advisory by design, not a gate. `log-changelog-paired` caught the campaign-closure commit updating `PROGRESS_LOG` without `CHANGELOG` — the very rule it enforces, violated live. Neither was a planted control.
+- **Judgement practices are marked MANUAL and say so**, rather than pretending to be checkable — and the register names the mechanism that actually works for them: **the preregistration**, measured in B799, where a pre-declared warning sign made the outcome interpretable instead of self-congratulatory.
+- 16/16 gates green. Nothing to `CLAIMS.md`.
+
+
 ## B800 + B801 — the two compaction residuals discharged
 - **B800 — B685's Habiro integrality leg RECOMPUTED: partial confirmation, flag stays.** B685 banked *"integral away from 3, the (q−1)¹⁰⁰ denominator is 3¹⁴⁶"* by **re-reading GSWZ eq. 2**. Rebuilt from first principles instead: the figure-eight state-integral potential, its saddle `w₀² − w₀ + 1 = 0`, and the **1-loop invariant `V″(u₀) = √−3` computed, not assumed**. Every higher derivative is an *integer* multiple of 1 or √−3 (`−2, −2√−3, 10, 22√−3, −182, −602√−3`), which **is** the "pure being" mechanism, now derived in-sandbox.
 - **Structural checks passed**: the symmetrised series is **rational** (the √−3 cancels as symmetrisation requires) and **even** (all odd coefficients vanish).

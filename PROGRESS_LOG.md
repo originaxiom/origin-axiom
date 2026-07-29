@@ -8423,3 +8423,25 @@ the other clone does not carry, so nothing was pulled. The campaign's honest rem
 rather than closed: seven hundred and one arcs still need authored verdicts, about a hundred and
 eleven negatives sit outside the kill graph, one normalisation is unpinned, and one stale revival
 score still advertises a door that has already reopened. Nothing to CLAIMS.
+
+A practice register now exists, prompted by the owner's question about how agreed practices survive
+between pushes and reviews. The answer came from this session's own record rather than from
+principle. Six practices drifted and five held, and the split was perfect along one line: every
+practice that drifted had no gate and every practice that held had one. The sharpest case is the
+constitution's own second clause on generating views, adopted thirteen days earlier, written down,
+and simply not executed while the surfaces it governs decayed. A written rule has a half-life; a
+gate does not. The structural gap underneath was that agreed practices had no single home, living
+partly in the working-rules prose, partly in the gate code, and partly in conversation, with the
+conversational ones reaching neither of the other two. That is the leak. The register is now one
+table with an explicit enforcement column, and the rule for adding to it is that anything
+mechanically checkable must be gated rather than described, since describing what could be checked
+is exactly how the six drifted. The register is itself gated in both directions, so a gate added
+without a row would be caught, which is the failure mode that lost four knowledge entries earlier
+today. Both new gates fired on their first run against real defects rather than planted controls:
+one caught this seat marking the decadal review as gated when the review counter is advisory by
+design and fails nothing, and the other caught the campaign-closure commit updating the progress log
+without the changelog, which is the very rule it enforces. Judgement practices are marked as such
+instead of being dressed up as checkable, and the register names the preregistration as the
+mechanism that actually works for them, on the evidence of the twelve-doors arc where a warning sign
+declared in advance is what made the outcome interpretable rather than self-congratulatory. Nothing
+to CLAIMS.
