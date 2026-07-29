@@ -1,0 +1,10 @@
+{
+ "id": "B556",
+ "verdict": "OPEN",
+ "claim_one_line": "The escalator tower T(M) = [[M,M],[M^2,M]]: the computational core is verified exactly, while the tower-as-physics-ladder reading is banked as a LABELLED HYPOTHESIS.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

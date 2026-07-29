@@ -1,0 +1,12 @@
+{
+ "id": "B629",
+ "verdict": "PROVED",
+ "claim_one_line": "The interaction-layer value bank: values sealed by hash, with NO comparison of any kind performed in this arc.",
+ "instrument": true,
+ "depends_on": [
+  "B598"
+ ],
+ "superseded_by": null,
+ "stratum": "C",
+ "authored_by": "W1-pilot"
+}

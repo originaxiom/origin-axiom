@@ -1,0 +1,10 @@
+{
+ "id": "B164",
+ "verdict": "PROVED",
+ "claim_one_line": "The (0,4) Jimbo-Fricke cubic is built explicitly, its Painleve-VI/MCG dynamics exhibited via the three Vieta involutions, and bridged to the once-punctured-torus cubic at the void fiber.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

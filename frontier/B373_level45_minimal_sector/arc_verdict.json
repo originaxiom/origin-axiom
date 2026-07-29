@@ -1,0 +1,10 @@
+{
+ "id": "B373",
+ "verdict": "PROVED",
+ "claim_one_line": "The pre-registered MOVED outcome hit VERBATIM (+-36 deg = 108/3, exponents a = +-6 of 60); the minimal sector is gapless.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

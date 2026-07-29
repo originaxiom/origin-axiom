@@ -1,0 +1,19 @@
+{
+ "id": "B484",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The relayed 'SM gauge group = braiding statistics of Fibonacci anyons' frame does not survive: run under HELD(value-matching); tr(figure-eight braid) = -3/phi exactly, which fixes nothing about SM mixing.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "A",
+ "authored_by": "W1-pilot",
+ "kill": {
+  "kill_form": "genericity",
+  "faces_consulted": [
+   "mtc-overlay"
+  ],
+  "fact_computed": true,
+  "hatch": "none-apparent",
+  "revival_score": 1
+ }
+}

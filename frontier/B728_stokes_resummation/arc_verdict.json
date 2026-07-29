@@ -1,0 +1,17 @@
+{
+ "id": "B728",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "A",
+ "authored_by": "W1-pilot",
+ "kill": {
+  "kill_form": "unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": "unregistered",
+  "revival_score": null
+ }
+}

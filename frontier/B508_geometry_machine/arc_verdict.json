@@ -1,0 +1,10 @@
+{
+ "id": "B508",
+ "verdict": "PROVED",
+ "claim_one_line": "delta(s) = (s^2+s-1)/(s-1) along the evolution curve, verified OUT-OF-SAMPLE at never-sampled points s=3 and s=-2, with delta=0 exactly at the golden points {1/phi, -phi}.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "C",
+ "authored_by": "W1-pilot"
+}

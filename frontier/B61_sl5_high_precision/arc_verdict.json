@@ -1,0 +1,12 @@
+{
+ "id": "B61",
+ "verdict": "OPEN",
+ "claim_one_line": "The SL(5) fixed-line factorization is determined at dps=60 by a stable high-precision SVD pinv, resolving B60's cond~1e11 blockage -- numerically, not as a symbolic proof.",
+ "instrument": false,
+ "depends_on": [
+  "B60"
+ ],
+ "superseded_by": null,
+ "stratum": "C",
+ "authored_by": "W1-pilot"
+}

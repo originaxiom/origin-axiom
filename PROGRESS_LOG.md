@@ -8336,3 +8336,24 @@ fire: had every door landed computed or cited, the compiler's flag would have ca
 information, and five surviving downgrades show that it does. One door turned out to be stale rather
 than uncomputed, its kill already retracted elsewhere while its revival score still stood at the
 corpus maximum. Nothing to CLAIMS.
+
+Compaction waves W1 through W3, executed on the green light. The W1 pilot authored thirty arc
+verdicts across a stratified sample and produced three findings that change the programme's cost
+model, two of which refute things the plan itself asserted. First, the premise that malformed
+titles mark the hard arcs is wrong, and wrong in the opposite direction: eighty-three per cent of
+uninformative-title arcs carry an explicit Verdict block against nineteen per cent of the rest, so
+the title heuristic anti-correlates with classifiability. The early arcs followed a template that
+recorded a verdict explicitly; later arcs moved the verdict into a rich title instead. Both regimes
+are classifiable, by different routes. Second, the genuinely hard stratum is eleven arcs, one and a
+half per cent, not the ninety my first detector claimed; a quarter of the corpus is directly
+extractable and nearly three quarters is carried by its title. Third, the filename verdict.json was
+already taken, by an unrelated data file with a different schema in the foreign-vacuum-control arc,
+so the schema now writes arc_verdict.json. A fourth finding came out of the authored sample itself:
+two of its five negatives are absent from the kill graph, so the two hundred and seventeen
+classified closures are a lower bound on the corpus's negatives rather than a census. That is
+flagged, not extrapolated, since five is far too small a sample to carry a rate. W2 built the
+generator that executes governance section twelve's second clause, which had stood unexecuted since
+its adoption while every navigation surface stayed hand-maintained. It emits three views and the
+first of them reports its own coverage, currently four per cent, so that no other view can imply a
+completeness it does not have. W3 gated it: hand-editing a generated view now fails the suite, and
+regenerating clears it, which was confirmed by doing both. Nothing to CLAIMS.

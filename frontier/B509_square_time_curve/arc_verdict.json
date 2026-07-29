@@ -1,0 +1,12 @@
+{
+ "id": "B509",
+ "verdict": "PROVED",
+ "claim_one_line": "The square-time curve has rank 0 (proved) and is 40a3; the isogeny fact is FLAGGED, not interpreted.",
+ "instrument": false,
+ "depends_on": [
+  "B508"
+ ],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

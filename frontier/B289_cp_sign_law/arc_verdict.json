@@ -1,0 +1,12 @@
+{
+ "id": "B289",
+ "verdict": "PROVED",
+ "claim_one_line": "The Chern-Simons sign law CS(p,-q) = -CS(p,q) is robust, and its meaning is a Q(sqrt-3) Galois reading; verified by two methods.",
+ "instrument": false,
+ "depends_on": [
+  "B286"
+ ],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B605",
+ "verdict": "PROVED",
+ "claim_one_line": "Door 2 settled: the amphichiral involutions are FREE deck transformations, not reflections (Gieseking control).",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

@@ -422,6 +422,35 @@ def gate_test_vacuity():
     return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)"
 
 
+def gate_views_generated():
+    """The generated views under docs/views/ must be current with their sources.
+
+    GOVERNANCE §12 clause two. Unlike `views-fresh` (which asks whether a HAND-maintained view
+    was touched recently), this asks whether a GENERATED view still equals what its sources
+    produce -- a strictly stronger check, and the one that makes hand-editing detectable."""
+    gen = os.path.join(ROOT, "scripts", "views", "generate.py")
+    if not os.path.isfile(gen):
+        return False, "view generator missing"                 # fail-closed
+    vdir = os.path.join(ROOT, "docs", "views")
+    before = {}
+    if os.path.isdir(vdir):
+        for f in sorted(os.listdir(vdir)):
+            if f.endswith(".md"):
+                before[f] = _read(f"docs/views/{f}")
+    r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=180)
+    if r.returncode != 0:
+        return False, f"generator failed: {r.stderr[-200:]}"
+    stale = []
+    for f, old in before.items():
+        if _read(f"docs/views/{f}") != old:
+            stale.append(f)
+    new = [f for f in os.listdir(vdir) if f.endswith(".md") and f not in before]
+    if stale or new:
+        return False, ("generated views out of date (regenerate: python3 scripts/views/"
+                       "generate.py): " + ", ".join(stale + new))
+    return True, f"ok ({len(before)} views current)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -436,6 +465,7 @@ GATES = {
     "knowledge-index": gate_knowledge_index,
     "path-refs": gate_path_refs,
     "test-vacuity": gate_test_vacuity,
+    "views-generated": gate_views_generated,
 }
 
 

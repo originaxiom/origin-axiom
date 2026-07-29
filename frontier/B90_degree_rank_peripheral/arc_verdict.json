@@ -1,0 +1,13 @@
+{
+ "id": "B90",
+ "verdict": "RETRACTED",
+ "claim_one_line": "L1b is a genuine uniform result, but L1a is a TAUTOLOGY and 'exponent = rank from Cayley-Hamilton' is REFUTED; degree=rank stays proved only at n=3,4.",
+ "instrument": false,
+ "depends_on": [
+  "B71",
+  "B89"
+ ],
+ "superseded_by": null,
+ "stratum": "A",
+ "authored_by": "W1-pilot"
+}

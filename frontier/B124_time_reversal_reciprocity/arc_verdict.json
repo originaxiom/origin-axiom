@@ -1,0 +1,10 @@
+{
+ "id": "B124",
+ "verdict": "PROVED",
+ "claim_one_line": "Reciprocal (lambda,1/lambda) eigenvalue pairing is a generic symplectic fact; exactly one residue is metallic-specific.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

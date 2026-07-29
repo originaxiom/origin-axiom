@@ -1,0 +1,13 @@
+{
+ "id": "B647",
+ "verdict": "PROVED",
+ "claim_one_line": "Cell 1: imposing Y-compose-sigma* = conj(Y) over Q(sqrt-3) forces the ratio Y[023] = 24*zeta6*Y[123], which B638's swap law alone had left undetermined in 10 real dimensions.",
+ "instrument": false,
+ "depends_on": [
+  "B638",
+  "B643"
+ ],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}
