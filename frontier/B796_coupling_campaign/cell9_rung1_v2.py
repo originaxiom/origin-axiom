@@ -381,7 +381,7 @@ def run(r_cert, mult2=False):
     DIGITS = DIGITS + 5
     flint.ctx.prec = int((DIGITS + 45) * 3.33)  # +45 guard digits: arb LU ball growth near the (by-design) nearly singular M(r)
     S2 = Sys(r_cert, digits=DIGITS)
-    j0b = min(range(S2.n), key=lambda m: S2.modes[m][0]**2 + S2.modes[m][1]**2 / 12.0)
+    j0b = S2.modes.index(tgt)  # same data-driven mode as the main run
     r2, _, _ = newton(S2, r_str[:20], j0=j0b, itmax=5, label='cert')
     DIGITS, flint.ctx.prec = old_digits, old_prec
     dstab = abs(mp.mpf(r2.str(34, radius=False)) - mp.mpf(r_str))
