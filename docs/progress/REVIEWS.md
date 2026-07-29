@@ -2446,6 +2446,20 @@ exactly where φ enters arithmetically (Frobenius gluing trivial at p=3, nontriv
   grep hits then executed `pass` **and** named a directory that does not exist, and a BSD test
   reading `assert True` + `assert 121 == 11**2`. All repairs mutation-verified (break the
   mechanism → test goes red). New `test-vacuity` gate enforces the two hard classes.
+- [x] R32-13 (COMPACTION CAMPAIGN — CLOSED 2026-07-29): W0–W5 executed on the owner's green
+  light, plus both residuals. GOVERNANCE §12 clause two (*generate the views*) is executed for
+  the first time since its adoption 2026-07-16. Executing the plan **refuted three of its own
+  claims** (the hard-arc premise was backwards; the hard stratum is 11 arcs not 90;
+  `verdict.json` was not a free filename). Seven new gates, every one verified by deliberate
+  breakage. Full suite 2941 passed / 35 skipped / 0 failed.
+- [x] R32-14: cc3 closure survey — B783 harvested as **B802** (headline negative independently
+  confirmed); B784 and B792 already harvested (B785, B795/B797); B796 in flight, not
+  harvestable; B350/B778/B780/B781 differ but **main is ahead in all four**. No cc3 branch
+  merged, per integrate-don't-merge.
+- [ ] R32-15 (CARRIED, the campaign's honest remainder): **701 of 731 arcs still need authored
+  verdicts** (ledger projects 4.1 %); **~111 negatives unregistered** in `kill_graph` (B801,
+  measured); **B685's normalisation** un-pinned (B800, partial); **B731's `revival_score: 10`**
+  stale on a reopened door.
 - [ ] R32-12b: triage the **65** BOTH-LITERAL entries in
   `docs/progress/R32_vacuity_review_queue.txt`. This is a REVIEW QUEUE, **not** a defect list —
   a sample of six gave 1 real vacuity (fixed: `test_b709_turok`), 2 scanner false positives

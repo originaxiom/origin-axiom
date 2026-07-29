@@ -8404,3 +8404,22 @@ corpus's negatives. Ambiguous arcs were counted as non-negative, so the truth is
 that. This does not impugn the compiler, whose records are fully populated and whose flag was shown
 to carry information; it compiled the atlas-visible negatives, and the corpus simply holds more.
 The coverage view now reports the measured figure instead of the flag. Nothing to CLAIMS.
+
+The compaction campaign closes here, and the closing sweep found one genuine piece of unharvested
+work at the audit seat. A survey of that clone against main showed four arcs present there and
+absent here. Two had already been harvested under main's own numbers, one is still in flight with
+no findings written, and one, the observer ground-zero campaign, had never been brought across. It
+is now banked as B802 under the standing integrate-don't-merge rule, which forbids merging that
+seat's branch and requires cherry-picking under a new number with independent verification. The
+verification reproduced the load-bearing negative from scratch: reversal preserves the Fibonacci
+word's letter frequencies, computed out to a word of a hundred and twenty-one thousand letters,
+while the complement operation swaps them, and the golden Galois moves every quantity built from
+the golden ratio. Since reversal provably moves none of them, the golden Galois cannot be reading
+direction, which is what the seat claimed. Three further parts of that campaign were not verified
+here, because they need a tracking-map definition this seat did not reproduce, and they are
+recorded as the other seat's result on the other seat's evidence rather than folded in silently.
+Four arcs differ between the two clones; main is ahead in all four, including a partial retraction
+the other clone does not carry, so nothing was pulled. The campaign's honest remainder is carried
+rather than closed: seven hundred and one arcs still need authored verdicts, about a hundred and
+eleven negatives sit outside the kill graph, one normalisation is unpinned, and one stale revival
+score still advertises a door that has already reopened. Nothing to CLAIMS.

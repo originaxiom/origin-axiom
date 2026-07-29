@@ -16677,6 +16677,31 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B802": {
+   "slug": "cc3 b783 harvest",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B350",
+    "B778",
+    "B780",
+    "B781",
+    "B783",
+    "B784",
+    "B792",
+    "B795",
+    "B796",
+    "B797"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B80": {
    "slug": "sl4 adproof",
    "motifs": [
