@@ -217,6 +217,22 @@ ALL traces in Z[ω] to 2.4e−10 (L2 algebraicity extends).
   (B737: O/Λ ≅ Z/4, CM by the conductor-4 order, disc −48).
 - B790's cutoff-5 phrasing was sample-limited: no odd m004-exclusive
   trace exists below cutoff 5.
+- **LEVEL RECONCILIATION (2026-07-29, after cc's §6 recompute —
+  verified in-sandbox both ways):** my "37 distinct / one odd (7)" is
+  the TRACE-level statement (norms of m004-exclusive traces: 2−ω and
+  3+ω carry norm 7 and are absent from m003); cc's "12 distinct /
+  zero odd" is the NORM-level statement (norm 7 enters m003 via the
+  DIFFERENT traces 1+3ω, 2+3ω; m004-exclusive NORMS = {4,16,48,64,
+  112,144,192,208,256,304,336,400}, all ≡ 0 mod 4). **Both correct
+  about different objects; my Δ2 relay conflated levels while
+  correcting cc's conflation in the other direction. At the NORM
+  level — the hint's level — H-B788-NORMSPLIT SURVIVES**, and the
+  congruence theorem supplies its mechanism (m004-exclusive norms
+  even ⟺ ≡ 0 mod 4, since all m004 norms avoid 1 mod 4 and the odd
+  class 3 is m003-shared). Three compatible laws, levels named:
+  (i) trace-level exclusives ∈ {0,3} mod 4; (ii) norm-level
+  exclusives ≡ 0 mod 4 (the hint, restored); (iii) ALL m004 norms
+  ∈ {0,3} mod 4 (the theorem).
 
 ## THEOREMS (mod4_trace_law_proof.py — the law PROVED, plus congruence)
 
@@ -227,7 +243,14 @@ Finite computation in SL(2, Z[ω]/4), no citations:
   ⟹ Γ₄₁ = preimage(H̄) ⟹ **Γ(4) ≤ Γ₄₁: the figure-eight knot group
   is a CONGRUENCE subgroup, of level exactly (4)** (mod-2 image is
   D₅ < A₅ of index 6, so Γ(2) ⊄ Γ₄₁). Explains B791's coset-image
-  order 1920 = |PSL(2, Z[ω]/4)| and its stabilizer order 160 = |H̄|.
+  order 1920 = |SL(2, Z[ω]/4)/{±I}| and its stabilizer 160 = |H̄|.
+  E21 GUARD (chat1's catch, 2026-07-29, verified in-sandbox): the
+  FULL center of SL(2,Z[ω]/4) is {±1, ±(1+2ω)}·I, order 4, so the
+  TRUE |PSL(2,Z[ω]/4)| = 960; the order-1920 group is SL/{±I}, the
+  quotient where the index-12 argument actually runs (theorem
+  unaffected). In the true PSL the image index is 6 — E21's original
+  number, dispositioned by E23 (name the convention: this theorem's
+  level (4) is the SL-kernel convention).
   Note (scoped to HOOK per cc's H-B794-A5): A₅ = PSL(2,F₄) appears
   with dihedral D₅ image, and A₅ also carries B787's 5A/5B
   ambivalence argument — two appearances of the smallest simple

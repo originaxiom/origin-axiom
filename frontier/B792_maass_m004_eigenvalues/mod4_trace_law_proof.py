@@ -5,11 +5,13 @@ trace norm is == 0 or 3 (mod 4), never 1. Here it is PROVED by finite
 computation, via the stronger structural statement:
 
   THEOREM 1 (congruence).  Gamma_41 = ker-preimage of an index-12
-  subgroup Hbar <= PSL(2, Z[w]/4).  In particular Gamma(4) <= Gamma_41:
+  subgroup Hbar <= SL(2, Z[w]/4)/{+-I}  (E21 guard: the TRUE
+  PSL(2,Z[w]/4) has center order 4 and order 960; the index-12
+  argument runs in SL/{+-I}, order 1920 — chat1's catch 2026-07-29).  In particular Gamma(4) <= Gamma_41:
   the figure-eight knot group IS a congruence subgroup, of level (2)^2.
   (B790 established it is NOT principal congruence; this pins the
   actual congruence structure. B791's coset-image order 1920 is
-  explained: 1920 = |PSL(2, Z[w]/4)|.)
+  explained: 1920 = |SL(2, Z[w]/4)/{+-I}|.)
 
   THEOREM 2 (trace law).  {N(tr gamma) mod 4 : gamma in Gamma_41}
   is contained in {0, 3}.  Every m004 geodesic trace norm is == 0 or
@@ -20,9 +22,9 @@ Proof method, all in-sandbox, no citations:
   (b) BFS the full group from the Bianchi generators
       T = [[1,1],[0,1]], U = [[1,w],[0,1]], S = [[0,-1],[1,0]]
       mod 4; if that closure has order 3840 = |SL(2, Z[w]/4)|, the
-      reduction PSL(2,O3) -> PSL(2, Z[w]/4) is SURJECTIVE (verified,
-      not cited).
-  (c) If [PSL(2,Z[w]/4) : Hbar] = 12 = [PSL(2,O3) : Gamma_41], then
+      reduction PSL(2,O3) -> SL(2, Z[w]/4)/{+-I} is SURJECTIVE
+      (verified, not cited).
+  (c) If [SL(2,Z[w]/4)/{+-I} : Hbar] = 12 = [PSL(2,O3) : Gamma_41], then
       Gamma_41 <= preimage(Hbar), both index 12, hence EQUAL, hence
       Gamma_41 >= Gamma(4).  Theorem 1.
   (d) Enumerate traces of H; norms mod 4.  Theorem 2 (the trace of any
@@ -105,7 +107,7 @@ MINUS_I = mat([[(3, 0), ZERO], [ZERO, (3, 0)]])
 has_minus = MINUS_I in H
 print(f"  -I in H: {has_minus}")
 Hbar = len(H) // (2 if has_minus else 1)
-print(f"  |Hbar| in PSL(2, Z[w]/4): {Hbar}")
+print(f"  |Hbar| in SL(2, Z[w]/4)/(+-I): {Hbar}")
 print()
 
 print("=" * 72)
@@ -114,16 +116,27 @@ print("=" * 72)
 G = bfs([T, Ti, U, Ui, S, Si])
 print(f"  |<T, U, S> mod 4| = {len(G)}  (|SL(2, Z[w]/4)| = 3840)")
 surj = (len(G) == 3840)
-print(f"  reduction PSL(2,O3) -> PSL(2,Z[w]/4) surjective: {surj}")
-print(f"  |PSL(2, Z[w]/4)| = {len(G) // 2} "
+print(f"  reduction PSL(2,O3) -> SL(2,Z[w]/4)/(+-I) surjective: {surj}")
+print(f"  |SL(2, Z[w]/4)/{{+-I}}| = {len(G) // 2} "
       f"(= B791's coset-image order 1920: {len(G) // 2 == 1920})")
+# E21 guard (chat1's catch, 2026-07-29): the FULL center of SL(2,Z[w]/4)
+# is {lam*I : lam^2 = 1} = {+-1, +-(1+2w)}, ORDER 4 — so the true
+# |PSL(2,Z[w]/4)| = 3840/4 = 960. The order-1920 group above is
+# SL/{+-I}, an intermediate quotient; that is where the index-12
+# congruence argument runs (PSL(2,O3) = SL(2,O3)/{+-I} maps to it
+# naturally). In the true PSL the image index is 6 — the number from
+# E21's original incident, dispositioned by E23 (name the convention).
+cen = [(a, b) for a in range(4) for b in range(4)
+       if rmul((a, b), (a, b)) == (1, 0)]
+print(f"  E21 guard: |center(SL(2,Z[w]/4))| = {len(cen)} "
+      f"(lam^2=1: {cen}); true |PSL| = {len(G) // len(cen)}")
 print()
 
 print("=" * 72)
 print("STEP (c): the index, and Theorem 1")
 print("=" * 72)
 idx = (len(G) // 2) // Hbar
-print(f"  [PSL(2, Z[w]/4) : Hbar] = {len(G) // 2} / {Hbar} = {idx}")
+print(f"  [SL(2,Z[w]/4)/{{+-I}} : Hbar] = {len(G) // 2} / {Hbar} = {idx}")
 print(f"  [PSL(2, O3) : Gamma_41] = 12 (B792 Step 2, exact)")
 if surj and idx == 12:
     print()

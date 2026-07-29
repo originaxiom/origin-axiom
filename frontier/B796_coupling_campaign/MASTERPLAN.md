@@ -23,6 +23,23 @@ verification supports the eigenvalues' existence; it bears on no
 hypothesis.) Per-cell falsifiers kill mechanisms; the campaign needs
 an outcome that can kill the premise. It has one:
 
+**PRIOR THAT SCOPES H0's "STRUCTURE" (B727/E20, surfaced by chat1,
+corroborated by two independent sweeps):** the flagship grammar claim
+("E₆ + generations + chirality from five characters") was base-rate
+audited in B727 and found GENERIC — the three E₆ faces are ONE ADE
+label (P(recurrence|label) = 1); the exceptional menu over an
+imaginary-quadratic field is {E₆} only (no birthday problem);
+π₁ ↠ 2T is shared by non-arithmetic knots; and m003 TIES m004 (the
+SM-resonance is the FIELD's, not the knot's). The surviving atom is
+one bit: trace field = Q(√−3). Therefore H0's "structure" is scoped
+to the SISTER-DISCRIMINATING, object-specific content only: the
+level-(4) congruence data (the mod-4 trace laws — m003 provably
+differs), the Maass spectra (not isospectral, B790), and the
+involution torsor. Cell 8's E6-skeleton family carries the B727
+verdict as a prior; anything generic to Q(√−3) objects is credited
+to the field, never to m004 (the T6 anabelian control enforces the
+same discipline on the dynamics side).
+
 **CAMPAIGN FALSIFIER (declared before any test runs; cc-gated
 wording).** The BC/CM route is the only dynamics-native mechanism the
 harvest identified. Its β=∞/Galois half requires an arithmetic
@@ -148,7 +165,8 @@ trap: b = 1 block factorization degenerates; GK closed-form route
 mandatory.
 
 **Cell 6 — SECTOR LADDER.** Decompose L²(m004) under the
-PSL(2,Z[ω]/4) coset action (12 = 1+5+6); assign all 17 eigenvalues to
+SL(2,Z[ω]/4)/{±I} coset action (12 = 1+5+6; E21 guard: the true
+PSL has order 960, the coset image 1920 = SL/{±I}); assign all 17 eigenvalues to
 sectors; sealed-in-advance invariance table: which functionals are
 object-fixed vs sector-moving. Cross-check: must agree with the
 S-invariance/projection labels — disagreement indicts one method.

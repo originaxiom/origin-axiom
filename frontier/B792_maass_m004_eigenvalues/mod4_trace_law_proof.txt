@@ -3,19 +3,20 @@ STEP (a): H = <A, B> mod 4
 ========================================================================
   |H| = 320
   -I in H: True
-  |Hbar| in PSL(2, Z[w]/4): 160
+  |Hbar| in SL(2, Z[w]/4)/(+-I): 160
 
 ========================================================================
 STEP (b): full group from Bianchi generators mod 4 (surjectivity)
 ========================================================================
   |<T, U, S> mod 4| = 3840  (|SL(2, Z[w]/4)| = 3840)
-  reduction PSL(2,O3) -> PSL(2,Z[w]/4) surjective: True
-  |PSL(2, Z[w]/4)| = 1920 (= B791's coset-image order 1920: True)
+  reduction PSL(2,O3) -> SL(2,Z[w]/4)/(+-I) surjective: True
+  |SL(2, Z[w]/4)/{+-I}| = 1920 (= B791's coset-image order 1920: True)
+  E21 guard: |center(SL(2,Z[w]/4))| = 4 (lam^2=1: [(1, 0), (1, 2), (3, 0), (3, 2)]); true |PSL| = 960
 
 ========================================================================
 STEP (c): the index, and Theorem 1
 ========================================================================
-  [PSL(2, Z[w]/4) : Hbar] = 1920 / 160 = 12
+  [SL(2,Z[w]/4)/{+-I} : Hbar] = 1920 / 160 = 12
   [PSL(2, O3) : Gamma_41] = 12 (B792 Step 2, exact)
 
   Gamma_41 <= preimage(Hbar), and both have index 12 in
