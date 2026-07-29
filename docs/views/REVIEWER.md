@@ -40,7 +40,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 ## How the doors were shut
 
-Closures indexed by *mechanism*, not by arc number -- the reviewer-legible form.
+Closures indexed by *mechanism*, not by arc number -- the form a reviewer can actually use.
 
 | mechanism | doors |
 |---|---|

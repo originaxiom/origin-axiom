@@ -164,7 +164,7 @@ def _apply_taxonomy(kills):
 
 
 def view_closed_doors(arcs, kills):
-    """The negatives, indexed by the MECHANISM that shut them -- the reviewer-legible asset."""
+    """The negatives, indexed by the MECHANISM that shut them -- the asset a reviewer can actually use."""
     kills = _apply_taxonomy(kills)
     byform = {}
     for r in kills:
@@ -227,7 +227,7 @@ def view_reviewer(arcs, kills):
         if byv.get(k):
             L.append(f"| {k} | {byv[k]} |")
     L += ["", "## How the doors were shut\n",
-          "Closures indexed by *mechanism*, not by arc number -- the reviewer-legible form.\n",
+          "Closures indexed by *mechanism*, not by arc number -- the form a reviewer can actually use.\n",
           "| mechanism | doors |", "|---|---|"]
     for f, n in forms.most_common(8):
         L.append(f"| `{f}` | {n} |")
