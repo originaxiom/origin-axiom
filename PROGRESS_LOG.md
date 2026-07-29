@@ -8199,3 +8199,17 @@ different numerical stack, so it is a new instrument whose validation does not i
 existing one. The listening protocol gains an amendment making rung-four comparisons admissible as
 instrument calibration but never as evidence, which repairs a real gap in the record, and five
 previously unregistered open items are now carried. Nothing to CLAIMS.
+
+R32-9, the pre-B788 backlog law-harvest, closes the repo-refresh work. A mechanical filter over
+arcs whose findings carry sustained theorem language but appear in no registry produced
+thirty-three candidates, of which twenty-two were read and four promoted, each re-verified here
+rather than trusted from its own arc: B471's metallic commutator trace identity with its iff that
+the golden-silver pair is the unique parabolic one, B534's dark-hyperbola laws together with an
+all-n Lucas determinant identity, B533's root and Perron identities with the GL(4,Z) rigidity, and
+B120's tower height-count closed form, that last one banked as a law rather than a theorem because
+its arc states it with no proof-strength tag. Calibration held: most candidates had nothing, and
+seven more turned out to be already banked in CLAIMS at the highest tier, which is a layer
+distinction rather than burial. One near-miss is recorded, where cc's own transcription of the
+B120 clauses mis-ordered them and produced a false mismatch at n equals two; the newly minted rule
+about naming a defect path before reporting caught that the defect was cc's, and the lock now
+guards that exact ordering. Nothing to CLAIMS.

@@ -2344,7 +2344,21 @@ was ~55 arcs behind.
   τ-parity V₅/V₆ prototype; the [0.5, 7.6] two-instrument cross-run; and the algebraicity (d,H)
   box). None had a registry row — the same off-register condition that let the Maass thread run
   unconnected for four arcs.
-- [>] R32-9 (in progress): the pre-B788 backlog law-harvest. A mechanical filter found **33
-  pre-B788 arcs carrying sustained theorem-language with no citation in LAW_MAP /
-  THEOREM_LEDGER / CLAIMS**; the top 22 are under agent read now. Calibration held: most will be
-  negatives, censuses or single-instance checks, which are not laws.
+- [x] R32-9: **DONE — the backlog harvest found real burial.** A mechanical filter gave 33
+  pre-B788 arcs with sustained theorem-language and no registry citation; 22 were read.
+  **Four promoted to LAW_MAP, each re-verified by cc rather than trusted from its arc:**
+  **B471** (metallic commutator trace identity `tr[A_m,A_n] = 2 − (mn(n−m))²` for all m<n, with
+  the iff that (1,2) is the unique parabolic pair — the arc had labelled it "not a scan, a
+  theorem" and it was in no registry); **B534** (the dark-hyperbola laws: T = 0 ⟺ jl ≡ −4 mod p
+  with exactly p−2 dark points, magnitude spectrum exactly {0,1,√p}, the square-free-N
+  generalisation, and the all-n identity det(A₁ⁿ−I) = 2−L(2n) with its Lucas/Fibonacci parity
+  split); **B533** (τ = √φ root of x⁴−x²−1, β = 1/(√φ−1), and GL(4,ℤ) rigidity via
+  Latimer–MacDuffee + h(ℚ(√φ))=1); **B120** (the tower height-count closed form summing to n²−1
+  for every n) — banked as **LAW not THEOREM**, since the arc states it with no proof-strength tag.
+  **Calibration held**: ~18 of 22 had nothing (negatives, censuses, single-instance checks,
+  refuted closed forms), and five more (B111, B112, B134, B138, B153, B156, B382) were already in
+  CLAIMS.md — banked at the highest tier, merely absent from the two newer registries.
+  **One cc near-miss recorded**: cc's first transcription of B120 mis-ordered the clauses and
+  produced a false n=2 mismatch; the E33 rule (name the defect path before reporting) caught that
+  the defect was cc's. Locked in `tests/test_b534_b533_b120_harvest.py`, which guards that exact
+  ordering error. Backlog before B113 remains uncertified by this review's modulus.
