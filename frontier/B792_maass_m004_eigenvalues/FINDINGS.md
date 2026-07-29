@@ -157,8 +157,10 @@ correction −(1/4π)∫(φ'/φ)(1+it)dt computed from the EXACT
 T=3 → −3.6 at T=7 → −7.0 at T=9.9, tracking −(T/π)ln T (the one-cusp
 parabolic term, NOT computed into the prediction): shape-predicted
 −4.3 and −7.2 at those T. Smooth, no integer-step downward anomaly:
-**no missing-eigenvalue signature**. B791's completeness criterion
-passes empirically on the m004 window.
+**no missing-eigenvalue signature**. Scope per main's B791 caveat
+(cusp terms are O(T log T), unquantified): this is a CONSISTENCY
+CHECK, not a derivation — the budget must not adjudicate a count
+difference of order one.
 
 ## THE LAST DOOR: SM COMPARISON — CLEAN NULL (Tests 1–3)
 
@@ -226,8 +228,11 @@ Finite computation in SL(2, Z[ω]/4), no citations:
   is a CONGRUENCE subgroup, of level exactly (4)** (mod-2 image is
   D₅ < A₅ of index 6, so Γ(2) ⊄ Γ₄₁). Explains B791's coset-image
   order 1920 = |PSL(2, Z[ω]/4)| and its stabilizer order 160 = |H̄|.
-  Note: A₅ = PSL(2,F₄) with dihedral D₅ image — B787's 5A/5B
-  ambivalence structure lives at the mod-2 level of Γ₄₁.
+  Note (scoped to HOOK per cc's H-B794-A5): A₅ = PSL(2,F₄) appears
+  with dihedral D₅ image, and A₅ also carries B787's 5A/5B
+  ambivalence argument — two appearances of the smallest simple
+  group, suggestive and NOT thereby a connection. Open cell: same
+  A₅ or not?
 - **Theorem 2**: traces of H have norms {0,3} mod 4 ⟹ every m004
   geodesic trace norm avoids 1 mod 4 at EVERY cutoff. The observed
   law is a theorem. (The m003-side "≡ 1 mod 4 exactly" statement

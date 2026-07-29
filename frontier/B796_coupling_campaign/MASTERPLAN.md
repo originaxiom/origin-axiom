@@ -44,6 +44,21 @@ H0 — mechanism-exclusions only. This makes the mp-arithmetic
 high-precision eigenvalue solve the campaign's KEYSTONE computation
 (Cell 9).
 
+**PROPOSED RIDER to the campaign falsifier (filed to cc; the wording
+is cc-gated):** the falsifier's clause "no alternative modality
+writing an observer–object equation of motion" is HARVEST-scoped.
+The context sweep found two REPO-registered dynamics leads the
+harvest missed: the parked trace-map transfer-operator campaign (the
+object's one analytic/dynamical face, no laundering theorem covers
+it, B451 Ruelle spectrum banked, "strongest H1 candidate") and L72
+(the CS-functional/dynamics program). Both are object-side dynamics
+without an observer coupling — the falsifier is not voided — but
+before its "no alternative" clause can fire, each must be either
+developed toward an observer coupling or shown unable to host one.
+Note the asymmetry: BC is imported and possibly object-blind (T6);
+the transfer operator is object-NATIVE. Wave 2.5 gains candidate
+family TM-1..n (the parked prereg's four unrun sub-items).
+
 **Honesty clause (the critic's G22, scope per cc's gate):** every
 Wave 1–3 cell tests coupling **STRUCTURE**. The second-round harvest
 identified a dynamics CANDIDATE (BC/CMR) — **candidate identified ≠
@@ -137,7 +152,11 @@ PSL(2,Z[ω]/4) coset action (12 = 1+5+6); assign all 17 eigenvalues to
 sectors; sealed-in-advance invariance table: which functionals are
 object-fixed vs sector-moving. Cross-check: must agree with the
 S-invariance/projection labels — disagreement indicts one method.
-Depends on Cell 1's parity census for the odd rungs.
+DECLARED CONTROL (context sweep): B384-T3's banked triangular
+S-compression negative (F(6,14) = 0, scaling-independent, level-15
+theta sector) — the same discriminator with a decisive prior outcome;
+cite it, do not rediscover it. Depends on Cell 1's parity census for
+the odd rungs.
 
 ## WAVE 3 — THE CONTROL INSTRUMENT
 
@@ -156,9 +175,15 @@ if m003's holonomy is pinned in PSL(2,O₃)).
 enumerate anomaly-free compact-slice + matter assignments the grammar
 admits; Distler–Garibaldi-style chirality audit BEFORE any numerics.
 If none pass: the E6-skeleton coupling family closes — a clean
-negative. Stage B (ONLY with owner-sealed Gate-5-SM design): 1–2-loop
+negative. REGISTERED PRIORS Stage A must cite (context sweep): H118
+(the Baez–Schwahn F₄→SM door, arXiv 2606.15235, registered "expected
+NO"); B561 ("the chain stops at F₄" — no order-3 automorphism at the
+geometric point, five independent checks); and, as Stage-B priors,
+B565/H121's gauge-behavior verdicts (screening, never asymptotically
+free). Stage B (ONLY with owner-sealed Gate-5-SM design): 1–2-loop
 Λ_i/Λ_j ratios under one unification boundary condition vs SM ratios
-under the B743 harness, selection entropy declared in bits;
+under the B743 harness, all 12 INPUT_COMPLETENESS_LEDGER rows filled
+at prereg time, selection entropy declared in bits;
 bits(selection) ≥ bits(match) voids the cell.
 
 ## THE KEYSTONE — CELL 9 (the campaign falsifier's instrument)
@@ -260,7 +285,13 @@ over both cell lists + cc gate, same as every other wave.
 
 T[m004, E6] — narrowed: exists by the ADE (2,0) construction but has
 never been made explicit or evaluated for ANY manifold; still no
-computable cell (exclusion stands, reason corrected). Unique-coupling
+computable cell (exclusion stands, reason corrected). RE-SCOPE
+(context sweep): the "unique-coupling selection / dense dial"
+exclusion does NOT dispose of PD1.4/W2.11 (the ±1/48 selection-rule
+theorem in the level-15 Weil/seam data — finite exact arithmetic, the
+programme's single forced-coupling candidate, the gate on PD1 AND
+PD4); PD1.4 is remanded to cc as a candidate cell OR an exclusion on
+its own stated reason — not silently swallowed by this one. Unique-coupling
 selection from CS/quantum
 modularity (no point-selection theorem; dense dial); β=1 SSB at finite
 level (needs the tower); time arrow/Lorentzian from the object
@@ -279,4 +310,10 @@ on anything numeric; m003 comparator per Gate 5-Q; digit budget stated
 per cell (8-digit ceiling until mp-eigenfunctions exist, G19);
 negatives computed in-sandbox; distinct-vs-multiplicity counting
 explicit; discard-reporting on every filter (the new error class);
-structural coincidences face the same base-rate knife as decimals.
+structural coincidences face the same base-rate knife as decimals;
+atlas + FAILURE_ATLAS consult before each probe (mandated by prior
+campaigns; restored here); base-rate priors cited with scope — Chat-1's
+1-for-21 governs mechanism proposals (B790:260), cc3's 2-for-25 is the
+audit seat's cumulative score (B784:287); the m003 comparator is used
+ALONGSIDE the banked standard control D2/B447 (the m-scan harness),
+not instead of it.
