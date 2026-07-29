@@ -8683,3 +8683,26 @@ surprising. What this establishes positively is that the two authored axes are j
 the work covers the where-by-what plane as fully as the margins permit, so whatever remains
 unaccounted for is not missing from that plane, which leaves the third axis, the one proved complete
 and recorded in no instrument. Nothing to CLAIMS.
+
+The agreement gate the compaction plan set for its authoring wave has finally been run, having been
+declared and then skipped because a single seat cannot disagree with itself, which is precisely the
+failure class this session spent the day collecting. Two independent seats received the same twenty
+unverdicted arcs, drawn on a seed fixed before the draw with five from each chronological quartile,
+the same four-value vocabulary, and no sight of each other. Raw agreement is eighteen of twenty and
+Cohen's kappa is zero point eight four two against a sealed threshold of zero point seven five, so
+the gate passes and the vocabulary is demonstrably applicable by an independent reader rather than
+only by its author. The two disagreements are the informative part, because neither is a reading
+error: both seats describe the same facts in their notes and differ only on which label the
+vocabulary assigns, and the two cases expose the same two definitional gaps. The first is a
+correction that also proves something, where the rule says a retraction is a withdrawal of a banked
+result but does not say what to do when the correction arrives as a new positive result; the
+proposed repair is that retracted applies only when withdrawal is the arc's whole content, and a
+superseding positive result is proved with the retraction recorded separately. The second is a
+result established inside a firewalled arc whose larger target was explicitly not reached, where the
+proposed repair is that the verdict labels what the arc established rather than whether the
+programme's destination was cleared, so open is reserved for arcs that settled nothing. Both repairs
+are one sentence and both would raise this sample to perfect agreement. The pattern matters more
+than the number, since both disagreements run the same direction, one seat labelling proved where
+the other is more cautious, which is systematic rather than random and predicts a conservatism
+offset that should be measured at scale rather than discovered there. The fan-out is unblocked, with
+the two definitional repairs to be written into the vocabulary first. Nothing to CLAIMS.

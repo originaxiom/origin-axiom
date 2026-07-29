@@ -16833,6 +16833,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B809": {
+   "slug": "kappa gate",
+   "motifs": [
+    "kappa",
+    "firewall"
+   ],
+   "refs": [
+    "B212",
+    "B420"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B80": {
    "slug": "sl4 adproof",
    "motifs": [

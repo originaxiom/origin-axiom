@@ -1,5 +1,17 @@
 # Changelog
 
+## B809 — the κ gate, finally run: **0.842 PASS**, and the residual localises to two definitional gaps
+- The compaction masterplan set W1's gate at **Cohen's κ ≥ 0.75** and **it was never measured** — cc is one seat and cannot disagree with itself. cc noted that and proceeded anyway: **a declared criterion that was never run**, the exact class this session spent the day cataloguing.
+- **Two independent seats, same 20 unverdicted arcs** (seed 807 fixed before the draw, 5 per chronological quartile), same vocabulary, **blind to each other**.
+- **Raw agreement 0.900 (18/20) · chance 0.368 · κ = 0.842 · sealed gate 0.75 → PASS.** The verdict vocabulary is demonstrably applicable by an independent reader, not only by its author.
+- **The 2 disagreements are NOT reading errors** — both seats describe the same facts and differ on *which label applies*. They expose the **same two definitional gaps**:
+  - **B212 (PROVED vs RETRACTED)** — a correction that *also proves*. Proposed rule: RETRACTED only when withdrawal is the arc's **whole** content; a superseding positive result is **PROVED**, retraction recorded in `supersedes`.
+  - **B420 (PROVED vs OPEN)** — an exact result whose larger target was explicitly not reached. Proposed rule: the verdict labels **what the arc established**, not whether the programme's destination was cleared; **OPEN** is for arcs that settled *nothing*.
+  - Both repairs are one sentence; both would raise this sample to **κ = 1.0**.
+- **The pattern matters more than the number**: both disagreements run the **same direction** (one seat PROVED where the other is more cautious) — **systematic, not noise**. It predicts a seat-to-seat conservatism offset that should be **measured at scale rather than discovered at scale**, which argues for fixing the two rules *before* the fan-out.
+- **The fan-out is unblocked.** 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## B808 — the 35 empty cells are sample size, not structure. cc's own proposal, refuted.
 - **Prereg `68d1aef066a0f555` sealed at `aaaebf4c` BEFORE compute** — and it tested **cc's own proposal** from hours earlier, that B807's 35 empty (face, motif) cells constitute a research programme.
 - **The confound, spotted before the test:** the empty cells concentrate on the *smallest* faces — `emittance-lengths` **2 arcs / 10 empty**, `infinite-hecke` **4 / 9**, `emittance-eigenvalues` **3 / 7**. A face with two arcs cannot populate eighteen motifs. Calling that a gap would be an unregistered null (**E29**).
