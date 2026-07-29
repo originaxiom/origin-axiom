@@ -16628,6 +16628,55 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B800": {
+   "slug": "habiro integrality",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B685",
+    "B799"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B801": {
+   "slug": "negative census",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [
+    "B114",
+    "B142",
+    "B244",
+    "B300",
+    "B308",
+    "B417",
+    "B449",
+    "B480",
+    "B549",
+    "B643",
+    "B695",
+    "B722",
+    "B738",
+    "B739",
+    "B748",
+    "B760",
+    "B772",
+    "B790",
+    "B799"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B80": {
    "slug": "sl4 adproof",
    "motifs": [

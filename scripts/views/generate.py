@@ -85,9 +85,24 @@ def view_coverage(arcs, kills):
              if a["verdict_record"]["verdict"] == "NEGATIVE" and a["id"] not in kg_ids]
     if unreg:
         L += ["## Negatives absent from `kill_graph`\n",
-              "Found among the authored arcs only, so this is a **lower bound**: `kill_graph`'s "
-              "217 records are not a census of the corpus's negatives.\n",
-              "".join(f"- `{i}`\n" for i in sorted(unreg)), ""]
+              "Found among the authored arcs: " + ", ".join(f"`{i}`" for i in sorted(unreg)) + ".\n"]
+    cen = os.path.join(ROOT, "frontier", "B801_negative_census", "census.json")
+    if os.path.isfile(cen):
+        c = json.load(open(cen, encoding="utf-8"))
+        L += ["### Measured (B801), not merely flagged\n",
+              f"A seeded random sample of **{c['sample']}** of the **{c['pool']}** arcs with findings "
+              f"and no kill record found **{c['negatives']}** negatives "
+              f"(p = {c['p']:.2f}, 95 % CI {c['ci'][0]:.2f}–{c['ci'][1]:.2f}).\n",
+              "| | estimate | 95 % CI |", "|---|---|---|",
+              f"| unregistered negatives | **{c['estimated_unregistered']:.0f}** | "
+              f"{c['pool']*c['ci'][0]:.0f}–{c['pool']*c['ci'][1]:.0f} |",
+              f"| **true negative count** | **≈ {c['estimated_total']:.0f}** | "
+              f"{c['ci_total'][0]:.0f}–{c['ci_total'][1]:.0f} |",
+              f"| `kill_graph` coverage | **{c['coverage_pct']:.0f} %** | "
+              f"{c['kill_graph']/c['ci_total'][1]*100:.0f} %–{c['kill_graph']/c['ci_total'][0]*100:.0f} % |",
+              "", "Ambiguous arcs were counted as NON-negative, so the true count is likely **at or "
+              "above** this estimate. So the map above projects about **two-thirds** of the "
+              "programme's negatives, not all of them.\n"]
     strata = Counter("A_verdict_block" if a["has_verdict_block"]
                      else ("C_neither" if len(a["title"]) < 22
                            or a["title"].lower().startswith("findings") else "B_informative_title")

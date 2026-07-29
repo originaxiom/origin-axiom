@@ -1,5 +1,17 @@
 # Changelog
 
+## B800 + B801 — the two compaction residuals discharged
+- **B800 — B685's Habiro integrality leg RECOMPUTED: partial confirmation, flag stays.** B685 banked *"integral away from 3, the (q−1)¹⁰⁰ denominator is 3¹⁴⁶"* by **re-reading GSWZ eq. 2**. Rebuilt from first principles instead: the figure-eight state-integral potential, its saddle `w₀² − w₀ + 1 = 0`, and the **1-loop invariant `V″(u₀) = √−3` computed, not assumed**. Every higher derivative is an *integer* multiple of 1 or √−3 (`−2, −2√−3, 10, 22√−3, −182, −602√−3`), which **is** the "pure being" mechanism, now derived in-sandbox.
+- **Structural checks passed**: the symmetrised series is **rational** (the √−3 cancels as symmetrisation requires) and **even** (all odd coefficients vanish).
+- **The 3-adic law corroborates**: `v₃ ≈ 1.428·n` ⟹ **3¹⁴³ at n = 100** vs the read **3¹⁴⁶** — same law within 2 %.
+- **The "only 3" clause is NOT reproduced**: denominators also carry 2, 5, 7, 11, 13 — but **every non-3 prime is ≤ n+1**, the signature of the Gaussian moments `(2m−1)!!` and the `1/k!`, `1/r!` factors. So the non-3 part is a **normalisation artifact**, the 3-part is the arithmetic.
+- **Verdict PARTIAL — `fact_computed: false` STAYS.** Pinning the normalisation needs GSWZ's eq. 2, the very source this arc set out not to re-read. Calling it discharged would repeat B685's own error one level up: substituting a *nearly* matching computation for the stated one.
+- **B801 — the negative census: `kill_graph`'s 217 is about two-thirds of one.** The W1 pilot found 2 of 5 negatives unregistered; that was flagged, not extrapolated (n = 5). Measured properly: a **seeded** random sample (seed fixed *before* the draw) of **60** of the **557** arcs with findings and no kill record, under a classification rule fixed *before* counting, found **12 negatives — p = 0.20 (95 % CI 0.10–0.30)**.
+- ⟹ **≈111 unregistered negatives** (CI 55–168); **true count ≈ 328** (CI 272–385) against the recorded **217**; **`kill_graph` coverage ≈ 66 %** (CI 56–80 %). **Ambiguous arcs were counted as NON-negative**, so the truth is likely at or above this.
+- **This does not impugn B738**: its records are 100 %-populated on their nine-field core and B799 showed its `fact_computed` flag carries real information. It compiled the *atlas-visible* negatives; the corpus holds more.
+- `docs/views/COVERAGE.md` now reports the **measured** census instead of the pilot's flag. 14/14 gates green. Nothing to `CLAIMS.md`.
+
+
 ## Compaction W1–W5 COMPLETE — the views are generated, and three plan claims were refuted by executing them
 - **Owner**: green light, then *"continue until finish."* All five waves executed; **GOVERNANCE §12 clause two is now executed** for the first time since its adoption 2026-07-16.
 - **W1 pilot (30 arcs, stratified) refuted its own plan twice.** (a) The premise that *malformed titles mark the hard arcs* is **backwards**: **83 %** of uninformative-title arcs carry an explicit `## Verdict` block vs **19 %** of the rest — the heuristic **anti-correlates** with classifiability. Early arcs used a template that recorded the verdict; later arcs moved it into a rich title. (b) The genuinely hard stratum is **11 arcs (1.5 %)**, not 90: **A = 183 (25 %)** extractable · **B = 537 (73.5 %)** title-carried · **C = 11 (1.5 %)**. (c) **`verdict.json` is not a free filename** — `B440_foreign_vacuum_control` already uses it with an unrelated schema; renamed `arc_verdict.json`.

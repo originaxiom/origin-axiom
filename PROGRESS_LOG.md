@@ -8375,3 +8375,32 @@ resolves into two different faults rather than one: the depth annotation is genu
 and is now declared optional, while the file-missing flag is derivable from the tree and should
 never have been stored, which is exactly why it was inconsistent. The rule that falls out is that a
 derivable field must not be persisted and an optional field must be declared. Nothing to CLAIMS.
+
+Both residuals from the compaction programme are now discharged, one partially and one fully.
+B800 recomputed the Habiro integrality leg that B685 had read from its source rather than
+calculated. The object was rebuilt from first principles: the figure-eight's state-integral
+potential, its saddle at the geometric tetrahedron shape, and the one-loop invariant, which comes
+out as the square root of minus three exactly, computed rather than assumed. Every higher derivative
+is an integer multiple of one or that square root, so the whole expansion lives in the Eisenstein
+field, and that is the mechanism behind the pure-being reading, now derived in the sandbox. The
+symmetrised series passes both structural checks: it is rational, the square root cancelling as
+symmetrisation requires, and it is even, every odd coefficient vanishing. Its three-adic valuation
+grows linearly with slope one point four two eight, which extrapolates to three to the hundred and
+forty-third at order one hundred against the hundred and forty-sixth that was read from the source,
+the same law within two per cent. But the denominators also carry twos, fives, sevens, elevens and
+thirteens, and every one of those primes is at most one more than the order, which is the signature
+of the Gaussian moments and factorials of the expansion rather than of the object. So the non-three
+part is a normalisation artifact and the three part is the arithmetic. The verdict is partial: the
+mechanism and the growth law are confirmed in the sandbox, the exact integral-away-from-three
+statement is not, because pinning the normalisation needs the very source this arc set out not to
+re-read. The flag therefore stays false, since calling it discharged would repeat the original error
+one level up by substituting a nearly matching computation for the stated one. B801 measured what
+had only been flagged. A seeded random sample of sixty of the five hundred and fifty-seven arcs
+carrying findings but no kill record, with the seed fixed before the draw and the classification
+rule fixed before counting, found twelve negatives, one in five. That puts about a hundred and
+eleven negatives outside the kill graph and the true count near three hundred and twenty-eight,
+against the two hundred and seventeen recorded, so the compiler holds about two thirds of the
+corpus's negatives. Ambiguous arcs were counted as non-negative, so the truth is likely at or above
+that. This does not impugn the compiler, whose records are fully populated and whose flag was shown
+to carry information; it compiled the atlas-visible negatives, and the corpus simply holds more.
+The coverage view now reports the measured figure instead of the flag. Nothing to CLAIMS.

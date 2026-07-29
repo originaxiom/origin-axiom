@@ -10,19 +10,27 @@ view can quietly imply completeness it does not have.
 
 | layer | count | of | share |
 |---|---|---|---|
-| arcs with `FINDINGS.md` | **731** | — | 100 % |
-| arcs with an authored verdict (W1) | **30** | 731 | 4.1 % |
+| arcs with `FINDINGS.md` | **733** | — | 100 % |
+| arcs with an authored verdict (W1) | **30** | 733 | 4.1 % |
 | classified in `kill_graph` | **217** | — | — |
 | kill records resolving to an arc | **172** | 217 | 79 % |
 | kill records with no arc directory | **45** | 217 | 21 % |
 
 ## Negatives absent from `kill_graph`
 
-Found among the authored arcs only, so this is a **lower bound**: `kill_graph`'s 217 records are not a census of the corpus's negatives.
+Found among the authored arcs: `B333`, `B728`.
 
-- `B333`
-- `B728`
+### Measured (B801), not merely flagged
 
+A seeded random sample of **60** of the **557** arcs with findings and no kill record found **12** negatives (p = 0.20, 95 % CI 0.10–0.30).
+
+| | estimate | 95 % CI |
+|---|---|---|
+| unregistered negatives | **111** | 55–168 |
+| **true negative count** | **≈ 328** | 272–385 |
+| `kill_graph` coverage | **66 %** | 56 %–80 % |
+
+Ambiguous arcs were counted as NON-negative, so the true count is likely **at or above** this estimate. So the map above projects about **two-thirds** of the programme's negatives, not all of them.
 
 ## Classifiability strata
 
@@ -32,6 +40,6 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
 
 | stratum | meaning | count | share |
 |---|---|---|---|
-| **A** | explicit `## Verdict` block — directly extractable | 183 | 25.0 % |
-| **B** | no block, but the title carries the verdict | 537 | 73.5 % |
+| **A** | explicit `## Verdict` block — directly extractable | 184 | 25.1 % |
+| **B** | no block, but the title carries the verdict | 538 | 73.4 % |
 | **C** | neither — genuinely hard, needs a full read | 11 | 1.5 % |
