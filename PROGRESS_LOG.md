@@ -8144,3 +8144,15 @@ harvest both landed. The missing Gate-5 input-completeness row was audited and a
 n/a, 1 partial, with source freshness passing by inheritance from B743's hash-stable, cited target
 list. The B739 law row is now connected to the Maass arcs it pre-registered as its upgrade path.
 Nothing to CLAIMS.
+
+E21 third instance, caught by chat1: cc and cc3 both wrote PSL(2,Z[omega]/4) for what is really
+SL(2,Z[omega]/4) modulo plus-minus I, order 1920. The true PSL has order 960, because the centre
+of SL(2,Z[omega]/4) has order four -- lambda squared equals one has four solutions in that ring.
+The theorem is unaffected: O_3 is a domain, so PSL(2,O_3) maps into SL modulo plus-minus I, which
+is the correct target, and the index is twelve at level four. But the mislabelling also resolves
+the long-running B731 discrepancy, and refutes cc's own diagnosis of it. B731's index six is
+960/160 -- it computed in the true PSL. cc had said the six came from failing to quotient by
+minus I, and stated that in a relay and in the changelog; that was wrong. All three computations
+are correct in their own groups. E23 is strengthened accordingly: naming SL versus PSL is not
+enough, since three groups are in play, so an index claim must name the exact quotient and its
+order. Third instance in one thread. Nothing to CLAIMS.

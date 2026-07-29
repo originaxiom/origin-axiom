@@ -28,7 +28,18 @@ compare indices; enumerate traces.
 
 ## What it explains, retroactively
 
-**B791's 1920 is not a coincidence — it *is* |PSL(2,ℤ[ω]/4)|.** The B788 bank's coset action is
+**B791's 1920 is not a coincidence — it is |SL(2,ℤ[ω]/4)/{±I}|.**
+
+> ⚠ **NAMING CORRECTED 2026-07-29 (Chat-1's catch).** This is **NOT** PSL(2,ℤ[ω]/4). The centre of
+> SL(2,ℤ[ω]/4) has order **4** — λ²=1 has four solutions (1, 1+2ω, 3, 3+2ω) — so the true PSL has
+> order **960**. cc and cc3 both used the right group under the wrong name. PSL(2,O₃) maps into
+> SL/{±I} because O₃ is a domain whose only square roots of 1 are ±1, so SL/{±I} *is* the correct
+> target and **the theorem's substance is unaffected**; only the label was wrong.
+>
+> **This also resolves the B731 discrepancy, and refutes cc's own earlier diagnosis.** B731's
+> index **6 = 960/160** — quotienting by the *full* centre, i.e. computing in the true PSL. cc had
+> diagnosed it as "failure to quotient by −I" (1920/320); that was **wrong**. All three
+> computations are correct **in their own groups**; ours is the one PSL(2,O₃) actually maps to. The B788 bank's coset action is
 **reduction mod 4**: ambient 3840 = |SL₂(O/4)|, image 1920 = |PSL₂(O/4)|, kernel 2 = {±I}. cc
 verified that order from raw generators in B791 without knowing what it was; this identifies it.
 

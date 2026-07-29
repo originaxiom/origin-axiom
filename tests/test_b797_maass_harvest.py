@@ -24,9 +24,14 @@ def test_seventeen_certified_eigenvalues_and_the_drift_bound():
     assert c["modes"] == [664, 900]                      # the certification pair
     # every per-eigenvalue drift is at or below the reported maximum
     assert max(abs(r["dr"]) for r in rows) <= c["max_dr"] * (1 + 1e-12)
-    assert c["max_dr"] < 1e-8                            # clears the prereg tolerance FLOOR
-    # ... but only by ~1.8x -- recorded so a tighter tau cannot be used without re-certifying
-    assert 1.5 < 1e-8 / c["max_dr"] < 2.5
+    # UNITS (corrected 2026-07-29, cc3's delta 6): tau_v = max(2*rel_unc, 1e-8) is a RELATIVE
+    # tolerance, so the drift must be compared RELATIVE too. cc originally compared the ABSOLUTE
+    # max|dr| against the relative floor and reported a 1.8x margin. That is an absolute-vs-
+    # relative units error, in the conservative direction, and it was locked here.
+    max_rel = max(abs(r["dr"]) / abs(r["r_banked"]) for r in rows)
+    assert abs(max_rel - 6.9e-10) < 1e-10                # the correct quantity
+    assert max_rel < 1e-8                                # clears the prereg tolerance FLOOR
+    assert 13.0 < 1e-8 / max_rel < 16.0                  # ~14.5x, not 1.8x
 
 
 def test_parent_ground_state_matches_the_secondary_sourced_GH_value():

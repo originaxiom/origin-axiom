@@ -37,15 +37,29 @@ def _ops():
     return mmul, det, closure, radd
 
 
-def test_psl2_Zw_mod4_order_is_1920_explaining_the_bank_coset_image():
-    """1920 is not a coincidence: it IS |PSL(2, Z[w]/4)|. 2 is inert, so |Z[w]/4| = 16."""
+def test_sl2_mod_pmI_order_is_1920_explaining_the_bank_coset_image():
+    """1920 is not a coincidence: it IS |SL(2,Z[w]/4)/{+-I}|. 2 is inert, so |Z[w]/4| = 16.
+
+    NAMING CORRECTED 2026-07-29 (Chat-1's catch): this is NOT PSL(2,Z[w]/4). The centre of
+    SL(2,Z[w]/4) has order 4 -- lambda^2 = 1 has FOUR solutions (1, 1+2w, 3, 3+2w) -- so the
+    true PSL has order 960. PSL(2,O_3) maps into SL/{+-I} because O_3 is a domain whose only
+    square roots of 1 are +-1; the extra central elements do not come from O_3. Both cc and
+    cc3 used the right group under the wrong name.
+    """
     _, det, _, _ = _ops()
+    _, _, rmul = _ring()
     R = [(a, b) for a in range(4) for b in range(4)]
     assert len(R) == 16
     SL = [((a, b), (c, d)) for a in R for b in R for c in R for d in R
           if det(((a, b), (c, d))) == ONE]
     assert len(SL) == 3840                    # the bank's ambient_order
-    assert len(SL) // 2 == 1920               # the bank's verified coset-image order
+    assert len(SL) // 2 == 1920               # |SL/{+-I}| -- the bank's coset-image order
+    # and the true centre has order 4, so the TRUE PSL is 960 -- the distinction that
+    # resolves B731's index 6 (= 960/160) against our 12 (= 1920/160). Both correct, in
+    # different groups; ours is the one PSL(2,O_3) actually maps to.
+    sq1 = [l for l in R if rmul(l, l) == ONE]
+    assert len(sq1) == 4                      # 1, 1+2w, 3, 3+2w
+    assert len(SL) // len(sq1) == 960          # the TRUE |PSL(2,Z[w]/4)|
 
 
 def test_theorem1_gamma41_is_congruence_of_level_exactly_4():
