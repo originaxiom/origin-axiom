@@ -55,3 +55,25 @@ cosmogony/
 # seat-local AI pointers (never committed; see WORKING_RULES.md §11)
 CLAUDE.md
 CLAUDE.local.md
+
+# --- Untracked working-tree residue (Review 32 cleanup, 2026-07-29) ---
+# These are ignored so `git status` is clean AND an accidental `git add -A` cannot stage them.
+# The `tracked-forbidden` gate already REJECTS the first three if they ever enter the index;
+# this is the belt to that gate's braces. Nothing here is deleted — all files stay on disk.
+#
+# NOT silently disappeared — what each one is, for the record:
+#   Archive.zip                     4.9 MB June-2026 audit-room snapshot (1617 files); superseded.
+#   .github/                        a CI workflow; GOVERNANCE forbids tracking it (gate: tracked-forbidden).
+#   papers/flagship/*dritero-m.pdf  carries the owner's surname — MUST NOT be committed (privacy rule).
+#   B500 stragglers                 a REAL but unbanked run record: "26 TIMEOUT + 9 never-reached = 35
+#                                   of 150", PARI stack overflows. Kept on disk; noted in PROGRESS_LOG
+#                                   rather than hidden. If it is ever wanted, it belongs banked in the
+#                                   arc, not committed loose.
+#   B729 b729_err.txt               a tkinter import warning, 228 bytes of noise.
+Archive.zip
+.github/
+papers/flagship/*dritero-m.pdf
+frontier/B500_child_hunt/b500_stragglers.py
+frontier/B500_child_hunt/b500_stragglers_out.txt
+frontier/B500_child_hunt/b500_stragglers_err.txt
+frontier/B729_amplitude_sector/b729_err.txt

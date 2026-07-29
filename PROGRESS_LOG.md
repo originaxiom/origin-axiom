@@ -8227,3 +8227,16 @@ text, where a Standard Model mass-ratio clause survived in the companion file af
 review had cut it as importing a physics frame with no antecedent. Two items are logged without
 action: the knowledge index omits four notes from its coverage contract, and the flagship never
 cleared its own internal review. Nothing to CLAIMS.
+
+Review 32 final sweep. The working tree carried seven untracked files that predate this
+session; none is now stageable by accident. They are gitignored rather than deleted, and the
+tracked-forbidden gate still rejects them if force-added, so the protection is doubled. What was
+ignored is recorded rather than disappeared: a 4.9 MB June audit snapshot superseded by later
+work, a CI workflow the governance forbids tracking, the flagship PDF whose filename carries the
+owner's surname and must never be committed, a tkinter warning of two hundred bytes, and one item
+that is not noise. The B500 child-hunt stragglers file is a real but unbanked computational
+record, reporting twenty-six timeouts and nine never-reached cases out of a hundred and fifty,
+with PARI stack overflows. It stays on disk and is flagged here because hiding an unbanked record
+of failed computation would be the wrong kind of tidy; if it is wanted it belongs banked inside
+its arc, not committed loose. Tracked tree otherwise clean, ten of ten gates green, both remotes
+synced. Nothing to CLAIMS.
