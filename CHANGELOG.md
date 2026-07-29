@@ -1,5 +1,17 @@
 # Changelog
 
+## B803 — the commensurability audit VERIFIED (premise first), one claim refined
+- An incoming audit argued **B727's genericity was FORCED by the derivation chain's shape, not discovered statistically**. Everything rests on one premise, so that was verified before the conclusion.
+- **PREMISE HOLDS (snappy, not trust)**: m003 and m004 both have invariant trace field `x²−x+1` → **ℚ(√−3)**, identical volume **2.0298832128**; both arithmetic + cusped ⟹ quaternion algebra `M₂(k)` for both ⟹ **commensurable**.
+- **The structural consequence**: the invariant trace field is a commensurability invariant (Reid), so everything downstream — quaternion algebra, ramified 3, `SL(2,𝔽₃)=2T`, **E₆ via McKay**, the three 27's, the cascade, the V₄ torsor — is about **the class**, not m004. The sister ties **by construction**. B727 measured a genericity that was forced; this says why, and it was decidable by inspection.
+- **Manifold-level survivors, verified**: **H₁ differs (ℤ/5+ℤ vs ℤ)**; 4₁ is the unique arithmetic knot ⟹ knottedness and **amphichirality**; and the **spectra** (B790: not isospectral despite equal volume).
+- **Whitehead correction STANDS**: m129's field is **ℚ(i)**, not ℚ(√−3) — a **surgery** parent, not a commensurability relative.
+- **DKY mechanism CONFIRMED at 60 dps**: `exp(iπ(m+k)/(m+l)) = −1 ⟺ k = l`, the loop runs over **integer** k, so integer `l` hits the zero exactly (~1e−61) and the product truncates; non-integer misses. **A puncture at every integer, not a transition.** This also **confirms the audit's own self-reported error** — its ~1e−17 was double-precision noise, not a value.
+- **Organ census CONFIRMED**: `Δ = −t+3−t⁻¹`, `det = 5`, `σ = 0`; alternating ⇒ thin ⇒ HFK-hat **(1,3,1)**, reduced Khovanov rank **5** — both **determined by (Δ, σ)**. Zero new bits.
+- **ONE CLAIM REFINED**: DKY's Question 1.7 is genuinely absent (0 files for `1701.07818`/`Detcherry`/`Kalfagianni`), but **Chen–Yang is NOT** — it is already in `B659_novelty_dossier` as adjacent prior art via a different paper. The absence is narrower than stated.
+- **Standing rule adopted** into `docs/PRACTICES.md` (MANUAL — no gate can decide whether a *mathematical* derivation routes through a commensurability invariant). 18/18 gates. Nothing to `CLAIMS.md`.
+
+
 ## R33-4 decided: LAW_MAP is an unenforced index, and now says so
 - **Measured**: 113 rows, **5 cite a test lock (4 %)**, and **no gate referenced the file at all** — a reader could take an unlocked row for a checked fact.
 - **"Lock all 113" REJECTED as an unfunded mandate** (108 rows to author) — and the rejection is recorded, not quietly deferred.

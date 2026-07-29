@@ -8474,3 +8474,26 @@ infer it, with the reader pointed at the chain and the claim ledger, both of whi
 gate-enforced. Two cheap invariants are now gated: every row cites its arc, which required fixing
 four rows, and any row that does cite a lock has one that resolves, which all of them did. The gate
 was mutation-tested by removing a citation and watching it fire. Nothing to CLAIMS.
+
+An incoming audit from the review seat argued that the genericity found in the E6 arc was forced by
+the shape of the derivation chain rather than discovered statistically, and the whole argument rests
+on a single premise, so that premise was verified before anything else. The sister manifold and the
+object share an invariant trace field, both giving the polynomial x squared minus x plus one, hence
+the Eisenstein field, with identical volume to ten decimals; both are arithmetic and cusped, so
+their quaternion algebras agree and they are commensurable. The premise holds. The consequence is
+the audit's real contribution: since the invariant trace field is a commensurability invariant,
+everything derived below it belongs to the class and not to the object, so the sister ties by
+construction before any base rate is computed. What survives as manifold-level is homology, which
+differs, knottedness and therefore amphichirality, and the spectra, which an earlier arc had already
+shown are not shared despite equal volume. The audit's correction to another seat also stands: the
+Whitehead link has invariant trace field the Gaussian rationals, not the Eisenstein ones, so it is a
+surgery parent and not a commensurability relative. Its quantum-topology mechanism was reproduced at
+sixty digits and confirmed exactly, including its own self-reported error, since at that precision
+the vanishing factor reads as ten to the minus sixty-one, which shows the earlier value near ten to
+the minus seventeen was double-precision noise rather than a number. The organ census is confirmed:
+the two suspected missing invariants are determined by the Alexander polynomial and the signature
+and carry no new information. One claim was refined rather than accepted: the specific open question
+is genuinely absent from the corpus, but the underlying volume conjecture is already present as
+adjacent prior art in a novelty sweep, so the absence is narrower than stated. The commensurability
+rule is registered as a manual practice, since no gate can decide whether a mathematical derivation
+routes through a commensurability invariant. Nothing to CLAIMS.

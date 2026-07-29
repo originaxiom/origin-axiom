@@ -98,6 +98,14 @@ exists to catch.
 - **Name the defect path before discarding your own result.** Suspicion that cannot name a route is
   not a reason.
 - **An unearned negative is as bad as numerology.**
+- **The commensurability rule (B803, adopted 2026-07-29).** *Any derivation step routing through
+  the invariant trace field, the invariant quaternion algebra, or arithmeticity is a statement about
+  the COMMENSURABILITY CLASS, not about the object.* m003 and m004 share `ℚ(√−3)` and are
+  commensurable (verified), so everything downstream of the field — the quaternion algebra, `2T`,
+  **E₆ via McKay**, the three 27's, the cascade, the V₄ torsor — ties for the sister *by
+  construction*. Only homology, knottedness (hence **amphichirality**), congruence data and the
+  **spectra** are manifold-level. Decidable by inspection; it retroactively explains B727. No gate
+  can check whether a *mathematical* derivation routes through a commensurability invariant.
 
 **The mechanism that actually works for these is the PREREGISTRATION**, and this is not a slogan —
 it was measured. B799's prereg declared in advance that an all-COMPUTED outcome would be a *warning

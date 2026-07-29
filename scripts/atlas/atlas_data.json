@@ -16702,6 +16702,25 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B803": {
+   "slug": "commensurability audit",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B659",
+    "B727",
+    "B790"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B80": {
    "slug": "sl4 adproof",
    "motifs": [
