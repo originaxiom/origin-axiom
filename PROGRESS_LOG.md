@@ -8156,3 +8156,18 @@ minus I, and stated that in a relay and in the changelog; that was wrong. All th
 are correct in their own groups. E23 is strengthened accordingly: naming SL versus PSL is not
 enough, since three groups are in play, so an index claim must name the exact quotient and its
 order. Third instance in one thread. Nothing to CLAIMS.
+
+Chat-1 review closes an item cc had opened wrongly. cc flagged the congruence index 12-vs-6 as an
+open discrepancy contradicting two banked arcs and handed it to cc3. There was no discrepancy. The
+centre of SL(2,Z[omega]/4) has order four, and the intersection of that centre with the image of
+the Riley group is exactly plus-minus I, because (1+2omega)I and (3+2omega)I are not in it. So the
+image has order 160 in both quotients, B731's PSL index of six and B794's SL-mod-centre index of
+twelve are both correct, and E23 had already dispositioned exactly this. The banked fact is the
+intersection, not the two indices, and cc's explicit witness supplies half of the sandwich that
+establishes it. E33 is minted from cc's own failures with Chat-1's sharper wording: a specific
+verified fact set aside because a recently-learned error class made its conclusion feel suspect,
+with the discriminator that scrutiny must be aimed at a named defect path and that suspicion which
+cannot name one is not a reason to discard a computation. Also accepted: the rung-four finding was
+right about evidence and too harsh about the run, since thirty-nine raw candidates reduced to zero
+gated is a calibration result about the instrument and is the ground for trusting rung one.
+Nothing to CLAIMS.

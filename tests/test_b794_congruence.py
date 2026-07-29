@@ -102,3 +102,29 @@ def test_cc_mod4_hint_is_refuted_by_the_theorem():
     for x in (7, 103, 127, 175, 367):
         assert x % 4 == 3
         assert x % 4 != 0                      # refutes the narrower claim
+
+
+def test_Z_cap_H_is_exactly_pm_I_which_reconciles_6_and_12():
+    """THE fact (Chat-1, 2026-07-29): Z(SL(2,Z[w]/4)) has order 4, but Z ∩ H = {±I} exactly.
+
+    (1+2w)I and (3+2w)I are NOT in H. That is what makes the image of H equal 160 in BOTH
+    quotients, so B731's PSL-index 6 = 960/160 and B794's SL/{±I}-index 12 = 1920/160 are
+    both correct. There was never a discrepancy; E23 had already dispositioned it.
+    """
+    mmul, det, closure, _ = _ops()
+    _, _, rmul = _ring()
+    R = [(a, b) for a in range(4) for b in range(4)]
+    A = ((ONE, ONE), (ZERO, ONE))
+    B = ((ONE, ZERO), ((0, 3), ONE))
+    H = closure([A, B])
+    scalars = [l for l in R if rmul(l, l) == ONE]
+    assert len(scalars) == 4                                  # 1, 1+2w, 3, 3+2w
+    Z = [((l, ZERO), (ZERO, l)) for l in scalars]
+    ZH = [z for z in Z if z in H]
+    assert len(ZH) == 2                                       # exactly {+-I}
+    # the two NON-members are the content of the fact
+    for lam in ((1, 2), (3, 2)):
+        assert ((lam, ZERO), (ZERO, lam)) not in H
+    # and both indices follow
+    assert len(H) // len(ZH) == 160
+    assert 960 // 160 == 6 and 1920 // 160 == 12
