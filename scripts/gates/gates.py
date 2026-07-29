@@ -336,6 +336,34 @@ def gate_id_collisions():
     return True, f"ok ({len(seen)} arcs, next free B{nxt})"
 
 
+def gate_knowledge_index():
+    """Every knowledge/K*.md must appear in knowledge/INDEX.md, and vice versa.
+
+    INDEX.md is the knowledge layer's only entry point: an explainer missing from it is
+    invisible to a reader and effectively unwritten. Four had drifted out (K021-K024,
+    caught in the Review 32 sweep) because rows are appended by hand. Checked both ways --
+    an indexed row whose file is gone is a dead link, the same defect mirrored."""
+    kdir = os.path.join(ROOT, "knowledge")
+    index = os.path.join(kdir, "INDEX.md")
+    if not os.path.isfile(index):
+        return True, "no knowledge/INDEX.md"
+    on_disk = {m.group(1) for f in os.listdir(kdir)
+               if (m := re.match(r"(K\d{3})_.*\.md$", f))}
+    body = _read(index)
+    indexed = set(re.findall(r"\bK(\d{3})\b", body))
+    indexed = {f"K{n}" for n in indexed}
+    missing = sorted(on_disk - indexed)
+    dangling = sorted(indexed - on_disk)
+    problems = []
+    if missing:
+        problems.append("not in INDEX: " + ", ".join(missing))
+    if dangling:
+        problems.append("in INDEX but no file: " + ", ".join(dangling))
+    if problems:
+        return False, "knowledge index drift — " + "; ".join(problems)
+    return True, f"ok ({len(on_disk)} explainers, all indexed)"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -347,6 +375,7 @@ GATES = {
     "review-actions": gate_review_actions,
     "views-fresh": gate_views_fresh,
     "id-collisions": gate_id_collisions,
+    "knowledge-index": gate_knowledge_index,
 }
 
 

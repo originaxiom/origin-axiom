@@ -8240,3 +8240,15 @@ with PARI stack overflows. It stays on disk and is flagged here because hiding a
 of failed computation would be the wrong kind of tidy; if it is wanted it belongs banked inside
 its arc, not committed loose. Tracked tree otherwise clean, ten of ten gates green, both remotes
 synced. Nothing to CLAIMS.
+
+Knowledge-layer index repaired and gated. Four explainers had drifted out of knowledge/INDEX.md
+entirely -- K021 the founding identity, K022 the symmetric centre, K023 the Recurrence Atlas, K024
+the forcing map -- and K025 sat as a loose bullet rather than a table row, so five of twenty-five
+entries were either invisible or inconsistent. INDEX.md is the layer's only entry point; an
+explainer missing from it is unreachable by a reader and effectively unwritten, which is the same
+defect as an unwritten one but harder to notice. All five now carry full rows in the common format
+with their scope and anchors. The repair alone would not stop the next drift, since rows are
+appended by hand, so a knowledge-index gate now checks both directions: every K-file must appear
+in the index, and every indexed K-number must have a file, the second catching dead links as the
+mirror of the first. The gate was confirmed to fail when it should by deleting a row and watching
+it fire, then restoring. Nothing to CLAIMS.
