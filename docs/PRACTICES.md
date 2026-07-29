@@ -98,6 +98,15 @@ exists to catch.
 - **Name the defect path before discarding your own result.** Suspicion that cannot name a route is
   not a reason.
 - **An unearned negative is as bad as numerology.**
+- **A bounded falsifier declared before its governing theorem is retrieved is not yet known to be a
+  falsifier (2026-07-29, the Dirac campaign).** The campaign designed the E34 trap in *advance* and
+  caught the spin-count instance of it — then walked into a different instance of the same family:
+  a falsifier whose terminating branch turned out to be **excluded by a theorem nobody had looked
+  up**. The flaw was not in the reasoning; it was in the **ordering**. The campaign correctly
+  insisted on a literature gate and then placed it *after* the falsifier it governs. **Retrieve the
+  governing theorem first; only then is a kill branch known to be reachable.** A falsifier that
+  cannot fire is decoration, and it is worse than none because it advertises a rigour the design
+  does not have.
 - **Apparatus-inflation (E34).** Before attributing a conclusion to the object, name the largest
   structure the derivation passes through and ask whether the conclusion is already a property of
   *that*. For an instrument, ask whether the pattern is the tool's own footprint.
