@@ -636,3 +636,15 @@ cc's (B798). None had a main-side registry row before this review — the same o
 condition that let the whole Maass thread run unconnected for four arcs.*
 
 > **Review 33 (2026-07-29)** — no lead opened or closed. Two measured facts that bear on lead selection: the kill graph holds **~66 %** of the corpus's negatives (B801; ~111 unregistered), and the generated views project **4.1 %** of arcs — so absence from a view is not evidence of absence from the record.
+
+> **L107 — the correctly-specified null for H130 (promoted 2026-07-30, B811).** H130 (Koide
+> Q = 2/3 ↔ h(27) at E₆ level 1 = 2/3) **PROMOTED** through the full gate at `N_hit = 1`, refuting
+> cc's pre-stated expectation. **But B811 also found its own null inapplicable**: it asked how rare
+> 2/3 is among **φ-expressions**, when the hint is a coincidence between two **rationals** — a
+> φ-family cannot populate a 3×10⁻⁵ window at all, so the test could only ever return 1. **The
+> decision to run is therefore the properly-specified null (a simple-fraction family), not a claim.**
+> Standing obstruction, untouched by the promotion: **B580** — the channel carrying h(27) is
+> **proven information-free** (the level-1 chord is identical for 4₁, 5₂ **and the unknot**);
+> **B686** — Q = 2/3 is a 120°-parametrisation statement. A channel that cannot distinguish the
+> object from the unknot cannot carry its physics. **Gate 5 applies: no value promotes to
+> `CLAIMS.md` from this lead under any outcome.**

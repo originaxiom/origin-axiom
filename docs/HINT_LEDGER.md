@@ -357,13 +357,22 @@ prior quantum-consciousness pointer. Genuine hooks:
 
 ## H128–H131 — the July-14 data scan (seat-reported; routed here per the dual protocol; B579)
 
-- **H128** [NOTICED, seat-computed]: α_s(M_Z) = 1/(2φ³) = 0.118034 vs 0.1180±0.0009 (0.04σ). Five
+> **LIFECYCLE CORRECTED 2026-07-30 (B811).** These rows read `[NOTICED]` while carrying B580
+> Round-1 **KILL** verdicts beneath them. `METHOD.md` allows a CHECK to flag or park, **never to
+> kill** — killing requires the full promotion gate. B811 ran that gate under a sealed prereg
+> (`6fa4c2c6fa027b44`). H128 and H129 are now **legally killed**; **H130 PROMOTED** at `N_hit = 1`,
+> refuting cc's pre-stated expectation — though B811 also found its own φ-family null
+> **inapplicable to a rational target**, so the promotion is a decision to run the *correct* null,
+> not evidence for the coincidence. B580's information-free-channel finding and B686's
+> parametrisation finding stand untouched.
+
+- **H128** [KILLED via the full promotion gate — B811, legal; tombstone + residual-hint]: α_s(M_Z) = 1/(2φ³) = 0.118034 vs 0.1180±0.0009 (0.04σ). Five
   derivation attempts FAILED (the seat's own honest verdict: observed coincidence). The one
   structural thread: φ³ = the 3/2-law first step; 2 = #θ-odd directions. **Gate: a derivation, or it stays a coincidence. Cross-ref: the B533 door.** **B580 ROUND-1 VERDICT (2026-07-14): KILLED IN THE CHORD CHANNEL — checked blind against every unforced number of the traverse (state components, six torsions + factorizations, prefactors, sine kernel, closure dims): no golden quantity appears anywhere; the one structural thread (2 = #θ-odd) reappears as G1's two dial slots but yields no coupling-shaped number. The ledger row stands as a recorded coincidence.**
-- **H129** [NOTICED, seat-computed]: sin²θ₁₃ = 1/φ⁸ (0.7σ, Daya Bay final); the post-hoc φ-power
+- **H129** [KILLED via the full promotion gate — B811, legal; tombstone + residual-hint]: sin²θ₁₃ = 1/φ⁸ (0.7σ, Daya Bay final); the post-hoc φ-power
   mass-ratio table (cherry-pick caveat adopted verbatim: exponents chosen per quantity; null
   model 1.7% for three simultaneous). **B580 ROUND-1: KILLED IN THE CHORD CHANNEL** (no φ-power structure in any computed number). B533 cross-ref as above.
-- **H130** [NOTICED]: Koide Q = 2/3 ↔ h(27) at E₆ level 1 = 2/3 (banked exact). Pure numerical association — no mechanism connects a charged-lepton mass relation to a conformal weight. **B580 ROUND-1: KILLED AS A MECHANISM CANDIDATE — h(27) = 2/3 enters only as listener convention (an input), and the sector carrying it is PROVEN information-free (the level-1 chord is identical for 4₁, 5₂, and the unknot). Any bridge through it routes through a channel carrying zero object information.**
+- **H130** [PROMOTED — B811; a decision to run the correctly-specified null, NOT a claim]: Koide Q = 2/3 ↔ h(27) at E₆ level 1 = 2/3 (banked exact). Pure numerical association — no mechanism connects a charged-lepton mass relation to a conformal weight. **B580 ROUND-1: KILLED AS A MECHANISM CANDIDATE — h(27) = 2/3 enters only as listener convention (an input), and the sector carrying it is PROVEN information-free (the level-1 chord is identical for 4₁, 5₂, and the unknot). Any bridge through it routes through a channel carrying zero object information.**
 - **H131** [NULL, seat-computed — the scan's valuable row]: **no log-periodic golden-ratio
   modulation in Planck 2018 TT residuals** vs proper ΛCDM (SNR −0.7; template fit −0.3σ; the
   initial 7× excess was a Gaussian-smoothing artifact, honestly killed). Consistent with every

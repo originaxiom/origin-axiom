@@ -1,5 +1,19 @@
 # Changelog
 
+## B811 — the promotion gate run: two legal kills, one promotion, and a mis-specified null
+- **Prereg `6fa4c2c6fa027b44` sealed at `20170b02` BEFORE compute. Gate 5 held throughout — no SM value reached `CLAIMS.md` under any outcome.**
+- **Why it ran:** `METHOD.md` says a **CHECK** may *"flag only; route to DORMANT, never KILLED"*; **KILLED** requires *"the full promotion gate → tombstone + residual-hint."* **B580 Round 1 was a check and issued KILLED** on H128–H130 — a stage violation, with rows still reading `[NOTICED]` above their own kill verdicts.
+- Family `(a·φⁿ+c)/(b·φᵐ+d)` sealed in advance and **verified to contain all three hinted forms**: **28,957** distinct values.
+- **H128 α_s(M_Z) = 1/(2φ³) → KILLED (legal).** Killed on **structure, not counting**: α_s **runs** — computed at one loop, n_f=5, it is **0.13108 at M_Z/2, 0.11800 at M_Z, 0.08862 at 10 M_Z**. Its value exists only relative to a chosen scale; the object is **proved scale-free** (S3/B615). **Wrong kind of quantity.** The 37 same-window family members corroborate; they are not the reason.
+- **H129 sin²θ₁₃ = 1/φ⁸ → KILLED (legal).** **208** of 28,957 land in the same 3 % window; B580 had independently checked φ-power structure **blind** and found none.
+- **H130 Koide Q = 2/3 ↔ h(27) → PROMOTED at N_hit = 1 — refuting cc's pre-stated expectation**, and reported plainly as the seal required.
+- **But the null was the wrong instrument, and that is cc's design flaw, not a rescue.** The single in-window member **is 2/3 itself**: the test asked how rare 2/3 is among **φ-expressions**, when the hint is a coincidence between two **rationals** — a φ-family **cannot populate a 3×10⁻⁵ window at all** (φ is irrational; only degenerate members are rational). The test could only ever return 1. Diagnosed the same way the face classifier (0.45) and the lexicon extractor were.
+- **The sealed verdict stands as PROMOTED — and promotion is the right act anyway**, since `PROMOTED` means *a decision to run*, and what must be run is the correctly-specified (simple-fraction) null. Registered as **L107**.
+- **What promotion does NOT mean.** Untouched: **B580** — the channel carrying h(27) is **proven information-free** (the level-1 chord is identical for 4₁, 5₂ **and the unknot**); **B686** — Q = 2/3 is a 120°-parametrisation statement. *A channel that cannot distinguish the object from the unknot cannot carry its physics.*
+- **H131** unchanged: a computed **NULL** (no log-periodic golden modulation in Planck 2018 TT; the 7× excess was a Gaussian-smoothing artifact).
+- Two **tombstones** written with residual hints; the four `[NOTICED]` labels corrected to their true lifecycle state. 19/19 gates.
+
+
 ## B810 — W1 wave 1: 287 verdicts authored, coverage **4.1 % → 42.7 %**
 - 12 parallel readers × 25 arcs + a 3-agent audit, gated on B809's measured **κ = 0.842**. **15 agents, 0 errors, 0 empty results.** Readers received **arc IDs only** and resolved their own paths.
 - **Written 287** · skipped-no-directory 7 · skipped-already-authored 3 (never overwritten) · **withdrawn after review 3**. Coverage **30 → 317 of 743**. Distribution: PROVED 182 · NEGATIVE 94 · OPEN 22 · RETRACTED 2; 13 `instrument`; **28 `supersedes` links — the first of that kind in the corpus**.

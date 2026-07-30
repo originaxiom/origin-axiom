@@ -16886,6 +16886,28 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B811": {
+   "slug": "hint promotion gate",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B580",
+    "B615",
+    "B686",
+    "H128",
+    "H129",
+    "H130",
+    "H131",
+    "S3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B81": {
    "slug": "sl5 adproof",
    "motifs": [

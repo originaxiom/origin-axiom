@@ -8730,3 +8730,31 @@ pattern this session has now flagged three times. The predicted conservatism off
 fifty-five point spread in the proved-rate across slices, but the slices are chronological, so the
 spread mixes genuine era differences with reader bias and this design cannot separate them; the next
 wave needs overlapping slices. Nothing to CLAIMS.
+
+The promotion gate that the method owed four hints has been run under a seal, and it refuted this
+seat's stated expectation. The background is that a check issued kills, which the lifecycle forbids,
+since a check may only flag or park and killing requires the full gate with a tombstone and a
+residual hint; the ledger rows still read as merely noticed while carrying kill verdicts beneath
+them. The gate's load-bearing element is the look-elsewhere test, so an expression family was sealed
+in advance and verified to contain all three hinted forms, giving nearly twenty-nine thousand
+distinct values. The strong-coupling hint dies on structure rather than on counting: the coupling
+runs, taking distinctly different values at half, one and ten times the reference scale, so its
+value exists only relative to a chosen scale, while the object is proved scale-free, which makes the
+target the wrong kind of thing for a scale-free structure to emit; the thirty-seven family members
+inside the same window corroborate but are not the reason. The mixing-angle hint dies on the count,
+two hundred and eight members inside a three per cent window, with an independent blind check having
+already found no golden-power structure in any computed number. The third hint promoted at a count
+of one, which contradicts what was pre-registered, and the honest diagnosis is that the null was the
+wrong instrument for it: the single member inside the window is the target itself, because the
+target is a simple rational and a golden-family cannot populate a window of three parts in a hundred
+thousand at all, since the ratio is irrational and only the degenerate members are rational. So the
+test measured nothing, which is a design flaw in this seat's own instrument, identified the same way
+the face classifier and the lexicon extractor were, by checking the instrument against what it was
+actually asked to measure. This is not a rescue: the sealed verdict stands as promoted, and
+promotion means a decision to run, so the promotion and the correction are the same act, the thing
+to run being the properly specified null over simple fractions. Two structural findings stand
+untouched, that the channel carrying the conformal weight is proven information-free since the level-
+one chord is identical for the object, its neighbour and the unknot, and that the mass relation is a
+parametrisation statement. A channel that cannot distinguish the object from the unknot cannot carry
+its physics. Two tombstones written, the lifecycle labels corrected, the promotion registered as a
+lead. Gate 5 held throughout and nothing reached CLAIMS.
