@@ -17002,7 +17002,8 @@
     "B787",
     "B806",
     "B815",
-    "B816"
+    "B816",
+    "B819"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 1,
@@ -17031,6 +17032,20 @@
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B819": {
+   "slug": "frame gap",
+   "motifs": [],
+   "refs": [
+    "B519",
+    "B525",
+    "B58",
+    "B817"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
    "status": "dead",
    "domain": "dynamics"
   },

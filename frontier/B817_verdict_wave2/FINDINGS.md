@@ -103,7 +103,7 @@ B786 itself lists only as an open possibility.
 - **No new lexicon.** The WHAT axis is still stale (B806).
 - **No face attachment.** 573 arcs remain on no face; that is a separate axis.
 - **No edges.** The forcing graph gains nodes, not edges — coverage is a precondition, not the goal.
-- **130 arcs still carry no verdict**, mostly directories without a `FINDINGS.md`.
+- **130 arcs still carry no verdict.** ~~mostly directories without a `FINDINGS.md`~~ — **CORRECTED by B819: that was wrong.** 133 directories have a `FINDINGS.md` and no verdict, and **116 of them were never assigned to any wave-2 reader.** The residue is a **coverage-frame gap, not a data gap**, and one more wave closes it.
 
 ## Carried forward
 

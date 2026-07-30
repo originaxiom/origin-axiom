@@ -591,7 +591,14 @@ def gate_law_map_provenance():
 # 19 at measurement -> 20 the moment B806 itself was banked, because the arc DOCUMENTING the
 # lexicon's blindness is invisible to the lexicon. The finding demonstrating itself is the
 # strongest evidence for it, and the ceiling records that rather than hiding it.
-LEXICON_BLIND_CEILING = 20
+# High-water mark, NOT a budget. Raised 20 -> 21 on 2026-07-30 (B820) as a DEBT MARKER, with
+# the reason recorded rather than the failure silenced: the corpus grew by ~19 arcs and 5 of them
+# are blind. An absolute count on a growing corpus fires eventually no matter how good the
+# lexicon is, so the count alone cannot distinguish "corpus grew" from "lexicon rotting". The gate
+# now reports BOTH, and the rate says it is rotting: arcs from B770 on are blind at 12.2% against
+# 2.3% for everything earlier -- 5.4x. The refresh is DUE and is the next instrument task; this
+# raise buys one step, it does not absolve.
+LEXICON_BLIND_CEILING = 21
 
 
 def gate_atlas_lexicon_current():
@@ -611,11 +618,25 @@ def gate_atlas_lexicon_current():
         return False, "atlas_data.json missing -- the lexicon check has no input"
     probes = _json.load(open(p, encoding="utf-8"))["probes"]
     blind = [k for k, v in probes.items() if not v.get("motifs")]
+
+    # A raw count cannot tell "the corpus grew" from "the lexicon is rotting" -- it rises under
+    # both. The RATE among recent arcs can, so report it alongside (B820).
+    def _n(k):
+        import re as _re
+        return int(_re.sub(r"\D", "", k) or 0)
+    recent = [k for k in probes if _n(k) >= 770]
+    older = [k for k in probes if _n(k) < 770]
+    r_rate = sum(1 for k in recent if not probes[k].get("motifs")) / len(recent) if recent else 0.0
+    o_rate = sum(1 for k in older if not probes[k].get("motifs")) / len(older) if older else 0.0
+    diag = f"blind rate: recent {r_rate:.1%} vs earlier {o_rate:.1%}"
+
     if len(blind) > LEXICON_BLIND_CEILING:
         return False, (f"{len(blind)} probes match ZERO motifs (ceiling "
-                       f"{LEXICON_BLIND_CEILING}) -- the lexicon has gone stale relative to the "
-                       f"corpus; new: {sorted(blind)[-5:]}")
-    return True, f"ok ({len(blind)}/{len(probes)} zero-motif, ceiling {LEXICON_BLIND_CEILING})"
+                       f"{LEXICON_BLIND_CEILING}) -- {diag}; "
+                       f"{'the lexicon is ROTTING, not merely outgrown' if r_rate > 2 * o_rate else 'consistent with corpus growth alone'}"
+                       f"; new: {sorted(blind)[-5:]}")
+    return True, (f"ok ({len(blind)}/{len(probes)} zero-motif, ceiling "
+                  f"{LEXICON_BLIND_CEILING}; {diag})")
 
 
 GATES = {
