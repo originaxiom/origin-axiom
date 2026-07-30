@@ -106,3 +106,43 @@ that distinguishes it from a sister sharing its trace field (B803).
   `κ > 2`, not an m004 adjacency at `κ = −2`.
 
 `map.json` · lock `tests/test_b812_path_map.py`
+
+---
+
+# CORRECTION (2026-07-30) — the 3d-3d entry mis-stated B561
+
+The table's 3d-3d row read *"B561: no exceptional 3d-3d state integral exists; sub-mechanism
+CLOSED-NEGATIVE."* **That is wrong**, and an incoming probe plan surfaced it.
+
+**B561 closed a different thing**: the specific chain step *"the Eisenstein ℤ/3 selects SU(3)² inside
+F₄"* — seat-1's L50 CRUX. It says nothing about whether an exceptional state integral exists.
+
+`OPEN_PROBLEMS` states the opposite of what the row claimed:
+
+> **What closes it.** Construct `T[4₁;E₆]` explicitly (the DGG state integral for an **exceptional**
+> group)
+
+So the exceptional construction is the **open requirement**, not a banked negative. The row's axis
+assignment (**M** — no computed mechanism) is unchanged and correct; its *reason* was wrong. **The
+gate is open, not shut** — which matters, because a closed gate invites nobody and an open one is a
+target.
+
+## And the banked data answers a question the probe scheduled for later
+
+An incoming plan proposes four gates, with the character-variety **dimension** check (its Gate D)
+in week 2. **That check is answerable today from banked data**, and it is the cheapest of the four:
+
+- **CLAIMS E14**: `dim H¹(4₁, Sym^{2m}) = 1` per E₆ exponent — **six blocks**
+- **B575**: `dim H¹(V_{2m}) = dim H²(V_{2m}) = 1` for all six; *"the variety continues past the
+  principal point in all six directions"*
+- **B370**: **all six E₆ tangent directions unobstructed at third order**
+
+The Gang–Kim–Yoon identity's stated hypothesis is that **every irreducible component of `X^irr(M)`
+is of dimension 1**. The E₆ tangent at the principal point is **6-dimensional**, and six directions
+are unobstructed to third order.
+
+**So the hypothesis appears to fail at E₆, from data already in the bank.** Stated with its limit:
+B370 is explicit that this is *"conditional by nature (higher orders untested — no 'smooth, period'
+claim)"*, so this is strong evidence, **not proof**, that the component is 6-dimensional. It is
+enough to make the dimension check **the first gate to run, not the third** — it costs hours, uses
+no new literature, and if it fails the identity has no well-posed statement at E₆.

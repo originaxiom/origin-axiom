@@ -42,7 +42,7 @@
   "C": "no",
   "M": "NO",
   "killed_by": "M",
-  "reason": "B561: no exceptional 3d-3d state integral exists; sub-mechanism CLOSED-NEGATIVE"
+  "reason": "CORRECTED 2026-07-30: the earlier reason MIS-STATED B561. B561 closed the specific 'Eisenstein Z/3 selects SU(3)^2 inside F_4' path -- NOT the existence of an exceptional 3d-3d state integral. OPEN_PROBLEMS states the opposite: 'What closes it. Construct T[4_1;E_6] explicitly (the DGG state integral for an EXCEPTIONAL group)' -- i.e. it is an OPEN construction, not a closed negative. M still blocks (no computed mechanism), but the gate is open rather than shut."
  },
  {
   "target": "quasicrystal / Fibonacci Hamiltonian (L16, S023)",
