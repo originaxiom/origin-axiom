@@ -35,10 +35,25 @@ volume. Those close their targets permanently.
 that the connection was postulated rather than computed. Five of ten targets die there, and for all
 five the mathematics on the object's side is intact.
 
-**The programme already knows this and has it registered**: `L91`, the stage-selection proof
-obligations, is the standing gate that *"physics readings wait on"* — and `WORKING_RULES` rule 6
-says so in as many words. This map's contribution is to show that **L91 is not one gate among many;
-it is the blocking wall for the majority of the physics surface.**
+**CORRECTED at review, same day.** A first draft of this section named `L91` as "the blocking wall
+for the majority of the physics surface." **That over-reaches, and checking it matters more than the
+tidier sentence.** L91 is the **stage-selection** gate (why κ = 5, why the SU(3) modular family) —
+and its obligation **(4), the typed functorial monodromy-equivariant map, is already DISCHARGED**
+(B650 types + B644 group functor + the equivariance wall). Obligations (1)–(3) remain, reduced to
+one hypothesis plus a branch lemma.
+
+The **cusp↔gauge dictionary** is a *different* item — `OPEN_LEADS` Campaign 2, *"ground or demote
+the cusp↔gauge dictionary"*, whose heavy part is open. And **no registered lead at all covers a
+`CS → θ_QCD` map.**
+
+So the accurate statement is narrower and more useful: **the M-blocked targets are blocked by
+several distinct missing derivations, not one gate** — L91 for the stage reading, Campaign 2 for the
+cusp↔gauge dictionary, and **nothing registered** for the CS↔θ_QCD map that this arc's most advanced
+target would need.
+
+**That an obligation of exactly this type has already been discharged (L91's (4)) is the useful
+precedent: a typed, functorial, equivariant map was specified and built. It is the template for what
+the others would require.**
 
 ## Two targets whose classification changed on inspection
 

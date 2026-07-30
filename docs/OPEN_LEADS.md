@@ -650,3 +650,16 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 > `CLAIMS.md` from this lead under any outcome.**
 
 > **Review 34 (2026-07-30)** — bearing on lead selection: the (face, motif) plane is **saturated** (B808), so absence from it is not a gap; and the atlas lexicon is **frozen at 2026-07-01** (B806), so absence from the atlas is not evidence of absence.
+
+> **L110 — the CS↔θ_QCD dictionary has NO registered obligation set (opened 2026-07-30, B812).**
+> B812's map found θ_QCD = 0 to be its **most advanced** target: dimensionless (no scale needed), it
+> supplies the *symmetric point* rather than a fitted value, **amphichirality is genuinely
+> manifold-level** (m003 is not a knot), and **`CS = 0` is computed and banked** (B286/B289/B303).
+> **Three of four axes clear.** It fails only on the missing mechanism: `CS ↔ θ_QCD` is a
+> **postulated dictionary** (K021/K022/B143) and **no arc computes the map** — and, checked, **no
+> registered lead covers it**. L91 is the *stage-selection* gate; Campaign 2 is the *cusp↔gauge*
+> dictionary; neither is this.
+> **Template:** L91's obligation (4) — a typed, functorial, monodromy-equivariant map — was
+> **specified and DISCHARGED** (B650/B644). That is the form an obligation set for this map should
+> take, and the proof that such a thing is buildable here.
+> **Gate 5 applies absolutely: no value or reading promotes from this lead under any outcome.**
