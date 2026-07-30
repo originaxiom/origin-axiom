@@ -17106,6 +17106,21 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B823": {
+   "slug": "blind triage",
+   "motifs": [],
+   "refs": [
+    "B537",
+    "B820",
+    "B821",
+    "B822",
+    "B999"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B82": {
    "slug": "consolidation",
    "motifs": [

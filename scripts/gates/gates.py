@@ -591,28 +591,15 @@ def gate_law_map_provenance():
 # 19 at measurement -> 20 the moment B806 itself was banked, because the arc DOCUMENTING the
 # lexicon's blindness is invisible to the lexicon. The finding demonstrating itself is the
 # strongest evidence for it, and the ceiling records that rather than hiding it.
-# Blind-arc ceiling, measured only over SUBSTANTIAL arcs (B822).
+# Blind arcs are TRIAGED, not capped (B823).
 #
-# B821 decomposed the blind set and the composition matters: 14 of 21 were stubs of 409-1988 bytes
-# ("Logged observation, not a claim.") against a 4078-byte corpus median. No lexicon can reach
-# them and none should try, so counting them measured the archive's shape, not the lexicon's.
-#
-# The gate no longer prints a ROTTING-vs-outgrown verdict. B821 showed count-plus-rate cannot tell
-# lexicon decay from a shift in what the programme is DOING -- the recent blind arcs were
-# instrument arcs (censuses, gate reports, verdict vocabulary), which an OBJECT lexicon is correct
-# to miss. The gate reports numbers and the size split; the diagnosis is the reader's.
-#
-# Instrument arcs are deliberately still COUNTED. Excluding them would mean classifying by topic,
-# which is a judgement about arcs this seat wrote -- and would let the number be tuned by
-# relabelling. Size is objective; topic is not.
+# B821: a raw blind count conflates thin stubs, instrument arcs and real gaps -- three unlike
+# things. B822: capping it is self-referential, because the arc documenting the gate is itself an
+# instrument arc and incremented the count it was fixing. There is therefore NO CEILING. Every
+# substantial blind arc must carry a disposition in docs/atlas/BLIND_ARCS.md, and this gate fails
+# only on UNTRIAGED arcs -- it asks for a judgement, not a number.
 LEXICON_MIN_BYTES = 2000
-# Set to 9, which INCLUDES B822's own findings file. That is not a rounding-up: the gate ratchets
-# against instrument arcs, and the arc documenting the gate is itself an instrument arc, so writing
-# it up incremented the very count it was fixing. The ceiling is therefore self-referential and
-# would need bumping on every future instrument arc -- a real design limit, recorded rather than
-# papered over. B823 replaces the ceiling with a TRIAGE REGISTRY, which removes the threshold
-# entirely and asks for a judgement per arc instead of a number.
-LEXICON_BLIND_CEILING = 9
+BLIND_REGISTRY = os.path.join("docs", "atlas", "BLIND_ARCS.md")
 
 
 def gate_atlas_lexicon_current():
@@ -632,9 +619,15 @@ def gate_atlas_lexicon_current():
         return False, "atlas_data.json missing -- the lexicon check has no input"
     probes = _json.load(open(p, encoding="utf-8"))["probes"]
 
-    # Size-floor the metric: an arc with almost no text cannot match any lexicon, so counting it
-    # measures the archive, not the instrument (B822).
+    reg = os.path.join(ROOT, BLIND_REGISTRY)
+    if not os.path.isfile(reg):
+        return False, (f"{BLIND_REGISTRY} is MISSING -- the triage registry is this gate's only "
+                       f"input; without it no blind arc can be dispositioned")
+    reg_text = open(reg, encoding="utf-8").read()
+
     import glob as _glob
+    import re as _re
+
     def _size(aid):
         for d in _glob.glob(os.path.join(ROOT, "frontier", f"{aid}_*")):
             f = os.path.join(d, "FINDINGS.md")
@@ -646,14 +639,25 @@ def gate_atlas_lexicon_current():
     blind = [k for k in blind_all if _size(k) >= LEXICON_MIN_BYTES]
     thin = len(blind_all) - len(blind)
 
-    if len(blind) > LEXICON_BLIND_CEILING:
-        return False, (f"{len(blind)} SUBSTANTIAL probes match ZERO motifs (ceiling "
-                       f"{LEXICON_BLIND_CEILING}; {thin} further blind arcs are under "
-                       f"{LEXICON_MIN_BYTES}B and excluded) -- the lexicon does not reach them; "
-                       f"decide whether each is a real gap or an arc an OBJECT lexicon should "
-                       f"miss: {sorted(blind)}")
-    return True, (f"ok ({len(blind)}/{len(probes)} substantial zero-motif, ceiling "
-                  f"{LEXICON_BLIND_CEILING}; {thin} thin arcs excluded)")
+    triaged = {m.group(1): m.group(2)
+               for m in _re.finditer(r"^\| `(B\d+)` \| \*?\*?(GAP|INSTRUMENT)", reg_text, _re.M)}
+    untriaged = sorted(a for a in blind if a not in triaged)
+    if untriaged:
+        return False, (f"{len(untriaged)} substantial blind arc(s) NOT triaged in "
+                       f"{BLIND_REGISTRY}: {untriaged} -- add a row saying GAP (a real object "
+                       f"topic the lexicon misses) or INSTRUMENT (an arc about our own machinery, "
+                       f"which an OBJECT atlas is correct to miss)")
+
+    # Stale rows are a defect too: a registry that outlives its arcs stops being readable.
+    stale = sorted(a for a in triaged if a not in blind)
+    if stale:
+        return False, (f"{BLIND_REGISTRY} lists arc(s) that are no longer substantial-and-blind: "
+                       f"{stale} -- remove the row (the arc now carries a motif, or shrank)")
+
+    gaps = sorted(a for a, d in triaged.items() if d == "GAP")
+    return True, (f"ok ({len(blind)} substantial blind, all triaged; {len(gaps)} open GAP"
+                  f"{'s' if len(gaps) != 1 else ''}{': ' + ', '.join(gaps) if gaps else ''}; "
+                  f"{thin} thin arcs excluded)")
 
 
 GATES = {
