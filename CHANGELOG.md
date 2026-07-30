@@ -1,5 +1,11 @@
 # Changelog
 
+## B816 — the reproducible audit sampler, committed before the verdicts it will audit exist
+- **Wave 1 audited the first three arcs of each reader's slice and got 36/36.** That number is uninformative, and the reason is structural rather than statistical: the first arcs of a slice are the ones a reader judged while freshest, and anyone choosing *which* arcs to audit **after** seeing the verdicts can land on an agreeable set without meaning to. A 100 % pass rate on a set selected that way is compatible with a substantial error rate on the rest.
+- `scripts/checks/audit_sample.py` draws by a rule fixed in advance instead: **sort the frame lexically, seed with a committed constant (`20260730`), sample without replacement.** The draw is a function of `(frame, seed)` and of nothing else.
+- **7 locks** on the property that actually matters — not randomness, but *un-steerability*: the draw is reproducible; **independent of input order** (reordering the frame cannot change the sample); without replacement; **it tracks the frame, not the auditor** (adding one arc changes the draw — the honest direction of dependence); a different seed gives a different draw, **so quietly re-seeding to get a friendlier set is a visible act rather than a silent one**; and the seed constant is itself locked as part of the preregistration, not a knob.
+- Committed **before** the wave-2 verdicts it will audit exist. As with B815, the ordering is what makes it honest — the code is nearly trivial.
+
 ## B815 — the Fleiss' κ instrument, verified against a published answer, and its precision pinned BEFORE the data
 - Wave 1's κ = 0.842 was **Cohen's, on 20 items with 2 raters** — it said nothing about the other ten. Wave 2 gives all 12 readers the **same 15-arc calibration block**, which needs **Fleiss'** κ. New instrument `scripts/checks/fleiss_kappa.py`.
 - **Verified against an answer it did not compute:** reproduces Fleiss' published worked example (10 subjects × 14 raters × 5 categories) at **κ = 0.2099 vs 0.210**. An agreement statistic never checked against a known answer is not evidence.
