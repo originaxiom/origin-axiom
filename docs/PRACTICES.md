@@ -109,10 +109,22 @@ was reached.** An exact result inside a firewalled arc is `PROVED` even when its
 explicitly not cleared. `OPEN` is reserved for arcs that settled **nothing**. *(B809's B420
 disagreement.)*
 
-**Known systematic effect, to be watched at scale:** both B809 disagreements ran the **same
-direction** — one seat labelled PROVED where the other was more cautious. With n=2 it cannot be
-quantified, but a **seat-to-seat conservatism offset** is predicted, and a fan-out should report its
-per-seat verdict distribution so the offset is measured rather than absorbed.
+**Known systematic effect — PREDICTED at n=2, then MEASURED at n=12 and found NOT to hold.** Both
+B809 disagreements ran the same direction (one seat labelled PROVED where the other was more
+cautious), so a **seat-to-seat conservatism offset** was predicted. B817 put all 12 readers on an
+identical 15-arc block and measured it: **10 of 12 produced the exact same verdict mix (5:10)**,
+the other two 7:8 and 6:9. **The offset is essentially nil** — so wave 1's 0.364 → 0.917 per-slice
+spread reflects **genuine differences between the arc sets**, not who read them. Fleiss' κ = 0.9312.
+A fan-out should still report its per-seat distribution; the point is that the prediction was
+resolved by measurement rather than carried indefinitely as a caveat.
+
+**But scope the measurement by what it actually exercised.** B817's calibration block used only
+**two** of the four verdict categories, and licensed work that used four:
+
+> **A calibration set must be checked, BEFORE the run, to exercise every category it will license.**
+> A κ measured on a narrower distinction than the work it gates is a real number about the wrong
+> question. This is the vacuity rule one level up: not *can the criterion fail?* but *was the
+> criterion even exercised across the range it governs?*
 
 ## Judgement practices — the ones that cannot be gated
 
