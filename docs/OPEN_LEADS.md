@@ -663,3 +663,14 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 > **specified and DISCHARGED** (B650/B644). That is the form an obligation set for this map should
 > take, and the proof that such a thing is buildable here.
 > **Gate 5 applies absolutely: no value or reading promotes from this lead under any outcome.**
+>
+> **DISPOSITIONED 2026-07-30 (B813) — REFUTED ON TYPE at Cell 1, without reaching the obligation
+> set.** The literature gate ran first (per the plan's own rule) and reached the answer. θ is a
+> **free coupling**, "not dependent on spacetime geometry"; the Chern–Simons object that genuinely
+> appears in the 4d θ story is `W(A)`, a **functional of the dynamical SU(3) colour field**
+> (`∫_M tr(F∧F) = ∫_∂M tr(A dA + ⅔A³)`), not an invariant of the slice's geometry. Three
+> independent mismatches, any one sufficient: **kind** (a computed invariant cannot be a free
+> coupling), **group** (PSL(2,ℂ) geometric holonomy vs SU(3) colour — B736's wall shape), **slot**
+> (coefficient vs functional in `e^{iθW(A)}`). **Scope: this refutes the DIRECT identification, not
+> every possible construction** — any future attempt must first make m004 the spatial slice *and*
+> the geometric holonomy the colour field, both now checkable statements rather than impressions.
