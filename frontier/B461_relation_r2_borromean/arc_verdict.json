@@ -1,0 +1,10 @@
+{
+ "id": "B461",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No Brunnian-specific manifold invariant emerged for the Borromean rings, and Q(sqrt(-7)) appears on an unrelated control, killing the cumulative sqrt(-7) reading.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

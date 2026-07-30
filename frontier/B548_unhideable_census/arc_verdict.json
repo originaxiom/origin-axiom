@@ -1,0 +1,10 @@
+{
+ "id": "B548",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Un-hideability is generic across small substitutions, including non-Pisot and reducible ones, refuting the 'un-hideable iff Pisot/self-priored' prediction.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

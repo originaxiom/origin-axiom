@@ -1,0 +1,10 @@
+{
+ "id": "B673",
+ "verdict": "PROVED",
+ "claim_one_line": "L106 closes: the generation sum rule is two-seat verified (provisional lifted) and all three slots of 27x27 couple under a graded sign rule.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

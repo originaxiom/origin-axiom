@@ -1,0 +1,10 @@
+{
+ "id": "B497",
+ "verdict": "PROVED",
+ "claim_one_line": "End(F₂) on the character variety splits into four strata with exact κ-laws, plus two universal laws: κ=2 invariance and a toral classical shadow.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B496",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B330",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Across five invariant classes every trace-map-invariant discrete invariant is continuous, a symmetrizable Galois orbit, or canonical: no forced choice exists.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B697",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The golden's appearance in the zeta-5 Habiro evaluation is a tautological Gaussian period carrying no object-specific content; the f_5 loop is superseded.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

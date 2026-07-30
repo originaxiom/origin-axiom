@@ -1,0 +1,10 @@
+{
+ "id": "B392",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Wall probes return no tricritical-Ising T-spectrum match and no theta-exponent alignment; the level-135 support prediction is killed though 1/4 stays frozen.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B396",
+ "verdict": "PROVED",
+ "claim_one_line": "The P64 factorization holds on every banked pair's domain (661 cells, zero mismatches), so the whole banked value dataset is formula-derived.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

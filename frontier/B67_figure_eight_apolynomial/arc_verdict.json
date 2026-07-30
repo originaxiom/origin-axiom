@@ -1,0 +1,10 @@
+{
+ "id": "B67",
+ "verdict": "PROVED",
+ "claim_one_line": "The figure-eight A-polynomial is reproduced exactly from the metallic SL(2,C) trace map's fixed locus, matching Cooper-Long literally.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

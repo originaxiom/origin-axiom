@@ -1,0 +1,10 @@
+{
+ "id": "B612",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The sealed per-level pairing biconditional FAILED (chiral RRLLL closes at kappa=6); only the level-uniform quantified form survives on the seven objects.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

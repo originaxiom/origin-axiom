@@ -1,0 +1,10 @@
+{
+ "id": "B789",
+ "verdict": "PROVED",
+ "claim_one_line": "An explicit intertwiner Q = S_iota * S_sd^{-1} conjugates transpose-with-reversal back to the Riley Sym^2 representation, which descends to pi_1(4_1); Q is rep-dependent.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

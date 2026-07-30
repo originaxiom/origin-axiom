@@ -1,0 +1,10 @@
+{
+ "id": "B591",
+ "verdict": "PROVED",
+ "claim_one_line": "The two lifts' first homologies are det(A−I) and det(A+I), so the golden 5-tone's conductor is literally the torsion of the chord's carrier.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

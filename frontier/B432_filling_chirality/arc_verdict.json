@@ -1,0 +1,10 @@
+{
+ "id": "B432",
+ "verdict": "PROVED",
+ "claim_one_line": "All 31 sampled hyperbolic Dehn fillings make the amphichiral object chiral: the interface mechanism is confirmed, though slope selection stays free input.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

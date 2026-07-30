@@ -1,0 +1,10 @@
+{
+ "id": "B680",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified exactly that Vol(4_1) = (3sqrt3/2) L(chi_-3, 2) — the volume is the being-character L-value — and that 5 is inert in Q(sqrt(-3)).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

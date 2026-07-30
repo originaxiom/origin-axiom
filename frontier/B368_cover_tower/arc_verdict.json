@@ -1,0 +1,10 @@
+{
+ "id": "B368",
+ "verdict": "PROVED",
+ "claim_one_line": "Cover pairing equals base pairing relabeled by the deck's exponent action (verified on all 240 cells); cyclic covers create no new seam values.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

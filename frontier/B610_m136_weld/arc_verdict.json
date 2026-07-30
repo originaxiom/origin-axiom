@@ -1,0 +1,10 @@
+{
+ "id": "B610",
+ "verdict": "PROVED",
+ "claim_one_line": "Three universality splits computed: the R^2L bundle's odd trace is complex and zeta-6 phased, never conjugation-closed, and never leaves the unit circle.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

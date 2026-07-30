@@ -1,0 +1,10 @@
+{
+ "id": "B345",
+ "verdict": "PROVED",
+ "claim_one_line": "The Z/3 charges of the deviation modes force an anti-diagonal charge-conservation texture, independent of the E6-exponent grading.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

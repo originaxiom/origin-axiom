@@ -1,0 +1,10 @@
+{
+ "id": "B746",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The golden ledger comes back GAPPED: ten of twelve structural floors are forced-golden but the voice floor carries zero golden markers (Eisenstein only).",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

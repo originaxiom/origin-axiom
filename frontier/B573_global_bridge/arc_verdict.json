@@ -1,0 +1,10 @@
+{
+ "id": "B573",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The handoff's step 8 is refuted and its proposed check ill-posed: the principal sl2 preserves no Spin(10) grading, sharpening the fifth wall.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

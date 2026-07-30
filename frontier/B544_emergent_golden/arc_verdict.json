@@ -1,0 +1,10 @@
+{
+ "id": "B544",
+ "verdict": "PROVED",
+ "claim_one_line": "Emergent golden order is verified (Sturmian ground states, Shenker's constant to nine digits) but the carrier holds only the Q(phi) shadow, not the degree-4 layer.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

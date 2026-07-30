@@ -1,0 +1,10 @@
+{
+ "id": "B723",
+ "verdict": "PROVED",
+ "claim_one_line": "The type-III observer apparatus is built (tracial II₁ core plus an external weight gives R_λ), and measurement is identified as the β=1 KMS symmetry breaking.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

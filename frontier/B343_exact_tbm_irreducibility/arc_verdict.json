@@ -1,0 +1,10 @@
+{
+ "id": "B343",
+ "verdict": "PROVED",
+ "claim_one_line": "The deck ℤ/3 acts irreducibly on the object's Klein 2-torsion, forcing exact TBM (θ₁₃=0) rather than TM2; irreducibility explains every blindness.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B342",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

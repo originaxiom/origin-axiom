@@ -1,0 +1,10 @@
+{
+ "id": "B549",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Both time-independent cosmic ratios return null through the frozen Z[tau] machinery against magnitude-matched controls; the dialed bin stays silent.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

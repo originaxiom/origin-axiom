@@ -1,0 +1,10 @@
+{
+ "id": "B518",
+ "verdict": "PROVED",
+ "claim_one_line": "K025 confirmed by computation: kappa is a substrate-independent scale-free universality class and the four faces derive from the two SL(2,Z) letters.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

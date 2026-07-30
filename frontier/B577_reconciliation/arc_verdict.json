@@ -1,0 +1,10 @@
+{
+ "id": "B577",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "B575/B576's core results were already banked weeks earlier (B265/B352): a non-recall failure, not new discovery; guard MB13 added.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

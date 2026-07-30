@@ -1,0 +1,10 @@
+{
+ "id": "B367",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The exact six-pair s-matrices refute B361's local law at pair (3,4) and show the value map factors through no CRT-local data at level 15.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B361",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

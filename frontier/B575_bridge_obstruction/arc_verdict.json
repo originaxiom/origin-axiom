@@ -1,0 +1,10 @@
+{
+ "id": "B575",
+ "verdict": "PROVED",
+ "claim_one_line": "The quadratic obstruction Q(u)=[u∪u] vanishes identically in all six E₆ directions, with constructive second-order certificates: the variety is smooth past the principal point.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

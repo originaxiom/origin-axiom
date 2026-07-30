@@ -1,0 +1,10 @@
+{
+ "id": "B693",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Base change to Q(sqrt-3) gives a_(5) = +1 at the inert prime, the trivial Steinberg value, killing the hope that the hearing prime carries phi.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B724",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Recomputing every seeing-strategy item leaves only C1 sound (a restatement of B713); C2 blocked, C3/C5 refuted, C4 and the GGM path base-rate dead.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

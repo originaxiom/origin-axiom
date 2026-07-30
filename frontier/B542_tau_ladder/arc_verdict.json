@@ -1,0 +1,10 @@
+{
+ "id": "B542",
+ "verdict": "PROVED",
+ "claim_one_line": "All 17 read-out components decompose exactly into two τ-ladders τ^a(τ−1)^b plus a π-fringe, making the catalog one self-similar unit-lattice object.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

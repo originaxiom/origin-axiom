@@ -1,0 +1,10 @@
+{
+ "id": "B416",
+ "verdict": "PROVED",
+ "claim_one_line": "The trace-map flow's destination is exactly a golden-Anosov system (Lyapunov 4 log phi, one conserved kappa, modular symmetry); no SM structure, and the structure is generic.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

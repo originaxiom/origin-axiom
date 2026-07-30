@@ -1,0 +1,10 @@
+{
+ "id": "B520",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Two headline handoff claims (a transcendental beta-function zero and a dim-3 bootstrap ceiling) fail to reproduce; only the BTZ entropy formula survives.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

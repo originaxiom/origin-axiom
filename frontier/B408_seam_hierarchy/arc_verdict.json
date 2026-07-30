@@ -1,0 +1,10 @@
+{
+ "id": "B408",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Under the embedding-invariant functional the seam envelope contracts up the tower (ratio 0.765), closing the object's last internal scale-lever candidate.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B771",
+ "verdict": "PROVED",
+ "claim_one_line": "Wave-1 resolved 11 of 13 open-item cells: e3 = cos(2pi/9)/864 exactly, L39 promoted to theorem, the D4 ceiling identified, two refutations banked.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B433",
+ "verdict": "PROVED",
+ "claim_one_line": "The DGG elimination for m004 returns exactly the Cooper-Long A-polynomial times its sign-twist, verifying Coulomb branch = SL(2) character variety.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

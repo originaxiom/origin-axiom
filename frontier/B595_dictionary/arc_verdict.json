@@ -1,0 +1,10 @@
+{
+ "id": "B595",
+ "verdict": "PROVED",
+ "claim_one_line": "Consolidated the seven-row dictionary and confirmed two blind predictions: det(I - B_odd) = phi^2 at kappa = 5, and E6_2's fixed theta-odd ear hears no chirality.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

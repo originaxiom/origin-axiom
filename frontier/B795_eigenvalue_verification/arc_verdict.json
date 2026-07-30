@@ -1,0 +1,10 @@
+{
+ "id": "B795",
+ "verdict": "PROVED",
+ "claim_one_line": "All seven of cc3's m004 Maass eigenvalues are reproduced by an independently written collocation solver with displaced controls (7/7 confirmed).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

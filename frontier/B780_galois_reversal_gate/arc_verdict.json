@@ -1,0 +1,10 @@
+{
+ "id": "B780",
+ "verdict": "RETRACTED",
+ "claim_one_line": "The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

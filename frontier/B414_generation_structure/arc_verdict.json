@@ -1,0 +1,10 @@
+{
+ "id": "B414",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Z/3-generations reading fails its privilege test: the object's core multiplicity is Z/2 (class number of Q(sqrt(-15))), and no canonical frame exists.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

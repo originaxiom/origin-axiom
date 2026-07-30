@@ -1,0 +1,10 @@
+{
+ "id": "B726",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The two bare quadratic faces do not close the Born gap: hearing Q(sqrt5) owns only the weights, while amplitudes and the interference phase need cyclotomic upgrades.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

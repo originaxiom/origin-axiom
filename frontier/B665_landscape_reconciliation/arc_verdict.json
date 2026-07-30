@@ -1,0 +1,10 @@
+{
+ "id": "B665",
+ "verdict": "PROVED",
+ "claim_one_line": "The shadow-class law |tr_odd(W)| = 2|tone(W mod 5)| holds for any word, and trace does not determine hearing (RLRL versus R^5L at equal trace).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

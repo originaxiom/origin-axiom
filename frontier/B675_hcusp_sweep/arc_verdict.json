@@ -1,0 +1,10 @@
+{
+ "id": "B675",
+ "verdict": "PROVED",
+ "claim_one_line": "The silver cusp lattice is defined over Q(i) with tau = -2i exactly and quantizes A3/SU(4)_1; the quantization index equals the cusp order's conductor.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

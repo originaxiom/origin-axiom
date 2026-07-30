@@ -1,0 +1,10 @@
+{
+ "id": "B761",
+ "verdict": "PROVED",
+ "claim_one_line": "fiber_dim(n)=0 at every rank: each deformation direction is visible from the cusp torus, so the object has no private states.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

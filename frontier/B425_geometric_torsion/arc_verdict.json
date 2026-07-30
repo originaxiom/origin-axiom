@@ -1,0 +1,10 @@
+{
+ "id": "B425",
+ "verdict": "PROVED",
+ "claim_one_line": "The geometric holonomy torsion is rational/Eisenstein (adjoint -3), a different object from B423's golden dynamical zeta (-5) — the object has two torsions.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B423",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

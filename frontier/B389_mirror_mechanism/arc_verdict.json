@@ -1,0 +1,10 @@
+{
+ "id": "B389",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The mirror law is not group inversion: the inversion and a-flip reductions fail on the banked table, blocked by the theta lift's twist.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

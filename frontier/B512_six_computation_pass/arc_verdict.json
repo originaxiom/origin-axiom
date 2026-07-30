@@ -1,0 +1,10 @@
+{
+ "id": "B512",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The six-cell handoff pass banks two negatives: the McKay ladder to E₆ is golden-specific (silver is a 2-group), and the arcsine law is rejected.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B739",
+ "verdict": "PROVED",
+ "claim_one_line": "m004's continuous spectrum is character-rigid: one Eisenstein channel pulled back from the Bianchi base, scattering Λ_K(s−1)/Λ_K(s), carrying no level characters.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B513",
+ "verdict": "PROVED",
+ "claim_one_line": "The three verbs have distinct exact boundary attractors: evolution conserves kappa=-2 (cusp), decoherence flows to 0 (pointer), decimation to 2 (abelian).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

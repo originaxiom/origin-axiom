@@ -1,0 +1,10 @@
+{
+ "id": "B631",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The 3x3 odd hearing form does not match PMNS at the 1% tier: 0/9 entries within 0.01, D = 0.134, Haar null p = 0.70.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

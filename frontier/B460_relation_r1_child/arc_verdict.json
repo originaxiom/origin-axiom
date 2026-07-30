@@ -1,0 +1,10 @@
+{
+ "id": "B460",
+ "verdict": "PROVED",
+ "claim_one_line": "The child's length spectrum is tabulated and its per-vacuum Chern-Simons values computed by a two-gate-validated Kirk-Klassen integral matching banked and SnapPy controls.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

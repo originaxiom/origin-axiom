@@ -1,0 +1,10 @@
+{
+ "id": "B359",
+ "verdict": "PROVED",
+ "claim_one_line": "Exact seam readout: pair (1,3) is seam-dark and (2,3) carries an s-set disjoint from (1,2) — the theta-lift seam form is pair-specific and parity-selective.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

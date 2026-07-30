@@ -1,0 +1,10 @@
+{
+ "id": "B567",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The proposed six-level pi/3-spaced Hamiltonian spectrum is impossible: the level-15 Weil monodromy has projective order 20 with 11 distinct eigenvalues.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B370",
+ "verdict": "PROVED",
+ "claim_one_line": "All six E6 tangent directions at the geometric representation are unobstructed to third order, and the universal-tau identity is strictly first-order.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

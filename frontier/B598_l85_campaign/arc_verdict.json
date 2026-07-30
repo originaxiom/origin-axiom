@@ -1,0 +1,10 @@
+{
+ "id": "B598",
+ "verdict": "PROVED",
+ "claim_one_line": "The Kashaev baseline is computed (growth = Vol/2pi, 1-loop constant 3^-1/4) and the exact six-block cusp table built, with the true longitude word corrected.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B369",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Concatenating two metallic blocks into one bundle makes the seam readout identically null in all six words, extending the single-object wall off the seed family.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

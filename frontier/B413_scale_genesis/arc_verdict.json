@@ -1,0 +1,10 @@
+{
+ "id": "B413",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The tower-measure is flat (|L(chi)|=1/4 for every character, Gauss-sum phases), carrying no new arithmetic, so the object generates no scale through its measure.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

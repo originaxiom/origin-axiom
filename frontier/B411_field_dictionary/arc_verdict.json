@@ -1,0 +1,10 @@
+{
+ "id": "B411",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The gamma-prime field dictionary is killed: it is multi-valued on generic cells and determines the field only on the boundary cells.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

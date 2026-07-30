@@ -16984,6 +16984,31 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B817": {
+   "slug": "verdict wave2",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic"
+   ],
+   "refs": [
+    "B429",
+    "B58",
+    "B616",
+    "B755",
+    "B780",
+    "B784",
+    "B786",
+    "B787",
+    "B806",
+    "B815",
+    "B816"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B81": {
    "slug": "sl5 adproof",
    "motifs": [

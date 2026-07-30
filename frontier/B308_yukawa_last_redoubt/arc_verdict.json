@@ -1,0 +1,10 @@
+{
+ "id": "B308",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The inter-generation Yukawa hierarchy is not forced by the object: E6 fixes the coupling but not the texture, walled by the generation obstruction.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

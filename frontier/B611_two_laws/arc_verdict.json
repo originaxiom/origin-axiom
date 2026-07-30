@@ -1,0 +1,10 @@
+{
+ "id": "B611",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Both sealed predictions failed: amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensional edge, and the unit-circle-departure candidate is vacuous since B_odd is unitary by construction.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B692",
+ "verdict": "PROVED",
+ "claim_one_line": "Independent search finds every level-15 piece published (curve 15a8, Bianchi forms, Koide-circles) but no prior art for the E6/bifocal/totient synthesis.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

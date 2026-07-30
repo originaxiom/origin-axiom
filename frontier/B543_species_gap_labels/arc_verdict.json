@@ -1,0 +1,10 @@
+{
+ "id": "B543",
+ "verdict": "PROVED",
+ "claim_one_line": "The four-letter species chain's measured IDS gap labels reproduce the B535 degree-4 dictionary, 100-2500x off the golden lattice and invariant across coupling sets.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

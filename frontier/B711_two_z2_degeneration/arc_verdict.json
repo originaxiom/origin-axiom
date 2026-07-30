@@ -1,0 +1,10 @@
+{
+ "id": "B711",
+ "verdict": "PROVED",
+ "claim_one_line": "Amphichirality and the ℚ(√−3) Galois involution are orthogonal commuting ℤ/2 legs of a V₄; Galois acts freely on Fix(τ) at the geometric point.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

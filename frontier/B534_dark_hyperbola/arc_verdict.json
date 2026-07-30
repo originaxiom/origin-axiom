@@ -1,0 +1,10 @@
+{
+ "id": "B534",
+ "verdict": "PROVED",
+ "claim_one_line": "Dark-hyperbola theorem proved for all odd primes: T(j,l)=0 ⟺ jl≡−4 except the (2,−2) survivor, magnitude spectrum exactly {0,1,√p}.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B736",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "All three tracks negative: the object-level observer is obstructed (finite level, non-Hermitian H^3) and zero of 24 SM parameters are reduced.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

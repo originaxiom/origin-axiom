@@ -1,0 +1,10 @@
+{
+ "id": "B492",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Verlinde/Affleck–Ludwig lens returns only the already-banked golden φ (g_τ/g₁=φ) — classical modular data, no new object-specific structure; lens exhausted.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

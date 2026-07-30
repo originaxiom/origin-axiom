@@ -1,0 +1,10 @@
+{
+ "id": "B715",
+ "verdict": "PROVED",
+ "claim_one_line": "The object's native gauge system is complex Chern-Simons of E6(C): the non-real adjoint trace excludes every real form, and the Z/11 is a UV-arithmetic non-descending charge.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

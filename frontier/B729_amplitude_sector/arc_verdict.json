@@ -1,0 +1,10 @@
+{
+ "id": "B729",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Born amplitude field Q(sqrt(2+phi)) is not native: every native invariant yields only the two quadratic fields, so amplitudes, phase and associator are golden-MTC overlays.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B363",
+ "verdict": "PROVED",
+ "claim_one_line": "The seam is two-sided: Par-non-commutation is necessary, but all 225 one-sided twists and the one-slot theta lift are dark, so both slots need the theta class.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

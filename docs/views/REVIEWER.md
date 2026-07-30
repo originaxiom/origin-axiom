@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **746** |
-| words of findings prose | **483,237** |
-| test lock files referenced | **489** |
-| arcs carrying an authored verdict | **317** (42.5 %) |
+| research arcs with findings | **747** |
+| words of findings prose | **484,243** |
+| test lock files referenced | **490** |
+| arcs carrying an authored verdict | **616** (82.5 %) |
 | classified closures | **217** |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,10 +33,10 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 195 |
-| NEGATIVE | 98 |
-| OPEN | 21 |
-| RETRACTED | 3 |
+| PROVED | 375 |
+| NEGATIVE | 206 |
+| OPEN | 27 |
+| RETRACTED | 8 |
 
 ## How the doors were shut
 
@@ -65,17 +65,17 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B698`** (828 words, 0 locks)  
-Leg A: the meeting is probed on its analytic side, with the prereg sealed BEFORE the verdict.  
-`B698_the_meeting_probed/FINDINGS.md`
+**PROVED — `B795`** (725 words, 0 locks)  
+All seven of cc3's m004 Maass eigenvalues are reproduced by an independently written collocation solver with displaced controls (7/7 confirmed).  
+`B795_eigenvalue_verification/FINDINGS.md`
 
-**NEGATIVE — `B728`** (779 words, 0 locks)  
-The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object.  
-`B728_stokes_resummation/FINDINGS.md`
+**NEGATIVE — `B793`** (852 words, 0 locks)  
+Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so "parent-validated" is unearned.  
+`B793_gate8r2a_parent_localisation/FINDINGS.md`
 
-**RETRACTED — `B216`** (646 words, 1 locks)  
-The verdict that the f>=8 period-law split is genus-theoretic and NEEDS-SPECIALIST was an artifact of testing only the scalars +-I and is withdrawn.  
-`B216_period_law_f8_boundary/FINDINGS.md`
+**RETRACTED — `B780`** (851 words, 0 locks)  
+The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  
+`B780_galois_reversal_gate/FINDINGS.md`
 
 ## How to falsify any of this
 

@@ -1,0 +1,10 @@
+{
+ "id": "B561",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No Eisenstein ℤ/3 exists at the figure-eight's geometric point (its symmetry is Klein-four), so nothing selects SU(3)² inside F₄; the chain stops at F₄.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

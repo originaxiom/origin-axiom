@@ -1,0 +1,10 @@
+{
+ "id": "B579",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The July-14 handoff is deflated: its T(F) characteristic polynomial is wrong (true one is the banked D4 quartic), two attributions fail, the phi-power scan is routed to hints.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

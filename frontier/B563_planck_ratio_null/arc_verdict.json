@@ -1,0 +1,10 @@
+{
+ "id": "B563",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The preregistered Planck-ratio retry nulls at every rung (p≈0.53, zero hits), with a plastic-seed control ladder landing closer than the object.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

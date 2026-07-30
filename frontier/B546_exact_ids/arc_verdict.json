@@ -1,0 +1,10 @@
+{
+ "id": "B546",
+ "verdict": "PROVED",
+ "claim_one_line": "Sturm-count IDS at N = 10^6 pins the twelve measured gap labels to the Q(sqrt(phi)) dictionary values at 4e-7 and extends the tau-ladder one rung below.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B543",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

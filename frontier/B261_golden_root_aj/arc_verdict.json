@@ -1,0 +1,10 @@
+{
+ "id": "B261",
+ "verdict": "PROVED",
+ "claim_one_line": "One AJ recursion carries both ends: exponential growth at the Kashaev limit, antiperiod-5 at q=ζ₅ with the classical longitude forced into ℚ(√5).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

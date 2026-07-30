@@ -1,0 +1,10 @@
+{
+ "id": "B637",
+ "verdict": "PROVED",
+ "claim_one_line": "All seven registered h0/h1 dimension predictions for the weld double's 27 local system are confirmed by a method-disjoint amalgam-Fox pipeline.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

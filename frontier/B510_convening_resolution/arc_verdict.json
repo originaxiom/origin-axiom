@@ -1,0 +1,10 @@
+{
+ "id": "B510",
+ "verdict": "PROVED",
+ "claim_one_line": "40a3 is the Jacobian of 40a1's branch double cover (2-isogenous, not a quadratic twist), discharging the square-time flag as a theorem.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

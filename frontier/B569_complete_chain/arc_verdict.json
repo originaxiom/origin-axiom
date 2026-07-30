@@ -1,0 +1,10 @@
+{
+ "id": "B569",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The sixteenth sigma-to-SM chain dies: the E6 level-1 modular data was inconsistent (Z=+1, no chirality bit) and F4's self-dual 26 admits zero chiral theories.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

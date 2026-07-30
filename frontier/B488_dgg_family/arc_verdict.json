@@ -1,0 +1,10 @@
+{
+ "id": "B488",
+ "verdict": "PROVED",
+ "claim_one_line": "The metallic family's DGG data obeys two clean laws, gauge U(1)^(2m-1) and H1 = (Z/m)^2 + Z for m=1..8; SU(3) flavor enhancement applies only at m=1.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B794",
+ "verdict": "PROVED",
+ "claim_one_line": "Re-derived from scratch: the figure-eight group is congruence of level exactly (4), and every trace norm is 0 or 3 mod 4, refuting the narrower norm-split claim.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B731",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

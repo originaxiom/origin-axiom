@@ -1,0 +1,10 @@
+{
+ "id": "B386",
+ "verdict": "PROVED",
+ "claim_one_line": "The level-15 Par-trace factorizes exactly as C3 times C5 on all 240 cells, and the windowed closed form derives 1/12 = 1/16 + 1/48 end-to-end.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

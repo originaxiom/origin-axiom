@@ -1,0 +1,10 @@
+{
+ "id": "B418",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No Galois element realizes the mirror cell-locally on the raw Q(zeta60) table: the emergent symmetries are intrinsic, refuting the B411 projection-artifact hypothesis.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B411",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

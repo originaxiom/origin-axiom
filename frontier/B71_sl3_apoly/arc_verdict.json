@@ -1,0 +1,10 @@
+{
+ "id": "B71",
+ "verdict": "PROVED",
+ "claim_one_line": "Fix(T1^2) on the eight SL(3) fiber traces is exactly the SL(3) figure-eight character variety: three components, each of dimension 2.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

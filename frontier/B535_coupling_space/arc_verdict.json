@@ -1,0 +1,10 @@
+{
+ "id": "B535",
+ "verdict": "PROVED",
+ "claim_one_line": "One measured Perron number plus the object's own grammar determines the substitution uniquely up to conjugacy; the coupling census saturates at 6 Perron types.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

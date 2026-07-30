@@ -1,0 +1,10 @@
+{
+ "id": "B382",
+ "verdict": "PROVED",
+ "claim_one_line": "The shifted-trace phase law is pinned in closed form and the slot constant assembles exactly, decomposing 1/12 as generic 1/16 plus 5-ramified 1/48.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

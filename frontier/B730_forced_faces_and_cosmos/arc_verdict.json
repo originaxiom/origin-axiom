@@ -1,0 +1,10 @@
+{
+ "id": "B730",
+ "verdict": "PROVED",
+ "claim_one_line": "The object's forced quadratic faces close at exactly three — ℚ(√−3), ℚ(√5), ℚ(√−15) — a Klein four-group; ℚ(√−7) is an external stage.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

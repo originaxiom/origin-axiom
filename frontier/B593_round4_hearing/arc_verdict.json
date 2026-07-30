@@ -1,0 +1,10 @@
+{
+ "id": "B593",
+ "verdict": "PROVED",
+ "claim_one_line": "A chirally displaced listener hears at second order, A_eps = A0 - eps^2 (u dagger W u) with no first-order term and exact golden-pentagonal amplitudes.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

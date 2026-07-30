@@ -1,0 +1,10 @@
+{
+ "id": "B672",
+ "verdict": "PROVED",
+ "claim_one_line": "The weight-5 doublet streams are Rogers-Ramanujan objects whose ratio is the RR continued fraction, and the branch tiebreak is proven as an exact cusp-lattice dichotomy.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}
