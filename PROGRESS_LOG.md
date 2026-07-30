@@ -8807,3 +8807,28 @@ no arc computes that map. Three of four axes clear on a manifold-level property 
 invariant, so what is missing there is not a fact about the object but a derived dictionary. The
 honest sentence is that no path exists today and that for most targets the blocker is the absent
 dictionary rather than a proved impossibility. Gate 5 held; nothing here is a claim.
+
+The dictionary between the object's Chern-Simons invariant and the strong-CP angle is refuted on
+type, and the refutation arrived from the literature gate rather than from a computation, which is
+exactly what putting that gate first was for. The plan's one methodological commitment was to
+retrieve the governing results before declaring any falsifier, inverting the earlier campaign whose
+kill branch turned out to be excluded by a theorem nobody had looked up. Cell zero ran first and
+reached cell one's answer. On the object's side the complex volume of a finite-volume hyperbolic
+three-manifold is the volume plus i times the Chern-Simons invariant, living modulo pi squared for
+the cusped case, with the class carried on the third homology of the projective complex special
+linear group, so the connection is the geometric holonomy, flat and fixed by the hyperbolic
+structure. On the physics side the angle is a coefficient prefactoring the topological term, a free
+parameter of the theory explicitly not dependent on spacetime geometry. The bridge that genuinely
+exists is not the one wanted: the four-dimensional topological term is the boundary integral of a
+Chern-Simons form of the dynamical gauge connection, and correspondingly the vacuum wavefunctional
+carries that same functional of the dynamical colour field, shifting by an integer under large gauge
+transformations with the angle conjugate to that winding number. So the refutation is a role
+collision rather than a missing link: in the exponential the Chern-Simons object already occupies
+the functional slot and it is a functional of the colour field, while a dictionary would have to
+place a Chern-Simons quantity in the coefficient slot of that same expression. Three independent
+mismatches follow, any one sufficient, in kind, in group, and in slot, the group mismatch having the
+same shape as the earlier equivariance wall. The most advanced target on the physics map therefore
+now has a stated reason rather than an absence, which is what the map found the surface mostly
+lacked. The scope is stated so it is not over-read: this refutes the direct identification and not
+every possible construction, and any future attempt must first make the object the spatial slice and
+the geometric holonomy the colour field, both of which are now checkable statements. Gate 5 held.

@@ -1,5 +1,17 @@
 # Changelog
 
+## B813 — L110 Cells 0–1: the CS ↔ θ_QCD dictionary is REFUTED ON TYPE, with a stated mechanism
+- **The literature gate ran FIRST**, per the plan's own rule — inverting B804, whose falsifier was **excluded by a theorem nobody had retrieved**. **Cell 0 reached Cell 1's answer**, which is what a literature gate is for.
+- **Object side:** `Vol_ℂ(M) = Vol + i·CS ∈ ℂ/π²iℤ` (cusped case); the Cheeger–Chern–Simons class lives on `H₃(PSL(2,ℂ)^δ;ℤ)`. **The connection is the geometric holonomy — flat, fixed by the hyperbolic structure.**
+- **Physics side (nLab):** θ prefactors `∫F∧F` and is *"a free parameter of the theory"*, explicitly **not dependent on spacetime geometry**.
+- **The bridge that genuinely exists is not the one wanted:** `∫_M tr(F∧F) = ∫_∂M tr(A dA + ⅔A³)` — the 4d topological term is the boundary integral of a CS form **of the dynamical gauge connection**; correspondingly `Φ_θ(A) = e^{iθW(A)}Ψ₀(A)` with `W(A)` that same functional of the **colour** field, shifting by an integer under large gauge transformations.
+- **F1 FIRES — and it is a ROLE COLLISION, not a missing link.** In `e^{iθW(A)}` the Chern–Simons object already occupies the **functional** slot; a dictionary would place a Chern–Simons quantity in the **coefficient** slot of that same expression.
+- **Three independent mismatches, any one sufficient:** **kind** (a computed invariant cannot be a free coupling), **group** (**PSL(2,ℂ)** geometric holonomy vs **SU(3)** colour — B736's wall shape), **slot** (coefficient vs functional).
+- **B812's most advanced target now has a STATED REASON rather than an absence** — which is precisely what the map found the physics surface lacks. **L110 dispositioned at Cell 1; Cells 2–3 not reached, the obligation set not needed.**
+- **Scope, stated so it is not over-read:** this refutes the **direct identification**, not every possible construction. Any future attempt must first make m004 **the spatial slice** *and* the geometric holonomy **the colour field** — both now **checkable statements rather than impressions**.
+- **Recorded negative:** no work surfaced placing gauge theory on a *hyperbolic* 3-manifold slice tying θ to the slice's geometry. **Sources are reference-level, which is appropriate for a type audit and would not suffice for Cells 2–3** — which are not reached. 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## B812 — the physics path map: NO PATH, and the blocking wall is not the one anyone assumed
 - **Prereg `efa66aa341586e51` sealed at `0f26341a` BEFORE any classification. Gate 5 absolute — this is a MAP, not a claim.**
 - Ten named targets classified on four axes taken from the programme's **own proved walls**: **S** (needs the object to supply a *scale* — K018, reached by three independent modes), **V** (needs a *value*), **C** (*class-level*, shared with m003 — B803), **M** (a *computed mechanism*, not an adjacency). A genuine path is (no, no, no, yes).

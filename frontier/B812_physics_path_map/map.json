@@ -60,7 +60,7 @@
   "C": "no",
   "M": "NO",
   "killed_by": "M",
-  "reason": "CS = 0 IS computed (B286/B289/B303) and amphichirality IS manifold-level -- but CS <-> theta_QCD is a POSTULATED dictionary (K021/K022/B143). No arc computes the map"
+  "reason": "CS = 0 IS computed (B286/B289/B303) and amphichirality IS manifold-level -- but CS <-> theta_QCD is a POSTULATED dictionary (K021/K022/B143). No arc computes the map | B813 (2026-07-30): REFUTED ON TYPE -- theta is a free coupling not dependent on spacetime geometry; the CS object in the 4d theta story is W(A), a functional of the dynamical SU(3) field, not a manifold invariant. Three mismatches: kind, group (PSL(2,C) vs SU(3)), slot (coefficient vs functional). M now has a STATED MECHANISM rather than an absence."
  },
  {
   "target": "Dirac spectrum as a second separator",

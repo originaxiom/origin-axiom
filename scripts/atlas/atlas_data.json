@@ -16918,13 +16918,16 @@
     "golden",
     "z3_generation",
     "amphichiral_cp",
-    "quasicrystal"
+    "quasicrystal",
+    "wrt_quantum"
    ],
    "refs": [
     "B143",
     "B286",
     "B289",
     "B303",
+    "B644",
+    "B650",
     "B803",
     "B811",
     "K001",
@@ -16936,10 +16939,29 @@
     "L50",
     "L91"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 5,
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 7,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B813": {
+   "slug": "cs theta type audit",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B736",
+    "B804",
+    "B812",
+    "L110"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "topology"
   },
   "B81": {
    "slug": "sl5 adproof",
