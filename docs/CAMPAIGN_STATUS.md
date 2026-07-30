@@ -1337,3 +1337,7 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 ## Review 33 (2026-07-29) — compaction CLOSED, absorption reviewed
 
 Compaction W0–W5 complete; residuals discharged (B800 partial, B801 measured, B802 harvested from the audit seat). GOVERNANCE §12 clause two executed for the first time since adoption. 17 gates, every one verified by deliberate breakage. Open: LAW_MAP enforcement (R33-4), the 701-arc verdict backlog, ~111 unregistered negatives.
+
+## Review 34 (2026-07-30) — the instrument review
+
+Nine arcs (B803–B811). Verdict coverage 42.6 %. Faces and motifs measured **orthogonal** (mutual information 0.031) — two axes, not rivals. The (face, motif) plane is **saturated**; B808 refuted the empty-cell programme at 34/35 artifact. H128/H129 legally killed; H130 promoted as L107 with its null acknowledged inapplicable. Gate 5 untouched throughout.

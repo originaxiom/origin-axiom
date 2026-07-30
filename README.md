@@ -202,3 +202,5 @@ decadal review does not refresh this file. It was added at Review 32, after this
 described B152–B230 as "the frontier" while the bank stood at B798.*
 
 > **Review 33 (2026-07-29)** — absorption review. The generated front door is now linked (see *For a reviewer*). Measured: THE CHAIN's 23 links all carry resolvable test locks (gate `chain-locks`); `docs/LAW_MAP.md` is **4 % locked and ungated** — treat an unlocked law row as a claim about the bank, not a checked fact.
+
+> **Review 34 (2026-07-30)** — instrument review. Verdict coverage **4.1 % → 42.6 %** (317/744). The object's description is three-dimensional — WHERE × WHAT × WHICH CLOSING — and only the third is *proved* complete. Seven instrument failures found this session, **none in the mathematics**.

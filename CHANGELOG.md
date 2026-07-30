@@ -1,5 +1,16 @@
 # Changelog
 
+## REVIEW 34 — the instrument review: seven instrument failures, none in the mathematics
+- Triggered at 20 merges. Nine arcs since Review 33 (B803–B811). **One pattern accounts for most of them.**
+- **Seven instruments failed this session** — face classifier (precision **0.45**, exact-set **13 %**); the atlas lexicon (**18 regex sets frozen 2026-07-01**, blind to 409 arcs *and to the programme's own falsifier*); cc's lexicon extractor (returned **process vocabulary**); cc's empty-cell proposal (**34/35 artifact**, survivor below chance); B804's falsifier (**excluded by a theorem**); the suite label (HEAD at completion, **4 commits adrift**); cc's fan-out args (**9 of 300 IDs wrong**).
+- **Not one failure was in the mathematics.** Every one was in a tool used to survey it — and **every one was caught the same way: by scoring the instrument against something already known.** That is the session's transferable result.
+- **The object's description is three-dimensional**: `WHERE` (11 faces) × `WHAT` (18 motifs) × `WHICH CLOSING` (**3, proved complete**). Faces and motifs measured **orthogonal** (163/198 cells, top-5 share 0.168, **mutual information 0.031**) — the zero overlap was a **signal**, and merging would have destroyed information. **The only axis proved complete is the only one recorded in no instrument.**
+- **The (face, motif) plane is saturated** — B808 refuted cc's own empty-cell programme. **Whatever is unaccounted for is not missing from that plane.**
+- **Coverage moved; the edges did not.** Verdicts **4.1 % → 42.6 %** (317/744); faces with no proved arc **6 → 1**; forcing edges **~19 → ~47**. **317 nodes, 47 edges** — the status layer is half-populated, the *graph* barely begun.
+- **Carried**: wave 2 (425 arcs, **overlapping** slices so the conservatism offset is measured not confounded); a **random-sampled** re-audit of wave 1; the stale WHAT axis; face attachment (573 arcs, not automatable); B685's normalisation; **the spectral paper, still unshipped**.
+- All 8 navigation views refreshed. 19/19 gates.
+
+
 ## B811 — the promotion gate run: two legal kills, one promotion, and a mis-specified null
 - **Prereg `6fa4c2c6fa027b44` sealed at `20170b02` BEFORE compute. Gate 5 held throughout — no SM value reached `CLAIMS.md` under any outcome.**
 - **Why it ran:** `METHOD.md` says a **CHECK** may *"flag only; route to DORMANT, never KILLED"*; **KILLED** requires *"the full promotion gate → tombstone + residual-hint."* **B580 Round 1 was a check and issued KILLED** on H128–H130 — a stage violation, with rows still reading `[NOTICED]` above their own kill verdicts.

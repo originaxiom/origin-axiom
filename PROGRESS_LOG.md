@@ -8758,3 +8758,26 @@ one chord is identical for the object, its neighbour and the unknot, and that th
 parametrisation statement. A channel that cannot distinguish the object from the unknot cannot carry
 its physics. Two tombstones written, the lifecycle labels corrected, the promotion registered as a
 lead. Gate 5 held throughout and nothing reached CLAIMS.
+
+Review 34 is the instrument review, and its finding is that seven instruments failed in a single
+session while the mathematics did not. The face classifier scored a precision of forty-five per cent
+and reproduced the exact face set thirteen per cent of the time. The atlas lexicon turned out to be
+eighteen hand-authored patterns frozen four weeks and four hundred arcs earlier, blind to the
+programme's own falsifier. This seat's own lexicon extractor returned the programme's process
+vocabulary rather than its mathematics. This seat's own empty-cell proposal dissolved under a
+permutation null at thirty-four artifacts of thirty-five, with the survivor below chance. A bounded
+falsifier turned out to be excluded by a theorem nobody had retrieved. A suite waiter labelled a run
+with the commit at completion rather than at launch, four commits adrift. And a hand-transcribed
+argument list carried nine wrong identifiers in three hundred. Not one of these failures was in the
+object. Every one was in a tool used to survey it, and every one was caught the same way, by scoring
+the instrument against something already known, which is now the first rule a stuck seat reads. The
+review also records that the object's description is three-dimensional, where by what by which
+closing, with the faces and motifs measured orthogonal rather than redundant at a mutual information
+of three hundredths, so the zero overlap between the two vocabularies was a signal and merging them
+would have destroyed information; and that the only axis proved complete is the only one recorded in
+no instrument. Coverage moved from four per cent to forty-three, but the graph has three hundred and
+seventeen nodes and forty-seven edges, so the status layer is half-populated while the graph is
+barely begun, and coverage is a precondition rather than the goal. Five items carry forward, headed
+by wave two with overlapping slices so the reader-conservatism offset is measured rather than
+confounded, and a random-sampled re-audit of wave one, since a thirty-six of thirty-six result drawn
+from the first three arcs of each slice licenses nothing. Nothing to CLAIMS.

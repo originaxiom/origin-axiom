@@ -150,3 +150,5 @@ whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the onl
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
 
 > **Review 33 (2026-07-29)** — no lead status changed this review; the work was infrastructure and absorption. New registered item **R33-4**: decide LAW_MAP's enforcement posture (lock the load-bearing rows and gate them, or mark the ledger explicitly as an unenforced index). Ambiguity there is what the review found.
+
+> **Review 34 (2026-07-30)** — new: **L107**, the correctly-specified null for H130 — a decision to run, *not* a claim. B580's information-free channel and B686's parametrisation finding stand as the obstruction.

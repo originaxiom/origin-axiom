@@ -154,3 +154,5 @@ whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the onl
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
 
 > **Review 33 (2026-07-29)** — the compaction masterplan executed in full and is CLOSED. It refuted three of its own claims during execution (the hard-arc premise was backwards; the hard stratum is 11 arcs not 90; `verdict.json` was not a free filename). Remaining scope is authoring, not engineering.
+
+> **Review 34 (2026-07-30)** — W1 is half-run (317/744) and its gate is finally measured (**κ = 0.842**). Wave 2 needs **overlapping** slices; the plan's own audit design needs a random sample.

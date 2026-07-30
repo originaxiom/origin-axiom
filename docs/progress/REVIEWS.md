@@ -2530,3 +2530,68 @@ cited by path.)
   the bank*, not a checked fact — and pointed at THE CHAIN and CLAIMS, which ARE gate-enforced.
 - [ ] R33-5 (carried from R32-15): 701 arcs need authored verdicts; ~111 negatives unregistered;
   B685's normalisation un-pinned; B731's stale `revival_score: 10`.
+
+## Review 34 — the instrument review (anchor-commit: `8e605c09`)
+
+Triggered at 20 merges. Twenty commits since Review 33, nine banked arcs (B803–B811). **One pattern
+accounts for most of them, and it is not about the mathematics.**
+
+### Finding 1 — SEVEN instrument failures in one session, and none in the object
+
+| # | instrument | how it failed | how it was caught |
+|---|---|---|---|
+| 1 | face classifier | precision **0.45**, exact-set **13 %** | scored against 166 human labels |
+| 2 | atlas lexicon | 18 regex sets **frozen 2026-07-01**, blind to 409 arcs and to the programme's own falsifier | coverage checked against the corpus |
+| 3 | lexicon extractor (cc's) | returned **process vocabulary** — *exactly*, *verdict*, *frontier* | read the output |
+| 4 | empty-cell "programme" (cc's) | **34 of 35** cells artifact; the survivor below chance | permutation null, sealed first |
+| 5 | B804's falsifier | **excluded by a theorem** — could not fire | literature retrieved, late |
+| 6 | suite label | reported HEAD at *completion*, not launch — 4 commits adrift | compared launch vs finish |
+| 7 | fan-out arg list (cc's) | **9 of 300 IDs wrong** | the readers refused to invent |
+
+**Not one failure was in the mathematics.** Every one was in a tool used to survey it, and **every
+one was caught the same way — by scoring the instrument against something already known.** That is
+the session's transferable result.
+
+### Finding 2 — the object's description is three-dimensional, and one axis is proved
+
+`WHERE` (11 faces, authored) × `WHAT` (18 motifs, authored, frozen) × `WHICH CLOSING` (**3**,
+**proved complete** — B733 bounded, B766 rank-saturated). Faces and motifs measured **orthogonal**,
+not redundant: **163/198** cells populated, top-5 share 0.168, mutual information **0.031**. So
+B806's zero overlap was a *signal*, and merging would have destroyed information.
+
+**The only axis proved complete is the only one recorded in no instrument.**
+
+### Finding 3 — the (face, motif) plane is saturated
+
+B808 refuted cc's own proposal: 34/35 empty cells are margin artifacts, and with ~3.5 expected below
+threshold by chance the single survivor is **fewer than chance**. **Whatever is unaccounted for is
+not missing from that plane.**
+
+### Finding 4 — coverage moved; the edges did not
+
+| | Review 33 | now |
+|---|---|---|
+| verdict coverage | 4.1 % | **42.6 %** (317/744) |
+| faces with no proved arc | 6 of 11 | **1** |
+| forcing edges | ~19 | **~47** |
+
+**317 nodes, 47 edges.** The status layer is half-populated; the *graph* is barely begun. Coverage
+is a precondition, not the goal.
+
+### Action items (Review 34)
+
+- [x] R34-1: the seven-instrument finding recorded; the score-it-first rule is in `WORKING_RULES`
+  and `PRACTICES`.
+- [x] R34-2: κ measured at **0.842** (the gate W1 was always owed); the two boundary rules that
+  produced its only disagreements are written into the vocabulary.
+- [x] R34-3: H128/H129 legally killed with tombstones + residual hints; H130 promoted as **L107**;
+  four mislabelled lifecycle states corrected.
+- [ ] R34-4: **wave 2** — 425 arcs. Slices must **overlap** so the conservatism offset (per-slice
+  PROVED-rate spread **0.364–0.917**) is measured rather than confounded with chronology.
+- [ ] R34-5: **re-audit wave 1 with a RANDOM sample.** The 36/36 result sampled the *first three*
+  of each slice and licenses nothing.
+- [ ] R34-6: **the WHAT axis is stale** (B806) — derive a lexicon from the corpus; the gap against
+  the frozen 18 is the list of what the programme learned and never named.
+- [ ] R34-7: **face attachment** — 573 arcs on no face, measured **not automatable**.
+- [ ] R34-8 (carried): B685's normalisation; B731's stale `revival_score: 10`; the ~111 unregistered
+  negatives (B801); **the spectral paper, still finished and unshipped**.

@@ -648,3 +648,5 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 > **B686** — Q = 2/3 is a 120°-parametrisation statement. A channel that cannot distinguish the
 > object from the unknot cannot carry its physics. **Gate 5 applies: no value promotes to
 > `CLAIMS.md` from this lead under any outcome.**
+
+> **Review 34 (2026-07-30)** — bearing on lead selection: the (face, motif) plane is **saturated** (B808), so absence from it is not a gap; and the atlas lexicon is **frozen at 2026-07-01** (B806), so absence from the atlas is not evidence of absence.

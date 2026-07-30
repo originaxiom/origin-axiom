@@ -196,3 +196,5 @@ whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the onl
 comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
 
 > **Review 33 (2026-07-29)** — unchanged mathematically. Recorded for anyone reading a law row as settled: `docs/LAW_MAP.md` is **4 % test-locked and no gate references it**, so an unlocked row is a claim about the bank, not a checked fact. THE CHAIN (`docs/THEOREM_LEDGER.md`) *is* fully locked and gated.
+
+> **Review 34 (2026-07-30)** — the physics closures were audited: **110 of 217** classified kills are physics-facing, and the three whose discriminating fact was never computed are now dispositioned (B799/B800/B811). **Alpha-s died on *kind*, not on counting** — it is a running coupling and the object is proved scale-free.
