@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-616 of 747 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+616 of 748 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (375)
+## PROVED (377)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -277,6 +277,7 @@
 | `B517` | Within Fibonacci-intertwining couplings the golden-3d bootstrap coupling is unique, (C,D)=(F,F^2), and that canonical coupling is Pisot only for the golden mean. |  | 1 |
 | `B518` | K025 confirmed by computation: kappa is a substrate-independent scale-free universality class and the four faces derive from the two SL(2,Z) letters. |  | 1 |
 | `B524` | Phi is certified iwip with unequal forward and inverse dilatations, so F4-by-phi is word-hyperbolic but not a 3-manifold group; higher-rank Ptolemy keeps DGG gauge abelian. |  | 1 |
+| `B525` | Adversarial re-audit cracked three banked negatives, retracting B519's 'no external crossing' headline and the C3 causal nugget, while the master negative survived. | yes | 2 |
 | `B528` | T[4_1]'s 3d-3d gauge group is abelian U(1), computed from the Neumann-Zagier datum; the 'U(N-1) nonabelian generic gauge' reading is a structure-group conflation. |  | 0 |
 | `B530` | The four-letter object's own grammar is golden at three nested levels, its growth is a mirror plus a symplectic form, and its pure discrete spectrum is certified. |  | 1 |
 | `B531` | Gap-opening slopes converge (0.1914, 0.1524, ratio 1.2565) and gap 3's period-2 alternation is explained by the negative contracting eigenvalue; closed forms remain open. |  | 0 |
@@ -365,6 +366,7 @@
 | `B739` | m004's continuous spectrum is character-rigid: one Eisenstein channel pulled back from the Bianchi base, scattering Λ_K(s−1)/Λ_K(s), carrying no level characters. |  | 0 |
 | `B742` | Re-adjudicating 213 banked negatives, 30 P1 kills were re-earned by computation and 2 (B58, B225) were revived as dead kills. | yes | 0 |
 | `B744` | All six disputed fact-basis rows upheld as computed with in-repo locks running green; the conflict was a corpus-scope difference, not an error. | yes | 1 |
+| `B745` | Independent cross-verification confirms both revivals, retracting B58's 'not numerically testable' headline and B225's vacuous 2-half kill. |  | 1 |
 | `B759` | The theta-odd and theta-even sectors couple at SL(3)=Sym^2 but not at SL(2), with off-block norm sqrt3 = sqrt|disc Q(sqrt-3)|. |  | 1 |
 | `B761` | fiber_dim(n)=0 at every rank: each deformation direction is visible from the cusp torus, so the object has no private states. |  | 0 |
 | `B762` | m004 is the unique 1-cusped census manifold with its spectral dataset (volume plus cusp shape), so the emitted word is a self-name. |  | 0 |
@@ -631,7 +633,7 @@
 | `B707` | Literature synthesis identifies arithmetic Chern-Simons (Kim), Scholze's Habiro ring and Lee's motives as the program's top-down twin; three bridge tests named, none run. |  | 0 |
 | `B758` | Consolidated the forced core into an 18-link THEOREM_LEDGER with every link labeled and every axiom priced; the chain cites and asserts nothing new. | yes | 1 |
 
-## RETRACTED (8)
+## RETRACTED (6)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -639,7 +641,5 @@
 | `B192` | The banked metallic Lyapunov-spectrum parity law (symmetric iff n even, metallic-special) is withdrawn — an artifact of cherry-picked energies and a rigged control. |  | 1 |
 | `B216` | The verdict that the f>=8 period-law split is genus-theoretic and NEEDS-SPECIALIST was an artifact of testing only the scalars +-I and is withdrawn. |  | 1 |
 | `B437` | The child's 'golden return' is withdrawn as inheritance: the trefoil control shows Q(sqrt5) is slope-5-forced, leaving only generic or class-shared content. |  | 1 |
-| `B525` | Adversarial re-audit cracked three banked negatives, retracting B519's 'no external crossing' headline and the C3 causal nugget, while the master negative survived. | yes | 2 |
 | `B731` | The 'figure-eight knot group is non-congruence' headline is withdrawn: the 2-adic index jumps at level (8), so m004 is a congruence subgroup after all. |  | 0 |
-| `B745` | Independent cross-verification confirms both revivals, retracting B58's 'not numerically testable' headline and B225's vacuous 2-half kill. |  | 1 |
 | `B780` | The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans. |  | 0 |

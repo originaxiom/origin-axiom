@@ -1,10 +1,10 @@
 {
  "id": "B745",
- "verdict": "RETRACTED",
+ "verdict": "PROVED",
  "claim_one_line": "Independent cross-verification confirms both revivals, retracting B58's 'not numerically testable' headline and B225's vacuous 2-half kill.",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "W2-wave2-calibrated"
+ "authored_by": "W2-wave2-calibrated; verdict corrected by B818"
 }

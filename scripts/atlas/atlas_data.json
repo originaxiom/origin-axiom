@@ -17009,6 +17009,31 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B818": {
+   "slug": "retracted rule",
+   "motifs": [],
+   "refs": [
+    "B192",
+    "B216",
+    "B219",
+    "B225",
+    "B437",
+    "B519",
+    "B525",
+    "B58",
+    "B731",
+    "B742",
+    "B745",
+    "B780",
+    "B784",
+    "B817",
+    "B90"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B81": {
    "slug": "sl5 adproof",
    "motifs": [

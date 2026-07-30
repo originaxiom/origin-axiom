@@ -96,7 +96,10 @@ here — the repairs would have taken that sample to κ = 1.0.
 | **PROVED** | the arc's headline is a positive result that was established |
 | **NEGATIVE** | the headline is that a claim, candidate or mechanism was killed, refuted, found null, or shown not to hold |
 | **OPEN** | the arc advanced something but **settled nothing** |
-| **RETRACTED** | the headline is the withdrawal of a previously banked result |
+| **RETRACTED** | the headline is the withdrawal of **this arc's own** previously banked result |
+
+**Disambiguation (B818, from the two errors wave 2's untested vocabulary let through).** `RETRACTED` applies only when the arc withdraws **its own** headline. An arc that *establishes* that **another** arc's claim fails is doing positive work: label it by what **it** established (`PROVED` / `NEGATIVE`), and the retraction lands on the **target** arc's record. This is what keeps the ledger usable — `RETRACTED` on X means "do not trust X's old claim", and that is the only thing the label is good for. Mislabelling an auditor as RETRACTED makes the ledger say the audit is untrustworthy, which is the opposite of the truth.
+
 
 Plus `instrument: true` when the product is a tool/compiler/ledger/census rather than a result.
 
