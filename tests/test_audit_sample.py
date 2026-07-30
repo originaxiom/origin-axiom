@@ -14,8 +14,20 @@ _SPEC.loader.exec_module(aus)
 FRAME = [f"B{i}_arc" for i in range(100, 200)]
 
 
+# The draw this frame+seed MUST produce, recorded once. Comparing draw(F) to draw(F) would pass
+# even if the sampling rule changed underneath -- both sides move together. Only a golden value
+# pins the actual sample, which is the thing the preregistration commits to.
+GOLDEN_8 = ["B104_arc", "B121_arc", "B122_arc", "B132_arc",
+            "B168_arc", "B176_arc", "B189_arc", "B193_arc"]
+
+
+def test_draw_matches_the_recorded_golden_sample():
+    """Locks the ACTUAL draw, so a change to the sampling rule cannot slip through."""
+    assert aus.draw(FRAME, 8) == GOLDEN_8
+
+
 def test_draw_is_reproducible():
-    assert aus.draw(FRAME, 30) == aus.draw(FRAME, 30)
+    assert aus.draw(FRAME, 30) == aus.draw(FRAME, 30) == aus.draw(sorted(FRAME), 30)
 
 
 def test_draw_is_independent_of_input_order():
