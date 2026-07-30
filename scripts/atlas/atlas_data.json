@@ -16914,6 +16914,7 @@
     "figure_eight",
     "trace_map",
     "kappa",
+    "dickson_tower",
     "eisenstein",
     "golden",
     "z3_generation",
@@ -16926,6 +16927,9 @@
     "B286",
     "B289",
     "B303",
+    "B370",
+    "B561",
+    "B575",
     "B644",
     "B650",
     "B803",
@@ -16962,6 +16966,23 @@
    "obstacle_conf": 5,
    "status": "dead",
    "domain": "topology"
+  },
+  "B814": {
+   "slug": "gate d",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "torsion"
+   ],
+   "refs": [
+    "B370",
+    "B575",
+    "B804"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B81": {
    "slug": "sl5 adproof",
