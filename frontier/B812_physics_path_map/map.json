@@ -1,0 +1,92 @@
+[
+ {
+  "target": "E6 gauge group / three generations / cascade",
+  "S": "no",
+  "V": "no",
+  "C": "YES",
+  "M": "yes",
+  "killed_by": "C",
+  "reason": "B803: routes through the invariant trace field; m003 ties by construction"
+ },
+ {
+  "target": "alpha_s(M_Z) = 1/(2 phi^3)",
+  "S": "YES",
+  "V": "yes",
+  "C": "no",
+  "M": "no",
+  "killed_by": "S",
+  "reason": "B811: a RUNNING coupling; the object is proved scale-free (K018/S3/B615)"
+ },
+ {
+  "target": "sin^2 theta_13 = 1/phi^8; phi-power mass ratios",
+  "S": "no",
+  "V": "YES",
+  "C": "no",
+  "M": "no",
+  "killed_by": "V",
+  "reason": "B811: 208 of 28,957 family members in the same window; B308 hierarchy wall"
+ },
+ {
+  "target": "Koide Q = 2/3 <-> h(27)",
+  "S": "no",
+  "V": "YES",
+  "C": "no",
+  "M": "NO",
+  "killed_by": "M",
+  "reason": "B580: the carrying channel is PROVEN information-free (identical for 4_1, 5_2, UNKNOT)"
+ },
+ {
+  "target": "3d-3d correspondence at E6 (Gate B / L50)",
+  "S": "no",
+  "V": "no",
+  "C": "no",
+  "M": "NO",
+  "killed_by": "M",
+  "reason": "B561: no exceptional 3d-3d state integral exists; sub-mechanism CLOSED-NEGATIVE"
+ },
+ {
+  "target": "quasicrystal / Fibonacci Hamiltonian (L16, S023)",
+  "S": "no",
+  "V": "no",
+  "C": "YES",
+  "M": "yes",
+  "killed_by": "C",
+  "reason": "m004 sits at kappa = -2; the Fibonacci Hamiltonian at kappa = 2+lambda^2 > 2 -- DIFFERENT POINTS of the same trace-map family. The bridge is adjacency of our TOOL, not of the object"
+ },
+ {
+  "target": "theta_QCD = 0 from amphichirality",
+  "S": "no",
+  "V": "no",
+  "C": "no",
+  "M": "NO",
+  "killed_by": "M",
+  "reason": "CS = 0 IS computed (B286/B289/B303) and amphichirality IS manifold-level -- but CS <-> theta_QCD is a POSTULATED dictionary (K021/K022/B143). No arc computes the map"
+ },
+ {
+  "target": "Dirac spectrum as a second separator",
+  "S": "no",
+  "V": "no",
+  "C": "YES",
+  "M": "yes",
+  "killed_by": "C",
+  "reason": "B804: cobordism forces the bounding cusp structure for ANY one-cusped spin 3-manifold, m003 included"
+ },
+ {
+  "target": "renormalization / holography / positive geometry",
+  "S": "no",
+  "V": "no",
+  "C": "no",
+  "M": "NO",
+  "killed_by": "M",
+  "reason": "B720: three NO-MATCH classifications; wrong cyclotomic branch, no local DOF, not positive"
+ },
+ {
+  "target": "Turok two-sheeted CPT cosmology",
+  "S": "no",
+  "V": "no",
+  "C": "no",
+  "M": "NO",
+  "killed_by": "M",
+  "reason": "B710: method-only at the thimble level; skeleton inverted"
+ }
+]

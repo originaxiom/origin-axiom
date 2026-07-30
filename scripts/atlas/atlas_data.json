@@ -16908,6 +16908,39 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B812": {
+   "slug": "physics path map",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B143",
+    "B286",
+    "B289",
+    "B303",
+    "B803",
+    "B811",
+    "K001",
+    "K010",
+    "K018",
+    "K021",
+    "K022",
+    "L16",
+    "L50",
+    "L91"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B81": {
    "slug": "sl5 adproof",
    "motifs": [

@@ -8781,3 +8781,29 @@ barely begun, and coverage is a precondition rather than the goal. Five items ca
 by wave two with overlapping slices so the reader-conservatism offset is measured rather than
 confounded, and a random-sampled re-audit of wave one, since a thirty-six of thirty-six result drawn
 from the first three arcs of each slice licenses nothing. Nothing to CLAIMS.
+
+The physics path map is built and sealed, and its result is a pattern rather than a count. Ten named
+targets were classified on four axes taken from the programme's own proved walls: whether the target
+needs the object to supply a scale, which three independent modes have shown it cannot; whether it
+needs a value; whether it is class-level and therefore shared with the sister; and whether a
+computed mechanism exists rather than an adjacency. A genuine path clears all four. None does. But
+the distribution of what kills them is the finding: the missing-mechanism axis blocks five of ten,
+class-level blocks three, and scale and value one each. The two proved walls close their targets
+permanently, but the missing-mechanism axis closes nothing, because it records only that no derived
+map exists between the object and the target, that the connection was postulated rather than
+computed, and for all five of those the mathematics on the object's side is intact. The programme
+already knows this and has it registered as the standing gate that physics readings wait on; what
+this map adds is that the gate is not one among many but the blocking wall for the majority of the
+surface. Two classifications changed on inspection. The quasicrystal bridge, the corpus's only
+permitted physics reading, dies as class-level and more sharply than predicted, because the object
+sits at the parabolic value of the commutator trace while the Fibonacci Hamiltonian sits above two,
+so they are different points of one trace-map family and the adjacency belongs to our tool rather
+than to the object, which is exactly the selection effect the atlas warns about, appearing at the
+physics boundary. The strong-CP target nearly cleared: it is dimensionless, it supplies the
+symmetric point rather than a fitted value, amphichirality is genuinely manifold-level since the
+sister is not a knot, and the vanishing Chern-Simons invariant is computed and banked. It fails only
+the mechanism axis, because the identification with the vacuum angle is a postulated dictionary and
+no arc computes that map. Three of four axes clear on a manifold-level property with a computed
+invariant, so what is missing there is not a fact about the object but a derived dictionary. The
+honest sentence is that no path exists today and that for most targets the blocker is the absent
+dictionary rather than a proved impossibility. Gate 5 held; nothing here is a claim.

@@ -1,5 +1,17 @@
 # Changelog
 
+## B812 — the physics path map: NO PATH, and the blocking wall is not the one anyone assumed
+- **Prereg `efa66aa341586e51` sealed at `0f26341a` BEFORE any classification. Gate 5 absolute — this is a MAP, not a claim.**
+- Ten named targets classified on four axes taken from the programme's **own proved walls**: **S** (needs the object to supply a *scale* — K018, reached by three independent modes), **V** (needs a *value*), **C** (*class-level*, shared with m003 — B803), **M** (a *computed mechanism*, not an adjacency). A genuine path is (no, no, no, yes).
+- **Result: 0 of 10 targets clear.** Blocking-axis distribution: **M = 5 · C = 3 · S = 1 · V = 1.**
+- **THE RESULT IS THE PATTERN.** `S` and `C` are **proved** walls and close their targets permanently. **`M` closes nothing** — it records that *no derived map exists*, that the connection was **postulated rather than computed**. Five of ten die there, and for all five **the mathematics on the object's side is intact**.
+- **This makes `L91` the load-bearing gate.** `WORKING_RULES` rule 6 already says physics readings wait on it; the map shows it is **the blocker for the majority of the surface**, not one gate among many.
+- **The quasicrystal bridge dies by C, more sharply than predicted.** m004 sits at **κ = −2** (the parabolic cusp, K001); the Fibonacci Hamiltonian at **κ = 2+λ² > 2** (K010). **Different points of one trace-map family.** K010: *"κ = 2+λ² is the coupling of a tight-binding chain, not a vacuum or a constant of nature."* So the corpus's only `PERMITTED` reading is an adjacency **of our tool**, not of the object — the atlas's own selection-effect warning, appearing at the physics boundary.
+- **θ_QCD = 0 is the map's most advanced entry and fails ONLY M.** Dimensionless (S=no); supplies the *symmetric point*, not a fitted value (V=no); **amphichirality is genuinely manifold-level** — m003 is not a knot (C=no); and **`CS = 0` is computed and banked** (B286/B289/B303). It fails because `CS ↔ θ_QCD` is a **postulated dictionary** (K021, K022, B143) that **no arc computes**. Three of four axes clear on a manifold-level property with a computed invariant.
+- **"Physics is closed" is the wrong phrasing and should stop.** The honest sentence: **no path exists today, and for most targets the blocker is the absent typed dictionary (L91), not a proved impossibility.** The two permanent walls: the object cannot supply a **scale**, and cannot supply anything **class-level**.
+- 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## REVIEW 34 — the instrument review: seven instrument failures, none in the mathematics
 - Triggered at 20 merges. Nine arcs since Review 33 (B803–B811). **One pattern accounts for most of them.**
 - **Seven instruments failed this session** — face classifier (precision **0.45**, exact-set **13 %**); the atlas lexicon (**18 regex sets frozen 2026-07-01**, blind to 409 arcs *and to the programme's own falsifier*); cc's lexicon extractor (returned **process vocabulary**); cc's empty-cell proposal (**34/35 artifact**, survivor below chance); B804's falsifier (**excluded by a theorem**); the suite label (HEAD at completion, **4 commits adrift**); cc's fan-out args (**9 of 300 IDs wrong**).
