@@ -591,14 +591,28 @@ def gate_law_map_provenance():
 # 19 at measurement -> 20 the moment B806 itself was banked, because the arc DOCUMENTING the
 # lexicon's blindness is invisible to the lexicon. The finding demonstrating itself is the
 # strongest evidence for it, and the ceiling records that rather than hiding it.
-# High-water mark, NOT a budget. Raised 20 -> 21 on 2026-07-30 (B820) as a DEBT MARKER, with
-# the reason recorded rather than the failure silenced: the corpus grew by ~19 arcs and 5 of them
-# are blind. An absolute count on a growing corpus fires eventually no matter how good the
-# lexicon is, so the count alone cannot distinguish "corpus grew" from "lexicon rotting". The gate
-# now reports BOTH, and the rate says it is rotting: arcs from B770 on are blind at 12.2% against
-# 2.3% for everything earlier -- 5.4x. The refresh is DUE and is the next instrument task; this
-# raise buys one step, it does not absolve.
-LEXICON_BLIND_CEILING = 21
+# Blind-arc ceiling, measured only over SUBSTANTIAL arcs (B822).
+#
+# B821 decomposed the blind set and the composition matters: 14 of 21 were stubs of 409-1988 bytes
+# ("Logged observation, not a claim.") against a 4078-byte corpus median. No lexicon can reach
+# them and none should try, so counting them measured the archive's shape, not the lexicon's.
+#
+# The gate no longer prints a ROTTING-vs-outgrown verdict. B821 showed count-plus-rate cannot tell
+# lexicon decay from a shift in what the programme is DOING -- the recent blind arcs were
+# instrument arcs (censuses, gate reports, verdict vocabulary), which an OBJECT lexicon is correct
+# to miss. The gate reports numbers and the size split; the diagnosis is the reader's.
+#
+# Instrument arcs are deliberately still COUNTED. Excluding them would mean classifying by topic,
+# which is a judgement about arcs this seat wrote -- and would let the number be tuned by
+# relabelling. Size is objective; topic is not.
+LEXICON_MIN_BYTES = 2000
+# Set to 9, which INCLUDES B822's own findings file. That is not a rounding-up: the gate ratchets
+# against instrument arcs, and the arc documenting the gate is itself an instrument arc, so writing
+# it up incremented the very count it was fixing. The ceiling is therefore self-referential and
+# would need bumping on every future instrument arc -- a real design limit, recorded rather than
+# papered over. B823 replaces the ceiling with a TRIAGE REGISTRY, which removes the threshold
+# entirely and asks for a judgement per arc instead of a number.
+LEXICON_BLIND_CEILING = 9
 
 
 def gate_atlas_lexicon_current():
@@ -617,26 +631,29 @@ def gate_atlas_lexicon_current():
     if not os.path.isfile(p):
         return False, "atlas_data.json missing -- the lexicon check has no input"
     probes = _json.load(open(p, encoding="utf-8"))["probes"]
-    blind = [k for k, v in probes.items() if not v.get("motifs")]
 
-    # A raw count cannot tell "the corpus grew" from "the lexicon is rotting" -- it rises under
-    # both. The RATE among recent arcs can, so report it alongside (B820).
-    def _n(k):
-        import re as _re
-        return int(_re.sub(r"\D", "", k) or 0)
-    recent = [k for k in probes if _n(k) >= 770]
-    older = [k for k in probes if _n(k) < 770]
-    r_rate = sum(1 for k in recent if not probes[k].get("motifs")) / len(recent) if recent else 0.0
-    o_rate = sum(1 for k in older if not probes[k].get("motifs")) / len(older) if older else 0.0
-    diag = f"blind rate: recent {r_rate:.1%} vs earlier {o_rate:.1%}"
+    # Size-floor the metric: an arc with almost no text cannot match any lexicon, so counting it
+    # measures the archive, not the instrument (B822).
+    import glob as _glob
+    def _size(aid):
+        for d in _glob.glob(os.path.join(ROOT, "frontier", f"{aid}_*")):
+            f = os.path.join(d, "FINDINGS.md")
+            if os.path.isfile(f):
+                return os.path.getsize(f)
+        return 0
+
+    blind_all = [k for k, v in probes.items() if not v.get("motifs")]
+    blind = [k for k in blind_all if _size(k) >= LEXICON_MIN_BYTES]
+    thin = len(blind_all) - len(blind)
 
     if len(blind) > LEXICON_BLIND_CEILING:
-        return False, (f"{len(blind)} probes match ZERO motifs (ceiling "
-                       f"{LEXICON_BLIND_CEILING}) -- {diag}; "
-                       f"{'the lexicon is ROTTING, not merely outgrown' if r_rate > 2 * o_rate else 'consistent with corpus growth alone'}"
-                       f"; new: {sorted(blind)[-5:]}")
-    return True, (f"ok ({len(blind)}/{len(probes)} zero-motif, ceiling "
-                  f"{LEXICON_BLIND_CEILING}; {diag})")
+        return False, (f"{len(blind)} SUBSTANTIAL probes match ZERO motifs (ceiling "
+                       f"{LEXICON_BLIND_CEILING}; {thin} further blind arcs are under "
+                       f"{LEXICON_MIN_BYTES}B and excluded) -- the lexicon does not reach them; "
+                       f"decide whether each is a real gap or an arc an OBJECT lexicon should "
+                       f"miss: {sorted(blind)}")
+    return True, (f"ok ({len(blind)}/{len(probes)} substantial zero-motif, ceiling "
+                  f"{LEXICON_BLIND_CEILING}; {thin} thin arcs excluded)")
 
 
 GATES = {

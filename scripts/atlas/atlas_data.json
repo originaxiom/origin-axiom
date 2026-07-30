@@ -17069,6 +17069,43 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B821": {
+   "slug": "lexicon refresh",
+   "motifs": [],
+   "refs": [
+    "B537",
+    "B770",
+    "B793",
+    "B798",
+    "B818",
+    "B819",
+    "B820"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B822": {
+   "slug": "lexicon gate fix",
+   "motifs": [],
+   "refs": [
+    "B537",
+    "B679",
+    "B770",
+    "B793",
+    "B798",
+    "B818",
+    "B819",
+    "B820",
+    "B821",
+    "B823"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B82": {
    "slug": "consolidation",
    "motifs": [

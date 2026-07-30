@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-07-30 from 746 frontier probes.
+> Last generated: 2026-07-30 from 748 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 746 frontier probes; status {'banked': 498, 'dead': 179, 'open': 51, 'dormant': 18}
+  corpus: 748 frontier probes; status {'banked': 498, 'dead': 181, 'open': 51, 'dormant': 18}
   the ONE conserved first integral: kappa (recurs 193x, 25%) -- genuine unity, MUST recur
   top recurring motifs: golden(482), firewall(476), eisenstein(406), figure_eight(359), metallic(346), trace_map(338)
   recurrence is: structural-invariant 2708 mentions | conserved-integral 193 | TOOL 338
@@ -29,7 +29,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | golden | 482 | 64% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
 | firewall | 476 | 63% | structure | structural | meta | the firewall / structural theorem / form-not-values |
 | eisenstein | 406 | 54% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
-| figure_eight | 359 | 48% | object | no | topology | the simplest hyperbolic knot; the carrier object |
+| figure_eight | 359 | 47% | object | no | topology | the simplest hyperbolic knot; the carrier object |
 | metallic | 346 | 46% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 338 | 45% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | torsion | 278 | 37% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
@@ -113,7 +113,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | source_free | 0/1 |
 | bridge_construction | 5/11 |
 | gauge_dict | 39/66 |
-| measure | 53/85 |
+| measure | 53/86 |
 | cancellation | 40/62 |
 | numerology | 22/34 |
 | spacetime_3p1 | 95/144 |
