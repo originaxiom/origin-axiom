@@ -42,12 +42,16 @@ def test_the_ambient_register_finding_holds():
         f"'prereg' now in {n}/{len(files)} arcs -- B821's ambient-register argument assumed >20%")
 
 
-def test_b537_is_still_blind_and_is_the_named_genuine_gap():
-    """The one real lexicon gap: the Markov-type surface / SL(2,Z) trace triples."""
+def test_b537_was_the_single_genuine_gap_and_is_now_closed():
+    """B821 named B537 the one real lexicon gap. B825 closed it -- with a NARROW motif.
+
+    The enduring claim is B821's DECOMPOSITION (14 stubs + 6 instrument + exactly 1 real gap),
+    not that the gap stayed open. Locking it closed by the narrow motif preserves both.
+    """
     d = json.loads((ROOT / "scripts" / "atlas" / "atlas_data.json").read_text(encoding="utf-8"))
-    assert not d["probes"].get("B537", {}).get("motifs"), (
-        "B537 now carries a motif -- B821 named it the single genuine lexicon gap; "
-        "if it has been closed, update the finding")
+    motifs = d["probes"].get("B537", {}).get("motifs") or []
+    assert "markov_cubic" in motifs, (
+        "B537 was the single genuine gap B821 identified; B825 closed it and that must hold")
 
 
 def test_findings_records_the_correction_to_b820():

@@ -107,6 +107,12 @@
    "conserved": "structural",
    "domain": "topology",
    "gloss": "the hyperbolicity-split motif (H4): object on both sides of the divide"
+  },
+  "markov_cubic": {
+   "kind": "invariant",
+   "conserved": "structural",
+   "domain": "topology",
+   "gloss": "the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it"
   }
  },
  "obstacles": [
@@ -326,7 +332,8 @@
     "golden",
     "torsion",
     "quasicrystal",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B103",
@@ -378,7 +385,8 @@
     "metallic",
     "dickson_tower",
     "golden",
-    "lorentzian"
+    "lorentzian",
+    "markov_cubic"
    ],
    "refs": [
     "B101",
@@ -392,7 +400,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B110": {
    "slug": "off locus sector",
@@ -933,7 +941,8 @@
     "amphichiral_cp",
     "torsion",
     "quasicrystal",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B1",
@@ -971,7 +980,8 @@
     "amphichiral_cp",
     "torsion",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B124",
@@ -1183,7 +1193,8 @@
     "kappa",
     "metallic",
     "dickson_tower",
-    "eisenstein"
+    "eisenstein",
+    "markov_cubic"
    ],
    "refs": [
     "B124",
@@ -1205,7 +1216,7 @@
    "obstacle": "cancellation",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B138": {
    "slug": "s031 principal lemma",
@@ -1216,7 +1227,8 @@
     "metallic",
     "dickson_tower",
     "eisenstein",
-    "golden"
+    "golden",
+    "markov_cubic"
    ],
    "refs": [
     "B124",
@@ -1277,7 +1289,8 @@
     "trace_map",
     "kappa",
     "golden",
-    "lorentzian"
+    "lorentzian",
+    "markov_cubic"
    ],
    "refs": [
     "B2"
@@ -1299,7 +1312,8 @@
     "golden",
     "amphichiral_cp",
     "symplectic",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B124",
@@ -1329,7 +1343,7 @@
    "obstacle": "cancellation",
    "obstacle_conf": 2,
    "status": "dead",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B141": {
    "slug": "s031 split",
@@ -1562,7 +1576,8 @@
     "amphichiral_cp",
     "symplectic",
     "quasicrystal",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B124",
@@ -1633,7 +1648,8 @@
     "kappa",
     "metallic",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B124",
@@ -1742,7 +1758,8 @@
     "amphichiral_cp",
     "symplectic",
     "apolynomial",
-    "wrt_quantum"
+    "wrt_quantum",
+    "markov_cubic"
    ],
    "refs": [
     "B149",
@@ -1760,7 +1777,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 29,
    "status": "dead",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B155": {
    "slug": "golden phase bridge",
@@ -1937,7 +1954,8 @@
     "z3_generation",
     "amphichiral_cp",
     "quasicrystal",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B107",
@@ -1958,7 +1976,7 @@
    "obstacle": "measure",
    "obstacle_conf": 6,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B161": {
    "slug": "cancellation locus stratification",
@@ -1970,7 +1988,8 @@
     "golden",
     "quasicrystal",
     "firewall",
-    "hyperbolicity_split"
+    "hyperbolicity_split",
+    "markov_cubic"
    ],
    "refs": [
     "B107",
@@ -2072,7 +2091,8 @@
     "metallic",
     "golden",
     "amphichiral_cp",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B150",
@@ -2103,7 +2123,8 @@
     "golden",
     "quasicrystal",
     "firewall",
-    "hyperbolicity_split"
+    "hyperbolicity_split",
+    "markov_cubic"
    ],
    "refs": [
     "B109",
@@ -2160,7 +2181,8 @@
     "metallic",
     "golden",
     "amphichiral_cp",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B130",
@@ -2590,7 +2612,8 @@
     "metallic",
     "quasicrystal",
     "lorentzian",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B131",
@@ -2772,7 +2795,8 @@
     "quasicrystal",
     "lorentzian",
     "firewall",
-    "hyperbolicity_split"
+    "hyperbolicity_split",
+    "markov_cubic"
    ],
    "refs": [
     "B162",
@@ -2917,7 +2941,8 @@
     "metallic",
     "golden",
     "apolynomial",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B131",
@@ -3273,7 +3298,8 @@
     "golden",
     "quasicrystal",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B148",
@@ -3301,7 +3327,8 @@
     "torsion",
     "quasicrystal",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B207",
@@ -3815,7 +3842,8 @@
     "golden",
     "lorentzian",
     "firewall",
-    "five_web"
+    "five_web",
+    "markov_cubic"
    ],
    "refs": [
     "B211",
@@ -3993,7 +4021,8 @@
     "trace_map",
     "kappa",
     "metallic",
-    "dickson_tower"
+    "dickson_tower",
+    "markov_cubic"
    ],
    "refs": [
     "B103",
@@ -5618,7 +5647,8 @@
     "amphichiral_cp",
     "torsion",
     "symplectic",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B263",
@@ -6085,7 +6115,8 @@
    "slug": "projective state space",
    "motifs": [
     "trace_map",
-    "golden"
+    "golden",
+    "markov_cubic"
    ],
    "refs": [
     "B26"
@@ -6315,7 +6346,8 @@
     "golden",
     "torsion",
     "quasicrystal",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B164",
@@ -8448,7 +8480,8 @@
     "golden",
     "z3_generation",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B109"
@@ -8565,7 +8598,8 @@
     "golden",
     "z3_generation",
     "amphichiral_cp",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B1",
@@ -9162,7 +9196,8 @@
     "amphichiral_cp",
     "torsion",
     "firewall",
-    "five_web"
+    "five_web",
+    "markov_cubic"
    ],
    "refs": [
     "B147",
@@ -9306,7 +9341,8 @@
     "kappa",
     "dickson_tower",
     "torsion",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B351",
@@ -9328,7 +9364,8 @@
     "torsion",
     "wrt_quantum",
     "lorentzian",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B452",
@@ -9466,7 +9503,8 @@
     "torsion",
     "apolynomial",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B174",
@@ -9697,7 +9735,8 @@
     "torsion",
     "wrt_quantum",
     "firewall",
-    "five_web"
+    "five_web",
+    "markov_cubic"
    ],
    "refs": [
     "B469",
@@ -9721,7 +9760,8 @@
     "amphichiral_cp",
     "torsion",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B467",
@@ -9913,7 +9953,8 @@
     "kappa",
     "metallic",
     "golden",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B1",
@@ -9983,7 +10024,8 @@
     "amphichiral_cp",
     "torsion",
     "symplectic",
-    "apolynomial"
+    "apolynomial",
+    "markov_cubic"
    ],
    "refs": [
     "K024"
@@ -10160,7 +10202,8 @@
     "torsion",
     "symplectic",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B459",
@@ -10208,7 +10251,8 @@
     "quasicrystal",
     "apolynomial",
     "lorentzian",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "P014",
@@ -10232,7 +10276,8 @@
     "wrt_quantum",
     "lorentzian",
     "firewall",
-    "hyperbolicity_split"
+    "hyperbolicity_split",
+    "markov_cubic"
    ],
    "refs": [
     "B221",
@@ -10250,7 +10295,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 8,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B498": {
    "slug": "mixed monoid dynamics",
@@ -10338,7 +10383,8 @@
    "motifs": [
     "kappa",
     "torsion",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B506"
@@ -10368,7 +10414,8 @@
     "golden",
     "torsion",
     "firewall",
-    "five_web"
+    "five_web",
+    "markov_cubic"
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
@@ -10413,7 +10460,8 @@
     "torsion",
     "lorentzian",
     "firewall",
-    "five_web"
+    "five_web",
+    "markov_cubic"
    ],
    "refs": [
     "B506",
@@ -10435,7 +10483,8 @@
     "kappa",
     "eisenstein",
     "wrt_quantum",
-    "lorentzian"
+    "lorentzian",
+    "markov_cubic"
    ],
    "refs": [
     "S063"
@@ -10827,7 +10876,8 @@
     "quasicrystal",
     "wrt_quantum",
     "lorentzian",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B171",
@@ -10971,7 +11021,9 @@
   },
   "B537": {
    "slug": "classical phantom",
-   "motifs": [],
+   "motifs": [
+    "markov_cubic"
+   ],
    "refs": [
     "B545",
     "B547"
@@ -10979,7 +11031,7 @@
    "obstacle": "cancellation",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B538": {
    "slug": "reframe test cycle",
@@ -11129,7 +11181,8 @@
    "slug": "ghost scanner",
    "motifs": [
     "kappa",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B537",
@@ -11258,7 +11311,8 @@
     "golden",
     "torsion",
     "symplectic",
-    "quasicrystal"
+    "quasicrystal",
+    "markov_cubic"
    ],
    "refs": [
     "B534",
@@ -13782,7 +13836,8 @@
     "symplectic",
     "apolynomial",
     "wrt_quantum",
-    "hyperbolicity_split"
+    "hyperbolicity_split",
+    "markov_cubic"
    ],
    "refs": [
     "B59",
@@ -14139,7 +14194,8 @@
     "golden",
     "z3_generation",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B640",
@@ -14684,7 +14740,8 @@
     "eisenstein",
     "golden",
     "symplectic",
-    "apolynomial"
+    "apolynomial",
+    "markov_cubic"
    ],
    "refs": [
     "B0",
@@ -14716,7 +14773,8 @@
     "apolynomial",
     "wrt_quantum",
     "lorentzian",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B685",
@@ -14949,7 +15007,8 @@
     "torsion",
     "apolynomial",
     "wrt_quantum",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B444",
@@ -14963,7 +15022,7 @@
    "obstacle": "measure",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B731": {
    "slug": "object observer noncongruence",
@@ -15662,7 +15721,8 @@
     "amphichiral_cp",
     "wrt_quantum",
     "lorentzian",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B140",
@@ -15678,7 +15738,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B756": {
    "slug": "remaining doors",
@@ -15818,7 +15878,8 @@
     "figure_eight",
     "trace_map",
     "dickson_tower",
-    "eisenstein"
+    "eisenstein",
+    "markov_cubic"
    ],
    "refs": [
     "B264",
@@ -15977,7 +16038,8 @@
    "motifs": [
     "golden",
     "lorentzian",
-    "firewall"
+    "firewall",
+    "markov_cubic"
    ],
    "refs": [
     "B593",
@@ -16400,7 +16462,8 @@
     "trace_map",
     "dickson_tower",
     "eisenstein",
-    "golden"
+    "golden",
+    "markov_cubic"
    ],
    "refs": [
     "B61",
@@ -16416,7 +16479,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 9,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B790": {
    "slug": "maass adjudication",
@@ -17071,7 +17134,9 @@
   },
   "B821": {
    "slug": "lexicon refresh",
-   "motifs": [],
+   "motifs": [
+    "markov_cubic"
+   ],
    "refs": [
     "B537",
     "B770",
@@ -17084,11 +17149,13 @@
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "dead",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B822": {
    "slug": "lexicon gate fix",
-   "motifs": [],
+   "motifs": [
+    "markov_cubic"
+   ],
    "refs": [
     "B537",
     "B679",
@@ -17104,11 +17171,13 @@
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "dead",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B823": {
    "slug": "blind triage",
-   "motifs": [],
+   "motifs": [
+    "markov_cubic"
+   ],
    "refs": [
     "B537",
     "B820",
@@ -17119,7 +17188,47 @@
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
+   "domain": "topology"
+  },
+  "B824": {
+   "slug": "charvar motif",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B537",
+    "B821",
+    "B825"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
    "domain": "dynamics"
+  },
+  "B825": {
+   "slug": "markov motif",
+   "motifs": [
+    "trace_map",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B537",
+    "B806",
+    "B820",
+    "B821",
+    "B822",
+    "B823",
+    "B824",
+    "K001",
+    "K022"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "open",
+   "domain": "topology"
   },
   "B82": {
    "slug": "consolidation",
@@ -17540,7 +17649,8 @@
     "metallic",
     "dickson_tower",
     "eisenstein",
-    "torsion"
+    "torsion",
+    "markov_cubic"
    ],
    "refs": [
     "B89",
@@ -17562,7 +17672,8 @@
     "metallic",
     "dickson_tower",
     "eisenstein",
-    "torsion"
+    "torsion",
+    "markov_cubic"
    ],
    "refs": [
     "B71",

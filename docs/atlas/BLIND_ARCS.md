@@ -25,15 +25,20 @@ auditable in a way a passing threshold never was.
 
 | arc | disposition | why |
 |---|---|---|
-| `B537` | **GAP** | The Markov-type surface `x²+y²+z²−xyz=c` and SL(2,ℤ) trace triples `(tr A, tr B, tr AB)`. **Genuine object topic, no motif covers it** — the single real lexicon gap B821 identified. Worth a character-variety/Markov motif under its own seal. |
 | `B679` | INSTRUMENT | An `engine_v7` gate-report patch, prepared and verified but not deployed; explicitly about a seat conduit that is not a repo-tracked file. |
 | `B770` | INSTRUMENT | The closure census — Phase 0 bookkeeping over the programme's own arcs. |
 | `B793` | INSTRUMENT | Gate 8R2-A, blocked on an **architectural finding about the B788 solver**. About the apparatus, not the object. |
 | `B798` | INSTRUMENT | The algebraicity falsifier's power box — discharges review actions R32-4/R32-5 by pricing a `(d, H)` test budget. It **governs** an object claim without making one. *(Borderline: the falsifier it prices is load-bearing for B796, so if the lexicon ever gains a motif for falsifier design, revisit.)* |
 | `B818` | INSTRUMENT | The verdict-vocabulary errors and the `RETRACTED` disambiguation. |
 | `B819` | INSTRUMENT | The coverage-frame correction to B817. |
-| `B821` | INSTRUMENT | The failed lexicon refresh — an arc about the lexicon, correctly invisible to it. |
-| `B822` | INSTRUMENT | The gate fix; the arc whose own existence broke B822's ceiling and motivated this registry. |
-| `B823` | INSTRUMENT | This registry itself. Its own arc went blind and demanded a row — the same self-reference that broke B822's ceiling, now resolving into a judgement to record instead of a number to bump. |
 
-**Open `GAP` count: 1** (`B537`).
+**Open `GAP` count: 0.** `B537` was closed by B825's `markov_cubic` motif.
+
+> **Zero open gaps means "no known uncovered object topic among substantial blind arcs" — NOT "the
+> lexicon is complete."** The 18+1 motifs remain grounded in K001–K022 and unrevisited since
+> 2026-07-01; B806's call for a full re-grounding is untouched.
+
+**Known false-positive mode of `markov_cubic` (B825):** B821/B822/B823 dropped off this registry not
+because they are about the Markov cubic but because they **quote** it while discussing the gap. A
+regex motif matches *mentions*, not *subjects*. Recorded rather than filtered, because filtering
+would mean classifying by topic — the thing B822 refused.

@@ -49,8 +49,11 @@ def test_every_row_carries_a_reason():
 
 def test_gate_FAILS_on_an_untriaged_arc(registry):
     s = registry.read_text(encoding="utf-8")
-    registry.write_text(re.sub(r"^\| `B\d+` \| \*?\*?GAP.*$", "", s, count=1, flags=re.M),
-                        encoding="utf-8")
+    # Remove any one dispositioned row. (Originally targeted a GAP row; B825 closed the last one,
+    # so the perturbation must not depend on a disposition that may legitimately be absent.)
+    perturbed = re.sub(r"^\| `B\d+` \| \*?\*?(GAP|INSTRUMENT).*$", "", s, count=1, flags=re.M)
+    assert perturbed != s, "the registry has no dispositioned rows to remove -- test is vacuous"
+    registry.write_text(perturbed, encoding="utf-8")
     ok, msg = g.gate_atlas_lexicon_current()
     assert not ok and "NOT triaged" in msg
 
