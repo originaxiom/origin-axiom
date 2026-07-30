@@ -1,5 +1,32 @@
 ### SHAKEDOWN MODE: digits=14, thresholds scaled, results not bankable ###
-=== CELL 9 RUNG (i) v2: target r = 4.900085373 (prereg 3ba81779) ===
+=== CELL 9 RUNG (i) v2: target r = 4.900085373 (prereg v3 169e9042) ===
 P1: PASS (10/10 samples <= 1e-27)
-n = 782 modes, x_cut = 39.9, Y = 0.75, prec = 196 bits
-  [main] iter 0: |g| = 8.67e-19, |dr| = 9.70e-05 (280s)
+n = 782 modes, x_cut = 39.9, Y = 0.75, prec = 446 bits
+normalization mode j0 = 392 = mode (0, 2) (certified max-|a| mode)
+  [j0-check] ||a||_inf = 8.2e-01 (< 1e9) OK
+  [main] iter 0: |g| = 2.13e-07, |dr| = 9.37e-10 (475s)
+  [main] iter 1: |g| = 2.77e-17, |dr| = 1.22e-19 (476s)
+MAIN: r = 4.9000853730625226632310141708705
+GATE: PASS (10 overlap digits)
+  [P4+1e-7] iter 0: |g| = 2.29e-05, |dr| = 1.01e-07 (409s)
+  [P4+1e-7] iter 1: |g| = 4.77e-12, |dr| = 2.10e-14 (436s)
+  [P4-1e-7] iter 0: |g| = 2.25e-05, |dr| = 9.91e-08 (436s)
+  [P4-1e-7] iter 1: |g| = 4.69e-12, |dr| = 2.06e-14 (414s)
+P4: PASS (spread 4.41e-21)
+  [P3] step capped at 0.001
+  [P3] iter 0: |g| = 3.82e+02, |dr| = 1.00e-03 (437s)
+  [P3] step capped at 0.001
+  [P3] iter 1: |g| = 3.78e+02, |dr| = 1.00e-03 (431s)
+  [P3] step capped at 0.001
+  [P3] iter 2: |g| = 3.74e+02, |dr| = 1.00e-03 (417s)
+  [P3] step capped at 0.001
+  [P3] iter 3: |g| = 3.70e+02, |dr| = 1.00e-03 (436s)
+  [P3] step capped at 0.001
+  [P3] iter 4: |g| = 3.66e+02, |dr| = 1.00e-03 (431s)
+P3: PASS (displaced end 0.385 from target)
+stability cert (+5 digits) ...
+  [cert] iter 0: |g| = 6.64e-09, |dr| = 1.00e-09 (2203s)
+  [cert] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
+  [cert] iter 1: |g| = 1.61e-23, |dr| = 2.42e-24 (1598s)
+|dr|_stab = 1.35e-15  (require < 0.00000000001)
+TOTAL 11939s — saved
