@@ -10,15 +10,15 @@ view can quietly imply completeness it does not have.
 
 | layer | count | of | share |
 |---|---|---|---|
-| arcs with `FINDINGS.md` | **741** | — | 100 % |
-| arcs with an authored verdict (W1) | **30** | 741 | 4.0 % |
+| arcs with `FINDINGS.md` | **742** | — | 100 % |
+| arcs with an authored verdict (W1) | **317** | 742 | 42.7 % |
 | classified in `kill_graph` | **217** | — | — |
 | kill records resolving to an arc | **172** | 217 | 79 % |
 | kill records with no arc directory | **45** | 217 | 21 % |
 
 ## Negatives absent from `kill_graph`
 
-Found among the authored arcs: `B333`, `B728`.
+Found among the authored arcs: `B108`, `B110`, `B114`, `B116`, `B119`, `B126`, `B127`, `B129`, `B130`, `B135`, `B139`, `B143`, `B144`, `B145`, `B15`, `B151`, `B167`, `B168`, `B17`, `B170`, `B181`, `B188`, `B189`, `B190`, `B20`, `B202`, `B207`, `B213`, `B217`, `B22`, `B223`, `B230`, `B231`, `B235`, `B24`, `B241`, `B244`, `B246`, `B26`, `B269`, `B280`, `B281`, `B282`, `B283`, `B284`, `B288`, `B292`, `B298`, `B300`, `B31`, `B32`, `B322`, `B333`, `B36`, `B37`, `B39`, `B40`, `B41`, `B42`, `B46`, `B47`, `B728`, `B8`, `B81`, `B82`, `B85`, `B9`, `B96`, `B97`, `B98`, `B99`.
 
 ### Measured (B801), not merely flagged
 
@@ -41,5 +41,5 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
 | stratum | meaning | count | share |
 |---|---|---|---|
 | **A** | explicit `## Verdict` block — directly extractable | 184 | 24.8 % |
-| **B** | no block, but the title carries the verdict | 546 | 73.7 % |
+| **B** | no block, but the title carries the verdict | 547 | 73.7 % |
 | **C** | neither — genuinely hard, needs a full read | 11 | 1.5 % |

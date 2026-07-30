@@ -1,0 +1,10 @@
+{
+ "id": "B171",
+ "verdict": "OPEN",
+ "claim_one_line": "Phase-0 baselines show the woven metallic spectrum inherits both rank-2 ladders and quantifies the density trap, leaving the rank-3 combination gap unsettled.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

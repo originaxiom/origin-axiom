@@ -1,0 +1,10 @@
+{
+ "id": "B300",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

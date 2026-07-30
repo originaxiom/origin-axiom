@@ -1,0 +1,10 @@
+{
+ "id": "B122",
+ "verdict": "PROVED",
+ "claim_one_line": "The tower equals Sym^n(W) + (Sym^{n-3}(W) - W) for W = V+1, a genuine GL(2)-module identity that unifies B121's external det=-1 action.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

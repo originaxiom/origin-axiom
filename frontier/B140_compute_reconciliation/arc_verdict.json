@@ -1,0 +1,10 @@
+{
+ "id": "B140",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The chirality firewall is genus-general (the genus-2 escape hope is refuted by the orientation-reversal theorem), and phi-discrete versus phi-squared-bundle is the principled split.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

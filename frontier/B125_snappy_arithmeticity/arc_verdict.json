@@ -1,0 +1,10 @@
+{
+ "id": "B125",
+ "verdict": "PROVED",
+ "claim_one_line": "SnapPy invariant trace fields show arithmeticity selects m=1 (Q(sqrt-3)) and m=2 (Q(i)) and kills m>=3, overturning the unique-m=1 reading.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B123",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

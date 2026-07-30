@@ -1,0 +1,10 @@
+{
+ "id": "B63",
+ "verdict": "PROVED",
+ "claim_one_line": "The SL(4) metallic fixed-line Jacobian factors over Z[m] into Dickson factors char(M^k) with m-independent structure, L_k=tr(M^k).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

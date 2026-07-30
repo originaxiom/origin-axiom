@@ -1,0 +1,10 @@
+{
+ "id": "B181",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition), so it is scale-free rather than scale-generating.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

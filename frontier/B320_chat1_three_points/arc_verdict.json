@@ -1,0 +1,10 @@
+{
+ "id": "B320",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Refuted the A+B+C fusion (Z/2 is not Z/3; democratic rank-1 needs S_3) and found the mod-7/Fano/G2 chain fiber-generic (Heawood 7, 2T not S_4).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

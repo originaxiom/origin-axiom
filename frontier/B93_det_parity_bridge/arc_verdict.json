@@ -1,0 +1,10 @@
+{
+ "id": "B93",
+ "verdict": "PROVED",
+ "claim_one_line": "det=-1 is exactly the condition producing the trace-map tower's sign/parity sectors, and parity (contragredient m->-m) is distinct from the Galois involution.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

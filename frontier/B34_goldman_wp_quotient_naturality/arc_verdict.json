@@ -1,0 +1,10 @@
+{
+ "id": "B34",
+ "verdict": "PROVED",
+ "claim_one_line": "The central-sign action is Poisson for the Fricke-Goldman bracket, so the sign quotient is natural and the anti-Poisson half-step descends.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

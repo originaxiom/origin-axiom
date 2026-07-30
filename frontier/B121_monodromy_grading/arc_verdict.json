@@ -1,0 +1,10 @@
+{
+ "id": "B121",
+ "verdict": "PROVED",
+ "claim_one_line": "The tower's SL(2)-action is the external det=-1 GL(2,Z) monodromy, inequivalent to Kostant's principal sl(2) for all n>=3 via the odd-Sym parity obstruction.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

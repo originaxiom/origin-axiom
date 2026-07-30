@@ -1,0 +1,10 @@
+{
+ "id": "B193",
+ "verdict": "PROVED",
+ "claim_one_line": "Chirality and the SU(2)_k eigenvalue field are independent (all four combinations occur), and field-fusion to Q(zeta12) is quantum while classical trace-fields stay disjoint.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

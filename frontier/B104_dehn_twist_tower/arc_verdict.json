@@ -1,0 +1,10 @@
+{
+ "id": "B104",
+ "verdict": "PROVED",
+ "claim_one_line": "The Dehn-twist composition proves the explicit SL(4) catalog for metallic and non-metallic monodromies, and localizes the SL(5) failure to eps-series gauge degeneracy (21/24).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

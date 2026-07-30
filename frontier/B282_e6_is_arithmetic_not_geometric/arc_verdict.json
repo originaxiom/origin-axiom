@@ -1,0 +1,10 @@
+{
+ "id": "B282",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Almost everything in the E₆ programme is generic to any hyperbolic knot; only the arithmetic atom (4₁ unique arithmetic knot, ℚ(√−3)↠2T) is object-specific.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B321",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified |cusp shape|^2 = h(E6) = 12, giving filling form p^2+12q^2; refuted the pi/6-core-length and Z/3-democracy splices; sharpened the multiplicity gate.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

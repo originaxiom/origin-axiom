@@ -1,0 +1,10 @@
+{
+ "id": "B147",
+ "verdict": "PROVED",
+ "claim_one_line": "The chiral mirror pair RRL/RLL is fully arithmetic (Q(sqrt-7), integral traces, integer Bianchi ratio), so arithmetic chiral bundles exist.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B145",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

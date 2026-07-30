@@ -1,0 +1,10 @@
+{
+ "id": "B253",
+ "verdict": "PROVED",
+ "claim_one_line": "Sage-verified that E6 is the only chirality-capable (complex-fundamental) end of the B248 transition, and corrected B252's overstated 'cannot source asymmetry'.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B252",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

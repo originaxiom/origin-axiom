@@ -1,0 +1,10 @@
+{
+ "id": "B137",
+ "verdict": "PROVED",
+ "claim_one_line": "The SL(3) sealing extends to silver m=2: zero irreducible off-sublocus fixed points escape Q(i), once the reducible-locus artifact is filtered out.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

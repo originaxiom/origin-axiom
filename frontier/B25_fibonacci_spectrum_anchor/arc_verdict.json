@@ -1,0 +1,10 @@
+{
+ "id": "B25",
+ "verdict": "OPEN",
+ "claim_one_line": "Finite Fibonacci-Hamiltonian approximants at lambda/h=1 match gap labels and land on I=1/4, but the coupling stays MOTIVATED, not derived.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

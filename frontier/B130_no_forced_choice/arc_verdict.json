@@ -1,0 +1,10 @@
+{
+ "id": "B130",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No trace-ring invariant is both discretely multivalued and unsymmetrizable: kappa is free on the fixed locus, so a single seed cannot force any choice.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

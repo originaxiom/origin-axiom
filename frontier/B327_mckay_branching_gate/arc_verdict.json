@@ -1,0 +1,10 @@
+{
+ "id": "B327",
+ "verdict": "PROVED",
+ "claim_one_line": "Proved n1=n2 in the 27|2T branching is forced by self-duality rather than integer spin, reducing the hierarchy CRUX to whether 2T embeds quaternionically in E6.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

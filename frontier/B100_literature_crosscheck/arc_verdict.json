@@ -1,0 +1,10 @@
+{
+ "id": "B100",
+ "verdict": "PROVED",
+ "claim_one_line": "Two independent published frameworks (Ptolemy variety, Baker-Petersen twisted Alexander) agree with the repo's SL(3) figure-eight character variety and geometric-rep Jacobian.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

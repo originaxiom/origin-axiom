@@ -1,0 +1,10 @@
+{
+ "id": "B56",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The figure-eight / I=1/4 bridge is dead: diagonal reps give I in {4, -17/2 +/- 7sqrt5/2}, and the c=1 Eisenstein match is cyclotomic coincidence.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

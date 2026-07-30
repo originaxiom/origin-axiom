@@ -1,0 +1,10 @@
+{
+ "id": "B251",
+ "verdict": "PROVED",
+ "claim_one_line": "H₁(Mₘ)=ℤ⊕(ℤ/m)² forces only m=1 to be a knot complement, so the E6↔E8 geometric transition is golden-specific.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

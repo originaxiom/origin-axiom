@@ -1,5 +1,16 @@
 # Changelog
 
+## B810 — W1 wave 1: 287 verdicts authored, coverage **4.1 % → 42.7 %**
+- 12 parallel readers × 25 arcs + a 3-agent audit, gated on B809's measured **κ = 0.842**. **15 agents, 0 errors, 0 empty results.** Readers received **arc IDs only** and resolved their own paths.
+- **Written 287** · skipped-no-directory 7 · skipped-already-authored 3 (never overwritten) · **withdrawn after review 3**. Coverage **30 → 317 of 743**. Distribution: PROVED 182 · NEGATIVE 94 · OPEN 22 · RETRACTED 2; 13 `instrument`; **28 `supersedes` links — the first of that kind in the corpus**.
+- **THE HONESTY TEST, supplied by cc's own error.** cc hand-transcribed 300 IDs and **got 9 wrong**. Six pointed at arcs that **do not exist** — and **all six came back `OPEN` / "directory not found"**, with claims stating plainly that no content existed. **Not one reader invented an arc**, under a live 9-in-300 fault rate.
+- **A third case, withdrawn rather than kept**: three IDs pointed at directories with **no `FINDINGS.md`** but real content elsewhere (`FINDINGS_E.md`, a script, a README). The readers found it and authored honest, substantive verdicts. **Resourceful, not fabricated — and still outside the declared method.** The three were **deleted**, because the wave's provenance claim ("every verdict authored from a FINDINGS.md") must stay true; keeping good work that entered through an error would have quietly falsified it.
+- **The audit found nothing, and that is weak evidence** — 36/36 defensible, 0 disputed. Twice weak: the script sampled the **first three** of each slice, not a random three, so it drew the earliest and most template-like arcs; and **an audit that disputes nothing is the vacuity pattern** flagged three times this session. Read as *"no defect found by a weak instrument."*
+- **The predicted conservatism offset is visible but CONFOUNDED**: per-slice PROVED-rates span **0.364 → 0.917 (spread 0.553)**. But slices are **chronological**, mixing genuine era differences with reader bias. **This design cannot separate them** — recorded unresolved; wave 2 needs **overlapping** slices.
+- Forcing graph: arcs with no verdict **704 → 423**; faces with no proved arc **6 of 11 → 1** (`emittance-lengths`, 2 arcs). `arcs on no face` unchanged at 573, as expected — face-attachment is a separate axis.
+- 19/19 gates. Nothing to `CLAIMS.md`.
+
+
 ## B809 — the κ gate, finally run: **0.842 PASS**, and the residual localises to two definitional gaps
 - The compaction masterplan set W1's gate at **Cohen's κ ≥ 0.75** and **it was never measured** — cc is one seat and cannot disagree with itself. cc noted that and proceeded anyway: **a declared criterion that was never run**, the exact class this session spent the day cataloguing.
 - **Two independent seats, same 20 unverdicted arcs** (seed 807 fixed before the draw, 5 per chronological quartile), same vocabulary, **blind to each other**.

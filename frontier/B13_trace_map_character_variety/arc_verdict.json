@@ -1,0 +1,10 @@
+{
+ "id": "B13",
+ "verdict": "PROVED",
+ "claim_one_line": "The punctured-torus trace-map linearization at (1,1,1) contains the A-sector as an exact rank-2 lattice-conjugate block with Fricke-Vogt preserved.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

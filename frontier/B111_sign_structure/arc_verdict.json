@@ -1,0 +1,10 @@
+{
+ "id": "B111",
+ "verdict": "PROVED",
+ "claim_one_line": "The tower's sign structure equals the all-heights opposition-involution closed form plus exactly one degree=rank promotion char(M)->char(M^n).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

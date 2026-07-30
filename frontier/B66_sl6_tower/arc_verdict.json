@@ -1,0 +1,10 @@
+{
+ "id": "B66",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "At SL(6) the |k|=3 Dickson multiplicity is exactly 2, refuting the max(n-d,1) multiplicity formula for the tower.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

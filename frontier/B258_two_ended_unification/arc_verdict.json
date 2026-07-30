@@ -1,0 +1,10 @@
+{
+ "id": "B258",
+ "verdict": "PROVED",
+ "claim_one_line": "Resolved H27: the trace field ℚ(√−3) is figure-eight-specific and the discriminant field ℚ(√(m²+4)) metallic, coinciding only at m=1; the quantum face splits into the same two ends.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

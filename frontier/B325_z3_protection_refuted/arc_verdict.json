@@ -1,0 +1,10 @@
+{
+ "id": "B325",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Refuted the claimed Z/3-protection of the two light eigenvalues: they are distinct 1-dim irreps a Z/3-invariant cubic can split, so the CRUX stays at Level 3.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

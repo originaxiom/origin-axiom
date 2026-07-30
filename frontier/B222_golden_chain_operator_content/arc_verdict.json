@@ -1,0 +1,10 @@
+{
+ "id": "B222",
+ "verdict": "PROVED",
+ "claim_one_line": "Momentum-resolved exact diagonalization recovers the full tricritical-Ising primary content including the h=3/2 supercurrent, confirming the golden chain's emergent N=1 supersymmetry.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

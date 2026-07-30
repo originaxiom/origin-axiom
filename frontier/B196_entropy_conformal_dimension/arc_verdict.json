@@ -1,0 +1,10 @@
+{
+ "id": "B196",
+ "verdict": "PROVED",
+ "claim_one_line": "The metallic bundle monodromy's c=1 conformal dimension equals minus its squared topological entropy over 2pi: Delta = -(ln lambda_m/pi)^2, exact.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

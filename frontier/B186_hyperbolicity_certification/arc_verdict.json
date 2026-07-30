@@ -1,0 +1,10 @@
+{
+ "id": "B186",
+ "verdict": "PROVED",
+ "claim_one_line": "The off-axis kappa<2 hyperbolicity hypothesis is certified by three independent diagnostics, the escape rate validated on the Damanik-Gorodetski-proven kappa>2 ground truth.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

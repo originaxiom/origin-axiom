@@ -1,0 +1,10 @@
+{
+ "id": "B324",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified exactly in Z[omega] that commensurator-conjugate generations give a Z/3-circulant trace matrix with Eisenstein coefficient omega and degenerate light eigenvalues - structure, not values.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

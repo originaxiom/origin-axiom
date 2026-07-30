@@ -1,0 +1,10 @@
+{
+ "id": "B305",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified E6 to SU(3)^3 trinification grading at the Eisenstein eigenvalue omega, tying the object's sqrt(-3) arithmetic to the breaking; the saddle is SU(2)^3.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

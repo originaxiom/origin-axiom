@@ -1,0 +1,10 @@
+{
+ "id": "B141",
+ "verdict": "PROVED",
+ "claim_one_line": "The phi-fixed principal tower is reducible for all n>=3 by Q8 finiteness, while the phi-squared geometric tower stays irreducible in Q(sqrt-3): finiteness versus density splits S031.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B140",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

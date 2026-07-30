@@ -1,0 +1,10 @@
+{
+ "id": "B168",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Omega accretion is a genuine non-i.i.d. generative process, but every emergent rate is dimensionless, so the ensemble yields no scale.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

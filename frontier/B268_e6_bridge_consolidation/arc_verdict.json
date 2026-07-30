@@ -1,0 +1,10 @@
+{
+ "id": "B268",
+ "verdict": "PROVED",
+ "claim_one_line": "Consolidated B262–B267 into wall map v2 — wall #1 dissolved, wall #2 reduced to a single physics conjecture — with an audit of every deferred sub-item.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": "B259",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

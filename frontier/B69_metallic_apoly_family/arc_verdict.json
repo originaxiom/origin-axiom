@@ -1,0 +1,10 @@
+{
+ "id": "B69",
+ "verdict": "PROVED",
+ "claim_one_line": "The metallic trace-relation curve family F_m extends the figure-eight A-polynomial, with cusps at torsion values 2cos(pi/k), k in {3..m+2}, k=m mod 2, verified m=1..6.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

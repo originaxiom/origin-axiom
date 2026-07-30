@@ -1,0 +1,10 @@
+{
+ "id": "B187",
+ "verdict": "PROVED",
+ "claim_one_line": "Exact diagonalization shows the open metallic collective stays thresholdless at all interaction strengths, while the localized control keeps a finite protective threshold.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

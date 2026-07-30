@@ -1,0 +1,10 @@
+{
+ "id": "B301",
+ "verdict": "PROVED",
+ "claim_one_line": "Complexity of the 27 filters E₆'s maximal subgroups to the chiral set {SO(10), SU(6)×SU(2), SU(3)³} — not a unique SO(10) — and the kept SU(3)³ is B299's trinification triality.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

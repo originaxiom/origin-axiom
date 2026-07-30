@@ -1,0 +1,10 @@
+{
+ "id": "B185",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Cusp-gluing selects continuum to discrete but never to a forced-unique value, and 1-cusp metallic units cap all-unit interaction at pairs.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

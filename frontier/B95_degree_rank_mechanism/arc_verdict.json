@@ -1,0 +1,10 @@
+{
+ "id": "B95",
+ "verdict": "PROVED",
+ "claim_one_line": "The principal cusp spectrum is forced (2cos=3-n), degenerates to a reducible dihedral rep at n=5, and is impossible at n>=6.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B28",
+ "verdict": "PROVED",
+ "claim_one_line": "The trace map is equivariant under central-lift sign actions preserving Fricke-Vogt, making B26's sign flip legitimate while the antipodal map is not.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B119",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "k=n is not forced by M^k centrality; the positive peripheral exponent mechanism does not close, and the principal degree=rank object is absent for n>=5.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

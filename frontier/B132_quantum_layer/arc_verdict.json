@@ -1,0 +1,10 @@
+{
+ "id": "B132",
+ "verdict": "PROVED",
+ "claim_one_line": "The SU(2)_k quantum layer: field content is word-spin-mod-4 quantum-group arithmetic, m=1 is uniquely coherent, vanishing period is |O_K^x|/2, and Lee-Yang is the native physics.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

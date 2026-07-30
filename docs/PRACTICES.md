@@ -85,6 +85,35 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 
 ---
 
+## The arc-verdict vocabulary (W1) — four values, and the two boundary rules
+
+Measured at **κ = 0.842** across two blind seats (B809), which passed the masterplan's sealed 0.75
+gate. **Both disagreements were vocabulary boundaries, not reading errors**, and both are closed
+here — the repairs would have taken that sample to κ = 1.0.
+
+| verdict | meaning |
+|---|---|
+| **PROVED** | the arc's headline is a positive result that was established |
+| **NEGATIVE** | the headline is that a claim, candidate or mechanism was killed, refuted, found null, or shown not to hold |
+| **OPEN** | the arc advanced something but **settled nothing** |
+| **RETRACTED** | the headline is the withdrawal of a previously banked result |
+
+Plus `instrument: true` when the product is a tool/compiler/ledger/census rather than a result.
+
+**Boundary rule 1 — a correction that also proves is PROVED.** `RETRACTED` applies only when the
+withdrawal is the arc's **whole** content. If a new positive result supersedes an old one, the
+verdict is `PROVED` and the withdrawal is recorded in `supersedes`. *(B809's B212 disagreement.)*
+
+**Boundary rule 2 — the verdict labels what the arc ESTABLISHED, not whether the programme's target
+was reached.** An exact result inside a firewalled arc is `PROVED` even when its destination bar is
+explicitly not cleared. `OPEN` is reserved for arcs that settled **nothing**. *(B809's B420
+disagreement.)*
+
+**Known systematic effect, to be watched at scale:** both B809 disagreements ran the **same
+direction** — one seat labelled PROVED where the other was more cautious. With n=2 it cannot be
+quantified, but a **seat-to-seat conservatism offset** is predicted, and a fan-out should report its
+per-seat verdict distribution so the offset is measured rather than absorbed.
+
 ## Judgement practices — the ones that cannot be gated
 
 These are real and they are the most valuable, but **no gate can check them**. Pretending otherwise

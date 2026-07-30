@@ -1,0 +1,10 @@
+{
+ "id": "B32",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The A1-A7-plus-exchange chain does not select I=1/4; the missing ingredient is isolated as the A-sector self-similarity selector S1.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

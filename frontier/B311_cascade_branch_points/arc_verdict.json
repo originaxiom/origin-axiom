@@ -1,0 +1,10 @@
+{
+ "id": "B311",
+ "verdict": "PROVED",
+ "claim_one_line": "Trinification sits at a genuine irreducible A-polynomial branch point (upgrading B305), but N=2 is reducible and N>=4 off-curve, so the chain is not realized.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B310",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B211",
+ "verdict": "PROVED",
+ "claim_one_line": "The figure-eight non-abelian character variety is birational to elliptic curve 40a1 (point counts p-1-a_p exact for 23 primes); metallic bundles are Borromean fillings.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

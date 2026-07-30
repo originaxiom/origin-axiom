@@ -1,0 +1,10 @@
+{
+ "id": "B30",
+ "verdict": "PROVED",
+ "claim_one_line": "The Fibonacci trace map descends polynomially to canonical PSL sign-quotient coordinates (u,v,w,r), where the half-return becomes a literal period-3 orbit.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

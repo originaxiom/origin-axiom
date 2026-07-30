@@ -1,0 +1,10 @@
+{
+ "id": "B241",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Gang–Yonekura twist-knot SU(3) flavor symmetry is not the level-rank gauge SU(3)₂: different type (flavor vs gauge) and specificity (twist-universal vs figure-eight-specific).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

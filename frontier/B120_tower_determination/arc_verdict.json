@@ -1,0 +1,10 @@
+{
+ "id": "B120",
+ "verdict": "PROVED",
+ "claim_one_line": "The trivial-point tower is fixed by (n; trace, det) alone; the height-count closed form and the forced doubling range {2..n-3} are established.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

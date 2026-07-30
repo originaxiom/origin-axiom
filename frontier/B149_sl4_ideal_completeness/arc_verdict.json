@@ -1,0 +1,10 @@
+{
+ "id": "B149",
+ "verdict": "PROVED",
+ "claim_one_line": "B89's posited family is the complete irreducible component for spectrum {1,1,w,w2}, making M^4=L unconditional on the genuine locus.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

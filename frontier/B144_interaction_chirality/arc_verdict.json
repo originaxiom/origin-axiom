@@ -1,0 +1,10 @@
+{
+ "id": "B144",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Cusp-glued composites are mirror-closed (verified GL(2,Z) identity), so seed-heterogeneity cannot break R-L symmetry; the naive chirality-crack targets are vacuous.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

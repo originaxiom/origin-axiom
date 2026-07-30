@@ -1,0 +1,10 @@
+{
+ "id": "B156",
+ "verdict": "PROVED",
+ "claim_one_line": "Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L10 counts reconfirmed.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

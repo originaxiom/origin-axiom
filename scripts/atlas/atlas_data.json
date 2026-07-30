@@ -16870,6 +16870,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B810": {
+   "slug": "verdict wave1",
+   "motifs": [
+    "kappa"
+   ],
+   "refs": [
+    "B263",
+    "B68",
+    "B73",
+    "B809"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B81": {
    "slug": "sl5 adproof",
    "motifs": [

@@ -1,0 +1,10 @@
+{
+ "id": "B117",
+ "verdict": "PROVED",
+ "claim_one_line": "The tower is one object, the Sym two-sequence, whose shape follows from a dimension identity; the 'promotion' is really a Sym-1 absence.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B111",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

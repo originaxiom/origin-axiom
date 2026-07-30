@@ -1,0 +1,10 @@
+{
+ "id": "B48",
+ "verdict": "PROVED",
+ "claim_one_line": "The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backed integer fixed-line splitting.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

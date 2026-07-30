@@ -1,0 +1,10 @@
+{
+ "id": "B41",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "A bounded projective census shows the B26 period-3 orbit is the simplest one-parameter family, but c stays free, so it does not select I=1/4.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

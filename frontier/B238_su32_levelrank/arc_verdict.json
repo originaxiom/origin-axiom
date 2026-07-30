@@ -1,0 +1,10 @@
+{
+ "id": "B238",
+ "verdict": "PROVED",
+ "claim_one_line": "The figure-eight's WRT invariant coincides exactly at −1/φ across the level-rank pair SU(2)₃↔SU(3)₂ (shared κ=5), but only for the figure-eight.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

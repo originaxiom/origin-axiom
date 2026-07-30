@@ -1,0 +1,10 @@
+{
+ "id": "B323",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified the four-level map: Z/3 exists only at the E6 gauge level and the commensurator, and they are distinct; the omega-circulant Yukawa is tautological and unmatched.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

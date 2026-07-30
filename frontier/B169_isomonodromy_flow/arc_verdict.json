@@ -1,0 +1,10 @@
+{
+ "id": "B169",
+ "verdict": "PROVED",
+ "claim_one_line": "A working Schlesinger/Painleve-VI flow is built and verified monodromy-preserving, carrying metallic dynamical degree lambda_m^2, correcting B164's orbit-norm proxy.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B164",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

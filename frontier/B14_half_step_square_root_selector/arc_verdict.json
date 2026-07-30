@@ -1,0 +1,10 @@
+{
+ "id": "B14",
+ "verdict": "PROVED",
+ "claim_one_line": "F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B13",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B19",
+ "verdict": "PROVED",
+ "claim_one_line": "Three exchange conditions have identical solution sets giving exactly plus/minus P, while four weaker formulations leave many candidates.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B208",
+ "verdict": "PROVED",
+ "claim_one_line": "The WRT level-period and the congruence shadow read one invariant det(gamma+I)=m^2+4: the field radicand squarefree(m^2+4) always divides P(m), proved.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

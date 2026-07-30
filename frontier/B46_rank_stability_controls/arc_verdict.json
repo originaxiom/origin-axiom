@@ -1,0 +1,10 @@
+{
+ "id": "B46",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian while t^2-4t+1 does not: higher rank is consistent with S1 but does not derive it.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

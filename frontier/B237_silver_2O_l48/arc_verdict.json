@@ -1,0 +1,10 @@
+{
+ "id": "B237",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "GAP shows silver's π₁ has no 2O quotient (only S₄), and chat-1's 'all metallic bundles carry 2T and 2I' is refuted — quotients are manifold-specific.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B229",
+ "verdict": "PROVED",
+ "claim_one_line": "The tricritical Ising has two distinct 3d-3d bulk realizations — ordinary Seifert over S²(3,4,5) (|H₁|=83) and super over S²(3,3,5) (|H₁|=66).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

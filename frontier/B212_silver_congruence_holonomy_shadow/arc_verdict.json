@@ -1,0 +1,10 @@
+{
+ "id": "B212",
+ "verdict": "PROVED",
+ "claim_one_line": "Computed the metallic congruence/monodromy shadow and proved R^m L^m = I mod p iff p=2 with m even, correcting the assumed silver framing.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B210",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

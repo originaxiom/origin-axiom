@@ -5,20 +5,197 @@
 
 # Arc verdict ledger (generated)
 
-30 of 741 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+317 of 742 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (18)
+## PROVED (195)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
+| `B13` | The punctured-torus trace-map linearization at (1,1,1) contains the A-sector as an exact rank-2 lattice-conjugate block with Fricke-Vogt preserved. |  | 0 |
+| `B14` | F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b. |  | 0 |
+| `B16` | The record-swap P is unique up to sign as the primitive-pair exchange involution, forced by (LX)^2=A but not by axioms A1-A6. |  | 0 |
+| `B18` | The Fibonacci trace map is the canonical functorial trace lift of the half-step automorphism, with Fricke-Vogt preserved and parity resolving at the A level. |  | 0 |
+| `B19` | Three exchange conditions have identical solution sets giving exactly plus/minus P, while four weaker formulations leave many candidates. |  | 0 |
+| `B21` | Under the Goldman/Weil-Petersson bracket from Fricke-Vogt, the half-step trace map is anti-Poisson and its square is Poisson. |  | 0 |
+| `B27` | The exact eight-dimensional SL(3) Fibonacci trace lift retains the A quadratic sector and splits into symmetric/antisymmetric inverse-trace blocks. |  | 0 |
+| `B28` | The trace map is equivariant under central-lift sign actions preserving Fricke-Vogt, making B26's sign flip legitimate while the antipodal map is not. |  | 0 |
+| `B30` | The Fibonacci trace map descends polynomially to canonical PSL sign-quotient coordinates (u,v,w,r), where the half-return becomes a literal period-3 orbit. |  | 0 |
+| `B33` | SL(2) and SL(3) trace-map Jacobian spectra decompose exactly as symmetric powers of the half-step eigenvalues (Sym^2; Sym^3+Sym^2+trivial). |  | 0 |
+| `B34` | The central-sign action is Poisson for the Fricke-Goldman bracket, so the sign quotient is natural and the anti-Poisson half-step descends. |  | 0 |
+| `B35` | The half-step action on central signs has order 3 over F_2, explaining the order-3 projective return via lift-sign topology. |  | 0 |
+| `B48` | The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backed integer fixed-line splitting. |  | 0 |
+| `B50` | Assembles PC12 into a five-theorem internal draft-note skeleton, completing the path from certificates through proof modules to a paper candidate. | yes | 0 |
+| `B51` | With m symbolic the c=3 fixed-line Jacobian commutes with the exchange involution and block-diagonalizes into two 4-dim sectors with SymPy-verified characteristic polynomials. |  | 0 |
+| `B54` | Exchange commutation [J(m,c),P]=0 holds with c symbolic, generalizing the c=3 block-diagonalization to the entire fixed line; records the c=1 Eisenstein/golden twins. |  | 1 |
+| `B57` | Classifies integer splitting of the antisymmetric fixed-line quartic for m=1..6 (c=1,3 universal plus m-dependent extras) and kills the class-number coincidence. |  | 0 |
+| `B59` | Determines the SL(4) fixed-line spectrum numerically (five char(M^k), a new sign sector char(-M^2), degree-3 parity), refuting PC12's (n^2-1-parity)/2 prediction. |  | 0 |
+| `B60` | Establishes the empirical cross-n tower map for n=3,4: M-powers climb and densify, a sign sector appears at n=4, and the parity block grows. |  | 0 |
+| `B62` | The exchange involution is the opposition involution theta=-w0; its height-2 root-space split identifies the 2 unresolved SL(5) modes as char(M^2), completing the degree-24 factorization. |  | 1 |
+| `B63` | The SL(4) metallic fixed-line Jacobian factors over Z[m] into Dickson factors char(M^k) with m-independent structure, L_k=tr(M^k). |  | 1 |
+| `B64` | The k(alpha) sector-assignment is proven symbolically: even-|k| char(M^k) is P-symmetric, odd-|k| P-antisymmetric, via depth-n CH plus Dickson parity. |  | 1 |
+| `B65` | The full 15x15 SL(4) fixed-line Jacobian J(m) is fixed exactly over Z[m] and its char poly factors directly into the seven Dickson factors. |  | 1 |
+| `B69` | The metallic trace-relation curve family F_m extends the figure-eight A-polynomial, with cusps at torsion values 2cos(pi/k), k in {3..m+2}, k=m mod 2, verified m=1..6. |  | 0 |
+| `B70` | The two-block trace-ring obstruction's non-separable content is a single rank-1 coupling a*b*tr(X^2) equal to the e2 invariant, with closure bounded at bidegree (3,3). |  | 0 |
+| `B74` | The W_N charge-conjugation grading of spin-s currents and the Dickson P-grading of char(M^k) are literally the same involution -w0 of A_{n-1}. |  | 1 |
+| `B75` | degree=rank is a two-parameter (m,n) phenomenon: M^3=L holds on the m=3 metallic bundle as well as the figure-eight, not a figure-eight accident. |  | 1 |
+| `B76` | The metallic cusp k-set equals the SU(2) quantum-group root-of-unity level set: 2cos(pi/k)=[2]_q at q=e^{i pi/k}, order-2k torsion on both sides. |  | 1 |
+| `B77` | degree=rank sharpens to the signed scalar-matrix law [A,B]=(-1)^{n-1} mu^n, while the A-to-D unification with the Dickson spectrum is refuted. |  | 1 |
+| `B79` | The (m,n) degree table shows d=rank on every cell the rep-search reaches (m=1 at n=3,4; m=3 at n=3), with no cell contradicting it. | yes | 1 |
+| `B80` | The SL(4) metallic tower is established from first principles: an exact F_p/CRT-reconstructed J(m) whose char poly factors symbolically into the Dickson catalog. |  | 1 |
+| `B83` | The SL(n) figure-eight Dehn-filling A-polynomial family is L=(-1)^{n-1}M^n on the principal component, with the SL(4) member L=-M^4 new. |  | 1 |
+| `B88` | The SL(4) Dehn-filling census finds exactly two components over the spectra searched, degrees {3,4}, with degree (not the scalar c) the robust invariant. | yes | 1 |
+| `B92` | Metallic means are exactly the period-1 continued-fraction (det=-1) hyperbolic classes; m is free, m=1 selected only by the systole metric. |  | 1 |
+| `B93` | det=-1 is exactly the condition producing the trace-map tower's sign/parity sectors, and parity (contragredient m->-m) is distinct from the Galois involution. |  | 1 |
+| `B94` | The Dickson catalog survives outside the metallic slice while every sign/parity sector is det=-1-specific, splitting tower and degree=rank into two problems. |  | 1 |
+| `B95` | The principal cusp spectrum is forced (2cos=3-n), degenerates to a reducible dihedral rep at n=5, and is impossible at n>=6. |  | 1 |
+| `B100` | Two independent published frameworks (Ptolemy variety, Baker-Petersen twisted Alexander) agree with the repo's SL(3) figure-eight character variety and geometric-rep Jacobian. |  | 1 |
+| `B101` | V0 is the Fuchsian locus of the SL(3,R) Hitchin component, with a 5-dimensional cubic-differential deformation family off it that stays Anosov. |  | 1 |
+| `B102` | Every irreducible SL(3) figure-eight character is Case I or trB=trB-inverse=1; W1/W2 are excluded from the Hitchin component by ellipticity, not complexity. |  | 1 |
+| `B103` | The tower Jacobian is a GL(2,Z) representation whose character is a class function (all n), with an exact constructive Sym module-isomorphism at n=3,4. |  | 1 |
+| `B104` | The Dehn-twist composition proves the explicit SL(4) catalog for metallic and non-metallic monodromies, and localizes the SL(5) failure to eps-series gauge degeneracy (21/24). |  | 1 |
+| `B106` | Dehn-filling fixed points are partially elliptic with root-of-unity neutral eigenvalues, and degree=rank holds eigenvector-by-eigenvector as L_i = c M_i^k. |  | 1 |
+| `B109` | The void is a (2,1) saddle of kappa whose linearization has Lyapunov rates ±4log(phi) and a center manifold equal to the tower's parity sector. |  | 1 |
+| `B111` | The tower's sign structure equals the all-heights opposition-involution closed form plus exactly one degree=rank promotion char(M)->char(M^n). |  | 1 |
+| `B112` | The opposition involution acts on height-h A(n-1) root spaces as a reversal, giving ceil/floor multiplicities for all n by an elementary root-system lemma. |  | 1 |
+| `B113` | The proved closed form determines the SL(5) sign sectors at heights 2-4 by theorem and confines degree=rank to the height-1/top-power interface. |  | 1 |
+| `B117` | The tower is one object, the Sym two-sequence, whose shape follows from a dimension identity; the 'promotion' is really a Sym-1 absence. |  | 1 |
+| `B118` | The theta=-w0 fixed-root sign is (-1)^(h+1), proved symbolically and verified for n<=12; B112's assumed uniform +1 holds only for odd h. |  | 0 |
+| `B120` | The trivial-point tower is fixed by (n; trace, det) alone; the height-count closed form and the forced doubling range {2..n-3} are established. |  | 0 |
+| `B121` | The tower's SL(2)-action is the external det=-1 GL(2,Z) monodromy, inequivalent to Kostant's principal sl(2) for all n>=3 via the odd-Sym parity obstruction. |  | 0 |
+| `B122` | The tower equals Sym^n(W) + (Sym^{n-3}(W) - W) for W = V+1, a genuine GL(2)-module identity that unifies B121's external det=-1 action. |  | 0 |
+| `B123` | The figure-eight's regular triangulation shape e^{i pi/3} gives trace field Q(sqrt-3) and arithmeticity, offered as a third independent m=1 selection criterion. |  | 0 |
 | `B124` | Reciprocal (lambda,1/lambda) eigenvalue pairing is a generic symplectic fact; exactly one residue is metallic-specific. |  | 0 |
+| `B125` | SnapPy invariant trace fields show arithmeticity selects m=1 (Q(sqrt-3)) and m=2 (Q(i)) and kills m>=3, overturning the unique-m=1 reading. |  | 0 |
+| `B131` | Gluing two distinct metallic seeds along cusp tori intersects their A-polynomial curves in finitely many points, collapsing the free kappa into a discrete internal fork. |  | 1 |
+| `B132` | The SU(2)_k quantum layer: field content is word-spin-mod-4 quantum-group arithmetic, m=1 is uniquely coherent, vanishing period is |O_K^x|/2, and Lee-Yang is the native physics. |  | 1 |
+| `B134` | The chirality recursion is proved: a metallic-block bundle is amphichiral iff its block-length sequence is a cyclic palindrome, a corollary of Goodman-Heard-Hodgson 2008. |  | 1 |
+| `B136` | Any once-punctured-torus bundle is amphichiral iff its block-pair sequence is fixed by reverse-order-plus-component-swap up to cyclic rotation; the metallic recursion is the special case. |  | 1 |
+| `B137` | The SL(3) sealing extends to silver m=2: zero irreducible off-sublocus fixed points escape Q(i), once the reducible-locus artifact is filtered out. |  | 1 |
+| `B138` | The principal Sym^{n-1} image of an SL(2) rep over K is a trace-map fixed point with all traces in K, for every n; the converse stays open. |  | 1 |
+| `B141` | The phi-fixed principal tower is reducible for all n>=3 by Q8 finiteness, while the phi-squared geometric tower stays irreducible in Q(sqrt-3): finiteness versus density splits S031. |  | 1 |
+| `B142` | A Klein-4 argument proves the principal phi-fixed stratum reducible without any search, and the s776 Borromean/SU(3) enhancement claim fails on three counts. |  | 1 |
+| `B147` | The chiral mirror pair RRL/RLL is fully arithmetic (Q(sqrt-7), integral traces, integer Bianchi ratio), so arithmetic chiral bundles exist. |  | 1 |
+| `B148` | kappa = 4*I_FV + 2 pinned exactly, and the metallic monodromies are genuinely the SL(2,Z) mapping-class action on the character variety. |  | 1 |
+| `B149` | B89's posited family is the complete irreducible component for spectrum {1,1,w,w2}, making M^4=L unconditional on the genuine locus. |  | 1 |
+| `B150` | The SL(2,Z) trace-map action on the Fricke character variety IS the N=2* class-S S-duality mapping-class action; tau-modularity and magnitude are only rhymes. |  | 1 |
+| `B152` | A 240-manifold census confirms amphichiral implies 2-torsion Chern-Simons with zero violations, and exhibits m208 as the unique converse failure. | yes | 1 |
+| `B154` | degree=rank generalizes beyond the figure-eight to the metallic family via the derived meridian mu=A^-m t, with the exponent order-determined rather than rank-determined. |  | 1 |
+| `B155` | An explicit SL(4,Z) matrix realizes figure-eight monodromy times an order-6 phase, with signature (1,3), discriminant -15 and (Z/2)^2 glue, all exact. |  | 0 |
+| `B156` | Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L10 counts reconfirmed. |  | 0 |
 | `B158` | Omega is the ABELIANIZED SPECTRAL IMAGE of the metallic trace-map tower: the bundle-monodromy characteristic polynomials are reciprocal factors of the integer Omega family (L18 resolved at the spectral level). |  | 0 |
+| `B159` | The class-graded Omega strict-full DAG (L4-L10) is independently verified: all 474 classes reciprocal, whole cone rooted at the single golden-times-phase seed. | yes | 0 |
+| `B160` | The transfer-matrix form of kappa = 2 + lambda^2 is pinned symbolically, an independent bronze trace map is derived, and kappa=-2 gives the parabolic figure-eight cusp. |  | 0 |
+| `B161` | The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; 'forced/empty' is retired. |  | 0 |
+| `B162` | Across the foliated kappa-sweep, kappa=2 is the unique fiber with positive-measure spectrum; every other kappa gives a zero-measure real or complex set. |  | 0 |
+| `B163` | The kappa<2 spectrum is control-bracketed as a totally disconnected Cantor set, and no spectral feature encodes the figure-eight geometry at kappa=-2. |  | 0 |
 | `B164` | The (0,4) Jimbo-Fricke cubic is built explicitly, its Painleve-VI/MCG dynamics exhibited via the three Vieta involutions, and bridged to the once-punctured-torus cubic at the void fiber. |  | 0 |
+| `B169` | A working Schlesinger/Painleve-VI flow is built and verified monodromy-preserving, carrying metallic dynamical degree lambda_m^2, correcting B164's orbit-norm proxy. |  | 0 |
+| `B172` | Weaving two distinct metallic chains produces a real persistent spectral gap whose IDS is no single-frequency label — an interaction-born combination gap. |  | 0 |
+| `B173` | The woven two-seed gap-label group is rank 3 = 1+#distinct quadratic fields (PSLQ-certified), reducing B172's gap to the gap-labeling theorem. |  | 0 |
+| `B174` | Cusp-gluing two metallic bundles gives a continuum only on the curve-aligned locus; every other GL(2,Z) map forces a finite discrete kappa-fork. |  | 0 |
+| `B175` | The woven collective spectrum is two-number predictable: frequencies fix every gap height exactly, couplings fix widths by an order-power law at weak coupling. |  | 0 |
+| `B176` | Golden is genuinely privileged in the woven combination structure (dominates silver and bronze, not a bare-width artifact) but the ordering below it breaks. |  | 0 |
+| `B178` | One textbook perturbative mechanism underlies both the width law and the golden privilege; the per-frequency structure width~L1^n1 L2^n2 is confirmed contamination-robustly. |  | 0 |
+| `B179` | Every geometric/arithmetic number of a metallic seed is an exact function of the single root lambda_m, with three same-named parameters fenced off. |  | 0 |
+| `B180` | Kappa is literally one conserved quantity on both the character-variety and spectral faces, while cusp-gluing and potential-weaving are distinct-but-analogous operations. |  | 0 |
+| `B183` | Opening the permanently-critical metallic chain gives a genuine irreversible spectrum at zero threshold, with g_c equal to the minimum Lyapunov exponent (localized control exact ln4). |  | 1 |
+| `B186` | The off-axis kappa<2 hyperbolicity hypothesis is certified by three independent diagnostics, the escape rate validated on the Damanik-Gorodetski-proven kappa>2 ground truth. |  | 1 |
+| `B187` | Exact diagonalization shows the open metallic collective stays thresholdless at all interaction strengths, while the localized control keeps a finite protective threshold. |  | 1 |
+| `B191` | A coupling 2-cusp connector propagates the kappa-constraint between leaves, so the selection mechanism nests past the pair-cap to N>=3, staying discrete and proliferating. |  | 1 |
+| `B193` | Chirality and the SU(2)_k eigenvalue field are independent (all four combinations occur), and field-fusion to Q(zeta12) is quantum while classical trace-fields stay disjoint. |  | 1 |
+| `B196` | The metallic bundle monodromy's c=1 conformal dimension equals minus its squared topological entropy over 2pi: Delta = -(ln lambda_m/pi)^2, exact. |  | 1 |
+| `B197` | Among torsion-free positive-word bundles the figure-eight is the unique hyperbolic-volume minimum; the m003 volume tie is broken by torsion. |  | 1 |
+| `B198` | Gauge-fixed Newton breached the B157 wall: at SL(5), o=5, m=1 the metallic exponent is [A,B]=+mu^2 (k=2), certified to 23 digits. |  | 0 |
+| `B200` | Of a cross-chat handoff only R2 survives verification: on-site is the unique finite-range interaction preserving the Fibonacci chain's Sturmian structure. |  | 1 |
+| `B201` | The silver (m=2) SL(3) character variety Fix(T_2^2) has exactly four dimension-2 components, one more than the figure-eight's three. |  | 1 |
+| `B203` | All four silver SL(3) components are irreducible with A, B and the meridian of infinite order (cusped-type), explaining B202's missing tidy relation. |  | 1 |
 | `B204` | A closed-form WRT level-period law holds for ALL once-punctured-torus bundles, with the metallic family as its diagonal; mechanism identified as Gauss-sum reciprocity. |  | 1 |
+| `B205` | The generic-q skein quantum trace map for the metallic family was constructed and verified in-sandbox (central element, quantum Dehn twists, q-Chebyshev structure). |  | 1 |
+| `B206` | The golden monodromy's mod-5 congruence shadow is SL(2,F5)=2I=McKay-E8, with the classical/quantum divide exactly the A5/2I spin double cover. |  | 1 |
+| `B208` | The WRT level-period and the congruence shadow read one invariant det(gamma+I)=m^2+4: the field radicand squarefree(m^2+4) always divides P(m), proved. |  | 1 |
+| `B209` | The icosahedral tiling's exterior algebra decomposes into every A5 irrep at multiplicity exactly 4, with the four spinorial 2I irreps completing E8 absent. |  | 1 |
+| `B210` | Golden carries both exceptional McKay groups, E8 from its monodromy field Q(sqrt5) and E6 from its hyperbolic trace field Q(sqrt-3). |  | 1 |
+| `B211` | The figure-eight non-abelian character variety is birational to elliptic curve 40a1 (point counts p-1-a_p exact for 23 primes); metallic bundles are Borromean fillings. |  | 1 |
+| `B212` | Computed the metallic congruence/monodromy shadow and proved R^m L^m = I mod p iff p=2 with m even, correcting the assumed silver framing. |  | 1 |
+| `B214` | The WRT period law extends to arbitrary hyperbolic words as lcm(t-2,t+2) on the principal class and splits by conductor across ideal classes. |  | 1 |
+| `B215` | The class-field period law's closed form P=lcm(t-2,t+2)/d with d the scalar-reduction depth is verified exact for conductors f in {2,3,4}. |  | 1 |
+| `B218` | Jones-index quantization selects golden as the unique metallic mean realizable as a unitary anyon (Fibonacci, d=2cos(pi/5)); all m>=2 exceed the index-4 wall. |  | 1 |
+| `B219` | The WRT class-field period law is elementary: P(gamma)=lcm(t-2,t+2)/content(gamma) with content=gcd(b,c,a-d), verified exhaustively at f=8 and f=16, no genus dependence. |  | 1 |
+| `B220` | Corrected exact diagonalization shows the antiferromagnetic golden (Fibonacci-anyon) chain is gapless with central charge c=0.71, reproducing tricritical Ising c=7/10 in-sandbox. |  | 1 |
+| `B221` | The golden chain's emergent c=7/10 CFT is exactly the first N=1 superconformal minimal model M(4,5), proved by three agreeing exact derivations. |  | 1 |
+| `B222` | Momentum-resolved exact diagonalization recovers the full tricritical-Ising primary content including the h=3/2 supercurrent, confirming the golden chain's emergent N=1 supersymmetry. |  | 1 |
+| `B225` | The prime 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x²=5 (t²−4=5). |  | 0 |
+| `B226` | The object's two supersymmetries are two distinct faces separated by the hyperbolic/non-hyperbolic divide, bridged by SU(2)₃ rather than the figure-eight's geometry. |  | 1 |
+| `B227` | Each metallic SUSY chain has an explicit Seifert dual S²((m²+4,m²+3),(m²+3,1),(3,1)) whose largest cone order is the metallic discriminant, with |H₁|=(2m²+7)²+2. |  | 1 |
+| `B228` | SU(2)₃ is the unique level where the ordinary and N=1-super minimal-model coset constructions coincide, forcing golden as the only SUSY metallic chain. |  | 1 |
+| `B229` | The tricritical Ising has two distinct 3d-3d bulk realizations — ordinary Seifert over S²(3,4,5) (|H₁|=83) and super over S²(3,3,5) (|H₁|=66). |  | 1 |
+| `B232` | The ρ_n tower obeys a one-step stabilization recursion ρ_n ≅ ρ_{n−1} ⊕ Sym^n ⊕ Sym^{n−3}, verified exactly to n=8 and on the real Jacobian to n=5. |  | 0 |
+| `B233` | The ubiquity of '5' is one causal cascade through the field ℚ(√5) plus one genuine coincidence (smallest metallic discriminant = largest McKay prime), not eight miracles. |  | 0 |
+| `B234` | Recomputation of the two handoffs verified the trace-1 congruence law disc=1−4det (excluding E₇'s ℚ(√2)) and caught one overclaim in each chat. |  | 0 |
+| `B236` | The ordinary and super TCI cosets are literally the same coset (SU(2)₁×SU(2)₂)/SU(2)₃, and a sweep confirms this pair is the unique such coincidence. |  | 0 |
+| `B238` | The figure-eight's WRT invariant coincides exactly at −1/φ across the level-rank pair SU(2)₃↔SU(3)₂ (shared κ=5), but only for the figure-eight. |  | 0 |
+| `B239` | For unimodular elements disc=t²−4det, so the only imaginary quadratic trace fields are ℚ(i) and ℚ(√−3) (disc=−4 floor), and E₇'s ℚ(√2) is parity-excluded. |  | 0 |
+| `B240` | At q=e^{2πi/5} the quantum-dimension-weighted colored Jones of 4₁ is pure integers {1,−2,−2,1}, and 4₁ is the unique pure-ℤ case among tested amphicheiral knots. |  | 0 |
+| `B242` | Level-rank duality acts as complex conjugation at κ=5, so SU(2)₃ and SU(3)₂ knot invariants coincide exactly iff the knot is amphicheiral; the three SU(3)'s stay distinct. |  | 0 |
 | `B245` | Higher-color level-rank duality for the figure-eight extends the SU(2)_k = SU(k)_2 conjugation result beyond the fundamental. |  | 0 |
+| `B248` | The figure-eight's dual McKay E₆+E₈ is realized as the hyperbolic (ℚ(√−3), 2T) and spherical (ℚ(√5), 2I) ends of one cone-manifold geometric transition. |  | 0 |
+| `B249` | Niven's theorem forces the orbifold trace fields to be clean quadratics only at the hyperbolic and spherical ends, making E₆+E₈ and the E₇ exclusion one arithmetic fact. |  | 0 |
+| `B250` | Computed the complex-volume profile of the E6-hyperbolic/E8-spherical ends: Vol=6Λ(π/3), CS=0 vs π²/5, CS∈(1/5)ℤ — the arithmetic invariants sit in the volumes. |  | 0 |
+| `B251` | H₁(Mₘ)=ℤ⊕(ℤ/m)² forces only m=1 to be a knot complement, so the E6↔E8 geometric transition is golden-specific. |  | 0 |
+| `B253` | Sage-verified that E6 is the only chirality-capable (complex-fundamental) end of the B248 transition, and corrected B252's overstated 'cannot source asymmetry'. |  | 0 |
+| `B254` | Verified the arithmetic spine 4₁→ℚ(√−3)→2T→E6 and merged it with the forced quantum chain at (G₂)₁=Fibonacci inside (E₆)₁ by exact central charges. |  | 0 |
+| `B255` | The tetrahedron (d=3) is the unique regular simplex whose rotation group's binary cover McKay-corresponds to an exceptional Lie group with a complex fundamental. |  | 0 |
+| `B256` | E7 is the silver member's discriminant field ℚ(√2)→2O, completing the Arnold trinity arithmetically while remaining the one group with no geometric realization. |  | 0 |
+| `B257` | Characterized the Euclidean transition point as the character-variety discriminant branch point with order-3 Eisenstein meridian and vanishing complex volume. |  | 0 |
+| `B258` | Resolved H27: the trace field ℚ(√−3) is figure-eight-specific and the discriminant field ℚ(√(m²+4)) metallic, coinciding only at m=1; the quantum face splits into the same two ends. |  | 0 |
+| `B259` | Verified the Mostow metric solves 3d vacuum Einstein exactly (Λ=−1) and produced the honest five-wall map: one theorem, one 122-order gap, three open gaps. | yes | 0 |
+| `B260` | Identified the SL(2,ℂ) character variety as the Coulomb branch of T[4₁] (A-polynomial verified), dissolving wall #1: zero theorems block object→physics, but no bridge is built. |  | 0 |
+| `B262` | Reconstructed T[4₁] from its own triangulation: U(1) gauge, 2 chirals, monopole superpotential — abelian, confirming McKay-E6 is arithmetic-only. |  | 0 |
+| `B264` | Exact Fox-calculus computation gives dim H¹(π₁(4₁),Ad ρ_prin)=6=rank(E6), graded by the E6 exponents, with {4,8} directions deforming out of F₄. |  | 0 |
+| `B265` | The {4,8} deformation directions are E6-Zariski-dense (generate all 78 of e₆), establishing E6-irreducible flat connections on the figure-eight near ρ_prin. |  | 0 |
+| `B266` | The trace field's unique ramified prime canonically selects E6: π₁(4₁) surjects onto SL(2,𝔽₃)=2T with McKay E6, and E7 is homeless since 2O is no SL(2,q). |  | 0 |
+| `B267` | Coherence check passes: the arithmetically-selected E6 and the character-variety E6 are the same Lie object, the McKay exponent set matching the tangent-space grading. |  | 0 |
+| `B268` | Consolidated B262–B267 into wall map v2 — wall #1 dissolved, wall #2 reduced to a single physics conjecture — with an audit of every deferred sub-item. | yes | 0 |
+| `B270` | Re-derived rather than cited: the quadratic cup-product obstruction vanishes in the SL(2)/exponent-1 block, and dim H¹=#cusps makes every deformation a cusp deformation. |  | 0 |
+| `B271` | Identified the amphicheiral τ-breaking (chirality) locus with the E6-irreducibility locus — the 26=e₆/f₄, exponents {4,8} — while wall #4 needs an external 2- or 4-manifold input. |  | 0 |
+| `B272` | Adversarial re-derivation confirmed the E6-bridge core mathematics, corrected three framing overclaims, and extended the gap map with family replication, SM matter and the Λ-sign. | yes | 0 |
+| `B273` | The full quadratic cup product H¹×H¹→H²(e₆) at ρ_prin is identically zero (exact mod two large primes), so the {4,8} E6 deformations integrate to second order. |  | 0 |
+| `B274` | ρ_prin is a smooth point of the figure-eight's E6 character variety of dimension 6=rank, making the {4,8} E6-irreducible flat connections exist unconditionally. |  | 0 |
+| `B275` | Exhibited an explicit numerical E6 flat connection on the figure-eight with nonzero exp-4 component, a concrete witness off ρ_prin for B274's existence proof. |  | 0 |
+| `B276` | The figure-eight colored-Jones degenerates at q=ζ₃,ζ₆ with periods 3,6 and values in ℤ[ζ₃], the trace field ℚ(√−3) whose ramified prime 3 yields 2T=McKay-E₆. |  | 0 |
+| `B277` | The figure-eight has a canonical class-S lift — fiber Σ_{1,1} giving 4d N=2* SU(2) with monodromy φ=RL as an S-duality element — and a chiral 4d SM is blocked by two named inputs. |  | 0 |
+| `B279` | The amphicheiral involution τ FIXES both spin structures of the figure-eight complement, proved via the S³-bounding canonical spin structure and the ℤ/2-torsor argument. |  | 1 |
+| `B285` | The figure-eight's meridian-commutator trace is κ=u²+2=√3·e^{∓iπ/6}, so the phase magnitude π/6 is exact and forced by the Eisenstein field, while its sign is not. |  | 1 |
+| `B286` | The ingredients live at the seam: Dehn filling the open complement supplies a forced 10-element exceptional set, chirality, an oriented CS sign, a 2π/n scale, and a peripheral clock. |  | 1 |
+| `B287` | The fiber slope (0,1) is the unique torus-bundle closing among the ten exceptional fillings, and its monodromy is exactly A=LR, confirmed by Alexander polynomial, Twister and Regina. |  | 1 |
 | `B289` | The Chern-Simons sign law CS(p,-q) = -CS(p,q) is robust, and its meaning is a Q(sqrt-3) Galois reading; verified by two methods. |  | 1 |
+| `B290` | The (1,n) core geodesic obeys the Neumann–Zagier ladder ℓ_ℂ=2πi/n+(π/√3)/n²+O(1/n³) with coefficient predicted by the cusp shape; separately, the filling n is not the WRT level k. |  | 1 |
+| `B291` | A stable min-volume closing m004(±5,1) (vol 0.98137) exists and is non-arithmetic and not the fiber closing, so selection is axis-stratified with no universally distinguished closing. |  | 1 |
+| `B294` | The seam is selective for the object's own structure (a forced A=LR closing) but a flat catalogue for Standard-Model values, with selection stratified across dynamical, arithmetic and scale axes. |  | 1 |
+| `B296` | Adversarial re-run of every seam-arc probe yields zero refutations and zero firewall leaks, strengthening B287 (homology-forced uniqueness), B288 (174 closings) and B291, with the classical math correctly attributed. | yes | 1 |
+| `B299` | The commuting (θ,φ) ℤ₃×ℤ₃ are inner E₆ lattice automorphisms acting freely on the 27 as nine 3-orbits — the trinification triality — so no φ-eigenvalue can grade the 27. |  | 1 |
+| `B301` | Complexity of the 27 filters E₆'s maximal subgroups to the chiral set {SO(10), SU(6)×SU(2), SU(3)³} — not a unique SO(10) — and the kept SU(3)³ is B299's trinification triality. |  | 1 |
+| `B302` | The order-3 symmetry absent from the torsion-free knot group lives in the commensurator PGL(2,O₋₃) as a hidden symmetry, with the figure-eight an index-12 cover of that orbifold. |  | 1 |
+| `B303` | Proved the CP sign is literally the sign of Chern-Simons (CS=0 amphichiral, definite sign per closing), reducing the one live forcing to two firewalled inputs. |  | 1 |
+| `B304` | Extended the forced set from kinematics into gauge dynamics (sin^2 theta_W=3/8, beta-signs, 24=|2T| grading count); refuted Chat-1's saddle-SU(3) claim. |  | 1 |
+| `B305` | Verified E6 to SU(3)^3 trinification grading at the Eisenstein eigenvalue omega, tying the object's sqrt(-3) arithmetic to the breaking; the saddle is SU(2)^3. |  | 1 |
+| `B306` | Established the forced E6 principal-grading cascade N=1..6, with a left-right SM-containing group at N=5 and an SU(2)^3 saddle, not Chat-1's dim-14 window. |  | 1 |
+| `B307` | Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confirmed. |  | 1 |
+| `B309` | Unified four banked faces (existence, geometry, matter, quantum) as one commutator trace kappa=tr[a,b] not equal 2, with kappa-2=omega^2 and E6 uniqueness verified. |  | 1 |
+| `B311` | Trinification sits at a genuine irreducible A-polynomial branch point (upgrading B305), but N=2 is reducible and N>=4 off-curve, so the chain is not realized. |  | 1 |
+| `B312` | Showed Face IV houses the same E6 as the content via the CIZ level-10 modular invariant, plus both arithmetic ends; the level itself is generic. |  | 1 |
+| `B314` | Sealed the quantum no-forced-choice case: figure-eight colored-Jones/WRT values at zeta_5 form a golden Q(sqrt5) Galois orbit, hence symmetrizable, not forced. |  | 1 |
+| `B315` | Showed the object's E7 exclusion contains heterotic's E7-skip, with pseudoreality FS(56)=-1 the shared root among three independent obstructions. |  | 1 |
 | `B316` | sqrt(-7) is the CHIRALITY field, not a metallic-ladder member: disc -7 is below the unimodular floor, and Q(sqrt-7) is reached by BREAKING amphichirality (non-palindromic RRL/RLL words). |  | 1 |
+| `B317` | Placed the object as a transcendental positive-entropy Painleve-VI solution (entropy 2 log lambda_m), outside the algebraic Lisovyy-Tykhyy list of finite orbits. |  | 1 |
+| `B318` | Split the firewall's two ends: the Eisenstein Z/2 is the geometric amphichiral involution (complex conjugation), the golden Z/2 is arithmetic-only with no geometric tau. |  | 1 |
+| `B319` | Resolved the woven-vs-single conflict as a false dichotomy: single-operator fractality is monotone (Hurwitz) while the two-body combination ladder is standalone; B176 banks both. |  | 1 |
+| `B321` | Verified |cusp shape|^2 = h(E6) = 12, giving filling form p^2+12q^2; refuted the pi/6-core-length and Z/3-democracy splices; sharpened the multiplicity gate. |  | 1 |
+| `B323` | Verified the four-level map: Z/3 exists only at the E6 gauge level and the commensurator, and they are distinct; the omega-circulant Yukawa is tautological and unmatched. |  | 1 |
+| `B324` | Verified exactly in Z[omega] that commensurator-conjugate generations give a Z/3-circulant trace matrix with Eisenstein coefficient omega and degenerate light eigenvalues - structure, not values. |  | 1 |
+| `B326` | Verified the generation Z/3-breaking is finite congruence torsion: H_1 of the 3-fold cover is Z + (Z/4)^2 with irreducible Phi_3 deck action - texture, not magnitudes. |  | 1 |
+| `B327` | Proved n1=n2 in the 27|2T branching is forced by self-duality rather than integer spin, reducing the hierarchy CRUX to whether 2T embeds quaternionically in E6. |  | 1 |
 | `B373` | The pre-registered MOVED outcome hit VERBATIM (+-36 deg = 108/3, exponents a = +-6 of 60); the minimal sector is gapless. |  | 1 |
 | `B453` | Ethogram E1 (reproduction): the child is IDENTICAL, not merely sharing invariants -- a sharpening of the banked record, with one honest UNDECIDED. |  | 1 |
 | `B504` | delta_M = 2: at the pointer state (1,1,1), the unique irreducible M-fixed character, the intertwiner t exists and det-normalized satisfies tr(t)^2 = 2 exactly (SVD nullspace, residual 0.0 at 30 digits). |  | 1 |
@@ -31,29 +208,139 @@
 | `B696` | The Eisenstein anatomy campaign is closed: the being face is charted as the golden face was, over seven loops into ATLAS v2. | yes | 1 |
 | `B698` | Leg A: the meeting is probed on its analytic side, with the prereg sealed BEFORE the verdict. |  | 0 |
 
-## NEGATIVE (5)
+## NEGATIVE (98)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
+| `B8` | The near-miss m/g is symbolically shown to equal sqrt(5/(4 log phi)), not phi, so the golden-ratio coincidence is killed. |  | 0 |
+| `B9` | Fibonacci fusion and the cubic vertex only share the polynomial tau^2-tau-1; no fusion-to-scattering map exists. |  | 0 |
+| `B15` | The proposed Fibonacci coupling lambda=sqrt(5) is rejected under the Fricke-Vogt normalization, and the naive continuum proxy violates the invariant. |  | 0 |
+| `B17` | Same-record repetition is parabolic and the LPLP=A spelling is not a new uniqueness theorem under the existing selection filters. |  | 0 |
+| `B20` | The trace map has invariant-memory and feedback but never reads its invariant, failing the operational self-model criterion. |  | 0 |
+| `B22` | The -1 parity eigenvalue is generic for all orientation-reversing symmetric-square lifts, killing any special parity-particle reading. |  | 0 |
+| `B24` | The Fibonacci anyon level k=3 is not selected by the framework; the shift from discriminant 5 to k+2 is underived. |  | 0 |
+| `B26` | The proposed period-3 derivation of lambda/h=1 fails: (0,0,c) only half-returns, and the literal T^6 quadratic is t^2-27t+1. |  | 0 |
+| `B31` | Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without the extra A-sector matching rule. |  | 0 |
+| `B32` | The A1-A7-plus-exchange chain does not select I=1/4; the missing ingredient is isolated as the A-sector self-similarity selector S1. |  | 0 |
+| `B36` | The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambda/h=1, and gap-label controls fail to distinguish I=1/4. |  | 0 |
+| `B37` | Under fixed operational definitions the trace map has feedback and an invariant but fails the self-model criterion, quarantining awareness-adjacent readings. |  | 0 |
+| `B39` | Tangent-lattice integrality leaves an infinite discrete family c^2=(m+2)/4; the projective quotient alone derives no canonical lattice and does not select m=3. |  | 0 |
+| `B40` | Audit finds S1 is not derived from the A1-A7 core: it is conditional on a newly named, underived assumption T1 (filter inheritance). |  | 0 |
+| `B41` | A bounded projective census shows the B26 period-3 orbit is the simplest one-parameter family, but c stays free, so it does not select I=1/4. |  | 0 |
+| `B42` | Natural variational quantities of the tangent return (eigenvalue, torsion proxy, discriminant) are monotone on I>0 with no intrinsic stationary point at I=1/4. |  | 0 |
+| `B46` | The selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian while t^2-4t+1 does not: higher rank is consistent with S1 but does not derive it. |  | 0 |
+| `B47` | Ledger verdict: lambda/h=1 is conditional, not derived; the strongest honest statement is T1 -> S1, with T1 itself underived by the framework. | yes | 0 |
+| `B52` | The naive three-channel Fibonacci tight-binding model gives a 6x6 symplectic doubled-phase cocycle, not SL(3): the PC12 physics dictionary fails. |  | 0 |
+| `B56` | The figure-eight / I=1/4 bridge is dead: diagonal reps give I in {4, -17/2 +/- 7sqrt5/2}, and the c=1 Eisenstein match is cyclotomic coincidence. |  | 0 |
 | `B58` | The n=5 char(M^2) shortfall is the pinv-limit CONSTRUCTION, not an F_p non-canonicity artifact: three independent computations of the pinv-limit all return a2=1. |  | 0 |
+| `B66` | At SL(6) the |k|=3 Dickson multiplicity is exactly 2, refuting the max(n-d,1) multiplicity formula for the tower. |  | 1 |
+| `B81` | The CRT/F_p first-principles route is blocked at SL(5): char(DT_0) scatters across seeds at the doubly-degenerate char(M^2)^2 sector. |  | 1 |
+| `B82` | The physics chapter is formally closed: every attempted bridge (anyons, quasicrystals, j=1728, higher-spin, quantum groups) reduces to invariant theory of sl(n). |  | 1 |
+| `B84` | Conjecture I1 refuted: the SL(5) tower barrier is genuine non-convergence of the pinv-limit (gauge-invariant power sums scatter), not a gauge/basis artifact. |  | 1 |
+| `B85` | The Lambda^2-V representation shortcut is killed: the char(M^2) double multiplicity is a root-system fact that functoriality cannot dissolve, leaving only symbolic assembly. |  | 1 |
+| `B87` | The hoped decreasing genus sequence 3,1,0 is refuted: m=2 is a genus minimum, and the m=3 trace-relation curve is genus 1, not >=2. |  | 1 |
+| `B96` | The Neumann-Zagier volume Hessian at the complete structure is negative definite (0,2), closing the Lorentzian-emergence reading; volumes rise monotonically with m. |  | 1 |
+| `B97` | Lorentzian signature is only the sl(2,R) Killing form on the Teichmuller component -- present by construction, not emergent or derived spacetime. |  | 1 |
+| `B98` | The Dickson tower does not appear at the geometric representation, which instead carries the adjoint torsion t^2-5t+1; the tower is a trivial-rep phenomenon. |  | 1 |
+| `B99` | At SL(3) too the geometric rep's Jacobian is torsion-type (twisted-Alexander), not the Dickson tower, confirming the two fixed points carry different invariants. |  | 1 |
+| `B108` | The opposition involution theta=-w0 cannot predict the degree=rank scalars: it only sends c to 1/c, so the order-4 secondary c=i escapes an involution. |  | 1 |
+| `B110` | The off-locus irreducible sector is empty for the figure-eight at SL(3): all three irreducible components lie on the forced locus. |  | 1 |
+| `B114` | The exponent k is not a covering degree: the full-spectrum meridian-to-longitude covering degree is about k^(n-1), not k. |  | 1 |
+| `B116` | The theta-split equals the tower only through n=5 and diverges at n=6, so B112's all-n sign-half claim is downgraded. |  | 1 |
+| `B119` | k=n is not forced by M^k centrality; the positive peripheral exponent mechanism does not close, and the principal degree=rank object is absent for n>=5. |  | 0 |
+| `B126` | Metallic rigidity propagates exactly two floors and then provably stops: no 3-manifold supplies the 2d-boundary data or the SUSY-breaking scale physics needs. |  | 0 |
+| `B127` | Chirality, topology and arithmetic each kill the physics-bridge claims (K-A through K-E tombstoned); the surviving content is the object's proper name as a KKT trace map. |  | 0 |
+| `B128` | The metallic structure permits but never forces symmetry breaking, and the torsion-to-gauge-group bridge is dead; the chirality recursion and ordering order-parameter survive. |  | 1 |
+| `B129` | The metallic SL(3) tower is SL(2) arithmetic in SL(3) clothing with zero fixed points escaping Q(sqrt-3), so climbing ranks acquires no new field or content. |  | 1 |
+| `B130` | No trace-ring invariant is both discretely multivalued and unsymmetrizable: kappa is free on the fixed locus, so a single seed cannot force any choice. |  | 1 |
+| `B135` | There is no metallic family of Lee-Yang realizations since only m=1 has lambda<2, and the golden bridge matches only at modular-data level. |  | 1 |
+| `B139` | Multiplicity cannot supply the SM's simple non-abelian factor or irreducible chirality: the mirror preserves every computed invariant except the Chern-Simons sign. |  | 1 |
+| `B140` | The chirality firewall is genus-general (the genus-2 escape hope is refuted by the orientation-reversal theorem), and phi-discrete versus phi-squared-bundle is the principled split. |  | 1 |
+| `B143` | The algebraic trace venue is structurally mirror-blind, so the chirality-of-interactions campaign cannot run there and needs orientation-sensitive topological tooling not yet installed. |  | 1 |
+| `B144` | Cusp-glued composites are mirror-closed (verified GL(2,Z) identity), so seed-heterogeneity cannot break R-L symmetry; the naive chirality-crack targets are vacuous. |  | 1 |
+| `B145` | Chirality cannot be forced: over the catalogued once-punctured-torus bundles the canonical/minimal locus coincides with the self-mirror (amphichiral) family. |  | 1 |
+| `B146` | B145's arithmeticity arm and its 'forced implies self-mirror' slogan are refuted; the surviving statement is the orientation-independence dichotomy. |  | 1 |
+| `B151` | The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or volume-type invariant can source a physical scale. |  | 1 |
+| `B157` | The banked closed form k = 4 - m(o-3) is refuted by bronze counterexamples; only the order-determined, rank-independent exponent survives. |  | 0 |
+| `B166` | SL(n>=3) is intrinsically non-Hermitian by the symplectic obstruction, and SL(2)'s Cantor spectrum does not transfer to higher rank. |  | 0 |
+| `B167` | A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves no internal door, only external or ratio lanes. |  | 0 |
+| `B168` | The Omega accretion is a genuine non-i.i.d. generative process, but every emergent rate is dimensionless, so the ensemble yields no scale. |  | 0 |
+| `B170` | The Machian 'external dissolves into self-referential' leap is undecidable from within and its only testable form, value-matching, fails a random-base null control. |  | 0 |
+| `B177` | The metabolism hypothesis is dead: kappa is conserved, gaps freeze, the trace map is reversible — the object is a horseshoe crystal, not a cell. |  | 0 |
+| `B181` | The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition), so it is scale-free rather than scale-generating. |  | 0 |
+| `B182` | Superposition of N distinct-field metallic units proliferates (gap-label rank 1+N to infinity) and never selects to a unique value. |  | 0 |
+| `B184` | No gauge group is forced by the collective: interaction of distinct-field units breaks the per-unit inflation symmetry and merely multiplies the SL(2,Z) dualities. |  | 1 |
+| `B185` | Cusp-gluing selects continuum to discrete but never to a forced-unique value, and 1-cusp metallic units cap all-unit interaction at pairs. |  | 1 |
+| `B188` | Criticality gives no slow dissipative relaxation: the metallic Liouvillian gap matches the extended chain, decays with L, and is homogeneous in external rates. |  | 1 |
+| `B189` | The Omega cone's Myrheim-Meyer dimension d~3.94 is a graded-DAG truncation artifact, reproduced by a random null — no emergent spacetime dimension. |  | 1 |
+| `B190` | Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixed points are non-monotone, the lone unique is trivial. |  | 1 |
+| `B199` | No closed-form metallic exponent law k(o,m) exists (order collisions prove it); only the sign survives, and degree=rank is refuted at SL(5). |  | 1 |
+| `B202` | No silver SL(3) component carries a tidy A-variety relation [A,B]=c*mu^k, so the figure-eight's M^3=L is non-generic in the metallic family. |  | 1 |
+| `B207` | No GUT-style McKay breaking chain exists across the metallic family (E6 and E7 never occur) and the family carries no intrinsic exponential hierarchy. |  | 1 |
+| `B213` | The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-generic: no forced small number, no hierarchy. |  | 1 |
+| `B217` | The Borromean parent gives no geometric origin for the WRT period law: it governs the cusped volume, while the closed-bundle period stays algebraic. |  | 1 |
+| `B223` | The golden chain has no conserved fermion parity and hence no exact lattice supercharge; its SUSY is emergent/IR-only (exact lattice SUSY lives on the Fendley-Schoutens sibling). |  | 1 |
+| `B230` | The ferromagnetic 'silver SUSY' (Z₆ parafermion, c=5/4) is a central-charge coincidence with a different coset, not supersymmetry; golden+AFM stays uniquely SUSY. |  | 0 |
+| `B231` | The metallic levels k=m²+2 confer no special chain structure for m≥2; the metallic mean equals the spin-½ quantum dimension iff m=1. |  | 0 |
+| `B235` | The trace-field ladder closes at {√5,√−3} — ℚ(√−7) never appears (arithmeticity/unimodularity) — and the F₄ footprint entry is retracted (no SU(3)_k ⊂ (F₄)₁). |  | 0 |
+| `B237` | GAP shows silver's π₁ has no 2O quotient (only S₄), and chat-1's 'all metallic bundles carry 2T and 2I' is refuted — quotients are manifold-specific. |  | 0 |
+| `B241` | The Gang–Yonekura twist-knot SU(3) flavor symmetry is not the level-rank gauge SU(3)₂: different type (flavor vs gauge) and specificity (twist-universal vs figure-eight-specific). |  | 0 |
+| `B243` | The level-rank=conjugation mechanism is universal at every level (not golden-specific), and the apparent metallic ladder V(m²+2)∈ℚ(√(m²+4)) is refuted at bronze. |  | 0 |
+| `B244` | SU(3)₂ at level 2 is a single number that does not resolve the three SL(3,ℂ) character-variety components; resolution is only asymptotic (k→∞). |  | 0 |
+| `B246` | There is no symmetric SL(3) volume conjecture: the large-color SU(3) invariant grows at the complement volume 2.0299, group-independently, not at the SL(3) geometric 8.1195. |  | 0 |
+| `B247` | The V1 'E₆→SM' claim fails: the long-SU(2) centralizer is a generic SU(6), and the hyperbolic SL(2,ℂ) holonomy cannot embed in compact E₆ at all. |  | 0 |
+| `B252` | Adjudicated and failed to break the chirality obstruction: every conjugation-odd invariant of the object vanishes or pairs, so it carries no explicit CP-odd datum. |  | 0 |
+| `B269` | T[4₁]'s single-cusp flavor symmetry is only U(1)⋊ℤ/2=O(2) with no SU(2) enhancement — the abelian wall holds; the state-integral saddle does reproduce Vol(4₁) at e^{iπ/3}. |  | 0 |
+| `B280` | 2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus Higgs from A₄/2T spin-3/2' reading. |  | 1 |
+| `B281` | The figure-eight's character variety does not distinguish E₆ at either the dim H¹=rank or the irreducibility level, so the 3d-3d input type is computably unforced. |  | 1 |
+| `B282` | Almost everything in the E₆ programme is generic to any hyperbolic knot; only the arithmetic atom (4₁ unique arithmetic knot, ℚ(√−3)↠2T) is object-specific. |  | 1 |
+| `B283` | The arithmetic self-generation vein collapses: the WRT period law is generic to all torus bundles (Jeffrey 1992), the trace map is the known Fibonacci Hamiltonian, and the prime-absence claim is falsified. |  | 1 |
+| `B284` | The exact finite-image 2T representation of the figure-eight is a generic smooth point (dim H¹=1) on the canonical component, refuting chat-1's claim of a structurally distinguished 2T component. |  | 1 |
+| `B288` | No closed hyperbolic Dehn filling of the figure-eight re-sees ℚ(√−3) or is arithmetic, so the E₆-selecting arithmetic is an open-object property destroyed by closing. |  | 1 |
+| `B292` | Of the three multiplicity candidates only the fiber Σ_{1,1} is a surface; the metallic tower and filling family are 3-manifold sequences, and none supplies the N=2→N=1 chiral datum. |  | 1 |
+| `B295` | The Curie-principle argument for CP-sign externality is refuted, and the programme's cubic V(τ) potential is the wrong object with disjoint golden critical points, so no SSB mechanism is available. |  | 1 |
+| `B298` | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. |  | 1 |
+| `B300` | The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent). |  | 1 |
+| `B310` | Killed the cascade's novelty: the E6 chain is standard Slansky, and the equal-pi-i/3 spacing and cusp-shape realization claims are false arithmetic. |  | 1 |
+| `B313` | Refuted 'matter = Fibonacci anyons' (27 branches to (7,3)+(1,6)) and 'the figure-eight is forced'; the (G2)_1 bridge is real but generic. |  | 1 |
+| `B320` | Refuted the A+B+C fusion (Z/2 is not Z/3; democratic rank-1 needs S_3) and found the mod-7/Fano/G2 chain fiber-generic (Heawood 7, 2T not S_4). |  | 1 |
+| `B322` | Null test showed the figure-eight's 6241 filling-invariant ratios match 12 SM parameters at chance level (8/12 vs null 7.6), so the invariants encode no SM values. |  | 1 |
+| `B325` | Refuted the claimed Z/3-protection of the two light eigenvalues: they are distinct 1-dim irreps a Z/3-invariant cubic can split, so the CRUX stays at Level 3. |  | 1 |
 | `B333` | First-class NULL: the value's home is the compositum Q(sqrt-15), but the seam's arithmetic is generic and carries no value. |  | 1 |
 | `B409` | The transport 'theorem' is KILLED: count-conservation holds on only 4 of 6 pairs, failing exactly the two high-multiplicity ones. |  | 1 |
 | `B484` | The relayed 'SM gauge group = braiding statistics of Fibonacci anyons' frame does not survive: run under HELD(value-matching); tr(figure-eight braid) = -3/phi exactly, which fixes nothing about SM mixing. |  | 0 |
 | `B728` | The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object. |  | 0 |
 
-## OPEN (6)
+## OPEN (21)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
 | `B6` | The Euler-Lagrange equation of the derived potential is box-tau + kappa(tau^2-tau-1)=0, with critical points phi (stable) and -1/phi (unstable); the field-theoretic lift is a CHOICE, not forced. |  | 0 |
+| `B7` | Gradient flow of the exact golden potential is Fisher-KPP and converges to phi, but the dynamics and diffusion constant are inserted. |  | 0 |
+| `B23` | The exact perturbation expansion at (1,1,1) isolates the single nonlinear term 2uw, but no BKL/Misner dictionary is derived. |  | 0 |
+| `B25` | Finite Fibonacci-Hamiltonian approximants at lambda/h=1 match gap labels and land on I=1/4, but the coupling stays MOTIVATED, not derived. |  | 0 |
 | `B29` | The Lucas hierarchy and its normalization are exact; the projective half-return selector itself remains underived. |  | 0 |
+| `B38` | Requiring integer minimal hyperbolic trace on the tangent return gives mu=3 and I=1/4, but the needed inheritance of the arithmetic filters is unproven. |  | 0 |
+| `B43` | The Markov-Fricke discriminant route reaches I=1/4 only after assuming an integer-trace filter; without it the discriminant is continuous with no arithmetic minimum. |  | 0 |
+| `B44` | Torsion-one closure |det(M-I)|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation. |  | 0 |
+| `B45` | The projective return gives the Lucas hierarchy (lambda/h)^2=L_n-2; lambda/h=1 is selected only if the primitive sector is treated as ground state. |  | 0 |
 | `B49` | PC12's proof architecture is explicit and partly machine-checked, but is not promoted to a proven claim. |  | 0 |
 | `B61` | The SL(5) fixed-line factorization is determined at dps=60 by a stable high-precision SVD pinv, resolving B60's cond~1e11 blockage -- numerically, not as a symbolic proof. |  | 1 |
+| `B78` | The decisive n=5 degree=rank test is a method-limit: every converged SL(5) bundle rep is reducible, so M^5=L is neither confirmed nor refuted. |  | 1 |
+| `B86` | Capstone synthesis: three threads consolidated into a paper skeleton with novelty labels, but no new theorem and the external literature check ungated. | yes | 1 |
+| `B105` | The explicit n=5 catalog stays open: the resolved 21 factors are universally catalog-consistent but three remain unresolved and two prior inferences were withdrawn. |  | 1 |
+| `B115` | Off-locus SL(4) content and genus-2 degree=rank both remain unsettled, blocked by the missing SL(4) classification and genus-2 peripheral machinery. |  | 1 |
+| `B165` | Off-axis Cantor structure is shown seed-robust across golden/silver/bronze and reduced to one open hypothesis, complexified uniform hyperbolicity, left to a specialist. |  | 0 |
+| `B171` | Phase-0 baselines show the woven metallic spectrum inherits both rank-2 ladders and quantifies the density trap, leaving the rank-3 combination gap unsettled. |  | 0 |
+| `B278` | Consolidates B274–B277 into the five-wall map v3 and records the previously-invisible input-required walls, settling nothing new; the bridge still rests on the unproven input-E₆=output-E₆ CRUX. | yes | 0 |
+| `B297` | Folds the seam arc B286–B296 into the five-wall map v4 and relocates the structural theorem to the seam, without settling any wall or the CRUX. | yes | 1 |
 | `B507` | First-pass beta-function: g_M(kappa) is strongly negative (~-1.05 to -1.25) on the negative-kappa leaves where the object lives, so the measurement verb is NOT marginal there. |  | 0 |
 | `B556` | The escalator tower T(M) = [[M,M],[M^2,M]]: the computational core is verified exactly, while the tower-as-physics-ladder reading is banked as a LABELLED HYPOTHESIS. |  | 7 |
 
-## RETRACTED (1)
+## RETRACTED (3)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
 | `B90` | L1b is a genuine uniform result, but L1a is a TAUTOLOGY and 'exponent = rank from Cayley-Hamilton' is REFUTED; degree=rank stays proved only at n=3,4. |  | 1 |
+| `B192` | The banked metallic Lyapunov-spectrum parity law (symmetric iff n even, metallic-special) is withdrawn — an artifact of cherry-picked energies and a rigged control. |  | 1 |
+| `B216` | The verdict that the f>=8 period-law split is genus-theoretic and NEEDS-SPECIALIST was an artifact of testing only the scalars +-I and is withdrawn. |  | 1 |

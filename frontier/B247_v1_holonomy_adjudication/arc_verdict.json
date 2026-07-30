@@ -1,0 +1,10 @@
+{
+ "id": "B247",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The V1 'E₆→SM' claim fails: the long-SU(2) centralizer is a generic SU(6), and the hyperbolic SL(2,ℂ) holonomy cannot embed in compact E₆ at all.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

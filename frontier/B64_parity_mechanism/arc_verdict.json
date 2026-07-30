@@ -1,0 +1,10 @@
+{
+ "id": "B64",
+ "verdict": "PROVED",
+ "claim_one_line": "The k(alpha) sector-assignment is proven symbolically: even-|k| char(M^k) is P-symmetric, odd-|k| P-antisymmetric, via depth-n CH plus Dickson parity.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

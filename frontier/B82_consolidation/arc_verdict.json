@@ -1,0 +1,10 @@
+{
+ "id": "B82",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The physics chapter is formally closed: every attempted bridge (anyons, quasicrystals, j=1728, higher-spin, quantum groups) reduces to invariant theory of sl(n).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

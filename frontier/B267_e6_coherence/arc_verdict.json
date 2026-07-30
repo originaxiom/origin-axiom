@@ -1,0 +1,10 @@
+{
+ "id": "B267",
+ "verdict": "PROVED",
+ "claim_one_line": "Coherence check passes: the arithmetically-selected E6 and the character-variety E6 are the same Lie object, the McKay exponent set matching the tangent-space grading.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

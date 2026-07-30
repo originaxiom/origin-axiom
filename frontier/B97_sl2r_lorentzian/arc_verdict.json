@@ -1,0 +1,10 @@
+{
+ "id": "B97",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Lorentzian signature is only the sl(2,R) Killing form on the Teichmuller component -- present by construction, not emergent or derived spacetime.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

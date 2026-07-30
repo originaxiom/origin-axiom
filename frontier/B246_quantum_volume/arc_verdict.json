@@ -1,0 +1,10 @@
+{
+ "id": "B246",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "There is no symmetric SL(3) volume conjecture: the large-color SU(3) invariant grows at the complement volume 2.0299, group-independently, not at the SL(3) geometric 8.1195.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

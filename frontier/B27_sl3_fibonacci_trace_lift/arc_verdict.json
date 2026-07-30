@@ -1,0 +1,10 @@
+{
+ "id": "B27",
+ "verdict": "PROVED",
+ "claim_one_line": "The exact eight-dimensional SL(3) Fibonacci trace lift retains the A quadratic sector and splits into symmetric/antisymmetric inverse-trace blocks.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

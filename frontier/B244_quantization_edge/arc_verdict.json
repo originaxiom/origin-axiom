@@ -1,0 +1,10 @@
+{
+ "id": "B244",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "SU(3)₂ at level 2 is a single number that does not resolve the three SL(3,ℂ) character-variety components; resolution is only asymptotic (k→∞).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

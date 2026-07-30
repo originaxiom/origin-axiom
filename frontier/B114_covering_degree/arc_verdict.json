@@ -1,0 +1,10 @@
+{
+ "id": "B114",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The exponent k is not a covering degree: the full-spectrum meridian-to-longitude covering degree is about k^(n-1), not k.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

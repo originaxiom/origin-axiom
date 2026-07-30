@@ -1,0 +1,10 @@
+{
+ "id": "B126",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Metallic rigidity propagates exactly two floors and then provably stops: no 3-manifold supplies the 2d-boundary data or the SUSY-breaking scale physics needs.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

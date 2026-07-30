@@ -1,0 +1,10 @@
+{
+ "id": "B198",
+ "verdict": "PROVED",
+ "claim_one_line": "Gauge-fixed Newton breached the B157 wall: at SL(5), o=5, m=1 the metallic exponent is [A,B]=+mu^2 (k=2), certified to 23 digits.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B157",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

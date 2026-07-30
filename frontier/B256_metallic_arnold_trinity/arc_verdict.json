@@ -1,0 +1,10 @@
+{
+ "id": "B256",
+ "verdict": "PROVED",
+ "claim_one_line": "E7 is the silver member's discriminant field ℚ(√2)→2O, completing the Arnold trinity arithmetically while remaining the one group with no geometric realization.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

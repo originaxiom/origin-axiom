@@ -1,0 +1,10 @@
+{
+ "id": "B242",
+ "verdict": "PROVED",
+ "claim_one_line": "Level-rank duality acts as complex conjugation at κ=5, so SU(2)₃ and SU(3)₂ knot invariants coincide exactly iff the knot is amphicheiral; the three SU(3)'s stay distinct.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

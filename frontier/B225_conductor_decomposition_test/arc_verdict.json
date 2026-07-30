@@ -1,0 +1,10 @@
+{
+ "id": "B225",
+ "verdict": "PROVED",
+ "claim_one_line": "The prime 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x²=5 (t²−4=5).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

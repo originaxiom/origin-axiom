@@ -1,0 +1,10 @@
+{
+ "id": "B188",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Criticality gives no slow dissipative relaxation: the metallic Liouvillian gap matches the extended chain, decays with L, and is homogeneous in external rates.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

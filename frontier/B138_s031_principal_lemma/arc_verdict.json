@@ -1,0 +1,10 @@
+{
+ "id": "B138",
+ "verdict": "PROVED",
+ "claim_one_line": "The principal Sym^{n-1} image of an SL(2) rep over K is a trace-map fixed point with all traces in K, for every n; the converse stays open.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

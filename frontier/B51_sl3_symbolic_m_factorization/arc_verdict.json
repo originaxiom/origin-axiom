@@ -1,0 +1,10 @@
+{
+ "id": "B51",
+ "verdict": "PROVED",
+ "claim_one_line": "With m symbolic the c=3 fixed-line Jacobian commutes with the exchange involution and block-diagonalizes into two 4-dim sectors with SymPy-verified characteristic polynomials.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

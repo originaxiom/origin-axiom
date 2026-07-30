@@ -1,0 +1,10 @@
+{
+ "id": "B273",
+ "verdict": "PROVED",
+ "claim_one_line": "The full quadratic cup product H¹×H¹→H²(e₆) at ρ_prin is identically zero (exact mod two large primes), so the {4,8} E6 deformations integrate to second order.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

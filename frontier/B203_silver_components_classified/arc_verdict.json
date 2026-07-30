@@ -1,0 +1,10 @@
+{
+ "id": "B203",
+ "verdict": "PROVED",
+ "claim_one_line": "All four silver SL(3) components are irreducible with A, B and the meridian of infinite order (cusped-type), explaining B202's missing tidy relation.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

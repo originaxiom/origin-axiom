@@ -1,0 +1,10 @@
+{
+ "id": "B269",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "T[4₁]'s single-cusp flavor symmetry is only U(1)⋊ℤ/2=O(2) with no SU(2) enhancement — the abelian wall holds; the state-integral saddle does reproduce Vol(4₁) at e^{iπ/3}.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

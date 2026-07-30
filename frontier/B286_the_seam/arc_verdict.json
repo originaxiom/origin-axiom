@@ -1,0 +1,10 @@
+{
+ "id": "B286",
+ "verdict": "PROVED",
+ "claim_one_line": "The ingredients live at the seam: Dehn filling the open complement supplies a forced 10-element exceptional set, chirality, an oriented CS sign, a 2π/n scale, and a peripheral clock.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "P011",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

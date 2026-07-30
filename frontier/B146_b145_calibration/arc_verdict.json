@@ -1,0 +1,10 @@
+{
+ "id": "B146",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "B145's arithmeticity arm and its 'forced implies self-mirror' slogan are refuted; the surviving statement is the orientation-independence dichotomy.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B145",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

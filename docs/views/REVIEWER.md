@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **741** |
-| words of findings prose | **478,741** |
-| test lock files referenced | **484** |
-| arcs carrying an authored verdict | **30** (4.0 %) |
+| research arcs with findings | **742** |
+| words of findings prose | **479,499** |
+| test lock files referenced | **485** |
+| arcs carrying an authored verdict | **317** (42.7 %) |
 | classified closures | **217** |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,10 +33,10 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 18 |
-| NEGATIVE | 5 |
-| OPEN | 6 |
-| RETRACTED | 1 |
+| PROVED | 195 |
+| NEGATIVE | 98 |
+| OPEN | 21 |
+| RETRACTED | 3 |
 
 ## How the doors were shut
 
@@ -73,9 +73,9 @@ Leg A: the meeting is probed on its analytic side, with the prereg sealed BEFORE
 The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object.  
 `B728_stokes_resummation/FINDINGS.md`
 
-**RETRACTED — `B90`** (507 words, 1 locks)  
-L1b is a genuine uniform result, but L1a is a TAUTOLOGY and 'exponent = rank from Cayley-Hamilton' is REFUTED; degree=rank stays proved only at n=3,4.  
-`B90_degree_rank_peripheral/FINDINGS.md`
+**RETRACTED — `B216`** (646 words, 1 locks)  
+The verdict that the f>=8 period-law split is genus-theoretic and NEEDS-SPECIALIST was an artifact of testing only the scalars +-I and is withdrawn.  
+`B216_period_law_f8_boundary/FINDINGS.md`
 
 ## How to falsify any of this
 

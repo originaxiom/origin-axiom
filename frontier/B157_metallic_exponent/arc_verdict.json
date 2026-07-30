@@ -1,0 +1,10 @@
+{
+ "id": "B157",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The banked closed form k = 4 - m(o-3) is refuted by bronze counterexamples; only the order-determined, rank-independent exponent survives.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B154",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

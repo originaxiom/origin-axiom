@@ -1,0 +1,10 @@
+{
+ "id": "B313",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Refuted 'matter = Fibonacci anyons' (27 branches to (7,3)+(1,6)) and 'the figure-eight is forced'; the (G2)_1 bridge is real but generic.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

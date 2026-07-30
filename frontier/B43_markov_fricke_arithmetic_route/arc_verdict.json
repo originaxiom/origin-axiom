@@ -1,0 +1,10 @@
+{
+ "id": "B43",
+ "verdict": "OPEN",
+ "claim_one_line": "The Markov-Fricke discriminant route reaches I=1/4 only after assuming an integer-trace filter; without it the discriminant is continuous with no arithmetic minimum.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

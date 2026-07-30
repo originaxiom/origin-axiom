@@ -1,0 +1,10 @@
+{
+ "id": "B9",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Fibonacci fusion and the cubic vertex only share the polynomial tau^2-tau-1; no fusion-to-scattering map exists.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B135",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "There is no metallic family of Lee-Yang realizations since only m=1 has lambda<2, and the golden bridge matches only at modular-data level.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

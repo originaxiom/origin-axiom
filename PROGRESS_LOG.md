@@ -8706,3 +8706,27 @@ than the number, since both disagreements run the same direction, one seat label
 the other is more cautious, which is systematic rather than random and predicts a conservatism
 offset that should be measured at scale rather than discovered there. The fan-out is unblocked, with
 the two definitional repairs to be written into the vocabulary first. Nothing to CLAIMS.
+
+The first authoring wave ran as a twelve-reader fan-out gated on the measured agreement, with a
+three-agent audit behind it, fifteen agents in all and no errors. Coverage moves from thirty arcs to
+three hundred and seventeen, from four per cent to nearly forty-three, and twenty-eight supersession
+links are recorded, the first edges of that kind in the corpus. Five of the six faces that carried
+no proved arc now carry one. The wave's most useful result, though, came from this seat's own
+mistake. The three hundred identifiers were hand-transcribed into the workflow arguments and nine
+were wrong, which accidentally supplied the test that mattered: six pointed at arcs that do not
+exist, and every one of the six came back marked open with the note that no directory was found and
+a claim stating plainly that no content existed. Not one reader invented an arc, under a live fault
+rate of nine in three hundred. Three more pointed at directories holding no findings file but real
+content under other names, a differently-suffixed findings file, a script, a readme, and the readers
+found that content and authored honest substantive verdicts from it, which is resourceful rather
+than fabricated but is outside the declared method, so those three were deleted rather than kept,
+because the wave's provenance claim that every verdict was authored from a findings file has to stay
+true and keeping good work that entered through an error would have quietly falsified it. Two
+results are recorded with their weaknesses rather than without. The audit judged thirty-six of
+thirty-six defensible and disputed nothing, which is weak evidence twice over, since the sample took
+the first three arcs of each slice rather than a random three and so systematically drew the
+earliest and most template-like arcs, and since an audit that disputes nothing is the vacuity
+pattern this session has now flagged three times. The predicted conservatism offset is visible as a
+fifty-five point spread in the proved-rate across slices, but the slices are chronological, so the
+spread mixes genuine era differences with reader bias and this design cannot separate them; the next
+wave needs overlapping slices. Nothing to CLAIMS.

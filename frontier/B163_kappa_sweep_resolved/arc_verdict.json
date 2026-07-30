@@ -1,0 +1,10 @@
+{
+ "id": "B163",
+ "verdict": "PROVED",
+ "claim_one_line": "The kappa<2 spectrum is control-bracketed as a totally disconnected Cantor set, and no spectral feature encodes the figure-eight geometry at kappa=-2.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B162",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

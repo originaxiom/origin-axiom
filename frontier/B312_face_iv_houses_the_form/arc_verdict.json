@@ -1,0 +1,10 @@
+{
+ "id": "B312",
+ "verdict": "PROVED",
+ "claim_one_line": "Showed Face IV houses the same E6 as the content via the CIZ level-10 modular invariant, plus both arithmetic ends; the level itself is generic.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

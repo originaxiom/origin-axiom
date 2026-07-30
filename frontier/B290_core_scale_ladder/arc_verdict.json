@@ -1,0 +1,10 @@
+{
+ "id": "B290",
+ "verdict": "PROVED",
+ "claim_one_line": "The (1,n) core geodesic obeys the Neumann–Zagier ladder ℓ_ℂ=2πi/n+(π/√3)/n²+O(1/n³) with coefficient predicted by the cusp shape; separately, the filling n is not the WRT level k.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

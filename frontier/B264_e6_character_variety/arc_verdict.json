@@ -1,0 +1,10 @@
+{
+ "id": "B264",
+ "verdict": "PROVED",
+ "claim_one_line": "Exact Fox-calculus computation gives dim H¹(π₁(4₁),Ad ρ_prin)=6=rank(E6), graded by the E6 exponents, with {4,8} directions deforming out of F₄.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B173",
+ "verdict": "PROVED",
+ "claim_one_line": "The woven two-seed gap-label group is rank 3 = 1+#distinct quadratic fields (PSLQ-certified), reducing B172's gap to the gap-labeling theorem.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B110",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The off-locus irreducible sector is empty for the figure-eight at SL(3): all three irreducible components lie on the forced locus.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

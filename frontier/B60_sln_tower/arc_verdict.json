@@ -1,0 +1,10 @@
+{
+ "id": "B60",
+ "verdict": "PROVED",
+ "claim_one_line": "Establishes the empirical cross-n tower map for n=3,4: M-powers climb and densify, a sign sector appears at n=4, and the parity block grows.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

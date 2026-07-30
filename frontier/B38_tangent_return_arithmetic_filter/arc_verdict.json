@@ -1,0 +1,10 @@
+{
+ "id": "B38",
+ "verdict": "OPEN",
+ "claim_one_line": "Requiring integer minimal hyperbolic trace on the tangent return gives mu=3 and I=1/4, but the needed inheritance of the arithmetic filters is unproven.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

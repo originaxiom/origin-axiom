@@ -1,0 +1,10 @@
+{
+ "id": "B134",
+ "verdict": "PROVED",
+ "claim_one_line": "The chirality recursion is proved: a metallic-block bundle is amphichiral iff its block-length sequence is a cyclic palindrome, a corollary of Goodman-Heard-Hodgson 2008.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B128",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

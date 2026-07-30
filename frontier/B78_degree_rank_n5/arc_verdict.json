@@ -1,0 +1,10 @@
+{
+ "id": "B78",
+ "verdict": "OPEN",
+ "claim_one_line": "The decisive n=5 degree=rank test is a method-limit: every converged SL(5) bundle rep is reducible, so M^5=L is neither confirmed nor refuted.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}
