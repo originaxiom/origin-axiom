@@ -2717,7 +2717,14 @@ duplicated authoritative filenames is R35-8.**
 - [ ] R35-5 (carried, R34-7): **face attachment** — 573 arcs on no face, measured **not automatable**.
 - [ ] R35-6 (carried, R34-8): B685's normalisation; B731's stale `revival_score: 10`; the ~111
   unregistered negatives (B801); **the spectral paper, still finished and unshipped**.
-- [ ] R35-7: **the lexicon's full re-grounding (B806)** remains open. B825 closed the one *known*
+- [x] R35-7: **CLOSED by B838 — tested and DECLINED with a computed reason**, not deferred a sixth
+  time. Every distinctive K023–K025 term is either **ambient** (`forcing/forced` **41.9 %**, worse
+  than the 13.8 % that killed B824) or **absent** (`held slot` **0.1 %**, one arc) — there is no
+  middle, so a motif from the first is a catch-all and from the second matches nothing. The reason:
+  **K023–K025 are retrospective SYNTHESES, not new topics** — a motif lexicon indexes topics, and a
+  synthesis re-describes ones already indexed. B806's premise (a K-entry unrepresented in the
+  lexicon is a gap) **is wrong for syntheses**. Original text follows:
+  ~~**the lexicon's full re-grounding (B806)** remains open.~~ B825 closed the one *known*
   gap; the 18+1 motifs are still grounded in K001–K022 and unrevisited since 2026-07-01, and
   `BLIND_ARCS.md` says so in place so an empty `GAP` column is not read as a finished instrument.
 

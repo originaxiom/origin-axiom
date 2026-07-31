@@ -17454,6 +17454,27 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B838": {
+   "slug": "lexicon regrounding",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "B806",
+    "B821",
+    "B824",
+    "B825",
+    "K001",
+    "K022",
+    "K023",
+    "K024",
+    "K025"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B83": {
    "slug": "sln apolynomial",
    "motifs": [
