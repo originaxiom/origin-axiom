@@ -1,0 +1,10 @@
+{
+ "id": "B754",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Re-adjudicating 19 banked negatives against the frozen spectral surface gives 17 KILL-EXTENDS, 2 FACE-IRRELEVANT and 0 FACE-OPENS; WALL-1 extends on four independent spectral mechanisms.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

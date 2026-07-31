@@ -1,0 +1,10 @@
+{
+ "id": "B827",
+ "verdict": "PROVED",
+ "claim_one_line": "37 progress-log entries went to an accidental shadow file over ten days because the pairing gate compared a frozen timestamp and had become incapable of failing; entries were recovered and two failing-capable checks installed.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

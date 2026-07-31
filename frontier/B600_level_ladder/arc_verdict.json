@@ -1,0 +1,10 @@
+{
+ "id": "B600",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4 (κ=16), reproduced in an independent pipeline and certified exactly in the integrated packet, so H133 dies at its own registered gate.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

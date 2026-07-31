@@ -1,10 +1,10 @@
 {
  "id": "B746",
- "verdict": "NEGATIVE",
- "claim_one_line": "The golden ledger comes back GAPPED: ten of twelve structural floors are forced-golden but the voice floor carries zero golden markers (Eisenstein only).",
+ "verdict": "PROVED",
+ "claim_one_line": "ESTABLISHED: the two-column law -- golden is FORCED on 10 of 12 structural floors while the voice floor carries zero golden markers and is pure Q(sqrt-3), so golden is the object's dynamical column and Eisenstein its being column. UNSETTLED: the owner's 'golden all the way up' hypothesis is GAPPED at the voice floor, not confirmed and not refuted.",
  "instrument": true,
  "depends_on": [],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "W2-wave2-calibrated"
+ "authored_by": "W2-wave2-calibrated; corrected by B834 (24 readers, two panels, unanimous)"
 }

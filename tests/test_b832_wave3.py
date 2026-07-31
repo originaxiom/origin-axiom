@@ -36,17 +36,17 @@ def test_the_block_is_complete_12x16():
 
 
 def test_the_three_corpus_disagreements_are_recorded():
-    """A self-consistent panel uniformly drifted -- the thing kappa cannot see."""
-    corpus = {}
-    for p in glob.glob(str(ROOT / "frontier" / "*" / "arc_verdict.json")):
-        d = json.loads(Path(p).read_text(encoding="utf-8"))
-        corpus[d["id"]] = d["verdict"]
-    diff = []
-    for a, m in _ratings().items():
-        mode = Counter(m.values()).most_common(1)[0][0]
-        if a in corpus and mode != corpus[a]:
-            diff.append(a)
-    assert set(diff) == {"B61", "B556", "B746"}, f"expected the three recorded arcs; got {diff}"
+    """A self-consistent panel uniformly drifted -- the thing kappa cannot see.
+
+    B834 resolved the disagreement IN THE PANEL'S FAVOUR after replication, so comparing the panel
+    to the corpus now agrees. The enduring fact is what the panel said, which is what this arc
+    measured -- so assert that directly rather than a difference that has since been closed.
+    """
+    modes = {a: Counter(m.values()).most_common(1)[0][0] for a, m in _ratings().items()}
+    for a in ("B61", "B556", "B746"):
+        assert modes[a] == "PROVED", (
+            f"{a}: wave 3's panel called it PROVED against a corpus label of OPEN/NEGATIVE; "
+            f"B834 replicated that and corrected the corpus")
 
 
 def test_all_three_disagreements_drift_toward_PROVED():

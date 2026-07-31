@@ -98,6 +98,19 @@ here — the repairs would have taken that sample to κ = 1.0.
 | **OPEN** | the arc advanced something but **settled nothing** |
 | **RETRACTED** | the headline is the withdrawal of **this arc's own** previously banked result |
 
+**MIXED ARCS — a verified core with an unsettled extension (B834, 2026-07-30).** Some arcs establish
+something exactly *and* leave a labelled extension open. B556 says it in its own header: *"the
+computational core is VERIFIED EXACTLY; the tower-as-physics-ladder reading is banked as a labelled
+HYPOTHESIS."* The four-category vocabulary forces one label onto both halves.
+
+> **Label a mixed arc by what it ESTABLISHED, and carry the unsettled half in the claim line** —
+> prefixed `ESTABLISHED:` … `UNSETTLED:`. `OPEN` is for an arc that settled **nothing**.
+
+**Measured, not asserted:** two independent 12-reader panels, judging blind, were **unanimous
+(24/24, 24/24, 23/24)** against the corpus on exactly three arcs — B61, B556, B746 — **all three
+mixed, all three drifting the same way.** κ = 0.93 was blind to it; only comparing the panel against
+the corpus exposed it. **A panel can be perfectly self-consistent and uniformly drifted.**
+
 **Disambiguation (B818, from the two errors wave 2's untested vocabulary let through).** `RETRACTED` applies only when the arc withdraws **its own** headline. An arc that *establishes* that **another** arc's claim fails is doing positive work: label it by what **it** established (`PROVED` / `NEGATIVE`), and the retraction lands on the **target** arc's record. This is what keeps the ledger usable — `RETRACTED` on X means "do not trust X's old claim", and that is the only thing the label is good for. Mislabelling an auditor as RETRACTED makes the ledger say the audit is untrustworthy, which is the opposite of the truth.
 
 

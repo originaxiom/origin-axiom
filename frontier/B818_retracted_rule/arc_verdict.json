@@ -1,0 +1,10 @@
+{
+ "id": "B818",
+ "verdict": "PROVED",
+ "claim_one_line": "Audits all 8 RETRACTED verdicts, finds 2 wrong (B745 and B525, auditors mislabelled by their targets' failures), corrects them to PROVED, and fixes the rule that RETRACTED applies only when an arc withdraws its own headline.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

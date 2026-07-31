@@ -1,0 +1,10 @@
+{
+ "id": "B607",
+ "verdict": "PROVED",
+ "claim_one_line": "In the θ-odd sector 22 of the 24 non-Cartan lines are bicharge-mixed; only the extremal tips wt=±16 with bicharge (1,1) are pure, so no subsystem/coset grading exists anywhere else.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **759** |
-| words of findings prose | **492,578** |
-| test lock files referenced | **503** |
-| arcs carrying an authored verdict | **667** (87.9 %) |
+| research arcs with findings | **760** |
+| words of findings prose | **493,246** |
+| test lock files referenced | **504** |
+| arcs carrying an authored verdict | **756** (99.5 %) |
 | classified closures | **217** |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,10 +33,10 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 403 |
-| NEGATIVE | 229 |
-| OPEN | 27 |
-| RETRACTED | 8 |
+| PROVED | 462 |
+| NEGATIVE | 257 |
+| OPEN | 28 |
+| RETRACTED | 9 |
 
 ## How the doors were shut
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B795`** (725 words, 0 locks)  
-All seven of cc3's m004 Maass eigenvalues are reproduced by an independently written collocation solver with displaced controls (7/7 confirmed).  
-`B795_eigenvalue_verification/FINDINGS.md`
+**PROVED — `B833`** (609 words, 1 locks)  
+A direct count of 137 NEGATIVE-verdict arcs absent from the kill graph lands inside B801's estimated interval 55-168, and the '66% coverage' figure is shown to be an arc-level vs kill-level unit mismatch.  
+`B833_negative_routing/FINDINGS.md`
 
-**NEGATIVE — `B793`** (852 words, 0 locks)  
-Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so "parent-validated" is unearned.  
-`B793_gate8r2a_parent_localisation/FINDINGS.md`
+**NEGATIVE — `B824`** (509 words, 1 locks)  
+The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character variety' alone carrying 13.8%); it was reverted and B537 stays a recorded GAP.  
+`B824_charvar_motif/FINDINGS.md`
 
 **RETRACTED — `B780`** (851 words, 0 locks)  
 The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  

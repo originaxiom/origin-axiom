@@ -1,0 +1,10 @@
+{
+ "id": "B799",
+ "verdict": "PROVED",
+ "claim_one_line": "All twelve uncomputed doors were dispositioned: 2 computed in exact arithmetic (both closures stand), 5 citations executed with their locks re-run, 5 honest downgrades - so the compiler's fact_computed flag carries real information.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

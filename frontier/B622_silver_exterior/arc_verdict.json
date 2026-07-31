@@ -1,0 +1,10 @@
+{
+ "id": "B622",
+ "verdict": "PROVED",
+ "claim_one_line": "The silver RRLL bundle m136's exterior adjoint Reidemeister torsion is exactly -16 = 2-(phi^6+phi^-6), a second negative data point for the exterior sign law, with the fig-8 and silver adjoint tangent fields swapping (sqrt21 vs sqrt5).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

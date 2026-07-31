@@ -1,0 +1,10 @@
+{
+ "id": "B683",
+ "verdict": "PROVED",
+ "claim_one_line": "Proves unconditionally by 5-adic strict dominance that c_n = [q^n](q;q)_inf^{-3/5} satisfies v_5(c_n) = -(n+v_5(n!)) for every n; the inert-5 monofocal reading fails and m(A_{4_1}) = Vol(4_1)/pi is unrelated to L'(E_15,0).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

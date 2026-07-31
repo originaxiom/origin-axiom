@@ -1,0 +1,10 @@
+{
+ "id": "B608",
+ "verdict": "PROVED",
+ "claim_one_line": "The E6 Rosetta table exists only in mixed form: 9 of the 12 odd-block pair-combos weld roots from different G_SM classes, with the weight-16 tips the unique class-pure (1,1,2) anchors.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

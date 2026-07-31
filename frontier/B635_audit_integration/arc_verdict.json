@@ -1,0 +1,10 @@
+{
+ "id": "B635",
+ "verdict": "PROVED",
+ "claim_one_line": "The audit seat's computations were reproduced in-sandbox (all gates pass, 162/162 coboundary descents, h1(D;27)=2 at the full-E6 bends, the -A1 weld fails to descend) and every cross-seat packet verified on receipt.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

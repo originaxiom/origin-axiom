@@ -1,0 +1,10 @@
+{
+ "id": "B402",
+ "verdict": "PROVED",
+ "claim_one_line": "The single-object reality wall has two mechanisms split by seed (m=1 cell-wise local, m=2 aggregate-only), and seam intensity obeys f(gcd(address,15)) with the untwisted canonical point the unique dark address.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

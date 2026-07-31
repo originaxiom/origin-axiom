@@ -1,0 +1,10 @@
+{
+ "id": "B823",
+ "verdict": "PROVED",
+ "claim_one_line": "The lexicon gate is replaced by a per-arc triage registry with no threshold, failing only on untriaged substantial blind arcs — verified by three negative controls; 9 arcs triaged, 1 open GAP (B537).",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

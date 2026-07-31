@@ -1,0 +1,10 @@
+{
+ "id": "B802",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Independently reproduced the mechanism behind cc3's B783: reversal leaves the Fibonacci letter frequencies unchanged while gamma_5 moves every phi-built quantity, so gamma_5 is not reading direction.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

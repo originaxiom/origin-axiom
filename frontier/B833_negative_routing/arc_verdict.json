@@ -1,0 +1,10 @@
+{
+ "id": "B833",
+ "verdict": "PROVED",
+ "claim_one_line": "A direct count of 137 NEGATIVE-verdict arcs absent from the kill graph lands inside B801's estimated interval 55-168, and the '66% coverage' figure is shown to be an arc-level vs kill-level unit mismatch.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

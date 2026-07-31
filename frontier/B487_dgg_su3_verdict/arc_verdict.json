@@ -1,0 +1,10 @@
+{
+ "id": "B487",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Gang–Yonekura SU(3) enhancement of T[S³∖4₁] is a global FLAVOR symmetry of a 3d N=2 theory, not a gauged 4d colour group, so the 'figure-eight DGG theory has the SM gauge group' claim is refuted on four points.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

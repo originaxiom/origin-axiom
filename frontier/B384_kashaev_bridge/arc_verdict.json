@@ -1,0 +1,10 @@
+{
+ "id": "B384",
+ "verdict": "PROVED",
+ "claim_one_line": "The Kashaev ladder carries a nonzero sqrt5-component at every 5|N level tested (bet b passes, the valuation bet killed), the m=1 seed constant 1/4 transports exactly to level 45, and the triangular (S,T) slot block gives a sector NO-MATCH.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

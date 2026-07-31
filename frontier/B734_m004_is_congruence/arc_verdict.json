@@ -1,0 +1,10 @@
+{
+ "id": "B734",
+ "verdict": "PROVED",
+ "claim_one_line": "π₁(m004) reaches the geometric index 12 at level (2)³=(8), so the figure-eight knot group IS a congruence subgroup — three 2-adic levels deeper than its sister m003.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B731",
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

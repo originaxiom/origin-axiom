@@ -1,0 +1,10 @@
+{
+ "id": "B826",
+ "verdict": "PROVED",
+ "claim_one_line": "B519's missing verdict was a filename gap, not a content gap - its VERDICT.md already carried its own correction - so B519 is tagged RETRACTED and the writer-safety invariant is widened to FINDINGS.md or VERDICT.md, prereg excluded.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B586",
+ "verdict": "PROVED",
+ "claim_one_line": "The E6 level-2 stage also hears everything (tr_even = 0 exactly, tr_odd = +1) as on the golden stage, -1/phi is stage arithmetic that does not travel, and 4_1's invertibility makes the solo antiphase identically zero.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

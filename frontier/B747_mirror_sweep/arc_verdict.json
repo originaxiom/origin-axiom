@@ -1,0 +1,10 @@
+{
+ "id": "B747",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No child re-sees the hearing field: all 78 fillings' invariant trace fields are √5-free — 54 odd-degree slopes by theorem, 24 even-degree by exact x²−5 root test — with all controls passing.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

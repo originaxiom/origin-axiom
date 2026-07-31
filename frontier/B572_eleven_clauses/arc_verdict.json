@@ -1,0 +1,10 @@
+{
+ "id": "B572",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Adjudicating the eleven-clause chain: nine clauses were already banked, its one new branching 27|principal = V3+V7+V17 is false (correct V17+V9+V1), and its chirality step welds a c-fact into a theta-slot unpaid.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

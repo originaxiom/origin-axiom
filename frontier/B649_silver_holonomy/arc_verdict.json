@@ -1,0 +1,10 @@
+{
+ "id": "B649",
+ "verdict": "PROVED",
+ "claim_one_line": "The silver m136 holonomy is exact over L=Q(s,i), and its 27-double reproduces the fig-8's FORM rows (3/5/1 dimensions, J^2=+1 real structure, zero law, sigma*-law, imaginary-quadratic field of definition); VALUE rows are object-chosen.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

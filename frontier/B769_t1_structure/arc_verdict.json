@@ -1,0 +1,10 @@
+{
+ "id": "B769",
+ "verdict": "PROVED",
+ "claim_one_line": "T1's fixedness under the closing group is forced because <c,theta,gamma_5> = (Z/2)^3 is abelian; T1's discrete part is a genuine 3-element frame torsor and the continuous relative position is gauge-fixed to angle 0 at the geometric point.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B654",
+ "verdict": "PROVED",
+ "claim_one_line": "The chord's field of definition equals the tetrahedral shape field (fig-8 Q(sqrt-3), silver Q(i)), the melody period is N0 = 75*lcm{d^2} exactly, the defect law defect = 2*conj(Y) is universal, and the five tones are |chi_golden|/2 over the 2I classes.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

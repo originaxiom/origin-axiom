@@ -1,0 +1,10 @@
+{
+ "id": "B401",
+ "verdict": "PROVED",
+ "claim_one_line": "The ℤ/2 class group of ℚ(√−15) acts on the banked constants (two independent faces are one orbit; the det-class prediction confirmed), and every class-1 cell with χ₋₃=+1 is individually ℚ(√5)-real — a cell-wise Eisenstein gate.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

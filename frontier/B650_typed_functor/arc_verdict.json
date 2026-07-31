@@ -1,0 +1,10 @@
+{
+ "id": "B650",
+ "verdict": "PROVED",
+ "claim_one_line": "The frozen type system passed its held-out battery after one disclosed revision, and the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear map), the sought functor being group-level.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

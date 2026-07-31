@@ -1,0 +1,10 @@
+{
+ "id": "B703",
+ "verdict": "PROVED",
+ "claim_one_line": "With PDG masses the Koide angle is theta_0 = 0.2222296(83) rad, i.e. 0.89 sigma from 2/9 (the crude 7 sigma refuted), and it is firewalled as a post-hoc, convention-framed fit the framework does not derive.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

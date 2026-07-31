@@ -1,0 +1,10 @@
+{
+ "id": "B606",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Outcome D-nf: no torsion-power normalization can close the value gauge, since tau_4's 97 and tau_8's 31*607*49297 have no partners in the hearing integers; the exact constants N(h3)=1/5 and 1/49 survive.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

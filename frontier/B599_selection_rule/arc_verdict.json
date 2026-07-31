@@ -1,0 +1,10 @@
+{
+ "id": "B599",
+ "verdict": "PROVED",
+ "claim_one_line": "A Θ-homogeneous pairing vanishes unless the number of θ-odd factors is even (C central, C²=1), subsuming seven banked results; the algebraic face was recomputed in-repo and matched every expected lock.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

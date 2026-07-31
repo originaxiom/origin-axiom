@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-667 of 759 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+756 of 760 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (403)
+## PROVED (462)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -32,6 +32,7 @@
 | `B57` | Classifies integer splitting of the antisymmetric fixed-line quartic for m=1..6 (c=1,3 universal plus m-dependent extras) and kills the class-number coincidence. |  | 0 |
 | `B59` | Determines the SL(4) fixed-line spectrum numerically (five char(M^k), a new sign sector char(-M^2), degree-3 parity), refuting PC12's (n^2-1-parity)/2 prediction. |  | 0 |
 | `B60` | Establishes the empirical cross-n tower map for n=3,4: M-powers climb and densify, a sign sector appears at n=4, and the parity block grows. |  | 0 |
+| `B61` | ESTABLISHED: B60's SL(5) 'conditioning wall' was a rank-23 forward-word coordinate defect, and inverse-word coordinates at dps=60 resolve 22 of 24 multipliers onto the Cayley-Hamilton catalog. UNSETTLED: the remaining 2 modes and any symbolic proof -- this is high-precision numerics, not a proof. |  | 1 |
 | `B62` | The exchange involution is the opposition involution theta=-w0; its height-2 root-space split identifies the 2 unresolved SL(5) modes as char(M^2), completing the degree-24 factorization. |  | 1 |
 | `B63` | The SL(4) metallic fixed-line Jacobian factors over Z[m] into Dickson factors char(M^k) with m-independent structure, L_k=tr(M^k). |  | 1 |
 | `B64` | The k(alpha) sector-assignment is proven symbolically: even-|k| char(M^k) is P-symmetric, odd-|k| P-antisymmetric, via depth-n CH plus Dickson parity. |  | 1 |
@@ -238,6 +239,8 @@
 | `B380` | A new proven Galois symmetry σ₃₁ holds on all six pair tables, the mirror is derived as conjugation, and a 16-element census maps where √5-conjugacy fails. |  | 1 |
 | `B381` | Theorem: the seam is nonzero exactly when the quantization carries the half-characteristic twist zeta15^(-j(j+1)/2); the two lifts are provably inequivalent. |  | 1 |
 | `B382` | The shifted-trace phase law is pinned in closed form and the slot constant assembles exactly, decomposing 1/12 as generic 1/16 plus 5-ramified 1/48. |  | 1 |
+| `B383` | T1 proved by finite exact verification at level 15: t(16,b) lies in Q(sqrt5) for all b in Z_12 (the sqrt-3 and sqrt-15 components vanish across row 16), with the mechanism a zero of the anti-table's zeta_5-spectrum at the 16-exponent. |  | 1 |
+| `B384` | The Kashaev ladder carries a nonzero sqrt5-component at every 5|N level tested (bet b passes, the valuation bet killed), the m=1 seed constant 1/4 transports exactly to level 45, and the triangular (S,T) slot block gives a sector NO-MATCH. |  | 1 |
 | `B386` | The level-15 Par-trace factorizes exactly as C3 times C5 on all 240 cells, and the windowed closed form derives 1/12 = 1/16 + 1/48 end-to-end. |  | 1 |
 | `B390` | Seam brightness is decided by the local theta models at q=3 and q=5 alone (12/12 plus an out-of-sample pass), with dark pairs attributed by an exact rank-2 pairing. |  | 1 |
 | `B391` | At general N = 3^a 5^b the value sector exists iff a and b are not both even; both registered predictions (243, 625) hit. |  | 1 |
@@ -245,6 +248,8 @@
 | `B394` | Both registered walk rules died, and the reward is exact: singles take the form (1+c)/12 with support sum frozen at 1 across four levels. |  | 1 |
 | `B396` | The P64 factorization holds on every banked pair's domain (661 cells, zero mismatches), so the whole banked value dataset is formula-derived. |  | 1 |
 | `B399` | The seam's 1/12 recruits the golden boundary while the singles' 1/12 is purely generic; the singles tower refines rather than generates scale, and at the 1215 rung Σ=1 and e₂=−1/48 are exact. |  | 1 |
+| `B401` | The ℤ/2 class group of ℚ(√−15) acts on the banked constants (two independent faces are one orbit; the det-class prediction confirmed), and every class-1 cell with χ₋₃=+1 is individually ℚ(√5)-real — a cell-wise Eisenstein gate. |  | 1 |
+| `B402` | The single-object reality wall has two mechanisms split by seed (m=1 cell-wise local, m=2 aggregate-only), and seam intensity obeys f(gcd(address,15)) with the untwisted canonical point the unique dark address. |  | 1 |
 | `B404` | Every class-1 Par-cell is a root of unity in μ₆₀ (142/142) and the Eisenstein gate is derived with zero violations — 3|ord(C) ⟺ χ₋₃(det(γ′−I))=−1 — while χ₅(det)=−1 one-directionally forces 5|ord(C). |  | 1 |
 | `B410` | The coupling criterion separates 4/4 on the full-field product strata (bright iff some X₃·X₅ carries √−15), reducing the crown's why to the banked M1 stratification law. |  | 1 |
 | `B412` | The single-seed tower is an exact mass-conserving refinement: each parent splits into a cyclotomic orbit summing to it, with trace-zero innovations (an Iwasawa-type measure). |  | 0 |
@@ -283,6 +288,7 @@
 | `B478` | The unexplained +j term is exactly a Heisenberg clock translation: Par·D(m,c)·Par = D(m,c)·Z^{cm}, trace-invisible but address-shifting. |  | 0 |
 | `B479` | Theorem: the sigma_m-fixed cusp characters are exactly the order-d torsion characters for divisors d>=3 of m, with no non-elliptic components; field labels corrected. |  | 1 |
 | `B482` | Verified the twisted-Markov handoff: the det -1 Markov spectrum below 3 is exactly {sqrt5, 2sqrt2}, and tr[A,B] = 2 - gap^2/(detA detB) generalizes P4's Lemma 2.2. |  | 0 |
+| `B483` | The object's golden structure is a face of the Fibonacci-anyon TQFT (tau x tau = 1 + tau is the substitution's own golden recursion), while the 3:8:15 overlay is the forced arithmetic a(a+2) and stays firewalled. |  | 0 |
 | `B485` | Closed the metallic Alexander law Delta_m(a) = a^2 - (m^2+2)a + 1 for m=1..5 (the monodromy char poly), with genus 3 anchored at m=1. |  | 0 |
 | `B488` | The metallic family's DGG data obeys two clean laws, gauge U(1)^(2m-1) and H1 = (Z/m)^2 + Z for m=1..8; SU(3) flavor enhancement applies only at m=1. |  | 0 |
 | `B496` | The Thue-Morse trace map (z, z, xyz - x^2 - y^2 + 2) and its exact kappa-factorization kappa' - 2 = (kappa-2)(x^2+y^2-xyz) verified, with degree growth 2. |  | 1 |
@@ -319,6 +325,7 @@
 | `B547` | (4,4,16) is a proved ghost and the first all-hyperbolic one, obstructed by an inert prime rather than elliptic rigidity — a second ghost mechanism. |  | 1 |
 | `B552` | coker(I−M) ≅ ℤ/11 with primitive left generator χ=(1,3,6,7) is conserved by σ and transported unchanged along the observer flow, and it decouples from the double clock. |  | 1 |
 | `B553` | Verified exact from seat-1's session: |det(A_m - I)| = m^2 (the metallic Weil level), the odd-Fibonacci Markoff cluster, and Z/11-charge-clock decoupling; two errors corrected and Markoff unicity left as an open assessment. |  | 1 |
+| `B556` | ESTABLISHED exactly: T(M)=[[M,M],[M^2,M]] sends the golden Fibonacci matrix to the sigma_4 incidence matrix verbatim, and the field doubles at every verified rung (norm-sign + determinant telescope). UNSETTLED: the tower-as-physics-ladder reading, banked as a labelled HYPOTHESIS. |  | 7 |
 | `B560` | Chat-3's campaign cells verified and re-derived: localized Z/11 carriers, prefix-independent observer-flow graph, 253-point certified atlas, exact Z[tau] frequency module. |  | 1 |
 | `B564` | The SL(3) phi-fixed locus contains no irreducible representation: phi-fixedness pins A to finite order, which forces the intertwiner to split block-diagonally. |  | 1 |
 | `B575` | The quadratic obstruction Q(u)=[u∪u] vanishes identically in all six E₆ directions, with constructive second-order certificates: the variety is smooth past the principal point. |  | 1 |
@@ -327,6 +334,8 @@
 | `B582` | The θ-odd-twisted mirror-double has E₆ representations with Zariski closure full E₆(ℂ), so its 27 is complex — chiral matter constructed. |  | 1 |
 | `B583` | The meeting stays complex-chiral with no real form, vacuum Dehn-filling probes can never hear chirality, and the corrected interference obeys a quadrature theorem. |  | 2 |
 | `B584` | On the golden stage SU(3)_2 the entire amplitude -1/phi is theta-odd, heard only by the antiphase mirror channel; the theta-even block cancels exactly. |  | 1 |
+| `B585` | The θ-odd channel is exactly what the two SL(2,ℤ) lifts agree on, and the figure-eight's chiral SU(3)_k trace obeys the two-tone law 1·[4|κ]−(1/φ)·[5|κ] (5/5 held-out hits); the field-containment mechanism is refuted. |  | 1 |
+| `B586` | The E6 level-2 stage also hears everything (tr_even = 0 exactly, tr_odd = +1) as on the golden stage, -1/phi is stage arithmetic that does not travel, and 4_1's invertibility makes the solo antiphase identically zero. |  | 1 |
 | `B587` | The tone mechanism is solved: the SU(3) invariant decomposes into twelve Weyl-twisted Weil Gauss-sum terms whose conductors det(A tensor w - I) explain every tone. |  | 1 |
 | `B588` | Sector exchange proved at the projector level: -1 lies in W(A1) but not W(A2), so identical sqrt5 Gauss data is even on one stage and odd on the other. |  | 1 |
 | `B589` | The three E₆₂ θ-odd pair amplitudes are exactly the ℤ/7 sine-kernel moduli times 14th-root phases {+3,−2,−1}, certified to 40+ digits. |  | 1 |
@@ -335,19 +344,27 @@
 | `B594` | The E6 level-2 hearing law is state-independent and its diagonal coefficients equal minus the banked Z/7 sine-kernel closed forms. |  | 1 |
 | `B595` | Consolidated the seven-row dictionary and confirmed two blind predictions: det(I - B_odd) = phi^2 at kappa = 5, and E6_2's fixed theta-odd ear hears no chirality. | yes | 1 |
 | `B598` | The Kashaev baseline is computed (growth = Vol/2pi, 1-loop constant 3^-1/4) and the exact six-block cusp table built, with the true longitude word corrected. |  | 8 |
+| `B599` | A Θ-homogeneous pairing vanishes unless the number of θ-odd factors is even (C central, C²=1), subsuming seven banked results; the algebraic face was recomputed in-repo and matched every expected lock. |  | 2 |
+| `B601` | trace(B_odd)(kappa) = [5|kappa]/phi - [4|kappa] holds exactly on 14 kappa-points including two registered discriminating predictions, and coincides with B587's LAW-O, making the odd trace law stage-universal. |  | 1 |
+| `B603` | Weight purity of the Omega-null state v0 makes every bent state v_m*v0 weight-homogeneous of weight 2m and hence J-isotropic at every block, so all single-generator L1 contractions are weight-forced. |  | 1 |
 | `B605` | Door 2 settled: the amphichiral involutions are FREE deck transformations, not reflections (Gieseking control). |  | 1 |
+| `B607` | In the θ-odd sector 22 of the 24 non-Cartan lines are bicharge-mixed; only the extremal tips wt=±16 with bicharge (1,1) are pure, so no subsystem/coset grading exists anywhere else. |  | 1 |
+| `B608` | The E6 Rosetta table exists only in mixed form: 9 of the 12 odd-block pair-combos weld roots from different G_SM classes, with the weight-16 tips the unique class-pure (1,1,2) anchors. |  | 1 |
 | `B609` | The Phase-2 sealed value table is banked: exact Killing-class mixing fractions, hearing amplitudes and finite-order kappa spectra, hashed before any comparison exists. | yes | 1 |
 | `B610` | Three universality splits computed: the R^2L bundle's odd trace is complex and zeta-6 phased, never conjugation-closed, and never leaves the unit circle. |  | 1 |
 | `B613` | Closure theorem: for GHH-anti-palindromic (amphichiral) weld words, conj(W)=Q⁻¹WᵀQ with Q=PSC, so the odd hearing spectrum is conjugation-closed at every level. |  | 1 |
 | `B617` | For every hyperbolic A, sign det'(I - Sym^2m A) = (-1)^m with closed form tau_m = (-1)^m prod (lambda^j - lambda^-j)^2 — the bundle sign law is pure parity. |  | 1 |
 | `B618` | The registered third-object prediction passes: the tr-5 bundle's √21 content appears exactly at levels {14,21,35,42}, confirming the tr²−4 conductor law. |  | 1 |
 | `B620` | In the Weyl-twisted Weil factorization the six signed reflections carry the only non-square conductor 4-t^2, so the object's field has exactly one door. |  | 1 |
+| `B621` | The kappa-gating law: writing t^2-4 = 3^v*m with gcd(m,3)=1, the reflection coset carries the object's field content if and only if m divides kappa, verified with exclusivity controls and zero exceptions for kappa = 4..27. |  | 0 |
+| `B622` | The silver RRLL bundle m136's exterior adjoint Reidemeister torsion is exactly -16 = 2-(phi^6+phi^-6), a second negative data point for the exterior sign law, with the fig-8 and silver adjoint tangent fields swapping (sqrt21 vs sqrt5). |  | 0 |
 | `B623` | The Weyl-Weil reciprocity reduction is proved (96/96) and the conductor identity det(h_w) = sign(w)det(A tensor w - I) derived; odd-kappa reciprocity stays open. |  | 0 |
 | `B624` | The odd hearing trace is the same twelve-term Weil coset Gauss assembly, reconciling the 4|kappa and 12|kappa gates with zero exceptions at kappa=4..24. |  | 0 |
 | `B625` | The Deloup–Turaev evaluation matches exactly iff 3|κ (48/48 versus 0/96), correcting B623's parity framing and fixing a real coset-enumeration bug. |  | 0 |
 | `B626` | The adjoint Jacobian J = mu + 1/mu is real exactly for the amphichiral words and complex for the chiral ones; the naive crossover laws are refuted. |  | 0 |
 | `B629` | The interaction-layer value bank: values sealed by hash, with NO comparison of any kind performed in this arc. | yes | 1 |
 | `B632` | h¹(M;27_ρ)=3 exactly over ℚ(ω): a graded three-slot cohomological generation structure (spins 0,4,8) plus a canonical invariant vev. |  | 1 |
+| `B635` | The audit seat's computations were reproduced in-sandbox (all gates pass, 162/162 coboundary descents, h1(D;27)=2 at the full-E6 bends, the -A1 weld fails to descend) and every cross-seat packet verified on receipt. | yes | 0 |
 | `B637` | All seven registered h0/h1 dimension predictions for the weld double's 27 local system are confirmed by a method-disjoint amalgam-Fox pipeline. |  | 1 |
 | `B638` | The deck swap is an antilinear involution with Eisenstein-unit spectrum that forces the chord's whole phase pattern; the magnitude-24 ratio is not forced. |  | 0 |
 | `B640` | The hearing group is verified as im rho = 2I x Z/3 with the exact SL(2,5) class equation and tr rho(RL) = -1/phi; the tone law's scope is corrected to det=1. |  | 0 |
@@ -357,6 +374,12 @@
 | `B645` | The unit cross-ratio law (Y[023]Y[134])/(Y[034]Y[123]) = 1 holds exactly on all six 024-silent doubles; the three lit doubles deviate by multiples of 13. |  | 1 |
 | `B646` | Three cc2 packets verified and banked — 11/11 seals rehashed, reruns reproduced, the corrected generic-silence law Z(κ)=(1−(κ|5))/2 adopted, one lead killed. | yes | 1 |
 | `B647` | Cell 1: imposing Y-compose-sigma* = conj(Y) over Q(sqrt-3) forces the ratio Y[023] = 24*zeta6*Y[123], which B638's swap law alone had left undetermined in 10 real dimensions. |  | 0 |
+| `B649` | The silver m136 holonomy is exact over L=Q(s,i), and its 27-double reproduces the fig-8's FORM rows (3/5/1 dimensions, J^2=+1 real structure, zero law, sigma*-law, imaginary-quadratic field of definition); VALUE rows are object-chosen. |  | 0 |
+| `B650` | The frozen type system passed its held-out battery after one disclosed revision, and the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear map), the sought functor being group-level. |  | 0 |
+| `B651` | Wave-3 packets verified at seal level (21/21), promoting the uniform jump law and the generic-silence law to theorem/certificate grade and proving the E6 Z-ladder periodic with period N_0 = 2,311,598,520,000. |  | 0 |
+| `B654` | The chord's field of definition equals the tetrahedral shape field (fig-8 Q(sqrt-3), silver Q(i)), the melody period is N0 = 75*lcm{d^2} exactly, the defect law defect = 2*conj(Y) is universal, and the five tones are |chi_golden|/2 over the 2I classes. |  | 1 |
+| `B656` | The digest queue was confirmed independently: B596's multiplier table is exactly the conductor clock ord(A₁ mod 3κ) (10/10 rows), and det(w) = (−1)^{v_p(det B_w)} holds iff v_p(disc) is odd (192/192, fresh Weyl group). |  | 2 |
+| `B657` | The 27's holonomy-invariant line is not the Spin(10) singlet; the portal P(u)=[v0 x u] is a rank-5 isomorphism H1(27)->H1(27bar) and each principal block carries exactly one H1 class, both banked as laws on two objects. |  | 1 |
 | `B661` | The other seat's 'portal couplings' are exactly the SU(3)_2 quantum dimensions 1/D and phi/D — stage-fixed across four words, no new object. |  | 1 |
 | `B663` | Bifocal credit adjudicated with corrections; the heart is an invertible Jordan unit, the resonant phase one Legendre character, the stage sign a block central character. |  | 1 |
 | `B664` | The metallic hearing landscape has closed form |tr_odd(n)| = (2sqrt3/D)|cos(pi(4n-5)/10)|, values {0,1/phi,1}, period 5; chat1's uniqueness criteria are refuted. |  | 1 |
@@ -368,6 +391,7 @@
 | `B679` | The engine_v7 gate_report patch hoists the O(N^3) expression out of the max generator, verified bit-identical on all gates with up to 221x speedup. | yes | 0 |
 | `B680` | Verified exactly that Vol(4_1) = (3sqrt3/2) L(chi_-3, 2) — the volume is the being-character L-value — and that 5 is inert in Q(sqrt(-3)). |  | 0 |
 | `B681` | The v₅ target decomposes exactly as n + v₅(n!), each summand with a divided-power/Habiro home: no v₅ obstruction, the design cycle is earned. |  | 1 |
+| `B683` | Proves unconditionally by 5-adic strict dominance that c_n = [q^n](q;q)_inf^{-3/5} satisfies v_5(c_n) = -(n+v_5(n!)) for every n; the inert-5 monofocal reading fails and m(A_{4_1}) = Vol(4_1)/pi is unrelated to L'(E_15,0). |  | 1 |
 | `B684` | Loop 7 closes the anatomy: the generation sum rule is derived as a theorem of the cubic shadow and the dark D4 value is identified exactly. |  | 1 |
 | `B689` | The figure-eight's weight-2 avatar exists only at level 15 = 3*5 (X_0(3) and X_0(5) both genus 0), so the two hands are irreducibly coupled. |  | 1 |
 | `B690` | The being (3-adic) object nearly realizes its divided-power law (defect ≤2) while the hearing (5-adic) one does not at all — the hands are asymmetric. |  | 1 |
@@ -377,6 +401,10 @@
 | `B695` | The level-15 handshake is a unique irreducible being-arithmetic coupling (59/60 primes); the claimed emergent chirality is falsified as generic even-rank behaviour. |  | 1 |
 | `B696` | The Eisenstein anatomy campaign is closed: the being face is charted as the golden face was, over seven loops into ATLAS v2. | yes | 1 |
 | `B698` | Leg A: the meeting is probed on its analytic side, with the prereg sealed BEFORE the verdict. |  | 0 |
+| `B700` | Measurement is a fiber-functor ℤ/2 torsor: at every prime stage SL(2,p) has exactly two (p−1)/2-dim irreps with character field ℚ(√p*) swapped simply-transitively, and the canonical torsor-iso is provably obstructed. |  | 0 |
+| `B703` | With PDG masses the Koide angle is theta_0 = 0.2222296(83) rad, i.e. 0.89 sigma from 2/9 (the crude 7 sigma refuted), and it is firewalled as a post-hoc, convention-framed fit the framework does not derive. |  | 0 |
+| `B704` | The per-stage torsors assemble into one F2-vector space: Gal of the maximal multiquadratic field over the stage fields is (Z/2)^k with the stage discriminants as basis and genus multiplication as the group law (verified for {-3,5,-7}). |  | 0 |
+| `B705` | A stage hears a metallic tone iff its weld field ℚ(√p*) is real (p≡1 mod 4), and the golden is uniquely audible three ways: unit tone, fibered (the Whitehead link is silent at ζ₅), and the only arithmetic bundle. |  | 0 |
 | `B708` | The program's seam sits inside Kim's arithmetic Chern-Simons: the two-hands coupling is the Hilbert-symbol linking number, audibility is non-linking with the infinite prime. |  | 0 |
 | `B711` | Amphichirality and the ℚ(√−3) Galois involution are orthogonal commuting ℤ/2 legs of a V₄; Galois acts freely on Fix(τ) at the geometric point. |  | 0 |
 | `B712` | The figure-eight A-polynomial's canonical point is imaginary (cusp shape 2*sqrt(-3)) with only degenerate real points, extending non-canonicity to the object's continuum. |  | 0 |
@@ -388,11 +416,18 @@
 | `B725` | The observer construction forces the Born rule's FORM and explains its quadratic degree as the c-swap's Galois order; Born CONTENT stays open. |  | 0 |
 | `B730` | The object's forced quadratic faces close at exactly three — ℚ(√−3), ℚ(√5), ℚ(√−15) — a Klein four-group; ℚ(√−7) is an external stage. |  | 0 |
 | `B732` | The observer's conjugation is realized as the outer automorphism of A5 (the F4-Frobenius) at the sister m003's level-(2) congruence quotient. |  | 0 |
+| `B733` | The menu of observers at the congruence doors is a bounded discrete F_2-space (V4 of dim 2, up to 3; the full diagonal 2-rank saturating at 3, depth-independent), and at door 2 the single bit couples being and hearing. |  | 0 |
+| `B734` | π₁(m004) reaches the geometric index 12 at level (2)³=(8), so the figure-eight knot group IS a congruence subgroup — three 2-adic levels deeper than its sister m003. |  | 0 |
 | `B738` | The audited kill-graph instrument over 217 classified negatives confirms the pathfinder's prediction: the emittance/scattering columns are consulted by essentially no kill. | yes | 0 |
 | `B739` | m004's continuous spectrum is character-rigid: one Eisenstein channel pulled back from the Bianchi base, scattering Λ_K(s−1)/Λ_K(s), carrying no level characters. |  | 0 |
 | `B742` | Re-adjudicating 213 banked negatives, 30 P1 kills were re-earned by computation and 2 (B58, B225) were revived as dead kills. | yes | 0 |
 | `B744` | All six disputed fact-basis rows upheld as computed with in-repo locks running green; the conflict was a corpus-scope difference, not an error. | yes | 1 |
 | `B745` | Independent cross-verification confirms both revivals, retracting B58's 'not numerically testable' headline and B225's vacuous 2-half kill. |  | 1 |
+| `B746` | ESTABLISHED: the two-column law -- golden is FORCED on 10 of 12 structural floors while the voice floor carries zero golden markers and is pure Q(sqrt-3), so golden is the object's dynamical column and Eisenstein its being column. UNSETTLED: the owner's 'golden all the way up' hypothesis is GAPPED at the voice floor, not confirmed and not refuted. | yes | 0 |
+| `B749` | The genesis axiom chain is priced by computation: F2/F3/F4/F7 ROBUST, F5 and F6 FRAGILE (the det −1 sibling is the Gieseking; closure keeps only the hearing face), and F8 geometry-necessary — geometry buys ℚ(√−3). |  | 1 |
+| `B750` | Thirteen banked refusals sort into exactly three sealed classes -- no basepoint (8), no bandwidth (3), no name-transmission (2) -- with the unclassifiable bucket empty (UNIFIED-3). |  | 1 |
+| `B753` | The θ-odd block of the twisted weld is exactly unitary with eigenphases ±72°, and the kind-correct mixing object is unistochastic with |B₀₀|²=1/(φ√5), refuting the disputed 108°/'different quantity' claim. |  | 1 |
+| `B755` | All five carried banked negatives had their discriminating facts recomputed in-repo (genus-2 chiral witness, the 1/4 null, GSWZ pure-3 through u⁵, B720's two halves, S019 by dimension): 5/5 located, no kill flipped. | yes | 1 |
 | `B759` | The theta-odd and theta-even sectors couple at SL(3)=Sym^2 but not at SL(2), with off-block norm sqrt3 = sqrt|disc Q(sqrt-3)|. |  | 1 |
 | `B761` | fiber_dim(n)=0 at every rank: each deformation direction is visible from the cusp torus, so the object has no private states. |  | 0 |
 | `B762` | m004 is the unique 1-cusped census manifold with its spectral dataset (volume plus cusp shape), so the emitted word is a self-name. |  | 0 |
@@ -401,6 +436,7 @@
 | `B765` | 21 depth-flagged banked kills adjudicated: 8 depth-closed, 6 held by the spectral face, 7 genuinely underproved relative to their universal claims. | yes | 1 |
 | `B766` | The discrete measurement torsor has rank exactly 3 (conjugation, reversal, golden branch), saturating the banked menu; time's arrow and the basepoint bit are one choice. |  | 1 |
 | `B767` | Two backlog gaps closed by all-level theorems (Binet: DGG rank 2n-1 for all n; Sym^d functoriality: the golden tower's spectral rank never climbs). |  | 0 |
+| `B769` | T1's fixedness under the closing group is forced because <c,theta,gamma_5> = (Z/2)^3 is abelian; T1's discrete part is a genuine 3-element frame torsor and the continuous relative position is gauge-fixed to angle 0 at the geometric point. |  | 1 |
 | `B770` | The record's complete open surface is a verified 352-item census in six sealed states, with 16 candidate closures adversarially refuted back to LIVE. | yes | 1 |
 | `B771` | Wave-1 resolved 11 of 13 open-item cells: e3 = cos(2pi/9)/864 exactly, L39 promoted to theorem, the D4 ceiling identified, two refutations banked. |  | 0 |
 | `B773` | The banked level-45 'pair-sector identically zero' wall was a projection artifact: the isolated theta-odd readout is 1/4, reproduced three independent ways. |  | 0 |
@@ -408,6 +444,7 @@
 | `B776` | B685's Habiro leg is corroborated from first principles: the symmetrized product is pure-3 through order 50 with no 5 or 7 in any denominator. |  | 0 |
 | `B778` | The cleanup wave resolved 7/7 cells: the N = p^2 dark-hyperbola law proved for all p, decorative checks stripped, and H133's death hardened. | yes | 0 |
 | `B781` | m004 is uniquely selected over its V4-sharing sister m003 by monodromy trace 3 (golden phi^2) and torsion-free H1, closing the V4 residual. |  | 0 |
+| `B782` | The measurement torsor's 8 closings carry a free transitive (Z/2)^3-action (verified exhaustively), so it admits no equivariant section: no process internal to the object's symmetry group computes the choice of closing. |  | 1 |
 | `B785` | Three cc3 claims independently reproduced exactly (correspondence matrix, torsion = (phi^n - phi^-n)^2, Sym^d spectrum); the b769 chord mechanism excluded at the gate. |  | 1 |
 | `B786` | The measurement torsor's third generator is inversion ι, not reversal θ (trace-trivial at every rank); the object's self-dual rank-3 theorem is unchanged. |  | 1 |
 | `B787` | Inversion (iota) is an independent 4th involution raising the torsor rank 3->4 unconditionally, de-welding time's arrow from the basepoint bit; all six doors MISS. |  | 1 |
@@ -415,8 +452,30 @@
 | `B791` | Independently verified the B788 Maass bank and corrected the Weyl completeness criterion to dim(V_i) x W(T) per sector, dissolving the claimed live defect. | yes | 0 |
 | `B794` | Re-derived from scratch: the figure-eight group is congruence of level exactly (4), and every trace norm is 0 or 3 mod 4, refuting the narrower norm-split claim. |  | 0 |
 | `B795` | All seven of cc3's m004 Maass eigenvalues are reproduced by an independently written collocation solver with displaced controls (7/7 confirmed). |  | 0 |
+| `B797` | Seventeen m004 Maass eigenvalues are certified (max |Δr|=5.4e−9) with exactly one parent Bianchi eigenvalue (r=7.072) settled by the projective-line S-test, and the sealed SM comparison returns zero gated hits. |  | 0 |
+| `B798` | PSLQ exclusion power requires N ~ 1.43*d*log10(H) digits, so the certified 8-digit run excludes essentially nothing and BSV parity (d<=10, H<=1e7) demands 100 digits on a new instrument 4-5 orders costlier. | yes | 0 |
+| `B799` | All twelve uncomputed doors were dispositioned: 2 computed in exact arithmetic (both closures stand), 5 citations executed with their locks re-run, 5 honest downgrades - so the compiler's fact_computed flag carries real information. | yes | 6 |
+| `B801` | A preregistered 60-arc sample of the 557 unregistered FINDINGS arcs finds 20% negatives, estimating ~111 unregistered kills and kill_graph coverage of the corpus's negatives at 66% (95% CI 56–80%). | yes | 0 |
+| `B803` | Verified in snappy that m003 and m004 share the trace field ℚ(√−3) and are commensurable, so any derivation routing through it is class-level not object-specific; the DKY integer-puncture mechanism is confirmed at 60 dps. |  | 1 |
+| `B804` | m004's induced cusp spin structure is the bounding one for every spin structure (Arf = 0 by bordism), so its Dirac spectral type is determined but class-level, and leading-order Dirac counts for m003/m004 agree by identity. |  | 1 |
+| `B805` | Builds the forcing graph from K024's static prose and measures that 567 of 733 arcs (77%) attach to no face and 6 of 11 faces carry no proved arc, because face-attachment existed only for the negatives. | yes | 1 |
+| `B806` | The atlas lexicon is 18 regex sets frozen 409 arcs before the survey, so the concentration it reports is its own; arcs matching zero motifs — including the programme's current falsifier B798 — are invisible by construction. | yes | 1 |
+| `B807` | Faces and motifs are orthogonal axes (163/198 pairs populated, top-5 share 0.168, NMI 0.031, all against sealed thresholds), so they must be declared not merged; the observer is a third axis touching all 18 motifs. | yes | 1 |
+| `B809` | Two blind seats labelling the same 20 arcs agree at Cohen's κ=0.842, clearing the pre-declared 0.75 gate, and both disagreements localise to two definitional gaps in the verdict vocabulary rather than reading errors. | yes | 1 |
+| `B810` | Wave 1 authored 287 verdicts via 12 parallel readers, lifting coverage from 4.1% to 42.7%; no reader invented content for the six non-existent IDs, and the reader-conservatism offset remained confounded. | yes | 1 |
+| `B817` | Wave 2's 12 readers reach Fleiss kappa = 0.9312, establishing that wave 1's per-slice PROVED-rate spread was genuine era-difference and not reader bias, while its calibration block exercised only 2 of the 4 verdict categories. | yes | 1 |
+| `B818` | Audits all 8 RETRACTED verdicts, finds 2 wrong (B745 and B525, auditors mislabelled by their targets' failures), corrects them to PROVED, and fixes the rule that RETRACTED applies only when an arc withdraws its own headline. | yes | 1 |
+| `B819` | The unverdicted residue is a coverage-frame gap, not a data gap: 133 of the 181 directories without a verdict do have a FINDINGS.md, and 116 arcs with real findings were never assigned to any reader. | yes | 1 |
+| `B822` | The lexicon gate's new size floor (FINDINGS.md >= 2000 bytes) removed 14 of the 22 blind arcs leaving 8, meeting both sealed criteria, and the ROTTING verdict text was replaced by composition reporting. | yes | 1 |
+| `B823` | The lexicon gate is replaced by a per-arc triage registry with no threshold, failing only on untriaged substantial blind arcs — verified by three negative controls; 9 arcs triaged, 1 open GAP (B537). | yes | 1 |
+| `B825` | The Markov-cubic motif passes all three sealed criteria unchanged from B824 (hits B537, 8.3% corpus share, 75.8% inside trace_map), closing the last open GAP row in the blind-arc registry within the declared two-attempt cap. | yes | 1 |
+| `B826` | B519's missing verdict was a filename gap, not a content gap - its VERDICT.md already carried its own correction - so B519 is tagged RETRACTED and the writer-safety invariant is widened to FINDINGS.md or VERDICT.md, prereg excluded. | yes | 1 |
+| `B827` | 37 progress-log entries went to an accidental shadow file over ten days because the pairing gate compared a frozen timestamp and had become incapable of failing; entries were recovered and two failing-capable checks installed. | yes | 1 |
+| `B830` | Computed the three previously cited classification facts: Q(zeta_3) and Q(i) intersect in Q (compositum degree 4), the Markov quiver is mutation-finite but not finite-type, and dim H^1 is finite (6 at E6). | yes | 2 |
+| `B832` | Wave 3's four-category calibration scored Fleiss κ=0.9305 (CI 0.83–1.00), passing the gate and refuting the seat's own prediction of a lower κ, and exposed a mixed-arc vocabulary gap behind 3 of 16 corpus disagreements. | yes | 1 |
+| `B833` | A direct count of 137 NEGATIVE-verdict arcs absent from the kill graph lands inside B801's estimated interval 55-168, and the '66% coverage' figure is shown to be an arc-level vs kill-level unit mismatch. | yes | 1 |
 
-## NEGATIVE (229)
+## NEGATIVE (257)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -556,6 +615,7 @@
 | `B421` | Tracked blind to all six of its natural behaviours, every destination is named pure mathematics and none cleared the bar fixed before looking: the object self-generates no Standard Model structure. |  | 1 |
 | `B422` | Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal, so the content wall holds under both of the object's symmetries. |  | 1 |
 | `B428` | Two upstairs spin walls: E6 level 1 gives Z/3 anyons and zero fermions, and the principal sl2 makes all E6 content integer-spin. |  | 1 |
+| `B429` | First-order rigidity: no first-order deformation of the object's E₆ structure produces spinorial matter — the one geometric direction stays sl2-factored/bosonic and the five intrinsic directions leave the sl2 locus entirely. |  | 1 |
 | `B430` | Fermionic sl2 embeddings exist in E6's landscape, but the object forces only the principal bosonic one, so the fermion door is closed as a derivation. |  | 1 |
 | `B438` | The missing foreign control shows 4₁ and 5₂ share both the −283 exit field and the torsion value 121: nothing about the child is figure-eight-unique. |  | 1 |
 | `B440` | 4₁ and 5₂ both have exactly 4 irreducible vacua in the same −283 field: no figure-eight-unique feature, and the golden inversion was a chart artifact. |  | 1 |
@@ -566,6 +626,7 @@
 | `B445` | dim H¹(π₁, ad E₆) = 6 for the figure-eight and identically for 5₂, so the E₆ deformation count is universal, not a fingerprint. |  | 0 |
 | `B447` | Every m-scan flag dissolved or laundered — the golden specific-heat offset is reproduced by a parameter-free 8-moment surrogate — no golden exceptionality. |  | 1 |
 | `B455` | The homeostasis card dies by exact computation (kappa is conserved along perturbed orbits, so no restoring response exists), while the finite E3 continuation is a quantified engine boundary priced beyond the prereg ceiling. |  | 1 |
+| `B457` | Both preregistered gates fail on the frozen ethogram catalog (EZ-2: 6 hits vs null mean 4.0, p=0.168; 0 of 3 structural predicates), so H0a is earned — the behavior catalog is class-generic or whitelist-laundered. |  | 1 |
 | `B458` | Every non-geometric SL(3) component of the figure-eight, including the Q(sqrt-7) pair, has complex volume 0 + i*0, while the 5_2 control is generically nonzero - there is no internal component-level asymmetry to decompose. |  | 1 |
 | `B461` | No Brunnian-specific manifold invariant emerged for the Borromean rings, and Q(sqrt(-7)) appears on an unrelated control, killing the cumulative sqrt(-7) reading. |  | 1 |
 | `B462` | Every exact structure in the figure-eight double launders through a class-generic mechanism (Kirby–Melvin, transpose invariance); no H1, and the quantum pairing ignores the classical fork. |  | 1 |
@@ -576,6 +637,7 @@
 | `B481` | det(T) = zeta_5 is a float artifact: determinants of the critical-point Weil operators land in the 12th roots of unity, forbidding a primitive 5th root. |  | 0 |
 | `B484` | The relayed 'SM gauge group = braiding statistics of Fibonacci anyons' frame does not survive: run under HELD(value-matching); tr(figure-eight braid) = -3/phi exactly, which fixes nothing about SM mixing. |  | 0 |
 | `B486` | The figure-eight cusp is rectangular (modulus 2sqrt(3)i, disc -48), not hexagonal, so the claimed three-fold degeneracy and three generations vanish. |  | 0 |
+| `B487` | The Gang–Yonekura SU(3) enhancement of T[S³∖4₁] is a global FLAVOR symmetry of a 3d N=2 theory, not a gauged 4d colour group, so the 'figure-eight DGG theory has the SM gauge group' claim is refuted on four points. |  | 0 |
 | `B489` | The cyclic-cover tower's laws are classical and verified, but its SM reading is refuted (abelian DGG at every level), claim 4c is false, and the arithmetic echoes are numerology. |  | 0 |
 | `B490` | The twelve object-to-Standard-Model refutations are one structural no-go, stated as a single provable theorem plus three scoped obstructions with every kill shape-tagged. |  | 0 |
 | `B492` | The Verlinde/Affleck–Ludwig lens returns only the already-banked golden φ (g_τ/g₁=φ) — classical modular data, no new object-specific structure; lens exhausted. |  | 0 |
@@ -601,6 +663,7 @@
 | `B563` | The preregistered Planck-ratio retry nulls at every rung (p≈0.53, zero hits), with a plastic-seed control ladder landing closer than the object. |  | 1 |
 | `B567` | The proposed six-level pi/3-spaced Hamiltonian spectrum is impossible: the level-15 Weil monodromy has projective order 20 with 11 distinct eigenvalues. |  | 1 |
 | `B569` | The sixteenth sigma-to-SM chain dies: the E6 level-1 modular data was inconsistent (Z=+1, no chirality bit) and F4's self-dual 26 admits zero chiral theories. |  | 1 |
+| `B572` | Adjudicating the eleven-clause chain: nine clauses were already banked, its one new branching 27|principal = V3+V7+V17 is false (correct V17+V9+V1), and its chirality step welds a c-fact into a theta-slot unpaid. |  | 1 |
 | `B573` | The handoff's step 8 is refuted and its proposed check ill-posed: the principal sl2 preserves no Spin(10) grading, sharpening the fifth wall. |  | 1 |
 | `B574` | The off-principal escape's crux is false: no nonzero E6 nilpotent orbit has Spin(10) centralizer, and the self-duality wall holds at every embedding. |  | 1 |
 | `B577` | B575/B576's core results were already banked weeks earlier (B265/B352): a non-recall failure, not new discovery; guard MB13 added. |  | 0 |
@@ -608,6 +671,10 @@
 | `B592` | The mirror listener is deaf: C-symmetry of the state makes every closed theta-odd amplitude vanish for every gluing; the twist survives only as an open-matrix sign flip. |  | 1 |
 | `B596` | The preregistered prediction fails on the blind sweep: the θ-odd block's clock is not the naive cat-map period in any registered form. |  | 1 |
 | `B597` | Distinct theta-odd widths and theta-even torsions structurally exclude the free-rotation outcome C (conditionally), narrowing D1 to the existence question. |  | 1 |
+| `B600` | Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4 (κ=16), reproduced in an independent pipeline and certified exactly in the integrated packet, so H133 dies at its own registered gate. |  | 2 |
+| `B602` | No declared structural normalization carries even the phase — all X1 cells fail with residual exactly −π/15 and all X2 cells fail — so the outcome is D-norm: the naive value bridge does not exist. |  | 0 |
+| `B604` | The pair-to-block assignment does not exist: at every ambiguous height both principal-block lines are genuine mixtures of both theta-odd pair combinations, dissolving the question and refuting the handoff's D5/16 table at h=2,3. |  | 1 |
+| `B606` | Outcome D-nf: no torsion-power normalization can close the value gauge, since tau_4's 97 and tau_8's 31*607*49297 have no partners in the hearing integers; the exact constants N(h3)=1/5 and 1/49 survive. |  | 0 |
 | `B611` | Both sealed predictions failed: amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensional edge, and the unit-circle-departure candidate is vacuous since B_odd is unitary by construction. |  | 1 |
 | `B612` | The sealed per-level pairing biconditional FAILED (chiral RRLLL closes at kappa=6); only the level-uniform quantified form survives on the seven objects. |  | 1 |
 | `B619` | Both A5-bridge readings are refuted by computed group orders (clock order 20; projective image over 400); only a shared-arithmetic remark survives. |  | 1 |
@@ -615,21 +682,29 @@
 | `B633` | On scheme-stated, uncertainty-correct inputs the last SM residual dissolves (p = 0.078 becomes 0.145-0.62): every SM-facing comparison is null. |  | 1 |
 | `B639` | The conj∘θ twisted double's 27-object admits no representation-twisted amalgam realization in any tested class; the θ-twist lives irreducibly in the fiber pairing. |  | 0 |
 | `B643` | The amphichiral flip is not a symmetry of the weld double: no invertible global companion exists (solution dimension 1, singular) in either involution class. |  | 0 |
+| `B655` | The incoming beta-coefficient claim dies by refutation — its anchors contradict the banked cards (silver conductor 8 not 7, discriminant 32 not 23, |T|=12) — leaving one forced-trivial Coxeter overlap and nothing banked. |  | 0 |
 | `B658` | Both order-4 orientation-reversing families break on the weld double's 27 local system (solution dimension 1, supported on Sym^0), making wall 8 total. |  | 1 |
 | `B660` | Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v₀-mediated trilinear, closing the last class-level mass-shape route. |  | 1 |
+| `B668` | Two independent seat triages converge track by track, and cell F′ dies against the banked melody theorem — the Z-ladder is exactly periodic, so no resurgent S₂ content is extractable from it. | yes | 0 |
 | `B669` | Chiral words' certificate ladders are bounded exactly like the amphichiral one, refuting the amphichiral-suppression mechanism; boundedness is word-universal periodicity. |  | 1 |
+| `B671` | The 351-cup solo 3x3 eigenvalue ratios differ by about seven orders of magnitude between the two canonical scalarizations, so they are scalarization-gauge rather than object content and the mass-matrix reading dies. |  | 1 |
 | `B674` | Route 1 misses: the Γ(5) twisted tower is trace-silent (tr(A₁*|H¹(Symᵐ))=0 for all m), though its modular lift is the golden order-10 rotation with trace φ. |  | 1 |
 | `B677` | Wave 1 kills three candidate invariants — Tube(Fib) semisimplicity forces HH^{>=1}=0 and weld-weighted characters are Q(zeta5)-irrational against integer targets. |  | 0 |
 | `B678` | The full 8x12 ladder census shows no growth in any of 96 cells, refuting chat1's amphichiral-suppression mechanism at every level, convergent with B669. | yes | 1 |
+| `B685` | Neither intrinsic realization carries 5-adic structure (modular coefficients are algebraic integers; the Habiro/Nahm object is integral away from 3), so no framework-derivable generator produces the flavor streams. |  | 1 |
 | `B686` | The 'Koide is Eisenstein arithmetic' claim is firewalled: Q = 2/3 is a parametrization tautology for every phase and theta0 = 2/9 is convention-dependent and base-rate. |  | 1 |
 | `B687` | The SM atlas grades 22 of 23 dimensionless invariants unreachable or base-rate-dead, leaving Koide alone; the h(27)=2/3 match is explicitly not evidence. | yes | 1 |
 | `B693` | Base change to Q(sqrt-3) gives a_(5) = +1 at the inert prime, the trivial Steinberg value, killing the hope that the hearing prime carries phi. |  | 1 |
 | `B697` | The golden's appearance in the zeta-5 Habiro evaluation is a tautological Gaussian period carrying no object-specific content; the f_5 loop is superseded. |  | 0 |
+| `B699` | The two-object surgery test refutes '5-inert is necessary for golden capacity' (both the 5-split Whitehead and the figure-eight fill their mod-5 ambients generically), so the hearing is not born in the coupling. |  | 0 |
+| `B706` | NO-MATCH at both rungs: SM flavor ratios carry no low-height relation over Q(sqrt5), and the object's discrete F_2 seam freedom is a kind mismatch with the SM's continuous flavor moduli. |  | 0 |
 | `B709` | The Turok 'marriage' is refuted as identity: his canonical CPT ℤ/2 is the inversion of the framework's non-canonical measurement ℤ/2; every value-side item dies. |  | 0 |
 | `B710` | The figure-eight and FRW lapse integrals share the Picard-Lefschetz method but their saddle skeletons invert (real vs complex actions) — method-only. |  | 0 |
 | `B713` | Chirality is not in the amphichiral object: triality is gauge-only, sigma_omega vanishes identically, and 'which chirality' is a non-canonical Galois torsor bit. |  | 0 |
 | `B716` | Time, 4-dimensionality and Lorentzian signature are all the observer's: no canonical arrow, no canonical 4d filling, no canonical Wick rotation. |  | 0 |
 | `B718` | Beyond H1=Z/p the child is arithmetically generic and authors no ADE skeleton — SL(2,F_p) is McKay only at p=3,5 — with exactly three arithmetic children. |  | 0 |
+| `B719` | Multiplicity/scale is the observer's — every cover's volume is exactly degree·base with no preferred size — and the h=3 being-filter is generic, falsified as inherited by the ℚ(√−1) and ℚ(√−7) controls. |  | 0 |
+| `B720` | Three discrete-to-continuous bridge programs (Connes-Marcolli renormalization, holography, positive geometry) are NO-MATCH to the object for independent reasons, reconfirming B706; the two arithmetic leads stay unbuilt. |  | 0 |
 | `B721` | The thermal-time lead fails identity: the object's own clock is tracial type II_1 with trivial modular flow, complementary to rather than inside the CMR KMS torsor. |  | 0 |
 | `B724` | Recomputing every seeing-strategy item leaves only C1 sound (a restatement of B713); C2 blocked, C3/C5 refuted, C4 and the GGM path base-rate dead. |  | 0 |
 | `B726` | The two bare quadratic faces do not close the Born gap: hearing Q(sqrt5) owns only the weights, while amplitudes and the interference phase need cyclotomic upgrades. |  | 0 |
@@ -641,7 +716,11 @@
 | `B737` | Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion), though the exact identity φ_m004 = Λ_K(s)/Λ_K(s+1) survives. |  | 0 |
 | `B740` | Recomputed across all 78 hyperbolic fillings by two seats and two methods: no closed filling of m004 re-sees sqrt(-3), upgrading B288's kill from asserted to earned. |  | 0 |
 | `B743` | Zero gated hits: the object's whole real algebraic tower and canonical analytic values contain no SM ratio at testable precision, with Koide found and correctly rejected. |  | 0 |
-| `B746` | The golden ledger comes back GAPPED: ten of twelve structural floors are forced-golden but the voice floor carries zero golden markers (Eisenstein only). | yes | 0 |
+| `B747` | No child re-sees the hearing field: all 78 fillings' invariant trace fields are √5-free — 54 odd-degree slopes by theorem, 24 even-degree by exact x²−5 root test — with all controls passing. |  | 1 |
+| `B748` | None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid re-sees the meeting face Q(sqrt-15) (0/78), completing the census showing the entire forced V4 lives only on the open object's interface. |  | 1 |
+| `B751` | The 1/(2phi^3) = alpha_s identification is NOT EARNED: the per-letter assignment is constructed and drops a 0.4253 imaginary part, the target is scale-knob-dependent, and the hits are null-consistent; only the arithmetic is true. |  | 1 |
+| `B752` | The qualia handoff dissolves on recompute: its c*phi^-n hits are base-rate by its own decision rule (nulls P=0.26/0.35), and the 'self-referential fixed point' is Cayley-Hamilton on a misidentified trace-1 matrix at a repelling point. |  | 1 |
+| `B754` | Re-adjudicating 19 banked negatives against the frozen spectral surface gives 17 KILL-EXTENDS, 2 FACE-IRRELEVANT and 0 FACE-OPENS; WALL-1 extends on four independent spectral mechanisms. |  | 0 |
 | `B756` | The general '5-inert and fibered implies golden' reading dies on five exact counterexamples; the Euler-product door closes, replaced by an exact iff-law. |  | 1 |
 | `B757` | The two Z/3's are never the same element (deck reps are torsion-free), and the mod-4 coincidence is conjugacy-forced, carrying zero information. |  | 1 |
 | `B760` | No object-native operation (Galois, MCG powers, C, τ, coupling sign) canonically signs the theta-odd chord sector: the object cannot close itself. |  | 0 |
@@ -649,8 +728,16 @@
 | `B775` | Wave 1 tombstones three courier frameworks and walls the mover door (no object-native outer operation); one selection-rule theorem and gamma5's derivation survive. |  | 0 |
 | `B790` | The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and the valueless-object null stands. | yes | 0 |
 | `B793` | Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so "parent-validated" is unearned. |  | 0 |
+| `B802` | Independently reproduced the mechanism behind cc3's B783: reversal leaves the Fibonacci letter frequencies unchanged while gamma_5 moves every phi-built quantity, so gamma_5 is not reading direction. |  | 1 |
+| `B808` | A margin-preserving permutation null (10,000 draws) refutes the seat's own proposal that the 35 empty (face, motif) cells are structure: 34 of 35 are artifacts and the lone survivor is below chance expectation. | yes | 1 |
+| `B811` | The owed promotion gate KILLED H128 (alpha_s, on kind: a scale-free object cannot emit a scale-dependent value) and H129 (sin^2 theta_13, base rate) and PROMOTED H130, whose phi-family null proved inapplicable to a rational target. | yes | 1 |
+| `B812` | Ten preregistered physics targets, zero genuine paths: five blocked by M (no computed mechanism, an absence not an impossibility), three by class-level C, one by scale S, one by V, with the quasicrystal adjacency belonging to the trace map. |  | 1 |
+| `B813` | The direct CS(m004)=θ_QCD dictionary is refuted on type: a fixed PSL(2,ℂ) geometric invariant cannot fill the coefficient slot of e^{iθW(A)}, whose functional slot a Chern–Simons object already occupies. |  | 1 |
+| `B814` | The Gang-Kim-Yoon identity has no well-posed statement at the principal E6 point of 4_1: the component is a smooth 6-fold (15 vanishing cross-pairings, unobstructed to third order), not dimension 1. |  | 1 |
+| `B821` | The proposed self-audit motif failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%) and was reverted; the 21 blind arcs decompose as 14 stubs, 6 instrument arcs and 1 real gap, correcting B820's 'rotting' diagnosis. | yes | 1 |
+| `B824` | The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character variety' alone carrying 13.8%); it was reverted and B537 stays a recorded GAP. | yes | 1 |
 
-## OPEN (27)
+## OPEN (28)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -664,7 +751,6 @@
 | `B44` | Torsion-one closure |det(M-I)|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation. |  | 0 |
 | `B45` | The projective return gives the Lucas hierarchy (lambda/h)^2=L_n-2; lambda/h=1 is selected only if the primitive sector is treated as ground state. |  | 0 |
 | `B49` | PC12's proof architecture is explicit and partly machine-checked, but is not promoted to a proven claim. |  | 0 |
-| `B61` | The SL(5) fixed-line factorization is determined at dps=60 by a stable high-precision SVD pinv, resolving B60's cond~1e11 blockage -- numerically, not as a symbolic proof. |  | 1 |
 | `B78` | The decisive n=5 degree=rank test is a method-limit: every converged SL(5) bundle rep is reducible, so M^5=L is neither confirmed nor refuted. |  | 1 |
 | `B86` | Capstone synthesis: three threads consolidated into a paper skeleton with novelty labels, but no new theorem and the external literature check ungated. | yes | 1 |
 | `B105` | The explicit n=5 catalog stays open: the resolved 21 factors are universally catalog-consistent but three remain unresolved and two prior inferences were withdrawn. |  | 1 |
@@ -673,16 +759,18 @@
 | `B171` | Phase-0 baselines show the woven metallic spectrum inherits both rank-2 ladders and quantifies the density trap, leaving the rank-3 combination gap unsettled. |  | 0 |
 | `B278` | Consolidates B274–B277 into the five-wall map v3 and records the previously-invisible input-required walls, settling nothing new; the bridge still rests on the unproven input-E₆=output-E₆ CRUX. | yes | 0 |
 | `B297` | Folds the seam arc B286–B296 into the five-wall map v4 and relocates the structural theorem to the seam, without settling any wall or the CRUX. | yes | 1 |
+| `B456` | Freezes (sha256 8a80b0f5...) a catalog of 21 typed object behaviors together with null catalogs from seeded random words, Thue-Morse, foreign knots and silver, with adjudication explicitly deferred to EZ/B457. |  | 0 |
 | `B477` | A sterile/fertile obstruction-class table over three manifolds; the one-Z/2 sterility hint fails at s776 and no law is banked. | yes | 0 |
 | `B491` | An adversarial prior-art harness leaves two candidate cores APPEARS-NOVEL/NEEDS-SPECIALIST and one classical; novelty itself is not settled in-sandbox. | yes | 0 |
 | `B507` | First-pass beta-function: g_M(kappa) is strongly negative (~-1.05 to -1.25) on the negative-kappa leaves where the object lives, so the measurement verb is NOT marginal there. |  | 0 |
-| `B556` | The escalator tower T(M) = [[M,M],[M^2,M]]: the computational core is verified exactly, while the tower-as-physics-ladder reading is banked as a LABELLED HYPOTHESIS. |  | 7 |
 | `B615` | The Branch-3 comparison returned AMBIGUOUS (Sidak p=0.078, zero matches at the tight tier), banked as suggestive-only with no escalation. |  | 1 |
 | `B616` | The held-out second object matches at its noise expectation, leaving the figure-eight's excess uncorroborated; the sealed verdict is STILL-AMBIGUOUS. |  | 1 |
 | `B707` | Literature synthesis identifies arithmetic Chern-Simons (Kim), Scholze's Habiro ring and Lee's motives as the program's top-down twin; three bridge tests named, none run. |  | 0 |
 | `B758` | Consolidated the forced core into an 18-link THEOREM_LEDGER with every link labeled and every axiom priced; the chain cites and asserts nothing new. | yes | 1 |
+| `B768` | The received correspondence's mathematical skeleton is verified (T's eigenvalues {1,-1/phi}, no 'bb') and the candidate is admitted as documented-but-not-unique: one row (theta = binary agency) killed, uniqueness blocked, the rest undecided. |  | 1 |
+| `B800` | Rebuilding B685's Habiro leg in-sandbox derives sqrt-3 as the 1-loop invariant and a 3-adic growth law v3 ~ 1.428n consistent with 3^146, but the 'integral away from 3' statement is not reproduced, so the claim stays uncomputed. |  | 0 |
 
-## RETRACTED (8)
+## RETRACTED (9)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -692,5 +780,6 @@
 | `B216` | The verdict that the f>=8 period-law split is genus-theoretic and NEEDS-SPECIALIST was an artifact of testing only the scalars +-I and is withdrawn. |  | 1 |
 | `B225` | The '2 = octahedral parent REFUTED' half is withdrawn as VACUOUS (the bad-prime extraction reports 2 for EVERY monic-in-z input, so specificity at p=2 is zero) and that question returns to OPEN; what SURVIVES is the prime-5 identification -- 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x^2=5. |  | 0 |
 | `B437` | The child's 'golden return' is withdrawn as inheritance: the trefoil control shows Q(sqrt5) is slope-5-forced, leaving only generic or class-shared content. |  | 1 |
+| `B702` | The arc's law 'metallic hearing iff real-quadratic swap field' is retracted as a swap/weld conflation (both swap fields are imaginary); the silver's exact Q(i) core ratio and rational tones survive. |  | 0 |
 | `B731` | The 'figure-eight knot group is non-congruence' headline is withdrawn: the 2-adic index jumps at level (8), so m004 is a congruence subgroup after all. |  | 0 |
 | `B780` | The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans. |  | 0 |

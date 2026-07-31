@@ -17374,6 +17374,24 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B834": {
+   "slug": "wave3b",
+   "motifs": [
+    "kappa",
+    "metallic"
+   ],
+   "refs": [
+    "B556",
+    "B58",
+    "B61",
+    "B746",
+    "B832"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B83": {
    "slug": "sln apolynomial",
    "motifs": [

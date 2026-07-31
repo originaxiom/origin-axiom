@@ -1,0 +1,10 @@
+{
+ "id": "B656",
+ "verdict": "PROVED",
+ "claim_one_line": "The digest queue was confirmed independently: B596's multiplier table is exactly the conductor clock ord(A₁ mod 3κ) (10/10 rows), and det(w) = (−1)^{v_p(det B_w)} holds iff v_p(disc) is odd (192/192, fresh Weyl group).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

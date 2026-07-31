@@ -1,0 +1,10 @@
+{
+ "id": "B456",
+ "verdict": "OPEN",
+ "claim_one_line": "Freezes (sha256 8a80b0f5...) a catalog of 21 typed object behaviors together with null catalogs from seeded random words, Thue-Morse, foreign knots and silver, with adjudication explicitly deferred to EZ/B457.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

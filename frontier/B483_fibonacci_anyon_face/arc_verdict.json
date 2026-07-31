@@ -1,0 +1,10 @@
+{
+ "id": "B483",
+ "verdict": "PROVED",
+ "claim_one_line": "The object's golden structure is a face of the Fibonacci-anyon TQFT (tau x tau = 1 + tau is the substitution's own golden recursion), while the 3:8:15 overlay is the forced arithmetic a(a+2) and stays firewalled.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

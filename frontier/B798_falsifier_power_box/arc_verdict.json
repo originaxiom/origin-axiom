@@ -1,0 +1,10 @@
+{
+ "id": "B798",
+ "verdict": "PROVED",
+ "claim_one_line": "PSLQ exclusion power requires N ~ 1.43*d*log10(H) digits, so the certified 8-digit run excludes essentially nothing and BSV parity (d<=10, H<=1e7) demands 100 digits on a new instrument 4-5 orders costlier.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}
