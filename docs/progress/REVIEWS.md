@@ -2595,3 +2595,132 @@ is a precondition, not the goal.
 - [ ] R34-7: **face attachment** — 573 arcs on no face, measured **not automatable**.
 - [ ] R34-8 (carried): B685's normalisation; B731's stale `revival_score: 10`; the ~111 unregistered
   negatives (B801); **the spectral paper, still finished and unshipped**.
+
+## Review 35 — the correction lattice, and where my predictions actually fail (anchor-commit: `33a28541`)
+
+Triggered at 20 merges. Twenty commits since Review 34, **fifteen banked arcs (B812–B826)**.
+Review 34 found that seven instrument failures had occurred and **none in the mathematics**. This
+window measures the same split one level in: **not where the failures are, but where my *predictions*
+are wrong.**
+
+### Finding 1 — I am calibrated about the object and poorly calibrated about my own tools
+
+Six arcs sealed a prereg with a **pre-stated expectation**. Scored against outcome:
+
+| arc | what I predicted | outcome | |
+|---|---|---|---|
+| **B812** | the quasicrystal bridge survives S and V, **fails C** | failed C *"and more sharply than expected"* | ✅ |
+| **B814** | the GKY hypothesis **fails** at E₆ | 6-fold; fails | ✅ |
+| **B821** | the instrument-layer motif **succeeds** | **FAILED** at 46.2 % vs a 25 % ceiling | ❌ |
+| **B822** | *"14 stubs removed, leaving 8"* | exactly 14 removed, leaving 8 | ✅ |
+| **B824** | succeeds; **criterion 3** (redundancy) is the danger | **FAILED**, and on **criterion 2** — wrong twice | ❌ |
+| **B825** | succeeds, landing **near 6–9 %** | 8.3 % | ✅ |
+
+> **About the object: 2 of 2. About my own instruments: 2 of 4.**
+
+Both misses were about the **lexicon**, both were **over**-optimistic, and **both were caught by
+ceilings I had set myself before running.** Review 34's lesson was that instruments fail more than
+the mathematics does; **this window shows my intuitions about instruments fail more too** — which is
+the argument for keeping vacuity ceilings on *instrument* changes, not only on claims.
+
+### Finding 2 — a third of the window's arcs were corrected by a later arc in the same window
+
+| corrected | by | what was wrong |
+|---|---|---|
+| B812 | itself, ×2 | L91 read as the dictionary gate; the 3d-3d row mis-stated B561 |
+| B817 | **B819** | *"mostly directories without a FINDINGS.md"* — 133 of 181 **have** one; **116 were never assigned** |
+| B820 | **B821** | *"the lexicon is rotting"* — the blind count was 14 stubs + 6 instrument + **1 real gap** |
+| B822 | **B823** | its ceiling was **self-referential**; the arc documenting it incremented the count |
+| B824 | **B825** | the motif was right, the **ambient term** in it was not |
+
+**5 of 15 arcs (33 %).** Every correction was **self-issued**, within hours, and each was found by
+*checking composition* rather than by doubting the claim — B819 by asking what the residue contained,
+B821 by asking what the 21 blind arcs *were*, B823 by watching the gate fire on its own author.
+
+**This is not presented as a virtue.** A 33 % same-window correction rate means the first statement
+of a measured fact is frequently wrong here, and the mechanism that catches it is **decomposition,
+not scepticism**. The transferable rule: *before reporting a count, report what it is made of.*
+
+### Finding 3 — sealed criteria caught a WIRING BUG, which is not what preregistration is for
+
+B821's insertion anchor `"bridge_construction"` exists in **two** dictionaries — `LEXICON` *and*
+`OBSTACLES` — and the edit landed in `OBSTACLES`, whose values are keyword **lists**. The obstacle
+classifier iterates values as keywords; handed a dict it would have scored every arc against
+`kind`/`conserved`/`domain`/`gloss`/`patterns` — **silently, with no error**.
+
+**The two-outcome test flagged it on the first run: 0/7 matched, 0.0 % of corpus — impossible for a
+live motif.** A criterion written to judge *quality* detected a *defect* instead, because both
+produce out-of-range numbers. **Argument for putting sealed criteria on instrument edits, where the
+usual justification (guarding against motivated reasoning) does not obviously apply.**
+
+### Finding 4 — the instrument that ended the lexicon sequence was the ceiling, not the motif
+
+Six arcs, B820 → B825, and **two vacuity ceilings fired and killed two motifs before one passed**
+(46.2 % and 18.4 %, against 25 % and 15 %). The passing motif is a minor addition; **the ceilings are
+what made the sequence converge rather than accumulate labels.**
+
+B825 also declared **a cap of two attempts before attempt 2 ran** — because "iterate the patterns
+until the share clears the ceiling" has no stopping rule and would eventually produce a passing motif
+**by search rather than insight**. The cap was not reached; it is what makes the success readable.
+
+### Finding 5 — locks pinned to literals are a recurring defect class
+
+Five locks were **re-anchored** this window (in B817, B818, B821, B822, B824) because they asserted
+on state that later work legitimately changed — a ceiling value, a `GAP` row, a gate's wording.
+
+> **A lock pinned to a superseded literal tests the past, not the invariant.**
+
+Related, from B826: **an invariant stated as a filename.** Writer safety said *"no verdict without a
+`FINDINGS.md`"* when it meant *"without a substantive findings document"*, and so refused `B519` —
+the one arc that documents its own retraction best. **The same narrow read existed in two separate
+checks, which looked like corroboration until one of them was exercised.**
+
+### Finding 6 — the stale review fork (OI-239) nearly mis-scoped this review
+
+`docs/REVIEWS.md` is a stale, un-synced fork frozen at **Review 21 (2026-07-17)**; the operative
+register is `docs/progress/REVIEWS.md`, at **Review 34**. **Reading the wrong one gives a window of
+383 commits instead of 20** — the error was caught only by replicating the gate's own path
+resolution. **B770's census already logged this as OI-239**; it is not a new finding, and it has now
+cost real time in the exact way an open item is supposed to warn about.
+
+### Finding 7 — OI-239's defect class recurred INSIDE this review, and the gate caught it
+
+Writing this review's roadmap line, I appended to **`docs/ROADMAP.md`** — which is **not** the
+operative file. The phase ladder the `views-fresh` gate reads is **`ROADMAP.md` at the repository
+root**, and it is the one carrying the Review 33 and 34 lines.
+
+> **Two navigation documents exist under the same name, and the review that flagged the problem
+> committed it.** Caught by the gate, not by me.
+
+That is now **two** duplicated navigation files found in one review (`REVIEWS.md`, `ROADMAP.md`).
+The pattern is not "someone forgot to sync" — it is that **nothing prevents a second file with an
+authoritative-looking name from existing**, and path-shadowing is invisible to a reader who opens
+the wrong one and finds plausible content. Both are now bannered; **a repo-wide sweep for
+duplicated authoritative filenames is R35-8.**
+
+### Action items (Review 35)
+
+- [>] R35-1: **OI-239 BANNERED, not resolved** (this review). `docs/REVIEWS.md` now opens with a
+  stale-fork warning naming the operative register and the 383-vs-20 window error. **Deletion was
+  rejected on evidence**: the two files are *not* a clean prefix/suffix pair — they differ inside
+  the shared range, so content may be unique. **Carried: reconcile the differences, then delete.**
+- [ ] R35-2: **the third verdict wave** — 229 arc ids were never assigned to any reader and **116 of
+  them carry a `FINDINGS.md`** (B819). Coverage is 617/747; this closes most of the gap.
+- [ ] R35-3: **a calibration block exercising all four verdict categories**, checked *before* the run
+  (B817 §3 / `PRACTICES`). Wave 2's exercised two and licensed four; **2 of the 11 untested-category
+  writes were wrong** (B818).
+- [ ] R35-4: **the retraction targets** — `B225` carries `PROVED` though B745 confirmed its 2-half
+  kill vacuous (may be right for its surviving content — needs *reading*); `B58` spans three
+  directories and is skipped by every writer.
+- [ ] R35-5 (carried, R34-7): **face attachment** — 573 arcs on no face, measured **not automatable**.
+- [ ] R35-6 (carried, R34-8): B685's normalisation; B731's stale `revival_score: 10`; the ~111
+  unregistered negatives (B801); **the spectral paper, still finished and unshipped**.
+- [ ] R35-7: **the lexicon's full re-grounding (B806)** remains open. B825 closed the one *known*
+  gap; the 18+1 motifs are still grounded in K001–K022 and unrevisited since 2026-07-01, and
+  `BLIND_ARCS.md` says so in place so an empty `GAP` column is not read as a finished instrument.
+
+- [ ] R35-8: **sweep for duplicated authoritative filenames.** Two were found in this review alone
+  (`REVIEWS.md`, `ROADMAP.md`), both bannered, neither reconciled. A reader who opens the shadow copy
+  finds plausible, stale content and no signal — which is how OI-239 survived since Review 21.
+
+anchor-commit: `33a28541` (Review 35)

@@ -1,3 +1,8 @@
+> ⚠️ **NOT the operative roadmap.** The phase ladder the `views-fresh` gate reads — and the one
+> every review appends to — is **`ROADMAP.md` at the repository root**. This file is a second copy.
+> Review 35 appended here by mistake and the gate caught it; the same defect class as **OI-239**
+> (`docs/REVIEWS.md`), found twice in one review. Kept, not deleted: reconciliation is a separate item.
+
 # ROADMAP — from the object to the goal (the honest tier map)
 
 *The owner's goal is a full dynamical derivation (the "full TOE / full SM" program). This
@@ -55,3 +60,9 @@ each with one computable probe.
 *Method (standing): pre-registration before computation; two-outcome design (kills bank);
 exact-first arithmetic; promote-at-banking through the §5 gates; verify-never-trust across
 chats; the recurring hazard is on record (Π_H does not commute with ζ-weighted sums).*
+
+> **Review 35 (2026-07-30)** — next in line: **the third verdict wave** (229 arc ids never assigned
+> to any reader; **116 carry a `FINDINGS.md`**), with a calibration block that exercises **all four**
+> verdict categories before it runs — wave 2's exercised two and licensed four, and 2 of the 11
+> untested-category writes were wrong. Still open and unscheduled: **the lexicon's full re-grounding**
+> (B806); B825 closed only the one *known* gap.

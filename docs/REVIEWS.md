@@ -1,3 +1,21 @@
+# ⚠️ STALE FORK — NOT THE REVIEW REGISTER. See `docs/progress/REVIEWS.md`.
+
+> **This file is a stale, un-synced fork frozen at Review 21 (2026-07-17).** The operative register
+> — the one the `review-due` and `review-actions` gates read, and the one every review since 21 has
+> been written to — is **`docs/progress/REVIEWS.md`** (Review 35 and counting).
+>
+> **Reading this file instead gives a window of 383 commits where the true window is 20.** That
+> happened during Review 35 and was caught only by replicating the gate's own path resolution.
+> Logged as **OI-239** by B770's closure census; bannered here by **Review 35 (R35-1)**.
+>
+> **The text below is kept for the record, not deleted**, because the two files are *not* a clean
+> prefix/suffix pair — they differ inside the shared range, so some content here may be unique.
+> **Reconciling the differences is a separate, smaller item** and is not done by this banner.
+>
+> If you want the current state of reviews, stop reading here and open `docs/progress/REVIEWS.md`.
+
+---
+
 # The decadal repo reviews — ledger (GOVERNANCE §11)
 
 Every ~20 merges on `main` (threshold raised from 10 on 2026-07-14; the historical entries below reflect the old cadence), a whole-repo review fires: full suite + all gates +

@@ -204,3 +204,11 @@ described B152–B230 as "the frontier" while the bank stood at B798.*
 > **Review 33 (2026-07-29)** — absorption review. The generated front door is now linked (see *For a reviewer*). Measured: THE CHAIN's 23 links all carry resolvable test locks (gate `chain-locks`); `docs/LAW_MAP.md` is **4 % locked and ungated** — treat an unlocked law row as a claim about the bank, not a checked fact.
 
 > **Review 34 (2026-07-30)** — instrument review. Verdict coverage **4.1 % → 42.6 %** (317/744). The object's description is three-dimensional — WHERE × WHAT × WHICH CLOSING — and only the third is *proved* complete. Seven instrument failures found this session, **none in the mathematics**.
+
+> **Review 35 (2026-07-30)** — the correction lattice. Verdict coverage **42.6 % → 82.6 %**
+> (617/747), gated on **Fleiss' κ = 0.9312** across 12 readers on a shared calibration block —
+> which settled the question wave 1 could not: **10 of 12 readers produced the identical verdict
+> mix**, so wave 1's 0.364→0.917 spread was *era difference, not reader bias*. **5 of the window's
+> 15 arcs were corrected by a later arc in the same window**, every correction self-issued and
+> found by **decomposing a count rather than doubting a claim**. Gate D closed a proposed
+> month-long physics probe on day one from banked data.

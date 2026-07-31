@@ -674,3 +674,9 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 > (coefficient vs functional in `e^{iθW(A)}`). **Scope: this refutes the DIRECT identification, not
 > every possible construction** — any future attempt must first make m004 the spatial slice *and*
 > the geometric holonomy the colour field, both now checkable statements rather than impressions.
+
+> **Review 35 (2026-07-30)** — **L110 is CLOSED-REFUTED** (B813, type refutation with a stated
+> mechanism), and its disposition is recorded here rather than left implicit — the earlier attempt to
+> write it **failed silently mid-chain** and was caught only by grepping for the text it should have
+> produced. No lead opened this window; the physics surface's two permanent walls (no **scale**, no
+> **class-level** distinction) stand unchanged from B812.

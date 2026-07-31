@@ -1341,3 +1341,15 @@ Compaction W0–W5 complete; residuals discharged (B800 partial, B801 measured, 
 ## Review 34 (2026-07-30) — the instrument review
 
 Nine arcs (B803–B811). Verdict coverage 42.6 %. Faces and motifs measured **orthogonal** (mutual information 0.031) — two axes, not rivals. The (face, motif) plane is **saturated**; B808 refuted the empty-cell programme at 34/35 artifact. H128/H129 legally killed; H130 promoted as L107 with its null acknowledged inapplicable. Gate 5 untouched throughout.
+
+## Review 35 (2026-07-30) — the correction lattice
+
+Fifteen arcs (B812–B826). **Gate D** established that the Gang–Kim–Yoon dimension hypothesis is not
+well-posed at E₆ on 4₁ (the component is a **6-fold**; B575's fifteen vanishing cross-pairings close
+the six-separate-components branch) — answered from **banked data in an afternoon**, against an
+incoming plan that scheduled it for week 2. **Wave 2** wrote 299 verdicts behind a sealed κ ≥ 0.75
+gate (**κ = 0.9312**), and its shared calibration block resolved wave 1's reader-bias confound: the
+conservatism offset is **essentially nil**. Wave 2 also **found its own flaw** — the block exercised
+2 of 4 categories while licensing 4 — and B818 then found **2 real errors** in exactly that residue.
+The six-arc **lexicon sequence** (B820→B825) ended with two vacuity ceilings killing two motifs
+before one passed; the instrument that made it converge was **the ceiling, not the motif**.

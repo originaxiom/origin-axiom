@@ -156,3 +156,9 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 33 (2026-07-29)** — the compaction masterplan executed in full and is CLOSED. It refuted three of its own claims during execution (the hard-arc premise was backwards; the hard stratum is 11 arcs not 90; `verdict.json` was not a free filename). Remaining scope is authoring, not engineering.
 
 > **Review 34 (2026-07-30)** — W1 is half-run (317/744) and its gate is finally measured (**κ = 0.842**). Wave 2 needs **overlapping** slices; the plan's own audit design needs a random sample.
+
+> **Review 35 (2026-07-30)** — **W2 is run and gated**: 299 verdicts written behind Fleiss'
+> **κ = 0.9312** (12 readers, shared 15-arc block), coverage **82.6 %**. Its shared-block design did
+> what W1's could not — **measured** the conservatism offset and found it nil. **W3 is now named**
+> (R35-2): the 229 never-assigned ids, 116 of them with findings, and a calibration block covering
+> all four categories checked *before* the run.

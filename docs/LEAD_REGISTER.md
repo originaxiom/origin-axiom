@@ -152,3 +152,9 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 33 (2026-07-29)** — no lead status changed this review; the work was infrastructure and absorption. New registered item **R33-4**: decide LAW_MAP's enforcement posture (lock the load-bearing rows and gate them, or mark the ledger explicitly as an unenforced index). Ambiguity there is what the review found.
 
 > **Review 34 (2026-07-30)** — new: **L107**, the correctly-specified null for H130 — a decision to run, *not* a claim. B580's information-free channel and B686's parametrisation finding stand as the obstruction.
+
+> **Review 35 (2026-07-30)** — no new leads. **L110 closed**: the `CS(m004) = θ_QCD` dictionary is
+> **refuted on type** (B813) — computed invariant vs free coupling, PSL(2,ℂ) vs SU(3), and a **role
+> collision** (a Chern–Simons quantity would occupy the *coefficient* slot of `e^{iθW(A)}`, where a
+> Chern–Simons functional already sits). The refutation is of the **direct identification**, not of
+> every possible construction.

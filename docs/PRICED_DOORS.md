@@ -69,3 +69,7 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 33 (2026-07-29)** — no door repriced. Note from B799/B800: the twelve closures whose discriminating fact was never computed are resolved; **B685's remains the one genuine to-do** (reproduce GSWZ's normalisation), and it is explicitly NOT specialist-blocked — the in-sandbox route is open and unexhausted.
 
 > **Review 34 (2026-07-30)** — no door repriced. **B685's normalisation remains the one genuine to-do** among the twelve uncomputed doors, and is explicitly not specialist-blocked.
+
+> **Review 35 (2026-07-30)** — no door repriced. **B685's normalisation is still the one genuine
+> to-do** (carried R34→R35-6). Noted from B798's power box: the algebraicity falsifier's `(d, H)`
+> budget is sealed and its cost corrected, so that door's price is current.

@@ -177,3 +177,11 @@ names as the thing physics readings wait on. L91 obligations (1)–(3) are open.
 > **Review 33 (2026-07-29)** — the compaction campaign is CLOSED (W0–W5 + residuals B800/B801/B802). Next load-bearing work is authoring: **701 of 731 arcs still need verdicts** (the generated ledger projects 4.1 %), and **~111 negatives are unregistered** in the kill graph (B801, measured, CI 55–168).
 
 > **Review 34 (2026-07-30)** — next: **wave 2** (425 arcs, **overlapping** slices so the reader-conservatism offset is measured rather than confounded), a **random-sampled** re-audit of wave 1, and the stale WHAT axis. The forcing graph has **317 nodes and ~47 edges** — coverage is a precondition, not the goal.
+
+> **Review 35 (2026-07-30)** — next: **the third verdict wave** — 229 arc ids were never assigned to
+> any reader and **116 of them carry a `FINDINGS.md`** (B819), so the residue is a *coverage-frame
+> gap, not a data gap*. Its calibration block must exercise **all four** verdict categories, checked
+> **before** the run: wave 2's exercised two while licensing four, and **2 of the 11
+> untested-category writes were wrong** (B818). Also open and unscheduled: **the lexicon's full
+> re-grounding** (B806) — B825 closed only the one *known* gap, and `docs/atlas/BLIND_ARCS.md` says
+> in place that an empty `GAP` column is not a finished instrument.
