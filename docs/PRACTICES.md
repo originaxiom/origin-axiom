@@ -143,6 +143,12 @@ exists to catch.
 - **Name the defect path before discarding your own result.** Suspicion that cannot name a route is
   not a reason.
 - **An unearned negative is as bad as numerology.**
+- **A label-lock is not a lock (B828, 2026-07-30).** `test-vacuity` catches tests with *no*
+  assertion. It does **not** catch a test that asserts over **literals the test itself defines** —
+  e.g. `reasons = {...three strings...}; assert len(set(reasons.values())) == 3`, which verifies
+  that three different strings were typed and can only fail if someone edits the dict to repeat one.
+  **The question is not "does it assert?" but "what would have to be true in the WORLD for this to
+  fail?"** If the answer is "nothing outside this file", it is documentation wearing a test's name.
 - **A bounded falsifier declared before its governing theorem is retrieved is not yet known to be a
   falsifier (2026-07-29, the Dirac campaign).** The campaign designed the E34 trap in *advance* and
   caught the spin-count instance of it — then walked into a different instance of the same family:

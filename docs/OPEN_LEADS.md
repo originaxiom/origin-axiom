@@ -680,3 +680,31 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 > write it **failed silently mid-chain** and was caught only by grepping for the text it should have
 > produced. No lead opened this window; the physics surface's two permanent walls (no **scale**, no
 > **class-level** distinction) stand unchanged from B812.
+
+## B720 / S019 — two recompute cells that were queued and never registered (B828, 2026-07-30)
+
+Surfaced by the B827 shadow-log recovery. B741's provenance sweep
+(`frontier/B738_pathfinder_compiler/FACT_COMPUTED_SWEEP.md`, 2026-07-21) flagged **5 NOT-LOCATED**
+negatives — kills whose discriminating computation is not in the repo — and said each would be
+*"width-priced as its own hunt cell."* Three (B140, B332, B685) reached a register. **B720 and S019
+reached none**, and were carried only in a progress-log entry that itself went to a shadow file.
+
+- **B720 — LIVE.** `frontier/B720_coupling_path/` contains **no scripts**, and its lock
+  `tests/test_b720_coupling_path.py::test_three_nomatch_are_principled_not_adhoc` is a **label-lock**:
+  it asserts `len(set(reasons.values())) == 3` over three string literals the test itself defines.
+  **It cannot fail** unless someone edits the dict to repeat a value — it tests that three different
+  strings were typed. Its only real computation (`h(−3)=1`) supports a *lead*, not the negative.
+  **Recompute effort priced as minutes** on existing B575/B713 machinery.
+- **S019 — SUBSTANCE ALREADY REPAIRED, registration still missing.** Its tombstone cited
+  `speculations/archive/PHYSICS_RESONANCES.md`, which contains **zero** Fisher content. **B755 cell 5
+  repaired the citation on 2026-07-22** (now FAILURE_ATLAS C4 + an explicitly-flagged **PROXY**
+  computation on the metallic parameter `m`, *not* on `k`). Verified passing. Registered here so the
+  proxy status is visible outside the tombstone.
+
+**Also sharpened — B685.** The carried item reads *"B685's normalisation"*. The sweep says what that
+means: match **GSWZ eq (2)'s normalization** — the `3^(−1/2)` prefactor and the symmetrization
+convention — against **arXiv:2412.04241 §1.2**. Its once-vacuous lock (`factorint(3**e) == {3:e}`,
+which could never fail) was **replaced by B755 cell 3** with a real Kashaev-sum extraction; verified
+passing. **B800 then rebuilt the symmetrised series from first principles and corroborated `3^146`,
+but did NOT reproduce the "integral away from 3" clause** — so the open residue is exactly that
+clause, not the whole normalisation.
