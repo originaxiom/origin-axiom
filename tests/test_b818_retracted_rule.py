@@ -43,7 +43,10 @@ def test_every_retracted_arc_withdraws_its_own_headline():
         for name in ("FINDINGS.md", "VERDICT.md"):
             f = d / name
             if f.is_file():
-                head = f.read_text(encoding="utf-8")[:1500]
+                # WHOLE file, not a header window. B702 records a legitimate
+                # "## RETRACTION + CORRECTION" section at line 45, and a 1500-char read
+                # flagged a correctly-labelled arc as untagged (B835).
+                head = f.read_text(encoding="utf-8")
                 break
         if not SELF_MARKERS.search(head):
             bad.append(v["id"])

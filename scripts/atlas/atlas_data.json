@@ -17392,6 +17392,27 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B835": {
+   "slug": "lock repairs",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B700",
+    "B702",
+    "B818",
+    "B819",
+    "B829",
+    "B834"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B83": {
    "slug": "sln apolynomial",
    "motifs": [
