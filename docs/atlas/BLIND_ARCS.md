@@ -31,6 +31,7 @@ auditable in a way a passing threshold never was.
 | `B798` | INSTRUMENT | The algebraicity falsifier's power box — discharges review actions R32-4/R32-5 by pricing a `(d, H)` test budget. It **governs** an object claim without making one. *(Borderline: the falsifier it prices is load-bearing for B796, so if the lexicon ever gains a motif for falsifier design, revisit.)* |
 | `B818` | INSTRUMENT | The verdict-vocabulary errors and the `RETRACTED` disambiguation. |
 | `B819` | INSTRUMENT | The coverage-frame correction to B817. |
+| `B827` | INSTRUMENT | The shadow-progress-log recovery and the fail-open-by-drift gate fix. About the repository's own bookkeeping; an object atlas is correct to miss it. |
 
 **Open `GAP` count: 0.** `B537` was closed by B825's `markov_cubic` motif.
 

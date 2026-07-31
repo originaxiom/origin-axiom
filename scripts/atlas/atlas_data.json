@@ -17250,6 +17250,19 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B827": {
+   "slug": "progresslog recovery",
+   "motifs": [],
+   "refs": [
+    "B725",
+    "B823",
+    "B826"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B82": {
    "slug": "consolidation",
    "motifs": [

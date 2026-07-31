@@ -502,20 +502,55 @@ def gate_practices_register():
 
 
 def gate_log_changelog_paired():
-    """PROGRESS_LOG and CHANGELOG must be updated together.
+    """PROGRESS_LOG and CHANGELOG must be updated together, and there must be ONE progress log.
 
-    A standing rule that cc broke on three of its own commits in a single session (2026-07-29),
-    caught only by its own survey. Written rules have a half-life; this one now has a gate.
-    Checks that CHANGELOG was touched at or after the last PROGRESS_LOG touch."""
-    rc, a = _git("log", "-1", "--format=%ct", "--", "PROGRESS_LOG.md")
-    rc2, b = _git("log", "-1", "--format=%ct", "--", "CHANGELOG.md")
-    if rc != 0 or rc2 != 0 or not a.strip() or not b.strip():
+    A standing rule cc broke on three commits in one session (2026-07-29), so it was gated. The
+    gate then FAILED SILENTLY for ten days (B827): entries were going to a shadow
+    `docs/PROGRESS_LOG.md` created by accident at 73d07f0e, and this check compared CHANGELOG's
+    timestamp against the *canonical* file's. Once the canonical file stopped being written its
+    timestamp froze, so every later CHANGELOG commit trivially satisfied "CHANGELOG at or after
+    PROGRESS_LOG". A gate that watches a file nobody writes cannot detect that nobody writes it.
+
+    Two checks now, and both can fail:
+      (1) NO shadow progress log may exist outside the sanctioned archive dir. This is the one
+          that would have caught B827 on day one.
+      (2) CHANGELOG may not run more than ONE commit ahead of PROGRESS_LOG -- the standing rule is
+          "same or next PR", so a lag of 2+ means the log is being skipped.
+    """
+    # (1) shadow-file check -- the defect class that hid for ten days
+    shadows = []
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        # `legacy/` is a frozen import of the pre-2026-05-28 repository -- a genuine archive, not
+        # a shadow. Excluded by name so the check stays sharp everywhere else rather than being
+        # loosened into uselessness.
+        dirnames[:] = [d for d in dirnames
+                       if d not in (".git", "audit", "legacy", "node_modules", "__pycache__",
+                                    "veins")]
+        for fn in filenames:
+            if fn != "PROGRESS_LOG.md":
+                continue
+            rel = os.path.relpath(os.path.join(dirpath, fn), ROOT)
+            if rel != "PROGRESS_LOG.md":
+                shadows.append(rel)
+    if shadows:
+        return False, (f"shadow progress log(s): {shadows} -- there is exactly ONE progress log "
+                       f"(PROGRESS_LOG.md at the repo root); quarterly roll-offs live in "
+                       f"docs/progress/PROGRESS_<quarter>.md. A second file with this name "
+                       f"silently absorbed 37 entries over ten days (B827)")
+
+    # (2) lag check -- "same or next PR"
+    rc, out = _git("log", "-1", "--format=%H", "--", "PROGRESS_LOG.md")
+    if rc != 0 or not out.strip():
         return True, "git unavailable -- skipped"
-    ta, tb = int(a.strip()), int(b.strip())
-    if tb < ta:
-        return False, ("PROGRESS_LOG updated after CHANGELOG -- the standing rule is that a banked "
-                       "arc updates both in the same or next PR")
-    return True, "ok (changelog at or after progress-log)"
+    last_log = out.strip()
+    rc2, out2 = _git("rev-list", "--count", f"{last_log}..HEAD", "--", "CHANGELOG.md")
+    if rc2 != 0:
+        return True, "git unavailable -- skipped"
+    lag = int(out2.strip() or 0)
+    if lag > 1:
+        return False, (f"CHANGELOG is {lag} commits ahead of PROGRESS_LOG -- the standing rule is "
+                       f"that a banked arc updates both in the same or next PR")
+    return True, f"ok (one progress log; changelog lag {lag})"
 
 
 CHAIN = "docs/THEOREM_LEDGER.md"
