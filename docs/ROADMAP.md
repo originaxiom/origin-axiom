@@ -1,7 +1,11 @@
-> ⚠️ **NOT the operative roadmap.** The phase ladder the `views-fresh` gate reads — and the one
-> every review appends to — is **`ROADMAP.md` at the repository root**. This file is a second copy.
-> Review 35 appended here by mistake and the gate caught it; the same defect class as **OI-239**
-> (`docs/REVIEWS.md`), found twice in one review. Kept, not deleted: reconciliation is a separate item.
+> **Two roadmaps exist, and they are different documents — not copies.** This one is the
+> **tier map** (*from the object to the goal*: Tier 0 the object, Tier 1 internal completeness,
+> Tier 2 identification, Tier 3 the physics walls, Tier 4 the goal). The **phase ladder** —
+> Phase 0/A/B/C, cadences and standing rules — is `ROADMAP.md` at the repository root, and it is the
+> one the `views-fresh` gate tracks.
+>
+> **Review 35 mislabelled this file a stale fork and bannered it as such. That was wrong** and is
+> corrected here (B830): the two share **zero** headings and neither subsumes the other.
 
 # ROADMAP — from the object to the goal (the honest tier map)
 

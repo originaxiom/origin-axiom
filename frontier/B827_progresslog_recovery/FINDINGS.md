@@ -62,7 +62,7 @@ removing it restores the pass.
 ## The fourth one, in two days
 
 `REVIEWS.md`, `ROADMAP.md`, `PROGRESS_LOG.md` — three duplicated authoritative filenames found while
-writing **one review** (Review 35, findings 6 and 7), plus `docs/REVIEWS.md`'s known **OI-239**.
+writing **one review** (Review 35, findings 6 and 7), plus the stale `REVIEWS.md` fork under `docs/` (deleted, B830)'s known **OI-239**.
 
 > **Nothing in this repository prevented a second file with an authoritative name from existing**,
 > and each shadow held plausible content, so opening the wrong one gave no signal. Two of the three

@@ -2451,9 +2451,9 @@
   "fact_computed": false,
   "hatch": "deepen-past-plateau",
   "priority": "P3",
-  "revival_score": 10,
+  "revival_score": 0,
   "depth_note": "Checked levels 2,3,4,5,6 only; read the 2-adic index plateau at 6 (levels 2 and 4) as stabilization. The true congruence level is (2)3=(8), one 2-power past where the check stopped.",
-  "note": "ALREADY RETRACTED by B734 (error E22): the index jumps to 12 at level (8), so m004 IS congruence. The in-text level-2..6 computations were real and rigorous (including the SL/PSL center fix, E21), but the kill's discriminating fact — 2-adic stabilization — was INFERRED from the plateau, never computed, hence fact_computed=false for the kill itself. Canonical shallow-plateau case; the hatch (deepen past the plateau) is exactly how B734 reopened it. What survives of B731: the level-2/4 index-6 computations and the E21 center lesson."
+  "note": "ALREADY RETRACTED by B734 (error E22): the index jumps to 12 at level (8), so m004 IS congruence. The in-text level-2..6 computations were real and rigorous (including the SL/PSL center fix, E21), but the kill's discriminating fact — 2-adic stabilization — was INFERRED from the plateau, never computed, hence fact_computed=false for the kill itself. Canonical shallow-plateau case; the hatch (deepen past the plateau) is exactly how B734 reopened it. What survives of B731: the level-2/4 index-6 computations and the E21 center lesson. | REVIVAL SCORE LOWERED 10 -> 0 (B830, 2026-07-30): the score was the corpus MAXIMUM while this row's own note already said ALREADY RETRACTED by B734 -- a machine-readable field contradicting the human-readable one in the same record, so anyone sorting by revival_score was sent to the single most thoroughly-resolved question in the graph. The hatch (deepen past the plateau) was not merely available, it was ALREADY TAKEN by B734."
  },
  {
   "id": "B734",

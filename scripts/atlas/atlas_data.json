@@ -17258,7 +17258,8 @@
    "refs": [
     "B725",
     "B823",
-    "B826"
+    "B826",
+    "B830"
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
@@ -17312,6 +17313,30 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B830": {
+   "slug": "b720 recompute",
+   "motifs": [
+    "eisenstein",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B285",
+    "B525",
+    "B575",
+    "B706",
+    "B720",
+    "B731",
+    "B734",
+    "B819",
+    "B827",
+    "B828"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
    "status": "banked",
    "domain": "arithmetic"
   },

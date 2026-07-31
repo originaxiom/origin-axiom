@@ -1,5 +1,11 @@
 # Origin Axiom — Roadmap
 
+> **This is the PHASE LADDER** — Phase 0/A/B/C, cadences and standing rules — and the file the
+> `views-fresh` gate tracks. Its companion is the **TIER MAP** (*from the object to the goal*,
+> Tier 0 → Tier 4) at `docs/ROADMAP.md`. **They are different documents, not copies**: verified in
+> B830, they share **zero** headings. Review 35 mislabelled the companion a stale fork; that was
+> wrong and is corrected.
+
 Governed by `GOVERNANCE.md`. This file is the phase ladder. It stays in sync with
 `CLAIMS.md` and `PROGRESS_LOG.md`. Each rung has a scope, explicit non-claims, and a gate
 that must pass before the next rung begins.

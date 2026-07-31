@@ -2677,7 +2677,7 @@ checks, which looked like corroboration until one of them was exercised.**
 
 ### Finding 6 — the stale review fork (OI-239) nearly mis-scoped this review
 
-`docs/REVIEWS.md` is a stale, un-synced fork frozen at **Review 21 (2026-07-17)**; the operative
+the stale `REVIEWS.md` fork under `docs/` (deleted, B830) is a stale, un-synced fork frozen at **Review 21 (2026-07-17)**; the operative
 register is `docs/progress/REVIEWS.md`, at **Review 34**. **Reading the wrong one gives a window of
 383 commits instead of 20** — the error was caught only by replicating the gate's own path
 resolution. **B770's census already logged this as OI-239**; it is not a new finding, and it has now
@@ -2700,7 +2700,7 @@ duplicated authoritative filenames is R35-8.**
 
 ### Action items (Review 35)
 
-- [>] R35-1: **OI-239 BANNERED, not resolved** (this review). `docs/REVIEWS.md` now opens with a
+- [>] R35-1: **OI-239 BANNERED, not resolved** (this review). the stale `REVIEWS.md` fork under `docs/` (deleted, B830) now opens with a
   stale-fork warning naming the operative register and the 383-vs-20 window error. **Deletion was
   rejected on evidence**: the two files are *not* a clean prefix/suffix pair — they differ inside
   the shared range, so content may be unique. **Carried: reconcile the differences, then delete.**
