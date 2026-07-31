@@ -17428,6 +17428,32 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B837": {
+   "slug": "file drawer audit",
+   "motifs": [],
+   "refs": [
+    "B1",
+    "B452",
+    "B457",
+    "B499",
+    "B5",
+    "B500",
+    "B556",
+    "B557",
+    "B568",
+    "B580",
+    "B590",
+    "B634",
+    "B635",
+    "B652",
+    "B660",
+    "B811"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B83": {
    "slug": "sln apolynomial",
    "motifs": [
