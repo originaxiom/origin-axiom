@@ -33,6 +33,7 @@ auditable in a way a passing threshold never was.
 | `B819` | INSTRUMENT | The coverage-frame correction to B817. |
 | `B827` | INSTRUMENT | The shadow-progress-log recovery and the fail-open-by-drift gate fix. About the repository's own bookkeeping; an object atlas is correct to miss it. |
 | `B833` | INSTRUMENT | The negative-routing measurement and the arc-register vs kill-register unit mismatch. About the repository's own bookkeeping; an object atlas is correct to miss it. |
+| `B836` | INSTRUMENT | Routing the negative backlog into the kill graph. About the repository's own bookkeeping; an object atlas is correct to miss it. |
 
 **Open `GAP` count: 0.** `B537` was closed by B825's `markov_cubic` motif.
 

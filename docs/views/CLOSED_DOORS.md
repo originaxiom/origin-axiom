@@ -5,11 +5,15 @@
 
 # The closed-door map (generated)
 
-217 classified closures, indexed by the mechanism that shut them rather than by
-arc number. A programme whose firewall works is mostly negatives; this is the shape of them.
+**384 recorded closures — of which 217 are CLASSIFIED by mechanism and
+167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
+arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
+rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
+number. A programme whose firewall works is mostly negatives; this is the shape of them.
 
 | mechanism | doors | facts not computed |
 |---|---|---|
+| `unrouted-unclassified` | 167 | 167 |
 | `kind-mismatch` | 47 | 4 |
 | `genericity` | 33 | 1 |
 | `no-landing-site` | 30 | 1 |
@@ -25,7 +29,7 @@ arc number. A programme whose firewall works is mostly negatives; this is the sh
 | `selection-not-unique` | 3 |  |
 | `finite-truncation` | 2 | 1 |
 
-## Closures whose discriminating fact was not computed (12)
+## Closures whose discriminating fact was not computed (179)
 
 The standing rule is that a negative is only as sound as the in-sandbox computation of
 its discriminating fact. **B799 resolved all of these** — see `frontier/B799_uncomputed_doors/`.
@@ -44,3 +48,170 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B731` | m004 (the figure-eight knot group) is a congruence subgroup / has a finite congruence observer — B731 conclude | `finite-truncation` |
 | `W7-rebase` | The naive Z/3 triality acts on H^1(D;27) giving chat-1's 3+2 generation split | `no-landing-site` |
 | `S019 — Fisher metric on CS level k` | An information-geometry (Fisher-metric) reading of the Chern–Simons level | `method-limit` |
+| `B8` | The near-miss m/g is symbolically shown to equal sqrt(5/(4 log phi)), not phi, so the golden-ratio coincidence | `unrouted-unclassified` |
+| `B9` | Fibonacci fusion and the cubic vertex only share the polynomial tau^2-tau-1; no fusion-to-scattering map exist | `unrouted-unclassified` |
+| `B15` | The proposed Fibonacci coupling lambda=sqrt(5) is rejected under the Fricke-Vogt normalization, and the naive  | `unrouted-unclassified` |
+| `B17` | Same-record repetition is parabolic and the LPLP=A spelling is not a new uniqueness theorem under the existing | `unrouted-unclassified` |
+| `B20` | The trace map has invariant-memory and feedback but never reads its invariant, failing the operational self-mo | `unrouted-unclassified` |
+| `B22` | The -1 parity eigenvalue is generic for all orientation-reversing symmetric-square lifts, killing any special  | `unrouted-unclassified` |
+| `B24` | The Fibonacci anyon level k=3 is not selected by the framework; the shift from discriminant 5 to k+2 is underi | `unrouted-unclassified` |
+| `B26` | The proposed period-3 derivation of lambda/h=1 fails: (0,0,c) only half-returns, and the literal T^6 quadratic | `unrouted-unclassified` |
+| `B31` | Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without t | `unrouted-unclassified` |
+| `B32` | The A1-A7-plus-exchange chain does not select I=1/4; the missing ingredient is isolated as the A-sector self-s | `unrouted-unclassified` |
+| `B36` | The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambd | `unrouted-unclassified` |
+| `B37` | Under fixed operational definitions the trace map has feedback and an invariant but fails the self-model crite | `unrouted-unclassified` |
+| `B39` | Tangent-lattice integrality leaves an infinite discrete family c^2=(m+2)/4; the projective quotient alone deri | `unrouted-unclassified` |
+| `B40` | Audit finds S1 is not derived from the A1-A7 core: it is conditional on a newly named, underived assumption T1 | `unrouted-unclassified` |
+| `B41` | A bounded projective census shows the B26 period-3 orbit is the simplest one-parameter family, but c stays fre | `unrouted-unclassified` |
+| `B42` | Natural variational quantities of the tangent return (eigenvalue, torsion proxy, discriminant) are monotone on | `unrouted-unclassified` |
+| `B46` | The selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian while t^2-4t+1 does not: higher rank is  | `unrouted-unclassified` |
+| `B47` | Ledger verdict: lambda/h=1 is conditional, not derived; the strongest honest statement is T1 -> S1, with T1 it | `unrouted-unclassified` |
+| `B81` | The CRT/F_p first-principles route is blocked at SL(5): char(DT_0) scatters across seeds at the doubly-degener | `unrouted-unclassified` |
+| `B82` | The physics chapter is formally closed: every attempted bridge (anyons, quasicrystals, j=1728, higher-spin, qu | `unrouted-unclassified` |
+| `B85` | The Lambda^2-V representation shortcut is killed: the char(M^2) double multiplicity is a root-system fact that | `unrouted-unclassified` |
+| `B96` | The Neumann-Zagier volume Hessian at the complete structure is negative definite (0,2), closing the Lorentzian | `unrouted-unclassified` |
+| `B97` | Lorentzian signature is only the sl(2,R) Killing form on the Teichmuller component -- present by construction, | `unrouted-unclassified` |
+| `B98` | The Dickson tower does not appear at the geometric representation, which instead carries the adjoint torsion t | `unrouted-unclassified` |
+| `B99` | At SL(3) too the geometric rep's Jacobian is torsion-type (twisted-Alexander), not the Dickson tower, confirmi | `unrouted-unclassified` |
+| `B108` | The opposition involution theta=-w0 cannot predict the degree=rank scalars: it only sends c to 1/c, so the ord | `unrouted-unclassified` |
+| `B110` | The off-locus irreducible sector is empty for the figure-eight at SL(3): all three irreducible components lie  | `unrouted-unclassified` |
+| `B114` | The exponent k is not a covering degree: the full-spectrum meridian-to-longitude covering degree is about k^(n | `unrouted-unclassified` |
+| `B116` | The theta-split equals the tower only through n=5 and diverges at n=6, so B112's all-n sign-half claim is down | `unrouted-unclassified` |
+| `B119` | k=n is not forced by M^k centrality; the positive peripheral exponent mechanism does not close, and the princi | `unrouted-unclassified` |
+| `B126` | Metallic rigidity propagates exactly two floors and then provably stops: no 3-manifold supplies the 2d-boundar | `unrouted-unclassified` |
+| `B127` | Chirality, topology and arithmetic each kill the physics-bridge claims (K-A through K-E tombstoned); the survi | `unrouted-unclassified` |
+| `B129` | The metallic SL(3) tower is SL(2) arithmetic in SL(3) clothing with zero fixed points escaping Q(sqrt-3), so c | `unrouted-unclassified` |
+| `B130` | No trace-ring invariant is both discretely multivalued and unsymmetrizable: kappa is free on the fixed locus,  | `unrouted-unclassified` |
+| `B135` | There is no metallic family of Lee-Yang realizations since only m=1 has lambda<2, and the golden bridge matche | `unrouted-unclassified` |
+| `B139` | Multiplicity cannot supply the SM's simple non-abelian factor or irreducible chirality: the mirror preserves e | `unrouted-unclassified` |
+| `B143` | The algebraic trace venue is structurally mirror-blind, so the chirality-of-interactions campaign cannot run t | `unrouted-unclassified` |
+| `B144` | Cusp-glued composites are mirror-closed (verified GL(2,Z) identity), so seed-heterogeneity cannot break R-L sy | `unrouted-unclassified` |
+| `B145` | Chirality cannot be forced: over the catalogued once-punctured-torus bundles the canonical/minimal locus coinc | `unrouted-unclassified` |
+| `B151` | The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or vo | `unrouted-unclassified` |
+| `B167` | A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves n | `unrouted-unclassified` |
+| `B168` | The Omega accretion is a genuine non-i.i.d. generative process, but every emergent rate is dimensionless, so t | `unrouted-unclassified` |
+| `B170` | The Machian 'external dissolves into self-referential' leap is undecidable from within and its only testable f | `unrouted-unclassified` |
+| `B181` | The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition | `unrouted-unclassified` |
+| `B188` | Criticality gives no slow dissipative relaxation: the metallic Liouvillian gap matches the extended chain, dec | `unrouted-unclassified` |
+| `B189` | The Omega cone's Myrheim-Meyer dimension d~3.94 is a graded-DAG truncation artifact, reproduced by a random nu | `unrouted-unclassified` |
+| `B190` | Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixe | `unrouted-unclassified` |
+| `B202` | No silver SL(3) component carries a tidy A-variety relation [A,B]=c*mu^k, so the figure-eight's M^3=L is non-g | `unrouted-unclassified` |
+| `B207` | No GUT-style McKay breaking chain exists across the metallic family (E6 and E7 never occur) and the family car | `unrouted-unclassified` |
+| `B213` | The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-ge | `unrouted-unclassified` |
+| `B217` | The Borromean parent gives no geometric origin for the WRT period law: it governs the cusped volume, while the | `unrouted-unclassified` |
+| `B223` | The golden chain has no conserved fermion parity and hence no exact lattice supercharge; its SUSY is emergent/ | `unrouted-unclassified` |
+| `B230` | The ferromagnetic 'silver SUSY' (Z₆ parafermion, c=5/4) is a central-charge coincidence with a different coset | `unrouted-unclassified` |
+| `B231` | The metallic levels k=m²+2 confer no special chain structure for m≥2; the metallic mean equals the spin-½ quan | `unrouted-unclassified` |
+| `B235` | The trace-field ladder closes at {√5,√−3} — ℚ(√−7) never appears (arithmeticity/unimodularity) — and the F₄ fo | `unrouted-unclassified` |
+| `B241` | The Gang–Yonekura twist-knot SU(3) flavor symmetry is not the level-rank gauge SU(3)₂: different type (flavor  | `unrouted-unclassified` |
+| `B244` | SU(3)₂ at level 2 is a single number that does not resolve the three SL(3,ℂ) character-variety components; res | `unrouted-unclassified` |
+| `B246` | There is no symmetric SL(3) volume conjecture: the large-color SU(3) invariant grows at the complement volume  | `unrouted-unclassified` |
+| `B269` | T[4₁]'s single-cusp flavor symmetry is only U(1)⋊ℤ/2=O(2) with no SU(2) enhancement — the abelian wall holds;  | `unrouted-unclassified` |
+| `B280` | 2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus  | `unrouted-unclassified` |
+| `B281` | The figure-eight's character variety does not distinguish E₆ at either the dim H¹=rank or the irreducibility l | `unrouted-unclassified` |
+| `B282` | Almost everything in the E₆ programme is generic to any hyperbolic knot; only the arithmetic atom (4₁ unique a | `unrouted-unclassified` |
+| `B283` | The arithmetic self-generation vein collapses: the WRT period law is generic to all torus bundles (Jeffrey 199 | `unrouted-unclassified` |
+| `B284` | The exact finite-image 2T representation of the figure-eight is a generic smooth point (dim H¹=1) on the canon | `unrouted-unclassified` |
+| `B288` | No closed hyperbolic Dehn filling of the figure-eight re-sees ℚ(√−3) or is arithmetic, so the E₆-selecting ari | `unrouted-unclassified` |
+| `B292` | Of the three multiplicity candidates only the fiber Σ_{1,1} is a surface; the metallic tower and filling famil | `unrouted-unclassified` |
+| `B298` | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 a | `unrouted-unclassified` |
+| `B300` | The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two wal | `unrouted-unclassified` |
+| `B308` | The inter-generation Yukawa hierarchy is not forced by the object: E6 fixes the coupling but not the texture,  | `unrouted-unclassified` |
+| `B322` | Null test showed the figure-eight's 6241 filling-invariant ratios match 12 SM parameters at chance level (8/12 | `unrouted-unclassified` |
+| `B329` | 27 restricted to 2T for both natural embeddings gives n1=n2, so hierarchy Level 3 is unreachable by any canoni | `unrouted-unclassified` |
+| `B330` | Across five invariant classes every trace-map-invariant discrete invariant is continuous, a symmetrizable Galo | `unrouted-unclassified` |
+| `B331` | The generation-permuting order-3 element is elliptic and conjugate to its inverse, forcing chi_27(g) real and  | `unrouted-unclassified` |
+| `B333` | First-class NULL: the value's home is the compositum Q(sqrt-15), but the seam's arithmetic is generic and carr | `unrouted-unclassified` |
+| `B336` | √−15 is unreachable: the monodromy and commensurator routes are provably closed and fillings are generically n | `unrouted-unclassified` |
+| `B339` | The CS Dehn-filling flow's sub-leading coefficient is rational 1/24 = 1/(2h(E6)) with all even terms zero — th | `unrouted-unclassified` |
+| `B342` | The object's Z/3 is the (standard) trimaximal symmetry, but its would-be TM2 prediction theta_12 = 35.7 degree | `unrouted-unclassified` |
+| `B349` | Across all covers of the figure-eight through index 6 the census is a canonical multiset with every within-ind | `unrouted-unclassified` |
+| `B350` | The cyclic-cover abelian torsion class carries no forced choice: orders are the Lucas ladder |L_2n - 2|, the f | `unrouted-unclassified` |
+| `B355` | With the Weil representation rebuilt at N=3,5,15 on conventions earned from the relations, all 605 gauge-invar | `unrouted-unclassified` |
+| `B369` | Concatenating two metallic blocks into one bundle makes the seam readout identically null in all six words, ex | `unrouted-unclassified` |
+| `B387` | The registered ratio kill fires: the value sector is Par-dark at levels 45 and 135, so the seam/value-sector c | `unrouted-unclassified` |
+| `B388` | No transport law of the registered forms exists for the m=2 singles; the level-45 data is strictly coarser tha | `unrouted-unclassified` |
+| `B395` | The cell-wise sigma-law fails on 140/240 cells while the table-wide mirror holds: the mirror is summation-emer | `unrouted-unclassified` |
+| `B398` | The pre-registered statistics gate fired: the PMNS formula ensemble banks as numerology-class (p ≈ 0.087 raw,  | `unrouted-unclassified` |
+| `B408` | Under the embedding-invariant functional the seam envelope contracts up the tower (ratio 0.765), closing the o | `unrouted-unclassified` |
+| `B413` | The tower-measure is flat (|L(chi)|=1/4 for every character, Gauss-sum phases), carrying no new arithmetic, so | `unrouted-unclassified` |
+| `B414` | The Z/3-generations reading fails its privilege test: the object's core multiplicity is Z/2 (class number of Q | `unrouted-unclassified` |
+| `B419` | The tracked quantum-invariant destination is a hyperbolic volume with golden-field arithmetic, not an SM struc | `unrouted-unclassified` |
+| `B420` | The L-function track's destination is the genus-character L-factorization of the Hilbert class field of Q(sqrt | `unrouted-unclassified` |
+| `B421` | Tracked blind to all six of its natural behaviours, every destination is named pure mathematics and none clear | `unrouted-unclassified` |
+| `B422` | Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal, so the content wall holds  | `unrouted-unclassified` |
+| `B429` | First-order rigidity: no first-order deformation of the object's E₆ structure produces spinorial matter — the  | `unrouted-unclassified` |
+| `B430` | Fermionic sl2 embeddings exist in E6's landscape, but the object forces only the principal bosonic one, so the | `unrouted-unclassified` |
+| `B438` | The missing foreign control shows 4₁ and 5₂ share both the −283 exit field and the torsion value 121: nothing  | `unrouted-unclassified` |
+| `B441` | The child 4_1(5,1)'s WRT field is exactly Q(zeta_r), identical to the surgery skeleton at every r, so its sqrt | `unrouted-unclassified` |
+| `B442` | The child's composite E6 data is a function of the -283 vacua and commensurability-shared with 5_2, adding no  | `unrouted-unclassified` |
+| `B447` | Every m-scan flag dissolved or laundered — the golden specific-heat offset is reproduced by a parameter-free 8 | `unrouted-unclassified` |
+| `B455` | The homeostasis card dies by exact computation (kappa is conserved along perturbed orbits, so no restoring res | `unrouted-unclassified` |
+| `B457` | Both preregistered gates fail on the frozen ethogram catalog (EZ-2: 6 hits vs null mean 4.0, p=0.168; 0 of 3 s | `unrouted-unclassified` |
+| `B458` | Every non-geometric SL(3) component of the figure-eight, including the Q(sqrt-7) pair, has complex volume 0 +  | `unrouted-unclassified` |
+| `B461` | No Brunnian-specific manifold invariant emerged for the Borromean rings, and Q(sqrt(-7)) appears on an unrelat | `unrouted-unclassified` |
+| `B462` | Every exact structure in the figure-eight double launders through a class-generic mechanism (Kirby–Melvin, tra | `unrouted-unclassified` |
+| `B464` | The Relation Campaign closes with no relational invariant escaping class-laundering in any computed cell; two  | `unrouted-unclassified` |
+| `B480` | The QCA/Dirac route is null: Dirac emergence is generic, mass is a tunable alignment angle, and the object's a | `unrouted-unclassified` |
+| `B481` | det(T) = zeta_5 is a float artifact: determinants of the critical-point Weil operators land in the 12th roots  | `unrouted-unclassified` |
+| `B490` | The twelve object-to-Standard-Model refutations are one structural no-go, stated as a single provable theorem  | `unrouted-unclassified` |
+| `B498` | Depth-3 mixed words refute both the golden monopoly and cyclotomic tameness — interaction fixed points birth g | `unrouted-unclassified` |
+| `B512` | The six-cell handoff pass banks two negatives: the McKay ladder to E₆ is golden-specific (silver is a 2-group) | `unrouted-unclassified` |
+| `B529` | The QCA covariance gate fails: iσ_y's exactness is generic spectral degeneracy and the golden-angle coin loses | `unrouted-unclassified` |
+| `B541` | Two independent pre-registered stage-2a designs both return NULL: the 17-component dictionary matches SM const | `unrouted-unclassified` |
+| `B549` | Both time-independent cosmic ratios return null through the frozen Z[tau] machinery against magnitude-matched  | `unrouted-unclassified` |
+| `B551` | The species word is neither a coloring of the Fibonacci word ('aaa' occurs) nor Sturmian (complexity ≈3n), so  | `unrouted-unclassified` |
+| `B559` | The object's chain is critical with log-law entanglement, not area-law, and the figure-eight is a finite-actio | `unrouted-unclassified` |
+| `B563` | The preregistered Planck-ratio retry nulls at every rung (p≈0.53, zero hits), with a plastic-seed control ladd | `unrouted-unclassified` |
+| `B573` | The handoff's step 8 is refuted and its proposed check ill-posed: the principal sl2 preserves no Spin(10) grad | `unrouted-unclassified` |
+| `B577` | B575/B576's core results were already banked weeks earlier (B265/B352): a non-recall failure, not new discover | `unrouted-unclassified` |
+| `B592` | The mirror listener is deaf: C-symmetry of the state makes every closed theta-odd amplitude vanish for every g | `unrouted-unclassified` |
+| `B596` | The preregistered prediction fails on the blind sweep: the θ-odd block's clock is not the naive cat-map period | `unrouted-unclassified` |
+| `B597` | Distinct theta-odd widths and theta-even torsions structurally exclude the free-rotation outcome C (conditiona | `unrouted-unclassified` |
+| `B600` | Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4 (κ=16), reproduced in an independent pipeline and certified e | `unrouted-unclassified` |
+| `B602` | No declared structural normalization carries even the phase — all X1 cells fail with residual exactly −π/15 an | `unrouted-unclassified` |
+| `B606` | Outcome D-nf: no torsion-power normalization can close the value gauge, since tau_4's 97 and tau_8's 31*607*49 | `unrouted-unclassified` |
+| `B611` | Both sealed predictions failed: amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensio | `unrouted-unclassified` |
+| `B612` | The sealed per-level pairing biconditional FAILED (chiral RRLLL closes at kappa=6); only the level-uniform qua | `unrouted-unclassified` |
+| `B631` | The 3x3 odd hearing form does not match PMNS at the 1% tier: 0/9 entries within 0.01, D = 0.134, Haar null p = | `unrouted-unclassified` |
+| `B633` | On scheme-stated, uncertainty-correct inputs the last SM residual dissolves (p = 0.078 becomes 0.145-0.62): ev | `unrouted-unclassified` |
+| `B639` | The conj∘θ twisted double's 27-object admits no representation-twisted amalgam realization in any tested class | `unrouted-unclassified` |
+| `B643` | The amphichiral flip is not a symmetry of the weld double: no invertible global companion exists (solution dim | `unrouted-unclassified` |
+| `B655` | The incoming beta-coefficient claim dies by refutation — its anchors contradict the banked cards (silver condu | `unrouted-unclassified` |
+| `B658` | Both order-4 orientation-reversing families break on the weld double's 27 local system (solution dimension 1,  | `unrouted-unclassified` |
+| `B660` | Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v₀-mediated trilin | `unrouted-unclassified` |
+| `B671` | The 351-cup solo 3x3 eigenvalue ratios differ by about seven orders of magnitude between the two canonical sca | `unrouted-unclassified` |
+| `B674` | Route 1 misses: the Γ(5) twisted tower is trace-silent (tr(A₁*|H¹(Symᵐ))=0 for all m), though its modular lift | `unrouted-unclassified` |
+| `B678` | The full 8x12 ladder census shows no growth in any of 96 cells, refuting chat1's amphichiral-suppression mecha | `unrouted-unclassified` |
+| `B686` | The 'Koide is Eisenstein arithmetic' claim is firewalled: Q = 2/3 is a parametrization tautology for every pha | `unrouted-unclassified` |
+| `B697` | The golden's appearance in the zeta-5 Habiro evaluation is a tautological Gaussian period carrying no object-s | `unrouted-unclassified` |
+| `B713` | Chirality is not in the amphichiral object: triality is gauge-only, sigma_omega vanishes identically, and 'whi | `unrouted-unclassified` |
+| `B716` | Time, 4-dimensionality and Lorentzian signature are all the observer's: no canonical arrow, no canonical 4d fi | `unrouted-unclassified` |
+| `B718` | Beyond H1=Z/p the child is arithmetically generic and authors no ADE skeleton — SL(2,F_p) is McKay only at p=3 | `unrouted-unclassified` |
+| `B719` | Multiplicity/scale is the observer's — every cover's volume is exactly degree·base with no preferred size — an | `unrouted-unclassified` |
+| `B728` | The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object. | `unrouted-unclassified` |
+| `B729` | The Born amplitude field Q(sqrt(2+phi)) is not native: every native invariant yields only the two quadratic fi | `unrouted-unclassified` |
+| `B735` | The emittance face is real but generic to every cusped hyperbolic manifold, and its flagship cusp-scattering-e | `unrouted-unclassified` |
+| `B737` | Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion),  | `unrouted-unclassified` |
+| `B740` | Recomputed across all 78 hyperbolic fillings by two seats and two methods: no closed filling of m004 re-sees s | `unrouted-unclassified` |
+| `B743` | Zero gated hits: the object's whole real algebraic tower and canonical analytic values contain no SM ratio at  | `unrouted-unclassified` |
+| `B747` | No child re-sees the hearing field: all 78 fillings' invariant trace fields are √5-free — 54 odd-degree slopes | `unrouted-unclassified` |
+| `B748` | None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid re-sees the meeting face Q(sqrt-15) (0/78), co | `unrouted-unclassified` |
+| `B751` | The 1/(2phi^3) = alpha_s identification is NOT EARNED: the per-letter assignment is constructed and drops a 0. | `unrouted-unclassified` |
+| `B752` | The qualia handoff dissolves on recompute: its c*phi^-n hits are base-rate by its own decision rule (nulls P=0 | `unrouted-unclassified` |
+| `B754` | Re-adjudicating 19 banked negatives against the frozen spectral surface gives 17 KILL-EXTENDS, 2 FACE-IRRELEVA | `unrouted-unclassified` |
+| `B756` | The general '5-inert and fibered implies golden' reading dies on five exact counterexamples; the Euler-product | `unrouted-unclassified` |
+| `B757` | The two Z/3's are never the same element (deck reps are torsion-free), and the mod-4 coincidence is conjugacy- | `unrouted-unclassified` |
+| `B760` | No object-native operation (Galois, MCG powers, C, τ, coupling sign) canonically signs the theta-odd chord sec | `unrouted-unclassified` |
+| `B772` | Audit of 14 banked negatives: only 4 are load-bearing; the corpus is seam-independent but systematically probe | `unrouted-unclassified` |
+| `B775` | Wave 1 tombstones three courier frameworks and walls the mover door (no object-native outer operation); one se | `unrouted-unclassified` |
+| `B790` | The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and t | `unrouted-unclassified` |
+| `B793` | Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so  | `unrouted-unclassified` |
+| `B802` | Independently reproduced the mechanism behind cc3's B783: reversal leaves the Fibonacci letter frequencies unc | `unrouted-unclassified` |
+| `B808` | A margin-preserving permutation null (10,000 draws) refutes the seat's own proposal that the 35 empty (face, m | `unrouted-unclassified` |
+| `B811` | The owed promotion gate KILLED H128 (alpha_s, on kind: a scale-free object cannot emit a scale-dependent value | `unrouted-unclassified` |
+| `B812` | Ten preregistered physics targets, zero genuine paths: five blocked by M (no computed mechanism, an absence no | `unrouted-unclassified` |
+| `B813` | The direct CS(m004)=θ_QCD dictionary is refuted on type: a fixed PSL(2,ℂ) geometric invariant cannot fill the  | `unrouted-unclassified` |
+| `B814` | The Gang-Kim-Yoon identity has no well-posed statement at the principal E6 point of 4_1: the component is a sm | `unrouted-unclassified` |
+| `B821` | The proposed self-audit motif failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%) and was reverted | `unrouted-unclassified` |
+| `B824` | The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character v | `unrouted-unclassified` |

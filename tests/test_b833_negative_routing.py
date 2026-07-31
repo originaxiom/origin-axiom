@@ -20,13 +20,27 @@ def _negatives():
     return out
 
 
-def test_the_unrouted_count_is_inside_b801s_predicted_interval():
-    """A sampling estimate checked against the census it predicted."""
+def test_the_backlog_b801_predicted_is_now_CLEARED():
+    """B801 estimated 111 unregistered negatives (95% CI 55-168). B833 measured 137 -- inside the
+    interval, so the sampling estimate was corroborated by the census it predicted. B836 then
+    routed them, so the backlog is zero and the enduring facts are (a) it is cleared and
+    (b) it stays cleared as new negatives are authored.
+    """
     ids = {r.get("id") for r in _graph() if isinstance(r.get("id"), str)}
     unrouted = set(_negatives()) - ids
-    assert 55 <= len(unrouted) <= 168, (
-        f"{len(unrouted)} unrouted negatives is outside B801's 95% CI of 55-168; "
-        f"either the estimate or the count needs re-deriving")
+    assert len(unrouted) == 0, (
+        f"{len(unrouted)} NEGATIVE-verdict arcs are absent from the kill graph -- route them "
+        f"(B836) rather than letting the backlog rebuild")
+
+
+def test_routed_records_do_NOT_fabricate_the_provenance_flag():
+    """fact_computed asserts the kill's discriminating computation is in the repo. B836 left it
+    UNSET on every routed record; a False or True there would be a claim nobody checked."""
+    routed = [r for r in _graph() if r.get("kill_form") == "unrouted-unclassified"]
+    assert routed, "no routed records found"
+    bad = [r["id"] for r in routed if r.get("fact_computed") is not None]
+    assert not bad, f"routed records asserting fact_computed: {bad[:8]}"
+    assert all(r.get("priority") == "UNTRIAGED" for r in routed)
 
 
 def test_the_kill_graph_is_NOT_an_arc_level_register():

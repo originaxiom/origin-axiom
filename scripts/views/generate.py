@@ -169,9 +169,17 @@ def view_closed_doors(arcs, kills):
     byform = {}
     for r in kills:
         byform.setdefault(r["kill_form"], []).append(r)
+    # B836 routed every NEGATIVE-verdict arc into the graph, so "classified" is no longer true of
+    # all of them: routed records carry kill_form="unrouted-unclassified" and DELIBERATELY unset
+    # judgement fields. Say which is which rather than letting a reader count them as classified.
+    n_unrouted = sum(1 for r in kills if r["kill_form"] == "unrouted-unclassified")
+    n_class = len(kills) - n_unrouted
     L = [HEADER, "# The closed-door map (generated)\n",
-         f"{len(kills)} classified closures, indexed by the mechanism that shut them rather than by\n"
-         "arc number. A programme whose firewall works is mostly negatives; this is the shape of them.\n",
+         f"**{len(kills)} recorded closures — of which {n_class} are CLASSIFIED by mechanism and\n"
+         f"{n_unrouted} are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the\n"
+         "arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET\n"
+         "rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc\n"
+         "number. A programme whose firewall works is mostly negatives; this is the shape of them.\n",
          "| mechanism | doors | facts not computed |", "|---|---|---|"]
     for form, rs in sorted(byform.items(), key=lambda kv: -len(kv[1])):
         unc = sum(1 for r in rs if not r["fact_computed"])
@@ -217,7 +225,8 @@ def view_reviewer(arcs, kills):
          f"| words of findings prose | **{sum(a['words'] for a in arcs):,}** |",
          f"| test lock files referenced | **{len({t for a in arcs for t in a['tests']})}** |",
          f"| arcs carrying an authored verdict | **{len(authored)}** ({len(authored)/len(arcs)*100:.1f} %) |",
-         f"| classified closures | **{len(kills)}** |",
+         f"| recorded closures | **{len(kills)}** ({sum(1 for r in kills if r['kill_form'] != 'unrouted-unclassified')} classified, "
+         f"{sum(1 for r in kills if r['kill_form'] == 'unrouted-unclassified')} routed-only) |",
          "",
          "**Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger\n"
          "projects only the authored fraction; the closed-door map projects only classified closures,\n"
