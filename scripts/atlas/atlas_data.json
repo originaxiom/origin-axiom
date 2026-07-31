@@ -16856,13 +16856,15 @@
     "B793",
     "B798",
     "B805",
+    "B825",
+    "B829",
     "K001",
     "K022",
     "K023",
     "K024",
     "K025"
    ],
-   "obstacle": "spacetime_3p1",
+   "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "dead",
    "domain": "arithmetic"

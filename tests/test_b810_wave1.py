@@ -26,7 +26,10 @@ def test_no_verdict_exists_for_a_nonexistent_arc():
     """The honesty test cc's own transcription error supplied: 6 bad IDs, 0 fabricated arcs."""
     for p in _verdicts():
         d = Path(p).parent
-        assert (d / "FINDINGS.md").is_file(), f"verdict written for an arc with no FINDINGS: {d}"
+        # B826 widened this: the rule is "no verdict without a substantive findings document",
+        # not "without a file named FINDINGS.md". B519 records its result in VERDICT.md.
+        assert any((d / n).is_file() for n in ("FINDINGS.md", "VERDICT.md")), \
+            f"verdict written for an arc with no findings document: {d}"
 
 
 def test_pilot_verdicts_were_not_overwritten_by_the_fanout():

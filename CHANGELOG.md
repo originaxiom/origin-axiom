@@ -1,5 +1,12 @@
 # Changelog
 
+## B829 — five locks pinned to literals, found by the full suite; and B806's headline number had drifted
+- **The full suite (3046 passed) caught 5 failures**, and all five are **one class: a lock asserting on state that my own later work legitimately changed.** That is **Review 35's Finding 5 — which I named in this same session, and then shipped five more instances of.** Naming a defect class does not stop you producing it; only a check does.
+- **Three were literals against the lexicon size** (`== 18`, `<= 18`) broken by B825's 19th motif; **two were about `B519`**, broken by B826 giving it a verdict.
+- **One of them was a correct tripwire, not a defect.** `test_the_lexicon_is_a_small_hand_authored_closed_vocabulary` carried the message *"re-derive B806's numbers"*. **Its demand was met rather than bumped.**
+- **B806's headline number has DRIFTED and was stale: top-3 motif coverage is 0.8845, not the 93.3 % B806 states.** Corrected in place. **The cause is entirely corpus growth** — verified by recomputing with `markov_cubic` excluded and getting the **identical 0.8845**, so B825 did not cause it. B806's load-bearing form (*concentration is a property of a closed vocabulary, not a measurement of the object*) is unaffected; only the percentage was stale.
+- **Re-anchored on properties rather than literals:** the two vocabulary bounds now track `len(lexicon)`; B810's writer-safety lock now reads *"a substantive findings document"* (`FINDINGS.md` **or** `VERDICT.md`, per B826) instead of one filename; B819's lock now asserts the **enduring** facts — B519's layout is still unique, it now carries `RETRACTED`, and **no new nonstandard-layout arc has appeared unverdicted**.
+
 ## B828 — what the shadow-log recovery actually surfaced: one live label-lock, two unregistered cells
 - **No mathematics was lost.** Every one of B827's 37 stranded entries has a recoverable arc, and B741's artifact — `frontier/B738_pathfinder_compiler/FACT_COMPUTED_SWEEP.md`, 27 KB — is intact. The shadow file cost *findability*, not content.
 - **But it surfaced a live defect.** B741's 2026-07-21 sweep flagged **5 NOT-LOCATED** negatives (kills whose discriminating computation is not in the repo), each to be *"width-priced as its own hunt cell."* Three reached a register; **B720 and S019 reached none**, carried only in a progress-log entry that itself went to the shadow.

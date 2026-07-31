@@ -20,6 +20,8 @@ falsifies the 88 % figure this seat had computed minutes earlier.)*
 **2. The corpus looks extremely concentrated.** Over 734 probes: **18 distinct motifs; 3 cover
 93.3 %; 11 cover 100 %.**
 
+> **DRIFTED — re-derived 2026-07-30 (B829).** Top-3 coverage is now **0.8845**, not 93.3 %. The drift is **entirely corpus growth**, verified by recomputing with B825's new `markov_cubic` motif excluded and obtaining the **identical 0.8845**. The finding's load-bearing form — *concentration is a property of a closed 19-label vocabulary, not a measurement of the object* — is unaffected; only the quoted percentage is stale.
+
 **3. That concentration is the instrument's, not the object's.** The atlas `LEXICON` is **18
 hand-authored regex sets**, and its own header states its grounding: *"knowledge/K001..K022,
 docs/atlas/GLOSSARY, the HINT recurrence-hints."*

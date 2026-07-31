@@ -114,10 +114,10 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | source_free | 0/1 |
 | bridge_construction | 5/12 |
 | gauge_dict | 39/66 |
-| measure | 53/88 |
+| measure | 53/89 |
 | cancellation | 40/62 |
 | numerology | 22/34 |
-| spacetime_3p1 | 95/144 |
+| spacetime_3p1 | 95/143 |
 | units_scale | 84/121 |
 
 ---

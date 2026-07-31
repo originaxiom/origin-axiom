@@ -13,7 +13,11 @@ def _atlas():
 def test_the_lexicon_is_a_small_hand_authored_closed_vocabulary():
     """The finding's premise: the atlas can only ever see what it was told to look for."""
     lex = _atlas()["lexicon"]
-    assert len(lex) == 18, f"lexicon size changed from 18 to {len(lex)} -- re-derive B806's numbers"
+    # 19 since B825 added `markov_cubic`. This tripwire fired and its demand was MET rather than
+    # bumped: B806's numbers were re-derived (B829). Top-3 coverage is now 0.8845, against the
+    # 93.3 % B806 states -- and the drift is entirely CORPUS GROWTH, verified by recomputing with
+    # markov_cubic excluded and getting the identical 0.8845.
+    assert len(lex) == 19, f"lexicon size changed from 19 to {len(lex)} -- re-derive B806's numbers"
     src = (ROOT / "scripts" / "atlas" / "atlas.py").read_text()
     assert "LEXICON = {" in src                      # hand-authored, not derived from the corpus
     assert "K001..K022" in src                       # and its grounding is frozen, by its own header
@@ -34,7 +38,9 @@ def test_concentration_is_bounded_by_the_lexicon_not_measured_from_the_corpus():
     P = _atlas()["probes"]
     from collections import Counter
     mot = Counter(m for v in P.values() for m in v.get("motifs", []))
-    assert len(mot) <= 18                            # cannot exceed the closed vocabulary
+    assert len(mot) <= len(_atlas()["lexicon"])      # structural: cannot exceed the closed vocabulary
     top3 = {m for m, _ in mot.most_common(3)}
     cov = sum(1 for v in P.values() if set(v.get("motifs", [])) & top3) / len(P)
+    # 0.8845 today. B806's own text says 93.3 %; that number has DRIFTED DOWN with corpus growth
+    # and is stale. The 0.85 floor is the claim's load-bearing form and still holds (B829).
     assert cov > 0.85, "the concentration claim in B806 rests on this"

@@ -34,12 +34,20 @@ def test_b817_carries_the_correction():
     assert "coverage-frame gap, not a data gap" in f
 
 
-def test_b519_is_the_lone_nonstandard_layout():
-    """VERDICT.md instead of FINDINGS.md -- the case writer safety correctly refused."""
-    odd = [d.name for d in _dirs_without_verdict()
-           if not (d / "FINDINGS.md").is_file()
-           and any(p.name.startswith("VERDICT") for p in d.glob("*.md"))]
-    assert odd == ["B519_re_mining"], f"expected B519 alone; got {odd}"
+def test_b519_was_the_lone_nonstandard_layout_and_is_now_verdicted():
+    """B819 found B519 the only arc recording its result in VERDICT.md rather than FINDINGS.md.
+
+    B826 then gave it a verdict, so it no longer sits in the unverdicted set. The enduring facts
+    are that the layout is still unique and that the arc is no longer stranded (B829).
+    """
+    import json as _json
+    arc = FRONTIER / "B519_re_mining"
+    assert not (arc / "FINDINGS.md").is_file() and (arc / "VERDICT.md").is_file()
+    assert _json.loads((arc / "arc_verdict.json").read_text(encoding="utf-8"))["verdict"] == "RETRACTED"
+    others = [d.name for d in _dirs_without_verdict()
+              if not (d / "FINDINGS.md").is_file()
+              and any(p.name.startswith("VERDICT") for p in d.glob("*.md"))]
+    assert others == [], f"a new nonstandard-layout arc appeared unverdicted: {others}"
 
 
 def test_the_frame_gap_is_real_and_large():

@@ -48,5 +48,9 @@ def test_observer_is_a_third_axis_touching_every_motif():
     faces, motifs = m.load()
     hits, fc, mc = m.observer_spread(faces, motifs)
     assert len(hits) > 40
-    assert len(mc) == 18, f"observer must cut across ALL motifs, touched {len(mc)}"
+    # Structural, not a literal: track the lexicon so adding a motif (B825) does not falsify a
+    # claim about the OBSERVER axis, which is what the hardcoded 18 did (B829).
+    lex = json.loads((Path(__file__).resolve().parents[1] / "scripts" / "atlas"
+                      / "atlas_data.json").read_text(encoding="utf-8"))["lexicon"]
+    assert len(mc) == len(lex), f"observer must cut across ALL motifs, touched {len(mc)} of {len(lex)}"
     assert len(fc) >= 4
