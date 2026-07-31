@@ -1,0 +1,10 @@
+{
+ "id": "B454",
+ "verdict": "PROVED",
+ "claim_one_line": "Closure lemma proved: every word trace of any SL(2) representation of ⟨a,b⟩ lies in ℤ[x,y,z], so at the object's seed the word channel can never leave ℚ(√−3), with the collapse verified non-vacuous.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

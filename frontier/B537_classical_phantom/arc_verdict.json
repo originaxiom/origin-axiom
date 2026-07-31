@@ -1,0 +1,10 @@
+{
+ "id": "B537",
+ "verdict": "PROVED",
+ "claim_one_line": "(1,1,5) is proved to be a phantom — not (tr A, tr B, tr AB) for any A,B ∈ SL(2,ℤ) — by Latimer–MacDuffee class-number-1 completeness plus elliptic and hyperbolic slot obstructions, and it sits at level c=22, not 32.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

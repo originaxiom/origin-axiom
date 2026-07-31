@@ -1,0 +1,10 @@
+{
+ "id": "B448",
+ "verdict": "PROVED",
+ "claim_one_line": "The exact T_1 periodic-orbit field tower on the cusp locus kappa=-2 (the Markov surface) gives Q(sqrt-3) at period 2 and Q(sqrt-7) at period 4, with a silver control confirming object-specific labels and no sqrt5 through period 7.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

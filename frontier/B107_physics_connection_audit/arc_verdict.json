@@ -1,0 +1,10 @@
+{
+ "id": "B107",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The metallic tower is the known Kohmoto-Kadanoff-Tang quasicrystal trace map carrying a single golden scale (eigenvalues +-phi^k), i.e. re-presented moduli-space monodromy and not a spectrum of new physics.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

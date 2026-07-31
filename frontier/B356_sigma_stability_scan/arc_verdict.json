@@ -1,0 +1,10 @@
+{
+ "id": "B356",
+ "verdict": "PROVED",
+ "claim_one_line": "Every SL(2,ℂ)-factoring route forces a quaternionic self-dual 2 (det-lemma), and complex 27-dim assemblies with an invariant cubic exist only for A₄ and 2T — the chirality window is exactly the Eisenstein ω.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

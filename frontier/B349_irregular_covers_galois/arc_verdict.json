@@ -1,0 +1,10 @@
+{
+ "id": "B349",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Across all covers of the figure-eight through index 6 the census is a canonical multiset with every within-index invariant multiplicity collapsing to one isometry class, so no member is marked and no forced choice exists.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

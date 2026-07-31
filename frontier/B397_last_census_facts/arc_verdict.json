@@ -1,0 +1,10 @@
+{
+ "id": "B397",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Both registered local forms of the (2,3) stabilizer are killed (no pointwise sigma_19-fixing, no power-relabel intertwiner) so the stabilization is aggregate, and the inter-model sigma_sqrt5 trace-conjugacy fails, being intra-model only.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

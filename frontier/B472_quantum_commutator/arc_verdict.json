@@ -1,0 +1,10 @@
+{
+ "id": "B472",
+ "verdict": "PROVED",
+ "claim_one_line": "The exact table tr[W₁ʲ,W₂ˡ] (three independent lifts agreeing) has magnitudes the divisors of 15 and κ_q(1,1)=−1≠κ_classical=−2, with [W₁²,W₂³]=I exactly, derived by CRT (Q₈ mod 3, full SL(2,5) mod 5).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -10,15 +10,15 @@ view can quietly imply completeness it does not have.
 
 | layer | count | of | share |
 |---|---|---|---|
-| arcs with `FINDINGS.md` | **758** | — | 100 % |
-| arcs with an authored verdict (W1) | **617** | 758 | 81.4 % |
+| arcs with `FINDINGS.md` | **759** | — | 100 % |
+| arcs with an authored verdict (W1) | **667** | 759 | 87.9 % |
 | classified in `kill_graph` | **217** | — | — |
 | kill records resolving to an arc | **172** | 217 | 79 % |
 | kill records with no arc directory | **45** | 217 | 21 % |
 
 ## Negatives absent from `kill_graph`
 
-Found among the authored arcs: `B108`, `B110`, `B114`, `B116`, `B119`, `B126`, `B127`, `B129`, `B130`, `B135`, `B139`, `B143`, `B144`, `B145`, `B15`, `B151`, `B167`, `B168`, `B17`, `B170`, `B181`, `B188`, `B189`, `B190`, `B20`, `B202`, `B207`, `B213`, `B217`, `B22`, `B223`, `B230`, `B231`, `B235`, `B24`, `B241`, `B244`, `B246`, `B26`, `B269`, `B280`, `B281`, `B282`, `B283`, `B284`, `B288`, `B292`, `B298`, `B300`, `B308`, `B31`, `B32`, `B322`, `B329`, `B330`, `B333`, `B336`, `B339`, `B342`, `B36`, `B369`, `B37`, `B387`, `B388`, `B39`, `B395`, `B40`, `B408`, `B41`, `B413`, `B414`, `B419`, `B42`, `B422`, `B430`, `B438`, `B441`, `B442`, `B447`, `B46`, `B461`, `B462`, `B464`, `B47`, `B480`, `B481`, `B490`, `B498`, `B512`, `B529`, `B541`, `B549`, `B559`, `B563`, `B573`, `B577`, `B592`, `B596`, `B597`, `B611`, `B612`, `B631`, `B633`, `B639`, `B643`, `B658`, `B660`, `B674`, `B678`, `B686`, `B697`, `B713`, `B716`, `B718`, `B728`, `B729`, `B735`, `B737`, `B740`, `B743`, `B746`, `B756`, `B757`, `B760`, `B772`, `B775`, `B790`, `B793`, `B8`, `B81`, `B82`, `B85`, `B9`, `B96`, `B97`, `B98`, `B99`.
+Found among the authored arcs: `B108`, `B110`, `B114`, `B116`, `B119`, `B126`, `B127`, `B129`, `B130`, `B135`, `B139`, `B143`, `B144`, `B145`, `B15`, `B151`, `B167`, `B168`, `B17`, `B170`, `B181`, `B188`, `B189`, `B190`, `B20`, `B202`, `B207`, `B213`, `B217`, `B22`, `B223`, `B230`, `B231`, `B235`, `B24`, `B241`, `B244`, `B246`, `B26`, `B269`, `B280`, `B281`, `B282`, `B283`, `B284`, `B288`, `B292`, `B298`, `B300`, `B308`, `B31`, `B32`, `B322`, `B329`, `B330`, `B331`, `B333`, `B336`, `B339`, `B342`, `B349`, `B350`, `B355`, `B36`, `B369`, `B37`, `B387`, `B388`, `B39`, `B395`, `B398`, `B40`, `B408`, `B41`, `B413`, `B414`, `B419`, `B42`, `B420`, `B421`, `B422`, `B430`, `B438`, `B441`, `B442`, `B447`, `B455`, `B458`, `B46`, `B461`, `B462`, `B464`, `B47`, `B480`, `B481`, `B490`, `B498`, `B512`, `B529`, `B541`, `B549`, `B551`, `B559`, `B563`, `B573`, `B577`, `B592`, `B596`, `B597`, `B611`, `B612`, `B631`, `B633`, `B639`, `B643`, `B658`, `B660`, `B674`, `B678`, `B686`, `B697`, `B713`, `B716`, `B718`, `B728`, `B729`, `B735`, `B737`, `B740`, `B743`, `B746`, `B756`, `B757`, `B760`, `B772`, `B775`, `B790`, `B793`, `B8`, `B81`, `B82`, `B85`, `B9`, `B96`, `B97`, `B98`, `B99`.
 
 ### Measured (B801), not merely flagged
 
@@ -41,5 +41,5 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
 | stratum | meaning | count | share |
 |---|---|---|---|
 | **A** | explicit `## Verdict` block — directly extractable | 188 | 24.8 % |
-| **B** | no block, but the title carries the verdict | 559 | 73.7 % |
-| **C** | neither — genuinely hard, needs a full read | 11 | 1.5 % |
+| **B** | no block, but the title carries the verdict | 560 | 73.8 % |
+| **C** | neither — genuinely hard, needs a full read | 11 | 1.4 % |

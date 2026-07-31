@@ -1,0 +1,10 @@
+{
+ "id": "B551",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The species word is neither a coloring of the Fibonacci word ('aaa' occurs) nor Sturmian (complexity ≈3n), so the ℚ(√φ) layer requires substitutive inflation order and no rotation/winding mechanism can emit it.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

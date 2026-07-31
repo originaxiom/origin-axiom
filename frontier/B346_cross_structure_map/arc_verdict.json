@@ -1,0 +1,10 @@
+{
+ "id": "B346",
+ "verdict": "PROVED",
+ "claim_one_line": "The deviation space's symplectic conjugation lambda->1/lambda is exactly its Z/3 charge conjugation at the symmetric centre, while the E6-exponent split {4,8}/{5,7,11} is an independent third grading.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

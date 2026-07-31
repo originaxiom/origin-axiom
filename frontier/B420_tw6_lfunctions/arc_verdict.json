@@ -1,0 +1,10 @@
+{
+ "id": "B420",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The L-function track's destination is the genus-character L-factorization of the Hilbert class field of Q(sqrt-15) (entropy = 4*Reg(Q(sqrt5)) = 2sqrt5*L(1,chi5) exact), with the bar not cleared and no SM structure.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

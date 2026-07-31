@@ -1,0 +1,10 @@
+{
+ "id": "B355",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "With the Weil representation rebuilt at N=3,5,15 on conventions earned from the relations, all 605 gauge-invariant triple products are exactly real — the pre-registered phase aperture at level 15 is empty.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

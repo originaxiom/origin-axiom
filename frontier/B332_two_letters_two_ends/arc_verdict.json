@@ -1,0 +1,10 @@
+{
+ "id": "B332",
+ "verdict": "PROVED",
+ "claim_one_line": "The two arithmetic ends are the product and the ratio of the founding substitution's two letters: R*L has disc 5 (Q(sqrt5), E8) and -R*L^-1 = g has disc -3 (Q(sqrt-3), E6), correcting the handoff's inverted labelling.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

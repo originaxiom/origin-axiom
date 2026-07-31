@@ -1,0 +1,10 @@
+{
+ "id": "B435",
+ "verdict": "PROVED",
+ "claim_one_line": "The (5,1) child has H₁ = ℤ/5 and exactly 25 = 5² nontrivial abelian E₆ vacua (26 including the trivial one), derived from the 75 Kac solutions modulo the free ℤ/3 centre action.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

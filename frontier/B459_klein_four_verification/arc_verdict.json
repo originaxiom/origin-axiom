@@ -1,0 +1,10 @@
+{
+ "id": "B459",
+ "verdict": "PROVED",
+ "claim_one_line": "The dual-torus vanishing patterns are verified exactly (120/20/20/10/70, 5 of 16) and identified as the five-subfield lattice of ℚ(√5,√−3), with two new exact facts: no partial vanishing, and the purely-√−15 pattern is absent.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

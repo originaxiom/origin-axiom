@@ -1,0 +1,10 @@
+{
+ "id": "B406",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The 15a1/40a1 Hecke pattern is verified, but the mod-4 congruence holding at every good prime below 200 is forced by rational torsion, killing the 'modular correspondence = quantization map' lead at the congruence level.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

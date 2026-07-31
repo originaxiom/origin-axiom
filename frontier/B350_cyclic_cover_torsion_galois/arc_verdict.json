@@ -1,0 +1,10 @@
+{
+ "id": "B350",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The cyclic-cover abelian torsion class carries no forced choice: orders are the Lucas ladder |L_2n - 2|, the factor multiset is a symmetrizable Galois orbit, and the deck action is fixed-point-free for every n.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B527",
+ "verdict": "PROVED",
+ "claim_one_line": "The Stein-compatible metrics form a 6-dimensional non-polyhedral cone 𝓛⁻¹(PSD(3)) with an ℝP² of extreme rays (7-dim Lorentzian family): compatibility holds, narrowing B526's no-go, but Stein evolution selects no metric.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

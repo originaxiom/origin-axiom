@@ -1,0 +1,10 @@
+{
+ "id": "B352",
+ "verdict": "PROVED",
+ "claim_one_line": "At dps 100 the second-order cup-product obstruction [z u z] vanishes in all six E6 exponent directions, including the {4,8} escape sector and its polarization mix, so the quadratic cone is the full 6-dim tangent.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

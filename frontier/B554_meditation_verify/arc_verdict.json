@@ -1,0 +1,10 @@
+{
+ "id": "B554",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The meditation's central Station-4 claim (species = forward bit-pairs) is refuted - 61% mismatch and the forward bigram does not determine the species - while three stations verify and two are scoped down.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B405",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "a_7=a_23=0 for 15a1 is verified but deflated three ways (supersingular counts are automatic and controls make every program prime equally dressable), leaving only a banked sentinel list as falsifiable residue.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

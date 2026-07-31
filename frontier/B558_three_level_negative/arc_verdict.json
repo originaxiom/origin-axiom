@@ -1,0 +1,10 @@
+{
+ "id": "B558",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The three-level negative is confirmed - SM numbers absent at dictionary values, dictionary relations, and gap-edge ratios (12 vs null 12.4+/-3.7) - and level 2 is structural since the golden gap labels are coupling-invariant.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

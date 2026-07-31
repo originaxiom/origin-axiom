@@ -1,0 +1,10 @@
+{
+ "id": "B553",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified exact from seat-1's session: |det(A_m - I)| = m^2 (the metallic Weil level), the odd-Fibonacci Markoff cluster, and Z/11-charge-clock decoupling; two errors corrected and Markoff unicity left as an open assessment.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

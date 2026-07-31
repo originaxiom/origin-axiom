@@ -17340,6 +17340,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B832": {
+   "slug": "verdict wave3",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "golden"
+   ],
+   "refs": [
+    "B556",
+    "B61",
+    "B746",
+    "B817",
+    "B818"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B833": {
    "slug": "negative routing",
    "motifs": [],

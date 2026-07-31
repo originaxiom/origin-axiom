@@ -1,0 +1,10 @@
+{
+ "id": "B364",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The control killed the conclusion: the square theta family is equally T-stable and carries the canonical lift's multiplier, so T-stability forces neither lift; the two lifts are two polarizations and L57 becomes a spin-structure question.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

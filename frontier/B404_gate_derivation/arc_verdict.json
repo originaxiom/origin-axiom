@@ -1,0 +1,10 @@
+{
+ "id": "B404",
+ "verdict": "PROVED",
+ "claim_one_line": "Every class-1 Par-cell is a root of unity in μ₆₀ (142/142) and the Eisenstein gate is derived with zero violations — 3|ord(C) ⟺ χ₋₃(det(γ′−I))=−1 — while χ₅(det)=−1 one-directionally forces 5|ord(C).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}
