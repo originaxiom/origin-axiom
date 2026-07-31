@@ -1,0 +1,10 @@
+{
+ "id": "B519",
+ "verdict": "RETRACTED",
+ "claim_one_line": "The re-mining campaign's B1 'no EXTERNAL crossing' headline is withdrawn by its own correction banner: the refutation conflated Bellissard gap-LABELING (a necessary K-theoretic constraint on where gaps sit) with gap-OPENING (which gaps physically open), so the mixed-chain 2x2 opening pattern is falsifiable and the cell is LIVE again.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "B826 (from the arc's own VERDICT.md correction banner; source B525)"
+}

@@ -68,11 +68,25 @@ def test_the_conservatism_offset_is_measured_not_asserted():
     assert len(per) == 12
 
 
-def test_writer_safety_no_verdict_without_findings():
-    """Every authored verdict must sit beside an actual FINDINGS.md -- no verdicts on empty arcs."""
+# The rule is "no verdict without a substantive findings document", not "without a file called
+# FINDINGS.md". B519 carries a full VERDICT.md -- terminal table plus its own correction banner --
+# and was refused by the narrower reading (B826). Widened to the documents that actually record an
+# arc's result; anything else still fails.
+FINDINGS_DOCS = ("FINDINGS.md", "VERDICT.md")
+
+
+def test_writer_safety_no_verdict_without_a_findings_document():
+    """Every authored verdict must sit beside a real findings document -- none on empty arcs."""
     bad = [p.parent.name for p in (ROOT / "frontier").glob("*/arc_verdict.json")
-           if not (p.parent / "FINDINGS.md").is_file()]
-    assert not bad, f"verdicts written for arcs with no FINDINGS.md: {bad[:10]}"
+           if not any((p.parent / d).is_file() for d in FINDINGS_DOCS)]
+    assert not bad, f"verdicts written for arcs with no findings document: {bad[:10]}"
+
+
+def test_the_widening_is_narrow_and_a_bare_directory_still_fails(tmp_path):
+    """Guard the widening: it admits VERDICT.md, not 'any markdown file'."""
+    assert "README.md" not in FINDINGS_DOCS
+    assert "PREREGISTRATION.md" not in FINDINGS_DOCS, (
+        "a prereg records intent, not result -- admitting it would let a verdict precede the work")
 
 
 def test_every_written_verdict_uses_the_sealed_vocabulary():

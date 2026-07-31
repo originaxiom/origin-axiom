@@ -38,8 +38,13 @@ def test_every_retracted_arc_withdraws_its_own_headline():
     for d, v in _verdicts():
         if v["verdict"] != "RETRACTED":
             continue
-        f = d / "FINDINGS.md"
-        head = f.read_text(encoding="utf-8")[:1500] if f.is_file() else ""
+        # Read whichever findings document the arc actually uses (B826: B519 uses VERDICT.md).
+        head = ""
+        for name in ("FINDINGS.md", "VERDICT.md"):
+            f = d / name
+            if f.is_file():
+                head = f.read_text(encoding="utf-8")[:1500]
+                break
         if not SELF_MARKERS.search(head):
             bad.append(v["id"])
     assert not bad, (f"RETRACTED arcs with no self-retraction marker in their own header: {bad}. "

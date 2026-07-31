@@ -17230,6 +17230,26 @@
    "status": "open",
    "domain": "topology"
   },
+  "B826": {
+   "slug": "b519 verdict",
+   "motifs": [
+    "metallic"
+   ],
+   "refs": [
+    "B1",
+    "B225",
+    "B519",
+    "B525",
+    "B58",
+    "B745",
+    "B818",
+    "B819"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B82": {
    "slug": "consolidation",
    "motifs": [
