@@ -2709,9 +2709,11 @@ duplicated authoritative filenames is R35-8.**
 - [ ] R35-3: **a calibration block exercising all four verdict categories**, checked *before* the run
   (B817 §3 / `PRACTICES`). Wave 2's exercised two and licensed four; **2 of the 11 untested-category
   writes were wrong** (B818).
-- [ ] R35-4: **the retraction targets** — `B225` carries `PROVED` though B745 confirmed its 2-half
-  kill vacuous (may be right for its surviving content — needs *reading*); `B58` spans three
-  directories and is skipped by every writer.
+- [x] R35-4: **DONE (B831).** `B225` → `RETRACTED`, its claim line now carrying **both** the
+  withdrawn half (the p=2 criterion was vacuous; the octahedral-parent question returns to OPEN) and
+  the survivor (5 in conductor 40 = the golden branch point `x²=5`). `B58_sl4_tower_test` had **no
+  verdict at all** — wave 2 skipped B58 as an ambiguous directory — and is now `RETRACTED` from its
+  own correction header. Both read off the arcs, not invented; locked.
 - [ ] R35-5 (carried, R34-7): **face attachment** — 573 arcs on no face, measured **not automatable**.
 - [ ] R35-6 (carried, R34-8): B685's normalisation; B731's stale `revival_score: 10`; the ~111
   unregistered negatives (B801); **the spectral paper, still finished and unshipped**.
@@ -2719,8 +2721,13 @@ duplicated authoritative filenames is R35-8.**
   gap; the 18+1 motifs are still grounded in K001–K022 and unrevisited since 2026-07-01, and
   `BLIND_ARCS.md` says so in place so an empty `GAP` column is not read as a finished instrument.
 
-- [ ] R35-8: **sweep for duplicated authoritative filenames.** Two were found in this review alone
-  (`REVIEWS.md`, `ROADMAP.md`), both bannered, neither reconciled. A reader who opens the shadow copy
-  finds plausible, stale content and no signal — which is how OI-239 survived since Review 21.
+- [x] R35-8: **DONE, and the finding it rested on was WRONG (B830).** The sweep ran. **`ROADMAP.md`
+  is NOT a duplicate** — the root file is the phase ladder, `docs/ROADMAP.md` the tier map, sharing
+  **zero** headings; Finding 7 above mislabelled it and the false banner has been removed, with
+  reciprocal cross-references added. `CLAIMS.md ×3` is two legitimately paper-scoped inventories.
+  **The true count of duplicated authoritative filenames is TWO, not four**: `REVIEWS.md` (verified
+  subsumed — 0 unique headings — and **deleted**) and `PROGRESS_LOG.md` (recovered and gated, B827).
+  **I generalised from a filename count without checking its composition — B819's own lesson,
+  committed two arcs after writing it down.**
 
 anchor-commit: `33a28541` (Review 35)

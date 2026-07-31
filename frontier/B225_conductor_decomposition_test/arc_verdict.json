@@ -1,10 +1,10 @@
 {
- "id": "B225",
- "verdict": "PROVED",
- "claim_one_line": "The prime 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x²=5 (t²−4=5).",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+  "id": "B225",
+  "verdict": "RETRACTED",
+  "claim_one_line": "The '2 = octahedral parent REFUTED' half is withdrawn as VACUOUS (the bad-prime extraction reports 2 for EVERY monic-in-z input, so specificity at p=2 is zero) and that question returns to OPEN; what SURVIVES is the prime-5 identification -- 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x^2=5.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "W1-wave1-fanout; verdict corrected by B831"
 }

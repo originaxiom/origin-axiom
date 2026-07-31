@@ -1,5 +1,12 @@
 # Changelog
 
+## B831 — the retractions are finally recorded on their TARGETS (R35-4 closed)
+- B818 ruled that an arc withdrawing **another** arc's claim is labelled by what **it** established, and **the retraction lands on the target's record.** That rule is only useful if the target's record actually changes — and for these two it never had.
+- **B225 `PROVED` → `RETRACTED`.** Its own file opens *"THE '2 = octahedral parent REFUTED' VERDICT BELOW DOES NOT STAND"* — the criterion was **vacuous**, since the bad-prime extraction reports 2 for **every** monic-in-z input (specificity at p=2 is zero), and B745 says the octahedral-parent question **returns to OPEN**. The old verdict described only the surviving half. **The new claim line carries both**: the withdrawal *and* the survivor (5 in conductor 40 = the golden monodromy branch point `x²=5`).
+- **`B58_sl4_tower_test` had no verdict at all** — wave 2 skipped `B58` as an ambiguous directory (three dirs). Its own header reads *"THE HEADLINE CLAIM OF THIS FILE — 'the prediction cannot be tested numerically' — IS NEGATED"*, and B745 cross-verified the replacement route with five independent checks and a working negative control. Now **`RETRACTED`**, sourced from the sub-arc's own correction header.
+- **Both verdicts were read off the arcs, not invented** — locked by a test asserting each file's own correction header still says what the verdict claims.
+- The two `B58` directories now carry **different** verdicts (`NEGATIVE` on Phase A, `RETRACTED` on the tower sub-arc) and the ledger renders both rows distinctly; a lock keeps them distinguishable.
+
 ## B830 — masterplan: three cited facts computed, one fork deleted, one of my own claims refuted
 - **Prereg `df750537a34581ee`, sealed before computing.** Six cells. **All three pre-stated expectations confirmed** — including A2's predicted mutation-class size of exactly 1. Confirmation is weaker evidence than surprise and is recorded as such. Every cell carried a **real kill branch**; none fired.
 - **A1 — the cyclotomic branches are disjoint.** ℚ(ζ₃)=ℚ(√−3) and ℚ(i) are distinct imaginary quadratics (disc −3 vs −4); compositum degree **4** (minpoly `x⁴+8x²+4`), so neither contains the other and the intersection is exactly ℚ.

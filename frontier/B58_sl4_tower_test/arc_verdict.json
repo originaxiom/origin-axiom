@@ -1,0 +1,10 @@
+{
+  "id": "B58",
+  "verdict": "RETRACTED",
+  "claim_one_line": "This sub-arc's headline -- 'the prediction cannot be tested numerically' -- is NEGATED: the negatives hunt built the epsilon-extrapolated pinv-ratio route and B745 cross-verified it with five independent checks and a working negative control.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "B831 (from the sub-arc's own correction header; sources B742/B745)"
+}

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-616 of 757 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+617 of 757 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (377)
+## PROVED (376)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -129,7 +129,6 @@
 | `B221` | The golden chain's emergent c=7/10 CFT is exactly the first N=1 superconformal minimal model M(4,5), proved by three agreeing exact derivations. |  | 1 |
 | `B222` | Momentum-resolved exact diagonalization recovers the full tricritical-Ising primary content including the h=3/2 supercurrent, confirming the golden chain's emergent N=1 supersymmetry. |  | 1 |
 | `B224` | Golden is the unique metallic mean whose anyon chain is superconformal: M(4,5) is the only unitary minimal model that is also N=1 supersymmetric. |  | 1 |
-| `B225` | The prime 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x²=5 (t²−4=5). |  | 0 |
 | `B226` | The object's two supersymmetries are two distinct faces separated by the hyperbolic/non-hyperbolic divide, bridged by SU(2)₃ rather than the figure-eight's geometry. |  | 1 |
 | `B227` | Each metallic SUSY chain has an explicit Seifert dual S²((m²+4,m²+3),(m²+3,1),(3,1)) whose largest cone order is the metallic discriminant, with |H₁|=(2m²+7)²+2. |  | 1 |
 | `B228` | SU(2)₃ is the unique level where the ordinary and N=1-super minimal-model coset constructions coincide, forcing golden as the only SUSY metallic chain. |  | 1 |
@@ -633,13 +632,15 @@
 | `B707` | Literature synthesis identifies arithmetic Chern-Simons (Kim), Scholze's Habiro ring and Lee's motives as the program's top-down twin; three bridge tests named, none run. |  | 0 |
 | `B758` | Consolidated the forced core into an 18-link THEOREM_LEDGER with every link labeled and every axiom priced; the chain cites and asserts nothing new. | yes | 1 |
 
-## RETRACTED (6)
+## RETRACTED (8)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
+| `B58` | This sub-arc's headline -- 'the prediction cannot be tested numerically' -- is NEGATED: the negatives hunt built the epsilon-extrapolated pinv-ratio route and B745 cross-verified it with five independent checks and a working negative control. |  | 0 |
 | `B90` | L1b is a genuine uniform result, but L1a is a TAUTOLOGY and 'exponent = rank from Cayley-Hamilton' is REFUTED; degree=rank stays proved only at n=3,4. |  | 1 |
 | `B192` | The banked metallic Lyapunov-spectrum parity law (symmetric iff n even, metallic-special) is withdrawn — an artifact of cherry-picked energies and a rigged control. |  | 1 |
 | `B216` | The verdict that the f>=8 period-law split is genus-theoretic and NEEDS-SPECIALIST was an artifact of testing only the scalars +-I and is withdrawn. |  | 1 |
+| `B225` | The '2 = octahedral parent REFUTED' half is withdrawn as VACUOUS (the bad-prime extraction reports 2 for EVERY monic-in-z input, so specificity at p=2 is zero) and that question returns to OPEN; what SURVIVES is the prime-5 identification -- 5 in the figure-eight character variety's conductor 40 is exactly the golden monodromy branch point x^2=5. |  | 0 |
 | `B437` | The child's 'golden return' is withdrawn as inheritance: the trefoil control shows Q(sqrt5) is slope-5-forced, leaving only generic or class-shared content. |  | 1 |
 | `B731` | The 'figure-eight knot group is non-congruence' headline is withdrawn: the 2-adic index jumps at level (8), so m004 is a congruence subgroup after all. |  | 0 |
 | `B780` | The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans. |  | 0 |
