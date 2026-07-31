@@ -17475,6 +17475,20 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B839": {
+   "slug": "b685 residue",
+   "motifs": [
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B685",
+    "B800"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "quantum"
+  },
   "B83": {
    "slug": "sln apolynomial",
    "motifs": [

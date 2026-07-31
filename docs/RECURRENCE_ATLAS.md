@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-07-31 from 761 frontier probes.
+> Last generated: 2026-07-31 from 762 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 761 frontier probes; status {'banked': 502, 'dead': 188, 'open': 53, 'dormant': 18}
+  corpus: 762 frontier probes; status {'banked': 502, 'dead': 189, 'open': 53, 'dormant': 18}
   the ONE conserved first integral: kappa (recurs 197x, 25%) -- genuine unity, MUST recur
   top recurring motifs: golden(484), firewall(478), eisenstein(407), figure_eight(361), metallic(349), trace_map(341)
   recurrence is: structural-invariant 2780 mentions | conserved-integral 197 | TOOL 341
@@ -34,7 +34,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | trace_map | 341 | 44% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | torsion | 278 | 36% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | amphichiral_cp | 250 | 32% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
-| wrt_quantum | 203 | 26% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
+| wrt_quantum | 204 | 26% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 197 | 25% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | z3_generation | 154 | 20% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | lorentzian | 130 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
