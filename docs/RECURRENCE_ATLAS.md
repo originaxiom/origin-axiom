@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-07-31 from 754 frontier probes.
+> Last generated: 2026-07-31 from 755 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 754 frontier probes; status {'banked': 500, 'dead': 183, 'open': 53, 'dormant': 18}
+  corpus: 755 frontier probes; status {'banked': 501, 'dead': 183, 'open': 53, 'dormant': 18}
   the ONE conserved first integral: kappa (recurs 194x, 25%) -- genuine unity, MUST recur
   top recurring motifs: golden(482), firewall(478), eisenstein(407), figure_eight(359), metallic(347), trace_map(340)
   recurrence is: structural-invariant 2776 mentions | conserved-integral 194 | TOOL 340
@@ -30,7 +30,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | firewall | 478 | 63% | structure | structural | meta | the firewall / structural theorem / form-not-values |
 | eisenstein | 407 | 53% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
 | figure_eight | 359 | 47% | object | no | topology | the simplest hyperbolic knot; the carrier object |
-| metallic | 347 | 46% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
+| metallic | 347 | 45% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 340 | 45% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | torsion | 278 | 36% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | amphichiral_cp | 250 | 33% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
@@ -60,7 +60,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 |---|---|---|---|
 | cancellation | 40 | golden | golden(28), eisenstein(25), firewall(25), trace_map(22) |
 | selector | 17 | firewall | firewall(11), trace_map(10), eisenstein(10), golden(10) |
-| measure | 53 | golden | golden(35), firewall(33), eisenstein(25), figure_eight(23) |
+| measure | 54 | golden | golden(35), firewall(33), eisenstein(25), figure_eight(23) |
 | units_scale | 84 | firewall | firewall(61), golden(56), metallic(47), trace_map(42) |
 | gauge_dict | 39 | firewall | firewall(29), eisenstein(26), figure_eight(25), golden(24) |
 | particle_dict | 56 | eisenstein | eisenstein(45), golden(40), firewall(40), z3_generation(35) |
@@ -114,7 +114,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | source_free | 0/1 |
 | bridge_construction | 5/12 |
 | gauge_dict | 39/66 |
-| measure | 53/89 |
+| measure | 54/90 |
 | cancellation | 40/62 |
 | numerology | 22/34 |
 | spacetime_3p1 | 95/143 |

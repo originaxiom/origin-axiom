@@ -17340,6 +17340,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B833": {
+   "slug": "negative routing",
+   "motifs": [],
+   "refs": [
+    "B525",
+    "B741",
+    "B799",
+    "B801",
+    "B832"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B83": {
    "slug": "sln apolynomial",
    "motifs": [
