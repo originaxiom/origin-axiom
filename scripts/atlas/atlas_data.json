@@ -10321,6 +10321,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B499": {
+   "slug": "wild census",
+   "motifs": [
+    "kappa",
+    "firewall"
+   ],
+   "refs": [
+    "B398",
+    "B500",
+    "B837",
+    "B840"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B49": {
    "slug": "sl3 certificate proof hardening",
    "motifs": [],
@@ -11386,6 +11403,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B557": {
+   "slug": "escalator campaign",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B517",
+    "B519",
+    "B556",
+    "B826",
+    "B837",
+    "B840"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B558": {
    "slug": "three level negative",
    "motifs": [
@@ -12059,6 +12094,23 @@
    "obstacle": "source_free",
    "obstacle_conf": 1,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B590": {
+   "slug": "revival remainders",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B578",
+    "B840",
+    "V3"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 4,
+   "status": "open",
    "domain": "arithmetic"
   },
   "B591": {
@@ -17516,6 +17568,28 @@
    "obstacle_conf": 10,
    "status": "banked",
    "domain": "topology"
+  },
+  "B840": {
+   "slug": "close loose ends",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B499",
+    "B517",
+    "B519",
+    "B557",
+    "B578",
+    "B590",
+    "B837",
+    "V3"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B84": {
    "slug": "sl5 gauge barrier",

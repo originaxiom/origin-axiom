@@ -1,0 +1,10 @@
+{
+ "id": "B590",
+ "verdict": "PROVED",
+ "claim_one_line": "ESTABLISHED: the V3 blind deliverable (nine size-3 Phi-orbits on the 27, triple intersection 16^16^16 = 6, the singlet's orbit profile (1,16,16)) AND that R1's SEALED verdict was VACUOUS -- polish_mp was 18 equations in 22 unknowns so the membership test was unreachable and the m=1 validation shared the defect; three bugs found and fixed. UNSETTLED: with the pipeline working, m=1 does not seal (traces not in Q(sqrt-3)), so the m=3 sealing question returns to the open queue.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "B840 (arc closed at owner direction; was paused 2026-07-14)"
+}

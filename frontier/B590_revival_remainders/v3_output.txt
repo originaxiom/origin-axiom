@@ -1,0 +1,27 @@
+PHI-orbit structure on the 27 weights: [3, 3, 3, 3, 3, 3, 3, 3, 3]
+charge node (removing it leaves D5): index 0; split sizes 1/10/16  GATE PASS
+
+the intersection tables (BLIND):
+  |16_i ∩ 16_j|:
+    [16, 10, 10]
+    [10, 16, 10]
+    [10, 10, 16]
+  |16_i ∩ 10_j|:
+    [0, 5, 5]
+    [5, 0, 5]
+    [5, 5, 0]
+  |10_i ∩ 10_j|:
+    [10, 5, 5]
+    [5, 10, 5]
+    [5, 5, 10]
+  the three singlets: [[(1, 0, 0, 0, 0, 0)], [(1, 0, -1, 0, 0, 1)], [(1, 0, 0, 0, 0, -1)]]
+  triple intersection 16∩16∩16: 6
+
+how PHI-orbits distribute across frame-0's (16, 10, 1):
+  orbit profile ('1', '16', '16'): x1
+  orbit profile ('10', '10', '10'): x1
+  orbit profile ('10', '10', '16'): x2
+  orbit profile ('10', '16', '16'): x3
+  orbit profile ('16', '16', '16'): x2
+
+DONE (the pattern above is the V3 deliverable, read blind)

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-756 of 765 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+759 of 769 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (462)
+## PROVED (464)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -326,6 +326,7 @@
 | `B552` | coker(I−M) ≅ ℤ/11 with primitive left generator χ=(1,3,6,7) is conserved by σ and transported unchanged along the observer flow, and it decouples from the double clock. |  | 1 |
 | `B553` | Verified exact from seat-1's session: |det(A_m - I)| = m^2 (the metallic Weil level), the odd-Fibonacci Markoff cluster, and Z/11-charge-clock decoupling; two errors corrected and Markoff unicity left as an open assessment. |  | 1 |
 | `B556` | ESTABLISHED exactly: T(M)=[[M,M],[M^2,M]] sends the golden Fibonacci matrix to the sigma_4 incidence matrix verbatim, and the field doubles at every verified rung (norm-sign + determinant telescope). UNSETTLED: the tower-as-physics-ladder reading, banked as a labelled HYPOTHESIS. |  | 7 |
+| `B557` | ESTABLISHED exactly: the escalator's coupling rule (C,D)=(M,M^2) is FORCED at rung 1 and a CHOICE above it (B517 intertwining forces C=p(M)), plus the explicit 8-letter carrier sigma_8, both locked. UNSETTLED: the E0 lit-gate never ran, so no novelty claim is available; the saturation cells and the firewalled physics-ladder cell were never executed. |  | 1 |
 | `B560` | Chat-3's campaign cells verified and re-derived: localized Z/11 carriers, prefix-independent observer-flow graph, 253-point certified atlas, exact Z[tau] frequency module. |  | 1 |
 | `B564` | The SL(3) phi-fixed locus contains no irreducible representation: phi-fixedness pins A to finite order, which forces the intertwiner to split block-diagonally. |  | 1 |
 | `B575` | The quadratic obstruction Q(u)=[u∪u] vanishes identically in all six E₆ directions, with constructive second-order certificates: the variety is smooth past the principal point. |  | 1 |
@@ -339,6 +340,7 @@
 | `B587` | The tone mechanism is solved: the SU(3) invariant decomposes into twelve Weyl-twisted Weil Gauss-sum terms whose conductors det(A tensor w - I) explain every tone. |  | 1 |
 | `B588` | Sector exchange proved at the projector level: -1 lies in W(A1) but not W(A2), so identical sqrt5 Gauss data is even on one stage and odd on the other. |  | 1 |
 | `B589` | The three E₆₂ θ-odd pair amplitudes are exactly the ℤ/7 sine-kernel moduli times 14th-root phases {+3,−2,−1}, certified to 40+ digits. |  | 1 |
+| `B590` | ESTABLISHED: the V3 blind deliverable (nine size-3 Phi-orbits on the 27, triple intersection 16^16^16 = 6, the singlet's orbit profile (1,16,16)) AND that R1's SEALED verdict was VACUOUS -- polish_mp was 18 equations in 22 unknowns so the membership test was unreachable and the m=1 validation shared the defect; three bugs found and fixed. UNSETTLED: with the pipeline working, m=1 does not seal (traces not in Q(sqrt-3)), so the m=3 sealing question returns to the open queue. |  | 0 |
 | `B591` | The two lifts' first homologies are det(A−I) and det(A+I), so the golden 5-tone's conductor is literally the torsion of the chord's carrier. |  | 1 |
 | `B593` | A chirally displaced listener hears at second order, A_eps = A0 - eps^2 (u dagger W u) with no first-order term and exact golden-pentagonal amplitudes. |  | 1 |
 | `B594` | The E6 level-2 hearing law is state-independent and its diagonal coefficients equal minus the banked Z/7 sine-kernel closed forms. |  | 1 |
@@ -737,7 +739,7 @@
 | `B821` | The proposed self-audit motif failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%) and was reverted; the 21 blind arcs decompose as 14 stubs, 6 instrument arcs and 1 real gap, correcting B820's 'rotting' diagnosis. | yes | 1 |
 | `B824` | The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character variety' alone carrying 13.8%); it was reverted and B537 stays a recorded GAP. | yes | 1 |
 
-## OPEN (28)
+## OPEN (29)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -762,6 +764,7 @@
 | `B456` | Freezes (sha256 8a80b0f5...) a catalog of 21 typed object behaviors together with null catalogs from seeded random words, Thue-Morse, foreign knots and silver, with adjudication explicitly deferred to EZ/B457. |  | 0 |
 | `B477` | A sterile/fertile obstruction-class table over three manifolds; the one-Z/2 sterility hint fails at s776 and no law is banked. | yes | 0 |
 | `B491` | An adversarial prior-art harness leaves two candidate cores APPEARS-NOVEL/NEEDS-SPECIALIST and one classical; novelty itself is not settled in-sandbox. | yes | 0 |
+| `B499` | Preregistered and never executed: the directory holds a prereg and nothing else, so the wild census (W1 Galois groups, W2 discriminant null, W3 verb attribution, W4 MFD saturation, W5 field-level ramification) settled nothing; its committed null, 283-airlock and field-isomorphism statistics gate remain unspent and executable as written. |  | 0 |
 | `B507` | First-pass beta-function: g_M(kappa) is strongly negative (~-1.05 to -1.25) on the negative-kappa leaves where the object lives, so the measurement verb is NOT marginal there. |  | 0 |
 | `B615` | The Branch-3 comparison returned AMBIGUOUS (Sidak p=0.078, zero matches at the tight tier), banked as suggestive-only with no escalation. |  | 1 |
 | `B616` | The held-out second object matches at its noise expectation, leaving the figure-eight's excess uncorroborated; the sealed verdict is STILL-AMBIGUOUS. |  | 1 |
