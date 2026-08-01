@@ -708,3 +708,9 @@ which could never fail) was **replaced by B755 cell 3** with a real Kashaev-sum 
 passing. **B800 then rebuilt the symmetrised series from first principles and corroborated `3^146`,
 but did NOT reproduce the "integral away from 3" clause** — so the open residue is exactly that
 clause, not the whole normalisation.
+
+> **Review 36 (2026-08-01)** — **certified spectral results exist in `frontier/` (B794, B795, B797);
+> a spectral paper does not exist anywhere.** The register carried "the spectral paper, still
+> finished and unshipped" for five reviews. B797 certifies **17 Maass eigenvalues** (r → 9.84,
+> mode-count 664→900, max |Δr| = 5.42×10⁻⁹), B795 verified **7/7** independently, B794 proved
+> **level-(4) congruence + the mod-4 trace law**.

@@ -191,3 +191,8 @@ names as the thing physics readings wait on. L91 obligations (1)–(3) are open.
 > untested-category writes were wrong** (B818). Also open and unscheduled: **the lexicon's full
 > re-grounding** (B806) — B825 closed only the one *known* gap, and `docs/atlas/BLIND_ARCS.md` says
 > in place that an empty `GAP` column is not a finished instrument.
+
+> **Review 36 (2026-08-01)** — next: **P5 Phase 2**, the table-first draft, carrying Phase 1's four
+> reshaped claims and the **Q2 two-cell row**. Highest-value instrument task: **re-ask "could this
+> gate still fail?" across all 19 gates** — three were found fail-open by drift in one window, none
+> by the standing audit.

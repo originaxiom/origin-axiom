@@ -204,3 +204,7 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > component of `X^irr` is dimension 1*) fails — the component through the principal point is a
 > **6-fold** (B814, from B575/B370). **Strong evidence, not proof**: both sources are explicitly
 > conditional at higher orders. **The SL(2) case is untouched.**
+
+> **Review 36 (2026-08-01)** — one problem sharpened rather than solved: **B685's "integral away from
+> 3"** is now discharged *arithmetically* (`(2n)!` clears the non-3 denominator, B839) with the
+> **convention still cited, not read** — its residue is one literature line, not a computation.

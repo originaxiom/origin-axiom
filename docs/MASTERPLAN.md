@@ -162,3 +162,7 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > what W1's could not — **measured** the conservatism offset and found it nil. **W3 is now named**
 > (R35-2): the 229 never-assigned ids, 116 of them with findings, and a calibration block covering
 > all four categories checked *before* the run.
+
+> **Review 36 (2026-08-01)** — the verdict campaign is **complete** (W1–W3b; 756/810). The active
+> line is **P5**: Phase 0 green, Phase 1 run with web access and four of five claims reshaped,
+> Phase 2 (table-first draft) next.

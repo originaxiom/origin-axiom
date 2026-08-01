@@ -73,3 +73,7 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 35 (2026-07-30)** — no door repriced. **B685's normalisation is still the one genuine
 > to-do** (carried R34→R35-6). Noted from B798's power box: the algebraicity falsifier's `(d, H)`
 > budget is sealed and its cost corrected, so that door's price is current.
+
+> **Review 36 (2026-08-01)** — **B685's normalisation is no longer the open to-do** (B839). New
+> priced item: complete the harvest of cc3's B792 spectrum if its extent is genuinely r ≈ 13.5 —
+> main has 17 to r = 9.84, and **completeness is unverified, not to be chased from here**.

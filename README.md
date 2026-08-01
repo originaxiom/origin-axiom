@@ -212,3 +212,10 @@ described B152–B230 as "the frontier" while the bank stood at B798.*
 > 15 arcs were corrected by a later arc in the same window**, every correction self-issued and
 > found by **decomposing a count rather than doubting a claim**. Gate D closed a proposed
 > month-long physics probe on day one from banked data.
+
+> **Review 36 (2026-08-01)** — the prediction review. **6 of 10 sealed predictions failed**, in two
+> opposite directions: over-confident about instruments I build (two vacuity ceilings refused my own
+> motifs), under-confident about reader panels (**four consecutive underestimates**; κ came in at
+> 0.9305 / 0.9300 / 0.8732 against predictions of "lower"). **Three more gates were fail-open by
+> drift.** Verdict coverage **756/810**; kill graph fully classified with provenance set
+> (118/118 pointers resolve); faces on **673** records.

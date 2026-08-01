@@ -158,3 +158,7 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > collision** (a Chern–Simons quantity would occupy the *coefficient* slot of `e^{iθW(A)}`, where a
 > Chern–Simons functional already sits). The refutation is of the **direct identification**, not of
 > every possible construction.
+
+> **Review 36 (2026-08-01)** — no new leads. **P5's novelty row closed** after sitting PENDING since
+> 2026-07-10: no prior art for the four-strata frame; the κ-laws' delta is the **non-invertible**
+> sector; the drift ledger's method is classical so the claim is the ledger.

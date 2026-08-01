@@ -2717,9 +2717,11 @@ duplicated authoritative filenames is R35-8.**
   stale-fork warning naming the operative register and the 383-vs-20 window error. **Deletion was
   rejected on evidence**: the two files are *not* a clean prefix/suffix pair — they differ inside
   the shared range, so content may be unique. **Carried: reconcile the differences, then delete.**
-- [ ] R35-2: **the third verdict wave** — 229 arc ids were never assigned to any reader and **116 of
+- [x] R35-2: **DONE (B832 + B834).** Waves 3a/3b judged 183 + 135 arcs; **κ = 0.9305 then 0.9300** on
+  a four-category block. Coverage **756 of 810 arc ids**. ~~R35-2: the third verdict wave — 229 arc ids were never assigned to any reader and 116 of~~
   them carry a `FINDINGS.md`** (B819). Coverage is 617/747; this closes most of the gap.
-- [ ] R35-3: **a calibration block exercising all four verdict categories**, checked *before* the run
+- [x] R35-3: **DONE (B832).** The 16-arc block drew 4 from each of PROVED/NEGATIVE/OPEN/RETRACTED and
+  **spanning all four was verified BEFORE the run**, which is the requirement wave 2 violated. ~~R35-3: a calibration block exercising all four verdict categories, checked *before* the run~~
   (B817 §3 / `PRACTICES`). Wave 2's exercised two and licensed four; **2 of the 11 untested-category
   writes were wrong** (B818).
 - [x] R35-4: **DONE (B831).** `B225` → `RETRACTED`, its claim line now carrying **both** the
@@ -2727,8 +2729,11 @@ duplicated authoritative filenames is R35-8.**
   the survivor (5 in conductor 40 = the golden branch point `x²=5`). `B58_sl4_tower_test` had **no
   verdict at all** — wave 2 skipped B58 as an ambiguous directory — and is now `RETRACTED` from its
   own correction header. Both read off the arcs, not invented; locked.
-- [ ] R35-5 (carried, R34-7): **face attachment** — 573 arcs on no face, measured **not automatable**.
-- [ ] R35-6 (carried, R34-8): B685's normalisation; B731's stale `revival_score: 10`; the ~111
+- [x] R35-5: **DONE (B842).** κ = **0.8732** on a 12-way judgement against B806's 0.45 keyword
+  baseline; faces **166 → 673** records; **79 declined as `none`**, which is the design working. ~~R35-5 (carried, R34-7): face attachment — 573 arcs on no face, measured not automatable.~~
+- [x] R35-6: **ALL DONE.** B685 → **B839** (`(2n)!` clears the non-3 denominator; arithmetic
+  discharged, convention still cited). B731's `revival_score` → **B830**. The ~111 unregistered
+  negatives → **B836** (167 routed) and **B841** (provenance set, 118/118 pointers resolve). ~~R35-6 (carried, R34-8): B685's normalisation; B731's stale `revival_score: 10`; the ~111~~
   unregistered negatives (B801); **the spectral paper, still finished and unshipped**.
 - [x] R35-7: **CLOSED by B838 — tested and DECLINED with a computed reason**, not deferred a sixth
   time. Every distinctive K023–K025 term is either **ambient** (`forcing/forced` **41.9 %**, worse
@@ -2751,3 +2756,102 @@ duplicated authoritative filenames is R35-8.**
   committed two arcs after writing it down.**
 
 anchor-commit: `33a28541` (Review 35)
+
+## Review 36 — my predictions failed 60 % of the time, in two opposite directions (anchor-commit: `a3ccd97d`)
+
+Triggered at 20 merges. Twenty-one commits since Review 35, **twenty banked arcs (B827–B846)**.
+Review 35 measured *where* my predictions fail. This window measures *how*, and the answer has a
+sign.
+
+### Finding 1 — 6 of 10 sealed predictions failed, and the misses point two ways
+
+| arc | I predicted | outcome | |
+|---|---|---|---|
+| B821 | the meta-layer motif succeeds | **failed** at 46.2 % vs a 25 % ceiling | ❌ |
+| B822 | *"14 stubs removed, leaving 8"* | exactly that | ✅ |
+| B824 | succeeds; **criterion 3** is the danger | **failed**, and on **criterion 2** | ❌❌ |
+| B825 | succeeds near **6–9 %** | **8.3 %** | ✅ |
+| B830 | A1–A3 all hold | all three held | ✅ |
+| B832 | κ **0.75–0.90, LOWER** than wave 2 | **0.9305** — indistinguishable | ❌ |
+| B834 | (same prereg, replication) | **0.9300** | ❌ |
+| B839 | confirmed via a **double** factorial | confirmed, but **(2n)!** — single | verdict ✅, mechanism ❌ |
+| B841 | `fact_computed` true **≲ 35 %** | **70.7 %** | ❌ |
+| B842 | κ **0.55–0.75** | **0.8732** | ❌ |
+
+> **The two directions are clean. B821 and B824: I predicted MY OWN CONSTRUCTIONS would succeed, and
+> the vacuity ceilings refused them. B832, B834, B841, B842: I predicted READER PANELS would perform
+> WORSE than they did — four times consecutively.**
+
+**Over-confident about instruments I build; under-confident about panels.** Four consecutive
+underestimates of the panel is not noise, and it has a cost: **B842's gate was set at κ ≥ 0.60
+because I expected 0.55–0.75.** A bar set from a bad prior is a bar set too low.
+
+**The three right ones are the cheap ones** — B822 and B825 predicted the output of a computation I
+had already diagnosed; B830 predicted three facts already implied by banked arcs. **Nothing I got
+right required predicting how an instrument would behave.**
+
+### Finding 2 — three more gates were fail-open by drift
+
+| arc | gate | how it had stopped working |
+|---|---|---|
+| **B822** | `atlas-lexicon-current` | the ceiling was **self-referential** — the arc documenting it incremented the count it was fixing |
+| **B827** | `log-changelog-paired` | it watched a file nobody wrote; **its timestamp froze, so it could never fail again** |
+| **B844** | `review-actions` | the block regex stopped at the first continuation line — **reported 0 open items when there were 13** |
+
+**All three were sound when written and were disarmed by a change elsewhere, with no signal.** The
+2026-07-29 restart-resistance audit checked for gates that fail open when inputs go **missing**; none
+of these did. **Their inputs went stale, moved, or grew a second line.**
+
+> **A gate proves a property held at the moment it was written. Nothing keeps its input the same
+> thing the work is going into.** The audit question is not *"does it pass?"* but **"could it still
+> fail?"** — and it needs re-asking on a cadence, not once.
+
+### Finding 3 — the machinery caught me six times, and once within two commits
+
+`B833` was blocked from pushing until triaged. `B805`'s tripwire fired exactly as its message
+predicted. Two `B819` tripwires fired on their own success. `B806`'s lexicon-size tripwire demanded
+its numbers be re-derived and **they were stale**.
+
+**And the sharpest: `B837`'s file-drawer lock caught ME creating a file-drawer entry — two commits
+after I wrote it.** B841's `FINDINGS.md` never reached `main` because a shell `||` fallback
+squash-merged the seal branch instead of the work branch, **and a squash-merge of the wrong branch
+succeeds.**
+
+> **This is the first time a lock here has caught a NEW instance of the defect it was written to
+> describe, rather than an old one.**
+
+### Finding 4 — two descriptions were carried for five reviews without anyone opening the directory
+
+*"The spectral paper, still finished and unshipped."* **There is no spectral paper.** `papers/P5_monoid/`
+holds **one 1745-byte outline**, and it is the *monoid* paper. I repeated the phrase ~6 times this
+session; the review seat repeated a companion number (**"43 eigenvalues to r = 13.5"**) that belongs
+to **cc3's B792, which is not in `main`** — main has **17, to r = 9.84**.
+
+**Both errors have one shape: a description inherited and repeated without opening the tree it names.**
+Corrected: **certified spectral results exist in `frontier/` (B794, B795, B797); a spectral paper does
+not exist anywhere.**
+
+**And checking found a real defect neither description implied:** `eigenvalues_final.json` carried
+**6** of the **17** its own table certifies — a silent third-of-a-spectrum for any machine reader.
+Completed in B846.
+
+### Action items (Review 36)
+
+- [ ] R36-1: **re-ask "could this gate still fail?" across all 19 gates.** Three were found fail-open
+  by drift in this window alone, none by the standing audit. **This is the highest-value instrument
+  task in the repository.**
+- [ ] R36-2: **P5 Phase 2** — the table-first draft, carrying Phase 1's four reshaped claims and the
+  **Q2 two-cell row** (`EVIDENCE` vs `HYPOTHESIS VERIFIED`), with Phase 3 pointed at that row.
+- [ ] R36-3: **calibrate my priors on panels** — four consecutive underestimates set B842's gate too
+  low. Future panel gates should be set from the **measured** κ history (0.9312 / 0.9305 / 0.9300 /
+  0.8732), not from intuition.
+- [>] R36-4 (carried from R34-5): **wave 1's own re-audit** — the sampler exists and wave 2 used it;
+  wave 1 was never re-audited.
+- [>] R36-5 (carried, R32-9b / R32-12b): the law-harvest over 105 unread candidates; the 65
+  BOTH-LITERAL vacuity triage. **Real work nobody has run.**
+- [>] R36-6 (carried): the **166 pre-existing face attachments** want a second panel before relabel
+  (B296/B523 look wrong); **B590's m=3 sealing** returns with a working polish; the **49 `false`**
+  provenance flags.
+- [>] R36-7 (carried, owner/external): the specialist pass and the L95 prereg.
+
+anchor-commit: `a3ccd97d` (Review 36)
