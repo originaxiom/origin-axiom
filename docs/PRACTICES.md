@@ -156,6 +156,24 @@ exists to catch.
 - **Name the defect path before discarding your own result.** Suspicion that cannot name a route is
   not a reason.
 - **An unearned negative is as bad as numerology.**
+- **A sealed threshold inherits the seal-writer's bias (R36, measured).** Across ten sealed
+  predictions, six failed **directionally**: over-confident about instruments this seat builds,
+  **under-confident about reader panels four times consecutively**. The cost is concrete —
+  **B842's gate was set at κ ≥ 0.60 because 0.55–0.75 was expected**, and κ came in at 0.8732.
+  > **A bar set from a prior is a bar set at the prior's error. Derive thresholds from something
+  > external — a pilot run, a published benchmark, a measured history — not from what you expect.**
+  The κ history (0.9312 / 0.9305 / 0.9300 / 0.8732) is now that external source for panel gates.
+  **Calibration on outcomes is not calibration on instruments:** the predictions that came out right
+  were the ones whose answer was already implied by banked work.
+- **A gate that can only fail on ABSENCE cannot detect DRIFT (R36).** Four found this week:
+  `log-changelog-paired` watched a file nobody wrote (frozen timestamp ⇒ could never fail);
+  `review-actions` reported **0 open items when there were 13** (its regex stopped at the first
+  continuation line); the lexicon ceiling was **self-referential**; and B840's `SEALED` was vacuous
+  because the branch that could set it was unreachable. The 2026-07-29 restart-resistance audit
+  missed all of them **because it only checked what happens when an input goes missing.**
+  > **Any gate whose output is a COUNT or a MATCH must assert against an independently derived
+  > total.** A count that only ever compares itself to its own source cannot notice that the source
+  > moved.
 - **A label-lock is not a lock (B828, 2026-07-30).** `test-vacuity` catches tests with *no*
   assertion. It does **not** catch a test that asserts over **literals the test itself defines** —
   e.g. `reasons = {...three strings...}; assert len(set(reasons.values())) == 3`, which verifies

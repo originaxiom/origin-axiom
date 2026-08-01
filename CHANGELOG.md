@@ -1,5 +1,15 @@
 # Changelog
 
+## P5 Phase 2 — the table-first draft, with the lit-gate's four reshapings written INTO the text
+- **`DRAFT_v1.md` written** (~10 KB), under the outline's discipline: **one claim per row with its reproducer and its LEVEL** (`End(F₂)` / `trace-map` / `toral`); no synthesis sentence without a computation. Every row resolves to **B497 or B498**; **18 locks green**.
+- **§4's Q2 row is deliberately TWO cells**, per the review seat: `EVIDENCE` — no periodic conjugacy class across **117 cyclic classes** (bounded search); `HYPOTHESIS VERIFIED` — **NO**, because Mutanguha needs *no BS(1,m)* plus irreducibility and neither is checked. **The draft states in its own text that the single-cell form "would be false."** Phase 3's adversarial pass is pointed there first.
+- **§2.1 cites the toral floor rather than claiming it (Gate E):** *the monoid SL₂(ℕ) is generated **freely** by L and R* — Reutenauer, Northshield. **What survives above it is the Hopf coordinate, which abelianization forgets**, and that is where the classification lives.
+- **§1.1 scopes the novelty to the non-invertible sector (Gate C):** *"Stratum 1 is their territory"* — Cantat–Dujardin developed the **automorphism** dynamics on precisely this object. The claim is strata **2, 3, 4**.
+- **§3.1 claims the LEDGER, not the method (Gate D):** `E[log|2cos t|]` by Fourier is the textbook Mahler computation, so the contribution is **−2 and 0 as invariants separating the verbs**. Flagged as the highest residual novelty risk.
+- **§6 makes the methods paragraph load-bearing rather than an aside:** *"It is why §2.1 exists… the lit-gate found the collision; the level discipline had already answered it."*
+- **Six locks** (`tests/test_p5_draft.py`) guard the disciplines, not the prose — the two-cell Q2 row, the cited toral floor, the scoped novelty, the ledger-not-method claim, reproducer+level coverage, and the **firewall** (verb names confined to `speculations/S063`).
+- A first version of those locks **missed two phrases because markdown `>` continuation markers interleaved mid-sentence** — the same formatting-defeats-lock class as B845's bolded value. The reader now strips blockquotes and emphasis before matching.
+
 ## B846 — the eigenvalue JSON completed to its own certified table (6 → 17)
 - **`eigenvalues_final.json` held 6 of the 17 eigenvalues its own FINDINGS table certifies**, so anything reading the JSON rather than the prose silently received **a third of the spectrum with no signal it was truncated**.
 - **Completed, not renamed** — the review seat's judgement, and it is right: **the table is the certified artifact** (mode-count 664 → 900 modes, Bessel margins 21.0 → 27.0, `max |Δr| = 5.42×10⁻⁹`) and the JSON is its serialization. **Renaming would have preserved the trap for the next reader.**
