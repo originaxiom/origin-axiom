@@ -1,5 +1,12 @@
 # Changelog
 
+## B846 — the eigenvalue JSON completed to its own certified table (6 → 17)
+- **`eigenvalues_final.json` held 6 of the 17 eigenvalues its own FINDINGS table certifies**, so anything reading the JSON rather than the prose silently received **a third of the spectrum with no signal it was truncated**.
+- **Completed, not renamed** — the review seat's judgement, and it is right: **the table is the certified artifact** (mode-count 664 → 900 modes, Bessel margins 21.0 → 27.0, `max |Δr| = 5.42×10⁻⁹`) and the JSON is its serialization. **Renaming would have preserved the trap for the next reader.**
+- **The 11 added entries carry `r`, `λ` and multiplicity from the certified table, with the per-eigenvalue diagnostics marked `NOT IN MAIN — absent rather than fabricated`.** `r_Y2`, `sigma_Y1/Y2`, `sv_tail` and `S_invariance_dev` were produced by **cc3's B792 solver** and were never harvested; **the 6 original entries keep theirs, and the asymmetry is now visible in the file** instead of being hidden by absence.
+- **Locked both ways:** the JSON must serialize the whole table, **and** the added entries must *not* carry diagnostics they cannot have.
+- **The harvest gap gets one register line and is then dropped**: *"main has 17; cc3's B792 may hold more; harvest completeness unverified."* **Not investigated from here** — cc3's tree is not in this repository, and chasing it would repeat the error of citing B792 as if it were.
+
 ## B845 — the spectral inventory, checked: what exists, where, and an artifact that disagrees with its own table
 - **The register carried *"the spectral paper, still finished and unshipped"* through five reviews**, and I repeated it ~6 times. P5's Phase 0 found `papers/` holds **no spectral paper at all**. The review seat then corrected itself and named the real location — **and I checked that correction too, rather than swapping one unverified description for another.**
 - **What is actually in `main`:** **B797** — **17 certified Maass eigenvalues**, r = 3.9389 → **9.8371**, mode-count certified **664 → 900 modes** (Bessel margins 21.0 → 27.0), **max \|Δr\| = 5.42×10⁻⁹**, with n = 6 identified as the **parent (Bianchi) ground state** by S-invariance to 7×10⁻¹⁰ against order-1 breaking elsewhere — **nine orders of separation**. **B795** — **7/7 independently verified** on this seat's own instrument, not a re-run. **B794** — **Γ₄₁ is a congruence subgroup of level (4)**; the **mod-4 trace law PROVED**.

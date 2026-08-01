@@ -54,9 +54,15 @@ source of truth.
 
 ## Carried
 
-1. **Complete or rename `eigenvalues_final.json`** — 6 vs 17.
-2. **Harvest the remainder of cc3's B792** if its extent is genuinely r ≈ 13.5, under the standing
-   integrate-don't-merge rule (verify independently, new number).
+1. ~~Complete or rename `eigenvalues_final.json`~~ — **DONE (B846): completed to all 17.** The table
+   is the certified artifact and the JSON is its serialization; renaming would have preserved the
+   trap. The 11 added entries carry `r`, `λ`, multiplicity from the table with diagnostics marked
+   **ABSENT rather than invented**, since cc3's per-eigenvalue data was never harvested.
+2. **The harvest gap — one line, and then it is dropped.**
+   > **Main has 17. cc3's B792 may hold more. Harvest completeness UNVERIFIED.**
+
+   **Not to be investigated from here:** cc3's tree is not in this repository, and chasing it would
+   be the same error as citing B792 as if it were in main.
 3. The register's *"spectral paper"* phrasing is corrected here; it should not reappear.
 
 `tests/test_b845_spectral_inventory.py`
