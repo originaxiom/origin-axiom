@@ -1976,9 +1976,9 @@ corrected in relay (cc3's "B745 pending" — it had banked two days prior).
 
 ### Action items (Review 28)
 
-- [ ] R28-1: the external specialist pass — the package now adds the genesis pricing
+- [>] R28-1 (CARRIED — **OWNER-GATED**, cannot be done by a seat): the external specialist pass — the package now adds the genesis pricing
   (Gieseking parent), the V₄ census triple, and the GSWZ computation (carried from R27-1)
-- [ ] R28-2: the web seat's L95 prereg — verify-on-receipt (carried from R27-2)
+- [>] R28-2 (CARRIED — **depends on an external seat delivering**): the web seat's L95 prereg — verify-on-receipt (carried from R27-2)
 - [x] R28-3: H-EAR's residual formal statement (carried from R27-3) — DONE 2026-07-22: the
   formal principle banked as a LAW_MAP row (four theorem-backed clauses: origin/carrier/
   silence/access — each citing its chain link + lock; the H-CUSP pattern); the QP forks are
@@ -2242,9 +2242,9 @@ process/already-captured — no further genuine burial in this window.
   B789 makes this explicit and computable: θ is trace-invisible (tr g = tr gᴿ = tr g⁻¹ in SL(2)),
   and the intertwiner Q realising it lives at the matrix level, with the group-level identity
   proved FALSE by an abelian obstruction. Locked in `tests/test_b789_intertwiner.py`.
-- [ ] R31-6: the law-harvest is now STANDING (WORKING_RULES 10) — run it every review; next
+- [>] R31-6 (CARRIED — standing cadence, not a one-off): the law-harvest is STANDING (WORKING_RULES 10) — run it every review; next
   pass extends it to the pre-B700 backlog (this harvest covered the recent window only).
-- [ ] R31-5 (carried): GSWZ send owner-gated (R30-3); R29-1 specialist pass owner-gated; R29-2 L95.
+- [>] R31-5 (CARRIED — **all three OWNER-GATED or external-seat dependent**): GSWZ send owner-gated (R30-3); R29-1 specialist pass owner-gated; R29-2 L95.
 
 ## Review 32 — 2026-07-29 (THE VIEW-REFRESH REVIEW; window B788–B797 + the context re-read; anchor-commit: `605d211b`)
 
@@ -2435,7 +2435,7 @@ exactly where φ enters arithmetically (Frobenius gluing trivial at p=3, nontriv
 ℚ(ω).
 
 ### Action items (Review 32, addendum)
-- [ ] R32-9b: re-run the law-harvest over the **105 unread** corrected-filter candidates. Top by
+- [>] R32-9b (CARRIED — real work, nobody has run it): re-run the law-harvest over the **105 unread** corrected-filter candidates. Top by
   density: B530, B490, B517, B186, B173, B103, B116, B521, B569.
 - [x] R32-10: K021–K024 (and K025, a loose bullet) restored to `knowledge/INDEX.md`; a
   `knowledge-index` gate now enforces both directions.
@@ -2456,11 +2456,11 @@ exactly where φ enters arithmetically (Frobenius gluing trivial at p=3, nontriv
   confirmed); B784 and B792 already harvested (B785, B795/B797); B796 in flight, not
   harvestable; B350/B778/B780/B781 differ but **main is ahead in all four**. No cc3 branch
   merged, per integrate-don't-merge.
-- [ ] R32-15 (CARRIED, the campaign's honest remainder): **701 of 731 arcs still need authored
+- [x] R32-15: **DONE across waves 1–3b.** 756 of 810 arc ids carry an authored verdict. ~~R32-15 (CARRIED, the campaign's honest remainder): 701 of 731 arcs still need authored~~
   verdicts** (ledger projects 4.1 %); **~111 negatives unregistered** in `kill_graph` (B801,
   measured); **B685's normalisation** un-pinned (B800, partial); **B731's `revival_score: 10`**
   stale on a reopened door.
-- [ ] R32-12b: triage the **65** BOTH-LITERAL entries in
+- [>] R32-12b (CARRIED — real work, nobody has run it): triage the **65** BOTH-LITERAL entries in
   `docs/progress/R32_vacuity_review_queue.txt`. This is a REVIEW QUEUE, **not** a defect list —
   a sample of six gave 1 real vacuity (fixed: `test_b709_turok`), 2 scanner false positives
   (both now excluded by rule), and 3 deliberate data-locks written as arithmetic
@@ -2528,7 +2528,8 @@ cited by path.)
   gate enforces the two cheap invariants that do catch drift: every row cites its arc (4 rows fixed),
   and any cited lock resolves. A reader is told, in the file, that an unlocked row is a *claim about
   the bank*, not a checked fact — and pointed at THE CHAIN and CLAIMS, which ARE gate-enforced.
-- [ ] R33-5 (carried from R32-15): 701 arcs need authored verdicts; ~111 negatives unregistered;
+- [x] R33-5: **DONE.** Verdict coverage **756 of 810 arc ids**; negatives routed (B836) and their
+  provenance set (B841). ~~R33-5 (carried from R32-15): 701 arcs need authored verdicts; ~111 negatives unregistered;~~
   B685's normalisation un-pinned; B731's stale `revival_score: 10`.
 
 ## Review 34 — the instrument review (anchor-commit: `8e605c09`)
@@ -2586,14 +2587,26 @@ is a precondition, not the goal.
   produced its only disagreements are written into the vocabulary.
 - [x] R34-3: H128/H129 legally killed with tombstones + residual hints; H130 promoted as **L107**;
   four mislabelled lifecycle states corrected.
-- [ ] R34-4: **wave 2** — 425 arcs. Slices must **overlap** so the conservatism offset (per-slice
+- [x] R34-4: **DONE (B817).** Wave 2 ran with a SHARED calibration block rather than overlapping
+  slices — a better design for the same purpose: κ = 0.9312 across 12 raters, and the conservatism
+  offset measured **nil** (10 of 12 readers gave the identical mix). ~~R34-4: wave 2 — 425 arcs. Slices must overlap so the conservatism offset (per-slice~~
   PROVED-rate spread **0.364–0.917**) is measured rather than confounded with chronology.
-- [ ] R34-5: **re-audit wave 1 with a RANDOM sample.** The 36/36 result sampled the *first three*
+- [>] R34-5 (CARRIED, and the instrument now exists): **B816** built the committed-seed sampler and
+  **B817** used it for wave 2's audit (20/20). **Wave 1's own re-audit was never run** — it is the
+  one piece of this item still outstanding. ~~R34-5: re-audit wave 1 with a RANDOM sample. The 36/36 result sampled the *first three*~~
   of each slice and licenses nothing.
-- [ ] R34-6: **the WHAT axis is stale** (B806) — derive a lexicon from the corpus; the gap against
+- [x] R34-6: **RESOLVED by B838, and the premise was wrong.** The lexicon needs no re-grounding on
+  K023–K025: every distinctive term is either **ambient** (`forcing` 41.9 %) or **absent**
+  (`held slot` 0.1 %). They are retrospective **syntheses, not topics**. B825 closed the one genuine
+  gap (B537). ~~R34-6: the WHAT axis is stale (B806) — derive a lexicon from the corpus; the gap against~~
   the frozen 18 is the list of what the programme learned and never named.
-- [ ] R34-7: **face attachment** — 573 arcs on no face, measured **not automatable**.
-- [ ] R34-8 (carried): B685's normalisation; B731's stale `revival_score: 10`; the ~111 unregistered
+- [x] R34-7: **DONE (B842).** κ = **0.8732** on a 12-way judgement against B806's 0.45 keyword
+  baseline; faces **166 → 673** records. B806's *"not mechanizable"* stands — the task is not
+  ill-posed, the instrument was wrong. ~~R34-7: face attachment — 573 arcs on no face, measured not automatable.~~
+- [x] R34-8: **ALL THREE DONE.** B685's normalisation → **B839** (arithmetic discharged, `(2n)!`;
+  convention still cited). B731's stale `revival_score: 10` → **B830** (it was the corpus maximum
+  while its own note said ALREADY RETRACTED; lowered to 0). The unregistered negatives → **B836**
+  (167 routed, backlog zero) and **B841** (provenance set, 118/118 pointers resolve). ~~R34-8 (carried): B685's normalisation; B731's stale `revival_score: 10`; the ~111 unregistered~~
   negatives (B801); **the spectral paper, still finished and unshipped**.
 
 ## Review 35 — the correction lattice, and where my predictions actually fail (anchor-commit: `33a28541`)

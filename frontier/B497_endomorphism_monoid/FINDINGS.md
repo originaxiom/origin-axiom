@@ -73,7 +73,7 @@ the Markov surface κ=−2 is destroyed by TM off every level set (B496 Q1: ejec
 | I1/I2 | **EXACT, BANKED** (free-group witnesses) |
 | I3 HNN/solenoid | well-definedness banked (needs only I1); solenoid CITED |
 | C5 ledger | **EXACT** (integer sequences); entropy CITED-CONDITIONAL |
-| novelty (four-strata frame; κ-factorizations; doubling curve) | **PENDING Phase 1 gates** (research window ~Jul 14): Axel–Peyrière/Bellissard; polynomial-semigroup/Fricke; Sapir/Mutanguha |
+| novelty (four-strata frame; κ-factorizations; doubling curve) | **PHASE 1 GATES RUN 2026-08-01** (`papers/P5_monoid/PHASE1_LITGATE.md`): **no prior art found** for the four-strata frame; the κ-laws' delta is the **NON-INVERTIBLE** sector (Cantat–Dujardin cover the automorphism action on the same Markov surface); the drift ledger's **method is classical** (Mahler/Fourier) so the claim must be the per-verb ledger; **Mutanguha applies and is an iff**, but Q2's bounded periodic-class search is NOT a check of its hypothesis (no BS(1,m) + irreducibility) |
 | the verb names (evolution/renormalization/decoherence/erasure) | FIREWALLED → speculations/S063 |
 
 ## Reproduce

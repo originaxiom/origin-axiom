@@ -17642,6 +17642,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B845": {
+   "slug": "spectral inventory",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [
+    "B792",
+    "B794",
+    "B795",
+    "B797",
+    "P5"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B84": {
    "slug": "sl5 gauge barrier",
    "motifs": [

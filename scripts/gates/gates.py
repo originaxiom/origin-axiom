@@ -246,8 +246,13 @@ def gate_review_actions():
             return False, "docs/progress/ exists but REVIEWS.md is MISSING -- §15 register gone"
         return True, "no docs/progress/ yet"
     text = _read(REVIEWS)
-    blocks = re.findall(r"### Action items \(Review [^)]+\)\n((?:- \[.\][^\n]*\n?)+)",
-                        text)
+    # Split on the block HEADERS and take everything up to the next section, rather than matching a
+    # contiguous run of "- [.]" lines. Action items wrap onto continuation lines, and the old regex
+    # stopped at the first one -- so for recent reviews it saw ONE item each and reported 0 open
+    # items in superseded blocks when the true count was 13 (B844). Fail-open by drift, same class
+    # as B827's: the gate was sound when every item fit on one line.
+    parts = re.split(r"### Action items \(Review [^)]+\)\n", text)
+    blocks = [p.split("\n## ")[0].split("anchor-commit")[0] for p in parts[1:]]
     if not blocks:
         return True, "no action-item blocks yet (pre-§15 reviews)"
     stale_open = 0
