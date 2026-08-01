@@ -40,7 +40,13 @@ def test_gaps_are_reported_not_hidden():
     gp = m.gaps(G)
     for k in ("faces_with_no_proved_arc", "arcs_on_no_face", "arcs_with_no_verdict"):
         assert k in gp
-    # the measured state at banking: most arcs are on no face, because face-attachment was
-    # only ever done for the NEGATIVES (the faces come from kill_graph)
-    assert len(gp["arcs_on_no_face"]) > len(G["arcs"]) // 2, \
-        "if this ever drops below half, the positives have been attached -- update the arc"
+    # B805 banked with MOST arcs on no face, because attachment had only ever been done for the
+    # NEGATIVES (the faces come from kill_graph). Its message read: "if this ever drops below half,
+    # the positives have been attached -- update the arc." B842 attached them, so it dropped
+    # (383+ -> 134 of 766). This is that update: the lock now guards the ATTACHED state, and the
+    # residue is the arcs the panel judged to sit on NO face plus those with nothing to read.
+    n_off = len(gp["arcs_on_no_face"])
+    assert n_off < len(G["arcs"]) // 2, f"{n_off} arcs on no face -- attachment has regressed"
+    assert n_off > 20, ("every arc is on a face -- suspicious: the panel judged ~15% to sit on "
+                        "NO face, and forcing an attachment is the over-prediction that sank the "
+                        "keyword classifier (B806)")

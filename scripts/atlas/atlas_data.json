@@ -17591,6 +17591,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B842": {
+   "slug": "face attachment",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "torsion"
+   ],
+   "refs": [
+    "B237",
+    "B296",
+    "B372",
+    "B486",
+    "B515",
+    "B523",
+    "B619",
+    "B806",
+    "B821",
+    "B832",
+    "B834",
+    "B841"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B84": {
    "slug": "sl5 gauge barrier",
    "motifs": [
