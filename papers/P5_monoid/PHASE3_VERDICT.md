@@ -98,3 +98,40 @@ the draft's, which was also wrong about Aut.**
 `s4_kernel` are banked.
 
 `tests/test_p5_phase3.py`
+
+## RE-CHECK (2026-08-01, on the owner's challenge) — the verdict HOLDS, and one supporting claim was overstated
+
+The verdict was re-verified against the extracted PDF in both directions — **what died and what
+survives** — because a prior-art call that only checks the death half is half a check.
+
+**The classification quote is real and in context.** It sits in a bulleted list of properties of
+`P_ϱ`, immediately before *"We cannot give the proofs here, many of which can be found in the work of
+**Peyrière** and coworkers."* Eq. (2.16) and the Appendix's (A.1) both state the transformation law.
+
+**But the reviewer's phrase "Eq. (2.16)/(A.1) is U1 plus the multiplier table VERBATIM" is an
+overstatement, and I repeated part of it.** Measured in the text:
+
+| P5's specific multiplier | in BGJ? |
+|---|---|
+| `x²y²` (decimation) | **0 hits** — the word "decimation" does not appear either |
+| `x²+y²−xyz` (Thue–Morse) | **not given**; "Thue-Morse" appears **once**, in a *spectral* gap-labelling context, not as a trace map |
+| BGJ's own worked multiplier | `P_ϱ = (U_{k−1}(x))²` for their generalised-Fibonacci family |
+
+> **BGJ gives the LAW and one family's multiplier, not P5's table.** The correction does not rescue
+> the paper — computing a specific `P_ϱ` from Eq. (2.16) is mechanical, so P5's table is a
+> **corollary of prior art**, not new work — but *"verbatim"* was wrong and is corrected here.
+
+**The survival list is confirmed by absence, measured:**
+
+| searched in BGJ | hits |
+|---|---|
+| Lyapunov · expectation · average · random · Haar | **0 · 0 · 0 · 0 · 0** |
+| mapping tor· · Baumslag · BS(1, · hyperbolic · HNN · atoroidal | **0 · 0 · 0 · 0 · 0 · 0** |
+
+> **BGJ contains no probabilistic content and no group-theoretic geometry whatsoever.** The **drift
+> ledger** and **Q3** are untouched by it — not by assumption, but by a zero-hit search over the full
+> extracted text.
+
+**Verdict unchanged: the spine is prior art.** The object, U1, U2 and the injective/kernel/onto
+classification are BGJ 1993 after Kolář–Ali 1990 and Peyrière 1991 — **and BGJ's classification is
+correct where §1's was not.** What is not theirs is the drift ledger, Q3, and `det ≠ 0 ⟹ injective`.

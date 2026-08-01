@@ -1,5 +1,12 @@
 # Changelog
 
+## P5 verdict RE-CHECKED on challenge — it holds, and one supporting claim was overstated
+- Re-verified against the extracted PDF **in both directions**, because **a prior-art call that only checks the death half is half a check.**
+- **The classification quote is real and in context** — a bulleted list of `P_ϱ` properties, immediately before *"many of which can be found in the work of **Peyrière** and coworkers."*
+- **CORRECTION: the reviewer's "Eq. (2.16)/(A.1) is U1 plus the multiplier table VERBATIM" is an overstatement, and I repeated part of it.** Measured: `x²y²` — **0 hits**; "decimation" — **0 hits**; "Thue-Morse" — **1 hit, in a spectral gap-labelling context**, not as a trace map. BGJ's own worked multiplier is `P_ϱ = (U_{k−1}(x))²` for their generalised-Fibonacci family. **BGJ gives the LAW and one family's multiplier, not P5's table.** This does not rescue the paper — a specific `P_ϱ` follows mechanically from Eq. (2.16), so P5's table is a **corollary** of prior art — but "verbatim" was wrong.
+- **The survival list is now confirmed by measured absence, not assumption:** Lyapunov **0**, expectation **0**, average **0**, random **0**, Haar **0**; mapping tori **0**, Baumslag **0**, BS(1, **0**, hyperbolic **0**, HNN **0**, atoroidal **0**. **BGJ contains no probabilistic content and no group-theoretic geometry at all**, so the **drift ledger** and **Q3** are genuinely untouched.
+- **Verdict unchanged.** The spine — object, U1, U2, and the injective/kernel/onto classification — is BGJ 1993 after Kolář–Ali 1990 and Peyrière 1991, **and BGJ's classification is correct where §1's was not.**
+
 ## P5 Phase 3 — VERDICT: the paper does not stand. The core is Baake–Grimm–Joseph 1993.
 - **Six adversarial lenses, all six returned FINDINGS: 7 fatal, 28 major, 8 minor.** The draft is **WITHDRAWN** and banner-marked; the text is kept uncorrected for the record.
 - **The decisive finding, verified from the source PDF rather than the reviewer's report.** *Baake, Grimm & Joseph, Int. J. Mod. Phys. B 7 (1993) 1527* (`math-ph/9904025`) contains P5's spine verbatim: the object — *"we call this monoid **Θ₂ = Hom(F₂)**"*; **U1** — Eq. (2.16), *"`I(F_ϱ) = P_ϱ·I`… called the **transformation polynomial**"*; **U2** — *"a homomorphism is induced from **Θ₂ = Hom(F₂) to Mat(2,ℤ)**"*; and **a FINER classification than §1's**: *"invertible **iff** P_ϱ ≡ 1; nontrivial kernel **iff** P_ϱ ≡ 0; injective but not onto **iff** P_ϱ ≢ const."* Conjectured **Kolář–Ali 1990**, proved **Peyrière 1991**.

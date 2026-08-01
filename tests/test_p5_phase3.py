@@ -25,6 +25,15 @@ def test_the_verdict_records_the_prior_art_with_its_source():
     assert "does not stand" in t or "is not a paper" in t
 
 
+def test_the_recheck_records_BOTH_directions():
+    """A prior-art call that only checks the death half is half a check."""
+    t = " ".join((P5 / "PHASE3_VERDICT.md").read_text(encoding="utf-8").split())
+    assert "RE-CHECK" in t
+    assert "overstated" in t, "the reviewer's 'verbatim' claim must be corrected, not repeated"
+    assert "confirmed by absence, measured" in t
+    assert "Verdict unchanged" in t
+
+
 def test_the_reproducer_DERIVES_its_matrices_from_words():
     """The vacuity: both matrices were previously built from the SAME literal argument."""
     m = _hopf()
