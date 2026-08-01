@@ -17591,6 +17591,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B841": {
+   "slug": "provenance pass",
+   "motifs": [
+    "lorentzian"
+   ],
+   "refs": [
+    "B127",
+    "B22",
+    "B223",
+    "B288",
+    "B41",
+    "B525",
+    "B573",
+    "B597",
+    "B674",
+    "B713",
+    "B801",
+    "B833",
+    "B836"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "physics"
+  },
   "B842": {
    "slug": "face attachment",
    "motifs": [

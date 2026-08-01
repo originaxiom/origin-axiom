@@ -1,5 +1,12 @@
 # Changelog
 
+## B843 — B837's file-drawer lock caught ME creating a file-drawer entry, one commit later
+- **B841's `FINDINGS.md` never reached `main`.** I created two branches — `b841-provenance-pass` (the seal) and `b841-provenance` (the work) — and the merge line `git merge --squash b841-provenance-pass … || git merge --squash b841-provenance` **short-circuited on the first, which contained only the preregistration.** Commit `cba74fd8` therefore banked **a sealed prereg with no findings report** — the exact defect B837 audited the corpus for.
+- **The lock fired the next time the suite ran:** *"new sealed-and-ledgered prereg(s) with no findings report: ['B841'] — report the result or record a disposition (B837)."* **Written two commits earlier, against arcs from July, and it caught an August slip of mine.**
+- **Recovered from the reflog** (`eafbe954`), which held the real work commit. Everything else from that commit had already reached `main` through B842's working tree — **only the findings file was lost**, verified by diffing the two.
+- **The mechanism worth remembering:** `A || B` in a shell chain runs **B only if A fails**, and a squash-merge of the *wrong* branch **succeeds**. A fallback written for robustness silently selected the incomplete branch. **Two branches for one arc is the root cause**, and the seal-then-work split is what created them.
+- **B837 said its own number was 3 and that reading each was required. Its lock then proved the check keeps paying** — it is the first time a lock in this repository has caught a *new* instance of the defect it was written to describe, rather than an old one.
+
 ## B842 — face attachment SUCCEEDS where the keyword classifier failed, and finds the existing attachment unreliable
 - **κ = 0.8732** on a **12-way** judgement (12 raters, 16 shared arcs), CI **[0.7388, 0.9603]**, against a sealed gate of 0.60 → **PASS**. **B806's keyword classifier scored precision 0.45 and over-predicted by 55 %.**
 - **This does not contradict B806 — it tests a different instrument.** Its conclusion *"face attachment is not mechanizable"* **stands as written**; what is now shown is that **the task is not ill-posed** — the failure was the instrument, not the question. B821's lesson generalises: **a regex matches mentions; a reader can tell mentions from subjects.**
