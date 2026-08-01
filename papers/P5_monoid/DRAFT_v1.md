@@ -1,3 +1,22 @@
+# ⚠️ WITHDRAWN — the core is prior art (Baake–Grimm–Joseph 1993). See `PHASE3_VERDICT.md`.
+
+> **This draft does not stand.** Phase 3's adversarial pass returned **7 fatal / 28 major / 8 minor**
+> findings across all six lenses. The decisive one, verified from the source PDF:
+> **Baake, Grimm & Joseph, Int. J. Mod. Phys. B 7 (1993) 1527** already contains the object
+> (*"we call this monoid Θ₂ = Hom(F₂)"*), **U1** (Eq. 2.16, the transformation polynomial), **U2**
+> (*"a homomorphism is induced from Θ₂ to Mat(2,ℤ)"*), and **a FINER classification** than §1's:
+> *"invertible iff P_ϱ ≡ 1; nontrivial kernel iff P_ϱ ≡ 0; injective but not onto iff P_ϱ ≢ const."*
+> Conjectured Kolář–Ali 1990, proved **Peyrière 1991** — the name the outline's own gate list carried,
+> and which my Gate B search missed by asking the wrong question.
+>
+> **Six further fatals** are recorded in `PHASE3_VERDICT.md`, including that §1's stratum 1 is **not**
+> Aut(F₂), that the κ-law column is **not a function of the stratum**, and that §4's Q2 evidence cell
+> reports a null **for a predicate its script never evaluates**.
+>
+> **The text below is kept for the record, uncorrected.** Do not cite it.
+
+---
+
 # The four verbs of F₂ — a classification of End(F₂) by its action on the character variety
 
 **Draft v1 (table-first), 2026-08-01.** Written under the outline's discipline: **one claim per row
@@ -65,8 +84,47 @@ constants (4). *Level:* **toral**.
 > exactly this reason. **What survives above it is the Hopf coordinate — injective vs non-injective —
 > which abelianization forgets**, and that is where §1's classification lives.
 >
+> **§2.2 The load-bearing sentence, and it is PROVED — not argued.**
+>
+> Everything above rests on one claim: *the Hopf coordinate survives above the toral floor because
+> abelianization forgets it.* **If that were hand-waving, the Stern–Brocot literature would take the
+> whole paper.** It is not. It has a two-element witness:
+>
+> | | |
+> |---|---|
+> | **PROVED** | **Thue–Morse `a↦ab, b↦ba` and the stratum-4 citizen `a↦ab, b↦ab` have the SAME abelianization matrix `[[1,1],[1,1]]`, det 0** — yet TM is **injective** (I1: `(ab)(ba) = ab²a ≠ ba²b = (ba)(ab)`, so ⟨ab,ba⟩ is free of rank 2 and Hopficity forces injectivity) and stratum 4 carries the **exact kernel element `φ(ab⁻¹) = 1`**. Two endomorphisms, one abelianization, opposite Hopf coordinates. |
+> | **ARGUED** | nothing. The separation is exhibited, not inferred. |
+>
+> **The definition, stated rather than assumed.** *A **toral-level invariant** is a function of the
+> abelianization matrix.* The witness proves the Hopf coordinate is not such a function; the step to
+> *"no toral-level invariant distinguishes stratum 3 from stratum 4"* is then **immediate by
+> definition, not by inference.** **This is written down because a referee's first question is
+> whether some other toral construction sees more — and the honest answer is "not by this
+> definition", which should be visible rather than implied.**
+>
+> **Consequence, stated exactly:** the Hopf coordinate is **not a function of the abelianization**,
+> so no toral-level invariant — **including the free generation of SL₂(ℕ) by L and R** — can
+> distinguish stratum 3 from stratum 4. The classification in §1 therefore lives strictly above the
+> floor the Stern–Brocot literature owns.
+>
+> **§2.3 The separation is not an artifact of one matrix, and det 0 is FORCED.**
+>
+> A single witness pair invites the cherry-picking objection, so: **a second pair, at a different
+> abelianization.** `ψ₁: a↦a², b↦a²` is non-injective (`ψ₁(ab⁻¹) = 1`); `ψ₂: a↦a², b↦a²[a,b]` is
+> injective, because its image `⟨a², [a,b]⟩` is free of rank 2 — `a²` lies in ⟨a⟩ while `[a,b]` does
+> not, so they do not commute. **Both abelianize to `[[2,2],[0,0]]`.**
+>
+> **And the objection dissolves entirely at the structural level.** By the Hopf dichotomy a
+> non-injective endomorphism has image of rank ≤ 1; a rank-≤1 image abelianizes into a rank-≤1
+> subgroup of ℤ²; so **every non-injective endomorphism of F₂ sits on det 0.**
+>
+> > **The separation can occur ONLY on det-0 matrices — and that is a sharpening, not a limitation.
+> > It says exactly where the abelianization is blind.** `[[1,1],[1,1]]` is not special; **det 0 is
+> > forced.**
+>
 > **This gate could have pre-empted the paper, and the paper's own methods discipline is what
-> answered it** (see §6).
+> answered it** (see §6). **The answer is a witness pair, which is the boring check the methods
+> paragraph is about.**
 
 ---
 

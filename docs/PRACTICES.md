@@ -165,6 +165,17 @@ exists to catch.
   The κ history (0.9312 / 0.9305 / 0.9300 / 0.8732) is now that external source for panel gates.
   **Calibration on outcomes is not calibration on instruments:** the predictions that came out right
   were the ones whose answer was already implied by banked work.
+- **A literal lock must NORMALISE before it matches (four instances this week).** Markdown defeated
+  four locks in one week: a **bolded** value broke a table-row count (B845); `>` blockquote
+  continuation markers interleaved mid-sentence and hid two phrases (P5 Phase 2); an exact-match on
+  `authored_by` broke when provenance was **appended** (B835); a magic-word check flagged nine
+  carried items that each gave a good reason **in different words** (B844).
+  > **Strip emphasis, blockquote markers and whitespace before matching; match on the property, not
+  > the rendering.** A lock that reads formatting is testing the typesetter.
+
+  **And the normaliser must be IDEMPOTENT, not one-pass (fifth instance).** A single-level strip of
+  `>` left a stray marker mid-sentence where the source nested them (`> >`). **A normaliser that
+  handles one level of the thing it normalises is itself a literal lock.**
 - **A gate that can only fail on ABSENCE cannot detect DRIFT (R36).** Four found this week:
   `log-changelog-paired` watched a file nobody wrote (frozen timestamp ⇒ could never fail);
   `review-actions` reported **0 open items when there were 13** (its regex stopped at the first

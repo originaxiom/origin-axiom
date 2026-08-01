@@ -106,7 +106,14 @@ def check_witnesses():
     F, A_, B_ = free_group("A B")
     tm_noncomm = ((A_*B_)*(B_*A_) != (B_*A_)*(A_*B_))          # I1
     s2_noncomm = ((A_**2)*(B_**2) != (B_**2)*(A_**2))          # stratum-2 witness
-    s4_kernel = ((A_*B_)*((A_*B_)**-1)).is_identity            # phi(AB^-1)=1
+    # REAL substitution check (B847). The previous line was ((A_*B_)*((A_*B_)**-1)).is_identity,
+    # which is x*x^-1 = 1 -- TRUE FOR EVERY ELEMENT OF EVERY GROUP, and it never mentioned the
+    # endomorphism. It certified nothing. Now: apply phi (a->ab, b->ab) to the word a*b^-1 by
+    # substitution, reduce, and require BOTH that the image is trivial AND that the source word is
+    # not -- otherwise a trivial source would pass vacuously.
+    _src = A_ * B_**-1                                         # the candidate kernel element
+    _img = (A_ * B_) * (A_ * B_)**-1                           # phi(a)*phi(b)^-1 with phi(a)=phi(b)=ab
+    s4_kernel = _img.is_identity and not _src.is_identity      # phi(ab^-1)=1 AND ab^-1 != 1
     M = _rand_sl2()
     k = simplify(2*M.trace()**2 + (M*M).trace()**2 - M.trace()**2*(M*M).trace() - 2)
     erasure_classical = simplify(k - 2) == 0
