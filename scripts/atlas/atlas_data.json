@@ -17814,6 +17814,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B854": {
+   "slug": "centralizer exact",
+   "motifs": [
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B254"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B85": {
    "slug": "tower lynchpin",
    "motifs": [

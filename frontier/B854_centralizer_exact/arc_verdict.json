@@ -1,0 +1,12 @@
+{
+ "id": "B854",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "claim_one_line": "The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).",
+ "depends_on": [
+  "B848"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-02)"
+}

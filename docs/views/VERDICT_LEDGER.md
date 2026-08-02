@@ -5,7 +5,7 @@
 
 # Arc verdict ledger (generated)
 
-765 of 778 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+766 of 779 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
 ## PROVED (468)
@@ -481,7 +481,7 @@
 | `B852` | B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 1e-9, doubling-map control exact to 1.3e-15), only the parabolic model shows a plateau, and inducing the parabolic point away (Gauss = Farey's jump transformation) destroys the transition -- an independent echo of B737-P2's Dehn-filling argument. NOT preregistered; footing is the exact positive control. |  | 1 |
 | `B853` | The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredients are not missing but split across the object's two faces: the order parameter m = sqrt5/3, B6's derived potential, its Galois-conjugate vacua and critical values, and the thermodynamic barrier ALL live on the Q(sqrt5) hearing face and are FIXED by the Q(sqrt-3) involution that Cl(O_4)/Frob_7 acts by, while the object-specific class group (h=2 vs m003's h=1) lives on the being face. |  | 2 |
 
-## NEGATIVE (259)
+## NEGATIVE (260)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -744,6 +744,7 @@
 | `B824` | The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character variety' alone carrying 13.8%); it was reverted and B537 stays a recorded GAP. | yes | 1 |
 | `B849` | The claimed beta=1 SSB has NO order parameter at the manifold level -- CS(m004)=0 and amphichirality forces every orientation-odd invariant to 2-torsion (nine chiral controls confirm the instrument sees nonzero) -- and the nominated candidate (chirality = complex conjugation) is at the WRONG LEVEL, lying in Gal(K/Q) rather than Gal(K^ab/K); CONDITIONAL on the acting-group identification, confirmed in B851. |  | 1 |
 | `B850` | The foliation-algebra question has a computable shadow via length-spectrum density, and it CLOSES the lead: m004, its sister m003 and a non-arithmetic control all return DENSE, giving type III_1 (CONDITIONAL on the cited ratio-set reduction) GENERICALLY for every cusped hyperbolic 3-manifold, so the internal-clock route says nothing object-specific. |  | 1 |
+| `B854` | The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0). |  | 1 |
 
 ## OPEN (29)
 

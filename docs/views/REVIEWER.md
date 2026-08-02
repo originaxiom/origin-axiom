@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **778** |
-| words of findings prose | **507,570** |
-| test lock files referenced | **517** |
-| arcs carrying an authored verdict | **765** (98.3 %) |
-| recorded closures | **729** (562 classified, 167 routed-only) |
+| research arcs with findings | **779** |
+| words of findings prose | **508,770** |
+| test lock files referenced | **518** |
+| arcs carrying an authored verdict | **766** (98.3 %) |
+| recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 468 |
-| NEGATIVE | 259 |
+| NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredients are not missing but split across the object's two faces: the order parameter m = sqrt5/3, B6's derived potential, its Galois-conjugate vacua and critical values, and the thermodynamic barrier ALL live on the Q(sqrt5) hearing face and are FIXED by the Q(sqrt-3) involution that Cl(O_4)/Frob_7 acts by, while the object-specific class group (h=2 vs m003's h=1) lives on the being face.  
 `B853_two_faces_ssb/FINDINGS.md`
 
-**NEGATIVE — `B850`** (1220 words, 1 locks)  
-The foliation-algebra question has a computable shadow via length-spectrum density, and it CLOSES the lead: m004, its sister m003 and a non-arithmetic control all return DENSE, giving type III_1 (CONDITIONAL on the cited ratio-set reduction) GENERICALLY for every cusped hyperbolic 3-manifold, so the internal-clock route says nothing object-specific.  
-`B850_length_spectrum_type/FINDINGS.md`
+**NEGATIVE — `B854`** (1200 words, 1 locks)  
+The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
+`B854_centralizer_exact/FINDINGS.md`
 
 **RETRACTED — `B780`** (851 words, 0 locks)  
 The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  

@@ -10243,5 +10243,19 @@
   "priority": "P3",
   "revival_score": 3,
   "note": "Sealed prereg f9d13b4d880301f7. m004, m003 (arithmetic sister) and m015 = 5_2 (non-arithmetic) ALL return DENSE => III_1 CONDITIONAL, for every cusped hyperbolic 3-manifold. The DENSE/DISCRETE binary was pre-stated as FORCED by mixing, so it is a verification; the PRODUCT is the genericity. Discriminating computation: frontier/B850_length_spectrum_type/length_spectrum_type.py + results.json. Counts corrected after an order-dependent precision bug (2 rational / 10 irrational; the rationals are powers of the systole element); verdict unchanged and now locked precision-independent."
+ },
+ {
+  "id": "B854",
+  "claim_killed": "That a non-abelian gauge algebra (su(2)+u(1), read as electroweak) arises as the centralizer of the object's finite holonomy image 2T inside the E6 its arithmetic selects.",
+  "kill_form": "zero-intertwiner",
+  "faces_consulted": [
+   "being",
+   "mtc-overlay"
+  ],
+  "fact_computed": true,
+  "hatch": "2T enters via the PRINCIPAL SL(2). A NON-PRINCIPAL embedding of 2T in E6 has a different centralizer and none was computed -- that is the one honest way this route could still yield a non-abelian algebra. Separately, the conformal-embedding route (B254) is untouched by this kill, though its 'U(1)' factor is really (A1)_1 = SU(2) at level 1, since c((A1)_1) = c(U(1)) = 1 exactly.",
+  "priority": "P2",
+  "revival_score": 3,
+  "note": "EXACT over Q. E6 Chevalley built and VERIFIED before use (36/72 roots, dim 78, Jacobi PASS on 4000 random triples, exponents {1,4,5,7,8,11} recovered). Four 2T-invariants = Klein's forms, one each in V8/V14/V16/V22; dim 4 confirmed THREE independent ways (Burnside average, full SL(2,3) character table, Klein invariant ring). CONTROL: random elements of the same blocks bracket to NONZERO 5/5 on every pair, so the vanishing is not a construction artifact. A Z/2 grading from transvectants (odd order vanishes, even does not) reduced the whole question to ONE bracket, [x14,x22], which is exactly zero. Discriminating computation: frontier/B854_centralizer_exact/e6_centralizer.py + results.json."
  }
 ]
