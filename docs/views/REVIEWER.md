@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **780** |
-| words of findings prose | **509,689** |
-| test lock files referenced | **519** |
-| arcs carrying an authored verdict | **767** (98.3 %) |
+| research arcs with findings | **781** |
+| words of findings prose | **510,604** |
+| test lock files referenced | **520** |
+| arcs carrying an authored verdict | **768** (98.3 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 469 |
+| PROVED | 470 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B855`** (919 words, 1 locks)  
-The programme's genericity controls were family members: m003 is commensurable with m004 (index 12 in PSL(2,O_-3)), and m129 -- proposed by cc as the non-commensurable fix -- is index 12 in PSL(2,O_-1), the SILVER's class-mate. The family has TWO rows and the repo has no null non-commensurable with both. Also verified: m003 IS amphichiral (B296 calls it a non-amphichiral control), and by Reid no knot complement is commensurable with 4_1, so B438/B440/B443's '4_1 ~ 5_2 commensurability class' is backwards -- an error that conceals genericity rather than creating it.  
-`B855_wrong_null_audit/FINDINGS.md`
+**PROVED — `B856`** (915 words, 1 locks)  
+The hearing coupling h = u+ M_odd(R^m L^m) u obeys a PERIOD-5 law across the metallic family (bundle monodromy trace m^2+2), taking five exact golden-pentagonal values with |h|^2 in {1/(phi sqrt5), phi/sqrt5, 1}, the two golden values summing to 1 and h(5) = -1 exactly. The period collapse is NONTRIVIAL: ord(R)=ord(L)=15 and the welded matrix has period 15, but the listener's theta-odd quadratic form collapses it to 5. Re h is invariant across listener directions to 2e-16, so the coupling FORCES a value rather than carrying one. Separately: the proposed sin^2(theta_12)/JUNO reading is REFUTED ON KIND -- sin^2(theta) is a probability, the kind-correct |h|^2 = 1/(phi sqrt5) is excluded at -2.35 sigma, and the matching Re h = 1/(2phi) is the real part of an amplitude, in a 1-sigma window containing at least 17 natural candidates.  
+`B856_hearing_family_law/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

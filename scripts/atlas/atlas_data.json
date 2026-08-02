@@ -17860,6 +17860,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B856": {
+   "slug": "hearing family law",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "apolynomial",
+    "wrt_quantum",
+    "five_web"
+   ],
+   "refs": [
+    "B179",
+    "B261",
+    "B593"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B85": {
    "slug": "tower lynchpin",
    "motifs": [
