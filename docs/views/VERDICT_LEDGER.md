@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-759 of 777 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+764 of 777 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (464)
+## PROVED (467)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -476,8 +476,11 @@
 | `B830` | Computed the three previously cited classification facts: Q(zeta_3) and Q(i) intersect in Q (compositum degree 4), the Markov quiver is mutation-finite but not finite-type, and dim H^1 is finite (6 at E6). | yes | 2 |
 | `B832` | Wave 3's four-category calibration scored Fleiss κ=0.9305 (CI 0.83–1.00), passing the gate and refuting the seat's own prediction of a lower κ, and exposed a mixed-arc vocabulary gap behind 3 of 16 corpus disagreements. | yes | 1 |
 | `B833` | A direct count of 137 NEGATIVE-verdict arcs absent from the kill graph lands inside B801's estimated interval 55-168, and the '66% coverage' figure is shown to be an arc-level vs kill-level unit mismatch. | yes | 1 |
+| `B848` | The incoming handoff bundle's arrow/amphichirality census reproduces exactly (6/6) by two independent methods, but its stated metallic mechanism proves the wrong half: symmetry supplies the det=+1 (amphichirality) conjugator, not the det=-1 one 'no arrow' needs, and LLRLRR=[[2,5],[5,13]] is a symmetric counterexample with an arrow; the conclusion survives via disc=m^2+4 and the metallic mean's norm -1, and the arrow is GENERIC (56.6% of cyclic classes by length 10), not rare. | yes | 1 |
+| `B851` | B849's declared citation is CONFIRMED verbatim from the primary source: the Connes-Marcolli-Ramachandran system's symmetry group is the idele class group of K, acting freely and transitively on extremal KMS states, and Gal(K^ab/K) is the maximal abelian quotient of Gal(Kbar/K), so complex conjugation (which does not fix Q(sqrt-3)) is excluded; the conditional RELOCATES to whether the programme's system is BC/CMR-type and over which order. |  | 1 |
+| `B852` | B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 1e-9, doubling-map control exact to 1.3e-15), only the parabolic model shows a plateau, and inducing the parabolic point away (Gauss = Farey's jump transformation) destroys the transition -- an independent echo of B737-P2's Dehn-filling argument. NOT preregistered; footing is the exact positive control. |  | 1 |
 
-## NEGATIVE (257)
+## NEGATIVE (259)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -738,6 +741,8 @@
 | `B814` | The Gang-Kim-Yoon identity has no well-posed statement at the principal E6 point of 4_1: the component is a smooth 6-fold (15 vanishing cross-pairings, unobstructed to third order), not dimension 1. |  | 1 |
 | `B821` | The proposed self-audit motif failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%) and was reverted; the 21 blind arcs decompose as 14 stubs, 6 instrument arcs and 1 real gap, correcting B820's 'rotting' diagnosis. | yes | 1 |
 | `B824` | The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character variety' alone carrying 13.8%); it was reverted and B537 stays a recorded GAP. | yes | 1 |
+| `B849` | The claimed beta=1 SSB has NO order parameter at the manifold level -- CS(m004)=0 and amphichirality forces every orientation-odd invariant to 2-torsion (nine chiral controls confirm the instrument sees nonzero) -- and the nominated candidate (chirality = complex conjugation) is at the WRONG LEVEL, lying in Gal(K/Q) rather than Gal(K^ab/K); CONDITIONAL on the acting-group identification, confirmed in B851. |  | 1 |
+| `B850` | The foliation-algebra question has a computable shadow via length-spectrum density, and it CLOSES the lead: m004, its sister m003 and a non-arithmetic control all return DENSE, giving type III_1 (CONDITIONAL on the cited ratio-set reduction) GENERICALLY for every cusped hyperbolic 3-manifold, so the internal-clock route says nothing object-specific. |  | 1 |
 
 ## OPEN (29)
 

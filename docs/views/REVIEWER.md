@@ -20,9 +20,9 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **777** |
-| words of findings prose | **506,087** |
+| words of findings prose | **506,276** |
 | test lock files referenced | **516** |
-| arcs carrying an authored verdict | **759** (97.7 %) |
+| arcs carrying an authored verdict | **764** (98.3 %) |
 | recorded closures | **727** (560 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 464 |
-| NEGATIVE | 257 |
+| PROVED | 467 |
+| NEGATIVE | 259 |
 | OPEN | 29 |
 | RETRACTED | 9 |
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B833`** (609 words, 1 locks)  
-A direct count of 137 NEGATIVE-verdict arcs absent from the kill graph lands inside B801's estimated interval 55-168, and the '66% coverage' figure is shown to be an arc-level vs kill-level unit mismatch.  
-`B833_negative_routing/FINDINGS.md`
+**PROVED — `B852`** (997 words, 1 locks)  
+B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 1e-9, doubling-map control exact to 1.3e-15), only the parabolic model shows a plateau, and inducing the parabolic point away (Gauss = Farey's jump transformation) destroys the transition -- an independent echo of B737-P2's Dehn-filling argument. NOT preregistered; footing is the exact positive control.  
+`B852_parabolic_pressure/FINDINGS.md`
 
-**NEGATIVE — `B824`** (509 words, 1 locks)  
-The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character variety' alone carrying 13.8%); it was reverted and B537 stays a recorded GAP.  
-`B824_charvar_motif/FINDINGS.md`
+**NEGATIVE — `B850`** (1220 words, 1 locks)  
+The foliation-algebra question has a computable shadow via length-spectrum density, and it CLOSES the lead: m004, its sister m003 and a non-arithmetic control all return DENSE, giving type III_1 (CONDITIONAL on the cited ratio-set reduction) GENERICALLY for every cusped hyperbolic 3-manifold, so the internal-clock route says nothing object-specific.  
+`B850_length_spectrum_type/FINDINGS.md`
 
 **RETRACTED — `B780`** (851 words, 0 locks)  
 The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  

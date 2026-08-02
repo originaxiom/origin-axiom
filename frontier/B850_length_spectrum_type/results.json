@@ -12,8 +12,8 @@
    "relation": null
   },
   "maxcoeff": 1000000,
-  "n_irrational": 12,
-  "n_rational": 0,
+  "n_irrational": 10,
+  "n_rational": 2,
   "n_tested": 12,
   "verdict": "DENSE"
  },

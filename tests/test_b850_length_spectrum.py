@@ -42,15 +42,17 @@ def test_systole_positive_control():
 
 def test_pslq_ratio_test_can_detect_a_RATIONAL_ratio():
     """Non-vacuity: if the test could never return 'rational', DENSE would be unfalsifiable."""
-    l1 = mp.mpf("1.087070144995")
-    ok, rel = b0.ratio_is_rational(l1, 3 * l1)
+    with mp.workdps(40):
+        l1 = mp.mpf("1.087070144995")
+        ok, rel = b0.ratio_is_rational(l1, 3 * l1)
     assert ok, "a 3:1 ratio must be detected as rational"
     assert rel is not None
 
 
 def test_pslq_ratio_test_returns_irrational_for_a_transcendental_ratio():
-    l1 = mp.mpf("1.087070144995")
-    ok, _ = b0.ratio_is_rational(l1, l1 * mp.pi)
+    with mp.workdps(40):
+        l1 = mp.mpf("1.087070144995")
+        ok, _ = b0.ratio_is_rational(l1, l1 * mp.pi)
     assert not ok, "pi is irrational; the test must not manufacture a relation"
 
 
@@ -59,7 +61,44 @@ def test_m004_length_spectrum_is_DENSE():
     lens = b0.lengths_from_group(A, B, maxlen=6)
     d = b0.discreteness(lens)
     assert d["verdict"] == "DENSE"
-    assert d["n_irrational"] >= 10 and d["n_rational"] == 0
+    assert d["n_irrational"] >= 10
+    # n_rational is NOT gated at 0. The enumeration ranges over group elements, so g^2 and g^3
+    # appear with lengths exactly 2x and 3x the systole and contribute genuine integer ratios.
+    # The original lock asserted n_rational == 0 and PASSED FOR THE WRONG REASON: complex()
+    # truncated 40 dps to double precision, so true relations failed a 1e-25 residual bar and
+    # were miscounted as irrational. The full suite caught it; an isolated run never would.
+    assert d["n_rational"] >= 1, "powers of the systole element MUST give integer ratios"
+
+
+def test_the_verdict_is_independent_of_global_mpmath_precision():
+    """THE ORDER-DEPENDENT BUG. Precision is pinned locally with workdps; relying on the
+    module-level mp.mp.dps let any other test's global setting change this arc's verdict."""
+    import mpmath as _mp
+    A, B = b0.gens_m004()
+    lens = b0.lengths_from_group(A, B, maxlen=5)
+    saved = _mp.mp.dps
+    try:
+        seen = []
+        for dps in (15, 25, 40):
+            _mp.mp.dps = dps
+            d = b0.discreteness(lens)
+            seen.append((d["verdict"], d["n_rational"], d["n_irrational"]))
+        assert len(set(seen)) == 1, f"verdict moves with global precision: {seen}"
+    finally:
+        _mp.mp.dps = saved
+
+
+def test_the_rational_ratios_are_exactly_the_integer_multiples():
+    """They are powers, not coincidences -- so their presence is a check, not a blemish."""
+    import mpmath as _mp
+    A, B = b0.gens_m004()
+    lens = b0.lengths_from_group(A, B, maxlen=6)
+    l1 = lens[0]["ell"]
+    ints = [d for d in lens[1:13] if abs(d["ell"] / l1 - _mp.nint(d["ell"] / l1)) < 1e-20]
+    assert len(ints) >= 2, "g^2 and g^3 must appear in a length-6 enumeration"
+    for d in ints:
+        r = d["ell"] / l1
+        assert abs(r - _mp.nint(r)) < 1e-20 and _mp.nint(r) >= 2
 
 
 def test_the_arc_reports_the_binary_as_a_VERIFICATION_not_a_finding():

@@ -30,11 +30,26 @@ traces; lengths `ℓ = 2 log|λ|` at 40 dps.
 
 | | verdict | ratios tested | rational | irrational |
 |---|---|---|---|---|
-| **m004** | **DENSE** | 12 | 0 | 12 |
-| **m003** (arithmetic sister) | **DENSE** | 12 | 0 | 12 |
-| **m015 = 5₂** (non-arithmetic) | **DENSE** | 12 | 0 | 12 |
+| **m004** | **DENSE** | 12 | **2** | 10 |
+| **m003** (arithmetic sister) | **DENSE** | 12 | 2 | 10 |
+| **m015 = 5₂** (non-arithmetic) | **DENSE** | 12 | 2 | 10 |
 
-No integer relation `p·ℓᵢ + q·ℓ₁ = 0` within PSLQ coefficient bound 10⁶ for any ratio tested.
+**CORRECTED after the full suite caught an order-dependent bug — the first published table said
+"0 rational" and that was an artifact, not a fact.** Two failures compounded: `complex()` collapsed
+the intended 40 dps to double precision, and both `lengths_from_group` and `ratio_is_rational`
+read the **global** `mp.mp.dps`, so any other module's precision setting silently changed this
+arc's numbers. Genuine relations then failed a residual bar tighter than the achievable accuracy
+and were **miscounted as irrational**. Precision is now pinned locally with `workdps` and the
+tolerance scales with the coefficient size; the result is **identical at global dps 15, 25, 40 and
+60**, which is now locked.
+
+**The two rational ratios are exactly 2.0 and 3.0 — powers of the systole element.** The
+enumeration ranges over group elements, not primitive conjugacy classes, so g² and g³ appear with
+lengths exactly twice and three times the systole. **Rational ratios are therefore EXPECTED, not
+anomalies**, and they say nothing about the group generated, since powers already lie inside it.
+The criterion was always *"one irrational ratio ⟹ DENSE"* and **ten remain**, so **the verdict is
+unchanged** — but the original lock asserting `n_rational == 0` **passed for the wrong reason** and
+has been replaced by one requiring `n_rational ≥ 1`.
 
 **The seal pre-stated that this outcome is FORCED**, not discovered: geodesic flows on
 finite-volume hyperbolic manifolds are mixing, and mixing requires a non-lattice length spectrum.

@@ -50,8 +50,14 @@ def check_relator(A, B):
     return sp.simplify(wd * A - B * wd) == sp.zeros(2, 2)
 
 
-def lengths_from_group(A, B, maxlen=6):
-    """Exact traces -> real translation lengths at 40 dps, with per-length trace multiplicity."""
+def lengths_from_group(A, B, maxlen=6, dps=40):
+    """Exact traces -> real translation lengths, with per-length trace multiplicity.
+
+    Precision pinned LOCALLY. mp.mpf(str(...)) reads the GLOBAL mp.mp.dps, so without workdps
+    this function silently produced 17-digit lengths whenever another module had lowered it --
+    which is the second half of the same order-dependent bug: fixing ratio_is_rational alone
+    left the inputs to it globally dependent.
+    """
     alph = {"a": A, "A": A.inv(), "b": B, "B": B.inv()}
     alph = {k: sp.Matrix(2, 2, [sp.expand(x) for x in v]) for k, v in alph.items()}
     traces = set()
@@ -63,20 +69,23 @@ def lengths_from_group(A, B, maxlen=6):
             traces.add(sp.expand(sp.simplify(M.trace())))
 
     by_len = {}
-    for t in traces:
-        tc = mp.mpc(complex(sp.N(t, 40)))
-        if abs(tc.imag) < 1e-12 and abs(tc.real) <= 2 + 1e-12:
-            continue                                        # elliptic or parabolic: no translation
-        lam = (tc + mp.sqrt(tc * tc - 4)) / 2
-        if abs(lam) < 1:
-            lam = 1 / lam
-        ell = 2 * mp.log(abs(lam))
-        if ell < mp.mpf("1e-9"):
-            continue
-        key = mp.nstr(ell, 12)
-        by_len.setdefault(key, {"ell": ell, "traces": 0})["traces"] += 1
-    out = sorted(by_len.values(), key=lambda d: d["ell"])
-    return out
+    with mp.workdps(dps + 5):
+        for t in traces:
+            # NOT complex(): that collapses the precision to double (~16 digits), which made
+            # genuine relations fail the residual test and be miscounted as irrational.
+            tn = sp.N(t, dps + 5)
+            tc = mp.mpc(mp.mpf(str(sp.re(tn))), mp.mpf(str(sp.im(tn))))
+            if abs(tc.imag) < 1e-12 and abs(tc.real) <= 2 + 1e-12:
+                continue                                    # elliptic or parabolic: no translation
+            lam = (tc + mp.sqrt(tc * tc - 4)) / 2
+            if abs(lam) < 1:
+                lam = 1 / lam
+            ell = 2 * mp.log(abs(lam))
+            if ell < mp.mpf("1e-9"):
+                continue
+            key = mp.nstr(ell, 12)
+            by_len.setdefault(key, {"ell": ell, "traces": 0})["traces"] += 1
+    return sorted(by_len.values(), key=lambda d: d["ell"])
 
 
 def numeric_group(mat_a, mat_b, maxlen=6):
@@ -118,21 +127,38 @@ def numeric_group(mat_a, mat_b, maxlen=6):
     return sorted(by_len.values(), key=lambda d: d["ell"])
 
 
-def ratio_is_rational(l1, l2, maxcoeff=10**6):
-    """PSLQ for an integer relation p*l2 + q*l1 = 0. None means no relation within the bound."""
-    rel = mp.pslq([l2, l1], maxcoeff=maxcoeff, maxsteps=2000)
-    if rel is None:
-        return False, None
-    p, q = rel
-    if p == 0 and q == 0:
-        return False, None
-    # verify the relation actually holds -- pslq can return a near-relation
-    resid = abs(p * l2 + q * l1)
-    return (resid < mp.mpf("1e-25")), [int(p), int(q)]
+def ratio_is_rational(l1, l2, maxcoeff=10**6, dps=40):
+    """PSLQ for an integer relation p*l2 + q*l1 = 0. None means no relation within the bound.
+
+    Precision is pinned LOCALLY with workdps. Relying on the module-level mp.mp.dps made this
+    function's verdict depend on whatever any other module had last set globally -- a real
+    order-dependent failure that the full suite caught and an isolated run never would.
+
+    The residual tolerance is scaled to the coefficient size: a relation with coefficients up
+    to `maxcoeff` amplifies the inputs' own error by that factor, so a fixed 1e-25 bar rejects
+    TRUE relations and silently undercounts them.
+    """
+    with mp.workdps(dps):
+        rel = mp.pslq([l2, l1], maxcoeff=maxcoeff, maxsteps=2000)
+        if rel is None:
+            return False, None
+        p, q = rel
+        if p == 0 and q == 0:
+            return False, None
+        resid = abs(p * l2 + q * l1)
+        tol = mp.mpf(10) ** (-(dps - 8)) * max(1, abs(p), abs(q))
+        return bool(resid < tol), [int(p), int(q)]
 
 
 def discreteness(lengths, n_test=12, maxcoeff=10**6):
-    """DISCRETE iff EVERY ratio l_i/l_1 is rational. One irrational ratio => DENSE."""
+    """DISCRETE iff EVERY ratio l_i/l_1 is rational. One irrational ratio => DENSE.
+
+    RATIONAL RATIOS ARE EXPECTED, NOT ANOMALIES. The enumeration ranges over group elements,
+    not primitive conjugacy classes, so g^2 and g^3 appear alongside g with lengths exactly
+    2x and 3x the systole. Those contribute exact integer ratios and say nothing about the
+    group generated -- powers are already inside it. The verdict therefore turns on whether
+    ANY ratio is irrational, and n_rational is reported for transparency, not gated on.
+    """
     if len(lengths) < 2:
         return dict(verdict="UNDETERMINED", reason="fewer than two lengths")
     l1 = lengths[0]["ell"]
