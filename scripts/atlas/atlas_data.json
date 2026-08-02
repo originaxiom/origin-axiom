@@ -17867,6 +17867,7 @@
     "trace_map",
     "metallic",
     "golden",
+    "torsion",
     "apolynomial",
     "wrt_quantum",
     "five_web"
@@ -17874,11 +17875,30 @@
    "refs": [
     "B179",
     "B261",
-    "B593"
+    "B593",
+    "B641"
    ],
-   "obstacle": "observable",
+   "obstacle": "measure",
    "obstacle_conf": 4,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B857": {
+   "slug": "voice splitting",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B737",
+    "B739",
+    "B797"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B85": {

@@ -93,3 +93,34 @@ def test_the_look_elsewhere_count_is_recorded():
 def test_the_arc_states_it_has_no_dictionary():
     assert "No dictionary" in _F
     assert "No row waits on JUNO" in _F
+
+
+# ---------------------------------------------------------------------------------------
+# The corrections (applied same-day). These lock the arc against re-inflating.
+# ---------------------------------------------------------------------------------------
+def test_prior_art_B641_is_cited():
+    """B641 banked the ear-independence at 2.14e-60 over ALL 360 elements, 16 days earlier.
+    This arc reported it at 2e-16 over one word family. The attribution must stay."""
+    assert "B641" in _F and "2.14" in _F
+    assert "360" in _F
+    assert "prior-art" in _F.lower() or "PRIOR ART" in _F
+
+
+def test_h5_is_recorded_as_double_counted_not_a_finding():
+    assert "bare-weld value" in _F
+    assert "They are one" in _F or "They\nare one" in _F_RAW
+
+
+def test_the_mechanism_correction_is_recorded():
+    assert "odd-plane restriction" in _F
+    assert "untwisted" in _F
+
+
+def test_the_scope_correction_is_recorded():
+    assert "class" in _F and "balanced" in _F
+    assert "thirds" in _F, "the unbalanced families give thirds, never integers"
+
+
+def test_the_resolvent_is_scoped_to_m_equals_1():
+    assert "fails at every m" in _F
+    assert "carries no information" in _F

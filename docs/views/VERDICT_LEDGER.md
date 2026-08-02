@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-768 of 781 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+769 of 782 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (470)
+## PROVED (471)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -482,6 +482,7 @@
 | `B853` | The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredients are not missing but split across the object's two faces: the order parameter m = sqrt5/3, B6's derived potential, its Galois-conjugate vacua and critical values, and the thermodynamic barrier ALL live on the Q(sqrt5) hearing face and are FIXED by the Q(sqrt-3) involution that Cl(O_4)/Frob_7 acts by, while the object-specific class group (h=2 vs m003's h=1) lives on the being face. |  | 2 |
 | `B855` | The programme's genericity controls were family members: m003 is commensurable with m004 (index 12 in PSL(2,O_-3)), and m129 -- proposed by cc as the non-commensurable fix -- is index 12 in PSL(2,O_-1), the SILVER's class-mate. The family has TWO rows and the repo has no null non-commensurable with both. Also verified: m003 IS amphichiral (B296 calls it a non-amphichiral control), and by Reid no knot complement is commensurable with 4_1, so B438/B440/B443's '4_1 ~ 5_2 commensurability class' is backwards -- an error that conceals genericity rather than creating it. |  | 1 |
 | `B856` | The hearing coupling h = u+ M_odd(R^m L^m) u obeys a PERIOD-5 law across the metallic family (bundle monodromy trace m^2+2), taking five exact golden-pentagonal values with |h|^2 in {1/(phi sqrt5), phi/sqrt5, 1}, the two golden values summing to 1 and h(5) = -1 exactly. The period collapse is NONTRIVIAL: ord(R)=ord(L)=15 and the welded matrix has period 15, but the listener's theta-odd quadratic form collapses it to 5. Re h is invariant across listener directions to 2e-16, so the coupling FORCES a value rather than carrying one. Separately: the proposed sin^2(theta_12)/JUNO reading is REFUTED ON KIND -- sin^2(theta) is a probability, the kind-correct |h|^2 = 1/(phi sqrt5) is excluded at -2.35 sigma, and the matching Re h = 1/(2phi) is the real part of an amplitude, in a 1-sigma window containing at least 17 natural candidates. |  | 1 |
+| `B857` | LAW_MAP's H-EAR clause (iii) SILENCE rested on a GREP ('zero golden markers' over B737/B739 artifacts). The exact fact replacing it: 5 is INERT in Q(sqrt-3), so a_K(5) = 0 -- the being voice's Dirichlet series has no coefficient at the hearing prime -- while 3 is RAMIFIED and spoken at every power; and the blindness is MUTUAL, since 3 is inert in Q(sqrt5). But the SCOPE was wrong: 5 SPLITS in Q(i) with a(5) = 2, so the SILVER's voice says 5 perfectly. The phenomenon is a SPLITTING TYPE of one prime in one field, NOT a property of voices. The real blind spot -- Hecke eigenvalues of the 17 certified Gamma_41 newforms -- remains uncomputed. |  | 1 |
 
 ## NEGATIVE (260)
 

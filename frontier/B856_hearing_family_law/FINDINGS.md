@@ -5,6 +5,54 @@ cc banking seat, 2026-08-02. Mathematics scope; nothing to `CLAIMS.md`; Gate 5 u
 predictions of nothing, so the honest footing is that they reproduce B593 exactly at m = 1 and the
 period claim is checked against the group orders.
 
+
+## 0. CORRECTIONS — applied 2026-08-02, same day, before this arc was pushed
+
+**Five defects, found by self-audit and by an organ scan. Two are prior-art failures of exactly the
+kind this repo's process finding names.**
+
+**C1 — PRIOR ART: the observer-invariance is B641's, and B641 is stronger.** This arc reported
+*"Re h is invariant across listener directions to 2.2×10⁻¹⁶."* **B641 (2026-07-16, sealed prereg
+`b139e03a`, five gates at 60 digits) already banks**: *"Re(ζ⁻¹·ū M_odd u), ζ² = det, is
+**ear-independent on ALL 360 elements** — max deviation **2.14×10⁻⁶⁰** over 360 × 6 exact ears."*
+**Sixteen days earlier, at 44 more digits, over the whole group rather than one word family.**
+And B641's **five-tone census** — |tone| ∈ {0, **1/(2φ)**, **1/2**, φ/2, **1**}, multiplicities
+{90, 72, 120, 72, 6} — **contains this arc's Re h values as a subset.** This arc re-derived a
+5-point section of a 360-element enumeration and read the section's local features as new laws.
+
+**What survives as this arc's own:** that the **metallic family word RᵐLᵐ traverses those tones with
+period 5**, and the **full modulus** |h|² ∈ {1/(φ√5), φ/√5, 1} with product 1/5. B641 normalises by
+ζ and censuses |tone|; this arc does not normalise and tracks the family index. Related, not
+identical — but the invariance and the tone values are **B641's, and are cited here as such.**
+
+**C2 — h(5) = −1 is NOT an independent finding.** It is the **bare-weld value**: R⁵L⁵ acts as
+**−I on the odd plane**, verified directly. Period-5 and h(5) = −1 were listed as two facts. **They
+are one.** Double-counting outputs is the exact DOF inflation that killed 21 candidates, committed
+in the arc arguing for DOF discipline.
+
+**C3 — the mechanism was misattributed.** This arc implied the conjugation twist C drives the
+collapse. It does not: the **untwisted** weld also has period 5, and the **2×2 block on the odd
+plane itself** has period 5 while the full matrix has 15. **The collapse is the odd-plane
+restriction.**
+
+**C4 — the scope was wrong in both directions.** Period 5 and the |h|² golden set are **class**
+properties — every two-block word family with equal growth rate collapses (RᵐLᵐ, LᵐRᵐ, R²ᵐL²ᵐ,
+RᵐLᵐ⁺¹, Rᵐ⁺¹Lᵐ all 15→5), while three-block and unequal-growth families do not. **What is
+specific is the phase quantization**: arg/(π/10) ∈ {3, −7, 7, −3, −10}, all integers, for
+**balanced** words (#R = #L); the unbalanced ones give **thirds** and never integers.
+
+**C5 — the resolvent identity, added and correctly scoped.** v₁, v₂ **are** the eigenvalues of
+(I+M)⁻¹, with det(I+M) = Δ(−1) = det(4₁) = **5** — a standard fibered-knot identity, and it
+**explains** the golden-point values from the Alexander polynomial. But: **det(I+M) = tr(M)+2 for
+every M ∈ SL(2)**, so the eigenvalue **sum is always 1 and carries no information**; only the
+product does, and `det(I+Mₘ) = m²+4` gives 5, 8, 13, 20, 29 while |h|²'s product stays **1/5
+forever**. **The identity holds at m = 1 and fails at every m ≥ 2.** Also `φ²+1 = φ+2 = φ√5` are
+the same number, so `v₁ = 1/(φ²+1)` is a rewriting, not a new formula.
+
+**Net: the period-5 traversal and the |h|² product stand as this arc's contribution. The
+observer-invariance and the tone values are B641's. One headline fact is deleted as double-counted,
+the mechanism is corrected, and the scope is narrowed to phase quantization under balance.**
+
 ## 1. The law
 
 B593 computed the coupling number `h = u₃† M_odd(g) u₃` at the **golden weld only** (g = RL). The
