@@ -1,4 +1,8 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+# (B848: absolute machine paths replaced by <site-packages>/ and <repo>/ placeholders.
+#  Captured stdout, banked by B840; the content below is unaltered. The paths tripped
+#  tests/test_no_hardcoded_paths.py -- a tracked log leaks machine layout and is not
+#  reproducible on another checkout.)
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 computing the bronze SL(2) trace field (b++RRRLLL, self-polished holonomy)...
   trace-field primitive element found: degree 8
@@ -9,6 +13,6 @@ membership-classifier controls:
 m=1 pipeline validation (Q(sqrt-3); must be sealed):
   {'m': 1, 'irreducible': 13, 'escapes': 13, 'reducible_ignored': 43, 'polish_failures': 0}
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B590_revival_remainders/s031_m3_sealing.py", line 368, in <module>
+  File "<repo>/frontier/B590_revival_remainders/s031_m3_sealing.py", line 368, in <module>
     assert r1["irreducible"] >= 5 and r1["escapes"] == 0, "m=1 validation FAILED"
 AssertionError: m=1 validation FAILED

@@ -280,6 +280,38 @@ Both were **tested in a clean `git clone`**, and both were initially broken:
   genuinely cannot verify git facts, and a fabricated failure would be worse. It is recorded here
   so nobody rediscovers it as a surprise.
 
+## A correction must be propagated to the document's companions (B848, 2026-08-02)
+
+A multi-document delivery arrived where **the same failure occurred twice**: a claim was corrected
+in one document, and the companions shipped in the *same bundle* still carried the withdrawn
+version.
+
+- the eigenvalue count was corrected to **17** in the final handoff's own error list, while
+  **four of six documents still said 43**;
+- the Riley polynomial was corrected in the master handoff, while the E6 probe still stated the
+  form that correction withdrew.
+
+**Both corrections were honestly recorded. Neither reached the documents that used them.** A
+reader opening any single companion gets the withdrawn claim with no signal that it is withdrawn —
+which is strictly worse than never having found the error, because the error now carries the
+authority of a document that lists its own mistakes.
+
+**Rule:** when a claim is corrected, the correction is not complete until every document in the
+same delivery that *uses* that claim has been updated or explicitly marked. An error list is a
+record, not a fix. Same shape as `RETRACTED` withdrawing only its **own** headline.
+
+## A true identity can prove the wrong half (B848, 2026-08-02)
+
+`S A S⁻¹ = adj(A)` for symmetric A is true, was verified symbolically, and was used to conclude
+"no arrow". It cannot: `det S = +1`, so it supplies the **amphichirality** conjugator, while "no
+arrow" needs the **det = −1** one. The counterexample was already inside the same document's own
+table — a symmetric matrix with an arrow.
+
+**Rule:** when an argument establishes an existence claim, check *which* of the case's two
+branches the exhibited object lands in. A correct conclusion resting on a mechanism that proves a
+neighbouring statement is the hardest defect class to see, because every individual step verifies.
+This is the "hypothesis nobody listed" failure, and it survives symbolic verification.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

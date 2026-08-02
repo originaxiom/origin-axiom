@@ -3,6 +3,17 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-02): B848 — the incoming handoff bundle, verified not merged.** Six documents
+arrived from the review seat. The headline (the arrow/amphichirality census) **reproduces exactly,
+6 of 6, by two independent methods** — the arrow is real at trace 15 and arithmetic bundles have
+both conjugators. **But one stated mechanism proves the wrong half**: "symmetric ⟹ no arrow" is
+refuted by the bundle's own `LLRLRR = [[2,5],[5,13]]`, which is symmetric and *has* an arrow;
+symmetry gives amphichirality. The conclusion survives via the real mechanism — disc = m²+4 and
+the metallic mean has norm −1. **New: base rates.** The arrow first appears at length 6 and is
+**56.6% by length 10** — *generic, not rare*, which sharpens the trade-off: arithmeticity is the
+measure-zero condition. Also caught: **the eigenvalue count is 17, and four of six documents say
+43**; the Riley correction never propagated to the E₆ probe; "Ship P5" names a withdrawn paper.
+
 **LATEST (2026-07-21): B742 — the negatives hunt (P1).** The audit seat re-adjudicated every
 banked negative: 30 old kills now stand on computed facts instead of citations; 2 kills DIED on
 recompute (B58's "untestable" claim and B225's octahedral-parent kill — both reopen as OPEN,
