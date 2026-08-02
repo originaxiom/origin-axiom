@@ -113,10 +113,24 @@ priors is the kind that most needs the seal, and the seal is why the Cell 3 corr
   tower, the parabolic pressure function, the cascade count, controls, exponents).
 - **Nothing to `CLAIMS.md`.** No value, no coupling, no physics.
 
+## 4a. UPDATE — the owed lit-gate RAN (B851)
+
+**Cell 4's citation is CONFIRMED from the primary source, verbatim, in both directions.**
+Connes–Marcolli–Ramachandran: *"the Idele class group as group of symmetries"*; *"The action of
+the symmetry group I_K/K\* on E_β is then free and transitive"*; *"Gal(K^ab/K) … the maximal
+abelian quotient of the absolute Galois group Gal(K̄/K) of K"*. Counter-evidence sought and not
+found — *"complex conjugation"* occurs **zero times** in that paper.
+
+**The conditional does not vanish; it relocates**, and to a sharper place: the only remaining
+assumption is **whether the programme's β=1 system IS a BC/CMR-type system for ℚ(√−3)** — an
+**in-repo** question about B723, not a literature one. And the evidence for the identification is
+strong (CMR's free-and-transitive action is exactly B700's simply-transitive torsor), which makes
+the level error **bite harder, not softer**. See `frontier/B851_bc_litgate/`.
+
 ## Carried forward
 
-1. **Lit-gate on Cell 4's citation** — the single highest-value follow-up, because the whole
-   LEVEL MISMATCH rests on it.
+1. ~~**Lit-gate on Cell 4's citation**~~ — **DONE, B851: confirmed.** Superseded by: *test whether
+   B723's system is BC/CMR-type for ℚ(√−3)*, which is now the sole load-bearing assumption.
 2. **Prior-art gate on the m003/m004 CS separation** before it is described as anything new.
 3. **T2 next** (the geodesic length spectrum as a computable shadow of the III₁ question) — and
    note that the **370 geodesic lengths are not in main**, the same phantom pattern as the 43

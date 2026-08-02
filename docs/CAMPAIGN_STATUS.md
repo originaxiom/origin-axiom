@@ -3,6 +3,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-02): B851 — the owed lit-gate paid, and it strengthens B849.** B849's LEVEL
+MISMATCH rested on a declared citation; **P5 died from an unrun gate eight days ago**, so this went
+first. **CONFIRMED verbatim from the authors' own PDF**: the acting group is the idele class group
+≅ Gal(K^ab/K), acting **free and transitively** on extremal KMS states — automorphisms that *fix K*,
+which complex conjugation does not. Counter-evidence sought: *"complex conjugation"* appears **zero
+times** in CMR. **The conditional relocates** to an in-repo question — is B723's system BC-type for
+ℚ(√−3)? — and the free-transitive action *matching B700's torsor* makes the level error bite
+harder. Diagnosis: for BC over **ℚ** conjugation IS a symmetry (−1 ∈ Ẑ\*); the reframe looks like
+ℚ-case intuition imported where the group is strictly smaller.
+
 **LATEST (2026-08-02): B850 — the reframe's last architecture-changing lead closes.** The bundle
 called the foliation-algebra question the only item that could change the reframe's architecture,
 and filed it as one sentence to a specialist. It has a **computable shadow**: length-spectrum
