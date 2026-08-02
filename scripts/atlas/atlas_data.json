@@ -17724,6 +17724,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B850": {
+   "slug": "length spectrum type",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B451",
+    "B723",
+    "B849"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B85": {
    "slug": "tower lynchpin",
    "motifs": [

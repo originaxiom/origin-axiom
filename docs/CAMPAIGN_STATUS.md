@@ -3,6 +3,17 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-02): B850 — the reframe's last architecture-changing lead closes.** The bundle
+called the foliation-algebra question the only item that could change the reframe's architecture,
+and filed it as one sentence to a specialist. It has a **computable shadow**: length-spectrum
+density → type. Computed from exact ℤ[ω] traces (systole control passes), **m004, its sister, and a
+non-arithmetic control all come back DENSE ⟹ III₁ (CONDITIONAL)**. The binary was **pre-stated as
+forced** by mixing, so it is a verification — **the product is GENERIC**: the apparatus can be
+internal for *every* cusped hyperbolic 3-manifold, so it says nothing about m004. **Three for three
+now** — field-level mechanism, mis-levelled order parameter, generic clock. *The reframe keeps being
+right and keeps not being about this object.* A Cell-4 bug that **inverted its own verdict** was
+caught and is locked out.
+
 **LATEST (2026-08-02): B849 — the SSB reframe finally gets a falsifier.** The fifteen-round sweep
 returned "contradicts nothing", which is a NULL not a pass. This arc seals criteria first and asks
 the question SSB cannot dodge: **is there an order parameter?** Answer at the manifold level: **no**
