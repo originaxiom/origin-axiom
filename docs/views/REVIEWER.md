@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **776** |
-| words of findings prose | **505,090** |
-| test lock files referenced | **515** |
-| arcs carrying an authored verdict | **759** (97.8 %) |
+| research arcs with findings | **777** |
+| words of findings prose | **506,087** |
+| test lock files referenced | **516** |
+| arcs carrying an authored verdict | **759** (97.7 %) |
 | recorded closures | **727** (560 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger

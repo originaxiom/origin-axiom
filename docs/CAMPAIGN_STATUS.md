@@ -3,6 +3,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-02): B852 — B451's instrument was structurally incapable, demonstrated.** The
+bundle *diagnosed* that B451 computed a horseshoe where the content lives in the cusp's parabolic
+dynamics. Now shown: **uniformly hyperbolic pressure is analytic** (second differences 1e−9, exact
+control passes at 1.3e−15), **only the parabolic model has a plateau**, and **inducing the parabolic
+point away destroys the transition** — the Gauss/Farey pair, an independent echo of B737-P2's
+Dehn-filling argument. So B451's "no transition" was *guaranteed by the model*, not discovered.
+**This arc carries NO SEAL and says so** — the numerics were explored first, and a retro-seal would
+be worse than none. It also refuses, in locked prose, any reading of the Farey map's s=1 as a
+statement about m004.
+
 **LATEST (2026-08-02): B851 — the owed lit-gate paid, and it strengthens B849.** B849's LEVEL
 MISMATCH rested on a declared citation; **P5 died from an unrun gate eight days ago**, so this went
 first. **CONFIRMED verbatim from the authors' own PDF**: the acting group is the idele class group

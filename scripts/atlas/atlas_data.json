@@ -17767,6 +17767,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B852": {
+   "slug": "parabolic pressure",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein"
+   ],
+   "refs": [
+    "B451",
+    "B737",
+    "B849",
+    "B850",
+    "P2"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B85": {
    "slug": "tower lynchpin",
    "motifs": [
