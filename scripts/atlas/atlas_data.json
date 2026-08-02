@@ -17682,6 +17682,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B849": {
+   "slug": "order parameter",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B723",
+    "B790",
+    "B803",
+    "P5"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B84": {
    "slug": "sl5 gauge barrier",
    "motifs": [

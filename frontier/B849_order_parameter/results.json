@@ -1,0 +1,207 @@
+{
+ "cell1_2_panel": [
+  {
+   "CS": 1.7763568394002505e-15,
+   "CS_class": "0",
+   "CS_is_two_torsion": true,
+   "CS_is_zero": true,
+   "amphichiral": true,
+   "name": "m004",
+   "note": "the object (figure-eight complement)",
+   "symmetry_group": "D4",
+   "volume": 2.0298832128193074
+  },
+  {
+   "CS": 4.934802200544681,
+   "CS_class": "pi^2/2 (the nonzero 2-torsion class)",
+   "CS_is_two_torsion": true,
+   "CS_is_zero": false,
+   "amphichiral": true,
+   "name": "m003",
+   "note": "the sister",
+   "symmetry_group": "Z/2 + Z/4",
+   "volume": 2.029883212819308
+  },
+  {
+   "CS": -3.024128376509301,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "m015",
+   "note": "5_2 knot complement -- chiral, expected CS != 0",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 2.828122088330783
+  },
+  {
+   "CS": -2.2529672263437934,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "m006",
+   "note": "cusped census",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 2.568970600936709
+  },
+  {
+   "CS": -2.6818349742008882,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "m007",
+   "note": "cusped census",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 2.5689706009367086
+  },
+  {
+   "CS": -0.4112335167120569,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "m009",
+   "note": "cusped census",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 2.6667447834490603
+  },
+  {
+   "CS": 4.523568683832623,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "m010",
+   "note": "cusped census",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 2.666744783449059
+  },
+  {
+   "CS": -3.7867059875023172,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "m011",
+   "note": "cusped census",
+   "symmetry_group": "Z/2",
+   "volume": 2.7818339123960807
+  },
+  {
+   "CS": -1.1102230246251565e-15,
+   "CS_class": "0",
+   "CS_is_two_torsion": true,
+   "CS_is_zero": true,
+   "amphichiral": true,
+   "name": "4_1",
+   "note": "figure-eight by knot name (same manifold, different route in)",
+   "symmetry_group": "D4",
+   "volume": 2.0298832128193047
+  },
+  {
+   "CS": -3.024128376509302,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "5_2",
+   "note": "5_2 by knot name -- chiral",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 2.8281220883307814
+  },
+  {
+   "CS": 3.0788629018411733,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "6_1",
+   "note": "6_1 knot complement",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 3.1639632288831434
+  },
+  {
+   "CS": -3.9970417074593056,
+   "CS_class": "free",
+   "CS_is_two_torsion": false,
+   "CS_is_zero": false,
+   "amphichiral": false,
+   "name": "6_2",
+   "note": "6_2 knot complement",
+   "symmetry_group": "Z/2 + Z/2",
+   "volume": 4.400832516123044
+  },
+  {
+   "CS": -4.440892098500626e-16,
+   "CS_class": "0",
+   "CS_is_two_torsion": true,
+   "CS_is_zero": true,
+   "amphichiral": true,
+   "name": "6_3",
+   "note": "6_3 knot complement -- amphichiral knot",
+   "symmetry_group": "D4",
+   "volume": 5.693021091281299
+  },
+  {
+   "CS": -6.661338147750939e-16,
+   "CS_class": "0",
+   "CS_is_two_torsion": true,
+   "CS_is_zero": true,
+   "amphichiral": true,
+   "name": "8_9",
+   "note": "8_9 knot complement",
+   "symmetry_group": "D4",
+   "volume": 7.588180223641622
+  }
+ ],
+ "cell3_lemma": {
+  "amphichiral_all_two_torsion": true,
+  "amphichiral_all_zero": false,
+  "amphichiral_classes": {
+   "4_1": "0",
+   "6_3": "0",
+   "8_9": "0",
+   "m003": "pi^2/2 (the nonzero 2-torsion class)",
+   "m004": "0"
+  },
+  "amphichiral_violations": [],
+  "chiral_with_FREE_CS": [
+   "m015",
+   "m006",
+   "m007",
+   "m009",
+   "m010",
+   "m011",
+   "5_2",
+   "6_1",
+   "6_2"
+  ],
+  "chiral_with_nonzero_CS": [
+   "m015",
+   "m006",
+   "m007",
+   "m009",
+   "m010",
+   "m011",
+   "5_2",
+   "6_1",
+   "6_2"
+  ],
+  "n_amphichiral": 5,
+  "n_chiral": 9,
+  "positive_control_passes": true
+ },
+ "cell4_level": {
+  "CITED_acting_group_is_Gal_Kab_over_K": null,
+  "citation_status": "DECLARED CITATION, NOT VERIFIED HERE. That Gal(K^ab/K) permutes the extremal KMS states of a Bost-Connes-type system over an imaginary quadratic field is attributed to the Bost-Connes / Connes-Marcolli-Ramachandran construction and has NOT been checked in this sandbox. Every verdict resting on it carries CONDITIONAL.",
+  "complex_conjugation_fixes_K": false,
+  "complex_conjugation_has_order_2": true,
+  "conj_of_sqrt_m3": "-sqrt(3)*I",
+  "conjugation_in_Gal_K_over_Q": true,
+  "conjugation_in_Gal_Kab_over_K": false
+ },
+ "level_verdict": "LEVEL MISMATCH (CONDITIONAL on the cited acting group)",
+ "manifold_verdict": "ORDER PARAMETER ABSENT (manifold level)",
+ "seal": "facb8c0355d8b422"
+}

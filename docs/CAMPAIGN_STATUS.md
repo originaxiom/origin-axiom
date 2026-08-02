@@ -3,6 +3,18 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-02): B849 — the SSB reframe finally gets a falsifier.** The fifteen-round sweep
+returned "contradicts nothing", which is a NULL not a pass. This arc seals criteria first and asks
+the question SSB cannot dodge: **is there an order parameter?** Answer at the manifold level: **no**
+— CS(m004) = 0 and amphichirality forces every orientation-odd invariant to 2-torsion (nine chiral
+controls confirm the instrument can see nonzero). **And the nominated order parameter is at the
+wrong level:** chirality is complex conjugation, which does not fix ℚ(√−3), so it lives in Gal(K/ℚ)
+and *not* in Gal(K^ab/K) — the group that permutes extremal KMS states. **CONDITIONAL**: that last
+step is a declared citation, not verified here, and a lit-gate is owed. **The reframe is not
+refuted — it is located:** it must supply a state-level order parameter. Two by-products: the seal
+caught cc's own code testing something narrower than the sealed criterion, and m003/m004 turn out to
+be separated by their 2-torsion CS class (0 vs π²/2) despite equal volume and shared amphichirality.
+
 **LATEST (2026-08-02): B848 — the incoming handoff bundle, verified not merged.** Six documents
 arrived from the review seat. The headline (the arrow/amphichirality census) **reproduces exactly,
 6 of 6, by two independent methods** — the arrow is real at trace 15 and arithmetic bundles have
