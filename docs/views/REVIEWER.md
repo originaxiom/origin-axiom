@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **777** |
-| words of findings prose | **506,276** |
-| test lock files referenced | **516** |
-| arcs carrying an authored verdict | **764** (98.3 %) |
+| research arcs with findings | **778** |
+| words of findings prose | **507,570** |
+| test lock files referenced | **517** |
+| arcs carrying an authored verdict | **765** (98.3 %) |
 | recorded closures | **729** (562 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 467 |
+| PROVED | 468 |
 | NEGATIVE | 259 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B852`** (997 words, 1 locks)  
-B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 1e-9, doubling-map control exact to 1.3e-15), only the parabolic model shows a plateau, and inducing the parabolic point away (Gauss = Farey's jump transformation) destroys the transition -- an independent echo of B737-P2's Dehn-filling argument. NOT preregistered; footing is the exact positive control.  
-`B852_parabolic_pressure/FINDINGS.md`
+**PROVED — `B853`** (1294 words, 2 locks)  
+The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredients are not missing but split across the object's two faces: the order parameter m = sqrt5/3, B6's derived potential, its Galois-conjugate vacua and critical values, and the thermodynamic barrier ALL live on the Q(sqrt5) hearing face and are FIXED by the Q(sqrt-3) involution that Cl(O_4)/Frob_7 acts by, while the object-specific class group (h=2 vs m003's h=1) lives on the being face.  
+`B853_two_faces_ssb/FINDINGS.md`
 
 **NEGATIVE — `B850`** (1220 words, 1 locks)  
 The foliation-algebra question has a computable shadow via length-spectrum density, and it CLOSES the lead: m004, its sister m003 and a non-arithmetic control all return DENSE, giving type III_1 (CONDITIONAL on the cited ratio-set reduction) GENERICALLY for every cusped hyperbolic 3-manifold, so the internal-clock route says nothing object-specific.  

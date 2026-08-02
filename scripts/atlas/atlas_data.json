@@ -17786,6 +17786,34 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B853": {
+   "slug": "two faces ssb",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "apolynomial",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B261",
+    "B6",
+    "B711",
+    "B737",
+    "B848",
+    "B849",
+    "B852"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B85": {
    "slug": "tower lynchpin",
    "motifs": [
