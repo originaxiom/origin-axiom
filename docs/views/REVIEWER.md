@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **779** |
-| words of findings prose | **508,770** |
-| test lock files referenced | **518** |
-| arcs carrying an authored verdict | **766** (98.3 %) |
+| research arcs with findings | **780** |
+| words of findings prose | **509,689** |
+| test lock files referenced | **519** |
+| arcs carrying an authored verdict | **767** (98.3 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 468 |
+| PROVED | 469 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B853`** (1294 words, 2 locks)  
-The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredients are not missing but split across the object's two faces: the order parameter m = sqrt5/3, B6's derived potential, its Galois-conjugate vacua and critical values, and the thermodynamic barrier ALL live on the Q(sqrt5) hearing face and are FIXED by the Q(sqrt-3) involution that Cl(O_4)/Frob_7 acts by, while the object-specific class group (h=2 vs m003's h=1) lives on the being face.  
-`B853_two_faces_ssb/FINDINGS.md`
+**PROVED — `B855`** (919 words, 1 locks)  
+The programme's genericity controls were family members: m003 is commensurable with m004 (index 12 in PSL(2,O_-3)), and m129 -- proposed by cc as the non-commensurable fix -- is index 12 in PSL(2,O_-1), the SILVER's class-mate. The family has TWO rows and the repo has no null non-commensurable with both. Also verified: m003 IS amphichiral (B296 calls it a non-amphichiral control), and by Reid no knot complement is commensurable with 4_1, so B438/B440/B443's '4_1 ~ 5_2 commensurability class' is backwards -- an error that conceals genericity rather than creating it.  
+`B855_wrong_null_audit/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

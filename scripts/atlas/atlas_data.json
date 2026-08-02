@@ -17832,6 +17832,34 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B855": {
+   "slug": "wrong null audit",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "B282",
+    "B289",
+    "B290",
+    "B296",
+    "B438",
+    "B440",
+    "B443",
+    "B467",
+    "B723",
+    "B727",
+    "B803"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B85": {
    "slug": "tower lynchpin",
    "motifs": [

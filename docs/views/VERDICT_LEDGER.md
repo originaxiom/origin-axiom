@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-766 of 779 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+767 of 780 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (468)
+## PROVED (469)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -480,6 +480,7 @@
 | `B851` | B849's declared citation is CONFIRMED verbatim from the primary source: the Connes-Marcolli-Ramachandran system's symmetry group is the idele class group of K, acting freely and transitively on extremal KMS states, and Gal(K^ab/K) is the maximal abelian quotient of Gal(Kbar/K), so complex conjugation (which does not fix Q(sqrt-3)) is excluded; the conditional RELOCATES to whether the programme's system is BC/CMR-type and over which order. |  | 1 |
 | `B852` | B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 1e-9, doubling-map control exact to 1.3e-15), only the parabolic model shows a plateau, and inducing the parabolic point away (Gauss = Farey's jump transformation) destroys the transition -- an independent echo of B737-P2's Dehn-filling argument. NOT preregistered; footing is the exact positive control. |  | 1 |
 | `B853` | The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredients are not missing but split across the object's two faces: the order parameter m = sqrt5/3, B6's derived potential, its Galois-conjugate vacua and critical values, and the thermodynamic barrier ALL live on the Q(sqrt5) hearing face and are FIXED by the Q(sqrt-3) involution that Cl(O_4)/Frob_7 acts by, while the object-specific class group (h=2 vs m003's h=1) lives on the being face. |  | 2 |
+| `B855` | The programme's genericity controls were family members: m003 is commensurable with m004 (index 12 in PSL(2,O_-3)), and m129 -- proposed by cc as the non-commensurable fix -- is index 12 in PSL(2,O_-1), the SILVER's class-mate. The family has TWO rows and the repo has no null non-commensurable with both. Also verified: m003 IS amphichiral (B296 calls it a non-amphichiral control), and by Reid no knot complement is commensurable with 4_1, so B438/B440/B443's '4_1 ~ 5_2 commensurability class' is backwards -- an error that conceals genericity rather than creating it. |  | 1 |
 
 ## NEGATIVE (260)
 
