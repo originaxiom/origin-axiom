@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **782** |
-| words of findings prose | **512,403** |
-| test lock files referenced | **521** |
-| arcs carrying an authored verdict | **769** (98.3 %) |
+| research arcs with findings | **783** |
+| words of findings prose | **513,447** |
+| test lock files referenced | **522** |
+| arcs carrying an authored verdict | **770** (98.3 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 471 |
+| PROVED | 472 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B857`** (606 words, 1 locks)  
-LAW_MAP's H-EAR clause (iii) SILENCE rested on a GREP ('zero golden markers' over B737/B739 artifacts). The exact fact replacing it: 5 is INERT in Q(sqrt-3), so a_K(5) = 0 -- the being voice's Dirichlet series has no coefficient at the hearing prime -- while 3 is RAMIFIED and spoken at every power; and the blindness is MUTUAL, since 3 is inert in Q(sqrt5). But the SCOPE was wrong: 5 SPLITS in Q(i) with a(5) = 2, so the SILVER's voice says 5 perfectly. The phenomenon is a SPLITTING TYPE of one prime in one field, NOT a property of voices. The real blind spot -- Hecke eigenvalues of the 17 certified Gamma_41 newforms -- remains uncomputed.  
-`B857_voice_splitting/FINDINGS.md`
+**PROVED — `B859`** (1044 words, 1 locks)  
+The incoming SM handoff scrutinised: the Higgs-synthesis OP theorem VERIFIES exactly (OP = 818626500*sqrt3 at the cusp shape, ring class polynomial to 1e-28, and ODD under the Cl(O_4) = Z/2 swap -- supplying the state-space order parameter B849 required, on exactly the object-specific symmetry B853 identified); the sign-law certificate runs green against this repo's own B581 data; BUT the cascade theorem's step-2 gate rests on h^v(D4) = 7 (correct: 6), making SO(8)xU(1) conformal at c = 5 and dim 29 -- which would beat SU(5)xU(1) under the handoff's own principle. REPAIRED: gating on chirality (-1 in W; D4 has all reps real, and Borel-de Siebenthal gives no A4 in D4) yields the SAME winners uniquely at steps 1-2, retires part of the Michel import, and is framework-native (the -1-in-W criterion IS the even/odd boundary of the ledger's own thesis). The step-3 trit stands unchanged.  
+`B859_sm_handoff_scrutiny/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

@@ -17909,6 +17909,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B859": {
+   "slug": "sm handoff scrutiny",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B581",
+    "B849",
+    "B853",
+    "B855",
+    "P1",
+    "P10",
+    "P4",
+    "P5",
+    "P6",
+    "P8",
+    "S1"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B85": {
    "slug": "tower lynchpin",
    "motifs": [
