@@ -1,5 +1,9 @@
 # Changelog
 
+## B873 — gate P5 PASSED: menu completeness verified — and winner-safety is CITATION-FREE
+- **The cascade's last external import, gated.** Regular menus recomputed from the affine diagrams; an adversarial exact-c-match scan (A1 cap = a theorem: principal sl₂ indices 156/60/20 < 200) **disposes all 19 matches with dim ≥ winner by computed kills** — −1∈W (embedding-free), the full-rank bound, or the new **derived-fit kill** (closes the three impostors the scratch draft left undisposed); no UNKILLED rows, no surviving ties. Dynkin's S-candidates: conformality computed (F4, SO(9) fail), all 5 T-index cross-checks pass; every completion killed by −1∈W except A2+G2 (22 < 46).
+- **Winners unchanged and unique** (SO(10)×U(1) / SU(5)×U(1) / SM), and **the Dynkin+Slansky citation underwrites only sub-winner listing** — above the winner line the sweep is self-verifying. **After B871 + this arc the selection spine carries zero load-bearing imports.** 9 locks. Gate 5 untouched.
+
 ## B871 — G5 closed at the group layer: "registerable" IS the existence of a B599-legal chirality measurement
 - **The cascade's last owed definition, paid.** The registering datum: bra χ_R, **θ-odd dial-neutral probe f_ρ = χ_ρ − χ_ρ̄**, invariant contraction; evaluation A = mult_ρ − mult_ρ̄ ∈ ℤ. Four legs on every menu row: A odd under the swap; **B599 parity** (even part contributes 0 — registering is an n = 2 second-order hearing, the B593 shape); **the keystone equivalence** (∃ρ: A ≠ 0 ⟺ B861's gate, both failures and all six passes; the SM registers with amplitude 2); blindness = Schur pairing with **B860's J6 = ε reverified over ℤ**.
 - **The selection spine's imports reduce to P5 alone.** Remaining refinement flagged: realizing the probe inside the SU(3)₂ modular stage itself. 8 locks. Gate 5 untouched.

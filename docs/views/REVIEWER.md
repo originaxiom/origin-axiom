@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **795** |
-| words of findings prose | **521,003** |
-| test lock files referenced | **534** |
-| arcs carrying an authored verdict | **782** (98.4 %) |
+| research arcs with findings | **796** |
+| words of findings prose | **521,591** |
+| test lock files referenced | **535** |
+| arcs carrying an authored verdict | **783** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 484 |
+| PROVED | 485 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B871`** (497 words, 1 locks)  
-G5 CLOSED at the group layer -- the cascade's last owed definition is paid: a chirality-REGISTERING measurement is the B599 pairing datum (bra chi_R, theta-odd dial-neutral probe f_rho = chi_rho - chi_rhobar, invariant contraction) with evaluation A = mult_rho - mult_rhobar in Z. Four legs verified on every cascade menu row: (1) A is ODD under the theta-class swap (it registers); (2) B599 parity -- the even part of the generation contributes 0, the odd remainder carries everything: registering is an n=2 second-order hearing, the B593 shape; (3) the keystone equivalence (exists rho: A != 0) <=> B861's gate, row by row, both failures (Sp(8), SU(4)xU(1): all A = 0) and all six passes; the SM registers with amplitude 2 at the doubled (3bar,1); (4) blindness on failing rows realized by the Schur multiset pairing, with B860's J6 = epsilon on Lambda^2(4) reverified over Z against all 15 sl(4) generators. 'Registerable' = 'a B599-legal chirality measurement exists'; the selection spine's imports reduce to P5 alone. Remaining refinement flagged: realizing the probe inside the SU(3)_2 modular stage itself.  
-`B871_registering_datum/FINDINGS.md`
+**PROVED — `B873`** (588 words, 1 locks)  
+GATE P5 PASSED -- menu completeness for the fused cascade, verified mechanically, with the surprise that WINNER-SAFETY IS CITATION-FREE: (1) regular menus recomputed from explicit affine diagrams (BdS prime-mark + mark-1 Levi); (2) an adversarial exact-c-match scan (Fractions; closing levels in closed form; the A1 cap is a THEOREM: embedded-sl2 level = Dynkin index <= principal index rank*h*(h+1)/6 = 156/60/20 < 200) disposes ALL 19 matches with dim >= winner by computed kills -- -1-in-W registerability (embedding-free), the full-rank regular bound, or the new derived-fit kill (semisimple part must fit the derived algebra of a big-enough maximal regular; closes A1+A4@27 into D5, A2+A2@16 and A1^2A2@14 into A4, which the scratch draft left undisposed); no UNKILLED rows, no surviving winner-dim ties; (3) Dynkin's cited S-candidates with conformality COMPUTED (F4, SO(9) fail; rest pass) and all 5 T-arithmetic index cross-checks passing; (4) every conformal completion killed by -1-in-W except A2+G2 (registerable, dim 22 < 46, cannot win). Winners unchanged and UNIQUE: SO(10)xU(1) / SU(5)xU(1) / SM. The Dynkin+Slansky citation now underwrites only sub-winner listing completeness. After B871 + this arc the selection spine carries ZERO load-bearing imports.  
+`B873_p5_gate/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

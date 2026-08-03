@@ -18231,6 +18231,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B873": {
+   "slug": "p5 gate",
+   "motifs": [
+    "eisenstein",
+    "lorentzian"
+   ],
+   "refs": [
+    "B2",
+    "B3",
+    "B599",
+    "B859",
+    "B861",
+    "B863",
+    "B869",
+    "B870",
+    "B871",
+    "P5"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B87": {
    "slug": "m3 genus",
    "motifs": [
