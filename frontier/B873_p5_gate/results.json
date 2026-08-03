@@ -258,6 +258,21 @@
    "winner_dim": 12
   }
  },
+ "su3_9": {
+  "decided_dead": true,
+  "solutions": [
+   {
+    "multiset": [
+     [
+      2,
+      2
+     ]
+    ],
+    "self_conjugate": true
+   }
+  ],
+  "unique": true
+ },
  "t_checks": [
   [
    "C4 < E6, 27=Lam2(8)-1",

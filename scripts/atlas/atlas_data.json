@@ -18250,7 +18250,7 @@
     "P5"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },

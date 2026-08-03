@@ -60,3 +60,12 @@ def test_findings_state_the_citation_status_and_provenance():
     assert "winner-safety needs no citation" in _F
     assert "zero load-bearing imports" in _F
     assert "hardened here" in _F
+
+
+def test_addendum_su3_9_branching_forced_and_dead():
+    """dim+index enumeration: unique solution (2,2), self-conjugate => the row is
+    DECIDED dead by the gate, not merely outranked."""
+    s = RES["su3_9"]
+    assert s["unique"] is True and s["decided_dead"] is True
+    assert s["solutions"] == [{"multiset": [[2, 2]], "self_conjugate": True}]
+    assert "no undecided rows" in _F

@@ -58,3 +58,12 @@ B869's, the lift is B870's, and the menus are — above the winner — exhaustiv
   chains, B861); nothing here re-examines higher-level exotica beyond the c-scan's reach.
 
 `tests/test_b873_p5_gate.py`
+
+## Addendum (same day) — the SU(3)₉ row DECIDED: dim + index force the branching, and it dies by the gate
+
+The step-1 menu's one unresolved row (flagged in B861 and §2 above as *"unresolved but cannot
+win, dim 8 < 46"*) is now decided outright. The index-9 A₂ must branch the 27 onto an A₂
+multiset with **Σdim = 27 and ΣT = 9·T_E6(27) = 27**. Exhaustive enumeration over all A₂ irrep
+multisets: **exactly one solution — the (2,2) of su(3), dim 27, self-conjugate.** The branching
+is forced with no citation, and the row is **not registerable**: SU(3)₉ dies by the gate itself,
+not merely by ranking. The step-1 menu now has no undecided rows.

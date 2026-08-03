@@ -461,6 +461,45 @@ def main():
         print(f"  {step}: winner {w[1]} (dim {w[0]}), unique {uniq};"
           f"  menu size {len(menu)}")
 
+    # ---------------- ADDENDUM: the SU(3)_9 row, DECIDED (was: unresolved-but-cannot-win)
+    # The index-9 A2 in E6 must branch the 27 onto a multiset with sum dim = 27 and
+    # sum of Dynkin indices = 9 * T_E6(27) = 27. Enumerate ALL A2 irrep multisets:
+    def su3_9_branching():
+        irreps = []
+        for a in range(0, 7):
+            for b in range(0, 7):
+                d = (a + 1) * (b + 1) * (a + b + 2) // 2
+                if d <= 27:
+                    irreps.append(((a, b), d, F(d * (a*a + b*b + a*b + 3*a + 3*b), 24)))
+        irreps.sort(key=lambda x: -x[1])
+        sols = []
+
+        def rec(i, dl, tl, acc):
+            if dl == 0:
+                if tl == 0:
+                    sols.append(list(acc))
+                return
+            if i >= len(irreps):
+                return
+            ab, d, T = irreps[i]
+            m = 0
+            while m * d <= dl and m * T <= tl:
+                rec(i + 1, dl - m * d, tl - m * T, acc + [ab] * m)
+                m += 1
+        rec(0, 27, F(27), [])
+        from collections import Counter
+        return [(s, Counter(s) == Counter((b, a) for a, b in s)) for s in sols]
+
+    br39 = su3_9_branching()
+    RES["su3_9"] = dict(
+        solutions=[{"multiset": [list(x) for x in s], "self_conjugate": sc}
+                   for s, sc in br39],
+        unique=len(br39) == 1,
+        decided_dead=(len(br39) == 1 and br39[0][1]))
+    print(f"\n  ADDENDUM SU(3)_9: dim+index force the 27-branching uniquely: "
+          f"{RES['su3_9']['unique']} -> {br39[0][0]} self-conj {br39[0][1]}"
+          f"  => row DECIDED dead (was: unresolved-but-cannot-win)")
+
     # the A1 level cap is a THEOREM, not a hope: an embedded sl2's level = its Dynkin
     # index <= the principal sl2's index = rank*h*(h+1)/6 (h = Coxeter number)
     RES["a1_cap_justification"] = {
