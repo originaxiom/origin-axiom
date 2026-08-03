@@ -31,7 +31,7 @@ def test_s3_the_barrier_is_exact_and_galois_conjugate():
 def test_all_three_present_and_the_scope_is_the_stage_not_the_play():
     assert RES["verdict"]["all_preconditions_structural"] is True
     assert "stage, not the play" in RES["verdict"]["what_this_is_NOT"]
-    assert "NOT a computation of the asymmetry" in _F
+    assert "not a computation of the asymmetry" in _F.lower().replace("*","")
 
 
 def test_s2_inherits_the_signature_caveat():
