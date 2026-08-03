@@ -1,5 +1,9 @@
 # Changelog
 
+## B866 addendum — the TYPE check lands: so(10) ⊕ u(1) CONFIRMED on this seat's own leg
+- At the middle root (55 digits from the exact cubic): kernel dim **46** with a **15-order spectral gap**; **derived algebra dim 45** (B₄⊕B₂ would give 46); **center dim 1** (B₄⊕B₂: 0); and **45 is the dimension of a unique simple algebra — D₅ = so(10)**. Two independent legs now: the solo seat's two-prime derived-dimension, this seat's kernel + structure-tensor computation.
+- **The conditional unwinds: the cascade's step 1 is the object's own** — SO(10)×U(1) as the centralizer of any of three Galois-conjugate distinguished charges. *Symmetry breaking as charge measurement.* **The step-1 max-dim ranking retires.** Generations: still a signature. 9 locks.
+
 ## B866 — VERIFIED: the three distinguished charge lines exist — one cubic, two independent builds
 - **The solo seat's charge-measurement theorem, verified on this seat's fully independent B854 machinery.** Block structure exact: common kernel **12** ✓; nullities {x₈: 30, x₁₆: 30, x₁₄: 12, x₂₂: 12} ✓ (8 and 16 kill the 18-dim block C; 14 and 22 act on it); generic (8,16)-pencil nullity **30** at six exact rational points ✓.
 - **THE CUBIC, by this seat's own instrument** (det of a generically-nonsingular 48×48 minor of ad(x₈ + t·x₁₆), interpolated exactly from 50 rational points): **det(t) = c·(500716339200t³ − 159667200t² − 28224t + 1)¹⁶** — and the solo seat's μ satisfies **theirs(13t) − 2197·mine(t) = 0 identically. The same polynomial, from two constructions sharing no steps.** Multiplicity **16 = the jump 30 → 46**; irreducible; disc 2³²·3¹⁰·5²·7³·11·13⁶ **non-square → Galois S₃** (ℤ/3 killed); three real roots.

@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **790** |
-| words of findings prose | **518,022** |
+| words of findings prose | **518,194** |
 | test lock files referenced | **529** |
 | arcs carrying an authored verdict | **777** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
@@ -65,8 +65,8 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B866`** (706 words, 1 locks)  
-VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished lines -- det of a generically-nonsingular 48x48 minor of the pencil ad(x8 + t x16), interpolated exactly from 50 rational points, factors as c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16, and the solo seat's cubic mu satisfies theirs(13t) = 2197*mine(t) IDENTICALLY -- same polynomial, two independent constructions. Multiplicity 16 = the centralizer jump 30 -> 46; irreducible, disc 2^32 3^10 5^2 7^3 11 13^6 non-square -> Galois S3; three real roots. Also exact: common kernel 12, nullities {x8:30, x16:30, x14:12, x22:12}, generic pencil 30. NOT verified here: the type so(10)+u(1) and the coset 16+16bar (the solo seat's leg). The generations reading stays a SIGNATURE. Two float failures en route (fake-everywhere, then fake-nothing); exact interpolation decided.  
+**PROVED — `B866`** (878 words, 1 locks)  
+VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished lines -- det of a generically-nonsingular 48x48 minor of the pencil ad(x8 + t x16), interpolated exactly from 50 rational points, factors as c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16, and the solo seat's cubic mu satisfies theirs(13t) = 2197*mine(t) IDENTICALLY -- same polynomial, two independent constructions. Multiplicity 16 = the centralizer jump 30 -> 46; irreducible, disc 2^32 3^10 5^2 7^3 11 13^6 non-square -> Galois S3; three real roots. Also exact: common kernel 12, nullities {x8:30, x16:30, x14:12, x22:12}, generic pencil 30. TYPE so(10)+u(1) now CONFIRMED on this seat's own leg (same-day addendum): kernel dim 46 at a 55-digit root with a 15-order spectral gap, derived algebra dim 45 (the unique simple of dim 45 = D5), center dim 1 -- killing B4+B2 twice over. Coset 16+16bar remains the solo seat's leg. The generations reading stays a SIGNATURE. Two float failures en route (fake-everywhere, then fake-nothing); exact interpolation decided.  
 `B866_charge_cubic/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  

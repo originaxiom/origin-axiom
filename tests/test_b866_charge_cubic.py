@@ -59,3 +59,12 @@ def test_generations_stays_a_signature():
 def test_the_double_float_failure_is_recorded():
     assert "both directions" in _F
     assert "exact interpolation decided" in _F.lower() or "exact interpolation" in _F
+
+
+def test_addendum_the_type_is_confirmed_on_both_legs():
+    """so(10)+u(1): derived dim 45 (unique simple of dim 45 = D5), center dim 1."""
+    f_raw = (_ROOT / "frontier" / "B866_charge_cubic" / "FINDINGS.md").read_text("utf-8")
+    f = " ".join(f_raw.split())
+    assert "derived algebra dim** | **45**" in f or "derived dim 45" in f
+    assert "center dim 1" in f or "center dim** | **1**" in f
+    assert "step-1 max-dim ranking retires" in f

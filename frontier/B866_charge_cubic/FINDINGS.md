@@ -32,11 +32,29 @@ method (a generically-nonsingular 48×48 minor of the pencil ad(x₈ + t·x₁�
 interpolated exactly from 50 rational points, then factored) is this seat's own instrument — no
 step shared with the solo seat's pencil-division route.
 
+
+## 2a. ADDENDUM (same day) — the TYPE check, now on this seat's own leg: so(10) ⊕ u(1) CONFIRMED
+
+At the middle root (refined to 55 digits from the exact cubic), the pencil's kernel and its
+bracket structure, computed with this seat's exact structure tensor (2208 entries):
+
+| quantity | value | so(10)⊕u(1) | B₄⊕B₂ |
+|---|---|---|---|
+| kernel dim | **46** (spectral gap 1.07×10⁸ vs 2.29×10⁻⁷ relative — 15 orders) | 46 | 46 |
+| **derived algebra dim** | **45** | **45** ✓ | 46 ✗ |
+| **center dim** | **1** | **1** ✓ | 0 ✗ |
+
+Both discriminators land on so(10)⊕u(1), and **dim 45 is the dimension of a unique simple
+algebra — D₅ = so(10)**. The type now stands on two independent legs: the solo seat's
+derived-dimension-at-two-primes, and this seat's kernel-plus-structure-tensor computation at a
+refined root. **The §4 conditional unwinds: the cascade's step 1 is the object's own** — 
+SO(10)×U(1) as the centralizer of any of three Galois-conjugate distinguished charges — and the
+step-1 max-dim ranking retires. The generations reading remains a signature.
+
 ## 3. NOT verified here — the honest boundary
 
-- **The TYPE so(10) ⊕ u(1)** at the enhancement points: the solo seat's leg (derived-dimension 45
-  at two independent primes, killing B₄+B₂). Dimension 46 and the locus are mine; the type is
-  theirs pending an independent check.
+- ~~The TYPE so(10) ⊕ u(1)~~ — **now confirmed on this seat's own leg (§2a)**: derived dim 45,
+  center dim 1, at a 55-digit root with a 15-order spectral gap.
 - **The coset structure 32 = 16 ⊕ 16̄** — theirs.
 - **The generations reading is a SIGNATURE, not a mechanism** — their own wording, kept: an
   unordered S₃ triple of first-breaking charges, each birthing one 16-pair, is structurally what a

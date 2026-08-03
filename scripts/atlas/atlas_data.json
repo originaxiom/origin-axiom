@@ -18079,7 +18079,7 @@
     "B854"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "dead",
    "domain": "arithmetic"
   },
