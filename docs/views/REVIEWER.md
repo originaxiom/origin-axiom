@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **792** |
-| words of findings prose | **519,011** |
-| test lock files referenced | **531** |
-| arcs carrying an authored verdict | **779** (98.4 %) |
+| research arcs with findings | **793** |
+| words of findings prose | **519,904** |
+| test lock files referenced | **532** |
+| arcs carrying an authored verdict | **780** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 481 |
+| PROVED | 482 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B868`** (401 words, 1 locks)  
-G6 CLOSED -- the three involutions separated at cascade level: the gate's C is the LINEAR outer involution lambda -> -w0(lambda) at every level (A4: Dynkin reversal, 5->5bar, 10->10bar; D5: spinor swap, 16->16bar; E6: the fold, 27->27bar), realized in matrix form as X -> -X^T on A-type and Ad(det=-1 reflection) on D-type (fixed cores match B860's even parts and Q3's so(9)=36, computed); and c -- the ANTILINEAR chirality/sheet bit -- appears NOWHERE in the cascade (source-scanned), entering exactly once at layer 8 (the real form), where the framework already places it. The B780/B784/C21 conflation cannot recur at cascade level. Includes the D-type subtlety that would have bitten a naive check: on so(n) in the vector realization X -> -X^T is the identity.  
-`B868_three_involutions/FINDINGS.md`
+**PROVED — `B869`** (893 words, 1 locks)  
+G4 CLOSED -- the false-positive control PASSES: the cascade rule is NOT an SM-generator regardless of input. One generic engine (exterior-power labels, conj p -> n-p, uniform BdS branching; canonicalization bug Lambda^n=Lambda^0 caught by the E6 run itself) re-derives every banked verdict internally (B859's so(8)xu(1) top-dim-but-dead, B860/B861's su(4)xu(1) dead, B863's termination, B861's full chain) and runs 8 starts: eligibility 21/31 rank<=8 simple starts DEAD at step 0 (-1 in W; E6 the unique exceptional chiral start); the Lambda^2/spinorial (Georgi) family starts su(5..8), so(10), E6 ALL funnel to the SM core (Georgi 1979 family reduction + survival hypothesis, prior art named -- the registerability criterion is a theorem-form of it); so(14) keeps an EXTRA su(2) (endpoint SM x su(2), not the SM); the su(6) Sym^2 family lands on su(3)+3u(1) -- NO weak sector. The claim decomposes: (1) object -> E6+27, banked elsewhere, NOT established by the cascade; (2) 27-content + registerability -> SM, robust within the 27's content class. Echo locked: the E6 endpoint's 3 u(1)s = B864's Y + two dials.  
+`B869_false_positive_control/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
