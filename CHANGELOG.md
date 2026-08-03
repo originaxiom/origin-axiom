@@ -1,5 +1,9 @@
 # Changelog
 
+## B873 + B874 addenda — two flags closed, one question closed negatively
+- **B873 addendum**: the SU(3)₉ row DECIDED — dim+index enumeration forces the 27-branching uniquely onto the self-conjugate (2,2); the row dies by the gate itself. The step-1 menu has no undecided rows.
+- **B874 addendum**: at all three enhancement points (t* = 13× banked roots; kern(s₁) = 46 each — the normalization reconfirmed at the source), a second hard charge collapses **46 → 12 directly**: **no 26 stratum**; the ladder is {78, 46, 30, 12} complete, SU(5)×U(1) is not a charge-measurement stratum, and **the step-2 ranking is NOT retired** — closed negatively, stated plainly.
+
 ## B874 — the measurement ladder: a two-value cliff, and the full-measurement remnant is su(3)-TYPE — not the SM
 - **The census, exact, all 15 coordinate subtori of the 2T-torus**: Cent = **30** inside the (8,16)-plane (the unique soft direction — the B866 enhancement lines live in it), **12** for everything touching x₁₄/x₂₂ (each maximally resolving alone). Ladder **78 → 46 → 30 → 12**, no intermediate stratum; su(5)×u(1)-sized centralizers don't occur on coordinate data (the step-2 retirement question needs the cubic-field points — open).
 - **Cent(C) = su(2,1) ⊕ C**: dim 12 = derived 8 + center 4 (= C, one-line proof); the derived algebra's intrinsic Killing is nondegenerate (rank 8) ⟹ **A₂, the unique 8-dim semisimple**, signature (4,4) ⟹ real form su(2,1). **The "full measurement = SM" reading is DEAD** (needs derived 11/center 1) — what survives every 2T-charge is an su(3)-type remnant plus the measured charges; no dictionary asserted (the compact/quasi-split gap = the layer-8 wall). 6 locks. Gate 5 untouched.
