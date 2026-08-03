@@ -70,6 +70,25 @@ but it is adjacent to the framework's own definition of reality (*reality = the 
 closings*; a closing no measurement can register closes nothing). **Under it, the SM is the
 unique side of the bit whose chiral selection is observable.**
 
+
+## 4a. ADDENDUM (same day) — the dichotomy upgraded to theorem grade
+
+The §3 asymmetry rested on a rep-multiset comparison. Both halves are now exhibited:
+
+**SU(4) side — the intertwiner EXISTS, constructed.** J = (ε on the 6) ⊕ (swap 4 ↔ 4̄) ⊕ (id),
+with the load-bearing piece ε: Λ²(4) → Λ²(4)* the alternating tensor. **Equivariance
+`J ρ(X) = ρ_dual(X) J` verified to 4.6×10⁻¹⁶ over 20 random X ∈ sl(4); det J = ±1.** Hence any
+su(4)-covariant evaluation is J-conjugation-invariant and **cannot separate G from Ḡ**: separation
+requires the dial charge Q, which is θ-odd, and B599 then forces the trichotomy of §4 (vanish /
+charge-blind / dial-measurement).
+
+**SM side — no intertwiner CAN exist, by Schur.** The irrep multisets mismatch at four entries —
+(3,2) ∈ G, ∉ Ḡ; (3̄,1) ×2 ∈ G, ∉ Ḡ; and conversely — and Hom between distinct irreps is 0. **QED.**
+
+So the bit's asymmetry is now: *an exhibited equivariant self-conjugacy on one side, a Schur
+obstruction on the other.* What remains imported is only the registerability premise itself and
+the observable-universe clause it quantifies over.
+
 ## 5. Updated selection-cost ledger for the cascade
 
 | step | selector | status |

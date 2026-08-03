@@ -1,4 +1,15 @@
 {
+ "addendum": {
+  "J6_det": 1.0,
+  "J6_equivariance_dev": 4.577566798522237e-16,
+  "dichotomy": true,
+  "sm_mismatched_irreps": [
+   "(3,1)",
+   "(3,2)",
+   "(3bar,1)",
+   "(3bar,2)"
+  ]
+ },
  "bds_patterns": [
   [
    3

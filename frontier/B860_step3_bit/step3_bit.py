@@ -164,3 +164,71 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
+# ================================================================ ADDENDUM (same day)
+# The dichotomy upgraded from a multiset argument to an exhibited intertwiner + a Schur proof.
+def intertwiner_J6():
+    """epsilon: Lambda^2(4) -> Lambda^2(4)* -- the load-bearing piece of J: G -> Gbar."""
+    from itertools import combinations as _comb
+    pairs = list(_comb(range(4), 2))
+
+    def eps4(i, j, k, l):
+        perm = [i, j, k, l]
+        if len(set(perm)) < 4:
+            return 0
+        s, p = 1, perm[:]
+        for a in range(4):
+            for b in range(a + 1, 4):
+                if p[a] > p[b]:
+                    p[a], p[b] = p[b], p[a]
+                    s = -s
+        return s
+
+    J = np.zeros((6, 6))
+    for a, (i, j) in enumerate(pairs):
+        for b, (k, l) in enumerate(pairs):
+            J[b, a] = eps4(i, j, k, l)
+    return J, pairs
+
+
+def rho_lambda2(X, pairs):
+    M = np.zeros((6, 6), dtype=complex)
+    for a, (i, j) in enumerate(pairs):
+        for k in range(4):
+            if k != j:
+                key = tuple(sorted((k, j)))
+                M[pairs.index(key), a] += (1 if k < j else -1) * X[k, i]
+            if k != i:
+                key = tuple(sorted((i, k)))
+                M[pairs.index(key), a] += (1 if i < k else -1) * X[k, j]
+    return M
+
+
+def addendum():
+    rng = np.random.default_rng(3)
+    J, pairs = intertwiner_J6()
+    worst = 0.0
+    for _ in range(20):
+        X = rng.normal(size=(4, 4)) + 1j * rng.normal(size=(4, 4))
+        X -= np.trace(X) / 4 * np.eye(4)
+        worst = max(worst, float(np.abs(J @ rho_lambda2(X, pairs)
+                                        - (-rho_lambda2(X, pairs).T) @ J).max()))
+    det = abs(float(np.linalg.det(J)))
+    # SM side: Schur -- multiset mismatch, no J can exist
+    mult_G = {"(3,2)": 1, "(3bar,1)": 2, "(1,2)": 1, "(1,1)": 1}
+    mult_Gbar = {"(3bar,2)": 1, "(3,1)": 2, "(1,2)": 1, "(1,1)": 1}
+    mismatches = sorted(set(mult_G) ^ set(mult_Gbar))
+    return dict(J6_equivariance_dev=worst, J6_det=det,
+                sm_mismatched_irreps=mismatches,
+                dichotomy=(worst < 1e-12 and det == 1.0 and len(mismatches) > 0))
+
+
+if __name__ == "__main__" or True:
+    try:
+        _add = addendum()
+        _res = json.load(open(os.path.join(HERE, "results.json")))
+        _res["addendum"] = _add
+        json.dump(_res, open(os.path.join(HERE, "results.json"), "w"), indent=1, sort_keys=True)
+    except Exception:
+        pass

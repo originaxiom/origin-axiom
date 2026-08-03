@@ -61,3 +61,13 @@ def test_the_premise_is_named_as_a_premise():
 def test_the_banked_machinery_is_cited_not_reproved():
     assert "B599" in _F and "B593" in _F
     assert "banked + locked" in _F or "banked" in _F
+
+
+def test_addendum_the_intertwiner_is_exhibited_and_the_sm_side_is_schur_blocked():
+    """Both halves of the dichotomy at theorem grade: J constructed (equivariant, det 1) on the
+    SU(4) side; multiset mismatch (Schur) on the SM side."""
+    add = RES["addendum"]
+    assert add["J6_equivariance_dev"] < 1e-12
+    assert add["J6_det"] == 1.0
+    assert "(3,2)" in add["sm_mismatched_irreps"]
+    assert add["dichotomy"] is True
