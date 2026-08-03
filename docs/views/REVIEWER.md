@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **797** |
-| words of findings prose | **522,351** |
-| test lock files referenced | **536** |
-| arcs carrying an authored verdict | **784** (98.4 %) |
+| research arcs with findings | **798** |
+| words of findings prose | **522,869** |
+| test lock files referenced | **537** |
+| arcs carrying an authored verdict | **785** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 486 |
+| PROVED | 487 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B874`** (644 words, 1 locks)  
-The measurement ladder, exact over Q on the banked B854 build: (1) the coordinate census of ALL 15 subtori of the 2T-torus C is a TWO-VALUE CLIFF -- Cent = 30 for the three subtori inside the (8,16)-plane (the unique soft direction; the B866 enhancement lines live inside it), 12 for every subtorus touching x14 or x22 (each maximally resolving alone); observed ladder 78 -> 46 -> 30 -> 12, no intermediate stratum; SU(5)xU(1)-sized centralizers (26) do NOT occur on coordinate data (the step-2 retirement question needs cubic-field joint measurements, open). (2) Cent(C) = dim 12 = derived 8 + center 4, brackets closed; the center IS C (one-line proof); the derived algebra has NONDEGENERATE intrinsic Killing (rank 8) => the unique 8-dim semisimple = A2, signature (4,4) => real form su(2,1). The 'full measurement = SM' reading is DEAD (needs derived 11, center 1); what survives every 2T-charge is an su(3)-TYPE remnant plus the measured charges -- recorded as computed structure, no dictionary to color asserted (the compact/quasi-split gap = the layer-8 wall). ADDENDUM: the joint measurement from the enhanced points, at all three 13x-scaled roots (kern(s1) = 46 reconfirms the normalization at the source): adding x14 or x22 collapses 46 -> 12 directly -- NO 26 stratum exists; the step-2 question closes NEGATIVELY: the complete ladder is {78, 46, 30, 12} and SU(5)xU(1) is not a charge-measurement stratum; step 2 stands on the fused principle, its ranking NOT retired.  
-`B874_measurement_ladder/FINDINGS.md`
+**PROVED — `B875`** (518 words, 1 locks)  
+The solo seat's TRIALITY-TILING THEOREM verified on this seat's fully independent build, three legs in one reproducer: (1) skeleton at 30 digits -- kernels (46,46,46) at the three Galois enhancement points, every pairwise intersection = the 30-dim core, joint span = 78, sectors (16,16,16) via the canonical V_i = ad(z)(K_i); (2) the core typed at this seat's own two primes (40009/40037): dim 30, derived 28, center 2 -- D4 = so(8) forced: the census's soft plane IS the triality direction; (3) the cyclic multiplication law in OBLIQUE direct-sum coordinates: [Vi,Vi] -> core purely, [V1,V2] -> V3, [V1,V3] -> V2, [V2,V3] -> V1, foreign components ~1e-23. Trap documented: the sectors are NEARLY PARALLEL (roots within ~1e-3), so orthogonal projections read 1.0 everywhere -- the law is only readable in the oblique basis (condition ~1.3e11); mod-p methods are immune, floating reruns are not. Two seats, two builds, two method families. The generation reading stays a structure, not a mechanism; THE DESCENT decides it.  
+`B875_triality_tiling/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

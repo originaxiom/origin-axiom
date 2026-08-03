@@ -18273,6 +18273,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B875": {
+   "slug": "triality tiling",
+   "motifs": [
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B874"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B87": {
    "slug": "m3 genus",
    "motifs": [

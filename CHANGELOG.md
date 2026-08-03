@@ -1,5 +1,9 @@
 # Changelog
 
+## B875 — the triality-tiling theorem VERIFIED on this seat's build
+- **Two seats, two builds, two method families, one theorem**: e₆ = (so(8)⊕u(1)²) ⊕ V₁ ⊕ V₂ ⊕ V₃. Skeleton at 30 digits (pairwise ∩ = the 30-dim core, span 78, sectors 16³ via Vᵢ = ad(z)(Kᵢ)); the core typed at this seat's own primes (30, 28, 2 → **D₄ = so(8)**: the census's soft plane IS the triality direction); **the cyclic law** [Vᵢ,Vᵢ] → core, [Vᵢ,Vⱼ] → V_k with foreign components ~1e-23 — in **oblique** coordinates.
+- **Trap documented**: the sectors are nearly parallel (Galois roots within ~1e-3) — orthogonal projections read 1.0 everywhere; the law is only readable in the oblique direct-sum basis (condition ~1.3e11). The generation reading stays a structure, not a mechanism; **THE DESCENT decides it** (next joint cell). 6 locks. Gate 5 untouched.
+
 ## B873 + B874 addenda — two flags closed, one question closed negatively
 - **B873 addendum**: the SU(3)₉ row DECIDED — dim+index enumeration forces the 27-branching uniquely onto the self-conjugate (2,2); the row dies by the gate itself. The step-1 menu has no undecided rows.
 - **B874 addendum**: at all three enhancement points (t* = 13× banked roots; kern(s₁) = 46 each — the normalization reconfirmed at the source), a second hard charge collapses **46 → 12 directly**: **no 26 stratum**; the ladder is {78, 46, 30, 12} complete, SU(5)×U(1) is not a charge-measurement stratum, and **the step-2 ranking is NOT retired** — closed negatively, stated plainly.
