@@ -1,5 +1,9 @@
 # Changelog
 
+## B881 — the SM-graded coset commutation table: 28 channels, all single-target; the 3-grading verified cell-by-cell
+- **The mediation skeleton lands** (scoped before running: B867's S1 X/Y channels, not the Yukawa proper — that needs the 27, now the named top instrument gap): the coset's 12 SM multiplets × K₁'s [unbroken 14 + 8 broken multiplets] — **six own-conjugate channels → the unbroken 14** (gauge covariance), **22 cross-channels → exactly one broken multiplet each** (charge conservation exact), **42 same-sign zeros = the 3-grading on every cell**, 8 charge-mismatch zeros.
+- **The trap's third occurrence becomes a standing rule**: non-Hermitian gradings give non-orthogonal eigenbases — every decomposition readout must be OBLIQUE unless the basis is provably orthonormal (B875's sectors, B876's per-sector grading, now B881's first-run all-targets artifact). 5 locks. Gate 5 untouched.
+
 ## B882 — the tiling has a classical name: M(𝕆,ℂ) — and the novelty scoping that follows
 - **Five-angle prior-art workflow (10 agents)**: the decomposition is the magic square M(𝕆,ℂ) — verbatim in Landsberg–Manivel, Barton–Sudbery 2003, Elduque 2007 (whose ℤ/3-cyclic bracket is the published prototype of our law); tri(ℂ) = u(1)²; even the fold is in Boyle 2020; triality↔3-generations as *speculation* goes back to **Ramond 1977**. **None derives the frame.**
 - **Ours, scoped**: the selection mechanism (the object's superselection torus derives the frame, exact S₃ cubic + arithmetic); the descent's two-sided verdict; and the KMRT trialitarian setting (structures over cubic étale algebras) as the classical scaffolding for "the arithmetic S₃ IS the geometric S₃" — our charge field is exactly such an algebra. Bonus: **the soft plane = tri(ℂ)** — the c-into-θ crux gains a concrete computational home. 6 locks. Gate 5 untouched.

@@ -18406,6 +18406,22 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B881": {
+   "slug": "coset table",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "B867",
+    "B875",
+    "B876",
+    "S1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B882": {
    "slug": "magic square naming",
    "motifs": [
