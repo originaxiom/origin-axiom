@@ -17980,6 +17980,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B861": {
+   "slug": "fused cascade",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B593",
+    "B599",
+    "B859",
+    "B860",
+    "P5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [

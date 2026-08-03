@@ -1,0 +1,72 @@
+{
+ "chain": [
+  "E6",
+  "SO(10)xU(1)",
+  "SU(5)xU(1)",
+  "SM"
+ ],
+ "chain_is_sm": true,
+ "criterion_can_fail": true,
+ "criterion_can_pass": true,
+ "deviation_clause_dissolves": true,
+ "principle": "maximal residual symmetry among REGISTERABLE options",
+ "registerable_defn": "generation chiral with theta-odd abelian factors stripped (B860: intertwiner/Schur dichotomy)",
+ "step1_E6": {
+  "menu": [
+   {
+    "dim": 46,
+    "option": "SO(10)xU(1)",
+    "registerable": true
+   },
+   {
+    "dim": 38,
+    "option": "SU(6)xSU(2)",
+    "registerable": true
+   },
+   {
+    "dim": 24,
+    "option": "SU(3)^3",
+    "registerable": true
+   },
+   {
+    "dim": 36,
+    "option": "Sp(8)",
+    "registerable": false
+   }
+  ],
+  "unique": true,
+  "winner": "SO(10)xU(1)"
+ },
+ "step2_SO10": {
+  "menu": [
+   {
+    "dim": 25,
+    "option": "SU(5)xU(1)",
+    "registerable": true
+   },
+   {
+    "dim": 21,
+    "option": "Pati-Salam",
+    "registerable": true
+   }
+  ],
+  "unique": true,
+  "winner": "SU(5)xU(1)"
+ },
+ "step3_SU5": {
+  "menu": [
+   {
+    "dim": 16,
+    "option": "SU(4)xU(1)",
+    "registerable": false
+   },
+   {
+    "dim": 12,
+    "option": "SM",
+    "registerable": true
+   }
+  ],
+  "unique": true,
+  "winner": "SM"
+ }
+}
