@@ -52,3 +52,21 @@ the unique 8-dimensional semisimple Lie algebra. Signature **(4,4)** pins the re
 2. The su(2,1) remnant's relation to the layer-8 real-form question — flagged only.
 
 `tests/test_b874_ladder.py`
+
+## Addendum (same day) — the joint measurement from the enhanced point: 46 → 12, and the step-2 question closes NEGATIVELY
+
+`joint_probe.py`, at 40 digits with relative-gap certification, at **all three** enhancement
+points s₁ = x₈ + t*·x₁₆ (t* = 13× the banked cubic roots — the normalization fact established
+mod p in B872's `cubic_modp_check`, reconfirmed here by **kern(s₁) = 46 at every root**):
+
+| second charge | joint centralizer dim |
+|---|---|
+| x₁₄ | **12** (all three roots) |
+| x₂₂ | **12** (all three roots) |
+
+**No 26 stratum exists.** Adding either hard charge to the tuned measurement collapses straight
+to the floor Cent(C). So the carried-forward step-2 question — *"is SU(5)×U(1) the centralizer
+of a finer charge?"* — **closes negatively for the object's 2T-charge system**: the complete
+centralizer ladder is **{78, 46, 30, 12}**, and the cascade's intermediate SU(5)×U(1) is not a
+charge-measurement stratum. Step 2 stands on the fused principle (B861) — the ranking is NOT
+retired by charge measurement, and saying so plainly is the point of this addendum.

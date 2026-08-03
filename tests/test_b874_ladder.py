@@ -40,3 +40,20 @@ def test_full_measurement_is_not_the_sm_stated_plainly():
 def test_no_dictionary_asserted_and_step2_question_stays_open():
     assert "no dictionary to color is asserted" in _F
     assert "remains open" in _F
+
+
+JOINT = json.loads((_D / "joint_results.json").read_text(encoding="utf-8"))
+
+
+def test_addendum_enhancement_confirmed_at_13x_roots():
+    """kern(s1) = 46 at every 13x-scaled banked root -- the normalization fact
+    reconfirmed at the source."""
+    assert JOINT["enhancement_confirmed_at_13x"] is True
+    assert all(r["kern_s1"] == 46 for r in JOINT["rows"]) and len(JOINT["rows"]) == 3
+
+
+def test_addendum_no_26_stratum_step2_not_retired():
+    assert JOINT["no_26_stratum"] is True
+    assert all(r["joint_x14"] == 12 and r["joint_x22"] == 12 for r in JOINT["rows"])
+    assert "closes negatively for the object's 2t-charge system" in _F
+    assert "the ranking is not retired by charge measurement" in _F

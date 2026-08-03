@@ -18263,11 +18263,13 @@
    "refs": [
     "B715",
     "B854",
+    "B861",
     "B866",
-    "B868"
+    "B868",
+    "B872"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 10,
+   "obstacle_conf": 14,
    "status": "banked",
    "domain": "arithmetic"
   },

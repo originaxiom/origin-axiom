@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **797** |
-| words of findings prose | **522,176** |
+| words of findings prose | **522,351** |
 | test lock files referenced | **536** |
 | arcs carrying an authored verdict | **784** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
@@ -65,8 +65,8 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B874`** (469 words, 1 locks)  
-The measurement ladder, exact over Q on the banked B854 build: (1) the coordinate census of ALL 15 subtori of the 2T-torus C is a TWO-VALUE CLIFF -- Cent = 30 for the three subtori inside the (8,16)-plane (the unique soft direction; the B866 enhancement lines live inside it), 12 for every subtorus touching x14 or x22 (each maximally resolving alone); observed ladder 78 -> 46 -> 30 -> 12, no intermediate stratum; SU(5)xU(1)-sized centralizers (26) do NOT occur on coordinate data (the step-2 retirement question needs cubic-field joint measurements, open). (2) Cent(C) = dim 12 = derived 8 + center 4, brackets closed; the center IS C (one-line proof); the derived algebra has NONDEGENERATE intrinsic Killing (rank 8) => the unique 8-dim semisimple = A2, signature (4,4) => real form su(2,1). The 'full measurement = SM' reading is DEAD (needs derived 11, center 1); what survives every 2T-charge is an su(3)-TYPE remnant plus the measured charges -- recorded as computed structure, no dictionary to color asserted (the compact/quasi-split gap = the layer-8 wall).  
+**PROVED — `B874`** (644 words, 1 locks)  
+The measurement ladder, exact over Q on the banked B854 build: (1) the coordinate census of ALL 15 subtori of the 2T-torus C is a TWO-VALUE CLIFF -- Cent = 30 for the three subtori inside the (8,16)-plane (the unique soft direction; the B866 enhancement lines live inside it), 12 for every subtorus touching x14 or x22 (each maximally resolving alone); observed ladder 78 -> 46 -> 30 -> 12, no intermediate stratum; SU(5)xU(1)-sized centralizers (26) do NOT occur on coordinate data (the step-2 retirement question needs cubic-field joint measurements, open). (2) Cent(C) = dim 12 = derived 8 + center 4, brackets closed; the center IS C (one-line proof); the derived algebra has NONDEGENERATE intrinsic Killing (rank 8) => the unique 8-dim semisimple = A2, signature (4,4) => real form su(2,1). The 'full measurement = SM' reading is DEAD (needs derived 11, center 1); what survives every 2T-charge is an su(3)-TYPE remnant plus the measured charges -- recorded as computed structure, no dictionary to color asserted (the compact/quasi-split gap = the layer-8 wall). ADDENDUM: the joint measurement from the enhanced points, at all three 13x-scaled roots (kern(s1) = 46 reconfirms the normalization at the source): adding x14 or x22 collapses 46 -> 12 directly -- NO 26 stratum exists; the step-2 question closes NEGATIVELY: the complete ladder is {78, 46, 30, 12} and SU(5)xU(1) is not a charge-measurement stratum; step 2 stands on the fused principle, its ranking NOT retired.  
 `B874_measurement_ladder/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
