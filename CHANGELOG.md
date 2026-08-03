@@ -1,5 +1,9 @@
 # Changelog
 
+## B877 — S1 review PASSED: the First Measurement Theorem accepted — a two-seat theorem
+- The solo seat's banking-grade theorem (charges 12/30/46 + the three-line S₃ locus; types by the squeeze; the tiling; **the weight-line lemma making the cyclic law a priori**; matter = the foreign sectors) — **every exact certificate rerun green on this build** (pencil division det₃₆ = c·μ¹², det₁₂ = c·μ⁴ over ℚ; restriction-of-scalars nullities 36/12; sum-freeness at both primes × all roots), logic reviewed clause by clause, imports pinned. Their roots ≡ this seat's 13× values digit-for-digit.
+- Review notes recorded (levi2 manifest gap — repaired by the squeeze; the projector trap their methods avoid). **NOT banked: the generation reading** — the §5 fence kept; THE DESCENT (B876, running) decides. 7 locks. Gate 5 untouched.
+
 ## B872 — the coset leg VERIFIED: 32 = 16 ⊕ 16̄ at every enhancement point; the charge splits REAL (split form)
 - **Two legs.** Exact/ℤ: the regular so(10)⊕u(1)'s 32 complement roots carry charge ±1 (16/16), each a single Weyl orbit through a fork-node fundamental weight — the spinor pair. Numeric at all three Galois roots (13× banked, 40 digits): split 16/16, **commutant 1/1 per half** (absolute irreducibility, certified generic-pair method), isotropic halves with nondegenerate cross-pairing (W₋ ≅ W₊* = 16̄), gaps 10⁴⁰⁺, Galois-consistent.
 - **Correction made by the locks, kept**: the charge splits **REAL** (±q, q² > 0) — a split-torus direction, as e6(6) requires; the draft's "compact u(1)" was a wrong-stratum artifact and the commit gate caught it. Compact-vs-split for the physical charge = a layer-8 question, not probed. With B875: the same 32 = ±q charge eigenspaces AND triality foreign sectors. Plus `cubic_modp_check.py`: the **13× normalization certified mod 2⁶¹−1** (a third derivation of the cubic). **B866's boundary is fully closed.** 6 locks. Gate 5 untouched.

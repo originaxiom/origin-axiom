@@ -18306,6 +18306,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B877": {
+   "slug": "fmt review",
+   "motifs": [
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B866",
+    "B872",
+    "B874",
+    "B875",
+    "B876",
+    "S1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B87": {
    "slug": "m3 genus",
    "motifs": [
