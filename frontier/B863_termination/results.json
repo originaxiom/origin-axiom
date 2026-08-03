@@ -1,0 +1,38 @@
+{
+ "all_descents_dead": true,
+ "conformality_bprime": {
+  "c_su2_4": "2",
+  "c_su3_1": "2",
+  "match": true
+ },
+ "descents": {
+  "a_drop_su2": {
+   "chiral": false,
+   "multiset": {
+    "1": 3,
+    "3": 2,
+    "3bar": 2
+   }
+  },
+  "b_drop_su3_regular": {
+   "chiral": false,
+   "multiset": {
+    "(1,1)": 3,
+    "(1,2)": 2,
+    "(2,1)": 2,
+    "(2,2)": 1
+   }
+  },
+  "bprime_su2_4_principal_CONFORMAL": {
+   "chiral": false,
+   "multiset": {
+    "(1,1)": 1,
+    "(1,2)": 1,
+    "(t3,1)": 2,
+    "(t3,2)": 1
+   }
+  }
+ },
+ "sm_itself_chiral": true,
+ "terminal": true
+}

@@ -18017,6 +18017,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B863": {
+   "slug": "termination",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B860",
+    "B861",
+    "P5"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [
