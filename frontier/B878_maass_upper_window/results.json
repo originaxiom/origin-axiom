@@ -1,0 +1,34 @@
+{
+ "claims_check": {
+  "claim_43": true,
+  "claim_72": true,
+  "stability_26_26": true
+ },
+ "combined_distinct": 43,
+ "combined_mult": 72,
+ "lower_distinct": 17,
+ "lower_mult": 27,
+ "noted_entries": [
+  "resolved by tight bracket after the wide-bracket refinement fell into the adjacent 10.9965 double; fine scanF confirmed a genuine simple dip",
+  "restored \u2014 patch tolerance had wrongly removed it"
+ ],
+ "parent_deltas": [
+  "3.26e-10",
+  "0.00e+00",
+  "8.56e-11",
+  "4.94e-10"
+ ],
+ "parents_all_present": true,
+ "provenance": "audit/b775-braver-questions @ cd1447b6 (cc3; never merged)",
+ "s_invariance_dev_range": [
+  "5.65e-10",
+  "1.31e+00"
+ ],
+ "two_Y_stable": 26,
+ "upper_distinct": 26,
+ "upper_mult": 45,
+ "window": [
+  10.0,
+  13.5
+ ]
+}

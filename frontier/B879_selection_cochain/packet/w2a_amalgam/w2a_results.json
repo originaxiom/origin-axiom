@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "cell": "W2a",
+    "seat": "cc3",
+    "date": "2026-07-17",
+    "arithmetic": "exact cyclotomic (Python fractions.Fraction over Q(zeta_N) power basis)",
+    "runtime_seconds": 17.323617696762085
+  },
+  "levels": {
+    "1": {
+      "k": 1,
+      "kappa": 4,
+      "n": 3,
+      "field_N": 24,
+      "field_deg": 8,
+      "K_normalization": "48",
+      "S_dagger_S_gate": {
+        "S_dagger_S_offdiag_zero": true,
+        "S_dagger_S_diag_equal": true,
+        "K_is_rational": true,
+        "K": "48"
+      },
+      "trace_W": "(1+0j)",
+      "W_unitary_exact": true,
+      "nullity_W_minus_I": 1,
+      "nullity_Winv_minus_I": 1,
+      "M_prime_lemma_holds": true,
+      "nullity_T_minus_I": 0,
+      "order_W": 4,
+      "eigen_breakdown": null,
+      "float_crosscheck": {
+        "trace": "(0.9999999999999998+0j)",
+        "nullity_W_minus_I": 1,
+        "nullity_T_minus_I": 0,
+        "W_unitary": true
+      },
+      "crosscheck_match": {
+        "trace": true,
+        "nullities": true,
+        "unitary": true
+      },
+      "h0_M": 1,
+      "h1_M": 1,
+      "h0_Mp": 1,
+      "h1_Mp": 1,
+      "h0_bd_T": 0,
+      "h1_bd_T": 0,
+      "h0_bd_triv": 3,
+      "h1_bd_triv": 3,
+      "h0_D": 2,
+      "h1_D_primary": 2,
+      "h2_D_primary": 0,
+      "h1_D_trivial": 5,
+      "h2_D_trivial": 3
+    },
+    "2": {
+      "k": 2,
+      "kappa": 5,
+      "n": 6,
+      "field_N": 30,
+      "field_deg": 8,
+      "K_normalization": "75",
+      "S_dagger_S_gate": {
+        "S_dagger_S_offdiag_zero": true,
+        "S_dagger_S_diag_equal": true,
+        "K_is_rational": true,
+        "K": "75"
+      },
+      "trace_W": "(-0.6180339887498949+4.440892098500626e-16j)",
+      "W_unitary_exact": true,
+      "nullity_W_minus_I": 0,
+      "nullity_Winv_minus_I": 0,
+      "M_prime_lemma_holds": true,
+      "nullity_T_minus_I": 0,
+      "order_W": 20,
+      "eigen_breakdown": {
+        "breakdown": [
+          {
+            "j": 1,
+            "order_of_root": 20,
+            "multiplicity": 1
+          },
+          {
+            "j": 6,
+            "order_of_root": 10,
+            "multiplicity": 1
+          },
+          {
+            "j": 9,
+            "order_of_root": 20,
+            "multiplicity": 1
+          },
+          {
+            "j": 11,
+            "order_of_root": 20,
+            "multiplicity": 1
+          },
+          {
+            "j": 14,
+            "order_of_root": 10,
+            "multiplicity": 1
+          },
+          {
+            "j": 19,
+            "order_of_root": 20,
+            "multiplicity": 1
+          }
+        ],
+        "total_mult": 6,
+        "Nbig": 60
+      },
+      "float_crosscheck": {
+        "trace": "(-0.6180339887498956-4.440892098500626e-16j)",
+        "nullity_W_minus_I": 0,
+        "nullity_T_minus_I": 0,
+        "W_unitary": true
+      },
+      "crosscheck_match": {
+        "trace": true,
+        "nullities": true,
+        "unitary": true
+      },
+      "h0_M": 0,
+      "h1_M": 0,
+      "h0_Mp": 0,
+      "h1_Mp": 0,
+      "h0_bd_T": 0,
+      "h1_bd_T": 0,
+      "h0_bd_triv": 6,
+      "h1_bd_triv": 6,
+      "h0_D": 0,
+      "h1_D_primary": 0,
+      "h2_D_primary": 0,
+      "h1_D_trivial": 6,
+      "h2_D_trivial": 6
+    },
+    "3": {
+      "k": 3,
+      "kappa": 6,
+      "n": 10,
+      "field_N": 36,
+      "field_deg": 12,
+      "K_normalization": "108",
+      "S_dagger_S_gate": {
+        "S_dagger_S_offdiag_zero": true,
+        "S_dagger_S_diag_equal": true,
+        "K_is_rational": true,
+        "K": "108"
+      },
+      "trace_W": "(-1+0j)",
+      "W_unitary_exact": true,
+      "nullity_W_minus_I": 0,
+      "nullity_Winv_minus_I": 0,
+      "M_prime_lemma_holds": true,
+      "nullity_T_minus_I": 0,
+      "order_W": 12,
+      "eigen_breakdown": null,
+      "float_crosscheck": {
+        "trace": "(-1.0000000000000007-4.996003610813204e-16j)",
+        "nullity_W_minus_I": 0,
+        "nullity_T_minus_I": 0,
+        "W_unitary": true
+      },
+      "crosscheck_match": {
+        "trace": true,
+        "nullities": true,
+        "unitary": true
+      },
+      "h0_M": 0,
+      "h1_M": 0,
+      "h0_Mp": 0,
+      "h1_Mp": 0,
+      "h0_bd_T": 0,
+      "h1_bd_T": 0,
+      "h0_bd_triv": 10,
+      "h1_bd_triv": 10,
+      "h0_D": 0,
+      "h1_D_primary": 0,
+      "h2_D_primary": 0,
+      "h1_D_trivial": 10,
+      "h2_D_trivial": 10
+    },
+    "4": {
+      "k": 4,
+      "kappa": 7,
+      "n": 15,
+      "field_N": 42,
+      "field_deg": 12,
+      "K_normalization": "147",
+      "S_dagger_S_gate": {
+        "S_dagger_S_offdiag_zero": true,
+        "S_dagger_S_diag_equal": true,
+        "K_is_rational": true,
+        "K": "147"
+      },
+      "trace_W": "(1+0j)",
+      "W_unitary_exact": true,
+      "nullity_W_minus_I": 1,
+      "nullity_Winv_minus_I": 1,
+      "M_prime_lemma_holds": true,
+      "nullity_T_minus_I": 4,
+      "order_W": 8,
+      "eigen_breakdown": null,
+      "float_crosscheck": {
+        "trace": "(1-1.6653345369377348e-16j)",
+        "nullity_W_minus_I": 1,
+        "nullity_T_minus_I": 4,
+        "W_unitary": true
+      },
+      "crosscheck_match": {
+        "trace": true,
+        "nullities": true,
+        "unitary": true
+      },
+      "h0_M": 1,
+      "h1_M": 1,
+      "h0_Mp": 1,
+      "h1_Mp": 1,
+      "h0_bd_T": 4,
+      "h1_bd_T": 4,
+      "h0_bd_triv": 15,
+      "h1_bd_triv": 15,
+      "h0_D": 2,
+      "h1_D_primary": 6,
+      "h2_D_primary": 4,
+      "h1_D_trivial": 17,
+      "h2_D_trivial": 15
+    }
+  },
+  "sealed_falsifier_kappa5": {
+    "primary_T_boundary": {
+      "h1_D": 0,
+      "boundary_born": 0,
+      "solo": 0,
+      "verdict": "MISMATCH"
+    },
+    "alt_trivial_boundary": {
+      "h1_D": 6,
+      "boundary_born": 6,
+      "solo": 0,
+      "verdict": "MISMATCH"
+    }
+  },
+  "stage_selection_probe": {
+    "primary_T_boundary_by_level": {
+      "k=1": 2,
+      "k=2": 0,
+      "k=3": 0,
+      "k=4": 6
+    },
+    "alt_trivial_boundary_by_level": {
+      "k=1": 5,
+      "k=2": 6,
+      "k=3": 10,
+      "k=4": 17
+    },
+    "kappa5_singular_primary": false,
+    "kappa5_singular_alt": true
+  },
+  "structural_parity_note": "h1(M')=h1(M) exactly (ker(A-I)=ker(A^-1-I) identically), so the 'solo' component 2*h1(M) is always even; the classical odd solo count (3) is structurally unreachable by this amalgam model at any level or boundary choice."
+}

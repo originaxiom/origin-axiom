@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **801** |
-| words of findings prose | **524,887** |
-| test lock files referenced | **540** |
-| arcs carrying an authored verdict | **788** (98.4 %) |
+| research arcs with findings | **803** |
+| words of findings prose | **526,093** |
+| test lock files referenced | **542** |
+| arcs carrying an authored verdict | **790** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 490 |
+| PROVED | 492 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B877`** (762 words, 1 locks)  
-S1 REVIEW PASSED -- the solo seat's FIRST MEASUREMENT THEOREM accepted at banking grade; the charge-measurement/triality story is now a TWO-SEAT THEOREM. Every exact certificate rerun green on this build: the pencil theorem (det36 = c*mu^12, det12 = c*mu^4, exact over Q), restriction-of-scalars nullities (36/12; the 18-block fully Pi-annihilated), sum-freeness at both primes x all roots; mu-roots digit-identical to this seat's 13x values. Logic reviewed clause by clause: the weight-line lemma makes the cyclic law a priori (48 = 16x3); the squeezes use mod-p only as lower bounds; the one-prime lemma applied in its valid direction; K_i ^ K_j = z(Pi) by identity; imports I1-I5 pinned; no floating point anywhere. Review notes: levi2.py manifest gap (repaired by the squeeze; script requested), the nearly-parallel projector trap recorded. NOT banked: the generation reading -- the section-5 fence kept verbatim; the decisive test was THE DESCENT (B876). PROCESS NOTE: this verdict file was initially omitted (the banking chain died at a failing lock before the verdict step and the retry skipped it) -- caught by Review 37's sweep, restored there.  
-`B877_fmt_review/FINDINGS.md`
+**PROVED — `B879`** (645 words, 1 locks)  
+The cc3 selection-cochain harvest (packet sha256 e59df18a, 38 files, preserved verbatim; cc3's own reconciliation addendum CHECKED AND CONFIRMED accurate): six claims verified with independent legs -- C1 the collapse theorem (745 primitive classes enumerated independently, per-length exact; unit det(A-I) <=> tr = 3 over all 745; realized only by RL); C2 the deflation strata (amphichiral 53; prime-fundamental-disc set exactly {5,13,17,29,37,53,173,229}; joint 11); C3 the five-value set banked as a COMPLETE-FAMILY CORROBORATION under B665/B666 (counts 188/153/249/147/8 confirmed; 10 rows recomputed with main's B238/B664 machinery at 2e-15; NOT a new law, NOT pointwise -- the addendum's self-downgrade is correct); C4 silver-unique entangled amphichirality (own scan: exactly R^2L^2 at d = 2); C5 field communality (d = 5 x 16 classes incl R^4L^4, |tr_odd| = 1/phi real); C6 THE HEADLINE -- the quantum amalgam wall + even-solo no-go: h1(D) [2,0,0,6]/[5,6,10,17] at kappa 4..7 reproduced live AND matching stored results, with the no-go lemma verified by hand in one line (A^-1-I = -A^-1(A-I) => solo term always even => the classical 2+3 split structurally unreachable in this model class). Carried: the proposed L91 amendment (register pass, not silently applied); the pointwise shadow-class column; the SnapPy V5 cross.  
+`B879_selection_cochain/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

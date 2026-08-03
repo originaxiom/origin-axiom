@@ -1,0 +1,48 @@
+======================================================================
+PART 1 -- SU(3)_2 fusion data (Verlinde formula from the banked S)
+======================================================================
+n (simple objects) = 6  weights: [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (2, 0)]
+gate (modular relations) pass: True
+quantum dimensions d_a: [1.         1.61803399 1.         1.61803399 1.61803399 1.        ]
+total quantum dim^2  D^2 = sum d_a^2 = 10.85410196624969  (= 6 + 3*phi = 10.854101966249685 )
+integrality check: max|imag| = 9.476737504130466e-16  max|real-round| = 1.0408340855860843e-15
+nonzero (a,b,c) fusion triples: 45 / 216  (all equal to 1: multiplicity-free) True
+
+invertible (dim=1) objects: [(0, 0), (0, 2), (2, 0)] -- fusion-table check (forms a group):
+    (0, 0) x (0, 0) = {(0, 0): 1}
+    (0, 0) x (0, 2) = {(0, 2): 1}
+    (0, 0) x (2, 0) = {(2, 0): 1}
+    (0, 2) x (0, 0) = {(0, 2): 1}
+    (0, 2) x (0, 2) = {(2, 0): 1}
+    (0, 2) x (2, 0) = {(0, 0): 1}
+    (2, 0) x (0, 0) = {(2, 0): 1}
+    (2, 0) x (0, 2) = {(0, 0): 1}
+    (2, 0) x (2, 0) = {(0, 2): 1}
+=> universal grading group / Aut(id_C)-candidate = Z/3 (finite, discrete)
+
+======================================================================
+PART 2 -- the weld operator W = rho(RL) = T . (S^-1 T^-1 S) on the
+6-dim SU(3)_2 stage: candidate (d)'s simplest ('single monodromy
+operator on the state space') falsifier
+======================================================================
+trace(W) = (-0.6180339887498956-4.440892098500626e-16j)   (banked -1/phi = -0.6180339887498948 ) -- cross-check
+
+eigenvalues of W (angle/2pi, i.e. which root of unity):
+  0.951057-0.309017j   |e|=1.000000   angle/2pi=-0.050000
+  0.951057+0.309017j   |e|=1.000000   angle/2pi=+0.050000
+  -0.951057-0.309017j   |e|=1.000000   angle/2pi=-0.450000
+  -0.951057+0.309017j   |e|=1.000000   angle/2pi=+0.450000
+  -0.309017+0.951057j   |e|=1.000000   angle/2pi=+0.300000
+  -0.309017-0.951057j   |e|=1.000000   angle/2pi=-0.300000
+
+rank(W - I) = 6,  nullity = dim ker(W-I) = dim coker(W-I) = 0
+(square matrix => rank-nullity gives ker dim = coker dim automatically)
+=> naive 'H^0(Z;V_stage) = H^1(Z;V_stage)' for the bare weld operator = 0-dimensional.
+   Cross-check vs banked B640: ord(W(RL)) on the FULL 6-dim stage = 20. Observed eigenvalue orders here: four of order 20, two of order 10 (lcm = 20) -- MATCHES.
+
+======================================================================
+PART 3 -- comparison: SU(2)_3 (level-rank partner, 4-dim stage)
+======================================================================
+rank(W2 - I) = 4, nullity = 0
+eigenvalues: [ 0.66913061-0.74314483j  0.66913061+0.74314483j -0.9781476 +0.20791169j
+ -0.9781476 -0.20791169j]

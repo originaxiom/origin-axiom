@@ -1,0 +1,11 @@
+cdd2cd39cffd5e2a94da8b44031f32208d615b7df7e0b95858931f100b7ca214  PREREG_SCC.md (orig seal, pre-rename filename PREREG_DC.md)
+2f5dcbe5ca02a2e3b10f720473fd202360d0ebbcd2e55733c15b3370ac1078b5  SYNTHESIS_DB.md
+d7082991987b3a320faa037bbdda30d121934cf2c07d8bf5316b32d164b336ad  DESIGN_DA.md
+84ba1c96b47039c7dc17789592f898988b0b75941a5c297ab756dc40f4393b9f  PREREG_SCC.md (final wave-2-addended seal, pre-rename filename PREREG_DC.md)
+ba3d48afb86ecc84c7de59e49c314d9648f4a3e0057516ef3c99dfee5b9d0d9f  w2b_landscape/FINDINGS_CC3.md
+07a2d6a84a80121611fb4d24595855a9afd1c6c1582bea0567648335e9d5485d  w2a_amalgam/FINDINGS_CC3.md
+031b615b2ebb3f3474b3db963bcda6f53cd7489ab99ecd911759a37c89457241  CAMPAIGN_CLOSE.md
+80b966e9ad3f4b251ff021835fb24c81ac21a9ceb6d15d41f226a72a0bd64fcf  HANDOFF_CC_SELECTION_COCHAIN.md (orig seal, pre-rename filename HANDOFF_CC_DERIVATION.md)
+# --- 2026-08-03 reconciliation addendum (post-fetch repo check vs B862) ---
+994d23b835f7da09df5d4c659143abd8533bf093b7b410cbce64a8f07576f005  HANDOFF_CC_SELECTION_COCHAIN.md (REVISED: reconciliation addendum + C1-C6 reframed)
+a2ba543e059a692dcab6b8e3fe8dfefc8bef6274c6de334259f98278939e2e5f  STATUS.md (revised)

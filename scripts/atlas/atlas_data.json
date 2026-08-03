@@ -18342,6 +18342,45 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B878": {
+   "slug": "maass upper window",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "B797",
+    "B798",
+    "B804",
+    "B845",
+    "B846"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B879": {
+   "slug": "selection cochain",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B238",
+    "B664",
+    "B665",
+    "B666",
+    "L91",
+    "V5"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B87": {
    "slug": "m3 genus",
    "motifs": [
