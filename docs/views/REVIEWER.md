@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **794** |
-| words of findings prose | **520,506** |
-| test lock files referenced | **533** |
-| arcs carrying an authored verdict | **781** (98.4 %) |
+| research arcs with findings | **795** |
+| words of findings prose | **521,003** |
+| test lock files referenced | **534** |
+| arcs carrying an authored verdict | **782** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 483 |
+| PROVED | 484 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B870`** (602 words, 1 locks)  
-G7 CLOSED -- the central-extension lift obstruction, computed exactly: for the 2-generator 1-relator presentations (SnapPy; relators certified not-proper-powers, so Lyndon asphericity applies) H^2(pi_1; A) = A/gcd(e_a,e_b)A from the augmented Fox row. m004: relator aaabABBAb, sums (1,0), gcd 1 => H^2 = 0 for EVERY coefficient group -- every flat E6/Z3 structure lifts to E6 and B862's Z6 global form meets no obstruction on the object (Culler's lifting theorem named as the p=2 ancestor); the lift count is a torsor under H^1 = Hom(H_1;Z): 3 lifts through Z/3, 6 through Z/6 (the measurement-as-torsor motif, B707 cross-ref, observation only). m003 (the sister): relator abAAbabbb, sums (0,5) => unobstructed at the atom prime 3 but obstruction group Z/5 at p=5 -- the first nonzero central-lift obstruction group in the program, on the sister, at the golden prime (flagged, unweighted). Precisely scoped: nonzero group means obstructed bundles are POSSIBLE, not that any given bundle is obstructed; the object->gauge-group bridge is not established here; rel-boundary cohomology not computed.  
-`B870_lift_obstruction/FINDINGS.md`
+**PROVED — `B871`** (497 words, 1 locks)  
+G5 CLOSED at the group layer -- the cascade's last owed definition is paid: a chirality-REGISTERING measurement is the B599 pairing datum (bra chi_R, theta-odd dial-neutral probe f_rho = chi_rho - chi_rhobar, invariant contraction) with evaluation A = mult_rho - mult_rhobar in Z. Four legs verified on every cascade menu row: (1) A is ODD under the theta-class swap (it registers); (2) B599 parity -- the even part of the generation contributes 0, the odd remainder carries everything: registering is an n=2 second-order hearing, the B593 shape; (3) the keystone equivalence (exists rho: A != 0) <=> B861's gate, row by row, both failures (Sp(8), SU(4)xU(1): all A = 0) and all six passes; the SM registers with amplitude 2 at the doubled (3bar,1); (4) blindness on failing rows realized by the Schur multiset pairing, with B860's J6 = epsilon on Lambda^2(4) reverified over Z against all 15 sl(4) generators. 'Registerable' = 'a B599-legal chirality measurement exists'; the selection spine's imports reduce to P5 alone. Remaining refinement flagged: realizing the probe inside the SU(3)_2 modular stage itself.  
+`B871_registering_datum/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

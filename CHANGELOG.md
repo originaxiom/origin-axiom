@@ -1,5 +1,9 @@
 # Changelog
 
+## B871 — G5 closed at the group layer: "registerable" IS the existence of a B599-legal chirality measurement
+- **The cascade's last owed definition, paid.** The registering datum: bra χ_R, **θ-odd dial-neutral probe f_ρ = χ_ρ − χ_ρ̄**, invariant contraction; evaluation A = mult_ρ − mult_ρ̄ ∈ ℤ. Four legs on every menu row: A odd under the swap; **B599 parity** (even part contributes 0 — registering is an n = 2 second-order hearing, the B593 shape); **the keystone equivalence** (∃ρ: A ≠ 0 ⟺ B861's gate, both failures and all six passes; the SM registers with amplitude 2); blindness = Schur pairing with **B860's J6 = ε reverified over ℤ**.
+- **The selection spine's imports reduce to P5 alone.** Remaining refinement flagged: realizing the probe inside the SU(3)₂ modular stage itself. 8 locks. Gate 5 untouched.
+
 ## B870 — G7 closed: the object is lift-unobstructed at EVERY prime; the sister turns on at 5
 - **The two-line theorem**: for the 2-generator 1-relator presentations (relators certified not-proper-powers → Lyndon asphericity), H²(π₁; A) = A/gcd(e_a,e_b)·A from the augmented Fox row. **m004: sums (1,0) → H² = 0 for every coefficient group** — every flat E₆/ℤ₃ structure lifts to E₆, and B862's ℤ₆ global form meets no obstruction on the object (**Culler's lifting theorem named** as the p = 2 ancestor). Lift count = torsor under H¹: 3 through ℤ/3, 6 through ℤ/6 (the measurement-as-torsor motif, B707 cross-ref — observation only).
 - **The object/sister split at 5**: m003's sums (0,5) → unobstructed at the atom prime 3, **obstruction group ℤ/5 at p = 5** — the first nonzero central-lift obstruction group in the program, on the sister, at the golden prime (flagged, unweighted). Scoped precisely: a nonzero group means obstructed bundles are *possible*, not that any given bundle is obstructed; the object→gauge bridge not established here; rel-∂ not computed. 7 locks. Gate 5 untouched.

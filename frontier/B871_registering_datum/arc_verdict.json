@@ -1,0 +1,15 @@
+{
+ "id": "B871",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "G5 CLOSED at the group layer -- the cascade's last owed definition is paid: a chirality-REGISTERING measurement is the B599 pairing datum (bra chi_R, theta-odd dial-neutral probe f_rho = chi_rho - chi_rhobar, invariant contraction) with evaluation A = mult_rho - mult_rhobar in Z. Four legs verified on every cascade menu row: (1) A is ODD under the theta-class swap (it registers); (2) B599 parity -- the even part of the generation contributes 0, the odd remainder carries everything: registering is an n=2 second-order hearing, the B593 shape; (3) the keystone equivalence (exists rho: A != 0) <=> B861's gate, row by row, both failures (Sp(8), SU(4)xU(1): all A = 0) and all six passes; the SM registers with amplitude 2 at the doubled (3bar,1); (4) blindness on failing rows realized by the Schur multiset pairing, with B860's J6 = epsilon on Lambda^2(4) reverified over Z against all 15 sl(4) generators. 'Registerable' = 'a B599-legal chirality measurement exists'; the selection spine's imports reduce to P5 alone. Remaining refinement flagged: realizing the probe inside the SU(3)_2 modular stage itself.",
+ "depends_on": [
+  "B599",
+  "B860",
+  "B861",
+  "B593"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

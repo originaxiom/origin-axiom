@@ -18207,6 +18207,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B871": {
+   "slug": "registering datum",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B593",
+    "B599",
+    "B860",
+    "B861",
+    "B863",
+    "B864",
+    "B868",
+    "B869",
+    "B870",
+    "P5"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B87": {
    "slug": "m3 genus",
    "motifs": [
