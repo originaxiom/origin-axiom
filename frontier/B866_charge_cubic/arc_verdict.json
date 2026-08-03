@@ -1,0 +1,14 @@
+{
+ "id": "B866",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished lines -- det of a generically-nonsingular 48x48 minor of the pencil ad(x8 + t x16), interpolated exactly from 50 rational points, factors as c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16, and the solo seat's cubic mu satisfies theirs(13t) = 2197*mine(t) IDENTICALLY -- same polynomial, two independent constructions. Multiplicity 16 = the centralizer jump 30 -> 46; irreducible, disc 2^32 3^10 5^2 7^3 11 13^6 non-square -> Galois S3; three real roots. Also exact: common kernel 12, nullities {x8:30, x16:30, x14:12, x22:12}, generic pencil 30. NOT verified here: the type so(10)+u(1) and the coset 16+16bar (the solo seat's leg). The generations reading stays a SIGNATURE. Two float failures en route (fake-everywhere, then fake-nothing); exact interpolation decided.",
+ "depends_on": [
+  "B854",
+  "B861",
+  "B863"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, verifying the solo seat (2026-08-03)"
+}

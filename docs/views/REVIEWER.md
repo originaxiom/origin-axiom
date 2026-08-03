@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **789** |
-| words of findings prose | **517,316** |
-| test lock files referenced | **528** |
-| arcs carrying an authored verdict | **776** (98.4 %) |
+| research arcs with findings | **790** |
+| words of findings prose | **518,022** |
+| test lock files referenced | **529** |
+| arcs carrying an authored verdict | **777** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 478 |
+| PROVED | 479 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B865`** (505 words, 1 locks)  
-THE PADDING LEMMA (proved, one line: in the free commutative monoid of multisets, M+S = conj(M)+S iff M = conj(M) for self-conjugate S, so adding self-conjugate content never flips a chirality verdict; machine-verified on 2000 random multisets with a non-vacuity lock showing a NON-self-conjugate pad CAN flip) + THE FULL-27 RERUN: every cascade step re-run with the entire descended 27 as ket gives identical verdicts and winners (SU(5)xU(1) and SM chiral, Pati-Salam chiral, SU(4)xU(1) vector-like), so B861's per-step re-anchoring is presentational and the referee's your-ket-changes attack closes. The dropped content is never physically dropped: 10_{-2}+1_{+4} are the anomaly ballast (B864's 16-20+4=0) and the chain's singlets land in (1,1)_0 -- the right-handed-neutrino slot. First-draft defect caught before banking: duplicate dict keys silently collapsing singlet counts.  
-`B865_padding_lemma/FINDINGS.md`
+**PROVED — `B866`** (706 words, 1 locks)  
+VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished lines -- det of a generically-nonsingular 48x48 minor of the pencil ad(x8 + t x16), interpolated exactly from 50 rational points, factors as c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16, and the solo seat's cubic mu satisfies theirs(13t) = 2197*mine(t) IDENTICALLY -- same polynomial, two independent constructions. Multiplicity 16 = the centralizer jump 30 -> 46; irreducible, disc 2^32 3^10 5^2 7^3 11 13^6 non-square -> Galois S3; three real roots. Also exact: common kernel 12, nullities {x8:30, x16:30, x14:12, x22:12}, generic pencil 30. NOT verified here: the type so(10)+u(1) and the coset 16+16bar (the solo seat's leg). The generations reading stays a SIGNATURE. Two float failures en route (fake-everywhere, then fake-nothing); exact interpolation decided.  
+`B866_charge_cubic/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

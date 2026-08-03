@@ -18067,6 +18067,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B866": {
+   "slug": "charge cubic",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B854"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [
