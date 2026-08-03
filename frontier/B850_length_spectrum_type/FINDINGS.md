@@ -100,6 +100,35 @@ arithmetic manifolds carry higher length-spectrum multiplicity. Pre-stated expec
 **Exploratory, no verdict, and weakly powered**: 27/45/82 lengths from a length-6 enumeration, with
 maxima of 4/3/2. It is a direction, not a measurement.
 
+## 4a. CELL 4 CORRECTED (B858, 2026-08-03) — re-run against a VALID null
+
+**B855 established that m003 is COMMENSURABLE with m004**, so Cell 4's original comparison used a
+family member as its control. Re-run with genuinely non-commensurable manifolds:
+
+| manifold | class | max | mean | #lengths |
+|---|---|---|---|---|
+| m004 | **arithmetic** (golden, ℚ(√−3)) | 4 | 1.67 | 27 |
+| m003 | arithmetic — **COMMENSURABLE, not a control** | 3 | 1.47 | 45 |
+| m136 | **arithmetic** (silver, ℚ(i)) | 4 | 1.45 | 51 |
+| **m009** | **arithmetic** (ℚ(√−7), index 3) — **non-commensurable** | **8** | 1.67 | 42 |
+| m015 = 5₂ | **non-arithmetic** (cubic, disc −23) | 2 | 1.07 | 82 |
+
+> **m009 is arithmetic, non-commensurable with m004, and has DOUBLE m004's maximum multiplicity.**
+
+**So the original reading — "arithmetic > arithmetic > non-arithmetic", presented as matching the
+Vignéras expectation — does not survive.** The honest ordering is arithmetic **{4, 3, 4, 8}**
+against non-arithmetic **{2}**: arithmeticity raises multiplicity relative to the single
+non-arithmetic control, but **m004 is not distinguished within the arithmetic class — it is
+exceeded by one.**
+
+**A distinction the original cell missed:** m009 is a valid null for **genericity** (different
+commensurability class) but **not** a control for **arithmeticity** (it is itself arithmetic). Cell
+4's question needs both kinds of control, and the original had neither.
+
+**Still exploratory and still weakly powered** — one non-arithmetic control, length-6 enumeration,
+maxima in single digits. It is a direction, not a measurement, and now with the right sign on the
+one claim it can support.
+
 ## 5. Three implementation defects in two arcs, all caught by the seal
 
 Worth naming as a pattern rather than three incidents:
