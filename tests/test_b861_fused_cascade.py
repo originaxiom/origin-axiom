@@ -40,7 +40,7 @@ def test_where_the_principle_bites_vs_where_ranking_decides():
         for r in RES[k]["menu"]:
             if not r["registerable"]:
                 bites.append(r["option"])
-    assert sorted(bites) == ["Sp(8)", "SU(4)xU(1)"], bites
+    assert set(bites) == {"Sp(8)", "SU(4)xU(1)"}, bites   # set: ASCII sorts SU before Sp
 
 
 def test_conjugation_table_is_an_involution_with_no_name_collisions():
