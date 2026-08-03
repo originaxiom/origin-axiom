@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-775 of 788 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+776 of 789 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (477)
+## PROVED (478)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -489,6 +489,7 @@
 | `B862` | The cascade's step-3 winner, as a GROUP inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 -- kernel computed exactly (order 6, all sixth-root indices, hypercharge direction diag(2,2,2,-3,-3)/6 explicit). The SM's own data leaves Gamma in {1,Z2,Z3,Z6} ambiguous (Tong 1705.01853); the chain FORCES Z6, resolving a structural ambiguity the SM itself cannot -- conditional on exactly what the cascade is conditional on (P5 + the fused rule), and falsifiable in principle via line-operator spectra. |  | 1 |
 | `B863` | THE TERMINATION THEOREM: the fused cascade halts at the SM because the SM is the TERMINAL registerable algebra -- every proper descent kills registerability (su(2)->u(1) makes the colour content vector-like {3:2,3bar:2}; su(3)->su(2)xu(1) leaves only pseudoreal reps; the GENUINE conformal embedding su(2)_4 in su(3)_1 at c=2 branches the 3 to the REAL triplet and dies too; abelianization leaves dial only) while the SM itself stays chiral (positive control). The halt is principled: the (3,2) is the last unpaired complex structure -- and the kind-check from physics is that QCD+QED, what survives EW breaking, is vector-like. Answers the completeness critic's G1 before the referee can fire it. Menu import (P5) stated, not hidden. |  | 1 |
 | `B864` | THE ANOMALY LEDGER (the critic's G3, exact): (1) over the full 27/16 every chain U(1) is anomaly-free -- nothing at parent level forces truncation; (2) over the CHIRAL matter the dials become anomalous (psi over the 16: Tr=16, Tr^3=16, [SO(10)]^2=2; chi over 10+5bar: Tr=5, Tr^3=125) -- an anomalous U(1) cannot be gauged, so the framework's dial-reading is now a CONSEQUENCE; (3) UNIQUENESS: Q = aY + b*chi + c*psi over the generation gives grav = 5b+15c, [SU(3)]^2 = 2c, [SU(2)]^2 = 2c, forcing b = c = 0 -- HYPERCHARGE IS THE UNIQUE GAUGEABLE ABELIAN DIRECTION, and its cubic vanishes for free. The derivation arrow: the cascade's dial-stripping rule = anomaly consistency of the chiral sector. L5 upgraded from cited-wrong to computed. Does NOT derive the re-anchoring itself (G2 stands). |  | 1 |
+| `B865` | THE PADDING LEMMA (proved, one line: in the free commutative monoid of multisets, M+S = conj(M)+S iff M = conj(M) for self-conjugate S, so adding self-conjugate content never flips a chirality verdict; machine-verified on 2000 random multisets with a non-vacuity lock showing a NON-self-conjugate pad CAN flip) + THE FULL-27 RERUN: every cascade step re-run with the entire descended 27 as ket gives identical verdicts and winners (SU(5)xU(1) and SM chiral, Pati-Salam chiral, SU(4)xU(1) vector-like), so B861's per-step re-anchoring is presentational and the referee's your-ket-changes attack closes. The dropped content is never physically dropped: 10_{-2}+1_{+4} are the anomaly ballast (B864's 16-20+4=0) and the chain's singlets land in (1,1)_0 -- the right-handed-neutrino slot. First-draft defect caught before banking: duplicate dict keys silently collapsing singlet counts. |  | 1 |
 
 ## NEGATIVE (260)
 

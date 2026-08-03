@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **788** |
-| words of findings prose | **516,811** |
-| test lock files referenced | **527** |
-| arcs carrying an authored verdict | **775** (98.4 %) |
+| research arcs with findings | **789** |
+| words of findings prose | **517,316** |
+| test lock files referenced | **528** |
+| arcs carrying an authored verdict | **776** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 477 |
+| PROVED | 478 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B864`** (600 words, 1 locks)  
-THE ANOMALY LEDGER (the critic's G3, exact): (1) over the full 27/16 every chain U(1) is anomaly-free -- nothing at parent level forces truncation; (2) over the CHIRAL matter the dials become anomalous (psi over the 16: Tr=16, Tr^3=16, [SO(10)]^2=2; chi over 10+5bar: Tr=5, Tr^3=125) -- an anomalous U(1) cannot be gauged, so the framework's dial-reading is now a CONSEQUENCE; (3) UNIQUENESS: Q = aY + b*chi + c*psi over the generation gives grav = 5b+15c, [SU(3)]^2 = 2c, [SU(2)]^2 = 2c, forcing b = c = 0 -- HYPERCHARGE IS THE UNIQUE GAUGEABLE ABELIAN DIRECTION, and its cubic vanishes for free. The derivation arrow: the cascade's dial-stripping rule = anomaly consistency of the chiral sector. L5 upgraded from cited-wrong to computed. Does NOT derive the re-anchoring itself (G2 stands).  
-`B864_anomaly_ledger/FINDINGS.md`
+**PROVED — `B865`** (505 words, 1 locks)  
+THE PADDING LEMMA (proved, one line: in the free commutative monoid of multisets, M+S = conj(M)+S iff M = conj(M) for self-conjugate S, so adding self-conjugate content never flips a chirality verdict; machine-verified on 2000 random multisets with a non-vacuity lock showing a NON-self-conjugate pad CAN flip) + THE FULL-27 RERUN: every cascade step re-run with the entire descended 27 as ket gives identical verdicts and winners (SU(5)xU(1) and SM chiral, Pati-Salam chiral, SU(4)xU(1) vector-like), so B861's per-step re-anchoring is presentational and the referee's your-ket-changes attack closes. The dropped content is never physically dropped: 10_{-2}+1_{+4} are the anomaly ballast (B864's 16-20+4=0) and the chain's singlets land in (1,1)_0 -- the right-handed-neutrino slot. First-draft defect caught before banking: duplicate dict keys silently collapsing singlet counts.  
+`B865_padding_lemma/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
