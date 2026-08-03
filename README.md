@@ -4,6 +4,16 @@ A claim-bounded, reproducible investigation of the **Origin Axiom** — the idea
 existence is a *frustrated cancellation*: a remainder left when an attempt to cancel to
 nothing cannot complete.
 
+> **State at Review 37 (2026-08-03).** The SM-structure window closed: the selection spine
+> (repair → fused principle → termination → anomaly split → registerability keystone → menu
+> gate) carries **zero load-bearing imports**; the **First Measurement Theorem** (the object's
+> superselection charges stratify e₆; three Galois-conjugate first breakings; triality tiling
+> with a cyclic law; matter = the two foreign sectors) is a **two-seat theorem**; **THE
+> DESCENT** shows each breaking's matter is exactly one SM generation's multiplet pattern while
+> the triple lives *across* the three breakings, not within one. Structure only — no values,
+> no generations mechanism, Gate 5 untouched. Ledger: `docs/progress/REVIEWS.md` Review 37.
+
+
 This repository is the **consolidated, canonical home** of the project. It supersedes four
 earlier repositories (see `legacy/github-repos.md`) and a long series of exploratory
 sessions. It was created on 2026-05-22 after a full audit of all prior work

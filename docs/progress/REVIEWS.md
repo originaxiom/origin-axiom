@@ -2837,12 +2837,12 @@ Completed in B846.
 
 ### Action items (Review 36)
 
-- [ ] R36-1: **re-ask "could this gate still fail?" across all 19 gates.** Three were found fail-open
+- [>] R36-1 (carried to R37-1): **re-ask "could this gate still fail?" across all 19 gates.** Three were found fail-open
   by drift in this window alone, none by the standing audit. **This is the highest-value instrument
   task in the repository.**
-- [ ] R36-2: **P5 Phase 2** — the table-first draft, carrying Phase 1's four reshaped claims and the
+- [>] R36-2 (carried to R37-4): **P5 Phase 2** — the table-first draft, carrying Phase 1's four reshaped claims and the
   **Q2 two-cell row** (`EVIDENCE` vs `HYPOTHESIS VERIFIED`), with Phase 3 pointed at that row.
-- [ ] R36-3: **calibrate my priors on panels** — four consecutive underestimates set B842's gate too
+- [>] R36-3 (carried to R37-5): **calibrate my priors on panels** — four consecutive underestimates set B842's gate too
   low. Future panel gates should be set from the **measured** κ history (0.9312 / 0.9305 / 0.9300 /
   0.8732), not from intuition.
 - [>] R36-4 (carried from R34-5): **wave 1's own re-audit** — the sampler exists and wave 2 used it;
@@ -2855,3 +2855,76 @@ Completed in B846.
 - [>] R36-7 (carried, owner/external): the specialist pass and the L95 prereg.
 
 anchor-commit: `a3ccd97d` (Review 36)
+
+---
+
+## Review 37 — 2026-08-03 (merges 1–46 from Review 36; the SM-structure / First-Measurement window)
+
+anchor-commit: `700eb5f6` (Review 37)
+
+1. **Suite:** green — **3377 passed, 0 failed, 35 skipped** (53:04), the dedicated Review-37 run at the anchor.
+2. **Gates:** 19/19 green at review time and at every push in the window (three pushes tonight,
+   pre-push hook green each time).
+3. **Atlas:** regenerated and fresh at review time (797 arc dirs).
+4. **Promotion-candidacy sweep (§5.1).** The window banked **B848–B877** (46 merges; 26 PROVED,
+   3 banked NEGATIVE). The mathematics-lane candidates that meet the §5 bars on their face
+   (exact or certified, locked, scrutinized) — **listed for the promotion audit, not promoted
+   here**:
+   - **The First Measurement Theorem** (B866+B872+B874+B875+B877): the flagship candidate — a
+     TWO-SEAT theorem, every clause exact, no floating point; clauses A–E each independently
+     verified on this seat's build. The strongest promotion candidate the mathematics lane has
+     ever had.
+   - **The termination theorem** (B863): the SM as the terminal registerable algebra.
+   - **The registerability keystone** (B871): the cascade's gate ⟺ existence of a B599-legal
+     chirality measurement; exact integers, both failure witnesses explicit.
+   - **The lift-obstruction theorem** (B870): H²(π₁(m004); A) = 0 for every A; the sister's
+     ℤ/5 at p = 5. Two-line proof, exact.
+   - **Gate P5 / winner-safety** (B873): citation-free above the winner line; the A₁-cap
+     theorem (156/60/20); SU(3)₉ decided.
+   - **The measurement ladder** (B874): the two-value cliff; Cent(C) = su(2,1) ⊕ C exact.
+   - **The false-positive control** (B869): eligibility 21/31; the Sym² negative control.
+   - **The ℤ₆ global form** (B862) and **the anomaly ledger** (B864).
+   - Early-window arcs (B848–B858) defer to the audit lane for individual adjudication.
+   The audit lane (R37-2 below) should process these through the §5 gates one by one, logged.
+5. **Framing/stale-leads:** framing gate green repo-wide. Scoped stale-check on `OPEN_LEADS`
+   rows adjacent to this window's results: the long-standing OPEN rows (L5/L6/L7, L25/L26
+   prior-art passes) belong to other subsystems and are not contradicted; no stale rows
+   created by this window were found. The full-catalog audit remains a carried item.
+6. **Defects found BY this review:**
+   - **B877's `arc_verdict.json` was missing** — the banking chain died at a failing lock
+     before the verdict step, and the successful retry skipped it. Restored during this
+     review with a process note in the verdict. Lesson (recurring shape): a multi-step
+     banking chain that fails mid-way and is retried must re-run ALL steps, not resume from
+     the failure point by memory. The gate suite did not catch a missing verdict file —
+     candidate new gate: every `frontier/B*/FINDINGS.md` must have a sibling
+     `arc_verdict.json` (add to R37-1's could-it-still-fail pass).
+
+### Window highlights (for the record, three lines)
+
+The referee queue G1–G7 closed and the selection spine reached **zero load-bearing imports**
+(B868–B873). The charge-measurement/triality story became a **two-seat theorem** (B875/B877),
+and **THE DESCENT** (B876) landed both halves: each breaking's matter = exactly one SM
+generation's multiplet pattern; the triple does not survive within a breaking — the S₃ lives
+across the three breakings. Three draft errors were caught by the discipline itself (the
+compact-u(1) claim by a commit-gating lock; the projector trap by the tiling run; the
+per-sector grading by non-clustering charges) — all recorded in their arcs.
+
+### Action items (Review 37)
+
+- [ ] R37-1 (carries R36-1, still undone, still highest-value): **re-ask "could this gate
+  still fail?" across all 19 gates**, now including the new candidate gate: FINDINGS ⟹
+  sibling arc_verdict.json (this review found one missing).
+- [ ] R37-2: **the §5.1 promotion audit over the listed candidates**, the First Measurement
+  Theorem first. Every promotion through the gates, logged.
+- [ ] R37-3: **the joint queue with the solo seat**: (i) the across-breakings reformulation
+  of O3; (ii) descent stage 2 (the graded multiplication table); (iii) the exact ℚ(ρ) pass
+  (their (b)) + the levi2.py manifest completion.
+- [>] R37-4 (carried R36-2): P5_monoid Phase 2 (the paper; unrelated to gate P5).
+- [>] R37-5 (carried R36-3): panel priors from measured κ history.
+- [>] R37-6 (carried R36-4): wave 1's own re-audit.
+- [>] R37-7 (carried R36-5): the law-harvest over 105 unread candidates; the 65 BOTH-LITERAL
+  vacuity triage.
+- [>] R37-8 (carried R36-6): the 166 face attachments second panel; B590's m=3 sealing;
+  the 49 `false` provenance flags.
+- [>] R37-9 (carried R36-7, owner/external): the specialist pass and the L95 prereg.
+

@@ -1,5 +1,15 @@
 # THE MASTERPLAN — APPROVED (2026-07-04; owner sign-off received)
 
+> **State at Review 37 (2026-08-03).** The SM-structure window closed: the selection spine
+> (repair → fused principle → termination → anomaly split → registerability keystone → menu
+> gate) carries **zero load-bearing imports**; the **First Measurement Theorem** (the object's
+> superselection charges stratify e₆; three Galois-conjugate first breakings; triality tiling
+> with a cyclic law; matter = the two foreign sectors) is a **two-seat theorem**; **THE
+> DESCENT** shows each breaking's matter is exactly one SM generation's multiplet pattern while
+> the triple lives *across* the three breakings, not within one. Structure only — no values,
+> no generations mechanism, Gate 5 untouched. Ledger: `docs/progress/REVIEWS.md` Review 37.
+
+
 *Built on verdicts only. Draft hardened by a 3-member adversarial panel (rigor auditor,
 strategist, mathematician) whose single most important catch — the seam-persistence
 pivot was an embedding-max artifact — was re-checked and CORRECTED before this rewrite

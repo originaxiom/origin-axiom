@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+> **State at Review 37 (2026-08-03).** The SM-structure window closed: the selection spine
+> (repair → fused principle → termination → anomaly split → registerability keystone → menu
+> gate) carries **zero load-bearing imports**; the **First Measurement Theorem** (the object's
+> superselection charges stratify e₆; three Galois-conjugate first breakings; triality tiling
+> with a cyclic law; matter = the two foreign sectors) is a **two-seat theorem**; **THE
+> DESCENT** shows each breaking's matter is exactly one SM generation's multiplet pattern while
+> the triple lives *across* the three breakings, not within one. Structure only — no values,
+> no generations mechanism, Gate 5 untouched. Ledger: `docs/progress/REVIEWS.md` Review 37.
+
+
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 

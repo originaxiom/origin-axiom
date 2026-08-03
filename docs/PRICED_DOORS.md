@@ -5,6 +5,16 @@ asserts no crossing. Each physics word is earned in one of three currencies — 
 a controlled limit, or physical instantiation — and shapes are free while currencies are not.
 The honest anchors are stated first; framing lock GOVERNANCE §2 applies to every row.)*
 
+> **State at Review 37 (2026-08-03).** The SM-structure window closed: the selection spine
+> (repair → fused principle → termination → anomaly split → registerability keystone → menu
+> gate) carries **zero load-bearing imports**; the **First Measurement Theorem** (the object's
+> superselection charges stratify e₆; three Galois-conjugate first breakings; triality tiling
+> with a cyclic law; matter = the two foreign sectors) is a **two-seat theorem**; **THE
+> DESCENT** shows each breaking's matter is exactly one SM generation's multiplet pattern while
+> the triple lives *across* the three breakings, not within one. Structure only — no values,
+> no generations mechanism, Gate 5 untouched. Ledger: `docs/progress/REVIEWS.md` Review 37.
+
+
 ## The two route-less items (stated up front, no probes registered)
 
 - **3+1 spacetime** — no visible route from this mathematics. Not priced; not walked.

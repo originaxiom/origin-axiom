@@ -123,6 +123,15 @@ extract SM *values* from the object (the structural theorem forbids that from th
 
 ### C — Multiplicity → the generation count (the sharpened gate, with a refutation condition)
 
+> **Review-37 update (2026-08-03, B866–B877).** O3 gained and lost a candidate in one window:
+> the object's three Galois-conjugate first-breaking charges (the First Measurement Theorem,
+> two-seat) supply a forced, unlabelable S₃ triple whose "3" is triality — but **THE DESCENT
+> (B876) shows the triple does NOT survive within a single breaking** (the SM grading is
+> violently transverse to the sector split; each breaking's matter is exactly ONE generation's
+> multiplet pattern). If this triple is to answer C, it must be an **across-breakings**
+> reading (three measurements ↔ three generations-as-perspectives) — reformulation flagged,
+> unweighted, on the joint queue.
+
 **Probation P13 (B562, 2026-07-13): the triality-on-27 route is TOMBSTONED** — the 27 splits 9+9+9 into trinification color/L/R blocks (the "wrong 3"), not 3×27=81 (grounded in B298/B299). Generation-count needs a different route (cover-tower multiplicities, B368). Gate D: probation P14 found a finite-N trace-map transversality witness (partial in-sandbox). Gate B: probation P12 confirmed no exceptional 3d-3d state integral exists (SPECIALIST). 
 **Question.** The SM has 3 generations; B307 proved a *single* hyperbolic knot cannot carry a symmetric (C₃) three-
 generation trace field. So 3 must come from **multiplicity/relation**. The figure-eight carries an *intrinsic*

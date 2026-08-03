@@ -22,6 +22,12 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 
 ## The catalog
 
+> **Review-37 note (2026-08-03).** Scoped stale-check clean for the B848–B877 window (the
+> long-standing OPEN rows belong to other subsystems). New standing joint-queue leads (with
+> the solo seat): the **across-breakings O3 reformulation**; **descent stage 2** (the graded
+> multiplication table); the **exact ℚ(ρ) pass** for the First Measurement Theorem's sector
+> invariants. Full-catalog audit remains a carried review item (R37-7).
+
 > **PROBATION RESULTS (2026-07-13):** the campaign RAN — 21 verdicts in `frontier/B562_probation_campaign/RESULTS.md` (6 LIVE incl. B564 SL(3)-reducible; 5 verified TOMBSTONE -> TOMBSTONES.md; 3 SPECIALIST; 2 DORMANT; 5 NEEDS-RERUN kept open: B85, L5/L6, Cell-3-count, ρₙ, L38-Higgs/scale). Spec below.
 
 > **PROBATION CAMPAIGN (2026-07-13, B562):** all open leads are on probation — each has one
