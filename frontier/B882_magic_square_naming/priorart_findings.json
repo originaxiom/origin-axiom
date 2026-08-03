@@ -1,0 +1,539 @@
+[
+ {
+  "angle": "Physics literature on three generations from triality/octonions/magic-square constructions, contrasted with a core+3\u00d716 cyclic-S3 E6 decomposition",
+  "claims": [
+   {
+    "statement": "Dubois-Violette and Todorov propose that the triality corresponding to the 3 off-diagonal octonionic elements of the exceptional Jordan algebra J3(O) (dim 27, Albert algebra) is associated with the 3 generations of the Standard Model, while the complex-4-dim representation of octonions is associated with quark-lepton symmetry.",
+    "source": "Dubois-Violette & Todorov, \"Exceptional quantum geometry and particle physics\" (1604.01247) and \"...II\" (1808.08110)",
+    "relevance": "Directly matches the language of 'three off-diagonal summands' \u2014 but their object is J3(O) (27-dim Jordan algebra, hermitian 3x3 octonionic matrices), not e6 itself; could not confirm from full text whether they identify the off-diagonal blocks with an S3-permuted cyclic bracket law [Vi,Vj]=Vk analogous to yours \u2014 abstract-level search only.",
+    "quote": "the triality which corresponds to the 3 off-diagonal octonionic elements of the exceptional algebra is associated to the 3 generations of the Standard Model"
+   },
+   {
+    "statement": "Latham Boyle's magic-square/triality papers propose that a single generation of SM fermions is described by the tangent space of the complexified octonionic projective plane (OP^2_C, related to F4/E6), and speculates SO(8) triality underlies the existence of exactly three generations.",
+    "source": "Latham Boyle, \"The Standard Model, the Exceptional Jordan Algebra, and Triality\" (arXiv 2006.16265, published JMP 2026) and follow-up \"Three Generations and a Trio of Trialities\" (arXiv 2409.17948)",
+    "relevance": "Closest published analogue to your E6=core+V1+V2+V3 with cyclic law: Boyle explicitly ties triality (permuting the three 8-dim reps of SO(8): vector/spinor+/spinor-) to three generations via the magic square, and the newer paper extends to identifying su(3)+su(2)+u(1) inside tri(C)+tri(H)+tri(O). Mechanism differs from generations-as-three-SO(10)-breakings framing in your result \u2014 need to verify whether Boyle's 'three generations' are three S3-permuted 16-dim cosets of core+Vi subalgebras or a different (non-Lie, triality-action-on-one-copy) structure.",
+    "quote": "SO(8) triality plays a fundamental underlying role in the exceptional Jordan algebra, and it is tempting to speculate that this phenomenon underlies the existence of three generations of standard model fermions"
+   },
+   {
+    "statement": "Furey's program builds three generations from a single copy of the (complex) octonion algebra C\u2297O acting on itself / on Cl(6) or Cl(8) minimal ideals \u2014 NOT from three E6 off-diagonal blocks or three SO(10) subalgebras \u2014 the 64-complex-dim space with su(3)\u2295u(1) action splits into 48 states = 3 generations of quarks+leptons under SU(3)_c\u00d7U(1)_em.",
+    "source": "Cohl Furey, \"Three generations, two unbroken gauge symmetries, and one eight-dimensional algebra\" (arXiv 1910.08395); also 1904.03186 (sedenion approach)",
+    "relevance": "Different mechanism class from your cyclic-E6 result: generations emerge as multiplicity in a single ideal decomposition of a Clifford algebra built from octonions, not as an S3 acting on three E6 subalgebra cosets. Explicitly NOT phrased as three-SO(10)-breakings.",
+    "quote": "48 states that exhibit the behaviour of exactly three generations of quarks and leptons under the standard model's two unbroken gauge symmetries"
+   },
+   {
+    "statement": "Ramond (1977) is credited by Boyle's paper as the first to propose that octonionic triality could explain the existence of three generations.",
+    "source": "cited within Boyle arXiv 2409.17948 per search summary",
+    "relevance": "Establishes priority: the general idea 'triality \u21d2 3 generations' predates all the above by ~45 years; could NOT independently confirm the Ramond 1977 citation/claim by reading primary text \u2014 this is an inference from the WebSearch synthesis, needs direct verification if used as a firm historical claim.",
+    "quote": "The idea that octonionic triality could explain the existence of three generations was first proposed in 1977 by Ramond."
+   },
+   {
+    "statement": "Dray, Manogue, and Wilson describe E6 via 3x3 octonionic Hermitian matrices (Albert-algebra-based), covering subgroups G2, F4, SO(9,1); a later Wilson paper (the 'octions' model) explicitly relates weak-SU(2) symmetry breaking to the symmetry breaking between the three generations, but this is presented as three EMBEDDINGS/breakings tied to weak SU(2), not as three off-diagonal E6 cosets with a cyclic [Vi,Vj]=Vk law.",
+    "source": "Dray, Manogue, Wilson, \"Octonions, E6, and Particle Physics\" (0911.2253) and \"Octonionic Cayley Spinors and E6\" (0911.2255); Robert Wilson's 'octions' follow-up (2024, per robwilson1.wordpress.com)",
+    "relevance": "A distinct mechanism (generation-splitting tied to electroweak breaking, not to an S3 permutation symmetry among three SO(10)+U(1) subalgebras of E6) \u2014 could NOT locate the exact 'octions' arXiv paper via this search; the mechanism claim is second-hand from a search snippet, not confirmed by reading the primary source.",
+    "quote": "how the symmetry-breaking of the weak SU(2) relates to the symmetry-breaking between the three generations of elementary fermions"
+   },
+   {
+    "statement": "An E6^L x E6^R unification paper (search snippet, unclear author, possibly related to Gresnigt/Furey school) claims 'Standard model fermions constructed from E6 arise in three triality-related ways' and that 'unbroken triality is responsible for the origin of three identical fermion generations in the unified phase,' with breaking of triality (concurrent with electroweak breaking) producing three distinct generations via J3(O_C).",
+    "source": "Unattributed search-summary result (likely from arXiv 2508.10131 'Fermion mass ratios from the exceptional Jordan algebra' or a related 2025-2026 paper) found via query \"triality three generations E6 family symmetry\"",
+    "relevance": "Very close in spirit to your S3-permuting-three-sectors structure and your core+Vi=SO(10)+U(1) claim, but I could NOT confirm the exact paper, author, or verify whether their 'three triality-related ways' literally means three E6 subalgebras core+Vi with [Vi,Vj]=Vk \u2014 this needs direct primary-source verification before treating as confirmed prior art.",
+    "quote": "Standard model fermions constructed from E6 arise in three triality-related ways, which is suspected to be the origin of the three generations of fermions in the standard model."
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/abs/2006.16265",
+   "https://arxiv.org/html/2409.17948",
+   "https://arxiv.org/pdf/1808.08110"
+  ]
+ },
+ {
+  "angle": "Trialitarian algebras (Knus-Merkurjev-Rost-Tignol, KMRT \"Book of Involutions\" 1998, ch. VII/VIII; Knus-Tignol arXiv:0912.3405; Barry-Tignol arXiv:2301.10130) give the CONFIRMED classical arithmetic realization of so(8) triality: outer forms of type D4 are classified by H\u00b9(F, Aut(D4)) = H\u00b9(F, W(D4)\u22caS3)-type cohomology, and the map to the S3 quotient sends a D4-type group to the isomorphism class of a CUBIC \u00c9TALE algebra L/F. The group is of \"trialitarian type\" \u00b3D4 precisely when L is a cyclic (Galois, cubic) field extension \u2014 this is the closest classical match to \"an irreducible cubic field with Galois group S3 selecting among triality sectors,\" though the literature's canonical statement is for the CYCLIC (\u00b3D4, Gal=\u2124/3) case, not general S3-cubic (\u2076D4, non-Galois cubic \u00e9tale algebra with S3 closure) \u2014 both cases occur but the \"cyclic composition\" / trialitarian-algebra machinery of KMRT is stated for cubic \u00e9tale algebras generally (with the group Gal(F)\u2192S3 factoring through the closure of L). I could NOT confirm any published source that connects this D4-cubic-\u00e9tale correspondence directly to an E6 decomposition e6 = (so(8)+u(1)^2) \u2295 V1\u2295V2\u2295V3 with the cyclic [Vi,Vj]=Vk law \u2014 that specific E6-level statement appears to be the origin-axiom project's own construction/inference, not something present in KMRT, Knus-Tignol, or Barry-Tignol. The E6\u2194SO(8)-triality link found in the wider literature is only the standard fact that E6's outer/folding structure is \"related to\" SO(8) triality (informal statements in physics-GUT sources), not an arithmetic cubic-\u00e9tale-algebra statement at the E6 level.",
+  "claims": [
+   {
+    "statement": "Trialitarian triples consist of three central simple algebras of degree 8 with orthogonal involution (A,\u03c3_A),(B,\u03c3_B),(C,\u03c3_C) over a field F (char \u2260 2), related by: the Clifford algebra of (A,\u03c3_A) is isomorphic to the direct product of (B,\u03c3_B) and (C,\u03c3_C). Trialitarian algebras over F are algebras with orthogonal involution of degree 8 OVER A CUBIC \u00c9TALE F-ALGEBRA, isomorphic after scalar extension to the direct product of algebras in a trialitarian triple.",
+    "source": "Knus, Merkurjev, Rost, Tignol, 'The Book of Involutions' (AMS Colloquium Publications vol. 44, 1998), Ch. VII-VIII on trialitarian algebras; restated in Barry-Tignol 'Trialitarian Triples' (arXiv:2301.10130)",
+    "relevance": "This is the precise classical definitional statement: triality-related structures are indexed by a CUBIC \u00c9TALE ALGEBRA over the base field \u2014 exactly the object type (cubic field/algebra) named in the task. Confirmed via multiple independent search hits (KMRT contents PDF, Barry-Tignol paper).",
+    "url": "https://arxiv.org/pdf/2301.10130"
+   },
+   {
+    "statement": "Adjoint algebraic groups of type D4 over a field F are classified by H\u00b9(F, Aut(G0)); the induced map in cohomology associates to a group G0 of type D4 the isomorphism class of a cubic \u00e9tale F-algebra L. The group G is of trialitarian type \u00b3D4 if and only if L is a cyclic (Galois) field extension of F.",
+    "source": "Knus & Tignol, 'Triality and \u00e9tale algebras' (arXiv:0912.3405, also published in a Documenta Math related volume); consistent statement also found via Book of Involutions summaries",
+    "relevance": "This is the CONFIRMED precise mechanism: Galois cohomology sends a D4-type object to a cubic \u00e9tale algebra, and specializes to the CYCLIC case (Gal = Z/3, i.e. an irreducible cubic with cyclic, not full S3, Galois group) for genuine trialitarian (\u00b3D4) groups \u2014 an important nuance: the pure S3-Galois-group case corresponds to a DIFFERENT (non-cyclic, '\u2076D4' / non-Galois cubic \u00e9tale) stratum, not the cyclic \u00b3D4 case usually emphasized as 'trialitarian.'",
+    "url": "https://perso.uclouvain.be/jean-pierre.tignol/KTriality.pdf"
+   },
+   {
+    "statement": "There is an induced trialitarian action on H\u00b9(\u0393, W(D4)) which associates to the isomorphism class of an extension S/S0 two further extensions S'/S0' and S''/S0'' of the same kind, so that the triple (S/S0, S'/S0', S''/S0'') is cyclically permuted by triality \u2014 matching the octic \u00e9tale algebras with trivial discriminant containing quartic subalgebras classified by H\u00b9(F, W(D4)).",
+    "source": "Knus & Tignol, 'Triality and \u00e9tale algebras' (arXiv:0912.3405)",
+    "relevance": "Confirms a Galois-cohomological CYCLIC PERMUTATION law among three algebraic objects induced by triality \u2014 directly analogous in structure (not content) to the claimed cyclic [Vi,Vj]=Vk law among the three 16-dim sectors of e6, though this source's objects are octic/quartic \u00e9tale algebras attached to D4, not E6 subspaces.",
+    "url": "https://arxiv.org/pdf/0912.3405"
+   },
+   {
+    "statement": "Simple algebraic groups of type \u00b3D4 over arbitrary fields of characteristic \u2260 2 may admit outer automorphisms of order 3, classified using a trialitarian algebra: outer automorphisms of order 3 exist iff the algebra is the endomorphism algebra of an 'induced cyclic composition.'",
+    "source": "Related summary drawn from search results citing arXiv:1409.1718 'Triality and Algebraic Groups of Type 3D4' and Barry-Tignol trialitarian-triples literature",
+    "relevance": "Shows the outer-automorphism-order-3 / cyclic-permutation structure is a live classical object of study, giving precedent for treating an S3 (or its cyclic subgroup) acting on a triality-triple as a first-class arithmetic structure, analogous to the S3 permuting V1,V2,V3 in the e6 decomposition.",
+    "url": "https://arxiv.org/pdf/1409.1718"
+   },
+   {
+    "statement": "E6 automorphisms/structure are 'related to' SO(8) triality; the S3 outer-automorphism group of D4 is responsible for triality among the vector and two spinor 8-dimensional representations of SO(8), and D4=so(8,C) is the unique simple Lie algebra exhibiting triality.",
+    "source": "Multiple physics-oriented sources found via search (e.g. discussions referencing 'Octonionic Cayley Spinors and E6' arXiv:0911.2255, 'The Structure of E6' arXiv:0711.3447, and general triality expositions such as Elduque's 'Triality' talk notes)",
+    "relevance": "Confirms the well-known qualitative link E6\u2194SO(8)-triality exists in the literature, but these are INFORMAL/structural statements (E6 contains so(8) with triality visible in its branching), NOT an arithmetic cubic-\u00e9tale-algebra statement at the E6 level. Could NOT find any source stating the KMRT cubic-\u00e9tale correspondence applied directly to E6 or to a decomposition e6 = (so(8)+u(1)^2)+V1+V2+V3.",
+    "url": "https://arxiv.org/pdf/0911.2255"
+   }
+  ],
+  "best_sources": [
+   "https://perso.uclouvain.be/jean-pierre.tignol/KTriality.pdf",
+   "https://arxiv.org/pdf/2301.10130",
+   "https://arxiv.org/pdf/0912.3405"
+  ]
+ },
+ {
+  "angle": "E6 decomposition via triality into SO(8)+U(1)^2 core plus three 16-dimensional sectors with cyclic bracket law\u2014exact statement from classical literature (Landsberg-Manivel, Vinberg) vs. inference.",
+  "claims": [
+   {
+    "statement": "Landsberg and Manivel proved dimension formulas for exceptional Lie algebras using the triality model of the magic square, with focus on E6, F4, E7, E8 and their decompositions.",
+    "source": "Landsberg & Manivel, 'Triality, Exceptional Lie Algebras and Deligne Dimension Formulas', Advances in Mathematics Vol. 171, pp. 59\u201385 (2002); arXiv:math/0107032 (2001).",
+    "relevance": "Directly addresses the triality construction framework for E6 that the user is investigating.",
+    "url": "https://arxiv.org/pdf/math/0107032"
+   },
+   {
+    "statement": "The decomposition of E6 under SO(10)\u00d7U(1) gives: adjoint 78 \u2192 45\u2080 + 16\u208b\u2083 + 16\u0304\u2083 + singlet; fundamental 27 \u2192 10\u208b\u2082 + 16\u2081 + 1\u2084. The spinor 16 and conjugate spinor 16\u0304 form a GUT generation pair.",
+    "source": "Multiple physics literature sources on SO(10) GUT and E6 embedding; verified in 'A Mathematical Construction of an E6 Grand Unified Theory' arXiv:2102.13465.",
+    "relevance": "Confirms the SO(10)+U(1) subalgebra structure with the two 16-dimensional spinor pair as coset; however, does NOT directly address the user's claim of three 16-dimensional summands in a SO(8)-based decomposition.",
+    "url": "https://arxiv.org/pdf/2102.13465"
+   },
+   {
+    "statement": "SO(8) triality: the Dynkin diagram D\u2084 admits outer automorphisms forming the group S\u2083 (six elements), which cyclically permute three inequivalent 8-dimensional representations\u2014the vector V and spinors S\u208a, S\u208b. These three representations become isomorphic under triality.",
+    "source": "Multiple sources: Lounesto, Baez, Barton-Sudbery constructions; 'The Signature Triality of Majorana-Weyl Spacetimes' (hep-th/0005035).",
+    "relevance": "Establishes the triality automorphism and cyclic permutation that underlies the claimed bracket law [V\u1d62,V\u2c7c]=V\u2096 with S3 acting on three sectors.",
+    "url": "https://arxiv.org/pdf/hep-th/0005035"
+   },
+   {
+    "statement": "The bracket of E8 and related exceptional Lie algebras can be constructed using triality via the Barton-Sudbery model, where the bracket rules respect the cyclic triality structure, with Jacobi identity verified through infinitesimal triality.",
+    "source": "Kollross, 'THE BRACKET OF THE EXCEPTIONAL LIE ALGEBRA E8' arXiv:2504.16513 (2025).",
+    "relevance": "Provides explicit bracket formulas for exceptional algebras using triality, demonstrates that cyclic bracket laws are classical and verified; analogous methods apply to E6.",
+    "url": "https://arxiv.org/pdf/2504.16513"
+   },
+   {
+    "statement": "Barton-Sudbery decomposition of E6 involves three copies of (\u2102\u2297\ud835\udd46) permuted by SO(8) triality symmetry, postulated to connect to three fermion generations in (\u2102\u2297\ud835\udd46)P\u00b2 as E6 coset space.",
+    "source": "Multiple sources on octonions and E6; 'Octonionic Cayley Spinors and E6' (arXiv:0911.2255); ResearchGate publications on Jordan-Clifford algebras.",
+    "relevance": "Confirms the three-sector structure permuted by SO(8) triality; however, uses (\u2102\u2297\ud835\udd46) as the 16-dimensional building block, not abstract Vi. Does NOT give explicit bracket [Vi,Vj]=Vk.",
+    "url": "https://arxiv.org/pdf/0911.2255"
+   },
+   {
+    "statement": "E6 subgroup structure: E6 \u2283 SO(10)\u00d7U(1) with explicit Weyl-spinor generators E\u03b1, their conjugates \u0112\u1d43, 45 SO(10) generators, and 1 U(1) generator; the 78-dim adjoint decomposes as 45 + 16 + 16\u0304 + 1.",
+    "source": "Greljo et al., 'Towards unification: SU(5) and SO(10)' (2012); multiple GUT model references.",
+    "relevance": "Confirms SO(10)\u00d7U(1) structure with two 16-dimensional sectors as coset representation; does NOT confirm SO(8)\u00d7U(1)\u00b2 as the core or the three 16-dimensional decomposition claimed.",
+    "url": "http://www-f1.ijs.si/~ziherl/Greljo12.pdf"
+   },
+   {
+    "statement": "COULD NOT CONFIRM directly from accessible sources: the explicit decomposition statement 'E6 = (SO(8) + U(1)\u00b2) + V\u2081 + V\u2082 + V\u2083' with all three V\u1d62 dimension 16, NOR the exact bracket rule '[V\u1d62,V\u2c7c] = V\u2096, a cyclic S3 permuting sectors, and each SO(10)+U(1) subalgebra = core + V\u1d62 with coset V\u2c7c+V\u2096 = 16+16\u0304'.",
+    "source": "No single source encountered explicitly states this complete decomposition form. The Landsberg-Manivel paper (arXiv:math/0107032) is available but only PDF title/abstract visible; full content verification needed.",
+    "relevance": "The user's framework combines classical triality (confirmed) with a specific three-16-dimensional decomposition and cyclic bracket structure that appears to be either: (a) from a specific chapter/section of L-M not captured in searches, (b) a derived formulation not yet published, or (c) from a different source entirely.",
+    "url": "https://arxiv.org/pdf/math/0107032"
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/pdf/math/0107032",
+   "https://arxiv.org/pdf/2504.16513",
+   "https://arxiv.org/pdf/0911.2255"
+  ]
+ },
+ {
+  "angle": "Verification of Lie algebra branching rules for E6 \u2192 SO(10) \u00d7 U(1) and SO(10) \u2192 SO(8) \u00d7 U(1) decompositions, with focus on the regrouping of E6's 48 non-core dimensions into three 16s and the associated U(1) charge assignments.",
+  "claims": [
+   {
+    "statement": "E6 adjoint representation branches to SO(10) \u00d7 U(1) as: 78 = 1\u2080 + 16\u208b\u2083 + 16\u0304\u2083 + 45\u2080",
+    "source": "Multiple sources including LieART documentation and E6 GUT literature (Yamatsu, PDG reviews); convention-dependent sign flip on U(1) charges exists in literature",
+    "url": "https://arxiv.org/pdf/1912.10969",
+    "relevance": "Core branching rule directly cited; the cyclic law [Vi,Vj]=Vk structure requires the adjoint to contain the generators of SO(10) core (45) plus charged pairs (16,16\u0304) for each sector.",
+    "quote": "78 = (1)(0) + (16)(3) + (16\u0304)(-3) + (45)(0)"
+   },
+   {
+    "statement": "E6 fundamental 27 representation branches to SO(10) \u00d7 U(1) as: 27 = 1\u2084 + 10\u208b\u2082 + 16\u2081 (charge signs vary by convention)",
+    "source": "E6 GUT literature, LieART, arXiv papers on E6 model building (1103.0069, 1402.2737)",
+    "url": "https://arxiv.org/pdf/1103.0069",
+    "relevance": "This decomposition shows how one generation (16 spinor) plus vector (10) plus singlet (1) emerge from the 27; the user's claim of three 16s requires understanding how multiple 27s (or adjoint sectors) combine.",
+    "quote": "27 = 1(4) + 10(-2) + 16(1)"
+   },
+   {
+    "statement": "SO(10) adjoint 45 branches to SO(8) \u00d7 U(1) as: 45 = 1\u2080 + 28\u2080 + 8_{s-1} + 8_{s+1}",
+    "source": "Search result from '5-dim Superconformal Index with Enhanced En Global Symmetry' (1206.6781); matches user's expected 8v + 8s pattern",
+    "url": "https://arxiv.org/pdf/1206.6781",
+    "relevance": "Confirms the branching of the SO(10) core into SO(8): the 28 is the SO(8) adjoint, and the two chiral spinors (8_s at \u00b11) pair up to form the SO(10) adjoint's off-diagonal content.",
+    "quote": "45 = 1\u2080 + 8_{s-1} + 8_{s1} + 28\u2080"
+   },
+   {
+    "statement": "SO(10) spinor 16 is a fundamental spinor representation that, when SO(10) breaks to SO(8) \u00d7 U(1), decomposes into SO(8) spinor representations",
+    "source": "Multiple sources on SO(10) model building and representation theory; Paul Booker's 'Spinor Decomposition of (16+) x (16+) in SO(10)', arXiv papers 0710.2857, 1701.04413",
+    "url": "https://www.paulbooker.co.uk/theoretical-physics/blog/Spinor-Decomposition-of-16+-x-16+-in-SO(10).html",
+    "relevance": "The spinor 16 of SO(10) is a chiral representation that splits under SO(8) \u00d7 U(1) branching; the exact decomposition involves the 8_s and 8_c spinor components of SO(8), but literature uses variable conventions.",
+    "quote": "The spinor representation of SO(10) is 2^5 dimensional and splits into chiral eigenstates"
+   },
+   {
+    "statement": "SO(8) possesses unique triality symmetry: three inequivalent 8-dimensional real irreducible representations (8_v vector, 8_s spinor, 8_c chiral spinor) are permuted by outer automorphism group S\u2083",
+    "source": "Comprehensive Lie algebra literature; recent paper arXiv:2502.14016 'Convenient bases for SO(8), Spin(1,7), and G2'; also standard group theory references",
+    "url": "https://arxiv.org/pdf/2502.14016",
+    "relevance": "SO(8) triality is critical to understanding the E6 cyclic law structure: the three Vi sectors in E6 = (SO(8)+U(1)\u00b2) + V1 + V2 + V3 may be related to how triality permutes the spinor spaces under breaking patterns.",
+    "quote": "SO(8) is exceptional in that its Dynkin diagram has an S\u2083 symmetry, permuting the vector 8_v and two chiral spinors 8_s, 8_c"
+   },
+   {
+    "statement": "Slansky 1981 'Group theory for unified model building', Physics Reports 79(1), is the canonical reference for branching rules and representation tables for unified model building",
+    "source": "ADS/NASA SAO database, SciSpace, multiple academic institutions; paper has 1600+ citations",
+    "url": "https://ui.adsabs.harvard.edu/abs/1981PhR....79....1S/abstract",
+    "relevance": "Primary classical reference cited by user; contains exhaustive branching tables for E6, SO(10), SO(8), and their U(1) charges needed to verify the regrouping claim.",
+    "quote": "Simple Lie algebras selected for the needs of unified model builders who study Yang-Mills theories"
+   },
+   {
+    "statement": "Yamatsu arXiv:1511.08771 'Finite-Dimensional Lie Algebras and Their Representations for Unified Model Building' provides branching rules for E6 \u2192 SO(10) \u2283 SO(8) chains up to rank-20 algebras",
+    "source": "arXiv abstract 1511.08771, cited in multiple follow-up papers (arXiv:1704.08827, 1606.07222, 2017 seminar slides at Kyoto)",
+    "url": "https://arxiv.org/abs/1511.08771",
+    "relevance": "Modern comprehensive reference for branching rules; directly applicable to the user's query about E6 \u2192 SO(10) \u00d7 U(1) and downstream SO(8) branchings, with U(1) charges tabulated.",
+    "quote": "[No direct quote available in abstract, but paper title and citations confirm it covers the exact chains requested]"
+   },
+   {
+    "statement": "LieART 2.0 is a Mathematica application (arXiv:1912.10969) that computes branching rules for all classical and exceptional Lie algebras up to rank 15, including E6 and SO(10), with supplementary branching tables provided",
+    "source": "arXiv:1912.10969, with supporting documentation at Vanderbilt repository and Academia.edu; LieART 1.0 at arXiv:1206.6379",
+    "url": "https://arxiv.org/pdf/1912.10969",
+    "relevance": "Computational tool that can verify the exact U(1) charges in the branchings claimed by the user; the supplementary material tables provide definitive reference data for E6 \u2194 SO(10) \u2194 SO(8) chains.",
+    "quote": "Extended tables of branching rules of irreducible representations are included in the supplementary material"
+   },
+   {
+    "statement": "U(1) charge conventions in branching rules vary across literature: same decomposition (e.g., 78 = 1 + 16 + 16\u0304 + 45) appears with opposite sign assignments (16\u208b\u2083 + 16\u0304\u2083 vs 16\u2083 + 16\u0304\u208b\u2083) depending on U(1) generator choice",
+    "source": "Multiple sources (arXiv:1103.0069, 1402.2737, 1206.6781, E6 GUT literature); sign convention depends on embedding choice in GUT breaking",
+    "url": "https://arxiv.org/pdf/1103.0069",
+    "relevance": "Critical caveat: when citing branching tables, one must specify the U(1) embedding convention used. The user's cyclic law and three-Vi structure may impose a preferred convention via the adjoint structure.",
+    "quote": "symmetry breaking E\u2086 \u00d7 U(1) \u2192 SO\u2081\u2080 \u00d7 U(1) can be made either by vev of 27(-1) or by vev of 27(2)"
+   },
+   {
+    "statement": "Particle Data Group 2017\u20132024 reviews on Grand Unified Theories (pdg.lbl.gov) contain definitive branching tables and U(1) charge assignments for E6 and SO(10) unification schemes",
+    "source": "PDG 2017 (rpp2017-rev-guts.pdf), PDG 2018, PDG 2024; also historical reviews in same series",
+    "url": "https://pdg.lbl.gov/2017/reviews/rpp2017-rev-guts.pdf",
+    "relevance": "Canonical publicly available reference for GUT branching rules; the exact tables the user seeks are likely present in these PDG sections, with standard notation and consistent U(1) conventions across entries.",
+    "quote": "[Tables not directly quoted in search results, but PDF link confirms document exists and contains relevant sections]"
+   },
+   {
+    "statement": "The three-16s regrouping of E6's 48 non-core dimensions is NOT explicitly confirmed in accessible search results as a direct classical claim",
+    "source": "Search results show adjoint 78 = 1 + 16 + 16\u0304 + 45, and fundamental 27 = 1 + 10 + 16, but no direct classical statement of 'three 16s from one E6 object' with U(1) charges",
+    "url": "N/A",
+    "relevance": "User claims E6 decomposes as (SO(8)+U(1)\u00b2) + V1 + V2 + V3 with each Vi = 16 and cyclic [Vi,Vj]=Vk; this STRUCTURE (three 16s forming a cyclic algebra) appears novel and would require verification against Slansky/Yamatsu branching tables directly.",
+    "quote": "N/A \u2014 NOT CONFIRMED in standard references"
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/abs/1511.08771",
+   "https://arxiv.org/pdf/1912.10969",
+   "https://pdg.lbl.gov/2017/reviews/rpp2017-rev-guts.pdf"
+  ]
+ },
+ {
+  "angle": "trialitarian-galois",
+  "claims": [
+   {
+    "statement": "CONFIRMED VERBATIM. Trialitarian triples = three central simple algebras of degree 8 with orthogonal involution (A,\u03c3A),(B,\u03c3B),(C,\u03c3C) over F (char \u2260 2), Clifford algebra of (A,\u03c3A) \u2245 direct product of (B,\u03c3B) and (C,\u03c3C); trialitarian algebras are degree-8 algebras with orthogonal involution OVER A CUBIC \u00c9TALE F-ALGEBRA, isomorphic after scalar extension to the direct product of a trialitarian triple.",
+    "source": "Barry & Tignol, 'Trialitarian Triples', arXiv:2301.10130v1, Abstract + Introduction p.1",
+    "relevance": "Fetched via Read (PDF) and confirmed verbatim: 'Trialitarian triples were introduced by Knus et al. [13, \u00a742.A]... They consist in three central simple algebras of degree 8 with orthogonal involution (A,\u03c3A), (B,\u03c3B), (C,\u03c3C) over a field F of characteristic different from 2 related by the property that the Clifford algebra of (A,\u03c3A) is isomorphic to the direct product of (B,\u03c3B) and (C,\u03c3C). Trialitarian algebras over F are defined in [13, \u00a743] as algebras with orthogonal involution of degree 8 over a cubic \u00e9tale F-algebra that are isomorphic after scalar extension of F to the direct product of the algebras in a trialitarian triple.' Also notes a rational, cohomology-free period-3 shift operator \u2202 on trialitarian triples (the paper's main new contribution vs. KMRT's cohomological \u2202). Confirms the object type named in the prior claim (cubic \u00e9tale algebra) exactly.",
+    "url": "https://arxiv.org/pdf/2301.10130",
+    "quote": "Trialitarian algebras over F are defined in [13, \u00a743] as algebras with orthogonal involution of degree 8 over a cubic \u00e9tale F-algebra..."
+   },
+   {
+    "statement": "PARTIALLY CONFIRMED / NUANCED \u2014 but the specific 'cyclic Galois cubic \u21d2 3D4' dichotomy was NOT found verbatim in the fetched text of either KTriality.pdf or arXiv:0912.3405 (both are the same Knus\u2013Tignol paper, 'Triality and \u00e9tale algebras'). What IS confirmed in this paper is a DIFFERENT, adjacent classification: octic (dimension-8) \u00e9tale F-algebras S/S0 with trivial discriminant, containing quartic subalgebras S0 of dimension 4, are classified by H\u00b9(\u0393, W(D4)) where \u0393=Gal(Fs/F) and W(D4) is the Weyl group of D4 (order 192, = S2^3\u22caS4).",
+    "source": "Knus & Tignol, 'Triality and \u00e9tale algebras', arXiv:0912.3405v2 (=KTriality.pdf), Abstract + Introduction p.1, and \u00a73 (Cohomology)",
+    "relevance": "Confirmed verbatim: 'The Galois cohomology set H\u00b9(\u0393,W(D4))... classifies isomorphism classes of \u00e9tale extensions S/S0 where S has dimension 8, S0 dimension 4 and S has trivial discriminant.' This is the object this paper actually classifies via cohomology \u2014 it is octic/quartic \u00e9tale algebras attached to the WEYL GROUP W(D4), not directly cubic \u00e9tale algebras attached to Aut(G0) for a D4-type algebraic group G0. The claimed statement (adjoint D4 groups classified by H\u00b9(F,Aut(G0)) inducing a map to cubic \u00e9tale algebras, with cyclic Galois cubic \u27fa type 3D4) is a real, standard fact from the Book of Involutions (KMRT, ch. VII, esp. \u00a744.B) and Springer\u2013Veldkamp, but it was NOT located verbatim in the pages of these two fetched papers (abstract/intro/\u00a71-\u00a75 read in full); it may appear later (\u00a76-8, not fully fetched) or belongs properly to KMRT itself, which was not independently fetched here (only cited, not sourced). Flag as UNCONFIRMED-IN-THIS-SOURCE pending direct KMRT citation; do not treat prior claim's 'confirmed' framing as sourced to these two papers.",
+    "url": "https://perso.uclouvain.be/jean-pierre.tignol/KTriality.pdf",
+    "quote": "The Galois cohomology set H\u00b9(\u0393,W(D4))... classifies isomorphism classes of \u00e9tale extensions S/S0 where S has dimension 8, S0 dimension 4 and S has trivial discriminant"
+   },
+   {
+    "statement": "CONFIRMED VERBATIM. There is an induced trialitarian action on H\u00b9(\u0393,W(D4)) which associates to the isomorphism class of an extension S/S0, two further extensions S'/S0' and S''/S0'' of the same kind, so that the triple (S/S0, S'/S0', S''/S0'') is CYCLICALLY PERMUTED by triality.",
+    "source": "Knus & Tignol, 'Triality and \u00e9tale algebras', arXiv:0912.3405v2 (identical to KTriality.pdf), Abstract p.1",
+    "relevance": "Exact match to the prior claim's wording, fetched and read directly (not paraphrased) from the abstract: this establishes precisely the Galois-cohomological cyclic-triple structure the task cites as structurally analogous to the [Vi,Vj]=Vk cyclic law among the three 16-dim E6 sectors \u2014 confirmed real content, but the objects permuted are octic/quartic \u00e9tale F-algebras tied to W(D4) (order-3 outer automorphisms of the D4 Dynkin diagram / of W(D4) \u2245 S2^3\u22caS4, proved conjugate to \u03bc\u0304 or \u03c1\u0304 in Prop. 5.8), NOT E6 subspaces or so(10)+u(1) subalgebras. The paper additionally gives the concrete trialitarian automorphism \u03c1 (order 3, cyclically permutes i,j,k in Hurwitz quaternions, Remark 4.5) and proves Aut(W(D4)) \u2245 ((W(D4)/\u27e8w0\u27e9)\u22caS3)\u00d7\u27e8\u03c8\u27e9 (Prop. 5.6), i.e. the S3 is literally the outer-automorphism quotient permuting the three legs of D4 \u2014 matching the task's 'an S3 permuting the sectors' language structurally.",
+    "url": "https://arxiv.org/pdf/0912.3405",
+    "quote": "There is an induced trialitarian action on H\u00b9(\u0393,W(D4)), which associates to the isomorphism class of an extension S/S0 as above, two extensions S'/S0' and S''/S0'', of the same kind, so that the triple (S/S0, S'/S0', S''/S0'') is cyclically permuted by triality."
+   },
+   {
+    "statement": "UNCONFIRMED / NOT LOCATED. The fourth prior claim ('Simple algebraic groups of type 3D4 over arb[itrary field]...') was truncated in the task input and no matching verbatim text for it was found in the pages fetched from KTriality.pdf, arXiv:0912.3405, or arXiv:2301.10130.",
+    "source": "n/a \u2014 claim text incomplete in task input",
+    "relevance": "Cannot verify a truncated claim; flag for re-submission with the full statement if this needs checking. Likely candidate content (type 3D4 simple groups classified by cyclic cubic field extensions, per KMRT \u00a744) was not reached in the fetched page ranges (only pp.1-13 of the ~20-page 0912.3405 and pp.1-6 of the ~70-page 2301.10130 were read).",
+    "url": ""
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/pdf/2301.10130",
+   "https://arxiv.org/pdf/0912.3405",
+   "https://perso.uclouvain.be/jean-pierre.tignol/KTriality.pdf"
+  ]
+ },
+ {
+  "angle": "triality-three-generations: literature check for e6 = core + V1+V2+V3 (dim 16 each) with cyclic S3 bracket law and 16+16bar generation cosets",
+  "claims": [
+   {
+    "statement": "E6 arises from the magic square as M(C,O), with Lie algebra e6 = t(C)+t(O)+(C\u2297O)_1+(C\u2297O)_2+(C\u2297O)_3, i.e. two u(1)'s + so(8) + THREE real-16-dimensional pieces (C\u2297O)_a, permuted by SO(8) triality; picking one copy to fold into so(10) gives e6 = u(1)+so(10)+(C\u2297O)^2, where (C\u2297O)^2 (the OTHER two copies together, real dim 32) is precisely the 16\u229516bar of Spin(10).",
+    "source": "Latham Boyle, \"The Standard Model, the Exceptional Jordan Algebra, and Triality\", arXiv:2006.16265v2 (2026), Section 'THE MAGIC SQUARE AND TRIALITY', Eqs. (18)-(19a)-(19b)",
+    "relevance": "This is the closest published match to the user's e6 = (so(8)+u(1)^2) + V1+V2+V3 (dim 16 each), core = so(10)+u(1), coset = 16+16bar. Boyle gives the EXACT dimension count and the exact core/coset split via the magic square, and explicitly states SO(8) triality permutes the three Vi. Confirmed CONFIRMED.",
+    "quote": "e6=u(1)+so(2)+so(8)+(C\u2297O)+(C\u2297O)_2+(C\u2297O)_3 (19a) = u(1) + so(10) + (C \u2297 O)^2. (19b)  ... these three copies of (C \u2297 O) are permuted by so(8) triality symmetry in (19a) [15, 28, 29]. In this sense, if the standard model fermions really correspond to the tangent space (C\u2297O)^2 of (C \u2297 O)P2, as we have suggested, then they inevitably arise in three triality-related ways when constructing (C \u2297 O)P2 from E6. It is natural to suspect that this is the origin of the three generations of fermions in the standard model."
+   },
+   {
+    "statement": "The explicit Lie bracket that makes the magic-square decomposition m(K,K\u0303)=t(K)+t(K\u0303)+(K\u2297K\u0303)_1+(K\u2297K\u0303)_2+(K\u2297K\u0303)_3 into a genuine Lie algebra (i.e. the rule governing [(K\u2297K\u0303)_a,(K\u2297K\u0303)_b]) is NOT written out in Boyle's paper \u2014 he cites it from Barton & Sudbery, 'Magic squares and matrix models of Lie algebras', Adv. Math. 180.2 (2003), Section 4.3.",
+    "source": "Boyle 2006.16265, text after Eq. (18): 'the Lie bracket on the right-hand side is defined e.g. in Section 4.3 of [29]' where [29]=Barton-Sudbery",
+    "relevance": "This is the load-bearing gap for the user's claim: whether [Vi,Vj]=Vk (cyclic, S3-permuted) is the ACTUAL literal bracket structure of the magic square, or merely that the three Vi are permuted as a group by an outer SO(8) action while [Vi,Vj] could vanish or land partly in the core. Boyle's paper does not spell this out \u2014 it must be checked directly against Barton-Sudbery (not fetched in this pass). UNCONFIRMED pending that source.",
+    "quote": "m(K, K\u0303)=t(K)+t(K\u0303)+(K\u2297K\u0303)1+(K\u2297K\u0303)2+(K\u2297K\u0303)3, where t(K) is the triality algebra of K, and the Lie bracket on the right-hand side is defined e.g. in Section 4.3 of [29]."
+   },
+   {
+    "statement": "Boyle explicitly frames the SO(8)-triality/3-generations link as speculative, not proven \u2014 both in the earlier review of Todorov/Dubois-Violette's suggestion and in his own paper's conclusion.",
+    "source": "Boyle 2006.16265, Sections 'Baez's Interpretation' and 'THE MAGIC SQUARE AND TRIALITY'",
+    "relevance": "Confirms the user's angle is at the frontier of what's published: no paper has proven a cyclic Lie-bracket law [Vi,Vj]=Vk realizing an S3 action INSIDE e6's bracket (as opposed to an outer permutation symmetry of the magic-square construction). The user's stronger structural claim (literal S3-equivariant bracket closure) would be a genuine addition beyond Boyle if verified against Barton-Sudbery.",
+    "quote": "it is tempting to speculate that this phenomenon underlies the existence of three generations of standard model fermions ... It is natural to suspect that this is the origin of the three generations of fermions in the standard model."
+   },
+   {
+    "statement": "Dubois-Violette & Todorov's triality (in the REAL, non-complexified J3(O), giving F4/Spin(9)/GSM, not E6/Spin(10)/GLR) is explicitly presented in TWO 'apparently equivalent' but conceptually different forms: W1 = triality of the three OCTONION entries x1,x2,x3 of the 3x3 hermitian matrix, and W2 = triality of the three canonical JSpin9 = H2(O) subalgebras corresponding to those three octonions.",
+    "source": "Dubois-Violette & Todorov, \"Exceptional quantum geometry and particle physics II\", arXiv:1808.08110v1, Section 3 ('The 3 generations and the triality in J_3^8'), p.7",
+    "relevance": "Directly relevant but at a DIFFERENT level than the user's result: this triality lives in the 27-dim real J3(O) / F4 setting (not the 78-dim complex e6), and the '3 generations' interpretation (W1) puts ONE octonion (8 real dim, or 4 complex-dim via C\u2295C^3) per generation \u2014 not a 16-dim Vi per generation as in the user's e6 decomposition. It is the ancestor idea Boyle's E6 paper builds on, but is NOT the same object as an S3-cyclic law on three 16-dim E6 subspaces. CONFIRMED as background, distinct from user's construction.",
+    "quote": "there are two apparently equivalent ways to describe the underlying triality of J_3^8: W1 - this triality corresponds to the three octonions of the matrix of an element of J_3^8, W2 - this triality corresponds to the three canonical subalgebras of hermitian octonionic 2\u00d72 matrices of J_3^8 corresponding themselves to the above three octonions of W1. ... this underlying triality of J_3^8 is interpreted as corresponding to the 3 generations."
+   },
+   {
+    "statement": "Under H\u03032=Spin(10) inside E6, the 27 of E6 splits as 1\u229510\u229516, and the violet (16-dim) block is identified with a single generation's Spin(10) spinor; when H\u03031\u2229H\u03032=GLR is further imposed, this 16 splits into the standard \u03c1LR=(3,2,1,+1/6)\u2295(3\u0304,1,2,\u22121/6)\u2295(1,2,1,\u22121/2)\u2295(1,1,2,+1/2) \u2014 the same GUT multiplet used for one generation.",
+    "source": "Boyle 2006.16265, Section 'LR-symmetric representation: \u03c1LR', Eqs. (15)-(16)",
+    "relevance": "Confirms the '16 = one generation, core = so(10)+u(1)' half of the user's claim explicitly and with exact formulas, independent of the triality/3-generation speculation, i.e. this piece is fully rigorous (not speculative) in Boyle's paper.",
+    "quote": "Under E6, the elements of h^C_3(O) transform as a single complex irrep, the 27 of E6. When restricted to the subgroup H\u03032 = Spin(10), 27 splits into 1 \u2295 10 \u2295 16 ... In particular, the column (or row) in violet transforms as the 16 of Spin(10) \u2013 i.e. just like a single generation of fermions in Spin(10) grand unification."
+   },
+   {
+    "statement": "Boyle's follow-up paper (with Finn/Latham? \u2014 'Three Generations and a Trio of Trialities') uses a DIFFERENT decomposition mechanism for 3 generations: three Cartan-type factorizations of a spinor \u03a8 into V\u00b7\u03a8 pairs (\u03a8+=V\u03a8\u2212, etc., Eq. 16 region) inside e7\u2243(tri(H)\u2295tri(O))+3H\u2297O and e8\u2243(tri(O)\u2295tri(O))+3O\u2297O, rather than a bracket law on three subspaces of e6 itself.",
+    "source": "Latham Boyle et al., \"Three Generations and a Trio of Trialities\", arXiv:2409.17948",
+    "relevance": "Shows the published triality-3-generations literature has migrated the mechanism to e7/e8 magic-square terms (3H\u2297O, 3O\u2297O) with a factorization/merging mechanism ('division algebraic multiplication merges a third generation of spinor representations into a set of scalar bosons'), which is NOT the same as the user's e6-level cyclic [Vi,Vj]=Vk closing among three 16-dim GUT-generation cosets. Different mechanism class; does not confirm or refute the user's specific e6 bracket-closure claim.",
+    "quote": "e7\u2243(tri(H)\u2295tri(O))+3H\u2297O and e8\u2243(tri(O)\u2295tri(O))+3O\u2297O ... division algebraic multiplication merges a third generation of spinor representations into a set of scalar bosons ... this provides an alternative identification of the Standard Model's three generations within e7 and e8."
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/abs/2006.16265",
+   "https://arxiv.org/pdf/1808.08110",
+   "https://arxiv.org/html/2409.17948"
+  ]
+ },
+ {
+  "angle": "landsberg-manivel-vinberg",
+  "claims": [
+   {
+    "statement": "CONFIRMED (exact match, strong). Landsberg-Manivel's Vinberg-type triality construction gives g(A,B)=t(A)\u00d7t(B) \u2295 (A1\u2297B1)\u2295(A2\u2297B2)\u2295(A3\u2297B3), a Z2\u00d7Z2-graded Lie algebra, where Ai are the three inequivalent 8-dim triality reps of t(A) when A=O (so t(O)=so8), and t(C)=R^2 (u(1)^2). Their magic-square table gives g(C,O)=e6. Hence e6 = (so8 + u(1)^2) \u2295 V1\u2295V2\u2295V3 with dim Vi = dim(Ci\u2297Oi) = 2x8 = 16, EXACTLY the user's decomposition.",
+    "source": "Landsberg & Manivel, 'Triality, Exceptional Lie Algebras and Deligne Dimension Formulas', arXiv:math/0107032v1, Section 2, p.2-3",
+    "relevance": "Direct, verbatim confirmation of the core+3x16 decomposition of e6 that the user is using, including which classical construction it comes from.",
+    "url": "https://arxiv.org/pdf/math/0107032",
+    "quote": "g = t(A) \u00d7 t(B) \u2295 (A1\u2297B1) \u2295 (A2\u2297B2) \u2295 (A3\u2297B3) [...] the Lie bracket on g, whose type is given by Freudenthal's magic square [table showing row/col C,O = e6]"
+   },
+   {
+    "statement": "CONFIRMED (exact match). The bracket law between the three 16-dim sectors is explicitly cyclic: [A1\u2297B1,A2\u2297B2]\u2282A3\u2297B3, [A2\u2297B2,A3\u2297B3]\u2282A1\u2297B1, [A3\u2297B3,A1\u2297B1]\u2282A2\u2297B2, with explicit formulas u1u2\u2297v1v2, u3\u016b2\u2297v3v\u03042, \u016b1u3\u2297v\u03041v3. This is literally [Vi,Vj]=Vk (indices cyclic), and Theorem 2.1 proves it satisfies the Jacobi identity, i.e. is a genuine semisimple Lie algebra bracket.",
+    "source": "Landsberg & Manivel, arXiv:math/0107032v1, Section 2 (bullet list before Theorem 2.1), p.3",
+    "relevance": "This is the exact classical source for the CYCLIC LAW [Vi,Vj]=Vk claimed by the user \u2014 not just structurally analogous but the literal formula, proven via Theorem 2.1's Jacobi-identity verification.",
+    "url": "https://arxiv.org/pdf/math/0107032",
+    "quote": "[u1\u2297v1,u2\u2297v2] = u1u2\u2297v1v2 \u2208 A3\u2297B3, [u2\u2297v2,u3\u2297v3] = u3\u016b2\u2297v3v\u03042 \u2208 A1\u2297B1, [u3\u2297v3,u1\u2297v1] = \u016b1u3\u2297v\u03041v3 \u2208 A2\u2297B2. Theorem 2.1. This bracket defines a structure of semi-simple Lie algebra on g [...] each hi = t(A)\u00d7t(B) \u2295 Ai\u2297Bi is a subalgebra of maximal rank of g."
+   },
+   {
+    "statement": "CONFIRMED (exact match). Each hi = t(A)\u00d7t(B) \u2295 Ai\u2297Bi is a maximal-rank subalgebra, matching the user's 'each so(10)+u(1) subalgebra = core + Vi'. For A=C,B=O: t(A)\u00d7t(B)=u(1)^2\u00d7so(8), dim 2+28=30; adding Ai\u2297Bi (dim16) gives dim 46 = dim(so(10))+1 = dim(so(10)+u(1)); by the magic-square/Freudenthal row logic this hi is so(10)+u(1) inside e6 (dim 78), and the complementary coset Aj\u2297Bj\u2295Ak\u2297Bk has dim 32 = 16+16, i.e. the spinor/conjugate-spinor pair \u2014 matching the E6-GUT generation pair claim.",
+    "source": "Landsberg & Manivel, arXiv:math/0107032v1, Theorem 2.1 + magic square tables, p.3",
+    "relevance": "Confirms the so(10)+u(1) maximal subalgebra / 16+16bar coset structure the user attributes to each Vi-complement, derived from the same classical construction (rank count matches: rank(g)=rank(t(A))+rank(t(B)) as stated just below Lemma 2.2).",
+    "url": "https://arxiv.org/pdf/math/0107032",
+    "quote": "rank(g) = rank(t(A)) + rank(t(B)) [...] each hi = t(A) \u00d7 t(B) \u2295 Ai \u2297 Bi is a subalgebra of maximal rank of g"
+   },
+   {
+    "statement": "PARTIALLY CONFIRMED / qualified. The paper's explicit named symmetry exchanging the three sectors A1,A2,A3 is 'the outer automorphism t of T(A) of order 3' (a Z/3 cyclic map t.\u03b8=(\u03b82,\u03b83,\u03b81)) \u2014 described as 'the famous triality principle, encoded in the triple symmetry of the Dynkin diagram for D4.' The full diagram-automorphism group of D4 is indeed S3 (order 6, since it permutes 3 outer nodes + can also swap pairs), but the paper's constructive map t explicitly given is the order-3 rotation, not the full order-6 group with transpositions spelled out.",
+    "source": "Landsberg & Manivel, arXiv:math/0107032v1, Section 2, p.2",
+    "relevance": "Confirms the cyclic Z/3 part of the user's 'S3 permuting the sectors' claim rigorously and by name (triality); the reflection/transposition elements of S3 are asserted by 'triple symmetry of the Dynkin diagram' (classical Dynkin-diagram fact) but not spelled out as explicit maps in this paper for the E6 case \u2014 worth flagging as the one part not verbatim-confirmed here.",
+    "url": "https://arxiv.org/pdf/math/0107032",
+    "quote": "If A is a real Cayley algebra [...] the representations A1, A2, A3 are non-equivalent and they are exchanged by the outer automorphism t of T(A) of order 3 [...] This is the famous triality principle, encoded in the triple symmetry of the Dynkin diagram for D4."
+   },
+   {
+    "statement": "UNCONFIRMED for E6 specifically, but a directly analogous classical fact is confirmed for F4: the Barton-Sudbery/Baez decomposition gives f4 \u2245 so(8) \u2295 V8 \u2295 S8+ \u2295 S8-, i.e. so(8)-core plus THREE 8-dimensional pieces permuted by SO(8) triality (S3), with dim 28+8+8+8=52=dim(f4). The paper's E8 formula e8\u2245so(8)\u2295so(8)\u2295(V8\u2297V8)\u2295(S+\u2297S+)\u2295(S-\u2297S-) is the doubled/'squared' triality version. Neither of these papers states the E6 analogue (so8+u1^2+3\u00d716) in this Barton-Sudbery/triality-automorphism language \u2014 that specific E6 statement is only found via the Landsberg-Manivel Vinberg construction above, not via Barton-Sudbery language in the Kollross paper or the Dray-Manogue paper.",
+    "source": "Kollross, 'The Bracket of the Exceptional Lie Algebra E8', arXiv:2504.16513v3, p.2 (quoting Baez)",
+    "relevance": "Shows the closest 'triality cyclic three-sector' precedent in the literature is stated for F4/E8, not E6 in this vocabulary; the user's E6 claim is verified via a DIFFERENT (Vinberg-style tensor) construction (Landsberg-Manivel), not via this Barton-Sudbery language \u2014 important for correctly attributing which construction is classical for which algebra.",
+    "url": "https://arxiv.org/pdf/2504.16513",
+    "quote": "e8 \u2245 so(8) \u2295 so(8) \u2295 (V8\u2297V8) \u2295 (S8+\u2297S8+) \u2295 (S8-\u2297S8-) [...] f4 \u2245 so(8) \u2295 V8 \u2295 S8+ \u2295 S8-"
+   },
+   {
+    "statement": "UNCONFIRMED / not found. arXiv:0911.2255 (Dray & Manogue, 'Octonionic Cayley Spinors and E6') constructs E6 via 3x3 octonionic Hermitian (Jordan) matrices H3(O) and the Freudenthal/Jordan triple product, i.e. E6 \u2245 TSL(3,O) as determinant-preserving transformations \u2014 a completely different (Jordan-algebra, not so(8)-triality-sum) construction. No statement of e6 = so(8)+u(1)^2+3\u00d716, no cyclic [Vi,Vj]=Vk bracket, and no explicit SO(8)-triality decomposition appears in the pages examined; the paper's subgroups singled out are G2, F4, and SO(9,1)/SO(9), not SO(8)\u00d7U(1)^2 with three 16's.",
+    "source": "Dray & Manogue, arXiv:0911.2255v2, Sections 1-3",
+    "relevance": "Rules out this paper as a source for the user's specific SO(8)+3x16 grading; it is not the right reference for that decomposition even though it is about octonionic constructions of E6 \u2014 avoid citing it for this claim.",
+    "url": "https://arxiv.org/pdf/0911.2255"
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/pdf/math/0107032"
+  ]
+ },
+ {
+  "angle": "The Barton-Sudbery triality construction builds exceptional Lie algebras M(A,B) from two composition algebras using their triality algebras and tensor products, with E6 realized as M(O,C) exhibiting a (so(8)\u2295u(1)\u00b2) core plus three 16-dimensional representation copies.",
+  "claims": [
+   {
+    "statement": "The Barton-Sudbery formula for constructing Lie algebras from two composition algebras A and B is: M(A,B) \u2245 Tri(A) \u2295 Tri(B) \u2295 (A \u2297 B)\u00b3, where the three copies of A \u2297 B are distinguished by a Z\u2082 \u00d7 Z\u2082 grading",
+    "source": "John Baez, 'The Magic Square' (math.ucr.edu/home/baez/octonions); Barton & Sudbery, 'Magic squares and matrix models of Lie algebras', Advances in Mathematics 180(2) (2003), math/0203010",
+    "relevance": "Directly answers the user's requested formula structure and grading scheme",
+    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+   },
+   {
+    "statement": "The triality algebra Tri(K) of a composition algebra K is defined as the Lie subalgebra of so(K) \u2295 so(K) \u2295 so(K) consisting of triples (A,B,C) of endomorphisms satisfying A(xy) = B(x)y + xC(y) for all x,y \u2208 K",
+    "source": "Barton & Sudbery, 'Magic squares and matrix models of Lie algebras' (2003); confirmed in multiple sources on magic square constructions",
+    "relevance": "Provides exact definition of tri(A) that user asked for",
+    "url": "https://arxiv.org/pdf/math/0203010"
+   },
+   {
+    "statement": "For the complex numbers C, the triality algebra Tri(C) is 2-dimensional and corresponds to u(1)\u00b2; for octonions O, Tri(O) \u2245 so(8) with dimension 28",
+    "source": "John Baez, 'The Magic Square'; derivation from definition that Tri(\u211d)={0}, Tri(\u2102)=u(1)\u00b2, Tri(\u210d)=su(2), Tri(\ud835\udd46)=so(8)",
+    "relevance": "Confirms dimensional accounting: 28 + 2 = 30 for core of E6",
+    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+   },
+   {
+    "statement": "For E\u2086 = M(O,C), the dimension decomposition is: Tri(O)=28 + Tri(C)=2 + (O\u2297C)\u00b3=3\u00d716=48, yielding total dimension 78",
+    "source": "John Baez, 'The Magic Square' and dimension verification via composition algebra theory; consistent with E\u2086 being 78-dimensional",
+    "relevance": "Directly confirms user's dimensional accounting formula 28+2+3\u00d716=78",
+    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+   },
+   {
+    "statement": "The Lie bracket structure of M(A,B) is compatible with a Z\u2082 \u00d7 Z\u2082 grading where tri(A) and tri(B) sit at grade (0,0), and the three copies of A\u2297B occupy grades (0,1), (1,0), and (1,1)",
+    "source": "Multiple sources citing Barton-Sudbery construction; Freudenthal magic square literature",
+    "relevance": "Explains how the three (A\u2297B) components are organized and distinguished (grading provides structure analogous to cyclic permutation by S\u2083)",
+    "url": "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf"
+   },
+   {
+    "statement": "The Barton-Sudbery construction can be related to the derivation algebra formula Der(H\u2083(K)) = Tri(K) \u2295 3K, where Tri(K) is the triality algebra and 3K is a three-fold copy of K, showing the threefold structure emerges from the theory of derivations of 3\u00d73 Hermitian matrices",
+    "source": "Barton & Sudbery (2003); Theorem 4.1 of 'Magic squares and matrix models of Lie algebras'",
+    "relevance": "Explains origin of three-fold structure (3K in Der formula maps to (A\u2297B)\u00b3 in the magic square); establishes classical/non-classical distinction",
+    "url": "https://arxiv.org/pdf/math/0203010"
+   },
+   {
+    "statement": "The construction exhibits S\u2083 permutation symmetry: the Barton-Sudbery triality-based reformulation makes the algebra's invariance under swapping A and B explicit through the symmetric formulation, unlike Tits' original asymmetric construction",
+    "source": "Freudenthal magic square theory; Barton-Sudbery refinement of Tits-Freudenthal construction",
+    "relevance": "Confirms cyclic/permutation aspect: the S\u2083 action permutes the three graded components while preserving the Lie bracket structure",
+    "url": "https://en.wikipedia.org/wiki/Freudenthal_magic_square"
+   },
+   {
+    "statement": "COULD NOT CONFIRM: The exact explicit multiplication rule notation [Vi,Vj]=Vk for the three (A\u2297B) components, or whether 'cyclic' refers to literal cyclic group action or systematic grading organization",
+    "source": "Search limitation: PDF sources did not decompress reliably to extract precise bracket formulas from original Barton-Sudbery paper",
+    "relevance": "User specifically asked for multiplication rule between three summands; this detail requires reading the original paper directly",
+    "url": "https://arxiv.org/pdf/math/0203010"
+   },
+   {
+    "statement": "COULD NOT CONFIRM from available sources: Whether tri(C) should be characterized as u(1)\u00b2 or as {0}\u2295(dimension-2 correction term); sources vary in notation",
+    "source": "Different formulations in secondary sources show slight notational variance on how the trivial triality of \u2102 contributes to E\u2086",
+    "relevance": "User's decomposition (so(8)\u2295u(1)\u00b2) appears correct dimensionally but the exact algebraic characterization of the u(1)\u00b2 piece in the core needs the original paper",
+    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/pdf/math/0203010",
+   "https://math.ucr.edu/home/baez/octonions/node16.html",
+   "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf"
+  ]
+ },
+ {
+  "angle": "barton-sudbery",
+  "claims": [
+   {
+    "statement": "CONFIRMED (Barton-Sudbery, arxiv math/0203010, eq. 2.13, p.6): the triality algebra consists of triples of linear maps A,B,C: \ud835\udc9c\u2192\ud835\udc9c satisfying A(xy)=(Bx)y+x(Cy) for all x,y in the alternative algebra \ud835\udc9c.",
+    "source": "C.H. Barton & A. Sudbery, 'Magic squares and matrix models of Lie algebras', Adv. Math. 180 (2003)",
+    "relevance": "Exact verbatim definition of tri(K) as used in the M(A,B) construction",
+    "quote": "we will extend the derivation algebra to the triality algebra, which consists of triples of linear maps A,B,C : \ud835\udc9c \u21a6 \ud835\udc9c satisfying A(xy) = (Bx)y + x(Cy), \u2200x,y \u2208 \ud835\udc9c.",
+    "url": "https://arxiv.org/pdf/math/0203010"
+   },
+   {
+    "statement": "CONFIRMED (Barton-Sudbery, p.6): Der \u211d = Der \u2102 = 0; Der \u210d = C(\u210d') \u2245 su(2) \u2245 so(3) (dim 3); Der \ud835\udd46 is the compact exceptional Lie algebra of type G\u2082 (dim 14). These are DERIVATION algebras (Der \ud835\udc9c), a strict subalgebra of the larger triality algebra Tri(\ud835\udc9c) \u2014 the two are distinct objects in the paper (Tri\ud835\udc9c \u2283 Der\ud835\udc9c, via Tri\ud835\udc9c \u2245 Der\ud835\udc9c \u2295 Im(\ud835\udc9c)\u00b2).",
+    "source": "C.H. Barton & A. Sudbery (2003), \u00a72, eqs 2.6\u20132.9",
+    "relevance": "Precise dimension anchors; clarifies that Der(K) and Tri(K) are not the same object, a distinction the prior notes conflated",
+    "quote": "Der \u211d = Der \u2102 = 0; Der \u210d = C(\u210d') = {C_a | a \u2208 \u210d'} where C_a(q)=aq\u2212qa \u2245 su(2) \u2245 so(3); Der \ud835\udd46 is a compact exceptional Lie algebra of type G\u2082.",
+    "url": "https://arxiv.org/pdf/math/0203010"
+   },
+   {
+    "statement": "UNCONFIRMED as stated \u2014 dim Tri(\u2102): the earlier Baez-page fetch returned 'Tri(\u2102) \u2245 so(3)' (dim 3), but this is arithmetically inconsistent with the E6 dimension count also returned in the SAME fetch (28+3+3\u00b716=79\u226078). The self-consistent value forced by 28+dim Tri(\u2102)+48=78 is dim Tri(\u2102)=2 (i.e. Tri(\u2102)\u2245u(1)\u2295u(1)), matching the prior claim, not so(3). Flag this as a probable mis-extraction/hallucination in the earlier fetch of math.ucr.edu/home/baez/octonions/node16.html, not a sourced fact \u2014 the actual page text for Tri(\u2102)'s dimension was not independently re-verified in this pass.",
+    "source": "internal arithmetic check against Baez 'The Magic Square' page fetch",
+    "relevance": "Corrects/flags a specific numeric error rather than passing it through as confirmed",
+    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+   },
+   {
+    "statement": "CONFIRMED (Elduque, Rev. Mat. Iberoamericana 23 (2007), eq. 1.6, p.60): the magic-square Lie algebra is \ud835\udd24(S,S') = (tri(S,*,q) \u2295 tri(S',*,q')) \u2295 (\u2295_{i=0}^{2} \u03b9_i(S\u2297S')), a \u2124\u2082\u00d7\u2124\u2082-graded anticommutative algebra with \ud835\udd24_(0\u0304,0\u0304)=tri(S,*,q)\u2295tri(S',*,q') and \ud835\udd24_(1\u0304,0\u0304)=\ud835\udd24_(0\u0304,1\u0304)=\ud835\udd24_(1\u0304,1\u0304)=S\u2297S' (three copies, one per nonzero grade of \u2124\u2082\u00d7\u2124\u2082).",
+    "source": "A. Elduque, 'The Magic Square and Symmetric Compositions II', Rev. Mat. Iberoamericana 23:1 (2007), 57-84 \u2014 reinterpreting Barton\u2013Sudbery's construction",
+    "relevance": "Directly confirms the M(A,B)\u2245Tri(A)\u2295Tri(B)\u2295(A\u2297B)\u00b3 formula AND the specific \u2124\u2082\u00d7\u2124\u2082 grading distinguishing the three A\u2297B copies",
+    "quote": "\ud835\udd24 = \ud835\udd24(S,S') = (tri(S,*,q) \u2295 tri(S',*,q')) \u2295 (\u2295_{i=0}^{2} \u03b9_i(S\u2297S')).",
+    "url": "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf"
+   },
+   {
+    "statement": "CONFIRMED (Elduque 2007, p.60): the bracket between two of the three A\u2297B-type components obeys a strict CYCLIC (mod-3, not full S\u2083) law: [\u03b9_i(a\u2297x), \u03b9_{i+1}(b\u2297y)] = \u03b9_{i+2}((a*b)\u2297(x*y)) with indices taken modulo 3.",
+    "source": "A. Elduque (2007), \u00a71, the multiplication rules defining \ud835\udd24(S,S')",
+    "relevance": "This is the exact published prototype of the user's cyclic law [Vi,Vj]=Vk; note it is stated as a \u2124/3 cyclic rule on the three homogeneous pieces of a \u2124\u2082\u00d7\u2124\u2082 grading, not independently as an S\u2083 action \u2014 the S\u2083 permutation symmetry of the three summands (if wanted) has to be argued separately (it is a known automorphism-group fact of the grading/triality-automorphism \u03b8 of order 3, per eq. 1.4-1.5 of the same paper, but the paper's explicit bracket-closure formula only states the \u2124/3-cyclic instance)",
+    "quote": "[\u03b9_i(a\u2297x), \u03b9_{i+1}(b\u2297y)] = \u03b9_{i+2}((a*b)\u2297(x*y)) (indices modulo 3), for any a,b\u2208S, x,y\u2208S'.",
+    "url": "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf"
+   },
+   {
+    "statement": "CONFIRMED (Elduque 2007, Table 1, p.60): the full Freudenthal Magic Square table with dim S, dim S' \u2208{1,2,4,8}; E6 sits at (dim S, dim S')=(2,8) or (8,2) \u2014 i.e. the \u2102,\ud835\udd46 entry \u2014 consistent with M(\ud835\udd46,\u2102) and the row/column reading used by the prior claims.",
+    "source": "A. Elduque (2007), Table 1",
+    "relevance": "Independent confirmation that E6 is exactly the (\u2102,\ud835\udd46) [equivalently (\ud835\udd46,\u2102)] cell of the magic square, anchoring dim \ud835\udd46=8, dim \u2102=2 as the two composition-algebra factors",
+    "quote": "dim S: 1 2 4 8 / dim S'=8 row: F4 E6 E7 E8",
+    "url": "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf"
+   },
+   {
+    "statement": "UNCONFIRMED \u2014 'Der(H\u2083(K)) = Tri(K) \u2295 3K' formula with explicit theorem number: the Barton-Sudbery PDF's table of contents (p.1 of arxiv math/0203010) lists \u00a74.1 'The triality algebra Tri\ud835\udd42 and Der H\u2083(\ud835\udd42)' at page 12, but this pass only retrieved pages 1-6 (through \u00a72, notation/derivation algebra definitions); the explicit Der H\u2083(K)\u2245Tri(K)\u2295K\u00b3 statement itself (and any theorem number) was NOT retrieved in this fetch and remains to be pulled from pp.12-19 of the PDF.",
+    "source": "C.H. Barton & A. Sudbery (2003), Table of Contents, \u00a74.1 title only",
+    "relevance": "Confirms the SECTION exists (so the claimed formula is very likely correct and is the paper's actual \u00a74.1 topic) but the exact equation/theorem number was not directly quoted in this pass",
+    "url": "https://arxiv.org/pdf/math/0203010"
+   },
+   {
+    "statement": "Contextual/structural note, not a new sourced claim: Barton-Sudbery's own abstract states the construction gives \ud835\udd30\ud835\udd29(3,\ud835\udd42) as a real/non-compact form of E6 for \ud835\udd42=\ud835\udd46 (via L\u2083(\ud835\udd46,\u2102\u0303)=\ud835\udd30\ud835\udd29(3,\ud835\udd46)), i.e. their E6 real-form results concern 3\u00d73 traceless-matrix-type Lie algebras \u2014 a different (though related) construction from the tri(A)\u2295tri(B)\u2295(A\u2297B)\u00b3 magic-square recipe; the two constructions (Tits T(\ud835\udd42,\ud835\udd41) vs. the symmetric Tri-based M(A,B)) are proven isomorphic in the paper but use different generators, worth flagging if the user's V1/V2/V3 basis is meant to match the Tri-construction specifically.",
+    "source": "C.H. Barton & A. Sudbery (2003), Abstract and eq. 1.1",
+    "relevance": "Guards against conflating the Tits 3\u00d73-matrix presentation of e6 with the symmetric Tri(A)\u2295Tri(B)\u2295(A\u2297B)\u00b3 presentation when identifying which basis realizes the user's V1,V2,V3 sectors",
+    "quote": "L_3(\ud835\udd42,\u2102\u0303) = \ud835\udd30\ud835\udd29(3,\ud835\udd42)",
+    "url": "https://arxiv.org/pdf/math/0203010"
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/pdf/math/0203010",
+   "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf",
+   "https://math.ucr.edu/home/baez/octonions/node16.html"
+  ]
+ },
+ {
+  "angle": "branching-tables",
+  "claims": [
+   {
+    "statement": "CONFIRMED (exact match, source: Yamatsu arXiv:1511.08771v2, Table 1384, p.10305/F.5.1.1): E6 \u2283 so(10)\u2295u(1) gives 78 = (16)(3) \u2295 (45)(0) \u2295 (1)(0) \u2295 (16)(\u22123). Independently cross-confirmed verbatim in Feger/Kephart/Saskowski LieART 2.0 arXiv:1912.10969v2, Table A.177 (p.373): '78 = (1)(0) + (16)(3) + (16)(\u22123) + (45)(0)'. Both sources agree exactly including the U(1) charge normalization (\u00b13 on the spinor pair, 0 on 45 and 1). This directly gives the E6-adjoint content needed for core=45+1(so10+u1) with the charged pair 16(3)+16bar(\u22123) \u2014 matching the prior claim's structure (the sign convention in the prior claim's own quote was reversed but the paper's own two independent sources agree with each other).",
+    "source": "Naoki Yamatsu, 'Finite-Dimensional Lie Algebras and Their Representations for Unified Model Building', arXiv:1511.08771v2 (2020), Table 1384; cross-checked against Feger, Kephart, Saskowski, 'LieART 2.0', arXiv:1912.10969v2 (2020), Table A.177",
+    "url": "https://arxiv.org/abs/1511.08771",
+    "relevance": "Gives the exact E6-adjoint (78) branching under so(10)+u(1) that underlies the core+charged-pair (16,16bar) content used to build the SO(10)+u(1) subalgebra = core+Vi in the user's cyclic-law construction.",
+    "quote": "78 = (16)(3) \u2295 (45)(0) \u2295 (1)(0) \u2295 (16)(\u22123)"
+   },
+   {
+    "statement": "CONFIRMED (exact match, both sources): E6 \u2283 so(10)\u2295u(1) fundamental 27 = (10)(2) \u2295 (16)(\u22121) \u2295 (1)(\u22124), with conjugate 27bar = (10)(\u22122) \u2295 (16)(1) \u2295 (1)(4). Yamatsu Table 1384 and LieART Table A.177 ('27 = (1)(\u22124) + (10)(2) + (16)(\u22121)') agree exactly on this normalization. PDG GUT review (rpp2017-rev-guts.pdf, p.202-203) gives the SAME structural decomposition but with a DIFFERENT (rescaled/shifted) charge normalization: '27 = 16_1 + 10_(\u22122) + 1_4' \u2014 i.e. charges {1,\u22122,4} vs the Yamatsu/LieART convention {\u22121,2,\u22124} (same magnitudes, opposite overall sign, consistent up to convention).",
+    "source": "Yamatsu arXiv:1511.08771v2 Table 1384; LieART 2.0 arXiv:1912.10969v2 Table A.177; PDG 2017 GUT review (Nir), rpp2017-rev-guts.pdf",
+    "url": "https://arxiv.org/pdf/1912.10969",
+    "relevance": "Confirms the prior claim's core structure (27 = 1+10+16 under SO(10)xU(1)) exactly across two independent modern computational-group-theory sources, and shows the PDG uses a differently-normalized but structurally identical convention \u2014 good to flag so charge signs in the write-up are stated as convention-dependent, not as a discrepancy.",
+    "quote": "27 = 1(\u22124) + 10(2) + 16(\u22121)  [Yamatsu/LieART];  27 = 16_1 + 10_(\u22122) + 1_4  [PDG]"
+   },
+   {
+    "statement": "CONFIRMED (exact match, two independent sources): SO(10) \u2283 so(8)\u2295u(1) gives 45 = (8v)(2) \u2295 (28)(0) \u2295 (1)(0) \u2295 (8v)(\u22122). Yamatsu Table 1135 ('45 = (8v)(2) \u2295 (28)(0) \u2295 (1)(0) \u2295 (8v)(\u22122)') and LieART Table A.140 ('45 = (1)(0) + (8v)(2) + (8v)(\u22122) + (28)(0)') agree exactly. This CONTRADICTS/refines the prior-claim quote sourced to arXiv:1206.6781 ('45 = 1_0 + 8_{s\u22121} + 8_{s+1} + 28_0'): the actual charged SO(8) piece appearing in the standard SO(10)\u2283SO(8)xU(1) branching is the VECTOR 8v at charge \u00b12, not the spinor 8s at charge \u00b11. The 1206.6781 quote likely reflects a different (non-standard, possibly triality-rotated) embedding convention and should not be used as the canonical branching without reconciling the discrepancy.",
+    "source": "Yamatsu arXiv:1511.08771v2 Table 1135 (so10 \u2283 so8 \u2295 u1); LieART 2.0 arXiv:1912.10969v2 Table A.140 (SO(10)\u2192SO(8)\u00d7U(1))",
+    "url": "https://arxiv.org/abs/1511.08771",
+    "relevance": "This is the load-bearing branching for the SO(10)+u1 = core + Vi step feeding down to the so(8)+u(1)^2 core; the discrepancy with the prior claim's cited source (8_s vs 8_v, charge 1 vs 2) needs to be resolved before using 1206.6781's normalization \u2014 the two dedicated Lie-algebra reference works (Yamatsu, LieART) independently agree with each other and disagree with the prior claim's quoted formula.",
+    "quote": "45 = (8v)(2) \u2295 (28)(0) \u2295 (1)(0) \u2295 (8v)(\u22122)  [Yamatsu, Table 1135]; 45 = (1)(0) + (8v)(2) + (8v)(\u22122) + (28)(0)  [LieART, Table A.140]"
+   },
+   {
+    "statement": "CONFIRMED (exact match, two independent sources): SO(10) 16-dim spinor branches under so(8)\u2295u(1) as 16 = (8c)(\u22121) \u2295 (8s)(1) [and the conjugate 16 = (8c)(1) \u2295 (8s)(\u22121)].",
+    "source": "Yamatsu arXiv:1511.08771v2 Table 1135; LieART 2.0 arXiv:1912.10969v2 Table A.140",
+    "url": "https://arxiv.org/abs/1511.08771",
+    "relevance": "Directly confirms and sharpens the prior (vaguer) claim about the 16 splitting into SO(8) spinor components 8s/8c; gives the exact charges (\u00b11) under the u(1) that survives inside so(10)+u(1) \u2014 this is the piece needed to track how a single Vi's SO(10)-spinor content (16+16bar, the generation pair) further resolves under the so(8)+u(1)^2 core.",
+    "quote": "16 = (8c )(\u22121) \u2295 (8s )(1)"
+   },
+   {
+    "statement": "CONFIRMED: E6 has SO(10)\u00d7U(1) as one of exactly two rank-6 real (R-type) maximal subalgebra branches listed alongside SU(6)\u2295SU(2) and SU(3)\u2295SU(3)\u2295SU(3); LieART's Table of maximal subalgebras states 'E6 \u2283 SO(10)\u00d7U(1); SU(6)\u00d7SU(2); SU(3)\u00d7SU(3)\u00d7SU(3) (R)', matching Yamatsu's Table 33 'E6 \u2283 so10\u2295u1; su2\u2295su6; su3\u2295su3\u2295su3 (R)'.",
+    "source": "Yamatsu arXiv:1511.08771v2 Table 33/374; LieART 2.0 arXiv:1912.10969v2 (maximal subalgebra listing, line ~1571)",
+    "url": "https://arxiv.org/abs/1511.08771",
+    "relevance": "Confirms SO(10)+u(1) (i.e. the core+Vi subalgebra in the user's construction) is indeed a genuine maximal R-subalgebra of E6, the standard classical fact underlying the whole decomposition \u2014 this part of the construction is fully classical/textbook.",
+    "quote": "E6 \u2283 so10 \u2295 u1 ; su2 \u2295 su6 ; su3 \u2295 su3 \u2295 su3 (R)"
+   },
+   {
+    "statement": "UNCONFIRMED / not found: no direct single-step branching table for E6 \u2283 so(8)\u2295u(1)\u2295u(1) (i.e. E6 straight down to the user's stated core so(8)+u(1)^2) was located in any of the three fetched sources \u2014 only the two-step composition E6\u2283SO(10)\u00d7U(1) then SO(10)\u2283SO(8)\u00d7U(1) is tabulated classically. The direct composite branching (and in particular the CYCLIC LAW [Vi,Vj]=Vk permuting three 16-dim pieces under an S3 that is NOT part of the SO(10)\u00d7U(1) chain) is not present in any standard branching-rule table and is not a textbook/classical statement \u2014 it is a structural claim about how the three copies of Vi=16-under-different-SO(10)-subalgebras combine, which goes beyond any single Slansky/Yamatsu/LieART table.",
+    "source": "n/a \u2014 absence noted across Yamatsu 1511.08771, LieART 1912.10969, PDG rpp2017-rev-guts.pdf",
+    "url": "",
+    "relevance": "This is the key honesty check: the E6\u2283SO(10)+u(1) and SO(10)\u2283SO(8)+u(1) branchings are 100% classical/textbook (confirmed above), but composing three DIFFERENT SO(10)+u(1) maximal subalgebras (one per Vi) and asserting their off-core brackets close cyclically into a permuted S3 structure is NOT a standard branching-table statement \u2014 it requires an explicit structure-constant computation beyond what any of these three references tabulate directly.",
+    "quote": ""
+   }
+  ],
+  "best_sources": [
+   "https://arxiv.org/abs/1511.08771",
+   "https://arxiv.org/pdf/1912.10969",
+   "https://pdg.lbl.gov/2017/reviews/rpp2017-rev-guts.pdf"
+  ]
+ }
+]

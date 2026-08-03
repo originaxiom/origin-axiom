@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **803** |
-| words of findings prose | **526,093** |
-| test lock files referenced | **542** |
-| arcs carrying an authored verdict | **790** (98.4 %) |
+| research arcs with findings | **804** |
+| words of findings prose | **526,735** |
+| test lock files referenced | **543** |
+| arcs carrying an authored verdict | **791** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 492 |
+| PROVED | 493 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B879`** (645 words, 1 locks)  
-The cc3 selection-cochain harvest (packet sha256 e59df18a, 38 files, preserved verbatim; cc3's own reconciliation addendum CHECKED AND CONFIRMED accurate): six claims verified with independent legs -- C1 the collapse theorem (745 primitive classes enumerated independently, per-length exact; unit det(A-I) <=> tr = 3 over all 745; realized only by RL); C2 the deflation strata (amphichiral 53; prime-fundamental-disc set exactly {5,13,17,29,37,53,173,229}; joint 11); C3 the five-value set banked as a COMPLETE-FAMILY CORROBORATION under B665/B666 (counts 188/153/249/147/8 confirmed; 10 rows recomputed with main's B238/B664 machinery at 2e-15; NOT a new law, NOT pointwise -- the addendum's self-downgrade is correct); C4 silver-unique entangled amphichirality (own scan: exactly R^2L^2 at d = 2); C5 field communality (d = 5 x 16 classes incl R^4L^4, |tr_odd| = 1/phi real); C6 THE HEADLINE -- the quantum amalgam wall + even-solo no-go: h1(D) [2,0,0,6]/[5,6,10,17] at kappa 4..7 reproduced live AND matching stored results, with the no-go lemma verified by hand in one line (A^-1-I = -A^-1(A-I) => solo term always even => the classical 2+3 split structurally unreachable in this model class). Carried: the proposed L91 amendment (register pass, not silently applied); the pointwise shadow-class column; the SnapPy V5 cross.  
-`B879_selection_cochain/FINDINGS.md`
+**PROVED — `B882`** (642 words, 1 locks)  
+THE TILING HAS A CLASSICAL NAME -- M(O,C), the Freudenthal-Vinberg magic square entry: a 10-agent five-angle prior-art workflow (search + verify, verbatim-quote discipline) confirms the decomposition e6 = tri(O) + tri(C) + 3x(O tensor C) = so(8)+u(1)^2+3x16 verbatim in Landsberg-Manivel (their verify agent: 'exactly the user's decomposition'), Barton-Sudbery 2003, and Elduque 2007 whose bracket [iota_i, iota_{i+1}] = iota_{i+2} is the published prototype of the cyclic law (Z/3 as published; the full S3 needs its own line); tri(C) = u(1)^2 (a secondary-source 'so(3)' caught by the verify stage's own dimension arithmetic); even the fold (one copy into so(10), the other two = the 16+16bar) is in Boyle 2020. The triality<->three-generations SPECULATION goes back to Ramond 1977 (DVT, Boyle, Furey live today -- all postulate or speculate the frame, none derives it). NOVELTY SCOPED: ours = the SELECTION mechanism (the object's superselection torus derives the frame, with the exact S3 cubic and its arithmetic), the descent's two-sided verdict, and the now-well-posed KMRT question (the charge field as the cubic etale algebra of a trialitarian structure over Q -- the classical scaffolding for 'the arithmetic S3 IS the geometric S3'). Also names the soft plane: the chirality-switch charges span tri(C) -- the c-carried-into-theta crux gains a concrete home.  
+`B882_magic_square_naming/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

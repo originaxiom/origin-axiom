@@ -18406,6 +18406,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B882": {
+   "slug": "magic square naming",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B876",
+    "B880"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B88": {
    "slug": "sl4 census",
    "motifs": [
