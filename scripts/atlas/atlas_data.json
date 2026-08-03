@@ -18189,6 +18189,24 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B870": {
+   "slug": "lift obstruction",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B707",
+    "B862"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B87": {
    "slug": "m3 genus",
    "motifs": [

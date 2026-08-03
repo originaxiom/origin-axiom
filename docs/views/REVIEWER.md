@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **793** |
-| words of findings prose | **519,904** |
-| test lock files referenced | **532** |
-| arcs carrying an authored verdict | **780** (98.4 %) |
+| research arcs with findings | **794** |
+| words of findings prose | **520,506** |
+| test lock files referenced | **533** |
+| arcs carrying an authored verdict | **781** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 482 |
+| PROVED | 483 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B869`** (893 words, 1 locks)  
-G4 CLOSED -- the false-positive control PASSES: the cascade rule is NOT an SM-generator regardless of input. One generic engine (exterior-power labels, conj p -> n-p, uniform BdS branching; canonicalization bug Lambda^n=Lambda^0 caught by the E6 run itself) re-derives every banked verdict internally (B859's so(8)xu(1) top-dim-but-dead, B860/B861's su(4)xu(1) dead, B863's termination, B861's full chain) and runs 8 starts: eligibility 21/31 rank<=8 simple starts DEAD at step 0 (-1 in W; E6 the unique exceptional chiral start); the Lambda^2/spinorial (Georgi) family starts su(5..8), so(10), E6 ALL funnel to the SM core (Georgi 1979 family reduction + survival hypothesis, prior art named -- the registerability criterion is a theorem-form of it); so(14) keeps an EXTRA su(2) (endpoint SM x su(2), not the SM); the su(6) Sym^2 family lands on su(3)+3u(1) -- NO weak sector. The claim decomposes: (1) object -> E6+27, banked elsewhere, NOT established by the cascade; (2) 27-content + registerability -> SM, robust within the 27's content class. Echo locked: the E6 endpoint's 3 u(1)s = B864's Y + two dials.  
-`B869_false_positive_control/FINDINGS.md`
+**PROVED — `B870`** (602 words, 1 locks)  
+G7 CLOSED -- the central-extension lift obstruction, computed exactly: for the 2-generator 1-relator presentations (SnapPy; relators certified not-proper-powers, so Lyndon asphericity applies) H^2(pi_1; A) = A/gcd(e_a,e_b)A from the augmented Fox row. m004: relator aaabABBAb, sums (1,0), gcd 1 => H^2 = 0 for EVERY coefficient group -- every flat E6/Z3 structure lifts to E6 and B862's Z6 global form meets no obstruction on the object (Culler's lifting theorem named as the p=2 ancestor); the lift count is a torsor under H^1 = Hom(H_1;Z): 3 lifts through Z/3, 6 through Z/6 (the measurement-as-torsor motif, B707 cross-ref, observation only). m003 (the sister): relator abAAbabbb, sums (0,5) => unobstructed at the atom prime 3 but obstruction group Z/5 at p=5 -- the first nonzero central-lift obstruction group in the program, on the sister, at the golden prime (flagged, unweighted). Precisely scoped: nonzero group means obstructed bundles are POSSIBLE, not that any given bundle is obstructed; the object->gauge-group bridge is not established here; rel-boundary cohomology not computed.  
+`B870_lift_obstruction/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

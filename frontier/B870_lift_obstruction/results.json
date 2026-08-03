@@ -1,0 +1,64 @@
+{
+ "m003": {
+  "H1_hom": {
+   "3": 3,
+   "5": 25,
+   "6": 6
+  },
+  "H2": {
+   "2": 1,
+   "3": 1,
+   "30": 5,
+   "5": 5,
+   "6": 1,
+   "7": 1
+  },
+  "exponent_sums": [
+   0,
+   5
+  ],
+  "gcd": 5,
+  "h1_matches": true,
+  "not_proper_power": true,
+  "relator": "abAAbabbb",
+  "snappy_homology": "Z/5 + Z"
+ },
+ "m004": {
+  "H1_hom": {
+   "3": 3,
+   "5": 5,
+   "6": 6
+  },
+  "H2": {
+   "2": 1,
+   "3": 1,
+   "30": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1
+  },
+  "exponent_sums": [
+   1,
+   0
+  ],
+  "gcd": 1,
+  "h1_matches": true,
+  "not_proper_power": true,
+  "relator": "aaabABBAb",
+  "snappy_homology": "Z"
+ },
+ "verdicts": {
+  "object_E6_center_Z3": {
+   "H2": 1,
+   "lifts_torsor": 3
+  },
+  "object_SM_Z6": {
+   "H2": 1,
+   "lifts_torsor": 6
+  },
+  "object_unobstructed_all_primes": true,
+  "sister_at_5": 5,
+  "sister_at_atom_prime_3": 1,
+  "split": true
+ }
+}
