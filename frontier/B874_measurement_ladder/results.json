@@ -1,0 +1,37 @@
+{
+ "census": {
+  "x14": 12,
+  "x14+x16": 12,
+  "x14+x16+x22": 12,
+  "x14+x22": 12,
+  "x16": 30,
+  "x16+x22": 12,
+  "x22": 12,
+  "x8": 30,
+  "x8+x14": 12,
+  "x8+x14+x16": 12,
+  "x8+x14+x16+x22": 12,
+  "x8+x14+x22": 12,
+  "x8+x16": 30,
+  "x8+x16+x22": 12,
+  "x8+x22": 12
+ },
+ "cent_dim": 12,
+ "center_dim": 4,
+ "center_is_C": "C abelian and Cent(C) commutes with C by definition => C <= center; dims 4 = 4 => center = C",
+ "closure_ok": true,
+ "derived_dim": 8,
+ "derived_real_form": "su(2,1) by signature (4,4) [su(3): (0,8); sl(3,R): (5,3); su(2,1): (4,4)]",
+ "derived_type": "A2 (unique 8-dim semisimple; Killing nondegenerate on it)",
+ "full_measurement_is_sm": false,
+ "killing_rank": 8,
+ "killing_signature": [
+  4,
+  4,
+  4
+ ],
+ "ladder": [
+  30,
+  12
+ ]
+}

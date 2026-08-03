@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **796** |
-| words of findings prose | **521,707** |
-| test lock files referenced | **535** |
-| arcs carrying an authored verdict | **783** (98.4 %) |
+| research arcs with findings | **797** |
+| words of findings prose | **522,176** |
+| test lock files referenced | **536** |
+| arcs carrying an authored verdict | **784** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 485 |
+| PROVED | 486 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B873`** (704 words, 1 locks)  
-GATE P5 PASSED -- menu completeness for the fused cascade, verified mechanically, with the surprise that WINNER-SAFETY IS CITATION-FREE: (1) regular menus recomputed from explicit affine diagrams (BdS prime-mark + mark-1 Levi); (2) an adversarial exact-c-match scan (Fractions; closing levels in closed form; the A1 cap is a THEOREM: embedded-sl2 level = Dynkin index <= principal index rank*h*(h+1)/6 = 156/60/20 < 200) disposes ALL 19 matches with dim >= winner by computed kills -- -1-in-W registerability (embedding-free), the full-rank regular bound, or the new derived-fit kill (semisimple part must fit the derived algebra of a big-enough maximal regular; closes A1+A4@27 into D5, A2+A2@16 and A1^2A2@14 into A4, which the scratch draft left undisposed); no UNKILLED rows, no surviving winner-dim ties; (3) Dynkin's cited S-candidates with conformality COMPUTED (F4, SO(9) fail; rest pass) and all 5 T-arithmetic index cross-checks passing; (4) every conformal completion killed by -1-in-W except A2+G2 (registerable, dim 22 < 46, cannot win). Winners unchanged and UNIQUE: SO(10)xU(1) / SU(5)xU(1) / SM. The Dynkin+Slansky citation now underwrites only sub-winner listing completeness. After B871 + this arc the selection spine carries ZERO load-bearing imports. ADDENDUM: the SU(3)_9 row DECIDED -- dim+index enumeration forces the 27-branching uniquely onto the self-conjugate (2,2) of su(3), so the row dies by the gate itself (was: unresolved-but-cannot-win); the step-1 menu has no undecided rows.  
-`B873_p5_gate/FINDINGS.md`
+**PROVED — `B874`** (469 words, 1 locks)  
+The measurement ladder, exact over Q on the banked B854 build: (1) the coordinate census of ALL 15 subtori of the 2T-torus C is a TWO-VALUE CLIFF -- Cent = 30 for the three subtori inside the (8,16)-plane (the unique soft direction; the B866 enhancement lines live inside it), 12 for every subtorus touching x14 or x22 (each maximally resolving alone); observed ladder 78 -> 46 -> 30 -> 12, no intermediate stratum; SU(5)xU(1)-sized centralizers (26) do NOT occur on coordinate data (the step-2 retirement question needs cubic-field joint measurements, open). (2) Cent(C) = dim 12 = derived 8 + center 4, brackets closed; the center IS C (one-line proof); the derived algebra has NONDEGENERATE intrinsic Killing (rank 8) => the unique 8-dim semisimple = A2, signature (4,4) => real form su(2,1). The 'full measurement = SM' reading is DEAD (needs derived 11, center 1); what survives every 2T-charge is an su(3)-TYPE remnant plus the measured charges -- recorded as computed structure, no dictionary to color asserted (the compact/quasi-split gap = the layer-8 wall).  
+`B874_measurement_ladder/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

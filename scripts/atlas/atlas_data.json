@@ -18254,6 +18254,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B874": {
+   "slug": "measurement ladder",
+   "motifs": [
+    "eisenstein",
+    "lorentzian"
+   ],
+   "refs": [
+    "B715",
+    "B854",
+    "B866",
+    "B868"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B87": {
    "slug": "m3 genus",
    "motifs": [
