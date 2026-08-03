@@ -1,5 +1,9 @@
 # Changelog
 
+## B867 — the Sakharov gate: all three baryogenesis PRECONDITIONS structurally present — the stage, not the play
+- From the owner's question (*is our breaking baryogenesis / the Big Bang?*): **three different things, and the framework supplies the PRECONDITIONS of the second without computing it.** **S1**: the SM-step coset **is** the X,Y content (24−12 = 12 = dim[(3,2)⊕(3̄,2)]), and B865's singlets sit in the ν_R/Majorana slot. **S2**: physical KM phases = (N−1)(N−2)/2 → **the first N with a phase is 3, and B866's S₃ triple supplies exactly 3** — the minimal CP-capable matter content (signature caveat inherited). **S3**: the transition is one-time — V(φ)/κ = −(7+5√5)/12 < 0, barrier (5√5−7)/12 > 0, exact Galois conjugates, and the mechanism consumes itself (cusp closure — no re-equilibration).
+- **No asymmetry, no rate, no epoch computed** — Gate 5 locked (the results contain no GeV, no seconds, no temperatures). The Big-Bang mapping stays interpretive: the cascade is a lattice read as history; the β=1 transition is time's *precondition*, not an event in it. 6 locks. Nothing to `CLAIMS.md`.
+
 ## B866 addendum — the TYPE check lands: so(10) ⊕ u(1) CONFIRMED on this seat's own leg
 - At the middle root (55 digits from the exact cubic): kernel dim **46** with a **15-order spectral gap**; **derived algebra dim 45** (B₄⊕B₂ would give 46); **center dim 1** (B₄⊕B₂: 0); and **45 is the dimension of a unique simple algebra — D₅ = so(10)**. Two independent legs now: the solo seat's two-prime derived-dimension, this seat's kernel + structure-tensor computation.
 - **The conditional unwinds: the cascade's step 1 is the object's own** — SO(10)×U(1) as the centralizer of any of three Galois-conjugate distinguished charges. *Symmetry breaking as charge measurement.* **The step-1 max-dim ranking retires.** Generations: still a signature. 9 locks.

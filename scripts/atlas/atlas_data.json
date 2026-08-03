@@ -18083,6 +18083,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B867": {
+   "slug": "sakharov gate",
+   "motifs": [
+    "kappa",
+    "golden",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B6",
+    "B737",
+    "B852",
+    "B853",
+    "B865",
+    "B866",
+    "P2",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **790** |
-| words of findings prose | **518,194** |
-| test lock files referenced | **529** |
-| arcs carrying an authored verdict | **777** (98.4 %) |
+| research arcs with findings | **791** |
+| words of findings prose | **518,610** |
+| test lock files referenced | **530** |
+| arcs carrying an authored verdict | **778** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 479 |
+| PROVED | 480 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B866`** (878 words, 1 locks)  
-VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished lines -- det of a generically-nonsingular 48x48 minor of the pencil ad(x8 + t x16), interpolated exactly from 50 rational points, factors as c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16, and the solo seat's cubic mu satisfies theirs(13t) = 2197*mine(t) IDENTICALLY -- same polynomial, two independent constructions. Multiplicity 16 = the centralizer jump 30 -> 46; irreducible, disc 2^32 3^10 5^2 7^3 11 13^6 non-square -> Galois S3; three real roots. Also exact: common kernel 12, nullities {x8:30, x16:30, x14:12, x22:12}, generic pencil 30. TYPE so(10)+u(1) now CONFIRMED on this seat's own leg (same-day addendum): kernel dim 46 at a 55-digit root with a 15-order spectral gap, derived algebra dim 45 (the unique simple of dim 45 = D5), center dim 1 -- killing B4+B2 twice over. Coset 16+16bar remains the solo seat's leg. The generations reading stays a SIGNATURE. Two float failures en route (fake-everywhere, then fake-nothing); exact interpolation decided.  
-`B866_charge_cubic/FINDINGS.md`
+**PROVED — `B867`** (416 words, 1 locks)  
+THE SAKHAROV GATE (structural preconditions only -- the stage, not the play): all three baryogenesis preconditions are present in banked structure. S1: the SM-step coset IS the X,Y content (24-12 = 12 = dim[(3,2)+(3bar,2)]) and B865's singlets occupy the nu_R/Majorana slot. S2: physical KM phases = (N-1)(N-2)/2 gives first-N-with-a-phase = 3, and B866's S3 triple supplies EXACTLY 3 -- the minimal CP-capable count (inherits the signature-not-mechanism caveat). S3: the transition is one-time -- V(phi)/kappa = -(7+5sqrt5)/12 < 0 with barrier (5sqrt5-7)/12 > 0, exact Galois conjugates, and the mechanism consumes itself (cusp closure). NO asymmetry, rate, temperature or epoch is computed; the Big-Bang mapping stays interpretive.  
+`B867_sakharov_gate/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
