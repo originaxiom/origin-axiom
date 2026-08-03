@@ -1,0 +1,14 @@
+{
+ "id": "B862",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The cascade's step-3 winner, as a GROUP inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 -- kernel computed exactly (order 6, all sixth-root indices, hypercharge direction diag(2,2,2,-3,-3)/6 explicit). The SM's own data leaves Gamma in {1,Z2,Z3,Z6} ambiguous (Tong 1705.01853); the chain FORCES Z6, resolving a structural ambiguity the SM itself cannot -- conditional on exactly what the cascade is conditional on (P5 + the fused rule), and falsifiable in principle via line-operator spectra.",
+ "depends_on": [
+  "B861",
+  "B860",
+  "B859"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

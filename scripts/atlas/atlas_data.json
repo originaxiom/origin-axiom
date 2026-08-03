@@ -17999,6 +17999,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B862": {
+   "slug": "global form",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B583",
+    "B715",
+    "B861",
+    "P5"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [

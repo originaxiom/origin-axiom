@@ -1,5 +1,10 @@
 # Changelog
 
+## B862 — the cascade selects the SM's GLOBAL FORM: [SU(3)×SU(2)×U(1)]/ℤ₆ — resolving an ambiguity the SM itself cannot
+- **The SM's own data does not determine its gauge GROUP, only its algebra** — all four quotients Γ ∈ {1, ℤ₂, ℤ₃, ℤ₆} match local physics (Tong, arXiv:1705.01853). **The cascade's step-3 winner exponentiates inside SU(5) to S(U(3)×U(2))**, and the kernel from the naive product is **computed exactly: ℤ₆** (hypercharge direction diag(2,2,2,−3,−3)/6 explicit, all six sixth-root indices).
+- **The first place the selected structure OUTPERFORMS the SM's own data**: the SM cannot answer this question about itself; the chain answers it — for free, and falsifiably in principle (the quotients differ in their line-operator spectra).
+- **Conditional on exactly what the cascade is conditional on** (P5 + the fused rule + one owed definition). Closes layer 2 of the session's SM-architecture ledger; layers 6 (generations), 7 (Higgs rep), 8 (the compact real form — B715's wall, the compactness⟺chirality exclusive-or), 9 (spacetime) remain open. 4 locks. Nothing to `CLAIMS.md`; Gate 5 untouched.
+
 ## B861 — the fused cascade: ONE principle, applied to ONE object, selects E₆ → SO(10)×U(1) → SU(5)×U(1) → SM uniquely at every step
 - **The fusion:** *maximal residual symmetry among REGISTERABLE options*, registerable = **the generation** (the 27's matter content) stays chiral as a multiset with θ-odd abelian factors stripped — B860's criterion, theorem-grade there. This replaces the handoff's **two** imports (Michel per step + a deviation clause) with **one** rule.
 - **The result: E₆ → SO(10)×U(1) → SU(5)×U(1) → SM, UNIQUE at every step.** The gate bites exactly twice — **Sp(8)** at step 1 (the 27 restricts to the traceless Λ²(8) of C₄, self-dual: no chiral matter at all) and **SU(4)×U(1)** at step 3 (B860's collapse) — and is silent elsewhere, where the symmetry ranking decides. Non-vacuous in both directions, locked.

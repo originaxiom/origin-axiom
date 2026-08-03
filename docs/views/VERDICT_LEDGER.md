@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-772 of 785 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+773 of 786 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (474)
+## PROVED (475)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -486,6 +486,7 @@
 | `B859` | The incoming SM handoff scrutinised: the Higgs-synthesis OP theorem VERIFIES exactly (OP = 818626500*sqrt3 at the cusp shape, ring class polynomial to 1e-28, and ODD under the Cl(O_4) = Z/2 swap -- supplying the state-space order parameter B849 required, on exactly the object-specific symmetry B853 identified); the sign-law certificate runs green against this repo's own B581 data; BUT the cascade theorem's step-2 gate rests on h^v(D4) = 7 (correct: 6), making SO(8)xU(1) conformal at c = 5 and dim 29 -- which would beat SU(5)xU(1) under the handoff's own principle. REPAIRED: gating on chirality (-1 in W; D4 has all reps real, and Borel-de Siebenthal gives no A4 in D4) yields the SAME winners uniquely at steps 1-2, retires part of the Michel import, and is framework-native (the -1-in-W criterion IS the even/odd boundary of the ledger's own thesis). The step-3 trit stands unchanged. |  | 1 |
 | `B860` | The cascade's step-3 'trit' is a BIT (Borel-de Siebenthal: two-node removals on the A4 cycle give exactly {SU(4)xU(1), SM}; SU(3)xU(1)^2 is one level deeper), the bit maps into the theta-even sector (the two cores so(4) and so(3)xso(2) are EXACTLY B2's two maximal-rank subalgebras; all four subalgebras theta-stable by explicit matrices; the abelian factors theta-ODD), and the bit has a computed asymmetry: dial-stripped, the SU(4)-side generation collapses to vector-like (6 = Lambda^2(4) self-dual, 4 pairs 4bar) while the SM-side stays chiral ((3,2) unpaired). With banked B599 (odd-parity evaluations vanish) + B593 (chirality heard at second order), the SU(4)-side generation is CHIRALLY SILENT -- every registering pairing vanishes or measures the observer's own dial -- and the SM is selected uniquely under one named premise: the selected option must be registerable by a measurement of the object. |  | 1 |
 | `B861` | ONE principle -- maximal residual symmetry among REGISTERABLE options, registerable meaning the 27's generation stays chiral as a multiset with theta-odd abelian factors stripped (B860's theorem-grade criterion) -- selects E6 -> SO(10)xU(1) -> SU(5)xU(1) -> SM UNIQUELY at every step, applied uniformly to the GENERATION. The handoff's deviation clause dissolves: the world's chain IS the extremal registerable path; the 'deviation' was an artifact of ranking the non-registerable SU(4)xU(1). The gate bites exactly twice (Sp(8)'s self-dual 27 at step 1; SU(4)xU(1) at step 3) and is non-vacuous by construction. A first draft applied the test to COSETS and was caught by its own output (every adjoint coset is multiset-self-conjugate -- vacuous); the uniform generation criterion is the repair. Remaining external spine: menu completeness (P5) and one owed definition (registering as a B599 pairing datum). No values. |  | 1 |
+| `B862` | The cascade's step-3 winner, as a GROUP inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 -- kernel computed exactly (order 6, all sixth-root indices, hypercharge direction diag(2,2,2,-3,-3)/6 explicit). The SM's own data leaves Gamma in {1,Z2,Z3,Z6} ambiguous (Tong 1705.01853); the chain FORCES Z6, resolving a structural ambiguity the SM itself cannot -- conditional on exactly what the cascade is conditional on (P5 + the fused rule), and falsifiable in principle via line-operator spectra. |  | 1 |
 
 ## NEGATIVE (260)
 

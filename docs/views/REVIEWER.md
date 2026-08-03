@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **785** |
-| words of findings prose | **515,309** |
-| test lock files referenced | **524** |
-| arcs carrying an authored verdict | **772** (98.3 %) |
+| research arcs with findings | **786** |
+| words of findings prose | **515,671** |
+| test lock files referenced | **525** |
+| arcs carrying an authored verdict | **773** (98.3 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 474 |
+| PROVED | 475 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B861`** (745 words, 1 locks)  
-ONE principle -- maximal residual symmetry among REGISTERABLE options, registerable meaning the 27's generation stays chiral as a multiset with theta-odd abelian factors stripped (B860's theorem-grade criterion) -- selects E6 -> SO(10)xU(1) -> SU(5)xU(1) -> SM UNIQUELY at every step, applied uniformly to the GENERATION. The handoff's deviation clause dissolves: the world's chain IS the extremal registerable path; the 'deviation' was an artifact of ranking the non-registerable SU(4)xU(1). The gate bites exactly twice (Sp(8)'s self-dual 27 at step 1; SU(4)xU(1) at step 3) and is non-vacuous by construction. A first draft applied the test to COSETS and was caught by its own output (every adjoint coset is multiset-self-conjugate -- vacuous); the uniform generation criterion is the repair. Remaining external spine: menu completeness (P5) and one owed definition (registering as a B599 pairing datum). No values.  
-`B861_fused_cascade/FINDINGS.md`
+**PROVED — `B862`** (362 words, 1 locks)  
+The cascade's step-3 winner, as a GROUP inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 -- kernel computed exactly (order 6, all sixth-root indices, hypercharge direction diag(2,2,2,-3,-3)/6 explicit). The SM's own data leaves Gamma in {1,Z2,Z3,Z6} ambiguous (Tong 1705.01853); the chain FORCES Z6, resolving a structural ambiguity the SM itself cannot -- conditional on exactly what the cascade is conditional on (P5 + the fused rule), and falsifiable in principle via line-operator spectra.  
+`B862_global_form/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
