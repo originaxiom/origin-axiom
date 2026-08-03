@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **784** |
-| words of findings prose | **514,381** |
+| words of findings prose | **514,564** |
 | test lock files referenced | **523** |
 | arcs carrying an authored verdict | **771** (98.3 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B860`** (934 words, 1 locks)  
+**PROVED — `B860`** (1117 words, 1 locks)  
 The cascade's step-3 'trit' is a BIT (Borel-de Siebenthal: two-node removals on the A4 cycle give exactly {SU(4)xU(1), SM}; SU(3)xU(1)^2 is one level deeper), the bit maps into the theta-even sector (the two cores so(4) and so(3)xso(2) are EXACTLY B2's two maximal-rank subalgebras; all four subalgebras theta-stable by explicit matrices; the abelian factors theta-ODD), and the bit has a computed asymmetry: dial-stripped, the SU(4)-side generation collapses to vector-like (6 = Lambda^2(4) self-dual, 4 pairs 4bar) while the SM-side stays chiral ((3,2) unpaired). With banked B599 (odd-parity evaluations vanish) + B593 (chirality heard at second order), the SU(4)-side generation is CHIRALLY SILENT -- every registering pairing vanishes or measures the observer's own dial -- and the SM is selected uniquely under one named premise: the selected option must be registerable by a measurement of the object.  
 `B860_step3_bit/FINDINGS.md`
 

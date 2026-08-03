@@ -143,6 +143,8 @@ def main():
     res["sm_stays_chiral"] = (res["generation_sm_residue"] != {})
     res["import_named"] = "matter chirality must survive the dial (theta-odd abelian factors)"
 
+    res["addendum"] = addendum()
+
     json.dump(res, open(os.path.join(HERE, "results.json"), "w"), indent=1, sort_keys=True)
 
     print("=" * 74)
@@ -222,13 +224,3 @@ def addendum():
     return dict(J6_equivariance_dev=worst, J6_det=det,
                 sm_mismatched_irreps=mismatches,
                 dichotomy=(worst < 1e-12 and det == 1.0 and len(mismatches) > 0))
-
-
-if __name__ == "__main__" or True:
-    try:
-        _add = addendum()
-        _res = json.load(open(os.path.join(HERE, "results.json")))
-        _res["addendum"] = _add
-        json.dump(_res, open(os.path.join(HERE, "results.json"), "w"), indent=1, sort_keys=True)
-    except Exception:
-        pass
