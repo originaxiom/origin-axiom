@@ -1,5 +1,9 @@
 # Changelog
 
+## B872 — the coset leg VERIFIED: 32 = 16 ⊕ 16̄ at every enhancement point; the charge splits REAL (split form)
+- **Two legs.** Exact/ℤ: the regular so(10)⊕u(1)'s 32 complement roots carry charge ±1 (16/16), each a single Weyl orbit through a fork-node fundamental weight — the spinor pair. Numeric at all three Galois roots (13× banked, 40 digits): split 16/16, **commutant 1/1 per half** (absolute irreducibility, certified generic-pair method), isotropic halves with nondegenerate cross-pairing (W₋ ≅ W₊* = 16̄), gaps 10⁴⁰⁺, Galois-consistent.
+- **Correction made by the locks, kept**: the charge splits **REAL** (±q, q² > 0) — a split-torus direction, as e6(6) requires; the draft's "compact u(1)" was a wrong-stratum artifact and the commit gate caught it. Compact-vs-split for the physical charge = a layer-8 question, not probed. With B875: the same 32 = ±q charge eigenspaces AND triality foreign sectors. Plus `cubic_modp_check.py`: the **13× normalization certified mod 2⁶¹−1** (a third derivation of the cubic). **B866's boundary is fully closed.** 6 locks. Gate 5 untouched.
+
 ## B875 — the triality-tiling theorem VERIFIED on this seat's build
 - **Two seats, two builds, two method families, one theorem**: e₆ = (so(8)⊕u(1)²) ⊕ V₁ ⊕ V₂ ⊕ V₃. Skeleton at 30 digits (pairwise ∩ = the 30-dim core, span 78, sectors 16³ via Vᵢ = ad(z)(Kᵢ)); the core typed at this seat's own primes (30, 28, 2 → **D₄ = so(8)**: the census's soft plane IS the triality direction); **the cyclic law** [Vᵢ,Vᵢ] → core, [Vᵢ,Vⱼ] → V_k with foreign components ~1e-23 — in **oblique** coordinates.
 - **Trap documented**: the sectors are nearly parallel (Galois roots within ~1e-3) — orthogonal projections read 1.0 everywhere; the law is only readable in the oblique direct-sum basis (condition ~1.3e11). The generation reading stays a structure, not a mechanism; **THE DESCENT decides it** (next joint cell). 6 locks. Gate 5 untouched.

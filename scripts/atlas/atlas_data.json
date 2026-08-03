@@ -18231,6 +18231,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B872": {
+   "slug": "coset leg",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B866",
+    "B875",
+    "B876"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B873": {
    "slug": "p5 gate",
    "motifs": [

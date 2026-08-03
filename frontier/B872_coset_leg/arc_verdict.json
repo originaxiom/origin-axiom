@@ -1,0 +1,14 @@
+{
+ "id": "B872",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The coset leg VERIFIED -- 32 = 16 + 16bar at EVERY enhancement point, two independent legs. LEG A exact over Z: delete E6's long-arm end node -> 40 roots form D5 (diagram verified), the 32 complement roots carry charge exactly +-1 (16/16), each 16 a SINGLE Weyl(D5) orbit through a fork-node fundamental weight, the two charges on the two different fork nodes (16 vs 16bar). LEG B at all three Galois roots (t = 13 x banked, 40 digits): kernel 46, center 1, ad(z)-split 16/16, commutant 1/1 per half (ABSOLUTE irreducibility via the certified generic-pair method -- cyclicity would not prove it), Killing-isotropic halves (1e-36) with nondegenerate cross-pairing rank 16 => W- = W+* = the 16bar; spectral gaps 10^40+; Galois-consistent. CORRECTION MADE BY THE LOCKS: ad(z) splits with REAL spectrum +-q (q^2 > 0) -- a split-torus direction, as the split form e6(6) requires; the draft's compact-u(1) claim was a wrong-stratum artifact caught by the commit gate; compact-vs-split for the physical charge is a layer-8 question, not probed here. With B875 the same 32 has two compatible readings (+-q charge eigenspaces vs R-triality foreign sectors). Plus cubic_modp_check.py: the 13x normalization certified mod 2^61-1, a THIRD derivation of the B866 cubic. B866's boundary is now fully closed on this seat.",
+ "depends_on": [
+  "B854",
+  "B866",
+  "B875"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-03)"
+}
