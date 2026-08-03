@@ -11,7 +11,7 @@ view can quietly imply completeness it does not have.
 | layer | count | of | share |
 |---|---|---|---|
 | arcs with `FINDINGS.md` | **801** | — | 100 % |
-| arcs with an authored verdict (W1) | **787** | 801 | 98.3 % |
+| arcs with an authored verdict (W1) | **788** | 801 | 98.4 % |
 | classified in `kill_graph` | **730** | — | — |
 | kill records resolving to an arc | **685** | 730 | 94 % |
 | kill records with no arc directory | **45** | 730 | 6 % |

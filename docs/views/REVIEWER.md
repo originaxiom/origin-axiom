@@ -22,7 +22,7 @@ result, not the debt.
 | research arcs with findings | **801** |
 | words of findings prose | **524,887** |
 | test lock files referenced | **540** |
-| arcs carrying an authored verdict | **787** (98.3 %) |
+| arcs carrying an authored verdict | **788** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 489 |
+| PROVED | 490 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B876`** (612 words, 1 locks)  
-THE DESCENT (the joint cell with the solo seat, their priority (a)): inside K1, the IMPOSED fused-chain Levi tower lands exactly (Cartan by iterated centralizers, 40 roots by joint diagonalization, Killing-Gram root graph with integer-certified inner products, A4-chain annihilator y with Cent = 25, A2+A1 annihilator y2 with joint Cent = 13) and grades the coset W = e6/K1 in three exact patterns: z1 -> [16,16] (B872 in situ), y -> [10,10,5,5,1,1] (16 = 10+5bar+1 under su(5)), (y,y2) -> [6,6,3,3,3,3,2,2,1,1,1,1] (the FULL SM generation multiplet pattern, doubled) -- the positive half: each breaking's matter decomposes into exactly one SM generation + conjugate, nothing missing, nothing extra. THE NEGATIVE HALF, decisive: the SM-graded states have V2/V3 oblique components blowing up together (~1.8e2) and nearly cancelling -- the SM grading and the triality split are violently transverse: THE TRIPLE'S IDENTITY DOES NOT SURVIVE WITHIN A SINGLE BREAKING; the S3 lives ACROSS the three breakings, as the solo seat's fence anticipated. If '3 = triality' is to be a generations mechanism it must be an across-breakings reading -- flagged for the joint queue, unweighted. Design correction recorded: per-sector grading is ill-posed (sectors not Levi-stable; the non-clustering charges caught it). Galois symmetry carries the result to the other two roots.  
-`B876_descent/FINDINGS.md`
+**PROVED — `B877`** (762 words, 1 locks)  
+S1 REVIEW PASSED -- the solo seat's FIRST MEASUREMENT THEOREM accepted at banking grade; the charge-measurement/triality story is now a TWO-SEAT THEOREM. Every exact certificate rerun green on this build: the pencil theorem (det36 = c*mu^12, det12 = c*mu^4, exact over Q), restriction-of-scalars nullities (36/12; the 18-block fully Pi-annihilated), sum-freeness at both primes x all roots; mu-roots digit-identical to this seat's 13x values. Logic reviewed clause by clause: the weight-line lemma makes the cyclic law a priori (48 = 16x3); the squeezes use mod-p only as lower bounds; the one-prime lemma applied in its valid direction; K_i ^ K_j = z(Pi) by identity; imports I1-I5 pinned; no floating point anywhere. Review notes: levi2.py manifest gap (repaired by the squeeze; script requested), the nearly-parallel projector trap recorded. NOT banked: the generation reading -- the section-5 fence kept verbatim; the decisive test was THE DESCENT (B876). PROCESS NOTE: this verdict file was initially omitted (the banking chain died at a failing lock before the verdict step and the retry skipped it) -- caught by Review 37's sweep, restored there.  
+`B877_fmt_review/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
