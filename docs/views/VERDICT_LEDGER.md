@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-778 of 791 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+779 of 792 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (480)
+## PROVED (481)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -492,6 +492,7 @@
 | `B865` | THE PADDING LEMMA (proved, one line: in the free commutative monoid of multisets, M+S = conj(M)+S iff M = conj(M) for self-conjugate S, so adding self-conjugate content never flips a chirality verdict; machine-verified on 2000 random multisets with a non-vacuity lock showing a NON-self-conjugate pad CAN flip) + THE FULL-27 RERUN: every cascade step re-run with the entire descended 27 as ket gives identical verdicts and winners (SU(5)xU(1) and SM chiral, Pati-Salam chiral, SU(4)xU(1) vector-like), so B861's per-step re-anchoring is presentational and the referee's your-ket-changes attack closes. The dropped content is never physically dropped: 10_{-2}+1_{+4} are the anomaly ballast (B864's 16-20+4=0) and the chain's singlets land in (1,1)_0 -- the right-handed-neutrino slot. First-draft defect caught before banking: duplicate dict keys silently collapsing singlet counts. |  | 1 |
 | `B866` | VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished lines -- det of a generically-nonsingular 48x48 minor of the pencil ad(x8 + t x16), interpolated exactly from 50 rational points, factors as c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16, and the solo seat's cubic mu satisfies theirs(13t) = 2197*mine(t) IDENTICALLY -- same polynomial, two independent constructions. Multiplicity 16 = the centralizer jump 30 -> 46; irreducible, disc 2^32 3^10 5^2 7^3 11 13^6 non-square -> Galois S3; three real roots. Also exact: common kernel 12, nullities {x8:30, x16:30, x14:12, x22:12}, generic pencil 30. TYPE so(10)+u(1) now CONFIRMED on this seat's own leg (same-day addendum): kernel dim 46 at a 55-digit root with a 15-order spectral gap, derived algebra dim 45 (the unique simple of dim 45 = D5), center dim 1 -- killing B4+B2 twice over. Coset 16+16bar remains the solo seat's leg. The generations reading stays a SIGNATURE. Two float failures en route (fake-everywhere, then fake-nothing); exact interpolation decided. |  | 1 |
 | `B867` | THE SAKHAROV GATE (structural preconditions only -- the stage, not the play): all three baryogenesis preconditions are present in banked structure. S1: the SM-step coset IS the X,Y content (24-12 = 12 = dim[(3,2)+(3bar,2)]) and B865's singlets occupy the nu_R/Majorana slot. S2: physical KM phases = (N-1)(N-2)/2 gives first-N-with-a-phase = 3, and B866's S3 triple supplies EXACTLY 3 -- the minimal CP-capable count (inherits the signature-not-mechanism caveat). S3: the transition is one-time -- V(phi)/kappa = -(7+5sqrt5)/12 < 0 with barrier (5sqrt5-7)/12 > 0, exact Galois conjugates, and the mechanism consumes itself (cusp closure). NO asymmetry, rate, temperature or epoch is computed; the Big-Bang mapping stays interpretive. |  | 1 |
+| `B868` | G6 CLOSED -- the three involutions separated at cascade level: the gate's C is the LINEAR outer involution lambda -> -w0(lambda) at every level (A4: Dynkin reversal, 5->5bar, 10->10bar; D5: spinor swap, 16->16bar; E6: the fold, 27->27bar), realized in matrix form as X -> -X^T on A-type and Ad(det=-1 reflection) on D-type (fixed cores match B860's even parts and Q3's so(9)=36, computed); and c -- the ANTILINEAR chirality/sheet bit -- appears NOWHERE in the cascade (source-scanned), entering exactly once at layer 8 (the real form), where the framework already places it. The B780/B784/C21 conflation cannot recur at cascade level. Includes the D-type subtlety that would have bitten a naive check: on so(n) in the vector realization X -> -X^T is the identity. |  | 1 |
 
 ## NEGATIVE (260)
 

@@ -18109,6 +18109,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B868": {
+   "slug": "three involutions",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B780",
+    "B784",
+    "B860",
+    "B861",
+    "B863",
+    "B865"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [

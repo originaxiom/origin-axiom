@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **791** |
-| words of findings prose | **518,610** |
-| test lock files referenced | **530** |
-| arcs carrying an authored verdict | **778** (98.4 %) |
+| research arcs with findings | **792** |
+| words of findings prose | **519,011** |
+| test lock files referenced | **531** |
+| arcs carrying an authored verdict | **779** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 480 |
+| PROVED | 481 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B867`** (416 words, 1 locks)  
-THE SAKHAROV GATE (structural preconditions only -- the stage, not the play): all three baryogenesis preconditions are present in banked structure. S1: the SM-step coset IS the X,Y content (24-12 = 12 = dim[(3,2)+(3bar,2)]) and B865's singlets occupy the nu_R/Majorana slot. S2: physical KM phases = (N-1)(N-2)/2 gives first-N-with-a-phase = 3, and B866's S3 triple supplies EXACTLY 3 -- the minimal CP-capable count (inherits the signature-not-mechanism caveat). S3: the transition is one-time -- V(phi)/kappa = -(7+5sqrt5)/12 < 0 with barrier (5sqrt5-7)/12 > 0, exact Galois conjugates, and the mechanism consumes itself (cusp closure). NO asymmetry, rate, temperature or epoch is computed; the Big-Bang mapping stays interpretive.  
-`B867_sakharov_gate/FINDINGS.md`
+**PROVED — `B868`** (401 words, 1 locks)  
+G6 CLOSED -- the three involutions separated at cascade level: the gate's C is the LINEAR outer involution lambda -> -w0(lambda) at every level (A4: Dynkin reversal, 5->5bar, 10->10bar; D5: spinor swap, 16->16bar; E6: the fold, 27->27bar), realized in matrix form as X -> -X^T on A-type and Ad(det=-1 reflection) on D-type (fixed cores match B860's even parts and Q3's so(9)=36, computed); and c -- the ANTILINEAR chirality/sheet bit -- appears NOWHERE in the cascade (source-scanned), entering exactly once at layer 8 (the real form), where the framework already places it. The B780/B784/C21 conflation cannot recur at cascade level. Includes the D-type subtlety that would have bitten a naive check: on so(n) in the vector realization X -> -X^T is the identity.  
+`B868_three_involutions/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
