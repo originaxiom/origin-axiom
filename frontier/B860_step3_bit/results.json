@@ -1,0 +1,47 @@
+{
+ "bds_patterns": [
+  [
+   3
+  ],
+  [
+   2,
+   1
+  ]
+ ],
+ "cores_are_B2_bds_pair": true,
+ "generation_sm_residue": {
+  "(3,2)": 1,
+  "(3bar,1)": 2
+ },
+ "generation_su4_residue": {},
+ "import_named": "matter chirality must survive the dial (theta-odd abelian factors)",
+ "sm_stays_chiral": true,
+ "su4_collapses": true,
+ "theta": {
+  "SM": {
+   "dim": 12,
+   "even": 4,
+   "odd": 8,
+   "stable": true
+  },
+  "SU(3)xU(1)^2": {
+   "dim": 10,
+   "even": 3,
+   "odd": 7,
+   "stable": true
+  },
+  "SU(4)xU(1)": {
+   "dim": 16,
+   "even": 6,
+   "odd": 10,
+   "stable": true
+  },
+  "SU(5)": {
+   "dim": 24,
+   "even": 10,
+   "odd": 14,
+   "stable": true
+  }
+ },
+ "trit_is_a_bit": true
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **783** |
-| words of findings prose | **513,447** |
-| test lock files referenced | **522** |
-| arcs carrying an authored verdict | **770** (98.3 %) |
+| research arcs with findings | **784** |
+| words of findings prose | **514,381** |
+| test lock files referenced | **523** |
+| arcs carrying an authored verdict | **771** (98.3 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 472 |
+| PROVED | 473 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B859`** (1044 words, 1 locks)  
-The incoming SM handoff scrutinised: the Higgs-synthesis OP theorem VERIFIES exactly (OP = 818626500*sqrt3 at the cusp shape, ring class polynomial to 1e-28, and ODD under the Cl(O_4) = Z/2 swap -- supplying the state-space order parameter B849 required, on exactly the object-specific symmetry B853 identified); the sign-law certificate runs green against this repo's own B581 data; BUT the cascade theorem's step-2 gate rests on h^v(D4) = 7 (correct: 6), making SO(8)xU(1) conformal at c = 5 and dim 29 -- which would beat SU(5)xU(1) under the handoff's own principle. REPAIRED: gating on chirality (-1 in W; D4 has all reps real, and Borel-de Siebenthal gives no A4 in D4) yields the SAME winners uniquely at steps 1-2, retires part of the Michel import, and is framework-native (the -1-in-W criterion IS the even/odd boundary of the ledger's own thesis). The step-3 trit stands unchanged.  
-`B859_sm_handoff_scrutiny/FINDINGS.md`
+**PROVED — `B860`** (934 words, 1 locks)  
+The cascade's step-3 'trit' is a BIT (Borel-de Siebenthal: two-node removals on the A4 cycle give exactly {SU(4)xU(1), SM}; SU(3)xU(1)^2 is one level deeper), the bit maps into the theta-even sector (the two cores so(4) and so(3)xso(2) are EXACTLY B2's two maximal-rank subalgebras; all four subalgebras theta-stable by explicit matrices; the abelian factors theta-ODD), and the bit has a computed asymmetry: dial-stripped, the SU(4)-side generation collapses to vector-like (6 = Lambda^2(4) self-dual, 4 pairs 4bar) while the SM-side stays chiral ((3,2) unpaired). With banked B599 (odd-parity evaluations vanish) + B593 (chirality heard at second order), the SU(4)-side generation is CHIRALLY SILENT -- every registering pairing vanishes or measures the observer's own dial -- and the SM is selected uniquely under one named premise: the selected option must be registerable by a measurement of the object.  
+`B860_step3_bit/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

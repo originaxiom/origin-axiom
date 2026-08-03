@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-770 of 783 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+771 of 784 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (472)
+## PROVED (473)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -484,6 +484,7 @@
 | `B856` | The hearing coupling h = u+ M_odd(R^m L^m) u obeys a PERIOD-5 law across the metallic family (bundle monodromy trace m^2+2), taking five exact golden-pentagonal values with |h|^2 in {1/(phi sqrt5), phi/sqrt5, 1}, the two golden values summing to 1 and h(5) = -1 exactly. The period collapse is NONTRIVIAL: ord(R)=ord(L)=15 and the welded matrix has period 15, but the listener's theta-odd quadratic form collapses it to 5. Re h is invariant across listener directions to 2e-16, so the coupling FORCES a value rather than carrying one. Separately: the proposed sin^2(theta_12)/JUNO reading is REFUTED ON KIND -- sin^2(theta) is a probability, the kind-correct |h|^2 = 1/(phi sqrt5) is excluded at -2.35 sigma, and the matching Re h = 1/(2phi) is the real part of an amplitude, in a 1-sigma window containing at least 17 natural candidates. |  | 1 |
 | `B857` | LAW_MAP's H-EAR clause (iii) SILENCE rested on a GREP ('zero golden markers' over B737/B739 artifacts). The exact fact replacing it: 5 is INERT in Q(sqrt-3), so a_K(5) = 0 -- the being voice's Dirichlet series has no coefficient at the hearing prime -- while 3 is RAMIFIED and spoken at every power; and the blindness is MUTUAL, since 3 is inert in Q(sqrt5). But the SCOPE was wrong: 5 SPLITS in Q(i) with a(5) = 2, so the SILVER's voice says 5 perfectly. The phenomenon is a SPLITTING TYPE of one prime in one field, NOT a property of voices. The real blind spot -- Hecke eigenvalues of the 17 certified Gamma_41 newforms -- remains uncomputed. |  | 1 |
 | `B859` | The incoming SM handoff scrutinised: the Higgs-synthesis OP theorem VERIFIES exactly (OP = 818626500*sqrt3 at the cusp shape, ring class polynomial to 1e-28, and ODD under the Cl(O_4) = Z/2 swap -- supplying the state-space order parameter B849 required, on exactly the object-specific symmetry B853 identified); the sign-law certificate runs green against this repo's own B581 data; BUT the cascade theorem's step-2 gate rests on h^v(D4) = 7 (correct: 6), making SO(8)xU(1) conformal at c = 5 and dim 29 -- which would beat SU(5)xU(1) under the handoff's own principle. REPAIRED: gating on chirality (-1 in W; D4 has all reps real, and Borel-de Siebenthal gives no A4 in D4) yields the SAME winners uniquely at steps 1-2, retires part of the Michel import, and is framework-native (the -1-in-W criterion IS the even/odd boundary of the ledger's own thesis). The step-3 trit stands unchanged. |  | 1 |
+| `B860` | The cascade's step-3 'trit' is a BIT (Borel-de Siebenthal: two-node removals on the A4 cycle give exactly {SU(4)xU(1), SM}; SU(3)xU(1)^2 is one level deeper), the bit maps into the theta-even sector (the two cores so(4) and so(3)xso(2) are EXACTLY B2's two maximal-rank subalgebras; all four subalgebras theta-stable by explicit matrices; the abelian factors theta-ODD), and the bit has a computed asymmetry: dial-stripped, the SU(4)-side generation collapses to vector-like (6 = Lambda^2(4) self-dual, 4 pairs 4bar) while the SM-side stays chiral ((3,2) unpaired). With banked B599 (odd-parity evaluations vanish) + B593 (chirality heard at second order), the SU(4)-side generation is CHIRALLY SILENT -- every registering pairing vanishes or measures the observer's own dial -- and the SM is selected uniquely under one named premise: the selected option must be registerable by a measurement of the object. |  | 1 |
 
 ## NEGATIVE (260)
 

@@ -17961,6 +17961,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B860": {
+   "slug": "step3 bit",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B593",
+    "B599",
+    "B859",
+    "P5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [
