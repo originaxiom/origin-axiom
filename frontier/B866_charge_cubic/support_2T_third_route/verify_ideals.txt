@@ -1,0 +1,3 @@
+000100 3A1                       dim Cent(2T) = 11   dim [C,C] = 11   NON-ABELIAN   #simple ideals of [C,C] <= 2
+020000 A2                        dim Cent(2T) = 16   dim [C,C] = 16   NON-ABELIAN   #simple ideals of [C,C] <= 2
+020200 D4                        dim Cent(2T) = 16   dim [C,C] = 16   NON-ABELIAN   #simple ideals of [C,C] <= 2
