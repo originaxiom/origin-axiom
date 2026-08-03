@@ -18306,6 +18306,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B876": {
+   "slug": "descent",
+   "motifs": [
+    "metallic",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B861",
+    "B872",
+    "B874"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B877": {
    "slug": "fmt review",
    "motifs": [

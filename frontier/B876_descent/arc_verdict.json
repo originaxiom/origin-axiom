@@ -1,0 +1,16 @@
+{
+ "id": "B876",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE DESCENT (the joint cell with the solo seat, their priority (a)): inside K1, the IMPOSED fused-chain Levi tower lands exactly (Cartan by iterated centralizers, 40 roots by joint diagonalization, Killing-Gram root graph with integer-certified inner products, A4-chain annihilator y with Cent = 25, A2+A1 annihilator y2 with joint Cent = 13) and grades the coset W = e6/K1 in three exact patterns: z1 -> [16,16] (B872 in situ), y -> [10,10,5,5,1,1] (16 = 10+5bar+1 under su(5)), (y,y2) -> [6,6,3,3,3,3,2,2,1,1,1,1] (the FULL SM generation multiplet pattern, doubled) -- the positive half: each breaking's matter decomposes into exactly one SM generation + conjugate, nothing missing, nothing extra. THE NEGATIVE HALF, decisive: the SM-graded states have V2/V3 oblique components blowing up together (~1.8e2) and nearly cancelling -- the SM grading and the triality split are violently transverse: THE TRIPLE'S IDENTITY DOES NOT SURVIVE WITHIN A SINGLE BREAKING; the S3 lives ACROSS the three breakings, as the solo seat's fence anticipated. If '3 = triality' is to be a generations mechanism it must be an across-breakings reading -- flagged for the joint queue, unweighted. Design correction recorded: per-sector grading is ill-posed (sectors not Levi-stable; the non-clustering charges caught it). Galois symmetry carries the result to the other two roots.",
+ "depends_on": [
+  "B861",
+  "B872",
+  "B874",
+  "B875",
+  "B877"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, the joint cell with the solo seat (2026-08-03)"
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## B876 — THE DESCENT: each breaking's matter = exactly one SM generation; the triple does NOT survive within a breaking
+- **The positive half**: the imposed fused-chain Levi tower (Cent 25 → 13, exact) grades the coset in three exact patterns — [16,16] under z₁; **[10,10,5,5,1,1]** under y (16 → 10⊕5̄⊕1); **[6,6,3,3,3,3,2,2,1,1,1,1]** under (y,y₂) — **the full SM generation multiplet pattern, doubled**. Nothing missing, nothing extra.
+- **The negative half, decisive**: the SM-graded states blow up (~1.8×10²) and nearly cancel in V₂/V₃ oblique coordinates — the SM grading and the triality split are violently transverse: **the triple's identity does not survive within a single breaking; the S₃ lives ACROSS the three breakings**, as the solo seat's fence anticipated. The across-breakings reformulation is flagged, unweighted. Design correction recorded (per-sector grading ill-posed — the non-clustering charges caught it). 5 locks. Gate 5 untouched.
+
 ## B877 — S1 review PASSED: the First Measurement Theorem accepted — a two-seat theorem
 - The solo seat's banking-grade theorem (charges 12/30/46 + the three-line S₃ locus; types by the squeeze; the tiling; **the weight-line lemma making the cyclic law a priori**; matter = the foreign sectors) — **every exact certificate rerun green on this build** (pencil division det₃₆ = c·μ¹², det₁₂ = c·μ⁴ over ℚ; restriction-of-scalars nullities 36/12; sum-freeness at both primes × all roots), logic reviewed clause by clause, imports pinned. Their roots ≡ this seat's 13× values digit-for-digit.
 - Review notes recorded (levi2 manifest gap — repaired by the squeeze; the projector trap their methods avoid). **NOT banked: the generation reading** — the §5 fence kept; THE DESCENT (B876, running) decides. 7 locks. Gate 5 untouched.

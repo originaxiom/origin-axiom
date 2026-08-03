@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **800** |
-| words of findings prose | **524,275** |
-| test lock files referenced | **539** |
-| arcs carrying an authored verdict | **786** (98.2 %) |
+| research arcs with findings | **801** |
+| words of findings prose | **524,887** |
+| test lock files referenced | **540** |
+| arcs carrying an authored verdict | **787** (98.3 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 488 |
+| PROVED | 489 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B875`** (518 words, 1 locks)  
-The solo seat's TRIALITY-TILING THEOREM verified on this seat's fully independent build, three legs in one reproducer: (1) skeleton at 30 digits -- kernels (46,46,46) at the three Galois enhancement points, every pairwise intersection = the 30-dim core, joint span = 78, sectors (16,16,16) via the canonical V_i = ad(z)(K_i); (2) the core typed at this seat's own two primes (40009/40037): dim 30, derived 28, center 2 -- D4 = so(8) forced: the census's soft plane IS the triality direction; (3) the cyclic multiplication law in OBLIQUE direct-sum coordinates: [Vi,Vi] -> core purely, [V1,V2] -> V3, [V1,V3] -> V2, [V2,V3] -> V1, foreign components ~1e-23. Trap documented: the sectors are NEARLY PARALLEL (roots within ~1e-3), so orthogonal projections read 1.0 everywhere -- the law is only readable in the oblique basis (condition ~1.3e11); mod-p methods are immune, floating reruns are not. Two seats, two builds, two method families. The generation reading stays a structure, not a mechanism; THE DESCENT decides it.  
-`B875_triality_tiling/FINDINGS.md`
+**PROVED — `B876`** (612 words, 1 locks)  
+THE DESCENT (the joint cell with the solo seat, their priority (a)): inside K1, the IMPOSED fused-chain Levi tower lands exactly (Cartan by iterated centralizers, 40 roots by joint diagonalization, Killing-Gram root graph with integer-certified inner products, A4-chain annihilator y with Cent = 25, A2+A1 annihilator y2 with joint Cent = 13) and grades the coset W = e6/K1 in three exact patterns: z1 -> [16,16] (B872 in situ), y -> [10,10,5,5,1,1] (16 = 10+5bar+1 under su(5)), (y,y2) -> [6,6,3,3,3,3,2,2,1,1,1,1] (the FULL SM generation multiplet pattern, doubled) -- the positive half: each breaking's matter decomposes into exactly one SM generation + conjugate, nothing missing, nothing extra. THE NEGATIVE HALF, decisive: the SM-graded states have V2/V3 oblique components blowing up together (~1.8e2) and nearly cancelling -- the SM grading and the triality split are violently transverse: THE TRIPLE'S IDENTITY DOES NOT SURVIVE WITHIN A SINGLE BREAKING; the S3 lives ACROSS the three breakings, as the solo seat's fence anticipated. If '3 = triality' is to be a generations mechanism it must be an across-breakings reading -- flagged for the joint queue, unweighted. Design correction recorded: per-sector grading is ill-posed (sectors not Levi-stable; the non-clustering charges caught it). Galois symmetry carries the result to the other two roots.  
+`B876_descent/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
