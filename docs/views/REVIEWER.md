@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **787** |
-| words of findings prose | **516,211** |
-| test lock files referenced | **526** |
-| arcs carrying an authored verdict | **774** (98.3 %) |
+| research arcs with findings | **788** |
+| words of findings prose | **516,811** |
+| test lock files referenced | **527** |
+| arcs carrying an authored verdict | **775** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 476 |
+| PROVED | 477 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B863`** (540 words, 1 locks)  
-THE TERMINATION THEOREM: the fused cascade halts at the SM because the SM is the TERMINAL registerable algebra -- every proper descent kills registerability (su(2)->u(1) makes the colour content vector-like {3:2,3bar:2}; su(3)->su(2)xu(1) leaves only pseudoreal reps; the GENUINE conformal embedding su(2)_4 in su(3)_1 at c=2 branches the 3 to the REAL triplet and dies too; abelianization leaves dial only) while the SM itself stays chiral (positive control). The halt is principled: the (3,2) is the last unpaired complex structure -- and the kind-check from physics is that QCD+QED, what survives EW breaking, is vector-like. Answers the completeness critic's G1 before the referee can fire it. Menu import (P5) stated, not hidden.  
-`B863_termination/FINDINGS.md`
+**PROVED — `B864`** (600 words, 1 locks)  
+THE ANOMALY LEDGER (the critic's G3, exact): (1) over the full 27/16 every chain U(1) is anomaly-free -- nothing at parent level forces truncation; (2) over the CHIRAL matter the dials become anomalous (psi over the 16: Tr=16, Tr^3=16, [SO(10)]^2=2; chi over 10+5bar: Tr=5, Tr^3=125) -- an anomalous U(1) cannot be gauged, so the framework's dial-reading is now a CONSEQUENCE; (3) UNIQUENESS: Q = aY + b*chi + c*psi over the generation gives grav = 5b+15c, [SU(3)]^2 = 2c, [SU(2)]^2 = 2c, forcing b = c = 0 -- HYPERCHARGE IS THE UNIQUE GAUGEABLE ABELIAN DIRECTION, and its cubic vanishes for free. The derivation arrow: the cascade's dial-stripping rule = anomaly consistency of the chiral sector. L5 upgraded from cited-wrong to computed. Does NOT derive the re-anchoring itself (G2 stands).  
+`B864_anomaly_ledger/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

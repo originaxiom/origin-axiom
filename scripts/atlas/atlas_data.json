@@ -18034,6 +18034,23 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B864": {
+   "slug": "anomaly ledger",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B860",
+    "B861",
+    "L5"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B86": {
    "slug": "unification synthesis",
    "motifs": [

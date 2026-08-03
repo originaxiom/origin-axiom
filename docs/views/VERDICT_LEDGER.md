@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-774 of 787 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+775 of 788 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (476)
+## PROVED (477)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -488,6 +488,7 @@
 | `B861` | ONE principle -- maximal residual symmetry among REGISTERABLE options, registerable meaning the 27's generation stays chiral as a multiset with theta-odd abelian factors stripped (B860's theorem-grade criterion) -- selects E6 -> SO(10)xU(1) -> SU(5)xU(1) -> SM UNIQUELY at every step, applied uniformly to the GENERATION. The handoff's deviation clause dissolves: the world's chain IS the extremal registerable path; the 'deviation' was an artifact of ranking the non-registerable SU(4)xU(1). The gate bites exactly twice (Sp(8)'s self-dual 27 at step 1; SU(4)xU(1) at step 3) and is non-vacuous by construction. A first draft applied the test to COSETS and was caught by its own output (every adjoint coset is multiset-self-conjugate -- vacuous); the uniform generation criterion is the repair. Remaining external spine: menu completeness (P5) and one owed definition (registering as a B599 pairing datum). No values. |  | 1 |
 | `B862` | The cascade's step-3 winner, as a GROUP inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 -- kernel computed exactly (order 6, all sixth-root indices, hypercharge direction diag(2,2,2,-3,-3)/6 explicit). The SM's own data leaves Gamma in {1,Z2,Z3,Z6} ambiguous (Tong 1705.01853); the chain FORCES Z6, resolving a structural ambiguity the SM itself cannot -- conditional on exactly what the cascade is conditional on (P5 + the fused rule), and falsifiable in principle via line-operator spectra. |  | 1 |
 | `B863` | THE TERMINATION THEOREM: the fused cascade halts at the SM because the SM is the TERMINAL registerable algebra -- every proper descent kills registerability (su(2)->u(1) makes the colour content vector-like {3:2,3bar:2}; su(3)->su(2)xu(1) leaves only pseudoreal reps; the GENUINE conformal embedding su(2)_4 in su(3)_1 at c=2 branches the 3 to the REAL triplet and dies too; abelianization leaves dial only) while the SM itself stays chiral (positive control). The halt is principled: the (3,2) is the last unpaired complex structure -- and the kind-check from physics is that QCD+QED, what survives EW breaking, is vector-like. Answers the completeness critic's G1 before the referee can fire it. Menu import (P5) stated, not hidden. |  | 1 |
+| `B864` | THE ANOMALY LEDGER (the critic's G3, exact): (1) over the full 27/16 every chain U(1) is anomaly-free -- nothing at parent level forces truncation; (2) over the CHIRAL matter the dials become anomalous (psi over the 16: Tr=16, Tr^3=16, [SO(10)]^2=2; chi over 10+5bar: Tr=5, Tr^3=125) -- an anomalous U(1) cannot be gauged, so the framework's dial-reading is now a CONSEQUENCE; (3) UNIQUENESS: Q = aY + b*chi + c*psi over the generation gives grav = 5b+15c, [SU(3)]^2 = 2c, [SU(2)]^2 = 2c, forcing b = c = 0 -- HYPERCHARGE IS THE UNIQUE GAUGEABLE ABELIAN DIRECTION, and its cubic vanishes for free. The derivation arrow: the cascade's dial-stripping rule = anomaly consistency of the chiral sector. L5 upgraded from cited-wrong to computed. Does NOT derive the re-anchoring itself (G2 stands). |  | 1 |
 
 ## NEGATIVE (260)
 
