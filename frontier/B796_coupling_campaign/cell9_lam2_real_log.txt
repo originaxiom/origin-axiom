@@ -1,0 +1,10 @@
+=== CELL 9 RUNG (i) v2: target r = 4.900085373 (prereg v3 169e9042) ===
+P1: PASS (10/10 samples <= 1e-27)
+n = 2382 modes, x_cut = 69.9, Y = 0.75, prec = 489 bits
+normalization mode j0 = 1192 = mode (0, 2) (certified max-|a| mode)
+  [j0-check] ||a||_inf = 2.3e-02 (< 1e9) OK
+  [main] iter 0: |g| = 7.02e-07, |dr| = 9.37e-10 (6373s)
+  [main] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
+  [main] iter 1: |g| = 8.85e-17, |dr| = 1.18e-19 (6629s)
+=== CELL 9 RUNG (i) v2: target r = 4.900085373 (prereg v3 169e9042) ===
+P1: PASS (10/10 samples <= 1e-27)
