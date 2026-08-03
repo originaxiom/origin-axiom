@@ -47,9 +47,12 @@ def test_the_multiplicity_matches_the_jump():
     assert "¹⁶" in (_ROOT / "frontier" / "B866_charge_cubic" / "FINDINGS.md").read_text("utf-8")
 
 
-def test_the_type_is_marked_as_their_leg_not_ours():
+def test_the_honest_boundary_after_the_addendum():
+    """The type moved to verified-on-both-legs (addendum); the coset stayed theirs
+    until B872. The boundary section must say exactly that."""
     assert "NOT verified here" in _F
-    assert "the type is theirs" in _F
+    assert "now confirmed on this seat's own leg" in _F
+    assert "**The coset structure 32 = 16 ⊕ 16̄** — theirs." in _F
 
 
 def test_generations_stays_a_signature():
