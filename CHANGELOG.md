@@ -1,5 +1,9 @@
 # Changelog
 
+## B888 — three cubics, one resolvent: ℚ(√77) inside all three closures; the exponent echo
+- The vacuum-weight cubic (≇ K), the generic-weight cubic (≅ K), and μ itself all have **squarefree discriminant part 77 = 7·11** — the vacuum and charge fields are **resolvent-entangled** (compositum Galois group in the order-18 fiber product). The weight cubics differ only 2-adically.
+- **The exponent echo, fenced**: the measured plane uses the exponent-(4,8) charges; the resolvent remembers exactly the unmeasured pair **(7,11)** = x₁₄, x₂₂. Feeds W4 (KMRT with ℚ(√77) as the étale discriminant datum). 4 locks. Gate 5 untouched.
+
 ## B886 — the matter pencil: six Π-weights, two Galois orbits, the B885 laws now THEOREMS, and a second cubic field
 - **All exact**: P(x,λ) on the 27 = **F₁¹·F₂⁸** (both cubic in x) — six joint Π-weights in two size-3 orbits (mult 1 and **8 = the octonion dimension as weight multiplicity**). μ's **third appearance**: the matter pencil's branch-collision locus, with a perfectly **S₃-equivariant collision design** (1 = lone w; 10 = w+w+u; 16 = u+u).
 - **LAW 1 and LAW 2 are theorems** (exact minimal-polynomial tests, 6/6 pairs) — every frame's vacuum axis is a 10-block direction of every other frame, never a singlet direction. **New object: a second cubic field** — the mult-8 orbit lives in K itself; the mult-1 (vacuum) orbit lives in a NON-isomorphic cubic field. Its invariants = named follow-up. 6 locks. Gate 5 untouched.

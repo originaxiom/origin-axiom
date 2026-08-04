@@ -18476,10 +18476,11 @@
    "refs": [
     "B854",
     "B876",
-    "B883"
+    "B883",
+    "B886"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -18522,6 +18523,20 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "meta"
+  },
+  "B888": {
+   "slug": "two fields",
+   "motifs": [
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B886"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B88": {
    "slug": "sl4 census",

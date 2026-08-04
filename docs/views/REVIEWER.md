@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **811** |
-| words of findings prose | **529,597** |
-| test lock files referenced | **551** |
-| arcs carrying an authored verdict | **798** (98.4 %) |
+| research arcs with findings | **812** |
+| words of findings prose | **529,924** |
+| test lock files referenced | **552** |
+| arcs carrying an authored verdict | **799** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 500 |
+| PROVED | 501 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B887`** (414 words, 2 locks)  
-R37-1 executed as a WF-PANEL (37 agents, ~5.5 min): the could-it-still-fail audit of all 19 governance gates -- ~40 HIGH drift findings including TWO LIVE-DEMONSTRATED holes (a banned phrase injected into WORKING_RULES.md passed gate_framing, whose hardcoded 8-name list never scanned root files; a fake E-row citing a nonexistent test passed gate_claims, whose scan was Proven-slice-only), plus atlas-fresh's cancellation-blind cardinality check and the ungated B877 verdict lesson. FOUR REPAIRS BANKED: framing scans all root *.md; claims validates citations over the whole ledger (execution stays the suite's job, rationale in-source); atlas-fresh uses set equality with named diffs; NEW GATE #20 arc-verdicts (FINDINGS => sibling arc_verdict.json; 14 grandfathered as frozen constants) -- which immediately caught P3_depth_exposure (missed by shell globs) and then ITS OWN ARC before this verdict file was written. All 20 gates pass; the remaining ~35 HIGH findings registered as a prioritized R38 repair queue in-arc with full per-gate reports preserved. The WF-PANEL lane verdict: two live holes in binding instruments that three decadal reviews had not found, in five and a half minutes.  
-`B887_gate_audit/FINDINGS.md`
+**PROVED — `B888`** (327 words, 1 locks)  
+Three cubics, ONE quadratic resolvent: the vacuum-weight cubic (not isomorphic to K), the generic-weight cubic (isomorphic to K), and mu itself all have squarefree discriminant part 77 = 7*11 -- one quadratic field Q(sqrt(77)) inside all three S3 Galois closures, so the vacuum and charge fields are RESOLVENT-ENTANGLED (compositum Galois group in the order-18 fiber product, not S3 x S3); the two weight-cubics differ only 2-adically (2^70 vs 2^64). THE EXPONENT ECHO, recorded as an unweighted observation: E6 exponents (1,4,5,7,8,11); the four 2T charges live in degrees 2*(4,7,8,11); the measured plane uses the (4,8) pair and the resolvent remembers exactly the complementary UNMEASURED pair (7,11) = x14, x22. Feeds W4: the KMRT trialitarian formalization should treat the resolvent-entangled pair, with Q(sqrt(77)) as the etale algebra's discriminant datum. Priced next: field discs proper + 2-adic ramification detail.  
+`B888_two_fields/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
