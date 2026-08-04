@@ -162,7 +162,7 @@ def analyze(q, towers):
     dz = Z.shape[0]
     rng = np.random.default_rng(5)
     ideals = None
-    for attempt in range(12):
+    for attempt in range(40):
         co = rng.integers(1, q, dz)
         X = (co @ Z) % q
         adX = np.array([bv(X, Z[b], q) for b in range(dz)]).T  # 78 x dz -> proj
@@ -318,9 +318,9 @@ def analyze(q, towers):
         if s2 is None: return {**res, "blocks": "NOT-SPLIT"}
         for fval_, Vf in s2:
             s3 = eig_split(CasW, Vf)
-            wvals = sorted(set(ev for ev, _ in s3)) if s3 else ["?"]
-            blocks.append({"c": cval, "f": fval_,
-                           "w": [int(x) for x in wvals] if s3 else wvals,
+            wsplit = (sorted((int(ev), int(V.shape[0])) for ev, V in s3)
+                      if s3 else "NOT-SPLIT")
+            blocks.append({"c": cval, "f": fval_, "w": wsplit,
                            "dim": int(Vf.shape[0])})
     res["blocks"] = blocks
     res["tiles_27"] = sum(b["dim"] for b in blocks) == 27
@@ -332,16 +332,22 @@ t1 = towers_at(q1)
 print("prime 1:", q1, "towers", t1, flush=True)
 out["p1"] = analyze(q1, t1)
 print(json.dumps(out["p1"], default=str), flush=True)
-q2, t2 = find_prime(40639)
-print("prime 2:", q2, "towers", t2, flush=True)
-out["p2"] = analyze(q2, t2)
-print(json.dumps(out["p2"], default=str), flush=True)
+start = 40639
+for _ in range(6):
+    q2, t2 = find_prime(start)
+    print("prime 2 candidate:", q2, "towers", t2, flush=True)
+    out["p2"] = analyze(q2, t2)
+    print(json.dumps(out["p2"], default=str), flush=True)
+    if isinstance(out["p2"].get("blocks"), list): break
+    start = q2
 
 # cross-prime agreement on the INVARIANT data: sorted block dims with
 # (color-trivial?, flavor-trivial?) flags (eigenvalues are prime-dependent)
 def signature(r):
     if not isinstance(r.get("blocks"), list): return None
-    return sorted((b["dim"], b["c"] == 0, b["f"] == 0, len(b["w"]))
+    return sorted((b["dim"], b["c"] == 0, b["f"] == 0,
+                   tuple(sorted(d for _, d in b["w"]))
+                   if isinstance(b["w"], list) else "?")
                   for b in r["blocks"])
 sig1, sig2 = signature(out["p1"]), signature(out["p2"])
 out["primes_agree"] = (sig1 is not None and sig1 == sig2)

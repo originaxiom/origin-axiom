@@ -1,5 +1,15 @@
 # Changelog
 
+## B897 — the sealed cell decides: G₂₀ organizes the 27 GENERATION-SHAPED (outcome A at two primes)
+- Prereg sealed and **committed before compute** (`0e1cdf4c`); seal verified at banking. At 40123 AND 40693 (identical signatures): the 27 = three 9-blocks — **(3_c, 3_f) su(2)′-trivial: one color type × 3 bound as one flavor multiplet (criterion A verbatim)**; **(1_c, 3_f) splitting 3+6: the lepton doublet/singlet pattern as flavor triplets** (A again, via the disclosed prior's decision branch); (3_c, 1_f) the unreplicated third leg. Casimirs lift to the same rationals at both primes: **C_c = C_f = 4/9** (twin su(3)'s), C_w = 3/8.
+- **The sealed branch binds: su(3)′ is a native flavor symmetry replicating fixed color⊗su(2)′ types into flavor triplets.** Pre-stated and unchanged: mechanism-hood NOT decided — the solo seat's §5 fence stands. 4 locks. Gate 5 untouched.
+
+## B898 — the exact signature census: the dichotomy is a theorem; every float borderline was kernel
+- Charpoly over ℚ + factorization + Sturm, no floats: **ad(x₈) ≡ ad(x₁₆): {0³⁰, 48 real}; ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imaginary}; zero generic-complex anywhere on C.** The measured pair are split-type twins (kernel 30 = the FMT centralizer); the unmeasured pair compact-type twins (kernel 12 = the floor). B893's borderline counts (1, 1, 7) were tolerance noise on kernel directions. The four-column ledger's spectrum column is exact. 4 locks. Gate 5 untouched.
+
+## B899 — M8: the hierarchy-source check — an earned negative
+- The sealed cells' per-frame deviation magnitudes do NOT correlate with μ's root geometry (nearest-spacing, |μ′|) under the four registered log-log comparisons: one order-match = the chance rate (~52% for ≥1 across four 3-point tests), residuals large everywhere. **The invariant small numbers have some other source.** Negative earned exactly as far as the registered comparisons — no wider scan, look-elsewhere kept honest. 3 locks. Gate 5 untouched.
+
 ## B896 — M1: the S₃-harmonic analysis — the dictionary is one table; the asymmetry is near-maximally frame-breaking
 - Jointly aligned (block perms × row assignment — rows permute under frame relabeling, a caught model error), B889's three tables are **one table: trivial fraction 0.99963**, standard fraction 3.7×10⁻⁴ concentrated exactly in the leakage rows. **Physics = trivial isotypic; mixing-shaped = standard isotypic — with numbers.**
 - The sealed cells' deviation patterns are **near-maximally frame-breaking**: standard fraction 0.549 (B890) / 0.598 (B891) against the 2/3 bound — the recurring per-frame asymmetry quantified. Sign placement is rep theory: ℂ³ has no sign component; the ℤ₂ cocycle (∏c = −1) is the sign-class in pair data. Frame identifications are transposition representatives (coset choice, not an anomaly); exact cocycle pass registered (N7). 4 locks. Gate 5 untouched.

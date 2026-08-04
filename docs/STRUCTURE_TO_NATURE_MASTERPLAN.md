@@ -157,3 +157,18 @@ cell), M5 (Knus–Paques class), M8 (hierarchy-source, fenced); Phase 2 standing
   settle which coset representatives the geometry itself selects. INLINE.
 - **N1 RESOLVED** (inside B895): the belt 17 = refinement bookkeeping; B884's 11 confirmed at
   a second prime, both seeds. **N6 PAID** (B895 cell 4).
+
+### v3 addendum 2 (same day) — the queue advances
+- **M2 DECIDED** — B897 (sealed, seal committed pre-compute): OUTCOME A at two primes;
+  G₂₀'s su(3)′ is a native flavor symmetry; the lepton-pattern 3+6 split appears in the
+  color-singlet block. The fence on mechanism-hood stands.
+- **N3 PAID** — B898: the exact census; the dichotomy is a theorem; kernel dims are
+  structural (30 = FMT centralizer / 12 = floor).
+- **M8 CLOSED (NEGATIVE)** — B899: no correlation with μ's root geometry under the four
+  registered comparisons; the invariant small numbers have another source.
+- **REMAINING QUEUE (to idle):** M5 (Knus–Paques class), N2 (sign-law proof), N4
+  (entry-pattern mechanism design), N5 (C-stabilizing involutions), N7 (exact frame
+  1-cocycle — now sharpened: B888's octet-weight field ≅ K predicts root-indexed octet
+  blocks; B896's opposite-sign float perms make the answer nontrivial). Then Phase 2
+  computables (W8 Kim retry, Barton–Sudbery explicit iso), then IDLE → the decadal
+  (owner directive 2026-08-05: review AFTER the queue empties).

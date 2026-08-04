@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **820** |
-| words of findings prose | **534,143** |
-| test lock files referenced | **560** |
-| arcs carrying an authored verdict | **807** (98.4 %) |
+| research arcs with findings | **823** |
+| words of findings prose | **535,420** |
+| test lock files referenced | **563** |
+| arcs carrying an authored verdict | **810** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 509 |
-| NEGATIVE | 260 |
+| PROVED | 511 |
+| NEGATIVE | 261 |
 | OPEN | 29 |
 | RETRACTED | 9 |
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B896`** (556 words, 1 locks)  
-M1, THE S3-HARMONIC ANALYSIS: (1) jointly aligned (block perms x Hungarian row assignment -- the fixed-row model's bimodal residue was a caught model error: rows permute under frame relabeling), the three B889 dictionary tables are ONE table -- trivial (frame-symmetric) fraction 0.99963, standard (frame-breaking) fraction 3.7e-4, concentrated EXACTLY in the leakage rows (law rows at 1e-21..1e-9): physics = trivial isotypic, mixing-shaped = standard isotypic, with numbers; (2) the sealed cells' per-frame deviation patterns are NEAR-MAXIMALLY frame-breaking -- standard fraction 0.549 (B890 vacua) and 0.598 (B891 matter) against the 2/3 bound for nonnegative data (82% and 90% of max): the recurring per-frame asymmetry now has its number -- small in size, near-maximal in mixing-shape; (3) the sign placement is a rep-theory fact: C^3 = trivial + standard contains NO sign, so no single-frame table can carry it -- the banked Z2 cocycle (prod c = -1) is exactly the nontrivial sign-class in oriented pair data. The best-fit frame identifications are transposition representatives (non-cyclic -- coset choice in a Galois S3 orbit, not an anomaly); the exact 1-cocycle pass is registered as N7.  
-`B896_s3_harmonics/FINDINGS.md`
+**PROVED — `B898`** (405 words, 1 locks)  
+N3, THE EXACT SIGNATURE CENSUS (charpoly over Q + factorization + Sturm, no floats): ad(x8) and ad(x16) have IDENTICAL exact signatures {0^30, 48 real, 0 imaginary, 0 complex} and ad(x14), ad(x22) have IDENTICAL exact signatures {0^12, 0 real, 66 imaginary, 0 complex} -- THE SIGNATURE DICHOTOMY IS A THEOREM: the measured plane is purely split (kernel 30 = the FMT centralizer so(8)+u(1)^2), the unmeasured slots purely compact (kernel 12 = the floor dimension), and NO generic-complex eigenvalue exists anywhere on C. Every float borderline of B893 (the 1, 1, 7 'generic-complex' counts) resolved into the kernel -- tolerance noise, now zero by construction. B894's four-column ledger's spectrum column is exact.  
+`B898_exact_census/FINDINGS.md`
 
-**NEGATIVE — `B854`** (1200 words, 1 locks)  
-The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
-`B854_centralizer_exact/FINDINGS.md`
+**NEGATIVE — `B899`** (315 words, 1 locks)  
+M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  
+`B899_hierarchy_check/FINDINGS.md`
 
 **RETRACTED — `B780`** (851 words, 0 locks)  
 The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  

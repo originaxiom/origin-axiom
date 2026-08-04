@@ -18713,6 +18713,57 @@
    "status": "banked",
    "domain": "meta"
   },
+  "B897": {
+   "slug": "27 under g20",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B854",
+    "B866",
+    "B883",
+    "B892",
+    "B895"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B898": {
+   "slug": "exact census",
+   "motifs": [
+    "lorentzian"
+   ],
+   "refs": [
+    "B854",
+    "B874",
+    "B893",
+    "B894"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B899": {
+   "slug": "hierarchy check",
+   "motifs": [],
+   "refs": [
+    "B866",
+    "B889",
+    "B890",
+    "B891",
+    "B896"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B89": {
    "slug": "sl4 symbolic M4L",
    "motifs": [
