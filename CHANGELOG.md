@@ -1,5 +1,9 @@
 # Changelog
 
+## B903 — the sign law's mechanism: anti-palindromy + an exact root-parity law
+- All six B581 quotients are **exactly anti-palindromic** (ε = −1 universally — the zero at t = 1 is forced by duality). With Δ = (t−1)P: **sign(τ_m) = sign(lc)·(−1)^{p_m}** (p_m = positive-real pair count, exact Sturm), and **p_m ≡ m (mod 2) in every block** (counts 1,2,3,3,4,5).
+- The load-bearing sign law is reduced with certificates; the sharply-posed remainder — why root parity carries θ-parity — is registered. 3 locks. Gate 5 untouched.
+
 ## B902 — the Knus–Paques class: vacuum and charge fields are INVERSE; they compose to the split algebra
 - Exact certificates: **α_μ·α_vac = ((73008/7)(1+√−3))³** and **α_gen·α_vac = ((30901351219200/13)(1+√−3))³** — both symbolic-cubed, both living purely in the cyclotomic line. By composition the same-field control (μ vs generic) is a cube — calibrated.
 - **[α_vac] = [α_μ]⁻¹ with no unit twist: under the Knus–Paques group law with resolvent ℚ(√77), vacuum ⊕ charge = identity — the two matter fields annihilate.** W4's misalignment datum delivered: the group-law mirror, not a generic offset. 4 locks. Gate 5 untouched.

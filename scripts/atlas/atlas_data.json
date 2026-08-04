@@ -18860,6 +18860,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B903": {
+   "slug": "sign law",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [
+    "B581",
+    "B894"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B90": {
    "slug": "degree rank peripheral",
    "motifs": [

@@ -1,0 +1,62 @@
+{
+ "1": {
+  "deg": 3,
+  "antipalindromic": true,
+  "palindromic_quotient": false,
+  "tau_sign": -1,
+  "lc_sign": 1,
+  "pos_real_pairs": 1,
+  "sign_formula_holds": true,
+  "parity_matches_m": true
+ },
+ "4": {
+  "deg": 9,
+  "antipalindromic": true,
+  "palindromic_quotient": false,
+  "tau_sign": 1,
+  "lc_sign": 1,
+  "pos_real_pairs": 2,
+  "sign_formula_holds": true,
+  "parity_matches_m": true
+ },
+ "5": {
+  "deg": 11,
+  "antipalindromic": true,
+  "palindromic_quotient": false,
+  "tau_sign": -1,
+  "lc_sign": 1,
+  "pos_real_pairs": 3,
+  "sign_formula_holds": true,
+  "parity_matches_m": true
+ },
+ "7": {
+  "deg": 15,
+  "antipalindromic": true,
+  "palindromic_quotient": false,
+  "tau_sign": -1,
+  "lc_sign": 1,
+  "pos_real_pairs": 3,
+  "sign_formula_holds": true,
+  "parity_matches_m": true
+ },
+ "8": {
+  "deg": 17,
+  "antipalindromic": true,
+  "palindromic_quotient": false,
+  "tau_sign": 1,
+  "lc_sign": 1,
+  "pos_real_pairs": 4,
+  "sign_formula_holds": true,
+  "parity_matches_m": true
+ },
+ "11": {
+  "deg": 23,
+  "antipalindromic": true,
+  "palindromic_quotient": false,
+  "tau_sign": -1,
+  "lc_sign": 1,
+  "pos_real_pairs": 5,
+  "sign_formula_holds": true,
+  "parity_matches_m": true
+ }
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **826** |
-| words of findings prose | **536,881** |
-| test lock files referenced | **566** |
-| arcs carrying an authored verdict | **813** (98.4 %) |
+| research arcs with findings | **827** |
+| words of findings prose | **537,317** |
+| test lock files referenced | **567** |
+| arcs carrying an authored verdict | **814** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 514 |
+| PROVED | 515 |
 | NEGATIVE | 261 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B902`** (486 words, 1 locks)  
-M5, THE KNUS-PAQUES DIFFERENCE CLASS (W4's misalignment datum, delivered): with Lagrange-resolvent Kummer elements alpha = (-27q + 3s sqrt(-231))/2 in F = Q(sqrt77, sqrt-3) for the three cubics sharing resolvent Q(sqrt77), TWO EXACT CUBE CERTIFICATES -- alpha_mu * alpha_vac = ((73008/7)(1+sqrt-3))^3 and alpha_generic * alpha_vac = ((30901351219200/13)(1+sqrt-3))^3, both verified by symbolic cubing, both certificates rational multiples of zeta_6 living entirely in the cyclotomic line (never touching sqrt77) -- hence alpha_mu/alpha_generic is a cube by composition (the same-field control calibrates the machinery) and [alpha_vac] = [alpha_mu]^{-1} in F*/(F*)^3 with NO unit twist: THE VACUUM FIELD AND THE CHARGE FIELD SIT IN MUTUALLY INVERSE KUMMER CLASSES -- under the Knus-Paques group law on cubic algebras with resolvent Q(sqrt77), vacuum + charge = the identity: the two matter fields ANNIHILATE, composing to the split algebra. Discovery by clean local scans (8 admissible primes, 32 embedding-tests per pair, the earlier p = 13 denominator pollution diagnosed and excluded); proof exact.  
-`B902_knus_paques/FINDINGS.md`
+**PROVED — `B903`** (436 words, 1 locks)  
+N2, THE SIGN LAW'S MECHANISM (load-bearing since B894): all six banked B581 quotients Delta_m are EXACTLY ANTI-PALINDROMIC (functional equation eps = -1 in every block, FORCING the zero at t = 1 -- the torsion's simple zero is duality, not accident), and with Delta_m = (t-1) P_m the exact sign formula sign(tau_m) = sign(lc) * (-1)^{p_m} holds where p_m = the positive-real reciprocal root-pair count of P_m (exact Sturm), with p_m = (1,2,3,3,4,5) for m = (1,4,5,7,8,11): p_m == m (mod 2) IN EVERY BLOCK. The sign law sign(tau_m) = (-1)^m is thus REDUCED with certificates to anti-palindromy (proved per block; general case = Poincare duality for the odd-dim orthogonal V_2m) plus the root-parity law (proved per block by exact count). The remaining open step, sharply posed and registered: why the positive-real pair count carries theta-parity. B581's 'the proof or the fence' resolves toward the proof: two of three steps are exact.  
+`B903_sign_law/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  

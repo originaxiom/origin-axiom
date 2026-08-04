@@ -172,3 +172,25 @@ cell), M5 (Knus–Paques class), M8 (hierarchy-source, fenced); Phase 2 standing
   blocks; B896's opposite-sign float perms make the answer nontrivial). Then Phase 2
   computables (W8 Kim retry, Barton–Sudbery explicit iso), then IDLE → the decadal
   (owner directive 2026-08-05: review AFTER the queue empties).
+
+### v3 addendum 3 (same day) — the Phase-1/N queue EMPTIES
+- **N7 DONE** — B900 (all six blocks root-indexed; the cocycle diagonal; B896's perms derived).
+- **N5 DONE** — B901 (n(C) = z(C); the c-carrier cannot be real; Lane-C's sharpest no-go).
+- **M5 DONE** — B902 (vacuum ⊕ charge = the split algebra; exact ζ₆-line certificates).
+- **N2 DONE (reduced)** — B903 (anti-palindromy universal; sign(τ) = sign(lc)·(−1)^{p_m};
+  p_m ≡ m mod 2 all six blocks; the registered remainder: why root parity carries θ-parity).
+- **N4 DESIGN (registered here; execution = a future arc):** for prime ℓ, entry level
+  m_ℓ := min{m : ℓ | τ_m} (observed: m₁₃ = 5, m₁₁ = 7, 7 saturating m ≥ 4). Mechanism
+  hypothesis: ℓ | τ_m ⟺ H¹(M, V_{2m}; F_ℓ) jumps ⟺ the mod-ℓ holonomy image's action on
+  Sym^{2m} acquires extra (co)invariants. The computation: (1) m004 holonomy over O_{ℚ(√−3)}
+  reduced at primes over ℓ ∈ {7, 11, 13} → the finite image in (P)SL(2, F_ℓ)/F_{ℓ²};
+  (2) per m ≤ 11: fixed/cofixed dims of Sym^{2m} of the image + the twisted complex mod ℓ;
+  predict m_ℓ; (3) targets: m₁₁ = 7 (= the x₁₄ exponent) and m₁₃ = 5 (the golden/level-1
+  crossover); (4) the 7-saturation vs L74's norm-7 vein (N(tr ρ(ab)) = 7). Two-outcome per
+  prime: predicted m_ℓ equals the observed entry level, or the hypothesis dies.
+
+**QUEUE STATE: Phase 0 paid; Phase 1 (M1–M8) all computed/closed; N1–N7 all done or
+design-registered. Remaining are the Phase-2 standing threads: the Barton–Sudbery explicit
+isomorphism (computable, unblocked), the W8 Kim-torsor workflow retry, the two papers,
+λ₂ (external, cc3), and the N4/N2-remainder executions. Owner directive 2026-08-05: idle ⟹
+run the decadal (Review 38).**
