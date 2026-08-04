@@ -18538,6 +18538,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B889": {
+   "slug": "canonical dictionary",
+   "motifs": [
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B885",
+    "B886"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B88": {
    "slug": "sl4 census",
    "motifs": [

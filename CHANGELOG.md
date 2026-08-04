@@ -1,5 +1,9 @@
 # Changelog
 
+## B889 — W3: the canonical dictionary — conventions dissolve into the six Π-blocks; the first small invariant numbers
+- **The vacuum→frame bijection computed** (each frame's singlet on its own canonical line, mass 1.000000) — the S₃ torsor as three labeled lines in the 27. Three 12×6 tables, identical zero-structure (26/72): the laws in canonical form (own-vacuum exclusion for Higgs pieces; total vacuum avoidance for the 16s). B885's convention-carrying fine table superseded.
+- **The polarization observation, fenced**: every SM multiplet ~99% on a single canonical 8-block with invariant 10⁻²–10⁻³ leakages — the first naturally small invariant structural numbers; geometry only, no physics identification. Feeds W6. 5 locks. Gate 5 untouched.
+
 ## B888 — three cubics, one resolvent: ℚ(√77) inside all three closures; the exponent echo
 - The vacuum-weight cubic (≇ K), the generic-weight cubic (≅ K), and μ itself all have **squarefree discriminant part 77 = 7·11** — the vacuum and charge fields are **resolvent-entangled** (compositum Galois group in the order-18 fiber product). The weight cubics differ only 2-adically.
 - **The exponent echo, fenced**: the measured plane uses the exponent-(4,8) charges; the resolvent remembers exactly the unmeasured pair **(7,11)** = x₁₄, x₂₂. Feeds W4 (KMRT with ℚ(√77) as the étale discriminant datum). 4 locks. Gate 5 untouched.

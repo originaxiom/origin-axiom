@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **812** |
-| words of findings prose | **529,924** |
-| test lock files referenced | **552** |
-| arcs carrying an authored verdict | **799** (98.4 %) |
+| research arcs with findings | **813** |
+| words of findings prose | **530,288** |
+| test lock files referenced | **553** |
+| arcs carrying an authored verdict | **800** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 501 |
+| PROVED | 502 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B888`** (327 words, 1 locks)  
-Three cubics, ONE quadratic resolvent: the vacuum-weight cubic (not isomorphic to K), the generic-weight cubic (isomorphic to K), and mu itself all have squarefree discriminant part 77 = 7*11 -- one quadratic field Q(sqrt(77)) inside all three S3 Galois closures, so the vacuum and charge fields are RESOLVENT-ENTANGLED (compositum Galois group in the order-18 fiber product, not S3 x S3); the two weight-cubics differ only 2-adically (2^70 vs 2^64). THE EXPONENT ECHO, recorded as an unweighted observation: E6 exponents (1,4,5,7,8,11); the four 2T charges live in degrees 2*(4,7,8,11); the measured plane uses the (4,8) pair and the resolvent remembers exactly the complementary UNMEASURED pair (7,11) = x14, x22. Feeds W4: the KMRT trialitarian formalization should treat the resolvent-entangled pair, with Q(sqrt(77)) as the etale algebra's discriminant datum. Priced next: field discs proper + 2-adic ramification detail.  
-`B888_two_fields/FINDINGS.md`
+**PROVED — `B889`** (364 words, 1 locks)  
+Masterplan W3 -- the CANONICAL across-breakings dictionary: the convention problem dissolves into B886's six Pi-blocks (three vacuum lines + three 8-blocks, Galois-permuted, no Levi choices). The vacuum->frame identification is a computed bijection (each frame's 27-singlet on its own canonical line at mass 1.000000) -- the S3 torsor of frames realized as three labeled lines in the 27. The three 12x6 tables have identical zero-structure (26/72 per frame) with the laws in canonical form: a frame's Higgs-block pieces are zero on the frame's OWN vacuum line and small on the other two (Law 1's geometry); the 16-multiplets avoid ALL THREE vacuum lines (Law 2 upgraded). B885's convention-carrying fine table is superseded. THE POLARIZATION OBSERVATION, fenced: every SM multiplet is ~99% aligned with a single canonical 8-block with invariant leakages of order 1e-2..1e-3 (basis-independent subspace masses) -- the program's first naturally small invariant structural numbers; recorded as geometry, no identification with physical mixing parameters made or implied. Feeds W6: the assembled generations-decision object is now concrete.  
+`B889_canonical_dictionary/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
