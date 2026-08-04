@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **813** |
-| words of findings prose | **530,288** |
-| test lock files referenced | **553** |
-| arcs carrying an authored verdict | **800** (98.4 %) |
+| research arcs with findings | **814** |
+| words of findings prose | **530,660** |
+| test lock files referenced | **554** |
+| arcs carrying an authored verdict | **801** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 502 |
+| PROVED | 503 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B889`** (364 words, 1 locks)  
-Masterplan W3 -- the CANONICAL across-breakings dictionary: the convention problem dissolves into B886's six Pi-blocks (three vacuum lines + three 8-blocks, Galois-permuted, no Levi choices). The vacuum->frame identification is a computed bijection (each frame's 27-singlet on its own canonical line at mass 1.000000) -- the S3 torsor of frames realized as three labeled lines in the 27. The three 12x6 tables have identical zero-structure (26/72 per frame) with the laws in canonical form: a frame's Higgs-block pieces are zero on the frame's OWN vacuum line and small on the other two (Law 1's geometry); the 16-multiplets avoid ALL THREE vacuum lines (Law 2 upgraded). B885's convention-carrying fine table is superseded. THE POLARIZATION OBSERVATION, fenced: every SM multiplet is ~99% aligned with a single canonical 8-block with invariant leakages of order 1e-2..1e-3 (basis-independent subspace masses) -- the program's first naturally small invariant structural numbers; recorded as geometry, no identification with physical mixing parameters made or implied. Feeds W6: the assembled generations-decision object is now concrete.  
-`B889_canonical_dictionary/FINDINGS.md`
+**PROVED — `B890`** (372 words, 1 locks)  
+THE SEALED W6 OPENING CELL (prereg ea66fc34 sealed before compute, verified unbroken at banking) RETURNS DISTINCT IN ALL THREE FRAMES, against the disclosed prior: the two foreign vacuum lines' 12-piece mass profiles differ by 1.7e-4 to 1.1e-2 -- decisively above the sealed 1e-6 UNSTABLE band. The sealed outcome branch binds: the frame index of foreign vacua is REGISTERABLE within a frame (a B599-legal single-piece projection probe has different expectation on the two lines); a within-world three-fold labeling exists at the vacuum level; GENERATIONS-AS-SECTORS GAINS ITS FIRST MECHANISM CANDIDATE. The distinguishing data are exactly B889's small invariant leakage numbers: the zero-PATTERN is shared but the magnitudes differ -- Galois unlabelability of algebraic labels does NOT translate into operational indistinguishability; the geometry breaks S3 operationally. The prior (EQUAL, from the zero-pattern) was WRONG and is banked as such -- the prereg system working. W6's next sealed cell: does the three-fold registerable structure extend from vacuum lines to matter (three 16-shaped sectors) or stop at three labels with one generation? The solo seat's fence STANDS (candidate strengthened, not yet a mechanism).  
+`B890_foreign_pair/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

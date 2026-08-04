@@ -18576,6 +18576,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B890": {
+   "slug": "foreign pair",
+   "motifs": [
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B599",
+    "B885",
+    "B889"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B89": {
    "slug": "sl4 symbolic M4L",
    "motifs": [

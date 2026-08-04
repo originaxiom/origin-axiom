@@ -1,5 +1,9 @@
 # Changelog
 
+## B890 — the sealed W6 cell returns DISTINCT (against the disclosed prior): the foreign vacua are registerably distinguishable
+- Prereg sealed before compute, verified unbroken at banking. **All three frames: DISTINCT** (profile deviations 1.7×10⁻⁴–1.1×10⁻², above the sealed UNSTABLE band). The sealed branch binds: **a within-world three-fold labeling exists at the vacuum level — generations-as-sectors gains its first mechanism candidate.** The distinguishing data = B889's small invariant leakages: the geometry breaks the Galois symmetry *operationally*.
+- **The disclosed prior (EQUAL) was wrong and is banked as such** — the prereg system working. Next sealed cell: does the three-fold structure extend to matter or stop at labels? The solo seat's fence stands. 4 locks. Gate 5 untouched.
+
 ## B889 — W3: the canonical dictionary — conventions dissolve into the six Π-blocks; the first small invariant numbers
 - **The vacuum→frame bijection computed** (each frame's singlet on its own canonical line, mass 1.000000) — the S₃ torsor as three labeled lines in the 27. Three 12×6 tables, identical zero-structure (26/72): the laws in canonical form (own-vacuum exclusion for Higgs pieces; total vacuum avoidance for the 16s). B885's convention-carrying fine table superseded.
 - **The polarization observation, fenced**: every SM multiplet ~99% on a single canonical 8-block with invariant 10⁻²–10⁻³ leakages — the first naturally small invariant structural numbers; geometry only, no physics identification. Feeds W6. 5 locks. Gate 5 untouched.
