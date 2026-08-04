@@ -1,0 +1,34 @@
+{
+ "signature": {
+  "x8": {
+   "zero": 30,
+   "real": 48,
+   "imag": 0,
+   "complex": 0
+  },
+  "x14": {
+   "zero": 11,
+   "real": 0,
+   "imag": 66,
+   "complex": 1
+  },
+  "x16": {
+   "zero": 29,
+   "real": 48,
+   "imag": 0,
+   "complex": 1
+  },
+  "x22": {
+   "zero": 5,
+   "real": 0,
+   "imag": 66,
+   "complex": 7
+  }
+ },
+ "det14_at_roots": [
+  3854784701.3353987,
+  2792616188.7290025,
+  13209392709.935598
+ ],
+ "wall_complex_at_all_roots": true
+}

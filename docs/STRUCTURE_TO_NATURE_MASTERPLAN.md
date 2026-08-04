@@ -101,3 +101,59 @@ Phase 1 is the meditation's computations, ranked; standing items unchanged below
 ### Phase 2 — standing: W8 Kim retry + the torsor theorem; the Barton–Sudbery explicit
 isomorphism (now unblocked); remaining promotions; the two papers; λ₂ on arrival; field
 discriminants proper; symbolic nonvanishing of the 11.
+
+## AMENDMENT v3 (2026-08-05) — the register update after the trio bank
+
+**PAID / COMPUTED (with the arc that banked each):**
+- **D1 PAID** — B893 banked (ω transverse to C; the signature census M7; the wall complex at
+  all three roots M3). Locks in `tests/test_b893_omega.py`.
+- **M3 COMPUTED** — det₁₄ > 0 at all three Galois roots (B893 cell 3): the √−1 cost of the
+  second measurement is Galois-uniform. Theorem-let locked.
+- **M4 COMPUTED** — B894: support identity supp(τ_ad, p≤13) = supp(disc μ) TRUE; no exponent
+  identity (honest negative); the twelve large torsion primes never enter disc μ. Locked.
+- **M6 KEYSTONE LANDED** — the four-column ledger (measured ⟺ θ-odd ⟺ τ>0 ⟺ split;
+  unmeasured ⟺ θ-even ⟺ τ<0 ⟺ compact; 7·11 = 77 the resolvent; 5 by ramification) is
+  locked as a finite check in B894. The remaining M6 work is the *proof* of the sign law
+  (registered below as N2).
+- **M7 COMPUTED** — folded into B893 as planned.
+- **D3 PART-PAID** — z6c verified exact over ℚ (floor 12; color su(3), Casimir {0×9, 4/9×18},
+  tr(h³)=0 — color is vector-like 3⊕3̄, all solo gates pass). z6d + belt639 diagnostics in
+  flight; bank as B895 on landing.
+- **Ledger repair** — CAMPAIGN_STATUS's LATEST stack had lagged since B852; caught up with a
+  wave block (B880–B892) + the B893/B894 entry. The three-ledger rule held elsewhere.
+
+**NEW REGISTER (N-items — every bullet this session generated, none left uncomputed):**
+- **N1 — the belt refinement diagnostic** (in flight): belt639's fresh-seed allowed-coupling
+  count at q=40639 is 17 vs B884's 11 — candidate explanation: the four-operator combo
+  refines B884's (X₁,Y) cells (15 fine vs 11 coarse); the projection test (fine triples →
+  coarse triples = 11?) + a second rng seed decide. If projection fails: real anomaly, escalate
+  to an exact-charge rerun. Banks inside B895.
+- **N2 — the sign-law proof** (from B581, now urgent because load-bearing in the four-column
+  ledger): dim V_{2m} = 2m+1 ≡ 1 mod 4 exactly at θ-odd m — prove sign(τ_m) = (−1)^m from
+  duality + dimension parity, or bank the fence (unit-convention coincidence). INLINE-DEEP.
+- **N3 — the exact signature census**: B893's M7 census is float-with-exact-anchors; the
+  borderline generic-complex counts (1, 1, 7) deserve an exact pass (charpoly factorization
+  over F = ℚ[ρ]/μ per direction). Also upgrades the 48/66 counts to a theorem. INLINE.
+- **N4 — the entry-pattern mechanism** (B581's registered follow-up, now bridged): WHY does
+  11 first divide τ_m at m = 7 and 13 at m = 5? The support identity (M4) makes this the
+  concrete mechanism question behind the bridge. NEEDS a computation design first.
+- **N5 — W7 continuation**: ω does not preserve C — so which involutions DO stabilize C?
+  Classify the C-stabilizing involutions of this build (the c-carrier candidates); check
+  whether any swaps the split and compact pairs (the c↔θ transfer suspect). INLINE-DEEP.
+- **N6 — D2 proper locks**: the solo-suite verifications (hypercharge, G₂₀, ℤ₂ obstruction,
+  texture 11=11) are logged in B892's FINDINGS but carry no dedicated locks; write
+  `tests/test_b895_solo_suite.py` asserting the four verdict tuples from the saved outputs.
+  Banks inside B895.
+
+**Unchanged queue:** M1 (S₃-harmonic analysis — next INLINE-DEEP), M2 (sealed 27-under-G₂₀
+cell), M5 (Knus–Paques class), M8 (hierarchy-source, fenced); Phase 2 standing as v2.
+
+### v3 addendum (same day)
+- **M1 COMPUTED** — B896: the dictionary is one table (trivial 0.99963; standard 3.7e-4 in
+  the leakage rows); deviations near-maximally frame-breaking (0.55/0.60 vs the 2/3 bound);
+  sign = a placement theorem (the ℤ₂ cocycle). Locks in `tests/test_b896_s3.py`.
+- **N7 — the exact frame 1-cocycle**: the joint-alignment permutations are float best-fits and
+  transposition-shaped; determine the induced S₃ 1-cocycle exactly (over F = ℚ[ρ]/μ) and
+  settle which coset representatives the geometry itself selects. INLINE.
+- **N1 RESOLVED** (inside B895): the belt 17 = refinement bookkeeping; B884's 11 confirmed at
+  a second prime, both seeds. **N6 PAID** (B895 cell 4).

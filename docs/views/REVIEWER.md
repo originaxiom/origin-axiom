@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **816** |
-| words of findings prose | **531,680** |
-| test lock files referenced | **556** |
-| arcs carrying an authored verdict | **803** (98.4 %) |
+| research arcs with findings | **820** |
+| words of findings prose | **534,143** |
+| test lock files referenced | **560** |
+| arcs carrying an authored verdict | **807** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 505 |
+| PROVED | 509 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B892`** (605 words, 1 locks)  
-THE SECOND MEASUREMENT THEOREM VERIFIED on this build (solo S1 queue #1) + THE B874 AMENDMENT LOGGED: the solo seat's exact tower (perfect-square gate C2^2-4C0 = 0; gamma^2 = -C2/2; a^2 = -det14 in F(gamma), det14 != 0; the squeeze dim z(x1,y*) = 14, derived = 11, center >= 3) reproduces end-to-end -- z(x1,y*) = su(3)+su(2)+u(1)^3 EXACTLY: two measurements of the object's own charges take E6 to the SM algebra, skipping SU(5). THIS SEAT'S TWO NEW FACTS: the wall is COMPLEX in the split frame -- det14 = +2.79e9 at the real root (gamma-part 0) so a is IMAGINARY, and the 120-point real-line scan finds no real nullity-14 point (only the known plane stratum) -- the second charge lives in the complexification, connecting the SMT to layer 8. B874 AMENDED in place: 'the torus does not supply the step-2 charge' was an overgeneralization (coordinate tests right in scope); the within-C ladder includes {18, 14}; SU(5) remains unreached. ALSO VERIFIED THIS SESSION: the hypercharge fit (rank 3 for exactly the conjugation pair, rank-4 exact failures), G20 closure (20/19/1, one round), and the Z2 commutation obstruction (the s_i s_j = c_ij law with prod c = -1). The solo S1 queue is verifying wholesale; the two-seat convergence is total.  
-`B892_second_measurement/FINDINGS.md`
+**PROVED — `B896`** (556 words, 1 locks)  
+M1, THE S3-HARMONIC ANALYSIS: (1) jointly aligned (block perms x Hungarian row assignment -- the fixed-row model's bimodal residue was a caught model error: rows permute under frame relabeling), the three B889 dictionary tables are ONE table -- trivial (frame-symmetric) fraction 0.99963, standard (frame-breaking) fraction 3.7e-4, concentrated EXACTLY in the leakage rows (law rows at 1e-21..1e-9): physics = trivial isotypic, mixing-shaped = standard isotypic, with numbers; (2) the sealed cells' per-frame deviation patterns are NEAR-MAXIMALLY frame-breaking -- standard fraction 0.549 (B890 vacua) and 0.598 (B891 matter) against the 2/3 bound for nonnegative data (82% and 90% of max): the recurring per-frame asymmetry now has its number -- small in size, near-maximal in mixing-shape; (3) the sign placement is a rep-theory fact: C^3 = trivial + standard contains NO sign, so no single-frame table can carry it -- the banked Z2 cocycle (prod c = -1) is exactly the nontrivial sign-class in oriented pair data. The best-fit frame identifications are transposition representatives (non-cyclic -- coset choice in a Galois S3 orbit, not an anomaly); the exact 1-cocycle pass is registered as N7.  
+`B896_s3_harmonics/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

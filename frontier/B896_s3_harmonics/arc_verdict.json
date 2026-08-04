@@ -1,0 +1,16 @@
+{
+ "id": "B896",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "M1, THE S3-HARMONIC ANALYSIS: (1) jointly aligned (block perms x Hungarian row assignment -- the fixed-row model's bimodal residue was a caught model error: rows permute under frame relabeling), the three B889 dictionary tables are ONE table -- trivial (frame-symmetric) fraction 0.99963, standard (frame-breaking) fraction 3.7e-4, concentrated EXACTLY in the leakage rows (law rows at 1e-21..1e-9): physics = trivial isotypic, mixing-shaped = standard isotypic, with numbers; (2) the sealed cells' per-frame deviation patterns are NEAR-MAXIMALLY frame-breaking -- standard fraction 0.549 (B890 vacua) and 0.598 (B891 matter) against the 2/3 bound for nonnegative data (82% and 90% of max): the recurring per-frame asymmetry now has its number -- small in size, near-maximal in mixing-shape; (3) the sign placement is a rep-theory fact: C^3 = trivial + standard contains NO sign, so no single-frame table can carry it -- the banked Z2 cocycle (prod c = -1) is exactly the nontrivial sign-class in oriented pair data. The best-fit frame identifications are transposition representatives (non-cyclic -- coset choice in a Galois S3 orbit, not an anomaly); the exact 1-cocycle pass is registered as N7.",
+ "depends_on": [
+  "B866",
+  "B889",
+  "B890",
+  "B891",
+  "B892"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

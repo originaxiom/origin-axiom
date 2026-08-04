@@ -1,0 +1,118 @@
+{
+ "alignment": {
+  "0": {
+   "singlet_perm": [
+    0,
+    1,
+    2
+   ],
+   "octet_perm": [
+    0,
+    1,
+    2
+   ],
+   "row_map": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "residual": 0.0
+  },
+  "1": {
+   "singlet_perm": [
+    0,
+    2,
+    1
+   ],
+   "octet_perm": [
+    2,
+    0,
+    1
+   ],
+   "row_map": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    8,
+    7,
+    10
+   ],
+   "residual": 0.0167362302646421
+  },
+  "2": {
+   "singlet_perm": [
+    1,
+    0,
+    2
+   ],
+   "octet_perm": [
+    1,
+    0,
+    2
+   ],
+   "row_map": [
+    1,
+    2,
+    0,
+    5,
+    4,
+    3,
+    7,
+    6,
+    9,
+    8,
+    10
+   ],
+   "residual": 0.0004590548980807999
+  }
+ },
+ "cyclic_consistent_blocks": false,
+ "cyclic_consistent_rows": false,
+ "b889_trivial_fraction": 0.9996281309881915,
+ "b889_standard_fraction": 0.0003718690118085356,
+ "b889_per_row_standard_fraction": [
+  0.000192160940312373,
+  1.9724041798663707e-06,
+  2.7708677915093128e-21,
+  1.7612216077871518e-09,
+  1.4817501602403463e-09,
+  0.0032718670776618643,
+  1.7359819107412015e-09,
+  0.0005120208929661935,
+  2.029314256081838e-09,
+  0.00021447269454137353,
+  4.325819634783967e-05
+ ],
+ "b890_dev_split": {
+  "values": [
+   0.01054,
+   0.0001657,
+   0.001724
+  ],
+  "mean": 0.004143233333333334,
+  "std_fraction": 0.5486143304846217
+ },
+ "b891_dev_split": {
+  "values": [
+   0.007226,
+   0.004597,
+   0.1166
+  ],
+  "mean": 0.04280766666666667,
+  "std_fraction": 0.5978106529460255
+ },
+ "sign_isotypic": "sign isotypic absent from all single-frame tables (C^3 = trivial + standard as an S3 rep); the banked Z2 cocycle (prod c = -1, B892) is exactly the nontrivial sign-class in oriented pair data"
+}

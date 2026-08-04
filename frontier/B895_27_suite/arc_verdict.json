@@ -1,0 +1,15 @@
+{
+ "id": "B895",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE 27-SUITE CLOSED (the last Phase-0 debts): (1) z6c EXACT over Q -- the floor is dim 12, color = su(3) (dim 8, Cartan 2) with exact Casimir spectrum {0 x9, 4/9 x18} on the 27 and tr(h^3) = 0 on the triplet space: the color content is 3+3bar VECTOR-LIKE, all solo gates pass; (2) the Z6-kernel run READ at last (the logged process miss paid): 9 singlet cells covered 9/9 + 6 triplet cells covered 18/18 at prime 40123, every triplet carrying a hypercharge-fit tuple -- decomposition banked as data, global-structure interpretation stays fenced; (3) THE BELT ANOMALY DISSOLVES: belt639's fresh-seed 17 allowed couplings at the second prime 40639 are pure refinement bookkeeping -- the four-operator combo splits B884's 11 (X1,Y) cells into 15 fine cells, and the 17 fine triples PROJECT TO EXACTLY 11 coarse couplings at both rng seeds, CONFIRMING the charge-forced Yukawa support at a second prime, with the Y-solve passing for exactly the conjugation pair; (4) the solo-suite verdict tuples (hypercharge 3/4, G20 20/19/1, Z2 obstruction prod c = -1, texture 11 = 11) get dedicated locks.",
+ "depends_on": [
+  "B854",
+  "B883",
+  "B884",
+  "B892"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat verifying the solo seat (2026-08-05)"
+}

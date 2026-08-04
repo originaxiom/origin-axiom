@@ -1,0 +1,16 @@
+{
+ "id": "B893",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "W7 OPENED + THE SIGNATURE OF C (M7) + THE WALL AT ALL ROOTS (M3): (1) the Chevalley involution of this build is omega(e_a)=e_{-a} with lattice character d==1 (global -1 is NOT a character here), it is an automorphism (2000 exact pairs) but TRANSVERSE to the measurement frame -- none of x8,x14,x16,x22 is an omega-eigenvector and omega(C) leaves span(C) with exact irrational residuals; (2) the signature census splits the torus cleanly: the measured plane (x8,x16) has ALL nonzero ad-eigenvalues REAL (48 each, split/hyperbolic flows) while the unmeasured slots (x14,x22) have ALL nonzero ad-eigenvalues IMAGINARY (66 each, compact/circle flows) -- the observer reads the split directions; (3) det14 > 0 at ALL THREE Galois roots of mu (3.85e9, 2.79e9, 1.32e10), so the second-measurement wall is complex at every branch -- the sqrt(-1) cost of the SMT is Galois-uniform, upgrading B892 from one branch to the whole S3 orbit.",
+ "depends_on": [
+  "B854",
+  "B866",
+  "B874",
+  "B888",
+  "B892"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

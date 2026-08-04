@@ -1,0 +1,50 @@
+{
+ "tau_ad_smallblock": {
+  "2": 61,
+  "3": 20,
+  "5": 5,
+  "7": 17,
+  "11": 4,
+  "13": 5
+ },
+ "disc_mu": {
+  "2": 32,
+  "3": 10,
+  "5": 2,
+  "7": 3,
+  "11": 1,
+  "13": 6
+ },
+ "support_identity": true,
+ "measured_pair_smallblock": {
+  "2": 21,
+  "3": 4,
+  "5": 1,
+  "7": 4,
+  "11": 1,
+  "13": 1
+ },
+ "sign_law_alignment": {
+  "1": "-",
+  "4": "+",
+  "5": "-",
+  "7": "-",
+  "8": "+",
+  "11": "-"
+ },
+ "large_primes_absent_from_disc": [
+  17,
+  19,
+  31,
+  43,
+  73,
+  97,
+  149,
+  151,
+  607,
+  1471,
+  49297,
+  160453
+ ],
+ "entry_pattern": "11 first divides tau_m at m=7; 13 at m=5; 7 saturates all m>=4 (B581, banked)"
+}

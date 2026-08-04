@@ -18629,6 +18629,90 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B893": {
+   "slug": "omega vs measurement",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B581",
+    "B854",
+    "B866",
+    "B874",
+    "B888",
+    "B892",
+    "B894"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 21,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B894": {
+   "slug": "meditation trio",
+   "motifs": [
+    "metallic",
+    "golden",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B353",
+    "B581",
+    "B854",
+    "B866",
+    "B888",
+    "B893",
+    "P69"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B895": {
+   "slug": "27 suite",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B854",
+    "B883",
+    "B884",
+    "B892"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B896": {
+   "slug": "s3 harmonics",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B866",
+    "B885",
+    "B889",
+    "B890",
+    "B891",
+    "B892",
+    "P69"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B89": {
    "slug": "sl4 symbolic M4L",
    "motifs": [

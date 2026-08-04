@@ -1,5 +1,22 @@
 # Changelog
 
+## B896 — M1: the S₃-harmonic analysis — the dictionary is one table; the asymmetry is near-maximally frame-breaking
+- Jointly aligned (block perms × row assignment — rows permute under frame relabeling, a caught model error), B889's three tables are **one table: trivial fraction 0.99963**, standard fraction 3.7×10⁻⁴ concentrated exactly in the leakage rows. **Physics = trivial isotypic; mixing-shaped = standard isotypic — with numbers.**
+- The sealed cells' deviation patterns are **near-maximally frame-breaking**: standard fraction 0.549 (B890) / 0.598 (B891) against the 2/3 bound — the recurring per-frame asymmetry quantified. Sign placement is rep theory: ℂ³ has no sign component; the ℤ₂ cocycle (∏c = −1) is the sign-class in pair data. Frame identifications are transposition representatives (coset choice, not an anomaly); exact cocycle pass registered (N7). 4 locks. Gate 5 untouched.
+
+## B895 — the 27-suite closed: exact color is vector-like 3⊕3̄; the ℤ₆ kernel read; the belt anomaly dissolves — B884 confirmed at a second prime
+- **z6c exact over ℚ**: floor dim 12; color = su(3) with Casimir spectrum {0×9, 4/9×18} on the 27 and **tr(h³) = 0 — the color content is 3⊕3̄, vector-like**; all solo gates pass. **z6d read at last** (the logged process miss paid): 9 singlets 9/9 + 6 triplets 18/18, every triplet carrying a hypercharge-fit tuple; interpretation stays fenced.
+- **The 17-vs-11 belt anomaly dissolves**: belt639's four-operator combo refines B884's 11 (X₁,Y) cells into 15; the 17 fine triples **project to exactly 11 coarse couplings at both seeds** — the charge-forced Yukawa support confirmed at a second prime, Y-solve passing for exactly the conjugation pair. Solo-suite verdict tuples (hypercharge 3/4, G₂₀ 20/19/1, ℤ₂ ∏c = −1, texture 11 = 11) get dedicated locks. 4 locks. Gate 5 untouched.
+
+## B894 — the torsion-prime bridge + the four-column ledger: four banked structures agree on what gets measured
+- **Support identity TRUE**: supp(τ_ad, p ≤ 13) = {2,3,5,7,11,13} = supp(disc μ) exactly (from the banked B581 block torsions; the twelve large torsion primes 17…160453 never enter disc μ — the cut at 13 is clean both ways). **No exponent identity** (7¹⁷ vs 7³ — honest negative; the bridge is support-level).
+- **The keystone (M6)**: measured (x₈,x₁₆) ⟺ θ-odd (4,8) ⟺ τ_m > 0 (B581's sign law, banked before the FMT) ⟺ split spectrum (B893); unmeasured ⟺ θ-even (7,11) ⟺ τ_m < 0 ⟺ compact, with 7·11 = 77 = the shared resolvent (B888); the golden 5 only by ramification. The concordance is the new object. 4 locks. Gate 5 untouched.
+
+## B893 — W7 opened + the signature of C: the measured plane is split, the unmeasured slots are compact; the wall is complex at all roots
+- The Chevalley involution of this build (ω(e_α) = e₋α, d ≡ 1 — the global −1 is not a character here) is an automorphism (2000 exact pairs) but **transverse to the measurement frame**: no charge is an ω-eigenvector; ω(C) ⊄ span(C).
+- **The signature census (M7)**: ad(x₈), ad(x₁₆) — all nonzero eigenvalues REAL (48 each, hyperbolic flows); ad(x₁₄), ad(x₂₂) — all nonzero eigenvalues IMAGINARY (66 each, circle flows). The observer reads the split directions.
+- **M3**: det₁₄ > 0 at ALL THREE Galois roots — the second measurement's √−1 cost is Galois-uniform, upgrading B892 from one branch to the S₃ orbit. 3 locks. Gate 5 untouched.
+
 ## B892 — the SECOND MEASUREMENT THEOREM verified; B874 amended; the wall is complex
 - The solo seat's exact tower reproduces end-to-end on this build: **z(x₁,y*) = su(3)⊕su(2)⊕u(1)³ exactly — two measurements of the object's charges take E₆ to the SM**, skipping SU(5). This seat adds: **the wall is COMPLEX in the split frame** (det₁₄ > 0 ⟹ a imaginary; the real-line scan finds no real wall) — the second charge lives in the complexification, tying the SMT to layer 8.
 - **B874 amended in place** (the overgeneralized clause corrected, evidence-first credit to the solo relay; the within-C ladder includes {18, 14}). Also verified: the hypercharge fit (conjugation pair at rank 3, mixed at exact rank 4), **G₂₀** (20/19/1, one round), and the **ℤ₂ commutation obstruction** (∏c = −1). 4 locks. Gate 5 untouched.
