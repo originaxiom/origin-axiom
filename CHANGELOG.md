@@ -1,5 +1,13 @@
 # Changelog
 
+## B901 — the C-stabilizer: discrete, plane-preserving, not the c-carrier over ℝ
+- **n(C) = z(C) = 12 exactly** — nothing continuous moves the measurement torus; every C-stabilizing symmetry is discrete. Spectral obstructions (via B898): the split/compact swap is forbidden over ℝ; **even x₈ ↔ x₁₆ is forbidden** (exact spectra differ); sign flips allowed (even factors); the plane action embeds in the enhancement-line triple's finite symmetry group.
+- **The sharpest Lane-C no-go yet: the c→θ carrier cannot be a real C-stabilizing symmetry — the transfer must pass through the complexification**, exactly where the second measurement's wall lives. M3 and Lane C point at the same door: layer 8. 2 locks. Gate 5 untouched.
+
+## B900 — the exact frame 1-cocycle: all six blocks root-indexed; the cocycle is diagonal; B896's float perms were the twists
+- **All four Π-block label cubics** (vacuum/octet × c₈/c₁₆; each leading with 2197 = 13³, each with squarefree disc 77) **have a root in K** — every block is indexed by a root of μ, so the Galois S₃ acts on both orbits by the SAME root permutation: **the cocycle is the diagonal action** (stronger than the fiber product's sign-equality).
+- The index maps (vac8 [0,2,1], oct8 [2,0,1], vac16 [2,1,0], oct16 identity) explain everything: **B896's frame-1 float best-fit equals the (vac8, oct8) twists exactly** — the "opposite signs" were coordinate twists, never a Galois anomaly. B896's 0.99963 stands exact-grade; the banked vacuum_frame_map derives from the inter-orbit twist. 3 locks. Gate 5 untouched.
+
 ## B897 — the sealed cell decides: G₂₀ organizes the 27 GENERATION-SHAPED (outcome A at two primes)
 - Prereg sealed and **committed before compute** (`0e1cdf4c`); seal verified at banking. At 40123 AND 40693 (identical signatures): the 27 = three 9-blocks — **(3_c, 3_f) su(2)′-trivial: one color type × 3 bound as one flavor multiplet (criterion A verbatim)**; **(1_c, 3_f) splitting 3+6: the lepton doublet/singlet pattern as flavor triplets** (A again, via the disclosed prior's decision branch); (3_c, 1_f) the unreplicated third leg. Casimirs lift to the same rationals at both primes: **C_c = C_f = 4/9** (twin su(3)'s), C_w = 3/8.
 - **The sealed branch binds: su(3)′ is a native flavor symmetry replicating fixed color⊗su(2)′ types into flavor triplets.** Pre-stated and unchanged: mechanism-hood NOT decided — the solo seat's §5 fence stands. 4 locks. Gate 5 untouched.

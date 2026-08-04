@@ -1,0 +1,27 @@
+{
+ "K_C_rank": 0,
+ "K_e6_restricted_det": "273404654347532375690416919952436114332057600000000",
+ "K_e6_restricted_rank": 4,
+ "all_brackets_vanish": true,
+ "brackets": {
+  "[x14,x16]": true,
+  "[x14,x22]": true,
+  "[x16,x22]": true,
+  "[x8,x14]": true,
+  "[x8,x16]": true,
+  "[x8,x22]": true
+ },
+ "dim": 78,
+ "exponents": [
+  1,
+  4,
+  5,
+  7,
+  8,
+  11
+ ],
+ "invariant_rank": 4,
+ "roots_positive": 36,
+ "roots_total": 72,
+ "verdict": "ABELIAN -- u(1)^4, NOT su(2)+u(1)"
+}

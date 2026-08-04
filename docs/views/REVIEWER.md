@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **823** |
-| words of findings prose | **535,420** |
-| test lock files referenced | **563** |
-| arcs carrying an authored verdict | **810** (98.4 %) |
+| research arcs with findings | **825** |
+| words of findings prose | **536,395** |
+| test lock files referenced | **565** |
+| arcs carrying an authored verdict | **812** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 511 |
+| PROVED | 513 |
 | NEGATIVE | 261 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B898`** (405 words, 1 locks)  
-N3, THE EXACT SIGNATURE CENSUS (charpoly over Q + factorization + Sturm, no floats): ad(x8) and ad(x16) have IDENTICAL exact signatures {0^30, 48 real, 0 imaginary, 0 complex} and ad(x14), ad(x22) have IDENTICAL exact signatures {0^12, 0 real, 66 imaginary, 0 complex} -- THE SIGNATURE DICHOTOMY IS A THEOREM: the measured plane is purely split (kernel 30 = the FMT centralizer so(8)+u(1)^2), the unmeasured slots purely compact (kernel 12 = the floor dimension), and NO generic-complex eigenvalue exists anywhere on C. Every float borderline of B893 (the 1, 1, 7 'generic-complex' counts) resolved into the kernel -- tolerance noise, now zero by construction. B894's four-column ledger's spectrum column is exact.  
-`B898_exact_census/FINDINGS.md`
+**PROVED — `B901`** (430 words, 1 locks)  
+N5, THE C-STABILIZER: (1) the continuous normalizer is trivial -- n(C) = z(C) = 12 (the floor), exact over Q: no element of e6 normalizes the measurement torus without centralizing it, so every C-stabilizing symmetry is DISCRETE; (2) the spectral obstructions from B898's exact census: no real automorphism can swap the split pair with the compact pair (real vs imaginary spectra are similarity invariants), the within-plane swap x8 <-> x16 is ALSO forbidden (exact factor multisets differ, locked), sign flips stay allowed (all factors even), and the plane action embeds in the finite symmetry group of P69's enhancement-line triple. STRUCTURAL CONCLUSION (the sharpest Lane-C no-go yet): the c -> theta carrier, if it exists, is NOT a real C-stabilizing symmetry -- the transfer must pass through the complexification, exactly where the second measurement's wall lives (B892/B893: det14 > 0 at all three roots). The real/complex alternation (M3) and the Lane-C crux point at the same door: layer 8.  
+`B901_c_stabilizers/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  

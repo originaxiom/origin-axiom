@@ -18806,6 +18806,42 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B900": {
+   "slug": "frame cocycle",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B866",
+    "B886",
+    "B888",
+    "B889",
+    "B896"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "meta"
+  },
+  "B901": {
+   "slug": "c stabilizers",
+   "motifs": [
+    "trace_map",
+    "eisenstein"
+   ],
+   "refs": [
+    "B570",
+    "B854",
+    "B892",
+    "B893",
+    "B898",
+    "P69"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B90": {
    "slug": "degree rank peripheral",
    "motifs": [

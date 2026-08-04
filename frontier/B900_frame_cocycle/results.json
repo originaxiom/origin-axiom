@@ -1,0 +1,29 @@
+{
+ "vac8_root_in_K": "319334400*CRootOf(500716339200*rho**3 - 2075673600*rho**2 - 4769856*rho + 2197, 0)/169 - 1001432678400*CRootOf(500716339200*rho**3 - 2075673600*rho**2 - 4769856*rho + 2197, 0)**2/2197 + 37632/13",
+ "oct8_root_in_K": "-18816/13 + 500716339200*CRootOf(500716339200*rho**3 - 2075673600*rho**2 - 4769856*rho + 2197, 0)**2/2197 - 159667200*CRootOf(500716339200*rho**3 - 2075673600*rho**2 - 4769856*rho + 2197, 0)/169",
+ "vac16_root_in_K": "106444800/169 - 1001432678400*CRootOf(500716339200*rho**3 - 2075673600*rho**2 - 4769856*rho + 2197, 0)/2197",
+ "oct16_root_in_K": "500716339200*CRootOf(500716339200*rho**3 - 2075673600*rho**2 - 4769856*rho + 2197, 0)/2197 - 53222400/169",
+ "root_index_maps": {
+  "vac8": [
+   0,
+   2,
+   1
+  ],
+  "oct8": [
+   2,
+   0,
+   1
+  ],
+  "vac16": [
+   2,
+   1,
+   0
+  ],
+  "oct16": [
+   0,
+   1,
+   2
+  ]
+ },
+ "cocycle_theorem": "all six Pi-blocks are root-indexed by mu's roots (both charge cubics have a root in K); any Galois sigma permutes vacuum blocks and octet blocks by the SAME permutation of mu-roots -- the exact 1-cocycle is the diagonal S3 action; sign-equality (B888 fiber product) is implied and strengthened to equality"
+}
