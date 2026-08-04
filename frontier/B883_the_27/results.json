@@ -1,0 +1,22 @@
+{
+ "dominant_weights": [
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "frame_pairs": 3000,
+ "hom_pairs": 6084,
+ "jacobi_triples": 1500,
+ "s1_multiplicities": [
+  1,
+  10,
+  16
+ ],
+ "validated": true,
+ "weights_distinct": 27
+}
