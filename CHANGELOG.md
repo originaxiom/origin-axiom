@@ -1,5 +1,9 @@
 # Changelog
 
+## B906 — the flavor arc verified wholesale; their seal met by our bank; I = −1 at two primes
+- **Their sealed wall prediction is MET by B893** (committed before the handoff existed); their five-cubics = B900 under t↦−t with the queued field question already answered (B900/B902); **their W4 conjecture proved** (det₁₄ γ-free — the tower one level shorter).
+- The unified law tracks 8/8 configs (two-prime, ∏c = −1 invariant); the texture 48/48; the 15 atoms and the K₃,₃ grid reproduce; **I = −1 confirmed at both primes**, invariance-gated. Next: the I-exactness pin (ours), J1 the real-form selector (triply motivated, sealed first). 4 locks. Gate 5 untouched.
+
 ## B904 — the Barton–Sudbery capstone: the build IS M(𝕆,ℂ) by explicit exact isomorphism
 - L(𝕆_split, ℂ′_split) constructed over ℚ with **everything derived**: cross products by multiplicity-one equivariance (xy / y·x̄ / ȳ·x), Killing-dual same-summand maps, scalars Jacobi-fitted (λ=1, μ=−24, ν=−12), **full Jacobi 76,076 triples: 0 failures**. Two real bugs caught (incomplete candidate list; an unnormalized store silently dropping the third cross slot).
 - 72 rational root spaces + 6-dim Cartan; Cartan matrix = **E₆** exactly; the Chevalley map verifies on **all 3,003 basis pairs, 0 mismatches, det φ = −2/3**. The magic-square naming now stands on a theorem. 6 locks. Gate 5 untouched.

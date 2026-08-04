@@ -18911,6 +18911,28 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B906": {
+   "slug": "flavor verification",
+   "motifs": [
+    "metallic",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B874",
+    "B883",
+    "B884",
+    "B892",
+    "B893",
+    "B900",
+    "B902",
+    "V2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B90": {
    "slug": "degree rank peripheral",
    "motifs": [

@@ -1,0 +1,84 @@
+{
+ "instant_convergences": {
+  "seal_xxxvii_met_by_B893": {
+   "their_seal": "gamma real, a imaginary, all three roots (wall complex in e6(6))",
+   "our_bank": "B893 cell 3: det14 = +3.85e9/+2.79e9/+1.32e10 at the three roots",
+   "ordering": "B893 committed 14ef06f8 BEFORE handoff 5 arrived",
+   "verdict": "SEAL MET"
+  },
+  "five_cubics_vs_B900": {
+   "match": "their depressed g8 pair == B900 label cubics under t -> -t (exact, both)",
+   "their_queued_question_answered": "B900: all four label cubics have a root in K (iso to K); B902: the weight pair are INVERSE Kummer classes"
+  },
+  "w4_det14_gamma_free": {
+   "check": "d1 (gamma-coefficient list of det14 in their tower pickle) identically zero",
+   "verdict": "PROVED exact -- the tower is one level shorter than built"
+  }
+ },
+ "verification_lane": {
+  "VA_unified_law": {
+   "glue1_overlap_table": "reproduced (Q/ud share via 3-dim only, L/en via 1-dim, DD tiles, H universal)",
+   "glue2_config_scan": "8/8 configurations: Q-share nonzero exactly at law-I pairs, L-share exactly at law-C pairs, DD 0, H (1,1,1) throughout",
+   "verdict": "VERIFIED",
+   "belt2_two_prime": "40639 full-tower derived [(2059,12034,18302),(35519,6669,18386),(40551,18703,3951)]; share-signatures reproduce with identical multiplicities under the documented per-prime sqrt-convention relabeling (their XLII); 3-block = ker(g14 - lam3) EXACT (dims 3 = 3, union rank 3)"
+  },
+  "VB_texture": {
+   "probeA_two_families": "40-coupling lists reproduce; beta = alpha o (Q<->ud, L<->en) checked on the lists",
+   "probeA_fully_mixed": "85 couplings over 38/84 class-multisets incl. (S,S,S)",
+   "probeA2_law_tracking": "PERFECT 48/48 (their sealed A7, confirmed independently)",
+   "verdict": "VERIFIED"
+  },
+  "VC_atoms": {
+   "decomposition": "15 atoms: six 3-dim colored + nine 1-dim colorless, spans exact (9/9), bijective tri-partition visible in the printed labels",
+   "verdict": "VERIFIED (their FA3 census seal stays theirs to scan)"
+  },
+  "VD_grid": {
+   "lll_exact": 6,
+   "k33_bipartite": true,
+   "pencils": [
+    [
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      1,
+      6,
+      8
+     ],
+     [
+      3,
+      5,
+      7
+     ]
+    ],
+    [
+     [
+      0,
+      7,
+      8
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      4,
+      5,
+      6
+     ]
+    ]
+   ],
+   "verdict": "VERIFIED"
+  },
+  "VE_invariant": {
+   "I_mod_40123": "40122 == -1",
+   "rescaling_gate": "passed (invariant under random atom rescalings)",
+   "rational_reconstruction": -1,
+   "second_prime": "CONFIRMED: I mod 40639 = 40638 == -1; rescaling gate passed; rational reconstruction -1; grid bipartite K3,3 reproduced (probeB_639 synthesized from their glue2 preamble + their full_tower at 40639)",
+   "verdict": "VERIFIED two-prime"
+  }
+ }
+}

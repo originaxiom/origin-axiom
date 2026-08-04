@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **829** |
-| words of findings prose | **538,478** |
-| test lock files referenced | **569** |
-| arcs carrying an authored verdict | **816** (98.4 %) |
+| research arcs with findings | **830** |
+| words of findings prose | **539,088** |
+| test lock files referenced | **570** |
+| arcs carrying an authored verdict | **817** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 517 |
+| PROVED | 518 |
 | NEGATIVE | 261 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B905`** (550 words, 1 locks)  
-W8 PAID -- the Kim-torsor literature gate (99-agent adversarially-verified panel, full-text greps of primary sources, report banked): (Q1, CLEAN NEGATIVE, high confidence) the Kim-school arithmetic Chern-Simons corpus (1510.05818, 1609.03012, 1712.07602, 2312.17138 + 2025 continuations) NEVER reads H^1/torsors operationally as measurements or observer choices -- torsors are technical (pushouts, the Hilbert-space line bundle) or analogized to gauge fields/STATES, and Kim explicitly calls the global-trivialization choice 'unimportant': the measurement reading of the torsor is THIS programme's own, with the divide sharp and documentable; (Q2, EXACT ANCHOR) Garoufalidis-Scholze-Wheeler-Zagier (2412.04241, proofs) build the Habiro ring of a number field graded by K_3(K) with complex CS invariants living there, and their FOUNDING worked example is the figure-eight Kashaev series over Q(sqrt(-3)) -- B707's meeting-point claim now carries exact citations, hypotheses checked current; (Q3, NOTHING PUBLISHED) no source in either literature connects the magic-square (O,C) = E6 cell to arithmetic CS or knot-complement torsors -- the interface has no external prior art (novelty adjudication stays NEEDS-SPECIALIST per provenance rules).  
-`B905_kim_litgate/FINDINGS.md`
+**PROVED — `B906`** (610 words, 1 locks)  
+THE FLAVOR ARC VERIFIED WHOLESALE (solo handoff 5, integrate-don't-merge, every suite script rerun on this build): (1) INSTANT CONVERGENCES -- their sealed XXXVII prediction (wall complex in e6(6), all three roots) is MET by B893, committed BEFORE the handoff existed (det14 positive at all three roots); their five-cubics law equals B900's label cubics under t -> -t exactly, with their queued field-coincidence question already answered banked-side (B900: all four iso to K; B902: the weight pair inverse classes); their W4 conjecture PROVED (det14 gamma-free -- d1 identically zero in their own pickle, the tower one level shorter); (2) THE VERIFICATION LANE -- the unified gluing law tracks the commutation law in all 8 configurations with the two-prime belt reproducing under the documented per-prime sqrt relabeling and the 3-block = ker(g14) EXACT; the mixed-texture type-assignment scan PERFECT 48/48 (their sealed A7 confirmed independently; beta = alpha o (Q<->ud, L<->en) checked on the lists); the 15-atom decomposition reproduces (six 3-dim colored + nine 1-dim colorless, bijective tri-partition); the atom coupling graph gives 6 exact lll couplings forming K3,3 = the two pencils of the 3x3 grid; and THE FIRST VALUE-LAYER NUMBER I = -1 CONFIRMED AT BOTH PRIMES (40122 mod 40123; 40638 mod 40639) with the atom-rescaling invariance gate passing. Open, registered: their FA3 census seal (theirs), the I-exactness pin (ours), J1 the real-form selector (triply motivated, sealed design next).  
+`B906_flavor_verification/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  

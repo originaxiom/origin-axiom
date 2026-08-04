@@ -203,3 +203,39 @@ run the decadal (Review 38).**
 - **THE EXECUTABLE QUEUE IS EMPTY.** Standing long-horizon threads: the two papers, λ₂
   (external, cc3), N4/N2-remainder executions, M1's exact-pass refinements. Per the owner's
   2026-08-05 sequencing: → THE DECADAL (Review 38).
+
+## AMENDMENT v4 (2026-08-05) — handoff 5 (the flavor arc) refills the queue
+
+**Instant convergences (already banked on this side, no compute owed):**
+- Their §XXXVII SEAL (wall complex in e₆(6), γ real / a imaginary, all three roots) is
+  **MET by B893 cell 3** — committed (14ef06f8) BEFORE the handoff arrived. Their W2
+  "real ladder vs complex ladder" refinement adopted into the B874 amendment lineage.
+- Their §XXXVIII five-cubics = B900's four label cubics (+μ) under t ↦ −t (verified
+  exactly); their QUEUED field-coincidence question is ANSWERED by B900 (all four ≅ K)
+  + B902 (the weight pair are inverse classes).
+- Their §XXXVII W4 conjecture (det₁₄ γ-free) **PROVED**: d1 ≡ 0 exactly from their own
+  tower pickle — the tower is one level shorter than built.
+
+**The verification lane (integrate-don't-merge; bank as B906+):**
+- V-A: the generation-gluing dictionary + THE UNIFIED LAW (glue1/glue2: matter gluing =
+  gauge commutation, 32/32) + belts (belt2: two-prime, 3-block = ker(g₁₄)).
+- V-B: the mixed-generation texture (probeA/probeA2: two types α/β distributed by the
+  law, 48/48 — the law's third face).
+- V-C: THE FLAVOR ATOMS (probeB: 15 atoms, bijective tri-partition, flat monodromy,
+  H-threading) — their FA3 census seal stays THEIRS to scan; we verify the banked cells.
+- V-D: THE ATOM COUPLING GRAPH (probeC: 17/680, biregular, lll = K₃,₃, the 3×3 grid =
+  two pencils of AG(2,3), the perfect matching).
+- V-E: I = −1 (invar1/invar639: two-prime, invariance-gated) + THE EXACTNESS PIN (their
+  V2: prove I ∈ tower field with I^σ = 1/I ⟹ I² = 1 exact — our scrutiny invited,
+  natural cc cell).
+- V-F: the cold-start kit review (their §XXXIX) — owner-facing; assess, don't run.
+
+**Joint cells (their J1–J6, cc-informed priority):** J1 the REAL-FORM SELECTOR first —
+now TRIPLY motivated (their layer-8 door + their value-layer gate + our B901 no-go:
+the c-carrier must be complex, so which real form realizes the wall really is THE
+discriminating question). Sealed two-outcome design before compute. Then J6
+(exactification absorbing mod-q into ℚ(ρ) certificates — pairs with V-E), J4 (the
+involution's identity — ties to B893's ω), J2/J3/J5 with the atom lane.
+
+**Standing:** Review 38 completes on the suite (in flight); the papers gain two
+chapters (the capstone B904 + the flavor arc when verified).
