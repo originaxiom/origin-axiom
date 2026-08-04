@@ -1,5 +1,8 @@
 # Changelog
 
+## B880 — the module-level magic-square signature: Hom-matrix diag(4,4,4), zeros off-diagonal
+- The computational half of the M(𝕆,ℂ) naming: so(8) = derived(core) dim 28 exact; each sector splits [8,8] under the plane charge (the 𝕆⊗ℂ pair); **all six cross-Homs vanish with certificates ≤ 4×10⁻²⁷**, all three self-Homs = 4 = M₂ of an irreducible-8 pair. **The three sectors are pairwise-inequivalent so(8)-modules — the three triality frames** — exactly what M(𝕆,ℂ) requires. With B875 + B882 the naming stands on computation and literature simultaneously. 3 locks. Gate 5 untouched.
+
 ## B881 — the SM-graded coset commutation table: 28 channels, all single-target; the 3-grading verified cell-by-cell
 - **The mediation skeleton lands** (scoped before running: B867's S1 X/Y channels, not the Yukawa proper — that needs the 27, now the named top instrument gap): the coset's 12 SM multiplets × K₁'s [unbroken 14 + 8 broken multiplets] — **six own-conjugate channels → the unbroken 14** (gauge covariance), **22 cross-channels → exactly one broken multiplet each** (charge conservation exact), **42 same-sign zeros = the 3-grading on every cell**, 8 charge-mismatch zeros.
 - **The trap's third occurrence becomes a standing rule**: non-Hermitian gradings give non-orthogonal eigenbases — every decomposition readout must be OBLIQUE unless the basis is provably orthonormal (B875's sectors, B876's per-sector grading, now B881's first-run all-targets artifact). 5 locks. Gate 5 untouched.
