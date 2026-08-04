@@ -1,5 +1,9 @@
 # Changelog
 
+## B902 — the Knus–Paques class: vacuum and charge fields are INVERSE; they compose to the split algebra
+- Exact certificates: **α_μ·α_vac = ((73008/7)(1+√−3))³** and **α_gen·α_vac = ((30901351219200/13)(1+√−3))³** — both symbolic-cubed, both living purely in the cyclotomic line. By composition the same-field control (μ vs generic) is a cube — calibrated.
+- **[α_vac] = [α_μ]⁻¹ with no unit twist: under the Knus–Paques group law with resolvent ℚ(√77), vacuum ⊕ charge = identity — the two matter fields annihilate.** W4's misalignment datum delivered: the group-law mirror, not a generic offset. 4 locks. Gate 5 untouched.
+
 ## B901 — the C-stabilizer: discrete, plane-preserving, not the c-carrier over ℝ
 - **n(C) = z(C) = 12 exactly** — nothing continuous moves the measurement torus; every C-stabilizing symmetry is discrete. Spectral obstructions (via B898): the split/compact swap is forbidden over ℝ; **even x₈ ↔ x₁₆ is forbidden** (exact spectra differ); sign flips allowed (even factors); the plane action embeds in the enhancement-line triple's finite symmetry group.
 - **The sharpest Lane-C no-go yet: the c→θ carrier cannot be a real C-stabilizing symmetry — the transfer must pass through the complexification**, exactly where the second measurement's wall lives. M3 and Lane C point at the same door: layer 8. 2 locks. Gate 5 untouched.

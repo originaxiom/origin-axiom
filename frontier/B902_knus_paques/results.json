@@ -1,0 +1,147 @@
+{
+ "alphas": {
+  "mu": [
+   "4826809/25443808051200",
+   "0",
+   "0",
+   "4826809/299873452032000"
+  ],
+  "generic": [
+   "4933932225386250240000/2197",
+   "0",
+   "0",
+   "418636673669136384000/2197"
+  ],
+  "vacuum": [
+   "-39471457803090001920000/2197",
+   "0",
+   "0",
+   "3349093389353091072000/2197"
+  ]
+ },
+ "mu__generic": {
+  "ratio": {
+   "surviving_twists": [
+    [
+     0,
+     0
+    ]
+   ],
+   "witness_primes": [
+    13,
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163
+   ],
+   "clean_embedding_tests": 32,
+   "cube_proofs": {}
+  },
+  "product": {
+   "surviving_twists": [],
+   "witness_primes": [
+    13,
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163
+   ],
+   "clean_embedding_tests": 6,
+   "cube_proofs": {}
+  }
+ },
+ "mu__vacuum": {
+  "ratio": {
+   "surviving_twists": [],
+   "witness_primes": [
+    13,
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163
+   ],
+   "clean_embedding_tests": 6,
+   "cube_proofs": {}
+  },
+  "product": {
+   "surviving_twists": [
+    [
+     0,
+     0
+    ]
+   ],
+   "witness_primes": [
+    13,
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163
+   ],
+   "clean_embedding_tests": 32,
+   "cube_proofs": {
+    "(0, 0)": [
+     "73008/7",
+     "0",
+     "73008/7",
+     "0"
+    ]
+   }
+  }
+ },
+ "generic__vacuum": {
+  "ratio": {
+   "surviving_twists": [],
+   "witness_primes": [
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163,
+    241
+   ],
+   "clean_embedding_tests": 2,
+   "cube_proofs": {}
+  },
+  "product": {
+   "surviving_twists": [
+    [
+     0,
+     0
+    ]
+   ],
+   "witness_primes": [
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163,
+    241
+   ],
+   "clean_embedding_tests": 32,
+   "cube_proofs": {
+    "(0, 0)": [
+     "30901351219200/13",
+     "0",
+     "30901351219200/13",
+     "0"
+    ]
+   }
+  }
+ }
+}

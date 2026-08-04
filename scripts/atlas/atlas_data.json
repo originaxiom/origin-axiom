@@ -18842,6 +18842,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B902": {
+   "slug": "knus paques",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B866",
+    "B886",
+    "B888"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B90": {
    "slug": "degree rank peripheral",
    "motifs": [
