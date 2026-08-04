@@ -1,0 +1,14 @@
+{
+ "id": "B891",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE SEALED MATTER-EXTENSION CELL (prereg a08398c5, sealed before compute, verified unbroken) RETURNS DISTINCT IN ALL THREE FRAMES: the two foreign 16-subspaces' 12-piece profiles differ by 4.6e-3 to 1.2e-1, decisively above the sealed band -- A SINGLE OBSERVER REGISTERS THREE PAIRWISE-DISTINGUISHABLE MATTER SECTORS on the one 27 (its own 16 and the two foreign 16s, told apart by B599-legal probes). With B890, the full three-fold structure -- vacua AND matter -- is registerable from within any single frame: the across-breakings generations reading is OPERATIONAL at the matter level, the strongest form two sealed cells can give it. NOT decided: mechanism-hood (the three 16s overlap on one 27, not direct summands; replication-with-identical-gauge-behavior needs more than registerable distinctness) -- the solo seat's fence STANDS. Next W6 layer: the pairwise geometry of the three 16s (intersections, S3-covariant invariants) and the registerable generation-index observable. Frame-2's deviation an order larger (0.117) -- the recurring per-frame asymmetry, recorded not interpreted.",
+ "depends_on": [
+  "B871",
+  "B889",
+  "B890"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

@@ -18592,6 +18592,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B891": {
+   "slug": "matter extension",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "B885",
+    "B889",
+    "B890"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B89": {
    "slug": "sl4 symbolic M4L",
    "motifs": [

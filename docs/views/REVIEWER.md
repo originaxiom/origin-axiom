@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **814** |
-| words of findings prose | **530,660** |
-| test lock files referenced | **554** |
-| arcs carrying an authored verdict | **801** (98.4 %) |
+| research arcs with findings | **815** |
+| words of findings prose | **531,000** |
+| test lock files referenced | **555** |
+| arcs carrying an authored verdict | **802** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 503 |
+| PROVED | 504 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B890`** (372 words, 1 locks)  
-THE SEALED W6 OPENING CELL (prereg ea66fc34 sealed before compute, verified unbroken at banking) RETURNS DISTINCT IN ALL THREE FRAMES, against the disclosed prior: the two foreign vacuum lines' 12-piece mass profiles differ by 1.7e-4 to 1.1e-2 -- decisively above the sealed 1e-6 UNSTABLE band. The sealed outcome branch binds: the frame index of foreign vacua is REGISTERABLE within a frame (a B599-legal single-piece projection probe has different expectation on the two lines); a within-world three-fold labeling exists at the vacuum level; GENERATIONS-AS-SECTORS GAINS ITS FIRST MECHANISM CANDIDATE. The distinguishing data are exactly B889's small invariant leakage numbers: the zero-PATTERN is shared but the magnitudes differ -- Galois unlabelability of algebraic labels does NOT translate into operational indistinguishability; the geometry breaks S3 operationally. The prior (EQUAL, from the zero-pattern) was WRONG and is banked as such -- the prereg system working. W6's next sealed cell: does the three-fold registerable structure extend from vacuum lines to matter (three 16-shaped sectors) or stop at three labels with one generation? The solo seat's fence STANDS (candidate strengthened, not yet a mechanism).  
-`B890_foreign_pair/FINDINGS.md`
+**PROVED — `B891`** (340 words, 1 locks)  
+THE SEALED MATTER-EXTENSION CELL (prereg a08398c5, sealed before compute, verified unbroken) RETURNS DISTINCT IN ALL THREE FRAMES: the two foreign 16-subspaces' 12-piece profiles differ by 4.6e-3 to 1.2e-1, decisively above the sealed band -- A SINGLE OBSERVER REGISTERS THREE PAIRWISE-DISTINGUISHABLE MATTER SECTORS on the one 27 (its own 16 and the two foreign 16s, told apart by B599-legal probes). With B890, the full three-fold structure -- vacua AND matter -- is registerable from within any single frame: the across-breakings generations reading is OPERATIONAL at the matter level, the strongest form two sealed cells can give it. NOT decided: mechanism-hood (the three 16s overlap on one 27, not direct summands; replication-with-identical-gauge-behavior needs more than registerable distinctness) -- the solo seat's fence STANDS. Next W6 layer: the pairwise geometry of the three 16s (intersections, S3-covariant invariants) and the registerable generation-index observable. Frame-2's deviation an order larger (0.117) -- the recurring per-frame asymmetry, recorded not interpreted.  
+`B891_matter_extension/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

@@ -1,5 +1,9 @@
 # Changelog
 
+## B891 — the sealed matter-extension cell: DISTINCT — one observer registers three distinguishable matter sectors
+- All three frames DISTINCT (deviations 4.6×10⁻³–1.2×10⁻¹; seal verified). With B890: **the full three-fold structure — vacua and matter — is registerable from within any single frame; the across-breakings generations reading is operational at the matter level.**
+- Not decided: mechanism-hood (overlapping 16s ≠ replicated families) — **the fence stands**. Next W6 layer: the triple-of-subspaces geometry and the generation-index observable. 3 locks. Gate 5 untouched.
+
 ## B890 — the sealed W6 cell returns DISTINCT (against the disclosed prior): the foreign vacua are registerably distinguishable
 - Prereg sealed before compute, verified unbroken at banking. **All three frames: DISTINCT** (profile deviations 1.7×10⁻⁴–1.1×10⁻², above the sealed UNSTABLE band). The sealed branch binds: **a within-world three-fold labeling exists at the vacuum level — generations-as-sectors gains its first mechanism candidate.** The distinguishing data = B889's small invariant leakages: the geometry breaks the Galois symmetry *operationally*.
 - **The disclosed prior (EQUAL) was wrong and is banked as such** — the prereg system working. Next sealed cell: does the three-fold structure extend to matter or stop at labels? The solo seat's fence stands. 4 locks. Gate 5 untouched.
