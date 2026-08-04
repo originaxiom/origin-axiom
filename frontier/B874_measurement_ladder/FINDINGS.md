@@ -70,3 +70,12 @@ of a finer charge?"* — **closes negatively for the object's 2T-charge system**
 centralizer ladder is **{78, 46, 30, 12}**, and the cascade's intermediate SU(5)×U(1) is not a
 charge-measurement stratum. Step 2 stands on the fused principle (B861) — the ranking is NOT
 retired by charge measurement, and saying so plainly is the point of this addendum.
+
+
+## AMENDMENT (2026-08-05, B892) — the ladder is incomplete as stated above
+
+The addendum's clause "the torus does not supply the step-2 charge" is **corrected by B892**:
+the coordinate tests were right in scope, but the torus's algebraic wall point y* (the solo
+seat's Second Measurement Theorem, verified in B892) supplies a step-2 charge landing exactly
+on su(3)⊕su(2)⊕u(1)³. The within-C ladder includes {18, 14}. SU(5) remains unreached — the
+second measurement skips it. See `frontier/B892_second_measurement/`.

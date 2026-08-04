@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **815** |
-| words of findings prose | **531,000** |
-| test lock files referenced | **555** |
-| arcs carrying an authored verdict | **802** (98.4 %) |
+| research arcs with findings | **816** |
+| words of findings prose | **531,680** |
+| test lock files referenced | **556** |
+| arcs carrying an authored verdict | **803** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 504 |
+| PROVED | 505 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B891`** (340 words, 1 locks)  
-THE SEALED MATTER-EXTENSION CELL (prereg a08398c5, sealed before compute, verified unbroken) RETURNS DISTINCT IN ALL THREE FRAMES: the two foreign 16-subspaces' 12-piece profiles differ by 4.6e-3 to 1.2e-1, decisively above the sealed band -- A SINGLE OBSERVER REGISTERS THREE PAIRWISE-DISTINGUISHABLE MATTER SECTORS on the one 27 (its own 16 and the two foreign 16s, told apart by B599-legal probes). With B890, the full three-fold structure -- vacua AND matter -- is registerable from within any single frame: the across-breakings generations reading is OPERATIONAL at the matter level, the strongest form two sealed cells can give it. NOT decided: mechanism-hood (the three 16s overlap on one 27, not direct summands; replication-with-identical-gauge-behavior needs more than registerable distinctness) -- the solo seat's fence STANDS. Next W6 layer: the pairwise geometry of the three 16s (intersections, S3-covariant invariants) and the registerable generation-index observable. Frame-2's deviation an order larger (0.117) -- the recurring per-frame asymmetry, recorded not interpreted.  
-`B891_matter_extension/FINDINGS.md`
+**PROVED — `B892`** (605 words, 1 locks)  
+THE SECOND MEASUREMENT THEOREM VERIFIED on this build (solo S1 queue #1) + THE B874 AMENDMENT LOGGED: the solo seat's exact tower (perfect-square gate C2^2-4C0 = 0; gamma^2 = -C2/2; a^2 = -det14 in F(gamma), det14 != 0; the squeeze dim z(x1,y*) = 14, derived = 11, center >= 3) reproduces end-to-end -- z(x1,y*) = su(3)+su(2)+u(1)^3 EXACTLY: two measurements of the object's own charges take E6 to the SM algebra, skipping SU(5). THIS SEAT'S TWO NEW FACTS: the wall is COMPLEX in the split frame -- det14 = +2.79e9 at the real root (gamma-part 0) so a is IMAGINARY, and the 120-point real-line scan finds no real nullity-14 point (only the known plane stratum) -- the second charge lives in the complexification, connecting the SMT to layer 8. B874 AMENDED in place: 'the torus does not supply the step-2 charge' was an overgeneralization (coordinate tests right in scope); the within-C ladder includes {18, 14}; SU(5) remains unreached. ALSO VERIFIED THIS SESSION: the hypercharge fit (rank 3 for exactly the conjugation pair, rank-4 exact failures), G20 closure (20/19/1, one round), and the Z2 commutation obstruction (the s_i s_j = c_ij law with prod c = -1). The solo S1 queue is verifying wholesale; the two-seat convergence is total.  
+`B892_second_measurement/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

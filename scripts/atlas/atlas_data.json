@@ -18284,10 +18284,11 @@
     "B861",
     "B866",
     "B868",
-    "B872"
+    "B872",
+    "B892"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 14,
+   "obstacle_conf": 17,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -18603,6 +18604,27 @@
     "B890"
    ],
    "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B892": {
+   "slug": "second measurement",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [
+    "B874",
+    "B876",
+    "B884",
+    "B886",
+    "B888",
+    "S1"
+   ],
+   "obstacle": "measure",
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"

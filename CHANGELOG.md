@@ -1,5 +1,9 @@
 # Changelog
 
+## B892 — the SECOND MEASUREMENT THEOREM verified; B874 amended; the wall is complex
+- The solo seat's exact tower reproduces end-to-end on this build: **z(x₁,y*) = su(3)⊕su(2)⊕u(1)³ exactly — two measurements of the object's charges take E₆ to the SM**, skipping SU(5). This seat adds: **the wall is COMPLEX in the split frame** (det₁₄ > 0 ⟹ a imaginary; the real-line scan finds no real wall) — the second charge lives in the complexification, tying the SMT to layer 8.
+- **B874 amended in place** (the overgeneralized clause corrected, evidence-first credit to the solo relay; the within-C ladder includes {18, 14}). Also verified: the hypercharge fit (conjugation pair at rank 3, mixed at exact rank 4), **G₂₀** (20/19/1, one round), and the **ℤ₂ commutation obstruction** (∏c = −1). 4 locks. Gate 5 untouched.
+
 ## B891 — the sealed matter-extension cell: DISTINCT — one observer registers three distinguishable matter sectors
 - All three frames DISTINCT (deviations 4.6×10⁻³–1.2×10⁻¹; seal verified). With B890: **the full three-fold structure — vacua and matter — is registerable from within any single frame; the across-breakings generations reading is operational at the matter level.**
 - Not decided: mechanism-hood (overlapping 16s ≠ replicated families) — **the fence stands**. Next W6 layer: the triple-of-subspaces geometry and the generation-index observable. 3 locks. Gate 5 untouched.
