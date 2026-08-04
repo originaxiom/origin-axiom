@@ -18483,6 +18483,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B885": {
+   "slug": "interbreaking",
+   "motifs": [
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B88": {
    "slug": "sl4 census",
    "motifs": [

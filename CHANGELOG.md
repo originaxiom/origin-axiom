@@ -1,5 +1,9 @@
 # Changelog
 
+## B885 — the inter-breaking dictionary: two structural laws, uniform across all three Galois pairs
+- The same 27 graded by all three measurement frames; all pairwise tables, oblique. **LAW 1 (vacuum-to-Higgs): each frame's singlet lies ENTIRELY in every other frame's 10-block** ([0,1,0] exactly; zeros ≤ 10⁻²¹; the reason exact — the singlet is a Π-weight vector, its cross-frame position forced by tri(ℂ)-weight geometry). **LAW 2: no frame's 16 touches another frame's singlet.** The zero pattern is S₃-uniform; the nonzero magnitudes are not (recorded, unclaimed). Fine 11×11: 13/121 zeros, pattern-only.
+- Flagged unweighted: Law 1 = the first entry of an across-breakings dictionary for the generations reading; both laws queued for exact proof via the Π-weight argument. **No mixing matrix of values computed or claimed.** 6 locks. Gate 5 untouched.
+
 ## B883 + B884 — THE 27 built (all signs inherited, verified on 6084 pairs exactly) and the Yukawa-support table: 11 cells, the E₆ classic SM-refined
 - **B883, the instrument**: e₇ by the B854 recipe; the e₆ inside is B854's frame **verbatim** (cocycle restriction — predicted, then checked on 3000 pairs); the 3-grading hands over the 27 with every sign inherited; **ρ([x,y]) = [ρx,ρy] on all 6084 basis pairs in exact integers**; minuscule, dominant ω₁; validated [1,10,16] at the enhancement point. `rep27.json` is the instrument.
 - **B884, the first product**: the unique invariant cubic — **45 monomials, all ±1, exact** (J₃(𝕆) det in our frame); the SM grading [1 | 3,3,2,2 | 6,3,3,2,1,1]; the support table with a calibration control and a **7.7-order gap**: **11 coupled cells vs 275 exact zeros = 16·16·10 ⊕ 1·10·10 SM-refined** (up/down-Yukawa shapes, the µ-term cells — recovered by the full-precision fix — the u^c d^c-triplet, qq-triplet, singlet–triplet cells). Only the support is claimed; magnitudes are not. 4+5 locks. Gate 5 untouched.

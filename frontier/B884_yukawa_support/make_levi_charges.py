@@ -46,8 +46,10 @@ def admat_num(vec, isfrac=True):
 
 A8 = admat_num(g["INV"][8])
 A16 = admat_num(g["INV"][16])
+import sys
+_ri = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 t1 = sorted(13 * mp.re(r) for r in mpmath.polyroots(
-    [mp.mpf(c) for c in CUBIC], maxsteps=200, extraprec=120))[0]
+    [mp.mpf(c) for c in CUBIC], maxsteps=200, extraprec=120))[_ri]
 
 
 def kernel_basis(M):
@@ -179,7 +181,7 @@ yco = annihilator(a4)
 y = [sum(yco[k] * h[k][p] for k in range(5)) for p in range(DIM)]
 y2co = annihilator([a4[0], a4[1], a4[3]])
 y2 = [sum(y2co[k] * h[k][p] for k in range(5)) for p in range(DIM)]
-json.dump(dict(y=[[mp.nstr(mp.re(x), 35), mp.nstr(mp.im(x), 35)] for x in y],
+json.dump(dict(root_index=_ri, s1_t=mp.nstr(t1, 35), y=[[mp.nstr(mp.re(x), 35), mp.nstr(mp.im(x), 35)] for x in y],
                y2=[[mp.nstr(mp.re(x), 35), mp.nstr(mp.im(x), 35)] for x in y2]),
-          open(os.path.join(HERE, "levi_charges.json"), "w"))
+          open(os.path.join(HERE, f"levi_charges_r{_ri}.json"), "w"))
 print("levi charges saved")

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **808** |
-| words of findings prose | **528,102** |
-| test lock files referenced | **547** |
-| arcs carrying an authored verdict | **795** (98.4 %) |
+| research arcs with findings | **809** |
+| words of findings prose | **528,553** |
+| test lock files referenced | **548** |
+| arcs carrying an authored verdict | **796** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 497 |
+| PROVED | 498 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B884`** (357 words, 1 locks)  
-The invariant cubic on the 27 and the SM-graded Yukawa-support table -- the B883 instrument's first product. THE CUBIC, EXACT: the unique e6-invariant in Sym^3(27) solved over Q from the invariance equations -- 45 weight-zero triples, support 45/45, EVERY coefficient +-1, nullspace dim exactly 1 (the J3(O) determinant in the B854 frame, unit structure constants inherited not chosen). THE GRADING at the enhancement point: 27 -> [1 | 3,3,2,2 | 6,3,3,2,1,1] (singlet; the so(10)-vector as the Higgs block (3,1)+(3bar,1)+(1,2)+(1,2); the 16's SM multiplets). THE TABLE, gap-classified with a calibration control (random dense vectors 0.017-0.18): a 7.7-ORDER GAP splits 11 coupled cells from 275 exact zeros, and the 11 account exactly for the classic 27^3 > 16.16.10 + 1.10.10 SM-refined -- two [2,3,6] up/down-Yukawa shapes, three lepton/mu-term cells ([1,2,2]-type, RECOVERED by the full-precision fix after float64 charges corrupted the first pass), [3,3,3] ucdcT, [3,6,6] qqT, three singlet-triplet cells; charge sums <= 1e-21 throughout. HONEST: only the zero/nonzero support is basis-invariant -- the magnitude hierarchy is sampling-dependent and NOT claimed; no values, no textures; exact per-cell vanishing proof is priced follow-up.  
-`B884_yukawa_support/FINDINGS.md`
+**PROVED — `B885`** (451 words, 1 locks)  
+The inter-breaking dictionary on the 27 -- the same 27 graded by all three measurement frames, all pairwise tables computed obliquely. TWO STRUCTURAL LAWS, uniform across the three Galois pairs, zeros at 1e-21 to 1e-26: LAW 1 (vacuum-to-Higgs) -- each frame's 27-singlet lies ENTIRELY inside every other frame's 10-block ([0, 1, 0] rows exactly; the reason exact: the singlet is a Pi-weight vector, its position in any other frame forced by tri(C)-weight geometry) -- one measurement's vacuum axis IS a Higgs-block direction of every other measurement; LAW 2 (16/vacuum exclusion) -- no frame's 16 touches another frame's singlet direction. The 10 spreads over all three blocks; the zero PATTERN is S3-uniform while the nonzero magnitudes are NOT (recorded as computed, no symmetry claimed). Fine 11x11 table: 13/121 zeros, convention-carrying, pattern only. Flagged unweighted: Law 1 is the natural first entry of an across-breakings dictionary for the generations reading; the Pi-weight argument should make both laws exact theorems (exact-proof lane). Nothing resembling a mixing matrix of values computed or claimed.  
+`B885_interbreaking/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  
