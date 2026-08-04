@@ -40,3 +40,9 @@ def test_honesty():
     assert "only the zero/nonzero support is basis-invariant" in _F
     assert "magnitude hierarchy" in _F and "not\nclaimed" in _F.replace("not claimed", "not\nclaimed")
     assert "no values, no textures" in _F
+
+
+def test_addendum_support_is_purely_charge_forced():
+    """11/286 charge-conserving == the 11 coupled cells; no dynamical zeros."""
+    assert "exactly 11 — and they are the 11 coupled cells" in _F
+    assert "conservation-forced" in _F

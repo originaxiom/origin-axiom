@@ -41,3 +41,14 @@ classification below are the permanent fix.)
   Galois carries the pattern to the other two.
 
 `tests/test_b884_yukawa.py`
+
+## Addendum (2026-08-04, masterplan W2) — the support is PURELY charge-forced: no dynamical zeros
+
+Counting charge-conserving unordered triples among the 286 cells: **exactly 11 — and they are
+the 11 coupled cells.** Both directions hold: every charge-conserving cell couples (the cubic
+has no accidental zeros on allowed cells), and every zero cell violates charge conservation
+(the 275 zeros are conservation-forced, not dynamical). The support table's shape is therefore
+exactly as rigid as the charge assignment itself. Residual exactness note: upgrading the 11
+nonvanishing verdicts from sampled-at-scale to symbolic requires exact graded bases over the
+splitting fields (B886's machinery makes this reachable) — priced, low priority now that the
+pattern is decided.
