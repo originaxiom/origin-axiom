@@ -1,5 +1,9 @@
 # Changelog
 
+## B886 — the matter pencil: six Π-weights, two Galois orbits, the B885 laws now THEOREMS, and a second cubic field
+- **All exact**: P(x,λ) on the 27 = **F₁¹·F₂⁸** (both cubic in x) — six joint Π-weights in two size-3 orbits (mult 1 and **8 = the octonion dimension as weight multiplicity**). μ's **third appearance**: the matter pencil's branch-collision locus, with a perfectly **S₃-equivariant collision design** (1 = lone w; 10 = w+w+u; 16 = u+u).
+- **LAW 1 and LAW 2 are theorems** (exact minimal-polynomial tests, 6/6 pairs) — every frame's vacuum axis is a 10-block direction of every other frame, never a singlet direction. **New object: a second cubic field** — the mult-8 orbit lives in K itself; the mult-1 (vacuum) orbit lives in a NON-isomorphic cubic field. Its invariants = named follow-up. 6 locks. Gate 5 untouched.
+
 ## B887 — R37-1 executed: the gate audit (workflow panel) — two live-demonstrated holes, four repairs, gate #20 born
 - **37 agents, ~5.5 minutes**: every gate audited adversarially. Two live holes in binding instruments that three decadal reviews missed: **gate_framing never scanned WORKING_RULES.md** (banned-phrase injection passed); **gate_claims never validated evidence outside the Proven slice** (fake E-row passed). Also atlas-fresh's cancellation-blind cardinality; the ungated B877 lesson.
 - **Repairs banked**: framing scans all root *.md; claims scans the whole ledger; atlas-fresh set-equality; **new gate #20 `arc-verdicts`** — which immediately caught P3_depth_exposure and then its own arc. All 20 pass. ~35 remaining HIGHs = the R38 repair queue, preserved in-arc. 6 locks. 

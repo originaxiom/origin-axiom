@@ -1,0 +1,119 @@
+{
+ "law1": [
+  {
+   "i": 0,
+   "j": 1,
+   "equals_10": true
+  },
+  {
+   "i": 0,
+   "j": 2,
+   "equals_10": true
+  },
+  {
+   "i": 1,
+   "j": 0,
+   "equals_10": true
+  },
+  {
+   "i": 1,
+   "j": 2,
+   "equals_10": true
+  },
+  {
+   "i": 2,
+   "j": 0,
+   "equals_10": true
+  },
+  {
+   "i": 2,
+   "j": 1,
+   "equals_10": true
+  }
+ ],
+ "law2": [
+  {
+   "i": 0,
+   "j": 1,
+   "equals_singlet": false
+  },
+  {
+   "i": 0,
+   "j": 2,
+   "equals_singlet": false
+  },
+  {
+   "i": 1,
+   "j": 0,
+   "equals_singlet": false
+  },
+  {
+   "i": 1,
+   "j": 2,
+   "equals_singlet": false
+  },
+  {
+   "i": 2,
+   "j": 0,
+   "equals_singlet": false
+  },
+  {
+   "i": 2,
+   "j": 1,
+   "equals_singlet": false
+  }
+ ],
+ "law1_all": true,
+ "law2_all": true,
+ "fields_match_K": [
+  false,
+  true
+ ],
+ "collisions": [
+  {
+   "root": 0,
+   "w_u_hits": [
+    [
+     0
+    ],
+    [
+     0
+    ],
+    []
+   ],
+   "lone_w": [
+    2
+   ]
+  },
+  {
+   "root": 1,
+   "w_u_hits": [
+    [
+     1
+    ],
+    [],
+    [
+     1
+    ]
+   ],
+   "lone_w": [
+    1
+   ]
+  },
+  {
+   "root": 2,
+   "w_u_hits": [
+    [],
+    [
+     2
+    ],
+    [
+     2
+    ]
+   ],
+   "lone_w": [
+    0
+   ]
+  }
+ ]
+}

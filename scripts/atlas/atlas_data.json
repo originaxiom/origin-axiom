@@ -18495,6 +18495,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B886": {
+   "slug": "matter pencil",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B883",
+    "B885"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B887": {
    "slug": "gate audit",
    "motifs": [
