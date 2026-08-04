@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **827** |
-| words of findings prose | **537,317** |
-| test lock files referenced | **567** |
-| arcs carrying an authored verdict | **814** (98.4 %) |
+| research arcs with findings | **829** |
+| words of findings prose | **538,478** |
+| test lock files referenced | **569** |
+| arcs carrying an authored verdict | **816** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 515 |
+| PROVED | 517 |
 | NEGATIVE | 261 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B903`** (436 words, 1 locks)  
-N2, THE SIGN LAW'S MECHANISM (load-bearing since B894): all six banked B581 quotients Delta_m are EXACTLY ANTI-PALINDROMIC (functional equation eps = -1 in every block, FORCING the zero at t = 1 -- the torsion's simple zero is duality, not accident), and with Delta_m = (t-1) P_m the exact sign formula sign(tau_m) = sign(lc) * (-1)^{p_m} holds where p_m = the positive-real reciprocal root-pair count of P_m (exact Sturm), with p_m = (1,2,3,3,4,5) for m = (1,4,5,7,8,11): p_m == m (mod 2) IN EVERY BLOCK. The sign law sign(tau_m) = (-1)^m is thus REDUCED with certificates to anti-palindromy (proved per block; general case = Poincare duality for the odd-dim orthogonal V_2m) plus the root-parity law (proved per block by exact count). The remaining open step, sharply posed and registered: why the positive-real pair count carries theta-parity. B581's 'the proof or the fence' resolves toward the proof: two of three steps are exact.  
-`B903_sign_law/FINDINGS.md`
+**PROVED — `B905`** (550 words, 1 locks)  
+W8 PAID -- the Kim-torsor literature gate (99-agent adversarially-verified panel, full-text greps of primary sources, report banked): (Q1, CLEAN NEGATIVE, high confidence) the Kim-school arithmetic Chern-Simons corpus (1510.05818, 1609.03012, 1712.07602, 2312.17138 + 2025 continuations) NEVER reads H^1/torsors operationally as measurements or observer choices -- torsors are technical (pushouts, the Hilbert-space line bundle) or analogized to gauge fields/STATES, and Kim explicitly calls the global-trivialization choice 'unimportant': the measurement reading of the torsor is THIS programme's own, with the divide sharp and documentable; (Q2, EXACT ANCHOR) Garoufalidis-Scholze-Wheeler-Zagier (2412.04241, proofs) build the Habiro ring of a number field graded by K_3(K) with complex CS invariants living there, and their FOUNDING worked example is the figure-eight Kashaev series over Q(sqrt(-3)) -- B707's meeting-point claim now carries exact citations, hypotheses checked current; (Q3, NOTHING PUBLISHED) no source in either literature connects the magic-square (O,C) = E6 cell to arithmetic CS or knot-complement torsors -- the interface has no external prior art (novelty adjudication stays NEEDS-SPECIALIST per provenance rules).  
+`B905_kim_litgate/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  

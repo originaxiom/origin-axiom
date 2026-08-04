@@ -18874,6 +18874,43 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B904": {
+   "slug": "barton sudbery",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [
+    "B854",
+    "B880",
+    "B882",
+    "B898"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B905": {
+   "slug": "kim litgate",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "apolynomial",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B680",
+    "B683",
+    "B707"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B90": {
    "slug": "degree rank peripheral",
    "motifs": [

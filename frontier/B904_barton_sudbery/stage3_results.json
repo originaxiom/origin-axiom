@@ -1,0 +1,19 @@
+{
+ "fit": "OK",
+ "scalars": {
+  "kap0": "0",
+  "lam0": "1",
+  "lam1": "1",
+  "lam2": "1",
+  "mu0": "1",
+  "mu1": "1",
+  "mu2": "1",
+  "nu0": "1",
+  "nu1": "1",
+  "nu2": "1",
+  "kap1": "1",
+  "kap2": "1"
+ },
+ "jacobi_triples": 76076,
+ "jacobi_failures": 4208
+}

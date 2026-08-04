@@ -1,5 +1,12 @@
 # Changelog
 
+## B904 — the Barton–Sudbery capstone: the build IS M(𝕆,ℂ) by explicit exact isomorphism
+- L(𝕆_split, ℂ′_split) constructed over ℚ with **everything derived**: cross products by multiplicity-one equivariance (xy / y·x̄ / ȳ·x), Killing-dual same-summand maps, scalars Jacobi-fitted (λ=1, μ=−24, ν=−12), **full Jacobi 76,076 triples: 0 failures**. Two real bugs caught (incomplete candidate list; an unnormalized store silently dropping the third cross slot).
+- 72 rational root spaces + 6-dim Cartan; Cartan matrix = **E₆** exactly; the Chevalley map verifies on **all 3,003 basis pairs, 0 mismatches, det φ = −2/3**. The magic-square naming now stands on a theorem. 6 locks. Gate 5 untouched.
+
+## B905 — W8 paid: the Kim lit-gate — the torsor-as-measurement reading is ours; the Habiro anchor exact; no E₆ prior art
+- 99-agent adversarially-verified panel, primary-source full-text greps, report banked. **Q1 CLEAN NEGATIVE**: the Kim school never reads torsors operationally — Kim calls the trivialization choice "unimportant"; the measurement reading is this programme's own. **Q2**: GSWZ (2412.04241) ground the Habiro ring of ℚ(√−3) with the figure-eight as their founding example — B707 now carries exact citations. **Q3 NOTHING PUBLISHED** on magic-square E₆ ↔ arithmetic CS/knot torsors. 4 locks. Gate 5 untouched.
+
 ## B903 — the sign law's mechanism: anti-palindromy + an exact root-parity law
 - All six B581 quotients are **exactly anti-palindromic** (ε = −1 universally — the zero at t = 1 is forced by duality). With Δ = (t−1)P: **sign(τ_m) = sign(lc)·(−1)^{p_m}** (p_m = positive-real pair count, exact Sturm), and **p_m ≡ m (mod 2) in every block** (counts 1,2,3,3,4,5).
 - The load-bearing sign law is reduced with certificates; the sharply-posed remainder — why root parity carries θ-parity — is registered. 3 locks. Gate 5 untouched.

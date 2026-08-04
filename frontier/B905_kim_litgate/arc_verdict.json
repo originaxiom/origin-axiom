@@ -1,0 +1,14 @@
+{
+ "id": "B905",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "W8 PAID -- the Kim-torsor literature gate (99-agent adversarially-verified panel, full-text greps of primary sources, report banked): (Q1, CLEAN NEGATIVE, high confidence) the Kim-school arithmetic Chern-Simons corpus (1510.05818, 1609.03012, 1712.07602, 2312.17138 + 2025 continuations) NEVER reads H^1/torsors operationally as measurements or observer choices -- torsors are technical (pushouts, the Hilbert-space line bundle) or analogized to gauge fields/STATES, and Kim explicitly calls the global-trivialization choice 'unimportant': the measurement reading of the torsor is THIS programme's own, with the divide sharp and documentable; (Q2, EXACT ANCHOR) Garoufalidis-Scholze-Wheeler-Zagier (2412.04241, proofs) build the Habiro ring of a number field graded by K_3(K) with complex CS invariants living there, and their FOUNDING worked example is the figure-eight Kashaev series over Q(sqrt(-3)) -- B707's meeting-point claim now carries exact citations, hypotheses checked current; (Q3, NOTHING PUBLISHED) no source in either literature connects the magic-square (O,C) = E6 cell to arithmetic CS or knot-complement torsors -- the interface has no external prior art (novelty adjudication stays NEEDS-SPECIALIST per provenance rules).",
+ "depends_on": [
+  "B707",
+  "B680",
+  "B683"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

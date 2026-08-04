@@ -194,3 +194,12 @@ design-registered. Remaining are the Phase-2 standing threads: the Barton–Sudb
 isomorphism (computable, unblocked), the W8 Kim-torsor workflow retry, the two papers,
 λ₂ (external, cc3), and the N4/N2-remainder executions. Owner directive 2026-08-05: idle ⟹
 run the decadal (Review 38).**
+
+### v3 addendum 4 (same day) — IDLE
+- **Barton–Sudbery capstone DONE** — B904: the explicit isomorphism, 0/3003 mismatches;
+  the M(𝕆,ℂ) naming is a theorem.
+- **W8 DONE** — B905: the lit-gate paid (Q1 clean negative — the measurement reading is
+  ours; Q2 the GSWZ Habiro anchor exact; Q3 no E₆ prior art).
+- **THE EXECUTABLE QUEUE IS EMPTY.** Standing long-horizon threads: the two papers, λ₂
+  (external, cc3), N4/N2-remainder executions, M1's exact-pass refinements. Per the owner's
+  2026-08-05 sequencing: → THE DECADAL (Review 38).
