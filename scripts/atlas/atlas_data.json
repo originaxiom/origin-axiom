@@ -18495,6 +18495,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B887": {
+   "slug": "gate audit",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B877",
+    "P3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B88": {
    "slug": "sl4 census",
    "motifs": [

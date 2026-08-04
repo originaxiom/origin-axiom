@@ -1,0 +1,661 @@
+[
+ {
+  "gate": "gate_knowledge_index",
+  "can_still_fail": true,
+  "failure_demo": "Delete K021's own table row from knowledge/INDEX.md (its only link/entry point for readers) while leaving the file knowledge/K021_the_founding_identity.md on disk untouched. K021 is still cross-referenced in prose inside K024's and K025's rows (e.g. \"`K001`,`K002`,`K004`,`K021`\" and \"`K020`, `K021`\"). Verified empirically: `indexed = set(re.findall(r'\\bK(\\d{3})\\b', body))` still contains K021 after the row is deleted, so missing=[] and dangling=[] and the gate reports 'ok' -- exactly the K021-K024-drifted-out defect class the gate's own docstring says it was written to catch, now silently missed.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The 'indexed' regex `\\bK(\\d{3})\\b` is a bare substring match over the ENTIRE file body, not a check that the K-number has its own table row/markdown link. Any residual textual mention of a K-number elsewhere in INDEX.md (a cross-reference in another explainer's description, a 'see also', a stray citation) is enough to keep that K-number out of both the 'missing' and 'dangling' sets even if its own row/link was deleted. This is drift-prone specifically because INDEX.md rows already densely cross-cite each other (K021 appears in K024's and K025's cross-reference columns today), so the exact hiding condition already exists in the live file for at least K021.",
+    "evidence": "scripts/gates/gates.py:373-377 (indexed = re.findall(r'\\bK(\\d{3})\\b', body) over the whole file); knowledge/INDEX.md lines 43 and 45 already cross-reference `K021` outside its own row (line 37); empirical repro shows missing=[] dangling=[] after simulating deletion of K021's row while file stays on disk."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "INDEX.md's own header (line 1, 'K001\u2013K020') is stale relative to the actual K001-K025 range on disk -- not itself a gate defect (the gate doesn't parse the header), but shows the file already has unmaintained meta-text of exactly the kind that produces stray token matches feeding the false-pass above.",
+    "evidence": "knowledge/INDEX.md:1 ('# `knowledge/` \u2014 index of explainers `K001\u2013K020`') vs 25 files K001-K025 present in knowledge/."
+   }
+  ]
+ },
+ {
+  "can_still_fail": true,
+  "failure_demo": "Create a new directory `frontier/B58_brandnew_defect/` (or any new dir starting `B58` + optional single lowercase letter + `_`) alongside the existing B58 dirs. Simulated directly against the gate's logic (scripts/gates/gates.py:335-351): seen={} built from sorted names, B58 first seen as B58_brandnew_defect (alphabetically first among the four), then B58_phaseA/B58_sl4_tower_test/B58_stage1 all collide with it -> bid 'B58' is in GRANDFATHERED_IDS so `dups` stays empty and the gate returns PASS. The docstring explicitly says 'Historical collisions are grandfathered ... NEW collisions still fail' but the implementation whitelists the numeric ID itself, not the specific historical pair, so it does not fail even though a brand-new arc now genuinely collides with an existing B-number -- exactly the defect class the gate exists to stop.\"",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "GRANDFATHERED_IDS (scripts/gates/gates.py:321) whitelists a bare B-number, not the specific pre-existing pair of colliding directories. The check `if bid not in GRANDFATHERED_IDS` (line 344) fires per-bid, unconditionally, forever -- so once 'B58' is grandfathered, ANY future new directory named B58*_... (including ones created next week for an unrelated new arc) silently passes the collision check too. This is the same self-referential-whitelist pattern flagged elsewhere in Review 36: the exemption was meant to cover one dated historical fact but instead covers the identifier permanently, contradicting the gate's own docstring ('the gate's job is to stop the next one' / 'NEW collisions still fail').",
+    "evidence": "scripts/gates/gates.py:321 `GRANDFATHERED_IDS = frozenset({\"B58\"})`; line 344 `if bid not in GRANDFATHERED_IDS`. Verified live: frontier/ currently has B58_phaseA, B58_sl4_tower_test, B58_stage1 (3 dirs already sharing B58). Simulating a 4th new dir 'B58_brandnew_defect' against the actual gate logic in isolation returns PASS with zero dups reported."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "The ID regex `r\"(B\\d+)[a-z]?_\"` only tolerates a single lowercase-letter suffix before the underscore. Any directory using an uppercase or multi-character suffix (e.g. an arc named for a sub-task) fails to match at all and is silently `continue`'d out of the scan -- it never enters `seen`, so it can never be flagged as a collision with any other directory, including another directory with the same non-conforming suffix pattern.",
+    "evidence": "Live repo has frontier/B89T_tower_route (uppercase 'T' suffix) alongside frontier/B89_sl4_symbolic_M4L. Running the gate's exact matching logic over the real `frontier/` listing shows B89T_tower_route (and 3 other non-B-prefixed dirs) never enter `seen`; if a second uppercase/multi-letter-suffixed dir sharing the same number were ever created, e.g. 'B89T_other_thing', the gate would report zero collisions even though two arcs share the number B89T."
+   }
+  ],
+  "gate": "gate_id_collisions"
+ },
+ {
+  "gate": "gate_framing",
+  "can_still_fail": true,
+  "failure_demo": "Appended the literal banned phrase \"toward the full SM\" to WORKING_RULES.md (root-level, tracked, binding-per-[seat-tool].md file) and reran `python3 scripts/gates/gates.py`: framing gate reported PASS/ok. Same holds for TERMINOLOGY.md and ROADMAP.md \u2014 none of the three are in gate_framing's hardcoded `files = [...]` list (CLAIMS.md, README.md, METHOD.md, ARCHITECTURE.md, PROGRESS_LOG.md, CHANGELOG.md, PROVENANCE.md, REPRODUCIBILITY.md) and none live under FRAMING_SCOPE_DIRS (\"docs\",\"frontier\",\"knowledge\",\"papers\",\"speculations\",\"philosophy\",\"story\",\"src\",\"scripts\"), which only walks subdirectories \u2014 root-level .md files are never picked up by the os.walk loop, only by the explicit hardcoded list. Change reverted after the test (file restored to original content, verified back to PASS).",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Coverage is an unmaintained hardcoded list of root files (8 names) plus a directory walk that only descends into subdirectories, never re-scanning the repo root. WORKING_RULES.md (added 2026-07-16, described in [seat-tool].md as 'binding for every seat'), TERMINOLOGY.md (added 2026-07-15), and ROADMAP.md (present since May) are root-level tracked governance docs that fell outside both mechanisms and are silently never scanned for banned overclaim phrases. Any new root-level .md added later (the natural place to add a new governance doc) has the same fate unless someone remembers to add its name to the hardcoded list.",
+    "evidence": "scripts/gates/gates.py:54-56 (hardcoded files list omits WORKING_RULES.md/TERMINOLOGY.md/ROADMAP.md), :57-63 (os.walk only over FRAMING_SCOPE_DIRS subdirectories, never ROOT itself); confirmed live by injecting a banned phrase into WORKING_RULES.md and observing gate PASS."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "BANNED is a list of exact-substring, case-sensitive phrases (e.g. 'the universe is a figure-eight knot'). Any capitalization change, added article, or reworded paraphrase of a banned overclaim slips through untouched \u2014 the gate guards specific historical wordings, not the underlying overclaim pattern, so re-drift of a previously-banned claim under slightly different phrasing passes silently.",
+    "evidence": "scripts/gates/gates.py:36-45 BANNED list; str `in` membership check at line 72 (`if phrase in text`) with no normalization (no .lower(), no whitespace/punctuation collapsing)."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "_read() failures for any file in the hardcoded list (e.g. permissions issue, or a listed file deleted) are swallowed by `except Exception: continue`, so a missing/unreadable file is silently skipped rather than flagged \u2014 fail-open on missing input, consistent with the other drift-by-missing-file pattern Review 36 found elsewhere.",
+    "evidence": "scripts/gates/gates.py:66-70 (try/except Exception: continue around _read(rel))."
+   }
+  ]
+ },
+ {
+  "gate": "gate_tracked_forbidden (scripts/gates/gates.py:198-216)",
+  "can_still_fail": true,
+  "failure_demo": "git add + commit a cross-seat relay file that is loose (not archived inside a genuine frontier/B###_arc/ subdirectory) anywhere other than the bare repo root or under docs/ \u2014 e.g. `knowledge/CC_TO_CC3_2026-08-04_notes.md`, `frontier/CC_TO_CC3_2026-08-04_notes.md` (directly under frontier/, not inside a B*_arc dir), or `notes/relay/CC_TO_CC3_2026-08-04.md`. Verified by evaluating the gate's own bad-file predicate against these paths in isolation: all three return bad=False (gate PASSES) while `CC_TO_CC3_new.md` at root and `docs/handoffs/CC_TO_CC3_new.md` correctly return bad=True. The gate's own comment states relays 'must not be committed LOOSE (at root or in docs/)' and are allowed only when 'ARCHIVED INSIDE a frontier arc directory' \u2014 but the code only special-cases root (re.match anchored to path start) and docs/ (f.startswith('docs/') + re.search); every other top-level directory, and even frontier/ itself when the relay isn't nested one level deeper inside a B*_name/ arc folder, is entirely unchecked. This is exactly the loose-relay-commit class the gate exists to catch.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Blacklist coverage is a 2-location special case (bare repo root, docs/ subtree) rather than 'everywhere except inside a real frontier arc directory' as the comment describes; any other top-level directory (knowledge/, story/, philosophy/, speculations/, notes/, scripts/, tests/, or frontier/ itself outside a B###_arc/ subfolder) silently accepts a loose CC_TO_CC*/CC*_TO_CC*.md relay commit.",
+    "evidence": "scripts/gates/gates.py:209-215; confirmed by direct evaluation: 'knowledge/CC_TO_CC3_new.md', 'frontier/CC_TO_CC3_new.md', and 'notes/relay/CC_TO_CC3_new.md' all evaluate bad=False against the gate's own predicate, while 'CC_TO_CC3_new.md' and 'docs/handoffs/CC_TO_CC3_new.md' correctly evaluate bad=True."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "Fail-open on git unavailability: if _git('ls-files') returns rc!=0 (git missing from PATH, sandbox restriction, corrupted .git), the gate returns (True, 'git unavailable \u2014 skipped') \u2014 silently passing ALL forbidden-file classes (.github/, Archive.zip, the flagship pdf, and every relay case) at once, not just this one.",
+    "evidence": "scripts/gates/gates.py:200-201"
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "All relay-pattern regexes are case-sensitive against literal tokens CC_TO_CC3/CC3_TO_CC/CC_TO_CC2/CC2_TO_CC; a differently-cased or renamed relay convention (e.g. lowercase, or a future 'CC4' seat) would not match, and nothing else in the repo enforces the naming convention itself.",
+    "evidence": "scripts/gates/gates.py:212,215 \u2014 sampled actual tracked files (CC3_TO_CC_2026-07-22_p3_complete.md; frontier/B702_metallic_hearing_law/CC2_TO_CC_2026-07-19_EQ_results.md) confirm current naming is consistently uppercase, so this is currently latent, not yet triggered."
+   }
+  ]
+ },
+ {
+  "can_still_fail": true,
+  "failure_demo": "Add any test function with zero `assert` statements that happens to call ANY method whose attribute name matches the OK_CALLS whitelist {raises, fail, warns, approx, skip, xfail} on an unrelated object -- e.g. a retry/iterator helper's `.skip(n)`, a logging helper's `.fail(msg)`, or a custom class's `.approx(x)` method that has nothing to do with pytest. Demonstrated directly against the checker's own NO-ASSERT logic (scripts/checks/check_test_vacuity.py lines 118-122): a function `test_totally_vacuous()` containing `Retry().approx(5)` and zero assert statements is classified `Would be flagged as NO-ASSERT: False` -- i.e. it is silently accepted as a guarded test and gate_test_vacuity() returns True. The gate exists precisely to catch 'unconditionally-passing' tests; this is one, and it passes.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "NO-ASSERT detection whitelists by bare Call.func.attr name only (`_OK_CALLS = {\"raises\",\"fail\",\"warns\",\"approx\",\"skip\",\"xfail\"}`), never checking the receiver/module (e.g. that it is actually `pytest.raises`/`pytest.approx`). Any call to a same-named method on an unrelated object (a retry helper's `.skip()`, an iterator's `.skip()`, a logger's `.fail()`, a stats helper's `.approx()`) satisfies `_OK_CALLS & calls` and suppresses the NO-ASSERT flag even though the test body contains zero real assertions and always passes. No current test file happens to trigger it (grep for `.skip(`/`.fail(`/`.warns(`/`.approx(`/`.raises(`/`.xfail(` outside `pytest.*` in tests/*.py returned nothing today), so the gate currently reads clean by coincidence of naming conventions, not by construction.",
+    "evidence": "scripts/checks/check_test_vacuity.py:118-122 (`calls = {getattr(getattr(n, \"func\", None), \"attr\", None) for n in ast.walk(fn) if isinstance(n, ast.Call)}`) and :123 (`if not asserts and not (_OK_CALLS & calls):`); reproduced live via /private/tmp/.../scratchpad/vac_demo/demo_ast.py which runs the identical logic against a synthetic `test_totally_vacuous` containing `Retry().approx(5)` and no assert -> flagged=False."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "TAUTOLOGY detection only recognizes two AST shapes: a bare `ast.Constant` truthy value (`assert True`, `assert 1`) and a single-op `ast.Compare` with syntactically identical sides (`assert X == X`). Any always-true assertion built from a `BoolOp`, e.g. `assert x or True` or `assert not False`, is neither a Constant nor a Compare at the top level, so it is skipped by both the TAUTOLOGY and BOTH-LITERAL branches entirely -- not even surfaced to the human review queue. A test with such an assert has an assertion (so it isn't caught by NO-ASSERT either) and reads as a normal passing test in the gate's report, while it can never fail.",
+    "evidence": "scripts/checks/check_test_vacuity.py:135-146 -- the loop over `asserts` branches only on `isinstance(t, ast.Constant)` and `isinstance(t, ast.Compare) and len(t.ops)==1`; there is no ast.BoolOp handling anywhere in the file."
+   }
+  ],
+  "gate": "gate_test_vacuity"
+ },
+ {
+  "can_still_fail": true,
+  "failure_demo": "Real repo state, no code changes needed: after the next review anchor lands, commit a single unrelated one-line edit to each of the 8 VIEWS files (e.g. fix a typo in README.md, add a trailing blank line to docs/MASTERPLAN.md) without updating any of their substantive content (arc counts, dates, HIGH-priority lists) to reflect the new review window. `git rev-list --count anchor..HEAD -- <view>` is 1 for every file, so `stale` stays empty and gate_views_fresh returns (True, \"ok\") \u2014 exactly the Review-32 failure mode (MASTERPLAN 25 days stale, LEAD_REGISTER listing closed items as HIGH) the gate was written to stop, reproduced because the gate checks 'was this path touched by any commit' rather than 'does this file's content reflect the current review state.' Verified live: the one commit since the current anchor (700eb5f6) that satisfies README.md's freshness (d510a8c6) happens to be a genuine content refresh today, but the gate's logic (scripts/gates/gates.py:305-307) has no way to distinguish that from a trivial touch \u2014 it is satisfied by rev-list count > 0, full stop.",
+  "gate": "gate_views_fresh",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The gate equates 'a commit touched this path since the anchor' with 'this view was refreshed.' Any trivial/unrelated single-line edit (typo fix, whitespace, an unrelated section added to the same file) to a VIEWS path resets its rev-list count above zero and clears it from 'stale' permanently until the next anchor, with zero check that the content was actually regenerated to match the review window. This is the same proxy-for-substance failure class as Review 36's regex/timestamp gates: a cheap, easily-satisfied signal stands in for the real invariant.",
+    "evidence": "scripts/gates/gates.py:305-307 -- `rc, out = _git(\"rev-list\", \"--count\", f\"{anchor}..HEAD\", \"--\", v)`; `if rc == 0 and int(out.strip() or 0) == 0: stale.append(...)` -- any nonzero commit count clears the file, regardless of diff content."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "If a VIEWS path is renamed, moved, or deleted (nothing in GOVERNANCE guarantees these 8 navigation-view paths are frozen the way banked arc paths are under \u00a712), the loop silently `continue`s past it instead of failing. The gate's coverage silently shrinks -- a permanently-stale or now-nonexistent navigation view is dropped from the check forever with no signal, rather than the gate flagging the missing/renamed view as a governance problem.",
+    "evidence": "scripts/gates/gates.py:302-304 -- `for v in VIEWS: if not os.path.exists(os.path.join(ROOT, v)): continue` -- no fail-path for a missing VIEWS entry, unlike the REVIEWS.md-missing branch a few lines above which is explicitly fail-closed."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "The anchor used is `anchors[-1]`, i.e. the physically LAST regex match of `anchor-commit: \\`hash\\`` in REVIEWS.md, not the anchor tied to the highest-numbered/most-recent Review heading. REVIEWS.md has no enforced append-only discipline in GOVERNANCE (unlike PROGRESS_LOG.md, which is explicitly documented as append-only); Review 35 is literally titled 'the correction lattice,' showing this file already gets retrospective edits. A later correction/errata block appended after the true latest anchor line, that happens to quote an older commit hash in the same `anchor-commit: \\`...\\`` textual pattern (e.g. discussing a prior review's anchor for context), would silently become the effective anchor picked up by `re.findall(...)[-1]`, changing the freshness window with no validation that it belongs to the latest Review section.",
+    "evidence": "scripts/gates/gates.py:297,300 -- `anchors = re.findall(r\"anchor-commit: \\`?([0-9a-f]{7,40})\\`?\", _read(REVIEWS)); anchor = anchors[-1]`; GOVERNANCE.md:208 marks only PROGRESS_LOG.md append-only, not REVIEWS.md; docs/progress/REVIEWS.md:2612/2758 already show the same anchor hash duplicated across a heading and a footer line for Review 35, confirming the pattern is not confined to one canonical location per review."
+   }
+  ]
+ },
+ {
+  "gate": "gate_firewall_oneway",
+  "can_still_fail": true,
+  "failure_demo": "Add a row to CLAIMS.md's Proven/Conditional/Certified-data table that cites a speculative-room source WITHOUT the literal substring the gate checks for. Two concrete, mechanically-verified bypasses (ran gate_firewall_oneway() against synthetic CLAIMS.md text): (1) '| P1 | Some claim resting on a held speculative match (see TOMBSTONES.md S014). | `tests/test_x.py` |' -> gate returns (True, []) even though it cites a speculations/-room artifact (S0NN ids / TOMBSTONES.md are the ACTUAL citation style used inside speculations/GOVERNANCE.md itself, e.g. 'TOMBSTONES.md S014', 'CATALOG.md S001...S028' - no 'speculations/' path string required by convention). (2) '| P1 | ... `knowledge/K021_founding_identity.md`. | ... |' -> also (True, []). ARCHITECTURE.md's own room table marks knowledge/ 'Promotes to CLAIMS.md? never' -- identical status to speculations/, philosophy/, story/ -- but the gate's blacklist (line 112: if \"speculations/\" in row or \"philosophy/\" in row or \"story/\" in row) never mentions knowledge/, so any citation of the knowledge/ room passes silently regardless of substring form.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The gate is a hard-coded 3-string blacklist (speculations/, philosophy/, story/) checked against single-line table rows, but ARCHITECTURE.md defines FOUR rooms with 'Promotes to CLAIMS.md? never' status (speculations/, philosophy/, story/, AND knowledge/). knowledge/ is silently exempt from the guard the gate claims to implement ('the one-way firewall (no speculative room cited as claim evidence)', GOVERNANCE.md \u00a711). Any future Proven/Conditional/Certified-data row citing knowledge/K0xx as evidence for a claim would pass the gate while violating the documented one-way arrow.",
+    "evidence": "scripts/gates/gates.py:112 (if \"speculations/\" in row or \"philosophy/\" in row or \"story/\" in row) vs ARCHITECTURE.md:38 (| **`knowledge/`** | ... | **never** |) \u2014 mechanically confirmed with a synthetic CLAIMS.md row citing knowledge/K021... returning (True, [])."
+   },
+   {
+    "severity": "HIGH",
+    "mechanism": "The gate is a raw substring match requiring the literal folder-path text 'speculations/' (etc.) to appear in the row. The repo's own governance docs (speculations/GOVERNANCE.md) demonstrate the natural citation idiom is by ID/file only \u2014 'TOMBSTONES.md S014', 'CATALOG.md \u2014 S001\u2026S028' \u2014 with no 'speculations/' path prefix. A CLAIMS.md row that cites a HELD/DEAD speculative result the same way ('see TOMBSTONES.md S014' or bare 'S0NN') carries the forbidden content but not the forbidden string, and is invisible to the gate. Mechanically confirmed: such a row returns (True, []).",
+    "evidence": "scripts/gates/gates.py:110-113 (regex only inspects the literal row text for 3 fixed path substrings) vs speculations/GOVERNANCE.md:18,20,54 (citation convention uses bare S0NN / TOMBSTONES.md, no 'speculations/' substring)."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "Zero test coverage: no test file references gate_firewall_oneway (grep of tests/ for 'firewall_oneway'/'firewall-oneway' returned nothing), so there is no regression fixture proving the gate still fires on any positive case, and no fixture would have caught either bypass above before it shipped to a real CLAIMS.md edit.",
+    "evidence": "grep -rn firewall_oneway tests/ and grep -rn firewall-oneway tests/ both empty."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "The scanned sections are hard-coded to (Proven, Conditional, Certified data) via LABEL_SECTIONS/sec_name; if CLAIMS.md's section headings are ever reworded (capitalization, renamed 'Certified data' -> 'Certified Data', or a new claims-bearing section added outside this fixed triple, e.g. a future 'Promoted' tier) the gate silently stops scanning that section (sec_name not in text -> continue), fail-open with no error.",
+    "evidence": "scripts/gates/gates.py:103-105 (for sec_name in (\"## Proven\", \"## Conditional\", \"## Certified data\"): if sec_name not in text: continue)."
+   }
+  ]
+ },
+ {
+  "gate": "gate_atlas_fresh",
+  "can_still_fail": true,
+  "failure_demo": "gate_atlas_fresh (scripts/gates/gates.py:151-160) only compares CARDINALITY: `n_atlas == len(ids)` where n_atlas=len(atlas_data.json['probes']) and ids=set of B-ids derived from frontier/B*/FINDINGS.md dir names. It never diffs the two ID sets. Concrete repo state that passes anyway: (1) an arc is retracted/renumbered -- a pattern this repo does routinely (see recent commits \"B824 FAILED / B825 SUCCEEDED\", and the memory note on B519 retraction) -- so its frontier/B824_*/FINDINGS.md is deleted or the dir renamed, but atlas_data.json still carries the stale 'B824' probe entry because atlas.py's mine() is a manually-invoked regen script, not run automatically on commit. (2) In the same window a brand-new arc (say B900) is banked with frontier/B900_x/FINDINGS.md but nobody re-runs `atlas.py mine` for it. Net: frontier-id count -1 (824 gone) +1 (900 added) = unchanged; atlas count unchanged (824 stale, 900 absent). n_atlas(806)==len(ids)(806) so the gate reports PASS while the atlas is simultaneously stale (phantom B824) and blind (missing B900), with zero warning. This is not hypothetical bookkeeping: I verified live in-repo that the id-extraction regex already collapses multiple real FINDINGS.md-bearing directories onto one id today (frontier/B58_sl4_tower_test, B58_phaseA, B58_stage1 -> 'B58'; frontier/B89T_tower_route, B89_sl4_symbolic_M4L -> 'B89'), i.e. 5 real FINDINGS-bearing directories are already being represented as only 2 ids in the count the gate trusts -- proof the count is not a faithful proxy for \"atlas covers every banked arc\"; it just happens to still net out to 806==806 today.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Gate uses set-cardinality equality instead of set-equality/symmetric-difference; any pair of opposite-direction drift events (one stale atlas entry appearing while one new/renamed arc's FINDINGS.md appears elsewhere, or vice versa) cancels in the count and the gate silently PASSes. Given this repo's routine renumbering/retraction cadence (B824->B825, B519 retraction noted in memory, multi-arc-per-session banking), such a same-session cancellation is a realistic occurrence, not an adversarial edge case.",
+    "evidence": "scripts/gates/gates.py:160 `return n_atlas == len(ids), ...` -- no set diff, no reporting of which ids differ even on failure."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "atlas_data.json is populated by a manually-invoked mining script (scripts/atlas/atlas.py mine()), not regenerated automatically pre-commit/pre-merge, so it can go stale for arbitrarily long between runs; the count gate is the ONLY check standing between 'atlas is stale' and merge, and it has the cancellation blind spot above.",
+    "evidence": "scripts/atlas/atlas.py: mine() builds the probes dict from a frontier scan; no gate or hook invokes it automatically -- confirmed no CI/pre-commit reference to `atlas.py mine` found in the repo."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "The id-extraction regex `r\"(B\\d+[a-z]?)\"` matches only a single trailing lowercase letter and stops before uppercase suffixes or numeric-suffix variants, so distinct arc-phase directories with different content silently collapse onto the same id in the `ids` set (undercounting real FINDINGS.md files, though not currently breaking the gate since atlas is keyed the same way). This is a latent source of the exact kind of cancellation described above -- a collapse changes `len(ids)` by more than 1 for a single new/renamed directory, making an accidental count-match on future edits more, not less, likely.",
+    "evidence": "Live repro: frontier/B58_sl4_tower_test, frontier/B58_phaseA, frontier/B58_stage1 (3 dirs, each with FINDINGS.md) all map to id 'B58'; frontier/B89T_tower_route and frontier/B89_sl4_symbolic_M4L (2 dirs, each with FINDINGS.md) both map to id 'B89'."
+   }
+  ]
+ },
+ {
+  "gate": "gate_knowledge_index",
+  "can_still_fail": true,
+  "failure_demo": "Delete K021's own row (line 37) from knowledge/INDEX.md while leaving knowledge/K021_the_founding_identity.md on disk and leaving K024's/K025's cross-reference columns (lines 43, 45) which still contain the literal text 'K021'. gate_knowledge_index's regex re.findall(r'\\\\bK(\\\\d{3})\\\\b', body) scans the whole file body and will still find '021' from those cross-references, so indexed still contains K021, on_disk - indexed is empty (missing=[]), and the gate reports 'ok' even though K021 has no table row/link of its own -- confirmed by reading scripts/gates/gates.py:373-377 and knowledge/INDEX.md lines 37/43/45 directly.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Bare whole-file substring/regex match instead of per-row/per-link scoping lets any stray cross-reference to a K-number (already common in this file's cross-reference columns) mask deletion of that K-number's own INDEX row, silently defeating both the 'missing' and 'dangling' checks.",
+    "evidence": "scripts/gates/gates.py:373-377 (indexed = re.findall(r'\\bK(\\d{3})\\b', body) over the full read of INDEX.md); knowledge/INDEX.md lines 43 and 45 currently cite 'K021' outside of K021's own row at line 37, so the exact hiding condition exists today for K021 (and by the same pattern, K020's row is also cross-cited at lines 37/45/etc.)."
+   }
+  ]
+ },
+ {
+  "gate": "gate_attribution",
+  "can_still_fail": true,
+  "failure_demo": "Push a commit whose FILES are clean but whose commit MESSAGE contains an AI co-author trailer, e.g. 'Co-Authored-By: [seat-tool] Fable 5 <noreply@anthropic.com>', authored with author name 'originaxiom'. The gate scans (1) `git ls-files` file contents for the token '[seat-tool]' and (2) only `git log -1 --format=%an` (author NAME of current HEAD). It never reads `git log --format=%B` (message body/trailers) at all, so a Co-Authored-By/Signed-off-by trailer naming [seat-tool]/Anthropic sails through untouched. Not hypothetical: `git log main --format=%B -i --grep=[seat-tool]` returns 339 commits on main whose bodies already contain '[seat-tool]' via such trailers, none ever flagged by this gate \u2014 exactly the leak this repo's own attribution policy ('no AI trailer, no [seat-tool] or surname') is meant to stop.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "gate_attribution (scripts/gates/gates.py:174-194) only ever inspects (a) tracked file contents via git ls-files, and (b) the single HEAD commit's author NAME (git log -1 --format=%an). It never calls `git log --format=%B` over the range of commits being pushed, so any attribution leak living in a commit MESSAGE (Co-Authored-By/Signed-off-by trailers, PR descriptions) is structurally invisible, not just occasionally missed.",
+    "evidence": "scripts/gates/gates.py:186 (`_TOK in _read(rel).lower()` over ls-files output only) and :190 (`_git('log','-1','--format=%an')`); confirmed via `git log main --format=%B -i --grep=[seat-tool] | wc -l` = 339 commits on main, none historically flagged."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "The author check reads only the single tip commit of HEAD (`git log -1`). A push or squash-merged PR made of several commits can carry an intermediate commit authored by something other than 'originaxiom' \u2014 this repo's own history has commits with %an literally '[seat-tool]' \u2014 and as long as the LAST commit in the pushed range is authored 'originaxiom', author_ok=True and the earlier commits are never inspected.",
+    "evidence": "scripts/gates/gates.py:190-191; `git log --all -i --grep=[seat-tool] --format='%H %an'` lists real commits with %an == '[seat-tool]' (e.g. e0a77d20, 105b85fc, 1fa9994b, 9f110c47, ed7e751c)."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "Content scan is restricted to a fixed extension whitelist (.md/.py/.txt/.json/.yml/.yaml/.toml). The repo has committed .tex (24, papers/), .sh (4), .js (2), .html (1), .csv (18), .bib (2), .cpp, .patch, .diff, .jsonl (2), .tsv \u2014 none of which the gate ever opens. A '[seat-tool]' leak in a paper's .tex acknowledgments or a build .sh/.js would pass silently; manual grep found no current hits, but coverage on these formats is zero, not merely narrow.",
+    "evidence": "scripts/gates/gates.py:183 extension tuple vs `git ls-files` extension census (.tex=24, .sh=4, .js=2, .html=1, .csv=18, .bib=2, etc., none in the whitelist)."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "`_read(rel)` failures (non-UTF-8 decode, malformed content on a whitelisted extension) are swallowed by a bare `except Exception: continue`, silently skipping the file rather than surfacing it as a miss \u2014 fail-open on any read error with no record of which files were skipped.",
+    "evidence": "scripts/gates/gates.py:185-189 (`try: ... except Exception: continue`)."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "ATTR_EXEMPT_PREFIXES includes 'audit/', which per project memory is a standing gitignored workspace, so `git ls-files` would never return paths under it anyway \u2014 the exemption is currently vestigial. If 'audit/' is ever partially tracked, this prefix would silently whitelist it from the scan with no separate review.",
+    "evidence": "scripts/gates/gates.py:165 vs project memory 'audit-room-and-test-envs: standing gitignored audit/ workspace'."
+   }
+  ]
+ },
+ {
+  "gate": "gate_path_refs",
+  "can_still_fail": true,
+  "failure_demo": "Cloned the repo to a scratch dir, added `frontier/B999_demo/FINDINGS.md` citing `frontier/B999_demo/audit/notes.md`, and created that target file on disk (verified via `git check-ignore -v` that the bare, unanchored `audit/` line in .gitignore swallows it \u2014 same mechanism the gate's own docstring warns about for the checker's own location). Ran `scripts/checks/check_path_references.py`: PASSED (\"all resolve\"), 1583 citations, 0 unresolved. Then deleted only the untracked/ignored target file (simulating what a fresh clone / any other contributor's checkout actually contains) and re-ran the identical checker with no other change: it now correctly reports 1 UNRESOLVED citation. So the exact same repo state that a reviewer, CI runner, or second contributor would see (post fresh-clone) fails, while the committer's own machine \u2014 where the gitignored file still physically sits from whatever generated it \u2014 reports green. Root cause: `check_path_references.scan()` resolves targets with `os.path.exists()` against the *working-tree filesystem*, not against `git ls-files` / the committed tree, even though it already scans *citers* via `git ls-files`. The asymmetry (tracked citers, untracked-tolerant targets) is the fail-open. Note also CI (`.github/workflows/core.yml`) does not run `tests/test_repo_gates.py` / this gate at all \u2014 the full gate suite is local-only per its own docstring (\"stays local\") \u2014 so the only place this gate ever runs is exactly the committer's own working tree, i.e. the exact environment where the false-pass is most likely to occur and least likely to ever be caught by a second, cleaner run.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Target-path resolution uses os.path.exists() on the live filesystem instead of git-tracked existence (git ls-files/git cat-file), while citer files ARE restricted to git-tracked .md via `git ls-files \"*.md\"`. Any citation whose target path contains a path component matched by .gitignore (the bare, unanchored `audit/` line is the most direct case, since it swallows a directory literally named `audit` at any depth under frontier/, docs/, scripts/, etc. \u2014 all in the gate's own _DIRS whitelist) will PASS as long as the file happens to exist on the machine running the gate, even though it is not part of the committed repository and will be absent on any fresh clone. Demonstrated concretely above: pass -> fail with zero code change, only removing the untracked file.",
+    "evidence": "scripts/checks/check_path_references.py:60-82 (scan(): git ls-files for citers, os.path.exists for targets); .gitignore:11 `audit/` (bare, unanchored \u2014 the module's own docstring at lines 32-35 documents this exact swallowing behavior for the checker's own directory, but the same mechanism is never guarded against for cited TARGET paths); .github/workflows/core.yml runs only a narrow pytest subset and never invokes tests/test_repo_gates.py or scripts/gates/gates.py, so this gate's only execution context is a contributor's local working tree."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "PATH_RE only matches targets ending in .py, .md, .json, or .txt. Any backticked citation to a file with a different extension (e.g. .sage, .sh, .yaml, .csv, .pdf, .ipynb) is invisible to the regex and therefore NEVER checked for resolution, forever \u2014 if that file is later renamed or deleted, the resulting dangling citation will never be flagged by this gate.",
+    "evidence": "scripts/checks/check_path_references.py:47-48 (PATH_RE extension char-class); a live instance already exists in the repo and is silently unchecked: `frontier/B433_3d3d_calibration/calibration.sage` (currently still present, so not yet a failure, but demonstrates the blind spot is populated, not hypothetical)."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "os.path.exists() returns True for directories as well as files, so a citation shaped like a file path (e.g. `docs/foo.md`) would 'resolve' if a directory of that exact name exists (e.g. left over from a rename), even though the actual file content is gone.",
+    "evidence": "scripts/checks/check_path_references.py:78-79 (`os.path.exists(...)` with no os.path.isfile guard)."
+   }
+  ]
+ },
+ {
+  "gate": "gate_id_collisions",
+  "can_still_fail": true,
+  "failure_demo": "Create a 4th directory frontier/B58_brandnew_defect_2026/ for an unrelated new arc today; the gate's loop hits bid=\\\"B58\\\" already in `seen` (from B58_phaseA), checks `if bid not in GRANDFATHERED_IDS` which is False since \\\"B58\\\" is in the frozenset, so it is never appended to dups and the gate returns PASS despite a genuine new collision.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "GRANDFATHERED_IDS keys on the bare B-number string, and the per-name loop's exemption check (`if bid not in GRANDFATHERED_IDS`) is applied identically regardless of which specific directories are colliding or when they were created -- there is no date/path pinning tying the exemption to the 3 historical dirs (B58_phaseA, B58_sl4_tower_test, B58_stage1) it was meant to cover.",
+    "evidence": "scripts/gates/gates.py:321 `GRANDFATHERED_IDS = frozenset({\"B58\"})`; loop body lines ~338-346: `bid = m.group(1)` then `if bid in seen: if bid not in GRANDFATHERED_IDS: dups.append(...)` -- confirmed live in this repo: `ls frontier/ | grep B58` returns exactly B58_phaseA, B58_sl4_tower_test, B58_stage1, i.e. 3 pre-existing dirs already sharing the grandfathered id, and nothing in the code distinguishes a 4th future B58* dir from these three."
+   }
+  ]
+ },
+ {
+  "gate": "gate_test_vacuity",
+  "can_still_fail": true,
+  "failure_demo": "Add a test like `def test_totally_vacuous(): Retry().skip(5)  # or any obj.approx/.fail/.warns/.raises/.xfail call, no assert` \u2014 `_OK_CALLS & calls` matches on the bare attr name `skip` regardless of receiver, so `no_assert.append` is skipped and the test is never flagged despite containing zero real assertions.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "NO-ASSERT whitelist keys on bare Call.func.attr name only (check_test_vacuity.py:118-119 builds `calls` via `getattr(getattr(n,\"func\",None),\"attr\",None)`; :123 gates on `_OK_CALLS & calls`), never verifying the receiver is `pytest` (e.g. `n.func.value.id == \"pytest\"`). Any helper/object with a same-named method (.skip/.fail/.warns/.approx/.raises/.xfail) silently suppresses the NO-ASSERT flag for an assertion-free test.",
+    "evidence": "scripts/checks/check_test_vacuity.py:118-123; confirmed via `grep -nE '\\.(skip|fail|warns|approx|raises|xfail)\\(' tests/*.py | grep -v 'pytest\\.'` returning empty today, i.e. the gate is unguarded by construction and only clean by present naming coincidence."
+   }
+  ]
+ },
+ {
+  "gate": "gate_views_generated",
+  "can_still_fail": true,
+  "failure_demo": "Demonstrated in a scratch harness mirroring the real logic (scripts/gates/gates.py:446-472 + scripts/views/generate.py). The gate's `before` snapshot is every *.md file currently sitting in docs/views/. After re-running generate.py it flags a file as drift ONLY if that filename is (a) newly written by the current generator ('new') or (b) rewritten by the current generator with different content ('stale'). If a view is ever renamed or retired inside generate.py's `views` dict (e.g. REVIEWER.md replaced by REVIEWER_V2.md) but the old REVIEWER.md file is left on disk in docs/views/ -- exactly the kind of edit this repo makes routinely (generate.py's own docstring notes a prior filename collision it had to work around: \"verdict.json was already taken... a collision the W1 pilot caught\") -- the orphaned REVIEWER.md is never touched by the subprocess run, so `_read` returns identical bytes before and after. It lands in neither `stale` nor `new`, and the gate prints \"ok (N views current)\" even though REVIEWER.md now sits there permanently stale/hand-edited -- exactly the failure this gate's docstring says it exists to make detectable (\"the one that makes hand-editing detectable\"). Verified directly: with an orphaned, hand-edited docs/views/REVIEWER.md that the (simulated) current generate.py no longer writes, the exact comparison logic from gates.py produced stale=[] new=[] -> PASS, while the file visibly contained \"HAND-EDITED CONTENT (drift, should NOT silently pass)\". In the real repo this cannot fire today only because the on-disk docs/views/ set (COVERAGE.md, VERDICT_LEDGER.md, CLOSED_DOORS.md, REVIEWER.md) currently equals exactly generate.py's `views` dict keys -- there is no independent check enforcing that equality, so the next view rename/retirement silently reopens this hole.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The gate defines 'current' entirely as the intersection between filenames already in docs/views/ and filenames generate.py's `views` dict happens to write on THIS run. It never asks 'does every file physically present in docs/views/ correspond to something the generator still produces?' A retired/renamed generated view (or any hand-dropped .md file never wired into the `views` dict) becomes permanently invisible to the check: present in `before`, untouched by the subprocess, so before==after forever, and it can be hand-edited at any later point with zero detection -- the same class of bug (a check that only watches what a producer currently touches, not what actually exists on disk) as the B827 frozen-changelog-timestamp defect documented two functions below in this same gates.py file.",
+    "evidence": "scripts/gates/gates.py:456-471 (stale/new computed only over `before` keys vs current-generator-output keys); scripts/views/generate.py main() (`views = {COVERAGE.md, VERDICT_LEDGER.md, CLOSED_DOORS.md, REVIEWER.md}` is a fixed dict -- any past or future key not in it is invisible to the comparison); reproduced live in scratchpad orphan_sim showing stale=[] new=[] PASS against a visibly hand-edited orphan file."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "Adjacency to Review 37's candidate gate (every frontier/B*/FINDINGS.md needs a sibling arc_verdict.json): generate.py's collect() explicitly tolerates a missing arc_verdict.json (verdict_record=None; view_claims documents arcs without one are 'absent from this ledger by construction, not by judgement'). gate_views_generated therefore does not enforce, and was never meant to enforce, the FINDINGS.md/arc_verdict.json pairing Review 37 flagged -- it only guarantees the views are internally consistent with whatever verdict layer happens to exist. Flagging so the new candidate gate isn't assumed already covered here -- it isn't. (Notably, the working tree currently carries an untracked frontier/B519_re_mining/arc_verdict.json per git status -- this gate would silently absorb or drop that arc from the ledger depending on the file's presence, without ever checking the FINDINGS/arc_verdict pairing itself.)",
+    "evidence": "scripts/views/generate.py collect(): `a['verdict_record'] = json.load(...) if os.path.isfile(vp) else None`; view_claims(): 'Arcs without one are absent from this ledger by construction, not by judgement.'; git status: '?? frontier/B519_re_mining/arc_verdict.json'."
+   }
+  ]
+ },
+ {
+  "gate": "gate_views_fresh",
+  "can_still_fail": true,
+  "failure_demo": "After an anchor commit, make a single trivial unrelated edit (e.g. fix a typo or append an unrelated bullet) to one file in VIEWS (e.g. docs/OPEN_LEADS.md) and commit it. rev-list --count anchor..HEAD -- docs/OPEN_LEADS.md returns 1 (&gt;0), so the file is removed from `stale` even though its actual content was never regenerated to reflect the review; gate_views_fresh returns (True, \"ok\") despite the view being substantively stale.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "commit-touched-path is treated as equivalent to content-regenerated-to-match-review-window; any incidental single-line diff anywhere in the file satisfies rev-list>0 permanently (until the next anchor) with no diff-size/diff-content check.",
+    "evidence": "scripts/gates/gates.py:305-307: `rc, out = _git(\"rev-list\", \"--count\", f\"{anchor}..HEAD\", \"--\", v)` then `if rc == 0 and int(out.strip() or 0) == 0: stale.append(...)` -- the only test is whether the count is zero, not what changed."
+   }
+  ]
+ },
+ {
+  "gate": "gate_tracked_forbidden",
+  "can_still_fail": true,
+  "failure_demo": "git add + commit a file at e.g. knowledge/CC_TO_CC3_relay.md, notes/CC_TO_CC3_relay.md, or scripts/CC_TO_CC3_relay.md \u2014 the gate's bad-list predicate evaluates False for all of these (verified by direct execution against the real regex/startswith logic), so the loose relay is silently accepted despite not being inside any B###_arc/ frontier directory.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Blacklist enumerates only two locations (bare root via re.match anchored-start, and docs/ via startswith+search) instead of allow-listing 'inside a frontier arc dir' and blocking everything else; any new or existing top-level directory (knowledge/, frontier/ itself outside B###_arc/, notes/, scripts/, tests/, story/, philosophy/, speculations/) is an unguarded relay-commit path.",
+    "evidence": "scripts/gates/gates.py:209-215, confirmed by direct execution: knowledge/CC_TO_CC3_new.md, frontier/CC_TO_CC3_new.md, notes/relay/CC_TO_CC3_new.md, scripts/CC_TO_CC3_new.md, tests/CC_TO_CC3_new.md all evaluate bad=False; only CC_TO_CC3_new.md (root) and docs/handoffs/CC_TO_CC3_new.md evaluate bad=True."
+   }
+  ]
+ },
+ {
+  "gate": "gate_atlas_fresh",
+  "can_still_fail": true,
+  "failure_demo": "Retract/rename one frontier arc's FINDINGS.md dir (e.g. B824 -> gone) while simultaneously adding one new/renamed arc's FINDINGS.md (e.g. B825) without updating atlas_data.json's probes count to match the actual new B-id set: len(ids) stays the same count as before, n_atlas stays whatever it was, and if they happen to be numerically equal the gate passes even though the atlas no longer lists B825 and still lists a retracted B824.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Cardinality-only comparison: gate never checks that the atlas's actual probe IDs match the frontier dir's actual B-ids, only that the counts match, so any same-session add+remove pair of equal size cancels silently.",
+    "evidence": "scripts/gates/gates.py:160 `return n_atlas == len(ids), f\"atlas={n_atlas} distinct-B-dirs={len(ids)}\"` -- ids is a set built from frontier/ dirnames (line 155-159), n_atlas is len(data['probes']) (line 153); no set(atlas_ids) == ids or symmetric_difference check anywhere in the function."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "Even on failure the diagnostic only prints two integers, not which B-ids are missing/extra, so a human fixing a genuine failure has to manually diff -- increasing the chance of an incorrect 'matching' fix that also lands on equal cardinality without true set equality.",
+    "evidence": "scripts/gates/gates.py:160 message is f-string of two counts only; no set difference is computed or surfaced anywhere in gate_atlas_fresh."
+   }
+  ]
+ },
+ {
+  "gate": "gate_framing",
+  "can_still_fail": false,
+  "failure_demo": "Appended the banned phrase \"toward the full SM\" to the tracked root file WORKING_RULES.md and re-ran `python3 scripts/gates/gates.py`; gate_framing reported PASS (\"ok\") despite the banned phrase being present in a governance doc, confirming the file is never scanned.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "gate_framing's file list is a hardcoded 8-name array (scripts/gates/gates.py:55-56) plus os.walk that iterates only over FRAMING_SCOPE_DIRS subdirectories (scripts/gates/gates.py:49-50, :57-63) and never walks ROOT itself, so any root-level .md not in the hardcoded list is invisible to the gate.",
+    "evidence": "scripts/gates/gates.py:55-56 lists CLAIMS.md, README.md, METHOD.md, ARCHITECTURE.md, PROGRESS_LOG.md, CHANGELOG.md, PROVENANCE.md, REPRODUCIBILITY.md \u2014 WORKING_RULES.md, TERMINOLOGY.md, ROADMAP.md absent; `git ls-files` confirms all three are tracked (not gitignored); live injection test (append banned phrase to WORKING_RULES.md, rerun gates.py) produced PASS."
+   }
+  ]
+ },
+ {
+  "gate": "gate_attribution",
+  "can_still_fail": true,
+  "failure_demo": "A commit whose tracked-file diff contains no attribution token, authored with `git commit --author=originaxiom` but carrying a `Co-Authored-By: [seat-tool] ...` trailer in the message body, passes gate_attribution cleanly \u2014 ls-files content scan never sees commit messages and the author-name check only inspects `%an`, not `%B`.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Confirmed by direct read of scripts/gates/gates.py:174-194: gate_attribution() calls `_git('ls-files')` then reads only tracked file contents (line 186), and separately calls `_git('log','-1','--format=%an')` (line 190) for author name only \u2014 no `%B`, `%s`, or `git log <range>` call exists anywhere in the file (grep for '%B' returns zero matches).",
+    "evidence": "scripts/gates/gates.py:175 (ls-files), :186 (_read(rel) content check), :190 (`-1 --format=%an`); `grep -n \"%B\" scripts/gates/gates.py` \u2192 no output."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "Even the author-name check is a single-commit snapshot (`-1`), so it only catches the tip of a push, not any intermediate commit in a multi-commit push range, compounding the message-blindness gap.",
+    "evidence": "scripts/gates/gates.py:190 uses `log -1` with no range/`..` reference despite pushes commonly containing multiple commits."
+   }
+  ]
+ },
+ {
+  "gate": "gate_firewall_oneway",
+  "can_still_fail": true,
+  "failure_demo": "Add a row like `| P020 | ... | see knowledge/K021 ... |` under ## Proven (bypasses via Finding 1: knowledge/ not in the 3-string blacklist), or `| P021 | ... | see TOMBSTONES.md S014 ... |` (bypasses via Finding 2: bare-ID citation has none of the 3 literal path substrings) \u2014 both return (True, []) from gate_firewall_oneway() though CLAIMS.md now cites a never-promotes room as evidence.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Hard-coded 3-string blacklist omits the 4th 'never'-status room (knowledge/) that ARCHITECTURE.md itself defines; the gate's own docstring claims to guard 'no speculative room cited as claim evidence' but silently exempts one of the four.",
+    "evidence": "scripts/gates/gates.py:112 vs ARCHITECTURE.md:38 (knowledge/ row, Promotes to CLAIMS.md? = never)"
+   },
+   {
+    "severity": "HIGH",
+    "mechanism": "Substring match requires the literal folder-path prefix in the row text; the repo's documented citation convention for speculative results is bare-ID (S0NN) or filename (TOMBSTONES.md) without the 'speculations/' prefix, so a compliant-looking citation carries the forbidden semantic content invisibly to the gate's syntax check.",
+    "evidence": "scripts/gates/gates.py:110-113 (literal substrings 'speculations/'/'philosophy/'/'story/') vs speculations/GOVERNANCE.md:18,20 (citation idiom 'TOMBSTONES.md S014', no path prefix)"
+   }
+  ]
+ },
+ {
+  "gate": "gate_append_only",
+  "can_still_fail": true,
+  "failure_demo": "In one commit: (1) rewrite PROGRESS_LOG.md so any prefix of dated entries is replaced by fabricated/edited text while the tail (from some point onward) is left byte-identical to HEAD's tail; (2) add or edit any file docs/progress/*.md (a brand-new file is fine, nothing requires it pre-exist) whose content is exactly HEAD's true original removed prefix (attacker can compute this trivially \u2014 it's just head[:len(head)-n], public git history). Verified by simulating the gate's exact algorithm on a synthetic head/cur/archive: the gate returns (True, ok=True) even though cur's replacement content is pure fabrication ('FABRICATED cover story / nothing happened') and was never checked against anything. The gate only verifies that HEAD's *removed* text is archived somewhere; it never inspects what cur put in its place. Root cause: docs/progress/*.md \u2014 the sole ground truth the gate trusts \u2014 is not itself protected by any append-only/immutability gate (grep of gates.py shows no other gate governs writes to docs/progress/), so it is fully attacker-controlled in the same PR that does the rewrite. Additionally, tests/test_repo_gates.py only calls gates.run_all() against the live healthy repo state (cur.startswith(head) is true today, so the whole roll-up/suffix-match branch is never exercised) \u2014 zero test coverage for the branch this attack lives in.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The gate's roll-up exception verifies 'was the removed text archived' but never verifies 'is the archive itself trustworthy/immutable' or 'does cur's replacement content match anything expected (e.g. being empty)'. Since docs/progress/*.md has no append-only/immutability gate of its own, an attacker can plant a copy of the true removed text into a brand-new or edited archive file in the SAME commit that rewrites PROGRESS_LOG.md's history, laundering an arbitrary rewrite of old entries as a legitimate 'quarterly roll-up'. This defeats the purpose of the gate (protecting historical log integrity) for any edit dressed up as a roll-up.",
+    "evidence": "scripts/gates/gates.py:137-147 (archive built from docs/progress/*.md with no provenance/immutability check on those files); no other gate in GATES dict (gates.py:703-722) references docs/progress writes; confirmed via standalone simulation of the exact algorithm returning ok=True for fabricated cur plus a same-commit planted archive file (see analysis in transcript)."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "The suffix/prefix decomposition only proves 'the tail matches and SOME archived text equals HEAD's removed prefix' \u2014 it never checks that cur's non-suffix region equals '' (the expected post-rollup state, i.e. prefix simply deleted with no replacement) nor that the matched archive text is dated/ordered consistent with an actual rollup event. A verbatim substring match anywhere in the whole concatenated archive corpus is accepted regardless of which file or quarter it came from, so a stale/reused fragment from an unrelated historical rollup could also satisfy the check.",
+    "evidence": "scripts/gates/gates.py:143-147; `ok = moved.strip() in archive` is a bare substring-containment test over the full concatenation of docs/progress/*.md with no per-file/date correlation."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "Archive files are concatenated with no separator between them (`archive += _read(...)`), so in principle a 'moved' string could match only by spanning the tail of one archived file and the head of the next \u2014 a phantom contiguous match that was never a real archived block. Low likelihood given entries begin with '## 20' headers, but it is a structural looseness in the same verbatim-containment check.",
+    "evidence": "scripts/gates/gates.py:138-142, no separator inserted in the archive-accumulation loop."
+   }
+  ]
+ },
+ {
+  "gate": "gate_log_changelog_paired",
+  "can_still_fail": true,
+  "failure_demo": "Repeat the exact B827 failure mode in the OTHER direction: commit an arc that updates PROGRESS_LOG.md only (no CHANGELOG.md touch), then a second arc the same way, etc., for any number of commits, never touching CHANGELOG.md again. Check (2) computes last_log = the most recent commit touching PROGRESS_LOG.md, then counts commits touching CHANGELOG.md in (last_log..HEAD]. Because every one of these PROGRESS_LOG-only commits IS itself the new last_log, the CHANGELOG-commit count relative to that moving reference point is always 0, so the gate reports 'ok (changelog lag 0)' forever -- even though CHANGELOG.md has not been touched in dozens of banked arcs. This is precisely the \"a banked arc updates PROGRESS_LOG but not CHANGELOG\" violation the gate's own docstring says it exists to stop; it is the mirror image of the B827 incident (CHANGELOG racing ahead undetected because LOG was frozen) with the roles of the two files reversed. Verified against the live code at scripts/gates/gates.py:546-558: the lag check only ever measures \"is CHANGELOG ahead of PROGRESS_LOG by >1 commit\"; there is no symmetric check for \"is PROGRESS_LOG ahead of CHANGELOG\". tests/test_b827_progresslog_recovery.py::test_the_gate_still_checks_the_pairing_rule only greps the docstring text (\"commits ahead of PROGRESS_LOG\") rather than exercising this direction, so nothing in the suite would catch a regression or confirm the asymmetry.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Check (2)'s reference point (last_log = most recent commit touching PROGRESS_LOG.md) advances every time PROGRESS_LOG.md is edited, so 'lag' relative to that point resets to near-zero on every such commit. If arcs are banked by writing PROGRESS_LOG.md and forgetting CHANGELOG.md -- the literal scenario the gate's docstring says it must prevent ('PROGRESS_LOG and CHANGELOG must be updated together') -- the moving reference point makes the lag measurement blind in that direction indefinitely. Only the CHANGELOG-ahead direction (the specific 2026-07-29/B827 postmortem shape) is checked.",
+    "evidence": "scripts/gates/gates.py:546-558 -- `last_log = out.strip()` (most recent PROGRESS_LOG.md commit) then `rev-list --count {last_log}..HEAD -- CHANGELOG.md`; only compared against `lag > 1`. No corresponding `rev-list --count {last_changelog}..HEAD -- PROGRESS_LOG.md` check exists."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "The shadow-file walk hardcodes an exclusion list of directory names (.git, audit, legacy, node_modules, __pycache__, veins). 'veins' does not currently exist in the repo; if it is created later as a real working directory (not a sanctioned archive) and a shadow PROGRESS_LOG.md lands inside it, check (1) would silently pass it through -- an unreviewed exclusion for a directory that isn't there to justify it today.",
+    "evidence": "scripts/gates/gates.py:531-533 exclusion list includes 'veins'; confirmed absent from the working tree (`ls veins` -> nothing)."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "Both checks fail-open ('git unavailable -- skipped') whenever the git subprocess errors or returns empty output. This correctly soft-skips a missing git binary, but also silently passes the edge case where PROGRESS_LOG.md exists on disk yet has zero recorded history for that exact path (e.g. added via a history-dropping move/squash) -- the gate reports success rather than flagging an unverifiable state.",
+    "evidence": "scripts/gates/gates.py:547-549: `if rc != 0 or not out.strip(): return True, \"git unavailable -- skipped\"` treats 'no commit history for this path' identically to 'git binary missing'."
+   }
+  ]
+ },
+ {
+  "gate": "gate_claims",
+  "can_still_fail": true,
+  "failure_demo": "Two independently demonstrated gaps. (1) DEMONSTRATED LIVE: inject a fake row into the ## Certified data section, e.g. a row with ID E18 citing tests/test_b999_totally_fake_nonexistent.py as evidence for a fabricated exhibit. gate_claims() still returns (True, []) because its evidence-existence check only scans the text slice between the literal strings '## Proven' and '## Conditional' -- Conditional, Certified data, Open, and Dead sections are never checked for evidence-path existence at all, even though Certified-data (E-id) and Conditional (C-id) rows carry the exact same backtick-wrapped tests/xxx.py evidence convention as Proven rows. (2) STRUCTURAL, read directly from source (no subprocess/pytest call exists anywhere in the function): even inside the Proven section the gate only calls os.path.exists() on the cited path -- it never runs the test. A Proven row whose cited test currently fails an assertion, errors on import, or was hollowed to a no-op pass still passes this gate; the checkmark is asserted by the editor, never verified by execution. Neither gap requires an adversarial actor -- an honest contributor pasting a new E-row with a typo'd filename, or a bit-rotted test that started failing after a refactor, reproduces both.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Evidence-existence check is hard-scoped to text.split('## Proven',1)[-1].split('## Conditional',1)[0] (scripts/gates/gates.py lines 88-91), so it silently never validates evidence paths in Conditional, Certified data (E-ids), Open, or Dead sections -- sections that use the identical tests/xxx.py citation convention. Live-demonstrated: an injected fake E18 row citing a nonexistent test file still passes gate_claims().",
+    "evidence": "scripts/gates/gates.py:88-91; live repro against CLAIMS.md's real ## Certified data section (E1-E17, e.g. row citing frontier/B358_seam_certification / tests/test_b358_seam_certification.py) confirms E-rows use the same citation format but sit entirely outside the checked slice"
+   },
+   {
+    "severity": "HIGH",
+    "mechanism": "The gate never executes any cited test (no subprocess/pytest call anywhere in the function -- confirmed by grepping the whole file). Existence-on-disk is used as a total proxy for 'this claim is locked by a passing test'; a red, error-raising, or gutted test still satisfies the gate as long as the file is present -- the same substitution pattern as Review 36's frozen-timestamp gate (presence/staleness stands in for actual verification).",
+    "evidence": "scripts/gates/gates.py:81-96 (only os.path.exists is called); subprocess is used elsewhere in the file only for git (line 28) and for a different gate, views-generated (line 461) -- gate_claims has zero execution path"
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "Malformed-ID regex requires exact single-space padding around pipes and only matches tokens of the shape [A-Z]+\\d+[a-z]?, so any ID not of that shape (e.g. the real ledger's C-cal row) is silently skipped rather than flagged or explicitly allow-listed; separately the check validates ID format only, never uniqueness, so a duplicated ID such as two P50 rows would pass silently.",
+    "evidence": "scripts/gates/gates.py:93-95; CLAIMS.md's Conditional section has a live C-cal row that the regex never captures, since C-cal does not match [A-Z]+\\d+"
+   }
+  ]
+ },
+ {
+  "gate": "gate_review_actions",
+  "can_still_fail": true,
+  "failure_demo": "In docs/progress/REVIEWS.md, take any superseded review's '### Action items (Review N)' block and write a genuinely-unresolved task as an INDENTED sub-bullet under an already-closed item, e.g.:\n  - [x] item one done\n    - [ ] a sub-bullet that is secretly still open\n  - [x] item two done\nVerified live against the current gate code (scripts/gates/gates.py:237-265): the open-item counter is `re.findall(r\"^- \\[ \\]\", b, re.M)`, anchored to column 0 via `^` with MULTILINE. Any '- [ ]' that isn't flush-left (nested under a parent bullet, an indented sub-task, or inside a blockquote) is invisible to the regex, so `stale_open` stays 0 and the gate reports PASS even though a real open item sits in a superseded block. Confirmed with a standalone repro of the exact split/truncate/regex pipeline: the indented '- [ ]' is silently dropped from the count (0 detected vs 1 actually present). This is the same failure *family* the gate's own docstring names for B844 (a formatting variant the writer didn't anticipate defeats a column/line-anchored pattern) but a different concrete trigger than the one already fixed there (that fix addressed multi-line block *boundaries* via '### Action items' header splitting; it left the per-item detection regex itself column-anchored and untested against indentation).",
+  "drift_risks": [
+   {
+    "severity": "MEDIUM",
+    "mechanism": "Open items must be written as flush-left '- [ ] ...' lines (matched by ^- \\[ \\] under re.M). A nested/indented sub-bullet under a resolved parent item (e.g. '  - [ ] ...') is structurally reasonable markdown for 'mostly done except this loose end' but is invisible to the column-anchored regex, so a real carried-open item recorded that way is silently uncounted and the gate PASSes on a superseded block that actually still has an unresolved item.",
+    "evidence": "scripts/gates/gates.py:260,264 `re.findall(r\"^- \\[ \\]\", b, re.M)`; grep of docs/progress/REVIEWS.md finds zero currently-indented '- [ ]' lines, so this is a live latent gap the gate has never been exercised against, not a currently-tripped bug."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "The block-header split regex `### Action items \\(Review [^)]+\\)\\n` requires the parenthesized label to contain no ')' and be followed immediately by a newline. A future header with a nested parenthesis (e.g. '(Review 38 (rerun))') or trailing whitespace before the newline would fail to match, silently merging that review's action items into the preceding block instead of starting a new split point -- shifting which block is treated as the unchecked 'latest' one.",
+    "evidence": "scripts/gates/gates.py:254 `re.split(r\"### Action items \\(Review [^)]+\\)\\n\", text)`; header format has already drifted once (plain 'Review 32' -> 'Review 32, addendum'), showing label-format drift is an active pattern in this file, not hypothetical."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "When a review's action items are split across two headers appended the same day (main block + 'addendum' block, as happened for Review 32), the earlier sub-block gets pushed out of blocks[-1] (advisory/unchecked) into the strictly-checked blocks[:-1] set as soon as the addendum header exists -- even though both parts belong to the same still-current review cycle. This is a false-tightening rather than fail-open, but shows the 'latest == advisory' boundary is sensitive to how a review chooses to chunk its own action items, not to actual review recency.",
+    "evidence": "scripts/gates/gates.py:258-265 combined with docs/progress/REVIEWS.md:2319 ('### Action items (Review 32)') and :2437 ('### Action items (Review 32, addendum)') -- confirmed via direct execution that both became separate blocks in one split pass, with the first one subjected to the stale-open check."
+   }
+  ]
+ },
+ {
+  "gate": "gate_views_generated",
+  "can_still_fail": true,
+  "failure_demo": "Drop or rename to leave a file in docs/views/ (e.g. ORPHAN.md, or a retired generated view whose key was removed from generate.py's `views` dict at line 271) that is not one of the 4 keys {COVERAGE.md, VERDICT_LEDGER.md, CLOSED_DOORS.md, REVIEWER.md} the generator currently writes; the gate's `before` snapshot (gates.py:456-459) includes it, the subprocess run never touches it, so the post-run re-read (gates.py:464-467) matches `old` and it never lands in `stale`; it's also excluded from `new` (gates.py:468) since it was already a key in `before`. Reproduced live: injecting such a file and running the stale/new logic gives stale=[] new=[] -- PASS -- and the file can subsequently be hand-edited at any time with zero detection since before==after is guaranteed forever.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The gate's notion of 'current' is scoped to the intersection of (files present in docs/views/ at gate-start) and (keys generate.py's `views` dict happens to produce this run); a file present on disk but absent from that dict is invisible to both the stale-check and the new-check permanently.",
+    "evidence": "scripts/gates/gates.py:456-468 (before/stale/new all keyed off `before` or generator-dict membership, never off 'union of everything currently in docs/views/ vs everything the generator can produce'); confirmed by live simulation: stale=[] new=[] for a hand-planted extra .md file."
+   }
+  ]
+ },
+ {
+  "gate": "gate_practices_register",
+  "can_still_fail": true,
+  "failure_demo": "In-sandbox (no repo files touched -- verified with scripts/gates/gates.py loaded as a module and a modified text string held only in memory): add a new entry to GATES, e.g. GATES['new-thing-gate'] = <a vacuous/broken check that always returns True>, and instead of adding a real `| ... | **GATED** | \\`new-thing-gate\\` |` row to docs/PRACTICES.md, just add one throwaway sentence anywhere in the file such as \"Side note: the `new-thing-gate` exists somewhere in the code.\" Direction-2's check is `named = set(re.findall(r\"\\`([a-z0-9-]+)\\`\", text))` run over the WHOLE file, then `missing = [g for g in GATES if g not in named]` (scripts/gates/gates.py:492-496). It only asks whether the gate's key string appears backticked ANYWHERE in docs/PRACTICES.md -- not whether it appears inside a genuine \"**GATED**\" table row that documents the practice. Running the check against the live file with this in-memory addition gives missing == [] and the GATED-row check also reports no problems, i.e. the gate reports a clean PASS while docs/PRACTICES.md has zero real documentation of the new gate/practice. This is exactly the defect class the gate's own docstring says it prevents (\"a gate added WITHOUT a row in the register would make the register quietly incomplete, which is exactly how knowledge/INDEX.md lost four entries\") -- the mechanism doesn't actually require a table row, only an incidental backticked mention anywhere in the file, and PRACTICES.md already contains long historical/postmortem prose sections that name gates in passing, so this is not a contrived corner case.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Direction (2) ('gates absent from the register') is satisfied by any backticked occurrence of a gate's key ANYWHERE in docs/PRACTICES.md -- including narrative/postmortem prose (the file already has such sections, e.g. the 'Restart resistance' and bug-history blocks around lines 169-276) -- not specifically inside a `**GATED**` table row. A future gate can be added to GATES and 'registered' by a single incidental mention with no actual practice-table entry, silently defeating the stated purpose of the gate (catching a register that is 'quietly incomplete').",
+    "evidence": "scripts/gates/gates.py:492-496 (`named = set(re.findall(r\"`([a-z0-9-]+)`\", text)); missing = sorted(g for g in GATES if g not in named)`), demonstrated live against docs/PRACTICES.md and the real GATES dict with an in-memory-only synthetic addition (no repo files modified)."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "Direction (1)'s per-row check ('GATED row names no live gate') is skipped entirely for any `**GATED**` row that cites no backticked name at all (`if cited and not any(...)`: an empty `cited` list is falsy, so the `if` body never runs). A row bolded **GATED** but describing its enforcement in prose only (e.g. docs/PRACTICES.md:75) structurally dodges the row-level cross-check -- the code can't distinguish 'legitimately not a single-gate row' from 'citation silently dropped or wrong'.",
+    "evidence": "scripts/gates/gates.py:498-503, and docs/PRACTICES.md:75 as an existing real instance of a citation-less GATED row."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "The backtick-name regex `[a-z0-9-]+` requires the entire content between a pair of backticks to be lowercase-alnum-hyphen; nothing enforces that GATES keys stay kebab-case, so a future key with an underscore/uppercase would be unextractable from any prose and would trip a (loud, not silent) false-negative rather than a bypass -- a naming-convention assumption baked into the regex with no corresponding lint.",
+    "evidence": "scripts/gates/gates.py:492 and 703-723 (all current GATES keys happen to be kebab-case by convention, not by enforcement)."
+   }
+  ]
+ },
+ {
+  "gate": "gate_append_only",
+  "can_still_fail": true,
+  "failure_demo": "In one commit: (1) rewrite PROGRESS_LOG.md so its retained suffix matches HEAD's tail but earlier dated entries are altered/deleted from the live log, and (2) paste the verbatim original removed text into any docs/progress/*.md file (new or edited) in that same commit's working tree \u2014 gate_append_only reads cur via _read (working tree, not HEAD) and archive via _read over docs/progress/*.md (also working tree), so `moved.strip() in archive` is satisfied even though the archive file was written/edited in the very commit under review and no other gate checks docs/progress/*.md's own history for tampering.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Archive content is read from the current working tree (_read(f\"docs/progress/{f}\")) with no diff against a prior HEAD/tag and no hash pin, so the same commit that mutates PROGRESS_LOG.md can also freely create/edit the archive file that is supposed to be the immutable proof of the original text \u2014 self-referential trust.",
+    "evidence": "scripts/gates/gates.py:137-142 reads docs/progress files via _read(...) (working tree), never via `git show HEAD:docs/progress/...` or a hash/manifest check."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "GATES dict (gates.py:703-722) has no entry that verifies docs/progress/*.md against its own prior committed state, confirming there is genuinely no independent immutability gate for the archive directory as the finding claims.",
+    "evidence": "scripts/gates/gates.py:703-723 \u2014 full GATES dict enumerated, no docs/progress append-only/immutability check present."
+   }
+  ]
+ },
+ {
+  "gate": "gate_log_changelog_paired",
+  "can_still_fail": true,
+  "failure_demo": "Bank an arc by only editing PROGRESS_LOG.md (never touching CHANGELOG.md) on every 'banking' commit; each such commit resets last_log to itself, so rev-list --count last_log..HEAD -- CHANGELOG.md stays 0 forever, and the gate reports lag=0/'ok' even though CHANGELOG.md is never updated -- confirmed by reading scripts/gates/gates.py:546-558 which contains only the CHANGELOG-ahead check with no symmetric PROGRESS_LOG-ahead check.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "reference point (last_log) is defined as the most recent commit touching PROGRESS_LOG.md itself, so every commit that edits PROGRESS_LOG.md (including the 'forget CHANGELOG' banking commits the gate is meant to catch) resets the lag measurement to near-zero, making the exact failure mode described in the gate's own docstring undetectable",
+    "evidence": "scripts/gates/gates.py:546-552 (last_log/rev-list/lag>1 check)"
+   }
+  ]
+ },
+ {
+  "gate": "gate_claims (scripts/gates/gates.py:81-96)",
+  "can_still_fail": true,
+  "failure_demo": "gate_claims still catches a bad citation IF it appears inside the '## Proven'..'## Conditional' slice (the only scope regex-scanned, lines 88-91). But a fabricated tests/xxx.py citation placed in '## Certified data' (confirmed real section at CLAIMS.md:161, using the identical `tests/test_*.py` \u2713 citation convention as Proven rows, e.g. CLAIMS.md:47-56) or in '## Conditional'/'## Open'/'## Dead' is never checked -- os.path.exists is only called on regex matches found inside that Proven-to-Conditional substring. Also, a cited test file that exists on disk but is red/erroring/gutted still passes, since gate_claims never runs a test -- full-file grep confirms subprocess appears only at line 28 (git helper, unrelated) and line 461 (a different gate, views-generated); zero execution path exists inside gate_claims.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Evidence-existence check hard-scoped to the Proven section slice only; Certified data (E-ids), Conditional, Open, and Dead sections use the identical `tests/xxx.py` citation convention but sit entirely outside the checked window, so fabricated/missing evidence paths in those sections silently pass gate_claims(). CONFIRMED.",
+    "evidence": "scripts/gates/gates.py:88-91 (proven = text.split('## Proven',1)[-1].split('## Conditional',1)[0]); CLAIMS.md:161-165 confirms a real '## Certified data' section with E-ids using the same backtick tests/*.py citation format as CLAIMS.md:47-56 Proven rows."
+   },
+   {
+    "severity": "HIGH",
+    "mechanism": "os.path.exists is the sole verification primitive standing in for 'this claim is locked by a passing test'; the gate never subprocess-invokes pytest or any test runner, so a red/erroring/gutted test file still satisfies the gate as long as it is present on disk. CONFIRMED.",
+    "evidence": "scripts/gates/gates.py:81-96 (gate_claims body, only os.path.exists call); full-file grep confirms subprocess used only at line 28 (git helper _git) and line 461 (a separate gate, views-generated) -- zero execution path inside gate_claims."
+   }
+  ]
+ },
+ {
+  "gate": "gate_path_refs",
+  "can_still_fail": true,
+  "failure_demo": "Reproduced exactly: stage a tracked .md citing `frontier/&lt;x&gt;/audit/foo.py`, create that untracked file locally -> gate passes (\"all resolve\"); delete only the untracked file (no code/text change) -> gate flags it UNRESOLVED. Currently no existing tracked .md in the repo actually cites a genuine `.../audit/...` directory path (checked via git ls-files + regex, zero hits; the one near-match `B32_selector_axiom_audit/FINDINGS.md` is a filename substring, not a path component), so the hole is real and demonstrated but not presently exploited by any banked citation.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "os.path.exists() target resolution (check_path_references.py:78-79) combined with the bare, unanchored `audit/` .gitignore line (line 11) lets any citation to a path containing an `audit/` directory component under any of the gate's own whitelisted _DIRS (tests, frontier, docs, scripts, knowledge, papers, speculations, philosophy, story, src) pass while the target is merely untracked-but-present locally, then silently start failing on a fresh clone or after the local file is deleted, with zero code or citation-text change.",
+    "evidence": "scripts/checks/check_path_references.py:60-82 (citers restricted via `git ls-files \"*.md\"`, but targets checked via os.path.exists on the live filesystem, not git-tracked existence); .gitignore:11 bare `audit/`, confirmed via `git check-ignore -v` to match a directory literally named `audit` nested arbitrarily deep, e.g. under frontier/; .github/workflows/core.yml runs only a fixed, named list of pytest files that excludes test_repo_gates.py, scripts/gates/gates.py, and check_path_references.py entirely, so the gate's only execution context is a contributor's local (possibly dirty) working tree \u2014 reproduced live: added tracked citer frontier/B999_probe/CLAIM.md pointing at untracked frontier/B999_probe/audit/foo.py -> gate reported 'all resolve'; then deleted only the untracked target -> gate reported 'UNRESOLVED: 1' for that exact path."
+   }
+  ]
+ },
+ {
+  "can_still_fail": true,
+  "gate": "gate_chain_locks",
+  "failure_demo": "Two independently-constructible ways the target defect (an unlocked or falsely-\"locked\" THEOREM_LEDGER link) sails through:\n\n(1) Header-format drift silently merges a new/edited link into its predecessor. The enumerator is `blocks = re.split(r\"(?=^\\*\\*C\\d+ \\[)\", text, flags=re.M)`, hard-anchored to a line starting with exactly `**C<digits> [`. I reproduced this directly against the live docs/THEOREM_LEDGER.md: appending a new block `~~**C24 [THEOREM \u2014 a fabricated new claim].** ... (no tests/ mention at all) ~~` (e.g. wrapped in strikethrough to mark it superseded, or preceded by a stray blank line/space \u2014 any of the small formatting variations the ledger's own text already shows drifting, e.g. \"COROLLARY of C20\" vs plain \"[LABEL]\") does NOT create a 24th link. `re.split` finds the same 23 blocks before and after; the new, uncited claim gets swallowed into C23's block and inherits C23's already-satisfied `tests/test_b783_c23.py` citation. The gate still prints \"ok (23 links, every non-AXIOM one locked)\" \u2014 a brand-new THEOREM-labeled claim with zero resolvable lock was added and the gate never saw it as a separate link.\n\n(2) The check for each cited lock is `os.path.isfile(...)` only \u2014 it never runs the test or inspects pass/fail. The gate's own docstring states the admission bar is \"exact statement + banked computation location + green lock,\" but \"green\" is never verified anywhere in the gate suite: gate_test_vacuity checks repo-wide structural vacuity (no-assert/tautology) but not CHAIN-specific pass/fail, and no gate executes pytest. So a cited lock file can be present on disk while red, skipped, or gutted to `assert True`, and gate_chain_locks still reports full coverage.\n\nNeither scenario requires editing gates.py \u2014 only ordinary future edits to THEOREM_LEDGER.md or to a cited test file.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Block-split regex `re.split(r\"(?=^\\*\\*C\\d+ \\[)\", text, flags=re.M)` requires the link header to start a line with the exact literal `**C<digits> [`. Any deviation (strikethrough/markup wrapping a retracted entry, a leading blank line from a bad paste, a colon instead of a space, indentation) makes the new block fail to split off; it gets silently absorbed into the PRECEDING link's text, inherits that link's already-satisfied lock citation via the flat `re.findall(r\"tests/(test_...)\\.py)\", b)` over the merged blob, and is never independently checked for a lock of its own.",
+    "evidence": "gates.py:574-575 (split+links); reproduced live against docs/THEOREM_LEDGER.md \u2014 injecting an uncited `~~**C24 [THEOREM...]...~~` block leaves the link count and bad/missing lists unchanged (23 links both before and after)."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "The gate only checks lock-file EXISTENCE (`os.path.isfile`), never execution/pass-fail. The docstring and the ledger's own admission rule (B758, quoted in maintenance footer: 'exact statement + location + green lock') require a GREEN lock, but no gate in GATES anywhere runs pytest or checks test outcome; gate_test_vacuity only screens for structurally-vacuous assertions repo-wide, not chain-cited-lock correctness. A cited test can be failing, skipped/xfailed, or reduced to a stub and this gate still reports full coverage.",
+    "evidence": "gates.py:586-588 (`if not os.path.isfile(...)`); grep of GATES dict (gates.py:703-723) shows no gate invokes the test runner."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "No cross-check against the arc's own frontier/*/arc_verdict.json. A CHAIN link can keep citing a lock file belonging to an arc whose verdict has since flipped to RETRACTED (mechanism corrected/withdrawn) while the test file itself stays on disk (and may even still pass, since retraction is often about interpretation, not the computation the test checks) \u2014 this gate would still call it locked. This is the same shape as Review 37's missing-verdict concern, though gate_chain_locks itself never touches frontier/ or arc_verdict.json, so it is adjacent to but not overlapping that candidate gate.",
+    "evidence": "10 frontier/*/arc_verdict.json files currently RETRACTED in the repo (e.g. B780, B90, B702); C21's own prose in docs/THEOREM_LEDGER.md explicitly narrates a prior 'mechanism corrected 2026-07-25' retraction event of exactly this kind (B780/B784), demonstrating the event class is live even though B780 is not itself cited as a CHAIN lock today."
+   }
+  ]
+ },
+ {
+  "gate": "gate_practices_register",
+  "can_still_fail": true,
+  "failure_demo": "Add a new key to GATES (e.g. 'foo-gate') and mention it anywhere in PRACTICES.md prose inside backticks (e.g. a narrative sentence like 'the foo-gate check...') without adding a **GATED** table row for it; gate_practices_register() still reports 'ok' because `named = set(re.findall(r\"`([a-z0-9-]+)`\", text))` scans the WHOLE file text, not lines containing **GATED**.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The regex `re.findall(r\"`([a-z0-9-]+)`\", text)` at gates.py:492 runs over the full PRACTICES.md text (read at line 491), so any backticked token matching `[a-z0-9-]+` anywhere in the file -- prose, postmortems, restart-resistance notes -- satisfies membership in `named`, and the direction-(2) check at line 494 (`missing = sorted(g for g in GATES if g not in named)`) only tests set membership, never checks the mention sits in a **GATED** table row.",
+    "evidence": "scripts/gates/gates.py:491-496; live in the real repo: `practices-register` (a real GATES key, gates.py:718) has NO **GATED** table row in docs/PRACTICES.md (grep for 'GATED**' shows rows for the other 18 gates but none for practices-register), yet it appears only in narrative prose at docs/PRACTICES.md:276 and :317; running gate_practices_register() against current repo state returns True, 'ok (19 gates all registered)' -- the exact defeat the finding describes is already occurring, not merely hypothetical."
+   }
+  ]
+ },
+ {
+  "gate": "gate_atlas_lexicon_current",
+  "can_still_fail": true,
+  "failure_demo": "Bank a new arc, e.g. frontier/B887_something/FINDINGS.md, whose text matches none of the 18 lexicon motifs (a real object-topic gap, or an un-triaged INSTRUMENT arc) and is >=2000 bytes. Do NOT rerun `python scripts/atlas/atlas.py` (nothing forces this -- .github/workflows/core.yml never runs gates.py or atlas.py, and WORKING_RULES.md only says to run gates.py 'before banking', not atlas.py). Then run `python3 scripts/gates/gates.py`. Because gate_atlas_lexicon_current builds `blind_all` purely from `probes = atlas_data.json[\"probes\"]` (gates.py:660,678), and B887 is not a key in that dict at all (atlas_data.json still ends at B885/B886), the arc is invisible to the whole computation -- it never enters blind_all, never gets checked against BLIND_ARCS.md, and the gate reports 'ok' while a genuinely blind, untriaged arc sits in the repo. This is structurally the same class as the Review 36 findings: the gate's true guarantee ('every substantial blind arc is triaged') silently degrades to 'every substantial blind arc THAT HAPPENS TO BE MINED INTO atlas_data.json is triaged', and nothing signals the degradation.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "atlas_data.json is a hand-triggered generated cache (scripts/atlas/atlas.py, run manually per its own docstring 'Run: python scripts/atlas/atlas.py'). The gate has zero freshness check against it: no mtime comparison to frontier/, no count/hash cross-check, no CI step that regenerates it. Any arc banked without a follow-up atlas.py run is structurally invisible to blind_all (gates.py:657-660,678), so a genuinely blind FINDINGS.md silently passes. Today the repo happens to be in sync (probes cover through ~B885-886, matching frontier/) only because someone manually ran atlas.py recently -- there is no mechanism guaranteeing that stays true.",
+    "evidence": "scripts/gates/gates.py:656-660 (path check is only os.path.isfile, not freshness) and :678 (blind_all scoped to probes.items() keys only); scripts/atlas/atlas.py:11 ('Run: python scripts/atlas/atlas.py # mines -> atlas_data.json'); .github/workflows/core.yml runs a fixed pytest list only, never gates.py or atlas.py; confirmed atlas_data.json probe keys currently top out at B885 while frontier/ already contains B886 (frontier/B886_matter_pencil, no FINDINGS.md yet so not a live failure today, but the gap is real and becomes live the moment such an arc gets a substantial off-lexicon FINDINGS.md before atlas.py is rerun)."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "_size(aid) globs frontier/{aid}_* and returns the size of the first matching directory's FINDINGS.md, or 0 if none match / file absent. If an arc id is ever reused/duplicated across two frontier directories, or FINDINGS.md is temporarily absent while an arc is in progress, _size silently returns 0, classifying the arc as 'thin' and excluding it from triage entirely -- a soft fail-open on missing input rather than a hard failure.",
+    "evidence": "scripts/gates/gates.py:671-676."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "The triage-row regex r\"^\\| `(B\\d+)` \\| \\*?\\*?(GAP|INSTRUMENT)\" is anchored to one literal table format (backtick id, up to two leading asterisks, exact token). It matches every current row, but a future reformat (markdown link around the id, lowercase disposition, extra leading whitespace, a third disposition value) would make a row silently fail to parse. Unlike the HIGH risk above this fails CLOSED (arc reads as untriaged), so it is the safe direction, but it is still a latent break point matching Review 36's regex-fragility pattern.",
+    "evidence": "scripts/gates/gates.py:682-683."
+   }
+  ]
+ },
+ {
+  "gate": "gate_chain_locks",
+  "can_still_fail": true,
+  "failure_demo": "Insert an uncited entry as `~~**C24 [THEOREM] ...~~` (or any variant not literally starting a line with `**C<digits> [`) anywhere after an existing link in docs/THEOREM_LEDGER.md \u2014 the gate reports the same 23 links, empty bad/missing lists, and passes, silently never checking the new entry.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "re.split lookahead `(?=^\\*\\*C\\d+ \\[)` only fires on an exact literal line-start match; any wrapper (strikethrough, indentation, blank-line paste artifact, punctuation swap) causes the new block to merge into the preceding link's text instead of becoming its own block.",
+    "evidence": "scripts/gates/gates.py:574-575"
+   },
+   {
+    "severity": "HIGH",
+    "mechanism": "Because bad/missing detection runs `re.findall` over each merged block rather than per-declared-link, a merged (unsplit) block inherits the preceding link's already-satisfied `tests/test_*.py` citation and is never independently checked for its own lock -- confirmed live: injecting an uncited `~~**C24 [...~~` block leaves link count (23) and bad/missing lists (empty) unchanged before and after.",
+    "evidence": "reproduced against /Users/dri/origin-axiom/docs/THEOREM_LEDGER.md via scripts/gates/gates.py:574-596 logic"
+   }
+  ]
+ },
+ {
+  "gate": "gate_law_map_provenance",
+  "can_still_fail": true,
+  "failure_demo": "Appended a synthetic row to docs/LAW_MAP.md citing a fabricated arc: `| **A FABRICATED LAW citing a deleted arc** | totally made up | THEOREM | B701 cell 9 (never existed) | \u2014 |`. Ran the gate's own row-extraction + noarc logic against the modified text: noarc count stayed 0, i.e. the row is accepted as 'traceable' even though `frontier/B701_*` does not exist on disk (verified: `glob.glob('frontier/B701_*')` -> `[]`) and git history shows B701/B784/B788/B792 were later folded into the renumbered B796 campaign (commit 87d7f270 'campaign renumbered B796'). The gate's 'traceable to arc' invariant is satisfied by regex `\\bB\\d{2,3}\\b` matching ANYWHERE in the row text -- it never resolves the captured number against `frontier/`, `docs/atlas/`, or any other registry of arcs that actually exist. A hand-typo'd, hallucinated, or since-consolidated/deleted arc number passes identically to a real, live one. Separately confirmed the match is column-blind: a `\\bB\\d{2,3}\\b` token in the 'upgrade path' (aspirational future work) column satisfies the same check as one in 'witnesses' (actual computation), so a currently-unbacked claim whose only B-number is a wishlist reference to future work also reads as 'traceable'.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "The arc-citation check (`re.search(r'\\bB\\d{2,3}\\b', r)`) is purely syntactic: it confirms a B-number-shaped token is present in the row's text, never that it resolves to a real `frontier/B<n>_*/` directory, a FINDINGS.md, or any other artifact. As arcs get consolidated/renumbered/pruned (already observed: B701/B784/B788/B792 -> folded into B796, dirs gone from the working tree), old LAW_MAP rows keep citing the now-nonexistent numbers and the gate cannot tell the difference between that and a fabricated citation typed by mistake or by an over-eager seat. This is the exact class of defect (Review 37: missing/absent verdict artifact) the gate's own docstring claims to guard against ('so any row can be traced to the computation behind it') but the implementation never performs the resolution step. Adjacent to Review 37's proposed arc_verdict.json sibling gate: even if that gate is adopted, it only covers currently-existing frontier/B*/FINDINGS.md dirs -- it does nothing for LAW_MAP citations pointing at dirs that have already been deleted/consolidated, which is precisely this gate's blind spot.",
+    "evidence": "scripts/gates/gates.py:615 `noarc = [r for r in rows if not re.search(r\"\\bB\\d{2,3}\\b\", r)]`; confirmed empirically that a synthetic row citing a nonexistent `frontier/B701_*` passes; git log shows B701/B784/B788/B792 directories were consolidated away under commit 87d7f270 while LAW_MAP.md (docs/LAW_MAP.md lines 120-125, 215-216) still cites those bare numbers in prose."
+   },
+   {
+    "severity": "LOW",
+    "mechanism": "The lock-brokenness check only fires on paths matching `tests/(test_[a-z0-9_]+\\.py)` (lowercase, underscore-only). Every current lock filename in tests/ happens to satisfy that character class, so it doesn't currently miss anything, but a future lock filename using a hyphen, a mixed-case segment, or a lock cited without the literal `tests/` prefix would silently fail to be extracted -- meaning a row that claims a lock which doesn't actually exist would go unchecked rather than being flagged 'broken'. This is a narrower, currently-dormant version of the same fail-open pattern as the primary finding: format drift in the artifact, not the checker, is what would let it through.",
+    "evidence": "scripts/gates/gates.py:616-617; `ls tests/*.py` shows 100% of current filenames match `[a-z0-9_]+`, so the gap is real but unexercised today."
+   }
+  ]
+ },
+ {
+  "gate": "gate_atlas_lexicon_current",
+  "can_still_fail": true,
+  "failure_demo": "Write a FINDINGS.md >=2000 bytes into frontier/B886_matter_pencil/ (or any future arc) whose text matches none of the 18 lexicon regex sets, without re-running scripts/atlas/atlas.py; gate_atlas_lexicon_current only iterates probes.items() from the stale atlas_data.json cache and would never see the new arc, so blind_all/blind/untriaged never picks it up and the gate passes green despite a real, undetected blind arc.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "atlas_data.json is a hand-run cache with zero automated regeneration or freshness check (isfile only) against frontier/; any arc banked after the last manual `python scripts/atlas/atlas.py` run is structurally invisible to the gate no matter how off-lexicon its FINDINGS.md is.",
+    "evidence": "scripts/gates/gates.py:651-653 `if not os.path.isfile(p): return False,...` (no mtime/hash/count check); scripts/atlas/atlas.py:11 'Run: python scripts/atlas/atlas.py'; .github/workflows/core.yml has zero references to gates.py or atlas.py (grep confirmed)."
+   },
+   {
+    "severity": "MEDIUM",
+    "mechanism": "The gap is already live in nascent form: frontier/B886_matter_pencil exists but atlas_data.json's probe keys top out at B885, confirmed by direct JSON load (max key = 885, no B886).",
+    "evidence": "ls frontier/ shows B886_matter_pencil; python json.load on scripts/atlas/atlas_data.json shows max probe number 885; B886 currently has no FINDINGS.md so _size() returns 0 and the gate does not yet fail on it, but the moment one is added the drift becomes a silent pass."
+   }
+  ]
+ },
+ {
+  "gate": "gate_law_map_provenance",
+  "can_still_fail": true,
+  "failure_demo": "The gate's `noarc` check is a bare regex `\\bB\\d{2,3}\\b` with no directory/artifact resolution (scripts/gates/gates.py:615): a synthetic row citing a nonexistent 'B999' matches the regex and passes trivially (verified via python re.search). Independently confirmed frontier/B701_*, frontier/B784_*, frontier/B788_*, frontier/B792_* directories are ABSENT from the current working tree (`ls frontier/ | grep -E` returns nothing, exit 1), while docs/LAW_MAP.md still cites bare 'B701' repeatedly (lines 120-160+) and previously cited B784/B788/B792, now folded into B796 (git log confirms B792_maass_m004_eigenvalues material was absorbed into B793-B799 after commit 87d7f270, \"B792 gate items closed + cc prediction refuted; campaign renumbered B796\"). The gate cannot distinguish a row citing a real-but-now-consolidated arc from one citing a fabricated arc \u2014 both pass identically since arc-citation checking never touches the filesystem, only the separate `tests/test_*.py` lock check does.",
+  "drift_risks": [
+   {
+    "severity": "HIGH",
+    "mechanism": "Arc renumbering/consolidation (already observed for B701/B784/B788/B792 -> B796) leaves stale citations in LAW_MAP that the gate cannot distinguish from typos or fabricated citations, silently degrading the docstring's claim that 'any row can be traced to the computation behind it'.",
+    "evidence": "scripts/gates/gates.py:615 regex-only check `re.search(r\"\\bB\\d{2,3}\\b\", r)`; frontier/ directory listing shows B701_*, B784_*, B788_*, B792_* absent while docs/LAW_MAP.md:120-160 still cites B701 as prose; git log commit 87d7f270 shows B792 material absorbed into B793-B799."
+   }
+  ]
+ }
+]

@@ -1,5 +1,9 @@
 # Changelog
 
+## B887 — R37-1 executed: the gate audit (workflow panel) — two live-demonstrated holes, four repairs, gate #20 born
+- **37 agents, ~5.5 minutes**: every gate audited adversarially. Two live holes in binding instruments that three decadal reviews missed: **gate_framing never scanned WORKING_RULES.md** (banned-phrase injection passed); **gate_claims never validated evidence outside the Proven slice** (fake E-row passed). Also atlas-fresh's cancellation-blind cardinality; the ungated B877 lesson.
+- **Repairs banked**: framing scans all root *.md; claims scans the whole ledger; atlas-fresh set-equality; **new gate #20 `arc-verdicts`** — which immediately caught P3_depth_exposure and then its own arc. All 20 pass. ~35 remaining HIGHs = the R38 repair queue, preserved in-arc. 6 locks. 
+
 ## B885 — the inter-breaking dictionary: two structural laws, uniform across all three Galois pairs
 - The same 27 graded by all three measurement frames; all pairwise tables, oblique. **LAW 1 (vacuum-to-Higgs): each frame's singlet lies ENTIRELY in every other frame's 10-block** ([0,1,0] exactly; zeros ≤ 10⁻²¹; the reason exact — the singlet is a Π-weight vector, its cross-frame position forced by tri(ℂ)-weight geometry). **LAW 2: no frame's 16 touches another frame's singlet.** The zero pattern is S₃-uniform; the nonzero magnitudes are not (recorded, unclaimed). Fine 11×11: 13/121 zeros, pattern-only.
 - Flagged unweighted: Law 1 = the first entry of an across-breakings dictionary for the generations reading; both laws queued for exact proof via the Π-weight argument. **No mixing matrix of values computed or claimed.** 6 locks. Gate 5 untouched.

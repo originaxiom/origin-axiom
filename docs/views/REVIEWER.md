@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **809** |
-| words of findings prose | **528,553** |
-| test lock files referenced | **548** |
-| arcs carrying an authored verdict | **796** (98.4 %) |
+| research arcs with findings | **810** |
+| words of findings prose | **528,967** |
+| test lock files referenced | **550** |
+| arcs carrying an authored verdict | **797** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 498 |
+| PROVED | 499 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B885`** (451 words, 1 locks)  
-The inter-breaking dictionary on the 27 -- the same 27 graded by all three measurement frames, all pairwise tables computed obliquely. TWO STRUCTURAL LAWS, uniform across the three Galois pairs, zeros at 1e-21 to 1e-26: LAW 1 (vacuum-to-Higgs) -- each frame's 27-singlet lies ENTIRELY inside every other frame's 10-block ([0, 1, 0] rows exactly; the reason exact: the singlet is a Pi-weight vector, its position in any other frame forced by tri(C)-weight geometry) -- one measurement's vacuum axis IS a Higgs-block direction of every other measurement; LAW 2 (16/vacuum exclusion) -- no frame's 16 touches another frame's singlet direction. The 10 spreads over all three blocks; the zero PATTERN is S3-uniform while the nonzero magnitudes are NOT (recorded as computed, no symmetry claimed). Fine 11x11 table: 13/121 zeros, convention-carrying, pattern only. Flagged unweighted: Law 1 is the natural first entry of an across-breakings dictionary for the generations reading; the Pi-weight argument should make both laws exact theorems (exact-proof lane). Nothing resembling a mixing matrix of values computed or claimed.  
-`B885_interbreaking/FINDINGS.md`
+**PROVED — `B887`** (414 words, 2 locks)  
+R37-1 executed as a WF-PANEL (37 agents, ~5.5 min): the could-it-still-fail audit of all 19 governance gates -- ~40 HIGH drift findings including TWO LIVE-DEMONSTRATED holes (a banned phrase injected into WORKING_RULES.md passed gate_framing, whose hardcoded 8-name list never scanned root files; a fake E-row citing a nonexistent test passed gate_claims, whose scan was Proven-slice-only), plus atlas-fresh's cancellation-blind cardinality check and the ungated B877 verdict lesson. FOUR REPAIRS BANKED: framing scans all root *.md; claims validates citations over the whole ledger (execution stays the suite's job, rationale in-source); atlas-fresh uses set equality with named diffs; NEW GATE #20 arc-verdicts (FINDINGS => sibling arc_verdict.json; 14 grandfathered as frozen constants) -- which immediately caught P3_depth_exposure (missed by shell globs) and then ITS OWN ARC before this verdict file was written. All 20 gates pass; the remaining ~35 HIGH findings registered as a prioritized R38 repair queue in-arc with full per-gate reports preserved. The WF-PANEL lane verdict: two live holes in binding instruments that three decadal reviews had not found, in five and a half minutes.  
+`B887_gate_audit/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

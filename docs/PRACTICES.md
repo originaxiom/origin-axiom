@@ -50,6 +50,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Every `knowledge/K*.md` indexed, and every indexed K-number has a file | **GATED** | `knowledge-index` |
 | Every backticked repo-path citation resolves | **GATED** | `path-refs` |
 | The atlas is regenerated when arcs change | **GATED** | `atlas-fresh` |
+| Every frontier arc with a FINDINGS.md carries a sibling `arc_verdict.json` (the B877 lesson: a banking retry resumed past the failed verdict step) | **GATED** | `arc-verdicts` |
 | `PROGRESS_LOG` and `CHANGELOG` are updated together | **GATED** | `log-changelog-paired` |
 
 ### Claims and the firewall

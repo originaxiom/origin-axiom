@@ -52,8 +52,11 @@ FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "speculations",
 
 def gate_framing():
     hits = []
-    files = ["CLAIMS.md", "README.md", "METHOD.md", "ARCHITECTURE.md", "PROGRESS_LOG.md",
-             "CHANGELOG.md", "PROVENANCE.md", "REPRODUCIBILITY.md"]
+    # R37-1 repair: scan ALL root-level .md files, not a hardcoded name list --
+    # the audit injected a banned phrase into WORKING_RULES.md and this gate passed
+    # (root files outside the old 8-name list were never scanned).
+    files = sorted(n for n in os.listdir(ROOT)
+                   if n.endswith(".md") and os.path.isfile(os.path.join(ROOT, n)))
     for d in FRAMING_SCOPE_DIRS:
         for dirpath, _dirs, names in os.walk(os.path.join(ROOT, d)):
             if ".git" in dirpath or "__pycache__" in dirpath:
@@ -84,11 +87,14 @@ def gate_claims():
     for sec in ("## Proven", "## Conditional", "## Open", "## Dead"):
         if sec not in text:
             problems.append(f"missing section {sec!r}")
-    # every proven row must cite an existing tests/ file
-    proven = text.split("## Proven", 1)[-1].split("## Conditional", 1)[0]
-    for m in re.finditer(r"`(tests/[A-Za-z0-9_./]+\.py)`", proven):
+    # R37-1 repair: every cited tests/ file anywhere in the ledger must exist --
+    # the audit placed a fake E-row citing a nonexistent test in ## Certified data
+    # and the old Proven-slice-only scan passed it. (Execution of the tests is BY
+    # DESIGN the suite's job -- tests/test_repo_gates.py runs with every merge --
+    # this gate owns citation integrity, not test verdicts.)
+    for m in re.finditer(r"`(tests/[A-Za-z0-9_./]+\.py)`", text):
         if not os.path.exists(os.path.join(ROOT, m.group(1))):
-            problems.append(f"proven evidence missing: {m.group(1)}")
+            problems.append(f"evidence missing: {m.group(1)}")
     # row IDs well-formed in the four classic tables
     for row_id in re.findall(r"^\| ([A-Z]+\d+[a-z]?) \|", text, flags=re.M):
         if not re.fullmatch(r"(P|C|O|D|E)\d+[a-z]?", row_id):
@@ -149,15 +155,49 @@ def gate_append_only():
 
 # --- gate: atlas freshness (the automatic-update invariant) --------------------------------
 def gate_atlas_fresh():
+    # R37-1 repair: SET equality, not cardinality -- opposite-direction drift
+    # (one stale entry + one missing entry) used to cancel silently.
     data = json.loads(_read("scripts/atlas/atlas_data.json"))
-    n_atlas = len(data["probes"])
+    atlas_ids = set(data["probes"].keys())
     fdir = os.path.join(ROOT, "frontier")
     ids = set()
     for name in os.listdir(fdir):
         m = re.match(r"(B\d+[a-z]?)", name)
         if m and os.path.isfile(os.path.join(fdir, name, "FINDINGS.md")):
             ids.add(m.group(1))
-    return n_atlas == len(ids), f"atlas={n_atlas} distinct-B-dirs={len(ids)}"
+    extra = sorted(atlas_ids - ids)[:5]
+    miss = sorted(ids - atlas_ids)[:5]
+    ok = not extra and not miss
+    return ok, f"atlas-only={extra} dirs-only={miss}" if not ok else "ok"
+
+
+
+
+# --- gate: arc verdicts (R37-1; the B877 lesson) -------------------------------------------
+# Every frontier arc with a FINDINGS.md must carry a sibling arc_verdict.json -- Review 37
+# found B877's verdict silently missing after a banking chain died mid-way and the retry
+# resumed past the failed step. Grandfathered: the 13 arcs predating the verdict convention
+# (frozen constants per GOVERNANCE house rule; additions require a logged amendment).
+VERDICT_GRANDFATHERED = {
+    "B58_stage1", "B834_wave3b", "B835_lock_repairs", "B836_route_negatives",
+    "B837_file_drawer_audit", "B838_lexicon_regrounding", "B839_b685_residue",
+    "B840_close_loose_ends", "B841_provenance_pass", "B842_face_attachment",
+    "B845_spectral_inventory", "B89T_tower_route", "B89_sl4_symbolic_M4L",
+    "P3_depth_exposure",   # cc3 stratum harvest 2026-07-22, pre-verdict-convention
+}
+
+
+def gate_arc_verdicts():
+    fdir = os.path.join(ROOT, "frontier")
+    missing = []
+    for name in sorted(os.listdir(fdir)):
+        d = os.path.join(fdir, name)
+        if not os.path.isdir(d) or name in VERDICT_GRANDFATHERED:
+            continue
+        if os.path.isfile(os.path.join(d, "FINDINGS.md")) and \
+                not os.path.isfile(os.path.join(d, "arc_verdict.json")):
+            missing.append(name)
+    return not missing, missing[:8] or "ok"
 
 
 # --- gate: attribution hygiene -------------------------------------------------------------
@@ -706,6 +746,7 @@ GATES = {
     "firewall-oneway": gate_firewall_oneway,
     "append-only": gate_append_only,
     "atlas-fresh": gate_atlas_fresh,
+    "arc-verdicts": gate_arc_verdicts,
     "attribution": gate_attribution,
     "tracked-forbidden": gate_tracked_forbidden,
     "review-actions": gate_review_actions,

@@ -1,0 +1,10 @@
+{
+ "id": "B887",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "R37-1 executed as a WF-PANEL (37 agents, ~5.5 min): the could-it-still-fail audit of all 19 governance gates -- ~40 HIGH drift findings including TWO LIVE-DEMONSTRATED holes (a banned phrase injected into WORKING_RULES.md passed gate_framing, whose hardcoded 8-name list never scanned root files; a fake E-row citing a nonexistent test passed gate_claims, whose scan was Proven-slice-only), plus atlas-fresh's cancellation-blind cardinality check and the ungated B877 verdict lesson. FOUR REPAIRS BANKED: framing scans all root *.md; claims validates citations over the whole ledger (execution stays the suite's job, rationale in-source); atlas-fresh uses set equality with named diffs; NEW GATE #20 arc-verdicts (FINDINGS => sibling arc_verdict.json; 14 grandfathered as frozen constants) -- which immediately caught P3_depth_exposure (missed by shell globs) and then ITS OWN ARC before this verdict file was written. All 20 gates pass; the remaining ~35 HIGH findings registered as a prioritized R38 repair queue in-arc with full per-gate reports preserved. The WF-PANEL lane verdict: two live holes in binding instruments that three decadal reviews had not found, in five and a half minutes.",
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, workflow wf_817231d1 (2026-08-04)"
+}
