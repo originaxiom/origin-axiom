@@ -22,6 +22,9 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 
 ## The catalog
 
+> **THE STRUCTURE→NATURE MASTERPLAN registered (2026-08-04)** — `docs/STRUCTURE_TO_NATURE_MASTERPLAN.md`;
+> W1–W10, three horizons, execution lanes encoded. Supersedes ad-hoc queue notes above where they overlap.
+
 > **Review-37 note (2026-08-03).** Scoped stale-check clean for the B848–B877 window (the
 > long-standing OPEN rows belong to other subsystems). New standing joint-queue leads (with
 > the solo seat): the **across-breakings O3 reformulation**; **descent stage 2** (the graded
