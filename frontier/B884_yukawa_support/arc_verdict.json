@@ -1,0 +1,13 @@
+{
+ "id": "B884",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The invariant cubic on the 27 and the SM-graded Yukawa-support table -- the B883 instrument's first product. THE CUBIC, EXACT: the unique e6-invariant in Sym^3(27) solved over Q from the invariance equations -- 45 weight-zero triples, support 45/45, EVERY coefficient +-1, nullspace dim exactly 1 (the J3(O) determinant in the B854 frame, unit structure constants inherited not chosen). THE GRADING at the enhancement point: 27 -> [1 | 3,3,2,2 | 6,3,3,2,1,1] (singlet; the so(10)-vector as the Higgs block (3,1)+(3bar,1)+(1,2)+(1,2); the 16's SM multiplets). THE TABLE, gap-classified with a calibration control (random dense vectors 0.017-0.18): a 7.7-ORDER GAP splits 11 coupled cells from 275 exact zeros, and the 11 account exactly for the classic 27^3 > 16.16.10 + 1.10.10 SM-refined -- two [2,3,6] up/down-Yukawa shapes, three lepton/mu-term cells ([1,2,2]-type, RECOVERED by the full-precision fix after float64 charges corrupted the first pass), [3,3,3] ucdcT, [3,6,6] qqT, three singlet-triplet cells; charge sums <= 1e-21 throughout. HONEST: only the zero/nonzero support is basis-invariant -- the magnitude hierarchy is sampling-dependent and NOT claimed; no values, no textures; exact per-cell vanishing proof is priced follow-up.",
+ "depends_on": [
+  "B876",
+  "B883"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

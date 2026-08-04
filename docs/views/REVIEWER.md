@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **806** |
-| words of findings prose | **527,464** |
-| test lock files referenced | **545** |
-| arcs carrying an authored verdict | **793** (98.4 %) |
+| research arcs with findings | **808** |
+| words of findings prose | **528,102** |
+| test lock files referenced | **547** |
+| arcs carrying an authored verdict | **795** (98.4 %) |
 | recorded closures | **730** (563 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 495 |
+| PROVED | 497 |
 | NEGATIVE | 260 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B882`** (642 words, 1 locks)  
-THE TILING HAS A CLASSICAL NAME -- M(O,C), the Freudenthal-Vinberg magic square entry: a 10-agent five-angle prior-art workflow (search + verify, verbatim-quote discipline) confirms the decomposition e6 = tri(O) + tri(C) + 3x(O tensor C) = so(8)+u(1)^2+3x16 verbatim in Landsberg-Manivel (their verify agent: 'exactly the user's decomposition'), Barton-Sudbery 2003, and Elduque 2007 whose bracket [iota_i, iota_{i+1}] = iota_{i+2} is the published prototype of the cyclic law (Z/3 as published; the full S3 needs its own line); tri(C) = u(1)^2 (a secondary-source 'so(3)' caught by the verify stage's own dimension arithmetic); even the fold (one copy into so(10), the other two = the 16+16bar) is in Boyle 2020. The triality<->three-generations SPECULATION goes back to Ramond 1977 (DVT, Boyle, Furey live today -- all postulate or speculate the frame, none derives it). NOVELTY SCOPED: ours = the SELECTION mechanism (the object's superselection torus derives the frame, with the exact S3 cubic and its arithmetic), the descent's two-sided verdict, and the now-well-posed KMRT question (the charge field as the cubic etale algebra of a trialitarian structure over Q -- the classical scaffolding for 'the arithmetic S3 IS the geometric S3'). Also names the soft plane: the chirality-switch charges span tri(C) -- the c-carried-into-theta crux gains a concrete home.  
-`B882_magic_square_naming/FINDINGS.md`
+**PROVED — `B884`** (357 words, 1 locks)  
+The invariant cubic on the 27 and the SM-graded Yukawa-support table -- the B883 instrument's first product. THE CUBIC, EXACT: the unique e6-invariant in Sym^3(27) solved over Q from the invariance equations -- 45 weight-zero triples, support 45/45, EVERY coefficient +-1, nullspace dim exactly 1 (the J3(O) determinant in the B854 frame, unit structure constants inherited not chosen). THE GRADING at the enhancement point: 27 -> [1 | 3,3,2,2 | 6,3,3,2,1,1] (singlet; the so(10)-vector as the Higgs block (3,1)+(3bar,1)+(1,2)+(1,2); the 16's SM multiplets). THE TABLE, gap-classified with a calibration control (random dense vectors 0.017-0.18): a 7.7-ORDER GAP splits 11 coupled cells from 275 exact zeros, and the 11 account exactly for the classic 27^3 > 16.16.10 + 1.10.10 SM-refined -- two [2,3,6] up/down-Yukawa shapes, three lepton/mu-term cells ([1,2,2]-type, RECOVERED by the full-precision fix after float64 charges corrupted the first pass), [3,3,3] ucdcT, [3,6,6] qqT, three singlet-triplet cells; charge sums <= 1e-21 throughout. HONEST: only the zero/nonzero support is basis-invariant -- the magnitude hierarchy is sampling-dependent and NOT claimed; no values, no textures; exact per-cell vanishing proof is priced follow-up.  
+`B884_yukawa_support/FINDINGS.md`
 
 **NEGATIVE — `B854`** (1200 words, 1 locks)  
 The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).  

@@ -18454,6 +18454,35 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B883": {
+   "slug": "the 27",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [
+    "B854"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B884": {
+   "slug": "yukawa support",
+   "motifs": [
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B876",
+    "B883"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B88": {
    "slug": "sl4 census",
    "motifs": [

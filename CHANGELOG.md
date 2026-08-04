@@ -1,5 +1,9 @@
 # Changelog
 
+## B883 + B884 — THE 27 built (all signs inherited, verified on 6084 pairs exactly) and the Yukawa-support table: 11 cells, the E₆ classic SM-refined
+- **B883, the instrument**: e₇ by the B854 recipe; the e₆ inside is B854's frame **verbatim** (cocycle restriction — predicted, then checked on 3000 pairs); the 3-grading hands over the 27 with every sign inherited; **ρ([x,y]) = [ρx,ρy] on all 6084 basis pairs in exact integers**; minuscule, dominant ω₁; validated [1,10,16] at the enhancement point. `rep27.json` is the instrument.
+- **B884, the first product**: the unique invariant cubic — **45 monomials, all ±1, exact** (J₃(𝕆) det in our frame); the SM grading [1 | 3,3,2,2 | 6,3,3,2,1,1]; the support table with a calibration control and a **7.7-order gap**: **11 coupled cells vs 275 exact zeros = 16·16·10 ⊕ 1·10·10 SM-refined** (up/down-Yukawa shapes, the µ-term cells — recovered by the full-precision fix — the u^c d^c-triplet, qq-triplet, singlet–triplet cells). Only the support is claimed; magnitudes are not. 4+5 locks. Gate 5 untouched.
+
 ## B880 — the module-level magic-square signature: Hom-matrix diag(4,4,4), zeros off-diagonal
 - The computational half of the M(𝕆,ℂ) naming: so(8) = derived(core) dim 28 exact; each sector splits [8,8] under the plane charge (the 𝕆⊗ℂ pair); **all six cross-Homs vanish with certificates ≤ 4×10⁻²⁷**, all three self-Homs = 4 = M₂ of an irreducible-8 pair. **The three sectors are pairwise-inequivalent so(8)-modules — the three triality frames** — exactly what M(𝕆,ℂ) requires. With B875 + B882 the naming stands on computation and literature simultaneously. 3 locks. Gate 5 untouched.
 
