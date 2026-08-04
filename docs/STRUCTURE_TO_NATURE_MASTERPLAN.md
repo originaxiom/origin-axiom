@@ -62,3 +62,42 @@ suite green before push; both remotes; the decadal-review cadence.*
 Repo swipe (buried results) → literature swipe (WF-PANEL) → atlas/toolset consultation →
 then compute. An unearned negative is as bad as numerology. Don't stop and celebrate
 negatives; seal and launch the next wave same-turn.
+
+
+## AMENDMENT v2 (2026-08-05) — the meditation phase and the banking debts
+
+*Registered after the two-seat convergence (B892) and the pattern meditation. Phase 0 is debt;
+Phase 1 is the meditation's computations, ranked; standing items unchanged below.*
+
+### Phase 0 — banking debt (no new computation; bank what already ran green)
+
+- **D1**: B893 (the ω cell: the d=1-character Chevalley involution; the torus-not-preserved
+  theorem) — complete with the signature-of-C computation (M7) and bank.
+- **D2**: the solo-suite verifications into a proper arc: the texture theorem (11=11), the
+  commutation law + ℤ₂ obstruction, G₂₀, the hypercharge fit — all verified here, none banked.
+- **D3**: finish the 27-suite: READ the ℤ₆ kernel run (never read — logged as a process miss),
+  run belt639 here, bank.
+
+### Phase 1 — the meditation computations (M1–M8, ranked by yield)
+
+- **M1 — the S₃-harmonic analysis** (the blind spot): project every banked table (dictionaries,
+  leakages, commutation data) onto trivial ⊕ standard ⊕ sign isotypics. Physics = trivial;
+  mixing-shaped = standard; the ℤ₂ obstruction = sign. INLINE-DEEP.
+- **M2 — the 27 under G₂₀** (the coexistence mechanism test): SEALED two-outcome cell — does
+  the all-perspectives algebra organize matter with generation-shaped multiplet structure
+  (su(3)′ as native flavor), or not? Prereg before compute.
+- **M3 — c-consumption**: is a² < 0 at all three roots? Quick exact; upgrades "the SM costs
+  one √−1" to a theorem-let. INLINE.
+- **M4 — the torsion-prime bridge**: τ_ad's small-prime block vs disc(μ) — identity,
+  divisibility, or coincidence; exponent relations computed, verdict honest. INLINE.
+- **M5 — the Knus–Paques difference class** of the vacuum and charge fields in E¹/(E¹)³ over
+  ℚ(√77) — W4's concrete deliverable; the "misalignment datum." INLINE-DEEP (number theory).
+- **M6 — the exponent-ledger theorem**: formalize "measured = θ-odd exponents (4,8); resolvent
+  = even torus exponents (7,11); golden 5 = ramification" as exact locked statements. SYNTHESIS.
+- **M7 — the signature of C**: split/compact type of each torus direction (folds into D1).
+- **M8 — the hierarchy-source check** (fenced, structure only): correlate the invariant
+  leakage magnitudes with μ's root spacings. INLINE, banked as geometry.
+
+### Phase 2 — standing: W8 Kim retry + the torsor theorem; the Barton–Sudbery explicit
+isomorphism (now unblocked); remaining promotions; the two papers; λ₂ on arrival; field
+discriminants proper; symbolic nonvanishing of the 11.
