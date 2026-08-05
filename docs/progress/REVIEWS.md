@@ -2921,7 +2921,7 @@ per-sector grading by non-clustering charges) — all recorded in their arcs.
   (their (b)) + the levi2.py manifest completion.
 - [>] R37-4 (carried R36-2): P5_monoid Phase 2 (the paper; unrelated to gate P5).
 - [>] R37-5 (carried R36-3): panel priors from measured κ history.
-- [>] R37-6 (carried R36-4): wave 1's own re-audit.
+- [>] R37-6 (carried R36-4): wave 1's own re-audit — carried because the wave-1 dataset's re-audit needs the λ₂ certification (cc3, in flight) as its comparison anchor; runs when λ₂ lands.
 - [>] R37-7 (carried R36-5): the law-harvest over 105 unread candidates; the 65 BOTH-LITERAL
   vacuity triage.
 - [>] R37-8 (carried R36-6): the 166 face attachments second panel; B590's m=3 sealing;
@@ -2988,3 +2988,44 @@ anchor-commit: `f0450d71` (Review 38)
    a real-form selection) additionally trigger an immediate README/views mid-window update —
    the views-fresh gate guarantees review-cadence freshness only, and phase boundaries must
    not wait for the counter.
+
+## Review 39 — 2026-08-05 (merges 1–24 from Review 38; the register/crossing/value-layer window)
+
+anchor-commit: `POST_COMMIT_ANCHOR` (Review 39)
+
+1. **Suite:** green after review fixes — the dedicated complete run: **3539 passed, 3 failed, 35 skipped** (1:16:54, sharing the machine with the cpen leg); the three failures were window hygiene (one carried review item missing its WHY; /Users/ paths in three multiagent-round scripts that the mid-window scrubs missed), all fixed at review with the affected locks rerun green (14/14). The window also banked B919 and the cc3 loss-audit round-1 repairs between the draft and the close — the report covers through `7a4447d7`.
+2. **Gates:** 19/19 green at review time; the pre-push hook caught four real violations
+   mid-window (two attribution tokens in agent artifacts, one knowledge-index drift, one
+   LAW_MAP word-boundary miss) — all fixed at the push, none reached a remote.
+3. **Atlas + views:** regenerated at every bank; README + all seven navigation views got a
+   MID-WINDOW post-crossing update (the phase-boundary rule born in this window, applied
+   the day it was written).
+4. **Promotion-candidacy sweep.** The window banked B907–B918 + the ROADMAP REGISTER +
+   two sealed preregs decided (B912 outcome B; B915 MISS) + P70 promoted (R38-1).
+   Candidates for the §5 gates, one per pass: **B908** (I = −1 exact, the Leibniz sign),
+   **B916+B918** (unimodularity + the twist-norm law + One-Class + observer's place — the
+   value layer's theorem cluster), **B912** (the signature split), **B914** (the one-number
+   table), plus the R38 leftovers (SMT; concordance; annihilation; generation-shape with
+   its Chat-1 scope addendum).
+5. **Terminology sweep (protocol item 7):** entries added this review — the One-Class
+   theorem; the observer's place. (The mid-window pass had already added the campaign's
+   six core entries.)
+6. **Hint sweep (protocol item 8):** row 10 (the split-pattern hint) RESOLVED YES by B918
+   and marked; row 11 added (the uninterpreted V-residues). Row 9 (√T regime) stands
+   parked behind its seal requirement.
+7. **Framing sweep:** Gate 5's door was opened ONCE, under seal, per the locked R4
+   protocol, and reported faithfully (a 16σ MISS); no physics identification entered any
+   ledger; the fenced readings (Lorentzian quark cones; the observer's place) stay fenced.
+   The seal-discipline scoreboard for the window: two sealed priors decided — one lost
+   (B912), one WON (B915, the first) — both directions now live-verified.
+8. **Process findings:** (a) the multiagent register loop (3 rounds, 7 agents) produced
+   five banked theorems with every delivery re-verified at banking — including one agent
+   catching the dispatcher's own wrong triple; (b) the loss scans (laws; rooms) found and
+   repaired real burial (LAW_MAP §F's 22 rows; S073/K026/philosophy-13); the rooms have
+   no freshness gate BY DESIGN — this review's answer to the checklist question: keep it
+   a checklist question; (c) two seats ran the same chain independently and their one
+   disagreement resolved into a theorem (the twist-norm law) — the two-bench design is
+   producing mathematics, not just verification.
+9. **State at close:** in flight — cpen (→B909, which owes the LAW_MAP §F pending row's
+   locks), λ₂ (cc3). Sealed next: R4b (joint, gated on B909). Registered: R-EMB, R-INV,
+   V-L2 remainder, V-L4, the D₂ block question. Parked owner-gated: H1/H3/H5.

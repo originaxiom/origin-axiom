@@ -56,7 +56,7 @@ def load_base():
         _BASE = pickle.load(open(cache, 'rb'))
         return _BASE
     nsdict = {'__file__': os.path.join(SCRATCH, 'b854_shadow.py')}
-    src = open('/Users/dri/origin-axiom/frontier/B854_centralizer_exact/e6_centralizer.py').read()
+    src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..") + '/frontier/B854_centralizer_exact/e6_centralizer.py').read()
     with contextlib.redirect_stdout(io.StringIO()):
         exec(compile(src, 'b854', 'exec'), nsdict)
     D = pickle.load(open(os.path.join(RUN, 'rep27.pkl'), 'rb'))

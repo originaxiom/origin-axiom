@@ -1,3 +1,4 @@
+import os as _os_r
 #!/usr/bin/env python3
 """B907 COMPLETENESS -- beyond the 128 swept representatives.
 
@@ -40,8 +41,8 @@ import mpmath as mp
 import numpy as np
 from sympy.polys.matrices import DomainMatrix
 
-ARC = "/Users/dri/origin-axiom/frontier/B907_real_form_selector"
-FRAME = "/Users/dri/origin-axiom/frontier/B854_centralizer_exact/e6_centralizer.py"
+ARC = _os_r.path.join(_os_r.path.dirname(_os_r.path.abspath(__file__)), "..", "..") + "/frontier/B907_real_form_selector"
+FRAME = _os_r.path.join(_os_r.path.dirname(_os_r.path.abspath(__file__)), "..", "..") + "/frontier/B854_centralizer_exact/e6_centralizer.py"
 OUT = os.path.join(ARC, "completeness_results.json")
 RESULTS = {}
 def save():
