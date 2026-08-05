@@ -19032,6 +19032,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B914": {
+   "slug": "ratio table",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B883",
+    "B884",
+    "B889",
+    "B906",
+    "B908",
+    "B912",
+    "B913",
+    "S0",
+    "S1",
+    "S2"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 25,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

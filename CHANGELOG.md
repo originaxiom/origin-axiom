@@ -1,5 +1,9 @@
 # Changelog
 
+## Multiagent round 3 — B914: the ratio table is ONE number
+- The 27̄ trap caught and resolved (everything re-run on the banked 27, one exact basis); **all six colorless couplings exactly equal: the table is the single algebraic number T = σ₂(t_K), deg-3 minpoly, √T ≈ 2.1854×10⁻¹⁶** — and with I = −1, the H-unit gauge is the determinant gauge.
+- Headline: 3 unforced identities + 1 exact number (forced relations gated separately). Exact upgrades: colorless H-orthogonality now identity-grade; B912's scales reproduced to 35 digits; B884's cubic triples recorded. R2′ banked (signed grid + sealed colored magnitudes + explicit matching). 4 locks. Gate 5 untouched; **one rung remains**.
+
 ## Multiagent round 2 — B912: the colored sector is Lorentzian (nine scales exist) + B908 closed: I = −1 exactly
 - **B912 (sealed R1, outcome B)**: J solved exactly (integer signed-permutation H±); **H has signature (15,12)** = e₆(2)'s K-type split; nine colorless atoms positive-definite WITH SCALES; six colored atoms each (1,2,0) — **the quark sector grows cones**. Fourth sealed prior in a row to lose. R2/R3 redefined by dated amendment; R4 untouched.
 - **B908 CLOSED**: the atoms are joint eigenlines of a RATIONAL commuting family (the tower never enters); P_R = −P_C as exact 106-digit integers — **I = −1 exactly, no height bound**; c_S = −disc(μ) exactly. 6 locks. Gate 5 untouched.

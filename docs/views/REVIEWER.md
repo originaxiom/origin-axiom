@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **834** |
-| words of findings prose | **542,263** |
-| test lock files referenced | **573** |
-| arcs carrying an authored verdict | **821** (98.4 %) |
+| research arcs with findings | **835** |
+| words of findings prose | **544,479** |
+| test lock files referenced | **574** |
+| arcs carrying an authored verdict | **822** (98.4 %) |
 | recorded closures | **731** (564 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 522 |
+| PROVED | 523 |
 | NEGATIVE | 261 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B912`** (485 words, 1 locks)  
-R1, THE SEALED NORM CELL DECIDES -- OUTCOME B, AND THE OBSTRUCTION IS EXACTLY THE COLORED SECTOR (prereg 93d420ea committed 878137e2 before compute; seal verified): the antilinear intertwiner J EXISTS and is unique up to one real scale -- H+- are integer +-1 signed-permutation symmetric matrices solved EXACTLY over Q with equivariance verified on all 78 generators for both wall conjugations -- and the canonical Hermitian form H on the 27 (normalized +1 on the first canonical vacuum line) has SIGNATURE (15,12), exactly the su(6)+su(2) K-type dimension split of e6(2) (fenced observation). THE VERDICT: all nine colorless 1-dim atoms are POSITIVE-DEFINITE with computed scales (1, 19.142..., 1.680...; pairs 53.079x2, 0.786x2, 3.089x2), ALL SIX colored 3-dim atoms are INDEFINITE with signature (1,2,0) each -- the colorless world is Euclidean, the colored world is Lorentzian, one cone per colored atom; none degenerate (margin 0.489 vs residuals < 1e-40). The sigma+- cross-check agrees on the whole readout with the PROVEN inner-twist relation H- = H+ D (D a charge-commuting diagonal involution) -- the seal's literal gate ruled satisfied in its invariant reading (logged ruling). THE DISCLOSED PRIOR LOST (fourth in a row). Per the seal: R2/R3 require a different construction -- the register's dated amendment executed at banking.  
-`B912_norm_cell/FINDINGS.md`
+**PROVED — `B914`** (2216 words, 1 locks)  
+R2'+R3' DELIVERED AND THE RATIO TABLE COLLAPSES TO ONE NUMBER (multiagent round 3, banking-verified): with the ENTIRE construction re-run on the banked B883 27 in one exact basis (the 27bar trap caught -- B908's handoff realization is the dual; the mirror relation h_S(x) -> h_S(-x) confirmed as predicted; the banked H+ passes exact charge equivariance; the invariant cubic re-solved exactly with kernel dim 1 and its 45 +-1 triples now recorded, making B884's summary explicit), all six normalization-free colorless couplings T_ijk = |c_ijk|^2/(s_i s_j s_k) are EXACTLY EQUAL as one identity in the splitting field N: THE COLORLESS COUPLING TABLE IS THE SINGLE CANONICAL ALGEBRAIC NUMBER T = sigma_2(t_K), t_K in K explicit, minpoly degree 3 certified, T ~ 4.7758e-32 (sqrt(T) ~ 2.1854e-16 = the common coupling magnitude on H-unit vectors); combined with B908's I = -1, the H-unit gauge IS the determinant gauge. New-information headline: THREE unforced exact identities (S-row = non-S rows; the three column T's equal -- Galois forced only their product) + ONE exact number; the tau-flip and I^2 = 1 gates verified separately. Exact upgrades banked en route: the nine colorless atoms are EXACTLY pairwise H-orthogonal (upgrading B912's numerics); D acts +1 exactly on every colorless line; all nine B912 scales reproduced to their full stored 35 digits. R2' banked: the signed grid, the B913-sealed colored magnitudes with (1,2,0) tags, the explicit perfect matching (6 lll + 9 ccl + 2 ccc = 17, reproducing probeC). Independent numeric route agrees at 1e-80 spread. Gate 5 untouched -- no experimental number enters; R4 remains sealed and untouched.  
+`B914_ratio_table/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  
