@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **830** |
-| words of findings prose | **539,088** |
-| test lock files referenced | **570** |
-| arcs carrying an authored verdict | **817** (98.4 %) |
+| research arcs with findings | **831** |
+| words of findings prose | **539,757** |
+| test lock files referenced | **571** |
+| arcs carrying an authored verdict | **818** (98.4 %) |
 | recorded closures | **731** (564 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 518 |
+| PROVED | 519 |
 | NEGATIVE | 261 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B906`** (610 words, 1 locks)  
-THE FLAVOR ARC VERIFIED WHOLESALE (solo handoff 5, integrate-don't-merge, every suite script rerun on this build): (1) INSTANT CONVERGENCES -- their sealed XXXVII prediction (wall complex in e6(6), all three roots) is MET by B893, committed BEFORE the handoff existed (det14 positive at all three roots); their five-cubics law equals B900's label cubics under t -> -t exactly, with their queued field-coincidence question already answered banked-side (B900: all four iso to K; B902: the weight pair inverse classes); their W4 conjecture PROVED (det14 gamma-free -- d1 identically zero in their own pickle, the tower one level shorter); (2) THE VERIFICATION LANE -- the unified gluing law tracks the commutation law in all 8 configurations with the two-prime belt reproducing under the documented per-prime sqrt relabeling and the 3-block = ker(g14) EXACT; the mixed-texture type-assignment scan PERFECT 48/48 (their sealed A7 confirmed independently; beta = alpha o (Q<->ud, L<->en) checked on the lists); the 15-atom decomposition reproduces (six 3-dim colored + nine 1-dim colorless, bijective tri-partition); the atom coupling graph gives 6 exact lll couplings forming K3,3 = the two pencils of the 3x3 grid; and THE FIRST VALUE-LAYER NUMBER I = -1 CONFIRMED AT BOTH PRIMES (40122 mod 40123; 40638 mod 40639) with the atom-rescaling invariance gate passing. Open, registered: their FA3 census seal (theirs), the I-exactness pin (ours), J1 the real-form selector (triply motivated, sealed design next).  
-`B906_flavor_verification/FINDINGS.md`
+**PROVED — `B907`** (669 words, 1 locks)  
+THE SEALED CELL DECIDES -- OUTCOME A: THE WALL IS REAL IN e6(2), AND ONLY THERE (the joint J1 with the solo seat's XLIX-L leg; prereg cd7aae3b committed f0450d71 BEFORE compute, seal verified): sweeping all 128 frame-diagonal inner and tau-composite outer involution representatives -- the diagram flip tau constructed exactly via the general F2-cocycle solve (rank 66, zero violations; the flip-symmetric-character ansatz provably empty) -- EXACTLY TWO are C-compatible and wall-real (the sealed criterion eps14 = +1 and eps16 = -1): an outer pair related by global negation with pattern (-1,+1,-1,+1), each verified phi^2 = id, and for BOTH the composite phi o omega has fixed dimension 38 = su(6)+su(2): THE FORM IS e6(2), THE QUATERNIONIC FORM. All 27 diagonal representatives of the so(10)+u(1) class fail C-compatibility (the e6(-14) obstruction, banked); no standard alignment works (the solo seat's leg, confirmed and explained -- the wall-real conjugations are tau-twisted). THE DISCLOSED PRIOR (e6(-14)) WAS WRONG -- the third sealed cell to decide against its prior. Two bugs caught en route: the empty character ansatz, and a Rayleigh-quotient census on non-normal matrices (the oblique readout rule violated a fourth time, caught by contradiction with exact automorphisms). Completeness beyond the swept representatives is the registered follow-up. FENCED: e6(2)'s compact structure supplies the canonical Hermitian norm -- the value ladder's gate now has a name; Gate 5 untouched.  
+`B907_real_form_selector/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  

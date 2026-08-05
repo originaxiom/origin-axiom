@@ -18933,6 +18933,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B907": {
+   "slug": "real form selector",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B890",
+    "B892",
+    "B893",
+    "B898",
+    "B901"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B90": {
    "slug": "degree rank peripheral",
    "motifs": [

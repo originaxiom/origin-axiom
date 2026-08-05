@@ -1,5 +1,9 @@
 # Changelog
 
+## B907 — the sealed selector decides: THE WALL IS REAL IN e₆(2), and only there (the joint J1)
+- Prereg committed before compute; the sweep of all 128 diagonal+outer representatives (τ built exactly by the F₂-cocycle solve) finds **exactly two wall-real C-compatible involutions — both realizing e₆(2)**, the quaternionic form; all 27 e₆(−14)-class representatives fail C-compatibility; no standard alignment works (the solo seat's leg confirmed — the wall-real conjugations are τ-twisted).
+- **The disclosed prior was wrong again** (third sealed cell). Two bugs self-caught (an empty ansatz; the oblique rule violated a fourth time). Fenced: e₆(2) supplies the canonical Hermitian norm — the value ladder's gate is named. 4 locks. Gate 5 untouched.
+
 ## B906 — the flavor arc verified wholesale; their seal met by our bank; I = −1 at two primes
 - **Their sealed wall prediction is MET by B893** (committed before the handoff existed); their five-cubics = B900 under t↦−t with the queued field question already answered (B900/B902); **their W4 conjecture proved** (det₁₄ γ-free — the tower one level shorter).
 - The unified law tracks 8/8 configs (two-prime, ∏c = −1 invariant); the texture 48/48; the 15 atoms and the K₃,₃ grid reproduce; **I = −1 confirmed at both primes**, invariance-gated. Next: the I-exactness pin (ours), J1 the real-form selector (triply motivated, sealed first). 4 locks. Gate 5 untouched.

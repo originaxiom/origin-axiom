@@ -1,0 +1,42 @@
+[
+ {
+  "kind": "outer",
+  "signs": [
+   1,
+   -1,
+   1,
+   -1,
+   1,
+   1
+  ],
+  "eps": {
+   "8": -1,
+   "14": 1,
+   "16": -1,
+   "22": 1
+  },
+  "phi_involution_samples": true,
+  "composite_fixed_dim": 38,
+  "form": "e6(2)"
+ },
+ {
+  "kind": "outer",
+  "signs": [
+   -1,
+   1,
+   -1,
+   1,
+   -1,
+   -1
+  ],
+  "eps": {
+   "8": -1,
+   "14": 1,
+   "16": -1,
+   "22": 1
+  },
+  "phi_involution_samples": true,
+  "composite_fixed_dim": 38,
+  "form": "e6(2)"
+ }
+]
