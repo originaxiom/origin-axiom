@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **833** |
-| words of findings prose | **541,626** |
-| test lock files referenced | **572** |
-| arcs carrying an authored verdict | **820** (98.4 %) |
+| research arcs with findings | **834** |
+| words of findings prose | **542,263** |
+| test lock files referenced | **573** |
+| arcs carrying an authored verdict | **821** (98.4 %) |
 | recorded closures | **731** (564 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 520 |
+| PROVED | 522 |
 | NEGATIVE | 261 |
-| OPEN | 30 |
+| OPEN | 29 |
 | RETRACTED | 9 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B910`** (1201 words, 0 locks)  
-L3 DELIVERED -- THE ONE-CLASS THEOREM (multiagent round 1, banking-verified): the compact-pencil cubic kappa = 2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859 (constant -19^3, disc kernel {7,11}, nu = c kappa^6 by 20-point exact interpolation honoring the aliasing lesson) splits [1,2] over K with the exact root s*(rho) certified by polynomial remainder, and its Kummer element alpha_kappa = 19^6(-1/690594465792000 + sqrt(-231)/1470297894912000) sits in EXACTLY the charge class: alpha_mu/alpha_kappa = gamma3^3 with gamma3 = (1+sqrt(-3))(5239/48013 - (5239/192052)sqrt(-231)), no unit twist -- so [alpha_mu] = [alpha_generic] = [alpha_kappa] = C and [alpha_vac] = C^{-1}: the compact wall-triple carries the CHARGE orientation, vacuum + kappa = the split algebra, and the full Z/3 multiplication table of the four classes is certified entry-by-entry (six symbolic cube certificates, exact chi_3 witnesses for every non-cube, all-9-twist kills per single alpha, independent sympy-radical re-verification PASSED). Bonus: B902's control upgraded with the missed plain-rational certificate alpha_mu/alpha_gen = (2197/500716339200)^3. THE NUMERATOR LAW: alpha_mu carries 13^6, alpha_kappa carries 19^6 -- each pencil's Kummer element wears its own prime.  
-`B910_kappa_class/FINDINGS.md`
+**PROVED — `B912`** (485 words, 1 locks)  
+R1, THE SEALED NORM CELL DECIDES -- OUTCOME B, AND THE OBSTRUCTION IS EXACTLY THE COLORED SECTOR (prereg 93d420ea committed 878137e2 before compute; seal verified): the antilinear intertwiner J EXISTS and is unique up to one real scale -- H+- are integer +-1 signed-permutation symmetric matrices solved EXACTLY over Q with equivariance verified on all 78 generators for both wall conjugations -- and the canonical Hermitian form H on the 27 (normalized +1 on the first canonical vacuum line) has SIGNATURE (15,12), exactly the su(6)+su(2) K-type dimension split of e6(2) (fenced observation). THE VERDICT: all nine colorless 1-dim atoms are POSITIVE-DEFINITE with computed scales (1, 19.142..., 1.680...; pairs 53.079x2, 0.786x2, 3.089x2), ALL SIX colored 3-dim atoms are INDEFINITE with signature (1,2,0) each -- the colorless world is Euclidean, the colored world is Lorentzian, one cone per colored atom; none degenerate (margin 0.489 vs residuals < 1e-40). The sigma+- cross-check agrees on the whole readout with the PROVEN inner-twist relation H- = H+ D (D a charge-commuting diagonal involution) -- the seal's literal gate ruled satisfied in its invariant reading (logged ruling). THE DISCLOSED PRIOR LOST (fourth in a row). Per the seal: R2/R3 require a different construction -- the register's dated amendment executed at banking.  
+`B912_norm_cell/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  

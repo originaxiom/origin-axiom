@@ -279,3 +279,21 @@ observer's closing; the object as a Λ<0 vacuum already):
 - **H5 — the two-ends/two-hemispheres mapping cell**: does the frame's (2,2) split
   align with B261's two AJ regimes (the E₆/E₈ two-ended structure)?
 (H2 — the H-signature — is already in flight as sealed B912 and needs no parking.)
+
+### Dated amendment (2026-08-05) — R2/R3 REDEFINED per B912's sealed outcome B
+B912 decided B: the canonical H is signature (15,12); the nine colorless atoms are
+positive-definite WITH SCALES (banked), the six colored atoms are each Lorentzian
+(1,2,0). The ladder's middle rungs are redefined accordingly (the crossing protocol
+R4 is UNTOUCHED, per its non-weakening clause):
+- **R2′ — the signed skeleton**: attach the nine colorless scales to the grid/matching
+  (available now); for the colored sector, the invariants are (signature, |det Gram|,
+  the cone structure) — banked as structure, NOT collapsed to fake scales.
+- **R3′ — the ratio table, colorless-first**: derive the colorless coupling-ratio
+  table from the nine scales (well-defined now); the colored ratios require a
+  cone-respecting construction — DESIGN CELL registered (R3c): what is the correct
+  e₆(2)-invariant magnitude on a (1,2) atom? (Candidates: the |det|^{1/3} magnitudes
+  already computed; the compact-direction restriction; the polar decomposition norm.
+  A sealed design will choose BEFORE computing.)
+- The H-signature finding (15,12) = e₆(2)'s K-type split is banked as structure; the
+  Lorentzian-colored reading stays fenced (speculation hook H2 pays out: the indefinite
+  metric emerged, and it emerged ON THE QUARK SECTOR).

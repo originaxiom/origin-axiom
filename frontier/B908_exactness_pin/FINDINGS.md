@@ -1,8 +1,7 @@
 # B908 — the I-exactness pin: three legs, two closed — I = −1 IS THE LEIBNIZ SIGN
 
 **Date:** 2026-08-05 · **Seats:** cc (banking) + computation agent (leg 3) ·
-**Status:** legs 1–2 closed; leg 3 at the registered proof shape with one named
-exact certificate remaining.
+**Status:** ALL THREE LEGS CLOSED — I = −1 EXACTLY (round 2 of the register loop).
 
 ## The reduction (DESIGN.md)
 
@@ -45,11 +44,29 @@ pinned by the S-line; P_R and P_C are separately rational, sharpening leg 1).
 > the odd ones — I = −1 is the determinant's orientation parity, one −1 per
 > line. The program's signature sign is the Leibniz sign.**
 
-## The one remaining certificate (registered)
+## THE CLOSURE (round 2, banking-verified): I = −1 EXACTLY
 
-Exhibit the sl₃⊕sl₃ stabilizer over K = ℚ[ρ]/μ exactly (not mod-p). With
-anchor 3 (uniqueness), that forces cub|₉ ∝ det over K, hence **I = −1 exactly,
-with no height bound**. Queued for round 2 of the register loop.
+Route (a) direct (`leg3_exact.py`, `DRAFT_EXACT.md`) — and the route-discovery
+is a theorem of independent worth:
+
+> **The four torus generators R₈, R₁₄, R₁₆, R₂₂ commute exactly over ℚ on the
+> 27, and every labeling's operator span equals theirs — the nine colorless
+> atoms are joint eigenlines of ONE RATIONAL commuting family. The tower field
+> never enters the atom lines** (mod-p reduction confirmed at all 7 primes,
+> 252/252; then exact).
+
+The nine atom lines built exactly in characteristic 0; the banked cubic
+restricted; all six couplings exact; the support = exactly the two pencils;
+
+> **P_R = −P_C as exact integers (106 digits each): v = 0 identically,
+> I = −1 EXACTLY, no height bound.**
+
+Jewels in the constants: the S-line coupling c_S = **−disc(μ)** exactly; the
+two non-S rows share one coupling constant (one Galois orbit of six); the
+hidden correlation B(ρ) = −3w(ρ)² with w ∈ K. Remaining naming caveat (the
+agent's, honest): the identification of the char-0 configuration with the
+banked pipeline uses mod-p reduction at the 7 primes — simplicity forces the
+lines; the reduction was verified at all seven.
 
 ## Files
 

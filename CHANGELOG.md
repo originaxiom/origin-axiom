@@ -1,5 +1,9 @@
 # Changelog
 
+## Multiagent round 2 — B912: the colored sector is Lorentzian (nine scales exist) + B908 closed: I = −1 exactly
+- **B912 (sealed R1, outcome B)**: J solved exactly (integer signed-permutation H±); **H has signature (15,12)** = e₆(2)'s K-type split; nine colorless atoms positive-definite WITH SCALES; six colored atoms each (1,2,0) — **the quark sector grows cones**. Fourth sealed prior in a row to lose. R2/R3 redefined by dated amendment; R4 untouched.
+- **B908 CLOSED**: the atoms are joint eigenlines of a RATIONAL commuting family (the tower never enters); P_R = −P_C as exact 106-digit integers — **I = −1 exactly, no height bound**; c_S = −disc(μ) exactly. 6 locks. Gate 5 untouched.
+
 ## Multiagent round 1 — B910 the One-Class theorem; sign-locking (B907); I = −1 is the Leibniz sign (B908)
 - **B910**: [α_μ] = [α_gen] = [α_κ] = C, [α_vac] = C⁻¹ — the compact wall carries the charge orientation; full ℤ/3 table certified; the numerator law (13⁶ vs 19⁶). Independent re-verification passed.
 - **B907 addendum**: the sign-locking theorem — ε₈ε₁₆ = ε₁₄ε₂₂ = +1 for EVERY C-stabilizing automorphism (exact degree-6 trace moments); the wall pattern unique; the sweep complete at pattern level; e₆(2) stands absolutely. The diagonal (+,−,+,−) Killing Gram rederived en route.

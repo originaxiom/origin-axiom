@@ -22,3 +22,13 @@ def test_leg3_mechanism_banked():
         assert r[f"mechanism_{p}"]["control_random"]["dim"] == 4
     assert all(r["verification_all_primes"][p]["support_recomputed_equals_stored"]
                for p in r["verification_all_primes"])
+
+
+def test_leg3_exact_closure():
+    with open(os.path.join(ARC, "leg3_exact_results.json")) as f:
+        r = json.load(f)
+    assert int(r["I"]) == -1
+    assert r["v_is_0"] is True
+    assert int(r["P_R"]) == -int(r["P_C"])
+    assert r["c_S_equals_minus_disc_mu13"] is True
+    assert r["checks"]["four_ops_commute_exactly_over_Q"] is True

@@ -18963,8 +18963,8 @@
     "firewall"
    ],
    "refs": [],
-   "obstacle": "spacetime_3p1",
-   "obstacle_conf": 1,
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -19007,6 +19007,28 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B912": {
+   "slug": "norm cell",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [
+    "B883",
+    "B889",
+    "B893",
+    "B898",
+    "B901",
+    "B906",
+    "B907"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },
