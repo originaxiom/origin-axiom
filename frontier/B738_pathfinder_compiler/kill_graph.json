@@ -10257,5 +10257,15 @@
   "priority": "P2",
   "revival_score": 3,
   "note": "EXACT over Q. E6 Chevalley built and VERIFIED before use (36/72 roots, dim 78, Jacobi PASS on 4000 random triples, exponents {1,4,5,7,8,11} recovered). Four 2T-invariants = Klein's forms, one each in V8/V14/V16/V22; dim 4 confirmed THREE independent ways (Burnside average, full SL(2,3) character table, Klein invariant ring). CONTROL: random elements of the same blocks bracket to NONZERO 5/5 on every pair, so the vanishing is not a construction artifact. A Z/2 grading from transvectants (odd order vanishes, even does not) reduced the whole question to ONE bracket, [x14,x22], which is exactly zero. Discriminating computation: frontier/B854_centralizer_exact/e6_centralizer.py + results.json."
+ },
+ {
+  "id": "B899",
+  "claim_killed": "That the operational S3-breaking magnitudes (the sealed cells' per-frame deviations, the first naturally small invariant numbers) are sourced by mu's root geometry -- nearest root spacing or |mu'| at the roots, through the banked frame->root bijection.",
+  "kill_form": "registered-comparison-null",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "Only the four REGISTERED log-log comparisons were run (nearest-spacing and |mu'|, per root) -- deliberately, to keep the look-elsewhere budget honest. Other root-geometry invariants (resultants, cross-ratios of roots, the discriminant flow) were NOT scanned; a future REGISTERED comparison against a different invariant is the one honest way this route could still live. The hierarchy-shaped structure itself is real (B889/B896) and its source remains open."
  }
 ]
