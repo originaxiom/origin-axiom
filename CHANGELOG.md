@@ -1,5 +1,8 @@
 # Changelog
 
+## B916 — the lambda bridge: both seats right; the value primes are the norm arithmetic of the H-twist
+- The bridge S is a signed permutation; the cubic transports t = 1 — **primitivity IS canonical**; the dispatching hypothesis refuted. The seats used two different invariant H's: charge-equivariant (λ = 1, c² = −q_iq_jq_k exact) vs τ-twisted (λ = 2304/953 exactified). **∏d_i = −(953/2304)² = N_{K/ℚ}(d)** — the ratio is the field norm of the twist. Rule adopted: pin H by equivariance, never primitivity. 3 locks. Gate 5 untouched.
+
 ## B917 — the value arc verified; λ = 1 in the canonical gauge; the bridge isolated
 - Handoff 7's suite reproduces (τ-intertwiner exact; democracy 45d; CCC = 3!λ; P8's slot transposition; the K-biography). **P9 closed at receipt** (integers). **New identity: λ = 1 exactly in the canonical gauge** — the colorless sector is UNIMODULAR; their 2304/953 vs this 1 is driven to the 27/27̄ bridge constant (B916 in flight); cross-seat canonical content = the ratios. 3 locks. Gate 5 untouched.
 

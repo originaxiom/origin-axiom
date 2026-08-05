@@ -19074,6 +19074,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B916": {
+   "slug": "lambda bridge",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B883",
+    "B912",
+    "B914",
+    "H27"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B917": {
    "slug": "value arc verification",
    "motifs": [

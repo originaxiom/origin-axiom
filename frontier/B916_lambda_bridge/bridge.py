@@ -33,10 +33,28 @@ PHASE B (numeric, dps 60-80): lambda_handoff recomputed INDEPENDENTLY
 
 PHASE C (exact, Mbar): the B914 exact atom machinery is re-run (same
   tower K -> N -> Mbar), the DUAL atom lines v_i = H u_i are formed
-  exactly, and lambda_dual^2 on those lines (same primitive cubic, same
-  H) is computed exactly and compared with (2304/953)^2.  This is the
-  exactification of the handoff's 85-digit number, and the localization
-  of the factor: same instruments, MIRROR lines.
+  exactly, and both lambdas are computed exactly on them.
+
+WHAT THE COMPUTATION FOUND (all exact unless noted):
+  * S is a signed permutation, unique up to scale; det S = 1.
+  * the primitive cubic transports IDENTICALLY: t = 1.  "primitive +-1
+    in its own basis" IS canonical across the mirror.
+  * the H's do NOT transport into each other: H'(solo) = H+(B912) *
+    diag(D2), D2 = +-1 with 11 flips; no scalar s exists.  The solo M
+    is the tau-twisted dual intertwiner M = P D_chi with
+    P rho(tau X) = -rho(X)^T P (Cartan permutation (5,1,4,3,2,0)),
+    NOT charge-equivariant (verified: no sign works for any charge).
+  * lambda with the banked H+ is 1 EXACTLY on the primal nine AND on
+    the mirror nine: the canonical lambda is realization-independent.
+  * lambda with the solo H' is 2304/953 EXACTLY on the mirror nine AND
+    on the primal nine: the tau-twisted lambda is ALSO
+    realization-independent, and the solo 85-digit belt is exactified.
+  * the factor lives in the per-line norm ratios d_i = q^{H'}/q^{H+}:
+    each d_i is a K-cubic irrationality with minimal polynomial of
+    shape 2304^2 x^3 + ... +- 953^2 (A-family linear coefficient even
+    equals -2304*953); every coupling triple is a Galois norm:
+    prod d_i = -(953/2304)^2 = N_{K/Q}(d).  953 is the norm-arithmetic
+    of the H-twist, not a normalization.
 
 Env: HANDOFF7 = dir containing the solo seat's rep27.pkl, H27.pkl,
 cubic27.json (required).  SESSION_SCRATCH optional (cache + isolated-exec
