@@ -240,3 +240,12 @@ No invariant may be transferred between these without an explicit map.
   MISS at 16σ; kills "boundary + desert" only; the failure triangle
   (10¹³/10¹⁴/10¹⁶·⁵ GeV, α_s-dominated) is the banked input to R4b (the object's
   D-chain as the desert's replacement, zero free parameters).
+- **the One-Class theorem**: all four matter/value cubics (μ, generic, κ, HIER)
+  share ONE Kummer class C in F*/(F*)³ (F = ℚ(√77, √−3)), the vacuum its inverse
+  (B910 → B918). The compact wall carries the charge orientation; vacuum ⊕ anything
+  = split.
+- **the observer's place**: the unique degree-one place of K above a split value
+  prime. The observer's-place theorem (B918): den(V) = 𝔭₁(953)⁴ exactly — the
+  hierarchy's pole lives entirely there; prime-role trichotomy 953-pole /
+  421493-trace-zero / 1129-e₂-zero; structure primes decorate numerators, the
+  value prime digs the denominator.

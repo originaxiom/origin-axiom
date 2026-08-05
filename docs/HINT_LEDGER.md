@@ -592,3 +592,7 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       biography the STRUCTURE primes (13, 17, 19) are inert while the VALUE primes
       (953, 1129, 421493) are partially split [1,2], each with a unique degree-one place.
       RESOLVED YES (B918, 2026-08-05): den(V) = (deg-1 place over 953)^4 exactly — the observer's-place theorem; promoted to LAW_MAP §F.
+  (11) H-B918-RES (type HOOK): the V-residues at the unit places — 617 in F_1129 and
+      107540 | 39306+166513y in F_421493 — and the 953-unit part at the observer's place
+      were computed exactly but carry no interpretation yet. If the residues are themselves
+      structured (e.g. images of banked constants), the biography deepens; unexplored.
