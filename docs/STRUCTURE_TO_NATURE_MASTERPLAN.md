@@ -239,3 +239,28 @@ involution's identity — ties to B893's ω), J2/J3/J5 with the atom lane.
 
 **Standing:** Review 38 completes on the suite (in flight); the papers gain two
 chapters (the capstone B904 + the flavor arc when verified).
+
+## ROADMAP REGISTER v1 (2026-08-05 — owner-locked; amendments only by dated entry, never silent)
+
+**THE MAIN ROAD — the value ladder (the firewall-crossing path), in binding order:**
+1. **R1 — the e₆(2) norm cell**: the canonical Hermitian norm from the two banked
+   wall-real conjugations (B907). Sealed design before compute.
+2. **R2 — the 15 atom scales**: fixed by the norm; the flavor skeleton becomes weighted.
+3. **R3 — the tree-level coupling-ratio table**: derived exact numbers, nothing fitted.
+4. **R4 — THE SEALED COMPARISON (the firewall's door)**: exactly ONE measured input as
+   the observer-coupling normalization; every other ratio a prediction; prereg sealed
+   before any data contact; two-outcome verdict; a MISS kills the physics identification
+   and leaves every structural theorem standing. **This rung's protocol may not be
+   weakened by any future amendment: one input, sealed prereg, two outcomes, no fitting.**
+
+**NEAR-TERM QUEUE (binding order of attack):** B909 (frame-arc verification bank) → L3
+(κ's Kummer class via B902) → R1 → B908 leg 3 (v = 0) → B907 completeness → L4/L5
+(split with solo). Solo side holds: FA3 belts, CCC/matching printout, the second ℤ₃.
+
+**STANDING:** λ₂ (verify → bank → PSLQ on landing); promotions one per pass (B904 first);
+the two papers (+ the flavor/frame third); N2/N4 remainders; J6 exactification;
+Review 39 at cadence.
+
+**THE DRIFT RULE:** work outside this register requires a dated amendment HERE first
+(same discipline as seal amendments — logged, never silently absorbed). Relay-driven
+verification of incoming seat handoffs is standing-authorized and exempt.
