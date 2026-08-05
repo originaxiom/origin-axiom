@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **836** |
-| words of findings prose | **544,850** |
-| test lock files referenced | **575** |
-| arcs carrying an authored verdict | **823** (98.4 %) |
+| research arcs with findings | **837** |
+| words of findings prose | **545,357** |
+| test lock files referenced | **576** |
+| arcs carrying an authored verdict | **824** (98.4 %) |
 | recorded closures | **732** (565 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 523 |
+| PROVED | 524 |
 | NEGATIVE | 262 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B914`** (2216 words, 1 locks)  
-R2'+R3' DELIVERED AND THE RATIO TABLE COLLAPSES TO ONE NUMBER (multiagent round 3, banking-verified): with the ENTIRE construction re-run on the banked B883 27 in one exact basis (the 27bar trap caught -- B908's handoff realization is the dual; the mirror relation h_S(x) -> h_S(-x) confirmed as predicted; the banked H+ passes exact charge equivariance; the invariant cubic re-solved exactly with kernel dim 1 and its 45 +-1 triples now recorded, making B884's summary explicit), all six normalization-free colorless couplings T_ijk = |c_ijk|^2/(s_i s_j s_k) are EXACTLY EQUAL as one identity in the splitting field N: THE COLORLESS COUPLING TABLE IS THE SINGLE CANONICAL ALGEBRAIC NUMBER T = sigma_2(t_K), t_K in K explicit, minpoly degree 3 certified, T ~ 4.7758e-32 (sqrt(T) ~ 2.1854e-16 = the common coupling magnitude on H-unit vectors); combined with B908's I = -1, the H-unit gauge IS the determinant gauge. New-information headline: THREE unforced exact identities (S-row = non-S rows; the three column T's equal -- Galois forced only their product) + ONE exact number; the tau-flip and I^2 = 1 gates verified separately. Exact upgrades banked en route: the nine colorless atoms are EXACTLY pairwise H-orthogonal (upgrading B912's numerics); D acts +1 exactly on every colorless line; all nine B912 scales reproduced to their full stored 35 digits. R2' banked: the signed grid, the B913-sealed colored magnitudes with (1,2,0) tags, the explicit perfect matching (6 lll + 9 ccl + 2 ccc = 17, reproducing probeC). Independent numeric route agrees at 1e-80 spread. Gate 5 untouched -- no experimental number enters; R4 remains sealed and untouched.  
-`B914_ratio_table/FINDINGS.md`
+**PROVED — `B917`** (507 words, 1 locks)  
+THE VALUE ARC (handoff 7) VERIFIED at the firm layer: their suite reproduces end-to-end on this bench (the tau-intertwiner exact-tier PASS; the six-fold democracy at 45 digits; CCC = 3!*lambda; the P8 equivariance machinery test with the predicted slot transposition; the K-biography split table incl. the honest 13-index-distortion route), P9's product law CLOSED AT RECEIPT by pure integers (27*2304^4 = 760840571584512, hence v1 v2 v3 = 3^{3/2} lambda^2 given their hierarchy element), and THIS SEAT'S NEW EXACT IDENTITY: in the canonical gauge (B914's exact vectors, the B883-primitive cubic, the integer H+) their invariant evaluates to LAMBDA = 1 EXACTLY for all six couplings -- the colorless couplings ARE the geometric means of the raw H-norms; the object's tree-level colorless sector is UNIMODULAR in its own gauge. The lambda = 2304/953 vs lambda = 1 tension is driven to a single isolated question -- the 27/27bar realization bridge constant (primitivity is basis-dependent) -- dispatched as B916; until it lands, lambda's absolute value is convention-pending in both ledgers and the cross-seat canonical content is the RATIOS (CCC/lambda = 3!, the hierarchy ratios, the equalities). Tier honesty: their sections LIX-LX verified exact; LXI-LXV reproduced numeric; the exactification floor (V-L2) remains registered with B914's machinery as the template.  
+`B917_value_arc_verification/FINDINGS.md`
 
 **NEGATIVE — `B915`** (371 words, 1 locks)  
 THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single input alpha_em(M_Z) and the object's banked gauge boundary (E6 unification, sin2thetaW = 3/8 from the exact traces), the two-loop SM-desert curve's nearest approach to the measured pair (sin2thetaW, alpha_s)(M_Z) is d = 15.97 sigma_tot -- SEALED OUTCOME MISS: the identification 'object boundary + pure SM desert' is DEAD; every structural theorem stands, exactly as pre-stated. THE DISCLOSED PRIOR WON for the first time in five sealed cells (both directions of the seal discipline now verified live). THE BANKED FAILURE GEOMETRY: nearest approach at M_U = 1.5e13 GeV with the miss ALPHA_S-DOMINATED (gap +0.041 vs +0.002 in sin2thetaW); the pairwise meeting scales 1.09e13 / 1.72e14 / 2.91e16 GeV -- a three-order triangle. REGISTERED CONTINUATION (its own seal): R4b -- the object's own compact D-chain E6 > D5 > D4 > D3 > A2 as the desert's replacement, thresholds at the chain's banked scales, ZERO new parameters; the test is whether the chain closes THIS triangle. Gate 5's door was opened under seal, used once, and reported faithfully.  

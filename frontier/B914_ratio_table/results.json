@@ -1314,5 +1314,5 @@
   "vs_exact_T_rel": "9.15795e-76"
  },
  "verdict": "R2'+R3' DELIVERED: nine exact scales certified against B912; six exact T in N; T_row2=T_row3 and prod(rows)=prod(cols) forced; see T_table / T_pairwise_ratios for the new-information content",
- "runtime_s": 52.2
+ "runtime_s": 60.5
 }

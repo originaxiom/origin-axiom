@@ -19074,6 +19074,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B917": {
+   "slug": "value arc verification",
+   "motifs": [
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B883",
+    "B914",
+    "B916",
+    "L2",
+    "P8",
+    "P9"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

@@ -1,5 +1,8 @@
 # Changelog
 
+## B917 — the value arc verified; λ = 1 in the canonical gauge; the bridge isolated
+- Handoff 7's suite reproduces (τ-intertwiner exact; democracy 45d; CCC = 3!λ; P8's slot transposition; the K-biography). **P9 closed at receipt** (integers). **New identity: λ = 1 exactly in the canonical gauge** — the colorless sector is UNIMODULAR; their 2304/953 vs this 1 is driven to the 27/27̄ bridge constant (B916 in flight); cross-seat canonical content = the ratios. 3 locks. Gate 5 untouched.
+
 ## B915 — THE CROSSING: sealed verdict MISS (16σ); the desert dies, the structure stands
 - R4 executed under its locked protocol, prereg pushed before data contact. One input (α_em); the object's 3/8 boundary; two-loop desert curve vs (sin²θ_W, α_s): **d = 16.0σ — MISS**, α_s-dominated, meeting scales 10¹³/10¹⁴/10¹⁶·⁵. Killed: "boundary + desert." Standing: every theorem. **The prior won its first** — both directions of the seal discipline now live-verified.
 - Registered: **R4b** — the object's own D-chain as the desert's replacement, zero new parameters, must close this cell's triangle. 4 locks.
