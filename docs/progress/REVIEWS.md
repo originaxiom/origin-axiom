@@ -2976,3 +2976,15 @@ anchor-commit: `f0450d71` (Review 38)
    computations (M1–M8) all landed, the Barton–Sudbery naming became a theorem, the
    Kim-school divide is documented with citations, and the flavor arc opened the value
    layer with I = −1 at two primes.
+
+
+### Protocol amendment (2026-08-05, owner audit): two items added to every review's checklist
+7. **Terminology sweep**: TERMINOLOGY.md must gain entries for every load-bearing term the
+   window coined (checked against the window's CHANGELOG headlines); a review that adds no
+   entries must state "no new vocabulary" explicitly.
+8. **Hint-ledger sweep**: registered observations/fenced patterns living only in masterplan
+   notes or FINDINGS asides get HINT_LEDGER rows (the dual-protocol rule: hints recorded
+   before judging). Mid-window phase-boundary events (a crossing, a retraction of a pillar,
+   a real-form selection) additionally trigger an immediate README/views mid-window update —
+   the views-fresh gate guarantees review-cadence freshness only, and phase boundaries must
+   not wait for the counter.
