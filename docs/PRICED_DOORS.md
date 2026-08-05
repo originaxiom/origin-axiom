@@ -87,3 +87,6 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 36 (2026-08-01)** — **B685's normalisation is no longer the open to-do** (B839). New
 > priced item: complete the harvest of cc3's B792 spectrum if its extent is genuinely r ≈ 13.5 —
 > main has 17 to r = 9.84, and **completeness is unverified, not to be chased from here**.
+
+
+*Review 38 (2026-08-05): window B890–B906 reviewed — the M(𝕆,ℂ) isomorphism, the sealed generation-shaped verdict, the flavor arc with I = −1, the Kim lit-gate; five promotion candidates listed; next sealed cell: the real-form selector (B907). See docs/progress/REVIEWS.md.*

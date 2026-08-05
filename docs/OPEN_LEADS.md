@@ -723,3 +723,6 @@ clause, not the whole normalisation.
 > finished and unshipped" for five reviews. B797 certifies **17 Maass eigenvalues** (r → 9.84,
 > mode-count 664→900, max |Δr| = 5.42×10⁻⁹), B795 verified **7/7** independently, B794 proved
 > **level-(4) congruence + the mod-4 trace law**.
+
+
+*Review 38 (2026-08-05): window B890–B906 reviewed — the M(𝕆,ℂ) isomorphism, the sealed generation-shaped verdict, the flavor arc with I = −1, the Kim lit-gate; five promotion candidates listed; next sealed cell: the real-form selector (B907). See docs/progress/REVIEWS.md.*

@@ -176,3 +176,6 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 36 (2026-08-01)** — the verdict campaign is **complete** (W1–W3b; 756/810). The active
 > line is **P5**: Phase 0 green, Phase 1 run with web access and four of five claims reshaped,
 > Phase 2 (table-first draft) next.
+
+
+*Review 38 (2026-08-05): window B890–B906 reviewed — the M(𝕆,ℂ) isomorphism, the sealed generation-shaped verdict, the flavor arc with I = −1, the Kim lit-gate; five promotion candidates listed; next sealed cell: the real-form selector (B907). See docs/progress/REVIEWS.md.*

@@ -486,7 +486,7 @@ def main():
     try:
         import importlib.util, os
         import numpy as np
-        ROOT = "/Users/dri/oa-seat-cc3/origin-axiom"
+        ROOT = "[seat-machine-path]"
         spec = importlib.util.spec_from_file_location(
             "b238", os.path.join(ROOT, "frontier", "B238_su32_levelrank", "su32_wrt.py"))
         b238 = importlib.util.module_from_spec(spec)
@@ -562,7 +562,7 @@ def main():
 
     # cross-check against banked w0a_table.json if present
     try:
-        with open("/Users/dri/oa-seat-cc3/seat-work/derivation_campaign/w0a_criteria/w0a_table.json") as f:
+        with open("w0a_table.json") as f:
             w0a = json.load(f)
         w0a_words = set(c["word"] for c in w0a["hyperbolic_classes"])
         my_words = set(hyperbolic_words)
@@ -741,7 +741,7 @@ def main():
     # ============================================================================
     # WRITE DELIVERABLES
     # ============================================================================
-    out_dir = "/Users/dri/oa-seat-cc3/seat-work/derivation_campaign/w2b_landscape"
+    out_dir = "w2b_landscape"
 
     output = {
         "meta": {

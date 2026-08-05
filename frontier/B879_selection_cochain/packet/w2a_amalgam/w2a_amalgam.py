@@ -8,9 +8,9 @@ mapping torus, on the SU(3)_k stage, at k = 2 (kappa=5, the golden stage) and
 the secondary levels k = 1,3,4 (kappa = 4,6,7).
 
 READ-ONLY inputs (never modified):
-  - /Users/dri/oa-seat-cc3/origin-axiom/frontier/B238_su32_levelrank/su32_wrt.py
+  - [seat-machine-path]
     (banked, test-locked Kac-Peterson SU(3)_k / SU(2)_k modular data, float64)
-  - /Users/dri/oa-seat-cc3/seat-work/derivation_campaign/w0d_quantum_scout/quantum_probe.py
+  - [seat-machine-path]
     (scout's float64 probe of the bare weld operator; its output is REPRODUCED
     here, at kappa=5, in exact arithmetic, as CONTROL 1)
   - DESIGN_DA.md, PREREG_DC.md (section W2a), SCOUT.md (design + task text)
@@ -512,7 +512,7 @@ def float_crosscheck(k):
     """CONTROL (float64 cross-check, not verdict-path): reproduce trace(W) and
     nullity(W-I), nullity(T-I) via the banked su32_wrt.py's own numpy Kac-
     Peterson code, independently of our exact implementation."""
-    PATH = "/Users/dri/oa-seat-cc3/origin-axiom/frontier/B238_su32_levelrank/su32_wrt.py"
+    PATH = "su32_wrt.py"
     spec = importlib.util.spec_from_file_location("b238_su32", PATH)
     b238 = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(b238)
@@ -714,7 +714,7 @@ def main():
         ),
     )
 
-    outpath = "/Users/dri/oa-seat-cc3/seat-work/derivation_campaign/w2a_amalgam/w2a_results.json"
+    outpath = "w2a_results.json"
     with open(outpath, "w") as f:
         json.dump(out, f, indent=2, default=str)
     log(f"\nWrote {outpath}")

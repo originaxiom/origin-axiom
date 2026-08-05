@@ -1,7 +1,7 @@
 # W0d — THE QUANTUM SCOUT (seat cc3, 2026-07-17)
 
 Structure-of-the-field scout for the SELECTION & QUANTUM-COCHAIN CAMPAIGN's D-A program
-("the quantum cochain design"). Repo `/Users/dri/oa-seat-cc3/origin-axiom`
+("the quantum cochain design"). Repo `[machine-path]`
 read-only throughout; nothing here touches it. One exploratory numeric
 probe was run (`quantum_probe.py`, float64, same precision class as the
 banked `su32_wrt.py` gate script) to attach concrete numbers to the

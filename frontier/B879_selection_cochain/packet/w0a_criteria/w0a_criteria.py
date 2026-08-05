@@ -405,7 +405,7 @@ def main():
         "summary": summary,
     }
 
-    out_path = "/Users/dri/oa-seat-cc3/seat-work/derivation_campaign/w0a_criteria/w0a_table.json"
+    out_path = "w0a_table.json"
     with open(out_path, "w") as f:
         json.dump(output, f, indent=1)
     print(f"[W0a] wrote {out_path}", flush=True)

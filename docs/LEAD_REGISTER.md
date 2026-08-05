@@ -172,3 +172,6 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 36 (2026-08-01)** — no new leads. **P5's novelty row closed** after sitting PENDING since
 > 2026-07-10: no prior art for the four-strata frame; the κ-laws' delta is the **non-invertible**
 > sector; the drift ledger's method is classical so the claim is the ledger.
+
+
+*Review 38 (2026-08-05): window B890–B906 reviewed — the M(𝕆,ℂ) isomorphism, the sealed generation-shaped verdict, the flavor arc with I = −1, the Kim lit-gate; five promotion candidates listed; next sealed cell: the real-form selector (B907). See docs/progress/REVIEWS.md.*

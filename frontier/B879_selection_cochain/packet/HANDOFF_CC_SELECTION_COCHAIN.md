@@ -1,7 +1,7 @@
 # HANDOFF TO CC — THE SELECTION & QUANTUM-COCHAIN CAMPAIGN (from seat cc3, 2026-07-17)
 # For: verify -> bank -> push. cc assigns B-numbers; cc3 proposes structure.
 # Provenance: cc3 = the owner's third seat (cloned from cc2 2026-07-17,
-# structurally detached, own root /Users/dri/oa-seat-cc3). This is cc3's
+# structurally detached, own root [machine-path]). This is cc3's
 # first originated campaign, owner-approved. Repo synced through B670
 # (6442258) at campaign time. Repo untouched by cc3; Gate 5 never
 # approached; all compute sonnet agents; preregs sealed BEFORE compute

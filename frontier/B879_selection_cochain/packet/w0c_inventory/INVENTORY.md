@@ -1,5 +1,5 @@
 # W0c — THE GOLDEN-UNIQUENESS INVENTORY
-# (seat cc3, selection/cochain campaign; read-only sweep of /Users/dri/oa-seat-cc3/origin-axiom;
+# (seat cc3, selection/cochain campaign; read-only sweep of [machine-path];
 # 2026-07-17; every row below cites a file this agent actually opened)
 
 Scope key (per PREREG_SCC.md W0c): **METALLIC SLICE** = the single-block family

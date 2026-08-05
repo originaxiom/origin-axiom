@@ -361,9 +361,9 @@
   "claims": [
    {
     "statement": "The Barton-Sudbery formula for constructing Lie algebras from two composition algebras A and B is: M(A,B) \u2245 Tri(A) \u2295 Tri(B) \u2295 (A \u2297 B)\u00b3, where the three copies of A \u2297 B are distinguished by a Z\u2082 \u00d7 Z\u2082 grading",
-    "source": "John Baez, 'The Magic Square' (math.ucr.edu/home/baez/octonions); Barton & Sudbery, 'Magic squares and matrix models of Lie algebras', Advances in Mathematics 180(2) (2003), math/0203010",
+    "source": "John Baez, 'The Magic Square' (math.ucr.edu/~baez/octonions); Barton & Sudbery, 'Magic squares and matrix models of Lie algebras', Advances in Mathematics 180(2) (2003), math/0203010",
     "relevance": "Directly answers the user's requested formula structure and grading scheme",
-    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+    "url": "https://math.ucr.edu/~baez/octonions/node16.html"
    },
    {
     "statement": "The triality algebra Tri(K) of a composition algebra K is defined as the Lie subalgebra of so(K) \u2295 so(K) \u2295 so(K) consisting of triples (A,B,C) of endomorphisms satisfying A(xy) = B(x)y + xC(y) for all x,y \u2208 K",
@@ -375,13 +375,13 @@
     "statement": "For the complex numbers C, the triality algebra Tri(C) is 2-dimensional and corresponds to u(1)\u00b2; for octonions O, Tri(O) \u2245 so(8) with dimension 28",
     "source": "John Baez, 'The Magic Square'; derivation from definition that Tri(\u211d)={0}, Tri(\u2102)=u(1)\u00b2, Tri(\u210d)=su(2), Tri(\ud835\udd46)=so(8)",
     "relevance": "Confirms dimensional accounting: 28 + 2 = 30 for core of E6",
-    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+    "url": "https://math.ucr.edu/~baez/octonions/node16.html"
    },
    {
     "statement": "For E\u2086 = M(O,C), the dimension decomposition is: Tri(O)=28 + Tri(C)=2 + (O\u2297C)\u00b3=3\u00d716=48, yielding total dimension 78",
     "source": "John Baez, 'The Magic Square' and dimension verification via composition algebra theory; consistent with E\u2086 being 78-dimensional",
     "relevance": "Directly confirms user's dimensional accounting formula 28+2+3\u00d716=78",
-    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+    "url": "https://math.ucr.edu/~baez/octonions/node16.html"
    },
    {
     "statement": "The Lie bracket structure of M(A,B) is compatible with a Z\u2082 \u00d7 Z\u2082 grading where tri(A) and tri(B) sit at grade (0,0), and the three copies of A\u2297B occupy grades (0,1), (1,0), and (1,1)",
@@ -411,12 +411,12 @@
     "statement": "COULD NOT CONFIRM from available sources: Whether tri(C) should be characterized as u(1)\u00b2 or as {0}\u2295(dimension-2 correction term); sources vary in notation",
     "source": "Different formulations in secondary sources show slight notational variance on how the trivial triality of \u2102 contributes to E\u2086",
     "relevance": "User's decomposition (so(8)\u2295u(1)\u00b2) appears correct dimensionally but the exact algebraic characterization of the u(1)\u00b2 piece in the core needs the original paper",
-    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+    "url": "https://math.ucr.edu/~baez/octonions/node16.html"
    }
   ],
   "best_sources": [
    "https://arxiv.org/pdf/math/0203010",
-   "https://math.ucr.edu/home/baez/octonions/node16.html",
+   "https://math.ucr.edu/~baez/octonions/node16.html",
    "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf"
   ]
  },
@@ -438,10 +438,10 @@
     "url": "https://arxiv.org/pdf/math/0203010"
    },
    {
-    "statement": "UNCONFIRMED as stated \u2014 dim Tri(\u2102): the earlier Baez-page fetch returned 'Tri(\u2102) \u2245 so(3)' (dim 3), but this is arithmetically inconsistent with the E6 dimension count also returned in the SAME fetch (28+3+3\u00b716=79\u226078). The self-consistent value forced by 28+dim Tri(\u2102)+48=78 is dim Tri(\u2102)=2 (i.e. Tri(\u2102)\u2245u(1)\u2295u(1)), matching the prior claim, not so(3). Flag this as a probable mis-extraction/hallucination in the earlier fetch of math.ucr.edu/home/baez/octonions/node16.html, not a sourced fact \u2014 the actual page text for Tri(\u2102)'s dimension was not independently re-verified in this pass.",
+    "statement": "UNCONFIRMED as stated \u2014 dim Tri(\u2102): the earlier Baez-page fetch returned 'Tri(\u2102) \u2245 so(3)' (dim 3), but this is arithmetically inconsistent with the E6 dimension count also returned in the SAME fetch (28+3+3\u00b716=79\u226078). The self-consistent value forced by 28+dim Tri(\u2102)+48=78 is dim Tri(\u2102)=2 (i.e. Tri(\u2102)\u2245u(1)\u2295u(1)), matching the prior claim, not so(3). Flag this as a probable mis-extraction/hallucination in the earlier fetch of math.ucr.edu/~baez/octonions/node16.html, not a sourced fact \u2014 the actual page text for Tri(\u2102)'s dimension was not independently re-verified in this pass.",
     "source": "internal arithmetic check against Baez 'The Magic Square' page fetch",
     "relevance": "Corrects/flags a specific numeric error rather than passing it through as confirmed",
-    "url": "https://math.ucr.edu/home/baez/octonions/node16.html"
+    "url": "https://math.ucr.edu/~baez/octonions/node16.html"
    },
    {
     "statement": "CONFIRMED (Elduque, Rev. Mat. Iberoamericana 23 (2007), eq. 1.6, p.60): the magic-square Lie algebra is \ud835\udd24(S,S') = (tri(S,*,q) \u2295 tri(S',*,q')) \u2295 (\u2295_{i=0}^{2} \u03b9_i(S\u2297S')), a \u2124\u2082\u00d7\u2124\u2082-graded anticommutative algebra with \ud835\udd24_(0\u0304,0\u0304)=tri(S,*,q)\u2295tri(S',*,q') and \ud835\udd24_(1\u0304,0\u0304)=\ud835\udd24_(0\u0304,1\u0304)=\ud835\udd24_(1\u0304,1\u0304)=S\u2297S' (three copies, one per nonzero grade of \u2124\u2082\u00d7\u2124\u2082).",
@@ -481,7 +481,7 @@
   "best_sources": [
    "https://arxiv.org/pdf/math/0203010",
    "https://projecteuclid.org/journals/revista-matematica-iberoamericana/volume-23/issue-1/The-Magic-Square-and-Symmetric-Compositions-II/rmi/1180728885.pdf",
-   "https://math.ucr.edu/home/baez/octonions/node16.html"
+   "https://math.ucr.edu/~baez/octonions/node16.html"
   ]
  },
  {

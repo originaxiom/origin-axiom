@@ -7,7 +7,7 @@ results. Every number below should be re-derived exactly before any wave-2
 cell relies on it.
 
 Reads (read-only, no modification) the banked, test-locked script:
-  /Users/dri/oa-seat-cc3/origin-axiom/frontier/B238_su32_levelrank/su32_wrt.py
+  [seat-machine-path]
 (locked by tests/test_b238_su32_levelrank.py). Convention for R, L follows
 the banked one verbatim (papers/drafts/PC26_full_chain/PAPER.md line ~297:
 "Put R = T, L = S^{-1} T^{-1} S"; also frontier/B664 .../METALLIC_LANDSCAPE_
@@ -17,7 +17,7 @@ figure-eight case is n=3, i.e. W = R^1 L = RL).
 import importlib.util
 import numpy as np
 
-PATH = "/Users/dri/oa-seat-cc3/origin-axiom/frontier/B238_su32_levelrank/su32_wrt.py"
+PATH = "su32_wrt.py"
 spec = importlib.util.spec_from_file_location("b238_su32", PATH)
 b238 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(b238)

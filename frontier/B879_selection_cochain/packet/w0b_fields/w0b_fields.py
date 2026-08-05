@@ -405,7 +405,7 @@ def main():
         "golden_question": golden_question,
     }
 
-    out_path = "/Users/dri/oa-seat-cc3/seat-work/derivation_campaign/w0b_fields/w0b_table.json"
+    out_path = "w0b_table.json"
     with open(out_path, "w") as fh:
         json.dump(output, fh, indent=2)
     print(f"wrote {out_path}")

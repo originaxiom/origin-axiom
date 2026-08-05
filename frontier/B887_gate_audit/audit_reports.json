@@ -608,7 +608,7 @@
    {
     "severity": "HIGH",
     "mechanism": "Because bad/missing detection runs `re.findall` over each merged block rather than per-declared-link, a merged (unsplit) block inherits the preceding link's already-satisfied `tests/test_*.py` citation and is never independently checked for its own lock -- confirmed live: injecting an uncited `~~**C24 [...~~` block leaves link count (23) and bad/missing lists (empty) unchanged before and after.",
-    "evidence": "reproduced against /Users/dri/origin-axiom/docs/THEOREM_LEDGER.md via scripts/gates/gates.py:574-596 logic"
+    "evidence": "reproduced against [repo]/docs/THEOREM_LEDGER.md via scripts/gates/gates.py:574-596 logic"
    }
   ]
  },

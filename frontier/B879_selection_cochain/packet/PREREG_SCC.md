@@ -1,6 +1,6 @@
 # PREREG — THE SELECTION & QUANTUM-COCHAIN CAMPAIGN (seat cc3; sealed before compute, 2026-07-17)
 # Two programs: D-B "WHY DISC 5" (the selection theorem) and D-A "THE QUANTUM
-# COCHAIN DESIGN". Repo READ-ONLY at /Users/dri/oa-seat-cc3/origin-axiom.
+# COCHAIN DESIGN". Repo READ-ONLY at [seat-machine-path]
 # All work under this dir. Gate 5: no SM comparison anywhere in this campaign.
 # Agent economy: sonnet for every scoped cell; main seat (Fable) only for
 # derivation synthesis and verification. No task-store use (shared-slot

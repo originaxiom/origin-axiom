@@ -8,7 +8,7 @@ trip=[tuple(t) for t in CB['triples']]; coef=[int(sp.Rational(c)) for c in CB['c
 D=pickle.load(open(RUN+'rep27.pkl','rb')); REP=D['REP']
 CJ=json.load(open(RUN+'cells_40639.json'))
 with contextlib.redirect_stdout(io.StringIO()):
-    exec(compile(open('/Users/dri/origin-axiom/frontier/B854_centralizer_exact/e6_centralizer.py').read(),'b854','exec'), globals())
+    exec(compile(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'B854_centralizer_exact', 'e6_centralizer.py')).read(),'b854','exec'), globals())
 q=40639; r1,g1,a1=CJ['tower']; bq=CJ['b']
 def rq_(x):
     xr=sp.Rational(x); return (xr.p%q)*pow(xr.q%q,-1,q)%q

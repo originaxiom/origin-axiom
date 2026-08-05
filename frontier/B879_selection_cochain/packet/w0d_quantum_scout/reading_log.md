@@ -1,10 +1,10 @@
 # W0d reading log (seat cc3, 2026-07-17)
 
-All paths under `/Users/dri/oa-seat-cc3/origin-axiom` (read-only) unless
+All paths under `[machine-path]` (read-only) unless
 noted. Sealed prereg read first as instructed.
 
 ## Prereg / campaign scaffolding
-- `/Users/dri/oa-seat-cc3/seat-work/selection_cochain_campaign/PREREG_SCC.md` (sealed prereg, read first)
+- `[machine-path]` (sealed prereg, read first)
 
 ## B662 successor campaign (the source of the Massey wall + the γ5′ identification)
 - `frontier/B662_successor_campaign/CAMPAIGN_PREREGISTRATION.md`

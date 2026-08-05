@@ -263,7 +263,7 @@
         "claimCount": 4
       },
       {
-        "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+        "url": "https://math.ucr.edu/~baez/octonions/node16.html",
         "quality": "primary",
         "angle": "negative-check — magic square × arithmetic CS / character varieties",
         "claimCount": 5

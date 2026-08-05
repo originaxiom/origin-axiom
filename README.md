@@ -4,14 +4,16 @@ A claim-bounded, reproducible investigation of the **Origin Axiom** — the idea
 existence is a *frustrated cancellation*: a remainder left when an attempt to cancel to
 nothing cannot complete.
 
-> **State at Review 37 (2026-08-03).** The SM-structure window closed: the selection spine
-> (repair → fused principle → termination → anomaly split → registerability keystone → menu
-> gate) carries **zero load-bearing imports**; the **First Measurement Theorem** (the object's
-> superselection charges stratify e₆; three Galois-conjugate first breakings; triality tiling
-> with a cyclic law; matter = the two foreign sectors) is a **two-seat theorem**; **THE
-> DESCENT** shows each breaking's matter is exactly one SM generation's multiplet pattern while
-> the triple lives *across* the three breakings, not within one. Structure only — no values,
-> no generations mechanism, Gate 5 untouched. Ledger: `docs/progress/REVIEWS.md` Review 37.
+> **State at Review 38 (2026-08-05).** The meditation/capstone/flavor window: the tiling
+> is now **M(𝕆,ℂ) by explicit exact isomorphism** (all 3,003 bracket relations, det φ = −2/3);
+> the torus's split/compact dichotomy is a float-free theorem whose four-column concordance
+> (θ-parity / torsion sign / spectrum / the resolvent 77) marks the measured plane; the vacuum
+> and charge cubic fields **annihilate** in the Knus–Paques group; a sealed cell decided the
+> all-perspectives algebra is **generation-shaped**; the solo seat's flavor arc verified
+> wholesale (one ℤ₂ law with three faces, fifteen atoms, a K₃,₃ grid) with the first derived
+> value **I = −1 at seven primes**; and the literature gate documented that the
+> torsor-as-measurement reading is this programme's own. Sealed next: the real-form selector.
+> Ledger: `docs/progress/REVIEWS.md` Review 38.
 
 
 This repository is the **consolidated, canonical home** of the project. It supersedes four

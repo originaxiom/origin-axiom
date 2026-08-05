@@ -206,3 +206,6 @@ names as the thing physics readings wait on. L91 obligations (1)–(3) are open.
 > reshaped claims and the **Q2 two-cell row**. Highest-value instrument task: **re-ask "could this
 > gate still fail?" across all 19 gates** — three were found fail-open by drift in one window, none
 > by the standing audit.
+
+
+*Review 38 (2026-08-05): window B890–B906 reviewed — the M(𝕆,ℂ) isomorphism, the sealed generation-shaped verdict, the flavor arc with I = −1, the Kim lit-gate; five promotion candidates listed; next sealed cell: the real-form selector (B907). See docs/progress/REVIEWS.md.*

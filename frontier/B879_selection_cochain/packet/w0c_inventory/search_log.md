@@ -1,4 +1,4 @@
-# W0c search log (read-only sweep of /Users/dri/oa-seat-cc3/origin-axiom)
+# W0c search log (read-only sweep of [machine-path])
 
 All commands run read-only from the repo root; no files in origin-axiom
 were modified.
@@ -85,5 +85,5 @@ were modified.
     "linearly disjoint fields" language. Flagged here so it is not
     mistaken for a golden-uniqueness citation by a later reader.
 
-No files under /Users/dri/oa-seat-cc3/origin-axiom were written to.
-No files under /Users/dri/oa-seat-cc2/** were touched or read.
+No files under [machine-path] were written to.
+No files under [machine-path]** were touched or read.

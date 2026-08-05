@@ -2928,3 +2928,51 @@ per-sector grading by non-clustering charges) — all recorded in their arcs.
   the 49 `false` provenance flags.
 - [>] R37-9 (carried R36-7, owner/external): the specialist pass and the L95 prereg.
 
+
+## Review 38 — 2026-08-05 (merges 1–30 from Review 37; the meditation / capstone / flavor window)
+
+anchor-commit: `f0450d71` (Review 38)
+
+1. **Suite:** green after review fixes — the dedicated complete run gave **3499 passed, 5 failed, 35 skipped** (58:53); all five failures were HYGIENE locks tripped by this window's commits (one negative-routing row owed for B899; four path/surface scans on files from the window incl. the cc3 selection-cochain packet and a URL-shaped false positive); every offender fixed at review, all affected locks rerun green (15/15). An earlier fail-fast attempt aborted at the routing failure and an even earlier run stalled under parallel-job contention — reviews should run the suite quiet and complete.
+2. **Gates:** 19/19 green at review time and at every push in the window; the pre-push hook
+   caught two real violations mid-window (an attribution token in a committed script path;
+   an unresolved path citation from a sealed prereg) — both fixed at the push, neither
+   reached a remote.
+3. **Atlas:** regenerated at every bank; the lexicon triage gained one honest `GAP` row
+   (B899 — leakage/deviation magnitudes and root-spacing geometry await a motif).
+4. **Promotion-candidacy sweep (§5.1).** The window banked **B890–B906** plus the P69
+   promotion and two sealed preregs (B897, B907). Verdicts: 15 PROVED, 1 NEGATIVE (B899,
+   routed into the kill graph at this review), 2 sealed-cells-decided (B890/B891 DISTINCT,
+   B897 outcome A). Candidates meeting the §5 bars, listed for the promotion gates:
+   - **B904** — the build IS M(𝕆,ℂ) by explicit exact isomorphism (0/3003; det φ = −2/3).
+     The strongest candidate; would upgrade P69's naming clause to a theorem citation.
+   - **B892+B893** — the Second Measurement Theorem with its Galois-uniform complex wall
+     (two-seat; the solo seal met by the independent bank).
+   - **B894+B898** — the four-column concordance (θ-parity / torsion sign / exact
+     ad-spectrum type / resolvent 77), every column banked, the census float-free.
+   - **B902** — vacuum ⊕ charge = the split algebra (exact ζ₆-line certificates).
+   - **B897** — the sealed generation-shaped verdict (outcome A at two primes; the
+     mechanism fence pre-stated and standing).
+5. **Framing sweep:** clean. B897's "generation-shaped"/"lepton-pattern" vocabulary is
+   defined inside its sealed prereg with the fence in the same file; B906's I = −1 is
+   structure-sign only, computed blind; Gate 5 untouched across the window. Stale-leads
+   check: no OPEN_LEADS row resolved-but-unmarked; the masterplan register (v2–v4) held
+   the queue with nothing orphaned — the register discipline (owner directive this window)
+   caught three would-have-been losses (the unread z6d run, the unshipped cubic27.json,
+   this ledger's own LATEST lag).
+6. **Process findings of the window:** (a) the verdict vocabulary is enforced by lock —
+   an invented "COMPUTED" verdict was caught by the wellformedness suite and corrected to
+   house vocabulary; (b) two infrastructure bugs were caught by verify-don't-trust applied
+   to our own tooling (the B902 certificate save-path shadowing; the B904 unnormalized
+   tensor store that silently dropped a bracket slot); (c) the two-seat protocol produced
+   its strongest event yet — a sealed prediction (solo §XXXVII) met by an independently
+   banked computation (B893) committed before the seal arrived; (d) the first suite run of
+   this review stalled from job contention and was rerun — reviews should run the suite
+   on a quiet machine.
+7. **State at close:** the executable queue is empty except the two sealed/registered next
+   cells (B907 the real-form selector — prereg sealed and committed pre-compute; the
+   I-exactness pin). Standing: the two papers, λ₂ (cc3, external), N2/N4 remainders,
+   FA3 and the grid coordinates (solo side). The window's shape: the meditation
+   computations (M1–M8) all landed, the Barton–Sudbery naming became a theorem, the
+   Kim-school divide is documented with citations, and the flavor arc opened the value
+   layer with I = −1 at two primes.
