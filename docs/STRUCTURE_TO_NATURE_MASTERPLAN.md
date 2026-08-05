@@ -355,3 +355,29 @@ contemplation slot; P9 CLOSED at receipt (verified here).
 **Note:** their capstone gates the one-input comparison behind exactification — they
 had not yet received relay 5 (B915 ran under seal; verdict MISS; the triangle banked).
 Relay 5 already covers it; V-L2 now also serves R4b's exact-tier requirement.
+
+### Dated amendment (2026-08-05) — Chat-1 handoff processed: one scrutiny banked, two new routes registered
+- **B897 scrutiny addendum banked** (accepted): the quark block's su(2)′ is trivial —
+  generation-shape holds at tiling level, not exact-quantum-numbers level. The fence
+  was already correct; the scope is now explicit.
+- **NEW ROUTE R-EMB (the embedding selection)**: the McKay correspondence delivers the
+  E₆ DIAGRAM, not a chain through it. The GUT chain reads 27 = 16+10+1 (SM matter,
+  leptons present); the conformal chain reads 27 = (3,2,2)+(3,3,1)+(6,1,1) (no color
+  singlets, no leptons — Chat-1's computation, their errors #22/#23 killing the SSB
+  patch). THE QUESTION: does the object's arithmetic select a chain? Candidate
+  discriminators: the measurement cascade's own path (FMT→SMT selects so(10)⊕u(1) →
+  the SM algebra — the GUT-side chain!) vs the conformal-embedding route (B254 lineage).
+  Note B892 already skips SU(5) within the GUT side. Design a two-outcome cell.
+- **NEW ROUTE R-INV (the involution couplings)**: B593 computed ONE forced coupling
+  (hearing × measurement via θ). Three involutions unused on the same face pair
+  (σ*, c, σ*c) — same machinery, different projections, each potentially an
+  independent forced value. Chat-1's estimate: ~80+ potential forced couplings across
+  the face pairs. Cheap cells, high yield; queue behind the register heads.
+- **R4b BENCHMARK (externally fitted — NOT the object's)**: Chat-1's one-loop ladder
+  scan closes the crossing's α_s gap with ONE Pati–Salam threshold at M_I ≈ 10¹⁵·⁵ GeV
+  (M_I fitted). R4b's sharp question is unchanged — do the object's OWN chain scales
+  land there with zero freedom? — but the target now has an external benchmark to
+  compare against. Recorded as comparison data only.
+- **Correction to the incoming handoff**: "CLAIMS.md is empty" is false — P69 (the FMT)
+  and P70 (the magic-square isomorphism) are ledgered; presumably intended as "no
+  physics-facing claims," which is true and Gate 5's design.

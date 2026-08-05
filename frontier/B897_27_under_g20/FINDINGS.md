@@ -72,3 +72,17 @@ The solo seat's §5 fence stands.
 
 B854, B866, B883 (the 27), B892 (G₂₀ verified), B895 (color exact); the
 z6c color generators.
+
+## SCRUTINY ADDENDUM (Chat-1 cross-seat, banked 2026-08-05)
+
+Chat-1's independent scrutiny of this cell confirms the computation (Casimirs
+exact at two primes; three forced by triality) and lodges one scoping gap,
+accepted and banked: **the quark block (3_c, 3_f) carries trivial su(2)′ — the
+quark sector has no internal weak doublet/singlet split in this decomposition.**
+The 18 colored states are count-consistent with the GUT reading (16+10+1 has
+18 colored states), but "generation-shaped" is established at the
+color × flavor TILING level, not at the exact-quantum-numbers level. The
+sealed verdict's wording ("replication of fixed color⊗su(2)′ types") is
+compatible — the su(2)′ type of the quark block is the trivial one — but the
+sharper reading (weak structure inside the quark sector) is NOT delivered by
+this cell and remains with the mechanism fence. Scope so noted.

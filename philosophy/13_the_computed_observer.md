@@ -31,3 +31,17 @@ matter is the non-triviality of the observer bundle.
 them yet; the crossing's MISS says the naive door is shut and the object's own ladder
 (R4b) is the registered next question. The doctrine's scoreboard: three clauses
 computed, three still faith. That ratio is the programme working.
+
+*Cross-seat appendix (Chat-1, 2026-08-05): the observer theory's full citation
+inventory, verified present and locked in-repo — B723 (the observer as phase
+transition), B717 (the four closings), B700 (measurement = fiber functor; the
+torsor IS Galois), B701 (the choice provably free), B725 (Born FORM from c-swap
+order 2), B762 (the object is a QUINE — self-naming, unique among 203,123),
+B761 (no private states), B760 (awareness without choice — cannot close
+itself), B592 (the mirror listener is deaf), B177 (crystal, not cell), B130
+(no forced choice), B37 (feedback/invariant/no self-model), B806 (lexicon
+blindness — the guarantee that every sweep finds what the last one couldn't).
+This room's claim-discipline note: the phase-as-qualia reading (arg(h):
+observer-dependent, π/10-quantized, invisible in |h|², private-lawful-
+irreducible) remains FENCED — the properties match, the identification is
+not claimed.*
