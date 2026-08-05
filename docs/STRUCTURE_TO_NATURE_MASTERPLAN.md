@@ -320,3 +320,38 @@ close B915's banked triangle (meeting scales 1.09e13 / 1.72e14 / 2.91e16 GeV; th
   β-ladder is computed (the direction of threshold corrections is calculable before
   any scale choice — if the sign is wrong, the prior is MISS and the cell may still
   be worth running for the quantified exclusion).
+
+## AMENDMENT v5 (2026-08-05) — handoff 7 (the value arc) received; the two seats ran the SAME chain independently
+
+**The seam:** the solo seat executed e₆(2)-norm → atom scales → ratio table in one
+sitting (§LIX–LXVIII), independently of rounds 2–3 here. Instant convergences:
+their (15,12) via the τ-intertwiner P ↔ B912's via the conjugation (they authenticate
+each other, as their §LX itself notes); their six-equal-lll democracy ↔ B914's
+all-equal-T THEOREM (the exact floor they request as L2 ALREADY EXISTS in B914's
+machinery); their ∏c = −1 torsor reframe ↔ B896's sign-placement. Instant checks run
+at receipt: P9's product law 27·2304⁴ = 760840571584512 TRUE (pure integers);
+953/1129/421493 prime with μ mod p = [1,2] each; 17, 19 inert clean; the 13 naive
+pattern [1,1,1] hits exactly their flagged index-distortion (verification must use
+their careful route).
+
+**THE TENSION TO RESOLVE FIRST (L1's head):** their λ = 2304/953 is RATIONAL; B914's
+T = σ₂(t_K) is CUBIC. Both claim "the six colorless couplings are equal." Almost
+certainly a normalization-convention difference (their atom norms vs the H-unit
+gauge) — but it must be RECONCILED EXACTLY, not assumed: find the conversion factor
+and certify it. If they do NOT reconcile, one seat has an error — highest priority.
+
+**The queue (their L1–L5, cc-ordered):**
+- V-L1: verification suite running (tauP/norms/fulltab/belt100/vhunt/perm_test/p456/p42)
+  + the λ↔T reconciliation cell + №3's remainder (cpen still grinding).
+- V-L2: THE EXACTIFICATION PASS — B914's exact-atom machinery applied to λ, CCC, V
+  (the template exists; this upgrades their dps-100 to identities).
+- V-L3: V into the Kummer machinery (B910's table gains a fifth element; the
+  degree-one places of 953/1129/421493 as the input sheet).
+- V-L4: THE TORSOR COCYCLE (joint): ∏c = −1 as the obstruction class of the
+  generation functor — with B896's rep-theory placement as the cc-side ingredient.
+- V-L5: their small redos ride along flagged.
+**Their P-round designs adopted:** P2/P4 fold into V-L2; P5/P6 into V-L3; P7 to a
+contemplation slot; P9 CLOSED at receipt (verified here).
+**Note:** their capstone gates the one-input comparison behind exactification — they
+had not yet received relay 5 (B915 ran under seal; verdict MISS; the triangle banked).
+Relay 5 already covers it; V-L2 now also serves R4b's exact-tier requirement.
