@@ -1,0 +1,106 @@
+{
+ "primes_used": [
+  40123,
+  40639,
+  40693,
+  40897,
+  40903,
+  40927,
+  40939
+ ],
+ "mu_mine_vanishes_on_r": {
+  "40123": [
+   false,
+   false,
+   false
+  ],
+  "40639": [
+   false,
+   false,
+   false
+  ],
+  "40693": [
+   false,
+   false,
+   false
+  ],
+  "40897": [
+   false,
+   false,
+   false
+  ],
+  "40903": [
+   false,
+   false,
+   false
+  ],
+  "40927": [
+   false,
+   false,
+   false
+  ],
+  "40939": [
+   false,
+   false,
+   false
+  ]
+ },
+ "mu_x13_vanishes_on_r": {
+  "40123": [
+   true,
+   true,
+   true
+  ],
+  "40639": [
+   true,
+   true,
+   true
+  ],
+  "40693": [
+   true,
+   true,
+   true
+  ],
+  "40897": [
+   true,
+   true,
+   true
+  ],
+  "40903": [
+   true,
+   true,
+   true
+  ],
+  "40927": [
+   true,
+   true,
+   true
+  ],
+  "40939": [
+   true,
+   true,
+   true
+  ]
+ },
+ "reconstructed": {
+  "ev_('H1', 'S', 'H4')": [
+   "-5399728812309071/5302002527413045",
+   "971345226260495/4317218994760706",
+   "-4920220765081831/797168139233585"
+  ]
+ },
+ "failed": [
+  "g",
+  "a",
+  "b",
+  "ev_('H2', 's16_1', 'L2')",
+  "ev_('S', 'H2', 'H1')",
+  "ev_('H3', 'L1', 's16_2')",
+  "ev_('H4', 'H3', 'S')",
+  "ev_('s16_1', 's16_2', 'H3')",
+  "ev_('L1', 'L2', 'H2')",
+  "ev_('L2', 'H4', 'L1')",
+  "ev_('s16_2', 'H1', 's16_1')"
+ ],
+ "ev_reconstructed": "1/9"
+}

@@ -1,0 +1,884 @@
+{
+ "arc": "B908 leg 3 (register item B908-leg-3)",
+ "target": "the involution mapping prod(rows) to -prod(cols); parity source",
+ "mechanism_statement": [
+  "The 9 colorless atoms are the joint eigenlines of the 12 exact torus",
+  "operators; the restricted E6 cubic is supported on EXACTLY the 6 grid",
+  "lines (159/159 zero-sum certificates at each of 7 primes make the char-0",
+  "vanishing of the other 159 multisets exact). The 6-line cubic is",
+  "det-type: its gl9 stabilizer has dim 16 = sl3+sl3 (both primes), there",
+  "is a diagonal det-frame in which the couplings are (+1,+1,+1,-1,-1,-1),",
+  "and the grid-transpose J in that frame is an involution with",
+  "cub(J.,J.,J.) = -cub on all 165 multisets that swaps the two pencils.",
+  "PARITY SOURCE: under the Leibniz relabeling the row pencil is the three",
+  "EVEN permutation transversals of det and the column pencil the three ODD",
+  "ones; J composes with a transposition, and the -1 is the Leibniz sign",
+  "eps(transposition). Hence prod(rows) = -prod(cols), i.e. v = 0, for any",
+  "det-type normalization; I = -1 is normalization-free.",
+  "GALOIS REFINEMENT: the pencil swap is NOT Galois. The S-line (the",
+  "coupling through the three S-atoms) lies in one pencil at every prime;",
+  "any Galois element fixes the S-atom set, hence fixes the S-line, hence",
+  "preserves each pencil (K33 uniqueness); the columns are labeling-indexed",
+  "(= mu-root-indexed) and Galois permutes them; the two non-S rows have",
+  "EQUAL coupling values at all 7 primes. J maps the S-line to a column",
+  "that contains one S-atom, so J is frame-level (Weyl-type), not Galois."
+ ],
+ "remains_for_full_exactness": [
+  "1. The char-0 det-type certificate: exhibit the 16-dim sl3+sl3 inside",
+  "   the E6 derivations EXACTLY (over K = Q[r]/mu13) stabilizing the",
+  "   9-atom space as 3x(3bar); by the proven uniqueness (dim_Q = 1 of the",
+  "   annihilated cubic space) the restricted cubic is then a multiple of",
+  "   det and I = -1 exactly, no height bound needed.",
+  "2. Alternative: rational reconstruction of the couplings needs a larger",
+  "   modulus: at 7 primes (M ~ 1.9e32, bound 9.6e15) the individual",
+  "   couplings and P_R, P_C do NOT reconstruct below the spurious gauge;",
+  "   more full-tower primes (leg-2 tower derivation) would pin them.",
+  "3. The standing full-tower reduction assumption (mod-p pipeline = the",
+  "   reduction of the char-0 construction) is leg-1 material; the 7-prime",
+  "   consistency of every structural fact above corroborates it."
+ ],
+ "primes": {
+  "40123": {
+   "I": 40122,
+   "v": 0,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "atoms": 9,
+   "couplings": 6
+  },
+  "40639": {
+   "I": 40638,
+   "v": 0,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "atoms": 9,
+   "couplings": 6
+  }
+ },
+ "structure_40123": {
+  "colorless_cells_per_labeling": [
+   9,
+   9,
+   9
+  ],
+  "colorless_mults": [
+   [
+    1
+   ],
+   [
+    1
+   ],
+   [
+    1
+   ]
+  ],
+  "atoms_common_eigenlines": true,
+  "order_independence": {
+   "(0, 1, 2)": {
+    "I": 40122,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(0, 2, 1)": {
+    "I": 40122,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(1, 0, 2)": {
+    "I": 40122,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(1, 2, 0)": {
+    "I": 40122,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(2, 0, 1)": {
+    "I": 40122,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(2, 1, 0)": {
+    "I": 40122,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   }
+  },
+  "K33": true,
+  "grid": {
+   "0": [
+    0,
+    0
+   ],
+   "1": [
+    1,
+    1
+   ],
+   "2": [
+    0,
+    1
+   ],
+   "3": [
+    2,
+    1
+   ],
+   "4": [
+    0,
+    2
+   ],
+   "5": [
+    2,
+    2
+   ],
+   "6": [
+    1,
+    2
+   ],
+   "7": [
+    2,
+    0
+   ],
+   "8": [
+    1,
+    0
+   ]
+  },
+  "sym3_nonzero": 6,
+  "sym3_equals_couplings": true,
+  "ambient_derivations": {
+   "8": true,
+   "14": true,
+   "16": true,
+   "22": true
+  }
+ },
+ "structure_40639": {
+  "colorless_cells_per_labeling": [
+   9,
+   9,
+   9
+  ],
+  "colorless_mults": [
+   [
+    1
+   ],
+   [
+    1
+   ],
+   [
+    1
+   ]
+  ],
+  "atoms_common_eigenlines": true,
+  "order_independence": {
+   "(0, 1, 2)": {
+    "I": 40638,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(0, 2, 1)": {
+    "I": 40638,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(1, 0, 2)": {
+    "I": 40638,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(1, 2, 0)": {
+    "I": 40638,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(2, 0, 1)": {
+    "I": 40638,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   },
+   "(2, 1, 0)": {
+    "I": 40638,
+    "v": 0,
+    "lines": 9,
+    "physical_match": true,
+    "slot_shuffle": true
+   }
+  },
+  "K33": true,
+  "grid": {
+   "0": [
+    0,
+    0
+   ],
+   "1": [
+    1,
+    1
+   ],
+   "2": [
+    0,
+    1
+   ],
+   "3": [
+    2,
+    1
+   ],
+   "4": [
+    2,
+    2
+   ],
+   "5": [
+    0,
+    2
+   ],
+   "6": [
+    1,
+    2
+   ],
+   "7": [
+    1,
+    0
+   ],
+   "8": [
+    2,
+    0
+   ]
+  },
+  "sym3_nonzero": 6,
+  "sym3_equals_couplings": true,
+  "ambient_derivations": {
+   "8": true,
+   "14": true,
+   "16": true,
+   "22": true
+  }
+ },
+ "mechanism_40123": {
+  "stabilizer_dim": 16,
+  "control_random": {
+   "I": 31572,
+   "dim": 4
+  },
+  "control_torus_twist": {
+   "I": 40122,
+   "dim": 16
+  },
+  "control_permanent": {
+   "I": 1,
+   "dim": 4
+  },
+  "detframe_consistency": true,
+  "detframe_solved": true,
+  "detframe_couplings": [
+   1,
+   40122,
+   40122,
+   1,
+   1,
+   40122
+  ],
+  "detframe_is_pm1": true,
+  "J_cycle_type": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "J_fixed_atoms": [
+   [
+    "H1",
+    "S",
+    "H4"
+   ],
+   [
+    "H2",
+    "s16_1",
+    "L2"
+   ],
+   [
+    "s16_1",
+    "s16_2",
+    "H3"
+   ]
+  ],
+  "J_involution": true,
+  "J_antisymmetry_all_165": true,
+  "J_swaps_pencils": true
+ },
+ "mechanism_40639": {
+  "stabilizer_dim": 16,
+  "control_random": {
+   "I": 21022,
+   "dim": 4
+  },
+  "control_torus_twist": {
+   "I": 40638,
+   "dim": 16
+  },
+  "control_permanent": {
+   "I": 1,
+   "dim": 4
+  },
+  "detframe_consistency": true,
+  "detframe_solved": true,
+  "detframe_couplings": [
+   1,
+   40638,
+   40638,
+   1,
+   1,
+   40638
+  ],
+  "detframe_is_pm1": true,
+  "J_cycle_type": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "J_fixed_atoms": [
+   [
+    "s16_1",
+    "L2",
+    "H2"
+   ],
+   [
+    "H1",
+    "L1",
+    "L2"
+   ],
+   [
+    "H2",
+    "S",
+    "H3"
+   ]
+  ],
+  "J_involution": true,
+  "J_antisymmetry_all_165": true,
+  "J_swaps_pencils": true
+ },
+ "verification_all_primes": {
+  "40123": {
+   "atoms_in_named_cells": true,
+   "cell_atom_bijection": true,
+   "support_recomputed_equals_stored": true,
+   "bipartite": true,
+   "side_matches": true,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "n_S_atoms": 3,
+   "S_line_is_coupling": true,
+   "S_side": 0,
+   "other_pencil_one_S_each": true
+  },
+  "40639": {
+   "atoms_in_named_cells": true,
+   "cell_atom_bijection": true,
+   "support_recomputed_equals_stored": true,
+   "bipartite": true,
+   "side_matches": true,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "n_S_atoms": 3,
+   "S_line_is_coupling": true,
+   "S_side": 1,
+   "other_pencil_one_S_each": true
+  },
+  "40693": {
+   "atoms_in_named_cells": true,
+   "cell_atom_bijection": true,
+   "support_recomputed_equals_stored": true,
+   "bipartite": true,
+   "side_matches": true,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "n_S_atoms": 3,
+   "S_line_is_coupling": true,
+   "S_side": 1,
+   "other_pencil_one_S_each": true
+  },
+  "40897": {
+   "atoms_in_named_cells": true,
+   "cell_atom_bijection": true,
+   "support_recomputed_equals_stored": true,
+   "bipartite": true,
+   "side_matches": true,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "n_S_atoms": 3,
+   "S_line_is_coupling": true,
+   "S_side": 0,
+   "other_pencil_one_S_each": true
+  },
+  "40903": {
+   "atoms_in_named_cells": true,
+   "cell_atom_bijection": true,
+   "support_recomputed_equals_stored": true,
+   "bipartite": true,
+   "side_matches": true,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "n_S_atoms": 3,
+   "S_line_is_coupling": true,
+   "S_side": 1,
+   "other_pencil_one_S_each": true
+  },
+  "40927": {
+   "atoms_in_named_cells": true,
+   "cell_atom_bijection": true,
+   "support_recomputed_equals_stored": true,
+   "bipartite": true,
+   "side_matches": true,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "n_S_atoms": 3,
+   "S_line_is_coupling": true,
+   "S_side": 1,
+   "other_pencil_one_S_each": true
+  },
+  "40939": {
+   "atoms_in_named_cells": true,
+   "cell_atom_bijection": true,
+   "support_recomputed_equals_stored": true,
+   "bipartite": true,
+   "side_matches": true,
+   "I_is_minus1": true,
+   "v_is_0": true,
+   "n_S_atoms": 3,
+   "S_line_is_coupling": true,
+   "S_side": 1,
+   "other_pencil_one_S_each": true
+  }
+ },
+ "grid_galois_structure": {
+  "40123": {
+   "distinguished_ok": true,
+   "columns_are_labeling_indexed": true,
+   "rows_cross_all_labelings": true,
+   "S_row_value": 2391,
+   "nonS_row_values": [
+    1861,
+    1861
+   ],
+   "nonS_rows_equal": true,
+   "col_values": [
+    36799,
+    14534,
+    32389
+   ],
+   "atoms_joint_eigenlines_12ops": true,
+   "couplings_all_zero_sum": true,
+   "noncoupling_certified": "159/159",
+   "uncertified": []
+  },
+  "40639": {
+   "distinguished_ok": true,
+   "columns_are_labeling_indexed": true,
+   "rows_cross_all_labelings": true,
+   "S_row_value": 14549,
+   "nonS_row_values": [
+    14962,
+    14962
+   ],
+   "nonS_rows_equal": true,
+   "col_values": [
+    36567,
+    34682,
+    1979
+   ],
+   "atoms_joint_eigenlines_12ops": true,
+   "couplings_all_zero_sum": true,
+   "noncoupling_certified": "159/159",
+   "uncertified": []
+  },
+  "40693": {
+   "distinguished_ok": true,
+   "columns_are_labeling_indexed": true,
+   "rows_cross_all_labelings": true,
+   "S_row_value": 37284,
+   "nonS_row_values": [
+    349,
+    349
+   ],
+   "nonS_rows_equal": true,
+   "col_values": [
+    1524,
+    8034,
+    20941
+   ],
+   "atoms_joint_eigenlines_12ops": true,
+   "couplings_all_zero_sum": true,
+   "noncoupling_certified": "159/159",
+   "uncertified": []
+  },
+  "40897": {
+   "distinguished_ok": true,
+   "columns_are_labeling_indexed": true,
+   "rows_cross_all_labelings": true,
+   "S_row_value": 33029,
+   "nonS_row_values": [
+    10446,
+    10446
+   ],
+   "nonS_rows_equal": true,
+   "col_values": [
+    18405,
+    10255,
+    4750
+   ],
+   "atoms_joint_eigenlines_12ops": true,
+   "couplings_all_zero_sum": true,
+   "noncoupling_certified": "159/159",
+   "uncertified": []
+  },
+  "40903": {
+   "distinguished_ok": true,
+   "columns_are_labeling_indexed": true,
+   "rows_cross_all_labelings": true,
+   "S_row_value": 18855,
+   "nonS_row_values": [
+    16643,
+    16643
+   ],
+   "nonS_rows_equal": true,
+   "col_values": [
+    34500,
+    40740,
+    12645
+   ],
+   "atoms_joint_eigenlines_12ops": true,
+   "couplings_all_zero_sum": true,
+   "noncoupling_certified": "159/159",
+   "uncertified": []
+  },
+  "40927": {
+   "distinguished_ok": true,
+   "columns_are_labeling_indexed": true,
+   "rows_cross_all_labelings": true,
+   "S_row_value": 18793,
+   "nonS_row_values": [
+    35422,
+    35422
+   ],
+   "nonS_rows_equal": true,
+   "col_values": [
+    32954,
+    28204,
+    24066
+   ],
+   "atoms_joint_eigenlines_12ops": true,
+   "couplings_all_zero_sum": true,
+   "noncoupling_certified": "159/159",
+   "uncertified": []
+  },
+  "40939": {
+   "distinguished_ok": true,
+   "columns_are_labeling_indexed": true,
+   "rows_cross_all_labelings": true,
+   "S_row_value": 19224,
+   "nonS_row_values": [
+    12135,
+    12135
+   ],
+   "nonS_rows_equal": true,
+   "col_values": [
+    9373,
+    32019,
+    10382
+   ],
+   "atoms_joint_eigenlines_12ops": true,
+   "couplings_all_zero_sum": true,
+   "noncoupling_certified": "159/159",
+   "uncertified": []
+  }
+ },
+ "crt_rationality": {
+  "primes_used": [
+   40123,
+   40639,
+   40693,
+   40897,
+   40903,
+   40927,
+   40939
+  ],
+  "pivots_consistent": true,
+  "aligned_v_is_0_all_primes": true,
+  "nonS_rows_equal_by_prime": {
+   "40123": true,
+   "40639": true,
+   "40693": true,
+   "40897": true,
+   "40903": true,
+   "40927": true,
+   "40939": true
+  },
+  "reconstructions": {
+   "c_S": null,
+   "c_row1": {
+    "value": "7231878193753159/1275886846680445",
+    "height": "7231878193753159",
+    "reduces_ok": true
+   },
+   "c_row2": {
+    "value": "7231878193753159/1275886846680445",
+    "height": "7231878193753159",
+    "reduces_ok": true
+   },
+   "rows_e1": null,
+   "rows_e2": {
+    "value": "467750785676957/1041887038715526",
+    "height": "1041887038715526",
+    "reduces_ok": true
+   },
+   "cols_e1": {
+    "value": "-4436513568585942/9368868071949163",
+    "height": "9368868071949163",
+    "reduces_ok": true
+   },
+   "cols_e2": {
+    "value": "467750785676957/8682391989296050",
+    "height": "8682391989296050",
+    "reduces_ok": true
+   },
+   "cols_e3": {
+    "value": "4560968814929612/9213588086385483",
+    "height": "9213588086385483",
+    "reduces_ok": true
+   },
+   "c_col1": null,
+   "c_col2": null,
+   "c_col3": null,
+   "P_R": {
+    "value": "-4560968814929612/9213588086385483",
+    "height": "9213588086385483",
+    "reduces_ok": true
+   },
+   "P_C": {
+    "value": "4560968814929612/9213588086385483",
+    "height": "9213588086385483",
+    "reduces_ok": true
+   },
+   "u": null,
+   "v": {
+    "value": "0",
+    "height": "1",
+    "reduces_ok": true
+   }
+  },
+  "P_R_plus_P_C_exactly_0": true,
+  "P_C_equals_cols_e3": true
+ },
+ "theory_anchors": {
+  "relabel_bijection": true,
+  "leibniz_det_rows_minus_cols": true,
+  "det_16_exact_derivations_kill": true,
+  "det_16_independent": true,
+  "det_stab_dim_modp_upper": 16,
+  "det_stab_dim_Q": 16,
+  "perm_stab_dim_modp_upper": 4,
+  "perm_torus_4_kill_and_independent": true,
+  "perm_stab_dim_Q": 4,
+  "annihilated_cubics_dim_modp": 1,
+  "det_in_kernel_exact": true,
+  "invariant_cubic_unique_Q": true,
+  "random_control": {
+   "I": "12/55",
+   "dim_modp_upper": 4
+  }
+ },
+ "rational_atoms": {
+  "primes_used": [
+   40123,
+   40639,
+   40693,
+   40897,
+   40903,
+   40927,
+   40939
+  ],
+  "alignments": {
+   "40639": {
+    "slot": [
+     1,
+     2,
+     0
+    ],
+    "couplings_ok": true
+   },
+   "40693": {
+    "slot": [
+     1,
+     0,
+     2
+    ],
+    "couplings_ok": true
+   },
+   "40897": {
+    "slot": [
+     1,
+     2,
+     0
+    ],
+    "couplings_ok": true
+   },
+   "40903": {
+    "slot": [
+     1,
+     0,
+     2
+    ],
+    "couplings_ok": true
+   },
+   "40927": {
+    "slot": [
+     1,
+     2,
+     0
+    ],
+    "couplings_ok": true
+   },
+   "40939": {
+    "slot": [
+     1,
+     0,
+     2
+    ],
+    "couplings_ok": true
+   }
+  },
+  "all_reconstructed": false
+ },
+ "K_identification": {
+  "primes_used": [
+   40123,
+   40639,
+   40693,
+   40897,
+   40903,
+   40927,
+   40939
+  ],
+  "mu_mine_vanishes_on_r": {
+   "40123": [
+    false,
+    false,
+    false
+   ],
+   "40639": [
+    false,
+    false,
+    false
+   ],
+   "40693": [
+    false,
+    false,
+    false
+   ],
+   "40897": [
+    false,
+    false,
+    false
+   ],
+   "40903": [
+    false,
+    false,
+    false
+   ],
+   "40927": [
+    false,
+    false,
+    false
+   ],
+   "40939": [
+    false,
+    false,
+    false
+   ]
+  },
+  "mu_x13_vanishes_on_r": {
+   "40123": [
+    true,
+    true,
+    true
+   ],
+   "40639": [
+    true,
+    true,
+    true
+   ],
+   "40693": [
+    true,
+    true,
+    true
+   ],
+   "40897": [
+    true,
+    true,
+    true
+   ],
+   "40903": [
+    true,
+    true,
+    true
+   ],
+   "40927": [
+    true,
+    true,
+    true
+   ],
+   "40939": [
+    true,
+    true,
+    true
+   ]
+  },
+  "reconstructed": {
+   "ev_('H1', 'S', 'H4')": [
+    "-5399728812309071/5302002527413045",
+    "971345226260495/4317218994760706",
+    "-4920220765081831/797168139233585"
+   ]
+  },
+  "failed": [
+   "g",
+   "a",
+   "b",
+   "ev_('H2', 's16_1', 'L2')",
+   "ev_('S', 'H2', 'H1')",
+   "ev_('H3', 'L1', 's16_2')",
+   "ev_('H4', 'H3', 'S')",
+   "ev_('s16_1', 's16_2', 'H3')",
+   "ev_('L1', 'L2', 'H2')",
+   "ev_('L2', 'H4', 'L1')",
+   "ev_('s16_2', 'H1', 's16_1')"
+  ],
+  "ev_reconstructed": "1/9"
+ }
+}

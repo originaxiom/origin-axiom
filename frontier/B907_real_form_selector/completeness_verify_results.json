@@ -1,0 +1,335 @@
+{
+ "commutation": true,
+ "certificates_exact": {
+  "tr_A14_A22^5": "-13172147840218514352082453085409194803200000000000/2476099",
+  "tr_A8_A16_A22^4": "4957259939867182820676192021390557184000000000/1694173",
+  "match_claimed": true
+ },
+ "certificates_fresh_primes": {
+  "101": {
+   "cert1": 26,
+   "cert2": 97,
+   "agree_with_exact": true
+  },
+  "2003": {
+   "cert1": 1664,
+   "cert2": 603,
+   "agree_with_exact": true
+  },
+  "9973": {
+   "cert1": 2318,
+   "cert2": 9513,
+   "agree_with_exact": true
+  }
+ },
+ "low_degree_census": {
+  "n_moments": 65,
+  "odd_parity_all_zero": true,
+  "gram_matches_claimed": true
+ },
+ "representatives": [
+  {
+   "kind": "inner",
+   "signs": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "pattern": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 78,
+   "composite_omega_fixed_dim": 36
+  },
+  {
+   "kind": "inner",
+   "signs": [
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "pattern": [
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 38,
+   "composite_omega_fixed_dim": 36
+  },
+  {
+   "kind": "inner",
+   "signs": [
+    -1,
+    1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "pattern": [
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 38,
+   "composite_omega_fixed_dim": 36
+  },
+  {
+   "kind": "inner",
+   "signs": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "pattern": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 38,
+   "composite_omega_fixed_dim": 36
+  },
+  {
+   "kind": "outer",
+   "signs": [
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "pattern": [
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 36,
+   "composite_omega_fixed_dim": 38
+  },
+  {
+   "kind": "outer",
+   "signs": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "pattern": [
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 36,
+   "composite_omega_fixed_dim": 38
+  },
+  {
+   "kind": "outer",
+   "signs": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "pattern": [
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 52,
+   "composite_omega_fixed_dim": 38
+  },
+  {
+   "kind": "outer",
+   "signs": [
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "pattern": [
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "auto_br_all_pairs": true,
+   "involution": true,
+   "fixed_dim": 36,
+   "composite_omega_fixed_dim": 38
+  }
+ ],
+ "rescan_count_C_compatible": 8,
+ "structure": {
+  "rank_A8": 48,
+  "rank_A16": 48,
+  "rank_pair_stack": 48,
+  "ker_equality": true,
+  "dim_a": 30,
+  "rank_4stack": 66,
+  "dim_zC": 12,
+  "rank_squares": {
+   "8": 48,
+   "14": 66,
+   "16": 48,
+   "22": 66
+  },
+  "generalized_kernel_equals_kernel": true
+ },
+ "wall_pair": {
+  "fix_on_a": {
+   "phi1": 12,
+   "phi2": 28
+  },
+  "bookkeeping_24_plus": true,
+  "product_is_inner_allminus": true
+ },
+ "pattern_logic": {
+  "killed": [
+   [
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   [
+    -1,
+    -1,
+    1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1,
+    1
+   ],
+   [
+    1,
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    -1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    -1
+   ]
+  ],
+  "survivors": [
+   [
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    -1,
+    1
+   ],
+   [
+    1,
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  "survivors_equal_realized": true,
+  "unique_wall_pattern": [
+   -1,
+   1,
+   -1,
+   1
+  ]
+ },
+ "ALL_CHECKS_PASSED": true
+}

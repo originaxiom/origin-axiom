@@ -1,0 +1,93 @@
+{
+ "40123": {
+  "atoms_in_named_cells": true,
+  "cell_atom_bijection": true,
+  "support_recomputed_equals_stored": true,
+  "bipartite": true,
+  "side_matches": true,
+  "I_is_minus1": true,
+  "v_is_0": true,
+  "n_S_atoms": 3,
+  "S_line_is_coupling": true,
+  "S_side": 0,
+  "other_pencil_one_S_each": true
+ },
+ "40639": {
+  "atoms_in_named_cells": true,
+  "cell_atom_bijection": true,
+  "support_recomputed_equals_stored": true,
+  "bipartite": true,
+  "side_matches": true,
+  "I_is_minus1": true,
+  "v_is_0": true,
+  "n_S_atoms": 3,
+  "S_line_is_coupling": true,
+  "S_side": 1,
+  "other_pencil_one_S_each": true
+ },
+ "40693": {
+  "atoms_in_named_cells": true,
+  "cell_atom_bijection": true,
+  "support_recomputed_equals_stored": true,
+  "bipartite": true,
+  "side_matches": true,
+  "I_is_minus1": true,
+  "v_is_0": true,
+  "n_S_atoms": 3,
+  "S_line_is_coupling": true,
+  "S_side": 1,
+  "other_pencil_one_S_each": true
+ },
+ "40897": {
+  "atoms_in_named_cells": true,
+  "cell_atom_bijection": true,
+  "support_recomputed_equals_stored": true,
+  "bipartite": true,
+  "side_matches": true,
+  "I_is_minus1": true,
+  "v_is_0": true,
+  "n_S_atoms": 3,
+  "S_line_is_coupling": true,
+  "S_side": 0,
+  "other_pencil_one_S_each": true
+ },
+ "40903": {
+  "atoms_in_named_cells": true,
+  "cell_atom_bijection": true,
+  "support_recomputed_equals_stored": true,
+  "bipartite": true,
+  "side_matches": true,
+  "I_is_minus1": true,
+  "v_is_0": true,
+  "n_S_atoms": 3,
+  "S_line_is_coupling": true,
+  "S_side": 1,
+  "other_pencil_one_S_each": true
+ },
+ "40927": {
+  "atoms_in_named_cells": true,
+  "cell_atom_bijection": true,
+  "support_recomputed_equals_stored": true,
+  "bipartite": true,
+  "side_matches": true,
+  "I_is_minus1": true,
+  "v_is_0": true,
+  "n_S_atoms": 3,
+  "S_line_is_coupling": true,
+  "S_side": 1,
+  "other_pencil_one_S_each": true
+ },
+ "40939": {
+  "atoms_in_named_cells": true,
+  "cell_atom_bijection": true,
+  "support_recomputed_equals_stored": true,
+  "bipartite": true,
+  "side_matches": true,
+  "I_is_minus1": true,
+  "v_is_0": true,
+  "n_S_atoms": 3,
+  "S_line_is_coupling": true,
+  "S_side": 1,
+  "other_pencil_one_S_each": true
+ }
+}

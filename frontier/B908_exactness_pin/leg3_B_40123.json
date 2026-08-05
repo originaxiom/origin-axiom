@@ -1,0 +1,110 @@
+{
+ "colorless_cells_per_labeling": [
+  9,
+  9,
+  9
+ ],
+ "colorless_mults": [
+  [
+   1
+  ],
+  [
+   1
+  ],
+  [
+   1
+  ]
+ ],
+ "atoms_common_eigenlines": true,
+ "order_independence": {
+  "(0, 1, 2)": {
+   "I": 40122,
+   "v": 0,
+   "lines": 9,
+   "physical_match": true,
+   "slot_shuffle": true
+  },
+  "(0, 2, 1)": {
+   "I": 40122,
+   "v": 0,
+   "lines": 9,
+   "physical_match": true,
+   "slot_shuffle": true
+  },
+  "(1, 0, 2)": {
+   "I": 40122,
+   "v": 0,
+   "lines": 9,
+   "physical_match": true,
+   "slot_shuffle": true
+  },
+  "(1, 2, 0)": {
+   "I": 40122,
+   "v": 0,
+   "lines": 9,
+   "physical_match": true,
+   "slot_shuffle": true
+  },
+  "(2, 0, 1)": {
+   "I": 40122,
+   "v": 0,
+   "lines": 9,
+   "physical_match": true,
+   "slot_shuffle": true
+  },
+  "(2, 1, 0)": {
+   "I": 40122,
+   "v": 0,
+   "lines": 9,
+   "physical_match": true,
+   "slot_shuffle": true
+  }
+ },
+ "K33": true,
+ "grid": {
+  "0": [
+   0,
+   0
+  ],
+  "1": [
+   1,
+   1
+  ],
+  "2": [
+   0,
+   1
+  ],
+  "3": [
+   2,
+   1
+  ],
+  "4": [
+   0,
+   2
+  ],
+  "5": [
+   2,
+   2
+  ],
+  "6": [
+   1,
+   2
+  ],
+  "7": [
+   2,
+   0
+  ],
+  "8": [
+   1,
+   0
+  ]
+ },
+ "sym3_nonzero": 6,
+ "sym3_equals_couplings": true,
+ "ambient_derivations": {
+  "8": true,
+  "14": true,
+  "16": true,
+  "22": true
+ }
+}

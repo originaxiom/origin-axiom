@@ -1,0 +1,62 @@
+{
+ "primes_used": [
+  40123,
+  40639,
+  40693,
+  40897,
+  40903,
+  40927,
+  40939
+ ],
+ "alignments": {
+  "40639": {
+   "slot": [
+    1,
+    2,
+    0
+   ],
+   "couplings_ok": true
+  },
+  "40693": {
+   "slot": [
+    1,
+    0,
+    2
+   ],
+   "couplings_ok": true
+  },
+  "40897": {
+   "slot": [
+    1,
+    2,
+    0
+   ],
+   "couplings_ok": true
+  },
+  "40903": {
+   "slot": [
+    1,
+    0,
+    2
+   ],
+   "couplings_ok": true
+  },
+  "40927": {
+   "slot": [
+    1,
+    2,
+    0
+   ],
+   "couplings_ok": true
+  },
+  "40939": {
+   "slot": [
+    1,
+    0,
+    2
+   ],
+   "couplings_ok": true
+  }
+ },
+ "all_reconstructed": false
+}

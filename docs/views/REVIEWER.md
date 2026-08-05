@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **831** |
-| words of findings prose | **539,757** |
-| test lock files referenced | **571** |
-| arcs carrying an authored verdict | **818** (98.4 %) |
+| research arcs with findings | **833** |
+| words of findings prose | **541,626** |
+| test lock files referenced | **572** |
+| arcs carrying an authored verdict | **820** (98.4 %) |
 | recorded closures | **731** (564 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 519 |
+| PROVED | 520 |
 | NEGATIVE | 261 |
-| OPEN | 29 |
+| OPEN | 30 |
 | RETRACTED | 9 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B907`** (669 words, 1 locks)  
-THE SEALED CELL DECIDES -- OUTCOME A: THE WALL IS REAL IN e6(2), AND ONLY THERE (the joint J1 with the solo seat's XLIX-L leg; prereg cd7aae3b committed f0450d71 BEFORE compute, seal verified): sweeping all 128 frame-diagonal inner and tau-composite outer involution representatives -- the diagram flip tau constructed exactly via the general F2-cocycle solve (rank 66, zero violations; the flip-symmetric-character ansatz provably empty) -- EXACTLY TWO are C-compatible and wall-real (the sealed criterion eps14 = +1 and eps16 = -1): an outer pair related by global negation with pattern (-1,+1,-1,+1), each verified phi^2 = id, and for BOTH the composite phi o omega has fixed dimension 38 = su(6)+su(2): THE FORM IS e6(2), THE QUATERNIONIC FORM. All 27 diagonal representatives of the so(10)+u(1) class fail C-compatibility (the e6(-14) obstruction, banked); no standard alignment works (the solo seat's leg, confirmed and explained -- the wall-real conjugations are tau-twisted). THE DISCLOSED PRIOR (e6(-14)) WAS WRONG -- the third sealed cell to decide against its prior. Two bugs caught en route: the empty character ansatz, and a Rayleigh-quotient census on non-normal matrices (the oblique readout rule violated a fourth time, caught by contradiction with exact automorphisms). Completeness beyond the swept representatives is the registered follow-up. FENCED: e6(2)'s compact structure supplies the canonical Hermitian norm -- the value ladder's gate now has a name; Gate 5 untouched.  
-`B907_real_form_selector/FINDINGS.md`
+**PROVED — `B910`** (1201 words, 0 locks)  
+L3 DELIVERED -- THE ONE-CLASS THEOREM (multiagent round 1, banking-verified): the compact-pencil cubic kappa = 2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859 (constant -19^3, disc kernel {7,11}, nu = c kappa^6 by 20-point exact interpolation honoring the aliasing lesson) splits [1,2] over K with the exact root s*(rho) certified by polynomial remainder, and its Kummer element alpha_kappa = 19^6(-1/690594465792000 + sqrt(-231)/1470297894912000) sits in EXACTLY the charge class: alpha_mu/alpha_kappa = gamma3^3 with gamma3 = (1+sqrt(-3))(5239/48013 - (5239/192052)sqrt(-231)), no unit twist -- so [alpha_mu] = [alpha_generic] = [alpha_kappa] = C and [alpha_vac] = C^{-1}: the compact wall-triple carries the CHARGE orientation, vacuum + kappa = the split algebra, and the full Z/3 multiplication table of the four classes is certified entry-by-entry (six symbolic cube certificates, exact chi_3 witnesses for every non-cube, all-9-twist kills per single alpha, independent sympy-radical re-verification PASSED). Bonus: B902's control upgraded with the missed plain-rational certificate alpha_mu/alpha_gen = (2197/500716339200)^3. THE NUMERATOR LAW: alpha_mu carries 13^6, alpha_kappa carries 19^6 -- each pencil's Kummer element wears its own prime.  
+`B910_kappa_class/FINDINGS.md`
 
 **NEGATIVE — `B899`** (315 words, 1 locks)  
 M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry under the four registered comparisons (nearest-spacing and |mu'| at each root, through the banked frame->root bijection, log-log): one order-match in four tests = exactly the chance rate (each 3-point comparison matches with p = 1/6; four tests give ~52% for >= 1), and every residual is large (2.7-5.4 where a clean power law would sit near 0). The hierarchy-shaped invariant small numbers have some OTHER source. The negative is earned exactly as far as the four registered comparisons -- no wider scan was run, deliberately, to keep the look-elsewhere budget honest.  

@@ -1,5 +1,10 @@
 # Changelog
 
+## Multiagent round 1 — B910 the One-Class theorem; sign-locking (B907); I = −1 is the Leibniz sign (B908)
+- **B910**: [α_μ] = [α_gen] = [α_κ] = C, [α_vac] = C⁻¹ — the compact wall carries the charge orientation; full ℤ/3 table certified; the numerator law (13⁶ vs 19⁶). Independent re-verification passed.
+- **B907 addendum**: the sign-locking theorem — ε₈ε₁₆ = ε₁₄ε₂₂ = +1 for EVERY C-stabilizing automorphism (exact degree-6 trace moments); the wall pattern unique; the sweep complete at pattern level; e₆(2) stands absolutely. The diagonal (+,−,+,−) Killing Gram rederived en route.
+- **B908 leg 3**: the row pencil = even transversals, the column pencil = odd — **I = −1 is the determinant's orientation parity** (16-vs-4 stabilizer dichotomy, non-circular; uniqueness 1-dim). One certificate from full exactness (sl₃⊕sl₃ over K — round 2). 7 locks. Gate 5 untouched.
+
 ## B907 — the sealed selector decides: THE WALL IS REAL IN e₆(2), and only there (the joint J1)
 - Prereg committed before compute; the sweep of all 128 diagonal+outer representatives (τ built exactly by the F₂-cocycle solve) finds **exactly two wall-real C-compatible involutions — both realizing e₆(2)**, the quaternionic form; all 27 e₆(−14)-class representatives fail C-compatibility; no standard alignment works (the solo seat's leg confirmed — the wall-real conjugations are τ-twisted).
 - **The disclosed prior was wrong again** (third sealed cell). Two bugs self-caught (an empty ansatz; the oblique rule violated a fourth time). Fenced: e₆(2) supplies the canonical Hermitian norm — the value ladder's gate is named. 4 locks. Gate 5 untouched.

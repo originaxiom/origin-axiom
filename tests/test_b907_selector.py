@@ -42,3 +42,19 @@ def test_inner_e6m14_class_obstruction():
     rows46 = [row for row in r["inner"] if row["fixed_dim"] == 46]
     assert len(rows46) == 27
     assert all(not row["C_compatible"] for row in rows46)
+
+
+def test_completeness_verified_flag():
+    import json
+    with open(os.path.join(ARC, "completeness_verify_results.json")) as f:
+        r = json.load(f)
+    txt = json.dumps(r)
+    assert "fail" not in txt.lower() or '"failures": 0' in txt or '"failed": 0' in txt
+
+
+def test_sign_locking_survivors():
+    import json
+    with open(os.path.join(ARC, "completeness_results.json")) as f:
+        r = json.load(f)
+    txt = json.dumps(r)
+    assert "(-1, 1, -1, 1)" in txt or "[-1, 1, -1, 1]" in txt

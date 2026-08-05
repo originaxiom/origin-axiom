@@ -86,3 +86,27 @@ door has a name now. Gate 5 untouched: no physics identification is made here.
 
 B854, B892/B893 (the wall), B898 (root-uniformity), B901 (the ±-diagonal
 constraint), the solo §XLIX–L (the standard-alignment leg).
+
+## ADDENDUM (2026-08-05, multiagent round 1, banking-verified): THE SIGN-LOCKING THEOREM — the completeness follow-up is PAID
+
+The registered follow-up delivered (`DRAFT_COMPLETENESS.md`, `completeness.py`,
+verified end-to-end by `completeness_verify.py` — ALL CHECKS PASSED):
+
+- **C1 (sign-locking, exact):** every C-stabilizing automorphism (linear or
+  antilinear) satisfies ε₈ε₁₆ = +1 and ε₁₄ε₂₂ = +1 — killed by two exact
+  rational trace moments (degree 6; every mixed moment of degree ≤ 4 vanishes
+  in odd parity classes — the kill is invisible at low degree). Twelve of the
+  sixteen patterns are dead for EVERY automorphism.
+- **C2:** the wall pattern is UNIQUE — ε = (−1,+1,−1,+1), with ε₈ and ε₂₂
+  forced, not observed.
+- **C3 (realization):** the full 128-sweep re-run exactly; all 8 C-compatible
+  representatives verified as automorphisms on all 78² bracket pairs and as
+  involutions; all four feasible patterns realized; the two wall involutions
+  both name e₆(2). **Feasible = realized = {(a,b,a,b)}: the sweep is complete
+  at the pattern level.**
+- En route: the charge Killing Gram is exactly diagonal with entries
+  (+, −, +, −) — the solo seat's §LI orthogonal frame independently rederived
+  from the moment census.
+
+The B907 verdict is thereby hardened: e₆(2) is the selector's answer not just
+within the sweep but against every C-stabilizing automorphism pattern.

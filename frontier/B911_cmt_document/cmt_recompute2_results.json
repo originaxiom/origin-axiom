@@ -1,0 +1,71 @@
+{
+ "invisible12_kernel_at_true_walls": [
+  {
+   "ker_on_M12": 4,
+   "t": 11109
+  },
+  {
+   "ker_on_M12": 4,
+   "t": 20677
+  },
+  {
+   "ker_on_M12": 4,
+   "t": 37152
+  }
+ ],
+ "nesting_on_matched_pairs": true,
+ "noncompact_quotient_det": {
+  "degree": 48,
+  "extra_checks": true,
+  "is_c_times_cubic_pow16": true,
+  "roots": [
+   11109,
+   20677,
+   37152
+  ]
+ },
+ "noncompact_walls": [
+  {
+   "center": 1,
+   "derived": 45,
+   "dim": 46,
+   "t": 11109
+  },
+  {
+   "center": 1,
+   "derived": 45,
+   "dim": 46,
+   "t": 20677
+  },
+  {
+   "center": 1,
+   "derived": 45,
+   "dim": 46,
+   "t": 37152
+  }
+ ],
+ "normalization": {
+  "N_roots_equal_mu_solo_roots": true,
+  "mu_solo_roots_equal_13x_banked_roots": true
+ },
+ "pairing_is_perfect_matching": true,
+ "pairing_table": [
+  [
+   18,
+   18,
+   30
+  ],
+  [
+   18,
+   30,
+   18
+  ],
+  [
+   30,
+   18,
+   18
+  ]
+ ],
+ "prime": 40829,
+ "sst_matches_pairing": true
+}

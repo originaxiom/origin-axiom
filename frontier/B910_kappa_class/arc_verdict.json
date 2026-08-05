@@ -1,0 +1,10 @@
+{
+ "id": "B910",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "L3 DELIVERED -- THE ONE-CLASS THEOREM (multiagent round 1, banking-verified): the compact-pencil cubic kappa = 2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859 (constant -19^3, disc kernel {7,11}, nu = c kappa^6 by 20-point exact interpolation honoring the aliasing lesson) splits [1,2] over K with the exact root s*(rho) certified by polynomial remainder, and its Kummer element alpha_kappa = 19^6(-1/690594465792000 + sqrt(-231)/1470297894912000) sits in EXACTLY the charge class: alpha_mu/alpha_kappa = gamma3^3 with gamma3 = (1+sqrt(-3))(5239/48013 - (5239/192052)sqrt(-231)), no unit twist -- so [alpha_mu] = [alpha_generic] = [alpha_kappa] = C and [alpha_vac] = C^{-1}: the compact wall-triple carries the CHARGE orientation, vacuum + kappa = the split algebra, and the full Z/3 multiplication table of the four classes is certified entry-by-entry (six symbolic cube certificates, exact chi_3 witnesses for every non-cube, all-9-twist kills per single alpha, independent sympy-radical re-verification PASSED). Bonus: B902's control upgraded with the missed plain-rational certificate alpha_mu/alpha_gen = (2197/500716339200)^3. THE NUMERATOR LAW: alpha_mu carries 13^6, alpha_kappa carries 19^6 -- each pencil's Kummer element wears its own prime.",
+ "depends_on": ["B854", "B888", "B902", "B900"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "computation agent + cc banking verification (2026-08-05)"
+}

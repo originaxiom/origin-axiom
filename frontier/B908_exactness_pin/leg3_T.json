@@ -1,0 +1,18 @@
+{
+ "relabel_bijection": true,
+ "leibniz_det_rows_minus_cols": true,
+ "det_16_exact_derivations_kill": true,
+ "det_16_independent": true,
+ "det_stab_dim_modp_upper": 16,
+ "det_stab_dim_Q": 16,
+ "perm_stab_dim_modp_upper": 4,
+ "perm_torus_4_kill_and_independent": true,
+ "perm_stab_dim_Q": 4,
+ "annihilated_cubics_dim_modp": 1,
+ "det_in_kernel_exact": true,
+ "invariant_cubic_unique_Q": true,
+ "random_control": {
+  "I": "12/55",
+  "dim_modp_upper": 4
+ }
+}

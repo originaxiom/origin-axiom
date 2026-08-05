@@ -1,0 +1,10 @@
+{
+ "id": "B908",
+ "verdict": "OPEN",
+ "instrument": false,
+ "claim_one_line": "THE I-EXACTNESS PIN, two of three legs closed: (leg 1) v = prod(rows) + prod(cols) is RATIONAL by the K3,3 bipartition-uniqueness argument (the coupling graph verified connected complete bipartite on the banked incidence); (leg 2) I == -1 at all SEVEN full-tower primes, atom-rescaling gated; (leg 3, the mechanism, banking-verified) THE LEIBNIZ SIGN: relabeling the 3x3 grid by (even transversal, odd transversal) turns det's six terms into exactly the three rows (+1) and columns (-1), a rows+cols cubic is det-type iff I = -1, the 16-vs-4 gl9-stabilizer dichotomy makes this non-circular (proven exactly over Q with controls), the invariant cubic is unique (1-dim), and on the object the restricted cubic has stabilizer 16 at both structural primes with an explicit det-frame, transpose anti-invariance on all 165 multisets, char-0 support = exactly the two pencils (159/159 at 7 primes), and Galois preserving both pencils (P_R, P_C separately rational). OPEN on one named certificate: exhibit sl3+sl3 over K exactly -- uniqueness then forces cub proportional to det, hence I = -1 EXACT with no height bound (registered, round 2).",
+ "depends_on": ["B900", "B906", "B910"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat + computation agent (2026-08-05)"
+}
