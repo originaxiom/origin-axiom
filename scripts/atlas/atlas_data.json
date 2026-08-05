@@ -19059,6 +19059,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B915": {
+   "slug": "the crossing",
+   "motifs": [
+    "eisenstein",
+    "lorentzian"
+   ],
+   "refs": [
+    "B909",
+    "B911"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

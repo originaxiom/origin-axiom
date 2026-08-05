@@ -1,0 +1,10 @@
+{
+ "id": "B915",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "claim_one_line": "THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single input alpha_em(M_Z) and the object's banked gauge boundary (E6 unification, sin2thetaW = 3/8 from the exact traces), the two-loop SM-desert curve's nearest approach to the measured pair (sin2thetaW, alpha_s)(M_Z) is d = 15.97 sigma_tot -- SEALED OUTCOME MISS: the identification 'object boundary + pure SM desert' is DEAD; every structural theorem stands, exactly as pre-stated. THE DISCLOSED PRIOR WON for the first time in five sealed cells (both directions of the seal discipline now verified live). THE BANKED FAILURE GEOMETRY: nearest approach at M_U = 1.5e13 GeV with the miss ALPHA_S-DOMINATED (gap +0.041 vs +0.002 in sin2thetaW); the pairwise meeting scales 1.09e13 / 1.72e14 / 2.91e16 GeV -- a three-order triangle. REGISTERED CONTINUATION (its own seal): R4b -- the object's own compact D-chain E6 > D5 > D4 > D3 > A2 as the desert's replacement, thresholds at the chain's banked scales, ZERO new parameters; the test is whether the chain closes THIS triangle. Gate 5's door was opened under seal, used once, and reported faithfully.",
+ "depends_on": ["B892", "B897", "B906", "B907", "B912", "B913", "B914"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, owner-authorized (2026-08-05)"
+}

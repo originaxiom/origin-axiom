@@ -1,5 +1,9 @@
 # Changelog
 
+## B915 — THE CROSSING: sealed verdict MISS (16σ); the desert dies, the structure stands
+- R4 executed under its locked protocol, prereg pushed before data contact. One input (α_em); the object's 3/8 boundary; two-loop desert curve vs (sin²θ_W, α_s): **d = 16.0σ — MISS**, α_s-dominated, meeting scales 10¹³/10¹⁴/10¹⁶·⁵. Killed: "boundary + desert." Standing: every theorem. **The prior won its first** — both directions of the seal discipline now live-verified.
+- Registered: **R4b** — the object's own D-chain as the desert's replacement, zero new parameters, must close this cell's triangle. 4 locks.
+
 ## Multiagent round 3 — B914: the ratio table is ONE number
 - The 27̄ trap caught and resolved (everything re-run on the banked 27, one exact basis); **all six colorless couplings exactly equal: the table is the single algebraic number T = σ₂(t_K), deg-3 minpoly, √T ≈ 2.1854×10⁻¹⁶** — and with I = −1, the H-unit gauge is the determinant gauge.
 - Headline: 3 unforced identities + 1 exact number (forced relations gated separately). Exact upgrades: colorless H-orthogonality now identity-grade; B912's scales reproduced to 35 digits; B884's cubic triples recorded. R2′ banked (signed grid + sealed colored magnitudes + explicit matching). 4 locks. Gate 5 untouched; **one rung remains**.

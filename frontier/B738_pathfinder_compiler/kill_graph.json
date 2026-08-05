@@ -10267,5 +10267,16 @@
   ],
   "fact_computed": true,
   "hatch": "Only the four REGISTERED log-log comparisons were run (nearest-spacing and |mu'|, per root) -- deliberately, to keep the look-elsewhere budget honest. Other root-geometry invariants (resultants, cross-ratios of roots, the discriminant flow) were NOT scanned; a future REGISTERED comparison against a different invariant is the one honest way this route could still live. The hierarchy-shaped structure itself is real (B889/B896) and its source remains open."
+ },
+ {
+  "id": "B915",
+  "claim_killed": "That the object's gauge boundary (E6 unification with the banked sin2thetaW = 3/8) matches the measured low-energy couplings through a pure SM desert -- the naive 'boundary + desert' physics identification.",
+  "kill_form": "sealed-one-input-comparison",
+  "faces_consulted": [
+   "being",
+   "mtc-overlay"
+  ],
+  "fact_computed": true,
+  "hatch": "The desert assumption died, not the boundary: the miss is alpha_s-dominated with a three-order meeting-scale triangle (1.1e13 / 1.7e14 / 2.9e16 GeV), and the object carries its OWN intermediate ladder (the compact D-chain E6 > D5 > D4 > D3 > A2, the CMT lane) with banked scales and zero free parameters. R4b -- sealed before compute, per the register -- is the one honest way the identification returns: the chain's thresholds must close THIS cell's banked triangle."
  }
 ]
