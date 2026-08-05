@@ -18719,6 +18719,7 @@
     "kappa",
     "metallic",
     "z3_generation",
+    "wrt_quantum",
     "lorentzian"
    ],
    "refs": [
@@ -18729,7 +18730,7 @@
     "B895"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 12,
+   "obstacle_conf": 14,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -19084,7 +19085,8 @@
     "B883",
     "B912",
     "B914",
-    "H27"
+    "H27",
+    "L2"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 3,
@@ -19107,6 +19109,31 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B918": {
+   "slug": "v kummer",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B866",
+    "B888",
+    "B902",
+    "B910",
+    "B917",
+    "L2",
+    "L3",
+    "P9"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },

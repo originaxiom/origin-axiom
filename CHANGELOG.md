@@ -1,5 +1,8 @@
 # Changelog
 
+## B918 — V joins the class table; THE OBSERVER'S-PLACE THEOREM
+- HIER exact (953⁴-led, the seventh √77 cubic; root in K certified). **[α_V] = C untwisted — one class for all four matter/value cubics**; vacuum ⊕ V = split. **H-B917-SPLIT: YES — den(V) = 𝔭₁(953)⁴ exactly**: the hierarchy's pole lives entirely on the unique degree-one place. Prime roles: 953 pole / 421493 trace-zero / 1129 e₂-zero; structure primes numerator, value prime denominator. 3 locks. Gate 5 untouched.
+
 ## B916 — the lambda bridge: both seats right; the value primes are the norm arithmetic of the H-twist
 - The bridge S is a signed permutation; the cubic transports t = 1 — **primitivity IS canonical**; the dispatching hypothesis refuted. The seats used two different invariant H's: charge-equivariant (λ = 1, c² = −q_iq_jq_k exact) vs τ-twisted (λ = 2304/953 exactified). **∏d_i = −(953/2304)² = N_{K/ℚ}(d)** — the ratio is the field norm of the twist. Rule adopted: pin H by equivariance, never primitivity. 3 locks. Gate 5 untouched.
 

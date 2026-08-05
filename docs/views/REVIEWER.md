@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **838** |
-| words of findings prose | **546,473** |
+| research arcs with findings | **839** |
+| words of findings prose | **548,240** |
 | test lock files referenced | **576** |
-| arcs carrying an authored verdict | **825** (98.4 %) |
+| arcs carrying an authored verdict | **826** (98.5 %) |
 | recorded closures | **732** (565 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 525 |
+| PROVED | 526 |
 | NEGATIVE | 262 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B917`** (507 words, 1 locks)  
-THE VALUE ARC (handoff 7) VERIFIED at the firm layer: their suite reproduces end-to-end on this bench (the tau-intertwiner exact-tier PASS; the six-fold democracy at 45 digits; CCC = 3!*lambda; the P8 equivariance machinery test with the predicted slot transposition; the K-biography split table incl. the honest 13-index-distortion route), P9's product law CLOSED AT RECEIPT by pure integers (27*2304^4 = 760840571584512, hence v1 v2 v3 = 3^{3/2} lambda^2 given their hierarchy element), and THIS SEAT'S NEW EXACT IDENTITY: in the canonical gauge (B914's exact vectors, the B883-primitive cubic, the integer H+) their invariant evaluates to LAMBDA = 1 EXACTLY for all six couplings -- the colorless couplings ARE the geometric means of the raw H-norms; the object's tree-level colorless sector is UNIMODULAR in its own gauge. The lambda = 2304/953 vs lambda = 1 tension is driven to a single isolated question -- the 27/27bar realization bridge constant (primitivity is basis-dependent) -- dispatched as B916; until it lands, lambda's absolute value is convention-pending in both ledgers and the cross-seat canonical content is the RATIOS (CCC/lambda = 3!, the hierarchy ratios, the equalities). Tier honesty: their sections LIX-LX verified exact; LXI-LXV reproduced numeric; the exactification floor (V-L2) remains registered with B914's machinery as the template.  
-`B917_value_arc_verification/FINDINGS.md`
+**PROVED — `B918`** (1633 words, 0 locks)  
+V-L3 DELIVERED, TWO THEOREMS (banking-verified, both paths): (1) THE ONE-CLASS THEOREM EXTENDS TO THE VALUE LAYER -- the hierarchy element V (minimal cubic 953^4 x^3 - 2^8 3^9 13*421493 x^2 + 2^21 3^8 17*1129 x - 2^32 3^11, exact, irreducible, disc kernel {7,11}, [1,2] over K with exact root certificate matching the solo section-LXV cubic digit-for-digit) satisfies [alpha_V] = C = [alpha_mu] WITH NO UNIT TWIST (four exact symbolic cube certificates, exhaustive chi_3 witnesses at all 9 twists) -- one class C for ALL FOUR matter/value cubics, vacuum = C^{-1}, vacuum + V = split; (2) THE OBSERVER'S-PLACE THEOREM -- H-B917-SPLIT answered YES: V's denominator ideal is (the degree-one place over 953)^4 EXACTLY (v_deg1 = -4, v_deg2 = 0; integrality at all other primes by the e_i-denominator lemma) -- the hierarchy's pole lives entirely on the unique degree-one place, and the three value primes play three distinct roles: 953 the pole, 421493 the trace-zero, 1129 the e2-zero of the V-residues (both congruences exact). Structural asymmetry banked: structure primes enter as NUMERATOR content (13^6, 19^6), the value prime as DENOMINATOR content (953^4, on the observer's place). The dispatcher's brief carried a wrong triple -- caught by the agent and adjudicated by the exact product law e3 = 27*2304^4/953^4. The pipeline link v_g^2 = HIER-roots stays numeric-certified (7.3e-88) pending V-L2.  
+`B918_v_kummer/FINDINGS.md`
 
 **NEGATIVE — `B915`** (371 words, 1 locks)  
 THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single input alpha_em(M_Z) and the object's banked gauge boundary (E6 unification, sin2thetaW = 3/8 from the exact traces), the two-loop SM-desert curve's nearest approach to the measured pair (sin2thetaW, alpha_s)(M_Z) is d = 15.97 sigma_tot -- SEALED OUTCOME MISS: the identification 'object boundary + pure SM desert' is DEAD; every structural theorem stands, exactly as pre-stated. THE DISCLOSED PRIOR WON for the first time in five sealed cells (both directions of the seal discipline now verified live). THE BANKED FAILURE GEOMETRY: nearest approach at M_U = 1.5e13 GeV with the miss ALPHA_S-DOMINATED (gap +0.041 vs +0.002 in sin2thetaW); the pairwise meeting scales 1.09e13 / 1.72e14 / 2.91e16 GeV -- a three-order triangle. REGISTERED CONTINUATION (its own seal): R4b -- the object's own compact D-chain E6 > D5 > D4 > D3 > A2 as the desert's replacement, thresholds at the chain's banked scales, ZERO new parameters; the test is whether the chain closes THIS triangle. Gate 5's door was opened under seal, used once, and reported faithfully.  

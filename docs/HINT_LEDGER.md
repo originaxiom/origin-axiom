@@ -591,5 +591,4 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   (10) H-B917-SPLIT (type PATTERN, fenced by the solo seat, adopted): in K's arithmetic
       biography the STRUCTURE primes (13, 17, 19) are inert while the VALUE primes
       (953, 1129, 421493) are partially split [1,2], each with a unique degree-one place.
-      Open cell: is the degree-one place the "observer's place" — the valuation the value
-      layer's denominators select? Feeds V-L3 (the Kummer machinery for V).
+      RESOLVED YES (B918, 2026-08-05): den(V) = (deg-1 place over 953)^4 exactly — the observer's-place theorem; promoted to LAW_MAP §F.
