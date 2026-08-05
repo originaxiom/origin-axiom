@@ -381,3 +381,37 @@ Relay 5 already covers it; V-L2 now also serves R4b's exact-tier requirement.
 - **Correction to the incoming handoff**: "CLAIMS.md is empty" is false — P69 (the FMT)
   and P70 (the magic-square isomorphism) are ledgered; presumably intended as "no
   physics-facing claims," which is true and Gate 5's design.
+
+## AMENDMENT v6 (2026-08-05) — the cc3 loss audit processed; two arcs registered; the branch protected
+
+**Done at receipt (round 1, pushed e8675ee1):** the TERMINOLOGY reconciling clause (two
+"measurement" formalisms declared distinct pending L114); the LAW_MAP B723-row caveat
+(the B849/B851 refutation now pointed at); the four cc3 seal hashes recorded (B878's
+cited authority is now verifiable on main); L113–L122 re-registered (the BC/CMR
+falsifier at the head); the REGISTRATION-OVER-PRESERVATION rule adopted into
+WORKING_RULES; **B919 in flight** (the standalone two-prime 3/8 derivation + locks —
+discharging audit item A1's core; B915's FINDINGS gets its citation when B919 lands;
+B909 still owes the six-cubic/CMT/invisible-12 locks when cpen finishes).
+
+**REGISTERED ARCS (the audit's two big asks):**
+- **B920 — THE REGISTER-SWEEP ARC** (audit A2+A5, one mechanical pass): harvest
+  trace_norm_split.* + amend HINT_LEDGER:579/B794/E28/the lock (the NORMSPLIT
+  contradiction); ROADMAP Tier-3 falsehoods; the five LAW_MAP orphan rows; COMMS_PROTOCOL
+  seat names (cc3+solo legalized); CLOSURE_MASTERPLAN unfreeze; THEOREM_REGISTRY/LEDGER
+  B8xx/B9xx rows; RETRACTIONS same-PR catch-up (≥5 events); ERROR_LEDGER recurrence
+  instances (the fourth oblique violation + the clobber class); the 8 post-banking-commit
+  sealed docs adjudicated; the promotion-gate throughput ruling.
+- **B921 — THE BRANCH HARVEST ARC** (audit Part B): the 178-file corpus — the §16
+  verdicts + prereg chain (the corank-2 no-go binds rung i-b), the B796 campaign corpus
+  (the BC/CM ℚ(√−3) groundwork; the Born-content territory; the novelty corrections incl.
+  F_K(4₁) EXISTS Gukov–Manolescu 1904.06057), the Wave-1 negatives (the π₇ structured
+  zero; the no-level-1-lift negative; the spinor-Hejhal authorization = B804's missing
+  Cell 3), the banked-output generators, the m003 spectrum, the relay corpus. Plus the
+  post-hoc B796 reservation.
+- **STANDING RULE: the cc3 branch is NOT deletable until B921 lands.**
+- **A6 free win:** GO to cc3's D2 (the Gate 8R2-A connecting relay). Also GO: D3 (a_π),
+  D4 (ι/τ-parity = L114), D5 (the m003 mod-4 amendment text through this gate). D1 (λ₂)
+  standing.
+- **B913 clarification contra audit A1:** B913 is design-only BY ITS OWN SEALED TEXT
+  ("this design seal is the cell's entire content; no computation follows under this ID")
+  — not an empty arc; noted so the next audit doesn't re-flag it.
