@@ -773,5 +773,5 @@
   "-"
  ],
  "verdict": "BRIDGE COMPUTED -- THE CONVENTION HYPOTHESIS IS REFUTED AND THE DISCREPANCY IS RESOLVED: S is unique up to scale and primitive S is a SIGNED PERMUTATION (both realizations have all entries +-1); the primitive cubic transports IDENTICALLY (t = 1: 'primitive +-1 in its own basis' IS canonical across the mirror); but the two H's are DIFFERENT INVARIANT OBJECTS: H'(solo, transported) = H+(B912) * diag(D2) with 11 sign flips -- the solo M is the tau-twisted dual intertwiner, not the charge-equivariant form, so NO scalar s exists and the factor 2304/953 is NOT a normalization convention.  Both pipelines are arithmetically RIGHT: with the banked H+ the lambda is 1 EXACTLY on the primal nine AND on the mirror nine (realization-independent); with the solo H' the lambda is 2304/953 EXACTLY (exactified here from their 85-digit belt) on the mirror lines.  953 enters through the per-line norm ratios d_i = q^{H'}/q^{H+} whose per-coupling products are (953/2304)^2.",
- "runtime_s": 38.7
+ "runtime_s": 151.3
 }
