@@ -4,6 +4,18 @@ A claim-bounded, reproducible investigation of the **Origin Axiom** — the idea
 existence is a *frustrated cancellation*: a remainder left when an attempt to cancel to
 nothing cannot complete.
 
+> **State post-crossing (2026-08-05, mid-window update).** The value ladder completed and
+> THE CROSSING ran under seal: with one input (α_em) and the object's boundary (E₆, the exact
+> sin²θ_W = 3/8), the pure-desert identification MISSES at 16σ — the desert is dead, every
+> structural theorem stands, and the banked failure triangle points at the object's own
+> compact D-chain (R4b, registered). The value layer before it: the wall is real exactly in
+> **e₆(2)**; the canonical H has signature (15,12); nine colorless scales exist and the six
+> colored atoms are Lorentzian (1,2,0); **I = −1 exactly** (the Leibniz sign); the colorless
+> coupling table collapses to ONE cubic number T — and in the object's own gauge the coupling
+> constant is **exactly 1** (unimodularity; the 2304/953 vs 1 bridge constant in audit). Two
+> seats ran the same chain independently and converged. Ledger: REVIEWS.md R38 + the
+> masterplan amendments v2–v5.
+
 > **State at Review 38 (2026-08-05).** The meditation/capstone/flavor window: the tiling
 > is now **M(𝕆,ℂ) by explicit exact isomorphism** (all 3,003 bracket relations, det φ = −2/3);
 > the torus's split/compact dichotomy is a float-free theorem whose four-column concordance

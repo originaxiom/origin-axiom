@@ -215,3 +215,28 @@ No invariant may be transferred between these without an explicit map.
   CLASSICAL content); AMPLITUDES ℚ(√(2+φ)) + PHASE ℚ(ζ₅) + associator ℚ(√φ) are
   QUARTIC golden-MTC OVERLAYS (the quantum content), ramified away from the
   object's prime 3. The object supplies the probabilities, not the amplitudes.
+- **the First/Second Measurement Theorems (FMT/SMT)**: FMT (P69) — the object's
+  2T-superselection charges stratify e₆; three Galois-conjugate first breakings
+  (the cubic μ, constant 13³); z = so(10)⊕u(1). SMT — a second measurement of the
+  object's own charges lands on su(3)⊕su(2)⊕u(1)³ exactly, skipping SU(5); its
+  wall is complex in the split frame and REAL exactly in e₆(2) (B907, sealed).
+- **the magic-square identification**: the build IS M(𝕆,ℂ) by explicit
+  structure-constants isomorphism (P70; 0/3003 mismatches). The SELECTION of this
+  cell by the object's arithmetic is ours; the square itself is classical.
+- **the flavor atoms / the pencils**: the 27's intrinsic 15-atom basis (six 3-dim
+  colored, nine 1-dim colorless — joint eigenlines of the RATIONAL commuting
+  charge family); the colorless 3×3 grid's rows/columns = the even/odd
+  transversals of a determinant — whence **I = −1 = the Leibniz sign** (exact).
+- **the compact pencil / κ**: the compact charges' wall cubic (constant −19³,
+  resolvent √77, field K); its Kummer class EQUALS the charge class (B910's
+  One-Class theorem); the numerator law 13⁶/19⁶ per pencil.
+- **the canonical gauge / unimodularity**: the basis in which the exact atom
+  lines, the primitive ±1 cubic, and the integer H₊ live together; there the
+  colorless coupling constant is EXACTLY 1 (B917) — couplings = geometric means
+  of H-norms. Cross-observer constants (λ = 2304/953, T = σ₂(t_K)) measure
+  basis-relations, not the object (the bridge constant: B916).
+- **the value ladder / THE CROSSING**: R1–R4 (norm → scales → table → the sealed
+  one-input comparison). The crossing (B915): α_em in, the desert curve out —
+  MISS at 16σ; kills "boundary + desert" only; the failure triangle
+  (10¹³/10¹⁴/10¹⁶·⁵ GeV, α_s-dominated) is the banked input to R4b (the object's
+  D-chain as the desert's replacement, zero free parameters).

@@ -584,3 +584,12 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   (8) H-B794-A5 (type HOOK): the mod-2 image of Γ₄₁ is D₅ inside PSL(2,𝔽₄) ≅ A₅, and A₅
       also carries B787's 5A/5B ambivalence argument. Two appearances of the smallest
       simple group is suggestive and NOT thereby a connection. Open cell: same A₅ or not?
+  (9) H-B914-DEEP (type HOOK, fenced): √T ≈ 2.185×10⁻¹⁶ sits in the same regime as
+      M_Z/M_Pl ≈ 7.5×10⁻¹⁸ (ratio ~29). Registered as observation ONLY at the R4b design
+      notes; any use must pass an R4-style seal. Not numerology until someone computes a
+      mechanism; not physics until a sealed comparison says so.
+  (10) H-B917-SPLIT (type PATTERN, fenced by the solo seat, adopted): in K's arithmetic
+      biography the STRUCTURE primes (13, 17, 19) are inert while the VALUE primes
+      (953, 1129, 421493) are partially split [1,2], each with a unique degree-one place.
+      Open cell: is the degree-one place the "observer's place" — the valuation the value
+      layer's denominators select? Feeds V-L3 (the Kummer machinery for V).
