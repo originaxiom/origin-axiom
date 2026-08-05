@@ -2991,7 +2991,7 @@ anchor-commit: `f0450d71` (Review 38)
 
 ## Review 39 — 2026-08-05 (merges 1–24 from Review 38; the register/crossing/value-layer window)
 
-anchor-commit: `POST_COMMIT_ANCHOR` (Review 39)
+anchor-commit: `2efcf295` (Review 39)
 
 1. **Suite:** green after review fixes — the dedicated complete run: **3539 passed, 3 failed, 35 skipped** (1:16:54, sharing the machine with the cpen leg); the three failures were window hygiene (one carried review item missing its WHY; /Users/ paths in three multiagent-round scripts that the mid-window scrubs missed), all fixed at review with the affected locks rerun green (14/14). The window also banked B919 and the cc3 loss-audit round-1 repairs between the draft and the close — the report covers through `7a4447d7`.
 2. **Gates:** 19/19 green at review time; the pre-push hook caught four real violations

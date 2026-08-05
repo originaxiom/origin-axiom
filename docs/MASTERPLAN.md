@@ -182,3 +182,6 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 
 
 *Mid-window update (2026-08-05, post-crossing): B907–B917 — e₆(2) selected; the norm/signature; I = −1 exact; the one-number table; THE CROSSING (MISS 16σ, the desert dead, R4b registered); the value-arc convergence with the solo seat. See CAMPAIGN_STATUS and the masterplan v5.*
+
+
+*Review 39 (2026-08-05): window B907–B919 + the register loop + THE CROSSING reviewed; suite green after hygiene; candidates listed (B908, the value-layer cluster, B912, B914 + R38 leftovers); next sealed: R4b. See docs/progress/REVIEWS.md.*

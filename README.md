@@ -243,3 +243,6 @@ described B152–B230 as "the frontier" while the bank stood at B798.*
 > 0.9305 / 0.9300 / 0.8732 against predictions of "lower"). **Three more gates were fail-open by
 > drift.** Verdict coverage **756/810**; kill graph fully classified with provenance set
 > (118/118 pointers resolve); faces on **673** records.
+
+
+*Review 39 (2026-08-05): window B907–B919 + the register loop + THE CROSSING reviewed; suite green after hygiene; candidates listed (B908, the value-layer cluster, B912, B914 + R38 leftovers); next sealed: R4b. See docs/progress/REVIEWS.md.*

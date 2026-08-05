@@ -743,3 +743,6 @@ clause, not the whole normalisation.
 | L120 | **The Born-content door** — the II₁-object / III-observer / Born-content-at-interface cells (LAW_MAP §D.observer's named upgrade path; cc3 verified the territory unclaimed, four preregisterable cells). | cc3 second_round_born_content | OPEN |
 | L121 | **Transfer-operator re-disposition** — join the parked lead with B852's instrument verdict. | audit A5 | OPEN |
 | L122 | **The m003 mod-4 hint completion** — the branch DID the raised cutoff (m003-only ≡ 1 mod 4 exactly, 43 norms, single class); harvest + amend HINT_LEDGER:568. | cc3 branch | OPEN — harvest arc |
+
+
+*Review 39 (2026-08-05): window B907–B919 + the register loop + THE CROSSING reviewed; suite green after hygiene; candidates listed (B908, the value-layer cluster, B912, B914 + R38 leftovers); next sealed: R4b. See docs/progress/REVIEWS.md.*
