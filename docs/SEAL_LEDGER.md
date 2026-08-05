@@ -477,3 +477,4 @@ hash-first status.*
 | 2026-08-05 | B907 the real-form selector (J1 joint cell) | `frontier/B907_real_form_selector/PREREGISTRATION.md` | `cd7aae3b1e102359f40fa0e6d3db12a08d68517bff263dd2f7f80548ba518690` |
 | 2026-08-05 | B912 the e6(2) norm cell (ROADMAP rung R1) | `frontier/B912_norm_cell/PREREGISTRATION.md` | `93d420ea26d4fb75114d247cfa066837bb635022fd4db7c4315ad7587dbd98c0` |
 | 2026-08-05 | B913 the R3c magnitude design (cone-respecting choice) | `frontier/B913_r3c_design/PREREGISTRATION.md` | `8afdc2f88c55bd36818748acb13c8b61a770d18906e2b2c030b47ac05770879a` |
+| 2026-08-05 | B915 THE CROSSING (R4; owner: "moment has come") | `frontier/B915_the_crossing/PREREGISTRATION.md` | `7a423aed95afc9a3e2edc79806c83cda9a592e8a079e81525c389febfe6d34de` |
