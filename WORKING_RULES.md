@@ -110,3 +110,9 @@ for exactly this, and a 2026-07-29 review found they were reachable from nowhere
   lock, and no gate enforces it. Treat an unlocked law row as a *claim about the bank*, not as a
   checked fact — locate its arc and its lock before building on it.
 - **`docs/ERROR_LEDGER.md`** — the error classes E1–E33. Read before repeating one.
+
+## Rule (2026-08-05, from the cc3 loss audit, Part E — adopted): REGISTRATION OVER PRESERVATION
+At banking, any harvest arc MUST enumerate the source's carried-forward/open items into
+OPEN_LEADS rows — or explicitly decline each, logged in the arc's FINDINGS. Symmetric with
+the same-PR retraction rule. The failure shape it kills: the artifact sealed and banked
+while the obligations inside it die unregistered.

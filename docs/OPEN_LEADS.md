@@ -729,3 +729,17 @@ clause, not the whole normalisation.
 
 
 *Mid-window update (2026-08-05, post-crossing): B907–B917 — e₆(2) selected; the norm/signature; I = −1 exact; the one-number table; THE CROSSING (MISS 16σ, the desert dead, R4b registered); the value-arc convergence with the solo seat. See CAMPAIGN_STATUS and the masterplan v5.*
+
+### Re-registrations from the cc3 loss audit (2026-08-05) — dropped forward obligations, each one row
+| id | lead | source | status |
+|---|---|---|---|
+| L113 | **The BC/CMR successor question** — is the β=1 system a BC/CMR-type system for K = ℚ(√−3)? The sole load-bearing assumption behind the level mismatch; if YES, B723's central identification fails unconditionally. cc3's branch holds the ℚ(√−3) groundwork (ray class mod (4) = ℤ/2; the Bianchi-BC verified negative + its structural reason). | B851 §3; phantom B858 | OPEN — the sharpest falsifier of the observer construction |
+| L114 | **The ι-status question (H-B787-IOTA), promoted** — decides whether the torsor measurement and the FMT measurement are one object; cc3's τ-parity prototype (L111) is the instrument. | B787; audit A3 | OPEN — cc3 assigned (their D4) |
+| L115 | **The a_π census** — Cell 2's CM-vs-construction discriminator (~10 primes, density-½). | cc3 branch cell2 | OPEN — cc3 assigned (their D3) |
+| L116 | **The Steil 1999 read** (IMA 109, 617–641) — class labels for the lift question. | registered source, never read | OPEN |
+| L117 | **Parity census + J-normalization** — Cell 1's remaining piece. | cc3 branch | OPEN |
+| L118 | **B787 §4 items 1+4** — the Phase-3 recompute; the canonical-root ι re-run on the mislabelled rep. | B787 | OPEN |
+| L119 | **B849 carried #2** — the m003/m004 2-torsion CS prior-art gate. | B849 | OPEN |
+| L120 | **The Born-content door** — the II₁-object / III-observer / Born-content-at-interface cells (LAW_MAP §D.observer's named upgrade path; cc3 verified the territory unclaimed, four preregisterable cells). | cc3 second_round_born_content | OPEN |
+| L121 | **Transfer-operator re-disposition** — join the parked lead with B852's instrument verdict. | audit A5 | OPEN |
+| L122 | **The m003 mod-4 hint completion** — the branch DID the raised cutoff (m003-only ≡ 1 mod 4 exactly, 43 norms, single class); harvest + amend HINT_LEDGER:568. | cc3 branch | OPEN — harvest arc |

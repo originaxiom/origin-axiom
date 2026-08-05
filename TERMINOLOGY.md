@@ -249,3 +249,10 @@ No invariant may be transferred between these without an explicit map.
   hierarchy's pole lives entirely there; prime-role trichotomy 953-pole /
   421493-trace-zero / 1129-e₂-zero; structure primes decorate numerators, the
   value prime digs the denominator.
+- **"measurement" — THE RECONCILING CLAUSE (cc3 audit A3, 2026-08-05)**: the programme
+  currently holds TWO formalisms sharing the word: (i) measurement = fiber functor /
+  Galois torsor (B700 line; §D of LAW_MAP); (ii) measurement = centralizer of a
+  superselection charge (the FMT/SMT line; §F). They are DECLARED DISTINCT NOTIONS
+  pending the deciding computation (B787's ι-status question, now re-registered as a
+  lead per the audit); no banked result identifies them; any text using the bare word
+  should say which. The conjecture that they coincide is open, not assumed.

@@ -478,3 +478,7 @@ hash-first status.*
 | 2026-08-05 | B912 the e6(2) norm cell (ROADMAP rung R1) | `frontier/B912_norm_cell/PREREGISTRATION.md` | `93d420ea26d4fb75114d247cfa066837bb635022fd4db7c4315ad7587dbd98c0` |
 | 2026-08-05 | B913 the R3c magnitude design (cone-respecting choice) | `frontier/B913_r3c_design/PREREGISTRATION.md` | `8afdc2f88c55bd36818748acb13c8b61a770d18906e2b2c030b47ac05770879a` |
 | 2026-08-05 | B915 THE CROSSING (R4; owner: "moment has come") | `frontier/B915_the_crossing/PREREGISTRATION.md` | `7a423aed95afc9a3e2edc79806c83cda9a592e8a079e81525c389febfe6d34de` |
+| 2026-08-05 | cc3 Wave-1 prereg (branch; recorded at the loss audit) | cc3 branch `frontier/B796_coupling_campaign/` | `8424a335` |
+| 2026-08-05 | cc3 cell9 §16 prereg chain 1/3 (branch) | cc3 branch cell9 | `da516046` |
+| 2026-08-05 | cc3 cell9 §16 prereg chain 2/3 (branch) | cc3 branch cell9 | `3ba81779` |
+| 2026-08-05 | cc3 cell9 §16 prereg chain 3/3 (branch; cited by B878) | cc3 branch cell9 | `169e9042` |
