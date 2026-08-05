@@ -415,3 +415,74 @@ B909 still owes the six-cubic/CMT/invisible-12 locks when cpen finishes).
 - **B913 clarification contra audit A1:** B913 is design-only BY ITS OWN SEALED TEXT
   ("this design seal is the cell's entire content; no computation follows under this ID")
   — not an empty arc; noted so the next audit doesn't re-flag it.
+
+# ═══════════════════════════════════════════════════════════════════════
+# MASTERPLAN v2 — THE THREE CROSSINGS AND THE ONE MEASUREMENT
+# (owner-locked 2026-08-05: "lock it"; amendments only by dated entry;
+#  the drift rule and the R4-protocol non-weakening clause extend to this
+#  document's phases and kill conditions verbatim)
+# ═══════════════════════════════════════════════════════════════════════
+
+*The premise earned: structure complete and audited; values are relational
+arithmetic; the first crossing bought a precise question. The claim to test:
+the object carries the observer's entire physics, reachable by exactly three
+sealed comparisons and one unification theorem.*
+
+## PHASE I — CLOSE THE LEDGER
+B909 (cpen → the three debts) · B920 (register-sweep; NORMSPLIT dies) ·
+B921 (branch harvest; the cc3 branch protected until it lands) · V-L2
+exactification (λ, CCC, V, and B919's traces to identity tier) · λ₂ receipt →
+the sealed PSLQ. **Exit: zero known debts, zero contradictions, identity-tier
+numbers.**
+
+## PHASE II — THE SECOND CROSSING (R4b)
+The D-chain β-ladder from banked typings; thresholds by a B913-style sealed
+scale-rule (the anti-shopping clause applies); against the banked 16σ triangle;
+joint seal with solo. HIT → the object carries its own RG history, zero knobs.
+MISS → desert AND ladder dead; the identification retreats to structure-only;
+Phase V becomes the main road.
+
+## PHASE III — THE ONE MEASUREMENT
+1. The ι/τ-parity run (cc3 GO standing): torsor-measurement =?
+   centralizer-measurement. YES → the observer theory IS the FMT.
+2. The torsor cocycle theorem (V-L4, joint): ∏c = −1 as the obstruction class
+   of the generation functor.
+3. **The BC/CMR falsifier (L113) — scheduled EARLY, deliberately**: the
+   sharpest thing that could kill the observer construction runs before
+   anything is built higher on it.
+
+## PHASE IV — THE THIRD CROSSING (only if Phase II survives)
+The hierarchy's exact numbers (v-ratios, λ, T, the atom scales) vs measured
+flavor structure (mass RATIOS, mixing SHAPE): one input, sealed prereg, two
+outcomes, no fitting — the locked R4 protocol verbatim. √T's regime note
+(H-B914-DEEP) either earns a seal here or stays fenced forever. The colored
+cones get their invariant treatment first; the R3c-gated refinements unlock
+only AFTER this crossing.
+
+## PHASE V — THE RESIDUE FRONTIER (owner-gated, parked until called)
+H1 (Λ as lift residue — the residue table) · H3 (the dark block's cubic
+decoupling — sealable) · H5 (two ends = two hemispheres) · L120 (the
+Born-content door). The reading to test: gravity is the geometry of the
+closing.
+
+## PHASE VI — THE OPENING (external contact, on our terms)
+The three papers (FMT/SMT + M(𝕆,ℂ); Maass/λ₂; the value layer + twist-norm
+law) · the cold-start kit as the reproducibility instrument · specialist
+novelty adjudication AFTER the papers exist (provenance rules). Public form:
+structure claimed, identifications reported as sealed outcomes, nothing
+oversold.
+
+## STANDING DISCIPLINES (carried whole)
+Seals before compute · the register lock + drift rule · registration-over-
+preservation · equivariance-pinning · compute-wave-then-shake cadence ·
+one promotion per pass · both remotes, always.
+
+## THE KILL CONDITIONS (locked — may not be moved, only executed)
+- **R4b MISS** → Phases III–IV lose physics motivation; mathematics + V/VI
+  continue.
+- **L113 YES** → the observer construction's foundation fails; Phase III
+  restructures around the wreckage, honestly.
+- **Third crossing MISS** → the value layer is internal arithmetic only; a
+  theorem-rich negative.
+- **All three HIT** → the sentence the programme was built to test gets
+  written, with three seals under it.

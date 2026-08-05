@@ -43,3 +43,30 @@ def test_drift_rule_present():
     assert "THE DRIFT RULE" in t
     assert "dated amendment" in t
     assert "never silently absorbed" in t
+
+
+def test_masterplan_v2_locked():
+    t = _text()
+    assert "MASTERPLAN v2 — THE THREE CROSSINGS AND THE ONE MEASUREMENT" in t
+    # the six phases in binding order
+    idx = [t.index("PHASE I — CLOSE THE LEDGER"),
+           t.index("PHASE II — THE SECOND CROSSING"),
+           t.index("PHASE III — THE ONE MEASUREMENT"),
+           t.index("PHASE IV — THE THIRD CROSSING"),
+           t.index("PHASE V — THE RESIDUE FRONTIER"),
+           t.index("PHASE VI — THE OPENING")]
+    assert idx == sorted(idx)
+
+
+def test_kill_conditions_locked():
+    t = " ".join(_text().split())
+    assert "THE KILL CONDITIONS (locked — may not be moved, only executed)" in t
+    for token in ("R4b MISS", "L113 YES", "Third crossing MISS", "All three HIT"):
+        assert token in t
+
+
+def test_third_crossing_inherits_the_r4_protocol():
+    t = " ".join(_text().split())
+    clause = t[t.index("PHASE IV — THE THIRD CROSSING"):]
+    for token in ("one input", "sealed prereg", "two outcomes", "no fitting"):
+        assert token in clause
