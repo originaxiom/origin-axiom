@@ -297,3 +297,26 @@ R4 is UNTOUCHED, per its non-weakening clause):
 - The H-signature finding (15,12) = e₆(2)'s K-type split is banked as structure; the
   Lorentzian-colored reading stays fenced (speculation hook H2 pays out: the indefinite
   metric emerged, and it emerged ON THE QUARK SECTOR).
+
+### R4b DESIGN NOTES (2026-08-05 — pre-seal exploration; the seal itself is a JOINT cell with solo, gated on the B909/CMT bank)
+The second crossing's question: do intermediate thresholds at the object's OWN chain
+close B915's banked triangle (meeting scales 1.09e13 / 1.72e14 / 2.91e16 GeV; the miss
+α_s-dominated, gap +0.041)? Requirements the seal must meet:
+- **The chain**: E₆ ⊃ D₅ ⊃ D₄ ⊃ D₃ ⊃ A₂-floor (the CMT lane, §LVIII) — the gauge
+  content and matter reps at each stage read from the BANKED typings (so(10)⊕u(1);
+  so(8)⊕u(1)²; so(6)⊕u(1)³; the 16-tiles; the invisible 12), giving the β-coefficient
+  ladder with zero freedom.
+- **The scales**: the hard zero-parameter clause. Candidate banked dimensionless
+  ratios to map onto threshold ratios (the seal must CHOOSE ONE assignment rule before
+  computing, B913-style): (a) the nine-scale table's ratios (span ~67); (b) the colored
+  magnitude ratios (~4.1); (c) √T ≈ 2.19×10⁻¹⁶ as the deep-hierarchy anchor (note:
+  M_Z/M_Pl ≈ 7.5×10⁻¹⁸ — same regime, flagged as observation only); (d) the μ/κ root
+  ratios; (e) the 13/19 prime anchors. NO mixing of candidates post-hoc; the failure
+  of a chosen rule is a banked NEGATIVE, not a license to try the next (the R3c
+  anti-shopping clause pattern applies).
+- **The verdict form**: B915's exact machinery reused; HIT iff the chain-corrected
+  curve reaches the measured pair within the same truncation-dominated band.
+- **Two-outcome honesty**: the prior will be disclosed at seal time after the
+  β-ladder is computed (the direction of threshold corrections is calculable before
+  any scale choice — if the sign is wrong, the prior is MISS and the cell may still
+  be worth running for the quantified exclusion).
