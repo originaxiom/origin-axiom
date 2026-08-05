@@ -1,0 +1,10 @@
+{
+ "id": "B919",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE A1 DEBT DISCHARGED AT ITS HONEST TIER (cc3 loss audit): sin^2(theta_W) = 3/8 at the object's normalization now has a standalone arc + lock -- with the object's own operators (T3 = the weak su(2)-ideal Cartan, intrinsically sl2-normalized; Y = the solved central-charge functional anchored electromagnetically), the exact 27-traces at the full-tower prime 40123 lift by rational reconstruction to Tr(T3^2) = 3, Tr(Y^2) = 5, Tr(T3 Y) = 0 -- trace-orthogonal, sin^2 = 3/8; three independent runs agree. TIER: ONE-PRIME; the second prime (40639) is OPEN with diagnosis -- the per-prime sqrt-convention relabeling (solo XLII pattern) reaches the Y-anchoring. TWO instrument errors self-caught before banking: a substring flag bug, and a SILENT substitution failure that ran one prime twice under a two-prime label (exposed by direct inspection; the briefly-wrong flag retracted in place -- verify-don't-trust applied to this arc's own first artifact). B915's FINDINGS annotated to cite this arc; the remaining B909 debts still gate on cpen.",
+ "depends_on": ["B892", "B897", "B906", "B915"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

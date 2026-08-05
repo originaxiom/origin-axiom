@@ -48,3 +48,12 @@ first — as it should be.
 `PREREGISTRATION.md` (sealed) · `crossing.py` → `results.json` (the curve,
 both loops, the distances, the geometry) · locks in
 `tests/test_b915_crossing.py`.
+
+## ANNOTATION (2026-08-05, the cc3-audit A1 repair)
+
+The boundary value sin²θ_W(M_U) = 3/8 consumed by this cell's construction now
+has its standalone derivation arc and lock: **B919** (the exact traces (3, 5, 0)
+at the full-tower prime, three independent runs, rational reconstruction;
+tier ONE-PRIME with the second prime open-diagnosed). At sealing time the value
+was verified-but-unlocked — cc3's audit flagged it, and the gap is closed at
+the honest tier.

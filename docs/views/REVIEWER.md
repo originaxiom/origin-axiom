@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **839** |
-| words of findings prose | **548,240** |
-| test lock files referenced | **576** |
-| arcs carrying an authored verdict | **826** (98.5 %) |
+| research arcs with findings | **840** |
+| words of findings prose | **548,620** |
+| test lock files referenced | **577** |
+| arcs carrying an authored verdict | **827** (98.5 %) |
 | recorded closures | **732** (565 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 526 |
+| PROVED | 527 |
 | NEGATIVE | 262 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B918`** (1633 words, 0 locks)  
-V-L3 DELIVERED, TWO THEOREMS (banking-verified, both paths): (1) THE ONE-CLASS THEOREM EXTENDS TO THE VALUE LAYER -- the hierarchy element V (minimal cubic 953^4 x^3 - 2^8 3^9 13*421493 x^2 + 2^21 3^8 17*1129 x - 2^32 3^11, exact, irreducible, disc kernel {7,11}, [1,2] over K with exact root certificate matching the solo section-LXV cubic digit-for-digit) satisfies [alpha_V] = C = [alpha_mu] WITH NO UNIT TWIST (four exact symbolic cube certificates, exhaustive chi_3 witnesses at all 9 twists) -- one class C for ALL FOUR matter/value cubics, vacuum = C^{-1}, vacuum + V = split; (2) THE OBSERVER'S-PLACE THEOREM -- H-B917-SPLIT answered YES: V's denominator ideal is (the degree-one place over 953)^4 EXACTLY (v_deg1 = -4, v_deg2 = 0; integrality at all other primes by the e_i-denominator lemma) -- the hierarchy's pole lives entirely on the unique degree-one place, and the three value primes play three distinct roles: 953 the pole, 421493 the trace-zero, 1129 the e2-zero of the V-residues (both congruences exact). Structural asymmetry banked: structure primes enter as NUMERATOR content (13^6, 19^6), the value prime as DENOMINATOR content (953^4, on the observer's place). The dispatcher's brief carried a wrong triple -- caught by the agent and adjudicated by the exact product law e3 = 27*2304^4/953^4. The pipeline link v_g^2 = HIER-roots stays numeric-certified (7.3e-88) pending V-L2.  
-`B918_v_kummer/FINDINGS.md`
+**PROVED — `B919`** (310 words, 1 locks)  
+THE A1 DEBT DISCHARGED AT ITS HONEST TIER (cc3 loss audit): sin^2(theta_W) = 3/8 at the object's normalization now has a standalone arc + lock -- with the object's own operators (T3 = the weak su(2)-ideal Cartan, intrinsically sl2-normalized; Y = the solved central-charge functional anchored electromagnetically), the exact 27-traces at the full-tower prime 40123 lift by rational reconstruction to Tr(T3^2) = 3, Tr(Y^2) = 5, Tr(T3 Y) = 0 -- trace-orthogonal, sin^2 = 3/8; three independent runs agree. TIER: ONE-PRIME; the second prime (40639) is OPEN with diagnosis -- the per-prime sqrt-convention relabeling (solo XLII pattern) reaches the Y-anchoring. TWO instrument errors self-caught before banking: a substring flag bug, and a SILENT substitution failure that ran one prime twice under a two-prime label (exposed by direct inspection; the briefly-wrong flag retracted in place -- verify-don't-trust applied to this arc's own first artifact). B915's FINDINGS annotated to cite this arc; the remaining B909 debts still gate on cpen.  
+`B919_weinberg_traces/FINDINGS.md`
 
-**NEGATIVE — `B915`** (371 words, 1 locks)  
+**NEGATIVE — `B915`** (441 words, 1 locks)  
 THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single input alpha_em(M_Z) and the object's banked gauge boundary (E6 unification, sin2thetaW = 3/8 from the exact traces), the two-loop SM-desert curve's nearest approach to the measured pair (sin2thetaW, alpha_s)(M_Z) is d = 15.97 sigma_tot -- SEALED OUTCOME MISS: the identification 'object boundary + pure SM desert' is DEAD; every structural theorem stands, exactly as pre-stated. THE DISCLOSED PRIOR WON for the first time in five sealed cells (both directions of the seal discipline now verified live). THE BANKED FAILURE GEOMETRY: nearest approach at M_U = 1.5e13 GeV with the miss ALPHA_S-DOMINATED (gap +0.041 vs +0.002 in sin2thetaW); the pairwise meeting scales 1.09e13 / 1.72e14 / 2.91e16 GeV -- a three-order triangle. REGISTERED CONTINUATION (its own seal): R4b -- the object's own compact D-chain E6 > D5 > D4 > D3 > A2 as the desert's replacement, thresholds at the chain's banked scales, ZERO new parameters; the test is whether the chain closes THIS triangle. Gate 5's door was opened under seal, used once, and reported faithfully.  
 `B915_the_crossing/FINDINGS.md`
 

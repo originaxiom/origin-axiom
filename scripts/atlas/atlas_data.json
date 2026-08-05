@@ -19063,12 +19063,14 @@
   "B915": {
    "slug": "the crossing",
    "motifs": [
+    "metallic",
     "eisenstein",
     "lorentzian"
    ],
    "refs": [
     "B909",
-    "B911"
+    "B911",
+    "B919"
    ],
    "obstacle": "measure",
    "obstacle_conf": 5,
@@ -19135,6 +19137,23 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B919": {
+   "slug": "weinberg traces",
+   "motifs": [
+    "trace_map",
+    "metallic"
+   ],
+   "refs": [
+    "B906",
+    "B909",
+    "B915",
+    "L2"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 4,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B92": {

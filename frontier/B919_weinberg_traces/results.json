@@ -1,0 +1,19 @@
+{
+ "40123": [
+  "Y-functional (alpha,beta,gamma) mod q: [16023, 2075, 7065]",
+  "Tr27(T3^2) = 3  Tr27(Y^2) = 5  Tr27(T3\u00b7Y) = 0",
+  "sin^2(theta_W) at the object's normalization = 3/8",
+  "DONE"
+ ],
+ "40639": [
+  "Y-functional (alpha,beta,gamma) mod q: [16023, 2075, 7065]",
+  "Tr27(T3^2) = 3  Tr27(Y^2) = 5  Tr27(T3\u00b7Y) = 0",
+  "sin^2(theta_W) at the object's normalization = 3/8",
+  "DONE"
+ ],
+ "two_prime_traces_3_5_0": false,
+ "sin2_theta_W": "3/8",
+ "note": "the earlier 'exactness signature' note was WRONG (same-prime artifact) and is retracted here",
+ "tier": "ONE-PRIME (40123): traces (3,5,0) exact by rational reconstruction; three independent runs agree (the handoff-6 original, the B906-era verification rerun, this arc's rerun)",
+ "second_prime_status": "OPEN with diagnosis: the naive chain substitution at 40639 first failed SILENTLY (zero occurrences of the new prime -- caught by direct inspection; the 'identical coefficients' were one prime twice, and an earlier two_prime=True flag in this file was WRONG for ~minutes before this correction); the properly-substituted chain then fails at rational reconstruction (ratrec None) -- the per-prime sqrt-convention relabeling (solo section XLII pattern) needs handling in the Y-anchoring before the second prime can speak. Registered follow-up."
+}
