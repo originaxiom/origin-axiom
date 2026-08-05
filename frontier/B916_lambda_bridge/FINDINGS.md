@@ -107,3 +107,14 @@ structure by its equivariance pattern, never by basis-primitivity.** The
 c² = −q_iq_jq_k identity (λ = 1 with the equivariant H) and the twist-norm
 law are LAW_MAP-worthy; flagged for the promotion pass. The D₂ flip pattern's
 weight-character reading stays open (registered).
+
+## ADDENDUM (the D₂ decode, first pass — banking seat, 2026-08-05)
+
+The registered open question — is D₂ a weight-lattice character? — is answered
+NO at the necessary condition: no mod-2 character (−1)^⟨a,w⟩, a ∈ 𝔽₂⁶, flips
+all eleven flipped weights (exhaustive over the 64 candidates; lock below).
+The flip count 11 = 8 + 3 is suggestive of one octet block plus the three
+vacuum lines, and the flipped weight-sums are {−1×2, 0×7, +1×2}; the
+block-membership identification (which Π-blocks the flips inhabit) is the
+registered refined question — it needs the coordinate↔block dictionary in the
+B883 weight order, which belongs with the V-L2 exactification pass.
