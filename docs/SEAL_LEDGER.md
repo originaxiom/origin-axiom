@@ -475,3 +475,4 @@ hash-first status.*
 | 2026-08-04 | B890 foreign-pair distinguishability (W6 opening) | `frontier/B890_foreign_pair/PREREGISTRATION.md` | `ea66fc34d7112a8e94c923664b3aa3a50eeca0d16cd67f97f2d20590d5a81f31` |
 | 2026-08-04 | B891 matter-extension cell (W6 continuation) | `frontier/B891_matter_extension/PREREGISTRATION.md` | `a08398c53e9429a78a8c5340c644e1a42a8e30cb2055d33082477b27db1085a8` || 2026-08-05 | B897 the 27 under G20 — generation-shaped or not (M2) | `frontier/B897_27_under_g20/PREREGISTRATION.md` | `e293f095349b33ec0d29a9ff44755e779ec8eb7ebb9f394876b14979b60db205` |
 | 2026-08-05 | B907 the real-form selector (J1 joint cell) | `frontier/B907_real_form_selector/PREREGISTRATION.md` | `cd7aae3b1e102359f40fa0e6d3db12a08d68517bff263dd2f7f80548ba518690` |
+| 2026-08-05 | B912 the e6(2) norm cell (ROADMAP rung R1) | `frontier/B912_norm_cell/PREREGISTRATION.md` | `93d420ea26d4fb75114d247cfa066837bb635022fd4db7c4315ad7587dbd98c0` |
