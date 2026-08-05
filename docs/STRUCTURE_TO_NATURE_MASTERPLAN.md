@@ -264,3 +264,18 @@ Review 39 at cadence.
 **THE DRIFT RULE:** work outside this register requires a dated amendment HERE first
 (same discipline as seal amendments — logged, never silently absorbed). Relay-driven
 verification of incoming seat handoffs is standing-authorized and exempt.
+
+### Dated amendment (2026-08-05) — the Λ/gravity speculation hooks, PARKED (owner: "when timing is right, no need to rush")
+Registered behind R1–R4, explicitly NOT in the near-term queue; activation is an owner
+call. From the firewalled speculation session (Λ as lift residue; gravity as the
+observer's closing; the object as a Λ<0 vacuum already):
+- **H1 — the residue table**: norms/heights of all Kummer γ-certificates as pure
+  structure; internal hierarchy only; any external comparison only ever through an
+  R4-style seal.
+- **H3 — the dark-block decoupling cell** (sealable two-outcome): does the invisible
+  12 decouple from the 15 atoms at cubic level? (Orthogonality predicts yes.)
+- **H4 — λ₂ vs the BTZ/entropy constants**: fold into the standard PSLQ candidate list
+  when λ₂ lands (this one rides the existing λ₂ lane, not a new cell).
+- **H5 — the two-ends/two-hemispheres mapping cell**: does the frame's (2,2) split
+  align with B261's two AJ regimes (the E₆/E₈ two-ended structure)?
+(H2 — the H-signature — is already in flight as sealed B912 and needs no parking.)
