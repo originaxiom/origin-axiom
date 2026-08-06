@@ -1,0 +1,33 @@
+========================================================================
+CELL 3 — SPIN FORK
+========================================================================
+
+0. Lift verification (relator w a = b w, w = aBAb):
+   rho1 = (A, B): relator holds in SL(2,C): True
+   rho2 = (-A, -B): relator holds in SL(2,C): True
+   mixed signs (1,-1): relator holds: False (must be False — only 2 spin structures)
+   mixed signs (-1,1): relator holds: False (must be False — only 2 spin structures)
+
+1. Peripheral lifted traces (exact):
+   rho1: tr(meridian) = 2, tr(longitude) = -2 (longitude c-entry = 0)
+   rho2: tr(meridian) = -2, tr(longitude) = -2 (longitude c-entry = 0)
+
+2. Cusp spin structure per lift:
+   Convention C1 (named in prereg): tr = -2 <=> TRIVIAL along the
+   curve; LIE = trivial along both; Lie <=> essential spectrum R.
+   Convention C2 (opposite sign dictionary) also shown.
+
+   rho1 under C1: (meridian nontrivial, longitude trivial) -> non-Lie: DISCRETE Dirac spectrum
+   rho1 under C2: (meridian trivial, longitude nontrivial) -> non-Lie: DISCRETE Dirac spectrum
+
+   rho2 under C1: (meridian trivial, longitude trivial) -> LIE: essential spectrum R
+   rho2 under C2: (meridian nontrivial, longitude nontrivial) -> non-Lie: DISCRETE Dirac spectrum
+
+========================================================================
+3. VERDICT (pre-registered fork)
+========================================================================
+   rho1 trace pattern: (2, -2);  rho2 trace pattern: (-2, -2)
+   Under C1: Lie-type lift(s): ['rho2']
+   Under C2: Lie-type lift(s): NONE
+
+   The two spin structures are DISTINGUISHED by the cusp data.

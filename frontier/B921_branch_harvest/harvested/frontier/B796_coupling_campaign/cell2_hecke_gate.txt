@@ -1,0 +1,43 @@
+Building system (Y = 0.75, rmax 10.1) ...
+  816 modes / 1116 pts
+
+========================================================================
+CELL 2 STAGE 0 — HECKE VALIDATION GATE (mult-1 newforms)
+========================================================================
+
+--- form r = 4.900085373 (sigma_min = 4.6e-11) ---
+  [raw] pi7 (N=7): |lam| = 0.0000 (bound 2*sqrt(N) = 5.29); best eigen-relation: alpha = -1, rel dev = 1.00e+00
+  [raw] pi13: coefficients out of range
+  [raw] T2 mult (7 = pi*pibar): rel dev = 1.00e+00
+  [mu6-avg] chat(1) unavailable/zero — skip
+
+--- form r = 5.912917882 (sigma_min = 2.6e-10) ---
+  [raw] pi7 (N=7): |lam| = 0.0000 (bound 2*sqrt(N) = 5.29); best eigen-relation: alpha = -1, rel dev = 1.00e+00
+  [raw] pi13: coefficients out of range
+  [raw] T2 mult (7 = pi*pibar): rel dev = 1.00e+00
+  [mu6-avg] pi7 (N=7): |lam| = 121.3956 (bound 2*sqrt(N) = 5.29); best eigen-relation: alpha = -1, rel dev = 1.00e+00
+  [mu6-avg] pi13: coefficients out of range
+  [mu6-avg] T2 mult (7 = pi*pibar): rel dev = 1.00e+00
+
+--- form r = 7.4066156 (sigma_min = 2.6e-09) ---
+  [raw] pi7 (N=7): |lam| = 0.0000 (bound 2*sqrt(N) = 5.29); best eigen-relation: alpha = -1, rel dev = 1.00e+00
+  [raw] pi13: coefficients out of range
+  [raw] T2 mult (7 = pi*pibar): rel dev = 1.00e+00
+  [mu6-avg] pi7 (N=7): |lam| = 221.7518 (bound 2*sqrt(N) = 5.29); best eigen-relation: alpha = -1, rel dev = 1.00e+00
+  [mu6-avg] pi13: coefficients out of range
+  [mu6-avg] T2 mult (7 = pi*pibar): rel dev = 1.00e+00
+
+========================================================================
+GATE VERDICT
+========================================================================
+  relations tested: 10; passing at 5%: 0
+
+  GATE: FAILED under both normalizations and both unit treatments.
+  Per the sealed prereg this is the ABORT branch: the level-(4)
+  Hecke normalization (double-coset structure for Gamma_41, which is
+  congruence but not Gamma_0-type) is NOT the naive Bianchi one.
+  BANKED FACT: no Hecke claim runs; Stage 1 (doublet surgery) is
+  BLOCKED pending a correct level-(4) operator construction — a
+  registered follow-up, not a silent degradation. (This failure mode
+  was pre-registered as the gate's purpose; G5.)
+Saved cell2_gate_results.json

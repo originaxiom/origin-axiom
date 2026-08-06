@@ -1,0 +1,80 @@
+A1: certified set — 17 kept, excluded []
+A2: max_rel_dr = 6.90e-10 -> tolerance floor 6.90e-09
+Spectral set: 17 distinct eigenvalues, r in [3.9389, 9.8371]
+Targets: 18 (B743 banked PDG list)
+
+========================================================================
+TEST 1: DIRECT MATCH (r_n and lam_n vs targets)
+========================================================================
+  candidate: r = 3.93891686 ~ delta_CP = 3.700098014 (tau 3.2e-01, surrogate p = 0.650) -> fails base rate
+  candidate: lam = 16.51506606 ~ m_s/m_d = 19.5 (tau 1.6e-01, surrogate p = 0.526) -> fails base rate
+
+========================================================================
+TEST 2: RATIOS (r_m/r_n and lam_m/lam_n vs targets)
+========================================================================
+  candidate: lam-ratio = 0.32374076 ~ sin^2(theta_12) = 0.308 (surrogate p = 0.856) -> fails base rate
+  candidate: lam-ratio = 0.30018910 ~ sin^2(theta_12) = 0.308 (surrogate p = 0.856) -> fails base rate
+  candidate: lam-ratio = 0.29566185 ~ sin^2(theta_12) = 0.308 (surrogate p = 0.856) -> fails base rate
+  candidate: lam-ratio = 0.31436464 ~ sin^2(theta_12) = 0.308 (surrogate p = 0.856) -> fails base rate
+  candidate: lam-ratio = 0.30318246 ~ sin^2(theta_12) = 0.308 (surrogate p = 0.856) -> fails base rate
+  candidate: lam-ratio = 0.30183551 ~ sin^2(theta_12) = 0.308 (surrogate p = 0.856) -> fails base rate
+  candidate: lam-ratio = 0.29968107 ~ sin^2(theta_12) = 0.308 (surrogate p = 0.856) -> fails base rate
+  candidate: r-ratio = 0.47409849 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: r-ratio = 0.44440220 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: r-ratio = 0.49812214 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.49808587 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.45922895 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.49028125 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.45461402 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.44775783 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.47349244 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.45201883 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.47900714 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 0.46020858 ~ sin^2(theta_23) = 0.47 (surrogate p = 0.994) -> fails base rate
+  candidate: lam-ratio = 2.72442546 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.08889126 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.33123353 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.38224228 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.63911884 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.79924353 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 4.24016465 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 2.79985033 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 4.81741667 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.18101931 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.29834385 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.31306277 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.33688075 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.75564939 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 2.83293866 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 2.61193404 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 3.90905977 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 2.94865825 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 2.71862605 ~ delta_CP = 3.700098014 (surrogate p = 0.962) -> fails base rate
+  candidate: lam-ratio = 0.30318246 ~ m_c(m_c)/m_b(m_b) = 0.304327038 (surrogate p = 0.242) -> fails base rate
+
+========================================================================
+TEST 3-lite: PSLQ ALGEBRAICITY (8-digit; low-height only)
+========================================================================
+  B1 Q(sqrt5): no relations (null rate 0.00)
+  B2 Q(sqrt3): no relations (null rate 0.00)
+  B3 Q(sqrt15): no relations (null rate 0.00)
+  B4 Q(zeta15+): no relations (null rate 0.00)
+  B5 Q(zeta20+): no relations (null rate 0.00)
+  B6 Q(sqrt-phi): no relations (null rate 0.00)
+
+========================================================================
+VERDICT
+========================================================================
+Test 1 candidates 2, gated 0
+Test 2 candidates 39, gated 0
+Test 3 relations  0, gated 0
+
+CLEAN NULLS: no SM value is reachable from this spectral set
+at 8-digit precision under the stated base-rate control
+(n = 17 certified eigenvalues, r <= 9.84).
+This is a GENERIC-SPECTRUM null over a bounded window. The
+deep-precision question (20+ digits) and the algebraicity
+question (50+ digits) remain open, untested, in both
+directions. (Scope per sealed prereg c6954bfa, amendment A3.)
+
+Saved sm_comparison_results.json

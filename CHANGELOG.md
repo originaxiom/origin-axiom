@@ -1,5 +1,9 @@
 # Changelog
 
+## B909 — the frame arc banked: the CMT verified (corrected instrument), the pending row paid whole
+- **The Compact Measurement Theorem: dim z = 30 / derived ≥ 28 / z∩core = 18 / center 2 at FIVE (root,prime) pairs incl. the fully-split 40039** — so(8)⊕u(1)² uniform. The shipped cmt.py was the RETRACTED §LIV septic (phantom roots; floor-reading) — caught by root-set comparison, now the standing sanity gate; the retraction-propagation failure routes to B920.
+- Also: ν = c·κ⁶ exact (the six-cubic law); the invisible-12 with its SMT fingerprint; the FA3 census 8/8; the One-Field theorem. **All four LAW_MAP debts PAID. R4b unblocked.** 3 locks. Gate 5 untouched.
+
 ## B922 — λ₂: the first 25-digit Maass eigenvalue on any hyperbolic 3-manifold
 - **r = 4.9000853730625213014795758, λ = 25.0108366633…** — cc3's 58.1h sealed chain (validation, P4 spread 0.0, the must-fail control, stability cert at 0.7% margin, logged honestly). **The first sealed PSLQ pass: CLEAN** (six fields + minpoly box, 25 digits, rung i). This bench: the arithmetic + the H4/BTZ axis independently CLEAN. Parent run launched (~2.5 d). The Maass paper's headline exists. 2 locks.
 
