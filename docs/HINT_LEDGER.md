@@ -630,3 +630,9 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 > sisters (m004 → 3, m003 → 1); combined with B794 this is a mod-4
 > congruence discriminator consistent with the level-(4) cusp
 > structure (B737: O/Λ ≅ Z/4, disc −48).
+  (13) H-B931-SONG (type PATTERN, from a listening session): the flip-mass level table —
+      953² in unison at m = ½ (both families); the resolvent primes SPLIT BY SIGN at the
+      unit levels (11 at m = +1, 7² at m = −1, both families); private prime names at the
+      zeros; poles on {2,3}. Open: WHY the sign of full flip separates 7 from 11 — the
+      resolvent's factorization heard as an orientation. No cell designed yet; listen more
+      before asking.

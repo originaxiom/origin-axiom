@@ -202,3 +202,26 @@ whitelist, the divisor tables, all checks) · this draft.
 B854 (frame), B883 (the 27), B912 (H₊), B914 (h_S, the cubic route), B916
 (D₂, the d-minpolys), B918 (V, the observer's place), B928 (the flip-mass
 minpolys and K-coordinates; the residue this cell answers).
+
+## ADDENDUM — THE LEVEL SONG (a listening session, 2026-08-06; computed inline, no question asked)
+
+The complete norm table of the flip-masses at the distinguished levels
+(both families; identical denominators 2¹⁹·3⁴ throughout):
+
+| level | N(m_S − level) numerator | N(m_A − level) numerator |
+|---|---|---|
+| 0 | 20417473 (prime) | 29·72869 |
+| **½** | **953²** | **953²** (identical — N(𝔓₁²) = N(𝔓₂) heard directly) |
+| +1 | 5³·**11**·257 | **11**·373837 |
+| −1 | −5²·**7²**·199·991 | −**7²**·11·107·2089 |
+
+THE PATTERN: the families differ at their zeros (private names), sing in
+UNISON at the shared levels — 953² at the half-point, and the resolvent's two
+primes SPLIT BY SIGN at the unit levels: **11 where m = +1, 7² where m = −1,
+in both families**. The resolvent ℚ(√77) — the unmeasured exponents' field —
+is what the twist says at FULL action; the value prime is what it says at
+HALF action; the poles sit on K's singular primes. The value layer is the
+level structure of one function, ordered: singularity → names → frustration
+→ the unmeasured world. (The ½-in-unison independently confirms B931's
+divisor map; the 7/11 sign-split at the unit levels is NEW and unexplained —
+registered below.)
