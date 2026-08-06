@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **857** |
-| words of findings prose | **567,609** |
-| test lock files referenced | **586** |
-| arcs carrying an authored verdict | **844** (98.5 %) |
+| research arcs with findings | **860** |
+| words of findings prose | **573,034** |
+| test lock files referenced | **587** |
+| arcs carrying an authored verdict | **847** (98.5 %) |
 | recorded closures | **734** (567 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 541 |
+| PROVED | 544 |
 | NEGATIVE | 265 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B938`** (265 words, 1 locks)  
-THE SIGN OF FULL FLIP -- NO SWAP, A COSET INVARIANT (blind): testing the level song against the wall pair's full 2-torsion {I, D2, D, D2D}, D ACTS AS THE IDENTITY ON THE COLORLESS REGISTER (m_S = m_A = 0 exactly; ALL TWELVE of D's flips are colored), so D2D carries D2's level song UNCHANGED and D alone is level-degenerate (N(m - l) = -l^3, no primes at all); THE 7/11 ASSIGNMENT DOES NOT TRACK THE KLEIN ELEMENT -- the resolvent's factorization (11 at m = +1, 7^2 at m = -1) is a D2-COSET DATUM, invariant under the full 2-torsion modulo the wall twist, and orientation reversal moves only COLORED weight (tr W18: 6 -> 10; flip rank 11 -> 15). THE FENCED READING: the two 2-torsion generators divide labor exactly as the two-hemisphere doctrine says -- D2 owns the colorless/register arithmetic (the hierarchy, the value primes, the resolvent split), D owns the colored; the unmeasured world's primes are written by ONE generator only. Part A: the unity column's exact line confirmed as B930 found it (F cap W3).  
-`B938_unity_and_sign/FINDINGS.md`
+**PROVED — `B939`** (274 words, 1 locks)  
+THE KLEIN ASSEMBLY -- THE SIX SHADOWS ARE NOT ONE GROUP: the sharpest checkable pair is DISTINCT -- K4 (the wall 2-torsion, inner, Cartan-fixing) and W_frame (the solo seat's section-LIII frame group) are DISTINCT SUBGROUPS OF Aut(e6) overlapping in exactly {1, sigma_-1}; K4 does NOT act on the frame at all (two of its legs break every charge line; neither pencil plane survives), and W_frame is realized instead by the OTHER Klein-carrying group C8 = <phi+, sigma_c, sigma_-1> (the C-compatible census subgroup) with P(C8) = W_frame and kernel {1, sigma_-1}. THE SHARED LEG IS THE FRAME-INVISIBLE ONE -- sigma_-1 = the B912/B928 wall twist D, the same element B938 showed is colorless-blind and B936 showed carries the nonzero H^1 class. The 27-shadow map is banked: sigma_-1 -> D (12 flips), sigma_chi- -> D2 (the ELEVEN), sigma_c -> D_c (12) -- K4's frame-invisible legs are 27-VISIBLE, and W_frame's carriers cast the census D-set.  
+`B939_klein_assembly/FINDINGS.md`
 
 **NEGATIVE — `B935`** (374 words, 1 locks)  
 THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions (R-conjugation; the polar/singular decomposition; both orderings GhatR and RGhat; the v-weight conjugation) yields exactly FOUR invariant triples MOST OF WHICH ARE FORCED TO COINCIDE -- eig(R^T Ghat R) = eig(Ghat) (orthogonal similarity, 4.6e-151), eig(D_v-conj) = eig(Ghat) (diagonal similarity, 1.5e-151), eig(GhatR) = eig(RGhat) (the AB/BA theorem, 3.1e-151), and all four singular-value sets identical: NO COMPOSITION IS INDEPENDENT, the premise dies by similarity rather than numerics. THE STRUCTURAL REASON: the S-A overlap matrix is RANK 2 -- its singular cubic has an EXACT ZERO root (det X2 = 0 exactly, likewise the v-conjugate), so one register direction has NO overlap with the A family, the composed eigen-triples are not descending-positive (the cascade index is UNDEFINED for them), ZERO compositions land in the [1.2,1.6] band, and the object's register mixing geometry has only TWO nonzero directions -- it cannot produce a three-term mixing cascade by this route at all. Two amendments logged (positivity assumed AGAIN -- the abort was the finding; the 1e-80 belt bar exceeding the sqrt-of-small precision floor, recalibrated to the house 1e-40 with 3.9e-76 achieved).  

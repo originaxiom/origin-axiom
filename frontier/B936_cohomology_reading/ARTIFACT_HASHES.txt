@@ -1,0 +1,20 @@
+B936 — the cohomology reading — artifact hashes
+
+SEALED BEFORE COMPUTE (hash-first, WORKING_RULES §3):
+2808c8a7726990ebbadf0b81f76b8f823cbb5fe6b1c397a5f9e682787ead624c  PREREGISTRATION.md
+
+POST-HOC (labelled as such, WORKING_RULES §3): the instrument was sealed at
+e24fd045494d786a66eb594b2e99314c6b903a0a6c805edfcf2d2eaacc32bcf5 before the
+first run and then amended twice IN THE OPEN, both amendments recorded in
+DRAFT_FINDINGS.md:
+  (i) one consistency criterion was mis-specified (it asked the ORDERED
+      signature of a scale-free structure to be class-constant); the run
+      refuted it and it was repaired to the unordered signature;
+  (ii) the sealed two-outcome criterion C-C was converted from a halting
+      CHK to a recording VERDICT so that a legitimate FAIL would not abort
+      the remaining stages, and the controls that a failed criterion demands
+      were added.
+No sealed CRITERION was changed in content; C-C is reported exactly as sealed.
+
+844399f3f25254f888dd1b9646c515fd29c93c3923c0f2da8d916b18c94afdbf  cohom.py (final)
+f84dec03b8de9bdcfcd0760523a28ac82bac0e4afad628525d09556209fadb26  results.json (final run, reproducible: re-running cohom.py regenerates this byte-for-byte apart from the runtime_s field)

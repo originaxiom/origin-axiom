@@ -19580,6 +19580,62 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B936": {
+   "slug": "cohomology reading",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B883",
+    "B900",
+    "B907",
+    "B912",
+    "B916",
+    "B923",
+    "B928",
+    "B930",
+    "B938"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B937": {
+   "slug": "golden and 29",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B874",
+    "B883",
+    "B912",
+    "B914",
+    "B916",
+    "B918",
+    "B928",
+    "B930",
+    "B931",
+    "B932"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 27,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B938": {
    "slug": "unity and sign",
    "motifs": [
@@ -19591,6 +19647,23 @@
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B939": {
+   "slug": "klein assembly",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B936",
+    "B938",
+    "K4"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B93": {

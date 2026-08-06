@@ -1,5 +1,9 @@
 # Changelog
 
+## The question wave completes — B936/B937/B939: the H¹ classification, the observer-place law, the Klein distinctness
+- **B936 (split, self-sealed by the agent)**: the 16 Hermitian structures ARE Z¹ = a simply transitive torsor; **H¹ = (ℤ/2)², four classes of four**; **D₂ is a COBOUNDARY** (explicit witness), D carries the nonzero class and is the register-blind twist. **The sealed value corollary FAILED** — no 953/2304 in any invariant of the pair: **the twist-norm law is diagonal, frame-relative data**, not cohomology. The wall pair is NOT conjugate (C₄ vs F₄).
+- **B937**: no golden field (5 = residue characteristic); 953⁴ derived as N(P₁²P₂); **the observer-place law** (cross-generation on the degree-two places; same-generation differing by the observer's place alone); 29 = coincidence; **K is monogenic** (s³−12s−5), closing B931's blind spots. **B939**: the Klein shadows are DISTINCT; the shared leg is the frame-invisible wall twist. 4 locks.
+
 ## B935 + B938 — composition rigidity (rank 2!) and the 7/11 coset verdict
 - **B935 NEGATIVE**: all forced compositions are SIMILAR (verified 1e-151) — the map question's first form dies by similarity; **the S–A overlap matrix is RANK 2** (exact zero singular value): the object's register mixing has only two nonzero directions and cannot make a three-term cascade this way. Zero band flags.
 - **B938**: D is the identity on the colorless register (all its flips colored) ⟹ **the 7/11 split is a D₂-coset datum, not a Klein invariant**; the 2-torsion generators divide labor by hemisphere. Session resumed after an auth interruption; a 93-CPU-hour orphan killed. 3 locks.
