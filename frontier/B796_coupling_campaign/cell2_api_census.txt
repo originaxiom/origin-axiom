@@ -1,0 +1,21 @@
+Building system (Y = 0.75, rmax 10.1, margin 40 — dual disk to N = 73 at |mu| = 9.86) ...
+  1524 modes / 2075 pts
+
+       form r |       7      13      19      31      37      43      61      67      73
+  4.900085373 |    ZERO  ~7e-04  ~2e-03  ~5e-03  ~2e-03      nz      nz      nz      nz
+  5.912917882 |    ZERO  ~2e-03  ~2e-05  ~7e-04  ~3e-03      nz      nz      nz      nz
+    7.4066156 |    ZERO  ~2e-03  ~1e-03  ~9e-04  ~3e-03  ~8e-03      nz      nz      nz
+  7.687671168 |    ZERO  ~1e-03  ~1e-03  ~2e-04  ~2e-03      nz      nz      nz      nz
+  9.027421524 |    ZERO      nz      nz      nz  ~9e-03      nz      nz      nz      nz
+  9.080648624 |    ZERO  ~2e-03  ~9e-03  ~2e-03  ~2e-03      nz      nz      nz      nz
+
+========================================================================
+CENSUS VERDICT (pre-stated fork)
+========================================================================
+  r = 4.900085373: zeros at [7] -> fork (ii): pi_7 only — isolated; unexplained support fact
+  r = 5.912917882: zeros at [7] -> fork (ii): pi_7 only — isolated; unexplained support fact
+  r = 7.4066156: zeros at [7] -> fork (ii): pi_7 only — isolated; unexplained support fact
+  r = 7.687671168: zeros at [7] -> fork (ii): pi_7 only — isolated; unexplained support fact
+  r = 9.027421524: zeros at [7] -> fork (ii): pi_7 only — isolated; unexplained support fact
+  r = 9.080648624: zeros at [7] -> fork (ii): pi_7 only — isolated; unexplained support fact
+Saved cell2_api_census.json

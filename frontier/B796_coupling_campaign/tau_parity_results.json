@@ -1,0 +1,51 @@
+{
+ "7.072004187": {
+  "label": "PARENT/V1 (control: must be +1)",
+  "eps": 0.9999999998686424,
+  "abs_dev": 1.0079249657124478e-09,
+  "sign_scatter": 0.0,
+  "sector": "V1"
+ },
+ "4.900085373": {
+  "label": "newform",
+  "eps": 1.0000000000002998,
+  "abs_dev": 1.205924249347845e-12,
+  "sign_scatter": 0.0,
+  "sector": "V5 (tau-even)"
+ },
+ "5.912917882": {
+  "label": "newform",
+  "eps": 0.999999999985149,
+  "abs_dev": 8.279915642006586e-11,
+  "sign_scatter": 0.0,
+  "sector": "V5 (tau-even)"
+ },
+ "7.4066156": {
+  "label": "newform",
+  "eps": 0.9999999974668734,
+  "abs_dev": 3.729663067275624e-08,
+  "sign_scatter": 0.0,
+  "sector": "V5 (tau-even)"
+ },
+ "7.687671168": {
+  "label": "newform",
+  "eps": 1.0000000002911866,
+  "abs_dev": 1.5095572569734372e-09,
+  "sign_scatter": 0.0,
+  "sector": "V5 (tau-even)"
+ },
+ "9.027421524": {
+  "label": "newform",
+  "eps": 1.0000000024184956,
+  "abs_dev": 1.2491208289944211e-08,
+  "sign_scatter": 0.0,
+  "sector": "V5 (tau-even)"
+ },
+ "9.080648624": {
+  "label": "newform",
+  "eps": 0.9999999842791157,
+  "abs_dev": 3.2422988072156045e-08,
+  "sign_scatter": 0.0,
+  "sector": "V5 (tau-even)"
+ }
+}
