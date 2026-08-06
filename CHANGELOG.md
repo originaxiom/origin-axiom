@@ -1,7 +1,7 @@
 # Changelog
 
 ## B922 — λ₂: the first 25-digit Maass eigenvalue on any hyperbolic 3-manifold
-- **r = 4.90008537306252130147957 58, λ = 25.0108366633…** — cc3's 58.1h sealed chain (validation, P4 spread 0.0, the must-fail control, stability cert at 0.7% margin, logged honestly). **The first sealed PSLQ pass: CLEAN** (six fields + minpoly box, 25 digits, rung i). This bench: the arithmetic + the H4/BTZ axis independently CLEAN. Parent run launched (~2.5 d). The Maass paper's headline exists. 2 locks.
+- **r = 4.9000853730625213014795758, λ = 25.0108366633…** — cc3's 58.1h sealed chain (validation, P4 spread 0.0, the must-fail control, stability cert at 0.7% margin, logged honestly). **The first sealed PSLQ pass: CLEAN** (six fields + minpoly box, 25 digits, rung i). This bench: the arithmetic + the H4/BTZ axis independently CLEAN. Parent run launched (~2.5 d). The Maass paper's headline exists. 2 locks.
 
 ## B918 — V joins the class table; THE OBSERVER'S-PLACE THEOREM
 - HIER exact (953⁴-led, the seventh √77 cubic; root in K certified). **[α_V] = C untwisted — one class for all four matter/value cubics**; vacuum ⊕ V = split. **H-B917-SPLIT: YES — den(V) = 𝔭₁(953)⁴ exactly**: the hierarchy's pole lives entirely on the unique degree-one place. Prime roles: 953 pole / 421493 trace-zero / 1129 e₂-zero; structure primes numerator, value prime denominator. 3 locks. Gate 5 untouched.
