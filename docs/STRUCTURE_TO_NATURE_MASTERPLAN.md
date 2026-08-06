@@ -531,3 +531,13 @@ A two-lane study round, no new seals until it lands:
   as fields — the twist-analog), Bost–Connes/KMS (the L113 neighborhood), the 3/8
   literature and what breaks it, and the cautionary corpus (Atiyah-type retrodictions).
   Clean negatives valuable; citations exact.
+
+### Dated amendment (2026-08-06) — THE TWIST CROSSING PROGRAM (owner: "seal it and run it")
+The next-crossing strategy, honoring B927's ruling whole: **Stage 1 = B928 THE D₂ DECODE**
+(sealed, pure mathematics — the characterization, the arithmetic, the shape sheet; two
+outcomes FORCED/FREE, prior FORCED-moderate via the wall-conjugation route).
+**Stage 2 = the boundary-relational comparison** (the twist's exact shape sheet vs measured
+MIXING SHAPE — never scales, never running; hemisphere license = B896/B906's banked mixing
+structure) — **GATED on: Stage 1's outcome + the anatomy's constraints verbatim + THE
+OWNER'S WORD at that gate.** M0 remains the standing default until a sealed HIT displaces
+it; a Stage-1 FREE outcome or an empty shape sheet ends the program as mathematics, banked.
