@@ -781,3 +781,11 @@ clause, not the whole normalisation.
 | B921-28 | Narrowed novelty statement (Claim 1) to carry: regularized heat-trace asymptotics on cusped hyperbolic 3-manifolds are established (Müller 1501.07851, Park math/0111175, Friedman math/0605288); the open novelty is assemb | OPEN — routed from the harvest manifest §4 |
 | B921-29 | [MAIN-STATE] Main's "certified" B792 claims now have their generators in-repo (sector_projection_test.py, certify_mode_count.py, weyl_scattering_check.py — the only scattering-corrected completeness screen — and the m003 | OPEN — routed from the harvest manifest §4 |
 | B921-30 | The remaining branch-only corpus flagged by the loss audit but outside this stage's list: trace_norm_split.{py,json,txt} (the L2 reconciliation instrument), the B792 scan corpus (scanA–G) that makes the 43 auditable, eig | OPEN — routed from the harvest manifest §4 |
+
+### cc3 GO-item discharges routed (2026-08-06)
+| id | resolution |
+|---|---|
+| L112 | **CLOSED** — Gate 8R2-A Stage A discharged by connection: B878's harvested mesh-scan IS option (b)'s instrument; the banked record satisfies the sealed criterion (exactly one parent root in the window, by detection). cc3's discharge note on the branch; routed here. |
+| L109 | **CLOSED** — the m003 mod-4 follow-up RAN (cutoff 6): m003-only norms ≡ 1 mod 4 EXACTLY (43 norms, single class); the m004 side is theorem (B794), the m003 side scoped observational; HINT_LEDGER amended in place. Remaining cheap step (m003-holonomy congruence) registered inside the amended hint. |
+| L-PI7 (new) | **OPEN — a new structure fact, mechanism unknown**: ALL six mult-1 Γ₄₁ newforms at level (4) have an exact zero at π₇ — and only π₇ among nine split primes; the parent does NOT share it (kills lattice-structural); the zero sits at exactly the ±point pair (kills symmetry-forcing). Neither CM nor construction error. cc3's census on the branch; the mechanism cell is the follow-up. |
+| L-TAU2 (new) | **OPEN, GO GIVEN** — the mult-2 τ-projection: all six mult-1 newforms are τ-EVEN (V₅; parent control ε = +1 at 1e−9), so B791's τ-odd sector V₆ must hide inside the ten multiplicity-2 doubles (each double = even ⊕ odd — which would explain the multiplicity pattern itself). cc3 runs it under the standing GO. |
