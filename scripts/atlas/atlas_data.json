@@ -19173,6 +19173,36 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B920": {
+   "slug": "register sweep",
+   "motifs": [
+    "trace_map",
+    "torsion"
+   ],
+   "refs": [
+    "B794"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B921": {
+   "slug": "branch harvest",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B804",
+    "L113",
+    "L120"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B922": {
    "slug": "lambda2 receipt",
    "motifs": [
@@ -19192,6 +19222,59 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B923": {
+   "slug": "exactification",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B883",
+    "B884",
+    "B902",
+    "B908",
+    "B910",
+    "B912",
+    "B913",
+    "B914",
+    "B916",
+    "B917",
+    "B918",
+    "L2",
+    "S77"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B924": {
+   "slug": "involution couplings",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B238",
+    "B245",
+    "B575",
+    "B592",
+    "B593",
+    "B711"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B92": {
    "slug": "metallic classification",
