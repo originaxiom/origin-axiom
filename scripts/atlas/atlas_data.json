@@ -19688,6 +19688,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B941": {
+   "slug": "branch symmetric",
+   "motifs": [
+    "kappa",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B916",
+    "B929",
+    "B936"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B94": {
    "slug": "tower universality",
    "motifs": [

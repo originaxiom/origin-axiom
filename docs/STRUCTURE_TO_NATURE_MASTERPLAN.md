@@ -541,3 +541,16 @@ MIXING SHAPE — never scales, never running; hemisphere license = B896/B906's b
 structure) — **GATED on: Stage 1's outcome + the anatomy's constraints verbatim + THE
 OWNER'S WORD at that gate.** M0 remains the standing default until a sealed HIT displaces
 it; a Stage-1 FREE outcome or an empty shape sheet ends the program as mathematics, banked.
+
+### Dated amendment (2026-08-07) — THE BRANCH-SYMMETRIC REFINEMENT (owner directive)
+The hunt's target is refined, programme-wide: **not values, and not per-branch quantities —
+RATIOS of BRANCH-SYMMETRIC objects** (norms, traces, and the elementary symmetric functions
+of each value family's Galois orbit, taken over all three branches together). Rationale
+(B941): every clean banked law is already of this type, every per-branch comparison failed
+identically, and B936 proved per-frame data is not a class function. First fruit: the
+observer's prime 953 CANCELS in N(V)/N(W) = 2³²3¹¹/5¹² = (the product law's integer)/(the
+golden power). **Any future crossing proposal must be phrased at this layer** — symmetric,
+ratio-only, dimensionless — in addition to satisfying the anatomy's boundary-relational
+constraints, the hemisphere check, the walls, the base rate, and the owner's word. This
+amendment SHARPENS the crossing protocol; it does not weaken it (the R4 non-weakening clause
+is untouched).

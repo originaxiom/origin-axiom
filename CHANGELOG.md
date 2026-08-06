@@ -1,5 +1,9 @@
 # Changelog
 
+## B941 — the branch-symmetric reading: the observer's prime cancels
+- The owner's refinement (ratios, all branches together) computed: every clean law was already branch-symmetric; the seven value families' symmetric functions tabulated exactly. **N(V)/N(W) = 2³²·3¹¹/5¹² — the 953s cancel**, numerator = 27·2304⁴ (the product law's integer), denominator = the 5¹² from the mixing geometry. N(d_S) = N(d_A) exactly.
+- **Registered programme-wide**: future crossing proposals must be phrased at the symmetric, ratio-only layer (sharpens the protocol; the non-weakening clause untouched). 3 locks.
+
 ## THE END-TO-END CHAIN banked — with the falsifier recorded as FIRED
 - The solo seat's master narrative (genesis → the SM; zero dials, three priced choices, two undetermined ratios, one firewall) banked verbatim as `docs/THE_END_TO_END_CHAIN.md`.
 - **The currency correction, as prominent as the document**: Part IX's "pending" kill-shot had already fired **three times** — B915 (MISS 16σ), B925 (OUTCOME B, provably not Pati–Salam), B929 (HIT-SHAPE). Part VI's exactification discharged; B928/B936/B931/B937 folded in (the values are invisible even to cohomology). 4 currency locks.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **860** |
-| words of findings prose | **573,034** |
-| test lock files referenced | **587** |
-| arcs carrying an authored verdict | **847** (98.5 %) |
+| research arcs with findings | **861** |
+| words of findings prose | **573,523** |
+| test lock files referenced | **588** |
+| arcs carrying an authored verdict | **848** (98.5 %) |
 | recorded closures | **734** (567 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 544 |
+| PROVED | 545 |
 | NEGATIVE | 265 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B939`** (274 words, 1 locks)  
-THE KLEIN ASSEMBLY -- THE SIX SHADOWS ARE NOT ONE GROUP: the sharpest checkable pair is DISTINCT -- K4 (the wall 2-torsion, inner, Cartan-fixing) and W_frame (the solo seat's section-LIII frame group) are DISTINCT SUBGROUPS OF Aut(e6) overlapping in exactly {1, sigma_-1}; K4 does NOT act on the frame at all (two of its legs break every charge line; neither pencil plane survives), and W_frame is realized instead by the OTHER Klein-carrying group C8 = <phi+, sigma_c, sigma_-1> (the C-compatible census subgroup) with P(C8) = W_frame and kernel {1, sigma_-1}. THE SHARED LEG IS THE FRAME-INVISIBLE ONE -- sigma_-1 = the B912/B928 wall twist D, the same element B938 showed is colorless-blind and B936 showed carries the nonzero H^1 class. The 27-shadow map is banked: sigma_-1 -> D (12 flips), sigma_chi- -> D2 (the ELEVEN), sigma_c -> D_c (12) -- K4's frame-invisible legs are 27-VISIBLE, and W_frame's carriers cast the census D-set.  
-`B939_klein_assembly/FINDINGS.md`
+**PROVED — `B941`** (489 words, 1 locks)  
+THE BRANCH-SYMMETRIC READING (from the owner's directive: hunt RATIOS, and compute ALL BRANCHES TOGETHER rather than per branch): every clean law the programme owns was already branch-symmetric (the product law, the twist-norm law, the colored cube law, the sum rule 11) while every PER-BRANCH comparison failed the same way (B929: right shape, wrong magnitude) and B936 proved per-frame data is not even a class function -- so the symmetric layer is where the object speaks in Q. The table: seven banked value families (V, W, d_S, d_A, m_S, mu, kappa) reduced to their elementary symmetric functions, every entry rational, prime support {2,3,5,7,11,13,17,19,23,31,71,151,349,367,677,953,1129,35257,421493,20417473}. THE HEADLINE: N(V)/N(W) = 2^32 3^11 / 5^12 -- the hierarchy and the mixing overlap are BOTH 953^4-led and THE 953s CANCEL EXACTLY in the ratio, leaving a pure {2,3,5} number whose NUMERATOR IS 27*2304^4, the product law's integer, over the 5^12 that entered through the mixing geometry: the two ends of the value layer differ branch-symmetrically by (the product law)/(the golden power), with the observer's place divided out -- the observer's prime is a property of the READING and disappears the moment one asks for a ratio of whole-orbit quantities. Also: N(d_S) = N(d_A) exactly (the two twist families share a norm while differing at every branch). MATHEMATICS, blind, exact; NOT a crossing -- any comparison with measured ratios stays sealed behind the R4 protocol, the anatomy's constraints, the hemisphere check, and the owner's word.  
+`B941_branch_symmetric/FINDINGS.md`
 
 **NEGATIVE — `B935`** (374 words, 1 locks)  
 THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions (R-conjugation; the polar/singular decomposition; both orderings GhatR and RGhat; the v-weight conjugation) yields exactly FOUR invariant triples MOST OF WHICH ARE FORCED TO COINCIDE -- eig(R^T Ghat R) = eig(Ghat) (orthogonal similarity, 4.6e-151), eig(D_v-conj) = eig(Ghat) (diagonal similarity, 1.5e-151), eig(GhatR) = eig(RGhat) (the AB/BA theorem, 3.1e-151), and all four singular-value sets identical: NO COMPOSITION IS INDEPENDENT, the premise dies by similarity rather than numerics. THE STRUCTURAL REASON: the S-A overlap matrix is RANK 2 -- its singular cubic has an EXACT ZERO root (det X2 = 0 exactly, likewise the v-conjugate), so one register direction has NO overlap with the A family, the composed eigen-triples are not descending-positive (the cascade index is UNDEFINED for them), ZERO compositions land in the [1.2,1.6] band, and the object's register mixing geometry has only TWO nonzero directions -- it cannot produce a three-term mixing cascade by this route at all. Two amendments logged (positivity assumed AGAIN -- the abort was the finding; the 1e-80 belt bar exceeding the sqrt-of-small precision floor, recalibrated to the house 1e-40 with 3.9e-76 achieved).  
