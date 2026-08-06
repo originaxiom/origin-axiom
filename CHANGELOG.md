@@ -1,5 +1,9 @@
 # Changelog
 
+## THE END-TO-END CHAIN banked — with the falsifier recorded as FIRED
+- The solo seat's master narrative (genesis → the SM; zero dials, three priced choices, two undetermined ratios, one firewall) banked verbatim as `docs/THE_END_TO_END_CHAIN.md`.
+- **The currency correction, as prominent as the document**: Part IX's "pending" kill-shot had already fired **three times** — B915 (MISS 16σ), B925 (OUTCOME B, provably not Pati–Salam), B929 (HIT-SHAPE). Part VI's exactification discharged; B928/B936/B931/B937 folded in (the values are invisible even to cohomology). 4 currency locks.
+
 ## The question wave completes — B936/B937/B939: the H¹ classification, the observer-place law, the Klein distinctness
 - **B936 (split, self-sealed by the agent)**: the 16 Hermitian structures ARE Z¹ = a simply transitive torsor; **H¹ = (ℤ/2)², four classes of four**; **D₂ is a COBOUNDARY** (explicit witness), D carries the nonzero class and is the register-blind twist. **The sealed value corollary FAILED** — no 953/2304 in any invariant of the pair: **the twist-norm law is diagonal, frame-relative data**, not cohomology. The wall pair is NOT conjugate (C₄ vs F₄).
 - **B937**: no golden field (5 = residue characteristic); 953⁴ derived as N(P₁²P₂); **the observer-place law** (cross-generation on the degree-two places; same-generation differing by the observer's place alone); 29 = coincidence; **K is monogenic** (s³−12s−5), closing B931's blind spots. **B939**: the Klein shadows are DISTINCT; the shared leg is the frame-invisible wall twist. 4 locks.
