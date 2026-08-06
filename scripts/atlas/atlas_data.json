@@ -19398,6 +19398,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B927": {
+   "slug": "crossing study verdict",
+   "motifs": [
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B905",
+    "B923",
+    "B925",
+    "B926",
+    "L113"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

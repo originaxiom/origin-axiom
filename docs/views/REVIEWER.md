@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **848** |
-| words of findings prose | **558,896** |
-| test lock files referenced | **581** |
-| arcs carrying an authored verdict | **835** (98.5 %) |
+| research arcs with findings | **849** |
+| words of findings prose | **559,480** |
+| test lock files referenced | **582** |
+| arcs carrying an authored verdict | **836** (98.5 %) |
 | recorded closures | **734** (567 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 533 |
+| PROVED | 534 |
 | NEGATIVE | 264 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B926`** (4440 words, 0 locks)  
-THE CROSSING STUDY, LANE A (repo synthesis; the owner's understand-before-computing directive): the complete anatomy of the crossing problem from the banked record -- TWENTY-TWO walls in four groups jointly killing every tried/proposed mechanism (invariant scales L15/B666; desert B915; internal thresholds B925 -- provably not Pati-Salam; deformation spinors B429; conformal-chain matter; direct value matching B706/B736; external import B905), against which the UNKILLED region is exactly the RELATIONAL LAYER (values as observer-relation norms B916; the hierarchy in the 11-flip twist D2 B923; 3/8 exact at the boundary; the invisible 12; R-EMB open). THE SHARPENED PROBLEM: any surviving crossing must be BOUNDARY-RELATIONAL -- exact dimensionless twist/boundary arithmetic vs measured SHAPE data, no scale output, no object-owned running, no derived fermions, forced rules only, owner-gated. THE MENU: M0 the null (no crossing; the programme is mathematics -- best-evidenced, the STANDING DEFAULT), M1 the twist crossing (the only shape with exact numbers in hand; mathematics-first via the D2 decode), M2 boundary discriminators (vacuity-risky), M3 R-EMB (structure only), M4 the observer stack (gated on L113 scheduled FIRST), M5 the residue frontier (Phase V). THE AUTOPSY: both dead crossings grafted matter-side mechanisms onto measurement-side structure, and both banked doctrines predicted the failure shape -- distilled into THE HEMISPHERE CHECK, one enforceable prereg question. Honest gaps carried: W18 needs in-house re-verification (R-EMB's first leg); the off-register-negatives caveat (the wall list is a claim about the READ record); the priors are readings, not probabilities.  
-`B926_crossing_anatomy/FINDINGS.md`
+**PROVED — `B927`** (584 words, 1 locks)  
+THE CROSSING STUDY'S VERDICT (Lane A = B926's anatomy x Lane B = the 106-agent adversarially-verified literature panel, full report banked): the genre's verified base rate is ONE marginal conditional advance-prediction in twenty years (Shaposhnikov-Wetterich 129 +/- 6 vs 125.1, self-downgraded by the 2020 community review); the closest-relative spectral Standard Model had its one advance prediction FALSIFIED (~170 GeV Higgs, the authors' own 'invalidates'), was repaired retrodictively with an imported mechanism, treats couplings as INPUTS in exactly the boundary-plus-desert scheme our seals killed, and survives only via a Pati-Salam enlargement with a TUNED scale -- WHICH B925 PROVED OUR OBJECT ALGEBRAICALLY DOES NOT CONTAIN: the object refused by theorem the genre's one tunable escape. The twisted-spectral-triple line encodes signature/frame, NOT couplings or generations, and its rescue-from-twist was proven impossible -- banked as M1's standing caution; Q3/Q4/Q5 stand honestly unpopulated (no claims survived verification). THE RULING: the seals stay closed; M0 (the programme as mathematics) stands as the doubly-grounded default; M1 proceeds as MATHEMATICS (the D2 decode) under the hemisphere check; any future crossing must displace both the walls and the base rate, owner-gated. The study round closes.  
+`B927_crossing_study_verdict/FINDINGS.md`
 
 **NEGATIVE — `B925`** (1563 words, 0 locks)  
 THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object's D-chain refuses the RG-ladder identification BY ITS OWN ALGEBRA, before data votes: (FACT 1, theorem-grade) the banked D3/D4 typings admit NO unbroken su(2)_L above the banked color inclusion -- C(su3c, su4) = u(1)_{B-L} and C(su3c, so8) = u(1)^2, certified exactly both directions -- so the intermediate rungs are RG-degenerate (M3 = M4 = M5; the chain is provably NOT Pati-Salam: the two su(2)'s Chat-1's fitted benchmark needed are exactly what the compact chain already measured away); (FACT 2) the D5 rung is index-1 (all three embedding indices = 1, computed on the 27), so matching demands full unification at M5 = the FIRST crossing's dead desert renamed -- the required-M5 solution set is EMPTY (branch gaps 6.2-7.3 sigma); (FACT 3) the E6 rung is RG-invisible (the X-coupling slope 88/3 never rejoins) -- rho3 has NO required value. Part-0 calibration reproduced B915 to 1e-6; the 3/8 boundary re-derived in-cell; the beta-ladder recorded with zero freedom; the menu note and look-elsewhere disclaimer honest. PRIORS: Part 1 (feasible) LOST -- killed by algebra, not data; Part 2 (MISS) WON, stronger. THE LOCKED KILL CONDITION EXECUTES: Phases III-IV lose physics motivation; mathematics + V-VI continue. Fenced reading banked: the negative CONFIRMS the two-hemisphere doctrine (the compact chain is the measurement ladder, not the matter cascade) and points any residual identification route at the observer/twist layer -- unsealed, unpriced, owner-gated.  

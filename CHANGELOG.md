@@ -1,5 +1,9 @@
 # Changelog
 
+## B927 — the crossing study closes: the null doubly grounded; the twist alone and warned
+- **Lane B verified**: one marginal advance-prediction in the genre's twenty years; the spectral SM's prediction falsified and repaired retrodictively; its only escape = tuned Pati–Salam — **which B925 proved our object does not contain**. The twist has no prior art carrying generations — and the nearest analogue's impossibility result is banked as M1's caution. Q3/Q4/Q5 honestly unpopulated.
+- **The ruling**: seals closed; M0 the default; M1 = mathematics (the D₂ decode); L113 first; any future crossing displaces walls + base rate, owner-gated. 4 locks.
+
 ## B926 — the crossing anatomy (Lane A): 22 walls, the sharpened problem, the six-shape menu
 - Every tried mechanism is wall-killed; **the unkilled region is exactly the relational layer** (the twist, the boundary, the norms). Any surviving crossing must be **boundary-relational**: dimensionless twist arithmetic vs measured shape data, no scales, no running, forced rules, owner-gated.
 - **The menu**: M0 the null (standing default, best-evidenced) · M1 the twist crossing (exact numbers in hand; proceeds as mathematics) · M2–M5 priced. **The HEMISPHERE CHECK adopted** (review item 9): grafts cite a license or don't seal. Lane B in flight. 3 locks.
