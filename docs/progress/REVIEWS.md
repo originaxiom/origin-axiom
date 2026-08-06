@@ -3029,3 +3029,12 @@ anchor-commit: `2efcf295` (Review 39)
 9. **State at close:** in flight — cpen (→B909, which owes the LAW_MAP §F pending row's
    locks), λ₂ (cc3). Sealed next: R4b (joint, gated on B909). Registered: R-EMB, R-INV,
    V-L2 remainder, V-L4, the D₂ block question. Parked owner-gated: H1/H3/H5.
+
+
+### Protocol amendment (2026-08-06, from B926's autopsy): THE HEMISPHERE CHECK
+9. Every prereg that consumes banked structure must TYPE each consumed piece by its owning
+   hemisphere (measurement-side: the compact chain, the boundary traces, the torus, the
+   twist; matter-side: the noncompact walls, the 27's branchings, dynamics-shaped
+   mechanisms). A cross-hemisphere graft must cite a banked license for the transfer or
+   the prereg must not seal. (Both dead crossings were unlicensed grafts; both banked
+   doctrines had said so in advance — this question makes that knowledge enforceable.)

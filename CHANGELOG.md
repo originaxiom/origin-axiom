@@ -1,5 +1,9 @@
 # Changelog
 
+## B926 — the crossing anatomy (Lane A): 22 walls, the sharpened problem, the six-shape menu
+- Every tried mechanism is wall-killed; **the unkilled region is exactly the relational layer** (the twist, the boundary, the norms). Any surviving crossing must be **boundary-relational**: dimensionless twist arithmetic vs measured shape data, no scales, no running, forced rules, owner-gated.
+- **The menu**: M0 the null (standing default, best-evidenced) · M1 the twist crossing (exact numbers in hand; proceeds as mathematics) · M2–M5 priced. **The HEMISPHERE CHECK adopted** (review item 9): grafts cite a license or don't seal. Lane B in flight. 3 locks.
+
 ## B925 — THE SECOND CROSSING: OUTCOME B, by the chain's own algebra; the kill condition executes
 - **The ladder refuses before data votes**: no unbroken su(2)_L above color at D₃/D₄ (provably not Pati–Salam — theorem-grade certificates); D₅ index-1 = the dead desert renamed (required-M₅ EMPTY); E₆ RG-invisible. Part 1's prior LOST to algebra; Part 2's MISS won stronger.
 - **The locked kill condition executes**: Phases III–IV lose physics motivation; the mathematics continues; the third crossing stands down into the D₂ program. Fenced: both banked doctrines predicted this shape of no. 4 locks. Routed to the kill graph.
