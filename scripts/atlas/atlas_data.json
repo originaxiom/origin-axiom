@@ -19416,6 +19416,34 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B928": {
+   "slug": "d2 decode",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B883",
+    "B900",
+    "B907",
+    "B912",
+    "B914",
+    "B916",
+    "B918",
+    "B923",
+    "S3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

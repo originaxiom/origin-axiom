@@ -1,0 +1,680 @@
+{
+ "cell": "B928 D2 decode",
+ "checks": {
+  "rep27_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "rep27_entries_pm1": {
+   "pass": true,
+   "detail": ""
+  },
+  "weights_disjoint_from_their_negatives": {
+   "pass": true,
+   "detail": "=> NO inner twist admits an invariant pairing (support empty); the classification lives entirely on the outer sheet"
+  },
+  "banked_wall_pair_is_a_global_negation": {
+   "pass": true,
+   "detail": "chi+ = (1, -1, 1, -1, 1, 1)"
+  },
+  "weight_pairing_pi_recomputed_and_involutive": {
+   "pass": true,
+   "detail": "matches the banked B912 support permutation"
+  },
+  "frame_72_roots_ns_8_14_16_22": {
+   "pass": true,
+   "detail": ""
+  },
+  "four_charges_commute_exactly": {
+   "pass": true,
+   "detail": ""
+  },
+  "rep_homomorphism_40_random_bracket_pairs_exact": {
+   "pass": true,
+   "detail": ""
+  },
+  "tau_cocycle_consistent_rank_66": {
+   "pass": true,
+   "detail": ""
+  },
+  "phi_plus_involution_and_automorphism": {
+   "pass": true,
+   "detail": ""
+  },
+  "phi_minus_involution_and_automorphism": {
+   "pass": true,
+   "detail": ""
+  },
+  "phi_star_involution_and_automorphism": {
+   "pass": true,
+   "detail": "phi* = the all-minus outer composite"
+  },
+  "wall_ratio_identity_phi_plus_o_phi_minus_equals_sigma_allminus": {
+   "pass": true,
+   "detail": "the banked completeness fact g = phi1 phi2 = inner all-minus, recomputed"
+  },
+  "phi_star_equals_tau_o_phi_plus_o_phi_minus": {
+   "pass": true,
+   "detail": "phi* = phi+ o sigma_{chi-} = tau o (phi+ o phi-) -- a banked-data composite of the tau-lift with the two wall conjugations, nothing else"
+  },
+  "phi_plusminus_C_compatible_wall_pattern": {
+   "pass": true,
+   "detail": ""
+  },
+  "phi_star_C_compatibility": {
+   "value": "None",
+   "detail": "None = phi* does NOT act +-diagonally on the charge family (explains B916: H' is not charge-equivariant for any sign pattern)"
+  },
+  "H_plus_own_solve_unique_and_equals_banked": {
+   "pass": true,
+   "detail": "H+ re-solved from its defining equation; propagation connected (unique up to scale); equals the banked B912 H+ entrywise"
+  },
+  "H_minus_own_solve_unique_and_equals_banked": {
+   "pass": true,
+   "detail": ""
+  },
+  "D_wall_equals_banked_B912_D_diag": {
+   "pass": true,
+   "detail": "H- = H+ * D, D = the wall twist, 12 flips"
+  },
+  "H_phi_star_own_solve_unique": {
+   "pass": true,
+   "detail": ""
+  },
+  "D2_RECOMPUTED_from_own_solves_equals_banked_B916_D2": {
+   "pass": true,
+   "detail": "THE VERIFY-DON'T-TRUST GATE: D2 = H+^{-1} H(phi*) with H+ and H(phi*) both re-solved from their own invariance equations -- handoff-free; equals the banked B916 flip diagonal exactly"
+  },
+  "D2_11_flips_pi_symmetric": {
+   "pass": true,
+   "detail": "pi-symmetric => H+ D2 is symmetric (a Hermitian structure)"
+  },
+  "H_phi_star_is_H_plus_times_D2_symmetric": {
+   "pass": true,
+   "detail": ""
+  },
+  "naive_unshifted_characters_all_64_fail": {
+   "pass": true,
+   "detail": "re-verifies the B916 addendum: no (-1)^<a,w> flips the eleven"
+  },
+  "SHIFTED_character_hit_unique": {
+   "pass": true,
+   "detail": "D2 = -(-1)^<a*,w> with a* = (1, 0, 1, 0, 1, 1) -- the affine/shifted character candidate of the sealed list (a) SUCCEEDS, uniquely in the 128-member family"
+  },
+  "a_star_equals_sign_vector_of_chi_minus": {
+   "pass": true,
+   "detail": "a* = s(chi-) = (1, 0, 1, 0, 1, 1): the exponent is the SECOND wall conjugation's sign character"
+  },
+  "coweight_family_hit_unique_same_exponent": {
+   "pass": true,
+   "detail": "the 3C^{-1}-lattice family hits at the same a*"
+  },
+  "the_two_lattice_families_coincide_as_sets": {
+   "pass": true,
+   "detail": "det(3C^{-1}) = 243 is odd => the mod-2 reparametrization is invertible; 'other lattice' adds NO new sign patterns -- only the affine shift is new"
+  },
+  "family_27bar_weights_identical": {
+   "value": true,
+   "detail": "(-1)^<a,-w> = (-1)^<a,w>: the 27bar-weight family is literally the same 128 candidates"
+  },
+  "FORMULA_D2_equals_rep27_diagonal_of_sigma_chi_minus": {
+   "pass": true,
+   "detail": "D2 = +-rho_27(sigma_{chi-}): the eleven-flip diagonal IS the second wall conjugation's sign character acting on the 27"
+  },
+  "D_wall_equals_rep27_diagonal_of_sigma_allminus": {
+   "pass": true,
+   "detail": "and the B912 wall twist D = +-rho_27(sigma_{-1}) = +-rho_27(phi+ phi-)"
+  },
+  "Klein_group_structure_T_chip_T_chim_T_allminus": {
+   "pass": true,
+   "detail": "rho27(sigma_chi+) * rho27(sigma_chi-) = +-rho27(sigma_{-1}): the three nontrivial diagonals form the Klein group {I, D2, Dd, D2*Dd} up to global signs"
+  },
+  "all_64_outer_composites_admit_a_unique_invariant_pairing": {
+   "pass": true,
+   "detail": ""
+  },
+  "Hermitian_symmetry_iff_involution": {
+   "pass": true,
+   "detail": "H(sigma_chi o tau) is symmetric EXACTLY when the composite is an involution (chi flip-symmetric): the Hermitian-structure classification is precisely the involution sheet of the census (found by the run: the first draft wrongly expected all 64 symmetric)"
+  },
+  "outer_involutions_are_the_16_flip_symmetric_characters": {
+   "pass": true,
+   "detail": ""
+  },
+  "outer_C_compatible_count": {
+   "value": 4,
+   "detail": "the census's outer C-compatible representatives"
+  },
+  "outer_C_compatible_match_B907_census": {
+   "pass": true,
+   "detail": "the 4 outer members of the banked 8-representative census (the other 4 are inner, and every inner twist has NO invariant pairing)"
+  },
+  "classification_theorem_D_chi_equals_repdiag_of_chi_times_chiplus": {
+   "pass": true,
+   "detail": "for EVERY outer composite: H(sigma_chi o tau) = H+ * rho_27(sigma_{chi.chi+}) -- the classification is exactly the character group; the invariant structures are a torsor over the adjoint 2-torsion characters (a first-draft o-flip in the exponent was refuted by the run; on the involution sheet chi.chi+ is flip-symmetric and the two readings coincide)"
+  },
+  "census_8_D_set": {
+   "value": "[('other', 12), ('I', 0), ('D_wall', 12), ('other', 12)]",
+   "detail": "the +-1 diagonals D with H+ D invariant for a C-COMPATIBLE census involution"
+  },
+  "D2_in_C_compatible_census_set": {
+   "value": false,
+   "detail": "the sealed (d) first check: is D2 pinned by the C-compatible census?"
+  },
+  "full_128_involution_D_set_size": {
+   "value": 16,
+   "detail": "distinct normalized diagonals over the 16 outer involutions (inner: none -- proven empty support)"
+  },
+  "D2_arises_from_exactly_one_composite_the_allminus_one": {
+   "pass": true,
+   "detail": "phi* = sigma_{-1} o tau = tau o phi+ o phi- is the UNIQUE member of the 128-census whose invariant Hermitian structure is H+ D2; it is an involution, an automorphism, and NOT C-compatible"
+  },
+  "charpoly_Mc_factors_3_1__6_1__6_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "rational_blocks_dim_3_and_6": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Me_W6_is_g_squared_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Mo_W6_even": {
+   "pass": true,
+   "detail": ""
+  },
+  "K_roots_xS_alpha_B_found": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_equals_minus_3_w_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_S_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_nonS_dim_1_over_K_beta": {
+   "pass": true,
+   "detail": ""
+  },
+  "S_and_A_are_exact_R8_R16_eigenvectors_over_K": {
+   "pass": true,
+   "detail": "branch anchors: the abstract octet/vacuum charge labels"
+  },
+  "vacuum_and_octet_labels_distinct": {
+   "pass": true,
+   "detail": ""
+  },
+  "abstract_octet_block_dim_8_over_K": {
+   "pass": true,
+   "detail": ""
+  },
+  "octet_block_R16_scalar_equals_A_label": {
+   "pass": true,
+   "detail": "the 8-dim R8-eigenblock is the joint Pi-octet (R16 scalar on it)"
+  },
+  "flip_set_size_11": {
+   "pass": true,
+   "detail": ""
+  },
+  "octet_contained_in_flip_span": {
+   "value": false,
+   "detail": ""
+  },
+  "vacuum_line_contained_in_flip_span": {
+   "value": false,
+   "detail": ""
+  },
+  "dim_flipspan_cap_octet_g": {
+   "value": 0,
+   "detail": "same for every generation g (the flip span is rational, sigma-stable)"
+  },
+  "dim_flipspan_cap_vacuum_line": {
+   "value": 0,
+   "detail": ""
+  },
+  "dim_flipspan_cap_W3_vacuum_sum": {
+   "value": 1,
+   "detail": ""
+  },
+  "Q1b_flipset_is_one_octet_plus_three_vacuum_lines_DECIDED": {
+   "pass": true,
+   "detail": "the 8+3 conjecture is REFUTED: dim(span_F cap octet) = 0 (needs 8), dim(span_F cap vacuum-sum W3) = 1 (needs 3); moreover if one octet lay inside the rational flip span, all three Galois images would (24 > 11): the span reading is impossible a priori"
+  },
+  "characterized_diagonal_equals_D2": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_norms_tau_free_both_gauges_FORCED_EQUALITY": {
+   "pass": true,
+   "detail": "the tau-cross term vanishes => q(A+) = q(A-) in both gauges: the +- pair overlaps are forced equal"
+  },
+  "q_nonzero_all": {
+   "pass": true,
+   "detail": ""
+  },
+  "dS_minpoly_DERIVED_equals_banked_B916": {
+   "pass": true,
+   "detail": "[5308416, 9123840, 5077008, 908209]"
+  },
+  "dA_minpoly_DERIVED_equals_banked_B916": {
+   "pass": true,
+   "detail": "[5308416, -1907712, -2195712, 908209]"
+  },
+  "lead_2304sq_const_953sq_DERIVED": {
+   "pass": true,
+   "detail": "lead = 2304^2 = 2^16 3^4, const = 953^2 -- derived from the characterization (the sigma_{chi-} diagonal) on the banked atom lines"
+  },
+  "NORM_LAW_N_d_equals_minus_953_over_2304_squared": {
+   "pass": true,
+   "detail": "the pole prime and the lead DERIVE from the characterization: prod_g sigma_g(d) = N_{K/Q}(1 - 2m) = -(953/2304)^2 on BOTH atom families; the affine polarity (the global -1 in D2) supplies the minus sign of the norm"
+  },
+  "flip_mass_minpoly_S": {
+   "value": "[42467328, -100196352, 78499872, -20417473]",
+   "detail": "lead {2: 19, 3: 4}, const {20417473: 1}"
+  },
+  "flip_mass_minpoly_A": {
+   "value": "[42467328, -56070144, 19828224, -2113201]",
+   "detail": "lead {2: 19, 3: 4}, const {29: 1, 72869: 1}"
+  },
+  "colored_block_dim_18": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_roots_three_conjugate_pairs": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_is_K_norm_form_of_one_quadratic": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_disc_minus_231_wc_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "delta_squared_rational": {
+   "pass": true,
+   "detail": ""
+  },
+  "disc_mu_77_times_square": {
+   "pass": true,
+   "detail": ""
+  },
+  "S77_squared_77": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_eigenspace_dim_3_over_K_omega": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_R8_scalar": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_R8_eigenvalue_omega_free_equals_octet_label": {
+   "pass": true,
+   "detail": "the colored atoms live INSIDE the octet block of the same branch: the branch alignment of octets, A-lines, and colored atoms is exact"
+  },
+  "colored_grams_hermitian": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_gram_invertible": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_twist_charpoly_omega_free_FORCED": {
+   "pass": true,
+   "detail": "tr, e2, det of G^{-1}G' are omega-free => the (g,+) and (g,-) colored atoms carry IDENTICAL twist spectra (forced equality)"
+  },
+  "colored_twist_trace_minpoly": {
+   "value": "[256, -768, -828, 2859]",
+   "detail": "lead {2: 8}, const {3: 1, 953: 1}"
+  },
+  "colored_twist_det_minpoly": {
+   "value": "[12230590464, -10239934464, 255728448, 865523177]",
+   "detail": "lead {2: 24, 3: 6}, const {953: 3}"
+  },
+  "colored_det_ratio_norm": {
+   "value": "-865523177/12230590464",
+   "detail": "N_{K/Q}(det G'/det G) for the colored twist"
+  },
+  "octet_projector_trace_8": {
+   "pass": true,
+   "detail": ""
+  },
+  "vacuum_flip_trace_equals_m_S": {
+   "pass": true,
+   "detail": ""
+  },
+  "octet_trace_decomposition_FORCED": {
+   "pass": true,
+   "detail": "t_octet = 2 m_A + 2 tr M_colored as abstract K-elements -- the octet overlap is carried by its two A-lines and two colored atoms in equal +- pairs"
+  },
+  "SUM_RULE_total_flip_trace_11": {
+   "pass": true,
+   "detail": "sum over all 6 Pi-blocks (3 branches) of the flip-overlap traces = tr Pi_F = 11 exactly"
+  },
+  "octet_flip_trace_minpoly": {
+   "value": "[5308416, -45868032, 78736896, -38004841]",
+   "detail": ""
+  },
+  "banked_cubic_exact_derivation_identity_all_78": {
+   "pass": true,
+   "detail": ""
+  },
+  "diagonal_ccl_tensor_nonzero": {
+   "pass": true,
+   "detail": ""
+  },
+  "V_ccl_tau_free_both": {
+   "pass": true,
+   "detail": ""
+  },
+  "canonical_gauge_collapse_minus_3": {
+   "pass": true,
+   "detail": "re-verifies B923: the charge-equivariant gauge sees NO hierarchy"
+  },
+  "HIER_DERIVED_953p4_charpoly_V_ccl_twisted": {
+   "pass": true,
+   "detail": "HIER = [824843587681, -27609909080832, 264084438122496, -760840571584512]: the hierarchy cubic's coefficients are computed from the characterization (D2 = rho_27(sigma_chi-)) + the banked atoms/cubic -- no belt, no measured number"
+  }
+ },
+ "notes": [],
+ "Q1a": {
+  "unshifted_characters": "all 64 fail (B916 addendum re-verified)",
+  "shifted_character": {
+   "a_star": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "polarity": -1,
+   "unique_in_128": true,
+   "a_star_equals_s_chi_minus": true
+  },
+  "other_lattice_families": "identical to the weight-lattice family (3C^{-1} mod 2 invertible; 27bar identical)",
+  "formula": "D2 = +-rho_27(sigma_{chi-}); Dd = +-rho_27(phi+ phi-)"
+ },
+ "Q1d": {
+  "inner_64": "no invariant pairing (weight-support empty, exact)",
+  "outer_64": "one Hermitian structure each, all symmetric",
+  "outer_involutions": 16,
+  "census_8_D_set": [
+   {
+    "D": [
+     1,
+     1,
+     -1,
+     -1,
+     1,
+     1,
+     -1,
+     -1,
+     1,
+     1,
+     1,
+     -1,
+     -1,
+     1,
+     1,
+     1,
+     -1,
+     -1,
+     -1,
+     -1,
+     1,
+     1,
+     1,
+     -1,
+     -1,
+     1,
+     1
+    ],
+    "flips": 12,
+    "name": "other"
+   },
+   {
+    "D": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "flips": 0,
+    "name": "I"
+   },
+   {
+    "D": [
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     -1,
+     1
+    ],
+    "flips": 12,
+    "name": "D_wall"
+   },
+   {
+    "D": [
+     1,
+     -1,
+     -1,
+     1,
+     1,
+     1,
+     1,
+     -1,
+     -1,
+     1,
+     -1,
+     -1,
+     1,
+     1,
+     -1,
+     1,
+     1,
+     -1,
+     -1,
+     1,
+     1,
+     -1,
+     1,
+     1,
+     -1,
+     -1,
+     1
+    ],
+    "flips": 12,
+    "name": "other"
+   }
+  ],
+  "D2_in_census_8_set": false,
+  "full_involution_D_set_size": 16,
+  "D2_unique_carrier_signs": [
+   [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  ]
+ },
+ "Q1b": {
+  "conjecture_8_plus_3": false,
+  "dim_flipspan_cap_octet": 0,
+  "dim_flipspan_cap_single_vacuum": 0,
+  "dim_flipspan_cap_vacuum_sum_W3": 1,
+  "octet_in_flipspan": false,
+  "vacuum_in_flipspan": false,
+  "galois_argument": "an octet inside the rational 11-dim flip span forces all three octets inside (24 > 11) -- impossible"
+ },
+ "Q2_colorless": {
+  "d_S_K_coords": [
+   "-20123/32448",
+   "111650/2197",
+   "-54331200/28561"
+  ],
+  "d_A_K_coords": [
+   "8933/16224",
+   "-63910/2197",
+   "-923630400/28561"
+  ],
+  "m_S_K_coords": [
+   "52571/64896",
+   "-55825/2197",
+   "27165600/28561"
+  ],
+  "m_A_K_coords": [
+   "7291/32448",
+   "31955/2197",
+   "461815200/28561"
+  ],
+  "minpoly_d_S": [
+   "5308416",
+   "9123840",
+   "5077008",
+   "908209"
+  ],
+  "minpoly_d_A": [
+   "5308416",
+   "-1907712",
+   "-2195712",
+   "908209"
+  ],
+  "minpoly_m_S": [
+   "42467328",
+   "-100196352",
+   "78499872",
+   "-20417473"
+  ],
+  "minpoly_m_A": [
+   "42467328",
+   "-56070144",
+   "19828224",
+   "-2113201"
+  ],
+  "norm_law": "N(d_S) = N(d_A) = -(953/2304)^2 exact"
+ },
+ "Q3_colored": {
+  "charpoly_X_e1_K": [
+   "3291/1352",
+   "-526680/2197",
+   "-2607897600/28561"
+  ],
+  "charpoly_X_e2_K": [
+   "20123/10816",
+   "-334950/2197",
+   "162993600/28561"
+  ],
+  "charpoly_X_e3_K": [
+   "387917/778752",
+   "-1397935/17576",
+   "-258073200/28561"
+  ],
+  "trace_flip_mass_K": [
+   "765/2704",
+   "263340/2197",
+   "1303948800/28561"
+  ],
+  "minpoly_e1": [
+   "256",
+   "-768",
+   "-828",
+   "2859"
+  ],
+  "minpoly_e3": [
+   "12230590464",
+   "-10239934464",
+   "255728448",
+   "865523177"
+  ],
+  "forced_equality": "omega-free charpoly => identical for (g,+),(g,-)"
+ },
+ "Q3_traces": {
+  "t_vacuum_equals_m_S": true,
+  "t_octet_K_coords": [
+   "1267/1248",
+   "45430/169",
+   "271656000/2197"
+  ],
+  "t_octet_minpoly": [
+   "5308416",
+   "-45868032",
+   "78736896",
+   "-38004841"
+  ],
+  "decomposition": "t_oct = 2 m_A + 2 trM_col (exact)",
+  "sum_rule": "Tr(m_S) + Tr(t_oct) = 11"
+ },
+ "Q2_HIER": {
+  "V_ccl_twisted_K": [
+   "1084447130452992/139398566318089",
+   "2399403349337702400/1812181362135157",
+   "3020358603911646412800/23558357707757041"
+  ],
+  "HIER_ints": [
+   824843587681,
+   -27609909080832,
+   264084438122496,
+   -760840571584512
+  ],
+  "canonical_collapse": "-3 (exact)"
+ }
+}

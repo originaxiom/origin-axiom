@@ -1,5 +1,9 @@
 # Changelog
 
+## B928 — the D₂ decode: FORCED — the hierarchy's origin is an equation; the sheet exists
+- **D₂ = ±ρ₂₇(σ_χ₋)** — the second wall conjugation's character; H₊D₂ = H(φ*), φ* = τ∘φ₊∘φ₋, the UNIQUE census carrier; the Klein group {I, D₂, D, D₂D} = the wall pair's 2-torsion. The affine polarity explains the earlier miss; 11 = 8+3 refuted (numerology). Q2 derives the minpolys + norm law; **the new colored cube law N = −(953/2304)³**; the sum rule = 11 exact.
+- The FORCED prior won (7 sealed: 4 overrules, 3 wins). **Stage 2 awaits the owner's word.** 4 locks. Gate 5 untouched.
+
 ## B927 — the crossing study closes: the null doubly grounded; the twist alone and warned
 - **Lane B verified**: one marginal advance-prediction in the genre's twenty years; the spectral SM's prediction falsified and repaired retrodictively; its only escape = tuned Pati–Salam — **which B925 proved our object does not contain**. The twist has no prior art carrying generations — and the nearest analogue's impossibility result is banked as M1's caution. Q3/Q4/Q5 honestly unpopulated.
 - **The ruling**: seals closed; M0 the default; M1 = mathematics (the D₂ decode); L113 first; any future crossing displaces walls + base rate, owner-gated. 4 locks.

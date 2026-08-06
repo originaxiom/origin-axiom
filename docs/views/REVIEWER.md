@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **849** |
-| words of findings prose | **559,480** |
-| test lock files referenced | **582** |
-| arcs carrying an authored verdict | **836** (98.5 %) |
+| research arcs with findings | **850** |
+| words of findings prose | **561,505** |
+| test lock files referenced | **583** |
+| arcs carrying an authored verdict | **837** (98.5 %) |
 | recorded closures | **734** (567 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 534 |
+| PROVED | 535 |
 | NEGATIVE | 264 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B927`** (584 words, 1 locks)  
-THE CROSSING STUDY'S VERDICT (Lane A = B926's anatomy x Lane B = the 106-agent adversarially-verified literature panel, full report banked): the genre's verified base rate is ONE marginal conditional advance-prediction in twenty years (Shaposhnikov-Wetterich 129 +/- 6 vs 125.1, self-downgraded by the 2020 community review); the closest-relative spectral Standard Model had its one advance prediction FALSIFIED (~170 GeV Higgs, the authors' own 'invalidates'), was repaired retrodictively with an imported mechanism, treats couplings as INPUTS in exactly the boundary-plus-desert scheme our seals killed, and survives only via a Pati-Salam enlargement with a TUNED scale -- WHICH B925 PROVED OUR OBJECT ALGEBRAICALLY DOES NOT CONTAIN: the object refused by theorem the genre's one tunable escape. The twisted-spectral-triple line encodes signature/frame, NOT couplings or generations, and its rescue-from-twist was proven impossible -- banked as M1's standing caution; Q3/Q4/Q5 stand honestly unpopulated (no claims survived verification). THE RULING: the seals stay closed; M0 (the programme as mathematics) stands as the doubly-grounded default; M1 proceeds as MATHEMATICS (the D2 decode) under the hemisphere check; any future crossing must displace both the walls and the base rate, owner-gated. The study round closes.  
-`B927_crossing_study_verdict/FINDINGS.md`
+**PROVED — `B928`** (2025 words, 1 locks)  
+THE D2 DECODE (the Twist Crossing stage 1, sealed 5a7aa973 pushed ab34c5b7 before compute): OUTCOME FORCED VERBATIM -- THE HIERARCHY'S CARRIER IS CHARACTERIZED BY A BANKED EQUATION WITH NO RESIDUAL FREEDOM: D2 = +-rho_27(sigma_{chi-}), the second wall conjugation's sign character on the 27; equivalently H+D2 = H(phi*) with phi* = tau o phi+ o phi- (an involution, an automorphism on all 78^2 pairs, NOT C-compatible -- exactly explaining B916's no-pattern fact), THE UNIQUE census member carrying it; the three diagonals close the KLEIN GROUP {I, D2, D, D2 D} = the wall pair's 2-torsion in rho_27; the character form is the affine-shifted -(-1)^<a*,w> with a* = s(chi-) -- the unique hit among 128, the naive-character miss explained by the affine polarity; 11 = 8+3 REFUTED exactly (numerology). Q2 DERIVED from the characterization: both d-ratio minpolys coefficient-for-coefficient, the norm law with its minus sign FROM the affine polarity, HIER's four coefficients; the honest residue: why 953 itself stops at the atom-line coordinates. Q3 THE SHAPE SHEET, NONEMPTY, BLIND, EXACT: m_S and m_A in K with forced equalities (m_A+ = m_A-; (g,+) = (g,-) omega-free), THE NEW COLORED CUBE LAW N(det G^{-1}G') = -(953/2304)^3 exactly, the sum rule Tr(m_S) + Tr(t_oct) = 11 exact, numeric belt 2.1e-57. The FORCED prior WON (seven sealed: four overrules, three wins). STAGE 2 NOW AWAITS THE OWNER'S WORD AND NOTHING ELSE.  
+`B928_d2_decode/FINDINGS.md`
 
 **NEGATIVE — `B925`** (1563 words, 0 locks)  
 THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object's D-chain refuses the RG-ladder identification BY ITS OWN ALGEBRA, before data votes: (FACT 1, theorem-grade) the banked D3/D4 typings admit NO unbroken su(2)_L above the banked color inclusion -- C(su3c, su4) = u(1)_{B-L} and C(su3c, so8) = u(1)^2, certified exactly both directions -- so the intermediate rungs are RG-degenerate (M3 = M4 = M5; the chain is provably NOT Pati-Salam: the two su(2)'s Chat-1's fitted benchmark needed are exactly what the compact chain already measured away); (FACT 2) the D5 rung is index-1 (all three embedding indices = 1, computed on the 27), so matching demands full unification at M5 = the FIRST crossing's dead desert renamed -- the required-M5 solution set is EMPTY (branch gaps 6.2-7.3 sigma); (FACT 3) the E6 rung is RG-invisible (the X-coupling slope 88/3 never rejoins) -- rho3 has NO required value. Part-0 calibration reproduced B915 to 1e-6; the 3/8 boundary re-derived in-cell; the beta-ladder recorded with zero freedom; the menu note and look-elsewhere disclaimer honest. PRIORS: Part 1 (feasible) LOST -- killed by algebra, not data; Part 2 (MISS) WON, stronger. THE LOCKED KILL CONDITION EXECUTES: Phases III-IV lose physics motivation; mathematics + V-VI continue. Fenced reading banked: the negative CONFIRMS the two-hemisphere doctrine (the compact chain is the measurement ladder, not the matter cascade) and points any residual identification route at the observer/twist layer -- unsealed, unpriced, owner-gated.  
