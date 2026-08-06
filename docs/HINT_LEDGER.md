@@ -636,3 +636,8 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       zeros; poles on {2,3}. Open: WHY the sign of full flip separates 7 from 11 — the
       resolvent's factorization heard as an orientation. No cell designed yet; listen more
       before asking.
+  (14) H-B930-FIVE (type PATTERN, fenced; B937 partially resolved): the S–A mixing
+      overlap² minpoly closes with 5¹² — but B937 decided the GOLDEN FIELD DOES NOT
+      ENTER (5 is a residue characteristic, four independent ways). What remains open is
+      the EXPONENT: is 12 structural (the floor dimension? the D-flip count?) or
+      incidental? Registered, not designed.

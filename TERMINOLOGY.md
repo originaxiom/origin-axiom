@@ -256,3 +256,18 @@ No invariant may be transferred between these without an explicit map.
   pending the deciding computation (B787's ι-status question, now re-registered as a
   lead per the audit); no banked result identifies them; any text using the bare word
   should say which. The conjecture that they coincide is open, not assumed.
+- **the value-invisibility theorem (B936)**: the sixteen invariant Hermitian
+  structures form a torsor Z¹(⟨τ⟩, T_ad[2]) with classes H¹ = (ℤ/2)², and D₂ —
+  the hierarchy's carrier — is a COBOUNDARY; **but no value (953, 2304, the
+  norms) appears in any invariant of the pair**: the twist-norm law is diagonal,
+  frame-relative data. K020's "form, not values" sharpened one level: the object
+  does not force the values even cohomologically.
+- **the hemisphere check (review protocol item 9)**: every prereg types its
+  consumed structures by owning hemisphere (measurement-side vs matter-side);
+  an unlicensed cross-hemisphere graft may not seal. Born from B926's autopsy of
+  the two dead crossings, which were both such grafts.
+- **the three crossings**: B915 (boundary + desert — MISS 16σ), B925 (the object's
+  own D-chain as the desert's replacement — OUTCOME B, by the chain's own
+  algebra: provably not Pati–Salam), B929 (the twist's shape sheet vs measured
+  mixing shape — HIT-SHAPE: mixing-shaped, magnitudes off 5–9×, banked as a
+  fenced hint). M0 — the programme as mathematics — is the standing default.
