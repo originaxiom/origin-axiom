@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **840** |
-| words of findings prose | **548,620** |
-| test lock files referenced | **577** |
-| arcs carrying an authored verdict | **827** (98.5 %) |
+| research arcs with findings | **841** |
+| words of findings prose | **548,989** |
+| test lock files referenced | **578** |
+| arcs carrying an authored verdict | **828** (98.5 %) |
 | recorded closures | **732** (565 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 527 |
+| PROVED | 528 |
 | NEGATIVE | 262 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B919`** (310 words, 1 locks)  
-THE A1 DEBT DISCHARGED AT ITS HONEST TIER (cc3 loss audit): sin^2(theta_W) = 3/8 at the object's normalization now has a standalone arc + lock -- with the object's own operators (T3 = the weak su(2)-ideal Cartan, intrinsically sl2-normalized; Y = the solved central-charge functional anchored electromagnetically), the exact 27-traces at the full-tower prime 40123 lift by rational reconstruction to Tr(T3^2) = 3, Tr(Y^2) = 5, Tr(T3 Y) = 0 -- trace-orthogonal, sin^2 = 3/8; three independent runs agree. TIER: ONE-PRIME; the second prime (40639) is OPEN with diagnosis -- the per-prime sqrt-convention relabeling (solo XLII pattern) reaches the Y-anchoring. TWO instrument errors self-caught before banking: a substring flag bug, and a SILENT substitution failure that ran one prime twice under a two-prime label (exposed by direct inspection; the briefly-wrong flag retracted in place -- verify-don't-trust applied to this arc's own first artifact). B915's FINDINGS annotated to cite this arc; the remaining B909 debts still gate on cpen.  
-`B919_weinberg_traces/FINDINGS.md`
+**PROVED — `B922`** (369 words, 1 locks)  
+LAMBDA_2 RECEIVED AND BANKED -- THE FIRST 25-DIGIT MAASS EIGENVALUE ON ANY HYPERBOLIC 3-MANIFOLD (cc3's 58.1-hour sealed protocol, prereg 169e9042, the hash verifiable on main since the loss-audit repair): r = 4.9000853730625213014795758, lambda = 1 + r^2 = 25.01083666330126855876589 on the figure-eight complement (H^2 reaches 1000 digits; H^3 had reached ~10 -- the precedent number). The chain: 10-digit validation gate, P4 spread 0.0 across three independent convergences, the displaced must-fail control PASSED, stability cert |dr|_stab = 9.93e-27 vs the sealed 1e-26 bar -- a 0.7% margin, logged honestly as close. THE FIRST SEALED PSLQ PASS (rung i): CLEAN -- no algebraic relation at 25 digits in the six programme fields + minpoly box, 14 powered combinations, B798 discipline (NOT the campaign falsifier -- that is the 100-digit box). THIS BENCH'S INDEPENDENT SPOT-CHECKS: the arithmetic identity recomputed at 40 dps; the parked-H4 axis (the BTZ entropy value log((5+sqrt21)/2), Vol(4_1), pi^2, zeta(3), log phi, sqrt 21) ALSO CLEAN at 26 dps -- the quantum-gravity-spectrum reading's first honest datum is a negative. The parent run (7.072004187) is launched (~2.5 days; doubles as the definitive Grunewald-Huntebrinker 51.014 check); the wave-1 re-audit (R37-6) is unblocked; the Maass paper's headline exists.  
+`B922_lambda2_receipt/FINDINGS.md`
 
 **NEGATIVE — `B915`** (441 words, 1 locks)  
 THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single input alpha_em(M_Z) and the object's banked gauge boundary (E6 unification, sin2thetaW = 3/8 from the exact traces), the two-loop SM-desert curve's nearest approach to the measured pair (sin2thetaW, alpha_s)(M_Z) is d = 15.97 sigma_tot -- SEALED OUTCOME MISS: the identification 'object boundary + pure SM desert' is DEAD; every structural theorem stands, exactly as pre-stated. THE DISCLOSED PRIOR WON for the first time in five sealed cells (both directions of the seal discipline now verified live). THE BANKED FAILURE GEOMETRY: nearest approach at M_U = 1.5e13 GeV with the miss ALPHA_S-DOMINATED (gap +0.041 vs +0.002 in sin2thetaW); the pairwise meeting scales 1.09e13 / 1.72e14 / 2.91e16 GeV -- a three-order triangle. REGISTERED CONTINUATION (its own seal): R4b -- the object's own compact D-chain E6 > D5 > D4 > D3 > A2 as the desert's replacement, thresholds at the chain's banked scales, ZERO new parameters; the test is whether the chain closes THIS triangle. Gate 5's door was opened under seal, used once, and reported faithfully.  

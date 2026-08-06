@@ -19156,6 +19156,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B922": {
+   "slug": "lambda2 receipt",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B798",
+    "B921",
+    "H4",
+    "P3",
+    "P4",
+    "S073"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

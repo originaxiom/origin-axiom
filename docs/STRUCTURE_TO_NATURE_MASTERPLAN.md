@@ -431,8 +431,8 @@ sealed comparisons and one unification theorem.*
 ## PHASE I — CLOSE THE LEDGER
 B909 (cpen → the three debts) · B920 (register-sweep; NORMSPLIT dies) ·
 B921 (branch harvest; the cc3 branch protected until it lands) · V-L2
-exactification (λ, CCC, V, and B919's traces to identity tier) · λ₂ receipt →
-the sealed PSLQ. **Exit: zero known debts, zero contradictions, identity-tier
+exactification (λ, CCC, V, and B919's traces to identity tier) · λ₂ RECEIVED (B922: the 25-digit precedent; rung-i PSLQ clean; parent ~2.5 d) →
+the 100-digit falsifier stage later. **Exit: zero known debts, zero contradictions, identity-tier
 numbers.**
 
 ## PHASE II — THE SECOND CROSSING (R4b)
