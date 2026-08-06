@@ -1,0 +1,107 @@
+{
+ "arc": "B933 spinor-Hejhal design, feasibility probe",
+ "status": "EXPLORATORY NUMERICS, double precision, NOT a sealed run",
+ "date": "2026-08-06",
+ "authorization": "B921-harvested cell3_spin_fork: rho1=(A,B) trace pattern (2,-2), non-Lie under both conventions => discrete Dirac spectrum (Baer dichotomy)",
+ "operator": "D = -i[t(sig1 dx + sig2 dy + sig3 dt) - sig3], Iwasawa-section trivialization, L2(t^-3 dV)",
+ "spin_structure": "rho1 = (A,B) Riley lift; meridian periodic (+I twist), longitude ANTIperiodic (-I twist); mode lattice = Lam* + u2/2, |mu|_min = 1/(4 sqrt 3)",
+ "validation_gates": {
+  "tau": [
+   -2.220446049250313e-16,
+   3.4641016151377544
+  ],
+  "tau_vs_2sqrtm3": 2.220446049250313e-16,
+  "longitude_lattice_coords": [
+   0.0,
+   1.0
+  ],
+  "mu_min": 0.14433756729740646,
+  "bessel_max_rel_err": 1.158614478908964e-14,
+  "G1_fd_max_rel_residual": 1.87936650462835e-13,
+  "twist_meridian_dev": 2.220446049250313e-16,
+  "twist_longitude_dev": 2.960883838797243e-15,
+  "G2b_frame_gate_max_dev": 8.432087155174628e-07,
+  "cocycle_max_dev": 4.668220486087868e-15,
+  "su2_max_dev": 8.881874862234655e-16
+ },
+ "the_conjugate_twist_lesson": {
+  "statement": "the automorphy twist in the coordinate trivialization is the elementwise CONJUGATE of the Iwasawa SU(2) factor: R_geom = C Ad(k) C, C = diag(1,-1,1); with the unconjugated twist the collocation system is inconsistent and sigma_min is flat ~0.5 with zero dips over |lam|<=7",
+  "first_scan_with_wrong_twist": {
+   "window": [
+    -7,
+    7
+   ],
+   "dips": 0,
+   "median_sigma": 0.5233
+  },
+  "frame_gate_G2b_max_dev": 8.432087155174628e-07
+ },
+ "scan": {
+  "Y": 0.75,
+  "nmodes": 496,
+  "npts": 374,
+  "window": [
+   -7.0,
+   7.0
+  ],
+  "dl": 0.01,
+  "median_sigma": 0.3463396723445248,
+  "scan_seconds": 397.9949359893799
+ },
+ "positive_eigenvalues_refined": [
+  2.97455058,
+  4.32782242,
+  4.72904955,
+  5.67720879,
+  6.00516263,
+  6.63387901,
+  6.92096493
+ ],
+ "negative_mirror_refined": [
+  2.97455058,
+  4.32782242,
+  4.72904955,
+  5.67720879,
+  6.00516263,
+  6.63387901,
+  6.92096493
+ ],
+ "pairing_max_dev": 2.99e-13,
+ "kernel": {
+  "lam": 0.0,
+  "dim_in_truncated_system": 2,
+  "sigma12": [
+   1e-12,
+   1e-12
+  ],
+  "sigma3": 0.53,
+  "note": "exactness of lam=0 NOT established at double precision; |lam| < 1e-8 from golden refine; obligation O2"
+ },
+ "multiplicity": "every dip doubly degenerate (sigma1=sigma2, sigma3 at background); moreover the ENTIRE singular spectrum is doubled at every lam => an instrument-level lam-preserving antiunitary (Kramers-type quaternionic structure); mechanism resolution = obligation O1",
+ "spectral_symmetry": "exact +- pairing observed to 3e-13; PROVEN mechanism: J = sigma2 o conj anticommutes with D, preserves the rho1-twisted automorphy and the shifted lattice => spectrum symmetric; J^2 = -1 on ker D => kernel even-dimensional",
+ "first_eigenvalue_bracket": {
+  "lam1": 2.97455058,
+  "uncertainty": 1e-06,
+  "cross_checks": "Y=0.75/seed11, Y=0.62/seed23, Y=0.68/seed7/maxlen-6 moves agree to 8 digits; golden-search dev floor 6.2e-9"
+ },
+ "weyl_screen": {
+  "leading_expected_states_absle_6.92": 22.7,
+  "found_distinct_dips": 15,
+  "found_states_mult2": 30,
+  "note": "screen only; sub-leading cusp terms unknown for Dirac"
+ },
+ "timings_seconds": {
+  "validate": 40,
+  "scan_1401_points": 397.9949359893799,
+  "refine_two_Y": 511.06707978248596,
+  "third_instrument_check": 90
+ },
+ "files": [
+  "probe.py",
+  "validate_out.json",
+  "scan_results.npz",
+  "scan_dips.json",
+  "refined.json",
+  "results.json"
+ ]
+}

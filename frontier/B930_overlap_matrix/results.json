@@ -1,0 +1,210 @@
+{
+ "cell": "B930 overlap matrix",
+ "checks": {
+  "rep27_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "banked_wall_pair_is_a_global_negation": {
+   "pass": true,
+   "detail": "chi+ = (1, -1, 1, -1, 1, 1)"
+  },
+  "weight_pairing_pi_recomputed_and_involutive": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_symmetric": {
+   "pass": true,
+   "detail": "c_{pi(b)} = c_b => the banked H+ matrix is symmetric"
+  },
+  "frame_72_roots_ns_8_14_16_22": {
+   "pass": true,
+   "detail": ""
+  },
+  "four_charges_commute_exactly": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_charge_equivariance_eps_m1_p1_m1_p1_exact": {
+   "pass": true,
+   "detail": "Rn^T H+ = -eps_n H+ Rn, eps = (-1,+1,-1,+1) -- the selection-rule input"
+  },
+  "D2_rederived_as_rep_diagonal_of_sigma_chi_minus": {
+   "pass": true,
+   "detail": "pure rep propagation, no handoff"
+  },
+  "D2_equals_banked_B916_diagonal": {
+   "pass": true,
+   "detail": ""
+  },
+  "D2_11_flips_pi_symmetric": {
+   "pass": true,
+   "detail": ""
+  },
+  "charpoly_Mc_factors_3_1__6_1__6_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "rational_blocks_dim_3_6_18": {
+   "pass": true,
+   "detail": ""
+  },
+  "register_blocks_span_Q27": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Me_W6_is_g_squared_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Mo_W6_even": {
+   "pass": true,
+   "detail": ""
+  },
+  "K_roots_xS_alpha_B_found": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_equals_minus_3_w_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_S_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_nonS_dim_1_over_K_beta": {
+   "pass": true,
+   "detail": ""
+  },
+  "S_and_A_exact_R8_R16_eigenvectors_over_K": {
+   "pass": true,
+   "detail": ""
+  },
+  "even_labels_irreducible_deg3": {
+   "pass": true,
+   "detail": "c8vac/c8oct have degree-3 minpolys => the three Galois branches are pairwise DISTINCT: the even-charge selection rule separates generations"
+  },
+  "A_norms_tau_free_both_gauges": {
+   "pass": true,
+   "detail": ""
+  },
+  "q_nonzero_all": {
+   "pass": true,
+   "detail": ""
+  },
+  "dS_dA_minpolys_equal_banked_B916": {
+   "pass": true,
+   "detail": ""
+  },
+  "m_S_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_roots_three_conjugate_pairs": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_is_K_norm_form_of_one_quadratic": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_disc_minus_231_wc_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "delta_squared_rational": {
+   "pass": true,
+   "detail": ""
+  },
+  "disc_mu_77_times_square": {
+   "pass": true,
+   "detail": ""
+  },
+  "S77_squared_77": {
+   "pass": true,
+   "detail": ""
+  },
+  "omega_squared_minus_231_in_Mbar": {
+   "pass": true,
+   "detail": ""
+  },
+  "tinv_self_test": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_eigenspace_dim_3_over_K_omega": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_all_four_charges_scalar": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_even_labels_omega_free": {
+   "pass": true,
+   "detail": "mu8 = octet label (branch alignment); mu8, mu16 in K"
+  },
+  "colored_odd_labels_PURELY_omega_imaginary": {
+   "pass": true,
+   "detail": "mu14, mu22 have ZERO K-part and nonzero omega-part: the exact input of the (+,-) selection rule -- conj(mu_odd) = -mu_odd on every branch"
+  },
+  "colored_mu14_omega_part_K": {
+   "value": [
+    "506880/169",
+    "5331916800/2197",
+    "-15021490176000/28561"
+   ],
+   "detail": ""
+  },
+  "colored_mu22_omega_part_K": {
+   "value": [
+    "2680473600/3211",
+    "-306561024000/2197",
+    "-28841261137920000/542659"
+   ],
+   "detail": ""
+  },
+  "colored_gram_Hplus_invertible": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_gram_Hprime_invertible": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_twist_trace_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": "the abstract colored machinery reproduces the banked twist spectrum"
+  },
+  "FORCED_a_Hplus_same_generation_cross_branch_block_ZERO": {
+   "pass": true,
+   "detail": "h_{H+}(atom(g,+), atom(g,-)) = 0 EXACTLY (abstract, all branches at once): the odd labels are purely omega-imaginary and nonzero, so the selection rule kills the whole 3x3 color block"
+  },
+  "a_Hprime_same_generation_cross_branch_nonzero": {
+   "value": false,
+   "detail": "the twisted gauge DOES couple the two branches (same generation)"
+  },
+  "beta_matches_a_mu_root": {
+   "pass": true,
+   "detail": ""
+  },
+  "three_branch_roots_are_the_mu_roots": {
+   "pass": true,
+   "detail": ""
+  },
+  "generation_order_ascending_rho_code_branches": {
+   "value": [
+    0,
+    1,
+    2
+   ],
+   "detail": "reported matrices use ascending-rho generation indexing (the banked B928/B929 sheet convention = ascending v_g^2, HG2)"
+  },
+  "m_S_branches_match_banked_B928_certs": {
+   "pass": true,
+   "detail": "0.86289845162610324643 0.80011290842674547149 0.69636363994715128208"
+  }
+ },
+ "notes": []
+}

@@ -1,0 +1,9 @@
+{
+ "id": "B933",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE SPINOR-HEJHAL DESIGN + A SUCCESSFUL FEASIBILITY PROBE (exploratory, double precision, UNSEALED -- per the exploratory-numerics rule this stays uncommitted-tier until the sealed run): the Dirac instrument on (m004, spin structure rho_1 -- the harvested cell3 authorization: non-Lie under both conventions, discrete spectrum, unconditional) is designed end-to-end (the operator triple-derived with the corrected Clifford sign; the scalar protocol's mesh/certification adapted; the sealed run specified two-outcome) and the probe ALREADY RESOLVES A SPECTRUM: first Dirac eigenvalue bracket |lambda_1| = 2.97455058 +/- 1e-6 (8 digits across three independent instruments: two heights, two seeds, two move word-sets), seven exact +/- pairs in |lambda| <= 7, and a dimension-exactly-2 kernel candidate at lambda = 0 (sigma gap 12 orders). THE LITERATURE BLANK HELD: no prior computed Dirac eigenvalue on ANY hyperbolic 3-manifold -- the sealed run would be a second precedent-class number. The sealed protocol (the B922 pattern: validation gate, perturbed restarts, must-fail control, stability cert) awaits scheduling.",
+ "depends_on": ["B804", "B921", "B922"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent + cc banking (2026-08-06)"
+}

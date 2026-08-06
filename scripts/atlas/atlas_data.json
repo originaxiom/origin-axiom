@@ -19483,6 +19483,71 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B931": {
+   "slug": "why 953",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B883",
+    "B912",
+    "B914",
+    "B916",
+    "B918",
+    "B928",
+    "L18",
+    "L3",
+    "L6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B932": {
+   "slug": "chain selection",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "lorentzian"
+   ],
+   "refs": [
+    "B801",
+    "B854",
+    "B866",
+    "B874",
+    "B875",
+    "B877",
+    "B892",
+    "B897",
+    "B909",
+    "B925",
+    "B926"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B933": {
+   "slug": "spinor hejhal design",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "symplectic"
+   ],
+   "refs": [
+    "B921",
+    "B922"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B93": {
    "slug": "det parity bridge",
    "motifs": [

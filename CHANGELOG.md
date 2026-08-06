@@ -1,5 +1,8 @@
 # Changelog
 
+## The map wave — why-953 answered; the GUT selection grammatical; a Dirac first at probe grade; the paper skeletoned
+- **B931**: 2304 derived from lc(μ); 953 born in the twisted resultant — **the prime where the flip mass hits exactly ½**; the divisor map splits S (doubly, the observer's place) from A (simply, the degree-two place). **B932**: the conformal chain verified leptonless in-house; two obstructions make the negative permanent — **the object only speaks GUT**. **B933**: |λ₁|_Dirac = 2.97455058 at probe grade — no prior on any H³ manifold; the sealed run specified. Paper 1 skeletoned, citations verified. B930's instrument bug queued. 4 locks.
+
 ## B929 — the third crossing: HIT-SHAPE — mixing-shaped, not mixing-valued
 - **T1 PASS**: the blind register-sheet is a descending accelerating cascade, a = 1.84 in the declared band (CKM's own: 1.39 — same band, not close). **T2 MISS**: magnitudes off 5–9× — the direct reading is dead. Suggestive not probative by design (2 priced bits); hint row 12; no licensed retries without new seals + the owner's word.
 - Scoreboard: 8 sealed cells — 5 overrules, 4 wins. M0 stands. 4 locks. Gate 5: one contact, sealed, reported.

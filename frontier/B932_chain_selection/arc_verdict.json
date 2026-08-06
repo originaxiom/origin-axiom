@@ -1,0 +1,9 @@
+{
+ "id": "B932",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "R-EMB DECIDED -- OUTCOME A: THE OBJECT SELECTS THE GUT CHAIN GRAMMATICALLY. Leg 1: Chat-1's conformal-chain computation VERIFIED IN-HOUSE (wall W18 upgraded from external to verified): the (E6)_1 conformal chain decomposes the 27 as (3bar,2,2)+(3bar,3,1)+(6,1,1) by exact weight multisets -- ZERO color singlets, no leptons. Leg 2: NO banked structure realizes su(3)+su(2)+su(2) (dim 14, derived 14, center 0) as a centralizer/wall -- the full typed lattice swept -- and TWO THEOREM-SHAPED OBSTRUCTIONS make the negative permanent: T1 (any charge centralizer contains its charges in its center, forcing center >= 1 > 0) and T2 (the charge-centralizer grammar). The measurement cascade's own path (FMT -> so(10)+u(1) -> the SMT wall) IS the GUT-side chain: the object's grammar cannot even speak the conformal chain's subalgebra. The selection question is closed as structure -- and it never produces a number (per the anatomy).",
+ "depends_on": ["B854", "B874", "B892", "B909", "B926"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent + cc banking (2026-08-06)"
+}

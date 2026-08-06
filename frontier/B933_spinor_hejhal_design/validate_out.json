@@ -1,0 +1,19 @@
+{
+ "tau": [
+  -2.220446049250313e-16,
+  3.4641016151377544
+ ],
+ "tau_vs_2sqrtm3": 2.220446049250313e-16,
+ "longitude_lattice_coords": [
+  0.0,
+  1.0
+ ],
+ "mu_min": 0.14433756729740646,
+ "bessel_max_rel_err": 1.158614478908964e-14,
+ "G1_fd_max_rel_residual": 1.87936650462835e-13,
+ "twist_meridian_dev": 2.220446049250313e-16,
+ "twist_longitude_dev": 2.960883838797243e-15,
+ "G2b_frame_gate_max_dev": 8.432087155174628e-07,
+ "cocycle_max_dev": 4.668220486087868e-15,
+ "su2_max_dev": 8.881874862234655e-16
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **851** |
-| words of findings prose | **561,866** |
+| research arcs with findings | **854** |
+| words of findings prose | **566,300** |
 | test lock files referenced | **584** |
-| arcs carrying an authored verdict | **838** (98.5 %) |
+| arcs carrying an authored verdict | **841** (98.5 %) |
 | recorded closures | **734** (567 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 536 |
+| PROVED | 539 |
 | NEGATIVE | 264 |
 | OPEN | 29 |
 | RETRACTED | 9 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B929`** (361 words, 1 locks)  
-THE THIRD CROSSING (Twist stage 2; prereg 672b5afb pushed c8421f14 BEFORE data contact; owner word at the registered gate): SEALED VERDICT HIT-SHAPE -- TIER 1 PASS: the blind triple s = (0.8629, 0.8001, 0.6964) (the |m_S| branch values, ascending-rho, computed with zero flavor input) is a same-side descending cascade with acceleration index a = 1.838 in the declared (1,3) second-order band (the measured cascade's own index 1.39 reported transparently: same band, not close); TIER 2 MISS: r = (0.927, 0.870) vs q = (0.182, 0.094), off by factors 5-9 in both orientations -- THE DIRECT IDENTIFICATION m_S-ratios = CKM-ratios IS DEAD. The result weighs itself down by design (two priced bits; a broad T1 band): SUGGESTIVE, NOT PROBATIVE -- if the twist speaks to measured mixing it is through a nontrivial map, not a direct reading. Other sheet readings are NOT licensed retries (each needs its own seal + the owner's word, with this record cited). Secondary recorded non-verdict: m_A same character; the v-weights an ASCENDING cascade (a different shape class); the anchors printed. THE SCOREBOARD (eight sealed cells): five object-overrules (T1's lean-MISS prior mildly overruled), four disciplined wins (T2 as priored). M0 remains the standing default; the shape correspondence enters the HINT LEDGER at hint grade, fenced.  
-`B929_third_crossing/FINDINGS.md`
+**PROVED — `B933`** (621 words, 0 locks)  
+THE SPINOR-HEJHAL DESIGN + A SUCCESSFUL FEASIBILITY PROBE (exploratory, double precision, UNSEALED -- per the exploratory-numerics rule this stays uncommitted-tier until the sealed run): the Dirac instrument on (m004, spin structure rho_1 -- the harvested cell3 authorization: non-Lie under both conventions, discrete spectrum, unconditional) is designed end-to-end (the operator triple-derived with the corrected Clifford sign; the scalar protocol's mesh/certification adapted; the sealed run specified two-outcome) and the probe ALREADY RESOLVES A SPECTRUM: first Dirac eigenvalue bracket |lambda_1| = 2.97455058 +/- 1e-6 (8 digits across three independent instruments: two heights, two seeds, two move word-sets), seven exact +/- pairs in |lambda| <= 7, and a dimension-exactly-2 kernel candidate at lambda = 0 (sigma gap 12 orders). THE LITERATURE BLANK HELD: no prior computed Dirac eigenvalue on ANY hyperbolic 3-manifold -- the sealed run would be a second precedent-class number. The sealed protocol (the B922 pattern: validation gate, perturbed restarts, must-fail control, stability cert) awaits scheduling.  
+`B933_spinor_hejhal_design/FINDINGS.md`
 
 **NEGATIVE — `B925`** (1563 words, 0 locks)  
 THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object's D-chain refuses the RG-ladder identification BY ITS OWN ALGEBRA, before data votes: (FACT 1, theorem-grade) the banked D3/D4 typings admit NO unbroken su(2)_L above the banked color inclusion -- C(su3c, su4) = u(1)_{B-L} and C(su3c, so8) = u(1)^2, certified exactly both directions -- so the intermediate rungs are RG-degenerate (M3 = M4 = M5; the chain is provably NOT Pati-Salam: the two su(2)'s Chat-1's fitted benchmark needed are exactly what the compact chain already measured away); (FACT 2) the D5 rung is index-1 (all three embedding indices = 1, computed on the 27), so matching demands full unification at M5 = the FIRST crossing's dead desert renamed -- the required-M5 solution set is EMPTY (branch gaps 6.2-7.3 sigma); (FACT 3) the E6 rung is RG-invisible (the X-coupling slope 88/3 never rejoins) -- rho3 has NO required value. Part-0 calibration reproduced B915 to 1e-6; the 3/8 boundary re-derived in-cell; the beta-ladder recorded with zero freedom; the menu note and look-elsewhere disclaimer honest. PRIORS: Part 1 (feasible) LOST -- killed by algebra, not data; Part 2 (MISS) WON, stronger. THE LOCKED KILL CONDITION EXECUTES: Phases III-IV lose physics motivation; mathematics + V-VI continue. Fenced reading banked: the negative CONFIRMS the two-hemisphere doctrine (the compact chain is the measurement ladder, not the matter cascade) and points any residual identification route at the observer/twist layer -- unsealed, unpriced, owner-gated.  
