@@ -513,3 +513,21 @@ observation banked with the verdict: both banked doctrines (the two-hemisphere d
 the hierarchy-in-the-twist) PREDICTED this shape of no — the compact chain is the
 measurement ladder, and any residual identification route runs through the observer/twist
 layer: unsealed, unpriced, owner-gated, NOT a plan.
+
+### Dated amendment (2026-08-06) — THE CROSSING STUDY (owner: understand before computing further)
+A two-lane study round, no new seals until it lands:
+- **LANE A (the repo synthesis):** the full anatomy of the crossing problem as the repo
+  knows it — every banked fact bearing on object→measured-couplings assembled into one
+  document: the two crossings' exact failure geometry; the su(2) obstructions; L15's
+  scale firewall; B429's bosonic rigidity; the conformal-embedding dead end; R-EMB (still
+  open); the two-hemisphere doctrine; the hierarchy-in-D₂; unimodularity + the twist-norm
+  law; B905's operational-reading negative; the observer stack. The deliverable: the
+  SHARPENED CROSSING PROBLEM — what shape must any crossing have, given every banked
+  no-go — plus the surviving-shapes menu, priced, fenced.
+- **LANE B (the literature panel):** a B905-pattern adversarially-verified survey of how
+  parameter-free structures have ever produced measured couplings/scales: the spectral
+  action programme (Connes–Chamseddine — values from a spectral triple), asymptotic
+  safety's retrodictions, swampland constraints, moduli/vev-valued couplings (couplings
+  as fields — the twist-analog), Bost–Connes/KMS (the L113 neighborhood), the 3/8
+  literature and what breaks it, and the cautionary corpus (Atiyah-type retrodictions).
+  Clean negatives valuable; citations exact.
