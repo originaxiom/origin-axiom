@@ -576,11 +576,18 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       billiard with PSL(2,O) for Gaussian OR Eisenstein integers — so the handoff's "the knot
       and quantum cosmology share the same arithmetic group" OVERSTATES specificity (d=3 is
       one of two). The paper is formal; no eigenvalue tables, no citation to the 1996 d=3 data.
-  (7) H-B788-NORMSPLIT — **RETRACTED 2026-07-28.** The claim (m004-only trace norms all
-      ≡0 mod 4) is REFUTED by B794's proved law: the truth is N(tr γ) ≡ 0 or 3 (mod 4),
-      and the odd norms 7,103,127,175,367 are all ≡3. cc's own re-verification appeared to
-      uphold the claim but was an artifact of a tolerance filter that silently dropped long
-      geodesics — the disconfirming data. Superseded by a LAW_MAP theorem row.
+  (7) H-B788-NORMSPLIT — **RETRACTED 2026-07-28; RETRACTION AMENDED 2026-08-06 (B920):
+      the hint SURVIVES AT THE NORM LEVEL — its own level.** The 2026-07-28 retraction
+      ("REFUTED by B794's law") holds only for the TRACE-level reading. The cc3 level
+      reconciliation (rerun in-sandbox, B920): at cutoff 6 the TRACE-level m004-exclusives
+      are 139 traces / 37 distinct norms / exactly ONE odd (7, via traces 3+ω and 2−ω);
+      the NORM-level m004-exclusives are {4,16,48,64,112,144,192,208,256,304,336,400} —
+      12 distinct, ZERO odd, all ≡0 mod 4 (exactly the hint's statement); the odd norms
+      103/127/175/367 are SHARED (norm 7 enters m003 via the different traces 1+3ω, 2+3ω).
+      Both seats were right about different objects. B794's theorem N(tr γ) ≡ 0 or 3
+      (mod 4) supplies the hint's mechanism (every m004 norm avoids 1 mod 4; the odd
+      class 3 is m003-shared). Reconciling artifact:
+      frontier/B794_congruence_level4/trace_norm_split.{py,json,txt}.
   (8) H-B794-A5 (type HOOK): the mod-2 image of Γ₄₁ is D₅ inside PSL(2,𝔽₄) ≅ A₅, and A₅
       also carries B787's 5A/5B ambivalence argument. Two appearances of the smallest
       simple group is suggestive and NOT thereby a connection. Open cell: same A₅ or not?

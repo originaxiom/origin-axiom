@@ -1,5 +1,9 @@
 # Changelog
 
+## The meantime wave — B923/B924/B920/B921: the hierarchy's carrier found; Phase I exits
+- **B923**: CCC = 3!·λ and v_g² = roots(HIER) are IDENTITIES; the Kummer field appears inside the colored sector; **the canonical gauge is generation-degenerate — the ENTIRE hierarchy is carried by the Hermitian twist D₂** (the origin-of-hierarchy question is born).
+- **B924**: rigidity collapse — all three unused involutions give θ's value (mechanism proven); the golden conjugation has no involutive lift. **B920**: NORMSPLIT dead, all seven register items swept, C24–C43 chained. **B921**: the load-bearing corpus harvested, four seals sha256-verified, 30 items routed. **Phase I's exit condition met.** 8 locks. Gate 5 untouched.
+
 ## B909 — the frame arc banked: the CMT verified (corrected instrument), the pending row paid whole
 - **The Compact Measurement Theorem: dim z = 30 / derived ≥ 28 / z∩core = 18 / center 2 at FIVE (root,prime) pairs incl. the fully-split 40039** — so(8)⊕u(1)² uniform. The shipped cmt.py was the RETRACTED §LIV septic (phantom roots; floor-reading) — caught by root-set comparison, now the standing sanity gate; the retraction-propagation failure routes to B920.
 - Also: ν = c·κ⁶ exact (the six-cubic law); the invisible-12 with its SMT fingerprint; the FA3 census 8/8; the One-Field theorem. **All four LAW_MAP debts PAID. R4b unblocked.** 3 locks. Gate 5 untouched.

@@ -486,3 +486,16 @@ one promotion per pass · both remotes, always.
   theorem-rich negative.
 - **All three HIT** → the sentence the programme was built to test gets
   written, with three seals under it.
+
+
+### Dated amendment (2026-08-06) — PHASE I EXITS; the D₂ question promoted
+The meantime wave banked (B920/B921/B923/B924): zero known debts, zero known
+contradictions, identity-tier numbers — **Phase I's exit condition is MET**.
+Promotion within Phase III's scope: **the D₂ weight-character question is now THE
+ORIGIN-OF-HIERARCHY QUESTION** (B923's discovery: the canonical gauge is
+generation-degenerate; the hierarchy lives entirely in the 11-flip twist) — it joins
+the ι/τ-parity run and the torsor cocycle as Phase III's third pillar, replacing the
+generic "D₂ block-membership" curiosity. B924's rigidity corrects the R-INV
+expectation programme-wide: one forced value per face pair; the face-pair SURVEY
+(other pairs) remains the open direction, correctly sized now.
+**NEXT: R4b's joint prereg with the solo seat (Phase II).**

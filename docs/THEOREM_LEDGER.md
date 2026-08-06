@@ -223,6 +223,102 @@ must lie outside the object's native symmetry group.** — B775 Wave 1 (P2-T1MOV
 
 ---
 
+## Part V — the measurement cascade and the value layer (the B877–B919 window; same-PR catch-up 2026-08-06, B920)
+
+*The window's theorems reached LAW_MAP §F but neither theorem register — the identical gap
+the LAW SWEEP had just fixed in LAW_MAP, one register over (cc3 loss audit A5). These are
+the catch-up links, brief; each mirrors its LAW_MAP §F row, which carries the full
+statement. Gate 5 stands: every row is STRUCTURE (exact algebra on the object's own
+charges); no physics value is claimed anywhere below.*
+
+**C24 [THEOREM — the First Measurement].** The object's 2T-charges stratify e₆; three
+Galois-conjugate first breakings (μ, constant 13³); z(line) = so(10)⊕u(1); the tiling with
+the cyclic law (P69). — B877. Lock: `tests/test_b877_fmt_review.py`.
+
+**C25 [THEOREM — the Second Measurement].** A second measurement of the object's own
+charges lands on su(3)⊕su(2)⊕u(1)³ EXACTLY, skipping SU(5); the wall complex in the split
+frame, at all three roots. — B892, B893. Locks: `tests/test_b892_smt.py`,
+`tests/test_b893_omega.py`.
+
+**C26 [THEOREM — the magic-square isomorphism].** The build IS M(𝕆,ℂ) by explicit
+structure constants; 0/3003 mismatches, det φ = −2/3 (P70). — B904. Lock:
+`tests/test_b904_bs.py`.
+
+**C27 [THEOREM — the inter-breaking laws].** Vacuum-to-Higgs; the 16/vacuum exclusion —
+exact minimal-polynomial theorems on the matter pencil. — B885, B886. Locks:
+`tests/test_b885_interbreaking.py`, `tests/test_b886_matter_pencil.py`.
+
+**C28 [THEOREM — the four-column concordance].** Measured ⟺ θ-odd exponents (4,8) ⟺
+τ_m > 0 ⟺ split spectrum; unmeasured ⟺ (7,11) ⟺ compact; 7·11 = 77 the resolvent; 5 by
+ramification. — B894, B898. Locks: `tests/test_b894_bridge.py`, `tests/test_b898_census.py`.
+
+**C29 [THEOREM — the signature dichotomy].** ad(x₈) ≡ ad(x₁₆): {0³⁰, 48 real};
+ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imag}; zero generic-complex on C. — B898. Lock:
+`tests/test_b898_census.py`.
+
+**C30 [THEOREM — the sign-law mechanism].** All six torsion quotients exactly
+anti-palindromic; sign(τ_m) = sign(lc)·(−1)^{p_m}; p_m ≡ m (mod 2) in every block. —
+B903. Lock: `tests/test_b903_sign.py`.
+
+**C31 [THEOREM — the diagonal cocycle].** All four Π-label cubics have a root in K (each
+led by 13³); the Galois S₃ acts on both orbits by ONE root permutation. — B900. Lock:
+`tests/test_b900_cocycle.py`.
+
+**C32 [NO-GO — the C-stabilizer].** n(C) = z(C) = 12; no real C-stabilizing symmetry swaps
+split/compact or x₈↔x₁₆ — the c-carrier must be complex. — B901. Lock:
+`tests/test_b901_stab.py`.
+
+**C33 [THEOREM — the annihilation].** [α_vac] = [α_μ]⁻¹: vacuum ⊕ charge = the split
+algebra; certificates on the ζ₆-line. — B902. Lock: `tests/test_b902_kp.py`.
+
+**C34 [THEOREM — the one-class + the numerator law + the observer's place].**
+[α_μ] = [α_gen] = [α_κ] = [α_V] = C, vacuum = C⁻¹; each pencil's Kummer element wears its
+own prime; den(V) = 𝔭₁(953)⁴ exactly. — B910, B918. Locks: `tests/test_b910_kappa.py`,
+`tests/test_b918_v.py`.
+
+**C35 [THEOREM — the sealed generation-shape].** G₂₀'s su(3)′ replicates fixed
+color⊗su(2)′ types into flavor triplets; the lepton 3+6 split; Casimirs 4/9, 4/9, 3/8;
+mechanism-hood fenced. — B897. Lock: `tests/test_b897_g20.py`.
+
+**C36 [THEOREM — the unified ℤ₂ law + the atoms].** Matter gluing = gauge commutation =
+mixed-texture type (8/8, 48/48, two-prime); 15 atoms, bijective tri-partition; the
+colorless grid = two pencils of AG(2,3). — B906. Lock: `tests/test_b906_flavor.py`.
+
+**C37 [THEOREM — the e₆(2) selection].** The wall is real exactly in e₆(2), via τ-twisted
+alignments only; ε₈ε₁₆ = ε₁₄ε₂₂ = +1 for every C-stabilizing automorphism. — B907. Lock:
+`tests/test_b907_selector.py`.
+
+**C38 [THEOREM — the rational atoms + I = −1].** The four charges commute rationally on
+the 27; rows = even transversals, cols = odd; P_R = −P_C exact. — B908. Lock:
+`tests/test_b908_pin.py`.
+
+**C39 [THEOREM — the signature split of matter].** The canonical H has signature
+(15,12) = e₆(2)'s K-split; nine colorless atoms positive-definite with scales; all six
+colored atoms Lorentzian. — B912. Lock: `tests/test_b912_norm.py`.
+
+**C40 [THEOREM — the one-number table].** All six normalization-free colorless couplings
+EXACTLY equal: T = σ₂(t_K), deg-3; the H-unit gauge = the determinant gauge. — B914.
+Lock: `tests/test_b914_table.py`.
+
+**C41 [THEOREM — the unimodularity + the twist-norm law + the product law].** λ = 1
+exactly in the charge-equivariant gauge; ∏d_i = −(953/2304)² = N_{K/ℚ}(d);
+v₁v₂v₃ = 3^{3/2}λ² exact; structure primes (13,17,19) inert, value primes split [1,2]. —
+B916, B917. Locks: `tests/test_b916_bridge.py`, `tests/test_b917_value_arc.py`.
+
+**C42 [IDENTITY — the 3/8 traces].** Tr(T₃²) = 3, Tr(Y²) = 5, Tr(T₃·Y) = 0 exactly
+(one-prime tier, rational reconstruction; second prime open-diagnosed) ⟹ the
+trace-orthogonality ratio 3/8 — structure, not a physics value (Gate 5). — B919. Lock:
+`tests/test_b919_traces.py`.
+
+**C43 [NO-GO — the crossing, sealed].** One input (α_em) + the object's boundary + pure
+desert MISSES at 16σ, α_s-dominated; the failure triangle banked; the desert is dead as a
+mechanism. — B915. Lock: `tests/test_b915_crossing.py`.
+
+*(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
+invisible-12 — enter when their locks land; LAW_MAP §F's pending row governs.)*
+
+---
+
 *Maintenance: additions require the B758 admission criteria (exact statement + location +
 green lock + one of the five labels); a link whose lock breaks reverts to the arc trail
 until repaired; the chain is regenerable from the bank and never a source of authority

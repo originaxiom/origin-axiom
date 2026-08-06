@@ -1,10 +1,14 @@
-# COMMS PROTOCOL — the three-seat room (v1.1; cc2's hardening adopted)
+# COMMS PROTOCOL — the seat room (v1.2, 2026-08-06: cc3 + the solo seat added as named seats — B920, closing the cc3 loss-audit A5 gap; previously v1.1 "the three-seat room", cc2's hardening adopted)
 
-Owner + cc (banking) + cc2 (compute) + chat1 (hypotheses), one room.
+Owner + cc (banking) + cc2 (compute) + chat1 (hypotheses) + cc3 (audit /
+genesis; works on its own fetched branch, NEVER merges — cc is the sole
+merge gate) + the solo seat (independent bench: parallel rebuilds and
+numbered handoffs, verified by cc before banking), one room.
 Goal: no loops, no confusion, no crossed wires. Keep it usable.
 
 ## 1. Addressing — whom you mean
-- Start a message with **@cc**, **@cc2**, **@chat1**, or **@all**.
+- Start a message with **@cc**, **@cc2**, **@chat1**, **@cc3**, **@solo**,
+  or **@all**.
 - No tag → **@all** (everyone reads; cc holds the record).
 - Your live channel's recipient field does the same thing.
 - If you say "you" with no tag mid-thread, it means the seat you last
@@ -41,7 +45,11 @@ ONLY if reversible and clearly implied; otherwise it asks **clarify:**.
 - **We divide tasks.** **task @seat** with clear ownership; the roles
   (GOVERNANCE, B688) say who may do what — cc2 explores & proposes,
   cc verifies & banks, chat1 proposes, owner is courier + the only
-  writer of **go**.
+  writer of **go**. Added v1.2 (B920): **cc3** audits, formalizes, and
+  relays corrections — its branch artifacts reach main only by cc's
+  harvest (verify-don't-trust), never by merge; **the solo seat**
+  computes independently and hands off — its results are cross-seat
+  claims like any other, reproduced in-sandbox before banking.
 - **I clarify, not guess.** On anything ambiguous AND irreversible I ask
   **clarify:** first — I do not act on a guess.
 

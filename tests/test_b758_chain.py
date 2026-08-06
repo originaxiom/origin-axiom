@@ -12,11 +12,14 @@ def _text():
 
 
 def test_chain_has_eighteen_links_with_valid_labels():
+    # C1-C23 through 2026-08-05; C24-C43 = Part V, the B877-B919 window's same-PR
+    # catch-up (2026-08-06, B920 register sweep -- cc3 loss audit A5).
     text = _text()
     links = re.findall(r"\*\*C(\d+) \[(THEOREM|CENSUS|IDENTITY|NO-GO|AXIOM|COROLLARY)[^\]]*\]", text)
-    assert [int(n) for n, _ in links] == list(range(1, 24))
+    assert [int(n) for n, _ in links] == list(range(1, 44))
     grades = [g for _, g in links]
     assert grades.count("AXIOM") == 4            # C3, C4, C5, C18 (C19 = IDENTITY)
+    assert grades[23:].count("AXIOM") == 0       # Part V admits no axioms
     assert text.count("PRICED") >= 4 and "remaining unpriced" in text
 
 

@@ -1,0 +1,356 @@
+{
+ "cell": "B923 V-L2 exactification: colored sector + pipeline link",
+ "checks": {
+  "base_ns_8_14_16_22": {
+   "pass": true,
+   "detail": ""
+  },
+  "rep27_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "four_charges_commute_exactly_over_Q": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_signed_permutation_symmetric": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_charge_equivariance_exact": {
+   "pass": true,
+   "detail": "eps = (-1,+1,-1,+1)"
+  },
+  "D2_pm1_pi_symmetric_11_flips": {
+   "pass": true,
+   "detail": ""
+  },
+  "weight_zero_triples_45": {
+   "pass": true,
+   "detail": ""
+  },
+  "cubic_equivariance_kernel_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "cubic_support_45_coeffs_pm1": {
+   "pass": true,
+   "detail": ""
+  },
+  "cubic_equals_banked_B914_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "cubic_exact_derivation_identity_all_78_generators": {
+   "pass": true,
+   "detail": ""
+  },
+  "charpoly_Mc_factors_3_1__6_1__6_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_irreducible_over_Q_squarefree": {
+   "pass": true,
+   "detail": "sextic, multiplicity 3 in charpoly"
+  },
+  "rational_blocks_dim_3_and_6": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Me_W6_is_g_squared_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Mo_W6_even": {
+   "pass": true,
+   "detail": ""
+  },
+  "K_roots_xS_alpha_B_found": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_equals_minus_3_w_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_S_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_nonS_dim_1_over_K_beta": {
+   "pass": true,
+   "detail": ""
+  },
+  "nine_colorless_atoms_exact_joint_eigenlines": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_block_dim_18": {
+   "pass": true,
+   "detail": "Mc semisimple on the colored sector"
+  },
+  "h_col_roots_three_conjugate_pairs": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_is_K_norm_form_of_ONE_quadratic_EXACT": {
+   "pass": true,
+   "detail": "prod_g sigma_g(x^2+px+q) = h_col certified in N[x]"
+  },
+  "colored_disc_equals_minus_231_wc_squared": {
+   "pass": true,
+   "detail": "NOT the colorless -3w^2 mechanism: the colored sector opens K(sqrt(-231)); 231 = 3*77 -- the Kummer field Q(sqrt77, sqrt-3) of the value arc appears inside the object"
+  },
+  "delta_squared_rational": {
+   "pass": true,
+   "detail": ""
+  },
+  "disc_mu_is_77_times_rational_square": {
+   "pass": true,
+   "detail": "delta^2 = 77 * (4826809/449810178048000)^2 -- mu13 is in the sqrt77 family, so sqrt77 in N"
+  },
+  "S77_squared_equals_77_EXACT": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_eigenspace_dim_3_over_K_omega": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_space_charges_act_as_scalars_EXACT": {
+   "pass": true,
+   "detail": "each R_n = mu_n * Id on the abstract 3-space; joint atom certified"
+  },
+  "colored_eigenvalue_consistency_Mc": {
+   "pass": true,
+   "detail": ""
+  },
+  "colorless_atoms_match_B912_bijectively": {
+   "pass": true,
+   "detail": "{'A0m': 3, 'A0p': 4, 'A1m': 8, 'A1p': 7, 'A2m': 13, 'A2p': 12, 'S0': 14, 'S1': 9, 'S2': 0}"
+  },
+  "colorless_match_equals_banked_B914_match": {
+   "pass": true,
+   "detail": ""
+  },
+  "six_colored_atoms_match_B912_bijectively": {
+   "pass": true,
+   "detail": "{(0, 1): 2, (0, -1): 1, (1, 1): 6, (1, -1): 5, (2, 1): 11, (2, -1): 10}"
+  },
+  "banked_support_9_ccl_2_ccc": {
+   "pass": true,
+   "detail": ""
+  },
+  "three_diagonal_six_offdiagonal_ccl": {
+   "pass": true,
+   "detail": ""
+  },
+  "diagonal_ccl_structure_Cg_plus_Cg_minus_Sg": {
+   "pass": true,
+   "detail": "each diagonal triple = the generation-g tau-conjugate colored pair + S_g"
+  },
+  "ccc_triples_one_atom_per_generation_same_tau_branch": {
+   "pass": true,
+   "detail": "[[(0, -1), (1, -1), (2, -1)], [(0, 1), (1, 1), (2, 1)]]"
+  },
+  "colored_gram_hermitian_invertible_canonical_Hplus": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_gram_hermitian_invertible_tau_twisted_Hprime": {
+   "pass": true,
+   "detail": ""
+  },
+  "qS_nonzero_canonical_Hplus": {
+   "pass": true,
+   "detail": ""
+  },
+  "qS_nonzero_tau_twisted_Hprime": {
+   "pass": true,
+   "detail": ""
+  },
+  "qS_sigma_consistency_both_gauges": {
+   "pass": true,
+   "detail": ""
+  },
+  "diagonal_ccl_tensor_nonzero": {
+   "pass": true,
+   "detail": ""
+  },
+  "diagonal_ccl_invariant_tau_free_canonical_Hplus": {
+   "pass": true,
+   "detail": ""
+  },
+  "diagonal_ccl_invariant_tau_free_tau_twisted_Hprime": {
+   "pass": true,
+   "detail": ""
+  },
+  "PIPELINE_LINK_953p4_charpoly_equals_HIER_EXACT": {
+   "pass": true,
+   "detail": "HIER = [824843587681, -27609909080832, 264084438122496, -760840571584512]"
+  },
+  "V_ccl_equals_B918_exact_HIER_root_in_K": {
+   "pass": true,
+   "detail": ""
+  },
+  "canonical_gauge_diagonal_ccl_equals_MINUS_3_EXACT": {
+   "pass": true,
+   "detail": "generation-degenerate: (x+3)^3; the ENTIRE hierarchy lives in the Hermitian twist D2, not in the atoms or the cubic"
+  },
+  "gauge_ratio_is_minus_V_over_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "ccc_tensor_nonzero_g0m+g1m+g2m": {
+   "pass": true,
+   "detail": ""
+  },
+  "ccc_invariant_rational_g0m+g1m+g2m_canonical_Hplus": {
+   "pass": true,
+   "detail": "the CCC invariant is an exact rational"
+  },
+  "ccc_invariant_rational_g0m+g1m+g2m_tau_twisted_Hprime": {
+   "pass": true,
+   "detail": "the CCC invariant is an exact rational"
+  },
+  "ccc_tensor_nonzero_g0p+g1p+g2p": {
+   "pass": true,
+   "detail": ""
+  },
+  "ccc_invariant_rational_g0p+g1p+g2p_canonical_Hplus": {
+   "pass": true,
+   "detail": "the CCC invariant is an exact rational"
+  },
+  "ccc_invariant_rational_g0p+g1p+g2p_tau_twisted_Hprime": {
+   "pass": true,
+   "detail": "the CCC invariant is an exact rational"
+  },
+  "CCC_two_triples_equal_both_gauges": {
+   "pass": true,
+   "detail": ""
+  },
+  "CCC_EQUALS_13824_953_TWISTED_GAUGE_EXACT": {
+   "pass": true,
+   "detail": "CCC = 3! * lambda AS AN IDENTITY, lambda = 2304/953 (B916 exact); the belt residual 953*CCC-13824 ~ 3.5e-85 is closed to an identity"
+  },
+  "CCC_EQUALS_MINUS_6_CANONICAL_GAUGE_EXACT": {
+   "pass": true,
+   "detail": "|CCC| = 3! * lambda, lambda = 1 (B917 exact); the sign -1 is the canonical gauge's negative q-product (B916: c^2 = -(q q q))"
+  },
+  "offdiagonal_ccl_tau_free_and_PRODUCT_LAW_CI2_eq_sgiV_sgjV_EXACT": {
+   "pass": true,
+   "detail": "both gauges: the full CCl table is the symmetric v_i v_j table of the gauge's diagonal element (HIER root / -3)"
+  },
+  "canonical_offdiag_ccl_all_pm3_EXACT": {
+   "pass": true,
+   "detail": "[('-3', 6)]"
+  },
+  "branch_identity_ascending": {
+   "pass": true,
+   "detail": "ascending rho_g <-> ascending v_g^2 (identity map), as banked in B918"
+  },
+  "belt_95digit_anchors_reproduced_at_belt_floor": {
+   "pass": true,
+   "detail": "worst |sigma_g(V_ccl) - banked belt v_g^2| = 7.33e-88 = B918's registered belt residual (7.3e-88): the exact roots hit the banked anchors at the anchors' own precision floor"
+  },
+  "numeric_route_atom_shape": {
+   "pass": true,
+   "detail": ""
+  },
+  "independent_numeric_route_matches_exact_below_1e-40": {
+   "pass": true,
+   "detail": "worst 2.09e-53"
+  }
+ },
+ "notes": [],
+ "h_col_ints": [
+  "47045881",
+  "0",
+  "13255082979707946278393856",
+  "163666713418351187629783621828608",
+  "936970200872194596330024158416634945470464",
+  "7127760689597672722454437438401955143600102703104",
+  "19236837723304496943445026110723743508855926499200399835136"
+ ],
+ "colored_quadratic_p": [
+  "106557696/13",
+  "-76959590400/13",
+  "-3004298035200/2197"
+ ],
+ "colored_quadratic_q": [
+  "2372445777281712620544/61009",
+  "466652781804956840755200/793117",
+  "46431400640619517571078553600/10310521"
+ ],
+ "colored_w_c_omega": [
+  "7020840960/247",
+  "-796032921600/169",
+  "-75738353467392000/41743"
+ ],
+ "S77_in_N": [
+  "5390/2197",
+  "142185120/28561",
+  "-286868736000/371293",
+  "-50709120/28561",
+  "-573737472000/371293",
+  "2698861068288000/4826809"
+ ],
+ "colored_basis_height_digits": 19,
+ "colored_match_g_s_to_B912": {
+  "g0p": 2,
+  "g0m": 1,
+  "g1p": 6,
+  "g1m": 5,
+  "g2p": 11,
+  "g2m": 10
+ },
+ "V_ccl_canonical_Hplus": [
+  "-3",
+  "0",
+  "0"
+ ],
+ "V_ccl_tau_twisted_Hprime": [
+  "1084447130452992/139398566318089",
+  "2399403349337702400/1812181362135157",
+  "3020358603911646412800/23558357707757041"
+ ],
+ "canonical_gauge_hierarchy_cubic_ints": [
+  "1",
+  "9",
+  "27",
+  "27"
+ ],
+ "V_twisted_over_V_canonical": [
+  "-361482376817664/139398566318089",
+  "-799801116445900800/1812181362135157",
+  "-1006786201303882137600/23558357707757041"
+ ],
+ "CCC_canonical": "-6",
+ "CCC_tau_twisted": "13824/953",
+ "offdiag_ccl_canonical_signs": {
+  "(1, 6, 13):A2m+g0m+g1p": "-3",
+  "(1, 7, 11):A1p+g0m+g2p": "-3",
+  "(2, 5, 12):A2p+g0p+g1m": "-3",
+  "(2, 8, 10):A1m+g0p+g2m": "-3",
+  "(3, 5, 11):A0m+g1m+g2p": "-3",
+  "(4, 6, 10):A0p+g1p+g2m": "-3"
+ },
+ "belt_anchor_worst_abs_diff": "7.33e-88",
+ "v_g_sq_50d_exact": [
+  "5.6949646542627022800114395018643909803511537241825",
+  "8.3270641823804018236805452226598240111759437156635",
+  "19.450873775663868128388849662750898517072742957099"
+ ],
+ "independent_route_worst_diff": "2.088e-53",
+ "offdiag_ccl_values_50d_tau_twisted": {
+  "(1, 6, 13):A2m+g0m+g1p": "6.8863877463030889598849279758177888777057714360487",
+  "(1, 7, 11):A1p+g0m+g2p": "10.524829625553614787843501953198363805494091369779",
+  "(2, 5, 12):A2p+g0p+g1m": "6.8863877463030889598849279758177888777057714360487",
+  "(2, 8, 10):A1m+g0p+g2m": "10.524829625553614787843501953198363805494091369779",
+  "(3, 5, 11):A0m+g1m+g2p": "12.726691413455928036365319417224635505421919184882",
+  "(4, 6, 10):A0p+g1p+g2m": "12.726691413455928036365319417224635505421919184882"
+ },
+ "diag_ccl_statement": "ONE abstract K-element V_ccl; the three diagonal CCl invariants are its sigma_g-images; 953^4 * charpoly(mult-by-V_ccl) = HIER exactly; V_ccl = B918's exact K-root of HIER coefficient-for-coefficient",
+ "verdict": "V-L2 CLOSED: (1) the six colored 3-dim atoms are EXACT joint eigenspaces over Mbar = N(tau) (h_col = K-norm form of one quadratic; disc = -231 w^2 -- the colored sector opens K(sqrt-231): the Kummer field Q(sqrt77, sqrt-3) appears inside the object, sqrt77 = sqrt(disc mu)/rational in N; charges scalar, certified); (2) CCC = 13824/953 = 3!*(2304/953) = 3!*lambda (tau-twisted H') and CCC = -6 (canonical H+, |CCC| = 3!*lambda, sign = the negative q-product) EXACTLY on both banked CCC triples: CCC = 3!*lambda is an IDENTITY; (3) the diagonal CCl invariant is ONE K-element V_ccl with 953^4*charpoly = HIER EXACTLY and V_ccl = B918's V(rho): v_g^2 = roots(HIER) is now an IDENTITY; in the canonical gauge the SAME invariant collapses to -3 (generation-degenerate, (x+3)^3): the entire hierarchy is carried by the Hermitian twist D2; the six off-diagonal CCl satisfy CI^2 = sigma_i(V) sigma_j(V) exactly in both gauges (the v_i v_j table); belt 95-digit anchors reproduced; independent numeric route agrees.",
+ "runtime_s": 16.9
+}

@@ -16610,9 +16610,10 @@
     "B787",
     "B788",
     "B790",
-    "B791"
+    "B791",
+    "B920"
    ],
-   "obstacle": "numerology",
+   "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"

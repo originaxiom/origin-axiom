@@ -40,9 +40,19 @@ claim until its wall is actually crossed with pre-registered evidence.*
       NEEDS-SPECIALIST.
 - [ ] Outreach: DORMANT until in-sandbox computation is exhausted (owner rule).
 
-## Tier 3 — the physics walls (all OPEN; the make-or-break)
-No banked theorem blocks any of these; no mechanism yet crosses any of them. W5 prices
-each with one computable probe.
+## Tier 3 — the physics walls (the make-or-break)
+[CORRECTED 2026-08-06 (B920 register sweep; the cc3 loss audit A5). The previous header —
+"all OPEN; no banked theorem blocks any of these; no mechanism yet crosses any of them" —
+was false three ways. (1) WALL 1 is not merely open: the scale no-go IS banked as a
+standalone theorem (the dimensionful no-go / scale-torsor no-go, LAW_MAP §E wall 10,
+B660/B666 cell S) — no observable carrying nontrivial mass dimension is typeable, so the
+wall stands as a proved impossibility for VALUES, not an unpriced obstacle. (2) WALL 5 HAS
+been run once: B915's sealed crossing (one input α_em + the object's boundary + pure
+desert) returned a 16σ MISS — the pre-registered confrontation machinery exists and fired;
+the negative is banked. (3) WALL 4 now carries a mechanism chain sitting AT the wall: the
+measurement cascade (B861–B863; the SMT — B892/B893 lands su(3)⊕su(2)⊕u(1)³ exactly,
+skipping SU(5); LAW_MAP §F) — structure at the wall, not yet a derivation-crossing.]
+W5 prices each with one computable probe.
 - [ ] **WALL 1 — SCALE.** The object emits pure numbers; a TOE needs dimensionful scale
       (the 122-order vacuum-energy gap lives here). Probe: does the ratio ladder RUN with
       level, or is it exactly invariant?

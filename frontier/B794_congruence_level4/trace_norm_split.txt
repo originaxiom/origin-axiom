@@ -1,0 +1,23 @@
+m004 cutoff 6.0: 370 distinct canonical traces (worst Z[w] dev 2.4e-10)
+m003 cutoff 6.0: 411 distinct canonical traces (worst Z[w] dev 2.2e-10)
+trace sets: m004-only 139, m003-only 180, shared 231
+
+m004-only: 139 traces, 37 distinct norms, mod-4 classes [0, 3]
+   norms: [4, 7, 12, 16, 28, 36, 48, 52, 64, 76, 84, 100, 108, 112, 124, 144] ...
+m003-only: 180 traces, 43 distinct norms, mod-4 classes [1]
+   norms: [1, 9, 13, 21, 25, 37, 49, 57, 61, 73, 81, 93, 97, 109, 117, 121] ...
+shared: 231 traces, 68 distinct norms, mod-4 classes [0, 3]
+   norms: [3, 7, 12, 19, 27, 28, 31, 36, 39, 43, 52, 63, 67, 75, 76, 79] ...
+
+B790 cutoff-5 law, m004-only == 0 mod 4:   False  <- fails (norm 7: traces 3+w, 2-w)
+B790 cutoff-5 law, m003-only odd:          True
+REFINED law, m004-only in {0,3} mod 4:     True
+REFINED law, m003-only == 1 mod 4:          True
+REFINED law, ALL m004 norms in {0,3} mod 4: True
+
+VERDICT: the split is STABLE in REFINED form. B790's cutoff-5
+phrasing was sample-limited (no odd m004-exclusive trace below
+cutoff 5); the raised cutoff shows the real law is the mod-4
+class: m004 avoids norm == 1 mod 4 entirely, m003's exclusives
+are exactly the norm == 1 mod 4 traces.
+Saved trace_norm_split.json

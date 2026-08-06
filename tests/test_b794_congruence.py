@@ -96,12 +96,47 @@ def test_theorem2_trace_norms_avoid_1_mod_4():
     assert 1 not in norms
 
 
-def test_cc_mod4_hint_is_refuted_by_the_theorem():
-    """cc's H-B788-NORMSPLIT claimed m004-only norms are all == 0 mod 4. The real law is
-    {0,3}; the odd norms that refute it are all == 3, hence consistent with the theorem."""
-    for x in (7, 103, 127, 175, 367):
-        assert x % 4 == 3
-        assert x % 4 != 0                      # refutes the narrower claim
+def test_cc_mod4_hint_reconciled_by_level_split():
+    """RECONCILED 2026-08-06 (B920, cc3's trace_norm_split rerun in-sandbox).
+
+    cc's H-B788-NORMSPLIT ("m004-only norms are all == 0 mod 4") is a NORM-level
+    statement and SURVIVES at that level; the TRACE-level reading is refuted by the
+    theorem's {0,3} law. Both seats' numbers were right about different objects:
+    cc3's trace-level exclusives = 139 traces / 37 distinct norms / one odd (7);
+    cc's norm-level exclusives = 12 distinct / zero odd. The odd norms
+    103/127/175/367 are SHARED at the norm level, not m004-only (the earlier "41
+    with five odd" conflated the levels). Asserted from the reconciling artifact
+    frontier/B794_congruence_level4/trace_norm_split.json.
+    """
+    import json
+    import os
+    here = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(here, os.pardir, 'frontier', 'B794_congruence_level4',
+                        'trace_norm_split.json')
+    with open(path) as f:
+        rep = json.load(f)['report']
+    only4 = rep['m004-only']
+    only3 = rep['m003-only']
+    shared = rep['shared']
+    # TRACE level: 139 exclusive traces, 37 distinct norms, exactly one odd = 7
+    assert only4['n_traces'] == 139
+    assert len(only4['norms']) == 37
+    assert [n for n in only4['norms'] if n % 2] == [7]
+    assert set(only4['mod4_classes']) == {0, 3}          # the theorem's law
+    # m003 exclusives: all == 1 mod 4 (the complementary class)
+    assert only3['mod4_classes'] == [1]
+    # NORM level: exclusives = m004-only norms not achieved by any m003 trace
+    norm_excl = sorted(set(only4['norms']) - set(shared['norms'])
+                       - set(only3['norms']))
+    assert norm_excl == [4, 16, 48, 64, 112, 144, 192, 208, 256, 304, 336, 400]
+    assert all(n % 4 == 0 for n in norm_excl)            # the hint, at its level
+    # the four large odd norms are SHARED, hence never norm-level exclusives
+    for x in (103, 127, 175, 367):
+        assert x % 4 == 3                                # consistent with {0,3}
+        assert x in shared['norms']
+        assert x not in norm_excl
+    # and 7 itself is trace-level exclusive but norm-level shared
+    assert 7 in shared['norms'] and 7 not in norm_excl
 
 
 def test_Z_cap_H_is_exactly_pm_I_which_reconciles_6_and_12():
