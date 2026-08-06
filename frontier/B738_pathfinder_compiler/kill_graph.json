@@ -10278,5 +10278,27 @@
   ],
   "fact_computed": true,
   "hatch": "The desert assumption died, not the boundary: the miss is alpha_s-dominated with a three-order meeting-scale triangle (1.1e13 / 1.7e14 / 2.9e16 GeV), and the object carries its OWN intermediate ladder (the compact D-chain E6 > D5 > D4 > D3 > A2, the CMT lane) with banked scales and zero free parameters. R4b -- sealed before compute, per the register -- is the one honest way the identification returns: the chain's thresholds must close THIS cell's banked triangle."
+ },
+ {
+  "id": "B925",
+  "claim_killed": "That the object's compact D-chain (A2 in D3 in D4 in D5 in E6, the CMT ladder) supplies the intermediate RG thresholds that close the first crossing's triangle -- the D-chain as the desert's replacement with the object's own scales.",
+  "kill_form": "sealed-invert-then-match; killed by the chain's own algebra",
+  "faces_consulted": [
+   "being",
+   "mtc-overlay"
+  ],
+  "fact_computed": true,
+  "hatch": "The kill is algebraic and specific: the chain's centralizers of color are ABELIAN at D3 and D4 (no unbroken su(2)_L -- provably not Pati-Salam), D5 is index-1 (unification-or-nothing), E6 is RG-invisible. What the kill does NOT touch: (a) NON-principal or non-banked embeddings of color into the chain (the certificates fix the banked inclusion); (b) the observer/twist route -- B923 put the entire hierarchy in the Hermitian twist D2, and the two-hemisphere doctrine says the compact chain is the MEASUREMENT ladder, not the matter cascade: any residual identification runs through the twist layer, owner-gated, unpriced; (c) threshold structures NOT of D-chain type (nothing else is currently banked to supply them)."
+ },
+ {
+  "id": "B924",
+  "claim_killed": "That the three unused involutions of the B593 stage field (sigma*, c, sigma*c) each produce an INDEPENDENT forced coupling on the hearing x measurement face pair (Chat-1's ~80-forced-couplings extrapolation).",
+  "kill_form": "rigidity-collapse-with-mechanism",
+  "faces_consulted": [
+   "hearing",
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "The collapse mechanism (psi0-reality + C-centrality closing both parity channels) is PROVEN for THIS face pair's stage; other face pairs with non-central twists or complex listeners escape the mechanism's hypotheses -- the face-pair SURVEY at one-value-per-pair expectation is the honest continuation. Also the golden conjugation's no-lift is specific to Q(zeta15); stages over other cyclotomic fields need their own involution census."
  }
 ]

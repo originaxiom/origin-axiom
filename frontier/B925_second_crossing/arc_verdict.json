@@ -1,0 +1,9 @@
+{
+ "id": "B925",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "claim_one_line": "THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object's D-chain refuses the RG-ladder identification BY ITS OWN ALGEBRA, before data votes: (FACT 1, theorem-grade) the banked D3/D4 typings admit NO unbroken su(2)_L above the banked color inclusion -- C(su3c, su4) = u(1)_{B-L} and C(su3c, so8) = u(1)^2, certified exactly both directions -- so the intermediate rungs are RG-degenerate (M3 = M4 = M5; the chain is provably NOT Pati-Salam: the two su(2)'s Chat-1's fitted benchmark needed are exactly what the compact chain already measured away); (FACT 2) the D5 rung is index-1 (all three embedding indices = 1, computed on the 27), so matching demands full unification at M5 = the FIRST crossing's dead desert renamed -- the required-M5 solution set is EMPTY (branch gaps 6.2-7.3 sigma); (FACT 3) the E6 rung is RG-invisible (the X-coupling slope 88/3 never rejoins) -- rho3 has NO required value. Part-0 calibration reproduced B915 to 1e-6; the 3/8 boundary re-derived in-cell; the beta-ladder recorded with zero freedom; the menu note and look-elsewhere disclaimer honest. PRIORS: Part 1 (feasible) LOST -- killed by algebra, not data; Part 2 (MISS) WON, stronger. THE LOCKED KILL CONDITION EXECUTES: Phases III-IV lose physics motivation; mathematics + V-VI continue. Fenced reading banked: the negative CONFIRMS the two-hemisphere doctrine (the compact chain is the measurement ladder, not the matter cascade) and points any residual identification route at the observer/twist layer -- unsealed, unpriced, owner-gated.",
+ "depends_on": ["B909", "B912", "B914", "B915", "B916", "B923"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent + cc banking verification (2026-08-06)"
+}

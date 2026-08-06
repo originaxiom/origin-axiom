@@ -499,3 +499,17 @@ generic "D₂ block-membership" curiosity. B924's rigidity corrects the R-INV
 expectation programme-wide: one forced value per face pair; the face-pair SURVEY
 (other pairs) remains the open direction, correctly sized now.
 **NEXT: R4b's joint prereg with the solo seat (Phase II).**
+
+### Dated amendment (2026-08-06) — THE KILL CONDITION EXECUTES (R4b MISS)
+B925's sealed verdict is OUTCOME B, stronger than priced: the D-chain refuses the RG
+identification by its own algebra (no unbroken su(2)_L above color at D3/D4 — provably
+not Pati–Salam; D5 index-1 = the dead desert renamed; E6 RG-invisible). **Per the locked
+kill conditions: Phases III–IV lose their PHYSICS motivation.** What remains and
+continues: Phase III's MATHEMATICS (the ι/τ-parity question, the torsor cocycle, L113,
+and the promoted D₂/origin-of-hierarchy question — all valuable as theory regardless of
+identification); Phases V–VI whole. The third crossing (Phase IV) is STOOD DOWN as a
+physics comparison; its flavor-value mathematics folds into the D₂ program. The fenced
+observation banked with the verdict: both banked doctrines (the two-hemisphere division;
+the hierarchy-in-the-twist) PREDICTED this shape of no — the compact chain is the
+measurement ladder, and any residual identification route runs through the observer/twist
+layer: unsealed, unpriced, owner-gated, NOT a plan.

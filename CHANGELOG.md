@@ -1,5 +1,9 @@
 # Changelog
 
+## B925 — THE SECOND CROSSING: OUTCOME B, by the chain's own algebra; the kill condition executes
+- **The ladder refuses before data votes**: no unbroken su(2)_L above color at D₃/D₄ (provably not Pati–Salam — theorem-grade certificates); D₅ index-1 = the dead desert renamed (required-M₅ EMPTY); E₆ RG-invisible. Part 1's prior LOST to algebra; Part 2's MISS won stronger.
+- **The locked kill condition executes**: Phases III–IV lose physics motivation; the mathematics continues; the third crossing stands down into the D₂ program. Fenced: both banked doctrines predicted this shape of no. 4 locks. Routed to the kill graph.
+
 ## The meantime wave — B923/B924/B920/B921: the hierarchy's carrier found; Phase I exits
 - **B923**: CCC = 3!·λ and v_g² = roots(HIER) are IDENTITIES; the Kummer field appears inside the colored sector; **the canonical gauge is generation-degenerate — the ENTIRE hierarchy is carried by the Hermitian twist D₂** (the origin-of-hierarchy question is born).
 - **B924**: rigidity collapse — all three unused involutions give θ's value (mechanism proven); the golden conjugation has no involutive lift. **B920**: NORMSPLIT dead, all seven register items swept, C24–C43 chained. **B921**: the load-bearing corpus harvested, four seals sha256-verified, 30 items routed. **Phase I's exit condition met.** 8 locks. Gate 5 untouched.

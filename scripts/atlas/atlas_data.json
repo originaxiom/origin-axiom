@@ -19276,6 +19276,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B925": {
+   "slug": "second crossing",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B877",
+    "B883",
+    "B909",
+    "B914",
+    "B915",
+    "B923"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

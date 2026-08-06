@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **846** |
-| words of findings prose | **552,893** |
+| research arcs with findings | **847** |
+| words of findings prose | **554,456** |
 | test lock files referenced | **581** |
-| arcs carrying an authored verdict | **833** (98.5 %) |
-| recorded closures | **732** (565 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **834** (98.5 %) |
+| recorded closures | **734** (567 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 532 |
-| NEGATIVE | 263 |
+| NEGATIVE | 264 |
 | OPEN | 29 |
 | RETRACTED | 9 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 17 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 19 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 V-L2 CLOSED AT THE EXACT TIER + THE HIERARCHY-CARRIER DISCOVERY (banking-verified rerun 17 s, 65/65): (1) the six colored 3-dim atoms built EXACTLY over Mbar (h_col = the K-norm form of one quadratic with disc = -231 w^2 -- THE KUMMER FIELD Q(sqrt77, sqrt-3) OF THE VALUE ARC APPEARS INSIDE THE OBJECT'S COLORED SECTOR, with sqrt77 in the splitting field exactly); charges scalar on each atom, certified; (2) CCC = 3!*lambda IS AN IDENTITY -- 13824/953 in the tau-twisted gauge, -6 in the canonical (the sign = the banked negative q-product), on both CCC triples; (3) THE PIPELINE LINK IS AN IDENTITY: the diagonal CCl invariant is ONE K-element with 953^4 charpoly = HIER exactly, equal to B918's V(rho) coefficient-for-coefficient -- v_g^2 = roots(HIER); the off-diagonals satisfy CI^2 = sigma_i(V) sigma_j(V) (the v_i v_j table); (4) THE DISCOVERY: in the canonical gauge the same invariant collapses to -3 for ALL generations ((x+3)^3; canonical table -1/-3/-6 on lll/ccl/ccc) -- THE ENTIRE GENERATION HIERARCHY IS CARRIED BY THE 11-FLIP HERMITIAN TWIST D2, not by the atoms or the cubic: the D2 weight-character question is now the ORIGIN-OF-HIERARCHY question. Independent numeric route agrees below 1e-40. Open: the exact mirror-pairing transport (B916's registered follow-up); the 3! mechanism; the colored non-coupling vanishing stays numeric-certified (1e10 gap).  
 `B923_exactification/FINDINGS.md`
 
-**NEGATIVE — `B924`** (1243 words, 0 locks)  
-R-INV CLOSED -- RIGIDITY COLLAPSE, ZERO NEW VALUES (banking-verified rerun; 108 exact table rows, all gates): the stage field Q(zeta_15) has EXACTLY three involutions (t = 4, 14, 11 -- the V4 over Q(sqrt5), matching Chat-1's count), and ALL THREE satisfy B593's second-order hearing law exactly with forced values COINCIDING with the banked theta value 1/(2 phi) + i sin(2pi/5)/sqrt5 -- the hearing x measurement face pair is EXHAUSTED by theta; no independent forced coupling exists there. THE MECHANISM PROVEN: psi0 real + C-symmetric with C central closes BOTH parity channels, forcing the collapse. BONUS OBSTRUCTION: the golden conjugation sqrt5 -> -sqrt5 has NO involutive lift to the stage field (all lifts order 4; t^2 = 1 mod 15 forces t = +-1 mod 5) -- a field-level no-go. Chat-1's ~80-forced-couplings estimate dies at its first face pair: the correct expectation is RIGIDITY per pair, with the count of independent values set by the collapse mechanism, not the involution count. Calibration gate passed first (B593 reproduced at 1e-12 and symbolically over Q(zeta_15)).  
-`B924_involution_couplings/FINDINGS.md`
+**NEGATIVE — `B925`** (1563 words, 0 locks)  
+THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object's D-chain refuses the RG-ladder identification BY ITS OWN ALGEBRA, before data votes: (FACT 1, theorem-grade) the banked D3/D4 typings admit NO unbroken su(2)_L above the banked color inclusion -- C(su3c, su4) = u(1)_{B-L} and C(su3c, so8) = u(1)^2, certified exactly both directions -- so the intermediate rungs are RG-degenerate (M3 = M4 = M5; the chain is provably NOT Pati-Salam: the two su(2)'s Chat-1's fitted benchmark needed are exactly what the compact chain already measured away); (FACT 2) the D5 rung is index-1 (all three embedding indices = 1, computed on the 27), so matching demands full unification at M5 = the FIRST crossing's dead desert renamed -- the required-M5 solution set is EMPTY (branch gaps 6.2-7.3 sigma); (FACT 3) the E6 rung is RG-invisible (the X-coupling slope 88/3 never rejoins) -- rho3 has NO required value. Part-0 calibration reproduced B915 to 1e-6; the 3/8 boundary re-derived in-cell; the beta-ladder recorded with zero freedom; the menu note and look-elsewhere disclaimer honest. PRIORS: Part 1 (feasible) LOST -- killed by algebra, not data; Part 2 (MISS) WON, stronger. THE LOCKED KILL CONDITION EXECUTES: Phases III-IV lose physics motivation; mathematics + V-VI continue. Fenced reading banked: the negative CONFIRMS the two-hemisphere doctrine (the compact chain is the measurement ladder, not the matter cascade) and points any residual identification route at the observer/twist layer -- unsealed, unpriced, owner-gated.  
+`B925_second_crossing/FINDINGS.md`
 
 **RETRACTED — `B780`** (851 words, 0 locks)  
 The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  
