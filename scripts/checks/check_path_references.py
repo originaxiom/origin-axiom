@@ -49,6 +49,7 @@ PATH_RE = re.compile(
 
 # Files whose stale citations are structurally uncorrectable -- see module docstring.
 EXEMPT_CITERS = ("PROGRESS_LOG.md",
+                 "frontier/B921_branch_harvest/harvested/",  # forensic ARCHIVE copies: their internal citations reference the SOURCE BRANCH's layout by design (the harvest preserves them verbatim; the manifest maps them) -- added at the B921 harvest, same class as the B742 forensic seals
                  "frontier/B742_negatives_hunt_p1/reviews/")
 
 # Paths that correctly name something outside this repo.
