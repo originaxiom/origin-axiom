@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **855** |
-| words of findings prose | **566,970** |
-| test lock files referenced | **585** |
-| arcs carrying an authored verdict | **842** (98.5 %) |
+| research arcs with findings | **857** |
+| words of findings prose | **567,609** |
+| test lock files referenced | **586** |
+| arcs carrying an authored verdict | **844** (98.5 %) |
 | recorded closures | **734** (567 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 540 |
-| NEGATIVE | 264 |
+| PROVED | 541 |
+| NEGATIVE | 265 |
 | OPEN | 29 |
 | RETRACTED | 9 |
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B933`** (621 words, 0 locks)  
-THE SPINOR-HEJHAL DESIGN + A SUCCESSFUL FEASIBILITY PROBE (exploratory, double precision, UNSEALED -- per the exploratory-numerics rule this stays uncommitted-tier until the sealed run): the Dirac instrument on (m004, spin structure rho_1 -- the harvested cell3 authorization: non-Lie under both conventions, discrete spectrum, unconditional) is designed end-to-end (the operator triple-derived with the corrected Clifford sign; the scalar protocol's mesh/certification adapted; the sealed run specified two-outcome) and the probe ALREADY RESOLVES A SPECTRUM: first Dirac eigenvalue bracket |lambda_1| = 2.97455058 +/- 1e-6 (8 digits across three independent instruments: two heights, two seeds, two move word-sets), seven exact +/- pairs in |lambda| <= 7, and a dimension-exactly-2 kernel candidate at lambda = 0 (sigma gap 12 orders). THE LITERATURE BLANK HELD: no prior computed Dirac eigenvalue on ANY hyperbolic 3-manifold -- the sealed run would be a second precedent-class number. The sealed protocol (the B922 pattern: validation gate, perturbed restarts, must-fail control, stability cert) awaits scheduling.  
-`B933_spinor_hejhal_design/FINDINGS.md`
+**PROVED — `B938`** (265 words, 1 locks)  
+THE SIGN OF FULL FLIP -- NO SWAP, A COSET INVARIANT (blind): testing the level song against the wall pair's full 2-torsion {I, D2, D, D2D}, D ACTS AS THE IDENTITY ON THE COLORLESS REGISTER (m_S = m_A = 0 exactly; ALL TWELVE of D's flips are colored), so D2D carries D2's level song UNCHANGED and D alone is level-degenerate (N(m - l) = -l^3, no primes at all); THE 7/11 ASSIGNMENT DOES NOT TRACK THE KLEIN ELEMENT -- the resolvent's factorization (11 at m = +1, 7^2 at m = -1) is a D2-COSET DATUM, invariant under the full 2-torsion modulo the wall twist, and orientation reversal moves only COLORED weight (tr W18: 6 -> 10; flip rank 11 -> 15). THE FENCED READING: the two 2-torsion generators divide labor exactly as the two-hemisphere doctrine says -- D2 owns the colorless/register arithmetic (the hierarchy, the value primes, the resolvent split), D owns the colored; the unmeasured world's primes are written by ONE generator only. Part A: the unity column's exact line confirmed as B930 found it (F cap W3).  
+`B938_unity_and_sign/FINDINGS.md`
 
-**NEGATIVE — `B925`** (1563 words, 0 locks)  
-THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object's D-chain refuses the RG-ladder identification BY ITS OWN ALGEBRA, before data votes: (FACT 1, theorem-grade) the banked D3/D4 typings admit NO unbroken su(2)_L above the banked color inclusion -- C(su3c, su4) = u(1)_{B-L} and C(su3c, so8) = u(1)^2, certified exactly both directions -- so the intermediate rungs are RG-degenerate (M3 = M4 = M5; the chain is provably NOT Pati-Salam: the two su(2)'s Chat-1's fitted benchmark needed are exactly what the compact chain already measured away); (FACT 2) the D5 rung is index-1 (all three embedding indices = 1, computed on the 27), so matching demands full unification at M5 = the FIRST crossing's dead desert renamed -- the required-M5 solution set is EMPTY (branch gaps 6.2-7.3 sigma); (FACT 3) the E6 rung is RG-invisible (the X-coupling slope 88/3 never rejoins) -- rho3 has NO required value. Part-0 calibration reproduced B915 to 1e-6; the 3/8 boundary re-derived in-cell; the beta-ladder recorded with zero freedom; the menu note and look-elsewhere disclaimer honest. PRIORS: Part 1 (feasible) LOST -- killed by algebra, not data; Part 2 (MISS) WON, stronger. THE LOCKED KILL CONDITION EXECUTES: Phases III-IV lose physics motivation; mathematics + V-VI continue. Fenced reading banked: the negative CONFIRMS the two-hemisphere doctrine (the compact chain is the measurement ladder, not the matter cascade) and points any residual identification route at the observer/twist layer -- unsealed, unpriced, owner-gated.  
-`B925_second_crossing/FINDINGS.md`
+**NEGATIVE — `B935`** (374 words, 1 locks)  
+THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions (R-conjugation; the polar/singular decomposition; both orderings GhatR and RGhat; the v-weight conjugation) yields exactly FOUR invariant triples MOST OF WHICH ARE FORCED TO COINCIDE -- eig(R^T Ghat R) = eig(Ghat) (orthogonal similarity, 4.6e-151), eig(D_v-conj) = eig(Ghat) (diagonal similarity, 1.5e-151), eig(GhatR) = eig(RGhat) (the AB/BA theorem, 3.1e-151), and all four singular-value sets identical: NO COMPOSITION IS INDEPENDENT, the premise dies by similarity rather than numerics. THE STRUCTURAL REASON: the S-A overlap matrix is RANK 2 -- its singular cubic has an EXACT ZERO root (det X2 = 0 exactly, likewise the v-conjugate), so one register direction has NO overlap with the A family, the composed eigen-triples are not descending-positive (the cascade index is UNDEFINED for them), ZERO compositions land in the [1.2,1.6] band, and the object's register mixing geometry has only TWO nonzero directions -- it cannot produce a three-term mixing cascade by this route at all. Two amendments logged (positivity assumed AGAIN -- the abort was the finding; the 1e-80 belt bar exceeding the sqrt-of-small precision floor, recalibrated to the house 1e-40 with 3.9e-76 achieved).  
+`B935_composition_hunt/FINDINGS.md`
 
 **RETRACTED — `B780`** (851 words, 0 locks)  
 The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  

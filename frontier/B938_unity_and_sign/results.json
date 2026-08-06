@@ -1,0 +1,1078 @@
+{
+ "cell": "B938 unity column + sign of full flip",
+ "checks": {
+  "rep27_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "banked_wall_pair_is_a_global_negation": {
+   "pass": true,
+   "detail": "chi+ = (1, -1, 1, -1, 1, 1)"
+  },
+  "weight_pairing_pi_recomputed_and_involutive": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_symmetric": {
+   "pass": true,
+   "detail": ""
+  },
+  "frame_72_roots_ns_8_14_16_22": {
+   "pass": true,
+   "detail": ""
+  },
+  "four_charges_commute_exactly": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_charge_equivariance_eps_m1_p1_m1_p1_exact": {
+   "pass": true,
+   "detail": "Rn^T H+ = -eps_n H+ Rn, eps = (-1,+1,-1,+1)"
+  },
+  "D2_rederived_as_rep_diagonal_of_sigma_chi_minus": {
+   "pass": true,
+   "detail": ""
+  },
+  "D2_equals_banked_B916_diagonal": {
+   "pass": true,
+   "detail": ""
+  },
+  "D_rederived_as_rep_diagonal_of_sigma_minus1": {
+   "pass": true,
+   "detail": ""
+  },
+  "D_equals_banked_B912_wall_diagonal": {
+   "pass": true,
+   "detail": "H- = H+ D: the wall twist, sign-pinned by the bank"
+  },
+  "D2D_rederived_as_rep_diagonal_of_sigma_chi_plus": {
+   "pass": true,
+   "detail": ""
+  },
+  "klein_closure_D2_times_D_equals_D2D": {
+   "pass": true,
+   "detail": "{I, D2, D, D2D} = rho27 of the wall pair's 2-torsion, entry0-pinned: an honest Klein four-group of diagonals"
+  },
+  "D2_pi_symmetric_flip_count": {
+   "pass": true,
+   "detail": "flips = 11"
+  },
+  "D_pi_symmetric_flip_count": {
+   "pass": true,
+   "detail": "flips = 12"
+  },
+  "D2D_pi_symmetric_flip_count": {
+   "pass": true,
+   "detail": "flips = 15"
+  },
+  "flip_counts": {
+   "value": {
+    "D2": 11,
+    "D": 12,
+    "D2D": 15
+   },
+   "detail": "tr Pi_T = flip count; D2: 11 (B928), D: 12, D2D: 15"
+  },
+  "charpoly_Mc_factors_3_1__6_1__6_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "rational_blocks_dim_3_6_18": {
+   "pass": true,
+   "detail": ""
+  },
+  "register_blocks_span_Q27": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Me_W6_is_g_squared_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Mo_W6_even": {
+   "pass": true,
+   "detail": ""
+  },
+  "K_roots_xS_alpha_B_found": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_equals_minus_3_w_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_S_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_nonS_dim_1_over_K_beta": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_norm_tau_free_and_q_nonzero": {
+   "pass": true,
+   "detail": ""
+  },
+  "D2_A_flip_cross_term_zero": {
+   "pass": true,
+   "detail": ""
+  },
+  "m_S_banked_B928_coords": {
+   "pass": true,
+   "detail": "the banked B928 sheet entry 1, re-derived"
+  },
+  "m_A_banked_B928_coords": {
+   "pass": true,
+   "detail": "the banked B928 sheet entry 2, re-derived"
+  },
+  "m_S_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_W3_charpoly_matches_banked_B930": {
+   "pass": true,
+   "detail": "(x-1)(1536x^2-2088x+677)"
+  },
+  "A_eigenvalue_1_multiplicity_one": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_vstar_integral_primitive": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_vstar_in_flip_span": {
+   "pass": true,
+   "detail": "supported entirely on the 11 D2-flipped coordinates"
+  },
+  "A_vstar_D2_eigenvector_minus1": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_vstar_27vector_exact": {
+   "value": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0",
+    "1",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "detail": "integer primitive, first nonzero entry positive"
+  },
+  "A_vstar_support": {
+   "value": [
+    9,
+    13,
+    15
+   ],
+   "detail": "support size 3 of 27"
+  },
+  "A_vstar_support_weights": {
+   "value": {
+    "9": [
+     -1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "13": [
+     1,
+     0,
+     -1,
+     0,
+     1,
+     -1
+    ],
+    "15": [
+     0,
+     0,
+     1,
+     0,
+     -1,
+     0
+    ]
+   },
+   "detail": ""
+  },
+  "A_a_star_is_101011": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_support_weights_even_under_a_star": {
+   "pass": true,
+   "detail": "D2 = -(-1)^<a*,w>: flipped coords = a*-EVEN weights (B928)"
+  },
+  "A_vstar_pi_action": {
+   "value": {
+    "9": 9,
+    "13": 13,
+    "15": 15
+   },
+   "detail": "the pairing pi restricted to the support"
+  },
+  "A_vstar_pi_symmetric_support": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_pi_fixed_points": {
+   "value": [
+    9,
+    13,
+    15
+   ],
+   "detail": "the self-paired coordinates (w = -flip(w)) of the whole 27"
+  },
+  "A_support_inside_pi_fixed": {
+   "value": true,
+   "detail": "is the unity line supported on self-paired weights only?"
+  },
+  "A_hvv_nonzero": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_hplus_norm_exact": {
+   "value": "-3",
+   "detail": "num factors {'3': 1, '-1': 1}, den factors {}; SIGN = -"
+  },
+  "A_hprime_norm_is_minus_hplus_norm": {
+   "pass": true,
+   "detail": "v* lives in the flip span, so H' = H+ D2 negates its norm"
+  },
+  "A_R8_vstar_stays_in_W3": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_R8_moment_and_eigtest": {
+   "value": {
+    "h(v*, R v*)": "0",
+    "eigenvector": false
+   },
+   "detail": "eps_8 = -1"
+  },
+  "A_R14_vstar_stays_in_W3": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_R14_moment_and_eigtest": {
+   "value": {
+    "h(v*, R v*)": "0",
+    "eigenvector": false
+   },
+   "detail": "eps_14 = 1"
+  },
+  "A_R16_vstar_stays_in_W3": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_R16_moment_and_eigtest": {
+   "value": {
+    "h(v*, R v*)": "0",
+    "eigenvector": false
+   },
+   "detail": "eps_16 = -1"
+  },
+  "A_R22_vstar_stays_in_W3": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_R22_moment_and_eigtest": {
+   "value": {
+    "h(v*, R v*)": "0",
+    "eigenvector": false
+   },
+   "detail": "eps_22 = 1"
+  },
+  "A_odd_charge_moments_forced_zero": {
+   "pass": true,
+   "detail": "eps=+1 equivariance makes h(v, R v) antisymmetric -> 0 (verified)"
+  },
+  "A_even_charge_moments": {
+   "value": {
+    "R8": "0",
+    "R16": "0",
+    "R8_over_hvv": "0",
+    "R16_over_hvv": "0"
+   },
+   "detail": "the unity line's mean even charges (h-relative)"
+  },
+  "A_trace_system_pivot_0": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_trace_system_pivot_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_trace_system_pivot_2": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_kappa_solves_all_27_components": {
+   "pass": true,
+   "detail": "v*_i = Tr_{K/Q}(kappa . vS_i) exactly, all 27 coordinates"
+  },
+  "A_kappa_K_coords": {
+   "value": [
+    "1/143717124096",
+    "-7/1390120992",
+    "0"
+   ],
+   "detail": "basis (1, rho, rho^2); gauge = the banked primitive vS27"
+  },
+  "A_kappa_minpoly": {
+   "value": [
+    557339020487762273068236197068800,
+    0,
+    -215575686144,
+    1
+   ],
+   "detail": ""
+  },
+  "A_kappa_not_rational_NOT_the_vacuum_sum": {
+   "pass": true,
+   "detail": "deg 3: v* is NOT the naive vacuum-sum Tr(vS) in the banked gauge (kappa in Q would force qS in Q -- impossible)"
+  },
+  "A_hsv_equals_kappa_qS": {
+   "pass": true,
+   "detail": "h(S, v*) = kappa . h(S, S): the expansion is h-consistent (branch orthogonality)"
+  },
+  "A_EQUAL_ANGLE_3_kappa2_qS_equals_hvv_RATIONAL": {
+   "pass": true,
+   "detail": "sigma_g(kappa^2 qS) = hvv/3 for ALL g: cos^2(v*, S_g) = 1/3 exactly, every branch -- the unity line is the |h|-metric DIAGONAL of the vacuum frame (B930's banked 1/3 column, now a K-identity)"
+  },
+  "A_equivalent_form_3_hsv2_equals_qS_hvv": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_kappa_norm_and_hvv_relation": {
+   "value": {
+    "N(kappa)": "-1/557339020487762273068236197068800",
+    "N(kappa)^2*N(qS)": "-1",
+    "(hvv/3)^3": "-1"
+   },
+   "detail": "N(kappa)^2 N(qS) = (hvv/3)^3 -- the norm shadow of the theorem"
+  },
+  "A_norm_shadow_identity": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_qS_branch_signs_ascending_rho": {
+   "value": [
+    -1,
+    -1,
+    -1
+   ],
+   "detail": "all -1 = the register uniformly negative (B930), sign-threaded"
+  },
+  "A_cos2_belt_one_third": {
+   "pass": true,
+   "detail": "worst |cos^2 - 1/3| = 1.58e-81"
+  },
+  "A_normalized_sign_pattern_ascending_rho": {
+   "value": [
+    -1,
+    -1,
+    1
+   ],
+   "detail": "signs of h(S_g, v*) in the banked vS/v* gauge; the banked B930 R unity column pattern (-,-,+) up to the global gauge sign"
+  },
+  "A_kappa_conjugates_distinct": {
+   "pass": true,
+   "detail": "deg-3 kappa: the labeled coefficient triple has TRIVIAL stabilizer"
+  },
+  "A_stabilizer_three_levels": {
+   "value": {
+    "labeled_tuple_sigma_g_kappa": "trivial (conjugates distinct, deg 3)",
+    "signed_normalized_pattern": "order 2 (perms [(0, 1, 2), (1, 0, 2)])",
+    "unsigned_metric_configuration": "FULL S3 (cos^2 = 1/3 to every branch: the equal-angle diagonal)"
+   },
+   "detail": "the banked S3 cocycle acts by permuting the three vacuum branches"
+  },
+  "A_vstar_Klein_character_D_plus_D2_minus_D2D_minus": {
+   "pass": true,
+   "detail": "D v* = +v*, D2 v* = D2D v* = -v*: the unity line transforms by the Klein character with kernel {1, D} -- odd under BOTH wall characters chi+-, even under their inner ratio sigma_-1"
+  },
+  "B_D2_A_cross_term_zero": {
+   "pass": true,
+   "detail": "m_{A+} = m_{A-} for this twist (pi-symmetric restriction)"
+  },
+  "B_D2_register_trace_sum_equals_flip_rank": {
+   "pass": true,
+   "detail": "trW3 = 151/64, trW6 = 169/64, trW18 = 6, sum = 11"
+  },
+  "B_D2_trW3_equals_TrK_mS": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_D2_trW6_equals_2TrK_mA": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_D2_S_level_-1_belt": {
+   "pass": true,
+   "detail": "N(m - -1) = 241581025/42467328"
+  },
+  "B_D2_S_level_0_belt": {
+   "pass": true,
+   "detail": "N(m - 0) = 20417473/42467328"
+  },
+  "B_D2_S_level_1_2_belt": {
+   "pass": true,
+   "detail": "N(m - 1/2) = 908209/42467328"
+  },
+  "B_D2_S_level_+1_belt": {
+   "pass": true,
+   "detail": "N(m - +1) = -353375/42467328"
+  },
+  "B_D2_S_level_+2_belt": {
+   "pass": true,
+   "detail": "N(m - +2) = -75535487/42467328"
+  },
+  "B_D2_A_level_-1_belt": {
+   "pass": true,
+   "detail": "N(m - -1) = 120478897/42467328"
+  },
+  "B_D2_A_level_0_belt": {
+   "pass": true,
+   "detail": "N(m - 0) = 2113201/42467328"
+  },
+  "B_D2_A_level_1_2_belt": {
+   "pass": true,
+   "detail": "N(m - 1/2) = 908209/42467328"
+  },
+  "B_D2_A_level_+1_belt": {
+   "pass": true,
+   "detail": "N(m - +1) = -4112207/42467328"
+  },
+  "B_D2_A_level_+2_belt": {
+   "pass": true,
+   "detail": "N(m - +2) = -153001295/42467328"
+  },
+  "B_D_A_cross_term_zero": {
+   "pass": true,
+   "detail": "m_{A+} = m_{A-} for this twist (pi-symmetric restriction)"
+  },
+  "B_D_register_trace_sum_equals_flip_rank": {
+   "pass": true,
+   "detail": "trW3 = 0, trW6 = 0, trW18 = 12, sum = 12"
+  },
+  "B_D_trW3_equals_TrK_mS": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_D_trW6_equals_2TrK_mA": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_D_S_level_-1_belt": {
+   "pass": true,
+   "detail": "N(m - -1) = 1"
+  },
+  "B_D_S_level_0_belt": {
+   "pass": true,
+   "detail": "N(m - 0) = 0"
+  },
+  "B_D_S_level_1_2_belt": {
+   "pass": true,
+   "detail": "N(m - 1/2) = -1/8"
+  },
+  "B_D_S_level_+1_belt": {
+   "pass": true,
+   "detail": "N(m - +1) = -1"
+  },
+  "B_D_S_level_+2_belt": {
+   "pass": true,
+   "detail": "N(m - +2) = -8"
+  },
+  "B_D_A_level_-1_belt": {
+   "pass": true,
+   "detail": "N(m - -1) = 1"
+  },
+  "B_D_A_level_0_belt": {
+   "pass": true,
+   "detail": "N(m - 0) = 0"
+  },
+  "B_D_A_level_1_2_belt": {
+   "pass": true,
+   "detail": "N(m - 1/2) = -1/8"
+  },
+  "B_D_A_level_+1_belt": {
+   "pass": true,
+   "detail": "N(m - +1) = -1"
+  },
+  "B_D_A_level_+2_belt": {
+   "pass": true,
+   "detail": "N(m - +2) = -8"
+  },
+  "B_D2D_A_cross_term_zero": {
+   "pass": true,
+   "detail": "m_{A+} = m_{A-} for this twist (pi-symmetric restriction)"
+  },
+  "B_D2D_register_trace_sum_equals_flip_rank": {
+   "pass": true,
+   "detail": "trW3 = 151/64, trW6 = 169/64, trW18 = 10, sum = 15"
+  },
+  "B_D2D_trW3_equals_TrK_mS": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_D2D_trW6_equals_2TrK_mA": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_D2D_S_level_-1_belt": {
+   "pass": true,
+   "detail": "N(m - -1) = 241581025/42467328"
+  },
+  "B_D2D_S_level_0_belt": {
+   "pass": true,
+   "detail": "N(m - 0) = 20417473/42467328"
+  },
+  "B_D2D_S_level_1_2_belt": {
+   "pass": true,
+   "detail": "N(m - 1/2) = 908209/42467328"
+  },
+  "B_D2D_S_level_+1_belt": {
+   "pass": true,
+   "detail": "N(m - +1) = -353375/42467328"
+  },
+  "B_D2D_S_level_+2_belt": {
+   "pass": true,
+   "detail": "N(m - +2) = -75535487/42467328"
+  },
+  "B_D2D_A_level_-1_belt": {
+   "pass": true,
+   "detail": "N(m - -1) = 120478897/42467328"
+  },
+  "B_D2D_A_level_0_belt": {
+   "pass": true,
+   "detail": "N(m - 0) = 2113201/42467328"
+  },
+  "B_D2D_A_level_1_2_belt": {
+   "pass": true,
+   "detail": "N(m - 1/2) = 908209/42467328"
+  },
+  "B_D2D_A_level_+1_belt": {
+   "pass": true,
+   "detail": "N(m - +1) = -4112207/42467328"
+  },
+  "B_D2D_A_level_+2_belt": {
+   "pass": true,
+   "detail": "N(m - +2) = -153001295/42467328"
+  },
+  "B_gate_B931_addendum_D2_S_0_abs": {
+   "pass": true,
+   "detail": "|N(m - 0)| = 20417473/2^19 3^4 (banked level song)"
+  },
+  "B_gate_B931_addendum_D2_S_1_2_abs": {
+   "pass": true,
+   "detail": "|N(m - 1/2)| = 908209/2^19 3^4 (banked level song)"
+  },
+  "B_gate_B931_addendum_D2_S_+1_abs": {
+   "pass": true,
+   "detail": "|N(m - +1)| = 353375/2^19 3^4 (banked level song)"
+  },
+  "B_gate_B931_addendum_D2_S_-1_abs": {
+   "pass": true,
+   "detail": "|N(m - -1)| = 241581025/2^19 3^4 (banked level song)"
+  },
+  "B_gate_B931_addendum_D2_A_0_abs": {
+   "pass": true,
+   "detail": "|N(m - 0)| = 2113201/2^19 3^4 (banked level song)"
+  },
+  "B_gate_B931_addendum_D2_A_1_2_abs": {
+   "pass": true,
+   "detail": "|N(m - 1/2)| = 908209/2^19 3^4 (banked level song)"
+  },
+  "B_gate_B931_addendum_D2_A_+1_abs": {
+   "pass": true,
+   "detail": "|N(m - +1)| = 4112207/2^19 3^4 (banked level song)"
+  },
+  "B_gate_B931_addendum_D2_A_-1_abs": {
+   "pass": true,
+   "detail": "|N(m - -1)| = 120478897/2^19 3^4 (banked level song)"
+  },
+  "B_D2_branches_in_unit_interval_signs_forced": {
+   "pass": true,
+   "detail": "every D2 colorless flip-mass branch is in (0,1): N(m-1) < 0 and N(m+1) > 0 are forced -- the sign difference vs the addendum is notational, not arithmetic"
+  },
+  "B_D_acts_as_identity_on_W3_and_W6": {
+   "pass": true,
+   "detail": "every W3/W6 basis vector vanishes on D's flip set: the wall twist fixes the colorless register POINTWISE; its 12 flips are all colored"
+  },
+  "B_D_flip_masses_exactly_zero": {
+   "pass": true,
+   "detail": "m_D,S = m_D,A = 0 exactly: the orientation twist never touches the colorless lines"
+  },
+  "B_D2D_colorless_masses_EQUAL_D2_exactly": {
+   "pass": true,
+   "detail": "m_{D2D} = m_{D2} on BOTH colorless families as exact K-elements: the colorless flip arithmetic factors through the quotient Klein/{1,D}"
+  },
+  "V_D2_pattern_11_at_plus1_7sq_at_minus1": {
+   "pass": true,
+   "detail": "re-verified from scratch: 7-free with 11 at +1; 7^2 at -1, both fams"
+  },
+  "V_no_swap_D2D_identical_D_degenerate": {
+   "pass": true,
+   "detail": "the exact coset identities decide the question"
+  }
+ },
+ "notes": [
+  "gate amendment: B931-ADDENDUM comparison is on |N| (the addendum's sign column follows N(level-m); this cell's convention N(m-level) has FORCED signs since all m-branches lie in (0,1))"
+ ],
+ "part_A": {
+  "vstar_27vector": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "1",
+   "0",
+   "0",
+   "0",
+   "1",
+   "0",
+   "1",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "support": [
+   9,
+   13,
+   15
+  ],
+  "support_weights": {
+   "9": [
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "13": [
+    1,
+    0,
+    -1,
+    0,
+    1,
+    -1
+   ],
+   "15": [
+    0,
+    0,
+    1,
+    0,
+    -1,
+    0
+   ]
+  },
+  "hplus_norm": "-3",
+  "hplus_norm_factors": {
+   "num": {
+    "3": 1,
+    "-1": 1
+   },
+   "den": {},
+   "sign": "-"
+  },
+  "charge_moments": {
+   "8": "0",
+   "14": "0",
+   "16": "0",
+   "22": "0"
+  },
+  "kappa": [
+   "1/143717124096",
+   "-7/1390120992",
+   "0"
+  ],
+  "kappa_minpoly": [
+   557339020487762273068236197068800,
+   0,
+   -215575686144,
+   1
+  ],
+  "equal_angle_theorem": "3*kappa^2*qS = h(v*,v*) in Q (cos^2 = 1/3 to every vacuum branch, exact K-identity)",
+  "sign_pattern_ascending_rho": [
+   -1,
+   -1,
+   1
+  ],
+  "W3_basis_rows": [
+   [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0",
+    "1",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "0",
+    "0",
+    "-443520",
+    "604800",
+    "0",
+    "0",
+    "0",
+    "-2352",
+    "0",
+    "0",
+    "0",
+    "-672",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "-1",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "-268240896000",
+    "0",
+    "0",
+    "0",
+    "0",
+    "-406425600",
+    "0",
+    "0",
+    "0",
+    "604800",
+    "0",
+    "0",
+    "0",
+    "-967680",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "672",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1"
+   ]
+  ],
+  "vstar_in_W3_basis": [
+   "1",
+   "0",
+   "0"
+  ]
+ },
+ "seven_eleven_953_valuations": {
+  "D2_S": {
+   "-1": {
+    "v7": 2,
+    "v11": 0,
+    "v953": 0
+   },
+   "0": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "1/2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 2
+   },
+   "+1": {
+    "v7": 0,
+    "v11": 1,
+    "v953": 0
+   },
+   "+2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   }
+  },
+  "D2_A": {
+   "-1": {
+    "v7": 2,
+    "v11": 1,
+    "v953": 0
+   },
+   "0": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "1/2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 2
+   },
+   "+1": {
+    "v7": 0,
+    "v11": 1,
+    "v953": 0
+   },
+   "+2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   }
+  },
+  "D_S": {
+   "-1": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "0": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "1/2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "+1": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "+2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   }
+  },
+  "D_A": {
+   "-1": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "0": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "1/2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "+1": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "+2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   }
+  },
+  "D2D_S": {
+   "-1": {
+    "v7": 2,
+    "v11": 0,
+    "v953": 0
+   },
+   "0": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "1/2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 2
+   },
+   "+1": {
+    "v7": 0,
+    "v11": 1,
+    "v953": 0
+   },
+   "+2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   }
+  },
+  "D2D_A": {
+   "-1": {
+    "v7": 2,
+    "v11": 1,
+    "v953": 0
+   },
+   "0": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   },
+   "1/2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 2
+   },
+   "+1": {
+    "v7": 0,
+    "v11": 1,
+    "v953": 0
+   },
+   "+2": {
+    "v7": 0,
+    "v11": 0,
+    "v953": 0
+   }
+  }
+ },
+ "verdict_7_11": {
+  "D2": {
+   "S": {
+    "+1": [
+     0,
+     1
+    ],
+    "-1": [
+     2,
+     0
+    ]
+   },
+   "A": {
+    "+1": [
+     0,
+     1
+    ],
+    "-1": [
+     2,
+     1
+    ]
+   }
+  },
+  "D": {
+   "S": {
+    "+1": [
+     0,
+     0
+    ],
+    "-1": [
+     0,
+     0
+    ]
+   },
+   "A": {
+    "+1": [
+     0,
+     0
+    ],
+    "-1": [
+     0,
+     0
+    ]
+   }
+  },
+  "D2D": {
+   "S": {
+    "+1": [
+     0,
+     1
+    ],
+    "-1": [
+     2,
+     0
+    ]
+   },
+   "A": {
+    "+1": [
+     0,
+     1
+    ],
+    "-1": [
+     2,
+     1
+    ]
+   }
+  },
+  "swap_11_to_minus1_7sq_to_plus1": false,
+  "D2D_level_tables_identical_to_D2": true,
+  "D_colorless_degenerate_m_equals_0": true
+ },
+ "verdict": "NO SWAP -- COSET INVARIANT: the colorless flip arithmetic (and with it the 7/11 unit-level split and the 953 half-flip locus) is invariant under the full 2-torsion MODULO the wall twist D.  D acts as the identity on the colorless register (m_S = m_A = 0 exactly; its 12 flips are entirely colored), so the orientation-reversed member D2D = D2*D carries the level song of D2 UNCHANGED, and D alone is level-degenerate (N(m-l) = -l^3, no primes).  The resolvent's 7/11 factorization does NOT track the Klein element: it is a D2-COSET datum, and orientation reversal moves only colored weight (tr W18: 6 -> 10, flip rank 11 -> 15).",
+ "conventions": {
+  "twist_signs": "each Klein diagonal normalized to entry0 = +1; this is the convention of BOTH banked diagonals (B916 D2, B912 D); the -T tables are derivable: level l of -T = -(level 1-l of T), which the level set {-1,0,1/2,1,2} covers for the unit levels",
+  "branch_order": "ascending-rho (the banked B928/B930 convention)",
+  "vstar_gauge": "integer primitive, first nonzero entry positive",
+  "levels": "N_{K/Q}(m - l) as exact rationals, factored"
+ },
+ "runtime_s": 1.4
+}

@@ -1,0 +1,9 @@
+{
+ "id": "B938",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE SIGN OF FULL FLIP -- NO SWAP, A COSET INVARIANT (blind): testing the level song against the wall pair's full 2-torsion {I, D2, D, D2D}, D ACTS AS THE IDENTITY ON THE COLORLESS REGISTER (m_S = m_A = 0 exactly; ALL TWELVE of D's flips are colored), so D2D carries D2's level song UNCHANGED and D alone is level-degenerate (N(m - l) = -l^3, no primes at all); THE 7/11 ASSIGNMENT DOES NOT TRACK THE KLEIN ELEMENT -- the resolvent's factorization (11 at m = +1, 7^2 at m = -1) is a D2-COSET DATUM, invariant under the full 2-torsion modulo the wall twist, and orientation reversal moves only COLORED weight (tr W18: 6 -> 10; flip rank 11 -> 15). THE FENCED READING: the two 2-torsion generators divide labor exactly as the two-hemisphere doctrine says -- D2 owns the colorless/register arithmetic (the hierarchy, the value primes, the resolvent split), D owns the colored; the unmeasured world's primes are written by ONE generator only. Part A: the unity column's exact line confirmed as B930 found it (F cap W3).",
+ "depends_on": ["B903", "B928", "B930", "B931"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent + cc banking (2026-08-07)"
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## B935 + B938 — composition rigidity (rank 2!) and the 7/11 coset verdict
+- **B935 NEGATIVE**: all forced compositions are SIMILAR (verified 1e-151) — the map question's first form dies by similarity; **the S–A overlap matrix is RANK 2** (exact zero singular value): the object's register mixing has only two nonzero directions and cannot make a three-term cascade this way. Zero band flags.
+- **B938**: D is the identity on the colorless register (all its flips colored) ⟹ **the 7/11 split is a D₂-coset datum, not a Klein invariant**; the 2-torsion generators divide labor by hemisphere. Session resumed after an auth interruption; a 93-CPU-hour orphan killed. 3 locks.
+
 ## B930 — the overlap matrices: branches superselected; 953⁴…5¹²; the exact rotation
 - **(a)** the up/down analogue is SUPERSELECTED (all overlaps zero in both gauges); **(b)** the S–A registers carry a real hierarchy whose overlap² minpoly runs **953⁴ … 5¹²** — the golden prime enters through the mixing geometry; **(c)** the twist-vs-Galois rotation is exactly orthogonal, spectrum (x−1)(1536x²−2088x+677), sum rule = 11 block-refined. **The doctrine verified as a selection rule**: no overlap exists outside D₂. Four amendments, all self-caught. 4 locks.
 

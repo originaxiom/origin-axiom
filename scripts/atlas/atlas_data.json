@@ -19568,6 +19568,31 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B935": {
+   "slug": "composition hunt",
+   "motifs": [],
+   "refs": [
+    "B929",
+    "B930"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B938": {
+   "slug": "unity and sign",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [
+    "B930"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B93": {
    "slug": "det parity bridge",
    "motifs": [

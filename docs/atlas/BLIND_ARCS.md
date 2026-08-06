@@ -36,8 +36,9 @@ auditable in a way a passing threshold never was.
 | `B836` | INSTRUMENT | Routing the negative backlog into the kill graph. About the repository's own bookkeeping; an object atlas is correct to miss it. |
 | `B837` | INSTRUMENT | The file-drawer audit of sealed-but-unreported preregs. About the repository's own reporting discipline; an object atlas is correct to miss it. |
 | `B899` | GAP | The hierarchy-source check (an earned negative): the sealed cells' deviation magnitudes vs mu's root geometry. Object-level topic (root spacings, leakage magnitudes) the lexicon does not yet carry a motif for; the negative verdict does not make it instrumental. |
+| `B935` | GAP | The composition hunt: forced compositions of the object's cascade classes and the rank-2 degeneracy of the register overlap. Object-level geometry (overlap matrices, singular structure) the lexicon carries no motif for; the negative verdict does not make it instrumental. |
 
-**Open `GAP` count: 1** (`B899` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
+**Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 
 > **Zero open gaps means "no known uncovered object topic among substantial blind arcs" — NOT "the
 > lexicon is complete."** The 18+1 motifs remain grounded in K001–K022 and unrevisited since
