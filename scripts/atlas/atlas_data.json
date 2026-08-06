@@ -19444,6 +19444,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B929": {
+   "slug": "third crossing",
+   "motifs": [
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B890",
+    "B891",
+    "B897",
+    "B912",
+    "B915",
+    "B925",
+    "B928"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B92": {
    "slug": "metallic classification",
    "motifs": [

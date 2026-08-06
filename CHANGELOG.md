@@ -1,5 +1,9 @@
 # Changelog
 
+## B929 — the third crossing: HIT-SHAPE — mixing-shaped, not mixing-valued
+- **T1 PASS**: the blind register-sheet is a descending accelerating cascade, a = 1.84 in the declared band (CKM's own: 1.39 — same band, not close). **T2 MISS**: magnitudes off 5–9× — the direct reading is dead. Suggestive not probative by design (2 priced bits); hint row 12; no licensed retries without new seals + the owner's word.
+- Scoreboard: 8 sealed cells — 5 overrules, 4 wins. M0 stands. 4 locks. Gate 5: one contact, sealed, reported.
+
 ## B928 — the D₂ decode: FORCED — the hierarchy's origin is an equation; the sheet exists
 - **D₂ = ±ρ₂₇(σ_χ₋)** — the second wall conjugation's character; H₊D₂ = H(φ*), φ* = τ∘φ₊∘φ₋, the UNIQUE census carrier; the Klein group {I, D₂, D, D₂D} = the wall pair's 2-torsion. The affine polarity explains the earlier miss; 11 = 8+3 refuted (numerology). Q2 derives the minpolys + norm law; **the new colored cube law N = −(953/2304)³**; the sum rule = 11 exact.
 - The FORCED prior won (7 sealed: 4 overrules, 3 wins). **Stage 2 awaits the owner's word.** 4 locks. Gate 5 untouched.

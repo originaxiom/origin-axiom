@@ -603,3 +603,9 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       107540 | 39306+166513y in F_421493 — and the 953-unit part at the observer's place
       were computed exactly but carry no interpretation yet. If the residues are themselves
       structured (e.g. images of banked constants), the biography deepens; unexplored.
+  (12) H-B929-SHAPE (type HINT, sealed-cell output, fenced): the twist's register-family
+      flip-sheet, computed blind, is a mixing-SHAPED accelerating cascade (T1 PASS, a = 1.84
+      in the declared band) while its magnitudes are NOT CKM's (T2 MISS, factors 5-9). If the
+      twist speaks to measured mixing, the map is nontrivial. Weighted down by design (two
+      priced bits, broad band). Any follow-up reading needs its own seal + the owner's word,
+      citing B929.

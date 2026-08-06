@@ -384,6 +384,14 @@
   "HIER_DERIVED_953p4_charpoly_V_ccl_twisted": {
    "pass": true,
    "detail": "HIER = [824843587681, -27609909080832, 264084438122496, -760840571584512]: the hierarchy cubic's coefficients are computed from the characterization (D2 = rho_27(sigma_chi-)) + the banked atoms/cubic -- no belt, no measured number"
+  },
+  "numeric_nine_colorless_lines": {
+   "pass": true,
+   "detail": ""
+  },
+  "numeric_flip_masses_match_exact_embeddings": {
+   "pass": true,
+   "detail": "worst 2.07e-57"
   }
  },
  "notes": [],
@@ -676,5 +684,72 @@
    -760840571584512
   ],
   "canonical_collapse": "-3 (exact)"
- }
+ },
+ "belt": {
+  "worst_mass_residual": "2.067e-57"
+ },
+ "Q3_certificates_50d_by_ascending_rho": {
+  "m_S": [
+   "0.86289845162610324642917053419193751292738850286609",
+   "0.80011290842674547149446460944948338617470771032437",
+   "0.69636363994715128207636485635857910089790378680955"
+  ],
+  "m_A": [
+   "0.25724237788732187432453483454472367849077090217345",
+   "0.23305419858614214462122459075931985351229646380305",
+   "0.8300159235265359810542405746959564679969326340235"
+  ],
+  "d_S": [
+   "-0.72579690325220649285834106838387502585477700573217",
+   "-0.60022581685349094298892921889896677234941542064873",
+   "-0.3927272798943025641527297127171582017958075736191"
+  ],
+  "d_A": [
+   "0.4855152442253562513509303309105526430184581956531",
+   "0.53389160282771571075755081848136029297540707239391",
+   "-0.660031847053071962108481149391912935993865268047"
+  ],
+  "t_oct": [
+   "0.9586733133419555160212554712061643503618362001911",
+   "1.1418811381286643280030090693776585110501254484782",
+   "6.5400705485293801559757354594161771385880383513307"
+  ],
+  "trM_col": [
+   "0.2220942787836558836860929010583584966901471979221",
+   "0.33788637047819001938027994392950940201276626043604",
+   "2.4400193507381540969336271550121321012970865416419"
+  ],
+  "e1_colored": [
+   "2.5558114424326882326278141978832830066197056041558",
+   "2.3242272590436199612394401121409811959744674791279",
+   "-1.8800387014763081938672543100242642025941730832837"
+  ],
+  "e2_colored": [
+   "2.1773907097566194785750232051516250775643310171965",
+   "1.8006774505604728289667876566969003170482462619462",
+   "1.1781818396829076924581891381514746053874227208573"
+  ],
+  "e3_colored": [
+   "0.61833334340473338183632575528308774713387368400778",
+   "0.46502040170420236195684826011029958922830128186371",
+   "-0.24611416177560241045984068206005400302884163253815"
+  ],
+  "V_ccl_twisted": [
+   "5.6949646542627022800114395018643909803511537241825",
+   "8.3270641823804018236805452226598240111759437156635",
+   "19.450873775663868128388849662750898517072742957099"
+  ]
+ },
+ "Q1_summary": {
+  "a": "SUCCEEDS (shifted): D2 = -(-1)^<a*,w>, a* = s(chi-), unique in the 128-member family; pure characters fail (re-verified); other lattices add nothing (mod-2 equivalent)",
+  "b": "REFUTED as spans: dim(flip cap octet) = 0, dim(flip cap W3) = 1; the Galois argument makes the 8+3 span reading impossible; the true octet/vacuum content is the exact trace table",
+  "c": "DERIVED: D2 = +-rho_27(sigma_{chi-}); H+ D2 = H(phi*), phi* = tau o phi+ o phi- = sigma_{-1} o tau; Dd = +-rho_27(phi+ phi-); Klein group {I, D2, Dd, D2 Dd}",
+  "d": "the C-compatible census does NOT contain D2 (its involution phi* is not C-compatible -- exactly B916's no-epsilon-pattern fact); over the full 128, H+ D2 belongs to EXACTLY ONE member: phi*, pinned with no freedom"
+ },
+ "Q2_summary": {
+  "derived": "d-minpolys (2304^2 lead, 953^2 const, every coefficient), the norm law N(1-2m) = -(953/2304)^2 (the affine polarity supplies the minus), and HIER = 953^4 charpoly(V_ccl) -- all recomputed exactly from the characterized diagonal on the banked atom lines",
+  "residue": "no pipeline-free closed form for 953/2304: the characterization reduces the twist arithmetic to the K-norm of (1 - 2 x flip-mass) on the atom lines; the atom lines themselves (the eigenline solve over K) remain the carrier of the specific integers; where each prime of 2^8 3^2 and 953 enters the eigenline coordinates is open"
+ },
+ "verdict": "OUTCOME FORCED -- candidate (c) [with (a) as its character form] characterizes D2 by a banked equation with NO residual freedom: D2 = +-rho_27(sigma_{chi-}) -- the second wall conjugation's sign character acting on the 27 -- equivalently H+ D2 = H(phi*) with phi* = tau o phi+ o phi- the composite of the banked tau-lift with BOTH wall conjugations, the unique carrier in the 128-census.  Q2 derives the pole prime 953, the 2304^2 lead, both d-minpolys, the norm law with its sign, and HIER's coefficients from the characterization (residue: the atom-line solve itself).  Q3's sheet is nonempty: three abstract K-invariants (m_S, m_A, t_oct = 2m_A + 2trM_col), the omega-free colored twist charpoly (e1, e2, e3), the forced equalities (A+- and colored +- pairs, octet decomposition), and the sum rule Tr(m_S) + Tr(t_oct) = 11.",
+ "runtime_s": 116.1
 }
