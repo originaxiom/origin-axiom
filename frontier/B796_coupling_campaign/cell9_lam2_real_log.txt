@@ -41,3 +41,9 @@ P4: PASS (spread 0.0)
   [P3] iter 4: |g| = 1.43e+03, |dr| = 1.00e-03 (5655s)
 P3: PASS (displaced end 0.385 from target)
 stability cert (+5 digits) ...
+  [cert] iter 0: |g| = 2.15e-05, |dr| = 1.00e-09 (19931s)
+  [cert] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
+  [cert] iter 1: |g| = 2.04e-21, |dr| = 9.51e-26 (17168s)
+  [cert] iter 2: |g| = 1.81e-30, |dr| = 8.41e-35 (15888s)
+|dr|_stab = 9.93e-27  (require < 1.0e-26)
+TOTAL 209323s — saved

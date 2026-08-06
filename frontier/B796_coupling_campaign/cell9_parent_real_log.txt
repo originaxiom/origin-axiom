@@ -1,0 +1,2 @@
+=== CELL 9 RUNG (i) v2: target r = 7.072004187 (prereg v3 169e9042) ===
+P1: PASS (10/10 samples <= 1e-27)

@@ -1,0 +1,14 @@
+{
+ "r_certified": 4.900085373,
+ "r_refined": "4.9000853730625213014795758050759",
+ "r_stability": "4.900085373062521301479575795141452",
+ "dr_stab": "9.9344e-27",
+ "stab_ok": true,
+ "n_modes": 2382,
+ "Y": 0.75,
+ "digits": 27,
+ "gate_overlap_digits": 10,
+ "prereg": "169e9042",
+ "shakedown": false,
+ "digits_actual": 27
+}

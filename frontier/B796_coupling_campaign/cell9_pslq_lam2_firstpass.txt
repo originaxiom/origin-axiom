@@ -1,0 +1,18 @@
+targets: ['r=4.900085373']
+  r=4.900085373.r B1 Q(sqrt5): clean (H <= 10000)
+  r=4.900085373.r B2 Q(sqrt3): clean (H <= 10000)
+  r=4.900085373.r B3 Q(sqrt15): clean (H <= 10000)
+  r=4.900085373.r B4 Q(zeta15+): clean (H <= 1000)
+  r=4.900085373.r B5 Q(zeta20+): clean (H <= 1000)
+  r=4.900085373.r B6 Q(sqrt-phi): clean (H <= 1000)
+  r=4.900085373.r MINPOLY: clean (H <= 1000)
+  r=4.900085373.lam B1 Q(sqrt5): clean (H <= 10000)
+  r=4.900085373.lam B2 Q(sqrt3): clean (H <= 10000)
+  r=4.900085373.lam B3 Q(sqrt15): clean (H <= 10000)
+  r=4.900085373.lam B4 Q(zeta15+): clean (H <= 1000)
+  r=4.900085373.lam B5 Q(zeta20+): clean (H <= 1000)
+  r=4.900085373.lam B6 Q(sqrt-phi): clean (H <= 1000)
+  r=4.900085373.lam MINPOLY: clean (H <= 518)
+
+VERDICT: 0 gated hits across 14 powered (box, target) combinations. Clean at 25 digits in the powered boxes (rung-(i) scope: instrument validation + first power step; NOT the campaign falsifier).
+Saved cell9_pslq_results.json
