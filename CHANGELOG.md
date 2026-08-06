@@ -1,5 +1,8 @@
 # Changelog
 
+## B930 — the overlap matrices: branches superselected; 953⁴…5¹²; the exact rotation
+- **(a)** the up/down analogue is SUPERSELECTED (all overlaps zero in both gauges); **(b)** the S–A registers carry a real hierarchy whose overlap² minpoly runs **953⁴ … 5¹²** — the golden prime enters through the mixing geometry; **(c)** the twist-vs-Galois rotation is exactly orthogonal, spectrum (x−1)(1536x²−2088x+677), sum rule = 11 block-refined. **The doctrine verified as a selection rule**: no overlap exists outside D₂. Four amendments, all self-caught. 4 locks.
+
 ## The map wave — why-953 answered; the GUT selection grammatical; a Dirac first at probe grade; the paper skeletoned
 - **B931**: 2304 derived from lc(μ); 953 born in the twisted resultant — **the prime where the flip mass hits exactly ½**; the divisor map splits S (doubly, the observer's place) from A (simply, the degree-two place). **B932**: the conformal chain verified leptonless in-house; two obstructions make the negative permanent — **the object only speaks GUT**. **B933**: |λ₁|_Dirac = 2.97455058 at probe grade — no prior on any H³ manifold; the sealed run specified. Paper 1 skeletoned, citations verified. B930's instrument bug queued. 4 locks.
 

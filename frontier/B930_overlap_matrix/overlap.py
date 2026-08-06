@@ -1347,7 +1347,7 @@ CHK("FORCED_b_Hplus_gram_is_exactly_diagonal",
     "Mbar): under the canonical gauge there is NO overlap to read")
 CHK("b_Hplus_diagonal_matches_q",
     all(tis0(tsub(G9P[i][i], (sigma(NINE[i][1], qS if NINE[i][0] == "S"
-                                    else qA), KZERO))) for i in range(9)))
+                                    else qA), NZERO))) for i in range(9)))
 CHK("b_Hprime_diagonal_is_d_times_q",
     all(tis0(tsub(G9T[i][i],
                   (sigma(NINE[i][1], kmul(d_S if NINE[i][0] == "S" else d_A,
@@ -1756,9 +1756,14 @@ CHK("c_S_compression_equals_half_q_minus_HprimeSS", ok_id,
 CHK("c_S_compression_symmetric_exact",
     all(tis0(tsub(MS[i][j], MS[j][i])) for i in range(3) for j in range(3)))
 qb = [knum(qS, branch_root[ORD[i]]) for i in range(3)]
-CHK("c_vacuum_norms_positive", all(v > 0 for v in qb),
-    "h|W3 is positive definite: the principal angles are genuine")
-Mhat = [[nnum(MS[i][j][0]) / mp.sqrt(qb[i] * qb[j]) for j in range(3)]
+# DESIGN AMENDMENT at completion (logged): the positivity assumption was wrong
+# BY BANKED KNOWLEDGE (B912: the twist gauge is indefinite) -- the abort fired
+# honestly. Signature-aware treatment (the B913 pattern): normalize by |q| and
+# carry the sign vector as data; principal angles are w.r.t. the |.|-metric.
+REC("c_vacuum_norm_signs", [1 if v > 0 else -1 for v in qb],
+     "the W3 register's h-signs (indefinite is EXPECTED per B912)")
+qb_abs = [abs(v) for v in qb]
+Mhat = [[nnum(MS[i][j][0]) / mp.sqrt(qb_abs[i] * qb_abs[j]) for j in range(3)]
         for i in range(3)]
 # charpoly consistency: Mhat similar to Cmp3
 cp3n = [mp.mpf(1)]
@@ -1781,11 +1786,17 @@ def cp3_eval(v):
     return acc
 
 
+# sign convention (design amendment 2, logged): with the register uniformly
+# NEGATIVE under h (the [−1,−1,−1] sign vector just recorded), the |q|-
+# normalized eigenvalues are the NEGATIVES of the rational charpoly's roots;
+# thread the sign through rather than assuming positivity.
+sgn_reg = -1 if all(v < 0 for v in qb) else 1
+evs_conv = [sgn_reg * v for v in evs]
 CHK("c_S_frame_eigs_are_rational_charpoly_roots",
-    max(abs(cp3_eval(v)) for v in evs) < mp.mpf(10) ** (-90),
-    " ".join(mp.nstr(v, 20) for v in evs))
+    max(abs(cp3_eval(v)) for v in evs_conv) < mp.mpf(10) ** (-90),
+    "sign-threaded: " + " ".join(mp.nstr(v, 20) for v in evs_conv))
 # the rotation R: columns = principal vectors (desc eigenvalue), rows = S-frame
-order_ev = sorted(range(3), key=lambda i: -EV[i])
+order_ev = sorted(range(3), key=lambda i: -sgn_reg * EV[i])
 Rrot = [[EVec[i, order_ev[c]] for c in range(3)] for i in range(3)]
 # fix column signs: largest |entry| positive
 for c in range(3):
@@ -1800,8 +1811,8 @@ for i in range(3):
             - (1 if i == j else 0)
         udef = max(udef, abs(s))
 CHK("c_rotation_orthogonal", udef < mp.mpf(10) ** (-90),
-    "R in O(3) exactly (the S-frame is h-orthonormal, W3 positive "
-    "definite): the ONE genuinely unitary overlap matrix of the three")
+    "R in O(3) exactly (the S-frame |h|-orthonormal; the register's "
+    "uniform sign threaded): the ONE genuinely unitary overlap matrix")
 # exact |R_i1|^2 for the unity column: h(S_i, v*)^2/(q_i h(v*,v*))
 Rcol1_sq = []
 vstar_e = [((( vv, Fr(0), Fr(0)), KZERO), NZERO) for vv in vstar27]
@@ -2059,17 +2070,29 @@ for i in range(3):
 CHK("belt_a_tij_match_exact", t_num_worst < mp.mpf("1e-25"),
     f"worst {mp.nstr(t_num_worst, 3)}")
 # numeric (c): S-frame compression eigs
+# design amendment 4 (the last belt): the numeric eigenvectors carry arbitrary
+# solver phases; the S-lines are RATIONAL lines, so phase-align each vector
+# (largest component real-positive) before building the compression -- the b/a
+# belts compared phase-free quantities and never saw this.
+def phase_fix(v):
+    imax = max(range(27), key=lambda k: abs(v[k]))
+    ph = v[imax] / abs(v[imax])
+    return [x / ph for x in v]
+S_fixed = {i: phase_fix(line_map[("S", ORD[i])][0]["vecs"][0]) for i in range(3)}
 Msn = mp.matrix(3, 3)
 for i in range(3):
     for j in range(3):
-        Sv = line_map[("S", ORD[i])][0]["vecs"][0]
-        Sw = line_map[("S", ORD[j])][0]["vecs"][0]
+        Sv = S_fixed[i]
+        Sw = S_fixed[j]
         num = sum(mp.conj(Sv[piW[b]]) * HPn[piW[b], b] * Sw[b]
                   for b in flip_ind)
         den = mp.sqrt(abs(hnum(Sv, Sv, HPn)) * abs(hnum(Sw, Sw, HPn)))
         Msn[i, j] = mp.re(num) / den
 EVn = mp.eigsy(Msn, eigvals_only=True)
-worst_c = max(min(abs(EVn[i] - evs[j]) for j in range(3)) for i in range(3))
+# design amendment 3 (sign threading, same as the exact side): the belt's
+# independent compression carries the register's uniform sign too
+worst_c = max(min(abs(sgn_reg * EVn[i] - evs_conv[j]) for j in range(3))
+              for i in range(3))
 CHK("belt_c_eigs_match_exact", worst_c < mp.mpf("1e-30"),
     f"worst {mp.nstr(worst_c, 3)}")
 RES["belt"] = {"eigen_residual": mp.nstr(worst_resid, 4),

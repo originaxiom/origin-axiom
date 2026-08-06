@@ -19483,6 +19483,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B930": {
+   "slug": "overlap matrix",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B912",
+    "B913",
+    "B923",
+    "B928"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B931": {
    "slug": "why 953",
    "motifs": [
@@ -19502,7 +19522,7 @@
     "L6"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 10,
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "topology"
   },
