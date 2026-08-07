@@ -803,7 +803,7 @@ clause, not the whole normalisation.
 > amphichirality thread); design a cell that can fail.
 
 > **L126 / L127 / L128 (registered 2026-08-07, from B944's sweep).**
-> **L126 — THE ONE-ℤ/2 QUESTION.** Is the amphichiral time-reversal of the Anosov
+> **L126 — THE ONE-ℤ/2 QUESTION. CLOSED 2026-08-07 by B945 — OUTCOME INDEPENDENT, the unification WITHDRAWN.** Is the amphichiral time-reversal of the Anosov
 > suspension (B716: the flow has no arrow *because* σ ~ σ⁻¹) the SAME involution as the
 > chirality/orientation ℤ/2 (B713: chirality is not in the amphichiral object)? B717's
 > capstone lists them as two separate closings from two separate arcs; the identification
@@ -821,3 +821,13 @@ clause, not the whole normalisation.
 > decreasing as 3.8·CS², second order in chirality) is the cleanest already-banked
 > ratio law the programme owns that touches a measured-side quantity. Under the B941
 > refinement it must be re-posed **branch-symmetrically** before any comparison.
+
+> **L129 (registered 2026-08-07, from B945's census).** **What separates the LOCKED class
+> from the full-Klein class among amphichiral once-punctured-torus bundles?** B945 found
+> that of the 31 amphichiral cyclic LR-words of length ≤ 10, **18 are fixed by ρσ but by
+> neither ρ nor σ alone** (time-reversal and mirror inseparable) while **13 carry the full
+> Klein group** — and that m004 together with the **entire metallic locus** R^mL^m sits in
+> the full-Klein minority. Questions: is the metallic locus *exactly* the decoupled locus?
+> Does the split persist beyond length 10? And is there a geometric invariant (CS, trace
+> field, cusp shape) that reads it off? Note this is the structurally interesting half of
+> the L126 result, not a retry of it.

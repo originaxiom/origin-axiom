@@ -1,0 +1,169 @@
+{
+ "cell1": {
+  "word": "RL",
+  "cyclic_rotations": [
+   "LR",
+   "RL"
+  ],
+  "rho(W)": "LR",
+  "sigma(W)": "LR",
+  "rho.sigma(W)": "RL",
+  "stabilizer": [
+   "1",
+   "rho",
+   "sigma",
+   "rho.sigma"
+  ],
+  "is_amphichiral_GHH": true,
+  "rho_alone_fixes": true,
+  "sigma_alone_fixes": true
+ },
+ "cell2": [
+  {
+   "m": 1,
+   "word": "RL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  },
+  {
+   "m": 2,
+   "word": "RRLL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  },
+  {
+   "m": 3,
+   "word": "RRRLLL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  },
+  {
+   "m": 4,
+   "word": "RRRRLLLL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  },
+  {
+   "m": 5,
+   "word": "RRRRRLLLLL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  },
+  {
+   "m": 6,
+   "word": "RRRRRRLLLLLL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  },
+  {
+   "m": 7,
+   "word": "RRRRRRRLLLLLLL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  },
+  {
+   "m": 8,
+   "word": "RRRRRRRRLLLLLLLL",
+   "stabilizer": [
+    "1",
+    "rho",
+    "sigma",
+    "rho.sigma"
+   ],
+   "amphichiral": true,
+   "rho_alone": true,
+   "sigma_alone": true
+  }
+ ],
+ "cell2_all_amphichiral": true,
+ "cell2_rho_alone_always": true,
+ "cell2_sigma_alone_always": true,
+ "cell3_all_words": {
+  "('1', 'rho', 'sigma', 'rho.sigma')": 13,
+  "('1', 'rho')": 122,
+  "('1', 'rho.sigma')": 18,
+  "('1',)": 88
+ },
+ "cell3_amphichiral_only": {
+  "('1', 'rho', 'sigma', 'rho.sigma')": 13,
+  "('1', 'rho.sigma')": 18
+ },
+ "cell3_n_cyclic_classes": 241,
+ "cell3_amphichiral_with_full_V": 13,
+ "cell3_amphichiral_diagonal_only": 18,
+ "cell4": {
+  "R_transpose_is_L": true,
+  "W": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "W_is_symmetric": true,
+  "reverse_equals_swap_of_transpose": true,
+  "every_matrix_conj_to_transpose_over_a_field": true,
+  "so_the_content_must_be_integral": true
+ },
+ "verdict": {
+  "outcome_at_the_object": "INDEPENDENT",
+  "object_stabilizer": [
+   "1",
+   "rho",
+   "sigma",
+   "rho.sigma"
+  ]
+ }
+}

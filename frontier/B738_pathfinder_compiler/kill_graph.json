@@ -10322,5 +10322,16 @@
   ],
   "fact_computed": true,
   "hatch": "The Z/2 is real and survives ONE LEVEL UP: c generates Gal(K/Q), the QUOTIENT in 1 -> Gal(K^ab/K) -> Gal(K^ab/Q) -> Gal(K/Q) -> 1, while the SSB produces the KERNEL. So the live successor question is not thermal but arithmetic: chirality as a Q-vs-K phenomenon, temperature-independent, testable against the banked c-vs-theta material (B713, the amphichirality thread). Four escape hatches were computed and closed (object-level finite truncation has no zeta pole; no canonical Z/2 quotient exists; conjugation acts trivially on the labels in the abelian layers; K has zero real places) -- an escape would need a route outside that enumeration. SEPARATELY OPEN, and deliberately not certified here: whether B700/B701's simply-transitive torsor IS the CMR torsor (same asserted-not-demonstrated shape as the killed clause)."
+ },
+ {
+  "id": "B945",
+  "claim_killed": "That the object's time-reversal Z/2 (the amphichiral reversal that leaves the Anosov suspension without an arrow) and its chirality/orientation Z/2 are the SAME involution -- so that a single closing would supply both the arrow and the handedness, collapsing three named gaps to one choice (B944 section 3's suggestion).",
+  "kill_form": "stabilizer-computation",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "The PHENOMENON is real, just not here: among the 31 amphichiral cyclic LR-words of length <= 10, EIGHTEEN are fixed by the product rho.sigma but by NEITHER involution alone (the LOCKED class), against 13 with the full Klein stabilizer. m004 and the ENTIRE metallic locus R^m L^m sit in the full-Klein minority, which is why the two decouple for this object. The live successor (L129) is therefore structural rather than a retry: what distinguishes the locked class from the full-Klein class, and is the metallic locus exactly the decoupled locus? Any escape for the original claim would have to act at the isometry level rather than the word level -- this cell computes stabilizers on cyclic words, which realizes bundle symmetries but does not establish the converse."
  }
 ]

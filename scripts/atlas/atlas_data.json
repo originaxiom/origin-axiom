@@ -19843,6 +19843,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B945": {
+   "slug": "l126 one z2",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B432",
+    "B717",
+    "B944",
+    "L126",
+    "L129"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B94": {
    "slug": "tower universality",
    "motifs": [

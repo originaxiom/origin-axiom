@@ -105,6 +105,8 @@ path. All rows audited to this rule this date.*
 | **THE CHIRALITY–DYNAMICS INVENTORY (B944 — both are BANKED, not missing)** | chirality 70 PROVED / 32 NEGATIVE, dynamics 20 PROVED / 7 NEGATIVE; chiral matter CONSTRUCTED (B582, complex 27 at full E₆ closure), the switch binary (θ-odd ⟹ chiral, B576), supplied by a closing (B432/B434); the object is a transcendental positive-entropy Painlevé-VI solution (B317) with Δ = −(ln λ_m/π)² exact (B196). **The 32 walls say "chirality is not SELF-supplied", not "no chirality"** | `frontier/B944_dynamics_chirality_sweep` · `tests/test_b944_sweep.py` · B944 |
 | **THE CP RATIO LAW (already banked, collected here for the first time)** | CP **sign** = sign of Chern–Simons, CS = 0 ⟺ amphichiral (B303); CP **phase** arg κ extremal at **π/6** at the amphichiral cusp, decreasing as **3.8·CS²** — second order in chirality (B340). A dimensionless phase controlled by a dimensionless invariant, no value inserted | `frontier/B303_*`, `frontier/B340_*` · B303 B340 · collected by B944 |
 
+| **TIME-REVERSAL AND CHIRALITY ARE INDEPENDENT *HERE* (B945 — L126 closed negative)** | on cyclic LR-words ρ = reversal (base S¹ ⟹ time) and σ = R↔L (fiber flip ⟹ chirality) generate a Klein group; GHH amphichirality = ρσ. **Stab(m004) = FULL Klein** — both fix RL alone — and so does every metallic R^mL^m (m = 1…8). **But the LOCKED class is real and generic**: of 31 amphichiral classes at length ≤ 10, **18 are diagonal-only** vs 13 full. One closing does NOT supply both arrow and handedness; B717's two closings stand | `frontier/B945_l126_one_z2` · `tests/test_b945_l126.py` · B945 B944 B136 |
+
 ## C. The chord (the coupled-object laws)
 
 | law | statement | status | witnesses | upgrade path |

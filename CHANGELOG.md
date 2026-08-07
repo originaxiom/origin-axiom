@@ -1,5 +1,10 @@
 # Changelog
 
+## B945 / L126 — one ℤ/2 or two? **INDEPENDENT.** The unification is withdrawn
+- Sealed with the prior declared split and the convenient answer named as needing the higher bar; **it did not clear it.** Stab(m004) = the **full** Klein group — time-reversal and mirror each fix RL alone — and so does every metallic R^mL^m.
+- **The census is the real find**: of 31 amphichiral cyclic words (length ≤ 10), **18 are diagonal-only (LOCKED) vs 13 full** — the locking is real and generic, and our object is the exception. Registered as **L129**.
+- Cell 4's clean identity (Rᵀ = L ⟹ amphichiral ⟺ W ~ Wᵀ, and W is symmetric) is **defused by its own vacuity check** — no content over ℚ. B944's collapse withdrawn; B717's two closings stand. 9 locks.
+
 ## B944 — the dynamics & chirality sweep: neither is missing
 - Census at verdict level: **chirality 70 PROVED / 32 NEGATIVE; dynamics 20 PROVED / 7 NEGATIVE.** Chiral matter was **constructed** (B582); the switch is θ-odd (B576); a closing supplies it (B432/B434). Dynamics: Painlevé-VI transcendental (B317), Δ = −(ln λ_m/π)² exact (B196), Anosov (B416) vs Sturmian zero-entropy (B417).
 - **The ratio laws already existed and had never been collected**: CP sign = sign CS (B303); CP phase extremal at π/6, second order as 3.8·CS² (B340).
