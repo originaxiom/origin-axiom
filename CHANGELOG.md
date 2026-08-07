@@ -1,5 +1,11 @@
 # Changelog
 
+## B944 — the dynamics & chirality sweep: neither is missing
+- Census at verdict level: **chirality 70 PROVED / 32 NEGATIVE; dynamics 20 PROVED / 7 NEGATIVE.** Chiral matter was **constructed** (B582); the switch is θ-odd (B576); a closing supplies it (B432/B434). Dynamics: Painlevé-VI transcendental (B317), Δ = −(ln λ_m/π)² exact (B196), Anosov (B416) vs Sturmian zero-entropy (B417).
+- **The ratio laws already existed and had never been collected**: CP sign = sign CS (B303); CP phase extremal at π/6, second order as 3.8·CS² (B340).
+- **The unbanked connection**: the flow has no arrow *because of amphichirality* — the same ℤ/2 that blocks handedness. **Scoping computation refuses to let it be asserted**: both involutions admit conjugators of both determinants, so the matrix level cannot decide it. Registered as L126 (+ L127, L128), not claimed.
+- The **children are a closed door** (B443, B718; B437 retracted) — their only role is to *be* the closing. 5 locks.
+
 ## The B913 lock pincer resolved (and the pincer was right)
 - A repair from Review 40 tripped B819's lock: a design-only cell is squeezed between `arc-verdicts` (FINDINGS ⟹ verdict) and B819 (VERDICT-named ⟹ verdict), and the vocabulary has no honest entry for "a choice, made and honoured". **Declined to invent a label** — that is the same class of act as the "COMPUTED" drift already caught this campaign.
 - Resolved via B837's existing "reported in a successor arc" exemption (B914 genuinely reports the design), with the record renamed `DESIGN_DISPOSITION.md` and a **new lock that the exemption is a pointer, not a black hole**.

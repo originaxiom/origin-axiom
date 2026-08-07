@@ -801,3 +801,23 @@ clause, not the whole normalisation.
 > survived". Companion: **L125** — chirality relocated to Gal(K/ℚ) is temperature-
 > independent and therefore falsifiable against the banked c-vs-θ material (B713, the
 > amphichirality thread); design a cell that can fail.
+
+> **L126 / L127 / L128 (registered 2026-08-07, from B944's sweep).**
+> **L126 — THE ONE-ℤ/2 QUESTION.** Is the amphichiral time-reversal of the Anosov
+> suspension (B716: the flow has no arrow *because* σ ~ σ⁻¹) the SAME involution as the
+> chirality/orientation ℤ/2 (B713: chirality is not in the amphichiral object)? B717's
+> capstone lists them as two separate closings from two separate arcs; the identification
+> appears nowhere in the repo. **B944 proved the matrix level cannot decide it** — both
+> involutions admit conjugators of both determinants — so it must be posed at the
+> mapping-class level via the GHH anti-palindromic criterion (B134/B136/B613), where
+> fiber- and base-orientation reversal are distinct ℤ/2's whose product is total
+> orientation reversal. **If YES: one closing supplies both the arrow and the handedness,
+> and B340 then fixes the CP phase to second order in the same closing's CS** — three
+> named gaps collapsing to one choice.
+> **L127 — THE ENTROPY PAIR.** B416 (golden-Anosov, entropy 4 log φ) and B417 (Sturmian,
+> entropy 0) are the same object on two faces at opposite entropy ends. Is there a ratio
+> law joining them, in the shape of B196's exact Δ = −(ln λ_m/π)²?
+> **L128 — THE CP RATIO CHAIN.** B303 (CP sign = sign CS) + B340 (arg κ extremal at π/6,
+> decreasing as 3.8·CS², second order in chirality) is the cleanest already-banked
+> ratio law the programme owns that touches a measured-side quantity. Under the B941
+> refinement it must be re-posed **branch-symmetrically** before any comparison.

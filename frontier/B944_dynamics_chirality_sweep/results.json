@@ -1,0 +1,568 @@
+{
+ "chirality_arcs": [
+  {
+   "id": "B14",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B22",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B127",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B128",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B134",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B136",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B139",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B140",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B143",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B144",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B145",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B146",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B147",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B152",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B156",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B193",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B252",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B253",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B262",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B271",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B277",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B286",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B292",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B301",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B303",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B316",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B318",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B340",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B348",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B356",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B380",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B389",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B395",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B407",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B418",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B422",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B432",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B434",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B467",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B470",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B530",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B569",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B572",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B576",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B581",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B582",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B583",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B584",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B585",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B589",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B592",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B593",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B595",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B596",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B597",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B599",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B604",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B605",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B607",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B611",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B612",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B613",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B626",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B643",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B644",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B658",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B669",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B678",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B695",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B711",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B713",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B714",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B725",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B753",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B755",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B759",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B760",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B773",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B774",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B848",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B849",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B855",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B856",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B859",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B860",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B861",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B863",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B864",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B865",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B868",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B869",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B871",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B879",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B882",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B894",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B910",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B914",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B916",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B923",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B929",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B938",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B942",
+   "verdict": "NEGATIVE"
+  }
+ ],
+ "dynamics_arcs": [
+  {
+   "id": "B7",
+   "verdict": "OPEN"
+  },
+  {
+   "id": "B25",
+   "verdict": "OPEN"
+  },
+  {
+   "id": "B48",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B156",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B164",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B169",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B196",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B283",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B294",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B304",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B317",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B338",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B339",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B416",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B417",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B420",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B423",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B425",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B449",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B480",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B505",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B520",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B540",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B552",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B560",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B567",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B721",
+   "verdict": "NEGATIVE"
+  },
+  {
+   "id": "B746",
+   "verdict": "PROVED"
+  },
+  {
+   "id": "B922",
+   "verdict": "PROVED"
+  }
+ ],
+ "tally": {
+  "chirality": {
+   "total": 102,
+   "PROVED": 70,
+   "NEGATIVE": 32,
+   "OPEN": 0
+  },
+  "dynamics": {
+   "total": 29,
+   "PROVED": 20,
+   "NEGATIVE": 7,
+   "OPEN": 2
+  }
+ },
+ "scoping": {
+  "phi": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "trace": 3,
+  "mirror_equals_inverse": false,
+  "conjugators_to_phi_inverse_TIME": {
+   "+1": 6,
+   "-1": 8
+  },
+  "conjugators_to_mirror_CHIRALITY": {
+   "+1": 8,
+   "-1": 6
+  },
+  "both_involutions_have_conjugators_of_BOTH_determinants": true,
+  "matrix_level_decides": false
+ }
+}
