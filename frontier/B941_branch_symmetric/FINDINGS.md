@@ -35,7 +35,7 @@ of their norms **the 953s cancel exactly**, leaving a pure {2,3,5} number. More:
 
 So the two ends of the value layer — the hierarchy the object carries and the
 geometry by which two frames compare — differ, branch-symmetrically, by
-**(the product law) / (the golden power)**, with the observer's place divided
+**(the product law) / (the mixing geometry's 5-power)**, with the observer's place divided
 out. Read plainly: *the observer's prime is a property of the reading, and it
 disappears the moment you ask for a ratio of whole-orbit quantities.*
 
@@ -56,3 +56,23 @@ smooth.
 
 `results.json` (the full symmetric table, prime supports, the headline chain) ·
 locks: `tests/test_b941_symmetric.py`.
+
+
+---
+
+## Amendment (2026-08-07, at Review 40) — a framing slip, caught and corrected
+
+The first draft of this cell described the denominator 5¹² as **"the golden
+power."** That is wrong, and it is wrong against a result this programme already
+banked: **B937 decided that the golden field DOES NOT ENTER**, four independent
+ways — 5 here is a **residue characteristic**, not ℚ(√5) content (HINT_LEDGER
+row 14 records exactly this, and flags that what remains open is the
+**exponent**: whether 12 is structural — the floor dimension? the D-flip count?
+— or incidental).
+
+The slip is instructive enough to keep on the record rather than quietly edit
+away: a suggestive prime acquires a story the moment it is named, and the story
+had already been refuted. Every occurrence has been corrected in this cell, the
+arc verdict, the masterplan amendment, PROGRESS_LOG and CAMPAIGN_STATUS. The
+mathematics is untouched — N(V)/N(W) = 2³²·3¹¹/5¹² stands exactly as computed
+and locked. Only the name of the denominator changes.

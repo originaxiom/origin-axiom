@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **862** |
-| words of findings prose | **576,060** |
+| words of findings prose | **576,225** |
 | test lock files referenced | **589** |
 | arcs carrying an authored verdict | **849** (98.5 %) |
 | recorded closures | **735** (568 classified, 167 routed-only) |
@@ -65,8 +65,8 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B941`** (489 words, 1 locks)  
-THE BRANCH-SYMMETRIC READING (from the owner's directive: hunt RATIOS, and compute ALL BRANCHES TOGETHER rather than per branch): every clean law the programme owns was already branch-symmetric (the product law, the twist-norm law, the colored cube law, the sum rule 11) while every PER-BRANCH comparison failed the same way (B929: right shape, wrong magnitude) and B936 proved per-frame data is not even a class function -- so the symmetric layer is where the object speaks in Q. The table: seven banked value families (V, W, d_S, d_A, m_S, mu, kappa) reduced to their elementary symmetric functions, every entry rational, prime support {2,3,5,7,11,13,17,19,23,31,71,151,349,367,677,953,1129,35257,421493,20417473}. THE HEADLINE: N(V)/N(W) = 2^32 3^11 / 5^12 -- the hierarchy and the mixing overlap are BOTH 953^4-led and THE 953s CANCEL EXACTLY in the ratio, leaving a pure {2,3,5} number whose NUMERATOR IS 27*2304^4, the product law's integer, over the 5^12 that entered through the mixing geometry: the two ends of the value layer differ branch-symmetrically by (the product law)/(the golden power), with the observer's place divided out -- the observer's prime is a property of the READING and disappears the moment one asks for a ratio of whole-orbit quantities. Also: N(d_S) = N(d_A) exactly (the two twist families share a norm while differing at every branch). MATHEMATICS, blind, exact; NOT a crossing -- any comparison with measured ratios stays sealed behind the R4 protocol, the anatomy's constraints, the hemisphere check, and the owner's word.  
+**PROVED — `B941`** (654 words, 1 locks)  
+THE BRANCH-SYMMETRIC READING (from the owner's directive: hunt RATIOS, and compute ALL BRANCHES TOGETHER rather than per branch): every clean law the programme owns was already branch-symmetric (the product law, the twist-norm law, the colored cube law, the sum rule 11) while every PER-BRANCH comparison failed the same way (B929: right shape, wrong magnitude) and B936 proved per-frame data is not even a class function -- so the symmetric layer is where the object speaks in Q. The table: seven banked value families (V, W, d_S, d_A, m_S, mu, kappa) reduced to their elementary symmetric functions, every entry rational, prime support {2,3,5,7,11,13,17,19,23,31,71,151,349,367,677,953,1129,35257,421493,20417473}. THE HEADLINE: N(V)/N(W) = 2^32 3^11 / 5^12 -- the hierarchy and the mixing overlap are BOTH 953^4-led and THE 953s CANCEL EXACTLY in the ratio, leaving a pure {2,3,5} number whose NUMERATOR IS 27*2304^4, the product law's integer, over the 5^12 that entered through the mixing geometry: the two ends of the value layer differ branch-symmetrically by (the product law)/(the mixing geometry's 5-power -- NOT the golden field: B937 refuted that reading four independent ways, 5 is a residue characteristic and the exponent 12 is OPEN), with the observer's place divided out -- the observer's prime is a property of the READING and disappears the moment one asks for a ratio of whole-orbit quantities. Also: N(d_S) = N(d_A) exactly (the two twist families share a norm while differing at every branch). MATHEMATICS, blind, exact; NOT a crossing -- any comparison with measured ratios stays sealed behind the R4 protocol, the anatomy's constraints, the hemisphere check, and the owner's word.  
 `B941_branch_symmetric/FINDINGS.md`
 
 **NEGATIVE — `B935`** (374 words, 1 locks)  

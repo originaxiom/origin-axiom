@@ -19719,10 +19719,11 @@
    "refs": [
     "B916",
     "B929",
-    "B936"
+    "B936",
+    "B937"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 7,
+   "obstacle_conf": 8,
    "status": "dead",
    "domain": "dynamics"
   },

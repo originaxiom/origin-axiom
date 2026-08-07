@@ -3038,3 +3038,108 @@ anchor-commit: `2efcf295` (Review 39)
    mechanisms). A cross-hemisphere graft must cite a banked license for the transfer or
    the prereg must not seal. (Both dead crossings were unlicensed grafts; both banked
    doctrines had said so in advance — this question makes that knowledge enforceable.)
+
+
+## Review 40 — 2026-08-07 (merges 1–29 from Review 39; the crossings / question-wave / precedent-number window)
+
+anchor-commit: to be set at close (this review's own commit)
+
+1. **Suite:** the dedicated complete run — **3594 passed, 3 failed, 35 skipped**
+   (1:26:27). Unlike Review 39's window-hygiene failures, **all three were real
+   discipline failures, and all three were in locks whose whole purpose is to stop
+   results going quiet**: (a) `test_b833_negative_routing` — B935, a NEGATIVE-verdict
+   arc, was absent from the kill graph, i.e. the B801/B833/B836 backlog had rebuilt by
+   exactly one; (b) `test_b837_file_drawer` — B913 was a sealed, ledgered prereg with no
+   report; (c) `test_no_hardcoded_paths` — an absolute machine path in
+   `docs/progress/REVIEWS.md`, *inside the sentence describing Review 39's own path
+   scrub* (the fix necessarily edited archived review text in place — the narrow exception
+   the path lock forces on an otherwise append-only file). All fixed at review, affected
+   locks rerun green (33/33). **Reading: the
+   anti-burial locks are load-bearing and they are earning their keep — this is the
+   first window where the suite caught substantive discipline drift rather than
+   cosmetics.**
+2. **Gates:** 18/18 green at close. One caught a real thing during the review itself:
+   `arc-verdicts` refused B913's disposition record when it was filed as `FINDINGS.md`,
+   which forced the right question — a design-only cell asserts no proposition, so it
+   takes no entry in the `PROVED / NEGATIVE / OPEN / RETRACTED` vocabulary. Filed as
+   `VERDICT.md` instead. **Stretching a verdict label to cover a design decision would
+   have been exactly the vocabulary drift the wave-1 lock exists to catch** (and which
+   this seat committed once already this campaign, with the invented label "COMPUTED").
+   **A second gate fired on this reviewer during the review itself**: correcting item 7(b)'s
+   mis-naming, I edited an already-committed PROGRESS_LOG entry in place, and `append-only`
+   refused it. That is the correct refusal — the log is append-only by governance,
+   corrections are appended and never retroactive. The B941 entry therefore **stays as
+   written**, with the mis-naming visible, and a following entry corrects it. A record you
+   can edit is not a record.
+3. **Atlas + views:** regenerated at every bank; lexicon current; BLIND_ARCS triage kept
+   up (B899, B935 as GAP).
+4. **Promotion-candidacy sweep.** The window banked B909, B914–B941 — the three
+   crossings, the D₂ decode, the question wave, the end-to-end chain, and two precedent
+   numbers. Candidates for the §5 gates, one per pass: **B928** (the D₂ characterization
+   — the Klein 2-torsion and the hierarchy's carrier), **B936** (the H¹ classification +
+   the value-invisibility theorem), **B931/B937** (the observer-place law; K monogenic),
+   **B941** (the branch-symmetric ratio law). Carried from R39: B908, B916+B918, B912,
+   B914. Nothing was promoted this window — correctly; the crossing arcs are negatives
+   and the value layer is frame-relative.
+5. **Terminology sweep (protocol item 7):** banked mid-window (`49b2b4e0`) — entries for
+   value-invisibility, the hemisphere check, the three crossings.
+6. **Hint sweep (protocol item 8):** row 13 added (the level song's flip-mass table); row
+   14 added and immediately *partially resolved* by B937 (the golden field does not
+   enter — 5 is a residue characteristic; the open question is the **exponent** 12).
+   **Row 14 then caught a live error in this same window — see item 7.**
+7. **Framing sweep — two findings, one of them the most important item in this review.**
+
+   **(a) The priority-language asymmetry.** B940's preregistration invented the **O3
+   gate**: *no banked sentence may contain the word "first" until the prior-art sweep
+   reaches MathSciNet/zbMATH grade.* The gate worked exactly as designed — the panel
+   reached zbMATH, OpenAlex full-text and citation graph, arXiv, Semantic Scholar,
+   INSPIRE, and read Bär 2000's complete 59-work citing set individually, but
+   **MathSciNet was behind an auth wall**, so the standard is half met and **the gate
+   stayed shut**: no priority sentence appears anywhere in B940, and a lock enforces it.
+   **But the gate was applied prospectively only.** Earlier in this same window, B922
+   banked *"the first 25-digit Maass eigenvalue on any hyperbolic 3-manifold"* — an
+   unqualified priority sentence, in its FINDINGS title and its arc verdict, resting on a
+   sweep of unrecorded depth; and B933's commit message called the Dirac probe *"a first
+   on H³"*. **A gate that binds only future arcs is not a standard, it is a mood.** The
+   equivalent adversarial panel has been dispatched for the Maass claim, with the same
+   mandate (try hard to FIND prior art; a citation is the more valuable result) and the
+   same three-part question — has anyone computed Maass eigenvalues on hyperbolic
+   3-manifolds, *to what precision*, and specifically on m004 — plus an explicit verdict
+   on the repo's own asserted "~10 digit" precedent. **Until it lands, B922's sentence is
+   flagged, not defended.**
+
+   **(b) A refuted reading crept back in, and the hint ledger caught it.** B941's first
+   draft named the denominator 5¹² *"the golden power"* — but B937 had already decided
+   the golden field does not enter, four independent ways; 5 is a residue characteristic.
+   Corrected everywhere, with the amendment kept **on** the record rather than silently
+   edited, because the failure mode deserves a name: **a suggestive prime acquires a
+   story the moment it is named, and this story had already been refuted.** The
+   mathematics was untouched.
+
+   **(c) Gate 5's door** was opened three times this window, each under seal, each
+   reported faithfully: B915 (MISS, 16σ), B925 (OUTCOME B by the chain's own algebra),
+   B929 (HIT-SHAPE, wrong magnitude 5–9×). No physics identification entered any ledger.
+   The owner's late-window directive **sharpened** the protocol — future crossings must
+   be phrased at the branch-symmetric, ratio-only layer — and the non-weakening clause is
+   untouched.
+8. **Process findings.** (a) **The seal is doing real work, and this window proved it
+   twice over.** B940's P3 control showed that at three decoy positions the two-Y
+   reproducibility bar *passed on pure instrument determinism* — a conjunction criterion
+   certified a real eigenvalue where a single-bar criterion would have certified noise.
+   Banked as a method law: **a reproducibility bar measures the instrument's determinism,
+   not the object's spectrum.** (b) **Agents self-reporting their own failures** continued
+   (B936's agent sealed itself and reported its own miss; B935's abort *was* the finding —
+   rank 2, not a bug), but positivity was assumed a **third** time this week, which is now
+   a pattern rather than an incident. (c) **The infrastructure interruption** (auth loss
+   killing five question-wave agents) cost no work — three partial artifacts were
+   recovered from disk and two lanes relaunched — and a 93-CPU-hour orphan process from
+   five days earlier was found and killed. Process hygiene is now on the resume checklist.
+   (d) The owner's two framing interventions this window (**"we're not hunting values but
+   ratios"**, and **"all branches computed together"**) each turned out to describe what
+   the object had already been saying: every clean banked law was already branch-symmetric,
+   and the first ratio computed under the new framing made the observer's prime cancel.
+9. **State at close:** in flight — the B922 Maass prior-art panel; λ₂'s parent (cc3);
+   L-TAU2, L-PI7. Owed: **L113** (the BC/CMR falsifier — the executioner scheduled and
+   still owed), the four papers (structure, Maass, value-layer, methodology). Registered:
+   the branch-symmetric phrasing requirement; B913's two deferred magnitude candidates,
+   now runnable post-R4 as their own sealed cells.

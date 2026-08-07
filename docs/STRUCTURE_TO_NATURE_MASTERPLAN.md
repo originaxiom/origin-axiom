@@ -549,7 +549,7 @@ of each value family's Galois orbit, taken over all three branches together). Ra
 (B941): every clean banked law is already of this type, every per-branch comparison failed
 identically, and B936 proved per-frame data is not a class function. First fruit: the
 observer's prime 953 CANCELS in N(V)/N(W) = 2³²3¹¹/5¹² = (the product law's integer)/(the
-golden power). **Any future crossing proposal must be phrased at this layer** — symmetric,
+mixing geometry's 5-power -- NOT the golden field, per B937). **Any future crossing proposal must be phrased at this layer** — symmetric,
 ratio-only, dimensionless — in addition to satisfying the anatomy's boundary-relational
 constraints, the hemisphere check, the walls, the base rate, and the owner's word. This
 amendment SHARPENS the crossing protocol; it does not weaken it (the R4 non-weakening clause

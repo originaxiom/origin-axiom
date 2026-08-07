@@ -1,5 +1,8 @@
 # Changelog
 
+## Review-40 self-catch — B941's denominator renamed
+- "The golden power" was a refuted reading (B937: the golden field does not enter; 5 is a residue characteristic — HINT_LEDGER row 14, where the open question is the *exponent*). Corrected everywhere, amendment kept on the record. The mathematics is unchanged.
+
 ## Three discipline repairs (Review-40 suite)
 - **B935 routed into the kill graph** (the negatives backlog had rebuilt by one) with its real mechanism: collapse by similarity, and the narrower wall underneath — a rank-2 overlap geometry cannot yield a three-term cascade by any composition.
 - **B913 disposition recorded** — design-only by its own sealed text, consumed faithfully by B914; filed as `VERDICT.md` not `FINDINGS.md` because the arc asserts no proposition and the verdict vocabulary must not be stretched.
