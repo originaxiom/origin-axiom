@@ -10300,5 +10300,16 @@
   ],
   "fact_computed": true,
   "hatch": "The collapse mechanism (psi0-reality + C-centrality closing both parity channels) is PROVEN for THIS face pair's stage; other face pairs with non-central twists or complex listeners escape the mechanism's hypotheses -- the face-pair SURVEY at one-value-per-pair expectation is the honest continuation. Also the golden conjugation's no-lift is specific to Q(zeta15); stages over other cyclotomic fields need their own involution census."
+ },
+ {
+  "id": "B935",
+  "claim_killed": "That composing the object's forced maps (R-conjugation, the polar/singular decomposition, both orderings of Ghat and R, the v-weight conjugation) yields INDEPENDENT invariant triples, one of which could carry a three-term mixing cascade -- the map question's first well-posed form.",
+  "kill_form": "rigidity-collapse-with-mechanism",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "The collapse is by SIMILARITY, not by numerics: eig(R^T Ghat R) = eig(Ghat) (orthogonal similarity), eig(D_v-conj) = eig(Ghat) (diagonal similarity), eig(Ghat R) = eig(R Ghat) (the AB/BA theorem). Any escape needs a composition OUTSIDE the closed whitelist of forced maps -- i.e. a map the object forces that this census missed, which is a well-posed thing to look for. The deeper structural reason is narrower than the whitelist and is the real wall: the S-A overlap matrix is RANK 2 (det X2 = 0 EXACTLY, likewise the v-conjugate), so one register direction has no overlap with the A family at all and the composed triples are not descending-positive -- the cascade index is UNDEFINED for them. A three-term mixing cascade cannot come from register mixing geometry that has only two nonzero directions, by ANY composition. Escaping that requires a different geometry, not a different composition."
  }
 ]

@@ -19688,6 +19688,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B940": {
+   "slug": "dirac sealed",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B933",
+    "P3",
+    "P4",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 17,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B941": {
    "slug": "branch symmetric",
    "motifs": [

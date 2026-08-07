@@ -1,5 +1,15 @@
 # Changelog
 
+## Three discipline repairs (Review-40 suite)
+- **B935 routed into the kill graph** (the negatives backlog had rebuilt by one) with its real mechanism: collapse by similarity, and the narrower wall underneath — a rank-2 overlap geometry cannot yield a three-term cascade by any composition.
+- **B913 disposition recorded** — design-only by its own sealed text, consumed faithfully by B914; filed as `VERDICT.md` not `FINDINGS.md` because the arc asserts no proposition and the verdict vocabulary must not be stretched.
+- Absolute machine path scrubbed from `docs/progress/REVIEWS.md`.
+
+## B940 — the sealed Dirac run: OUTCOME A, and a gate held shut
+- Criterion sealed and pushed before compute (hash re-verified at banking). **λ₁ = 2.974550580 on a cusped hyperbolic 3-manifold** — two eigenvalues pass every element, four instruments agree to 8.15e-13, honest uncertainty 3e-12, ± partner enforced by theorem, two instruments agree on the dip list. Kernel excluded; no multiplicity claimed; all three caveats carried verbatim.
+- Two probe corrections (a latent quadrature defect; the "8-digit floor" was a search artifact). **Method law: a reproducibility bar measures the instrument's determinism, not the object's spectrum** — three displaced-λ controls agreed *below* the sealed bar; only the conjunction discriminates.
+- **O3: the priority gate stays CLOSED** — zbMATH, OpenAlex, arXiv, INSPIRE and Bär 2000's complete 59-work citing set reached; MathSciNet not. Half a named standard is not the standard. Control positive (2311.13330); near-miss cited positively (2506.07238); qualifiers "nonzero"/"cusped" recorded as load-bearing. 15 locks.
+
 ## B941 — the branch-symmetric reading: the observer's prime cancels
 - The owner's refinement (ratios, all branches together) computed: every clean law was already branch-symmetric; the seven value families' symmetric functions tabulated exactly. **N(V)/N(W) = 2³²·3¹¹/5¹² — the 953s cancel**, numerator = 27·2304⁴ (the product law's integer), denominator = the 5¹² from the mixing geometry. N(d_S) = N(d_A) exactly.
 - **Registered programme-wide**: future crossing proposals must be phrased at the symmetric, ratio-only layer (sharpens the protocol; the non-weakening clause untouched). 3 locks.
