@@ -487,3 +487,4 @@ hash-first status.*
 | 2026-08-06 | B929 THE THIRD CROSSING (Twist stage 2; owner: "keep going") | `frontier/B929_third_crossing/PREREGISTRATION.md` | `672b5afb30d9cee143d81b5bfd5f0b0ba8986400a599ea7903b0c5da1324c65e` |
 | 2026-08-07 | B940 THE SEALED DIRAC RUN (the second precedent number; O3-gated language) | `frontier/B940_dirac_sealed/PREREGISTRATION.md` | `6c513b0634c743df4015fc694d5dbd23dbf38e35829b838012a71dbfa75311fe` |
 | 2026-08-07 | B942 L113 THE BC/CMR FALSIFIER (MASTERPLAN v2 Phase III item 3; the kill condition is locked) | `frontier/B942_l113_bc_falsifier/PREREGISTRATION.md` | `48cd1ea291277f8c85637a9c817a554edc7bc4370bf7ec893bec223428ebc5a2` |
+| 2026-08-07 | B945 L126 ONE Z/2 OR TWO (time-reversal vs chirality, at the mapping-class level; prior split and declared) | `frontier/B945_l126_one_z2/PREREGISTRATION.md` | `4873215851b1ea76adbf7997b6795ed502dad7597d15ddb3f55bacb109d1dfdf` |
