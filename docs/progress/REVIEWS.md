@@ -3042,7 +3042,7 @@ anchor-commit: `2efcf295` (Review 39)
 
 ## Review 40 — 2026-08-07 (merges 1–29 from Review 39; the crossings / question-wave / precedent-number window)
 
-anchor-commit: to be set at close (this review's own commit)
+anchor-commit: `a5299faa` (Review 40)
 
 1. **Suite:** the dedicated complete run — **3594 passed, 3 failed, 35 skipped**
    (1:26:27). Unlike Review 39's window-hygiene failures, **all three were real
