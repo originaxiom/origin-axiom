@@ -486,3 +486,4 @@ hash-first status.*
 | 2026-08-06 | B928 THE D2 DECODE (the Twist Crossing stage 1; owner: "seal it and run it") | `frontier/B928_d2_decode/PREREGISTRATION.md` | `5a7aa9731b227d0d9ca7c4f56c4787f8f035fcfe2becddf996c85f1e3f14eba8` |
 | 2026-08-06 | B929 THE THIRD CROSSING (Twist stage 2; owner: "keep going") | `frontier/B929_third_crossing/PREREGISTRATION.md` | `672b5afb30d9cee143d81b5bfd5f0b0ba8986400a599ea7903b0c5da1324c65e` |
 | 2026-08-07 | B940 THE SEALED DIRAC RUN (the second precedent number; O3-gated language) | `frontier/B940_dirac_sealed/PREREGISTRATION.md` | `6c513b0634c743df4015fc694d5dbd23dbf38e35829b838012a71dbfa75311fe` |
+| 2026-08-07 | B942 L113 THE BC/CMR FALSIFIER (MASTERPLAN v2 Phase III item 3; the kill condition is locked) | `frontier/B942_l113_bc_falsifier/PREREGISTRATION.md` | `48cd1ea291277f8c85637a9c817a554edc7bc4370bf7ec893bec223428ebc5a2` |
