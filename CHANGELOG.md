@@ -1,5 +1,10 @@
 # Changelog
 
+## B942 / L113 — the BC/CMR falsifier fired at our own construction and HIT
+- Sealed before compute with the prior disclosed **as a kill against ourselves**; **OUTCOME YES**, all four cells. Complex conjugation is **not** in Gal(K^ab/K) (computed two ways, 14 cyclotomic layers, index 2 throughout); all four escape hatches closed (the ζ_K pole confirmed to 6e-11 vs the class-number formula; no canonical ℤ/2 quotient; trivial conjugation action; zero real places).
+- **The kill condition is EXECUTED**: chirality-as-Galois-label **retracted**, B723 banner-corrected with its text retained. The neighbouring values/torsor clause is demoted to **UNEARNED** (new lead L124), not waved through.
+- **The replacement**: values in the kernel, chirality in the quotient Gal(K/ℚ) ⟹ **the object's c-swap is arithmetic, not thermodynamic** — present at every temperature, produced by no cooling. Falsifiable; becomes L125. 14 locks.
+
 ## Review-40 self-catch — B941's denominator renamed
 - "The golden power" was a refuted reading (B937: the golden field does not enter; 5 is a residue characteristic — HINT_LEDGER row 14, where the open question is the *exponent*). Corrected everywhere, amendment kept on the record. The mathematics is unchanged.
 

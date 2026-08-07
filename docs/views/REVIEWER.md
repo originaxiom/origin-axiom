@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **862** |
-| words of findings prose | **576,225** |
-| test lock files referenced | **589** |
-| arcs carrying an authored verdict | **849** (98.5 %) |
-| recorded closures | **735** (568 classified, 167 routed-only) |
+| research arcs with findings | **863** |
+| words of findings prose | **578,349** |
+| test lock files referenced | **590** |
+| arcs carrying an authored verdict | **850** (98.5 %) |
+| recorded closures | **736** (569 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 546 |
-| NEGATIVE | 265 |
+| NEGATIVE | 266 |
 | OPEN | 29 |
 | RETRACTED | 9 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 19 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 20 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE BRANCH-SYMMETRIC READING (from the owner's directive: hunt RATIOS, and compute ALL BRANCHES TOGETHER rather than per branch): every clean law the programme owns was already branch-symmetric (the product law, the twist-norm law, the colored cube law, the sum rule 11) while every PER-BRANCH comparison failed the same way (B929: right shape, wrong magnitude) and B936 proved per-frame data is not even a class function -- so the symmetric layer is where the object speaks in Q. The table: seven banked value families (V, W, d_S, d_A, m_S, mu, kappa) reduced to their elementary symmetric functions, every entry rational, prime support {2,3,5,7,11,13,17,19,23,31,71,151,349,367,677,953,1129,35257,421493,20417473}. THE HEADLINE: N(V)/N(W) = 2^32 3^11 / 5^12 -- the hierarchy and the mixing overlap are BOTH 953^4-led and THE 953s CANCEL EXACTLY in the ratio, leaving a pure {2,3,5} number whose NUMERATOR IS 27*2304^4, the product law's integer, over the 5^12 that entered through the mixing geometry: the two ends of the value layer differ branch-symmetrically by (the product law)/(the mixing geometry's 5-power -- NOT the golden field: B937 refuted that reading four independent ways, 5 is a residue characteristic and the exponent 12 is OPEN), with the observer's place divided out -- the observer's prime is a property of the READING and disappears the moment one asks for a ratio of whole-orbit quantities. Also: N(d_S) = N(d_A) exactly (the two twist families share a norm while differing at every branch). MATHEMATICS, blind, exact; NOT a crossing -- any comparison with measured ratios stays sealed behind the R4 protocol, the anatomy's constraints, the hemisphere check, and the owner's word.  
 `B941_branch_symmetric/FINDINGS.md`
 
-**NEGATIVE — `B935`** (374 words, 1 locks)  
-THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions (R-conjugation; the polar/singular decomposition; both orderings GhatR and RGhat; the v-weight conjugation) yields exactly FOUR invariant triples MOST OF WHICH ARE FORCED TO COINCIDE -- eig(R^T Ghat R) = eig(Ghat) (orthogonal similarity, 4.6e-151), eig(D_v-conj) = eig(Ghat) (diagonal similarity, 1.5e-151), eig(GhatR) = eig(RGhat) (the AB/BA theorem, 3.1e-151), and all four singular-value sets identical: NO COMPOSITION IS INDEPENDENT, the premise dies by similarity rather than numerics. THE STRUCTURAL REASON: the S-A overlap matrix is RANK 2 -- its singular cubic has an EXACT ZERO root (det X2 = 0 exactly, likewise the v-conjugate), so one register direction has NO overlap with the A family, the composed eigen-triples are not descending-positive (the cascade index is UNDEFINED for them), ZERO compositions land in the [1.2,1.6] band, and the object's register mixing geometry has only TWO nonzero directions -- it cannot produce a three-term mixing cascade by this route at all. Two amendments logged (positivity assumed AGAIN -- the abort was the finding; the 1e-80 belt bar exceeding the sqrt-of-small precision floor, recalibrated to the house 1e-40 with 3.9e-76 achieved).  
-`B935_composition_hunt/FINDINGS.md`
+**NEGATIVE — `B942`** (1945 words, 1 locks)  
+L113, THE BC/CMR FALSIFIER -- OUTCOME YES against a criterion sealed and pushed (9d806a4e, sha-256 48cd1ea2...) BEFORE any cell ran, with the prior disclosed AS OUTCOME YES, i.e. as a kill against the programme's own construction. THE KILL CONDITION (MASTERPLAN v2 Phase III, locked) IS HEREBY EXECUTED. Cell 1: the load-bearing assumption was never an assumption -- B723's own text NAMES the Bost-Connes/CMR system over Q(sqrt-3) AND names Gal(K^ab/K) as the label group, so the falsifier applies directly. Cell 2 (COMPUTED, not cited, two independent ways): complex conjugation is NOT an element of Gal(K^ab/K) -- symbolically, every sigma fixes K pointwise while c sends sqrt(-3) to -sqrt(-3); and as finite membership tests in FOURTEEN cyclotomic layers, Gal(Q(zeta_m)/K) = {a = 1 mod 3} never contains c = -1, at index exactly 2 in every layer. Where c DOES live: the exact sequence 1 -> Gal(K^ab/K) -> Gal(K^ab/Q) -> Gal(K/Q) -> 1 puts c OUTSIDE the kernel and ON TOP of it -- THE Z/2 THE OBJECT NEEDS IS THE QUOTIENT, THE LABEL GROUP THE SSB PRODUCES IS THE KERNEL. Cell 3, all four escape hatches computed and closed: (a) the object-level route is obstructed -- the beta=1 SSB IS the pole of zeta_K at s=1, confirmed numerically to 6e-11 against the class-number formula 2*pi/(6*sqrt 3) = 0.604599788078, while a finite level (m004 congruence at (2)^3, image order 2560) has a FINITE Dirichlet sum, entire, no pole, no transition -- independently reconfirming B736; (b) NO canonical Z/2 quotient of Gal(K^ab/K) exists -- the census 0,0,0,1,1,1,1,1,1,3,3,7,15,31 is non-decreasing with five strict rises and unbounded, infinitely many and none distinguished; (c) c does not act on the labels from outside either -- on the cyclotomic tower the ambient group is abelian so conjugation acts by the IDENTITY; what c does is swap the two COSETS, a Q-level Z/2, a repair not a rescue; (d) K is imaginary quadratic, signature (0,1), ZERO real places, so no archimedean Z/2 -- every hatch leads back to the same place, the Z/2 exists ONE LEVEL UP. Cell 4: free+transitive makes the label set a torsor under the FULL infinite profinite group while chirality is a Z/2, so one label carrying both either COLLAPSES the torsor (contradicting free-transitivity) or requires an ARBITRARY CHOICE (contradicting canonicity) -- both horns fatal. RETRACTED: chirality = the extremal-KMS/Galois label; choosing a sheet = breaking the c-swap read as the beta=1 SSB; measurement-as-cooling as an account of chirality. The corpus shape is RIGHT OBJECT, WRONG LEVEL -- imported from the Q case where conjugation genuinely IS in the symmetry group (-1 in Zhat*), exactly as B851 diagnosed. WHAT SURVIVES, ARGUED NOT ASSUMED: the values/torsor clause is NOT refuted -- but it is NOT certified either, since B700/B701's simply-transitive torsor being THE CMR torsor has the same asserted-not-demonstrated shape as the clause just killed; registered as a NEW OPEN LEAD and marked UNEARNED, not refuted, so the surviving half is not waved through. THE REPLACEMENT: values live in the kernel, chirality in the quotient -- and therefore THE OBJECT'S C-SWAP IS NOT THERMODYNAMIC. Gal(K/Q) is present at every temperature, is not broken at beta=1, and no cooling produces it; if chirality is broken at all it is broken ARITHMETICALLY, in passing from Q to K, not thermally. That is a falsifiable relocation, testable against the banked c-vs-theta material. MATHEMATICS lane, Gate 5 untouched, nothing to CLAIMS.  
+`B942_l113_bc_falsifier/FINDINGS.md`
 
 **RETRACTED — `B780`** (851 words, 0 locks)  
 The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.  

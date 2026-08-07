@@ -10311,5 +10311,16 @@
   ],
   "fact_computed": true,
   "hatch": "The collapse is by SIMILARITY, not by numerics: eig(R^T Ghat R) = eig(Ghat) (orthogonal similarity), eig(D_v-conj) = eig(Ghat) (diagonal similarity), eig(Ghat R) = eig(R Ghat) (the AB/BA theorem). Any escape needs a composition OUTSIDE the closed whitelist of forced maps -- i.e. a map the object forces that this census missed, which is a well-posed thing to look for. The deeper structural reason is narrower than the whitelist and is the real wall: the S-A overlap matrix is RANK 2 (det X2 = 0 EXACTLY, likewise the v-conjugate), so one register direction has no overlap with the A family at all and the composed triples are not descending-positive -- the cascade index is UNDEFINED for them. A three-term mixing cascade cannot come from register mixing geometry that has only two nonzero directions, by ANY composition. Escaping that requires a different geometry, not a different composition."
+ },
+ {
+  "id": "B942",
+  "claim_killed": "That the observer's CHIRALITY is the extremal-KMS / Galois label of the beta=1 BC/CMR system over K = Q(sqrt-3) -- i.e. that choosing a sheet IS breaking the c-swap by spontaneous symmetry breaking at the critical temperature (B723's central identification).",
+  "kill_form": "group-membership-refutation",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "The Z/2 is real and survives ONE LEVEL UP: c generates Gal(K/Q), the QUOTIENT in 1 -> Gal(K^ab/K) -> Gal(K^ab/Q) -> Gal(K/Q) -> 1, while the SSB produces the KERNEL. So the live successor question is not thermal but arithmetic: chirality as a Q-vs-K phenomenon, temperature-independent, testable against the banked c-vs-theta material (B713, the amphichirality thread). Four escape hatches were computed and closed (object-level finite truncation has no zeta pole; no canonical Z/2 quotient exists; conjugation acts trivially on the labels in the abelian layers; K has zero real places) -- an escape would need a route outside that enumeration. SEPARATELY OPEN, and deliberately not certified here: whether B700/B701's simply-transitive torsor IS the CMR torsor (same asserted-not-demonstrated shape as the killed clause)."
  }
 ]

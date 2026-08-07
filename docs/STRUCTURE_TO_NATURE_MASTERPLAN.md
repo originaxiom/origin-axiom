@@ -554,3 +554,17 @@ ratio-only, dimensionless — in addition to satisfying the anatomy's boundary-r
 constraints, the hemisphere check, the walls, the base rate, and the owner's word. This
 amendment SHARPENS the crossing protocol; it does not weaken it (the R4 non-weakening clause
 is untouched).
+
+### Dated amendment (2026-08-07) — THE L113 KILL CONDITION HAS BEEN EXECUTED
+B942 ran the BC/CMR falsifier under seal (prior disclosed as OUTCOME YES, i.e. as a kill
+against our own build) and it returned **YES**. Per the locked kill condition, *"the
+observer construction's foundation fails; Phase III restructures around the wreckage,
+honestly"* — and it has been executed, not softened: the chirality-as-Galois-label
+identification is **retracted** (c ∉ Gal(K^ab/K), computed two ways, four escape hatches
+closed), B723 carries a correction banner, and the neighbouring values/torsor clause is
+demoted to **UNEARNED** (new lead L124) rather than being waved through. **Phase III item 3
+is CLOSED.** The restructuring: chirality is relocated to the quotient Gal(K/ℚ) — the
+object's c-swap is **arithmetic, not thermodynamic**, present at every temperature and
+produced by no cooling — which is a falsifiable relocation and becomes L125. Phase III
+items 1 (ι/τ-parity) and 2 (the torsor cocycle) are unaffected in their statements but
+now sit above a foundation one clause thinner; item 2 should be read together with L124.

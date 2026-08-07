@@ -14918,11 +14918,13 @@
     "B718",
     "B719",
     "B721",
+    "B942",
+    "L113",
     "S070"
    ],
    "obstacle": "measure",
    "obstacle_conf": 6,
-   "status": "banked",
+   "status": "dead",
    "domain": "topology"
   },
   "B724": {
@@ -19726,6 +19728,34 @@
    "obstacle_conf": 8,
    "status": "dead",
    "domain": "dynamics"
+  },
+  "B942": {
+   "slug": "l113 bc falsifier",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B700",
+    "B701",
+    "B713",
+    "B723",
+    "B734",
+    "B736",
+    "B849",
+    "B851",
+    "L113"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B94": {
    "slug": "tower universality",

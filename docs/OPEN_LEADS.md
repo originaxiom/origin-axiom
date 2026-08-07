@@ -733,7 +733,7 @@ clause, not the whole normalisation.
 ### Re-registrations from the cc3 loss audit (2026-08-05) — dropped forward obligations, each one row
 | id | lead | source | status |
 |---|---|---|---|
-| L113 | **The BC/CMR successor question** — is the β=1 system a BC/CMR-type system for K = ℚ(√−3)? The sole load-bearing assumption behind the level mismatch; if YES, B723's central identification fails unconditionally. cc3's branch holds the ℚ(√−3) groundwork (ray class mod (4) = ℤ/2; the Bianchi-BC verified negative + its structural reason). | B851 §3; phantom B858 | OPEN — the sharpest falsifier of the observer construction |
+| L113 | **The BC/CMR successor question** — is the β=1 system a BC/CMR-type system for K = ℚ(√−3)? The sole load-bearing assumption behind the level mismatch; if YES, B723's central identification fails unconditionally. cc3's branch holds the ℚ(√−3) groundwork (ray class mod (4) = ℤ/2; the Bianchi-BC verified negative + its structural reason). | B851 §3; phantom B858 | **RESOLVED 2026-08-07 by B942 — OUTCOME YES; the kill condition EXECUTED** |
 | L114 | **The ι-status question (H-B787-IOTA), promoted** — decides whether the torsor measurement and the FMT measurement are one object; cc3's τ-parity prototype (L111) is the instrument. | B787; audit A3 | OPEN — cc3 assigned (their D4) |
 | L115 | **The a_π census** — Cell 2's CM-vs-construction discriminator (~10 primes, density-½). | cc3 branch cell2 | OPEN — cc3 assigned (their D3) |
 | L116 | **The Steil 1999 read** (IMA 109, 617–641) — class labels for the lift question. | registered source, never read | OPEN |
@@ -791,3 +791,13 @@ clause, not the whole normalisation.
 | L-TAU2 (new) | **OPEN, GO GIVEN** — the mult-2 τ-projection: all six mult-1 newforms are τ-EVEN (V₅; parent control ε = +1 at 1e−9), so B791's τ-odd sector V₆ must hide inside the ten multiplicity-2 doubles (each double = even ⊕ odd — which would explain the multiplicity pattern itself). cc3 runs it under the standing GO. |
 
 *Review 40 (2026-08-07): window B909, B914–B941 reviewed — the three crossings all negative, D₂ decoded as the hierarchy's carrier, the value layer proved value-invisible, two precedent numbers banked (the Maass and Dirac eigenvalues), and the branch-symmetric ratio-only phrasing registered as binding on any future crossing. Three real discipline failures caught by the anti-burial locks and fixed; the priority-language asymmetry flagged (B922's unqualified claim predates the O3 gate — panel dispatched). See docs/progress/REVIEWS.md.*
+
+> **L124 (registered 2026-08-07, from B942 §6).** **Is B700/B701's simply-transitive
+> torsor the CMR torsor — i.e. is its structure group Gal(K^ab/K)?** B942 killed the
+> chirality clause of the observer construction at the level of group membership, and
+> explicitly REFUSED to certify the neighbouring values/torsor clause, which rests on an
+> identification of exactly the same asserted-not-demonstrated shape. Status: **UNEARNED,
+> not refuted.** Until this is computed, no argument may lean on "the values clause
+> survived". Companion: **L125** — chirality relocated to Gal(K/ℚ) is temperature-
+> independent and therefore falsifiable against the banked c-vs-θ material (B713, the
+> amphichirality thread); design a cell that can fail.
