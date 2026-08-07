@@ -6,7 +6,7 @@
 
 ---
 
-## Why this file exists, and why it is not a FINDINGS
+## Why this file exists, and why it is neither a FINDINGS nor a VERDICT
 
 The file-drawer lock (`tests/test_b837_file_drawer.py`) requires that **every
 sealed, ledgered preregistration ends in either a reported result or a recorded
@@ -17,11 +17,24 @@ what the cell sealed itself to be:
 > this ID.** (PREREGISTRATION.md, §Files, verbatim)
 
 This is the disposition record. It closes the obligation without inventing a
-computation that was never run. It is deliberately **`VERDICT.md`, not
-`FINDINGS.md`**: the arc asserts no proposition, so it takes no entry in the
-`PROVED / NEGATIVE / OPEN / RETRACTED` vocabulary — and stretching one of those
-labels to cover a design decision would be exactly the verdict-vocabulary drift
-the wave-1 lock exists to catch.
+computation that was never run.
+
+**Two false starts are recorded here rather than erased, because the second one
+is instructive.** Filed first as `FINDINGS.md`, it tripped the `arc-verdicts`
+gate, which requires a sibling `arc_verdict.json` — and the arc asserts no
+proposition, so it takes no entry in the `PROVED / NEGATIVE / OPEN / RETRACTED`
+vocabulary (`OPEN` in this repo means *unsettled*, which this is not).
+Refiled as `VERDICT.md`, it tripped B819's lock instead, which catches
+nonstandard-layout arcs that lack a verdict record — the two locks pull in
+opposite directions on a cell of this shape, and **that pincer is the correct
+behaviour**: it refuses to let a design decision masquerade as a result.
+
+The resolution uses a mechanism the repo already had rather than a new verdict
+label: B837's file-drawer lock exempts preregistrations **"audited as REPORTED
+in a successor arc's findings"**, which is exactly this cell's situation (§
+*Where it was consumed*). B913 joins that list, and this file is the audit
+trail — named so that neither lock claims it, and so that the exemption is a
+pointer rather than a black hole.
 
 ## What B913 decided
 

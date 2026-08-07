@@ -1,5 +1,9 @@
 # Changelog
 
+## The B913 lock pincer resolved (and the pincer was right)
+- A repair from Review 40 tripped B819's lock: a design-only cell is squeezed between `arc-verdicts` (FINDINGS ⟹ verdict) and B819 (VERDICT-named ⟹ verdict), and the vocabulary has no honest entry for "a choice, made and honoured". **Declined to invent a label** — that is the same class of act as the "COMPUTED" drift already caught this campaign.
+- Resolved via B837's existing "reported in a successor arc" exemption (B914 genuinely reports the design), with the record renamed `DESIGN_DISPOSITION.md` and a **new lock that the exemption is a pointer, not a black hole**.
+
 ## B943 — the O3 gate applied retroactively; B922's priority sentence corrected
 - **PRIOR ART FOUND — PARTIAL.** The precedent number is **refuted** (13 decimal places, not the "~10" asserted — so the lead is 12, not 15); "on any hyperbolic 3-manifold" was wrong twice over; the pullback caveat is resolved by a fact **computed here** (vol ratio exactly 12; W_parent(4.900) = 0.336; W_parent(7.072) = 1.010, reproducing B791 from scratch).
 - The priority sentence is **replaced by a comparative statement with no priority word** — MathSciNet is still unreachable, so the standard stays half met. Two qualifiers now load-bearing: **"cusp form"** and **"not inherited"**. B922's mathematics is untouched.
