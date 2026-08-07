@@ -4,6 +4,24 @@ A claim-bounded, reproducible investigation of the **Origin Axiom** — the idea
 existence is a *frustrated cancellation*: a remainder left when an attempt to cancel to
 nothing cannot complete.
 
+> **State at Review 40 (2026-08-07).** All three crossings have now fired, under seal, and
+> all three came back negative in different ways: the desert MISSES at 16σ (B915), the
+> D-chain is provably **not** Pati–Salam by the chain's own algebra (B925), and the twist's
+> cascade is mixing-*shaped* but wrong in magnitude by 5–9× (B929). A two-lane study closed
+> the question of why: the repo's own anatomy (22 walls, the boundary-relational sharpening)
+> and the literature's base rate (one marginal survivor in twenty years) agree, and the
+> genre's single tunable escape is the Pati–Salam this object provably lacks. What the window
+> gained instead is structure and two precedent numbers: **D₂ decoded** as the second wall
+> conjugation's sign character, carrying the entire generation hierarchy (B928); the sixteen
+> Hermitian structures classified as a torsor with **no value visible in any invariant of the
+> pair** (B936); the observer's place law and why 953 (B931/B937); a certified Maass
+> eigenvalue (B922) and a **certified Dirac eigenvalue λ₁ = 2.974550580 on a cusped hyperbolic
+> 3-manifold** (B940) — the latter banked with its priority gate deliberately **shut**, because
+> the prior-art sweep reached zbMATH but not MathSciNet and half a named standard is not the
+> standard. The owner's late-window refinement is now binding: hunt **ratios of
+> branch-symmetric quantities**, never per-branch values — and the first one computed made the
+> observer's prime cancel (B941). Ledger: REVIEWS.md R40.
+
 > **State post-crossing (2026-08-05, mid-window update).** The value ladder completed and
 > THE CROSSING ran under seal: with one input (α_em) and the object's boundary (E₆, the exact
 > sin²θ_W = 3/8), the pure-desert identification MISSES at 16σ — the desert is dead, every
