@@ -1,0 +1,18 @@
+{
+ "zeta_K_2": "1.28519095548415",
+ "vol_parent_humbert": "0.169156934401609",
+ "vol_m004": "2.02988321281931",
+ "index_ratio": "12.0",
+ "index_is_12": true,
+ "W_parent_at_lambda2": "0.33608548",
+ "W_parent_at_parent_ground_state": "1.0103372",
+ "W_m004_at_lambda2": "4.0330258",
+ "reproduces_B791_W_1_010": true,
+ "parent_count_below_lambda2_is_under_one": true,
+ "lambda2_below_parent_ground_state": true,
+ "b922_decimal_places": 25,
+ "precedent_decimal_places": 13,
+ "improvement_decimal_places": 12,
+ "repo_asserted_precedent_was": 10,
+ "precedent_claim_refuted": true
+}

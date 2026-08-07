@@ -1,0 +1,170 @@
+{
+  "arc": "B922",
+  "artifact": "adversarial prior-art panel on the lambda_2 priority claim",
+  "sweep_date": "2026-08-07",
+  "panel": "the literature panel",
+
+  "verdict": "PRIOR ART FOUND -- PARTIAL. The priority claim survives on precision but its precedent number is wrong and two qualifiers are load-bearing and currently absent. Sub-question 1 (has anyone computed Maass eigenvalues on hyperbolic 3-manifolds): PRIOR ART FOUND, abundantly, an eight-item literature 1991-2025. Sub-question 2 (to what precision): PRIOR ART FOUND at 13 decimal places / 14 significant digits (Aurich-Steiner-Then 2004, Picard orbifold ground state r = 6.6221193402528); B922's 25 decimals still leads by 12. Sub-question 3 (the figure-eight complement / r = 4.9000853... specifically): NO PRIOR ART AT THE DEPTH SEARCHED, subject to the pullback caveat below.",
+
+  "verdict_on_repo_precedent_number": {
+    "repo_claim": "H^3 had reached ~10 digits",
+    "verdict": "REFUTED",
+    "true_figure": "13 decimal places / 14 significant digits",
+    "evidence": "Aurich-Steiner-Then, arXiv:gr-qc/0404020, section 8, verbatim: 'The smallest non-trivial eigenvalue is E = k^2 + 1 with k = 6.6221193402528'. Identical value in Then, arXiv:math-ph/0305048.",
+    "nuance": "'~10' fairly describes the TABULATED data (8 decimal places throughout Tables 1-2, i.e. 9-11 significant digits) but understates the single best published number by ~4 digits. Three honest tiers exist: 5 decimals independently cross-checked (Steil <-> Then), 8 decimals systematically tabulated across 13950 eigenvalues, 13 decimals printed once for the ground state with no error bar."
+  },
+
+  "verdict_on_h2_side_claim": {
+    "repo_claim": "H^2 reaches 1000 digits",
+    "verdict": "CORROBORATED",
+    "source": "Booker, Strombergsson, Venkatesh, 'Effective computation of Maass cusp forms', IMRN 2006, DOI 10.1155/imrn/2006/71281",
+    "verbatim": "we compute to over 1000 decimal places the Laplacian and Hecke eigenvalues for the first few Maass forms on PSL(2,Z)\\H ... we apply this to prove that our values for the first ten eigenvalues on PSL(2,Z)\\H are correct to at least 100 decimal places",
+    "caveat": "1000 computed but only 100 rigorously certified. If the arc quotes 1000 it should carry this distinction, since B922's own 25 digits are stability-certified rather than rigorously verified in the BSV sense."
+  },
+
+  "databases_reached": {
+    "openalex": {"reached": true, "method": "REST API: search=, filter=title.search:, filter=title_and_abstract.search:, and filter=cites: for citation-graph traversal", "note": "citation traversal was the decisive instrument; keyword relevance ranking was actively misleading (returned spiking-neural-network and urology papers for Maass/Bianchi queries)"},
+    "arxiv": {"reached": true, "method": "Atom API search_query with ti:/abs:/all:/au:/cat: prefixes", "note": "rate-limited to hard failure after ~25 queries; recovered with backoff, then substituted by OpenAlex"},
+    "zbmath_open": {"reached": true, "partial": true, "method": "api.zbmath.org/v1/document/_search?search_string=... as a plain query string; the -G --data-urlencode form returns 404, and cc: MSC codes combined with a second term return 404 (cc:11F72 alone works, 1955 hits)", "note": "located Steil 1999 (zbl 1552125, MSC 11F72/11F06/81Q50/11-04/20H10) and Grunewald-Huntebrinker (zbl 952325, MSC 65N25/35P20/65N30) with full metadata, but reviewer texts are EMPTY for both and the GH record is title- and author-suppressed under 'conflicting licenses'"},
+    "lmfdb": {"reached": true, "method": "direct HTTP on the Bianchi and Maass section roots, both HTTP 200", "finding": "CORROBORATES the repo's B790 conflation finding: 'Maass' appears on the Bianchi page only as a sibling item in the site navigation (Classical / Maass / Hilbert / Bianchi); the string 'Laplace' does not appear; the Bianchi section is weight-2 cohomological with Hecke eigenvalues. NO Laplace-eigenvalue data for any Bianchi group."},
+    "wayback_machine": {"reached": true, "method": "web.archive.org CDX API plus timestamped if_ fetches", "finding": "recovered the EMIS mirror of Experimental Mathematics 5.1 and the Grunewald-Huntebrinker ABSTRACT (PostScript, converted via ghostscript). Only abstracts were ever mirrored -- no full text archived."},
+    "unpaywall": {"reached": false, "note": "malformed response on the GH DOI; OpenAlex's own OA record answered instead: is_oa false, oa_status closed, no repository full text"},
+    "semantic_scholar": {"reached": false, "reason": "HTTP 429 on both attempts, no API key; contributed nothing"},
+    "project_euclid": {"reached": false, "reason": "Incapsula block on the Experimental Mathematics volume-5 issue page"},
+    "emis_mirror_direct": {"reached": false, "reason": "Cloudflare 403; reached indirectly via Wayback"},
+    "citeseerx": {"reached": false, "reason": "cached GH copy 10.1.1.53.7564 returns 404"},
+    "ediss_goettingen": {"reached": false, "reason": "HTTP 403 to both direct HTTP and rendered fetch, despite OpenAlex listing an OA bitstream URL for the Moehring thesis"},
+    "mathscinet": {"reached": false, "reason": "authentication wall; NOT ATTEMPTED -- no claim is made about its contents"},
+    "web_search_engine": {"reached": false, "reason": "session budget exhausted (200/200) before this sweep's first query; all findings come from raw bibliographic APIs and direct HTTP"}
+  },
+
+  "control_passed": true,
+  "control_detail": {
+    "requirement": "the method must find the well-known H^2 high-precision Maass computations, or a null means nothing",
+    "found": [
+      "Booker-Strombergsson-Venkatesh 2006 'Effective computation of Maass cusp forms' (OpenAlex W2152913599, 66 citations, DOI 10.1155/imrn/2006/71281) with full abstract retrieved verbatim",
+      "Then 2003 'Maass cusp forms for large eigenvalues' (math-ph/0305047)",
+      "'Rigorous computation of Maass cusp forms of squarefree level' (2201.08760)",
+      "'Certification of Maass cusp forms of arbitrary level and character' (2204.11761)",
+      "Booker-Then 'Rapid computation of L-functions attached to Maass forms' (1703.08863)",
+      "Booker-Lee-Strombergsson 'Twist-minimal trace formulas and the Selberg eigenvalue conjecture' (1803.06016)"
+    ],
+    "conclusion": "The same queries and the same citation-graph method, pointed at H^3, return an eight-item list and nothing else. The H^3 null is an earned null, not an instrument failure."
+  },
+
+  "highest_prior_precision_found": {
+    "digits": 13,
+    "digits_unit": "decimal places",
+    "significant_digits": 14,
+    "value": "r = 6.6221193402528",
+    "quantity": "spectral parameter of the smallest non-trivial Maass eigenvalue, E = 1 + r^2",
+    "source": "Aurich, R.; Steiner, F.; Then, H., 'Numerical computation of Maass waveforms and an application to cosmology', arXiv:gr-qc/0404020 (2004), section 8; identical value in Then, arXiv:math-ph/0305048 (2003)",
+    "manifold": "Picard orbifold PSL(2,Z[i])\\H^3 (d = 1, Gaussian integers) -- an ORBIFOLD, not a manifold",
+    "corroboration_depth": "8 decimal places tabulated across 13950 consecutive eigenvalues; only 5 decimal places independently cross-checked against Steil 1999",
+    "margin_of_b922_claim": "25 decimal places vs 13 -- an improvement of 12 decimal places"
+  },
+
+  "figure_eight_specific": [
+    {
+      "finding": "No publication computes the Maass spectrum of the figure-eight knot complement (m004, Gamma_41) as such.",
+      "search_routes_returning_zero": [
+        "OpenAlex title_and_abstract.search on three phrasings ('figure-eight knot complement spectrum Laplacian', 'figure eight knot complement Maass form', 'cusp form figure-eight knot group') -- counts 0, 0, 1 (the 1 being an unrelated CR-spherical Dehn surgery paper)",
+        "arXiv all:'figure-eight knot' AND all:Laplacian -- total 0",
+        "the complete closed citation neighbourhood of every paper in the H^3 computational set",
+        "author sweep over the entire computational-Maass community (Then, Booker, Strombergsson, Steil, Aurich, Steiner)",
+        "full-text scan of the two most recent candidate papers"
+      ],
+      "r_value_searched": "4.9000853730625213014795758 -- appears nowhere"
+    },
+    {
+      "finding": "CAVEAT THE ARC MUST ABSORB -- published spectral data for m004's Laplacian DOES exist, by pullback, at 5-6 significant digits.",
+      "mechanism": "Gamma_41 is contained in PSL(2,O_3) with index 12 (repo's own B790, by Humbert volume), so every published parent eigenvalue IS an eigenvalue of the figure-eight knot complement",
+      "published_pullback_values": [
+        {"value": "r = 24.5033", "digits": 6, "source": "De Clerck, Hartnoll, Yang, arXiv:2507.08788 (2025), Fig. 4 caption: 'the first 1000 c_p associated to the Eisenstein waveform at epsilon = 24.5033'", "convention_verified": "their eq. (27) defines -Laplacian psi = (1 + epsilon^2) psi, so epsilon IS the spectral parameter r; the Eisenstein billiard is PSL(2,Z[omega]) = PSL(2,O_3), the exact parent group", "note": "the repo already banks this as its literature control; the panel confirms both the transcription and the convention from the primary"},
+        {"value": "lambda_1 = 51.014, r = 7.0721", "digits": 5, "source": "Grunewald-Huntebrinker 1996 Table 3", "note": "SECONDARY ONLY -- the primary remains unread, see unreachable_sources"}
+      ],
+      "why_the_b922_claim_survives_anyway": "r = 4.9000853... cannot be a pullback: the parent's ground state sits at r = 7.07 > 4.90, so no parent eigenvalue lies below it. B922's lambda_2 is a genuinely new, non-inherited eigenvalue of the index-12 cover.",
+      "sentence_that_must_not_be_repeated": "'m004's Maass spectrum has never been computed' -- false by pullback. The defensible form is 'no eigenvalue of m004 not inherited from its parent Bianchi group has previously been computed'."
+    }
+  ],
+
+  "near_misses": [
+    {
+      "source": "Aurich, Steiner, Then 2004 (gr-qc/0404020) and Then 2003 (math-ph/0305048)",
+      "what_it_computed": "13950 consecutive Maass eigenvalues and eigenfunctions on the Picard orbifold, Hejhal's algorithm extended to three dimensions",
+      "digits": "8 decimal places tabulated, 13 decimal places for the ground state",
+      "why_not_prior_art_for_the_specific_claim": "wrong field (d = 1, Gaussian integers, not d = 3), wrong group (parent orbifold, not the figure-eight cover), and 12 decimal places short",
+      "status": "THE PRECEDENT. This is the number B922's sentence should be compared against."
+    },
+    {
+      "source": "De Clerck, Hartnoll, Yang 2025 (arXiv:2507.08788, hep-th)",
+      "what_it_computed": "Hejhal's algorithm on BOTH the Gaussian and Eisenstein billiards; 650/1000 prime Hecke coefficients tested against Sato-Tate",
+      "digits": 6,
+      "why_it_is_the_sharpest_near_miss": "it is the only publication this panel could read that gives a spectral parameter for the d = 3 Bianchi group PSL(2,O_3) -- the exact parent of m004 -- in a primary source. At 6 significant digits it does not threaten a 25-decimal claim, but it does defeat any statement that d = 3 spectral data does not exist.",
+      "status": "READ IN FULL from the primary PDF"
+    },
+    {
+      "source": "Steil 1999, IMA Vol. Math. Appl. 109, 617-641",
+      "what_it_computed": "2545 consecutive eigenvalues for the Picard group via a non-linear Hecke system",
+      "digits": "~5 decimal places",
+      "basis": "bounded above by Aurich-Steiner-Then's statement that their values 'agree with those of Steil up to five decimal places'; had Steil printed more, the agreement would have been quoted deeper",
+      "status": "NOT READ -- Springer book chapter, not online"
+    },
+    {
+      "source": "Grunewald, Huntebrinker 1996, Experiment. Math. 5(1) 57-80",
+      "what_it_computed": "finite-element eigenvalues for various non-cocompact Gamma including non-arithmetic ones; Table 3 gives 36 eigenvalues for PSL(2,O_3), lambda up to 675",
+      "digits": "~5 significant figures with the last digit disclaimed (secondary sources only)",
+      "status": "PRIMARY NOT READ -- paywalled. The repo's standing open lead B921-17 is CONFIRMED STILL OPEN.",
+      "residual_risk": "LOW and method-bounded: FEM on a cusped 3-dimensional domain does not reach 25 decimal places, and Aurich-Steiner-Then cite GH as prior Picard work that their own 8-decimal tables improve on"
+    },
+    {
+      "source": "Inoue 1999 and 2001, Class. Quantum Grav. 16 and 18",
+      "what_it_computed": "low-lying Laplace eigenvalues on a large family of CLOSED hyperbolic 3-MANIFOLDS (Thurston, Weeks, ...) by boundary-element and periodic-orbit-sum methods",
+      "digits": "low, method-bounded",
+      "why_it_matters": "these are genuine hyperbolic 3-manifolds, so the phrase 'on any hyperbolic 3-manifold' as written does not exclude them. They are not cusp forms (closed implies no cusps), which is exactly why 'cusped' / 'Maass cusp form' is load-bearing.",
+      "status": "abstracts read"
+    },
+    {
+      "source": "Moehring 2004, Diss. Goettingen, DOI 10.53846/goediss-2454, 'Untersuchungen zu kubischen metaplektischen Formen'",
+      "what_it_computed": "Fourier expansions by collocation for a Bianchi group over Q(sqrt(-3)) and a metaplectic subgroup with cubic Kubota character, confirming a bijective correspondence",
+      "digits": "unknown",
+      "status": "NOT READ -- ediss.uni-goettingen.de returns 403",
+      "residual_risk": "LOW and method-bounded: a collocation method whose stated purpose is confirming a correspondence and testing a Waldspurger-type link, not producing a precision eigenvalue table"
+    },
+    {
+      "source": "Smotrov, Golovcanskii 1991, Bielefeld preprint 91-040",
+      "what_it_computed": "small eigenvalues of the Laplacian on PSL(2,Z[i])\\H^3",
+      "digits": "unknown",
+      "status": "NOT READ -- 1991 preprint, not online"
+    }
+  ],
+
+  "load_bearing_qualifiers": [
+    {"qualifier": "25 decimal places (the precision itself)", "status": "LOAD-BEARING and EARNED", "why": "this is what the claim rests on: 25 vs 13"},
+    {"qualifier": "not inherited from the parent Bianchi group PSL(2,O_3)", "status": "LOAD-BEARING and CURRENTLY ABSENT", "why": "without it, a hostile reader answers that the figure-eight complement's eigenvalues were published in 2025 at 6 digits and in 1996 at 5, by index-12 pullback"},
+    {"qualifier": "cusped / Maass CUSP FORM, as opposed to any Laplace eigenvalue of a hyperbolic 3-manifold", "status": "LOAD-BEARING and CURRENTLY ABSENT", "why": "Inoue computed low-lying Laplace eigenvalues for many closed hyperbolic 3-manifolds; 'on any hyperbolic 3-manifold' does not exclude them"},
+    {"qualifier": "manifold versus orbifold", "status": "TECHNICALLY TRUE BUT EXPLICITLY NOT RECOMMENDED", "why": "all the high-precision prior art is on orbifolds (PSL(2,Z[i]) and PSL(2,Z[omega]) both have torsion) while m004 is a genuine manifold, so a claim could technically survive on this alone -- but the distinction is not what makes the computation hard, no referee would grant it as the substance of a 'first', and resting on it is exactly the necessary-read-as-sufficient move the repo's B525 audit was written against"}
+  ],
+
+  "safe_claim_forms": [
+    "The second Maass cusp form eigenvalue of the figure-eight knot complement, r = 4.9000853730625213014795758, to 25 decimal places -- improving the precedent for a Maass eigenvalue on a quotient of H^3 from 13 decimal places (Aurich-Steiner-Then 2004, Picard orbifold ground state) to 25, and the first eigenvalue computed for this manifold that is not inherited from its parent Bianchi group PSL(2,O_3).",
+    "The highest-precision Maass eigenvalue computed on any quotient of hyperbolic 3-space: 25 decimal places, against a published precedent of 13.",
+    "A 12-decimal-place improvement on the published precision record for Maass eigenvalues on quotients of H^3."
+  ],
+
+  "unsafe_claim_forms": [
+    "the first 25-digit Maass eigenvalue on any hyperbolic 3-manifold -- the numeral 25 does no comparative work; the reader cannot tell whether the precedent is 3 or 24",
+    "H^3 had reached ~10 -- factually wrong; the published figure is 13 decimal places",
+    "m004's Maass spectrum has never been computed -- false by index-12 pullback from PSL(2,O_3)",
+    "no Laplace eigenvalue has been computed on a hyperbolic 3-manifold -- false; Inoue 1999/2001 did so for many closed ones",
+    "any form whose survival depends on the manifold-versus-orbifold distinction"
+  ],
+
+  "residual_open_items": [
+    "Grunewald-Huntebrinker 1996 Table 3 remains unread (paywalled). The repo's open lead B921-17 is confirmed still open and is still the single highest-value external action.",
+    "Steil 1999 (Springer book chapter) unread; precision bounded only indirectly.",
+    "Moehring 2004 thesis unread (HTTP 403).",
+    "MathSciNet not reached (authentication wall); no claim is made about its contents.",
+    "All three unread computational items predate 2005 and use methods (finite elements, non-linear Hecke systems, collocation) that do not plausibly reach 25 decimal places. The 2005-2026 window was swept independently and contains exactly one new computational item, at 6 significant digits."
+  ]
+}

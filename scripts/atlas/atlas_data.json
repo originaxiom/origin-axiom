@@ -19215,14 +19215,15 @@
    "refs": [
     "B798",
     "B921",
+    "B943",
     "H4",
     "P3",
     "P4",
     "S073"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 2,
-   "status": "banked",
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
    "domain": "topology"
   },
   "B923": {
@@ -19756,6 +19757,24 @@
    "obstacle_conf": 3,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B943": {
+   "slug": "maass priority correction",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B525",
+    "B791",
+    "B921",
+    "B922",
+    "B940"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 13,
+   "status": "dead",
+   "domain": "topology"
   },
   "B94": {
    "slug": "tower universality",

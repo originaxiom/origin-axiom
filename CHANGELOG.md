@@ -1,5 +1,10 @@
 # Changelog
 
+## B943 — the O3 gate applied retroactively; B922's priority sentence corrected
+- **PRIOR ART FOUND — PARTIAL.** The precedent number is **refuted** (13 decimal places, not the "~10" asserted — so the lead is 12, not 15); "on any hyperbolic 3-manifold" was wrong twice over; the pullback caveat is resolved by a fact **computed here** (vol ratio exactly 12; W_parent(4.900) = 0.336; W_parent(7.072) = 1.010, reproducing B791 from scratch).
+- The priority sentence is **replaced by a comparative statement with no priority word** — MathSciNet is still unreachable, so the standard stays half met. Two qualifiers now load-bearing: **"cusp form"** and **"not inherited"**. B922's mathematics is untouched.
+- Declined the orbifold-vs-manifold escape that would have saved the original sentence (B525's rule). Grunewald–Huntebrinker Table 3 still unreachable — **open lead B921-17 confirmed open**. 9 locks.
+
 ## B942 / L113 — the BC/CMR falsifier fired at our own construction and HIT
 - Sealed before compute with the prior disclosed **as a kill against ourselves**; **OUTCOME YES**, all four cells. Complex conjugation is **not** in Gal(K^ab/K) (computed two ways, 14 cyclotomic layers, index 2 throughout); all four escape hatches closed (the ζ_K pole confirmed to 6e-11 vs the class-number formula; no canonical ℤ/2 quotient; trivial conjugation action; zero real places).
 - **The kill condition is EXECUTED**: chirality-as-Galois-label **retracted**, B723 banner-corrected with its text retained. The neighbouring values/torsor clause is demoted to **UNEARNED** (new lead L124), not waved through.
