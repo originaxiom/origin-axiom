@@ -1,0 +1,6 @@
+E6 dim of orbit(omega_1) = 27
+27: sum lambda(H)      = 0
+27: sum lambda(H)^3    = 0
+A2 3: dim 3 | sum lam = 0 | sum lam^3 = 3*g1*g2*(g1 - g2)
+A4 5: dim 5 | sum lam = 0 | sum lam^3 = 3*(k1**2*k2 - k1*k2**2 + k2**2*k3 - k2*k3**2 + k3**2*k4 - k3*k4**2)
+A4 10: dim 10 | sum lam = 0 | sum lam^3 = 3*(k1**2*k2 - k1*k2**2 + k2**2*k3 - k2*k3**2 + k3**2*k4 - k3*k4**2)

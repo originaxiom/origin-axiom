@@ -1,5 +1,15 @@
 # THE SM VERDICT — where the Standard Model question actually stands
 
+> ## ⚠ AMENDED 2026-08-08 (B976) — this verdict was written without the B860s
+>
+> The first version of this document omitted **eleven of the twelve cascade-closure arcs**
+> (B860–B873), which were cited **zero times** on any synthesis surface. Two of its claims were
+> contradicted by banked work: it called the global **ℤ₆** form "not addressed" (B862 derives
+> it) and hypercharge "OPEN — the sharpest available target" (**B864 derived it on 2026-08-03**).
+> **The repo lost nothing** — every arc is banked, locked and passing. **The synthesis layer
+> forgot them.** Rows added above; §5's remaining-surface list corrected below.
+
+
 *Crystallised 2026-08-08, at the owner's direction, before the programme turns to cosmology,
 gravity and the other unexplained phenomena. This supersedes every scattered statement about
 "the SM problem" in the corpus. It is written to the standard the day's two new gates enforce:
@@ -28,6 +38,10 @@ Everything below is the elaboration, the evidence, and the honest boundary of th
 | the **measurement cascade** — FMT then SMT — landing on **su(3) ⊕ su(2) ⊕ u(1)³** | banked (B892), verified independently on this bench (B961) |
 | **three generations**, structurally; **D₂** carries the entire generation hierarchy | banked (B897, B928) |
 | **sin²θ_W = 3/8** at tree/GUT level | banked (B919) — **reproduced, not predicted** (a known GUT relation; the run to M_Z missed at 16σ, B915) |
+| **the global ℤ₆ form** — [SU(3)×SU(2)×U(1)]/ℤ₆ | **DERIVED** (B862): resolves an ambiguity **the SM itself cannot fix** |
+| **hypercharge is the UNIQUE gaugeable U(1)** in the chain's abelian sector | **DERIVED** (B864): ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only — normalisation is homogeneous and not derivable* |
+| **the TERMINATION THEOREM** — the cascade halts at the SM because the SM is the **terminal registerable algebra** | banked (B863); every proper descent kills registerability while the SM stays chiral (positive control) |
+| menu completeness (**P5**), the padding lemma, the anomaly ledger, gates G4–G7 closed | banked (B873, B865, B864, B868–B871) |
 | the **27 is complex ⟺ τ ≠ id** — one fact, not two | B963 (τ's existence computed; the equivalence chain standard, cited) |
 | the value layer's **exact arithmetic**: I = −1, the twist-norm law, the observer's place 953, λ forced = 2304/953 | banked (B908, B918, B931, B946) |
 
@@ -115,9 +129,10 @@ fields.**
 > **Kato–Yukie classify rational orbits of *pairs of 27s* by CUBIC ÉTALE ALGEBRAS.**
 
 This programme is arithmetic and owns cubics: **μ** (charge), **κ** (compact), **K = ℚ[ρ]/μ**.
-**Does the object's own cubic pick out a rational two-27 orbit?** That is **L138**, it is
-unworked, and it is the only route by which this object could distinguish a VEV that no
-real or complex framework can.
+**Does the object's own cubic pick out a rational two-27 orbit?** That was **L138** — and it
+**FIRED** (B969, verified 3/3 on this bench): the object's canonical pair returns **K**
+exactly. **SCOPE: Kato–Yukie classify ORBITS, so a canonical orbit is NOT a canonical VEV —
+within the orbit the choice remains free.**
 
 **Caveats carried:** the arithmetic-27 idea exists in physics **only** in black-hole
 charge-orbit work, where integrality is physically forced — and **has never touched a VEV**
@@ -130,7 +145,7 @@ charge-orbit work, where integrality is physically forced — and **has never to
 |---|---|---|
 | 1 | **L138** — does the object's cubic pick a rational two-27 orbit? | the only live route to a distinguished VEV |
 | 2 | **L134** — the **twelve exotic states per generation** (27 = 16+10+1) | any E₆ model must make them heavy; **never addressed here** |
-| 3 | **L132** (amended) — is the anomaly check non-vacuous on complete **27**s? | probably vacuous; cheap to settle, and MB12 requires it first |
+| 3 | ~~**L132**~~ — **LARGELY ANSWERED by B864** (hypercharge direction derived). What remains: the normalisation (not derivable — homogeneous) and whether the SMT's u(1)³ *is* (Y, χ, ψ), which B953 **inferred** rather than computed |
 | 4 | **L135 / the presence side** | owed to the solo seat; the frame instrument now exists (B961) |
 | 5 | **L137** — the value/pencil split in the thinning pattern | post-hoc; needs its own seal |
 | 6 | the **global ℤ₆ form**, strong CP, the hierarchy, ν-mass | never addressed; listed so they are not forgotten |

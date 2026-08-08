@@ -1,0 +1,268 @@
+{
+ "B888_gate_squarefree_disc_part": [
+  77,
+  77
+ ],
+ "pencil_gauge_orbit": {
+  "mu_charge  @ B941/B947 coord (rho=13t)": {
+   "support": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13
+   ],
+   "F": 5,
+   "forced": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "n_coordinates_in_the_gauge_orbit_that_HOLD": 0,
+   "VERDICT_IS_COORDINATE_DEPENDENT": false,
+   "witness": null
+  },
+  "mu_charge  @ B866's own coord t": {
+   "support": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "F": 5,
+   "forced": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "n_coordinates_in_the_gauge_orbit_that_HOLD": 0,
+   "VERDICT_IS_COORDINATE_DEPENDENT": false,
+   "witness": null
+  },
+  "kappa_compact @ B910 coord": {
+   "support": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    19,
+    31
+   ],
+   "F": 5,
+   "forced": [
+    2,
+    3,
+    7,
+    11,
+    31
+   ],
+   "n_coordinates_in_the_gauge_orbit_that_HOLD": 0,
+   "VERDICT_IS_COORDINATE_DEPENDENT": false,
+   "witness": null
+  },
+  "vacuum_weight_cubic_B888": {
+   "support": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13
+   ],
+   "F": 4,
+   "forced": [
+    2,
+    3,
+    5,
+    11
+   ],
+   "n_coordinates_in_the_gauge_orbit_that_HOLD": 6,
+   "VERDICT_IS_COORDINATE_DEPENDENT": true,
+   "witness": {
+    "P_lead": [
+     5,
+     11
+    ],
+    "P_mid_only": [
+     7,
+     13
+    ],
+    "P_const": [
+     2,
+     3
+    ]
+   }
+  },
+  "generic_weight_cubic_B888": {
+   "support": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13
+   ],
+   "F": 4,
+   "forced": [
+    2,
+    3,
+    5,
+    11
+   ],
+   "n_coordinates_in_the_gauge_orbit_that_HOLD": 6,
+   "VERDICT_IS_COORDINATE_DEPENDENT": true,
+   "witness": {
+    "P_lead": [
+     5,
+     11
+    ],
+    "P_mid_only": [
+     7,
+     13
+    ],
+    "P_const": [
+     2,
+     3
+    ]
+   }
+  }
+ },
+ "norm_divisor_reading": {
+  "V_hierarchy": {
+   "norm": "760840571584512/824843587681",
+   "norm_numerator": "2^32*3^11",
+   "norm_denominator": "953^4",
+   "zeros_over": [
+    2,
+    3
+   ],
+   "poles_over": [
+    953
+   ]
+  },
+  "W_mixing_sq": {
+   "norm": "244140625/824843587681",
+   "norm_numerator": "5^12",
+   "norm_denominator": "953^4",
+   "zeros_over": [
+    5
+   ],
+   "poles_over": [
+    953
+   ]
+  },
+  "d_S_twist": {
+   "norm": "-908209/5308416",
+   "norm_numerator": "-1^1*953^2",
+   "norm_denominator": "2^16*3^4",
+   "zeros_over": [
+    -1,
+    953
+   ],
+   "poles_over": [
+    2,
+    3
+   ]
+  },
+  "d_A_twist": {
+   "norm": "-908209/5308416",
+   "norm_numerator": "-1^1*953^2",
+   "norm_denominator": "2^16*3^4",
+   "zeros_over": [
+    -1,
+    953
+   ],
+   "poles_over": [
+    2,
+    3
+   ]
+  },
+  "m_S_flipmass": {
+   "norm": "20417473/42467328",
+   "norm_numerator": "20417473^1",
+   "norm_denominator": "2^19*3^4",
+   "zeros_over": [
+    20417473
+   ],
+   "poles_over": [
+    2,
+    3
+   ]
+  },
+  "mu_charge": {
+   "norm": "-2197/500716339200",
+   "norm_numerator": "-1^1*13^3",
+   "norm_denominator": "2^16*3^4*5^2*7^3*11^1",
+   "zeros_over": [
+    -1,
+    13
+   ],
+   "poles_over": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ]
+  },
+  "kappa_compact": {
+   "norm": "6859/2771822592000",
+   "norm_numerator": "19^3",
+   "norm_denominator": "2^14*3^4*5^3*7^2*11^1*31^1",
+   "zeros_over": [
+    19
+   ],
+   "poles_over": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    31
+   ]
+  },
+  "m_A_flipmass": {
+   "norm": "2113201/42467328",
+   "norm_numerator": "29^1*72869^1",
+   "norm_denominator": "2^19*3^4",
+   "zeros_over": [
+    29,
+    72869
+   ],
+   "poles_over": [
+    2,
+    3
+   ]
+  },
+  "X_cross_overlap_sq": {
+   "norm": "15625/908209",
+   "norm_numerator": "5^6",
+   "norm_denominator": "953^2",
+   "zeros_over": [
+    5
+   ],
+   "poles_over": [
+    953
+   ]
+  },
+  "u_B937": {
+   "norm": "244140625/28179280429056",
+   "norm_numerator": "5^12",
+   "norm_denominator": "2^32*3^8",
+   "zeros_over": [
+    5
+   ],
+   "poles_over": [
+    2,
+    3
+   ]
+  }
+ }
+}

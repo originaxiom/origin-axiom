@@ -1,0 +1,75 @@
+{
+ "prompted_by": "the owner's worry that a model switch around the B800s lost context",
+ "method": "count citations of every B800-B880 arc across the five current synthesis surfaces",
+ "arcs_in_range": 60,
+ "uncited_on_any_surface": 39,
+ "THE_CASCADE_BLOCK": {
+  "B860": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B861": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B862": {
+   "in_LAW_MAP": false,
+   "cited_anywhere": true
+  },
+  "B863": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B864": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B865": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B868": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B869": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B870": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B871": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B872": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  },
+  "B873": {
+   "in_LAW_MAP": 0,
+   "cited_anywhere": false
+  }
+ },
+ "cascade_arcs_cited_on_any_surface": 1,
+ "TWO_CONFIRMED_CONTRADICTIONS": {
+  "1_Z6": {
+   "today_I_wrote": "the global Z6 form: not addressed",
+   "banked": "B862 DERIVES [SU(3)xSU(2)xU(1)]/Z6 and calls it the first place the selected structure OUTPERFORMS the SM's own",
+   "caught_by": "the solo seat, not by me or any gate",
+   "fixed": true
+  },
+  "2_hypercharge": {
+   "today_I_wrote": "no derivation from anomaly cancellation inside the object -- OPEN, the sharpest available target",
+   "banked": "B864 (2026-08-03) derives HYPERCHARGE IS THE UNIQUE GAUGEABLE U(1) in the chain's abelian sector: Q = aY + b*chi + c*psi gives grav = 5b+15c, [SU(3)]^2 = 2c, [SU(2)]^2 = 2c, FORCING b = c = 0",
+   "consequence": "I registered L132 to find what was already derived, commissioned a literature panel (B951) for it, and put it in MASTERPLAN v3 Phase A, which is running now",
+   "caught_by": "the owner's worry, prompting this audit",
+   "fixed": "pending"
+  }
+ },
+ "WHAT_WAS_NOT_LOST": "the repo lost NOTHING -- every arc is banked, locked and passing. What was lost is the SYNTHESIS LAYER'S AWARENESS of them. The mathematics is intact; the summaries forgot it.",
+ "SAME_FAILURE_AS_B965": "this is B965's finding at scale: THE ARCS ARE HONEST, THE SYNTHESIS SURFACES LEAK. B965 found qualifiers lost when a verdict is compressed into a LAW_MAP row; this finds whole ARCS never compressed into a row at all. Same layer, larger instance.",
+ "ON_CAUSATION": "I cannot read the chat history and cannot verify that the model switch caused this. What is verifiable: the loss is REAL, it is LOCALISED to a range the owner independently identified, and it is a count, not an impression. Correlation is not causation and is not claimed."
+}

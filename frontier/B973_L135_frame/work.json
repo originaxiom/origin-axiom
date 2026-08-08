@@ -1,0 +1,196 @@
+{
+ "arc": "B973",
+ "lead": "L135",
+ "leg": "work",
+ "date": "2026-08-08",
+ "lane": "MATHEMATICS",
+ "gate5_touched": false,
+ "banked": false,
+ "claims_md_touched": false,
+ "scout_branch_taken": 1,
+ "one_line": "L135 DISCHARGED ON THE BUILD SIDE: the frame, the floor and M12 are rebuilt on this bench from B854 + B961/frame.py and pass a 51/51 validation gate against banked numbers at two primes never used here (41131, 41201) -- floor 12, M12 12, M12^core 0, plus frame Gram diagonal signature (2,2) with the four ledger norms digit-identical, core 30, derived(floor) 8 with centre 0, nu=c*kappa^6 deg 18, kappa coefficient-identical with const -19^3 and disc kernel {7,11}, wall dims [30,30,30] with pairwise AND triple intersections all equal to the floor closing 3*30-3*12+12=66, M12 torus-invariant with charge ranks [12,12,12,12], and the mu-walls DERIVED from M12 itself (det12 = c*cubic^4, deg<=12 structural) so no external cubic is fed in and the two-normalization hazard cannot bite. On top of the validated frame the WEIGHT-LINE DECOMPOSITION OF M12 -- named by the scout as reconstructible but not run -- now runs: 12 one-dimensional common eigenlines with 12 DISTINCT weight 4-tuples, 6 distinct eigenvalues per charge (3 +- pairs), closed under EXACTLY the B939 W_frame Klein group (and NOT under any of four non-W_frame sign patterns), three FREE orbits of size 4, su(3)_colour := derived(floor) acting as rank 0. With presence7.py all SEVEN B958 presence-side legs are now computable here (previously zero): [M12,M12] dim 16 escaping by exactly 4 AND the escape LOCALIZED into the torus (sharper than the claim), [floor,M12] rank 12 escape 0, [so(10),M12] escape 50, centre 0 exact over Q. TWO REDUCTIONS: (a) the orbit<->generation bijection is FORCED by the weight-line and W_frame legs plus ratio-distinctness -- it is a corollary, not an eighth independent fact, and should not be counted as one; (b) 'M12 ^ core = 0' is a WEAK check since 12+30<78 makes it generic -- non-vacuous (controls return 12 and 4) but the real content sits in span=66 and the triple-intersection-equals-floor numbers. ONE NEW STRUCTURAL FACT, arithmetic and born from a recorded FAILURE rather than tuned away: the first run crashed at p=41201 because ad(g14)|M12 had eigenvalues outside F_p; instead of fishing for a passing prime the splitting condition was stated as an explicit prime criterion in advance, the window scanned and reported (4/10 admissible), then measured per-charge over 24 kappa-split primes -- the NONCOMPACT weights g8,g16 lie in F_p at 24/24 while the COMPACT weights g14,g22 do so at only 16/24 and fail TOTALLY when they fail (residual 12, no eigenvalue in F_p, i.e. 6 irreducible quadratics). Since mu splits at every kappa-split prime (CHECKED here at all 24, not inherited from the one-field theorem), 'in F_p' means 'in the wall field K', NOT 'rational': so the noncompact weights live in K itself while the compact weights need a PROPER EXTENSION of K -- the frame's compact/noncompact split is mirrored in the arithmetic of the M12 weights. SCOPED HONESTLY: 16/24 is consistent with density 1/2 (two-sided p~0.15) and 24 primes CANNOT identify the extension; the natural guess Q(sqrt77) was NOT tested because every prime in the scan splits kappa and therefore already forces 77 to be a QR -- the check would be VACUOUS (MB12), so the field is left as a stated open question rather than guessed. WHAT REMAINS BLOCKED IS UNCHANGED AND IS A TIER GAP, NOT A DEFINITIONAL ONE: char-0 exactification over K (this cell added primes, not tier -- four independent primes is not a certificate), the identity of the compact weight extension, conjugacy of derived(floor) with the standard A2 Levi (equal centralizer dimension 16 is consistent with but not proof of conjugacy), import I-4 (G2+G2 not in e6), and the presence side's own section text which remains incoming. REPRESENTATION NAMED THROUGHOUT: g8,g14,g16,g22 are ADJOINT-sector elements of e6; every construction is a centralizer or Killing complement and is therefore RANK-PRESERVING; NO 27 VEV appears anywhere in this cell, so nothing here reaches rank 4 and nothing here claims to. Corrections owed and restated: B958 FINDINGS:11,19 'no independent construction of M12' is incorrect as stated (B911_cmt_document had it -- B958's method was right, its premise wrong); B961 FINDINGS:60-62 likewise; CMT_DRAFT.md:190's W_frame VERIFICATION PENDING row is stale. Nothing banked; this is a rebuild plus evidence, NOT a verification of the presence side, and it makes no Standard Model claim.",
+ "mandated_gate": {
+  "floor_dim": {
+   "got": 12,
+   "banked": 12,
+   "pass": true
+  },
+  "M12_dim": {
+   "41131": 12,
+   "41201": 12
+  },
+  "M12_cap_core": {
+   "41131": 0,
+   "41201": 0
+  },
+  "all_pass": true
+ },
+ "suites": {
+  "rebuild": {
+   "checks": 51,
+   "all_pass": true,
+   "primes": [
+    41131,
+    41201
+   ]
+  },
+  "weightlines": {
+   "checks": 23,
+   "all_pass": true,
+   "primes": [
+    41131,
+    41479
+   ],
+   "admissible_primes": "4/10"
+  },
+  "presence7": {
+   "checks": 16,
+   "all_pass": true,
+   "primes": [
+    41131,
+    41201
+   ]
+  },
+  "weightfield": {
+   "primes_scanned": 24,
+   "mu_splits_at_every_kappa_split_prime": true,
+   "summary": {
+    "g14": {
+     "always_splits": false,
+     "density": 0.667,
+     "of": 24,
+     "residual_degrees_seen": [
+      0,
+      12
+     ],
+     "split_count": 16
+    },
+    "g16": {
+     "always_splits": true,
+     "density": 1.0,
+     "of": 24,
+     "residual_degrees_seen": [
+      0
+     ],
+     "split_count": 24
+    },
+    "g22": {
+     "always_splits": false,
+     "density": 0.667,
+     "of": 24,
+     "residual_degrees_seen": [
+      0,
+      12
+     ],
+     "split_count": 16
+    },
+    "g8": {
+     "always_splits": true,
+     "density": 1.0,
+     "of": 24,
+     "residual_degrees_seen": [
+      0
+     ],
+     "split_count": 24
+    }
+   }
+  }
+ },
+ "total_checks": 90,
+ "total_pass": true,
+ "exact_over_Q": [
+  "frame Gram + signature (2,2) + the four norms",
+  "core 30",
+  "floor 12",
+  "derived(floor) 8, centre 0, floor centre 4",
+  "nu deg 18 = c*kappa^6",
+  "kappa coefficients, irreducibility, -19^3, disc kernel {7,11}"
+ ],
+ "mod_p_tier": [
+  "compact walls + span 66",
+  "M12 and all M12 properties",
+  "mu-walls derived from M12",
+  "B958 legs 1,2,3,5,6,7",
+  "the weight-field split"
+ ],
+ "cited_not_rederived": [
+  "B911 CMT_DRAFT.md comparison targets: frame norms, kappa, mu, 30/12/46, one-field kappa~mu",
+  "B939 assembly.py:349-353 realization of W_frame inside Aut(e6)"
+ ],
+ "new_on_this_bench": [
+  "the weight-line decomposition of M12 (12 multiplicity-one weight 4-tuples)",
+  "W_frame closure tested WITH failing controls (leg 6)",
+  "the orbit<->generation bijection shown to be FORCED, not independent (leg 7)",
+  "the compact/noncompact split of the M12 weight field (24 primes)",
+  "mu derived from M12 itself, removing the last cubic import",
+  "leg 1's escape LOCALIZED into the torus"
+ ],
+ "reproduction_not_discovery": [
+  "frame, core, floor, kappa, walls, M12, mu-walls -- all previously built in B911",
+  "W_frame realized in Aut(e6) -- B939",
+  "dim Z(su(3)) = 16 -- B958/B961"
+ ],
+ "still_blocked": [
+  "char-0 exactification over K (tier gap; this cell added primes, not tier)",
+  "identity of the compact weight extension (well-posed now; not answerable by prime-scanning)",
+  "conjugacy of derived(floor) with the standard A2 Levi",
+  "import I-4: G2+G2 not contained in e6",
+  "the presence side's own section text (incoming, not in repo)"
+ ],
+ "mb12": {
+  "controls_that_fired": [
+   "random e6 pair does NOT commute",
+   "random 4-tuple Gram NOT diagonal",
+   "generic rho gives M12 kernel 0 (vs 4 at mu-walls)",
+   "escape routine returns 0 for [floor,M12] and 50 for [so(10),M12]",
+   "su(3)_colour rank 26 on core, torus rank 12 on M12 (vs rank 0 on M12)",
+   "four non-W_frame sign patterns all fail closure",
+   "K-perp of an engineered 66-span meets the core in 12; [M12,M12]^core = 4"
+  ],
+  "check_i_will_not_defend": "M12 ^ core = 0 is dimension-generic (12+30<78): non-vacuous but WEAK; the discriminating content is span=66 via wall dims [30,30,30] with pairwise and triple intersections all equal to the floor",
+  "vacuous_check_declined": "Q(sqrt77) as the compact weight extension -- every scanned prime splits kappa and so already forces 77 to be a QR; the test cannot fail, so it was not run",
+  "degree_bounds": "nu<=18, det12<=12, charpoly<=12 all STRUCTURAL (affine-in-parameter matrices) plus 4-6 surplus check nodes each"
+ },
+ "my_errors_recorded": [
+  "first-draft triple-intersection formula computed dim(W0 ^ (W1+W2)); caught by re-reading before running; fixed with an explicit inter_basis",
+  "Fraction leak from BB into the mod-p layer; fixed by asserting integrality, not casting",
+  "p=41201 splitting crash kept as a RESULT (it produced section 3.3) rather than tuned away",
+  "honoured the scout's bug: basis-reduce bracket vectors before any dimension formula"
+ ],
+ "prime_hygiene": {
+  "used_here": [
+   41131,
+   41201,
+   41479,
+   41617,
+   41641
+  ],
+  "record_before": [
+   40009,
+   40013,
+   40037,
+   40039,
+   40063,
+   40123,
+   40639,
+   40829,
+   40883
+  ],
+  "disjoint": true
+ },
+ "representation_named": "adjoint sector only; g8,g14,g16,g22 in e6; all constructions are centralizers/Killing complements hence RANK-PRESERVING; no 27 VEV anywhere",
+ "files": [
+  "WORK.md",
+  "rebuild.py",
+  "rebuild_results.json",
+  "weightlines.py",
+  "weightlines_results.json",
+  "weightfield.py",
+  "weightfield_results.json",
+  "presence7.py",
+  "presence7_results.json",
+  "SCOUT.md",
+  "scout.json"
+ ],
+ "next_cell": "char-0 exactification over K (restriction of scalars, the B877 FMT recipe) -- the only thing between this bench and a certificate-grade frame; it would settle the compact weight extension as a side effect"
+}

@@ -177,6 +177,9 @@ for i in range(DIM):
             d = BB[j][kk][q]
             if d:
                 t += c * d
+        # BB entries are integral (Fraction with denominator 1) -- assert, don't assume
+        assert getattr(t, "denominator", 1) == 1, "Killing entry is not integral"
+        t = int(t)
         K[i][j] = t; K[j][i] = t
 random.seed(7)
 R["C_killing_formula_matches_ad_traces"] = all(

@@ -20447,6 +20447,39 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B976": {
+   "slug": "cascade recovery",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "B800",
+    "B860",
+    "B861",
+    "B862",
+    "B863",
+    "B864",
+    "B865",
+    "B868",
+    "B869",
+    "B870",
+    "B871",
+    "B872",
+    "B873",
+    "B880",
+    "B951",
+    "B953",
+    "B965",
+    "L132",
+    "L138",
+    "L143",
+    "P5"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B97": {
    "slug": "sl2r lorentzian",
    "motifs": [

@@ -1,0 +1,4 @@
+psi-grading of the 27 (value: multiplicity): {-2/3: 10, 1/3: 16, 4/3: 1}
+normalised so smallest gap = 1 -> [-2/3, 1/3, 4/3]
+exotics = 27 - 16 = 11  ; against a 15-fermion generation: 12
+|10-block| = 10  |1-block| = 1  psi(10)+psi(10) = -4/3  ; -(that) = 4/3  ; psi(singlet) = 4/3  MATCH: True

@@ -1,0 +1,174 @@
+{
+ "cell": "B970 / L134 -- structural work on the exotics of the 27",
+ "date": "2026-08-08",
+ "sealed": false,
+ "scope": "one 27 of E6; the GUT chain E6 > SO(10)xU(1)_psi > SU(5)xU(1)_chi > SM, and the A2+A1 Levi of e6. No generations, no masses, no couplings, no values. Nothing to CLAIMS.md; Gate 5 untouched.",
+ "artifacts": {
+  "computation": "exotics_levi.py",
+  "raw_results": "exotics_levi.json",
+  "run_log": "run_log.txt",
+  "writeup": "WORK.md",
+  "not_modified": ["PRIOR_ART_EXOTICS.md", "prior_art_exotics.json", "exotics_charges.py", "exotics_charges.json"]
+ },
+
+ "prior_art": {
+  "reproduction": [
+   "B884_yukawa_support: the 27 under the cascade's charges = piece_dims [1,1,1,2,2,2,3,3,3,3,6]; reproduced here EXACTLY from the Cartan matrix (B884 got it numerically at 30 digits)",
+   "B970 scout exotics_charges.py: psi/chi/Y on the 27; same values, re-derived here without least-squares fitting",
+   "B970 scout section 1.4: eleven vs twelve exotics; confirmed"
+  ],
+  "imported_not_recomputed": [
+   "B876_descent: dim K1 = 46 at the object's enhancement point",
+   "B876_descent: y and y2 are IMPOSED, not supplied by the object's torus (its section 1, citing B874)"
+  ],
+  "new_here": [
+   "the exotic-vs-SM hypercharge degeneracy audit (part 2) and its MB12 non-vacuity certificate on the 78",
+   "the three resolving-power runs including the rank-4 collapse",
+   "the exhaustive extended-Dynkin certificate that a dim-46 centraliser in e6 must be so(10)+u(1)",
+   "the three so(10) embeddings above the Levi and the three disagreeing 16-labellings",
+   "the relative Weyl group N_W(W_L)/W_L = S3, identified as the Weyl group of the hidden orthogonal A2",
+   "the scope check over all 10 A2+A1 Levis of E6"
+  ],
+  "named_apart": "the S3 here FIXES two pieces (Q and D); the banked trinification Z/3 of B299/PC25 acts FREELY on the 27 with 9 orbits of 3. Different actions."
+ },
+
+ "part1_the_exotics": {
+  "method": "psi, chi, Y each derived as the unique Cartan element commuting with so(10) / su(5) / su(3)+su(2); ONE normalisation each, everything else predicted",
+  "predictions_that_came_out_right": {
+   "psi": "fixed psi(16)=1 -> psi(10)=-2 and psi(1)=+4 predicted",
+   "chi": "fixed chi(5bar of the 16)=3 -> chi(10)=-1, chi(1)=-5, chi(5)=+2, chi(5bar_ex)=-2, chi(S)=0 predicted",
+   "Y": "fixed Y(Q)=1/6 -> all ten remaining Y values predicted, including the whole exotic 10 and the singlet"
+  },
+  "branching_arithmetic": {
+   "E6 > SO(10)xU(1)_psi": "27 = 1(psi=4) + 16(psi=1) + 10(psi=-2); traceless 1*4 + 16*1 + 10*(-2) = 0",
+   "10 of SO(10) > SU(5)": "5(chi=+2) + 5bar(chi=-2); 5*2 + 5*(-2) = 0",
+   "1 of SO(10) > SU(5)": "1(chi=0)",
+   "16 > SU(5)": "10(chi=-1) + 5bar(chi=+3) + 1(chi=-5); 10*(-1)+5*3+1*(-5) = 0",
+   "5 > SM": "(3,1)_{-1/3} + (1,2)_{+1/2}; 3*(-1/3) + 2*(1/2) = 0",
+   "5bar > SM": "(3bar,1)_{+1/3} + (1,2)_{-1/2}; 3*(1/3) + 2*(-1/2) = 0",
+   "1 > SM": "(1,1)_0"
+  },
+  "the_twelve": [
+   {"name": "D",   "origin": "5 in the 10",    "su3": "3",    "su2": "1", "Y": "-1/3", "Qem": ["-1/3"],  "psi": "-2", "chi": "+2", "states": 3},
+   {"name": "H_u", "origin": "5 in the 10",    "su3": "1",    "su2": "2", "Y": "+1/2", "Qem": ["1","0"], "psi": "-2", "chi": "+2", "states": 2},
+   {"name": "Dbar","origin": "5bar in the 10", "su3": "3bar", "su2": "1", "Y": "+1/3", "Qem": ["1/3"],   "psi": "-2", "chi": "-2", "states": 3},
+   {"name": "H_d", "origin": "5bar in the 10", "su3": "1",    "su2": "2", "Y": "-1/2", "Qem": ["0","-1"],"psi": "-2", "chi": "-2", "states": 2},
+   {"name": "S",   "origin": "the 1",          "su3": "1",    "su2": "1", "Y": "0",    "Qem": ["0"],     "psi": "+4", "chi": "0",  "states": 1}
+  ],
+  "counts": {
+   "exotic states beyond the 16": 11,
+   "states beyond a 15-fermion generation": 12,
+   "the difference": "nu^c, which sits INSIDE the 16"
+  },
+  "naming_note": "the scout's exotics_charges.py swaps the letters D and Dbar relative to this file; every charge agrees exactly. The 3 vs 3bar distinction is computed here (the scout's labels were dimension-only)."
+ },
+
+ "part2_hypercharge_comparison": {
+  "MB12_stated_before_running": "test = does every piece carry a hypercharge some field of the 16 carries? It CAN FAIL: run on the 78 it fails, with the X/Y gauge bosons at (3,2)_{-5/6} and Y = -5/6 belonging to no field of the 16. Non-vacuous.",
+  "SM_hypercharges_in_the_16": {"Q": "1/6", "u^c": "-2/3", "d^c": "1/3", "L": "-1/2", "e^c": "1", "nu^c": "0"},
+  "result": {
+   "exactly_degenerate_with_a_16_field": {"Dbar": "d^c", "H_d": "L", "S": "nu^c"},
+   "exact_conjugate_of_a_16_field": {"D": "d^c", "H_u": "L (= the SM Higgs doublet's quantum numbers)"},
+   "exotics_with_SM_quantum_numbers_found_nowhere_in_the_16_up_to_conjugation": []
+  },
+  "verdict": "THE EXOTICS DO NOT DIFFER IN ANY SM CHARGE. Six of the eleven exotic states are exactly degenerate with a field of the 16 under SU(3)xSU(2)xU(1)_Y; the other five are the exact conjugates.",
+  "what_actually_makes_them_observable_in_principle": [
+   "multiplicity, not charge: the 27 carries TWO copies of the SU(5) 5bar content (d^c + L) and the SM cannot say which is which",
+   "vector-likeness: the exotic 5 + 5bar admits a Dirac mass with no electroweak breaking; SM matter does not",
+   "psi and chi -- which are not SM charges, which is why the literature needs a Z'"
+  ]
+ },
+
+ "part3_the_cascade": {
+  "MB12_stated_before_running": "criterion = the charges the cascade measures separate every exotic piece from every 16 piece. Named failing configuration IN ADVANCE: restrict to the SM's own rank-4 torus (su3, su2, Y). Both branches then run; non-vacuous.",
+  "the_levi": {
+   "L": "<alpha_3, alpha_4> + <alpha_6>",
+   "n_roots": 8, "derived_dim": 11, "centre_dim": 3, "total_dim": 14,
+   "matches_banked_landing_point": true
+  },
+  "the_27_under_the_levi": {
+   "n_pieces": 11,
+   "piece_dims": [1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 6],
+   "identical_to_B884": true,
+   "structure": "Q(3,2)=6 | D(3,1)=3 | three (3bar,1): u^c,d^c,Dbar = 9 | three (1,2): L,H_u,H_d = 6 | three (1,1): nu^c,e^c,S = 3",
+   "exotics_occupy": ["D", "Dbar", "H_u", "H_d", "S"],
+   "n_exotic_pieces_of_11": 5
+  },
+  "torus_identification": {
+   "rank of (m1,m2,m5) on the 27": 3,
+   "rank of (psi,chi,Y) on the 27": 3,
+   "rank of all six together": 3,
+   "conclusion": "the cascade's u(1)^3 IS the (psi, chi, Y) torus -- the same 3-dim space of charges"
+  },
+  "resolving_power": {
+   "rank6_full_levi": {"classes_among_the_11": 11, "every_exotic_separated_from_every_16_piece": true},
+   "psi_alone": {"classes_among_the_11": 8, "every_exotic_separated_from_every_16_piece": true},
+   "rank4_SM_su3_su2_Y": {"classes_among_the_11": 8, "every_exotic_separated_from_every_16_piece": false,
+                          "collisions": {"Dbar": "d^c", "H_d": "L", "S": "nu^c"}}
+  },
+  "the_first_step_already_does_it": {
+   "roots annihilating the psi direction": 40,
+   "dim Cent": 46,
+   "identification": "so(10) + u(1)",
+   "the 27 splits at that one step into": {"1": 1, "16": 16, "10": 10}
+  },
+  "dim46_uniqueness_certificate": {
+   "method": "exhaustive over all 2^7 - 1 subsets of the EXTENDED E6 Dynkin diagram",
+   "max roots in any proper pseudo-Levi": 40,
+   "the only 40-root subsystem": {"n_roots": 40, "rank": 5, "type": "D5"},
+   "conclusion": "ANY dimension-46 centraliser in e6 is so(10) + u(1); so B876's computed K1 (dim 46) necessarily carries the psi grading and necessarily splits the 27 as 1 + 16 + 10",
+   "licensing_theorem_cited_not_rederived": "Borel-de Siebenthal: every centraliser of a semisimple element is W-conjugate to a subsystem generated by a subset of the extended Dynkin diagram"
+  },
+  "the_labelling_is_3_fold_ambiguous": {
+   "n so(10) directions in the Levi centre": 3,
+   "search_box_stability": "identical at |h| <= 8, 15, 25",
+   "the_three_16s": [
+    ["Q", "u^c", "d^c", "L", "e^c", "nu^c"],
+    ["Q", "u^c", "Dbar", "H_d", "e^c", "S"],
+    ["Q", "d^c", "Dbar", "H_u", "nu^c", "S"]
+   ],
+   "in_every_16": {"Q": 6},
+   "in_no_16": {"D": 3},
+   "states_unambiguous": 9,
+   "states_that_change_side": 18
+  },
+  "relative_weyl_group": {
+   "W(E6) built in full": 51840,
+   "|N_W(W_L)|": 72, "|W_L|": 12, "order": 6,
+   "identification": "the Weyl group of the 6 roots of E6 orthogonal to alpha_3, alpha_4, alpha_6 -- a rank-2 A2, a THIRD hidden su(3) whose Cartan sits in the Levi centre; the reflection subgroup has order 6, lies in N_W(W_L), and meets W_L only in the identity",
+   "orbits_on_the_11_pieces": [["Q"], ["D"], ["u^c", "d^c", "Dbar"], ["L", "H_u", "H_d"], ["nu^c", "e^c", "S"]],
+   "orbits_mixing_a_16_piece_with_an_exotic_piece": 3,
+   "sharpest_consequence": "the Levi alone cannot tell the lepton doublet from the two Higgs doublets -- L, H_u and H_d are one orbit",
+   "cross_check": "orbit-stabiliser 6/3 = 2 agrees with the box search's three so(10)s"
+  },
+  "scope_check": {
+   "all A2+A1 subsets of the E6 simple roots": 10,
+   "all give the same 27 piece pattern": true,
+   "all give the same relative Weyl order": true
+  }
+ },
+
+ "THE_FINDING": {
+  "headline": "The cascade can see the exotics precisely because it fails to reach the Standard Model.",
+  "chain": [
+   "the only charges separating the exotics from a generation are psi and chi -- the two u(1)s the SM does not have",
+   "the SM group has rank 4; the cascade's Levi has rank 6; descending to the SM means shedding exactly psi and chi",
+   "at rank 4 the separation is gone EXACTLY: Dbar = d^c, H_d = L, S = nu^c as gauge multiplets"
+  ],
+  "conclusion": "the two u(1)s the cascade cannot shed (banked: centralizers preserve rank; no centralizer construction reaches rank 4 with a complex 27) are exactly the two u(1)s that distinguish the eleven exotics from a generation. The cascade's surplus rank is not only its defect; it is also its entire resolving power on this question. The exotics are not invisible to the cascade -- they are invisible to the SM.",
+  "second_order_reading_flagged_as_a_reading": "what the cascade resolves is a SPLIT, not a LABEL: it sees eleven pieces but does not from the Levi alone say which nine states are matter. The tie is broken by z1, the one descent charge B876 records as object-supplied rather than imposed. Object supplies the split; the imposed charges supply the multiplet carving.",
+  "what_this_does_not_say": [
+   "it does not make the exotics heavy -- that is the 27 VEV input, already closed as L133/L138 (the scout's R2/R3 pins the unique direction to S = omega_1)",
+   "the three so(10)s of the ambiguity are reachable by ADJOINT (78) directions -- rank-preserving centralisers, costing no 27 VEV. Making the exotics heavy costs a 27 VEV. Two different operations.",
+   "nothing about three generations; one 27 throughout"
+  ]
+ },
+
+ "honest_boundaries": [
+  "the identification of the cascade's Levi with <alpha_3,alpha_4,alpha_6> is by matching invariants (dim 14 / derived 11 / centre 3, plus B884's piece_dims, plus the finding that all 10 A2+A1 Levis agree). A strong match, not a proof that B876's numerically-built Levi IS this one.",
+  "'exactly three so(10)s above the Levi' is a bounded integer search corroborated by orbit-stabiliser. Two agreeing routes, not a theorem.",
+  "the join in part 3 leans on ONE imported number, B876's dim K1 = 46. If that is wrong, the join fails.",
+  "no literature was read this session (per the task). Given how standard E6's su(3)^3 structure is, treat the S3 / three-so(10) result as VERY LIKELY REPRODUCTION of known model-building lore, not discovery, until a scout confirms.",
+  "everything here is about what a gauge group can DISTINGUISH. Nothing about whether the exotics can be made heavy, and nothing about any observable rate."
+ ]
+}

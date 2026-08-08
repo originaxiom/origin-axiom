@@ -38,9 +38,13 @@ def loc(v, g):
     return tuple(t - m > 0 for t in (w[0], max(w[1], w[2]), w[3]))
 
 
-def orbit(co, bound=10 ** 7):
+def orbit(co, bound=None):
     co = prim(co)
-    P = sorted({int(p) for p in sp.primerange(2, bound) if any(int(c) % p == 0 for c in co)})
+    P = set()
+    for c in co:                       # coefficients here all factor completely
+        if c != 0:
+            P |= {int(p) for p in sp.factorint(abs(int(c)))}
+    P = sorted(P)
     per, forced = {}, []
     for p in P:
         v = [sp.multiplicity(p, abs(int(c))) if c != 0 else 10 ** 9 for c in co]

@@ -1,5 +1,11 @@
 # Changelog
 
+## B976 — the cascade recovery: **the owner was right**
+- **Measured, not felt:** of 60 arcs in B800–B880, **39 are cited on no synthesis surface** — and **only 1 of the 12 cascade-closure arcs (B860–B873)** appears anywhere.
+- **Two of today's claims were contradicted by banked work.** The global **ℤ₆** form ("not addressed" — **B862 derives it**), and worse: **hypercharge**, which I called *"OPEN — the sharpest available target"* while **B864 derived it on 2026-08-03** (b = c = 0 forced; ψ, χ ungaugeable). On that wrong row I registered L132, commissioned a panel, and put it in a running workflow phase.
+- **The repo lost nothing** — every arc is banked, locked, passing. **The synthesis layer forgot them.** This is B965's leak one level up: *whole arcs never compressed into a row at all.*
+- **Causation not claimed** — no chat-history access; correlation is not causation. **L143 registered:** a representation sweep, the missing third gate. Verdict + ledger corrected, 7 locks. 
+
 ## B975 — the render audit: drawing found what 58 hours of certified computation did not
 - **The process point, adopted:** *for any arc whose product is a field, a spectrum, or a set of points — **render it once before banking**, as a check.* Two defects sat latent through three review passes, a shakedown and 58 hours of certified computation; **both surfaced within an hour of somebody drawing the output.** Complement to the day's two gates: those catch prose drift, this catches **structure drift in numbers**. Not gateable — a human obligation.
 - **C2 phase contamination — B940 CLEARED on stated grounds** (every sealed element is phase-invariant; G1 is a *relative* residual, so ψ → e^{iθ}ψ cancels). **Prospective warning banked:** any pointwise extension must pin the phase first.

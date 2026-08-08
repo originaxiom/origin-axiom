@@ -1,0 +1,148 @@
+{
+ "ALL_PASS": true,
+ "FAILURES": [],
+ "VERDICT": [
+  {
+   "check": "(1) [M12,M12] escape == 4 (p=41131)",
+   "got": 4,
+   "pass": true,
+   "want": 4
+  },
+  {
+   "check": "(1) escape lands in the torus (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "(2) [floor,M12] rank == 12 (p=41131)",
+   "got": 12,
+   "pass": true,
+   "want": 12
+  },
+  {
+   "check": "(2) [floor,M12] escape == 0 (p=41131)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "(3) z(noncompact wall) dim == 46 (p=41131)",
+   "got": 46,
+   "pass": true,
+   "want": 46
+  },
+  {
+   "check": "(3) [so(10),M12] escape == 50 (p=41131)",
+   "got": 50,
+   "pass": true,
+   "want": 50
+  },
+  {
+   "check": "CONTROL escape routine returns 0 somewhere (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "CONTROL escape routine returns >0 somewhere (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "(1) [M12,M12] escape == 4 (p=41201)",
+   "got": 4,
+   "pass": true,
+   "want": 4
+  },
+  {
+   "check": "(1) escape lands in the torus (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "(2) [floor,M12] rank == 12 (p=41201)",
+   "got": 12,
+   "pass": true,
+   "want": 12
+  },
+  {
+   "check": "(2) [floor,M12] escape == 0 (p=41201)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "(3) z(noncompact wall) dim == 46 (p=41201)",
+   "got": 46,
+   "pass": true,
+   "want": 46
+  },
+  {
+   "check": "(3) [so(10),M12] escape == 50 (p=41201)",
+   "got": 50,
+   "pass": true,
+   "want": 50
+  },
+  {
+   "check": "CONTROL escape routine returns 0 somewhere (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "CONTROL escape routine returns >0 somewhere (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  }
+ ],
+ "p41131": {
+  "M12_dim": 12,
+  "bracket_cap_M12": 12,
+  "bracket_cap_core": 4,
+  "bracket_cap_floor": 4,
+  "bracket_cap_torus": 4,
+  "bracket_escape": 4,
+  "control_escape_routine_can_be_nonzero": true,
+  "control_escape_routine_can_be_zero": true,
+  "dim_bracket_M12": 16,
+  "dim_bracket_floor_M12": 12,
+  "dim_bracket_so10_M12": 62,
+  "dim_z_noncompact_wall": 46,
+  "escape_lands_in_torus": true,
+  "floor_M12_escape": 0,
+  "mu_roots": [
+   8913,
+   26153,
+   37451
+  ],
+  "so10_M12_escape": 50,
+  "torus_dim": 4
+ },
+ "p41201": {
+  "M12_dim": 12,
+  "bracket_cap_M12": 12,
+  "bracket_cap_core": 4,
+  "bracket_cap_floor": 4,
+  "bracket_cap_torus": 4,
+  "bracket_escape": 4,
+  "control_escape_routine_can_be_nonzero": true,
+  "control_escape_routine_can_be_zero": true,
+  "dim_bracket_M12": 16,
+  "dim_bracket_floor_M12": 12,
+  "dim_bracket_so10_M12": 62,
+  "dim_z_noncompact_wall": 46,
+  "escape_lands_in_torus": true,
+  "floor_M12_escape": 0,
+  "mu_roots": [
+   4748,
+   10660,
+   25412
+  ],
+  "so10_M12_escape": 50,
+  "torus_dim": 4
+ }
+}

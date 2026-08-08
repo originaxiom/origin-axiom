@@ -92,7 +92,7 @@ This is the column that decides where a new theory can contribute at all.
 | the global **ℤ₆** form | **DERIVED** — the cascade selects **[SU(3)×SU(2)×U(1)]/ℤ₆** (B862), resolving an ambiguity **the SM itself cannot fix** | **DELIVERED — the strongest row in this table** |
 | **3 generations** | generation-shape structural (B897); D₂ carries the entire hierarchy (B928); orbit↔generation bijection (solo, unverified) | **structural, count matches** |
 | 15/16 per generation | the **27** and its branchings; the 16 = SO(10) spinor appears in the chain | **structural** |
-| **hypercharges** | `hyper.py` fit reproduces at rank 3 (B892 §4) — but **no derivation from anomaly cancellation inside the object** | **OPEN — the sharpest available target** |
+| **hypercharges** | **DERIVED (B864, 2026-08-03): hypercharge is the UNIQUE gaugeable U(1) in the chain's abelian sector.** Writing Q = aY + bχ + cψ over the generation, the anomaly conditions are grav = 5b+15c, [SU(3)]² = 2c, [SU(2)]² = 2c, **forcing b = c = 0 exactly**; ψ and χ are anomalous over the chiral matter (Tr ψ = 16, Tr χ = 5) so they *cannot* be gauged. **SCOPE: the DIRECTION is derived; the NORMALISATION is not and cannot be — anomaly conditions are homogeneous (B951)** | **DELIVERED (direction); normalisation not derivable in principle** |
 | chirality | **not self-supplied** (B713, B760); chiral matter *constructible* via a closing (B582, B576) | **requires an external input** |
 | sin²θ_W | **= 3/8** exactly, tree/GUT level (B919) | reproduces a **known GUT relation**, not a measured value |
 | the 19 parameters | **none**. Three sealed crossings, three negatives (B915 16σ; B925 by algebra; B929 shape-only) | **absent, and B936 says values are frame-relative** |
@@ -119,13 +119,20 @@ it means the chain is **two steps from the SM, not zero**, and the missing steps
 1. **Which u(1) (or combination) is hypercharge?** — the `gauge_dict` obstacle, 48/79.
 2. **What breaks the other two**, and at what cost?
 
-### D2. The hypercharge derivation is the sharpest target the object has
+### D2. The hypercharge derivation — **ALREADY DONE (B864)**, and this row was wrong
 
-Anomaly cancellation is, by §B1, **the SM's only computed value-level structure** — the one
-place accepted physics *derives* rather than measures. The object supplies a rank-3 abelian
-sector. **Asking whether the object's own charges satisfy the SM's anomaly conditions, and
-whether Y falls out, is the single highest-value SM-facing question available** — and it is
-value-level without being value-matching, so the firewall permits it.
+*(Corrected 2026-08-08 by B976. The original text called this "the sharpest available target"
+and registered L132 to pursue it. **It had been derived on 2026-08-03.**)*
+
+Anomaly cancellation is, by §B1, **the SM's only computed value-level structure**. And **B864
+carried it out inside the chain**: over the chiral generation, ψ and χ are anomalous and
+therefore ungaugeable, while **Y is the unique gaugeable direction** — b = c = 0 forced. The
+cascade's "strip the dials" rule is thereby a **consequence of anomaly consistency**, not a
+definition.
+
+**What genuinely remains** is narrower than the original row claimed: (i) the **normalisation**
+is not derivable — anomaly conditions are homogeneous (B951); (ii) whether the object's u(1)³
+from the SMT *is* the (Y, χ, ψ) triple is **inferred, not computed** (B953, flagged there).
 
 ### D3. What "complete" would actually require of us
 

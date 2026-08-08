@@ -1,0 +1,739 @@
+
+n_roots_E6 = 72
+
+n_weights_27 = 27
+
+minuscule_verified = True
+
+so10_grading_c1 = {
+ "-2/3": 10,
+ "1/3": 16,
+ "4/3": 1
+}
+
+psi_predicted = {
+ "16": "1",
+ "10": "-2",
+ "1": "4"
+}
+
+psi_traceless_check = 0
+
+su5_grading_c1_c2 = {
+ "(Fraction(-2, 3), Fraction(-1, 1))": 5,
+ "(Fraction(-2, 3), Fraction(0, 1))": 5,
+ "(Fraction(1, 3), Fraction(-1, 1))": 1,
+ "(Fraction(1, 3), Fraction(0, 1))": 10,
+ "(Fraction(1, 3), Fraction(1, 1))": 5,
+ "(Fraction(4, 3), Fraction(1, 1))": 1
+}
+
+PART 1 -- the 27
+  name   blk  dim su3   su2      Y Qem               psi  chi  (c1,c2,c5)
+  Q      16     6 3     2      1/6 ['2/3', '-1/3']     1   -1  ['1/3', '0', '1/3']
+  d^c    16     3 3bar  1      1/3 ['1/3']             1    3  ['1/3', '1', '4/3']
+  u^c    16     3 3bar  1     -2/3 ['-2/3']            1   -1  ['1/3', '0', '-2/3']
+  L      16     2 1     2     -1/2 ['0', '-1']         1    3  ['1/3', '1', '1/3']
+  e^c    16     1 1     1        1 ['1']               1   -1  ['1/3', '0', '4/3']
+  nu^c   16     1 1     1        0 ['0']               1   -5  ['1/3', '-1', '-2/3']
+  D      10     3 3     1     -1/3 ['-1/3']           -2    2  ['-2/3', '0', '-2/3']   <-- EXOTIC
+  Dbar   10     3 3bar  1      1/3 ['1/3']            -2   -2  ['-2/3', '-1', '-2/3']   <-- EXOTIC
+  H_d    10     2 1     2     -1/2 ['0', '-1']        -2   -2  ['-2/3', '-1', '-5/3']   <-- EXOTIC
+  H_u    10     2 1     2      1/2 ['1', '0']         -2    2  ['-2/3', '0', '1/3']   <-- EXOTIC
+  S      1      1 1     1        0 ['0']               4    0  ['4/3', '1', '4/3']   <-- EXOTIC
+
+part1_normalisations_used = {
+ "psi": "one scale, fixed by psi(16)=1  ->  psi(10), psi(1) PREDICTED",
+ "chi": "one scale, fixed by chi(5bar of the 16)=3  ->  all other chi PREDICTED",
+ "Y": "one scale, fixed by Y(Q)=1/6  ->  all other Y PREDICTED, including the whole exotic 10 and the singlet"
+}
+
+part1_arithmetic_checks = {
+ "27 = 16 + 10 + 1": [
+  16,
+  10,
+  1
+ ],
+ "sum": 27,
+ "psi traceless over the 27": "0",
+ "chi traceless over the 27": "0",
+ "Y traceless over the 27": "0",
+ "Y traceless on each SU(5) multiplet": {
+  "(Fraction(-2, 3), Fraction(-1, 1))": "0",
+  "(Fraction(-2, 3), Fraction(0, 1))": "0",
+  "(Fraction(1, 3), Fraction(-1, 1))": "0",
+  "(Fraction(1, 3), Fraction(0, 1))": "0",
+  "(Fraction(1, 3), Fraction(1, 1))": "0",
+  "(Fraction(4, 3), Fraction(1, 1))": "0"
+ },
+ "sum of Qem over the 27": "0"
+}
+
+part1_counts = {
+ "states in the 16": 16,
+ "states in the 10": 10,
+ "states in the 1": 1,
+ "EXOTIC states beyond the 16 (10 + 1)": 11,
+ "states beyond a 15-fermion SM generation (27 - 15)": 12,
+ "nu_R sits in the 16": true,
+ "note": "eleven exotics beyond the 16; twelve if counted against a 15-fermion generation, which puts nu_R on the exotic side of the ledger"
+}
+
+part2_exotic_vs_SM = [
+ {
+  "name": "D",
+  "dim": 3,
+  "su3": "3",
+  "su2": "1",
+  "Y": "-1/3",
+  "Y_is_an_SM_fermion_hypercharge": false,
+  "identical_SM_fermion": [],
+  "conjugate_of_SM_fermion": [
+   "d^c"
+  ],
+  "identical_to_SM_Higgs_doublet": false
+ },
+ {
+  "name": "Dbar",
+  "dim": 3,
+  "su3": "3bar",
+  "su2": "1",
+  "Y": "1/3",
+  "Y_is_an_SM_fermion_hypercharge": true,
+  "identical_SM_fermion": [
+   "d^c"
+  ],
+  "conjugate_of_SM_fermion": [],
+  "identical_to_SM_Higgs_doublet": false
+ },
+ {
+  "name": "H_d",
+  "dim": 2,
+  "su3": "1",
+  "su2": "2",
+  "Y": "-1/2",
+  "Y_is_an_SM_fermion_hypercharge": true,
+  "identical_SM_fermion": [
+   "L"
+  ],
+  "conjugate_of_SM_fermion": [],
+  "identical_to_SM_Higgs_doublet": false
+ },
+ {
+  "name": "H_u",
+  "dim": 2,
+  "su3": "1",
+  "su2": "2",
+  "Y": "1/2",
+  "Y_is_an_SM_fermion_hypercharge": false,
+  "identical_SM_fermion": [],
+  "conjugate_of_SM_fermion": [
+   "L"
+  ],
+  "identical_to_SM_Higgs_doublet": true
+ },
+ {
+  "name": "S",
+  "dim": 1,
+  "su3": "1",
+  "su2": "1",
+  "Y": "0",
+  "Y_is_an_SM_fermion_hypercharge": true,
+  "identical_SM_fermion": [
+   "nu^c"
+  ],
+  "conjugate_of_SM_fermion": [
+   "nu^c"
+  ],
+  "identical_to_SM_Higgs_doublet": false
+ }
+]
+
+part2_SM_hypercharges_in_the_16 = {
+ "Q": "1/6",
+ "d^c": "1/3",
+ "u^c": "-2/3",
+ "L": "-1/2",
+ "e^c": "1",
+ "nu^c": "0"
+}
+
+part2_verdict = {
+ "any exotic with SM quantum numbers found nowhere in the 16 (up to conjugation)": [],
+ "exotics exactly degenerate with a 16 field": {
+  "Dbar": [
+   "d^c"
+  ],
+  "H_d": [
+   "L"
+  ],
+  "S": [
+   "nu^c"
+  ]
+ }
+}
+
+part2_MB12_can_the_test_fail = {
+ "test": "does every piece of an E6 representation carry an SM-fermion hypercharge?",
+ "run on the 27": "PASSES for every exotic (see part2_verdict)",
+ "run on the 78 (adjoint)": "FAILS -- hypercharges present in the adjoint that no SM fermion carries: -1, -1/3, -1/6, -5/6, 1/2, 2/3, 5/6",
+ "conclusion": "the test is non-vacuous: it can pass and it can fail"
+}
+
+part3_levi = {
+ "simple roots": "alpha_3, alpha_4 (an A2) and alpha_6 (an A1)",
+ "n roots in the Levi": 8,
+ "dim derived (roots + rank-3 Cartan)": 11,
+ "dim Levi (derived + 3-dim centre)": 14,
+ "centre dim": 3,
+ "matches the cascade's landing point (dim 14, derived 11, centre 3)": true
+}
+
+part3_n_pieces_of_the_27_under_the_Levi = 11
+
+part3_piece_dims_sorted = [
+ 1,
+ 1,
+ 1,
+ 2,
+ 2,
+ 2,
+ 3,
+ 3,
+ 3,
+ 3,
+ 6
+]
+
+part3_torus_identification = {
+ "rank of (c1,c2,c5) on the 27": 3,
+ "rank of (psi,chi,Y) on the 27": 3,
+ "rank of the two together": 3,
+ "same 3-dim space of charges": true
+}
+
+part3_resolving_power = {
+ "SM_rank4": {
+  "n distinguishable classes among the 11 pieces": 8,
+  "colliding pieces": {
+   "('3bar', '1', '1/3')": [
+    "Dbar",
+    "d^c"
+   ],
+   "('1', '2', '-1/2')": [
+    "H_d",
+    "L"
+   ],
+   "('1', '1', '0')": [
+    "S",
+    "nu^c"
+   ]
+  },
+  "every exotic separated from every 16 piece": false
+ },
+ "levi_rank6": {
+  "n distinguishable classes among the 11 pieces": 11,
+  "colliding pieces": {},
+  "every exotic separated from every 16 piece": true
+ },
+ "psi_only": {
+  "n distinguishable classes among the 11 pieces": 8,
+  "colliding pieces": {
+   "('1', '2', '-2')": [
+    "H_d",
+    "H_u"
+   ],
+   "('3bar', '1', '1')": [
+    "d^c",
+    "u^c"
+   ],
+   "('1', '1', '1')": [
+    "e^c",
+    "nu^c"
+   ]
+  },
+  "every exotic separated from every 16 piece": true
+ }
+}
+
+part3_first_cascade_step = {
+ "roots commuting with the psi direction": 40,
+ "dim Cent = roots + rank": 46,
+ "identification": "so(10) (40 roots) + u(1)_psi -> dim 46",
+ "the 27 splits at this single step into": {
+  "-2/3": 10,
+  "1/3": 16,
+  "4/3": 1
+ }
+}
+
+part3_dim46_uniqueness_certificate = {
+ "method": "exhaustive over all 2^7 - 1 subsets of the EXTENDED E6 Dynkin diagram (pseudo-Levi subsystems: every centraliser of a semisimple element is W-conjugate to one of these)",
+ "distinct (n_roots, rank) reached": [
+  [
+   2,
+   1
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   6,
+   2
+  ],
+  [
+   6,
+   3
+  ],
+  [
+   8,
+   3
+  ],
+  [
+   8,
+   4
+  ],
+  [
+   10,
+   4
+  ],
+  [
+   12,
+   3
+  ],
+  [
+   12,
+   4
+  ],
+  [
+   14,
+   4
+  ],
+  [
+   14,
+   5
+  ],
+  [
+   16,
+   5
+  ],
+  [
+   18,
+   6
+  ],
+  [
+   20,
+   4
+  ],
+  [
+   22,
+   5
+  ],
+  [
+   24,
+   4
+  ],
+  [
+   30,
+   5
+  ],
+  [
+   32,
+   6
+  ],
+  [
+   40,
+   5
+  ],
+  [
+   72,
+   6
+  ]
+ ],
+ "subsystems with exactly 40 roots": [
+  {
+   "n_roots": 40,
+   "rank": 5,
+   "n_subsets": 3
+  }
+ ],
+ "conclusion": "the ONLY pseudo-Levi of e6 with 40 roots has rank 5 (= D5); so a centraliser of dimension 46 = 40 + 6 is so(10) + u(1) and its u(1) is the psi direction up to W.  Anything of dim 46 IS the 16 + 10 + 1 split.",
+ "max roots in any proper pseudo-Levi": 40
+}
+
+part3_hidden_su3 = {
+ "roots orthogonal to alpha_3, alpha_4, alpha_6": 6,
+ "rank of their span": 2,
+ "reading": "6 roots of rank 2 = an A2 = a THIRD su(3), whose Cartan lies inside the Levi's u(1)^3 centre; its Weyl group is the S3 found below"
+}
+
+part3_how_many_so10_above_the_levi = {
+ "n D5+u(1) centraliser directions found in the Levi centre (up to the search box)": 3,
+ "distinct 16-labellings they induce": [
+  {
+   "the 16 = ": [
+    "L",
+    "Q",
+    "d^c",
+    "e^c",
+    "nu^c",
+    "u^c"
+   ],
+   "n directions": 1,
+   "example direction": [
+    -8,
+    0,
+    0
+   ]
+  },
+  {
+   "the 16 = ": [
+    "Dbar",
+    "H_d",
+    "Q",
+    "S",
+    "e^c",
+    "u^c"
+   ],
+   "n directions": 1,
+   "example direction": [
+    -8,
+    8,
+    0
+   ]
+  },
+  {
+   "the 16 = ": [
+    "Dbar",
+    "H_u",
+    "Q",
+    "S",
+    "d^c",
+    "nu^c"
+   ],
+   "n directions": 1,
+   "example direction": [
+    0,
+    -8,
+    8
+   ]
+  }
+ ],
+ "n distinct labellings": 3
+}
+
+part3_weyl_group_order = 51840
+
+part3_relative_weyl = {
+ "|N_W(W_L)|": 72,
+ "|W_L|": 12,
+ "|relative Weyl group| = |N|/|W_L|": 6
+}
+
+part3_relative_weyl_is_the_hidden_su3 = {
+ "|group generated by reflections in the 6 orthogonal roots|": 6,
+ "contained in N_W(W_L)": true,
+ "intersection with W_L (should be 1 = identity only)": 1,
+ "so it maps isomorphically onto the relative Weyl group of order 6": true
+}
+
+part3_relative_weyl_orbits_on_the_11_pieces = {
+ "n induced permutations": 6,
+ "orbits": [
+  [
+   "H_d",
+   "H_u",
+   "L"
+  ],
+  [
+   "Dbar",
+   "d^c",
+   "u^c"
+  ],
+  [
+   "D"
+  ],
+  [
+   "S",
+   "e^c",
+   "nu^c"
+  ],
+  [
+   "Q"
+  ]
+ ],
+ "does any orbit mix a 16 piece with an exotic piece": true
+}
+
+part3_ambiguity_budget = {
+ "n so(10) embeddings above the Levi": 3,
+ "pieces in EVERY 16 (unambiguously matter)": {
+  "Q": 6
+ },
+ "pieces in NO 16 (unambiguously exotic)": {
+  "D": 3
+ },
+ "pieces whose matter/exotic status DEPENDS on the choice": {
+  "Dbar": 3,
+  "H_d": 2,
+  "H_u": 2,
+  "L": 2,
+  "S": 1,
+  "d^c": 3,
+  "e^c": 1,
+  "nu^c": 1,
+  "u^c": 3
+ },
+ "states unambiguously assigned": 9,
+ "states whose assignment depends on the choice": 18,
+ "reading": "the Levi ALONE resolves the 27 into 11 pieces but does not say which of them is a generation; the tie is broken by the first cascade charge z1, whose centraliser is the dim-46 so(10) + u(1)"
+}
+
+part3_scope_all_A2plusA1_levis = {
+ "n such subsets of the E6 simple roots": 10,
+ "all give the same 27 piece pattern": true,
+ "all give the same relative Weyl order": true,
+ "detail": [
+  {
+   "nodes": [
+    1,
+    2,
+    3
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    1,
+    3,
+    5
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    1,
+    3,
+    6
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    1,
+    2,
+    4
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    2,
+    4,
+    6
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    3,
+    4,
+    6
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    1,
+    4,
+    5
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    1,
+    5,
+    6
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    2,
+    5,
+    6
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  },
+  {
+   "nodes": [
+    3,
+    5,
+    6
+   ],
+   "n_levi_roots": 8,
+   "levi_dim": 14,
+   "n_pieces_of_27": 11,
+   "piece_dims": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    6
+   ],
+   "rel_weyl_order": 6
+  }
+ ]
+}
