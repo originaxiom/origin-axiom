@@ -831,3 +831,16 @@ clause, not the whole normalisation.
 > Does the split persist beyond length 10? And is there a geometric invariant (CS, trace
 > field, cusp shape) that reads it off? Note this is the structurally interesting half of
 > the L126 result, not a retry of it.
+
+> **L130 — THE THINNING LAW (registered 2026-08-08, from B946).** In the λ-normalised
+> symmetric table the residual primes thin with degree and vanish at the norm: degree 1
+> carries 13·421493, degree 2 carries 17·1129, degree 3 nothing. **Is the thinning a
+> theorem or a coincidence of this cubic?** And is {13·421493, 17·1129} — the un-derived
+> part of the hierarchy — reachable from anything banked? Branch-symmetric and ratio-only
+> by construction, hence admissible under the standing directive.
+>
+> **OWED (from B946 §6):** an independent re-derivation of the solo seat's **presence
+> side** (§LXXXIII–LXXXVI + §XCII — the SMT block as a floor-module with twelve
+> multiplicity-one colour-blind weights and the orbit↔generation bijection). B946 verified
+> **§LXXXII only**, because only it was checkable against data this bench already had.
+> The presence side is two-prime, unread by any other seat, and is **not** discharged.

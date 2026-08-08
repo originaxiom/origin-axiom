@@ -1,5 +1,11 @@
 # Changelog
 
+## B946 — solo handoff 6 verified: §LXXXII lands exactly on B941, and λ is forced
+- **4/4 exact** against this bench's independently computed data, including solo's own honestly-flagged non-clean case (disc is *not* 953-free). **e₃(V)/λ⁴ = 27** and B941's headline numerator 27·2304⁴ are **the same fact by two routes**.
+- **λ = 2304/953 is FORCED** by e₃/27 — the τ-gauge coupling drops out of the clean-norm requirement rather than being inserted.
+- **THE THINNING LAW** (new): residual primes thin with degree and vanish at the norm — 13·421493 at degree 1, 17·1129 at degree 2, nothing at degree 3. Registered **L130**.
+- Three adjudications answered: seed-Gram asymmetry **withdrawn** (concur); the proposed gate **already existed** — made a checkable seal field instead; the retraction scope **correctly bounded, B892 stands**. Handoff flagged as behind on B940–B943, **B942 load-bearing against its own framing**. Presence side **not** verified — recorded as owed. 7 locks.
+
 ## B945 / L126 — one ℤ/2 or two? **INDEPENDENT.** The unification is withdrawn
 - Sealed with the prior declared split and the convenient answer named as needing the higher bar; **it did not clear it.** Stab(m004) = the **full** Klein group — time-reversal and mirror each fix RL alone — and so does every metallic R^mL^m.
 - **The census is the real find**: of 31 amphichiral cyclic words (length ≤ 10), **18 are diagonal-only (LOCKED) vs 13 full** — the locking is real and generic, and our object is the exception. Registered as **L129**.

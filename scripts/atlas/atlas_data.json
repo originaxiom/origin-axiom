@@ -19863,6 +19863,39 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B946": {
+   "slug": "solo handoff6",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B723",
+    "B892",
+    "B909",
+    "B915",
+    "B916",
+    "B922",
+    "B925",
+    "B926",
+    "B927",
+    "B940",
+    "B941",
+    "B942",
+    "B943",
+    "B944",
+    "B945",
+    "K013",
+    "L113",
+    "L126",
+    "L129",
+    "L130"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B94": {
    "slug": "tower universality",
    "motifs": [
