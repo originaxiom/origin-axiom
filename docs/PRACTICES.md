@@ -349,6 +349,30 @@ the class of error that, until now, only a human ever caught.
 Calibrated on that audit: it flags all three rows the audit had to fix, and passes the row
 the audit adjudicated as already correctly scoped.
 
+
+## A retraction is not done until the sweep is clean — GATED (`retraction-sweep`)
+
+**Rule (adopted 2026-08-08, L139 from B965).** **Retracting a claim does not retract its
+instances.** When a claim is retracted: register its phrase in `docs/RETRACTED_PHRASES.md`,
+then run the sweep until it is clean. A retraction is **not complete** until both are done.
+
+**Why.** B964 retracted the bare use of "VEV" and wrote a rule. **One hour later** the LAW_MAP
+audit found that exact error still live in a row written the same day — and when the sweeper
+was first run over all **2,210** tracked `.md` files it found **B962's own FINDINGS still
+asserting both retracted claims, in its title and body, with no banner at all.** The
+retraction had never reached its source.
+
+The sweep distinguishes **use** from **mention**: the phrase may appear inside a retraction
+record, a correction banner, a quotation of what was formerly claimed, or a test enforcing
+its absence. Incoming panel reports (`PRIOR_ART_*.md`, `O3_PRIOR_ART.md`, `DRAFT_FINDINGS.md`)
+are **evidence, not our claims**, and are exempt on the same principle as another seat's
+scripts.
+
+**Limitation, stated:** a phrase registry can only police wording specific enough to be
+unambiguous. Broad phrases (e.g. "the Standard Model algebra") need **correction banners**,
+not greps — `docs/RETRACTED_PHRASES.md` records which retractions are handled which way, and
+why.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

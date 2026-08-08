@@ -20277,10 +20277,12 @@
     "B955",
     "B959",
     "B960",
-    "L138"
+    "B964",
+    "L138",
+    "L139"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 16,
+   "obstacle_conf": 19,
    "status": "dead",
    "domain": "dynamics"
   },
@@ -20356,6 +20358,30 @@
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "dynamics"
+  },
+  "B967": {
+   "slug": "retraction sweep",
+   "motifs": [
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B723",
+    "B892",
+    "B941",
+    "B942",
+    "B943",
+    "B950",
+    "B962",
+    "B963",
+    "B964",
+    "L139"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B96": {
    "slug": "geometry invariants",

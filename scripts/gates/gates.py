@@ -813,6 +813,25 @@ def gate_lawmap_scope():
     return not bad, bad[:5] or "ok"
 
 
+
+# L139 (B965 -> B967): retracting a claim does not retract its INSTANCES. B964 retracted a
+# phrasing and wrote a rule; an hour later the LAW_MAP audit found that exact error still
+# live in a row written the same day. This gate sweeps every tracked .md for registered
+# retracted phrases used as LIVE CLAIMS, allowing them as MENTIONS inside retraction
+# records, correction banners and quotations of former claims.
+def gate_retraction_sweep():
+    """Registered retracted phrases must not appear as live claims in any tracked .md."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import retraction_sweep as rs
+    except Exception as exc:
+        # FAIL-CLOSED: a missing sweeper is exactly the state in which the corpus rots
+        # quietly, which is the failure this gate exists to prevent.
+        return False, f"retraction_sweep unimportable: {exc}"
+    v = rs.sweep()
+    return not v, [f"{r}:{n} {p!r}" for r, n, p in v[:5]] or "ok"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -832,6 +851,7 @@ GATES = {
     "practices-register": gate_practices_register,
     "seal-provenance": gate_seal_provenance,
     "lawmap-scope": gate_lawmap_scope,
+    "retraction-sweep": gate_retraction_sweep,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

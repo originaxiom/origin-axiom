@@ -1,4 +1,24 @@
-# B962 — THE VEV PICTURE SCOUTED: nobody's object supplies a VEV, the route stops one step short, and the only opening is arithmetic
+# B962 — THE VEV PICTURE SCOUTED: the VEV *direction* is always an input, the F₄ wall is the generic 27 VEV, and the only opening is arithmetic
+
+*(Original title asserted two claims B964 later retracted — see the banner below.)*
+
+> ## ⚠ PARTIALLY RETRACTED BY B964 (2026-08-08) — read before quoting anything below
+>
+> Two claims in this arc were withdrawn the same day, and **the retraction sweep (L139)
+> found this file still asserting them**:
+>
+> 1. **"the 27-VEV route provably stops one step short"** — a **scope error**. True only for
+>    **27-only** breaking; the **78 (adjoint) contains a 24**, so the standard chain
+>    completes. The branching fact (27 → 10+5+5̄+5̄+1+1, no 24) stands.
+> 2. **"the object does not supply a VEV"** — **false**. An adjoint VEV's unbroken group *is*
+>    the centralizer of that element, so the **measurement cascade IS an adjoint Higgs
+>    mechanism**. The object supplies the **rank-preserving** half; it lacks the
+>    **rank-reducing 27** half.
+>
+> **Everything else in this arc stands** — the VEV *direction* being an input everywhere, the
+> F₄ = generic-27-VEV unification, 𝕆P² homogeneity including on triples, the arithmetic
+> exception (L138), and the certified Elkies–Gross null. See B964.
+
 
 **Date:** 2026-08-08 · **Seat:** cc (banking), from an adversarial scouting panel.
 **Lane:** MATHEMATICS. Gate 5 untouched. **Control: PASSED** (Freudenthal 1951, Tits 1953,
@@ -9,18 +29,20 @@ Semantic Scholar (429).
 
 ---
 
-## 1. THE ANSWER THAT CHANGES OUR SELF-ASSESSMENT
+## 1. THE ANSWER THAT CHANGES OUR SELF-ASSESSMENT  ⚠ *(partially retracted — see banner)*
 
 > **The VEV direction is ALWAYS an input. No framework derives it.** Group theory derives
 > the *finite menu* of possible breakings (Michel/Kim orbit-space geometry); the potential's
 > **free parameters** pick a point off that menu.
 
-**So "the object does not supply a VEV" is not a defect peculiar to this object — nobody's
-object supplies one.** B952/B959/B960 recorded the missing VEV as *the* gap between the
+**So the missing 27-VEV direction is not a defect peculiar to this object — nobody's object
+supplies one.** ~~*(As originally written this read "the object does not supply a VEV" — that
+phrasing is **retracted by B964**: the object DOES supply the adjoint VEVs, which are the
+measurement cascade. What it lacks is the rank-reducing **27** VEV.)*~~ B952/B959/B960 recorded the missing VEV as *the* gap between the
 object and the SM. That gap is real, but it is **the same gap every GUT has**, and the
 programme should stop describing it as its own shortfall.
 
-## 2. A NO-GO THE PREVIOUS PANEL MISSED — the route stops one step short
+## 2. A NO-GO THE PREVIOUS PANEL MISSED — **27-only** breaking is blocked  ⚠ *(scope corrected — see banner)*
 
 B955 told us E₆ → SU(5) via two rank-1 **27** VEVs reaches rank 4 with the 27 still complex,
 and that the group theory is therefore **not** the obstruction. **That was right about the
@@ -33,8 +55,9 @@ first step and wrong about the destination.**
 Corroborated verbatim in the E₆SSM literature: *"one cannot break E₆ in a conventional
 manner as the required Higgs fields are in larger representations than the 27."*
 
-**So the VEV route delivers rank 4 and chirality, and then provably stops one step short of
-the SM.** B955's "the group theory is not the obstruction" **must be amended**: it is not an
+**So 27-only breaking delivers rank 4 and chirality, and then stops.** ~~*(As originally
+written this said "the VEV route provably stops one step short" — a **scope error retracted
+by B964**: the 78 contains a 24, so the standard chain completes.)*~~ B955's "the group theory is not the obstruction" **must be amended**: it is not an
 obstruction *to rank 4*, but there **is** a further obstruction one step down. Amended in
 LAW_MAP and in B955's row.
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## B967 / L139 — the retraction sweep: its first run found the retraction had never reached its source
+- **Rule:** a retraction is not complete until the phrase is registered **and the sweep is clean.** Registry + sweeper over **all 2,210 tracked `.md`** + gate `retraction-sweep` + practices row.
+- **First run, 11 hits — and the real one:** **B962's own FINDINGS still asserted both claims B964 retracted**, in its title and body, with **no banner**. Fixed at the source: retitled, bannered, and **marked inline** so quoting §2 can't miss it.
+- **Non-vacuity demonstrated** (planted claim fires; removal clean; file byte-identical). Registry records what is *deliberately not* registered and why — broad phrases need banners, not greps.
+- **Both halves of the gap now have machinery:** `lawmap-scope` (compression) and `retraction-sweep` (instances). **Neither removes the need to read.** 4 locks.
+
 ## B966 / L140 — the first gate aimed at claim **scope**
 - **Rule:** a LAW_MAP row citing a heavily-scoped arc verdict must carry a scope marker of its own. Gate `lawmap-scope` + practices row, registered both directions.
 - **Placed where the leak is:** B965 showed every fix was a qualifier lost in **compression** — the arcs' verdicts were all correct. First gate here aimed at *meaning* rather than numbers.

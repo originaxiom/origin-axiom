@@ -987,12 +987,20 @@ clause, not the whole normalisation.
 > it is **unworked**. Caution from B962: even if it fires, the route **provably stops one
 > step short** — 27 VEVs cannot break SU(5) → SM (no **24** in the branching).
 
+> **L139 — EXECUTED 2026-08-08 by B967**: the sweep exists (`docs/RETRACTED_PHRASES.md` +
+> `scripts/checks/retraction_sweep.py`, gated as `retraction-sweep`, over all 2,210 tracked
+> `.md` files), and **on its first run it found B962's own FINDINGS still asserting both
+> claims B964 had retracted — title and body, no banner.** Fixed at the source. *(original
+> registration:)*
 > **L139 — RETRACTION SWEEPS (registered 2026-08-08, from B965).** When a claim is retracted,
 > **sweep for its INSTANCES** — LAW_MAP, CAMPAIGN_STATUS, README, the ledgers — rather than
 > merely correcting the source arc. **Proof it is needed:** B964 retracted the bare use of
 > "VEV" and gave a rule; **one hour later the audit found that exact error still live in a
 > LAW_MAP row written the same day.** Retracting a claim does not retract its instances.
 >
+> **L140 — EXECUTED 2026-08-08 by B966**: gate `lawmap-scope` is live, calibrated on B965's
+> audit, proven non-vacuous, and it caught a fourth violation the audit had missed.
+> *(original registration:)*
 > **L140 — THE COMPRESSION STEP IS THE LEAK (registered 2026-08-08, from B965).** All three
 > audit fixes were **qualifiers lost when an arc verdict was compressed into a LAW_MAP row** —
 > in every case the arc's own verdict was correct and properly scoped. **Candidate gate:** a
