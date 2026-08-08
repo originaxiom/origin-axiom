@@ -20086,6 +20086,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B956": {
+   "slug": "l133 analysis",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B576",
+    "B582",
+    "B892",
+    "B949",
+    "B952",
+    "B953",
+    "B955",
+    "L133"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 11,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B95": {
    "slug": "degree rank mechanism",
    "motifs": [

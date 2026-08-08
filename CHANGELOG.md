@@ -1,5 +1,11 @@
 # Changelog
 
+## B956 — L133 reframed: an INTERMEDIATE-CLOSURE problem
+- **Repo sweep:** Wilson-line/Hosotani breaking appears in **no arc before today**; only 11 arcs mention a VEV. Virgin ground.
+- **The reframe:** the object's two computed regimes bracket the target — abelian torus data → **rank 6** (too big), Zariski-dense → **rank 0** (too small), the SM at **rank 4** strictly between. L133 is: does an **intermediate closure** exist whose commutant is rank 4 with complex reps?
+- **The same tension, one level down:** B582's own proof shows the construction that *buys* chirality forces the closure to be **full** (commutant rank 0). Visible now at two independent levels — **registered as something to test for a theorem before hunting a mechanism**; if there is one, L133 is a no-go.
+- **Risk on my own candidate, on the record before the panel returns:** abelian holonomy is **rank-preserving** — the same defect as measurement. 5 locks.
+
 ## B951 — L132 scouted before computing: vacuous check, textbook endpoint, prior art next door
 - **The anomaly check is probably VACUOUS**: E₆ is anomaly-free and on complete **27**s every condition vanishes identically. **MB12 non-vacuity is now L132's prerequisite, not its result.**
 - **`su(3)⊕su(2)⊕u(1)³` is the A₂+A₁ Levi of e₆** (Borel–de Siebenthal 1949) — re-derived here: dim = 6+8 = 14, centre 3, **exactly B892's numbers**. Arriving at it is not a discovery; **what survives of B892 is the route, not the destination.**
