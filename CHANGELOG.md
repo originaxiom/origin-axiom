@@ -1,5 +1,11 @@
 # Changelog
 
+## B955 — L133 scouted: my candidate refuted (as flagged), the group theory exonerated
+- **Abelian Wilson lines are DEAD for a knot-specific reason:** H₁(knot complement) = **ℤ**, so abelian holonomy has cyclic image and preserves rank **necessarily** — the same defect as measurement. Certified: all E₆ torus elements of order ≤ 6, every centralizer rank 6. **The risk was logged in B956 before the panel returned.**
+- **The group theory is NOT the obstruction:** E₆ → SU(5) via two **27** VEVs already gives rank 6→4 with the 27 complex. Never claim it is hard or novel — the real content is that *the object's own operations* can't do it.
+- **New knot constraint:** cyclic abelianization ⟹ ℤ₃×ℤ₃ and Heisenberg not importable. **Hatch: A₄, D₅, S₅ images exist** — next cell is their E₆ centralizers.
+- **Prior against:** Keurentjes's exhaustive E₆ scan gives ranks **{6,2,0} — never 4**. And **B956's reframing was independently confirmed** by the panel's NG7. Q4 null **not certified**. 6 locks.
+
 ## B958 — the presence side scoped: we never built the invisible 12 ourselves
 - **The repo has no independent M12 construction** — B909 verified §LVIII by *running the incoming material*, not by rebuilding. Same shape as B950: there we compared against a target we never wrote down; here we verified data we never built.
 - **One genuine frame-independent test, run on our own e₆ and passed:** dim Z(su(3)_colour) = **16** (rank 62 of 78), so a colour-blind dim-12 M12 is **consistent**. Necessary, not sufficient — labelled as such.

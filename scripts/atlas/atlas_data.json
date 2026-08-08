@@ -20087,6 +20087,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B955": {
+   "slug": "l133 scout",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B952",
+    "B953",
+    "B954",
+    "B956",
+    "L133"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 21,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B956": {
    "slug": "l133 analysis",
    "motifs": [

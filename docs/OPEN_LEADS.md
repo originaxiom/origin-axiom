@@ -890,7 +890,21 @@ clause, not the whole normalisation.
 > question currently available.** Prerequisite from B950: the chain is **two steps** from
 > the SM (which u(1) is Y; what breaks the other two), not zero.
 
-> **L133 — THE RANK-REDUCTION QUESTION (registered 2026-08-08, from B952; SHARPENED by B953).**
+> **L133 — THE RANK-REDUCTION QUESTION (B952; sharpened B953; SCOUTED AND AMENDED BY B955).**
+> **B955's amendments — read before running anything.** (a) **My abelian Wilson-line candidate
+> is DEAD**: a knot complement has H₁ = ℤ, so every abelian flat connection has *cyclic* image,
+> whose centralizer contains a maximal torus — **rank-preserving necessarily**, the same defect
+> as measurement (certified: every E₆ torus element of order ≤ 6 scanned, all centralizers rank
+> 6). (b) **The group theory is NOT the obstruction** — E₆ → SU(5) via two Jordan-rank-1 **27**
+> VEVs already achieves rank 6→4 with the 27 still complex. **Never claim it is hard or novel;**
+> the real content is that the *object's own operations* cannot do it. (c) **Knot-specific
+> constraint:** every quotient of a knot group has cyclic abelianization, so π₁(m004) cannot
+> surject onto ℤ₃×ℤ₃ or Heisenberg — **the standard non-toral route is closed**. (d) **The hatch:**
+> π₁(m004) *does* have **A₄, D₅, S₅** images. **The next cell: what are their centralizers in E₆,
+> and does any have rank 4 with complex reps?** (e) **Prior against:** Keurentjes's exhaustive E₆
+> scan gives ranks **{6, 2, 0} — rank 4 never occurs** (for π₁ = ℤ³, so not a theorem, but the
+> nearest systematic computation skips exactly our rank).
+> *(original registration:)*
 > **B953's sharpening:** the question is not merely whether the object supplies *any*
 > rank-reducing structure, but whether it supplies one that is **NOT the θ-projection and
 > that preserves the 27's complexity** — because θ *does* reduce rank 6→4, and kills
