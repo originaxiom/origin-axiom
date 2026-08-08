@@ -568,3 +568,64 @@ object's c-swap is **arithmetic, not thermodynamic**, present at every temperatu
 produced by no cooling — which is a falsifiable relocation and becomes L125. Phase III
 items 1 (ι/τ-parity) and 2 (the torsor cocycle) are unaffected in their statements but
 now sit above a foundation one clause thinner; item 2 should be read together with L124.
+
+# ═══════════════════════════════════════════════════════════════════════
+# MASTERPLAN v3 — AFTER THE SM VERDICT (registered 2026-08-08)
+# Owner: "crystalize sm picture first, then craft the multi agent strategy
+# that probes all the options left after being informed, in a loop… then
+# move on to cosmology, bigbang, gravity and other unexplained phenomena."
+# Registered BEFORE the incoming handoff, so the handoff COMPLEMENTS the
+# plan rather than redirecting it. The drift rule and the R4 non-weakening
+# clause extend to this document verbatim.
+# ═══════════════════════════════════════════════════════════════════════
+
+**Premise.** `docs/THE_SM_VERDICT.md` (B968) is the settled statement: the object supplies
+the **adjoint half** of a GUT breaking and not the **27 half**, and the 27 half is an input
+everywhere. The SM question is closed as far as the object's own operations reach.
+
+## PHASE A — CLOSE OUT THE SM SURFACE (parallel; one lead per agent)
+The last items that could change the verdict. Independent, bounded, mostly decidable.
+1. **L134 — the twelve exotics.** 27 = 16+10+1 leaves twelve exotic states per generation
+   that any E₆ model must make heavy. **Never addressed here.** Highest priority in Phase A:
+   left open it will embarrass the programme later, because it is a *standing requirement*.
+2. **L132 (amended) — non-vacuity.** Does the object's spectrum form complete **27**s? If it
+   does, the anomaly check cannot fail and the cell must not run. Cheap; MB12 requires it
+   first.
+3. **L137 — the value/pencil split.** Post-hoc in B947; needs its own seal with the partition
+   declared in advance.
+4. **L135 / the presence side.** Owed to the solo seat. The frame instrument exists (B961);
+   what is missing is their frame/floor/M12 definitions or an independent derivation.
+
+## PHASE B — L138, THE ONE LIVE OPENING (depth, not parallelism)
+Does the object's own cubic (**μ**, **κ**, **K = ℚ[ρ]/μ**) pick out a rational two-27 orbit,
+via Kato–Yukie's classification by **cubic étale algebras**? Scout first (the
+`seal-provenance` gate requires the design-time prior-art field), then one sealed cell.
+**Carry the caveats:** the arithmetic-27 idea has never touched a VEV (certified null), and
+even if it fires it supplies a **direction**, not values.
+
+## PHASE C — THE NEW FRONTIER (cosmology, big bang, gravity, the unexplained)
+**Opens with a SPECIFICATION LEDGER, not a probe.** The SM gap existed because the programme
+compared against a target it had never written down (B950). The same trap is waiting here
+and is larger, because the target is less agreed-on. So Phase C's first deliverable is:
+**what must a cosmological/gravitational theory supply, and what does today's physics
+actually DERIVE versus FIT?** — the analogue of B950/B952. Only then probes.
+**Standing constraint:** the firewall applies unchanged; the closures already banked
+(B167 five-door, B413 terminal flat tower-measure, B170 Machian undecidability, the S014/S015
+tombstones) are **not** to be re-litigated without new computation.
+
+## THE LOOP
+Each phase re-informs the next phase's scoping. **A scouting panel precedes every sealed
+cell** (gate `seal-provenance`). Findings bank same-day with the two new gates active
+(`lawmap-scope`, `retraction-sweep`).
+
+## OPEN FOR THE OWNER'S CALL (not assumed)
+- **Scale.** A multi-agent fan-out of this shape is a dozen-plus agents and real token cost.
+  **Not launched without explicit authorization.**
+- **Order.** This seat recommends **Phase A before Phase C** (L134 especially). Moving to
+  cosmology first and leaving the SM remainder as registered leads is defensible; the verdict
+  document holds either way.
+
+## THE HANDOFF CLAUSE (anti-drift)
+An incoming handoff is **verified first, then folded in as a dated amendment.** It
+**complements** this plan; it does not redirect it without an explicit amendment entry. This
+clause exists because the plan was registered *before* the handoff arrived, deliberately.

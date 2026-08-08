@@ -1,5 +1,10 @@
 # Changelog
 
+## MASTERPLAN v3 registered — before the handoff, deliberately
+- **Phase A** close out the SM surface (L134 the never-addressed twelve exotics, L132 non-vacuity, L137, L135) · **Phase B** L138, the one live opening, depth not parallelism · **Phase C** the new frontier — **opening with a specification ledger, not a probe**, because the SM gap came from an unwritten target.
+- **The handoff clause:** an incoming handoff is *verified first, then folded in as a dated amendment* — it complements the plan, it does not redirect it.
+- **Scale and order left to the owner, not assumed**: no multi-agent fan-out without explicit authorization. 5 locks.
+
 ## B968 — THE SM VERDICT crystallised
 - `docs/THE_SM_VERDICT.md` supersedes every scattered statement about "the SM problem". **One sentence: the object supplies the adjoint half of a GUT breaking and not the 27 half — and the 27 half is an input in every theory anyone has.**
 - Rank reduction is closed as a **theorem** across all five routes (inner, outer, abelian holonomy, finite images, adjoint-form escape), scope stated. The crossings **failed on values, not rank** — explicitly not retrofitted.
