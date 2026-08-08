@@ -313,6 +313,24 @@ branches the exhibited object lands in. A correct conclusion resting on a mechan
 neighbouring statement is the hardest defect class to see, because every individual step verifies.
 This is the "hypothesis nobody listed" failure, and it survives symbolic verification.
 
+
+## The seal carries its own provenance — GATED (`seal-provenance`)
+
+**Rule (adopted 2026-08-08, from B946's adjudication of the solo seat's handoff 6).** Every
+preregistration sealed on or after 2026-08-08 must name, *in the sealed text*, two things:
+
+- **`BANKED IDENTITY:`** the banked identity this pipeline reproduces inside itself before any
+  new number is read; and
+- **`PRIOR ART:`** the bank grep / `query.resolutions_for()` run at **design** time.
+
+**Why this and not a new gate.** The banked-identity gate already existed in `docs/TOOLBOX.md`
+as a design pattern. A seat with full repo access proposed it mid-session, skipped it, and then
+spent nine sections computing a quantity its own banked theorem forbade — and separately
+duplicated a sealed arc for want of one grep. **A skipping problem is not fixed by adding
+another gate.** It is fixed by making the existing requirement a field that must be present
+before the seal hashes, which is the only moment where it can bite. Older seals are exempt by
+construction: a rule cannot bind text sealed before it existed.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

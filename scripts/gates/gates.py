@@ -740,6 +740,37 @@ def gate_atlas_lexicon_current():
                   f"{thin} thin arcs excluded)")
 
 
+
+# B946(b): the banked-identity gate ALREADY existed in docs/TOOLBOX.md as a design pattern,
+# and the solo seat's session showed a good intention is not a gate -- they proposed it, then
+# skipped it, and spent nine sections computing a quantity their own banked theorem forbade.
+# A skipping problem is not fixed by adding another gate; it is fixed by making the existing
+# requirement a CHECKABLE FIELD at the one moment it bites: seal time.
+SEAL_PROVENANCE_FROM = "2026-08-08"
+
+
+def gate_seal_provenance():
+    """Preregistrations sealed on/after SEAL_PROVENANCE_FROM must name, in the sealed text,
+    (i) the banked identity the pipeline reproduces inside itself before any new number is
+    read, and (ii) the prior-art / bank grep run at DESIGN time. Older seals are exempt:
+    the rule cannot bind text that was sealed before it existed."""
+    ledger = _read("docs/SEAL_LEDGER.md")
+    missing = []
+    for line in ledger.splitlines():
+        m = re.match(r"\|\s*(\d{4}-\d{2}-\d{2})\s*\|[^|]*\|\s*`([^`]+)`", line)
+        if not m:
+            continue
+        date, rel = m.group(1), m.group(2)
+        if date < SEAL_PROVENANCE_FROM:
+            continue
+        if not os.path.isfile(os.path.join(ROOT, rel)):
+            continue          # branch-side seals are recorded but not present here
+        txt = _read(rel)
+        if "BANKED IDENTITY:" not in txt or "PRIOR ART:" not in txt:
+            missing.append(rel)
+    return not missing, missing[:5] or "ok"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -757,6 +788,7 @@ GATES = {
     "test-vacuity": gate_test_vacuity,
     "views-generated": gate_views_generated,
     "practices-register": gate_practices_register,
+    "seal-provenance": gate_seal_provenance,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,
