@@ -876,3 +876,18 @@ clause, not the whole normalisation.
 > reproducing "at rank 3" while deriving nothing from it. **The highest-value SM-facing
 > question currently available.** Prerequisite from B950: the chain is **two steps** from
 > the SM (which u(1) is Y; what breaks the other two), not zero.
+
+> **L133 — THE RANK-REDUCTION QUESTION (registered 2026-08-08, from B952).** The measurement
+> cascade is **rank-preserving by construction** (centralizers of semisimple elements contain
+> a maximal torus), so it lands on rank 6 while the SM has rank 4. **Does the object supply
+> ANY rank-reducing structure** — a natural VEV direction, a Wilson line from its own π₁, an
+> orbifold action — **or is rank reduction an input it cannot provide?** This is now the
+> single most important structural question between the object and the Standard Model, and it
+> is **prior to every value question**. A candidate worth checking: the object has a
+> fundamental group and a cusp, so Wilson lines / holonomy are natural here, and
+> `LITERATURE_GAUGE_SM_2026-07-13.md` already records centralizer-of-holonomy (Hosotani) as
+> one of the literature's forced mechanisms for fixing the unbroken subgroup.
+>
+> **L134 — THE TWELVE EXOTICS.** E₆'s **27 = 16 + 10 + 1** leaves **twelve exotic states per
+> generation** (a vector-like coloured triplet pair, an extra doublet pair, singlets) which
+> any E₆ model must make heavy. **The record has never addressed them.**

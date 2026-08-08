@@ -1,5 +1,10 @@
 # Changelog
 
+## B952 — the GUT requirements ledger, and the RANK OBSTRUCTION
+- `docs/GUT_REQUIREMENTS_LEDGER.md`: the eleven rows a GUT must satisfy (coupling unification, **Super-K's proton-decay bound excluding minimal SU(5)**, doublet–triplet, mass relations, monopoles, B−L, an explicit breaking sector) + E₆ specifics, including the **twelve exotics per generation the record has never addressed** (L134).
+- **THE RANK OBSTRUCTION (theorem-grade):** rank(E₆) = 6 = rank(su(3)⊕su(2)⊕u(1)³), but rank(SM) = 4. Centralizers of semisimple elements contain a maximal torus ⟹ **every measurement is rank-preserving**, so **the cascade can never reach the SM**. The extra U(1)s are the unbroken rank, unbroken by construction. B950's "two steps" sharpened to a wall.
+- Does **not** refute FMT/SMT and is **not** a retrofit excuse — the sealed crossings' verdicts stand. **L133 registered**: does the object supply *any* rank-reducing structure? Prior to every value question. 5 locks.
+
 ## B950 — the SM specification ledger, and the overstatement it caught
 - The repo had no inventory of **what the SM specifies** (only how to compare, and a literature map). `docs/SM_SPECIFICATION_LEDGER.md` now states it: algebra + global ℤ₆ form, 15/16 Weyl fermions with hypercharges, the **19** parameters (26/28 with neutrinos), forced-vs-measured, and a delivery column.
 - **First fruit:** su(3)⊕su(2)⊕u(1)³ is **dim 14**; the SM gauge algebra is **dim 12**. B892's mathematics stands; its sentence *"the Standard Model algebra"* **overstates by two abelian factors**. Not a refutation — but the chain is **two steps from the SM, not zero**. B892 banner-corrected, LAW_MAP row amended.

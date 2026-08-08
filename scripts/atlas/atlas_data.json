@@ -20007,6 +20007,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B952": {
+   "slug": "gut ledger rank",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B892",
+    "B915",
+    "B925",
+    "B929",
+    "B950",
+    "L132",
+    "L133",
+    "L134"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 21,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B95": {
    "slug": "degree rank mechanism",
    "motifs": [

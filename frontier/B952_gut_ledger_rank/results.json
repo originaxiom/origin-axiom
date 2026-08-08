@@ -1,0 +1,28 @@
+{
+ "rank_E6": 6,
+ "rank_SMT": {
+  "su3": 2,
+  "su2": 1,
+  "u1_cubed": 3,
+  "total": 6
+ },
+ "rank_SM": {
+  "su3": 2,
+  "su2": 1,
+  "u1": 1,
+  "total": 4
+ },
+ "SMT_preserves_rank_of_E6": true,
+ "SM_rank_is_lower": true,
+ "rank_deficit": 2,
+ "dim_SMT": 14,
+ "dim_SM_gauge": 12,
+ "dim_gap": 2,
+ "theorem": "the centralizer of a set of semisimple elements contains a maximal torus, hence has full rank; the cascade computes centralizers of charges, so every measurement is rank-preserving and no number of them reaches rank 4",
+ "rank_reduction_requires": [
+  "Higgs VEV",
+  "Wilson line / Hosotani flux",
+  "orbifold projection"
+ ],
+ "measurement_can_reduce_rank": false
+}
