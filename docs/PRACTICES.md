@@ -373,6 +373,29 @@ unambiguous. Broad phrases (e.g. "the Standard Model algebra") need **correction
 not greps — `docs/RETRACTED_PHRASES.md` records which retractions are handled which way, and
 why.
 
+
+## Render before banking — NOT GATED (a human obligation)
+
+**Rule (adopted 2026-08-08, from cc3's render audit, B975).** For any arc whose product is a
+**field**, a **spectrum**, or a **set of points**: **render it once before banking.** Not for
+presentation — **as a check.**
+
+**Why.** Two defects (a truncated move set documented as complete; a global phase never pinned,
+leaving "Re f" an arbitrary rotation) sat latent in code that had **already produced banked
+results** and had passed **three §16 review passes, a shakedown, and 58 hours of certified
+computation**. Neither surfaced while computing — *a number off by a phase still looks like a
+number, and a truncated-but-sufficient move set produces exactly the right answer*. **Both
+surfaced within an hour of somebody trying to draw the output.**
+
+This is the complement to `lawmap-scope` and `retraction-sweep`: those catch **claim drift in
+prose**; rendering catches **structure drift in numbers** — the class certified numerics absorb
+without complaint. The same audit also produced the day's one unlooked-for observation (the
+horoball radii are 1/(2N) for N an Eisenstein norm — ℚ(√−3)'s arithmetic visible as sphere
+sizes in the cusp packing).
+
+**Not gateable.** "Did you render it" cannot be checked automatically. This is a human
+obligation and is recorded as one.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

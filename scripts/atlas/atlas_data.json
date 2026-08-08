@@ -20429,6 +20429,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B975": {
+   "slug": "cc3 render audit",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B736",
+    "B804",
+    "B940",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B97": {
    "slug": "sl2r lorentzian",
    "motifs": [

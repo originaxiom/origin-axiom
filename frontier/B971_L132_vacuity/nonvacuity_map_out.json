@@ -1,0 +1,448 @@
+{
+  "levi_irreps": [
+    {
+      "size": 6,
+      "su3": "3bar",
+      "su2": 2,
+      "y": "-t2/3 + t3"
+    },
+    {
+      "size": 3,
+      "su3": "3",
+      "su2": 1,
+      "y": "-t1 + t2/3"
+    },
+    {
+      "size": 3,
+      "su3": "3bar",
+      "su2": 1,
+      "y": "2*t2/3 - 2*t3"
+    },
+    {
+      "size": 3,
+      "su3": "3",
+      "su2": 1,
+      "y": "t2/3"
+    },
+    {
+      "size": 3,
+      "su3": "3",
+      "su2": 1,
+      "y": "t1 - 2*t2/3"
+    },
+    {
+      "size": 2,
+      "su3": "1",
+      "su2": 2,
+      "y": "-t1 + t2 - t3"
+    },
+    {
+      "size": 2,
+      "su3": "1",
+      "su2": 2,
+      "y": "-t3"
+    },
+    {
+      "size": 2,
+      "su3": "1",
+      "su2": 2,
+      "y": "t1 - t3"
+    },
+    {
+      "size": 1,
+      "su3": "1",
+      "su2": 1,
+      "y": "-t1 + 2*t3"
+    },
+    {
+      "size": 1,
+      "su3": "1",
+      "su2": 1,
+      "y": "-t2 + 2*t3"
+    },
+    {
+      "size": 1,
+      "su3": "1",
+      "su2": 1,
+      "y": "t1 - t2 + 2*t3"
+    }
+  ],
+  "n_irreps": 11,
+  "dims_sum": 27,
+  "complete27_SU3cubed": 0,
+  "complete27_doublets": 6,
+  "complete27_witten_even": true,
+  "complete27_grav": "0",
+  "complete27_SU3sq_U1": "0",
+  "complete27_SU2sq_U1": "0",
+  "complete27_U1cubed": "0",
+  "complete27_solution_space_dim": 3,
+  "complete27_VACUOUS_every_direction_works": true,
+  "subset_tally": {
+    "total_nonempty": 2047,
+    "pass_su3cubed": 511,
+    "pass_witten": 255,
+    "admit_nonzero_Q": 207,
+    "sel_dim1": 156,
+    "sel_dim2": 48,
+    "sel_dim3": 1
+  },
+  "n_selective_dim1": 156,
+  "selective_state_counts": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "selective_examples": [
+    {
+      "irreps": [
+        {
+          "size": 3,
+          "su3": "3",
+          "su2": 1
+        },
+        {
+          "size": 3,
+          "su3": "3bar",
+          "su2": 1
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 7,
+      "Q_direction": [
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 3,
+          "su3": "3",
+          "su2": 1
+        },
+        {
+          "size": 3,
+          "su3": "3bar",
+          "su2": 1
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 7,
+      "Q_direction": [
+        "0",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 3,
+          "su3": "3bar",
+          "su2": 1
+        },
+        {
+          "size": 3,
+          "su3": "3",
+          "su2": 1
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 7,
+      "Q_direction": [
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 3,
+          "su3": "3bar",
+          "su2": 1
+        },
+        {
+          "size": 3,
+          "su3": "3",
+          "su2": 1
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 7,
+      "Q_direction": [
+        "0",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 3,
+          "su3": "3bar",
+          "su2": 1
+        },
+        {
+          "size": 3,
+          "su3": "3",
+          "su2": 1
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 7,
+      "Q_direction": [
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 3,
+          "su3": "3bar",
+          "su2": 1
+        },
+        {
+          "size": 3,
+          "su3": "3",
+          "su2": 1
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 7,
+      "Q_direction": [
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 5,
+      "Q_direction": [
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 5,
+      "Q_direction": [
+        "0",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 5,
+      "Q_direction": [
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 5,
+      "Q_direction": [
+        "0",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 5,
+      "Q_direction": [
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "irreps": [
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 2,
+          "su3": "1",
+          "su2": 2
+        },
+        {
+          "size": 1,
+          "su3": "1",
+          "su2": 1
+        }
+      ],
+      "n_states": 5,
+      "Q_direction": [
+        "2",
+        "4",
+        "1"
+      ]
+    }
+  ],
+  "a_15_state_selective_subset": {
+    "irreps": [
+      {
+        "size": 6,
+        "su3": "3bar",
+        "su2": 2
+      },
+      {
+        "size": 3,
+        "su3": "3",
+        "su2": 1
+      },
+      {
+        "size": 3,
+        "su3": "3",
+        "su2": 1
+      },
+      {
+        "size": 2,
+        "su3": "1",
+        "su2": 2
+      },
+      {
+        "size": 1,
+        "su3": "1",
+        "su2": 1
+      }
+    ],
+    "n_states": 15,
+    "Q_direction": [
+      "2",
+      "3",
+      "1"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+ "arc": "B970",
+ "lead": "L134 -- the exotic sector of the 27 (27 = 16 + 10 + 1)",
+ "title": "Prior-art scout: the E6 exotics, what makes them heavy, and whether that is an input",
+ "prepared_by": "prior-art scouting seat",
+ "date": "2026-08-08",
+ "companion_document": "PRIOR_ART_EXOTICS.md",
+ "supporting_computation": "exotics_charges.py -> exotics_charges.json",
+ "lane": "scouting only; no verdict on the object; Gate 5 untouched; nothing promotes to CLAIMS.md",
+
+ "headline": {
+  "a_is_it_a_discovery": "NO -- REPRODUCTION. The literature half of L134 is already banked twice, in B951 (PRIOR_ART_HYPERCHARGE.md, section 'The exotics in 10 + 1, and the requirement that they be heavy') and B962 (PRIOR_ART_VEV.md, section Q5c). The record's repeated phrase 'the record has never addressed them' is FALSE AS WRITTEN. What is genuinely absent is any COMPUTATION.",
+  "b_what_is_required": "One mechanism everywhere: W contains kappa * S * D * Dbar, so M_D = kappa * <S>, and <S> is the U(1)'-breaking VEV. Plus an ad hoc discrete symmetry (Z2^L or Z2^B) to remove either the leptoquark or the diquark couplings, because both are present and their simultaneous presence gives rapid proton decay.",
+  "c_input_or_derived": "INPUT -- and sharper: NOT AN ADDITIONAL INPUT. It is the SAME input as the 27 VEV, consumed at the SAME step. The unique direction in the 27 that gives the exotics mass is S = omega_1 = the rank-1 element of J3(O) whose E6 stabiliser is Spin(10) -- exactly B962's first forced 27 VEV. Therefore L134 is a COROLLARY of the rank-reduction question (L133), not a second independent gap, and it is STRUCTURALLY IDENTICAL TO THE VEV SITUATION -- not a defect peculiar to this object.",
+  "d_no_go": "No absolute no-go found. One sharp CONDITIONAL no-go (the trilemma) and one STRUCTURAL bound (derived here) exist; see 'no_go_findings'."
+ },
+
+ "a_repo_prior_art": {
+  "search_terms": ["exotic", "16 + 10 + 1", "leptoquark", "diquark", "D Dbar", "Dbar", "vector-like", "vectorlike", "extra doublet", "R-parity", "Z'"],
+  "scope_searched": ["frontier/*/FINDINGS.md", "docs/*.md", "knowledge/", "CLAIMS.md", "speculations/", "all *.py in frontier/, src/, scripts/"],
+  "what_exists": [
+   {"where": "frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md",
+    "section": "The exotics in 10 + 1, and the requirement that they be heavy",
+    "establishes": "names D/D^c (Robinett's h), the exotic doublet pair H_u/H_d (E, nu_E), the singlet S; quotes Langacker RMP 81 (2009) 1199 VERBATIM on W_DQ ~ DQQ, D^c u^c d^c and W_LQ ~ D u^c e^c, D^c Q L giving rapid proton decay unless the masses (and hence the U(1)' breaking scale) are comparable to the unification scale; a TeV Z' therefore requires the GUT Yukawa relations to be violated",
+    "sources_it_cites": ["Robinett PRD 33 (1986) 1908 [17444]", "Rizzo PRD 33 (1986) 3329 [219732]", "Rizzo PRD 34 (1986) 2163 [227115]", "Hewett-Rizzo Phys.Rept. 183 (1989) 193 [268529]", "Rosner PRD 61 (2000) 097303 [525750]"]},
+   {"where": "frontier/B962_vev_scout/PRIOR_ART_VEV.md", "section": "Q5c Exotics, proton decay, doublet-triplet",
+    "establishes": "the SU(5)xU(1)_N branching; the vector-like colour-triplet pair D, Dbar of charge -/+1/3; 'the exotics are unavoidable -- they come with the representation'; B/L violation is NOT gauge-forbidden, needing an ad hoc discrete symmetry (Z2^L -> diquarks, Z2^B -> leptoquarks); doublet-triplet splitting is ROUTED AROUND, not solved; F-theory geometric suppression is a bypass"},
+   {"where": "docs/GUT_REQUIREMENTS_LEDGER.md", "section": "B and C row 3'",
+    "establishes": "states the exotics and the heaviness requirement; row 3' marks them 'not addressed anywhere in the record -- absent, a named gap' -- WHICH IS THE STATEMENT THIS SCOUT CORRECTS"},
+   {"where": "PROGRESS_LOG.md, docs/THE_SM_VERDICT.md sec.5 row 2, docs/OPEN_LEADS.md L134, frontier/B952_gut_ledger_rank/FINDINGS.md",
+    "establishes": "all repeat 'twelve exotic states per generation ... the record has never addressed them'"},
+   {"where": "speculations/S049_the_self_mirror_and_matter.md",
+    "establishes": "notes 16+10+1 is the PHYSICAL decomposition and that the object's principal grading {17,9,1} is not it; NOT about the exotics' mass"},
+   {"where": "frontier/B925, B932, B590, B571, B926, B298",
+    "establishes": "the branching 16+10+1 recurs as data; NONE treats the exotic sector"}
+  ],
+  "verdict": "L134's literature half is a REPRODUCTION of B951 + B962. Amendment owed to GUT_REQUIREMENTS_LEDGER.md section C row 3', THE_SM_VERDICT.md section 5 row 2, OPEN_LEADS.md L134, PROGRESS_LOG.md: replace 'not addressed anywhere in the record' with 'literature-scouted in B951 and B962; NO COMPUTED CELL'."
+ },
+
+ "arithmetic_correction": {
+  "the_error": "GUT_REQUIREMENTS_LEDGER.md states verbatim '10 + 1 = 12 states per generation are EXOTIC'. 10 + 1 = 11.",
+  "counted_from_the_weights": {"27": 27, "16": 16, "nu_R": 1, "SM_15_fermion_generation": 15,
+    "10_of_SO10": 10, "1_of_SO10": 1, "exotics_beyond_the_16": 11, "states_beyond_a_15_fermion_generation": 12},
+  "resolution": "Both numbers are right, of different things. TWELVE counts against a 15-fermion SM generation and therefore INCLUDES nu_R. The repo says BOTH 'the 16 is one SM generation with a right-handed neutrino' AND 'the 10 + 1 are twelve' -- those cannot both hold.",
+  "recommended_wording": "eleven exotic states beyond the 16 (twelve beyond a 15-fermion generation, counting nu_R)",
+  "certified": "the arithmetic is certain (computed); whether 'twelve' is standard literature phrasing was NOT confirmed -- web-search budget exhausted"
+ },
+
+ "computation_done_here": {
+  "file": "exotics_charges.py",
+  "built_from": "the E6 Cartan matrix only; the 27 as the Weyl orbit of omega_1 (minuscule, so exact and complete -- asserted: 27 weights, all Dynkin labels in {-1,0,1})",
+  "why_the_gradings_are_forced": "a U(1) annihilating the so(10) simple roots is affine in n_1 alone; one annihilating the su(5) simple roots is affine in (n_1, n_2) alone; hypercharge lies in the su(5) Cartan so it carries no constant term. These are derivations, not ansaetze.",
+  "fits_are_predictive": [
+   "psi fitted on the 1 and the 16 -> PREDICTED psi(10) = -2 (standard value -2)",
+   "chi fitted on the 16's three pieces + the singlet -> PREDICTED the 10's two pieces at +2, -2 (standard values)",
+   "Y fitted on the 16 ONLY -> PREDICTED Y(S) = 0, Y(nu^c) = 0, and the whole exotic 10 as (3,1)_-1/3 + (3,1)_+1/3 + (1,2)_+1/2 + (1,2)_-1/2"
+  ],
+  "results": {
+   "R1_no_bare_mass_inside_one_27": "zero bilinears have (psi,chi) = (0,0). MB12: the test CAN pass (a self-conjugate rep such as the 26 of F4 contains charge-conjugate pairs) and CAN fail. It is a real test, and it fails.",
+   "R2_charge_required_of_any_mass_giving_VEV": {"psi": 4, "chi": 0},
+   "R3_unique_direction_in_the_27": "S",
+   "R4_that_direction_is_omega_1": true,
+   "R4_significance": "S = omega_1 = the rank-1 element of J3(O), E6 stabiliser Spin(10) -- exactly B962's first forced 27 VEV",
+   "R5_exotics_vectorlike_under": {"SM": true, "U(1)_chi": true, "U(1)_psi": false},
+   "R5_theorem_rep_independent": "the exotic pair carries psi = -4 as a fact about the E6 WEIGHT LATTICE, so ANY field in ANY E6 representation whose VEV gives it mass carries psi = +4 != 0. EXOTIC MASS != 0 ==> U(1)_psi BROKEN. No evasion by enlarging the Higgs sector.",
+   "R6_cubic_monomials_present_in_the_E6_invariant": {
+     "method": "Sym^3(27) contains the E6 singlet once, so x_a x_b x_c occurs iff the three weights sum to zero",
+     "10_10_5": {"count": 15, "content": "up-type Yukawa via H_u AND the DIQUARK QQDbar via Dbar"},
+     "10_5bar_5bar_ex": {"count": 20, "content": "down/lepton Yukawa via H_d AND the LEPTOQUARK QLD, u^c e^c D via D"},
+     "5_5bar_nuc": {"count": 5, "content": "Dirac neutrino"},
+     "5_5bar_ex_S": {"count": 5, "content": "THE EXOTIC MASS TERM kappa S D Dbar"},
+     "significance": "the Higgs doublets and the exotic triplets sit in the SAME two multiplets, so the leptoquark and diquark operators are components of the very invariants that give the quarks their masses. This is WHY Langacker's constraint is structural rather than accidental.",
+     "caveat": "the SU(5) tensor structures 10x10 contains 5bar and 10x5bar contains 5 are standard SU(5) algebra -- CITED, NOT RE-DERIVED; the E6 charge selection and the monomial census ARE derived here"
+   }
+  },
+  "scope": "everything is scoped to the GUT chain E6 > SO(10) x U(1)_psi > SU(5) x U(1)_chi x U(1)_psi; 'the exotics' means the 10 + 1 of THAT SO(10). It says nothing about the object's own cascade, whose u(1)^3 is a different rank-3 torus."
+ },
+
+ "b_what_e6_model_building_requires": {
+  "mass_mechanism": "W contains kappa_ijk S_i D_j Dbar_k; M_D = kappa <S>",
+  "the_scale_is_not_free": "<S> is the U(1)'-breaking VEV, so M_D / M_Z' = kappa / (g' Q_S) up to O(1) -- a RATIO OF COUPLINGS, not of scales. Perturbativity on kappa caps how far the exotics can be pushed above the Z'.",
+  "two_branches_nothing_selects_between": [
+   {"branch": "GUT-scale", "vev": "~1e16 GeV", "exotics": "decoupled, invisible", "Zprime": "at M_GUT", "cost": "no low-energy E6 phenomenology at all"},
+   {"branch": "TeV-scale (E6SSM and kin)", "vev": "~TeV", "exotics": "TeV, light BY CONSTRUCTION", "Zprime": "TeV", "cost": "needs ad hoc discrete symmetries; proton decay is the problem"}
+  ],
+  "constraints": [
+   {"c": "proton decay", "detail": "both leptoquark and diquark operators are present (computed, R6). Simultaneous presence gives rapid proton decay. Fix used everywhere: an AD HOC discrete symmetry -- Z2^L (exotics become diquarks) or Z2^B (leptoquarks), never both. Nevzorov proposes a single Z~2^H."},
+   {"c": "Langacker's trilemma", "detail": "the D, D^c couplings are related BY E6 to the ordinary Higgs Yukawas and give rapid proton decay unless their masses (and therefore the U(1)' breaking scale) are comparable to the unification scale; a TeV-scale Z' therefore requires that the GUT Yukawa relations are NOT respected", "status": "CITED, NOT RE-DERIVED (Langacker RMP 81 (2009) 1199, banked in B951)"},
+   {"c": "collider", "detail": "Kang-Langacker-Nelson quote m_D > 250 GeV (Tevatron leptoquark) and > 190 GeV (quasi-stable). STALE, 2008 vintage. Modern LHC vector-like-quark pair-production bounds sit near 1.3-1.5 TeV. NOT re-derived here."},
+   {"c": "cosmology", "detail": "if quasi-stable (decay only via dim-5 operators), full BBN constraints in the (tau, Y_X) plane across the 1e-2 to 1e12 s windows (Kang-Langacker-Nelson section III.3)"},
+   {"c": "the obligation does not end at 'heavy'", "detail": "the LIGHTEST exotic quark must also be made UNSTABLE, which in E6-inspired models requires EXTRA TeV-scale vector-like lepton or down-type quark states (Nevzorov 1205.5967, abstract)"},
+   {"c": "anomalies -- the tie to L132", "detail": "'the anomalies are cancelled automatically if the low-energy spectrum involves complete representations of E6' (King-Moretti-Nevzorov). Projecting the exotics out COSTS automatic anomaly freedom, and the anomaly check becomes non-vacuous exactly when the spectrum is incomplete. This is L132's amended gate arrived at from the other side."}
+  ]
+ },
+
+ "c_input_or_derived": {
+  "answer": "INPUT",
+  "plainly": "M_D = kappa <S> has two free parameters and NOTHING derives either. No source found this sweep derives the exotic mass scale from anything.",
+  "the_stronger_and_more_useful_statement": "It is not an ADDITIONAL input on top of the 27 VEV -- it is the SAME input at the SAME step. The unique mass-giving direction is S = omega_1, the rank-1 element whose stabiliser is Spin(10); <S> != 0 IS the step E6 -> SO(10), rank 6 -> 5.",
+  "consequences_for_the_programme": [
+   "L134 is STRUCTURALLY IDENTICAL to the VEV situation (B962: the VEV direction is always an input; nobody's object supplies one). It is NOT a defect peculiar to this object and should not be written up as one.",
+   "L134 should be MERGED into the VEV/rank row of the ledger, not carried as an independent open item. Carrying it separately double-counts one gap.",
+   "What L134 adds that the VEV row does not: the SELECTION RULE (which direction, uniquely) IS derived, and it lands on the same rank-1 orbit the programme already computed. That is a consistency check the programme PASSES, not a new failure."
+  ],
+  "the_one_partial_derivation_route": {
+   "claim": "in string constructions the massless spectrum is fixed by topology (bundle cohomology / Wilson-line or hypercharge-flux projection), so exotics can be PROJECTED OUT rather than made heavy, at the price of incomplete multiplets",
+   "evidence": "Palti 1601.00285 -- and note it reproduces the same structure independently: 'The exotics are not vector-like under the U(1) symmetry and therefore their mass is naturally related to its breaking scale'",
+   "status": "NOT CERTIFIED. This sweep did NOT read a primary source on the Wilson-line projection of E6 exotics. Even in this route the compactification is the input."
+  }
+ },
+
+ "no_go_findings": {
+  "absolute_no_go": "NONE FOUND. Nothing says 'there exists an E6 model that cannot make its exotics heavy' as a theorem.",
+  "D1_the_trilemma": {"statement": "{E6-related Yukawa relations} + {TeV-scale U(1)' breaking} + {proton stability} are MUTUALLY INCONSISTENT. Any two hold; the third must be given up -- in practice by imposing a discrete symmetry that breaks the E6 relations.", "source": "Langacker RMP 81 (2009) 1199", "status": "CITED, NOT RE-DERIVED; banked in B951"},
+  "D2_the_structural_bound": {"statement": "exotic mass != 0 ==> U(1)_psi broken. M_D/M_Z' is a COUPLING ratio, not a scale ratio, so the exotics cannot be decoupled while leaving the extra U(1) light.", "status": "DERIVED HERE, rep-independent (exotics_charges.py R5)"},
+  "D3_independent_framework_corroboration": {"statement": "F-theory SU(5)xU(1) with hypercharge flux: exotics 'are not vector-like under the U(1) symmetry and therefore their mass is naturally related to its breaking scale'; the spectrum 'does not form complete GUT representations'; 'the exotics cannot form a complete 10 multiplet'", "source": "Palti 1601.00285", "read": "abstract"},
+  "D4_the_obligation_does_not_end_at_heavy": {"statement": "the lightest exotic quark must also be made unstable, requiring extra TeV vector-like matter", "source": "Nevzorov 1205.5967", "read": "abstract"},
+  "D5_string_side": {"statement": "string consistency conditions FORCE quasi-chiral exotics in many constructions, and 'mass generation for the fermions is sometimes problematic'. Not a theorem.", "source": "Cvetic-Halverson-Langacker 1108.5187; Halverson-Langacker 1801.03503"}
+ },
+
+ "certified_nulls": [
+  {"id": "N1", "null": "NO COMPUTED CELL anywhere in the repo has ever touched the exotic sector.",
+   "method": "grep -rl over EVERY *.py in frontier/, src/, scripts/ for exotic|leptoquark|diquark|Dbar; 6 files returned; every hit inspected and every one is an unrelated use of the word 'exotic' (B272, B278, B298, B773, B778) plus this cell's own new file",
+   "certified": true},
+  {"id": "N2", "null": "CLAIMS.md and knowledge/ contain ZERO occurrences of exotic, leptoquark, diquark.",
+   "method": "grep -rn over CLAIMS.md and knowledge/", "certified": true},
+  {"id": "N3", "null": "No no-go paper among the citers of the canonical modern exotic-quark paper.",
+   "method": "complete citation-graph closure on INSPIRE recid 758656 (Kang-Langacker-Nelson): API reported 107 total, ALL 107 enumerated individually; none claims E6 exotics cannot be made heavy",
+   "certified": true, "scope": "that citer set only"}
+ ],
+
+ "not_certified_by_this_sweep": [
+  "No complete citation closure on Hewett-Rizzo [268529] (1524 citers) or Langacker RMP [777086] (1544 citers). A no-go could hide there.",
+  "INSPIRE full-text probes ('cannot be made heavy', 'exotics cannot', 'exotic states cannot be') are keyword-fragile and returned mostly hadron-physics noise; absence of a hit is NOT absence of a result.",
+  "Hewett & Rizzo, Phys.Rept. 183 (1989) 193 -- the comprehensive review -- is PRE-ARXIV and was NOT read this sweep; its exotic-sector content is taken at the level of B951's earlier scout.",
+  "The Wilson-line / hypercharge-flux projection route for E6 exotics was NOT verified against a primary source.",
+  "Modern LHC exotic / vector-like quark mass bounds were NOT re-derived; the 250 / 190 GeV figures quoted are 2008 vintage.",
+  "Whether 'twelve exotics' is standard literature phrasing against a 15-fermion baseline could NOT be checked -- web-search budget exhausted.",
+  "Langacker RMP section III.1.3 could not be reached through the HTML renderer this sweep; its verbatim exotics constraint is relied on via B951's earlier reading."
+ ],
+
+ "if_a_sealed_cell_is_ever_wanted": [
+  {"rank": 1, "cell": "Read the exotic sector in the OBJECT'S OWN frame. Section 2 is scoped to the GUT chain; the object's cascade lands on the A2+A1 Levi su(3)+su(2)+u(1)^3, a DIFFERENT rank-3 torus. Which of the object's three u(1) charges plays the role of U(1)_psi, and do the eleven exotics stay chiral under it? Cheap, and the only version of L134 that is about THIS object.", "mb12": "state the failing configuration before computing -- the criterion must be able to both pass and fail"},
+  {"rank": 2, "cell": "The L132 join. If the object's spectrum is not complete 27s, the exotics are partially projected out AND the anomaly check becomes non-vacuous, simultaneously. One question, not two."},
+  {"rank": 3, "cell": "The ledger amendments (a_repo_prior_art.verdict and arithmetic_correction) -- corrections, not research; owed whether or not anything else is sealed."}
+ ],
+
+ "do_not_seal": "Do NOT seal 'do the exotics get heavy?' -- that is the VEV question again and would double-count L133/L138.",
+
+ "sources_read_this_sweep": [
+  {"source": "Kang, Langacker & Nelson, PRD 77 (2008) 035003", "recid": 758656, "eprint": "0708.2701", "read": "full text",
+   "establishes": "m_D = lambda5 <S>; leptoquark vs diquark vs quasi-stable decay classes; B and L imposed by hand; BBN windows; benchmarks 300-1482 GeV"},
+  {"source": "King, Moretti & Nevzorov, A Review of the Exceptional Supersymmetric Standard Model", "recid": 1779174, "eprint": "2002.02788", "read": "full text",
+   "establishes": "kappa S (D Dbar); <S_3> breaks U(1)_N and sets both the mu term and M_D; Z2^L / Z2^B; complete 27s give automatic anomaly freedom"},
+  {"source": "Halverson & Langacker, TASI Lectures on Remnants from the String Landscape", "recid": 1647588, "eprint": "1801.03503", "read": "full text",
+   "establishes": "quasi-chiral exotics 'extremely common'; forced by string consistency conditions; 'mass generation for the fermions is sometimes problematic'; Z' and exotic masses tied to the soft/mu scale"},
+  {"source": "Palti, Vector-Like Exotics in F-Theory and 750 GeV Diphotons", "recid": 1412081, "eprint": "1601.00285", "read": "abstract",
+   "establishes": "INDEPENDENT FRAMEWORK, SAME MECHANISM: exotics not vector-like under the U(1) so their mass is tied to its breaking scale; incomplete GUT reps"},
+  {"source": "Nevzorov, E6 inspired supersymmetric models with exact custodial symmetry", "recid": 1116270, "eprint": "1205.5967", "read": "abstract",
+   "establishes": "exotics give FCNC and rapid proton decay; a single Z~2^H forbids both; EXTRA TeV vector-like matter needed to destabilise the lightest exotic quark; 5D/6D orbifold GUT origin"},
+  {"source": "Cvetic, Halverson & Langacker, JHEP 11 (2011) 058", "recid": 925446, "eprint": "1108.5187", "read": "abstract",
+   "establishes": "string global-consistency conditions beyond anomaly cancellation constrain exotic matter"},
+  {"source": "Hewett & Rizzo, Phys.Rept. 183 (1989) 193", "recid": 268529, "read": "METADATA ONLY -- NOT READ",
+   "note": "the comprehensive superstring-inspired E6 review, 1524 citations (1409 excluding self-citations); pre-arXiv"},
+  {"source": "Witten, Symmetry breaking patterns in superstring models, Nucl.Phys.B258 (1985) 75", "recid": 213125, "read": "METADATA ONLY -- NOT READ",
+   "note": "1130 citations; the Wilson-line breaking route; located but not read"}
+ ],
+
+ "repo_banked_prior_art_relied_on": [
+  "Langacker RMP 81 (2009) 1199 [777086 / 0801.1345] -- the verbatim diquark/leptoquark proton-decay constraint, via B951",
+  "Robinett PRD 33 (1986) 1908 [17444]; Rizzo PRD 33 (1986) 3329 [219732] and PRD 34 (1986) 2163 [227115]; Rosner PRD 61 (2000) 097303 [525750] -- via B951",
+  "B962's rank-1 orbit result: stabiliser of a rank-1 27 VECTOR is Spin(10) (of the rank-1 LINE it is (Spin(10)xU(1))/Z4)"
+ ],
+
+ "citation_graph_closure_performed": {
+  "query": "refersto recid 758656",
+  "total_reported_by_api": 107,
+  "enumerated": 107,
+  "complete": true,
+  "result": "no no-go; the citer set is dominated by LHC vector-like-quark searches, E6SSM/USSM phenomenology, Z' physics and PDG reviews"
+ }
+}

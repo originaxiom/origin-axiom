@@ -1,5 +1,11 @@
 # Changelog
 
+## B975 — the render audit: drawing found what 58 hours of certified computation did not
+- **The process point, adopted:** *for any arc whose product is a field, a spectrum, or a set of points — **render it once before banking**, as a check.* Two defects sat latent through three review passes, a shakedown and 58 hours of certified computation; **both surfaced within an hour of somebody drawing the output.** Complement to the day's two gates: those catch prose drift, this catches **structure drift in numbers**. Not gateable — a human obligation.
+- **C2 phase contamination — B940 CLEARED on stated grounds** (every sealed element is phase-invariant; G1 is a *relative* residual, so ψ → e^{iθ}ψ cancels). **Prospective warning banked:** any pointwise extension must pin the phase first.
+- **C3 verified here:** 97, 91, 84 *are* Eisenstein norms — the 1e−9 tolerance was the error. The finding stands, and it's new: **ℚ(√−3)'s arithmetic is visible as the sphere sizes in the cusp packing.**
+- **C4 decided:** accept **PLATE J — THE NULL** (the object at the 51st percentile of noise — an atlas that only shows hits is a brochure); **GO on PLATE I — THE WALL.** 6 locks.
+
 ## B969 — **L138 FIRES**: the object's canonical pair returns **K**, verified 3/3
 - Re-derived on this bench: three pencil cubics, all **irreducible**, all with disc squarefree kernel **{7,11}** (μ's √77 signature), and μ factoring **[1,2]** over each ⟹ **ℚ[x]/P ≅ K exactly**. **The object distinguishes a rational two-27 orbit.**
 - **SCOPE, stated up front:** Kato–Yukie classify **orbits** — *a canonical orbit is not a canonical VEV*; within the orbit the choice stays free. Even a distinguished orbit gives a **direction**, not values.

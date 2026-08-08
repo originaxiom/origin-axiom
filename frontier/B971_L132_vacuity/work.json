@@ -1,0 +1,552 @@
+{
+  "cell": "B971_L132_vacuity",
+  "lead": "L132",
+  "date": "2026-08-08",
+  "lane": "MATHEMATICS",
+  "gate5": "untouched",
+  "claims_md": "nothing",
+  "verdict": {
+    "L132_status": "VACUOUS on complete 27s -- CONFIRMED by independent recomputation",
+    "vacuity_degree": "TRIPLE",
+    "layer_1": "every SM anomaly coefficient vanishes on the complete 27",
+    "layer_2": "it vanishes SEPARATELY on each SO(10) block -- no 16 <-> (10+1) cross-talk",
+    "layer_3": "the 12 exotics are a REAL (vector-like) SM rep, so their contribution is identically zero for ARBITRARY vector-like hypercharges -- the check carries zero information about the exotic sector",
+    "does_Y_fall_out": "NO on the complete 27 (3-dim solution space out of 3); NO on the complete 16 either (2-dim: Y and chi both survive); YES only on the chiral 15, i.e. after deleting nu_R",
+    "selective_power_lives_in": "the truncation 16 -> 15, which is an IMPORTED input"
+  },
+  "route_1_su5_states": {
+    "Y_on_5": [
+      "-1/3",
+      "-1/3",
+      "-1/3",
+      "1/2",
+      "1/2"
+    ],
+    "spectrum_27": [
+      {
+        "src": "16 / 10",
+        "name": "ec (1,1)",
+        "dim": 1,
+        "Y": "1",
+        "chi": "-1",
+        "psi": "1"
+      },
+      {
+        "src": "16 / 10",
+        "name": "Q  (3,2)",
+        "dim": 6,
+        "Y": "1/6",
+        "chi": "-1",
+        "psi": "1"
+      },
+      {
+        "src": "16 / 10",
+        "name": "uc (3b,1)",
+        "dim": 3,
+        "Y": "-2/3",
+        "chi": "-1",
+        "psi": "1"
+      },
+      {
+        "src": "16 / 5bar",
+        "name": "dc (3b,1)",
+        "dim": 3,
+        "Y": "1/3",
+        "chi": "3",
+        "psi": "1"
+      },
+      {
+        "src": "16 / 5bar",
+        "name": "Hd (1,2)",
+        "dim": 2,
+        "Y": "-1/2",
+        "chi": "3",
+        "psi": "1"
+      },
+      {
+        "src": "16 / 1",
+        "name": "N  (1,1) [nu_R]",
+        "dim": 1,
+        "Y": "0",
+        "chi": "-5",
+        "psi": "1"
+      },
+      {
+        "src": "10 / 5",
+        "name": "D  (3,1) [exotic]",
+        "dim": 3,
+        "Y": "-1/3",
+        "chi": "2",
+        "psi": "-2"
+      },
+      {
+        "src": "10 / 5",
+        "name": "Hu (1,2) [exotic]",
+        "dim": 2,
+        "Y": "1/2",
+        "chi": "2",
+        "psi": "-2"
+      },
+      {
+        "src": "10 / 5bar",
+        "name": "Dc (3b,1) [exotic]",
+        "dim": 3,
+        "Y": "1/3",
+        "chi": "-2",
+        "psi": "-2"
+      },
+      {
+        "src": "10 / 5bar",
+        "name": "Hd (1,2) [exotic]",
+        "dim": 2,
+        "Y": "-1/2",
+        "chi": "-2",
+        "psi": "-2"
+      },
+      {
+        "src": "1 / 1",
+        "name": "S  (1,1) [E6 singlet]",
+        "dim": 1,
+        "Y": "0",
+        "chi": "0",
+        "psi": "4"
+      }
+    ],
+    "trace_chi_over_27": "0",
+    "trace_psi_over_27": "0",
+    "per_su5_piece_Y": {
+      "SU(5) 10   (in 16)": {
+        "grav": "0",
+        "cubic": "5/36",
+        "a33Q": "-1/6",
+        "a22Q": "1/4",
+        "a333": 1,
+        "doublets": 3,
+        "witten_parity": 1
+      },
+      "SU(5) 5bar (in 16)": {
+        "grav": "0",
+        "cubic": "-5/36",
+        "a33Q": "1/6",
+        "a22Q": "-1/4",
+        "a333": -1,
+        "doublets": 1,
+        "witten_parity": 1
+      },
+      "SU(5) 1    (in 16)": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 0,
+        "witten_parity": 0
+      },
+      "SU(5) 5    (in 10)": {
+        "grav": "0",
+        "cubic": "5/36",
+        "a33Q": "-1/6",
+        "a22Q": "1/4",
+        "a333": 1,
+        "doublets": 1,
+        "witten_parity": 1
+      },
+      "SU(5) 5bar (in 10)": {
+        "grav": "0",
+        "cubic": "-5/36",
+        "a33Q": "1/6",
+        "a22Q": "-1/4",
+        "a333": -1,
+        "doublets": 1,
+        "witten_parity": 1
+      },
+      "SU(5) 1    (E6 sglt)": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 0,
+        "witten_parity": 0
+      }
+    },
+    "complete_27_Y": {
+      "grav": "0",
+      "cubic": "0",
+      "a33Q": "0",
+      "a22Q": "0",
+      "a333": 0,
+      "doublets": 6,
+      "witten_parity": 0
+    },
+    "per_so10_piece_Y": {
+      "16  (SO(10) spinor)": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 4,
+        "witten_parity": 0
+      },
+      "10  (SO(10) vector)": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 2,
+        "witten_parity": 0
+      },
+      "1   (SO(10) sglt)": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 0,
+        "witten_parity": 0
+      }
+    },
+    "gen15_Y": {
+      "grav": "0",
+      "cubic": "0",
+      "a33Q": "0",
+      "a22Q": "0",
+      "a333": 0,
+      "doublets": 4,
+      "witten_parity": 0
+    },
+    "exotics12_Y": {
+      "grav": "0",
+      "cubic": "0",
+      "a33Q": "0",
+      "a22Q": "0",
+      "a333": 0,
+      "doublets": 2,
+      "witten_parity": 0
+    },
+    "exotics12_is_real_rep": true,
+    "gen15_is_real_rep": false,
+    "full27_is_real_rep": false,
+    "controls": {
+      "lone SU(5) 10": {
+        "grav": "0",
+        "cubic": "5/36",
+        "a33Q": "-1/6",
+        "a22Q": "1/4",
+        "a333": 1,
+        "doublets": 3,
+        "witten_parity": 1
+      },
+      "lone SU(5) 5bar": {
+        "grav": "0",
+        "cubic": "-5/36",
+        "a33Q": "1/6",
+        "a22Q": "-1/4",
+        "a333": -1,
+        "doublets": 1,
+        "witten_parity": 1
+      },
+      "27 minus e^c": {
+        "grav": "-1",
+        "cubic": "-1",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 6,
+        "witten_parity": 0
+      },
+      "27 minus the 5 of the 10": {
+        "grav": "0",
+        "cubic": "-5/36",
+        "a33Q": "1/6",
+        "a22Q": "-1/4",
+        "a333": -1,
+        "doublets": 5,
+        "witten_parity": 1
+      },
+      "16 minus nu_R (=15)": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 4,
+        "witten_parity": 0
+      },
+      "exotics only (12)": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 2,
+        "witten_parity": 0
+      }
+    },
+    "general_direction": {
+      "complete_27": {
+        "equations": {
+          "grav": "0",
+          "[U1]^3": "0",
+          "[SU3]^2 Q": "0",
+          "[SU2]^2 Q": "0"
+        },
+        "identically_zero": true,
+        "dim": 3,
+        "note": "EVERY abelian direction is anomaly-free  ==>  NO SELECTION (vacuous)",
+        "raw_solve": "[]"
+      },
+      "SO10_16": {
+        "equations": {
+          "grav": "16*C",
+          "[U1]^3": "10*A**2*C + 240*B**2*C + 16*C**3",
+          "[SU3]^2 Q": "2*C",
+          "[SU2]^2 Q": "2*C"
+        },
+        "identically_zero": false,
+        "dim": 2,
+        "note": "solution space dimension 2 over the linear conditions: (A, B, 0)   |  cubic there = 0",
+        "raw_solve": "[{C: 0}]"
+      },
+      "SM_generation_15": {
+        "equations": {
+          "grav": "5*B + 15*C",
+          "[U1]^3": "10*A**2*C + 125*B**3 + 165*B**2*C + 15*B*C**2 + 15*C**3",
+          "[SU3]^2 Q": "2*C",
+          "[SU2]^2 Q": "2*C"
+        },
+        "identically_zero": false,
+        "dim": 1,
+        "note": "solution space dimension 1 over the linear conditions: (A, 0, 0)   |  cubic there = 0",
+        "raw_solve": "[{B: 0, C: 0}]"
+      }
+    },
+    "reproductions": {
+      "psi over full 27": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 6,
+        "witten_parity": 0
+      },
+      "psi over the 16": {
+        "grav": "16",
+        "cubic": "16",
+        "a33Q": "2",
+        "a22Q": "2",
+        "a333": 0,
+        "doublets": 4,
+        "witten_parity": 0
+      },
+      "chi over the 16": {
+        "grav": "0",
+        "cubic": "0",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 4,
+        "witten_parity": 0
+      },
+      "chi over 10+5bar (=15)": {
+        "grav": "5",
+        "cubic": "125",
+        "a33Q": "0",
+        "a22Q": "0",
+        "a333": 0,
+        "doublets": 4,
+        "witten_parity": 0
+      }
+    },
+    "exotic_blindness": {
+      "grav": "0",
+      "cubic": "0",
+      "a33Q": "0",
+      "a22Q": "0"
+    }
+  },
+  "route_2_e6_weight_orbit": {
+    "E6_27": {
+      "orbit_size": 27,
+      "linear": "0",
+      "cubic": "0",
+      "quadratic": "12*h1**2 - 12*h1*h3 + 12*h2**2 - 12*h2*h4 + 12*h3**2 - 12*h3*h4 + 12*h4**2 - 12*h4*h5 + 12*h5**2 - 12*h5*h6 + 12*h6**2"
+    },
+    "E6_27bar": {
+      "size": 27,
+      "differs": true
+    },
+    "so10_grading": {
+      "1/3": 16,
+      "4/3": 1,
+      "-2/3": 10
+    },
+    "so10_grade_ratios": [
+      "1",
+      "-2",
+      "4"
+    ],
+    "su5_pieces": [
+      {
+        "grade": [
+          "4/3",
+          "1"
+        ],
+        "size": 1,
+        "highest_a4_label": "(0, 0, 0, 0)",
+        "irrep": "1"
+      },
+      {
+        "grade": [
+          "1/3",
+          "1"
+        ],
+        "size": 5,
+        "highest_a4_label": "(1, 0, 0, 0)",
+        "irrep": "5"
+      },
+      {
+        "grade": [
+          "1/3",
+          "0"
+        ],
+        "size": 10,
+        "highest_a4_label": "(0, 0, 1, 0)",
+        "irrep": "10bar"
+      },
+      {
+        "grade": [
+          "1/3",
+          "-1"
+        ],
+        "size": 1,
+        "highest_a4_label": "(0, 0, 0, 0)",
+        "irrep": "1"
+      },
+      {
+        "grade": [
+          "-2/3",
+          "0"
+        ],
+        "size": 5,
+        "highest_a4_label": "(0, 0, 0, 1)",
+        "irrep": "5bar"
+      },
+      {
+        "grade": [
+          "-2/3",
+          "-1"
+        ],
+        "size": 5,
+        "highest_a4_label": "(1, 0, 0, 0)",
+        "irrep": "5"
+      }
+    ],
+    "su5_content_omega1": {
+      "1": 2,
+      "5": 2,
+      "10bar": 1,
+      "5bar": 1
+    },
+    "su5_content_omega6": {
+      "5bar": 2,
+      "5": 1,
+      "10": 1,
+      "1": 2
+    },
+    "controls": {
+      "SU(5) 5   (A4, omega_1)": {
+        "size": 5,
+        "linear": "0",
+        "cubic_is_zero": false,
+        "cubic": "3*k1**2*k2 - 3*k1*k2**2 + 3*k2**2*k3 - 3*k2*k3**2 + 3*k3**2*k4 - 3*k3*k4**2"
+      },
+      "SU(5) 10  (A4, omega_2)": {
+        "size": 10,
+        "linear": "0",
+        "cubic_is_zero": false,
+        "cubic": "3*k1**2*k2 - 3*k1*k2**2 + 3*k2**2*k3 - 3*k2*k3**2 + 3*k3**2*k4 - 3*k3*k4**2"
+      },
+      "SU(3) 3   (A2, omega_1)": {
+        "size": 3,
+        "linear": "0",
+        "cubic_is_zero": false,
+        "cubic": "3*k1*k2*(k1 - k2)"
+      }
+    },
+    "deletions": {
+      "by_so10_block": {
+        "4/3": {
+          "kept": 26,
+          "linear_zero": false,
+          "cubic_zero": false
+        },
+        "1/3": {
+          "kept": 11,
+          "linear_zero": false,
+          "cubic_zero": false
+        },
+        "-2/3": {
+          "kept": 17,
+          "linear_zero": false,
+          "cubic_zero": false
+        }
+      },
+      "single_weight_nonzero": 27
+    }
+  },
+  "routes_agree": {
+    "su5_content": "route 2's omega_6 orbit gives {10, 5, 5bar x2, 1 x2} = route 1's assembled spectrum exactly; the omega_1 orbit is its conjugate",
+    "so10_split": "route 2 recovers 16 + 10 + 1 with psi-grade ratios (1, -2, 4) from the Cartan matrix alone -- route 1 had cited that branching",
+    "vanishing": "route 1: zero for the 3 SM-relevant abelian directions. route 2: zero identically in all SIX e6 Cartan coordinates (stronger)"
+  },
+  "labels": {
+    "COMPUTED": [
+      "hypercharge generator on the 5 (unique traceless diag(a,a,a,b,b), 3a+2b=0)",
+      "the 10 of SU(5) as Lambda^2(5), with Y and SU(3)xSU(2) labels derived from indices",
+      "all four SM anomaly coefficients, per SU(5) irrep and per SO(10) irrep",
+      "[SU(3)]^3 and the Witten SU(2) doublet parity",
+      "the 27 as an E6 Weyl orbit from the Cartan matrix",
+      "sum lambda(H) = 0 and sum lambda(H)^3 = 0 identically in all 6 Cartan coords",
+      "the SO(10) and SU(5) branchings, by fundamental-coweight grading",
+      "the 27 is complex (omega_1 and omega_6 orbits have different weight sets)",
+      "MB12 failure controls: lone 10, lone 5bar, 27 minus e^c, 27 minus the exotic 5",
+      "exotic blindness: coefficients identically zero in free y1, y2",
+      "solution-space dimensions for Q = aY + b*chi + c*psi over 27 / 16 / 15"
+    ],
+    "CITED_not_re_derived": [
+      "anomaly-coefficient conventions (T(3)=1/2, T(2)=1/2, A(3)=+1) -- standard normalisation, stated in the script header",
+      "Q_em = T3 + Y as the hypercharge normalisation convention",
+      "the E6 -> SO(10) x U(1) -> SU(5) x U(1) branching PATTERN in route 1 (subsequently COMPUTED independently in route 2)",
+      "that only the A_n (n>=2) simple algebras have a nonzero symmetric cubic invariant -- used only as background, the E6 case is computed here"
+    ]
+  },
+  "prior_art": {
+    "B864_anomaly_ledger": "computed the same ledger 2026-08-03; its uniqueness result is REPRODUCED here (psi over 16: Tr=16, Tr^3=16, [SU3]^2=2; chi over 15: Tr=5, Tr^3=125) and SCOPED: it holds over the imported chiral truncation, not over the object's 27",
+    "B951": "flagged the vacuity as probable; this cell converts it to computed",
+    "scout_PRIOR_ART_ANOMALY.md": "independent 2047-subset map; not relied on here",
+    "status": "this cell REPRODUCES, it does not discover"
+  },
+  "non_vacuity_requirements": [
+    "(1) the spectrum must NOT be a union of complete E6 irreps -- computed: every abelian direction in e6 is anomaly-free on a complete 27",
+    "(2) it must not even be a union of complete SO(10) irreps -- computed: each of 16, 10, 1 vanishes separately, so the deletion must SPLIT an SO(10) multiplet",
+    "(3) the deleted set must not be vector-like -- computed: any real subset contributes identically zero to the hypercharge conditions",
+    "(4) a handedness assignment per state is required for the functional to be defined at all",
+    "(5) even then the check does not select the SM: it selects a 1-dim abelian direction only relative to whichever truncation was imported"
+  ],
+  "what_this_does_not_establish": [
+    "it does not refute B864; it reproduces and scopes it",
+    "it says nothing about whether the object supplies a truncation (that is the scout's question, answered there, not re-litigated here)",
+    "it says nothing about values, generations, the real form, or spacetime",
+    "the 2047-subset enumeration is the scout's, not re-run here",
+    "no literature search was run from this cell"
+  ],
+  "reproduce": [
+    "python su5_anomaly_verdict.py   -> work.json (pre-merge) + su5_anomaly_verdict_out.txt",
+    "python e6_weight_route.py       -> e6_weight_route_out.json + .txt",
+    "python merge_work.py            -> work.json (this file)"
+  ]
+}

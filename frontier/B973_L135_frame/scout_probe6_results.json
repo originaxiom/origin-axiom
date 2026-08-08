@@ -1,0 +1,12 @@
+{
+ "N_degree": 48,
+ "N_extra_checks": true,
+ "core_is_killed": true,
+ "derived_wall_roots": [
+  15447,
+  30135,
+  33694
+ ],
+ "equals_mu_roots": true,
+ "is_c_times_cubic_pow16": true
+}

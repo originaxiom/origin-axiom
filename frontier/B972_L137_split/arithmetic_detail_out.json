@@ -1,0 +1,283 @@
+{
+ "A_factorisations": [
+  {
+   "family": "V_hierarchy",
+   "class": "seven",
+   "factorisations": [
+    "953^4",
+    "-2^8*3^9*13*421493",
+    "2^21*3^8*17*1129",
+    "-2^32*3^11"
+   ]
+  },
+  {
+   "family": "W_mixing_sq",
+   "class": "seven",
+   "factorisations": [
+    "953^4",
+    "-3*5^3*677*953^2",
+    "-3*5^6*367*953",
+    "-5^12"
+   ]
+  },
+  {
+   "family": "d_S_twist",
+   "class": "seven",
+   "factorisations": [
+    "2^16*3^4",
+    "2^11*3^4*5*11",
+    "2^4*3^2*35257",
+    "953^2"
+   ]
+  },
+  {
+   "family": "d_A_twist",
+   "class": "seven",
+   "factorisations": [
+    "2^16*3^4",
+    "-2^10*3^4*23",
+    "-2^8*3^2*953",
+    "953^2"
+   ]
+  },
+  {
+   "family": "m_S_flipmass",
+   "class": "seven",
+   "factorisations": [
+    "2^19*3^4",
+    "-2^13*3^4*151",
+    "2^5*3^2*11*71*349",
+    "-20417473"
+   ]
+  },
+  {
+   "family": "mu_charge",
+   "class": "seven",
+   "factorisations": [
+    "2^16*3^4*5^2*7^3*11",
+    "-2^10*3^4*5^2*7*11*13",
+    "-2^6*3^2*7^2*13^2",
+    "13^3"
+   ]
+  },
+  {
+   "family": "kappa_compact",
+   "class": "seven",
+   "factorisations": [
+    "2^14*3^4*5^3*7^2*11*31",
+    "2^10*3^4*5^2*7*11*19",
+    "-2^4*3^2*5*7*19^2*31",
+    "-19^3"
+   ]
+  },
+  {
+   "family": "m_A_flipmass",
+   "class": "NEW-VALUE",
+   "factorisations": [
+    "2^19*3^4",
+    "-2^12*3^4*13^2",
+    "2^9*3^2*13*331",
+    "-29*72869"
+   ]
+  },
+  {
+   "family": "X_cross_overlap_sq",
+   "class": "NEW-VALUE",
+   "factorisations": [
+    "953^2",
+    "3*367*953",
+    "3*5^3*677",
+    "-5^6"
+   ]
+  },
+  {
+   "family": "u_B937",
+   "class": "NEW-VALUE",
+   "factorisations": [
+    "2^32*3^8",
+    "-2^25*3^6*5^3",
+    "2^10*3^4*5^6*41",
+    "-5^12"
+   ]
+  },
+  {
+   "family": "colored_twist_trace",
+   "class": "NEW-SPECTRAL",
+   "factorisations": [
+    "2^8",
+    "-2^8*3",
+    "-2^2*3^2*23",
+    "3*953"
+   ]
+  },
+  {
+   "family": "colored_twist_det",
+   "class": "NEW-SPECTRAL",
+   "factorisations": [
+    "2^24*3^6",
+    "-2^16*3^5*643",
+    "2^6*3^3*19*7789",
+    "953^3"
+   ]
+  },
+  {
+   "family": "octet_flip_trace",
+   "class": "NEW-SPECTRAL",
+   "factorisations": [
+    "2^16*3^4",
+    "-2^10*3^4*7*79",
+    "2^9*3^2*7*2441",
+    "-7^2*523*1483"
+   ]
+  },
+  {
+   "family": "h_S_B883",
+   "class": "NEW-SPECTRAL",
+   "factorisations": [
+    "1",
+    "0",
+    "-2^12*3^5*7*13*5913601",
+    "2^20*3^6*7^2*283*276267371"
+   ]
+  },
+  {
+   "family": "A_kappa_B938",
+   "class": "NEW-SPECTRAL",
+   "factorisations": [
+    "2^2*3*251*2568641*72037904648483",
+    "0",
+    "-2^10*3^4*7*13^5",
+    "1"
+   ]
+  }
+ ],
+ "B_T_row_products": {
+  "T_50d": "4.77578132885211258737758231299680495777659266864600000000000e-32",
+  "rows_50d": "1.08926437479004234174724065819763470416502364893120000000000e-94",
+  "cols_50d": "1.08926437479004234174724065819763470416502364893120000000000e-94",
+  "rows_equals_cols": true,
+  "rel_diff_rows_vs_T_cubed": 3.481792487288995e-50,
+  "rows_IS_T_cubed": true,
+  "same_minpoly_rows_cols": true
+ },
+ "C_field": {
+  "K_minpoly": "x^3 - 12x - 5",
+  "disc": 6237,
+  "disc_factored": "3^4*7*11"
+ },
+ "C_splitting": {
+  "T (B914)": {
+   "primes_tested": 128,
+   "splitting_type_mismatches": 0
+  },
+  "V_hierarchy": {
+   "primes_tested": 129,
+   "splitting_type_mismatches": 0
+  },
+  "W_mixing_sq": {
+   "primes_tested": 129,
+   "splitting_type_mismatches": 0
+  },
+  "d_S_twist": {
+   "primes_tested": 129,
+   "splitting_type_mismatches": 0
+  },
+  "d_A_twist": {
+   "primes_tested": 130,
+   "splitting_type_mismatches": 0
+  },
+  "m_S_flipmass": {
+   "primes_tested": 129,
+   "splitting_type_mismatches": 0
+  },
+  "mu_charge": {
+   "primes_tested": 128,
+   "splitting_type_mismatches": 0
+  },
+  "kappa_compact": {
+   "primes_tested": 127,
+   "splitting_type_mismatches": 0
+  }
+ },
+ "D_T_invariance": {
+  "F_lower_bound": 7,
+  "forced_primes_found": [
+   2,
+   5,
+   11,
+   179,
+   1759,
+   4889,
+   632041
+  ],
+  "satisfiable_by_some_rescaling": false,
+  "note": "F counted over primes < 10^6 only; a lower bound"
+ },
+ "D_seven": {
+  "V_hierarchy": {
+   "F": 3,
+   "forced": [
+    2,
+    3,
+    953
+   ],
+   "satisfiable": true
+  },
+  "W_mixing_sq": {
+   "F": 2,
+   "forced": [
+    5,
+    953
+   ],
+   "satisfiable": true
+  },
+  "d_S_twist": {
+   "F": 3,
+   "forced": [
+    2,
+    3,
+    953
+   ],
+   "satisfiable": true
+  },
+  "d_A_twist": {
+   "F": 3,
+   "forced": [
+    2,
+    3,
+    953
+   ],
+   "satisfiable": true
+  },
+  "m_S_flipmass": {
+   "F": 2,
+   "forced": [
+    2,
+    3
+   ],
+   "satisfiable": true
+  },
+  "mu_charge": {
+   "F": 5,
+   "forced": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "satisfiable": false
+  },
+  "kappa_compact": {
+   "F": 5,
+   "forced": [
+    2,
+    3,
+    7,
+    11,
+    31
+   ],
+   "satisfiable": false
+  }
+ }
+}

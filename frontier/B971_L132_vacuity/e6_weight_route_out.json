@@ -1,0 +1,130 @@
+{
+  "E6_27": {
+    "orbit_size": 27,
+    "linear": "0",
+    "cubic": "0",
+    "quadratic": "12*h1**2 - 12*h1*h3 + 12*h2**2 - 12*h2*h4 + 12*h3**2 - 12*h3*h4 + 12*h4**2 - 12*h4*h5 + 12*h5**2 - 12*h5*h6 + 12*h6**2"
+  },
+  "E6_27bar": {
+    "size": 27,
+    "differs": true
+  },
+  "so10_grading": {
+    "1/3": 16,
+    "4/3": 1,
+    "-2/3": 10
+  },
+  "so10_grade_ratios": [
+    "1",
+    "-2",
+    "4"
+  ],
+  "su5_pieces": [
+    {
+      "grade": [
+        "4/3",
+        "1"
+      ],
+      "size": 1,
+      "highest_a4_label": "(0, 0, 0, 0)",
+      "irrep": "1"
+    },
+    {
+      "grade": [
+        "1/3",
+        "1"
+      ],
+      "size": 5,
+      "highest_a4_label": "(1, 0, 0, 0)",
+      "irrep": "5"
+    },
+    {
+      "grade": [
+        "1/3",
+        "0"
+      ],
+      "size": 10,
+      "highest_a4_label": "(0, 0, 1, 0)",
+      "irrep": "10bar"
+    },
+    {
+      "grade": [
+        "1/3",
+        "-1"
+      ],
+      "size": 1,
+      "highest_a4_label": "(0, 0, 0, 0)",
+      "irrep": "1"
+    },
+    {
+      "grade": [
+        "-2/3",
+        "0"
+      ],
+      "size": 5,
+      "highest_a4_label": "(0, 0, 0, 1)",
+      "irrep": "5bar"
+    },
+    {
+      "grade": [
+        "-2/3",
+        "-1"
+      ],
+      "size": 5,
+      "highest_a4_label": "(1, 0, 0, 0)",
+      "irrep": "5"
+    }
+  ],
+  "su5_content_omega1": {
+    "1": 2,
+    "5": 2,
+    "10bar": 1,
+    "5bar": 1
+  },
+  "su5_content_omega6": {
+    "5bar": 2,
+    "5": 1,
+    "10": 1,
+    "1": 2
+  },
+  "controls": {
+    "SU(5) 5   (A4, omega_1)": {
+      "size": 5,
+      "linear": "0",
+      "cubic_is_zero": false,
+      "cubic": "3*k1**2*k2 - 3*k1*k2**2 + 3*k2**2*k3 - 3*k2*k3**2 + 3*k3**2*k4 - 3*k3*k4**2"
+    },
+    "SU(5) 10  (A4, omega_2)": {
+      "size": 10,
+      "linear": "0",
+      "cubic_is_zero": false,
+      "cubic": "3*k1**2*k2 - 3*k1*k2**2 + 3*k2**2*k3 - 3*k2*k3**2 + 3*k3**2*k4 - 3*k3*k4**2"
+    },
+    "SU(3) 3   (A2, omega_1)": {
+      "size": 3,
+      "linear": "0",
+      "cubic_is_zero": false,
+      "cubic": "3*k1*k2*(k1 - k2)"
+    }
+  },
+  "deletions": {
+    "by_so10_block": {
+      "4/3": {
+        "kept": 26,
+        "linear_zero": false,
+        "cubic_zero": false
+      },
+      "1/3": {
+        "kept": 11,
+        "linear_zero": false,
+        "cubic_zero": false
+      },
+      "-2/3": {
+        "kept": 17,
+        "linear_zero": false,
+        "cubic_zero": false
+      }
+    },
+    "single_weight_nonzero": 27
+  }
+}

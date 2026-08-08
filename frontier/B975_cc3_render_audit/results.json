@@ -1,0 +1,55 @@
+{
+ "C1_docstring_overclaim": {
+  "claim": "build_moves(maxlen=5) documents itself as returning all |c| <= 2.2; it returns only words of length <= 5",
+  "cc3_bounding_evidence": "pullback re-run with the <=5 and <=7 move sets over 120 sample points at Y=0.75: 0 points differ, max |t*(<=5) - t*(<=7)| = 0.00e+00, BIT-IDENTICAL",
+  "geometric_reason": "ascent needs only A height-raising element; the extra 116 are alternative routes to the same maximum",
+  "banked_results_affected": [],
+  "severity": "low",
+  "action": "one docstring line",
+  "accepted": true,
+  "verified_here": false,
+  "note": "bounded by cc3's own re-run, which is the right control; not re-run here"
+ },
+ "C2_global_phase_contamination": {
+  "claim": "the collocation eigenvector comes out of an SVD, fixed only up to a global phase e^{i theta}; nothing pins theta, so Re f is an arbitrary rotation inside the eigenspace",
+  "measured_by_cc3": {
+   "lambda1_16.5151": "theta = +40.20 deg, Re-contamination ~34%",
+   "lambda2_25.0108": "theta = +148.92 deg, Re-contamination ~96%",
+   "parent_51.01": "theta = -26.55 deg, Re-contamination ~23%"
+  },
+  "nothing_is_false": "both Re f and Im f solve the eigenvalue equation; the defect is REPRODUCIBILITY, not truth",
+  "fix": "compute theta from the conjugate-pair ratios and multiply by e^{-i theta/2}; residual falls to 5.8e-06..7.2e-05",
+  "B940_CHECKED_HERE": {
+   "question": "is the sealed Dirac run (B940) phase-affected?",
+   "verdict": "SAFE",
+   "reason": "every sealed element is phase-INVARIANT: the two-Y bar, two seeds, P4 spread, P3 control and the +/- partner are statements about LAMBDA; G1 is a RELATIVE residual of D psi = lambda psi, and under psi -> e^{i theta} psi both sides scale together so the relative residual is unchanged; G2/G2b concern the representation, not the eigenfunction; the assembly cross-check compares matrix rows; and the kernel/doubling records are SINGULAR VALUES. The .real uses in dirac_sealed.py are all lattice/trace/mode-label quantities, not eigenfunction real parts.",
+   "prospective_warning_stands": "if B940 is ever extended to use eigenfunction POINTWISE values -- a density, an overlap, a real form -- the phase MUST be pinned first. cc3 flagged exactly this for B804."
+  },
+  "severity": "medium for pointwise users, nil for what is banked",
+  "accepted": true
+ },
+ "C3_tolerance_error": {
+  "claim": "the Plate-E agent's own 1e-9 assertion flagged 97, 91, 84 as exceptions to 'all horoball radii = 1/(2N), N an Eisenstein norm'",
+  "VERIFIED_HERE": {
+   "97": "3^2 - 3*(-8) + (-8)^2",
+   "91": "1^2 - 1*(-9) + (-9)^2",
+   "84": "2^2 - 2*(-8) + (-8)^2"
+  },
+  "verdict": "all three ARE Eisenstein norms; the tolerance (1e-9) was tighter than snappy's ~1e-8 output",
+  "the_finding_stands": true,
+  "the_new_observation": "the arithmetic of Q(sqrt-3) is VISIBLE as the sizes of the spheres in the cusp packing -- horoball radii = 1/(2N) with N an Eisenstein norm. No computation on that branch had asked for it.",
+  "error_class": "a correct result partially SELF-REFUTED by a numerical tolerance chosen tighter than the data's own precision -- close to E31 (instrument precondition unchecked) but pointed at the ASSERTION rather than the instrument"
+ },
+ "C4_plate_scope": {
+  "cc_decision_accept_rename_to_PLATE_J_THE_NULL": true,
+  "cc_decision_GO_on_PLATE_I_THE_WALL": true,
+  "reason": "the delivered plate is correct and cc3 verified its numbers against the sealed run (2+39 = 41 candidates, 0 gated; p = 0.994/0.962/0.856/0.526/0.242; PSLQ null rate 0.00). It shows the object at the 51st percentile of noise -- keep it, label it honestly. The B736 wall is the programme's sharpest POSITIVE no-go and the atlas lacks it."
+ },
+ "THE_PROCESS_POINT": {
+  "cc3_observation": "C1 and C2 were latent in code that had already produced banked results and passed three section-16 review passes, a shakedown, and 58 hours of certified computation. NEITHER surfaced while computing -- because a number off by a phase still looks like a number, and a truncated-but-sufficient move set produces exactly the right answer. BOTH surfaced within an hour of somebody trying to DRAW the output.",
+  "proposal": "for any arc whose product is a FIELD, a SPECTRUM, or a SET OF POINTS, RENDER IT ONCE BEFORE BANKING -- not for presentation, as a CHECK",
+  "cc_decision": "ADOPTED as a practices row",
+  "why": "it is the only instrument we have that fails LOUDLY on defects the numerics absorb silently, and it is the exact complement to today's two new gates: those catch claim-scope drift in prose, this catches structure drift in numbers. It also produced the day's one new observation (C3).",
+  "honest_limit": "not gateable -- 'did you render it' cannot be checked automatically; this is a human obligation, recorded as such"
+ }
+}

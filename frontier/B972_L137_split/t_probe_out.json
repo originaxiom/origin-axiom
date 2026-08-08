@@ -1,0 +1,32 @@
+{
+ "banked_content_gcd": 1,
+ "banked_form_is_primitive": true,
+ "coeff_digit_sizes": [
+  202,
+  175,
+  144,
+  113
+ ],
+ "relative_residual_minpoly_at_T": "1.3362130038185884306524398856060232087160476208586821430398216158893591201485886967944369272012095348365900260531108125811727560850509852681E-54",
+ "T_IS_A_ROOT": true,
+ "lead_small_primes_found": {
+  "179": 3,
+  "1759": 3,
+  "4889": 3
+ },
+ "lead_residual_digits": 174,
+ "lead_residual_is_one": false,
+ "lead_support_lower_bound": 4,
+ "P_lead_exceeds_2": true,
+ "P_const": [
+  2,
+  3,
+  5,
+  7,
+  11
+ ],
+ "P_const_size": 5,
+ "B947_pattern_holds": false,
+ "VERDICT": "T is a VALUE-layer family (B914: normalisation-free, canonical, banked in LAW_MAP as the one-number table) and it FAILS B947's pattern: |P_lead| >= 4 > 2.",
+ "note_computability": "B947's statistic is not even COMPUTABLE for T without factoring a 174-digit cofactor; the criterion is only decidable on families whose coefficients happen to be smooth."
+}

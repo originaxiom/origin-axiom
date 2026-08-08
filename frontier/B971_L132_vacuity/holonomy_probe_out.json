@@ -1,0 +1,59 @@
+{
+  "principal_h_coeffs": [
+    "16",
+    "22",
+    "30",
+    "42",
+    "30",
+    "16"
+  ],
+  "principal_h_is_integral": true,
+  "dim_27": 27,
+  "27_principal_highest_weights": [
+    16,
+    8,
+    0
+  ],
+  "27_principal_spins": [
+    "8",
+    "4",
+    "0"
+  ],
+  "27_principal_block_dims": [
+    17,
+    9,
+    1
+  ],
+  "27_block_dims_sum": 27,
+  "27_decomposition_EXHAUSTS_the_27": true,
+  "27_no_state_projected_out": true,
+  "n_roots": 72,
+  "dim_78": 78,
+  "78_principal_highest_weights": [
+    22,
+    16,
+    14,
+    10,
+    8,
+    2
+  ],
+  "78_exponents": [
+    "11",
+    "8",
+    "7",
+    "5",
+    "4",
+    "1"
+  ],
+  "78_block_dims_sum": 78,
+  "dim_centralizer_of_principal_sl2_in_e6": 0,
+  "no_continuous_commutant_of_the_holonomy": true,
+  "exponents_derived": [
+    11,
+    8,
+    7,
+    5,
+    4,
+    1
+  ]
+}

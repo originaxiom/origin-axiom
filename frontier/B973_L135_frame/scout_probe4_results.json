@@ -1,0 +1,17 @@
+{
+ "M12M12_cap_core": 54,
+ "M12M12_cap_floor": 54,
+ "M12_centre": 0,
+ "control_generic_kernel": 0,
+ "dim_M12_M12": 16,
+ "escape_beyond_M12": 4,
+ "escape_cap_floor": null,
+ "floor_escape": 0,
+ "kernel_dims_at_mu_walls": [
+  4,
+  4,
+  4
+ ],
+ "rank_floor_on_M12": 12,
+ "so10_escape": 50
+}

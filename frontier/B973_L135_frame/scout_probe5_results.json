@@ -1,0 +1,10 @@
+{
+ "M12M12_cap_M12": 12,
+ "M12M12_cap_core": 4,
+ "M12M12_cap_floor": 4,
+ "N_degree": 0,
+ "N_extra_checks": true,
+ "derived_roots_equal_mu_solo_roots": false,
+ "dim_M12_M12": 16,
+ "mu_wall_roots_derived": []
+}

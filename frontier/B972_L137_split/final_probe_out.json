@@ -1,0 +1,408 @@
+[
+ {
+  "family": "V_hierarchy (B941)",
+  "class": "VALUE",
+  "P_lead": [
+   953
+  ],
+  "P_const": [
+   2,
+   3
+  ],
+  "P_mid_only": [
+   13,
+   17,
+   1129,
+   421493
+  ],
+  "total_support_size": 7,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": true,
+  "F_primes_forced_into_an_extreme": 3,
+  "n_normalisations_satisfying_pattern": 50,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [
+    953
+   ],
+   "P_mid_only": [
+    13,
+    17,
+    1129,
+    421493
+   ],
+   "P_const": [
+    2,
+    3
+   ]
+  },
+  "coeffs": [
+   824843587681,
+   -27609909080832,
+   264084438122496,
+   -760840571584512
+  ]
+ },
+ {
+  "family": "W_mixing_sq (B941)",
+  "class": "VALUE",
+  "P_lead": [
+   953
+  ],
+  "P_const": [
+   5
+  ],
+  "P_mid_only": [
+   3,
+   367,
+   677
+  ],
+  "total_support_size": 5,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": true,
+  "F_primes_forced_into_an_extreme": 2,
+  "n_normalisations_satisfying_pattern": 105,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [],
+   "P_mid_only": [
+    3,
+    367,
+    677
+   ],
+   "P_const": [
+    5,
+    953
+   ]
+  },
+  "coeffs": [
+   824843587681,
+   -230571559875,
+   -16394578125,
+   -244140625
+  ]
+ },
+ {
+  "family": "d_S_twist (B941)",
+  "class": "VALUE",
+  "P_lead": [
+   2,
+   3
+  ],
+  "P_const": [
+   953
+  ],
+  "P_mid_only": [
+   5,
+   11,
+   35257
+  ],
+  "total_support_size": 6,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": true,
+  "F_primes_forced_into_an_extreme": 3,
+  "n_normalisations_satisfying_pattern": 41,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [
+    953
+   ],
+   "P_mid_only": [
+    5,
+    11,
+    35257
+   ],
+   "P_const": [
+    2,
+    3
+   ]
+  },
+  "coeffs": [
+   5308416,
+   9123840,
+   5077008,
+   908209
+  ]
+ },
+ {
+  "family": "d_A_twist (B941)",
+  "class": "VALUE",
+  "P_lead": [
+   2,
+   3
+  ],
+  "P_const": [
+   953
+  ],
+  "P_mid_only": [
+   23
+  ],
+  "total_support_size": 4,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": true,
+  "F_primes_forced_into_an_extreme": 3,
+  "n_normalisations_satisfying_pattern": 9,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [
+    953
+   ],
+   "P_mid_only": [
+    23
+   ],
+   "P_const": [
+    2,
+    3
+   ]
+  },
+  "coeffs": [
+   5308416,
+   -1907712,
+   -2195712,
+   908209
+  ]
+ },
+ {
+  "family": "m_S_flipmass (B941)",
+  "class": "VALUE",
+  "P_lead": [
+   2,
+   3
+  ],
+  "P_const": [
+   20417473
+  ],
+  "P_mid_only": [
+   11,
+   71,
+   151,
+   349
+  ],
+  "total_support_size": 7,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": true,
+  "F_primes_forced_into_an_extreme": 3,
+  "n_normalisations_satisfying_pattern": 48,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [
+    20417473
+   ],
+   "P_mid_only": [
+    11,
+    71,
+    151,
+    349
+   ],
+   "P_const": [
+    2,
+    3
+   ]
+  },
+  "coeffs": [
+   42467328,
+   -100196352,
+   78499872,
+   -20417473
+  ]
+ },
+ {
+  "family": "mu_charge (B941)",
+  "class": "PENCIL",
+  "P_lead": [
+   2,
+   3,
+   5,
+   7,
+   11
+  ],
+  "P_const": [
+   13
+  ],
+  "P_mid_only": [],
+  "total_support_size": 6,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": false,
+  "F_primes_forced_into_an_extreme": 5,
+  "n_normalisations_satisfying_pattern": 0,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": false,
+  "witness": null,
+  "coeffs": [
+   500716339200,
+   -2075673600,
+   -4769856,
+   2197
+  ]
+ },
+ {
+  "family": "kappa_compact (B941)",
+  "class": "PENCIL",
+  "P_lead": [
+   2,
+   3,
+   5,
+   7,
+   11,
+   31
+  ],
+  "P_const": [
+   19
+  ],
+  "P_mid_only": [],
+  "total_support_size": 7,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": false,
+  "F_primes_forced_into_an_extreme": 5,
+  "n_normalisations_satisfying_pattern": 0,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": false,
+  "witness": null,
+  "coeffs": [
+   2771822592000,
+   3033676800,
+   -56402640,
+   -6859
+  ]
+ },
+ {
+  "family": "vacuum_weight_cubic (B888)",
+  "class": "PENCIL",
+  "P_lead": [
+   13
+  ],
+  "P_const": [
+   2,
+   3,
+   5,
+   7,
+   11
+  ],
+  "P_mid_only": [],
+  "total_support_size": 6,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": false,
+  "F_primes_forced_into_an_extreme": 4,
+  "n_normalisations_satisfying_pattern": 6,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [
+    5,
+    11
+   ],
+   "P_mid_only": [
+    7,
+    13
+   ],
+   "P_const": [
+    2,
+    3
+   ]
+  },
+  "coeffs": [
+   2197,
+   0,
+   -6963104474726400,
+   2923811689117777920000
+  ]
+ },
+ {
+  "family": "generic_weight_cubic (B888)",
+  "class": "PENCIL",
+  "P_lead": [
+   13
+  ],
+  "P_const": [
+   2,
+   3,
+   5,
+   7,
+   11
+  ],
+  "P_mid_only": [],
+  "total_support_size": 6,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": false,
+  "F_primes_forced_into_an_extreme": 4,
+  "n_normalisations_satisfying_pattern": 6,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [
+    5,
+    11
+   ],
+   "P_mid_only": [
+    7,
+    13
+   ],
+   "P_const": [
+    2,
+    3
+   ]
+  },
+  "coeffs": [
+   2197,
+   0,
+   -1740776118681600,
+   -365476461139722240000
+  ]
+ },
+ {
+  "family": "mu @ B866's own t",
+  "class": "PENCIL-ALT",
+  "P_lead": [
+   2,
+   3,
+   5,
+   7,
+   11
+  ],
+  "P_const": [],
+  "P_mid_only": [],
+  "total_support_size": 5,
+  "excluded_vacuous": false,
+  "B947_pattern_holds_at_banked_normalisation": false,
+  "F_primes_forced_into_an_extreme": 5,
+  "n_normalisations_satisfying_pattern": 0,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": false,
+  "witness": null,
+  "coeffs": [
+   500716339200,
+   -159667200,
+   -28224,
+   1
+  ]
+ },
+ {
+  "family": "K's canonical monogenic generator s (B937)",
+  "class": "FIELD-CANONICAL",
+  "P_lead": [],
+  "P_const": [
+   5
+  ],
+  "P_mid_only": [
+   2,
+   3
+  ],
+  "total_support_size": 3,
+  "excluded_vacuous": true,
+  "B947_pattern_holds_at_banked_normalisation": true,
+  "F_primes_forced_into_an_extreme": 1,
+  "n_normalisations_satisfying_pattern": 10,
+  "PATTERN_SATISFIABLE_BY_SOME_NORMALISATION": true,
+  "witness": {
+   "P_lead": [],
+   "P_mid_only": [
+    2,
+    3
+   ],
+   "P_const": [
+    5
+   ]
+  },
+  "coeffs": [
+   1,
+   0,
+   -12,
+   -5
+  ]
+ }
+]

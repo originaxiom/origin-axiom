@@ -1,0 +1,538 @@
+{
+ "n_roots_E6": 72,
+ "n_weights_27": 27,
+ "minuscule_verified": true,
+ "so10_grading_c1": {
+  "-2/3": 10,
+  "1/3": 16,
+  "4/3": 1
+ },
+ "psi_predicted": {
+  "16": "1",
+  "10": "-2",
+  "1": "4"
+ },
+ "psi_traceless_check": "0",
+ "su5_grading_c1_c2": {
+  "(Fraction(-2, 3), Fraction(-1, 1))": 5,
+  "(Fraction(-2, 3), Fraction(0, 1))": 5,
+  "(Fraction(1, 3), Fraction(-1, 1))": 1,
+  "(Fraction(1, 3), Fraction(0, 1))": 10,
+  "(Fraction(1, 3), Fraction(1, 1))": 5,
+  "(Fraction(4, 3), Fraction(1, 1))": 1
+ },
+ "part1_table_of_the_27": [
+  {
+   "name": "Q",
+   "so10_block": "16",
+   "dim": 6,
+   "su3": "3",
+   "su2": "2",
+   "Y": "1/6",
+   "Qem": [
+    "2/3",
+    "-1/3"
+   ],
+   "psi": "1",
+   "chi": "-1",
+   "centre_charges_c1_c2_c5": [
+    "1/3",
+    "0",
+    "1/3"
+   ],
+   "exotic": false
+  },
+  {
+   "name": "d^c",
+   "so10_block": "16",
+   "dim": 3,
+   "su3": "3bar",
+   "su2": "1",
+   "Y": "1/3",
+   "Qem": [
+    "1/3"
+   ],
+   "psi": "1",
+   "chi": "3",
+   "centre_charges_c1_c2_c5": [
+    "1/3",
+    "1",
+    "4/3"
+   ],
+   "exotic": false
+  },
+  {
+   "name": "u^c",
+   "so10_block": "16",
+   "dim": 3,
+   "su3": "3bar",
+   "su2": "1",
+   "Y": "-2/3",
+   "Qem": [
+    "-2/3"
+   ],
+   "psi": "1",
+   "chi": "-1",
+   "centre_charges_c1_c2_c5": [
+    "1/3",
+    "0",
+    "-2/3"
+   ],
+   "exotic": false
+  },
+  {
+   "name": "L",
+   "so10_block": "16",
+   "dim": 2,
+   "su3": "1",
+   "su2": "2",
+   "Y": "-1/2",
+   "Qem": [
+    "0",
+    "-1"
+   ],
+   "psi": "1",
+   "chi": "3",
+   "centre_charges_c1_c2_c5": [
+    "1/3",
+    "1",
+    "1/3"
+   ],
+   "exotic": false
+  },
+  {
+   "name": "e^c",
+   "so10_block": "16",
+   "dim": 1,
+   "su3": "1",
+   "su2": "1",
+   "Y": "1",
+   "Qem": [
+    "1"
+   ],
+   "psi": "1",
+   "chi": "-1",
+   "centre_charges_c1_c2_c5": [
+    "1/3",
+    "0",
+    "4/3"
+   ],
+   "exotic": false
+  },
+  {
+   "name": "nu^c",
+   "so10_block": "16",
+   "dim": 1,
+   "su3": "1",
+   "su2": "1",
+   "Y": "0",
+   "Qem": [
+    "0"
+   ],
+   "psi": "1",
+   "chi": "-5",
+   "centre_charges_c1_c2_c5": [
+    "1/3",
+    "-1",
+    "-2/3"
+   ],
+   "exotic": false
+  },
+  {
+   "name": "D",
+   "so10_block": "10",
+   "dim": 3,
+   "su3": "3",
+   "su2": "1",
+   "Y": "-1/3",
+   "Qem": [
+    "-1/3"
+   ],
+   "psi": "-2",
+   "chi": "2",
+   "centre_charges_c1_c2_c5": [
+    "-2/3",
+    "0",
+    "-2/3"
+   ],
+   "exotic": true
+  },
+  {
+   "name": "Dbar",
+   "so10_block": "10",
+   "dim": 3,
+   "su3": "3bar",
+   "su2": "1",
+   "Y": "1/3",
+   "Qem": [
+    "1/3"
+   ],
+   "psi": "-2",
+   "chi": "-2",
+   "centre_charges_c1_c2_c5": [
+    "-2/3",
+    "-1",
+    "-2/3"
+   ],
+   "exotic": true
+  },
+  {
+   "name": "H_d",
+   "so10_block": "10",
+   "dim": 2,
+   "su3": "1",
+   "su2": "2",
+   "Y": "-1/2",
+   "Qem": [
+    "0",
+    "-1"
+   ],
+   "psi": "-2",
+   "chi": "-2",
+   "centre_charges_c1_c2_c5": [
+    "-2/3",
+    "-1",
+    "-5/3"
+   ],
+   "exotic": true
+  },
+  {
+   "name": "H_u",
+   "so10_block": "10",
+   "dim": 2,
+   "su3": "1",
+   "su2": "2",
+   "Y": "1/2",
+   "Qem": [
+    "1",
+    "0"
+   ],
+   "psi": "-2",
+   "chi": "2",
+   "centre_charges_c1_c2_c5": [
+    "-2/3",
+    "0",
+    "1/3"
+   ],
+   "exotic": true
+  },
+  {
+   "name": "S",
+   "so10_block": "1",
+   "dim": 1,
+   "su3": "1",
+   "su2": "1",
+   "Y": "0",
+   "Qem": [
+    "0"
+   ],
+   "psi": "4",
+   "chi": "0",
+   "centre_charges_c1_c2_c5": [
+    "4/3",
+    "1",
+    "4/3"
+   ],
+   "exotic": true
+  }
+ ],
+ "part1_normalisations_used": {
+  "psi": "one scale, fixed by psi(16)=1  ->  psi(10), psi(1) PREDICTED",
+  "chi": "one scale, fixed by chi(5bar of the 16)=3  ->  all other chi PREDICTED",
+  "Y": "one scale, fixed by Y(Q)=1/6  ->  all other Y PREDICTED, including the whole exotic 10 and the singlet"
+ },
+ "part1_arithmetic_checks": {
+  "27 = 16 + 10 + 1": [
+   16,
+   10,
+   1
+  ],
+  "sum": 27,
+  "psi traceless over the 27": "0",
+  "chi traceless over the 27": "0",
+  "Y traceless over the 27": "0",
+  "Y traceless on each SU(5) multiplet": {
+   "(Fraction(-2, 3), Fraction(-1, 1))": "0",
+   "(Fraction(-2, 3), Fraction(0, 1))": "0",
+   "(Fraction(1, 3), Fraction(-1, 1))": "0",
+   "(Fraction(1, 3), Fraction(0, 1))": "0",
+   "(Fraction(1, 3), Fraction(1, 1))": "0",
+   "(Fraction(4, 3), Fraction(1, 1))": "0"
+  },
+  "sum of Qem over the 27": "0"
+ },
+ "part1_counts": {
+  "states in the 16": 16,
+  "states in the 10": 10,
+  "states in the 1": 1,
+  "EXOTIC states beyond the 16 (10 + 1)": 11,
+  "states beyond a 15-fermion SM generation (27 - 15)": 12,
+  "nu_R sits in the 16": true,
+  "note": "eleven exotics beyond the 16; twelve if counted against a 15-fermion generation, which puts nu_R on the exotic side of the ledger"
+ },
+ "part2_exotic_vs_SM": [
+  {
+   "name": "D",
+   "dim": 3,
+   "su3": "3",
+   "su2": "1",
+   "Y": "-1/3",
+   "Y_is_an_SM_fermion_hypercharge": false,
+   "identical_SM_fermion": [],
+   "conjugate_of_SM_fermion": [
+    "d^c"
+   ],
+   "identical_to_SM_Higgs_doublet": false
+  },
+  {
+   "name": "Dbar",
+   "dim": 3,
+   "su3": "3bar",
+   "su2": "1",
+   "Y": "1/3",
+   "Y_is_an_SM_fermion_hypercharge": true,
+   "identical_SM_fermion": [
+    "d^c"
+   ],
+   "conjugate_of_SM_fermion": [],
+   "identical_to_SM_Higgs_doublet": false
+  },
+  {
+   "name": "H_d",
+   "dim": 2,
+   "su3": "1",
+   "su2": "2",
+   "Y": "-1/2",
+   "Y_is_an_SM_fermion_hypercharge": true,
+   "identical_SM_fermion": [
+    "L"
+   ],
+   "conjugate_of_SM_fermion": [],
+   "identical_to_SM_Higgs_doublet": false
+  },
+  {
+   "name": "H_u",
+   "dim": 2,
+   "su3": "1",
+   "su2": "2",
+   "Y": "1/2",
+   "Y_is_an_SM_fermion_hypercharge": false,
+   "identical_SM_fermion": [],
+   "conjugate_of_SM_fermion": [
+    "L"
+   ],
+   "identical_to_SM_Higgs_doublet": true
+  },
+  {
+   "name": "S",
+   "dim": 1,
+   "su3": "1",
+   "su2": "1",
+   "Y": "0",
+   "Y_is_an_SM_fermion_hypercharge": true,
+   "identical_SM_fermion": [
+    "nu^c"
+   ],
+   "conjugate_of_SM_fermion": [
+    "nu^c"
+   ],
+   "identical_to_SM_Higgs_doublet": false
+  }
+ ],
+ "part2_SM_hypercharges_in_the_16": {
+  "Q": "1/6",
+  "d^c": "1/3",
+  "u^c": "-2/3",
+  "L": "-1/2",
+  "e^c": "1",
+  "nu^c": "0"
+ },
+ "part2_verdict": {
+  "any exotic with SM quantum numbers found nowhere in the 16 (up to conjugation)": [],
+  "exotics exactly degenerate with a 16 field": {
+   "Dbar": [
+    "d^c"
+   ],
+   "H_d": [
+    "L"
+   ],
+   "S": [
+    "nu^c"
+   ]
+  }
+ },
+ "part2_MB12_can_the_test_fail": {
+  "test": "does every piece of an E6 representation carry an SM-fermion hypercharge?",
+  "run on the 27": "PASSES for every exotic (see part2_verdict)",
+  "run on the 78 (adjoint)": "FAILS -- hypercharges present in the adjoint that no SM fermion carries: -1, -1/3, -1/6, -5/6, 1/2, 2/3, 5/6",
+  "conclusion": "the test is non-vacuous: it can pass and it can fail"
+ },
+ "part3_levi": {
+  "simple roots": "alpha_3, alpha_4 (an A2) and alpha_6 (an A1)",
+  "n roots in the Levi": 8,
+  "dim derived (roots + rank-3 Cartan)": 11,
+  "dim Levi (derived + 3-dim centre)": 14,
+  "centre dim": 3,
+  "matches the cascade's landing point (dim 14, derived 11, centre 3)": true
+ },
+ "part3_n_pieces_of_the_27_under_the_Levi": 11,
+ "part3_piece_dims_sorted": [
+  1,
+  1,
+  1,
+  2,
+  2,
+  2,
+  3,
+  3,
+  3,
+  3,
+  6
+ ],
+ "part3_torus_identification": {
+  "rank of (c1,c2,c5) on the 27": 3,
+  "rank of (psi,chi,Y) on the 27": 3,
+  "rank of the two together": 3,
+  "same 3-dim space of charges": true
+ },
+ "part3_resolving_power": {
+  "SM_rank4": {
+   "n distinguishable classes among the 11 pieces": 8,
+   "colliding pieces": {
+    "('3bar', '1', '1/3')": [
+     "Dbar",
+     "d^c"
+    ],
+    "('1', '2', '-1/2')": [
+     "H_d",
+     "L"
+    ],
+    "('1', '1', '0')": [
+     "S",
+     "nu^c"
+    ]
+   },
+   "every exotic separated from every 16 piece": false
+  },
+  "levi_rank6": {
+   "n distinguishable classes among the 11 pieces": 11,
+   "colliding pieces": {},
+   "every exotic separated from every 16 piece": true
+  },
+  "psi_only": {
+   "n distinguishable classes among the 11 pieces": 8,
+   "colliding pieces": {
+    "('1', '2', '-2')": [
+     "H_d",
+     "H_u"
+    ],
+    "('3bar', '1', '1')": [
+     "d^c",
+     "u^c"
+    ],
+    "('1', '1', '1')": [
+     "e^c",
+     "nu^c"
+    ]
+   },
+   "every exotic separated from every 16 piece": true
+  }
+ },
+ "part3_first_cascade_step": {
+  "roots commuting with the psi direction": 40,
+  "dim Cent = roots + rank": 46,
+  "identification": "so(10) (40 roots) + u(1)_psi -> dim 46",
+  "the 27 splits at this single step into": {
+   "-2/3": 10,
+   "1/3": 16,
+   "4/3": 1
+  }
+ },
+ "part3_how_many_so10_above_the_levi": {
+  "n D5+u(1) centraliser directions found in the Levi centre (up to the search box)": 3,
+  "distinct 16-labellings they induce": [
+   {
+    "the 16 = ": [
+     "L",
+     "Q",
+     "d^c",
+     "e^c",
+     "nu^c",
+     "u^c"
+    ],
+    "n directions": 1,
+    "example direction": [
+     -8,
+     0,
+     0
+    ]
+   },
+   {
+    "the 16 = ": [
+     "Dbar",
+     "H_d",
+     "Q",
+     "S",
+     "e^c",
+     "u^c"
+    ],
+    "n directions": 1,
+    "example direction": [
+     -8,
+     8,
+     0
+    ]
+   },
+   {
+    "the 16 = ": [
+     "Dbar",
+     "H_u",
+     "Q",
+     "S",
+     "d^c",
+     "nu^c"
+    ],
+    "n directions": 1,
+    "example direction": [
+     0,
+     -8,
+     8
+    ]
+   }
+  ],
+  "n distinct labellings": 3
+ },
+ "part3_weyl_group_order": 51840,
+ "part3_relative_weyl": {
+  "|N_W(W_L)|": 72,
+  "|W_L|": 12,
+  "|relative Weyl group| = |N|/|W_L|": 6
+ },
+ "part3_relative_weyl_orbits_on_the_11_pieces": {
+  "n induced permutations": 6,
+  "orbits": [
+   [
+    "H_d",
+    "H_u",
+    "L"
+   ],
+   [
+    "Dbar",
+    "d^c",
+    "u^c"
+   ],
+   [
+    "D"
+   ],
+   [
+    "S",
+    "e^c",
+    "nu^c"
+   ],
+   [
+    "Q"
+   ]
+  ],
+  "does any orbit mix a 16 piece with an exotic piece": true
+ }
+}
