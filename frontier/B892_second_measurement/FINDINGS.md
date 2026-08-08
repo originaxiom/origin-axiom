@@ -1,5 +1,18 @@
 # B892 — the SECOND MEASUREMENT THEOREM verified: two charges take E₆ to the SM algebra — and the wall is a COMPLEX point of the split frame; B874 amended
 
+> ## ⚠ SENTENCE CORRECTED BY B950 (2026-08-08) — the mathematics is untouched
+>
+> This arc's computation is right and is not disturbed: **dim z(x₁,y*) = 14, derived 11,
+> centre 3**, i.e. **su(3) ⊕ su(2) ⊕ u(1)³**, locked in `tests/test_b892_smt.py`.
+> **But su(3)⊕su(2)⊕u(1)³ is 14-dimensional and the Standard Model gauge algebra is
+> 12-dimensional** — su(3)⊕su(2)⊕u(1), **one** abelian factor, not three. So the phrase
+> *"take E₆ to the Standard Model algebra"* below **overstates by two abelian factors**.
+> Not a refutation — extra U(1)s are standard in GUT descent (SO(10) → SM leaves
+> U(1)_{B−L}), and rank-6 E₆ reaching rank-4 must shed rank somewhere — but the chain is
+> **two steps from the SM, not zero**: (i) which u(1) combination is hypercharge, (ii)
+> what breaks the other two. See `docs/SM_SPECIFICATION_LEDGER.md` and B950 (L132).
+
+
 cc banking seat, 2026-08-04/05 night. S1 verification of the solo seat's SMT (their queue #1),
 plus the amendment this seat owes its own B874. Mathematics scope; nothing to `CLAIMS.md`;
 Gate 5 untouched.

@@ -863,3 +863,16 @@ clause, not the whole normalisation.
 > (5/14, 8 dead)** is the objective frontier; and **`source_free = 0/1` is NOT a gap** but
 > a correctly-recorded dead direction (UNIQUENESS_THEOREM: *"that direction is mapped
 > dead"*). Re-reporting it as an opportunity would double-count a closed door.
+
+> **L132 — DOES HYPERCHARGE FALL OUT OF THE OBJECT'S OWN CHARGES? (registered 2026-08-08,
+> from B950.)** The SM specification ledger isolates the one row where accepted physics
+> **derives** rather than measures: **the hypercharges are fixed (up to normalisation) by
+> anomaly cancellation**, a Diophantine system — the SM's *only* computed value-level
+> structure. The object supplies a **rank-3 abelian sector** (B892: centre 3). Question:
+> **do the object's own charges satisfy the SM anomaly conditions, and does Y fall out?**
+> Value-level but **not value-matching** — anomaly cancellation is integer equations, not a
+> measured number — so the firewall permits it, and a result is intelligible to a physicist
+> without any crossing. Natural successor to B892, whose §4 reports a hypercharge fit
+> reproducing "at rank 3" while deriving nothing from it. **The highest-value SM-facing
+> question currently available.** Prerequisite from B950: the chain is **two steps** from
+> the SM (which u(1) is Y; what breaks the other two), not zero.

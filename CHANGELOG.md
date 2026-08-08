@@ -1,5 +1,10 @@
 # Changelog
 
+## B950 — the SM specification ledger, and the overstatement it caught
+- The repo had no inventory of **what the SM specifies** (only how to compare, and a literature map). `docs/SM_SPECIFICATION_LEDGER.md` now states it: algebra + global ℤ₆ form, 15/16 Weyl fermions with hypercharges, the **19** parameters (26/28 with neutrinos), forced-vs-measured, and a delivery column.
+- **First fruit:** su(3)⊕su(2)⊕u(1)³ is **dim 14**; the SM gauge algebra is **dim 12**. B892's mathematics stands; its sentence *"the Standard Model algebra"* **overstates by two abelian factors**. Not a refutation — but the chain is **two steps from the SM, not zero**. B892 banner-corrected, LAW_MAP row amended.
+- **L132 registered:** do the object's charges satisfy the SM anomaly conditions, and does **Y** fall out? Value-level but not value-matching — the firewall permits it, and it targets the SM's *only* forced value structure. 5 locks.
+
 ## B949 — the ignorance map (and a correction made before banking)
 - All 11 atlas obstacle types resolved in full. **`bridge_construction` 5/14 with 8 dead is the objective frontier.** No structural motif gap (strongest avoidance 0.73 of expectation).
 - **`source_free` 0/1 is NOT a blind spot** — it is a correctly-recorded **dead direction** (UNIQUENESS_THEOREM: *"that direction is mapped dead"*); its one probe is a keyword match. This seat nearly reported the opposite; a lock now prevents re-reporting a closed door as an opportunity.
