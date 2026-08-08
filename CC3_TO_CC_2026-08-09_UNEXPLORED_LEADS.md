@@ -43,20 +43,32 @@ fields no register surfaces:
   revival score at all**. Nearly a quarter of the graph was never assessed for
   revivability in the first place.
 
-Of the 132 short-hatch entries, **57 are named in no register**; of the 27
-scoring ≥ 4, **10 are named in no register**. Note honestly: at a 36% corpus
-baseline those rates (43%, 37%) are **unremarkable**. The finding is not that
-these are anomalously lost — it is that a whole indexed lead structure exists
-that no ledger can be queried against, so its top items surface only by
-accident.
+Of the 132 short-hatch entries, **34 are arc-ids named in no register**, and a
+further **23 carry ids that are not arc ids at all**, so register lookup cannot
+answer for them. Of the 27 scoring ≥ 4: 24 are arc-ids, **7 of those are named
+in no register** (B111, B374, B394, B477, B500, B706, B712), and 3 are non-arc
+ids (`W10-B660/B666`, `W11-B706`, `P21 — the framework search`).
+
+**CORRECTION (cc3, on building the index).** An earlier draft of this relay
+reported "57 of 132" and "10 of 27" by merging those two categories — counting
+an id that *cannot be looked up* as an id that *was not found*. They are
+different failures and only the first is a lost lead. Corrected above; the
+generated index keeps them apart by construction and marks non-arc ids `n/a`
+rather than blank.
+
+Note honestly: at a 36% corpus baseline, 34/109 arc-ids (31%) is
+**unremarkable**. The finding is not that these are anomalously lost — it is
+that a whole indexed lead structure exists that no ledger can be queried
+against, so its top items surface only by accident.
 
 ---
 
-## 3. THE TEN UNREGISTERED HIGH-REVIVAL KILLS
+## 3. THE SEVEN UNREGISTERED HIGH-REVIVAL KILLS (+3 unaddressable ids)
 
 Ranked by the graph's own score. **B500 was verified end-to-end on this seat;
-the other nine are the graph's annotations, read but not independently
-re-derived — labelled as such.**
+the rest are the graph's annotations, read but not independently re-derived —
+labelled as such.** All are now rows in `docs/REVIVABLE.md`, so this section is
+a reading of the index, not a substitute for it.
 
 ### B500 — score **6**, the highest in the graph — `deepen-past-plateau` — **VERIFIED**
 
@@ -80,7 +92,7 @@ So: the question *"is the child (x⁴−x−1, d_K = −283) a short word?"* is 
 test), and it appears in **no register**. This is the single most concrete
 unexplored lead the sweep found.
 
-### The other nine (graph annotation, unverified here)
+### The other six, and the three unaddressable ids (graph annotation, unverified here)
 
 | arc | score | hatch | what is still live |
 |---|---|---|---|
@@ -104,10 +116,10 @@ sweep and any future attachment pass — silently mis-handles them.
 
 1. **Register B500's reopen.** It is verified, concrete, costed, and its own
    arc forbids citing the kill as complete. Cheapest real lead in the repo.
-2. **Index `revival_score` somewhere queryable.** One generated table —
-   `docs/REVIVABLE.md`, built by script from `kill_graph.json`, sorted by score
-   — turns 220 scored hatches from a JSON field into a frontier. This is the
-   structural fix; the ten arcs above are just what it surfaces first.
+2. **Index `revival_score` somewhere queryable — BUILT, see the companion
+   relay.** `scripts/revivable/build_revivable.py` → `docs/REVIVABLE.md`,
+   generated and deterministic. This is the structural fix; the arcs above are
+   just what it surfaces first.
 3. **Triage the 167 `UNTRIAGED`.** A quarter of the kill graph has no hatch and
    no score. Until they do, "revivable kills" is a statement about the 574 that
    were assessed, not about the graph.
