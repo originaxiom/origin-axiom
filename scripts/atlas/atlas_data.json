@@ -19925,6 +19925,34 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B949": {
+   "slug": "ignorance map",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "z3_generation",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B58",
+    "B931",
+    "B937",
+    "B942",
+    "B945",
+    "B948",
+    "L130",
+    "L131",
+    "P1",
+    "P16"
+   ],
+   "obstacle": "source_free",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B94": {
    "slug": "tower universality",
    "motifs": [

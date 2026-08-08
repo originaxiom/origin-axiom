@@ -1,5 +1,10 @@
 # Changelog
 
+## B949 — the ignorance map (and a correction made before banking)
+- All 11 atlas obstacle types resolved in full. **`bridge_construction` 5/14 with 8 dead is the objective frontier.** No structural motif gap (strongest avoidance 0.73 of expectation).
+- **`source_free` 0/1 is NOT a blind spot** — it is a correctly-recorded **dead direction** (UNIQUENESS_THEOREM: *"that direction is mapped dead"*); its one probe is a keyword match. This seat nearly reported the opposite; a lock now prevents re-reporting a closed door as an opportunity.
+- **The real ignorance: A1–A6**, motivated but not forced, with the entire proven core downstream. **L131 registered**: B945 showed the R↔L swap *fixes* the object, so **A7 may insert nothing** — not claimed, the discriminating computation is unrun. 5 locks.
+
 ## B948 — the relay executed, and the dead-clause sweep
 - The solo seat **withdrew its own §LXXXI-AC5/AC6** on reading B942 and recorded **the observer's mechanism as OPEN, not settled**. All three B946 adjudications accepted, including the one against itself.
 - Sweep: **the rooms are clean** — the retracted clause never leaked into `knowledge/`, `philosophy/`, `speculations/`, `story/`. LAW_MAP's B723 row was stale and is **superseded** (READ B942 FIRST).

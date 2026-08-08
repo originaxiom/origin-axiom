@@ -844,3 +844,22 @@ clause, not the whole normalisation.
 > multiplicity-one colour-blind weights and the orbit↔generation bijection). B946 verified
 > **§LXXXII only**, because only it was checkable against data this bench already had.
 > The presence side is two-prime, unread by any other seat, and is **not** discharged.
+
+> **L131 — IS A7 DISCHARGE-ABLE? (registered 2026-08-08, from B949's sweep.)**
+> `docs/UNIQUENESS_THEOREM.md` calls **A7** — the residual L-before-R order choice —
+> *"the smallest piece of inserted structure in the whole construction"* and states it is
+> **not eliminable by any matrix-level axiom**. But **B945**, computed a day earlier for an
+> unrelated purpose, found **Stab_V(RL) = the full Klein group**: σ, the R↔L swap, **fixes
+> the object** (σ(RL) = LR, a cyclic rotation of RL). **If A7's choice is exactly that
+> swap, it inserts nothing the object can see, and the construction has one fewer free
+> input than is claimed for it.** NOT claimed — B945 computes at *word* level, not in
+> Isom(m004), and A7 may act somewhere the word level cannot see (an orientation or a
+> labelling downstream), which is the right-object-wrong-level trap. **The discriminating
+> computation has not been run.** This is the most attackable of the founding axioms
+> because it is the one with an existing computation pointed at it.
+>
+> **Context (B949's ranking):** the deepest ignorance is **A1–A6 themselves** — motivated,
+> not forced, with the entire proven core downstream of them; **`bridge_construction`
+> (5/14, 8 dead)** is the objective frontier; and **`source_free = 0/1` is NOT a gap** but
+> a correctly-recorded dead direction (UNIQUENESS_THEOREM: *"that direction is mapped
+> dead"*). Re-reporting it as an opportunity would double-count a closed door.
