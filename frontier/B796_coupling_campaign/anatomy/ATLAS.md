@@ -235,9 +235,9 @@ repository does not hold.
 
 ---
 
-## 9. THE WALL
+## 9. THE NULL
 
-**`plate_I_wall.png`**
+**`plate_J_null.png`**
 
 **What you are looking at.** The negative result, drawn instead of asserted. The
 programme's long-running question was whether this object's spectrum encodes the
@@ -261,6 +261,53 @@ candidate count reproduces the sealed 2 + 39 = 41. What is *not* claimed: this i
 8-digit test over n = 17 eigenvalues with r ≤ 9.84. Deep precision (20+ digits) and
 deep algebraicity (50+ digits) remain **open and untested in both directions**. The
 honest statement is "no signal found here", not "no signal exists".
+
+---
+
+## 10. THE WALL
+
+**`plate_I_wall.png`**
+
+**What you are looking at.** Two number systems, side by side, and the reason nothing
+can be carried between them. Left: **being** — the object's own geometry lives over
+ℚ(√−3), a triangular lattice whose units (circled) sit exactly **on** the unit circle.
+Right: **hearing** — the object's dynamics live over ℚ(√5), and the relevant eigenvalues
+φ² = 2.618… and φ⁻² = 0.382… sit **off** the circle, on the real axis.
+
+**The one thing to notice.** A map transporting a quantity from one face to the other
+must solve a **Sylvester equation**, and a Sylvester equation has only the zero solution
+when the two spectra are disjoint. One spectrum is on the circle; the other is not.
+They share nothing. Therefore the transport map is **exactly 0** — not small, not
+approximate. Zero.
+
+**Status: proved negative (B736).** This is the programme's sharpest *positive* no-go:
+it does not say "we looked and found nothing", it says "the object's geometry cannot
+hand its dynamics a number, by theorem". Note the scope carefully — it forbids
+transport **between these two faces**, which is a statement about a relation, not about
+the object as a whole. A relational reading (post-B800) treats this as one edge of the
+family graph being severed, not the family being mute.
+
+---
+
+## 11. THE CASCADE
+
+**`plate_K_cascade.png`**
+
+**What you are looking at.** The symmetry-breaking chain, drawn from cc's banked
+B861/B862 results files — every menu option, dimension, and registerability flag is read
+from JSON, not from memory. Three steps: E₆ (dim 78) → SO(10)×U(1) (46) → SU(5)×U(1)
+(25) → the Standard Model's gauge group with its **global form**, the ℤ₆ quotient.
+
+**The one thing to notice.** The rule is the same at every step — *among the options
+that can carry chiral matter, take the one with the largest leftover symmetry* — and at
+every step the choice is **unique**, and it lands on the Standard Model. The ℤ₆ quotient
+is **forced, not chosen**.
+
+**Status: conditional on the cascade's own premises.** It says nothing about masses,
+couplings, generations, the Higgs, or spacetime. A control run (B869) confirmed the rule
+does *not* land on the SM from arbitrary starting groups, so the result is not vacuous —
+but "not vacuous" is a long way from "derived". Read this plate next to Plate J: the
+cascade is the shape landing, the null is the numbers not landing.
 
 ---
 

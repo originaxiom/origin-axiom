@@ -1,4 +1,4 @@
-r"""PLATE K — THE CASCADE  and  PLATE L — THE WALL.
+r"""PLATE K — THE CASCADE  and  PLATE I — THE WALL.
 
 K: the symmetry-breaking chain, drawn from cc's banked B861/B862/B876
    results.json (menus, dimensions, registerability, the winner at each
@@ -98,7 +98,7 @@ fig.savefig(f'{OUT}/plate_K_cascade.png', dpi=145, facecolor=BG,
 plt.close(fig)
 print('saved plate_K_cascade.png')
 
-# ================= PLATE L =================
+# ================= PLATE I =================
 fig, axes = plt.subplots(1, 2, figsize=(15, 7.6), facecolor=BG)
 phi = (1 + np.sqrt(5)) / 2
 om = complex(-0.5, np.sqrt(3) / 2)
@@ -140,7 +140,7 @@ axR.set_title('HEARING — ℚ(√5), the object\'s dynamics\n'
 axR.tick_params(colors='#5a6272', labelsize=7.5)
 for s in axR.spines.values(): s.set_color('#3a4150')
 
-fig.suptitle('PLATE L — THE WALL\nwhy nothing can be carried from one face of the object '
+fig.suptitle('PLATE I — THE WALL\nwhy nothing can be carried from one face of the object '
              'to the other', color=INK, fontsize=17, y=0.99)
 fig.text(0.5, 0.035,
          'the map that would transport a quantity between the two faces solves a Sylvester '
@@ -151,5 +151,5 @@ fig.text(0.5, 0.035,
          'geometry cannot hand its dynamics a number.',
          color=MUT, fontsize=9.4, ha='center')
 fig.tight_layout(rect=[0.01, 0.115, 0.99, 0.90])
-fig.savefig(f'{OUT}/plate_L_wall.png', dpi=145, facecolor=BG)
-print('saved plate_L_wall.png')
+fig.savefig(f'{OUT}/plate_I_wall.png', dpi=145, facecolor=BG)
+print('saved plate_I_wall.png')

@@ -153,9 +153,24 @@ class Lattice:
 def build_moves(maxlen=5, cmax=2.2):
     """Group elements usable as height-raising moves.
 
+    Returns the elements reachable by REDUCED WORDS OF LENGTH <= maxlen
+    that satisfy 0 < |c| <= cmax.  This is NOT a complete list of the
+    group elements with |c| <= cmax -- it is a truncation, by design:
+
+        words <= 5 :  91 moves      words <= 6 : 143      words <= 7 : 207
+
     Only |c| <= cmax matter for points at height t >= 1/cmax (the
     isometric sphere of g has radius 1/|c|; smaller spheres cannot
     strictly raise such points). Dedupe up to sign (PSL).
+
+    Truncation is safe HERE and only here: the caller does steepest-ascent
+    pullback, which needs *a* height-raising element, not all of them; the
+    extra elements are alternative routes to the same maximum.  Verified
+    (cc3, 2026-08-08, C1): over 120 sample points at Y = 0.75 the <=5 and
+    <=7 move sets give bit-identical reduced heights, 0 points differing.
+    Do NOT reuse this function where completeness of the |c| <= cmax set
+    is required (e.g. enumerating cusp points: <=5 finds 8 of the 12
+    norm-4 cusp points, <=6 finds all 12).
     """
     mats, seen = [], set()
     for w in reduced_words(maxlen):
