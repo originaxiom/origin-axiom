@@ -923,6 +923,13 @@ clause, not the whole normalisation.
 > generation** (a vector-like coloured triplet pair, an extra doublet pair, singlets) which
 > any E₆ model must make heavy. **The record has never addressed them.**
 
+> **L135 — PARTLY DISCHARGED 2026-08-08 by B961**: the *instrument* is built and reproduces
+> B892's dim 14 / derived 11 / centre 3 and B958's dim Z(su(3)) = 16 **from scratch on this
+> bench** (`frontier/B961_frame_instrument/frame.py`: exact Killing form, centralizer,
+> Killing-perp, derived algebra). **Still owed:** the specific frame, floor and M12 — which
+> need either solo's definitions stated precisely enough to rebuild, or an independent
+> derivation of "the orthogonal charge frame" from banked structure. The presence side
+> remains unverified. *(original registration:)*
 > **L135 — BUILD THE FRAME INDEPENDENTLY (registered 2026-08-08, from B958).** The repo has
 > **no independent construction of M12** (the "invisible 12"): B909 verified §LVIII's data by
 > **running the incoming material**, not by rebuilding here. Before the solo seat's presence

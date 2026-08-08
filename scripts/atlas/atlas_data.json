@@ -20248,6 +20248,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B961": {
+   "slug": "frame instrument",
+   "motifs": [],
+   "refs": [
+    "B892",
+    "B909",
+    "B951",
+    "B958",
+    "L135"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B96": {
    "slug": "geometry invariants",
    "motifs": [

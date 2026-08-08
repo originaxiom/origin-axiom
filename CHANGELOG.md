@@ -1,5 +1,11 @@
 # Changelog
 
+## B961 / L135 — the frame instrument, built here at last
+- `frame.py`: exact Killing form, centralizer, Killing-perp, derived algebra on e₆ — the infrastructure B958 found missing (every frame claim so far was checked against incoming code).
+- **Reproduces B892's dim 14 / derived 11 / centre 3 and B958's dim Z(su(3)) = 16 from scratch** — the first independent derivation of those numbers on this bench.
+- **Its own self-test caught a real bug in it**: `rref()[1]` returns pivot *columns*, used to index *rows*, silently giving a wrong-dimensional space. A banked-number gate was the only thing that would have caught it. Trap documented and locked.
+- **Still owed:** the specific frame/floor/M12, hence the presence side. This builds the tools, not solo's definitions. 6 locks.
+
 ## B960 / L136 — the adjoint hatch **closes itself**; B959's no-go is complete
 - **ω₁ ∉ E₆'s root lattice** ⟹ the centre ℤ/3 acts nontrivially on the **27** ⟹ **the adjoint form has no 27.** The escape route costs exactly the chirality it was meant to preserve.
 - So the **simply connected form is forced by the presence of matter**, B959's torality step applies unqualified, and the wall is now **unconditional within the centralizer class**: *no measurement, holonomy, or finite image on this object produces chiral matter at rank 4.*
