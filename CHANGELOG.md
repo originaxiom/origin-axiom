@@ -1,5 +1,11 @@
 # Changelog
 
+## B964 — two VEV claims withdrawn: the measurement cascade **is** an adjoint Higgs mechanism
+- **"The object does not supply a VEV" is FALSE** (B952/B959/B960/B962). An adjoint VEV's unbroken group **is** the centralizer of that element — so **"adjoint VEV" and "measurement" are the same operation.** The object supplies the **rank-preserving** half and lacks the **rank-reducing (27)** half.
+- **"The 27-VEV route stops one step short" was a scope error** — true for **27-only** breaking; the **78 contains a 24**, so the standard chain completes.
+- **B952's rank obstruction is untouched and better named:** adjoint VEVs preserve rank, which is *why* the cascade does. L138 stands; the F₄ unification stands.
+- Cause: using "VEV" loosely to mean "27 VEV". **Rule: name the representation every time.** **Caught by the owner's challenge, not by a gate.** 5 locks.
+
 ## B962 — the VEV picture scouted: three things move
 - **The missing VEV is universal, not our defect** — no framework derives a VEV direction; group theory gives the menu, free parameters pick off it.
 - **The route provably stops one step short**: 27 VEVs reach SU(5) but **can never break SU(5) → SM** (27 → 10+5+5̄+5̄+1+1, **no 24**). **B955 amended.**

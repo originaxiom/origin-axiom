@@ -30,3 +30,16 @@ Rows cite the banked locus and the correcting locus.*
 | B790's Maass-adjudication first pass: the "ordinary noise" null verdict + three supporting readings | frontier/B790_maass_adjudication/FINDINGS.md (first pass) | FOUR CORRECTIONS CONCEDED (Chat-1's challenges, all four) — the reported null was never the pre-registered one AND the "Weyl-matched" null was miscoded (e^ℓ for e^{2ℓ}); L3 re-verdicted MISS-earned; tests 1–3 vacuous; the B713–B716 scope reading corrected | the B790 ADDENDUM (2026-07-28, in-FINDINGS); ERROR_LEDGER E29 |
 | B225's "2 = octahedral parent REFUTED" verdict carried as PROVED | frontier/B225* (own file); the arc-verdict register | RELABELED PROVED → RETRACTED — the criterion was vacuous (the bad-prime extraction reports 2 for EVERY monic-in-z input; specificity zero); the octahedral-parent question returns to OPEN; the 5-half survives (5 in conductor 40 = the golden branch point x²=5) | B745 (confirmation); B831 (the relabel, R35-4); CHANGELOG 2026-08 |
 | The section-LIV septic wall-root instrument (cmt.py), retracted by the solo seat, SHIPPED ANYWAY in solo handoff 6 — a stale pre-retraction artifact (κ mod 40031 has NO wall roots; centralizers there read the generic floor 12) | solo handoff 6 §XLIX–LVIII (the shipped cmt.py) | CAUGHT AT VERIFICATION 2026-08-06 — root-set comparison against κ exposed the phantom roots; the corrected instrument (cmt_correct.py) confirms the ledger at MORE (root,prime) pairs; adopted as the wall-instrument sanity gate; the retraction-propagation failure (a retracted instrument surviving into a handoff) is the sharpest retraction-hygiene datum owned | B909 (frontier/B909_frame_arc/FINDINGS.md, cmt_correct.py); routed to B920 (this catch-up) |
+
+## 2026-08-08 — B964: two VEV claims withdrawn
+1. **"The object does not supply a VEV"** (B952, B959, B960, echoed B962) — **FALSE.** An
+   adjoint VEV's unbroken group *is* the centralizer of that element, so the measurement
+   cascade **is** an adjoint Higgs mechanism. The object supplies the rank-preserving half;
+   it lacks the rank-reducing 27 half.
+2. **"The 27-VEV route provably stops one step short"** (B962) — **scope error.** True for
+   **27-only** breaking; false in general, since the 78 contains a 24.
+
+**Untouched:** B952/B959/B960's rank obstruction (it was always about *centralizer /
+adjoint* constructions), the 27 branching, the F₄=generic-VEV unification, and L138.
+**Cause:** using "VEV" loosely to mean "27 VEV". **Rule adopted: name the representation
+every time.** Caught by the owner's challenge, not by a gate.
