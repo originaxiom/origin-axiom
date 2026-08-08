@@ -20263,6 +20263,27 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B962": {
+   "slug": "vev scout",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B952",
+    "B953",
+    "B954",
+    "B955",
+    "B959",
+    "B960",
+    "L138"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 16,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B963": {
    "slug": "tau double duty",
    "motifs": [

@@ -975,3 +975,14 @@ clause, not the whole normalisation.
 > no measurement, holonomy, or finite image on this object can produce chiral matter at
 > rank 4.** Still outside the class and untouched: a Higgs-type VEV (standard — B955), an
 > orbifold projection, or any quotient that is not a commutant.
+
+> **L138 — THE ARITHMETIC OPENING IN THE VEV PICTURE (registered 2026-08-08, from B962).**
+> Over ℝ or ℂ there is **no canonical VEV**: 𝕆P² = F₄/Spin(9) is homogeneous, and F₄ is
+> transitive even on **triples** of orthogonal primitive idempotents, so the two-VEV
+> configuration is homogeneous too — a canonical point exists only if the space is a point.
+> **But over ℤ or a number field, homogeneity FAILS**, and **Kato–Yukie classify rational
+> orbits of PAIRS OF 27s by CUBIC ÉTALE ALGEBRAS.** This programme is arithmetic and owns
+> cubics — **μ** (charge), **κ** (compact), **K = ℚ[ρ]/μ**. **Does the object's own cubic
+> pick out a rational two-27 orbit?** That is the single live opening in the VEV picture and
+> it is **unworked**. Caution from B962: even if it fires, the route **provably stops one
+> step short** — 27 VEVs cannot break SU(5) → SM (no **24** in the branching).

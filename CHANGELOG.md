@@ -1,5 +1,11 @@
 # Changelog
 
+## B962 — the VEV picture scouted: three things move
+- **The missing VEV is universal, not our defect** — no framework derives a VEV direction; group theory gives the menu, free parameters pick off it.
+- **The route provably stops one step short**: 27 VEVs reach SU(5) but **can never break SU(5) → SM** (27 → 10+5+5̄+5̄+1+1, **no 24**). **B955 amended.**
+- **The F₄ wall IS the generic VEV** — rank-3 (full-measure) orbit has stabilizer F₄; chirality lives only on the measure-zero rank-1 orbit ⟹ **two VEVs forced.** A real unification.
+- **No canonical VEV** (𝕆P² homogeneous, even on triples) — **except arithmetically**: Kato–Yukie classify rational two-27 orbits by **cubic étale algebras**, pointing at our own μ, κ, K. **L138, unworked.** Certified null on the arithmetic-27/VEV link (39 citers read). 7 locks.
+
 ## B963 — τ does double duty; the uncertainty analogy rejected; a scope correction caught in time
 - **One cause behind four failures:** τ ≠ id ⟺ the 27 is complex, *and* τ is the only rank-reducing involution (all 63 inner gradings fix the full Cartan). **Spending it on rank lands in Fix(τ), where 27 ≅ 27̄.**
 - **Not an uncertainty principle** — no conjugate pair, no quantitative bound, discrete reality type, no state space. Analogy **rejected**, mechanism kept.
