@@ -158,7 +158,11 @@ def self_test():
     out["killing_symmetric"] = bool(K == K.T)
     out["killing_rank"] = int(K.rank())
     out["killing_nondegenerate"] = out["killing_rank"] == DIM
-    # 2. B958's banked number: dim Z(su(3)_colour) = 16
+    # 2. B958's banked number: dim Z(su(3)_colour) = 16.
+    #    NB (B974, Phase A): this su(3) is the STANDARD A2 LEVI, not derived(floor).
+    #    Both give dim Z = 16, so B958's dimension-only condition survives -- but any
+    #    FINER test must use the floor's, and conjugacy of the two is CONSISTENT WITH,
+    #    not PROVED BY, the equal dimension.
     simple = [tuple(1 if j == i else 0 for j in range(N)) for i in range(N)]
     pairs = [(i, j) for i in range(N) for j in range(i + 1, N) if C[i][j] == -1]
     i0, j0 = pairs[0]

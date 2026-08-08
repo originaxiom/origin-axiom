@@ -25,6 +25,12 @@ nothing here promotes to `CLAIMS.md`.
 > **The object supplies the adjoint half of a grand-unified symmetry breaking and not the
 > 27 half — and the 27 half is an input in every theory anyone has, not a defect peculiar
 > to this object.**
+>
+> **SCOPE (B978):** "the adjoint half" is a statement about **the path**, not the landing site —
+> the A₂+A₁ Levi does **not** label matter versus exotic (18 of 27 states change side across the
+> three so(10)s above it). **MECHANISM (B978/V5):** the 78 does not occur in 27 ⊗ 27, so **no
+> adjoint VEV can give any 27 fermion a mass** — the adjoint half does gauge structure and
+> provably cannot do matter mass.
 
 Everything below is the elaboration, the evidence, and the honest boundary of that sentence.
 

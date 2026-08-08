@@ -1,5 +1,11 @@
 # Changelog
 
+## B978 — Phase A banked: four leads closed, one new mechanism, one failure repeated
+- **L134 CLOSED** (not an independent gap — three leads collapse to *one operation used three times*) · **L132 CLOSED VACUOUS** (independently corroborating B976's prior-art miss) · **L137 CLOSED REFUTED** · **L135 DISCHARGED** for the rebuild, unblocking L142.
+- **V5, verified here by lattice membership: the 78 does not occur in 27 ⊗ 27 ⟹ no adjoint VEV can give any 27 fermion a mass.** The verdict's headline now has a *mechanism*: the adjoint half does gauge structure and provably cannot do matter mass.
+- **Scoping correction applied:** "the adjoint half" is about **the path, not the landing site** — 18 of 27 states change side across the three so(10)s.
+- **The same failure, a third time today:** B958/B961 said the frame couldn't be rebuilt; CMT_DRAFT had the definitions and **B911 had built it**. Three instances in one day of *declaring absent what exists*. The new gate makes it visible; it does not fix the habit. 6 locks.
+
 ## B977 / L143 — the third gate: for rows that were **never written**
 - **Rule:** every substantial banked arc (claim ≥ 500 chars) cited on no synthesis surface must carry a disposition — PENDING / PROCESS / SURFACE. Gate + practices row, both directions.
 - **The gap the other two couldn't see:** `lawmap-scope` and `retraction-sweep` police rows that *exist*. **Neither notices a row that was never written** — which is how B864's hypercharge derivation sat invisible while a ledger called hypercharge "OPEN".

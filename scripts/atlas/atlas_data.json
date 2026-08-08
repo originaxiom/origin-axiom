@@ -20509,6 +20509,41 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B978": {
+   "slug": "phaseA bank",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B862",
+    "B864",
+    "B909",
+    "B911",
+    "B947",
+    "B950",
+    "B958",
+    "B960",
+    "B961",
+    "B969",
+    "B974",
+    "B976",
+    "B977",
+    "L132",
+    "L133",
+    "L134",
+    "L135",
+    "L137",
+    "L138",
+    "L142",
+    "V5",
+    "V6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B97": {
    "slug": "sl2r lorentzian",
    "motifs": [
