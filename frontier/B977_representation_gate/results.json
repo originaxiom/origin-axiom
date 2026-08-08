@@ -1,0 +1,17 @@
+{
+ "substantial_arcs": 99,
+ "uncited_on_any_surface": 17,
+ "untriaged_after_seeding": 0,
+ "pending_debt": 13,
+ "process": 3,
+ "surface": 1,
+ "criterion": "claim_one_line length >= 500, NOT file size",
+ "calibration": {
+  "file_size_6000_would_catch": "1 of 11 of the lost cascade block",
+  "claim_length_500_catches": "11 of 11",
+  "why": "B864's FINDINGS is only 3.7 KB -- short and dense; a seat writes a long claim line when there is a lot to say"
+ },
+ "non_vacuity_demonstrated": true,
+ "the_gap_it_closes": "lawmap-scope and retraction-sweep police the CONTENT of rows that exist; NEITHER notices a row that was never written",
+ "limit": "the gate enforces that an unrepresented arc is KNOWN, not that it is ROWED; 13 arcs sit at PENDING, a recorded debt and not a discharged one"
+}

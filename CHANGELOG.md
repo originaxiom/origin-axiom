@@ -1,5 +1,11 @@
 # Changelog
 
+## B977 / L143 — the third gate: for rows that were **never written**
+- **Rule:** every substantial banked arc (claim ≥ 500 chars) cited on no synthesis surface must carry a disposition — PENDING / PROCESS / SURFACE. Gate + practices row, both directions.
+- **The gap the other two couldn't see:** `lawmap-scope` and `retraction-sweep` police rows that *exist*. **Neither notices a row that was never written** — which is how B864's hypercharge derivation sat invisible while a ledger called hypercharge "OPEN".
+- **Calibration:** file size catches **1 of 11** of the lost block; **claim length catches 11 of 11**. B864's FINDINGS is 3.7 KB — *the costliest loss was one of the smallest files.*
+- **13 arcs itemised at PENDING** — a recorded debt, not a discharged one. Non-vacuity demonstrated. 5 locks.
+
 ## B976 — the cascade recovery: **the owner was right**
 - **Measured, not felt:** of 60 arcs in B800–B880, **39 are cited on no synthesis surface** — and **only 1 of the 12 cascade-closure arcs (B860–B873)** appears anywhere.
 - **Two of today's claims were contradicted by banked work.** The global **ℤ₆** form ("not addressed" — **B862 derives it**), and worse: **hypercharge**, which I called *"OPEN — the sharpest available target"* while **B864 derived it on 2026-08-03** (b = c = 0 forced; ψ, χ ungaugeable). On that wrong row I registered L132, commissioned a panel, and put it in a running workflow phase.

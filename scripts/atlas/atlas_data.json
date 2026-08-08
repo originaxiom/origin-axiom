@@ -20480,6 +20480,35 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B977": {
+   "slug": "representation gate",
+   "motifs": [],
+   "refs": [
+    "B855",
+    "B856",
+    "B859",
+    "B861",
+    "B862",
+    "B864",
+    "B867",
+    "B869",
+    "B870",
+    "B872",
+    "B874",
+    "B875",
+    "B881",
+    "B935",
+    "B938",
+    "B966",
+    "B967",
+    "B976",
+    "L143"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B97": {
    "slug": "sl2r lorentzian",
    "motifs": [

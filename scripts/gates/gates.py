@@ -832,6 +832,26 @@ def gate_retraction_sweep():
     return not v, [f"{r}:{n} {p!r}" for r, n, p in v[:5]] or "ok"
 
 
+
+# L143 (B976 -> B977): the third gate. `lawmap-scope` and `retraction-sweep` police the
+# CONTENT of rows that exist; neither notices a row that was NEVER WRITTEN. B976 found
+# eleven banked cascade arcs cited zero times on any synthesis surface -- including B864,
+# which DERIVES hypercharge, while a ledger row written five days later called hypercharge
+# "OPEN, the sharpest available target". The repo lost nothing; the summaries forgot.
+def gate_representation_sweep():
+    """Every SUBSTANTIAL banked arc cited on no synthesis surface must carry a disposition
+    in docs/REPRESENTATION_TRIAGE.md (PENDING / PROCESS / SURFACE)."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import representation_sweep as rsw
+    except Exception as exc:
+        # FAIL-CLOSED: a missing sweeper is the state in which arcs go quietly unrepresented,
+        # which is the failure this gate exists to prevent.
+        return False, f"representation_sweep unimportable: {exc}"
+    missing = rsw.sweep()
+    return not missing, [f"{i} ({v}, claim {n})" for i, v, n in missing[:5]] or "ok"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -852,6 +872,7 @@ GATES = {
     "seal-provenance": gate_seal_provenance,
     "lawmap-scope": gate_lawmap_scope,
     "retraction-sweep": gate_retraction_sweep,
+    "representation-sweep": gate_representation_sweep,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

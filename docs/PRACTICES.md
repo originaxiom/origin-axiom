@@ -396,6 +396,32 @@ sizes in the cusp packing).
 **Not gateable.** "Did you render it" cannot be checked automatically. This is a human
 obligation and is recorded as one.
 
+
+## Every substantial arc is represented somewhere — GATED (`representation-sweep`)
+
+**Rule (adopted 2026-08-08, L143 from B976).** Every **substantial** banked arc — non-instrument,
+PROVED or NEGATIVE, `claim_one_line` ≥ 500 characters — that is cited on **no** synthesis surface
+must carry a disposition in `docs/REPRESENTATION_TRIAGE.md`: **PENDING** (a debt), **PROCESS**
+(correctly absent from an object atlas), or **SURFACE** (the arc *is* a surface).
+
+**Why.** B976 measured it: of 60 arcs banked in B800–B880, **39 were cited on no synthesis
+surface**, and **only 1 of the 12 cascade-closure arcs** appeared anywhere. Among the missing was
+**B864, which derives hypercharge** — while a ledger row written five days later called
+hypercharge *"OPEN — the sharpest available target"*, sending a lead, a literature panel and a
+running workflow phase after a solved problem.
+
+**The repo lost nothing. The summaries forgot.** This is the third of the day's three gates, and
+the one the other two could not have caught: `lawmap-scope` and `retraction-sweep` police the
+**content** of rows that exist; **neither notices a row that was never written.**
+
+**Calibration note.** Substantiality is measured by **claim length, not file size**. On the block
+that was actually lost, a 6 KB file-size floor catches **1 of 11**; a 500-character claim-length
+floor catches **11 of 11**. B864's FINDINGS is 3.7 KB — short and dense. A seat writes a long
+claim line when there is a lot to say.
+
+**Limit.** The gate enforces that an unrepresented arc is *known*, not that it is *rowed*.
+Thirteen arcs currently sit at PENDING — that is a recorded debt, not a discharged one.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:
