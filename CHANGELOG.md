@@ -1,5 +1,11 @@
 # Changelog
 
+## B968 — THE SM VERDICT crystallised
+- `docs/THE_SM_VERDICT.md` supersedes every scattered statement about "the SM problem". **One sentence: the object supplies the adjoint half of a GUT breaking and not the 27 half — and the 27 half is an input in every theory anyone has.**
+- Rank reduction is closed as a **theorem** across all five routes (inner, outer, abelian holonomy, finite images, adjoint-form escape), scope stated. The crossings **failed on values, not rank** — explicitly not retrofitted.
+- The missing piece named exactly (two rank-1 **27** VEVs + an adjoint), with **no canonical choice** over ℝ or ℂ — and **one live opening**: L138, the arithmetic, where homogeneity fails.
+- Remaining surface enumerated and ranked (L138, L134, L132, L135, L137, + the never-addressed list). Gate 5 untouched. 7 locks.
+
 ## B967 / L139 — the retraction sweep: its first run found the retraction had never reached its source
 - **Rule:** a retraction is not complete until the phrase is registered **and the sweep is clean.** Registry + sweeper over **all 2,210 tracked `.md`** + gate `retraction-sweep` + practices row.
 - **First run, 11 hits — and the real one:** **B962's own FINDINGS still asserted both claims B964 retracted**, in its title and body, with **no banner**. Fixed at the source: retitled, bannered, and **marked inline** so quoting §2 can't miss it.
