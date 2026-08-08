@@ -1,5 +1,10 @@
 # Changelog
 
+## B953 — E₆ vs E₄, and the two seeds: confirmed, and worse than hoped
+- **E₄ = SU(5), rank 4 = the SM's rank.** Rank drops sit in E₆→SO(10)→SU(5) (shedding U(1)_ψ, U(1)_χ); **SU(5)→SM is rank-preserving**. So **skipping SU(5) is skipping the rank reduction**.
+- **The ± seeds are real and banked** (B576: *"the geometric point sits on the F₄-stable (achiral) stratum"*) — we are on the seed where chiral matter is absent by construction.
+- **New: the rank reading.** 78 = 52 (F₄, rank **4**) + 26. F₄ has the SM's rank *and* only real reps. So **θ-even = right rank / no chirality; θ-odd = right matter / rank 6**. **Switching seeds is not a fix — each branch lacks exactly what the other has.** What's needed: a rank-reducing mechanism that is **not** θ and preserves the 27's complexity. L133 sharpened. 6 locks.
+
 ## B952 — the GUT requirements ledger, and the RANK OBSTRUCTION
 - `docs/GUT_REQUIREMENTS_LEDGER.md`: the eleven rows a GUT must satisfy (coupling unification, **Super-K's proton-decay bound excluding minimal SU(5)**, doublet–triplet, mass relations, monopoles, B−L, an explicit breaking sector) + E₆ specifics, including the **twelve exotics per generation the record has never addressed** (L134).
 - **THE RANK OBSTRUCTION (theorem-grade):** rank(E₆) = 6 = rank(su(3)⊕su(2)⊕u(1)³), but rank(SM) = 4. Centralizers of semisimple elements contain a maximal torus ⟹ **every measurement is rank-preserving**, so **the cascade can never reach the SM**. The extra U(1)s are the unbroken rank, unbroken by construction. B950's "two steps" sharpened to a wall.

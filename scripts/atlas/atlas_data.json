@@ -20028,6 +20028,27 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B953": {
+   "slug": "two seeds rank",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B576",
+    "B582",
+    "B713",
+    "B714",
+    "B892",
+    "B952",
+    "L132",
+    "L133"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 34,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B95": {
    "slug": "degree rank mechanism",
    "motifs": [

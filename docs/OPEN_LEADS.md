@@ -877,7 +877,11 @@ clause, not the whole normalisation.
 > question currently available.** Prerequisite from B950: the chain is **two steps** from
 > the SM (which u(1) is Y; what breaks the other two), not zero.
 
-> **L133 — THE RANK-REDUCTION QUESTION (registered 2026-08-08, from B952).** The measurement
+> **L133 — THE RANK-REDUCTION QUESTION (registered 2026-08-08, from B952; SHARPENED by B953).**
+> **B953's sharpening:** the question is not merely whether the object supplies *any*
+> rank-reducing structure, but whether it supplies one that is **NOT the θ-projection and
+> that preserves the 27's complexity** — because θ *does* reduce rank 6→4, and kills
+> chirality doing it (landing in F₄). Wilson line / Hosotani flux is the first candidate. The measurement
 > cascade is **rank-preserving by construction** (centralizers of semisimple elements contain
 > a maximal torus), so it lands on rank 6 while the SM has rank 4. **Does the object supply
 > ANY rank-reducing structure** — a natural VEV direction, a Wilson line from its own π₁, an

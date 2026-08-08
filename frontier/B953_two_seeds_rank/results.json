@@ -1,0 +1,62 @@
+{
+ "E_n_series": {
+  "E8": 8,
+  "E7": 7,
+  "E6": 6,
+  "E5=SO(10)": 5,
+  "E4=SU(5)": 4,
+  "E3=SU(3)xSU(2)": 3
+ },
+ "rank_SM": 4,
+ "E4_is_the_rank_of_the_SM": true,
+ "descent_rank_drops": {
+  "E6->SO(10)": {
+   "drop": 1,
+   "sheds": "U(1)_psi"
+  },
+  "SO(10)->SU(5)": {
+   "drop": 1,
+   "sheds": "U(1)_chi"
+  },
+  "SU(5)->SM": {
+   "drop": 0,
+   "note": "RANK-PRESERVING (adjoint VEV) -- a centralizer CAN do this step"
+  }
+ },
+ "cascade_skips_SU5": true,
+ "skipping_SU5_is_skipping_the_rank_reduction": true,
+ "theta_split": {
+  "dim_E6": 78,
+  "theta_even_F4": {
+   "dim": 52,
+   "rank": 4
+  },
+  "theta_odd_26": {
+   "dim": 26
+  },
+  "sum_checks": true
+ },
+ "rank_F4": 4,
+ "rank_F4_equals_rank_SM": true,
+ "F4_contains_SM": "F4 > SU(3)xSU(3) (rank 4) > SU(3)x(SU(2)xU(1)) = SM",
+ "F4_all_reps_real": true,
+ "geometric_point_is_on_the_F4_achiral_stratum": true,
+ "the_tradeoff": {
+  "theta_even": {
+   "algebra": "F4",
+   "rank": 4,
+   "rank_ok": true,
+   "chiral": false,
+   "verdict": "right rank, matter absent by construction"
+  },
+  "theta_odd": {
+   "algebra": "E6",
+   "rank": 6,
+   "rank_ok": false,
+   "chiral": true,
+   "verdict": "right matter, rank obstruction (B952)"
+  }
+ },
+ "switching_seed_is_not_a_fix": true,
+ "what_is_actually_needed": "a rank-reducing mechanism that is NOT the theta-projection"
+}
