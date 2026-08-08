@@ -864,8 +864,20 @@ clause, not the whole normalisation.
 > a correctly-recorded dead direction (UNIQUENESS_THEOREM: *"that direction is mapped
 > dead"*). Re-reporting it as an opportunity would double-count a closed door.
 
-> **L132 — DOES HYPERCHARGE FALL OUT OF THE OBJECT'S OWN CHARGES? (registered 2026-08-08,
-> from B950.)** The SM specification ledger isolates the one row where accepted physics
+> **L132 — DOES HYPERCHARGE FALL OUT? (registered from B950; SCOUTED AND AMENDED BY B951 —
+> DO NOT RUN AS ORIGINALLY POSED.)** The panel found: (a) the anomaly check is **probably
+> VACUOUS** — E₆ has no third-order Casimir, and on complete **27**s every condition vanishes
+> identically, so *the check cannot fail*; **MB12 non-vacuity (does the spectrum form complete
+> 27s?) is now the prerequisite, not the result**; (b) `su(3)⊕su(2)⊕u(1)³` is the **A₂+A₁ Levi
+> of e₆**, classified by Borel–de Siebenthal 1949 — **arriving at it is not a discovery**;
+> (c) the centralizer of colour+isospin is 1-dim in su(5) (that *is* the textbook Y) but
+> **9-dim in e₆**, so it does not single out Y — the extra input is always the SU(5)/SO(10)
+> choice, and **that choice IS the identification**; (d) nearest prior art **Todorov JHEP 04
+> (2021) 164** does structurally this move in so(10). Only two honest claims remain: a
+> **stated-in-advance** selection principle (fixed before looking at which combination works),
+> or a genuine constraint **if the spectrum is not complete 27s**.
+>
+> *(original registration:)* The SM specification ledger isolates the one row where accepted physics
 > **derives** rather than measures: **the hypercharges are fixed (up to normalisation) by
 > anomaly cancellation**, a Diophantine system — the SM's *only* computed value-level
 > structure. The object supplies a **rank-3 abelian sector** (B892: centre 3). Question:

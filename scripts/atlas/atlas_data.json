@@ -20007,6 +20007,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B951": {
+   "slug": "l132 scout",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B892",
+    "B904",
+    "B950",
+    "L132",
+    "P70"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B952": {
    "slug": "gut ledger rank",
    "motifs": [
@@ -20047,6 +20067,23 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 34,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B954": {
+   "slug": "both branches",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B576",
+    "B952",
+    "B953",
+    "L133"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 21,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B95": {

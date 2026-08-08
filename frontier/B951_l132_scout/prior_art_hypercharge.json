@@ -1,0 +1,315 @@
+{
+  "scout_id": "B951",
+  "cell_scouted": "L132",
+  "prepared_by": "the scouting panel (adversarial prior-art seat)",
+  "artifact_type": "prior-art scouting report, NOT a novelty audit of a result",
+
+  "q1_anomaly_fixes_Y": {
+    "short_answer": "Anomaly cancellation fixes the RATIOS of the SM hypercharges up to normalisation, for ONE generation, GIVEN exactly the SM representation content -- and even then the minimal-content result admits a second non-standard solution that must be excluded by extra input. At three generations with massless neutrinos the forcing fails outright.",
+    "normalisation_never_fixed": true,
+    "normalisation_note": "The anomaly conditions are homogeneous (degree 1 and degree 3), so Y -> lambda*Y is a solution whenever Y is. Normalisation comes from the embedding: GUT normalisation sqrt(5/3), sin^2(theta_W)=3/8 (Georgi-Quinn-Weinberg 1974).",
+    "primary_results": [
+      {
+        "cite": "Geng & Marshak, Phys.Rev.D 39 (1989) 693",
+        "inspire_recid": 24389,
+        "citations": 170,
+        "establishes": "Minimal Weyl representations AND their charges uniquely determined by three conditions: triangle anomaly cancellation, absence of the global SU(2) (Witten) anomaly, and the mixed gauge-gravitational anomaly.",
+        "assumptions": ["minimal Weyl representation content", "analysis prior to electroweak SSB", "one generation / family-universal Y", "mixed gauge-gravitational condition is load-bearing"]
+      },
+      {
+        "cite": "Minahan, Ramond & Warner, Phys.Rev.D 41 (1990) 715",
+        "inspire_recid": 279403,
+        "citations": 96,
+        "establishes": "THE KEY CAVEAT. Without reference to Higgs particles, anomaly cancellation including the mixed gravitational anomaly yields TWO possible hypercharge assignments, one standard. Uniqueness recovered only by adding a right-handed neutrino AND enlarging the gauge group to SU(2)_L x SU(2)_R x U(1).",
+        "assumptions": ["no Higgs reference"]
+      },
+      {
+        "cite": "Geng & Marshak, Phys.Rev.D 41 (1990) 717 (Reply)",
+        "inspire_recid": 300063,
+        "establishes": "Explains why the second ('bizarre') MRW hypercharge solution was rejected; re-emphasises the mixed gauge-gravitational condition."
+      },
+      {
+        "cite": "Babu & Mohapatra, Phys.Rev.Lett. 63 (1989) 938",
+        "inspire_recid": 278994,
+        "citations": 135,
+        "establishes": "In models with an explicit U(1) factor contributing to U(1)_em and a right-handed neutrino, charge quantisation follows from anomaly cancellation ONLY IF the neutrino is Majorana.",
+        "assumptions": ["explicit U(1) factor present", "non-vanishing fermion masses", "Majorana neutrino"]
+      },
+      {
+        "cite": "Babu & Mohapatra, Phys.Rev.D 41 (1990) 271",
+        "inspire_recid": 280087,
+        "citations": 124,
+        "establishes": "Anomaly + gravitational cancellation 'reduces the arbitrariness considerably' but 'is still not restrictive enough to fix all the quark and lepton charges' when an explicit U(1) factor is present."
+      },
+      {
+        "cite": "Foot, Lew & Volkas, J.Phys.G 19 (1993) 361",
+        "inspire_recid": 337955,
+        "citations": 127,
+        "establishes": "THE DEFINITIVE ASSUMPTION CATALOGUE. Verbatim: charge may be DE-QUANTIZED in the three-generation standard model with massless neutrinos, because differences in family-lepton-numbers are anomaly-free. Restoring quantisation requires family-lepton-number differences to be explicitly broken (e.g. Majorana right-handed neutrinos).",
+        "assumptions": ["single generation is essential to the forcing"]
+      },
+      {
+        "cite": "Foot, Joshi, Lew & Volkas, Mod.Phys.Lett.A 5 (1990) 2721",
+        "inspire_recid": 28541,
+        "citations": 109,
+        "establishes": "Review contrasting classical constraints, gauge and mixed gauge-gravitational anomaly cancellation, and the demand of vector-like electromagnetic interactions."
+      },
+      {
+        "cite": "Sladkowski & Zralek, Phys.Rev.D 45 (1992) 1701",
+        "inspire_recid": 315630,
+        "establishes": "With three generations, SM extensions with more than one Higgs doublet and/or at least one right-handed neutrino with a Majorana mass term uniquely fix the fermion electric charge; mixed gauge-gravitational cancellation is then automatic.",
+        "assumptions": ["Higgs doublet content matters"]
+      },
+      {
+        "cite": "Rudaz, Phys.Rev.D 41 (1990) 2619",
+        "inspire_recid": 303703,
+        "establishes": "Charge quantisation and absence of massless charged fermions follow from the renormalisability logic of the minimal chiral content; hypercharge-gravitational anomaly cancels automatically."
+      },
+      {
+        "cite": "Golowich & Pal, Phys.Rev.D 41 (1990) 3537",
+        "inspire_recid": 306130,
+        "establishes": "Weak hypercharge assignments derived using NEITHER electric charge assignments NOR Higgs-sector constraints as input."
+      },
+      {
+        "cite": "Hucks, Phys.Rev.D 43 (1991) 2709",
+        "inspire_recid": 29002,
+        "establishes": "Global structure of the standard model, anomalies, and charge quantisation (the Z_6 quotient thread)."
+      },
+      {
+        "cite": "Nowakowski & Pilaftsis, Phys.Rev.D 48 (1993) 259",
+        "inspire_recid": 33573,
+        "establishes": "Note on charge quantisation through anomaly cancellation."
+      },
+      {
+        "cite": "Lohitsiri & Tong, SciPost Phys. 8 (2020) 009, arXiv:1907.00514",
+        "inspire_recid": 1742120,
+        "establishes": "MODERN SHARPENING. Gauge anomaly constraints recast as x^3 + y^3 = z^3; if hypercharge is quantised x,y,z are integers and the only (trivial) solutions reproduce Nature's assignments. Explicitly does NOT rely on the mixed gauge-gravitational anomaly, which is automatic once Y is quantised and gauge anomalies vanish.",
+        "assumptions": ["hypercharge quantisation is an INPUT, not an output"]
+      },
+      {
+        "cite": "Costa, Dobrescu & Fox, Phys.Rev.Lett. 123 (2019) 151601",
+        "inspire_recid": 1737609,
+        "citations": 77,
+        "establishes": "General solution to the U(1) Diophantine anomaly equations, parametrised by n-2 integers for n Weyl fermions, PROVED most general. Correct frame for why the SM case is rigid: rigidity comes from the restricted representation content, not from the anomaly equations."
+      },
+      {
+        "cite": "Batra, Dobrescu & Spivak, J.Math.Phys. 47 (2006) 082301",
+        "inspire_recid": 695152,
+        "establishes": "Anomaly-free sets of fermions."
+      }
+    ],
+    "textbook_layer": [
+      "Weinberg, Quantum Theory of Fields vol. 2, section 22.4",
+      "Peskin & Schroeder, chapter 20",
+      "Langacker, Phys.Rept. 72 (1981) 185 (GUT review)",
+      "Slansky, Phys.Rept. 79 (1981) 1 (inspire recid 10204, 1466 citations) -- the branching-rule reference"
+    ]
+  },
+
+  "assumptions_required": [
+    "Fixed representation content: exactly the SM multiplets per generation, no extra chiral fermions (relaxing this is the entire content of Costa-Dobrescu-Fox).",
+    "One generation, or family-universal hypercharge. At three generations with massless neutrinos the forcing FAILS: family-lepton-number differences (L_e - L_mu etc.) are anomaly-free (Foot-Lew-Volkas).",
+    "Hypercharge quantisation (integrality/rationality) for the Fermat-style argument; without it continuous families of solutions survive.",
+    "Treatment of the right-handed neutrino: present-and-massless reopens the freedom; a MAJORANA mass is what closes it (Babu-Mohapatra).",
+    "Higgs sector input: either used (Yukawa invariance / number of doublets) or explicitly excluded -- and this CHANGES the answer (MRW two solutions vs Geng-Marshak uniqueness).",
+    "Which anomaly conditions are admitted: the mixed gauge-gravitational condition is essential to Geng-Marshak but shown redundant by Lohitsiri-Tong under quantisation.",
+    "Normalisation of Y is NEVER fixed by anomaly cancellation -- the conditions are homogeneous, so only ratios are determined."
+  ],
+
+  "q2_e6_u1_identification": {
+    "standard_chain": "E6 > SO(10) x U(1)_psi ; SO(10) > SU(5) x U(1)_chi ; SU(5) > SU(3)_C x SU(2)_L x U(1)_Y",
+    "abelian_sector_basis": ["Y", "Q_chi", "Q_psi"],
+    "rank_check": "2 (su3) + 1 (su2) + 3 (u1^3) = 6 = rank E6",
+    "target_algebra_is_the_L132_algebra": true,
+    "twentyseven_decomposition": {
+      "under_SO10": "27 -> 16 + 10 + 1",
+      "under_SU5": "16 -> 10 + 5* + 1 ; 10 -> 5 + 5* ; 1 -> 1",
+      "charge_table_source": "Langacker, Rev.Mod.Phys. 81 (2009) 1199, Table 2 (integer normalisations 2*sqrt(10)*Q_chi, 2*sqrt(6)*Q_psi)",
+      "rows": [
+        {"so10": "16", "su5": "10",  "states": "u, d, u^c, e^+", "chi": -1, "psi": 1},
+        {"so10": "16", "su5": "5*",  "states": "d^c, nu, e^-",   "chi": 3,  "psi": 1},
+        {"so10": "16", "su5": "1",   "states": "nu^c",           "chi": -5, "psi": 1},
+        {"so10": "10", "su5": "5",   "states": "D, H_u",         "chi": 2,  "psi": -2},
+        {"so10": "10", "su5": "5*",  "states": "D^c, H_d",       "chi": -2, "psi": -2},
+        {"so10": "1",  "su5": "1",   "states": "S",              "chi": 0,  "psi": 4}
+      ]
+    },
+    "canonical_parametrisation": {
+      "formula": "Q(theta_E6) = cos(theta_E6)*Q_chi + sin(theta_E6)*Q_psi",
+      "introduced_by": "London & Rosner, Phys.Rev.D 34 (1986) 1530 (inspire recid 228974, 487 citations)",
+      "named_models": {
+        "chi": "theta_E6 = 0",
+        "psi": "theta_E6 = pi/2; chiral exotics, requires three full 27-plets",
+        "eta": "Q_eta = sqrt(3/8)*Q_chi - sqrt(5/8)*Q_psi ; theta_E6 = pi - arctan(sqrt(5/3)) ~ 0.71*pi ; arises in Calabi-Yau compactifications when E6 breaks directly to a rank-5 group via the Wilson line / Hosotani mechanism (Witten 1985)",
+        "inert_I": "theta_E6 = arctan(sqrt(3/5)) ~ 0.21*pi ; orthogonal to Q_eta ; alternative E6 breaking pattern (Robinett & Rosner 1982)",
+        "neutral_N": "theta_E6 = arctan(sqrt(15)) ~ 0.42*pi ; nu^c has zero charge, permitting a large Majorana mass",
+        "secluded_S": "theta_E6 = arctan(sqrt(15)/9) ~ 0.13*pi (Erler et al. 2002)"
+      }
+    },
+    "how_Y_is_conventionally_identified": "NOT by any property intrinsic to the abelian sector. Y is fixed by CHOOSING the SU(5) subset of SO(10) subset of E6 chain. Inside SU(5), Y is then the unique (up to scale) generator commuting with SU(3)xSU(2) -- Georgi-Glashow 1974, a genuine centralizer definition because the centralizer of su(3)+su(2) in su(5) is 1-dimensional.",
+    "centralizer_argument_does_NOT_transplant_to_E6": {
+      "verified_in_sandbox": true,
+      "centralizer_of_su3_su2_in_e6_dimension": 9,
+      "centralizer_of_su3_su2_in_e6_algebra": "su(3) + u(1)",
+      "consequence": "Inside E6 the condition 'commutes with colour and isospin' leaves a 3-parameter family. Selecting Y REQUIRES an extra principle. In the literature that principle is always: pick the SU(5)/SO(10) subgroup, or equivalently demand the 27 reproduce observed SM quantum numbers."
+    },
+    "levi_subalgebra_fact": {
+      "statement": "su(3) + su(2) + u(1)^3 is exactly a Levi (maximal-rank regular) subalgebra of e6 = the centralizer of a 3-dimensional torus.",
+      "verified_in_sandbox": true,
+      "dimension_decomposition": "8 subsystem roots + 6 Cartan = 14",
+      "all_A2_A1_node_subsets_give_dim_14": true,
+      "classified_by": "Borel-de Siebenthal (1949); Dynkin (1952)"
+    },
+    "kinetic_mixing_ambiguity": {
+      "formula": "Q_2 = cos(theta_E6)*Q_chi + sin(theta_E6)*Q_psi - epsilon*Y",
+      "source": "Langacker, Rev.Mod.Phys. 81 (2009) 1199 (verbatim)",
+      "consequence": "The split between 'hypercharge' and 'the extra U(1)' is NOT basis-canonical. Kinetic mixing (Holdom 1986) mixes them and epsilon is renormalisation-scale dependent. Any claim to have uniquely identified hypercharge must state and defend a basis convention."
+    },
+    "coupling_normalisation": "g_2 = sqrt(5/3)*g' at the unification scale, where sqrt(5/3)*g' is the GUT-normalised hypercharge coupling (Langacker 2009, Eq. 49).",
+    "safe_vs_anomalous_u1s": {
+      "verdict": "ALL U(1) combinations in the rank-3 abelian sector are anomaly-free on complete 27s, and this is FORCED, not fortunate.",
+      "reason": "E6 has no symmetrised third-order Casimir invariant, hence no triangle anomaly.",
+      "primary_sources": [
+        {"cite": "Georgi & Glashow, Phys.Rev.D 6 (1972) 429", "inspire_recid": 75931, "citations": 516, "establishes": "The class of anomaly-free gauge theories."},
+        {"cite": "Okubo, Phys.Rev.D 16 (1977) 3528", "inspire_recid": 120964, "citations": 172, "establishes": "Anomaly presence/absence equivalent to that of symmetrised third-order Casimir invariants; SU(n>=3) is the ONLY simple Lie group with a possible triangle anomaly; states verbatim that the best candidates for anomaly-free simple gauge groups are E6, SO(4n+2) (n>=2), and vectorlike SU(n)."},
+        {"cite": "Banks & Georgi, Phys.Rev.D 14 (1976) 1159", "inspire_recid": 115974},
+        {"cite": "Kephart, Phys.Lett.B 151 (1985) 267", "inspire_recid": 216189}
+      ],
+      "when_anomalies_become_nontrivial": "Only when the spectrum is NOT complete 27s -- incomplete multiplets, projected-out exotics, string constructions. Anomalous U(1)' in string constructions handled by Green-Schwarz (Langacker section III.6.3)."
+    },
+    "exotics_in_10_plus_1": {
+      "content": "Colour-triplet Q=-1/3 isosinglet quark pair D, D^c (Robinett's 'h' quark); extra lepton-doublet / Higgs-doublet pair H_u, H_d (the exotic leptons E, nu_E in non-SUSY language); the SO(10) singlet S.",
+      "must_be_heavy_constraint_verbatim": "In a full E6 grand unified theory the exotic D, D^c partners of the Higgs doublets would have diquark Yukawa couplings such as W_DQ ~ DQQ or D^c u^c d^c, as well as leptoquark couplings W_LQ ~ D u^c e^c or D^c QL, which are related by E6 to the ordinary Higgs Yukawa couplings. These would lead to rapid proton decay mediated by the D and D^c unless their masses (and therefore the U(1)' breaking scale) is comparable to the unification scale. A TeV-scale Z' therefore requires that the GUT Yukawa relations are not respected, so that either the leptoquark or the diquark couplings (or both) are absent.",
+      "constraint_source": "Langacker, Rev.Mod.Phys. 81 (2009) 1199",
+      "supporting": [
+        {"cite": "Hewett & Rizzo, Phys.Rept. 183 (1989) 193", "inspire_recid": 268529, "citations": 1524, "role": "comprehensive review of superstring-inspired E6 phenomenology"},
+        {"cite": "Robinett, Phys.Rev.D 33 (1986) 1908", "inspire_recid": 17444, "role": "mixing of exotics h, E, nu_E with d, e, nu_e; FCNC constraints"},
+        {"cite": "Rizzo, Phys.Rev.D 33 (1986) 3329", "inspire_recid": 219732, "role": "exotic contributions to lepton g-2 and mu->e gamma"},
+        {"cite": "Rizzo, Phys.Rev.D 34 (1986) 2163", "inspire_recid": 227115, "role": "mass limits on light E6 exotics"},
+        {"cite": "Rosner, Phys.Rev.D 61 (2000) 097303", "inspire_recid": 525750, "role": "(d,s,b) vs (u,c,t) mass splitting via mixing with E6 exotics"},
+        {"cite": "Robinett & Rosner, Phys.Rev.D 26 (1982) 2396", "inspire_recid": 177363, "role": "ALL E6 breakdown patterns through maximal subgroups catalogued, with mass-scale bounds"},
+        {"cite": "Gursey, Ramond & Sikivie, Phys.Lett.B 60 (1976) 177", "inspire_recid": 100124, "citations": 871, "role": "the original E6 unification model"}
+      ]
+    }
+  },
+
+  "q3_measurement_derivation_found": true,
+  "q3_detail": {
+    "verdict": "A superselection/centralizer derivation of hypercharge IS published prior art, and commutant characterisations of the whole SM gauge group are published prior art. The seat must NOT treat 'hypercharge from a measurement/commutant construction' as a novel move -- it is a live, cited research programme with a decade of output.",
+    "decisive_hit": {
+      "cite": "Todorov, 'Superselection of the weak hypercharge and the algebra of the Standard Model', JHEP 04 (2021) 164, arXiv:2010.15621",
+      "inspire_recid": 1827024,
+      "verbatim": "In the present paper we promote the exactly conserved weak hypercharge to a superselection rule: Y commutes with all observables and all symmetry transformations, and explore its consequences. As a first corollary we obtain a u(1) extension of the gauge Lie algebra of the SM: the centralizer of Y in so(10) is g = u(2) + u(3).",
+      "why_it_matters": "u(2) + u(3) = su(3) + su(2) + u(1) + u(1): the Standard Model algebra PLUS ONE EXTRA ABELIAN FACTOR, obtained as a centralizer (superselection/commutant) construction. Structurally the same move L132 proposes, one extra u(1) short, carried out in so(10) rather than e6.",
+      "explicit_Y": "(1/2)Y = (1/3)*sum_{j=1..3} b*_j b_j - (1/2)*sum_{alpha=1,2} a*_alpha a_alpha",
+      "also_connects_trace_of_Y_to_anomaly_cancellation": true
+    },
+    "surrounding_school": [
+      {"cite": "Todorov & Dubois-Violette, Int.J.Mod.Phys.A 33 (2018) 1850118, arXiv:1806.09450", "inspire_recid": 1679412, "citations": 74, "establishes": "SM symmetry DEDUCED from the automorphism and structure groups of the exceptional Jordan algebra via Borel-de Siebenthal theory. E6 is the reduced structure group of J_3(O), so this is E6-adjacent -- but the extraction runs through F4 and Spin(9), not through E6's abelian sector."},
+      {"cite": "Todorov, arXiv:1911.13124", "inspire_recid": 1767717, "establishes": "Maximal-rank subgroup of F4 respecting lepton-quark splitting is (SU(3)_c x SU(3)_ew)/Z_3; restricted to J_2^8 it is precisely S(U(3)xU(2)) = the SM group. Explicit Y = (2/3)*sum_j a*_j a_j - a*_0 a_0 - a*_8 a_8. The 32 PRIMITIVE IDEMPOTENTS give first-generation states -- idempotents are projections, an explicitly measurement-flavoured construction."},
+      {"cite": "Krasnov, J.Math.Phys. 62 (2021) 021703, arXiv:1912.11282", "inspire_recid": 1773011, "establishes": "VERBATIM: 'The group G_SM is the subgroup of Spin(9) that commutes with a certain complex structure J in the space O^2 of Spin(9) spinors.' An explicit COMMUTANT characterisation of the entire SM gauge group."},
+      {"cite": "Dubois-Violette & Todorov, Nucl.Phys.B 938 (2019) 751", "inspire_recid": 1691269, "citations": 52},
+      {"cite": "Dubois-Violette & Todorov, Nucl.Phys.B 957 (2020) 115065", "inspire_recid": 1785624},
+      {"cite": "Todorov, Universe 9 (2023) 222, arXiv:2206.06912", "inspire_recid": 2667356},
+      {"cite": "Todorov & Drenska, Adv.Appl.Clifford Algebras 28 (2018) 82", "inspire_recid": 1673689},
+      {"cite": "Boyle, arXiv:2006.16265", "inspire_recid": 1804327, "citations": 48},
+      {"cite": "Furey, arXiv:1611.09182", "inspire_recid": 1500576, "citations": 82},
+      {"cite": "Furey & Hughes, Phys.Lett.B 831 (2022) 137186", "inspire_recid": 2090701, "establishes": "A sequence of complex structures inducing Spin(10) -> Pati-Salam -> Left-Right -> SM + B-L"},
+      {"cite": "Furey, arXiv:2607.18450", "inspire_recid": 3182230, "establishes": "g_SM from annihilating highest-grade volume elements plus an equal-trace condition on anti-hermitian operators"},
+      {"cite": "Gillard & Gresnigt, Eur.Phys.J.C 79 (2019) 446", "inspire_recid": 1728675, "establishes": "Primitive idempotent constructed by selecting a special direction"},
+      {"cite": "Manogue & Dray, arXiv:0911.2253, 'Octonions, E6 and particle physics'", "inspire_recid": 836807, "citations": 56},
+      {"cite": "Manogue, Dray & Wilson, J.Math.Phys. 63 (2022) 081703", "inspire_recid": 2066206, "establishes": "su(3)+su(2)+u(1) inside e8(-24) via a complex structure"},
+      {"cite": "Baez & Huerta, Bull.Am.Math.Soc. 47 (2010) 483", "inspire_recid": 817629, "citations": 164, "establishes": "Expository; Y in SU(5) as the generator commuting with SU(3)xSU(2)"},
+      {"cite": "Georgi & Glashow 1974 (SU(5))", "establishes": "The ORIGINAL centralizer identification of Y. Textbook."}
+    ],
+    "what_was_NOT_found": {
+      "description": "A construction that does BOTH of: (a) work inside E6's rank-6 Cartan specifically -- the school above works in F4 / Spin(9) / so(10) / Cl(6) / Cl(8) / Cl(10) / e8, with E6 appearing only as the STRUCTURE GROUP of J_3(O) and never as the arena for the abelian-sector selection; AND (b) single out WHICH of the three u(1)s is hypercharge by an intrinsic or measurement-theoretic principle rather than by choosing the SU(5)/SO(10) subgroup or matching observed SM charges.",
+      "searches_performed": [
+        "full citation-graph closure on Todorov 2021 (all 9 citing works enumerated and read)",
+        "INSPIRE title search 'hypercharge' + 'centralizer' -> 0 hits",
+        "INSPIRE title search 'hypercharge' + 'commutant' -> 0 hits",
+        "INSPIRE title search 'superselection' + 'gauge group' -> 3 hits, none relevant (Doplicher-Roberts, Horujy)",
+        "OpenAlex cross-sweeps on centralizer/commutant/Levi/superselection phrasings"
+      ],
+      "null_is_certified": false,
+      "honesty_caveat": "This null is NOT certified. The octonion/Jordan-algebra literature is large, fast-moving, substantially posted outside INSPIRE's core indexing, and includes many low-citation preprints. The null rests on the recorded searches, not on a proof of absence. MathSciNet was unreachable (auth wall) and was not consulted. Treat (a)+(b) as 'not found by this sweep', not as 'does not exist'."
+    }
+  },
+
+  "q4_most_that_could_be_claimed": {
+    "vacuity_gate_READ_FIRST": {
+      "statement": "If the object's charges form complete 27s, the L132 anomaly question CANNOT FAIL and is vacuous as a test.",
+      "verified_in_sandbox": true,
+      "computation": "All anomaly conditions evaluated on a complete 27 (Langacker Table 2 charges, all as left-handed Weyl fermions, 27 states confirmed).",
+      "results": {
+        "sum_Y": 0, "sum_chi": 0, "sum_psi": 0,
+        "sum_Y3": 0, "sum_chi3": 0, "sum_psi3": 0,
+        "sum_Y2chi": 0, "sum_Ychi2": 0, "sum_Y2psi": 0, "sum_Ypsi2": 0,
+        "sum_chi2psi": 0, "sum_chipsi2": 0, "sum_Ychipsi": 0,
+        "SU3sq_U1_Y": 0, "SU3sq_U1_chi": 0, "SU3sq_U1_psi": 0,
+        "SU2sq_U1_Y": 0, "SU2sq_U1_chi": 0, "SU2sq_U1_psi": 0,
+        "witten_SU2_doublet_count": 6,
+        "witten_SU2_status": "EVEN, safe"
+      },
+      "forced_by": "Okubo's theorem that E6 has no symmetrised third-order Casimir (Okubo 1977; Georgi & Glashow 1972).",
+      "action_required": "Per the programme's MB12 rule (a criterion must be able to pass AND to fail), the seat MUST establish non-vacuity before running -- i.e. determine whether the object's spectrum decomposes into complete 27s or into incomplete multiplets. That determination is the real gate and it is cheap."
+    },
+    "textbook": [
+      "The SM anomaly-cancellation conditions themselves (Weinberg vol. 2 section 22.4; Peskin & Schroeder ch. 20).",
+      "The chain E6 > SO(10)xU(1)_psi > SU(5)xU(1)_chi xU(1)_psi > SM x U(1)^2, and 27 -> 16 + 10 + 1 -> 10 + 5* + 1 + 5 + 5* + 1 (Slansky 1981).",
+      "su(3)+su(2)+u(1)^3 is a maximal-rank Levi subalgebra of e6 = the centralizer of a 3-torus. Classified by Borel-de Siebenthal (1949) and Dynkin (1952). Arriving at this algebra from E6 is NOT a finding.",
+      "E6 is anomaly-safe (Georgi & Glashow 1972; Okubo 1977), so anomaly cancellation on complete 27s is a forced group-theoretic identity.",
+      "Y as the unique generator of su(5) commuting with su(3)+su(2) (Georgi-Glashow 1974).",
+      "GUT normalisation sqrt(5/3), sin^2(theta_W) = 3/8 (Georgi-Quinn-Weinberg 1974).",
+      "That anomaly conditions are homogeneous and so can never fix the normalisation of Y -- only ratios."
+    ],
+    "specialist": [
+      "The theta_E6 parametrisation Q = cos(theta)Q_chi + sin(theta)Q_psi and the named models chi/psi/eta/inert/neutral-N/secluded (London & Rosner 1986; Hewett & Rizzo 1989; Langacker 2009 Table 2).",
+      "The kinetic-mixing ambiguity '-epsilon*Y': the Y / extra-U(1) split is not basis-canonical (Holdom 1986; Langacker 2009).",
+      "The exotics constraint: D, D^c carry both leptoquark and diquark couplings related by E6 to ordinary Yukawas, hence proton decay, hence masses and the U(1)' breaking scale must be near M_GUT unless the GUT Yukawa relations are broken (Langacker 2009; Hewett & Rizzo 1989; Robinett 1986; Rizzo 1986).",
+      "The anomalies-fix-Y results TOGETHER WITH their failure modes: Geng-Marshak 1989; the MRW second solution; Babu-Mohapatra's Majorana requirement; Foot-Lew-Volkas' three-generation dequantisation; Lohitsiri-Tong's x^3+y^3=z^3 under quantisation; Costa-Dobrescu-Fox's general solution.",
+      "The superselection/centralizer derivation of Y and its u(1)-extended SM algebra (Todorov, JHEP 04 (2021) 164) -- structurally the closest prior art to L132's own move.",
+      "The commutant characterisation of G_SM (Krasnov 2021)."
+    ],
+    "potentially_new": [
+      "A principled, STATED-IN-ADVANCE selection of which u(1) in E6's rank-3 abelian sector is hypercharge, derived from the object's own measurement structure rather than by choosing an SU(5)/SO(10) subgroup or by matching observed SM charges. This is the ONLY place novelty can live. It is meaningful only if the selection principle is fixed BEFORE looking at which combination gives the right answer -- otherwise it is postdiction.",
+      "IF the object's spectrum does NOT decompose into complete 27s, then anomaly cancellation becomes a genuine, non-vacuous constraint and its satisfaction WOULD be informative. Establishing which case obtains is the decisive first computation.",
+      "The provenance -- how this algebra arises from the object's second measurement -- may be new as a construction, but the TARGET ALGEBRA is classified structure and the arrival must be reported as landing on a known object."
+    ],
+    "warnings": [
+      "VACUITY FIRST. Complete 27s means the anomaly check cannot fail. Verify non-vacuity before computing anything else.",
+      "'Reproduced', never 'predicted', for everything in the textbook and specialist lists.",
+      "Normalisation of Y is not determined by anomalies. Do not claim it.",
+      "Do not claim 'hypercharge falls out' if an SU(5)/SO(10) subgroup was chosen -- including implicitly, e.g. by reading charges off the standard branching tables. That choice IS the identification.",
+      "The u(1)^3 -> Y split is kinetic-mixing-ambiguous. Any 'unique' identification requires a stated and defended basis convention.",
+      "'Hypercharge from a commutant/superselection construction' is prior art (Todorov 2021). Novelty, if any, is in doing it in E6's abelian sector and in selecting among three u(1)s -- not in the genre."
+    ]
+  },
+
+  "databases_reached": {
+    "inspire_hep": {"reached": true, "endpoint": "inspirehep.net/api/literature", "role": "PRIMARY -- citation-graph closure via 'refersto recid', author/title queries"},
+    "arxiv_api": {"reached": true, "endpoint": "export.arxiv.org/api/query", "role": "verbatim abstracts for 7 key papers via id_list"},
+    "ar5iv_fulltext": {"reached": true, "endpoint": "ar5iv.labs.arxiv.org/html/<id>", "role": "full text of Langacker RMP 81 (2009), Todorov arXiv:2010.15621, Todorov arXiv:1911.13124"},
+    "openalex": {"reached": true, "endpoint": "api.openalex.org/works", "role": "cross-check sweep on Q3, citation counts"},
+    "zbmath": {"reached": true, "endpoint": "api.zbmath.org/v1/document/_search", "role": "spot-check only; not load-bearing"},
+    "semantic_scholar": {"reached": true, "usable": false, "note": "Graph API responded but returned total:None with no data array for the test query; NOT relied upon for any conclusion."},
+    "mathscinet": {"reached": false, "http_status": 302, "note": "Redirects to authentication wall. NOT consulted. No claim in this report rests on it."}
+  },
+
+  "control_passed": true,
+  "control_detail": {
+    "primary_control": "Query 'a Geng and a Marshak' returned Geng & Marshak, Phys.Rev.D 39 (1989) 693 (recid 24389, 170 citations) -- the target well-known anomaly-cancellation-fixes-hypercharge result.",
+    "closure_control": "'refersto recid 24389' enumerated all 170 citing works, returning the entire Q1 cluster in one pass: Minahan-Ramond-Warner, Babu-Mohapatra, Foot-Joshi-Lew-Volkas, Rudaz, Golowich-Pal, Hucks, Nowakowski-Pilaftsis, Sladkowski-Zralek, Lohitsiri-Tong, Costa-Dobrescu-Fox, Batra-Dobrescu-Spivak, Ibanez.",
+    "secondary_control_q2_axis": "The method independently surfaced the canonical E6 vocabulary by citation weight: London & Rosner (487), Hewett & Rizzo (1524), Langacker Z' review (1544), Slansky (1466), Gursey-Ramond-Sikivie (871).",
+    "conclusion": "Both controls passed, so the nulls reported are meaningful as far as the searched corpus goes -- subject to the explicit non-certification caveat on the Q3 null."
+  },
+
+  "in_sandbox_verifications": [
+    {"check": "E6 root system generated from Bourbaki simple roots", "result": "72 roots", "status": "PASS"},
+    {"check": "su(3)+su(2)+u(1)^3 as centralizer of a 3-torus in e6", "result": "dim 14 = 8 subsystem roots + 6 Cartan; all ten A2+A1 node-subsets of the E6 diagram give dim 14", "status": "CONFIRMED -- it is a Levi subalgebra"},
+    {"check": "centralizer of su(3)+su(2) in e6", "result": "9-dimensional (6 roots + 3 Cartan) = su(3)+u(1), NOT u(1)^3", "status": "CONFIRMED -- the SU(5) centralizer argument does not transplant to E6"},
+    {"check": "all anomaly conditions on a complete 27", "result": "13 U(1) cubic/mixed/gravitational conditions, both non-abelian mixed conditions, and the Witten SU(2) parity (6 doublets, even) all vanish identically", "status": "CONFIRMED -- anomaly cancellation is forced, not fortunate"}
+  ],
+
+  "noise_note": "OpenAlex keyword queries surfaced several apparently machine-generated preprints with zero citations ('Paper CCCXVIII: The OOB Gauge Group...', 'Self-Reconstructing Codazzi Defects...'). These are NOT treated as prior art; recorded only so a later reader does not mistake their absence for an oversight."
+}

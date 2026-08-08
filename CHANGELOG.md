@@ -1,5 +1,14 @@
 # Changelog
 
+## B951 — L132 scouted before computing: vacuous check, textbook endpoint, prior art next door
+- **The anomaly check is probably VACUOUS**: E₆ is anomaly-free and on complete **27**s every condition vanishes identically. **MB12 non-vacuity is now L132's prerequisite, not its result.**
+- **`su(3)⊕su(2)⊕u(1)³` is the A₂+A₁ Levi of e₆** (Borel–de Siebenthal 1949) — re-derived here: dim = 6+8 = 14, centre 3, **exactly B892's numbers**. Arriving at it is not a discovery; **what survives of B892 is the route, not the destination.**
+- Centralizer of colour+isospin: **1-dim in su(5)** (that *is* textbook Y) but **9-dim in e₆** — it does not single out Y. **Todorov JHEP 04 (2021) 164** does structurally this move in so(10). Null explicitly **not certified**.
+
+## B954 — do we need both branches? Yes, and the odd one is not a place to stand
+- **[odd,odd] ⊆ even**, so the odd part is **not an algebra** — there is no θ-odd world to switch to. Chirality requires the odd part ⟹ requires the whole ⟹ rank 6.
+- **θ *is* a rank-reducer (6→4) — and it reduces rank by deleting the odd part.** The object's only rank-reducer is the one operation that removes what the reduction is for. B953 strengthened, its "two seeds" framing corrected. 8 locks.
+
 ## B953 — E₆ vs E₄, and the two seeds: confirmed, and worse than hoped
 - **E₄ = SU(5), rank 4 = the SM's rank.** Rank drops sit in E₆→SO(10)→SU(5) (shedding U(1)_ψ, U(1)_χ); **SU(5)→SM is rank-preserving**. So **skipping SU(5) is skipping the rank reduction**.
 - **The ± seeds are real and banked** (B576: *"the geometric point sits on the F₄-stable (achiral) stratum"*) — we are on the seed where chiral matter is absent by construction.
