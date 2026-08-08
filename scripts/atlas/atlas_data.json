@@ -20326,6 +20326,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B965": {
+   "slug": "lawmap scope audit",
+   "motifs": [],
+   "refs": [
+    "B953",
+    "B960",
+    "B964",
+    "L139",
+    "L140"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B96": {
    "slug": "geometry invariants",
    "motifs": [

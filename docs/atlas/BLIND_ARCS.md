@@ -25,6 +25,7 @@ auditable in a way a passing threshold never was.
 
 | arc | disposition | why |
 |---|---|---|
+| `B965` | INSTRUMENT | The LAW_MAP scope audit — about **our own claim hygiene**, not an object topic; an OBJECT atlas is correct to miss it. |
 | `B961` | INSTRUMENT | The frame instrument (`frame.py`) — exact Killing form, centralizer, Killing-perp, derived algebra on e₆. About **our own machinery**, not an object topic; an OBJECT atlas is correct to miss it. |
 | `B679` | INSTRUMENT | An `engine_v7` gate-report patch, prepared and verified but not deployed; explicitly about a seat conduit that is not a repo-tracked file. |
 | `B770` | INSTRUMENT | The closure census — Phase 0 bookkeeping over the programme's own arcs. |

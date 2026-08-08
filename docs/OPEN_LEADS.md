@@ -986,3 +986,16 @@ clause, not the whole normalisation.
 > pick out a rational two-27 orbit?** That is the single live opening in the VEV picture and
 > it is **unworked**. Caution from B962: even if it fires, the route **provably stops one
 > step short** — 27 VEVs cannot break SU(5) → SM (no **24** in the branching).
+
+> **L139 — RETRACTION SWEEPS (registered 2026-08-08, from B965).** When a claim is retracted,
+> **sweep for its INSTANCES** — LAW_MAP, CAMPAIGN_STATUS, README, the ledgers — rather than
+> merely correcting the source arc. **Proof it is needed:** B964 retracted the bare use of
+> "VEV" and gave a rule; **one hour later the audit found that exact error still live in a
+> LAW_MAP row written the same day.** Retracting a claim does not retract its instances.
+>
+> **L140 — THE COMPRESSION STEP IS THE LEAK (registered 2026-08-08, from B965).** All three
+> audit fixes were **qualifiers lost when an arc verdict was compressed into a LAW_MAP row** —
+> in every case the arc's own verdict was correct and properly scoped. **Candidate gate:** a
+> row citing an arc whose verdict contains a scope marker (*only, assumes, inferred, cited
+> not re-derived, not established, post-hoc, screened, one-prime, not certified*) **must
+> carry a scope marker of its own.** Mechanical, and it would have caught all three.

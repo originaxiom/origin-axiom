@@ -1,5 +1,10 @@
 # Changelog
 
+## B965 — the LAW_MAP scope audit: 165 rows, 5 flagged, **all five from today**
+- Mechanical method: does a row claim more than **its own cited arc's verdict** does? **Zero older rows overclaim; every flagged row was written today.** That is a diagnosis about **rate**.
+- **3 fixes:** an inference stated as fact (U(1)_ψ/U(1)_χ); cited standard facts presented as established here (the three τ equivalences); and **"VEV" used bare — the exact class B964 retracted an hour earlier, still live in a row written today.**
+- **L139 — retraction sweeps:** retracting a claim does not retract its instances. **L140 — the compression step is the leak:** every fix was a qualifier lost turning a verdict into a row; a mechanical gate would have caught all three. 7 locks.
+
 ## B964 — two VEV claims withdrawn: the measurement cascade **is** an adjoint Higgs mechanism
 - **"The object does not supply a VEV" is FALSE** (B952/B959/B960/B962). An adjoint VEV's unbroken group **is** the centralizer of that element — so **"adjoint VEV" and "measurement" are the same operation.** The object supplies the **rank-preserving** half and lacks the **rank-reducing (27)** half.
 - **"The 27-VEV route stops one step short" was a scope error** — true for **27-only** breaking; the **78 contains a 24**, so the standard chain completes.
