@@ -14919,11 +14919,12 @@
     "B719",
     "B721",
     "B942",
+    "B957",
     "L113",
     "S070"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "dead",
    "domain": "topology"
   },
@@ -20108,6 +20109,26 @@
    "obstacle_conf": 11,
    "status": "dead",
    "domain": "topology"
+  },
+  "B957": {
+   "slug": "l124 torsor",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B700",
+    "B723",
+    "B857",
+    "B942",
+    "L124"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B95": {
    "slug": "degree rank mechanism",

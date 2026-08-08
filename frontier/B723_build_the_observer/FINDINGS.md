@@ -13,6 +13,12 @@
 > by any cooling. The **values/torsor clause is NOT refuted, but it is NOT certified
 > either**: whether B700/B701's torsor is the CMR torsor has the same asserted-not-
 > demonstrated shape as the clause just killed, and is now a registered open lead.
+> **AMENDED 2026-08-08 (B957): the values/torsor clause is ALSO REFUTED** — B700's torsor
+> has group **ℤ/2** over a quadratic field, CMR's is the **infinite** idèle class group of
+> ℚ(√−3), and the fields are mutually blind. **BOTH clauses were one level too high.** The
+> structure (measurement = fiber-functor choice with Galois ambiguity) survives; the group
+> assignment does not.
+>
 > The text below is retained unedited as the record of what was claimed.
 
 

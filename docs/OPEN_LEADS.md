@@ -792,6 +792,7 @@ clause, not the whole normalisation.
 
 *Review 40 (2026-08-07): window B909, B914–B941 reviewed — the three crossings all negative, D₂ decoded as the hierarchy's carrier, the value layer proved value-invisible, two precedent numbers banked (the Maass and Dirac eigenvalues), and the branch-symmetric ratio-only phrasing registered as binding on any future crossing. Three real discipline failures caught by the anti-burial locks and fixed; the priority-language asymmetry flagged (B922's unqualified claim predates the O3 gate — panel dispatched). See docs/progress/REVIEWS.md.*
 
+> **L124 — CLOSED NEGATIVE 2026-08-08 by B957** (B700's torsor is ℤ/2 over a quadratic field; CMR's is the infinite idèle class group; fields mutually blind). *(original registration:)*
 > **L124 (registered 2026-08-07, from B942 §6).** **Is B700/B701's simply-transitive
 > torsor the CMR torsor — i.e. is its structure group Gal(K^ab/K)?** B942 killed the
 > chirality clause of the observer construction at the level of group membership, and

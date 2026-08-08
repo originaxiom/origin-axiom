@@ -10333,5 +10333,16 @@
   ],
   "fact_computed": true,
   "hatch": "The PHENOMENON is real, just not here: among the 31 amphichiral cyclic LR-words of length <= 10, EIGHTEEN are fixed by the product rho.sigma but by NEITHER involution alone (the LOCKED class), against 13 with the full Klein stabilizer. m004 and the ENTIRE metallic locus R^m L^m sit in the full-Klein minority, which is why the two decouple for this object. The live successor (L129) is therefore structural rather than a retry: what distinguishes the locked class from the full-Klein class, and is the metallic locus exactly the decoupled locus? Any escape for the original claim would have to act at the isometry level rather than the word level -- this cell computes stabilizers on cyclic words, which realizes bundle symmetries but does not establish the converse."
+ },
+ {
+  "id": "B957",
+  "claim_killed": "That B700/B701's simply-transitive torsor IS the CMR torsor -- i.e. that the observer construction's VALUES clause is carried by the idele class group Gal(K^ab/K) of K = Q(sqrt-3), the surviving half of B723 that B942 demoted to UNEARNED.",
+  "kill_form": "category-mismatch",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "The values ARE a torsor phenomenon -- B700 establishes that concretely with its own base-rate gate passed -- but the group is Z/2 over a QUADRATIC field (Q(sqrt5), Q(sqrt-7)), not the infinite profinite idele class group, and the fields are MUTUALLY BLIND (5 inert in Q(sqrt-3), 3 inert in Q(sqrt5), both recomputed). So the live successor is not 'rescue the CMR identification' but 'what does the small Z/2 torsor actually determine?' -- and note the convergence: B942 relocated CHIRALITY from Gal(K^ab/K) to Gal(K/Q) (order 2) and this arc relocates VALUES from Gal(K^ab/K) to a quadratic Galois Z/2, so B723 was SYSTEMATICALLY ONE LEVEL TOO HIGH IN BOTH CLAUSES. Any escape would need a mechanism promoting a finite Z/2 to the idele class group, which is not a near-miss but a category change."
  }
 ]

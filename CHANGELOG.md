@@ -1,5 +1,10 @@
 # Changelog
 
+## B957 / L124 — B700's torsor is **not** the CMR torsor, and the two corrections rhyme
+- **Category mismatch, not a near-miss:** every B700 torsor has group **ℤ/2** over a quadratic field; CMR's is the **infinite** idèle class group of ℚ(√−3). The fields are **mutually blind** (5 inert in ℚ(√−3), 3 inert in ℚ(√5) — both recomputed). **Refuted, not merely unearned.** L124 closed; B723's banner amended to cover both clauses.
+- **The convergence:** B942 moved *chirality* from Gal(K^ab/K) to Gal(K/ℚ); this moves *values* to a quadratic ℤ/2. **Both order 2. B723 was systematically one level too high in both clauses.**
+- Does **not** refute B700 (which stands) or B723's structure — measurement as a fiber-functor choice survives; only the group assignment dies. Unsealed status declared, not hidden. 6 locks.
+
 ## B956 — L133 reframed: an INTERMEDIATE-CLOSURE problem
 - **Repo sweep:** Wilson-line/Hosotani breaking appears in **no arc before today**; only 11 arcs mention a VEV. Virgin ground.
 - **The reframe:** the object's two computed regimes bracket the target — abelian torus data → **rank 6** (too big), Zariski-dense → **rank 0** (too small), the SM at **rank 4** strictly between. L133 is: does an **intermediate closure** exist whose commutant is rank 4 with complex reps?

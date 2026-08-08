@@ -1,0 +1,40 @@
+{
+ "B700_torsors": [
+  {
+   "cell": 1,
+   "set": "the two golden irreps",
+   "group": "Gal(Q(sqrt5)/Q)",
+   "order": 2,
+   "field": "Q(sqrt5)",
+   "field_degree": 2
+  },
+  {
+   "cell": 2,
+   "set": "the two 3-dim PSL(2,7) irreps",
+   "group": "Gal(Q(sqrt-7)/Q)",
+   "order": 2,
+   "field": "Q(sqrt-7)",
+   "field_degree": 2
+  }
+ ],
+ "B700_own_summary": "at each stage the hearing = a choice among exactly TWO D-dim shadow irreps, with a QUADRATIC character field, swapped simply-transitively by its Galois Z/2 -- a fiber-functor torsor",
+ "every_B700_torsor_has_group_Z2": true,
+ "CMR_torsor": {
+  "group": "Gal(K^ab/K) = idele class group",
+  "K": "Q(sqrt-3)",
+  "order": "infinite (profinite)",
+  "finite": false
+ },
+ "orders_match": false,
+ "fields_match": false,
+ "verdict": "NO -- B700's torsor is NOT the CMR torsor",
+ "five_inert_in_Q_sqrt_minus3": true,
+ "three_inert_in_Q_sqrt5": true,
+ "fields_are_mutually_blind": true,
+ "B942_relocated_chirality_to": {
+  "group": "Gal(K/Q)",
+  "order": 2
+ },
+ "both_clauses_land_on_Z2": true,
+ "B723_was_one_level_too_high_in_BOTH_clauses": true
+}
