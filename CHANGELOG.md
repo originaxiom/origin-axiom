@@ -1,5 +1,11 @@
 # Changelog
 
+## B947 / L130 — the thinning is **not** a law: 5 of 7, and the seal's gloss corrected
+- Sealed with the prior as SPECIAL; **LAW did not clear the bar.** Gate passed; **exclusion set empty**, so it could not shape the result.
+- **Holds for V, W, d_S, d_A, m_S; fails for μ and κ** — both with *empty* mid-only sets and 5–6 prime leading supports. Not borderline.
+- **The seal's own gloss ("about V alone") was wrong** — five families hold it, and a conclusion the computation contradicts is not banked. B946's LAW_MAP row **narrowed as committed**; B946's exact arithmetic untouched.
+- **The structured 5/2 split (values hold, pencils fail) is POST-HOC — L137, registered not claimed.** Re-describing SPECIAL that way without a fresh seal would be post-hoc rescue. 11 locks.
+
 ## B959 / L133 — **NO-GO**: every route to rank 4 makes the 27 real
 - Sealed with the prior disclosed as NO-GO; **the convenient answer did not clear the bar.** Banked-identity gate passed (dim Z(su(3)) = 16).
 - **All 63 inner sign-gradings fix the full Cartan** ⟹ rank 6. **E₆'s one diagram automorphism swaps the 27/27̄ nodes** ⟹ the 27 is **self-dual on Fix(τ)**, and self-duality is inherited by restriction — **killing F₄, C₄ and every subalgebra of either with one argument.** The object's images **A₄/D₅/S₅** have elementary-abelian rank ≤ 2 ⟹ **toral** ⟹ rank 6.

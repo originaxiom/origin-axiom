@@ -10355,5 +10355,15 @@
   ],
   "fact_computed": true,
   "hatch": "ONE hatch, named and checkable: the torality step assumes the SIMPLY CONNECTED form of E6 (Steinberg's connectedness theorem), and it breaks at rank 3 because Z(x) need not be simply connected -- which is why E8 has non-toral 2^5. In the ADJOINT form E6/Z3 a RANK-2 elementary abelian subgroup CAN be non-toral, and A4/S5 do supply rank-2. So if the object's representations land in the adjoint form rather than the simply connected one, the rank-2 non-toral inner case is NOT excluded (registered L136). Note the other two routes are FORM-INDEPENDENT and stay closed either way: inner single involutions fix the full Cartan (rank 6), and the entire outer route makes the 27 self-dual. Also NOT excluded and explicitly not the target of this kill: a Higgs-type mechanism -- E6 -> SU(5) via two 27 VEVs achieves rank 6->4 with the 27 still complex and is STANDARD (B955); it is simply not an operation the object supplies."
+ },
+ {
+  "id": "B947",
+  "claim_killed": "That the 'thinning law' (thin extreme coefficients, extra primes confined to the middle of the integer-primitive minimal polynomial) is a LAW of the object's value layer, as B946's LAW_MAP phrasing implied.",
+  "kill_form": "cross-family-counterexample",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "It holds for FIVE of seven families (V, W, d_S, d_A, m_S) and fails for TWO (mu_charge, kappa_compact), both with EMPTY mid-only sets and leading supports of size 5 and 6 -- so this is a narrowing, not a demolition. The failures are structured: the holders are the VALUE families and the failures are the PENCIL CUBICS, which are geometric rather than value objects. That observation is POST-HOC (seen after results) and is registered as L137 requiring its own sealed cell with the value/pencil partition declared in advance; re-describing SPECIAL as 'holds on the value layer, fails on the pencils' without that seal would be post-hoc rescue."
  }
 ]

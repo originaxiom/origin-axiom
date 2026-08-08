@@ -19901,6 +19901,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B947": {
+   "slug": "thinning law",
+   "motifs": [
+    "kappa"
+   ],
+   "refs": [
+    "B946",
+    "L130",
+    "L137"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B948": {
    "slug": "relay ssb sweep",
    "motifs": [

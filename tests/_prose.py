@@ -16,7 +16,12 @@ def norm(path):
 
 
 def contains(path, *probes):
-    """Case-insensitive, marker-insensitive, wrap-insensitive substring check."""
+    """Case-insensitive, marker-insensitive, wrap-insensitive substring check.
+
+    NOTE: always call as `assert contains(...)`. The helper asserts internally,
+    but a bare call leaves the test body assertion-free, which the `test-vacuity`
+    gate correctly flags as unconditionally passing.
+    """
     t = norm(path).lower()
     missing = [p for p in probes if p.lower() not in t]
     assert not missing, f"missing from {path.name}: {missing}"

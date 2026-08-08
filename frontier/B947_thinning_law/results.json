@@ -1,0 +1,181 @@
+{
+ "banked_identity_gate": true,
+ "families": {
+  "V_hierarchy": {
+   "coeffs": [
+    824843587681,
+    -27609909080832,
+    264084438122496,
+    -760840571584512
+   ],
+   "P_lead": [
+    953
+   ],
+   "P_const": [
+    2,
+    3
+   ],
+   "P_mid_only": [
+    13,
+    17,
+    1129,
+    421493
+   ],
+   "total_support_size": 7,
+   "excluded_vacuous": false,
+   "pattern_holds": true
+  },
+  "W_mixing_sq": {
+   "coeffs": [
+    824843587681,
+    -230571559875,
+    -16394578125,
+    -244140625
+   ],
+   "P_lead": [
+    953
+   ],
+   "P_const": [
+    5
+   ],
+   "P_mid_only": [
+    3,
+    367,
+    677
+   ],
+   "total_support_size": 5,
+   "excluded_vacuous": false,
+   "pattern_holds": true
+  },
+  "d_S_twist": {
+   "coeffs": [
+    5308416,
+    9123840,
+    5077008,
+    908209
+   ],
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_const": [
+    953
+   ],
+   "P_mid_only": [
+    5,
+    11,
+    35257
+   ],
+   "total_support_size": 6,
+   "excluded_vacuous": false,
+   "pattern_holds": true
+  },
+  "d_A_twist": {
+   "coeffs": [
+    5308416,
+    -1907712,
+    -2195712,
+    908209
+   ],
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_const": [
+    953
+   ],
+   "P_mid_only": [
+    23
+   ],
+   "total_support_size": 4,
+   "excluded_vacuous": false,
+   "pattern_holds": true
+  },
+  "m_S_flipmass": {
+   "coeffs": [
+    42467328,
+    -100196352,
+    78499872,
+    -20417473
+   ],
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_const": [
+    20417473
+   ],
+   "P_mid_only": [
+    11,
+    71,
+    151,
+    349
+   ],
+   "total_support_size": 7,
+   "excluded_vacuous": false,
+   "pattern_holds": true
+  },
+  "mu_charge": {
+   "coeffs": [
+    500716339200,
+    -2075673600,
+    -4769856,
+    2197
+   ],
+   "P_lead": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_const": [
+    13
+   ],
+   "P_mid_only": [],
+   "total_support_size": 6,
+   "excluded_vacuous": false,
+   "pattern_holds": false
+  },
+  "kappa_compact": {
+   "coeffs": [
+    2771822592000,
+    3033676800,
+    -56402640,
+    -6859
+   ],
+   "P_lead": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    31
+   ],
+   "P_const": [
+    19
+   ],
+   "P_mid_only": [],
+   "total_support_size": 7,
+   "excluded_vacuous": false,
+   "pattern_holds": false
+  }
+ },
+ "excluded": [],
+ "live": [
+  "V_hierarchy",
+  "W_mixing_sq",
+  "d_A_twist",
+  "d_S_twist",
+  "kappa_compact",
+  "m_S_flipmass",
+  "mu_charge"
+ ],
+ "n_live": 7,
+ "all_live_hold": false,
+ "failures": [
+  "kappa_compact",
+  "mu_charge"
+ ],
+ "verdict": "SPECIAL"
+}

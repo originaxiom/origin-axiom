@@ -947,3 +947,15 @@ clause, not the whole normalisation.
 > the single surviving route to chiral matter at rank 4 by a centralizer construction. Note
 > B959 §2 and §3 are **form-independent**, so even in the adjoint case the outer route and
 > single inner involutions remain closed.
+
+> **L130 — CLOSED 2026-08-08 by B947: OUTCOME SPECIAL.** The thinning is **not** a law of the
+> value layer — it holds for five of seven banked families and fails for μ and κ.
+>
+> **L137 — THE VALUE/PENCIL SPLIT (registered 2026-08-08, POST-HOC).** B947's five holders are
+> the **value** families (hierarchy, mixing overlap, both twists, flip mass); its two failures
+> are the **pencil cubics** (μ charge, κ compact), and both fail the *same* way — fat leading
+> coefficient, **empty** mid-only set. **This was seen after the results and is therefore not
+> claimed.** If real, it needs its own sealed cell with the value/pencil partition declared
+> **in advance**; B947 could not do that, having sealed only a per-family pass/fail.
+> Re-describing B947's SPECIAL as "holds on the value layer, fails on the pencils" without
+> that seal would be **post-hoc rescue**.
