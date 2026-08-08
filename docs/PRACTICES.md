@@ -331,6 +331,24 @@ another gate.** It is fixed by making the existing requirement a field that must
 before the seal hashes, which is the only moment where it can bite. Older seals are exempt by
 construction: a rule cannot bind text sealed before it existed.
 
+
+## LAW_MAP rows carry their arc's scope — GATED (`lawmap-scope`)
+
+**Rule (adopted 2026-08-08, from B965's audit).** A LAW_MAP row citing an arc whose
+**verdict** carries four or more scope markers (*only for, scope, assumes, not established,
+conditional, up to, one-prime, not certified, not claimed, post-hoc, inferred, cited not
+re-derived, screened, necessary-not-sufficient, limits, does not*) must carry **at least one
+scope marker of its own**.
+
+**Why.** The B965 audit found 165 rows, 5 flagged, **all five written the same day** — and in
+**every** fix the arc's own verdict was *correct and properly scoped*. **The loss happened in
+the compression step**: turning a verdict into a one-line row drops qualifiers. This is the
+first gate here aimed at claim **scope** rather than at numbers, hashes or file presence —
+the class of error that, until now, only a human ever caught.
+
+Calibrated on that audit: it flags all three rows the audit had to fix, and passes the row
+the audit adjudicated as already correctly scoped.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

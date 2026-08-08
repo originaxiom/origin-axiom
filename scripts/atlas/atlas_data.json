@@ -20341,6 +20341,22 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B966": {
+   "slug": "scope gate",
+   "motifs": [],
+   "refs": [
+    "B960",
+    "B962",
+    "B964",
+    "B965",
+    "L139",
+    "L140"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B96": {
    "slug": "geometry invariants",
    "motifs": [

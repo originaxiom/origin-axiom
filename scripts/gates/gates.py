@@ -10,6 +10,7 @@ whitelists are explicit frozen constants in this file (auditable, versioned).
 """
 import base64
 import json
+import glob
 import os
 import re
 import subprocess
@@ -771,6 +772,47 @@ def gate_seal_provenance():
     return not missing, missing[:5] or "ok"
 
 
+
+# L140 (B965): every fix in the LAW_MAP scope audit was a QUALIFIER LOST when an arc's
+# verdict was compressed into a one-line row -- in each case the arc's own verdict was
+# correct and properly scoped. The arcs are honest; the summaries leaked. This gate closes
+# exactly that step, and it is the first gate here aimed at claim SCOPE rather than at
+# numbers, hashes or file presence.
+SCOPE_MARKERS = [r"only for\b", r"\bscope\b", r"assumes\b", r"not established",
+                 r"conditional", r"\bup to\b", r"one-prime", r"not certified",
+                 r"not claimed", r"post-hoc", r"inferred", r"cited not", r"screened",
+                 r"necessary, not sufficient", r"\blimits\b", r"does not\b", r"NB \(",
+                 r"standard, cited"]
+_SCOPE_RX = [re.compile(x, re.I) for x in SCOPE_MARKERS]
+SCOPE_HEAVY = 4     # a verdict with >= this many markers is "heavily scoped"
+
+
+def _scope_count(text):
+    return sum(1 for rx in _SCOPE_RX if rx.search(text))
+
+
+def gate_lawmap_scope():
+    """A LAW_MAP row citing a HEAVILY-SCOPED arc verdict must carry a scope marker of its
+    own. Calibrated on the B965 audit: it flags all three fixes that audit forced, and
+    passes the row that audit adjudicated as already correctly scoped."""
+    verdicts = {}
+    for path in glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json")):
+        try:
+            d = json.load(open(path, encoding="utf-8"))
+            verdicts[d["id"]] = d.get("claim_one_line", "")
+        except Exception:
+            continue
+    bad = []
+    for line in _read("docs/LAW_MAP.md").splitlines():
+        if not line.startswith("| **"):
+            continue
+        ids = set(re.findall(r"\bB\d{2,4}\b", line))
+        worst = max((_scope_count(verdicts[i]) for i in ids if i in verdicts), default=0)
+        if worst >= SCOPE_HEAVY and _scope_count(line) == 0:
+            bad.append(line.split("**")[1][:48] if "**" in line else line[:48])
+    return not bad, bad[:5] or "ok"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -789,6 +831,7 @@ GATES = {
     "views-generated": gate_views_generated,
     "practices-register": gate_practices_register,
     "seal-provenance": gate_seal_provenance,
+    "lawmap-scope": gate_lawmap_scope,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

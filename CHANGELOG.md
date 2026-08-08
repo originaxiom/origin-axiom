@@ -1,5 +1,11 @@
 # Changelog
 
+## B966 / L140 — the first gate aimed at claim **scope**
+- **Rule:** a LAW_MAP row citing a heavily-scoped arc verdict must carry a scope marker of its own. Gate `lawmap-scope` + practices row, registered both directions.
+- **Placed where the leak is:** B965 showed every fix was a qualifier lost in **compression** — the arcs' verdicts were all correct. First gate here aimed at *meaning* rather than numbers.
+- **Caught a fourth violation on its calibration run** — the F₄ row cited B962 without noting B964 partially retracted it. **Non-vacuity demonstrated** by deleting a qualifier (gate fails) and restoring it (gate passes), file byte-identical.
+- Limits stated: keyword-based, LAW_MAP-only, threshold calibrated not derived, enforces presence not correctness. **L139 (retraction sweeps) still has no machinery.**
+
 ## B965 — the LAW_MAP scope audit: 165 rows, 5 flagged, **all five from today**
 - Mechanical method: does a row claim more than **its own cited arc's verdict** does? **Zero older rows overclaim; every flagged row was written today.** That is a diagnosis about **rate**.
 - **3 fixes:** an inference stated as fact (U(1)_ψ/U(1)_χ); cited standard facts presented as established here (the three τ equivalences); and **"VEV" used bare — the exact class B964 retracted an hour earlier, still live in a row written today.**
