@@ -1,0 +1,58 @@
+{
+ "computed_here": {
+  "tau_nontrivial": true,
+  "tau": [
+   5,
+   1,
+   4,
+   3,
+   2,
+   0
+  ],
+  "tau_order": 2,
+  "swapped_node_pairs": [
+   [
+    0,
+    5
+   ],
+   [
+    2,
+    4
+   ]
+  ],
+  "inner_sign_gradings_tested": 63,
+  "all_inner_fix_full_cartan": true
+ },
+ "cited_not_verified": [
+  "w0 = -tau for E6 (w0 the longest Weyl element)",
+  "-1 in W  <=>  every representation is self-dual",
+  "the outer involutions of e6 are exactly tau up to inner automorphism"
+ ],
+ "the_mechanism": "tau != id is EQUIVALENT to the 27 being complex (via w0 = -tau, so -1 not in W, so complex reps exist); and tau is the ONLY involution that can reduce rank (all inner ones fix the full Cartan). One structure, two roles: spending it on rank lands in Fix(tau), where 27 = 27bar",
+ "is_it_an_uncertainty_principle": false,
+ "why_not": {
+  "no_conjugate_pair": "one object with two roles, not two non-commuting observables",
+  "no_quantitative_bound": "a dichotomy, not a trade-off curve; no rank-5 half-chiral state",
+  "not_simultaneously_meaningful": "the outcomes are mutually exclusive, not jointly blurred",
+  "no_state_space": "nothing on which a variance could be measured",
+  "reality_type_is_discrete": "Frobenius-Schur +1/-1/0 -- there is no continuous amount of chirality"
+ },
+ "THE_SCOPE_CORRECTION": {
+  "what_I_nearly_banked": "the object has NO INTERMEDIATE REGIME (general statement)",
+  "what_B576_actually_supports": "along any integrable deformation OF THE GEOMETRIC REPRESENTATION with nonzero theta-odd component, the Zariski closure is forced to full E6(C) -- the mechanism being the block-sum lemma, which works because such deformations CONTAIN THE PRINCIPAL sl2 (its centralizer in e6 is zero, blocks multiplicity one)",
+  "so_the_threshold_is_scoped_to": "deformations containing the principal sl2",
+  "NOT_established_for": [
+   "arbitrary representations of pi_1 into E6",
+   "FINITE-image representations (A4, D5, S5) -- which contain no principal sl2"
+  ],
+  "does_the_conclusion_survive": true,
+  "why": "the finite-image case is closed INDEPENDENTLY by B959's torality argument (elementary abelian rank <= 2 => toral => rank 6), not by the threshold; so the no-go stands, but the UNIFIED 'no intermediate regime' framing does not"
+ },
+ "does_it_solve_the_SM_problem": false,
+ "what_it_does_and_does_not": {
+  "does": "gives ONE cause for ONE class of failures (centralizer constructions)",
+  "does_not_1": "produce the Standard Model, or any value",
+  "does_not_2": "say the SM is unreachable -- the VEV route is standard (B955) and open",
+  "does_not_3": "explain the three sealed crossings, which failed on VALUES (couplings, mass ratios), not on rank -- B952 already flagged that as 'not a retrofit excuse' and that line holds"
+ }
+}

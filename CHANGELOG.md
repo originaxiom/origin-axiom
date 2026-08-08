@@ -1,5 +1,11 @@
 # Changelog
 
+## B963 — τ does double duty; the uncertainty analogy rejected; a scope correction caught in time
+- **One cause behind four failures:** τ ≠ id ⟺ the 27 is complex, *and* τ is the only rank-reducing involution (all 63 inner gradings fix the full Cartan). **Spending it on rank lands in Fix(τ), where 27 ≅ 27̄.**
+- **Not an uncertainty principle** — no conjugate pair, no quantitative bound, discrete reality type, no state space. Analogy **rejected**, mechanism kept.
+- **The scope correction (the owner asked whether we were rushing — we were):** B576's threshold holds only for deformations containing the **principal sl₂**, *not* for finite images. The no-go survives via B959's **separate** torality argument. **Two arguments, not one** — the unified framing would have been a false unification.
+- **Does not solve the SM problem.** One class of failures explained; the VEV route stays standard, open, and unsupplied; the crossings failed on *values*, not rank. 5 locks.
+
 ## B961 / L135 — the frame instrument, built here at last
 - `frame.py`: exact Killing form, centralizer, Killing-perp, derived algebra on e₆ — the infrastructure B958 found missing (every frame claim so far was checked against incoming code).
 - **Reproduces B892's dim 14 / derived 11 / centre 3 and B958's dim Z(su(3)) = 16 from scratch** — the first independent derivation of those numbers on this bench.
