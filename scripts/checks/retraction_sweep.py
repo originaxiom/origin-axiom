@@ -28,7 +28,9 @@ EXEMPT_FILES = {
 EXEMPT_BASENAMES = ("PRIOR_ART_HYPERCHARGE.md", "PRIOR_ART_MAASS.md",
                     "PRIOR_ART_VEV.md", "PRIOR_ART_RANK_REDUCTION.md",
                     "O3_PRIOR_ART.md", "DRAFT_FINDINGS.md")
-EXEMPT_PREFIXES = ("frontier/B964_", "frontier/B963_", "frontier/B965_", "frontier/B943_",
+# frontier/B967_ is the sweep's OWN arc -- a record ABOUT retractions, so mentions
+# there are correct by the same principle as docs/RETRACTIONS.md.
+EXEMPT_PREFIXES = ("frontier/B967_", "frontier/B964_", "frontier/B963_", "frontier/B965_", "frontier/B943_",
                    "frontier/B941_", "frontier/B942_", "frontier/B723_", "frontier/B892_",
                    "docs/atlas/", "docs/views/")
 
