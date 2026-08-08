@@ -908,3 +908,14 @@ clause, not the whole normalisation.
 > **L134 — THE TWELVE EXOTICS.** E₆'s **27 = 16 + 10 + 1** leaves **twelve exotic states per
 > generation** (a vector-like coloured triplet pair, an extra doublet pair, singlets) which
 > any E₆ model must make heavy. **The record has never addressed them.**
+
+> **L135 — BUILD THE FRAME INDEPENDENTLY (registered 2026-08-08, from B958).** The repo has
+> **no independent construction of M12** (the "invisible 12"): B909 verified §LVIII's data by
+> **running the incoming material**, not by rebuilding here. Before the solo seat's presence
+> side (§LXXXIII–LXXXVI + §XCII) can be verified *or* refuted, this bench needs its **own**
+> construction of the frame, the floor (su(3) ⊕ four charges, dim 12) and M12 (the
+> Killing-perp, dim 12). **Worth building regardless of the presence side's fate** — it lets
+> every future frame-arc claim be checked here instead of run from incoming code, and closes
+> the "verified data we never built" gap. **Prerequisite for discharging the presence-side
+> debt, which remains owed.** One necessary condition already checked on our own e₆:
+> dim Z(su(3)_colour) = **16** (rank 62 of 78), so a colour-blind dim-12 M12 is consistent.

@@ -38,7 +38,17 @@ Date of sweep: 2026-08-08. All verification internal (owner + AI seats).
    (geometric rep of π₁(H³/Γ) into a complexified ADE group, inside M-theory on G₂)
    and uses it for *moduli stabilization*, never asking what subgroup survives.
 
-6. **A sharp warning (Q5).** The one exhaustive computation of flat-connection
+6. **The group theory is NOT the obstruction — and this reframes the question.**
+   E₆ → rank 4 with the 27 still complex **exists and is known**: E₆ → SU(5) via two
+   Jordan-rank-1 (pure-spinor-analogue) 27 VEVs, and E₆ → SU(3)×G₂ via a 650 VEV. The
+   seat must not claim novelty here. The real open question is narrower and sharper:
+   **can a *flat connection* — a centralizer of a subgroup, not a stabilizer of a
+   vector — land on one of those chirality-preserving rank-4 targets?** No source found
+   addresses it. Useful filter: every rank-4 *simple* group (F₄, Sp(8), SO(9), SO(8))
+   is chirality-dead, so any mechanism outputting a simple rank-4 group has already
+   failed.
+
+7. **A sharp warning (Q5).** The one exhaustive computation of flat-connection
    symmetry breaking in E₆ (Keurentjes, hep-th/9902186) finds unbroken ranks
    **{6, 2, 0, 0} — rank 4 does not occur.** That classification is for π₁ = ℤ³, not
    for a knot group, so it is *not* a theorem against the seat. But it is the single
@@ -311,46 +321,119 @@ report, and the panel found no prior art performing it.
 
 ## 4. Q3 — rank reduction in E₆ generally: mechanisms and chirality
 
-### (a) Adjoint VEV preserves rank — confirmed
+**Headline: the answer to the seat's core question is YES, and it is known.** There
+exist E₆ → rank-4 breakings that preserve the 27's complexity — notably **E₆ → SU(5)**.
+The seat must therefore not claim novelty for "rank 6 → 4 with chirality intact" as a
+group-theory fact. What is unclaimed is doing it via a *non-abelian flat connection on
+m004* (§5).
 
-An adjoint VEV can be conjugated into the Cartan subalgebra; the unbroken group is the
-centralizer of a Cartan element, which contains the whole Cartan. Hence rank is
-preserved. Canonical reference: **Slansky, Phys. Rept. 79 (1981) 1** (recid 10204,
-1466 cites), the standard unified-model-building group theory review; and Li,
-*Group theory of the spontaneously broken gauge symmetries*, Phys. Rev. D9 (1974) 1723.
-The E₆ centralizer table computed in §2(d) is an independent in-sandbox confirmation:
-every centralizer of a torus element has total rank 6.
+### (a) The master criterion — zero weights
 
-### (b) Rank reduction needs a non-adjoint rep — the SO(10) benchmark
+The rigorous core, which subsumes the folklore:
 
-The standard benchmark: **SO(10) (rank 5) → SU(5) (rank 4)** by a VEV in the **16**
-(spinor), and SO(10) → SU(5) by the **126**. The **45** (adjoint) is rank-preserving
-(→ SU(5)×U(1), SU(4)×SU(2)×SU(2), …). The reason is exactly the mechanism above: a
-spinor VEV is not conjugate into the Cartan, so its stabilizer need not contain the
-Cartan. This is the general principle: **rank reduction requires a Higgs rep whose
-VEV direction is a singlet of the surviving group but is charged under the broken
-Cartan generator.**
+> Rank is preserved only if the VEV can be gauge-rotated into the **zero-weight
+> subspace** of the rep. Hence if the highest weight λ is **not in the root lattice**
+> (the rep has **no zero weight**), then **every** nonzero VEV strictly reduces rank.
+> *Proof.* If the unbroken algebra had full rank r it contains a Cartan 𝔥′ of 𝔤; then
+> 𝔥′·v = 0 forces every weight component of v to have weight 0. ∎
 
-### (c) E₆ chains and where rank goes
+Computed congruence classes:
 
-- **78 (adjoint)**: rank-6 subgroups only — SO(10)×U(1), SU(6)×SU(2), SU(3)³,
-  SU(2)×SU(5)×U(1)… These are exactly the Borel–de Siebenthal maximal-rank subalgebras,
-  reproduced independently in the table in §2(d) (A₁+A₅, A₂+A₂+A₂, D₅+u(1)).
-  **F₄ is NOT obtainable by an adjoint VEV** — it is not a maximal-rank subgroup; it
-  arises from the outer involution θ, not from any Higgs VEV in the 78.
-- **27**: this is the rank-reducing rep. The orbit structure of E₆ on the 27 is
-  classical (Jordan-algebra / Freudenthal / Springer–Veldkamp; Sato–Kimura
-  prehomogeneous vector spaces): the stabilizer of a **generic** (cubic-form
-  non-degenerate) element is **F₄** (rank 4), and the stabilizer of a **singular /
-  rank-one** element is **Spin(10) ⋉ (nilpotent)**, related to the SO(10)×U(1) chain.
-  So a 27 VEV *can* drop rank 6 → 4 — **but the generic-orbit stabilizer is exactly
-  F₄, which is the chirality-killing option.**
-- **351, 351′**: used in standard E₆ model building for the remaining breaking steps;
-  they contain SO(10)-singlet directions that break the extra U(1)s.
-- Reaching the SM at rank 4 in conventional E₆ GUTs is done with **27 + 27-bar** VEVs
-  in the ν^c direction (rank-reducing, chirality-preserving because the direction is an
-  SM singlet but *not* the F₄-generic direction), which is why these models predict a
-  Z′ whose mass is set by that VEV.
+- **E₆ — no zero weight (any VEV reduces rank): 27, 27̄, 351, 351̄, 351′, 351̄′, 1728.**
+  Has zero weight (rank may be preserved): 78, 650, 2430, 2925.
+- **SO(10) — no zero weight: 10, 16, 120, 126, 144.** Has zero weight: 45, 54, 210.
+
+This immediately corrects a common claim: in SO(10) it is **not** only the 16 and 126
+that reduce rank — the **120** does too. And zero weights are *necessary but not
+sufficient* for rank preservation: the **54** has zero weights yet has a rank-reducing
+direction, SO(10) → SO(9) (rank 5 → 4).
+
+### (b) Adjoint VEV preserves rank — confirmed, with two genuine exceptions
+
+For a **single real** adjoint VEV: every element of a compact Lie algebra is conjugate
+into a Cartan 𝔥, so 𝔥 ⊆ 𝔷(Φ) and rank is preserved exactly. The unbroken algebra is
+always a **Levi** subalgebra. Independent in-sandbox confirmation: the E₆ centralizer
+table in §2(d), every entry rank 6.
+
+Two real exceptions the seat should know:
+
+1. **Several non-commuting adjoint VEVs.** 𝔷(Φ₁) ∩ 𝔷(Φ₂) need not contain a Cartan
+   (trivially σ₃, σ₁ in SU(2) leave rank 0).
+2. **Complex / nilpotent adjoint VEVs (the SUSY case).** A VEV along the highest root
+   vector E_θ of E₆ has little group **SU(6), rank 5 < 6**. D-flatness ([Φ, Φ†] = 0)
+   forces normality hence diagonalisability, which restores the theorem — this is why
+   SUSY GUT papers always invoke D-flatness.
+
+Citable: **Barr & Raby, Phys. Rev. Lett. 79 (1997) 4748, hep-ph/9705366** (recid
+443271): *"An adjoint alone is not sufficient to break SO(10) to the Standard Model
+group G_SM, and in particular cannot reduce the rank of the group. This requires either
+spinorial Higgs (16+16̄) or rank-five antisymmetric tensor Higgs (126+126̄)."*
+**Caution:** Li, Phys. Rev. D9 (1974) 1723 is often cited for the general rank theorem
+but **does not contain it** — it is a case-by-case SU(n)/O(n) minimisation. Slansky
+Phys. Rept. 79 (1981) 1 could not be obtained; no claim is made about its contents.
+
+### (c) E₆ chains and where rank goes — **two corrections to common statements**
+
+- **78 (adjoint) gives Levi subgroups only**, all rank 6: SO(10)×U(1), SU(5)×SU(2)×U(1),
+  SO(8)×U(1)², SU(5)×U(1)², … **CORRECTION: SU(6)×SU(2) and SU(3)³ are NOT reachable by
+  a 78 VEV.** Their branchings contain no singlet — 78 = (35,1)+(1,3)+(20,2) under
+  su₆⊕su₂, and 78 = (8,1,1)+(1,8,1)+(1,1,8)+(3,3,3)+(3̄,3̄,3̄) under su₃³ — so no adjoint
+  VEV can leave them unbroken. They are **pseudo-Levi**: centralizers of finite-order
+  *group* elements, i.e. reachable by **Wilson lines / discrete flux** (or a 650 VEV).
+  This is exactly why they appear in the panel's §2(d) table, which scans *group*
+  elements. **The Levi vs pseudo-Levi distinction is precisely the distinction between
+  Higgs breaking and Wilson-line breaking, and it matters for this project.**
+  Only so(10)⊕u(1) has a singlet in the 78.
+- **F₄ is not reachable by a 78 VEV** (78 = 52 ⊕ 26 under F₄, no singlet), as the rank
+  theorem requires.
+
+**The 27 — the orbit structure, which is the crux.** E₆(ℂ) on ℂ²⁷ = J₃(𝕆)ℂ with cubic
+invariant det has exactly **four** orbits, graded by Jordan rank:
+
+| Jordan rank | invariants | stabilizer (complex) | dim | orbit dim |
+|---|---|---|---|---|
+| 0 | j = 0 | E₆ | 78 | 0 |
+| **1** | det j = 0, j# = 0 | **Spin(10) ⋉ ℂ¹⁶** | 61 | 17 |
+| **2** | det j = 0, j# ≠ 0 | Spin(9) ⋉ ℂ¹⁶ | 52 | 26 |
+| **3** (generic) | det j ≠ 0 | **F₄** | 52 | 26 |
+
+Source read: **Ferrara & Gunaydin, Int. J. Mod. Phys. A13 (1998) 2075, hep-th/9708025**
+(recid 446812). Dimension cross-check by this panel: 78 − 52 = 26 = dim{det = 1}
+hypersurface ✓; 78 − 61 = 17 = dim of the cone over the Cayley plane OP² (16 + 1) ✓.
+
+**A precision point the brief asked to get exactly right.** The **compact** little group
+of a Jordan-rank-1 (highest-weight) vector in the 27 is **Spin(10), rank 5** — *not*
+SO(10)×U(1). SO(10)×U(1) is the stabilizer of the **line**; the U(1) rotates the VEV's
+phase and is therefore broken. **That difference is exactly the rank reduction 6 → 5.**
+General rule (verified): for a highest-weight-vector VEV the little group is
+[L_λ, L_λ] × T^(r−1−rank), and the rank is **always exactly r − 1**. For E₆:
+27 → Spin(10) (rank 5); 351 → SU(2)×SU(5) (rank 5); 351′ → Spin(10) (rank 5);
+650 → Spin(8)×U(1) (rank 5).
+
+**F₄ by a VEV — yes, twice confirmed in the literature.** A single D-flat direction
+⟨ψ⟩ = diag(v,v,v) breaks E₆ → F₄: Goh–Murayama–Singh–Suter, arXiv:2505.07931
+(*"the generic symmetry breaking pattern is E₆ → F₄ → SO(8) → SU(3) → 1"*), and
+Csaki–Skiba, Phys. Rev. D58 (1998) 015014, hep-th/9801173 (*"Giving an expectation
+value to the 27 breaks E₆ to F₄, with the remaining field content being three
+26-dimensional representations."*). So E₆ → F₄ arises **both** from a 27/351′/650 VEV
+**and** from the outer involution θ — two physically distinct routes to the same
+chirality-dead subgroup. (Fixed subalgebras of e₆ involutions: su₆⊕su₂ and so₁₀⊕u₁ are
+*inner*, hence rank 6; **f₄** and usp₈ are *outer*, hence rank 4 — an inner involution
+fixes a maximal torus.)
+
+**351 and 351′.** 351 = (45)(−4)+(144)(−1)+(16)(−1)+(120)(2)+(10)(2)+(16)(5) — **no**
+SO(10) singlet, and no singlet under F₄, usp₈ or so₁₀⊕u₁, so a 351 VEV can never leave
+a maximal subgroup unbroken. 351′ = (54)(−4)+(144)(−1)+(126)(2)+(10)(2)+(16)(5)+**(1)(8)**
+— has an SO(10) singlet, and also singlets under F₄ (351′ = 324+26+1), usp₈ and G₂.
+
+**Renormalizable SUSY constraint (Bajc & Susič, arXiv:1311.0775; Babu–Bajc–Susič, JHEP
+05 (2015) 108).** With any number of 27 + 27̄ + 78, **SU(5) can never be broken** — the
+only non-SU(5)-singlet SM-singlet VEV is ⟨24⟩ ⊂ 45 ⊂ 78, and it enters no cubic
+invariant because **Tr 78³ ≡ 0**. Cross-checked here: E₆ exponents 1,4,5,7,8,11 give
+invariant degrees 2,5,6,8,9,12 — **no degree 3** — whereas SU(5) has degrees 2,3,4,5,
+which is exactly why ⟨24⟩ works inside SU(5) but not inside E₆. The minimal realistic
+renormalizable SUSY Higgs sector is therefore **351′ + 351̄′ + 27 + 27̄**. This is the
+rigorous version of "rank reduction in E₆ is hard and needs large reps".
 
 ### (d) Chirality — certified in-sandbox
 
@@ -386,8 +469,56 @@ Every entry matches known values, so the test is trustworthy. This **certifies t
 seat's framing**: F₄ has `w₀ = −1`, so *every* F₄ representation is self-conjugate and
 chirality is impossible under F₄ — the θ-projection route is genuinely closed, as a
 computed fact rather than a cited one. Meanwhile `su(3)⊕su(2)⊕u(1)` does admit complex
-reps (SU(3) 3 is complex), so **rank 4 + chirality is not excluded in principle**. What
-must be avoided is specifically landing on F₄.
+reps (SU(3) 3 is complex), so **rank 4 + chirality is not excluded in principle**.
+
+Note the sharper structural fact: **every rank-4 *simple* group is chirality-dead** —
+F₄, Sp(8), SO(9) and SO(8) all have `w₀ = −1`. Chirality at rank 4 therefore requires a
+**non-simple** target with a complex factor: `su(3)⊕su(2)⊕u(1)`, or SU(5), or SU(3)×G₂.
+This is a useful filter for the seat: any mechanism whose output is a rank-4 *simple*
+group has already failed, without needing to look at the 27.
+
+### (e) The general principle, stated correctly — and the chirality-preserving routes
+
+**Rank reduction does not kill chirality.** A complex rep of G stays complex under
+H ⊂ G iff H itself has complex reps, i.e. `−1 ∉ W(H)` — a condition orthogonal to rank.
+What creates the E₆ problem specifically is that the 27's own **orbit structure**
+funnels generic VEVs into F₄ / Spin(9) / SO(8): the entire "det ≠ 0" half of the 27 is
+chirality-death.
+
+> **Chirality survives only if the 27 VEV sits on the singular (det = 0, j# = 0)
+> stratum — the closed orbit, the cone over the Cayley plane — and each such VEV drops
+> rank by exactly 1. Hence TWO Jordan-rank-1 VEVs, in two different 27s, are needed to
+> reach rank 4 with chirality alive.**
+
+| mechanism | little group | rank | 27 becomes | chirality |
+|---|---|---|---|---|
+| 27 VEV at Jordan-rank-1 point | Spin(10) | 5 | 16+10+1 | **ALIVE** |
+| 27 VEV generic (det ≠ 0), single D-flat direction | **F₄** | 4 | 26+1, real | **DEAD** |
+| 27 VEV at Jordan-rank-2 point | Spin(9)-type | 4 | real | **DEAD** |
+| two generic 27s, D-flat | SO(8) | 4 | real | **DEAD** |
+| **two 27s at two rank-1 points** | **SU(5)** | **4** | 10+2·5̄+5+2·1 | **ALIVE** |
+| 351′ at the (1)(8) | Spin(10) | 5 | complex | ALIVE |
+| 351′ at the F₄ / usp₈ singlet | F₄ / Sp(8) | 4 | real | DEAD |
+| 351′ at the SU(5)-singlet of the 126 | SU(5)-preserving | ≤ 4 | complex | ALIVE |
+| **650 at the (1,1) of su₃⊕G₂** | **SU(3)×G₂** | **4** | (6,1)+(3,7) | **ALIVE** |
+| 78 (any real VEV) | Levi | 6 | complex | ALIVE |
+
+**So E₆ → rank 4 with chirality intact does exist**, via E₆ → SU(5) (two Jordan-rank-1
+27 VEVs — phenomenologically the one that matters) and, as a curiosity, E₆ → SU(3)×G₂
+(650 VEV). The exact structural mirror holds one level down: in SO(10) a 16 VEV must be
+a **pure spinor** to leave SU(5) with chirality alive; a non-pure spinor sits on the
+generic orbit; and the 54's rank-reducing direction gives SO(9), where the 16 becomes
+real and the theory is vector-like.
+
+**What this means for the seat.** The group theory is not the obstruction, and the seat
+should not present it as one. The open question is whether a **flat connection** — as
+opposed to a Higgs VEV — can land on a chirality-preserving rank-4 subgroup. Holonomy
+gives a *centralizer of a subgroup*; a Higgs VEV gives a *stabilizer of a vector*. These
+are different classes of subgroup (the Levi vs pseudo-Levi distinction of §4(c) is the
+visible edge of this), and no source found addresses whether the chirality-preserving
+rank-4 targets — SU(5), su(3)⊕su(2)⊕u(1), SU(3)×G₂ — are realizable as commutants of a
+non-abelian holonomy in E₆. **That gap is the seat's actual research question, and it is
+sharper than the one in the brief.**
 
 ---
 
@@ -499,12 +630,15 @@ by Keurentjes and Sato. The panel has not seen this constraint stated in the GUT
 literature (it is standard knot theory, but it has apparently never had to meet this
 application). **The seat will hit this; it should plan for it.**
 
-**NG4 — F₄ kills chirality (certified §4(d)).** `w₀ = −1` for F₄, hence every F₄
-representation is self-conjugate; the 27 → 26 ⊕ 1 is real and matter is vector-like.
-Confirms the brief's premise as computed fact. Note the sharp trap: the **generic**
-orbit stabilizer of a 27 VEV *is* F₄ — so the most obvious rank-6→4 Higgs mechanism
-lands exactly on the chirality-killing subgroup. Rank reduction to 4 via the 27 must
-use a **non-generic** direction.
+**NG4 — F₄ kills chirality, and so does every rank-4 simple group (certified §4(d)).**
+`w₀ = −1` for F₄, hence every F₄ representation is self-conjugate; 27 → 26 ⊕ 1 is real
+and matter is vector-like. The same holds for **Sp(8), SO(9), SO(8)** — *every rank-4
+simple group is chirality-dead*. Chirality at rank 4 requires a non-simple target with
+a complex factor. Note the sharp trap: the **generic** orbit stabilizer of a 27 VEV *is*
+F₄, so the most obvious rank-6→4 Higgs mechanism lands exactly on the chirality-killing
+subgroup; and E₆ → F₄ is reachable **both** by a VEV **and** by the outer involution θ,
+two distinct routes to the same dead end. Rank reduction to 4 with chirality must land
+on the **singular** stratum (Spin(10) at rank 5, then SU(5) at rank 4).
 
 **NG5 — The rank-4 gap in the only exhaustive E₆ flat-connection computation.**
 Keurentjes hep-th/9902186 finds E₆ unbroken ranks **{6, 2, 0, 0}** — **rank 4 does not
@@ -543,23 +677,32 @@ Defensible now:
   structurally distinct from both published mechanisms (cyclic Wilson lines; non-toral
   commuting triples on T³), and that m004's π₁ has exactly that shape.
 - That non-abelian holonomy from π₁(m004) is genuinely available (A₄, D₅, S₅ realized).
-- That F₄ is chirality-dead by computation (`w₀ = −1`), while rank-4
-  `su(3)⊕su(2)⊕u(1)` is chirality-capable — so the target is not excluded in principle.
+- That F₄ — and indeed every rank-4 *simple* group — is chirality-dead by computation
+  (`w₀ = −1`), so chirality at rank 4 requires a non-simple target.
+- That the **open question is whether a commutant (flat-connection) construction can
+  reach a chirality-preserving rank-4 target**, since the known chirality-preserving
+  rank-4 breakings are all *Higgs-VEV stabilizers*, a different class of subgroup. No
+  source found addresses this. **This is the sharpest honest framing of the project.**
 
 Must NOT be claimed:
 - Novelty of "non-abelian Wilson lines reduce rank" — that is **Sato 1989/1990**, with
   rank-4 SM-like models *and* chiral fermions already claimed. Cite it.
 - Novelty of "flat connections on a 3-manifold break a gauge group to lower rank" —
   that is Keurentjes / Witten / Borel–Friedman–Morgan on T³.
+- **Novelty of "E₆ → rank 4 with chirality intact"** — that is standard GUT group
+  theory (E₆ → SU(5) via two Jordan-rank-1 27 VEVs; E₆ → SU(3)×G₂ via a 650). The
+  novelty, if any, is in the *mechanism*, not the endpoint.
 - That Q4's null is certified. It is **"not found by an auditable sweep"**, with no
   general-web layer and no MathSciNet. Treat Acharya hep-th/0212294 as the paper to
   cite, extend, and differentiate from.
 
 The single highest-value next computation: **take a non-abelian quotient of π₁(m004)
 with cyclic abelianization (A₄ is the smallest), embed it in E₆, and compute the
-centralizer's rank and the 27's decomposition.** If rank 4 with the 27 still complex,
-that is the result. If rank collapses past 4 (NG7), that is the real obstruction and it
-is worth knowing in a day rather than a month.
+centralizer's rank and the 27's decomposition.** Three outcomes, all informative:
+rank 4 with the 27 still complex is the result; rank 4 but landing on a *simple* group
+(F₄/Sp(8)/SO(9)/SO(8)) is chirality-dead by NG4 and kills that embedding immediately;
+rank collapsing past 4 is the Zariski-density overshoot of NG7, which is the real
+structural obstruction and is worth knowing in a day rather than a month.
 
 ---
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## B958 — the presence side scoped: we never built the invisible 12 ourselves
+- **The repo has no independent M12 construction** — B909 verified §LVIII by *running the incoming material*, not by rebuilding. Same shape as B950: there we compared against a target we never wrote down; here we verified data we never built.
+- **One genuine frame-independent test, run on our own e₆ and passed:** dim Z(su(3)_colour) = **16** (rank 62 of 78), so a colour-blind dim-12 M12 is **consistent**. Necessary, not sufficient — labelled as such.
+- **Deferred honestly:** reconstructing their frame wrongly would give a false verification *or* a false refutation. The presence side **remains owed**; **L135 registered** — build the frame here, worth doing whatever the presence side turns out to be. 5 locks.
+
 ## B957 / L124 — B700's torsor is **not** the CMR torsor, and the two corrections rhyme
 - **Category mismatch, not a near-miss:** every B700 torsor has group **ℤ/2** over a quadratic field; CMR's is the **infinite** idèle class group of ℚ(√−3). The fields are **mutually blind** (5 inert in ℚ(√−3), 3 inert in ℚ(√5) — both recomputed). **Refuted, not merely unearned.** L124 closed; B723's banner amended to cover both clauses.
 - **The convergence:** B942 moved *chirality* from Gal(K^ab/K) to Gal(K/ℚ); this moves *values* to a quadratic ℤ/2. **Both order 2. B723 was systematically one level too high in both clauses.**

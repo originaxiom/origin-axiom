@@ -20130,6 +20130,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B958": {
+   "slug": "presence scope",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "B909",
+    "B946",
+    "B948",
+    "B950",
+    "L135"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B95": {
    "slug": "degree rank mechanism",
    "motifs": [
