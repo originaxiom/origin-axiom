@@ -1,5 +1,10 @@
 # Changelog
 
+## B948 — the relay executed, and the dead-clause sweep
+- The solo seat **withdrew its own §LXXXI-AC5/AC6** on reading B942 and recorded **the observer's mechanism as OPEN, not settled**. All three B946 adjudications accepted, including the one against itself.
+- Sweep: **the rooms are clean** — the retracted clause never leaked into `knowledge/`, `philosophy/`, `speculations/`, `story/`. LAW_MAP's B723 row was stale and is **superseded** (READ B942 FIRST).
+- The mixed case handled by distinction: **B736-P2's ζ-pole obstruction STANDS** (re-verified in B942 to 6e-11) while the reading built on it does not. **Retract the claim, keep the theorem.** 4 locks.
+
 ## B946 amendment — the residue primes are class-sorted (with the base rate)
 - 421493 and 1129 are **transposition-class** (with 953, whose role is derived); 13 and 17 are **identity-class**. So each degree's residue is a **mixed pair**, one from each class — degree 1: 13×421493, degree 2: 17×1129, degree 3: nothing.
 - **Base rate declared: two mixed pairs arise by chance with p = 1/4.** Recorded as a **pattern worth a prereg, not a law**; the discriminating test needs a third degree this cubic doesn't have.

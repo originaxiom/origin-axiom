@@ -19898,6 +19898,33 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B948": {
+   "slug": "relay ssb sweep",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B721",
+    "B723",
+    "B736",
+    "B849",
+    "B851",
+    "B942",
+    "B946",
+    "L113",
+    "L124",
+    "P2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B94": {
    "slug": "tower universality",
    "motifs": [
