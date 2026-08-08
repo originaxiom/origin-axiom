@@ -311,6 +311,36 @@ cascade is the shape landing, the null is the numbers not landing.
 
 ---
 
+## 12. THE THREE ANATOMIES
+
+**`plate_M_faces.png`**
+
+**What you are looking at.** Not the object — the *language* used to describe it. The
+programme says "the object has faces". The word is defined three incompatible ways on
+`main`, and they were never reconciled: **two** (being ℚ(√−3) / hearing ℚ(√5), "the two
+hands"), **three** (B730's forced faces closing at a Klein-four V₄, with *meeting*
+ℚ(√−15) = being·hearing), and **eleven** (the operational anatomy actually wired into the
+instrument, `B738/kill_graph.json`). Panel 3's bars are counted from that file at render
+time — 741 entries, 11 face names — not recalled.
+
+**The one thing to notice.** Two different faces claim the same third slot. `LAW_MAP.md`
+line 170 banks emittance as *"a real THIRD FACE"* (B735); B730 says *"beyond being and
+hearing there is exactly ONE more forced face — the meeting."* Both are on main, today.
+And the anatomy is mostly ornamental: B805 measures that **567 of 733 arcs (77%) attach
+to no face at all**, and **6 of the 11 faces carry no proved arc**. Meanwhile *family* is
+never defined as a term anywhere in the repo, and no document declares the shift to
+reading the object relationally — it is reconstructible only from four arcs over five
+days (B803, B805/6, B855, B856).
+
+**Status: a vocabulary report, not a mathematical claim.** Nothing here is proved or
+disproved; the plate asserts only what the files say. It earns its place in the atlas
+because it is upstream of everything else in it: 24 of the 32 lead-closures in the
+ledger were made before that shift, and 20 of 25 change when re-read relationally. The
+rule that emerged is worth keeping on the wall — **a closure survives the relational
+re-read exactly when its scope sentence names no manifold.**
+
+---
+
 # WHAT IS REAL AND WHAT IS VOCABULARY
 
 This section exists because the programme that produced these plates has an internal
