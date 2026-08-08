@@ -10365,5 +10365,15 @@
   ],
   "fact_computed": true,
   "hatch": "It holds for FIVE of seven families (V, W, d_S, d_A, m_S) and fails for TWO (mu_charge, kappa_compact), both with EMPTY mid-only sets and leading supports of size 5 and 6 -- so this is a narrowing, not a demolition. The failures are structured: the holders are the VALUE families and the failures are the PENCIL CUBICS, which are geometric rather than value objects. That observation is POST-HOC (seen after results) and is registered as L137 requiring its own sealed cell with the value/pencil partition declared in advance; re-describing SPECIAL as 'holds on the value layer, fails on the pencils' without that seal would be post-hoc rescue."
+ },
+ {
+  "id": "B960",
+  "claim_killed": "That B959's no-go could be escaped by working in the ADJOINT form E6/Z3, where rank-2 elementary abelian subgroups can be non-toral and a rank-4 centralizer might therefore exist.",
+  "kill_form": "self-defeating-escape",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "None within the centralizer class: the escape is self-defeating because the adjoint form HAS NO 27 (omega_1 is not in the root lattice, so the centre Z/3 acts nontrivially and the 27 is a rep of the simply connected form only) -- escaping costs exactly the chirality the escape was meant to preserve. What remains OUTSIDE this kill's class is anything that is not a centralizer construction: a Higgs-type VEV (E6 -> SU(5) via two 27 VEVs achieves rank 6->4 with the 27 complex and is STANDARD, per B955), an orbifold projection, or a quotient that is not a commutant. The object simply does not supply those."
  }
 ]

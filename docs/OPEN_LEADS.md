@@ -959,3 +959,12 @@ clause, not the whole normalisation.
 > **in advance**; B947 could not do that, having sealed only a per-family pass/fail.
 > Re-describing B947's SPECIAL as "holds on the value layer, fails on the pencils" without
 > that seal would be **post-hoc rescue**.
+
+> **L136 — CLOSED 2026-08-08 by B960: THE HATCH CLOSES ITSELF.** ω₁ is **not** in E₆'s root
+> lattice, so the centre ℤ/3 acts nontrivially on the **27** and the 27 is a representation
+> of the **simply connected** form only — **the adjoint form has no 27**. Escaping there costs
+> exactly the chirality the escape was meant to preserve. **B959's torality step therefore
+> applies without qualification, and its no-go is complete within the centralizer class:
+> no measurement, holonomy, or finite image on this object can produce chiral matter at
+> rank 4.** Still outside the class and untouched: a Higgs-type VEV (standard — B955), an
+> orbifold projection, or any quotient that is not a commutant.

@@ -1,0 +1,20 @@
+{
+ "cartan_det": 3,
+ "centre_of_simply_connected_E6": "Z/3",
+ "fundamental_weights_in_root_lattice": {
+  "omega_1": false,
+  "omega_2": true,
+  "omega_3": false,
+  "omega_4": true,
+  "omega_5": false,
+  "omega_6": false
+ },
+ "the_27_highest_weight_in_root_lattice": false,
+ "centre_acts_nontrivially_on_27": true,
+ "the_27_is_a_rep_of": "the SIMPLY CONNECTED E6 only",
+ "adjoint_form_has_a_27": false,
+ "adjoint_form_reps": "exactly the trivial-central-character ones (root-lattice weights: 78, 650, ...)",
+ "verdict": "L136 CLOSED -- the hatch closes itself",
+ "reason": "escaping to the adjoint form costs the 27, the very object whose chirality was the point; so the simply connected form is FORCED and B959's torality argument applies without the hatch",
+ "consequence": "B959's NO-GO is complete within the centralizer class"
+}

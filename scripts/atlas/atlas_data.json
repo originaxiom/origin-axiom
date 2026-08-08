@@ -20230,6 +20230,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B960": {
+   "slug": "l136 adjoint",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B955",
+    "B957",
+    "B959",
+    "L136"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B96": {
    "slug": "geometry invariants",
    "motifs": [

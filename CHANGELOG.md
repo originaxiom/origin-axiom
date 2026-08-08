@@ -1,5 +1,10 @@
 # Changelog
 
+## B960 / L136 — the adjoint hatch **closes itself**; B959's no-go is complete
+- **ω₁ ∉ E₆'s root lattice** ⟹ the centre ℤ/3 acts nontrivially on the **27** ⟹ **the adjoint form has no 27.** The escape route costs exactly the chirality it was meant to preserve.
+- So the **simply connected form is forced by the presence of matter**, B959's torality step applies unqualified, and the wall is now **unconditional within the centralizer class**: *no measurement, holonomy, or finite image on this object produces chiral matter at rank 4.*
+- Still **outside** the class and untouched: a Higgs-type VEV (standard), an orbifold projection, any non-commutant quotient. Unsealed status declared. 4 locks.
+
 ## B947 / L130 — the thinning is **not** a law: 5 of 7, and the seal's gloss corrected
 - Sealed with the prior as SPECIAL; **LAW did not clear the bar.** Gate passed; **exclusion set empty**, so it could not shape the result.
 - **Holds for V, W, d_S, d_A, m_S; fails for μ and κ** — both with *empty* mid-only sets and 5–6 prime leading supports. Not borderline.
