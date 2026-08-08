@@ -20383,6 +20383,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B969": {
+   "slug": "kato yukie verify",
+   "motifs": [
+    "kappa",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B862",
+    "B961",
+    "B962",
+    "L135",
+    "L138",
+    "L141",
+    "L142"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B96": {
    "slug": "geometry invariants",
    "motifs": [

@@ -1,5 +1,12 @@
 # Changelog
 
+## B969 — **L138 FIRES**: the object's canonical pair returns **K**, verified 3/3
+- Re-derived on this bench: three pencil cubics, all **irreducible**, all with disc squarefree kernel **{7,11}** (μ's √77 signature), and μ factoring **[1,2]** over each ⟹ **ℚ[x]/P ≅ K exactly**. **The object distinguishes a rational two-27 orbit.**
+- **SCOPE, stated up front:** Kato–Yukie classify **orbits** — *a canonical orbit is not a canonical VEV*; within the orbit the choice stays free. Even a distinguished orbit gives a **direction**, not values.
+- **Solo's own control withdrawn and banked with the result** (ker g₁₄ = ker g₂₂ — no second canonical triple). Their five controls and the new frame fact are **not** verified here (the L135 gap).
+- **My error, caught by them:** the spec ledger called the global **ℤ₆** form "not addressed" — **B862 derives it**, and it's the one row where we *outperform* the SM. Corrected.
+- **L141** the anomaly layer is scale-free *by theorem* (RG-invariance) — the one part of QFT a scale-free object may speak about. **L142** three sites, one field — registered, not pronounced. 8 locks.
+
 ## MASTERPLAN v3 registered — before the handoff, deliberately
 - **Phase A** close out the SM surface (L134 the never-addressed twelve exotics, L132 non-vacuity, L137, L135) · **Phase B** L138, the one live opening, depth not parallelism · **Phase C** the new frontier — **opening with a specification ledger, not a probe**, because the SM gap came from an unwritten target.
 - **The handoff clause:** an incoming handoff is *verified first, then folded in as a dated amendment* — it complements the plan, it does not redirect it.

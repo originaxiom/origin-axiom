@@ -72,7 +72,7 @@ This is the column that decides where a new theory can contribute at all.
 
 ### B2. CHOSEN / MEASURED — derived by nothing
 
-- **Why SU(3)×SU(2)×U(1)** at all, and why that global ℤ₆ form
+- **Why SU(3)×SU(2)×U(1)** at all *(the global ℤ₆ form is **derived** — B862)*
 - **Why three generations** — derived nowhere in accepted physics
 - **All 19 (26/28) parameters** — every one measured, none predicted
 - Why m_H ≪ M_Pl (hierarchy), why θ_QCD ≈ 0 (strong CP)
@@ -89,7 +89,7 @@ This is the column that decides where a new theory can contribute at all.
 | SM requirement | object's delivery | status |
 |---|---|---|
 | the gauge **algebra** | second measurement lands on **su(3) ⊕ su(2) ⊕ u(1)³** (B892) | **PARTIAL — see §D1** |
-| the global ℤ₆ form | not addressed | **absent** |
+| the global **ℤ₆** form | **DERIVED** — the cascade selects **[SU(3)×SU(2)×U(1)]/ℤ₆** (B862), resolving an ambiguity **the SM itself cannot fix** | **DELIVERED — the strongest row in this table** |
 | **3 generations** | generation-shape structural (B897); D₂ carries the entire hierarchy (B928); orbit↔generation bijection (solo, unverified) | **structural, count matches** |
 | 15/16 per generation | the **27** and its branchings; the 16 = SO(10) spinor appears in the chain | **structural** |
 | **hypercharges** | `hyper.py` fit reproduces at rank 3 (B892 §4) — but **no derivation from anomaly cancellation inside the object** | **OPEN — the sharpest available target** |
@@ -129,10 +129,11 @@ value-level without being value-matching, so the firewall permits it.
 
 ### D3. What "complete" would actually require of us
 
-Against §B2, a complete picture would have to supply: the group *and its global form*; the
-generation count *with the reps*; the hypercharges; chirality *without an inserted closing*;
-and at least ratios among the 19. **We currently have: the algebra up to two U(1)s,
-the generation count structurally, chirality only via an external closing, and no values.**
+Against §B2, a complete picture would have to supply: the group; the generation count *with
+the reps*; the hypercharges; chirality *without an inserted closing*; and at least ratios
+among the 19. **We currently have: the algebra up to two U(1)s, the global ℤ₆ form DERIVED
+(B862 — the one row where we outperform the SM), the generation count structurally, chirality
+only via an external closing, and no values.**
 
 ---
 

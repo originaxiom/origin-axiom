@@ -1007,3 +1007,25 @@ clause, not the whole normalisation.
 > row citing an arc whose verdict contains a scope marker (*only, assumes, inferred, cited
 > not re-derived, not established, post-hoc, screened, one-prime, not certified*) **must
 > carry a scope marker of its own.** Mechanical, and it would have caught all three.
+
+> **L138 — FIRED 2026-08-08, verified by B969.** The object's canonical pair (the vacuum
+> 3-block = the common kernel of the compact charges) has Kato–Yukie orbit invariant **K**:
+> three pencil cubics, all irreducible, all with disc squarefree kernel **{7,11}** (μ's √77
+> signature), and μ factoring **[1,2]** over each ⟹ **ℚ[x]/P ≅ K exactly**. Re-derived on this
+> bench 3/3. **SCOPE: Kato–Yukie classify ORBITS — a canonical orbit is NOT a canonical VEV;
+> within the orbit the choice remains free.** Solo's own control withdrawn and banked with it
+> (ker g₁₄ = ker g₂₂, so no second canonical triple).
+>
+> **L141 — THE ANOMALY LAYER IS SCALE-FREE BY THEOREM (registered 2026-08-08, from solo
+> §CXII).** 't Hooft anomalies are **RG-invariant** — evaluable from the massless spectrum
+> alone, constant along the flow. So the anomaly layer is **the one part of QFT a scale-free
+> object may speak about without crossing Gate 5**, and it **constrains dynamics** (a
+> nontrivial anomaly forbids a trivial IR). This is *why* hypercharge-from-anomalies is the
+> sharpest available target — and why it is **the only one of its kind**.
+>
+> **L142 — THREE SITES, ONE FIELD: one theorem or three facts? (registered 2026-08-08, from
+> solo §5.)** K now appears at three constructions in two representations: μ's adjoint pencil,
+> κ's adjoint pencil, and the cubic form on the compact kernel **in the 27**. **Not adjudicable
+> by opinion.** The discriminating test, named: **exhibit a morphism carrying one pencil to
+> another, or show the agreement is only of outputs.** B961's instrument is the right bench;
+> it needs the solo frame definitions (L135).
