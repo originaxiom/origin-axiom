@@ -1,5 +1,9 @@
 # Changelog
 
+## B946 amendment — the residue primes are class-sorted (with the base rate)
+- 421493 and 1129 are **transposition-class** (with 953, whose role is derived); 13 and 17 are **identity-class**. So each degree's residue is a **mixed pair**, one from each class — degree 1: 13×421493, degree 2: 17×1129, degree 3: nothing.
+- **Base rate declared: two mixed pairs arise by chance with p = 1/4.** Recorded as a **pattern worth a prereg, not a law**; the discriminating test needs a third degree this cubic doesn't have.
+
 ## B946 — solo handoff 6 verified: §LXXXII lands exactly on B941, and λ is forced
 - **4/4 exact** against this bench's independently computed data, including solo's own honestly-flagged non-clean case (disc is *not* 953-free). **e₃(V)/λ⁴ = 27** and B941's headline numerator 27·2304⁴ are **the same fact by two routes**.
 - **λ = 2304/953 is FORCED** by e₃/27 — the τ-gauge coupling drops out of the clean-norm requirement rather than being inserted.

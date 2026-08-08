@@ -66,3 +66,17 @@ def test_the_adjudications_are_recorded():
     assert "B892 stands" in txt                       # (c)
     # and the honest non-discharge
     assert "not verified here" in txt and "recorded as owed" in txt.lower()
+
+
+def test_the_residue_primes_are_class_sorted_and_the_base_rate_is_declared():
+    """Each degree's residue is one identity-class prime x one transposition-class
+    prime -- and the 1/4 base rate for two samples must be recorded with it."""
+    r = _res()
+    cls = r["frobenius_class_of_residue_primes"]
+    assert cls["953"] == -1 and cls["421493"] == -1 and cls["1129"] == -1
+    assert cls["13"] == 1 and cls["17"] == 1
+    assert r["degree1_pair_is_mixed_class"] is True
+    assert r["degree2_pair_is_mixed_class"] is True
+    assert r["mixed_pair_base_rate_two_samples"] == 0.25
+    txt = " ".join((CELL / "FINDINGS.md").read_text(encoding="utf-8").split())
+    assert "pattern worth a prereg, not a law" in txt

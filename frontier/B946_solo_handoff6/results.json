@@ -35,5 +35,16 @@
  "b941_headline_numerator": 760840571584512,
  "equals_2p32_3p11": true,
  "e3_equals_27_lambda4": true,
- "ALL_SOLO_CLAIMS_VERIFY": true
+ "ALL_SOLO_CLAIMS_VERIFY": true,
+ "frobenius_class_of_residue_primes": {
+  "13": 1,
+  "421493": -1,
+  "17": 1,
+  "1129": -1,
+  "953": -1,
+  "20417473": 1
+ },
+ "degree1_pair_is_mixed_class": true,
+ "degree2_pair_is_mixed_class": true,
+ "mixed_pair_base_rate_two_samples": 0.25
 }

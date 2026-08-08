@@ -157,3 +157,38 @@ direction of the week's evidence is the opposite.
 forced rather than assumed; the thinning law registered; all three adjudications
 answered; the handoff flagged as behind on B940–B943 with B942 load-bearing against its
 own framing.**
+
+---
+
+## 8. Amendment (same day) — the residue primes are NOT orphans, and each degree is a mixed pair
+
+L130 asked whether {13·421493, 17·1129} is reachable from anything banked. **Partly, yes** —
+B931/B937's √77 quadratic-resolvent class law already covers them. Recomputed here via the
+symbol (6237 | p):
+
+| prime | (6237 \| p) | class |
+|---|---|---|
+| 953 (the observer's place) | −1 | transposition |
+| **421493** | −1 | **transposition** |
+| **1129** | −1 | **transposition** |
+| **13** | +1 | **identity** |
+| **17** | +1 | **identity** |
+| 20417473 | +1 | identity |
+
+So the residue at **each** degree is a **mixed pair — one identity-class prime times one
+transposition-class prime**:
+
+> degree 1: **13 (id) × 421493 (transp)** · degree 2: **17 (id) × 1129 (transp)** · degree 3: **nothing**
+
+The transposition-class members sit in the same class as **953**, whose role *is* derived
+(B931: the twist's critical prime). So the un-derived residue is not arithmetic noise —
+it is drawn from the two classes the programme already knows, one from each, at every
+degree that carries anything.
+
+**BASE RATE, stated because two points is two points.** If class membership were a coin
+flip, a given pair is mixed with probability 1/2, so *two* mixed pairs arise by chance
+with probability **1/4**. That is nowhere near significant. **This is a pattern worth a
+prereg, not a law**, and L130 is amended to say so: the discriminating test is a third
+degree — which this cubic does not have. It would need the analogous table for a
+higher-degree family (the S–A mixing overlap W, or the quartic sector) to become
+falsifiable at all.
