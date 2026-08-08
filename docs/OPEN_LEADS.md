@@ -933,3 +933,17 @@ clause, not the whole normalisation.
 > the "verified data we never built" gap. **Prerequisite for discharging the presence-side
 > debt, which remains owed.** One necessary condition already checked on our own e₆:
 > dim Z(su(3)_colour) = **16** (rank 62 of 78), so a colour-blind dim-12 M12 is consistent.
+
+> **L133 — CLOSED NEGATIVE 2026-08-08 by B959** (no centralizer construction reaches rank 4
+> with a complex 27, in the simply connected form).
+>
+> **L136 — THE ADJOINT-FORM HATCH (registered 2026-08-08, from B959 §5).** B959's torality
+> step uses Steinberg's connectedness theorem and therefore **assumes the simply connected
+> form of E₆**. It breaks at rank 3 because Z(x) need not be simply connected (this is why E₈
+> has its non-toral 2⁵) — and in the **adjoint** form E₆/ℤ₃ a **rank-2** elementary abelian
+> subgroup **can** be non-toral. A₄ and S₅ do supply rank 2. **So: do the object's
+> representations land in the simply connected or the adjoint form, and if adjoint, is there a
+> non-toral rank-2 subgroup with a rank-4 centralizer on which the 27 stays complex?** This is
+> the single surviving route to chiral matter at rank 4 by a centralizer construction. Note
+> B959 §2 and §3 are **form-independent**, so even in the adjoint case the outer route and
+> single inner involutions remain closed.

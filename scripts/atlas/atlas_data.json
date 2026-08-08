@@ -20167,6 +20167,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B959": {
+   "slug": "nontoral rank4",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B582",
+    "B952",
+    "B953",
+    "B954",
+    "B955",
+    "B958",
+    "L133",
+    "L136"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 26,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B95": {
    "slug": "degree rank mechanism",
    "motifs": [

@@ -10344,5 +10344,16 @@
   ],
   "fact_computed": true,
   "hatch": "The values ARE a torsor phenomenon -- B700 establishes that concretely with its own base-rate gate passed -- but the group is Z/2 over a QUADRATIC field (Q(sqrt5), Q(sqrt-7)), not the infinite profinite idele class group, and the fields are MUTUALLY BLIND (5 inert in Q(sqrt-3), 3 inert in Q(sqrt5), both recomputed). So the live successor is not 'rescue the CMR identification' but 'what does the small Z/2 torsor actually determine?' -- and note the convergence: B942 relocated CHIRALITY from Gal(K^ab/K) to Gal(K/Q) (order 2) and this arc relocates VALUES from Gal(K^ab/K) to a quadratic Galois Z/2, so B723 was SYSTEMATICALLY ONE LEVEL TOO HIGH IN BOTH CLAUSES. Any escape would need a mechanism promoting a finite Z/2 to the idele class group, which is not a near-miss but a category change."
+ },
+ {
+  "id": "B959",
+  "claim_killed": "That the object could reach chiral matter at the Standard Model's rank (4) by ANY centralizer construction -- measurement, holonomy, or the finite non-abelian images (A4, D5, S5) that survived B955's scouting.",
+  "kill_form": "rank-vs-reality-dichotomy",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "ONE hatch, named and checkable: the torality step assumes the SIMPLY CONNECTED form of E6 (Steinberg's connectedness theorem), and it breaks at rank 3 because Z(x) need not be simply connected -- which is why E8 has non-toral 2^5. In the ADJOINT form E6/Z3 a RANK-2 elementary abelian subgroup CAN be non-toral, and A4/S5 do supply rank-2. So if the object's representations land in the adjoint form rather than the simply connected one, the rank-2 non-toral inner case is NOT excluded (registered L136). Note the other two routes are FORM-INDEPENDENT and stay closed either way: inner single involutions fix the full Cartan (rank 6), and the entire outer route makes the 27 self-dual. Also NOT excluded and explicitly not the target of this kill: a Higgs-type mechanism -- E6 -> SU(5) via two 27 VEVs achieves rank 6->4 with the 27 still complex and is STANDARD (B955); it is simply not an operation the object supplies."
  }
 ]

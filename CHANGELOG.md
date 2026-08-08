@@ -1,5 +1,11 @@
 # Changelog
 
+## B959 / L133 — **NO-GO**: every route to rank 4 makes the 27 real
+- Sealed with the prior disclosed as NO-GO; **the convenient answer did not clear the bar.** Banked-identity gate passed (dim Z(su(3)) = 16).
+- **All 63 inner sign-gradings fix the full Cartan** ⟹ rank 6. **E₆'s one diagram automorphism swaps the 27/27̄ nodes** ⟹ the 27 is **self-dual on Fix(τ)**, and self-duality is inherited by restriction — **killing F₄, C₄ and every subalgebra of either with one argument.** The object's images **A₄/D₅/S₅** have elementary-abelian rank ≤ 2 ⟹ **toral** ⟹ rank 6.
+- **The object cannot reach chiral matter at rank 4 by any centralizer construction.** B952's "closed by absence" moves toward **closed by proof**.
+- **One hatch, named:** the torality step assumes the **simply connected** form; the adjoint-form rank-2 non-toral case is **L136**. Does *not* say the object can't reach the SM — the two-27-VEV route is standard, just not an operation the object has. 12 locks.
+
 ## B955 — L133 scouted: my candidate refuted (as flagged), the group theory exonerated
 - **Abelian Wilson lines are DEAD for a knot-specific reason:** H₁(knot complement) = **ℤ**, so abelian holonomy has cyclic image and preserves rank **necessarily** — the same defect as measurement. Certified: all E₆ torus elements of order ≤ 6, every centralizer rank 6. **The risk was logged in B956 before the panel returned.**
 - **The group theory is NOT the obstruction:** E₆ → SU(5) via two **27** VEVs already gives rank 6→4 with the 27 complex. Never claim it is hard or novel — the real content is that *the object's own operations* can't do it.
