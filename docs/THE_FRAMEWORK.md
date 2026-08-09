@@ -206,6 +206,38 @@ the answer. **The 122-order shortfall was never the object's.**
 
 ---
 
+
+**Added 2026-08-09 (B993–B1002) — the object/class boundary measured, and one grammar-level uniqueness:**
+
+- **The cornerstone is class-level (B993).** π₁(m004) ↠ 2T gives exactly 2 (B266, reproduced) — but
+  **32.8%** of one-cusped census manifolds carry the same count, and **Reid-uniqueness is consumed
+  at zero steps.** So the derivation is *a theorem about the class ℚ(√−3) + a theorem about E₆,
+  joined by a generic fact.* **B803's own addendum leaves one address open: a step depending on the
+  GROUP Γ itself is not a class statement.**
+- **The cascade's endpoint is rule-independent (B994).** All **six** registerable chains end at the
+  SM, so *maximal residual symmetry* — assumed and never retired — selects only the **path**. **But
+  registerability IS chirality, which B713/B760 prove the object does not supply**, so the endpoint
+  is forced by an input the object lacks. **REPRODUCED, Tier 1.**
+- **Grammar-level too (B996):** five of seven metallic words reach 2T mod 3. **Access to E₆ is
+  generic across grammars.**
+- **One genuine uniqueness (B997 + B1002).** **|SL(2,ℤ/N)| is a McKay order for exactly N ∈ {3,4,5}**
+  — proved via |SL(2,ℤ/N)| ≥ (6/π²)N³ > 120 for N ≥ 6 — and the shadow modulus is **m²+4**, meeting
+  it **only at m = 1**. **B675's law supplies the mechanism:** the reduction is an **isomorphism ⟺
+  the conductor is coprime to the shadow** (golden gcd(4,5)=1 → iso; silver gcd(2,8)=2 → ramified,
+  which is why 2O sits one quotient down). **The golden is the unique metallic grammar whose
+  own-conductor shadow IS a McKay group — at the E₈ end, Tier 1.**
+- **Four sectors, five closings (B1000).** The external inputs deduplicate to 8: **5 closings**
+  (chirality, the 27-VEV, the anchor, the 4d lift, time) over **4 sectors** — so **B717's four is
+  right for SECTORS, wrong for CLOSINGS: charge is two holes**, and **B963 proves they compete** for
+  τ. **The remaining 3 imports are ours** — the 6d type, the filling slope, P5 completeness — **bridge
+  artifacts, reducible in principle, never attempted.**
+- **And the programme now has a bar** (`WHAT_WOULD_COUNT.md`): five tiers, three grades, four
+  falsifiers, and *"the physics wall"* disambiguated into the twelve things the corpus calls a wall.
+  **Tier 0 done · Tier 1 substantially done · Tier 2 — one sealed dimensionless ratio — NOT DONE, and
+  it is the tier that decides whether the programme is physics.**
+
+---
+
 ## LAYER 6 — THE MACHINE (the second product, and not the lesser one)
 
 Preregistration with committed hashes before compute; 19+ governance gates run in seconds;

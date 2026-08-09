@@ -9801,3 +9801,38 @@ unexamined costs. **This is the first quantitative test of the observer-coupling
 the day B1000 landed; widened to four digits, and a repo-wide sweep found **no other three-digit
 cap**. *The third time today a gate fired the moment a boundary was crossed — and the first time the
 boundary was counting past 999.*
+
+## B1002 (2026-08-09) — B997's owed check discharged, and "conductor" turns out to name two things
+
+**Campaign Phase 1, item 1.** B997 proved the golden is the **unique** metallic grammar whose
+own-conductor shadow is a McKay group — **conditional on "conductor = m²+4"**, flagged as inferred
+from two data points.
+
+**Discharged from a banked law, and the answer is BOTH.** The corpus already held the definition —
+and uses the word for **two different quantities in adjacent laws**:
+
+| | golden | silver |
+|---|---|---|
+| **B675 — the *cusp order's* conductor** | **4** | **2** |
+| **B666 — the shadow modulus** | **5** | **8** |
+
+**B997 used the second, and m²+4 reproduces it exactly.** Condition discharged.
+
+**And B675 supplies the mechanism B997 lacked** — the QUANTIZATION-INDEX LAW: *the reduction is an
+**isomorphism ⟺ the conductor is coprime to the shadow**, and has a **kernel line ⟺ ramified***.
+
+    golden : gcd(4, 5) = 1  ->  ISO        silver : gcd(2, 8) = 2  ->  RAMIFIED
+
+> **So the golden's shadow IS the McKay group for TWO independent reasons: |SL(2,ℤ/5)| = 120 = |2I|
+> (with N ∈ {3,4,5} the complete list, proved), AND gcd(4,5) = 1 making the reduction an
+> isomorphism. The silver satisfies neither — and the ramification is exactly why 2O sits one
+> quotient down.**
+
+**B666 stated the fact, B675 the mechanism, B997 the uniqueness — and none cited the other two.**
+
+**A terminology collision is registered:** *conductor* = the cusp order's conductor **or** the shadow
+modulus. **Any future arc must say which** — the same class as the T1 collision (ℤ/11 vs naturality)
+and the twelve things called "the wall".
+
+**Scope unchanged: Tier 1, E₈ end, none of the 19 numbers.** What changed is that the uniqueness no
+longer rests on an inferred definition.

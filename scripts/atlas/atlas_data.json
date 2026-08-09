@@ -175,6 +175,25 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1002": {
+   "slug": "conductor reconciled",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B666",
+    "B675",
+    "B993",
+    "B997",
+    "P0"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B100": {
    "slug": "literature crosscheck",
    "motifs": [
