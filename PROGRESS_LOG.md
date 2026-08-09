@@ -9675,3 +9675,37 @@ false (B951/B962/B970); and B978-vs-the-cubic was never a tension — B978 quant
 **A framing error of this seat's, recorded:** the test was posed as *"if many rules land on the SM,
 the rule is doing the landing."* **Backwards.** Many rules landing means the endpoint is **robust**.
 The inverted framing would have turned a favourable result into a false alarm.
+
+## B995 (2026-08-09) — the census ran as sealed, returned A, and its own control voided the instrument
+
+**Sealed and pushed before compute** (`a356e987…`), **declared prior OUTCOME B**. Of eight fixed
+invariants, six fail to separate m004 from B855's two rows; **two pass both conditions** —
+`alex_coeffs` = (1,−3,1) at **0.10%** and `cover3_torsions` = (16,) at **4.40%** over 1000 one-cusped
+census manifolds, **0 skipped**. **SEALED VERDICT: OUTCOME A, against the prior.**
+
+**Then the control the prereg lacked — run because an unexpected positive against a declared negative
+prior is exactly when to be most suspicious:**
+
+1. **RARE and SEPARATING are not independent.** With a five-member separation set, P(separates by
+   chance) ≈ (1−r)⁵ = **99.5%** and **79.9%**. *Both survivors pass the conjunction for the same
+   reason they pass one half of it.*
+2. **The rarity measure asked the wrong question.** **19.3%** of the population is **unique** in its
+   Alexander polynomial. The seal asked *how many share m004's value* (one — itself) when the
+   informative question is *how surprising is uniqueness at all* — **a 1-in-5 event.**
+
+**Adjudication: sealed A, adjudicated NON-DISCRIMINATING, both recorded.** Converting A to B by fiat
+would be the post-hoc rescue the seal exists to prevent, in the mirror direction. **The instrument
+failed; the question is untouched.** The reusable constraint is the real product: separation needs a
+set with power at the invariant's own rate, and rarity must be priced against **the base rate of
+being unique**.
+
+**L146 registered, from the owner's question, and it is the reframing B995 needed.** There is a
+**common base** — **Σ₁,₁ with SL(2,ℤ)** — carrying **five** things: the four letters (A2/A3 *are*
+SL(2,ℤ); A4 *is* L, R), the object (mapping torus of A = LR), **B277's 4d lift** (same fiber, same
+word), **B150** (*the SL(2,ℤ) trace-map action **IS** the class-S S-duality action* — the same action
+read twice), and **the twelfth face** (the Fricke variety of Σ₁,₁). **E₆ is NOT on it** — it comes
+from the trace field, which B993 proved is class-level. **Two bases, treated as one.** And since B993
+placed object-specificity at the **group** level, and the group is the mapping-torus group of Σ₁,₁,
+**the owner's "same base" and B993's open address are the same place.** The right question is
+therefore *is m004 distinguished among once-punctured-torus bundles* — the family that fixes the
+axioms and varies only the word.

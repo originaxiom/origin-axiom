@@ -1,0 +1,104 @@
+{
+ "separation": {
+  "m004": {
+   "h1_torsion": 1,
+   "h1_divisors": "()",
+   "alex_coeffs": "(1, -3, 1)",
+   "alex_degree": 2,
+   "isom_order": 8,
+   "systole": 1.0871,
+   "cover2_torsions": "(5,)",
+   "cover3_torsions": "(16,)"
+  },
+  "m003": {
+   "h1_torsion": 5,
+   "h1_divisors": "(5,)",
+   "alex_coeffs": "(1, 3, 1)",
+   "alex_degree": 2,
+   "isom_order": 8,
+   "systole": 0.8626,
+   "cover2_torsions": "(5,)",
+   "cover3_torsions": "(20,)"
+  },
+  "m206": {
+   "h1_torsion": 5,
+   "h1_divisors": "(5,)",
+   "alex_coeffs": "(1, -7, 1)",
+   "alex_degree": 2,
+   "isom_order": 16,
+   "systole": 1.0871,
+   "cover2_torsions": "(45,)",
+   "cover3_torsions": "(5, 5, 5, 5, 320)"
+  },
+  "m136": {
+   "h1_torsion": 4,
+   "h1_divisors": "(2, 2)",
+   "alex_coeffs": "(1, -6, 1)",
+   "alex_degree": 2,
+   "isom_order": 8,
+   "systole": 0.8814,
+   "cover2_torsions": "(2, 2, 2, 8, 8, 8, 32)",
+   "cover3_torsions": "(4, 8, 8, 196)"
+  },
+  "m129": {
+   "h1_torsion": 1,
+   "h1_divisors": "()",
+   "alex_coeffs": "(-1, 1, 1, -1)",
+   "alex_degree": 3,
+   "isom_order": 8,
+   "systole": 1.0613,
+   "cover2_torsions": "(1, 1, 4)",
+   "cover3_torsions": "(1, 1, 1, 1, 9, 9)"
+  },
+  "m135": {
+   "h1_torsion": 8,
+   "h1_divisors": "(2, 4)",
+   "alex_coeffs": "(1, 6, 1)",
+   "alex_degree": 2,
+   "isom_order": 8,
+   "systole": 0.8814,
+   "cover2_torsions": "(4, 4, 4, 16, 16, 16, 32)",
+   "cover3_torsions": "(16, 16, 40, 200)"
+  }
+ },
+ "separates": {
+  "h1_torsion": false,
+  "h1_divisors": false,
+  "alex_coeffs": true,
+  "alex_degree": false,
+  "isom_order": false,
+  "systole": false,
+  "cover2_torsions": false,
+  "cover3_torsions": true
+ },
+ "live": [
+  "alex_coeffs",
+  "cover3_torsions"
+ ],
+ "population": 1000,
+ "counts": {
+  "alex_coeffs": 1,
+  "cover3_torsions": 44
+ },
+ "skipped": {
+  "alex_coeffs": 0,
+  "cover3_torsions": 0
+ },
+ "rates": {
+  "alex_coeffs": 0.001,
+  "cover3_torsions": 0.044
+ },
+ "rare": [
+  "alex_coeffs",
+  "cover3_torsions"
+ ],
+ "outcome": "A",
+ "control_post_hoc": {
+  "alex_unique_fraction": 0.193,
+  "cover3_unique_fraction": 0.176,
+  "P_separates_by_chance_alex": 0.995,
+  "P_separates_by_chance_cover3": 0.799,
+  "conclusion": "RARE implies SEPARATING against a 5-element set; the conjunction is ill-posed"
+ },
+ "adjudicated": "instrument non-discriminating; sealed outcome A reported unchanged"
+}

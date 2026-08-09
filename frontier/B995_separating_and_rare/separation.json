@@ -1,0 +1,50 @@
+{
+ "m004": {
+  "h1_torsion": "1",
+  "h1_divisors": "()",
+  "alex_coeffs": "None",
+  "alex_degree": "None",
+  "isom_order": "8",
+  "systole": "None"
+ },
+ "m003": {
+  "h1_torsion": "5",
+  "h1_divisors": "(5,)",
+  "alex_coeffs": "None",
+  "alex_degree": "None",
+  "isom_order": "8",
+  "systole": "None"
+ },
+ "m206": {
+  "h1_torsion": "5",
+  "h1_divisors": "(5,)",
+  "alex_coeffs": "None",
+  "alex_degree": "None",
+  "isom_order": "16",
+  "systole": "None"
+ },
+ "m136": {
+  "h1_torsion": "4",
+  "h1_divisors": "(2, 2)",
+  "alex_coeffs": "None",
+  "alex_degree": "None",
+  "isom_order": "8",
+  "systole": "None"
+ },
+ "m129": {
+  "h1_torsion": "1",
+  "h1_divisors": "()",
+  "alex_coeffs": "None",
+  "alex_degree": "None",
+  "isom_order": "8",
+  "systole": "None"
+ },
+ "m135": {
+  "h1_torsion": "8",
+  "h1_divisors": "(2, 4)",
+  "alex_coeffs": "None",
+  "alex_degree": "None",
+  "isom_order": "8",
+  "systole": "None"
+ }
+}

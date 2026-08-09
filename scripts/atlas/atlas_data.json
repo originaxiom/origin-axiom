@@ -21052,6 +21052,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B995": {
+   "slug": "separating and rare",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B855",
+    "B985"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B99": {
    "slug": "geometric jacobian sl3",
    "motifs": [

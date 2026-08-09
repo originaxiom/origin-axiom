@@ -1197,3 +1197,93 @@ register, against a **36% corpus baseline** (342 of 941 arcs are named in no reg
 unremarkable.** The finding is the *unindexed structure*, not anomalous loss.
 
 > **Review 41 — 2026-08-09.** 43 leads triaged with cc3 (29 STALE-CLOSED with quoted sentence + path, 2 STALE-PREMISE, 12 LIVE). Six OVER-WIDE closures carry scope notes; **L77 withdrawn**; **L73 and L98 held out of any closed count**; **L145** registered.
+
+---
+
+## L146 — IS m004 SPECIAL AMONG ONCE-PUNCTURED-TORUS BUNDLES? (registered 2026-08-09, from the owner's "same base" question)
+
+**The reframing B995 needed and did not have.** B995 asked *"is m004 special among all 3-manifolds"*
+and its instrument could not answer: rarity implies separation against a small set, so the
+conjunction is ill-posed. **The owner's question supplies the right population.**
+
+**The observation, verified against the corpus:** there is a **common base** — the **once-punctured
+torus Σ₁,₁ and its mapping class group SL(2,ℤ)** — and **five things sit on it**:
+
+1. **the four letters** — A2/A3 give **SL(2,ℤ)**, A4 gives the shears **L, R**; *the axioms are the
+   mapping class group of Σ₁,₁*
+2. **the object** — m004 is the mapping torus of **A = LR** on Σ₁,₁
+3. **B277's 4d lift** — fiber **Σ₁,₁**, monodromy **RL**: same surface, same word
+4. **B150 [PROVED]** — *"the SL(2,ℤ) trace-map action on the Fricke character variety **IS** the
+   N=2\* class-S S-duality mapping-class action"* — **not an analogy; the same action read twice**
+5. **the twelfth face** — the character-variety / trace-map substrate (cc3's three readers, named
+   independently) **is** the Fricke variety of Σ₁,₁
+
+**And E₆ is NOT on that base.** It arrives via 2T ⊂ SU(2) → McKay from the **trace field** ℚ(√−3) —
+the arithmetic route, which **B993 proved is class-level**.
+
+> **There are TWO bases, and the programme has been treating them as one.** Σ₁,₁/SL(2,ℤ) carries the
+> letters, the object, the lift and the character variety; ℚ(√−3) carries E₆.
+
+**Why this is the right test bed.** B993 concluded that object-specificity, if it exists, lives at
+the **GROUP** level — a step depending on Γ itself. **The group is the mapping-torus group of Σ₁,₁
+under A = LR.** So the owner's "same base" and B993's open address are **the same place**.
+
+**THE QUESTION:** *is m004 distinguished among once-punctured-torus bundles* — the family that shares
+its axioms and varies only the word? That family is small, structured and arithmetically uniform:
+**B204** proves a closed-form WRT level-period law for **all** of them, with the metallic family as
+its diagonal, and **B136** characterises amphichirality across them by a word condition.
+
+**Honest caveat:** being on the base is shared by the whole family, so the base is not itself
+object-specific. **That is exactly why it is the right population** — it holds the axioms fixed and
+varies only the word, which is what a separation test needs to have power.
+
+**Design constraint inherited from B995, binding:** separation must be measured against a set large
+enough to have power at the invariant's own rate, and rarity priced against **the base rate of being
+unique**, not the frequency of one value.
+
+### L146 — SHARPENED 2026-08-09, and the population is corrected
+
+**The "base rate over grammars" control cannot be run as first posed, and the reason is a theorem.**
+`docs/THE_END_TO_END_CHAIN.md` **C2 [THEOREM — self-selection]**: applying the minimal-description
+principle to its own parameter has a **UNIQUE FIXED POINT**, the golden slope — *"not chosen,
+self-selected."* Combined with **C1 [THEOREM — Morse–Hedlund]** (minimal non-trivial description is
+forced Sturmian):
+
+> **There is no ensemble of grammars at C1–C2. The population is size ONE.** A base rate has nothing
+> to average over unless C2 is relaxed — at which point one is no longer running the chain.
+
+**But the relaxation exists, is named, and has been run once.** The **metallic family RᵐLᵐ, m ≥ 2**,
+is precisely *"what if C2's self-selection did not hold"* — Sturmian-adjacent words that are **not**
+the unique fixed point.
+
+**L105 / B666 is the one executed cross-grammar comparison:**
+
+> *the silver word's mod-8 shadow generates **all** of SL(2,ℤ/8), order 384 — **not** 48; **the
+> golden's conductor is PRIME, so its shadow IS the McKay group**; the silver's conductor is a prime
+> **power**, so the McKay partner appears one quotient down.*
+
+**A structural difference, not a null** — and cc3: *"the programme's **first** executed cross-row
+comparison … **do not stale-close**."* So the grammar-level control **discriminates in the golden's
+favour**, by **conductor primality** rather than by base rate.
+
+**THE RUNNABLE TEST.** Extend L105 across the metallic family. For each m: the **conductor**, the
+**mod-conductor shadow**, and whether that shadow **IS** the McKay group or only has it as a
+quotient.
+
+**Hypothesis:** *only m = 1 has a prime conductor, so only the golden's shadow is the McKay group
+itself.* **TRUE ⟹ the E₆ arrival is grammar-specific** — the confirmation the endpoint cannot supply.
+**FALSE ⟹ the arrival is generic across grammars** and the endpoint stays uninformative.
+
+**Why this is the right control, and B993's base rate is not.** The chain **derives** m004 (C6,
+Thurston/Riley) — it never selected it from a census, so *"a third of manifolds also surject onto
+2T"* does not break it. What that base rate does is **remove the endpoint's power to confirm the
+beginning**: reaching E₆ is not evidence C1–C5 were right if a third of entry points reach E₆ too.
+**The chain can be sound and the SM still fail to corroborate it.** The grammar-level control is the
+one that speaks to the chain **as the chain is built**.
+
+**Numbers to compute, not assume:** L105 gives conductor 3 (prime, m=1) and 8 (prime power, m=2).
+**m ≥ 3 is unrun.**
+
+**Inherited design constraint (B995):** separation measured against a set with power at the
+invariant's own rate; rarity priced against the base rate of **being unique**, never one value's
+frequency.
