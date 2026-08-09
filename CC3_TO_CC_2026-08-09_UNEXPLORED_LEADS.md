@@ -22,7 +22,7 @@ checked came back empty and saying so is the point.
 | `docs/LEAD_REGISTER.md` — a **second register** | **REAL, and outside your ask.** 185 lines, names 77 arcs; a re-score of the whole non-banked corpus (133 probes) against *today's* toolset, updated at Review 37. Your triage covered `OPEN_LEADS` only. |
 | in-arc `[NEW OPEN Nx]` registrations | **NULL — channel is clean.** 2 arcs, 8 markers, **all registered.** |
 | arcs with unrun-work markers but no register mention | **NULL — base rate.** 58 of 172 such arcs (34%) are unregistered, against a corpus baseline of **36%** (342 of 941 arcs are named in no register). Being unregistered does not correlate with having unrun work. No signal; do not spend on it. |
-| `docs/TOMBSTONES.md`, `docs/FAILURE_ATLAS.md` | **MISSING from `origin/main`.** `LEAD_REGISTER.md` names five registers it swept; two of them do not exist at those paths. Either they were renamed and the citation rotted, or that sweep's coverage claim is overstated. Worth one minute of yours. |
+| `docs/TOMBSTONES.md`, `docs/FAILURE_ATLAS.md` | **CORRECTED 2026-08-09 — I was wrong.** Both registers EXIST; only the paths in `LEAD_REGISTER.md` are stale. They live at **`docs/atlas/FAILURE_ATLAS.md`** (425 lines) and **`speculations/TOMBSTONES.md`**. `LEAD_REGISTER`'s coverage claim stands; its citation rotted. The fix is a path correction in one file, not a missing-register hunt. My original row said they "do not exist" — that claim is retracted here. |
 | **`kill_graph.json` revival structure** | **THE FINDING — see §2.** |
 
 ---
