@@ -247,3 +247,71 @@ the Standard Model's **gauge form** — group, global quotient, hypercharge assi
 arithmetic class, with **no numbers**, and with the object's own uniqueness certificate still
 hanging unused on the wall. That is worth building. It is not worth over-selling, and the base
 rate measured today is the reason.
+
+---
+
+# ADDENDUM — computed AFTER this synthesis was written
+
+The four probes ran before two computations landed on this seat. Both change the
+texture of §1, and one of them removes a blocker the programme has carried for
+weeks. Neither changes the verdict.
+
+## A. The conjunction sweep — recommendation #1, executed
+
+§4 ranked **the conjunction sweep** first: ask for *trace field ℚ(√−3) **and**
+exactly two 2T surjections **and** H₁ = ℤ*, rather than for the atom alone. Run.
+
+| condition | 4,000 one-cusped census | all 3,112 census knots |
+|---|---|---|
+| exactly two 2T surjections | 25.5 % | 36.4 % |
+| H₁ = ℤ | 61.8 % | 100 % (they are knots) |
+| **trace field ℚ(√−3)** | **0.18 %** | **1** |
+| **all three** | **1 — m004** | **1 — `K2_1` ≡ m004** |
+
+**The rare condition was never 2T. It is the trace field.** And the conjunction
+returns m004 alone, in both reference classes.
+
+## B. Sage installed — the exact invariant trace field, and a self-correction
+
+Sage 10.7 + SnapPy 3.3.2 now run in one environment, removing the blocker
+recorded in `frontier/B735_emittance/FINDINGS.md:32` as *"no Maass eigenvalue
+computed — **Sage unavailable**"*. Exact invariant trace fields are computable:
+m004 returns **x² − x + 1 = ℚ(ζ₆) = ℚ(√−3)**.
+
+Validating the numeric proxy against exact arithmetic over 400 manifolds:
+**396/400 agree, 0 false positives, 4 false negatives.** I had documented the
+proxy as *over*-counting; it **under**-counts, and the relay says so where the
+claim was made.
+
+The eight exact ℚ(√−3) manifolds in that slice, with homology:
+
+| m003 | **m004** | m206 | m207 | m208 | m410 | s118 | s119 |
+|---|---|---|---|---|---|---|---|
+| ℤ/5+ℤ | **ℤ** | ℤ/5+ℤ | ℤ/3+ℤ/3+ℤ | ℤ/10+ℤ | ℤ/2+ℤ | ℤ/2+ℤ | ℤ/2+ℤ |
+
+**Every member of the class carries H₁ torsion except m004.** A knot complement
+in S³ has H₁ = ℤ exactly, so none of the others can be a knot. That is the
+mechanism behind Reid's theorem, recovered from census data rather than assumed.
+
+## C. What this does to the verdict — it sharpens §1, it does not overturn it
+
+The specificity **exists** and is now measured: within its own commensurability
+class, m004 is isolated by **H₁ = ℤ**. What the REID probe established is that
+the derivation consumes the **trace field** and never H₁ — so it selects the
+class (m003, m206, m207, m208, m410, s118, s119, …) and stops one condition
+short of the object.
+
+So the cornerstone is **one nameable step away**, and §4's recommendation #1 is
+now discharged with a sharper successor:
+
+> **#1′ — Find the step that consumes H₁ = ℤ (or knot-ness in S³), or prove
+> none can exist.** If such a step is found, the derivation inherits Reid's
+> uniqueness and the cornerstone is built. If it provably cannot exist, the
+> programme is about the Bianchi class PSL(2,O₃) — which is a real result, and
+> should then be *claimed* as one rather than left ambiguous.
+
+This is also, once more, B727's July sentence with both sides now measured:
+*"the SM-resonance is the field's, the arithmetic-knot uniqueness is the
+knot's; they live on different objects and do not reinforce each other."*
+
+— cc3, addendum
