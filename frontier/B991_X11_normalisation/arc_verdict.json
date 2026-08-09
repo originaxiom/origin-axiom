@@ -1,0 +1,14 @@
+{
+ "id": "B991",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "X11 CLOSED -- THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and that is a THEOREM ABOUT THE EQUATIONS rather than a limitation of the object. P0 quantifier: this concerns the ANOMALY-CANCELLATION EQUATIONS AS ALGEBRAIC FORMS -- not a manifold, and not even this object specifically, since it holds for ANY U(1) charge assignment in ANY theory. B951 recorded the claim by citation; it is COMPUTED HERE symbolically. Under q -> lambda*q: [SU(3)]^2 U(1) = sum q_i T_i scales as lambda^1; [SU(2)]^2 U(1) = sum q_i W_i as lambda^1; U(1)-gravitational = sum d_i q_i as lambda^1; and [U(1)]^3 = sum d_i q_i^3 as lambda^3. EVERY CONDITION IS HOMOGENEOUS, so if q solves the system then lambda*q solves it for every nonzero lambda, and THE SOLUTION SET IS A UNION OF LINES THROUGH THE ORIGIN -- A CONE -- NEVER A SET OF ISOLATED POINTS. WHAT THIS SEPARATES EXACTLY: the DIRECTION is derivable and B864 derived it (writing Q = aY + b*chi + c*psi over the chiral generation, the conditions give grav = 5b + 15c, [SU(3)]^2 = 2c, [SU(2)]^2 = 2c, FORCING b = c = 0 exactly, with psi and chi anomalous over chiral matter, Tr psi = 16 and Tr chi = 5, so they cannot be gauged and Y is the unique gaugeable direction); the NORMALISATION is not derivable BY THE FORM OF THE EQUATIONS, since a homogeneous system cannot single out a scale on its solution cone. WHY THIS CLOSES RATHER THAN STAYS OPEN: it is not a limitation of the object but a property of anomaly cancellation as such -- every GUT, every model, every framework faces the identical situation, hypercharge normalisation being a CONVENTION fixed by embedding choice (the familiar sqrt(3/5) of SU(5) normalisation) rather than derived. A RUNG THAT IS IMPOSSIBLE FOR EVERYONE, FOR A STATED STRUCTURAL REASON, IS CLOSED NOT OPEN: leaving it open would misrepresent the boundary, reading as work the programme still owes when in fact no one can do it and the reason is one line of algebra. REGISTERED CONSEQUENCE, the useful residue: any future arc claiming to DERIVE a hypercharge normalisation is claiming to break homogeneity and must EXHIBIT THE NON-HOMOGENEOUS CONDITION IT USED -- a checkable demand. The ladder rung moves from HOLE to BOUNDED with the mechanism named: HOMOGENEITY OF THE ANOMALY CONDITIONS.",
+ "depends_on": [
+  "B951",
+  "B864",
+  "B950"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), campaign order 11"
+}

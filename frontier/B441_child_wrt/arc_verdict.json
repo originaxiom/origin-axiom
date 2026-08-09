@@ -1,7 +1,7 @@
 {
  "id": "B441",
  "verdict": "NEGATIVE",
- "claim_one_line": "The child 4_1(5,1)'s WRT field is exactly Q(zeta_r), identical to the surgery skeleton at every r, so its sqrt5/sqrt-3/sqrt-15 content is forced, not object-specific.",
+ "claim_one_line": "The child 4_1(5,1)'s WRT field is exactly Q(zeta_r), identical to the surgery skeleton at every r, so its sqrt5/sqrt-3/sqrt-15 content is forced, not the object'specific.",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,

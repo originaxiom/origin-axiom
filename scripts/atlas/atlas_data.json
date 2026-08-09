@@ -20943,6 +20943,40 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B990": {
+   "slug": "X10 orbit scope",
+   "motifs": [
+    "figure_eight",
+    "firewall"
+   ],
+   "refs": [
+    "B854",
+    "B884",
+    "B962",
+    "B969",
+    "L138",
+    "P0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B991": {
+   "slug": "X11 normalisation",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "B864",
+    "B951",
+    "P0"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B99": {
    "slug": "geometric jacobian sl3",
    "motifs": [

@@ -187,6 +187,25 @@ the answer. **The 122-order shortfall was never the object's.**
 
 ---
 
+
+**Added 2026-08-09 (campaign Waves 1–2, B987/B990/B991) — three boundary lines sharpened:**
+
+- **Matter mass has its mechanism, and the Higgs its home.** The doublet is the **10 ⊂ 27** (B884,
+  on the object's own Chevalley frame), and B978's no-go scopes **only the adjoint** — matter mass
+  is the **cubic**, **27³ ⊃ 16·16·10**, whose table B884 computed (7.7-order gap, 11 coupled cells
+  vs 275 exact zeros). The residue is **doublet–triplet splitting**, and B298/B299 place it as
+  **external, needing a colour choice** — the same shape as chirality, rank and scale (**B987**).
+- **The L138 opening has a structural limit, not an evidential one.** An orbit invariant is
+  **constant on the orbit**, so it *cannot* pick a point — sharpening the same invariant will never
+  close it. Exactly two routes: **shrink the group** (ℚ → ℤ, where B962 says homogeneity fails) or
+  **add non-invariant structure**. Next computation named, prior declared **unfavourable** (**B990**).
+- **Hypercharge normalisation is closed, not owed.** All four anomaly conditions are **homogeneous**
+  (verified: λ¹, λ¹, λ¹, λ³), so the solution set is a **cone** — the **direction** is derivable
+  (B864) and the **normalisation cannot be, for anyone**. A rung impossible for everyone, for a
+  stated reason, is **BOUNDED** (**B991**).
+
+---
+
 ## LAYER 6 — THE MACHINE (the second product, and not the lesser one)
 
 Preregistration with committed hashes before compute; 19+ governance gates run in seconds;

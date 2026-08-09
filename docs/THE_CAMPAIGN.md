@@ -38,7 +38,7 @@ Not by interest. By **what a failure teaches**, cheapest-informative first:
 | 2 | **X18** B501/B502 file-drawer + exemption defect | *(none)* | **DONE — B982** |
 | 3 | **X17** the `FINDINGS.md` glob | *(none)* | **DONE — B985.** Re-run attachment *after* |
 | 4 | **X13** L73 falsified | *(none)* | **DONE — B985**, verified 6/6 here; selector refuted by base rate |
-| 5 | **X14** L98 one-organ | MST/gap machinery + a **non-commensurable** control + **V₄**-shaped hypothesis space | a redo whose hypothesis space is not a binary |
+| 5 | **X14** L98 one-organ | **SCOPED (2026-08-09).** A **BC-invariant** statistic, invariance verified *before* use — the original flipped with the boundary condition, so it measured the BC — then **both rows** (golden + silver) and a **three-way** space | a redo whose statistic is BC-invariant. **Two-outcome: if none separates the hypotheses, the question is ill-posed at this level, which is itself a result** |
 | 6 | **X16** the faces describe what the object is NOT | glob fixed (order 3) | positives attached; the twelfth face (`character-variety`) admitted — **ruled B985** |
 
 ## WAVE 2 — HOLES (inside what we already claim)

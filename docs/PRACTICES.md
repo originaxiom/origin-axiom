@@ -465,3 +465,26 @@ the board), `CLAIMS.md` (129), `docs/THEOREM_LEDGER.md` (63), `docs/GUT_REQUIREM
 
 **Where the rest of the obligation lives:** `docs/BANKING_PROTOCOL.md` — the full banking checklist,
 the independent-verification requirement, and the decadal review's room-by-room currency reading.
+
+## Never mutate the tree while the suite is running — MANUAL (a discipline, not a gate)
+
+**The rule.** Once a full `pytest` run starts, the working tree is **frozen** until it returns. No
+`atlas.py`, no `views/generate.py`, no edits — not even ones that "can't matter".
+
+**Why it is written down.** On 2026-08-08/09 this was violated **three times by the same seat**, and
+each time it produced the *identical* artefact: `test_atlas.py::test_render_regenerates_the_map`
+failing at collection position ~18, because the atlas was regenerated mid-run and the test read a
+half-updated tree. Each violation cost a **~57-minute** run.
+
+**Why it is not a gate.** A gate would have to detect a running pytest and block writes, which means
+either a lock file every tool must respect or a filesystem watcher — both heavier than the failure
+they prevent, and both new machinery to maintain. **The honest treatment is a named discipline with
+its symptom recorded**, so the next seat recognises the artefact in one glance instead of debugging
+a phantom test failure.
+
+**The symptom, so it is recognisable:** a suite failure in `test_atlas` or `views-generated` that
+**passes when re-run standalone**. That combination means the tree moved under the run. The result
+is not a failure — it is a **void run**. Re-run it; do not "fix" anything.
+
+**The sequence that works:** do all the work → regenerate → gates green → *then* start the suite →
+do nothing until it returns → commit.

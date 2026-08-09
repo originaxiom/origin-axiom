@@ -9582,3 +9582,31 @@ true **0 arcs**, with the self-inflation caveat recorded.
 targeted 146-test re-run green, **a full re-run is owed and named**); gates **25/25**; firewall
 **one-way holds**; logs **10/10**; **four declared debts, all one review old, `TOOLBOX.md` at 618
 arcs the highest priority**.
+
+## B990, B991 (2026-08-09) — campaign Wave 2: X10 sharpened, X11 closed
+
+**B990 — X10: the orbit-to-point gap is STRUCTURAL, not evidential.** L138 fired (B969: the object's
+canonical pair returns **K**, 3/3), and its limit is now explained rather than caveated. Let G act on
+pairs of 27s and O be the G(ℚ)-orbit of the object's pair: **every point of O is G(ℚ)-equivalent by
+the definition of an orbit**, and the cubic étale algebra is an **orbit invariant — constant on O**,
+which is exactly why it classifies orbits. **So no invariant built from the G-action can pick a point
+of O.** *Asking the orbit invariant to pick a point is asking a class function to pick a
+representative.* **Rules out the tempting direction** (a finer cubic, more primes, a better statistic
+— all constant on O). **Exactly two routes: shrink the group** (ℚ → ℤ, where B962 says homogeneity
+**fails**; the count is a class-number quantity and **1 would suffice**) **or add non-invariant
+structure.** Next computation named; **prior declared UNFAVOURABLE before running**.
+
+**B991 — X11 CLOSED: the hypercharge normalisation is not derivable *in principle*.** Verified
+symbolically: under q → λq the anomaly conditions scale as **λ¹, λ¹, λ¹, λ³ — all homogeneous** — so
+the solution set is a **cone**, never isolated points. **The direction is derivable and B864 derived
+it** (b = c = 0 forced; ψ, χ anomalous over chiral matter and therefore ungaugeable). **The
+normalisation cannot be — for anyone.** A rung impossible for everyone, for a stated structural
+reason, is **CLOSED, not owed**; leaving it open would misrepresent the boundary. **Checkable
+residue:** any future arc claiming to derive a normalisation must **exhibit the non-homogeneous
+condition it used**.
+
+**Also — a discipline registered after violating it three times.** *Never mutate the tree while the
+suite is running.* Three ~57-minute runs were voided on 2026-08-08/09 by regenerating the atlas
+mid-run, each producing the **identical** artefact: a `test_atlas` failure that **passes standalone**.
+That combination means the tree moved under the run — the result is a **void run, not a failure**.
+Recorded with its symptom so the next seat recognises it in one glance.
