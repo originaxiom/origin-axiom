@@ -117,11 +117,27 @@ census, so every item below is a test of specificity, not of consistency.
    seal rather than extending it. B798's power law says 8 digits had no
    exclusion power; 25 does.
 
+## The unbiased confirmation (added after the random sweep completed)
+
+A random sample of **3995** drawn from all **203,123** one-cusped
+census manifolds, seed 20260809:
+
+| | count | share |
+|---|---|---|
+| admit ≥ 1 surjection onto 2T | 1396 | **34.9 %** |
+| admit exactly 2 — m004's count | 966 | **24.2 %** |
+
+Skipped 5 presentations with more than three generators. The
+volume-ordered figure (36.2 % / 31.0 %) was therefore **not** an artefact of
+sampling small manifolds. The "admits a surjection" rate is stable at ~35 %;
+the "exactly two" rate falls from 31 % to 24 % in the unbiased sample, because
+larger manifolds tend to admit more surjections — which sharpens rather than
+softens the finding: m004's count is not even a local maximum of rarity.
+
 ## Honest scope
 
-400 manifolds, one-cusped, in census (volume) order — so the sample is biased
-toward small volume. A random 4000-manifold sweep across the full 203,123 is
-running; this file will be updated with it. Presentations with more than three
+The 400-manifold run is in census (volume) order and biased toward small
+volume; the 3995-manifold run above removes that bias. Presentations with more than three
 generators were skipped (none occurred in this sample). The count is of
 surjections onto 2T only; it says nothing about the *further* structure the
 programme derives from the two specific surjections m004 admits, which may yet
