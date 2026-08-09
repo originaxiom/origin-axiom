@@ -2,8 +2,10 @@
 core is killed by ad(g8 + t g16) for every t, so in the basis [core | complement]
 the matrix is [[0,B],[0,Q]] and the induced quotient map is Q."""
 import sys, json, time
-sys.path.insert(0,"/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0,str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp, frame
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 T0=time.time()
 def log(m): print(f"[{time.time()-T0:6.1f}s] {m}",flush=True)
 DIM=frame.DIM; INV=frame._G["INV"]; CH={n:INV[n] for n in (8,14,16,22)}
@@ -93,5 +95,5 @@ for _ in range(8):
 log(f"  N = c * prod(t-r_i)^16 at 8 random points: {mult}")
 R.update(N_degree=deg,N_extra_checks=bool(ok),derived_wall_roots=mroots,
          equals_mu_roots=bool(mroots==msr),is_c_times_cubic_pow16=bool(mult))
-json.dump(R,open("/Users/dri/origin-axiom/frontier/B973_L135_frame/scout_probe6_results.json","w"),indent=1,sort_keys=True)
+json.dump(R,open(str(_REPO / "frontier/B973_L135_frame/scout_probe6_results.json"),"w"),indent=1,sort_keys=True)
 log("DONE")

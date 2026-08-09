@@ -4,9 +4,11 @@
 Scout tier: one fresh prime, no banking. Uses only bench-owned material.
 """
 import sys, json, time
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0, str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp, frame
 from fractions import Fraction as Fr
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 T0=time.time()
 def log(m): print(f"[{time.time()-T0:7.1f}s] {m}", flush=True)
 DIM, N = frame.DIM, frame.N
@@ -111,5 +113,5 @@ for A in ADsu3:
         imgs3.append([sum(A[i][k]*v[k] for k in range(DIM) if v[k])%p for i in range(DIM)])
 R["control_rank_su3floor_on_core"]=rankp(imgs3)
 log(f"CONTROL rank of [su(3)_floor, core] = {R['control_rank_su3floor_on_core']} (nonzero: the operator is not the zero map)")
-json.dump(R,open("/Users/dri/origin-axiom/frontier/B973_L135_frame/scout_probe3_results.json","w"),indent=1,sort_keys=True)
+json.dump(R,open(str(_REPO / "frontier/B973_L135_frame/scout_probe3_results.json"),"w"),indent=1,sort_keys=True)
 log("DONE")

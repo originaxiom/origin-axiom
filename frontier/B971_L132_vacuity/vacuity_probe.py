@@ -24,6 +24,8 @@ because all the generators involved can be conjugated into the Cartan.
 import itertools
 import json
 import sympy as sp
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 # ----------------------------------------------------------------- algebras
 
@@ -239,5 +241,5 @@ vl = sp.expand(sum(sum(h * c for h, c in zip(h6, a)) ** 3
 R['vectorlike_subset_cubic_is_zero'] = (sp.expand(vl) == 0)
 
 print(json.dumps(R, indent=2, default=str))
-with open('/Users/dri/origin-axiom/frontier/B971_L132_vacuity/vacuity_probe_out.json', 'w') as f:
+with open(str(_REPO / "frontier/B971_L132_vacuity/vacuity_probe_out.json"), 'w') as f:
     json.dump(R, f, indent=2, default=str)

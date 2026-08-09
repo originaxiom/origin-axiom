@@ -17,9 +17,11 @@ TIER: mod p, many primes. Splitting DENSITY is Chebotarev evidence about the
 weight field; it does NOT identify the field. Nothing banked.
 """
 import sys, json, time
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0, str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp
 import frame
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 T0 = time.time()
 def log(m): print(f"[{time.time()-T0:7.1f}s] {m}", flush=True)
@@ -211,6 +213,6 @@ log(f"=> weight-field behaviour respects the frame's compact/noncompact split: "
     f"{R['weight_field_respects_frame_split']}")
 log(f"surplus (degree-bound) checks all ok: {R['surplus_checks_all_ok']}")
 
-json.dump(R, open("/Users/dri/origin-axiom/frontier/B973_L135_frame/weightfield_results.json", "w"),
+json.dump(R, open(str(_REPO / "frontier/B973_L135_frame/weightfield_results.json"), "w"),
           indent=1, sort_keys=True, default=str)
 log("DONE")

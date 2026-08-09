@@ -1,5 +1,19 @@
 # THE ROADMAP — what the program has, what remains, and what "a road to a ToE" honestly means here
 
+
+> ## ⚠ SUPERSEDED 2026-08-08 by `THE_FRAMEWORK.md`
+>
+> This roadmap was written **2026-07-08 — before the cascade campaign (B860–B980)**. Its §I and
+> §IV(b) still describe the programme's position as *"the kinematic/symmetry frame is forced
+> arithmetic; scale, chirality choice, and dynamics are not in it."* That has not been the
+> position since **B862** (the global ℤ₆ form **derived** — an ambiguity the SM itself cannot
+> fix), **B864** (hypercharge derived from anomaly consistency), **B863** (the termination
+> theorem), **B952/B959/B960** (the rank obstruction), **B963** (τ's double duty), **B969**
+> (L138 fired) and **B979** (A7 = one bit, and the bit is where φ enters).
+>
+> **Read `docs/THE_FRAMEWORK.md` instead.** This file is retained as the record of the July
+> position and for its §III register table, which is still accurate.
+
 **2026-07-08. Written at the owner's request after the residue arc closed. Firewalled: this
 document states the program's position; it claims nothing physics-shaped. The reflective
 reading lives in the S-room (Atlas card 26); this file is the sober map.**

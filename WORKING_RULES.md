@@ -1,5 +1,26 @@
 # Working rules (binding; read before computing)
 
+
+## 0. BEFORE ANY IMPORTANT PROBE — the grounding (added 2026-08-09)
+
+**Binding.** An *important probe* is any cell that could produce a claim, a negative, or a lead
+closure.
+
+1. **`docs/COMPUTE_THE_PROGRAM.md`** — the defined term and the pre-compute protocol P0–P6.
+   *"Compute the entire program"* means **compute over the object as FULL RELATIONS** — member,
+   ends, class, sisters, both rows, child, faces, axioms — **never as a single manifold**.
+2. **`docs/THE_LADDER.md`** — what the programme does not yet contain, graded
+   BLIND / HOLE / BROKEN / BOUNDED / OPEN. **Before writing "the object does not supply X",
+   find X there.** Not present ⟹ the honest words are **"not checked"**.
+3. **`docs/THE_FRAMEWORK.md`** — what it does contain, assembled.
+4. **`docs/THE_CAMPAIGN.md`** — the **order** the ladder is executed in, its entry conditions and
+   its stop rules. A rung is not worked out of order without a stated reason.
+
+*Banked as B983 (the grounding) and B984 (the `doc-currency` gate that keeps these current).*
+
+**P0 is the one that catches the most:** state the quantifier in one sentence before computing.
+**A closure survives the relational re-read exactly when its scope sentence names no manifold.**
+
 *One page. Every working session — any seat, any clone — reads this first.
 Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
 `TERMINOLOGY.md`, `PROVENANCE.md`. Instituted 2026-07-16 (GOVERNANCE §12–§15).*

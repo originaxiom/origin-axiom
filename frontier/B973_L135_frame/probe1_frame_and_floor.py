@@ -5,10 +5,12 @@ the four 2T-invariants) + frontier/B961_frame_instrument/frame.py operations.
 No incoming code.
 """
 import sys, json, time, io, contextlib
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0, str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp
 import frame
 from fractions import Fraction as F
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 T0 = time.time()
 def log(m): print(f"[{time.time()-T0:7.1f}s] {m}", flush=True)
@@ -91,6 +93,6 @@ cen = sp.Matrix(rows).nullspace()
 R["centre_of_derived_floor"] = len(cen)
 log(f"centre of [floor,floor] = {len(cen)}  (0 => semisimple; dim 8 semisimple is uniquely A2 = su(3))")
 
-json.dump(R, open("/Users/dri/origin-axiom/frontier/B973_L135_frame/scout_probe_results.json", "w"),
+json.dump(R, open(str(_REPO / "frontier/B973_L135_frame/scout_probe_results.json"), "w"),
           indent=1, sort_keys=True)
 log("DONE")

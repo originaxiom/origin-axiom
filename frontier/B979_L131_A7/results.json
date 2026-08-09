@@ -1,0 +1,15 @@
+{
+ "question": "L131 -- is A7 (the residual L-before-R choice) discharge-able, given that B945 showed the R<->L swap FIXES the object?",
+ "verdict": "NO -- A7 IS LOAD-BEARING",
+ "the_answer_was_already_banked": "in UNIQUENESS_THEOREM.md section 5, titled 'The order choice is load-bearing (A7), not cosmetic' -- i.e. in the SAME DOCUMENT whose section 4 B949 was reading when it registered L131, and locked by an existing test",
+ "why_B945_does_not_discharge_it": "LR and RL are SL(2,Z)-conjugate via the record-swap P = [[0,1],[1,0]] (verified here), so they share trace, determinant, eigenvalues and translation length -- the SAME CONJUGACY CLASS. B945's finding that sigma fixes the cyclic word is exactly that CLASS-level statement. But the Mobius fixed-point polynomial is a BASED invariant, not a class invariant, and it DIFFERS: the three sectors give tau^2 - tau - 1, tau^2 + tau - 1, and tau^2 - 3tau + 1. A7 lives at the based level, which is precisely the level at which B945's observation is blind.",
+ "verified_here": {
+  "three_polys_distinct": true,
+  "LR_RL_conjugate_by_P": true,
+  "golden_poly_roots_phi_and_minus_1_over_phi": true
+ },
+ "convention_note": "this bench's L/R naming is transposed relative to the document, so WHICH of LR/RL carries the golden polynomial flips. That is not a discrepancy -- IT IS A DEMONSTRATION OF A7's CONTENT: the assignment depends on a naming convention, and that dependence is exactly the inserted bit.",
+ "THE_POSITIVE_CONTENT": "A7 isolates, TO A SINGLE BINARY CHOICE, where the specific number phi (rather than -phi or phi^2) enters. So the four-letter principle plus six motivated axioms forces the object UP TO ONE BIT -- and that bit is identifiable, named, and is exactly the origin of phi.",
+ "fourth_instance": "the fourth time today that this seat declared open or absent something already banked: B950 (Z6), B976 (hypercharge), B974 (the frame), and now B979 (A7's own section 5). The most embarrassing of the four, because the answer was in the same file.",
+ "unsealed": "no preregistration -- the answer surfaced during the mandatory prior-art read, before any computation; sealing after seeing it would be worse than not sealing"
+}

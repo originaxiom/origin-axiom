@@ -1,0 +1,19 @@
+{
+ "id": "B984",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE BANKING PROTOCOL AND THE FIRST GATE THAT CHECKS SURFACES RATHER THAN ARCS. THE GAP: every gate in the repository checked ARCS and no gate checked SURFACES, so ROADMAP_TOE.md described the programme-s position as the kinematic/symmetry frame is forced arithmetic for a MONTH after B862/B863/B864 made that false, and THE_SM_VERDICT.md shipped omitting ELEVEN OF THE TWELVE cascade-closure arcs while contradicting two banked results -- both found by a human noticing, not by an instrument. BUILT: (1) docs/BANKING_PROTOCOL.md in four parts -- the 19-row banking checklist including two rows the corpus learned the hard way (the findings file MUST be named FINDINGS.md, since scripts/forcing/build.py silently skipped 45 arcs including B1-B5, and the verdict must be the right KIND, since an arc establishing that ANOTHER arc-s claim fails is an AUDITOR and therefore PROVED never RETRACTED per B818); INDEPENDENT VERIFICATION, whereby a banking pass is not complete until an agent THAT DID NOT WRITE THE ARC confirms the checklist FROM THE REPOSITORY NOT THE CONVERSATION, given the arc ID and the checklist and deliberately NOT given the author-s reasoning or the claim, checking PRESENCE AND CURRENCY never correctness since correctness is the locks- job; the decadal review-s ROOM-BY-ROOM currency reading across claims, the chain, the negatives, method, speculation/philosophy and logs/easy-read; and THE CHAIN THAT MUST STAY LEGIBLE with its thin links named rather than hidden. (2) doc-currency, gate 25 of 25, measuring for each registered living document the NEWEST ARC IT CITES against the NEWEST ARC THAT EXISTS and failing past a per-document tolerance -- it found real staleness on its first run: docs/TOOLBOX.md 613 arcs behind, CLAIMS.md 129, docs/THEOREM_LEDGER.md 63, docs/GUT_REQUIREMENTS_LEDGER.md 31, with TOOLBOX.md the sharpest because the pre-compute protocol adopted hours earlier says READ THE TOOLSET BEFORE ANY IMPORTANT PROBE. (3) Two visible pass-throughs and neither silent, the direct lesson of B982 where seven gate exemptions rested on an audit that never named them: frozen is an in-file opt-out REPORTED ON EVERY RUN, and DECLARED_DEBT NAMES WHAT IS OWED AND WHEN, PRINTS ON EVERY RUN, and the lock fails if the set grows -- A DECLARED DEBT IS NOT AN EXEMPTION. APPLYING P3 TO THE OWNER-S OWN NAMED CHAIN (aAbB, SL(n) towers, metallic families, figure-eight, monodromy, cusp, seam, torus, puncture, Markov blanket, feedback, symmetry breaking, gauge groups): eleven are well covered and TWO ARE NOT, both now ladder rungs -- X31 MARKOV BLANKET at ZERO arcs and in NO document, carrying a CONFLATION HAZARD worth more than the rung itself since the corpus is saturated with MARKOV TRIPLES / THE MARKOV CUBIC which is a DIFFERENT OBJECT so anyone grepping Markov will read it as covered; and X32 FEEDBACK MECHANISM at 2 arcs, named by the owner as very important and effectively unbuilt, whose honest difficulty is already banked since the object is TIMELESS (B716/B717) with TRIVIAL modular flow (B721), so feedback needs a carrier that is not dynamics and must be DEFINED before it is probed. SCOPE: governance, not mathematics -- it proves nothing about the object; and the currency measure is DELIBERATELY CRUDE, newest-citation lag being a proxy since a document can be current while citing nothing recent or stale while citing a fresh arc, so it is A PROMPT TO READ NOT A PROOF OF STALENESS, which is why the failure message says a stale surface is OWED A READ rather than that it is wrong.",
+ "depends_on": [
+  "B983",
+  "B982",
+  "B818",
+  "B837",
+  "B976",
+  "B966",
+  "B967",
+  "B977"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), owner directive"
+}

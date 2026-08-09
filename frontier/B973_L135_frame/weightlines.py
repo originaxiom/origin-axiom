@@ -20,9 +20,11 @@ every dimension below certifies char-0 <= the stated value; agreement across two
 primes is evidence, not a char-0 certificate. NOT a banking.
 """
 import sys, json, time, random
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0, str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp
 import frame
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 T0 = time.time()
 def log(m): print(f"[{time.time()-T0:7.1f}s] {m}", flush=True)
@@ -411,6 +413,6 @@ R["FAILURES"] = [x for x in VER if not x["pass"]]
 log(f"weight-line suite: {sum(1 for x in VER if x['pass'])}/{len(VER)}; "
     f"ALL PASS = {R['ALL_PASS']}")
 
-json.dump(R, open("/Users/dri/origin-axiom/frontier/B973_L135_frame/weightlines_results.json", "w"),
+json.dump(R, open(str(_REPO / "frontier/B973_L135_frame/weightlines_results.json"), "w"),
           indent=1, sort_keys=True, default=str)
 log("DONE")

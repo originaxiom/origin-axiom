@@ -1,0 +1,12 @@
+{
+ "id": "B974",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "PHASE A SYNTHESIS (MASTERPLAN v3), written for the banking seat and banked in B978: four leads scouted and worked -- L134 (B970), L132 (B971), L137 (B972), L135 (B973). Three of the four were EXPECTED to close negative or vacuous and all three did, which is the intended outcome rather than a shortfall. WORKER CELL: this directory is a Phase-A multiagent worker cell whose result was banked by B978; it is not a standalone arc and carries no independent claim.",
+ "depends_on": [
+  "B978"
+ ],
+ "supersedes": null,
+ "superseded_by": "B978",
+ "authored_by": "cc banking seat (2026-08-08), retro-verdicted to close the B819 frame gap"
+}

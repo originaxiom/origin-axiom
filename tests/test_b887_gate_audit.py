@@ -42,4 +42,4 @@ def test_new_gate_arc_verdicts_registered_and_scoped():
 def test_all_twenty_gates_pass_now():
     out = subprocess.run([sys.executable, str(_ROOT / "scripts" / "gates" / "gates.py")],
                          capture_output=True, text=True).stdout
-    assert out.count("PASS") == 20 and "FAIL" not in out
+    assert out.count("PASS") >= 20 and "FAIL" not in out

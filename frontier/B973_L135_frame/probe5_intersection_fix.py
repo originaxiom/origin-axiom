@@ -2,9 +2,11 @@
 (ii) derive mu's roots FROM THE BUILD (deg-48 interpolation of
 det(ad(g8+t g16)) on e6/core) so no incoming constant enters the chain."""
 import sys, json, time, random
-sys.path.insert(0,"/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0,str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp, frame
 from fractions import Fraction as Fr
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 T0=time.time()
 def log(m): print(f"[{time.time()-T0:6.1f}s] {m}",flush=True)
 DIM,N=frame.DIM,frame.N; ROOTS,BB,C=frame.ROOTS,frame.BB,frame.C
@@ -145,5 +147,5 @@ R["M12M12_cap_core"]=inter(BR,corec); R["M12M12_cap_floor"]=inter(BR,floorc)
 R["M12M12_cap_M12"]=inter(BR,M12)
 log(f"(b) dim[M12,M12] = {len(BR)}; cap core = {R['M12M12_cap_core']} (4); "
     f"cap floor = {R['M12M12_cap_floor']} (4); cap M12 = {R['M12M12_cap_M12']} (12)")
-json.dump(R,open("/Users/dri/origin-axiom/frontier/B973_L135_frame/scout_probe5_results.json","w"),indent=1,sort_keys=True,default=str)
+json.dump(R,open(str(_REPO / "frontier/B973_L135_frame/scout_probe5_results.json"),"w"),indent=1,sort_keys=True,default=str)
 log("DONE")

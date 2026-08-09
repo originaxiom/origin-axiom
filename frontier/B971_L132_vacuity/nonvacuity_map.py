@@ -24,6 +24,8 @@ because a 3-dim solution space means the check is VACUOUS on that subset
 import itertools
 import json
 import sympy as sp
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 
 def cartan_matrix(n, edges):
@@ -224,5 +226,5 @@ for s in selective:
 R['a_15_state_selective_subset'] = gen_shape
 
 print(json.dumps(R, indent=2, default=str))
-with open('/Users/dri/origin-axiom/frontier/B971_L132_vacuity/nonvacuity_map_out.json', 'w') as f:
+with open(str(_REPO / "frontier/B971_L132_vacuity/nonvacuity_map_out.json"), 'w') as f:
     json.dump(R, f, indent=2, default=str)

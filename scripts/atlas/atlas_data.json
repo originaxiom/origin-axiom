@@ -20383,6 +20383,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B968": {
+   "slug": "sm verdict",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B860",
+    "B862",
+    "B864",
+    "B873",
+    "B976",
+    "B978"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B969": {
    "slug": "kato yukie verify",
    "motifs": [
@@ -20428,6 +20446,68 @@
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B970": {
+   "slug": "L134 exotics",
+   "motifs": [
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B978",
+    "L134"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "quantum"
+  },
+  "B971": {
+   "slug": "L132 vacuity",
+   "motifs": [],
+   "refs": [
+    "B978",
+    "L132"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B972": {
+   "slug": "L137 split",
+   "motifs": [],
+   "refs": [
+    "B947",
+    "B978",
+    "L137"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B973": {
+   "slug": "L135 frame",
+   "motifs": [],
+   "refs": [
+    "B978",
+    "L135"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B974": {
+   "slug": "phaseA synthesis",
+   "motifs": [],
+   "refs": [
+    "B978"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B975": {
    "slug": "cc3 render audit",
@@ -20544,6 +20624,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B979": {
+   "slug": "L131 A7",
+   "motifs": [
+    "figure_eight",
+    "golden"
+   ],
+   "refs": [
+    "B862",
+    "B864",
+    "B911",
+    "B945",
+    "B949",
+    "B950",
+    "B957",
+    "B960",
+    "B974",
+    "B976",
+    "L131",
+    "P1",
+    "P16"
+   ],
+   "obstacle": "source_free",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B97": {
    "slug": "sl2r lorentzian",
    "motifs": [
@@ -20560,6 +20666,242 @@
    "obstacle_conf": 16,
    "status": "banked",
    "domain": "topology"
+  },
+  "B980": {
+   "slug": "k3 conflation",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B218",
+    "B224",
+    "B250",
+    "B259",
+    "B957",
+    "B960",
+    "B979"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B981": {
+   "slug": "two ended correction",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "apolynomial",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B248",
+    "B249",
+    "B250",
+    "B253",
+    "B261",
+    "B716",
+    "B950",
+    "B962",
+    "B974",
+    "B976",
+    "B979"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B982": {
+   "slug": "file drawer exemption defect",
+   "motifs": [
+    "metallic",
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B452",
+    "B473",
+    "B493",
+    "B496",
+    "B500",
+    "B501",
+    "B502",
+    "B503",
+    "B506",
+    "B521",
+    "B565",
+    "B568",
+    "B570",
+    "B580",
+    "B634",
+    "B652",
+    "B837",
+    "B913"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B983": {
+   "slug": "grounding",
+   "motifs": [
+    "metallic",
+    "golden"
+   ],
+   "refs": [
+    "B250",
+    "B803",
+    "B862",
+    "B864",
+    "B911",
+    "B950",
+    "B974",
+    "B976",
+    "B979",
+    "B981",
+    "B982",
+    "L63",
+    "P0",
+    "P6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B984": {
+   "slug": "banking protocol",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B1",
+    "B370",
+    "B5",
+    "B716",
+    "B717",
+    "B721",
+    "B818",
+    "B854",
+    "B862",
+    "B863",
+    "B864",
+    "B920",
+    "B952",
+    "B982",
+    "P3"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B985": {
+   "slug": "cc3 relational integration",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B1",
+    "B473",
+    "B5",
+    "B511",
+    "B578",
+    "B666",
+    "B68",
+    "B717",
+    "B800",
+    "L1",
+    "L54",
+    "L57",
+    "L63",
+    "L73",
+    "L77",
+    "L84",
+    "L93",
+    "L98"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B986": {
+   "slug": "b500 stragglers",
+   "motifs": [],
+   "refs": [
+    "B500",
+    "B525"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B987": {
+   "slug": "X8 higgs doublet",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B298",
+    "B299",
+    "B883",
+    "B884",
+    "B950",
+    "B964",
+    "B974",
+    "B976",
+    "B978",
+    "B979",
+    "B981",
+    "B982",
+    "B983",
+    "P0",
+    "P3",
+    "V5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B988": {
+   "slug": "review currency",
+   "motifs": [
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B862",
+    "B863",
+    "B864",
+    "B982"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 6,
+   "status": "open",
+   "domain": "meta"
   },
   "B98": {
    "slug": "geometric jacobian",

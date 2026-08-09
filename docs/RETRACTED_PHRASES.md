@@ -20,6 +20,7 @@ registered here and the sweep is clean.
 | 3 | `the first 25-digit Maass eigenvalue` | **B943** | Priority claim on a sweep of unrecorded depth; prior art found, precedent number refuted (13 places, not ~10). |
 | 4 | `the golden power` *(for 5¹²)* | **B941 amendment** | B937 refuted the golden-field reading four independent ways: 5 is a **residue characteristic**. The open question is the **exponent**, not the field. |
 | 5 | `no intermediate regime` *(as a general claim)* | **B963** | Scope error. B576's threshold holds only for deformations containing the **principal sl₂**, not for arbitrary or finite-image representations. |
+| 6 | `the object is hyperbolic` *(as a claim about the object as a whole)* | **B981** | Half-face reading. **B248 proves a cone-angle transition through all three curvature signs**: hyperbolic ℚ(√−3)/E₆ at α=0, **Euclidean** at α=2π/3, **spherical** ℚ(√5)/E₈ at α=π. B250 computes **both** ends (CS=0 **vs π²/5**). Any argument resting on the object being negatively curved *only* is unsound. |
 
 ## Deliberately NOT registered
 

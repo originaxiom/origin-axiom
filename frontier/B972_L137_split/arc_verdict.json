@@ -1,0 +1,12 @@
+{
+ "id": "B972",
+ "verdict": "OPEN",
+ "instrument": false,
+ "claim_one_line": "L137 SCOUT CELL (banked in B978): is B947's value/pencil split a real, pre-statable partition? SCOUTING ONLY -- nothing sealed, nothing banked, no verdict claimed against any criterion; the post-hoc status of the split is exactly why L137 still requires its own sealed cell. WORKER CELL: this directory is a Phase-A multiagent worker cell whose result was banked by B978; it is not a standalone arc and carries no independent claim.",
+ "depends_on": [
+  "B978"
+ ],
+ "supersedes": null,
+ "superseded_by": "B978",
+ "authored_by": "cc banking seat (2026-08-08), retro-verdicted to close the B819 frame gap"
+}

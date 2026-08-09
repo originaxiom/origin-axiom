@@ -18,9 +18,11 @@ REPRESENTATION: adjoint sector; every bracket below is inside e6. No 27 VEV.
 TIER: mod p, two primes; mod-p rank <= char-0 rank. Evidence, not a certificate.
 """
 import sys, json, time
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0, str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp
 import frame
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 T0 = time.time()
 def log(m): print(f"[{time.time()-T0:7.1f}s] {m}", flush=True)
@@ -177,6 +179,6 @@ R["ALL_PASS"] = all(x["pass"] for x in V)
 R["FAILURES"] = [x for x in V if not x["pass"]]
 log(f"presence legs (1)(2)(3): {sum(1 for x in V if x['pass'])}/{len(V)}; "
     f"ALL PASS = {R['ALL_PASS']}")
-json.dump(R, open("/Users/dri/origin-axiom/frontier/B973_L135_frame/presence7_results.json", "w"),
+json.dump(R, open(str(_REPO / "frontier/B973_L135_frame/presence7_results.json"), "w"),
           indent=1, sort_keys=True, default=str)
 log("DONE")

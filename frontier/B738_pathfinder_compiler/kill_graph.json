@@ -10375,5 +10375,50 @@
   ],
   "fact_computed": true,
   "hatch": "None within the centralizer class: the escape is self-defeating because the adjoint form HAS NO 27 (omega_1 is not in the root lattice, so the centre Z/3 acts nontrivially and the 27 is a rep of the simply connected form only) -- escaping costs exactly the chirality the escape was meant to preserve. What remains OUTSIDE this kill's class is anything that is not a centralizer construction: a Higgs-type VEV (E6 -> SU(5) via two 27 VEVs achieves rank 6->4 with the 27 complex and is STANDARD, per B955), an orbifold projection, or a quotient that is not a commutant. The object simply does not supply those."
+ },
+ {
+  "id": "B979",
+  "claim_killed": "That axiom A7 -- the residual L-before-R order choice, the one inserted bit in the whole construction -- is DISCHARGE-ABLE, on the strength of B945's finding that the R<->L swap fixes the object. Killed: LR and RL are CONJUGATE (via the record-swap P = [[0,1],[1,0]], verified), so B945's result is a CLASS-level statement; but the Mobius fixed-point polynomial is a BASED invariant and DIFFERS across the sectors (tau^2-tau-1 with roots phi and -1/phi; tau^2+tau-1; tau^2-3tau+1). A7 lives at the based level, which is precisely the level at which B945's observation is blind. Section 5 of docs/UNIQUENESS_THEOREM.md already stated this and is titled 'The order choice is load-bearing (A7), not cosmetic' -- B949 registered the lead while reading section 4 of the same document.",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": [
+   "being",
+   "axioms"
+  ],
+  "fact_computed": true,
+  "hatch": "none-apparent",
+  "priority": "P3",
+  "revival_score": 1,
+  "depth_note": "Conjugacy and the three fixed-point polynomials computed in-sandbox and locked in tests/test_b979_a7.py. The bench's L/R naming is transposed relative to the document, so WHICH order carries the golden polynomial flips -- not a discrepancy but a DEMONSTRATION of A7's content, since the assignment depends on a naming convention and that dependence IS the bit.",
+  "note": "The kill is POSITIVE in its consequence and that is the point: A7 isolates, TO A SINGLE BINARY CHOICE, where the specific number phi (rather than -phi or phi^2) enters. So the four-letter combination principle plus six motivated axioms forces the object UP TO ONE BIT, and that bit is identifiable, named, and is the origin of phi. What stays open is why A1-A6 (they are 'motivated but not laws of nature' by the theorem's own words); the unconditional from-nothing direction is mapped dead (B949). Fourth instance on 2026-08-08 of this seat declaring open something already banked -- the others being B950 (Z6), B976 (hypercharge) and B974 (the frame) -- and the most embarrassing, because the answer was in the next section of the file being read; representation-sweep would NOT have caught it, since UNIQUENESS_THEOREM is not an arc."
+ },
+ {
+  "id": "B971",
+  "claim_killed": "L132's target: that the chain's abelian sector still owes an anomaly computation which could yet single out hypercharge by a route not already taken. Killed as VACUOUS: on COMPLETE 27s the anomaly check cannot fail, and the vacuity is TRIPLE -- reached by two mutually independent routes recomputed from scratch in-sandbox, and concordantly by the companion scout's 2047-subset map over the object's Levi. A criterion that cannot fail is not a test (MB12), so the remaining L132 content is narrower than registered: the NORMALISATION is not derivable (anomaly conditions are homogeneous, B951) and whether the SMT's u(1)^3 IS the (Y, chi, psi) triple was INFERRED rather than computed (B953).",
+  "kill_form": "vacuity",
+  "faces_consulted": [
+   "being",
+   "cascade"
+  ],
+  "fact_computed": true,
+  "hatch": "route-through-atom",
+  "priority": "P3",
+  "revival_score": 2,
+  "depth_note": "Phase-A worker cell, banked in B978. Two independent recomputations plus a 2047-subset map; scripts in-arc. The kill is about the check being VACUOUS on complete 27s -- it does not touch B864, which derived hypercharge's DIRECTION over the CHIRAL generation (where psi and chi ARE anomalous, Tr psi = 16, Tr chi = 5) rather than over a complete 27.",
+  "note": "The distinction that makes both results true at once: over a COMPLETE 27 every chain U(1) is anomaly-free so nothing is selected (this kill); over the CHIRAL matter of a generation psi and chi are anomalous and Y is the unique gaugeable direction (B864). The hypercharge derivation lives on the chiral side, and this cell shows the complete-27 side cannot add to it."
+ },
+ {
+  "id": "B986",
+  "claim_killed": "That the B500 depth-5 reopen can be closed by a MOD-P ROOT-EXISTENCE test. The route: K = Q[t]/(t^4-t-1) is S4-quartic with no intermediate fields, so the child is present iff the eliminant h has a root in K; for p inert, O_K/p = F_{p^4}, so h mod p having NO root in F_{p^4} PROVES h has no root in K -- and the whole resultant chain runs in GF(p), so the Q degree blow-up (~3000-9280, PARI stack overflow) never happens. KILLED BY ITS OWN CONTROL: the logic is correct but the POWER is nil. At p=5 degree 6500, 28 of 40 RANDOM polynomials have a root in F_{p^4}; at p=19 degree 6500, 29 of 40; at p=5 degree 74, 33 of 40. About 70 percent of random polynomials PASS, so 'all 9 computed eliminants have a root' is EXACTLY THE BASE RATE -- zero information. A degree-6500 polynomial has thousands of roots across small extensions, so the informative outcome (NO root) essentially never occurs.",
+  "kill_form": "vacuity",
+  "faces_consulted": [
+   "children",
+   "character-variety"
+  ],
+  "fact_computed": true,
+  "hatch": "The generalisable diagnosis names the escape: any test of the form 'does h have a root of TYPE X' is saturated at these degrees, so a discriminating test must use THE SPECIFIC FIELD K rather than merely its degree -- an irreducible degree-4 factor over Q whose field is isomorphic to K. Two concrete moves remain: (a) mod-p elimination WITH SATURATION for the 26 words whose resultant chain vanishes identically (hunt_d5.py already implements the saturation branch; this script deliberately did not), which is most plausibly what B525's 'F_p GROEBNER' meant; and (b) a field-specific decisive test for all 35. Note the instrument gain is real and survives the kill: the eliminants that overflowed the PARI stack over Q ARE computable in seconds mod p, degrees 6450-7896, so B500's bottleneck is NOT intrinsic -- only the decisive test is.",
+  "priority": "P2",
+  "revival_score": 5,
+  "depth_note": "Run and controlled in-session; scripts in-arc (fp_reopen.py). The kill is about THIS SEAT'S OWN METHOD, not about the object: L145a (is the child a short word?) stays OPEN at 23 percent unchecked, exactly where B500 and B525 left it.",
+  "note": "MB12 applied to the seat's own instrument -- a criterion that cannot fail is not a test. Banked rather than discarded because the attractive half (the mod-p route computes the eliminants) is already written down and would otherwise be re-proposed by a later seat as a fresh idea; recording it WITHOUT the vacuity would hand that seat a method that looks like it works. Same propose-and-refute-in-the-same-file pattern cc3 used hours earlier when its own base-rate control (60.8 percent) killed its selector reading."
  }
 ]

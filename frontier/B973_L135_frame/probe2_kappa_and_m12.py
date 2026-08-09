@@ -4,10 +4,12 @@ Recipe taken from the REPO's own definitional document (B911 CMT_DRAFT.md §2,
 ingredient list) -- not guessed. Inputs: B854's build only.
 """
 import sys, json, time
-sys.path.insert(0, "/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0, str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp
 import frame
 from fractions import Fraction as Fr
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 T0 = time.time()
 def log(m): print(f"[{time.time()-T0:7.1f}s] {m}", flush=True)
@@ -164,6 +166,6 @@ for nm, A in (("g8",AD8p),("g14",AD14p),("g16",AD16p),("g22",AD22p)):
 R["M12_torus_invariant"] = all(inv_ok); R["M12_charge_ranks"] = ranks
 log(f"  torus-invariant: {all(inv_ok)}; charge ranks on M12: {ranks} (12,12,12,12)")
 
-json.dump(R, open("/Users/dri/origin-axiom/frontier/B973_L135_frame/scout_probe2_results.json","w"),
+json.dump(R, open(str(_REPO / "frontier/B973_L135_frame/scout_probe2_results.json"),"w"),
           indent=1, sort_keys=True)
 log("DONE")

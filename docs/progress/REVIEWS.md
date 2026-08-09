@@ -9,7 +9,44 @@ Protocol per review: (1) suite green; (2) gates green; (3) atlas regenerated and
 (4) sweep `frontier/` FINDINGS for entries that meet the GOVERNANCE §5 promotion bars
 and list the candidates (promotion itself happens only through the §5 gates, logged);
 (5) sweep for framing drift and stale `OPEN_LEADS` rows; (6) append the report below
-with a new anchor-commit.
+with a new anchor-commit;
+
+**(7) THE DOCUMENT-CURRENCY READING — added 2026-08-09 at the owner's direction, and it is
+not optional.** *"Every decadal review should make sure no single md document is outdated
+and doesn't represent / reflect the current state — including claims, theorems,
+speculations, philosophy, interpretations, logs, easy read. So whoever reads the repo,
+human reviewer or AI agent, understands the complete chain of work."*
+
+**7a — mechanically, first.** `python3 scripts/checks/doc_currency.py` must run and its
+output must be **pasted into the review report**, including every `frozen` opt-out and
+every `DECLARED_DEBT` with its age. **A debt older than two reviews is escalated in the
+report by name.** A debt is not an exemption (B982, B984).
+
+**7b — by reading, room by room.** Each room gets its one question answered *in the report*,
+not assumed:
+
+| room | files | the question the report must answer |
+|---|---|---|
+| **claims** | `CLAIMS.md`, `docs/THEOREM_LEDGER.md`, `docs/LAW_MAP.md` | is anything here **superseded, retracted, or scoped wider than its arc proved**? |
+| **the chain** | `docs/THE_FRAMEWORK.md`, `docs/UNIQUENESS_THEOREM.md`, `docs/THE_SM_VERDICT.md` | can a reader follow **philosophy → aAbB (A1–A7) → the object → its faces, family and both rows → the algebra → the cascade → symmetry breaking and the gauge groups** without a gap? |
+| **the negatives** | `docs/THE_LADDER.md`, the kill graph, `docs/RETRACTED_PHRASES.md` | is every *"we don't have X"* still **a claim with a citation**, not an impression? Are BLIND rungs still honestly BLIND? |
+| **method** | `WORKING_RULES.md`, `docs/PRACTICES.md`, `docs/TOOLBOX.md`, `METHOD.md`, `docs/COMPUTE_THE_PROGRAM.md`, `docs/BANKING_PROTOCOL.md` | do these describe how we **actually seal, verify and certify TODAY** — including P0–P6 and the independent-verification step? |
+| **speculation & philosophy** | `speculations/`, `philosophy/`, `story/`, `knowledge/` | is the firewall still **one-way**, and does the motivation still match the mathematics rather than running ahead of it? |
+| **interpretation & easy-read** | `docs/INDEX.md`, `docs/RECOGNITION.md`, `README.md`, `docs/CAMPAIGN_STATUS.md` | can a **new reader — human or agent — reconstruct the work from these alone**? |
+| **logs** | `CHANGELOG.md`, `PROGRESS_LOG.md`, `docs/progress/` | is every banked arc in all three ledgers, and does the LATEST line describe the present? |
+
+**7c — the named-chain check.** The review confirms each waypoint of the owner's chain is
+**findable and current**, and records the **thin** ones rather than hiding them:
+**aAbB / A1–A7 · SL(n) towers · metallic families · figure-eight · monodromy · cusp · seam ·
+torus · puncture · Markov blanket · feedback mechanism · symmetry breaking · gauge groups.**
+*(Checked 2026-08-09: eleven well covered; **Markov blanket = 0 arcs, in no document — and it
+carries a conflation hazard, since the corpus is full of Markov TRIPLES, a different object**;
+**feedback mechanism = 2 arcs**. Both are ladder rungs X31/X32.)*
+
+**7d — the standard the review certifies against.** *Whoever opens this repository, human
+reviewer or AI seat, can follow the complete chain of work and arrive at the current state
+**without being misled by any document in it**.* A review that cannot assert that names what
+blocks it.
 
 ---
 

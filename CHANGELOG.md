@@ -1,5 +1,148 @@
 # Changelog
 
+## B988 (2026-08-09) — the decadal review now certifies document currency, room by room
+
+The review protocol had six steps and **every one checked arcs or gates**. None checked whether the
+documents a reader forms their picture from still describe the programme — which is how
+`ROADMAP_TOE.md` stayed wrong for a **month** and `THE_SM_VERDICT.md` shipped missing eleven of
+twelve cascade arcs, **both surviving multiple reviews**.
+
+**Step 7, four parts, none optional.** **7a** `doc_currency.py` runs and its output is **pasted into
+the report**, with every debt's **age** — a debt older than two reviews is **escalated by name**;
+*a debt is not an exemption* (B982). **7b** seven rooms — claims · the chain · the negatives ·
+method · speculation & philosophy · interpretation & easy-read · logs — each with the one question
+the report must **answer**. **7c** the named-chain check, with thin links **recorded not hidden**
+(Markov blanket **0 arcs**, and its conflation hazard with Markov *triples* named; feedback **2**).
+**7d** the standard: *whoever opens this repository can follow the complete chain and reach the
+current state **without being misled by any document in it** — and a review that cannot assert that
+**names what blocks it**.*
+
+That last clause is the operative one: it forbids a review passing **silently** over a stale room.
+
+## B982–B987 (2026-08-09) — the grounding day: five governance arcs, one method killed, one rung dissolved
+
+**B982 — a gate is only as good as the provenance of its exemptions.** The file-drawer lock
+exempted twelve sealed preregs as *"audited as REPORTED in B837"*; **B837 names five of them.**
+Three of the seven unsupported exemptions rest on a **numbering collision** with the audit seat
+(B521: *"B493–B503 collides with this trunk's B496–B503"*). **B501/B502 are genuine file-drawer**;
+B503 is owner-gated and owed a disposition; B506 is reported — by B507, not B837.
+
+**B983 — the grounding.** `COMPUTE_THE_PROGRAM.md` defines the term (*compute over the object as
+**full relations**, never a single manifold* — a quantifier instruction) with protocol P0–P6;
+`THE_LADDER.md` maps the negatives as **32 graded rungs**; `WORKING_RULES.md` §0 binds both.
+**Before writing "the object does not supply X", find X on the ladder — if it is not there, the
+honest sentence is "not checked".**
+
+**B984 — the banking protocol + `doc-currency`, the first gate that checks SURFACES not arcs.**
+Every gate checked arcs, so `ROADMAP_TOE.md` was wrong for a month and `THE_SM_VERDICT.md` shipped
+missing eleven of twelve cascade arcs. First run found **TOOLBOX.md 613 arcs stale**, CLAIMS.md 129.
+Two visible pass-throughs, **neither silent** — B982's lesson.
+
+**B985 — cc3's relational batch verified and integrated.** Their one finding, arriving as a
+measurement from three directions: **our instruments hold objects, and relations fall through
+them.** Verified 6/6 here: **m003 has |H₁ torsion| = 5**, falsifying L73. Their own base-rate
+control (60.8%; reproduced here 63.2%) **killed the attractive successor in the same file**. Six
+OVER-WIDE scope notes attached, L77 withdrawn, three taxonomy rulings made.
+
+**B986 — the B500 reopen attempted; my own method killed by its own control.** The mod-p route
+*does* compute the eliminants (degrees 6450–7896) where PARI overflowed — a real instrument gain —
+but the decisive test is **vacuous**: ~70% of *random* polynomials pass it at those degrees.
+**A criterion that cannot fail is not a test.** L145a stays open, sharpened.
+
+**B987 — X8, "the top rung", dissolves.** The doublet is the **10 ⊂ 27** (B884, on the object's own
+frame); **no tension with B978** (that scopes the *adjoint*; matter mass is the **cubic** 27³ ⊃
+16·16·10, table computed); residue = **doublet–triplet splitting, BOUNDED as external** (B298/B299).
+Three correct arcs never stated together. **The first of the day's six instances caught by an
+instrument rather than by the owner** — P3 dissolved it in one query.
+
+## B981 — "the object is hyperbolic" is a half-face reading (a false no-go, withdrawn)
+
+**Verdict: RETRACTED.** Prompted by the owner's challenge — *"are you sure sure sure? did you
+verify the object in its full maturity and relations?"* The answer was no.
+
+**Withdrawn:** *"the object's Einstein solution has Λ = −1 < 0 — AdS — while observed dark energy
+is Λ > 0, so the sign is wrong before magnitude."* Wrong twice.
+
+1. **Category error.** Hyperbolic H³ is **Riemannian**; anti-de Sitter is **Lorentzian**. B716
+   banks why that identification is illegitimate: signature is the observer's, with **no canonical
+   Wick rotation**.
+2. **The object has a positive-curvature end.** **B248** proves a cone-angle transition through
+   **all three** signs — hyperbolic ℚ(√−3)/E₆ (α=0) → **Euclidean** (α=2π/3) → **spherical**
+   ℚ(√5)/E₈ (α=π), the spherical end a genuine non-abelian SU(2) rep with tr(ab)=φ. **B261**: one
+   AJ recursion carries both ends.
+
+**The sharpest part: the arc that refutes it is the arc that was being quoted.** B250's headline
+reads *"the E₆-hyperbolic/**E₈-spherical** ends: Vol=6Λ(π/3), **CS=0 vs π²/5**"* — the seat
+quoted the first clause in the same session and drew a conclusion the second clause refutes.
+
+**Survives:** still **no solution to the cosmological-constant problem** — the cone angle α is a
+*free parameter*, and Gates 2/3 (4d, dynamics) still bite. **Opens:** the object *contains* the
+sign transition, discarded on a category error. **Firewalled, not claimed:** that our universe
+sits just past the Euclidean point — a hook with no seal and large numerology risk.
+
+**Fifth instance on 2026-08-08** of declaring absent what the repo held (B950, B976, B974, B979,
+B981) — and a **dismissal**, the more dangerous kind. Never entered a tracked file (grep-verified).
+Registered as **retracted phrase row 6**.
+
+## B980 — the `k=3 → GΛ=2π` chain rests on two stacked conflations (a NEGATIVE retracted)
+
+**Verdict: RETRACTED.** B259's wall #5 chain — *golden `k=3` → via Smolin/Kodama `k=6π/(GΛ)` →
+`GΛ=2π` → a Planck-scale Λ → **122 orders** from observation* — is **withdrawn as a statement
+about this object**. Two stacked conflations, both verified on this bench:
+
+1. **DIMENSION.** From S=(1/16πG_d)∫dᵈx√g R with ħ=c=1: **[G_d]=L^(d−2)**, [Λ]=L⁻² ⟹ **GΛ is
+   dimensionless in d=4 ONLY**. The object's level comes from a 3-manifold. The 3d ratio is
+   `G₃/ℓ` — Witten's **k_L+k_R = ℓ/(8G)**. **Smolin's paper is titled "…in 3+1 dimensions"; eq. 58 is `k = 6π/λ, λ = ħGΛ` — B259 dropped the ħ.**
+2. **PROVENANCE** *(the stronger ground)*. **`k=3` has no gravitational derivation** — it is the
+   **anyon-theoretic** level of the Jones thread (**B218** unitary-anyon index d=2cos(π/5);
+   **B224** M(4,5)). **Smolin's k is *defined* as `6π/(ħGΛ)`** — it *is* Λ, rewritten. So equating
+   them does not **compute** GΛ; it **posits** `k_anyon = k_gravity` and reads back the assumption.
+   **`GΛ = 2π` is that assumption restated, not a derivation.**
+
+**Self-correction, recorded:** this arc's first draft named the defect as *"compact SU(2) vs
+non-compact gravitational"*. **That was wrong** — Smolin's CS theory **is** SU(2). Caught by
+verifying the arc's own load-bearing citation before commit. A retraction is not exempt from the
+standard it enforces.
+
+**The algebra was never wrong** (6π/3 = 2π exactly). What fails is what the symbols denote — the
+same shape as the day's other four failures. **Consequence: the "122 orders" is NOT the object's
+failure; the object never made that prediction.** (And the figure is itself convention-dependent:
+~120 orders with a Planck-mass cutoff, ~56–60 with Lorentz-covariant dimensional regularization.)
+
+**SCOPE — B259's walls #1–#4 and its verified theorem (the Mostow metric solves 3d vacuum Einstein
+exactly, Λ=−1) STAND UNTOUCHED.** Only wall #5's QGAP justification is withdrawn.
+
+**THE POSITIVE.** The object's genuine gravitational Chern–Simons quantity is already banked as
+**B250's complex volume: Vol(4₁) = 6·Λ(π/3) = 2.0298832128193072500424051081…** (verified to 28
+digits here) **with CS = 0 exactly, by amphichirality.** Dimensionless, exact, legal — no lift, no
+dimension mismatch, no borrowed level. The gravity brick's true content is a statement about the
+object's own amphichirality, not about a cosmological constant.
+
+*No preregistration: the defect surfaced during the owner-requested literature read, before any
+cell was designed.*
+
+## B979 — L131: A7 is load-bearing (and §5 of the same document already said so)
+
+**Verdict: NEGATIVE — L131 CLOSED, NO.** B949 registered L131 on the hope that B945's
+"the R↔L swap fixes the object" discharges axiom A7. It does not. **LR and RL are conjugate**
+(via the record-swap P, verified) — so B945's finding is a **class-level** statement. But the
+**Möbius fixed-point polynomial is a BASED invariant** and it differs: τ²−τ−1 (roots φ, −1/φ)
+vs τ²+τ−1 vs τ²−3τ+1. A7 lives at the based level, exactly where B945 is blind.
+**§5 of `UNIQUENESS_THEOREM.md` is titled "The order choice is load-bearing (A7), not
+cosmetic"** — B949 read §4.
+
+**The positive content, and it is the better half — the sharpest statement the programme has
+about the four letters: A7 isolates, to a SINGLE BINARY CHOICE, where the specific number φ
+(rather than −φ or φ²) enters.** The combination principle plus six motivated axioms forces
+the object **up to one bit**, and that bit is named and is the origin of φ.
+
+Honest convention note: this bench's L/R naming is transposed relative to the document, so
+*which* order carries the golden polynomial flips — not a discrepancy, **a demonstration of
+A7's content**. **Fourth instance today** of declaring open what is banked (B950, B976, B974,
+B979); the most embarrassing, since the answer was in the next section of the file being read
+— and `representation-sweep` would not catch it, as UNIQUENESS_THEOREM is not an arc.
+No preregistration: the answer surfaced during the prior-art read, before any computation.
+
 ## B978 — Phase A banked: four leads closed, one new mechanism, one failure repeated
 - **L134 CLOSED** (not an independent gap — three leads collapse to *one operation used three times*) · **L132 CLOSED VACUOUS** (independently corroborating B976's prior-art miss) · **L137 CLOSED REFUTED** · **L135 DISCHARGED** for the rebuild, unblocking L142.
 - **V5, verified here by lattice membership: the 78 does not occur in 27 ⊗ 27 ⟹ no adjoint VEV can give any 27 fermion a mass.** The verdict's headline now has a *mechanism*: the adjoint half does gauge structure and provably cannot do matter mass.

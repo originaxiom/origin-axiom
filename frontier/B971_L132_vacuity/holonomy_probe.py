@@ -21,6 +21,8 @@ Two computations, both exact, both from the Cartan matrix only:
 
 import json
 import sympy as sp
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 
 
 def cartan_matrix(n, edges):
@@ -111,5 +113,5 @@ R['no_continuous_commutant_of_the_holonomy'] = (
 R['exponents_derived'] = [int(t // 2) for t in tops78]
 
 print(json.dumps(R, indent=2, default=str))
-with open('/Users/dri/origin-axiom/frontier/B971_L132_vacuity/holonomy_probe_out.json', 'w') as f:
+with open(str(_REPO / "frontier/B971_L132_vacuity/holonomy_probe_out.json"), 'w') as f:
     json.dump(R, f, indent=2, default=str)

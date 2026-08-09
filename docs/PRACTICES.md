@@ -434,3 +434,34 @@ register quietly incomplete**, which is precisely how `knowledge/INDEX.md` lost 
 same both-directions check that fixed that fixes this.
 
 When a practice is agreed in conversation, it is **not** agreed until it has a row here.
+
+## No living document misrepresents the current state — GATED (`doc-currency`)
+
+**The rule.** A registered *living document* — one a reader forms their picture of the programme
+from — must not lag the corpus. `doc-currency` (B984) measures, for each, the **newest arc it
+cites** against the **newest arc that exists**, and fails past a per-document tolerance.
+
+**Why it exists.** `ROADMAP_TOE.md` described the programme's position as *"the kinematic/symmetry
+frame is forced arithmetic"* for a month after B862/B863/B864 made that false. `THE_SM_VERDICT.md`
+shipped omitting **eleven of the twelve** cascade arcs and contradicting two banked results. Neither
+was caught, because **every gate checked arcs, and no gate checked surfaces.**
+
+**The measure is deliberately crude and honest.** Newest-citation lag is a proxy: a document can be
+current and cite nothing recent, or stale while citing a fresh arc. It is a *prompt to read*, not a
+proof of staleness — which is why the failure message says a stale surface is **owed a read**, not
+that it is wrong.
+
+**Two visible pass-throughs, and neither may be silent** — B982 found seven gate exemptions resting
+on an audit that never named them:
+
+- **`frozen`** — an in-file marker `<!-- doc-currency: frozen -->` for records, dated snapshots and
+  superseded files kept for provenance. **Reported on every run.**
+- **`DECLARED_DEBT`** — names *what* is owed and *when* it was declared. **Printed on every run**,
+  and the lock fails if the set grows. **A debt is not an exemption.**
+
+**Standing debts declared 2026-08-09:** `docs/TOOLBOX.md` (**613 arcs stale** — and the pre-compute
+protocol says read the toolset before any important probe, so this is the highest-priority debt on
+the board), `CLAIMS.md` (129), `docs/THEOREM_LEDGER.md` (63), `docs/GUT_REQUIREMENTS_LEDGER.md` (31).
+
+**Where the rest of the obligation lives:** `docs/BANKING_PROTOCOL.md` — the full banking checklist,
+the independent-verification requirement, and the decadal review's room-by-room currency reading.

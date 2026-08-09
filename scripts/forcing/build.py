@@ -45,6 +45,27 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 BITS = [("c", "conjugation"), ("theta", "reversal"), ("gamma5", "the golden branch")]
 
 
+
+_FINDINGS_NAMES = ("FINDINGS.md", "VERDICT.md", "README.md", "WORK.md", "SCOUT.md",
+                   "SYNTHESIS.md", "PREREGISTRATION.md")
+
+
+def _findings_doc(d):
+    """The arc's write-up, whatever it is called (B985).
+
+    Exact-name matching lost 42 arcs. Prefer the canonical name, then the known variants,
+    then any FINDINGS-ish file, so an arc is ingested on having content rather than on
+    having guessed the filename convention of its year.
+    """
+    import glob as _glob
+    for n in _FINDINGS_NAMES:
+        p = os.path.join(d, n)
+        if os.path.isfile(p):
+            return p
+    hits = sorted(_glob.glob(os.path.join(d, "*FINDINGS*.md")))
+    return hits[0] if hits else None
+
+
 def _read(rel):
     with open(os.path.join(ROOT, rel), encoding="utf-8") as fh:
         return fh.read()
@@ -58,7 +79,13 @@ def build():
     fdir = os.path.join(ROOT, "frontier")
     for d in sorted(os.listdir(fdir)):
         m = re.match(r"(B\d+)[a-zA-Z]?_", d)
-        if not m or not os.path.isfile(os.path.join(fdir, d, "FINDINGS.md")):
+        # B985 (cc3 decision 1): this once required the exact name "FINDINGS.md" and silently
+        # skipped 42 arcs carrying real content under another name -- including B1-B5, the first
+        # five arcs of the programme (README.md only), B68 (FINDINGS_E.md), B473 (FINDINGS_C1.md),
+        # B511 (D3_FINDINGS.md). Hygiene, not discovery: cc3 checked and the 77% figure moves only
+        # between 58-79% either way. But any re-run of the attachment inherits the blind spot until
+        # this is fixed, so it is fixed before the re-run rather than after.
+        if not m or not _findings_doc(os.path.join(fdir, d)):
             continue
         aid = m.group(1)
         rec = {"dir": d, "verdict": None, "instrument": False}

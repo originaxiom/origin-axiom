@@ -4,9 +4,11 @@ reconstruction of frame/floor/M12.  Every check paired with a control that
 could make it fail.
 """
 import sys, json, time
-sys.path.insert(0,"/Users/dri/origin-axiom/frontier/B961_frame_instrument")
+sys.path.insert(0,str(_REPO / "frontier/B961_frame_instrument"))
 import sympy as sp, frame
 from fractions import Fraction as Fr
+import pathlib as _pl
+_REPO = _pl.Path(__file__).resolve().parents[2]
 T0=time.time()
 def log(m): print(f"[{time.time()-T0:6.1f}s] {m}",flush=True)
 DIM,N=frame.DIM,frame.N; ROOTS,BB,C=frame.ROOTS,frame.BB,frame.C
@@ -135,5 +137,5 @@ A=pen(AD8p,AD16p,g0)
 img=[[sum(A[i][k]*v[k] for k in range(DIM) if v[k])%p for i in range(DIM)] for v in M12]
 R["control_generic_kernel"]=12-rankp(img)
 log(f"    CONTROL generic rho: kernel = {R['control_generic_kernel']} (must be 0 -- the test can fail)")
-json.dump(R,open("/Users/dri/origin-axiom/frontier/B973_L135_frame/scout_probe4_results.json","w"),indent=1,sort_keys=True,default=str)
+json.dump(R,open(str(_REPO / "frontier/B973_L135_frame/scout_probe4_results.json"),"w"),indent=1,sort_keys=True,default=str)
 log("DONE")

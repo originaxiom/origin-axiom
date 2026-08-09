@@ -1029,3 +1029,169 @@ clause, not the whole normalisation.
 > by opinion.** The discriminating test, named: **exhibit a morphism carrying one pencil to
 > another, or show the agreement is only of outputs.** B961's instrument is the right bench;
 > it needs the solo frame definitions (L135).
+
+> **L131 — CLOSED NO 2026-08-08 by B979.** A7 is **load-bearing**, and the answer was already in
+> **§5 of UNIQUENESS_THEOREM** ("The order choice is load-bearing (A7), not cosmetic") — the
+> section after the one B949 read. B945's "σ fixes the object" is a **class-level** statement;
+> LR and RL are conjugate via the record-swap. But the **Möbius fixed-point polynomial is a
+> BASED invariant**, and it differs: τ²−τ−1 (φ, −1/φ) vs τ²+τ−1 vs τ²−3τ+1. A7 lives at the
+> based level.
+>
+> **THE POSITIVE CONTENT — the sharpest statement the programme has about the four letters:
+> A7 isolates, to a SINGLE BINARY CHOICE, where φ (rather than −φ or φ²) enters.** The
+> combination principle plus six motivated axioms forces the object **up to one bit**, and that
+> bit is named and is the origin of φ. What remains unproved is **why A1–A6** (B949), and the
+> unconditional "from nothing" direction is **mapped dead**.
+
+## L144 — is B167's door-map still standing after the cascade campaign? (registered 2026-08-08, B979 prior-art read)
+
+**Not a Planck-scale retry.** The *scale* question is genuinely bolted: **B413** (the tower-measure
+is flat, |L(χ)|=1/4 for every character — exact) and **B563** (a preregistered Planck-ratio retry
+nulled at every rung, p≈0.53, a plastic-seed control landing *closer* than the object). Those two
+stand and are not to be re-run.
+
+**What is questionable is the taxonomy that surrounds them.** `B167_conserved_no_scale_lemma`
+supplies the five-door case analysis behind "the wall has no internal door". Three facts about it,
+established during B979's prior-art read:
+
+1. **It is self-labelled POSTULATED** — *"argued complete… a taxonomy argument, not a proof of
+   exhaustiveness."* It is not a theorem and never claimed to be.
+2. **It is orphaned.** No arc's `depends_on` cites B167. Nothing has tested it since it was written.
+3. **It is dated 2026-06-18 — 51 days ago, and entirely before the cascade campaign (B860–B978).**
+
+**The specific staleness.** Door 5 is the *ratio* lane, and B167 calls it *"the only logically-open
+lane"* — then dismisses it because its survivor is *"mathematics… **not the SM's gauge content**."*
+**That premise is now false.** B862 derives the global ℤ₆ form, B864 derives hypercharge as the
+unique gaugeable U(1) from anomaly cancellation, and B892 lands the cascade on su(3)⊕su(2)⊕u(1)³.
+The object now *has* SM gauge content, which is exactly what door 5's dismissal assumed absent.
+
+**The sharpest shape for the retry, and it is not numerology.** Solo's §CXII: **'t Hooft anomalies
+are RG-INVARIANT** — evaluable from the massless spectrum alone, constant along the flow. So the
+anomaly layer is **scale-free by theorem**, which makes it the one part of QFT a scale-free object
+may speak about *without* crossing Gate 5 — and it **constrains dynamics** (a nontrivial anomaly
+forbids a trivial IR). Door 5 wants a dimensionless, quantized, topological ratio; the anomaly
+layer is precisely that, and B864 already computed inside it.
+
+**Two-outcome, to be sealed before any compute:** either the anomaly layer yields a door-5 ratio
+with genuine gauge content (⟹ B167's door-map needs a row rewritten), or it does not (⟹ B167
+stands and gets its first citation, which it has never had).
+
+**Standing constraint:** this is the *ratio* lane the owner named ("we look for ratios not values").
+It is **not** licence to re-open the scale lane. B413 and B563 are terminal for scale.
+
+---
+
+## SCOPE-CORRECTION NOTES — the six OVER-WIDE closures (B985, from cc3's relational re-read)
+
+**These are notes, not reopenings.** Each closure below is a no-go **proved on a strictly smaller
+quantifier than the ledger banked it over** — the inversion B855 named, in the dangerous direction:
+*reach limits read as forcing*. Each row names the quantifier actually proved and the one
+computation that would settle the difference. **A lead marked STALE-CLOSED whose closure is
+OVER-WIDE must not be counted as closed.**
+
+| lead | proved over | banked over | the settling computation |
+|---|---|---|---|
+| **L54** *(most dangerous)* | no forced choice among five invariant classes **of 4₁ alone** — covers to **index 6**, cyclic torsion n ≤ 6, the Bloch class of its two tetrahedra, its trace ring, its H¹ | "gate A is sealed for **the object**" | rerun the eight sealed classes on **m003** (index 12 — beyond the horizon *by construction*) and on **the child 4₁(5,1)** (a *filling*, arithmetic not inherited: x⁴−x−1, disc −283, S₄). **Covers *are* the commensurability relation, so the horizon and the class boundary are the same wall** |
+| **L1** | m004 extremal **along the metallic diagonal m = 1..7** | "m004 is *the* selected object" | K016's five criteria on **m003, m206** (golden) and **m136/m129/m135** (silver). Criterion 3 (arithmeticity) is **class-invariant by Reid/B803 and cannot discriminate at all**; criterion 1 already **ties** with m003 on volume |
+| **L57** | the polarization dichotomy **at level 15** = the *meeting face's* conductor | probation discharged for **every** seam-arc result, including the (2,3) silver×bronze pair at **level 8** | S-closure of the two polarization families at **level 8** (ℚ(√−1)/PSL(2,𝒪₋₁)). Until then, seam probation is discharged **only on the golden row** |
+| **L84** | the zero-map wall for A₁-modules into the golden hearing plane *(safe)*, plus clock(κ) = ord(A₁ mod 3κ) on **κ = 6..15** | *"the dictionary now holds at the ORDER level too"* | **κ = 5** — the object's own bearing stage, marked *"anomaly zone"* and **excluded from the very table that discharged the clause** — plus the silver functor through B666's SL(2,ℤ/8) quotient |
+| **L93** | no intertwiner over **Isom⁻(m004) ∪ swap**, in the Sym⁰ block of m004's weld double | "the 24ζ₆ magnitude is not forced by **any** symmetry" | extend the search to the **commensurator** of the class (hidden symmetries; the index-12 sister) and to B643's **own two unprobed order-4 orientation-reversing families** |
+| **L77** | the modulus law on the **SU(3)** stage, κ = 6..15 | the **E₆ θ-odd** modulus map k ↦ N(k) | **WITHDRAW, do not re-test.** E₆ gives ord(T_k) = 12, 84, 180, 48 at k=1..4 vs 3κ = 39, 42, 45, 48 — **agreement only at k=4, a coincidence.** The census already scores this REFUTED→LIVE |
+
+## HELD OUT OF ANY "CLOSED" COUNT (B985)
+
+> **L73** — **FALSIFIED by computation, verified independently on the cc bench 6/6.** The closure
+> banks abelian invisibility as a property of *the object*; its own sister **m003 has |H₁ torsion|
+> = 5** (ℤ/5 + ℤ), at the hearing prime. A property that fails **inside the commensurability class**
+> is not a property of the class. *(m206 = 5, m136 = 4, m135 = 8; m129 excluded on a stated ground —
+> two cusps, so torsion-freeness carries no information about a one-cusped abelian theater.)*
+>
+> **And the attractive successor is REFUTED, in the same file, by its own control.** The inversion
+> *"invisibility is not a property the object HAS, it is a property that SEPARATES it from every
+> one-cusped relative"* is a **base-rate artefact**: trivial H₁ torsion holds for **60.8%** of
+> one-cusped census manifolds (**47.8%** at vol < 4.1). Reproduced on the cc bench at **63.2%** and
+> **48.5%** on a 30k volume-ordered sample. **Trivial torsion is a coin flip.** The residual pattern
+> prices at ≈1.9% under an independence assumption that does *not* hold, for a statistic chosen
+> *after* seeing the data, at n = 6. **No selection claim survives.**
+>
+> **L98** — held out pending the MST/gap recomputation with a **non-commensurable** control and a
+> **V₄-shaped** hypothesis space (B730 forces three-way where the arc asked a binary). The
+> boundary-condition dependence alone (periodic → 2 organs, open → 1) already denies the closure.
+
+## TAXONOMY RULINGS (B985, cc decision 6 — ruled explicitly rather than by default)
+
+1. **`character-variety` / trace-map substrate — ADMITTED as the twelfth face.** It is *structure of
+   the object*, not a chart on it: the Fricke–Vogt surface, the trace map, **and the primitive
+   shears L, R of GL(2,ℤ) — which are axioms A2–A4 themselves**. It is the substrate the object is
+   *built from*, and it is Layer 0 of `THE_FRAMEWORK.md`. That three readers named it independently,
+   from residue, without seeing each other's chunks, is corroboration.
+2. **`observer` — NOT a face. Registered as an AXIS.** cc3 states the reason precisely: it is *an
+   axis acting on the object* rather than a region of it. B717 agrees — the object supplies four
+   incompletenesses and the observer supplies every *closing*. Closings are operations, not organs.
+3. **`physics-door` — NOT a face. A BOUNDARY LABEL**, exactly as cc3 recommends. Making it a face
+   would repeat the category error that produced the current anatomy: **the eleven faces already
+   describe what the object is NOT**, because they were induced from `kill_graph`.
+
+---
+
+## L145 — THE REVIVAL RESERVOIR: an indexed lead structure no register can be queried against (registered 2026-08-09, B986, from cc3's unexplored-leads sweep; verified on this bench)
+
+**The finding is not that leads are lost — it is that a whole lead structure exists that no ledger
+indexes, so its top items surface only by accident.**
+
+`frontier/B738_pathfinder_compiler/kill_graph.json` (743 entries) carries three fields **no register
+surfaces**: `hatch` (a named escape route — **231 entries have one**), `revival_score` (0–6, on
+**220** entries; **28 score ≥ 4**), and `priority`. **167 entries are UNTRIAGED with no hatch and no
+score at all** — nearly a quarter of the graph was never assessed for revivability.
+
+You cannot ask any ledger *"what are the most revivable kills?"* That query exists only inside a
+JSON file.
+
+### L145a — **B500: a kill whose own arc says it is not a kill. VERIFIED HERE.**
+
+`revival_score` **6 — the highest in the graph** — and it appears in **NO register** (0 hits in both
+`OPEN_LEADS.md` and `LEAD_REGISTER.md`, checked).
+
+Both source files say it plainly:
+- `B500_child_hunt/FINDINGS.md`: *"## Depth 5 — **the KILL is PROVISIONAL**: no hit in 115/150
+  words"* … *"**35 words remain UNCHECKED** (26 timeouts + 9 never-reached — the D/M-heavy tail whose
+  resultant eliminants blow up to degree **~3000–9280**, beyond in-sandbox `gp`)"*
+- `B525_are_you_sure/FINDINGS.md`: *"**CHILD-NOTSHORT → KILL downgraded to PROVISIONAL.** Only
+  **115 of 150** words were actually analyzed … **reopen = re-run the 35** (𝔽_p Gröbner or longer
+  timeout)."*
+
+> **So the question — is the child (x⁴−x−1, d_K = −283) a short word? — is OPEN at 23% unchecked,
+> the reopen action is written down, the arithmetic is specified, and it is in no register.**
+> The single most concrete unexplored lead the sweep found.
+
+### L145b — six more high-revival kills, unregistered
+
+**B111** (5, `nonlinear-transport` — the s_n↔c bridge; the graph calls c-into-θ *"the live crux of
+the two-chiralities program"*) · **B477** (5 — *"the L6a4 pairing hint survives unexplained"*; the
+fresh read used a **truncated** cocycle window, 7 of ~30 sign entries) · **B712** (5,
+`native-continuous-channel` — the real-anchor probe consulted **only** the A-polynomial curve, while
+the **emittance** face supplies canonical choice-free continuous real data never consulted) ·
+**B374** (4) · **B394** (4 — the kill's reward is live structure: the unified singles law) ·
+**B706** (4 — the SM-flavour kill died on a **kind** mismatch, discrete bits vs ~19–26 continuous
+reals). *Graph annotation, read but not independently re-derived — labelled as such by cc3.*
+
+### L145c — the graph's `id` field is not uniformly an arc id
+
+`W10-B660/B666`, `W11-B706`, `P21 — the framework search` are composite or campaign-level ids in an
+arc-keyed graph. **Anything keyed on `id` — including any future attachment pass — silently
+mis-handles them.** cc3 self-corrected a draft that merged *"an id that cannot be looked up"* with
+*"an id that was not found"*; they are different failures and only the first is a lost lead.
+
+### L145d — a SECOND register exists, and the triage never covered it
+
+**`docs/LEAD_REGISTER.md`** — 185 lines, names 77 arcs, a re-score of the whole non-banked corpus
+(133 probes) against *today's* toolset, updated at Review 37. The 43-lead triage covered
+`OPEN_LEADS.md` **only**.
+
+**Citation rot fixed here:** `LEAD_REGISTER.md` names five registers it swept, and cited two at paths
+that do not exist. **Both files exist elsewhere** — `speculations/TOMBSTONES.md` and
+`docs/atlas/FAILURE_ATLAS.md`. Moved, not missing; the citations rotted.
+
+**Honest base rate, cc3's own:** 34 of 109 arc-ids (31%) among short-hatch entries are in no
+register, against a **36% corpus baseline** (342 of 941 arcs are named in no register). **31% is
+unremarkable.** The finding is the *unindexed structure*, not anomalous loss.
