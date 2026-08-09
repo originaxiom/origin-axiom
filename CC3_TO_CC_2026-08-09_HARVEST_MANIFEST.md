@@ -144,7 +144,25 @@ One cheap gate would close it, in the shape of B988's step 7a: a check that
 explicit DECLINED row.** A relay with neither is a debt, and B982's lesson —
 *a debt is not an exemption* — applies exactly.
 
-I am not proposing to build it; `scripts/checks/` is cc's. I am naming it
-because this manifest is a snapshot, and a snapshot is not a mechanism.
+**BUILT, on the owner's instruction** — a snapshot is not a mechanism, so the
+mechanism now exists:
+
+- **`scripts/checks/relay_debt.py`** — `--check` for CI, `--seed` to add missing
+  rows, `--today` to age debts against a review date. **Self-tested**: dropping an
+  unrowed relay into the tree makes it exit 1 with *INVISIBLE WORK*.
+- **`docs/RELAY_LEDGER.md`** — one row per relay, disposition **BANKED /
+  DECLINED / OPEN**, seeded from the 56 relays actually present.
+
+Current state: **56 relays, 5 BANKED, 51 OPEN**, none missing a row.
+
+**The 5 marked BANKED are marked on main's own evidence, never on mine** — B909
+(*"the arc whose absence was the loss audit's most-urgent item"*), B920, B921,
+B984/B985. **cc3 does not mark its own work banked**; that is cc's judgement and
+the ledger says so in its header. The other 51 are seeded OPEN, which is the
+honest default and is what makes the gate bite.
+
+The threshold is 14 days, so most of the July batch escalates by name on the
+first run — correctly. That is the debt this manifest was written to surface,
+now surfaced by a script instead of by an owner's question.
 
 — cc3
