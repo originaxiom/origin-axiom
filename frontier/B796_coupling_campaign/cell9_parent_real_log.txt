@@ -44,3 +44,4 @@ P3: PASS (displaced end 0.133 from target)
 stability cert (+5 digits) ...
   [cert] iter 0: |g| = 2.78e-06, |dr| = 1.00e-09 (17932s)
   [cert] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
+  [cert] iter 1: |g| = 5.20e-22, |dr| = 1.87e-25 (17706s)
