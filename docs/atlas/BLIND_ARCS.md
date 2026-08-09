@@ -43,7 +43,6 @@ auditable in a way a passing threshold never was.
 | `B935` | GAP | The composition hunt: forced compositions of the object's cascade classes and the rank-2 degeneracy of the register overlap. Object-level geometry (overlap matrices, singular structure) the lexicon carries no motif for; the negative verdict does not make it instrumental. |
 | `B986` | GAP | The B500 depth-5 reopen: eliminants of depth-5 trace-map words over GF(p), and whether the child field K = Q[t]/(t^4-t-1) occurs as a root field. Object-level arithmetic (the child, the F/M/D word grammar, resultant eliminants) the lexicon carries no motif for. The NEGATIVE verdict is about this seat's own *method* being vacuous, but the arc's subject is the object, so it is a GAP and not an INSTRUMENT. |
 | `B998` | INSTRUMENT | The axiom chain's lock audit: which forks `test_b749_genesis_forks.py` actually tests versus which `THEOREM_LEDGER.md` cites. About the repository's own verification discipline — an object atlas is correct to miss it. |
-| `B1001` | INSTRUMENT | The four-digit blind spot and the drifting frequency floor: an arc-ID regex capped at three digits, and a measured band about to be re-fitted a third time. About the repository-s own instruments — an object atlas is correct to miss it. |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 
