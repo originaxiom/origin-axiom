@@ -181,3 +181,44 @@ where homogeneity fails and where this object's cubics live.**
 surface.** Everything else on the board — cosmology, the big bang, gravity, the other
 unexplained phenomena — is now downstream of a settled question rather than blocked behind an
 unsettled one.
+
+---
+
+## AMENDED AGAIN 2026-08-09 (B993, B994) — two results that sharpen the verdict in opposite directions
+
+**B994 STRENGTHENS the cascade.** The rule-variation axis had **never been asked** (B869 varies the
+*starting group*, not the rule). Registerable options per step are **[3, 2, 1]**, and enumerating
+**every** registerable-respecting selection function gives **six chains, all six ending at the
+Standard Model.** So *"maximal residual symmetry"* — recorded by B859/B874 as **assumed and never
+retired** — selects only the **path**; the **endpoint** is forced by **registerability**, the
+**derived** half (B860, B871). **One load-bearing assumption is removed from the chain.**
+
+**But the same result names the limit.** Registerability **is chirality** — verbatim,
+*"registerable = the generation stays chiral"* — and **B713/B760 prove the object does not supply
+chirality**: *"the object cannot close itself."* **So the endpoint is forced by an input the object
+does not have.** The honest statement is: *given E₆ and given chirality, six paths land on the SM.*
+**Grade: REPRODUCED, not DERIVED** — textbook GUT, **Tier 1**, predicting **none** of the 19
+dimensionless numbers.
+
+**B993 WEAKENS the cornerstone, and this is the harder result.** Verified on this bench: π₁(m004) ↠
+2T gives **exactly 2** (reproducing B266) — but **32.8% of one-cusped census manifolds carry the same
+count** (ties: m003, m007, m022, m026, m027, m029, m030). **The one object-specific fact carrying the
+chain is generic at roughly 1 in 3**, exactly as B727 pre-empted. And **Reid-uniqueness — m004 as
+*the* arithmetic knot complement — is load-bearing at zero steps**: the chain buys the **field**
+ℚ(√−3), which is a **commensurability-class** invariant.
+
+> **Net: the derivation is a theorem about the class ℚ(√−3), plus a theorem about E₆, joined by a
+> fact one hyperbolic 3-manifold in three possesses. It can be made unbeatable as a statement about
+> that CLASS. It cannot, on today's evidence, be made unbeatable about m004.**
+
+**The one door left open, and it is precise.** B803's usual quotation is **over-wide**; its own
+addendum narrows it: a step depending only on the **trace field, quaternion algebra, or
+arithmeticity** is a **class** statement — **but a step depending on the GROUP Γ itself is not.**
+**So object-specificity, if it exists anywhere, lives at the group level.** That is where any Tier-2
+result would have to come from, and nowhere else.
+
+**Where this verdict now sits against `WHAT_WOULD_COUNT.md`:** **Tier 0 complete** (the object forced
+up to one bit, and the bit is where φ enters). **Tier 1 substantially complete** — with **ℤ₆ (B862)
+and the hypercharge direction (B864) genuinely DERIVED**, which is full credit by that document's own
+bar. **Tier 2 — one sealed dimensionless ratio no class-sibling shares — remains NOT DONE**, and
+B993 explains why it is hard rather than merely unattempted.

@@ -20994,6 +20994,64 @@
    "status": "open",
    "domain": "topology"
   },
+  "B993": {
+   "slug": "cornerstone verified",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B266",
+    "B727",
+    "B803",
+    "B860",
+    "B861",
+    "B862",
+    "B864",
+    "B869",
+    "B871",
+    "B951",
+    "B962",
+    "B970",
+    "B978",
+    "B987",
+    "P0"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B994": {
+   "slug": "rule variation",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B582",
+    "B713",
+    "B760",
+    "B859",
+    "B860",
+    "B861",
+    "B869",
+    "B871",
+    "B873",
+    "B874",
+    "B993",
+    "P0",
+    "P5"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B99": {
    "slug": "geometric jacobian sl3",
    "motifs": [

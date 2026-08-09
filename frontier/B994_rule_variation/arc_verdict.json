@@ -1,0 +1,22 @@
+{
+ "id": "B994",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE RULE-VARIATION TEST, NEVER ASKED BEFORE (B869 varied the STARTING GROUP, not the rule), RUN HERE -- AND THE ENDPOINT IS RULE-INDEPENDENT WHILE THE PATH IS NOT. Registerable options per step are [3, 2, 1]: at step 1 three of four options are registerable (Sp(8) fails), at step 2 both, and AT STEP 3 EXACTLY ONE -- the SM (SU(4)xU(1) fails registerability). Enumerating EVERY registerable-respecting selection function gives SIX reachable chains, and ALL SIX END AT THE STANDARD MODEL. So the assumed half of B861's rule -- 'maximal residual symmetry', which B859/B874 record as ASSUMED AND NEVER RETIRED -- DOES NOT DO THE LANDING. The landing is done by REGISTERABILITY, which is the DERIVED half (B860 theorem-grade, B871 paying the owed definition). What the ranking selects is the PATH, not the destination: max-dim and first-listed give SO(10)xU(1) -> SU(5)xU(1) -> SM, while min-dim and last-listed give SU(3)^3 -> Pati-Salam -> SM -- different intermediates, same endpoint. THE CORRECTION THIS FORCES TO THE QUESTION AS POSED: this seat framed it as 'if many rules land on the SM, the rule is doing the landing', which is backwards -- many rules landing means the endpoint is ROBUST to the rule, and combined with B869's control (the cascade rule is NOT an SM-generator regardless of input, so a different STARTING GROUP does not produce the SM) the robustness is evidence that the MENU STRUCTURE forces the endpoint rather than the ranking. SCOPE, and it is the binding limit: this is a statement about B861's MENUS, whose completeness is certified by B873's P5 gate -- step 3's forcing is real GIVEN that certification and would be an artifact without it. It says nothing about how the object reaches E6 in the first place, which B993 shows is CLASS-level, not object-level. So the cascade half is robust; the cornerstone half is still generic. THE LIMIT, and it is the part that matters: what forces the landing is CHIRALITY -- the criterion is verbatim registerable = the generation stays CHIRAL -- and the corpus proves the object does not supply it (B713 NEGATIVE: chirality is NOT in the amphichiral object, which-chirality is a non-canonical Galois choice; B760 NEGATIVE: no object-native operation canonically signs the theta-odd chord sector, THE OBJECT CANNOT CLOSE ITSELF; B582 PROVED: chiral matter is CONSTRUCTIBLE via a closing supplied from outside). So THE ENDPOINT IS FORCED BY AN INPUT THE OBJECT DOES NOT HAVE, and the honest statement is NOT from-the-first-constraint-to-the-SM-parameter-free but: GIVEN E6, which B993 shows is bought by the FIELD and is a commensurability-class invariant, AND GIVEN CHIRALITY, which the object provably does not supply, six paths land on the SM -- two external inputs, both named, both already banked as external. GRADE per WHAT_WOULD_COUNT section 3: REPRODUCED, NOT DERIVED, since E6 > SO(10) > SU(5) > SM with chirality selecting the last step is textbook GUT that every E6 model gets; TIER 1; it predicts NONE of the 19 dimensionless numbers.",
+ "depends_on": [
+  "B861",
+  "B869",
+  "B871",
+  "B860",
+  "B873",
+  "B859",
+  "B874",
+  "B993",
+  "B713",
+  "B760",
+  "B582"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), from cc3 RULE probe"
+}

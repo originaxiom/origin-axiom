@@ -1,5 +1,39 @@
 # Changelog
 
+## B993, B994 (2026-08-09) — the cornerstone is generic; the cascade's endpoint is not the rule's doing
+
+**B993 — the cornerstone verified, and it has no object under it.** cc3's cornerstone synthesis
+returned *"NOT YET — not for want of theorems, but because the cornerstone has no object under it"*,
+and the load-bearing number was **re-derived here before acceptance**. Reproduced: π₁(m004) ↠ **2T**
+gives **48/24 = exactly 2**, matching B266. **Base rate on 400 one-cusped census manifolds: 37.2%
+admit a surjection, 32.8% admit exactly two** — m004's own count — with ties reproducing exactly
+(m003, m007, m022, m026, m027, m029, m030). **The one object-specific fact carrying the chain is
+generic at ~1 in 3**, as B727 had pre-empted. And **Reid-uniqueness is load-bearing at zero steps**:
+the chain buys the **field** ℚ(√−3), a **commensurability-class** invariant. **So the derivation is a
+theorem about the class + a theorem about E₆, joined by a generic fact — unbeatable about the CLASS,
+not about m004.** **The door left open is precise:** B803's own addendum says a step depending on the
+**GROUP Γ itself** is *not* a class statement — **so object-specificity, if it exists, lives at the
+group level.**
+
+**B994 — the rule-variation test, never asked before, and it comes back favourable.** Registerable
+options per step **[3, 2, 1]**; enumerating **every** registerable-respecting selection function gives
+**six chains, all six ending at the SM**. So *"maximal residual symmetry"* — **assumed and never
+retired** — selects only the **path**; the **endpoint** is forced by **registerability**, the
+**derived** half. **One load-bearing assumption removed.**
+
+**And the same test names the limit: registerability IS chirality**, which **B713/B760 prove the
+object does not supply** (*"the object cannot close itself"*). **The endpoint is forced by an input
+the object does not have.** Honest statement: *given E₆ (class-level) and given chirality (external),
+six paths land on the SM.* **Grade: REPRODUCED, Tier 1, predicting none of the 19 numbers.**
+
+**Also corrected:** the exotics count is **eleven, not twelve** (10 + 1); *"never addressed"* was
+false (B951/B962/B970); and B978-vs-the-cubic was never a tension — B978 quantifies over
+27-**bilinears**, and class(27) having order 3 leaves the **cubic** free.
+
+**A framing error of this seat's, recorded:** the test was posed as *"if many rules land on the SM,
+the rule is doing the landing."* **Backwards.** Many rules landing means the endpoint is **robust**.
+The inverted framing would have turned a favourable result into a false alarm.
+
 ## B992 + Wave 2 close (2026-08-09) — X12 settled by computation, X9 was already closed, and three rungs collapse to one operation
 
 **B992 — X12 SETTLED: the second measurement's u(1)³ *is* span(Y, χ, ψ).** B953 had flagged its own
