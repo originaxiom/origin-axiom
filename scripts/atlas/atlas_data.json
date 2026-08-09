@@ -21109,6 +21109,20 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B998": {
+   "slug": "genesis locks",
+   "motifs": [],
+   "refs": [
+    "B1",
+    "B100",
+    "B982",
+    "P019"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B99": {
    "slug": "geometric jacobian sl3",
    "motifs": [

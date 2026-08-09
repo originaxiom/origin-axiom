@@ -25,7 +25,7 @@ quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b749_genesis_fork
 **C2 [THEOREM — the self-selection, one criterion].** Hurwitz extremality at the golden
 slope IS the all-1s continued fraction (the bottom of the Lagrange spectrum): the
 minimal-description principle applied to its own parameter has a unique fixed point.
-— P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` (the F3+F7 controls).
+— P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` — **CORRECTED 2026-08-09 (B998): that file tests F4, F5, F6, F7 only. There is NO F3 test.** The F7 control is present; **F3 is a citation to a test that does not exist.**
 
 **C3 [AXIOM — being is inexhaustible description; PRICED].** The one deep metaphysical
 commitment (P019's A0+A2 under the honest recount). Price computed: the periodic sibling
@@ -323,3 +323,5 @@ invisible-12 — enter when their locks land; LAW_MAP §F's pending row governs.
 green lock + one of the five labels); a link whose lock breaks reverts to the arc trail
 until repaired; the chain is regenerable from the bank and never a source of authority
 over it (GOVERNANCE: views don't outrank arcs).*
+
+> **LOCK AUDIT, B998 (2026-08-09).** `tests/test_b749_genesis_forks.py` tests **F4, F5, F6, F7**. It contains **no F3 test** (cited above), **no F2 test** — C3's only real price — and **no F8 test** — C4's entire price. **So C1, C2 and C4 carry no in-repo lock, and C3 is locked only by a fork pricing a different axiom.** The claims are not thereby false: **C1 (Morse–Hedlund) and C2 (Hurwitz/Lagrange extremality) are classical, cited not re-proved.** What was false is this ledger's assertion that they are locked *here*. **The owed work is F2 and F8 — the two prices that are the programme's own computations rather than classical results.**

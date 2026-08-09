@@ -9743,3 +9743,29 @@ of the 19 numbers and is not a ToE claim.**
 **The day's shape, in one line:** three searches returned *separating-but-common* or
 *rare-but-class-shared*; the fourth returned **unique-with-a-proof** — and it came from the owner's
 redirection to grammars, not from this seat's census.
+
+## B999 (2026-08-09) — the relay-debt gate: branch protection preserves files, nothing preserved findings
+
+**Design credit cc3, re-implemented and verified on main** rather than merged (integrate-don't-merge).
+
+**The failure it stops.** `CC3_TO_CC_2026-07-28_rank4_response.md` answered the ι-status question in
+July, **never reached main**, and **L114 was then promoted asking a question that relay had already
+answered** — costing a full campaign to rediscover. The loss audit caught this class once and it was
+actioned three ways (B909, B920, B921, branch protection); **it recurred anyway, because every one of
+those fixes preserved FILES.**
+
+**The rule.** Every relay carries **BANKED** (the row **names the arc**, so it is grep-checkable),
+**DECLINED** (with a reason), or **OPEN** (a debt with an age, escalated by name past 21 days).
+**A relay with no row is invisible work and fails the gate.** **A seat may not mark its own relay
+BANKED** — that is marking your own homework.
+
+**It caught invisible work on its first run:** `CC3_TO_CC_2026-07-22_p3_complete.md`, tracked in the
+repo root with **no row**, carrying a P3 verdict (**8 CLOSED / 6 HELD / 7 EXPOSED**) with **no trace
+on main**. **18 days old — the oldest live debt, and exactly the shape that lost L114.**
+
+Ledger seeded: **8 banked, 9 open**. Gate 26 of 26.
+
+**Systematic state scan, same day:** 967 arc directories, **907 with verdicts (94%)** — 589 PROVED,
+**276 NEGATIVE**, 31 OPEN, 11 RETRACTED; 732 pre-B800 / 175 post-B800; 14 faces; 26 gates green;
+33 ladder rungs; 127 L-leads ever registered. **The 30% negative rate is the programme's real
+signature** — it kills its own results at a rate few programmes match.

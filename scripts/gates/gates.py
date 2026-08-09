@@ -838,6 +838,17 @@ def gate_retraction_sweep():
 # eleven banked cascade arcs cited zero times on any synthesis surface -- including B864,
 # which DERIVES hypercharge, while a ledger row written five days later called hypercharge
 # "OPEN, the sharpest available target". The repo lost nothing; the summaries forgot.
+def gate_relay_debt():
+    """B999 -- branch protection preserves FILES; nothing preserved FINDINGS (design: cc3)."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "relay_debt.py")],
+                       capture_output=True, text=True)
+    out = (r.stdout + r.stderr).strip()
+    if r.returncode != 0:
+        return False, out.replace("\n", " | ")[:400]
+    return True, "ok"
+
+
 def gate_doc_currency():
     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
     import subprocess
@@ -885,6 +896,7 @@ GATES = {
     "retraction-sweep": gate_retraction_sweep,
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
+    "relay-debt": gate_relay_debt,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

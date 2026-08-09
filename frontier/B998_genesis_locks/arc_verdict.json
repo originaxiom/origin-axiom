@@ -1,0 +1,15 @@
+{
+ "id": "B998",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE AXIOM CHAIN-S LOCKS DO NOT LOCK IT: A CITED TEST THAT DOES NOT EXIST, AND THREE CLAIMS UNLOCKED. From cc3-s genesis-stratum audit of B1-B100, VERIFIED MECHANICALLY HERE before acceptance: tests/test_b749_genesis_forks.py tests forks F4, F5, F6, F7, while THEOREM_LEDGER.md cites F3, F4, F7 beside it -- so F3 IS CITED BUT ABSENT. The ledger line reads verbatim: P019 T4 (v2, the unified form). Lock: tests/test_b749_genesis_forks.py (the F3+F7 controls) -- and THERE IS NO F3 TEST. cc3-s fuller reading, corroborated by the mechanical check: there is also NO F2 TEST, which is C3-s only real price, and NO F8 TEST, which is C4-s entire price. SO C1, C2 AND C4 ARE EFFECTIVELY UNLOCKED, and C3 is locked only by a fork (F4) that prices a DIFFERENT AXIOM. WHY THIS IS THE DAY-S MOST SERIOUS GOVERNANCE FINDING: the programme-s whole claim to rigour is that every load-bearing statement carries a lock, and these are not ordinary statements -- C1-C4 ARE THE AXIOM CHAIN, the steps from minimal description to the object, the foundation everything else stands on, and their locks are a citation to a file that tests four different things. It is the B982 failure class exactly (a citation whose target does not contain what is claimed) but where B982 found it in a GATE-S EXEMPTION LIST, this finds it IN THE THEOREM LEDGER, ON THE AXIOMS -- same shape, worse location. AND IT IS INVISIBLE TO EVERY EXISTING GATE: chain-locks checks that a lock FILE EXISTS, and nothing checks that the file TESTS THE THING CITED, so a test-file citation is exactly as weak as B982-s audit-trail citation, for the same reason -- nobody grepped the target. SCOPE, STATED HONESTLY: the claims are not thereby false, since C1 (Morse-Hedlund) and C2 (Hurwitz/Lagrange extremality) are CLASSICAL THEOREMS cited not re-proved, which cc3 grades PROVED and notes do all the work, and their truth does not depend on our test file; what IS false is the ledger-s assertion that they are locked here, because an unlocked classical theorem is fine while AN UNLOCKED CLAIM RECORDED AS LOCKED IS NOT, the next reader taking the lock at face value; and the genuinely unlocked-and-not-classical items are THE PRICES, F2 (C3-s) and F8 (C4-s), which are this programme-s OWN computations and whose absence therefore matters. CORRECTION APPLIED: the F3 citation is corrected in THEOREM_LEDGER.md with the file-s actual coverage stated and C1/C2/C4 marked as carrying no in-repo lock with the honest reason; and A GATE IS DELIBERATELY NOT ADDED, since checking that a cited test TESTS THE CITED THING requires parsing intent rather than filenames -- the honest instrument is the decadal review-s room reading (BANKING_PROTOCOL Part III, room claims), and this arc is the first entry answering it.",
+ "depends_on": [
+  "B982",
+  "B749",
+  "B984",
+  "B988"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), verifying cc3 genesis-stratum audit"
+}

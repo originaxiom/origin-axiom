@@ -488,3 +488,28 @@ is not a failure — it is a **void run**. Re-run it; do not "fix" anything.
 
 **The sequence that works:** do all the work → regenerate → gates green → *then* start the suite →
 do nothing until it returns → commit.
+
+## Every relay carries a disposition, or it is invisible work — GATED (`relay-debt`)
+
+**The rule.** Every seat-to-seat relay has one row in `docs/RELAY_LEDGER.md`: **BANKED** (the row
+**names the arc**, so the claim is grep-checkable), **DECLINED** (the row says **why**), or **OPEN**
+(a debt, with an age, escalated by name past 21 days). **A relay with no row is the failure state:
+invisible work.**
+
+**Why it exists.** Branch protection preserves **files**. Nothing preserved **findings**.
+`CC3_TO_CC_2026-07-28_rank4_response.md` answered the ι-status question in July, never reached main,
+and **L114 was then promoted asking a question that relay had already answered** — costing a full
+campaign to rediscover. The loss audit caught this class once and it was actioned three ways (B909,
+B920, B921, branch protection); **it recurred anyway, because every one of those fixes preserved
+files.**
+
+**Design credit: cc3 (2026-08-09), re-implemented and verified on main rather than merged, per
+integrate-don't-merge.**
+
+**It caught invisible work on its first run:** `CC3_TO_CC_2026-07-22_p3_complete.md`, tracked in the
+repo root with no row, carrying a P3 verdict (8 CLOSED / 6 HELD / 7 EXPOSED) with no trace on main.
+**18 days old — the oldest live debt, and exactly the shape that lost L114.**
+
+**Who may mark what.** A seat may seed its own relays **OPEN**. **A seat may not mark its own relay
+BANKED** — that is marking your own homework. BANKED is the *receiving* seat's judgement and its row
+must name the arc.
