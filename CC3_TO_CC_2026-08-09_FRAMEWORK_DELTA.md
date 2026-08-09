@@ -141,11 +141,30 @@ graph's 135 revival hatches and 28 high-score routes, a lead structure no
 register could be queried against. Rationale and five ways to disprove it in
 `CC3_TO_CC_2026-08-09_REVIVABLE_rationale.md`.
 
-**Fix:** `scripts/forcing/build.py` ingests an arc only if a file named exactly
-`FINDINGS.md` exists, silently skipping **42 arcs** that carry real content under
-another name — including **B1–B5, the programme's first five arcs** (`README.md`
-only). The forcing graph covers 79 % of the corpus and reports its gaps against
-that denominator.
+**~~Fix:~~ ALREADY DONE — cc banked it as B984/B985 while this seat was writing.**
+Verified on `origin/main`: `build.py` now carries `_findings_path`, which prefers
+the canonical name, then known variants, then any `*FINDINGS*.md`, under the
+comment *"Exact-name matching lost 42 arcs … an arc is ingested on having content
+rather than on having guessed the filename convention of its year."* The
+recommendation is discharged; the row is kept struck rather than deleted so the
+loop is visible.
+
+**Also already done:** the anatomy is now **14 faces** — the eleven plus
+`axioms`, `cascade`, and **`character-variety`**, the twelfth-face candidate this
+seat's residue analysis nominated and three readers named independently.
+
+**What is still open in that area** (checked today, after the fix):
+**B1–B5 still carry no `arc_verdict.json`.** The ingestion hole is closed; the
+*verdict* hole is not. **B2 is the one that matters** — it falsified the
+handoff's monodromy claim (*"the image polynomial is not divisible by the
+A-polynomial"*) and, in the same breath, diagnosed why and named the successor:
+*"the handoff conflated two different moduli spaces — the monodromy acts on the
+character variety of the **fiber**, not on the meridian/longitude coordinates."*
+`B13_trace_map_character_variety/README.md` opens by citing exactly that. **So
+the twelfth face was opened by B2's falsification**, and B2 is filed as nothing:
+no verdict, absent from `THEOREM_LEDGER` and `LAW_MAP`. On this repo's own B818
+auditor rule it is PROVED. Registering it is a bookkeeping act with real
+content.
 
 ---
 
