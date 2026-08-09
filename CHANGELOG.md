@@ -1,5 +1,35 @@
 # Changelog
 
+## B1005 (2026-08-09) — falsifier 2 has FIRED: Tier 2 has no live candidate
+
+**`WHAT_WOULD_COUNT` §5 called this "the sharpest live falsifier … one arc from firing."** **The arc
+had already happened.**
+
+**B687** graded **22 of 23** enumerated dimensionless invariants unreachable or base-rate-dead,
+**Koide alone surviving.** The 23rd has fallen three independent ways, all banked before today:
+**B686** (Q = 2/3 is a **parametrization tautology for every phase**; θ₀ = 2/9 convention-dependent
+and base-rate) · **B703** (θ₀ = **0.2222296(83)**, **0.89σ** from 2/9, *the crude 7σ **refuted***,
+firewalled as a **post-hoc fit the framework does not derive**) · **B743** (**zero gated hits** over
+the whole real algebraic tower, *Koide **found and correctly rejected***).
+
+**SCOPE, and it is the whole difference:** B687's atlas is **23 ENUMERATED** invariants, not a proof
+none exists; B743 searched the tower, not every construction. **So the falsifier fires FOR THE
+ENUMERATED SPACE, not in principle.** *"Tier 2 is unreachable"* would be an overclaim; **"Tier 2 has
+no live candidate"** is exact.
+
+**Consequence:** a Tier-2 cell now needs a candidate **outside B687's atlas and outside B743's
+tower** — and the one new structure since, **B997/B1002's conductor-shadow uniqueness**, yields
+**integers** (shadow 5, cusp conductor 4, |SL(2,ℤ/5)| = |2I| = 120), **not measured ratios**. **Tier
+1 by construction.** **Rule recorded: no fourth crossing without a candidate clearing that bar.**
+
+> **This is a result, not a defeat. The document was written the day before precisely so this could
+> be RECOGNISED** — before it, a dead candidate list read as bad luck; with it, the same facts are a
+> **falsifier firing on schedule, with its scope stated.**
+
+**It redirects: the deliverable is now the BOUNDARY THEOREM** — what the class ℚ(√−3) forces and what
+it provably cannot, with the **276 negatives** as the evidence it was tested. **B993 makes that
+stronger, not weaker.**
+
 ## B1004 (2026-08-09) — the B500–B800 sweep: a retracted clause live in five places, and three gates told to look away
 
 **The band, measured** (the owner's instruction — it had never been examined): **260 verdicted arcs**,

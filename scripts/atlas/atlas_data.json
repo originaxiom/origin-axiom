@@ -248,6 +248,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1005": {
+   "slug": "falsifier2",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B686",
+    "B687",
+    "B703",
+    "B743",
+    "B993",
+    "B997",
+    "P0"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B100": {
    "slug": "literature crosscheck",
    "motifs": [

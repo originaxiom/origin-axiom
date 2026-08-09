@@ -85,9 +85,15 @@ computed (B992). *Missing: chirality without an inserted closing.*
 **Would count:** a **preregistered**, **sealed-before-compute** prediction of **one** dimensionless
 SM quantity no class-sibling shares, surviving `INPUT_COMPLETENESS_LEDGER` and a global
 look-elsewhere budget.
-**STATUS: NOT DONE. Three sealed crossings, three negatives** — B915 (16σ), B925 (outcome B by the
-chain's own algebra), B929 (right shape, wrong magnitude 5–9×).
-**This is the tier that decides whether the programme is physics at all.**
+**STATUS: NOT DONE, AND AS OF 2026-08-09 WITH NO LIVE CANDIDATE (B1005).** Three sealed crossings,
+three negatives — B915 (16σ), B925 (outcome B by the chain's own algebra), B929 (right shape, wrong
+magnitude 5–9×) — **and §5's falsifier 2 has now FIRED: every one of B687's 23 enumerated
+dimensionless invariants is dead, Koide included (B686, B703, B743).**
+**This is the tier that decides whether the programme is physics at all — and it currently has
+nothing to attempt.** A Tier-2 cell now requires a candidate **outside B687's atlas and outside
+B743's tower**; the one new structure since (B997) yields **integers, not measured ratios**, so it
+is Tier 1 by construction. **Do not open a fourth crossing without a candidate that clears that
+bar** — it would spend look-elsewhere budget on ground already searched.
 
 ### Tier 3 — several ratios from one structure
 **Would count:** ≥3 independent dimensionless quantities from **one** mechanism, no new inputs per
@@ -107,10 +113,22 @@ be measured against.
 1. **Chirality is impossible from any closing.** If it is *proved* that no closing of this object
    yields chiral matter, the programme cannot reach the SM. *(Currently: chirality is an external
    input — B713/B760 — not a proven impossibility. **Open in the falsifying direction.**)*
-2. **Every dimensionless invariant is base-rate-reachable.** **B687 already got 22 of 23**
-   unreachable or base-rate-dead, Koide alone surviving. **If the 23rd falls, there is nothing left
-   to predict** — and Tier 2 becomes unreachable in principle. **This is the sharpest live falsifier
-   and it is one arc from firing.**
+2. ~~**Every dimensionless invariant is base-rate-reachable.**~~ ### ⚑ **THIS FALSIFIER HAS FIRED — 2026-08-09 (B1005).**
+   **B687** graded **22 of 23** unreachable or base-rate-dead, **Koide alone surviving.**
+   **The 23rd has fallen, three independent ways:** **B686** — Q = 2/3 is a *parametrization
+   tautology for every phase* and θ₀ = 2/9 is *convention-dependent and base-rate*; **B703** —
+   θ₀ = 0.2222296(83), i.e. **0.89σ** from 2/9, *"the crude 7σ **refuted**"*, and **firewalled as a
+   post-hoc, convention-framed fit the framework does not derive**; **B743** — **zero gated hits**
+   over the object's whole real algebraic tower and canonical analytic values, *"with Koide found
+   and **correctly rejected**"*.
+   **SCOPE, and it is the whole difference: B687's atlas is 23 ENUMERATED invariants, not a proof
+   that none exists; B743 searched the algebraic tower and canonical analytic values, not every
+   possible construction. So the falsifier fires FOR THE ENUMERATED SPACE, not in principle.**
+   **What follows: Tier 2 has NO LIVE CANDIDATE.** Every candidate the programme enumerated is
+   dead, and the enumeration was the programme's own best attempt. **A Tier-2 attempt now requires a
+   candidate from OUTSIDE B687's atlas and OUTSIDE B743's tower** — and the one new structure
+   produced since (B997's conductor-shadow uniqueness) is **Tier 1 by construction: it yields
+   integers, not measured ratios.**
 3. **The value layer is frame-relative in every frame.** B936 has it frame-relative for the
    Hermitian pair. A proof for *all* frames closes Tier 2 permanently.
 4. **The rank obstruction has no escape.** Already proven for the centralizer class (B952/B959/B960);
