@@ -47,7 +47,7 @@ Not by interest. By **what a failure teaches**, cheapest-informative first:
 |---|---|---|
 | 7 | **X8 · the Higgs doublet** ← **the top rung on the board** | Where does **(1,2)₊₁/₂** come from in an E₆ cascade? The cascade is an **adjoint** Higgs mechanism (B964) and **78 ∉ 27⊗27** (B978), so the adjoint provably cannot do matter mass. The standard answer is that the **27 contains the doublet** — which must then be reconciled with B978's no-go. **A hole in the middle of the strongest layer.** |
 | 8 | **X10** L138's scope | a canonical **orbit** is not a canonical **VEV**. State exactly what would upgrade one to the other |
-| 9 | **X9** the twelve exotics (L134) | quantum numbers under the Levi; what makes them heavy |
+| 9 | ~~**X9**~~ | **CLOSED by B978 before this campaign was written.** L134 is not an independent gap: ⟨S⟩ ≠ 0 **is** E₆ → SO(10), the same input at the same step as L133 and L138. **Three leads, one operation.** Consequence for the campaign: **X9, X10 and the rank obstruction share a single target — the 27-VEV — so B990's two routes serve all three** |
 | 10 | **X12** is the SMT's u(1)³ really (Y, χ, ψ)? | **compute** it; B953 flags its own inference |
 | 11 | **X11** hypercharge normalisation | **state and close** — not derivable in principle (homogeneous). Do not chase |
 

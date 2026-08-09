@@ -9610,3 +9610,34 @@ suite is running.* Three ~57-minute runs were voided on 2026-08-08/09 by regener
 mid-run, each producing the **identical** artefact: a `test_atlas` failure that **passes standalone**.
 That combination means the tree moved under the run — the result is a **void run, not a failure**.
 Recorded with its symptom so the next seat recognises it in one glance.
+
+## B992 + Wave 2 close (2026-08-09) — X12 settled by computation, X9 was already closed, and three rungs collapse to one operation
+
+**B992 — X12 SETTLED: the second measurement's u(1)³ *is* span(Y, χ, ψ).** B953 had flagged its own
+gap (*"almost certainly … **INFERRED** from the bookkeeping, testable, **NOT established here**"*).
+Computed on the B961 frame: **dim(z_e₆(su(3)⊕su(2)) ∩ Cartan) = 9 + 6 − 12 = 3**, and that
+intersection **is** the Levi's centre. Y, χ, ψ each centralize su(3)⊕su(2) for its own reason (Y by
+construction; χ since su(3)⊕su(2) ⊂ su(5); ψ since su(3)⊕su(2) ⊂ so(10)), are independent, and **are
+Cartan elements** — so a 3-dim span fills a 3-dim space. **No basis choice, no coordinates.**
+
+**The failed first attempt is banked with it, deliberately:** the *full* centralizer is **9**-dimensional,
+not 3, so the obvious count does **not** close it — the 9 carries six **root** directions that cannot
+hold a Cartan element. **That distinction is the whole content and is invisible until the naive check
+is run and fails.**
+
+**What it implies, separated from what it doesn't.** B864's hypercharge derivation *presupposed* this
+abelian sector; it is now unconditional on that point. The cascade's **rank excess is named** — χ and
+ψ. And those are exactly the directions B864 found **anomalous over chiral matter** (Tr ψ = 16,
+Tr χ = 5), so an anomalous U(1) cannot be gauged: **the two directions the cascade cannot shed are the
+two chiral matter forbids**, reached from opposite directions. **It does NOT touch mass** — that is the
+cubic 27³ ⊃ 16·16·10 (B884), and **78 ∉ 27⊗27** (B978) puts the adjoint provably out of that business.
+
+**X9 was already closed, and the ladder was stale about it.** B978: **L134 is not an independent gap
+— ⟨S⟩ ≠ 0 IS E₆ → SO(10)**, the same input at the same step as **L133** and **L138**. **Three leads
+collapse to ONE OPERATION USED THREE TIMES.** So **X9, X10 and the rank obstruction share a single
+target — the 27-VEV — and B990's two routes serve all three.**
+
+**Recorded against the ladder itself:** it listed X9 as an open HOLE **the day after** B978 closed it.
+A map of the negatives goes stale exactly like any other surface. `doc-currency` already registers
+`THE_LADDER.md` as living with a 10-arc tolerance; the staleness note is now in the file. **The ladder
+is not exempt from the failure it exists to prevent.**

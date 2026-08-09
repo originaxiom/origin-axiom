@@ -20977,6 +20977,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B992": {
+   "slug": "X12 u1 triple",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B892",
+    "B953",
+    "B961",
+    "P0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "topology"
+  },
   "B99": {
    "slug": "geometric jacobian sl3",
    "motifs": [
