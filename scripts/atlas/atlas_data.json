@@ -21068,6 +21068,47 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B996": {
+   "slug": "grammar control",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B993",
+    "B995",
+    "L105",
+    "L146",
+    "P0"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B997": {
+   "slug": "golden conductor uniqueness",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B248",
+    "B666",
+    "B993",
+    "B995",
+    "B996",
+    "P0"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B99": {
    "slug": "geometric jacobian sl3",
    "motifs": [

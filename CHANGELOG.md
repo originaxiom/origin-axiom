@@ -1,5 +1,39 @@
 # Changelog
 
+## B996, B997 (2026-08-09) — the grammar-level control, and the first uniqueness with a proof
+
+**B996 — the E₆ arrival is generic across grammars too.** The chain **derives** m004, so B993's
+manifold base rate does not break it — it **removes the endpoint's power to confirm the beginning**.
+The control that speaks to the chain *as built* runs over **grammars**; and since **C2 is a theorem
+with a unique fixed point**, the population at C1–C2 is **size one**, with the metallic family as the
+relaxation. **Computed: N = 3 is the only modulus where SL(2,ℤ/N) IS the McKay group (order 24 = 2T),
+and five of seven metallic words give the full 2T there.** Only m ≡ 0 (mod 3) degenerate, trivially.
+**Access to E₆ is shared by two thirds of the grammars.** *Scope: a fixed modulus; L105's
+own-conductor claim is a different statement and is not refuted.*
+
+**B997 — and following that scope note to its end produced the day's one uniqueness.**
+
+> **|SL(2,ℤ/N)| is a McKay order for exactly N ∈ {3,4,5} — 2T→E₆, 2O→E₇, 2I→E₈ — PROVED via
+> |SL(2,ℤ/N)| ≥ (6/π²)N³ > 120 for all N ≥ 6. The metallic conductor is m²+4. They meet at exactly
+> one m: m²+4 = 3 has no integer solution, m²+4 = 4 is degenerate, and m²+4 = 5 ⟺ m = 1.**
+>
+> **The golden is the unique metallic grammar whose own-conductor shadow group IS a McKay group.**
+
+**This supplies the uniqueness B666 asserted but did not compute.** And it survives what killed the
+other two: **no separation set, no threshold, no sampled population — a uniqueness over an infinite
+family, with a proof.** B995's rarity-implies-separation flaw cannot apply; B996's genericity was at
+a *fixed* modulus while this is at **each word's own**. **It sits exactly where B993 left the door
+open — a grammar is group data.**
+
+**Three limits, none hidden: (i) the end reached is E₈ (2I), NOT E₆** — the E₆ arrival still comes
+via ℚ(√−3) → 2T, class-level by B993; **(ii) "conductor = m²+4" is inferred from two data points, not
+proved canonical** — the check owed before this rises above Tier 1; **(iii) Tier 1 — it predicts none
+of the 19 numbers and is not a ToE claim.**
+
+**The day's shape, in one line:** three searches returned *separating-but-common* or
+*rare-but-class-shared*; the fourth returned **unique-with-a-proof** — and it came from the owner's
+redirection to grammars, not from this seat's census.
+
 ## B995 (2026-08-09) — the census ran as sealed, returned A, and its own control voided the instrument
 
 **Sealed and pushed before compute** (`a356e987…`), **declared prior OUTCOME B**. Of eight fixed
