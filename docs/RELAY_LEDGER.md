@@ -87,3 +87,4 @@ BANKED — that would be marking its own homework.
 | `CC3_TO_CC_2026-08-09_UNEXPLORED_LEADS.md` | BANKED | B984/B985 — build.py glob fixed (`_findings_path`, *"Exact-name matching lost 42 arcs"*) |
 | `README_ARC_PROPOSAL.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-09_PATH_BEYOND_THE_WALL.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-09_STEPPING_BACK.md` | OPEN | _(disposition owed)_ |
