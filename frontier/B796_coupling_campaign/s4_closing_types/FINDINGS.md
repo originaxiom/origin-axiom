@@ -151,5 +151,13 @@ diagram.
   affine-E₆ identification all verified in-script before the verdict.
 - **Still judgement, not theorem**: that the golden branch is A7's bit rather
   than a third closing.
+- **CONDITIONAL, flagged by S2 after this arc was written**: the ℝ₊ closing is
+  **not atomic**. Carrying units through the bulk action splits it into
+  `c = 3ℓ/2G` (**weight 0** — not excluded by the weight ledger) and `ℓ`
+  (**weight +1** — excluded). If c must also be supplied externally, this arc's
+  *"four resources, nothing left over"* becomes **five** and the saturation
+  claim weakens. If c is instead carried by one of the eight weight-0 faces, the
+  count stands. **S4's headline is conditional on that question**, which S2
+  makes decidable rather than assumed.
 - **Not claimed**: that any closing is thereby *supplied*. The interface being
   finite is a statement about the budget, not a payment.
