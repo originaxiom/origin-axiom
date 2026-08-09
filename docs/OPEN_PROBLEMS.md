@@ -1,5 +1,57 @@
 # OPEN_PROBLEMS.md — the remaining gates (the honest specialist handoff)
 
+> ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
+>
+> **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every
+> time.** Tier 0 is done (the object is forced up to one bit; A7 *is* that bit, and B979 showed it is
+> where φ enters). Tier 1 is substantially done and contains every positive result: the **global ℤ₆
+> form DERIVED** (B862 — *the SM itself cannot fix it*), the **hypercharge direction DERIVED** (B864),
+> **u(1)³ = span(Y, χ, ψ) COMPUTED** (B992, no longer inferred), the algebra, the generation count.
+> **Tier 2 has zero results and, since B1005, no live candidate.** The three sealed crossings failed
+> by three *different* named mechanisms, and the obstructions are theorems, not bad luck: values are
+> **frame-relative** (B936), centralizers **preserve rank** (B952), chirality is **not self-supplied**
+> (B713/B760).
+>
+> **2. The gaps are not a list — they are a BUDGET.** B1000 measured the external inputs: **five
+> closings over four incompletenesses**, with **charge taking two** (a chirality sign *and* a
+> rank-reducing VEV). **B963 then proved those two COMPETE**: τ ≠ id *is* the 27's complexity **and**
+> τ is the only rank-reducing involution — **spend it on rank and you lose the chirality.** Two
+> resources, one budget. This is the sharpest structural fact the programme holds about its own
+> incompleteness, and it is why the missing pieces cannot be closed one at a time.
+>
+> **3. The reframe that lands this window, and it changes what confirmation could even mean.**
+> **B996: reaching E₆ is GENERIC** — five of seven metallic grammars surject onto 2T, two-thirds of
+> the family — and the arc states the consequence in its own words: this **"REMOVES THE ENDPOINT'S
+> POWER TO CONFIRM THE BEGINNING."** **B997/B1002: the golden is the UNIQUE metallic grammar whose
+> own-conductor shadow is a McKay group.** Put together:
+>
+> > ### Reaching E₆ is generic. Being the golden is unique. The object's specialness lives in its GRAMMAR, not its DESTINATION.
+>
+> **Therefore matching the Standard Model could never have confirmed the axioms — even if it had
+> worked.** The programme spent three campaigns aiming at the endpoint for validation while the
+> uniqueness sat at the beginning. **That is a strategic correction, and it is banked, not felt.**
+>
+> **4. The crux, stated so it can be held honestly.** The observer-coupling reorientation says values
+> live in the **observer–object coupling**, not in the object. If that is right, the object *should
+> not* emit values — so **Tier 2's emptiness is exactly what our own framework predicts.** That is
+> either the deepest thing here or the most sophisticated way of being unfalsifiable, and
+> `WHAT_WOULD_COUNT` says Tier 2 is what decides whether this is physics at all. **The constructive
+> resolution follows from the statement itself: a theory whose values are coupling artifacts must
+> predict THE COUPLING, not the values.** Notably, that target sits **outside B687's atlas and
+> outside B743's tower** — precisely the bar B1005 sets for a fourth crossing. **The negative points
+> at where to look.**
+>
+> **5. What the practice keeps discovering about itself.** The recurring error of 2026-08-09 — nine
+> instances — was never a wrong computation. It was **mistaking an instrument's blindness for the
+> object's absence**: B1007 rebuilt a solver that existed, B1006 re-ran a check that existed, two
+> ladder rungs graded BLIND had computed arcs behind them, and **B1008 measured the atlas as unable
+> to see the very layer the programme now works in** (14 of 14 recent concepts have no word in it).
+> *A suggestive parallel with the object's own observer/observed structure is noted and **explicitly
+> not claimed as evidence** — it is a methodological rhyme, and the firewall applies to it as to
+> anything else.* **What it does earn is the owner's standing rule, now operative: "we don't have X"
+> is a hypothesis requiring a search, never a conclusion.**
+
+
 > The single self-contained statement of what is left, written so a specialist (or a future session with new tools)
 > can pick each gate up cold. Governed by `GOVERNANCE.md` (firewall: physics stays firewalled; nothing here promotes to
 > `CLAIMS.md`). Written 2026-07-01, after the recontextualization audit + masterplan

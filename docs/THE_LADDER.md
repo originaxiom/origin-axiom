@@ -24,8 +24,8 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 
 | # | rung | evidence | first move |
 |---|---|---|---|
-| **X1** | **Does the framework derive quantum mechanics or assume it?** Hilbert space, Born rule, superposition | **2 arcs** (B725, B182) | a specification ledger first, as B950 did for the SM |
-| **X2** | **Black holes · entropy · holography** | **2 arcs, 0 PROVED** | **subsumes ℓ/G₃**: `ℓ/G₃ = (2/3)c` (Brown–Henneaux, verified), Cardy `S = 2π√(cL₀/6)`. Blocker to state honestly: m004 is **cusped**, not AdS₃ with a conformal boundary |
+| **X1** | **RE-GRADED 2026-08-09 by Review 42 — SPLIT, not uniformly blind.** The rung bundles three questions and one of them was **computed**. **BORN RULE → OPEN:** B725 (sealed `fecb337a`) returns *"OUTCOME A, honestly bounded: FORM forced (+ the quadratic explained), CONTENT open"* — the observer construction forces the Born rule's **form** and explains its quadratic degree, and the arc states its own limit in its own words: *"form yes, content open. **Not 'we derived the Born rule.'**"* **HILBERT SPACE and SUPERPOSITION remain BLIND.** | **2 arcs** (B725 PROVED, B182) | the ledger is still owed **for the two blind sub-items**; the Born sub-item needs **content**, not a first probe. **The grade was wrong against the ladder's own cited evidence** — it read "never asked" while citing an arc that asked |
+| **X2** | **RE-GRADED 2026-08-09 by Review 42 — SPLIT.** **AREA-LAW ENTROPY → OPEN, with a computed negative and a named mechanism:** B559 (NEGATIVE, *dedicated* arc, `fig8_vs_btz.py`, three locked tests) computed *"the object's chain is **CRITICAL — log-law entanglement, NOT area-law, NOT volume**"* and *"the **black-hole area-law signature is ABSENT**"*, against a random-disorder control that **does** show area-law. **SCOPE, and it is why this is not BOUNDED: B559 probes the object's CHAIN (a 1D critical system, c=1), not m004's geometry** — so it settles the entropy *signature*, not holography. **AdS/HOLOGRAPHY REMAINS BLIND**, and the honest blocker below still stands. | **2 arcs, 0 PROVED** (B559 NEGATIVE, B492 NEGATIVE) | **the defect this re-grade fixes: B559 was cited NOWHERE — not in this ladder, not in `LAW_MAP.md`** — so the rung read as unasked while a dedicated arc with locked tests sat behind it. **subsumes ℓ/G₃**: `ℓ/G₃ = (2/3)c` (Brown–Henneaux, verified), Cardy `S = 2π√(cL₀/6)`. Blocker, still honest: m004 is **cusped**, not AdS₃ with a conformal boundary |
 | **X3** | Dark matter | 1 arc | ledger, not probe |
 | **X4** | Inflation | 3 arcs | ledger, not probe |
 | **X5** | Big bang / initial condition | 3 arcs | ledger, not probe |
@@ -36,6 +36,14 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 
 ## B. HOLE — inside what we already claim
 
+> **Staleness note, second instance (2026-08-09, Review 42).** **Two BLIND rungs had computed arcs
+> behind them** — X1 (B725, cited in its own row) and X2 (B559, **cited nowhere in this file or
+> `LAW_MAP.md`**). BLIND means *"never asked"*, and both had been asked. **The failure mode is the
+> session's own: a grade asserting an absence that the corpus refutes** — the same shape as B1007,
+> where an instrument was rebuilt while a working one sat on main. **A rung's grade is a CLAIM and
+> decays like any other**; the fix is that a re-grade cites the arc inline, so the next reader can
+> check it by grep.
+>
 > **Staleness note (2026-08-09).** This ladder listed **X9** as an open HOLE **the day after B978
 > closed it**. A map of the negatives goes stale exactly like any other surface — which is why
 > `doc-currency` registers `THE_LADDER.md` as a living document with a **tolerance of 10 arcs**, and

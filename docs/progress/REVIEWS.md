@@ -3269,3 +3269,103 @@ inside**: B982's exemption provenance, and this review's false freeze.
 **cc3's finding governs the window: our instruments hold objects, and relations fall through them.**
 
 **Next review due after 20 merges from this anchor.**
+
+
+---
+
+# Review 42 — 2026-08-09 (21 merges from `ba43478a`: the instruments window, and two absences the corpus refuted)
+
+**1. Scope.** B989–B1008. The window's centre of gravity is **instruments, not the object**: no
+claim about m004 moved, and two claims *about the programme's own machinery* were withdrawn or
+superseded. Banked: the arb-Maass attempt (B1007, NEGATIVE), the atlas epoch finding (B1008,
+PROVED), X11/X12 closed (B991/B992), the external-input census (B1000), **falsifier 2 fired**
+(B1005), the first powered spectral null (B1006), and the golden's conductor-shadow uniqueness
+(B997/B1002).
+
+**2. Mechanical (7a — pasted, per B988, debts and ages included).**
+
+    doc-currency: 4 DECLARED DEBTS (visible, never silent) --
+      CLAIMS.md:                     B854  vs B1008 (lag 154) -- declared 2026-08-09 (B984)
+      docs/GUT_REQUIREMENTS_LEDGER.md: B952 vs B1008 (lag  56) -- declared 2026-08-09 (B984)
+      docs/THEOREM_LEDGER.md:        B1003 vs B1008 (lag   5) -- declared 2026-08-09 (B984)
+      docs/TOOLBOX.md:                B370 vs B1008 (lag 638) -- declared 2026-08-09 (B984)
+    doc-currency: ok (15 living documents current)
+    relay-debt: 8 banked, 0 declined, 18 open; 7 STALE DEBT(S) escalated by name
+    suite: 3864 passed, 0 failed, 35 skipped (54:43).  gates: 26/26.
+
+**TOOLBOX.md at lag 638 is the oldest debt on the board and is now TWO reviews old** — B984 declared
+it, Review 41 carried it, this review carries it again. **The owner's own protocol says read the
+toolset before any important probe**, so a stale toolbox is upstream of every cell. **Escalated by
+name, as the protocol requires; it does not survive a third review undeclared.**
+
+**3. THE WINDOW'S GOVERNING FINDING: two locks were red at HEAD, and nobody knew.**
+
+`test_b833` (negative routing) and `test_b806` (lexicon concentration) were **both failing before
+this window's work began** — verified by reconstructing the test's inputs at `HEAD` rather than
+assumed. **So the previously banked arc shipped with a red suite.** Four consecutive arcs (B995,
+B996, B1005, B1006) each banked a NEGATIVE **without routing it**, rebuilding exactly the backlog
+B836 cleared and the lock's own docstring predicted.
+
+**The mechanism is not neglect — it is that the full suite takes ~55 minutes and had not been run
+to completion in the window.** Gates are fast and were green throughout; **gates do not cover what
+the locks cover.** *Action: the banking checklist's "suite green" row is only discharged by a
+completed run, and a partial run is not a run.*
+
+**4. THE NEGATIVES ROOM (7b) — two BLIND rungs had computed arcs behind them.**
+
+The ladder's own definition: BLIND = *"never asked. No arc addresses it."* Both had been asked.
+
+- **X1 — RE-GRADED SPLIT.** **B725 is cited in X1's own evidence column** and returns *"FORM forced
+  (+ the quadratic explained), CONTENT open"*, with the arc itself writing *"Not 'we derived the
+  Born rule.'"* **The rung read "never asked" while citing an arc that asked.** Born → **OPEN**;
+  Hilbert space and superposition → stay **BLIND**.
+- **X2 — RE-GRADED SPLIT, and the sharper defect.** **B559 is a dedicated arc** — `fig8_vs_btz.py`,
+  three locked tests — computing *"the object's chain is **CRITICAL — log-law entanglement, NOT
+  area-law**"* and *"the black-hole area-law signature is **ABSENT**"*, against a disorder control
+  that **does** show area-law. **It was cited NOWHERE — not in the ladder, not in `LAW_MAP.md`.**
+  Area-law entropy → **OPEN**; **AdS/holography stays BLIND**, since B559 probes the object's
+  *chain*, not m004's geometry. **That scope limit is why this is not BOUNDED.**
+
+**This is the window's failure mode in a second dress.** B1007 rebuilt an instrument that existed;
+the ladder asserted absences the corpus refutes. **Both are the same error — an unchecked belief
+about what we lack** — and it is why the owner's standing instruction (*"anything you say we don't
+have… is either in repo, or needs to be figured out"*) is now the operative rule.
+
+**5. Corrections this window, each with a receipt.** B1007 withdrew its own cost claim (**B798
+stands in full — it named arb, and the error was varying `dps` at fixed mode count when B798's model
+is cubic in modes**); L147 corrected (**the 25-digit instrument is on main**, `branch_cell9_rung1_v2.py`,
+carrying B922's seal hash — not off-bench); B1008 superseded B806's 93.3% **without bumping a
+threshold**, replacing an aggregate floor with epoch and density locks that can fail;
+`SM_SPECIFICATION_LEDGER` updated for B992/B1000/B1005; B1006's cell D duplication recorded in-arc.
+
+**6. Method room (7b).** `PRACTICES.md` gains **"read the code before rebuilding it"** (nine
+instances in one session). `COMPUTE_THE_PROGRAM.md` P2 gains the **atlas epoch-blindness caveat**
+and P3 a **fifth surface — the code and the FINDINGS body**, because P3 *ran* on B1006 and still
+missed prior art by reading claim lines.
+
+**7. The named chain (7c).** Unchanged and re-checked: **Markov blanket 0 arcs** (conflation hazard
+with the Markov *cubic* re-verified this window — `test_b825_markov_motif` is the cubic, not the
+blanket); **feedback** stays re-graded per Review 41. **New thin link recorded: the atlas itself.**
+B1008 measured its reliability as **epoch-dependent and weakest where the programme now is** — 14/14
+of the recent corpus's concepts have no word in it — so **`query.py card` is not a reliable
+"has this been walked?" oracle for cascade/value-layer topics.** Registered **L148**.
+
+**8. A CHANNEL WITH NO GATE — raised here, owed next.** The programme is about to switch seats
+(Fable, for verification). Three channels carry context across such a switch: **the repo** (gated by
+`doc-currency`), **project memory** (the agent's per-project memory directory — project-scoped, therefore
+**model-independent**, and the one a new seat inherits), and **the conversation** (dies at session
+end). **Memory was 51 arcs stale** — last write 2026-08-05, newest arc referenced **B921**, corpus
+at **B1008** — and **nothing measures it.** The repo has `doc-currency` for documents and
+`relay-debt` for relays; **the channel that actually carries across a model switch has no
+equivalent.** *Recommended: a memory-currency check of the same shape. Not built in this review —
+registered so it is not lost.*
+
+**9. The standard (7d).** *Can a reader arrive at the current state without being misled?* **Yes for
+the object, with one qualification now fixed and one owed.** Fixed: the ladder no longer asserts two
+absences the corpus refutes. **Owed: `TOOLBOX.md` at lag 638**, which the protocol says is read
+before every probe. **This review does not assert the standard is met for `TOOLBOX.md`, and names it
+as the block** — the clause B988 added exactly so a review cannot pass silently over a stale room.
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: `ed6ea610def1bcf870811e05531268d0c1b867b1`
