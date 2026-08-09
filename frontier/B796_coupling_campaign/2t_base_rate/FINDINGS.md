@@ -66,8 +66,29 @@ None of it can be more object-specific than the atom it starts from. **So the
 cascade, as currently derived, selects roughly a third of the census — not
 m004.**
 
-This confirms E20/B727 and sharpens it from a two-manifold tie to a measured
-base rate.
+### PRIOR ART — B727 got here first, and this arc understated it
+
+**Correction, made on this seat before the result was relayed.** The text above
+originally described B727 as finding "m003 ties m004", a two-manifold tie. That
+understates it. B727 (banked 2026-07-20) already ran this control and already
+drew this conclusion:
+
+> *"**NEW computed fact (strengthens the negative): π₁ ↠ 2T is NOT unique to
+> the arithmetic knot.** 4/13 hyperbolic knots surject onto 2T = SL(2,𝔽₃),
+> **including the non-arithmetic 7₂, 7₃, 8₁**. So even the 2T surjection is
+> shadowed by non-arithmetic knots; what is object-specific is only the
+> arithmetic *origin*, not the surjection."*
+
+4/13 = 30.8 %, against the 36.4 % measured here on 3,112 knot complements.
+**B727's answer was already right.** This arc's contribution is sample size —
+n = 13 → n = 3,112, a 240× extension that moves the claim from "suggestive on a
+small set" to "settled" — plus the general-census figures and the
+Aut(2T)-validated counter. That is worth having; it is **not** a new finding,
+and this file will not present it as one.
+
+Recording the near-miss deliberately: declaring open what was already banked is
+the failure this seat spent the morning auditing in cc's ledger. It very nearly
+committed it here.
 
 ## What this does NOT kill
 
@@ -181,3 +202,80 @@ programme derives from the two specific surjections m004 admits, which may yet
 differ from the other 31 % — **that is exactly item 1 above, and it is unrun.**
 
 Reproduce: `python3 base_rate_2T.py --n 400` (asserts the B266 validation first).
+
+---
+
+# THE CONJUNCTION SWEEP — the specificity is real, and the derivation does not use it
+
+The cornerstone synthesis's #1 recommendation: stop asking about the atom and
+ask about the **conjunction** — trace field ℚ(√−3) **and** exactly two 2T
+surjections **and** H₁ = ℤ. Run here.
+
+**Method caveat, stated first.** Sage was unavailable when this ran, so the
+trace-field test is numeric: sampled holonomy traces `tr = x + iy` are tested
+for `x ∈ ℚ` and `y/√3 ∈ ℚ` at bounded denominator. That is a **necessary**
+condition on the *generator* trace field, so it **over-counts**. A small answer
+is therefore decisive; a large one would have been only an upper bound.
+(Sage has since been installed; an exact re-run is queued.)
+
+## Results
+
+**One-cusped census, 4,000 manifolds:**
+
+| condition | count | share |
+|---|---|---|
+| exactly two 2T surjections | 1,020 | 25.5 % |
+| H₁ = ℤ | 2,473 | 61.8 % |
+| **trace field ⊆ ℚ(√−3)** | **7** | **0.18 %** |
+| all three | **1** | **m004 alone** |
+
+**All 3,112 census knot complements:**
+
+| condition | count |
+|---|---|
+| exactly two 2T surjections | 1,134 |
+| H₁ = ℤ | 3,112 (all — they are knots) |
+| **trace field ⊆ ℚ(√−3)** | **1** |
+| all three | **1 — `K2_1`, verified isometric to m004** |
+
+## What this establishes, precisely
+
+**The rare condition was never 2T. It is the trace field.** 2T is carried by a
+quarter to a third of everything; ℚ(√−3) by 0.18 % of the census and by
+**exactly one knot complement in 3,112**.
+
+And that one knot is m004. **This is Reid's theorem appearing as a measurement**
+— m004 is the unique arithmetic knot complement in S³ — recovered here
+independently, from census data, without assuming it.
+
+## Why this does NOT rescue the derivation, and what it does instead
+
+Two things must not be conflated:
+
+1. **m004 is genuinely unique** in the conjunction *knot* ∧ *ℚ(√−3)*. Measured
+   above; Reid proved it.
+2. **The derivation does not use that conjunction.** The REID probe traced every
+   step and found knot-ness consumed nowhere: B266's arithmetic route consumes
+   ℤ[ω]; McKay consumes a finite subgroup of SU(2); the cascade
+   (B861/B862/B864) consumes nothing from the object at all. The chain runs on
+   the **trace field alone**, which B803 established is a
+   **commensurability-class invariant**.
+
+So the specificity is real and it is sitting **one condition away from the
+chain that needs it.** Conditioning on the trace field selects the Bianchi
+class PSL(2,O₃) — m003, m206 and infinitely many others. Adding H₁ = ℤ cuts
+that to m004 alone. The derivation adds the first condition and never the
+second.
+
+**That is the cornerstone opportunity, stated exactly:** find a step that
+consumes **H₁ = ℤ** (or knot-ness in S³) and the derivation inherits Reid's
+uniqueness. Until such a step exists, the cascade is a theorem about the class,
+and m004's uniqueness is a true fact the argument never touches.
+
+Note the shape of this: it is the *same* finding as B727's — *"the SM-resonance
+is the field's, the arithmetic-knot uniqueness is the knot's; they live on
+different objects and do not reinforce each other"* — now with both sides
+measured. B727 said it in prose in July; this is the census behind it.
+
+Reproduce: `python3 conjunction_sweep.py --n 4000` and `--knots --n 3200`
+(each validates on m004 first).

@@ -1,0 +1,15 @@
+{
+ "class": "one-cusped census",
+ "n": 4000,
+ "tally": {
+  "2T=2": 1020,
+  "H1=Z": 2473,
+  "Q(v-3)": 7,
+  "2T=2 & Q(v-3)": 3,
+  "2T=2 & H1=Z": 788,
+  "ALL THREE": 1
+ },
+ "survivors": [
+  "m004"
+ ]
+}
