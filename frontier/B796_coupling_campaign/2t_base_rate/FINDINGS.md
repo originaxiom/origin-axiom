@@ -352,3 +352,69 @@ the one condition the derivation never consumes.**
 Reproduce: `python3 conjunction_sweep.py --n 4000` and `--knots --n 3200`
 (numeric, fast); `exact_trace_field.py --n 400` inside the `sage` env with
 `PATH=$MAMBA/envs/sage/bin:$PATH` so Singular resolves (exact, slow).
+
+---
+
+# A4 — THE FINER QUESTION: does m004's PAIR of surjections differ structurally?
+
+The base rate killed the atom on a **count**. A count is coarse, so this arc
+queued the finer question and it is answered here: among the knots that tie
+m004's count of two surjections, do the surjections carry the same *structure*?
+
+## The fingerprint
+
+A knot group has a canonical peripheral subgroup ⟨meridian, longitude⟩. Any
+surjection φ: π₁ ↠ 2T sends the meridian and longitude to elements whose
+**orders are conjugacy invariants**. So
+
+    signature(M) = the multiset of (ord φ(m), ord φ(l)) over the surjections
+
+is a genuine structural fingerprint the raw count cannot see.
+
+## m004's signature
+
+    {(3, 2), (6, 2)}
+
+Its two surjections send the meridian to elements of order **3** and **6**, and
+in both cases the longitude to an element of order **2** (i.e. to −I, the centre
+of 2T — nontrivial).
+
+## The result (250 census knots swept; full 3,112 sweep running)
+
+| | |
+|---|---|
+| knots swept | 250 |
+| knots tying m004's count of 2 | 90 |
+| **distinct peripheral signatures among them** | **2** |
+| **knots sharing m004's full signature** | **52 of 90 = 58 %** |
+
+The two classes are:
+
+| signature | count | |
+|---|---|---|
+| `{(3,2), (6,2)}` | **52** | **← m004**, and K4_2, K5_1, K5_2, K5_4, K5_20, K6_2, … |
+| `{(3,1), (6,1)}` | 38 | longitude maps to the identity |
+
+## Verdict: the atom is not rescued at finer resolution
+
+**m004 sits in the modal class**, shared with 58 % of the knots that tie its
+count. Raising the resolution from a count to a peripheral signature does not
+separate it — it merely splits the tying knots into two large groups, and m004
+is in the bigger one.
+
+One clean structural fact fell out and is worth recording separately: **the
+meridian orders are (3, 6) for every knot in this population, without exception.**
+The only thing that varies is the longitude — order 2 (m004's class) or order 1.
+So the entire discriminating content of the peripheral signature is a single
+bit: *does the longitude map nontrivially?* m004's does.
+
+That is a real invariant and a genuinely narrow one — but a one-bit
+discriminator shared with 52 other knots is not an atom, and this arc will not
+present it as one.
+
+**A4 closes negatively.** The count result stands as the whole story: nothing in
+the surjection structure distinguishes m004 from a large population of ordinary
+knots. The specificity established by the conjunction sweep lives entirely in
+the **trace field** and in **H₁ = ℤ** — not anywhere in 2T.
+
+Reproduce: `python3 a4_peripheral_signature.py --n 250`
