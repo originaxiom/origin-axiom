@@ -281,10 +281,12 @@
     "B798",
     "B922",
     "B993",
-    "P0"
+    "H4",
+    "P0",
+    "P3"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

@@ -1320,3 +1320,31 @@ produce the value layer's first INFORMATIVE null**, every previous one having be
 about the object, **not an SM ratio**. It would be the first object-specific *number* the programme
 has produced — which is the one thing a shared classification cannot supply — but it is **not Tier 2
 by itself**.
+
+### L147 — EXTENSION PRICED, NOT PERFORMED (2026-08-09, from B1006)
+
+**The extension cannot be run on this bench, and the reason is architectural, not budgetary.**
+
+- **The solver on cc3's branch (`hejhal_m004.py`) is DOUBLE PRECISION.** 82 numpy uses including
+  `np.array(..., dtype=complex)` and `np.linalg.inv`; its single `mp.mp.dps = 30` is used **only to
+  validate Bessel values against mpmath**, not to compute. **That instrument cannot produce 25
+  digits and did not.**
+- **The 25 digits came from cc3's separate instrument at 58.1 hours** (B922: *"cc3 (the computation,
+  **58.1 h**, sealed protocol)"*), with **the parent run launched detached at ~2.5 days.**
+- **B798 prices the target: 100 digits for BSV parity, on an instrument "4–5 orders costlier."**
+
+**So "extend it" is a compute campaign on cc3's instrument, not a session task — and it is the
+value layer's one remaining lever.** Every cheaper route is closed:
+
+| candidate | why it will not serve |
+|---|---|
+| **Vol(4₁)** | arbitrary-precision computable, but **m003 shares it exactly** — class-level (B993), not object-level |
+| **more eigenvalues** | λ₁ is banked at ~8 digits, the rest at ~10; a linear relation among *n* reals needs ≈ n·log₁₀(H) digits each, so the multi-eigenvalue basis is **underpowered at current precision too** |
+| **the discrete invariants** | H₁ torsion, Alexander (1,−3,1), the A-polynomial — **integers, not ratios** |
+
+> **λ₂ is the only object-level REAL NUMBER the programme holds, and its precision is capped by one
+> instrument's cost. That is the bottleneck, stated exactly.**
+
+**The ask, for cc3:** extend r beyond 25 dp. **50 digits already doubles the reach** (d ≤ 17 at
+H ≤ 10², d ≤ 11 at 10³, d ≤ 6 at 10⁵, d ≤ 4 at 10⁷) and is far short of the 100-digit box — **an
+intermediate target B798's costing does not rule out.**

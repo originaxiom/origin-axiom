@@ -75,3 +75,34 @@ rather than felt.**
 
 **Verdict: OUTCOME B, prior held. The first informative null in the value layer, with its envelope
 stated and its controls passed.**
+
+---
+
+## ⚠ CORRECTION, SAME DAY: cell D partly duplicated B922, and this is the eighth instance
+
+**B922's own FINDINGS §"This bench's independent spot-checks" already ran it:** *"The parked-H4 axis
+run at **26 dps**: r and λ against the BTZ entropy value log((5+√21)/2), **Vol(4₁)**, π², ζ(3),
+log φ, √21 — **CLEAN** (no PSLQ relation, coefficients ≤ 10⁴)."*
+
+**My P3 grepped claim lines, not findings.** Cell D's Vol(4₁) and π tests are a **re-run**, not new.
+**Eighth instance today of the same failure**, and the first where the protocol's P3 was executed and
+still missed it — because it read the wrong surface.
+
+**What of B1006 survives as new:**
+
+- **Cells A and B** — *r and λ as algebraic numbers over ℚ* (integer relations among powers). B922
+  tested r and λ against a **constant basis**; it did not test **algebraicity**. New.
+- **Cell C** — r against **φ, √5, √3**, the object's own fields, in the *pairwise* basis
+  [1, r, x, r·x]. B922 tested **log φ** as a constant, not ℚ(φ)-membership. New.
+- **The envelope and the controls** — B922's run states *"coefficients ≤ 10⁴"* with no degree/height
+  envelope derived from B798's law and **no positive/negative control reported**. B1006 supplies
+  both: **φ and √5 found, π and e not**, so the null is *demonstrably* powered rather than assumed
+  so. **That is the part worth keeping.**
+
+**And B922 already framed the conclusion correctly**, which I should have quoted rather than
+rediscovered: *"the first real data point on the campaign's central question, pointing where the
+literature prior expects: **no low-height algebraicity**"* — explicitly **"NOT the campaign falsifier
+(the 100-digit box)."**
+
+**So the honest standing of B1006: it strengthens B922's datum with an envelope and controls, and
+duplicates one of its axes.** The verdict is unchanged and the scope is narrower than first written.
