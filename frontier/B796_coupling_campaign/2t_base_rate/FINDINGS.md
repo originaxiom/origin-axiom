@@ -134,6 +134,43 @@ the "exactly two" rate falls from 31 % to 24 % in the unbiased sample, because
 larger manifolds tend to admit more surjections — which sharpens rather than
 softens the finding: m004's count is not even a local maximum of rarity.
 
+## A3 — THE RIGHT REFERENCE CLASS, AND IT SETTLES ITEM 1
+
+m004 is a **knot complement**, and by **Reid** it is the *unique arithmetic*
+knot complement in S³. So the honest comparison class is not "all cusped
+manifolds" but **knot complements**, where the arithmetic set has size exactly
+one. If arithmeticity were doing any work in producing 2T, it would show here.
+
+All **3112** of `snappy.CensusKnots()` (4 skipped, >3 generators):
+
+| | count | share |
+|---|---|---|
+| admit ≥ 1 surjection onto 2T | 1207 | **38.8 %** |
+| admit **exactly 2** — m004's count | 1134 | **36.4 %** |
+
+Examples sharing m004's count: `K2_1`, `K4_2`, `K5_1`, `K5_2`, `K5_4`, `K5_8`, `K5_11`, `K5_12`, …
+
+**Restricting to the class where m004 is unique makes the atom MORE generic,
+not less** — 36.4 % versus 24.2 % across all cusped manifolds. Being a knot
+complement raises the odds of carrying the fact the derivation starts from.
+
+**This settles cornerstone item 1, negatively.** Arithmeticity does no work in
+the chain. m004's one genuinely unique property is not what produces the
+surjection onto 2T; more than a third of knot complements produce it without
+being arithmetic at all.
+
+### One genuine structural difference, worth recording
+
+Among knot complements the surjection count takes **only the values 0, 2 and
+10** — never 4, 6, 8, or the higher values seen across the general census
+({0, 2, 4, 6, 8, 10, 12, 14, 16, 20, 22}). Distribution: 0 → 1905,
+2 → 1134, 10 → 73.
+
+That quantisation is a real fact about knot groups (H₁ = ℤ constrains where the
+meridian can go) and it is **not** something this arc set out to find. It does
+not rescue m004 — m004 sits in the modal class of 1,134 — but it is a clean
+unregistered observation about the reference class, and someone should take it.
+
 ## Honest scope
 
 The 400-manifold run is in census (volume) order and biased toward small
