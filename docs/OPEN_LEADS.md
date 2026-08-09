@@ -1287,3 +1287,36 @@ one that speaks to the chain **as the chain is built**.
 **Inherited design constraint (B995):** separation measured against a set with power at the
 invariant's own rate; rarity priced against the base rate of **being unique**, never one value's
 frequency.
+
+---
+
+## L147 — THE PRECISION BOTTLENECK, AND THE FIRST SPECTRAL TEST WITH POWER (registered 2026-08-09, sealed as B1006)
+
+**The value layer's bottleneck is named and quantified, and it is PRECISION.**
+
+**B798** established the law: PSLQ exclusion power needs **N ≈ 1.43·d·log₁₀(H)** digits. The
+programme's earlier spectral test ran at **8 digits**, which B798 says *"excludes essentially
+nothing"* — so its **"51st percentile of random spectra"** result was **absence of evidence, not
+evidence of absence.** The instrument had no power, and no one had joined that fact to the null.
+
+**B922 delivered 25 digits** — r = 4.9000853730625213014795758, λ = 1 + r² — beating the published
+precedent (Aurich–Steiner–Then 2004, 13 places) and, critically, **NOT INHERITED from the parent
+Bianchi group.**
+
+> **That makes it an OBJECT-LEVEL quantity — precisely the address B993 left open when it showed the
+> trace-field route is class-level. Almost everything else tested this week belonged to the
+> commensurability class. This does not.**
+
+**What 25 digits buys**, from B798's law: **d ≤ 8 at H ≤ 10² · d ≤ 5 at 10³ · d ≤ 3 at 10⁵ · d ≤ 2
+at 10⁷.** At 8 digits it was d ≤ 2 at H ≤ 10² — *nothing*.
+
+**Sealed as B1006** (`107ae00f…`), with positive **and** negative controls that must pass before any
+cell is read, and the envelope fixed in advance because **the envelope is the criterion**.
+
+**Declared prior: OUTCOME B** — Maass eigenvalues are conjecturally transcendental. **Expected to
+produce the value layer's first INFORMATIVE null**, every previous one having been underpowered.
+
+**Standing caveat, recorded before the run:** a relation firing would be a **mathematical** fact
+about the object, **not an SM ratio**. It would be the first object-specific *number* the programme
+has produced — which is the one thing a shared classification cannot supply — but it is **not Tier 2
+by itself**.
