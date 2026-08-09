@@ -140,7 +140,9 @@ def _read(path):
 
 
 def _probe_id(slug_dir):
-    m = re.match(r"(B\d{1,3})_", os.path.basename(slug_dir))
+    # B1001: was B\d{1,3} -- capped at three digits, so B1000 (the first four-digit arc)
+    # was SILENTLY INVISIBLE to the atlas. Found by atlas-fresh on the day B1000 landed.
+    m = re.match(r"(B\d{1,4})_", os.path.basename(slug_dir))
     return m.group(1) if m else None
 
 

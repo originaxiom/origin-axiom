@@ -1,0 +1,14 @@
+{
+ "id": "B1001",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "TWO INSTRUMENT DEFECTS SURFACED BY B1000 CROSSING A BOUNDARY. B1001: scripts/atlas/atlas.py matched arc directories with the regex B\\d{1,3}, CAPPED AT THREE DIGITS, so B1000 -- the first four-digit arc -- was SILENTLY SKIPPED: not reported, not counted, not an error. atlas-fresh caught it the same hour because that gate compares the atlas against the DIRECTORY LISTING rather than trusting the atlas. Fixed to B\\d{1,4}; a repo-wide sweep for any other three-digit cap found NONE. The lesson is exact: an ID-shaped regex encodes an assumption about how many arcs the programme will ever have, and this one was written when 999 was unimaginable -- while the gate that caught it works by CROSS-CHECKING TWO SOURCES rather than reading one, the same property that made doc-currency and relay-debt catch real defects on their first runs today. B1002: tests/test_atlas.py asserted FREQ[trace_map]/N > 0.40, measured after B1000 at 366/917 = 0.3991, missing by 0.0009 PURELY BECAUSE THE CORPUS GREW. The test-s own docstring already recorded one such move -- the floor had gone 0.45 to 0.40 when the share crossed 0.449 purely by dilution -- and said plainly that the floors are widened rather than tracking the drift downward BUT THE ORDERING IS ASSERTED TOO, BECAUSE THAT, NOT ANY THRESHOLD, IS WHAT THE ATLAS ACTUALLY CLAIMS. RE-FITTING A FLOOR TO EACH NEW N IS FITTING, NOT TESTING: a third widening would have made the floor a record of the corpus size dressed as a check. Instead the floors were DEMOTED TO LOOSE SANITY BANDS, deliberately far from the measurements, with the drift series recorded in the test itself (0.449 -> 0.3991 at N=917), and THE ORDERING CLAIMS PROMOTED TO LOAD-BEARING with two added: trace_map > kappa (the selection effect, our METHOD recurring more than the object-s one first integral), figure_eight > trace_map (the object outranks the method used on it), and golden > figure_eight (the hearing field is the most-recurring motif). Measured at N=917: golden 0.5725, figure_eight 0.4340, trace_map 0.3991, kappa 0.2377 -- the ordering holding with wide margins and being a STRUCTURAL statement that dilution cannot move. THE SECOND DEFECT IS THE MORE DANGEROUS BECAUSE IT WOULD HAVE KEPT PASSING.",
+ "depends_on": [
+  "B1000",
+  "B984",
+  "B999"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09)"
+}

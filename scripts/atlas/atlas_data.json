@@ -129,6 +129,52 @@
   "bridge_construction"
  ],
  "probes": {
+  "B1000": {
+   "slug": "input count",
+   "motifs": [
+    "trace_map",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B277",
+    "B713",
+    "B716",
+    "B717",
+    "B721",
+    "B760",
+    "B811",
+    "B952",
+    "B953",
+    "B954",
+    "B962",
+    "B963",
+    "B990",
+    "L133",
+    "L134",
+    "L138",
+    "P5"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B1001": {
+   "slug": "four digit blindspot",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B999"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B100": {
    "slug": "literature crosscheck",
    "motifs": [

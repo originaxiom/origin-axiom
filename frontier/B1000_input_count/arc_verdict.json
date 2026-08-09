@@ -1,0 +1,24 @@
+{
+ "id": "B1000",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE EXTERNAL INPUTS CLOSE ON B717-S FOUR SECTORS, BUT CHARGE NEEDS TWO CLOSINGS. Prereg 7e920329 sealed AND PUSHED before compute with the declared prior OUTCOME B, specifically greater than four, i.e. this cell was EXPECTED TO CORRECT B717 -- and the prior was right, the correction being one closing in a named place. METHOD AS SEALED: a raw sweep on the corpus-s own phrases (does not supply, not self-supplied, external input, cannot close itself, free input, an import, inserted closing) gave 25 hits across 19 arcs with nothing dropped; deduplication BY REFERENT with every merge recorded gave 8 distinct inputs; each was classified BEFORE the total was taken. RESULT: FIVE CLOSINGS and THREE ARTIFACTS, with closings per incompleteness charge 2, space 1, time 1, value 1 -- so FOUR DISTINCT INCOMPLETENESSES CLOSED, matching B717-s four. So B717-S FOUR IS RIGHT AS A COUNT OF SECTORS AND WRONG AS A COUNT OF CLOSINGS: CHARGE TAKES TWO. The object lacks two INDEPENDENT things in the charge sector, a CHIRALITY SIGN (B713/B760: the object cannot close itself) and a RANK-REDUCING VEV that keeps the 27 complex (B952/B953/B954/B962, and B990 showing it is the same operation as L133/L134/L138) -- and they are not the same deficit, since B963 PROVES THEY COMPETE: tau not equal to identity IS the 27-s complexity AND tau is the only rank-reducing involution, so spending it on rank costs the chirality. Two resources, one budget -- a coupling, which is only meaningful between DISTINCT things. WHAT IT SETTLES IN BOTH DIRECTIONS: the doctrine SURVIVES AND SHARPENS, since the observer supplies every closing holds, every one of the five is supplied from outside, none is secretly internal, and NO FIFTH SECTOR APPEARS -- B717-s spine confirmed at sector level by an independent route; while the CAPSTONE NEEDS ONE CORRECTION, four incompletenesses reading instead FOUR SECTORS, FIVE CLOSINGS (space, time, chirality, rank, value), the charge sector being not one hole but two holes sharing a resource. AND THREE IMPORTS ARE OURS NOT THE OBJECT-S: the 6d type (a choice of the class-S bridge, B277 saying the fiber fixes the surface and monodromy not the type), the filling slope (a choice of the Dehn-filling route) and P5 menu completeness (a METHOD import of the cascade construction) map onto NO incompleteness, are artifacts of the particular bridge we built, and are therefore REDUCIBLE IN PRINCIPLE, which nobody has tried -- each now a named debt rather than an unexamined cost. WHY IT MATTERS TO THE PROGRAMME-S OWN CLAIM: the owner-s condition was that not being forced is legitimate so long as nothing comes from outside and there are no free parameters; the ZERO-FITTED-DIALS half holds since none was found, and the nothing-from-outside half now has an audited answer -- FIVE THINGS COME FROM OUTSIDE AND EXACTLY FIVE SHOULD, being the closings of the object-s own deficits, while THREE MORE COME FROM OUTSIDE AND SHOULD NOT, being ours. This is the first QUANTITATIVE test of the observer-coupling doctrine and it passes at sector level with one counting correction.",
+ "depends_on": [
+  "B717",
+  "B300",
+  "B713",
+  "B760",
+  "B952",
+  "B962",
+  "B963",
+  "B990",
+  "B811",
+  "B716",
+  "B721",
+  "B277",
+  "B873"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), sealed 7e920329"
+}

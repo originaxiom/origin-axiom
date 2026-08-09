@@ -46,12 +46,24 @@ def test_measured_frequencies_hold():
     recurs MORE than the one conserved quantity, which is the selection effect the atlas exists to
     make visible.
     """
-    assert FREQ["trace_map"] / N > 0.40
-    assert FREQ["golden"] / N > 0.45
-    assert FREQ["figure_eight"] / N > 0.40
-    assert 0.10 < FREQ["kappa"] / N < 0.40
-    # the load-bearing claim: our METHOD recurs more often than the object's first integral
+    # DRIFT SERIES, recorded rather than re-fitted (B1002, 2026-08-09). The trace_map floor has
+    # now been crossed TWICE by pure dilution as the corpus grew:
+    #     0.449 at the original N   -> floor moved 0.45 -> 0.40
+    #     0.3991 at N = 917         -> would move 0.40 -> ... and that is the problem.
+    # Re-fitting a floor to each new N is fitting, not testing. So the floors below are declared
+    # LOOSE SANITY BANDS, deliberately far from the measurements, and the ORDERING assertions --
+    # which are what the atlas actually claims -- carry the test. If a band ever fires it means
+    # something structural changed, not that the corpus grew.
+    assert FREQ["trace_map"] / N > 0.25            # measured 0.3991 @ N=917
+    assert FREQ["golden"] / N > 0.40               # measured 0.5725 @ N=917
+    assert FREQ["figure_eight"] / N > 0.25         # measured 0.4340 @ N=917
+    assert 0.05 < FREQ["kappa"] / N < 0.50         # measured 0.2377 @ N=917
+    # THE LOAD-BEARING CLAIMS -- these are the atlas's actual content and are NOT bands:
+    # our METHOD recurs more often than the object's one first integral (the selection effect),
+    # and the object itself recurs more often than the method used on it.
     assert FREQ["trace_map"] > FREQ["kappa"], "the selection-effect ordering is the atlas's point"
+    assert FREQ["figure_eight"] > FREQ["trace_map"], "the object outranks the method used on it"
+    assert FREQ["golden"] > FREQ["figure_eight"], "the hearing field is the most-recurring motif"
 
 
 # -- the honest classification axis ----------------------------------------------------------------

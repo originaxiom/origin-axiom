@@ -1,5 +1,37 @@
 # Changelog
 
+## B1000 + B1001 (2026-08-09) — four sectors, five closings; and the first four-digit arc was invisible
+
+**B1000 — the external-input reconciliation.** Sealed and pushed before compute (`7e920329…`) with
+the declared prior **OUTCOME B, >4 — expected to correct B717.** Three incompatible counts existed
+and no arc reconciled them (**B717: 4 · B300: 8 · sweep: ~8**). Method fixed in the seal: raw sweep
+on the corpus's own phrases (**25 hits / 19 arcs, nothing dropped**) → dedupe **by referent**, merges
+recorded (**8 inputs**) → classify **before** totalling.
+
+**Result: 5 CLOSINGS, 3 ARTIFACTS** — charge **2**, space 1, time 1, value 1, so **exactly four
+distinct sectors, matching B717.**
+
+> **B717's four is right as a count of SECTORS and wrong as a count of CLOSINGS. Charge is two
+> holes** — a **chirality sign** and a **rank-reducing VEV** — and **B963 proves they compete**:
+> τ ≠ id *is* the 27's complexity **and** τ is the only rank-reducing involution, so spending it on
+> rank costs the chirality. **Two resources, one budget; a coupling is only meaningful between
+> distinct things.**
+
+**The doctrine survives and sharpens** — every closing is external, none secretly internal, **no
+fifth sector appears**. **The capstone needs one arithmetic correction:** *four incompletenesses* →
+**four sectors, five closings** (space, time, **chirality**, **rank**, value).
+
+**And three imports are OURS:** the 6d type (class-S bridge choice), the filling slope (Dehn route
+choice), P5 menu completeness (a method import) — mapping onto **no** incompleteness, therefore
+**bridge artifacts, reducible in principle, and never attempted.** Three named debts replacing three
+unexamined costs. **This is the first quantitative test of the observer-coupling doctrine.**
+
+**B1001 — the first four-digit arc was invisible to the atlas.** `scripts/atlas/atlas.py` matched
+`B\d{1,3}` — capped at three digits — so **B1000 was silently skipped**. Caught by `atlas-fresh` on
+the day B1000 landed; widened to four digits, and a repo-wide sweep found **no other three-digit
+cap**. *The third time today a gate fired the moment a boundary was crossed — and the first time the
+boundary was counting past 999.*
+
 ## B999 (2026-08-09) — the relay-debt gate: branch protection preserves files, nothing preserved findings
 
 **Design credit cc3, re-implemented and verified on main** rather than merged (integrate-don't-merge).
