@@ -1,0 +1,11 @@
+{
+ "class": "CensusKnots",
+ "n": 165,
+ "agree": 165,
+ "false_pos": [],
+ "false_neg": [],
+ "undecided": 2951,
+ "exact_hits": [
+  "K2_1"
+ ]
+}

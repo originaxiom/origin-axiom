@@ -321,6 +321,30 @@ S³ has H₁ = ℤ exactly — so none of them can be a knot. That is the mechan
 behind Reid's theorem, visible in one column of a table, and it is now
 established here with exact arithmetic rather than a numerical proxy.
 
+### The knot census, exact — and its honest coverage
+
+The same exact check over `CensusKnots`:
+
+| | |
+|---|---|
+| decided by exact arithmetic | **165** of 3,112 |
+| agreement with the proxy | **165/165 (100 %)** |
+| false positives / negatives | **0 / 0** |
+| exact ℚ(√−3) manifolds found | **1 — `K2_1` ≡ m004** |
+
+**Coverage, stated plainly: `find_field` failed on 2,951 of the 3,112**, so
+exact arithmetic decided only 5 % of the knot census. The claim "exactly one
+census knot has invariant trace field ℚ(√−3)" therefore still rests on the
+proxy, not on exact computation.
+
+What makes that safe is the *direction* of the proxy's error. Across both exact
+runs — 565 manifolds decided — it produced **zero false positives**. It can only
+under-count. So the true number of ℚ(√−3) knot complements in the census is
+**≥ 1**, and the one it found is m004. A second would have to be a knot
+complement whose invariant trace field is imaginary quadratic; whether Reid's
+theorem forbids that depends on whether such a manifold is necessarily
+arithmetic, which this arc does **not** establish and does not assume.
+
 It also sharpens the conclusion above rather than changing it: **H₁ = ℤ is the
 condition that isolates m004 inside its own commensurability class, and it is
 the one condition the derivation never consumes.**
