@@ -24,12 +24,28 @@ never written down, and it decides three open questions.
 | **+1** | length — systole, core length, complex length |
 | **+2** | area — cusp cross-section, maximal cusp area |
 | **+3** | volume |
-| **−2** | Laplace eigenvalue λ = 1 + r² |
+| **−2** | Laplace eigenvalue λ (restored: λ = (1 + r²)/R²) |
+| **0** | the spectral parameter **r** itself — see the correction below |
 | **−1** | volume entropy h = 2/R |
 | **0** | trace, trace-field element, Galois datum |
 | **0** | Chern–Simons, torsion, η |
 | **0** | cusp **shape** τ (not cusp *area*) |
 | **0** | level, conductor, index, cohomology class |
+
+### CORRECTION, from the falsification sweep (2026-08-09, same day)
+
+An attack run on this ledger returned no counterexample but did sharpen one
+row, and the sharpening matters. Restoring R gives **λ = (ρ² + r²)/R²** with
+ρ = (n−1)/2 = 1 for H³. So λ carries weight −2, but **r is weight 0 — a pure
+number.** Every eigenvalue the programme banks is reported *as r*.
+
+Consequence: the spectral data was **already** scale-free in the form it was
+always recorded. §4 below is therefore not "the first scale-free observables of
+the spectrum" — r was one all along. What §4 adds is the weight-0 *combinations
+mixing spectrum with volume and systole*, which are new because vol and systole
+are genuinely weight +3 and +1. The arithmetic of the table is unaffected
+(R cancels exactly, verified), but the framing above was too strong and is
+corrected here rather than quietly.
 
 ## Consequence 1 — the scale-torsor no-go *is* dimensional analysis
 
@@ -142,6 +158,26 @@ nothing about whether the object's dimensionless numbers mean anything — that 
 the sealed Cell 9 question, which remains null at 8 digits and untested at 25.
 
 Reproduce: `python3 weight_ledger.py` (self-checks λ₂ against B922's banked value).
+
+## Two defects the falsification sweep found in banked files
+
+1. **A dimensional mislabel.** `frontier/B718_child_program/FINDINGS.md:50` (and
+   `b718_probe4_out.txt`) identify the Neumann–Zagier constant as
+   `π² × (cusp longitude)`. It is `π² × (maximal cusp **area**)` — weight +2
+   typed as weight +1. It is invisible numerically **only** because m004's
+   maximal-cusp meridian has length exactly 1, so area and longitude are the
+   same number, 2√3. No downstream value changes; the type is wrong.
+2. **The 2√3 trap, named.** The constant 2√3 appears in banked files wearing
+   **three different weights** — as the cusp longitude (+1), the maximal cusp
+   area (+2), and |τ| = 2√3 with |τ|² = 12 = h(E₆) (0). Any future relation
+   involving 2√3 must state which one it means. Defect 1 is this trap firing.
+
+And one relation that is genuinely inhomogeneous, correctly **not** banked:
+`core = 2π/n = (G·Λ)/3` under k = n (`B290` §3, `HINT_LEDGER` H78) equates a
+metric length to a dimensionless physical combination. Solving it *would* fix R
+— which is exactly why it carries the 122-order gap and sits firewalled and
+HELD. It is not a counterexample to the claim; it is the ledger's own picture of
+what a scale-fixer would have to look like, sitting unbanked in the repo.
 
 ---
 

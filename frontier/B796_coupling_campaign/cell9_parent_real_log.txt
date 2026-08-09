@@ -14,3 +14,31 @@ normalization mode j0 = 1323 = mode (0, 4) (certified max-|a| mode)
   [main] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
   [main] iter 1: |g| = 9.55e-16, |dr| = 2.54e-18 (8286s)
   [main] iter 1: |g| = 9.55e-16, |dr| = 2.54e-18 (8335s)
+  [main] iter 2: |g| = 2.16e-24, |dr| = 5.73e-27 (8326s)
+  [main] iter 3: |g| = 1.29e-40, |dr| = 3.42e-43 (8010s)
+MAIN: r = 7.0720041858752050007371941867273
+GATE: PASS (9 overlap digits)
+  [P4+1e-7] iter 0: |g| = 3.84e-05, |dr| = 1.02e-07 (7330s)
+  [P4+1e-7] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
+  [P4+1e-7] iter 1: |g| = 4.13e-12, |dr| = 1.10e-14 (7100s)
+  [P4+1e-7] iter 2: |g| = 4.48e-19, |dr| = 1.19e-21 (8552s)
+  [P4+1e-7] iter 3: |g| = 5.10e-33, |dr| = 1.36e-35 (25758s)
+  [P4-1e-7] iter 0: |g| = 3.68e-05, |dr| = 9.79e-08 (6877s)
+  [P4-1e-7] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
+  [P4-1e-7] iter 1: |g| = 3.87e-12, |dr| = 1.03e-14 (6836s)
+  [P4-1e-7] iter 2: |g| = 4.02e-19, |dr| = 1.07e-21 (6878s)
+  [P4-1e-7] iter 3: |g| = 4.42e-33, |dr| = 1.17e-35 (6906s)
+P4: PASS (spread 0.0)
+  [P3] step capped at 0.001
+  [P3] iter 0: |g| = 6.21e+01, |dr| = 1.00e-03 (7508s)
+  [P3] C8 CHECKPOINT: iteration > 25 min — the 4-8 h/eigenvalue estimate must be revised before the second target
+  [P3] step capped at 0.001
+  [P3] iter 1: |g| = 6.16e+01, |dr| = 1.00e-03 (7634s)
+  [P3] step capped at 0.001
+  [P3] iter 2: |g| = 6.11e+01, |dr| = 1.00e-03 (7337s)
+  [P3] step capped at 0.001
+  [P3] iter 3: |g| = 6.05e+01, |dr| = 1.00e-03 (9506s)
+  [P3] step capped at 0.001
+  [P3] iter 4: |g| = 6.00e+01, |dr| = 1.00e-03 (7804s)
+P3: PASS (displaced end 0.133 from target)
+stability cert (+5 digits) ...
