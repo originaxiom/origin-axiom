@@ -214,6 +214,40 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1004": {
+   "slug": "ssb leak",
+   "motifs": [
+    "metallic",
+    "eisenstein"
+   ],
+   "refs": [
+    "B500",
+    "B576",
+    "B581",
+    "B582",
+    "B593",
+    "B599",
+    "B675",
+    "B700",
+    "B713",
+    "B717",
+    "B723",
+    "B725",
+    "B799",
+    "B800",
+    "B942",
+    "B946",
+    "B948",
+    "B957",
+    "B967",
+    "B982",
+    "B999"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B100": {
    "slug": "literature crosscheck",
    "motifs": [
@@ -15044,15 +15078,18 @@
     "wrt_quantum"
    ],
    "refs": [
+    "B700",
     "B701",
     "B715",
     "B716",
     "B721",
     "B723",
+    "B942",
+    "B957",
     "S070"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -20019,6 +20056,7 @@
     "B851",
     "B942",
     "B946",
+    "B957",
     "L113",
     "L124",
     "P2"

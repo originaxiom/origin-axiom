@@ -7,7 +7,8 @@ Gate 5 untouched. Integrate-don't-merge.
 
 ## 1. The relay, received
 
-B946 flagged that the solo seat's handoff §4–§5 leaned on "measurement = the β=1 SSB",
+B946 flagged that the solo seat's handoff §4–§5 leaned on the now-**retracted** clause
+"measurement = the β=1 SSB" — **retracted by L113/B942 and later refuted by B957** —
 which L113/B942 had hit. **The seat executed rather than noted it.** Their reply, banked
 as incoming record:
 

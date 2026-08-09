@@ -9868,3 +9868,34 @@ forgotten, [[0,1],[−3,0]] squares to −3I, so W3 *could* have held.
 the puncture (A5b).** Per P019, *a FRAGILE fork does not break the chain; it prices it.* **So the
 chain costs exactly two axioms, and both discarded siblings are named objects** — F5's is
 **Gieseking**, recorded with the identity behind it: **M² = RL**, the golden matrix squared (B14).
+
+## B1004 (2026-08-09) — the B500–B800 sweep: a retracted clause live in five places, and three gates told to look away
+
+**The band, measured** (the owner's instruction — it had never been examined): **260 verdicted arcs**,
+164 PROVED / 86 NEGATIVE / 6 OPEN / 4 RETRACTED; **234 cited somewhere, 26 cited nowhere.**
+
+**And the band's most-mentioned arc carries a clause that was retracted.** B942 retracted
+*"measurement = the β=1 SSB"*; **B957 refuted** it (every B700 torsor has structure group **ℤ/2** —
+not the idèle class group of ℚ(√−3); the fields are **mutually blind**); B946 recorded that
+everything downstream needed re-reading; **B948 reported it had superseded the stale LAW_MAP row.**
+
+**It had not.** Two LAW_MAP rows still asserted it — **one inheriting it AS AN AXIOM** — plus a live
+use in **B725**, whose own *"deepest caveat"* called the premise **unproved** when it is **false**.
+
+**Why the sweep was blind, and the reasoning was good.** B967 declined to register the phrase *on
+purpose*: *"registering it would fire on B723's own correction banner, which is the correct
+treatment."* **The intent was right; the effect was not.** Registered as row 7 — and **the sweep then
+found two more instances invisible for as long as it was unregistered.** All five corrected;
+violations **0**.
+
+**And cc3's finding adopted:** the **one artifact that went unadopted today** was **invisible to the
+relay-debt gate** — the pattern matched only `CC3_TO_CC_<date>_*`, so *the mechanism written to
+prevent that loss could not see it*. Widened to proposals and handoffs; **nine more invisible
+artifacts surfaced immediately, four already past the 21-day threshold.**
+
+> **THE PATTERN: three gates were told to look away today, each for a defensible reason, and each
+> exclusion cost something — B982 (exemptions citing an audit that never named them), B967 (this
+> one), B999 (too narrow to see the day's one loss).**
+>
+> **RULE: an exclusion is a claim, and a claim needs a check. Any gate exemption must name what it
+> would cost if wrong — and that estimate is itself checkable.**

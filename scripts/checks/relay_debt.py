@@ -45,7 +45,15 @@ STALE_DAYS = 21
 
 # Relays live outside the tree by the standing rule, so the gate reads the LEDGER as the
 # register of what exists, and cross-checks any relay file that IS tracked.
-RELAY_RE = re.compile(r"(CC3?_TO_CC3?_[0-9]{4}-[0-9]{2}-[0-9]{2}[A-Za-z0-9_.\-]*\.md)")
+# B1004: widened after cc3 found the ONE artifact that went unadopted today was INVISIBLE to
+# this gate -- README_ARC_PROPOSAL.md does not match the CC3_TO_CC_<date>_* pattern, so the
+# mechanism written to prevent exactly that loss could not see it. Proposals and handoffs carry
+# no date in the name, so they are dated from first commit. Whoever narrows this later should
+# know what the narrow version cost.
+RELAY_RE = re.compile(
+    r"(CC3?_TO_CC3?_[0-9]{4}-[0-9]{2}-[0-9]{2}[A-Za-z0-9_.\-]*\.md"
+    r"|[A-Za-z0-9_.\-]*_PROPOSAL\.md|PROPOSAL_[A-Za-z0-9_.\-]*\.md"
+    r"|[A-Za-z0-9_.\-]*_HANDOFF\.md|HANDOFF_[A-Za-z0-9_.\-]*\.md)")
 ROW_RE = re.compile(
     r"^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?\s*\|\s*(?P<disp>BANKED|DECLINED|OPEN)\s*\|"
     r"\s*(?P<date>[0-9]{4}-[0-9]{2}-[0-9]{2}|—|-)\s*\|\s*(?P<note>[^|]*)\|", re.M)

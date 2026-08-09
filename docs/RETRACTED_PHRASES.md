@@ -21,10 +21,12 @@ registered here and the sweep is clean.
 | 4 | `the golden power` *(for 5¹²)* | **B941 amendment** | B937 refuted the golden-field reading four independent ways: 5 is a **residue characteristic**. The open question is the **exponent**, not the field. |
 | 5 | `no intermediate regime` *(as a general claim)* | **B963** | Scope error. B576's threshold holds only for deformations containing the **principal sl₂**, not for arbitrary or finite-image representations. |
 | 6 | `the object is hyperbolic` *(as a claim about the object as a whole)* | **B981** | Half-face reading. **B248 proves a cone-angle transition through all three curvature signs**: hyperbolic ℚ(√−3)/E₆ at α=0, **Euclidean** at α=2π/3, **spherical** ℚ(√5)/E₈ at α=π. B250 computes **both** ends (CS=0 **vs π²/5**). Any argument resting on the object being negatively curved *only* is unsound. |
+| 7 | `measurement = the β=1 SSB` *(and `measurement=the β=1 SSB`)* | **B942**, registered **B1004** | Retracted by B942 (computed two ways, four escape hatches closed) and **refuted** by B957 (every B700 torsor has structure group **ℤ/2**; a group of order two is not the idèle class group of ℚ(√−3); the fields are mutually blind). **B967 deliberately left this unregistered** so the sweep would not fire on B723's own correction banner — **and the cost was three LAW_MAP rows still asserting it, one INHERITING IT AS AN AXIOM.** Registered now; the banner text is a *mention*, which the sweep's cue-matching already handles. |
 
 ## Deliberately NOT registered
 
-- **"chirality = the extremal-KMS / Galois label"** (retracted by B942) — B723 carries a
+- **~~"chirality = the extremal-KMS / Galois label"~~ — MOVED TO ROW 7 (B1004).** The non-registration was correct in intent and wrong in effect: leaving it out kept the sweep quiet **and left three LAW_MAP rows asserting the retracted clause.** The mention-cue machinery handles correction banners; the phrase belongs in the registry.
+- *(original note:)* **"chirality = the extremal-KMS / Galois label"** (retracted by B942) — B723 carries a
   correction banner and the phrase survives there only as the record of what was claimed.
   Registering it would fire on the banner itself; the banner is the correct treatment.
 - **"the Standard Model algebra"** for su(3)⊕su(2)⊕u(1)³ (corrected by B950) — the phrase is

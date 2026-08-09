@@ -91,7 +91,8 @@ Born form, with the quadratic degree explained by the observer's c-swap* — and
 part (interference among outcomes, the specific state-dependent weights) is an **open gap**.
 
 ## The deepest caveat (both seats foreground it)
-The entire row **inherits "measurement = the β=1 SSB" (B723)** as an axiom — no probe re-derived it.
+The entire row **inherits the now-RETRACTED clause "measurement = the β=1 SSB" (B723)** as an axiom — no probe re-derived it, and **B942 retracted it / B957 refuted it** (see the banner below).
+> **⚠ RETRACTED PREMISE (B1004, 2026-08-09).** That axiom is **retracted**: B942 killed it (computed two ways, four escape hatches closed) and **B957 refuted** the identification outright (every B700 torsor has structure group **ℤ/2**, and a group of order two is not the idèle class group of ℚ(√−3) — the fields are mutually blind, (−3|5) = −1 and (5|3) = −1). **This row's own caveat was correct and is now a fact: the premise is not merely unproved, it is false.** What survives is the **form/content split given a frame**; what does not is the identification of measurement with the β=1 SSB.
 The form/content split is a structural fact *given* the frame's factors and that identification;
 whether "measurement = the SSB" is physically right is the deeper unproved premise.
 
