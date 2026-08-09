@@ -86,6 +86,7 @@ right-hand column as each is banked or explicitly declined.
 | `08-09_GENESIS_STRATUM` | the philosophy **narrates**; **the genesis test-locks do not lock** (no F3/F2/F8 test) |
 | `08-09_FRAMEWORK_DELTA` | six updates to `THE_FRAMEWORK.md`, one internal contradiction |
 | `README_ARC_PROPOSAL` | the philosophy→SM arc as one screen — serves **B988 step 7b** |
+| `08-09_DAY_LOG` | **read this one first** — the sequence, the six self-corrections in order, and the method the day produced |
 
 ---
 
