@@ -315,3 +315,93 @@ This is also, once more, B727's July sentence with both sides now measured:
 knot's; they live on different objects and do not reinforce each other."*
 
 — cc3, addendum
+
+---
+
+# ADDENDUM 2 — recommendation #2 DISCHARGED (result reported to this seat, not re-run here)
+
+**Provenance, stated first:** the confluence computation below was run
+elsewhere and reported to this seat by the owner. It is recorded faithfully and
+is **not independently verified here.** Verification would mean re-running the
+enumeration against B861 §2's menus; that is cheap and is listed at the end.
+
+## The result
+
+Registerable options per step: **[3, 2, 1]**
+
+- **Step 1** — three of four survive; **Sp(8) fails registerability.**
+- **Step 2** — both survive.
+- **Step 3** — **exactly one**: the Standard Model. **SU(4)×U(1) fails.**
+
+Enumerating every registerability-respecting selection function gives **six**
+reachable chains, and **all six terminate at the SM**:
+
+| path | endpoint |
+|---|---|
+| SO(10)×U(1) → SU(5)×U(1) → SM | ✓ |
+| SO(10)×U(1) → Pati–Salam → SM | ✓ |
+| SU(6)×SU(2) → SU(5)×U(1) → SM | ✓ |
+| SU(6)×SU(2) → Pati–Salam → SM | ✓ |
+| SU(3)³ → SU(5)×U(1) → SM | ✓ |
+| SU(3)³ → Pati–Salam → SM | ✓ |
+
+Named variants: max-dim and first-listed give the banked chain; min-dim and
+last-listed give SU(3)³ → Pati–Salam → SM. **Different intermediates, same
+destination.**
+
+## What it settles — the assumed half was never doing the work
+
+The cascade has two halves and the programme has been crediting the wrong one:
+
+| half | status in the ledger | what it actually does |
+|---|---|---|
+| **registerability** | **DERIVED** — B860 theorem-grade, B871 | **forces the endpoint** |
+| maximal residual symmetry | **ASSUMED** — B859/B874, never retired | selects only *which path* |
+
+So **the Standard Model endpoint does not rest on an unretired assumption.**
+That assumption was only ever choosing scenery. Read with B869's control — the
+rule is not an SM-generator from arbitrary inputs — the robustness is evidence
+that **the menu structure forces the endpoint, not the ranking.**
+
+This is the strengthening the RULE probe (§3.4) named in advance as the good
+outcome, and it arrived.
+
+## What it does NOT do, and this must not blur
+
+It improves the **E₆ → SM** half of the spine. It does nothing to the
+**m004 → E₆** half, which is where today's base-rate control landed:
+
+- 2T is carried by ~35 % of the census and 36.4 % of knot complements;
+- the derivation consumes the **trace field** (a commensurability-class
+  invariant, B803) and never **H₁ = ℤ**, the condition that isolates m004
+  inside its own class.
+
+A more robust theorem about E₆ is still a theorem about E₆. **Confluence raises
+the quality of the second half; it cannot supply the specificity missing from
+the first.** Anyone tempted to read the six-for-six result as strengthening the
+*object* claim should stop at this paragraph — that inference is exactly the
+E20 shape.
+
+## Correction list, refined
+
+§5 item 4 said B861's *"unique at every step"* should carry *"unique given the
+Michel ranking."* This result **improves** that correction: the honest statement
+is stronger, not weaker —
+
+> **The endpoint is forced by registerability alone; the ranking selects only
+> the path. All six registerable chains terminate at the SM.**
+
+That should replace item 4 rather than qualify it.
+
+## To verify (cheap, and worth doing before it is banked)
+
+1. Re-run the enumeration against `frontier/B861_fused_cascade/FINDINGS.md` §2's
+   menus and confirm the option counts [3, 2, 1] and the two failures
+   (Sp(8) at step 1, SU(4)×U(1) at step 3).
+2. Cross-check against **P5 menu completeness** — still the cascade's single
+   external dependency (§4 #3). Confluence over an *incomplete* menu proves
+   confluence over that menu only. This is now the load-bearing open item for
+   the cascade half, and it just became more valuable: with the ranking retired,
+   **P5 is the only remaining import.**
+
+— cc3, recording a result obtained elsewhere
