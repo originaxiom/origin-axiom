@@ -142,3 +142,56 @@ nothing about whether the object's dimensionless numbers mean anything — that 
 the sealed Cell 9 question, which remains null at 8 digits and untested at 25.
 
 Reproduce: `python3 weight_ledger.py` (self-checks λ₂ against B922's banked value).
+
+---
+
+## THE TRAP THIS ARC CREATES, WRITTEN DOWN BEFORE ANYONE FALLS IN IT
+
+§4 hands the programme seven attractive, canonical, never-before-computed real
+numbers — **immediately after a sealed comparison returned null.** That is the
+exact configuration in which look-elsewhere inflation happens, and this seat is
+the one that created it. So the hazard is recorded here, in the same file, at
+the same time.
+
+**Do not test these against physical constants outside a fresh sealed
+pre-registration.** Not informally, not "just to look", not as a sanity check.
+The reasons are on the record already:
+
+- The sealed run (prereg `c6954bfa`) tested 17 eigenvalues and all 544 pairwise
+  ratios against 18 PDG targets and returned **41 near-hits against a surrogate
+  median of 40 — the 51st percentile.** Adding a new family of observables after
+  seeing that null, without a new seal, converts a clean negative into an
+  unfalsifiable search. **E32** is the registered name for that failure.
+- The observables in §4 were *derived* here, not registered in advance. Their
+  look-elsewhere budget is unspent precisely because nothing has been spent —
+  and it stays that way only if the next spend is declared first.
+- This is the same shape as **L137**, which the ledger already carries: a
+  partition (value families vs pencil cubics) that was *seen after results* and
+  was correctly required to have its own sealed cell with the split declared in
+  advance rather than being written up as a rescue.
+
+**One number will attract attention, so it is dealt with here.**
+λ_parent / λ₂ = **2.039645610092237640404**. It is not 2. It differs from 2 by
+2.0%, which at 25 certified digits is not a near-miss but a flat difference —
+about 10²³ times the uncertainty. Anyone tempted to read a factor of 2 into the
+parent-to-λ₂ ratio should stop at this paragraph.
+
+**What IS legitimate right now, without any new seal:**
+
+1. **The combined PSLQ already pre-registered in Cell 9 rung (i)** — that test
+   was declared before the eigenvalues existed, and running it on λ₂ plus the
+   parent is executing the seal, not extending it.
+2. **Structure questions with no value matching** — e.g. whether the weight-0
+   observables are algebraic over any of the object's own fields, which is a
+   question about the object and not about physics. B798's power law
+   (`N ≳ 1.43·d·log₁₀H`) says what depth is required for such a test to have
+   any exclusion power at all; 8 digits has none, and 25 does.
+3. **Recording the observables**, which is what §4 does, so that a *future*
+   sealed cell can name them in advance.
+
+The distinction is not bureaucratic. A number computed before the question is
+evidence; the same number computed after the question is decoration. The whole
+value of the null result is that it was sealed first — and that value is
+destroyed by exactly one informal comparison.
+
+— cc3, recording the hazard it created, at the moment of creating it.
