@@ -90,6 +90,54 @@ If **yes**, the budget closes as a theorem rather than a typing. If **no**, the
 conjugation bit is not the chirality resource and a source is missing — which
 would be equally informative and would falsify this arc's headline.
 
+### RUN — and it is YES. Conjugation *is* τ.
+
+`mckay_conjugation.py`, everything computed rather than assumed:
+
+1. **2T built explicitly** as the 24 unit Hurwitz quaternions mapped into SU(2);
+   closure verified on all 576 products. Order 24, **7 conjugacy classes**,
+   sizes `[1, 6, 1, 4, 4, 4, 4]`.
+2. **All seven irreps constructed** — three 1-dim from the abelianisation
+   (commutator subgroup computed and confirmed to be Q₈, order 8), the defining
+   V₂ and its two ω-twists, and V₃ from `2⊗2 = 3 ⊕ 1`. The **7×7 character table
+   is verified orthonormal** before anything is built on it.
+3. **The McKay graph** from decomposing `V_i ⊗ V₂` by character inner products:
+
+```
+        1  [0 0 0 1 0 0 0]        V2   [1 0 0 0 0 0 1]
+        w  [0 0 0 0 1 0 0]        V2w  [0 1 0 0 0 0 1]
+        w2 [0 0 0 0 0 1 0]        V2w2 [0 0 1 0 0 0 1]
+                                  V3   [0 0 0 1 1 1 0]
+```
+
+4. **Affine E₆ confirmed** — symmetric, 7 nodes, marks `1,1,1,2,2,2,3`,
+   trivalent centre at the mark-3 node, degrees `1,1,1,2,2,2,3`.
+5. **Conjugation V → V\*** permutes the nodes as
+
+```
+     1 -> 1     w -> w2     w2 -> w     V2 -> V2
+     V2w -> V2w2            V2w2 -> V2w            V3 -> V3
+```
+
+6. **It is a graph automorphism** (checked on all 49 entries), **of order 2**,
+   with **three fixed nodes** `{1, V₂, V₃}` and **two transpositions**
+   `(w, w²)`, `(V₂w, V₂w²)`.
+
+That is **exactly τ's cycle type** — B963 computes τ as the order-2 diagram
+automorphism swapping two node pairs. Structurally it swaps **two arms of the
+affine E₆ star and fixes the third plus the centre**, which is the unique
+nontrivial automorphism of that diagram.
+
+> **CONJUGATION IS τ.** The observer torsor's first bit and E₆'s diagram
+> automorphism are the same 𝔽₂. **The budget closes as a theorem, not a typing.**
+
+**And it deepens B963.** *"τ does double duty"* is not only a fact about E₆'s
+internal structure — τ **is the observer's conjugation bit**, so *"spending τ on
+rank costs the chirality"* is a statement about **the observer's budget**. The
+competition between chirality and rank is one bit of the measurement torsor,
+twice claimed, and now identified with a specific automorphism of a specific
+diagram.
+
 ## Scope, stated exactly
 
 - **Proved and cited**: τ is 𝔽₂ (B963); the torsor is rank exactly 3 (B766);
@@ -98,8 +146,10 @@ would be equally informative and would falsify this arc's headline.
   the two ends are E₆ and E₈ (B248/B253/B261).
 - **This arc's contribution**: the typing, the count of *resources* as against
   *closings*, and the matching to sources.
-- **Judgement, not theorem**: conjugation ↔ τ; and that the golden branch is A7's
-  bit rather than a third closing. Both are named above and the first is given a
-  falsifying test.
+- **Was judgement, now computed**: conjugation ↔ τ — **run and confirmed**
+  (`mckay_conjugation.py`), with the character table, the McKay graph and the
+  affine-E₆ identification all verified in-script before the verdict.
+- **Still judgement, not theorem**: that the golden branch is A7's bit rather
+  than a third closing.
 - **Not claimed**: that any closing is thereby *supplied*. The interface being
   finite is a statement about the budget, not a payment.
