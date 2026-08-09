@@ -562,6 +562,49 @@ def golden_min(f, a, b, tol=2e-8):
     return (a + b) / 2, min(fc, fd)
 
 
+def pin_phase(a, modes, tol=1e-9):
+    """Pin the arbitrary global phase of a collocation eigenvector (defect C2).
+
+    The eigenvector comes out of an SVD, which fixes it only up to a global
+    e^{i*theta}.  Nothing in the solve pins theta, so `Re f` as computed is an
+    arbitrary rotation inside the eigenspace: mathematically fine (both Re f
+    and Im f solve the same equation) but NOT REPRODUCIBLE -- a re-run gives a
+    different rotation, and any pointwise use of Re/Im separately is meaningless.
+
+    Measured contamination before pinning (cc3, 2026-08-08):
+        lam1 16.5151 : theta = +40.20 deg    lam2 25.0108 : theta = +148.92 deg
+        parent 51.01 : theta = -26.55 deg
+
+    This rotates onto the object's own real form, i.e. the gauge in which
+    a_{-mu} = conj(a_mu).  After pinning, the residual |a_{-mu}/conj(a_mu) - 1|
+    falls to 5.8e-06 .. 7.2e-05 and |Im f| / |Re f| <= 2.9e-06 across all modes.
+
+    PHASE-INVARIANT quantities need none of this and are unaffected: the
+    sigma_min dips and refinements (the eigenvalues themselves), |a|-based
+    quantities, the S-invariance test, the sector projection, mode counting,
+    and the PSLQ work.  Call this only when reconstructing f pointwise.
+
+    Args:
+        a: complex coefficient vector, indexed as `modes`.
+        modes: sequence of (m1, m2) lattice labels, same order as `a`.
+    Returns:
+        the pinned copy of `a`.  `a` itself is not modified.
+    """
+    idx = {(round(float(m[0]), 9), round(float(m[1]), 9)): j
+           for j, m in enumerate(modes)}
+    rat = []
+    for j, m in enumerate(modes):
+        key = (round(-float(m[0]), 9), round(-float(m[1]), 9))
+        k = idx.get(key)
+        if k is None or abs(a[k]) < tol:
+            continue
+        rat.append(a[j] / np.conj(a[k]))
+    if not rat:
+        return np.array(a, copy=True)
+    theta = np.angle(np.mean(rat))
+    return np.array(a, copy=True) * np.exp(-1j * theta / 2)
+
+
 def refine(dips_json=f"{OUTDIR}/scanA_dips.json", rmax=6.5,
            Y2=0.62, halfwidth=0.02):
     with open(dips_json) as f:
