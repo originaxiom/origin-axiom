@@ -1,5 +1,85 @@
 # Changelog
 
+## B1008 (2026-08-09) — the atlas is blind in an epoch, and the blindness is where the programme now lives
+
+**B806's concentration statistic fell through the 0.85 floor its lock defended — and the floor was
+not bumped.** B829 set the precedent: when this tripwire fires, **re-derive**. The re-derivation
+found something sharper than drift.
+
+    B806 stated 0.933  ->  B829 re-derived 0.8845  ->  B1008 measures 0.8496  (924 probes)
+
+**The breach predates this session.** At `HEAD`, before B1007 existed: **0.8494** — B1007's own
+probe moved it *up* by 0.0002. **So the last banked arc shipped with this lock red**, and with
+`test_b833`'s routing lock red too. Both were found only when a full suite was finally run.
+
+**It is not drift — it is epoch structure.** Top-3 coverage by band: **0.739 · 0.995 · 0.960 ·
+0.886 · 0.629 · 0.709**. It **peaks at 0.995 in B201–400**, the era the lexicon was authored to
+describe, and **falls to 0.629 in B801–900**, the SM-structure campaign. The aggregate was a
+weighted average across an instrument that works in one era and not another.
+
+**The discriminating fact — under-labelled, not invisible:** **motif density HALVES, 5.95 → 2.98**,
+while `any_motif` stays high (1.000 → 0.921). Recent arcs match **~3 old words where their
+predecessors matched ~6**.
+
+> ### The root cause is 14 for 14.
+> The lexicon's grounding is frozen at `knowledge/K001..K022` — the **early** knowledge base. Over
+> the **183 arcs at B800+**, against concepts chosen from the campaign's own vocabulary **before
+> counting**, **not one has a word in it**: the **27** (52 arcs), **E₆** (49), chirality (38),
+> measurement (34), rank (29), generation (28), cascade (28), centralizer (24), observer (16),
+> hypercharge (13), anomaly (12), Higgs (11), value layer (5), Maass (4).
+
+**This strengthens B806 rather than weakening it.** B806's thesis is that concentration is a fact
+about the **labels**, not the object. **A statistic about the object would be stable; this one is
+fitted to an era** — 0.995 where the labels were authored, 0.63 where they were not. **The thesis
+survives its own number falling, and is better evidenced by the fall.**
+
+**The consequence that matters:** the Recurrence Atlas exists **to re-orient**, and its reliability
+is now known to be **epoch-dependent and weakest exactly where the programme currently is**. A seat
+querying it about the cascade, the 27, rank or chirality is querying an instrument with **no word
+for any of them**.
+
+**Deliberately not done: widening the lexicon.** Adding 14 words changes **every motif count in the
+repository** and silently re-dates every recurrence claim. Registered as **L148**, sealed decision
+of its own — not a side effect of a suite repair. The old aggregate floor is replaced by locks on
+the **epoch gap** and the **density collapse**, both of which can fail.
+
+## B1007 (2026-08-09) — the instrument already existed; this arc's own cost claim is withdrawn
+
+**Banked NEGATIVE, and the first draft of this entry was wrong.** B1006 named *more digits* as the
+value layer's bottleneck, so this arc set out to build an arbitrary-precision Maass solver. **It
+built one that does not work, claimed a cost overturn that is false, and then found a working one
+already on main.**
+
+> ### The 25-digit solver has been in the repository since B922.
+> **`frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py`** — *"conformant to sealed prereg v3
+> (`169e9042`)"*, **the same seal hash B922 names.** It drives **arb** directly: `flint.ctx.prec`,
+> `acb.bessel_k`, an `acb_mat` LU solve, at **n ≈ 1300**. **This seat rebuilt it without reading
+> it — the ninth instance this session of grepping claims instead of reading code.**
+
+**B798 stands in full, cost estimate included.** The draft claimed B798 *"was priced against
+arithmetic that is not what arb does."* **B798's own sentence says otherwise:** *"4–5 orders of
+magnitude beyond the certified run, **on a different numerical stack (arb/mpmath Bessel, mp linear
+algebra)**."* **It named arb.** The error was in this arc's model, not B798's: **B798 has two terms
+— modes scale ~linearly with precision (900 → 11 250), and the dense solve is cubic in modes
+(1953×) — and this seat held the mode count FIXED and varied only `dps`.** The measured
+per-operation timings are real and irrelevant: **precision is cheap per operation; the cost is that
+precision demands modes.**
+
+**The solver's failure, diagnosed against the working source, which documents four of the five
+fixes in its own comments:** no **column equilibration** (the working code divides each column by
+|Y·K(2π|μ|Y)| because *"the truncation-edge dynamic range… collapses to O(1), which arb's certified
+LU requires at n ≳ 1300"* — **the 10²⁶ is exactly this**); no **risen-point filter** (an unmoved
+point gives an identically zero row); **modes by count instead of radius** R_cut = (πr/2+margin)/(2πY);
+**Y = 0.28 against the sealed 0.75**; and the conceptual one — **the held-out residual g(r) is a
+refinement indicator used inside a bracketed root, while detection is σ_min of the column-normalized
+V(r), which dips.** **This seat used a refinement indicator to search, so of course there was no
+sign change: g(r) is not built to have one.**
+
+**What survives:** the exact ℤ[ω] geometry port (correct, and redundant with the working solver's
+own machinery), and one new warning — ordering Λ\* by |μ| gives **only m ∈ {−1,0,1} even at M = 30**,
+a consequence of choosing modes by count. **The programme can reproduce λ₂ and has been able to
+since B922.**
+
 ## B1006 (2026-08-09) — the object's own spectral value is not low-degree algebraic: the value layer's first informative null
 
 **Sealed and pushed before compute** (`107ae00f…`), **declared prior OUTCOME B — and it held.**

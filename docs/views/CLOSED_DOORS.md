@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**744 recorded closures — of which 577 are CLASSIFIED by mechanism and
+**749 recorded closures — of which 582 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -16,14 +16,14 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `other` | 359 | 343 |
 | `unrouted-unclassified` | 167 | 167 |
 | `kind-mismatch` | 49 | 4 |
-| `genericity` | 34 | 1 |
+| `genericity` | 35 | 1 |
 | `no-landing-site` | 30 | 1 |
 | `value-numerology` | 24 | 2 |
 | `method-limit` | 13 | 2 |
 | `incoming-claim-refuted` | 10 |  |
 | `zero-intertwiner` | 10 |  |
+| `absence-at-depth` | 10 |  |
 | `self-audit-retraction` | 9 |  |
-| `absence-at-depth` | 9 |  |
 | `census-counterexample` | 8 |  |
 | `cited-as-sufficient` | 4 | 1 |
 | `selection-not-unique` | 3 |  |
@@ -39,6 +39,9 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `rank-vs-reality-dichotomy` | 1 |  |
 | `cross-family-counterexample` | 1 |  |
 | `self-defeating-escape` | 1 |  |
+| `ill-posed-conjunction (rarity implies separation)` | 1 |  |
+| `enumeration-exhausted` | 1 |  |
+| `self-refuted-draft (instrument already existed)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

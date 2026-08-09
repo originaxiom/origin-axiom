@@ -290,6 +290,51 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1007": {
+   "slug": "arb maass",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [
+    "B792",
+    "B798",
+    "B922"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1008": {
+   "slug": "lexicon epoch",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B201",
+    "B401",
+    "B601",
+    "B800",
+    "B801",
+    "B806",
+    "B829",
+    "B901",
+    "K001",
+    "K022"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B100": {
    "slug": "literature crosscheck",
    "motifs": [

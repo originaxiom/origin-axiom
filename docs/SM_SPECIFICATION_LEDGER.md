@@ -95,7 +95,7 @@ This is the column that decides where a new theory can contribute at all.
 | **hypercharges** | **DERIVED (B864, 2026-08-03): hypercharge is the UNIQUE gaugeable U(1) in the chain's abelian sector.** Writing Q = aY + bχ + cψ over the generation, the anomaly conditions are grav = 5b+15c, [SU(3)]² = 2c, [SU(2)]² = 2c, **forcing b = c = 0 exactly**; ψ and χ are anomalous over the chiral matter (Tr ψ = 16, Tr χ = 5) so they *cannot* be gauged. **SCOPE: the DIRECTION is derived; the NORMALISATION is not and cannot be — anomaly conditions are homogeneous (B951)** | **DELIVERED (direction); normalisation not derivable in principle** |
 | chirality | **not self-supplied** (B713, B760); chiral matter *constructible* via a closing (B582, B576) | **requires an external input** |
 | sin²θ_W | **= 3/8** exactly, tree/GUT level (B919) | reproduces a **known GUT relation**, not a measured value |
-| the 19 parameters | **none**. Three sealed crossings, three negatives (B915 16σ; B925 by algebra; B929 shape-only) | **absent, and B936 says values are frame-relative** |
+| the 19 parameters | **none**. Three sealed crossings, three negatives (B915 16σ; B925 by algebra; B929 shape-only) — **and as of 2026-08-09 there is no live candidate to attempt a fourth with (B1005): every one of B687's 23 enumerated invariants is dead, Koide included (B686/B703/B743)** | **absent**; B936 says values are frame-relative, and **WHAT_WOULD_COUNT falsifier 2 has FIRED for the enumerated space** |
 | CP | sign = sign(CS) (B303); phase second-order as 3.8·CS² (B340) | **ratio-shaped, untested against measurement** |
 | strong CP, hierarchy, ν-mass, DM, gravity | not addressed | **absent** |
 
@@ -130,17 +130,34 @@ therefore ungaugeable, while **Y is the unique gaugeable direction** — b = c =
 cascade's "strip the dials" rule is thereby a **consequence of anomaly consistency**, not a
 definition.
 
-**What genuinely remains** is narrower than the original row claimed: (i) the **normalisation**
-is not derivable — anomaly conditions are homogeneous (B951); (ii) whether the object's u(1)³
-from the SMT *is* the (Y, χ, ψ) triple is **inferred, not computed** (B953, flagged there).
+**What genuinely remains** is narrower still, and narrowed again on 2026-08-09: (i) the
+**normalisation** is not derivable — anomaly conditions are homogeneous (B951); (ii) ~~whether the
+object's u(1)³ from the SMT *is* the (Y, χ, ψ) triple is inferred, not computed (B953)~~ —
+**COMPUTED AND SETTLED AFFIRMATIVELY by B992**: z_{e₆}(su(3)⊕su(2)) ∩ Cartan is **exactly
+3-dimensional** and is the Levi's centre, while Y, χ and ψ each centralize su(3)_C ⊕ su(2)_L and are
+all Cartan elements, so **span(Y,χ,ψ) = the second measurement's u(1)³**. *(B992 also records its
+own failed first attempt: the same count on the **full** centralizer returns **9**, not 3 — the
+extra 6 are root directions that cannot hold a Cartan element, so restricting to the Cartan is the
+content, not a convenience.)*
+
+**So (i) is the only item left in this row, and it is not a gap but a proven impossibility.**
 
 ### D3. What "complete" would actually require of us
 
 Against §B2, a complete picture would have to supply: the group; the generation count *with
 the reps*; the hypercharges; chirality *without an inserted closing*; and at least ratios
-among the 19. **We currently have: the algebra up to two U(1)s, the global ℤ₆ form DERIVED
-(B862 — the one row where we outperform the SM), the generation count structurally, chirality
-only via an external closing, and no values.**
+among the 19. **We currently have: the algebra with its u(1)³ now identified as span(Y,χ,ψ) (B992),
+the global ℤ₆ form DERIVED (B862 — the one row where we outperform the SM), the generation count
+structurally, chirality only via an external closing, and no values.**
+
+**And on the last of those, the position hardened on 2026-08-09.** B1000 measured the external
+inputs: **five closings over four incompletenesses**, charge taking **two** — a chirality sign *and*
+a rank-reducing VEV — which **B963 proves compete for one resource**. B1005 then fired
+`WHAT_WOULD_COUNT`'s **falsifier 2**: **no live Tier-2 candidate remains**, since B687's atlas of 23
+was the programme's own best enumeration and all 23 are now dead. **Scope, exactly: the falsifier
+fires for the ENUMERATED space, not in principle** — "Tier 2 is unreachable" would be an overclaim;
+*"Tier 2 has no live candidate"* is what is true, and it is enough to act on. **A fourth crossing
+requires a candidate from outside B687's atlas and outside B743's tower.**
 
 ---
 

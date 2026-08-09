@@ -422,6 +422,43 @@ claim line when there is a lot to say.
 **Limit.** The gate enforces that an unrepresented arc is *known*, not that it is *rowed*.
 Thirteen arcs currently sit at PENDING — that is a recorded debt, not a discharged one.
 
+## Read the code before rebuilding it — MANUAL (a discipline, nine instances in one session)
+
+**The rule.** Before building an instrument, **open the files that would already contain one** and
+read them. Not `grep` for a claim about them — **read the source**. A claim line says what an arc
+*concluded*; the source says what the repo *can do*, and those are different questions.
+
+**Why it is written down.** On 2026-08-09 this failed **nine times in one session**, twice
+expensively:
+
+- **B1006 cell D** re-ran B922's parked-H4 axis. The protocol's P3 prior-art step *was* executed —
+  and it grepped **claim lines**, so it missed the check sitting in B922's **FINDINGS body**.
+- **B1007** rebuilt a Maass solver from scratch **while a working, sealed, arb-based 25-digit one
+  sat on main** at `frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py`, carrying **B922's
+  own seal hash**. Worse, the new arc then claimed a **cost overturn against B798** that B798's own
+  sentence refutes — *"a different numerical stack (arb/mpmath Bessel, mp linear algebra)"* — and
+  that the working solver disproves by existing. **Every one of the four defects in the failed
+  rewrite is fixed in the working source, with the reason written in a comment.**
+
+**The shape, and it is always the same:** the seat forms a belief about what the programme *lacks*,
+then builds against that belief without checking it. **The belief is the thing to check first**,
+because it is the one input nothing downstream can correct.
+
+**The check, which costs about two minutes.** Before writing an instrument:
+
+1. `grep -rl` the **code**, not the docs, for the primitives it would use (`bessel`, `svd`,
+   `mp.dps`, the object's name).
+2. Read any hit's **docstring and comments** — this repo's working sources document their own
+   traps, and both B792 and the cell-9 solver name the exact fix B1007 needed.
+3. If an arc banked a number, find **the script that produced it**, not the arc that received it.
+   `B922_lambda2_receipt` is a *receipt*; the computation lives in `B878_maass_upper_window`.
+
+**Why it is not a gate.** No gate can know what a seat *intends* to build. What a gate can do is
+assert an instrument **exists** once found — so `tests/test_b1007_arb_maass.py` locks the presence
+of the working solver, turning "we have no high-precision solver" from a false belief into a **test
+failure**. **That is the pattern to copy: when a false belief costs an arc, lock the fact that
+refutes it.**
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

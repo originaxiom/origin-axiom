@@ -51,16 +51,41 @@ manifold.**
 **P1 — Read the ladder.** `docs/THE_LADDER.md`. If the target is a rung, its grade tells you what
 is already known and what would be unearned to conclude. **If it is not a rung, add it.**
 
-**P2 — Read the atlas.** `python3 scripts/atlas/query.py card <topic>` — the obstacle→resolution
-oracle, the revive check, the meeting-point candidates. The atlas exists to answer *"has this been
-walked?"* and it is faster than being wrong.
+**P2 — Read the atlas, knowing where it is blind.** `python3 scripts/atlas/query.py card <topic>` —
+the obstacle→resolution oracle, the revive check, the meeting-point candidates. The atlas exists to
+answer *"has this been walked?"* and it is faster than being wrong.
 
-**P3 — Prior art, in this order and all four:**
+> **CAVEAT, MEASURED (B1008, 2026-08-09): the atlas is EPOCH-BLIND, and weakest exactly where the
+> programme now is.** Its 19-word lexicon is frozen on `K001..K022`; top-3 coverage is **0.995 in
+> B201–400** but **0.629 in B801–900**, with motif density halving. **Over the 183 arcs at B800+,
+> 14 of 14 of the corpus's own concepts have NO word in it** — the **27**, **E₆**, chirality,
+> measurement, rank, generation, cascade, centralizer, observer, hypercharge, anomaly, Higgs, the
+> value layer, Maass. **So an atlas null about recent work is NOT evidence that the ground is
+> unwalked.** For anything in the cascade/value layer, P3 is doing the real work, not P2.
+
+**P3 — Prior art, in this order and all five:**
 1. `docs/LAW_MAP.md` — is the law already banked?
 2. `docs/OPEN_LEADS.md` — is the lead already closed, and **is that closure OVER-WIDE**?
 3. `frontier/*/arc_verdict.json` — grep the claim, not the topic
 4. **the document you are already reading — to its end.** B979 was registered from §4 of a file
    whose **§5 answered it**. Four of 2026-08-08's five errors were prior art in hand.
+5. **THE CODE AND THE `FINDINGS.md` BODY — not just the claim line.** *(Added 2026-08-09; this step
+   cost two arcs in one day.)*
+   - **B1006 cell D** re-ran a check B922 had already done. **P3 was executed** — and step 3 greps
+     **claim lines**, while B922's check sat in its **FINDINGS body**. The protocol ran and still
+     missed it, *because it read the wrong surface.*
+   - **B1007 rebuilt a Maass solver** while a **working, sealed, arb-based 25-digit one** sat on
+     main at `frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py`, carrying **B922's own seal
+     hash**. It then claimed a cost overturn that **B798's own sentence refutes**.
+
+   > **The operative distinction: a claim line says what an arc CONCLUDED; the source says what the
+   > repository CAN DO.** Before building an instrument, `grep -rl` the **code** for its primitives
+   > (`bessel`, `svd`, `mp.dps`, the object's name) and **read the docstrings** — this repo's working
+   > sources document their own traps, and **every defect in B1007's rewrite was already fixed in
+   > the working source with the reason written in a comment.**
+   >
+   > And if an arc banked a number, find **the script that produced it**, not the arc that received
+   > it: `B922_lambda2_receipt` is a *receipt*; the computation lives in `B878_maass_upper_window`.
 
 **P4 — Check the kill graph.** `frontier/B738_pathfinder_compiler/kill_graph.json`. If the target
 is a registered kill, read its **hatch** and **revival_score** — a kill with an unwalked hatch is

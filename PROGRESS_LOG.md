@@ -9957,3 +9957,52 @@ advance that even a *hit* would have been mathematical, not Tier 2.
 
 **The next step is priced: more digits.** That is the value layer's bottleneck, **measured rather
 than felt.**
+
+---
+
+## B1007 (2026-08-09) — the instrument already existed; this arc's own cost claim is withdrawn
+
+**Banked NEGATIVE.** Sent to build an arbitrary-precision Maass solver because B1006 named *more
+digits* as the bottleneck. **Built one that does not work, claimed a cost overturn that is false,
+then found a working one on main.**
+
+**The 25-digit solver has been in the repository since B922** —
+`frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py`, carrying **B922's own seal hash
+`169e9042`**, driving **arb** directly (`flint.ctx.prec`, `acb.bessel_k`, `acb_mat` LU, n ≈ 1300).
+**Rebuilt without being read: the ninth instance this session of grepping claims instead of reading
+code.**
+
+**B798 stands in full.** Its estimate explicitly priced *"a different numerical stack (arb/mpmath
+Bessel, mp linear algebra)"* — **it named arb**. The error was this arc's: **B798's model has two
+terms, modes scaling ~linearly with precision and a solve cubic in modes, and this seat held the
+mode count fixed while varying only `dps`** — measuring the one term that was never the problem.
+
+**Five defects, four fixed in the working source with the reason in a comment:** no column
+equilibration (**the 10²⁶ exactly**), no risen-point filter (zero rows), modes by count not radius,
+Y = 0.28 vs the sealed 0.75, and — the conceptual one — **a refinement indicator used to search**:
+g(r) refines inside a bracket, σ_min of the column-normalized V(r) is what *detects*.
+
+**Surviving:** the exact geometry port (correct, redundant) and one warning — |μ|-ordering gives
+only m ∈ {−1,0,1} at M = 30. **λ₂ is reproducible here and has been since B922.**
+
+---
+
+## B1008 (2026-08-09) — the atlas is blind in an epoch, and the blindness is where the programme now lives
+
+**The tripwire fired and was answered by re-derivation, not by a lower number.** B806 stated 0.933,
+B829 re-derived 0.8845, **B1008 measures 0.8496** — through the 0.85 floor. **The breach predates
+this session**: 0.8494 at `HEAD`, with B1007's probe moving it *up* 0.0002. **The last banked arc
+shipped with this lock red**, alongside `test_b833`'s routing lock.
+
+**Not drift — epoch structure.** Coverage peaks at **0.995 in B201–400** (the era the lexicon
+describes) and falls to **0.629 in B801–900** (the SM-structure campaign). **The discriminating
+fact: motif density halves, 5.95 → 2.98**, while `any_motif` stays at 0.921 — recent arcs are
+**under-labelled, not invisible**.
+
+**Root cause, 14 of 14:** the lexicon is grounded in `K001..K022`, and **none** of the concepts the
+last 183 arcs are about has a word in it — the 27 (52), E₆ (49), chirality (38), measurement (34),
+rank, generation, cascade, centralizer, observer, hypercharge, anomaly, Higgs, value layer, Maass.
+
+**B806's thesis is strengthened:** a statistic about the object would be stable; this one is fitted
+to an era. **The atlas's reliability is epoch-dependent and weakest where the programme now is.**
+Widening the lexicon is registered as **L148**, not done here.

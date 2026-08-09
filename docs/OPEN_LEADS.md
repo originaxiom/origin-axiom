@@ -1348,3 +1348,48 @@ value layer's one remaining lever.** Every cheaper route is closed:
 **The ask, for cc3:** extend r beyond 25 dp. **50 digits already doubles the reach** (d ≤ 17 at
 H ≤ 10², d ≤ 11 at 10³, d ≤ 6 at 10⁵, d ≤ 4 at 10⁷) and is far short of the 100-digit box — **an
 intermediate target B798's costing does not rule out.**
+
+### L147 — CORRECTED 2026-08-09 by B1007: the instrument is NOT off-bench
+
+**The sentence above — *"a compute campaign on cc3's instrument, not a session task"* — was written
+believing the 25-digit solver lived only on cc3's bench. It does not.**
+
+> **`frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py` is on main**, carries **B922's own
+> seal hash `169e9042`**, and is the script behind the 58.1-hour run. It drives arb directly —
+> `flint.ctx.prec`, `acb.bessel_k`, an `acb_mat` LU solve at **n ≈ 1300**.
+
+**What changes:** the extension is **runnable here**, not blocked on a relay. **What does not
+change:** the price. **B798's law and its cost estimate both stand** — B1007 tried to overturn the
+cost and failed, because it varied precision at **fixed mode count** when B798's model is that
+**modes scale ~linearly with precision and the solve is cubic in modes**. So 50 digits remains the
+sensible intermediate target, and it is now a **scheduling** decision rather than a capability gap.
+
+---
+
+## L148 — RE-GROUND THE ATLAS LEXICON, OR STATE THAT IT IS HISTORICAL (registered 2026-08-09, from B1008)
+
+**The finding.** The atlas's 19-word lexicon is frozen on `knowledge/K001..K022` — the **early**
+knowledge base — and its descriptive power is **epoch-specific**: top-3 coverage **0.995 in
+B201–400**, **0.629 in B801–900**, with **motif density halving (5.95 → 2.98)**. Over the **183 arcs
+at B800+**, **14 of 14** of the corpus's own concepts have **no word in it**: the **27** (52 arcs),
+**E₆** (49), chirality (38), measurement (34), rank (29), generation (28), cascade (28),
+centralizer (24), observer (16), hypercharge (13), anomaly (12), Higgs (11), value layer (5),
+Maass (4).
+
+**Why it is a lead and not a fix.** Adding those words **changes every motif count in the
+repository** and silently **re-dates every recurrence claim** built on the old counts — including
+B806's and B1008's own. **B806's entire thesis is that what the instrument can see is a choice**, so
+widening it is a **sealed decision with a re-derivation attached**, not maintenance.
+
+**Two-outcome, so it cannot come back empty:**
+
+- **WIDEN** — add the missing vocabulary, then **re-derive B806 and B1008 in the same arc** and
+  state which prior recurrence claims move. If the epoch gap closes, that is the confirmation that
+  the gap was vocabulary and not substance.
+- **DECLARE HISTORICAL** — keep the lexicon frozen and label the atlas explicitly as an instrument
+  for **B1–B800**, so a seat re-orienting on recent work knows not to trust it there. **This is a
+  real outcome, not a failure** — a frozen instrument with a stated domain is honest; a frozen
+  instrument presented as current is not.
+
+**Blocked on nothing.** The measurement is done (`frontier/B1008_lexicon_epoch/epoch.py`); what is
+owed is the decision and its re-derivation.
