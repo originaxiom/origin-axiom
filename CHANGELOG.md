@@ -1,5 +1,36 @@
 # Changelog
 
+## Review 41 + B989 (2026-08-09) — the first review under the extended protocol found two gate bugs
+
+**Review 41 appended** (`docs/progress/REVIEWS.md`, anchor `ba43478a`) — the first to run **step 7**,
+the document-currency reading, added the same day by B988.
+
+**B989 — the document that explained the opt-out had opted itself out.** `docs/PRACTICES.md`
+reported as `frozen`; it was not. It **documents** the marker `<!-- doc-currency: frozen -->` inside
+a code span, and the regex matched the documentation — silently removing a **living methods
+document** from currency checking. Detection tightened to line-initial.
+
+> **Second time in one day that mention was read as use, in a second independent gate** —
+> `retraction-sweep` had fired hours earlier on **B983's own error table**. **Mention-vs-use is a
+> failure mode of text-matching gates as a class**, and the safe direction differs: a retraction
+> sweep must be **strict** (a missed live use is the harm), a freeze marker **narrow** (a false
+> freeze is silent, and silence is the harm).
+
+**And a third instance at the data layer:** the coverage count for **Markov blanket** had risen
+0 → 2, and **both hits are B984/B988 — the arcs that record its absence.** *Registering a gap
+creates hits for the gap.* Annotated so a later review does not read the rung as covered.
+
+**Two ladder rungs re-graded by reading, which is what 7b is for:**
+**X32 (feedback) was never blind** — **B20/B37** computed it: *"the trace map has invariant-memory
+and feedback but **never reads its invariant**, failing the operational self-model criterion."* The
+object **has** feedback; what it lacks is **self-modelling**. **X31 (Markov blanket)** stays at a
+true **0 arcs**, with the self-inflation caveat recorded.
+
+**Review verdict:** suite 3847/1 (the one failure was the routing gate catching B986 — routed,
+targeted 146-test re-run green, **a full re-run is owed and named**); gates **25/25**; firewall
+**one-way holds**; logs **10/10**; **four declared debts, all one review old, `TOOLBOX.md` at 618
+arcs the highest priority**.
+
 ## B988 (2026-08-09) — the decadal review now certifies document currency, room by room
 
 The review protocol had six steps and **every one checked arcs or gates**. None checked whether the

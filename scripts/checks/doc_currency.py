@@ -25,7 +25,11 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 FRONTIER = ROOT / "frontier"
 
 ARC_RE = re.compile(r"\bB(\d{1,4})\b")
-FROZEN_RE = re.compile(r"<!--\s*doc-currency:\s*frozen", re.I)
+# B989: the marker counts only when it IS a marker -- i.e. the line begins with the HTML
+# comment. docs/PRACTICES.md *documents* the marker inside a code span and thereby froze
+# itself: a document explaining the opt-out, opting itself out. Same mention-vs-use failure
+# that hit retraction-sweep the same day, in a second gate.
+FROZEN_RE = re.compile(r"^\s*<!--\s*doc-currency:\s*frozen", re.I | re.M)
 
 # Living surfaces: a reader forms their picture of the programme from these, so each one
 # being current matters more than any single arc being current. Tolerance = how many arcs

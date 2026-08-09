@@ -1195,3 +1195,5 @@ that do not exist. **Both files exist elsewhere** — `speculations/TOMBSTONES.m
 **Honest base rate, cc3's own:** 34 of 109 arc-ids (31%) among short-hatch entries are in no
 register, against a **36% corpus baseline** (342 of 941 arcs are named in no register). **31% is
 unremarkable.** The finding is the *unindexed structure*, not anomalous loss.
+
+> **Review 41 — 2026-08-09.** 43 leads triaged with cc3 (29 STALE-CLOSED with quoted sentence + path, 2 STALE-PREMISE, 12 LIVE). Six OVER-WIDE closures carry scope notes; **L77 withdrawn**; **L73 and L98 held out of any closed count**; **L145** registered.

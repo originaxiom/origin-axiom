@@ -80,3 +80,5 @@ chats; the recurring hazard is on record (Π_H does not commute with ζ-weighted
 > verdict categories before it runs — wave 2's exercised two and licensed four, and 2 of the 11
 > untested-category writes were wrong. Still open and unscheduled: **the lexicon's full re-grounding**
 > (B806); B825 closed only the one *known* gap.
+
+> **Review 41 — 2026-08-09.** `docs/ROADMAP_TOE.md` is **superseded** by `docs/THE_FRAMEWORK.md` (it described the position as *"the kinematic/symmetry frame is forced arithmetic"* for a month after B862/B863/B864 falsified that). The execution order now lives in `docs/THE_CAMPAIGN.md`: **Wave 1 repairs (4 of 6 done) → Wave 2 holes → Wave 3 live surfaces → Wave 4 blind, ledger first**.

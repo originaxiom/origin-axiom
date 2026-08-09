@@ -20775,7 +20775,7 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B984": {
@@ -20902,6 +20902,22 @@
    "obstacle_conf": 6,
    "status": "open",
    "domain": "meta"
+  },
+  "B989": {
+   "slug": "false freeze",
+   "motifs": [
+    "figure_eight",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B983",
+    "B984",
+    "B988"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
   },
   "B98": {
    "slug": "geometric jacobian",

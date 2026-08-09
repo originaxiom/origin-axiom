@@ -264,3 +264,5 @@ described B152–B230 as "the frontier" while the bank stood at B798.*
 
 
 *Review 39 (2026-08-05): window B907–B919 + the register loop + THE CROSSING reviewed; suite green after hygiene; candidates listed (B908, the value-layer cluster, B912, B914 + R38 leftovers); next sealed: R4b. See docs/progress/REVIEWS.md.*
+
+> **Review 41 — 2026-08-09.** The programme now carries a **defined term** for its own method (`docs/COMPUTE_THE_PROGRAM.md`: *compute over the object as **full relations**, never a single manifold*), an assembled statement of what it has (`docs/THE_FRAMEWORK.md`), a graded map of what it lacks (`docs/THE_LADDER.md`), the order it works them in (`docs/THE_CAMPAIGN.md`), and a banking protocol with independent verification (`docs/BANKING_PROTOCOL.md`). **Start at `THE_FRAMEWORK.md` if you are new.**

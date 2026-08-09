@@ -31,8 +31,8 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 | **X5** | Big bang / initial condition | 3 arcs | ledger, not probe |
 | **X6** | Strong CP / θ_QCD | 3 arcs | L110 has **no registered obligation set** |
 | **X7** | Neutrino mass | 6 arcs, all ledger mentions | — |
-| **X31** | **MARKOV BLANKET** — the statistical-independence / boundary structure (Friston-style), named by the owner as part of the chain | **0 arcs, in NO document.** **CONFLATION HAZARD:** the corpus is full of **Markov *triples* / the Markov cubic** — a *different object*. A grep for "Markov" reads as covered when it is not | define what a Markov blanket would even be for this object before probing |
-| **X32** | **FEEDBACK MECHANISM** — named by the owner as *very important* | **2 arcs.** Effectively unbuilt | the object is timeless (B716/B717) and its modular flow is trivial (B721), so "feedback" needs a carrier that is not dynamics — say what it is first |
+| **X31** | **MARKOV BLANKET** — the statistical-independence / boundary structure, named by the owner as part of the chain | **0 arcs.** *(A naive grep now returns 2 — **B984 and B988, the arcs that RECORD the absence**. **Registering a gap creates hits for the gap**, so the coverage count self-inflates; a future review must exclude recording-arcs or it will read this as covered.)* **CONFLATION HAZARD:** the corpus is full of **Markov *triples* / the Markov cubic** — a *different object* | define what a Markov blanket would even be for this object before probing |
+| ~~**X32**~~ | **RE-GRADED 2026-08-09 by Review 41 — NOT blind; it was COMPUTED.** **B20 and B37**: *"the trace map has **invariant-memory and feedback** but **never reads its invariant**, failing the operational self-model criterion"* — under fixed operational definitions. So the object **has feedback and an invariant**; what it lacks is **self-modelling**. That is a result with a mechanism, not an absence | the live question is not *does it have feedback* but **what would make it read its own invariant** — and B717 already frames that as an observer closing |
 
 ## B. HOLE — inside what we already claim
 

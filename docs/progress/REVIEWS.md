@@ -3180,3 +3180,92 @@ anchor-commit: `a5299faa` (Review 40)
    still owed), the four papers (structure, Maass, value-layer, methodology). Registered:
    the branch-symmetric phrasing requirement; B913's two deferred magnitude candidates,
    now runnable post-R4 as their own sealed cells.
+
+---
+
+## Review 41 — 2026-08-09 (merges 22–42 from Review 40; the first review under the extended protocol)
+
+anchor-commit: ba43478a706a7f2d7bc55fd5a472d95a4328c8a1
+
+**The first review to run step 7 — the document-currency reading — added the same day by B988 at the
+owner's direction. It found two gate bugs and re-graded a ladder rung.**
+
+1. **Suite.** Last full run **3847 passed / 35 skipped / 1 failed** (56 min). The single failure was
+   `test_b833_negative_routing` — **B986 (NEGATIVE) unrouted in the kill graph**, i.e. the gate
+   working. Routed; verified by a targeted 146-test run over everything touching this window. **A
+   full green re-run is owed and is recorded as this review's one outstanding item.**
+2. **Gates.** **25/25 green**, including three added this window (`lawmap-scope`,
+   `retraction-sweep`, `representation-sweep`) and one added today (`doc-currency`).
+3. **Atlas.** Regenerated and fresh; forcing graph rebuilt after the `FINDINGS.md` glob fix.
+4. **Promotion candidacy.** No new candidates: this window's arcs are governance instruments
+   (B982–B984, B988), verifications of another seat (B985), method negatives (B986), and scope
+   corrections (B979–B981, B987). **Nothing meets the §5 bars, and nothing was proposed for
+   `CLAIMS.md`.** Gate 5 untouched throughout.
+5. **Framing / stale leads.** Framing gate green. **43 leads triaged with cc3** (29 STALE-CLOSED
+   with quoted sentence + path, 2 STALE-PREMISE, 12 LIVE); **six OVER-WIDE closures given scope
+   notes**, **L77 withdrawn**, **L73 and L98 held out of any closed count**. **L145** registered —
+   the kill graph's revival structure (231 hatches, 220 scores, **167 UNTRIAGED**) that no register
+   indexes.
+
+### 7a — document currency, mechanical (output pasted per protocol)
+
+    doc-currency: 4 DECLARED DEBTS (visible, never silent) --
+      CLAIMS.md                       B854 vs B988 (lag 134)  declared 2026-08-09
+      docs/GUT_REQUIREMENTS_LEDGER.md B952 vs B988 (lag  36)  declared 2026-08-09
+      docs/THEOREM_LEDGER.md          B920 vs B988 (lag  68)  declared 2026-08-09
+      docs/TOOLBOX.md                 B370 vs B988 (lag 618)  declared 2026-08-09
+    doc-currency: ok (15 living documents current)
+
+**All four debts are one review old — none escalates yet.** `TOOLBOX.md` at **618 arcs** is the
+highest-priority debt on the board, because the pre-compute protocol requires reading the toolset
+before any important probe.
+
+**BUG FOUND AND FIXED (B989):** `docs/PRACTICES.md` reported as **frozen** — it was not. It
+*documents* the `<!-- doc-currency: frozen -->` marker inside a code span, and the regex matched the
+documentation. **A document explaining the opt-out had opted itself out.** Detection tightened to
+line-initial. **This is the same mention-vs-use failure that fired `retraction-sweep` hours earlier
+on B983's own error table — the class appeared in two different gates on one day.**
+
+### 7b — the seven rooms
+
+| room | finding |
+|---|---|
+| **claims** | `CLAIMS.md` cites 113 arc references; **none is superseded or retracted**. Clean |
+| **the chain** | `THE_FRAMEWORK.md` assembled this window on the mature corpus; `ROADMAP_TOE.md` **superseded** with the arcs that dated it named. The chain is followable end to end |
+| **the negatives** | `THE_LADDER.md` live, 32 rungs. **Two re-grades this review — see 7c** |
+| **method** | `WORKING_RULES` §0 now binds `COMPUTE_THE_PROGRAM`, `THE_LADDER`, `THE_FRAMEWORK`, `THE_CAMPAIGN`; `PRACTICES` carries `doc-currency`; `BANKING_PROTOCOL` written. **These now describe how we actually work** |
+| **speculation & philosophy** | **Firewall one-way holds.** CLAIMS.md's references to `speculations/`/`philosophy/` are **directional** (*"the firewalled physics readings"*), pointing at the rooms, not importing from them |
+| **interpretation & easy-read** | `CAMPAIGN_STATUS` LATEST current; `INDEX` current. **A new reader can reconstruct the window** |
+| **logs** | **B979–B988 present in CHANGELOG and PROGRESS_LOG, 10/10.** No shadow-file recurrence |
+
+### 7c — the named chain, and a measurement artefact worth more than the check
+
+Eleven of thirteen waypoints well covered. **Two corrections:**
+
+- **X31 Markov blanket — still 0 arcs**, but a naive grep now returns **2**: **B984 and B988, the
+  arcs that record its absence**. **Registering a gap creates hits for the gap**, so the coverage
+  measure **self-inflates**. Annotated in the ladder so a future review does not read it as covered.
+  Its conflation hazard with **Markov *triples*** stands.
+- **X32 feedback — RE-GRADED, it was never blind.** **B20/B37** computed it: *"the trace map has
+  **invariant-memory and feedback** but **never reads its invariant**, failing the operational
+  self-model criterion."* The object **has** feedback; what it lacks is **self-modelling**. A result
+  with a mechanism, not an absence. **The review found this by reading, which is the point of 7b.**
+
+### 7d — the standard
+
+**Asserted, with one named blocker.** A reader can follow philosophy → aAbB (A1–A7) → the object and
+its two ends → class, sisters, both rows → the algebra → the cascade → symmetry breaking and the
+gauge groups, and reach the current state without being misled — **except** through the four
+declared debts, `TOOLBOX.md` foremost. Those are visible, dated, and printed on every gate run.
+
+### This window's character
+
+**Six instances of one error class** — declaring absent what was already banked (B950, B976, B974,
+B979, B981) — **five caught by the owner and the sixth by the protocol** (X8, dissolved by P3 in one
+query). **Two methods died to their own controls** (B986 this seat's, cc3's selector reading), both
+recorded with the attractive half beside its refutation. And **two gates were found wrong from
+inside**: B982's exemption provenance, and this review's false freeze.
+
+**cc3's finding governs the window: our instruments hold objects, and relations fall through them.**
+
+**Next review due after 20 merges from this anchor.**
