@@ -85,6 +85,30 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 
 ---
 
+
+> **Campaign Phase 1 update, 2026-08-09 (B1000–B1003).** Three of the four Phase-1 checks are
+> discharged and two changed a grade:
+>
+> - **The conductor identification is CONFIRMED from a banked law** (B1002) — and *"conductor"* names
+>   **two** quantities (B675's cusp-order conductor vs B666's shadow modulus). **B675 supplies the
+>   mechanism B997 lacked:** the reduction is an **isomorphism ⟺ conductor coprime to shadow**
+>   (golden gcd(4,5)=1 → iso; silver gcd(2,8)=2 → ramified, which is *why* 2O sits one quotient down).
+> - **The axiom prices are PAID and now LOCKED** (B1003). **F2 = ROBUST** — the periodic family has
+>   **pseudo-Anosov count 0**, so allowing periodicity *loses the hyperbolic carrier*: **A2 selects
+>   the destination.** **F8 = GEOMETRY-NECESSARY** — four witnesses fail exactly, **x²+3 irreducible
+>   over ℚ(√5)**: the combinatorial carrier sees **only** hearing, and **ℚ(√−3) is bought at
+>   geometrization and nowhere earlier.** **The chain's price is exactly TWO FRAGILE forks — F5
+>   orientation and F6 the puncture — and both discarded siblings are named objects** (F5's is
+>   **Gieseking**, with **M² = RL** recorded).
+> - **Four sectors, five closings** (B1000): B717's four is right for **sectors**, wrong for
+>   **closings** — **charge is two holes**, and **B963 proves they compete** for τ. **Three imports
+>   are ours** (the 6d type, the filling slope, P5 completeness) — **bridge artifacts, reducible,
+>   never attempted.**
+>
+> **Still owed in Phase 1: disposition the 9 open relays** (`docs/RELAY_LEDGER.md`).
+
+---
+
 ## HOW THIS FILE IS USED — binding
 
 1. **Before writing "the object does not supply X"**, find X here. Not present ⟹ the honest

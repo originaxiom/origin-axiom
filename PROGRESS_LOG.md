@@ -9836,3 +9836,35 @@ and the twelve things called "the wall".
 
 **Scope unchanged: Tier 1, E₈ end, none of the 19 numbers.** What changed is that the uniqueness no
 longer rests on an inferred definition.
+
+## B1003 (2026-08-09) — the axiom prices are PAID and now LOCKED; five ROBUST, two FRAGILE
+
+**Campaign Phase 1, item 2 — and it corrects B998, which is mine.**
+
+**B998 was right that `test_b749_genesis_forks.py` locks only F4–F7. It read as though F2's and F8's
+COMPUTATIONS were missing. They are not** — B749 computed all seven forks (`compute.py`,
+`output.txt`, a verdict in `RESULTS.json` each). **The gap was in the LOCKS**, so a regression would
+have been silent. Locks now written.
+
+**F2 — A2's price (inexhaustibility): ROBUST.** The det=+1, |tr| ≤ 2 sibling family measured **whole
+and symbolically** — orders 3/4/6, and **max|eigenvalue| = 1 exactly ⟹ pseudo-Anosov count 0 for the
+ENTIRE family**; hyperbolicity ruled out by **three independent routes**.
+
+> **Allowing periodicity does not degenerate — it LOSES the hyperbolic carrier. A2 selects the
+> destination.**
+
+Falsifiable and shown so: two positive controls prove the instrument fires on hyperbolic input.
+
+**F8 — A5's price (the carrier): GEOMETRY-NECESSARY.** The Fibonacci hull + AF C\*-algebra against
+**four witnesses pre-registered before computing, all failing exactly** — **x²+3 IRREDUCIBLE over
+ℚ(√5)** (with a control that *does* split over ℚ(√−3)); gap labels in **ℤ[φ]**; cone preservation
+forcing **End = ℤ[φ]**; no 3-torsion. **Vacuity proved rather than asserted:** with the order
+forgotten, [[0,1],[−3,0]] squares to −3I, so W3 *could* have held.
+
+> **The combinatorial carrier sees ONLY ℚ(√5). ℚ(√−3) is bought at geometrization and nowhere
+> earlier — the being/hearing split is FORCED by the step into geometry.**
+
+**THE PRICE, STATED: five ROBUST (F2, F3, F4, F7, F8) and TWO FRAGILE — F5 orientation (A6) and F6
+the puncture (A5b).** Per P019, *a FRAGILE fork does not break the chain; it prices it.* **So the
+chain costs exactly two axioms, and both discarded siblings are named objects** — F5's is
+**Gieseking**, recorded with the identity behind it: **M² = RL**, the golden matrix squared (B14).

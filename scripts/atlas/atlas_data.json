@@ -194,6 +194,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1003": {
+   "slug": "axiom prices",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B14",
+    "B749",
+    "B998",
+    "P0",
+    "P019"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B100": {
    "slug": "literature crosscheck",
    "motifs": [
