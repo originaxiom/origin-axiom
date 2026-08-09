@@ -49,6 +49,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 LEDGER = os.path.join(ROOT, 'docs', 'RELAY_LEDGER.md')
 RELAY_RE = re.compile(r'^(CC3_TO_CC|CC_TO_CC3)_(\d{4}-\d{2}-\d{2})_(.+)\.md$')
 
+# Proposals are seat-to-seat work too, and they do NOT carry the relay naming
+# convention. Found the hard way: README_ARC_PROPOSAL.md went unadopted and
+# UNSEEN on the day it was written, and the first version of this gate could
+# not see it either -- the one artifact that needed the check was invisible to
+# it. Anything a seat hands another seat for a decision belongs here.
+PROPOSAL_RE = re.compile(r'^(.*_PROPOSAL|PROPOSAL_.*|.*_HANDOFF|HANDOFF_.*)\.md$')
+
 # a debt older than this is escalated BY NAME in the report
 STALE_DAYS = 14
 
@@ -56,13 +63,30 @@ VALID = ('BANKED', 'DECLINED', 'OPEN')
 
 
 def find_relays():
-    """Every seat-to-seat relay in the repo root, oldest first."""
+    """Every seat-to-seat artifact in the repo root, oldest first.
+
+    Two kinds: dated relays (CC3_TO_CC_<date>_*), and PROPOSALS, which carry no
+    date in the name and are dated from git instead.
+    """
     out = []
     for fn in sorted(os.listdir(ROOT)):
         m = RELAY_RE.match(fn)
         if m:
             out.append((fn, m.group(2), m.group(1)))
+            continue
+        if PROPOSAL_RE.match(fn):
+            out.append((fn, _git_date(fn), 'PROPOSAL'))
     return sorted(out, key=lambda r: (r[1], r[0]))
+
+
+def _git_date(fn):
+    """First-commit date of a file, for artifacts with no date in the name."""
+    import subprocess
+    r = subprocess.run(['git', '-C', ROOT, 'log', '--diff-filter=A',
+                        '--format=%ad', '--date=short', '--', fn],
+                       capture_output=True, text=True)
+    lines = [l for l in r.stdout.split('\n') if l.strip()]
+    return lines[-1] if lines else '1970-01-01'
 
 
 def parse_ledger():
