@@ -3,10 +3,10 @@
   "(3, 2)": 24,
   "(6, 2)": 24
  },
- "swept": 250,
- "tie_count": 90,
- "distinct_signatures": 2,
- "sharing_full_signature": 52,
+ "swept": 3112,
+ "tie_count": 1134,
+ "distinct_signatures": 8,
+ "sharing_full_signature": 311,
  "examples": [
   "K2_1",
   "K4_2",

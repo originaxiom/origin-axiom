@@ -379,38 +379,32 @@ Its two surjections send the meridian to elements of order **3** and **6**, and
 in both cases the longitude to an element of order **2** (i.e. to −I, the centre
 of 2T — nontrivial).
 
-## The result (250 census knots swept; full 3,112 sweep running)
+## The result — FULL SWEEP, all 3,112 census knots
+
+(The first pass swept 250 and reported 2 signature classes with m004's holding
+58 %. The full sweep supersedes it: at 250 the tail was invisible.)
 
 | | |
 |---|---|
-| knots swept | 250 |
-| knots tying m004's count of 2 | 90 |
-| **distinct peripheral signatures among them** | **2** |
-| **knots sharing m004's full signature** | **52 of 90 = 58 %** |
+| knots swept | **3,112** |
+| knots tying m004's count of 2 | **1,134** |
+| **distinct peripheral signatures among them** | **8** |
+| **knots sharing m004's full signature** | **311 of 1,134 = 27.4 %** |
 
-The two classes are:
-
-| signature | count | |
-|---|---|---|
-| `{(3,2), (6,2)}` | **52** | **← m004**, and K4_2, K5_1, K5_2, K5_4, K5_20, K6_2, … |
-| `{(3,1), (6,1)}` | 38 | longitude maps to the identity |
+m004's signature `{(3,2), (6,2)}` is shared with **310 other knots.**
 
 ## Verdict: the atom is not rescued at finer resolution
 
-**m004 sits in the modal class**, shared with 58 % of the knots that tie its
-count. Raising the resolution from a count to a peripheral signature does not
-separate it — it merely splits the tying knots into two large groups, and m004
-is in the bigger one.
+**m004 shares its full peripheral signature with 310 other knots** — 27.4 % of the
+population that ties its count. Raising the resolution from a count to a
+peripheral signature splits that population into 8 classes and leaves m004 in a
+large one.
 
-One clean structural fact fell out and is worth recording separately: **the
-meridian orders are (3, 6) for every knot in this population, without exception.**
-The only thing that varies is the longitude — order 2 (m004's class) or order 1.
-So the entire discriminating content of the peripheral signature is a single
-bit: *does the longitude map nontrivially?* m004's does.
-
-That is a real invariant and a genuinely narrow one — but a one-bit
-discriminator shared with 52 other knots is not an atom, and this arc will not
-present it as one.
+The 250-sample's tidier reading — "meridian orders are always (3,6), the only
+variation is the longitude, so the signature is one bit" — **was a small-sample
+artefact and is withdrawn.** The full sweep finds 8 classes, not 2. Recorded
+because it is the shape of error worth watching: a clean structural story that
+survives 250 samples and dissolves at 3,112.
 
 **A4 closes negatively.** The count result stands as the whole story: nothing in
 the surjection structure distinguishes m004 from a large population of ordinary
