@@ -1,5 +1,33 @@
 # Changelog
 
+## B1006 (2026-08-09) — the object's own spectral value is not low-degree algebraic: the value layer's first informative null
+
+**Sealed and pushed before compute** (`107ae00f…`), **declared prior OUTCOME B — and it held.**
+
+**The bottleneck was precision, and B798 had already quantified it:** PSLQ needs **N ≈
+1.43·d·log₁₀(H)** digits. The earlier spectral test ran at **8 digits** — *"excludes essentially
+nothing."* **So the banked "51st percentile of random spectra" was absence of evidence, not evidence
+of absence, and nobody had joined those two facts.**
+
+**B922's 25 digits** — r = 4.900085373062521301479576, **explicitly NOT inherited from the parent
+Bianchi**, hence **object-level**, the address B993 left open — give the envelope **d ≤ 8 at H ≤ 10²
+· d ≤ 5 at 10³ · d ≤ 3 at 10⁵ · d ≤ 2 at 10⁷.**
+
+**Controls ran first and both passed:** the instrument **found** φ (x⁶(x²−x−1)) and √5 (x(x²−5)), and
+found **nothing** on π and e across the whole envelope. **Power in both directions.**
+
+**Result: no relation in any cell** — r over ℚ, λ over ℚ, r against φ/√5/√3, r against Vol(4₁)/π.
+
+> **The value layer's first INFORMATIVE null.** Every previous one, including the 51st-percentile
+> spectral test, ran below the power threshold and excluded nothing.
+
+**Scope: exactly what 25 digits support.** Degree 9+, or height above a row's bound, is untouched;
+**BSV parity needs 100 digits**. **A fact about the object, not physics** — and the prereg said in
+advance that even a *hit* would have been mathematical, not Tier 2.
+
+**The next step is priced: more digits.** That is the value layer's bottleneck, **measured rather
+than felt.**
+
 ## B1005 (2026-08-09) — falsifier 2 has FIRED: Tier 2 has no live candidate
 
 **`WHAT_WOULD_COUNT` §5 called this "the sharpest live falsifier … one arc from firing."** **The arc

@@ -270,6 +270,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1006": {
+   "slug": "lambda2 pslq",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B798",
+    "B922",
+    "B993",
+    "P0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B100": {
    "slug": "literature crosscheck",
    "motifs": [
