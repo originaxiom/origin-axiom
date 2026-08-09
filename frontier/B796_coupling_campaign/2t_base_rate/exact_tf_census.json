@@ -1,0 +1,23 @@
+{
+ "class": "one-cusped census",
+ "n": 400,
+ "agree": 396,
+ "false_pos": [],
+ "false_neg": [
+  "m208",
+  "m410",
+  "s118",
+  "s119"
+ ],
+ "undecided": 325,
+ "exact_hits": [
+  "m003",
+  "m004",
+  "m206",
+  "m207",
+  "m208",
+  "m410",
+  "s118",
+  "s119"
+ ]
+}

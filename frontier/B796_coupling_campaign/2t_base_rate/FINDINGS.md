@@ -211,12 +211,14 @@ The cornerstone synthesis's #1 recommendation: stop asking about the atom and
 ask about the **conjunction** — trace field ℚ(√−3) **and** exactly two 2T
 surjections **and** H₁ = ℤ. Run here.
 
-**Method caveat, stated first.** Sage was unavailable when this ran, so the
-trace-field test is numeric: sampled holonomy traces `tr = x + iy` are tested
-for `x ∈ ℚ` and `y/√3 ∈ ℚ` at bounded denominator. That is a **necessary**
-condition on the *generator* trace field, so it **over-counts**. A small answer
-is therefore decisive; a large one would have been only an upper bound.
-(Sage has since been installed; an exact re-run is queued.)
+**Method caveat — and it was wrong in the stated direction; corrected below.**
+Sage was unavailable when this first ran, so the trace-field test was numeric:
+sampled holonomy traces `tr = x + iy` tested for `x ∈ ℚ` and `y/√3 ∈ ℚ` at
+bounded denominator. I wrote that this **over-counts**. **It under-counts.**
+The proxy tests the *generator* trace field; the invariant trace field is
+*contained* in it, so a manifold can have invariant trace field ℚ(√−3) while
+some generator trace lies outside — the proxy then says no and the exact answer
+is yes. Measured below: **0 false positives, 4 false negatives in 400.**
 
 ## Results
 
@@ -277,5 +279,52 @@ is the field's, the arithmetic-knot uniqueness is the knot's; they live on
 different objects and do not reinforce each other"* — now with both sides
 measured. B727 said it in prose in July; this is the census behind it.
 
+## THE EXACT RE-RUN — Sage installed, proxy validated, conjunction confirmed
+
+Sage 10.7 was installed (micromamba env `sage`) with SnapPy 3.3.2 alongside it,
+removing the blocker B735 recorded as *"no Maass eigenvalue computed — Sage
+unavailable"*. The **exact invariant trace field** is now computable:
+
+    m004 invariant trace field = x² − x + 1  →  ℚ(ζ₆) = ℚ(√−3)   ✓
+
+**Proxy vs exact, 400 one-cusped census manifolds:**
+
+| | |
+|---|---|
+| agree | 396 / 400 (99.0 %) |
+| **false positives** | **0** |
+| false negatives | 4 — `m208`, `m410`, `s118`, `s119` |
+| undecided (`find_field` failed) | 325, skipped |
+
+Zero false positives is the load-bearing number: **every manifold the proxy
+flagged genuinely has invariant trace field ℚ(√−3)**, so the conjunction's
+survivor list is sound. The four false negatives mean the *ℚ(√−3) column* was
+an under-count — which cannot add survivors, because all four carry H₁ torsion.
+
+**The eight exact ℚ(√−3) manifolds in that slice, with their homology:**
+
+| manifold | volume | H₁ |
+|---|---|---|
+| m003 | 2.029883213 | ℤ/5 + ℤ |
+| **m004** | **2.029883213** | **ℤ** |
+| m206 | 4.059766426 | ℤ/5 + ℤ |
+| m207 | 4.059766426 | ℤ/3 + ℤ/3 + ℤ |
+| m208 | 4.059766426 | ℤ/10 + ℤ |
+| m410 | 5.074708032 | ℤ/2 + ℤ |
+| s118 | 4.059766426 | ℤ/2 + ℤ |
+| s119 | 4.059766426 | ℤ/2 + ℤ |
+
+**Exact invariant trace field ℚ(√−3) ∧ H₁ = ℤ → `m004` alone.**
+
+Every other member of the class carries torsion in H₁, and a knot complement in
+S³ has H₁ = ℤ exactly — so none of them can be a knot. That is the mechanism
+behind Reid's theorem, visible in one column of a table, and it is now
+established here with exact arithmetic rather than a numerical proxy.
+
+It also sharpens the conclusion above rather than changing it: **H₁ = ℤ is the
+condition that isolates m004 inside its own commensurability class, and it is
+the one condition the derivation never consumes.**
+
 Reproduce: `python3 conjunction_sweep.py --n 4000` and `--knots --n 3200`
-(each validates on m004 first).
+(numeric, fast); `exact_trace_field.py --n 400` inside the `sage` env with
+`PATH=$MAMBA/envs/sage/bin:$PATH` so Singular resolves (exact, slow).
