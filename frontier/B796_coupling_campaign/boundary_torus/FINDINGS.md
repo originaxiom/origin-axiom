@@ -114,14 +114,36 @@ uniqueness at f = 4 *in this sample*.
 
 **Not established, and deliberately not asserted:** that any of this is
 *significant*. The sample is **eight manifolds**, drawn from a 400-manifold
-window (the Sage `find_field` sweep decided only 400 of the census). With eight
-samples spread over conductors 1–10, landing one of them on the onset value is
-not obviously improbable, and **this arc computes no p-value and claims none**.
+window. With eight samples spread over conductors 1–10, landing one of them on
+the onset value is not obviously improbable, and **this arc computes no p-value
+and claims none**.
 
-The honest statement is: **m004 is uniquely at the onset in this sample, and
-whether that is structural or incidental is untested.** The obvious control —
-sweep conductors over a much larger set of ℚ(√−3) manifolds and ask how often
-the onset is hit — is bounded and unrun.
+### THE CONTROL — RUN, AND IT WITHDRAWS THE UNIQUENESS
+
+The obvious control was named as "bounded and unrun". It was run the same day,
+on the owner's instruction, over **20,000** one-cusped census manifolds (proxy
+trace-field test, which has **0 measured false positives**, so hits are genuine):
+
+| conductor f | 1 | 2 | **4** | 8 | 12 | 16 |
+|---|---|---|---|---|---|---|
+| count | 2 | 1 | **3** | 1 | 1 | 2 |
+
+**m004 is NOT unique at conductor 4.** `s961` and `t12839` are there too.
+
+**The uniqueness claim is withdrawn.** What survives is weaker and stated
+plainly: conductor 4 is the **modal** value at 3/10 (30 %), and it is the onset
+of the class group — but m004 shares it with at least two other manifolds, so
+being at the onset is **not** a distinguishing property of the object.
+
+That is the second observation in two days to survive a small sample and
+dissolve at a larger one (the first was A4's "one-bit signature", 2 classes at
+n = 250 becoming 8 at n = 3,112). The pattern is worth more than either result:
+**this corpus's small-sample structures do not survive scaling, and the cheap
+control catches it every time.**
+
+*(Sample caveat retained: 10 ℚ(√−3) manifolds in 20,000 is still small in
+absolute terms. What it is large enough to do is kill a uniqueness claim, which
+takes only one counterexample — and it found two.)*
 
 ## 4. The question it does make well-posed
 
