@@ -87,3 +87,85 @@ original argument: the winner is the dimensional maximum over the *complete*
 enumeration, so no omission could have displaced it.
 
 Reproduce: `python3 p5.py` (enumerates all three steps from the Cartan data).
+
+---
+
+# STEPS 2 AND 3 — and step 2 has a live problem
+
+## Step 3: the menu is COMPLETE
+
+A₄ = su(5) has all marks 1, so **no** Borel–de Siebenthal subalgebras. The Levis
+are exactly two:
+
+| | dim | in menu? |
+|---|---|---|
+| SU(4)×U(1) = A₃+U(1) | 16 | yes |
+| **the SM** = A₁+A₂+U(1) | 12 | yes |
+
+**Enumerated: 2. Banked: 2. Step 3's menu is complete** — and the winner is the
+*smaller* option, because SU(4)×U(1) fails registerability. **At step 3 the
+registerability filter is doing the work, not the ranking.**
+
+## Step 2: the menu is INCOMPLETE, and the omission is MATERIAL
+
+| | dim | in menu? |
+|---|---|---|
+| **SO(8)×U(1)** = D₄+U(1) | **29** | **NO — ABSENT** |
+| SU(5)×U(1) = A₄+U(1) | 25 | yes — **the banked winner** |
+| Pati–Salam = A₁+A₁+A₃ | 21 | yes |
+| SU(2)×SU(4)×U(1) = A₁+A₃+U(1) | 19 | NO |
+| SU(2)²×SU(3)×U(1) | 15 | NO |
+
+> **SO(8)×U(1) has dimension 29. The banked winner has 25. The larger option is
+> absent from the menu.**
+
+And it is a legitimate wall for this construction: `so(10) ⊃ so(8) ⊕ so(2)` is
+the centralizer of a generic element of that so(2), so it is exactly the kind of
+subalgebra B964's adjoint-Higgs reading produces.
+
+**This is B861's own stated failure mode, live:** *"A chain missing from the
+classification breaks uniqueness silently."*
+
+## What decides it — and it is not run
+
+Under *"maximal residual symmetry among **registerable** options"*, SO(8)×U(1)
+displaces SU(5)×U(1) **iff it is registerable.** So the cascade's step 2 turns
+entirely on one untested question:
+
+> **Does the 16 stay chiral under SO(10) → SO(8)×U(1)?**
+
+The decomposition is `16 → 8_s(+1) ⊕ 8_c(−1)`. Both 8_s and 8_c are **real**
+representations of SO(8), so the chirality question is whether the U(1) grading
+alone makes the pair complex — which it may, since the conjugate is
+`8_s(−1) ⊕ 8_c(+1)` and the two are exchanged only by an outer automorphism
+(SO(8) triality), not by an inner one.
+
+**I have not computed this and I am not asserting either answer.** Two outcomes:
+
+- **registerable** → SO(8)×U(1) wins step 2, and the banked chain
+  E₆ → SO(10)×U(1) → SU(5)×U(1) → SM **is not the cascade's output.** That would
+  be a serious correction to B861, and downstream to B862's ℤ₆, B863's
+  termination, and content-ledger rows 1, 3 and 11.
+- **not registerable** → the omission is immaterial like step 1's, and **P5 is
+  discharged across the whole chain** by enumeration.
+
+## Net, stated carefully
+
+| step | menu | verdict |
+|---|---|---|
+| 1 | **incomplete** (3 absent) | **discharged** — all omissions strictly smaller than the winner |
+| 2 | **incomplete** (3 absent) | **OPEN — one omission is LARGER than the winner** |
+| 3 | **complete** | discharged |
+
+**This is what P5 was for.** B861 called menu completeness the spine and the
+single external dependency; the spine has now been tested at all three steps,
+and it bears weight at two of them. **The third is one bounded computation from
+being decided in either direction**, and that computation — the chirality of
+`16 → 8_s(+1) ⊕ 8_c(−1)` under SO(8)×U(1) — is the highest-value item in the
+content campaign.
+
+**Not claimed:** that the cascade is wrong. B861 may well have excluded
+SO(8)×U(1) for a reason recorded elsewhere, and I did not find such a reason in
+its FINDINGS. **The claim is that the menu does not list it and the arc does not
+say why**, which under B861's own framing is exactly the silent break it warned
+about.
