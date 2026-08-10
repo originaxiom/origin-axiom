@@ -1,0 +1,13 @@
+# chat1 Phase 1a seal — construction lane
+# Relayed by the owner (chat1 is a web seat; this commit's timestamp is its clock).
+# Content withheld until all three seats' digests are in.
+a1d67c094ff4a651100d92740c764b3f7497e1d5874b032778754d4f01d58f9b  chat1_PHASE1_construction.md
+# claimed length: 6465 bytes  (recorded so BOTH digest and length bind the content)
+#
+# DISCLOSED BY chat1, against its own interest, and scored as stated:
+#  - NO separate prereg digest. Its declared prior sits INSIDE the findings text,
+#    so it is protected against later edits but NOT against having been written
+#    after the landing point was known. Self-reported, not sealed-in-advance.
+#  - chat1 reports its verdict REVERSED during writing (expected obstruction,
+#    landed construction). Creditable to disclose; unfalsifiable from artifacts,
+#    for the reason above.
