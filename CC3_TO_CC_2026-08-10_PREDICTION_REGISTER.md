@@ -5,7 +5,7 @@ exclusion, or a structural fact. No entry contains a mass, a coupling, or a
 scale, because the framework cannot produce one by theorem.**
 
 **Why this document exists.** The permitted class of predictions was never
-written as predictions. θ_QCD = 0 sits in the ledger without emphasis; the ℤ₆
+written as predictions. ~~θ_QCD = 0 sits in the ledger without emphasis;~~ the ℤ₆
 falsifiability clause is a subordinate phrase; charge quantisation went
 unclaimed until this campaign. Every entry below was already derived somewhere —
 **none of them is new mathematics.** What is new is stating them as claims about
@@ -27,10 +27,37 @@ other frameworks, and that is noted.
 **Falsifier.** A nonzero neutron electric dipole moment consistent with θ ≠ 0.
 Current bound roughly |θ| < 10⁻¹⁰.
 
-**Status: CONFIRMED, and it is the framework's strongest contact with nature.**
-*Not unique* — axion models also give θ → 0. But here it costs **nothing**: no
+~~**Status: CONFIRMED, and it is the framework's strongest contact with nature.**~~
+*Not unique* — axion models also give θ → 0. ~~But here it costs **nothing**: no
 new particle, no new symmetry, no tuning. It is a consequence of a geometric
-property the object has for independent reasons.
+property the object has for independent reasons.~~
+
+> ### ⚠ STATUS WITHDRAWN 2026-08-10 — P1 IS NOT A PREDICTION. It is a HOOK.
+>
+> **Two independent objections, reached from opposite directions, and each is
+> fatal on its own.**
+>
+> **(a) The derivation does not reach θ_QCD** — cc, B1009, accepted at the third
+> ask. Amphichirality ⟹ CS = 0 is real and stays (m004 is amphichiral; X25
+> carries it). But reading the object's level `k` as the SM's `θ_QCD` is an
+> **object→physics functor application**, and Gate 5 / L91 say the typed functor
+> **does not exist**. `THE_SM_VERDICT.md` row 6 has said strong CP is *"never
+> addressed"* the whole time; `THE_LADDER.md` X6 is **BLIND**.
+>
+> **(b) The falsifier does not test θ_QCD** — this seat, sealed independently in
+> `CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md` **before cc's relay was read**,
+> graded **S4**. The measurable quantity is **θ̄ = θ_QCD + arg det M_q**. A
+> nonzero nEDM is consistent with `θ_QCD = 0` and `arg det M_q ≠ 0`, so it
+> **cannot refute the claim**. Closing that gap needs the quark mass phase, which
+> is weight ≠ 0 and **forbidden by theorem**.
+>
+> **So P1 fails at both ends: it does not derive what it claims, and its
+> falsifier does not test what it claims.** The register's *strongest* entry is
+> its weakest. **Status: HOOK — not confirmed, not testable, not withdrawn as
+> mathematics.** What survives is CS = 0, object-level, and a reason to want the
+> functor.
+>
+> The narrower CP-adjacent result that *is* banked: **B303's `sign = sign(CS)`**.
 
 ---
 
@@ -68,11 +95,54 @@ ambiguous (Tong 1705.01853); the chain FORCES ℤ₆"* — and B862 states outri
 that it is *"falsifiable in principle via **line-operator spectra**."* Different
 global forms admit different Wilson/'t Hooft line spectra.
 
-**Falsifier.** A line-operator spectrum inconsistent with the ℤ₆ quotient.
+**Falsifier — enumerated 2026-08-10**, `frontier/B796_coupling_campaign/z6_line_spectrum/`.
+The previous wording ("a line-operator spectrum inconsistent with the ℤ₆
+quotient") named a *kind* of evidence, not an object. The spectrum has now been
+computed and the four candidate global forms have **four distinct magnetic
+signatures**:
 
-**Status: TESTABLE, not yet tested.** **This is the framework's sharpest
-distinguishing claim** — it answers a question the Standard Model *cannot*
-answer about itself.
+| Γ | magnetic classes | colour flux? | weak flux? | **both together?** |
+|---|---|---|---|---|
+| 1 | 1 | no | no | no |
+| ℤ₂ | 2 | no | yes | no |
+| ℤ₃ | 3 | yes | no | no |
+| **ℤ₆** | **6** | yes | yes | **YES** |
+
+The **minimal monopole** of the derived form carries hypercharge magnetic charge
+**1/6 together with colour flux 1/3 and weak flux 1/2** — it is *not* a pure
+hypercharge monopole, and **no other global form admits an object carrying both
+colour and weak flux.** Minimality is strict: the Dirac pairings over a
+generation are `1,0,1,0,1,0,1` with **gcd 1**, so no smaller magnetic charge
+stays local against observed matter.
+
+**Falsifiers, any one of which kills ℤ₆:**
+
+- **F1** a minimal-hypercharge monopole with **no colour flux** (leaves 1 or ℤ₂)
+- **F2** a minimal-hypercharge monopole with **no weak flux** (leaves 1 or ℤ₃)
+- **F3** any monopole whose (colour, weak, hyper) flux is not one of the six rows
+- **F4** a pure-hypercharge monopole below hypercharge magnetic charge 1
+- **F5** a genuine bare colour-triplet Wilson line `(3,1)₀`
+- **F6** a bare weak-doublet line `(1,2)₀`
+- **F7** an isolated hypercharge-1/6 colour singlet
+
+**Confirming signature (C1):** a monopole carrying colour **and** weak flux
+together. Unique to ℤ₆.
+
+**Status: TESTABLE, WITH A STATED LIST — still not tested.** No monopole has
+been observed; nothing above has moved to CONFIRMED. **This remains the
+framework's sharpest distinguishing claim** — it answers a question the Standard
+Model *cannot* answer about itself.
+
+> **Caution added by the same arc — P2 does NOT support P3.** All observed SM
+> matter descends to **all four** global forms (`e = t/3+d/2+Y` is an integer for
+> every multiplet, so it vanishes mod 1, ½ and ⅓ alike — this reproduces Tong
+> 1705.01853 from the descent condition alone). P2 is therefore CONFIRMED and
+> WEAK; P3 is UNTESTED and STRONG. They share a lattice, not a test, and must not
+> be read as mutually reinforcing.
+>
+> **No monopole mass is predicted, and none can be** — the weight ledger puts
+> every derived quantity at weight 0. The prediction is about **charge
+> correlation**, which is scale-free.
 
 ---
 
@@ -172,13 +242,38 @@ generation's exact content and not its multiplicity.**
 
 # THE HONEST SUMMARY
 
-**Eight entries. Four confirmed, three testable, one structural.** Every one is
+~~**Eight entries. Four confirmed, three testable, one structural.**~~ Every one is
 weight-0; not one contains a number with units.
+
+> **RECOUNTED 2026-08-10 — three confirmed, not four.** **P1 (θ_QCD = 0) is
+> withdrawn to HOOK** (cc/B1009, third ask): the object→physics functor it needs
+> does not exist. It was the register's headline entry and the only one billed as
+> *"the framework's strongest contact with nature."* **The framework's strongest
+> contact with nature is now P2, charge quantisation** — which the register itself
+> marks *not unique*, and which by the ℤ₆ line-spectrum arc **holds in all four
+> global forms**, so it does not even fix the thing P3 claims.
+>
+> A **falsifier-sharpness audit** was sealed independently the same day
+> (`CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md`) and grades **four of eight
+> falsifiers defective as written**. The full status recount is Phase B,
+> `CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md`.
 
 **Two are distinguishing** — P3 (the ℤ₆ global form, which the SM cannot fix
 about itself) and P5 (Dirac at the renormalisable level, which 0νββ probes).
 **The rest are shared with other frameworks**, and the register says so rather
 than counting them as unique support.
+
+**P3 now carries seven named falsifiers and one confirming signature**
+(`frontier/B796_coupling_campaign/z6_line_spectrum/`, 2026-08-10). The sharpest:
+the minimal monopole must carry **colour and weak flux together**, which no other
+global form permits. **The count of eight does not change, and neither does the
+tally of what is confirmed** — P3 is still untested. What changed is that it can
+now be *lost*, which it could not be before.
+
+**One correction to how the eight combine:** P2 and P3 share a lattice, not a
+test. All SM matter descends to all four global forms, so **P2's confirmation is
+no evidence for P3.** Four confirmed entries do not lend weight to the two
+distinguishing ones.
 
 **The point of this document is not that the framework is confirmed.** It is that
 the permitted class was never harvested. **Every entry above was already derived

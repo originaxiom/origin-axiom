@@ -36,10 +36,16 @@ is no quantization condition to be had, and therefore no quantization route to
 c. The cause is **amphichirality** — the object equals its own mirror, forcing
 `Z_k = Z_{−k}` and hence CS = 0.
 
-That is the same single geometric fact that gives **θ_QCD = 0**. So
-amphichirality now has **four** consequences on record: θ = 0, CS = 0, the
+So amphichirality now has **three** consequences on record: CS = 0, the
 deletion of the quantized half of the action (S2), and — established here —
 **the closure of the quantization route to c at this end.** One geometric fact,
+
+> **CORRECTED 2026-08-10.** This paragraph said **four**, counting `θ_QCD = 0`.
+> **That entry is withdrawn** (cc/B1009, third ask): the object→physics functor
+> it needs does not exist (Gate 5 / L91), so it is a **hook**, not a consequence.
+> The count is **three**, and — worth noting — **all three are object-level.**
+> The θ entry was the only one that reached outside the object, which is exactly
+> why it was the one that needed a functor.
 four entries in different rooms.
 
 **Spherical end — the route is OPEN, and it is already a named unrun item.**

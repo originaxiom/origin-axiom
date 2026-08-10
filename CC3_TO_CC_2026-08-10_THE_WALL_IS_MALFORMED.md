@@ -43,18 +43,34 @@ Applying it:
 ## What the correct formulation looks like
 
 **S4 already wrote it and nobody noticed it superseded the wall vocabulary.**
-The five closings, typed, needing **four resources from three sources**: two 𝔽₂
-bits (one contested between chirality and rank), one scale, one Lie type. That
+The five closings, typed, needing ~~four resources from three sources: two 𝔽₂
+bits (one contested between chirality and rank), one scale, one Lie type~~. That
 is not a list of failures. It is **an input list**, and it is finite, counted,
 and short.
+
+> **CORRECTED 2026-08-10** — `frontier/B796_coupling_campaign/tau_vs_singlet/`.
+> **Five resources, not four**, and the fifth (rank) is **unsourced**: chirality
+> and rank do *not* contest one τ. The rank closing is `⟨1⟩ ≠ 0`, a VEV, while τ
+> is an involution — they differ in rank-drop (1 vs 2) and in chirality-fate
+> (preserved vs destroyed).
+>
+> **This section's argument survives intact.** Its claim is that the input list
+> is *finite, counted and short* — not that it is exactly four. It is finite,
+> counted, and **five**, with one entry still owing a source. The wall vocabulary
+> is still superseded; the interface is just one longer than stated.
 
 So the programme's honest position is not *"five walls, all closed on every
 route"*. It is:
 
 > **Given four external data — two bits, one scale, one Lie type — the object
 > determines the Standard Model's gauge algebra, its global form ℤ₆ (which the
-> SM itself cannot fix), hypercharge as the unique gaugeable U(1), and
-> θ_QCD = 0. It does not determine any dimensionful quantity, by theorem.**
+> SM itself cannot fix), and hypercharge as the unique gaugeable U(1). ~~and
+> θ_QCD = 0.~~ It does not determine any dimensionful quantity, by theorem.**
+
+> **θ_QCD = 0 struck 2026-08-10** (cc/B1009, third ask). It needs an
+> object→physics functor that Gate 5 / L91 deny — a **hook**, not a
+> determination. **The headline is otherwise unaffected**: every surviving item
+> is weight-0 gauge structure, which was this section's point.
 
 That is a **parameter reduction with a counted input list**, and it should be
 claimed as one. Compared with nineteen fitted parameters, four declared inputs

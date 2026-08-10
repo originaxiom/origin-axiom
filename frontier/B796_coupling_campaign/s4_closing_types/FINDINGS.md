@@ -1,5 +1,34 @@
 # S4 — THE FIVE CLOSINGS TYPED: FOUR RESOURCES, AND THE INTERFACE CLOSES
 
+> ## ⚠ HEADLINE CORRECTED 2026-08-10 — the count is FIVE, and the interface does NOT close
+>
+> **This arc's title and headline are wrong.** `frontier/B796_coupling_campaign/tau_vs_singlet/`
+> tested the one identification the four-resource count rests on — that chirality
+> and rank contest a single 𝔽₂ bit, τ — and it **fails**:
+>
+> | | **τ** | **⟨1⟩ ≠ 0** (the rank closing's actual name) |
+> |---|---|---|
+> | rank removed | 2 (E₆ → F₄) | 1 (E₆ → SO(10)) |
+> | generation stays complex | **no** | **yes** |
+>
+> **The cascade never reduces rank** — every step is maximal-rank. The drop 6 → 4
+> is done by two VEVs, `⟨1⟩` and `⟨ν^c⟩`, and **neither is an involution**. So
+> B963's *"τ is the only rank-reducing involution"* — the load-bearing citation in
+> the table below — is **true and irrelevant**. It answers a question the cascade
+> never asks.
+>
+> **Consequence:** five resources, three sources, **and the rank closing is
+> unsourced** — the torsor is rank exactly 3 (B766) and all three bits are already
+> committed. **"Nothing left over" and "saturated" are withdrawn.**
+>
+> **What survives untouched:** five closings (B1000); three sources; and
+> **conjugation = τ**, which was *computed* in `mckay_conjugation.py` below and is
+> not affected. The interface is still finite and still short — it is one resource
+> **longer** than this arc claimed, not shorter.
+>
+> **Not yet settled:** whether `⟨1⟩ ≠ 0` folds into the value closing's ℝ₊, which
+> would recover some form of saturation. That question was never asked here.
+
 cc3, 2026-08-09, under the owner's suspended-disbelief brief. Gate 5-Q; structure
 only, no measured quantity.
 

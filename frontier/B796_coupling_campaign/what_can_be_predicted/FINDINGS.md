@@ -28,11 +28,26 @@ Everything **weight-0**: **counts, ratios, quotients, angles, and structural
 facts.** That is not a consolation prize; it is most of what "the Standard Model
 has this shape" means.
 
-**And the framework already has three:**
+> ## ⚠ θ_QCD = 0 WITHDRAWN 2026-08-10 — this arc said "CORRECT" and it is a HOOK
+>
+> **cc/B1009, accepted at the third ask.** Amphichirality ⟹ `Z_k = Z_{−k}` ⟹
+> **CS = 0** stands — object-level, m004 is amphichiral, X25 carries it. What
+> fails is **the last arrow**: reading the object's level `k` as the Standard
+> Model's `θ_QCD` is an **object→physics functor application**, and Gate 5 / L91
+> say the typed functor **does not exist**.
+>
+> `THE_SM_VERDICT.md` row 6 has listed strong CP as **"never addressed"** the
+> whole time, and `THE_LADDER.md` **X6 is BLIND**. **This arc graded it "CORRECT"
+> without checking either.** No `arc_verdict.json` carries the claim.
+>
+> **So the framework has TWO here, not three.** The narrower CP-adjacent result
+> that *is* banked is **B303's `sign = sign(CS)`**.
+
+**And the framework already has ~~three~~ two, plus one hook:**
 
 | prediction | status |
 |---|---|
-| **θ_QCD = 0** | **derived, parameter-free, and CORRECT** — a solved naturalness problem |
+| ~~**θ_QCD = 0**~~ | ~~**derived, parameter-free, and CORRECT**~~ → **WITHDRAWN 2026-08-10, see below** |
 | **the global form is ℤ₆** | derived, and B862 states it is *"**falsifiable in principle via line-operator spectra**"* |
 | **charge quantisation** — `t/3 + d/2 + Y ∈ ℤ` | derived this campaign |
 

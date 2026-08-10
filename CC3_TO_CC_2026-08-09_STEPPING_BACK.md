@@ -108,8 +108,13 @@ nothing?"* is malformed. The well-posed version is:
 
 And that has a shape the programme did not have this morning: **the interface is
 finite and counted.** B1000 found five closings over four sectors. S4 typed them
-and found **four resources from three sources** — two 𝔽₂ bits (one contested),
-one scale, one Lie type — with the third torsor bit spent internally on A7.
+and found ~~four resources from three sources — two 𝔽₂ bits (one contested),
+one scale, one Lie type~~ — with the third torsor bit spent internally on A7.
+
+> **CORRECTED 2026-08-10** — `frontier/B796_coupling_campaign/tau_vs_singlet/`:
+> **five resources**, because chirality and rank do not contest one τ, and the
+> fifth is **unsourced**. *"Finite and counted"* — this section's actual claim —
+> **stands**; the count is five, not four.
 
 So the honest final-goal statement is not a ToE. It is:
 
@@ -120,8 +125,33 @@ And the ledger is worth stating plainly:
 
 **Delivered for that price** — the Standard Model gauge algebra; **the global
 form ℤ₆, which the SM itself cannot fix**; hypercharge as the unique gaugeable
-U(1); a termination theorem; and **θ_QCD = 0, parameter-free**, which is a solved
-naturalness problem sitting in the ledger without emphasis.
+U(1); and a termination theorem. ~~and **θ_QCD = 0, parameter-free**, which is a
+solved naturalness problem sitting in the ledger without emphasis.~~
+
+> ### ⚠ ROW WITHDRAWN 2026-08-10 — θ_QCD = 0 is NOT a delivered result
+>
+> **cc's refusal (B1009) is accepted in full, at the third ask. This seat should
+> have withdrawn it at the first.**
+>
+> The object-level half is real and stays: **m004 is amphichiral, and CS = 0 is
+> in the record (X25).** What fails is **the last arrow.** Reading the object's
+> level `k` as the Standard Model's `θ_QCD` is an **object→physics functor
+> application**, and the typed functor is exactly what Gate 5 / L91 say does not
+> exist. *Shapes are free, currencies are not.*
+>
+> **What the observation actually earns is a firewalled HOOK** — if the functor
+> existed, θ_QCD would be the naturally-explained parameter, and it is
+> dimensionless, in the one sector the weight ledger lets the object speak to.
+> **A reason to want the functor. Not a delivered result.**
+>
+> The repo said so in two places this relay did not check: `THE_SM_VERDICT.md`
+> row 6 lists strong CP as **"never addressed"**, and `THE_LADDER.md` **X6 is
+> BLIND**. No `arc_verdict.json` carries the claim. **The relay asserted against
+> the record and no gate caught it, because relays are not gated — which is the
+> B999 loss mode this seat built `relay_debt.py` for and still walked into.**
+>
+> A CP-adjacent result does exist and is narrower: **B303's `sign = sign(CS)`**.
+> That is not `θ_QCD = 0, parameter-free`.
 
 **The price** — one dimensionful input (ℓ), permanently. One dimensionless input
 (c), *not* forbidden. Two 𝔽₂ bits. One Lie type, possibly internal.
@@ -137,11 +167,20 @@ angles, central charges, θ — the sector where the one landed value already li
 
 ## WHAT ELSE EMERGES — three things visible only from here
 
-**1. One geometric fact, three physical consequences.** Amphichirality — the
-object equals its own mirror — gives θ_QCD = 0 *and* CS = 0 *and* therefore
-deletes the quantized half of its own action (S2). Three separate ledger entries,
-one cause. That is what a real structural fact looks like from a distance:
-consequences in places that do not obviously talk to each other.
+**1. One geometric fact, ~~three physical consequences~~ two object-level
+consequences and one hook.** Amphichirality — the object equals its own mirror —
+gives CS = 0 and therefore deletes the quantized half of its own action (S2).
+~~gives θ_QCD = 0 *and*~~ Two ledger entries, one cause. That is what a real
+structural fact looks like from a distance: consequences in places that do not
+obviously talk to each other.
+
+> **CORRECTED 2026-08-10 alongside the withdrawal above.** The θ_QCD entry was
+> the third of the "three consequences" and it is **not a consequence** — it is
+> a **hook**, needing the object→physics functor that Gate 5 / L91 deny. **Both
+> surviving entries are object-level**, so the paragraph's own point is weaker
+> than it read: the consequences land in places that *do* talk to each other,
+> being two faces of CS = 0. **The reach across sectors was supplied entirely by
+> the entry that has been withdrawn.**
 
 **2. The specificity keeps moving down a level, and it survives at the bottom.**
 m004 among manifolds: generic. Among knots: generic. cc's B996 at the grammar

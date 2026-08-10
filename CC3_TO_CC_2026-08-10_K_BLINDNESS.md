@@ -72,9 +72,21 @@ Brown–Henneaux and S2 independently):
 > (CS = 0). So the relocation is not to a hard place — it is to a place this
 > object cannot reach in principle.**
 
-That is the same single geometric fact — amphichirality — that gives **θ_QCD = 0**.
-**One property: it hands the programme its one clean physical value, and it
-deletes the only term that could have carried a scale.**
+That is the same single geometric fact — amphichirality — that gives **CS = 0**.
+~~**One property: it hands the programme its one clean physical value, and it
+deletes the only term that could have carried a scale.**~~
+**One property, and it deletes the only term that could have carried a scale.**
+
+> **CORRECTED 2026-08-10** (cc/B1009, third ask). The struck clause credited
+> amphichirality with handing the programme *"its one clean physical value"* —
+> `θ_QCD = 0`. **That value is withdrawn**: it needs an object→physics functor
+> Gate 5 / L91 deny, so it is a hook.
+>
+> **The correction strengthens this arc rather than weakening it.** Amphichirality
+> now does only the *deleting* — it removes the scale-carrying term and hands the
+> programme nothing in exchange. That is a **cleaner** statement of k-blindness
+> than the original, which had the same property giving with one hand and taking
+> with the other.
 
 ## 4. Amplifying chat1's own pushback, because it is the real finding
 

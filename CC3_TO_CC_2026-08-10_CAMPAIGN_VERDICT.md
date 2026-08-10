@@ -40,13 +40,28 @@ a parameter reduction with a counted input list.**
 | anomaly cancellation | derived, as the *selector* |
 | why the group stops | derived (termination theorem) |
 | **one generation's exact multiplet pattern** | derived — *"no multiplet is missing, none is extra"* |
-| **θ_QCD = 0** | derived, parameter-free, from amphichirality |
+| ~~**θ_QCD = 0**~~ | ~~derived, parameter-free, from amphichirality~~ — **WITHDRAWN 2026-08-10** (cc/B1009, third ask): amphichirality ⟹ CS = 0 stands and is object-level; reading the object's `k` as the SM's `θ_QCD` needs an object→physics **functor** that Gate 5 / L91 deny. **A hook, not a derivation.** |
 
 ### The price
 
-Two 𝔽₂ bits, one scale, one Lie type — **four resources from three sources**,
+Two 𝔽₂ bits, one scale, one Lie type — ~~**four resources from three sources**~~,
 and the campaign **named** one of them that was previously an unlabelled hole:
 the **rank closing is `⟨1⟩ ≠ 0`**, the E₆ singlet's VEV.
+
+> **CORRECTED 2026-08-10** — `frontier/B796_coupling_campaign/tau_vs_singlet/`.
+> **The price is FIVE resources, not four, and the fifth is unsourced.**
+>
+> This paragraph contained its own refutation and the seat did not see it: it
+> asserts four resources (which requires chirality and rank to share τ) in the
+> same breath as naming the rank closing `⟨1⟩ ≠ 0`. Those are different objects
+> — τ removes rank 2 and kills chirality; `⟨1⟩` removes rank 1 and preserves it.
+> **The cascade never reduces rank at all**; every step is maximal-rank, and the
+> drop 6 → 4 is done by two VEVs, neither an involution. B963's *"τ is the only
+> rank-reducing involution"* is true and irrelevant here.
+>
+> The torsor is rank exactly 3 (B766) and all three bits are committed
+> (reversal → time, conjugation → chirality, golden branch → A7). **Nothing
+> supplies the rank closing.** The price is higher than this section states.
 
 ### Not delivered
 
@@ -117,14 +132,21 @@ anywhere** — I searched.
   The material may already exist under different vocabulary, which is exactly
   the failure mode the loss audit and the hedge-drop detector were built for.
 
-**And there is a live tension worth naming before anyone searches:** the object
+~~**And there is a live tension worth naming before anyone searches:** the object
 has **CS = 0 exactly**, by amphichirality. If the GS mechanism needs a
 non-vanishing CS coupling, then **the same property that gives θ_QCD = 0 may
 forbid the mechanism that removes the anomalous U(1)s** — which would be
 amphichirality's *fifth* consequence, and the first unwelcome one. **I am not
 claiming that. I am saying it is the first thing to check**, because if true it
 converts gap 2 from "unsearched" to "structurally obstructed", and if false it
-tells you where the mechanism lives.
+tells you where the mechanism lives.~~
+
+> **DOUBLY WITHDRAWN.** (i) The "live tension" was a **category confusion** —
+> the 3-manifold's CS *invariant* (a number) is not a 4d CS *coupling* (a
+> Lagrangian term) — withdrawn in `frontier/B796_coupling_campaign/gap2_gs/`
+> the same day it was written. (ii) The `θ_QCD = 0` reference is withdrawn
+> separately (cc/B1009, 2026-08-10). **Amphichirality's consequence count is
+> three, not five, and all three are object-level.**
 
 ---
 

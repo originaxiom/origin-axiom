@@ -181,13 +181,30 @@ statement in the programme that the external inputs are not an open-ended list.
 Under the brief, the value layer is not empty. It has one clean hit that the
 programme records without emphasis:
 
-> **θ_QCD = 0, forced by amphichirality.** The object equals its own mirror, so
+> ~~**θ_QCD = 0, forced by amphichirality.** The object equals its own mirror, so
 > `Z_k(M) = Z_{−k}(M)`, so θ = 0. Parameter-free, and it is the correct answer
-> to a genuine unexplained fact about the world.
+> to a genuine unexplained fact about the world.~~
 
-That is a solved naturalness problem sitting in the ledger. Everything else in
-the value layer should be read in its light: the object speaks in the
-**dimensionless** sector (weight ledger), and θ is dimensionless.
+> ### ⚠ WITHDRAWN 2026-08-10 — the value layer's "one clean hit" is a HOOK
+>
+> **cc/B1009, accepted at the third ask.** The chain
+> *amphichirality ⟹ `Z_k = Z_{−k}` ⟹ `θ = 0`* is **object-level and stands**.
+> The step that fails is the unwritten one after it: **identifying the object's
+> `θ` with the Standard Model's `θ_QCD`.** That is an object→physics **functor**
+> application, and Gate 5 / L91 say the typed functor does not exist. *Shapes are
+> free, currencies are not.*
+>
+> **This matters more here than anywhere else it propagated.** This section is
+> the one that told the owner the value layer *"is not empty"* under the
+> suspended-disbelief brief. **With θ withdrawn, the value layer's tested content
+> is empty** — which is what the campaign's own wall analysis concluded
+> independently, and this paragraph was the standing exception to it. **There is
+> no exception.**
+>
+> What survives: the object speaks only in the **dimensionless** sector (weight
+> ledger), and θ_QCD *is* dimensionless — so it remains **the right thing to want
+> from a functor**, and the best available argument for building one. A reason,
+> not a result.
 
 `sin²θ_W = 3/8` is reproduced at the GUT scale, and the run to M_Z missed at
 16σ — but **under a desert assumption that B925 then killed by the chain's own
