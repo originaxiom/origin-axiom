@@ -1,0 +1,17 @@
+{
+ "id": "B1021",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE CELL-9 RECEIPT: THE PARENT MAASS EIGENVALUE ENTERS MAIN AT 31 FIGURES, AND THE VALUE WALL'S NULL NOW STANDS ON TWO CERTIFIED EIGENVALUES. Receipt per the B922 pattern (the 89.7 h run not rerun). R1: four branch artifacts harvested byte-faithfully with sha256 manifest; the result's prereg field is 169e9042, MATCHING main's SEAL_LEDGER row -- the same sealed protocol as B922's lambda_2. The parent: r = 7.0720041858752050007371941867273 (31 figures; 89.7 h certified arb/flint; n_modes 2640; dr_stab 1.448e-30 against a 1e-26 requirement, four orders of margin; MAIN, GATE at 9 overlap digits, P4 spread 0.0, and P3's displaced control correctly refusing), sharpening B943's banked r ~ 7.072 to 31 figures. R2, INDEPENDENT SPOT-CHECKS ON THIS BENCH: 0 gated hits reproduced across the 24 reconstructible powered (box, target) combinations -- six fields x {r, lambda} x both certified eigenvalues -- WITH THE POSITIVE CONTROL FOUND (a planted Q(sqrt5) relation); lambda = 1 + r^2 retraced at 31 figures; the sqrt(-phi) box defers to the harvested artifact's own basis convention, recorded not reconstructed. R3: the value wall's null now rests on TWO certified eigenvalues, both tested with power everywhere (B798's law licensing heights, tolerances from the observed noise floor) -- B1006's first informative null becomes a TWO-EIGENVALUE POWERED NULL; L147's own ask (lambda_2 to 50 digits) is NOT discharged (different eigenvalue) and stays open at B798's price. R4: B1012's OWED row for cell 9 is BANKED; the conductor-4 complex and rank-wall scope claims remain OWED; the theta receipt and the falsifier-register adjudication remain HELD per the verify-before-banking instruction. SCOPE: a receipt, asserting no new mathematics beyond the spot-checks; Gate 5 untouched.",
+ "depends_on": [
+  "B922",
+  "B943",
+  "B798",
+  "B1006",
+  "B1012",
+  "B921"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10)"
+}

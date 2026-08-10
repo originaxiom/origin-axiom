@@ -1485,3 +1485,24 @@ doctrine over- or under-licenses (R11 revisited). Either outcome corrects someth
 
 **Kind gate first, as always** (B856's lesson): the anchor and the predicted output must be
 kind-admissible before any SM contact.
+
+---
+
+## L152 — RELAYS ARE NOT GATED FOR CONTENT (registered 2026-08-10; B999's structural residue, named by the audit seat during its own θ withdrawal)
+
+**The gap, in the finder's words:** *"`relay_debt.py` verifies that every relay has a disposition.
+It has nothing to say about whether a relay's CONTENT contradicts main. A relay asserting against
+the record is invisible to every gate the programme has, because relays are not gated."* The
+worked instance: θ_QCD = 0 asserted across nine branch files for two days while main said "never
+addressed" in two places — caught by a seat (B1009), not by machinery, and only at the third ask.
+
+**Why it is a lead and not a fix:** content-gating relays means classifying claims mechanically —
+the thing B822 refused for good reason. The honest design space: (a) a **claim-echo check** at
+relay ingestion (grep the relay's B-numbers and quoted verdicts against main's record — cheap,
+catches contradictions-by-citation); (b) a **delivered-list rule** (any relay table headed
+"delivered/confirmed/banked" must cite an arc per row, checkable like the BANKED discipline in
+`relay_debt`); (c) accept the gap and rely on receipts (the status quo, now with a named cost).
+
+**Two-outcome on the design cell:** either (a)/(b) catch the θ instance retroactively when run on
+the archived relay (then build), or they do not (then the gap is genuinely judgement-shaped and
+the mitigation is the receipt discipline, recorded as such).

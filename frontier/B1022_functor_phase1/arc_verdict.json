@@ -1,0 +1,23 @@
+{
+ "id": "B1022",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "cc's PHASE 1 PUBLISHED UNDER THE HASH-FIRST PROTOCOL: the corpus's answer to the three-seat functor question, byte-identical to the digest sealed at 4b3cbfdc BEFORE any other seat's content was visible (sha256 50d4bdd9..., verified at publication and locked). THE HEADLINE CLAIM C0: the question 'theorem or contingent?' is MALFORMED UNQUALIFIED -- the functor's absence is a THEOREM in the dimensionful sector (weight ledger; B811's kind wall; B1012's dS/dk = -CS = 0), a CONDITIONAL THEOREM in the pair channel (B936 frame-relativity + B990 orbit-invariants, scoped to the banked classes), CONTINGENT-AND-UNOBSTRUCTED in the coupling channel (no banked obstruction; B1011's closed-form value theory; B1015's anchors licensed by theorem; B856's kind-correct contact failing only numerically -- a numerical failure presupposes the arrow's type-correctness), and FALSE in the structure sector, where a typed functor ALREADY EXISTS and is load-bearing (B862's Z6, B864's direction, B992's u(1)^3, Gate 5 itself being the proof by practice: a gate splitting structure-claims from value-claims only makes sense over an arrow that exists on structure). Twelve numbered claims with citations and per-claim refutation conditions. EXPOSURE: cc's content predates both protocol leaks, commit-order-verifiable; cc/chat1 agreement discounted, disagreement full. STATUS: Phase 1b OPEN, all three digests in; Phase 2 adversarial next; the metric set (survival / verified-defect-yield / backing; self-caught defects at 1/3). NOTHING HERE UPGRADES C1-C12 TO BANKED LAWS -- they are sealed Phase-1 claims awaiting adversarial review; what is banked is the publication, its hash chain, and the protocol state.",
+ "depends_on": [
+  "B1015",
+  "B1012",
+  "B1011",
+  "B1016",
+  "B936",
+  "B990",
+  "B862",
+  "B864",
+  "B992",
+  "B811",
+  "B813",
+  "B856"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10); three-seat protocol, corpus lane"
+}

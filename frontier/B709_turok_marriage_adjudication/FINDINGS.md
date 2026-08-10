@@ -85,6 +85,14 @@ record. Registering any of these as a framework prediction would breach Gate 5.
   = h¹); he has what we lack (4D dynamics, vacuum selection). Genuine and precise.
 - **Strong-CP-by-mirror.** CS = 0 by amphichirality ↔ θ_QCD = 0 by CPT: the SAME
   solution TYPE (a mirror symmetry killing a topological angle). rung-3 echo.
+  > **⚠ FENCE (2026-08-10, the B1009/B813 batch):** *"the SAME solution TYPE"* is a **shape
+  > statement** — free under the wall-sort's own rule (B1013) — and this bullet's *"do NOT
+  > upgrade"* clause below is load-bearing. **Any identification** (the object's CS = 0
+  > *explaining* θ_QCD = 0) **is an object→physics functor application**: refused pending the
+  > typed functor (B1009), and the direct dictionary is refuted on type (B813 — a fixed invariant
+  > cannot fill a functional slot). This phrasing seeded a nine-file overclaim on the audit
+  > branch (withdrawn 2026-08-10); fenced so it cannot seed another. The same fence reads onto
+  > `PREREGISTRATION.md:72`.
 These are the B707 echoes; they do NOT upgrade to a marriage, and they carry no
 number.
 

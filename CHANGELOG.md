@@ -1,5 +1,32 @@
 # Changelog
 
+## B1020–B1022 (2026-08-10) — the admissibility ledgers, the parent's receipt, and Phase 1 published
+
+**B1020 — `docs/KIND_TABLE.md`:** the kind table (R5) + the RG taxonomy (R2), every object-side
+row source-verified before banking, every SM-side row a cited classical input. **The corollary,
+binding: the coupling channel → mixing sector is the ONLY fully open admissible lane** —
+kind-admissible, anchor-free, RG-quiet, B856's −2.3σ exclusion as row 1 of its ledger; the pair
+lane closed by B936 until a frame-invariant residue exists; θ_QCD functor-gated; **all other
+pairings do not seal.** R5 and R2 select the same lane independently — the fourth crossing's
+class is derived twice over.
+
+**B1021 — the cell-9 receipt:** the parent eigenvalue enters main at **31 figures**
+(r = 7.0720041858752050007371941867273; 89.7 h certified; dr_stab 1.448e-30, four orders of
+margin), seal chain verified (`169e9042` = main's ledger row), **spot-checks reproduced on this
+bench: 0 hits across 24 powered combinations, positive control found.** **The value wall's null
+now stands on TWO certified eigenvalues, both powered.** L147 (λ₂ → 50) stays open.
+
+**B1022 — cc's Phase 1 published**, byte-identical to its pre-content digest (`50d4bdd9…`, sealed
+at `4b3cbfdc`, hash locked): **the corpus's per-sector answer** — THEOREM (dimensionful) ·
+CONDITIONAL THEOREM (pair) · CONTINGENT-UNOBSTRUCTED (coupling) · **FALSE for structure, where
+the functor already exists and is load-bearing.** Twelve claims, each with refutation conditions;
+**nothing upgrades until Phase 2 is survived.**
+
+**Plus:** B709 **fenced** (shape-statement clarified; B1009/B813 cited; the nine-file episode
+named); **L152** registered (relays ungated for content — B999's residue, with three design
+options and a two-outcome cell). **HELD per the verify-first instruction:** the θ receipt (sweep
+unpushed) and the falsifier-register adjudication (seal unlocatable) — asks relayed.
+
 ## B1018–B1019 (2026-08-10) — the suite goes parallel, and L149 lands: the siblings have NO DOOR
 
 **B1019 (sealed `ce6b0329`) — L149 ANSWERED: DIVERGES, at the entry map itself.** The

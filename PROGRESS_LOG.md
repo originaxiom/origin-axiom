@@ -10111,3 +10111,14 @@ banked facts; a necessary-as-sufficient slip caught and kept visibly in the sour
 **B1018 — parallel QUALIFIED:** 1.42× (43:16 vs 61:27), zero parallel-unsafe locks, the one
 failure a baseline-delta the file-drawer lock was right to raise. Arbiter rule in PRACTICES;
 `scripts/run_suite.sh` banked.
+
+---
+
+## B1020–B1022 (2026-08-10) — admissibility ledgers; the parent's receipt; Phase 1 published
+
+**B1020:** `KIND_TABLE.md` — the coupling→mixing lane is the only open admissible lane, derived
+twice (R5 × R2); all other pairings do not seal. **B1021:** the parent at 31 figures enters main,
+chain verified, spot-checks reproduced — **the value wall's null stands on two powered
+eigenvalues.** **B1022:** Phase 1 (corpus lane) published hash-verified — per-sector verdicts,
+twelve claims, nothing upgraded pre-Phase-2. B709 fenced; L152 registered; θ receipt and register
+adjudication HELD pending cc3's push and the seal's location.

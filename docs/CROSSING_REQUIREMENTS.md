@@ -30,10 +30,10 @@ success grade.
 | # | requirement | forced by |
 |---|---|---|
 | **R1** | the candidate lies **outside B687's atlas and outside B743's tower**, stated in the prereg with the check shown | B1005 (falsifier 2 fired; searched ground) |
-| **R2** | the boundary-to-measurement **interpolation is derived, not assumed** — either the object's own ladder or an **RG-insensitive** target | B915 (the desert) |
+| **R2** | the boundary-to-measurement **interpolation is derived, not assumed** — either the object's own ladder or an **RG-insensitive** target — **the taxonomy EXISTS: `docs/KIND_TABLE.md` Part 2 (B1020)** | B915 (the desert) |
 | **R3** | the identification routes through the **twist/D₂ (observer) layer**, never the compact chain | B925 (the two-hemisphere doctrine) |
 | **R4** | **the normalisation is fixed before the seal** — **DISCHARGED 2026-08-10 (B1012):** the three-entry closure (Brown–Henneaux · the gravitational CS level · S2's Einstein–Hilbert action) verified exactly; **c = 6σ forced**; the surviving level is the **unquantized** one. A magnitude claim now cites B1012 rather than owing X25/X21 | B929 (5–9×) |
-| **R5** | **kind-correctness licensed in advance**: the kind table admits the (object form, SM target) pair | B856's JUNO refutation ON KIND |
+| **R5** | **kind-correctness licensed in advance**: the kind table admits the (object form, SM target) pair — **the table EXISTS: `docs/KIND_TABLE.md` (B1020)** | B856's JUNO refutation ON KIND |
 | **R6** | the **precision budget** is stated: what the comparison can exclude at available digits, via N ≈ 1.43·d·log₁₀(H) | B798; B1006 (nulls below power exclude nothing) |
 | **R7** | **every designer freedom priced** in a look-elsewhere ledger, orientation choices included | B929's ledger (it worked) |
 | **R8** | an **honest declared prior**, written before compute | B925's discipline (it held) |
@@ -50,9 +50,8 @@ R2, R3, R4, R10, R11 all point at computations already registered:
 
 1. **L150 — the tone↔Hermitian junction** (decides R10; most likely single source of the candidate)
 2. ~~X25/X21 — the CS/grav normalisation~~ **DONE — R4 discharged (B1012)**
-3. **the kind table** — every SM dimensionless target's kind × every object form's kind (R5)
-4. **the RG-sensitivity taxonomy of the 19 parameters** — ratios/angles/θ topological vs running-hard
-   (R2; sin²θ_W's running is what killed B915)
+3. ~~the kind table~~ **DONE — B1020 (`docs/KIND_TABLE.md`)**
+4. ~~the RG-sensitivity taxonomy~~ **DONE — B1020 (Part 2 of the same ledger)**
 5. **L149 — the cascade on the silver** (decides whether any structure-level match can confirm at all)
 6. **S4-typing of B1000's five closings** (𝔽₂ / ℝ₊ / Lie — which interface numbers exist; cc3's
    proposal, triaged in B1009)

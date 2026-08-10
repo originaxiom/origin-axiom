@@ -1,0 +1,21 @@
+{
+ "id": "B1020",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE TWO ADMISSIBILITY LEDGERS -- what a crossing MAY compare, settled before any value is looked at: docs/KIND_TABLE.md (living), Part 1 the KIND TABLE (R5's table), Part 2 the RG TAXONOMY (R2's). Every object-side row traced to its banked arc before banking (B1011 tone/mirror/phase sets in Q(sqrt5)/Q(omega); B856 |h|^2 set and the exact JUNO exclusion; B936/B928 det-ratios and K-norm re-verified in B1016; B923 carriers; B303 CS = 0); every SM-side kind and RG ranking a CLASSICAL INPUT, cited not derived. THE COROLLARY, now binding via R5/R2: the COUPLING CHANNEL to the MIXING SECTOR (moduli, sin^2 thetas, phases) is the ONLY fully open admissible lane -- kind-admissible, anchor-free, RG-quiet -- with B856's single exclusion (theta_12 vs |h|^2 at -2.3 sigma) as row 1 of its look-elsewhere ledger; the PAIR channel to mass ratios is kind-admissible but CLOSED by B936's frame-relativity until a frame-invariant residue is banked (B1016: the coupling's Re h is not it); object theta to theta_QCD is kind-admissible but FUNCTOR-GATED (B1009/B813, B709 fenced in this batch); ALL OTHER PAIRINGS ARE KIND-INADMISSIBLE and a prereg proposing one does not seal. THE CONVERGENCE: R5 and R2, run independently, select the SAME lane -- the fourth crossing's candidate class is derived twice over, not chosen. SCOPE: admissibility is necessary never sufficient (B856's worked example was kind-correct and still excluded); the tables bind proposals, not outcomes; no measured value contacted; zero anchors; Gate 5 untouched.",
+ "depends_on": [
+  "B1011",
+  "B856",
+  "B936",
+  "B928",
+  "B1016",
+  "B923",
+  "B303",
+  "B915",
+  "B1009",
+  "B813"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10)"
+}
