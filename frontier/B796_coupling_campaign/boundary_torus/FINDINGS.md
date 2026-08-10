@@ -135,3 +135,64 @@ it is unrun. If they coincide, the programme has one ℤ/2 reached from two
 directions — geometry and arithmetic — rather than two coincidental ones.
 
 Reproduce: `python3 class_group_onset.py` (asserts the onset is 4).
+
+---
+
+# THE TWO ℤ/2s ARE ONE — and the mechanism is elementary, which is worth saying
+
+Computed 2026-08-10, answering the question the previous section made well-posed.
+
+## The answer: the same group, not merely isomorphic
+
+Working explicitly in ℤ[ω]/4 — 16 elements, no formula quoted, no table
+consulted:
+
+```
+   |ℤ[ω]/4|            = 16
+   |(ℤ[ω]/4)*|         = 12          (2 is inert in ℚ(√−3))
+   image of O_K* = ⟨ω, −1⟩  : order 6   (all six global units stay distinct mod 4)
+   image of (ℤ/4)* = ⟨3⟩    : order 2 = {1, −1}
+
+   RAY   Cl₄(K)  = 12/6 = 2
+   RING  Cl(O₄)  = 12/6 = 2
+```
+
+And the cosets are **identical**, asserted in the script — not two isomorphic
+groups but one group. The reason is one line:
+
+> **(ℤ/4)\* = {±1} is already inside the global units of ℤ[ω]**, so
+> `⟨O_K*, (ℤ/4)*⟩ = O_K*` and the two quotients are the same quotient.
+
+**So the ℤ/2 the boundary geometry produces and the ℤ/2 L113 found from the
+BC/CMR side are ONE ℤ/2, reached from two directions.**
+
+## The control: is that special to 4? No.
+
+The coincidence holds exactly when `(ℤ/f)* ⊆ O_K*`, i.e. when `φ(f) ≤ 2`:
+
+| f | 2 | 3 | **4** | 5 | 6 | 7 | 8 | 9 |
+|---|---|---|---|---|---|---|---|---|
+| ring = ray | ✓ | ✓ | **✓** | ✗ | ✓ | ✗ | ✗ | ✗ |
+| ray class | 1 | 1 | **2** | 4 | 3 | 6 | 8 | 9 |
+
+**It also holds at f = 2, 3, 6.** So the identification is *not* a special
+property of the object's conductor — it is a consequence of ℚ(√−3) having six
+units, and it would hold at any f with φ(f) ≤ 2.
+
+## What this is and is not worth
+
+**Worth:** a genuine consolidation. Two threads of the programme — the boundary
+geometry (this branch) and the BC/CMR arithmetic (L113) — were carrying what
+looked like two ℤ/2s. They are one. That removes a duplicate from the ledger and
+connects the cusp directly to the thread L113 was opened for. It also means
+**conductor 4 is the smallest conductor at which this shared group is
+nontrivial**, since f = 2 and 3 give the trivial group.
+
+**Not worth:** any claim of depth. The mechanism is `φ(4) = 2`. This arc says so
+explicitly rather than letting a two-directions-one-object result read as more
+than it is. The programme's own error ledger has a name for the opposite habit.
+
+**Net:** L113's ℤ/2 and the cusp's ℤ/2 should be merged into one register entry,
+and the merge is free.
+
+Reproduce: `python3 two_z2s.py` (asserts identical cosets, not just equal order).
