@@ -164,3 +164,38 @@ count likely drops to four — **not for the reason I first gave, and not on the
 slot I was defending.**
 
 **Registered before compute. cc or chat1 runs it; not cc3.**
+
+---
+
+# FINAL — the homomorphism premise, type-checked (chat-2's flag, 2026-08-11)
+
+chat-2 flagged *"homomorphism **on the torsor**"* as a possible type slip: a
+torsor has no canonical identity (B701/B782), and a homomorphism needs a group.
+
+**It resolves in favour of the reduction.** B782's *"conjugation, reversal,
+golden branch"* are generators of the **(ℤ/2)³ ACTING GROUP**, not elements of
+the 8-closing torsor — a torsor has no generators, so the phrase was loose, not
+wrong. And B936's **H¹ is a cohomology GROUP** with a canonical identity (the
+16-element `Z¹` is the torsor-with-basepoint; the 4 classes are not). So the map
+is **group → group**, homomorphy is well-typed, **and the one-bit reduction
+stands.**
+
+**Verdict should say `acting group`, not `torsor`** — one line, before compute.
+chat-2's reason is the right one: *"the wrong word here is how a smuggled
+basepoint enters."*
+
+## But the flag surfaces something else, and it is in cc3's sealed C4
+
+| | basepoint |
+|---|---|
+| **B782** | **NONE — that is the theorem** (no equivariant section) |
+| **B936** | **H+, supplied** (*"a simply transitive torsor with base point H+"*) |
+
+**A group-level surjection (ℤ/2)³ ↠ H¹ is well-typed. Whether it settles that
+the two DEFICITS coincide is a further question** — B782's deficit is
+non-sectionability, B936's is a cohomology group with an identity. **C-i's
+naturality test is the right instrument for that gap and may be doing more work
+than it appears to.**
+
+**Flagged, not asserted.** cc3 does not know whether the asymmetry blocks a SAME
+verdict, and is not guessing at the end of a day with seven pointing errors.
