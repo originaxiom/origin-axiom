@@ -99,3 +99,4 @@ BANKED — that would be marking its own homework.
 | `CC3_TO_CC_2026-08-10_HEDGE_ADJUDICATION.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_CONTENT_LEDGER.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_CAMPAIGN_VERDICT.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-10_PREDICTION_REGISTER.md` | OPEN | _(disposition owed)_ |
