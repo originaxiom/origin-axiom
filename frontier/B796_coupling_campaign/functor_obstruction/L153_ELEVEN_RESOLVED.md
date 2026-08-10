@@ -69,3 +69,64 @@ unlike 11) but **consistency is not membership.**
 
 **Nothing is excluded and nothing is established pre-compute** — but the c-side
 is now two checks rather than an open computation, and the second is trivial.
+
+
+---
+
+# ⚠ MECHANISM CORRECTED 2026-08-11 — cc3's fifth error, and the one it was most sure of
+
+**chat1 reconstructed from `assembly.py` and the mechanism above is WRONG.**
+The conclusion survives; the reason does not.
+
+## What the code says
+
+```
+def inner_gmap(signs):
+    out = [(i, 1) for i in range(6)]          # Cartan fixed POINTWISE
+    for r in ROOTS: out.append((6+IDX[r], ch(r)))   # each root scaled by chi(r)
+```
+`g_sc = inner_gmap(CHI_C)` · `g_schim = inner_gmap(CHI_M)` — **both INNER, i.e.
+torus elements by construction.** The φ's are `outer_gmap`. So *"the outer
+all-flip member IS φ⁺ ∘ σ_c"* is a statement about **`g_phall`**, with σ_c as an
+inner **FACTOR**. **σ_c is never a composite.**
+
+## The ELEVEN is the ± sign, not a τ-twist
+
+`σ_χ− = inner_gmap(CHI_M)` **IS a torus element**: `b = (1,0,1,0,1,1)`,
+**16 flips**, class **(0,0) — trivial**.
+
+**`27 − 16 = 11.`**
+
+B939 writes `D2 = ±ρ₂₇(σ_χ−)`. **The minus does the work.** The spectrum of
+±(torus element) is `{0,12,16} ∪ {27,15,11}`, and **11 occurs exactly once, as
+−(16)**. `−I` itself needs 27 flips and 27 ∉ the spectrum, so **±(torus) escapes
+T[2] precisely when the minus is taken.**
+
+## What cc3 got wrong, and it is the fifth instance of one shape
+
+cc3 wrote that D2 escapes because *"σ_χ− is a conjugation, τ-twisted"*, citing
+B939's *"second wall conjugation"* and *"τ-twisted dual intertwiner"*. **The
+τ-twisted phrase describes the solo M, a different object.** cc3 read prose and
+attached it to the wrong operand — **the same shape as the other four, and the
+one cc3 was most confident about**, having called it *"the load-bearing find"*
+and told chat-2 to bank it as *"a find, not a flaw."*
+
+**The find is still real** — the shadow map's image does escape T[2]. **But the
+mechanism is cheaper and REVERSIBLE: strip the sign and you are back inside T[2]
+with a computable class.** The counterexample stands; the moral is smaller.
+
+## And cc3's narrowing was unnecessary
+
+cc3 narrowed its own refutation of chat1's c-exclusion, conceding chat1 was
+*"partly right for the right reason."* **It was not.** `σ_c` is inner **by
+definition in the code**, so membership was never an inference from a sign
+pattern and *"27-visible ≠ in T[2]"*, though true in general, **never applied
+here.** chat1 has declined the partial credit; **cc3's original refutation stands
+unnarrowed.**
+
+## THE c-SIDE IS CLOSED
+
+> **σ_c → b = (0,0,0,1,0,0) = e₄, the TRIVALENT node. 12 flips. τ-fixed.
+> H¹ class (0,1) — NONZERO.**
+
+**Only reversal's shadow remains, and it alone decides SAME versus not.**
