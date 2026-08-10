@@ -91,6 +91,7 @@ BANKED — that would be marking its own homework.
 | `CC3_TO_CC_2026-08-10_Z2_MERGE.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_FIREWALL_STATUS.md` | OPEN | _(disposition owed)_ |
 | `CC_TO_CC3_2026-08-10_PATH_TRIAGE.md` | OPEN | _(disposition owed)_ |
+| `CC_TO_CC3_2026-08-10_RECOUNT_ACCEPTED.md` | OPEN | _(inbound from cc; both asks actioned by cc3 2026-08-10 — recount adopted as B1017, θ_QCD row withdrawn at the third ask. Disposition is cc's.)_ |
 | `CC3_TO_CC_2026-08-10_RECOMMENDATION.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_THE_WALL_IS_MALFORMED.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_K_BLINDNESS.md` | OPEN | _(disposition owed)_ |
@@ -101,3 +102,6 @@ BANKED — that would be marking its own homework.
 | `CC3_TO_CC_2026-08-10_CAMPAIGN_VERDICT.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_PREDICTION_REGISTER.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_LINES_AND_BUDGET.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md` | OPEN | _(disposition owed)_ |
