@@ -200,7 +200,8 @@ rows are one object.
 
 ## 6. THE BAND'S UNIFYING FINDING — `P` is one object wearing six names
 
-**This is the strongest thing in the band, and the record states it nowhere in one place.**
+**This is the strongest thing in the band. Two registers carry fragments of it (see the
+corrected diff below); no register carries the chain, and none reaches its first link.**
 
 Reading B14 → B16 → B18 → B51 → B54 → B62 → B64 → B74 in order, the same involution appears
 under six different names, each introduced independently:
@@ -215,12 +216,43 @@ under six different names, each introduced independently:
 | 6 | **the contragredient / Dickson parity** | B64 | `P` sends `m → −m`; `L_k(−m) = (−1)^k L_k(m)`, hence even-\|k\| symmetric / odd-\|k\| antisymmetric |
 | (7) | **W_N charge conjugation** | B74 | *"the W_N charge-conjugation grading … and the Dickson P-grading **ARE THE SAME involution** — −w₀"* |
 
-**Verified absence.** `docs/LAW_MAP.md` and `docs/THE_FRAMEWORK.md` contain **zero**
-occurrences of "opposition", "exchange symmetry", "record swap", or "half-step".
-`knowledge/K005` explains `θ = −w₀` as standard Lie theory and **never connects it to the
-record swap**; `CLAIMS.md` P33 states the height lemma without the identification. So the
-identification exists **only inside B62's body** — precisely the surface
-`COMPUTE_THE_PROGRAM.md` P3 step 5 says gets missed.
+### What the record DOES carry — corrected 2026-08-10, same session
+
+**A first draft of this row claimed the chain is "stated nowhere in one place." That was an
+over-reach and is withdrawn.** Two registers carry part of it, and the honest diff is
+narrower and more interesting:
+
+| register | what it carries | what it does **not** |
+|---|---|---|
+| `docs/THEOREM_LEDGER.md` **C12** | *"The trace map is **θ-equivariant**; at the fixed line the Jacobian splits exactly into sum/difference sectors with spectra split by golden-power parity"* — cites **B48/B54/B64** | does **not** cite B62; does **not** say θ **is** the opposition involution; does **not** reach B16 |
+| `knowledge/K005` | the opposition involution `θ = −w₀` as standard Lie theory, **anchored to B62, B74, B112, B118, B121** | does **not** connect it to the record swap `P`, the half-step, or the substrate |
+| `CLAIMS.md` **P33** | the height lemma `(⌈(n−h)/2⌉, ⌊(n−h)/2⌋)` | states the combinatorics without the identification |
+
+**So the surviving, verified absences are three, and they are the load-bearing ones:**
+
+1. **Nothing anywhere equates the substrate record swap `P` with `θ`/the opposition
+   involution.** Grep for "opposition" in `THEOREM_LEDGER.md`, `LAW_MAP.md`,
+   `THE_FRAMEWORK.md` returns **zero**. The identification lives only in B62's body.
+2. **Nothing carries B16's axiom status forward.** No register records that the involution
+   organizing the tower is an axiom outside A1–A6.
+3. **`LAW_MAP.md` and `THE_FRAMEWORK.md` have no row for any of it** — zero occurrences of
+   "opposition", "exchange symmetry", "record swap", or "half-step".
+
+### A fourth terminology collision — `θ` names at least three things (B1013-class)
+
+Registered here because the corpus's own rule (B1013: *"two conductors"*, *"two levels"*)
+requires it, and because this collision is what let the chain fragment:
+
+| `θ` as | defined where | the object |
+|---|---|---|
+| **the fold** | `TERMINOLOGY.md`: *"The order-2 outer automorphism (diagram fold) of **E₆**"* | an automorphism of e₆; `f₄` is the fixed subalgebra |
+| **the opposition involution** | K005 / B62: `θ = −w₀` on `A_{n−1}` | a root-system involution of `sl(n)` |
+| **reversal / the contragredient** | THE CHAIN C20/C21: *"the θ-involution (the 27↔27̄ contragredient `g↦g⁻¹`)"*, one of the three torsor generators | an operation on representations, distinguished in C20 from `ι` (inversion) |
+
+They are *related* — for `A_n` and `E₆` the opposition involution **is** the diagram
+automorphism — but they live in different theories and are introduced independently, and
+**no arc states the identification as such.** Any sentence using bare `θ` must say which.
+This is the same defect shape B1013 registered for "conductor" and "level".
 
 **Why this matters beyond bookkeeping.** The chain means the object's *substrate* symmetry and
 the *root-system* symmetry that organizes the entire SL(n) tower are the same map. That is a
