@@ -169,3 +169,82 @@ SO(8)×U(1) for a reason recorded elsewhere, and I did not find such a reason in
 its FINDINGS. **The claim is that the menu does not list it and the arc does not
 say why**, which under B861's own framing is exactly the silent break it warned
 about.
+
+---
+
+# WITHDRAWN — the step-2 omission is IMMATERIAL. My claim was wrong, and the error was mine.
+
+The owner asked to sweep before running the chirality computation, in case P5
+was being misformulated. **It was.** The check took minutes and the claim above
+would have been a serious false alarm against B861.
+
+## My error, exactly
+
+I ranked the step-2 candidates **by dimension** and concluded SO(8)×U(1) at 29
+displaces SU(5)×U(1) at 25. But B861's rule is not "maximal dimension". It is:
+
+> **"Maximal residual symmetry among REGISTERABLE options"**
+
+**Registerability is a filter applied FIRST; the ranking only orders what
+survives it.** I compared dimensions across the filter instead of within it.
+
+## And SO(8)×U(1) fails the filter
+
+B860's criterion, as B861 states it: the generation *"remains chiral as a
+multiset **after the θ-odd abelian factors are stripped**."* Applying it:
+
+| candidate | 16 → | after stripping U(1) | verdict |
+|---|---|---|---|
+| **SU(5)×U(1)** | 10(+1) + 5̄(−3) + 1(+5) | {**10**, **5̄**, 1} — two complex | **chiral ✓** |
+| **SO(8)×U(1)** | 8_s(+1) + 8_c(−1) | {8_s, 8_c} — **both real** | **vector-like ✗** |
+| Pati–Salam | (4,2,1) + (4̄,1,2) | both complex | chiral ✓ |
+
+**SO(8)'s three 8-dimensional representations are all self-conjugate.** So once
+the abelian factor is stripped, SO(8)×U(1)'s generation is vector-like and it is
+**not registerable** — the identical failure mode B861 already records twice:
+Sp(8) at step 1 (*"the 27 restricts to the traceless Λ²(8) of C₄, self-dual — no
+chiral matter at all"*) and SU(4)×U(1) at step 3 (*"whose generation collapses to
+vector-like — B860"*).
+
+**The omission cannot change the winner.** It would have been filtered before
+ranking.
+
+## Corrected verdict — P5 is discharged at all three steps
+
+| step | menu | omissions | verdict |
+|---|---|---|---|
+| 1 | incomplete (3 absent) | all strictly **smaller** than the winner | **discharged** |
+| 2 | incomplete (1 larger, 2 smaller) | the larger one **fails registerability** | **discharged** |
+| 3 | **complete** | — | **discharged** |
+
+> **P5 — menu completeness, the cascade's single external dependency — is
+> discharged across the whole chain.** Not by proving the menus complete (two of
+> three are not), but by proving every omission immaterial: smaller than the
+> winner, or filtered out before ranking.
+
+Together with the confluence result retiring the ranking rule, **the cascade's
+imports are now discharged.** Content-ledger rows 1, 3 and 11 lose their
+`GIVEN-P5` qualifier at the level of the enumeration.
+
+## What remains, honestly
+
+- **Regular subalgebras only.** The enumeration covers centralizer-type
+  (Levi/Borel–de Siebenthal) walls. B932's T2 argues that is exhaustive for this
+  construction; I cite it, I did not re-prove it. B861's menu contains Sp(8), an
+  S-subalgebra, so the menu was never purely centralizer-derived.
+- **A documentation gap survives.** B861's menu does not list SO(8)×U(1) and does
+  not say why. It is correctly excluded — but by a filter the arc applies
+  elsewhere and does not apply here on the page. **One line would close it**, and
+  the arc should carry it, because the next person to enumerate will find the
+  same gap and may not check the filter before publishing, as I did not.
+
+## The process point, which is the durable part
+
+**I found a real gap and drew a wrong conclusion from it in the same breath.**
+The gap (menu incompleteness) is genuine and worth recording. The conclusion
+(material, breaks uniqueness) was wrong because I applied the programme's rule
+without its first clause.
+
+**The owner's instruction to sweep before computing is what caught it.** Had I
+gone straight to the chirality computation as I proposed, I would have computed
+the right thing for the wrong reason and reported a break that does not exist.
