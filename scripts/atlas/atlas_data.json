@@ -354,6 +354,8 @@
     "B277",
     "B303",
     "B559",
+    "B644",
+    "B650",
     "B712",
     "B721",
     "B725",
@@ -364,9 +366,12 @@
     "B784",
     "B798",
     "B801",
+    "B811",
+    "B813",
     "B850",
     "B922",
     "B925",
+    "B936",
     "B993",
     "B995",
     "B996",
@@ -693,6 +698,29 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1023": {
+   "slug": "phase2 concessions",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [
+    "B254",
+    "B644",
+    "B650",
+    "B782",
+    "B811",
+    "B813",
+    "B915",
+    "B936",
+    "L153",
+    "L154",
+    "L91"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B102": {
    "slug": "hitchin continuation",

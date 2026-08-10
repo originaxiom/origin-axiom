@@ -1,5 +1,31 @@
 # Changelog
 
+## B1023 (2026-08-10) — Phase 2's concessions, twice corrected in-flight: two defects fixed, then two blockers on the fix, conceded pre-bank
+
+**Round 1 — the audit seat's C1 and C4, conceded and fixed at the source.** **C1:** B1009's
+refusal cited the wrong authorities — Gate 5 is a *publication policy*, and **L91's typed functor
+is the INTERNAL classical→stage arrow, DISCHARGED (B650/B644)**. The refusal stands on its real
+ground (B811 · B813 · the weight ledger · B936 · B782); **WORKING_RULES rule 6 is re-anchored**.
+*Two functors, not one — the internal exists; the external is the question.* **C4:** R11 licensed
+a **continuous** anchor on theorems proving a **discrete** deficit — the pin introduced
+(frame-selectors vs calibration constants), **the sealed B1015 DECLARATION untouched** (its
+corrections live in a dated addendum beside it; the pattern is locked).
+
+**Round 2, same day, pre-bank — two blockers ON THE PIN, both conceded (v2).** **(1)** T1's
+identification was unverified: B782's torsor bits vs B936's τ-node-indexed classes — different
+indexings, **no identifying arc**; the discrete deficit is **2 ≤ d ≤ 4 until L153**. **(2)** T2's
+license (*"B1012 proves the object cannot fix σ"*) is **withdrawn**: B1012 proves **k**-blindness
+only, its own formula gives **∂S/∂σ = −Vol ≠ 0 (sighted)**, and **σ = 1 is a candidate FORCED
+value** — c((E₆)₁) = 78/13 = **6** = B254's banked split, with c = 6σ. **L154 carries the
+stakes: if the two σ's are one, c = 6 is DERIVED and the input list SHRINKS by its only
+continuous dimensionless member.** Blocker 2 is **the run's first two-seat finding** (the
+construction seat's derivation × the audit seat's re-verification × this seat's text); round 2
+is not scored, per the audit seat's own ruling.
+
+**Sustained throughout:** the structure-sector counter to "no unanchored functor exists" —
+B862/B864/B992 run a load-bearing functor on **zero anchors of either type** — and the open lane
+(coupling → mixing) consumes neither type under every branch of L153/L154.
+
 ## B1020–B1022 (2026-08-10) — the admissibility ledgers, the parent's receipt, and Phase 1 published
 
 **B1020 — `docs/KIND_TABLE.md`:** the kind table (R5) + the RG taxonomy (R2), every object-side

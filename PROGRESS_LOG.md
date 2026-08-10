@@ -10122,3 +10122,16 @@ chain verified, spot-checks reproduced — **the value wall's null stands on two
 eigenvalues.** **B1022:** Phase 1 (corpus lane) published hash-verified — per-sector verdicts,
 twelve claims, nothing upgraded pre-Phase-2. B709 fenced; L152 registered; θ receipt and register
 adjudication HELD pending cc3's push and the seal's location.
+
+---
+
+## B1023 (2026-08-10) — Phase 2's concessions, twice corrected in-flight
+
+**Round 1:** B1009's authorities corrected (Gate 5 = policy; L91's functor = internal,
+discharged) — **the constitution re-anchored** to the real obstruction set; R11's
+discrete-vs-continuous conflation pinned. **Round 2, pre-bank:** the pin itself took two audit
+blockers, conceded — the frame-bits identification is **unverified (L153; deficit 2–4)**, and
+the σ license is **withdrawn**: the object is **sighted in σ** (∂S/∂σ = −Vol) and **σ = 1 is
+candidate-forced** (c((E₆)₁) = 6 = B254's split) — **L154: if same-σ, c = 6 is DERIVED and the
+input list shrinks.** The run's first two-seat finding. Sealed files untouched throughout;
+the open lane consumes neither anchor type on every branch.

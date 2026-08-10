@@ -60,6 +60,17 @@ set"*. No `arc_verdict.json` carries the claim.
 derivation with the functor step explicit, or withdrawal. *(A CP-adjacent result does exist and is
 narrower: B303's sign = sign(CS). That is not θ_QCD = 0 parameter-free.)*
 
+## SECOND ADDENDUM (2026-08-10, B1023) — the refusal's AUTHORITIES corrected (cc3's Phase-1 C1, verified and conceded)
+
+This arc's functor-gate diagnosis wrote *"the typed functor is exactly what Gate 5 / L91 say does
+not exist."* **Both citations were wrong, verified on main:** Gate 5 is a **publication policy**
+(a rule against recording is not a proof of nonexistence), and **L91's typed functor —
+obligation (4) — is the INTERNAL classical→stage arrow, recorded DISCHARGED (B650 types + B644
+group functor).** **The refusal itself STANDS**, on the authorities that actually carry it:
+**B811** (the kind wall), **B813** (the type refutation), **the weight ledger**, **B936**
+(frame-relativity), **B782** (no equivariant section) — the per-sector map is B1022's. The
+constitutional clause is re-anchored in the same batch (WORKING_RULES rule 6).
+
 ## ADDENDUM (2026-08-10) — the full relay triage, made repo-resident
 
 The rest of cc3's two relays was verified the same day, so the findings live here and not only in

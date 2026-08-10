@@ -67,8 +67,14 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
    controls, input identification, stability analysis, no consciousness claims,
    any-domain empirical constants = value-claims. Checked at prereg seal and merge.
 6. **Gate 5 stands.** No SM quantities into `CLAIMS.md`; no recycling
-   structured-null numbers under new labels; physics readings wait on the
-   typed functor (L91). Value comparisons need: owner directive + sealed
+   structured-null numbers under new labels; physics readings wait on a typed
+   object→SM functor — **an arrow the record obstructs sector-by-sector**
+   (B811 kind wall · B813 type refutation · the weight ledger · B936
+   frame-relativity · B782 no-section; the per-sector map is B1022's).
+   *(Re-anchored 2026-08-10, B1023: the clause formerly cited L91, whose own
+   typed functor — obligation (4) — is the INTERNAL classical→stage arrow and
+   is DISCHARGED (B650/B644); citing it here conflated two functors, a defect
+   found by the audit seat's Phase 1.)* Value comparisons need: owner directive + sealed
    design + MB12 + MB13-in-doc + pipeline controls + the
    INPUT_COMPLETENESS_LEDGER row.
 7. **Locks assert mathematics.** A test asserts the mathematical fact (or

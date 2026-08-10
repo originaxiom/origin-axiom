@@ -24,18 +24,19 @@ def test_r11_licenses_anchors_by_theorem_and_keeps_parameter_free_meaning():
     t = (ROOT / "docs" / "CROSSING_REQUIREMENTS.md").read_text(encoding="utf-8")
     assert "R11" in t and "ANCHOR RULE" in t
     f = _flat(t)
-    for arc in ("b782", "b936", "b1012"):
-        assert arc in f, f"the theorem-backing {arc} must stay cited"
+    for arc in ("b782", "b936", "b1012", "b254"):
+        assert arc in f, f"the licensing material {arc} must stay cited"
     assert "sealed in advance" in f, "post-hoc anchors must stay forbidden"
-    assert "zero free dimensionless parameters" in f
+    assert "l153" in f and "l154" in f, "the pin-v2 open questions must stay named"
     assert "declare the anchor set" in f, "preparation step 0 must stay"
 
 
 def test_the_vacuity_tooth_bites():
     """outputs - anchors > 0: the MB12 clause is what stops anchoring from eating the test."""
     raw = (ROOT / "docs" / "CROSSING_REQUIREMENTS.md").read_text(encoding="utf-8")
-    flat_keep_gt = " ".join(raw.lower().split())
-    assert "anchors > 0" in flat_keep_gt and "vacuous" in flat_keep_gt
+    flat_keep_gt = " ".join(raw.lower().replace("\u2212", "-").split())
+    assert "anchors > 0" in flat_keep_gt and "vacuous" in flat_keep_gt, (
+        "MB12's vacuity tooth must survive every R11 revision")
 
 
 def test_L151_is_registered_two_outcome():

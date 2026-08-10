@@ -1506,3 +1506,30 @@ catches contradictions-by-citation); (b) a **delivered-list rule** (any relay ta
 **Two-outcome on the design cell:** either (a)/(b) catch the θ instance retroactively when run on
 the archived relay (then build), or they do not (then the gap is genuinely judgement-shaped and
 the mitigation is the receipt discipline, recorded as such).
+
+---
+
+## L153 — ARE B782's TORSOR BITS AND B936's FRAME CLASSES THE SAME BITS? (registered 2026-08-10; cc3's Blocker 1; cc's lane)
+
+**The gap:** the pin's T1 identified the frame-theorems' discrete deficit with the input list's
+two 𝔽₂ bits. **B782's bits are the observer torsor** (conjugation, reversal, golden branch);
+**B936's (ℤ/2)² is indexed by E₆'s two τ-fixed Dynkin nodes** ({1,3} — verified by cc3 from
+Dynkin data). Same cardinality, different indexing, **no identifying arc**. **The cell:** compute
+the action of conjugation and reversal on the 16 Hermitian structures (B936's artifacts + the
+B961 frame instrument) and decide: the torsor generates the H¹ classes (SAME — deficit 2), or
+not (INDEPENDENT — deficit 4, and the input list undercounts by two bits). Two-outcome, cheap,
+computable.
+
+## L154 — IS THE GRAVITATIONAL σ THE STAGE's σ? (registered 2026-08-10; the audit seat's Blocker 2 + the construction seat's derivation; JOINT — the run's first two-seat finding)
+
+**The tension, exact:** c((E₆)₁) = 78/13 = **6** = B254's banked conformal-embedding split
+(16/5 + 14/5), and the B1012 closure forces **c = 6σ** — so **if the stage CFT's c is the
+boundary c of the gravitational dictionary, σ = 1 is OBJECT-FORCED**, contradicting the anchor
+declaration's "the object cannot set σ" (already withdrawn in B1015's addendum v2). And B1012's
+own formula shows the object **sighted** in σ (∂S/∂σ = −Vol). **The cell:** establish or refute
+the identification of the two σ's (the c-route's own question — the branch's "closes at one end,
+opens at the other"). **Stakes, stated plainly: if SAME, c = 6 is DERIVED, and the framework's
+only continuous dimensionless input converts from anchor to OUTPUT — the input list shrinks.** If
+DIFFERENT, the corpus gains its third named terminology collision (two σ's, after two conductors
+and two levels) and the anchor stands. **Either outcome is a result.** Kind/type gates apply to
+any downstream use.
