@@ -1,5 +1,8 @@
 """Lock for B458 — Ethogram E5: the fig-8 per-component complex volumes are zero
 (except the geometric Sym^2 pair at exactly 4x the SL(2) volume)."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import os
 import sys
 
@@ -10,7 +13,7 @@ HERE = os.path.join(os.path.dirname(__file__), "..", "frontier", "B458_ethogram_
 
 
 def test_fig8_component_complex_volumes():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     from snappy.ptolemy.coordinates import PtolemyCoordinates
     M = snappy.Manifold('m004')
     V = M.ptolemy_variety(3, obstruction_class=0)

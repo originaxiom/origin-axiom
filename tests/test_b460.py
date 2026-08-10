@@ -1,4 +1,7 @@
 """Lock for B460 — R1: the child's spectrum head + the two-gate-validated CS method."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import os
 import sys
 
@@ -7,7 +10,7 @@ sys.path.insert(0, HERE)
 
 
 def test_child_shortest_geodesic():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     M = snappy.ManifoldHP("4_1(5,1)")
     L = M.length_spectrum(0.7)
     l0 = complex(L[0].length)
@@ -16,7 +19,7 @@ def test_child_shortest_geodesic():
 
 
 def test_geometric_cs_gates():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     for p, want in [(5, 0.0770381803), (7, 0.0606168663)]:
         M = snappy.Manifold('4_1')
         _ = M.chern_simons()

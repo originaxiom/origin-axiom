@@ -1,6 +1,11 @@
 """Locks for B440 (C3 foreign control) -- CORRECTED after adversarial review.
 The golden factor is REDUCIBLE (abelian Z/5 chars, universal); 4_1 and 5_2 both have 4
 irreducible vacua in the same -283 field. The 'golden inversion' was retracted as an artifact."""
+import pytest
+
+# SnapPy is OPTIONAL (`REPRODUCIBILITY.md`); the frontier module loaded below imports it.
+pytest.importorskip("snappy", reason="B440 frontier module imports snappy")
+
 import os, sys
 HERE = os.path.join(os.path.dirname(__file__), "..", "frontier", "B440_foreign_vacuum_control")
 sys.path.insert(0, HERE)

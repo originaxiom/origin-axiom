@@ -1,4 +1,7 @@
 """B470 — locks: the RF0 gate, the tower word laws, and P-QB at p = 61."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import os
 import sys
 from itertools import product
@@ -60,7 +63,7 @@ def test_pqb_exact_p61():
 
 
 def test_rf0_gate_fig8():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     M = snappy.Manifold("b++RL")
     assert abs(float(M.volume()) - 2.029883213) < 1e-8
     assert abs(float(M.chern_simons())) < 1e-10

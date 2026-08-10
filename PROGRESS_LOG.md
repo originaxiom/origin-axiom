@@ -10234,3 +10234,42 @@ Gate 5 untouched; nothing to `CLAIMS.md`.
 **Also this session:** `docs/THE_SM_VERDICT.md` given the currency read `doc-currency` flagged —
 verdict **unchanged**, with the reason recorded (B1026 is a *substrate*-level statement, a third
 register upstream of the class/member question that document's open door names).
+
+---
+
+## B1025 ADDENDUM (2026-08-10) — the full run measured twice, and the FAIL-instead-of-SKIP class
+
+**The suite has now been run end to end, which the arc above could not do.**
+Before the repair (`--continue-on-collection-errors`): `28 failed, 3738 passed, 93 skipped,
+3 errors` (73 min). After: `28 failed, 3744 passed, 96 skipped`, **0 errors** (84 min).
+
+**The abort is fixed; the failure count did not move, and the reason is the same contract one
+level down.** 24 of the 28 failures were **missing dependencies, not mathematics** — 23 `snappy`
+in **nine modules importing it inside a test function** (they *collect*, so the first repair
+never touched them, but they **FAIL** where `REPRODUCIBILITY.md` promises green), plus one
+`networkx`. Repaired across those nine, two indirect cases where a *frontier* module does the
+importing, and one ordering fix.
+
+**`networkx` was never declared.** It is imported by at least five frontier scripts (B305, B306,
+B565, B727, …) and appears nowhere in `requirements.txt` — a **real dependency the install
+contract never mentioned**. Added, with the reason inline.
+
+**The lock is extended** to flag a bare optional import *anywhere* unless an `importorskip` for
+that dependency appears earlier in the file. **The first detector was too crude and flagged
+three already-correct modules; they were NOT "repaired"** — the detector was corrected to be
+guard-aware and its positive control re-run. *The arc's own error class in miniature: an
+instrument asserting an absence the source refutes; the fix was to read the source (P3 step 5).*
+
+**Four failures remain, none of them mathematics** — a sealed-transcript comparison
+(`test_b616_heldout`), an archive-vs-manifest check (`test_b646_wave2`), one nested-traceback
+assertion (`test_b511_d5`), and `test_b837_file_drawer`, which is **red on `main`'s HEAD**:
+`frontier/B1024_l153_bits/` carries a sealed prereg with no FINDINGS and no verdict, and B1024
+**is** the head commit. **Named as a PROTOCOL TENSION, not a defect:** P5 requires sealing
+*before* compute, so `main` is red by construction between seal and report, with no
+"awaiting-compute" state the lock can recognise and only a hand-edited exemption list for
+relief. **Deliberately not repaired** — exempting B1024 would convert a live obligation into a
+silent one, the exact failure B837/B982 exist to prevent. The honest fix is a governance
+amendment (a declared awaiting-compute state with an expiry), not a test edit.
+
+**Net: 0 collection errors, 3744+ passing, and every remaining failure is either a dependency
+the environment lacks or a governance obligation carried in the open.**

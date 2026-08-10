@@ -5,6 +5,11 @@ sympy>=1.12
 matplotlib>=3.7
 pytest>=7.4
 
+# Graph algorithms used by frontier probes (B305, B306, B565, B727, ...).
+# Added 2026-08-10: it was a REAL dependency that requirements.txt never declared, so a
+# conforming clone failed tests/test_b565_triality.py with ModuleNotFoundError.
+networkx>=3.0
+
 # Optional — required only for live SnapPy cross-checks of claim P9.
 # The verified figure-eight constants are hard-coded and tested without it.
 #   pip install snappy

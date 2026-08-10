@@ -62,6 +62,7 @@ def test_live_crux_manifolds():
 
 def test_modulo_guard():
     """A tiny negative CS (genuinely 0) must register as 2-torsion, not wrap to 1/2."""
+    pytest.importorskip("snappy", reason="B152 probe.py imports snappy")
     import importlib.util
 
     spec = importlib.util.spec_from_file_location("b152_probe", B152 / "probe.py")

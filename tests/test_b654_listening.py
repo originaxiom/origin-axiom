@@ -1,4 +1,7 @@
 """B654 locks — the listening synthesis' exact findings."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import os
 
 import sympy as sp
@@ -21,7 +24,7 @@ def test_q_period_identity():
 def test_q_field_shapes_exact():
     import warnings
     warnings.filterwarnings("ignore")
-    import snappy
+    snappy = pytest.importorskip("snappy")
     import mpmath as mp
     mp.mp.dps = 60
     sh = snappy.Manifold("m136").tetrahedra_shapes(part="rect",

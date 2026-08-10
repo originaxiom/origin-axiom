@@ -1,9 +1,12 @@
 """Locks for B453 — Ethogram E1: the identical child + the Lucas launder."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import sympy as sp
 
 
 def test_identical_child():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     M = snappy.Manifold("4_1(5,1)")
     N = snappy.Manifold("5_2(5,1)")
     assert M.is_isometric_to(N)
@@ -11,7 +14,7 @@ def test_identical_child():
 
 
 def test_z5_cover_homology_and_lucas():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     M = snappy.Manifold("4_1(5,1)")
     covs = M.covers(5)
     assert len(covs) == 1
@@ -26,7 +29,7 @@ def test_z5_cover_homology_and_lucas():
 
 
 def test_no_other_low_index_covers():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     M = snappy.Manifold("4_1(5,1)")
     for k in (2, 3, 4, 6):
         assert len(M.covers(k)) == 0

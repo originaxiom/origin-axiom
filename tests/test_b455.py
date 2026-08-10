@@ -1,4 +1,7 @@
 """Locks for B455 — Ethogram E3: the engine structure + the homeostasis retirement."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import os
 import sys
 
@@ -9,6 +12,7 @@ sys.path.insert(0, HERE)
 
 
 def test_sl2_triple_exact_and_S_conditioned():
+    pytest.importorskip("snappy", reason="frontier integrate.py imports snappy")
     import integrate as I
     assert np.linalg.norm(I.adH @ I.adE - I.adE @ I.adH - 2 * I.adE) == 0.0
     assert np.linalg.norm(I.adE @ I.adF - I.adF @ I.adE - I.adH) == 0.0
@@ -18,8 +22,8 @@ def test_sl2_triple_exact_and_S_conditioned():
 def test_blockwise_engine_correct_low_m():
     """per-block expm reproduces tr Sym^{2m}(holonomy) — the engine is structurally sound."""
     from scipy.linalg import expm, logm
+    snappy = pytest.importorskip("snappy")
     import integrate as I
-    import snappy
     M = snappy.ManifoldHP('4_1')
     G = M.fundamental_group()
     A = G.SL2C('a')

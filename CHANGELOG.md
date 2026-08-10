@@ -1,5 +1,27 @@
 # Changelog
 
+## B1025 ADDENDUM (2026-08-10) — the suite measured end to end; the FAIL-instead-of-SKIP class repaired
+
+**Before** the repair: `28 failed, 3738 passed, 93 skipped, 3 errors` (73 min).
+**After:** `28 failed, 3744 passed, 96 skipped`, **0 errors** (84 min).
+
+24 of the 28 failures were **missing dependencies, not mathematics** — 23 `snappy` in nine
+modules importing it *inside* a test function (these COLLECT, so the first repair never reached
+them, but they **FAIL** where `REPRODUCIBILITY.md` promises green), plus one `networkx`.
+Repaired across all nine, two indirect frontier-module cases, and one ordering fix.
+
+**`networkx` was never declared** — imported by five+ frontier scripts, absent from
+`requirements.txt`. Added with the reason inline.
+
+**Lock extended** to flag a bare optional import anywhere unless guarded earlier in the file.
+The first detector was too crude and flagged three **already-correct** modules; they were **not
+"repaired"** — the detector was corrected and its positive control re-run.
+
+**Four failures remain, none mathematics.** `test_b837_file_drawer` is **red on `main`'s HEAD**
+(B1024 = a sealed prereg with no report, and it *is* the head commit) — named a **protocol
+tension**: P5 seals before compute, so `main` is red by construction between seal and report.
+**Deliberately not exempted**, since that would convert a live obligation into a silent one.
+
 ## B1026 (2026-08-10) — one involution, six names: the substrate record swap IS the sl(n) opposition involution
 
 **CONSOLIDATION REFRESH, band B0–B99.** Reading the base mathematics in order, the same map is

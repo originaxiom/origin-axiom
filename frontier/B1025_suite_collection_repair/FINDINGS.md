@@ -148,3 +148,84 @@ converting an unenforceable bar into a measured one rather than dropping it.
 a conforming clone, repaired in the repo's own idiom, with a failable regression lock; plus one
 further gate defect localized, verified against the ledger's own disclosure, and registered
 rather than silently patched.
+
+---
+
+# ADDENDUM (same day) — the full run, and the FAIL-instead-of-SKIP class the first repair did not reach
+
+**The suite has now been run end to end, twice.** This is the measurement the arc above could
+not make, because before the repair the suite returned nothing.
+
+| run | result |
+|---|---|
+| **before** the repair (`--continue-on-collection-errors`, so the abort did not hide the rest) | `28 failed, 3738 passed, 93 skipped, 3 errors` — 73 min |
+| **after** the repair | `28 failed, 3744 passed, 96 skipped` — **0 errors** — 84 min |
+
+**The collection abort is fixed and stays fixed.** But the failure count did not move, and the
+reason is a second, milder instance of the same contract violation.
+
+## The FAIL-instead-of-SKIP class
+
+Of the 28 failures, **24 were missing dependencies, not mathematics**: 23 `snappy` and one
+`networkx`. The 23 sat in **nine modules that import snappy *inside* a test function**. Those
+modules *collect* fine — so the first repair never touched them — but on a clone without SnapPy
+they **FAIL** where `REPRODUCIBILITY.md` promises the suite stays green. **A failure is not
+green.** The defect is the same contract, one level down.
+
+**Repaired**, in the same idiom, across `test_b453`, `test_b455`, `test_b458`, `test_b460`,
+`test_b467`, `test_b470`, `test_b654_listening`, `test_qp1_self_naming`, plus two indirect
+cases where a *frontier* module does the importing (`test_b152_cs_amphichirality_census`,
+`test_b440_foreign_vacuum_control`) and one ordering fix (`test_b455` loaded
+`frontier/B455_ethogram_e3_response/integrate.py`, which imports snappy at module scope, *before*
+its guard).
+
+## `networkx` was never declared
+
+`tests/test_b565_triality.py` failed with `ModuleNotFoundError: No module named 'networkx'`, and
+**`networkx` appears nowhere in `requirements.txt`** — yet it is imported by at least five
+frontier scripts (B305, B306, B565, B727, …). This is not an optional dependency being reached
+carelessly; it is a **real dependency the install contract never mentioned**. Added to
+`requirements.txt` with the reason recorded inline. With it installed, that module passes.
+
+## The lock, extended — and a false-positive caught before it became a "fix"
+
+`tests/test_b1025_optional_deps.py` gains `any_bare_optional_import`, which flags a bare
+optional import **anywhere** — module scope *or* inside a function — unless an
+`importorskip` for that dependency appears **earlier in the file**.
+
+**The first version of this detector was too crude** and flagged three modules
+(`test_b147_arithmetic_chiral_bundle`, `test_b458`, `test_r28_10_stabilizations`) that are
+**already correct** — each reaches the dependency *after* a guard, or through a `skipif`
+decorator. **They were not "repaired."** The detector was corrected to be guard-aware, and the
+positive control re-run to prove it still fires: a bare in-function import is flagged, a guard
+placed *after* the import is flagged, a guard placed *before* is not.
+
+*Recorded because it is the arc's own error class in miniature: an instrument reporting an
+absence that the source refutes. The fix was to read the source, which is `COMPUTE_THE_PROGRAM`
+P3 step 5.*
+
+## WHAT REMAINS RED — four failures, and none is mathematics
+
+| test | cause | disposition |
+|---|---|---|
+| `test_b837_file_drawer.py` | `new sealed-and-ledgered prereg(s) with no findings report: ['B1024']` | **a PROTOCOL TENSION, not a defect** — see below |
+| `test_b616_heldout.py` | a sealed-transcript comparison assertion | not investigated here |
+| `test_b646_wave2.py` | `[('MISSING', 'proof_queue/…q3_lemmas.log'), …]` — archive vs manifest | not investigated here |
+| `test_b511_d5.py` | an assertion carrying a nested traceback | not investigated here |
+
+**`test_b837_file_drawer` is red on `main`'s HEAD, and it is worth naming precisely.**
+`frontier/B1024_l153_bits/` holds only `PREREGISTRATION.md` and `ARTIFACT_HASHES.txt` — no
+`FINDINGS.md`, no `arc_verdict.json` — and B1024 **is** the head commit of `main`. But
+`COMPUTE_THE_PROGRAM` **P5 requires sealing before compute**, and this lock fires the moment a
+prereg is sealed *and* ledgered without a report. **So `main` is red by construction for the
+whole interval between seal and report**, and the only relief is a hand-edited frozen exemption
+list inside the test. There is no "sealed, awaiting compute" state the lock can recognise.
+
+**Not repaired here.** Adding B1024 to the exemption list would convert a live obligation into a
+silent one, which is the failure mode B837 and B982 exist to prevent. The honest fix is a
+protocol-level one — a declared *awaiting-compute* state with an expiry — and that is a
+governance amendment, not a test edit.
+
+**Net after both repairs: `0 collection errors`, `3744+ passing`, and every remaining failure is
+either a dependency the environment lacks or a governance obligation the repository is
+deliberately carrying in the open.** No mathematical lock fails.

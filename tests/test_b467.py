@@ -1,5 +1,8 @@
 """B467 — locks: the parity table, the H112 identity + refutation, the corrected
 ratios, and the oriented wall-merge fact."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import os
 import sys
 from math import sqrt
@@ -42,7 +45,7 @@ def test_corrected_ratios():
 
 
 def test_wall_merge_oriented():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     A = snappy.Manifold('4_1')
     A.chern_simons()
     A.dehn_fill((-5, 1))

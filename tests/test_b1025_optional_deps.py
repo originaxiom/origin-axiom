@@ -57,6 +57,57 @@ def module_level_optional_imports(source: str) -> set:
     return found
 
 
+def any_bare_optional_import(source: str) -> set:
+    """Optional deps imported bare ANYWHERE in a test module — module scope OR inside a function.
+
+    Module scope aborts collection (locks 1–2). An in-function bare import is milder but still
+    wrong: the test **FAILS** instead of **SKIPPING** on a clone without the dependency, which
+    violates the same `REPRODUCIBILITY.md` contract one level down. Measured 2026-08-10: 23 such
+    failures across nine modules, after the collection abort was repaired.
+
+    Imports inside `try:` are exempt — that form handles absence deliberately.
+    """
+    tree = ast.parse(source)
+
+    # Every `importorskip("dep")` call, with the line it sits on. An import of `dep` is guarded
+    # if such a call appears EARLIER in the file (module preamble, an enclosing decorator, or
+    # the same function body). Line order is the honest proxy for "runs before".
+    guards = {}
+    for node in ast.walk(tree):
+        if (isinstance(node, ast.Call)
+                and isinstance(node.func, ast.Attribute)
+                and node.func.attr == "importorskip"
+                and node.args
+                and isinstance(node.args[0], ast.Constant)
+                and isinstance(node.args[0].value, str)):
+            dep = node.args[0].value.split(".")[0]
+            guards[dep] = min(guards.get(dep, 10**9), node.lineno)
+
+    # Imports inside `try:` handle absence deliberately.
+    in_try = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Try):
+            for sub in ast.walk(node):
+                if isinstance(sub, (ast.Import, ast.ImportFrom)):
+                    in_try.add(id(sub))
+
+    found = set()
+    for node in ast.walk(tree):
+        if id(node) in in_try:
+            continue
+        if isinstance(node, ast.Import):
+            names = [a.name for a in node.names]
+        elif isinstance(node, ast.ImportFrom):
+            names = [node.module or ""]
+        else:
+            continue
+        for name in names:
+            root = name.split(".")[0]
+            if root in OPTIONAL_DEPS and guards.get(root, 10**9) > node.lineno:
+                found.add(root)
+    return found
+
+
 def _test_files():
     return sorted(p for p in _TESTS.glob("test_*.py"))
 
@@ -103,6 +154,24 @@ def test_modules_that_exec_a_frontier_script_guard_it_first():
     assert not offenders, (
         "these tests exec a frontier script that imports an optional dependency, without an "
         f"`importorskip` before the exec: {offenders}"
+    )
+
+
+def test_no_test_module_reaches_an_optional_dep_bare_anywhere():
+    """The FAIL-instead-of-SKIP class (B1025 follow-on, measured 2026-08-10).
+
+    23 tests across nine modules failed with `ModuleNotFoundError: snappy` AFTER the collection
+    abort was fixed, because they imported it bare inside a test function. `REPRODUCIBILITY.md`
+    promises the suite stays green without SnapPy; a failure is not green.
+    """
+    offenders = {}
+    for path in _test_files():
+        bad = any_bare_optional_import(path.read_text(encoding="utf-8"))
+        if bad:
+            offenders[path.name] = sorted(bad)
+    assert not offenders, (
+        "these test modules import an optional dependency bare (module or function scope), so "
+        f"they FAIL rather than SKIP without it: {offenders}. Use `pytest.importorskip(...)`."
     )
 
 

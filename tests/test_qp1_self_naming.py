@@ -1,4 +1,7 @@
 """QP-1 self-naming / quine test -- locks for the census sweep."""
+# SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`): reached via importorskip so a
+# clone without it SKIPS rather than FAILS (B1025 follow-on).
+import pytest
 import cmath
 import math
 
@@ -6,7 +9,7 @@ import numpy as np
 
 
 def _snappy():
-    import snappy
+    snappy = pytest.importorskip("snappy")
     return snappy
 
 
