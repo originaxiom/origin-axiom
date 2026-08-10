@@ -153,6 +153,68 @@ rather than the name. The un-measured instruments are the ones to check next.
 
 ---
 
+## 6. THE SUITE, MEASURED END TO END (73 minutes, full run)
+
+The first complete run this repository has had in this container. Executed **before** B1025's
+repair, with `--continue-on-collection-errors` so the collection abort did not hide the rest:
+
+```
+28 failed, 3738 passed, 93 skipped, 3 warnings, 3 errors in 4404.94s (1:13:24)
+```
+
+**Classified by cause — 27 of the 28 failures are missing dependencies, not mathematics:**
+
+| cause | count | note |
+|---|---|---|
+| `ModuleNotFoundError: snappy` | **26** | in the nine modules importing snappy *inside* a function — these COLLECT (so B1025's repair does not reach them) but **FAIL rather than SKIP** |
+| `ModuleNotFoundError: networkx` | **1** | **`networkx` is not in `requirements.txt` at all** — an undeclared dependency |
+| genuine `AssertionError` | **4** | below |
+
+**So the contract is still violated one level down.** `REPRODUCIBILITY.md` says the suite stays
+green without SnapPy. After B1025 the suite *collects*; it still **fails 26 tests** that ought
+to skip. The nine in-function importers need `pytest.importorskip` too — B1025 repaired the
+collection-aborting class only, and its FINDINGS says exactly that (*"does not claim the suite
+is green"*). **Registered here as the follow-on, with the count measured.**
+
+### The four genuine failures
+
+1. **`test_b837_file_drawer.py` — RED ON `main`'S HEAD, and this one matters.**
+   > `AssertionError: new sealed-and-ledgered prereg(s) with no findings report: ['B1024']
+   > -- report the result or record a disposition (B837)`
+
+   Verified directly: `frontier/B1024_l153_bits/` contains **only** `PREREGISTRATION.md` and
+   `ARTIFACT_HASHES.txt` — no `FINDINGS.md`, no `arc_verdict.json` — and B1024 **is the HEAD
+   commit of `main`** (*"B1024 seal: L153, the torsor-bits vs frame-bits identification (before
+   compute…)"*).
+
+   **This is a protocol tension, not a blunder, and naming it that way is the point.**
+   `COMPUTE_THE_PROGRAM` P5 requires sealing a two-outcome cell **before** compute; the
+   file-drawer lock fires the moment a prereg is sealed *and* ledgered but has not yet reported.
+   **So `main` is red by construction for the whole interval between seal and report**, and the
+   only relief is a hand-edited frozen exemption list inside the test. There is no grace
+   mechanism (no "sealed, awaiting compute" state the lock understands).
+
+   **And the cell in question is load-bearing:** L153 is the torsor-bits vs frame-bits
+   identification that B1023 names as pending for the discrete deficit (`2 ≤ d ≤ 4`) — which is
+   the same neighbourhood as band B500–B799's second debt row (B787, the fourth involution).
+
+2. a design-hash / coarse-tier match assertion (`'observed 2 coarse-tier matches of 378 pairs'`);
+3. a `proof_queue` file-existence assertion listing `MISSING` artifacts;
+4. one assertion carrying a nested traceback.
+
+**None of the four is a mathematical result failing.** They are a reporting-obligation lock, a
+sealed-transcript comparison, and two artifact-presence checks — the governance layer, not the
+object.
+
+### What this measurement is worth
+
+The repository's claim ledger says every `proven` claim is locked by a passing test. **That is
+now checkable rather than nominal**, and the answer is: **3,738 tests pass**; the failures are
+27 dependency and 4 governance, and **zero are the mathematics**. That is a genuinely good
+result, and it could not be stated at all before B1025 — the suite returned nothing.
+
+---
+
 ## Reading status
 
 - [x] the spine: `GOVERNANCE`, `METHOD`, `WORKING_RULES`, `ARCHITECTURE`, `TERMINOLOGY`,
