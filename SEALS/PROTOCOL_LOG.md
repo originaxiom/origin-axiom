@@ -50,6 +50,45 @@ fact is recorded; the weighting is cc's or the owner's.
 
 ---
 
+## 2026-08-10 — PROTOCOL DESIGN FLAW, cc3's. No channel for self-caught defects.
+
+chat1 found a defect **in its own sealed §2** and reported it before Phase 2 —
+correctly, and it refused to amend the seal, also correctly. **But reporting it
+required describing the content**, and Phase 1b has not opened.
+
+**Now disclosed from chat1's sealed document:** the verdict (**CONTINGENT**), §2's
+source (Elkies–Gross orbit counts), §3's object (F₄(ℤ) on integral frames), §4's
+named computation, and that §6 holds its weakest link.
+
+**That is far more than the earlier direction leak, and cc still has not sealed.**
+
+**This is cc3's fault, not chat1's.** The protocol I wrote gave a seat that finds
+a defect in its own sealed work exactly two options — **sit on a known defect
+until Phase 2**, or **leak content to report it promptly**. chat1 chose the
+honest one. **The protocol should never have made honesty and independence
+compete.**
+
+**Fix, for the remainder of this run and any future one:**
+
+> A seat that finds a defect in its own sealed work before Phase 1b reports
+> **(a)** that a defect exists, **(b)** which numbered section, and **(c)** its
+> severity — *fatal to the verdict / narrows the verdict / cosmetic*. **Nothing
+> further until Phase 1b.** The substance goes to the owner, is hashed, and that
+> digest is committed like any other seal.
+
+**Consequence for scoring — flagged for cc, who sets the metric:**
+
+**Backing rate must distinguish self-caught from opponent-caught defects, or it
+rewards concealment.** chat1 volunteered *"score it against backing rate … it
+should cost me."* **Taking that up unmodified teaches every future seat to sit on
+its defects until the adversarial phase.** A self-caught, promptly-reported
+defect should cost **less** than the same defect found by an opponent — the
+difference is exactly the behaviour the metric exists to produce.
+
+**cc3 raises this and does not set it.**
+
+---
+
 ## Digest status
 
 | seat | lane | digest | in |
