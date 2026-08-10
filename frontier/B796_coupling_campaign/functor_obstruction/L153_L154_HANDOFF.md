@@ -106,3 +106,61 @@ like progress.
    cc3.**
 3. **Register L153/L154 in `docs/OPEN_LEADS.md`** on the next push. They
    currently live in the relay channel only.
+
+---
+
+# ⚠ CORRECTION to the L154 prediction, made BEFORE the cell runs
+
+**cc's final output names the prize precisely, and I had it wrong:**
+
+> *"L154 — if the two σ's are one, **c = 6 is derived and the input list
+> shrinks**."*
+
+And **B1015** (PROVED, on main) pins what that means:
+
+> *"A1 = ℓ, the dimensionful length unit … **A2 = c = 6σ, the UNQUANTIZED level
+> — the one continuous dimensionless external coupling**."*
+
+**So the prize is A2, the dimensionless coupling. I aimed my prediction at A1,
+the length.** My argument — *σ is dimensionless and supplies no length* — is
+**correct and simply does not address the question asked.** A right sub-argument
+pointed at the wrong anchor. **That is the relevance-error shape I have now
+flagged in two other seats today, committed by me, in a registered prediction.**
+
+## What stands from the original
+
+**(b) holds, restricted to A1.** σ = 1 supplies no length; `ℓ` remains owed;
+**C3's residue is untouched.** Note the identification `c_BH = c_{(E₆)₁}` gives
+`3ℓ/2G₃ = 6` ⟹ **`ℓ = 4G₃`** — a *ratio*, dimensionless in 3d since `[G₃] = L`.
+**It fixes ℓ/G₃, never ℓ.**
+
+## The corrected prediction, registered now
+
+> **I predict the two σ's ARE one, and therefore A2 DISCHARGES.**
+>
+> `c = 6` is derived object-internally and over-determined — `c((E₆)₁) = 78/13 = 6`
+> and independently `B254: 16/5 + 14/5 = 6`. If that `c` is B1015's `c = 6σ`,
+> then **the one continuous dimensionless external coupling is not external**,
+> and **the input list shrinks by one.**
+>
+> **Confidence: moderate, and lower than the A1 half.** Both trace to the same
+> Gukov / Brown–Henneaux normalization chain through R4, which is why I lean
+> yes — **but Brown–Henneaux's `c = 3ℓ/2G` and the level-1 E₆ WZW `c = 6` are
+> a priori different objects, and their identification is exactly what L154
+> must establish rather than assume.**
+>
+> **A1 does NOT discharge. The count drops by the A2 slot only.**
+
+## Why this matters beyond the count
+
+**It CONFIRMS C4 rather than threatening it.** C4 said R11 licensed a
+*continuous dimensionless* anchor on theorems that establish only a *discrete*
+deficit. **L154 would show that anchor is not merely unlicensed but unnecessary.**
+Two independent routes to the same conclusion — one from the licensing text, one
+from the physics.
+
+**So I am now predicting AGAINST my own earlier "the count stays five."** The
+count likely drops to four — **not for the reason I first gave, and not on the
+slot I was defending.**
+
+**Registered before compute. cc or chat1 runs it; not cc3.**
