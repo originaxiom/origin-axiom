@@ -36,6 +36,8 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 
 ## B. HOLE — inside what we already claim
 
+> **Currency note (2026-08-10, B1009–B1019).** The Review-42 re-grades of X1/X2 were **verified by the post-switch audit (B1009)** — quotes verbatim, grades stand. **The wall re-sort (B1013)** touches the BOUNDED section: rank (X19) and the 27-VEV (X24) now carry their sort — SPECIFICATION — and **B1017's recount** makes X10/X24 one named thing: *the unsourced fifth input*, the interface's single remaining un-derived slot. **The endpoint-discrimination gap has its sealed test in flight**: B1019 (L149, the silver cascade — entry map computed, not chosen).
+>
 > **Staleness note, second instance (2026-08-09, Review 42).** **Two BLIND rungs had computed arcs
 > behind them** — X1 (B725, cited in its own row) and X2 (B559, **cited nowhere in this file or
 > `LAW_MAP.md`**). BLIND means *"never asked"*, and both had been asked. **The failure mode is the
@@ -54,7 +56,7 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 |---|---|---|
 | ~~**X8**~~ | **RE-GRADED TO BOUNDED 2026-08-09 by B987 — not a hole.** The doublet is the **10 ⊂ 27** (B884: *the so(10)-vector as the Higgs block (3,1)+(3̄,1)+(1,2)+(1,2)*, on the object's own frame). **No tension with B978** — that no-go scopes the **adjoint**; matter mass is the **cubic**, 27³ ⊃ 16·16·10, and B884 computed the table (7.7-order gap, 11 coupled cells vs 275 exact zeros). **Residue: doublet–triplet splitting, and it is BOUNDED** — B298/B299 place it as **external, needing a colour choice**, like chirality, rank and scale. | It looked like a hole because three correct arcs had never been stated together — and **P3 caught it in one query**, the first of the day's six instances caught by an instrument rather than the owner |
 | ~~**X9**~~ | **CLOSED 2026-08-08 by B978 — and it was already closed when this ladder listed it as a HOLE (2026-08-09).** L134 is **not an independent gap**: **⟨S⟩ ≠ 0 IS E₆ → SO(10)**, the *same input at the same step* as **L133** (rank reduction) and **L138** (the arithmetic VEV opening). **Three leads collapse to ONE OPERATION USED THREE TIMES.** | **The consolidation is the result.** X9, X10 and the rank obstruction are not three problems — they are one 27-VEV, asked about three ways. B990's two routes (shrink the group ℚ→ℤ / add non-invariant structure) are therefore the two routes for **all three** |
-| **X10** | **L138's scope** — it fired, but **a canonical orbit is not a canonical VEV** | the only live route to a distinguished VEV |
+| **X10** | **L138's scope** — it fired, but **a canonical orbit is not a canonical VEV**. **SHARPENED 2026-08-10 (B1017): this rung is now THE UNSOURCED FIFTH INPUT** — the recount (cc3's `tau_vs_singlet`, verified and adopted) retracted B963's compete-corollary, so the rank-closing VEV is a **fifth resource with no supplier**: B766's three torsor bits are all committed. Open within it: whether the VEV's *magnitude* folds into the ℝ₊ (shared) or is new | the only live route to a distinguished VEV — and now **the interface's single remaining un-derived slot** (B990's two routes still the only two) |
 | ~~**X11**~~ | **CLOSED 2026-08-09 by B991 — BOUNDED, mechanism named.** Verified symbolically: under q → λq the anomaly conditions scale as **λ¹, λ¹, λ¹, λ³** — **all homogeneous**, so the solution set is a **cone**, never isolated points. **Direction derivable (B864: b = c = 0 forced); normalisation not, by the form of the equations.** Impossible for *everyone*, so it is closed rather than owed. **Residue:** any arc claiming to derive a normalisation must **exhibit the non-homogeneous condition it used** |
 | ~~**X12**~~ | **SETTLED 2026-08-09 by B992 — computed, no longer inferred.** **dim(z_e₆(su(3)⊕su(2)) ∩ Cartan) = 9 + 6 − 12 = 3**, and that intersection **is** the Levi's centre. Y, χ, ψ each centralize su(3)⊕su(2) (Y by construction; χ since su(3)⊕su(2) ⊂ su(5); ψ since su(3)⊕su(2) ⊂ so(10)), are independent, and **are Cartan elements** — so their span fills it. **span(Y,χ,ψ) = the SMT's u(1)³.** | **The naive count fails and is banked with it:** the FULL centralizer is **9**-dimensional, carrying 6 root directions that cannot hold a Cartan element. The centralizer-vs-its-Cartan-part distinction *is* the content, and is invisible until the obvious check is run and fails |
 
@@ -73,12 +75,12 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 
 | # | rung | the mechanism |
 |---|---|---|
-| **X19** | rank reduction | centralizers contain a maximal torus ⟹ **measurement is rank-preserving** (B952); all routes closed (B959, B960) |
+| **X19** | rank reduction | centralizers contain a maximal torus ⟹ **measurement is rank-preserving** (B952); all routes closed (B959, B960). **Re-sorted 2026-08-10 (B1013): a SPECIFICATION, not a wall** — an input in every framework; and **B1017**: its closing is by VEVs, *not* by τ — the compete-corollary is retracted |
 | **X20** | matter mass from the adjoint | **78 ∉ 27 ⊗ 27** (B978/V5) |
 | **X21** | **scale** | **amphichirality forces CS = 0**, which deletes the integer-quantized term `k·I_CS` from Gukov's `k·I_CS + iσ·I_grav`, leaving only the **unquantized** σ (with `G_N = 1/4σ`). *Normalisation check owed before this is a claim* |
 | **X22** | time · 4d · Lorentzian signature | all the observer's; **no canonical Wick rotation** (B716); thermal time fails on identity — tracial II₁, **trivial modular flow** (B721) |
 | **X23** | the 4d lift | **exists and is canonical** (B277, monodromy **φ = RL** — A7's bit), but is **N=2 (non-chiral)** and the **6d type is a free input** |
-| **X24** | the 27-VEV | input in every framework, canonical nowhere — 𝕆P² homogeneous (B962) |
+| **X24** | the 27-VEV | input in every framework, canonical nowhere — 𝕆P² homogeneous (B962). **= X10's unsourced fifth input after B1017's recount**; sort: SPECIFICATION (B1013) |
 
 ## E. OPEN — live surfaces with a runnable computation
 
