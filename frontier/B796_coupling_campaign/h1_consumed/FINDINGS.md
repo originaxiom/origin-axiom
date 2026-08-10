@@ -261,3 +261,86 @@ the wall unavoidable after all — is not settled here.
 
 Reproduce: the metallic table is in this arc's commit; bundles built with
 `snappy.Manifold('b++R…L…')`.
+
+---
+
+# THE CLOSURE: ARITHMETICITY *FORCES* THE RANK WALL
+
+Run 2026-08-10 with Sage. The previous section left the headline conditional on
+one bounded check. Here it is.
+
+## Invariant trace fields of the metallic bundles
+
+Computed exactly (`invariant_trace_field_gens().find_field(300, 20, True)`), on
+bundles **constructed** from their monodromy words:
+
+| m | manifold | degree | invariant trace field | arithmetic? |
+|---|---|---|---|---|
+| **1 golden** | **m004** | **2** | **x² − x + 1 = ℚ(√−3)** | **YES** |
+| **2 silver** | **m136** | **2** | **x² + 1 = ℚ(i)** | **YES** |
+| 3 bronze | s464 | **8** | x⁸ + 6x⁶ − x⁵ + 12x⁴ − 3x³ + 8x² − x + 2 | **no** |
+| 4 | t03910 | **4** | x⁴ − x³ − 2x² − x + 1 | **no** |
+
+A cusped hyperbolic 3-manifold is arithmetic **only if** its invariant trace
+field is imaginary quadratic — degree 2. m = 1 and m = 2 are; m = 3 and m = 4
+are not. **This reproduces B125's `{m = 1, m = 2}` arithmeticity selector by
+independent computation.**
+
+## The closure
+
+Put the two exact results together:
+
+```
+    the rank wall is present   ⟺   3 ∤ m           (this arc, exact)
+    arithmetic                 ⟺   m ∈ {1, 2}      (B125; verified here at m = 1,2,3,4)
+
+    3 | m  requires  m ≥ 3,  which is NOT arithmetic
+
+    ⟹    ARITHMETIC  ⟹  3 ∤ m  ⟹  THE RANK WALL
+```
+
+**The wall is not avoidable by a different member choice. Arithmeticity forces
+it.** The previous section's conditional resolves in the direction that makes
+the wall *harder*, not softer.
+
+## And this is the sharpest thing on the path
+
+Arithmeticity is not incidental to the programme — **it is the whole derivation**:
+
+```
+   arithmeticity ⟶ the trace field ℚ(√−3) ⟶ reduction mod 3 ⟶ 2T ⟶ McKay ⟶ E₆
+```
+
+And now, from the same property:
+
+```
+   arithmeticity ⟶ m ∈ {1,2} ⟶ 3 ∤ m ⟶ 3-rank(H₁) = 1 ⟶ NO non-toral rank reduction
+```
+
+> **One property. Two consequences. They point opposite ways.**
+> **The same choice that buys E₆ forbids reducing its rank.**
+
+That is not a wall the programme ran into. It is a wall the programme's own
+foundational selector **builds**, in the same act that builds the thing the wall
+obstructs.
+
+It also sharpens B963. *"τ does double duty"* — τ is the only rank-reducing
+involution, and spending it on rank costs the chirality. **Now we know why there
+is no alternative to τ**: arithmeticity has already removed the non-toral route
+before the question is asked. B963 found the last door locked; this finds who
+locked it and when.
+
+## Scope
+
+- **Computed here:** ITFs at m = 1, 2, 3, 4 exactly, with the bundles built from
+  their monodromy words; the H₁ closed form; the 3-rank criterion; the
+  surjection tests.
+- **Cited, not re-proved:** B125's arithmeticity selector for general m. I
+  verified it at four values; the general statement is theirs.
+- **Not claimed:** that the programme should have chosen differently — the
+  alternative is non-arithmetic and loses ℚ(√−3), 2T, E₆ and the entire chain.
+  **There is no better member.** The point is not that a mistake was made; it is
+  that **the wall's cause is the derivation's own foundation**, which no arc in
+  the rank-reduction sequence (B952/B955/B959/B960/B962) states.
+- **Not claimed:** anything about whether rank reduction is needed, or about
+  physics.
