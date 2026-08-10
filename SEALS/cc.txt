@@ -1,0 +1,13 @@
+# cc Phase 1a — corpus lane
+findings sha256: 50d4bdd9be033808db9f5d4b97cb99b8953b7cc9ef6f3ace56e22a4cc4720a7c
+bytes: 6638
+anchor commit for "the repo": 67450505 (main, last full-suite certificate)
+sealed: 2026-08-10
+
+EXPOSURE DISCLOSURE (required by PROTOCOL_LOG): cc had NOT read chat1's Phase-1a
+message at sealing; cc HAD read the PROTOCOL_LOG entry quoting its
+direction-revealing sentence, so cc knows chat1's landing direction. The
+discount applies to cc/chat1 AGREEMENT; disagreement counts in full. cc is
+saturated in cc3's public week but has never seen cc3's sealed Phase-1 content.
+Content held off-tree until all three digests are in (they now are); cc
+publishes on its own bench next.
