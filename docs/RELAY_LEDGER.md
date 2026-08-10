@@ -88,3 +88,4 @@ BANKED — that would be marking its own homework.
 | `README_ARC_PROPOSAL.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-09_PATH_BEYOND_THE_WALL.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-09_STEPPING_BACK.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-10_Z2_MERGE.md` | OPEN | _(disposition owed)_ |
