@@ -179,8 +179,49 @@ def analyse(key):
     return bds, levi
 
 
+# ---------------------------------------------------------------------------
+# THE FILTER. Enumeration alone does NOT decide the winner, and forgetting that
+# is a live error -- this seat made it. B861's rule is:
+#
+#     "Maximal residual symmetry among REGISTERABLE options"
+#
+# Registerability is applied FIRST; the ranking only orders the survivors. Rank
+# by dimension across the filter and you will "find" a break that is not there.
+# B860's criterion: the generation stays chiral as a multiset AFTER the theta-odd
+# abelian factors are STRIPPED.
+REGISTERABILITY = {
+    # candidate            : (registerable?, why, source)
+    'SO(10)xU(1)':  (True,  '27 -> {16,10,1}, the 16 unpaired',            'B861'),
+    'SU(6)xSU(2)':  (True,  'the 6 of SU(6) is complex',                   'B861'),
+    'SU(3)^3':      (True,  'complex under each factor',                   'B861'),
+    'Sp(8)':        (False, '27 -> traceless Lambda^2(8), SELF-DUAL',      'B861'),
+    'SU(5)xU(1)':   (True,  '16 -> 10 + 5bar + 1; 10 and 5bar complex',    'B861'),
+    'Pati-Salam':   (True,  '(4,2,1) + (4bar,1,2), both complex',          'B861'),
+    'SO(8)xU(1)':   (False, '16 -> 8_s(+1)+8_c(-1); BOTH REAL, so the '
+                            'stripped multiset is vector-like',            'cc3 2026-08-10'),
+    'SU(4)xU(1)':   (False, 'generation collapses to vector-like',         'B860/B861'),
+    'the SM':       (True,  'the surviving chiral generation',             'B861'),
+}
+
+
+def warn_about_ranking():
+    print('\n' + '!' * 70)
+    print('  THE ENUMERATION BELOW DOES NOT DECIDE THE WINNER BY ITSELF.')
+    print('  B861\'s rule is "maximal residual symmetry among REGISTERABLE')
+    print('  options" -- the filter comes FIRST. Ranking these by dimension')
+    print('  without applying it produces a FALSE BREAK: at step 2, SO(8)xU(1)')
+    print('  (dim 29) appears to beat SU(5)xU(1) (dim 25) and does not, because')
+    print('  16 -> 8_s(+1) + 8_c(-1) with both 8s REAL, so the stripped multiset')
+    print('  is vector-like. This seat made exactly that error on 2026-08-10.')
+    print('!' * 70)
+    print('\n  known registerability verdicts:')
+    for k, (ok, why, src) in REGISTERABILITY.items():
+        print(f'    {k:14} {"REGISTERABLE" if ok else "NOT registerable":18} {why}  [{src}]')
+
+
 def main():
     print('P5 — MENU COMPLETENESS BY ENUMERATION')
+    warn_about_ranking()
 
     banked = {
         'E6': ['SO(10)xU(1) = D5+U(1)', 'SU(6)xSU(2) = A5+A1',
