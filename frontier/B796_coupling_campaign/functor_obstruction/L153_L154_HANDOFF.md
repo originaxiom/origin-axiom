@@ -199,3 +199,51 @@ than it appears to.**
 
 **Flagged, not asserted.** cc3 does not know whether the asymmetry blocks a SAME
 verdict, and is not guessing at the end of a day with seven pointing errors.
+
+---
+
+# L153 AS IT SHOULD BE WRITTEN — final, all items independently verified by cc3
+
+## The prior — THREE separate facts, not one revised number
+
+| | |
+|---|---|
+| **SEALED PRIOR** `dc823e86` | *"uncertain, weak lean SAME"* — **UNTOUCHED** |
+| **PRE-COMPUTE ANALYSIS** (separately timestamped) | moves the expectation toward **NOT SAME**, on three grounds below |
+| **VERDICT NOTE** | **pre-compute work moved the expectation away from the sealed prior** |
+
+**The movement is itself the datum.** A quietly revised prior would have erased
+it — and would have read as diligence, which is why it was the dangerous version.
+**chat1 proposed the revision, cc3 stopped it, chat1 withdrew.**
+
+## The five banked facts
+
+1. **c-side CLOSED.** `σ_c = inner_gmap(CHI_C)` — **inner by construction**
+   (`assembly.py:264`), so no membership test is needed. `b = e₄` = the
+   **TRIVALENT node**, **12 flips**, **τ-fixed**, **H¹ class (0,1) — NONZERO.**
+2. **θ = c ⊕ chord** — B766:24–25, *"the chord's sign is the XOR of the
+   conjugation and reversal choices … the chord is not an independent bit."*
+3. **The cell turns on two facts about the CHORD:** (i) **is its automorphism
+   inner**, (ii) if so, **is its tip component 1**.
+   *outer ⟹ no class · inner, tip 0 ⟹ rank 1 · inner, tip 1 ⟹ spans (SAME).*
+   **Two of three branches give NOT SAME.**
+4. **The homomorphism premise is TESTED, NOT ASSUMED.** B939:276–279 banks
+   `σ_χ+ ∘ σ_χ− = σ₋₁` (*"a Klein four-group in **Inn**(e6)"*), and the class map
+   respects it: coroot XOR matches, and **(1,1) ⊕ (0,0) = (1,1)**. **Premise
+   tested on the one banked composition, passed.**
+   *Type note: the map is on the **(ℤ/2)³ ACTING GROUP**, not the torsor — say
+   `acting group` in the verdict, since a torsor has no identity and the wrong
+   word is how a basepoint smuggles in.*
+5. **The ± sign carries NO class.** `−I` needs 27 flips, 27 ∉ {0,12,16}, so
+   `±T[2] = {±1} × T[2]` is **direct** and the projection is a homomorphism.
+   **σ_χ− has class (0,0)** despite D2's leading minus and eleven flips.
+
+## Provenance, so cc does not re-derive it a third time
+
+**The eleven's mechanism was already PROVED in `B928_d2_decode`** — the affine
+polarity, the **128-member census** (`= ±T[2]`), and *"11 = 8+3 REFUTED exactly
+(numerology)"*. **chat1's derivation was independent but a RE-derivation, and
+cc3's bench enumeration corroborates B928's census rather than discovering
+anything.**
+
+**Neither seat searched the arc named `d2_decode` before decoding D2.**
