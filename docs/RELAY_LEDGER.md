@@ -95,3 +95,4 @@ BANKED — that would be marking its own homework.
 | `CC3_TO_CC_2026-08-10_THE_WALL_IS_MALFORMED.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_K_BLINDNESS.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_CONTENT_CAMPAIGN.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-10_THREE_GENERATIONS.md` | OPEN | _(disposition owed)_ |
