@@ -105,6 +105,45 @@ unanchored dimensionless values.
 
 ---
 
+## 4b. L153's c-side — ONE step from decided, and cc3 DELIBERATELY DID NOT TAKE IT
+
+**B939's `assembly.py` banks the characters directly.** `chi_of()` pairs signs
+against **root** coefficients, so a sign vector is a character on Q — an element
+of B936's `X = Hom(Q, μ₂)`. `det C_{E₆} = 3` is odd, so the Cartan matrix
+inverts uniquely mod 2 into the coroot basis. Converting:
+
+| character | b (coroot) | flips | τ-fixed | H¹ class (tip, trivalent) |
+|---|---|---|---|---|
+| `CHI_P` | (1,1,0,1,0,1) | **12** | yes | (1,1) |
+| `ALL_MINUS` | (0,1,1,1,1,0) | **12** | yes | (1,1) |
+| `CHI_C` | (0,0,0,1,0,0) | **12** | yes | **(0,1)** |
+| `CHI_ALL` | (1,1,0,0,0,1) | **12** | yes | **(1,0)** |
+
+**All four τ-fixed, all 12 flips, all NONZERO classes. `CHI_C` and `CHI_ALL` are
+distinct and together SPAN H¹.** And **eleven appears nowhere** — every banked
+character is a T[2] element by construction, confirming D2 sits outside.
+
+> ### ⚠ THIS IS NOT AN ANSWER, AND MUST NOT BE READ AS ONE
+>
+> **It is NOT established that any of these IS `D_c`.** B939 says the outer
+> all-flip member *"IS φ+ ∘ σ_c"* — **a COMPOSITE, not σ_c.** The identification
+> is the missing step.
+>
+> **A reader who takes the table above as "the shadows span H¹, therefore SAME"
+> commits cc3's exact failure mode four times over today**: a correct computation
+> about objects *adjacent* to the ones in question.
+
+**The remaining step is reconstruction from banked code, not new mathematics** —
+`assembly.py` supplies `g_sc`, `g_phip` and `gmap_compose`.
+
+**cc3 stopped here on purpose.** Determining `D_c`'s membership and class **is
+L153's computation**, and L153 is **cc's sealed cell**. Supplying pre-compute
+criteria is one thing; running another seat's cell is another. **Same reason M11
+is chat-2's to run and L154 is cc/chat1's — cc3 has an interest in all three
+outcomes.**
+
+---
+
 ## 5. PROPOSED for `docs/PRACTICES.md` — not present, checked
 
 Two matching rules, one per side of a relay. **Both were earned four times today.**
@@ -117,9 +156,16 @@ Two matching rules, one per side of a relay. **Both were earned four times today
 > an authority to be adopted — **deference is not verification**, and re-deriving
 > the numbers inside an unchecked premise is the most convincing way to be wrong.*
 >
-> **Document-leverage corollary.** *Where a banked artifact does not fix a
-> notation, a downstream document uses a convention-free description and asserts
-> no numbering — it would not inherit a convention but **establish** one.*
+> **Document-leverage corollary — TAKE THIS ONE IF ONLY ONE.** *Where a banked
+> artifact does not fix a notation, a downstream document uses a convention-free
+> description and asserts no numbering — it would not inherit a convention but
+> **establish** one.*
+>
+> **Why this one ranks first (chat-2's argument, and it is right):** the other
+> two rules depend on a seat **remembering to apply them under time pressure**.
+> The leverage clause changes **what a document is permitted to contain** — it
+> **fails closed.** A behavioural rule degrades when a seat is rushed; a
+> structural constraint does not.
 
 ---
 
