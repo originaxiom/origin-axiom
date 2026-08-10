@@ -1,5 +1,27 @@
 # Changelog
 
+## B1018–B1019 (2026-08-10) — the suite goes parallel, and L149 lands: the siblings have NO DOOR
+
+**B1019 (sealed `ce6b0329`) — L149 ANSWERED: DIVERGES, at the entry map itself.** The
+own-conductor shadows, enumerated exactly: golden **SL(2,5) ≅ 2I** (120, unique involution —
+banked, reproduced) · silver **order 32 with SEVEN involutions** — no SU(2) embedding exists
+(noncyclic SU(2) subgroups have exactly one) · bronze **the full SL(2,13), order 2184** — over
+the ADE cap of 120. **No McKay partner, no Lie entry: the sibling cascades have nowhere to
+BEGIN.** Two design-level refutations recorded propose-and-refute style: the seal's own D-series
+speculation (killed by the involution count) and a **necessary-read-as-sufficient slip in the
+first embeddability criterion** (exposed by bronze, fixed, kept in the source as a comment).
+**The replacement for B1009's withdrawn sentence:** *matching the SM confirms the axioms exactly
+insofar as the entry is the word's own* — the confirming power, removed at the generic door by
+B996, is **restored at the own door**, where B997's uniqueness composes with this into **one
+grammar, one door, one cascade, one endpoint.**
+
+**B1018 (sealed `ed762886`) — the parallel qualification: QUALIFIED under the ARBITER RULE.**
+Run 1 (`-n 12`): **43:16 vs 61:27 serial — 1.42×**, 3897/1/35, the one failure **classified
+BASELINE-DELTA** (the arc's own seals grew the file-drawer set after the baseline; reproduced
+serially; the anti-file-drawer lock was *right*). **Zero parallel-unsafe locks.**
+`scripts/run_suite.sh` banked; PRACTICES gains the rule: **serial remains the certificate of
+record; any parallel-vs-serial disagreement is a failure, never shipped.** Bench-specific.
+
 ## B1017 (2026-08-10) — the recount: FIVE resources, and the rank closing is unsourced
 
 **cc3's `tau_vs_singlet` correction, verified here and adopted.** The two closings differ on both

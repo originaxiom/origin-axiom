@@ -459,6 +459,21 @@ of the working solver, turning "we have no high-precision solver" from a false b
 failure**. **That is the pattern to copy: when a false belief costs an arc, lock the fact that
 refutes it.**
 
+## The suite runs parallel; serial is the certificate of record — the ARBITER RULE (B1018)
+
+**The rule.** `scripts/run_suite.sh` runs the lock suite under xdist (`-n 12`) by default —
+qualified by B1018 (correctness clean; the one run-1 failure was a baseline-delta the
+anti-file-drawer lock was *right* to raise). **Serial (`--serial`) remains the certificate of
+record: any parallel-vs-serial disagreement is a FAILURE, investigated and never shipped.** The
+qualification is bench-specific; a material environment change (python, xdist, core count)
+re-qualifies before parallel certificates are trusted again.
+
+**Why it is written down.** The suite grew 33 min (Review 11) → 60–87 min, and the growth is
+corpus-linear. The measured dividend on this bench is **1.42×** (~18 min/merge) — honest and
+modest: twelve sympy workers on eight physical cores are cache-bound, not embarrassingly parallel.
+**The number to distrust is a parallel run that disagrees with serial by even one test** — that is
+never noise; it is a shared-state lock, and it gets a name and a fix before anything ships.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

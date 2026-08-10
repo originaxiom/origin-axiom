@@ -596,6 +596,36 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1018": {
+   "slug": "xdist qualification",
+   "motifs": [],
+   "refs": [
+    "B943"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1019": {
+   "slug": "l149 silver cascade",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B861",
+    "B996",
+    "B997",
+    "L149"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B101": {
    "slug": "hitchin reframing",
    "motifs": [

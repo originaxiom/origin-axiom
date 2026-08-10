@@ -10096,3 +10096,18 @@ chirality killed-vs-kept), the cascade is maximal-rank throughout, and **B963's 
 is retracted** (its two theorems stand). THE_CLAIM's input list corrected **4 → 5**; the fifth —
 the rank-closing VEV — is **unsourced by the torsor** and is now the board's sharpest open item.
 Full sweep in the same commit; θ_QCD refusal unchanged (third ask relayed).
+
+---
+
+## B1018–B1019 (2026-08-10) — the suite parallel-qualified; L149: the siblings have no door
+
+**B1019 — DIVERGES at the entry map:** silver's own-shadow has seven involutions (no SU(2)
+embedding), bronze's is all of SL(2,13) (over the 120 cap) — **no McKay partner, no entry, no
+cascade to begin.** The endpoint's confirming power is **restored at the word's own door**
+(replacing B1009's withdrawn sentence), composing with B997 into *one grammar, one door, one
+cascade, one endpoint*. The design's own E₇/D-series sketches were killed pre- and post-seal by
+banked facts; a necessary-as-sufficient slip caught and kept visibly in the source.
+
+**B1018 — parallel QUALIFIED:** 1.42× (43:16 vs 61:27), zero parallel-unsafe locks, the one
+failure a baseline-delta the file-drawer lock was right to raise. Arbiter rule in PRACTICES;
+`scripts/run_suite.sh` banked.
