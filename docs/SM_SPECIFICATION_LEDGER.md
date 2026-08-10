@@ -152,7 +152,7 @@ structurally, chirality only via an external closing, and no values.**
 
 **And on the last of those, the position hardened on 2026-08-09.** B1000 measured the external
 inputs: **five closings over four incompletenesses**, charge taking **two** — a chirality sign *and*
-a rank-reducing VEV — which **B963 proves compete for one resource**. B1005 then fired
+a rank-reducing VEV — ~~which B963 proves compete for one resource~~ *(corrected 2026-08-10, B1017: the compete-corollary is retracted — the VEV closing is not effected by an involution; the two holes need two resources, the second unsourced)*. B1005 then fired
 `WHAT_WOULD_COUNT`'s **falsifier 2**: **no live Tier-2 candidate remains**, since B687's atlas of 23
 was the programme's own best enumeration and all 23 are now dead. **Scope, exactly: the falsifier
 fires for the ENUMERATED space, not in principle** — "Tier 2 is unreachable" would be an overclaim;

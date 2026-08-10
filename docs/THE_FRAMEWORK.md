@@ -174,8 +174,10 @@ cause*, not an absence.
 > | **values** | **THE ONE REAL WALL** | tested under seal, twice, **with demonstrated power the second time** (B1006), and null. **No reframing touches a measurement** |
 >
 > **The honest position is therefore not "five walls, all closed on every route." It is: given a
-> small counted input list — two 𝔽₂ bits (one contested between chirality and rank, B963), one
-> scale, one Lie type — the object determines the SM gauge algebra, the global ℤ₆ form (which the
+> small counted input list — two 𝔽₂ bits (arrow; chirality = τ), one
+> scale, one Lie type, and one rank-closing VEV direction (**count corrected 4 → 5 by B1017**;
+> the VEV is the unsourced fifth — B963's compete-corollary retracted) — the object determines the
+> SM gauge algebra, the global ℤ₆ form (which the
 > SM itself cannot fix), hypercharge as the unique gaugeable direction, and the anomaly-free
 > structure — and it determines no dimensionful quantity, by theorem.** A parameter reduction with
 > a counted input list (cc3's Level-5 framing, adopted in B1009), against nineteen fitted

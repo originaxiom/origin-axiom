@@ -573,6 +573,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1017": {
+   "slug": "recount",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B766",
+    "B861",
+    "B952",
+    "B959",
+    "B963",
+    "B969",
+    "B978",
+    "B990",
+    "L138"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B101": {
    "slug": "hitchin reframing",
    "motifs": [
@@ -20719,17 +20742,21 @@
    ],
    "refs": [
     "B576",
+    "B766",
+    "B861",
     "B915",
     "B925",
     "B929",
     "B952",
     "B955",
     "B959",
+    "B978",
+    "B990",
     "L133"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 11,
-   "status": "banked",
+   "obstacle_conf": 20,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B964": {

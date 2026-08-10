@@ -10086,3 +10086,13 @@ coupling channel noted **anchor-free**. **B1016:** SEPARATE by two exact obstruc
 rational/√3129 fields; 2-groups vs the perfect 2I) — **B856 governs the coupling channel, B936 the
 pair channel; R10 answered; candidates declare their channel.** The falsifier-2 scope note
 actioned two-sidedly.
+
+---
+
+## B1017 (2026-08-10) — the recount: five resources, the rank closing unsourced
+
+cc3's correction verified and adopted: **τ and ⟨1⟩ are different closings** (rank 2-vs-1,
+chirality killed-vs-kept), the cascade is maximal-rank throughout, and **B963's compete-corollary
+is retracted** (its two theorems stand). THE_CLAIM's input list corrected **4 → 5**; the fifth —
+the rank-closing VEV — is **unsourced by the torsor** and is now the board's sharpest open item.
+Full sweep in the same commit; θ_QCD refusal unchanged (third ask relayed).

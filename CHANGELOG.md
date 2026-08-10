@@ -1,5 +1,24 @@
 # Changelog
 
+## B1017 (2026-08-10) — the recount: FIVE resources, and the rank closing is unsourced
+
+**cc3's `tau_vs_singlet` correction, verified here and adopted.** The two closings differ on both
+discriminants — **τ** removes rank **2** (E₆→F₄) and *kills* chirality (F₄ all-real); the VEV
+**⟨1⟩** removes rank **1** (E₆→SO(10)) and *keeps* it (the 16 complex) — and **the cascade never
+reduces rank at all** (B861's own table: maximal-rank every step; the 6→4 drop is ⟨1⟩ then ⟨ν^c⟩,
+**neither an involution**). **B963's two theorems stand; its corollary — "chirality and rank
+compete for one budget" — is RETRACTED as a category slip** ("the only rank-reducing involution"
+is true and irrelevant to a closing not effected by one). This is what B952/B978/B990 said all
+along — the synthesis layer is re-aligned with the record.
+
+**The recount:** three torsor bits (arrow · chirality = τ · A7-internal) + ℝ₊ (bulk) + Lie type
+(the two ends) — **and the rank-closing VEV direction is UNSOURCED: there is no fourth bit**
+(B766). Open, per cc3's own kept scope: the VEV's magnitude may fold into ℝ₊. **The unsourced
+fifth input is now the interface's single remaining un-derived slot — the sharpest open item on
+the board.** Swept in the same commit: B963 banner · LAW_MAP ×2 · **THE_CLAIM 4 → 5** ·
+THE_FRAMEWORK · SM_SPEC · RETRACTED_PHRASES row 8. Unchanged: B1000's census, the anchors, the
+wall re-sort, the θ_QCD refusal.
+
 ## B1015–B1016 (2026-08-10) — the anchors declared, and L150 CLOSED: two channels
 
 **B1015 (sealed `4acb8f7a`) — the anchor set, binding on every future crossing:** **A1 = ℓ**

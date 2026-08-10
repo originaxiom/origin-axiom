@@ -8,9 +8,12 @@ owner's directive: state the theorem we have, not the theory we lack.*
 ## §1 — THE DERIVATION THEOREM (closed)
 
 > **Hypotheses (the counted input list).** The six axioms A1–A6 and one bit A7 (the object forced
-> up to orientation; B14, the uniqueness chain), plus four typed external data: **two 𝔽₂ bits**
-> (one contested between chirality and rank — they provably compete for one resource, B963), **one
-> scale**, **one Lie type** (B1000's census, S4's typing).
+> up to orientation; B14, the uniqueness chain), plus **five** typed external data: **two 𝔽₂ bits**
+> (time's arrow; chirality — the conjugation bit, = τ), **one scale**, **one Lie type** (the 6d
+> type J), and **one rank-closing VEV direction** (⟨1⟩ then ⟨ν^c⟩ — the input every framework has,
+> and **unsourced by the torsor**: B766's three bits are all committed; whether its magnitude folds
+> into the scale's ℝ₊ is open). *(Count corrected 4 → 5 by B1017 — B963's compete-for-one-budget
+> corollary retracted; B1000's census of five closings stands.)*
 >
 > **Conclusion (the SM structural skeleton).** From these hypotheses the framework determines:
 >

@@ -1,5 +1,19 @@
 # B963 — τ DOES DOUBLE DUTY: the one cause behind four failures — and a scope correction caught before banking
 
+> ## ⚠ COROLLARY CORRECTED 2026-08-10 (B1017; cc3's `tau_vs_singlet`, verified on this bench)
+>
+> **The two mathematical halves of this arc STAND** — τ ≠ id ⟺ the 27 is complex, and τ is the
+> only rank-reducing **involution**. **The corollary drawn from them — "chirality and rank compete
+> for one budget" — is RETRACTED as a category slip:** the cascade's rank reduction is effected by
+> **VEVs** (⟨1⟩: E₆→SO(10), removes rank 1, the 16 stays complex; then ⟨ν^c⟩), and **a VEV is not
+> an involution**. τ's rank-2 drop lands in F₄ (27 real) — a *different* closing on both
+> discriminants (rank removed 2 vs 1; chirality killed vs kept). "τ is the only rank-reducing
+> involution" is **true and irrelevant** to the closing the cascade actually uses — the cascade is
+> maximal-rank at every step (B861's own table) and the drop is entirely by VEVs, which is what
+> B952/B978/B990 said all along. **Consequence: the resource count is FIVE, not four, and the rank
+> closing is UNSOURCED by the torsor** (B766's three bits are all committed). Whether its
+> magnitude folds into the value closing's ℝ₊ is **open, not decided** (cc3's scope, kept).
+
 **Date:** 2026-08-08 · **Seat:** cc (banking) · **Lane:** MATHEMATICS / ANALYSIS.
 Gate 5 untouched. **Prompted by** the owner's question: *is this an uncertainty principle
 between rank and matter?* — and their follow-up, *are we rushing?* **The follow-up was
