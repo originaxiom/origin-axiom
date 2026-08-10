@@ -1,1 +1,5 @@
+# cc3 Phase 1 seals — obstruction lane
+# prereg (sealed fa71ff2b, before findings existed):
 e70cf1136281f44fca2513c28c397cac89a52f6e9ed6bbf1e38cb7fef0b2b54f  frontier/B796_coupling_campaign/functor_obstruction/PREREGISTRATION.md
+# PHASE 1 FINDINGS — content withheld until cc and chat1 digests are in:
+17c8538d2498c5f3f7f784bec807399d8539a2009b6d4c8a6f1797054dd3cc7f  frontier/B796_coupling_campaign/functor_obstruction/FINDINGS.md

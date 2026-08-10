@@ -55,3 +55,7 @@ cosmogony/
 # seat-local AI pointers (never committed; see WORKING_RULES.md §11)
 CLAUDE.md
 CLAUDE.local.md
+
+# Phase 1b hold — sealed findings whose digest is published in SEALS/ but whose
+# content must not land until every seat's digest is in. Remove the line to publish.
+frontier/B796_coupling_campaign/functor_obstruction/FINDINGS.md
