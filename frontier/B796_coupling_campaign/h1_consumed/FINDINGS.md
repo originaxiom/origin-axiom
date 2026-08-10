@@ -86,3 +86,88 @@ Either answer is worth having, and it is a bounded computation: check whether
 **Not claimed:** that m003 is a better object, or that the programme chose
 wrongly. Only that the wall's scope is now a testable question rather than an
 assumption, and that today's answer to #1′ makes it the natural next one.
+
+---
+
+# THE RANK WALL'S SCOPE — TESTED. Neither m004's nor the class's.
+
+Run 2026-08-10 on the owner's instruction. Both commensurability rows, both of
+B955's named targets.
+
+## Result
+
+| manifold | H₁ | 3-rank | ℤ₃×ℤ₃? | Heisenberg 3^{1+2}? |
+|---|---|---|---|---|
+| **golden row — PSL(2,O₋₃)** | | | | |
+| m003 | ℤ/5 + ℤ | 1 | no | no |
+| **m004** | **ℤ** | **1** | **no** | **no** |
+| m206 | ℤ/5 + ℤ | 1 | no | no |
+| **m207** | **ℤ/3 + ℤ/3 + ℤ** | **3** | **YES** | **YES** |
+| m208 | ℤ/10 + ℤ | 1 | no | no |
+| m410, s118, s119 | ℤ/2 + ℤ | 1 | no | no |
+| **silver row — PSL(2,O₋₁)** | | | | |
+| m136 | ℤ/2 + ℤ/2 + ℤ | 1 | no | no |
+| **m129** | **ℤ + ℤ** | **2** | **YES** | **YES** |
+| m135 | ℤ/2 + ℤ/4 + ℤ | 1 | no | no |
+
+**2 of 11.** Heisenberg surjections found by direct enumeration over the 27
+upper-unitriangular matrices (group built and its centre verified order 3).
+
+## The answer: neither option I posed was right
+
+I framed this as *"m004's wall or the class's?"* It is **neither**:
+
+- **Not m004's.** Eight other manifolds share the obstruction — including its
+  sister m003 and every other one-cusped member of both rows except m207.
+- **Not the class's.** **m207 sits in the golden row, same trace field ℚ(√−3),
+  and admits both targets.** So the wall is not a property of the
+  commensurability class.
+
+**The real condition is `3-rank(H₁) ≥ 2`.** B955's knot argument is *correct* —
+knot ⟹ H₁ = ℤ ⟹ 3-rank 1 — but it is **unnecessarily narrow**: knot-ness is one
+sufficient way to fail the condition, and eight non-knots fail it too, for
+reasons having nothing to do with knots (ℤ/5, ℤ/2, ℤ/10 are all coprime-to-3
+torsion).
+
+**B955's framing should be widened** from *"specific to knots"* to *"any
+manifold whose H₁ has 3-rank 1"*, which is the actual hypothesis its argument
+needs and which covers nine of eleven class members.
+
+## Two of my own errors, owned
+
+**1. A live bug, caught by a sanity check.** The first run reported m003 at
+3-rank 2. That is impossible — 5 is coprime to 3 — and the check caught it.
+Cause: **snappy's `homology().rank()` returns the total generator count, not the
+free rank** (for ℤ/5 + ℤ it returns 2). The free rank is the number of *zero*
+elementary divisors. Fixed, documented in the source, and the corrected table is
+above. **Every "YES" in the first run except m207 and m129 was spurious.**
+
+**2. A wrong framing, stated to the owner.** I said *"m003's H₁ = ℤ/5 + ℤ is not
+cyclic, so B955's argument does not apply to it"* and proposed m003 as **the**
+sharp test. The first clause is true and the conclusion does not follow:
+B955's *argument* fails to apply, but **m003 fails the actual condition anyway**,
+because ℤ/5 has no 3-torsion. **I aimed the test at the wrong manifold.** The
+right one was m207, which I had in a table two arcs earlier and did not read.
+
+## What survives, and what it means
+
+The programme's rank wall is **real for m004 and for most of its relatives, and
+breakable inside its own commensurability class**. m207 — same field, same E₆,
+same everything the derivation actually consumes — admits the non-toral
+rank-reducing subgroups m004 provably cannot.
+
+So the honest statement replacing the previous one:
+
+> **Rank reduction is not blocked by the trace field, the class, or E₆. It is
+> blocked by the 3-rank of H₁, which is a property of the individual manifold
+> and which the derivation never consumes.** The chain lands on a manifold with
+> 3-rank 1, and that is where the wall comes from — not from anything the chain
+> uses to reach E₆.
+
+**Not claimed:** that m207 gives a working physics, or that the programme should
+switch objects. m207 has volume 4.06 (twice m004's), is not a knot, and nothing
+here says its cascade behaves. **Only that the wall's cause is now located** —
+in a manifold invariant the derivation does not touch — rather than attributed
+to the class or to E₆.
+
+Reproduce: `python3 rank_wall_scope.py`.
