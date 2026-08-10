@@ -125,7 +125,21 @@ correct a banked record:
 6. **`pin_phase` is now in the solver.** C2 existed only in plate scripts; the
    shared solver had no pin, so any pointwise eigenfunction use inherited the
    SVD's arbitrary phase. Solve path untouched; banked eigenvalues unaffected.
-7. **The parent eigenvalue.** `r = 7.0720041858752050007371941867273`, MAIN /
+7. **THE CONTENT CAMPAIGN (2026-08-10)** — four results that must not strand:
+   - **THREE GENERATIONS IS NOT DERIVED**, and the ledger says otherwise in
+     **four places across three flagship documents**. The arc (B897) hedged
+     correctly; the summaries dropped the hedge; tombstone **P13** forbids the
+     reading outright. `THE_FRAMEWORK:120`, `THE_SM_VERDICT:45`,
+     `STRUCTURE_TO_NATURE:162, :360` all need correcting.
+   - **CHARGE QUANTISATION IS DERIVED** from B862's ℤ₆ and was claimed by
+     nobody. `t/3 + d/2 + Y ∈ ℤ`; all seven SM multiplets satisfy it, three
+     controls are excluded. **A new content result from a banked theorem.**
+   - **THE CONTENT LEDGER** — eleven rows graded from the arcs, the document
+     `THE_SM_VERDICT` should have been.
+   - **P5 IS THE WHOLE CONDITIONAL SPINE** — rows 1, 3 and 11 rest on it, and
+     after the confluence result it is the cascade's **only** external import.
+
+8. **The parent eigenvalue.** `r = 7.0720041858752050007371941867273`, MAIN /
    GATE / P4 / P3 all PASS, stability certificate still running. It sharpens
    B943's `r ≈ 7.072` to 31 figures and, with λ₂, makes the 25-digit PSLQ
    possible — the test B798 showed 8 digits had no power to run.
