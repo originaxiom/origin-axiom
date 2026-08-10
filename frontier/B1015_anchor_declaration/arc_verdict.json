@@ -1,0 +1,16 @@
+{
+ "id": "B1015",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE ANCHOR DECLARATION, SEALED (R11 STEP 0, BINDING ON EVERY FUTURE CROSSING): A1 = l, the dimensionful length unit (its SI realization a convention; no dimensionless number flows from it); A2 = c = 6*sigma, the UNQUANTIZED level -- the one continuous dimensionless external coupling the framework's own analysis names, and the one the object PROVABLY CANNOT SEE (dS/dk = -CS = 0, B1012, so sigma is the only level the observer can set and the object cannot). PRICED (R11 condition iii): candidates {c, alpha_em} -- alpha_em was B915's contact-time probe but as a STANDING anchor consumes an SM output-side quantity and is scheme/scale-dependent; c consumes nothing from the prediction side; one bit charged. RECORDED, NOT CLAIMED: the coupling channel's forced values are ANCHOR-FREE pure algebraic numbers (B1011), so on that channel outputs - dimensionless anchors = outputs - 0 and a single kind-admissible output is non-vacuous. RELATION TO L151, evidence not closure: the declaration maps the R11 allowance onto the framework's typed input list EXACTLY (bits and Lie type discrete; scale = A1; the one continuous dimensionless input = A2) -- the MATCH shape L151 predicts, with the test still future (the minimal WORKING set of an actual crossing). VACUITY DISCIPLINE: any cell consuming A2 must show >= 2 independent dimensionless outputs, or use only anchor-free values; a cell that cannot state this does not seal. Re-declaration = a new sealed act, priced, old retained.",
+ "depends_on": [
+  "B1014",
+  "B1012",
+  "B1011",
+  "B915",
+  "B1000"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10), sealed 4acb8f7a"
+}

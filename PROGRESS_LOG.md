@@ -10076,3 +10076,13 @@ cannot be internal, so the bridge datum is predicted-necessary; R11 with three t
 parameter-free = zero FREE dimensionless parameters), and **the Prediction Channel** (one real
 wall; the coupling layer's closed form; L149/L150 gating). **L151**: the anchor budget as a
 structural prediction. README carries the pointer.
+
+---
+
+## B1015–B1016 (2026-08-10) — anchors declared; L150 closed: TWO channels
+
+**B1015:** A1 = ℓ, A2 = c = 6σ (the level the object cannot see), sealed, priced, binding; the
+coupling channel noted **anchor-free**. **B1016:** SEPARATE by two exact obstructions (φ-ratios vs
+rational/√3129 fields; 2-groups vs the perfect 2I) — **B856 governs the coupling channel, B936 the
+pair channel; R10 answered; candidates declare their channel.** The falsifier-2 scope note
+actioned two-sidedly.

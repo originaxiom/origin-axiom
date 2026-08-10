@@ -541,6 +541,38 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1015": {
+   "slug": "anchor declaration",
+   "motifs": [],
+   "refs": [
+    "L151"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1016": {
+   "slug": "l150 junction",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B687",
+    "B743",
+    "B856",
+    "B928",
+    "B936",
+    "K4",
+    "L150"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B101": {
    "slug": "hitchin reframing",
    "motifs": [

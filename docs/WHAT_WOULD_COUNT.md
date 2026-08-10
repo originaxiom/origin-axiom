@@ -132,11 +132,13 @@ be measured against.
    **SCOPE, and it is the whole difference: B687's atlas is 23 ENUMERATED invariants, not a proof
    that none exists; B743 searched the algebraic tower and canonical analytic values, not every
    possible construction. So the falsifier fires FOR THE ENUMERATED SPACE, not in principle.**
-   *Scope note (B1010, 2026-08-10): the enumerated space also never contained the **coupling-form
-   family** (u†M_odd u — B592/B593/B641/B654/B856), which is outside B687's atlas and B743's tower.
-   Its one SM reading was refuted ON KIND (B856/JUNO), so it is not asserted live — but it was
-   never weighed by this falsifier, and L150 must be resolved before it can be either admitted or
-   excluded.*
+   *Scope note (B1010, 2026-08-10; **actioned by B1016 same day**): the enumerated space never
+   contained the **coupling-form family** (u†M_odd u), which is outside B687's atlas and B743's
+   tower. **L150 is now resolved — SEPARATE (B1016):** the coupling family is a **distinct value
+   channel** with its own law (B856, values forced and listener-invariant, **anchor-free**, in
+   closed form by B1011). **It is hereby weighed: not admitted as live (its one SM reading was
+   refuted ON KIND — B856/JUNO) and not excluded (never base-rate-tested as a channel)** — a
+   Tier-2 attempt on it must pass the kind gate and declare its channel per B1016.*
    **What follows: Tier 2 has NO LIVE CANDIDATE.** Every candidate the programme enumerated is
    dead, and the enumeration was the programme's own best attempt. **A Tier-2 attempt now requires a
    candidate from OUTSIDE B687's atlas and OUTSIDE B743's tower** — and the one new structure

@@ -1,5 +1,30 @@
 # Changelog
 
+## B1015–B1016 (2026-08-10) — the anchors declared, and L150 CLOSED: two channels
+
+**B1015 (sealed `4acb8f7a`) — the anchor set, binding on every future crossing:** **A1 = ℓ**
+(dimensionful unit) · **A2 = c = 6σ** — the unquantized level, *the one the object provably cannot
+see* (∂S/∂k = −CS ≡ 0). Alternatives priced (α_em would consume an output-side quantity as a
+standing anchor). **The coupling channel is anchor-free** — B1011's values are pure algebraic
+numbers, so there a single kind-admissible output is non-vacuous. The declaration maps R11's
+allowance onto the framework's typed input list **exactly** — L151's MATCH shape, recorded as
+evidence.
+
+**B1016 (sealed `59f51572`, prior SEPARATE — held) — L150 closed by two exact obstructions:**
+**O1**, the coupling ratios contain φ while every pair-side field is rational, ℚ(√3129), or an
+odd-degree cubic — none containing √5, and ratios are scalar-invariant; **O2**, the banked
+27-actions are all 2-groups (nilpotent) while ρ₆'s constituents contain the perfect 2I. *(J1's
+recomputation re-derived the banked pencil field ℚ(√3129) from raw coefficients — the loop
+closes.)*
+
+> **The value layer has TWO channels. B856 governs the coupling (forced, listener-invariant,
+> anchor-free, closed-form). B936 governs the pair (frame-relative, hierarchy-carrying). R10 is
+> ANSWERED: a crossing candidate must declare its channel, and channel-mixing without a banked
+> bridge is forbidden.** The B856-vs-B936 tension was two theorems about two objects.
+
+The falsifier-2 scope note is actioned two-sidedly: the coupling family is **weighed** — not
+admitted live (kind gate stands), not excluded (never base-rate-tested as a channel).
+
 ## B1014 (2026-08-10) — the proof-form: the derivation theorem closed, the anchors licensed, the claim on one page
 
 **Two owner decisions executed.** **(1) Proof-as-derivation is CLOSED:** `docs/THE_CLAIM.md` states

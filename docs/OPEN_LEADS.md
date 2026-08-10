@@ -1456,6 +1456,17 @@ what survives frame-change in the Hermitian layer (compute it).** Two outcomes, 
 
 **Kind gate first** (B856's JUNO lesson): before any SM contact, the kind table for both families.
 
+### L150 — CLOSED 2026-08-10 by B1016 (sealed `59f51572`, prior SEPARATE, HELD)
+
+**SEPARATE, by two exact obstructions:** the coupling channel's value ratios contain φ (theorem,
+B1011) while every pair-side value field is rational, ℚ(√3129) or an odd-degree cubic — none
+containing √5 (O1, scalar-invariant); and the banked 27-actions are all 2-groups while ρ₆'s
+constituents contain the perfect 2I (O2, against banked actions; a novel 2T×2I action on the 27 is
+the one door back). **Meaning: TWO channels — B856 governs the coupling (forced, listener-invariant,
+anchor-free), B936 governs the pair (frame-relative, hierarchy-carrying). A crossing candidate must
+declare its channel.** The B856-vs-B936 tension was two theorems about two objects. Bonus: J1's
+recomputation re-derived ℚ(√3129) from the raw pencil charpoly.
+
 ---
 
 ## L151 — THE ANCHOR BUDGET AS A STRUCTURAL PREDICTION (registered 2026-08-10, from the owner's bridge principle, B1014)

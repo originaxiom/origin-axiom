@@ -1,0 +1,29 @@
+{
+ "inventory": {
+  "det_ratios": "['-1', '-17/384', '1', '17/384']",
+  "K_norms": "['-908209/5308416']",
+  "pencil_charpoly_W3": "[384, 660, 293, 17]",
+  "D2_flips_in_colorless": "7",
+  "octet_K_coords": "['1267/1248', '45430/169', '271656000/2197']",
+  "octet_minpoly": "['5308416', '-45868032', '78736896', '-38004841']"
+ },
+ "O1": {
+  "all_listed_values_rational": "True",
+  "W3_charpoly_disc": "782250000",
+  "W3_disc_squarefree_core": "{2: 4, 3: 1, 5: 6, 7: 1, 149: 1}",
+  "W3_disc_core": "3129",
+  "sqrt5_in_W3_field": "False",
+  "octet_cubic_irreducible_over_Q": "True",
+  "sqrt5_in_octet_field": "False",
+  "sqrt5_in_Q_sqrt3129": "False",
+  "coupling_ratio_phi_irrational": "True",
+  "O1_obstruction_holds": "True"
+ },
+ "O2": {
+  "banked_action_groups": "{'K4': 4, 'C8_W_frame': 8, 'torsor_Z2_3': 8}",
+  "all_are_2_groups_hence_nilpotent": "True",
+  "constituent_images_contain_perfect_subquotient": "True",
+  "O2_obstruction_holds": "True"
+ },
+ "verdict": "SEPARATE"
+}
