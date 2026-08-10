@@ -271,3 +271,16 @@ No invariant may be transferred between these without an explicit map.
   algebra: provably not Pati–Salam), B929 (the twist's shape sheet vs measured
   mixing shape — HIT-SHAPE: mixing-shaped, magnitudes off 5–9×, banked as a
   fenced hint). M0 — the programme as mathematics — is the standing default.
+
+## Added 2026-08-10 (B1013) — two live terminology collisions, named before they cost an arc
+
+- **"conductor" names TWO quantities** (found by B1002 when a check looked open that was banked):
+  the **cusp order's conductor** (B675's quantization-index law: golden 4, silver 2) and the
+  **word's own conductor / shadow modulus** (B666/B997: m²+4 — golden 5, silver 8). Any sentence
+  using "conductor" must say which.
+- **"level" now names TWO quantities** (hazard registered by B1012 from the branch): the
+  **congruence level** of the Bianchi group (the (4)/(8) doors; the branch line *"the level IS the
+  cusp conductor"* is about THIS one) and the **Chern–Simons level k** (Gukov's quantized coupling
+  — the one the object is **provably blind to**, ∂S/∂k = −CS = 0). These live in different
+  theories; an identification between them would be a **category claim needing its own arc**, and
+  no such arc exists.

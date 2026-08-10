@@ -10046,3 +10046,22 @@ junction registered as **L150** and a scope note on `WHAT_WOULD_COUNT` falsifier
 B1008's epoch-blindness, now measured in three instruments. **The CONSOLIDATION REFRESH campaign
 is registered** with its per-band discipline, and `CROSSING_REQUIREMENTS.md` binds any fourth
 crossing to ten requirements extracted from the three failures.
+
+---
+
+## B1011–B1013 (2026-08-10) — McKay⊗McKay; two branch verifications; the walls re-sorted
+
+**B1011:** the hearing data factorizes **exactly** — ⟨R,L⟩ = 2T×2I (2880, two primes + Serre),
+ρ₆ ≅ (χ⊗V₂(2I)) ⊕ (V₂(2T)⊗V₂(2I)) by a 63/63 exact character match. **B641's tones and B856's
+period-5 are theorems now; the θ-even mirror law is new, in closed form.** The two ends live inside
+the hearing instrument. Sealed `fc807f11`, OUTCOME A held, zero floats.
+
+**B1012:** k-blindness verified and sharpened — **∂S/∂k = −CS identically**, so the object's
+blindness to k **is** its amphichirality; and the **CS normalisation closure verified: R4
+discharged, c = 6σ forced, the surviving level unquantized.** The remaining 64 branch commits:
+registered debt with dispositions.
+
+**B1013:** the wall/boundary/specification sort executed on THE_FRAMEWORK Layer 5 — **one real
+wall (values, tested, powered, null); the rest are shared specifications or denied
+presuppositions.** The counted-input-list framing adopted; the "level" terminology collision named
+before it costs an arc.

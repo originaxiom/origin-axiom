@@ -1,5 +1,37 @@
 # Changelog
 
+## B1011–B1013 (2026-08-10) — the hearing data is McKay⊗McKay; two branch results verified; the walls re-sorted
+
+**B1011 (sealed `fc807f11`, prior OUTCOME A — held at every cell).** On B593's instrument,
+**⟨R,L⟩ = 2T×2I exactly** (2880 at two primes + Serre; 63 = 7×9 classes) and
+**ρ₆ ≅ (χ⊗V₂(2I)) ⊕ (V₂(2T)⊗V₂(2I))** — a **63/63 exact class-by-class character match** against an
+independent quaternion model, no float in any verdict line. **The object's hearing data is
+(E₆ McKay character)⊗(E₈ McKay spin) ⊕ (E₆ McKay spin)⊗(E₈ McKay spin)** — the two ends inside the
+hearing instrument. **B641's five tones and B856's period-5 are now THEOREMS** (the ζ-phase cancels
+χ since det ρ_odd = χ²; the class of RᵐLᵐ has period 5, h(5) = −1 in the twisted convention), and
+the **θ-even mirror law is delivered in closed form** — the five-tone family plus the quarter
+values, invisible to the chiral observable by theorem. Incoming from chat1 at 1.6e-14; exactified
+end-to-end. **The coupling layer now has a closed form** — what L150 and R10 needed.
+
+**B1012.** Two cc3 branch results verified exactly (integrate-don't-merge; branch at `59d9f26f`,
+66 commits past B921's harvest): **the k-blindness, sharpened to an equivalence** — S = −CS·k −
+Vol·σ exactly, so **∂S/∂k = −CS identically: blind-to-k ⟺ CS = 0 ⟺ amphichirality** — H11's
+"relocated to k" upgrades to **"relocated beyond the object's reach in principle"**; and **the CS
+normalisation closure — R4 DISCHARGED**: Brown–Henneaux + the gravitational CS level + S2's
+Einstein–Hilbert action close exactly, **c = 6σ forced**, and the reason c stays free is explicit —
+**the surviving level is the unquantized one.** The other 64 commits are **registered debt, not
+silent debt** (rank-wall scope, cell 9's parent, the conductor-4 complex: OWED; θ_QCD: REFUSED
+stands, functor-gated).
+
+**B1013.** The reclassification three seats converged on in one day (owner's diagnosis → chat1's
+criterion → cc3's on-branch check): **WALL / BOUNDARY / SPECIFICATION**, sorted in `THE_FRAMEWORK`
+Layer 5 — **four of the five classic walls are boundary/specification; the VALUE layer is the one
+real, tested wall, and no reframing touches a measurement.** The honest position: **a parameter
+reduction with a counted input list** (two 𝔽₂ bits, one scale, one Lie type) against nineteen
+fitted parameters — with every relocated burden kept as a **named open account**. `TERMINOLOGY.md`
+now names **two live collisions**: "conductor" (B1002) and **"level"** (congruence vs CS — the
+identification would be a category claim needing its own arc, and none exists).
+
 ## B1010 (2026-08-10) — the consolidation-loss audit: the owner was right, and the biggest loss is the matter face
 
 **"I think we lost one of the most important laws we got, exactly regarding matter" — CONFIRMED.**

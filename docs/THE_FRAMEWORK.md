@@ -159,6 +159,30 @@ invariant of the Hermitian pair.
 This is the layer that changed most in the last month. Each line is a *theorem with a named
 cause*, not an absence.
 
+> ### RE-SORTED 2026-08-10 (B1013; the owner's diagnosis, the audit seat's on-branch check, and a web seat's criterion — three seats converging in one day)
+>
+> **The sorting rule, adopted:** *a WALL is a well-posed question that is blocked; a BOUNDARY is a
+> question that presupposes something the framework denies; a SPECIFICATION is an input no
+> framework derives.* Sorted by that rule, the five lines below are **not five walls**:
+>
+> | line | sort | why |
+> |---|---|---|
+> | **scale** (ℓ, k) | **boundary + specification** | "what is α_s(M_Z)?" presupposes a renormalisation point the object lacks; and the object is **provably blind to k** (∂S/∂k = −CS = 0, B1012) |
+> | **rank / the 27-VEV** | **specification** | *"an input in every framework and canonical nowhere"* — this document's own sentence. Five arcs proved a shared specification is shared |
+> | **the 6d type J** | **specification** | free in every class-S construction; the object at least names E₆/E₈ at its ends |
+> | **time's arrow** | **boundary, probably** | the modular flow is canonical (Tomita–Takesaki); only its *direction* is free — a bit, not a mechanism |
+> | **values** | **THE ONE REAL WALL** | tested under seal, twice, **with demonstrated power the second time** (B1006), and null. **No reframing touches a measurement** |
+>
+> **The honest position is therefore not "five walls, all closed on every route." It is: given a
+> small counted input list — two 𝔽₂ bits (one contested between chirality and rank, B963), one
+> scale, one Lie type — the object determines the SM gauge algebra, the global ℤ₆ form (which the
+> SM itself cannot fix), hypercharge as the unique gaugeable direction, and the anomaly-free
+> structure — and it determines no dimensionful quantity, by theorem.** A parameter reduction with
+> a counted input list (cc3's Level-5 framing, adopted in B1009), against nineteen fitted
+> parameters. **Each reclassification names its denied presupposition and keeps its relocated
+> burden**: nature *has* a scale and *has* rank 4 — ours live in k and in the observer's Lie-valued
+> closing, and **both accounts stay open**, as accounts rather than failures.
+
 **Rank.** E₆ has rank 6; the cascade's landing site has rank 6; the SM has rank 4.
 **Centralizers of semisimple elements contain a maximal torus, so every measurement is
 rank-preserving** (B952). Closed on all routes: 63 inner sign-gradings (B959), the outer
@@ -180,8 +204,18 @@ type is discrete. The analogy was tested and rejected.)*
 **CS = 0 exactly**. So **the integer-quantized term vanishes identically and only the
 unquantized gravitational term survives.** The object cannot fix a scale because its own
 **amphichirality deletes the quantized half of its action.** That upgrades B413/B811's
-scale-free negatives from observation to explanation. *(Normalisation check owed before
-this is a claim rather than a lead.)*
+scale-free negatives from observation to explanation. *(The normalisation check formerly owed
+here is **DISCHARGED** — B1012, verifying cc3's three-entry closure exactly: G_N = 1/(4σ),
+**c = 6σ forced**, and S2's Einstein–Hilbert action reproduced through the CS dictionary
+unchanged. And the closure explains why c stays free: **the surviving level is the unquantized
+one.**)*
+
+> **Sharpened 2026-08-10 (B1012): ∂S/∂k = −CS identically, so the object's blindness to k is
+> EQUIVALENT to its amphichirality** — S = −CS·k − Vol·σ exactly, and CS = 0. H11's *"firewall
+> relocated to k"* therefore upgrades to **"relocated to a place the object cannot see in
+> principle"**: no deeper eigenvalue, face, or control can ever bear on k. Anything that fixes k
+> comes from the observer or the bulk, and neither is computed. **Every crossing that died on
+> transport died on this one fact** (L15 — a citation, not an open question).
 
 **Time, 4d, signature.** All the observer's: **no canonical arrow, no canonical 4d filling,
 no canonical Wick rotation** (B716). The object supplies four incompletenesses — space,

@@ -32,6 +32,14 @@ physics wall?"* is asking an ambiguous question — which is itself a large part
 
 > **Rule adopted: no arc, relay or report may say "the physics wall" unqualified.** Name which one.
 
+> **Second rule, adopted 2026-08-10 (B1013):** every named wall carries a **sort** — **WALL** (a
+> well-posed question that is blocked), **BOUNDARY** (a question presupposing something the
+> framework denies), or **SPECIFICATION** (an input no framework derives). The sort of record is in
+> `THE_FRAMEWORK` Layer 5: **four of the five classic walls sort as boundary/specification; the
+> value layer is the one real, tested WALL.** A reclassification must name the denied
+> presupposition and register the relocated burden — relabelling that discharges nothing is the
+> escape hatch this rule forbids.
+
 ---
 
 ## 2. WHAT "PARAMETER-FREE" MEANS, EXACTLY

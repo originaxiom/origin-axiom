@@ -453,6 +453,70 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1011": {
+   "slug": "mckay tensor",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "five_web"
+   ],
+   "refs": [
+    "B238",
+    "B248",
+    "B261",
+    "B592",
+    "B593",
+    "B641",
+    "B654",
+    "B856",
+    "L150"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1012": {
+   "slug": "branch verifications",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B303",
+    "B921",
+    "H11",
+    "L147",
+    "L15",
+    "S2"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1013": {
+   "slug": "wall resort",
+   "motifs": [
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B963",
+    "B990",
+    "S4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B101": {
    "slug": "hitchin reframing",
    "motifs": [
