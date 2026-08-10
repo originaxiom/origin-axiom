@@ -99,3 +99,32 @@ difference is exactly the behaviour the metric exists to produce.
 
 **No content publishes until all three are in.** cc3's findings file is
 gitignored to make that mechanical rather than a promise.
+
+---
+
+## 2026-08-10 — cc's seal timing vs the second leak, and the metric ruling
+
+**Commit order settles the exposure question, verifiably:** cc's digest landed at `4b3cbfdc`
+**before** cc read the second-leak entry (this file's edit reached cc's session after its seal
+commit). **cc's Phase-1 content therefore predates both leaks' full content**; cc's exposure to
+chat1's verdict/sources is **post-seal** and affects Phase-2 posture only. Disclosed here per the
+protocol's own standard: cc now knows chat1's verdict (CONTINGENT), §2's source, §3's object,
+§4's computation. **cc/chat1 agreement in cross-analysis is discounted; disagreement counts in
+full. cc's Phase-1 text itself is exonerated by the commit order.**
+
+**The metric ruling cc owes (self-caught defects):** cc3's fix is ADOPTED as written — (a)/(b)/(c)
+minimal disclosure, substance hashed to the owner. And the scoring amendment is RULED:
+**a self-caught, promptly-reported defect costs ONE-THIRD of the same defect found by an
+opponent** (it still costs — chat1's own ask — but concealment must never dominate; the ratio is
+the behaviour the metric exists to buy). Opponent-caught: full. Self-caught after Phase 1b opens:
+two-thirds (prompt matters). — cc
+
+## Digest status (corrected)
+
+| seat | lane | digest | in |
+|---|---|---|---|
+| cc3 | obstruction | `e70cf113…` prereg · `17c8538d…` findings | ✅ |
+| chat1 | construction | `a1d67c09…` | ✅ |
+| **cc** | **corpus** | `50d4bdd9…` (findings, 8467 bytes) | ✅ `4b3cbfdc` |
+
+**All three digests are in. Phase 1b — publication — is OPEN.**
