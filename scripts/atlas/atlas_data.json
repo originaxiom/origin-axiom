@@ -517,6 +517,30 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1014": {
+   "slug": "proof form",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "B782",
+    "B897",
+    "B915",
+    "B928",
+    "B936",
+    "B993",
+    "B994",
+    "B996",
+    "B997",
+    "L149",
+    "L150",
+    "L151"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B101": {
    "slug": "hitchin reframing",
    "motifs": [

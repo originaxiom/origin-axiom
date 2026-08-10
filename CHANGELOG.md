@@ -1,5 +1,30 @@
 # Changelog
 
+## B1014 (2026-08-10) — the proof-form: the derivation theorem closed, the anchors licensed, the claim on one page
+
+**Two owner decisions executed.** **(1) Proof-as-derivation is CLOSED:** `docs/THE_CLAIM.md` states
+**THE DERIVATION THEOREM** as one theorem — hypotheses = the counted input list (A1–A6 + A7's bit;
+two 𝔽₂ bits, one scale, one Lie type), conclusion = the SM structural skeleton as a **graded
+table** (COMPUTED / DERIVED / THEOREM / STRUCTURAL, arc by arc), controls stated **in** the claim
+(waypoint genericity, grammar uniqueness, endpoint discrimination honestly UNCOMPUTED — L149). The
+only STRUCTURAL arrows are the generation structure; **a STRUCTURAL grade is a named debt inside a
+closed proof, not a hole in an open one.**
+
+**(2) The anchor doctrine — the owner's bridge principle — is licensed BY THEOREM, not tolerated:**
+B782 (no equivariant section), B936 (frame-relativity), B1012 (k-blindness) prove the values-frame
+cannot be internal, so a bridge datum is *predicted-necessary*. Codified as **`CROSSING_REQUIREMENTS`
+R11**: at most one dimensionful + one dimensionless frame anchor, identity **sealed in advance**,
+**outputs − anchors > 0** (MB12 applied to anchoring), the anchor *choice* priced.
+**"Parameter-free" keeps its exact banked meaning: zero FREE dimensionless parameters.** Worked
+precedent: B915's single declared input. **L151** registered: the input typing *derives* the R11
+allowance — if the minimal working anchor set matches it, the accounting is a consistency theorem
+nobody designed.
+
+**The one-sentence claim:** *given four typed external data and at most two declared anchors, a
+single forced combinatorial object determines the Standard Model's structural skeleton — including
+a global-form refinement the SM cannot fix about itself — determines no dimensionful quantity by
+theorem, and leaves exactly one tested wall, on which it names its own next test.*
+
 ## B1011–B1013 (2026-08-10) — the hearing data is McKay⊗McKay; two branch results verified; the walls re-sorted
 
 **B1011 (sealed `fc807f11`, prior OUTCOME A — held at every cell).** On B593's instrument,

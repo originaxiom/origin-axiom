@@ -10065,3 +10065,14 @@ registered debt with dispositions.
 wall (values, tested, powered, null); the rest are shared specifications or denied
 presuppositions.** The counted-input-list framing adopted; the "level" terminology collision named
 before it costs an arc.
+
+---
+
+## B1014 (2026-08-10) — the proof-form: derivation closed, anchors licensed, the claim stated
+
+`docs/THE_CLAIM.md`: **the Derivation Theorem closed** (graded table, every arrow banked, controls
+in the claim), **the Anchor Doctrine licensed by theorem** (B782/B936/B1012 — the values-frame
+cannot be internal, so the bridge datum is predicted-necessary; R11 with three teeth;
+parameter-free = zero FREE dimensionless parameters), and **the Prediction Channel** (one real
+wall; the coupling layer's closed form; L149/L150 gating). **L151**: the anchor budget as a
+structural prediction. README carries the pointer.

@@ -39,10 +39,14 @@ success grade.
 | **R8** | an **honest declared prior**, written before compute | B925's discipline (it held) |
 | **R9** | **shape-only outcomes graded explicitly below success**; designer contamination acknowledged in the seal | B929's own caveat |
 | **R10** | the **frame question adjudicated first**: B936 (pair values frame-relative) vs B856 (coupling forces a value) cannot both govern the candidate — **L150 decides which applies** | B1010 (the un-joined value eras) |
+| **R11** | **THE ANCHOR RULE (owner-approved 2026-08-10):** at most **one dimensionful + one dimensionless frame anchor**, licensed *by theorem* — B782 (no equivariant section computes the closing choice), B936 (the pair's values are frame-relative), B1012 (the object is provably blind to k): **the framework proves its values-frame cannot be internal, so a bridge datum is predicted-necessary, not tolerated.** Three conditions: (i) the anchor's **identity is sealed in advance** — a post-hoc anchor is a fit; (ii) **independent dimensionless outputs − dimensionless anchors > 0**, else the cell is vacuous (MB12); (iii) the **choice of anchor is priced** in the look-elsewhere ledger. *"Parameter-free" retains its banked meaning: zero FREE dimensionless parameters.* Worked precedent: the first crossing's single declared input, "the observer's own probe" | the owner's bridge principle · B782 B936 B1012 · B915 |
 
 ## 3. THE PREPARATION ORDER — derived from the requirements, not chosen
 
-R2, R3, R4, R10 all point at computations already registered:
+R2, R3, R4, R10, R11 all point at computations already registered:
+
+0. **declare the anchor set** (R11) — *before* L150 and L149, since the junction's frame question
+   and the anchor choice interact
 
 1. **L150 — the tone↔Hermitian junction** (decides R10; most likely single source of the candidate)
 2. ~~X25/X21 — the CS/grav normalisation~~ **DONE — R4 discharged (B1012)**

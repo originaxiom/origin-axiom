@@ -1,5 +1,8 @@
 # Origin Axiom
 
+> **The one-page proof-form statement — what is proved, in the form it is proved in:**
+> **[`docs/THE_CLAIM.md`](docs/THE_CLAIM.md)** *(B1014, 2026-08-10).*
+>
 > ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
 >
 > **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every

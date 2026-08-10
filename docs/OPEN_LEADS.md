@@ -1455,3 +1455,22 @@ what survives frame-change in the Hermitian layer (compute it).** Two outcomes, 
   never priced, and `WHAT_WOULD_COUNT` needs a scope note either way.
 
 **Kind gate first** (B856's JUNO lesson): before any SM contact, the kind table for both families.
+
+---
+
+## L151 — THE ANCHOR BUDGET AS A STRUCTURAL PREDICTION (registered 2026-08-10, from the owner's bridge principle, B1014)
+
+**The idea.** The framework's counted input list (B1000/S4: two 𝔽₂ bits, one scale, one Lie type)
+should *predict its own anchor budget*: the bits and the Lie type are discrete (no continuous
+freedom), leaving **one dimensionful + at most one dimensionless frame anchor** as the *derived*
+allowance — exactly R11's licensed set. **If the minimal anchor set that makes coupling-predictions
+land equals the derived allowance, the accounting itself becomes a checkable structural claim** —
+the proof-standard and the object's own input-typing agreeing would be a consistency test nobody
+designed.
+
+**Two-outcome:** **MATCH** — the anchor budget is a theorem-shaped consequence of the input typing;
+bank it as one. **MISMATCH** — either the typing is incomplete (S4 revisited) or the anchor
+doctrine over- or under-licenses (R11 revisited). Either outcome corrects something.
+
+**Kind gate first, as always** (B856's lesson): the anchor and the predicted output must be
+kind-admissible before any SM contact.
