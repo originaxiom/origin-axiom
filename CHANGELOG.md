@@ -1,5 +1,38 @@
 # Changelog
 
+## B1026 (2026-08-10) — one involution, six names: the substrate record swap IS the sl(n) opposition involution
+
+**CONSOLIDATION REFRESH, band B0–B99.** Reading the base mathematics in order, the same map is
+introduced **six times under six names**: the **record swap** `P` (B16) = the **half-step**
+`F=LP`, `F²=A` (B14) = the **trace map's generator**, `T` being the lift of `F` and *not* of `A`
+(B18) = the **exchange involution** block-diagonalizing the fixed-line Jacobian for all `c`
+(B51/B54) = the **opposition involution `θ=−w₀`** (B62) = the **contragredient**, whence Dickson
+parity (B64); B74 adds W_N charge conjugation as the same `−w₀`.
+
+**All six re-verified from first principles** (campaign step 5 — never restore from memory), by
+a script importing nothing from the arcs it verifies. **13 locks.**
+
+**The bridge:** the exchange involution on trace coordinates is `W↦W⁻¹`, and on `A_{n−1}` the
+contragredient acts on weights as `−w₀`. **Why it was missable: `tr(g)=tr(g⁻¹)` in SL(2)** — the
+map is trace-trivial at the object's own rank, becoming visible only at rank 3, exactly where
+the tower literature names it afresh.
+
+**The diff:** THE CHAIN's C12 carries the splitting as *"θ-equivariant"* but never cites B62 nor
+reaches B16; `K005` carries `−w₀` but never connects it to `P`; **`LAW_MAP` and `THE_FRAMEWORK`
+carry zero occurrences** of the four terms. **Exactly one arc cites B16.**
+
+**Consequence, scoped:** B16 proves `P` is not forced by A1–A6 (*"still an axiom"*) and it is
+absent from `THE_CLAIM`'s counted input list — **but the derivation theorem is undisturbed**,
+its chain never passing through the half-step. What rests on it is the **trace-map substrate**
+(the twelfth face, the SL(n) tower, the `I=1/4` line, C5 — 45 % of probes). **A7 not reopened.**
+
+**Second finding, from the verification failing first:** B62's height-2 splits and P33's closed
+form are **both correct on different undeclared conventions** — **B62 = 2×P33** (full height-±h
+space vs positive roots). Error class **E1**, now locked.
+
+**No novelty claimed;** B62's grade carried unchanged. Gate 5 untouched; nothing to `CLAIMS.md`.
+`docs/THE_SM_VERDICT.md` given the currency read `doc-currency` flagged — **verdict unchanged**.
+
 ## B1025 (2026-08-10) — the suite did not run: three unguarded optional imports, and a gate that measures the wrong thing
 
 **Found while executing the CONSOLIDATION REFRESH's first band (B0–B99)** — by running the locks

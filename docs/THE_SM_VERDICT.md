@@ -238,3 +238,36 @@ up to one bit, and the bit is where φ enters). **Tier 1 substantially complete*
 and the hypercharge direction (B864) genuinely DERIVED**, which is full credit by that document's own
 bar. **Tier 2 — one sealed dimensionless ratio no class-sibling shares — remains NOT DONE**, and
 B993 explains why it is hard rather than merely unattempted.
+
+---
+
+## Currency read, 2026-08-10 (B1025/B1026) — the verdict is UNCHANGED, and here is why
+
+*Recorded by the CONSOLIDATION REFRESH's band B0–B99 pass, because `doc-currency` flagged this
+surface as owed a read. A currency note that merely bumped a citation would be the
+staleness this gate exists to catch; so what follows is the read.*
+
+**Nothing in B1024–B1026 touches this verdict, and the reason is scope, not silence:**
+
+- **B1025** is an INSTRUMENT arc (the suite collected zero tests on a conforming clone; three
+  unguarded optional imports; repaired and locked). It changes no claim, no ledger row, no
+  verdict. It does sharpen one thing this document depends on: **the locks behind every arc
+  cited here were, on a clone following `requirements.txt`, not running at all.** They collect
+  now (3837), which makes the evidence base checkable rather than nominally checkable.
+- **B1026** identifies the substrate record swap `P` with the `sl(n)` opposition involution
+  `θ = −w₀`, and shows the exchange-symmetry axiom is **outside A1–A6** and absent from
+  `THE_CLAIM`'s counted input list. **This does NOT enter the SM verdict**, and the scope is
+  stated in the arc: the derivation chain `A → m004 → ℚ(√−3) → 2T → E₆ → cascade` **never
+  passes through the half-step or the trace map**. The uncounted axiom is load-bearing for the
+  trace-map substrate (the twelfth face, the SL(n) tower, the `I=1/4` line, C5) — a large
+  surface, but not this one.
+
+**One consequence that IS relevant, and it cuts in this document's favour.** §above's central
+worry is *class-vs-member*: the derivation is *"a theorem about the class ℚ(√−3), plus a theorem
+about E₆, joined by a fact one hyperbolic 3-manifold in three possesses,"* and the one door left
+open is that **object-specificity, if it exists, lives at the group level**. B1026's chain is a
+statement about the **substrate** (`GL(2,ℤ)`, the two records, the shears) — which is *upstream*
+of the manifold and therefore neither class- nor member-level. **It is a third register**, and
+it is not the register the open door names. So it neither closes nor widens that door.
+
+**Net: Tier 0 complete, Tier 1 substantially complete, Tier 2 NOT DONE — unchanged.**

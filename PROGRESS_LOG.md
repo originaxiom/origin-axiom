@@ -10180,3 +10180,57 @@ cheap fix is named in the arc — require the cited file to mention the link's a
 
 Instrument lane; Gate 5 untouched; no mathematical claim, ledger row or verdict changes. This
 arc does **not** claim a green suite — only that the suite now collects where it collected none.
+
+---
+
+## B1026 (2026-08-10) — one involution, six names: the substrate record swap IS the sl(n) opposition involution
+
+**CONSOLIDATION REFRESH, band B0–B99** (the owner's directive of 2026-08-10: *"read B0→B1010
+systematically … refresh all consolidations"*), executed in the campaign's prescribed order —
+the base mathematics first.
+
+**The finding.** Reading the band in order, the same map is introduced **six times under six
+names**: the **record swap** `P` (B16), the **half-step** `F=LP`, `F²=A` (B14), the **trace
+map's generator** — `T` is the lift of `F`, *not* of `A` (B18), the **exchange involution**
+block-diagonalizing the fixed-line Jacobian for all `c` (B51/B54), the **opposition involution
+`θ=−w₀`** (B62's own words), and the **contragredient** giving Dickson parity (B64); B74 adds
+W_N charge conjugation as the same `−w₀`.
+
+**Re-verified, not restored from memory** (campaign step 5): `verify.py` recomputes all six from
+first principles, importing nothing from the arcs it verifies. `{X : X²=I, XLX⁻¹=R} = {±P}`
+with the weak control admitting **84** solutions so the criterion selects; `{X : X²=A} = {±F}`;
+`B(a,b)` has an integer orientation-reversing square root **iff a=b**; `t²−3t+1` appears in a
+symmetric-square lift exactly at `(det,|tr|)=(−1,1)`; `θ` flips the Dynkin diagram;
+`L_k(−m)=(−1)^k L_k(m)`. **13 locks.**
+
+**The bridge, elementary once written:** the exchange involution on trace coordinates is the
+contragredient `W↦W⁻¹`, and on `A_{n−1}` the contragredient acts on weights as `−w₀`.
+**Why it was missable: `tr(g)=tr(g⁻¹)` in SL(2)** — the map is trace-trivial at the object's own
+rank and first becomes visible at rank 3, exactly where the tower literature names it afresh.
+
+**The diff.** THE CHAIN's C12 carries the sector-splitting as *"θ-equivariant"* (B48/B54/B64)
+but never cites B62 nor reaches B16; `K005` carries `−w₀` anchored to B62/B74 but never connects
+it to `P`; **`LAW_MAP` and `THE_FRAMEWORK` carry zero occurrences** of opposition / exchange
+symmetry / record swap / half-step. **Exactly one arc cites B16.**
+
+**Consequence, at its stated scope.** B16: *"A1-A6 … do not require the orientation-reversing
+swap … that axiom is plausible, but it is still an axiom"* — and it is **absent from
+`THE_CLAIM`'s counted input list**. **The derivation theorem is undisturbed**: its chain
+`A→m004→ℚ(√−3)→2T→E₆→cascade` never passes through the half-step. What rests on the uncounted
+axiom is the **trace-map substrate** — the twelfth face, the SL(n) tower, the `I=1/4` line, C5;
+the atlas measures that surface at **45 % of probes**. **A7 is not reopened** (B979: based-level
+vs class-level).
+
+**Second finding, produced by the verification failing first.** B62's height-2 splits
+(2,0)/(2,2)/(4,2) and P33's (1,0)/(1,1)/(2,1) are **both correct on different undeclared
+conventions** — B62 counts the full height-±h space, P33 positive roots, **B62 = 2×P33 exactly**.
+Error class **E1**, now pinned by a lock.
+
+**No novelty claimed** — contragredient = `−w₀` is textbook (`K005` says so); the content is the
+identification across the corpus's own six names plus the input-count consequence. B62's grade
+(*"a live structural result, not a theorem"*) is carried unchanged into the LAW_MAP row.
+Gate 5 untouched; nothing to `CLAIMS.md`.
+
+**Also this session:** `docs/THE_SM_VERDICT.md` given the currency read `doc-currency` flagged —
+verdict **unchanged**, with the reason recorded (B1026 is a *substrate*-level statement, a third
+register upstream of the class/member question that document's open door names).

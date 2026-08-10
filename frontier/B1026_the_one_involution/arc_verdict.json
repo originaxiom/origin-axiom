@@ -1,0 +1,22 @@
+{
+ "id": "B1026",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "ONE INVOLUTION, SIX NAMES, AND ITS FIRST LINK IS AN AXIOM OUTSIDE A1-A6. Reading band B0-B99 of the CONSOLIDATION REFRESH in order, the same map is introduced six times as if new: the record swap P=[[0,1],[1,0]] (B16), the half-step F=LP with F^2=A (B14), the trace map's generator -- T is the trace lift of F, NOT of A (B18), the exchange involution block-diagonalizing the fixed-line Jacobian for all c (B51/B54), the opposition involution theta=-w0 on sl(n) (B62, verbatim: 'the exchange involution P (tr W <-> tr W^-1) IS the opposition involution theta = -w0'), and the contragredient giving Dickson parity L_k(-m)=(-1)^k L_k(m) (B64); B74 adds W_N charge conjugation as the same -w0. ALL SIX RE-VERIFIED HERE from first principles by verify.py, which imports nothing from the arcs it verifies (campaign step 5: re-verify before restoring, never restore from memory): {X : X^2=I, XLX^-1=R} = {+-P} with the weak control admitting 84 solutions so the criterion selects; {X : X^2=A} = {+-F}; B(a,b) has an integer orientation-reversing square root IFF a=b; t^2-3t+1 appears in a symmetric-square lift exactly at (det,|tr|)=(-1,1), 32 hits, converse verified; theta is an involution, height-preserving, flips the Dynkin diagram; and L_k(-m)=(-1)^k L_k(m) for k=1..8. THE IDENTIFICATION THE CORPUS NEVER STATES is elementary once written: the exchange involution on trace coordinates is the contragredient W -> W^-1, and on A_{n-1} the contragredient acts on weights as -w0 -- the same map -- and it was missable because tr(g)=tr(g^-1) in SL(2), so the map is TRACE-TRIVIAL AT THE OBJECT'S OWN RANK and only becomes visible from rank 3, exactly where the tower literature picks it up under another name. DIFF: THE CHAIN's C12 carries the sector-splitting as 'theta-equivariant' citing B48/B54/B64 but never cites B62, never identifies theta with -w0, and never reaches B16; K005 carries -w0 anchored to B62/B74/B112/B118/B121 but never connects it to P or the substrate; LAW_MAP and THE_FRAMEWORK carry ZERO occurrences of opposition/exchange symmetry/record swap/half-step; exactly one arc cites B16. CONSEQUENCE, AT ITS HONEST SCOPE: B16 says 'A1-A6 ... do not require the orientation-reversing swap ... that axiom is plausible, but it is still an axiom', and THE_CLAIM's counted input list (six axioms A1-A6, one bit A7, five typed external data) does not contain it; but THE_CLAIM's DERIVATION THEOREM IS UNDISTURBED -- its chain A -> m004 -> Q(sqrt-3) -> 2T -> E6 -> cascade never passes through the half-step. What the uncounted axiom is load-bearing for is the TRACE-MAP SUBSTRATE: the twelfth face, the SL(n) tower (P21-P32), the Fricke-Vogt I=1/4 line, and C5 -- a surface the atlas measures at 45% of probes. A7 is NOT reopened: B979 settled it at the BASED level while the swap observation is CLASS level; the two roles of P are distinct and no document separates them. SECOND FINDING, produced by the verification FAILING FIRST: B62's height-2 splits (2,0),(2,2),(4,2) and CLAIMS P33's closed form (1,0),(1,1),(2,1) are BOTH CORRECT ON DIFFERENT UNDECLARED CONVENTIONS -- B62 counts the full height-+-h space, P33 counts positive roots, B62 = 2 x P33 exactly, totals 2(n-2) -- error class E1 (undeclared choice drift), now pinned by a lock. CLAIMS NO NOVELTY: contragredient = -w0 is textbook (K005 cites it as such); the content is the identification across the corpus's own six names plus the input-count consequence. B62's grade is carried unchanged ('a live structural result, not a theorem'). Gate 5 untouched; nothing to CLAIMS.md.",
+ "depends_on": [
+  "B13",
+  "B14",
+  "B16",
+  "B18",
+  "B22",
+  "B51",
+  "B54",
+  "B62",
+  "B64",
+  "B74",
+  "B979"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "consolidation-refresh seat (2026-08-10); mathematics lane, band B0-B99"
+}

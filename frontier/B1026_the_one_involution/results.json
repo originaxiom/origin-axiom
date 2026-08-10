@@ -1,0 +1,29 @@
+{
+ "all_ok": true,
+ "links": {
+  "link1_B16_exchange_unique_up_to_sign": {
+   "ok": true,
+   "detail": "strong set=2 (=\u00b1P: True); operational (LX)\u00b2=A set=2 (=\u00b1P: True); weak control |{det=\u22121, X\u00b2=I}|=84 (>2: True)"
+  },
+  "link2_B14_half_step_and_a_eq_b": {
+   "ok": true,
+   "detail": "{X : X\u00b2=A} = \u00b1F: True; B(a,b) has an integer orientation-reversing square root iff a=b on the 5\u00d75 grid: True "
+  },
+  "link3_B13_B22_selection_law": {
+   "ok": true,
+   "detail": "32 lifts contain t\u00b2\u22123t+1, every one with (det,|tr|)=(\u22121,1): True; converse holds: True; det=\u22121 \u27f9 (t+1) divides, always: True"
+  },
+  "link4_B62_opposition_involution": {
+   "ok": true,
+   "detail": "involution: True; height-preserving: True; Dynkin flip \u03b1_i\u21a6\u03b1_{n\u2212i}: True; P33 closed form (\u2308(n\u2212h)/2\u2309,\u230a(n\u2212h)/2\u230b) over POSITIVE roots: True; positive-root splits {3: (1, 0), 4: (1, 1), 5: (2, 1)}: True; B62's FULL-space splits {3: (2, 0), 4: (2, 2), 5: (4, 2)}: True; totals = 2(n\u22122): True. CONVENTION COLLISION: B62 = 2 \u00d7 P33, neither declares it"
+  },
+  "link5_contragredient_equals_minus_w0": {
+   "ok": true,
+   "detail": "\u2212w\u2080 permutes fundamental weights \u03c9_k \u21a6 \u03c9_{n\u2212k}: True; dim \u039b^k = dim \u039b^{n\u2212k}: True; contragredient is trace-trivial at SL(2) (why it is invisible at rank 2): True"
+  },
+  "link6_B64_dickson_parity": {
+   "ok": true,
+   "detail": "L_k(\u2212m) = (\u22121)^k L_k(m) for k=1..8: True ; det(M^k) = (\u22121)^k: True"
+  }
+ }
+}
