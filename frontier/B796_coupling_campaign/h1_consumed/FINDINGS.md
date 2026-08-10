@@ -171,3 +171,93 @@ in a manifold invariant the derivation does not touch — rather than attributed
 to the class or to E₆.
 
 Reproduce: `python3 rank_wall_scope.py`.
+
+---
+
+# THE WALL IS THE MEMBER'S, NOT THE FAMILY'S — exact, and it turns on 3 | m
+
+Run 2026-08-10, following the located cause upstream into the chain itself.
+
+## The homology of every metallic bundle, in closed form
+
+For the mapping torus of φ on the once-punctured torus,
+`H₁ = ℤ ⊕ coker(φ* − I)` on `H₁(fiber) = ℤ²`. For the metallic monodromy:
+
+```
+   φ = RᵐLᵐ = [[m²+1, m], [m, 1]]        trace = m² + 2
+   φ − I    = [[m²,   m], [m, 0]]        det = −m²
+   Smith:   gcd of entries = m,  d₁d₂ = m²   ⟹   d₁ = d₂ = m
+
+   ⟹   H₁ = ℤ ⊕ ℤ/m ⊕ ℤ/m
+```
+
+**Verified against SnapPy by constructing the bundles**, not by looking them up:
+
+| m | bundle word | manifold | H₁ | volume |
+|---|---|---|---|---|
+| 1 | `b++RL` | **m004** = 4₁ | ℤ | 2.029883213 |
+| 2 | `b++RRLL` | m136 | ℤ/2 + ℤ/2 + ℤ | 3.663862377 |
+| 3 | `b++RRRLLL` | **s464** | ℤ/3 + ℤ/3 + ℤ | 4.813819186 |
+| 4 | `b++RRRRLLLL` | t03910 | ℤ/4 + ℤ/4 + ℤ | — |
+
+The closed form holds exactly. (m136 appearing here also confirms it *is* the
+silver metallic manifold, which the class table had listed without the
+identification.)
+
+## The consequence
+
+`3-rank(H₁) = 1 + 2·[3 | m]`, so
+
+> **the rank wall is present ⟺ 3 ∤ m.**
+
+Tested against B955's own two targets:
+
+| m | manifold | ℤ₃×ℤ₃ | Heisenberg 3^{1+2} |
+|---|---|---|---|
+| **1 golden** | **m004** | **no** | **no** |
+| 2 silver | m136 | no | no |
+| **3 bronze** | **s464** | **YES** | **YES** |
+| 4 | t03910 | no | no |
+
+**The bronze metallic manifold admits both non-toral rank-reducing subgroups
+that m004 provably cannot.**
+
+## What this locates, and it is the whole point
+
+The chain's own structure, from `philosophy/P000`:
+
+> *"The family is determined; the member is contingent."*
+
+The **family** — the metallic bundles RᵐLᵐ — is determined by the four premises.
+The **member** m = 1 is selected by three criteria (systole, expansion threshold,
+arithmeticity), of which P000 says plainly *"no single criterion collapses the
+family to a member without importing extra structure."*
+
+**So the rank wall is a property of the contingent choice, not of the determined
+family.** It exists because m = 1, and it would not exist at m = 3.
+
+That is a sharper statement than anything the rank-reduction literature in this
+corpus contains. B952/B955/B959/B960/B962 close route after route; every one of
+those closures is downstream of a choice the programme's own philosophy labels
+**contingent**, and none of them says so.
+
+## Scope — stated tightly, because this is the kind of result that gets overread
+
+- **Computed:** the closed form `H₁ = ℤ ⊕ (ℤ/m)²`, verified on four bundles;
+  the 3-rank criterion; the surjection tests, by enumeration.
+- **Not claimed:** that s464 gives a working physics. **Nothing here computes its
+  trace field, its cascade, or whether the rest of the chain survives at m = 3.**
+  The bronze member may fail everything else — P000's three criteria pick m = 1
+  for reasons unrelated to rank, and B125's arithmeticity selector is an
+  {m = 1, m = 2} filter that **excludes m = 3 outright**.
+- **In particular:** if arithmeticity is required, m = 3 is already out, and the
+  wall is then *forced* by the selection rather than merely caused by it. **That
+  is the next thing to check and it is bounded** — compute s464's invariant trace
+  field and ask whether it is arithmetic.
+
+**The honest headline is therefore conditional:** the rank wall is caused by the
+member choice; whether that choice was itself forced by arithmeticity — making
+the wall unavoidable after all — is not settled here.
+
+Reproduce: the metallic table is in this arc's commit; bundles built with
+`snappy.Manifold('b++R…L…')`.
