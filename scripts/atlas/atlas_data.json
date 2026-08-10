@@ -722,6 +722,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1025": {
+   "slug": "suite collection repair",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic"
+   ],
+   "refs": [
+    "B849",
+    "B957",
+    "B960",
+    "B979",
+    "B998",
+    "P9"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B102": {
    "slug": "hitchin continuation",
    "motifs": [

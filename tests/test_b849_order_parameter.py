@@ -12,6 +12,14 @@ from pathlib import Path
 import pytest
 
 _ROOT = Path(__file__).resolve().parents[1]
+
+# `order_parameter.py` imports SnapPy at module scope, so executing it here imported SnapPy at
+# COLLECTION time. SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`), and the bare import
+# aborted collection of the whole suite on a clone without it — zero tests ran rather than this
+# module skipping. Guard before exec; the arc's own script is left untouched (it is a standalone
+# runner that legitimately requires SnapPy).
+pytest.importorskip("snappy", reason="SnapPy required by frontier/B849_order_parameter")
+
 _SPEC = importlib.util.spec_from_file_location(
     "b849", _ROOT / "frontier" / "B849_order_parameter" / "order_parameter.py")
 b9 = importlib.util.module_from_spec(_SPEC)

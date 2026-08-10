@@ -10135,3 +10135,48 @@ the σ license is **withdrawn**: the object is **sighted in σ** (∂S/∂σ = �
 candidate-forced** (c((E₆)₁) = 6 = B254's split) — **L154: if same-σ, c = 6 is DERIVED and the
 input list shrinks.** The run's first two-seat finding. Sealed files untouched throughout;
 the open lane consumes neither anchor type on every branch.
+
+---
+
+## B1025 (2026-08-10) — the suite did not run: three unguarded optional imports, and a gate that measures the wrong thing
+
+**Found while executing the CONSOLIDATION REFRESH's first band** (B0–B99), when the locks were
+run to check the band's claims rather than trust them.
+
+**The suite executed ZERO tests on a conforming clone.** With exactly `requirements.txt`
+installed — snappy is commented out there as **optional**, and `REPRODUCIBILITY.md` says *"the
+verified figure-eight constants are hard-coded and tested without it"* — `python3 -m pytest -q`
+returned `Interrupted: 3 errors during collection`. pytest aborts the whole run on a collection
+error, so this was not three skips: **the entire lock layer was silent** on the command the
+repo gives as its verification path.
+
+**Cause:** three module-scope imports — `tests/test_b461.py:2`, `tests/test_b719_scale.py:2`,
+and (indirectly, at collection time via `exec_module`)
+`frontier/B849_order_parameter/order_parameter.py:22` — against **37 modules already using
+`pytest.importorskip`** and nine more importing inside a function or `try`. The correct pattern
+was established; these three drifted. Exactly the ungated-practice decay `WORKING_RULES`
+§Enforcement predicts.
+
+**Repaired** in the repo's own idiom; the frontier arc's script left untouched (rule 9), the
+guard placed in the loader. **Measured: 0 collected + 3 errors → 3837 collected + 0 errors.**
+
+**Locked** by `tests/test_b1025_optional_deps.py` — six AST locks asserting the structural
+invariant, not a transcript (rule 7) — **with the vacuity demonstrated**: re-introducing the
+bare import fails 2 of 6, restoring gives 6 of 6.
+
+**Second finding, registered not repaired: `chain-locks` enforces citation hygiene, not locks.**
+It checks the cited test **file exists**, never that the file tests the link — so THE CHAIN's
+own bar (*"exact statement + banked computation location + green lock"*) is unenforceable by the
+gate that names it. Confirmed instance, disclosed by the ledger and re-verified:
+C2 cites `tests/test_b749_genesis_forks.py`, which holds exactly four tests (f5, f6, f4, f7)
+and **no F3 test** — as **B998 found by hand, because no gate could**. B1003 later closed F2 and
+F8; **F3 still has none**, and the gate passed throughout. Same family as the earlier *"three
+gates passing while the files they guarded had been deleted"*, whose fix covers a missing
+**file** and not a missing **test inside a present file**. **Scope: no chain link is false** —
+C1/C2 are classical, cited not re-proved; what is unbacked is the claim that they are locked
+*here*. Not patched in-arc: gate semantics are versioned-amendment-only (GOVERNANCE §11). The
+cheap fix is named in the arc — require the cited file to mention the link's arc id, and
+**report the coverage fraction** as `docs/views/COVERAGE.md` does.
+
+Instrument lane; Gate 5 untouched; no mathematical claim, ledger row or verdict changes. This
+arc does **not** claim a green suite — only that the suite now collects where it collected none.

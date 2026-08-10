@@ -1,5 +1,12 @@
-"""B719 lock — scale/multiplicity is the observer's (imported covering degree); h=3 pattern stands."""
-import snappy
+"""B719 lock — scale/multiplicity is the observer's (imported covering degree); h=3 pattern stands.
+
+SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`), so it is imported through
+`pytest.importorskip`: a bare top-level `import snappy` here aborted COLLECTION of the whole
+suite on a clone without it, so zero tests ran rather than these few skipping.
+"""
+import pytest
+
+snappy = pytest.importorskip("snappy", reason="SnapPy required for the covering-degree facts")
 
 def test_size_is_the_covering_index_not_a_scale():
     base = snappy.Manifold('m003(-2,3)'); bv = base.volume()

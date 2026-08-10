@@ -1,5 +1,13 @@
-"""B461 — locks: the rung-1 exact claims + the Borromean/Whitehead volume facts."""
-import snappy
+"""B461 — locks: the rung-1 exact claims + the Borromean/Whitehead volume facts.
+
+SnapPy is an OPTIONAL dependency (`REPRODUCIBILITY.md`: the verified constants are hard-coded
+and tested without it), so it is imported through `pytest.importorskip` — a bare top-level
+`import snappy` here aborted COLLECTION of the whole suite on a clone without it, so zero tests
+ran rather than these few skipping.
+"""
+import pytest
+
+snappy = pytest.importorskip("snappy", reason="SnapPy required for the census volume facts")
 
 
 def test_borromean_volume_two_octahedra():
