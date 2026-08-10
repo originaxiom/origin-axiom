@@ -1395,3 +1395,63 @@ widening it is a **sealed decision with a re-derivation attached**, not maintena
 
 **Blocked on nothing.** The measurement is done (`frontier/B1008_lexicon_epoch/epoch.py`); what is
 owed is the decision and its re-derivation.
+
+---
+
+## L149 — RUN THE CASCADE ON A NON-GOLDEN GRAMMAR (registered 2026-08-10, from B1009)
+
+**Why it exists.** Review 42 concluded *"matching the SM could never have confirmed the axioms."*
+**B1009 withdrew that as a scope overreach.** B996 and B993 establish that the **E₆ WAYPOINT** is
+generic — 5 of 7 metallic grammars at modulus 3, ~1 in 3 manifolds — **but nothing computes what a
+non-golden grammar produces DOWNSTREAM of E₆.** A repo-wide search over every `arc_verdict.json`
+found **no arc running the cascade on any m ≥ 2 grammar.**
+
+**And B997 cuts the other way:** at each word's own conductor the golden **is** unique, so the
+family members are **demonstrably not equivalent**. Assuming their cascades coincide is exactly the
+unearned step.
+
+**THE TEST.** Take the **silver** (m = 2) — the one non-golden member with the most banked
+machinery (conductor 8, shadow 32 of SL(2,ℤ/8), B675's ramified reduction, B666, L105) — and run the
+**measurement cascade** on it: does it yield a global **ℤ₆** form, a unique gaugeable **hypercharge
+direction**, and a **generation count**?
+
+**Two-outcome, and it cannot come back empty:**
+
+- **The silver's cascade also lands on the SM** ⟹ the withdrawn sentence becomes **true and banked**:
+  the endpoint carries no confirming power, and the programme's validation must rest entirely on the
+  grammar-level uniqueness (B997).
+- **The silver's cascade diverges** ⟹ **the SM match DOES discriminate**, the endpoint recovers
+  confirming power, and the golden's specialness is shown to propagate *through* the cascade rather
+  than stopping at E₆ — a materially stronger position than the programme currently claims.
+
+**Prerequisite (P0):** state the quantifier first. The cascade's rule was shown **rule-independent**
+by B994 for the *golden's* starting group; whether that transfers to another grammar is **part of
+what this test measures**, not an assumption it may make.
+
+---
+
+## L150 — THE TONE↔HERMITIAN JUNCTION: is the D₂/twist-norm data an instance of u†M_odd u? (registered 2026-08-10, from B1010)
+
+**The gap.** The programme has computed value-shaped quadratic forms in two eras that have **never
+been joined — zero co-citations across all four pairings** (B592×B912, B641×B928, B654×B936,
+B593×B909):
+
+- **old:** h = **u†M_odd u** — the coupling form; five exact tones; period-5 across the metallic
+  family; h(5) = −1; **Re h listener-invariant** — *"the coupling FORCES a value"* (B856);
+- **new:** **v†Hv on the 27** — the Hermitian pair, D₂ carrying the entire hierarchy (B923/B928),
+  the twist-norm law **frame-relative** (B936).
+
+**The tension is the point:** B856 says the coupling *forces* a value (listener-invariant); B936
+says the pair's values are *frame-relative*. Both are banked. **Either the two quadratic-form
+families are different objects (prove it), or the invariant part of the coupling (Re h) is exactly
+what survives frame-change in the Hermitian layer (compute it).** Two outcomes, both informative:
+
+- **JOIN** — exhibit the D₂/twist-norm data as an evaluation of the coupling form (or a precise
+  functor between the two): the frame-relativity of B936 becomes a *listener-frame* statement, and
+  the frame-invariant residue is the natural fourth-crossing candidate class
+  (`CROSSING_REQUIREMENTS` R10).
+- **SEPARATE** — prove the two families are not related by any of the object's canonical maps:
+  then the value layer has TWO independent value-shaped structures, which B1005's adjudication
+  never priced, and `WHAT_WOULD_COUNT` needs a scope note either way.
+
+**Kind gate first** (B856's JUNO lesson): before any SM contact, the kind table for both families.

@@ -18,6 +18,22 @@ closure.
 
 *Banked as B983 (the grounding) and B984 (the `doc-currency` gate that keeps these current).*
 
+**THE OWNER'S STANDING EPISTEMIC RULE (binding; added to the repo 2026-08-10 by B1009).**
+
+> *"Anything you say we don't have, or doesn't give us what we want, is either in the repo, or
+> needs to be meditated upon and figured out."*
+
+**"We lack X" is a HYPOTHESIS REQUIRING A SEARCH, never a conclusion.** Before writing it: grep the
+**code** (not claim lines), read `FINDINGS.md` **bodies**, and find **the script that produced** a
+number rather than the arc that received it. If the search is empty the honest words are **"not
+checked"**, never *"the object does not supply it."*
+
+**Why it is binding:** on 2026-08-09 this failed **nine times in one session** — B1007 rebuilt a
+Maass solver while a working sealed one sat on main; B1006 re-ran a check B922 had already done; two
+ladder rungs graded BLIND had computed arcs behind them. **In every case the unchecked input was the
+belief itself.** *(It was recorded only in a seat's machine-local memory until B1009's handoff test
+found that a fresh clone would not have it.)*
+
 **P0 is the one that catches the most:** state the quantifier in one sentence before computing.
 **A closure survives the relational re-read exactly when its scope sentence names no manifold.**
 

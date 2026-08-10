@@ -1,0 +1,22 @@
+{
+ "id": "B1010",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE CONSOLIDATION-LOSS AUDIT, FIRST PASS: THE OWNER WAS RIGHT, AND THE BIGGEST LOSS IS THE MATTER FACE. The owner's suspicion -- 'I think we lost one of the most important laws we got, exactly regarding matter' -- is CONFIRMED and the loss is structural. (1) THE LOST LAW IS THE KAPPA-UNIFICATION (B309, upgraded by B518): kappa = tr[a,b], ONE COMMUTATOR TRACE, FOUR FACES -- existence, geometry, MATTER, quantum; kappa = 2 iff the cancellation completes ('nothing'); kappa - 2 = omega^2 with |kappa - 2| = 1, the UNIT obstruction, the founding sentence as an equation; real form kappa = 2 + lambda^2 (P008 Fricke-Vogt positivity); THE MATTER FACE is arg(kappa) = -/+ pi/6 at u = omega and kappa - 2 = omega^2 -> Q(sqrt-3) -> 2T -> McKay-E6 -> THE CASCADE, i.e. the chain the entire SM-structure campaign (B860+) sits on; B518's upgrade makes kappa a SUBSTRATE-INDEPENDENT SCALE-FREE UNIVERSALITY CLASS with the four faces derived from the two SL(2,Z) letters. RE-VERIFIED HERE EXACTLY before restoration (sympy): kappa - 2 = omega^2, |kappa - 2| = 1, arg = -pi/6, all TRUE. THE LOSS MEASURED: LAW_MAP (born 2026-07-16, AFTER B309) cites B309 ZERO times and B518 ZERO times, sixteen scattered kappa mentions but never the unification; THE_FRAMEWORK (born 2026-08-09) contains ZERO OCCURRENCES OF KAPPA AT ALL, its Layers 0 to 2 jumping the bridge equation that says why Q(sqrt-3), hence why E6, hence why the cascade. B309's own text already recorded the cost: two web-Opus seats independently re-discovered the kappa-obstruction as if it were a buried center -- the recompute-3-4-times pattern operating on this exact law in June. RESTORED: LAW_MAP section D gains the row, THE_FRAMEWORK Layer 0 gains the bridge. (2) THE SECOND CATCH, ALSO THE OWNER'S: u+Mu, THE VALUE-AS-COUPLING LAW -- B592/B593 access law A_t - A_u = -2 eps^2 u+M_odd u; B641/B654 five absolute tones {0, 1/(2phi), 1/2, phi/2, 1} = |chi_golden|/2; B856 the FAMILY law, period-5 across the metallic family, h(5) = -1 exact, Re h listener-invariant, THE COUPLING FORCES A VALUE RATHER THAN CARRYING ONE. Not lost from LAW_MAP (section B holds three rows) but lost three sharper ways: THE_FRAMEWORK's value layer has ZERO occurrences; THE TWO VALUE ERAS NEVER MET, zero co-citations across all four pairings (B592xB912, B641xB928, B654xB936, B593xB909) despite computing the SAME SHAPE, a quadratic form of an observer state against an object matrix (old: u+M_odd u; new: v+Hv on the 27); and B1005's no-live-candidate adjudication NEVER WEIGHED IT, the coupling-form family being outside B687's atlas and B743's tower -- honest scope: B856's one SM reading (JUNO) was REFUTED ON KIND, so it is not automatically live, but 'refuted on kind once' and 'considered by the falsifier adjudication' are different states and the record supports only the first. REGISTERED L150: is the D2/twist-norm data an instance of the u+M_odd u coupling form -- computable, never asked. (3) SMALLER LOSSES, same mode, recorded: B132 (field content = word-spin-mod-4, LAW_MAP 0), B221-B223 (matter from multiplicity, c = 7/10 IS M(4,5), emergent SUSY IR-only, LAW_MAP 0), and THE MATTER MAP (B285/B289/B294/B297 sharpened by B303: pi/6 magnitude bulk, CP-sign-exists seam, which-sign external = the sign of the CS clock under two named LEAPs, eta_B external) surviving only as the B303/B340 fragment stripped of the map structure. (4) THE MECHANISM OF LOSS: both consolidations were BORN AFTER the laws they lost and were populated FROM THE ERA IN WHICH THEY WERE WRITTEN, not from the corpus -- the same epoch-blindness B1008 measured in the atlas (0.995 where its lexicon was authored, 0.629 where it was not). THREE INSTRUMENTS, ONE FAILURE MODE: A CONSOLIDATION DESCRIBES ITS OWN ERA UNLESS FORCED TO READ THE WHOLE RECORD. This is the computed justification for the owner's systematic-refresh directive, now registered as the CONSOLIDATION REFRESH campaign in THE_CAMPAIGN.md. SCOPE: an audit arc; no new mathematics about the object; the restored laws' content is B309/B518/B592-B856's, re-verified not re-derived; Gate 5 untouched.",
+ "depends_on": [
+  "B309",
+  "B518",
+  "B592",
+  "B593",
+  "B641",
+  "B654",
+  "B856",
+  "B1008",
+  "B1005",
+  "B297",
+  "B303"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc verification seat (2026-08-10)"
+}

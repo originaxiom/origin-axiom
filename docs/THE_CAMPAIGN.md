@@ -74,6 +74,34 @@ Not by interest. By **what a failure teaches**, cheapest-informative first:
 | 23 | **X6** strong CP · **X7** neutrino mass | L110 has no registered obligation set |
 | 24 | **X3–X5** dark matter · inflation · big bang | one cosmology specification ledger, not three probes |
 
+## THE CONSOLIDATION REFRESH — the standing campaign the losses forced (owner directive, 2026-08-10)
+
+**The finding that forced it (B1010):** both consolidations were **born after the laws they lost**
+and were populated from the era in which they were written — LAW_MAP (2026-07-16) never carried the
+κ-unification (B309, ~2026-07-01); THE_FRAMEWORK (2026-08-09) contained **zero occurrences of κ**.
+The atlas has the same disease, measured (B1008: 0.995 coverage in its own era, 0.629 in the
+current one). **Three instruments, one failure mode: a consolidation describes its own era unless
+forced to read the whole record.** The owner's directive stands: *read B0→B1010 systematically,
+read every doc in `docs/`, refresh all consolidations.*
+
+**The discipline (per band of ~100 arcs, in order B0→):**
+
+1. read every `arc_verdict.json` AND its `FINDINGS.md` body — claim lines are not the surface
+   (B1006/B1007's lesson, P3 step 5);
+2. extract every **law-shaped** result (a named invariant, an exact identity, a forced value, a
+   proved impossibility);
+3. **diff against LAW_MAP + THE_FRAMEWORK**: present, fragmentary, or absent;
+4. absent/fragmentary → a row in the **consolidation-debt ledger** (the band's deliverable), each
+   row citing arc + the missing statement verbatim;
+5. restorations bank as arcs (the B1010 pattern: re-verify the identities before restoring —
+   never restore from memory);
+6. a band is DONE when its debt rows are either restored or explicitly declined with a reason.
+
+**Order:** B0–B100 first (the base mathematics — the owner's own instruction), then B500–B800 (the
+least-consolidated middle), then B100–B500, then B800+ (freshest, least likely lost). **Two bands
+are already partially done:** B200–B310's matter complex (B1010 §1–§3) and B590–B660's value
+complex (B1010 §2).
+
 ## THE BOUNDED RUNGS ARE NOT WORK ITEMS
 
 **X19–X24** (rank, adjoint matter mass, scale, time/4d/signature, the 4d lift, the 27-VEV) are

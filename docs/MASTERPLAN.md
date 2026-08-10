@@ -27,9 +27,26 @@
 >
 > > ### Reaching E₆ is generic. Being the golden is unique. The object's specialness lives in its GRAMMAR, not its DESTINATION.
 >
-> **Therefore matching the Standard Model could never have confirmed the axioms — even if it had
-> worked.** The programme spent three campaigns aiming at the endpoint for validation while the
-> uniqueness sat at the beginning. **That is a strategic correction, and it is banked, not felt.**
+> **CORRECTED 2026-08-10 by the verification seat (B1009) — the original sentence here over-reached
+> and is withdrawn.** It read: *"therefore matching the Standard Model could never have confirmed the
+> axioms — even if it had worked."* **What the cited arcs support is narrower and is about the E₆
+> WAYPOINT, not the SM ENDPOINT:** B996's own words are *"reaching E6 is not evidence C1–C5 were
+> right **if a third of entry points reach E6 too**"*, and B993 says the same at the manifold level
+> (~1 in 3). **Neither computes what a NON-GOLDEN grammar produces DOWNSTREAM of E₆** — the ℤ₆ form,
+> the hypercharge direction, the generation count, the matter reps. **A repo-wide search finds no arc
+> that runs the cascade on any m ≥ 2 grammar**, so the SM-match's discriminating power beyond E₆ is
+> **UNCOMPUTED, not zero.**
+>
+> **And B997 cuts the other way, which is why the overreach matters:** at each word's *own* conductor
+> the golden **is** unique, so the family members are **demonstrably not equivalent** — evidence
+> against assuming their cascades coincide. *(cc3's independent synthesis reads B996 the same way:
+> the specificity **descends three populations and survives at the bottom as a proof**.)*
+>
+> **What stands:** **the E₆ waypoint cannot confirm the axioms**, and the uniqueness that does exist
+> lives in the **grammar**. **What is now a registered, runnable test (L149): run the cascade on a
+> non-golden metallic grammar.** If the silver also yields ℤ₆ + hypercharge + 3 generations, the
+> withdrawn sentence becomes true and is banked as such; if it does not, the SM match **does**
+> discriminate and the endpoint recovers confirming power. **Two outcomes, neither assumed.**
 >
 > **4. The crux, stated so it can be held honestly.** The observer-coupling reorientation says values
 > live in the **observer–object coupling**, not in the object. If that is right, the object *should

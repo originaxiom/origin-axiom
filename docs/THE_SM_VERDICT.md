@@ -151,10 +151,26 @@ charge-orbit work, where integrality is physically forced — and **has never to
 |---|---|---|
 | 1 | **L138** — does the object's cubic pick a rational two-27 orbit? | the only live route to a distinguished VEV |
 | 2 | **L134** — the **twelve exotic states per generation** (27 = 16+10+1) | any E₆ model must make them heavy; **never addressed here** |
-| 3 | ~~**L132**~~ — **LARGELY ANSWERED by B864** (hypercharge direction derived). What remains: the normalisation (not derivable — homogeneous) and whether the SMT's u(1)³ *is* (Y, χ, ψ), which B953 **inferred** rather than computed |
+| 3 | ~~**L132**~~ — **CLOSED (B864 + B991 + B992, currency pass 2026-08-10).** Direction derived (B864); normalisation **not derivable in principle** (homogeneous — B991, closed for everyone); and the SMT's u(1)³ **= span(Y, χ, ψ), COMPUTED** (B992: the Cartan-intersection is exactly 3-dimensional and they fill it — no longer inferred) |
 | 4 | **L135 / the presence side** | owed to the solo seat; the frame instrument now exists (B961) |
 | 5 | **L137** — the value/pencil split in the thinning pattern | post-hoc; needs its own seal |
-| 6 | the **global ℤ₆ form**, strong CP, the hierarchy, ν-mass | never addressed; listed so they are not forgotten |
+| 6 | strong CP, the hierarchy (naturalness), ν-mass | never addressed; listed so they are not forgotten. *(The global ℤ₆ form was removed from this row 2026-08-10 — it is **DERIVED** (B862), as this document's own amendment banner says; carrying it here contradicted the banner. On strong CP: an amphichirality argument was proposed by cc3 and **refused pending the functor step** — B1009; the row stands.)* |
+
+## 5b. CURRENCY PASS (2026-08-10, B995–B1010) — what moved since B994
+
+- **The value question hardened: falsifier 2 FIRED (B1005).** Every one of B687's 23 enumerated
+  dimensionless invariants is dead (B686/B703/B743, Koide included). **Tier 2 has no live
+  candidate from the enumerated space** — a fourth crossing needs a candidate outside it, and
+  `CROSSING_REQUIREMENTS.md` (2026-08-10) now binds what such a seal must contain.
+- **The external inputs are counted (B1000): five closings over four sectors, charge taking two —
+  and B963 proves the two compete.** The interface is finite; the open question is its typing.
+- **The endpoint's confirming power is UNCOMPUTED, not established (B1009/L149):** no arc runs the
+  cascade on any non-golden grammar, so an SM match's discriminating power beyond E₆ is unknown.
+  **The uniqueness that IS proved sits at the grammar level (B997/B1002):** the golden is the
+  unique metallic grammar whose own-conductor shadow is a McKay group.
+- **The value-as-coupling law is restored to the synthesis layer (B1010):** u†M_odd u forces
+  listener-invariant values (B856) while the Hermitian pair's values are frame-relative (B936) —
+  **L150** adjudicates; it is the likeliest source of a fourth-crossing candidate.
 
 ## 6. WHAT THIS VERDICT IS NOT
 

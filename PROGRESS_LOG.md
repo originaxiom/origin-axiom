@@ -10006,3 +10006,43 @@ rank, generation, cascade, centralizer, observer, hypercharge, anomaly, Higgs, v
 **B806's thesis is strengthened:** a statistic about the object would be stable; this one is fitted
 to an era. **The atlas's reliability is epoch-dependent and weakest where the programme now is.**
 Widening the lexicon is registered as **L148**, not done here.
+
+---
+
+## B1009 (2026-08-10) — the verification pass: 4 confirmed, 1 overreach withdrawn, 1 incoming claim refused
+
+**The model switch did what it was for.** A fresh seat audited the outgoing one. **4 of 5 items
+confirmed clean** (B1008's re-derivation is genuine and mutation-tested; B1007's flip verified via
+seal hash `169e9042`; X1/X2's quotes verbatim; the kill-graph routing correct).
+
+**One headline withdrawn from five reader-facing docs:** *"matching the SM could never have confirmed
+the axioms"* over-extends B996/B993 from the **E₆ waypoint** to the **SM endpoint**. **No arc runs
+the cascade on a non-golden grammar** — the discriminating power is **uncomputed, not zero** — and
+**B997 cuts the other way**. **L149** registered as the runnable test.
+
+**One incoming cc3 claim refused:** *"θ_QCD = 0, parameter-free"* is unbanked, contradicts
+`THE_SM_VERDICT` and ladder X6, and rests on the repo's **named recurring θ-conflation** (B780
+retracted, cc3's own B784 refuted — this would be the third).
+
+**Converged:** cc3 reached the relational reading independently, and **its** reading of B996 was
+right. **Both syntheses contained the error they diagnose.** cc3's framing adopted: **not a ToE, but
+a parameter reduction with a counted input list.**
+
+**Handoff gap closed:** the owner's standing rule was machine-local only; now in `WORKING_RULES §0`.
+
+---
+
+## B1010 (2026-08-10) — the consolidation-loss audit: the owner was right about the matter law
+
+**The κ-unification (B309/B518) — κ = tr[a,b], four faces, the matter face being κ−2 = ω² →
+ℚ(√−3) → 2T → E₆ → the cascade — was in NEITHER consolidation:** LAW_MAP cited it zero times,
+THE_FRAMEWORK contained zero κ. **Restored to both, identities re-verified exactly first.**
+
+**u†Mu (the value-as-coupling law, B592→B856)** was absent from the framework's value layer and
+**never joined to the modern Hermitian layer** (zero co-citations, same shape) — restored, with the
+junction registered as **L150** and a scope note on `WHAT_WOULD_COUNT` falsifier 2.
+
+**The mechanism:** consolidations born after the laws they lost, populated from their own era —
+B1008's epoch-blindness, now measured in three instruments. **The CONSOLIDATION REFRESH campaign
+is registered** with its per-band discipline, and `CROSSING_REQUIREMENTS.md` binds any fourth
+crossing to ten requirements extracted from the three failures.

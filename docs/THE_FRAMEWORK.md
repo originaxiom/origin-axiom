@@ -27,6 +27,14 @@ The aAbB principle is not a metaphor here. It is **A1–A4** of the uniqueness t
 | **A5** | the first *mixed* closure is torsion-free | forces the word to be **mixed** — aAbB, not aA |
 | **A6** | minimality (first hyperbolic class) | picks the **smallest** such object |
 
+> **THE BRIDGE EQUATION (B309/B518 — restored 2026-08-10 by B1010; it was absent from this
+> document since its creation): κ = tr[a,b].** The founding sentence — *existence is a frustrated
+> cancellation* — is this one number: **κ = 2 ⟺ the cancellation completes ⟺ nothing**, and the
+> object sits at **κ − 2 = ω²**, the *unit* obstruction (|κ−2| = 1, arg κ = ∓π/6). **Everything
+> below is a face of κ ≠ 2**: the geometry (the seam is [a,b], the cusp holonomy), the **matter
+> chain — κ−2 = ω² → ℚ(√−3) → 2T → McKay-E₆ → Layer 3's cascade** — and the quantum structure (the
+> TQFT quantization). B518: substrate-independent, scale-free, derived from the two letters alone.
+
 > **A1–A6 force the persistent sector `A = LR = [[2,1],[1,1]]`, and from `A` the entire
 > proven core P1–P16 follows as exact consequences.**
 
@@ -120,6 +128,17 @@ was doing GUT symmetry breaking all along without calling it that.
 ---
 
 ## LAYER 4 — THE VALUE LAYER
+
+**The value-as-coupling law (B592/B593 → B641/B654 → B856 — restored 2026-08-10 by B1010; this
+layer had zero occurrences of it):** what a coupled listener receives is the quadratic form
+**u†M_odd u** of *its own state* against *the object's monodromy* (A_t − A_u = −2ε²·u†M_odd u);
+its values are **five absolute tones {0, 1/(2φ), 1/2, φ/2, 1}** = |χ_golden|/2; and across the whole
+metallic family the coupling obeys a **period-5 law with h(5) = −1 exact and Re h
+listener-invariant** — *"the coupling FORCES a value rather than carrying one"* (B856). **This is
+the observer-coupling reorientation as a theorem, and it is the banked prototype of "predict the
+coupling, not the values."** Its relation to this layer's Hermitian forms (v†Hv on the 27, D₂, the
+twist-norm law) is **an open, computable question — L150**: the two eras compute the same shape and
+have never been joined. *Honest scope: B856's one SM reading (JUNO) was refuted on kind.*
 
 Exact arithmetic, no fitting: **I = −1** as the Leibniz sign (B908); **λ = 2304/953**
 forced, with 2304² = 2¹⁶·3⁴ **derived** (B931); the **one-class theorem** and its

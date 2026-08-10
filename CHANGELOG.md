@@ -1,5 +1,81 @@
 # Changelog
 
+## B1010 (2026-08-10) — the consolidation-loss audit: the owner was right, and the biggest loss is the matter face
+
+**"I think we lost one of the most important laws we got, exactly regarding matter" — CONFIRMED.**
+
+> **The lost law is the κ-unification (B309, upgraded B518): κ = tr[a,b] — one commutator trace,
+> four faces: existence, geometry, MATTER, quantum.** κ = 2 ⟺ the cancellation completes;
+> **κ−2 = ω², |κ−2| = 1** — the founding sentence as an equation. **The matter face: κ−2 = ω² →
+> ℚ(√−3) → 2T → McKay-E₆ → the cascade** — the chain the whole SM-structure campaign sits on.
+
+**The loss, measured:** `LAW_MAP` (born 2026-07-16, *after* B309) cited it **zero** times;
+`THE_FRAMEWORK` (born 2026-08-09) contained **zero occurrences of κ at all** — Layers 0→2 jumped
+the bridge that says *why* ℚ(√−3), hence why E₆, hence why the cascade. B309's own text had already
+recorded the cost: two seats re-discovered the κ-obstruction *"as if it were a buried center."*
+**Restored to both, with the identities re-verified exactly first** (κ−2 = ω² ✓ · |κ−2| = 1 ✓ ·
+arg = −π/6 ✓).
+
+**The second catch (also the owner's): u†Mu — the value-as-coupling law** (B592/B593 → B641/B654 →
+B856: five exact tones; period-5 across the family; h(5) = −1; **"the coupling FORCES a value
+rather than carrying one"**). In LAW_MAP §B, but: **zero** occurrences in the framework's value
+layer; **zero co-citations** with the modern Hermitian layer (same quadratic-form shape, two eras,
+never joined); **never weighed by B1005**. Restored to the framework; the junction registered as
+**L150** (B936 frame-relative vs B856 coupling-forced — both banked, never adjudicated); a scope
+note added to `WHAT_WOULD_COUNT` falsifier 2.
+
+**Smaller losses recorded:** B132 (field content, LAW_MAP 0), B221–223 (matter from multiplicity,
+LAW_MAP 0), the matter map (surviving only as the B303/B340 fragment).
+
+**The mechanism, and the standing fix:** both consolidations were **born after the laws they
+lost** and populated from their own era — the same epoch-blindness B1008 measured in the atlas.
+**Three instruments, one failure mode.** The owner's systematic-refresh directive is now the
+**CONSOLIDATION REFRESH campaign** (`THE_CAMPAIGN.md`): per-band diff of every law-shaped result
+against the consolidations, restorations banked with identities re-verified, never from memory.
+
+**Plus:** `CROSSING_REQUIREMENTS.md` — the three crossings' comparative anatomy (assumed
+interpolation · wrong hemisphere · missing normalisation) as **ten binding pre-seal requirements**
+and the derived preparation order for a fourth crossing.
+
+## B1009 (2026-08-10) — the verification pass: 4 confirmed, 1 overreach withdrawn, 1 incoming claim refused
+
+**A fresh seat audited the seat that banked B1007/B1008 and Review 42**, under verify-don't-trust.
+
+**CONFIRMED (4/5).** B1008's re-derivation reproduces independently (0.8497 vs 0.8496 — differing
+only by its own added probe) and is **not a rationalized threshold**: the replacements test a
+*different and stronger* proposition, and mutation-testing shows the density lock fails if B801–900
+density rises 2.98 → 3.97, i.e. **exactly when the lexicon is widened**. B1007's flip verified —
+`branch_cell9_rung1_v2.py` carries seal hash `169e9042` (3×) with flint/arb throughout, and **B798's
+text does contain `"arb/mpmath Bessel"`**, so B798 stands. X1/X2's attributed closings appear
+**verbatim**. The kill-graph classifications are correct and their `fact_computed` earned.
+
+**WITHDRAWN — Review 42's headline, from five reader-facing documents.** It concluded *"matching the
+SM could never have confirmed the axioms."* **The cited arcs are about the E₆ WAYPOINT, not the SM
+ENDPOINT** — B996: *"reaching E6 is not evidence C1–C5 were right **if a third of entry points reach
+E6 too**."* **No arc runs the cascade on any m ≥ 2 grammar** (repo-wide search), so the SM-match's
+discriminating power beyond E₆ is **UNCOMPUTED, not zero**. **B997 cuts the other way:** at its own
+conductor the golden **is** unique, so family members are demonstrably not equivalent. **L149
+registered** as the runnable two-outcome test.
+
+**REFUSED — an incoming cc3 claim.** cc3's `STEPPING_BACK` lists **"θ_QCD = 0, parameter-free"** as
+delivered. **Not banked, and the repo says the opposite twice** — `THE_SM_VERDICT` row 6 (*"never
+addressed"*) and ladder **X6 BLIND**. **The likely mechanism is the programme's own named recurring
+conflation:** the repo's θ is a **reversal-and-contragredient involution on the character variety**;
+**θ_QCD is the QCD vacuum angle**. That conflation already produced **B780 (retracted)** and **cc3's
+own B784 (refuted)** — this would be its **third** appearance. Routed back, not merged.
+
+**CONVERGED, and it is the more valuable half.** cc3 independently reached *the object is one side
+of a relation* and *specificity descends three populations and survives at the bottom as a proof*
+(B997) — **cc3's reading of B996 is the correct one**, which is why the overreach is the outgoing
+seat's and not the material's. **Both seats' synthesis documents contained exactly the error their
+synthesis documents diagnose** — scope wider than evidence, not arithmetic. **cc3's Level-5 framing
+is adopted: the goal is not a ToE but "a parameter reduction with a counted input list."** Its
+delivered/price *ledger* is **not** adopted, one row being the θ_QCD claim killed above.
+
+**HANDOFF TEST — one real gap, now closed.** The owner's standing epistemic rule existed **only in
+machine-local agent memory**; a fresh clone on another bench would not have had it. **Now in
+`WORKING_RULES.md` §0.** Everything else reconstructed cleanly from the repo alone.
+
 ## B1008 (2026-08-09) — the atlas is blind in an epoch, and the blindness is where the programme now lives
 
 **B806's concentration statistic fell through the 0.85 floor its lock defended — and the floor was
