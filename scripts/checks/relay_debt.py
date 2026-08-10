@@ -47,7 +47,14 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 LEDGER = os.path.join(ROOT, 'docs', 'RELAY_LEDGER.md')
-RELAY_RE = re.compile(r'^(CC3_TO_CC|CC_TO_CC3)_(\d{4}-\d{2}-\d{2})_(.+)\.md$')
+# ANY seat to ANY seat. The first version hardcoded (CC3_TO_CC|CC_TO_CC3) --
+# a TWO-SEAT assumption -- and went blind the moment a third seat appeared:
+# CC3_TO_CHAT1_2026-08-10_GAP1_ACCEPTED.md was invisible to it on the day it
+# was written. Same failure as the PROPOSAL_RE gap below, from the same cause:
+# the pattern encoded the roster the author happened to know about. Do not
+# enumerate seats here.
+RELAY_RE = re.compile(
+    r'^([A-Z][A-Z0-9]*)_TO_([A-Z][A-Z0-9]*)_(\d{4}-\d{2}-\d{2})_(.+)\.md$')
 
 # Proposals are seat-to-seat work too, and they do NOT carry the relay naming
 # convention. Found the hard way: README_ARC_PROPOSAL.md went unadopted and
@@ -72,7 +79,7 @@ def find_relays():
     for fn in sorted(os.listdir(ROOT)):
         m = RELAY_RE.match(fn)
         if m:
-            out.append((fn, m.group(2), m.group(1)))
+            out.append((fn, m.group(3), f'{m.group(1)}->{m.group(2)}'))
             continue
         if PROPOSAL_RE.match(fn):
             out.append((fn, _git_date(fn), 'PROPOSAL'))

@@ -105,3 +105,4 @@ BANKED — that would be marking its own homework.
 | `CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CHAT1_2026-08-10_GAP1_ACCEPTED.md` | OPEN | _(disposition owed)_ |

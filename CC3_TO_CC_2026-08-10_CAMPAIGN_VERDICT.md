@@ -88,11 +88,49 @@ rhetorical.
 
 ### Gap 1: `⟨1⟩ ≠ 0` — does the E₆ singlet take a VEV?
 
-**Not closable inside the framework, and it is already counted.**
+**Already counted. The argument below was invalid and is replaced.**
 
-A VEV is the minimum of a potential; a potential is dynamics; **the framework has
+~~A VEV is the minimum of a potential; a potential is dynamics; **the framework has
 no dynamics** (Gate 5, and the object is timeless by construction — A2's
-invertibility). So this cannot be derived from the object.
+invertibility). So this cannot be derived from the object.~~
+
+> ### ⚠ ARGUMENT WITHDRAWN 2026-08-10 — chat1's correction, verified and accepted
+>
+> **"The framework has no dynamics" is false against banked work.** `B6` carries a
+> **derived potential** — `V(τ) = κ(τ³/3 − τ²/2 − τ)`, **P16**, critical points at
+> φ and −1/φ — and the arc states outright that *"unlike every Phase C probe, the
+> potential itself is no longer inserted — it is P16."* **Verified verbatim on
+> main.** The object is also literally a **suspension** (the mapping torus of
+> `[[2,1],[1,1]]`), and B449 uses *absence of a dynamics end* as the property that
+> disqualifies 5₂ — the figure-eight is in the programme because it **has** one.
+>
+> **The conflation was timeless ≠ no dynamics.** A2's invertibility gives
+> **time-symmetry** — no microscopic arrow — not the absence of dynamics. A
+> reversible Hamiltonian system is dynamics; an Anosov flow is dynamics.
+>
+> **Replacement:** *The object is time-symmetric — no microscopic arrow, A2
+> invertibility — and it has a derived potential for the monodromy scalar τ
+> (B6/P16). Whether a potential for the E₆ singlet is similarly derivable is
+> **unrun**. So `⟨1⟩`'s VEV is **currently** an input rather than **provably**
+> one.*
+>
+> **The conclusion survives, and on better ground than the argument it replaces.**
+> B1013 sorts `rank / the 27-VEV` as **SPECIFICATION** — and *not* on the withdrawn
+> argument. Its deciding fact is *"an input in every framework and canonical
+> nowhere"*, backed by five arcs, and `B962`'s prior-art scout independently
+> certifies it: **Q2** — the VEV direction is never derived in any framework found;
+> **Q3** — certified null, nobody has derived a GUT Higgs VEV direction from
+> arithmetic; **Q4** — F₄ is transitive on Jordan frames, so the choice has **no
+> canonical answer over ℝ or ℂ**, with *"the single exception in principle an
+> arithmetic/integral structure … the one live opening, and it is unworked."*
+>
+> **And B962 Q5 names a no-go this campaign never recorded:** *two 27 VEVs reach
+> SU(5), but **27 VEVs can never break SU(5) → the Standard Model**.* Confirmed
+> here by branching — `27 → 10 + 5̄ + 5 + 5̄ + 1 + 1` under SU(5), **no adjoint 24**.
+> This does **not** disturb `tau_vs_singlet`'s rank arithmetic (SU(5) and the SM
+> are both rank 4, so the 6 → 4 drop is still exactly `⟨1⟩` and `⟨ν^c⟩`), but the
+> **last cascade step needs structure outside the 27**, and no relay of mine says
+> so.
 
 **But it is not a new debt.** It is the **rank closing** — one of B1000's five —
 now carrying a *name* instead of being an unlabelled hole. That is the whole
