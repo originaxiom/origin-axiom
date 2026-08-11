@@ -72,8 +72,13 @@ def test_the_ladder_carries_the_generation_rung__the_repair():
 
 
 def test_the_b302_check_is_scoped_so_the_repair_cannot_erase_its_own_finding():
-    """The same measurement hazard as B1030, hit a second time and pinned rather than fixed
-    silently: 'B302 is on no curated surface' passed before the rung and failed after it, because
-    the rung cites B302. Scoped to the surfaces with X33 removed; both halves must hold."""
-    assert v.R["checks"]["b302_was_carried_by_no_curated_surface_before_this_rung"]["pass"]
-    assert v.R["checks"]["b302_is_now_cited_by_the_new_rung"]["pass"]
+    """The same measurement hazard as B1030 — and it fired TWICE inside this arc alone.
+
+    'B302 is on no curated surface' passed before the repair; failed once the X33 rung cited B302;
+    was scoped to exclude X33; then failed AGAIN once the LAW_MAP row cited B302 as well. The
+    scope is now by AUTHORSHIP (drop the rows this arc wrote) rather than by location, which is
+    the only version that survives adding a second row. Three instances in two arcs: a metric
+    invalidated by its own output is the shape of the coverage error this refresh had to retract.
+    """
+    assert v.R["checks"]["b302_was_carried_by_no_curated_surface_before_this_arc"]["pass"]
+    assert v.R["checks"]["b302_is_now_cited_by_this_arcs_rows"]["pass"]

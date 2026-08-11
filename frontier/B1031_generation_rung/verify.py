@@ -124,11 +124,20 @@ chk("the_thread_is_large_not_a_stray_mention", n > 40, arcs_mentioning_generatio
 # curated surfaces with this arc's own rung removed. (B1030 hit the identical hazard; recording it
 # twice is the point — a metric invalidated by its own output is the shape of the coverage error
 # this refresh already had to retract.)
-without_x33 = "\n".join(
-    re.sub(r"\|\s*\*\*X33\*\*.*", "", read(p)) for p in CURATED)
-chk("b302_was_carried_by_no_curated_surface_before_this_rung",
-    not (re.search(r"\bB302\b", without_x33) or re.search(r"B302_", without_x33)))
-chk("b302_is_now_cited_by_the_new_rung", "B302" in read("docs/THE_LADDER.md"))
+def without_this_arc(rel):
+    """Drop the rows this arc itself wrote — the X33 rung and the B1031 LAW_MAP row. Both are
+    single lines in their tables. The first cut of this scope stripped only X33 and the check
+    failed again, because the LAW_MAP row cites B302 too: the THIRD time in two arcs that a
+    measurement was invalidated by its own output. Scoping by authorship, not by location."""
+    return "\n".join(ln for ln in read(rel).splitlines()
+                     if "B1031" not in ln and "**X33**" not in ln)
+
+
+without_ours = "\n".join(without_this_arc(p) for p in CURATED)
+chk("b302_was_carried_by_no_curated_surface_before_this_arc",
+    not (re.search(r"\bB302\b", without_ours) or re.search(r"B302_", without_ours)))
+chk("b302_is_now_cited_by_this_arcs_rows",
+    "B302" in read("docs/THE_LADDER.md") and "B302" in read("docs/LAW_MAP.md"))
 
 R["arcs_mentioning_generations"] = n
 R["answer"] = {

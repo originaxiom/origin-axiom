@@ -103,16 +103,16 @@
   },
   "the_thread_is_large_not_a_stray_mention": {
    "pass": true,
-   "arcs_mentioning_generations": 51
+   "arcs_mentioning_generations": 52
   },
-  "b302_was_carried_by_no_curated_surface_before_this_rung": {
+  "b302_was_carried_by_no_curated_surface_before_this_arc": {
    "pass": true
   },
-  "b302_is_now_cited_by_the_new_rung": {
+  "b302_is_now_cited_by_this_arcs_rows": {
    "pass": true
   }
  },
- "arcs_mentioning_generations": 51,
+ "arcs_mentioning_generations": 52,
  "answer": {
   "derived": "NO. The programme's own one-page claim grades the generation structure **STRUCTURAL**, which it defines as 'a named debt inside a closed proof' — the grade it reserves from DERIVED (the ℤ₆ form, the hypercharge direction) and THEOREM (termination). SM_SPECIFICATION_LEDGER grades it 'structural, count matches', with the orbit↔generation bijection marked UNVERIFIED.",
   "what_is_banked": "Three-ness appears twice, honestly: B632 computes h¹(M;27_ρ) = 3 exactly over ℚ(ω) — a graded three-slot cohomological structure, explicitly NOT blocked by B307 — and B897's sealed cell splits the 27 into three 9-blocks with su(3)' acting as a native flavor symmetry. B335 adds that the generation ℤ/3 is a deck transformation, hence an ISOMETRY: the three sheets are exactly degenerate and a hierarchy is its BREAKING.",

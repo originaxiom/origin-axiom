@@ -99,7 +99,7 @@ first move if it is to advance (**the relational route via B302's commensurator 
 B307 leaves open, and no arc runs it end to end**).
 
 **Also surfaced: B302 — the arc that locates the ℤ/3 — was carried by no curated surface at all.**
-Now cited by X33.
+Now cited by rung X33 and by this arc's `LAW_MAP` row.
 
 ---
 
@@ -112,8 +112,12 @@ surfaces, all passing.
 > part of its **registerability filter**, and the coupling that would turn three slots into three
 > masses is **zero at that level** by the typing wall.*
 
-**Self-correction recorded in-arc, and it is the second instance of one hazard:** the check
-*"B302 is on no curated surface"* passed before the repair and **failed after it — because the
-rung this arc wrote cites B302.** B1030 hit the identical shape one arc earlier. Both are now
-scoped and pinned rather than silently fixed: **a metric that its own output invalidates is exactly
-the shape of the coverage error this refresh already had to retract once.**
+**Self-correction recorded in-arc — one hazard, three instances in two arcs.** The check
+*"B302 is on no curated surface"* passed before the repair; **failed** once the X33 rung cited
+B302; was scoped to exclude X33; then **failed again** once the LAW_MAP row cited B302 as well.
+B1030 hit the identical shape one arc earlier. The scope is now by **authorship** — drop the rows
+this arc wrote — rather than by **location**, which is the only version that survives adding a
+second row. All are pinned in the lock rather than silently fixed: **a metric that its own output
+invalidates is exactly the shape of the coverage error this refresh already had to retract once,
+and the general lesson is that a consolidation arc which both measures a gap and fills it must
+scope the measurement by who wrote the row.**
