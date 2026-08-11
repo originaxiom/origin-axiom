@@ -10267,3 +10267,12 @@ the falsifier recount adopted (1 earned / 1 falsifier-only / 2 untested-sharp / 
 cannot-fire / 1 withdrawn); the register now on main as the physics-facing companion of
 WHAT_WOULD_COUNT §5, with the not-falsifiable-and-why section carrying the weight-ledger
 tension. Locks: tests/test_b1035_receipts.py.
+
+## 2026-08-12 — B1036: the double gains classes (5 vs 3), not the symmetric pairing; ad = 6 confirmed
+
+Arc 2 banked as sealed: rank(r) = 1 per block (half-lives, computed), h¹(dbl) = 2/2/1
+with the double-Fox cross-gate agreeing everywhere; the multiplicity branch fires with
+its fence (5 ≠ 3; seam-born classes); the seam symmetric support EMPTY (the obstruction
+extends; the scalar route's vacuity = O2 restated; the V-valued assembly the named
+residual); h¹(M; ad) = 6 = the predicted falsifier value. Two sealed HALTs disclosed in
+FINDINGS; the record log archived in-arc. Locks: tests/test_b1036_mirror_double.py.

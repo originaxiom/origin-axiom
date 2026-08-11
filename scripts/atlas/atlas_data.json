@@ -1011,6 +1011,27 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1036": {
+   "slug": "mirror double",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B298",
+    "B308",
+    "B632",
+    "B961",
+    "V2",
+    "V3",
+    "V4",
+    "V5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

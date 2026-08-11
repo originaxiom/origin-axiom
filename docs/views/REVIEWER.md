@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **955** |
-| words of findings prose | **643,551** |
+| research arcs with findings | **956** |
+| words of findings prose | **644,217** |
 | test lock files referenced | **594** |
-| arcs carrying an authored verdict | **942** (98.6 %) |
+| arcs carrying an authored verdict | **943** (98.6 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 621 |
+| PROVED | 622 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1035`** (394 words, 0 locks)  
-THE TWO HELD RECEIPTS UNBLOCKED AND VERIFIED (a day's hold on evidence that was pushed, byte-stable, on both remotes the whole time -- the point-of-use retrieval defect at its most expensive; located by the audit seat's item 4, re-verified hash-first from this bench: f0f336ce / 7ea68d34 exact): V1 the theta receipt CLOSED -- B1009's refusal accepted in full, nine sites withdrawn on the branch, the withdrawal STRENGTHENS k-blindness, the structural residue named and open (RELAYS ARE UNGATED -- relay_debt verifies dispositions, not content; the B999 residue), B709's seeding phrase fenced at source with the fence reading onto its prereg (ask-3 already discharged, verified by reading). V2/V3 the two-phase falsifier register VERIFIED (Phase A sealed before status; Phase B cites the digest exactly and rewords nothing) and BROUGHT TO MAIN as docs/FALSIFIER_REGISTER.md with the recount ADOPTED: earned confirmations 1 (P2, and not unique -- all four global forms admit SM matter), falsifier-survived-claim-unsupported 1 (P4 -- massive neutrinos are not evidence for nu_R, the Weinberg clause), untested-sharp 2 (P3 with its seven-item list, P6 the cleanest conditional), STATUS-UNEARNED-CANNOT-FIRE 3 (P5 self-cancelling; P7/P8 scale-less BY THE FRAMEWORK'S OWN THEOREM -- the weight ledger starves its own predictions: the type law read from the falsifiability side, recorded as real and unresolved), withdrawn 1 (P1). The register is the physics-facing companion of WHAT_WOULD_COUNT section 5. B1021's HELD rows closed by addendum-beside. Gate 5 untouched; no measured value anywhere.  
-`B1035_receipts_and_register/FINDINGS.md`
+**PROVED — `B1036`** (666 words, 0 locks)  
+THE MIRROR-DOUBLE (plan Arc 2, sealed a10ae240 pre-compute): THE DOUBLE GAINS CLASSES, NOT THE SYMMETRIC PAIRING. V2 + cross-gate: h1(dbl; 27) = 5 = 2+2+1 against the solo 3, by TWO INDEPENDENT ROUTES agreeing blockwise -- the MV assembly (identity gluing; rank(r) = 1 per block, the Poincare-Lefschetz half-lives value computed not cited; the first draft's lambda-inversion produced impossible negatives and was caught by the compatibility gate, kept as the lesson) and direct Fox on the double's 3-generator 3-relator presentation. V4: THE MULTIPLICITY BRANCH FIRES WITH ITS FENCE -- two seam-born extra classes (one per chiral block, the H0(T2)-connecting contribution): B308's multiplicity mechanism is LIVE for the first time in the record, AND the number is 5, not 3 -- a candidate, not a generations theorem. V3: THE SYMMETRIC TEXTURE'S OBSTRUCTION EXTENDS -- after two routes HALTED at their own sealed controls (the second a finding: the per-side scalar route's vacuity IS B632's O2 restated), the record route computes the seam-sector pairing (direct T2 restrictions, holonomy-invariant Bth form, gauge control PASS) and finds the symmetric support EMPTY in every cell of every block including the seam-born classes: the one scalar sector the closed double newly opens carries no mass-shaped pairing; the solo antisymmetry wall extends through the seam. Scope fence: the full V-valued double assembly is the named unrun residual. V5: h1(M; ad) = 6 EXACTLY as the audit seat's additivity theorem predicts -- a never-banked number confirmed through an independent pipeline; the four-threes dissolve survives its own falsifier. Priors: existence lean NOT REALIZED in computed sectors (recorded); multiplicity no-prior outcome 5; ad lean HELD. Gate 5 untouched; type-law obeyed; five silent failure modes pre-registered and none fired silently -- two fired LOUDLY at sealed controls, which is the system working.  
+`B1036_mirror_double/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

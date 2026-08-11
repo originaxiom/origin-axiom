@@ -1,5 +1,22 @@
 # Changelog
 
+## B1036 (2026-08-12) — the mirror-double: the coupling move creates multiplicity, and still no symmetric mass
+
+Plan Arc 2, sealed pre-compute, the record run end-to-end with every gate green. **The
+double's cohomology, by two independent routes agreeing blockwise** (MV with the computed
+half-lives rank; direct Fox on the double's 3-relator presentation): **h¹ = 5 against the
+solo 3** — two seam-born extra classes, one per chiral block. **B308's multiplicity
+mechanism is LIVE for the first time in the record** — and the number is 5, not 3: a
+candidate with its fence, not a generations theorem. **The symmetric texture's obstruction
+EXTENDS**: after two routes halted at their own sealed controls (the second a finding —
+the scalar route's per-side vacuity IS O2 restated), the seam-sector pairing computes
+EMPTY in every cell — the one scalar sector the closed double newly opens carries no
+mass-shaped pairing. The full V-valued assembly is the named unrun residual. **V5:
+h¹(M; ad) = 6 exactly as the additivity theorem predicts** — the four-threes dissolve
+survives its own falsifier, two-pipeline confirmed. Two draft errors caught by gates
+(the gluing convention; the rep-picker), kept as lessons; two sealed HALTs disclosed —
+the system working loudly.
+
 ## B1035 (2026-08-12) — the two HELD receipts unblocked, and the falsifier register comes home
 
 A day's hold on evidence that was pushed, byte-stable, on both remotes the whole time —
