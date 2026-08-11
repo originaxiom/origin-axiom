@@ -1,5 +1,31 @@
 # Changelog
 
+## B1025 (2026-08-11) — the derivability audit: three survive, two narrow, and the VEV's continuum dissolves
+
+**Sealed with per-input priors; every join verified exactly.** **SURVIVE:** the arrow bit (the
+seed only — B303 shows the sign *propagates* internally once seeded), the chirality bit (doubly
+mechanized), and **ℓ — the one input whose externality survives every attack from every seat**
+(even σ = 1 leaves G = ℓ/4, the unit free). **NARROW:** **J** — the object *canonically nominates*
+E₆/E₈ at its ends; the ADE menu collapses to accept-the-nomination, closer = S1; and **the VEV**,
+with the audit's verified join — **the directions are unique multiplicity-one lines** (the 27's
+SO(10)-singlet, the 16's SU(5)-singlet, both re-verified from banked branchings), so rep theory
+fixes them completely and **the "Lie-valued input" retypes into the already-counted discrete act
+plus weight-1 magnitudes.** B990 rescoped, not contradicted.
+
+> **The floor revises: one unit, two bits, and two acceptances whose content the object already
+> nominates. No continuous dimensionless input remains anywhere on the list.**
+
+## B1024 (2026-08-11) — L153 answered: the frame bits ARE the torsor bits, and the undercount is refuted unconditionally
+
+**Sealed `dc823e86`, weak-lean prior SAME — held.** The instrument validated first: B936's class
+map reproduces both banked anchors exactly (χ₋ → coboundary; all-minus → the nonzero class). Then:
+**conjugation's shadow** (the banked compact-flip character CHI_C) has class **(1,0) — nonzero,
+unconditional**; **reversal's zero-choice construction** (word reversal → inverse word → B644's
+functor → the contragredient = the bare τ-lift) has class **(1,1)**; **together they generate all
+of H¹ = (ℤ/2)². SAME: d = 2.** The φ₊-dressed alternative (d = 3) is priced; **d = 4 is refuted by
+conjugation alone.** R11 tightened; **the input list does NOT undercount; THE_CLAIM stands as
+written.** cc3's Blocker 1 is resolved, not just conceded.
+
 ## B1023 (2026-08-10) — Phase 2's concessions, twice corrected in-flight: two defects fixed, then two blockers on the fix, conceded pre-bank
 
 **Round 1 — the audit seat's C1 and C4, conceded and fixed at the source.** **C1:** B1009's

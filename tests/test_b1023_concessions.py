@@ -19,8 +19,8 @@ def test_r11_carries_the_pin_v2():
     t = (ROOT / "docs" / "CROSSING_REQUIREMENTS.md").read_text(encoding="utf-8")
     flat = " ".join(t.replace("**", "").split())
     assert "FRAME-SELECTORS" in flat and "CALIBRATION CONSTANTS" in flat
-    assert "2 \u2264 d \u2264 4" in flat or "2 <= d <= 4" in flat or "deficit is 2" in flat, (
-        "Blocker 1: the deficit range must stay open until L153")
+    assert ("d = 2" in flat and "L153 ANSWERED" in flat) or "2 \u2264 d \u2264 4" in flat, (
+        "Blocker 1's deficit: either the open range (pre-B1024) or the tightened answer")
     assert "WITHDRAWN" in flat and "SIGHTED in" in flat, (
         "Blocker 2: the B1012-externality license must stay withdrawn")
     assert "OUTPUT" in flat and "SHRINKS" in flat, "L154's stakes must stay stated"

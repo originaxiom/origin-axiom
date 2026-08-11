@@ -1,0 +1,18 @@
+{
+ "id": "B1024",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "L153 ANSWERED: THE FRAME BITS ARE THE TORSOR BITS (d = 2), AND THE UNDERCOUNT SCENARIO IS REFUTED UNCONDITIONALLY. Sealed dc823e86, prior 'uncertain, weak lean SAME' -- HELD. The instrument validated before use: B936's explicit class map (chi at the two tau-fixed nodes; a structure carries its torsor coordinate's class) reproduces two independent banked statements exactly -- chi- gives (0,0), B936's 'D2 is a coboundary', and all-minus gives (1,1), 'D carries the nonzero class'. THE TWO GENERATORS, exact: CONJUGATION = sigma_c with the BANKED compact-flip character CHI_C = (1,-1,-1,1,-1,1) has class (1,0) -- NONZERO, UNCONDITIONAL (a banked character, not a construction); REVERSAL, constructed with ZERO unforced choices (word reversal -> inverse word -> B644's group functor g -> g^-1 -> the contragredient = the BARE tau-lift, chi = 1, since any dressing would be an unforced insertion), has structure class (1,1). GENERATION: span{(1,0),(1,1)} = ALL of H^1 = (Z/2)^2 -- SAME: the Hermitian-frame bits are the observer-torsor bits in a second presentation, d = 2. SENSITIVITY NAMED: the phi+ dressing would give reversal (0,0) -> PARTIAL d = 3; NO construction yields INDEPENDENT -- conjugation's nonzero class alone refutes d = 4. CONSEQUENCES EXECUTED: R11 v2's '2 <= d <= 4' TIGHTENS to d = 2 primary, d <= 3 unconditional; THE_CLAIM's hypothesis line STANDS (no new bits); cc3's Blocker 1 is RESOLVED, not just conceded -- the demanded identification now exists with its convention-sensitivity stated. SCOPE: from banked characters and the banked class map; the reversal construction is the cell's one built object, its alternative priced; the join is the point.",
+ "depends_on": [
+  "B936",
+  "B939",
+  "B907",
+  "B928",
+  "B644",
+  "B782",
+  "B1023"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-11), sealed dc823e86"
+}

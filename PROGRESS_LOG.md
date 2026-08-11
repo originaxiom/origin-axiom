@@ -10135,3 +10135,20 @@ the σ license is **withdrawn**: the object is **sighted in σ** (∂S/∂σ = �
 candidate-forced** (c((E₆)₁) = 6 = B254's split) — **L154: if same-σ, c = 6 is DERIVED and the
 input list shrinks.** The run's first two-seat finding. Sealed files untouched throughout;
 the open lane consumes neither anchor type on every branch.
+
+---
+
+## B1024 (2026-08-11) — L153: SAME, d = 2; the undercount refuted unconditionally
+
+Conjugation's shadow class (1,0) from the banked CHI_C — unconditional; reversal's bare-lift
+class (1,1); together all of H¹. The frame bits are the torsor bits in a second presentation.
+R11 tightened (d = 2 primary, d ≤ 3 unconditional); THE_CLAIM's input list stands.
+
+---
+
+## B1025 (2026-08-11) — the derivability audit: three survive, two narrow
+
+The σ-pattern run against every input, joins verified exactly: arrow/chirality/ℓ SURVIVE (ℓ
+strengthened — even σ = 1 leaves the unit free); **J narrows** (accept-the-nomination; S1 the
+closer); **the VEV retypes** — directions are multiplicity-one canonical lines, residue = the
+counted act + weight-1 magnitudes. **Floor: one unit, two bits, two acceptances.**

@@ -722,6 +722,67 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1024": {
+   "slug": "l153 bits",
+   "motifs": [
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B644",
+    "B907",
+    "B936",
+    "B939",
+    "L153"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1025": {
+   "slug": "input derivability",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "apolynomial",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B248",
+    "B253",
+    "B261",
+    "B266",
+    "B277",
+    "B303",
+    "B576",
+    "B582",
+    "B713",
+    "B716",
+    "B721",
+    "B727",
+    "B760",
+    "B782",
+    "B811",
+    "B884",
+    "B942",
+    "B944",
+    "B952",
+    "B959",
+    "B960",
+    "B962",
+    "B990",
+    "B994",
+    "L154",
+    "L155",
+    "S1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B102": {
    "slug": "hitchin continuation",
    "motifs": [

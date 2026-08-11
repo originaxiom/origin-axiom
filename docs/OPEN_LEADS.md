@@ -1520,6 +1520,14 @@ B961 frame instrument) and decide: the torsor generates the H¹ classes (SAME �
 not (INDEPENDENT — deficit 4, and the input list undercounts by two bits). Two-outcome, cheap,
 computable.
 
+### L153 — CLOSED 2026-08-11 by B1024 (sealed `dc823e86`, weak-lean prior SAME — held)
+
+**SAME, d = 2:** conjugation's shadow (the banked CHI_C) has class **(1,0)** — nonzero,
+unconditional; reversal's zero-choice construction (bare τ-lift via B644's functor) has class
+**(1,1)**; together they generate all of H¹. **d = 4 refuted by conjugation alone**; the φ₊-dressed
+alternative (would give d = 3) is priced in the arc. The input list does NOT undercount;
+`THE_CLAIM` stands.
+
 ## L154 — IS THE GRAVITATIONAL σ THE STAGE's σ? (registered 2026-08-10; the audit seat's Blocker 2 + the construction seat's derivation; JOINT — the run's first two-seat finding)
 
 **The tension, exact:** c((E₆)₁) = 78/13 = **6** = B254's banked conformal-embedding split

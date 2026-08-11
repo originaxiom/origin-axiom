@@ -12,8 +12,7 @@ owner's directive: state the theorem we have, not the theory we lack.*
 > (time's arrow; chirality — the conjugation bit, = τ), **one scale**, **one Lie type** (the 6d
 > type J), and **one rank-closing VEV direction** (⟨1⟩ then ⟨ν^c⟩ — the input every framework has,
 > and **unsourced by the torsor**: B766's three bits are all committed; whether its magnitude folds
-> into the scale's ℝ₊ is open). *(Count corrected 4 → 5 by B1017 — B963's compete-for-one-budget
-> corollary retracted; B1000's census of five closings stands.)*
+> into the scale's ℝ₊ is open). *(Count corrected 4 → 5 by B1017; B1000's census stands. **Audited by B1025/L155: the VEV input RETYPES** — its directions are canonical multiplicity-one lines (verified from the banked branchings), so the external residue is the discrete act + weight-1 magnitudes; **J narrows to accept-the-nomination** (the object names E₆/E₈ at its ends; closer = S1). **The floor: one unit, two bits, and two acceptances whose content the object already nominates.**)*
 >
 > **Conclusion (the SM structural skeleton).** From these hypotheses the framework determines:
 >
