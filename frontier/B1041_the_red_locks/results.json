@@ -1,0 +1,76 @@
+{
+ "checks": {
+  "the_mechanism_was_ALREADY_Review_42s_GOVERNING_finding": {
+   "pass": true,
+   "dated": "2026-08-09",
+   "locus": "docs/progress/REVIEWS.md:3301",
+   "note": "THIS ARC DISCOVERS NOTHING HERE. Review 42 named it as its GOVERNING finding two days ago and prescribed the action. What is new is that it RECURRED -- three red locks instead of two -- because the action was a prose checklist row and nothing mechanical distinguishes a completed run from a started one"
+  },
+  "and_the_wall_GREW_between_the_naming_and_the_recurrence": {
+   "pass": true,
+   "review_42_minutes": 55,
+   "measured_minutes": 81.2,
+   "growth": "48%"
+  },
+  "the_suite_is_long_enough_that_a_red_lock_survives": {
+   "pass": true,
+   "total_runtime_s": 4870.92,
+   "tests": 4013,
+   "slowest_four_s": 1740.1,
+   "note": "4 tests are 29 % of a 81-minute run. The three red locks below sat behind that wall; the gates, which DO run in minutes, cover none of them"
+  },
+  "B511_D3_the_probe_loses_ALL_finite_values_well_before_its_own_step_count": {
+   "pass": true,
+   "finite_fraction": {
+    "60": 1.0,
+    "120": 0.221,
+    "240": 0.0
+   },
+   "note": "the lock calls accessibility(n=2000, steps=1500) and asserts classical > 0.8; every value is non-finite by step 240, so it measures 0.0. The banked D3_FINDINGS figure is 'P(kappa~2 classical) >= 0.84'"
+  },
+  "B511_AND_THE_RENORMALISATION_INTERVAL_IS_NOT_THE_CAUSE": {
+   "pass": true,
+   "every_20": {
+    "120": 0.221,
+    "240": 0.0
+   },
+   "every_1": {
+    "120": 0.242,
+    "240": 0.0
+   },
+   "note": "THE FIRST HYPOTHESIS, TESTED AND REFUTED. Renormalising every step instead of every 20 changes nothing. The cause is structural: the doubling branch A@A PRESERVES det = 1 while DOUBLING log||A||, so a det-normalisation cannot bound the norm at any interval"
+  },
+  "B646_a_sixth_of_the_preservation_manifests_cannot_exist_in_ANY_clone": {
+   "pass": true,
+   "manifest_entries": 366,
+   "missing": 63,
+   "share": "17.2%",
+   "explained_by_gitignore": 61,
+   "unexplained": 2,
+   "note": "the harvest arcs' policy is 'sha256 of every packet file AS RECEIVED'. `.gitignore:20` is `*.log`, so git REFUSES those paths -- they were never committed and no clone can have them. Measured over 9 manifest-bearing arcs"
+  },
+  "B646_and_the_cause_is_one_ignore_rule_not_rot": {
+   "pass": true,
+   "by_extension": {
+    ".log": 60,
+    ".pyc": 1
+   },
+   "note": "single-caused. The two unexplained residuals are hash-prefixed B663 filenames"
+  },
+  "B1035s_non_finding_rested_on_a_manifest_that_is_ALREADY_unverifiable": {
+   "pass": true,
+   "note": "B1035 declined to repair 31 unresolvable sys.path lines BECAUSE editing them would break the preservation manifest. That reason still holds for the files that exist -- but the manifest is already unverifiable for a sixth of its entries, and B1035 did not know. The non-finding stands; its stated ground is narrower than it read"
+  },
+  "B616_the_MATHEMATICS_is_stable": {
+   "pass": true,
+   "note": "the design hash, the (-1)^m sign law match, and the locked-table verdict all hold"
+  },
+  "B616_but_the_lock_pinned_a_CENSUS_COUNT_that_moved": {
+   "pass": true,
+   "locked_literal": "observed 2 coarse-tier matches of 378 pairs",
+   "measured_now": "observed 3 coarse-tier matches of 390 pairs",
+   "note": "E6 in the corpus's own taxonomy -- 'a test asserting an output string rather than the mathematical fact', standing rule 'locks assert mathematics (WORKING_RULES §7)'. Four of the lock's five assertions are transcript greps; the one that broke is the only one that pins DATA-SET-DEPENDENT counts rather than the arc's claim"
+  }
+ },
+ "all_pass": true
+}

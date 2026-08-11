@@ -31,6 +31,15 @@ def _sha8(path):
     return hashlib.sha256(open(path, "rb").read()).hexdigest()[:8]
 
 
+def _git_ignores(path):
+    """True iff git itself refuses to track this path (B1041). Asking git rather than matching
+    extensions keeps the exemption honest: it covers exactly what could never be committed."""
+    import subprocess
+    r = subprocess.run(["git", "check-ignore", "-q", os.path.abspath(path)],
+                       cwd=os.path.join(HERE, ".."), capture_output=True)
+    return r.returncode == 0
+
+
 def test_eleven_seals_live():
     for rel, h8 in SEALS.items():
         assert _sha8(os.path.join(PK, rel)) == h8, rel
@@ -47,6 +56,13 @@ def test_archive_matches_manifest_except_disclosed():
     for rel, h in man.items():
         p = os.path.join(PK, rel)
         if not os.path.exists(p):
+            # B1041: a manifest entry can be UNVERSIONABLE -- `.gitignore:20` is `*.log`, so git
+            # refused those paths and no clone has ever had them (60 of 366 entries across the
+            # nine manifest-bearing harvest arcs). That is a disclosed, single-caused gap, NOT
+            # rot. It is exempted ONLY when git itself confirms the path is ignored, so a
+            # genuinely lost file still fails this lock.
+            if _git_ignores(p):
+                continue
             mismatches.append(("MISSING", rel))
             continue
         got = hashlib.sha256(open(p, "rb").read()).hexdigest()
@@ -66,3 +82,21 @@ def test_findings_carries_the_erratum_and_ladder():
     assert "{+1, +1, +1, 0, +1, +1, 2}" in fnd
     assert "NO COLLISION" in fnd
     assert "NEEDS-SPECIALIST" in fnd
+
+
+def test_the_manifest_gap_is_real_and_bounded__B1041():
+    """The exemption above must not become a blanket. Locks the SHAPE of the gap: every missing
+    entry is git-ignored, and the count is bounded -- so if a tracked packet file ever vanishes,
+    or the ignore rule widens, this fails."""
+    man = {}
+    for ln in open(os.path.join(PK, "ORIGINALS_MANIFEST.txt")):
+        if ln.startswith("#") or not ln.strip():
+            continue
+        h, rel = ln.split(None, 1)
+        man[rel.strip()] = h
+    absent = [r for r in man if not os.path.exists(os.path.join(PK, r))]
+    assert absent, "if nothing is absent the gap closed -- update B1041"
+    assert all(_git_ignores(os.path.join(PK, r)) for r in absent), \
+        [r for r in absent if not _git_ignores(os.path.join(PK, r))]
+    assert len(absent) <= 15, len(absent)
+    assert all(r.endswith((".log", ".pyc")) for r in absent), absent

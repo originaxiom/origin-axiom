@@ -1586,3 +1586,17 @@ pre-empted the paper had it not lived at the **toral** level while the four-stra
 > **Campaign progress 2026-08-09 (B990, B991):** **X10 sharpened** — the orbit-to-point gap is **structural**, an orbit invariant cannot pick a point; exactly two routes cross it (**shrink the group ℚ→ℤ**, or **add non-invariant structure**), with the G(ℤ)-orbit count named as the next computation under a **declared unfavourable prior**. **X11 CLOSED** — the hypercharge normalisation is not derivable **in principle** (all four anomaly conditions are homogeneous, verified symbolically), so the rung is **BOUNDED, not owed**.
 
 > **Wave 2 closed 2026-08-09.** **X8** dissolved (the doublet is the 10 ⊂ 27; mass is the cubic, not the adjoint). **X10** sharpened — an orbit invariant **cannot** pick a point, so exactly two routes cross the gap. **X11** closed — the hypercharge normalisation is not derivable *for anyone* (all four anomaly conditions homogeneous). **X12** settled by computation — the SMT's u(1)³ **is** span(Y, χ, ψ), with the failed naive count banked beside it. **X9** was already closed by B978, and the ladder was stale about it. **The consolidation is the headline: X9, X10 and the rank obstruction are ONE OPERATION — the 27-VEV — asked three ways.**
+
+> **Consolidation refresh, restorations + the lock layer (B1036–B1041, 2026-08-11).** Band
+> B100–B199 dispositioned (**37 rows are 17 statements**) and **three clusters restored**: the
+> tower (B1038), φ-fixed reducibility + the metallic exponent (B1039), isomonodromy (B1040).
+> Band **37 → 20**, corpus **234 → 214**. Re-verifying before restoring is what earned its cost —
+> it found **B141's slogan *"finite image ⟹ reducible tower"* is FALSE** (`SL(2,3)` is finite with
+> an irreducible `Sym²`; the bound is the max irrep dimension), B142's Klein-4 chain missing its
+> **semisimplicity** hypothesis, and B169's **`[exact]` tag over a homological computation the
+> cluster never performs**. **B1041 closes the window on the lock layer: Review 42's governing
+> finding — *"two locks were red at HEAD, and nobody knew … gates do not cover what the locks
+> cover"* — RECURRED within two days, with three red locks, because the prescribed action was a
+> prose checklist row.** The suite grew **~55 → 81 minutes**. All three repaired; `B511/D3.3` is
+> skipped with its reason and its diagnosis locked instead. **The three remaining B100–B199
+> clusters are PENDING with the blocker named** (SnapPy; heavy numerics).

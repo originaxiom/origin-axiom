@@ -1314,6 +1314,7 @@
     "B164",
     "B169",
     "B199",
+    "B870",
     "P1",
     "P3"
    ],
@@ -1321,6 +1322,27 @@
    "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1041": {
+   "slug": "the red locks",
+   "motifs": [
+    "kappa",
+    "eisenstein"
+   ],
+   "refs": [
+    "B506",
+    "B507",
+    "B511",
+    "B616",
+    "B646",
+    "B663",
+    "B907",
+    "B910"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B104": {
    "slug": "dehn twist tower",
