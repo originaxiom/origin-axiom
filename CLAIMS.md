@@ -62,6 +62,15 @@ A **Certified data** section (`E`-ids) is added below for exact computational ex
 
 *(P14 intentionally unused — reserved during the session-3 synthesis numbering.)*
 
+> **⚠ NAME COLLISION, declared 2026-08-11 (B1034). The `κ` of P15/P16 is *not* the
+> bridge-equation `κ`.** P15/P16's `κ = 2·log(φ²)/√5 ≈ 0.8608` is the **Möbius flow coupling**,
+> a fixed transcendental constant exported as `origin_axiom.mobius.KAPPA`. The corpus's other
+> `κ` is **`κ = tr[a,b]`** (B309/B518; `LAW_MAP`, `THE_FRAMEWORK`), a **coordinate on the
+> character variety** whose *"κ = 2 ⟺ the cancellation completes ⟺ nothing"* is the programme's
+> founding sentence. **They differ in type, not only in value** — a constant cannot have a locus
+> where it equals 2, and this one never can. Nothing relates them. Renaming is the owner's call
+> (**L159**); until then both surfaces declare the other.
+
 ### Promoted by the 2026-07-03 audit (GOVERNANCE §5.1; scrutiny recorded in `PROGRESS_LOG.md`)
 
 | ID | Claim | Evidence |

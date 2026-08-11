@@ -1038,7 +1038,42 @@
     "L158"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1034": {
+   "slug": "two kappas",
+   "motifs": [
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B309",
+    "B518",
+    "B62",
+    "B939",
+    "L159",
+    "P1",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P2",
+    "P3",
+    "P33",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "dynamics"
   },

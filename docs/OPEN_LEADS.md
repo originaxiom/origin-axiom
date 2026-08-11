@@ -1605,3 +1605,34 @@ is measuring "an arc exists".
 **Either outcome is a result.** A measure that works retires a named blind spot; a measure that
 cannot be found bounds what an automated representation gate can do, and the register then carries
 its era scope as a stated limit rather than an unexamined one.
+
+## L159 — TWO κ's: RENAME, OR KEEP AND DECLARE? (registered 2026-08-11; B1034)
+
+**The collision, now declared on both surfaces.** The repository uses `κ` for two quantities that
+differ in **type**:
+
+| | `κ` in `CLAIMS.md` **P15/P16** + `src/origin_axiom/mobius.py` | `κ` in `LAW_MAP` / `THE_FRAMEWORK` |
+|---|---|---|
+| what | the **Möbius flow coupling** `2·log(φ²)/√5 ≈ 0.8608` | the **bridge equation** `κ = tr[a,b]` |
+| type | a fixed transcendental **constant** | a **coordinate** on the character variety |
+| can it be 2? | **never** | **κ = 2 ⟺ the cancellation completes ⟺ nothing** — the founding sentence |
+| banked by | P15, P16 | B309, B518, restored B1010, extended B1027 |
+
+**Why this one is worse than the pass's other three E1 collisions** (θ naming three objects,
+B62 = 2 × P33, B939's transposed prose): it spans **`CLAIMS.md` and `LAW_MAP`** — the proven
+register and the law register — and the shared symbol carries the **founding sentence**. A reader
+who meets `origin_axiom.KAPPA` first will attach *"κ = 2 ⟺ nothing"* to a number that is ≈ 0.86 and
+can never be 2.
+
+**Why this is a lead and not a drafting fix.** Renaming touches the **certified core** and the two
+claims it locks (P15/P16), plus `docs/SESSION3_SYNTHESIS.md`'s *"Coupling: g = κ = 0.8608"* and the
+`tests/test_mobius_vector_field.py` / `test_derived_potential.py` locks. A seat that renames a
+symbol inside `CLAIMS.md`'s proven register by itself has edited the claim register without an
+owner decision. **Both surfaces now declare the other; the rename is the open question.**
+
+**The options, none endorsed:** (a) rename the flow coupling (e.g. `κ_flow` / `λ_M`) — smallest
+blast radius, since the bridge κ is the one with a whole law family behind it; (b) rename the
+bridge κ — much larger, it appears across LAW_MAP, THE_FRAMEWORK, ORIENTATION and four arcs;
+(c) keep both and rely on the declarations — cheapest now, and it leaves a live E1 in the two most
+authoritative surfaces. **Whichever is chosen, the check that must survive is the type test: a
+constant cannot have a locus where it equals 2.**

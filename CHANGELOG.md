@@ -1,5 +1,23 @@
 # Changelog
 
+## B1034 (2026-08-11) — κ names two quantities; one is in the certified core
+
+**The code sweep's first return.** `src/origin_axiom/mobius.py` exports `KAPPA = 2·log(φ²)/√5 ≈
+0.8608` — the **Möbius flow coupling**, locked by `CLAIMS.md` **P15/P16**. The corpus's other **κ =
+tr[a,b]** carries the founding sentence *"κ = 2 ⟺ nothing"* on `LAW_MAP`. **Neither surface
+declared the other.**
+
+**They differ in TYPE, not value:** a constant (which can never be 2) versus a coordinate with a
+locus where it *is* 2. MB12 control: a symbolic `KAPPA` would not have tripped the test.
+
+**Worst of the pass's four E1 collisions** — it spans the proven register and the law register, it
+lives in `src/`, and the shared symbol carries the founding sentence.
+
+**Declared, not renamed** — renaming touches the certified core and two proven claims, so it is the
+owner's call (**L159**). Both surfaces now carry the disambiguation.
+
+17 checks · 7 locks · 26 gates green · no mathematics disturbed.
+
 ## B1033 (2026-08-11) — the two debt registers reconciled; the gated one is era-blind
 
 **The omission:** `DEBT_LEDGER.md` never named `docs/REPRESENTATION_TRIAGE.md` — the repository's

@@ -19,6 +19,22 @@ from origin_axiom.constants import PHI, PHI_SQ
 tau = sp.symbols("tau")
 
 # --- Derived coupling constant --------------------------------------------
+#
+# *** NAME COLLISION, DECLARED 2026-08-11 (B1034). THE REPOSITORY USES "kappa" FOR
+# *** TWO DIFFERENT QUANTITIES, AND THIS IS NOT THE FAMOUS ONE.
+#
+#   THIS KAPPA  — the Moebius flow coupling below, a fixed transcendental number
+#                 2*log(phi^2)/sqrt(5) ~ 0.8608. Locked by CLAIMS P15/P16. It is a
+#                 CONSTANT: it can never equal 2.
+#
+#   THE OTHER   — the BRIDGE EQUATION kappa = tr[a,b] (B309/B518, LAW_MAP, THE_FRAMEWORK),
+#                 a COORDINATE on the character variety, whose "kappa = 2 <=> the
+#                 cancellation completes <=> nothing" is the programme's founding sentence.
+#
+# They differ in TYPE, not merely in value: a constant versus a function with a locus.
+# Nothing here relates them. Renaming is a decision for the owner, not a drafting seat —
+# registered as L159. Error class E1 (undeclared choice drift), GOVERNANCE.md sec. 13.
+#
 # KAPPA = 2 * log(phi^2) / sqrt(5) = 4 * log(phi) / sqrt(5).
 # This is twice the P11 prefactor ``log(phi^2)/sqrt(5)`` of ``log(A)`` — the
 # factor of 2 comes from b = c = 2 * (P11 prefactor) in the Möbius generator

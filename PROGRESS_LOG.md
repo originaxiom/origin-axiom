@@ -10653,3 +10653,55 @@ green.** Gate 5 untouched; nothing to `CLAIMS.md`.
 a gap and **fills** it invalidates its own metric unless scoped by **authorship** — here the
 register's new scope-limit note is what puts era language into the register. `THE_LADDER`'s **X31**
 row named this first.
+
+## B1034 (2026-08-11) — κ names two quantities, and one of them is exported by the certified core
+
+**The code sweep's first return.** `WORKING_RULES` §0 says *"grep the **code**, not claim lines"*,
+and `COMPUTE_THE_PROGRAM` P3 step 5 says *"a claim line says what an arc CONCLUDED; the source says
+what the repository CAN DO."* This is the first pass in this refresh to read `src/origin_axiom/`
+whole — 376 lines, 7 modules — and the core was carrying a name the prose had already spent.
+
+| | **κ #1 — the flow coupling** | **κ #2 — the bridge equation** |
+|---|---|---|
+| definition | `2·log(φ²)/√5 ≈ 0.8608` | `κ = tr[a,b]` |
+| **type** | a fixed transcendental **constant** | a **coordinate** on the character variety |
+| can it be 2? | **never** | **`κ = 2` ⟺ the cancellation completes ⟺ *nothing*** |
+| exported by | **`src/origin_axiom/mobius.py::KAPPA`** | — |
+| banked as | **`CLAIMS.md` P15, P16** | B309, B518 (restored B1010, extended B1027) |
+
+**Until this arc, neither surface mentioned the other.** A third locus uses it as physics:
+`SESSION3_SYNTHESIS` — *"Coupling: g = κ = 0.8608"*.
+
+**THE DISCRIMINATOR — they differ in TYPE, not merely in value.** κ #1 is a constant; κ #2 is a
+function with a locus. **A constant cannot have a set on which it equals 2** — so *"κ = 2"* is not a
+value the first fails to take, it is **a statement the first cannot make**. **MB12 control run
+before reading the result:** had the core's `KAPPA` been symbolic in the character-variety
+coordinates, the type test would not have fired.
+
+**WHY THIS IS THE WORST OF THE PASS'S FOUR E1 COLLISIONS** — after `θ` naming three objects,
+`B62 = 2 × P33`, and B939's transposed prose: **(1)** it spans `CLAIMS.md` and `LAW_MAP`, the
+proven register and the law register, not two working notes; **(2)** it lives in `src/`, whose own
+docstring says it holds *"only the results labelled proven"*, so a reader who imports
+`origin_axiom` meets this κ first; **(3)** the shared symbol carries the **founding sentence** — a
+reader who attaches *"κ = 2 ⟺ nothing"* to `origin_axiom.KAPPA` has attached the programme's
+one-line statement of itself to a number that is ≈ 0.86 and **can never be 2**.
+
+**REPAIRED — the declaration, on both surfaces:** `mobius.py` above `KAPPA`, `CLAIMS.md` beside
+P15/P16, and a `LAW_MAP` row. **NOT done, deliberately — the rename**: it touches the certified core
+and the two claims it locks, plus `SESSION3_SYNTHESIS` and two test files, and a drafting seat that
+renames a symbol inside the proven register has edited that register without an owner decision.
+**Registered as L159**, three options stated, none endorsed — with the note that whichever is
+chosen, **the type test is the check that must survive**.
+
+**What else the core sweep found, and did not:** P1–P16 map cleanly onto modules and locks; **P14
+is intentionally unused** and says so in two places; **`topology.py` carries its own self-audit** in
+the docstring — recording that an earlier audit wrongly flagged the golden factor as an artifact,
+and why the `z → 1/z` cross-ratio change makes both factorisations genuine (*the code carrying a
+correction the prose could have lost*); and `SELECTION_FILTERS`' five reconcile with P10's
+*"trace-3 sieve + four further filters"*.
+
+**No mathematics disturbed** — P15/P16 and the bridge-κ family are both correct and both stay; only
+the shared symbol was undeclared. **17 checks · 7 locks · 26 gates green.**
+**Self-correction — the seventh instance of one hazard in six arcs:** this arc's own `LAW_MAP` row
+necessarily mentions *both* κ's, which would have tripped the check that the bridge rows do not
+mention the Möbius one. Scoped by authorship, like every other measurement in this refresh.

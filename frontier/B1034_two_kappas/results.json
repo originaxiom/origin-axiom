@@ -1,0 +1,73 @@
+{
+ "checks": {
+  "core_kappa_is_the_moebius_coupling": {
+   "pass": true,
+   "value": 0.8608178819280081
+  },
+  "core_kappa_is_a_single_transcendental_number": {
+   "pass": true,
+   "value": 0.8608178819280081
+  },
+  "core_kappa_is_the_coefficient_of_the_flow_and_its_potential": {
+   "pass": true
+  },
+  "the_package_declares_itself_the_proven_core": {
+   "pass": true
+  },
+  "the_bridge_kappa_is_a_commutator_trace_on_a_curated_surface": {
+   "pass": true
+  },
+  "the_bridge_kappa_carries_the_founding_sentence": {
+   "pass": true
+  },
+  "B309_banks_kappa_minus_2_equals_omega_squared": {
+   "pass": true
+  },
+  "core_kappa_can_never_equal_2": {
+   "pass": true
+  },
+  "the_two_kappas_differ_in_TYPE_not_only_value": {
+   "pass": true
+  },
+  "the_criterion_is_failable__a_symbolic_kappa_would_not_trip_it": {
+   "pass": true
+  },
+  "CLAIMS_P15_P16_use_kappa_for_the_moebius_coupling": {
+   "pass": true
+  },
+  "CLAIMS_P15_P16_do_not_mention_the_bridge_kappa": {
+   "pass": true
+  },
+  "the_bridge_rows_do_not_mention_the_moebius_kappa": {
+   "pass": true
+  },
+  "a_third_locus_calls_the_moebius_kappa_a_coupling": {
+   "pass": true
+  },
+  "the_core_module_now_declares_the_collision": {
+   "pass": true
+  },
+  "CLAIMS_now_carries_the_disambiguation": {
+   "pass": true
+  },
+  "a_lead_is_registered_rather_than_a_rename_performed": {
+   "pass": true
+  }
+ },
+ "summary": {
+  "kappa_core": {
+   "expr": "2*log(phi^2)/sqrt(5)",
+   "value": 0.8608178819280081,
+   "type": "constant",
+   "locus": "src/origin_axiom/mobius.py; CLAIMS P15/P16",
+   "can_be_2": false
+  },
+  "kappa_bridge": {
+   "expr": "tr[a,b]",
+   "type": "coordinate on the character variety",
+   "locus": "LAW_MAP; THE_FRAMEWORK; ORIENTATION; B309/B518/B1010/B1027",
+   "kappa_equals_2": "the founding sentence: cancellation completes = nothing"
+  }
+ },
+ "all_pass": true
+}

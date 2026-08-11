@@ -101,6 +101,17 @@ against a hope is not.
 
 ---
 
+> **CURRENCY READ (2026-08-11, B1034) — P3 step 5's first systematic return, and it cuts the other
+> way.** Step 5 was written after the code contradicted a *claim* (B1006, B1007). The consolidation
+> refresh ran it as a **sweep** rather than a pre-compute check — reading `src/origin_axiom/` whole,
+> 376 lines — and found the reverse case: **the code carrying a name the prose had already spent.**
+> `src/origin_axiom/mobius.py` exports `KAPPA = 2·log(φ²)/√5 ≈ 0.8608`, the **Möbius flow
+> coupling** locked by `CLAIMS.md` **P15/P16**, while the corpus's other **κ = tr[a,b]** carries the
+> founding sentence *"κ = 2 ⟺ nothing"* on `LAW_MAP`. **They differ in type — a constant versus a
+> coordinate with a locus — and neither surface declared the other.** Both now do; the rename is
+> **L159**. **The lesson for this protocol: step 5 is not only a pre-compute check against
+> rebuilding what exists — run as a sweep it also finds what the prose has mis-named.**
+
 ## 3. THE THREE SENTENCES THAT ARE ALMOST ALWAYS WRONG
 
 Earned only by a computation that names its quantifier:
