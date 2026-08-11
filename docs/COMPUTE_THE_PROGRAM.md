@@ -129,3 +129,31 @@ a citation** rather than an impression.
 **Companion files:** `THE_FRAMEWORK.md` (what we have) · `THE_LADDER.md` (what we lack) ·
 `LAW_MAP.md` (the laws) · `TOOLBOX.md` (the instruments) · `WORKING_RULES.md` (binding for every
 seat).
+
+## 5. THE 2026-08 ADDITIONS (the WHY-campaign window, B1009–B1034)
+
+Four checks joined the pre-compute protocol this window, each from a banked lesson:
+
+1. **The type check (B1032).** Before any measurement-facing design: is the target a
+   RELATION or a FINITE LABEL? The coupling channel's forced outputs live in a finite
+   algebraic menu; a generic-real target is type-wrong before it is sealed. (The four
+   crossing deaths, one mechanism.)
+2. **The gauge question (B647 c3 · B884's fence).** Before banking any value-like
+   quantity: does it move under the pipeline's own freedom (basis rescaling, pivot
+   order, frame choice)? Bank the invariant carrier (support, cross-ratio, class data,
+   ordering) — a moving value is a declared convention, not content. The 2026-08 census
+   (the audit seat, verified): the banked record already passes; the check exists so it
+   stays true.
+3. **Point-of-use citation (B1033's practice).** An arc's FINDINGS cites the corpus's
+   own body for every load-bearing term it uses — the record's measured defect is not
+   lost work but work cited everywhere except where it is needed (B1029↛B647;
+   the fourth crossing's "CP phases" ×6 with zero citations of the object's own
+   CP-phase body B285/B289/B303).
+4. **The search-representation rule.** Any corpus query runs BOTH Unicode and ASCII
+   forms (φ AND phi), the synonym set for the concept, and never concludes a population
+   from a windowed view (`head`/`tail`) or a stale checkout — a search that cannot run
+   returns exactly what a search that finds nothing returns.
+
+And the banking order is fixed as the E22 chain: **the push gates on the suite's exit
+code for the exact committed tree** — never on gates alone, never through a pipe that
+masks the exit status.
