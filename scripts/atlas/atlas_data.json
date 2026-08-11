@@ -884,6 +884,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1029": {
+   "slug": "seam class field",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B248",
+    "B300",
+    "B332",
+    "B334",
+    "B399",
+    "L156"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B102": {
    "slug": "hitchin continuation",
    "motifs": [

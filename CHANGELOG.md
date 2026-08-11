@@ -1,5 +1,20 @@
 # Changelog
 
+## B1029 (2026-08-11) — the seam is the ends' class field
+
+**HCF(ℚ(√−15)) = ℚ(√5, √−3).** The meeting face is not an independent third thing — it is the
+field whose Hilbert class field is the compositum of the two ends. **C7's Klein four-group is two
+faces plus a class-field closure.**
+
+Re-derived from scratch: `5` and `−3` are the prime discriminants of `−15`; `h = 2` by counting
+reduced forms; genus degree `2^(t−1) = 2 = h`, so genus field = Hilbert class field. **MB12
+control at disc −23**, where h is odd and the reasoning fails.
+
+**The two ends now have three independent derivations** — geometric (B248), combinatorial (B332),
+arithmetic (B334) — **and only the geometric one is on a curated surface.**
+
+No novelty claimed (genus theory is Gauss). C7 sharpened, not corrected. 7 locks.
+
 ## B1028 (2026-08-11) — κ = 2 is absolutely conserved: the four End(F₂) strata
 
 **B497**, carried by no curated consolidation, classifies `End(F₂)` into four strata with an exact

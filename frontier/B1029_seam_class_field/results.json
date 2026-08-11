@@ -1,0 +1,33 @@
+{
+ "cell": "B1029",
+ "checks": {
+  "the_seam_is_the_product_of_the_two_ends": {
+   "pass": true,
+   "detail": "sqrt5 * sqrt-3 = sqrt-15 -- the seam field sits inside the compositum by construction"
+  },
+  "fundamental_discriminants_5_and_minus_3_multiply_to_minus_15": {
+   "pass": true,
+   "detail": "disc Q(sqrt5)=5, disc Q(sqrt-3)=-3, product=-15 = disc Q(sqrt-15)=-15"
+  },
+  "class_number_of_Q_sqrt_minus_15_is_2": {
+   "pass": true,
+   "detail": "reduced primitive forms of disc -15: [(1, 1, 4), (2, 1, 2)]"
+  },
+  "genus_field_degree_matches_the_class_number": {
+   "pass": true,
+   "detail": "2^(t-1) = 2 with t=2 prime discriminants; h = 2. Equal => the GENUS field IS the HILBERT class field (the class group is elementary 2-group)"
+  },
+  "the_compositum_is_degree_4_over_Q_hence_degree_2_over_the_seam": {
+   "pass": true,
+   "detail": "Q(sqrt5, sqrt-3) has degree 4 over Q, so degree 2 over Q(sqrt-15) -- matching h = 2"
+  },
+  "the_seam_field_is_a_subfield_of_the_compositum": {
+   "pass": true,
+   "detail": "and it is the fixed field of the automorphism negating BOTH radicals"
+  }
+ },
+ "verdict": {
+  "reconstructed": true,
+  "statement": "HCF(Q(sqrt-15)) = Q(sqrt5, sqrt-3) = the compositum of the two ends"
+ }
+}

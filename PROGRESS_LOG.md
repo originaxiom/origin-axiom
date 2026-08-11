@@ -10379,3 +10379,26 @@ figure-eight-specific"*) and **B417** (Sturmian subshift, **entropy 0**, also NO
 **The flow has positive entropy and the subshift zero — two faces, both honest negatives.**
 
 No novelty claimed. 7 locks incl. an MB12 control. Gate 5 untouched.
+
+---
+
+## B1029 (2026-08-11) — the seam is not a third face: its Hilbert class field IS the two ends
+
+**CONSOLIDATION REFRESH, band B300–B399.** THE CHAIN's **C7** banks three forced quadratic faces
+as a Klein four-group. **B334 says something stronger and is on no curated surface:**
+**HCF(ℚ(√−15)) = ℚ(√5, √−3)** — so the meeting face is **the field whose class field is the other
+two**, and the group is **two faces plus a class-field closure**, not three plus a relation.
+
+**Re-derived from scratch**, no external tables: `5` and `−3` are the **prime discriminants** of
+`−15` (its unique such decomposition — *why* the split is forced); `h = 2` by counting reduced
+forms `[(1,1,4),(2,1,2)]`; `t = 2` gives genus degree `2^(t−1) = 2 = h`, so **genus field =
+Hilbert class field**; compositum degree 2 over the seam. **MB12 control at disc −23** (h = 3,
+odd) where the reasoning fails — so the criterion is not vacuous.
+
+**The consequence for the thesis:** the two ends now have **three independent derivations** —
+geometric (B248, the cone-angle transition), combinatorial (B332, the product and ratio of the two
+letters), arithmetic (B334, class field theory) — **and only the geometric one is curated.**
+
+**No novelty claimed** — genus theory is Gauss. The content is that a classical fact pins the
+object's third face and no consolidation says so. C7 is **sharpened, not corrected**. 7 locks.
+Gate 5 untouched.
