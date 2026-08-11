@@ -112,12 +112,48 @@ def arcs():
             if 'arc_verdict.json' in v and 'FINDINGS.md' in v}
 
 
+# HELD-OUT VALIDATION RUN 2026-08-12 (the slice below). Result: 1 true positive,
+# 8 false positives, 3 undetermined -- precision ~11%, against the 57% measured on
+# the tuned sample. E29's prediction, confirmed on this instrument's own numbers.
+# Two FP modes were diagnosed and are fixed by scoring_lines():
+#   (1) DOMINANT -- a markdown HEADING titled "## Honest scope" scored as a fence.
+#       A heading names a section; it restricts nothing. 4 of the 8 FPs (B914,
+#       B270, B67, B71) fired on a heading alone.
+#   (2) RETRACTION -- `\bunrun\b` matched B317's "corrects P010's stale 'unrun'",
+#       a sentence that REMOVES a fence. The detector fired on the repair.
+# A third mode is NOT fixable by pattern and stays a human call: SUBJECT MISMATCH,
+# where the body fences something the claim does not assert (B215 fences NOVELTY
+# while the claim asserts a scoped verification; B348 fences the extended theory
+# while the claim names the concrete element the fence keeps in scope).
+RETRACTION = re.compile(
+    r'\b(stale|no longer|corrects?|superseded|was run|now run|has been run|'
+    r'resolved|discharged)\b', re.I)
+
+
+def scoring_lines(text):
+    """The body minus its headings and minus sentences that RETRACT a fence.
+
+    A heading is a label for a section, not a restriction on the claim; and a
+    line saying a prior fence is stale is the opposite of a fence.
+    """
+    keep = []
+    for ln in text.splitlines():
+        if ln.lstrip().startswith('#'):
+            continue
+        if RETRACTION.search(ln):
+            continue
+        keep.append(ln)
+    return '\n'.join(keep)
+
+
 def strength(text, pats_strong, pats_weak):
+    text = scoring_lines(text)
     s = 2 * sum(1 for r in pats_strong if re.search(r, text, re.I))
     return s + sum(1 for r in pats_weak if re.search(r, text, re.I))
 
 
 def quote(text, pats):
+    text = scoring_lines(text)
     for r in pats:
         m = re.search(r'[^.\n]{0,110}' + r + r'[^.\n]{0,110}', text, re.I)
         if m:
