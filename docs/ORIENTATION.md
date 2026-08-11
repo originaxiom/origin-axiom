@@ -88,7 +88,8 @@ programme published the number each time. **The unmeasured ones are where to loo
 
 | instrument | measured coverage |
 |---|---|
-| citation of arcs across all five surfaces | **37.9 %** — 580 of 934 arcs cited nowhere, **353 of them PROVED** (`consolidation/DEBT_LEDGER.md`) |
+| arcs carried by a **curated** consolidation (`LAW_MAP` · `THE_FRAMEWORK` · `THEOREM_LEDGER` · `CLAIMS` · `THE_LADDER`) | **37.9 %** — 579 of 933 absent, **353 of them PROVED** (`consolidation/DEBT_LEDGER.md`) |
+| arcs carried by **some** navigational surface | **100 %** — the *generated* views are complete by construction (`GOVERNANCE` §12). **Reachable ≠ distilled**, and only the second number is a gap |
 | `LAW_MAP` test locks | **~4 %** of rows; the decided posture is *unenforced index with traceable provenance* |
 | `kill_graph` | **≈66 %** of negatives (95 % CI 56–80) |
 | the atlas | **0.629** top-3 concept coverage in the current era vs 0.995 in its own |
@@ -116,4 +117,4 @@ here is peer-reviewed. *"Verified" always means recomputed by a second internal 
 `WORKING_RULES.md` (binding, every session) · `THE_FRAMEWORK.md` (what we have) ·
 `THE_LADDER.md` (what we lack) · `WHAT_WOULD_COUNT.md` (the bar) ·
 `COMPUTE_THE_PROGRAM.md` (the pre-compute protocol) · `ERROR_LEDGER.md` (E1–E36, read before
-repeating one) · `consolidation/DEBT_LEDGER.md` (what no surface carries).
+repeating one) · `consolidation/DEBT_LEDGER.md` (what no *curated* consolidation carries).
