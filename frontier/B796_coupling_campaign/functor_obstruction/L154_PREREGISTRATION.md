@@ -101,3 +101,55 @@ the cell is not an amendment.
 **Establishes-no-conventions clause** (chat-2's, adopted): where a banked artifact
 does not fix a notation, this document uses a convention-free description and
 asserts no numbering.
+
+---
+
+# ⚠ APPARATUS DRY-RUN (cc3, 2026-08-11) — A BLOCKER, FOUND BEFORE THE CELL RUNS
+
+**Method: check the inputs exist and say what the prereg claims; check controls
+reproduce; surface blockers. STOP before the outcome.** *(This is what would have
+caught B939's transposed prose before it blocked B1024, rather than during.)*
+
+## Inputs — all present, markers found
+
+B1012 (`k + i…`) ✅ · B254 (central charge) ✅ · B1015 (`A2 = c`) ✅
+
+## THE BLOCKER — there are THREE σ's, and one of them is an ITEM OF THE PRICE
+
+**B945** (NEGATIVE, sealed before compute), verbatim:
+
+> *"let **ρ = word reversal** (reversing the base S¹ = **TIME reversal** of the
+> suspension flow) and **σ = R↔L swap (fiber orientation flip = CHIRALITY)**;
+> they generate a Klein group V"*
+
+| σ | what it denotes | which price item |
+|---|---|---|
+| B1012 / B1015 | `σ = ℓ/4G`, the **unquantized level** — continuous | the subject of L154 (`A2 = c = 6σ`) |
+| Brown–Henneaux side | `c/6` — a boundary CFT invariant | the other half of L154 |
+| **B945** | the **R↔L swap = CHIRALITY** — discrete **ℤ/2** | **ONE OF THE TWO BITS** |
+
+> **L154 asks whether "the two σ's" are one, while a THIRD σ in the same corpus
+> denotes a discrete bit rather than a level.** Any sentence of the form *"σ is
+> fixed / free / anchored"* is ambiguous across three referents — and one of them
+> is an item of the price itself.
+
+**Same class as the three already recorded** (two conductors, two levels, two
+E₆'s). **B980 names the shape:** *"the algebra was always right; what failed is
+what the symbols denote."*
+
+## REQUIRED CLAUSE, added on the strength of this
+
+> **D-iv — NAME THE REFERENTS BY THEIR DEFINING EQUATIONS, NOT BY THE SYMBOL.**
+> The verdict states which two σ's it identifies as `σ = ℓ/4G` and `c/6`, and
+> explicitly excludes B945's `σ = R↔L swap`. **A verdict that says only "σ" has
+> not stated its own subject.**
+
+## And the same arc CONFIRMS item 2 of the price
+
+B945 asked *"ONE ℤ/2 OR TWO?"* under a criterion **sealed and pushed before any
+cell ran, with the convenient answer named in advance as the one that must clear
+the higher bar** — and returned **INDEPENDENT**: *"IT DID NOT CLEAR IT."*
+
+> **ρ (time reversal) and σ (chirality) are INDEPENDENT and generate a Klein
+> group V — the price's TWO BITS, verified under seal**, in an arc cc3 had never
+> cited.
