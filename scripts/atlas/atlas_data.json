@@ -1217,6 +1217,30 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1038": {
+   "slug": "tower restored",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "dickson_tower"
+   ],
+   "refs": [
+    "B100",
+    "B103",
+    "B111",
+    "B113",
+    "B117",
+    "B118",
+    "B121",
+    "B122",
+    "B199",
+    "L155"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

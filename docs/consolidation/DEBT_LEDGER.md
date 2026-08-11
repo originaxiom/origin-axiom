@@ -437,7 +437,7 @@ either **restored** or **explicitly declined with a reason**."* Bodies read, not
 
 | cluster | rows | the one statement owed |
 |---|---|---|
-| **the tower** | B117 · B122 · B121 · B118 · (B111, B113 superseded) | `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)` for the external `W = V⊕1`, its shape forced by a dimension surplus vanishing **iff n = 4**; the SL(2)-action is the **external `det = −1`** monodromy, inequivalent to Kostant's principal for all `n ≥ 3`, and the θ = −w₀ fixed-root sign is `(−1)^{h+1}` |
+| **the tower** ✅ **RESTORED (B1038)** | B117 · B122 · B121 · B118 · (B111, B113 superseded) | `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)` for the external `W = V⊕1`, its shape forced by a dimension surplus vanishing **iff n = 4**; the SL(2)-action is the **external `det = −1`** monodromy, inequivalent to Kostant's principal for all `n ≥ 3`, and the θ = −w₀ fixed-root sign is `(−1)^{h+1}` |
 | **arithmeticity** | B125 · B147 · B137 · B193 · (**B123 retracted**) | arithmeticity selects **exactly two** metallic members — golden `ℚ(√−3)`, silver `ℚ(i)`, non-commensurable — and does **not** coincide with self-mirror: the chiral pair `RRL/RLL` (`ℚ(√−7)`) is fully arithmetic |
 | **φ-fixed reducibility** | B141 · B142 | finite image ⟹ reducible tower, dense ⟹ irreducible; the φ-fixed principal point is `Q₈`, so `Sym^{n−1}` is reducible at **every** `SL(n), n ≥ 3` — a one-line Klein-4 proof, no search |
 | **the collective** | B173 · B172 · B174 · B175 · B176 · B178 | the woven gap-label group is `ℤ + ℤα₁ + ℤα₂` with **rank = 1 + #distinct quadratic fields**; the character-variety face is the same statement — cusp-gluing is a continuum only on a measure-zero locus, a forced discrete fork everywhere else |
@@ -460,7 +460,15 @@ methods are **cited**"* — a literature cross-check), **B113** (framing superse
 > applying Reid's **knot** theorem to **bundles**. **Restoring B123 as written would restore a
 > refuted claim** — the one outcome a consolidation pass must never produce.
 
-**RESTORE — the seven cluster statements above, plus the standalone HIGHs** (B101's *Lorentzian at
+**RESTORED SO FAR — 1 of 7.** **The tower** landed on `LAW_MAP` as **B1038**, re-verified
+symbolically first (the surplus's unique rank-zero; the *functorial* `Sym^a(V⊕1)` step that makes
+it a module identity rather than a character coincidence; the assembly's exact `n²−1`; `det Sym^d`
+against explicit matrices; and a two-route control on the instrument itself). **Six rows retired by
+one statement.** What B1038 carries by citation rather than recomputing — B103's tower construction,
+B118's Bourbaki fixed-root computation — is **named in the row**, and B122's scope travels verbatim:
+character level `n = 2..11`, module level proved only at `n = 3,4`.
+
+**RESTORE — the remaining six cluster statements, plus the standalone HIGHs** (B101's *Lorentzian at
 exactly `k = 2` and never again*; B109's void saddle; B158's `(p−2)(q−2) = −2(m+1)`; B191's
 `dim = Σcusps − 2·gluings`). **Each restoration re-verifies before it restores** (campaign step 5,
 the B1010/B1026/B1029 pattern) and banks as its own arc. **Not done here** — this pass

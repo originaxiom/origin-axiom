@@ -1,0 +1,73 @@
+{
+ "checks": {
+  "the_two_independent_routes_to_the_Sym_character_agree": {
+   "pass": true
+  },
+  "B117_surplus_identity": {
+   "pass": true,
+   "surplus": "-(n - 4)*(n + 1)/2"
+  },
+  "B117_the_surplus_vanishes_ONLY_at_n_equals_4_among_ranks": {
+   "pass": true,
+   "roots": [
+    -1,
+    4
+   ],
+   "note": "n = -1 is not a rank; among n >= 2 the zero is unique and is n = 4"
+  },
+  "Sym_of_V_plus_trivial_is_the_contiguous_band": {
+   "pass": true,
+   "verified_a": "0..8",
+   "why": "this is the functorial fact that upgrades the character identity to a GL(2)-MODULE identity -- B122's corrected hinge, since over GL(2) a single element's character does not imply module-iso"
+  },
+  "B122_the_two_Sym_bands_assemble_to_exactly_n_squared_minus_one": {
+   "pass": true,
+   "verified_n": "3..14"
+  },
+  "and_the_dimension_identity_holds_symbolically_in_n": {
+   "pass": true,
+   "expr": "(n - 1)*(n + 1)"
+  },
+  "the_assembly_is_two_contiguous_bands_a_staircase": {
+   "pass": true,
+   "verified_n": "3..9",
+   "note": "mult(d) = [d<=n] + [d<=n-3] - [d=0] - [d=1]: the staircase B103/B117 call mu_d"
+  },
+  "B121_det_Sym_d_equals_det_to_the_d_d_plus_1_over_2": {
+   "pass": true,
+   "cases": 16
+  },
+  "B121_so_a_det_minus_one_monodromy_gives_an_ALTERNATING_parity": {
+   "pass": true,
+   "parity_by_d": {
+    "1": -1,
+    "2": -1,
+    "3": 1,
+    "4": 1,
+    "5": -1,
+    "6": -1,
+    "7": 1,
+    "8": 1
+   },
+   "why": "the principal sl(2) grading has even weights only (all det +1); an alternating parity cannot be conjugate to it -- the obstruction B121 reports for all n >= 3"
+  },
+  "B118_the_sign_is_a_function_of_d_alone_not_of_the_matrix": {
+   "pass": true,
+   "note": "det Sym^d depends on M only through det M, so the fixed-root sign is (-1)^{d(d+1)/2} -- independent of n, which is B118's 'independent of n' claim in the form checkable here"
+  },
+  "the_law_is_now_on_a_curated_surface": {
+   "pass": true
+  },
+  "and_it_carries_its_own_scope": {
+   "pass": true
+  },
+  "and_it_names_what_it_retires": {
+   "pass": true
+  }
+ },
+ "carried_by_citation": {
+  "the tower's own construction": "rho_n is B103's GL(2,Z) tower; its identification WITH the Sym assembly is B122's, verified there at character level n=2..11 and module level n=3,4. This arc re-verifies the ASSEMBLY (functoriality, dimensions, staircase, parity) but does NOT rebuild B103's tower.",
+  "B118's fixed-root sign (-1)^{h+1}": "the root-system statement is verified here only in its det-parity form; the Bourbaki fixed-root computation is B118's and is not re-run."
+ },
+ "all_pass": true
+}

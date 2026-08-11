@@ -1,5 +1,20 @@
 # Changelog
 
+## B1038 (2026-08-11) — the tower cluster restored (1 of 7)
+
+`ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`, `W = V ⊕ 1` — two contiguous `Sym` bands, with the shape
+forced by a dimension surplus vanishing **iff n = 4**, and the grading **external, not principal**
+(`det Sym^d = (det M)^{d(d+1)/2}` ⇒ alternating parity for `det = −1`).
+
+**Re-verified before restoring**, all symbolic — including the *functorial* `Sym^a(V⊕1)` step that
+makes it a module identity rather than a character coincidence, `det Sym^d` against explicit
+matrices, and a two-route control on the instrument itself.
+
+**Six debt rows retired by one statement.** Scope travels verbatim: character level `n = 2..11`,
+module level proved only at `n = 3,4`. B103's tower construction is carried by citation and said so.
+
+13 checks · 8 locks · 26 gates green.
+
 ## B1037 (2026-08-11) — the first band dispositioned: 37 rows are 17 statements
 
 **The campaign's step 6, executed.** B100–B199: **27 of 37 rows are facets of seven laws**, ten

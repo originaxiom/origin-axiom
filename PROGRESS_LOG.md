@@ -10878,3 +10878,40 @@ highest is the one nothing measures.*
 **18 checks · 6 locks · 26 gates green.** Gate 5 untouched; nothing to `CLAIMS.md`.
 **Not done, and named rather than implied:** the restorations themselves — seven clusters is seven
 re-verifications, and doing them from memory is what B1010 warned against.
+
+## B1038 (2026-08-11) — the tower cluster restored: two Sym bands, unique at n = 4
+
+**The first of B1037's seven restorations, and the largest: six debt rows become one curated law.**
+Executed under campaign **step 5** — *"re-verify the identities before restoring, **never restore
+from memory**."*
+
+**The law.** As a GL(2)-module, `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)` for the **external monodromy
+fundamental `W = V ⊕ 1`** — two contiguous `Sym` bands whose staircase is B103's `μ_d` — with the
+shape forced by a dimension surplus that vanishes at **exactly one rank**:
+`(n+1)(n+2)/2 − (n²−1) = −(n−4)(n+1)/2`, **zero iff n = 4**. And the grading is **external, not
+principal**: `det Sym^d(M) = (det M)^{d(d+1)/2}`, so `det = −1` gives an **alternating** parity that
+no all-even-weight Kostant grading can match — **inequivalent for every n ≥ 3** — and that same
+parity is B118's fixed-root sign, *a function of `d` alone*.
+
+**Re-computed here, all symbolically:** the surplus and its unique rank-zero (symbolically in `n`);
+**the functorial hinge** `Sym^a(V⊕1) = ⊕_{k≤a} Sym^k(V)` for `a = 0..8` — *B122 flags that a first
+pass called the module-iso "automatic", which is true only over the cyclic `⟨M⟩`; over **GL(2)** one
+element's character does not imply module-iso, and this is what closes that gap*; the assembly
+landing on exactly `n²−1` (symbolic and `n = 3..14`); the staircase (`n = 3..9`); and `det Sym^d`
+against **explicit matrices** rather than the quoted formula. **Plus a control on the instrument
+itself** — two independent routes to the `Sym` character agree, so a bug in one could not have
+produced a silently passing identity.
+
+**Carried by citation, named rather than implied:** B103's tower construction is **not rebuilt**, so
+*that `ρ_n` **is** that module* remains B122's — **character level `n = 2..11`, module level proved
+only at `n = 3,4`**, and that scope travels with the restored row verbatim; B118's Bourbaki
+fixed-root computation is re-verified only in its det-parity form. *Naming which step is carried is
+the difference between a restoration and a re-assertion.*
+
+**Retires six rows with one statement** — B117, B122, B121, B118 (B111/B113 already superseded by
+B117 in the band's own words). **B1037's cluster finding in action:** counting rows would have
+called this six units of work.
+
+**Open, in B122's own word — *"the prize"*:** the module-level proof for general `n`.
+
+**13 checks (all symbolic) · 8 locks · 26 gates green.**
