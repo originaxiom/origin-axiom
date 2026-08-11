@@ -180,3 +180,26 @@ Two matching rules, one per side of a relay. **Both were earned four times today
 
 **Three of the four were injected into another seat's work. All four were caught
 by another seat, none by cc3.** The arithmetic was never wrong.
+
+---
+
+# ⚠ REPAIR LIST — three cheap fixes, none requiring a computation
+
+**From the instrument-blindspot audit. All measured, all mechanical.**
+
+| # | repair | why | cost |
+|---|---|---|---|
+| **R1** | **Regenerate `scripts/forcing/forcing_graph.json`** | it is GENERATED and stale at **B989** — it does not know B1000+, so it predates B1009–B1026 **including B1014, which wrote THE_CLAIM** | free |
+| **R2** | **Attach the cascade arcs to the `cascade` face** — B861, B862, B863, B864, B892, B978 | the face holds **ONE** arc (B971) while every arc that performs the cascade sits in `arcs_on_no_face`. Nothing is missing but edges. **Converts `faces_with_no_proved_arc` from a false alarm into a true reading.** | edges only |
+| **R3** | **Triage the 167 ROUTED closures** — or stop co-counting them with the 582 CLASSIFIED | `CLOSED_DOORS.md`: *"167 are merely ROUTED, carrying an authored NEGATIVE verdict **but no read of the arc yet**"* — 22 % closed by assertion | a read |
+
+**Open question for cc, cheap:** *why* were the cascade arcs never attached —
+lexicon miss, attachment predating them, or nobody ran it after the
+SM-structure window? **Not established here and not guessed.**
+
+**The structural point, which outlives the three repairs:** the object-facing
+layer carries 332 arcs on `being` and 260 on `hearing`; the physics-facing layer
+carries **one arc each** on `axioms`, `cascade`, `character-variety`. **The
+derivation theorem is where the programme's claims about the world live and it is
+the least-instrumented part of the corpus.** That is why hand-auditing kept
+finding things there — nothing else was looking.
