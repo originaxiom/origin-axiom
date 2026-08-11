@@ -172,6 +172,23 @@ charge-orbit work, where integrality is physically forced — and **has never to
   listener-invariant values (B856) while the Hermitian pair's values are frame-relative (B936) —
   **L150** adjudicates; it is the likeliest source of a fourth-crossing candidate.
 
+## 5c. CURRENCY PASS (2026-08-11, B1011–B1026) — the value question restructured
+
+- **The value layer has TWO channels (B1016, sealed):** the coupling channel (u†M_odd u — values
+  FORCED, listener-invariant, anchor-free, in closed form since B1011: the hearing data is
+  (E₆ McKay)⊗(E₈ McKay)) and the pair channel (v†Hv — frame-relative, the hierarchy in D₂). A
+  crossing candidate must declare its channel.
+- **The endpoint's confirming power is RESTORED at the word's own door (B1019):** the sibling
+  grammars have NO door (silver: seven involutions, no SU(2) embedding; bronze: over the ADE
+  cap) — *one grammar, one door, one cascade, one endpoint*, composing with B997.
+- **The external-input floor after the audits (B1017 · B1024-provisional · B1025):** one unit,
+  two bits, and the acceptances the object already nominates — with the VEV's continuum dissolved
+  (multiplicity-one lines) and the trit retyping pending price-lock verification. **No continuous
+  dimensionless input remains anywhere on the list** (c is L154's re-posed question).
+- **The fourth crossing's lane is derived and admissible (B1020):** coupling → mixing,
+  kind-admissible, RG-quiet, anchor-free; B856's −2.3σ is row 1 of its ledger. **The nomination
+  cell is sealed (B1026, data-blind)** — the crossing proceeds only through it.
+
 ## 6. WHAT THIS VERDICT IS NOT
 
 - **It is not "the object fails."** It supplies a GUT-shaped skeleton, an exact value-layer
