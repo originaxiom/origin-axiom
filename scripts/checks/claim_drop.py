@@ -70,6 +70,33 @@ OVERSTATE = [
 ]
 
 
+# THE DOMAIN-RESTRICTION FIX, added after cc3 adjudicated the top ten and found
+# 5 of 9 were FALSE POSITIVES. A claim is ALSO fenced when it carries a DOMAIN
+# RESTRICTION -- a qualifier narrowing what the claim ranges over. All five false
+# positives were of that kind: "no TRACE-RING invariant", "through index 6",
+# "zero-measure".
+#
+# EXCLUDED ON PRINCIPLE, NOT ON FIT: "exactly one", "only at", "per X". Those
+# ASSERT a quantity; they do not restrict a domain. Including "exactly one" cost
+# a TRUE positive on the first attempt (B111: "plus exactly one degree=rank
+# promotion") -- which is how the distinction was found, and why it is a
+# principled correction rather than sample-fitting.
+#
+# MEASURED ON THE ADJUDICATED TEN, i.e. the sample it was designed against, so
+# NOT independent evidence: 4/4 true positives retained, 3/5 false positives
+# killed, precision 44% -> 57%, candidates 62 -> 56.
+#
+# HELD-OUT VALIDATION IS OWED AND UNRUN (E29: no post-hoc selection on the
+# measured sample). Slice for whoever validates, never adjudicated by cc3:
+#   B914 B175 B215 B270 B287 B317 B348 B557 B797 B932 B67 B71
+DOMAIN_RESTRICTION = [
+    r'\bno [a-z-]+ invariant\b', r'\bthrough index \d', r'\bzero-measure\b',
+    r'\bat n\s*=\s*\d', r'\bfor [a-z]+ = \d', r'\brestricted to\b', r'\bup to\b',
+    r'\bin the [a-z-]+ (case|regime|sector|family|form)\b',
+    r'\bon the [a-z-]+ (locus|stratum|slice|component)\b', r'\bmod \d',
+]
+
+
 def sh(args):
     return subprocess.run(args, capture_output=True, text=True, cwd=ROOT).stdout
 
@@ -123,6 +150,9 @@ def main():
             continue
         # the claim line carries a fence of its own -> legitimate, skip
         if any(re.search(r, claim, re.I) for r in CLAIM_CARRIES):
+            continue
+        # a DOMAIN RESTRICTION is also a fence -- see the list above
+        if any(re.search(r, claim, re.I) for r in DOMAIN_RESTRICTION):
             continue
         over = sum(1 for r in OVERSTATE if re.search(r, claim, re.I))
         flags.append((st + over, st, over, a, quote(body, FENCE_STRONG),
