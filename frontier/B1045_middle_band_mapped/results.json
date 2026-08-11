@@ -1,0 +1,77 @@
+{
+ "checks": {
+  "B485s_Alexander_law_IS_the_char_poly_of_M_m_squared": {
+   "pass": true,
+   "Delta_m": "a^2 - (m^2+2)a + 1",
+   "charpoly": "charpoly(M_m^2)",
+   "root": "lambda_m^2",
+   "note": "the Alexander polynomial of a FIBERED bundle IS its monodromy's characteristic polynomial. B1040 verified this polynomial as the metallic DYNAMICAL DEGREE; B485 closed it as the metallic ALEXANDER LAW. One fact, two languages, two bands"
+  },
+  "and_NO_fingerprint_reached_it_before_this_arc": {
+   "pass": true,
+   "tested": [
+    "isomonodromy (B1040)",
+    "phi-fixed reducibility (B1039)",
+    "the metallic exponent (B1039)",
+    "the tower (B1038)"
+   ],
+   "note": "the instrument's first measured miss, on its first use against a band it had not seen"
+  },
+  "the_fingerprint_is_widened_and_the_gate_now_fires": {
+   "pass": true
+  },
+  "B485_is_now_consolidated_and_the_LIMITATION_is_stated_not_hidden": {
+   "pass": true,
+   "note": "every widening is a guess at the next synonym. What the instrument reliably catches is the case that bit (B564: same words, different band); what it will keep missing is a re-derivation in another field's language"
+  },
+  "the_keyword_map_misassigns_and_the_rate_is_measured": {
+   "pass": true,
+   "misassigned": 5,
+   "clustered": 58,
+   "rate": "9%",
+   "corrections": {
+    "B423": "E6 selection & grading -> zeta / torsion",
+    "B345": "E6 selection & grading -> generations / deviation",
+    "B346": "E6 selection & grading -> generations / deviation",
+    "B316": "metallic family laws -> arithmetic selection / fields",
+    "B435": "E6 selection & grading -> the (5,1) child"
+   }
+  },
+  "and_TWO_of_the_five_are_arcs_whose_claim_line_DENIES_the_cluster": {
+   "pass": true,
+   "denying": [
+    "B316",
+    "B345"
+   ],
+   "note": "THE ARGUMENT FOR STEP 1, made concrete: a claim line's KEYWORDS can be exactly the words the arc uses to say what it is NOT. B345 says 'independent of the E6-exponent grading' and B316 says 'NOT a metallic-ladder member' -- and a keyword sweep files both under the thing they deny. THE FIRST DRAFT OF THIS ARC SAID THREE; B346 merely CONTRASTS with E6 rather than denying it, and this check is what caught the overcount"
+  },
+  "B423_claim_line_is_read_not_quoted": {
+   "pass": true,
+   "claim": "Closed form for the regularized E6 dynamical zeta as a Fibonacci-square product with the apparition-prime spectrum: figu"
+  },
+  "B345_claim_line_is_read_not_quoted": {
+   "pass": true,
+   "claim": "The Z/3 charges of the deviation modes force an anti-diagonal charge-conservation texture, independent of the E6-exponen"
+  },
+  "B346_claim_line_is_read_not_quoted": {
+   "pass": true,
+   "claim": "The deviation space's symplectic conjugation lambda->1/lambda is exactly its Z/3 charge conjugation at the symmetric cen"
+  },
+  "B316_claim_line_is_read_not_quoted": {
+   "pass": true,
+   "claim": "sqrt(-7) is the CHIRALITY field, not a metallic-ladder member: disc -7 is below the unimodular floor, and Q(sqrt-7) is r"
+  },
+  "B435_claim_line_is_read_not_quoted": {
+   "pass": true,
+   "claim": "The (5,1) child has H₁ = ℤ/5 and exactly 25 = 5² nontrivial abelian E₆ vacua (26 including the trivial one), derived fro"
+  },
+  "so_this_arc_MAPS_the_band_and_does_NOT_disposition_it": {
+   "pass": true,
+   "rows": 69,
+   "clusters": 7,
+   "standalone": 11,
+   "note": "B1037 dispositioned B100-B199 by READING THE BODIES. This is a keyword map of CLAIM LINES, which step 1 forbids as a basis for disposition. Publishing it as a disposition would be the defect B1037's own method exists to avoid -- so it is published as what it is: the next pass's starting point, with its error rate attached"
+  }
+ },
+ "all_pass": true
+}

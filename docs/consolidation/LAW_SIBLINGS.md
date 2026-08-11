@@ -28,6 +28,7 @@ statement.
 | `B75` | the metallic exponent (B1039) | **SAME-LAW** | *"degree=rank is a two-parameter `(m,n)` phenomenon"* — the **first** statement that the exponent is not rank-bound, which B1039's law sharpens to *order*-determined. Cited on the metallic row. |
 | `B77` | the metallic exponent (B1039) | **SAME-LAW** | *"degree=rank sharpens to the signed scalar-matrix law `[A,B] = (−1)^{n−1} µ^n`"* — **the sign half** of B1039's `[A,B] = ±µᵏ`. Cited on the metallic row. |
 | `B106` | the metallic exponent (B1039) | **SAME-LAW** | *"Dehn-filling fixed points are partially elliptic with root-of-unity neutral eigenvalues"* — these are **exactly the finite-order-µ reps** whose inclusion B198's own correction blames for the illusory multi-exponent readings. The stratum B1039's law must be read *off*. Cited on the metallic row with that scope. |
+| `B485` | isomonodromy (B1040) | **SAME-LAW — and the instrument's first measured miss** | *"the metallic Alexander law `Δ_m(a) = a² − (m²+2)a + 1`"* is **the characteristic polynomial of `M_m²`**, whose root is `λ_m²` — verified identical symbolically. The Alexander polynomial of a fibered bundle **is** its monodromy's char poly. **No fingerprint reached it** until B1045 widened the isomonodromy one. Cited on the isomonodromy row. |
 | `B257` | the metallic exponent (B1039) | **RELATED — stays in debt, knowingly** | *"the Euclidean transition point as the character-variety discriminant branch point with order-3 …"*. It shares the discriminant/branch-point vocabulary but states a fact about the **Euclidean transition** (B248's cone-angle line), not about the peripheral exponent. **The fingerprint matched a word, not the statement.** Recorded so the next sweep does not re-raise it, and left in debt because it is owed a row of its **own**, on a different law. |
 
 **Maintenance.** Adding a restoration adds its fingerprint to `FINGERPRINTS` in
@@ -39,3 +40,17 @@ exists to prevent.
 row names all eight candidates, so the first run of this sweeper reported **zero** — the rows that
 *register* the debt read as rows that *consolidate* it. Registry rows and registrar arcs are now
 excluded at construction, which is **E37**'s own standing rule applied to the instrument.
+
+## The instrument's known limitation, measured on first use (B1045)
+
+**A fingerprint catches restatements in the SAME vocabulary; a genuine TRANSLATION between
+vocabularies escapes it.** `B485` states B1040's metallic degree as an **Alexander polynomial** —
+the same `a² − (m²+2)a + 1`, because the Alexander polynomial of a fibered bundle *is* its
+monodromy's characteristic polynomial — and **none of the four fingerprints matched a single term
+of it.**
+
+**This is not fixable by adding terms**, only mitigated: every widening is a guess at the next
+synonym. What the instrument reliably catches is the case that actually bit (B564 — *same words,
+different band*); what it will keep missing is the case where a later arc re-derives a law in a
+different field's language. **Stated here rather than discovered again**, and it is the honest
+argument for L164's larger option: a topic-wise disposition reads *bodies*, not fingerprints.

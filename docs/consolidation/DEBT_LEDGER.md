@@ -565,3 +565,43 @@ letting the number stand alone.*
 **None applied yet.** Read-first. Four restorations were banked this pass, each re-verified before
 restoring (campaign step 5): **B1026** (the involution chain), **B1024** (L153, SAME/deficit 2),
 **B1027** (κ's transfer-matrix and spectral faces), **B1025** (the suite).
+
+
+## §B300–B499 — **MAPPED, not dispositioned** (2026-08-11, B1045)
+
+**69 debt rows** — the heaviest stretch in the corpus, and the one the campaign's own diagnosis
+calls least consolidated. **This section is a MAP, and the distinction is load-bearing.**
+
+B1037 dispositioned B100–B199 **by reading the bodies**. What follows is **keyword-seeded from
+claim lines**, which campaign **step 1 forbids** as a basis for disposition — *"read the bodies,
+not the claim lines"*. Published as what it is: **the next pass's starting point, with its error
+rate attached.**
+
+| candidate cluster | rows |
+|---|---|
+| **E₆ selection & grading** | B301 · B305 · B306 · B311 · B312 · B321 · B323 · B327 · B337 · B351 · B352 · B353 · B357 · B463 |
+| **the seam / level-15 (√−15)** | B359 · B361 · B362 · B363 · B393 · B402 · B410 · B426 · B427 · B431 · B449 · B459 · B474 · B478 |
+| **generations / the deviation space** | B324 · B343 · B344 · **B345** · **B346** · B467 |
+| **the (5,1) child** | **B435** · B436 · B439 · B453 · B460 |
+| **value / tower measure** | B384 · B391 · B394 · B412 · B415 · B446 |
+| **zeta / torsion** | **B423** · B424 · B425 · B451 · B479 |
+| **metallic family laws** | B433 · B465 · B469 · B470 · B482 · B488 *(B485 consolidated by B1045)* |
+| **standalone** | B304 · B315 · **B316** · B318 · B319 · B338 · B356 · B448 · B454 · B466 · B472 · B483 |
+
+> ### The map's error rate is **5 of 58 (9 %)** — and **two** of the five are arcs whose claim line **explicitly denies** the cluster the keywords filed them under.
+>
+> **B345** ends *"**independent of** the E6-exponent grading"* and was filed under E₆.
+> **B316** says √−7 is *"**NOT** a metallic-ladder member"* and was filed under metallic laws.
+> *(**B346** merely **contrasts** with E₆ rather than denying it — an earlier draft counted it as a third denial and the arc's own check corrected that.)* **B423**'s statement is a zeta closed form, not an E₆ fact;
+> **B435** is the child's homology.
+>
+> **That is step 1's argument made concrete:** a claim line's *keywords* can be exactly the words
+> an arc uses to say **what it is not**. The five are corrected in the table above (bold), and the
+> other 53 assignments are **unverified** — they are hypotheses until a body is read.
+
+**One row is already consolidated.** **B485** — *"the metallic Alexander law
+`Δ_m(a) = a² − (m²+2)a + 1`"* — is **B1040's metallic degree in another vocabulary**: the
+characteristic polynomial of `M_m²`, whose root is `λ_m²`, verified identical. **No `law-siblings`
+fingerprint reached it**, which is that instrument's first measured miss; the fingerprint is
+widened, the gate now fires, and the limitation is stated in `LAW_SIBLINGS.md` rather than left to
+be rediscovered.

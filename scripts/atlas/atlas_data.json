@@ -1429,6 +1429,36 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1045": {
+   "slug": "middle band mapped",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B100",
+    "B199",
+    "B300",
+    "B316",
+    "B345",
+    "B346",
+    "B423",
+    "B435",
+    "B485",
+    "B499",
+    "B564",
+    "L164"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

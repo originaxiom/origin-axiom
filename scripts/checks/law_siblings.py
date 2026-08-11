@@ -35,8 +35,14 @@ FINGERPRINTS = {
         r"phi-fixed|φ-fixed|\bQ8\b|quaternion group|reducible tower|finiteness versus density",
     "the metallic exponent (B1039)":
         r"degree=rank|\[A,B\]\s*=\s*[+-]?\s*mu|meridian|metallic exponent|order-determined",
+    # WIDENED B1045, on the instrument's first use against a new band. B485 states the SAME
+    # polynomial as B1040's metallic degree -- Delta_m(a) = a^2-(m^2+2)a+1 is the char poly of
+    # M_m^2, whose root is lambda_m^2 -- in ALEXANDER-POLYNOMIAL language, and NO fingerprint
+    # reached it. A fingerprint catches restatements in the SAME vocabulary; a genuine TRANSLATION
+    # between vocabularies escapes it. That limitation is real and is stated in the registry.
     "isomonodromy (B1040)":
-        r"isomonodrom|Painlev|Schlesinger|Vieta|Jimbo|Fricke cubic",
+        r"isomonodrom|Painlev|Schlesinger|Vieta|Jimbo|Fricke cubic"
+        r"|dynamical degree|lambda_m\^?2|λ_m|Alexander law|m\^2\s*\+\s*2|metallic degree",
 }
 
 
