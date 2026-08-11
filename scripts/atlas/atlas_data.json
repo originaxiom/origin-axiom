@@ -874,6 +874,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1030": {
+   "slug": "price lock verification",
+   "motifs": [
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B782",
+    "B897",
+    "B936",
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

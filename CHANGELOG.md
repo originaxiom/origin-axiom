@@ -1,5 +1,20 @@
 # Changelog
 
+## B1030 (2026-08-11) — the floor quantifies: one unit, two bits, ONE TRIT (verified), one defect returned to sender
+
+The audit seat's price-lock verified by **independent routes** (closed cohomology formula vs
+brute force; explicit factor rotation vs asserted cycle): H¹ = (ℤ/2)² confirms the two bits;
+the trinification singlet-bijection + triality orbit of order exactly 3 confirms **the trit**
+— with the strengthening that its substrate is B897's *banked* 9-blocks, not textbook data.
+**One defect found and reported back**: item 1's in-place assertion cannot fail at
+length-weight 1 (its vacuity control swaps in a different ledger — the frame fires, the
+instance can't); a type declaration, not a theorem. **THE_CLAIM adopts the quantified floor**
+(discrete inputs 3 + log₂3 = 4.585 bits) and the adoption arithmetic is stated in the open:
+the conflated comparison sits at exactly 0.000 at the conservative floor — a coincidence of
+unrelated log₂3's, and beside the point (inputs are hypotheses; retroactive freedom stays
+0.000; every uncounted credit is on the output side). The dead "+1.585 even conflated"
+sentence is removed same-batch per the propagation rule.
+
 ## B1028–B1029 (2026-08-11) — THE WHY CAMPAIGN opens: COMPRESSION, and the shelf is stocked
 
 **Lane I-1 (B1028, sealed e13d09a5): the global freedom ledger lands COMPRESSION.** The

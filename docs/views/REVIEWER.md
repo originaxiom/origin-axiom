@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **949** |
-| words of findings prose | **639,245** |
+| research arcs with findings | **950** |
+| words of findings prose | **639,794** |
 | test lock files referenced | **594** |
-| arcs carrying an authored verdict | **936** (98.6 %) |
+| arcs carrying an authored verdict | **937** (98.6 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 615 |
+| PROVED | 616 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1029`** (746 words, 0 locks)  
-THE INVARIANT RING OF THE FRAME ACTION (Lane III-1, sealed 9a46975f before compute): on the banked value family h = chi(A) * (1/2) tr V2(B), REVERSAL ACTS IDENTICALLY TO CONJUGATION (unitary characters conjugate under inverse; SU(2) traces are real), so the frame group V4 acts on VALUES through Z/2 with kernel exactly theta = c*r -- THE BANKED THETA-TRIVIALITY PLACED AS THE VALUE-KERNEL OF THE FRAME ACTION (placement theorem, scope: the sealed inventory of unitary characters x SU(2) traces). The invariant ring = the REAL subring of the banked constants (tones, mirror magnitudes, |h|^2, Re chi); THE ENTIRE NON-INVARIANT COMPLEMENT IS ONE SIGN, sign(arg h) = sign(Im chi) -- exactly the bit B1027 paid for, localised. Closure relations recorded without significance claims: tone sum = phi^2, the golden pair sums to 1 (B856 reproduced), mirror magnitudes sum to (7+3sqrt5)/4. V3 prices two relational candidates under B1026's SEALED machinery with the golden-pair selector structurally free: the SUM RULE sin^2(theta_i)+sin^2(theta_j)=1 over an unordered P-pair at log2(3) = 1.585 bits, and the absolute ordered pair at 2.0 bits after N4's dead-pairing kill -- BOTH UNDER THE 3.0 CAP; NOTHING NOMINATED, NO DATA CONTACT (nomination stays a separate data-blind cell). Verdict: SHELF DELIVERED, the seal's shelf branch -- Lane III-2's first stocked, priced shelf. Prior HELD in substance. Correction recorded: the first compute printed EMPTY/blocked; the sealed pricing refutes that and the corrected verdict stands. Gate 5 untouched; nothing promotes.  
-`B1029_invariant_ring/FINDINGS.md`
+**PROVED — `B1030`** (549 words, 0 locks)  
+THE PRICE-LOCK VERIFICATION (incoming-results protocol on the audit seat's price_lock.py; a verification arc, no outcome-prior to protect): THE FLOOR VERIFIES AS ONE UNIT, TWO BITS, ONE TRIT -- by INDEPENDENT ROUTES, not a rerun. The two bits: H^1(<tau>, F2^6) = (Z/2)^2 by the closed permutation-module formula (H^1 = 2^fixed, f = 2, p = 2), agreeing with the incoming brute force and banked B936; carriers = the two tau-fixed nodes, valence-distinguishable, labelling canonical. THE TRIT: the trinification 9-blocks' singlet-bijection to the surviving SU(3) factors and the triality orbit of order EXACTLY 3 verified with an explicit factor rotation -- WITH THE STRENGTHENING THE RELAY DID NOT CITE: the three 9-blocks are themselves a banked sealed-before-compute computation (B897, two primes), so the trit's substrate is the record's own; the VEV acceptance quantifies to one Z/3 label = log2(3) = 1.585 bits. ONE DEFECT FOUND in the incoming lock and reported on the relay channel: item 1's in-place divisibility assertion CANNOT FAIL at length-weight 1 -- its vacuity control substitutes a DIFFERENT ledger, exercising the frame not the instance; item 1 is a type declaration (the 5/6 split, correct) plus an unfailable clause, not a theorem (MB12 on the auditor's own instrument); the one-unit claim itself stands. THE ADOPTION ARITHMETIC STATED BEFORE ANYONE ASKS: post-adoption discrete inputs = 3 + log2(3) = 4.585 bits = EXACTLY B1028's conservative output floor (a coincidence of unrelated log2(3)'s), so B1028's 'even-conflated +1.585' sentence does not survive adoption and is not carried forward -- the ledger's actual verdict (retroactive freedom 0.000 bits) is untouched, and the compression case rests where it always rested: the conflation is a category error, the floor a deliberate under-count, every uncounted credit on the output side. THE_CLAIM's hypothesis line adopts the quantified floor with this arc as cite. Gate 5 untouched; no measured quantity anywhere.  
+`B1030_price_lock_verification/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

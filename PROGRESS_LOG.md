@@ -10187,3 +10187,15 @@ against the risk (B994's derived-half landing; B897's seal-before-compute); the 
 does not fire. THE_CLAIM's controls now carry the number; LAW_MAP gains the value-kernel
 row (SCOPE-fenced); the campaign board marks both lanes banked. Locks:
 tests/test_b1028_freedom_ledger.py, tests/test_b1029_invariant_ring.py.
+
+## 2026-08-11 — B1030: the price-lock verified; the input floor quantifies to one unit, two bits, ONE TRIT
+
+Verification arc (incoming-results protocol) on the audit seat's price_lock.py, by
+independent routes: H¹(⟨τ⟩,𝔽₂⁶) = (ℤ/2)² via the closed permutation-module formula
+(agreeing with the brute force and banked B936); the trit via explicit factor rotation
+(singlet-bijection, orbit order exactly 3; substrate = B897's banked 9-blocks). One
+defect found in the incoming lock and reported on the relay channel: item 1's in-place
+divisibility assertion is unfailable at length-weight 1 — the vacuity control exercises
+the frame, not the instance. THE_CLAIM adopts the quantified floor (3 + log₂3 = 4.585
+discrete input bits) with the exact-zero conflated-balance coincidence stated in the
+open and the dead sentence removed same-batch. Locks: tests/test_b1030_price_lock.py.

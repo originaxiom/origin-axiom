@@ -80,7 +80,7 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 | **X21** | **scale** | **amphichirality forces CS = 0**, which deletes the integer-quantized term `k·I_CS` from Gukov's `k·I_CS + iσ·I_grav`, leaving only the **unquantized** σ (with `G_N = 1/4σ`). *Normalisation check owed before this is a claim* |
 | **X22** | time · 4d · Lorentzian signature | all the observer's; **no canonical Wick rotation** (B716); thermal time fails on identity — tracial II₁, **trivial modular flow** (B721) |
 | **X23** | the 4d lift | **exists and is canonical** (B277, monodromy **φ = RL** — A7's bit), but is **N=2 (non-chiral)** and the **6d type is a free input** |
-| **X24** | the 27-VEV | input in every framework, canonical nowhere — 𝕆P² homogeneous (B962). **= X10's unsourced fifth input after B1017's recount**; sort: SPECIFICATION (B1013) |
+| **X24** | the 27-VEV | input in every framework, canonical nowhere — 𝕆P² homogeneous (B962). **= X10's unsourced fifth input after B1017's recount**; sort: SPECIFICATION (B1013). **QUANTIFIED (B1025 → B1030 verified): directions are canonical multiplicity-one lines; the residual acceptance is ONE ℤ/3 LABEL** (the three 9-blocks ↔ the three surviving SU(3)'s, orbit order exactly 3, on B897's banked blocks) — **log₂3 = 1.585 bits, a finite label, not a modulus** |
 
 ## E. OPEN — live surfaces with a runnable computation
 
@@ -116,6 +116,18 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 >   never attempted.**
 >
 > **Still owed in Phase 1: disposition the 9 open relays** (`docs/RELAY_LEDGER.md`).
+
+> **Campaign update, 2026-08-11 (B1025–B1030).** The input rungs moved twice. **X24 is
+> QUANTIFIED**: the VEV directions are canonical multiplicity-one lines (B1025, verified from
+> banked branchings) and the residual acceptance is **one ℤ/3 label** — log₂3 = 1.585 bits, on
+> B897's banked 9-blocks (B1030, verified by independent routes; the floor is now *one unit,
+> two bits, one trit* + the J acceptance). And the ladder's own question — "does the object
+> supply X, or did the designers?" — got its global answer: **the freedom ledger (B1028)
+> prices the chain's retroactive designer freedom at 0.000 bits** against a 4.585-bit
+> conservative output floor; the frame action's value-level structure (B1029) proves the
+> legitimately-predictable set is the real subring, its non-invariant complement exactly one
+> sign — the bit the fourth crossing (B1027) paid. Rungs asking "can a value cross?" now cite
+> a tested, sealed, powered exclusion rather than a hope.
 
 ---
 

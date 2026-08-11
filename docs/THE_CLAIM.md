@@ -12,7 +12,7 @@ owner's directive: state the theorem we have, not the theory we lack.*
 > (time's arrow; chirality — the conjugation bit, = τ), **one scale**, **one Lie type** (the 6d
 > type J), and **one rank-closing VEV direction** (⟨1⟩ then ⟨ν^c⟩ — the input every framework has,
 > and **unsourced by the torsor**: B766's three bits are all committed; whether its magnitude folds
-> into the scale's ℝ₊ is open). *(Count corrected 4 → 5 by B1017; B1000's census stands. **Audited by B1025/L155: the VEV input RETYPES** — its directions are canonical multiplicity-one lines (verified from the banked branchings), so the external residue is the discrete act + weight-1 magnitudes; **J narrows to accept-the-nomination** (the object names E₆/E₈ at its ends; closer = S1). **The floor: one unit, two bits, and two acceptances whose content the object already nominates.**)*
+> into the scale's ℝ₊ is open). *(Count corrected 4 → 5 by B1017; B1000's census stands. **Audited by B1025/L155: the VEV input RETYPES** — its directions are canonical multiplicity-one lines (verified from the banked branchings), so the external residue is the discrete act + weight-1 magnitudes; **J narrows to accept-the-nomination** (the object names E₆/E₈ at its ends; closer = S1). **The floor, quantified (B1030 verified): one unit, two bits, ONE TRIT** — the VEV acceptance is a ℤ/3 label (the 27's three 9-blocks ↔ the three surviving SU(3)'s, triality-transitive, orbit order exactly 3; log₂3 = 1.585 bits; substrate = B897's banked blocks) — **plus the J acceptance, unpriced by type.** Discrete input bits: 3 + log₂3 = 4.585 — exactly the freedom ledger's conservative output floor, a coincidence of unrelated log₂3's stated in the open (B1030 §V4); the ledger's verdict — retroactive freedom 0.000 — is untouched.)*
 >
 > **Conclusion (the SM structural skeleton).** From these hypotheses the framework determines:
 >
@@ -42,8 +42,10 @@ reachable endpoint set has size **one** (B994). **The freedom ledger (B1028, sea
 retroactive designer freedom prices to 0.000 bits — every link banked-forced, its forcing arc's
 discriminating phrase machine-checked — against a conservative output floor of 4.585 bits in
 declared ambient classes (ℤ₆: 2.0 · endpoint: 1.585 · mass-in-cubic: 1.0), with the hypercharge
-continuum pin, the STRUCTURAL generation triple, and the Yukawa pattern all uncounted; even
-conflating the 3 declared input bits against the floor the balance stays +1.585 bits. Verdict
+continuum pin, the STRUCTURAL generation triple, and the Yukawa pattern all uncounted. Under the
+quantified floor (B1030) the conflated input-vs-output comparison sits at exactly 0.000 at the
+floor — stated in the open, and beside the point: inputs are hypotheses, not retroactive freedom;
+the floor is a deliberate under-count; every uncounted credit is on the output side. Verdict
 COMPRESSION; the seal's two named risks both resolved against the risk.**
 
 ## §2 — THE ANCHOR DOCTRINE (the bridge is licensed by theorem)
