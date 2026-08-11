@@ -1,5 +1,28 @@
 # Changelog
 
+## B1031 (2026-08-11) — three generations: structural, not derived
+
+**The grade is the answer.** `THE_CLAIM` marks the generation structure **STRUCTURAL** — *"a named
+debt inside a closed proof"* — on the same table that marks the ℤ₆ form and hypercharge
+**DERIVED**. `SM_SPECIFICATION_LEDGER`: *"structural, count matches"*, bijection **unverified**.
+
+**The positive is real and computed twice:** B632's `h¹(M;27_ρ) = 3` exactly over ℚ(ω), and B897's
+sealed three 9-blocks with `su(3)′` a native flavor symmetry. **B335** makes the three sheets
+**exactly degenerate by isometry** — a hierarchy is its *breaking*.
+
+**Bounded by theorem:** B307 (= P54) — no hyperbolic knot has a cyclic-cubic trace field, so the
+single-object route is closed for **all** hyperbolic knots; B302 locates the ℤ/3 in the
+commensurator without deriving it.
+
+**Two caveats that must travel with it:** *registerable* is **defined** as "the 27's generation
+structure survives" (B994: an input the object does not have), and the **typing wall (1′)** zeroes
+the coupling for identical families.
+
+**Repaired:** `THE_LADDER` contained the word *generation* **zero times**, against 51 arcs — added
+as rung **X33 (BOUNDED)**. B302 was on no curated surface; now cited.
+
+30 checks · 9 locks · Gate 5 untouched · nothing to `CLAIMS.md`.
+
 ## B1030 (2026-08-11) — the counted input list, audited
 
 **One continuous dimensionless input, not zero.** B1015's sealed typing: the 𝔽₂ bits and the Lie

@@ -10468,3 +10468,67 @@ asserted or disturbed; Gate 5 untouched; zero anchors; nothing to `CLAIMS.md`.
 *lines*, and a third where a whole-file search for the space closing began failing **because the
 arc wrote the finding into the file it was searching** — the same shape as the coverage error this
 refresh already had to retract, so it is pinned in the lock rather than just fixed.
+
+## B1031 (2026-08-11) — three generations: structural, not derived — and the ladder had no rung for it
+
+**Occasion:** the owner's *"I believe we derive three generations."* The record answers precisely,
+and answering it exactly is what surfaced the missing rung.
+
+**THE GRADE, in three places, and it is deliberate.** `THE_CLAIM` §1's output table says
+**STRUCTURAL** — defined *in the same section* as *"a named debt inside a closed proof, not a hole
+in an open one"* — on the **same table** that marks the global ℤ₆ form **DERIVED** (B862), the
+hypercharge direction **DERIVED / CLOSED** (B864) and termination a **THEOREM** (B863).
+`THE_FRAMEWORK` Layer 3: *"three generations, structurally"*. `SM_SPECIFICATION_LEDGER`:
+***"structural, count matches"***, with the orbit↔generation bijection marked **unverified**.
+
+**THE POSITIVE IS REAL, AND COMPUTED TWICE.** **B632** — `h¹(M; 27_ρ) = 3` **exactly** over ℚ(ω),
+a graded three-slot structure (spins 0, 4, 8) with a canonical invariant vev, *explicitly not
+blocked by B307*. **B897** (sealed, prereg committed before compute, verified at two independent
+primes) — the 27 under `(su(3)_c, su(3)′, su(2)′)` splits into **three 9-blocks** with identical
+cross-prime signature, `su(3)′` acting as a **native flavor symmetry** replicating into flavor
+triplets; sealed OUTCOME **A**, *generation-shaped*. **B335 says what kind of three it is, and it
+is the sharpest line in the thread:** the generation ℤ/3 is a **deck transformation, hence an
+ISOMETRY**, so every real invariant — **any mass** — is **exactly degenerate** across the three
+sheets, **and a hierarchy is its breaking.** *Three identical copies is not a weak result; it is
+the SM's own statement that generations differ in nothing but mass.*
+
+**AND THE SINGLE-OBJECT ROUTE IS CLOSED BY THEOREM — which is why the grade is what it is.**
+**B298** (NEGATIVE): degree-2 trace field ⟹ multiplicity 1 or 2 across **seven** routes; *"3"
+appears as a **value** — dimension, level, trace, prime, centre — **never as a multiplicity**.*
+**B307** (PROVED → **P54**): C₃ Galois ⟹ totally real, a hyperbolic invariant trace field always
+has a complex place ⟹ **no hyperbolic knot has a cyclic-cubic trace field** (32/32 degree-3 census
+manifolds are S₃, zero C₃) ⟹ a symmetric three-generation triple is **arithmetically impossible in
+a single hyperbolic knot, for all hyperbolic knots**. **B302**: the order-3 lives in the
+**commensurator** `PGL(2,𝒪₋₃)` — *"LOCATES the ℤ/3, does NOT derive 3 generations."* **B414**: the
+naive reading fails its privilege test. And the count was firewalled repeatedly as a **catalogue
+trap** — B257 (*"the three" = the order-3 cone angle = ω*), H37, H111 (a 3:3:2 walk reproduced then
+**refuted**), B594 (*"three generations MATCHED"* **corrected**).
+
+**TWO THINGS THAT MUST NOT BE NETTED.** **(i) The circularity, in the record's own words:** the
+cascade principle is *maximal residual symmetry among **registerable** options*, and **registerable
+is defined as "the 27's generation structure survives"** — B994: *"registerable = the generation
+stays chiral … the endpoint is forced by an input the object does not have."* Generation structure
+is partly a **filter on** the cascade, not solely an output of it. **(ii) The typing wall (1′):**
+alternating family tensor ⊗ symmetric E₆ cubic = **zero coupling for identical families** — three
+slots exist; the family tensor at that level does not. That is why B335's exact degeneracy is not
+yet a hierarchy, and why B928 puts the breaking in **D₂**, not in the matter.
+
+**THE DEFECT REPAIRED.** `THE_LADDER.md` — the register of *"what the programme does not yet
+contain"*, written after **five** occasions in one day where a seat declared absent something the
+repo held, carrying the binding rule *"before saying 'the object does not provide X', find X on
+this ladder; if X is not on it, X has not been checked"* — **contained the word "generation" ZERO
+times**, and nothing under *family / flavour / multiplicity / replication* either, while **51 arcs
+speak to it**. By the ladder's own rule the most-asked question about any GUT-shaped programme read
+as *"not checked"* on the surface built to prevent that inversion. **Repaired as rung X33 in
+section D (BOUNDED)** — the section choice load-bearing, since B307 is a theorem with a named
+mechanism, hence a **known edge, not an open hole**. The rung carries both halves, the two caveats,
+and the first move: **the relational route via B302's commensurator ℤ/3 is the only one B307 leaves
+open, and no arc runs it end to end.** Also surfaced: **B302 was carried by no curated surface at
+all** — now cited by X33.
+
+**30 mechanical checks · 9 locks.** No mathematics asserted or disturbed; Gate 5 untouched.
+**Self-correction, the second instance of one hazard:** the check *"B302 is on no curated surface"*
+passed before the repair and **failed after it, because the rung this arc wrote cites B302** —
+B1030 hit the identical shape one arc earlier. Both scoped and **pinned rather than silently
+fixed**: a metric that its own output invalidates is exactly the shape of the coverage error this
+refresh already had to retract once.

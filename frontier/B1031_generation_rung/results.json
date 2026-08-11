@@ -1,0 +1,125 @@
+{
+ "checks": {
+  "verdict_B298_is_NEGATIVE": {
+   "pass": true,
+   "got": "NEGATIVE",
+   "claim": "The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3."
+  },
+  "verdict_B302_is_PROVED": {
+   "pass": true,
+   "got": "PROVED",
+   "claim": "The order-3 symmetry absent from the torsion-free knot group lives in the commensurator PGL(2,O₋₃) as a hidden symmetry, with the figure-eight an index-12 cover of that orbifold."
+  },
+  "verdict_B307_is_PROVED": {
+   "pass": true,
+   "got": "PROVED",
+   "claim": "Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confirmed."
+  },
+  "verdict_B335_is_PROVED": {
+   "pass": true,
+   "got": "PROVED",
+   "claim": "The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hie"
+  },
+  "verdict_B414_is_NEGATIVE": {
+   "pass": true,
+   "got": "NEGATIVE",
+   "claim": "The Z/3-generations reading fails its privilege test: the object's core multiplicity is Z/2 (class number of Q(sqrt(-15))), and no canonical frame exists."
+  },
+  "verdict_B632_is_PROVED": {
+   "pass": true,
+   "got": "PROVED",
+   "claim": "h¹(M;27_ρ)=3 exactly over ℚ(ω): a graded three-slot cohomological generation structure (spins 0,4,8) plus a canonical invariant vev."
+  },
+  "verdict_B897_is_PROVED": {
+   "pass": true,
+   "got": "PROVED",
+   "claim": "THE SEALED CELL DECIDES -- OUTCOME A, GENERATION-SHAPED (M2; prereg e293f095 committed 0e1cdf4c BEFORE compute, seal verified): at two independent primes (40123, 40693; all gates -- G20 dim 20/derived"
+  },
+  "verdict_B928_is_PROVED": {
+   "pass": true,
+   "got": "PROVED",
+   "claim": "THE D2 DECODE (the Twist Crossing stage 1, sealed 5a7aa973 pushed ab34c5b7 before compute): OUTCOME FORCED VERBATIM -- THE HIERARCHY'S CARRIER IS CHARACTERIZED BY A BANKED EQUATION WITH NO RESIDUAL FR"
+  },
+  "b632_computes_h1_equals_three": {
+   "pass": true,
+   "claim": "h¹(M;27_ρ)=3 exactly over ℚ(ω): a graded three-slot cohomological generation structure (spins 0,4,8) plus a canonical invariant vev."
+  },
+  "b307_closes_the_single_object_route": {
+   "pass": true
+  },
+  "b335_makes_the_three_sheets_exactly_degenerate": {
+   "pass": true
+  },
+  "the_claim_grades_the_generation_structure_STRUCTURAL": {
+   "pass": true
+  },
+  "the_claim_defines_STRUCTURAL_as_a_named_debt": {
+   "pass": true
+  },
+  "the_claim_reserves_DERIVED_for_z6_and_hypercharge": {
+   "pass": true
+  },
+  "the_framework_says_three_generations_STRUCTURALLY": {
+   "pass": true
+  },
+  "the_spec_ledger_grades_it_structural_count_matches": {
+   "pass": true
+  },
+  "the_spec_ledger_marks_the_orbit_generation_bijection_unverified": {
+   "pass": true
+  },
+  "registerable_is_defined_as_the_generation_structure_surviving": {
+   "pass": true
+  },
+  "b994_states_registerability_IS_chirality_an_input_the_object_lacks": {
+   "pass": true
+  },
+  "the_typing_wall_zeroes_the_coupling_for_identical_families": {
+   "pass": true
+  },
+  "the_ladder_states_its_binding_rule": {
+   "pass": true
+  },
+  "the_ladder_now_carries_a_generation_rung": {
+   "pass": true
+  },
+  "the_generation_rung_is_X33_in_the_BOUNDED_section": {
+   "pass": true
+  },
+  "the_rung_cites_B632": {
+   "pass": true
+  },
+  "the_rung_cites_B307": {
+   "pass": true
+  },
+  "the_rung_cites_B897": {
+   "pass": true
+  },
+  "the_rung_cites_B335": {
+   "pass": true
+  },
+  "the_rung_cites_B298": {
+   "pass": true
+  },
+  "the_thread_is_large_not_a_stray_mention": {
+   "pass": true,
+   "arcs_mentioning_generations": 51
+  },
+  "b302_was_carried_by_no_curated_surface_before_this_rung": {
+   "pass": true
+  },
+  "b302_is_now_cited_by_the_new_rung": {
+   "pass": true
+  }
+ },
+ "arcs_mentioning_generations": 51,
+ "answer": {
+  "derived": "NO. The programme's own one-page claim grades the generation structure **STRUCTURAL**, which it defines as 'a named debt inside a closed proof' — the grade it reserves from DERIVED (the ℤ₆ form, the hypercharge direction) and THEOREM (termination). SM_SPECIFICATION_LEDGER grades it 'structural, count matches', with the orbit↔generation bijection marked UNVERIFIED.",
+  "what_is_banked": "Three-ness appears twice, honestly: B632 computes h¹(M;27_ρ) = 3 exactly over ℚ(ω) — a graded three-slot cohomological structure, explicitly NOT blocked by B307 — and B897's sealed cell splits the 27 into three 9-blocks with su(3)' acting as a native flavor symmetry. B335 adds that the generation ℤ/3 is a deck transformation, hence an ISOMETRY: the three sheets are exactly degenerate and a hierarchy is its BREAKING.",
+  "what_is_closed": "B298 (NEGATIVE): the object's degree-2 trace field gives multiplicity 1 or 2 across seven routes, never 3. B307 (THEOREM, promoted to P54): no hyperbolic knot has a cyclic-cubic trace field, so a symmetric three-generation triple is arithmetically impossible in a SINGLE hyperbolic knot — the three must be relational (B302: the commensurator's hidden ℤ/3, which LOCATES it and does not derive it).",
+  "the_circularity_to_declare": "The cascade's selection principle is 'maximal residual symmetry among REGISTERABLE options', and registerable is DEFINED as 'the 27's generation structure survives' — B994: 'registerable = the generation stays chiral … the endpoint is forced by an input the object does not have.' So generation structure is partly a FILTER ON the cascade, not solely an output of it.",
+  "the_wall": "The typing wall (1′): an alternating family tensor ⊗ the symmetric E₆ cubic = ZERO coupling for identical families. Three slots exist; a Yukawa-type family tensor at that level does not.",
+  "the_defect": "THE_LADDER — 'what the programme does not yet contain', binding rule 'if X is not on it, X has not been checked' — contained the word 'generation' ZERO times, while 51 arcs speak to it. Repaired here as rung X33 (BOUNDED)."
+ },
+ "all_pass": true
+}

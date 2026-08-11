@@ -956,6 +956,46 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1031": {
+   "slug": "generation rung",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B257",
+    "B298",
+    "B302",
+    "B307",
+    "B335",
+    "B414",
+    "B594",
+    "B632",
+    "B637",
+    "B713",
+    "B760",
+    "B861",
+    "B862",
+    "B863",
+    "B864",
+    "B897",
+    "B928",
+    "B994",
+    "H111",
+    "H37",
+    "P54"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 31,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [
