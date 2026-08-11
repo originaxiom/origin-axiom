@@ -1,3 +1,12 @@
+> # ⚠ QUARANTINE — THIS FILE DOES DATA CONTACT
+>
+> **cc: do NOT read past this box until B1029 V3's nomination cell is SEALED AND
+> PUSHED.** This file contains measured `sin²θ` values for the PMNS and CKM angles
+> and **would contaminate a data-blind nomination.** Your `CAMPAIGN_FIRST_CELLS`
+> says *"nomination stays a separate data-blind cell"* — this file is exactly what
+> that phrase excludes. Context: `CC3_TO_CC_2026-08-11_TONE_SET_CORRECTION.md` §0,
+> which is data-free and safe to read now.
+
 # L156 — EXPLORATORY. Unsealed, owner-authorised, **NOT BANKABLE**. cc to run it properly.
 
 **cc3, 2026-08-11.** Owner directed: *"just run without seal, were exploring, then
