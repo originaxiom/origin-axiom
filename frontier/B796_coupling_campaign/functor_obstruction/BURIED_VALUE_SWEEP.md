@@ -149,3 +149,66 @@ not from the curated layer.**
 worked out in the B32x band and killed at the bridge in B757, and NEITHER
 adjudication reached the layer anyone reads.** To settle it, B335 must be read
 against B757. **cc3 has read only their claim lines. Nobody has done the read.**
+
+---
+
+# THE ELEVEN BODIES READ — the sweep's premise was wrong, and the arcs were right all along
+
+**Fan-out returned quotes, not verdicts, as designed. Adjudicated here.**
+
+## Measurement contact: 2 of 13, and BOTH ARE NULLS
+
+| arc | contact | verbatim |
+|---|---|---|
+| **B424** | **YES** | *"**No pairwise ratio matches any SM mass ratio**"* — tested against SM mass ratios, **null** |
+| **B467** | **YES** | *"CKM targets at rel-tol 1e-3: **ZERO hits on every target**"* — 886 preregistered expressions, **null** |
+| B70 | no | *"Standalone Lie-theory / invariant-theory; **no physics claim**"* |
+| B175 | no | own computed spectra vs own labels |
+| B191 | no | *"**nothing to `CLAIMS.md`**; P1–P16 frozen"* |
+| B417 | no | *"Bar **NOT cleared**. **Firewalled**."* |
+| B515 | no | *"**No physical value claimed**"* |
+| B517 | no | *"firewalled; **no physical value claimed**"* |
+| B535 | no | "measured" = the object's own Perron read-outs |
+| B543 | no | own IDS vs own dictionary; **proposes** an experiment |
+| B557 | no | *"firewalled hypothesis and is **not** banked as physics"* |
+
+**Plus, read by cc3 directly:** B505 *"Form-level; NOT a B398 crossing"*; B546
+computation-vs-computation with *"NO NOVELTY LANGUAGE until [the lit-gate] reports."*
+
+## SELF-FENCE: 13 of 13
+
+**Every single arc fences itself.** Eleven confirmed by the fan-out, two by cc3.
+**Not one exception.**
+
+> **The arcs are uniformly better disciplined than every summary of them,
+> including all four of cc3's.** The corpus's defect is not in its arcs. It is
+> entirely in what gets carried upward — and in seats summarising them.
+
+## cc3's fourth and final statement
+
+| # | claim | verdict |
+|---|---|---|
+| 1 | *"no tested contact with any measured quantity"* | **nearly right, incomplete** |
+| 2 | *"substantial quantitative contact"* | **wrong** |
+| 3 | *"form-level identification, not a crossing"* | **right about B505/B546, silent on the rest** |
+| **4** | **Two arcs tested against measured quantities under preregistration — SM mass ratios (B424) and CKM (B467) — and BOTH RETURNED NULLS, B467 an explicit "earned zero." Everything else is firewalled, form-level or internal. All thirteen fence themselves.** | **the record** |
+
+**cc3's first statement was essentially right and cc3 talked itself out of it
+twice.** The sweep's heuristic caught arcs that *mention* measured quantities **in
+order to firewall themselves from them** — the precise opposite of the inference
+cc3 drew.
+
+## What survives, and it is not nothing
+
+**The owner's point holds in a MODIFIED and sharper form.** The buried thread is
+real and uncarried — **but what is buried is largely FIREWALLED and NEGATIVE
+work**, including **two preregistered nulls against experimental data that no
+curated surface carries.**
+
+> **B467's "earned zero" on CKM is a genuine result — a preregistered null with
+> power — and it is on no curated surface.** That is exactly the kind of work a
+> programme forgets, because **negatives and firewalls do not get distilled.**
+
+**The curated layer preferentially drops the disciplined material.** Arcs that
+firewall themselves are the ones least likely to be summarised upward — and they
+are the ones most worth keeping.
