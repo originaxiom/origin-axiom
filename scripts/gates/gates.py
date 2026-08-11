@@ -874,6 +874,25 @@ def gate_representation_sweep():
     return not missing, [f"{i} ({v}, claim {n})" for i, v, n in missing[:5]] or "ok"
 
 
+
+# B1043 -> B1044. A law is not consolidated while a SAME-LAW arc sits in debt in another band.
+# B1039 restored B141's Item 4 as OPEN while B564 had CLOSED it; B564 is four bands away and B141
+# carries no forward pointer, so reading the in-band bodies could not reach it. Candidates are
+# TRIAGED, not capped (the B821/B823 posture): this fails only on UNTRIAGED ones, asking for a
+# judgement rather than a number -- a hard-fail on every candidate would fire on right answers.
+def gate_law_siblings():
+    """Every cross-band same-law candidate must carry a disposition in LAW_SIBLINGS.md."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import law_siblings as ls
+    except Exception as exc:
+        # FAIL-CLOSED: a missing sweeper is exactly the state in which a restored law quietly
+        # leaves its siblings behind, which is the failure this gate exists to prevent.
+        return False, f"law_siblings unimportable: {exc}"
+    missing = ls.sweep()
+    return not missing, [f"{b} ({law})" for law, b, _ in missing[:5]] or "ok"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -901,6 +920,7 @@ GATES = {
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,
     "atlas-lexicon-current": gate_atlas_lexicon_current,
+    "law-siblings": gate_law_siblings,
 }
 
 

@@ -1398,6 +1398,37 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1044": {
+   "slug": "law siblings gated",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "symplectic"
+   ],
+   "refs": [
+    "B106",
+    "B117",
+    "B118",
+    "B121",
+    "B122",
+    "B198",
+    "B232",
+    "B257",
+    "B33",
+    "B522",
+    "B564",
+    "B75",
+    "B77",
+    "B821",
+    "B823",
+    "L164"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

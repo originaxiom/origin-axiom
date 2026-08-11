@@ -61,6 +61,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Every link in THE CHAIN cites a **resolvable** test lock (the ledger's own admission rule) | **GATED** | `chain-locks` |
 | `LAW_MAP.md` is an **unenforced index**: every row traceable to an arc, every cited lock resolving (R33-4) | **GATED** | `law-map-provenance` |
 | The atlas lexicon must not **go blind**: zero-motif probes may not grow (B806) | **GATED** | `atlas-lexicon-current` |
+| A restored law must not leave a **same-law arc in debt in another band** — the debt sweep groups by **banking date**, a law is a statement about **what an arc says**, and a body cannot cite its own future (B1043/B1044). Candidates are **triaged, not capped**: the gate fails only on **untriaged** ones | **GATED** | `law-siblings` · registry `docs/consolidation/LAW_SIBLINGS.md` |
 | No speculative room (`speculations/`, `philosophy/`, `story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |

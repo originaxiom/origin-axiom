@@ -1,0 +1,51 @@
+{
+ "checks": {
+  "the_sweeper_runs_and_is_wired_as_a_gate": {
+   "pass": true,
+   "note": "registered in PRACTICES too -- the practices-register gate caught its absence within a minute of the gate being added, which is the machinery working"
+  },
+  "it_FAILS_CLOSED_if_the_sweeper_disappears": {
+   "pass": true,
+   "note": "a missing sweeper is exactly the state in which a restored law quietly leaves its siblings behind"
+  },
+  "the_defect_that_motivated_it_is_now_MECHANICALLY_reachable": {
+   "pass": true,
+   "note": "B564's claim line matches the phi-fixed fingerprint, so the sweeper reaches by TOPIC what the band sweep could not reach by DATE"
+  },
+  "every_candidate_carries_a_disposition": {
+   "pass": true,
+   "untriaged": []
+  },
+  "and_the_registry_disposes_BOTH_ways_not_just_favourably": {
+   "pass": true,
+   "triaged": [
+    "B106",
+    "B232",
+    "B257",
+    "B33",
+    "B522",
+    "B564",
+    "B75",
+    "B77"
+   ],
+   "note": "six SAME-LAW arcs were consolidated onto their laws' rows (B33, B232, B522 on the tower; B75, B77, B106 on the metallic exponent) and B257 is RELATED -- a real neighbour, deliberately LEFT IN DEBT because it states a different law"
+  },
+  "the_RELATED_one_is_still_in_debt__which_is_the_honest_outcome": {
+   "pass": true,
+   "note": "B257 remains a candidate, triaged. Naming it on LAW_MAP would have made an unconsolidated arc read as CONSOLIDATED -- X31's 'registering a gap creates hits for the gap', i.e. E37 -- so the judgement lives in the registry and the arc stays in debt"
+  },
+  "the_sweeper_excludes_registry_rows_BY_PURPOSE_not_by_mention": {
+   "pass": true,
+   "note": "TWO self-measurement bites while building this. (1) B1043's LAW_MAP row names every candidate, so the first run reported ZERO -- rows that REGISTER debt read as rows that CONSOLIDATE it. (2) The obvious fix, dropping any line naming the registrar, is WRONG: a LAW_MAP row is ONE LINE, so it also dropped that row's real citations and made B117/B122/B121/B118 read as uncited. Excluding by ROW PURPOSE fixes both"
+  },
+  "B1038s_open_prize_now_names_its_best_known_reduction": {
+   "pass": true,
+   "note": "B522 is a formal-slice/BCH route to the tower conjecture -- 'full proof NOT reached', but the best progress on the very prize B1038's row listed as open, which the row did not say"
+  },
+  "and_the_metallic_row_now_carries_the_stratum_it_must_be_read_OFF": {
+   "pass": true,
+   "note": "B106's Dehn-filling fixed points ARE the finite-order-mu reps whose inclusion B198's own correction blames for the illusory multi-exponent readings"
+  }
+ },
+ "all_pass": true
+}
