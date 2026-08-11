@@ -10160,3 +10160,12 @@ counted act + weight-1 magnitudes. **Floor: one unit, two bits, two acceptances.
 B1024 → PROVISIONAL (the lost amendment's three controls owed; the generator stands three-way);
 B1022 adjudicated beside its hash-lock (5 stand / 4 narrowed / 2 in-part / 1 refuted — C3's
 σ-sightedness); the propagation rule enters PRACTICES. The handoff's remaining digest queued.
+
+---
+
+## B1026–B1027 (2026-08-11) — the fourth crossing: all-miss, powered, one degree
+
+Nomination data-blind (the kind-clause killed the author's own first draft); the crossing sealed
+pre-contact, prior MISS — held. Quark 11σ/38σ; leptonic 3.1σ and **1.02σ — one degree beyond the
+sealed edge, not promoted, the precision frontier**. Zero anchors, 2 bits, both sectors powered.
+The first clean death among the four crossings; refresh pre-committed; the wall stands.

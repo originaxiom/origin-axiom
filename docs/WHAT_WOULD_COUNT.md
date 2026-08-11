@@ -93,7 +93,7 @@ computed (B992). *Missing: chirality without an inserted closing.*
 **Would count:** a **preregistered**, **sealed-before-compute** prediction of **one** dimensionless
 SM quantity no class-sibling shares, surviving `INPUT_COMPLETENESS_LEDGER` and a global
 look-elsewhere budget.
-**STATUS: NOT DONE, AND AS OF 2026-08-09 WITH NO LIVE CANDIDATE (B1005).** Three sealed crossings,
+**STATUS: NOT DONE — and now FOUR sealed crossings, four negatives.** The fourth (B1027, 2026-08-11) was the first to die clean: channel-declared, anchor-free, kind-licensed, 2 bits priced, powered in both sectors — the χ phases are not the CP phases (quark: 11σ; leptonic: **a one-degree miss at 1.02σ, not promoted, recorded as the precision frontier** with a pre-committed refresh at the same windows). As of 2026-08-09 the enumerated space had no live candidate (B1005); the nomination machinery (B1026) now generates candidates data-blind from the coupling channel, and its unspent inventory (the θ-even mirror; the T2 runner-up) is the lane's remaining ground.** Three sealed crossings,
 three negatives — B915 (16σ), B925 (outcome B by the chain's own algebra), B929 (right shape, wrong
 magnitude 5–9×) — **and §5's falsifier 2 has now FIRED: every one of B687's 23 enumerated
 dimensionless invariants is dead, Koide included (B686, B703, B743).**

@@ -1,5 +1,25 @@
 # Changelog
 
+## B1026–B1027 (2026-08-11) — THE FOURTH CROSSING: all-miss, powered, and a one-degree frontier
+
+**The nomination ran data-blind (B1026):** the χ phases ↔ the CP phases at exactly **2.0 priced
+bits** — and the sealed kind-clause **killed its own author's first draft** (T5 scored first at
+1.585 and was excluded by N1: signed-amplitude has no modulus license; the nominee would have
+been boundary-degenerate). **The crossing sealed before any contact (B1027, `c58c8a88`), prior
+MISS declared — and held:**
+
+> **ALL-MISS, powered in both sectors.** Quark δ₁₃ = 68.8°±4.5°: 11.4σ and 38σ. Leptonic
+> (NuFIT 5.2 NO, 197°+42/−25): 3.1σ — **and 1.02σ: the −120° prediction missed by ONE DEGREE**
+> (43.0° against a 42.0° upper error). **Not promoted. Non-weakening. Recorded as the precision
+> frontier:** a fit shrinking δ_CP's upper error ~2× decides ±120° sharply either way; a refresh
+> verdict at the same windows is pre-committed.
+
+**The first crossing to die clean** — no assumed interpolation, no wrong hemisphere, no missing
+normalisation, **zero anchors**: the prediction was exact and theorem-grade, and nature said no,
+by one degree, in the one sector where it could have said yes. The lane's ledger: 2 bits + 2
+rows. The θ-even mirror and the T2 runner-up remain unspent. **Gate 5 untouched; Tier-2 status
+unchanged; the wall stands — tested, this time, exactly as the requirements demanded.**
+
 ## The window-handoff corrections, round 1 (2026-08-11) — two banners, one new rule
 
 **cc3's full handoff landed** (their branch pushed through `2910bea4`; ledger 85/85; the θ sweep

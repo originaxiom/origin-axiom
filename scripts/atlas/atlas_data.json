@@ -783,6 +783,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1026": {
+   "slug": "nomination",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B1027": {
+   "slug": "fourth crossing",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B856"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B102": {
    "slug": "hitchin continuation",
    "motifs": [
