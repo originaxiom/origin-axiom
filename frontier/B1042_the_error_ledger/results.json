@@ -1,0 +1,100 @@
+{
+ "checks": {
+  "the_error_ledger_has_not_moved_in_over_a_hundred_arcs": {
+   "pass": true,
+   "highest_arc_cited": "B920",
+   "corpus_at": "B1042",
+   "lag": 122,
+   "latest_date": "2026-08-06",
+   "note": "its own header: 'Reviews check the window's disclosed errors against this taxonomy: a recurrence strengthens the class's standing rule; a new class gets a new entry'"
+  },
+  "and_the_currency_gate_cannot_see_it_BY_CONSTRUCTION": {
+   "pass": true,
+   "unwatched_governed_registers": [
+    "ERROR_LEDGER.md",
+    "RETRACTIONS.md",
+    "REPRESENTATION_TRIAGE.md"
+   ],
+   "living_count": 15,
+   "note": "doc-currency watches 15 documents and none of the three GOVERNED REGISTERS whose entire job is currency. Same gate hole B1036 found for knowledge/INDEX.md"
+  },
+  "E1_still_lists_three_instances_all_from_one_day_in_July": {
+   "pass": true,
+   "registered": 3,
+   "found_this_refresh": 5,
+   "note": "GOVERNANCE §13 calls E1 'the program's single most recurrent error class'. That claim is now far better supported than when it was written, and the register cannot show it"
+  },
+  "and_the_five_new_collisions_are_each_banked_and_SELF_COUNTED": {
+   "pass": true,
+   "collisions": {
+    "theta naming three distinct objects": "B1026",
+    "B62 = 2 x P33, one identity in two conventions": "B1026",
+    "B939's transposed shadow-map prose": "B1024",
+    "kappa naming two quantities, one exported by the certified core": "B1034",
+    "the entropy factor of two (4 log phi vs 2 log phi)": "B1036"
+   },
+   "note": "the arcs count themselves: B1034 says 'four', B1036 adds 'the fifth'. Nothing new is asserted here -- the count is read off the arcs"
+  },
+  "the_hazard_IS_named_twice__and_in_NEITHER_case_as_a_class": {
+   "pass": true,
+   "named_in": [
+    "docs/THE_LADDER.md X31 (a parenthetical about ONE row)",
+    "docs/progress/REVIEWS.md Review 42 (an annotation of that row)"
+   ],
+   "absent_from": [
+    "docs/ERROR_LEDGER.md (36 classes)",
+    "docs/PRACTICES.md"
+   ],
+   "note": "THE POINT, and it is B1041's shape one level up: the corpus NAMES its lessons where it finds them. Both notes are attached to the Markov-blanket row they were found on. Neither generalises to the taxonomy, so the next arc meets it fresh"
+  },
+  "meanwhile_the_refresh_hit_it_ten_times_across_nine_arcs": {
+   "pass": true,
+   "self_counted_by_the_arcs": {
+    "B1032": 4,
+    "B1033": 6,
+    "B1035": 8,
+    "B1036": 9,
+    "B1037": 10
+   },
+   "note": "read from the arcs' own self-correction lines: B1033 'SIX instances across five arcs', B1035 'eighth ... in seven arcs', B1036 'ninth ... in eight arcs', B1037 'Tenth'. By a wide margin the most frequent failure of this pass, and a reader of the error ledger would never learn it exists"
+  },
+  "one_offs_are_recorded_as_INSTANCES_of_existing_classes_not_new_entries": {
+   "pass": true,
+   "filed_under_existing": {
+    "B1039's anti-homomorphic sym_power": "E31 (instrument-precondition unchecked) -- ONE instance; the instrument was algebraically wrong and only its control knew",
+    "B1041's d3_measure clobber (mine)": "E36 (artifact-clobber) -- the class already exists and already names the mechanism; this is an instance, not a discovery"
+   },
+   "note": "the ledger's own header forbids per-incident entries. Two of this pass's errors get INSTANCE rows under existing classes rather than classes of their own"
+  },
+  "the_register_now_carries_the_five_collisions": {
+   "pass": true,
+   "note": "E1's instance list extended in place, each collision cited to its banked arc"
+  },
+  "and_the_two_missing_classes_exist": {
+   "pass": true,
+   "classes": 38,
+   "note": "E37 credits THE_LADDER X31 and Review 42 as having named it first; E38 credits B1033's own prose as having written the correct form before the check failed to implement it"
+  },
+  "and_the_two_one_offs_are_INSTANCES_not_classes": {
+   "pass": true,
+   "note": "E31 gains B1039's anti-homomorphic instrument; E36 gains B1041's clobber. The header forbids per-incident entries and it is honoured"
+  },
+  "the_GATE_change_is_registered_and_NOT_made": {
+   "pass": true,
+   "note": "adding the three governed registers to doc_currency's LIVING is a one-line gate change and an owner decision -- the L159/L160/L161 pattern. Registered as L163, not made"
+  }
+ },
+ "proposed": {
+  "E37 self-measurement": {
+   "class": "an arc that both MEASURES a gap and FILLS it invalidates its own metric",
+   "standing_rule": "a measurement published by the same commit that changes what it measures must name its own exclusion set, in the artifact, next to the number (B1033's rule, stated after it cost re-runs)",
+   "instances": "ten across nine arcs this refresh; first named at THE_LADDER X31"
+  },
+  "E38 progress-eroded threshold": {
+   "class": "a lock encoding a structural claim as an ABSOLUTE COUNT, inside a programme whose purpose is to change that count",
+   "standing_rule": "a lock on a quantity the programme intends to move states it as a SHARE or a structural invariant, never as a raw count",
+   "instances": "B1033's `> 200 rows dropped`, broken by B1038+B1039+B1040 at 198/216 with the finding completely intact (lowest above-bar row still B870, share 92 %)"
+  }
+ },
+ "all_pass": true
+}

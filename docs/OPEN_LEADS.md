@@ -1775,3 +1775,30 @@ constitution's invariant tier pointing at an unmeasured file.**
 (`GATED`, `PARTIALLY-KNOWN`, `SHARPER-REDUCTION`, `APPARENTLY-UNWRITTEN`, `W0 GATE DONE`), while
 the declared value **`APPEARS-NOVEL` is used by zero rows**; and two Tier-1-grade rows (`T-KQ`,
 `T-MASTER`) sit in a **headerless table** outside any tier heading.
+
+
+## L163 — THE THREE GOVERNED REGISTERS ARE OUTSIDE THE CURRENCY GATE (registered 2026-08-11; B1042)
+
+**A one-line gate change, and an owner decision — the L159/L160/L161 pattern.**
+`scripts/checks/doc_currency.py`'s `LIVING` dict watches **15** documents. It does **not** watch:
+
+| register | what it is | measured lag at B1042 |
+|---|---|---|
+| `docs/ERROR_LEDGER.md` | the error-class taxonomy (GOVERNANCE §13/§15) — *"Reviews check the window's disclosed errors against this taxonomy"* | **122 arcs** (highest cited B920; latest date 2026-08-06) |
+| `docs/RETRACTIONS.md` | the retractions index (GOVERNANCE §12 companion), whose maintenance rule is *"every future retraction adds its row in the PR that banks the correction"* | not measured |
+| `docs/REPRESENTATION_TRIAGE.md` | the gated register of unrepresented arcs (L143/B976) | not measured |
+
+**All three exist to keep the record current, and none of them is measured for currency.** The
+lag is what let E1's instance list sit at three from 2026-07-16 while the refresh banked five more
+collisions, and what let the pass's most recurrent hazard reach ten instances without a class.
+
+**Why it is not done here.** Editing `LIVING` changes what fails the build, and a drafting seat
+that adds a gate has decided for the owner what blocks a merge. **The tolerances are the real
+decision** — `CLAIMS.md` is at 40 and `CAMPAIGN_STATUS.md` at 5, a range that reflects judgement
+about how fast each surface should track the frontier. *`ERROR_LEDGER` should probably be slack
+(a taxonomy is not supposed to churn) and `RETRACTIONS` tight (its own rule is same-PR)* — but
+that is a judgement, not a computation, and it is not mine to make.
+
+**Registered with the repair it would have caught already made:** B1042 extended E1's instances,
+minted **E37** (self-measurement) and **E38** (progress-eroded threshold), and filed B1039's and
+B1041's one-offs as instances of E31 and E36. **The gate is what would keep it current next time.**

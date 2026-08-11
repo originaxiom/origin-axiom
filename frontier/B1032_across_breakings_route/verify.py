@@ -76,9 +76,18 @@ def without_this_arc(rel):
     FOURTH instance of one hazard in three arcs: a consolidation arc that both MEASURES a gap and
     FILLS it invalidates its own metric unless the measurement is scoped by AUTHORSHIP. B1030 hit
     it once, B1031 twice. It is now the default shape here rather than a repair.
+
+    WIDENED 2026-08-11 (B1042). The original exclusion dropped only rows naming B1032 itself --
+    which scopes the arc out of its own measurement but NOT the arcs that come after it. B1042's
+    currency read on THE_SM_VERDICT cited this very cluster (B885 -> B889 -> B890 -> B891) as a
+    live second route, and this check went red: the gap had been FILLED, correctly, by a later
+    arc. That is the eleventh instance of the same hazard and the first caught by a LOCK rather
+    than by the author. The exclusion is now "this arc AND EVERY LATER ONE" -- B1037's pattern --
+    so the published figure means "as at B1032", which is what it always claimed.
     """
+    AFTER = re.compile(r"\bB10(?:3[2-9]|[4-9]\d)\b")   # this arc AND EVERY LATER ONE
     return "\n".join(ln for ln in read(rel).splitlines()
-                     if "B1032" not in ln and "**X33**" not in ln)
+                     if not AFTER.search(ln) and "**X33**" not in ln)
 
 
 blob = "\n".join(without_this_arc(p) for p in CURATED)

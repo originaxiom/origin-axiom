@@ -1344,6 +1344,28 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1042": {
+   "slug": "the error ledger",
+   "motifs": [
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B62",
+    "B870",
+    "B889",
+    "B890",
+    "B891",
+    "B920",
+    "B939",
+    "L163",
+    "P33"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

@@ -271,3 +271,38 @@ of the manifold and therefore neither class- nor member-level. **It is a third r
 it is not the register the open door names. So it neither closes nor widens that door.
 
 **Net: Tier 0 complete, Tier 1 substantially complete, Tier 2 NOT DONE — unchanged.**
+
+
+## Currency read, 2026-08-11 (B1030–B1042) — the verdict is UNCHANGED, and here is why
+
+*Same discipline as the read above: `doc-currency` flagged this surface again, and a note that
+merely bumped a citation would be the staleness the gate exists to catch.*
+
+**Nothing in B1030–B1042 touches this verdict.** The window is a **consolidation refresh** — it
+restored banked laws onto curated surfaces and audited the register/lock layer. **No arc in it
+asserted, moved or withdrew a physics claim.** Three of its findings come closest to this page and
+each stops short, for a stated reason:
+
+- **B1031 (rung X33) sharpens the generation row above, and agrees with it.** Line 45 reads *"three
+  generations, structurally"*, and that is exactly right: **B632 and B897 compute the count twice,
+  B335 makes the three sheets exactly degenerate, and B302 LOCATES the ℤ/3 in the commensurator —
+  locating is not deriving.** **B307 (= P54) closes the route through the trace field of a single
+  hyperbolic knot**, and B1032 established there is a **second** live route (the across-breakings
+  cluster of B1032 — B885 → B889 → B890 → B891, two sealed cells) that B307's hypothesis does
+  not reach.
+  **Two caveats must travel with any statement of the count** — the registerability circularity,
+  and the typing wall. *The verdict's word "structurally" already carries this; the arcs make it
+  checkable.*
+- **B1030 types the external inputs and does not change them.** Four of the five counted inputs are
+  dimensionless and **all discrete**; the only **continuous** dimensionless input is **A2 = c = 6σ**,
+  a declared and priced anchor. **L154 is the single open cell that would make σ object-forced** —
+  and it buys nothing for Tier 4, which is an output-side scoreboard. **No input was added or
+  removed.**
+- **B1041/B1042 are about the lock and register layers**, not about physics: three red locks (all
+  repaired; **B511's D3 is a restatement of B506/B507 and is cited on no curated surface**, so
+  nothing here rests on it), and an error taxonomy 122 arcs stale.
+
+> **The verdict stands as written.** What this window changed is how much of the evidence behind it
+> is *checkable*: the suite now completes (81 minutes, 3891 passing), three red locks are green,
+> and the laws behind four of this page's citations are on curated surfaces instead of only in
+> their arcs.
