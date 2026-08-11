@@ -83,3 +83,69 @@ programme "does not have" was a statement about that 38 %, delivered as a
 statement about the whole.
 
 **That is the day-0 disease, caught live, in cc3's own summary, one hour old.**
+
+---
+
+# ⚠ BODIES READ — cc3's CORRECTION WAS ITSELF AN OVERSTATEMENT
+
+**The two load-bearing arcs fence themselves correctly. cc3 dropped the fence.**
+
+**B505, in full**, ends: *"The program's κ-coordinate IS the squared quasiperiodic
+coupling of the measured (KKT/Sütő/Bellissard) quasicrystal chain; κ=2 ⟺ λ=0
+(free metal); the PROVED drift ledger reads as coupling RG rates. **Form-level;
+NOT a B398 crossing.**"*
+
+**B546, in full**: *"**Sturm-count IDS at N = 10⁶** (resolution 1e-6), at the 12
+gap centers"* → matched against a computed ℚ(√φ) dictionary, deviations 3.4e-07 to
+3.9e-08. **A computation compared to a computation, not to experimental data.**
+And it closes: *"**Lit-gate (BBG/Damanik) running as background deep research; NO
+NOVELTY LANGUAGE until it reports.**"*
+
+## Three statements, in order, all cc3's
+
+| | claim | verdict |
+|---|---|---|
+| 1 | *"no tested contact with any measured quantity"* | **too strong** |
+| 2 | *"substantial, quantitative contact with condensed-matter quantities"* | **too strong the other way** |
+| 3 | **a FORM-LEVEL identification with a physically realised system, explicitly NOT a crossing, lit-gate pending — carried by no curated surface** | **the arcs' own words** |
+
+**Both arcs are better disciplined than cc3's summary of them.** B505 says
+*"NOT a crossing"*; B546 forbids novelty language until its lit-gate reports.
+**cc3 dropped both fences — the exact pattern `claim_drop.py` was built for,
+committed by its author, on arcs that did it right. Tenth instance, and it
+occurred while correcting the ninth.**
+
+## What survives, and it is the owner's point unchanged
+
+**The thread exists, is PROVED, and is carried by no curated surface.** The value
+of the sweep is **LOCATION**, not strength. cc3 established the location correctly
+and overstated the strength twice inside an hour.
+
+---
+
+# THE GENERATIONS QUESTION — adjudicated TWICE, in opposite directions, neither carried
+
+**Owner's belief: *"I believe we derive 3 generations."* Checked from the record,
+not from the curated layer.**
+
+| arc | verdict | content | on a curated surface? |
+|---|---|---|---|
+| **B335** | PROVED | *"the generation ℤ/3 **is the deck transformation of the 3-fold cyclic cover of 4₁**, hence an isometry, so every real geometric invariant (and any mass) is **exactly degenerate**; a hierarchy is its breaking"* | **NONE** |
+| **B324** | PROVED | ℤ/3-circulant trace matrix in ℤ[ω], degenerate light eigenvalues — *"structure, not values"* | **NONE** |
+| **B326** | PROVED | the ℤ/3-breaking is finite congruence torsion — *"texture, not magnitudes"* | CLAIMS.md only |
+| **B323** | PROVED | *"ℤ/3 exists only at the E₆ gauge level and the commensurator, **and they are distinct**"* | **NONE** |
+| **B757** | NEGATIVE | *"**the two ℤ/3's are never the same element** … carrying **zero information**"* | **NONE** |
+| B897 | — | the hedged one (*"mechanism-hood NOT decided"*) | **LAW_MAP · THE_FRAMEWORK · THE_CLAIM · THE_SM_VERDICT** |
+| B928 | — | — | **all five** |
+
+> **The curated layer carries NEITHER the derivation NOR its refutation.** It
+> carries two later arcs on every surface, one of which hedges.
+>
+> **P13's tombstone is narrow** — it kills the *triality-on-27* route
+> (*"the 27 splits 9+9+9 … the wrong 3"*), **not the concept**, and B335 is a
+> different route entirely.
+
+**So the honest answer is neither "derived" nor "not derived": the question was
+worked out in the B32x band and killed at the bridge in B757, and NEITHER
+adjudication reached the layer anyone reads.** To settle it, B335 must be read
+against B757. **cc3 has read only their claim lines. Nobody has done the read.**
