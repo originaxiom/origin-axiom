@@ -1,5 +1,34 @@
 # Changelog
 
+## B1028–B1029 (2026-08-11) — THE WHY CAMPAIGN opens: COMPRESSION, and the shelf is stocked
+
+**Lane I-1 (B1028, sealed e13d09a5): the global freedom ledger lands COMPRESSION.** The
+retroactive look-elsewhere audit over the whole chain — eleven arrows, none skipped, every
+0-price backed by its forcing arc's **machine-checked discriminating phrase** (the walk re-runs
+its own citations): **retroactive designer freedom = 0.000 bits** against a **conservative
+4.585-bit output floor** in declared ambient classes (ℤ₆ 2.0 · endpoint 1.585 · mass-in-cubic
+1.0), with the hypercharge continuum pin, the STRUCTURAL generation triple, and the Yukawa
+pattern all *uncounted*. The seal's two named risks **both resolved against the risk** by arcs
+banked before the ledger ran (B994: the rule's assumed half does not do the landing; B897:
+sealed before compute). Even conflating the 3 declared input bits against the floor, the
+balance stays **+1.585 bits**. The stop rule does not fire; "cannot be coincidence" is now a
+number with declared classes, not a feeling.
+
+**Lane III-1 (B1029, sealed 9a46975f): the invariant ring — SHELF DELIVERED.** Derived, not
+asserted: **reversal acts on the coupling values identically to conjugation** (unitary
+characters conjugate under inverse; SU(2) traces are real), so the frame group acts on values
+through ℤ/2 **with kernel exactly θ = c∘r — the banked θ-triviality, placed** as the value-kernel
+of B1024's frame action. The invariant ring = the real subring of the banked constants; **the
+entire non-invariant complement is one sign** — the exact bit the fourth crossing paid,
+localised. Two relational candidates priced under the sealed cap with no data contact: **the
+golden sum rule at 1.585 bits** and the absolute pair at 2.0 after N4's kill — Lane III-2's
+shelf is stocked *before* any measured value is looked at. One correction recorded in-arc: the
+first compute printed EMPTY/blocked; the sealed pricing machinery refuted it, and the corrected
+verdict stands.
+
+Docs: THE_CLAIM's controls carry the compression number; THE_WHY_CAMPAIGN board updated;
+LAW_MAP row for the value-kernel theorem (SCOPE-fenced to the sealed inventory).
+
 ## B1026–B1027 (2026-08-11) — THE FOURTH CROSSING: all-miss, powered, and a one-degree frontier
 
 **The nomination ran data-blind (B1026):** the χ phases ↔ the CP phases at exactly **2.0 priced

@@ -17,7 +17,9 @@ is what makes it an instrument.*
   to the SM skeleton; count every designer freedom ever consumed, link by link, under the
   crossing-ledger discipline applied for the first time to the derivation itself. Output:
   bits-in vs structure-bits-out against declared ambient classes. Two-outcome: coincidence dies
-  quantitatively, or the illusion's address is found.
+  quantitatively, or the illusion's address is found. **BANKED 2026-08-11 (B1028): COMPRESSION —
+  0.000 retroactive bits against a 4.585-bit conservative output floor; both named risks
+  resolved against the risk; the stop rule does not fire.**
 - **I-2: the seed-variation census** (B994 varied the rule; the seed never — the honest
   population declared first, per B996's genericity lessons).
 - **I-3: the compression statement assembled** (THE_CLAIM's controls + I-1's number).
@@ -35,7 +37,12 @@ is what makes it an instrument.*
 
 - **III-1 (first seal): the invariant ring.** B1024 fixed how the observer's frame group acts on
   the coupling data; **the quantities invariant under that action are, by our own theorems, the
-  legitimately predictable ones — and nobody has computed them.**
+  legitimately predictable ones — and nobody has computed them.** **BANKED 2026-08-11 (B1029):
+  SHELF DELIVERED — reversal acts on values identically to conjugation, so θ = c∘r is the
+  value-kernel (the banked θ-triviality, placed); the ring = the real subring of the banked
+  constants; the whole non-invariant complement is one sign (B1027's bit, localised); two
+  relational candidates priced under the sealed cap (the golden sum rule 1.585 bits; the
+  absolute pair 2.0) — III-2's shelf is stocked before any data is looked at.**
 - **III-2: the anchored crossing design** — one priced calibration (R11's allowance), predicted
   RELATIONS among the rest; sealed only through a fresh B1026-style nomination.
 - **III-3: new inventory** — the θ-even mirror sector; L154's re-posed c; S1 (the J acceptance);

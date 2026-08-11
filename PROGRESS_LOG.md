@@ -10169,3 +10169,21 @@ Nomination data-blind (the kind-clause killed the author's own first draft); the
 pre-contact, prior MISS — held. Quark 11σ/38σ; leptonic 3.1σ and **1.02σ — one degree beyond the
 sealed edge, not promoted, the precision frontier**. Zero anchors, 2 bits, both sectors powered.
 The first clean death among the four crossings; refresh pre-committed; the wall stands.
+
+## 2026-08-11 — B1028 + B1029: THE WHY CAMPAIGN's first two cells (Lanes I-1 and III-1)
+
+The owner approved ("aproved, execute it"); both cells were already sealed (e13d09a5,
+9a46975f) and pushed before compute. **B1029 (the invariant ring): SHELF DELIVERED** —
+reversal = conjugation on the coupling values, so θ = c∘r is the value-kernel of the frame
+action (the banked θ-triviality, placed); the ring is the real subring of the banked
+constants; the whole non-invariant complement is one sign (B1027's bit, localised); two
+relational candidates priced under the sealed cap (sum rule 1.585 bits; absolute pair 2.0
+after N4) with zero data contact. In-arc correction recorded: the first compute printed
+EMPTY/blocked; the sealed pricing machinery (B1026 N3/N4/N5) refuted it. **B1028 (the
+freedom ledger): COMPRESSION** — eleven arrows, retroactive designer freedom 0.000 bits
+(every zero's forcing phrase machine-checked against the cited arc's banked verdict),
+conservative output floor 4.585 bits in declared classes; both sealed named risks resolved
+against the risk (B994's derived-half landing; B897's seal-before-compute); the stop rule
+does not fire. THE_CLAIM's controls now carry the number; LAW_MAP gains the value-kernel
+row (SCOPE-fenced); the campaign board marks both lanes banked. Locks:
+tests/test_b1028_freedom_ledger.py, tests/test_b1029_invariant_ring.py.

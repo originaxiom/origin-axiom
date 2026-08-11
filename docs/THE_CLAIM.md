@@ -36,8 +36,15 @@ owner's directive: state the theorem we have, not the theory we lack.*
 is *generic* — ~1 in 3 manifolds, 5 of 7 grammars (B993, B996) — so arrival there confirms
 nothing. The uniqueness lives at the **beginning**: the golden is the *unique* metallic grammar
 whose own-conductor shadow is a McKay group, proved over the infinite family (B997, B1002). The
-endpoint's discriminating power beyond E₆ is **uncomputed, not assumed** (L149 is the registered
-test). Within the registerable universe the reachable endpoint set has size **one** (B994).
+endpoint's discriminating power beyond E₆ is **uncomputed, not assumed** — and now partially
+computed: the siblings have **no door at all** (B1019). Within the registerable universe the
+reachable endpoint set has size **one** (B994). **The freedom ledger (B1028, sealed): the chain's
+retroactive designer freedom prices to 0.000 bits — every link banked-forced, its forcing arc's
+discriminating phrase machine-checked — against a conservative output floor of 4.585 bits in
+declared ambient classes (ℤ₆: 2.0 · endpoint: 1.585 · mass-in-cubic: 1.0), with the hypercharge
+continuum pin, the STRUCTURAL generation triple, and the Yukawa pattern all uncounted; even
+conflating the 3 declared input bits against the floor the balance stays +1.585 bits. Verdict
+COMPRESSION; the seal's two named risks both resolved against the risk.**
 
 ## §2 — THE ANCHOR DOCTRINE (the bridge is licensed by theorem)
 

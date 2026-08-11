@@ -807,6 +807,52 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1028": {
+   "slug": "freedom ledger",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B14",
+    "B266",
+    "B863",
+    "B864",
+    "B884",
+    "B897",
+    "B991",
+    "B994",
+    "B997",
+    "P5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1029": {
+   "slug": "invariant ring",
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B644",
+    "B856",
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B102": {
    "slug": "hitchin continuation",
    "motifs": [
