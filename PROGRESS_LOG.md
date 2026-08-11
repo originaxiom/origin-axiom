@@ -10257,3 +10257,13 @@ boundary — verified by adjudicated search, not absence-assertion). The lead na
 construct-the-bridge-or-find-its-obstruction (S1-class). Third-σ row in TERMINOLOGY.
 Riders: provenance regex → B\d{2,4}; Todorov addendum on B862; naming-gate build
 deferred with design constraint. Locks: tests/test_b1034_l154.py.
+
+## 2026-08-12 — B1035: the receipts closed; docs/FALSIFIER_REGISTER.md registered
+
+Both HELD files located on the pushed audit branch (present since 2026-08-10 — a
+retrieval failure, not an evidence failure), re-verified hash-first, integrated. The θ
+withdrawal accepted (strengthens k-blindness; relays-are-ungated residue stays open);
+the falsifier recount adopted (1 earned / 1 falsifier-only / 2 untested-sharp / 3
+cannot-fire / 1 withdrawn); the register now on main as the physics-facing companion of
+WHAT_WOULD_COUNT §5, with the not-falsifiable-and-why section carrying the weight-ledger
+tension. Locks: tests/test_b1035_receipts.py.

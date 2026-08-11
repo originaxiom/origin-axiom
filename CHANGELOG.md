@@ -1,5 +1,21 @@
 # Changelog
 
+## B1035 (2026-08-12) — the two HELD receipts unblocked, and the falsifier register comes home
+
+A day's hold on evidence that was pushed, byte-stable, on both remotes the whole time —
+the point-of-use retrieval defect at its most expensive; located by the audit seat,
+re-verified hash-first here (both exact). **The θ receipt closes** (B1009's refusal
+accepted at all nine sites; the withdrawal *strengthens* k-blindness; the structural
+residue named and open: **relays are ungated** — the B999 residue). **The two-phase
+falsifier register verifies** (Phase A sealed before status; Phase B cites the digest and
+rewords nothing) **and is brought to main** as `docs/FALSIFIER_REGISTER.md` with the
+recount adopted: earned confirmations **1** (P2, non-unique) · falsifier-survived-claim-
+unsupported **1** (P4) · untested-sharp **2** (P3, P6 — the register's real assets) ·
+**status-unearned-cannot-fire 3** (P5 self-cancelling; **P7/P8 scale-less by the
+framework's own theorem — the weight ledger starves its own predictions, the type law
+read from the falsifiability side**) · withdrawn **1** (P1). B1021's HELD rows closed by
+addendum-beside; ask-3 verified already-discharged (the B709 fence reads onto its prereg).
+
 ## B1034 (2026-08-12) — L154 lands UNDECIDED: SAME is unobstructed, unexhibited, and priced at one bridge
 
 Plan Arc 1, sealed 6361f222 pre-compute, no declared prior, the audit seat recused. V1:

@@ -985,6 +985,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1035": {
+   "slug": "receipts and register",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B709",
+    "B999",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [
