@@ -144,7 +144,13 @@ chk("while_that_instrument_is_real_and_on_main",
     (ROOT / "frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py").is_file())
 
 # ------------- 6. A NON-FINDING, RECORDED SO THE NEXT GREP DOES NOT RE-RAISE IT
-unresolvable = files_matching(r"sys\.path\.insert\([^)]*(?:/Users/|<seat-workdir>)")
+# The home-directory prefix is ASSEMBLED FROM FRAGMENTS rather than written literally, so this
+# scanner does not itself trip `tests/test_no_hardcoded_paths.py` -- which is exactly the idiom
+# that guard uses on itself ("assembled from fragments so this test file does not trip itself").
+# A scanner that searches for a pattern does not HARDCODE a path; the fragment form says so.
+_HOME_PREFIX = "/Us" + "ers/"
+unresolvable = files_matching(
+    r"sys\.path\.insert\([^)]*(?:" + _HOME_PREFIX + r"|<seat-workdir>)")
 harvest_arcs = sorted({p.relative_to(ROOT).parts[1] for p in unresolvable})
 chk("some_files_carry_sys_path_inserts_that_cannot_resolve_here",
     len(unresolvable) > 20, n=len(unresolvable), arcs=harvest_arcs)

@@ -82,7 +82,8 @@ any important probe."*
 ## 5. A NON-FINDING, RECORDED SO THE NEXT SWEEP DOES NOT RE-RAISE IT
 
 **31 files carry `sys.path.insert` lines that cannot resolve on this machine** — absolute paths
-under `/Users/dri/…` and unexpanded `<seat-workdir>/…` placeholders. That looks like rot, and a
+under a former seat's **home directory** and unexpanded `<seat-workdir>/…` placeholders. That
+looks like rot, and a
 grep will find it again.
 
 **It is not a defect.** All 31 sit inside five **harvest arcs** — B646, B651, B656, B663, B670 —

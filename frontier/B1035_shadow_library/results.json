@@ -2,11 +2,11 @@
  "checks": {
   "the_frontier_is_the_size_the_sweeps_reported": {
    "pass": true,
-   "n": 1687
+   "n": 1691
   },
   "hundreds_of_frontier_files_manipulate_sys_path": {
    "pass": true,
-   "n": 227
+   "n": 228
   },
   "two_arc_directories_are_load_bearing_infrastructure": {
    "pass": true,
@@ -51,7 +51,7 @@
   },
   "the_founding_matrices_are_redefined_inline_in_hundreds_of_files": {
    "pass": true,
-   "n": 220
+   "n": 223
   },
   "and_NOT_ONE_of_them_imports_the_core_that_has_held_them_all_along": {
    "pass": true,
@@ -63,7 +63,7 @@
   },
   "the_trace_map_is_re_derived_across_the_corpus": {
    "pass": true,
-   "n": 80
+   "n": 81
   },
   "and_it_has_NO_home_in_the_certified_core": {
    "pass": true,
@@ -122,8 +122,8 @@
   }
  },
  "numbers": {
-  "frontier_py_files": 1687,
-  "sys_path_manipulators": 227,
+  "frontier_py_files": 1691,
+  "sys_path_manipulators": 228,
   "hub_importers": {
    "cyclo_engine": 56,
    "step0_exact_matrices": 46
@@ -137,9 +137,9 @@
    "B8_particle_spectrum",
    "B9_fusion_scattering"
   ],
-  "inline_LRA_redefiners": 220,
+  "inline_LRA_redefiners": 223,
   "of_which_import_the_core": 0,
-  "trace_map_files": 80,
+  "trace_map_files": 81,
   "trace_map_in_src": 0,
   "toolbox_highest_arc": 370,
   "unresolvable_syspath_files": 31,
