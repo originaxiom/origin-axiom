@@ -45,6 +45,9 @@ The aAbB principle is not a metaphor here. It is **A1–A4** of the uniqueness t
 > | **transfer-matrix** | **λ = 0** — `κ = 2 + λ²` (B160) ≡ `κ − 2 = 4λ²` (B505), one identity in two conventions. B505: κ **is** the squared coupling of the *measured* quasicrystal chain, so κ = 2 is **the free metal** | B160 · B505 |
 > | **spectral** | the **unique** fiber of the κ-foliation with **positive-measure** spectrum; every other κ gives a zero-measure set *(cited at B162's grade, not re-verified)* | B162 |
 > | **functorial** | **absolutely conserved** — invariant under *every* endomorphism of F₂, and the entire image of every **non-injective** one. Every stratum law is a multiple of **κ − 2** | B497 · B1028 |
+> | **selective** *(added 2026-08-11, B1039)* | the **discriminant on the trace map's own fixed locus**. The φ-map `A ↦ AB, B ↦ A` induces `(x,y,z) ↦ (z, x, xz−y)`, whose fixed points are **exactly two**: `(2,2,2)` with **κ = 2** — reducible, *nothing* — and `(0,0,0)` with `κ = −2`, **the unique irreducible one**, whose group is **`Q₈`**. Because `Q₈`'s maximal irrep dimension is **2** and `dim Sym^{n−1} = n`, that point's whole tower is **reducible at every `SL(n)`, n ≥ 3** | B141 · B142 · B1039 |
+>
+> **And the fifth face is the founding sentence doing work rather than being quoted.** On the φ-fixed locus, *"κ = 2 ⟺ nothing"* is not commentary — it is what leaves **exactly one** candidate standing, and everything about the φ-side tower follows from which group that candidate turns out to be. *(Scope, carried from B1039: the companion slogan "finite image ⟹ reducible tower" is **false** — `SL(2,3)` is finite with an irreducible `Sym²`; the bound is the **maximal irrep dimension**, 2 for `Q₈`.)*
 >
 > **The two collapses are the same statement twice.** At λ = 0 the two transfer matrices become
 > the **same matrix**; under a non-injective endomorphism the two letters become the **same word**.

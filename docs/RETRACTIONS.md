@@ -75,3 +75,40 @@ it**, one paragraph after diagnosing the same failure in the file as a whole.
 **Corrected in:** rung X33 (rewritten to name both routes and cite the cluster) ·
 `frontier/B1032_across_breakings_route/` · lock
 `tests/test_b1032_across_breakings.py::test_the_only_one_clause_is_withdrawn_and_two_routes_are_named`.
+
+## 2026-08-11 — B1039: B141's *"finite image ⟹ reducible tower"*, narrowed by counterexample
+
+**Asserted** (`frontier/B141_s031_split/FINDINGS.md`, Item 3, tiered SOLID): *"**Finite image ⟹
+reducible tower; dense image ⟹ irreducible tower.** This is the conceptual root of the φ-vs-φ²
+distinction."* Carried forward as the cluster's one-sentence law.
+
+**NARROWED — the first half is FALSE as a general implication**, and the counterexample is small
+enough that it was found while re-deriving the arc for restoration. The **binary tetrahedral group
+`SL(2,3)`** is finite (order 24) and its **`Sym²` is IRREDUCIBLE** — algebra dimension **9 = 3²**,
+computed exactly over `ℚ(i)`.
+
+**What is true, and is all B141 needs:** the bound is the **maximal irrep dimension `d`** —
+`dim Sym^{n−1} = n > d` forces reducibility for every `n > d`. That is **2** for `Q₈` and **3** for
+`SL(2,3)`, and *the two groups sit on opposite sides of their own bound at exactly `n = 3`*, so the
+bound is **sharp** and **finiteness alone is not the mechanism**. B141's Item 1 conclusion — the
+principal φ-fixed tower is reducible at every `SL(n)`, `n ≥ 3` — **is untouched**; only the reason
+given for it was too strong.
+
+**A second, smaller correction in the same cluster.** `frontier/B142_klein4_and_magic_cartography`
+opens its one-line proof with *"principal eigenvalues `{1,−1,−1}` ⟹ `A² = I`"*, which requires **`A`
+semisimple**: `diag(1) ⊕ [[−1,1],[0,−1]]` has the same spectrum and `det 1` and is not an
+involution. The hypothesis **does** hold at a φ-fixed point, so the proof is sound — it was never
+stated. And **B142's own probe never verified its lemma**: `klein4_lemma_symbolic()` exhibits one
+commuting pair. The universally quantified statement — *two involutions whose product is an
+involution commute* — is verified for the first time in B1039, by coset enumeration on
+`⟨a,b | a², b², (ab)²⟩`.
+
+**Cause:** a slogan that generalised correctly-computed evidence one step past what the evidence
+supported — the corpus's **E1** shape (a choice, here of mechanism, made without being declared) —
+and **neither defect was reachable by reading claim lines**; both required recomputing the arc,
+which is what campaign step 5 exists to force.
+
+**Corrected in:** `frontier/B1039_phi_fixed_and_metallic_exponent/` · the restored `LAW_MAP` row,
+which carries the narrowed form and names the counterexample · locks
+`tests/test_b1039_phi_fixed_and_metallic_exponent.py::test_finite_image_does_NOT_imply_a_reducible_tower`
+and `::test_spectrum_alone_does_not_give_an_involution`.

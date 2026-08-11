@@ -1197,23 +1197,26 @@
     "B111",
     "B113",
     "B117",
+    "B118",
     "B121",
     "B122",
     "B123",
     "B125",
+    "B148",
     "B158",
     "B172",
     "B173",
     "B175",
     "B176",
     "B178",
+    "B180",
     "B183",
     "B187",
     "B191",
     "B199"
    ],
-   "obstacle": "spacetime_3p1",
-   "obstacle_conf": 2,
+   "obstacle": "measure",
+   "obstacle_conf": 4,
    "status": "open",
    "domain": "arithmetic"
   },
@@ -1239,6 +1242,33 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 3,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1039": {
+   "slug": "phi fixed and metallic exponent",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "symplectic",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B123",
+    "B141",
+    "B142",
+    "B154",
+    "B157",
+    "B198",
+    "B199"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 5,
+   "status": "open",
    "domain": "arithmetic"
   },
   "B103": {

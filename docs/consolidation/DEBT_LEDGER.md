@@ -439,11 +439,37 @@ either **restored** or **explicitly declined with a reason**."* Bodies read, not
 |---|---|---|
 | **the tower** ✅ **RESTORED (B1038)** | B117 · B122 · B121 · B118 · (B111, B113 superseded) | `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)` for the external `W = V⊕1`, its shape forced by a dimension surplus vanishing **iff n = 4**; the SL(2)-action is the **external `det = −1`** monodromy, inequivalent to Kostant's principal for all `n ≥ 3`, and the θ = −w₀ fixed-root sign is `(−1)^{h+1}` |
 | **arithmeticity** | B125 · B147 · B137 · B193 · (**B123 retracted**) | arithmeticity selects **exactly two** metallic members — golden `ℚ(√−3)`, silver `ℚ(i)`, non-commensurable — and does **not** coincide with self-mirror: the chiral pair `RRL/RLL` (`ℚ(√−7)`) is fully arithmetic |
-| **φ-fixed reducibility** | B141 · B142 | finite image ⟹ reducible tower, dense ⟹ irreducible; the φ-fixed principal point is `Q₈`, so `Sym^{n−1}` is reducible at **every** `SL(n), n ≥ 3` — a one-line Klein-4 proof, no search |
+| **φ-fixed reducibility** ✅ **RESTORED (B1039)** | B141 · B142 | finite image ⟹ reducible tower, dense ⟹ irreducible; the φ-fixed principal point is `Q₈`, so `Sym^{n−1}` is reducible at **every** `SL(n), n ≥ 3` — a one-line Klein-4 proof, no search |
 | **the collective** | B173 · B172 · B174 · B175 · B176 · B178 | the woven gap-label group is `ℤ + ℤα₁ + ℤα₂` with **rank = 1 + #distinct quadratic fields**; the character-variety face is the same statement — cusp-gluing is a continuum only on a measure-zero locus, a forced discrete fork everywhere else |
-| **the metallic exponent** | B154 · B198 | the peripheral `k` in `[A,B] = ±µᵏ` is **order-determined, not rank-determined** — *"degree=rank" is a coincidence of the principal spectra*, and no closed form `k(o,m)` survives |
+| **the metallic exponent** ✅ **RESTORED (B1039)** | B154 · B198 | the peripheral `k` in `[A,B] = ±µᵏ` is **order-determined, not rank-determined** — *"degree=rank" is a coincidence of the principal spectra*, and no closed form `k(o,m)` survives |
 | **the open arrow** | B183 · B187 · B186 | `g_c = min_E γ(E)` = the inverse localization length is **zero** for the critical metallic chain — criticality is **maximal fragility**, not robustness — against a control protected at exactly `ln 4` |
 | **isomonodromy** | B169 · B164 · B150 | the trace-map action on the Fricke variety **is** the N=2\* class-S S-duality mapping-class action (τ-modularity is a homonym), and its Painlevé-VI/Schlesinger partner **relocates** the firewall rather than crossing it |
+
+> **The band, measured twice and both figures dated.** As at **B1038** (rows written by B1039
+> and later removed before measuring, per §0's rule): **27** in the band, **221** corpus-wide.
+> After B1039: **23** and **217** — *exactly the four rows retired, no drift*. Two clusters
+> restored, **four rows, two laws**; three clusters remain in this band that this sandbox cannot
+> close (arithmeticity needs SnapPy; the collective and the open arrow need heavy numerics), plus
+> isomonodromy, whose dimension core is a finite integer check even though its Schlesinger flow
+> is not.
+>
+> ### **RESTORING THE TWO SYMBOLIC CLUSTERS FOUND TWO DEFECTS IN THEM (B1039).**
+> Chosen not by size but by **what this sandbox can honestly redo** — `snappy`, `cypari`,
+> `cypari2`, `sage` and `flint` are all absent, so restoring on citation alone **would be**
+> restoring from memory. Both laws survive; **both arrived carrying a defect a citation-level
+> restoration would have propagated onto a curated surface.**
+>
+> - **B141 Item 3's slogan *"finite image ⟹ reducible tower"* is FALSE** as a general
+>   implication. Falsified in-sandbox: **`SL(2,3)` is finite (order 24) and its `Sym²` is
+>   IRREDUCIBLE** (algebra dim 9 = 3²). The bound is the **max irrep dimension** — 2 for `Q₈`,
+>   3 for `SL(2,3)` — and the two groups sit on **opposite sides of it at exactly `n = 3`**, so
+>   it is sharp. *B141's conclusion survives intact; only its stated mechanism was too strong.*
+> - **B142's Klein-4 chain needs `A` semisimple** — spectrum `{1,−1,−1}` with a Jordan block at
+>   −1 has det 1 and is not an involution. The hypothesis holds at a φ-fixed point, so the proof
+>   is sound; it was never written down. **And B142's probe never verified its own lemma** — it
+>   exhibited one commuting pair; the universally quantified statement is verified here first.
+>
+> **Neither defect was reachable by reading claim lines.** Both required recomputing the arc.
 
 **DECLINE — PROCESS (4, firmly correct to omit):** **B100** (*"Nothing here is our discovery; the
 methods are **cited**"* — a literature cross-check), **B113** (framing superseded by B117),
