@@ -1,0 +1,112 @@
+{
+ "checks": {
+  "C1_the_three_Vieta_maps_are_involutions": {
+   "pass": true,
+   "per_map": {
+    "s_x": true,
+    "s_y": true,
+    "s_z": true
+   }
+  },
+  "C1b_and_each_PRESERVES_the_Jimbo_Fricke_cubic": {
+   "pass": true,
+   "per_map": {
+    "s_x": true,
+    "s_y": true,
+    "s_z": true
+   },
+   "note": "symbolic in ALL SEVEN variables -- the four boundary traces stay free, so this is the cubic as a family, not one fibre"
+  },
+  "C1c_but_the_COMPOSITE_is_not_one_so_the_group_is_infinite": {
+   "pass": true,
+   "note": "MB-style non-vacuity: three involutions generating only involutions would be a finite group and there would be no Painleve-VI dynamics to speak of"
+  },
+  "C2_at_zero_boundary_traces_the_cubic_becomes_the_OPT_kappa_equals_2_fibre": {
+   "pass": true,
+   "note": "z -> -z carries it onto kappa = 2, the void / cancellation fibre (B161). So the (0,4) void fibre IS the OPT kappa = 2 fibre -- a concrete link at ONE special fibre, which is all B164 claims; the general OPT <-> (0,4) dictionary is explicitly deferred"
+  },
+  "THE_UPGRADE_dim_2_Fricke_cubics_are_EXACTLY_(1,1)_and_(0,4)": {
+   "pass": true,
+   "solutions": [
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "swept": "g <= 40, n <= 80",
+   "note": "6g-6+2n = 2 <=> 3g+n = 4; with hyperbolicity 2g-2+n > 0 the cases are g=0 -> n=4 and g=1 -> n=1, and g >= 2 forces n = 4-3g < 0. B164 states this as an inline parenthetical carried by citation; a repo-wide search for '6g-6' returns exactly TWO hits, NEITHER a computation. NOT A DISCOVERY -- the fact is classical (Fricke; Cantat-Loray), and docs/OPEN_LEADS.md:209 says so in as many words: 'the exactly two cubic surfaces dim-count is classical-known ... not a discovery'. What changes is only that the corpus now CHECKS what it had only cited. A verification, not a result"
+  },
+  "B150_the_Fricke_cubic_and_kappa_are_the_same_equation": {
+   "pass": true,
+   "note": "Allegretti-Shan write a^2+b^2+c^2+abc = 2+lam+1/lam with (a,b,c) = (-tr A, -tr B, -tr AB). Substituting gives kappa = tr[A,B] = lam + 1/lam exactly, so the class-S Coulomb-branch cubic and the B148 kappa level sets COINCIDE -- the convention match that makes the whole comparison a comparison of one object rather than two"
+  },
+  "B150b_and_the_Markov_fibre_is_kappa_equals_minus_2": {
+   "pass": true,
+   "note": "kappa = -2 <=> lam = -1"
+  },
+  "C3_the_metallic_eigenvalue_and_its_square_SYMBOLICALLY_IN_m": {
+   "pass": true,
+   "minpoly_of_lambda": "t^2 - m t - 1",
+   "minpoly_of_lambda_squared": "u^2 - (m^2+2) u + 1",
+   "note": "B164 and B169 verify m = 1,2,3; this holds for every m, which is the statement the law actually needs"
+  },
+  "C3b_and_it_reproduces_the_three_banked_values": {
+   "pass": true,
+   "values": {
+    "1": "sqrt(5)/2 + 3/2",
+    "2": "2*sqrt(2) + 3",
+    "3": "3*sqrt(13)/2 + 11/2"
+   },
+   "trace_fields": {
+    "1": "Q(sqrt(5))",
+    "2": "Q(sqrt(8))",
+    "3": "Q(sqrt(13))"
+   }
+  },
+  "P2_the_Schlesinger_flow_preserves_every_local_conjugacy_class": {
+   "pass": true,
+   "drift": "4.25e-10",
+   "note": "re-run here via B169's own reproducer (the B1033 pattern), not quoted"
+  },
+  "P2b_AND_the_control_fires__which_is_what_makes_it_evidence": {
+   "pass": true,
+   "control": "1.63e+01",
+   "ratio": "3.84e+10",
+   "note": "RK4 at h = 0.01 has O(h^4) truncation, so the ABSOLUTE smallness of 4e-10 is not the evidence -- the CONTRAST with a non-Schlesinger ODE at 1.6e+01 is. Restoring the drift without the control would restore a number that proves nothing"
+  },
+  "P3_the_flow_is_SCALE_FREE_the_check_the_arc_never_runs": {
+   "pass": true,
+   "note": "under s -> c s, t -> c t with the residues fixed, dA/ds = [A_3,A_i]/(s-t_i) is homogeneous: the RHS scales by 1/c and ds by c. No dimensionful parameter appears. B169 asserts this in prose and its two P3 checks pass `True` LITERALLY"
+  },
+  "P3b_but_the_verdict_is_still_POSTULATED_and_stays_so": {
+   "pass": true,
+   "note": "a verified homogeneity does not make 'the firewall RELOCATES rather than crosses' a theorem -- that is a structural reading, tiered POSTULATED by B169 itself, and the restored row carries that tier unchanged"
+  },
+  "B164s_C4_is_SUPERSEDED_by_B169s_P1_and_both_arcs_say_so": {
+   "pass": true,
+   "note": "B164's C4 used a point-orbit-norm proxy that tracks the NAIVE (cancellation-free) degree, not the dynamical one. The restored row carries B169's corrected form; restoring B164's would restore a superseded reading"
+  },
+  "the_law_is_now_on_a_curated_surface": {
+   "pass": true
+  },
+  "and_it_carries_the_THREE_scope_corrections_that_must_travel": {
+   "pass": true,
+   "note": "the classical-not-discovered status of the (g,n) count, the missing homological computation behind an [exact] tag, and B164's C4 supersession. A restoration that drops any one of them restores an overclaim"
+  },
+  "and_the_control_is_named_beside_the_number_it_licenses": {
+   "pass": true,
+   "note": "the drift is meaningless without the control; the row states both or neither"
+  }
+ },
+ "carried_by_citation": {
+  "the dynamical-degree IDENTIFICATION": "that lambda_m^2 IS the dynamical degree on the cubic is Cantat-Loray's theorem (the Picard-lattice / homological degree). NO Picard lattice is computed in B164, B169 or here -- the arcs compute an eigenvalue. B169 tags P1 [exact]; the exactness is the ALGEBRA's, not the identification's.",
+  "the class-S dictionary (B150)": "that the SL(2,Z) MCG action on the character variety IS the N=2* S-duality action is read from Allegretti-Shan and GMN. B150 is a tagged literature comparison (FORCED / PERMITTED / RHYME), not a sandbox computation, and the tau-modularity face is tagged RHYME -- a HOMONYM, same group, different space.",
+  "Painleve-VI itself": "that the (0,4) Vieta dynamics IS the Painleve-VI monodromy action is Jimbo-Miwa / Boalch. The cubic and its involutions are built here; the Painleve identification is cited.",
+  "the Hitchin/Higgs side": "the hyperkahler metric and spectral curve, where the external scale would live explicitly, are NEEDS-SPECIALIST in B169's own words and are not attempted."
+ },
+ "all_pass": true
+}

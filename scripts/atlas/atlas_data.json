@@ -1258,6 +1258,7 @@
     "markov_cubic"
    ],
    "refs": [
+    "B100",
     "B123",
     "B141",
     "B142",
@@ -1293,6 +1294,31 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1040": {
+   "slug": "isomonodromy restored",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "wrt_quantum",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B100",
+    "B150",
+    "B164",
+    "B169",
+    "B199",
+    "P1",
+    "P3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
   },

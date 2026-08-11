@@ -443,7 +443,7 @@ either **restored** or **explicitly declined with a reason**."* Bodies read, not
 | **the collective** | B173 · B172 · B174 · B175 · B176 · B178 | the woven gap-label group is `ℤ + ℤα₁ + ℤα₂` with **rank = 1 + #distinct quadratic fields**; the character-variety face is the same statement — cusp-gluing is a continuum only on a measure-zero locus, a forced discrete fork everywhere else |
 | **the metallic exponent** ✅ **RESTORED (B1039)** | B154 · B198 | the peripheral `k` in `[A,B] = ±µᵏ` is **order-determined, not rank-determined** — *"degree=rank" is a coincidence of the principal spectra*, and no closed form `k(o,m)` survives |
 | **the open arrow** | B183 · B187 · B186 | `g_c = min_E γ(E)` = the inverse localization length is **zero** for the critical metallic chain — criticality is **maximal fragility**, not robustness — against a control protected at exactly `ln 4` |
-| **isomonodromy** | B169 · B164 · B150 | the trace-map action on the Fricke variety **is** the N=2\* class-S S-duality mapping-class action (τ-modularity is a homonym), and its Painlevé-VI/Schlesinger partner **relocates** the firewall rather than crossing it |
+| **isomonodromy** ✅ **RESTORED (B1040)** | B169 · B164 · B150 | the trace-map action on the Fricke variety **is** the N=2\* class-S S-duality mapping-class action (τ-modularity is a homonym), and its Painlevé-VI/Schlesinger partner **relocates** the firewall rather than crossing it |
 
 > **The band, measured twice and both figures dated.** As at **B1038** (rows written by B1039
 > and later removed before measuring, per §0's rule): **27** in the band, **221** corpus-wide.
@@ -470,6 +470,50 @@ either **restored** or **explicitly declined with a reason**."* Bodies read, not
 >   exhibited one commuting pair; the universally quantified statement is verified here first.
 >
 > **Neither defect was reachable by reading claim lines.** Both required recomputing the arc.
+
+> **Dated, as always.** As at **B1039**: **23** in the band, **217** corpus-wide. After B1040: **20** and **214** — *exactly the three rows, no drift*. **Three clusters remain in this band, and none can be closed here:** arithmeticity (needs SnapPy), the collective (PSLQ gap-labelling at N = 4000–128000), the open arrow (Lyapunov exponents, many-body ED). Per `REPRESENTATION_TRIAGE`'s existing word they are **PENDING with the blocker named** — *"marking an arc PENDING does not discharge it; it records that we know"* — and coining a fourth disposition word would repeat the defect §0 files against this very ledger.
+>
+> ### **AND THE THIRD RESTORATION FOUND A TAG OVER A COMPUTATION THAT WAS NEVER DONE (B1040).**
+> The isomonodromy cluster's numerical half is re-runnable here **because it ships with a
+> control** — the Schlesinger drift **4.25×10⁻¹⁰** against a non-Schlesinger ODE at **1.63×10¹**.
+> *The control is the evidence, not the drift:* RK4 at `h = 0.01` has `O(h⁴)` truncation, so the
+> absolute smallness is what a correct integration of **anything** would give.
+>
+> - **B169's P1 is tagged `[exact]`**, but **no Picard lattice or homological action is computed
+>   anywhere in the cluster** — the arcs compute an eigenvalue. The identification of `λ_m²` as the
+>   dynamical degree is **Cantat–Loray's**, cited. The algebra does generalise, and is now verified
+>   **symbolically in `m`** where the arcs did `m = 1,2,3`.
+> - **B164's `6g−6+2n = 2 ⟹ (1,1), (0,4)` was an inline parenthetical** carried by citation; a
+>   repo-wide search for `6g−6` returns **two hits, neither a computation**. Proved here — and
+>   **explicitly not as a discovery**: `OPEN_LEADS`:209 already records the count as
+>   *"classical-known … not a discovery"*. The corpus now **checks** what it had only cited.
+> - **B169's two P3 checks pass `True` literally.** Its one formalisable sub-claim, scale-freeness,
+>   is checked here for the first time; **the verdict stays POSTULATED regardless.**
+>
+> **The pattern across four restorations:** B1038 found nothing wrong; B1039 a false slogan and an
+> unstated hypothesis; B1040 a mis-tagged claim, a citation standing in for a two-line proof, and
+> two assertions that compute nothing. **Every one was invisible from the claim line.**
+
+> ### **PENDING — TOOL-BLOCKED (3 clusters, 12 rows). The word is the triage's, deliberately.**
+> `REPRESENTATION_TRIAGE.md` already defines **PENDING** as *"a real object result owed a row on a
+> synthesis surface. **This is a debt**"*, and states that *"marking an arc PENDING does **not**
+> discharge it. It records that we know."* **That is exactly a tool-blocked restoration**, so the
+> blocker goes in the note and not in a new label — **coining a fourth disposition word here would
+> repeat the defect §0 files against this very ledger** (a second register beside a working one).
+>
+> **These rows are NOT added to `REPRESENTATION_TRIAGE.md`**, and that is deliberate too: its scope
+> is the `claim_one_line ≥ 500` bar, and **§0 measured that no pre-B800 arc can ever clear it.**
+> Borrowing its word is right; borrowing its table would import the blindness §0 documented.
+>
+> | cluster | rows | blocker, named |
+> |---|---|---|
+> | **arithmeticity** | B147 · B137 · B193 | **`snappy` absent** — the Maclachlan–Reid conditions, the `ℚ(√−7)` trace field and the integer Bianchi ratio are all SnapPy/PARI computations. `cypari`, `cypari2`, `sage` and `flint` are absent too; verified directly, not assumed |
+> | **the collective** | B173 · B172 · B174 · B175 · B176 · B178 | **heavy numerics** — PSLQ gap-labelling against spectra at `N = 4000–128000`. Reachable in principle here, not in a pass |
+> | **the open arrow** | B183 · B187 · B186 | **heavy numerics** — Lyapunov exponents and many-body exact diagonalisation |
+>
+> **The honest form of the campaign's step 6 for these:** a band is done when its rows are
+> *restored* or *explicitly declined with a reason*. These are neither — they are **owed, with the
+> reason they are not yet paid**. Recording that is not the same as paying it.
 
 **DECLINE — PROCESS (4, firmly correct to omit):** **B100** (*"Nothing here is our discovery; the
 methods are **cited**"* — a literature cross-check), **B113** (framing superseded by B117),

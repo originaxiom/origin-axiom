@@ -2,8 +2,8 @@
  "checks": {
   "the_two_rules_give_different_sets": {
    "pass": true,
-   "ledger": 234,
-   "triage_live": 11,
+   "ledger": 216,
+   "triage_live": 9,
    "triage_rows": 17,
    "overlap": 6
   },
@@ -45,7 +45,7 @@
     "B700": 162,
     "B800": 733,
     "B900": 2571,
-    "B1000": 3112
+    "B1000": 3317
    }
   },
   "so_the_bar_measures_the_banking_convention_not_substance": {
@@ -103,17 +103,19 @@
     "700": 4496,
     "800": 3994,
     "900": 4421,
-    "1000": 4562
+    "1000": 4774
    }
   },
   "every_ledger_row_clearing_the_bar_is_late_corpus": {
    "pass": true,
    "lowest": "B870",
-   "count": 19
+   "count": 18
   },
   "so_stratifying_the_ledger_by_that_bar_would_discard_the_entire_early_corpus": {
    "pass": true,
-   "would_be_dropped": 215
+   "would_be_dropped": 198,
+   "of": 216,
+   "share": "0.917"
   },
   "the_ledger_now_cites_the_triage_register": {
    "pass": true
@@ -135,11 +137,11 @@
   }
  },
  "numbers": {
-  "ledger_rule": 234,
-  "triage_rule_live": 11,
+  "ledger_rule": 216,
+  "triage_rule_live": 9,
   "triage_rows": 17,
   "overlap": 6,
-  "ledger_rows_clearing_the_bar": 19,
+  "ledger_rows_clearing_the_bar": 18,
   "lowest_such": "B870",
   "pre_B800_arcs": 731,
   "pre_B800_clearing_the_bar": 0,
@@ -154,7 +156,7 @@
    "B700": 162,
    "B800": 733,
    "B900": 2571,
-   "B1000": 3112
+   "B1000": 3317
   },
   "median_findings_bytes_by_band": {
    "0": 1988,
@@ -167,7 +169,7 @@
    "700": 4496,
    "800": 3994,
    "900": 4421,
-   "1000": 4562
+   "1000": 4774
   },
   "band_relative_recovery_of_calibration_block": "1/11"
  },

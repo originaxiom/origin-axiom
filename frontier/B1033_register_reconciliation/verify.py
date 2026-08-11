@@ -188,8 +188,18 @@ chk("FINDINGS_size_is_era_STABLE_unlike_claim_length",
 above = sorted(n for n in ledger_set if ARCS[n]["clen"] >= 500)
 chk("every_ledger_row_clearing_the_bar_is_late_corpus",
     above and min(above) >= 800, lowest=f"B{min(above)}" if above else None, count=len(above))
+# Bounded as a SHARE, not a raw count -- amended 2026-08-11 (B1040). The original form asserted
+# `> 200` rows dropped, which the RESTORATIONS THIS CAMPAIGN EXISTS TO MAKE then eroded: B1038,
+# B1039 and B1040 retired thirteen rows and the count crossed the threshold at 198/216, breaking a
+# passing lock without touching the finding. This arc's own prose already said the intended form
+# ("the lock bounds the share rather than pinning the integer, precisely so ordinary consolidation
+# work does not break it") -- the check simply did not implement it. The structural result is
+# untouched: the lowest above-bar row is still B870, and the share is 92 %.
+_below = len(ledger_set) - len(above)
 chk("so_stratifying_the_ledger_by_that_bar_would_discard_the_entire_early_corpus",
-    len(ledger_set) - len(above) > 200, would_be_dropped=len(ledger_set) - len(above))
+    _below / max(1, len(ledger_set)) > 0.85,
+    would_be_dropped=_below, of=len(ledger_set),
+    share="%.3f" % (_below / max(1, len(ledger_set))))
 
 # ------------------------------------------------- 5. the repairs this arc actually makes
 LEDGER = read("docs/consolidation/DEBT_LEDGER.md")
