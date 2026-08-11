@@ -911,6 +911,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1032": {
+   "slug": "type law",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B659",
+    "B915",
+    "B925",
+    "B929",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

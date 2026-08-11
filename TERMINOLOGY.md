@@ -301,3 +301,15 @@ No invariant may be transferred between these without an explicit map.
   concentrated links named (the campaign's stop-rule trigger). "Retroactive freedom" is distinct
   from "declared inputs" (hypotheses, published and typed): conflating them is a category error
   the ledger prices anyway, in the open.
+- **"θ-even" names TWO banked objects** (collision found 2026-08-11 via the audit seat's
+  tone-set error and this seat's verification of it, B1032): (1) the **F₄ exponent set
+  {1, 5, 7, 11}** — a Lie parity label (B352/B569/B576/B583/B585); (2) **B1011 C6's mirror
+  VALUE set** {0, ±¼, ±1/(4φ), ±½, ±1/(2φ), ±φ/4, ±φ/2, ±1} — named "the θ-even value set"
+  in its own banked FINDINGS. Any sentence using "θ-even" must say which. Same class as
+  two conductors, two levels, three σ's.
+- **The value-set registry (B1032)** — four distinct banked menus, never to be conflated in
+  pricing: **tones (5)** = |χ_{V₂(2I)}|/2, census 30/24/40/24/2; **mirror (8 magnitudes)** =
+  the 2T⊗2I tensor character menu; **the listener family (3)** = (1∓1/√5)/2 and 1 — a
+  character-RING element, not a bare character value (the B1032 amendment); **the phases**
+  = a ℤ/3 finite label. A nomination prices against the menu it names, with that menu's own
+  base rate. Grep lesson attached: search both φ and phi — the corpus writes both.

@@ -1,5 +1,19 @@
 # Changelog
 
+## B1032 (2026-08-11) — THE TYPE LAW: the object does not make that kind of number
+
+The construction seat's resolution bound (forced value = Re χ_V/dim V, coarse; labels
+exempt) **verified as amended** against the entire banked inventory, from 2T/2I character
+tables computed in-arc: tones = bare character values (census 30/24/40/24/2 from class
+sizes); mirror = the tensor menu (B1011 C6 reproduced); **the listener family = (1∓1/√5)/2
+with √5 = φ+φ⁻¹ — character-RING, not bare: the amendment verification itself produced**.
+The law banks: **crossings target RELATIONS or FINITE LABELS, never a generic real by
+value** — one mechanism types all four crossing deaths, honestly (B915's RG-dressing IS
+the violation; B925 refused pre-data; B929 fine-ratio; **B1027 type-permitted — exactly
+why it alone died clean**). TERMINOLOGY gains the two-θ-evens collision row (the corpus
+itself carries both) and the value-set registry (5/8/3/ℤ3, each with its own base rate).
+Quarantine honored throughout: the audit seat's data-contact file remains unopened.
+
 ## B1031 + K027 (2026-08-11) — the two-thirds theorem scrutinised, its corollary banked, the protocol convergence fixed
 
 External literature (post-cutoff, fetched with hashes): the 2026-08-10 Lean-formalized

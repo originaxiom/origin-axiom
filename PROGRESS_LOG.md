@@ -10223,3 +10223,14 @@ one numerics lesson recorded (nsum on periodic signs → Hurwitz form). K027 (kn
 room): the discovery-process ↔ house-protocol correspondence fixed clause by clause as an
 external existence proof for the method. Relay sent to the audit seat with an adversarial
 invitation on the fence. Locks: tests/test_b1031_zeta23.py.
+
+## 2026-08-11 — B1032: the type law banked; the tone-set collision registered
+
+Verification arc on the construction seat's Phase-1b bound (relayed by the audit seat with
+a quarantine warning — honored; their data-contact file unopened). Bound HOLDS AS AMENDED:
+tones and mirror are bare/tensor character menus (computed from character tables in-arc,
+census 30/24/40/24/2 reproduced); the listener family is a character-ring element (the
+amendment). The law: crossings target relations or finite labels only. The four deaths
+typed honestly — correcting the relay's overreach: B1027 was type-PERMITTED, hence the one
+clean death. TERMINOLOGY: two banked θ-evens + the value-set registry. LAW_MAP row with
+SCOPE. Locks: tests/test_b1032_type_law.py.
