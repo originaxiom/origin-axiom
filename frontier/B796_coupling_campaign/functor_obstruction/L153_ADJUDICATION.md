@@ -79,3 +79,54 @@ outranks suggestion.**
    "Bourbaki" is wrong** — but that is the exact collision class this pass has
    now found four times.
 3. **The retraction row on B939's transposed prose is correct and should land.**
+
+---
+
+# ⚠ VERIFICATION PASS — three claims I had repeated without checking
+
+**Owner's instruction mid-turn: *never trust, always verify*. Applied to my own
+adjudication.**
+
+## 1. My own zero-counts — VACUITY CHECKED, they hold
+
+B1024's FINDINGS loads at **6,996 chars**; controls fire (`SAME` 6, `reversal` 7,
+`class` 18, `seal` 6); and the zeros are genuine — `equivarian` **0**, `natural`
+**0**, `base rate` **0**, `joint rank` **0**, `37.5` **0**. *(`bits` appears 4×,
+all "torsor bits"/"frame bits", not evidence-bits.)* **The adjudication stands.**
+
+## 2. The seal — VERIFIED INDEPENDENTLY
+
+`dc823e86ef7f5c9beed1b0f32b77f69b1c863a46c0eb8fe5ca7a1698098256de` — identical
+across `ARTIFACT_HASHES.txt`, `origin/main`, and the audit branch. **The prereg
+was not altered. Their claim holds.**
+
+## 3. The "transposition" — NARROWER THAN CLAIMED, and it corrects the audit seat
+
+B936's **`results.json`** states the assignments in banked data:
+
+> `torsor_coordinates_of_the_Klein_group`: *"**D2 ↔ chi− = (1,0,1,0,1,1); D ↔ −1
+> = (1,1,1,1,1,1)**"*
+> `C_B_D2_class_is_TRIVIAL_a_coboundary`: *"chi− = N(psi) for 16 characters psi;
+> **class (0,0)**"*
+> `C_B_D_class_is_NONTRIVIAL`: *"the global negation is NOT a norm … its class is
+> **(1,…)**"*
+
+**B939's prose agrees with B936 on the ELEMENTS**: σ₋₁ → D matches D ↔ −1;
+σ_χ₋ → D₂ matches D2 ↔ χ−. **And the CLASSES agree with cc3's independent
+computation**: σ_χ₋ → **(0,0)**.
+
+> **So the transposition — if any — is in the FLIP COUNTS alone. Not the
+> elements, and not the classes.**
+>
+> **And that matters: B936 states the class assignments explicitly in banked
+> data, so the cell's classes never depended on resolving B939's prose.** The
+> blocker was real as a prose inconsistency and **narrower than "exactly
+> transposed"** as a threat to the cell.
+
+**Not established by cc3:** whether the flip counts themselves are swapped. That
+needs B936's `cohom.py` and cc3 did not run it. **Recorded as unchecked rather
+than asserted either way.**
+
+**Consequence for the retraction row:** it should say *B939's flip-count
+annotation* is transposed, **not** that its shadow map is. **The shadow map
+agrees with B936.**
