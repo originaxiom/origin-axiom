@@ -1,5 +1,26 @@
 # Changelog
 
+## B1035 (2026-08-11) — the shadow library, and the orphaned core
+
+**The premise was wrong.** `frontier/` is not 1,687 unconnected scripts: **227** files do
+`sys.path` surgery, and **two arc directories are infrastructure for ~100 cells each**
+(`cyclo_engine` 56 importers, `step0_exact_matrices` 46) while filed as ordinary research — so each
+carries a *verdict*, not a *version*.
+
+**The certified core is orphaned:** **6 of 1,687** files import `origin_axiom` — the five B1–B9
+probes plus B1034. **220** files redefine `L`/`R`/`A` inline; **none** imports the core that has
+held them all along. The **trace map** (80 files) has no home in `src/` at all.
+
+**Copying is not independence:** B930 and B935 share a byte-identical kernel, so their agreement is
+not independent evidence. A limit on evidence, not a defect in an arc.
+
+**Non-finding, recorded once:** the 31 unresolvable `sys.path` inserts are all in verbatim-preserved
+harvest packets — editing them would break the sha256 manifest.
+
+**Positive control:** B908–B940 walked for failing checks — **no unreported failure**.
+
+**L160** registered: the factoring decision is the owner's. 20 checks · 9 locks · 26 gates green.
+
 ## B1034 (2026-08-11) — κ names two quantities; one is in the certified core
 
 **The code sweep's first return.** `src/origin_axiom/mobius.py` exports `KAPPA = 2·log(φ²)/√5 ≈

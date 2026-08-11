@@ -1077,6 +1077,42 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1035": {
+   "slug": "shadow library",
+   "motifs": [
+    "trace_map",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B370",
+    "B646",
+    "B651",
+    "B656",
+    "B663",
+    "B670",
+    "B9",
+    "B908",
+    "B914",
+    "B916",
+    "B919",
+    "B922",
+    "B923",
+    "B928",
+    "B929",
+    "B930",
+    "B935",
+    "B936",
+    "B937",
+    "B938",
+    "B940",
+    "L159",
+    "L160"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

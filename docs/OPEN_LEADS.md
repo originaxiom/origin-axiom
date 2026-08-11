@@ -1636,3 +1636,44 @@ bridge κ — much larger, it appears across LAW_MAP, THE_FRAMEWORK, ORIENTATION
 (c) keep both and rely on the declarations — cheapest now, and it leaves a live E1 in the two most
 authoritative surfaces. **Whichever is chosen, the check that must survive is the type test: a
 constant cannot have a locus where it equals 2.**
+
+## L160 — THE FACTORING DECISION: A SHADOW LIBRARY EXISTS; SHOULD IT BE A REAL ONE? (registered 2026-08-11; B1035)
+
+**Measured, not asserted** (`frontier/B1035_shadow_library/verify.py`):
+
+| | |
+|---|---|
+| frontier `.py` files | **1,687** |
+| files doing `sys.path` surgery | **227** |
+| `B358_seam_certification/cyclo_engine.py` importers | **56** |
+| `B367_value_map/step0_exact_matrices.py` importers | **46** |
+| frontier files importing `origin_axiom` | **6** — the five B1–B9 probes, and B1034 |
+| files redefining `L`/`R`/`A` inline | **220**, of which **0** import the core |
+| files re-deriving the trace map | **80**, canonical home in `src/`: **none** |
+| `tests/helpers_e6.py` consumers | **4 tests, 0 frontier files** |
+
+**Two facts sit oddly together.** There *is* a shared library — `cyclo_engine` and
+`step0_exact_matrices` are infrastructure for ~100 cells — but it is reached by path surgery and
+filed as ordinary research, so **it carries a verdict rather than a version**, and a correction to
+it silently changes every consumer. Meanwhile the **certified core**, which already holds `L`, `R`,
+`A` and `PHI`, has had **no new consumer between B9 and B1034**.
+
+**Why this is a lead and not a repair.** Promoting anything into `src/` touches the package whose
+docstring says it holds *"only the results labelled `proven`"*, and `src/` modules are individually
+locked to claims P1–P16. A drafting seat that moves code in has changed what the certified core
+means. **Same shape as L159's rename: measured by a seat, decided by the owner.**
+
+**The options, none endorsed.** (a) **Promote and adopt** — move `helpers_e6.py` and a trace-map
+module into `src/`, then retrofit importers; largest payoff, largest blast radius, and it needs a
+rule for what may live in a package reserved for proven results. (b) **Bless the hubs where they
+are** — declare `cyclo_engine` and `step0_exact_matrices` as infrastructure with a version and a
+change-notification rule, leaving the file layout alone; cheapest, and it fixes the sharpest risk
+(a silent change under ~100 consumers). (c) **Accept and document** — a `TOOLBOX` row per hub,
+nothing structural. **Whichever is chosen, the check that must survive is the one this arc locks:
+a module imported by ~100 cells must not be able to change without its consumers being nameable.**
+
+**A related consequence, already recorded in B1035 and not part of this decision:** where two arcs
+share a byte-identical kernel (B930/B935 and the B928/B938 cluster), their agreement is **not
+independent evidence**. That is a limit on how cross-arc agreement may be read, not a defect in any
+arc — and it argues for (a) or (b) over (c), since a *shared* kernel that is *declared* can at
+least be tested once for all its consumers.

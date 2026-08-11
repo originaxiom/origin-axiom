@@ -1,6 +1,26 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-> **LATEST — the CONSOLIDATION REFRESH's first execution (B1024–B1029, 2026-08-11).** The campaign
+> **LATEST — the CONSOLIDATION REFRESH turns on its own instruments (B1030–B1035, 2026-08-11).**
+> Six audits, occasioned by two owner questions and one check made before continuing. **B1030:**
+> the input list is **typed** — four of five counted inputs are dimensionless and **all four are
+> discrete**; the only *continuous* dimensionless input is the declared anchor `A2 = c = 6σ`, so
+> *"zero dimensionless inputs"* is **not banked** and is one open cell (L154) away. Also found:
+> `THE_CLAIM`'s five and B1000's five are **the same size and a different set** (L157). **B1031:**
+> three generations are **structural, not derived** — computed twice (B632's `h¹ = 3`, B897's
+> sealed three 9-blocks, B335's exactly-degenerate sheets), bounded by B307's theorem, and
+> `THE_LADDER` had **no generation rung at all**; added as **X33**. **B1032:** a **second**
+> generation route B307 does not touch, with two sealed cells on it — and B1031's own *"the only
+> one"* clause withdrawn one arc later. **B1033:** this refresh's debt ledger was the **second**
+> register — the gated `REPRESENTATION_TRIAGE` already existed — and its substantiality bar is a
+> **step in time**: *zero of the 731 pre-B800 arcs can ever clear it* (L158). **B1034:** **κ names
+> two quantities**, one exported by the certified core, differing in **type** — a constant that can
+> never be 2 versus the coordinate whose `κ = 2` is the founding sentence (L159). **B1035:** the
+> *"no shared library"* premise is **false** — 227 files do `sys.path` surgery and two arcs are
+> infrastructure for ~100 cells — while the certified core has had **no new consumer between B9 and
+> B1034** (L160). **Four E1 collisions, five retraction rows, three of them against this pass's own
+> published claims.** Ledger: `docs/consolidation/DEBT_LEDGER.md` §0.
+>
+> **The CONSOLIDATION REFRESH's first execution (B1024–B1029, 2026-08-11).** The campaign
 > `THE_CAMPAIGN.md` registers but had not run. Band B0–B99 and the claim lines of B100–B1029 are
 > read; the debt is **measured, not estimated**: **509 of 934 arcs carry no citation in any of the
 > five curated consolidations**, of which **245 are substantive** (instrument arcs excluded — they

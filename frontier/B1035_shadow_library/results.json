@@ -1,0 +1,155 @@
+{
+ "checks": {
+  "the_frontier_is_the_size_the_sweeps_reported": {
+   "pass": true,
+   "n": 1687
+  },
+  "hundreds_of_frontier_files_manipulate_sys_path": {
+   "pass": true,
+   "n": 227
+  },
+  "two_arc_directories_are_load_bearing_infrastructure": {
+   "pass": true,
+   "hubs": {
+    "cyclo_engine": {
+     "importers": 56,
+     "exists": true,
+     "path": "frontier/B358_seam_certification/cyclo_engine.py"
+    },
+    "step0_exact_matrices": {
+     "importers": 46,
+     "exists": true,
+     "path": "frontier/B367_value_map/step0_exact_matrices.py"
+    }
+   }
+  },
+  "and_both_are_filed_as_ordinary_research_arcs": {
+   "pass": true
+  },
+  "almost_nothing_imports_the_certified_core": {
+   "pass": true,
+   "n": 6,
+   "arcs": [
+    "B1034_two_kappas",
+    "B1_gluing_chern_simons",
+    "B5_wheeler_dewitt",
+    "B6_field_equation",
+    "B8_particle_spectrum",
+    "B9_fusion_scattering"
+   ]
+  },
+  "its_only_consumers_are_the_original_probes_and_one_new_arc": {
+   "pass": true,
+   "arcs": [
+    "B1034_two_kappas",
+    "B1_gluing_chern_simons",
+    "B5_wheeler_dewitt",
+    "B6_field_equation",
+    "B8_particle_spectrum",
+    "B9_fusion_scattering"
+   ]
+  },
+  "the_founding_matrices_are_redefined_inline_in_hundreds_of_files": {
+   "pass": true,
+   "n": 220
+  },
+  "and_NOT_ONE_of_them_imports_the_core_that_has_held_them_all_along": {
+   "pass": true,
+   "n_overlap": 0,
+   "core_has_them": "src/origin_axiom/algebra.py defines L, R, A = L*R"
+  },
+  "the_core_defines_L_R_and_A": {
+   "pass": true
+  },
+  "the_trace_map_is_re_derived_across_the_corpus": {
+   "pass": true,
+   "n": 80
+  },
+  "and_it_has_NO_home_in_the_certified_core": {
+   "pass": true,
+   "n_src": 0
+  },
+  "two_arcs_in_the_dense_band_share_a_byte_identical_kernel": {
+   "pass": true,
+   "n_shared_functions": 44,
+   "pair": [
+    "frontier/B930_overlap_matrix/overlap.py",
+    "frontier/B935_composition_hunt/compose.py"
+   ],
+   "shared_lines": 478
+  },
+  "so_agreement_between_them_is_not_independent_evidence": {
+   "pass": true,
+   "note": "a bug in the shared kernel reproduces identically in both rather than being caught by disagreement"
+  },
+  "the_toolbox_index_stops_far_short_of_the_corpus": {
+   "pass": true,
+   "highest_arc_cited": 370
+  },
+  "and_it_omits_the_repos_most_precise_instrument": {
+   "pass": true
+  },
+  "while_that_instrument_is_real_and_on_main": {
+   "pass": true
+  },
+  "some_files_carry_sys_path_inserts_that_cannot_resolve_here": {
+   "pass": true,
+   "n": 31,
+   "arcs": [
+    "B646_wave2_integration",
+    "B651_wave3_integration",
+    "B656_digest_integration",
+    "B663_bifocal_anatomy",
+    "B670_anatomy_full"
+   ]
+  },
+  "BUT_they_are_all_inside_verbatim_preserved_harvest_packets": {
+   "pass": true,
+   "arcs": [
+    "B646_wave2_integration",
+    "B651_wave3_integration",
+    "B656_digest_integration",
+    "B663_bifocal_anatomy",
+    "B670_anatomy_full"
+   ]
+  },
+  "and_the_harvest_arc_states_the_policy_and_how_it_reran_them": {
+   "pass": true
+  },
+  "SO_THIS_IS_NOT_A_DEFECT__recorded_to_stop_the_next_sweep_reflagging_it": {
+   "pass": true,
+   "reason": "the packets are hash-manifested as received; editing the paths would break the manifest, and the reruns were done with packet-local imports"
+  }
+ },
+ "numbers": {
+  "frontier_py_files": 1687,
+  "sys_path_manipulators": 227,
+  "hub_importers": {
+   "cyclo_engine": 56,
+   "step0_exact_matrices": 46
+  },
+  "core_importers": 6,
+  "core_importer_arcs": [
+   "B1034_two_kappas",
+   "B1_gluing_chern_simons",
+   "B5_wheeler_dewitt",
+   "B6_field_equation",
+   "B8_particle_spectrum",
+   "B9_fusion_scattering"
+  ],
+  "inline_LRA_redefiners": 220,
+  "of_which_import_the_core": 0,
+  "trace_map_files": 80,
+  "trace_map_in_src": 0,
+  "toolbox_highest_arc": 370,
+  "unresolvable_syspath_files": 31,
+  "harvest_arcs": [
+   "B646_wave2_integration",
+   "B651_wave3_integration",
+   "B656_digest_integration",
+   "B663_bifocal_anatomy",
+   "B670_anatomy_full"
+  ]
+ },
+ "all_pass": true
+}

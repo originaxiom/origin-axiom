@@ -10705,3 +10705,58 @@ the shared symbol was undeclared. **17 checks · 7 locks · 26 gates green.**
 **Self-correction — the seventh instance of one hazard in six arcs:** this arc's own `LAW_MAP` row
 necessarily mentions *both* κ's, which would have tripped the check that the bridge rows do not
 mention the Möbius one. Scoped by authorship, like every other measurement in this refresh.
+
+## B1035 (2026-08-11) — the shadow library, the orphaned core, and one non-finding
+
+**The code sweep's second return**, counted over the tree rather than quoted — distinct files,
+never match counts, this arc's own files excluded from every count.
+
+**THE CORRECTION, and this refresh was carrying the wrong premise too.** *"`frontier/` is 1,687
+standalone `.py` files with no shared library and no imports between them"* is **false**. **227**
+files do `sys.path` surgery, and there is a **de-facto shadow library** reached by path surgery
+instead of packaging: **`B358_seam_certification/cyclo_engine.py` — 56 importers**;
+**`B367_value_map/step0_exact_matrices.py` — 46**. **Both are filed as ordinary research arcs.**
+
+> An arc that a hundred cells import is **not a cell, it is a dependency** — and the corpus has no
+> way to say so. It carries a **verdict**, not a **version**; a correction to it silently changes
+> every consumer's results, and nothing in the governance layer would register that. **A
+> consolidation-debt row the prose ledgers structurally cannot see.**
+
+**THE CERTIFIED CORE IS ORPHANED — adoption debt, not missing code.** **6 of 1,687** frontier files
+import `origin_axiom`: `B1`, `B5`, `B6`, `B8`, `B9` — **and B1034, yesterday**. So **no new consumer
+between B9 and B1034, a thousand arcs.** Meanwhile **220** files redefine `L`/`R`/`A` **inline** and
+**not one** imports the core, though `src/origin_axiom/algebra.py` has defined them the whole time.
+One level down: the **trace map** — 45 % of all atlas probes — is re-derived in **80** files with
+**no home in `src/` at all**, and `tests/helpers_e6.py`, the repo's one factored helper, serves
+**zero** frontier files.
+
+**COPYING IS NOT INDEPENDENCE.** B930's `overlap.py` and B935's `compose.py` share a
+**byte-identical** exact-arithmetic kernel (dozens of functions, hundreds of lines), with the same
+core recurring across B928/B938/B914/B916/B923. **A bug there reproduces identically in both rather
+than being caught by disagreement**, so cross-arc agreement between copy-siblings is weaker
+evidence than it looks. **Stated as a limit on evidence; no banked result is challenged.**
+
+**THE INSTRUMENT INDEX FROZE AT B370.** `TOOLBOX.md` names ~9 code paths, highest arc **B370**,
+already flagged by `doc-currency` at **lag 660** as *"the highest-priority debt on the board"* — and
+it does **not** name `B878/branch_cell9_rung1_v2.py`, the 25-digit Maass solver whose filename
+contains neither *maass* nor *spectral*. *The protocol says read the toolset first; the toolset
+stops at B370; the instrument whose absence caused B1007 is not in it.*
+
+**A NON-FINDING, RECORDED ONCE.** 31 files carry `sys.path` inserts that cannot resolve here
+(`/Users/dri/…`, `<seat-workdir>/…`). **Not a defect:** all 31 are inside five **harvest** arcs
+whose policy is *"sha256 of every file **as received**"* — editing them breaks the manifest — and
+B646 records the reruns as done *"(their pipeline, **packet-local imports**)"*. Written down
+because the first half is what a sweep sees and the second half is what makes it harmless.
+
+**A POSITIVE CONTROL.** A full walk of **B908–B940** for failing checks found **no unreported
+failure**: six arcs carry failing or refuted checks and **all six are disclosed in the claim line
+itself** — B929, whose sealed criterion failed, says so in its own first sentence.
+
+**Owed to the owner (L160):** the factoring decision touches the certified core, exactly like
+L159's rename. This arc makes the debt countable, not settled.
+
+**20 checks · 9 locks · 26 gates green.**
+**Self-correction — the eighth instance of one hazard in seven arcs, and the FIRST PREDICTED IN
+ADVANCE:** `verify.py` imports `origin_axiom` to check the core, which would have made it the
+**seventh importer of the thing whose six importers are the finding**. The exclusion is written at
+the top of the script rather than discovered by a failing check.
