@@ -1,0 +1,42 @@
+{
+ "cell": "B1027",
+ "checks": {
+  "B505_form_kappa_minus_2_equals_4_lambda_squared": {
+   "pass": true,
+   "detail": "kappa = 4*lambda**2 + 2  (E drops out entirely)"
+  },
+  "B160_form_kappa_equals_2_plus_lambda_squared": {
+   "pass": true,
+   "detail": "kappa = lambda**2 + 2"
+  },
+  "the_two_are_ONE_identity_under_lambda_to_lambda_over_2": {
+   "pass": true,
+   "detail": "B160 and B505 pin the same law; the factor 4 is exactly the +-lambda vs +-lambda/2 choice"
+  },
+  "kappa_is_E_independent": {
+   "pass": true,
+   "detail": "d(kappa)/dE = 0 -- kappa is a property of the COUPLING, not of the spectral parameter"
+  },
+  "kappa_equals_2_iff_lambda_equals_0": {
+   "pass": true,
+   "detail": "the founding sentence's 'the cancellation completes' IS the uncoupled chain"
+  },
+  "at_lambda_0_the_transfer_matrices_coincide": {
+   "pass": true,
+   "detail": "T_+ = T_- : no letter distinction survives, so the word carries no information"
+  },
+  "fricke_vogt_on_the_fibonacci_line_is_lambda_squared_over_4": {
+   "pass": true,
+   "detail": "I_FV = lambda**2/4"
+  },
+  "B148_bridge_kappa_equals_4_I_plus_2_reproduces_B160": {
+   "pass": true,
+   "detail": "kappa = 4*I_FV + 2 (B148) + I = lambda^2/4 (B36) => kappa = 2 + lambda^2 (B160). Closed."
+  }
+ },
+ "verdict": {
+  "reconciled": true,
+  "law": "kappa = 2 + lambda^2 (+-lambda/2 convention) = 2 + 4*lambda^2 (+-lambda)",
+  "kappa_2_iff": "lambda = 0, the uncoupled/free chain"
+ }
+}

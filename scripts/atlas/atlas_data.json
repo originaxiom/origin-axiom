@@ -825,6 +825,35 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1027": {
+   "slug": "kappa two faces",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "quasicrystal",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B100",
+    "B148",
+    "B160",
+    "B162",
+    "B180",
+    "B309",
+    "B332",
+    "B36",
+    "B398",
+    "B499",
+    "B505",
+    "B518"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B102": {
    "slug": "hitchin continuation",
    "motifs": [

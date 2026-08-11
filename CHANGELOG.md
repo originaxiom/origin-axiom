@@ -1,5 +1,26 @@
 # Changelog
 
+## B1027 (2026-08-11) — κ = 2 is the free chain: the founding sentence's third and fourth faces
+
+The bridge equation's **κ = 2 ⟺ nothing** has three further banked meanings and **no curated
+consolidation carried any**: **B160** (`κ = 2 + λ²`, so κ = 2 ⟺ λ = 0), **B505** (`κ − 2 = 4λ²` —
+κ **is** the squared coupling of the *measured* quasicrystal chain; κ = 2 is **the free metal**),
+**B162** (κ = 2 is the **unique** fiber with positive-measure spectrum).
+
+**Reconciled first, because the two normalisations disagree on their face** — both re-derived
+from the transfer matrices: **one identity**, the factor 4 being the ±λ vs ±λ/2 convention.
+**Third route:** B36 ∘ B148 re-derives B160.
+
+**Two consequences newly stated:** `∂κ/∂E ≡ 0` (κ is the *coupling's* property, not the spectral
+parameter's); and at λ = 0 the two letters become the **same matrix** — the alphabet collapses.
+
+**Also absent from every curated surface:** **B332** (the two ends **are** the product and ratio
+of the founding substitution's two letters — Layer 1 from the letters) and **B180**.
+
+**Scope verbatim from B505: "Form-level; NOT a B398 crossing."** No novelty claimed. B162 cited
+not re-verified (**L155**); **L156** registers carrying B332 into Layer 1; **L153 closed** by
+B1024. 9 locks with an MB12 control. Gate 5 untouched.
+
 ## B1024 (2026-08-11) — L153 executed: the torsor bits ARE the frame bits. **SAME, deficit 2.**
 
 Seal re-verified **byte-identical** before compute; method unvaried. **Conjugation → H¹ class

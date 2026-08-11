@@ -10308,3 +10308,37 @@ torsor has a fourth generator (**yes**, character-variety-native, status unrun).
 
 `tests/test_b837_file_drawer` goes green **as a consequence** — the obligation discharged by the
 cell reporting, not by exemption. 7 locks. Gate 5 untouched; nothing to `CLAIMS.md`.
+
+---
+
+## B1027 (2026-08-11) — κ = 2 IS THE FREE CHAIN: the founding sentence's third and fourth faces
+
+**CONSOLIDATION REFRESH, band B100–B499**, whose claim-line sweep this arc comes out of.
+
+**The finding.** `THE_FRAMEWORK`'s bridge equation carries **κ = 2 ⟺ the cancellation completes
+⟺ nothing**. **Three further arcs say what κ = 2 *is*, and no curated consolidation cites any:**
+**B160** (`κ = 2 + λ²` on the transfer-matrix form ⟹ κ = 2 ⟺ λ = 0), **B505** (`κ − 2 = 4λ²` —
+κ **is** the squared coupling of the *measured* KKT/Sütő/Bellissard quasicrystal chain, κ = 2
+being **the free metal**), and **B162** (κ = 2 is the **unique** fiber of the κ-foliation with
+positive-measure spectrum).
+
+**The reconciliation was done first**, because on their face B160 and B505 disagree and a
+restoration quoting either alone would have banked a wrong constant. Both re-derived from
+`T_± = [[E∓a,−1],[1,0]]`, `κ = tr[T₊,T₋]`: **one identity**, the factor 4 being exactly the
+±λ vs ±λ/2 convention B505 flags in its own text. **A third route also closes:** B36's
+`I_FV = λ²/4` ∘ B148's `κ = 4·I_FV + 2` re-derives B160.
+
+**Two consequences neither previously stated:** `∂κ/∂E ≡ 0` — κ is a property of the **coupling**,
+not the spectral parameter; and at λ = 0 the two transfer matrices are the **same matrix**, so no
+word is distinguishable from any other — on this face *"the cancellation completes"* is **the
+alphabet collapsing**. *(A reading of the mathematics, not a result beyond it.)*
+
+**Two further absences in the same region:** **B332** — the two arithmetic ends are the **product
+and the ratio of the founding substitution's two letters** (`R·L` → disc 5 → ℚ(√5)/E₈;
+`−R·L⁻¹` → disc −3 → ℚ(√−3)/E₆), i.e. **Layer 1 derived from the letters**; and **B180** — κ is
+one conserved quantity on both faces, the premise this reconciliation rests on.
+
+**Scope carried verbatim from B505, not softened:** *"Form-level; NOT a B398 crossing."* No
+novelty claimed (the trace map and Fricke–Vogt invariant are standard). **B162 is cited, not
+re-verified** — registered as **L155**. **L156** registers carrying B332 into Layer 1.
+**L153 closed** in `OPEN_LEADS` by B1024. 9 locks incl. an MB12 control. Gate 5 untouched.

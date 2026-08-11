@@ -1509,7 +1509,11 @@ the mitigation is the receipt discipline, recorded as such).
 
 ---
 
-## L153 — ARE B782's TORSOR BITS AND B936's FRAME CLASSES THE SAME BITS? (registered 2026-08-10; cc3's Blocker 1; cc's lane)
+## ~~L153~~ — **CLOSED 2026-08-11 by B1024: SAME, deficit 2.** Are B782's torsor bits and B936's frame classes the same bits? (registered 2026-08-10; cc3's Blocker 1)
+
+> **DISPOSITION — CLOSED, SAME (deficit 2).** The sealed cell ran under a seal re-verified byte-identical before compute. **Conjugation's 27-shadow carries H¹ class (0,1); reversal's carries (1,1)** — independent over 𝔽₂, so the two **generate H¹ = (ℤ/2)²**. **The frame bits ARE the torsor bits in a second presentation: R11's T1 tightens to d = 2 and the counted input list STANDS.** Declared prior was *"uncertain, lean SAME"*, so non-weakening applies. **Reversal's shadow was constructed, not assumed** (C21's 27↔27̄ contragredient = the E₆ diagram flip = B936's τ) — **and that identification decides the outcome**: a shadow of class (0,0) or (0,1) would have given PARTIAL. **Blocker cleared first: B939's shadow-map prose is transposed** against its own code and B936's flip counts (retraction filed). **Does NOT settle B787's fourth involution ι** — different question, not to be netted against this. `frontier/B1024_l153_bits/` · `tests/test_b1024_l153.py`.
+
+**The original registration, kept for the record:**
 
 **The gap:** the pin's T1 identified the frame-theorems' discrete deficit with the input list's
 two 𝔽₂ bits. **B782's bits are the observer torsor** (conjugation, reversal, golden branch);
@@ -1533,3 +1537,11 @@ only continuous dimensionless input converts from anchor to OUTPUT — the input
 DIFFERENT, the corpus gains its third named terminology collision (two σ's, after two conductors
 and two levels) and the anchor stands. **Either outcome is a result.** Kind/type gates apply to
 any downstream use.
+
+## L155 — RE-VERIFY B162's POSITIVE-MEASURE CLAIM INDEPENDENTLY (registered 2026-08-11; B1027)
+
+**The gap:** B1027 banked the κ = 2 identity on the transfer-matrix face from three independent derivations, but **carried B162's spectral half by citation, not re-computation** — *"κ = 2 is the unique fiber of the κ-foliation with positive-measure spectrum; every other κ gives a zero-measure set."* That is the sharpest statement in the cluster and the only one not re-derived. **The cell:** recompute the measure of the spectrum across the κ-foliation with a declared discretisation and a vacuity control (a κ known to give a Cantor set must register as zero-measure). Two-outcome.
+
+## L156 — CARRY B332 INTO THE_FRAMEWORK LAYER 1 (registered 2026-08-11; B1027)
+
+**The gap:** `THE_FRAMEWORK` Layer 1 presents the two-ended structure (ℚ(√−3)/E₆ ↔ ℚ(√5)/E₈) as geometry, citing the cone-angle transition. **B332 derives it from the two letters directly** — *"R·L has disc 5 (ℚ(√5), E₈) and −R·L⁻¹ = g has disc −3 (ℚ(√−3), E₆)"* — i.e. **the two ends are the product and the ratio of the founding substitution's letters**, and no curated surface carries it. **The cell:** re-verify both discriminants, then add the row. Cheap; the risk is only that B332's own correction of an inverted handoff labelling must be carried with it.
