@@ -1,5 +1,33 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+> **LATEST — the CONSOLIDATION REFRESH's first execution (B1024–B1029, 2026-08-11).** The campaign
+> `THE_CAMPAIGN.md` registers but had not run. Band B0–B99 and the claim lines of B100–B1029 are
+> read; the debt is **measured, not estimated**: **509 of 934 arcs carry no citation in any of the
+> five curated consolidations**, of which **245 are substantive** (instrument arcs excluded — they
+> have no law to consolidate). *Every arc remains reachable through the generated views; the gap is
+> in the distilled layer, not in navigability.* `docs/consolidation/DEBT_LEDGER.md`.
+>
+> **Six arcs banked, five of them restorations re-verified before restoring (campaign step 5):**
+> **B1024** — the sealed **L153** cell executed: **SAME, deficit 2**; the frame bits *are* the
+> torsor bits, R11's T1 tightens to `d = 2`, **the counted input list stands**. Cleared a
+> transposed shadow-map line in B939 first (retraction filed).
+> **B1026** — one involution, six names: the substrate record swap **is** the `sl(n)` opposition
+> involution; missable because `tr(g) = tr(g⁻¹)` at rank 2.
+> **B1027** — κ = 2 is the **free chain**: B160 and B505's normalisations reconciled (one law, two
+> conventions), a third route via B36 ∘ B148, and `∂κ/∂E ≡ 0`.
+> **B1028** — κ = 2 is **absolutely conserved**: every `End(F₂)` stratum law is a multiple of κ−2,
+> and the **non-injective** stratum's whole image lies in κ = 2. **B497's scope line surfaced:
+> *"the program to date = stratum 1 of 4."***
+> **B1029** — **HCF(ℚ(√−15)) = ℚ(√5, √−3)**: the seam is the ends' class field, so C7's three faces
+> are **two plus a closure**.
+> **B1025** — the suite executed **zero** tests on a conforming clone; repaired, now **3,744
+> passing, 0 errors**, no mathematical failure.
+>
+> **Owed:** ~240 debt rows still have unread bodies and remain *candidates*; `REVIEWS`,
+> `HINT_LEDGER`, `SEAL_LEDGER`, `PRACTICES`, `PROGRESS_LOG`, `CHANGELOG`, the governed rooms and
+> the code are unread. **The decadal review is DUE and is the owner's.**
+
+
 > **State at Review 38 (2026-08-05).** The meditation/capstone/flavor window: the tiling
 > is now **M(𝕆,ℂ) by explicit exact isomorphism** (all 3,003 bracket relations, det φ = −2/3);
 > the torus's split/compact dichotomy is a float-free theorem whose four-column concordance
