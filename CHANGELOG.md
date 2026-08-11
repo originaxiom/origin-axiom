@@ -1,5 +1,27 @@
 # Changelog
 
+## B1024 (2026-08-11) — L153 executed: the torsor bits ARE the frame bits. **SAME, deficit 2.**
+
+Seal re-verified **byte-identical** before compute; method unvaried. **Conjugation → H¹ class
+(0,1), reversal → (1,1)** — independent over 𝔽₂, so the torsor generators' 27-shadows
+**generate H¹(⟨τ⟩, T_ad[2]) = (ℤ/2)²**. **R11's T1 tightens to d = 2; the counted input list
+stands.** Declared prior was *"uncertain, lean SAME"*; non-weakening applies.
+
+**Computed, not read off:** the independent class map reproduces all 16 rows of B936's class
+table and recovers K4's order-2 image from scratch. **Vacuity shown:** K4 spans only ℤ/2.
+
+**The construction owed, with its decisive step flagged:** reversal is C21's 27↔27̄
+contragredient, which on e₆ **is** the diagram flip = B936's τ. Had its shadow carried (0,0) or
+(0,1) the verdict would be **PARTIAL**.
+
+**Blocker cleared first:** **B939's shadow-map prose is TRANSPOSED** — its code builds by
+character, and B936's per-character flip counts give ALL_MINUS 11 / χ₋ 12, the reverse.
+**B939's mathematics is untouched**; retraction row filed. **Third E1 collision this pass**,
+all three found by diffing surfaces rather than reading either.
+
+**Does not settle** B787's fourth involution — different question, not to be netted.
+`test_b837_file_drawer` goes green as a consequence, not by exemption.
+
 ## B1025 ADDENDUM (2026-08-10) — the suite measured end to end; the FAIL-instead-of-SKIP class repaired
 
 **Before** the repair: `28 failed, 3738 passed, 93 skipped, 3 errors` (73 min).

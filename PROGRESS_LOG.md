@@ -10273,3 +10273,38 @@ amendment (a declared awaiting-compute state with an expiry), not a test edit.
 
 **Net: 0 collection errors, 3744+ passing, and every remaining failure is either a dependency
 the environment lacks or a governance obligation carried in the open.**
+
+---
+
+## B1024 (2026-08-11) — L153 EXECUTED: the torsor bits ARE the frame bits. SAME, deficit 2.
+
+**The sealed cell B1023 registered as pending, run under its verified seal.**
+`PREREGISTRATION.md` re-hashed **byte-identical** (`dc823e86…`) before any compute; method
+unvaried. **Outcome: SAME (deficit 2)** — conjugation's shadow carries H¹ class **(0,1)**,
+reversal's carries **(1,1)**, independent over 𝔽₂, so the two **generate H¹ = (ℤ/2)²**. The
+frame bits are the torsor bits in a second presentation; **R11's T1 tightens to d = 2 and the
+counted input list stands.** Declared prior was *"uncertain, lean SAME"* — non-weakening
+applies, and this is recorded as worth less than a result against prior.
+
+**Computed, not read off:** the independent class map reproduces **all 16** rows of B936's own
+class table from χ alone, and recovers K4's order-2 image (B936 `Q_B`) from scratch.
+**Vacuity shown:** K4's four members span only ℤ/2, so the criterion can fail and has a witness.
+
+**The one construction owed**, with its load-bearing step flagged not buried: reversal is C21's
+*"27↔27̄ contragredient g↦g⁻¹"*, and on e₆ that exchange **is** the diagram flip — B936's own τ.
+**If reversal's shadow had carried (0,0) or (0,1) the verdict would be PARTIAL**; a reader
+rejecting the identification should read the cell as undecided.
+
+**Blocker cleared first — B939's shadow-map prose is TRANSPOSED.** Its code builds by character;
+B936's per-character flip counts give ALL_MINUS 11 and χ₋ 12, the reverse of the prose.
+**B939's mathematics is untouched**; one prose line was wrong where a later sealed cell had to
+consume it. Retraction row filed. **Third E1 convention collision this pass** (after θ's three
+objects and B62 = 2×P33) — **all three found by diffing two surfaces, not by reading either.**
+
+**Does NOT settle, and must not be netted against it:** B787's fourth involution ι. L153 asks
+whether B936's H¹ classes are spanned by the torsor generators (**yes**); B787 asks whether the
+torsor has a fourth generator (**yes**, character-variety-native, status unrun). The
+"unsourced fifth input" premise is untouched here.
+
+`tests/test_b837_file_drawer` goes green **as a consequence** — the obligation discharged by the
+cell reporting, not by exemption. 7 locks. Gate 5 untouched; nothing to `CLAIMS.md`.

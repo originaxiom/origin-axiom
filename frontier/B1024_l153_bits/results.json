@@ -1,0 +1,110 @@
+{
+ "cell": "B1024/L153",
+ "checks": {
+  "class_map_is_the_two_tau_fixed_nodes": {
+   "pass": true,
+   "detail": "chi |-> (chi at node 1, chi at node 3) = (Bourbaki alpha_2, alpha_4)"
+  },
+  "reproduce_all_16_banked_H1_classes": {
+   "pass": true,
+   "detail": "16/16 rows reproduced from chi alone"
+  },
+  "K4_image_in_H1_has_order_2": {
+   "pass": true,
+   "detail": "classes [(0, 0), (1, 1)] -- matches B936 Q_B 'kernel {I, D2}, image Z/2 = <[D]>'"
+  },
+  "B939_prose_is_transposed_against_B936_flip_counts": {
+   "pass": true,
+   "detail": "character ALL_MINUS -> 11 flips (D2's count), character chi- -> 12 flips (D's count); B939's prose says the reverse"
+  },
+  "D_coordinate_belongs_to_character_chi_minus": {
+   "pass": true,
+   "detail": "so the shadow map by CHARACTER is: chi- -> D (class (1,1)), ALL_MINUS -> D2 (class (0,0))"
+  },
+  "reversal_is_the_contragredient_hence_the_outer_generator": {
+   "pass": true,
+   "detail": "C21: 'the theta-involution (the 27<->27bar contragredient g|->g^-1)'; on e6 the 27<->27bar exchange is the diagram flip = B936's tau (Q_A_group)"
+  },
+  "the_two_shadow_classes_are_independent": {
+   "pass": true,
+   "detail": "conjugation -> (0, 1), reversal -> (1, 1); span = [(0, 0), (0, 1), (1, 0), (1, 1)] (order 4)"
+  },
+  "criterion_can_fail_K4_is_the_witness": {
+   "pass": true,
+   "detail": "K4's four members span only Z/2, so 'generates (Z/2)^2' is a real condition"
+  }
+ },
+ "blocks": {
+  "shadow_map_resolved": {
+   "B939_prose": "sigma_-1 -> D (12) ; sigma_chi- -> D2 (11)",
+   "resolved_by_character": "chi- -> D (12 flips, class (1,1)) ; ALL_MINUS -> D2 (11, class (0,0))",
+   "basis": "B939 builds by character (inner_gmap(ALL_MINUS)); B936's per-character D_flips and Q_B coordinates both put D on chi-. B939's PROSE line is transposed; its mathematics is untouched."
+  },
+  "generators": {
+   "conjugation": {
+    "chi": "+--+-+",
+    "shadow": "D_c",
+    "coordinate": [
+     0,
+     0,
+     1,
+     1,
+     1,
+     0
+    ],
+    "H1_class": [
+     0,
+     1
+    ]
+   },
+   "reversal": {
+    "chi": "++++++",
+    "shadow": "tau (the 27<->27bar contragredient)",
+    "coordinate": [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    "H1_class": [
+     1,
+     1
+    ]
+   },
+   "span": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "span_order": 4
+  }
+ },
+ "outcome": {
+  "verdict": "SAME",
+  "deficit": 2,
+  "conjugation_class": [
+   0,
+   1
+  ],
+  "reversal_class": [
+   1,
+   1
+  ],
+  "span_order": 4
+ }
+}

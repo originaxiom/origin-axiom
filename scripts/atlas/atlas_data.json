@@ -722,23 +722,53 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1024": {
+   "slug": "l153 bits",
+   "motifs": [
+    "trace_map",
+    "eisenstein"
+   ],
+   "refs": [
+    "B62",
+    "B766",
+    "B787",
+    "B936",
+    "B939",
+    "K4",
+    "L153",
+    "P33"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1025": {
    "slug": "suite collection repair",
    "motifs": [
     "figure_eight",
     "trace_map",
-    "metallic"
+    "metallic",
+    "amphichiral_cp"
    ],
    "refs": [
+    "B305",
+    "B306",
+    "B565",
+    "B727",
+    "B837",
     "B849",
     "B957",
     "B960",
     "B979",
+    "B982",
     "B998",
+    "P3",
+    "P5",
     "P9"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 7,
+   "obstacle_conf": 8,
    "status": "dead",
    "domain": "topology"
   },
