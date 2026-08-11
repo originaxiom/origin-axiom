@@ -1,0 +1,193 @@
+{
+ "checks": {
+  "the_band_carries_37_debt_rows": {
+   "pass": true,
+   "n": 37,
+   "rows": [
+    100,
+    101,
+    102,
+    106,
+    109,
+    111,
+    113,
+    117,
+    118,
+    121,
+    122,
+    123,
+    124,
+    125,
+    132,
+    137,
+    141,
+    142,
+    147,
+    150,
+    154,
+    158,
+    163,
+    164,
+    169,
+    172,
+    173,
+    174,
+    175,
+    176,
+    178,
+    183,
+    186,
+    187,
+    191,
+    193,
+    198
+   ]
+  },
+  "seven_clusters_cover_twenty_seven_of_the_thirty_seven": {
+   "pass": true,
+   "n_clusters": 7,
+   "n_clustered": 27,
+   "standalone": 10,
+   "band": 37
+  },
+  "so_the_restoration_surface_is_laws_not_rows": {
+   "pass": true,
+   "statements_owed": 17,
+   "rows": 37
+  },
+  "B122_says_it_and_B121_are_one_object": {
+   "pass": true
+  },
+  "B117_says_it_supersedes_B111_and_B113": {
+   "pass": true
+  },
+  "B123_is_in_the_debt_set": {
+   "pass": true
+  },
+  "but_B125_retracts_B123s_sub_claim": {
+   "pass": true
+  },
+  "so_restoring_B123_as_written_would_restore_a_refuted_claim": {
+   "pass": true
+  },
+  "the_cat_maps_entropy_is_2_log_phi": {
+   "pass": true,
+   "h_top": 0.9624236501192069
+  },
+  "B109_computes_4_log_phi_for_the_TRACE_MAP_at_the_void": {
+   "pass": true
+  },
+  "the_room_doc_attaches_that_number_to_the_CAT_MAP_and_calls_it_its_metric_entropy": {
+   "pass": true
+  },
+  "and_the_same_row_names_the_void_as_the_linearisation__which_is_B109s_object": {
+   "pass": true
+  },
+  "so_the_diagnosis_sharpens_from_convention_gap_to_MISATTRIBUTION": {
+   "pass": true,
+   "note": "4 log phi is not A's metric entropy (that is 2 log phi); it equals sum|lambda| for A AND is B109's trace-map rate. The row is labelled 'trace-map dynamics' and says 'the void = its linearization' -- B109's object -- while calling the number the CAT MAP's."
+  },
+  "the_ledger_no_longer_says_no_dispositions_applied": {
+   "pass": true
+  },
+  "the_band_section_exists_with_the_three_dispositions": {
+   "pass": true
+  },
+  "and_it_states_the_cluster_finding": {
+   "pass": true
+  },
+  "and_it_records_B123_as_a_RETRACTION_not_a_restoration": {
+   "pass": true
+  }
+ },
+ "numbers": {
+  "band_rows": 37,
+  "rows": [
+   100,
+   101,
+   102,
+   106,
+   109,
+   111,
+   113,
+   117,
+   118,
+   121,
+   122,
+   123,
+   124,
+   125,
+   132,
+   137,
+   141,
+   142,
+   147,
+   150,
+   154,
+   158,
+   163,
+   164,
+   169,
+   172,
+   173,
+   174,
+   175,
+   176,
+   178,
+   183,
+   186,
+   187,
+   191,
+   193,
+   198
+  ],
+  "clusters": {
+   "the tower": [
+    117,
+    122,
+    121,
+    118,
+    111,
+    113
+   ],
+   "arithmeticity": [
+    123,
+    125,
+    147,
+    137,
+    193
+   ],
+   "phi-fixed reducibility": [
+    141,
+    142
+   ],
+   "the collective": [
+    172,
+    173,
+    174,
+    175,
+    176,
+    178
+   ],
+   "the open arrow": [
+    183,
+    187,
+    186
+   ],
+   "the metallic exponent": [
+    154,
+    198
+   ],
+   "isomonodromy": [
+    164,
+    169,
+    150
+   ]
+  },
+  "clustered_rows": 27,
+  "statements_owed": 17,
+  "h_top_A": 0.9624236501192069,
+  "four_log_phi": 1.9248473002384139
+ },
+ "all_pass": true
+}

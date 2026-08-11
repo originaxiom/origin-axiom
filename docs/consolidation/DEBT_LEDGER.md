@@ -424,8 +424,56 @@ and they were being counted as debt. **B400–B499 is now the single densest ban
    its body, and its *"ARMED, NOT PROPAGATED"* relabeling trigger is on no surface.
 3. **B530** — *"the object's first complete portrait"*, **83 KB, the largest arc in the corpus**.
 
-## Dispositions
+## §B100–B199 — DISPOSITIONED (2026-08-11, B1037)
 
-**None applied.** Read-first. Four restorations were banked this pass, each re-verified before
+**The campaign's step 6, executed for the first time:** *"a band is DONE when its debt rows are
+either **restored** or **explicitly declined with a reason**."* Bodies read, not claim lines.
+
+> ### The finding: 37 rows are **27 arcs in 7 clusters** plus 10 standing alone — **17 statements owed, not 37.**
+>
+> The clusters are the **arcs' own** claim, not an editorial grouping: B122 says *"B121 and the
+> W-identity are **one object**"*; B117 says the B111/B113 framing is *"**superseded**"*. **The
+> debt number counts rows; the debt is laws.**
+
+| cluster | rows | the one statement owed |
+|---|---|---|
+| **the tower** | B117 · B122 · B121 · B118 · (B111, B113 superseded) | `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)` for the external `W = V⊕1`, its shape forced by a dimension surplus vanishing **iff n = 4**; the SL(2)-action is the **external `det = −1`** monodromy, inequivalent to Kostant's principal for all `n ≥ 3`, and the θ = −w₀ fixed-root sign is `(−1)^{h+1}` |
+| **arithmeticity** | B125 · B147 · B137 · B193 · (**B123 retracted**) | arithmeticity selects **exactly two** metallic members — golden `ℚ(√−3)`, silver `ℚ(i)`, non-commensurable — and does **not** coincide with self-mirror: the chiral pair `RRL/RLL` (`ℚ(√−7)`) is fully arithmetic |
+| **φ-fixed reducibility** | B141 · B142 | finite image ⟹ reducible tower, dense ⟹ irreducible; the φ-fixed principal point is `Q₈`, so `Sym^{n−1}` is reducible at **every** `SL(n), n ≥ 3` — a one-line Klein-4 proof, no search |
+| **the collective** | B173 · B172 · B174 · B175 · B176 · B178 | the woven gap-label group is `ℤ + ℤα₁ + ℤα₂` with **rank = 1 + #distinct quadratic fields**; the character-variety face is the same statement — cusp-gluing is a continuum only on a measure-zero locus, a forced discrete fork everywhere else |
+| **the metallic exponent** | B154 · B198 | the peripheral `k` in `[A,B] = ±µᵏ` is **order-determined, not rank-determined** — *"degree=rank" is a coincidence of the principal spectra*, and no closed form `k(o,m)` survives |
+| **the open arrow** | B183 · B187 · B186 | `g_c = min_E γ(E)` = the inverse localization length is **zero** for the critical metallic chain — criticality is **maximal fragility**, not robustness — against a control protected at exactly `ln 4` |
+| **isomonodromy** | B169 · B164 · B150 | the trace-map action on the Fricke variety **is** the N=2\* class-S S-duality mapping-class action (τ-modularity is a homonym), and its Painlevé-VI/Schlesinger partner **relocates** the firewall rather than crossing it |
+
+**DECLINE — PROCESS (4, firmly correct to omit):** **B100** (*"Nothing here is our discovery; the
+methods are **cited**"* — a literature cross-check), **B113** (framing superseded by B117),
+**B178** (*"standard nearly-free / KAM perturbation theory"* — the contribution is articulation),
+**B106** (its own headline is an honest negative: *"**no mechanism is claimed**"*).
+
+**DECLINE — SUBSUMED (4, zero marginal value):** **B187** ⊂ B183 · **B172** ⊂ B173 ·
+**B176** ⊂ B175/B178 · **B111** ⊂ B117.
+
+> ### **DECLINE — RETRACTION, NOT RESTORATION: B123.**
+> Its headline — *"the m ≥ 2 metallic manifolds are **not** arithmetic"*, offered as *"a third
+> independent selection criterion"* — is **refuted by B125**, which states in its own body that
+> *"the 'three independent `m=1` selection criteria' sub-claim is **retracted**"*. The error was
+> applying Reid's **knot** theorem to **bundles**. **Restoring B123 as written would restore a
+> refuted claim** — the one outcome a consolidation pass must never produce.
+
+**RESTORE — the seven cluster statements above, plus the standalone HIGHs** (B101's *Lorentzian at
+exactly `k = 2` and never again*; B109's void saddle; B158's `(p−2)(q−2) = −2(m+1)`; B191's
+`dim = Σcusps − 2·gluings`). **Each restoration re-verifies before it restores** (campaign step 5,
+the B1010/B1026/B1029 pattern) and banks as its own arc. **Not done here** — this pass
+*dispositions*; restoring is the next band's work and is scoped per cluster.
+
+**The honest arithmetic on the number:** 4 rows firmly correct-to-omit and 4 with no marginal
+value is **≈22 %** overstatement per row — but the structural overstatement is far larger. **The
+band's real debt is ~17 statements against 37 rows.** *If that ratio holds across the corpus, the
+231-row figure is a row count, not a work estimate, and the ledger says so here rather than
+letting the number stand alone.*
+
+## Dispositions — the rest
+
+**None applied yet.** Read-first. Four restorations were banked this pass, each re-verified before
 restoring (campaign step 5): **B1026** (the involution chain), **B1024** (L153, SAME/deficit 2),
 **B1027** (κ's transfer-matrix and spectral faces), **B1025** (the suite).

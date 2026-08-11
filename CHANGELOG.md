@@ -1,5 +1,25 @@
 # Changelog
 
+## B1037 (2026-08-11) — the first band dispositioned: 37 rows are 17 statements
+
+**The campaign's step 6, executed.** B100–B199: **27 of 37 rows are facets of seven laws**, ten
+stand alone — **17 statements owed, not 37**, and the clustering is the arcs' own claim. *If the
+ratio holds, the 231-row figure is a row count, not a work estimate.*
+
+**One row is a retraction, not a restoration:** B123's *"m ≥ 2 not arithmetic"* is refuted by B125
+in its own body. A claim-line sweep would have restored a refuted claim.
+
+**A body-read sharpens B1036:** the `4 log φ` called *"the cat map's metric entropy"* is B109's
+rate for the **trace map** at the void. `h_top(A) = 2 log φ`, recomputed. Misattribution, not a
+convention gap — B1036 sharpened, not withdrawn.
+
+**L162 registered, correcting a planning statement:** the two theorem registers *do* collide — one
+shared 20-entry block, graded 17 [THEOREM] in one and 20 × NEEDS-LIT in the other, with C43 vs
+T-CROSSING an outright contradiction, and neither naming the other. `GOVERNANCE.md:261` ranks the
+one that no script, gate or `LIVING` set has ever heard of.
+
+18 checks · 6 locks · 26 gates green.
+
 ## B1036 (2026-08-11) — the knowledge room: the firewall runs backwards
 
 **Clean first:** 0 of 10 registered retracted phrases appear in the room, and every applicable

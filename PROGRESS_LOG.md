@@ -10828,3 +10828,53 @@ surfaces** (B483, 551 arcs behind the next); the new K026 row carries **B917**. 
 figure is measured with this arc's lines removed. **And a second:** the first retracted-phrase
 sweep used a smart-quote regex, found **two** phrases, and **was caught by its own lock** demanding
 at least five — MB12, *a criterion that cannot fail is not a test*.
+
+## B1037 (2026-08-11) — the B100–B199 band dispositioned: 37 rows are 17 statements
+
+**The campaign's step 6, executed for the first time** — *"a band is DONE when its rows are either
+restored or explicitly declined with a reason"* — after thirteen arcs of instrument audit had
+produced **zero** dispositions, as `DEBT_LEDGER` said in its own closing line. Read from the
+**bodies** (step 1: *"claim lines are not the surface"*).
+
+**THE FINDING.** 37 rows; **27 are facets of SEVEN laws**, ten stand alone. **17 statements owed,
+not 37** — and the clustering is **the arcs' own claim**: B122 says *"B121 and the W-identity are
+**one object**"*; B117 says the B111/B113 framing is *"**superseded**"*.
+
+> **If that ratio holds corpus-wide, the 231-row figure is a row count, not a work estimate**, and
+> a plan built on it mis-sizes the work by more than a factor of two. The ledger now says so next
+> to the number.
+
+**ONE ROW IS A RETRACTION, NOT A RESTORATION.** **B123** claims *"the `m ≥ 2` metallic manifolds
+are **not** arithmetic"* as *"a third independent selection criterion"*. **B125 refutes it in its
+own body** — *"the 'three independent `m=1` selection criteria' sub-claim is **retracted**"* —
+silver **is** arithmetic (`ℚ(i)`); the error was applying Reid's **knot** theorem to **bundles**.
+**A claim-line sweep would have marked it for restoration**: PROVED, on no curated surface. Reading
+the body is the whole difference.
+
+**A BODY-READ SHARPENS THIS PASS'S OWN B1036.** B1036 flagged `2 log φ` vs `4 log φ` between the
+knowledge room's two ungated documents and diagnosed **an undeclared convention gap**. B109's body
+shows the `4 log φ` is **its** Lyapunov rate for the **trace map's linearisation at the void** —
+and the room document's row is labelled *"trace-map dynamics"* and ends *"the void = **its
+linearization**"* while calling the number *"the **cat map**'s metric entropy"*. Recomputed:
+`h_top(A) = 2 log φ`. **The diagnosis moves from *undeclared convention* to *misattribution with a
+locatable owner*.** B1036 is **sharpened, not withdrawn** — and the misattribution was visible only
+from a **third arc's body**.
+
+**DISPOSITIONS.** DECLINE–PROCESS **4** (B100, B113, B178, B106) · DECLINE–SUBSUMED **4** (B187,
+B172, B176, B111) · DECLINE–RETRACTION **1** (B123) · RESTORE **the seven cluster statements plus
+four standalone HIGHs** (B101, B109, B158, B191) — **scoped, not executed.** Per-row overstatement
+≈22 %; the structural overstatement is more than double it.
+
+**Also registered — L162, correcting a statement I made in planning.** The two theorem registers
+were first read as *"different jobs, not a collision."* **Wrong.** They share the **B877–B919
+window — 20 entries, written into both by the same arc on the same day** — graded **17 [THEOREM] +
+1 [IDENTITY] + 2 [NO-GO]** in one and **20 × NEEDS-LIT** in the other, with **C43 `[NO-GO]` against
+`T-CROSSING … not a theorem`** on the same arc and the same lock. **Neither names the other.** And
+the governance is inverted: `GOVERNANCE.md:261` puts **THEOREM_REGISTRY** in layer-1 invariant
+while **every gate, script and working rule names THEOREM_LEDGER** — the registry has **zero hits
+in any script**, is in no `LIVING` set, and is **116 arcs stale**. *The file the constitution ranks
+highest is the one nothing measures.*
+
+**18 checks · 6 locks · 26 gates green.** Gate 5 untouched; nothing to `CLAIMS.md`.
+**Not done, and named rather than implied:** the restorations themselves — seven clusters is seven
+re-verifications, and doing them from memory is what B1010 warned against.

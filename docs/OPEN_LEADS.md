@@ -1728,3 +1728,50 @@ late corpus at all is not a drafting question.**
 **Also parked here:** **K009 and K016 share the filename slug `m1_selection_criteria.md`** and the
 same subject, K016 self-described as extending *"the scattered notes in `K009`"* — and K009 was
 never retired.
+
+## L162 — THE TWO THEOREM REGISTERS: ONE SHARED BLOCK, TWO AXES, NO POINTER (registered 2026-08-11; B1037's sweep)
+
+**Correcting a statement made in planning:** this was first read as *"two different things with
+different jobs — not a collision."* **That was wrong**, and the fuller comparison says why.
+
+**They do have different declared axes** — `docs/THEOREM_LEDGER.md` (*"THE CHAIN"*, B758) grades
+**proof strength** (`[THEOREM] · [CENSUS] · [IDENTITY] · [NO-GO] · [AXIOM]`);
+`docs/THEOREM_REGISTRY.md` (*"mapped for the **novelty relaunch**"*) grades **literature novelty**
+(`KNOWN · DERIVABLE · NEEDS-LIT · APPEARS-NOVEL`). **But:**
+
+| | |
+|---|---|
+| **One block is in both** | the **B877–B919** window — **20 entries**, written into both by the **same arc (B920) on the same day**, a complete one-to-one mapping |
+| **The grades disagree by construction** | LEDGER: **17 [THEOREM] + 1 [IDENTITY] + 2 [NO-GO]**, admitted under *"exact statement + banked computation + green lock"*. REGISTRY: **20 × NEEDS-LIT**, because *"**no novelty sweep has run on this window**"* |
+| **And once outright** | **C43 `[NO-GO — the crossing, sealed]`** in the LEDGER against **`(negative) T-CROSSING … listed for window completeness, **not a theorem**`** in the REGISTRY — *same arc B915, same lock `tests/test_b915_crossing.py`, opposite theorem-hood verdict* |
+| **Neither points at the other** | the LEDGER says the window *"reached LAW_MAP §F but neither theorem register — **one register over**"* **without naming it**; the REGISTRY's only mention is inside a quoted audit line |
+
+**Both statements are individually true** — proved and un-swept are compatible. **The defect is
+that neither file carries the other's axis or names it**, so a reader of either sees a complete
+picture that is half the grading. **Exactly the B1030 shape.**
+
+**And the governance is inverted, which is the sharpest part.** `GOVERNANCE.md:261` places
+**THEOREM_REGISTRY** in **layer 1 — invariant** (*"proven claims, certified data, locks, walls …
+every statement lock-backed"*), alongside `CLAIMS.md` and `tests/`. Meanwhile **every executable
+instrument names THEOREM_LEDGER** — `gates.py` (`CHAIN`, enforced by `gate_chain_locks`),
+`doc_currency.py` (`LIVING`, tolerance 30), `scripts/forcing/build.py`, `WORKING_RULES.md`,
+`docs/PRACTICES.md`, and B1033's own curated set. **`THEOREM_REGISTRY` has zero hits in any
+script, gate, or CI config**, is in no `LIVING` set, in no index, and is **116 arcs stale**.
+
+> **The file the constitution ranks highest is the one nothing measures.**
+
+**The decisions, none taken here** (the L159/L160/L161 pattern — each is a one-line change to a
+gate or to the constitution):
+**(a)** add a **mutual pointer block** to both preambles stating which axis each owns — cheapest,
+and it fixes the reader-license defect immediately;
+**(b)** resolve **C43 vs T-CROSSING** — the LEDGER's own preamble forecloses the middle ground
+(*"either enters this chain under one of the five labels or is explicitly a hint/open door —
+nothing in between"*), so one of the two must move;
+**(c)** either register `THEOREM_REGISTRY.md` in `doc_currency.py`'s `LIVING`, **or** amend
+`GOVERNANCE.md:261` to name the file the machinery actually enforces. **Doing neither leaves the
+constitution's invariant tier pointing at an unmeasured file.**
+
+**Also recorded:** the REGISTRY declares four lit-status values and its rows use **eight**
+(`GATED`, `PARTIALLY-KNOWN`, `SHARPER-REDUCTION`, `APPARENTLY-UNWRITTEN`, `W0 GATE DONE`), while
+the declared value **`APPEARS-NOVEL` is used by zero rows**; and two Tier-1-grade rows (`T-KQ`,
+`T-MASTER`) sit in a **headerless table** outside any tier heading.
