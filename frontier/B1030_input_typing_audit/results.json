@@ -1,0 +1,148 @@
+{
+ "checks": {
+  "b1000_census_is_five_closings_three_artifacts": {
+   "pass": true,
+   "closings": [
+    "chirality",
+    "the 27-VEV / rank reduction",
+    "the dimensionful anchor",
+    "4d / the N=2->N=1 datum",
+    "time / the arrow"
+   ],
+   "artifacts": [
+    "the 6d type",
+    "the filling slope",
+    "P5 menu completeness"
+   ]
+  },
+  "b1000_grades_the_6d_type_an_artifact_not_a_closing": {
+   "pass": true,
+   "grade": [
+    "ARTIFACT",
+    "a choice of the CLASS-S BRIDGE, not a deficit of the object; B277 'the fiber fixes the surface and monodromy, not the type'"
+   ]
+  },
+  "b1000_grades_the_4d_lift_a_closing_in_the_space_sector": {
+   "pass": true,
+   "grade": [
+    "CLOSING",
+    "space — the 3d->4d filling; B716 'no canonical 4d filling'"
+   ]
+  },
+  "b1000_closes_four_incompletenesses_with_five_closings": {
+   "pass": true,
+   "by_incompleteness": {
+    "charge": [
+     "chirality",
+     "the 27-VEV / rank reduction"
+    ],
+    "value": [
+     "the dimensionful anchor"
+    ],
+    "space": [
+     "4d / the N=2->N=1 datum"
+    ],
+    "time": [
+     "time / the arrow"
+    ]
+   }
+  },
+  "the_claim_hypothesis_list_is_five_typed_external_data": {
+   "pass": true
+  },
+  "the_claim_list_names_all_five_of_its_own_members": {
+   "pass": true,
+   "members": {
+    "time's arrow": true,
+    "chirality": true,
+    "one scale": true,
+    "the 6d type": true,
+    "the rank-closing VEV direction": true
+   }
+  },
+  "the_claim_list_names_the_6d_type": {
+   "pass": true,
+   "hypothesis": "plus **five** typed external data: **two 𝔽₂ bits** (time's arrow; chirality — the conjugation bit, = τ), **one scale**, **one Lie type** (the 6d type J), and **one rank-closing VEV direction** (⟨1⟩ then ⟨ν^c⟩ — the input every framework has, and **unsourced by the torsor**: B766's three bits are all committed; whether its magnitude folds into the scale's ℝ₊ is open). *(Count corrected 4 → 5 by B10"
+  },
+  "the_claim_asserts_b1000s_five_closings_stand": {
+   "pass": true
+  },
+  "the_claim_hypothesis_list_names_no_space_closing": {
+   "pass": true,
+   "found": []
+  },
+  "the_claim_body_named_no_space_closing_before_this_arc": {
+   "pass": true,
+   "found": []
+  },
+  "the_two_fives_are_different_fives": {
+   "pass": true,
+   "claim_list_has": "the 6d type",
+   "b1000_grade_of_it": "ARTIFACT",
+   "b1000_closing_missing_from_claim": "4d / the N=2->N=1 datum"
+  },
+  "b1017_asserts_it_confirms_b1000s_census": {
+   "pass": true
+  },
+  "b1017s_own_resource_table_spends_the_lie_type_on_the_6d_type": {
+   "pass": true
+  },
+  "b1017s_resource_table_assigns_no_resource_to_space": {
+   "pass": true
+  },
+  "b1015_types_the_bits_and_lie_type_as_discrete": {
+   "pass": true
+  },
+  "b1015_names_exactly_ONE_continuous_dimensionless_input": {
+   "pass": true
+  },
+  "b1015_A2_is_an_ANCHOR_not_a_derived_value": {
+   "pass": true
+  },
+  "b1017_types_the_vev_direction_as_not_a_continuous_parameter": {
+   "pass": true
+  },
+  "dimensionless_inputs_is_FOUR_not_zero": {
+   "pass": true
+  },
+  "continuous_dimensionless_inputs_is_ONE_not_zero": {
+   "pass": true
+  },
+  "tier4_parameter_free_is_graded_NOT_DONE": {
+   "pass": true
+  },
+  "no_arc_may_claim_parameter_free": {
+   "pass": true
+  },
+  "parameter_free_means_zero_FREE_dimensionless_parameters": {
+   "pass": true
+  },
+  "the_claim_no_longer_says_four_typed_external_data": {
+   "pass": true
+  },
+  "the_claim_says_five_in_the_one_sentence_claim": {
+   "pass": true
+  }
+ },
+ "typing": {
+  "dimensionful": [
+   "one scale (= A1)"
+  ],
+  "dimensionless_DISCRETE": [
+   "𝔽₂ bit A (time's arrow)",
+   "𝔽₂ bit B (chirality)",
+   "the Lie type",
+   "the rank-closing VEV direction (orbit-valued)"
+  ],
+  "dimensionless_CONTINUOUS": [
+   "A2 = c = 6σ (declared anchor, priced; L154 would derive it)"
+  ]
+ },
+ "answer": {
+  "zero_dimensionless_inputs": "NOT PROVEN — four of the five counted inputs are dimensionless (two 𝔽₂ bits, the Lie type, the VEV direction); all four are DISCRETE.",
+  "zero_continuous_dimensionless_inputs": "NOT PROVEN — exactly one (A2 = c = 6σ), declared and priced as an anchor by B1015. L154 is the single open cell that would convert it to an output and take the count to zero.",
+  "all_inputs_anchor_what_the_object_cannot_contain": "B1000 tests exactly this and it holds for FOUR SECTORS / FIVE CLOSINGS — with three named exceptions graded ARTIFACT ('ours, not the object's', reducible in principle): the 6d type, the filling slope, P5 menu completeness.",
+  "the_defect_found": "THE_CLAIM's counted list carries one of those artifacts (the 6d type) as a hypothesis and carries no space closing at all, while B1017 — the arc that wrote that list — asserts it confirms B1000's census. Same cardinality, different set."
+ },
+ "all_pass": true
+}

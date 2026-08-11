@@ -1,5 +1,22 @@
 # Changelog
 
+## B1030 (2026-08-11) — the counted input list, audited
+
+**One continuous dimensionless input, not zero.** B1015's sealed typing: the 𝔽₂ bits and the Lie
+type are **discrete**, the scale is **A1**, and **the one continuous dimensionless input is
+`A2 = c = 6σ` — a declared, priced anchor.** So *"zero dimensionless inputs"* is false as stated
+(four of five are dimensionless — all four **discrete**), and *"zero continuous dimensionless
+inputs"* is **one open cell away** (L154), not banked. Tier 4 stays **NOT DONE**.
+
+**And the two fives are different fives.** `THE_CLAIM` §1 counts **the 6d type**, which B1000
+grades an **ARTIFACT** (*"a class-S bridge choice, not a deficit of the object"*), and names **no
+space closing**, which B1000 counts. B1017 asserted *"B1000's five-closings census (confirmed)"* —
+**narrowed to cardinality**; retraction filed, **L157** registered, adjudication left to it.
+
+**Repaired:** `THE_CLAIM`'s one-sentence claim said *"four typed external data"* against §1's five.
+
+25 checks · 9 locks · Gate 5 untouched · nothing to `CLAIMS.md`.
+
 ## B1029 (2026-08-11) — the seam is the ends' class field
 
 **HCF(ℚ(√−15)) = ℚ(√5, √−3).** The meeting face is not an independent third thing — it is the

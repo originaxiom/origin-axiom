@@ -10402,3 +10402,69 @@ letters), arithmetic (B334, class field theory) — **and only the geometric one
 **No novelty claimed** — genus theory is Gauss. The content is that a classical fact pins the
 object's third face and no consolidation says so. C7 is **sharpened, not corrected**. 7 locks.
 Gate 5 untouched.
+
+## B1030 (2026-08-11) — the counted input list, audited: one continuous dimensionless input, not zero — and the two fives are different fives
+
+**Occasion, the owner's question:** *is "zero dimensionless inputs" proven, and is every input an
+anchor for something the program in its entirety — with faces and relations — does not contain by
+construct?* Both halves are answerable from the record; answering the second exactly is what
+surfaced the defect.
+
+**The defined term first.** `COMPUTE_THE_PROGRAM` §1: *"compute over the object as FULL RELATIONS,
+never as a single manifold"* — a **quantifier instruction**, with the standing inventory (member ·
+ends · class · sisters · rows · child · **faces** · axioms · algebra · observer), where *faces* is
+B805/B806's eleven **plus the twelfth**, the character-variety / trace-map substrate. So *"the
+object does not contain X by construct"* is a claim at the **widest quantifier the repo defines**;
+B803 makes the member/class gap structural, and **six of 25** pre-B800 closures inverted it.
+
+**The typing, sealed** (B1015's `DECLARATION`): *"the 𝔽₂ bits and the Lie type are **discrete**;
+the scale slot is **A1**; **the one continuous dimensionless input is A2**."* Therefore **four of
+the five counted inputs ARE dimensionless** — the literal claim is **false as stated** — but **all
+four are DISCRETE** (B1017: the VEV direction is *"orbit-valued, not a continuous dimensionless
+parameter"*), finite choices rather than dials, which is why B724 could compute *"2 bits =
+measure-zero in ℝ¹⁹"*. **The count that "parameter-free" is about — CONTINUOUS dimensionless
+inputs — is EXACTLY ONE:** `A2 = c = 6σ`, **declared, sealed and priced as an anchor**, and
+**L154** is the single open cell that would make it an output and the count zero.
+`WHAT_WOULD_COUNT` grades **Tier 4 NOT DONE** and forbids any arc claiming *parameter-free*;
+`THE_CLAIM` §2's *"zero **free** dimensionless parameters"* is a **scoring rule**, not a proof the
+anchor is unnecessary.
+
+**The owner's principle is the programme's own doctrine, and it passes its own first quantitative
+test — with three named exceptions.** B1000's sealed census (declared prior *OUTCOME B, >4*; 25
+hits / 19 arcs; deduped **by referent**; classified **before** totalling) returns **five closings
+across four sectors, no fifth sector** — and grades **three imports ARTIFACT**, *"ours, not the
+object's … reducible in principle"*: the **6d type**, the **filling slope**, **P5 menu
+completeness**.
+
+**THE DEFECT.** `THE_CLAIM` §1's five and B1000's five are **the same size and a different set**.
+`THE_CLAIM` counts *"one Lie type (**the 6d type J**)"* — B1000's **artifact** — and names **no
+space closing anywhere on the page**, while B1000 counts the **4d lift / N=2→N=1 datum** as a
+genuine closing in the space sector. **And the agreement was asserted in both places:** B1017
+closes *"B1000's five-closings census (**confirmed**)"* while its own resource table spends the
+Lie type on the 6d type and gives space **no row at all**; `THE_CLAIM` repeats *"B1000's census of
+five closings stands."* **Error class E1 — the fourth collision this refresh has found**, after
+`θ` naming three objects, `B62 = 2 × P33`, and B939's transposed prose; **all four found by
+diffing two surfaces rather than reading either.**
+
+**Sized honestly: the cardinality is not in question and nothing in the derivation theorem moves.**
+What is wrong is a **membership** claim asserted as agreement — and the direction is the
+*uncomfortable* one for the page, since it means the one-page claim carries as a **hypothesis** an
+input its own census calls **reducible**.
+
+**Adjudication deliberately NOT attempted.** B1000's own scope sentence calls the
+closing-vs-artifact split *"a **JUDGEMENT** … a different reading of any one of the three
+artifacts would move the count."* A drafting seat must not settle it by choosing a wording.
+**Registered as L157**, with both branches stated as results. `THE_LADDER`'s **X23** gains the ⚠:
+three surfaces give the 6d type three different statuses (*free input* / *artifact* / *counted
+hypothesis*).
+
+**Repaired here (drafting only, cited):** `THE_CLAIM`'s quoted one-sentence claim still said
+*"four typed external data"* against §1's five — B1017 propagated its 4 → 5 correction into the
+hypothesis paragraph and not into the sentence people quote.
+
+**25 mechanical checks, each naming the file and phrase it reads; 9 locks.** No mathematics
+asserted or disturbed; Gate 5 untouched; zero anchors; nothing to `CLAIMS.md`.
+**Self-correction in-arc:** two false negatives from matching sentences against hard-wrapped
+*lines*, and a third where a whole-file search for the space closing began failing **because the
+arc wrote the finding into the file it was searching** — the same shape as the coverage error this
+refresh already had to retract, so it is pinned in the lock rather than just fixed.

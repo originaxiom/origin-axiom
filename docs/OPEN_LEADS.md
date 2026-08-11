@@ -1545,3 +1545,36 @@ any downstream use.
 ## L156 — CARRY B332 INTO THE_FRAMEWORK LAYER 1 (registered 2026-08-11; B1027)
 
 **The gap:** `THE_FRAMEWORK` Layer 1 presents the two-ended structure (ℚ(√−3)/E₆ ↔ ℚ(√5)/E₈) as geometry, citing the cone-angle transition. **B332 derives it from the two letters directly** — *"R·L has disc 5 (ℚ(√5), E₈) and −R·L⁻¹ = g has disc −3 (ℚ(√−3), E₆)"* — i.e. **the two ends are the product and the ratio of the founding substitution's letters**, and no curated surface carries it. **The cell:** re-verify both discriminants, then add the row. Cheap; the risk is only that B332's own correction of an inverted handoff labelling must be carried with it.
+
+## L157 — WHICH FIVE? THE COUNTED INPUT LIST vs B1000's CENSUS (registered 2026-08-11; B1030)
+
+**The collision, exact and mechanical.** `THE_CLAIM` §1's five typed external data and B1000's
+five closings have the **same cardinality and different membership**:
+
+| | B1000's census | `THE_CLAIM` §1 |
+|---|---|---|
+| **the 6d type** | **ARTIFACT** — *"a choice of the class-S bridge, not a deficit of the object"* (B277) | **counted as a hypothesis** — *"one Lie type (the 6d type J)"* |
+| **the 4d lift / N=2→N=1 datum** | **CLOSING**, the space sector — B716 *"no canonical 4d filling"* | **absent from the page entirely** |
+
+**And the agreement was asserted, twice:** B1017 closes *"B1000's five-closings census
+(confirmed)"* while its own resource table spends the Lie type on the 6d type and gives space no
+row; `THE_CLAIM` repeats *"B1000's census of five closings stands."*
+
+**Why this is a lead and not a drafting fix.** B1000's own scope sentence says the
+closing-vs-artifact split is *"a **JUDGEMENT**, made before the total per the seal, and a
+different reading of any one of the three artifacts would move the count."* A seat that settles
+it by choosing a wording has decided a graded question with prose. **Both branches are results:**
+
+- **The 6d type is a genuine closing** ⟹ B1000's artifact list shrinks to two, and the *space*
+  closing is a **sixth** input that no counted list carries — the interface is larger than stated.
+- **The 6d type is an artifact** ⟹ `THE_CLAIM`'s hypothesis list carries a **reducible bridge
+  choice** as a cost, and the honest list is *four typed data + one named debt + the space
+  closing* — the derivation theorem's hypotheses get **harder to defend as written and easier to
+  discharge in principle**, which is the more interesting outcome.
+
+**The cell:** decide the classification of the 6d type against B277's own statement (*"the fiber
+fixes the surface and monodromy, **not the type**"*) and against whether the 4d lift and the 6d
+type are one datum or two, then rewrite **one** counted list and cite it from the other. **Cheap,
+adjudication-shaped, and it touches no mathematics.** Note also that `CAMPAIGN_STATUS` line 56 and
+**L151 above** quote the pre-B1017 count (L151's list omits the VEV direction entirely) — they are
+dated entries, but a reader arriving at L151 first will read a four-item list as current.

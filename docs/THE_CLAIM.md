@@ -70,7 +70,15 @@ tone↔Hermitian junction) and L149 (the endpoint control) as its gating computa
 
 ---
 
-**The one-sentence claim.** *Given four typed external data and at most two declared anchors, a
+**The one-sentence claim.** *Given five typed external data and at most two declared anchors, a
 single forced combinatorial object determines the Standard Model's structural skeleton — including
 a global-form refinement the SM cannot fix about itself — determines no dimensionful quantity by
 theorem, and leaves exactly one tested wall, on which it names its own next test.*
+
+*(**four → five here, 2026-08-11, B1030.** B1017 corrected the count in §1 and did not carry it
+into the sentence that gets quoted, so this page stated both numbers for a day. **And the list's
+composition is now itself a registered open item (L157):** §1's fifth member is the **6d type**,
+which **B1000 grades an ARTIFACT** — *"a choice of the class-S bridge, not a deficit of the
+object"* — while B1000's own five closings include the **4d lift / N=2→N=1 datum**, which appears
+nowhere on this page. **Same cardinality, different set**; the count is not in question, the
+membership is.)*

@@ -38,6 +38,17 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 
 > **Currency note (2026-08-10, B1009–B1019).** The Review-42 re-grades of X1/X2 were **verified by the post-switch audit (B1009)** — quotes verbatim, grades stand. **The wall re-sort (B1013)** touches the BOUNDED section: rank (X19) and the 27-VEV (X24) now carry their sort — SPECIFICATION — and **B1017's recount** makes X10/X24 one named thing: *the unsourced fifth input*, the interface's single remaining un-derived slot. **The endpoint-discrimination gap has its sealed test in flight**: B1019 (L149, the silver cascade — entry map computed, not chosen).
 >
+> **Currency read (2026-08-11, B1030) — the rung that is easiest to misread off this ladder.**
+> The input list is **typed**, and the typing decides what "parameter-free" can mean here: of the
+> five counted external data, **four are dimensionless and all four are DISCRETE** (B1015's sealed
+> declaration; B1017 types the VEV direction *"orbit-valued, not a continuous dimensionless
+> parameter"*), one is **dimensionful** — everyone's. **The framework's only CONTINUOUS
+> dimensionless input is `A2 = c = 6σ`, a declared and priced anchor**, and **L154 is the single
+> open cell that would convert it to an output.** So *"zero dimensionless inputs"* is **false as
+> stated**, *"zero continuous dimensionless inputs"* is **one lead away, not banked**, and
+> `WHAT_WOULD_COUNT` still grades **Tier 4 NOT DONE**. **X23 gains a ⚠**: the membership of the
+> counted list is itself open (**L157**).
+>
 > **Staleness note, second instance (2026-08-09, Review 42).** **Two BLIND rungs had computed arcs
 > behind them** — X1 (B725, cited in its own row) and X2 (B559, **cited nowhere in this file or
 > `LAW_MAP.md`**). BLIND means *"never asked"*, and both had been asked. **The failure mode is the
@@ -79,7 +90,7 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 | **X20** | matter mass from the adjoint | **78 ∉ 27 ⊗ 27** (B978/V5) |
 | **X21** | **scale** | **amphichirality forces CS = 0**, which deletes the integer-quantized term `k·I_CS` from Gukov's `k·I_CS + iσ·I_grav`, leaving only the **unquantized** σ (with `G_N = 1/4σ`). *Normalisation check owed before this is a claim* |
 | **X22** | time · 4d · Lorentzian signature | all the observer's; **no canonical Wick rotation** (B716); thermal time fails on identity — tracial II₁, **trivial modular flow** (B721) |
-| **X23** | the 4d lift | **exists and is canonical** (B277, monodromy **φ = RL** — A7's bit), but is **N=2 (non-chiral)** and the **6d type is a free input** |
+| **X23** | the 4d lift | **exists and is canonical** (B277, monodromy **φ = RL** — A7's bit), but is **N=2 (non-chiral)** and the **6d type is a free input**. **⚠ THREE SURFACES, THREE STATUSES (B1030, registered L157):** this rung calls the 6d type *a free input*; **B1000 grades it an ARTIFACT** — *"a class-S bridge choice, **not a deficit of the object**"*, hence reducible in principle — and **`THE_CLAIM` §1 counts it as one of the five typed external data**, i.e. as a cost of the derivation theorem. Meanwhile **the 4d lift itself is one of B1000's five closings** and appears in **no counted input list on any curated surface**. Same number, different set; **the count is not in question, the membership is** |
 | **X24** | the 27-VEV | input in every framework, canonical nowhere — 𝕆P² homogeneous (B962). **= X10's unsourced fifth input after B1017's recount**; sort: SPECIFICATION (B1013) |
 
 ## E. OPEN — live surfaces with a runnable computation

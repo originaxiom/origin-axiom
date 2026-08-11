@@ -925,6 +925,37 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1030": {
+   "slug": "input typing audit",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B277",
+    "B300",
+    "B62",
+    "B716",
+    "B717",
+    "B724",
+    "B800",
+    "B803",
+    "B805",
+    "B806",
+    "B939",
+    "L151",
+    "L154",
+    "L157",
+    "P33",
+    "P5"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 22,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

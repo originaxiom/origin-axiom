@@ -30,7 +30,7 @@ complement, trace field `ℚ(√−3)`, minimal volume, unique hyperbolic struct
 | **A1–A6** | two records · invertible over ℤ · orientation-preserving · one primitive move each · first *mixed* torsion-free closure · minimality. **144 → 1** (`UNIQUENESS_THEOREM.md`) |
 | **A7** | the residual bit: A1–A6 cannot distinguish `LR` from `RL`. **B979: A7 is exactly where φ enters** — the Möbius fixed-point polynomial is a *based*, not a class, invariant |
 | **the exchange axiom** | **`P` (the record swap) is NOT forced by A1–A6** — B16: *"that axiom is plausible, but it is still an axiom."* It is what makes the half-step `F = LP`, `F² = A` exist, hence the **trace map** — which the atlas measures at **45 % of all probes**. **B1026** |
-| **five typed external data** | two 𝔽₂ bits (time's arrow; chirality = τ), one scale, one Lie type, one rank-closing VEV direction. **The fifth is unsourced** (B1017) |
+| **five typed external data** | two 𝔽₂ bits (time's arrow; chirality = τ), one scale, one Lie type, one rank-closing VEV direction. **The fifth is unsourced** (B1017). **Four are dimensionless and all four are DISCRETE; the scale is dimensionful** (B1015's sealed typing). **Which five is itself open — L157/B1030** |
 
 **Read the third row carefully.** `THE_CLAIM.md`'s counted list is *"A1–A6 + A7 + five typed
 external data"*. The exchange axiom is not in it. **It does not disturb the derivation theorem**
@@ -64,6 +64,14 @@ external data"*. The exchange axiom is not in it. **It does not disturb the deri
 
 **"Parameter-free" means zero free *dimensionless* parameters** — the target is countable: **19**.
 **One dimensionful anchor is everyone's** and taking it is the correct end state, not a failure.
+
+> **The question that gets asked first, answered exactly (B1030).** *Are there zero dimensionless
+> inputs?* **No.** Four of the five counted inputs are dimensionless — but **all four are
+> DISCRETE**, finite choices rather than dials, which is why B724 could compute that *"2 bits =
+> measure-zero in ℝ¹⁹"*. The count that "parameter-free" is actually about — **continuous**
+> dimensionless inputs — is **exactly one**: `A2 = c = 6σ`, **declared, sealed and priced as an
+> anchor** (B1015), and **L154 is the single open cell that would make it an output and the count
+> zero.** So the claim is *one lead away from being sayable, and is not sayable today.*
 
 ## 5. THE FIVE TRAPS THAT HAVE ACTUALLY COST ARCS
 
