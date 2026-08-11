@@ -13,7 +13,7 @@ A single substitution `σ` builds two `2×2` integer matrices `R, L` (the genera
 their **ratio** are the two arithmetic ends of the whole program: `RL` (trace 3) generates `ℚ(√5)` → E₈ (the golden /
 monodromy end), and `−R·L⁻¹` — which **equals** the order-3 element `g` that permutes the three matter generations —
 generates `ℚ(√−3)` → E₆ (the Eisenstein / gauge-and-generation end). The object forces all the dimensionless
-**structure** (the gauge group E₆, the 27, three generations, a democratic Yukawa) but leaves the **values** (the mass
+**structure** (the gauge group E₆, the 27, a democratic Yukawa) — and the **generation structure is STRUCTURAL, not forced** *(grade corrected 2026-08-11 by B1036: this read "forces … three generations", against this document's own §8 open gate **C — multiplicity → generations**, and against every current surface. `THE_CLAIM` §1 grades it **STRUCTURAL**, a named debt inside a closed proof; `SM_SPECIFICATION_LEDGER` says "structural, count matches" with the orbit↔generation bijection **unverified**; B302 **locates** the ℤ/3 in the commensurator — locating, not deriving — and B307 forbids the single-knot trace-field route outright. Two caveats travel with any statement of this (`THE_LADDER` X33): the **registerability circularity** (B994) and the **typing wall** (zero coupling for identical families))* — but leaves the **values** (the mass
 hierarchy, the CP sign) behind a wall. This document shows what that wall is *made of*: the two ends live in two
 quadratic fields that share only `ℚ`; a value would be an element of their compositum `ℚ(√5,√−3)`; and while that
 compositum is exactly the **Hilbert class field of the seam `ℚ(√−15)`** (so the object completes its own seam), the

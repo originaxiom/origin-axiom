@@ -23,8 +23,10 @@ work B13–B47 otherwise remains frontier only.
 > **Frontier navigational pointer.** Until 2026-07-03 none of the frontier work was promoted; the
 > §5.1 audit changed that — its mathematics-tier results now sit above as P17–P55 / C6–C12 / E1–E15,
 > each through the `§5` gates. What remains *unpromoted* (physics-boundary rows, computer-assisted
-> evidence, exploratory arcs) is deliberately not here, by the firewall and the bar. For the honestly-labelled frontier results see: `knowledge/K020` (the current headline — the
-> structural theorem as a Galois theorem), `docs/OPEN_PROBLEMS.md` (the current frontier — four gates),
+> evidence, exploratory arcs) is deliberately not here, by the firewall and the bar. For the honestly-labelled frontier results see: `knowledge/K020` (**the structural theorem as a Galois
+> theorem, consolidated at B325** — *re-labelled 2026-08-11 by B1036: this read "the current
+> headline", a currency claim aimed at a document whose newest anchor is 710 arcs back. For the
+> current state see `docs/THE_CLAIM.md` and `docs/LAW_MAP.md`, both current to the frontier*), `docs/OPEN_PROBLEMS.md` (the current frontier — four gates),
 > `CHANGELOG.md` (recent history), `ROADMAP.md` (the Phase B probe table), `papers/metallic_one_object/
 > SYNTHESIS.md` (the four-faces map), `papers/VALIDATION_LEDGER.md` (`V1…V238`), `docs/OPEN_LEADS.md`
 > (`L1…L50`), and `speculations/` (the firewalled physics readings).

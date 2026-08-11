@@ -10760,3 +10760,71 @@ L159's rename. This arc makes the debt countable, not settled.
 ADVANCE:** `verify.py` imports `origin_axiom` to check the core, which would have made it the
 **seventh importer of the thing whose six importers are the finding**. The exclusion is written at
 the top of the script rather than discovered by a failing check.
+
+## B1036 (2026-08-11) — the knowledge room: the firewall runs backwards in five places
+
+**THE POSITIVE RESULT FIRST**, because it is what the sweep was built to falsify. **The
+contradiction hunt is clean:** **0 of the 10** registered phrases in `RETRACTED_PHRASES.md` appear
+anywhere in the room, and **every applicable retraction is already carried in-line** — K009 states
+*"this **corrects B123/K009**"*, K015 marks its chirality headline *"a sampling artifact,
+withdrawn"*, K017 says *"the arithmeticity arm is **REFUTED as stated**"*. **The room's
+mathematical hygiene is good.**
+
+**THE PRIMARY FINDING.** `knowledge/GOVERNANCE.md` says an explainer is *"**never a premise of a
+proof**"* — and **nothing enforces it**: `firewall-oneway` tests exactly three strings
+(`gates.py:119` — `speculations/`, `philosophy/`, `story/`) and **`knowledge/` is not among them**.
+**Five breaches:**
+
+1. **`SEAL_LEDGER:461` — a SEALED preregistration.** B812's prereg, defining its axes as *"the
+   programme's OWN proved walls"*, reads *"excluded by **K018**"*. **A sealed document cannot be
+   amended.** Real authority: B164/B167/B168/B169.
+2. **`LAW_MAP:149`** — K020 **names** the row, **authorises the grade** *"**THEOREM** (K020)"*, and
+   is listed **ahead of the arc** B642. The theorem is B285/B314's.
+3. `HINT_LEDGER` H50 — K006/K018 as **numbered premises** of an adjudication that banked a verdict.
+4. `LAW_MAP:99` — a law whose **name is a K-entry**. 5. `STRATEGIC_SYNTHESIS:47` — *"verified
+   against K006"*.
+
+> **The mechanism, not sloppiness: every breach cites K006, K018 or K020 — the three entries that
+> consolidate a whole arc cluster. The five anchored to a single named result are never misused.**
+
+**TWO GATE HOLES.** `gate_knowledge_index` builds `indexed` from `\bK(\d{3})\b` over the whole
+file — **a bullet indexes as well as a row**, and K026 *was* a bullet while the gate was green; and
+`on_disk` matches only `K\d{3}_*.md`, so the room's **two unnumbered documents can never trigger
+drift**.
+
+**A FIFTH E1, in exactly those two ungated documents.** `THE_UNIQUENESS_ATLAS` quotes *"topological
+entropy log φ² = 2 log φ"* **[banked]**; `THE_GOLDEN_CAT_MAP_PRINCIPLE` quotes *"Lyapunov **4 log
+φ** = its metric entropy"*. **Recomputed:** `A` has eigenvalue **φ²**, so `h_top = 2 log φ`, and
+**4 log φ is exactly twice it**. **A convention gap, not an error** — `h = Σλ⁺` versus the sum of
+`|λ|` over both directions — **declared by neither**. Shape of `B62 = 2 × P33`.
+
+**K021's grade corrected against its own §8.** It said the object *"**forces** … three
+generations"* while its **own §8 lists `C — multiplicity → generations` as an open gate**, and every
+current surface grades it **STRUCTURAL**. Softened in place with the citation and X33's two caveats.
+*Not* a contradiction with B307 — K021 §3 and K020 §8 both correctly place the ℤ/3 in the
+commensurator.
+
+**REPAIRED (drafting, each citing the arc).** **Three documents stated the room's size; all three
+were wrong** while the gate stayed **green** — it validates *rows*, these are *prose*: INDEX said
+*"K001–K020"*, GOVERNANCE said **both** *"K001…K009"* **and** *"WRITTEN (K001–K010) — all ten
+explainers exist"* (frozen at the B124 refresh), ARCHITECTURE said *"K001–K022"*, against **26**.
+The index rendered as one table, then **nine orphan pipe-lines**, then a bullet — now one
+contiguous 26-row table. And **`CLAIMS.md` sent readers to *"K020 (the current headline)"*** —
+newest anchor **B325**, 710 arcs back — re-labelled to what it is. *Not a firewall breach:* CLAIMS
+points **outward** to what it does not claim. A **currency** defect, unchecked because *"current"*
+is prose.
+
+**WHAT DECAYS, MEASURED.** **7 STANDARD** (K001–K007) whose old anchors are **not** evidence of
+decay, and **19 decay-eligible** with **median newest anchor B197**, **12 of 19 below B250**.
+Reporting one room-wide number without that split would have repeated B1030's own finding.
+
+**28 checks · 11 locks · 26 gates green. L161 registered** — the gate holes, the five breaches, the
+missing `LIVING` entry, and the **K009/K016 duplicate slug**; all one-line gate changes, i.e. the
+owner's.
+
+**Self-correction — ninth instance of one hazard in eight arcs, and the sharpest: repairing the
+index moved the very number that motivated the repair.** INDEX was the **oldest of the nine sweep
+surfaces** (B483, 551 arcs behind the next); the new K026 row carries **B917**. Every freshness
+figure is measured with this arc's lines removed. **And a second:** the first retracted-phrase
+sweep used a smart-quote regex, found **two** phrases, and **was caught by its own lock** demanding
+at least five — MB12, *a criterion that cannot fail is not a test*.

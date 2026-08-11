@@ -1677,3 +1677,54 @@ share a byte-identical kernel (B930/B935 and the B928/B938 cluster), their agree
 independent evidence**. That is a limit on how cross-arc agreement may be read, not a defect in any
 arc — and it argues for (a) or (b) over (c), since a *shared* kernel that is *declared* can at
 least be tested once for all its consumers.
+
+## L161 — THE KNOWLEDGE ROOM'S RULE IS PROSE-ONLY: FIVE BREACHES, TWO GATE HOLES (registered 2026-08-11; B1036)
+
+**The rule.** `knowledge/GOVERNANCE.md`: *"Nothing here promotes to `../CLAIMS.md` … it introduces
+no new result and is **never a premise of a proof**."*
+
+**Nothing enforces it.** `firewall-oneway` tests exactly three strings (`gates.py:119`) —
+`speculations/`, `philosophy/`, `story/`. **`knowledge/` is not among them**, and neither are
+`paths/` or `legacy/`, which carry equally strong prose rules (legacy's is in root `GOVERNANCE.md`).
+
+**The five breaches, in severity order:**
+
+| # | locus | what it does |
+|---|---|---|
+| 1 | `docs/SEAL_LEDGER.md:461` | a **SEALED preregistration** (B812) names *"excluded by **K018**"* as an axis authority. **A sealed document cannot be amended.** Real authority: B164/B167/B168/B169 |
+| 2 | `docs/LAW_MAP.md:149` | K020 **names** the row, **authorises the grade `THEOREM (K020)`**, and is listed **ahead of the arc** B642. The theorem is B285/B314's |
+| 3 | `docs/HINT_LEDGER.md` H50 | K006 and K018 as **numbered premises** of an adjudication that produced a banked verdict |
+| 4 | `docs/LAW_MAP.md:99` | a law whose **name is a K-entry** (*"K020-in-the-ear"*); grade PLACEMENT, so weaker |
+| 5 | `docs/STRATEGIC_SYNTHESIS.md:47` | *"**verified against** `knowledge/K006`"* — makes an explainer the reference standard |
+
+**The mechanism, and it is not sloppiness.** *Every* breach cites **K006, K018 or K020** — the three
+entries that consolidate a whole arc cluster. Those are the citable ones. **The entries anchored to
+a single named result (K005, K009, K011, K015, K017) are never misused.** Consolidation is what
+makes an explainer usable as a premise.
+
+**Two gate holes, both structural** (`gate_knowledge_index`, `gates.py:395`):
+- **Mention, not row.** `indexed` is `re.findall(r"\bK(\d{3})\b", body)` over the *whole* file, so a
+  bullet — or a passing mention in prose — satisfies the gate exactly as well as a table row. K026
+  was a bullet with no link and the gate was green.
+- **`K\d{3}`-scoped.** `on_disk` matches only `K\d{3}_*.md`, so
+  `THE_GOLDEN_CAT_MAP_PRINCIPLE.md` and `THE_UNIQUENESS_ATLAS.md` **can never trigger index drift,
+  however stale they become** — and they are where B1036 found a factor-of-2 entropy collision.
+
+**And `knowledge/INDEX.md` is not in `doc_currency.py`'s `LIVING` set at all**, so no gate reads its
+currency either — while it is **one of the nine surfaces `representation_sweep.py` consults**, and
+the **oldest of them** (newest anchor B483, 551 arcs behind the next).
+
+**The decisions, none taken here — each is a one-line change to a gate, i.e. the owner's** (the
+L159/L160 pattern):
+**(a)** add `"knowledge/"` to the `firewall-oneway` string list — cheapest, and it would fail
+immediately on the five breaches above, so it needs them repointed first (each has a real arc
+authority ready: B164/B167/B168/B169 for K018, B285/B314 for K020, B277/B487 territory for K006);
+**(b)** tighten `gate_knowledge_index` to require a **table row** and to cover **every `.md` in the
+room**, not just `K\d{3}`;
+**(c)** add `knowledge/INDEX.md` to `LIVING` — but the tolerance has to follow a decision about
+what the room is *for*: at lag 551 it fails on day one, and **whether the lexicon should track the
+late corpus at all is not a drafting question.**
+
+**Also parked here:** **K009 and K016 share the filename slug `m1_selection_criteria.md`** and the
+same subject, K016 self-described as extending *"the scattered notes in `K009`"* — and K009 was
+never retired.

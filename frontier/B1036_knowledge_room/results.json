@@ -1,0 +1,360 @@
+{
+ "checks": {
+  "the_room_holds_26_explainers": {
+   "pass": true,
+   "n": 26
+  },
+  "all_three_size_statements_now_match_the_room": {
+   "pass": true,
+   "files": [
+    "knowledge/INDEX.md",
+    "knowledge/GOVERNANCE.md",
+    "ARCHITECTURE.md"
+   ]
+  },
+  "and_each_repair_cites_the_arc_that_made_it": {
+   "pass": true
+  },
+  "governance_no_longer_carries_two_ranges_at_once": {
+   "pass": true
+  },
+  "the_knowledge_index_gate_is_green_right_now": {
+   "pass": true,
+   "n_on_disk": 26,
+   "n_indexed": 26
+  },
+  "HOLE_1_the_gate_counts_a_mention_not_a_row": {
+   "pass": true,
+   "why": "a bullet satisfies the gate exactly as well as a table row"
+  },
+  "HOLE_2_unnumbered_room_documents_are_invisible_to_the_gate": {
+   "pass": true,
+   "docs": [
+    "THE_GOLDEN_CAT_MAP_PRINCIPLE.md",
+    "THE_UNIQUENESS_ATLAS.md"
+   ]
+  },
+  "they_are_now_at_least_listed_even_though_the_gate_still_cannot_see_them": {
+   "pass": true,
+   "docs": [
+    "THE_GOLDEN_CAT_MAP_PRINCIPLE.md",
+    "THE_UNIQUENESS_ATLAS.md"
+   ]
+  },
+  "the_index_is_now_one_contiguous_table_with_no_orphan_rows": {
+   "pass": true,
+   "table_block": [
+    10,
+    37
+   ],
+   "orphan_single_pipe_lines": 0,
+   "delimiter_rows": 2
+  },
+  "and_K026_is_a_row_now": {
+   "pass": true
+  },
+  "the_room_splits_into_seven_standard_and_the_rest_own": {
+   "pass": true,
+   "standard": 7,
+   "own_or_mixed": 19
+  },
+  "standard_entries_old_anchors_are_NOT_evidence_of_decay": {
+   "pass": true,
+   "note": "Fricke/character variety, metallic continued fractions, Dickson/Chebyshev, Dehn filling, -w0, 3d-3d, KKT/Suto - textbook mathematics; the B-numbers are pointers to where the project USES the standard fact, not the substance"
+  },
+  "the_decay_eligible_half_is_anchored_far_back": {
+   "pass": true,
+   "median_newest_anchor": 197,
+   "below_B250": 12,
+   "of": 19,
+   "corpus_at": 1036
+  },
+  "the_current_headline_label_is_gone_from_the_proven_register": {
+   "pass": true
+  },
+  "and_the_pointer_now_says_what_it_actually_is": {
+   "pass": true
+  },
+  "but_K020s_newest_anchor_is_hundreds_of_arcs_back": {
+   "pass": true,
+   "k020_newest": 325,
+   "corpus_at": 1036
+  },
+  "and_that_is_a_currency_defect_not_a_firewall_breach": {
+   "pass": true,
+   "why": "CLAIMS points outward to what it does NOT claim - the firewall working as designed"
+  },
+  "knowledge_INDEX_is_the_oldest_of_the_nine_sweep_surfaces": {
+   "pass": true,
+   "knowledge_index": 483,
+   "next_oldest": 937,
+   "newest_surface": 1035
+  },
+  "so_it_can_only_answer_represented_for_the_era_the_filter_already_ignores": {
+   "pass": true,
+   "note": "B1033: zero pre-B800 arcs can clear the substantiality filter; the weakest sweep surface is silent about everything after B483"
+  },
+  "two_entries_share_a_filename_slug_and_a_topic": {
+   "pass": true,
+   "duplicate_slugs": {
+    "m1_selection_criteria.md": [
+     "K009",
+     "K016"
+    ]
+   }
+  },
+  "the_room_forbids_being_used_as_a_premise": {
+   "pass": true
+  },
+  "but_the_firewall_gate_does_not_cover_this_room": {
+   "pass": true
+  },
+  "BREACH_1_an_explainer_carries_a_THEOREM_grade_on_the_law_register": {
+   "pass": true,
+   "row": "**Form forced, value Galois-chosen (K020)**",
+   "grade": "**THEOREM** (K020)",
+   "witnesses": "K020; B642; L74/L67",
+   "why": "K020 names the row, authorises the grade, and is listed AHEAD of the arc B642"
+  },
+  "BREACH_2_a_SEALED_preregistration_cites_an_explainer_as_its_authority": {
+   "pass": true,
+   "why": "a sealed document cannot be amended; the real authority is B164/B167/B168/B169"
+  },
+  "K021_says_the_object_FORCES_three_generations": {
+   "pass": true
+  },
+  "while_its_own_section_8_lists_that_step_as_an_OPEN_gate": {
+   "pass": true
+  },
+  "and_every_current_surface_grades_it_STRUCTURAL": {
+   "pass": true
+  },
+  "the_two_ungated_docs_quote_entropies_differing_by_exactly_two": {
+   "pass": true,
+   "golden_cat_map": "Lyapunov 4 log φ = its metric entropy",
+   "uniqueness_atlas": "log φ² = 2 log φ",
+   "both_marked_banked": true
+  },
+  "and_the_arithmetic_is_exact__4logphi_is_twice_log_of_A_s_eigenvalue": {
+   "pass": true,
+   "A_eigenvalue": "phi^2",
+   "h_top_of_A": 0.9624236501192069,
+   "quoted": 1.9248473002384139,
+   "diagnosis": "a convention gap, not an error: h = sum of POSITIVE Lyapunov exponents gives 2 log phi; the sum of |exponents| over both directions gives 4 log phi. Neither document declares which. Same shape as B62 = 2 x P33 (B1026)"
+  },
+  "NO_retracted_phrase_appears_anywhere_in_the_room": {
+   "pass": true,
+   "n_phrases_checked": 10,
+   "phrases": [
+    "the object does not supply a VEV",
+    "stops one step short",
+    "the first 25-digit Maass eigenvalue",
+    "the golden power",
+    "no intermediate regime",
+    "the object is hyperbolic",
+    "measurement = the β=1 SSB",
+    "chirality and rank compete for one resource",
+    "one contested bit",
+    "measurement=the β=1 SSB"
+   ],
+   "hits": []
+  }
+ },
+ "numbers": {
+  "k_files": 26,
+  "corpus_at": 1036,
+  "standard": [
+   "K001",
+   "K002",
+   "K003",
+   "K004",
+   "K005",
+   "K006",
+   "K007"
+  ],
+  "own_or_mixed": 19,
+  "median_own_newest_anchor": 197,
+  "own_below_B250": 12,
+  "k020_newest": 325,
+  "sweep_surface_freshness": {
+   "docs/LAW_MAP.md": 1035,
+   "docs/THE_SM_VERDICT.md": 1026,
+   "docs/SM_SPECIFICATION_LEDGER.md": 1017,
+   "docs/GUT_REQUIREMENTS_LEDGER.md": 952,
+   "docs/CAMPAIGN_STATUS.md": 1035,
+   "docs/OPEN_LEADS.md": 1035,
+   "docs/OPEN_PROBLEMS.md": 1009,
+   "docs/HINT_LEDGER.md": 937,
+   "knowledge/INDEX.md": 483
+  },
+  "unnumbered_docs": [
+   "THE_GOLDEN_CAT_MAP_PRINCIPLE.md",
+   "THE_UNIQUENESS_ATLAS.md"
+  ],
+  "duplicate_slugs": {
+   "m1_selection_criteria.md": [
+    "K009",
+    "K016"
+   ]
+  },
+  "per_entry": {
+   "K001": {
+    "file": "K001_trace_map_character_variety.md",
+    "anchors": 10,
+    "newest": 151,
+    "class": "STANDARD"
+   },
+   "K002": {
+    "file": "K002_metallic_family_continued_fractions.md",
+    "anchors": 9,
+    "newest": 125,
+    "class": "STANDARD"
+   },
+   "K003": {
+    "file": "K003_dickson_tower.md",
+    "anchors": 10,
+    "newest": 124,
+    "class": "STANDARD"
+   },
+   "K004": {
+    "file": "K004_figure_eight_dehn_filling_apolynomials.md",
+    "anchors": 11,
+    "newest": 153,
+    "class": "STANDARD"
+   },
+   "K005": {
+    "file": "K005_opposition_involution_root_systems.md",
+    "anchors": 9,
+    "newest": 121,
+    "class": "STANDARD"
+   },
+   "K006": {
+    "file": "K006_3d3d_correspondence.md",
+    "anchors": 6,
+    "newest": 151,
+    "class": "STANDARD"
+   },
+   "K007": {
+    "file": "K007_fibonacci_hamiltonian_quasicrystal.md",
+    "anchors": 2,
+    "newest": 160,
+    "class": "STANDARD"
+   },
+   "K008": {
+    "file": "K008_tower_determined_by_seed.md",
+    "anchors": 12,
+    "newest": 232,
+    "class": "OWN/MIXED"
+   },
+   "K009": {
+    "file": "K009_m1_selection_criteria.md",
+    "anchors": 9,
+    "newest": 125,
+    "class": "OWN/MIXED"
+   },
+   "K010": {
+    "file": "K010_metallic_schrodinger_cocycle.md",
+    "anchors": 11,
+    "newest": 160,
+    "class": "OWN/MIXED"
+   },
+   "K011": {
+    "file": "K011_chirality_recursion.md",
+    "anchors": 5,
+    "newest": 140,
+    "class": "OWN/MIXED"
+   },
+   "K012": {
+    "file": "K012_sln_tower_sealed.md",
+    "anchors": 6,
+    "newest": 141,
+    "class": "OWN/MIXED"
+   },
+   "K013": {
+    "file": "K013_no_forced_choice.md",
+    "anchors": 3,
+    "newest": 130,
+    "class": "OWN/MIXED"
+   },
+   "K014": {
+    "file": "K014_choice_from_heterogeneity.md",
+    "anchors": 6,
+    "newest": 134,
+    "class": "OWN/MIXED"
+   },
+   "K015": {
+    "file": "K015_chirality_arithmetic_field_fusion.md",
+    "anchors": 7,
+    "newest": 134,
+    "class": "OWN/MIXED"
+   },
+   "K016": {
+    "file": "K016_m1_selection_criteria.md",
+    "anchors": 7,
+    "newest": 197,
+    "class": "OWN/MIXED"
+   },
+   "K017": {
+    "file": "K017_chirality_is_contingent.md",
+    "anchors": 9,
+    "newest": 147,
+    "class": "OWN/MIXED"
+   },
+   "K018": {
+    "file": "K018_firewall_robust_across_modes.md",
+    "anchors": 15,
+    "newest": 169,
+    "class": "OWN/MIXED"
+   },
+   "K019": {
+    "file": "K019_collective_metallic_spectrum.md",
+    "anchors": 13,
+    "newest": 200,
+    "class": "OWN/MIXED"
+   },
+   "K020": {
+    "file": "K020_structural_theorem_galois.md",
+    "anchors": 38,
+    "newest": 325,
+    "class": "OWN/MIXED"
+   },
+   "K021": {
+    "file": "K021_the_founding_identity.md",
+    "anchors": 20,
+    "newest": 1036,
+    "class": "OWN/MIXED"
+   },
+   "K022": {
+    "file": "K022_the_symmetric_centre.md",
+    "anchors": 16,
+    "newest": 346,
+    "class": "OWN/MIXED"
+   },
+   "K023": {
+    "file": "K023_the_recurrence_atlas.md",
+    "anchors": 5,
+    "newest": 332,
+    "class": "OWN/MIXED"
+   },
+   "K024": {
+    "file": "K024_the_forcing_map.md",
+    "anchors": 10,
+    "newest": 483,
+    "class": "OWN/MIXED"
+   },
+   "K025": {
+    "file": "K025_the_one_root_and_the_held_slot.md",
+    "anchors": 10,
+    "newest": 517,
+    "class": "OWN/MIXED"
+   },
+   "K026": {
+    "file": "K026_the_measurement_cascade.md",
+    "anchors": 17,
+    "newest": 917,
+    "class": "OWN/MIXED"
+   }
+  }
+ },
+ "all_pass": true
+}

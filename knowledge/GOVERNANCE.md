@@ -1,14 +1,12 @@
 # `knowledge/` — governance
 
-This folder holds **self-contained explainers** — `K001…K009` — each a standalone introduction to one piece of
+This folder holds **self-contained explainers** — `K001…K026` — each a standalone introduction to one piece of
 background the project rests on, written so a reader can understand the concept *without* first reading the
 `frontier/` probes. It is the "textbook layer."
 
-> **Status: WRITTEN (K001–K010).** All ten explainers exist (the layer was completed in the B124 documentation
-> refresh). `K001`–`K007` are the standard-background pieces (trace map / character variety; the metallic family;
-> the Dickson tower; the figure-eight / Dehn filling / A-polynomials; the opposition involution; the 3d-3d
-> correspondence; the Fibonacci/quasicrystal trace map); `K008`–`K009` are the project's own consolidations (the
-> `(n;trace,det)` determination; why `m=1` is special). New `K`-docs append with a row in `INDEX.md`.
+> **Status: WRITTEN (K001–K026).** *(Corrected 2026-08-11 by B1036. This block had said **"WRITTEN (K001–K010) — all ten explainers exist"** since the B124 documentation refresh, while the prose above it said `K001…K009` and 26 files sat on disk — three ranges in one file, none of them right, and no gate able to see it: `knowledge-index` validates ROWS in `INDEX.md`, and these are prose.)*
+>
+> **The split that decides what can go stale.** `K001`–`K007` are the **standard-background** pieces (trace map / character variety; the metallic family; the Dickson tower; the figure-eight / Dehn filling / A-polynomials; the opposition involution; the 3d-3d correspondence; the Fibonacci/quasicrystal trace map). **These do not decay** — their `B`-anchors point at where the project *uses* a textbook fact, not at the fact. `K008`–`K026` are **the project's own consolidations** and age exactly like `LAW_MAP` does; that is the set a currency reading must look at. New `K`-docs append with a **table row** in `INDEX.md` — not a bullet, which the gate accepts equally.
 
 > **Explainer, not claim.** Nothing here promotes to `../CLAIMS.md`. A `K`-doc may state standard, externally-known
 > mathematics (with citations) and may cite the project's own `B`/`V` results to say "this is where we use it" —

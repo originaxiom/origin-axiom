@@ -1,5 +1,25 @@
 # Changelog
 
+## B1036 (2026-08-11) — the knowledge room: the firewall runs backwards
+
+**Clean first:** 0 of 10 registered retracted phrases appear in the room, and every applicable
+retraction is already carried in-line. The room's mathematical hygiene is good.
+
+**But its no-premise rule is prose-only** — `firewall-oneway` covers `speculations/`,
+`philosophy/`, `story/`, **not `knowledge/`** — and it is broken in **five** places, worst being a
+**sealed preregistration** (`SEAL_LEDGER:461`, *"excluded by K018"*) and **`LAW_MAP:149`**, where
+K020 names the row, authorises the grade `THEOREM (K020)`, and precedes the arc.
+
+**A fifth E1:** the room's two ungated documents quote entropies differing by exactly 2
+(`2 log φ` vs `4 log φ`) — recomputed, a convention gap declared by neither.
+
+**Repaired:** three documents stated the room's size and all three were wrong while the gate stayed
+green; the index was one table plus nine orphan pipe-lines plus a bullet; `CLAIMS.md` pointed at
+K020 as *"the current headline"* (newest anchor B325). K021's *"forces … three generations"*
+softened to STRUCTURAL against its own §8 open gate.
+
+28 checks · 11 locks · 26 gates green · **L161** registered.
+
 ## B1035 (2026-08-11) — the shadow library, and the orphaned core
 
 **The premise was wrong.** `frontier/` is not 1,687 unconnected scripts: **227** files do
