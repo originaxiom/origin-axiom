@@ -107,6 +107,7 @@ BANKED — that would be marking its own homework.
 | `CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CHAT1_2026-08-10_GAP1_ACCEPTED.md` | OPEN | _(disposition owed)_ |
 | `CC3_TO_CC_2026-08-11_WINDOW_HANDOFF.md` | OPEN | _(disposition owed)_ |
+| `CC3_TO_CC_2026-08-11_WINDOW_MANIFEST.md` | OPEN | _(disposition owed)_ |
 | `CC_TO_CC3_2026-08-10_PHASE1B_OPEN.md` | OPEN | _(disposition owed)_ |
 | `CC_TO_CC3_2026-08-10_PHASE2_CC_RESPONSE.md` | OPEN | _(disposition owed)_ |
 | `CC_TO_CC3_2026-08-10_PIN_V2.md` | OPEN | _(disposition owed)_ |
