@@ -36,7 +36,22 @@ def body(b):
 
 CURATED = ["docs/LAW_MAP.md", "docs/THE_FRAMEWORK.md", "docs/THEOREM_LEDGER.md", "CLAIMS.md",
            "docs/THE_LADDER.md"]
-blob = "\n".join("\n".join(l for l in read(p).splitlines() if SELF not in l) for p in CURATED)
+
+# Scoped by AUTHORSHIP, generalised. TENTH instance of the hazard, and the first to break a
+# PREVIOUSLY-PASSING lock in another arc: B1038 restored the tower cluster, citing B117/B122/
+# B121/B118 on LAW_MAP, which retired them from the very band this arc measures -- so "37 rows"
+# stopped holding the moment the disposition was acted on.
+#
+# The fix is not to re-pin the integer but to measure the band as the corpus stood BEFORE this
+# refresh's own consolidation output. Any row this refresh (B1024+) wrote is excluded, so the
+# figure stays stable as the remaining six restorations land.
+# ...but the exclusion must be THIS ARC AND AFTER, not the whole refresh. Excluding B1024-B1036
+# as well over-corrects to 39: those arcs' rows retired B148 and B180 by ordinary consolidation
+# BEFORE this band was measured, which is real work, not self-measurement noise. The figure this
+# arc publishes is "the band as it stood at B1037".
+REFRESH = re.compile(r"\bB10(?:3[7-9]|[4-9]\d)\b")
+blob = "\n".join(
+    "\n".join(l for l in read(p).splitlines() if not REFRESH.search(l)) for p in CURATED)
 
 
 def cited(b):

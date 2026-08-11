@@ -460,6 +460,16 @@ methods are **cited**"* — a literature cross-check), **B113** (framing superse
 > applying Reid's **knot** theorem to **bundles**. **Restoring B123 as written would restore a
 > refuted claim** — the one outcome a consolidation pass must never produce.
 
+> **A measurement note this band forced, recorded because it cost a broken lock.** Acting on a
+> disposition **changes the count the disposition was measured against**: B1038's restoration cited
+> B117/B122/B121/B118 on `LAW_MAP` and retired them, so this section's **37** stopped holding the
+> moment it was acted on — breaking a lock that had passed. **The figure published here is "the
+> band as it stood at B1037"**, measured with rows written by **B1037 and later** excluded. The
+> exclusion deliberately does **not** reach back to B1024–B1036: those arcs retired B148 and B180
+> by ordinary consolidation *before* this band was measured, and rewinding past them would
+> over-count the debt at 39. **Tenth instance of one hazard, and the first to break a
+> previously-passing lock in another arc.**
+
 **RESTORED SO FAR — 1 of 7.** **The tower** landed on `LAW_MAP` as **B1038**, re-verified
 symbolically first (the surplus's unique rank-zero; the *functorial* `Sym^a(V⊕1)` step that makes
 it a module identity rather than a character coincidence; the assembly's exact `n²−1`; `det Sym^d`

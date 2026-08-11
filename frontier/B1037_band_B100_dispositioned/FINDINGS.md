@@ -94,3 +94,25 @@ the arcs' own words, the entropy arithmetic recomputed.
 **Not done, and named rather than implied:** the restorations themselves. This pass *dispositions*.
 Executing seven restorations is seven re-verifications, and doing them badly — from memory, without
 re-computation — is precisely what B1010 warned against.
+
+---
+
+## 5. A MEASUREMENT NOTE, ADDED AFTER THE FACT — acting on a disposition moves the count
+
+**B1038 restored the tower cluster and cited B117/B122/B121/B118 on `LAW_MAP`, retiring them from
+this band — so "37 rows" stopped holding the moment this arc's own disposition was acted on, and a
+lock that had passed began to fail.** Tenth instance of the refresh's standing hazard, and **the
+first to break a previously-passing lock in a *different* arc.**
+
+**The fix is not to re-pin the integer.** The published figure is now explicitly **"the band as it
+stood at B1037"**, measured with rows written by **B1037 and later** excluded. Two boundaries
+matter and both are deliberate:
+
+- **excluding B1037+** makes the number stable as the remaining six restorations land;
+- **not excluding B1024–B1036** — those arcs retired B148 and B180 by *ordinary consolidation*
+  before this band was ever measured. Rewinding past them reports **39** and would count real
+  consolidation as if it had not happened.
+
+**The general rule this earns:** a disposition pass and the restorations that act on it are *one
+measurement system*. The band figure must be dated to the pass, not left to drift as its own
+recommendations are executed.
