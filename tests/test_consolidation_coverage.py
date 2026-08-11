@@ -110,3 +110,39 @@ def test_the_ledger_carries_the_correction_not_the_withdrawn_claim():
     assert "Absent-from-everything is 0" in t
     assert "cited on NO surface at all" not in t.split("⚠ CORRECTED")[-1].split("---")[0].replace(
         '"580 of 934 arcs are cited on NO surface at all"', "")
+
+
+def test_instrument_arcs_are_excluded_from_the_debt_count(arcs):
+    """REFINEMENT: an instrument arc has no law to consolidate, so its absence is not debt.
+
+    Counting them inflated the first cut by 53. The split also sharpens the target: B800+ is
+    roughly half instrument, while B100-B499 is almost purely substantive.
+    """
+    import glob
+    blob = "\n".join(_read(p) for p in CURATED)
+    sub = inst = 0
+    seen = set()
+    for d in sorted(glob.glob(os.path.join(_ROOT, "frontier", "B*"))):
+        m = re.match(r"B(\d+)_", os.path.basename(d))
+        vp = os.path.join(d, "arc_verdict.json")
+        if not m or not os.path.isfile(vp):
+            continue
+        bid = f"B{m.group(1)}"
+        if bid in seen:
+            continue
+        seen.add(bid)
+        with open(vp, encoding="utf-8") as f:
+            dd = json.load(f)
+        if dd.get("verdict") != "PROVED" or re.search(rf"\b{bid}\b", blob):
+            continue
+        if dd.get("instrument"):
+            inst += 1
+        else:
+            sub += 1
+    assert inst > 20, "instrument arcs should be a real fraction of the raw count"
+    assert sub > 200, f"substantive debt collapsed to {sub}"
+    assert sub + inst > 250
+    # the ledger must carry the split, not the raw number alone
+    t = _read("docs/consolidation/DEBT_LEDGER.md")
+    assert "SUBSTANTIVE debt candidates" in t
+    assert "an INSTRUMENT arc is not consolidation debt" in t

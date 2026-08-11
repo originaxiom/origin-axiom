@@ -74,6 +74,44 @@ citation of its own number, in two tiers held separately.
 
 ---
 
+
+---
+
+## REFINEMENT 2026-08-11 — an INSTRUMENT arc is not consolidation debt
+
+The first cut counted every PROVED-and-curated-absent arc as a debt row. **That over-counts.**
+`arc_verdict.json` carries an `instrument` flag, and an instrument arc — a gate audit, a reader
+calibration, a lexicon triage — **has no law to consolidate**. Its absence from `LAW_MAP` is
+correct, not owed.
+
+| | count |
+|---|---|
+| PROVED and carried by no curated consolidation | 347 |
+| — of which `instrument: true` (**not debt by design**) | 53 |
+| **— SUBSTANTIVE debt candidates** | **294** |
+
+**By band, split:**
+
+| band | substantive | instrument |
+|---|---|---|
+| B0–B99 | **25** | 3 |
+| B100–B199 | **48** | 2 |
+| B200–B299 | **46** | 3 |
+| B300–B399 | **54** | 1 |
+| B400–B499 | **40** | 0 |
+| B500–B599 | **35** | 2 |
+| B600–B699 | **9** | 5 |
+| B700–B799 | **8** | 8 |
+| B800–B1029 | **29** | 29 |
+
+**The split sharpens the target rather than softening it.** B800+ is **half instrument** (29/29)
+and B700–B799 is **exactly half** (8/8) — those bands are largely governance work, and their
+absence from the curated layer is the system behaving correctly.
+**B100–B499 is almost purely substantive: 188 of the 294 substantive rows (64 %), against only 6 instrument arcs.**
+
+So the concentration is **stronger** than the first cut showed: the debt is not spread across the
+corpus, it sits in the SL(n)-tower and four-faces era — the band the campaign schedules third.
+
 ## By band — PROVED and carried by no curated consolidation
 
 | band | PROVED-absent | arcs | rate |
