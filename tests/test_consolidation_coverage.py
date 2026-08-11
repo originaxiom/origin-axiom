@@ -55,8 +55,12 @@ def arcs():
 
 
 def _absent_from(files, arcs):
+    """Both citation forms. CLAIMS.md cites its evidence by PATH (`frontier/B239_...`), where the
+    trailing `_` defeats a `\bB239\b` boundary — so a bare-id test misses PROMOTION TO A CLAIM,
+    the most important form of consolidation there is. It marked 49 arcs absent that are cited."""
     blob = "\n".join(_read(p) for p in files)
-    return [(b, v) for b, v in arcs if not re.search(rf"\b{b}\b", blob)]
+    return [(b, v) for b, v in arcs
+            if not (re.search(rf"\b{b}\b", blob) or re.search(rf"{b}_", blob))]
 
 
 def test_arc_ids_are_counted_distinctly_not_per_directory(arcs):
@@ -94,6 +98,22 @@ def test_the_curated_gap_is_real_and_large(arcs):
     assert len(proved) > 200, f"only {len(proved)} PROVED arcs absent from curated surfaces"
 
 
+def test_path_form_citations_are_counted__the_v3_correction(arcs):
+    """49 arcs were marked absent by a bare-id regex while CLAIMS.md cites them by path."""
+    blob = "\n".join(_read(p) for p in CURATED)
+    bare_only = [b for b, _ in arcs
+                 if not re.search(rf"\b{b}\b", blob) and re.search(rf"{b}_", blob)]
+    assert len(bare_only) > 30, "the path form should catch a substantial set"
+    # Representative victims: promoted claims whose ONLY citation is the path in CLAIMS.md.
+    for b in ("B239", "B264", "B354"):
+        assert b in bare_only, f"{b} should be path-cited only"
+    # B575 is NOT one of them -- it appears both ways ("B575's exact computation" and the path).
+    # Recorded because the v3 retraction first blamed the regex for B575; the real cause was that
+    # a band note's correct scope ("absent from LAW_MAP/FRAMEWORK/CHAIN") was widened to "no
+    # surface" when it was carried into the ledger, without re-checking against CLAIMS.
+    assert re.search(r"B575_", blob) and re.search(r"\bB575\b", blob)
+
+
 def test_the_two_tiers_are_not_the_same_measurement(arcs):
     """The lock that makes the distinction structural rather than a comment: the curated tier
     must be strictly worse than the full set, or the correction has been undone by widening
@@ -106,10 +126,11 @@ def test_the_two_tiers_are_not_the_same_measurement(arcs):
 def test_the_ledger_carries_the_correction_not_the_withdrawn_claim():
     """The withdrawn sentence must not reappear in the ledger."""
     t = _read("docs/consolidation/DEBT_LEDGER.md")
-    assert "CORRECTED 2026-08-11" in t
-    assert "Absent-from-everything is 0" in t
-    assert "cited on NO surface at all" not in t.split("⚠ CORRECTED")[-1].split("---")[0].replace(
-        '"580 of 934 arcs are cited on NO surface at all"', "")
+    assert "THIS FILE HAS BEEN CORRECTED TWICE" in t
+    assert "absent-from-everything is 0" in t.lower()
+    assert "Correction 2 — the regex" in t
+    # the withdrawn B575 sub-claim must be recorded as withdrawn, not repeated as a finding
+    assert "B575 IS cited" in t
 
 
 def test_instrument_arcs_are_excluded_from_the_debt_count(arcs):
@@ -133,16 +154,18 @@ def test_instrument_arcs_are_excluded_from_the_debt_count(arcs):
         seen.add(bid)
         with open(vp, encoding="utf-8") as f:
             dd = json.load(f)
-        if dd.get("verdict") != "PROVED" or re.search(rf"\b{bid}\b", blob):
+        if dd.get("verdict") != "PROVED":
+            continue
+        if re.search(rf"\b{bid}\b", blob) or re.search(rf"{bid}_", blob):
             continue
         if dd.get("instrument"):
             inst += 1
         else:
             sub += 1
     assert inst > 20, "instrument arcs should be a real fraction of the raw count"
-    assert sub > 200, f"substantive debt collapsed to {sub}"
-    assert sub + inst > 250
+    assert 200 < sub < 280, f"substantive debt {sub} outside the v3 band"
+    assert sub + inst > 240
     # the ledger must carry the split, not the raw number alone
     t = _read("docs/consolidation/DEBT_LEDGER.md")
     assert "SUBSTANTIVE debt candidates" in t
-    assert "an INSTRUMENT arc is not consolidation debt" in t
+    assert "not debt by design" in t
