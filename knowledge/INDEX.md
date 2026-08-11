@@ -47,3 +47,4 @@
 The layer is written; each row links its explainer (✓ = written). New `K`-docs append here with their scope and
 anchors.
 - **K026 — the measurement cascade**: the 2026-08 campaign's organizing story as knowledge — the four charges, the two measurements, e₆(2), the atoms and the Leibniz sign, unimodularity and the twist-norm law, the crossing's negative and the D-chain question. Every clause with its arc.
+- **K027 — the convergent protocol**: the 2026-08-10 Lean-formalized two-thirds theorem (external; scrutinised in B1031) was found by a process that is this repo's protocol independently evolved — vacuity controls with false-analogue objects, first-unjustified-step naming, blind per-failure-mode review, saturation-stop; the correspondence fixed clause by clause as an external existence proof for the house method.

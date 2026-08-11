@@ -10212,3 +10212,14 @@ Provenance sweep clean; three new terms glossed in TERMINOLOGY (value-kernel, th
 freedom ledger's outcome pair). Seals 3/3 byte-verified; hash-first honored throughout;
 B1030's open-compute status declared. Ten action items (R43-1..10). Next review due after
 20 merges.
+
+## 2026-08-11 — B1031 + K027: the two-thirds theorem joined to the record
+
+Owner-directed ("agreed. lets do them"). B1031 (verification arc, external literature with
+full provenance): the Lean audit re-verified on the archived clone; the ζ_K(ℚ(√−3))
+corollary desk-proved with the ideal-count identity verified exactly and the multiplicity
+fence stated; the paper's own walls imported (degree-one; RH out of the mechanism's reach);
+one numerics lesson recorded (nsum on periodic signs → Hurwitz form). K027 (knowledge
+room): the discovery-process ↔ house-protocol correspondence fixed clause by clause as an
+external existence proof for the method. Relay sent to the audit seat with an adversarial
+invitation on the fence. Locks: tests/test_b1031_zeta23.py.

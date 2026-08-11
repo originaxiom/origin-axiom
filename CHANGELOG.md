@@ -1,5 +1,23 @@
 # Changelog
 
+## B1031 + K027 (2026-08-11) — the two-thirds theorem scrutinised, its corollary banked, the protocol convergence fixed
+
+External literature (post-cutoff, fetched with hashes): the 2026-08-10 Lean-formalized
+theorem that ≥ 2/3 of the zeta zeros are simple and on the critical line (a large language
+model, Anthropic; examined by Conrey and Goldston). **The verification verified** on the
+archived clone (zero axiom declarations; `sorry` only in comparator statements; the three
+standard axioms on all 27 statements including the Dirichlet form). **The corollary**, every
+self-contained step verified in-sandbox (the ideal-count identity r = 1∗χ exact to n ≤ 3000):
+**≥ 2/3 (with multiplicity) of ζ_K(ℚ(√−3))'s zeros lie on the critical line, unconditionally**
+— via B737, two thirds of the numerator zeros of the object's own cusp voice are certified
+critical. Fence stated (simplicity/distinctness do not transfer; no-common-zeros is open);
+the paper's own walls imported (degree-one method — our GL(2) objects outside its reach;
+"RH itself is out of reach of the mechanism"); the B737 crux untouched (the ζ is the
+field's). **K027** fixes the methodological convergence: the theorem was found by this
+repo's protocol independently evolved — vacuity controls with false-analogue objects,
+first-unjustified-step naming, blind per-failure-mode review, the result arriving sideways
+from a vacuity check whose dual was not vacuous (the B1029 pattern, same week).
+
 ## Review 43 (2026-08-11) — the window where every error met a rule that already existed
 
 Window B1009–B1030 (anchor `25e08497`), owner-delegated timing. The headline is the error
