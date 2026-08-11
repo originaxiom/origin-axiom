@@ -574,3 +574,16 @@ repo root with no row, carrying a P3 verdict (8 CLOSED / 6 HELD / 7 EXPOSED) wit
 **Who may mark what.** A seat may seed its own relays **OPEN**. **A seat may not mark its own relay
 BANKED** — that is marking your own homework. BANKED is the *receiving* seat's judgement and its row
 must name the arc.
+
+## The naming gate (proposed at B1033; the day's three same-symbol collisions)
+
+2026-08-11 produced three instances of the corpus's dominant error class in one day —
+"θ-even" naming both the F₄ exponents and B1011's mirror set; tone(5) conflated with
+mirror(8); "flavor" sealed onto an algebra B1033 adjudicated as chiral. The class (B980:
+*the algebra was always right; what failed is what the symbols denote*) is caught today by
+TERMINOLOGY rows after the fact. **The generative fix, proposed as an instrument follow-up:
+a naming gate at bank time** — any arc introducing a named group, value set, grading, or
+index declares its referent against the TERMINOLOGY registry, and the gate fails on an
+undeclared collision with an existing name. Until the gate exists, the practice is manual:
+**name a new object by its defining equation in the same sentence as its label** (the
+window handoff's L154 clause, generalized).

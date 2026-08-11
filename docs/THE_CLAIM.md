@@ -24,7 +24,7 @@ owner's directive: state the theorem we have, not the theory we lack.*
 > | termination of the cascade | **THEOREM** | B863 |
 > | endpoint **rule-independence** — all six registerable selection functions end at the SM | **THEOREM** | B994 |
 > | matter mass in the **cubic** (27³ ⊃ 16·16·10), the doublet in the 10 ⊂ 27 | **THEOREM** | B978 · B884 · B987 |
-> | the generation structure | **STRUCTURAL** | B897 · B928 |
+> | the **chiral (trinification) anatomy** of the 27 — *adjudicated B1033: the su(3)′ index is chiral structure, not generation structure; the generation COUNT returns to the open-inputs side against B280/B298's standing walls* | **STRUCTURAL (re-scoped)** | B897 · B928 · B1033 |
 > | θ-structure: CS = 0, forced by amphichirality | **THEOREM** | B303 |
 > | **no dimensionful quantity — by theorem, not failure** (∂S/∂k = −CS ≡ 0: blindness to the level *is* amphichirality) | **THEOREM** | B811 · B1012 |
 >

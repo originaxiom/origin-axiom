@@ -1,5 +1,26 @@
 # Changelog
 
+## B1033 (2026-08-11) — THE GENERATION ADJUDICATION: the flavor reading is CHIRAL, every "three" is one 27's anatomy, and the lane redirects honestly
+
+Sealed 73eedc0b before the decisive computations, pushed pre-compute. **V1 (prior HELD):
+CHIRAL** — the exact content table shows block A's three su(3)′-copies carry distinct
+content and B/C have no 3-copy structure at char 0; the singlet anomaly resolves as the
+trinification lepton pattern; **the su(3)′ is chiral structure, not a family algebra**
+(the 6+2+8 cross-cut = Q/L/right-handed is the same fact from so(10)). **V2 (prior
+WRONG, recorded): DISTINCT** — B299's triality transports exactly (nine free 3-orbits
+reproduced in the banked frame) but no orbit-set equals the cubic's 9-channel; the orbit
+route loses its first anchor. **V3: ORTHOGONAL** — B280/B298 stand; the naive upgrade is
+dead by its own cell; **independently corroborated same evening by the audit seat's
+dissolve: all four recorded "threes" (B414/B897/B876/B632-h¹) are decomposition counts
+of ONE 27** (B632's = the θ-odd exponent count + 1). Constructive residue: the full
+left–right trinification anatomy in closed form (the u(1)-graded cubic; lepton–Higgs
+cohabitation named; the VEV corners with monomial coordinates) — the antisymmetric half,
+matching B632's solo wall from the cochain side. **The live cell in this lane: the
+symmetric texture on the mirror-double (B632's named, UNregistered cell — fresh seal
+required).** THE_CLAIM's generation row re-scoped same batch; the naming-gate practice
+proposed; L154 unwound to its registered form (the audit seat's STOP retracted, their
+recusal recorded); the B1029↔B647 join registered as the L155 instrument's first target.
+
 ## B1032 (2026-08-11) — THE TYPE LAW: the object does not make that kind of number
 
 The construction seat's resolution bound (forced value = Re χ_V/dim V, coarse; labels

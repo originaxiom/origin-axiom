@@ -933,6 +933,37 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1033": {
+   "slug": "generation adjudication",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B280",
+    "B298",
+    "B299",
+    "B414",
+    "B632",
+    "B647",
+    "B876",
+    "B884",
+    "B897",
+    "L154",
+    "L155",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

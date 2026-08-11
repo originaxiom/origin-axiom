@@ -1,0 +1,21 @@
+{
+ "id": "B1033",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE GENERATION ADJUDICATION (Lane II-1, sealed 73eedc0b before the decisive computations, pushed 54059957): B897's flavor-3 ADJUDICATED AGAINST THE RESURFACED WALLS -- V1 (the exact per-vector content table): CHIRAL, prior held -- block A's three arm02-copies carry DISTINCT content, blocks B/C have no 3-copy structure at char 0, and the so(10)-singlet anomaly resolves as the trinification lepton-block pattern (arm02-charged, color-neutral): the su(3)' is a CHIRAL (trinification/SU(3)_R-type) algebra, NOT a family algebra; the 6+2+8 cross-cut (Q/L/right-handed) is the same fact from the so(10) side; every sentence B897 actually sealed stands (shape claims), the flavor NAME dies. V2 (the orbit-channel identity): DISTINCT, DECLARED PRIOR WRONG AND RECORDED -- B299's (theta,phi) transported through both diagram bijections reproduces the nine free 3-orbits in the banked frame (verification bonus), but NO orbit-set equals the cubic's nine-term (0,2,4) channel: the orbit-route candidate loses its first anchor and sealed branch (iii) does not fire. V3: (ii) ORTHOGONAL alone -- flavor-3 is trinification-3; B280 (one 27 = one generation) and B298 (seven routes) STAND; the naive upgrade is DEAD by its own adjudication cell. THE CONSTRUCTIVE RESIDUE: the cascade endpoint carries the full left-right trinification anatomy of one family + Higgs in closed form -- the u(1)-graded cubic I = det A + two epsilon-channels + the 27-term trace (the Yukawa backbone), the lepton-Higgs cohabitation (B884's mu-cells named), color = arm45, the VEV singlet-corners with monomial coordinates. Lane II redirects to B298's cubic-carrier direction; the orbit route needs a new anchor to be re-posed. THE_CLAIM's generation row re-scoped same batch; the naming-gate practice proposed (the day's three same-symbol collisions). Priors: V1 HELD, V2 WRONG-as-declared, non-weakening applied. Gate 5 untouched; type-law obeyed.",
+ "depends_on": [
+  "B897",
+  "B928",
+  "B298",
+  "B280",
+  "B299",
+  "B292",
+  "B884",
+  "B883",
+  "B1032",
+  "B1030"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-11), sealed 73eedc0b"
+}

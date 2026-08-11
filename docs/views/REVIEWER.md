@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **952** |
-| words of findings prose | **641,339** |
+| research arcs with findings | **953** |
+| words of findings prose | **642,425** |
 | test lock files referenced | **594** |
-| arcs carrying an authored verdict | **939** (98.6 %) |
+| arcs carrying an authored verdict | **940** (98.6 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 618 |
+| PROVED | 619 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1032`** (755 words, 0 locks)  
-THE TYPE LAW (the construction seat's Phase-1b resolution bound VERIFIED AS AMENDED against the entire banked dimensionless coupling inventory, from 2T/2I character tables computed in-arc): the five tones ARE bare normalized character values |chi_{V2(2I)}|/2 with the census 30/24/40/24/2 reproduced from class sizes (B659's discriminating clause); the mirror set IS the tensor character menu |chi_{V2(2T)}/2|*|chi_{V2(2I)}/2| = B1011 C6's eight magnitudes exactly (tone(5) != mirror(8), two distinct banked sets); THE AMENDMENT: the listener family is (1 -+ 1/sqrt5)/2 with sqrt5 = phi + 1/phi -- a CHARACTER-RING element over Q(sqrt5), not a bare character value -- so the bound's universal is amended while its decisive consequence stands: THE OBJECT'S DIMENSIONLESS COUPLING OUTPUTS LIVE IN A FINITE ALGEBRAIC MENU. THE LAW: a crossing may target a RELATION among measured quantities or a FINITE LABEL read on a dial; it may NOT target a generic real by value. THE FOUR DEATHS TYPED HONESTLY (correcting the relay's all-four-type-wrong): B915's RG-dressing of a coarse 3/8 into a fine prediction IS the type violation (= its banked named defect, now with a mechanism); B925 died by algebraic self-refusal before typing was reached; B929 Tier-2 targeted fine ratios (uninformative miss by construction); B1027 was TYPE-PERMITTED (a Z/3 label on a dial) -- exactly why it alone died clean and powered. FENCES: dimensionful outside; c = 6-sigma outside (the audit seat's refutation attempt failed on this fence, recorded); other channels need their own closed form first. Type-correct on the board: B1029's sum-rule shelf, the trit, the Z6 line spectrum. TERMINOLOGY registered same batch: the two banked theta-evens (F4 exponents vs the B1011 mirror set) + the value-set registry (5/8/3/Z3). The numeric route's post-mortems compress to one sentence: they asked the object for a kind of number it does not make. Gate 5 untouched; no measured value anywhere.  
-`B1032_type_law/FINDINGS.md`
+**PROVED — `B1033`** (1086 words, 0 locks)  
+THE GENERATION ADJUDICATION (Lane II-1, sealed 73eedc0b before the decisive computations, pushed 54059957): B897's flavor-3 ADJUDICATED AGAINST THE RESURFACED WALLS -- V1 (the exact per-vector content table): CHIRAL, prior held -- block A's three arm02-copies carry DISTINCT content, blocks B/C have no 3-copy structure at char 0, and the so(10)-singlet anomaly resolves as the trinification lepton-block pattern (arm02-charged, color-neutral): the su(3)' is a CHIRAL (trinification/SU(3)_R-type) algebra, NOT a family algebra; the 6+2+8 cross-cut (Q/L/right-handed) is the same fact from the so(10) side; every sentence B897 actually sealed stands (shape claims), the flavor NAME dies. V2 (the orbit-channel identity): DISTINCT, DECLARED PRIOR WRONG AND RECORDED -- B299's (theta,phi) transported through both diagram bijections reproduces the nine free 3-orbits in the banked frame (verification bonus), but NO orbit-set equals the cubic's nine-term (0,2,4) channel: the orbit-route candidate loses its first anchor and sealed branch (iii) does not fire. V3: (ii) ORTHOGONAL alone -- flavor-3 is trinification-3; B280 (one 27 = one generation) and B298 (seven routes) STAND; the naive upgrade is DEAD by its own adjudication cell. THE CONSTRUCTIVE RESIDUE: the cascade endpoint carries the full left-right trinification anatomy of one family + Higgs in closed form -- the u(1)-graded cubic I = det A + two epsilon-channels + the 27-term trace (the Yukawa backbone), the lepton-Higgs cohabitation (B884's mu-cells named), color = arm45, the VEV singlet-corners with monomial coordinates. Lane II redirects to B298's cubic-carrier direction; the orbit route needs a new anchor to be re-posed. THE_CLAIM's generation row re-scoped same batch; the naming-gate practice proposed (the day's three same-symbol collisions). Priors: V1 HELD, V2 WRONG-as-declared, non-weakening applied. Gate 5 untouched; type-law obeyed.  
+`B1033_generation_adjudication/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

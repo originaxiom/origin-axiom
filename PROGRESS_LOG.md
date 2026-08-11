@@ -10234,3 +10234,16 @@ amendment). The law: crossings target relations or finite labels only. The four 
 typed honestly — correcting the relay's overreach: B1027 was type-PERMITTED, hence the one
 clean death. TERMINOLOGY: two banked θ-evens + the value-set registry. LAW_MAP row with
 SCOPE. Locks: tests/test_b1032_type_law.py.
+
+## 2026-08-11 — B1033: the generation adjudication (CHIRAL / DISTINCT / ORTHOGONAL)
+
+Sealed before compute; both declared priors resolved (V1 HELD, V2 WRONG — recorded,
+non-weakened). The su(3)′ is chiral, not familial; B280/B298's walls stand; the orbit
+anchor failed its first test; the constructive residue is the closed-form left–right
+anatomy of one family + Higgs. The audit seat's four same-evening relays integrated:
+the pre-seal STOP hit the discarded draft (process slip owned: the relay channel went
+unchecked before sealing); the four-threes dissolve corroborates V3; B632's solo
+antisymmetry wall = this arc's det/ε anatomy from the cochain side; the mirror-double
+symmetric texture is the lane's one live cell (unregistered — fresh seal required);
+L154 restored to its registered form; the B1029↔B647 join named. THE_CLAIM re-scoped;
+naming-gate practice added. Locks: tests/test_b1033_adjudication.py.
