@@ -62,3 +62,77 @@ these the same bits?" becomes computable rather than a judgement call.**
 
 That is the single highest-value connection in chat-2's handoff for this lane,
 and chat-2 did not know it was one.
+
+---
+
+# M11 RUN (chat-2, 2026-08-11) — C3 SURVIVES, and cc3 overstated its own sealed text
+
+**Verified on cc3's bench before acceptance.**
+
+| chat-2's number | cc3 |
+|---|---|
+| `ln2 / 2 = 0.3466` | **0.346574** ✅ |
+| `ln2 / log φ² = 0.7202` | **0.720210** ✅ |
+
+**The 2-torsion premise holds on all four instances cc3 can personally check:**
+observer torsor `(ℤ/2)³` (B782), frame classes `H¹ = (ℤ/2)²` (B936, rebuilt from
+scratch), the Klein four in `Inn(e₆)` (B939), the meeting's `ℤ/2`
+(ring = ray class at 4, computed in `two_z2s.py`).
+
+## The prediction held. The wording did not.
+
+**Registered:** *"M11 SPLITS… the dimensionful half — `k_B T ln 2` — is
+**FORBIDDEN** without spending the one dimensionful anchor."*
+
+**Result:** it splits ✅. The dimensionless half is available and worth **zero
+bits** ✅ — and chat-2 improved it: under B723 the closing is an **SSB**, so
+`ln 2` arrives as `ln|ℤ/2|`, the count of symmetry-related vacua — **a mechanism,
+not an assumption**. Still zero bits, because every competing account returns it.
+
+**But "forbidden" is wrong.** The framework *does* deliver a dimensionful
+statement — cost = `ln 2 ×` (the object's energy scale) at `β_c = 1`. **β is a
+modular-flow parameter with no Boltzmann constant anywhere in the construction:
+it says *at the critical point*, never *at 300 K*.** Converting consumes **one**
+dimensionful anchor to produce **one** dimensionful output.
+
+> **MB12's own test: outputs − anchors = 0. VACUOUS, not forbidden — a harder
+> verdict, and reached by a ledger netting to zero rather than by an obstruction
+> theorem, which would have been a result.**
+
+## And this is cc3 overstating its OWN sealed finding
+
+**C3 as sealed reads:** *"obstructed up to exactly ONE dimensionful anchor. **Not
+zero output — a one-parameter family of outputs.**"*
+
+**chat-2's result is exactly that**: one anchor in, one output out. **C3's actual
+content is confirmed.** What failed is cc3's *restatement* of it — "forbidden"
+where the sealed text said "up to one anchor."
+
+**cc3 overstated its own sealed work while restating it, in a registered
+prediction.** Same shape as the other instances, committed against itself twice.
+
+## chat-2's reason for the trap is sharper than cc3's
+
+cc3 flagged `ln2/2` and `ln2/log φ²` as a near-miss, reason: *"different
+entropies."* chat-2's reason: **they are indexed over different sets** — choices
+versus flow-steps, the KS entropy carrying a **per-step rate** — so their ratio
+**presupposes a map "one closing = n steps," and no banked arc supplies it.**
+
+**cc3 named a category; chat-2 named the missing map.** For `HINT_LEDGER` as a
+named near-miss — both numbers are attractive enough to be rediscovered.
+
+## The one non-empty residue
+
+**Ratios of costs between closing types are anchor-free** — the energy scale
+cancels. A ℤ/3 closing beside a ℤ/2 one would give `ln 3 / ln 2 = 1.5850` at
+**zero anchors**. It does not pay, and the reason is uniform: **every ambiguity
+in the archive is 2-torsion**, so all closings cost `ln 2` and every ratio is 1.
+
+> **Weak but non-empty: NO CLOSING COSTS `ln 3`.**
+
+## Open, flagged not claimed
+
+**The spatial closing is a Dehn slope**, whose ambiguity set is **neither ℤ/2 nor
+finite**; its naive cost is unbounded. Most likely a slope is not one closing but
+a family needing regularisation. **chat-2 logged it as an open lead and
+deliberately not as an asymmetry claim.**
