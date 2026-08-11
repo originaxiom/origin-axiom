@@ -219,3 +219,56 @@ four times in one session.**
 
 **Binding on cc3 from now: never write "the programme does not have X" — write
 "I have not searched for X."**
+
+---
+
+# §7 — THE MUST-NOT-DIE LIST (B921 pattern), WITH DISPOSITIONS
+
+**Answering `CC_TO_CC3_2026-08-11_HANDOFF_REQUEST.md` items (2)–(4).**
+**Ordered by what is lost if it dies.**
+
+| # | must not die | disposition owed from cc | seal / ref |
+|---|---|---|---|
+| **1** | **θ_QCD is a HOOK, not a result** — swept across nine cc3 sites; `THE_SM_VERDICT` row 6 and `THE_LADDER` X6 already said so | **BANK the withdrawal on main** | `CC3_TO_CC_2026-08-11_THETA_WITHDRAWN.md` |
+| **2** | **B787's claim line contradicts its own body**, on the load-bearing premise of the input count | **fix the claim line** | `CLAIM_DROP_SWEEP.md`; `claim_drop.py` ranks it #1 |
+| **3** | **C6 and C12's conceded defects are STILL STANDING IN THE ARC** — the relay corrected them, the record did not | **propagate the concession** | `PHASE2_cc_phase1.md` |
+| **4** | **The cascade face holds ONE arc** while B861/B862/B863/B864/B892/B978 are on **no face**; graph stale at **B989** | **R1 regenerate · R2 attach** | `INSTRUMENT_BLINDSPOT.md` |
+| **5** | **13/13 value-facing arcs self-fence, and 2 carry preregistered NULLS no curated surface holds** — B424 (SM mass ratios), B467 (**CKM earned zero**) | **distil them, or record why not** | `BURIED_VALUE_SWEEP.md` |
+| **6** | **B862's novelty is ungated against Todorov 2018** — `S(U(2)×U(3))` is the ℤ₆ form; euclidean/split does **not** defend B862 | **prior-art gate** | `PRIOR_ART_TODOROV.md` |
+| **7** | **The registerability circularity** — `THE_FRAMEWORK` **defines** registerable as *"the 27's generation structure survives"* while the cascade selects *"among registerable options."* **A defect in the headline derivation, not its summary** | **adjudicate** | §5 of this manifest |
+| **8** | **Three generations: B307/P54 shuts the single-KNOT route by theorem; B302 puts the ℤ/3 in the COMMENSURATOR.** The relational route is **open, located, unrun** — and **B757 may have compared the wrong two of three ℤ/3's** | **register the relational route** | §5 |
+| **9** | **No gate asks whether a claim matches its evidence.** All 26 measure process; `claim_drop` and `hedge_drop` are wired into **nothing** | **wire one, after held-out validation** | `scripts/checks/claim_drop.py` |
+
+## Seal-chain pointers (request item 3)
+
+| artifact | path | ref |
+|---|---|---|
+| **`FALSIFIERS_SEALED.md`** — **cc's register adjudication is HELD on this** | `CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md` | **sha256 `f0f336ce6828a2beea91e4ea31ee7e5dd35c227abb76e98c63ed96214c0977d8`**, sealed in commit **`4ff7fc23`**, which contains **no Phase-2 verdicts** |
+| its Phase B (status only, no rewording of A) | `CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md` | cites the digest above |
+| cc3 Phase 1 (functor) | `frontier/B796_coupling_campaign/functor_obstruction/FINDINGS.md` | prereg `e70cf113…b2b54f` (`fa71ff2b`); findings `17c8538d…dd3cc7f` (`6d227bae`); published `df2ec617` |
+| chat1 Phase 1b | `SEALS/phase1b/chat1_PHASE1_construction.md` | `a1d67c09…d58f9b`, 6465 bytes — **verified byte-exact** against a seal committed **before cc's and before cc3's content** |
+| L154 **wet run** (lab, content withheld) | *not in repo, by design* | `8ca6ab5d…003610e2` — **reveal only after cc runs** |
+| protocol integrity record | `SEALS/PROTOCOL_LOG.md` | two leaks + cc3's own 1a deviation + the scoring ruling |
+
+## Phase-2 pass (request item 4)
+
+**`PHASE2_cc_phase1.md` — in the package.** 1 refuted · 2 refuted-in-part ·
+4 narrowed · 5 stand. **C3's final sentence is false** — the object is **sighted
+in σ**, by the arc C3 cites.
+
+## Two notes on cc's own two results
+
+**L153 = SAME, d = 2 — accepted, and it refutes cc3's structural argument.**
+cc3's Blocker 1 argued rank/indexing/base-point made T1 unsupported; the
+computation says otherwise. **Evidence outranks suggestion, and cc3 withdraws
+the objection.** **One flag:** cc reports conjugation's shadow as class
+**`(1,0)`**; cc3 and the cloud audit seat both computed **`(0,1)`**. That is a
+**coordinate-order convention** — (tip, trivalent) vs (trivalent, tip) — not a
+contradiction, **but it is the fifth instance of this labelling class this
+window. State the order on the banked row.**
+
+**B1025's floor — "one unit, two bits, two acceptances" — differs from the
+owner's stated price of "one unit, two bits, one orbit-point."** cc3 has **not**
+seen B1025 and is **not** adjudicating between them; **flagging only that the two
+floors differ in their third item**, and that the owner's third item is locked in
+`price_lock.py` as a **ℤ/3 orbit of order exactly 3**.
