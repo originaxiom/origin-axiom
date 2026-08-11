@@ -10532,3 +10532,60 @@ passed before the repair and **failed after it, because the rung this arc wrote 
 B1030 hit the identical shape one arc earlier. Both scoped and **pinned rather than silently
 fixed**: a metric that its own output invalidates is exactly the shape of the coverage error this
 refresh already had to retract once.
+
+## B1032 (2026-08-11) — the across-breakings route: two sealed cells B307 does not touch, and B1031's own rung corrected
+
+**THE SWEEP.** B800–B1024, the campaign's last unswept band: **55 PROVED arcs carried by no
+curated consolidation — 27 substantive, 28 instrument.** That **51 % instrument share confirms the
+debt ledger's prediction** that the late corpus is not under-consolidated the way the middle is
+(B100–B499 is almost purely substantive).
+
+**THE ROUTE, four arcs.** **B885** — the inter-breaking dictionary on the 27, two structural laws
+uniform across the three Galois pairs, zeros at 10⁻²¹–10⁻²⁶. **B889** — the *canonical* version:
+the convention problem dissolves into six Π-blocks and the vacuum→frame identification is a
+**computed bijection**, *the S₃ torsor of frames realized as three labeled lines in the 27*.
+**B890, SEALED** (`ea66fc34…`, verified unchanged at banking) — the two **foreign vacuum lines are
+DISTINCT in all three frames**, 1.7×10⁻⁴ to 1.1×10⁻², decisively above the sealed 10⁻⁶ band, **and
+it banks AGAINST its disclosed prior of EQUAL**: the zero *pattern* is shared, the mass
+*magnitudes* are not, so *"the Galois unlabelability of algebraic labels does NOT translate into
+operational indistinguishability: the geometry breaks the S₃ symmetry operationally"* — a
+B599-legal probe tells the two lines apart. **B891, SEALED** (`a08398c5…`) — the same for
+**matter**: *"a single observer registers three pairwise-distinguishable matter sectors"* on one 27.
+
+**THE FENCE BOTH SEALED CELLS DECLARE, theirs and not added here: registerable distinctness is not
+mechanism-hood.** The three 16s **overlap** on one 27 — not direct summands — and replication *with
+identical gauge behaviour* is what "generations" means.
+
+**WHY IT MATTERS.** B307 (= P54) closes the route to three generations **through the trace field of
+a single hyperbolic knot**. **Nothing in this cluster is a trace-field statement** — it is about how
+one 27 decomposes under three measurement frames — so **B307's hypothesis does not apply and
+forbids nothing here.** The generation question has **two** live routes: **(a)** relational (B302's
+commensurator ℤ/3), *no arc runs it end to end*; **(b)** across-breakings, *two sealed cells run,
+both stopping at a declared fence rather than at a theorem*.
+
+**THE CORRECTION — of the arc immediately before this one.** B1031's rung X33 wrote *"the relational
+route … is **the only one B307 leaves open**, and no arc runs it end to end."* **The first clause is
+false and is withdrawn.** The second survives *for both routes* and is now stated per route, since
+"no arc runs it end to end" means something different where four arcs have run and stopped at a
+declared fence than where none has run at all. **This is the corpus's first-named trap** — *"'we
+don't have X' is a hypothesis, never a conclusion"* — **walked into while writing the rung whose
+purpose is to prevent it**, one paragraph after diagnosing the same failure in the file as a whole.
+
+**AND THE CONSOLIDATION SHAPE IS SHARPER THAN "ABSENT".** The cluster's **foundation is curated** —
+B885 holds a `LAW_MAP` row and a `THEOREM_LEDGER` entry. **Everything built on it was not**: B889's
+computed bijection and both sealed cells, on no curated surface under any of six topic names
+(*across-breakings · generations-as-sectors · three frames · foreign vacua · foreign 16 ·
+registerably distinct*), with the generated tier carrying all three. **Consolidation stopped
+exactly where the sealed results begin** — and the layer lost is the one that put a **declared
+prior at risk and won**, the more expensive half.
+
+**This row is itself a correction:** its first draft said all **four** arcs were curated-absent, and
+**this arc's own script refuted that before publication** — B885 is cited twice.
+
+**22 checks · 8 locks · 26 gates green.** No mathematics asserted or disturbed; the four arcs are
+re-read, not re-run. **Self-correction, one hazard now at four instances across three arcs:** a
+consolidation arc that both **measures** a gap and **fills** it invalidates its own metric unless
+the measurement is scoped by **authorship** — now the default shape here, and named plainly: **the
+act of recording a gap creates the citation that makes the gap look closed.** `THE_LADDER`'s own
+**X31** row already said so — *"Registering a gap creates hits for the gap, so the coverage count
+self-inflates"* — so the corpus had the lesson before this session did.

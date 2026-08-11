@@ -47,3 +47,29 @@ Rows cite the banked locus and the correcting locus.*
 adjoint* constructions), the 27 branching, the F₄=generic-VEV unification, and L138.
 **Cause:** using "VEV" loosely to mean "27 VEV". **Rule adopted: name the representation
 every time.** Caught by the owner's challenge, not by a gate.
+
+## 2026-08-11 — B1032: B1031's "only one route" clause, withdrawn one arc later
+**Asserted** (`docs/THE_LADDER.md` rung X33, written by B1031): *"the relational route (B302's
+commensurator ℤ/3 → multiplicity) is **the only one B307 leaves open**, and no arc runs it end to
+end."*
+
+**WITHDRAWN — the first clause is false.** B307 closes the route through the **trace field of a
+single hyperbolic knot**; **nothing in the across-breakings cluster is a trace-field statement**, so
+its hypothesis does not apply there. **B885 → B889 → B890 → B891 is a second live route**, and
+unlike the relational one it has **two SEALED cells already run on it** — B890 finding the foreign
+vacuum lines DISTINCT in all three frames **against its own disclosed prior of EQUAL**, B891
+extending it to matter (*"a single observer registers three pairwise-distinguishable matter
+sectors"* on one 27).
+
+**What survives:** the second clause, *for both routes* — neither runs to mechanism-hood. It is now
+stated **per route**, since route (b) stops at a **fence both sealed cells declare**
+(*registerable distinctness is not mechanism-hood; the three 16s overlap and are not direct
+summands*) rather than at nothing.
+
+**Cause, and it is the corpus's first-named trap:** *"'we don't have X' is a hypothesis, never a
+conclusion"* (`WORKING_RULES` §0) — committed **while writing the rung whose purpose is to prevent
+it**, one paragraph after diagnosing the same failure in the file as a whole.
+
+**Corrected in:** rung X33 (rewritten to name both routes and cite the cluster) ·
+`frontier/B1032_across_breakings_route/` · lock
+`tests/test_b1032_across_breakings.py::test_the_only_one_clause_is_withdrawn_and_two_routes_are_named`.

@@ -1,0 +1,95 @@
+{
+ "checks": {
+  "B885_is_PROVED": {
+   "pass": true,
+   "claim": "The inter-breaking dictionary on the 27 -- the same 27 graded by all three measurement frames, all pairwise tables computed obliquely. TWO STRUCTURAL LAWS, unif"
+  },
+  "B889_is_PROVED": {
+   "pass": true,
+   "claim": "Masterplan W3 -- the CANONICAL across-breakings dictionary: the convention problem dissolves into B886's six Pi-blocks (three vacuum lines + three 8-blocks, Gal"
+  },
+  "B890_is_PROVED": {
+   "pass": true,
+   "claim": "THE SEALED W6 OPENING CELL (prereg ea66fc34 sealed before compute, verified unbroken at banking) RETURNS DISTINCT IN ALL THREE FRAMES, against the disclosed pri"
+  },
+  "B891_is_PROVED": {
+   "pass": true,
+   "claim": "THE SEALED MATTER-EXTENSION CELL (prereg a08398c5, sealed before compute, verified unbroken) RETURNS DISTINCT IN ALL THREE FRAMES: the two foreign 16-subspaces'"
+  },
+  "b890_is_a_sealed_cell_returning_DISTINCT": {
+   "pass": true
+  },
+  "b891_is_a_sealed_cell_returning_DISTINCT": {
+   "pass": true
+  },
+  "b890_banked_against_its_disclosed_prior": {
+   "pass": true
+  },
+  "b890_states_the_operational_point": {
+   "pass": true
+  },
+  "b891_extends_the_result_to_matter": {
+   "pass": true
+  },
+  "B890_keeps_the_solo_seats_fence": {
+   "pass": true
+  },
+  "B891_keeps_the_solo_seats_fence": {
+   "pass": true
+  },
+  "the_foundation_B885_IS_curated": {
+   "pass": true
+  },
+  "the_three_arcs_built_on_it_were_curated_absent_before_this_arc": {
+   "pass": true,
+   "absent": [
+    "B889",
+    "B890",
+    "B891"
+   ]
+  },
+  "nor_under_any_of_six_topic_names": {
+   "pass": true,
+   "found": []
+  },
+  "and_this_arc_is_what_puts_it_on_a_curated_surface": {
+   "pass": true
+  },
+  "but_the_generated_tier_carries_it": {
+   "pass": true,
+   "carried": [
+    "B885",
+    "B889",
+    "B890",
+    "B891"
+   ]
+  },
+  "b307_scopes_itself_to_the_trace_field_of_a_single_knot": {
+   "pass": true,
+   "claim": "Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confirmed."
+  },
+  "the_cluster_makes_no_trace_field_claim": {
+   "pass": true
+  },
+  "the_withdrawn_only_one_sentence_is_gone": {
+   "pass": true
+  },
+  "x33_now_names_two_routes": {
+   "pass": true
+  },
+  "x33_now_cites_the_cluster": {
+   "pass": true
+  },
+  "x33_keeps_the_fence_that_both_sealed_cells_declared": {
+   "pass": true
+  }
+ },
+ "answer": {
+  "the_cluster": "B885 (the inter-breaking dictionary: two structural laws, zeros at 1e-21) → B889 (the canonical across-breakings dictionary; the vacuum→frame identification is a COMPUTED BIJECTION — the S₃ torsor of frames realized as three labeled lines in the 27) → B890 (SEALED: the foreign VACUA are DISTINCT in all three frames, decisively above the sealed 1e-6 band, AGAINST the disclosed prior EQUAL) → B891 (SEALED: the foreign 16s are DISTINCT too — one observer registers three pairwise-distinguishable MATTER sectors on one 27).",
+  "why_it_matters": "B307 closes the single-knot TRACE-FIELD route to three generations. This route is not a trace-field statement at all, so B307's hypothesis does not apply to it. It is a second live route to multiplicity, and unlike the commensurator route it has TWO SEALED CELLS already run on it.",
+  "the_fence_both_cells_declared": "Registerable distinctness is NOT mechanism-hood. The three 16s OVERLAP on one 27 — they are not direct summands — and replication with identical gauge behaviour is what 'generations' means. Both cells state this and neither claims more.",
+  "the_correction": "B1031's rung X33 wrote 'the relational route via B302's commensurator ℤ/3 is the only one B307 leaves open, and no arc runs it end to end.' The first clause is FALSE and is withdrawn: there are two, and the second has two sealed cells on it. The second clause survives for BOTH routes — neither runs to mechanism-hood — and is restated per route.",
+  "the_consolidation_finding": "The cluster's FOUNDATION is curated — B885's inter-breaking laws have a LAW_MAP row and a THEOREM_LEDGER entry. Everything BUILT ON IT is not: B889's computed bijection and the two SEALED cells B890/B891 — one of them banking against its own disclosed prior — appear on NO curated surface under any of six topic names, while the generated tier carries all three. Consolidation stops exactly where the sealed results begin. (This row is itself a correction: the first draft said all four were absent, and this script's own check refuted it before publication.)"
+ },
+ "all_pass": true
+}

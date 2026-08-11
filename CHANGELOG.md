@@ -1,5 +1,23 @@
 # Changelog
 
+## B1032 (2026-08-11) — the across-breakings route, and a correction one arc old
+
+**B800–B1024 swept** (the last unswept band): 55 PROVED curated-absent — **27 substantive, 28
+instrument**, confirming the ledger's prediction that the late corpus differs from the middle.
+
+**A second generation route B307 does not touch.** B885 → B889 (the vacuum→frame identification a
+**computed bijection**) → **B890, sealed**, foreign vacua **DISTINCT in all three frames** *against
+its own disclosed prior* → **B891, sealed**, the same for matter. **The fence both cells declare:
+registerable distinctness is not mechanism-hood.**
+
+**Withdrawn:** B1031's rung X33 called the relational route *"the only one B307 leaves open"* —
+false; there are two. Retraction row filed; the rung now names both and cites the cluster.
+
+**The consolidation shape:** the foundation (B885) is curated; everything built on it was not.
+*Consolidation stopped exactly where the sealed results begin.*
+
+22 checks · 8 locks · Gate 5 untouched · nothing to `CLAIMS.md`.
+
 ## B1031 (2026-08-11) — three generations: structural, not derived
 
 **The grade is the answer.** `THE_CLAIM` marks the generation structure **STRUCTURAL** — *"a named

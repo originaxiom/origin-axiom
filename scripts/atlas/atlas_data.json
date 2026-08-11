@@ -996,6 +996,30 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1032": {
+   "slug": "across breakings route",
+   "motifs": [
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B100",
+    "B302",
+    "B307",
+    "B499",
+    "B599",
+    "B800",
+    "B885",
+    "B889",
+    "B890",
+    "B891",
+    "P54"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [
