@@ -1,5 +1,20 @@
 # Changelog
 
+## The window-handoff corrections, round 1 (2026-08-11) — two banners, one new rule
+
+**cc3's full handoff landed** (their branch pushed through `2910bea4`; ledger 85/85; the θ sweep
+now public). **Round 1 executes the two hits on this seat's banked work:** **B1024 re-graded
+PROVISIONAL** — a three-seat amendment (naturality · base rate · joint rank) was drafted during
+the credit-gap window and never delivered, so SAME rests on surjectivity alone (~1.42 bits at
+k = 2); the three-way agreement on the generator and the d = 4 refutation stand; R11 marked
+accordingly. **B1022 adjudicated beside its hash-lock** — Phase 2's pass accepted (1 refuted:
+C3's last sentence dies on σ-sightedness · 2 in-part · 4 narrowed · 5 stand), and the
+**procedural finding becomes a PRACTICES rule: a concession is not made until it is propagated
+into the conceding seat's banked record, same batch** — a relay is not the record. Queued from
+the handoff: the L154 re-pose (three σ's — the collision row), the price-lock verification
+(**one unit, two bits, ONE TRIT** — the acceptance retypes to a finite label), the Todorov
+novelty-scope citation, the three mechanical repairs, the 2-consumed input reconciliation.
+
 ## B1025 (2026-08-11) — the derivability audit: three survive, two narrow, and the VEV's continuum dissolves
 
 **Sealed with per-input priors; every join verified exactly.** **SURVIVE:** the arrow bit (the

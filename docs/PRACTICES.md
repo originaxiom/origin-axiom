@@ -474,6 +474,15 @@ modest: twelve sympy workers on eight physical cores are cache-bound, not embarr
 **The number to distrust is a parallel run that disagrees with serial by even one test** — that is
 never noise; it is a shared-state lock, and it gets a name and a fix before anything ships.
 
+## A concession is not made until it is propagated — same batch (the window handoff's procedural finding)
+
+**The rule.** A defect conceded in an exchange (relay, protocol round, review) is **not conceded**
+until the correction lands in the conceding seat's own banked record — the arc, the row, the
+claim line — **in the same batch as the concession.** The worked failure: C6/C12's "licensed by
+theorem" was conceded in the Phase-2 exchange and left standing in the published Phase-1 arc;
+the relay corrected it, the record did not, **and no instrument catches that** — a relay is not
+the record. Sealed files take the addendum-beside pattern; everything else takes the edit.
+
 ## Maintaining this file
 
 This register is itself gated — `practices-register` checks **both directions**:

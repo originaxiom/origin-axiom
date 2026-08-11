@@ -10152,3 +10152,11 @@ The σ-pattern run against every input, joins verified exactly: arrow/chirality/
 strengthened — even σ = 1 leaves the unit free); **J narrows** (accept-the-nomination; S1 the
 closer); **the VEV retypes** — directions are multiplicity-one canonical lines, residue = the
 counted act + weight-1 magnitudes. **Floor: one unit, two bits, two acceptances.**
+
+---
+
+## The window-handoff corrections, round 1 (2026-08-11)
+
+B1024 → PROVISIONAL (the lost amendment's three controls owed; the generator stands three-way);
+B1022 adjudicated beside its hash-lock (5 stand / 4 narrowed / 2 in-part / 1 refuted — C3's
+σ-sightedness); the propagation rule enters PRACTICES. The handoff's remaining digest queued.

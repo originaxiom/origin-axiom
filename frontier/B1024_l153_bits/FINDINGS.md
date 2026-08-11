@@ -1,5 +1,17 @@
 # B1024 — L153 ANSWERED: the frame bits ARE the torsor bits (d = 2), and the undercount scenario is refuted unconditionally
 
+> ## ⚠ RE-GRADED 2026-08-11 (the window handoff §2): SAME is PROVISIONAL — surjectivity-only
+>
+> A three-seat amendment to this cell's controls (equivariance/naturality · a base rate · joint
+> rank) was drafted during the credit-gap window and **never delivered to this seat**; the cell
+> ran without it. **What stands, three ways independent:** the generator's nonzero class —
+> this bench (1,0), the cloud audit seat (0,1) *in a different frame*, cc3's confirmation — and
+> the unconditional refutation of d = 4. **What is provisional:** SAME (d = 2) rests on
+> surjectivity alone, which at k = 2 lands on the convenient answer better than one time in
+> three (~1.42 bits). **The three amendment controls are the follow-up cell; until they run,
+> R11 reads d = 2 PROVISIONAL, d ≤ 3 unconditional.** Not the executing seats' failure — the
+> process lost the amendment in the gap, and that loss is the recorded finding.
+
 **Date:** 2026-08-11 · **Seat:** cc · **Sealed:** `dc823e86` (prior: uncertain, weak lean SAME —
 **held**). Gate 5-Q; zero anchors.
 
