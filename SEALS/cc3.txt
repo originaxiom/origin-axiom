@@ -3,3 +3,9 @@
 e70cf1136281f44fca2513c28c397cac89a52f6e9ed6bbf1e38cb7fef0b2b54f  frontier/B796_coupling_campaign/functor_obstruction/PREREGISTRATION.md
 # PHASE 1 FINDINGS — content withheld until cc and chat1 digests are in:
 17c8538d2498c5f3f7f784bec807399d8539a2009b6d4c8a6f1797054dd3cc7f  frontier/B796_coupling_campaign/functor_obstruction/FINDINGS.md
+# ---------------------------------------------------------------------------
+# L154 WET RUN (lab simulation, NOT the sealed cell), 2026-08-11.
+# Content deliberately NOT in the repo, so cc's run stays independent.
+# sha256 8ca6ab5db087399f2bc8aa6f47e82a2efbbc4171af1b3005035b5e0f003610e2
+# bytes      1678
+# LEAN recorded AGAINST cc3's own registered prediction. Reveal only after cc runs.
