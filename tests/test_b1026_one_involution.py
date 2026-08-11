@@ -94,7 +94,9 @@ def test_B62_height2_numbers_are_the_FULL_space_ie_twice_P33s():
     statements about the same object quote different numbers.
 
     This lock exists so the next reader meets the factor 2 as a stated fact rather than a
-    discrepancy — error class E1 (undeclared choice drift), the programme's most recurrent.
+    discrepancy — error class E1 (undeclared choice drift), which GOVERNANCE.md §13 and
+    WORKING_RULES.md name the programme's most recurrent. (Source corrected by B1033: this
+    docstring first credited docs/ERROR_LEDGER.md, which registers E1 but never says that.)
     """
     pos = {n: v.theta_split(n, 2) for n in (3, 4, 5)}
     assert pos == {3: (1, 0), 4: (1, 1), 5: (2, 1)}                      # P33's convention

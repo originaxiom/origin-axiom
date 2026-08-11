@@ -1020,6 +1020,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1033": {
+   "slug": "register reconciliation",
+   "motifs": [],
+   "refs": [
+    "B0",
+    "B100",
+    "B800",
+    "B860",
+    "B862",
+    "B864",
+    "B870",
+    "B873",
+    "B900",
+    "B976",
+    "L143",
+    "L158"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

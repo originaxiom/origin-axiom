@@ -1578,3 +1578,30 @@ type are one datum or two, then rewrite **one** counted list and cite it from th
 adjudication-shaped, and it touches no mathematics.** Note also that `CAMPAIGN_STATUS` line 56 and
 **L151 above** quote the pre-B1017 count (L151's list omits the VEV direction entirely) — they are
 dated entries, but a reader arriving at L151 first will read a four-item list as current.
+
+## L158 — AN ERA-STABLE SUBSTANTIALITY MEASURE FOR THE REPRESENTATION SWEEP (registered 2026-08-11; B1033)
+
+**The gap, measured.** `scripts/checks/representation_sweep.py` filters on `claim_one_line ≥ 500`.
+That field changed meaning around **B800** — median length **145–162 chars through B799**, then
+**733 / 2571 / 3084** in the three later bands — so **zero of the 731 pre-B800 arcs can ever be
+flagged**. The gate that exists to catch *"a row that was never written"* is structurally blind to
+two-thirds of the corpus, while its rule says *"every **substantial** banked arc"* with no era scope.
+
+**Why this is a lead and not a number to re-pick.** The obvious repair was tried and **failed**: a
+band-relative threshold (≥ 2× the band median) recovers **1 of 12** of the register's own
+calibration block. Replacing a *known* blind spot with an *unknown* one is worse than naming the
+known one. Note also that the measure the register **rejected** — FINDINGS.md size — is the
+era-stable one (median 2.0–5.5 KB in every band); its rejection was correct *within* the late era
+(B864's FINDINGS is 3.7 KB, short and dense) and does not generalise.
+
+**The cell.** Find a substantiality proxy whose distribution is stable across bands and which
+recovers **≥ 11 of 11** on the B860–B873 calibration set, then re-run the sweep over the whole
+corpus and triage whatever the early bands surface. **Candidates worth testing, none endorsed:**
+FINDINGS section count; `depends_on` breadth; lock count in the arc's test file; presence of an
+exact identity or a named theorem in the claim. **Vacuity control is mandatory and cheap:** any
+proposed measure must be shown to *fail* on a band of arcs known to be process/harvest work, or it
+is measuring "an arc exists".
+
+**Either outcome is a result.** A measure that works retires a named blind spot; a measure that
+cannot be found bounds what an automated representation gate can do, and the register then carries
+its era scope as a stated limit rather than an unexamined one.

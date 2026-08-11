@@ -10589,3 +10589,67 @@ the measurement is scoped by **authorship** — now the default shape here, and 
 act of recording a gap creates the citation that makes the gap look closed.** `THE_LADDER`'s own
 **X31** row already said so — *"Registering a gap creates hits for the gap, so the coverage count
 self-inflates"* — so the corpus had the lesson before this session did.
+
+## B1033 (2026-08-11) — the second debt register meets the first, and the gated one cannot see two-thirds of the corpus
+
+**Occasion:** before continuing the campaign, checking whether the repository already had a debt
+register. **It does** — and reconciling the two measured something larger than the omission.
+
+**THE OMISSION.** `docs/consolidation/DEBT_LEDGER.md` — this refresh's own deliverable — was built
+and published through three versions without ever naming **`docs/REPRESENTATION_TRIAGE.md`**
+(L143/B976), swept by `scripts/checks/representation_sweep.py` and enforced by a **failing** gate
+whose rule reads *"an untriaged unrepresented arc is the defect."* The two rules differ and each is
+right for its own question — triage: PROVED∪NEGATIVE, `claim ≥ 500`, **9** synthesis surfaces,
+*"represented anywhere a reader looks?"*; ledger: PROVED, no filter, **5** curated consolidations,
+*"**distilled**?"* — **234** rows against **10 live** / 17 triaged, overlapping in **6**. Neither
+count is withdrawn; publishing one without the other is the defect, the same shape B1030 filed
+against `THE_CLAIM` vs B1000, with the unreferenced register this time being mine. **B976** sits in
+the ledger and not in the triage, **correctly** — it is cited on two *sweep* surfaces and no
+*curated* one. Both registers behaved as designed; only the cross-reference was missing.
+
+**THE LARGER FINDING, about a live gate.** Median `claim_one_line` length: **145–162 chars through
+B799**, then **733 / 2571 / 3084**. The field changed from a one-line summary to an abstract around
+**B800**, so **zero of the 731 pre-B800 arcs can ever clear the 500-character bar.** *The gate that
+exists to catch "a row that was never written" is structurally blind to two-thirds of the corpus.*
+
+**Not a miscalibration.** It was tuned on the eleven lost cascade arcs (B860–B873; B862 excluded,
+another seat having cited it) and it catches **11 of 11** — a post-convention block. What is
+missing is a **stated era scope**; the rule reads *"every **substantial** banked arc."*
+
+**Three measurements that shape the repair:**
+1. **The margin on its own calibration block is TWO CHARACTERS.** **B862** — same block, the arc
+   that **derives the global ℤ₆ form** — has a claim line of **498**, outside the calibration set
+   only because another seat cited it an hour earlier. Otherwise: 11 of 12, and the miss would have
+   been the block's most consequential member.
+2. **The obvious repair fails, and was tested before being offered.** Band-relative threshold
+   (≥ 2× band median) recovers **1 of 12**. Registered as **L158**, not proposed as a fix.
+3. **The measure the register rejected is the era-stable one.** FINDINGS.md size: median
+   **2.0–5.5 KB in every band**, no step. Its rejection was right *within* the late era (B864's
+   FINDINGS is 3.7 KB, short and dense) and does not generalise. **Both decisions were locally
+   right; their composition is the gap.**
+
+**CONSEQUENCE — this arc reverses its own plan.** The intended repair was to stratify the ledger's
+rows by that bar (19 above, 215 below). **Refused:** all 19 are **≥ B870**, so applying it would
+silently discard the entire pre-B800 corpus and import the blindness just measured.
+
+**A SECOND, SMALLER CORRECTION.** B1024 and B1026 cite *"`docs/ERROR_LEDGER.md` names E1 the
+programme's most recurrent class."* **`ERROR_LEDGER.md` never uses the phrase** (E1 carries 3
+instances, fewer than E4's or E12's); the claim is real and binding but lives in **`GOVERNANCE.md`
+§13** and **`WORKING_RULES.md`**. **A misattribution, not a false claim** — stated at that size
+because the first read of the evidence looked worse and the spread-check corrected it. All three
+loci repointed inline; retraction row filed, since a citation to a document that does not contain
+the statement is the corpus's **E11**.
+
+**ON THE COUNT, 245 → 251 → 234.** Moving by construction — every consolidation row retires a debt
+row, and this pass added eleven arcs' worth. **And one movement was not consolidation:** the 251 was
+computed against a working tree that had been **rewound to an earlier commit**; the restored tree
+gives 234. **The structural findings were unaffected** — 0 of 731, the step function, the lowest
+above-bar row at B870 — which is what a structural finding should do under a change of substrate.
+The counts were recomputed **before** publication rather than after.
+
+**24 checks (importing the gate's own sweeper, not reimplementing it) · 6 new locks · 26 gates
+green.** Gate 5 untouched; nothing to `CLAIMS.md`.
+**Self-correction, one hazard now at five instances across four arcs:** an arc that both **measures**
+a gap and **fills** it invalidates its own metric unless scoped by **authorship** — here the
+register's new scope-limit note is what puts era language into the register. `THE_LADDER`'s **X31**
+row named this first.

@@ -1,5 +1,25 @@
 # Changelog
 
+## B1033 (2026-08-11) — the two debt registers reconciled; the gated one is era-blind
+
+**The omission:** `DEBT_LEDGER.md` never named `docs/REPRESENTATION_TRIAGE.md` — the repository's
+own, **gated** register of unrepresented arcs. Two rules, two questions: **234** rows (5 curated
+surfaces) vs **10 live** (9 synthesis surfaces, `claim ≥ 500`), overlapping in **6**.
+
+**The finding:** that 500-character bar is a **step in time**. Median claim length is 145–162
+through B799 and 733 / 2571 / 3084 after — so **zero of 731 pre-B800 arcs can ever be flagged**.
+The gate is structurally blind to two-thirds of the corpus. Its calibration is sound for the
+post-convention block it was tuned on (**11 of 11**) — with a **two-character margin** (B862, which
+derives the global ℤ₆ form, sits at 498).
+
+**Not fixed by re-picking the number:** a band-relative threshold recovers **1 of 12**, tested and
+rejected. Registered as **L158**. The ledger's rows are therefore **not** stratified by that bar.
+
+**Also:** the E1 "most recurrent" citation repointed from `ERROR_LEDGER.md` (which never says it)
+to `GOVERNANCE.md` §13 / `WORKING_RULES.md`. Two retraction rows filed.
+
+24 checks · 6 new locks · 26 gates green · Gate 5 untouched.
+
 ## B1032 (2026-08-11) — the across-breakings route, and a correction one arc old
 
 **B800–B1024 swept** (the last unswept band): 55 PROVED curated-absent — **27 substantive, 28

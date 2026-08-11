@@ -89,9 +89,11 @@ had to consume. Registered as a retraction row rather than a silent correction.
 
 **This is the third undeclared-convention collision the consolidation refresh has found** —
 after `θ` naming three distinct objects (B1026) and `B62 = 2 × P33` (full height-±h space vs
-positive roots). All three are error class **E1**, which `docs/ERROR_LEDGER.md` already names the
-programme's most recurrent, and **all three were found by diffing two surfaces against each
-other rather than by reading either one.**
+positive roots). All three are error class **E1**, which **`GOVERNANCE.md` §13 and
+`WORKING_RULES.md` name the programme's most recurrent** *(source corrected 2026-08-11 by B1033:
+this line first cited `docs/ERROR_LEDGER.md`, which registers E1 but never makes that claim)*, and
+**all three were found by diffing two surfaces against each other rather than by reading either
+one.**
 
 ## What this does and does not settle
 

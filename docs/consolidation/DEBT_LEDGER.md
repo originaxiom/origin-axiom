@@ -36,6 +36,80 @@ banked from this file, no claim's label changes.
 
 ---
 
+## §0 — THIS IS THE SECOND DEBT REGISTER, AND THE FIRST ONE IS GATED
+
+> **Added 2026-08-11 by B1033. The defect repaired: this file was built without checking whether
+> the repository already had a debt register. It does.**
+
+`docs/REPRESENTATION_TRIAGE.md` (from **L143 / B976**), swept by
+`scripts/checks/representation_sweep.py`, lists every *substantial* banked arc cited on no
+synthesis surface, with three dispositions — **PENDING / PROCESS / SURFACE** — and the
+`representation-sweep` gate **fails the build** when such an arc is untriaged: *"An untriaged
+unrepresented arc is the defect."* **Until this section, this file cited it zero times.**
+
+**The two rules differ, and each is right for its own question.**
+
+| | `REPRESENTATION_TRIAGE` (gated) | this ledger |
+|---|---|---|
+| verdicts | PROVED ∪ NEGATIVE | PROVED |
+| substantiality filter | **`claim_one_line` ≥ 500 chars** | none |
+| surfaces | **9**, incl. working registers (`OPEN_LEADS`, `CAMPAIGN_STATUS`, `HINT_LEDGER`, `knowledge/INDEX`) | **5 curated consolidations** |
+| asks | *"is this represented anywhere a synthesis reader looks?"* | *"is this **distilled** into a curated consolidation?"* |
+| count | **10 live** (17 rows, 13 PENDING) | **234** |
+| overlap | **6 arcs** | |
+
+Neither number is withdrawn. **What was wrong was publishing one without the other** — the same
+defect B1030 filed against `THE_CLAIM` vs B1000, the unreferenced register this time being this
+one. **B976**, whose lead created the triage, appears in this ledger's rows and *not* in the triage
+— correctly: it is cited on `THE_SM_VERDICT` and `SM_SPECIFICATION_LEDGER`, which are sweep
+surfaces and not curated ones. Both registers were behaving as designed; only the cross-reference
+was missing.
+
+> **On the count moving: 245 → 251 → 234.** This measurement is a **moving** one by construction —
+> every consolidation row added retires a debt row, and this pass added eleven arcs' worth. The
+> **234** here is measured against the tree at B1032. The lock bounds the share rather than pinning
+> the integer, precisely so ordinary consolidation work does not break it.
+
+### And reconciling them measured something worse than the omission
+
+**The gated register's substantiality bar is a step in time, not a measure of substance.**
+Median `claim_one_line` length, by band:
+
+| band | B0–99 | B100–799 | **B800–899** | **B900–999** | **B1000+** |
+|---|---|---|---|---|---|
+| median chars | 145 | 156–162 | **733** | **2571** | **3084** |
+| share ≥ 500 | 0 % | **0 %** | 56 % | 95 % | 100 % |
+
+> ### **Zero of the 731 arcs banked before B800 can ever clear that bar.** The gate that exists to catch *"a row that was never written"* is structurally blind to two-thirds of the corpus.
+
+This is **not a miscalibration.** The register was calibrated on the **eleven** lost cascade arcs
+(B860–B873; B862 excluded because another seat had already cited it) and it catches **11 of 11** —
+a post-convention block, where the field is an abstract rather than a one-line summary. The bar is
+right for the job it was built for, and carries **no stated era scope** while its rule says *"every
+**substantial** banked arc."*
+
+**Three further measurements, each recorded because it changes what should be done about it:**
+
+- **The margin on its own calibration block is two characters.** **B862** — same block, the arc
+  that **derives the global ℤ₆ form** — has a claim line of **498**. It is outside the calibration
+  set only because another seat cited it an hour earlier. Had it not, the headline would have been
+  11 of 12, and the miss would have been the block's most consequential member.
+- **The obvious fix fails.** A band-relative threshold (≥ 2× band median) recovers **1 of 12** of
+  the calibration block. **Tested before proposing, and rejected** — trading a known blind spot for
+  an unknown one is worse than naming the known one. *(Registered as **L158**.)*
+- The measure the register **rejected** — FINDINGS.md file size — is the **era-stable** one
+  (median 2.0–5.5 KB in every band, no step). Its rejection was right *within* the late era
+  (B864's FINDINGS is 3.7 KB, short and dense) and does not generalise across eras.
+
+### The consequence for this file, which reverses its own plan
+
+The intention was to **stratify these rows by that bar** — 19 above, 215 below. **That is refused.**
+Every one of the 19 is **≥ B870**; applying the bar would silently discard the entire pre-B800
+corpus, importing the blindness just measured. **The rows stand unstratified**, and what they are
+is unchanged from the correction above: *not unreachable — **not distilled***.
+
+---
+
 ## THE MEASUREMENT (v3)
 
 Each of the 934 distinct verdicted arcs tested for a citation of itself — **both** as a bare id

@@ -11,6 +11,25 @@ every **substantial** banked arc — non-instrument, PROVED or NEGATIVE, `claim_
 characters — that is cited on **no** synthesis surface. Each must appear below with a
 disposition. **An untriaged unrepresented arc is the defect.**
 
+> ## ⚠ MEASURED SCOPE LIMIT (added 2026-08-11 by B1033) — this register cannot see the early corpus
+>
+> **Zero of the 731 arcs banked before B800 can ever clear the 500-character bar.** Median
+> `claim_one_line` length is **145–162 characters through B799** and **733 / 2571 / 3084** in
+> B800–899 / B900–999 / B1000+: the field changed from a one-line summary to an abstract around
+> B800, so the filter separates **banking eras**, not substance. The calibration below is sound
+> *for the era it was calibrated on* — the eleven lost cascade arcs are all post-convention — but
+> the rule above says *"every **substantial** banked arc"* with no era scope, and as written the
+> gate is structurally blind to two-thirds of the corpus.
+>
+> **The margin is also two characters.** **B862** — same block, the arc that **derives the global
+> ℤ₆ form** — has a claim line of **498**. It is outside the calibration set only because another
+> seat had cited it an hour earlier.
+>
+> **Do not "fix" this by re-picking the number.** A band-relative threshold (≥ 2× band median)
+> recovers **1 of 12** of the calibration block — tested and rejected. FINDINGS.md size *is*
+> era-stable (2.0–5.5 KB in every band) but was rejected here for good reason within the late era.
+> A real repair needs a different kind of measure: **L158**.
+
 **Why claim length, not file size.** Calibrated on the block that was actually lost: a
 6 KB **file-size** floor would have caught **1 of 11** (B864's FINDINGS is 3.7 KB — short and
 dense). A **claim-length** floor of 500 catches **11 of 11**. A seat writes a long claim line

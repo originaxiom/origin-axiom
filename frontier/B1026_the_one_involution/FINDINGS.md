@@ -105,8 +105,10 @@ height-±h space** (each positive root and its negative — the multiplier secto
 **Both statements are correct. Neither declares its convention.** Two banked statements about
 the same object quote different numbers, and a reader diffing them meets a discrepancy rather
 than a factor of 2. This is **error class E1 — undeclared choice drift**, which
-`docs/ERROR_LEDGER.md` names the programme's *most recurrent* class, and it is now pinned by a
-lock so the next reader meets it as a stated fact.
+**`GOVERNANCE.md` §13 and `WORKING_RULES.md` name the programme's *most recurrent* class**
+*(source corrected 2026-08-11 by B1033: this line first cited `docs/ERROR_LEDGER.md`, which
+registers E1 but never makes that claim)*, and it is now pinned by a lock so the next reader
+meets it as a stated fact.
 
 *(Recorded per the campaign's stop rule 3 — propose and refute in the same file. The proposal
 here was my own expected number; its refutation is above.)*

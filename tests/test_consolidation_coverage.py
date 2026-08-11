@@ -169,3 +169,61 @@ def test_instrument_arcs_are_excluded_from_the_debt_count(arcs):
     t = _read("docs/consolidation/DEBT_LEDGER.md")
     assert "SUBSTANTIVE debt candidates" in t
     assert "not debt by design" in t
+
+
+# ---------------------------------------------------------------------------------------------
+# B1033 — the reconciliation with the repository's OTHER, GATED debt register.
+# This file measured a debt for three versions without ever naming `docs/REPRESENTATION_TRIAGE.md`,
+# which is swept by `scripts/checks/representation_sweep.py` and enforced by a FAILING gate.
+# These locks hold the cross-reference in place and pin the measured scope limit of that gate.
+# ---------------------------------------------------------------------------------------------
+import importlib.util as _ilu
+
+_B1033 = _ilu.spec_from_file_location(
+    "b1033", os.path.join(_ROOT, "frontier", "B1033_register_reconciliation", "verify.py"))
+_b1033 = _ilu.module_from_spec(_B1033)
+_B1033.loader.exec_module(_b1033)
+
+
+def test_b1033_every_reconciliation_check_passes():
+    failed = [k for k, c in _b1033.R["checks"].items() if not c["pass"]]
+    assert failed == [], failed
+
+
+def test_the_ledger_names_the_other_register_the_sweeper_and_the_gate():
+    """The omission this file existed with for three versions."""
+    t = _read("docs/consolidation/DEBT_LEDGER.md")
+    for token in ("REPRESENTATION_TRIAGE", "representation_sweep", "representation-sweep"):
+        assert token in t, token
+
+
+def test_the_two_registers_are_measured_separately_and_overlap_little():
+    n = _b1033.R["numbers"]
+    assert n["ledger_rule"] > 150 and n["triage_rule_live"] < 30
+    assert n["overlap"] < 10
+
+
+def test_the_gates_substantiality_bar_cannot_see_the_early_corpus():
+    """THE FINDING, pinned. Zero of the 731 pre-B800 arcs can clear `claim_one_line >= 500`,
+    because that field changed from a one-line summary to an abstract around B800. If this ever
+    stops holding, the sweeper's reach has genuinely changed and L158 should be revisited."""
+    n = _b1033.R["numbers"]
+    assert n["pre_B800_clearing_the_bar"] == 0
+    assert n["pre_B800_arcs"] > 700
+    med = n["median_claim_len_by_band"]
+    assert max(med[f"B{lo}"] for lo in range(0, 800, 100)) < 200
+    assert min(med[f"B{lo}"] for lo in (800, 900, 1000)) > 600
+
+
+def test_the_rejected_repair_is_recorded_as_rejected_not_adopted():
+    """MB12 discipline applied to a proposal: the band-relative threshold was tested BEFORE being
+    offered and recovers 1 of 12 of the register's own calibration block."""
+    assert _b1033.R["checks"]["the_obvious_band_relative_fix_FAILS_its_own_calibration"]["pass"]
+    assert "1 of 12" in _read("docs/OPEN_LEADS.md")
+    assert "L158" in _read("docs/REPRESENTATION_TRIAGE.md")
+
+
+def test_the_ledger_refuses_to_stratify_by_a_bar_it_just_measured_as_era_bound():
+    t = re.sub(r"\s+", " ", _read("docs/consolidation/DEBT_LEDGER.md"))
+    assert "That is refused." in t
+    assert "discard the entire pre-B800 corpus" in t

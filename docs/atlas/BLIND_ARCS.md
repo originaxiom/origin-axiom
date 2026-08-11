@@ -25,6 +25,7 @@ auditable in a way a passing threshold never was.
 
 | arc | disposition | why |
 |---|---|---|
+| `B1033` | INSTRUMENT | The two debt registers reconciled and the representation gate's substantiality bar measured as era-bound — about **the repository's own instruments**, not an object topic. An OBJECT atlas is correct to miss it. |
 | `B1018` | INSTRUMENT | The suite's parallel qualification (xdist, the arbiter rule) — about **our own test infrastructure**, not an object topic; an OBJECT atlas is correct to miss it. |
 | `B977` | INSTRUMENT | The representation-sweep gate — about **our own claim hygiene**, not an object topic. |
 | `B966` | INSTRUMENT | The `lawmap-scope` gate — about **our own claim hygiene**, not an object topic. |

@@ -1,0 +1,175 @@
+{
+ "checks": {
+  "the_two_rules_give_different_sets": {
+   "pass": true,
+   "ledger": 234,
+   "triage_live": 11,
+   "triage_rows": 17,
+   "overlap": 6
+  },
+  "the_overlap_is_small": {
+   "pass": true,
+   "overlap": [
+    "B870",
+    "B879",
+    "B881",
+    "B938",
+    "B943",
+    "B968"
+   ]
+  },
+  "the_sweeper_module_is_the_gates_own_not_a_reimplementation": {
+   "pass": true
+  },
+  "b976_is_in_the_ledger_set_and_correctly_not_a_triage_row": {
+   "pass": true
+  },
+  "b976_is_cited_on_sweep_surfaces": {
+   "pass": true
+  },
+  "NO_arc_before_B800_can_ever_clear_the_500_char_bar": {
+   "pass": true,
+   "n_pre800": 731,
+   "over": []
+  },
+  "the_median_claim_length_steps_by_an_order_of_magnitude_at_B800": {
+   "pass": true,
+   "median_by_band": {
+    "B0": 145,
+    "B100": 156,
+    "B200": 160,
+    "B300": 159,
+    "B400": 160,
+    "B500": 160,
+    "B600": 157,
+    "B700": 162,
+    "B800": 733,
+    "B900": 2571,
+    "B1000": 3112
+   }
+  },
+  "so_the_bar_measures_the_banking_convention_not_substance": {
+   "pass": true
+  },
+  "the_calibration_set_is_the_eleven_named_by_B976_and_counted_by_the_register": {
+   "pass": true
+  },
+  "all_eleven_clear_the_bar_as_the_register_claims": {
+   "pass": true,
+   "lengths": {
+    "B860": 908,
+    "B861": 918,
+    "B863": 734,
+    "B864": 792,
+    "B865": 882,
+    "B868": 763,
+    "B869": 1111,
+    "B870": 1095,
+    "B871": 1113,
+    "B872": 1306,
+    "B873": 1510
+   }
+  },
+  "the_calibration_set_is_entirely_post_convention": {
+   "pass": true
+  },
+  "the_bars_margin_on_its_own_calibration_block_is_two_characters": {
+   "pass": true,
+   "b862_claim_len": 498,
+   "bar": 500
+  },
+  "the_register_stated_its_calibration_but_never_scoped_it_in_time": {
+   "pass": true
+  },
+  "and_this_arc_is_what_adds_the_scope_limit": {
+   "pass": true
+  },
+  "the_obvious_band_relative_fix_FAILS_its_own_calibration": {
+   "pass": true,
+   "recovered": 1,
+   "of": 11,
+   "note": "2x-band-median recovers 1 of 12 — proposing it would have replaced a known blind spot with an unknown one"
+  },
+  "FINDINGS_size_is_era_STABLE_unlike_claim_length": {
+   "pass": true,
+   "findings_median_by_band": {
+    "0": 1988,
+    "100": 5483,
+    "200": 3987,
+    "300": 4038,
+    "400": 3358,
+    "500": 3950,
+    "600": 2930,
+    "700": 4496,
+    "800": 3994,
+    "900": 4421,
+    "1000": 4562
+   }
+  },
+  "every_ledger_row_clearing_the_bar_is_late_corpus": {
+   "pass": true,
+   "lowest": "B870",
+   "count": 19
+  },
+  "so_stratifying_the_ledger_by_that_bar_would_discard_the_entire_early_corpus": {
+   "pass": true,
+   "would_be_dropped": 215
+  },
+  "the_ledger_now_cites_the_triage_register": {
+   "pass": true
+  },
+  "the_ledger_carries_both_counts_and_refuses_the_stratification": {
+   "pass": true
+  },
+  "e1_source_repointed_in_FINDINGS.md": {
+   "pass": true
+  },
+  "e1_source_repointed_in_test_b1026_one_involution.py": {
+   "pass": true
+  },
+  "the_error_ledger_really_does_not_say_it": {
+   "pass": true
+  },
+  "but_governance_and_working_rules_do": {
+   "pass": true
+  }
+ },
+ "numbers": {
+  "ledger_rule": 234,
+  "triage_rule_live": 11,
+  "triage_rows": 17,
+  "overlap": 6,
+  "ledger_rows_clearing_the_bar": 19,
+  "lowest_such": "B870",
+  "pre_B800_arcs": 731,
+  "pre_B800_clearing_the_bar": 0,
+  "median_claim_len_by_band": {
+   "B0": 145,
+   "B100": 156,
+   "B200": 160,
+   "B300": 159,
+   "B400": 160,
+   "B500": 160,
+   "B600": 157,
+   "B700": 162,
+   "B800": 733,
+   "B900": 2571,
+   "B1000": 3112
+  },
+  "median_findings_bytes_by_band": {
+   "0": 1988,
+   "100": 5483,
+   "200": 3987,
+   "300": 4038,
+   "400": 3358,
+   "500": 3950,
+   "600": 2930,
+   "700": 4496,
+   "800": 3994,
+   "900": 4421,
+   "1000": 4562
+  },
+  "band_relative_recovery_of_calibration_block": "1/11"
+ },
+ "all_pass": true
+}
