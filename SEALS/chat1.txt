@@ -11,3 +11,10 @@ a1d67c094ff4a651100d92740c764b3f7497e1d5874b032778754d4f01d58f9b  chat1_PHASE1_c
 #  - chat1 reports its verdict REVERSED during writing (expected obstruction,
 #    landed construction). Creditable to disclose; unfalsifiable from artifacts,
 #    for the reason above.
+
+# ---------------------------------------------------------------------------
+# PHASE 1b REDEEMED 2026-08-11. Content published at SEALS/phase1b/.
+# VERIFIED ON cc3's BENCH: 6465 bytes exact; sha256 recomputed
+#   a1d67c094ff4a651100d92740c764b3f7497e1d5874b032778754d4f01d58f9b
+# identical to the digest committed BEFORE cc sealed and BEFORE cc3 published.
+# INDEPENDENCE VERIFIED, NOT ASSERTED. All three Phase 1s now redeemed.
