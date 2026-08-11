@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **953** |
-| words of findings prose | **642,425** |
+| research arcs with findings | **954** |
+| words of findings prose | **643,157** |
 | test lock files referenced | **594** |
-| arcs carrying an authored verdict | **940** (98.6 %) |
+| arcs carrying an authored verdict | **941** (98.6 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 619 |
+| PROVED | 620 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1033`** (1086 words, 0 locks)  
-THE GENERATION ADJUDICATION (Lane II-1, sealed 73eedc0b before the decisive computations, pushed 54059957): B897's flavor-3 ADJUDICATED AGAINST THE RESURFACED WALLS -- V1 (the exact per-vector content table): CHIRAL, prior held -- block A's three arm02-copies carry DISTINCT content, blocks B/C have no 3-copy structure at char 0, and the so(10)-singlet anomaly resolves as the trinification lepton-block pattern (arm02-charged, color-neutral): the su(3)' is a CHIRAL (trinification/SU(3)_R-type) algebra, NOT a family algebra; the 6+2+8 cross-cut (Q/L/right-handed) is the same fact from the so(10) side; every sentence B897 actually sealed stands (shape claims), the flavor NAME dies. V2 (the orbit-channel identity): DISTINCT, DECLARED PRIOR WRONG AND RECORDED -- B299's (theta,phi) transported through both diagram bijections reproduces the nine free 3-orbits in the banked frame (verification bonus), but NO orbit-set equals the cubic's nine-term (0,2,4) channel: the orbit-route candidate loses its first anchor and sealed branch (iii) does not fire. V3: (ii) ORTHOGONAL alone -- flavor-3 is trinification-3; B280 (one 27 = one generation) and B298 (seven routes) STAND; the naive upgrade is DEAD by its own adjudication cell. THE CONSTRUCTIVE RESIDUE: the cascade endpoint carries the full left-right trinification anatomy of one family + Higgs in closed form -- the u(1)-graded cubic I = det A + two epsilon-channels + the 27-term trace (the Yukawa backbone), the lepton-Higgs cohabitation (B884's mu-cells named), color = arm45, the VEV singlet-corners with monomial coordinates. Lane II redirects to B298's cubic-carrier direction; the orbit route needs a new anchor to be re-posed. THE_CLAIM's generation row re-scoped same batch; the naming-gate practice proposed (the day's three same-symbol collisions). Priors: V1 HELD, V2 WRONG-as-declared, non-weakening applied. Gate 5 untouched; type-law obeyed.  
-`B1033_generation_adjudication/FINDINGS.md`
+**PROVED — `B1034`** (732 words, 0 locks)  
+L154 ADJUDICATED (plan Arc 1; sealed 6361f222 pre-compute, pushed 0861e5bb; the audit seat RECUSED with its D-ii/D-iii apparatus adopted): UNDECIDED -- THE HONEST MIDDLE, AND SHARPER THAN IT SOUNDS. V1 both sides exact: c_BH = 3l/2G = 6*sigma (B1012's closure, phrase-checked) and c((E6)_1) = 78/13 = 6 with the banked split 16/5 + 14/5 verified as SU(3)_2 x (G2)_1 by Sugawara arithmetic. V2 the map hunt: NO-EXHIBIT -- all corpus co-occurrences of the two sides are B1012's own gravitational discharge text or the L154 lead's registration restating the QUESTION; a citation that both are called sigma is not a map, and the corpus never pretended one. V3 NO-CLASH: chirality compatible (amphichiral vs c_L = c_R); THE PRE-FLAGGED QUANTIZATION THREAT ADJUDICATED TO A PIN, NOT A CLASH (identifying central charges pins sigma = 1 -- a continuous parameter taking a value; not-quantized != not-determined); the unit fence holds (c-match fixes l/G = 4*sigma, a RATIO -- A1 untouched). VERDICT PER THE SEALED TABLE: c = 6 NOT derived; the anchor stands; SAME IS UNOBSTRUCTED AND UNEXHIBITED, and the missing piece is NAMED AND PRICED: one banked bridge statement identifying the stage CFT with the AdS3 boundary CFT of the object's own quotient (show the boundary algebra contains (E6)_1, or the boundary partition function carries the SU(3)_2 x (G2)_1 fingerprint) -- S1-class constructive work; the lead narrows from establish-or-refute to construct-the-bridge-or-find-its-obstruction. THE THIRD-SIGMA TERMINOLOGY ROW REGISTERED same batch (gravitational level / stage usage / B945's R-L chirality bit -- any sentence saying only sigma has not stated its subject). No prior was declared and none is scored; the recused seat's SAME-side stake neither confirmed nor refuted. Gate 5 untouched; type-law obeyed.  
+`B1034_l154_sigma/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

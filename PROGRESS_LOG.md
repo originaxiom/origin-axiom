@@ -10247,3 +10247,13 @@ antisymmetry wall = this arc's det/ε anatomy from the cochain side; the mirror-
 symmetric texture is the lane's one live cell (unregistered — fresh seal required);
 L154 restored to its registered form; the B1029↔B647 join named. THE_CLAIM re-scoped;
 naming-gate practice added. Locks: tests/test_b1033_adjudication.py.
+
+## 2026-08-12 — B1034: L154 adjudicated UNDECIDED; the anchor stands; the bridge named
+
+Plan Arc 1 executed as sealed (no prior declared; recusal honored; D-ii/D-iii adopted).
+NO-EXHIBIT × NO-CLASH → the honest middle: SAME is unobstructed (the quantization threat
+pins rather than clashes) and unexhibited (no banked map joins the stage to the AdS₃
+boundary — verified by adjudicated search, not absence-assertion). The lead narrows to
+construct-the-bridge-or-find-its-obstruction (S1-class). Third-σ row in TERMINOLOGY.
+Riders: provenance regex → B\d{2,4}; Todorov addendum on B862; naming-gate build
+deferred with design constraint. Locks: tests/test_b1034_l154.py.

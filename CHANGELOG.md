@@ -1,5 +1,23 @@
 # Changelog
 
+## B1034 (2026-08-12) — L154 lands UNDECIDED: SAME is unobstructed, unexhibited, and priced at one bridge
+
+Plan Arc 1, sealed 6361f222 pre-compute, no declared prior, the audit seat recused. V1:
+both sides exact (c_BH = 6σ; c((E₆)₁) = 78/13 = 6 with the banked 16/5 + 14/5 split
+verified as SU(3)₂ × (G₂)₁ by Sugawara arithmetic). V2 **NO-EXHIBIT**: every corpus
+co-occurrence of the two sides is B1012's own gravitational discharge or the lead's
+registration restating the question — the record contains no map and never pretended one.
+V3 **NO-CLASH**: the pre-flagged quantization threat adjudicates to a PIN, not a clash
+(identifying central charges pins σ = 1; not-quantized ≠ not-determined); chirality
+compatible; the unit fence holds (the c-match fixes ℓ/G, a ratio). **Verdict: c = 6 NOT
+derived; the anchor stands; the lead narrows to its constructive residue — one banked
+bridge statement (the boundary algebra contains (E₆)₁, or the boundary partition function
+carries the split's fingerprint) stands between the anchor and the derived c.** The
+third-σ TERMINOLOGY row registered (gravitational / stage / B945's chirality bit).
+Riders: the provenance regex widened to B\d{2,4} (R43-7); B862's Todorov novelty-scope
+addendum (R43-8); the naming-gate BUILD deferred with its design constraint named (a
+blocking gate needs a false-positive-safe design; the practice is already binding).
+
 ## B1033 (2026-08-11) — THE GENERATION ADJUDICATION: the flavor reading is CHIRAL, every "three" is one 27's anatomy, and the lane redirects honestly
 
 Sealed 73eedc0b before the decisive computations, pushed pre-compute. **V1 (prior HELD):

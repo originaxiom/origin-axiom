@@ -313,3 +313,11 @@ No invariant may be transferred between these without an explicit map.
   character-RING element, not a bare character value (the B1032 amendment); **the phases**
   = a ℤ/3 finite label. A nomination prices against the menu it names, with that menu's own
   base rate. Grep lesson attached: search both φ and phi — the corpus writes both.
+- **"σ" names THREE quantities** (the collision completed at B1034, after the window
+  handoff's two and B945's third): (1) the **gravitational level** σ = ℓ/4G — continuous,
+  unquantized, the object SIGHTED in it (∂S/∂σ = −Vol; B1012); (2) the **stage usage** —
+  the candidate pin σ = 1 of c = 6σ against c((E₆)₁) = 6 (L154's question; UNDECIDED at
+  B1034: unobstructed, unexhibited, the bridge named); (3) **B945's σ = the R↔L swap**
+  (fiber orientation flip = chirality) — a discrete ℤ/2 closing bit, an item of the
+  price. Any sentence saying only "σ" has not stated its subject (the D-iv clause,
+  binding).

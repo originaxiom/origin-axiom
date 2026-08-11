@@ -964,6 +964,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1034": {
+   "slug": "l154 sigma",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B303",
+    "B945",
+    "L154",
+    "S1",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

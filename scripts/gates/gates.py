@@ -653,7 +653,9 @@ def gate_law_map_provenance():
     rows = [l for l in text.splitlines()
             if l.startswith("|") and l.count("|") >= 4 and "---" not in l
             and not re.match(r"^\|\s*(law|name)", l, re.I)]
-    noarc = [r for r in rows if not re.search(r"\bB\d{2,3}\b", r)]
+    # widened B\d{2,3} -> B\d{2,4} at R43-7 (B1027's row needed 3-digit lineage cites
+    # purely to satisfy the old regex; 4-digit arcs are first-class citizens now)
+    noarc = [r for r in rows if not re.search(r"\bB\d{2,4}\b", r)]
     broken = [m for r in rows for m in re.findall(r"tests/(test_[a-z0-9_]+\.py)", r)
               if not os.path.isfile(os.path.join(ROOT, "tests", m))]
     problems = []
