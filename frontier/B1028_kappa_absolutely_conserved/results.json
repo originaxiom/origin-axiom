@@ -1,0 +1,46 @@
+{
+ "cell": "B1028",
+ "checks": {
+  "stratum1_Aut_conserves_kappa_exactly": {
+   "pass": true,
+   "detail": "kappa' = kappa"
+  },
+  "stratum2_law_kappa_minus_2_times_x2y2": {
+   "pass": true,
+   "detail": "kappa'-2 = (kappa-2)*x^2*y^2"
+  },
+  "stratum3_ThueMorse_law": {
+   "pass": true,
+   "detail": "kappa'-2 = (kappa-2)*(x^2+y^2-xyz)"
+  },
+  "U1_stratum1_kappa_minus_2_divides_exactly": {
+   "pass": true,
+   "detail": "cofactor 1"
+  },
+  "U1_stratum2_kappa_minus_2_divides_exactly": {
+   "pass": true,
+   "detail": "cofactor x**2*y**2"
+  },
+  "U1_stratum3_kappa_minus_2_divides_exactly": {
+   "pass": true,
+   "detail": "cofactor x**2 - x*y*z + y**2"
+  },
+  "U1_kappa_equals_2_is_invariant_under_all_three": {
+   "pass": true,
+   "detail": "substituting the kappa=2 locus into each pushforward returns kappa' = 2"
+  },
+  "stratum4_noninjective_image_lies_in_kappa_2": {
+   "pass": true,
+   "detail": "a->ab, b->ab : image is cyclic => kappa' = 2 IDENTICALLY, for every z"
+  },
+  "every_stratum_law_is_multiplicative_in_kappa_minus_2": {
+   "pass": true,
+   "detail": "so kappa-2 (the OBSTRUCTION, = omega^2) is what every endomorphism scales"
+  }
+ },
+ "cofactors": {
+  "stratum1": "1",
+  "stratum2": "x**2*y**2",
+  "stratum3": "x**2 - x*y*z + y**2"
+ }
+}

@@ -35,6 +35,26 @@ The aAbB principle is not a metaphor here. It is **A1–A4** of the uniqueness t
 > chain — κ−2 = ω² → ℚ(√−3) → 2T → McKay-E₆ → Layer 3's cascade** — and the quantum structure (the
 > TQFT quantization). B518: substrate-independent, scale-free, derived from the two letters alone.
 
+> **κ's OTHER THREE FACES — restored 2026-08-11 (B1027, B1028) after being absent from this
+> document since its creation.** B1010 restored the bridge equation itself; these are the faces
+> it did not carry, and each was re-verified before restoring:
+>
+> | face | κ = 2 is | arc |
+> |---|---|---|
+> | founding | the cancellation completes ⟺ **nothing** | B309 · B518 |
+> | **transfer-matrix** | **λ = 0** — `κ = 2 + λ²` (B160) ≡ `κ − 2 = 4λ²` (B505), one identity in two conventions. B505: κ **is** the squared coupling of the *measured* quasicrystal chain, so κ = 2 is **the free metal** | B160 · B505 |
+> | **spectral** | the **unique** fiber of the κ-foliation with **positive-measure** spectrum; every other κ gives a zero-measure set *(cited at B162's grade, not re-verified)* | B162 |
+> | **functorial** | **absolutely conserved** — invariant under *every* endomorphism of F₂, and the entire image of every **non-injective** one. Every stratum law is a multiple of **κ − 2** | B497 · B1028 |
+>
+> **The two collapses are the same statement twice.** At λ = 0 the two transfer matrices become
+> the **same matrix**; under a non-injective endomorphism the two letters become the **same word**.
+> *The cancellation completes exactly when the map forgets which letter was which.*
+>
+> **And the scope this forces, in B497's own words: "The program to date = stratum 1 of 4."** The
+> corpus works in the **automorphism** stratum, where `κ′ = κ` — κ is conserved *because of where
+> the programme stands*, not as a general fact about the object's maps. Strata 2–4 have exact laws
+> and are unwalked. *Scope carried verbatim from B505: "Form-level; NOT a B398 crossing."*
+
 > **A1–A6 force the persistent sector `A = LR = [[2,1],[1,1]]`, and from `A` the entire
 > proven core P1–P16 follows as exact consequences.**
 

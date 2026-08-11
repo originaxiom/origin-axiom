@@ -854,6 +854,36 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1028": {
+   "slug": "kappa absolutely conserved",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "quasicrystal",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B160",
+    "B162",
+    "B309",
+    "B400",
+    "B416",
+    "B417",
+    "B497",
+    "B499",
+    "B505",
+    "B518",
+    "P3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B102": {
    "slug": "hitchin continuation",
    "motifs": [

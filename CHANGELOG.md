@@ -1,5 +1,23 @@
 # Changelog
 
+## B1028 (2026-08-11) — κ = 2 is absolutely conserved: the four End(F₂) strata
+
+**B497**, carried by no curated consolidation, classifies `End(F₂)` into four strata with an exact
+κ-law each — all re-derived here. **Every law is a multiple of κ − 2**, so the *obstruction* is
+what an endomorphism scales and **κ = 2 is invariant under every endomorphism of F₂**.
+
+**The sharpest line:** a **non-injective** endomorphism has its whole image in κ = 2. *The
+cancellation completes exactly when the map forgets which letter was which* — the same collapse
+B1027 found at λ = 0 (one **matrix** there, one **word** here).
+
+**The fourth and only functorial face of κ = 2. All four restored to `THE_FRAMEWORK` Layer 0.**
+
+**The scope it forces, B497's own words:** *"The program to date = stratum 1 of 4"* — the corpus
+works in the Aut stratum, where κ is conserved because of where it stands. Strata 2–4 unwalked.
+
+**Error caught in-arc:** the first stratum-4 model failed; `φ(ab) = w²` so `z′ = z²−2`. The check
+caught the modelling error, not the law. Wrong model pinned as wrong. 7 locks.
+
 ## B1027 (2026-08-11) — κ = 2 is the free chain: the founding sentence's third and fourth faces
 
 The bridge equation's **κ = 2 ⟺ nothing** has three further banked meanings and **no curated

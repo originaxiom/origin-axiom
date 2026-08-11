@@ -10342,3 +10342,40 @@ one conserved quantity on both faces, the premise this reconciliation rests on.
 novelty claimed (the trace map and Fricke–Vogt invariant are standard). **B162 is cited, not
 re-verified** — registered as **L155**. **L156** registers carrying B332 into Layer 1.
 **L153 closed** in `OPEN_LEADS` by B1024. 9 locks incl. an MB12 control. Gate 5 untouched.
+
+---
+
+## B1028 (2026-08-11) — κ = 2 is ABSOLUTELY CONSERVED, and the information-losing maps land inside it
+
+**CONSOLIDATION REFRESH, band B400–B499** — the densest debt band after the v3 recount.
+
+**B497** classifies `End(F₂)` on the character variety into four strata with an exact κ-law each,
+and **is carried by no curated consolidation**. All four re-derived here from the substitutions:
+**Aut** `κ′ = κ` · `|det| ≥ 2` `κ′−2 = (κ−2)x²y²` · **Thue–Morse** `κ′−2 = (κ−2)(x²+y²−xyz)` ·
+**non-injective** → image ⊆ `{κ = 2}`.
+
+**Every law is a multiple of κ − 2.** So the *obstruction* — the thing the founding sentence is
+about — is exactly what an endomorphism scales, and **κ = 2 is invariant under every endomorphism
+of F₂**. **The sharpest line:** a map that **loses information** has its whole image in κ = 2
+(`a→ab, b→ab` gives `(z, z, z²−2)`, κ′ = 2 identically). *The cancellation completes exactly when
+the map forgets which letter was which* — **the same collapse B1027 found at λ = 0**, letters
+becoming one **matrix** there and one **word** here.
+
+**This is the fourth and only FUNCTORIAL face of κ = 2**, after the founding, the transfer-matrix
+and the spectral. **All four now restored to `THE_FRAMEWORK` Layer 0** — the read `doc-currency`
+asked for, not a citation bump.
+
+**The scope it forces, B497's own words and on no surface: *"The program to date = stratum 1 of
+4."*** The corpus works in the **automorphism** stratum where `κ′ = κ`, so κ is conserved
+*because of where the programme stands*. Strata 2–4 have exact laws and are unwalked.
+
+**An error caught in-arc:** the first stratum-4 model `(z,z,z)` **failed** — `φ(ab) = w²`, so
+`z′ = z²−2`. The check caught **my modelling error, not B497's law**; the wrong model is pinned
+as wrong in the lock.
+
+**Two neighbours, verified present and uncited:** **B416** (golden-Anosov flow, Lyapunov
+`4 log φ`, **its own bar NOT CLEARED**, and generic to the metallic family — *"not even
+figure-eight-specific"*) and **B417** (Sturmian subshift, **entropy 0**, also NOT CLEARED).
+**The flow has positive entropy and the subshift zero — two faces, both honest negatives.**
+
+No novelty claimed. 7 locks incl. an MB12 control. Gate 5 untouched.
