@@ -10480,5 +10480,17 @@
   "revival_score": 0,
   "note": "ROUTED 2026-08-09 during the B1007 banking, when test_b833's backlog lock fired. VERIFIED AT HEAD BEFORE ROUTING: B995, B996, B1005 and B1006 were ALREADY unrouted, so the lock had been red across four consecutive bankings and B1007 was merely the fifth to trip it -- the backlog B836 cleared had rebuilt exactly as the lock's docstring warned. Unlike the B836 sweep, these judgement fields are SET rather than left blank, because each arc's verdict was read in full first; faces_consulted is the one field left empty, since which faces an arc consulted is not recoverable from its verdict text and guessing it would fabricate the signal the field exists to carry. The ninth instance in one session of grepping claims instead of reading code; registered as a named discipline in PRACTICES ('Read the code before rebuilding it') and locked by tests/test_b1007_arb_maass.py, which ASSERTS the working solver's presence so the false belief fails a test rather than merely being wrong.",
   "routed_from": "B1007-banking-backlog-sweep"
+ },
+ {
+  "id": "B1027",
+  "claim_killed": "That the coupling channel's chi phases {+-2pi/3} are the CP phases -- either sector. Killed by sealed measurement contact (the fourth crossing, prior MISS declared and held): quark delta_13 = 68.8 +- 4.5 deg excludes both predictions at 11.4 and 38.0 sigma (decisive, permanent); leptonic NuFIT 5.2 NO (197 +42/-25) excludes at 3.1 sigma and at 1.02 sigma -- the -120 prediction missing by ONE DEGREE (43.0 vs the 42.0 upper error), NOT promoted under non-weakening.",
+  "kill_form": "powered-exclusion (sealed crossing; both sectors powered)",
+  "faces_consulted": [],
+  "fact_computed": true,
+  "hatch": "THE PRE-COMMITTED REFRESH: the same sealed windows re-adjudicated against the actual latest global fit when fetchable -- the leptonic margin is the precision frontier, and a fit shrinking delta_CP's upper error ~2x decides +-120 sharply either way (an EXTERNAL decider on an experiment's schedule, not a reopening by argument). Separately unspent: the theta-even mirror sector (never compared) and the T2 runner-up (3.0 bits) -- any future attempt starts from a fresh nomination with this ledger's 2 bits + 2 rows priced.",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "Routed same-day by the seat that banked it, after the routing lock fired on the banking suite -- the lock's fourth catch of this exact pattern. The commit had already pushed on a red suite (the command did not gate on the result); recorded as the process slip it is.",
+  "routed_from": "B1027-banking"
  }
 ]
