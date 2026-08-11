@@ -284,3 +284,20 @@ No invariant may be transferred between these without an explicit map.
   — the one the object is **provably blind to**, ∂S/∂k = −CS = 0). These live in different
   theories; an identification between them would be a **category claim needing its own arc**, and
   no such arc exists.
+- **"the value-kernel"** (B1029): the kernel of the frame group's action on the banked coupling
+  VALUES — computed to be exactly θ = c∘r (reversal-and-contragredient), because reversal acts on
+  values identically to conjugation (SU(2) traces real; unitary characters conjugate under
+  inverse). Distinct from θ's rep-level action, which is nontrivial; the scope is the sealed
+  inventory (unitary characters × SU(2) traces). "θ-odd value data" is a contradiction in terms
+  at this level.
+- **"the trit"** (B1025 retype, B1030 verified): the VEV acceptance's residual discrete content —
+  one ℤ/3 label choosing which of the 27's three 9-blocks (equivalently which surviving SU(3);
+  the two namings are one act via the singlet-bijection) receives the closing. Orbit order
+  exactly 3 under triality; log₂3 = 1.585 bits; a finite label, not a modulus. Substrate: B897's
+  banked 9-blocks.
+- **"the freedom ledger" / "COMPRESSION" / "THE ADDRESS"** (B1028): the retroactive
+  look-elsewhere audit of the whole chain. COMPRESSION = structure-bits-out (against declared
+  ambient classes) exceed retroactive designer-bits-in; THE ADDRESS = the opposite, with the
+  concentrated links named (the campaign's stop-rule trigger). "Retroactive freedom" is distinct
+  from "declared inputs" (hypotheses, published and typed): conflating them is a category error
+  the ledger prices anyway, in the open.

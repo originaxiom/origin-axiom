@@ -10199,3 +10199,16 @@ divisibility assertion is unfailable at length-weight 1 — the vacuity control 
 the frame, not the instance. THE_CLAIM adopts the quantified floor (3 + log₂3 = 4.585
 discrete input bits) with the exact-zero conflated-balance coincidence stated in the
 open and the dead sentence removed same-batch. Locks: tests/test_b1030_price_lock.py.
+
+## 2026-08-11 — REVIEW 43 executed (window B1009–B1030, anchor 25e08497)
+
+Owner-delegated timing ("your call") — run immediately after the floor quantified, so the
+review certifies a complete state. The loop: memory-currency RUN AND FIXED (refresh +
+compaction, now a standing review practice); L148 resolved by the triage-registry redesign
+(B820–B825, on main); TOOLBOX.md carried as R43-1, the named reader-standard block. Error
+recurrence: four disclosed instances, all four caught by standing rules; E2 gains two
+instance notes; NEW CLASS E22 (verdict-before-certificate) registered with its counter-rule.
+Provenance sweep clean; three new terms glossed in TERMINOLOGY (value-kernel, the trit, the
+freedom ledger's outcome pair). Seals 3/3 byte-verified; hash-first honored throughout;
+B1030's open-compute status declared. Ten action items (R43-1..10). Next review due after
+20 merges.

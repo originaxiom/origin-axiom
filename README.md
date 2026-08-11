@@ -76,6 +76,8 @@ A claim-bounded, reproducible investigation of the **Origin Axiom** — the idea
 existence is a *frustrated cancellation*: a remainder left when an attempt to cancel to
 nothing cannot complete.
 
+> **State at Review 43 (2026-08-11).** The window after the seat switch: the fourth value-crossing ran sealed and died clean by ONE DEGREE (the refresh verdict is pre-committed); THE WHY CAMPAIGN opened — the global freedom ledger prices the whole chain's retroactive designer freedom at **0.000 bits** against a 4.585-bit conservative output floor (COMPRESSION; the stop rule does not fire), and the frame action's value-kernel is exactly θ (the legitimately-predictable set = the real subring; the non-invariant remainder is one sign). The counted input floor is now quantified and adopted in THE_CLAIM: **one unit, two bits, one trit** plus the J acceptance. Ledger: `docs/progress/REVIEWS.md` Review 43.
+>
 > **State at Review 40 (2026-08-07).** All three crossings have now fired, under seal, and
 > all three came back negative in different ways: the desert MISSES at 16σ (B915), the
 > D-chain is provably **not** Pati–Salam by the chain's own algebra (B925), and the twist's

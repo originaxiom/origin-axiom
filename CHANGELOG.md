@@ -1,5 +1,18 @@
 # Changelog
 
+## Review 43 (2026-08-11) — the window where every error met a rule that already existed
+
+Window B1009–B1030 (anchor `25e08497`), owner-delegated timing. The headline is the error
+section: **four disclosed instances, all four caught by standing rules already on the books**
+— the sealed-vocabulary locks, the test-vacuity gate, the sealed pricing machinery, and MB12
+applied to an incoming instrument; the one slip that beat its rule by minutes (a commit on a
+red suite) is now **class E22** with its counter-rule written. The loop closed R42's owed
+memory-currency item (refreshed, compacted, made a standing review practice) and L148 (the
+lexicon triage-registry redesign, B820–B825); TOOLBOX.md is carried again as the named block.
+Advancement: κ-unification RESTORED, the McKay tensor THEOREM, the door theorem, the
+provisional frame-bits, the phase exclusion, the value-kernel. Seals 3/3 byte-verified;
+provenance sweep clean; three new TERMINOLOGY glosses; ten action items (R43-1..10).
+
 ## B1030 (2026-08-11) — the floor quantifies: one unit, two bits, ONE TRIT (verified), one defect returned to sender
 
 The audit seat's price-lock verified by **independent routes** (closed cohomology formula vs

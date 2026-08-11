@@ -2948,14 +2948,17 @@ per-sector grading by non-clustering charges) — all recorded in their arcs.
 
 ### Action items (Review 37)
 
-- [ ] R37-1 (carries R36-1, still undone, still highest-value): **re-ask "could this gate
-  still fail?" across all 19 gates**, now including the new candidate gate: FINDINGS ⟹
-  sibling arc_verdict.json (this review found one missing).
-- [ ] R37-2: **the §5.1 promotion audit over the listed candidates**, the First Measurement
-  Theorem first. Every promotion through the gates, logged.
-- [ ] R37-3: **the joint queue with the solo seat**: (i) the across-breakings reformulation
-  of O3; (ii) descent stage 2 (the graded multiplication table); (iii) the exact ℚ(ρ) pass
-  (their (b)) + the levi2.py manifest completion.
+- [>] R37-1 (carries R36-1): carried to R43-11 — the gate set has since grown to 26; the
+  re-ask runs against the current set. FINDINGS ⟹ sibling arc_verdict.json is now partially
+  covered by the wellformed-record lock (it rejected an out-of-vocabulary verdict this window).
+- [x] R37-2: RESOLVED BY SUPERSESSION — the promotion surface was rebuilt after the wall
+  re-sort (B1013) as THE_CLAIM's graded table (B1014, updated B1017/B1025/B1030), and the
+  measurement-theorem thread promoted through it (the second measurement theorem verified
+  end-to-end, B892; the crossing machinery B1015–B1027 replaced the R37-era candidate list).
+  Review 43 §6 ran the current sweep against that surface.
+- [>] R37-3: carried to R43-12 — the solo seat's queue #1 (the second measurement theorem)
+  was verified and banked (B892); the residue (O3 across-breakings; descent stage 2; the exact
+  ℚ(ρ) pass + levi2.py manifest) is re-homed there for verify-what-landed triage.
 - [>] R37-4 (carried R36-2): P5_monoid Phase 2 (the paper; unrelated to gate P5).
 - [>] R37-5 (carried R36-3): panel priors from measured κ history.
 - [>] R37-6 (carried R36-4): wave 1's own re-audit — carried because the wave-1 dataset's re-audit needs the λ₂ certification (cc3, in flight) as its comparison anchor; runs when λ₂ lands.
@@ -3369,3 +3372,102 @@ as the block** — the clause B988 added exactly so a review cannot pass silentl
 **Next review due after 20 merges from this anchor.**
 
 anchor-commit: `ed6ea610def1bcf870811e05531268d0c1b867b1`
+
+## Review 43 — 2026-08-11 (merges 1–24 from Review 42; the switch-verification / fourth-crossing / WHY-campaign window)
+
+**1. The loop (Review 42's owed items).**
+- [x] **Memory-currency** (R42 §8, the channel with no gate): RUN AND FIXED this window — project
+  memory refreshed over B1009–B1030 (new window file; the model-switch file updated), the index
+  compacted 20.8 → 9.1 KB, and the practice is now standing: **memory refresh at every decadal
+  review**. The gate-shaped check remains unbuilt (accepted: the review loop IS the check).
+- [x] **L148** (atlas lexicon epoch-blind): WORKED ON MAIN — the refresh FAILED its own sealed
+  criteria (B821), the gate was redesigned from threshold to **triage registry** (B822–B823), the
+  last known gap closed (B824/B825), and `atlas-lexicon-current` gates every push since. The
+  lead's registered either/or (re-ground vs declare-historical) resolved into the third thing the
+  arcs discovered: **per-arc judgement, no aggregate threshold**.
+- [>] **TOOLBOX.md** (lag 638 → 660, two reviews named): CARRIED as R43-1. Declared debt (B984)
+  stands visible; this review, like the last, **does not assert the reader-standard is met for
+  TOOLBOX.md**.
+
+**1b. The branch inventory (B763 rule).** `git branch -r --no-merged` on both remotes returns
+exactly two refs, mirrored: **the relay seat's audit branch** (LIVE — integrate-don't-merge by
+standing rule; its window handoff is digested, its remaining items are R43-4/R43-5/R43-10) and
+**the cloud audit seat's branch** (LIVE — refresh bands in flight; digestion owed at completion,
+R43-9). No stale refs; no unregistered frozen records; local = `main` only. Nothing
+unclassified — no blocker.
+
+**2. Declared modulus.** Window = `ed6ea610` → `25e08497`, 24 merges, arcs B1009–B1030. Every
+arc in the window was authored and banked by this seat in-session (read in full by
+construction); the incoming-material exceptions (cc3's window handoff, the price-lock, chat1's
+McKay derivation) were verified by recomputation where adopted (B1011, B1030) and recorded
+PENDING where not. Locks: the full suite ran to completion four times in-window (parallel,
+3918 → 3938 passing; ~22–32 min each); **the serial certificate was not re-run this window** —
+declared, and queued as R43-2 under the arbiter rule. Gates ran at every bank and every push.
+
+**3. Advancement.** LAW_MAP this window: **the κ-unification row RESTORED** (B1010 — a
+consolidation LOSS repaired, the owner's suspicion confirmed); **the McKay tensor law** (B1011,
+THEOREM — ρ₆ ≅ (χ⊗V₂(2I)) ⊕ (V₂(2T)⊗V₂(2I)), 63/63 exact); **one grammar, one door** (B1019);
+**frame bits d = 2** (B1024, PROVISIONAL — the banner is the honest grade, discharge = R43-4);
+**the phase exclusion** (B1027, the walls' first sealed powered crossing-death); **the
+value-kernel** (B1029, SCOPE-fenced). Stuck longest and named: **L150** (tone↔Hermitian
+junction) and **L154** (the σ identification, re-posed with the defining-equations clause,
+unrun — R43-5). Status-vs-evidence: nothing found exceeding its banked evidence this pass — and
+the window built a new instrument for exactly that question: **B1028's walk machine-checks the
+discriminating phrase of every cited row at run time**.
+
+**4. Error-class recurrence.** Four disclosed instances, **all four caught by standing rules
+already on the books** — the taxonomy's best window yet:
+- the out-of-vocabulary verdict word (`POSITIVE`) — caught by the B817/B818 sealed-vocabulary
+  locks pre-suite; content fixed to `PROVED`, locks untouched;
+- a bare-literal lock assertion — **E2 recurrence** (cc's own instance #2, added to the ledger),
+  caught by the `test-vacuity` gate pre-push;
+- B1029's first compute printing "EMPTY / blocked" — an **E19-shape** (a negative asserted
+  without computing its discriminating fact), self-caught by running the sealed pricing
+  machinery; the correction is recorded in-arc and in the git history;
+- the audit seat's price_lock item 1 — an **E2 refinement now in the ledger**: a vacuity control
+  that perturbs a substitute exercises the frame, not the instance (B1030; repair relayed).
+**One NEW class registered: E22, verdict-before-certificate** (the B1026/B1027 commit on a red
+suite; repaired same-hour by the routing lock; the standing rule — the banking commit gates on
+the suite's exit code — is now written).
+
+**5. Provenance spot-sweep.** Clean — no external-verification pretense in the window's
+public-facing files. New load-bearing terms glossed in TERMINOLOGY.md this review: **the
+value-kernel**, **the trit**, **the freedom ledger / COMPRESSION / THE ADDRESS** (joining the
+two-conductors and two-levels hazard entries; the third-σ row is R43-5's charge).
+
+**6. The §5.1 promotion sweep.** The window's placements: B1011 → LAW_MAP THEOREM (done
+in-window); B1028's number → THE_CLAIM controls (done); B1029 → LAW_MAP (done); the quantified
+floor → THE_CLAIM hypothesis line + THE_LADDER X24 (done, B1030). **CLAIMS.md insertion
+deferred with the blocker named**: CLAIMS.md is a declared currency debt (lag 176, B984) — a
+refresh of that surface is its own campaign item, not a review side-effect.
+
+**7. Protocol integrity.** The window's three seals spot-verified byte-identical against
+`SEAL_LEDGER` (c58c8a88 · e13d09a5 · 9a46975f); B1024's dc823e86 was verified three-ways
+in-window (this bench, cc3, the cloud seat — recorded in the handoff digest). Hash-first order
+honored on every sealed cell (seal committed AND pushed before compute); **B1030 openly
+declared unsealed** (a verification arc — the compute ran before any arc existed, stated in its
+header). Omission repaired in-window: the E22 slip, same-hour, recorded inside the routing note
+it violated.
+
+**Optional enrichments declared:** memory-currency (RAN — see §1); view regeneration (ran
+continuously via the gates at every bank); source-code health, governance delta, reader-path:
+not run this window.
+
+### Action items (Review 43)
+- [ ] R43-1: TOOLBOX.md — refresh or freeze-with-marker; the standing reader-standard block (owner: cc; source: B984, carried from R42)
+- [ ] R43-2: serial-suite confirmation run (the arbiter rule's certificate of record; this window certified parallel-only) (owner: cc; source: B1018)
+- [ ] R43-3: the three mechanical repairs — forcing_graph regen (stale at B989); cascade-face attachments (282 faceless arcs); the 167 ROUTED-unread closures (owner: cc; source: the window handoff §4)
+- [ ] R43-4: B1024's three amendment controls (naturality · base rate · joint rank) — discharge the PROVISIONAL banner (owner: cc; source: the window handoff §2)
+- [ ] R43-5: L154 re-posed run (defining equations, the stage↔boundary bridge, the third-σ TERMINOLOGY row) (owner: cc; source: the window handoff §1)
+- [ ] R43-6: the B1027 refresh verdict when a newer δ_CP global fit is fetchable (pre-committed, same windows, no weakening) (owner: cc; source: B1027)
+- [ ] R43-7: provenance-gate regex widening to `B\d{2,4}` with the lineage rule kept (owner: cc; source: the B1027 bank)
+- [ ] R43-8: the Todorov 2018 novelty-scope sentence on B862's public surfaces (owner: cc; source: the window handoff §8)
+- [ ] R43-9: digest the cloud audit seat's unmerged branch on completion (the one live remote ref besides the relay seat's; see the §1b inventory) (owner: cc)
+- [ ] R43-10: the price_lock item-1 repair on the audit seat's instrument (owner: cc3 via relay; tracked here so the loop closes; source: B1030)
+- [>] R43-11: the per-gate "could this gate still fail?" re-ask, against the CURRENT 26-gate set (carried from R37-1/R36-1)
+- [>] R43-12: the solo-seat joint-queue residue — O3 across-breakings; descent stage 2; the exact ℚ(ρ) pass + levi2.py manifest — verify what of it landed in the B892-era arcs, close what did (carried from R37-3)
+- [ ] R43-13: triage R37's six legacy [>] carries (R37-4..9) against the current corpus — close or re-home each with evidence (owner: cc; source: this review's loop)
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: `25e08497` (B1030, the window's last bank)

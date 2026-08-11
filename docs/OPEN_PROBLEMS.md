@@ -298,4 +298,6 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 
 *Review 40 (2026-08-07): window B909, B914–B941 reviewed — the three crossings all negative, D₂ decoded as the hierarchy's carrier, the value layer proved value-invisible, two precedent numbers banked (the Maass and Dirac eigenvalues), and the branch-symmetric ratio-only phrasing registered as binding on any future crossing. Three real discipline failures caught by the anti-burial locks and fixed; the priority-language asymmetry flagged (B922's unqualified claim predates the O3 gate — panel dispatched). See docs/progress/REVIEWS.md.*
 
+> **Review 43 — 2026-08-11.** The one real wall (the value layer) now has a clean sealed death on it — by one degree, with the refresh pre-committed — and the campaign attacking the WHY has its first two banked cells (COMPRESSION; the value-kernel). The open problem of the input list is now a quantified floor: one unit, two bits, one trit, one acceptance.
+>
 > **Review 41 — 2026-08-09.** The open problems are now **graded and ordered** in `docs/THE_LADDER.md` (32 rungs: BLIND / HOLE / BROKEN / BOUNDED / OPEN) and `docs/THE_CAMPAIGN.md`. **Before writing "the object does not supply X", find X on the ladder — if it is not there, the honest sentence is "not checked", not "absent".**

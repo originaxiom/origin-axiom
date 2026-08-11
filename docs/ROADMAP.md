@@ -81,4 +81,6 @@ chats; the recurring hazard is on record (Π_H does not commute with ζ-weighted
 > untested-category writes were wrong. Still open and unscheduled: **the lexicon's full re-grounding**
 > (B806); B825 closed only the one *known* gap.
 
+> **Review 43 — 2026-08-11.** The campaign register is `docs/THE_WHY_CAMPAIGN.md` (four lanes; Lane I-1 and III-1 BANKED, the floor quantified by B1030); execution resumes at Lane II-1 (the three-generations upgrade attempt). Review 43's ten action items are the near-term queue — the serial certificate, the provisional-banner discharge, and L154's re-posed run lead it.
+>
 > **Review 41 — 2026-08-09.** `docs/ROADMAP_TOE.md` is **superseded** by `docs/THE_FRAMEWORK.md` (it described the position as *"the kinematic/symmetry frame is forced arithmetic"* for a month after B862/B863/B864 falsified that). The execution order now lives in `docs/THE_CAMPAIGN.md`: **Wave 1 repairs (4 of 6 done) → Wave 2 holes → Wave 3 live surfaces → Wave 4 blind, ledger first**.
