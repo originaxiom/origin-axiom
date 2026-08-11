@@ -1,5 +1,20 @@
 # Origin Axiom — Roadmap
 
+> ## STATE AT REVIEW 43 (2026-08-11) — the fourth crossing dies by one degree; the WHY campaign opens with a number
+>
+> The window after the seat switch. **Tier 2 gained its cleanest death yet**: the fourth sealed
+> crossing (χ phases ↔ CP phases) ran data-blind and MISSED — decisively in the quark sector,
+> **by ONE DEGREE in the leptonic** (−120° vs NuFIT 5.2's upper error; the refresh verdict at the
+> same windows is pre-committed, so a ~2× tighter δ_CP fit decides ±120° either way). The response
+> is **THE WHY CAMPAIGN** (`docs/THE_WHY_CAMPAIGN.md`): make "cannot be coincidence" computable or
+> find the illusion's address. Its first cells banked: the **freedom ledger** prices the whole
+> chain's retroactive designer freedom at **0.000 bits** against a 4.585-bit conservative output
+> floor (COMPRESSION — the stop rule does not fire); the **invariant ring** proves θ = c∘r is the
+> value-kernel of the frame action (the legitimately-predictable set = the real subring; the
+> non-invariant remainder is exactly the one sign the crossing paid for). The counted input floor
+> is now **quantified and adopted: one unit, two bits, one trit** (+ the J acceptance). Execution
+> resumes at Lane II-1 (the generations upgrade). Ledger: `docs/progress/REVIEWS.md` Review 43.
+
 > ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
 >
 > **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every
