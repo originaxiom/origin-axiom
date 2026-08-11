@@ -293,6 +293,17 @@ the answer. **The 122-order shortfall was never the object's.**
 
 ---
 
+**Currency block (2026-08-11, B1018–B1029).** The value layer's fourth sealed crossing ran
+**clean** — channel-declared, kind-licensed, zero anchors, 2 bits priced — and returned
+**ALL-MISS** (quark decisive; leptonic by **one degree**, not promoted, the refresh
+pre-committed): the wall stands, tested at last in its own terms. The sibling grammars have **no
+door** (B1019 — the endpoint's confirming power restored at the own-conductor door). The input
+floor after the audits: **one unit, two bits, and the acceptances the object nominates** — the
+frame bits ARE the torsor bits (B1024, provisional), the VEV's continuum dissolved (B1025), the
+trit retyping pending. **The standing programme is THE WHY CAMPAIGN** (`docs/THE_WHY_CAMPAIGN.md`):
+the freedom ledger (I), the mechanism (II), the relational bridge (III — the licensed
+arrow-shape no crossing has yet used), the record (IV).
+
 ## LAYER 6 — THE MACHINE (the second product, and not the lesser one)
 
 Preregistration with committed hashes before compute; 19+ governance gates run in seconds;
