@@ -1802,3 +1802,42 @@ that is a judgement, not a computation, and it is not mine to make.
 **Registered with the repair it would have caught already made:** B1042 extended E1's instances,
 minted **E37** (self-measurement) and **E38** (progress-eroded threshold), and filed B1039's and
 B1041's one-offs as instances of E31 and E36. **The gate is what would keep it current next time.**
+
+
+## L164 — THE DEBT SHOULD BE DISPOSITIONED BY TOPIC, NOT BY BAND (registered 2026-08-11; B1043)
+
+**Measured, not proposed.** B1037 dispositioned debt **by band** (B100–B199) and its headline
+stands — *"37 rows are 17 statements"*. What B1043 adds is that **the 17 do not close at the band
+boundary**: a band groups arcs by **when they were banked**, a law is a statement about **what they
+say**, and where a law spans bands the band-wise sweep cuts it silently, because nothing in the
+in-band bodies mentions the out-of-band sibling.
+
+**The cost is already on the record**, in this refresh's own work:
+
+| restored law | siblings still in debt, by band |
+|---|---|
+| **the tower** (B1038) | **B33** (B000s) · **B232** (B200s) · **B522** (B500s) |
+| **φ-fixed reducibility** (B1039) | **B564** (B500s) |
+| **the metallic exponent** (B1039) | **B75**, **B77** (B000s) · **B106** (B100s) · **B257** (B200s) |
+| **isomonodromy** (B1040) | *none* — the control: a law **can** be band-local |
+
+**Two are not merely siblings:**
+
+- **B564 CLOSES the conjecture B1039 restored as OPEN** — *"the SL(3) φ-fixed locus contains no
+  irreducible representation"*, by the **symbolic elimination** B141 named as *"the rigorous path"*
+  and B142 called *"the symbolic-elimination prize"*. B564 says so itself. **B141 and B142 carry no
+  forward pointer**, so reading the in-band bodies — campaign step 1, done correctly — could not
+  reach it.
+- **B232 is B1038's law differentiated**, verified symbolically for `n = 3..12`: the **step** form
+  `ρ_n = ρ_{n−1} ⊕ Sym^n(V) ⊕ Sym^{n−3}(V)` of the **band** form
+  `ρ_n = Sym^n(W) ⊕ (Sym^{n−3}(W) ⊖ W)`. One law, two statements, two bands.
+
+**What the decision is.** A topic-wise re-disposition of all **213** remaining debt rows is a
+**different instrument** from the band sweep, and it would re-open every band already closed —
+including B100–B199, whose figures are published and dated. **Whether that is worth doing, and
+whether the band sweep should be retired or kept as a first pass, is the owner's call.** *A cheaper
+middle path also exists and is not chosen here: keep the band sweep, and add a topic search for
+each law at restoration time — which is what would have caught B564 for the price of one grep.*
+
+**Registered with the correction it forced already made:** B1039's row and FINDINGS now record
+that Item 4 is closed by B564.

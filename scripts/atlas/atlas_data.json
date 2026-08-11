@@ -1265,7 +1265,8 @@
     "B154",
     "B157",
     "B198",
-    "B199"
+    "B199",
+    "B564"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 5,
@@ -1365,6 +1366,37 @@
    "obstacle_conf": 10,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1043": {
+   "slug": "the band is the wrong unit",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "golden"
+   ],
+   "refs": [
+    "B100",
+    "B106",
+    "B141",
+    "B142",
+    "B199",
+    "B200",
+    "B232",
+    "B257",
+    "B299",
+    "B33",
+    "B511",
+    "B522",
+    "B564",
+    "B75",
+    "B77",
+    "L164"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B104": {
    "slug": "dehn twist tower",

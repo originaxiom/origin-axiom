@@ -52,6 +52,16 @@ judgement rows are enforced by the independent verification in Part II.
 17. `python3 scripts/gates/gates.py` — **all green**, including `doc-currency`.
 18. **Full `pytest`** — green *before* commit, and **do not touch the tree while it runs** (a
     mid-run regeneration invalidated a 58-minute run on 2026-08-08).
+    - **A PARTIAL RUN IS NOT A RUN.** Review 42's prescribed action (2026-08-09), recorded here at
+      B1041 because it had not reached this row: a timeout, a `KeyboardInterrupt`, or a killed
+      job **discharges nothing**. `timeout N python3 -m pytest` returns **124** on expiry, which
+      is *not* a pass — and `cmd | tail` reports **`tail`'s** status, not pytest's. **Read
+      pytest's own exit code.**
+    - **BUDGET FOR IT: the suite was ~55 minutes at Review 42 and 81 minutes at B1041** (3987
+      tests; four of them are 29 % of the runtime). **Start it early, not at the end.** Three
+      attempts died at a 50-minute timeout during the B1024–B1042 refresh, and **three red locks
+      survived behind that wall while 26 gates stayed green** — gates are fast and **do not cover
+      what the locks cover**.
 19. Feature branch → PR → squash-merge → push **origin *and* codeberg**.
 
 ---

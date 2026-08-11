@@ -31,7 +31,7 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 | **X5** | Big bang / initial condition | 3 arcs | ledger, not probe |
 | **X6** | Strong CP / θ_QCD | 3 arcs | L110 has **no registered obligation set** |
 | **X7** | Neutrino mass | 6 arcs, all ledger mentions | — |
-| **X31** | **MARKOV BLANKET** — the statistical-independence / boundary structure, named by the owner as part of the chain | **0 arcs.** *(A naive grep now returns 2 — **B984 and B988, the arcs that RECORD the absence**. **Registering a gap creates hits for the gap**, so the coverage count self-inflates; a future review must exclude recording-arcs or it will read this as covered.)* **CONFLATION HAZARD:** the corpus is full of **Markov *triples* / the Markov cubic** — a *different object* | define what a Markov blanket would even be for this object before probing |
+| **X31** | **MARKOV BLANKET** — the statistical-independence / boundary structure, named by the owner as part of the chain | **0 arcs.** *(A naive grep now returns 2 — **B984 and B988, the arcs that RECORD the absence**. **Registering a gap creates hits for the gap**, so the coverage count self-inflates; a future review must exclude recording-arcs or it will read this as covered.)* **— This parenthetical is now ERROR CLASS E37 (B1042).** It was right, and it stayed a note on this one row for long enough that the 2026-08-11 refresh hit the same hazard **ten times across nine arcs** before it was generalised; the standing rule is B1033's — *a measurement published by the same commit that changes what it measures must name its own exclusion set, in the artifact, next to the number.* **CONFLATION HAZARD:** the corpus is full of **Markov *triples* / the Markov cubic** — a *different object* | define what a Markov blanket would even be for this object before probing |
 | ~~**X32**~~ | **RE-GRADED 2026-08-09 by Review 41 — NOT blind; it was COMPUTED.** **B20 and B37**: *"the trace map has **invariant-memory and feedback** but **never reads its invariant**, failing the operational self-model criterion"* — under fixed operational definitions. So the object **has feedback and an invariant**; what it lacks is **self-modelling**. That is a result with a mechanism, not an absence | the live question is not *does it have feedback* but **what would make it read its own invariant** — and B717 already frames that as an observer closing |
 
 ## B. HOLE — inside what we already claim
@@ -142,3 +142,29 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
    because a broken claim is actively misleading every downstream reader.
 5. The counterpart rule from `THE_FRAMEWORK.md` applies here too: **a closure survives the
    relational re-read exactly when its scope sentence names no manifold** (cc3, 2026-08-08).
+
+---
+
+## Currency read, 2026-08-11 (B1033–B1043) — no rung grade moves, and here is why
+
+*`doc-currency` flagged this surface as owed a read; a note that merely bumped a citation would be
+the staleness the gate exists to catch.*
+
+**The window B1033–B1043 is a consolidation refresh: it restored banked laws onto curated surfaces
+and audited the register, lock and method layers. No arc in it computed a new physics result, so
+no rung's grade changes.** Three touch the ladder and each stops where it should:
+
+- **X33 (three generations)** — unchanged, and B1039/B1043 strengthen its *evidence* rather than
+  its grade. B1032 already corrected the rung to name **two** live routes; **B1043 adds that the
+  φ-fixed cluster's own open question (B141 Item 4) was closed by B564** — which is about the
+  `SL(3)` φ-fixed locus, **not** about generations, and changes no rung.
+- **X31 (Markov blanket)** — still **0 arcs**. Its self-inflation parenthetical is now **E37**, as
+  noted in the row above.
+- **The method, not a rung:** **B1043** finds that the debt sweep's **band** unit cuts laws that
+  span bands — eight siblings of this refresh's four restorations sit in four different bands.
+  Registered as **L164**. *This changes how the ladder's own coverage counts should be read: a
+  rung graded from a band-scoped sweep inherits that sweep's blind spot.*
+
+> **The ladder stands as written.** What this window changed is that four of its supporting laws
+> are now on curated surfaces rather than only in their arcs, and that the corpus's three red locks
+> are green.

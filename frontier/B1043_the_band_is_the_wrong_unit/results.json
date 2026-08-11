@@ -1,0 +1,65 @@
+{
+ "checks": {
+  "B564_CLOSES_the_conjecture_B1039_restored_as_open": {
+   "pass": true,
+   "b564_says": "This confirms the B141 Item-4 conjecture and extends B142's principal-only (Klein-4) result to the full locus",
+   "route": "symbolic elimination -- which B141 named as 'the rigorous path' and B142 called 'the symbolic-elimination prize'"
+  },
+  "and_NOTHING_in_the_in_band_bodies_could_have_said_so": {
+   "pass": true,
+   "note": "B141 and B142 carry NO forward pointer to B564, and B564 is 400+ arcs and four bands away. Reading the in-band bodies -- campaign step 1, done correctly -- cannot reach it. Only a corpus-wide search ON THE TOPIC does"
+  },
+  "the_correction_is_recorded_on_the_curated_surface_and_in_the_arc": {
+   "pass": true
+  },
+  "B232s_recursion_IS_B1038s_band_form_differentiated": {
+   "pass": true,
+   "B1038": "rho_n = Sym^n(W) + (Sym^{n-3}(W) - W)",
+   "B232": "rho_n = rho_{n-1} + Sym^n(V) + Sym^{n-3}(V)",
+   "verified_for": "n = 3..12, symbolically",
+   "note": "the STEP form of the BAND form. Not two results -- one law stated two ways, in two bands, and the band-wise sweep saw only one of them"
+  },
+  "and_both_give_the_dimension_and_the_step_size_B232_states": {
+   "pass": true,
+   "dim": "n^2 - 1",
+   "step": "2n - 1, telescoping to n^2 - 1"
+  },
+  "every_restored_law_but_one_has_siblings_STILL_IN_DEBT_in_other_bands": {
+   "pass": true,
+   "siblings": {
+    "the tower (B1038)": [
+     "B33",
+     "B232",
+     "B522"
+    ],
+    "phi-fixed reducibility (B1039)": [
+     "B564"
+    ],
+    "the metallic exponent (B1039)": [
+     "B75",
+     "B77",
+     "B106",
+     "B257"
+    ],
+    "isomonodromy (B1040)": []
+   },
+   "bands_spanned": [
+    "B000s",
+    "B100s",
+    "B200s",
+    "B500s"
+   ],
+   "note": "isomonodromy is the control: B1040's cluster was already complete, so a law CAN be band-local. The finding is that most are not"
+  },
+  "the_band_groups_by_WHEN_not_by_WHAT": {
+   "pass": true,
+   "argument": "a band is an interval of B-numbers, i.e. of BANKING DATE. A law is a statement. B1037's sweep read every body in B100-B199 -- correctly, and it found the clusters INSIDE the band. It could not see B33, B232, B522, B564, B75, B77 or B257, because they are the same laws banked at other times",
+   "note": "B1037's own headline stands: '37 rows are 17 statements'. What is added is that the 17 are not closed at the band boundary"
+  },
+  "re_dispositioning_the_corpus_BY_TOPIC_is_registered_not_done": {
+   "pass": true,
+   "note": "a topic-wise re-disposition of all 213 debt rows is a different instrument from the band sweep and would re-open every band already closed. Registered as L164 with the measurement that motivates it; the four laws' siblings are named there so the next pass starts from evidence rather than from scratch"
+  }
+ },
+ "all_pass": true
+}

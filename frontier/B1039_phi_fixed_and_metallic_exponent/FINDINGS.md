@@ -144,6 +144,17 @@ SL(3) cells** — Sage/Singular ideal membership; no CAS here finishes that Grö
 entirely reducible"* — is a **CONJECTURE** in its own arc (a 60/60 numerical search) and is
 restored as one.
 
+> **CORRECTED 2026-08-11 (B1043) — it is not open.** **B564 closed it**, by the **symbolic
+> elimination** B141 itself named as *"the rigorous path"* and B142 called *"the
+> symbolic-elimination prize"*: *"φ-fixedness pins A to finite order, which forces the intertwiner
+> to split block-diagonally"*, and B564 states the connection in its own first paragraph —
+> *"This confirms the B141 Item-4 conjecture and extends B142's principal-only (Klein-4) result to
+> the full locus."* **This arc restored the cluster's own open question as open when it had been
+> settled four hundred arcs later.** The cause is structural and is B1043's finding: B564 sits
+> **outside the band being dispositioned**, and B141 carries no forward pointer, so nothing in the
+> bodies I read could have said so. **Only a corpus-wide search on the TOPIC finds it — which is
+> exactly what banding by B-number prevents.**
+
 ---
 
 **Verdict: PROVED.** 34 checks. **Four debt rows retired into two curated laws**: the band
