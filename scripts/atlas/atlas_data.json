@@ -1459,6 +1459,42 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1046": {
+   "slug": "the arc graph",
+   "motifs": [
+    "figure_eight",
+    "firewall"
+   ],
+   "refs": [
+    "B111",
+    "B123",
+    "B125",
+    "B141",
+    "B142",
+    "B153",
+    "B154",
+    "B157",
+    "B164",
+    "B169",
+    "B198",
+    "B331",
+    "B385",
+    "B408",
+    "B437",
+    "B558",
+    "B564",
+    "B702",
+    "B731",
+    "B812",
+    "B821",
+    "B823",
+    "B95"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

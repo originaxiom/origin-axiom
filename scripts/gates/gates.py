@@ -893,6 +893,25 @@ def gate_law_siblings():
     return not missing, [f"{b} ({law})" for law, b, _ in missing[:5]] or "ok"
 
 
+
+# B1043 -> B1046. The arc graph does not carry what the bodies know: 42 arcs declare `supersedes`
+# and only 5 carry the back-link, and 31 of 35 self-correcting FINDINGS have no RETRACTIONS row --
+# their banner sitting BELOW the headline it kills (B408 opens "the one scale lever stands" and is
+# verdict NEGATIVE). TRIAGED, NOT CAPPED (B821/B823): fails only on untriaged LOAD-BEARING items.
+def gate_supersession():
+    """Superseded-but-cited arcs, and self-corrections whose verdict is not PROVED, must carry a
+    disposition in docs/consolidation/SUPERSESSIONS.md."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import supersession as sp
+    except Exception as exc:
+        # FAIL-CLOSED: a missing sweeper is the state in which a refuted headline quietly stays
+        # readable as a live claim, which is the failure this gate exists to prevent.
+        return False, f"supersession unimportable: {exc}"
+    missing = sp.sweep()
+    return not missing, [f"{a} ({k})" for k, a, _ in missing[:5]] or "ok"
+
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -921,6 +940,7 @@ GATES = {
     "law-map-provenance": gate_law_map_provenance,
     "atlas-lexicon-current": gate_atlas_lexicon_current,
     "law-siblings": gate_law_siblings,
+    "supersession": gate_supersession,
 }
 
 
