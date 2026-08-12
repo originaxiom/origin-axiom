@@ -90,6 +90,34 @@ CS = 0, and therefore what makes the object scale-free.
 
 ---
 
+## THE LEVEL LEDGER — what is manifold-level and what is class-level (added 2026-08-12 per the audit seat's Challenge 3)
+
+The framework's own results have relocated most derivations off the single manifold,
+and this ledger states it rather than leaving it as sediment: **the cornerstone is
+CLASS-level** (B993 — 32.8% of the one-cusped census carries the same count;
+Reid-uniqueness consumed at zero steps); **the entry is GENERIC across grammars**
+(B996 — five of seven metallic words reach 2T mod 3); **the endpoint is
+rule-independent and forced by an input the object lacks** (B994 — registerability IS
+chirality, which B713/B760 prove the object does not supply); **the observer's
+machinery is the FIELD's** (B1040 — every template survives object-deletion); **the
+trit descends from the field's units** (B1042 — ω's shadow through McKay). What the
+GRAMMAR uniquely holds: the door (B1019 — siblings have none) and the own-conductor
+McKay shadow (B997) — uniqueness **within the metallic family**, m = 1 among m. The
+defensible claim is therefore: **a theorem about a CLASS, entered by a uniquely-doored
+GRAMMAR, with the object as the class's minimal representative** — and this document
+now says so.
+
+> **THE OPEN ADDRESS (B803's own test, unfilled since B993 — the audit seat's
+> settling computation, now a registered cell):** *name one step in Layers 2–3 that
+> depends on the GROUP Γ = π₁(m004) itself and not on the trace field, the quaternion
+> algebra, or arithmeticity.* **The Γ-ledger** (the B1040 per-step form applied to the
+> derivation stack) is the campaign cell that fills or empties this address. If empty,
+> the framework's subject is the class and every "THE OBJECT" heading below reads
+> through this ledger; if non-empty, that step is the most important line in the
+> document and will be marked as such.
+
+---
+
 ## LAYER 2 — THE ALGEBRA
 
 **2T ⊂ SU(2) → E₆ by McKay.** And the build has a classical name: it is **M(𝕆,ℂ)**, the
@@ -127,7 +155,17 @@ was doing GUT symmetry breaking all along without calling it that.
 
 ---
 
-## LAYER 4 — THE VALUE LAYER
+## LAYER 4 — THE COUPLING LAYER (what the object emits, and it is a menu)
+
+> **THE TYPE LAW governs this layer and stands at its head (B1032, moved here from the
+> currency addendum per the audit seat's Challenge 4):** the coupling channel's outputs
+> are a **finite algebraic menu** — crossings target **RELATIONS or FINITE LABELS,
+> never generic reals**. The four sealed crossings below all MISSED, and under this law
+> they read as confirmations of the type constraint rather than as disappointments:
+> three targeted generic reals before the law was banked; the fourth (the phase)
+> targeted a finite label and died by one degree with its refresh pre-committed.
+> *(The former name "THE VALUE LAYER" promised what this law proves the layer cannot
+> deliver; renamed 2026-08-12.)*
 
 **The value-as-coupling law (B592/B593 → B641/B654 → B856 — restored 2026-08-10 by B1010; this
 layer had zero occurrences of it):** what a coupled listener receives is the quadratic form
@@ -176,7 +214,15 @@ cause*, not an absence.
 > **The honest position is therefore not "five walls, all closed on every route." It is: given a
 > small counted input list — two 𝔽₂ bits (arrow; chirality = τ), one
 > scale, one Lie type, and one rank-closing VEV direction (**count corrected 4 → 5 by B1017**;
-> the VEV is the unsourced fifth — B963's compete-corollary retracted) — the object determines the
+> the VEV is the unsourced fifth — B963's compete-corollary retracted) —
+> *[COUNT DISCIPLINE, added 2026-08-12 per the audit seat's Challenge 2: this list answers
+> "what does the object LACK?" and mixes the re-sort's kinds — by the re-sort's own rule,
+> **scale is boundary+specification and the Lie type J is specification** (inputs no
+> framework derives), while the two bits and the VEV direction are closings. The CLAIM's
+> banked price answers a different question — "what does the derivation CONSUME?" — and is
+> **one unit · two bits · one trit** (B1030), with the trit now field-descended (B1042).
+> The currency block's "the acceptances the object nominates" is the same price pre-B1030.
+> Three numbers, three questions; any sentence citing a count must say which.]* — the object determines the
 > SM gauge algebra, the global ℤ₆ form (which the
 > SM itself cannot fix), hypercharge as the unique gaugeable direction, and the anomaly-free
 > structure — and it determines no dimensionful quantity, by theorem.** A parameter reduction with
@@ -334,7 +380,11 @@ without it, a ToE claim and a coincidence are indistinguishable from the inside.
 5. **L144** — B167's five-door map is POSTULATED, orphaned, and pre-dates the cascade; its
    door-5 dismissal rests on a premise B862/B864/B892 overturned.
 6. **The N=2→N=1 datum** and **the 6d type** — B277's two named blockers on the 4d lift.
-7. **Chirality without an inserted closing**; strong CP; the hierarchy; ν-mass.
+7. Strong CP; the hierarchy; ν-mass. *(Split 2026-08-12 per the audit seat's Challenge
+   5: "chirality without an inserted closing" is NOT an open computation — B713/B760
+   prove the object does not supply chirality, B1028 prices it as a declared input,
+   Layer 5 sorts it as a closing. It is a NAMED IMPOSSIBILITY under the current
+   axioms and lives in Layer 5 with the other mechanisms, not on a to-do list.)*
 8. **13 arcs** still owed LAW_MAP rows; **43 leads** open or partial, **35 of them pre-B800**
    and needing re-triage against the mature object.
 
@@ -384,8 +434,9 @@ without it, a ToE claim and a coincidence are indistinguishable from the inside.
 
 ## THE ONE-PARAGRAPH STATEMENT
 
-The four-letter combination principle, formalised as six motivated axioms, **forces** the
-figure-eight knot complement up to a single binary choice — and that choice is exactly where
+The four-letter combination principle, formalised as six motivated axioms, **conditionally
+forces — given A1–A6, with A6 the minimality selection —** the figure-eight knot complement
+up to a single binary choice — and that choice is exactly where
 φ enters. The object so forced carries a two-ended geometry whose ends are E₆ and E₈ by
 McKay, an algebra that is the magic-square entry M(𝕆,ℂ), and a measurement cascade that
 lands on the Standard Model's algebra, **derives the global ℤ₆ form the SM cannot fix**,
