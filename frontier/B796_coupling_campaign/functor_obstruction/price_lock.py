@@ -19,6 +19,16 @@ label, a group order, or a cohomology dimension.
 import itertools
 from collections import deque
 
+import sympy as sp
+
+# The banked weight ledger: under g -> k^2 g the weights are fixed integers.
+# Module-level so the vacuity control can perturb THIS object -- the instance --
+# rather than substituting a different ledger, which only exercised the frame.
+WEIGHT_LEDGER = {'length': 1, 'area': 2, 'volume': 3, 'laplace_eigenvalue': -2,
+                 'entropy': -1,
+                 'trace': 0, 'galois': 0, 'CS': 0, 'torsion': 0,
+                 'cusp_shape': 0, 'level': 0}
+
 
 # ============================================================================
 # ITEM 3 — ONE ORBIT-POINT.  The 27 under SU(3)^3, and why the choice is Z/3.
@@ -113,27 +123,41 @@ def item2_two_bits():
 # ITEM 1 — ONE UNIT.  The object HAS dimensionful quantities, up to ONE scale.
 # ============================================================================
 def item1_one_unit():
-    # The weight ledger: under g -> k^2 g the weights are fixed integers.
-    WEIGHT = {'length': 1, 'area': 2, 'volume': 3, 'laplace_eigenvalue': -2,
-              'entropy': -1,
-              'trace': 0, 'galois': 0, 'CS': 0, 'torsion': 0,
-              'cusp_shape': 0, 'level': 0}
-    dimensionful = {k for k, w in WEIGHT.items() if w != 0}
-    dimensionless = {k for k, w in WEIGHT.items() if w == 0}
+    """ONE UNIT — repaired 2026-08-12. The item now rests on a FAILABLE equation.
+
+    cc's B1030 caught one defect: `all(WEIGHT[q] % L == 0)` with `L = 1` cannot
+    fail for any integer ledger, and the vacuity control substituted a DIFFERENT
+    ledger, so it exercised the FRAME rather than the INSTANCE.
+
+    A second tautology sat beside it, unreported by either seat:
+        for a, b: if WEIGHT[a] == WEIGHT[b]: assert WEIGHT[a] - WEIGHT[b] == 0
+    which is `x == y => x - y == 0`. Both are removed.
+
+    What replaces them is the arc that actually carries this item and which the
+    original lock never cited: B309's kappa, upgraded by B518 to a
+    substrate-independent universality class, re-verified in B1010, and verified
+    independently on this bench. |kappa - 2| = 1 IS the unit — an invariant
+    modulus of a commutator trace, not a normalisation anyone chose.
+    """
+    # (A) THE LEDGER'S CONTENT, not its shape. Asserting the actual multiset of
+    #     weights CAN fail on drift; asserting divisibility by 1 cannot.
+    dimensionful = {k for k, w in WEIGHT_LEDGER.items() if w != 0}
+    dimensionless = {k for k, w in WEIGHT_LEDGER.items() if w == 0}
     assert dimensionful and dimensionless, "the ledger must split, not collapse"
+    assert sorted(WEIGHT_LEDGER[q] for q in dimensionful) == [-2, -1, 1, 2, 3], \
+        "the banked dimensionful weights are length +1, area +2, volume +3, " \
+        "Laplace -2, entropy -1 -- this ledger has drifted"
 
-    # A RATIO of two same-weight quantities is weight 0 -- that is why the object
-    # fixes every dimensionful quantity UP TO ONE overall unit, and no more.
-    for a in dimensionful:
-        for b in dimensionful:
-            if WEIGHT[a] == WEIGHT[b]:
-                assert WEIGHT[a] - WEIGHT[b] == 0, "same-weight ratio must be weight 0"
-
-    # And ONE unit suffices: fixing a single length fixes every weight-n quantity,
-    # because all weights are integer multiples of the length weight.
-    L = WEIGHT['length']
-    assert all(WEIGHT[q] % L == 0 for q in dimensionful), \
-        "one length must generate every dimensionful weight -- else more than one unit"
+    # (B) THE UNIT OBSTRUCTION, exact and failable (B309/B518; B1010 re-verified).
+    #     kappa = tr[a,b] = u^2 + 2 at the Eisenstein point u = omega.
+    omega = sp.Rational(-1, 2) + sp.I * sp.sqrt(3) / 2
+    assert sp.simplify(omega ** 3 - 1) == 0, "omega must be a primitive cube root"
+    kappa = sp.simplify(omega ** 2 + 2)
+    assert sp.simplify(sp.Abs(kappa - 2) - 1) == 0, \
+        "|kappa - 2| must be EXACTLY 1 -- the unit obstruction (B309)"
+    assert sp.simplify(kappa - 2 - omega ** 2) == 0, "kappa - 2 = omega^2 (B309)"
+    assert sp.simplify(sp.arg(kappa) + sp.pi / 6) == 0, \
+        "arg(kappa) = -pi/6 -- the MATTER face (B309/B1010)"
     return len(dimensionful), len(dimensionless)
 
 
@@ -166,9 +190,29 @@ def vacuity():
     B1 = {add(y, t(y)) for y in X}
     checks.append(('item2 H^1', len(Z1) // len(B1) != 4))
 
-    # item 1: a ledger with a non-integer-multiple weight needs MORE than one unit
-    W = {'length': 2, 'volume': 3}
-    checks.append(('item1 one-unit', not all(w % W['length'] == 0 for w in W.values())))
+    # item 1 (A): perturb THE INSTANCE -- drift one banked weight and the ledger
+    # assertion must fail. The old control substituted a different dict, so it
+    # exercised the frame, not this ledger (cc, B1030).
+    drifted = dict(WEIGHT_LEDGER)
+    drifted['volume'] = 4
+    df = {k for k, w in drifted.items() if w != 0}
+    checks.append(('item1 ledger-content',
+                   sorted(drifted[q] for q in df) != [-2, -1, 1, 2, 3]))
+
+    # item 1 (B): the unit obstruction must FAIL off the unit circle.
+    # kappa - 2 = u^2, so |kappa - 2| = 1 iff |u| = 1. At u = 2 it is 4.
+    kappa_offcircle = sp.simplify(sp.Integer(2) ** 2 + 2)      # u = 2 -> kappa = 6
+    checks.append(('item1 unit-obstruction',
+                   sp.simplify(sp.Abs(kappa_offcircle - 2) - 1) != 0))
+
+    # item 1 (C): the SHARPER control -- a point ON the unit circle that is NOT
+    # Eisenstein. At u = i, |kappa - 2| = 1 PASSES but arg(kappa) = 0, not -pi/6.
+    # So the two clauses are independent, and the matter face is specific to omega.
+    kappa_i = sp.simplify(sp.I ** 2 + 2)                        # = 1
+    assert sp.simplify(sp.Abs(kappa_i - 2) - 1) == 0, \
+        "u = i is deliberately ON the unit circle -- that is the point of this control"
+    checks.append(('item1 matter-face',
+                   sp.simplify(sp.arg(kappa_i) + sp.pi / 6) != 0))
 
     return checks
 
@@ -180,9 +224,16 @@ if __name__ == '__main__':
     nd, nl = item1_one_unit()
     print(f'\nITEM 1 — ONE UNIT')
     print(f'  weight ledger splits: {nd} dimensionful, {nl} dimensionless')
-    print(f'  every dimensionful weight is an integer multiple of length')
-    print(f'  => ONE unit generates them all. Not zero (the object HAS a volume),')
-    print(f'     not two (ratios of same-weight quantities are already weight 0).')
+    print(f'  banked weights intact: length +1, area +2, volume +3, '
+          f'Laplace -2, entropy -1')
+    print(f'  THE UNIT OBSTRUCTION (B309, upgraded B518, re-verified B1010):')
+    print(f'    kappa = tr[a,b] = u^2 + 2 at u = omega  ->  kappa = 3/2 - sqrt(3)i/2')
+    print(f'    kappa - 2 = omega^2   and   |kappa - 2| = 1   EXACTLY')
+    print(f'    arg(kappa) = -pi/6 -- the MATTER face')
+    print(f'  => the departure from "nothing" (kappa = 2) has size EXACTLY ONE.')
+    print(f'     An invariant modulus of a trace -- not a normalisation anyone chose.')
+    print(f'     Repaired 2026-08-12: the two tautologies cc B1030 flagged (and one')
+    print(f'     it did not) are gone; all three clauses now fail under perturbation.')
 
     z1, b1, bits = item2_two_bits()
     print(f'\nITEM 2 — TWO BITS')
