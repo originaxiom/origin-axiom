@@ -150,7 +150,7 @@ charge-orbit work, where integrality is physically forced — and **has never to
 | # | open item | why it matters |
 |---|---|---|
 | 1 | **L138** — does the object's cubic pick a rational two-27 orbit? | the only live route to a distinguished VEV |
-| 2 | **L134** — the **twelve exotic states per generation** (27 = 16+10+1) | any E₆ model must make them heavy; **never addressed here** |
+| 2 | **L134** — the **eleven exotic states per generation** (27 = 16+10+1; count corrected by B970) | quantum numbers BANKED (B970/B978: the set with SM quantum numbers outside the 16 is EMPTY, and the 78 does not occur in 27⊗27 — no adjoint VEV masses any 27 fermion); **the MASS mechanism is the open half** (PM4, elected-if-time) |
 | 3 | ~~**L132**~~ — **CLOSED (B864 + B991 + B992, currency pass 2026-08-10).** Direction derived (B864); normalisation **not derivable in principle** (homogeneous — B991, closed for everyone); and the SMT's u(1)³ **= span(Y, χ, ψ), COMPUTED** (B992: the Cartan-intersection is exactly 3-dimensional and they fill it — no longer inferred) |
 | 4 | **L135 / the presence side** | owed to the solo seat; the frame instrument now exists (B961) |
 | 5 | **L137** — the value/pencil split in the thinning pattern | post-hoc; needs its own seal |
@@ -255,3 +255,30 @@ up to one bit, and the bit is where φ enters). **Tier 1 substantially complete*
 and the hypercharge direction (B864) genuinely DERIVED**, which is full credit by that document's own
 bar. **Tier 2 — one sealed dimensionless ratio no class-sibling shares — remains NOT DONE**, and
 B993 explains why it is hard rather than merely unattempted.
+
+
+---
+
+## CURRENCY ADDENDUM — 2026-08-12 (B1027–B1042): what the odyssey window changed at verdict level
+
+- **The generation anatomy is re-scoped (B1033):** the trinification su(3)′ is CHIRAL
+  structure, not generation structure; the generation COUNT returns to the
+  open-inputs side (against B280/B298). The verdict's three-generations row reads
+  through B1033 now.
+- **The symmetric mass is WALLED sector-complete on the double (B632 · B1036 ·
+  B1039), and the wall is TYPED (Slansky):** the unique cubic invariant d_μνλ is
+  completely symmetric — three slots — and every assembly tried had two bodies. The
+  first arity-matched assembly (the triple, PM2/L157-4) is sealed-next with its
+  forbid pinned in advance.
+- **The observer's contribution is SPLIT, exactly (B1040):** every field-generic
+  template survives object-deletion and transplants to the sister fields; every
+  object-made selection collapses; the observer stack consumes no ℤ/3. **Values and
+  the trit are coupling-side by theorem now, not by reading.**
+- **The three (ℤ/2)³ cubes are ONE at direction level (B1041):** exhibited obliquely
+  (no coordinate dictionary exists, 0/6); the E₆ leg is carried by the observer's
+  operations. **The trit's descent from ω is the sealed open cell (B1042, PM3).**
+- **The fourth crossing's phase target (B1027)** remains the nearest live crossing —
+  died by one degree, refresh pre-committed on a newer δ_CP global fit (external
+  trigger). Under the type law (B1032) it was aimed at the right TYPE (a finite
+  label) through the right CHANNEL (the coupling) — the first crossing attempt whose
+  design the field exploration retroactively endorses.
