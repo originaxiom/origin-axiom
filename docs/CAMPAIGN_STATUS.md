@@ -1587,6 +1587,27 @@ pre-empted the paper had it not lived at the **toral** level while the four-stra
 
 > **Wave 2 closed 2026-08-09.** **X8** dissolved (the doublet is the 10 ⊂ 27; mass is the cubic, not the adjoint). **X10** sharpened — an orbit invariant **cannot** pick a point, so exactly two routes cross the gap. **X11** closed — the hypercharge normalisation is not derivable *for anyone* (all four anomaly conditions homogeneous). **X12** settled by computation — the SMT's u(1)³ **is** span(Y, χ, ψ), with the failed naive count banked beside it. **X9** was already closed by B978, and the ladder was stale about it. **The consolidation is the headline: X9, X10 and the rank obstruction are ONE OPERATION — the 27-VEV — asked three ways.**
 
+> **Consolidation refresh, the bands closed and the window's exit (B1048–B1053, 2026-08-12).**
+> **B1048** closed the seam cluster — the scale wall shown to close **at the level of Galois
+> theory** (B426's three "real embeddings" are three Galois conjugates of one cubic number; every
+> average of the orbit is below 1), with B426's own over-broad slogan corrected before restoring and
+> the exact boundary computed (`p* = 5.5932`). **B1049**: the first full suite run to completion on
+> an uncontended box found **five red locks that 94 targeted tests missed**, one red since five arcs
+> earlier — two general defects behind them (a per-line exclusion idiom defeated by markdown
+> **wrapping**; a sweep that could not see the arc running it), and the suite's real cost corrected
+> to **48 minutes**. **B1050/B1051 closed B0–B99** — six arcs found the same wall separately (the
+> projective quotient is natural in every sense and still derives no selector), the metallic fixed
+> line shown Dickson over `ℤ[m]`, and **two arcs retired as siblings of laws already on `LAW_MAP`**
+> that the instrument could not see (a **third miss mode**: one law at a different *object*).
+> **L166** registered: **14 arcs say `PROVED` in metadata and `STALLED` in their bodies**.
+> **B1052** wrote the window's **handoff** and registered it as the campaign's **seventh step** —
+> every window exits through a manual, and every countable claim in it is re-measured against the
+> tree. **B1053** records a gap in this refresh's own audit, surfaced by the owner: the two
+> pre-existing `docs/handoffs/` briefs were never read, and reading them showed **the 2026-07-21
+> owner-directed negatives hunt never saw the six arcs B1050 restored** — it selected banked
+> negatives, and their metadata says `PROVED`. *That is L166's defect with a far larger consequence
+> than L166 first stated.* **Two of eleven bands are now closed to campaign step 6; debt 245 → 175.**
+>
 > **Consolidation refresh, the instruments and the first cluster dispositioned (B1042–B1047,
 > 2026-08-11/12).** **The refresh's recurring meta-finding is that NAMING IS NOT GATING**, and it
 > answered with two instruments. **B1044** — `law-siblings` (gate 27): a law's cross-band siblings

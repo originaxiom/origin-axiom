@@ -319,6 +319,17 @@ in arithmetic. That is a meaningful distinction and it speaks well of the comput
 - **Decide L166.** Fourteen arcs currently count as proved by every sweep against their own written
   verdict, and six are already on curated surfaces.
 
+**A gap in my own audit, found by the owner and not by me.** I wrote this handoff into
+`docs/handoffs/` having read **twenty-two lines** of one of the two files already there, purely to
+copy the seat-to-seat convention — **I had not read either of the two handoffs**
+(`NEGATIVES_HUNT_HANDOFF_2026-07-21.md`, `PHYSICS_PATHFINDER_PROMPT_2026-07-21.md`), and the
+campaign's own step is *read every doc in `docs/`*. **The owner asked whether the handoffs were
+mine; that is what surfaced it.** Reading them found that the negatives hunt **ran** (B742 · B745 ·
+B754 · B765 · B770), that its **P4 stratum — the early era, pre-B300 — has no arc**, and that
+**the six arcs I restored as a wall were structurally invisible to it** because it selected banked
+negatives and their metadata says `PROVED`. **That last is L166's defect with a much larger
+consequence than L166 first stated**, and it is registered there (B1053).
+
 **What I would not claim.** I have read perhaps a third of the corpus properly. My re-verifications
 were symbolic and in-sandbox; **`snappy`, `sage`, `cypari`, `cypari2` and `flint` are all absent
 here**, which is why three B100–B199 clusters are owed rather than closed. **Nothing in this window

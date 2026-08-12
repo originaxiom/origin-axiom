@@ -1721,6 +1721,39 @@
    "status": "dead",
    "domain": "meta"
   },
+  "B1053": {
+   "slug": "the unread handoffs",
+   "motifs": [
+    "metallic"
+   ],
+   "refs": [
+    "B16",
+    "B19",
+    "B21",
+    "B28",
+    "B30",
+    "B300",
+    "B34",
+    "B35",
+    "B401",
+    "B570",
+    "B737",
+    "B742",
+    "B745",
+    "B754",
+    "B765",
+    "B770",
+    "L166",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B105": {
    "slug": "n5 wall and convergence",
    "motifs": [

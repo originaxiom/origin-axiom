@@ -1946,6 +1946,25 @@ is that a reader tracing `B16` from `LAW_MAP` meets `verdict: PROVED` over a bod
 reads `STALLED`, and nothing on the row says so.** The refresh found this class of defect five times
 in other people's work before finding it in its own.
 
+### ⚠ THE CONSEQUENCE IS LARGER THAN THIS LEAD FIRST STATED (added B1053)
+
+L166 originally priced the cost as **reader confusion**. **The real cost is that fourteen arcs were
+invisible to a repo-wide owner-directed audit.**
+
+`docs/handoffs/NEGATIVES_HUNT_HANDOFF_2026-07-21.md` directed a full-repo negatives hunt, executed
+as **B742 · B745 · B754 · B765 · B770**. **It selected on BANKED NEGATIVES.** All fourteen L166 arcs
+carry `arc_verdict: PROVED`, and the six that B1050 restored as a wall have atlas status `banked` or
+`open` — **never `dead`, the hunt's primary hunting ground**. *Neither selection surface could see
+them, and none of the six appears anywhere in the hunt's arcs.*
+
+**The hunt already knew the shape from the other side:** B742 flagged **"51 atlas-miner
+mis-classes"** from its own status heuristic. Same defect family, three hundred arcs earlier.
+
+**This materially strengthens option 3 below.** A metadata field that only misleads a reader is a
+documentation problem; a metadata field that **removes arcs from an audit's population** is a
+correctness problem. It is still not repaired here — re-verdicting fourteen banked arcs remains the
+owner's call — but the price of *not* repairing it is now measured rather than assumed.
+
 ### The decision, priced — and it is the owner's
 
 1. **Register only** *(what this arc did)*. Costs nothing, changes nothing, and the fourteen keep
