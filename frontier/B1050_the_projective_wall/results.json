@@ -1,0 +1,239 @@
+{
+ "checks": {
+  "B19_body_verdict_token_is_STALLED": {
+   "pass": true
+  },
+  "B19_metadata_says_PROVED_which_is_the_L166_mismatch": {
+   "pass": true
+  },
+  "B21_body_verdict_token_is_STALLED": {
+   "pass": true
+  },
+  "B21_metadata_says_PROVED_which_is_the_L166_mismatch": {
+   "pass": true
+  },
+  "B28_body_verdict_token_is_STALLED": {
+   "pass": true
+  },
+  "B28_metadata_says_PROVED_which_is_the_L166_mismatch": {
+   "pass": true
+  },
+  "B30_body_verdict_token_is_STALLED": {
+   "pass": true
+  },
+  "B30_metadata_says_PROVED_which_is_the_L166_mismatch": {
+   "pass": true
+  },
+  "B34_body_verdict_token_is_STALLED": {
+   "pass": true
+  },
+  "B34_metadata_says_PROVED_which_is_the_L166_mismatch": {
+   "pass": true
+  },
+  "B35_body_verdict_token_is_STALLED": {
+   "pass": true
+  },
+  "B35_metadata_says_PROVED_which_is_the_L166_mismatch": {
+   "pass": true
+  },
+  "B30_says_it_does_not_derive_the_selector": {
+   "pass": true,
+   "phrase": "It still does not select `I=1/4`"
+  },
+  "B34_says_it_does_not_derive_the_selector": {
+   "pass": true,
+   "phrase": "does not derive the selector"
+  },
+  "B35_says_it_does_not_derive_the_selector": {
+   "pass": true,
+   "phrase": "it does not derive the selector"
+  },
+  "B28_says_it_does_not_derive_the_selector": {
+   "pass": true,
+   "phrase": "not something derived from A1-A7"
+  },
+  "B19_says_it_does_not_derive_the_selector": {
+   "pass": true,
+   "phrase": "this condition itself is not derived from A1-A6"
+  },
+  "B21s_negative_is_a_DIFFERENT_WALL__spacetime_not_the_selector": {
+   "pass": true
+  },
+  "B28_the_trace_map_is_EQUIVARIANT_under_the_central_sign_action": {
+   "pass": true
+  },
+  "B28_the_Fricke_Vogt_invariant_is_S_INVARIANT": {
+   "pass": true
+  },
+  "B28_CONTROL__the_ANTIPODAL_map_does_NOT_preserve_it": {
+   "pass": true,
+   "antipodal_image": "x**2 + 2*x*y*z + y**2 + z**2 - 1"
+  },
+  "B28_upstairs_T_cubed_of_(0,0,c)_is_(0,0,-c)": {
+   "pass": true,
+   "image": "(0, 0, -c)"
+  },
+  "B28_and_S(1,-1)_realises_exactly_that_flip": {
+   "pass": true
+  },
+  "B30_the_descent_to_(u,v,w,r)_reproduces_the_trace_map_EXACTLY": {
+   "pass": true
+  },
+  "B30_the_quotient_coordinates_satisfy_r_squared_equals_uvw": {
+   "pass": true
+  },
+  "B30_the_half_return_is_a_LITERAL_period_3_orbit_downstairs": {
+   "pass": true
+  },
+  "the_bracket_is_the_one_the_invariant_determines": {
+   "pass": true
+  },
+  "I_is_a_CASIMIR_by_construction": {
+   "pass": true
+  },
+  "B21_det_DT_is_MINUS_ONE__orientation_reversing": {
+   "pass": true
+  },
+  "B21_the_half_step_is_ANTI_Poisson_on_every_generator_pair": {
+   "pass": true
+  },
+  "B21_det_DT_squared_is_PLUS_ONE": {
+   "pass": true
+  },
+  "B21_so_the_A_level_map_is_POISSON_on_every_generator_pair": {
+   "pass": true
+  },
+  "B34_the_central_sign_action_is_POISSON_for_every_sign_pair": {
+   "pass": true
+  },
+  "B34_and_every_sign_map_has_determinant_ONE__which_is_why": {
+   "pass": true
+  },
+  "B35_the_sign_action_has_ORDER_3_on_the_nonzero_F2_characters": {
+   "pass": true
+  },
+  "B35_and_they_form_a_single_3_cycle": {
+   "pass": true
+  },
+  "B19_the_three_conditions_have_IDENTICAL_solution_sets": {
+   "pass": true
+  },
+  "B19_and_that_set_is_exactly_P_and_minus_P": {
+   "pass": true
+  },
+  "B19_while_the_WEAK_form_leaves_many_in_the_same_box": {
+   "pass": true,
+   "n": 20
+  },
+  "B19_states_its_own_caveat__the_condition_is_NOT_derived_from_the_axioms": {
+   "pass": true
+  },
+  "THE_WALL__the_period_3_return_holds_for_SYMBOLIC_c_not_sampled_values": {
+   "pass": true
+  },
+  "...and_for_particular_values_too_as_a_sanity_check": {
+   "pass": true
+  },
+  "the_invariant_on_the_B26_line_is_c_squared_minus_one": {
+   "pass": true
+  },
+  "so_I_equals_one_quarter_is_the_single_value_c_squared_equals_five_quarters": {
+   "pass": true
+  },
+  "B30_states_exactly_this__every_value_of_c_squared_has_the_same_return": {
+   "pass": true
+  },
+  "LAW_MAP_carries_the_wall_as_one_row": {
+   "pass": true
+  },
+  "the_row_is_graded_WALL": {
+   "pass": true
+  },
+  "the_row_carries_STALLED_visibly_so_no_reader_meets_it_as_a_positive": {
+   "pass": true
+  },
+  "the_row_keeps_B21s_negative_SEPARATE": {
+   "pass": true
+  },
+  "the_row_states_the_scope__does_not_DERIVE_a_selector_not_none_EXISTS": {
+   "pass": true
+  },
+  "B27_is_STALLED_but_is_NOT_in_this_row": {
+   "pass": true
+  },
+  "B27s_content_is_the_SL3_trace_lift_not_the_quotient": {
+   "pass": true
+  },
+  "the_ledger_carries_the_B0_B99_DISPOSITION_section": {
+   "pass": true
+  },
+  "and_names_the_six_restored_here_INSIDE_that_section": {
+   "pass": true
+  },
+  "...and_marks_the_by_band_table_as_the_v3_BASELINE_not_a_live_count": {
+   "pass": true
+  },
+  "nothing_in_this_row_reached_CLAIMS_md": {
+   "pass": true
+  },
+  "L166_twelve_arcs_body_verdict_is_STALLED": {
+   "pass": true,
+   "n": 12
+  },
+  "L166_and_two_read_NEEDS_VALIDATION": {
+   "pass": true
+  },
+  "L166_all_fourteen_carry_PROVED_in_metadata": {
+   "pass": true
+  },
+  "L166_all_fourteen_are_in_B0_B99": {
+   "pass": true
+  },
+  "L166_the_nine_POSITIVE_vocabulary_arcs_are_NOT_contradictions": {
+   "pass": true,
+   "tokens": {
+    "B51": "PRODUCES-PROOF-MODULE",
+    "B54": "PRODUCES-PROOF-MODULE",
+    "B55": "PRODUCES-PROOF-MODULE",
+    "B57": "PRODUCES-PROOF-MODULE",
+    "B59": "RESOLVED",
+    "B60": "PRODUCES-RESULT",
+    "B62": "CONFIRMED",
+    "B63": "PROVES",
+    "B64": "PROVEN"
+   }
+  },
+  "L166_and_the_two_regex_ARTIFACTS_have_no_verdict_block_at_all": {
+   "pass": true
+  },
+  "L166_SIX_of_the_fourteen_are_ALREADY_on_a_curated_surface": {
+   "pass": true,
+   "curated": [
+    13,
+    14,
+    16,
+    18,
+    33,
+    48
+   ]
+  },
+  "L166_and_FOUR_of_those_were_put_there_by_THIS_REFRESH_via_B1026": {
+   "pass": true
+  },
+  "L166_is_registered_with_the_corrected_count": {
+   "pass": true
+  },
+  "L166_prices_the_decision_and_does_NOT_build_a_gate": {
+   "pass": true
+  }
+ },
+ "answer": {
+  "the_finding": "Six arcs found the same wall separately, and no curated surface said so. The projective / central-sign quotient of the trace-map state space is LEGITIMATE (B28: the map is equivariant under the sign action and the Fricke-Vogt invariant is preserved by it but NOT by the antipodal map), CANONICAL (B30: it descends polynomially to (u,v,w,r) = (x², y², z², xyz)), NATURAL (B34: the sign action is Poisson), SYMPLECTIC (B21: the half-step is anti-Poisson, its square Poisson), TOPOLOGICAL (B35: the sign action has order 3 over F₂, which IS the period-3 return) and its generator is PINNED (B19: three inequivalent-looking conditions all give exactly ±P). Every one of the six carries the verdict STALLED, because none of it derives the selector.",
+  "the_wall_stated_sharply": "The quotient carries NO information about the invariant's value. B30's control is the proof: the period-3 return holds for SYMBOLIC c, not merely for sampled values — verified here symbolically. On the B26 line the invariant is c² − 1, so I = 1/4 is the single value c² = 5/4, and nothing in the quotient can distinguish it.",
+  "the_scope_that_travels": "The wall is 'does not DERIVE the selector', NOT 'no selector EXISTS'. Six routes to naturality all stop in the same place; that is a statement about these routes, and it is what makes an eighth attempt at the same route wasted rather than impossible.",
+  "the_sixth_is_a_different_wall": "B21's negative is about SPACETIME — 'the natural symplectic dictionary exists; the physical spacetime dictionary does not' — and not about the selector. It is in this row for the Poisson structure it establishes, and its own negative is stated separately. Merging them would be the keyword error B1045 measured at 9 %.",
+  "the_correction_forced_en_route": "The invariant these arcs preserve is the TRACE-MAP normalisation I = x²+y²+z²−2xyz−1, not the Markov form x²+y²+z²−xyz. A first pass used the latter and the T-invariance check failed — the E1 convention collision the corpus already tracks, met live rather than read about.",
+  "the_mechanism_made_exact": "B21 says the half-step is anti-Poisson 'because it is orientation-reversing'. Made exact here: for a map preserving the invariant, the bracket transforms by det(DF), so the SIGN OF THE DETERMINANT IS THE STATEMENT — det DT = −1, det DT² = +1, and det DS = +1 for all four sign pairs, which is why the sign action is Poisson and the quotient descends."
+ },
+ "all_pass": true
+}

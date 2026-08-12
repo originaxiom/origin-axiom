@@ -143,6 +143,12 @@ minority of the record.**
 
 ## By band — substantive debt
 
+> **These are the v3 BASELINE, not a live count** (annotated 2026-08-12, B1050). They are the
+> figures as measured when v3 was written, and **consolidation moves them by design** — B0–B99
+> reads **19** here and is **16** live, the three retired by B1044's sibling citations (B33,
+> B75, B77). The corpus total is **245** here and **190** live. *The baseline is kept as a
+> baseline; a table that silently drifts is worse than one that says which day it describes.*
+
 | band | substantive | arcs | rate |
 |---|---|---|---|
 | B0–B99 | **19** | 85 | 22 % |
@@ -732,3 +738,43 @@ wrong.** **14 rows = 8 RESTORED** (B393 · B410 at B1047; B426 · B449 · B427 �
 here) **+ 3 DECLINED — RETRACTION** (B359 · B361 · B362, B1047) **+ 3 DECLINED** (B459 · B431 ·
 B474, here). Campaign step 6 satisfied for the whole cluster — *"restored or explicitly declined
 with a reason"*. Measured with **B1048 and later excluded** (E37).
+
+
+### §B0–B99 — DISPOSITIONED (2026-08-12, B1050 · B1051)
+
+**The band the owner's instruction put first, and the last one whose bodies were already read.**
+16 live rows (19 at the v3 baseline; B33, B75, B77 retired by B1044's sibling citations).
+
+> ### The finding: **six of the sixteen are one wall, found six times over.**
+>
+> **B19 · B21 · B28 · B30 · B34 · B35** each establish a different half of a single fact — the
+> projective / central-sign quotient is **legitimate** (B28), **canonical** (B30), **Poisson-natural**
+> (B34), **symplectic** with the half-step anti-Poisson (B21), **topologically explained** (B35), and
+> its generator **pinned to exactly `±P`** (B19). **Every one carries the verdict `STALLED`**, because
+> none of it derives the selector. **Restored as ONE `LAW_MAP` row, graded `WALL`** — the campaign's
+> own class for a proved impossibility — with each arc's `STALLED` carried visibly.
+>
+> **Scope, and it travels or the row misleads:** the wall is *"does not **derive** the selector"*, not
+> *"no selector **exists**"*. And **B21's negative is a different wall** — *"the physical **spacetime**
+> dictionary does not [exist]"* — kept separate rather than merged.
+
+**A near-miss corrected before it inverted the disposition.** Every early arc opens *"Logged
+observation, not a claim (`GOVERNANCE.md` §5)"*. A first read took that as **self-declination** and
+would have declined eleven rows on it. **It is a firewall header, not a verdict** — B55 carries that
+line *and* a `PRODUCES-PROOF-MODULE` block reading *"settled for **all** m"*. **"Not a claim" means
+"nothing promotes to `CLAIMS.md`", not "no result."** The verdict token is the signal; the header is
+boilerplate. *Same shape as `E6` — matching a string instead of reading the structure it sits in.*
+
+**And the metadata disagrees with the bodies.** All six of the wall's arcs carry `verdict: PROVED`
+while their bodies read `STALLED`. **Measured, and the first number was too loose: 14 arcs are in
+genuine contradiction** — 12 reading `STALLED`, 2 reading `NEEDS_VALIDATION` — **and all 14 are in
+this band.** *A first pass counted 24 by lumping in `PRODUCES-PROOF-MODULE`, `RESOLVED`, `PROVES`
+and `CONFIRMED`, which are an older POSITIVE vocabulary and not disagreements at all; two more were
+regex artifacts from arcs with no verdict block.* **Six of the 14 are already cited on curated
+surfaces — B13, B14, B16, B18 by B1026 and B33 by B1044, both this refresh's own restorations.**
+That does not make those rows wrong (B1026 graded itself STRUCTURAL and carried B62's grade
+unchanged), but **a reader tracing B16 from `LAW_MAP` meets `verdict: PROVED` over a body that says
+`STALLED`, and no row says so.** **Registered as `L166`; no gate built** (two landed in
+the last two phases; a third would be the `E34` apparatus-inflation this refresh already recorded
+against itself), and **repairing the metadata would change what every downstream sweep counts —
+including this ledger's own `PROVED` filter — which makes it an owner call.**

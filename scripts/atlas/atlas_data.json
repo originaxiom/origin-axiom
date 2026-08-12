@@ -1622,6 +1622,49 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1050": {
+   "slug": "the projective wall",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "symplectic",
+    "lorentzian",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B0",
+    "B13",
+    "B14",
+    "B16",
+    "B18",
+    "B19",
+    "B21",
+    "B26",
+    "B27",
+    "B28",
+    "B30",
+    "B33",
+    "B34",
+    "B35",
+    "B48",
+    "B50",
+    "B55",
+    "B62",
+    "B75",
+    "B77",
+    "B823",
+    "B99",
+    "L166"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B105": {
    "slug": "n5 wall and convergence",
    "motifs": [

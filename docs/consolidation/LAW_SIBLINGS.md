@@ -71,16 +71,16 @@ immediately surfaced **three real siblings** (B449, B427, B459), all disposition
 | measured 2026-08-12, method stated so it is reproducible | count |
 |---|---|
 | fingerprints in `FINGERPRINTS` | **6** |
-| rows in `LAW_MAP`'s five-column law tables | **150** *(147 at B1047; +3 restored by B1048)* |
-| all table data rows in `LAW_MAP` (incl. the narrower sub-tables) | **212** |
-| **coverage** | **6 / 150 = 4 %** |
-| rows citing **≥ 5 arcs** — the *campaign-fed* rows, where a cross-band sibling is likeliest | **58** *(55 at B1047)* |
+| rows in `LAW_MAP`'s five-column law tables | **151** *(147 at B1047; +3 B1048, +1 B1050)* |
+| all table data rows in `LAW_MAP` (incl. the narrower sub-tables) | **213** |
+| **coverage** | **6 / 151 = 4 %** |
+| rows citing **≥ 5 arcs** — the *campaign-fed* rows, where a cross-band sibling is likeliest | **59** *(55 at B1047)* |
 
 **The proposal, and it is a proposal — not done here.** Fingerprinting all 147 rows is the same
 **unfunded mandate** `law_map_provenance`'s docstring already rejected once for locking all 113.
-**Fingerprinting the 58 campaign-fed rows is the defensible middle**: a row that distils five or
+**Fingerprinting the 59 campaign-fed rows is the defensible middle**: a row that distils five or
 more arcs is a row where the law demonstrably spans arcs, which is the precondition for it to span
-*bands*. That is roughly 52 fingerprints to author, each of which will surface candidates that then
+*bands*. That is roughly 53 fingerprints to author, each of which will surface candidates that then
 need **body reads** — so the real cost is the reading, not the regex, and it should be paid a
 cluster at a time, as B1047 paid this one.
 
@@ -88,3 +88,9 @@ cluster at a time, as B1047 paid this one.
 restorations and it did that job — it caught B485 on first independent use, and B449/B427/B459 on
 second. The number is published so nobody reads a green `law-siblings` gate as *"the corpus has no
 cross-band siblings"*. **It means: none among the six laws that have fingerprints.**
+
+> **B1050 added a seventh LAW_MAP row and NO fingerprint for it** — deliberately. The wall it
+> restores is a **negative**, and the instrument's fingerprints are written for laws whose
+> restatements a later arc might duplicate. *Whether a negative can have a cross-band sibling at all
+> is a real question and is not answered here;* it is noted so a future sweep does not read the
+> absence as an oversight.

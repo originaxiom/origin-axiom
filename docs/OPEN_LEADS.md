@@ -1907,3 +1907,59 @@ apparatus-inflation (**E34**). **The decision is the owner's, in the L159/L160/L
 arc's own computation.** The claim stands on its lock, and the lock is now the only surviving code
 behind a PROVEN row — which is a thinner base than the ledger's evidence column implies when it
 cites the directory. **That is the finding: not a false claim, a false impression of provenance.**
+
+---
+
+## L166 — FOURTEEN ARCS SAY `PROVED` IN THEIR METADATA AND SOMETHING ELSE IN THEIR BODY (registered 2026-08-12; B1050)
+
+**The defect.** `arc_verdict.json` carries `"verdict": "PROVED"`; the arc's own `FINDINGS.md` carries
+a fenced verdict block reading **`STALLED`** or **`NEEDS_VALIDATION`**. Every downstream instrument
+reads the metadata — the debt ledger's `PROVED` filter, `representation_sweep`, the generated
+`VERDICT_LEDGER` — so **fourteen arcs are counted as proved results by every sweep in the
+repository, against their own written verdict.**
+
+| body verdict | arcs | |
+|---|---|---|
+| **`STALLED`** | **12** | B13 · B14 · B16 · B18 · B19 · B21 · B27 · B28 · B30 · B33 · B34 · B35 |
+| **`NEEDS_VALIDATION`** | **2** | B48 · B50 |
+
+**All fourteen are in B0–B99**, so this is a **convention that changed**, not corpus rot. The later
+convention drops the in-body verdict block entirely and lets `arc_verdict.json` carry it alone.
+
+> ### The first count was 24 and it was wrong. Recorded rather than quietly replaced.
+> A first sweep flagged any body token ≠ `PROVED`, which swept in **`PRODUCES-PROOF-MODULE`,
+> `RESOLVED`, `PRODUCES-RESULT`, `PROVES`, `PROVEN`, `CONFIRMED`** — an older **positive** vocabulary
+> that affirms a result and does not contradict the metadata at all — plus **two regex artifacts**
+> (B823, B1026 have no verdict block, and the fallback pattern matched incidental bold text).
+> **Vocabulary variance is not contradiction**, and conflating them would have made the finding look
+> twice its true size.
+
+### The sharp edge: six of the fourteen are already on curated surfaces
+
+**B13 · B14 · B16 · B18** are cited by **B1026**'s `THE ONE INVOLUTION` row and **B33** by
+**B1044**'s sibling citation on the tower row — *both this refresh's own restorations*. **B48** sits
+on an older `H-EAR` row.
+
+**This does not make those rows wrong.** B1026 graded itself **STRUCTURAL**, explicitly *"carrying
+B62's own grade unchanged"*, and the involution identification it restored is sound. **What is wrong
+is that a reader tracing `B16` from `LAW_MAP` meets `verdict: PROVED` over a body whose verdict block
+reads `STALLED`, and nothing on the row says so.** The refresh found this class of defect five times
+in other people's work before finding it in its own.
+
+### The decision, priced — and it is the owner's
+
+1. **Register only** *(what this arc did)*. Costs nothing, changes nothing, and the fourteen keep
+   being counted as proved by every sweep.
+2. **Gate it** — a `verdict-consistency` check, fail-closed and triaged-not-capped like the last two.
+   Cheap to write. **Deliberately not built here:** two gates landed in the previous two phases, and
+   a third in three would be the **`E34` apparatus-inflation** this refresh already recorded against
+   itself. *If it is built, it should be the phase's one instrument, not an addendum.*
+3. **Repair the fourteen `arc_verdict.json` files** so the metadata matches the body. Most honest,
+   and the most consequential: **it changes what every downstream sweep counts**, including the debt
+   ledger's own `PROVED` filter — the corpus debt figure would move, and so would
+   `REPRESENTATION_TRIAGE`'s population. **A drafting seat should not silently re-verdict fourteen
+   banked arcs**, which is why this is registered rather than done.
+
+**A cheaper fourth option, noted because it is not obviously worse than (3):** leave the metadata and
+**add the body verdict to the row wherever such an arc is cited** — six rows today. That fixes the
+reader's problem without moving any sweep's count.

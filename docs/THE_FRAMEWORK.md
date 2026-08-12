@@ -208,6 +208,24 @@ cause*, not an absence.
 > burden**: nature *has* a scale and *has* rank 4 — ours live in k and in the observer's Lie-valued
 > closing, and **both accounts stay open**, as accounts rather than failures.
 
+**The selector, and it is a WALL by this section's own rule** *(added 2026-08-12, B1050 — a
+well-posed question that is blocked)*. The trace map's state space has a projective / central-sign
+quotient, and **six arcs established separately that the quotient is sound in every sense one could
+ask**: legitimate (**B28** — the map is equivariant under the sign action, and the Fricke–Vogt
+invariant is preserved by it **but not** by the antipodal map), canonical (**B30** — it descends
+*polynomially* to `(x², y², z², xyz)`, where the half-return is a literal period-3 orbit), Poisson-
+natural (**B34**), symplectic with the half-step **anti-Poisson** and its square Poisson (**B21**),
+topologically explained (**B35** — the sign action has order 3 over `F₂`, which *is* the period-3
+return), and its generator pinned to exactly `±P` by three equivalent conditions (**B19**).
+**Every one of the six carries the verdict `STALLED`, because none of it derives the selector.**
+The sharp form is **proved, not sampled**: the period-3 return holds for **symbolic `c`**, so on the
+B26 line — where the invariant is `c² − 1` and `I = 1/4` is the single value `c² = 5/4` — the
+quotient cannot distinguish it from any other. **Scope: *does not derive a selector*, NOT *no
+selector exists*.** Six routes stop in the same place, which makes a seventh attempt at the same
+route wasted rather than impossible. *(**B21's own negative is a different one** — the natural
+symplectic dictionary exists; the **spacetime** dictionary does not — and is kept separate.)*
+`LAW_MAP`: *THE PROJECTIVE QUOTIENT IS FULLY NATURAL AND STILL NOT A SELECTOR*.
+
 **Rank.** E₆ has rank 6; the cascade's landing site has rank 6; the SM has rank 4.
 **Centralizers of semisimple elements contain a maximal torus, so every measurement is
 rank-preserving** (B952). Closed on all routes: 63 inner sign-gradings (B959), the outer
