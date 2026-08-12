@@ -1594,7 +1594,8 @@ pre-empted the paper had it not lived at the **toral** level while the four-stra
 > B1039 restored as open**. **B1046** — `supersession` (gate 28) and `docs/consolidation/
 > SUPERSESSIONS.md`: **42 arcs declare `supersedes` and 5 carry the back-link**, and **35 FINDINGS
 > carry a self-correction banner below their own headline with 31 unregistered** — worst case
-> **B408**, whose headline reads *"the one scale lever stands"* over a body that kills it 27 lines
+> **B408**, whose headline reads *"the one scale lever stands"* — now a registered retracted
+> phrase — over a body whose own correction kills it 27 lines
 > later. Both gates are **TRIAGED, NOT CAPPED**: they fail on **untriaged** items, asking for a
 > judgement rather than a number, and neither writes back-links, because `supersedes` conflates
 > *replaces* with *extends*. **B1045** mapped **B300–B499** (69 rows) and **refused to disposition

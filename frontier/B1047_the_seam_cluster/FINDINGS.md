@@ -183,8 +183,8 @@ one vocabulary* (falsely matched). **The token stays and the judgement is record
 narrowing on the first false positive is how a threshold erodes (**E38**).
 
 **Coverage, published rather than implied: 6 fingerprints against 147 five-column `LAW_MAP` rows —
-≈ 4 %.** The proposal is the defensible middle, **not** all 147: fingerprint the **55 campaign-fed
-rows** (≥ 5 arcs cited), where a law demonstrably spans arcs and so can span bands. **The real cost
+≈ 4 %.** The proposal is the defensible middle, **not** all 147: fingerprint the **campaign-fed
+rows** (≥ 5 arcs cited — 55 at this arc, 58 after B1048's three), where a law demonstrably spans arcs and so can span bands. **The real cost
 is the body reads each fingerprint generates, not the regex** — one cluster at a time, as here.
 **A green `law-siblings` does not mean the corpus has no cross-band siblings; it means none among
 the six laws that have fingerprints.**
@@ -194,8 +194,9 @@ the six laws that have fingerprints.**
 **14 rows** mapped to this cluster at B1045; **5 dispositioned here** (B393, B410 restored; B359,
 B361, B362 declined). **9 remain, and they are not declined by silence** — B363 · B402 · B426 ·
 B427 · B431 · B449 · B459 · B474 · B478 are **owed, un-read**, with **B408's trap** sitting inside
-the same campaign (`SUPERSESSIONS.md` §B: a headline reading *"the one scale lever stands"* over a
-body that kills it). Measured with **B1047 and later excluded** (E37).
+the same campaign (`SUPERSESSIONS.md` §B). **Its headline — since retracted and given a correction
+banner at B1048 — asserted *"the one scale lever stands"* over a body that kills it.** Measured
+with **B1047 and later excluded** (E37).
 
 **The corpus figure, set-differenced rather than subtracted: 204 → 199** uncited substantive PROVED
 arcs (50 uncited instrument; 634 PROVED in all). **The five retired are exactly the five

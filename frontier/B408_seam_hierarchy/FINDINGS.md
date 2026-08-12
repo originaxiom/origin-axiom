@@ -1,6 +1,22 @@
-# B408 (Phase 1b) — BANKED: THE SEAM DOES NOT CONTRACT — the one scale lever stands
+# B408 (Phase 1b) — BANKED: THE SEAM DOES NOT CONTRACT — the one scale lever stands [REFUTED BY THIS ARC'S OWN CORRECTION — read the banner below]
 
 **Status: complete; the registered PERSISTENCE branch. Prereg committed first. Firewalled.**
+
+> ## ⚠ THE HEADLINE ABOVE IS REFUTED BY THIS FILE'S OWN CORRECTION, 27 LINES BELOW. READ IT FIRST.
+>
+> **The `arc_verdict` is `NEGATIVE`.** The adversarial-panel CORRECTION in §*"the seam CONTRACTS"*
+> shows the 1.2170 ratio was an artifact of taking a **max over embeddings**, which is biased by
+> embedding count; the normalised ratio is **0.7649 < 1**, and **the object has NO scale lever in
+> any tested channel**. **Nothing may restore the 1.2170 reading**, and this arc's 135-level scout
+> numbers (0.02495 / 0.02103 / 0.02135) are void with it.
+>
+> **B426 upgrades this correction to a THEOREM** — the three "real embeddings" are the three Galois
+> conjugates of one cubic number and every average of that orbit is below 1 — restored to
+> `LAW_MAP` as *"THE SCALE WALL CLOSES AT THE LEVEL OF GALOIS THEORY"* (**B1048**).
+>
+> *Banner added by B1048. No claim, number or word of the original text below is altered; this
+> pointer exists because a body-reading pass meets the refuted headline first, which is exactly
+> the defect `docs/consolidation/SUPERSESSIONS.md` registered against this arc at B1046.*
 
 - Level-15 seam envelope (exact): **1/48**.
 - Level-45 seam envelope (max over all banked E16 cells × the three real embeddings of

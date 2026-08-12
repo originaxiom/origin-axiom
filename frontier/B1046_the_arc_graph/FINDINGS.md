@@ -38,7 +38,7 @@ adds its row in the PR that banks the correction."*
 
 **`B408`, verdict NEGATIVE:**
 
-> **Headline:** *"BANKED: **THE SEAM DOES NOT CONTRACT — the one scale lever stands**"*
+> **Headline** (registered as a retracted phrase at B1048): *"BANKED: **THE SEAM DOES NOT CONTRACT — the one scale lever stands**"*
 > **27 lines later:** *"**CORRECTION** … the seam **CONTRACTS** — persistence was an artifact …
 > max over embeddings **is biased by embedding count** … the object has **NO scale lever in any
 > tested channel**."*
@@ -86,7 +86,7 @@ as useless as one that never fires.*
 
 **Self-correction — a first draft of the instrument hardcoded an arc into itself.** Detecting the
 B408 shape by regex needed `"SCALE LEVER" not in head` to catch a headline that *contains* a
-negation (*"DOES NOT CONTRACT"*) while *asserting* a positive (*"the one scale lever stands"*).
+negation (*"DOES NOT CONTRACT"*) while *asserting* a positive (*"the one scale lever stands"* — retracted, B1048).
 **That is an arc-specific rule inside a general instrument.** Removed: all non-PROVED
 self-corrections are surfaced and **the judgement lives in the registry**, which is the posture
 everywhere else here.

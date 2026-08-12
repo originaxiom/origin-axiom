@@ -153,9 +153,20 @@ def test_law_siblings_coverage_is_measured_not_typed():
     reg = _read("docs/consolidation/LAW_SIBLINGS.md")
     assert "the seam is the ends' class field (B1029)" in LS.FINGERPRINTS
     assert "the seam's darkness is termwise (B1047)" in LS.FINGERPRINTS
-    assert f"| **{len(LS.FINGERPRINTS)}** |" in reg
+    # ANCHORED ON THE ROW, NOT THE CELL SHAPE. A first version demanded the literal "| **150** |"
+    # and broke the moment B1048 annotated the cell with its provenance -- a lock that forbids
+    # improving the prose is a lock on the wrong thing. What must hold is that the number stated
+    # beside each label IS the number the instrument produces.
+    def _cell(label):
+        rows = [ln for ln in reg.splitlines() if label in ln]
+        assert len(rows) == 1, (label, len(rows))
+        return rows[0]
+
+    assert f"**{len(LS.FINGERPRINTS)}**" in _cell("fingerprints in `FINGERPRINTS`")
     lm = [ln for ln in _read("docs/LAW_MAP.md").splitlines()
           if ln.startswith("|") and not re.match(r"^\|[\s:-]+\|", ln)]
     five = [ln for ln in lm if ln.count("|") >= 5]
-    assert f"| **{len(five)}** |" in reg, len(five)
+    assert f"**{len(five)}**" in _cell("five-column law tables"), len(five)
+    fed = [ln for ln in five if len(set(re.findall(r"\bB\d+\b", ln))) >= 5]
+    assert f"**{len(fed)}**" in _cell("the *campaign-fed* rows"), len(fed)
     assert LS.sweep() == []

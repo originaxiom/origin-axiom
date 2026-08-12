@@ -3,6 +3,16 @@
 **Status: banked. Chat-2's G1 handoff VERIFIED exact against the banked B372 coefficients, then
 STRENGTHENED: the B408 correction is now a theorem. Firewalled; nothing to CLAIMS beyond the math.**
 
+> ## ⚠ CORRECTION (B1048): the slogan *"every Galois-invariant functional of the orbit is < 1"* is OVER-BROAD.
+>
+> The elementary symmetric **`e₁ = 3/2 > 1`**, and the sixth power mean **`M₆ = 1.0134 > 1`** (while
+> `M₅ = 0.97699 < 1`). **The exact boundary: the power-mean family contracts for every `p` below
+> `p* = 5.5932…`**, and exceeds 1 only as it degenerates toward `max` — *precisely the embedding
+> bias B408's correction named*. **The theorem is not weakened; it is given its boundary**, and the
+> defensible form is *"every genuine **AVERAGE** of the orbit contracts"*. Everything else in this
+> file re-verified exactly at B1048 (minimal polynomial, roots, mean `1/2`, RMS `√51/10`,
+> geometric mean `(19/1000)^⅓`).
+
 ## The verified closed form (Chat-2 G1 — every claim checked)
 
 B408's max-embedding seam-envelope ratio has the exact closed form
@@ -22,7 +32,9 @@ number** — the roots {1.2170, 0.2079, 0.0751} of the minpoly. Exact symmetric 
 
     mean = 1/2,   RMS = √51/10 ≈ 0.714,   geometric mean = (19/1000)^{1/3} ≈ 0.267.
 
-**Every Galois-invariant functional of the orbit is < 1.** The "1.217 growth" exists only under
+**Every Galois-invariant functional of the orbit is < 1.** *(⚠ OVER-BROAD — see the correction
+banner at the top of this file; the exact form is "every genuine AVERAGE contracts", boundary
+p* = 5.5932.)* The "1.217 growth" exists only under
 max — which is not Galois-invariant (it selects a conjugate; Galois symmetry provides no
 canonical choice). This upgrades the B408 correction (max = embedding-bias; RMS 0.7649 =
 contraction) from a diagnosis to a theorem: **the object supplies no invariant functional under

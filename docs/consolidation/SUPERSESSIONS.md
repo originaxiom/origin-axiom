@@ -96,13 +96,19 @@ itself concluded against it.*
 > than silently edited:** this is `E37` (self-measurement) in its cheapest form, and the repair is
 > the general one — *a number a script can produce should be checked against the script.*
 
-**72 candidates total; 27 are load-bearing** (the gate's scope — **27 findings over 26 distinct
-arcs**, B731 appearing twice because two successors supersede it) and all 26 are dispositioned
+**70 candidates total; 25 are load-bearing** (the gate's scope — **25 findings over 24 distinct
+arcs**, B731 appearing twice because two successors supersede it) and all 24 are dispositioned
 above. The remaining **45** — one-way links whose target is cited on **no** curated surface, and
 self-corrections on **PROVED** arcs — are real but not currently misleading anyone. **They are not
 triaged, and the gate does not fail on them.** Recorded here so the number is public rather than
 implied.
 
+> **B1048 MOVED IT AGAIN, DOWNWARD, AND THAT DIRECTION IS THE POINT.** Candidates fell **72 → 70**
+> and load-bearing **27 → 25** because **B408 and B426 now carry correction banners and
+> `RETRACTIONS.md` rows** — so they are no longer *unregistered* self-corrections. **Two of the 31
+> this file measured are paid**, by body reads rather than by bulk-writing rows, which is the
+> refusal B1046 recorded. The unregistered count is now **29**.
+>
 > **This number MOVES WHEN THE CORPUS IS CONSOLIDATED, and B1047 moved it in the same commit that
 > corrected it.** B1046's instrument reported **26** on its own tree; B1047's `LAW_MAP` row named
 > **B361**, which put a superseded arc on a curated surface and took the count to **27** —

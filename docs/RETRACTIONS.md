@@ -112,3 +112,40 @@ which is what campaign step 5 exists to force.
 which carries the narrowed form and names the counterexample · locks
 `tests/test_b1039_phi_fixed_and_metallic_exponent.py::test_finite_image_does_NOT_imply_a_reducible_tower`
 and `::test_spectrum_alone_does_not_give_an_involution`.
+
+
+---
+
+## B408's headline, and B426's slogan — the worst case in the corpus, closed (B1048)
+
+**What was asserted (1):** *"BANKED: **THE SEAM DOES NOT CONTRACT — the one scale lever stands** …
+Ratio ≈ 1.2170 > 1 … **the object's single scale-lever candidate**"*.
+**Where banked:** `frontier/B408_seam_hierarchy/FINDINGS.md`, lines 1–11.
+**The correction:** **B408's own body**, 27 lines below — *"the seam **CONTRACTS** — persistence was
+an artifact … max over embeddings **is biased by embedding count** … NORMALIZED RATIO = **0.7649 <
+1** … the object has **NO scale lever in any tested channel**"*. The `arc_verdict` was always
+`NEGATIVE`. **Nothing may restore the 1.2170 reading**, and B408's 135-level scout numbers
+(0.02495 / 0.02103 / 0.02135) are void with it.
+
+**Why this row exists 122 arcs late.** `RETRACTIONS.md`'s own maintenance rule is *"every future
+retraction adds its row in the PR that banks the correction"*. **B408's did not**, and B1046
+measured that it is one of **31** such arcs. This is the worst of them — **a scale-lever claim is
+what `WHAT_WOULD_COUNT` grades Tier 2 on** — and a body-reading pass meets the refuted headline
+first.
+
+**Where corrected:** B1048 (`frontier/B1048_the_seam_cluster_closed/`) · the phrase registered as
+**row 9** of `docs/RETRACTED_PHRASES.md` · **a correction banner added at the top of B408's own
+FINDINGS**, the treatment B437's headline already carries and B723's banner established · the
+survivor restored to `LAW_MAP` as **THE SCALE WALL CLOSES AT THE LEVEL OF GALOIS THEORY**.
+
+**What was asserted (2):** *"**Every Galois-invariant functional of the orbit is < 1.**"*
+**Where banked:** `frontier/B426_scale_lever_closed_form/FINDINGS.md`.
+**The correction:** **NARROWED — over-broad, not false.** The elementary symmetric `e₁ = 3/2 > 1`
+and the sixth power mean `M₆ = 1.0134 > 1` (while `M₅ = 0.97699 < 1`). **The exact boundary: the
+power-mean family contracts for every `p` below `p* = 5.5932…`** and exceeds 1 only as it
+degenerates toward `max` — *precisely the embedding bias B408's correction named*. **The theorem is
+not weakened; it is given its boundary**, and the defensible form is *"every genuine **average** of
+the orbit contracts"*. Everything else in B426 re-verified exactly.
+**Where corrected:** B1048 · `RETRACTED_PHRASES` row 10 · a banner at the top of B426 · the
+`LAW_MAP` row, which carries the crossover · lock
+`tests/test_b1048_seam_closed.py::test_the_power_mean_crossover_is_where_B1048_says`.

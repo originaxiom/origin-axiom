@@ -2,9 +2,10 @@
  "checks": {
   "the_two_rules_give_different_sets": {
    "pass": true,
-   "ledger": 217,
+   "ledger": 194,
    "triage_live": 9,
    "triage_rows": 17,
+   "ratio": 21.6,
    "overlap": 6
   },
   "the_overlap_is_small": {
@@ -45,7 +46,7 @@
     "B700": 162,
     "B800": 733,
     "B900": 2571,
-    "B1000": 3326
+    "B1000": 3399
    }
   },
   "so_the_bar_measures_the_banking_convention_not_substance": {
@@ -97,7 +98,7 @@
     "100": 5483,
     "200": 3987,
     "300": 4038,
-    "400": 3358,
+    "400": 3765,
     "500": 3950,
     "600": 2930,
     "700": 4496,
@@ -113,9 +114,9 @@
   },
   "so_stratifying_the_ledger_by_that_bar_would_discard_the_entire_early_corpus": {
    "pass": true,
-   "would_be_dropped": 198,
-   "of": 217,
-   "share": "0.912"
+   "would_be_dropped": 175,
+   "of": 194,
+   "share": "0.902"
   },
   "the_ledger_now_cites_the_triage_register": {
    "pass": true
@@ -137,7 +138,7 @@
   }
  },
  "numbers": {
-  "ledger_rule": 217,
+  "ledger_rule": 194,
   "triage_rule_live": 9,
   "triage_rows": 17,
   "overlap": 6,
@@ -156,14 +157,14 @@
    "B700": 162,
    "B800": 733,
    "B900": 2571,
-   "B1000": 3326
+   "B1000": 3399
   },
   "median_findings_bytes_by_band": {
    "0": 1988,
    "100": 5483,
    "200": 3987,
    "300": 4038,
-   "400": 3358,
+   "400": 3765,
    "500": 3950,
    "600": 2930,
    "700": 4496,

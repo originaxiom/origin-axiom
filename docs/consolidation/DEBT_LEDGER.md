@@ -677,3 +677,58 @@ Measured with **B1047 and later excluded** (E37).
 > stays a raw guard, because *that* direction would mean the citation regex stopped matching.
 > **The general rule now stated in `ERROR_LEDGER`: any lock whose number the programme is trying to
 > move is an E38 waiting for the programme to work.**
+
+### §B300–B499 — **THE SEAM CLUSTER IS CLOSED** (2026-08-12, B1048): the other nine rows
+
+B1047 dispositioned five of the cluster's fourteen. **These are the nine, and the headline is not
+the seam.**
+
+> ### The survivor sitting beside the corpus's worst trap is a **THEOREM**, and no curated surface carried it.
+>
+> **B408** — registered at B1046 as the worst case in the corpus — opens *"THE SEAM DOES NOT
+> CONTRACT — the one scale lever stands"* (a registered retracted phrase) over a `NEGATIVE`
+> verdict, and its own correction kills it 27 lines
+> down. **B426 is the arc that upgrades that correction from a diagnosis to a THEOREM.** Stated
+> precisely, because the loose version is false: **B1046's registry DOES name B426** — its B408 row
+> says *"B426 upgrades the correction to a theorem — survivor and trap sit side by side"*. **What
+> was missing is not the name but the LAW.** Measured with this arc's rows excluded: **B426 appears
+> on none of the five curated surfaces.** A reader of the consolidations met the trap and nothing
+> that answered it.
+
+**RESTORE — three rows on `LAW_MAP`, each re-verified before restoring (campaign step 5):**
+
+| row | rows retired | the statement |
+|---|---|---|
+| **THE SCALE WALL CLOSES AT THE LEVEL OF GALOIS THEORY** | **B426** | the ratio's minimal polynomial `1000x³−1500x²+360x−19` in `ℚ(ζ₉)⁺`, `√5`-free; the three "embeddings" are **three Galois conjugates of one number**; `mean = 1/2`, `RMS = √51/10`, `geo = (19/1000)^⅓` — all exact, all below 1 |
+| **THE SEAM FIELD IS FORCED, AND ITS LEVEL IS A CONDUCTOR** | **B449 · B427** | 5₂ and 6₁ are **not fibered** (Alexander leading coefficient 2), so the disc×disc reading names nothing for them; for a fibered knot Alexander **is** the monodromy char poly, and level 15 is the **conductor** of `ℚ(√−3,√5)`. The exchange is `σ₁₇`, which **fixes `√−15`** |
+| **THE SEAM IS AN ADDRESS PROPERTY** | **B363 · B402 · B478** | necessity (`Par`-non-commutation, and the seam is **two-sided**: 225/225 one-sided twists dark), intensity (`f(gcd(address,15)) = {1:44, 3:32, 5:36, 15:0}`, the canonical point the **unique** dark address), and the shift (`Par·D·Par = D·Z^{cm}`, trace-invisible, address-visible) |
+
+> **B426's own slogan is over-broad and is corrected before restoring.** It writes *"every
+> Galois-invariant functional of the orbit is < 1"*. **`e₁ = 3/2 > 1`, and the sixth power mean is
+> `1.0134 > 1`.** The exact boundary, computed in the arc: **the power-mean family contracts for
+> every `p` below `p* = 5.5932…`** and exceeds 1 only as it degenerates toward `max` — *precisely
+> the embedding bias B408's own correction named*. **The wall is not weakened; it is given its
+> boundary**, and the defensible form is *"every genuine AVERAGE contracts"*.
+
+**DECLINE — three rows, each on the arc's own words:**
+
+- **B459 — DECLINE, ITS OWN ADDENDUM WITHDRAWS THE HEADLINE, TWICE.** *"The selection structure is
+  the **QR-class's at level 15, not the object's**"* (the address axis, an independent control),
+  and *"every pair has its own table … which corrects **THIS record's own overreach** — B459's
+  'one uniform law, 240/240' was itself (1,2)-specific"* (the seed-pair axis). **An `E34`
+  apparatus-inflation shape, caught by the arc itself.** Restoring the *"5 of 16"* headline would
+  restore an object-level claim its author withdrew. *(Its registry row at `LAW_SIBLINGS.md` said
+  SAME-LAW — OWED; reading the addendum resolves it to DECLINE.)*
+- **B431 — DECLINE, CLAIM-LINE GAP AND A PAIR-SPECIFIC TABLE.** Its claim line names **one** gating
+  line (`y ≡ 0 mod 3`); the body has **two** (`x ≡ 0 mod 10` as well), plus two value-level
+  corrections. **Fifth instance of the gap this cluster keeps producing.** And B459's controls make
+  the table the **(1,2) pair's**, not the object's.
+- **B474 — DECLINE, ITS OWN WORDS: the correspondence "demands a mechanism".** The (j,l)↔(x,y)
+  identification *"is nominal"*, the candidate explanation is CRT-laundering, and *"derivation =
+  the next wave"*. **What stands is the float-kill — the seventh — and a float-kill is process.**
+
+**The cluster, closed — and the arithmetic is stated because the first draft of this line got it
+wrong.** **14 rows = 8 RESTORED** (B393 · B410 at B1047; B426 · B449 · B427 · B363 · B402 · B478
+here) **+ 3 DECLINED — RETRACTION** (B359 · B361 · B362, B1047) **+ 3 DECLINED** (B459 · B431 ·
+B474, here). Campaign step 6 satisfied for the whole cluster — *"restored or explicitly declined
+with a reason"*. Measured with **B1048 and later excluded** (E37).

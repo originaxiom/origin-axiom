@@ -95,7 +95,14 @@ def test_the_curated_gap_is_real_and_large(arcs):
     share = len(absent) / len(arcs)
     assert 0.40 < share < 0.80, f"curated-absent share {share:.3f} outside the measured band"
     proved = [b for b, v in absent if v == "PROVED"]
-    assert len(proved) > 200, f"only {len(proved)} PROVED arcs absent from curated surfaces"
+    # SWEPT, B1048. The docstring above already says "bounded rather than pinned exactly, so
+    # ordinary consolidation work does not break the lock" -- and then the very next line pinned an
+    # ABSOLUTE COUNT that ordinary consolidation work walks straight through. E38's sibling in the
+    # same file as the one B1048 repaired, found by grepping for the pattern rather than waiting
+    # for it to break. Bounded as a SHARE of PROVED arcs, which is what "the curated tier carries a
+    # minority" actually asserts.
+    assert 0.20 < len(proved) / max(1, len(arcs)) < 0.60, \
+        f"{len(proved)} PROVED arcs absent of {len(arcs)} -- share outside the measured band"
 
 
 def test_path_form_citations_are_counted__the_v3_correction(arcs):

@@ -159,6 +159,30 @@ fires for the ENUMERATED space, not in principle** — "Tier 2 is unreachable" w
 *"Tier 2 has no live candidate"* is what is true, and it is enough to act on. **A fourth crossing
 requires a candidate from outside B687's atlas and outside B743's tower.**
 
+**And one row of §D is sharpened, not moved, on 2026-08-12 (B1048).** `WHAT_WOULD_COUNT`
+grades **Tier 2** on a **scale lever**, and the corpus's last named candidate for one was the
+**boundary-recruited pair (seam) channel**: `B408` banked it as *"the object's single scale-lever
+candidate"* with a ratio of 1.2170 — **and killed it in its own body 27 lines later** (max over
+embeddings is biased by embedding count; normalised ratio **0.7649 < 1**; *"the object has **no
+scale lever in any tested channel**"*). **`B408`'s `arc_verdict` was always `NEGATIVE`, so nothing
+in this ledger ever rested on the 1.2170 reading** — but the retraction row and the phrase registry
+were 122 arcs late, and are added at B1048.
+
+**What is new here is the strength of the closure, not its direction.** `B426` shows the three
+*"real embeddings"* whose maximum produced 1.2170 are the **three Galois conjugates of one cubic
+number** (minimal polynomial `1000x³ − 1500x² + 360x − 19` in `ℚ(ζ₉)⁺`, `√5`-free), whose
+**arithmetic mean is exactly `1/2`, RMS exactly `√51/10`, geometric mean exactly `(19/1000)^⅓`** —
+so **the seam channel's non-growth is a statement of Galois theory, not of statistics.** Scoped
+exactly, because B426's own slogan over-reached and is corrected in the same commit: **the
+power-mean family contracts for every `p` below `p* = 5.5932…`** and exceeds 1 only as it
+degenerates toward `max` — the very bias B408 named. **Every genuine *average* contracts; "every
+functional" is false** (`e₁ = 3/2`).
+
+**Net effect on this ledger: none of the B2 rows move.** *"No live Tier-2 candidate remains"*
+stands, and now the one candidate that was named is closed by a theorem rather than by a
+diagnosis. Restored to `LAW_MAP` as **THE SCALE WALL CLOSES AT THE LEVEL OF GALOIS THEORY**
+(B1048, restoring B426); see `docs/RETRACTIONS.md` and `docs/RETRACTED_PHRASES.md` rows 9–10.
+
 ---
 
 ## E. How to use this ledger

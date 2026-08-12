@@ -1545,6 +1545,42 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1048": {
+   "slug": "the seam cluster closed",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B300",
+    "B359",
+    "B361",
+    "B362",
+    "B363",
+    "B393",
+    "B402",
+    "B408",
+    "B410",
+    "B426",
+    "B427",
+    "B431",
+    "B448",
+    "B449",
+    "B459",
+    "B474",
+    "B478",
+    "B499"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [
@@ -9653,11 +9689,12 @@
    ],
    "refs": [
     "B372",
+    "B426",
     "S043"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 6,
-   "status": "banked",
+   "obstacle_conf": 9,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B409": {

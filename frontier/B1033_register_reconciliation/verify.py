@@ -98,9 +98,17 @@ triage_set = {n for n, a in ARCS.items()
 triage_rows = {int(x[1:]) for x in
                re.findall(r"^\| `(B\d+)`", read("docs/REPRESENTATION_TRIAGE.md"), re.M)}
 
+# WAS `len(ledger_set) > 200 and len(triage_set) < 30`, and it broke at 194 when B1048 restored six
+# rows. THIRD instance of E38 (progress-eroded threshold) -- and the sharpest, because B1042 ALREADY
+# repaired a `> 200` absolute count IN THIS SAME FILE and left its sibling standing. Naming an error
+# class does not sweep for it, which is this refresh's own recurring finding, one level down again.
+# The finding here is a SHAPE -- "the two registers select different sets, one an order of magnitude
+# larger" -- so that is what is asserted. The upper guard stays raw: `triage_set` exploding would
+# mean the substantiality bar or the sweep surfaces changed, which is a real regression.
 chk("the_two_rules_give_different_sets",
-    len(ledger_set) > 200 and len(triage_set) < 30,
+    len(ledger_set) >= 10 * max(1, len(triage_set)) and len(triage_set) < 30,
     ledger=len(ledger_set), triage_live=len(triage_set), triage_rows=len(triage_rows),
+    ratio=round(len(ledger_set) / max(1, len(triage_set)), 1),
     overlap=len(ledger_set & triage_rows))
 chk("the_overlap_is_small", len(ledger_set & triage_rows) < 10,
     overlap=sorted(f"B{n}" for n in ledger_set & triage_rows))
