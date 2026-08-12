@@ -68,3 +68,17 @@ interpolation, a wrong hemisphere, or a missing normalisation.
 **The candidate class these requirements select, today:** a dimensionless, kind-correct,
 RG-insensitive number of the **observer–object coupling** (the u†M_odd u family being the banked
 prototype) — pending L150.
+
+
+## The B1027 refresh — design notes registered pre-trigger (B1038, 2026-08-12)
+
+When the pre-committed refresh fires (a newer δ_CP global fit becomes fetchable), two
+notes bind its design, both from the audit seat's window (verified this bench):
+1. **The Jarlskog flag**: δ is parametrization-defined; the **Jarlskog invariant J** is
+   the convention-free carrier of CP violation and was available — the refresh's design
+   must either target J-typed content or state why the δ-window form is retained
+   (Test-1/gauge typing, B647 c3's lesson applied to the crossing itself).
+2. **The CP-body citation**: the object's own CP-phase body (arg κ = ∓π/6, the matter
+   face — B285/B289/B303) is cited and its relation to the χ-phase menu declared (the
+   original crossing used "CP phases" without citing it — the point-of-use defect's
+   sharpest instance).

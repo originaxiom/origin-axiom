@@ -321,3 +321,11 @@ No invariant may be transferred between these without an explicit map.
   (fiber orientation flip = chirality) — a discrete ℤ/2 closing bit, an item of the
   price. Any sentence saying only "σ" has not stated its subject (the D-iv clause,
   binding).
+- **"π/6" names TWO objects of OPPOSITE TYPE** (adjudicated by the audit seat's item 2,
+  verified): (1) **arg κ = ∓π/6** — the meridian-commutator trace's phase at u = ω, a
+  conjugation-invariant TRACE (no basis freedom exists; Test-1 clean by construction),
+  the MATTER FACE's carrier (B285→B303, B1010), with |κ − 2| = 1 the unit obstruction;
+  (2) **arg Y[134] = π/6** — a cubic slot in a chosen H¹ basis, **proved pipeline GAUGE**
+  (B647 c3; the invariant carrier is cross-ratio = 1). Both sit at ±π/6 because that is
+  where √3-type elements of ℚ(√−3) live — the field's geometry, not a shared mechanism.
+  One symbol, one content-carrier, one convention: say which.

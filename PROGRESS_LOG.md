@@ -10276,3 +10276,12 @@ its fence (5 ≠ 3; seam-born classes); the seam symmetric support EMPTY (the ob
 extends; the scalar route's vacuity = O2 restated; the V-valued assembly the named
 residual); h¹(M; ad) = 6 = the predicted falsifier value. Two sealed HALTs disclosed in
 FINDINGS; the record log archived in-arc. Locks: tests/test_b1036_mirror_double.py.
+
+## 2026-08-12 — B1037 + B1038: the plan closes
+
+B1037 (sealed): the θ-join DISTINCT at its first test, prior scored wrong, J² = +1 the
+positive residue, scope fenced to the sealed projection. B1038: the at-risk census
+reproduced exactly (54/23/31); the synonym principle verified with criteria unconflated;
+the π/6 row, the point-of-use practice, and the B1027 refresh notes installed. The
+approved plan's four arcs are complete; wait-states and the R43 items carry. Locks:
+tests/test_b1037_b1038.py.

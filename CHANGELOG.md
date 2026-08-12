@@ -1,5 +1,32 @@
 # Changelog
 
+## B1037 + B1038 (2026-08-12) — the plan's last two arcs: a clean join-death and the retrieval instruments
+
+**B1037 (the θ-join, sealed): DISTINCT — and the declared prior was wrong, recorded.**
+The joined-results instrument's first target resolves negative at its first sealed test:
+the chain-level defects are present (B647's law reconfirmed in passing) and the sealed
+class projection does not kill them — the value-kernel and the chain defect law remain
+two banked facts without an exhibited one-operator join. Positive sub-fact: **J² = +1
+exactly** (the antilinear transport is an honest involution). Scope fenced: DISTINCT for
+the sealed projection; the argument-level antisymmetrization would need a fresh seal.
+One named hypothesis, one cheap cell, one clean death — the instrument as intended.
+
+**B1038 (the retrieval-and-typing arc): the census REPRODUCES EXACTLY** — an independent
+implementation returns the audit seat's corrected 54/23/31 precisely, corroborating
+their census NEGATIVE at count level; the synonym-set principle verified with the
+criterion difference stated (mentions vs checks-run — two measurements, not conflated).
+Installed: the **π/6 two-referent TERMINOLOGY row** (a Test-1-clean trace vs a proved
+pipeline gauge), the **point-of-use citation practice** (the corpus's measured retrieval
+defect, now a practice with a named gate-shape), and the **B1027 refresh design notes**
+(the Jarlskog flag; the CP-body citation requirement) binding at the pre-committed
+trigger. The fresh claim-drop slice noted as available, not run.
+
+**With this batch the approved plan's four arcs are complete**: L154 adjudicated (one
+bridge from the prize) · the mirror-double (multiplicity live at 5, the symmetric wall
+extended, ad = 6 confirmed) · the retrieval arc · the θ-join. The hygiene riders landed
+along the way (provenance regex, Todorov addendum, the third-σ row, the naming-gate
+deferral with its constraint named).
+
 ## B1036 (2026-08-12) — the mirror-double: the coupling move creates multiplicity, and still no symmetric mass
 
 Plan Arc 2, sealed pre-compute, the record run end-to-end with every gate green. **The

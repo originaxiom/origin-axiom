@@ -587,3 +587,14 @@ index declares its referent against the TERMINOLOGY registry, and the gate fails
 undeclared collision with an existing name. Until the gate exists, the practice is manual:
 **name a new object by its defining equation in the same sentence as its label** (the
 window handoff's L154 clause, generalized).
+
+## Point-of-use citation (registered at B1033/B1038; the corpus's measured retrieval defect)
+
+The record's defect is not lost work but work cited everywhere except where it is needed
+(measured: a banked arc with 38 inbound citations went unconsulted by the adjacent
+same-operator arc; the fourth crossing used "CP phases" six times citing zero arcs of the
+object's own CP-phase body). **The practice: an arc's FINDINGS cites the corpus's own
+body for every load-bearing term it uses** — before sealing, ask of each key term "where
+does the record already speak about this?" and cite it or record the search. The
+checkable gate-shape (a future instrument): key terms in a new FINDINGS resolve against
+the TERMINOLOGY registry and the atlas's motif index.

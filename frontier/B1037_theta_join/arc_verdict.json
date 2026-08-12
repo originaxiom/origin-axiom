@@ -1,0 +1,15 @@
+{
+ "id": "B1037",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE THETA-JOIN (plan Arc 4, sealed 63cd367a pre-compute): DISTINCT -- the joined-results instrument's first target resolves NEGATIVE at its first sealed test, and the declared prior (JOINED, weak) was WRONG, recorded under non-weakening. J2: the raw chain-level defects are present per banked triple (B647's defect law reconfirmed in passing) and the sealed class projection (alternating over evaluation orders) does NOT kill them -- the orders' defects differ, so the value-kernel (B1029) and the chain defect law (B647) remain two banked facts WITHOUT an exhibited one-operator join. J3's positive sub-fact: J^2 = +1 EXACTLY -- the antilinear transport U27 o conj is an honest involution (the theta-lift shape is real; the join through this projection is not). SCOPE: DISTINCT is the verdict for the SEALED projection; B647's own cohomological law lives at argument-level antisymmetrization, not adjudicated here -- a re-pose there would need a fresh seal. The instrument worked as intended: a named join hypothesis, one cheap sealed cell, a clean death. Gate 5 untouched.",
+ "depends_on": [
+  "B1029",
+  "B647",
+  "B637",
+  "B639"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-12), sealed 63cd367a"
+}
