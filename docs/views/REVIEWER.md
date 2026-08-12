@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **961** |
-| words of findings prose | **647,011** |
-| test lock files referenced | **595** |
-| arcs carrying an authored verdict | **948** (98.6 %) |
+| research arcs with findings | **962** |
+| words of findings prose | **647,753** |
+| test lock files referenced | **596** |
+| arcs carrying an authored verdict | **949** (98.6 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 627 |
+| PROVED | 628 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1041`** (624 words, 1 locks)  
-PM1 / L160's theta-leg (sealed 165d8ef5 pre-compute): the three (Z/2)^3 cubes -- Galois (B704), operations (B766), closings (B782) -- are ONE cube at direction level, EXHIBITED: the coordinate-permutation dictionary is IMPOSSIBLE (0/6 exhaustive; c flips two axes, sigma_{-3} flips one radical -- the typed obstruction), but the linear intertwiner exists, is UNIQUE given the banked generator assignment Phi (c->s-3 via gamma3==c; gamma5->s5 via time's-arrow=sqrt5's-sign; theta->s-7 by elimination), is invertible, and all 8 affine liftings pass the full 3x8 equivariance table -- the 8-fold freedom IS B782's no-canonical-point, so the iso is canonical at group/direction level with no section smuggled. THE PAIRING UNDER TEST HOLDS: theta <-> sqrt(-7); the E6 leg IS carried by the observer's operations. THE DIAGONAL (new structure): chirality's side = the being(+)E6 diagonal s-3+s-7, the chord's direction = s-7 PURE while its geometric value is sqrt3 -- the seal's tension resolves to basis-color (value-flavor and torsor-direction are different attributes, first banked instance). B757-shape fenced: the bare existence is torsor-generic zero bits; what banks is the 0/6 obstruction + L's unique form + the pin consistency + rank-3 re-entry. L160 CLOSES; L158 gains its template-half morphism; P6's fourth-level stake passes in sharper form (the exhibition itself splits template/selection). Gate 5 clean.  
-`B1041_theta_leg/FINDINGS.md`
+**PROVED — `B1042`** (742 words, 1 locks)  
+PM3 / the trit morphism (sealed b8544786 pre-compute; exact Q(omega), the McKay graph COMPUTED not cited): JOINED -- the VEV-acceptance trit's Z/3 (B1030 #1, algebra-side) IS omega's Z/3 (mu_6, field-side) carried through exhibited functorial links: (1) 2T/Q8 = Z/3 with character values EXACTLY <omega> = mu_3 (49 orthogonality pairs exact); (2) tensoring by those characters IS the affine-E6 diagram's order-3 rotation fixing the center (the McKay graph built from A_ij = <chi2 chi_i, chi_j>); (3) center-deletion = su(3)^3 and the rotation permutes the three A2 factors in ONE 3-cycle = B897's banked factor rotation; upstream links banked (B1010 kappa-2=omega^2; the 2T->E6 spine; B1011). THE CONTROL DECIDES V3: SL(2,5) is PERFECT (computed, commutator = all 120) -- the golden end admits NO such characters, no rotation, no trit; the carry is discriminating, not generic; the B757 membership-accident shape is REFUTED, not avoided. Fences: B1030 sV4's 'unrelated' parenthetical UNTOUCHED for its own pair (#1-vs-#6, the counting floor -- nothing links the terminal count to omega); the FMT's S3 untouched; alternates placed (the trit is algebra-side by residence, FIELD-SIDE BY DESCENT; #3/#4 are not its home). Crossing consequence at type level: the price's third item ('one trit') has an arithmetic pedigree -- the trit is omega's shadow through McKay; the coupling's only Z/3 channel now has a field-side source. The cosmogony row '(omega, triality, the trit)' promotes [LEAP]->[MATH] per the sealed rule, that row only. L157-2 discharged (morphism demand MET for the trit column). V0 prior-art clean (B487 = DGG tensoring, B946 = belt labels -- different objects, recorded).  
+`B1042_trit_morphism/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

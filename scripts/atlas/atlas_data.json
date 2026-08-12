@@ -1163,6 +1163,31 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1042": {
+   "slug": "trit morphism",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B487",
+    "B757",
+    "B897",
+    "B946",
+    "L157",
+    "L160",
+    "V0",
+    "V3",
+    "V4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

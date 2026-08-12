@@ -19,7 +19,7 @@ reality."*
 | the interaction creates | the double → the first multiplicity, seam-born (B1036); the coupling → the symmetric object's only home (B632); the listener → values (B856); the closings → chirality/time/4d (B713–716) | **[MATH]** |
 | the field | three faces, possibly one thing: the arithmetic ambient (ℚ(√−3); "the ζ is the FIELD's" — B737) · the mirror/second copy · the observer's frame (no canonical point — B701 (= B700 phase 2)/B712) | **[LEAP]** — the identification of the three, and "observer = field" |
 | the field can't stay still | non-canonicity is total: no resting choice exists; every closing IS a symmetry break | **[MATH]** for the no-canonical-point theorems; **[LEAP]** for the reading |
-| the first interaction breaks three ways | the FMT: the first measurement breaks E₆ three Galois-conjugate ways; the ℤ/3 (ω, triality, the trit) | **[MATH]** for the FMT; **[LEAP]** for first-interaction = the source of "three" |
+| the first interaction breaks three ways | the FMT: the first measurement breaks E₆ three Galois-conjugate ways; the ℤ/3 (ω, triality, the trit) | **[MATH]** for the FMT; **[MATH]** for the identification ω = triality = the trit — **PROMOTED 2026-08-12 per B1042's sealed rule** (JOINED: the trit is ω's shadow through McKay, every link exhibited, the golden end the control); **[LEAP]** remains ONLY for first-interaction = the source of "three" (the frame-reading, untouched by B1042) |
 
 ## The hooks (speculation → calculation; each registers as a lead)
 

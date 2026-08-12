@@ -10383,3 +10383,11 @@ Sealed 165d8ef5, pushed both pre-compute. 0/6 coordinate dictionaries; L unique
 given Φ, invertible, 8/8 equivariance; θ↔√−7 holds; the diagonal (c = s₋₃+s₋₇ on
 chirality's axis; the chord's direction = s₋₇ pure vs value √3). L160 closes.
 Locks: tests/test_b1041_theta_leg.py (3 passed).
+
+## 2026-08-12 — B1042 (PM3): JOINED — the trit descends from ω
+
+Sealed b8544786, pushed both pre-compute. V0 clean (prior unrun; synonym non-matches
+recorded). The three links computed exact (characters/orthogonality 49-pair; the
+McKay graph built and IS affine E₆; rotation = factor 3-cycle); SL(2,5) PERFECT as
+the discriminating control; B757-shape refuted. [LEAP]→[MATH] promotion executed,
+identification clause only. L157-2 discharged. Locks: tests/test_b1042_trit.py (3).

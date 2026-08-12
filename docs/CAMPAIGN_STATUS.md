@@ -19,6 +19,19 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-12, PM3 banked — B1042, and it is the window's deepest result):**
+The programme's one ternary input — the trit, the third item in the price — is now
+PROVED to be the field's own cube root of unity carried through McKay: the ℤ/3 that
+makes ℚ(√−3) unique among its sisters is exactly the value group whose characters
+rotate the E₆ diagram, and that rotation is exactly the factor permutation that
+labels the VEV acceptance. Every link computed, none cited. And the reason this
+isn't a numerological accident is a computation too: the same construction on the
+golden end produces nothing at all (its group is perfect — no characters, no
+rotation, no trit). The seed–field frame's central identification (ω = triality =
+the trit) graduates from intuition to mathematics — its cosmogony row is promoted
+[LEAP]→[MATH] by the sealed rule. What remains a leap is only the reading that the
+FMT is "the first interaction." Next: PM2, the triple.
+
 **LATEST (2026-08-12, PM1 banked — B1041):** The campaign's first cell answered in
 one sitting: the observer's three operation-bits and the field's three Galois legs
 ARE one (ℤ/2)³ — exhibited, not asserted — but not the naive way: no operation "is"

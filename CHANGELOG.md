@@ -1,5 +1,23 @@
 # Changelog
 
+## B1042 (2026-08-12) — JOINED: the trit is ω's shadow through McKay — the price's one ternary input has an arithmetic pedigree, and the golden end is the control
+
+PM3 (sealed b8544786 pre-compute; exact ℚ(ω); the McKay graph COMPUTED from 2T's
+characters, not cited). The chain, every link exhibited: **2T/Q₈ ≅ ℤ/3 with character
+values exactly ⟨ω⟩ = μ₃** (the field's cube-root group IS the abelianization's value
+group) → **tensoring by those characters IS the affine-E₆ rotation** (order-3 graph
+automorphism fixing the center) → **center-deletion = su(3)³ and the rotation is the
+banked factor permutation in one 3-cycle** (B897's trit orbit). **The control decides
+the accident question: SL(2,5) is PERFECT** — the golden end admits no such
+characters, no rotation, no trit; the carry is discriminating, and the B757
+membership-accident shape is REFUTED rather than avoided. Fences: §V4's "unrelated"
+parenthetical untouched for its own pair (the counting floor); the FMT's S₃
+untouched; the alternates placed (the trit is algebra-side by residence, FIELD-SIDE
+BY DESCENT). The cosmogony's identification clause promotes [LEAP]→[MATH] per the
+sealed rule — that clause only; the first-interaction reading stays a leap. L157-2
+discharged: the morphism demand MET for the trit column. **Crossing consequence: the
+coupling's only ℤ/3 channel now has a field-side arithmetic source.**
+
 ## B1041 (2026-08-12) — the θ-leg EXHIBITED: the three cubes are one at direction level, the operation cube sits DIAGONALLY, and the chord resolves as basis-color
 
 PM1, the pattern campaign's first cell (sealed 165d8ef5 pre-compute; exact 𝔽₂, no
