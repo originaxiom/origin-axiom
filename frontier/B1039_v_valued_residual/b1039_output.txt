@@ -1,0 +1,31 @@
+exec B632 cell2 (the full banked machinery)...
+cell2 machinery loaded in 107.2s (its own output captured, 2399 chars)
+
+[double-Fox on the full 27]...
+  h1(dbl; 27) = 5
+  class kinds: ['seam-born', 'seam-born', 'glued', 'glued', 'glued']
+
+[W1] functional-read coboundary control:
+  klass invariant under z -> z + db: PASS
+
+[W2/W3] the symmetric pairing, functional-read, both sides + the difference:
+  pair (0,0) [seam-bornxseam-born]: M 0 | Mbar 0 | dbl absent
+  pair (0,1) [seam-bornxseam-born]: M 0 | Mbar 0 | dbl absent
+  pair (0,2) [seam-bornxglued]: M 0 | Mbar 0 | dbl absent
+  pair (0,3) [seam-bornxglued]: M 0 | Mbar 0 | dbl absent
+  pair (0,4) [seam-bornxglued]: M 0 | Mbar 0 | dbl absent
+  pair (1,1) [seam-bornxseam-born]: M 0 | Mbar 0 | dbl absent
+  pair (1,2) [seam-bornxglued]: M 0 | Mbar 0 | dbl absent
+  pair (1,3) [seam-bornxglued]: M 0 | Mbar 0 | dbl absent
+  pair (1,4) [seam-bornxglued]: M 0 | Mbar 0 | dbl absent
+  pair (2,2) [gluedxglued]: M 0 | Mbar 0 | dbl absent
+  pair (2,3) [gluedxglued]: M 0 | Mbar 0 | dbl absent
+  pair (2,4) [gluedxglued]: M 0 | Mbar 0 | dbl absent
+  pair (3,3) [gluedxglued]: M 0 | Mbar 0 | dbl absent
+  pair (3,4) [gluedxglued]: M 0 | Mbar 0 | dbl absent
+  pair (4,4) [gluedxglued]: M 0 | Mbar 0 | dbl absent
+
+[W4] EXISTENCE: NO -- the support is EMPTY
+[W4] SEAM-LOCALITY: conditional cell void (no support to classify)
+
+==== B1039 compute done ====

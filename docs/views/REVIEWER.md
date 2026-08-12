@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **958** |
-| words of findings prose | **645,005** |
+| research arcs with findings | **959** |
+| words of findings prose | **645,442** |
 | test lock files referenced | **594** |
-| arcs carrying an authored verdict | **945** (98.6 %) |
+| arcs carrying an authored verdict | **946** (98.6 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 624 |
+| PROVED | 625 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1038`** (377 words, 0 locks)  
-THE RETRIEVAL-AND-TYPING ARC (plan Arc 3, verification mode): the audit seat's at-risk census REPRODUCED EXACTLY by an independent implementation on main (54 decimal-banking claim lines / 23 invariance-mentioning / 31 at-risk, internally consistent -- their corrected units confirmed, their census NEGATIVE corroborated at count level with the category adjudication cited not re-done); the synonym-set principle verified with the criterion difference STATED (mentions 193-union here vs their 19 checks-run floor -- two measurements, not conflated); and three instruments installed: the pi/6 two-referent TERMINOLOGY row (a Test-1-clean trace vs a proved pipeline gauge -- one symbol, opposite types), the point-of-use citation practice (the corpus's measured retrieval defect converted to practice with a named gate-shape), and the B1027 refresh design notes (the Jarlskog flag + the CP-body citation requirement, binding at the pre-committed trigger). The fresh claim-drop held-out slice (B101-B158) noted as available, not run. Gate 5-Q throughout.  
-`B1038_retrieval_typing/FINDINGS.md`
+**PROVED — `B1039`** (437 words, 0 locks)  
+THE V-VALUED RESIDUAL (L157-1, sealed 874d9eee pre-compute): EXISTENCE NO, PRIOR HELD -- all fifteen symmetric pairs of the double's five classes, on both sides and in the MV difference, are EXACTLY ZERO under the functional read (B632's machinery reused whole; W1's coboundary control PASS; h1(dbl) = 5 reproduced as the entry gate with the 2-seam-born/3-glued anatomy). THE WALL IS NOW SECTOR-COMPLETE ON THE DOUBLE: solo all-sectors (B632), scalar/seam (B1036), V-valued (B1039) -- one coupling move creates the classes and not the pairing; the interaction makes room and nothing yet fills it; the mirror-coupling route for the symmetric mass closes completely. SEAM-LOCALITY (the frame's forbid): NO TEST -- the conditional cell is void with empty support, neither passed nor failed; and the existence-NO scopes the frame's creation-verb (classes yes, pairing no -- the speculation entry inherits the scoping). THE OBSERVATION FOR THE NEXT SEAL, recorded not claimed: the mass object is a CUBIC -- three slots -- and every refusing assembly had two bodies; the triple (L157-4) is the object's natural arity, the first structural reason to expect a different answer, to be declared against the wall's streak with NO PRIOR and both arguments stated. Lane II's survivors: the triple and B298's cubic-carrier. Gate 5 untouched; type-law obeyed.  
+`B1039_v_valued_residual/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

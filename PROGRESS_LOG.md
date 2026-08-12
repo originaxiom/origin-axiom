@@ -10335,3 +10335,11 @@ generic property to the field's banked door (B997/B1019), the frame's own thesis
 level earlier. The block-count theorem's reasoning (branch-only until now) is preserved
 on main as a LAW_MAP row with its confirmed falsifier. The F1–F3 forbid-dependency
 check remains the audit seat's sealed Task C question.
+
+## 2026-08-12 — B1039: the wall completes on the double; the arity observation
+
+Sealed verdict NO (prior held): the V-valued symmetric support is empty — fifteen
+pairs, all zero, functional-read, control PASS. Sector-complete: solo + scalar/seam +
+V-valued. The seam-locality forbid untested (void conditional; the creation-verb scoped:
+classes yes, pairing no). Recorded for L157-4's seal: the 3-slot cubic vs the 2-body
+assemblies — the triple is the object's natural arity. Locks: tests/test_b1039_residual.py.

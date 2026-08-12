@@ -1063,6 +1063,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1039": {
+   "slug": "v valued residual",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B298",
+    "B632",
+    "L157"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B103": {
    "slug": "tower equivariance",
    "motifs": [

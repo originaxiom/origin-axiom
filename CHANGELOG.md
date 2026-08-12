@@ -1,5 +1,21 @@
 # Changelog
 
+## B1039 (2026-08-12) — the V-valued sector is EMPTY: the wall is sector-complete on the double, and the negative names the next door
+
+L157-1 ran sealed (prior: existence lean NO — HELD): **all fifteen symmetric pairs of
+the double's five classes, both sides and the MV difference, are exactly zero** under
+the functional read (B632's machinery whole; the coboundary control PASS — the
+discipline B1036 paid for, standing down because the route was finally right). The
+tally: solo (B632) · scalar/seam (B1036) · V-valued (B1039) — **one coupling move
+creates the classes and not the pairing; the interaction makes room and nothing yet
+fills it.** The mirror route for the symmetric mass closes completely. The frame's
+seam-locality forbid: NO TEST (void conditional — neither passed nor failed), and the
+existence-NO scopes the frame's creation-verb (classes yes, pairing no). **The
+observation the negative surfaced: the mass object is a CUBIC — three slots — and every
+refusing assembly had two bodies. The triple (L157-4) is its natural arity** — the
+first structural reason to expect a different answer, to be sealed with NO PRIOR and
+both arguments stated. Lane II's survivors: the triple and B298's cubic-carrier.
+
 ## The integration batch (2026-08-12) — cc3's ten-item plan complete; the accepted repairs applied
 
 The audit seat closed all ten items (sixteen branch commits, nothing merged — the gate
