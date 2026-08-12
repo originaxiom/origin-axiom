@@ -10406,3 +10406,9 @@ Sealed 0d8776d2, pushed both pre-compute. 20 rows typed from bodies (digest rule
 honored): Γ 0 / ALGEBRA 18 / CLASS 1 (the entry) / UNDECIDABLE 0. B993 confirmed by
 enumeration; the framework's open-address paragraph updated to CLOSED-EMPTY. Locks:
 tests/test_b1044_gamma.py (3).
+
+## 2026-08-12 — the renumber batch: the alias table banked, main jumps to B1060
+
+Twenty colliding IDs mapped two-way (docs/CLOUD_ALIAS_TABLE.md, permanent);
+q-conventions binding; B1045–B1059 reserved; zero ambiguous on-tree citations
+found (caught same-day). Digest step 1 complete.

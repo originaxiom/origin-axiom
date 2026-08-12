@@ -341,3 +341,12 @@ No invariant may be transferred between these without an explicit map.
   choice-space is the AFFINE object — the torsor. The level at which no-canonicity
   holds is the torsor, one level below where loose restatements put it (the B957
   "one level too high" species, again).
+
+- **Bare arc IDs B1025–B1044 name TWO arcs each; B1045–B1059 are RESERVED on main**
+  (2026-08-12, the cloud fork collision — `docs/CLOUD_ALIAS_TABLE.md` is the
+  permanent resolver): the cloud consolidation branch forked at B1024's seal and
+  numbered independently. Cloud arcs are cited **qB1025…qB1053**, cloud leads
+  **qL155…qL166**; main's next arc is **B1060**, next lead **L161**. Any bare
+  ID in the colliding range written before 2026-08-12 needs the table. Species:
+  the dir-less-arc/two-Task-B retrieval hazard at series scale — now with its
+  resolver banked.

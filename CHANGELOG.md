@@ -1,5 +1,18 @@
 # Changelog
 
+## The renumber batch (2026-08-12) — the cloud collision resolved permanently: the alias table, the q-convention, and main's jump to B1060
+
+The digest protocol's step 1 ("renumber first; nothing else is safe before it"),
+executed: **twenty arc IDs (B1025–B1044) each named two different arcs** since the
+cloud branch's fork at B1024's seal — `docs/CLOUD_ALIAS_TABLE.md` is now the
+permanent two-way resolver (not a migration note). Conventions binding: cloud arcs
+cite as **qB1025…qB1053**, cloud leads as **qL155…qL166**; **main reserves
+B1045–B1059 never-assigned** (their series + buffer) and continues at **B1060**;
+main's next lead is L161. The on-tree citation sweep found zero ambiguous uses
+(the collision was caught the day it became visible, before any rot). TERMINOLOGY
+carries the row. The digest ledger (fixed denominator, empty-disposition-fails)
+builds next on this foundation.
+
 ## B1044 (2026-08-12) — the Γ-ledger: the column is EMPTY — the object's whole job is to exist and to enter, and B803's address closes
 
 The audit seat's Challenge 3, settled by enumeration (sealed 0d8776d2 pre-compute;
