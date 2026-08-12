@@ -1841,3 +1841,69 @@ each law at restoration time — which is what would have caught B564 for the pr
 
 **Registered with the correction it forced already made:** B1039's row and FINDINGS now record
 that Item 4 is closed by B564.
+
+---
+
+## L165 — FIFTEEN NAMED REPRODUCERS DO NOT EXIST (registered 2026-08-12; B1047)
+
+**A banked headline whose reproducer is absent.** `B410`'s provenance line names
+`b2ii_fullfield.py`; **no file of that name exists anywhere in the repo**, and
+`tests/test_b410_coupling.py` locks the JSON it would have produced. The numbers are not lost —
+`b2ii_fullfield.json`'s four counts are B393's `k1_fullfield.json` `nonzero_terms`, so they are
+recoverable **by re-derivation** — but *"regenerable end-to-end"*, the tier this whole campaign
+claims, is not true of that cell.
+
+> **The first explanation of this was wrong and is recorded rather than quietly replaced.** B1047's
+> own plan said the numbers survive *"only because they are **byte-identical** to B393's
+> `k1_fullfield.json`"*. **They are not** — 188 bytes against 485, different schema, different
+> hash. Right conclusion, wrong reason; the wrong reason is the kind that reaches a curated surface
+> if nobody hashes the two files.
+
+**Measured corpus-wide, and a lower bound.** Scanning **backticked** `*.py` names in every
+`frontier/B*/FINDINGS.md` against every `.py` in the tree: **14 names across 11 arcs** that exist
+nowhere.
+
+| arc | named, absent |
+|---|---|
+| **B69** | `apoly_family.py` · `cusp_verify.py` · `metallic_family.py` |
+| **B793** | `build_gate8_v1_control.py` · `build_gate8r_v1_remediation.py` |
+| B154 | `silver_sublocus2.py` · B156 `omega_reproduce_l4_l6.py` · B280 `branchings.py` · B379 `reduction_verification.py` · B445 `computation_B_e6_cocycle.py` · B481 `det_kill.py` · B859 `option_tree.py` · B877 `levi2.py` · B918 `b918_belt.py` |
+
+**Plus `B410`'s, which is named WITHOUT backticks — so the true figure is 15 across 12 arcs, and
+the method that found 14 would have missed the one that started this.** That is why the number is
+published as a lower bound.
+
+**`B154/silver_sublocus2.py` is the one that stings:** B154 is an arc **B1039 restored to
+`LAW_MAP`** this refresh, and the restoration re-verified the mathematics in-sandbox without ever
+noticing that one of B154's named scripts is absent.
+
+**Not built into a gate here — deliberately.** One instrument per phase is the pace that has been
+holding (`law-siblings` at B1044, `supersession` at B1046), and a third in the same phase would be
+apparatus-inflation (**E34**). **The decision is the owner's, in the L159/L160/L161 pattern:**
+
+1. **Gate it** — a `reproducer-exists` check, cheap and fail-closed, with a triage registry for the
+   15 (each is either *recoverable*, *lost*, or *never existed*).
+2. **Register only** — record the 15 as known gaps and let them stand.
+3. **Repair first, gate after** — reconstruct what is reconstructible (B410's is a ten-line
+   re-derivation from B393's artifact), then gate the remainder.
+
+> ### ⚠ THE SENTENCE THAT WAS ABOUT TO BE WRITTEN HERE WAS FALSE, AND THE CHECK CAUGHT IT.
+>
+> The draft read *"none of the 15 sits under a `CLAIMS.md` promotion."* **Three of the eleven arcs
+> do** — and the bare-id grep missed them because `CLAIMS.md` **cites its evidence by PATH**, which
+> is the exact defect this ledger's own Correction 2 records costing 49 arcs. It was caught by
+> running the path-form test, not by reading. **The three are not one finding but three, and the
+> difference is the whole point:**
+
+| arc | claim | the absent script | what it actually is |
+|---|---|---|---|
+| **B156** | **P39** | `omega_reproduce_l4_l6.py` | **NOT A DEFECT.** B156's own body calls it *"the handoff's own brute-force script"* and says it **over-counts and is wrong** (*"it reports L5=3120, L6=57792 — wrong"*). B156 replaced it with **six independent scripts that are all present**. A refuted script's absence is housekeeping. |
+| **B877** | **P69** | `levi2.py` | **ALREADY DISCLOSED AT THE SITE.** B877 §4.1 is titled *"Manifest gap"* and records the absence itself, with the reason it is *"not blocking"* — the same squeeze closes the core type exactly. Nothing new. |
+| **B379** | **P60** | `reduction_verification.py` | **THE REAL ONE.** It is named as *the* `Reproducer:` in the provenance line, and **`frontier/B379_selection_rule_reduction/` contains no `.py` at all** — only `FINDINGS.md` and `arc_verdict.json`. **P60's evidence path points at that directory.** |
+
+**B379, stated exactly, because the temptation is to overclaim it.** P60 is **not** unverified:
+`tests/test_b379_selection_rule.py` recomputes the two closed-form traces from scratch through
+`B358/cyclo_engine.py` and `B367/step0_exact_matrices.py`, and it passes. **What is gone is the
+arc's own computation.** The claim stands on its lock, and the lock is now the only surviving code
+behind a PROVEN row — which is a thinner base than the ledger's evidence column implies when it
+cites the directory. **That is the finding: not a false claim, a false impression of provenance.**

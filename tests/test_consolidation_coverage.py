@@ -141,7 +141,7 @@ def test_instrument_arcs_are_excluded_from_the_debt_count(arcs):
     """
     import glob
     blob = "\n".join(_read(p) for p in CURATED)
-    sub = inst = 0
+    sub = inst = proved = 0
     seen = set()
     for d in sorted(glob.glob(os.path.join(_ROOT, "frontier", "B*"))):
         m = re.match(r"B(\d+)_", os.path.basename(d))
@@ -156,6 +156,7 @@ def test_instrument_arcs_are_excluded_from_the_debt_count(arcs):
             dd = json.load(f)
         if dd.get("verdict") != "PROVED":
             continue
+        proved += 1
         if re.search(rf"\b{bid}\b", blob) or re.search(rf"{bid}_", blob):
             continue
         if dd.get("instrument"):
@@ -163,8 +164,15 @@ def test_instrument_arcs_are_excluded_from_the_debt_count(arcs):
         else:
             sub += 1
     assert inst > 20, "instrument arcs should be a real fraction of the raw count"
-    assert 200 < sub < 280, f"substantive debt {sub} outside the v3 band"
-    assert sub + inst > 240
+    # WAS `200 < sub < 280` -- an ABSOLUTE band, and B1047's restorations took it to 199. That is
+    # E38 (progress-eroded threshold), second instance: a lock that FAILS BECAUSE THE WORK
+    # SUCCEEDED. B1033's own `> 200` broke the same way and was repaired the same way -- bound the
+    # SHAPE, not the moving count. The upper bound is what this test is really for (a regex that
+    # stops matching citations makes `sub` explode); the lower bound only has to catch a
+    # measurement that has silently collapsed.
+    share = sub / max(1, proved)
+    assert 0.10 < share < 0.45, f"uncited-substantive share {share:.3f} of {proved} PROVED arcs"
+    assert sub + inst > 200
     # the ledger must carry the split, not the raw number alone
     t = _read("docs/consolidation/DEBT_LEDGER.md")
     assert "SUBSTANTIVE debt candidates" in t

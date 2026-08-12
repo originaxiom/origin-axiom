@@ -43,6 +43,18 @@ FINGERPRINTS = {
     "isomonodromy (B1040)":
         r"isomonodrom|Painlev|Schlesinger|Vieta|Jimbo|Fricke cubic"
         r"|dynamical degree|lambda_m\^?2|λ_m|Alexander law|m\^2\s*\+\s*2|metallic degree",
+    # ADDED B1047. The occasion is the coverage measurement below, not a new restoration: B1029's
+    # row was already on LAW_MAP and had NO fingerprint, so the first independent cluster this
+    # instrument was pointed at belonged to a law it could not see.
+    "the seam is the ends' class field (B1029)":
+        r"Hilbert class field|class field|genus field|sqrt\(?-15\)?|√−15|√-15"
+        r"|Q\(sqrt-15\)|ℚ\(√−15\)|reduced forms|prime discriminant",
+    # ADDED B1047, for the law B1047 itself restores -- the instrument's own standing rule that
+    # "adding a restoration adds a row here", applied to the arc that added the rule's first
+    # independent use.
+    "the seam's darkness is termwise (B1047)":
+        r"termwise|s-dark|seam-dark|product strata|full-field product|doubly-elliptic"
+        r"|annihilat|s-orthogonal",
 }
 
 

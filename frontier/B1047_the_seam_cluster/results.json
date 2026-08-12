@@ -1,0 +1,299 @@
+{
+ "checks": {
+  "b359_CLAIM_LINE_says_parity_selective": {
+   "pass": true,
+   "claim": "1,2) — the theta-lift seam form is pair-specific and parity-selective."
+  },
+  "b359_BODY_tiers_it_OBSERVED_PATTERN_on_three_points": {
+   "pass": true
+  },
+  "b360_REFUTED_both_parity_readings_the_very_next_arc": {
+   "pass": true
+  },
+  "b361_CLAIM_LINE_states_a_law_on_8_pairs_zero_counterexamples": {
+   "pass": true
+  },
+  "b362_CLAIM_LINE_extends_it_to_11_pairs": {
+   "pass": true
+  },
+  "b361_BODY_already_said_computed_range_not_proved": {
+   "pass": true
+  },
+  "b367_BODY_refutes_the_law_at_pair_3_4": {
+   "pass": true
+  },
+  "b367_DECLARES_supersedes_B361": {
+   "pass": true
+  },
+  "but_B361_and_B362_still_carry_null_superseded_by": {
+   "pass": true
+  },
+  "b367_keeps_the_eleven_confirming_pairs_AS_DATA": {
+   "pass": true
+  },
+  "b359s_tables_were_superseded_by_exactness_not_refuted": {
+   "pass": true
+  },
+  "doubly_elliptic_seeds_up_to_8_are_exactly_2_7_and_8": {
+   "pass": true,
+   "seeds": [
+    2,
+    7,
+    8
+   ]
+  },
+  "b361_scoped_to_m_le_7_and_named_the_next_qualifier_itself": {
+   "pass": true
+  },
+  "pair_3_4_contains_NO_doubly_elliptic_seed": {
+   "pass": true
+  },
+  "yet_B367s_EXACT_table_makes_3_4_bright_at_1_over_192": {
+   "pass": true,
+   "table": {
+    "1,2": "43/7200",
+    "1,3": "0",
+    "1,4": "0",
+    "2,3": "1/2304",
+    "2,4": "3/3200",
+    "3,4": "1/192"
+   }
+  },
+  "and_the_dark_pairs_are_exactly_zero_there": {
+   "pass": true
+  },
+  "the_minimal_repair_dies_too__(1,3)_and_(3,4)_cover_identically": {
+   "pass": true
+  },
+  "...and_(1,3)_is_exactly_dark_while_(3,4)_is_bright": {
+   "pass": true
+  },
+  "W1_and_W4_share_an_order_which_is_B367s_finer_than_spectra_ground": {
+   "pass": true,
+   "orders": {
+    "1": 20,
+    "2": 12,
+    "3": 6,
+    "4": 20,
+    "7": 12
+   }
+  },
+  "product_fields_covers_five_pairs_three_dark_two_bright": {
+   "pass": true
+  },
+  "THE_LAW__s_carrying_is_zero_on_exactly_the_dark_pairs": {
+   "pass": true,
+   "s_carrying": {
+    "1,3": 0,
+    "1,4": 0,
+    "3,5": 0,
+    "3,4": 24,
+    "2,3": 18
+   }
+  },
+  "the_dark_class_STRATIFIES__fully_real_vs_z_only": {
+   "pass": true
+  },
+  "and_the_bright_controls_put_the_COMPLEMENTARY_stratum_into_s_carrying": {
+   "pass": true
+  },
+  "NO_product_vanishes__annihilation_is_FIELD_MEMBERSHIP_not_a_zero": {
+   "pass": true
+  },
+  "k1_fullfield_agrees_termwise_with_the_strata": {
+   "pass": true
+  },
+  "k1_14_completes_the_dark_class": {
+   "pass": true
+  },
+  "b410_criterion_separates_4_of_4_on_the_same_object": {
+   "pass": true
+  },
+  "b410_reduces_the_crowns_why_to_B393s_law": {
+   "pass": true
+  },
+  "b393s_own_first_explanation_K2_was_KILLED": {
+   "pass": true
+  },
+  "rider1_the_range_is_FIVE_pairs_plus_B410s_four": {
+   "pass": true
+  },
+  "rider1_b393_scopes_itself_to_the_tested_set": {
+   "pass": true
+  },
+  "rider2_b393_records_the_broken_first_attempt": {
+   "pass": true
+  },
+  "rider2_b410_calls_it_the_FOURTH_appearance": {
+   "pass": true
+  },
+  "rider2_k1_termwise_is_a_NEGATIVE_ARTIFACT__it_reads_zero_on_the_BRIGHT_controls": {
+   "pass": true
+  },
+  "rider2_and_the_full_field_run_reads_24_and_18_on_the_same_two_pairs": {
+   "pass": true
+  },
+  "rider2_the_broken_run_even_has_different_TERM_COUNTS": {
+   "pass": true
+  },
+  "rider3_b393_names_the_residual_and_stages_it": {
+   "pass": true
+  },
+  "rider3_b410_stages_the_same_residual_with_its_obstruction": {
+   "pass": true
+  },
+  "rider4_B359_declares_firewalled_nothing_to_CLAIMS": {
+   "pass": true
+  },
+  "rider4_B360_declares_firewalled_nothing_to_CLAIMS": {
+   "pass": true
+  },
+  "rider4_B361_declares_firewalled_nothing_to_CLAIMS": {
+   "pass": true
+  },
+  "rider4_B362_declares_firewalled_nothing_to_CLAIMS": {
+   "pass": true
+  },
+  "rider4_B367_declares_firewalled_nothing_to_CLAIMS": {
+   "pass": true
+  },
+  "rider4_the_arc_is_pending_L57": {
+   "pass": true
+  },
+  "rider4_b393_and_b410_declare_firewalled": {
+   "pass": true
+  },
+  "rider4_NONE_of_the_cluster_is_in_CLAIMS_md": {
+   "pass": true
+  },
+  "b410_NAMES_b2ii_fullfield_py_as_its_provenance": {
+   "pass": true
+  },
+  "b2ii_fullfield_py_EXISTS_NOWHERE_IN_THE_REPO": {
+   "pass": true
+  },
+  "yet_a_LOCK_asserts_the_json_it_would_have_produced": {
+   "pass": true
+  },
+  "CORRECTION__the_two_jsons_are_NOT_byte_identical": {
+   "pass": true
+  },
+  "CORRECTION__b410s_json_is_a_DERIVED_SUMMARY_of_b393s": {
+   "pass": true
+  },
+  "L165_fourteen_BACKTICKED_reproducers_exist_nowhere": {
+   "pass": true,
+   "n": 14,
+   "arcs": 12
+  },
+  "L165_and_the_method_would_have_missed_B410s_own": {
+   "pass": true
+  },
+  "L165_THREE_of_the_absent_reproducer_arcs_ARE_promoted": {
+   "pass": true,
+   "promoted": [
+    "B156",
+    "B379",
+    "B877"
+   ]
+  },
+  "L165_B156s_absent_script_is_one_B156_itself_calls_WRONG": {
+   "pass": true
+  },
+  "L165_B877s_absence_is_ALREADY_DISCLOSED_by_B877": {
+   "pass": true
+  },
+  "L165_B379s_arc_directory_contains_NO_python_at_all": {
+   "pass": true
+  },
+  "L165_B379_names_it_as_THE_reproducer": {
+   "pass": true
+  },
+  "L165_and_CLAIMS_P60_cites_that_directory_as_its_evidence": {
+   "pass": true
+  },
+  "L165_but_P60s_LOCK_recomputes_the_traces_from_scratch": {
+   "pass": true
+  },
+  "the_dependency_chain_exists_and_is_named": {
+   "pass": true,
+   "chain": [
+    "frontier/B358_seam_certification/cyclo_engine.py",
+    "frontier/B358_seam_certification/seam_certification.py",
+    "frontier/B367_value_map/step0_exact_matrices.py",
+    "frontier/B386_crt_closed_form/tensor_gate.py"
+   ]
+  },
+  "b393s_generator_imports_all_four_and_is_pure_Fraction": {
+   "pass": true
+  },
+  "the_banked_artifact_is_pinned_by_hash": {
+   "pass": true
+  },
+  "LAW_MAP_carries_the_stratification_law_as_its_OWN_row": {
+   "pass": true
+  },
+  "B393_and_B410_are_not_class_field_statements": {
+   "pass": true
+  },
+  "B1029s_row_mentions_neither_theta_nor_darkness": {
+   "pass": true
+  },
+  "the_restored_row_names_the_REFUTED_local_law_it_replaces": {
+   "pass": true
+  },
+  "the_restored_row_carries_all_four_riders": {
+   "pass": true
+  },
+  "the_debt_ledger_carries_the_dispositions": {
+   "pass": true
+  },
+  "the_ledger_states_the_debt_move_as_a_SET_not_a_subtraction": {
+   "pass": true
+  },
+  "the_ledger_says_the_raw_number_cannot_tell_restoration_from_retraction": {
+   "pass": true
+  },
+  "E38_second_instance_is_registered_with_the_lock_it_broke": {
+   "pass": true
+  },
+  "...and_the_repaired_lock_bounds_a_SHARE": {
+   "pass": true
+  },
+  "law_siblings_now_fingerprints_B1029s_row": {
+   "pass": true
+  },
+  "...and_this_arcs_own_restored_law": {
+   "pass": true
+  },
+  "the_new_fingerprint_surfaced_three_real_siblings_of_B1029s_row": {
+   "pass": true,
+   "candidates": [
+    "B257",
+    "B427",
+    "B449",
+    "B459",
+    "B876"
+   ]
+  },
+  "and_the_gate_is_clean_because_all_four_are_triaged": {
+   "pass": true
+  },
+  "B876_is_registered_as_a_WORD_match_not_a_statement_match": {
+   "pass": true
+  },
+  "the_coverage_number_is_PUBLISHED_not_implied": {
+   "pass": true
+  }
+ },
+ "answer": {
+  "the_disposition": "RESTORE B393's product-field stratification law (with B410's independent 4/4 criterion) as its OWN LAW_MAP row — NOT onto B1029's class-field row, which shares only the field √−15 as vocabulary. DECLINE — RETRACTION for B359 · B361 · B362, whose headlines were refuted by B360 and B367.",
+  "the_dominant_finding": "This cluster's CLAIM LINES systematically overstate their own BODIES. B359's body tiers the parity rule OBSERVED PATTERN, 3 data points; its claim line says 'parity-selective' flat. B361's body says 'a law of the computed range, not proved'; its claim line says '8 pairs, zero counterexamples'. A claim-line ledger cannot see this band, which is exactly what campaign step 1 says and what B1045 declared of its map.",
+  "the_survivor": "s-darkness ⟺ the 5-side never donates √5 to an imaginary product. Every X₃·X₅ product of a dark pair is individually s-free — termwise mutual annihilation, NOT cancellation (no product is zero; the statement is about which field each product lands in). The dark class itself stratifies: (1,4) and (3,5) fully real, (1,3) √5-free in its imaginary part. Bright controls put exactly the complementary stratum into s-carrying, 24 and 18.",
+  "what_the_retraction_does_NOT_take": "B367 retracts the LAW, not the DATA — its own words: 'its 11 confirming pairs stand as data'. B359's exact tables were SUPERSEDED BY A BETTER TABLE (B367's full identification), not refuted. The declined rows lose their headline, not their arithmetic.",
+  "the_four_riders": "(1) COMPUTED RANGE: five pairs in B393, four in B410's criterion — not proved. (2) THE Π_H ERRATUM: the criterion CANNOT be stated per-side; k1_termwise.json is a NEGATIVE ARTIFACT that reads nonzero_terms = 0 on the BRIGHT controls and even carries different term counts (9 vs 39), so a reader taking it for a result would conclude every pair is dark. (3) THE RESIDUAL IS OPEN: why the dark 5-side withholds √5 at exactly the X₃-paired frequencies, staged with its exact obstruction. (4) SCOPE: theta-lift sector, pending L57, firewalled, nothing to CLAIMS.md.",
+  "the_provenance_defect": "B410's named generator b2ii_fullfield.py exists nowhere in the repo, yet tests/test_b410_coupling.py locks the JSON it would have produced. THE PLAN'S EXPLANATION WAS WRONG AND IS CORRECTED HERE: the file is NOT a byte copy of B393's k1_fullfield.json (188 bytes vs 485, different schema). It is a derived summary whose four counts equal k1_fullfield's four nonzero_terms — so the numbers are recoverable by re-derivation, not by finding a copy. Registered L165 with the other 14 absent reproducers.",
+  "the_arithmetic_reverified_here": "The doubly-elliptic classification is redone from integers: disc(A_m) = m⁴+4m², elliptic at p ⟺ disc a non-residue. Qualifiers below 9: m = 2, 7, 8 — and B361 scoped itself to m ≤ 7 AND named m=8 as its own next discriminator, so the third qualifier is not an error in B361. Pair (3,4) contains no qualifier yet B367's exact table gives it Σs² = 1/192, the second-largest aggregate. The minimal repair dies in the same table: (1,3) has the IDENTICAL covering pattern (3 covered by m=1, 5 covered by m=3) and is exactly dark — and W₁, W₄ share the level-15 order 20, which is B367's ground for 'finer than spectra'."
+ },
+ "all_pass": true
+}

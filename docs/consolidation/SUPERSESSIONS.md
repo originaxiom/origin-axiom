@@ -45,6 +45,7 @@ body read, and it says so.*
 | `B273` | B274 | **EXTENDS** | B274 builds on B273's vanishing cup product to conclude smoothness at `ρ_prin`. *(claim lines)* |
 | `B496` | B497 | **EXTENDS** | B497 generalises B496's single Thue–Morse trace map to four strata with exact κ-laws. *(claim lines)* |
 | `B731` | B734 **and** B794 | **SELF-LABELLED** | B731's own claim line **opens with the withdrawal** — *"The 'figure-eight knot group is non-congruence' headline is withdrawn"*. **Note the two successors disagree on the level** — B734 says `(8)`, B794 says *"exactly `(4)`"* — which is **not a contradiction but the registered `E23` level-convention ambiguity** (SL-kernel vs mod-centre filtration). Both live. |
+| `B361` | B367 | **REPLACES** *(the law; not the data)* | **Added B1047, and the gate demanded it the moment B1047's `LAW_MAP` row named B361.** B367's body: *"the local law (B361) is **REFUTED** at pair (3,4) … **fails on the twelfth pair**"* — (3,4) contains no doubly-elliptic seed yet is bright, and the minimal repair dies in the same table because (1,3) has the identical covering pattern and is exactly dark. **B362 is the same law's confirmations and falls with it** (it is not itself a supersession target, so it has no row here — its disposition is in `DEBT_LEDGER` §B300–B499). **The retraction takes the LAW, not the DATA:** B367 says *"its 11 confirming pairs stand as data"*. **Bodies read at B1047.** |
 | `B766` | B786 | **REPLACES** *(the third generator)* | B786: *"the third generator is inversion ι, **not** reversal θ (trace-trivial at every rank)"* — it names and replaces B766's third generator. The rank-3 result survives; the generator does not. *(claim lines)* |
 
 ### The five this refresh's own restorations put on curated surfaces
@@ -85,11 +86,30 @@ itself concluded against it.*
 
 ## The backlog, measured and not hidden
 
-**72 candidates total; 21 are load-bearing** (the gate's scope) and dispositioned above. The
-remaining **51** — one-way links whose target is cited on **no** curated surface, and
+> ### ⚠ CORRECTED AT B1047 — this paragraph's own numbers were wrong when B1046 published them.
+>
+> It read *"72 candidates total; **21** are load-bearing … the remaining **51**"*. **The instrument
+> said 26 and 46 on the same tree.** Nothing above changed and no disposition moves; what was wrong
+> was the arithmetic *about* the table, published one paragraph below a table that already had
+> **25 rows**. **B1046's locks pinned the dispositions and not the counts, so nothing caught it** —
+> the next arc's sweep did, which is the same way B1039's B564 miss surfaced. **Recorded rather
+> than silently edited:** this is `E37` (self-measurement) in its cheapest form, and the repair is
+> the general one — *a number a script can produce should be checked against the script.*
+
+**72 candidates total; 27 are load-bearing** (the gate's scope — **27 findings over 26 distinct
+arcs**, B731 appearing twice because two successors supersede it) and all 26 are dispositioned
+above. The remaining **45** — one-way links whose target is cited on **no** curated surface, and
 self-corrections on **PROVED** arcs — are real but not currently misleading anyone. **They are not
 triaged, and the gate does not fail on them.** Recorded here so the number is public rather than
 implied.
+
+> **This number MOVES WHEN THE CORPUS IS CONSOLIDATED, and B1047 moved it in the same commit that
+> corrected it.** B1046's instrument reported **26** on its own tree; B1047's `LAW_MAP` row named
+> **B361**, which put a superseded arc on a curated surface and took the count to **27** —
+> **the gate fired, and the row above is the judgement it demanded.** That is the instrument
+> working, not drift: *consolidating a cluster is exactly the act that makes its superseded members
+> load-bearing.* The count is now **locked against the instrument** rather than typed
+> (`tests/test_b1047_seam_cluster.py`), so it cannot go stale again.
 
 **Maintenance.** A new `supersedes` declaration, or a new self-correction banner, adds its row here
 in the same PR — the rule `RETRACTIONS.md` already states and which **31 arcs did not follow**.

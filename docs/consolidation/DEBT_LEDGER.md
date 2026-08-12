@@ -605,3 +605,75 @@ characteristic polynomial of `M_m²`, whose root is `λ_m²`, verified identical
 fingerprint reached it**, which is that instrument's first measured miss; the fingerprint is
 widened, the gate now fires, and the limitation is stated in `LAW_SIBLINGS.md` rather than left to
 be rediscovered.
+
+### §B300–B499 — **THE FIRST CLUSTER DISPOSITIONED** (2026-08-12, B1047): the seam / level-15 campaign
+
+**B1045 mapped this band and refused to disposition it**, because the map is keyword-seeded from
+**claim lines** and campaign step 1 forbids exactly that as a basis. **B1047 read the bodies of the
+largest candidate cluster — the seam / level-15 (√−15) campaign, 14 rows — and dispositions it.**
+
+> ### The dominant finding is not a law. It is that **this cluster's claim lines systematically overstate their own bodies**, in the one direction a consolidation pass cannot survive.
+
+| arc | its `claim_one_line` | its **own body**, same file |
+|---|---|---|
+| **B359** | *"the theta-lift seam form is pair-specific and **parity-selective**"* | *"A parity selection rule (**OBSERVED PATTERN, not claimed as law**) — **3 data points**"* — and **B360 refuted both readings the very next arc**, verdict NEGATIVE |
+| **B361** | *"Across **8 pairs with zero counterexamples** … carries √−15 exactly when it contains a seed elliptic at both 3 and 5"* | *"stated as **a law of the computed range, not proved**"* |
+| **B362** | *"extending the doubly-elliptic-seed brightness law to **11 pairs** with zero counterexamples"* | true as stated — but it names the law **B367 kills on the twelfth pair** |
+
+**The bodies were honest at the site every time. The claim lines dropped the tier.** A claim-line
+ledger cannot see this band; that is step 1's argument, made concrete a second time.
+
+> ### **DECLINE — RETRACTION, NOT RESTORATION: B359 · B361 · B362.** The B123 pattern, three more instances.
+> **B367** — *"the local law (B361) is **REFUTED** at pair (3,4) … **fails on the twelfth pair**"* —
+> declares `supersedes: B361`. (3,4) contains **no doubly-elliptic seed** yet is **bright**, with
+> the second-largest aggregate `Σs² = 1/192`; and the minimal repair (*"each prime covered by some
+> seed"*) dies in the same table, because **(1,3) has the identical covering pattern and is exactly
+> dark**. **Restoring these headlines would restore refuted claims.**
+>
+> **What the retraction does NOT take: the DATA.** B367's own words — *"its **11 confirming pairs
+> stand as data**"* — and B359's tables were **superseded by a better table** (B367's full exact
+> identification), not refuted. **The declined rows lose their headline, not their arithmetic.**
+
+**RESTORE — B393 · B410, as their OWN `LAW_MAP` row** (*"THE SEAM'S DARKNESS IS TERMWISE
+ANNIHILATION, NOT CANCELLATION"*): **s-darkness ⟺ the 5-side never donates √5 to an imaginary
+product**, every term individually zero, the dark class itself stratified, and B410's independent
+criterion separating **4/4**. **Re-verified before restoring** (campaign step 5): `product_fields.py`
+re-run end-to-end in **2m41s**, output **byte-identical** to the banked artifact, and the
+refutation's local arithmetic redone from integers. **Four riders travel** — computed range, the
+per-side `Π_H` erratum (with `k1_termwise.json` a **negative artifact**), the open residual, and
+theta-lift / L57 / firewalled.
+
+**NOT folded onto B1029's `THE SEAM IS THE ENDS' CLASS FIELD` row**, which an earlier draft of this
+disposition assumed. Tested: **B393 and B410 mention class field / Hilbert / HCF / B334 exactly
+zero times**, and B1029's row mentions neither theta nor darkness. **They share the field `√−15` as
+vocabulary, not as statement** — the 9 % error B1045 measured, nearly repeated by the arc that
+measured it.
+
+**The band's arithmetic, dated and scoped.** 14 rows mapped to this cluster at B1045; **5
+dispositioned here** (B393, B410 restored; B359, B361, B362 declined) — **9 remain**, and they are
+**not** declined by silence: B363 · B402 · B426 · B427 · B431 · B449 · B459 · B474 · B478 are
+**owed, un-read**, with B408's trap (`SUPERSESSIONS.md` §B) sitting inside the same campaign.
+Measured with **B1047 and later excluded** (E37).
+
+
+> **The corpus figure, and the lock it broke.** Uncited **substantive** PROVED arcs: **204 → 199**,
+> against **50** uncited instrument arcs and **634** PROVED arcs in all. **The five retired are
+> exactly the five dispositioned** — set-differenced, not subtracted: `B359 · B361 · B362 · B393 ·
+> B410`, nothing else moved.
+>
+> **And that is worth one sentence, because two of those five were DECLINED, not restored.** Naming
+> an arc on a curated surface *as refuted* retires it from this count, since the sweep asks
+> **"is it cited?"** and not **"is it endorsed?"**. That is the right answer for campaign step 6 —
+> *"restored **or explicitly declined with a reason**"* — but it means **the raw debt number cannot
+> tell a restoration from a retraction**, and a reader watching only the number would see B359,
+> B361 and B362 *"consolidated"*. The dispositions above are where that distinction lives.
+>
+> **Crossing 200 broke
+> `tests/test_consolidation_coverage.py`**, which asserted the absolute band `200 < sub < 280`.
+> **That is `E38` (progress-eroded threshold), second instance — a lock that fails because the work
+> succeeded** — and the sharper one, because unlike B1033's it was **not** written by this refresh
+> and nothing in its prose anticipated it. Repaired as B1033's was: the lower bound is now the
+> **share** (uncited-substantive / PROVED, band 0.10–0.45, currently **0.314**); the upper bound
+> stays a raw guard, because *that* direction would mean the citation regex stopped matching.
+> **The general rule now stated in `ERROR_LEDGER`: any lock whose number the programme is trying to
+> move is an E38 waiting for the programme to work.**

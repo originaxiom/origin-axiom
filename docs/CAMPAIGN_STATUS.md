@@ -1587,6 +1587,27 @@ pre-empted the paper had it not lived at the **toral** level while the four-stra
 
 > **Wave 2 closed 2026-08-09.** **X8** dissolved (the doublet is the 10 ⊂ 27; mass is the cubic, not the adjoint). **X10** sharpened — an orbit invariant **cannot** pick a point, so exactly two routes cross the gap. **X11** closed — the hypercharge normalisation is not derivable *for anyone* (all four anomaly conditions homogeneous). **X12** settled by computation — the SMT's u(1)³ **is** span(Y, χ, ψ), with the failed naive count banked beside it. **X9** was already closed by B978, and the ladder was stale about it. **The consolidation is the headline: X9, X10 and the rank obstruction are ONE OPERATION — the 27-VEV — asked three ways.**
 
+> **Consolidation refresh, the instruments and the first cluster dispositioned (B1042–B1047,
+> 2026-08-11/12).** **The refresh's recurring meta-finding is that NAMING IS NOT GATING**, and it
+> answered with two instruments. **B1044** — `law-siblings` (gate 27): a law's cross-band siblings
+> found mechanically at restoration time, which is what would have caught **B564 closing an item
+> B1039 restored as open**. **B1046** — `supersession` (gate 28) and `docs/consolidation/
+> SUPERSESSIONS.md`: **42 arcs declare `supersedes` and 5 carry the back-link**, and **35 FINDINGS
+> carry a self-correction banner below their own headline with 31 unregistered** — worst case
+> **B408**, whose headline reads *"the one scale lever stands"* over a body that kills it 27 lines
+> later. Both gates are **TRIAGED, NOT CAPPED**: they fail on **untriaged** items, asking for a
+> judgement rather than a number, and neither writes back-links, because `supersedes` conflates
+> *replaces* with *extends*. **B1045** mapped **B300–B499** (69 rows) and **refused to disposition
+> it** — the map is keyword-seeded from claim lines, with its **9 %** error rate published.
+> **B1047 dispositions its largest cluster from the bodies** — the seam / level-15 campaign:
+> **B393/B410's termwise-annihilation law RESTORED** (re-verified by re-running its generator to a
+> byte-identical artifact), **B359 · B361 · B362 DECLINED — RETRACTION** because B367 refutes the
+> local law at the twelfth pair. **Its finding is about claim lines, not about the seam:** all
+> three declined arcs tier their claim honestly **in the body** and drop the tier **in the one
+> line a consolidation pass reads**. **L165** registers **15 named reproducers that do not exist**,
+> of which **B379's is the real one** — its arc directory holds no code at all while `CLAIMS.md`
+> P60 cites that directory.
+>
 > **Consolidation refresh, restorations + the lock layer (B1036–B1041, 2026-08-11).** Band
 > B100–B199 dispositioned (**37 rows are 17 statements**) and **three clusters restored**: the
 > tower (B1038), φ-fixed reducibility + the metallic exponent (B1039), isomonodromy (B1040).
