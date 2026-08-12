@@ -1630,7 +1630,9 @@ is the gerbe neutral and H¹ the whole story?** Third level-mismatch of the sess
 Deligne–Milne reading comes before any banking** (the audit seat's bench-exists caveat:
 identification from definitions only; no end-to-end reading yet).
 
-## L160 — THE THREE (ℤ/2)³'s: ONE LEG TO EXHIBIT (registered 2026-08-12, three-round verification)
+## L160 — CLOSED 2026-08-12 (B1041, sealed 165d8ef5): EXHIBITED-with-typed-obstruction — the three cubes are ONE at direction level; θ ↔ √−7 HOLDS; the operation cube sits DIAGONALLY (no coordinate dictionary exists, 0/6); the chord is basis-color (direction s₋₇, value √3). The registered text below stands as the record of the question as posed.
+
+## L160 (as registered) — THE THREE (ℤ/2)³'s: ONE LEG TO EXHIBIT (registered 2026-08-12, three-round verification)
 
 B704's Galois cube (basis √−3, √5, √−7; degree 8) · B766's operation cube (c, θ, γ₅) ·
 B782's closings cube (free transitive on 8). **Two legs BANKED in B766 itself**: "γ₃ ≡ c

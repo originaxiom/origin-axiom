@@ -1140,6 +1140,29 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1041": {
+   "slug": "theta leg",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B704",
+    "B733",
+    "B757",
+    "B766",
+    "B782",
+    "L158",
+    "L160",
+    "P6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

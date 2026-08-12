@@ -19,6 +19,17 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-12, PM1 banked — B1041):** The campaign's first cell answered in
+one sitting: the observer's three operation-bits and the field's three Galois legs
+ARE one (ℤ/2)³ — exhibited, not asserted — but not the naive way: no operation "is"
+a single radical's sign (that reading is refuted 0-of-6); instead the operations sit
+DIAGONALLY over the legs, θ carries the E₆ leg purely, and the chord turns out to
+point along √−7 while carrying a √3 value — the first banked case where an object's
+value-flavor and its direction diverge. The identification is canonical exactly at
+the level where B1040 said the field rules (the template), and stays free exactly
+where the object chooses (the basepoint — 8 liftings, no canonical one). Next: PM3,
+the trit morphism.
+
 **LATEST (2026-08-12, THE PATTERN MEDITATION):** The step-back is banked — the
 programme's own record, read as a whole, shows eight recurring object-patterns and
 five method-patterns, each verified instance-by-instance before the document banked.

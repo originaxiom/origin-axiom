@@ -10376,3 +10376,10 @@ verification finds: B963's retracted corollary fenced; "the trit" = two referent
 (B860 bit vs B1030 ℤ/3) — PM3's seal must disambiguate. PM campaign confirmed:
 PM1 θ-leg → PM3 trit-morphism → PM2 triple (+R44-12 decoy control) → riders →
 retrieval arcs → Review 45 → Meditation 2 (owner's cadence).
+
+## 2026-08-12 — B1041 (PM1): the θ-leg exhibited with its typed obstruction
+
+Sealed 165d8ef5, pushed both pre-compute. 0/6 coordinate dictionaries; L unique
+given Φ, invertible, 8/8 equivariance; θ↔√−7 holds; the diagonal (c = s₋₃+s₋₇ on
+chirality's axis; the chord's direction = s₋₇ pure vs value √3). L160 closes.
+Locks: tests/test_b1041_theta_leg.py (3 passed).

@@ -1,5 +1,21 @@
 # Changelog
 
+## B1041 (2026-08-12) — the θ-leg EXHIBITED: the three cubes are one at direction level, the operation cube sits DIAGONALLY, and the chord resolves as basis-color
+
+PM1, the pattern campaign's first cell (sealed 165d8ef5 pre-compute; exact 𝔽₂, no
+numerics). The coordinate dictionary is IMPOSSIBLE (0/6 exhaustive — c flips two axes,
+σ₋₃ flips one radical: the typed obstruction), but the linear intertwiner exists,
+unique given the banked generator assignment, invertible, all 8 liftings passing the
+full table — the 8-fold freedom being exactly B782's no-canonical-point, so nothing
+is smuggled. **θ ↔ √−7 HOLDS: the E₆ leg is carried by the observer's operations —
+through θ purely, through c diagonally (chirality's side = the being⊕E₆ diagonal).**
+The chord's direction is the E₆ leg while its value is √3 — value-flavor and
+torsor-direction diverge, first banked instance. B757-shape fenced in the open (bare
+existence = torsor-generic zero bits; what banks is the obstruction + the unique
+form + the pin consistency). **L160 CLOSES; L158 gains its template-half morphism;
+the meditation's P6 stake passes in sharper form — the exhibition itself splits
+template (canonical group iso) from selection (free basepoint).**
+
 ## THE PATTERN MEDITATION (2026-08-12) — the step-back: eight object-patterns, five method-patterns, verified eyes-open, and the campaign they select
 
 The owner's step-back ask, run in the house meditation form (generate unbanked →
