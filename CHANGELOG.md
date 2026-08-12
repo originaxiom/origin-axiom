@@ -1,5 +1,22 @@
 # Changelog
 
+## B1044 (2026-08-12) — the Γ-ledger: the column is EMPTY — the object's whole job is to exist and to enter, and B803's address closes
+
+The audit seat's Challenge 3, settled by enumeration (sealed 0d8776d2 pre-compute;
+the B1040 per-step form on the derivation stack): **0 of 20 Layer-2/3 steps consume
+π₁(m004) itself** — 18 ALGEBRA (chirality/VEV/count as declared-INPUT riders),
+exactly 1 CLASS at the entry (B727's atom, the trace field), 0 undecidable, every
+row quoting its arc's own construction text. B993's zero-steps CONFIRMED by
+enumeration. **The LEVEL LEDGER's restatement is now proof-by-enumeration: a theorem
+about a CLASS, entered by a uniquely-doored GRAMMAR, with the object as the class's
+minimal representative.** The entry fence stated in the open: Γ-data is real and
+load-bearing in Layers 0–1 — the object EXISTS and ENTERS; after the door, the
+class and the algebra carry everything. Fourth independent arrival at one shape
+(the door · the template/selection split · the trit's descent · this ledger — none
+planned to agree). Crossing consequence: designs routing through "more object data"
+in Layers 2–3 are type-wrong; crossings live at the door, in the coupling, or at
+the closings.
+
 ## B1043 (2026-08-12) — the triple: h¹ = 10 = 7 + 3 — the forbid holds STRICTLY, creation is SUPERLINEAR by exactly the loop, and the arity pairing names its true home
 
 PM2 (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups — the

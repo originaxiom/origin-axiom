@@ -10399,3 +10399,10 @@ h⁰(M;27) = 1 banked (the solo invariant line); double gate 5 = 2+3 ✓. Triple
 connecting 7 (≥ 6 = F3 PASS; decoy ≥ 12 FAIL → informative; R44-12 discharged),
 bulk 3, superlinear by the loop. W4 HALT-VOID; the named door = the closed
 mirror-double of the 3-fold cover. Locks: tests/test_b1043_triple.py (3).
+
+## 2026-08-12 — B1044: the Γ-ledger — EMPTY; B803's address closes
+
+Sealed 0d8776d2, pushed both pre-compute. 20 rows typed from bodies (digest rule 4
+honored): Γ 0 / ALGEBRA 18 / CLASS 1 (the entry) / UNDECIDABLE 0. B993 confirmed by
+enumeration; the framework's open-address paragraph updated to CLOSED-EMPTY. Locks:
+tests/test_b1044_gamma.py (3).

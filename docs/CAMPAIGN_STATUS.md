@@ -19,6 +19,19 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-12, B1044 — the Γ-ledger closes the oldest open address):** The
+question "what, specifically, is the manifold still doing?" now has an enumerated
+answer: after the door, nothing — all twenty derivation steps in the algebra and
+cascade layers run on class-level or pure-algebra data, with the object's entire
+contribution concentrated at existence and entry (the founding number, the
+monodromy, the one bit where φ enters). This is the fourth independent arrival at
+the same shape in one window — the door, the template/selection split, the trit's
+field-descent, and now the ledger — none of them designed to agree. The framework
+now states its subject plainly: a theorem about a class, entered by a
+uniquely-doored grammar, with the object as the class's minimal representative.
+Next: the cloud handoff's digest under the adopted protocol (renumber first), the
+metadata epoch-check, the arity cell — and Review 45 fires within ~3 merges.
+
 **LATEST (2026-08-12, PM2 banked — B1043, the campaign's main compute):** The triple
 assembly answered, and the frame's pinned forbid held STRICTLY: the three-seam
 assembly creates seven interface classes where the pin demanded at least six — and

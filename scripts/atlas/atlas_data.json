@@ -1204,6 +1204,29 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1044": {
+   "slug": "gamma ledger",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B727",
+    "B803",
+    "B993",
+    "B997",
+    "V2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

@@ -107,14 +107,15 @@ defensible claim is therefore: **a theorem about a CLASS, entered by a uniquely-
 GRAMMAR, with the object as the class's minimal representative** — and this document
 now says so.
 
-> **THE OPEN ADDRESS (B803's own test, unfilled since B993 — the audit seat's
-> settling computation, now a registered cell):** *name one step in Layers 2–3 that
-> depends on the GROUP Γ = π₁(m004) itself and not on the trace field, the quaternion
-> algebra, or arithmeticity.* **The Γ-ledger** (the B1040 per-step form applied to the
-> derivation stack) is the campaign cell that fills or empties this address. If empty,
-> the framework's subject is the class and every "THE OBJECT" heading below reads
-> through this ledger; if non-empty, that step is the most important line in the
-> document and will be marked as such.
+> **THE ADDRESS IS CLOSED — EMPTY (B1044, sealed 0d8776d2):** the Γ-ledger typed all
+> 20 Layer-2/3 steps from their arcs' own construction text — **0 consume the group
+> Γ itself**; 18 are ALGEBRA (with declared-INPUT riders), exactly 1 is CLASS at the
+> entry (B727's atom = the trace field). B993's zero-steps confirmed by enumeration.
+> **The framework's subject in Layers 2–3 is the CLASS entered through the ALGEBRA;
+> the object's contribution is concentrated entirely at existence and entry (Layers
+> 0–1: κ = tr[a,b], the monodromy, A7's bit). Every "THE OBJECT" heading below reads
+> through this ledger.** Fourth independent arrival at the one shape (the door
+> B997/B1019; the split B1040; the descent B1042).
 
 ---
 

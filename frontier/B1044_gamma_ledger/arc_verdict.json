@@ -1,0 +1,10 @@
+{
+ "id": "B1044",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE GAMMA-LEDGER (sealed 0d8776d2 pre-compute; the B1040 per-step form on the derivation stack; the audit seat's Challenge 3 settled by enumeration): 20 Layer-2/3 steps typed from their arcs' own construction-naming text -- THE GAMMA-COLUMN IS EMPTY (0 of 20 consume pi_1(m004) itself), 18 ALGEBRA (e6/e7/Jordan/Chevalley downstream of the McKay assignment; INPUT riders: chirality x3, the VEV direction, the generation count), exactly 1 CLASS at the entry (B727: the atom Q(sqrt-3) = the trace field selecting WHICH McKay), 0 UNDECIDABLE. B993's zero-steps CONFIRMED by enumeration. B803's open address CLOSES EMPTY: the framework's Layers-2/3 subject is the CLASS entered through the ALGEBRA -- the LEVEL LEDGER's restatement (a theorem about a CLASS, entered by a uniquely-doored GRAMMAR, with the object as the class's minimal representative) is now proof-by-enumeration, not conjecture. The entry fence stated: Gamma-data is real and load-bearing IN LAYERS 0-1 (kappa = tr[a,b]; the monodromy A = LR; A7's bit where phi enters) -- the object's whole contribution is EXISTING and ENTERING; everything after the door is the class's and the algebra's. FOURTH independent arrival at one shape (with B997/B1019's door, B1040's template/selection, B1042's field-descent trit -- none planned to agree). Crossing consequence: any design routing through more object data in Layers 2-3 is type-wrong -- crossings live at the door, in the coupling, or at the closings. Gate 5 clean.",
+ "depends_on": ["B1040", "B803", "B993", "B727", "B994", "B1033", "B1042"],
+ "supersedes": null,
+ "superseded_by": null,
+ "locks": ["tests/test_b1044_gamma.py"]
+}
