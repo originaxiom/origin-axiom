@@ -102,6 +102,41 @@ least-consolidated middle), then B100–B500, then B800+ (freshest, least likely
 are already partially done:** B200–B310's matter complex (B1010 §1–§3) and B590–B660's value
 complex (B1010 §2).
 
+## THE MANUAL — the refresh's seventh step (added 2026-08-12, B1052)
+
+**The six steps produce dispositions. They do not produce a SEAT that can continue them.** Two
+bands are closed and nine are not; the window that closed them ran 28 arcs and made **24 recorded
+corrections**, most of which are only useful if the next seat inherits them. **A refresh whose
+lessons live in one session's transcript has banked nothing transferable.**
+
+**Step 7, therefore: every refresh window exits through a handoff.** Not a summary — a manual.
+
+1. **What the window found**, each finding citing the arc that banked it.
+2. **Every correction it made**, including the ones caught before publication and the ones that
+   were published wrong — *the near-misses are the most transferable part, and the only part a
+   reader cannot reconstruct from the arcs*.
+3. **The standing rules it established or paid for**, ordered by what they cost to learn.
+4. **An honest assessment**, including what the window did *not* cover and what the author would
+   not claim.
+5. **What remains, ordered**, separating what the next seat may do from what is the owner's.
+6. **How to check the author** — the commands, and the registries to read before restoring anything.
+
+**The first instance is `docs/handoffs/CONSOLIDATION_REFRESH_HANDOFF_2026-08-12.md`** (B1024–B1051),
+written in the `docs/handoffs/` convention the repository already had and had used twice.
+
+> **Why this is a campaign step and not a document.** A manual written once is a snapshot; the
+> defect this whole refresh keeps finding is that **a record describes its own era unless forced to
+> read the whole thing** (B1010). **The handoff is re-authored per window, and each one names the
+> previous** — so a seat three windows from now reads a chain, not an archaeology.
+
+**The rule that makes it enforceable rather than aspirational** — the refresh's own meta-finding
+applied to itself (*naming is not gating*): **a window is not closed until its handoff exists and
+names its arc range.** Registered here rather than gated, because a third instrument in three
+phases is the `E34` apparatus-inflation this refresh recorded against itself; **whether to gate it
+is the owner's call, priced alongside `L166`.**
+
+---
+
 ## THE BOUNDED RUNGS ARE NOT WORK ITEMS
 
 **X19–X24** (rank, adjoint matter mass, scale, time/4d/signature, the 4d lift, the 27-VEV) are

@@ -1,0 +1,185 @@
+{
+ "checks": {
+  "the_handoff_lives_in_the_conventions_own_directory": {
+   "pass": true
+  },
+  "it_is_addressed_seat_to_seat_like_the_two_that_preceded_it": {
+   "pass": true
+  },
+  "it_names_its_arc_range": {
+   "pass": true
+  },
+  "it_tells_the_reader_NOT_to_read_the_transcript": {
+   "pass": true
+  },
+  "it_points_at_ORIENTATION_for_the_programme_rather_than_replacing_it": {
+   "pass": true
+  },
+  "CLAIM_28_arcs_banked": {
+   "pass": true,
+   "n": 28
+  },
+  "CLAIM_4_instruments_and_the_handoff_names_them": {
+   "pass": true,
+   "instruments": [
+    1025,
+    1044,
+    1046,
+    1049
+   ]
+  },
+  "CLAIM_28_gates": {
+   "pass": true,
+   "n": 28
+  },
+  "...and_the_two_new_ones_are_named": {
+   "pass": true
+  },
+  "CLAIM_debt_is_175": {
+   "pass": true,
+   "debt": 175
+  },
+  "CLAIM_the_v3_baseline_was_245": {
+   "pass": true
+  },
+  "CLAIM_27_LAW_MAP_rows_added_by_this_window": {
+   "pass": true,
+   "n": 27,
+   "heads": [
+    "THE METALLIC FIXED LINE IS DICKSON, EXACTLY, OVER ℤ[m] (",
+    "THE TWO-BLOCK OBSTRUCTION IS RANK-1 — the trace-ring bar",
+    "THE CUSP k-SET IS THE QUANTUM-GROUP LEVEL SET (B1051, re",
+    "THE PROJECTIVE QUOTIENT IS FULLY NATURAL AND STILL NOT A"
+   ]
+  },
+  "...and_the_handoff_says_27_and_records_its_own_miscount": {
+   "pass": true
+  },
+  "CLAIM_12_leads_registered_L155_to_L166": {
+   "pass": true,
+   "leads": [
+    "L155",
+    "L156",
+    "L157",
+    "L158",
+    "L159",
+    "L160",
+    "L161",
+    "L162",
+    "L163",
+    "L164",
+    "L165",
+    "L166"
+   ]
+  },
+  "CLAIM_2_bands_closed_to_step_6": {
+   "pass": true
+  },
+  "CLAIM_L166_is_14_contradictions_12_STALLED_2_NEEDS": {
+   "pass": true,
+   "neg": 14,
+   "pos": 9
+  },
+  "CLAIM_all_14_are_in_B0_B99": {
+   "pass": true
+  },
+  "CLAIM_42_declare_supersedes_and_5_carry_the_backlink": {
+   "pass": true,
+   "one_way": 41
+  },
+  "CLAIM_31_unregistered_self_corrections_at_the_time_of_measurement": {
+   "pass": true,
+   "now": 29
+  },
+  "CLAIM_coverage_is_6_fingerprints_against_154_rows": {
+   "pass": true,
+   "fp": 6,
+   "rows": 154
+  },
+  "CLAIM_the_suite_is_48_minutes_and_the_green_commit_is_pinned": {
+   "pass": true
+  },
+  "CLAIM_227_syspath_files_and_the_56_and_46_importers": {
+   "pass": true,
+   "b1035_pass": true
+  },
+  "CLAIM_15_absent_reproducers_registered_as_L165": {
+   "pass": true
+  },
+  "HONESTY_it_carries_a_full_correction_table": {
+   "pass": true
+  },
+  "HONESTY_the_table_enumerates_at_least_twenty_corrections": {
+   "pass": true,
+   "n": 24
+  },
+  "HONESTY_it_tells_the_reader_to_read_that_section_FIRST": {
+   "pass": true
+  },
+  "HONESTY_it_names_the_ONE_overstatement_that_was_PUBLISHED": {
+   "pass": true
+  },
+  "...and_identifies_it_as_B141_Item_4_closed_by_B564": {
+   "pass": true
+  },
+  "HONESTY_it_states_what_the_author_did_NOT_cover": {
+   "pass": true
+  },
+  "HONESTY_it_names_the_absent_tooling_that_bounds_its_own_re_verifications": {
+   "pass": true
+  },
+  "HONESTY_it_separates_the_owners_decisions_from_the_next_seats_work": {
+   "pass": true
+  },
+  "HONESTY_it_records_BOTH_container_rewinds_and_how_each_was_caught": {
+   "pass": true
+  },
+  "HONESTY_the_assessment_names_fragilities_not_only_strengths": {
+   "pass": true
+  },
+  "the_manual_is_registered_as_the_campaigns_SEVENTH_step": {
+   "pass": true
+  },
+  "it_states_WHY_a_document_is_not_enough": {
+   "pass": true
+  },
+  "it_names_the_first_instance": {
+   "pass": true
+  },
+  "it_applies_the_refreshs_OWN_meta_finding_to_itself": {
+   "pass": true
+  },
+  "and_it_does_NOT_build_a_third_instrument__E34_is_named_as_the_reason": {
+   "pass": true
+  },
+  "no_new_mathematics_is_asserted_by_this_arc": {
+   "pass": true
+  },
+  "nothing_was_promoted_to_CLAIMS_md": {
+   "pass": true
+  },
+  "the_handoff_does_not_endorse_or_contest_the_physics": {
+   "pass": true
+  },
+  "Gate_5_untouched_and_main_untouched_are_both_stated": {
+   "pass": true
+  },
+  "the_sweep_can_SEE_this_uncommitted_handoff": {
+   "pass": true
+  },
+  "...and_it_is_CLEAN_after_the_cue_was_added": {
+   "pass": true
+  },
+  "the_handoff_marks_B408s_headline_as_a_registered_retracted_phrase": {
+   "pass": true
+  }
+ },
+ "answer": {
+  "what_this_is": "The consolidation refresh's exit. 28 arcs (B1024–B1051) produced two closed bands, two gates, eleven LAW_MAP rows and two dozen recorded corrections — and none of that is transferable if it lives in a session transcript. The handoff is written in the `docs/handoffs/` convention the repository already had, addressed seat to seat, and it opens by telling the reader NOT to read the transcript: almost all of a session is process, and process is not evidence.",
+  "why_it_is_verified_rather_than_written": "Prose is where overstatement lives. Every countable claim the handoff makes — 28 arcs, 4 instruments, 28 gates, debt 245→175, 11 rows, 12 leads, L166's 14, the 42/5 supersession graph, 6-of-154 coverage, the 48-minute suite — is RE-MEASURED here against the tree. If any drifts, this arc goes red and the handoff is wrong rather than merely stale. That is the difference between a manual and a summary.",
+  "the_part_a_seat_cannot_reconstruct": "The corrections. The arcs record their results; they do not record the twenty-four things a careful pass got wrong first — a claim about the record that a grep misled, a count that lumped vocabulary variance into contradiction, an exclusion idiom defeated by markdown wrapping, a firewall header read as a verdict that would have declined eleven rows. The handoff carries all of them, and names the ONE overstatement that actually reached a curated surface (B141 Item 4, closed by B564) separately from the near-misses, because a reader must be able to tell those apart.",
+  "the_campaign_step": "Registered as the campaign's SEVENTH step: every refresh window exits through a handoff, re-authored per window and naming the previous, so a later seat reads a chain rather than doing archaeology. The enforcement rule — 'a window is not closed until its handoff exists and names its arc range' — applies the refresh's own meta-finding (naming is not gating) to itself. It is REGISTERED, NOT GATED: a third instrument in three phases is the E34 apparatus-inflation this refresh recorded against itself, and whether to gate it is priced for the owner alongside L166.",
+  "the_assessment_given_straight": "Asked for and included. In short: the discipline is real and unusual — pre-registration, sealed cells, an enforced firewall, negatives banked as carefully as positives — and every law re-derived symbolically in this window was CORRECT AS COMPUTED; where arcs erred, they erred in slogans, tiers and metadata, not arithmetic. What is fragile is structural: the record grows faster than it consolidates, claim lines are load-bearing and unreliable, metadata disagrees with bodies, gates do not cover locks, every instrument measures a moving target, and vocabulary drift is the most expensive recurring error. The highest-value open item is the decadal review, now 60 merges against a threshold of 20."
+ },
+ "all_pass": true
+}

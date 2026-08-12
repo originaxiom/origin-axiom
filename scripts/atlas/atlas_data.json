@@ -1705,6 +1705,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1052": {
+   "slug": "the handoff",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B141",
+    "B408",
+    "B564",
+    "L166"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "meta"
+  },
   "B105": {
    "slug": "n5 wall and convergence",
    "motifs": [

@@ -1,0 +1,24 @@
+{
+ "id": "B1052",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE REFRESH EXITS THROUGH A MANUAL, AND THE MANUAL IS CHECKED AGAINST THE CORPUS. 28 arcs, two closed bands, two gates, 27 LAW_MAP rows and two dozen recorded corrections are NOT TRANSFERABLE if the lessons live in one session's transcript -- and a transcript is the wrong artefact, because ALMOST ALL OF A SESSION IS PROCESS (greps that returned nothing, measurements re-run after a container rewind, drafts corrected before they were written) and NONE OF THAT IS EVIDENCE. The arcs already carry what was found and how to re-derive it; WHAT THEY DO NOT CARRY IS WHAT WAS CORRECTED AND WHAT NOT TO REPEAT, which are the expensive parts. Written: docs/handoffs/CONSOLIDATION_REFRESH_HANDOFF_2026-08-12.md, in the docs/handoffs/ convention the repository already had and had used twice, addressed seat to seat, opening by telling the reader NOT to read the transcript and pointing at ORIENTATION.md for the PROGRAMME rather than replacing it; six sections -- the findings each citing its arc, EVERY CORRECTION THE WINDOW MADE, the standing rules ordered by what they cost to learn, an honest assessment including what the author did NOT cover, what remains in priority order, and the commands to check the author. WHY IT IS VERIFIED RATHER THAN MERELY WRITTEN: prose is where overstatement lives, so this arc RE-MEASURES EVERY COUNTABLE CLAIM THE HANDOFF MAKES against the tree -- 28 arcs, 4 instruments, 28 gates, debt 245 to 175, 27 LAW_MAP rows, 12 leads, L166's 14 contradictions, the 42/5 supersession graph, 6-of-154 coverage, the 48-minute suite -- so that IF ANY DRIFTS, THIS ARC GOES RED AND THE HANDOFF IS WRONG RATHER THAN STALE. That is the difference between a manual and a summary. AND IT CAUGHT ONE IMMEDIATELY: the handoff's first draft said 11 LAW_MAP rows added and the tree says 27, because it counted only the RESTORATIONS and missed the audit rows B1030-B1036 each wrote; THE MISCOUNT IS RECORDED IN THE TABLE ITSELF rather than silently replaced. THE HONESTY CLAUSES ARE LOCKED TOO, because they are precisely the part a later seat cannot reconstruct: the correction table must exist and enumerate at least twenty entries; THE ONE OVERSTATEMENT THAT ACTUALLY REACHED A CURATED SURFACE (B141 Item 4, closed by B564) must be named SEPARATELY FROM THE NEAR-MISSES so a reader can tell them apart; and the author's limits -- a third of the corpus read, snappy/sage/cypari/flint all absent -- must be stated. THE FOURTH MARKDOWN-STRUCTURE BUG, AND THEY ARE ALL ONE SHAPE: writing this arc's checks hit a BLOCKQUOTE MARKER SURVIVING WHITESPACE-FLATTENING, so a sentence inside a > block flattens to '... in > this window ...' and the match failed on prose that was perfectly correct. That is the fourth in this window and they are ONE SHAPE -- A CHECK MATCHING TEXT WHILE THE MEANING LIVES IN STRUCTURE: a per-line exclusion defeated by LINE WRAPPING (B1037's lock red for five arcs), a row lookup defeated by one row QUOTING ANOTHER'S HEADLINE (three occurrences), a FIREWALL HEADER read as a verdict (would have declined eleven rows), and this one; stated together because the shape is more useful than any instance. REGISTERED AS THE CAMPAIGN'S SEVENTH STEP: every refresh window exits through a handoff, RE-AUTHORED PER WINDOW AND NAMING THE PREVIOUS, so a later seat reads a chain rather than doing archaeology; the enforcement rule 'a window is not closed until its handoff exists and names its arc range' is the refresh's own meta-finding (NAMING IS NOT GATING) applied to itself. REGISTERED, NOT GATED: a third instrument in three phases is the E34 apparatus-inflation this refresh already recorded against itself, and whether to gate it is priced for the owner alongside L166. AND B1049's REPAIR PAID, ON THE ARC THAT DOCUMENTS IT: retraction-sweep fired on this handoff WHILE IT WAS STILL UNCOMMITTED, because the draft quoted B408's headline (a registered retracted phrase) without a mention cue on that line. B1048 shipped exactly that mistake and COULD NOT have caught it, since the sweep listed only committed files and an arc's own FINDINGS was invisible to the sweep that arc ran; B1049 repaired it with `-co --exclude-standard`, and this is the FIRST TIME THAT REPAIR HAS PAID -- on the arc whose subject is the window's corrections. Locked, so the demonstration is not anecdote. 45 checks; 9 locks; 28 gates green; Gate 5 untouched; nothing to CLAIMS.md; no mathematics asserted or disturbed.",
+ "depends_on": [
+  "B1024",
+  "B1025",
+  "B1035",
+  "B1037",
+  "B1039",
+  "B1041",
+  "B1042",
+  "B1044",
+  "B1046",
+  "B1047",
+  "B1049",
+  "B1050",
+  "B1051"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "consolidation-refresh seat (2026-08-12); the window's exit"
+}
