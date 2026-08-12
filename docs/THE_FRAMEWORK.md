@@ -368,10 +368,14 @@ without it, a ToE claim and a coincidence are indistinguishable from the inside.
   bits in B704's Galois cube (k = 2 forced, up to 3 with √−7). Open at exactly one
   leg: **θ ↔ √−7**, plus B782-compatibility. DERIVED (the two legs) / ABSENT (the
   third, by elimination only — elimination is not exhibition).
-- **B1040 (sealed, in flight)**: the observer construction through the
-  field-not-object battery — per-step ω-consumption vs ℤ/2-only, the sister
-  transplant (μ₆ is not shared: ℚ(√−3) alone holds the ℤ/3), object-deletion. The
-  identification-vs-rename question, answered as a ledger.
+- **B1040 (banked): the observer construction through the field-not-object battery —
+  the split is TOTAL.** 0 ω-essential steps of 11 decidable (the observer stack is
+  ℤ/2-machinery; the (√−3) door carries zero bits); every field-generic TEMPLATE
+  stands object-deletion and transplants verbatim to the sisters; every object-made
+  SELECTION collapses. **Observer-as-template ≡ the field; observer-as-instance = the
+  object's walk through the field's doors. The observer cannot carry the trit** —
+  ℤ/3 structure is coupling-side. DERIVED (the ledger; each row quoted from banked
+  text).
 - *(Registered and firewalled, not framework content: the seed–field cosmogony frame —
   adversarial verdict NO-BREACH; one forbid SHARP, one UNTESTED with corrected scope,
   one PINNED. `speculations/S_SEED_FIELD_COSMOGONY.md`.)*

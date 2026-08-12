@@ -19,7 +19,7 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**LATEST (2026-08-12, FL-4 answered):** The observer question — is the measuring
+**LATEST (2026-08-12, FL-4 answered — B1040):** The observer question — is the measuring
 side of the programme the field's or the object's? — now has a computed answer, and it
 is a clean split: **the field supplies every door (every construction template runs
 identically for the sister fields and survives deleting the object), and the object
