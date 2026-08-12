@@ -83,3 +83,16 @@ the paper's discovery appendix runs this repo's protocol, independently evolved)
 sent to the audit seat with an adversarial invitation on the fence and the Theorem-E
 uniformity reading. Gate 5 untouched; no SM value anywhere; nothing about RH is claimed
 beyond what the external theorem states.
+
+## Addendum (2026-08-12): the uniformity check + the load-bearing word
+
+**Theorem E's applicability to χ₋₃ (q = 3) is CONFIRMED at the summary level** — "fixed
+primitive Dirichlet L-functions" is the paper's own framing, so no uniformity in q is
+required (the audit seat, item 10, with provenance honestly stated: the summary was
+read, not the verbatim theorem — this arc's citation remains the paper's theorem
+itself). **And one word of this arc is load-bearing, flagged by the adversarial pass
+and now locked: "NUMERATOR."** The voice is a RATIO Λ_K(s)/Λ_K(s+1); the denominator's
+poles (at s = −1, 0 via Λ_K's poles) create zeros of the ratio that are NOT numerator
+zeros — any restatement as "two thirds of the VOICE's zeros" is false. The numerator's
+zeros do survive into the ratio (ρ and ρ+1 cannot both lie in the critical strip — no
+cancellation; the seat's check). The lock below enforces the word.

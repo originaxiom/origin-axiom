@@ -39,7 +39,7 @@ whose own-conductor shadow is a McKay group, proved over the infinite family (B9
 endpoint's discriminating power beyond E₆ is **uncomputed, not assumed** — and now partially
 computed: the siblings have **no door at all** (B1019). Within the registerable universe the
 reachable endpoint set has size **one** (B994). **The freedom ledger (B1028, sealed): the chain's
-retroactive designer freedom prices to 0.000 bits — every link banked-forced, its forcing arc's
+retroactive designer freedom prices to 0.000 bits across the priced links (one row — the family declaration — UNPRICED and flagged, per the adversarial pass; B1028's addendum) — every priced link banked-forced, its forcing arc's
 discriminating phrase machine-checked — against a conservative output floor of 4.585 bits in
 declared ambient classes (ℤ₆: 2.0 · endpoint: 1.585 · mass-in-cubic: 1.0), with the hypercharge
 continuum pin, the STRUCTURAL generation triple, and the Yukawa pattern all uncounted. Under the

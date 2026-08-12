@@ -424,6 +424,8 @@ Thirteen arcs currently sit at PENDING — that is a recorded debt, not a discha
 
 ## Read the code before rebuilding it — MANUAL (a discipline, nine instances in one session)
 
+*(Count updated 2026-08-12: at least three further corpus-level instances this window — B632's walked-and-dissolved cubic re-asked as an open question; B961's frame.py nearly rebuilt; rep27.json nearly re-derived. All three arcs carry double-digit inbound citations: not obscure, unretrieved. Gate-candidate against the atlas.)*
+
 **The rule.** Before building an instrument, **open the files that would already contain one** and
 read them. Not `grep` for a claim about them — **read the source**. A claim line says what an arc
 *concluded*; the source says what the repo *can do*, and those are different questions.
@@ -598,3 +600,27 @@ body for every load-bearing term it uses** — before sealing, ask of each key t
 does the record already speak about this?" and cite it or record the search. The
 checkable gate-shape (a future instrument): key terms in a new FINDINGS resolve against
 the TERMINOLOGY registry and the atlas's motif index.
+
+## A "no match" is not a finding until a second source agrees — MANUAL (gate candidate)
+
+(B1001, applied at the audit seat's cost this window: seven instances, three species.)
+*A search that cannot run returns exactly what a search that finds nothing returns.*
+Sub-clauses: run both φ and phi; verify the tool ran; `head`/`tail` is a window, never a
+population; check the flag's unit (occurrences vs lines).
+
+## Assert the ordering, not the threshold — MANUAL
+
+(B1002.) *Re-fitting a floor to each new N is fitting, not testing.* A count dressed as
+a defect rate is the same error one level up.
+
+## Gate every export against a number you did not compute — MANUAL
+
+(B961.) *A wrong-dimensional space is not obviously absurd; on an unbanked question the
+wrong answer looks like a finding.* Every subspace/rank export reproduces a banked value
+before any new number is read (applied end-to-end in B1036).
+
+## Ask whether the quantity moves under the gauge — MANUAL
+
+(B647 c3 · B884.) *Only what survives the rescaling is content; the rest is the
+pipeline's pivot order.* The census (B1038-verified) shows the banked record already
+passes; the practice exists so it stays true.

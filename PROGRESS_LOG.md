@@ -10285,3 +10285,12 @@ reproduced exactly (54/23/31); the synonym principle verified with criteria unco
 the π/6 row, the point-of-use practice, and the B1027 refresh notes installed. The
 approved plan's four arcs are complete; wait-states and the R43 items carry. Locks:
 tests/test_b1037_b1038.py.
+
+## 2026-08-12 — the integration batch: cc3's plan complete, the repairs applied
+
+Ten of ten closed on their branch (nothing merged; the gate held). Applied on main: the
+four method-law PRACTICES rows; B1028's UNPRICED restatement (+ THE_CLAIM propagation);
+B1031's numerator lock + Theorem-E confirmation addendum; B1033's literature addendum
+(the dissolve corroborated from outside; the DG-chirality sentence said plainly);
+price_lock verified repaired (R43-10 closed). The search-species taxonomy and the
+Slansky/Bando–Kugo first-pick recorded in memory.

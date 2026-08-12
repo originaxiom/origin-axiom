@@ -40,6 +40,9 @@ def test_findings_carry_provenance_fence_and_limits():
     # provenance is load-bearing for an external-literature arc:
     assert "Fetched 2026-08-11" in flat and "3635e748" in flat
     assert "zeta-23-lean" in flat
+    # the load-bearing word (the adversarial pass's flag): NUMERATOR must survive
+    # every future compression -- "the VOICE's zeros" would be FALSE (denominator poles):
+    assert "numerator zeros" in flat.lower()
     # the corollary with its exact hedges:
     assert "WITH multiplicity" in flat and "unconditionally" in flat
     assert "do NOT transfer" in flat

@@ -1,5 +1,23 @@
 # Changelog
 
+## The integration batch (2026-08-12) — cc3's ten-item plan complete; the accepted repairs applied
+
+The audit seat closed all ten items (sixteen branch commits, nothing merged — the gate
+held). This batch integrates what my gate accepts: **the four method-law PRACTICES rows**
+(cross-check two sources · ordering not threshold · the banked-number gate · the gauge
+question — each proved in a banked arc, each mapping to a session error, none previously
+in the register) + the read-the-code count amendment; **B1028's family row restated
+UNPRICED** (the adversarial pass's one landed hit: 0-by-fiat is not a measured zero;
+headline and THE_CLAIM propagated same-batch) + the carrier's "forced generically" note;
+**B1031's "NUMERATOR" locked** (the voice is a ratio — denominator poles make "the
+voice's zeros" false; the word now survives compression by test) + the Theorem-E fixed-q
+confirmation recorded with its second-hand provenance stated; **B1033's literature
+addendum** (trinification BLOCKS, E₈-family BLOCKS, Distler–Garibaldi ORTHOGONAL — with
+the sentence said plainly: we sit outside DG's hypothesis precisely because chirality is
+declared, the price paid in the open); **the price_lock repair verified** (|κ − 2| = 1
+exact, six controls firing — R43-10 closes). B1031 survived three adversarial attacks
+including a defeated liminf objection (the weighted-average/min identity, proof supplied).
+
 ## B1037 + B1038 (2026-08-12) — the plan's last two arcs: a clean join-death and the retrieval instruments
 
 **B1037 (the θ-join, sealed): DISTINCT — and the declared prior was wrong, recorded.**
