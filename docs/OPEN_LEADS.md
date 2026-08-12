@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+*As of Review 44 (2026-08-12): newest are L158 (V-owner), L159 (the gerbe question, reading-gated), L160 (the three cubes — one open leg); L157 amended (X4/X5).*
+
 A registry of **open leads**: directions named but not yet run, ranked by value and tractability. This is a
 *pointer file*, not a results file — nothing here is a claim, nothing promotes to `../CLAIMS.md`. Each lead is a
 candidate for a future frontier stage; banking one means *deciding to run it*, not asserting it.

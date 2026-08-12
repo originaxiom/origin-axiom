@@ -1,5 +1,10 @@
 # Origin Axiom — Roadmap
 
+
+> ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window; next: FL-4, the θ-leg, the triple
+>
+> The wall sector-complete; the frame at NO-BREACH with its forbids repaired in writing; three leads registered (the V-owner reconciliation; the gerbe question, reading-gated; the three (ℤ/2)³ cubes — open only at θ ↔ √−7). The sealed queue: **FL-4** (does the observer construction consume the field's ℤ/3 or only its ℤ/2 — the μ₆ discriminator), then **L160's θ-leg**, then **L157-4** (the triple under the pinned forbid: cyclic three-copy weld, connecting-map yield ≥ 2/seam). Ledger: Review 44.
+
 > ## STATE AT REVIEW 43 (2026-08-11) — the fourth crossing dies by one degree; the WHY campaign opens with a number
 >
 > The window after the seat switch. **Tier 2 gained its cleanest death yet**: the fourth sealed

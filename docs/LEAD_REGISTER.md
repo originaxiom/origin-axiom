@@ -1,5 +1,10 @@
 # LEAD REGISTER — the now-computable frontier (2026-07-04)
 
+
+> ## STATE AT REVIEW 44 (2026-08-12) — three leads registered this window
+>
+> **L158** — the V-owner reconciliation (FL-1/FL-5/FL-6; discriminator = the FL-4 cell). **L159** — the gerbe question (the programme's central structure = a non-neutral Tannakian category, cited zero times; the degree-2 neutrality class never computed; READING-GATED on Deligne–Milne). **L160** — the three (ℤ/2)³ cubes (two legs proved in B766; the space-level bridge banked in B733; open only at θ ↔ √−7 + B782-compatibility). L157 amended (the cover struck; the yield pinned). Full statements: `docs/OPEN_LEADS.md`. Ledger: Review 44.
+
 > **State at Review 37 (2026-08-03).** The SM-structure window closed: the selection spine
 > (repair → fused principle → termination → anomaly split → registerability keystone → menu
 > gate) carries **zero load-bearing imports**; the **First Measurement Theorem** (the object's

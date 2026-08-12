@@ -1,5 +1,10 @@
 # THE MASTERPLAN — APPROVED (2026-07-04; owner sign-off received)
 
+
+> ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window
+>
+> Plan B1034–B1037 executed whole and banked (+B1035/B1038/B1039 en route); the seed–field frame registered, gauntleted to NO-BREACH, forbids repaired; the never-trust sweep corrected both seats (the sweeper-gets-swept practice is its residue). The masterplan's next sealed cells: FL-4 → the θ-leg → the triple. Ledger: `docs/progress/REVIEWS.md` Review 44.
+
 > ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
 >
 > **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every

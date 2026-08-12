@@ -1,5 +1,10 @@
 # The priced-doors campaign — every physics word, its price, and its computable next rung
 
+
+> ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window
+>
+> No door repriced this window; the frame's forbid 3 is now PINNED (the triple's connecting-map yield ≥ 2/seam — a priced forbid, sealed before its number exists), and the FL-4 cell's outcomes are pre-priced in its drafted prereg (field-scoped vs object-carrying, the ledger reported as computed). Ledger: `docs/progress/REVIEWS.md` Review 44.
+
 > ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
 >
 > **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every

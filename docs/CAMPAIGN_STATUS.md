@@ -1,15 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-> **State at Review 38 (2026-08-05).** The meditation/capstone/flavor window: the tiling
-> is now **M(𝕆,ℂ) by explicit exact isomorphism** (all 3,003 bracket relations, det φ = −2/3);
-> the torus's split/compact dichotomy is a float-free theorem whose four-column concordance
-> (θ-parity / torsion sign / spectrum / the resolvent 77) marks the measured plane; the vacuum
-> and charge cubic fields **annihilate** in the Knus–Paques group; a sealed cell decided the
-> all-perspectives algebra is **generation-shaped**; the solo seat's flavor arc verified
-> wholesale (one ℤ₂ law with three faces, fifteen atoms, a K₃,₃ grid) with the first derived
-> value **I = −1 at seven primes**; and the literature gate documented that the
-> torsor-as-measurement reading is this programme's own. Sealed next: the real-form selector.
-> Ledger: `docs/progress/REVIEWS.md` Review 38.
+> **State at Review 44 (2026-08-12).** The odyssey/plan-execution/verification window:
+> the approved four-arc plan banked whole (L154 UNDECIDED-priced; the mirror-double's
+> multiplicity 5 = 2+2+1 with the dissolve's falsifier confirmed; the θ-join DISTINCT
+> with its wrong prior in the open; the census verified); **the antisymmetry wall is
+> sector-complete on the double** (solo · scalar/seam · V-valued — the coupling move
+> creates the classes and not the pairing), and the negative named the triple's arity;
+> the seed–field frame registered, adversarially processed to **NO-BREACH** (one forbid
+> SHARP, one UNTESTED with corrected scope, one PINNED before its number exists); the
+> owner-ordered never-trust sweep verified the whole odyssey and corrected both seats
+> (the sweeper-gets-swept practice is its residue); and the window's naming find:
+> the programme's central structure is a **non-neutral Tannakian category** — cited
+> zero times, reading-gated as a lead. Sealed next: the FL-4 cell (does the observer
+> construction consume the field's ℤ/3 or only its ℤ/2). Ledger:
+> `docs/progress/REVIEWS.md` Review 44.
 
 
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —

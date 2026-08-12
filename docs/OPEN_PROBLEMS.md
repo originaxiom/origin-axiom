@@ -1,5 +1,10 @@
 # OPEN_PROBLEMS.md — the remaining gates (the honest specialist handoff)
 
+
+> ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window
+>
+> The symmetric-mass question is now walled sector-complete on the double (the coupling creates multiplicity, not the pairing); the open problem the window minted: **the degree-2 neutrality class of the measurement gerbe** (is the banked H¹ the whole story? — L159, reading-gated), beside the standing L150 junction and the θ ↔ √−7 leg (L160). Ledger: `docs/progress/REVIEWS.md` Review 44.
+
 > ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
 >
 > **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every

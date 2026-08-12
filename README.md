@@ -1,5 +1,10 @@
 # Origin Axiom
 
+
+> ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window: the wall completes, the frame survives its gauntlet, and the structure gets its classical name
+>
+> The four-arc plan banked whole; **the antisymmetry wall is sector-complete on the double** (solo · scalar/seam · V-valued — the coupling move creates the classes and not the pairing) and the negative names the triple's arity. The seed–field frame registered and adversarially processed to **NO-BREACH** (one forbid SHARP, one UNTESTED with corrected scope, one PINNED before its number exists). The owner-ordered never-trust sweep verified the audit seat's whole odyssey and corrected both seats. The naming find: the programme's central structure is a **non-neutral Tannakian category / affine gerbe** — cited zero times by a corpus owning `B700_fiber_functor`; the degree-2 neutrality question is registered and reading-gated. Ledger: `docs/progress/REVIEWS.md` Review 44.
+
 > **The one-page proof-form statement — what is proved, in the form it is proved in:**
 > **[`docs/THE_CLAIM.md`](docs/THE_CLAIM.md)** *(B1014, 2026-08-10).*
 >
