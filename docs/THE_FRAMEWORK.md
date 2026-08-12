@@ -340,6 +340,44 @@ without it, a ToE claim and a coincidence are indistinguishable from the inside.
 
 ---
 
+## CURRENCY ADDENDUM — 2026-08-12 (B1031–B1040): what the odyssey window added at framework level
+
+- **THE TYPE LAW** (B1032, LAW_MAP): the coupling channel's outputs are a **finite
+  algebraic menu** — bare character values for the tones and mirror, the character RING
+  for the listener family. Crossings target RELATIONS or FINITE LABELS, never generic
+  reals. This types LAYER-crossing claims for good.
+- **THE BLOCK-COUNT THEOREM** (B1036 confirming; LAW_MAP): h¹(M; V) = #principal-sl₂
+  blocks — "3" is |{θ-odd exponents}| + 1, and the falsifier (h¹(M; ad) = 6) CONFIRMED.
+- **The antisymmetry wall is SECTOR-COMPLETE on the double** (B632 · B1036 · B1039):
+  the coupling move creates the classes and not the pairing. And the reason is now
+  TYPED, classically: the unique cubic invariant is **d_μνλ, completely symmetric**
+  (Slansky; = B884's J₃(𝕆) determinant) — a symmetric 3-tensor has no canonical
+  evaluation on a 2-body assembly; every assembly so far supplied two bodies plus a
+  saturation. **The triple (L157-4, forbid pinned before its number exists) is the
+  first assembly whose arity matches the invariant's.** STRUCTURAL.
+- **The framework's central structure has a classical name** (L159, READING-GATED): a
+  canonically determined representation category with no canonical fiber functor =
+  a **non-neutral Tannakian category**; its fiber functors form an **affine gerbe**.
+  The corpus cites the framework zero times while owning `B700_fiber_functor`. The
+  open classical question: the neutrality obstruction lives in degree-2 nonabelian
+  cohomology; everything banked lives in H¹ — is the banked H¹ the torsor layer of a
+  gerbe whose degree-2 class was never computed? Nothing banks before the
+  Deligne–Milne reading.
+- **The three (ℤ/2)³'s are two-thirds one structure** (L160): B766 proves γ₃ ≡ c (the
+  being-Galois IS conjugation) and states γ₅ = √5's sign; B733 embeds the observer
+  bits in B704's Galois cube (k = 2 forced, up to 3 with √−7). Open at exactly one
+  leg: **θ ↔ √−7**, plus B782-compatibility. DERIVED (the two legs) / ABSENT (the
+  third, by elimination only — elimination is not exhibition).
+- **B1040 (sealed, in flight)**: the observer construction through the
+  field-not-object battery — per-step ω-consumption vs ℤ/2-only, the sister
+  transplant (μ₆ is not shared: ℚ(√−3) alone holds the ℤ/3), object-deletion. The
+  identification-vs-rename question, answered as a ledger.
+- *(Registered and firewalled, not framework content: the seed–field cosmogony frame —
+  adversarial verdict NO-BREACH; one forbid SHARP, one UNTESTED with corrected scope,
+  one PINNED. `speculations/S_SEED_FIELD_COSMOGONY.md`.)*
+
+---
+
 ## THE ONE-PARAGRAPH STATEMENT
 
 The four-letter combination principle, formalised as six motivated axioms, **forces** the
