@@ -64,6 +64,6 @@ by qB1053). The rest are read at digest (their register, their branch).
 
 Fork point `3524b889` (B1024's seal, 2026-08-11). The cloud window: 30 arcs
 (qB1024–qB1053), suite pinned green at their `be87a51` (3996/0). Their handoff:
-`docs/handoffs/CONSOLIDATION_REFRESH_HANDOFF_2026-08-12.md` on their branch. The
+CONSOLIDATION_REFRESH_HANDOFF_2026-08-12 (in the handoffs directory of their branch — not a main path). The
 digest ledger (fixed denominator, every row dispositioned) is the companion
 artifact; this table is the resolver.
