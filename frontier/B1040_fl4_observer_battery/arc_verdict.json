@@ -1,0 +1,19 @@
+{
+ "id": "B1040",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "FL-4 (sealed e358be1b pre-compute): the observer construction through the field-not-object battery, answered as a per-step ledger (12 rows, evidence quoted per row). V1: 0 omega-essential steps of 11 decidable -- the observer stack never consumes mu6's Z/3; B733's own ramified door (sqrt(-3)) carries ZERO observer bits; B723's Galois clauses EXCLUDED as retracted (B942/B957). V2: every step's TEMPLATE transplants verbatim to the mu2 sisters (values change as numbers, not structure); S3 (the y^2-3y+3 characters torsor) alone has no template -- pure object, per B701's own thesis; sqrt(-7) typed separately (a leg of the seam, not a clean sister). V3: the split is TOTAL -- every field-generic template STANDS object-deletion, every object-made selection COLLAPSES (S7 pure-template; S3 pure-selection). The sealed mixed branch fires: observer-as-template = the FIELD (it supplies every door, identically for the sisters), observer-as-instance = the OBJECT's walk through those doors (the construction-level form of B997/B1019's door-structure). FL-5 reconciled (B957's reading and the frame's are the two halves of the split); FL-1 scoped (the field owns V's structure, the object its instantiation). Typed corollary, binding: THE OBSERVER CANNOT CARRY THE TRIT -- Z/3 structure is coupling-side (Lane III must not seek it in observer refinement; L160's theta-leg carries no omega-hazard). The one open omega-door, fenced: the UNBUILT object-level observer (B735's sentence) is outside this ledger. Gate 5 clean.",
+ "depends_on": [
+  "B700",
+  "B733",
+  "B735",
+  "B723",
+  "B766",
+  "B782",
+  "B737",
+  "B704"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "locks": ["tests/test_b1040_battery.py"]
+}

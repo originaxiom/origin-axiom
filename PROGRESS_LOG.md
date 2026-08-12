@@ -10357,3 +10357,13 @@ B766/B733, the bridge citation found one line below both seats' cutoff). TERMINO
 FL-2 row + pointed-set precision; PRACTICES ×3 (staleness, decoy control, the sweeper
 gets swept). Ladder misses: B1034 rung, B533's five coupling fingerprints, the
 ethogram — accepted. X7 restored after falling off the owed ledger. NO-BREACH stands.
+
+## 2026-08-12 — B1040 (FL-4): the template/selection split is total
+
+Sealed e358be1b, pushed both before compute. The battery's ledger: 12 rows, 0
+ω-essential (the observer is ℤ/2-machinery throughout; the (√−3) door = 0 bits);
+templates transplant verbatim; deletions split uniformly (template STANDS, selection
+COLLAPSES; S7 pure-template, S3 pure-selection; S8 excluded as retracted). Verdict
+PROVED, mixed-branch: observer-as-template ≡ field, observer-as-instance = the
+object's selections. Corollary: the observer cannot carry the trit. Locks:
+tests/test_b1040_battery.py.

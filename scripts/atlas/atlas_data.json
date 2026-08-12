@@ -1103,6 +1103,43 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1040": {
+   "slug": "fl4 observer battery",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B723",
+    "B733",
+    "B735",
+    "B766",
+    "B782",
+    "B942",
+    "B957",
+    "B993",
+    "B997",
+    "L158",
+    "L160",
+    "S069",
+    "S1",
+    "S11",
+    "S3",
+    "S5",
+    "S7",
+    "S8",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

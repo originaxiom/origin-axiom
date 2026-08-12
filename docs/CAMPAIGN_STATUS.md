@@ -19,6 +19,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-12, FL-4 answered):** The observer question — is the measuring
+side of the programme the field's or the object's? — now has a computed answer, and it
+is a clean split: **the field supplies every door (every construction template runs
+identically for the sister fields and survives deleting the object), and the object
+makes every selection (which fields, which primes, which polynomial, which monodromy —
+delete the object and every choice collapses).** And nowhere in the observer's
+machinery does the field's ℤ/3 appear — the observer runs entirely on ℤ/2 structure,
+so the three-fold choices in the programme belong to the coupling, not the observer.
+Next: the θ ↔ √−7 cell (L160), then the triple.
+
 **LATEST (2026-08-12, the odyssey closed and harvested):** The audit seat's three-task
 odyssey on the seed–field frame is complete and fully verified — nothing taken on
 trust, and the checking corrected both seats (the "sweeper gets swept" rule is now a

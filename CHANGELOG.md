@@ -1,5 +1,20 @@
 # Changelog
 
+## B1040 (2026-08-12) — FL-4 answered by ledger: the field builds every door, the object does all the walking, and the ℤ/3 is consumed nowhere
+
+The observer stack (B700 · B733 · B735→B723 · B766 · B782), adjudicated per-step from
+its own banked text under the sealed battery: **0 ω-essential steps of 11 decidable** —
+the observer construction never consumes μ₆'s ℤ/3 (B733's own ramified door carries
+zero bits); every step's TEMPLATE transplants verbatim to the μ₂ sisters; and the
+split is total — every field-generic template STANDS object-deletion, every
+object-made selection COLLAPSES. The sealed mixed branch fires: **observer-as-template
+≡ the field; observer-as-instance = the object's walk through the field's doors** —
+the construction-level form of the banked door-structure (B997/B1019), reconciling
+FL-5's two readings and scoping FL-1. Typed corollary: **the observer cannot carry
+the trit** — ℤ/3 structure is coupling-side, binding on Lane III's nomination and
+clearing the ω-hazard from L160's θ-leg cell. The one place an ω-consumption could
+still appear: the UNBUILT object-level observer (B735's fence), outside this ledger.
+
 ## The odyssey's harvest (2026-08-12) — verification closed, two forbids repaired by writing, three leads registered, and the record corrects both seats
 
 The owner-ordered never-trust sweep over the audit seat's odyssey (Tasks C, A, B + X7)
