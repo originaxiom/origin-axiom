@@ -70,8 +70,10 @@ judgement rows are enforced by the independent verification in Part II.
       **three red locks survived behind that wall while 26 gates stayed green** — gates are fast
       and **do not cover what the locks cover**.
     - **THE LAST KNOWN-GREEN FULL RUN, DATED AND PINNED TO ITS COMMIT — because B1041's finding
-      was that nobody knew:** `d48ab85` (B1049, 2026-08-12), **3961 passed / 120 skipped / 0
-      failed, exit code 0, 48:04**, run against a **committed** tree with nothing edited under it.
+      was that nobody knew:** `be87a51` (B1053, 2026-08-12), **3996 passed / 120 skipped / 0
+      failed, exit code 0, 49:23**, run against a **committed** tree with nothing edited under it.
+      *(Previous: `d48ab85`, 3961 passed, 48:04. The +35 is B1050–B1053's locks, which is the
+      arithmetic that shows the collection was complete rather than truncated.)*
       *Update this line whenever a full run completes; a green suite whose commit is not recorded
       is a rumour.*
     - **AND TARGETED RUNS DO NOT SUBSTITUTE, MEASURED (B1049).** B1047 banked on **88** targeted

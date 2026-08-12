@@ -369,6 +369,6 @@ python3 -m pytest -q                               # 48 minutes; read the exit c
 `docs/RETRACTED_PHRASES.md` (what may not be asserted), `docs/ERROR_LEDGER.md` (E1, E6, E11, E27,
 E34, E36, **E37**, **E38**).
 
-*Last known-green full suite: `d48ab85`, 3961 passed / 120 skipped / 0 failed, 48:04. Update that
+*Last known-green full suite: `be87a51`, 3996 passed / 120 skipped / 0 failed, 49:23. Update that
 line in `BANKING_PROTOCOL` whenever a full run completes — a green suite whose commit is not recorded
 is a rumour.*
