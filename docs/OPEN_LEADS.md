@@ -1576,6 +1576,17 @@ regardless of the frame's fate):
    morphism or show the agreement is of outputs).
 3. **L154's bridge as a seed–field junction** — already registered and narrowed (B1034);
    listed here as the frame's third computable, not re-registered.
+4. **The monotone-creation forbid** — the triple assembly (3-fold cyclic cover or
+   three-copy weld): the frame FORBIDS more coupling creating less than its seam count
+   predicts; computable by extending B1036's MV/double-Fox pipeline to three copies.
+   The frame's third forward forbid (the speculation entry's list); a sealed cell when
+   elected.
+
+**The hooks' forbidding roles (2026-08-12):** L157-1 doubles as the seam-locality
+forbid's first test; L157-2 IS the morphism demand (outputs-only agreement = the frame's
+best match dies); L157-4 is the monotone-creation forbid. The refusal corpus counts
+ZERO as evidence for the frame (retrodiction — the audit seat's strike, conceded);
+only these forward tests count.
 
 Sealed cells when elected; the frame itself promotes only through the odyssey's
 survival + a sealed adjudication on this bench.

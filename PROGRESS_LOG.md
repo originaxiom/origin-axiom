@@ -10314,3 +10314,12 @@ hooks; the audit seat's FIELD ODYSSEY mandate is in the relay channel (the Field
 · the field's literature · the adversarial pass on the frame itself — rationale-first
 per the owner). Every harvest banked; every checkable item checked; wait-states and
 elections only.
+
+## 2026-08-12 — the frame gets its forbids; B701 resolved as a dir-less arc
+
+The audit seat's first strike on the seed–field frame (a frame that cannot lose is a
+lens) conceded and answered: the refusal corpus counts ZERO (retrodiction); three
+forward FORBIDS registered (seam-locality; the morphism demand; monotone creation —
+L157-4 new). B701 resolved: = B700 phase 2, sealed 0eb5026b, no directory of its own —
+the dir-less arc ID named as a retrieval hazard; the citation form fixed. The odyssey
+acknowledged in the relay channel with the forbids supplied pre-pass.
