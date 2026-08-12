@@ -1,5 +1,18 @@
 # Changelog
 
+## The synthesis pair (2026-08-13) — the withholding taxonomy banked; the template/selection meta-row placed
+
+Meditation 2's ranked 2–3, executed: **docs/THE_WITHHOLDING_TAXONOMY.md** — the five
+classes (type walls · blindness theorems · arity/dimension walls · genericity
+deflations · torsor no-sections), each with its banked instances, B518's
+factorisation unifying I+II, and the closing reading: **the five classes are five
+clauses of one sentence — the crossing-design specification** (the aperiodic
+proposal is to date the only design satisfying all five; still owner-pending). And
+**LAW_MAP gains the TEMPLATE/SELECTION meta-row** — four banked levels (K020 ·
+B997/B1019 · B1040 · B1041), the law about the laws, the firewalled fifth reading
+tagged. R45-2's descent-theorem row and R45-4's wall row remain queued for the
+digest window with their arcs' citations.
+
 ## The invariant line identified (2026-08-13, B1043 addendum) — it is the forced VEV, definitionally, and the cell dissolved before sealing
 
 Meditation 2's first-ranked cell answered itself at the MB12 check: B632's forced
