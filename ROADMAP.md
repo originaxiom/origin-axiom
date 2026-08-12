@@ -1,6 +1,16 @@
 # Origin Axiom — Roadmap
 
 
+
+> ## STATE AT REVIEW 45 (2026-08-13) — next: the digest (B1060), Meditation 2, and the owner's aperiodic call
+>
+> The sealed queue: the digest ledger (fixed denominator over the cloud window) · the epoch cell
+> (the metadata convention BEFORE any repair) · the census independent-check · the arity cell's
+> H³-bearing home (the closed double of the 3-fold cover) · LAW_MAP rows for the descent theorem
+> and the superlinear law. OWNER-PENDING: the scale-factorisation / aperiodic-order crossing
+> direction (type-correct by the banked lessons; substrate already banked B107/K007). Meditation 2
+> follows this review per the standing cadence. Ledger: Review 45.
+
 > ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window; next: FL-4, the θ-leg, the triple
 >
 > The wall sector-complete; the frame at NO-BREACH with its forbids repaired in writing; three leads registered (the V-owner reconciliation; the gerbe question, reading-gated; the three (ℤ/2)³ cubes — open only at θ ↔ √−7). The sealed queue: **FL-4** (does the observer construction consume the field's ℤ/3 or only its ℤ/2 — the μ₆ discriminator), then **L160's θ-leg**, then **L157-4** (the triple under the pinned forbid: cyclic three-copy weld, connecting-map yield ≥ 2/seam). Ledger: Review 44.

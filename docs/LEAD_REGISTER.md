@@ -1,6 +1,14 @@
 # LEAD REGISTER — the now-computable frontier (2026-07-04)
 
 
+
+> ## STATE AT REVIEW 45 (2026-08-13) — L160 closed; the invariant line is the new lead candidate
+>
+> L160 CLOSED (B1041, exhibited obliquely). NEW candidate at R45-3: the identification of the solo
+> invariant line h⁰(M;27) = 1 (surfaced by B1043's entry gate). Cloud leads qL155–qL166 renumber
+> at digest (main's next: L161). L159 stays reading-gated; L158 scoped by B1040/B1041's two
+> halves. Ledger: Review 45.
+
 > ## STATE AT REVIEW 44 (2026-08-12) — three leads registered this window
 >
 > **L158** — the V-owner reconciliation (FL-1/FL-5/FL-6; discriminator = the FL-4 cell). **L159** — the gerbe question (the programme's central structure = a non-neutral Tannakian category, cited zero times; the degree-2 neutrality class never computed; READING-GATED on Deligne–Milne). **L160** — the three (ℤ/2)³ cubes (two legs proved in B766; the space-level bridge banked in B733; open only at θ ↔ √−7 + B782-compatibility). L157 amended (the cover struck; the yield pinned). Full statements: `docs/OPEN_LEADS.md`. Ledger: Review 44.

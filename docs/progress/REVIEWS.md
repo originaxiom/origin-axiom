@@ -3581,21 +3581,139 @@ seal-order failure, and its repair (the addendum + the monitor fix) is recorded 
 this window.
 
 ### Action items (Review 44)
-- [ ] R44-1: TOOLBOX.md — refresh or freeze-with-marker (carried; source: B984 via R43-1)
-- [ ] R44-2: the three mechanical repairs — forcing_graph regen; cascade-face attachments; the ROUTED-unread closures (carried; verify-against-main-first)
-- [ ] R44-3: B1024's three amendment controls (naturality · base rate · joint rank) — discharge the PROVISIONAL banner
-- [ ] R44-4: the B1027 refresh verdict when a newer δ_CP global fit is fetchable (wait-state)
-- [ ] R44-5: digest the cloud seat's branch on completion (active 2026-08-12)
-- [ ] R44-6: the per-gate "could this gate still fail?" re-ask against the current gate set (carried from R43-11)
-- [ ] R44-7: the solo-seat joint-queue residue (carried from R43-12)
-- [ ] R44-8: triage R37's legacy carries (carried from R43-13)
-- [ ] R44-9: **the FL-4 cell** — the observer construction through the field-not-object battery (prereg drafted; seal next; the μ₆ discriminator in sources)
-- [ ] R44-10: **L160's θ-leg cell** — exhibit θ ↔ √−7 + B782-compatibility, or the typed negative (after FL-4)
-- [ ] R44-11: the L159 Deligne–Milne reading BEFORE any gerbe/Tannakian banking (the gate is the reading)
-- [ ] R44-12: the decoy-forbid control — owed to whatever pass next attacks a forbid (the audit seat's declared debt, tracked here so it cannot fall off two ledgers)
-- [ ] R44-13: the ladder's miss-repairs on its next sync — the B1034 rung, B533's five-fingerprint C-rung, the ethogram synonym, the compositum rung with all three legs
-- [ ] R44-14: L157-4 — the triple assembly under the pinned forbid (the arity question; after FL-4 per the declared order)
+- [>] R44-1: TOOLBOX.md — refresh or freeze-with-marker (carried; source: B984 via R43-1)
+- [>] R44-2: the three mechanical repairs — forcing_graph regen; cascade-face attachments; the ROUTED-unread closures (carried; verify-against-main-first)
+- [>] R44-3: B1024's three amendment controls (naturality · base rate · joint rank) — discharge the PROVISIONAL banner
+- [>] R44-4: the B1027 refresh verdict when a newer δ_CP global fit is fetchable (wait-state)
+- [>] R44-5: digest the cloud seat's branch on completion (active 2026-08-12)
+- [>] R44-6: the per-gate "could this gate still fail?" re-ask against the current gate set (carried from R43-11)
+- [>] R44-7: the solo-seat joint-queue residue (carried from R43-12)
+- [>] R44-8: triage R37's legacy carries (carried from R43-13)
+- [>] R44-9: **the FL-4 cell** — the observer construction through the field-not-object battery (prereg drafted; seal next; the μ₆ discriminator in sources)
+- [>] R44-10: **L160's θ-leg cell** — exhibit θ ↔ √−7 + B782-compatibility, or the typed negative (after FL-4)
+- [>] R44-11: the L159 Deligne–Milne reading BEFORE any gerbe/Tannakian banking (the gate is the reading)
+- [>] R44-12: the decoy-forbid control — owed to whatever pass next attacks a forbid (the audit seat's declared debt, tracked here so it cannot fall off two ledgers)
+- [>] R44-13: the ladder's miss-repairs on its next sync — the B1034 rung, B533's five-fingerprint C-rung, the ethogram synonym, the compositum rung with all three legs
+- [>] R44-14: L157-4 — the triple assembly under the pinned forbid (the arity question; after FL-4 per the declared order)
 
 **Next review due after 20 merges from this anchor.**
 
 anchor-commit: `e8d98bbe` (the odyssey harvest, the window's last bank)
+
+## Review 45 — 2026-08-13 (merges 1–20 from Review 44; the pattern-campaign / convergence / collision window)
+
+**1. The loop (Review 44's owed items).**
+- [x] **R44-9** (FL-4): RAN AS SEALED — B1040, the total template/selection split; the
+  observer cannot carry the trit.
+- [x] **R44-10** (the θ-leg): RAN — B1041, EXHIBITED obliquely (0/6 coordinate
+  dictionaries); L160 closed.
+- [x] **R44-12** (the decoy-forbid control): DISCHARGED inside B1043's seal at the first
+  forbid-attacking pass, exactly as declared — the decoy failed, certifying the pass.
+- [x] **R44-14** (the triple): RAN — B1043, h¹ = 10 = 7 + 3, F3 held strictly,
+  creation superlinear by the loop.
+- [>] **R44-11** (Deligne–Milne before gerbe banking) → R45-6, cc3's lane. **R44-13**
+  (ladder rungs on cc3's sync) → R45-7. **R44-1** (TOOLBOX) → the hygiene arc 2a,
+  carried. **R44-2** (mechanical repairs) → R45-8. **R44-3** (B1024's three amendment
+  controls) → **R45-9, ESCALATED BY NAME: two reviews stuck; the PROVISIONAL banner is
+  now the oldest live banner on LAW_MAP.** **R44-4** (δ_CP wait-state) → R45-10.
+  **R44-5** (the cloud digest) → **NOW LIVE as the digest campaign** (see §3). **R44-6/7/8**
+  → R45-11/12/13, carried.
+- [x] **Memory-currency**: RAN twice this window (the odyssey file extended through the
+  PM campaign; the index updated).
+
+**1b. The branch inventory (B763 rule).** Two live refs, mirrored: the relay seat's
+audit branch (LIVE — the odyssey, the challenges, the protocols, the review input all
+harvested by verified relay; zero merges) and **the `qor5up` branch (window CLOSED at
+30 arcs with a handoff; Review 1 COMMISSIONED under the three conditions —
+`docs/handoffs/REVIEW_1_COMMISSION_2026-08-12.md`)**. Nothing unclassified.
+
+**2. Declared modulus.** Window = `e8d98bbe` → `71f81f29`, 20 merges: B1040–B1044 +
+THE_PATTERN_MEDITATION + Review 44's own commit + the framework restructure + the
+renumber batch. Every arc authored and banked by this seat in-session; incoming relay
+material verified before harvest throughout (the never-trust discipline standing). The
+parallel suite ran complete and green at every successful push (3970 → 3996 range);
+two E22 holds this window did their job (the attribution token; the path citation) —
+each fixed under a distinct subject. The serial certificate was NOT re-run this
+window — declared; the last certificate (3967, 54:15) stands behind R43-2's record.
+
+**3. Advancement.** **THE FOUR-ARRIVALS CONVERGENCE — the window's headline: four
+results, none designed to agree, one shape.** The door (B997/B1019, prior), the
+template/selection split (B1040), the trit's field-descent (B1042 — ω's shadow
+through McKay, every link computed, the golden end the control), and the Γ-ledger
+(B1044 — 0 of 20 derivation steps consume the group; B803's address CLOSED EMPTY).
+The framework now states its subject with proof-by-enumeration: **a theorem about a
+CLASS, entered by a uniquely-doored GRAMMAR, with the object as the class's minimal
+representative.** Also banked: the meditation (8 patterns × 5, verified, kill-list
+empty, two finds); B1041's oblique cube identification; B1043's superlinear creation
+(the loop's +1 = b₁ × the invariant line) and **the new fact h⁰(M; 27) = 1** (the
+solo invariant line — identification open, a lead candidate); the arity door named
+(the closed double of the 3-fold cover); the five framework challenges applied; the
+collision resolved same-day (the alias table; main → B1060/L161). **Stuck longest:**
+L150 (carried again) and R45-9 (the PROVISIONAL banner, escalated).
+
+**4. Error-class recurrence.** Six in-window instances, ALL caught by standing
+discipline: the two-trit referent collision (the meditation's verify pass); the
+h⁰(M) = 0 shortcut (the entry gate HALTED it — the assumption became a banked fact);
+the arc-ID series collision (caught the day it became visible; resolved before any
+citation rotted); the attribution token inside a branch name (gate); the cross-branch
+path citation (gate); VOID-BY-DIMENSION unregistered in a prereg outcome space (the
+MB12 family, caught in-arc, drafting lesson recorded). **The three-seat observation,
+recorded for Meditation 2: this bench's six, the relay seat's twelve, and the cloud
+seat's twenty-four are the SAME PROFILE — retrieval/channel/drafting, zero
+mathematics.** The corpus's arithmetic holds; its record-keeping is where every seat
+fails, identically.
+
+**5. Provenance spot-sweep.** Clean. New conventions glossed: the q-prefix
+(qB/qL citations), the reserved range B1045–B1059, the distinct-commit-subject rule,
+the LEVEL LEDGER, the PM-series designators.
+
+**6. The §5.1 promotion sweep.** Placements owed: **B1042's descent theorem → a
+LAW_MAP row** (the trit is ω's shadow through McKay — R45-2); **B1043's superlinear
+law + h⁰(M;27) = 1 → LAW_MAP candidates** (R45-3); the sector-complete wall row
+(carried from R44 — R45-4). B1044's Γ-EMPTY is placed (the framework's LEVEL
+LEDGER). CLAIMS.md deferral stands (B984).
+
+**7. Protocol integrity.** Five seals this window (e358be1b · 165d8ef5 · b8544786 ·
+575ad81b · 0d8776d2), hash-first honored on all five; spot-verified at review:
+B1042's and B1044's recomputed byte-identical. Two governance artifacts banked
+outside the arc series (the alias table; the commission) — both correctly
+non-sealed (registers, not cells).
+
+**8. DECISIONS (the docket the window queued).**
+- **D1 — the second trigger surface (cc3's §1): DECIDED — the two-layer structure.**
+  Non-merging seats review their own branches on their own cadence (the qor5up
+  Review 1 commission is the standing instance); every MAIN decadal now carries a
+  **non-merging-seats section** fed by solicited input (cc3's input document is the
+  form's model) with main verifying at digest. One surface cannot see every seat;
+  two can.
+- **D2 — the first independent check of cc3's unverified six: DECIDED — their
+  nomination accepted.** The at-risk census's 31 category calls, as its own cell in
+  the digest window (R45-5), this bench, bodies-first.
+- **D3 — the merge posture: DECIDED — integrate-don't-merge is the policy, now
+  written**: non-merging seats' work enters main ONLY by verified harvest under
+  fresh IDs; flags harvested at relay; nothing merges. (It was the practice; it is
+  now the rule.)
+- **D4 — the scale-factorisation direction (the aperiodic crossing): RECORDED as
+  OWNER-PENDING**, not decided here. The review notes: the design survives all four
+  banked crossing lessons, its substrate identification is ALREADY BANKED
+  (B107/K007/K010/B148 — verified at receipt), and its Phase 0 (the three
+  establishment items) is sized for the relay seat's lane on the owner's go.
+
+### Action items (Review 45)
+- [ ] R45-1: **the digest ledger opens as B1060** — fixed denominator, every cloud row dispositioned, the digest gate enforcing non-empty dispositions (owner: cc)
+- [ ] R45-2: B1042's descent theorem → LAW_MAP row (owner: cc)
+- [ ] R45-3: B1043's superlinear law + h⁰(M;27) = 1 → LAW_MAP rows; the invariant-line identification registered as a lead (owner: cc)
+- [ ] R45-4: the sector-complete wall row (carried from R44; owner: cc)
+- [ ] R45-5: the census's 31 category calls — the independent check (D2; owner: cc)
+- [ ] R45-6: the Deligne–Milne reading gates any gerbe banking (carried; owner: cc3's lane)
+- [ ] R45-7: the ladder's four rungs on cc3's next sync (carried)
+- [ ] R45-8: the mechanical repairs, verify-against-main-first (carried)
+- [ ] R45-9: **B1024's three amendment controls — ESCALATED, two reviews stuck** (owner: cc)
+- [ ] R45-10: the δ_CP refresh wait-state (carried)
+- [ ] R45-11/12/13: the per-gate re-ask; the solo-seat residue; the R37 legacy triage (carried)
+- [ ] R45-14: **MEDITATION 2** — after this review banks, per the owner's cadence; its docket: the three-seat error profile, the four-arrivals convergence, the two manuals cross-read, the aperiodic direction if the owner elects it
+- [ ] R45-15: the epoch cell (the metadata lane's first cell — the convention question before any arc; qB1053's correctness upgrade read at digest)
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: `71f81f29` (the commission + alias fixes, the window's last bank)

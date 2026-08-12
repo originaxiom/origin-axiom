@@ -1,6 +1,14 @@
 # THE MASTERPLAN — APPROVED (2026-07-04; owner sign-off received)
 
 
+
+> ## STATE AT REVIEW 45 (2026-08-13) — the two-layer review form adopted
+>
+> Decisions D1–D3: non-merging seats review their own branches (the qor5up Review 1 commissioned);
+> main reviews the harvest at digest; integrate-don't-merge is now written policy. D4 (the
+> aperiodic direction) is the owner's. The digest campaign opens as B1060 under the adopted
+> protocol (renumber done; alias table permanent). Ledger: Review 45.
+
 > ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window
 >
 > Plan B1034–B1037 executed whole and banked (+B1035/B1038/B1039 en route); the seed–field frame registered, gauntleted to NO-BREACH, forbids repaired; the never-trust sweep corrected both seats (the sweeper-gets-swept practice is its residue). The masterplan's next sealed cells: FL-4 → the θ-leg → the triple. Ledger: `docs/progress/REVIEWS.md` Review 44.

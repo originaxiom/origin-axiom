@@ -1,6 +1,6 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-*As of Review 44 (2026-08-12): newest are L158 (V-owner), L159 (the gerbe question, reading-gated), L160 (the three cubes — one open leg); L157 amended (X4/X5).*
+*As of Review 45 (2026-08-13): L160 closed (B1041); the digest renumbers qL155–qL166 at B1060; main's next lead L161. Previous stamp: newest are L158 (V-owner), L159 (the gerbe question, reading-gated), L160 (the three cubes — one open leg); L157 amended (X4/X5).*
 
 A registry of **open leads**: directions named but not yet run, ranked by value and tractability. This is a
 *pointer file*, not a results file — nothing here is a claim, nothing promotes to `../CLAIMS.md`. Each lead is a

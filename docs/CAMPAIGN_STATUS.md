@@ -1,19 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-> **State at Review 44 (2026-08-12).** The odyssey/plan-execution/verification window:
-> the approved four-arc plan banked whole (L154 UNDECIDED-priced; the mirror-double's
-> multiplicity 5 = 2+2+1 with the dissolve's falsifier confirmed; the θ-join DISTINCT
-> with its wrong prior in the open; the census verified); **the antisymmetry wall is
-> sector-complete on the double** (solo · scalar/seam · V-valued — the coupling move
-> creates the classes and not the pairing), and the negative named the triple's arity;
-> the seed–field frame registered, adversarially processed to **NO-BREACH** (one forbid
-> SHARP, one UNTESTED with corrected scope, one PINNED before its number exists); the
-> owner-ordered never-trust sweep verified the whole odyssey and corrected both seats
-> (the sweeper-gets-swept practice is its residue); and the window's naming find:
-> the programme's central structure is a **non-neutral Tannakian category** — cited
-> zero times, reading-gated as a lead. Sealed next: the FL-4 cell (does the observer
-> construction consume the field's ℤ/3 or only its ℤ/2). Ledger:
-> `docs/progress/REVIEWS.md` Review 44.
+> **State at Review 45 (2026-08-13).** The four-arrivals window: the pattern campaign's three
+> computations banked in one day and converged with the Γ-ledger on a single shape — the field
+> builds, the object enters, the class carries. The cloud seat's window closed (30 arcs, the
+> record's best handoff); its Review 1 commissioned under the new two-layer form; the twenty-ID
+> collision permanently resolved. Three seats' error ledgers show one profile: zero mathematics.
+> Decisions: the two-layer review structure, the census check, integrate-don't-merge written as
+> policy; the aperiodic-crossing direction awaits the owner. Next: the digest (B1060), Meditation
+> 2. Ledger: `docs/progress/REVIEWS.md` Review 45.
 
 
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —

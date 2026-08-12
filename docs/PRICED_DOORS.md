@@ -1,6 +1,15 @@
 # The priced-doors campaign — every physics word, its price, and its computable next rung
 
 
+
+> ## STATE AT REVIEW 45 (2026-08-13)
+>
+> The factorisation reading is on the record (an SM value = a class invariant × a substrate
+> scale; we hold one factor by theorem and are blind to the other by theorem — B518/B1012, read
+> as one statement this window). Crossing doors reprice accordingly: menu-to-menu targets with
+> material-supplied scale are type-correct; continuum targets are not. The aperiodic door is
+> priced OWNER-PENDING with its three Phase-0 items named. Ledger: Review 45.
+
 > ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window
 >
 > No door repriced this window; the frame's forbid 3 is now PINNED (the triple's connecting-map yield ≥ 2/seam — a priced forbid, sealed before its number exists), and the FL-4 cell's outcomes are pre-priced in its drafted prereg (field-scoped vs object-carrying, the ledger reported as computed). Ledger: `docs/progress/REVIEWS.md` Review 44.
