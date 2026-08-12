@@ -10323,3 +10323,15 @@ forward FORBIDS registered (seam-locality; the morphism demand; monotone creatio
 L157-4 new). B701 resolved: = B700 phase 2, sealed 0eb5026b, no directory of its own —
 the dir-less arc ID named as a retrieval hazard; the citation form fixed. The odyssey
 acknowledged in the relay channel with the forbids supplied pre-pass.
+
+## 2026-08-12 — Task C Phase 0a accepted: the cosmogony's modality corrected; the block-count theorem harvested
+
+The audit seat's query (owner-directed ask-first) verified and accepted, option 1: the
+register's own S034/B161 forbid "cannot cancel" (the locus is attained, non-generic —
+the retired overreach); the entry now reads "generically does not / distance one at the
+object's point", cites both, splits minimality out of the [MATH] cell (A6, read-not-
+banked), and inherits N5 — WHICH IMPROVED THE FRAME: seed-selection moved from the
+generic property to the field's banked door (B997/B1019), the frame's own thesis one
+level earlier. The block-count theorem's reasoning (branch-only until now) is preserved
+on main as a LAW_MAP row with its confirmed falsifier. The F1–F3 forbid-dependency
+check remains the audit seat's sealed Task C question.

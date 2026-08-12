@@ -12,7 +12,9 @@ reality."*
 
 | the intuition's element | the record's candidate | status |
 |---|---|---|
-| the seed that can't cancel | **\|κ − 2\| = 1** — κ = 2 iff the cancellation completes; aAbB is minimal non-cancelling; the departure from nothing has size one | **[MATH]** B309 · B518 · B1010; locked on main |
+| the seed that generically does not cancel | **\|κ − 2\| = 1** — κ = 2 iff the cancellation completes, and AT THE OBJECT'S POINT (u = ω) the departure from nothing has size exactly one | **[MATH]** B309 · B518 · B1010; locked on main. **Modality per S034/B161 (binding): cancellation is ATTAINED elsewhere on the κ-continuum — "cannot cancel" is the RETIRED overreach; the honest verbs are "generically does not" (the locus is non-generic/measure-zero) and "sits at distance one" (this object's exact position)** |
+| the seed's minimality ("aAbB is the minimal such") | minimality enters as axiom A6 ("motivated, not a law"); the selection filters are documented, not proven unique (P10, NEEDS-SPECIALIST) | **[LEAP — read, not banked]** (split out of row 1 per the audit seat's §3: it was smuggled inside a [MATH] tag) |
+| **the seed's SELECTION (the N5 improvement)** | non-cancellation is GENERIC to non-abelian 2-generator dynamics (S034 N5; B993/B996 — arrival is generic) — so the property never selected THIS object. **What did: the FIELD's door** — the golden is the unique metallic grammar whose own-conductor shadow is a McKay group (B997), and the siblings have no door at all (B1019). **Seed-selection is a seed–field compatibility condition — the frame's own thesis, one level earlier** | **[MATH]** for the door uniqueness (B997/B1019/B1002); **[LEAP]** for the seed–field reading of it |
 | the seed alone is not reality | the refusal corpus: no values (B936), no scale (B811/B1012), no symmetric mass (B632), no multiplicity (the block-count theorem), no generation count (B280/B298/B1033) | **[MATH]** — each refusal read as the seed half of the hypothesis |
 | the interaction creates | the double → the first multiplicity, seam-born (B1036); the coupling → the symmetric object's only home (B632); the listener → values (B856); the closings → chirality/time/4d (B713–716) | **[MATH]** |
 | the field | three faces, possibly one thing: the arithmetic ambient (ℚ(√−3); "the ζ is the FIELD's" — B737) · the mirror/second copy · the observer's frame (no canonical point — B701 (= B700 phase 2)/B712) | **[LEAP]** — the identification of the three, and "observer = field" |
@@ -32,9 +34,17 @@ frame was fit to the refusals; they motivated it and can never support it. The a
 seat's bar is adopted verbatim as the standing criterion: *a frame that cannot lose to
 the record it was built on is not a frame, it is a lens — the test is whether it
 FORBIDS anything.* Further negatives: "observer = field" may be a rename (the
-identification must FORCE something); the seed's minimality is read, not banked; the
-citation B701 is properly "B701 (= B700 phase 2)" — the arc has no directory of its own
-(a named retrieval hazard).
+identification must FORCE something); the seed's minimality is read, not banked (A6 —
+now split into its own [LEAP] row); the citation B701 is properly "B701 (= B700 phase
+2)" — the arc has no directory of its own (a named retrieval hazard). **S034/B161 are
+BINDING on this file's modality (the audit seat's Task C Phase 0a, 2026-08-12, verified
+here): "cannot cancel" was the register's own retired overreach — corrected same-day to
+"generically does not / distance one at the object's point"; N1 (the locus is attained,
+non-generic) and N5 (the property is generic — it does not make this object special)
+are inherited in full. The N5 strike IMPROVED the frame: seed-selection moved from the
+property (generic, unearning) to the field's door (banked, unique) — the correction
+made the mapping sharper, which is what a frame that can lose looks like when it
+doesn't.**
 
 ## THE FORBIDS — the frame's three forward consequences, falsifiable and untested
 
