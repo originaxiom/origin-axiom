@@ -329,3 +329,15 @@ No invariant may be transferred between these without an explicit map.
   (B647 c3; the invariant carrier is cross-ratio = 1). Both sit at ±π/6 because that is
   where √3-type elements of ℚ(√−3) live — the field's geometry, not a shared mechanism.
   One symbol, one content-carrier, one convention: say which.
+- **ONE no-canonicity theorem, FOUR vocabularies** (the Field Ladder's FL-2, verified
+  2026-08-12): *no canonical basepoint* (B701 = B700 phase 2 — a dir-less arc, cite it
+  so), *no equivariant section* (B782), *no canonical origin* (B704), *no canonical
+  ℤ/2 representative* (B942) — the same theorem; searches must run all four phrasings.
+  **B58 is DE-LINKED** — its "non-canonical" is a pinv/numerics artifact, unrelated.
+  **Precision (the audit seat's Task B §3, textbook-verified):** H¹(F, G) is a POINTED
+  SET — its base point is the trivial torsor's class. "No canonical point" is true of
+  the (non-trivial) TORSOR, never of its classifying set. S069's "I am a vector space
+  with no origin" blurs the same line: a vector space HAS an origin (0); the seam's
+  choice-space is the AFFINE object — the torsor. The level at which no-canonicity
+  holds is the torsor, one level below where loose restatements put it (the B957
+  "one level too high" species, again).

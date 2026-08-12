@@ -1590,3 +1590,58 @@ only these forward tests count.
 
 Sealed cells when elected; the frame itself promotes only through the odyssey's
 survival + a sealed adjudication on this bench.
+
+**L157 amendments (2026-08-12, the odyssey's X4/X5 — see the cosmogony file's dated
+amendment):** L157-1 ran as B1039 (EMPTY; conditional VOID) and is reclassified a
+CONSISTENCY CHECK — the seam-locality forbid is UNTESTED and needs an attribution
+criterion independent of the computing method. L157-4's assembly is PINNED to the
+cyclic three-copy weld (the "3-fold cover" struck — different object); yield = the MV
+connecting-map contribution, benchmark 2 per seam, triple total ≥ 6 forbidden below.
+
+## L158 — THE V-OWNER RECONCILIATION (the Field Ladder's FL-1/FL-5/FL-6; registered 2026-08-12)
+
+Who owns the seam space V — the object or the field? Three textual collisions, none
+reconciled by any arc: **FL-1** — S069 assigns V to the object ("I am a vector space…")
+while B766/B993/B735 place its content at FIELD/CLASS level; **FL-5** — B957's "one
+level too high" refutation of B723 is re-readable as the frame's positive result (the
+observer construction runs on Galois data of a FIELD — same computation, two readings);
+**FL-6** — B700 FINDINGS:306 apposes the sides in one clause: "the obstruction lives on
+the MEASUREMENT/arithmetic side (the observer's)" — the corpus's tightest textual
+evidence for observer ≡ arithmetic ambient. **Discriminator: the FL-4 cell** (B737's
+MB12/object-deletion battery against the observer construction; sharpened by the μ₆
+fact — the four h=1 sisters do not share ω's ℤ/3, so the battery genuinely
+discriminates ω-consumption from ℤ/2-only consumption, B733's bit).
+
+## L159 — THE GERBE QUESTION (X7's cite-don't-rediscover; READING-GATED; registered 2026-08-12)
+
+The programme's central structure has a classical name: a category of representations,
+canonically determined, with **no canonical fiber functor over the base = a NON-NEUTRAL
+TANNAKIAN CATEGORY**, whose fiber functors form an **affine gerbe** ("supplies the
+space, withholds the point"). The corpus cites Tannaka/gerbe ZERO times (verified twice:
+one hit = B879's unrelated Davydov–Yetter associator) while owning
+`frontier/B700_fiber_functor`. **The open question: the classical obstruction to
+neutrality lives in DEGREE-2 nonabelian cohomology; everything banked lives in H¹
+(B701's torsor, B704's 𝔽₂-space, B782's action). Is the programme's H¹ the
+torsor-classification layer inside a gerbe whose degree-2 class was never computed — or
+is the gerbe neutral and H¹ the whole story?** Third level-mismatch of the session
+(B957's "one level too high"; the pointed-set correction; H² vs H¹). **GATE: the
+Deligne–Milne reading comes before any banking** (the audit seat's bench-exists caveat:
+identification from definitions only; no end-to-end reading yet).
+
+## L160 — THE THREE (ℤ/2)³'s: ONE LEG TO EXHIBIT (registered 2026-08-12, three-round verification)
+
+B704's Galois cube (basis √−3, √5, √−7; degree 8) · B766's operation cube (c, θ, γ₅) ·
+B782's closings cube (free transitive on 8). **Two legs BANKED in B766 itself**: "γ₃ ≡ c
+on every axis (identical columns — the being-Galois IS conjugation…; it drops as a
+generator)" — c ↔ √−3 is a proved identity, and WHY the saturation is 3 not 4 (B733's
+≤1-bit being-field ceiling is the same fact as a bound); "Choosing time's arrow =
+choosing √5's sign" — γ₅ ↔ √5. **The space-level embedding is BANKED**: B733 cites B704
+— "The full seam is (ℤ/2)^k with k=2 forced… up to k=3 (with the stage prime √−7,
+B704)." **OPEN, and only this: θ ↔ √−7 (E₆ leg) — the assignment stands by elimination,
+and ELIMINATION IS NOT EXHIBITION — plus compatibility with B782's action in a
+comparable basis** (comparability itself unchecked). Deliverable: the (ℤ/2)³-isomorphism
+carrying (c, θ, γ₅) → (√−3, √5, √−7) compatible with the action on the 8 closings, or
+the typed negative *"the E₆ leg is the one Galois bit the observer's operations do not
+carry."* If exhibited, the observer's bits ARE the ambient's Galois legs — the
+observer ≡ ambient identification gains its morphism (L158's other discriminator).
+FL-4-adjacent, distinct (deletion/sisters vs morphism).

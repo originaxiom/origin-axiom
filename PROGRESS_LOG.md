@@ -10343,3 +10343,17 @@ pairs, all zero, functional-read, control PASS. Sector-complete: solo + scalar/s
 V-valued. The seam-locality forbid untested (void conditional; the creation-verb scoped:
 classes yes, pairing no). Recorded for L157-4's seal: the 3-slot cubic vs the 2-body
 assemblies — the triple is the object's natural arity. Locks: tests/test_b1039_residual.py.
+
+## 2026-08-12 — the odyssey's harvest: verification, repairs, three leads
+
+The never-trust sweep (owner-ordered) verified the audit seat's full odyssey: 11/11
+ladder quotes, 5/5 Task B anchors, the Task C seal hash, both decoy refuters — all
+verbatim-true on main. Repairs: B1039's X4 addendum (consistency check; seam-locality
+forbid UNTESTED); the cosmogony's F3 pins (cyclic three-copy weld; MV connecting-map
+yield ≥ 2/seam — sealed before any triple number). Leads L158 (V-owner), L159 (the
+non-neutral-Tannakian/gerbe naming + the degree-2 question, reading-gated), L160 (the
+three (ℤ/2)³ cubes — one open leg: θ ↔ √−7 + B782 compatibility; the rest banked in
+B766/B733, the bridge citation found one line below both seats' cutoff). TERMINOLOGY
+FL-2 row + pointed-set precision; PRACTICES ×3 (staleness, decoy control, the sweeper
+gets swept). Ladder misses: B1034 rung, B533's five coupling fingerprints, the
+ethogram — accepted. X7 restored after falling off the owed ledger. NO-BREACH stands.

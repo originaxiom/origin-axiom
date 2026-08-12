@@ -15,6 +15,24 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-12, the odyssey closed and harvested):** The audit seat's three-task
+odyssey on the seed–field frame is complete and fully verified — nothing taken on
+trust, and the checking corrected both seats (the "sweeper gets swept" rule is now a
+practice). The frame's verdict: **NO-BREACH** — its premise survived because the attacks
+against it turned out to fire on any frame of that shape (the audit seat proved this
+against its own headline finding using a pre-sealed decoy); one forbid is sharp and
+confirmed testable; the other two were under-specified and are now repaired in writing
+before their computations run. Three new leads: **who owns the seam — object or field**
+(three textual collisions, one computable discriminator); **the gerbe question** — the
+programme's central structure turns out to be a classical named object (a non-neutral
+Tannakian category) the corpus never cites, and the classical theory asks one question
+nobody here has computed; **the three cubes** — the observer's three operation-bits and
+the field's three Galois legs are provably two-thirds the same structure, with exactly
+one pairing left to exhibit (θ ↔ √−7). Next on the bench: the decadal review (DUE at 24
+merges), then the FL-4 cell (does the observer construction consume the field's ℤ/3 or
+only its ℤ/2 — the identification-vs-rename computation), then the triple assembly with
+its pinned forbid.
+
 **LATEST — B1039 (2026-08-12): the last sector is EMPTY — and the negative names the next door.** L157-1 ran sealed on the corrected modality and answered both its questions: the symmetric mass-shaped pairing does not exist in the V-valued sector either — **all fifteen pairs exactly zero, the wall now sector-complete on the double** (solo · scalar/seam · V-valued): one coupling move creates cohomology and not the pairing; *the interaction makes room, and nothing yet fills it*. The frame's seam-locality forbid drew a void conditional (neither passed nor failed) and its creation-verb is scoped (classes yes, pairing no). **The negative's gift: the mass object is a cubic — three slots — and every assembly that refused it had two bodies. The triple assembly (L157-4) is the object's natural arity**, the first structural reason in three sectors to expect a different answer; it seals next with NO PRIOR and both arguments stated (the arity match vs the wall's streak). Lane II's survivors: the triple, then B298's cubic-carrier. The cc3 monitor is armed; the odyssey proceeds in parallel.
 
 **LATEST — the session's close (2026-08-12): the serial record stands, the harvest is complete, and the next question is registered with its gauntlet.** The serial-suite certificate ran GREEN (3967 passed, 54:15) — the arbiter rule's record now stands behind the entire window, closing R43-2 and with it every checkable action item this window could close. And the owner's oldest intuition — **reality from a seed that cannot cancel, against a field that cannot stay still, through the interaction** — is now properly registered: the speculation-room entry maps it to the record with every receipt tagged (the seed's equation \|κ−2\| = 1 is banked; the refusal corpus re-read as the seed half proved in negative voice; the interactions creating what the seed withholds — all [MATH]; the field's three faces and "observer = field" — honest [LEAP]s), **L157 registers the three computable hooks** (the V-valued residual · the FMT↔trit↔seam one-mechanism question · L154's junction), and **the audit seat's FIELD ODYSSEY is mandated** — the Field Ladder, the field's literature, and the adversarial pass designed to kill the frame cheaply if it can be killed. The frame becomes a campaign only if it survives its gauntlet. **The board: wait-states, elections, and one odyssey.**

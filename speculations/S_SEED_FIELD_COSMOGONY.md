@@ -63,3 +63,32 @@ doesn't.**
 If any forbid fails, the frame loses the corresponding verb and says so. The odyssey
 (the audit seat's three-task mandate) is the frame's adversarial gauntlet — a campaign
 only if it survives BOTH the gauntlet and the forbids' computations.
+
+## AMENDMENT 2026-08-12 — the odyssey's X4/X5 repairs (both grades accepted; pinned BEFORE any triple number exists)
+
+**On forbid 1 (X4, K2):** the MV machinery's seam/bulk split is a construction of the
+method — by exactness, "structure not attributable to the seam" is unreachable in any
+MV computation (see `frontier/B1039_v_valued_residual/ADDENDUM_2026-08-12.md`). So:
+B1039 was a CONSISTENCY CHECK, its conditional was VOID (support EMPTY), and **forbid 1
+is UNTESTED**. Corrected scope, adopted verbatim from the audit seat: *"F1 is a test
+only for invariants whose seam/bulk decomposition is not a construction of the method
+used to compute them."*
+
+**On forbid 3 (X5, K2) — the two pins, sealed here by writing:**
+
+- **The assembly is NAMED: the cyclic three-copy weld M₁–M₂–M₃–M₁, three gluing tori.**
+  The phrase "3-fold cover /" in forbid 3 is STRUCK — a 3-fold cyclic cover is a
+  different object with a different interface structure and no shared seam count; if
+  ever run, it is a separate optional cell, not this forbid's referent.
+- **The yield is DEFINED operationally: the MV connecting-map contribution** — the
+  dimension of coker(⊕H⁰(Mᵢ) → ⊕H⁰(Tⱼ)) as B1036/B1039's code computes it. Benchmark:
+  the double's contribution is 2 across its 1 seam. **Forbid 3's sealed form: the
+  triple's total connecting contribution must be ≥ 2 per seam (total ≥ 6). FORBIDDEN:
+  any reading selected after the triple's numbers exist.** This pin is chosen from the
+  double's already-public numbers only; the triple's numbers do not exist at this
+  writing. (The audit seat deliberately proposed no reading; the choice is the banking
+  seat's, recorded here before L157-4's seal.)
+
+*Yield attribution note: X4's charge does not void this pin — the CONNECTING-MAP
+DIMENSION is a well-defined count regardless of what one calls its classes; forbid 3
+gates on the number, not on the "seam-born" label.*

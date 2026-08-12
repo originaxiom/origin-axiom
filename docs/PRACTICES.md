@@ -636,3 +636,27 @@ the honest adjudication question is "does the claim line assert something the ar
 body explicitly refuses" — never "is there a fence somewhere in the body."** The fresh
 held-out slice (B101 B109 B111 B120 B125 B126 B139 B145 B148 B158) is reserved — named
 by the instrument's author, who must not adjudicate it.
+
+Instrument staleness (2026-08-12, from the Field Ladder's verification): an instrument
+built on a branch — a ladder, census, or atlas — sees main only as of its last sync.
+**Date-stamp the sync in the instrument's header, and read every absence it reports as
+"absent as of that sync."** Species instance: B1034 (banked on main days earlier) was
+invisible to the Field Ladder; the miss was structural, not a search failure.
+
+The decoy control (2026-08-12, the odyssey's Task C — its methodological keeper):
+premise-level attacks on a registered frame carry evidential weight only against a
+sealed decoy null. The audit seat pre-committed a deliberately-wrong premise swap,
+sealed the reading "≥ 2 decoy refuters ⇒ K0", and its own headline finding — the S034
+modality strike — demoted itself to VACUOUS when the corpus handed the decoy the same
+refuters ("found it the way a metal detector finds the beach"). **Pre-commit the decoy
+BEFORE the sweep; an attack that fires on a frame built to be wrong says nothing about
+the frame under test.**
+
+The sweeper gets swept (2026-08-12, the odyssey's coda; the audit seat's adopted
+phrasing): a claim from a trusted seat, amplified because it was well-put, is the
+failure species no synonym set catches — **verify-don't-trust binds to the PREMISE
+regardless of who supplied it.** Species instance, both directions in one thread: the
+banking seat's two-field compositum line (dropped the √−7 leg; B704 banks three) was
+amplified unchecked by the audit seat as "the most valuable single line"; caught only
+when the B704 grep ran. Twin species: window-read-as-whole struck twice in the same
+thread (both seats truncated B733 one line above its explicit B704 bridge citation).

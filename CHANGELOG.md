@@ -1,5 +1,29 @@
 # Changelog
 
+## The odyssey's harvest (2026-08-12) — verification closed, two forbids repaired by writing, three leads registered, and the record corrects both seats
+
+The owner-ordered never-trust sweep over the audit seat's odyssey (Tasks C, A, B + X7)
+closed with every load-bearing quote, seal hash, and decoy-refuter verified against
+main. Repairs banked here: **B1039 reclassified by addendum** (X4: the MV seam/bulk
+split is the method's own construction — the arc is a CONSISTENCY CHECK; the
+seam-locality forbid is UNTESTED); **the cosmogony's forbid 3 pinned before any triple
+number exists** (X5: assembly = the cyclic three-copy weld, the 3-fold cover struck;
+yield = the MV connecting-map contribution, ≥ 2 per seam, total ≥ 6). Registered:
+**L158** (the V-owner reconciliation, FL-1/5/6, discriminated by the FL-4 cell with
+Task B's μ₆ sharpening); **L159** (X7's cite-don't-rediscover: the programme's central
+structure is a NON-NEUTRAL TANNAKIAN CATEGORY / affine gerbe, cited zero times by a
+corpus owning `B700_fiber_functor`; the degree-2 neutrality question — reading-gated);
+**L160** (the three (ℤ/2)³'s: two legs proved in B766 itself (γ₃ ≡ c; γ₅ = √5's sign),
+the space-level embedding banked one line below both seats' quote cutoff (B733 cites
+B704, k up to 3 with √−7) — open only at θ ↔ √−7 + B782-compatibility). TERMINOLOGY:
+the FL-2 four-vocabulary row + the pointed-set precision (H¹ is pointed; the torsor is
+the affine object). PRACTICES: instrument staleness · the decoy control ("a metal
+detector finds the beach") · the sweeper gets swept (the compositum undersell, both
+directions in one thread). The ladder's three misses (B1034/L154; B533's five
+fingerprints; the ethogram) accepted by the audit seat; X7 restored to its ledger after
+silently falling off. Task C's verdict: **NO-BREACH** (X1 K0-vacuous by decoy; F2 SHARP
+twice-run; X4/X5 K2 accepted and repaired above).
+
 ## B1039 (2026-08-12) — the V-valued sector is EMPTY: the wall is sector-complete on the double, and the negative names the next door
 
 L157-1 ran sealed (prior: existence lean NO — HELD): **all fifteen symmetric pairs of
