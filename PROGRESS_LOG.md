@@ -10419,3 +10419,5 @@ The descent-diagram resolution of P5; P6 x4 levels; P2 generative; the five-clas
 withholding taxonomy; P3 across three strata; the 42-error economic reading; the
 aperiodic Phase-0 reordered control-first. Rank: PM-II-1 invariant line → taxonomy
 → meta-row → digest B1060 → arity cell → aperiodic (owner-gated). Verified same-day.
+
+## 2026-08-13 — PM-II-1 dissolved: the invariant line IS the forced VEV (B632's own construction); B1043 addendum banks the identification + the assertion-invisibility species

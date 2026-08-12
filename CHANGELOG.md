@@ -1,5 +1,16 @@
 # Changelog
 
+## The invariant line identified (2026-08-13, B1043 addendum) — it is the forced VEV, definitionally, and the cell dissolved before sealing
+
+Meditation 2's first-ranked cell answered itself at the MB12 check: B632's forced
+VEV is CONSTRUCTED as the joint π₁-fixed space of the 27 (`fix`, asserted 1-dim,
+sl₂-invariant) — the identification is banked by construction and always was. The
+genuinely new sentence: **the one input-direction the claim prices enters the
+algebra along the object's only fixed vector** — the door-structure at the level of
+a single vector. The species note: a load-bearing fact lived six weeks as a code
+assertion, invisible to FINDINGS-level retrieval — the cite-don't-rediscover
+instrument catching its own bench; a PRACTICES candidate for the digest window.
+
 ## MEDITATION 2 (2026-08-13) — the post-campaign reading: the split was a descent diagram, the errors are economic, and the withholding taxonomy is writable
 
 Per the owner's cadence (R45-14), banked verified same-day: **P5 resolved — the
