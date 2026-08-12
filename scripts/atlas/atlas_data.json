@@ -1665,6 +1665,46 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1051": {
+   "slug": "the band closed",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic",
+    "apolynomial",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B0",
+    "B27",
+    "B33",
+    "B485",
+    "B55",
+    "B57",
+    "B59",
+    "B60",
+    "B61",
+    "B63",
+    "B69",
+    "B70",
+    "B76",
+    "B77",
+    "B83",
+    "B876",
+    "B99",
+    "L165"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B105": {
    "slug": "n5 wall and convergence",
    "motifs": [

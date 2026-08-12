@@ -1,0 +1,214 @@
+{
+ "checks": {
+  "the_half_step_eigenvalues_are_phi_and_minus_one_over_phi": {
+   "pass": true
+  },
+  "Sym3_plus_Sym2_plus_trivial_has_dimension_EIGHT": {
+   "pass": true
+  },
+  "B27_states_that_factorisation": {
+   "pass": true
+  },
+  "B27s_SL3_Jacobian_charpoly_IS_the_Sym_decomposition__SYMBOLICALLY": {
+   "pass": true
+  },
+  "...and_the_A_sector_t2_minus_3t_plus_1_is_a_factor__the_golden_charpoly": {
+   "pass": true
+  },
+  "B33_the_sibling_already_cited_on_the_tower_row_states_the_same": {
+   "pass": true
+  },
+  "B77_states_the_matrix_form": {
+   "pass": true
+  },
+  "B83_states_the_curve_form": {
+   "pass": true
+  },
+  "B83_ITSELF_calls_it_the_peripheral_eigenvalue_shadow_of_that_law": {
+   "pass": true
+  },
+  "the_two_agree_member_by_member_on_the_computed_ranks": {
+   "pass": true
+  },
+  "and_the_sign_matches_minus_one_to_the_n_minus_one": {
+   "pass": true
+  },
+  "B83_is_NUMERICAL_tier_by_its_own_status_line": {
+   "pass": true
+  },
+  "the_tower_fingerprint_now_reaches_B27": {
+   "pass": true
+  },
+  "the_metallic_fingerprint_now_reaches_B76": {
+   "pass": true
+  },
+  "the_metallic_fingerprint_now_reaches_B83": {
+   "pass": true
+  },
+  "and_the_six_FALSE_positives_the_first_widening_produced_are_gone": {
+   "pass": true
+  },
+  "the_widening_is_recorded_as_a_NEW_miss_mode_in_the_source": {
+   "pass": true
+  },
+  "the_sweep_is_clean": {
+   "pass": true
+  },
+  "B63_the_claimed_factorisation_has_degree_15_which_is_dim_sl4": {
+   "pass": true
+  },
+  "the_Dickson_traces_L_k_equal_tr(M^k)": {
+   "pass": true
+  },
+  "B63_states_L_k_equals_tr_M_k_and_m_INDEPENDENT_structure": {
+   "pass": true
+  },
+  "B55_the_antisymmetric_sector_is_universal": {
+   "pass": true
+  },
+  "B55_the_symmetric_sector_is_mod_4_and_CORRECTS_the_earlier_reading": {
+   "pass": true
+  },
+  "Phi6_and_Phi4_are_the_cyclotomics_B55_names": {
+   "pass": true
+  },
+  "B57_c_equals_1_splits_for_every_m": {
+   "pass": true
+  },
+  "B57_c_equals_3_splits_for_every_m": {
+   "pass": true
+  },
+  "CROSS_LINK__B57s_c3_second_factor_is_B63s_DICKSON_TRACE_L3": {
+   "pass": true
+  },
+  "B57_KILLS_the_class_number_coincidence": {
+   "pass": true
+  },
+  "B70_the_obstruction_is_a_SINGLE_rank_1_bilinear_coupling": {
+   "pass": true
+  },
+  "B70_the_coupling_form_is_EXACTLY_the_e2_coordinate": {
+   "pass": true
+  },
+  "B70_is_robust_across_SL4_and_SL5": {
+   "pass": true
+  },
+  "B70_the_e2_Hessian_identity_is_the_one_the_probe_confirms": {
+   "pass": true
+  },
+  "the_row_records_the_REGENERATION_not_a_carry": {
+   "pass": true
+  },
+  "B70_RIDER__the_(3,3)_bound_rests_on_the_UNIPOTENT_object_not_the_generic_series": {
+   "pass": true
+  },
+  "B70_RIDER__the_generic_object_grows_UNBOUNDED": {
+   "pass": true
+  },
+  "B76_the_quantum_integer_identity_2cos_pi_over_k_equals_2_q": {
+   "pass": true,
+   "k_range": "3..8"
+  },
+  "B76_q_is_a_primitive_2k_th_root_of_unity": {
+   "pass": true
+  },
+  "B69s_cusp_k_set_is_k_in_3_to_m_plus_2_with_k_congruent_m_mod_2": {
+   "pass": true,
+   "ksets": {
+    "1": [
+     3
+    ],
+    "2": [
+     4
+    ],
+    "3": [
+     3,
+     5
+    ],
+    "4": [
+     4,
+     6
+    ],
+    "5": [
+     3,
+     5,
+     7
+    ],
+    "6": [
+     4,
+     6,
+     8
+    ]
+   }
+  },
+  "B76_declares_the_categorical_reading_SPECULATIVE_ANALOGY": {
+   "pass": true
+  },
+  "E1_COLLISION__B76s_cusp_k_is_NOT_B1039s_peripheral_exponent_k": {
+   "pass": true
+  },
+  "B61_says_of_ITSELF_high_precision_numerics_not_a_proof": {
+   "pass": true
+  },
+  "B61_leaves_2_of_24_modes_UNSETTLED": {
+   "pass": true
+  },
+  "B61_shows_B60s_SL5_conditioning_WALL_was_a_COORDINATE_DEFECT": {
+   "pass": true
+  },
+  "B60_is_the_arc_that_reported_that_wall": {
+   "pass": true
+  },
+  "B59_and_B60_are_STALLED_or_empirical_by_their_own_tokens": {
+   "pass": true
+  },
+  "row_present__fixed": {
+   "pass": true,
+   "tag": "THE METALLIC FIXED LINE IS DICKSON"
+  },
+  "row_present__obstruction": {
+   "pass": true,
+   "tag": "THE TWO-BLOCK OBSTRUCTION IS RANK-1"
+  },
+  "row_present__k_set": {
+   "pass": true,
+   "tag": "THE CUSP k-SET IS THE QUANTUM-GROUP LEVEL SET"
+  },
+  "the_Dickson_row_carries_B55s_own_CORRECTION": {
+   "pass": true
+  },
+  "the_rank1_row_carries_the_UNIPOTENT_rider": {
+   "pass": true
+  },
+  "the_cusp_row_carries_the_SPECULATIVE_fence_and_the_k_collision": {
+   "pass": true
+  },
+  "B27_is_now_CITED_on_the_tower_row": {
+   "pass": true
+  },
+  "B83_is_now_CITED_on_the_metallic_row": {
+   "pass": true
+  },
+  "the_row_lookup_is_UNAMBIGUOUS_for_every_tag_used_here": {
+   "pass": true
+  },
+  "the_ledger_closes_the_band": {
+   "pass": true
+  },
+  "and_carries_B61s_correction_of_B60_out_of_the_decline": {
+   "pass": true
+  },
+  "nothing_from_the_band_reached_CLAIMS_md": {
+   "pass": true
+  }
+ },
+ "answer": {
+  "the_sharpest_result": "Two of the ten rows are the SAME LAW as rows already on LAW_MAP, and `law-siblings` could see neither. B27's SL(3) Jacobian characteristic polynomial IS the charpoly of Sym³ ⊕ Sym² ⊕ trivial of the half-step eigenvalues — verified symbolically, polynomial against polynomial — which is B1038's tower law at SL(3). And B83's L = (−1)^{n−1}Mⁿ is B77's [A,B] = (−1)^{n−1}μⁿ, already cited on the metallic row, in A-polynomial language; B83 itself calls it 'the peripheral eigenvalue shadow' of that law.",
+  "a_new_miss_mode": "Distinct from both the registry records. B485 was ONE LAW IN TWO VOCABULARIES (Alexander vs characteristic polynomial); B876 was TWO LAWS IN ONE VOCABULARY (annihilator). These are ONE LAW AT A DIFFERENT OBJECT — the fingerprint is written in the restored arc's own words, so a sibling stating the same law about a different thing (a plane curve rather than a matrix identity, a rank-3 lift rather than a Sym band) escapes it.",
+  "the_widening_overshot_first": "Adding bare `A-polynomial|Dehn-filling` surfaced NINE candidates, six of them false — that vocabulary is ambient in this corpus, not this law's signature. Narrowed to the law's SHAPE (the signed power form, and the specific `cusp k-set`) and TESTED IN BOTH DIRECTIONS: both true positives survive, all six false positives drop. Recorded rather than quietly fixed, because narrowing after seeing results is exactly how E38 begins — the difference is that this narrowing removes false positives rather than making a failing check pass.",
+  "the_fixed_line_is_dickson": "B55 · B57 · B63 are one thread, and this arc found the link: B57's universal c=3 splitting is (t²+mt−1)(t²−L₃(m)t−1) where L₃(m) = m³+3m = tr(M³) — B63's Dickson trace. B55 fixes the c=1 sector for ALL m (symmetric mod 4: Φ₆ / Φ₄ / parabolic at m ≡ 0, CORRECTING the earlier 'odd → Φ₆, even → Φ₄' reading; antisymmetric universally (t−1)(t+1)(t²−mt−1)); B63 factors the SL(4) fixed line over ℤ[m] into Dickson char(Mᵏ) factors whose M-power set, sign sector and parity block are m-INDEPENDENT, total degree 15 = dim sl(4).",
+  "the_rank_1_barrier": "B70 sharpens the trace-ring barrier from qualitative to rank-1: the entire non-separable content of the two-block word tr(AᵃBAᵇB) is the single bilinear a·b·tr(X²), pinned exactly to the e₂ = tr(Λ²A) coordinate. THE RIDER TRAVELS: B70 corrects itself — the bidegree (3,3) closure bound rests on the UNIPOTENT fixed-line object, and on the generic ε-series the content GROWS UNBOUNDED.",
+  "the_declines": "B59, B60, B61 — B61's own words are 'high-precision numerics, not a proof' with 2 of 24 modes unsettled. AND ONE CORRECTION SURVIVES THE DECLINE: B61 shows B60's 'SL(5) conditioning wall' was a RANK-DEFICIENT COORDINATE SET, not a precision limit — a phantom wall. Declining B60 silently would have left it on the record."
+ },
+ "all_pass": true
+}

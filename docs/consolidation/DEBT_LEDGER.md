@@ -778,3 +778,39 @@ unchanged), but **a reader tracing B16 from `LAW_MAP` meets `verdict: PROVED` ov
 the last two phases; a third would be the `E34` apparatus-inflation this refresh already recorded
 against itself), and **repairing the metadata would change what every downstream sweep counts —
 including this ledger's own `PROVED` filter — which makes it an owner call.**
+
+
+### §B0–B99 — CLOSED (2026-08-12, B1051): the other ten rows
+
+B1050 restored the wall. These are the remaining ten, and **the sharpest result is not a restoration
+at all — two of them are the SAME LAW as rows already on `LAW_MAP`, and `law-siblings` could see
+neither.**
+
+| rows | disposition |
+|---|---|
+| **B27** | **SAME-LAW SIBLING of the tower row (B1038) — cited there, not restored.** Its stated SL(3) Jacobian characteristic polynomial `(t−1)(t+1)(t²−4t−1)(t²−3t+1)(t²+t−1)` **IS**, verified symbolically, the charpoly of `Sym³ ⊕ Sym² ⊕ trivial` of the half-step eigenvalues `{φ, −1/φ}`. |
+| **B83** | **SAME-LAW SIBLING of the metallic exponent row (B1039) — cited there.** B77's `[A,B] = (−1)^{n−1}µⁿ` is already on that row; B83's `L = (−1)^{n−1}Mⁿ` is, in its own words, *"the peripheral eigenvalue shadow"* of it. **Tier stated: high-precision NUMERICAL.** |
+| **B55 · B57 · B63** | **RESTORED as one row — *THE METALLIC FIXED LINE IS DICKSON, EXACTLY, OVER ℤ[m]*.** B55's own correction travels (**mod 4**, not *"odd → Φ₆, even → Φ₄"*), and so does B57's kill of the class-number coincidence. |
+| **B70** | **RESTORED — *THE TWO-BLOCK OBSTRUCTION IS RANK-1*,** a bounded, named wall on B58's open trace-ring proof. **B70's rider against itself travels: the bidegree-(3,3) bound rests on the UNIPOTENT object; on the generic ε-series the content grows unbounded.** |
+| **B76** | **RESTORED — *THE CUSP k-SET IS THE QUANTUM-GROUP LEVEL SET*,** with the `SPECULATIVE-ANALOGY` fence on the categorical reading carried verbatim, and an **`E1` `k`-collision declared** (the cusp `k` is not the peripheral exponent `k`). |
+| **B59 · B60 · B61** | **DECLINE — SUBSUMED / TIER.** B59 is superseded in substance by B63's symbolic form; **B61's own words are *"high-precision numerics, not a proof"*** with 2 of 24 modes unresolved. |
+
+> ### One correction had to survive the decline, or the record keeps a phantom.
+> **B61 shows B60's *"SL(5) conditioning wall"* was never a wall** — the 24-word forward-only set is
+> **rank 23**, one genuine null direction, and double precision read it as a small-but-nonzero
+> singular value and reported `cond ~ 1e11`. ***"The barrier was a coordinate-system defect, not a
+> precision limit."*** Declining B60 silently would have left a **phantom wall** on the record.
+
+> ### The instrument's second, third and fourth misses — and a NEW miss mode
+> `law-siblings` reached none of B27, B76, B83. **This is a third mode**, distinct from the two the
+> registry records: B485 was *one law in two vocabularies*; B876 was *two laws in one vocabulary*;
+> these are **one law at a different OBJECT** — the fingerprint is written in the restored arc's own
+> words, so a sibling stating the same law about a plane curve rather than a matrix identity, or at
+> SL(3) rather than as `Sym` bands, escapes it. **And the first widening OVERSHOT** — bare
+> `A-polynomial|Dehn-filling` surfaced nine candidates, six false, because that vocabulary is ambient
+> in this corpus. Narrowed to the law's *shape* and **tested in both directions**.
+
+**The band, closed.** **16 rows = 6 restored as the wall (B1050) + 5 restored here + 2 retired as
+siblings + 3 declined.** Campaign **step 6 is satisfied for B0–B99** — the second band to reach it,
+and the first whose closure was measured against the bodies from the start. Measured with **B1050 and
+later excluded** (E37).

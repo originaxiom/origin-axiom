@@ -29,12 +29,25 @@ CURATED = ["docs/LAW_MAP.md", "docs/THE_FRAMEWORK.md", "docs/THEOREM_LEDGER.md",
 # an auto-extracted fingerprint would drift with the prose and silently stop matching, which is
 # the failure mode this instrument exists to prevent. Adding a restoration adds a row here.
 FINGERPRINTS = {
+    # WIDENED B1051, and the miss mode is NEW. B27's SL(3) Jacobian characteristic polynomial is
+    # IDENTICALLY the charpoly of Sym^3 + Sym^2 + trivial of the half-step eigenvalues -- verified
+    # symbolically, the same law B1038 restored, at SL(3). It escaped because the fingerprint was
+    # written in the RESTORED arc's vocabulary (rho_n, Sym^n bands) while B27 speaks of an
+    # "eight-dimensional SL(3) trace lift" and names its factors. Neither B485's mode (one law, two
+    # vocabularies) nor B876's (two laws, one vocabulary): this is ONE LAW AT A DIFFERENT RANK.
     "the tower (B1038)":
-        r"\brho_n\b|ρ_n|Sym\^n|two-sequence|trace-map Jacobian|stabilization recursion",
+        r"\brho_n\b|ρ_n|Sym\^n|two-sequence|trace-map Jacobian|stabilization recursion"
+        r"|trace lift|Jacobian characteristic|symmetric power|Sym\^[0-9]|half-step eigenvalue",
     "phi-fixed reducibility (B1039)":
         r"phi-fixed|φ-fixed|\bQ8\b|quaternion group|reducible tower|finiteness versus density",
+    # WIDENED B1051. B83 states the SAME signed law as B77 -- which is already cited on this row --
+    # in A-POLYNOMIAL language: "degree=rank is the matrix law [A,B]=(-1)^(n-1) mu^n ... its
+    # peripheral eigenvalue shadow is an A-polynomial", L = (-1)^(n-1) M^n. Same sign, same
+    # exponent, different object: a matrix identity versus a plane curve.
     "the metallic exponent (B1039)":
-        r"degree=rank|\[A,B\]\s*=\s*[+-]?\s*mu|meridian|metallic exponent|order-determined",
+        r"degree=rank|\[A,B\]\s*=\s*[+-]?\s*mu|meridian|metallic exponent|order-determined"
+        r"|cusp k-set|cusp-torsion|A-polynomial family"
+        r"|(?:L|lambda)\s*=\s*\(?[-+]?1?\)?\^?\{?\(?-?1\)?\}?\^?\{?n-?1\}?\s*M",
     # WIDENED B1045, on the instrument's first use against a new band. B485 states the SAME
     # polynomial as B1040's metallic degree -- Delta_m(a) = a^2-(m^2+2)a+1 is the char poly of
     # M_m^2, whose root is lambda_m^2 -- in ALEXANDER-POLYNOMIAL language, and NO fingerprint
