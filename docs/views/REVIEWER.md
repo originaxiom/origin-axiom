@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **962** |
-| words of findings prose | **647,753** |
-| test lock files referenced | **596** |
-| arcs carrying an authored verdict | **949** (98.6 %) |
+| research arcs with findings | **963** |
+| words of findings prose | **648,435** |
+| test lock files referenced | **597** |
+| arcs carrying an authored verdict | **950** (98.7 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 628 |
+| PROVED | 629 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1042`** (742 words, 1 locks)  
-PM3 / the trit morphism (sealed b8544786 pre-compute; exact Q(omega), the McKay graph COMPUTED not cited): JOINED -- the VEV-acceptance trit's Z/3 (B1030 #1, algebra-side) IS omega's Z/3 (mu_6, field-side) carried through exhibited functorial links: (1) 2T/Q8 = Z/3 with character values EXACTLY <omega> = mu_3 (49 orthogonality pairs exact); (2) tensoring by those characters IS the affine-E6 diagram's order-3 rotation fixing the center (the McKay graph built from A_ij = <chi2 chi_i, chi_j>); (3) center-deletion = su(3)^3 and the rotation permutes the three A2 factors in ONE 3-cycle = B897's banked factor rotation; upstream links banked (B1010 kappa-2=omega^2; the 2T->E6 spine; B1011). THE CONTROL DECIDES V3: SL(2,5) is PERFECT (computed, commutator = all 120) -- the golden end admits NO such characters, no rotation, no trit; the carry is discriminating, not generic; the B757 membership-accident shape is REFUTED, not avoided. Fences: B1030 sV4's 'unrelated' parenthetical UNTOUCHED for its own pair (#1-vs-#6, the counting floor -- nothing links the terminal count to omega); the FMT's S3 untouched; alternates placed (the trit is algebra-side by residence, FIELD-SIDE BY DESCENT; #3/#4 are not its home). Crossing consequence at type level: the price's third item ('one trit') has an arithmetic pedigree -- the trit is omega's shadow through McKay; the coupling's only Z/3 channel now has a field-side source. The cosmogony row '(omega, triality, the trit)' promotes [LEAP]->[MATH] per the sealed rule, that row only. L157-2 discharged (morphism demand MET for the trit column). V0 prior-art clean (B487 = DGG tensoring, B946 = belt labels -- different objects, recorded).  
-`B1042_trit_morphism/FINDINGS.md`
+**PROVED — `B1043`** (682 words, 1 locks)  
+PM2 / L157-4, the triple assembly (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups -- manifold cyclic welds of one-cusped pieces impossible, stated at seal; rho(t)=1 declared): h1(triple;27) = 10 = 7 connecting + 3 bulk. THE ENTRY GATE EARNED ITS KEEP: the first run HALTED on the script's h0(M)=0 shortcut -- the computation says h0(M;27) = 1 (the 27 carries an INVARIANT LINE under the solo group, a new banked fact; identification a lead candidate); with the sealed coker formula computed properly the double reproduces 5 = 2+3 and the gate passed. THE FORBID HOLDS, STRICTLY: F3 (>= 6, pinned pre-arc in the cosmogony amendment) gets 7 -- and the sealed DECOY D (>= 12, deliberately unbanked) FAILS, so the discrimination reading fires: the pass is INFORMATIVE, and R44-12 (the audit seat's decoy-forbid-control debt) is DISCHARGED at the first forbid-attacking pass as owed. THE CYCLE'S FINGERPRINT, typed: the triangle's difference pattern has rank 2 (kernel = diagonal), so the cyclic closure contributes EXACTLY h0(M) = 1 extra class beyond linear seam-scaling -- CREATION IS SUPERLINEAR, excess = b1(graph) x the invariant line; the frame forbade less-than-linear and the object answered more-than-linear-by-exactly-the-loop. W4 HALT-VOID with the door named: no 3-cells, the three-slot cup has no target on a 2-complex; the arity-matched PAIRING needs an H3-bearing three-body assembly -- THE CLOSED MIRROR-DOUBLE OF THE 3-FOLD CYCLIC COVER (the cover, struck from F3's referent by X5 for seam-count reasons, re-enters as the arity test's substrate). Prereg self-critique recorded (VOID-BY-DIMENSION was not a pre-registered outcome -- the MB12 family, caught in-arc). F3 adjudication firewalled to the cosmogony amendment; the mathematics banks as mathematics. Gate 5 clean.  
+`B1043_triple_assembly/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

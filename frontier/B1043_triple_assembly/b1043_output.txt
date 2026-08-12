@@ -1,0 +1,27 @@
+exec B632 cell2 (the full banked machinery)...
+cell2 loaded in 97.1s
+[V1-pre] h0(M;27) = 1   h0(T^2;27) = 3
+[W0] h1(double;27) = 5 (banked: 5; h0 = 1)  [6s]
+[W0] double: coker(H0-MV) = 1 seam x h0(T) - rank = 3 - 1 = 2, bulk = 3 (banked: 2 + 3) -- GATE PASS
+[W1] h1(triple;27) = 10  (h0 = 1)  [18s]
+[W2] triple: coker(H0-MV) = 3 seams x h0(T) - rank = 9 - 2 = 7
+[W2] bulk = h1 - connecting = 3
+[W2] the cycle's fingerprint (typed): the vertex-difference pattern on the
+     triangle has rank 2 (its kernel is the diagonal), so the cyclic closure
+     contributes h0(M) = 1 EXTRA connecting class(es) beyond the linear
+     3x(per-seam) count -- creation is SUPERLINEAR in the cyclic assembly
+     iff conn > 3 x 2 = 6: YES
+[W3] F3 (>= 6, pinned pre-arc): connecting = 7 -> PASS
+[W3] DECOY D (>= 12, deliberately unbanked): -> FAIL
+[W3] discrimination reading (sealed): F3-pass + D-fail => the comparison
+     DISCRIMINATES; F3's outcome is INFORMATIVE. R44-12 discharged.
+[W4] 3-cells in the assembly's presentation complex: 0
+[W4] HALT-VOID (the sealed halting discipline): the genuine three-slot cup
+     H1 x H1 x H1 -> H3 has NO TARGET on a 2-complex -- the algebraic triple
+     carries the arity-matched CLASSES but not the arity-matched PAIRING
+     dimension. The 2-slot saturated form B_C is exactly what the arity
+     observation excludes as the test. THE NAMED DOOR: an H3-bearing 3-body
+     assembly -- the closed mirror-double OF the 3-fold cyclic cover
+     (a genuine 3-manifold containing three commuting copies) -- is the
+     arity test's true home; a future cell.
+==== B1043 compute done ====

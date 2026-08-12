@@ -1,5 +1,22 @@
 # Changelog
 
+## B1043 (2026-08-12) — the triple: h¹ = 10 = 7 + 3 — the forbid holds STRICTLY, creation is SUPERLINEAR by exactly the loop, and the arity pairing names its true home
+
+PM2 (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups — the
+manifold cyclic weld impossible for one-cusped pieces, stated at seal). The entry
+gate earned its keep twice: it HALTED the first run on a wrong script shortcut and
+surfaced a new banked fact — **h⁰(M; 27) = 1, the 27 carries an invariant line under
+the solo group** — then passed with the sealed formula computed properly (the double
+reproduces 5 = 2+3). The triple: **connecting 7, bulk 3**; **F3 (≥ 6, pinned before
+the arc existed) PASSES with the decoy failing** — the discrimination reading fires,
+the pass is informative, **R44-12 discharged**. The cycle's fingerprint, typed:
+**the cyclic closure contributes exactly one extra class** (b₁ × the invariant
+line) — the frame forbade less-than-linear and the object answered
+more-than-linear. W4 HALT-VOID with the door named: **the closed mirror-double of
+the 3-fold cyclic cover** is the arity test's H³-bearing home (the cover re-enters
+through the front door). Prereg self-critique recorded (VOID-BY-DIMENSION was not a
+pre-registered outcome — the MB12 family, caught in-arc).
+
 ## B1042 (2026-08-12) — JOINED: the trit is ω's shadow through McKay — the price's one ternary input has an arithmetic pedigree, and the golden end is the control
 
 PM3 (sealed b8544786 pre-compute; exact ℚ(ω); the McKay graph COMPUTED from 2T's

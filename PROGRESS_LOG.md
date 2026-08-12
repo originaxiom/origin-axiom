@@ -10391,3 +10391,11 @@ recorded). The three links computed exact (characters/orthogonality 49-pair; the
 McKay graph built and IS affine E₆; rotation = factor 3-cycle); SL(2,5) PERFECT as
 the discriminating control; B757-shape refuted. [LEAP]→[MATH] promotion executed,
 identification clause only. L157-2 discharged. Locks: tests/test_b1042_trit.py (3).
+
+## 2026-08-12 — B1043 (PM2): the triple — 10 = 7 + 3, F3 holds strictly, superlinear
+
+Sealed 575ad81b, pushed both pre-compute. Gate halted the h⁰(M)=0 shortcut →
+h⁰(M;27) = 1 banked (the solo invariant line); double gate 5 = 2+3 ✓. Triple:
+connecting 7 (≥ 6 = F3 PASS; decoy ≥ 12 FAIL → informative; R44-12 discharged),
+bulk 3, superlinear by the loop. W4 HALT-VOID; the named door = the closed
+mirror-double of the 3-fold cover. Locks: tests/test_b1043_triple.py (3).

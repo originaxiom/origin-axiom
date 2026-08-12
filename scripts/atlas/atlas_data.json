@@ -1188,6 +1188,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1043": {
+   "slug": "triple assembly",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B632",
+    "B884",
+    "K0"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B104": {
    "slug": "dehn twist tower",
    "motifs": [

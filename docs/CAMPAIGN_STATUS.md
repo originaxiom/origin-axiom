@@ -19,6 +19,19 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-12, PM2 banked — B1043, the campaign's main compute):** The triple
+assembly answered, and the frame's pinned forbid held STRICTLY: the three-seam
+assembly creates seven interface classes where the pin demanded at least six — and
+the seventh is the discovery: closing the loop creates exactly one class beyond
+linear scaling, and the class it creates is a newly-found invariant direction of the
+27 that the entry gate itself surfaced (the first run halted on an assumption the
+computation refuted — the discipline converting an error into a banked fact). The
+built-in decoy failed exactly as a decoy should, certifying the pass is informative
+— and discharging the audit seat's decoy-control debt where it was owed. The arity
+question halts honestly: the true three-slot test needs a three-dimensional home,
+now named (the closed double of the 3-fold cover). The PM campaign's three
+computations are banked in one day: exhibited, joined, and held-strictly.
+
 **LATEST (2026-08-12, PM3 banked — B1042, and it is the window's deepest result):**
 The programme's one ternary input — the trit, the third item in the price — is now
 PROVED to be the field's own cube root of unity carried through McKay: the ℤ/3 that

@@ -92,3 +92,18 @@ used to compute them."*
 *Yield attribution note: X4's charge does not void this pin — the CONNECTING-MAP
 DIMENSION is a well-defined count regardless of what one calls its classes; forbid 3
 gates on the number, not on the "seam-born" label.*
+
+
+## F3 ADJUDICATION — 2026-08-12 (B1043, the pinned forbid's first computation)
+
+**F3 HOLDS, strictly.** The triple's total connecting contribution is **7 ≥ 6** —
+above the pin, not at it — and the sealed decoy (≥ 12, deliberately unbanked)
+FAILED, certifying the comparison discriminates (the pass is informative, not
+machinery-forced). The frame KEEPS its monotone-creation verb. And the computation
+returned something the frame did not predict: **creation is SUPERLINEAR in the
+cyclic assembly** — the closed loop contributes exactly one class beyond linear
+seam-scaling (the graph's b₁ times the solo invariant line). The frame forbade
+less-than-linear; the object answered more-than-linear-by-exactly-the-loop. Whether
+the excess-by-closure is frame-meaningful (a "closed interaction creates more than
+open" reading) is a [LEAP] until someone designs its forbid; the number itself is
+banked mathematics (B1043).
