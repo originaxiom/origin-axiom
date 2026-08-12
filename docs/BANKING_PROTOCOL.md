@@ -69,6 +69,11 @@ judgement rows are enforced by the independent verification in Part II.
       at the end.** Three attempts died at a 50-minute timeout during the B1024–B1042 refresh, and
       **three red locks survived behind that wall while 26 gates stayed green** — gates are fast
       and **do not cover what the locks cover**.
+    - **THE LAST KNOWN-GREEN FULL RUN, DATED AND PINNED TO ITS COMMIT — because B1041's finding
+      was that nobody knew:** `d48ab85` (B1049, 2026-08-12), **3961 passed / 120 skipped / 0
+      failed, exit code 0, 48:04**, run against a **committed** tree with nothing edited under it.
+      *Update this line whenever a full run completes; a green suite whose commit is not recorded
+      is a rumour.*
     - **AND TARGETED RUNS DO NOT SUBSTITUTE, MEASURED (B1049).** B1047 banked on **88** targeted
       tests and B1048 on **94**, both with **28 gates green** — and the next full suite returned
       **five failures**, one of them **red since B1043, five arcs earlier**. A targeted run tests
