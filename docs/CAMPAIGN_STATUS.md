@@ -19,6 +19,18 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-12, THE PATTERN MEDITATION):** The step-back is banked — the
+programme's own record, read as a whole, shows eight recurring object-patterns and
+five method-patterns, each verified instance-by-instance before the document banked.
+The headline comprehensions: the classical literature is the object's other face
+(eleven times the structure's name was older than the programme); the single most
+repeated error is level-assignment, not computation (six instances — it becomes a
+standing check); the record's negatives draw doors on their own walls (eight times);
+and the whole bit-economy splits by group order — the observer is binary, the
+coupling holds the one ternary choice. The campaign those patterns select is now
+running: the θ-leg, the trit morphism, the triple. The verify pass itself found two
+things the free pass missed — which is the method working. Next: PM1.
+
 **LATEST (2026-08-12, FL-4 answered — B1040):** The observer question — is the measuring
 side of the programme the field's or the object's? — now has a computed answer, and it
 is a clean split: **the field supplies every door (every construction template runs

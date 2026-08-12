@@ -1,5 +1,24 @@
 # Changelog
 
+## THE PATTERN MEDITATION (2026-08-12) — the step-back: eight object-patterns, five method-patterns, verified eyes-open, and the campaign they select
+
+The owner's step-back ask, run in the house meditation form (generate unbanked →
+verify eyes-open → rank): `docs/THE_PATTERN_MEDITATION.md`. The eight object-patterns
+(the withholding's mechanisms; the classical-name series ×11; the level-mismatch
+species ×6; the-negative-names-the-door ×8; the ℤ/2-vs-ℤ/3 split; template-vs-
+selection at three levels; the two-referent register as a near-identification MAP;
+genericity deflation) braided with the method's five (seal→ledger; adversarial
+pairing; gates; retrieval-as-binding-constraint; the meditation form itself). Every
+instance count grep-verified before banking; kill-list EMPTY; the verify pass ADDED
+two finds: **B963's budget-competition corollary is retracted and must not echo**,
+and **"the trit" is itself a two-referent hazard** (B860's step-3 bit vs B1030's
+VEV-acceptance ℤ/3 — binding on PM3's seal). The campaign the patterns select: PM1
+(the θ-leg) → PM3 (the trit morphism, §V4's parenthesis under test) → PM2 (the
+triple, with the R44-12 decoy-forbid control discharged in its seal) + riders (the
+level-check row; the cite-don't-rediscover sweep that eats its own cooking first) +
+the three retrieval arcs + the owner's new cadence: Review 45 at trigger, then
+Meditation 2.
+
 ## B1040 (2026-08-12) — FL-4 answered by ledger: the field builds every door, the object does all the walking, and the ℤ/3 is consumed nowhere
 
 The observer stack (B700 · B733 · B735→B723 · B766 · B782), adjudicated per-step from
