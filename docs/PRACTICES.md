@@ -624,3 +624,15 @@ before any new number is read (applied end-to-end in B1036).
 (B647 c3 · B884.) *Only what survives the rescaling is content; the rest is the
 pipeline's pivot order.* The census (B1038-verified) shows the banked record already
 passes; the practice exists so it stays true.
+
+
+## claim_drop.py outputs are CANDIDATES, never verdicts — instrument status (2026-08-12)
+
+Held-out validation (the audit seat, item 6, this bench's record of it): real precision
+~11% held-out vs 57% tuned — E29's law on the instrument's own numbers; two FP modes
+fixed (heading-as-fence; retraction-as-fence), 62 → 30 candidates; the subject-mismatch
+mode is a human call by design. **Any figure from this instrument is a candidate rate;
+the honest adjudication question is "does the claim line assert something the arc's own
+body explicitly refuses" — never "is there a fence somewhere in the body."** The fresh
+held-out slice (B101 B109 B111 B120 B125 B126 B139 B145 B148 B158) is reserved — named
+by the instrument's author, who must not adjudicate it.

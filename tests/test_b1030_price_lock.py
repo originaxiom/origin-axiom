@@ -61,3 +61,15 @@ def test_verdict_json():
     assert "DEFECT" in v["claim_one_line"].upper()
     for dep in ("B1028", "B1025", "B936", "B897"):
         assert dep in v["depends_on"]
+
+
+def test_unit_obstruction_kappa_minus_two():
+    """R43-10's closure hardened on main: |kappa - 2| = 1 exactly -- the founding
+    sentence as an equation (B309, B518, B1010; re-verified at the price_lock repair).
+    kappa = tr[a,b] = u^2 + 2 at the Eisenstein point u = omega."""
+    import sympy as sp
+    omega = sp.exp(2 * sp.pi * sp.I / 3)
+    kappa = sp.simplify(omega ** 2 + 2)
+    assert sp.simplify(sp.Abs(kappa - 2) - 1) == 0
+    assert sp.simplify(kappa - 2 - omega ** 2) == 0
+    assert sp.simplify(sp.arg(kappa) + sp.pi / 6) == 0   # arg kappa = -pi/6 (the matter face)

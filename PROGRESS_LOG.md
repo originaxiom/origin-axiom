@@ -10294,3 +10294,13 @@ B1031's numerator lock + Theorem-E confirmation addendum; B1033's literature add
 (the dissolve corroborated from outside; the DG-chirality sentence said plainly);
 price_lock verified repaired (R43-10 closed). The search-species taxonomy and the
 Slansky/Bando–Kugo first-pick recorded in memory.
+
+## 2026-08-12 — the harvest-completion batch
+
+Owner-directed sweep ("verify and harvest/bank everything"): four R43 action items
+checked off with evidence (R43-5 B1034; R43-7 the regex; R43-8 the Todorov addendum;
+R43-10 the verified price_lock repair); the L154 and L142 lead rows carry their
+dispositions (the narrowed bridge-verb; the output-level-only evidence note); the
+unit obstruction |κ−2| = 1 locked on main (with arg κ = −π/6); the claim_drop
+instrument-status practice registered with its reserved slice. The serial-suite
+certificate (R43-2) runs as this sweep's closer.

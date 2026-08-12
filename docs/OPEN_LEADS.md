@@ -1033,6 +1033,12 @@ clause, not the whole normalisation.
 > by opinion.** The discriminating test, named: **exhibit a morphism carrying one pencil to
 > another, or show the agreement is only of outputs.** B961's instrument is the right bench;
 > it needs the solo frame definitions (L135).
+> **EVIDENCE NOTE (2026-08-12, the audit seat's item 5, verified):** two of the three
+> sites now agree **at output level only** — arg κ = ∓π/6 is a conjugation-invariant
+> TRACE (Test-1 clean by construction) while the cubic's arg Y[134] is proved pipeline
+> GAUGE (B647 c3); both land at ±π/6 because that is where √3-type elements of ℚ(√−3)
+> live. **An output-level agreement is not a morphism** — the lead's demand stands, and
+> the μ-pencil site remains blocked on L135's remaining half.
 
 > **L131 — CLOSED NO 2026-08-08 by B979.** A7 is **load-bearing**, and the answer was already in
 > **§5 of UNIQUENESS_THEOREM** ("The order choice is load-bearing (A7), not cosmetic") — the
@@ -1543,3 +1549,13 @@ only continuous dimensionless input converts from anchor to OUTPUT — the input
 DIFFERENT, the corpus gains its third named terminology collision (two σ's, after two conductors
 and two levels) and the anchor stands. **Either outcome is a result.** Kind/type gates apply to
 any downstream use.
+
+> **DISPOSITION (B1034, 2026-08-12): UNDECIDED — the honest middle, and the lead NARROWS.**
+> NO-EXHIBIT (every corpus co-occurrence of the two sides is this lead's own registration)
+> × NO-CLASH (the quantization threat pins σ = 1 rather than clashing; the unit fence
+> holds). **SAME is unobstructed and unexhibited; the missing piece is named: one banked
+> bridge statement identifying the stage CFT with the AdS₃ boundary CFT** (the boundary
+> algebra containing (E₆)₁, or the partition function carrying the SU(3)₂×(G₂)₁
+> fingerprint — the split's algebras now named by Sugawara arithmetic). The lead's verb
+> changes from establish-or-refute to **construct-the-bridge-or-find-its-obstruction**
+> (S1-class). The anchor stands meanwhile.
