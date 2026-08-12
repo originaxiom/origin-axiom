@@ -7,7 +7,7 @@ ID names.**
 
 ## The fork and the collision
 
-The cloud consolidation seat's branch (`claude/new-session-qor5up`) forked from main
+The cloud consolidation seat's branch (the `qor5up` branch) forked from main
 at **B1024's seal commit (`3524b889`)** and numbered its own arcs B1025–B1053 while
 main independently banked B1025–B1044. **Twenty IDs (B1025–B1044) each name TWO
 different arcs.** Citation convention: cloud arcs are cited on main as
