@@ -35,7 +35,8 @@ def test_v2_no_exhibit_adjudicated():
                "docs/views/COVERAGE.md", own,
                # post-bank surfaces that quote this arc's own verdict are self-echoes:
                "PROGRESS_LOG.md", "docs/CAMPAIGN_STATUS.md", "docs/TERMINOLOGY.md",
-               "TERMINOLOGY.md", "frontier/B1034_l154_sigma/FINDINGS.md"}
+               "TERMINOLOGY.md", "frontier/B1034_l154_sigma/FINDINGS.md",
+               "docs/OPEN_LEADS.md"}  # the lead's own disposition note (B1034 self-echo)
     for key, files in r.items():
         assert set(files) <= allowed, (key, files)
 
