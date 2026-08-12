@@ -12,7 +12,7 @@ every statement here is a banked arc's, re-verified before restoring. Firewalled
 
 **B408** — registered at B1046 as the worst case in the corpus — opens
 
-> *"**THE SEAM DOES NOT CONTRACT — the one scale lever stands** … Ratio ≈ 1.2170 > 1"*
+> *"**THE SEAM DOES NOT CONTRACT — the one scale lever stands** … Ratio ≈ 1.2170 > 1"* — a phrase now retracted and registered (`RETRACTED_PHRASES` row 9)
 
 over an `arc_verdict` of **NEGATIVE**, and kills itself 27 lines down (*"the seam **CONTRACTS** —
 persistence was an artifact … max over embeddings **is biased by embedding count**"*).
@@ -49,7 +49,7 @@ recomputed from the polynomial's coefficients — **no floating point in any exa
 
 ### ⚠ And B426's slogan is over-broad. The correction travels with the restoration.
 
-B426 writes *"**Every Galois-invariant functional of the orbit is < 1**"*. It is not:
+B426 writes *"**Every Galois-invariant functional of the orbit is < 1**"* — retracted here, `RETRACTED_PHRASES` row 10. It is not:
 
 - the elementary symmetric **`e₁ = 3/2 > 1`**;
 - the sixth power mean **`M₆ = 1.01340 > 1`** (while `M₅ = 0.97699 < 1`).

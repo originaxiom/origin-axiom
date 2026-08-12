@@ -15,6 +15,11 @@ import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+import importlib.util as _ilu
+_MB = _ilu.module_from_spec(_ilu.spec_from_file_location(
+    "_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py"))
+_ilu.spec_from_file_location("_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py").loader.exec_module(_MB)
+
 R = {"checks": {}}
 
 
@@ -129,8 +134,12 @@ def without_this_arc(rel):
     single lines in their tables. The first cut of this scope stripped only X33 and the check
     failed again, because the LAW_MAP row cites B302 too: the THIRD time in two arcs that a
     measurement was invalidated by its own output. Scoping by authorship, not by location."""
-    return "\n".join(ln for ln in read(rel).splitlines()
-                     if "B1031" not in ln and "**X33**" not in ln)
+    # BLOCK-level, not line-level (B1049). A per-line filter is defeated by markdown WRAPPING:
+    # the arc token and the citation can land on different lines of one bullet. That defect went
+    # RED in B1037 and is latent here -- this check is green only because it counts B302, which
+    # no wrapped bullet happens to orphan. Repaired before it could bite.
+    return _MB.drop_blocks(read(rel),
+                           re.compile(r"\bB1031\b|\*\*X33\*\*"))
 
 
 without_ours = "\n".join(without_this_arc(p) for p in CURATED)

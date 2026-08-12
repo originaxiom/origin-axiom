@@ -55,9 +55,17 @@ def _phrases():
 
 
 def _tracked_md():
-    r = subprocess.run(["git", "ls-files", "*.md"], cwd=ROOT,
+    """Tracked .md files PLUS untracked-but-present ones (B1049).
+
+    The sweep used `git ls-files *.md`, which lists only what is ALREADY COMMITTED -- so a new
+    arc's own FINDINGS.md was invisible to the sweep that arc ran, and its violations first
+    appeared in the NEXT run, after banking. B1048 shipped two live uses of the phrases it had
+    just registered for exactly this reason, and the full suite caught them 48 minutes later.
+    `-c` (cached) plus `-o` (others) with `--exclude-standard` makes the sweep see the working
+    tree an author is actually about to bank, while still honouring .gitignore."""
+    r = subprocess.run(["git", "ls-files", "-co", "--exclude-standard", "*.md"], cwd=ROOT,
                        capture_output=True, text=True)
-    return [p for p in r.stdout.split("\n") if p.strip()]
+    return sorted({p for p in r.stdout.split("\n") if p.strip()})
 
 
 def sweep():

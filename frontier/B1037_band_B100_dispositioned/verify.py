@@ -16,6 +16,11 @@ import re
 import sympy as sp
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+import importlib.util as _ilu
+_MB = _ilu.module_from_spec(_ilu.spec_from_file_location(
+    "_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py"))
+_ilu.spec_from_file_location("_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py").loader.exec_module(_MB)
+
 SELF = "B1037"
 R = {"checks": {}}
 
@@ -50,8 +55,12 @@ CURATED = ["docs/LAW_MAP.md", "docs/THE_FRAMEWORK.md", "docs/THEOREM_LEDGER.md",
 # BEFORE this band was measured, which is real work, not self-measurement noise. The figure this
 # arc publishes is "the band as it stood at B1037".
 REFRESH = re.compile(r"\bB10(?:3[7-9]|[4-9]\d)\b")
-blob = "\n".join(
-    "\n".join(l for l in read(p).splitlines() if not REFRESH.search(l)) for p in CURATED)
+
+
+# BLOCK-level, not line-level (B1049). The per-line form that stood here read B141 as curated,
+# because B1043's ladder bullet WRAPS between its author token and its citation -- and this check
+# was RED at 36 for five arcs before a full suite caught it. See scripts/checks/md_blocks.py.
+blob = _MB.drop_blocks_from(CURATED, REFRESH, read)
 
 
 def cited(b):

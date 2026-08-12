@@ -14,6 +14,11 @@ import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+import importlib.util as _ilu
+_MB = _ilu.module_from_spec(_ilu.spec_from_file_location(
+    "_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py"))
+_ilu.spec_from_file_location("_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py").loader.exec_module(_MB)
+
 R = {"checks": {}}
 
 
@@ -85,9 +90,10 @@ def without_this_arc(rel):
     than by the author. The exclusion is now "this arc AND EVERY LATER ONE" -- B1037's pattern --
     so the published figure means "as at B1032", which is what it always claimed.
     """
-    AFTER = re.compile(r"\bB10(?:3[2-9]|[4-9]\d)\b")   # this arc AND EVERY LATER ONE
-    return "\n".join(ln for ln in read(rel).splitlines()
-                     if not AFTER.search(ln) and "**X33**" not in ln)
+    # BLOCK-level, not line-level (B1049): markdown WRAPS, so a per-line filter can keep a
+    # citation whose authoring arc sits on the previous line. Latent here, RED in B1037.
+    AFTER = re.compile(r"\bB10(?:3[2-9]|[4-9]\d)\b|\*\*X33\*\*")   # this arc AND EVERY LATER ONE
+    return _MB.drop_blocks(read(rel), AFTER)
 
 
 blob = "\n".join(without_this_arc(p) for p in CURATED)

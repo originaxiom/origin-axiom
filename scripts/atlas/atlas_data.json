@@ -1578,6 +1578,25 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1049": {
+   "slug": "the wrapped exclusion",
+   "motifs": [
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B141",
+    "B564",
+    "B885",
+    "B889",
+    "B890",
+    "B891"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

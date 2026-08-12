@@ -57,11 +57,22 @@ judgement rows are enforced by the independent verification in Part II.
       job **discharges nothing**. `timeout N python3 -m pytest` returns **124** on expiry, which
       is *not* a pass — and `cmd | tail` reports **`tail`'s** status, not pytest's. **Read
       pytest's own exit code.**
-    - **BUDGET FOR IT: the suite was ~55 minutes at Review 42 and 81 minutes at B1041** (3987
-      tests; four of them are 29 % of the runtime). **Start it early, not at the end.** Three
-      attempts died at a 50-minute timeout during the B1024–B1042 refresh, and **three red locks
-      survived behind that wall while 26 gates stayed green** — gates are fast and **do not cover
-      what the locks cover**.
+    - **A RUN AGAINST A MOVING TREE DISCHARGES NOTHING EITHER** (added B1049). Two full runs were
+      launched during B1047/B1048 and both were **worthless**: the working tree changed under them
+      while they ran, so neither result described any commit. **Start the run against a COMMITTED
+      tree and stop editing until it lands** — otherwise the run is a partial run wearing a
+      complete run's exit code.
+    - **BUDGET FOR IT: 48 minutes, measured 2026-08-12 on an UNCONTENDED box** (4074 tests, 3949
+      passed / 120 skipped). *The **81 minutes** recorded here at B1041 was measured while **two
+      suite runs competed** for the same box, and the ~55 at Review 42 predates ~90 tests; the
+      figure to plan against is **48**.* Four tests are 29 % of the runtime. **Start it early, not
+      at the end.** Three attempts died at a 50-minute timeout during the B1024–B1042 refresh, and
+      **three red locks survived behind that wall while 26 gates stayed green** — gates are fast
+      and **do not cover what the locks cover**.
+    - **AND TARGETED RUNS DO NOT SUBSTITUTE, MEASURED (B1049).** B1047 banked on **88** targeted
+      tests and B1048 on **94**, both with **28 gates green** — and the next full suite returned
+      **five failures**, one of them **red since B1043, five arcs earlier**. A targeted run tests
+      what you thought you touched.
 19. Feature branch → PR → squash-merge → push **origin *and* codeberg**.
 
 ---

@@ -37,6 +37,11 @@ import sys
 import sympy as sp
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+import importlib.util as _ilu
+_MB = _ilu.module_from_spec(_ilu.spec_from_file_location(
+    "_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py"))
+_ilu.spec_from_file_location("_md_blocks", ROOT / "scripts" / "checks" / "md_blocks.py").loader.exec_module(_MB)
+
 R = {"checks": {}}
 
 
@@ -82,9 +87,9 @@ chk("A_and_its_own_body_kills_it_with_the_embedding_bias",
 CURATED = ["docs/LAW_MAP.md", "docs/THE_FRAMEWORK.md", "docs/THEOREM_LEDGER.md", "CLAIMS.md",
            "docs/THE_LADDER.md"]
 def curated_without_this_arc():
+    # BLOCK-level (B1049) -- see scripts/checks/md_blocks.py for why the line-level form is wrong.
     AFTER = re.compile(r"\bB104[89]\b|\bB10[5-9]\d\b")
-    return "\n".join("\n".join(ln for ln in read(p).splitlines() if not AFTER.search(ln))
-                     for p in CURATED)
+    return "\n".join(_MB.drop_blocks(read(p), AFTER) for p in CURATED)
 chk("A_B1046_named_B426_in_the_REGISTRY__so_the_gap_was_the_LAW_not_the_NAME",
     "B426 upgrades the correction to a theorem" in read("docs/consolidation/SUPERSESSIONS.md"))
 chk("A_but_NO_CURATED_surface_carried_B426_before_this_arc",

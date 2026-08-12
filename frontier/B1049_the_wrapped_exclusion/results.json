@@ -1,0 +1,97 @@
+{
+ "checks": {
+  "the_wrapped_bullet_EXISTS_in_the_live_text": {
+   "pass": true,
+   "author_line": " the rung to name **two** live routes; **B1043 adds that the",
+   "citation_line": "φ-fixed cluster's own open question (B141 Item 4) was closed"
+  },
+  "the_LINE_filter_KEEPS_the_orphaned_citation": {
+   "pass": true
+  },
+  "the_BLOCK_filter_DROPS_it": {
+   "pass": true
+  },
+  "B1037s_own_check_is_green_again_and_says_why": {
+   "pass": true
+  },
+  "TWO_of_the_four_consumers_carried_the_defect_not_three": {
+   "pass": true,
+   "latent": {
+    "B1031": [],
+    "B1032": [
+     "B141",
+     "B564"
+    ],
+    "B1037": [
+     "B141",
+     "B564"
+    ],
+    "B1048": []
+   }
+  },
+  "the_RED_one_and_the_LATENT_GREEN_one_orphan_the_SAME_two_citations": {
+   "pass": true
+  },
+  "and_B1032_was_green_BY_LUCK__it_counts_B885_B889_B890_B891_not_B141": {
+   "pass": true
+  },
+  "repaired__B1031": {
+   "pass": true
+  },
+  "repaired__B1032": {
+   "pass": true
+  },
+  "repaired__B1037": {
+   "pass": true
+  },
+  "repaired__B1048": {
+   "pass": true
+  },
+  "all_four_now_share_ONE_declared_implementation": {
+   "pass": true
+  },
+  "the_module_names_its_consumers_so_it_is_not_a_shadow_library": {
+   "pass": true
+  },
+  "law_siblings_uses_the_idiom_but_is_UNAFFECTED__its_targets_are_single_line_headlines": {
+   "pass": true
+  },
+  "the_sweep_now_lists_UNTRACKED_files_too": {
+   "pass": true
+  },
+  "...which_is_why_B1048_shipped_two_live_uses_of_phrases_it_had_just_registered": {
+   "pass": true
+  },
+  "the_sweep_is_clean_now": {
+   "pass": true
+  },
+  "and_B1048s_two_lines_carry_their_cue": {
+   "pass": true
+  },
+  "Review_42s_finding_is_on_the_record_as_having_RECURRED_once_already": {
+   "pass": true
+  },
+  "BANKING_PROTOCOL_already_says_a_partial_run_is_not_a_run": {
+   "pass": true
+  },
+  "and_it_now_carries_the_MEASURED_uncontended_figure": {
+   "pass": true
+  },
+  "and_it_records_that_TARGETED_runs_do_not_substitute": {
+   "pass": true
+  },
+  "and_that_a_run_against_a_MOVING_TREE_discharges_nothing": {
+   "pass": true
+  },
+  "the_gap_this_arc_names__gates_do_not_cover_locks": {
+   "pass": true
+  }
+ },
+ "answer": {
+  "what_happened": "Two arcs banked green on 88 and 94 TARGETED tests with 28 gates green. The first full suite to complete on an uncontended box — 4074 tests, 48 minutes — returned FIVE failures. Third instance of the mechanism Review 42 named and B1041 recorded as already recurred: gates do not cover what the locks cover, and a suite nobody runs to completion hides red locks at HEAD.",
+  "defect_A": "THE PER-LINE EXCLUSION IDIOM IS DEFEATED BY MARKDOWN WRAPPING. Four arcs wrote the same idiom — drop every LINE naming this arc or a later one, then measure what remains. B1043's ladder bullet wraps between its author token (B1043) and its citation (B141), so the filter drops the first line, keeps the second, and B141 reads as curated by nobody. B1037's band count fell 37 → 36 and its lock went RED AT B1043 — five arcs ago. A sibling sweep found B1031 and B1032 carry the identical defect and are GREEN ONLY BY LUCK, since neither counts the orphaned citation; law_siblings uses the idiom and is genuinely unaffected, because its targets are single-line headlines. All four now share one declared module, scripts/checks/md_blocks.py, which names its consumers so it does not become the shadow library B1035 found.",
+  "defect_B": "THE RETRACTION SWEEP COULD NOT SEE THE ARC RUNNING IT. `_tracked_md()` used `git ls-files *.md` — committed files only — so a new arc's own FINDINGS.md was invisible to the sweep that arc ran, and its violations first appeared in the NEXT run, after banking. That is exactly how B1048 shipped two live uses of the two phrases IT HAD JUST REGISTERED, and neither its own sweep nor its gate run could have caught them. Repaired with `-co --exclude-standard`, which shows the sweep the working tree an author is about to bank while honouring .gitignore.",
+  "the_measurement_corrected": "The suite is 48 minutes, not 81. The 81 recorded in BANKING_PROTOCOL was measured while TWO suite runs competed for the same box — and both were invalid anyway, because the tree changed underneath them. A suite run against a moving tree discharges nothing, which is the same row's own rule one level up."
+ },
+ "all_pass": true
+}
