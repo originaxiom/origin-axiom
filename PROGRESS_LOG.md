@@ -10304,3 +10304,13 @@ dispositions (the narrowed bridge-verb; the output-level-only evidence note); th
 unit obstruction |κ−2| = 1 locked on main (with arg κ = −π/6); the claim_drop
 instrument-status practice registered with its reserved slice. The serial-suite
 certificate (R43-2) runs as this sweep's closer.
+
+## 2026-08-12 — the session closes: the serial record, the odyssey, the frame registered
+
+The serial certificate GREEN (3967, 54:15 — R43-2 closed; the arbiter rule's record
+stands behind the window). The seed–field cosmogony registered in the speculation room
+(firewalled, receipts tagged, negatives stated); L157 registers the three interaction
+hooks; the audit seat's FIELD ODYSSEY mandate is in the relay channel (the Field Ladder
+· the field's literature · the adversarial pass on the frame itself — rationale-first
+per the owner). Every harvest banked; every checkable item checked; wait-states and
+elections only.

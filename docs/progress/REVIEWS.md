@@ -3455,7 +3455,7 @@ not run this window.
 
 ### Action items (Review 43)
 - [ ] R43-1: TOOLBOX.md — refresh or freeze-with-marker; the standing reader-standard block (owner: cc; source: B984, carried from R42)
-- [ ] R43-2: serial-suite confirmation run (the arbiter rule's certificate of record; this window certified parallel-only) (owner: cc; source: B1018)
+- [x] R43-2: DONE — serial certificate GREEN 2026-08-12 (3967 passed, 54:15; the log archived in the session record) — the arbiter rule's record stands behind the window
 - [ ] R43-3: the three mechanical repairs — forcing_graph regen (stale at B989); cascade-face attachments (282 faceless arcs); the 167 ROUTED-unread closures (owner: cc; source: the window handoff §4)
 - [ ] R43-4: B1024's three amendment controls (naturality · base rate · joint rank) — discharge the PROVISIONAL banner (owner: cc; source: the window handoff §2)
 - [x] R43-5: DONE — B1034 (UNDECIDED: SAME unobstructed/unexhibited, the bridge named; the third-σ row registered; the STOP had been retracted and the lead ran as registered)

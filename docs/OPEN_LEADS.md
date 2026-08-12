@@ -1559,3 +1559,23 @@ any downstream use.
 > fingerprint — the split's algebras now named by Sugawara arithmetic). The lead's verb
 > changes from establish-or-refute to **construct-the-bridge-or-find-its-obstruction**
 > (S1-class). The anchor stands meanwhile.
+
+
+## L157 — THE INTERACTION HOOKS (the seed–field frame's three computables; registered 2026-08-12)
+
+From `speculations/S_SEED_FIELD_COSMOGONY.md` (firewalled; the frame is under the audit
+seat's adversarial odyssey — Task C — and these hooks stand on banked substrate
+regardless of the frame's fate):
+
+1. **The V-valued residual on the double** — B1036's one named unrun sector: the full
+   C3-route pairing assembled over M ∪ M̄. The seed×mirror interaction's last sector.
+2. **The FMT ↔ trit ↔ seam question** — the first measurement breaks E₆ three
+   Galois-conjugate ways (banked); the VEV acceptance is a ℤ/3 label (banked); B1036's
+   extra classes are seam-born, one per chiral block (banked). ONE mechanism or three
+   facts? The discriminating test to be named at seal (the L142 pattern: exhibit a
+   morphism or show the agreement is of outputs).
+3. **L154's bridge as a seed–field junction** — already registered and narrowed (B1034);
+   listed here as the frame's third computable, not re-registered.
+
+Sealed cells when elected; the frame itself promotes only through the odyssey's
+survival + a sealed adjudication on this bench.
