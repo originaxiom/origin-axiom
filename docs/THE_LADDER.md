@@ -131,6 +131,36 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
 
 ---
 
+## CURRENCY ADDENDUM — 2026-08-12 (B1031–B1041): what the odyssey window did to the rungs
+
+- **The symmetric-mass rung is WALLED sector-complete on the double** (B632 · B1036 ·
+  B1039): the coupling move creates classes, never the pairing — and the wall's
+  mechanism is now TYPED (Slansky: d_μνλ completely symmetric, three slots; every
+  refusing assembly had two bodies). The rung's next step is the first arity-matched
+  assembly: **the triple (L157-4/PM2, forbid pinned before its number exists).**
+- **The observer rung is SPLIT, not missing** (B1040): every field-generic template
+  stands object-deletion; every object-made selection collapses; the ℤ/3 is consumed
+  nowhere. What the programme still lacks here is ONE named thing: **the object-level
+  observer (B735's fence) — unbuilt**, and the only place an ω-consumption could
+  still appear.
+- **The naming rung** (new, from the meditation's P2): the classical name for the
+  central structure — **non-neutral Tannakian category / affine gerbe** — is found
+  but UNREAD (L159, gated on Deligne–Milne); the degree-2 neutrality class is
+  uncomputed. The ladder gains the rung "the gerbe's H² class: computed or shown
+  neutral."
+- **The ℤ/3 rung** (new, from FL-4's corollary + the trit inventory): the record
+  holds seven ℤ/3-or-log₂3 objects of four types; the observer cannot carry the
+  trit; ω's ℤ/3 and the trit's are linked only in a firewalled [LEAP] row. **PM3
+  (sealing) is this rung's first computation** — the McKay finite check.
+- **The cube rung** (L160): two of three legs proved one structure; **B1041 (sealed)
+  computes the last leg** — θ ↔ √−7 compatibility, with the chord's √3-flavor
+  tension stated in the seal.
+- The meditation itself (THE_PATTERN_MEDITATION, banked verified) adds the standing
+  reading rule: **the two-referent register is a MAP of near-identifications** —
+  rungs get designed where vocabulary collides.
+
+---
+
 ## HOW THIS FILE IS USED — binding
 
 1. **Before writing "the object does not supply X"**, find X here. Not present ⟹ the honest
