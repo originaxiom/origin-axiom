@@ -10454,3 +10454,13 @@ sweep ledger opens (19 rows, 4 disposed, 0 NOVEL; the governing question = does
 the McKay selection force what E₆ leaves free); the Λ position paper + its §5
 row; G1 gates 1–2 discharged (conductor-4 surviving half exact; the four-referent
 c row). Locks: tests/test_b1063_refresh.py (2).
+
+## 2026-08-13 — the sweep's arc whole: 19/19 triaged, ONE K (S₃, resolvent
+ℚ(√77) — corrected from cubic-cyclic on-bench), T-INTERBREAK rests at
+MECHANISM KNOWN / CONTENT UNMATCHED, the 77 exponent-echo the first
+mechanism-shaped candidate; the owner's cost re-frame closes the ledger; the
+Part-0 audit opens (line 1 prices-real + F2/F8 locks green; line 2 closed by
+the twelve-vs-eleven reconciliation, four gaps now rules). m = 5 lands: A8
+CONFIRMED exact both benches, A2 twin complete, A5 pending-both (asymmetry
+principle standing). E22→E39 rekey. B1064 SEALED (G1; O3-lean declared).
+Locks: tests/test_b749_f2_f8_locks.py (5).

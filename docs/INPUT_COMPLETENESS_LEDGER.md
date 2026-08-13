@@ -61,3 +61,36 @@ substance passes; the paper trail did not exist. Recorded rather than quietly ad
   ran. The result worth carrying forward from this cell is not the null but that **rung 1
   (algebraicity) is the only admissible comparison available** — which is independently where the
   B796 campaign falsifier landed.
+
+## THE RECONCILIATION — this ledger's twelve vs the crossing lane's eleven (2026-08-13, closes the Part-0 audit's line 2)
+
+**The finding that forced this section (the audit seat's census):** 23 arcs cite
+measured sources; this ledger held TWO rows, both retroactive audits; the
+crossings scrupulously fill a DIFFERENT list (CROSSING_REQUIREMENTS' R1–R11 —
+B1027 answered R7/R8/R9/R11 and did much of this ledger's work in that
+vocabulary, including item-11-style source-limitation disclosure). Neither list
+cited the other; whether one covers the other was unasked by every seat. The
+mapping, each of the twelve marked:
+
+| # | this ledger's item | status vs R1–R11 |
+|---|---|---|
+| 1 | Scheme | **GAP as a rule** — no R-item requires scheme declaration. Mitigated in practice for phase targets (the PDG parametrization named in B1027); unmitigated for any future mass-ratio crossing. |
+| 2 | Scale | **covered-by-R2** (interpolation derived or RG-insensitive target — the μ-question is R2's content). |
+| 3 | Uncertainties | **covered-by-R6** (the precision budget; B1027's σ-powered criteria are the instance). |
+| 4 | Multi-modal fits | **GAP as a rule** — B1027 stated the ordering (NO) ad hoc; the octant was N/A for δ_CP **and the N/A was never stated**. This ledger's own discipline: **N/A is a row, not a silence.** |
+| 5 | Convention constants | **covered-by-R5** (kind-correctness; convention-vs-measurement is a kind distinction the KIND_TABLE licenses). |
+| 6 | Fit-vs-direct | **GAP as a rule** — no R-item; mitigated in practice by naming NuFIT as the source. |
+| 7 | Look-elsewhere | **covered-by-R7** verbatim. |
+| 8 | The matched null | **covered-by-R6 for exclusion-type verdicts** (powered criteria); **GAP for any HIT-type crossing** — a hit claim needs the matched-null measure and no R-item mandates it. |
+| 9 | MB13 grep | **covered-by-R1 + standing MB13 practice** (R1 is atlas/tower-specific; the general grep is corpus practice, noted not guaranteed). |
+| 10 | The firewall question | **covered-by-R5 + R10** (kind licensing + channel declaration). |
+| 11 | Source freshness | **covered-by-the-B1063 fetch-currency rule** (verdict-time fetches state their release and check the arXiv mirror — banked after the 6.0-existed-while-5.2-was-read defect; item 11 and the rule are convergent, written independently). |
+| 12 | Sealing | **covered-by-R8 + the seal-before-compute law** (the E39 chain). |
+
+**Verdict of the reconciliation: eight of twelve covered, FOUR GAPS as rules
+(items 1, 4, 6, and 8's hit-branch).** Standing consequence, binding: **any
+future crossing prereg fills BOTH lists — the R-numbers AND this ledger's
+twelve — with N/A written as a row.** The four gap-items cannot ride the
+R-list alone. (Species logged: two checklists, no cross-reference — line 1's
+fork-collision trap with the opposite sign: coverage looked absent where it
+was present. One day, both signs.)

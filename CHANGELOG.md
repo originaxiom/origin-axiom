@@ -1,5 +1,37 @@
 # Changelog
 
+## B1064 sealed + the sweep's whole arc banks (2026-08-13) — 19/19 triaged, ONE K, the cost re-frame; m = 5 lands A8-confirmed; the genesis gets its locks
+
+The day's second bank, and it carries the sweep from opening to its pause:
+**all nineteen rows triaged** (twelve layer-only on stated triage-weight; six
+arithmetic-consuming — and all six consume ONE field: K's three handles are
+13³ from the leading term, 77 from the ramified primes, 953 from the norm,
+three rows of §LXVIII's banked biography; independent novelty candidates:
+ONE). K's characterization CORRECTED on-bench (an S₃ cubic, resolvent ℚ(√77)
+— not cubic-cyclic; a cyclic cubic has square discriminant). T-INTERBREAK
+rests at MECHANISM KNOWN / CONTENT UNMATCHED after a five-stage prior-art
+descent (Kostant → wild McKay → McKay–Slodowy body-level → the Borovoi
+near-miss → the general-base-field literature); T-CONCORD split — its 77
+clause is the sweep's first mechanism-shaped candidate (the exponent echo,
+B888's own "observation, unweighted"; the trialitarian étale algebra the
+named home). **The owner's re-frame lands as the ledger's closing section:
+the chain's question is COST, not novelty** (both seats had measured a
+segment; the end-to-end documents read whole the same day), and the successor
+lane — the Part-0 cost audit — is already two lines in: line 1 PRICES REAL
+with the F2/F8 genesis locks written and green this bank (4/8 → 8/8); line 2
+closed by THE RECONCILIATION appended to the Input-Completeness Ledger
+(twelve vs the crossing lane's eleven: eight covered, FOUR gaps as rules —
+future preregs fill BOTH lists, N/A as a row). **m = 5 completed the
+comparison protocol**: A8 CONFIRMED (the pre-registered φ-decoy pair produced
+blind, coefficient-for-coefficient, both benches); A2 twin-derived complete
+(towers 2,4,8,8,18 / 2,8,8,8,18 — golden alone at degree 2 in both); A5
+PENDING ON BOTH BENCHES (the x-only self-catch; the asymmetry principle
+standing: one coordinate excludes, three certify; the full-triple repair
+running). The E22 double-assignment repaired (verdict-before-certificate
+re-keyed E39, tombstone in place, live docs swept, history unrewritten).
+**B1064 SEALED** (the cusp-torus re-pose, G1): gates 1–4 all discharged or
+in-seal; prior declared O3-lean; compute follows the push.
+
 ## B1063 (2026-08-13) — THE REFRESH VERDICT: the fourth crossing closes; the one-shot is spent
 
 The pre-committed refresh executed against NuFIT 6.0 (read on-bench from the

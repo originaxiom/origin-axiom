@@ -56,18 +56,18 @@ resolver; q-citations throughout.*
 
 | row | rule | disposition | grade | note |
 |---|---|---|---|---|
-| 2.01 | moving-tree runs discharge nothing | EMPTY | — | main has (E22 family) — expect SUPERSEDED-cite |
-| 2.02 | targeted runs ≠ the full suite | EMPTY | — | |
-| 2.03 | a partial run is not a run | EMPTY | — | main has — expect SUPERSEDED-cite |
-| 2.04 | re-verify before restoring | EMPTY | — | main has (verify-against-main-first) |
-| 2.05 | carry the riders or don't restore | EMPTY | — | |
-| 2.06 | scope by authorship (E37) | EMPTY | — | lane 3 ports the class |
-| 2.07 | never lock a count the programme moves (E38) | EMPTY | — | lane 3; the currency-metric repair is main's instance |
-| 2.08 | a firewall header is not a verdict | EMPTY | — | NEW to main |
-| 2.09 | registry rows excluded from their own sweep | EMPTY | — | NEW to main |
-| 2.10 | one symbol two things ⟹ declare (E1) | EMPTY | — | main's two-referent register — convergence row |
-| 2.11 | a decline is a disposition | EMPTY | — | ≡ NOT-REACHED: THE CONVERGENCE STANDARD row |
-| 2.12 | publish the measured number, not the remembered one | EMPTY | — | |
+| 2.01 | moving-tree runs discharge nothing | ACCEPTED | REBUILT | main's E22-family is adjacent but lacks the stop-editing clause; the rule FIRED on this bench the day it was read — the B1064 draft parked mid-suite, the sweep-ledger mid-suite edits caught+reverted to the suited tree. Adopted with main's own instances. |
+| 2.02 | targeted runs ≠ the full suite | SUPERSEDED | — | main's full-suite-before-push standing law (the certificate family); their cost-story (88/94 targeted green, next full suite 5 red) logged as the price paid elsewhere. |
+| 2.03 | a partial run is not a run | SUPERSEDED | — | the certificate rule's exit-code clause is main law verbatim ("the push gates on the suite's exit code"); their timeout-124/tail-status species noted as instances. |
+| 2.04 | re-verify before restoring | SUPERSEDED | — | verify-incoming-results + R43-3 verify-against-main-first + the owner's standing verify-everything. |
+| 2.05 | carry the riders or don't restore | ACCEPTED | RUN | main has the practice diffusely (locks carry scopes; conventions-carried blocks; addendum-beside); no single main row states it this crisply — their form adopted as the standing sentence. |
+| 2.06 | scope by authorship (E37) | ACCEPTED | RUN | the class ports at lane 3 (row 3.3); the rule adopted now, the E-row lands with the port. |
+| 2.07 | never lock a count the programme moves (E38) | ACCEPTED | REBUILT | main hit the same class independently same-day: the doc-currency phantom-arc repair (count existing arcs, not numeric distance) — convergence evidence; the E-row lands at lane 3 (row 3.4). |
+| 2.08 | a firewall header is not a verdict | ACCEPTED | REBUILT | convergent with lane 0's epoch resolution (row 0.1: the §5 firewall header means nothing-promotes, never no-result) — derived independently on main from B14/B16/B55 full reads. |
+| 2.09 | registry rows excluded from their own sweep | SUPERSEDED | — | b977's own locked design ("triage does not discharge it"). |
+| 2.10 | one symbol two things ⟹ declare (E1) | SUPERSEDED | — | TERMINOLOGY's multi-referent register is main's standing instrument — AND this cross-read found main's newest instance: the E22 double-assignment in ERROR_LEDGER itself (congruence-plateau 2026-07-20 vs verdict-before-certificate 2026-08-11). Repair specced (rekey → E39); the collision joins the E1 register. The convergence row cuts both ways. |
+| 2.11 | a decline is a disposition | ACCEPTED | RUN | ≡ NOT-REACHED — THE CONVERGENCE STANDARD row, formally adopted at digest open; their carry-the-correction clause (B61/B60 phantom wall) adopted with it. |
+| 2.12 | publish the measured number, not the remembered one | SUPERSEDED | — | the PRACTICES banked-number gate + B1063's fetch-currency rule (verdict-time fetches state their release). |
 
 ## Lane 3 — instruments and error classes
 
@@ -102,6 +102,9 @@ resolver; q-citations throughout.*
 structure and the disposition vocabulary now; the completion lock activates with
 the closing arc.**
 
-**Running count (2026-08-13): 57 EMPTY, 1 filled — lane 0 (row 0.1, the epoch
-question) CORRECTED/REBUILT; its consequences (era-tag the pre-B809 thirteen,
-arc-by-arc the post-B809 four, the sweep-epoch rule) bind lanes 4–5.**
+**Running count (2026-08-13, second fill): 45 EMPTY, 13 filled — lane 0
+(row 0.1, epoch: CORRECTED/REBUILT) and lane 2 whole (the manual's 12 rules:
+5 ACCEPTED — 4 with REBUILT-grade same-day instances on this bench — and
+7 SUPERSEDED-cite against main's standing law; rule 2.10's cross-read found
+main's own newest E1 instance, the E22 double-assignment, repaired this bank
+as E39). Lanes 1, 3–5: 45 rows open.**

@@ -154,6 +154,6 @@ Four checks joined the pre-compute protocol this window, each from a banked less
    from a windowed view (`head`/`tail`) or a stale checkout — a search that cannot run
    returns exactly what a search that finds nothing returns.
 
-And the banking order is fixed as the E22 chain: **the push gates on the suite's exit
+And the banking order is fixed as the E39 chain (Review-43-era texts cite it as E22; re-keyed 2026-08-13 — the number belonged to B734's congruence class): **the push gates on the suite's exit
 code for the exact committed tree** — never on gates alone, never through a pipe that
 masks the exit status.

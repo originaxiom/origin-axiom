@@ -13,6 +13,23 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-13, the sweep pauses at ONE question; the cost re-frame; B1064 sealed):**
+The novelty sweep ran its whole arc in one day and ended where the owner's
+instinct pointed: nineteen rows collapsed to ONE independent candidate — the
+K-structure (an S₃ cubic with resolvent ℚ(√77), its three handles 13³/77/953
+being three rows of the field's banked biography), resting at MECHANISM
+KNOWN / CONTENT UNMATCHED with a mechanism-shaped question live (does the
+trialitarian structure force the discriminant to remember the unmeasured
+exponent pair?). The re-frame both seats missed and the owner caught: the
+chain's question is COST, not novelty — zero dials, three priced choices —
+and the successor audit already returned its first two lines (the genesis
+prices are REAL and now fully locked; the two-checklist reconciliation is
+written, four gaps promoted to rules). The m = 5 blind number landed and the
+φ-decoy trap sprung exactly as pre-registered on both benches; the towers
+are twin-derived at all five members; the all-lox certification honestly
+pends on both benches under the new asymmetry principle. B1064 (the
+cusp-torus re-pose, the gravity lane's G1) is SEALED with its prior declared.
+
 **LATEST (2026-08-13, B1063 — the refresh verdict: the fourth crossing CLOSES):**
 The pre-committed refresh was executed once and spent: NuFIT 6.0 read on the
 bench, all four sealed variants miss both CP targets, and the decisive clause
