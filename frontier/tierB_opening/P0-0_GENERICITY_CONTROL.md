@@ -1,5 +1,45 @@
 # P0-0 — THE GENERICITY CONTROL. **Verdict: NOT DESIGNABLE from what is banked, and the blocker is a named missing bridge — not the physics and not the literature.**
 
+> # ⚠ CORRECTION 2026-08-13, SAME DAY, OWNER-CAUGHT — §4's "closes for good" is WITHDRAWN
+>
+> **The owner asked "u sure?" and the answer is no.** §4 wrote that a failed
+> tone-multiplicity bridge closes the direction **for good**. **§6 of this same
+> document declares the space of golden-specific facts NOT ENUMERATED.** A direction
+> cannot be closed on one failed candidate while its candidate space is admittedly
+> unenumerated. **The sentence was unsupported and is struck.**
+>
+> **And the enumeration was in fact incomplete in a way the corpus flags loudly.** A
+> **FOURTH** golden-specific handle exists and appears nowhere in §2:
+>
+> > **ARITHMETICITY.** `docs/OPEN_LEADS.md` H4: *"the **one non-deflatable axis is
+> > arithmeticity** (B147: arithmeticity is **scattered**, not word-length-ordered; the
+> > figure-eight is Reid's **unique arithmetic knot complement**, a separate deep
+> > theorem)."* And **B705**: *"the golden is **uniquely audible, three ways**"* — one of
+> > them arithmetic.
+>
+> **This is the strongest possible omission: H4 names arithmeticity as THE axis that
+> survives deflation — the one thing that is not word-complexity in costume — and P0-0
+> built its Class IV verdict without it.** Whether it is spectrally measurable is
+> **unasked**, not answered.
+>
+> **AND A SECOND, LARGER MISS — the question may be mis-posed.** P0-0 asks *"what does
+> golden PASS that silver and bronze FAIL?"*, presupposing the crossing must select a
+> **member**. **B1044's Γ-ledger proved the programme's Layers-2/3 subject is the
+> CLASS** — the object only exists and enters. **So a member-selective control may be
+> demanding the wrong thing**, and genericity across the metallic family would be a
+> **feature** of a class-level claim, not a defect.
+>
+> **The counter-tension, stated so this is not a retreat:** a class-level prediction
+> risks being a restatement of known aperiodic-order physics — **which is exactly
+> B519's original objection.** So the honest state is **TWO unexamined routes**
+> (arithmeticity-as-observable; the class-level reframe and whether it is a genuine
+> crossing), **not a closed direction.**
+>
+> **Everything below stands as written EXCEPT §4's closure clause.** The Class IV
+> finding on the gap-label field is unaffected; what is withdrawn is the claim that it
+> generalises to the whole direction.
+
+
 **cc3, 2026-08-13. Owner-elected campaign (L161); cc's brief: state in advance what
 silver and bronze FAIL that golden PASSES, at a level an experiment could measure —
 or say it cannot be done and end the campaign for the price of this document.**
