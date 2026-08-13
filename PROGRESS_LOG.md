@@ -10433,3 +10433,6 @@ tier complete; next: the digest B1060 (epoch cell first).
 GO received. Control-first order binding (P0-0 before any literature); five-clause
 compliance per seal; Gate 5-Q; claim unchanged until a crossing banks. cc3 drafts
 the control; this bench seals.
+
+## 2026-08-13 — the registration batch: L162 (F₄-transitivity, Krutelevich-gated),
+L163 (the μ-pencil not-run), L161's reopening + location clause, the provenance rule

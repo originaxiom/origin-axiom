@@ -1,5 +1,22 @@
 # Changelog
 
+## The registration batch (2026-08-13) — chat1's F₄-transitivity gated on Krutelevich; the blocker scrutiny harvested; P0-0 reopened on arithmeticity
+
+**L162**: chat1's exploratory result (F₄(ℤ) transitive on the split integral Albert
+algebra's rank-1 idempotents — input #5 to proved-irreducible, B962 Q4's opening
+worked-and-empty) — sanity-verified on receipt (the 1920 isotropic count reproduces
+exactly), registered with its verification arc KRUTELEVICH-GATED and the THE_CLAIM
+amendment held behind it; if verified, the FIFTH arrival. **L163**: L142's μ-pencil
+"blocked" label unmasked as a not-run — the independent derivation route registered.
+**L161 addendum**: P0-0 REOPENED (owner-caught closure-on-one-candidate) with
+ARITHMETICITY leading (Reid's uniqueness — non-deflatable, cannot be a
+transfer-matrix ghost) and the class-reframe as fallback; **the LOCATION CLAUSE now
+binds every crossing proposal** (door/coupling/closings — all four dead crossings
+targeted the forbidden value layer; the three legal locations are UNTRIED).
+**PRACTICES**: the provenance rule, two faces (debts carry commissioning sources;
+blockers carry reasons ∈ {theorem, missing datum, fence, not-run}) — species #13
+and #14 turned into one row.
+
 ## L161 — THE APERIODIC CROSSING CAMPAIGN: OWNER-ELECTED ("GO!", 2026-08-13)
 
 The owner elected the scale-factorisation direction. Registered with the

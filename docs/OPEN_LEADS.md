@@ -1679,9 +1679,49 @@ every cell of this campaign, checked at each seal.**
 - **P0-2** whether the five tones are OBSERVABLES there, or transfer-matrix
   invariants no experiment resolves.
 
+**ADDENDUM 2026-08-13 (the blocker scrutiny, owner-caught §1):** P0-0's first
+draft closed the direction on one failed candidate — REOPENED with two routes:
+**ARITHMETICITY leads** (H4's "one non-deflatable axis"; Reid's uniqueness — the
+figure-eight is THE arithmetic knot complement: golden-specific, banked, and unlike
+the tones it cannot be a transfer-matrix ghost) and **the class-level reframe**
+(B1044: the subject IS the class — genericity across the family may be the feature;
+B519's counter-tension carried). **And the LOCATION CLAUSE binds every future
+crossing proposal (from §4 of the same scrutiny): its location must be stated ∈
+{the door, the coupling, the closings} — all four dead crossings targeted the value
+layer, the one place the type law forbids; the three legal locations are UNTRIED.**
+
 **Fences**: Gate 5-Q throughout Phase 0 (no measured value enters any main
 artifact until a sealed crossing cell exists with its prior declared);
 exploratory-numerics rigor on anything numeric; the reframe's claim-language
 ("a theory of an aperiodic-order universality class; the SM's membership OPEN")
 enters THE_CLAIM only if/when a crossing cell BANKS — the election changes the
 work-queue, not the claim.
+
+
+## L162 — THE F₄-TRANSITIVITY VERIFICATION (chat1's handoff 2026-08-10, received 2026-08-13; KRUTELEVICH-GATED)
+
+Chat1 (web seat, exploratory, unsealed): **F₄(ℤ) is transitive on rank-1
+idempotents of the SPLIT integral Albert algebra** — closing B962 Q4's "one live
+opening" and moving input #5 (the rank-closing VEV direction) to PROVED IRREDUCIBLE
+in every object-relevant setting (the division form's 3 rigid idempotents stand and
+stay irrelevant: B904 banks the build as split). Mechanism: isotropy ⟺ nilpotency
+(B³ = 0 ⟺ N(a) = 0); the split norm's 1920 box-isotropics supply integral
+unipotents; the division form has none. **Sanity-verified on receipt (this bench):
+the 1920 count reproduces exactly; division 0; the exotic diagonal's rank-1
+signature consistent.** Their defects D1–D4 logged in the handoff (incl. their own
+hardcoded pass line — species instance, self-caught). **The verification arc
+(B1061): V0 = READ KRUTELEVICH 2002 (J. Algebra 253) FIRST — chat1 located, never
+read; if the orbit count is there, this rebanks as a cited re-derivation. Then:
+REBUILT-grade verification on B904/B883's banked machinery (never chat1's uncoded
+pipeline): automorphy on all three slots; the 15,504-census reachability; the
+wider box. GATED ON IT: the THE_CLAIM amendment (input #5 → proved irreducible;
+the five-input story closing: every input an orbit the object's symmetry sweeps)
+and the B962 Q4 amendment. If verified: the FIFTH arrival at the window's shape.**
+
+## L163 — THE μ-PENCIL INDEPENDENT DERIVATION (a NOT-RUN unmasked; from the blocker scrutiny §2)
+
+L142's "blocked on L135" label corrected: B961 §5's own text offers the route that
+needs nobody's definitions — **derive the orthogonal charge frame from banked
+structure, independently**. "A separate cell" is a not-run, not an obstruction; the
+label propagated without its reason (species #14). The cell: the derivation, then
+L142's three-sites question re-poses with the μ-pencil live.

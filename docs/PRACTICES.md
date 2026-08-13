@@ -660,3 +660,14 @@ banking seat's two-field compositum line (dropped the √−7 leg; B704 banks th
 amplified unchecked by the audit seat as "the most valuable single line"; caught only
 when the B704 grep ran. Twin species: window-read-as-whole struck twice in the same
 thread (both seats truncated B733 one line above its explicit B704 bridge citation).
+
+Provenance of debts and blockers (2026-08-13, from species #13 and #14 — one rule,
+two faces): **a debt row carries its COMMISSIONING SOURCE the way a law row carries
+its arc** (the manual misattribution survived both benches' ledger discipline
+because ledgers police shrinkage, not provenance); **a blocker row carries its
+BLOCKING REASON, one of {theorem, missing datum, fence, not-run}** — a row that
+cannot name which is a NOT-RUN until proven otherwise ("blocked" and "not-run" are
+different words this corpus had been spending as synonyms; the scrutiny's score:
+seven blockers examined, four were not blockers, and none of the three genuine ones
+was a wall). Enforcement: MANUAL at write-time; a gate-shaped check is a digest-
+window candidate.
