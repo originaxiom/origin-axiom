@@ -32,8 +32,12 @@ WHAT IT FOUND, and none of it is flattering. The first one outranks the rest:
      probability of 30/30 under it is 3e-6. Eighteen of the thirty bodies carry retraction,
      refutation, decline or NON-FINDING language. This window discovered L166 -- "the verdict
      field does not describe the body" -- and then instanced it thirty times out of thirty.
-  2. The window's own headline metric, the consolidation-debt count, SELECTS ON `verdict:`.
-     It counts 175 and cannot see 191 further uncited arcs. It shows 48% of its own subject.
+  2. RETRACTED BY THIS REVIEW ITSELF. The first form claimed the consolidation-debt metric
+     "counts 175 and cannot see 191 -- 48% of its own subject", as L166's defect in the window's
+     own metric. WRONG: the scope is DECLARED (DEBT_LEDGER's own table, added by qB1033), the code
+     agrees (representation_sweep.py:69), and the NEGATIVE complement is covered by a GATED
+     register. What survives is a partition remainder an order of magnitude smaller -- OPEN and
+     RETRACTED fall outside BOTH registers: 41 arcs corpus-wide, 20 of them uncited.
   3. The handoff's correction tally partitions 24 corrections as 12 + 6 + 4 + 1 = 23.
      B1052's instrument checked `>= 20`, so a bound gated an exact claim and the gap survived.
   4. 29 of 30 arcs are unsealed; 2 of those 29 declare it. Main's R43/R44 declare every one.
@@ -428,12 +432,50 @@ rec("debt_as_the_metric_counts_it", counted)
 rec("uncited_arcs_invisible_to_the_metric_by_verdict_field", dict(invisible))
 rec("share_of_the_uncited_population_the_metric_shows", round(counted / (counted + inv), 4))
 
-chk("FINDING__the_debt_metric_SELECTS_ON_the_verdict_field",
+# RETRACTED AND REPLACED. The three checks that stood here locked the review's ORIGINAL headline:
+# "the metric counts 175 and is blind to 191 -- 48% of its own subject", framed as L166's defect.
+# THAT FRAMING WAS WRONG and the checks would have certified it, because the arithmetic is right
+# and the SENTENCE was not -- which is why a lock over a number never certifies the claim built on
+# it. What the re-read found:
+#
+#   * DEBT_LEDGER DECLARES its scope, in a table added by qB1033 -- an arc of this same window:
+#     REPRESENTATION_TRIAGE = PROVED u NEGATIVE, this ledger = PROVED, "each right for its own
+#     question";
+#   * representation_sweep.py backs that in CODE, not prose: it rejects any verdict outside
+#     (PROVED, NEGATIVE);
+#   * and that register is GATED -- `representation-sweep` fails the build on an untriaged arc.
+#     So the 191 "invisible" arcs are covered by a STRONGER mechanism than the ungated ledger.
+#
+# What survives is a PARTITION REMAINDER, an order of magnitude smaller: the two registers divide
+# the corpus by verdict and neither takes OPEN or RETRACTED.
+chk("the_debt_metric_does_select_on_the_verdict_field__the_factual_part",
     'verdict") == "PROVED"' in B1052V or "verdict'] == 'PROVED'" in B1052V)
-chk("FINDING__and_is_therefore_blind_to_more_arcs_than_it_counts", inv > counted,
-    counted=counted, invisible=inv)
-chk("FINDING__the_metric_shows_under_sixty_percent_of_its_own_subject",
-    counted / (counted + inv) < 0.6, share=round(counted / (counted + inv), 4))
+DL = read("docs/consolidation/DEBT_LEDGER.md")
+RS = read("scripts/checks/representation_sweep.py")
+chk("CORRECTION__the_scope_is_DECLARED_in_the_ledger_itself_by_this_windows_own_qB1033",
+    "| verdicts | PROVED ∪ NEGATIVE | PROVED |" in DL and "B1033" in DL)
+chk("CORRECTION__and_the_CODE_agrees_so_it_is_not_merely_prose",
+    'not in ("PROVED", "NEGATIVE")' in RS)
+_gates = read("scripts/gates/gates.py")
+chk("CORRECTION__the_NEGATIVE_complement_is_covered_by_a_GATED_register",
+    '"representation-sweep"' in _gates and "def gate_representation_sweep" in _gates
+    and "An untriaged" in read("docs/REPRESENTATION_TRIAGE.md"))
+
+remainder = {k: v for k, v in invisible.items() if k not in ("PROVED", "NEGATIVE")}
+outside_both = Counter(v.get("verdict") for _, _, v in ALL
+                       if v.get("verdict") not in ("PROVED", "NEGATIVE"))
+rec("verdicts_outside_BOTH_registers_corpus_wide", dict(outside_both))
+rec("uncited_non_instrument_arcs_outside_both_registers", dict(remainder))
+chk("WHAT_SURVIVES__OPEN_and_RETRACTED_fall_outside_BOTH_registers",
+    set(outside_both) <= {"OPEN", "RETRACTED"} and sum(outside_both.values()) > 0,
+    outside=dict(outside_both))
+chk("...and_the_real_gap_is_an_order_of_magnitude_SMALLER_than_the_retracted_claim",
+    0 < sum(remainder.values()) < inv / 5, gap=sum(remainder.values()), retracted_claim=inv)
+_art_rel = "docs/progress/REVIEW_1_CONSOLIDATION_SEAT_2026-08-12.md"
+chk("...and_the_review_RETRACTS_the_original_in_place_rather_than_softening_it",
+    ("RETRACTED AND REPLACED" in read(_art_rel)
+     and "That framing does not survive" in flat(read(_art_rel)))
+    if (ROOT / _art_rel).is_file() else True)
 # The window's own L166 is the rule this violates, and it is registered as a lead, not a fix.
 chk("L166_is_registered_as_an_OPEN_LEAD_awaiting_the_owner",
     re.search(r"## L166 —.*PROVED", read("docs/OPEN_LEADS.md")) is not None)

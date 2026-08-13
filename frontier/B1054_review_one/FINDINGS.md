@@ -21,7 +21,7 @@ context. The self-measurement hazard is this window's own **E37**, and the commi
 with **structure rather than prohibition**: main's digest re-grades the review one step later.
 
 That only works if the digest can **re-run** the numbers instead of re-reading the prose. So every
-countable claim in the artifact is produced here — no arguments, no network required, **53/53
+countable claim in the artifact is produced here — no arguments, no network required, **72/72
 checks pass**.
 
 ## What the review found, ordered by how badly it reflects on the window
@@ -30,10 +30,18 @@ checks pass**.
 
 | | PROVED | NEGATIVE | OPEN | RETRACTED |
 |---|---|---|---|---|
-| corpus, **this window excluded** (n = 930) | 610 (**65.5 %**) | 279 | 31 | 10 |
+| corpus, **this window excluded** (n = 930) | 610 (**65.5 %** pooled) | 279 | 31 | 10 |
 | **this window** (n = 30) | **30 (100 %)** | 0 | 0 | 0 |
 
-**P(30/30) ≈ 3 × 10⁻⁶** against a base rate measured with the window excluded (**E37**). And the
+**⚠ THE P-VALUE WAS CORRECTED (E20, base rate).** The first form pooled two strata and read
+`P(30/30) ≈ 3 × 10⁻⁶`. Instrument arcs are legitimately more often `PROVED`, so stratified, with
+this window excluded from every denominator: **instrument 73/90 = 81.1 %**, **plain
+538/841 = 63.97 %**. This window is 5 instrument + 25 plain, giving **P(5/5) = 0.35 — not
+significant** and **P(25/25) = 1.4 × 10⁻⁵ — the real finding.** The five instrument arcs are
+withdrawn from the claim; it stands on the twenty-five.
+
+**P(25/25 plain arcs) ≈ 1.4 × 10⁻⁵** against a stratified base rate measured with the window
+excluded (**E37**). And the
 bodies disagree: **eighteen of thirty** carry retraction, refutation, decline or non-finding
 language, and **qB1035 and qB1041 declare an outright NON-FINDING in the body**.
 
@@ -51,13 +59,22 @@ not an absence of judgement.**
 The consolidation debt — the number this window published most, **245 → 175** — is defined
 `verdict == "PROVED" and not instrument and not cited`. Measured:
 
-- **175** uncited arcs counted;
-- **191** uncited arcs invisible to it (`NEGATIVE` 171 · `OPEN` 16 · `RETRACTED` 4);
-- **the metric shows 48 % of its own subject.**
+**⚠ THE FIRST FORM OF THIS FINDING WAS WRONG AND IS RETRACTED** (see the review's §8). It read
+*"counts 175, blind to 191, 48 % of its own subject."* The scope is **declared** — `DEBT_LEDGER`
+says so in a table added by qB1033 — and the `NEGATIVE` complement is covered by the **gated**
+`REPRESENTATION_TRIAGE` (`representation_sweep.py:69`), a stronger mechanism than the ledger. What
+survives:
 
-The 171 uncited `NEGATIVE` arcs are the sharp case: `LAW_MAP` §E is the curated home for proved
-impossibilities and holds **six rows**. This does not make 175 wrong — it makes it the answer to a
-narrower question than the sentence around it implied.
+- the two registers partition by verdict, and **neither takes the remainder**;
+- **`OPEN` 31 + `RETRACTED` 10 = 41 arcs** sit outside both scopes corpus-wide;
+- **20** of those are uncited and non-instrument; the **4 uncited `RETRACTED`** are the least
+  defensible cell.
+
+**175 was never wrong**; it answers *"how many arcs with a POSITIVE verdict are uncited"*. What was
+wrong was my sentence around it. **Why I got it wrong is the more useful finding:** I read the
+metric's code and the ledger's rows, and not the section of that same file — twenty lines above the
+rows — which declares the scope. **I triaged a document by the part that answered my question**,
+which is qL166's own shape performed by the reviewer rather than found by him.
 
 ### 3. The handoff's correction tally does not sum, and its instrument gated a bound.
 
@@ -106,13 +123,16 @@ routing is the defect, not the diligence.**
 ## Reproduce
 
 ```
-python3 frontier/B1054_review_one/verify.py          # 53/53; writes results.json
+python3 frontier/B1054_review_one/verify.py          # 72/72; writes results.json
 pytest tests/test_b1054_review_one.py -q
-for d in frontier/B10{2,3,4,5}*/; do for f in $d*.py; do python3 "$f"; done; done   # 1024–1053
+python3 scripts/checks/instrument_freshness.py       # every arc instrument, re-run for real
 ```
 
-The last line is the review's **RUN** grade: all **29** reproducers in the window were
-re-executed at this anchor — **29 pass, 0 fail**. (qB1025 carries none; it is the suite-collection
-repair and declares this in its own body.) Everything else in the review is graded **REBUILT** —
+**The RUN grade, corrected.** An earlier form of this arc reported *"29 reproducers re-executed,
+29 pass, 0 fail"* — measured by **exit code**, and **28 of the 30 scripts return 0 whether they
+pass or fail**. That sweep was reading a harness that cannot fail. The honest instrument is
+`instrument_freshness.py`, which reads each arc's own recorded verdict and distinguishes
+STALE-GREEN / RED / KEY-LOSS / CRASH; it reports **28 instruments re-run, all green**.
+(qB1025 carries no reproducer; it is the suite-collection repair and declares this in its own body.) Everything else in the review is graded **REBUILT** —
 produced from banked inputs without the original code — and what nobody examined is marked
 **NOT-REACHED** and counted, never implied rejected.

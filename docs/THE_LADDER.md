@@ -192,7 +192,16 @@ believes was examined.** Four independent instances, two of them rungs written h
 | 1 | `kill_graph` face-attachment | **positives** — it classifies kills, so faces describe what the object is NOT | **X16**, this file |
 | 2 | `scripts/forcing/build.py` | files not named exactly `FINDINGS.md` — **45 arcs never ingested**, including B1–B5 | **X17**, this file |
 | 3 | the 2026-07-21 negatives hunt | arcs whose body stalled but whose metadata says `PROVED` — **14 arcs** removed from its population | **L166** (B1050/B1053) |
-| 4 | the consolidation-debt metric | arcs whose verdict is not `PROVED` — it counts **175** and cannot see **191** | **B1054 §8**, this review |
+| 4 | the **pair** of debt registers, taken together | `OPEN` and `RETRACTED` — `DEBT_LEDGER` takes `PROVED`, the gated `REPRESENTATION_TRIAGE` takes `PROVED ∪ NEGATIVE`, and **neither takes the remainder**: **41 arcs corpus-wide, 20 uncited** | **B1054 §8**, this review |
+
+> **⚠ Row 4 is the CORRECTED form.** Review 1 first wrote it as *"the debt metric counts 175 and
+> cannot see 191 — 48 % of its own subject"* and **that was wrong**: the ledger DECLARES its
+> scope (qB1033's table, in the file itself), the code agrees (`representation_sweep.py:69`), and
+> the `NEGATIVE` complement is covered by a **gated** register — a stronger mechanism than the
+> ledger it was being measured against. **The convergence survives, one order of magnitude
+> smaller and differently shaped: not a blind metric, but a partition with a remainder.** The
+> retraction is itself the fourth instance's best evidence — the reviewer read the part of the
+> document that answered his question and not the part that scoped it.
 
 **The consequence for this file specifically, and it is rule 1's business:** *"before writing 'the
 object does not supply X', find X here — not present ⟹ the honest words are 'not checked'."*

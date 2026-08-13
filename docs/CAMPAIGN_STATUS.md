@@ -1656,9 +1656,11 @@ pre-empted the paper had it not lived at the **toral** level while the four-stra
 > instanced thirty times by arcs banked after L166 was written.** The control that makes it fair:
 > the same arcs' **atlas `status` DOES discriminate** (banked 18 · dead 9 · dormant 1 · open 2),
 > so it is a **routing failure between two metadata fields**, not absent judgement. **And the
-> window's headline metric inherits it** — the consolidation debt selects on `verdict == PROVED`,
-> counts **175** and cannot see **191** (`NEGATIVE` 171 · `OPEN` 16 · `RETRACTED` 4): **48 % of
-> its own subject.** Also found: the handoff's correction tally **sums to 23 against 24 rows**
+> window's headline metric selects on the same field** — but Review 1's first reading of that was
+> **WRONG and is retracted in its own §8**: the scope is DECLARED in `DEBT_LEDGER` (by qB1033) and
+> the `NEGATIVE` complement is covered by the **gated** `REPRESENTATION_TRIAGE`. What survives is
+> smaller and differently shaped: the two registers partition by verdict and **neither takes the
+> remainder** — **`OPEN` 31 + `RETRACTED` 10 = 41 arcs outside both, 20 uncited**. Also found: the handoff's correction tally **sums to 23 against 24 rows**
 > (gated by `n_corr >= 20`, a bound for an exact claim); **29 unsealed arcs, 2 declaring**;
 > **`git branch -r --no-merged` under-reports** against `ls-remote`. Advancement: **27 LAW_MAP
 > rows — 12 restorations, 4 re-verifications, 11 new** — all filed in §A though **seven state

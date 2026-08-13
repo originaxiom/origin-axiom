@@ -404,9 +404,12 @@ defect and it outranks everything in §1:
 > decline or non-finding language and **two declare an outright NON-FINDING**. That is **L166,
 > committed thirty times by arcs banked after L166 was written.** The same arcs' **atlas `status`
 > discriminates four ways**, so the judgement exists and is not routed to the field the hunts read.
-> **And the debt number this handoff publishes — 245 → 175 — selects on that same field**: it
-> counts 175 uncited arcs and is blind to 191 more. **Quote it with its qualifier: it answers
-> "how many arcs with a POSITIVE verdict are uncited," not "how much the curated surfaces miss."**
+> **The debt number this handoff publishes — 245 → 175 — selects on that same field**, and
+> **Review 1's first reading of that was WRONG and is retracted**: the scope is DECLARED (in
+> `DEBT_LEDGER` itself, by qB1033) and the `NEGATIVE` complement is covered by the **gated**
+> `REPRESENTATION_TRIAGE`. **Quote 175 with its qualifier — it answers "how many arcs with a
+> POSITIVE verdict are uncited" — and carry the real gap: `OPEN` and `RETRACTED` fall outside
+> BOTH registers, 41 arcs corpus-wide, 20 of them uncited.**
 
 ---
 
@@ -440,10 +443,12 @@ re-running it, not by reading around it.
    declare a NON-FINDING. The control: the same arcs' **atlas `status` discriminates four ways**
    (banked 18 · dead 9 · dormant 1 · open 2), so this is a **routing failure between two metadata
    fields**, not absent judgement. **Cite cc3's convergence, do not re-adjudicate alone.**
-3. **The consolidation-debt metric selects on `verdict:`** — counts **175**, blind to **191**
-   (`NEGATIVE` 171 · `OPEN` 16 · `RETRACTED` 4): **48 % of its own subject.** The figure is not
-   wrong; it answers *"how many arcs with a POSITIVE verdict are uncited."* **Quote it with that
-   qualifier.**
+3. **The two debt registers partition by verdict and neither takes the remainder.**
+   `DEBT_LEDGER` = `PROVED`; `REPRESENTATION_TRIAGE` = `PROVED ∪ NEGATIVE`, **gated**. So
+   **`OPEN` (31) and `RETRACTED` (10) are outside both** — 20 of the 41 uncited and
+   non-instrument. *(Review 1's first form of this claimed the metric was "blind to 191 / 48 % of
+   its own subject". **That was a scope error and is retracted in §8** — the scope is declared and
+   the `NEGATIVE` complement is gated. **Re-grade the retraction, not the original.**)*
 
 ### Owned by MAIN — three items this seat cannot discharge from a branch that never merges
 

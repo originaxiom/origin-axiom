@@ -25,7 +25,15 @@
   "...and_the_per_push_version_is_REGISTERED_rather_than_pretended": {
    "pass": true
   },
+  "...and_the_real_gap_is_an_order_of_magnitude_SMALLER_than_the_retracted_claim": {
+   "gap": 20,
+   "pass": true,
+   "retracted_claim": 191
+  },
   "...and_the_ref_it_misses_is_the_relay_audit_branch": {
+   "pass": true
+  },
+  "...and_the_review_RETRACTS_the_original_in_place_rather_than_softening_it": {
    "pass": true
   },
   "...so_the_judgement_exists__it_is_the_verdict_field_that_does_not_carry_it": {
@@ -50,9 +58,9 @@
    "pass": true
   },
   "ARTIFACT_quotes_this_instruments_ACTUAL_check_count": {
-   "actual": 68,
+   "actual": 72,
    "pass": true,
-   "quoted": "68/68 checks pass at this anchor"
+   "quoted": "72/72 checks pass at this anchor"
   },
   "ARTIFACT_scopes_its_measurements_by_authorship": {
    "pass": true
@@ -108,7 +116,16 @@
     1026
    ]
   },
+  "CORRECTION__and_the_CODE_agrees_so_it_is_not_merely_prose": {
+   "pass": true
+  },
+  "CORRECTION__the_NEGATIVE_complement_is_covered_by_a_GATED_register": {
+   "pass": true
+  },
   "CORRECTION__the_commission_read_this_as_no_prior_review_existing__it_is_the_fork_instead": {
+   "pass": true
+  },
+  "CORRECTION__the_scope_is_DECLARED_in_the_ledger_itself_by_this_windows_own_qB1033": {
    "pass": true
   },
   "E36_artifact_clobber_is_registered": {
@@ -130,11 +147,6 @@
    "pass": true
   },
   "FINDING__B1052_gated_that_exact_claim_with_a_LOWER_BOUND_of_twenty": {
-   "pass": true
-  },
-  "FINDING__and_is_therefore_blind_to_more_arcs_than_it_counts": {
-   "counted": 175,
-   "invisible": 191,
    "pass": true
   },
   "FINDING__arcs_whose_body_declares_a_NON_FINDING_still_say_PROVED": {
@@ -173,17 +185,10 @@
    "base": 0.6563,
    "pass": true
   },
-  "FINDING__the_debt_metric_SELECTS_ON_the_verdict_field": {
-   "pass": true
-  },
   "FINDING__the_handoffs_catch_mechanism_tally_sums_to_23_not_24": {
    "pass": true,
    "rows": 24,
    "tally": 23
-  },
-  "FINDING__the_metric_shows_under_sixty_percent_of_its_own_subject": {
-   "pass": true,
-   "share": 0.4781
   },
   "FINDING__twenty_nine_arcs_are_unsealed_and_almost_none_declares_it": {
    "declaring": 2,
@@ -214,6 +219,13 @@
    "lag": 684,
    "pass": true
   },
+  "WHAT_SURVIVES__OPEN_and_RETRACTED_fall_outside_BOTH_registers": {
+   "outside": {
+    "OPEN": 31,
+    "RETRACTED": 10
+   },
+   "pass": true
+  },
   "and_Review_42s_heading_is_single_hash_which_a_naive_sweep_misses": {
    "pass": true
   },
@@ -237,6 +249,9 @@
    "pass": true
   },
   "nothing_from_this_window_was_promoted_to_CLAIMS_md__the_firewall_held": {
+   "pass": true
+  },
+  "the_debt_metric_does_select_on_the_verdict_field__the_factual_part": {
    "pass": true
   },
   "the_handoff_enumerates_twenty_four_numbered_corrections": {
@@ -343,10 +358,18 @@
    "OPEN": 16,
    "RETRACTED": 4
   },
+  "uncited_non_instrument_arcs_outside_both_registers": {
+   "OPEN": 16,
+   "RETRACTED": 4
+  },
   "unsealed_arcs_that_DECLARE_being_unsealed": [
    "B1025_suite_collection_repair",
    "B1026_the_one_involution"
   ],
+  "verdicts_outside_BOTH_registers_corpus_wide": {
+   "OPEN": 31,
+   "RETRACTED": 10
+  },
   "window_arcs_with_a_seal": [
    1024
   ],

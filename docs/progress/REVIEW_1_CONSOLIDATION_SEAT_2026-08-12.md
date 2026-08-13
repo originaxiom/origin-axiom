@@ -12,7 +12,7 @@ heading inside it collides with main's own Review 1. This is the consolidation s
 review, on a branch that never merges, so it is a standalone document.
 
 **Every number below is produced by `frontier/B1054_review_one/verify.py`** — no arguments, no
-network required, re-runnable by the digest. 68/68 checks pass at this anchor. Where the review
+network required, re-runnable by the digest. 72/72 checks pass at this anchor. Where the review
 quotes a figure, the instrument measured it; where the instrument only *records* a figure without
 locking it, that is deliberate (**E38**: a review that pins an absolute count inside a programme
 whose purpose is to move it breaks the moment the work succeeds — this window found two live
@@ -208,10 +208,25 @@ itself.**
 
 | | PROVED | NEGATIVE | OPEN | RETRACTED |
 |---|---|---|---|---|
-| **corpus, this window excluded** (n = 930) | 610 (**65.5 %**) | 279 | 31 | 10 |
+| **corpus, this window excluded** (n = 930) | 610 (**65.5 %** pooled; **63.97 %** on the plain stratum, **81.1 %** on instruments) | 279 | 31 | 10 |
 | **this window** (n = 30) | **30 (100 %)** | 0 | 0 | 0 |
 
-Against a 65.5 % base rate measured with this window excluded, **P(30/30) ≈ 3 × 10⁻⁶**. This is a
+> **⚠ CORRECTED, and the correction is a base-rate one (E20).** My first form read *"P(30/30)
+> against 65.5 % ≈ 3 × 10⁻⁶"* — computed against **all** other arcs. But **instrument arcs are
+> legitimately more often `PROVED`**, so that pooled the strata. Stratified, with this window
+> excluded from every denominator: **instrument arcs 73/90 = 81.1 %**, plain arcs
+> **538/841 = 63.97 %**. My window is **5 instrument + 25 plain**, so:
+>
+> | stratum | this window | base rate | P |
+> |---|---|---|---|
+> | `instrument: true` | 5/5 | 81.1 % | **0.35 — not significant** |
+> | `instrument: false` | **25/25** | 63.97 % | **1.4 × 10⁻⁵** |
+>
+> **The finding survives on the 25 plain arcs alone**, and the honest figure is **1.4 × 10⁻⁵**,
+> not 3 × 10⁻⁶. The five instrument arcs carry no signal and are withdrawn from the claim.
+
+Against the **stratified** base rate measured with this window excluded, **P(25/25 plain arcs) ≈
+1.4 × 10⁻⁵**. This is a
 convention, not a coincidence. And the bodies do not agree with it: **eighteen of the thirty**
 carry retraction, refutation, decline or non-finding language, and **two — qB1035 and qB1041 —
 declare an outright NON-FINDING in the body while the metadata says PROVED.**
@@ -395,34 +410,67 @@ existing text**, which is what a consolidation window should be putting on that 
 `CLAIMS.md` insertion stays deferred with the blocker named — it is itself a declared currency
 debt (lag 17), unchanged from R43 and R44.
 
-## 8. The headline finding — the window's own metric triages on the field its own lead forbids
+## 8. RETRACTED AND REPLACED — the debt metric's "blindness", re-measured against the registers
 
-The number this window published most often is the consolidation debt: **245 → 175**. Its
-definition, in the instrument:
+> **⚠ THIS SECTION'S FIRST FORM WAS WRONG, AND IT WAS THIS REVIEW'S HEADLINE CLAIM.** It read:
+> *"the metric counts 175 and cannot see 191 — 48 % of its own subject,"* framed as **qL166's
+> defect committed by the window's own headline metric.** **That framing does not survive
+> checking, and the error is mine.** It is retracted here in place, at the top of the section it
+> ruled, rather than softened downstream. What replaces it is smaller, real, and differently
+> shaped.
 
-```python
-if v.get("verdict") == "PROVED" and not v.get("instrument") and not cited(f"B{n}"):
-    debt += 1
-```
+**What I got wrong.** The debt metric does select on `verdict == "PROVED"` — that part is factual.
+I called the scope *undeclared* and treated the complement as unowned. **Both are false:**
 
-**It selects on `verdict:`.** That is the exact operation cc3's protocol makes forbidden and that
-this window's own qL166 exists to warn against. Measured:
+- **`docs/consolidation/DEBT_LEDGER.md` declares the scope explicitly**, in a comparison table —
+  added by **qB1033, an arc of this very window**: `REPRESENTATION_TRIAGE` covers
+  **`PROVED ∪ NEGATIVE`**; *"this ledger"* covers **`PROVED`**; and the two *"differ, and each is
+  right for its own question."*
+- **Verified in the code, not the prose** — this window's own rule — `scripts/checks/
+  representation_sweep.py:69`: `if d.get("verdict") not in ("PROVED", "NEGATIVE"): continue`.
+- **The `NEGATIVE` arcs are not unowned; they are owned by a GATED register.** The
+  `representation-sweep` gate **fails the build** on an untriaged arc: *"an untriaged
+  unrepresented arc is the defect."* That is a **stronger** mechanism than the ungated ledger I
+  was measuring against — so the 171 I called invisible are covered better than the 175 I called
+  counted.
 
-| | arcs |
-|---|---|
-| uncited, non-instrument, **counted** by the metric (`PROVED`) | **175** |
-| uncited, non-instrument, **invisible** to it (`NEGATIVE` 171 · `OPEN` 16 · `RETRACTED` 4) | **191** |
-| **the metric's share of its own subject** | **48 %** |
+**So my "48 %" compared one register's scope against the union of two registers' subject matter,
+and reported the difference as blindness.** That is a scope error, not an arithmetic one — the
+numbers were right and the sentence around them was wrong. Which is, exactly, the defect this
+window spent thirty arcs cataloguing, committed by the review that catalogued it.
 
-**The metric is blind to more arcs than it counts.** The 171 uncited `NEGATIVE` arcs are the
-sharpest case: `LAW_MAP` §E — *"The walls (proved impossibilities — kept dead)"* — is the curated
-home for exactly that material, and it holds **six rows**. The four uncited `RETRACTED` arcs are
-unambiguous debt under any reading.
+### What actually survives, measured
 
-**This does not make 175 wrong.** It makes it an answer to a narrower question than the sentence
-around it implies: *"how many arcs with a positive verdict are uncited"* — not *"how much of the
-corpus a curated surface fails to carry."* **Registered R1-9, owner SEAT**, and flagged to
-**MAIN/DIGEST** as the load-bearing claim of this window most worth independent re-grading.
+The two registers partition by verdict — and **a partition can leave a remainder**:
+
+| verdict | in `DEBT_LEDGER` (`PROVED`) | in `REPRESENTATION_TRIAGE` (`PROVED ∪ NEGATIVE`, gated) |
+|---|---|---|
+| `PROVED` | ✓ | ✓ |
+| `NEGATIVE` | — | ✓ |
+| **`OPEN`** | **—** | **—** |
+| **`RETRACTED`** | **—** | **—** |
+
+**41 arcs corpus-wide (`OPEN` 31 · `RETRACTED` 10) fall outside both registers' declared verdict
+scope**, of which **20 are uncited on the five curated surfaces and are not instruments**
+(`OPEN` 16 · `RETRACTED` 4). *(This window excluded from both figures — E37.)*
+
+**Twenty, not one hundred and ninety-one.** An order of magnitude smaller, and a different claim:
+not *"a metric hides its subject"* but *"two registers divide the corpus by verdict and neither
+takes the remainder."* The four uncited `RETRACTED` arcs are the least defensible cell — a
+retracted result carried on no surface and swept by no register.
+
+**Registered R1-9 (rewritten), owner SEAT.** It remains flagged to **MAIN/DIGEST**, now for a
+different reason: **the digest should re-grade the retraction, not the original claim.** A review
+whose headline needed retracting is worth checking twice.
+
+### Why I got it wrong, since that is the more useful finding
+
+I read `DEBT_LEDGER`'s **definition** and the metric's **code**, and did not read the **section of
+the same file that declares the scope** — twenty lines above the rows I was counting. **I triaged
+a document by the part that answered my question.** That is qL166's shape (select on the field
+that is convenient) and B1043's shape (the exclusion swallowed the context) at once, performed by
+the reviewer rather than found by him. It is recorded here because a taxonomy that only catalogues
+other people's instances is a taxonomy nobody has tested.
 
 ## 9. Honest assessment, and what this review did not reach
 
@@ -464,10 +512,10 @@ because none of the reviewers that see it is the one that can fix it.
 - [ ] R1-3: the `CLOUD_ALIAS_TABLE.md` resolver is **not present under `docs/` at `main@6d52d65`** though the commission cites it as banked; the qB/qL convention currently has no artifact (owner: MAIN)
 - [ ] R1-4: 27 window rows sit in `LAW_MAP` §A; at least 7 state programme methodology, and no section exists for them — widen §A's scope, add a section, or re-home the rows (owner: OWNER)
 - [ ] R1-5: the handoff's catch-mechanism partition sums to 23 against 24 numbered corrections, and §2.2 carries no attribution column; qB1052 gated it with `>= 20` (owner: SEAT)
-- [ ] R1-6: the `verdict:` convention — 30/30 `PROVED` against a 65.5 % corpus base rate (window excluded); qL166's disposition (owner: OWNER; cite cc3's 28-candidate reproduction, do not re-adjudicate alone)
+- [ ] R1-6: the `verdict:` convention — 30/30 `PROVED`, and **25/25 on the plain-arc stratum against 63.97 %, P = 1.4e-5** (window excluded from every denominator); qL166's disposition (owner: OWNER; cite cc3's 28-candidate reproduction, do not re-adjudicate alone)
 - [ ] R1-7: re-grade this window's thirty verdicts **against bodies**, whatever convention R1-6 settles — never by relabelling rule (owner: SEAT; blocked by R1-6)
 - [ ] R1-8: 29 unsealed arcs, 2 declaring — add the declaration, per R43/R44's standard (owner: SEAT)
-- [ ] R1-9: the consolidation-debt metric selects on `verdict:` and shows 48 % of the uncited population; re-state the published figure with its qualifier, or widen the metric (owner: SEAT; **flagged to MAIN/DIGEST as this window's load-bearing claim most worth independent re-grading**)
+- [ ] R1-9 **(REWRITTEN — the original was retracted in §8)**: `DEBT_LEDGER` (`PROVED`) and `REPRESENTATION_TRIAGE` (`PROVED ∪ NEGATIVE`, gated) partition the corpus by verdict and **neither takes the remainder** — **41 arcs `OPEN`/`RETRACTED` corpus-wide, 20 of them uncited and non-instrument** (window excluded). The four uncited `RETRACTED` are the least defensible cell (owner: SEAT; **flagged to MAIN/DIGEST — re-grade the RETRACTION, not the original claim**)
 - [ ] R1-10: the twelve leads qL155–qL166 remain open and are the **owner's** calls; this review registered and did not decide them (owner: OWNER)
 - [ ] R1-11: main's R44-5 — *"digest the cloud seat's branch on completion"* — this review and its handoff are the input for it (owner: MAIN)
 - [ ] R1-12: a **per-push** instrument-freshness check — the sweep costs ~5 m 20 s and so runs as a suite test, not a gate; a cheap staleness proxy (results.json older than any file its instrument reads) would close the window between banks (owner: SEAT)
