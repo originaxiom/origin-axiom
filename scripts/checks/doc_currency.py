@@ -92,6 +92,11 @@ DECLARED_DEBT = {
 
 def check() -> tuple[list[str], list[str]]:
     head = newest_arc_in_repo()
+    existing_ids = sorted(
+        int(m.group(1))
+        for d in FRONTIER.iterdir() if d.is_dir()
+        for m in [re.match(r"B(\d{1,4})", d.name)] if m
+    )
     stale, frozen = [], []
     for rel, tol in sorted(LIVING.items()):
         p = ROOT / rel
@@ -102,10 +107,15 @@ def check() -> tuple[list[str], list[str]]:
             frozen.append(rel)
             continue
         cited = newest_arc_cited(p)
-        lag = head - cited
+        # lag counts EXISTING arcs newer than the citation, not numeric distance:
+        # the reserved range B1045-B1059 (the cloud-collision resolution) made
+        # max-number lag count phantom arcs -- an E38 in this checker's own
+        # threshold semantics, repaired 2026-08-13. "Owed a read" can only be
+        # owed for arcs that exist.
+        lag = sum(1 for n in existing_ids if n > cited)
         if lag > tol and rel not in DECLARED_DEBT:
-            stale.append(f"{rel}: newest citation B{cited}, corpus at B{head} "
-                         f"(lag {lag} > tolerance {tol})")
+            stale.append(f"{rel}: newest citation B{cited}, corpus head B{head} "
+                         f"(lag {lag} existing arcs > tolerance {tol})")
     return stale, frozen
 
 
