@@ -369,7 +369,9 @@ python3 -m pytest -q                               # ~53 minutes; read the EXIT 
 `docs/RETRACTED_PHRASES.md` (what may not be asserted), `docs/ERROR_LEDGER.md` (E1, E6, E11, E27,
 E34, E36, **E37**, **E38**).
 
-*Last known-green full suite: `be87a51`, 3996 passed / 120 skipped / 0 failed, 49:23. Update that
+*Last known-green full suite: **`6be907e`, 4006 passed / 120 skipped / 0 failed, exit 0, 53:07** —
+the first run on this branch that certifies the INSTRUMENTS rather than their caches, and the first
+that left the tree clean. (Previous: `be87a51`, 3996 passed, 49:23 — green over caches.) Update that
 line in `BANKING_PROTOCOL` whenever a full run completes — a green suite whose commit is not recorded
 is a rumour.*
 

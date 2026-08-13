@@ -72,10 +72,20 @@ judgement rows are enforced by the independent verification in Part II.
       **three red locks survived behind that wall while 26 gates stayed green** — gates are fast
       and **do not cover what the locks cover**.
     - **THE LAST KNOWN-GREEN FULL RUN, DATED AND PINNED TO ITS COMMIT — because B1041's finding
-      was that nobody knew:** `be87a51` (B1053, 2026-08-12), **3996 passed / 120 skipped / 0
-      failed, exit code 0, 49:23**, run against a **committed** tree with nothing edited under it.
-      *(Previous: `d48ab85`, 3961 passed, 48:04. The +35 is B1050–B1053's locks, which is the
-      arithmetic that shows the collection was complete rather than truncated.)*
+      was that nobody knew:** `6be907e` (B1054 / Review 1, 2026-08-13), **4006 passed / 120
+      skipped / 0 failed, exit code 0, 53:07**, run against a **committed** tree with nothing
+      edited under it — **exit code read directly, never through a pipe**.
+      **THIS IS THE FIRST RUN ON THIS BRANCH THAT CERTIFIES THE INSTRUMENTS RATHER THAN THEIR
+      CACHES.** It includes `tests/test_instrument_freshness.py`, which re-runs every arc
+      instrument instead of reading its committed `results.json` — the check that did not exist
+      when `be87a51` was pinned, and whose absence is why **six arcs were red at `5b26e51` behind
+      a green suite** (**E39**). A second signal that the fixes hold: **the tree was still clean
+      after the run.** Every previous full suite left it dirty, because the sweep wrote its
+      regenerations and `tests/test_atlas.py` rewrote `RECURRENCE_ATLAS.md`; the sweep is now
+      non-mutating and the atlas is gated (`atlas-generated`, the 29th gate).
+      *(Previous: `be87a51`, 3996 passed, 49:23 — green, but green over caches. Before that
+      `d48ab85`, 3961 passed, 48:04. The +10 over `be87a51` is B1054's locks plus the freshness
+      sweep, which is the arithmetic showing the collection was complete rather than truncated.)*
       *Update this line whenever a full run completes; a green suite whose commit is not recorded
       is a rumour.*
     - **AND TARGETED RUNS DO NOT SUBSTITUTE, MEASURED (B1049).** B1047 banked on **88** targeted

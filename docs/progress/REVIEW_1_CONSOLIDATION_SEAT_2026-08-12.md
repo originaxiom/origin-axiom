@@ -510,8 +510,12 @@ because none of the reviewers that see it is the one that can fix it.
    corpus, and the §5 and §8 base rates are measurements *of* it, not judgements *on* it.
 4. **`TOOLBOX.md` content.** Declared at lag 684, not read, not refreshed (R1-1).
 5. **The twelve leads qL155–qL166.** Registered, measured, **undecided by design**.
-6. **The full serial suite at this review's own commit** — run and pinned at bank time (§ below),
-   not at the time these words were written.
+6. ~~**The full serial suite at this review's own commit**~~ — **RUN AND PINNED**: `6be907e`,
+   **4006 passed / 120 skipped / 0 failed, exit 0, 53:07**, exit code read directly rather than
+   through a pipe. It is the **first run on this branch that certifies the instruments rather
+   than their caches** — it includes the freshness sweep, which did not exist when the previous
+   pin was taken and whose absence is why six arcs were red behind a green suite. Second
+   signal: **the tree was clean afterwards**, which no previous full run managed.
 
 ### Action items (Review 1)
 
