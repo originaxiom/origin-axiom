@@ -1,7 +1,7 @@
 {
  "id": "B1064",
  "title": "The cusp-torus re-pose of L154 bridge (G1 of the gravity lane)",
- "verdict": "OPEN",
- "claim_one_line": "SEALED, COMPUTE PENDING: does the Level-3 (E6)_1 stage datum attach to the boundary-torus theory of the banked complex CS \u2014 the fingerprint (6, {16/5, 14/5}) tested against the pre-sealed boundary-partition-structure definition only, outcomes O1 EXHIBITED-ON-TORUS (no anchor conversion) / O2 BRIDGE-COMPLETE (only this converts c = 6; needs a separately banked transfer) / O3 OBSTRUCTED-AT-TORUS (L154 stays UNDECIDED-narrowed) / O4 NOT-YET; the licensing gap named in the seal first paragraph (m004 cusped, no conformal boundary; the B980 fence held); prior declared O3-lean via B715 spectrum mismatch, held loosely; cc3 recused (design and adjudication).",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "O3 \u2014 OBSTRUCTED-AT-TORUS, the obstruction named exactly on two independent banked legs: (1) the object amphichirality DELETES the quantized sector of its own boundary action (CS = 0 forces dS/dk = 0 identically, B1012) and rational (E6)_1 data is quantized-sector content by definition \u2014 there is no level for it to attach to; (2) the surviving unquantized sector carries NO banked chiral algebra to decompose (B1034 no-hit + B715 no-real-form), so P(T_cusp) is UNDEFINED and the pre-sealed definition fires NOT-POSABLE. V2 not-posable recorded as O3 evidence never skipped; the two-stage fence held trivially. L154 stays UNDECIDED-narrowed (the sealed clause \u2014 this route death decides nothing about the sigmas); the c = 6 anchor does NOT convert. Prior adjudicated against itself: right outcome, adjacent mechanism (the lean cited the spectrum mismatch; the decisive leg is the k-deletion) \u2014 partial credit only. Falsifiable commitment: any future arc banking a quantized boundary sector surviving CS = 0, or a rational point of the unquantized sector, REOPENS the route.",
  "instrument": false
 }

@@ -21,7 +21,7 @@ resolver; q-citations throughout.*
 
 | row | arc | disposition | grade | note |
 |---|---|---|---|---|
-| 1.01 | qB1024 l153_bits | EMPTY | — | the fork arc — SAME as main B1024? verify |
+| 1.01 | qB1024 l153_bits | ACCEPTED | REBUILT | THE SAME SEALED CELL as main B1024 — identical prereg sha-256 (dc823e86…), executed independently on both benches; both landed SAME (d = 2); the generator classes differ by exactly a node-ordering swap ((0,1) vs (1,0) for conjugation — their map reads the τ-fixed nodes as (α₂, α₄)) — the cross-presentation datum B1065-C3 consumes. The fork accidentally twin-derived the whole cell. Evidence: AUDIT_QOR5UP_BRANCH_2026-08-13.md §3. |
 | 1.02 | qB1025 suite_collection_repair | EMPTY | — | |
 | 1.03 | qB1026 the_one_involution | EMPTY | — | |
 | 1.04 | qB1027 kappa_two_faces | EMPTY | — | their two-κ finding (qL159) |
@@ -38,7 +38,7 @@ resolver; q-citations throughout.*
 | 1.15 | qB1038 tower_restored | EMPTY | — | |
 | 1.16 | qB1039 phi_fixed_and_metallic_exponent | EMPTY | — | carries their B141-item-4/B564 correction |
 | 1.17 | qB1040 isomonodromy_restored | EMPTY | — | |
-| 1.18 | qB1041 the_red_locks | EMPTY | — | R42's mechanism recurring |
+| 1.18 | qB1041 the_red_locks | ACCEPTED-WEAK | RUN | the process findings (red-locks-behind-the-slow-suite; R42's mechanism recurring at 3 locks) stand; the instrument is ENVIRONMENT-BOUND in 3 of 10 checks — the B511 finite-fractions differ by platform numerics (their container overflows by step 240; this bench stays finite), and the B616 census reads the ORIGINAL 2/378 in a clean worktree (their "moved to 3/390" was container-local untracked files — their own E6 species one level up, typed). Rider: freshness certification is container-relative for such instruments. Evidence: the audit report §2.4. |
 | 1.19 | qB1042 the_error_ledger | EMPTY | — | E-ledger currency |
 | 1.20 | qB1043 the_band_is_the_wrong_unit | EMPTY | — | qL164 — topic clusters DECIDED (owner) — verify then SUPERSEDED-by-decision? |
 | 1.21 | qB1044 law_siblings_gated | EMPTY | — | the gate ports (lane 3) |
@@ -90,7 +90,7 @@ resolver; q-citations throughout.*
 | 4.5 | the 15 absent reproducers (3 under CLAIMS promotions) | EMPTY | — | |
 | 4.6 | the two-κ finding (qL159) | EMPTY | — | vs main's TERMINOLOGY register |
 | 4.7 | the shadow library (227 files; cyclo_engine 56 importers) | EMPTY | — | |
-| 4.8 | their Review 1 (COMMISSIONED; artifact pending) | EMPTY | — | the review-gets-reviewed row; fills on arrival |
+| 4.8 | their Review 1 (qB1054, DELIVERED at 8a4d70b4) | ACCEPTED-WEAK | RUN | 70 of 72 mechanical checks re-run GREEN on this bench (the 2 fails are their own R1-2 remote-state checks — environment-bound by construction, an honest caveat on "re-runnable anywhere"); the verdict-routing failure CONFIRMED digit-for-digit (31× PROVED vs atlas {banked 18 · dead 9 · dormant 1 · open 2}; body-scan 22/30 at a coarser filter); their headline RETRACTION mechanically re-verified (the corrected debt-register numbers hold on re-run) and judged SOUND (they read the declared scope and corrected against it). Their finding 0 (B946) confirmed on main and repaired; their class = E40. Full-content re-grade of the review's 543 lines: the remaining lane-4 read. Evidence: the audit report §2. |
 
 ## Lane 5 — the 12 leads (qL155–qL166 → renumber to main L165+ at disposition)
 
@@ -102,9 +102,9 @@ resolver; q-citations throughout.*
 structure and the disposition vocabulary now; the completion lock activates with
 the closing arc.**
 
-**Running count (2026-08-13, second fill): 45 EMPTY, 13 filled — lane 0
+**Running count (2026-08-13, third fill): 42 EMPTY, 16 filled — lane 0
 (row 0.1, epoch: CORRECTED/REBUILT) and lane 2 whole (the manual's 12 rules:
 5 ACCEPTED — 4 with REBUILT-grade same-day instances on this bench — and
 7 SUPERSEDED-cite against main's standing law; rule 2.10's cross-read found
 main's own newest E1 instance, the E22 double-assignment, repaired this bank
-as E39). Lanes 1, 3–5: 45 rows open.**
+as E39). Lanes 1 (28 open), 3–5: 42 rows open. The branch audit (AUDIT_QOR5UP_BRANCH_2026-08-13.md) is the lane-1 foundation: file-completeness 31/31, their self-audit reproduced, the REBUILT queue named (qB1034, qB1027/28, qB1040, qB1050 next).**

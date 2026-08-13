@@ -1348,13 +1348,37 @@
   },
   "B1064": {
    "slug": "cusp torus repose",
-   "motifs": [],
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian"
+   ],
    "refs": [
-    "B837"
+    "B254",
+    "B715",
+    "B716",
+    "B720",
+    "B830",
+    "B980",
+    "L15",
+    "L154",
+    "V1",
+    "V2",
+    "V3"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 1,
-   "status": "dead",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1065": {
+   "slug": "amendment controls",
+   "motifs": [],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
    "domain": "dynamics"
   },
   "B106": {

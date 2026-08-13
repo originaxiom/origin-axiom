@@ -10472,3 +10472,17 @@ corrected (§0.1: Gate 5 = output firewall; zero-dials true-by-construction,
 genesis 7/7 twin-verified); the audit's three-line close in the sweep ledger;
 the 2.03 self-instance noted in the digest's lane 2. Review 46 DUE at this
 boundary.
+
+## 2026-08-13 — the port bank: the cloud branch AUDITED (31/31 file-complete;
+their self-audit reproduced digit-for-digit; 70/72 checks green here; their
+freshness pin container-relative — B1041's 3 environment-bound checks typed);
+B946's E40 repair PORTED (the four keys compute via the √77 law,
+byte-identical); the freshness sweep + its MB12 vacuity test wired into the
+suite; E40's row (the port-assigns-numbers rule); B141's mechanism corrected
+by addendum-beside (SL(2,3) counterexample re-derived from scratch — 2T
+itself); digest 42/16 (rows 1.01 REBUILT — the fork twin-derived B1024
+whole; 1.18; 4.8). B1064 BANKS: O3 OBSTRUCTED-AT-TORUS on two banked legs
+(the k-deletion decisive; the prior right-outcome-adjacent-mechanism,
+partial credit); L154 UNDECIDED-narrowed; the anchor unconverted. B1065
+SEALED b8440d68 (the three controls; C2 cannot pass by construction).
+Locks: tests/test_instrument_freshness.py (2).

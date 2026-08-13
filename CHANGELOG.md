@@ -1,5 +1,32 @@
 # Changelog
 
+## The port bank (2026-08-13, after Review 46) — the cloud branch audited whole; E40 lands with its repair; B1064 answers O3; B1065 sealed
+
+The owner-directed pre-digest audit of the consolidation branch ran to its
+floor: 31 arcs file-complete; their verdict-routing finding reproduced
+digit-for-digit (31× PROVED vs the atlas's four-way discrimination); 70 of
+their 72 mechanical checks green on this bench (the 2 fails are their own
+remote-state checks — environment-bound by construction); their freshness
+pin dissected as container-relative (B1041: platform numerics + a
+container-local census — their own E6 species one level up, typed). Row
+1.01 lands at REBUILT in the strongest form: the fork executed THE SAME
+sealed prereg on two benches independently — B1024 twin-derived whole, the
+class-coordinate delta typed and routed to B1065-C3. The species E40
+(cached verification — the silent twin of E38) takes its main row with the
+port-assigns-numbers rule; B946's repair is ported byte-identical; the
+freshness sweep joins the suite with its own MB12 vacuity test (the audit
+hit vacuous-green twice while porting — recorded). B141's item-3 mechanism
+corrected by addendum-beside (finite ⟹ reducible is FALSE; the
+counterexample is 2T itself; conclusion survives). **B1064 BANKS NEGATIVE /
+O3 — OBSTRUCTED-AT-TORUS**: the object's amphichirality deletes the
+quantized sector of its own boundary action and (E₆)₁ is quantized-sector
+content — no level to attach to; the unquantized sector carries no banked
+chiral algebra; L154 stays UNDECIDED-narrowed, the anchor unconverted, the
+prior at partial credit (right outcome, adjacent mechanism). **B1065
+SEALED** (the three amendment controls — R45-9's forced disposition; the
+oldest PROVISIONAL banner has four exits and no fifth).
+
+
 ## Mini-bank 3 (2026-08-13) — A5 certifies; the Part-0 attribution corrected; the window closes at Review 46's boundary
 
 A5's three-route repair history lands whole and ends CERTIFIED on this bench
