@@ -28,19 +28,24 @@ arithmetic-consuming*). **cc3 does not adjudicate.**
 | ## **the BRIDGE (1 step, B727)** | ## **the trace field selects the McKay group** | ## **THE ENTIRE NOVELTY BUDGET OF THE PROGRAMME IS HERE** |
 | Γ = π₁(m004) itself | **consumed at 0 steps** | not currently used at all |
 
-> ## **And the bridge is B997/B1019's own-conductor door. THE DOOR IS THE BRIDGE.** The three-doors framing and the layer analysis converge on the same single step from opposite directions.
+> ## **And the bridge sits at B997/B1019's own-conductor door — the SAME JUNCTION, not an identity** (cc's precision): the door theorems say **who can enter**, B727's step says **what entry selects**. **They are approached from existence and from selection.** **A strict identity would bury B1019's own SCOPE clause** — *"no Lie entry" is relative to the McKay route; a non-McKay entry construction is NOT excluded* — **so the junction phrasing is the one that survives.**
 
-# §2 — ⚠ THE FACT THAT MUST BE STATED PLAINLY
+# §2 — ⚠ CORRECTED (cc, same day): **THE STATEMENT NEEDS THREE CLAUSES. cc3 published TWO and that manufactures the OPPOSITE misread.**
 
-> ## **THE GENERATION COUNT IS A DECLARED INPUT, NOT AN OUTPUT.** So are chirality (×3) and the VEV direction.
+> ## **cc3's §2 as first written was incomplete and is withdrawn in that form.** It said only *"the generation count is a declared input."* **Alone, that collides with a banked LAW row** (`LAW_MAP`'s B714 spine: *"generation COUNT 3 … object-forced"*) **and would tell a reader the object forces nothing about three. It does.**
 
-**Stated fairly, in the corpus's own words:** *"The INPUT riders are **declared inputs**
-(B1028's ledger), **not failures** — the ledger types them, THE_CLAIM prices them."*
-**They are not smuggled; they are booked and priced.**
+**The correct statement, all three clauses, none omissible:**
 
-**But the consequence is blunt and belongs in front of anyone reading the programme:**
+> 1. ## **`h¹(M;27) = 3` IS OBJECT-FORCED — a theorem** (B714 rung 6). **The object genuinely forces a THREE.**
+> 2. ## **That three is NOT a generation triple** — B714's **6′ is NEGATIVE**: no `ℤ/3` acts on the object, `Isom(4₁) = D₄`, and the `h¹` classes are **incommensurable** `V₁₇⊕V₉⊕V₁`. **Two independent legs.**
+> 3. ## **THEREFORE, at the SM layer, "three generations" is a DECLARED INPUT** wherever a derivation uses permutable families (B1044's rider; B1028's ledger; THE_CLAIM's price).
 
-> ## **"Three generations" is not predicted by this programme. It is fed in.** A reader — or a seat — who takes it as an output has misread the ledger. **cc3 flags it because it is the single most likely thing to be misread as a triumph.**
+**cc3's flag survives — but only at the SM layer, and only clause 3.** *"The INPUT riders
+are declared inputs, not failures — the ledger types them, THE_CLAIM prices them."*
+**Booked and priced, not smuggled.**
+
+> **The honest headline, in full:** **the object forces a three; that three is provably not
+> the generations' three; and the generations' three is fed in.** ## **Any shorter version — cc3's included — misleads in one direction or the other.**
 
 # §3 — ITEM 3: **T-FMT — layer-only ⟹ KNOWN** (cc's fast disposition)
 
