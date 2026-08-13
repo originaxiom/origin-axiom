@@ -3700,20 +3700,184 @@ non-sealed (registers, not cells).
   establishment items) is sized for the relay seat's lane on the owner's go.
 
 ### Action items (Review 45)
-- [ ] R45-1: **the digest ledger opens as B1060** — fixed denominator, every cloud row dispositioned, the digest gate enforcing non-empty dispositions (owner: cc)
-- [ ] R45-2: B1042's descent theorem → LAW_MAP row (owner: cc)
-- [ ] R45-3: B1043's superlinear law + h⁰(M;27) = 1 → LAW_MAP rows; the invariant-line identification registered as a lead (owner: cc)
-- [ ] R45-4: the sector-complete wall row (carried from R44; owner: cc)
-- [ ] R45-5: the census's 31 category calls — the independent check (D2; owner: cc)
-- [ ] R45-6: the Deligne–Milne reading gates any gerbe banking (carried; owner: cc3's lane)
-- [ ] R45-7: the ladder's four rungs on cc3's next sync (carried)
-- [ ] R45-8: the mechanical repairs, verify-against-main-first (carried)
-- [ ] R45-9: **B1024's three amendment controls — ESCALATED, two reviews stuck** (owner: cc)
-- [ ] R45-10: the δ_CP refresh wait-state (carried)
-- [ ] R45-11/12/13: the per-gate re-ask; the solo-seat residue; the R37 legacy triage (carried)
-- [ ] R45-14: **MEDITATION 2** — after this review banks, per the owner's cadence; its docket: the three-seat error profile, the four-arrivals convergence, the two manuals cross-read, the aperiodic direction if the owner elects it
-- [ ] R45-15: the epoch cell (the metadata lane's first cell — the convention question before any arc; qB1053's correctness upgrade read at digest)
+- [x] R45-1: **the digest ledger opens as B1060** — fixed denominator, every cloud row dispositioned, the digest gate enforcing non-empty dispositions (owner: cc)
+- [>] R45-2: B1042's descent theorem → LAW_MAP row (owner: cc)
+- [>] R45-3: B1043's superlinear law + h⁰(M;27) = 1 → LAW_MAP rows; the invariant-line identification registered as a lead (owner: cc)
+- [>] R45-4: the sector-complete wall row (carried from R44; owner: cc)
+- [>] R45-5: the census's 31 category calls — the independent check (D2; owner: cc)
+- [>] R45-6: the Deligne–Milne reading gates any gerbe banking (carried; owner: cc3's lane)
+- [>] R45-7: the ladder's four rungs on cc3's next sync (carried)
+- [>] R45-8: the mechanical repairs, verify-against-main-first (carried)
+- [>] R45-9: **B1024's three amendment controls — ESCALATED, two reviews stuck** (owner: cc)
+- [x] R45-10: the δ_CP refresh wait-state (carried)
+- [>] R45-11/12/13: the per-gate re-ask; the solo-seat residue; the R37 legacy triage (carried)
+- [x] R45-14: **MEDITATION 2** — after this review banks, per the owner's cadence; its docket: the three-seat error profile, the four-arrivals convergence, the two manuals cross-read, the aperiodic direction if the owner elects it
+- [x] R45-15: the epoch cell (the metadata lane's first cell — the convention question before any arc; qB1053's correctness upgrade read at digest)
 
 **Next review due after 20 merges from this anchor.**
 
 anchor-commit: `71f81f29` (the commission + alias fixes, the window's last bank)
+
+
+---
+
+# REVIEW 46 — the sweep-and-audit window: nineteen rows to one question, the cost re-frame, and a protocol that survived its own authors
+
+**Window:** 21 merges, `71f81f29` → `9c0fd129` (2026-08-13, one day — the
+densest single-day window in the record). **Reviewer:** cc (banking seat),
+the two-layer form's main-branch layer.
+
+## What the window did
+
+1. **Meditation 2 + the synthesis pair banked** (the descent diagram; the
+   withholding taxonomy = the crossing spec; the template/selection meta-row
+   scoped) — R45-14 DONE.
+2. **The aperiodic election executed**: L161 elected GO with control-first
+   binding; L162 registered Krutelevich-gated three-valued; L163 the
+   not-run; the provenance rule standing.
+3. **B1062 THE BRIDGE CELL, whole**: sealed → pre-compute addendum (the
+   relay seat's catch against its own design) → CONTROL-EXHIBITED (golden
+   arithmetic, siblings provably not; the bronze phantom killed twice) → the
+   m = 5 completion: **A8 CONFIRMED** (the pre-registered φ-decoy produced
+   blind, coefficient-for-coefficient, both benches), **A2 twin-derived at
+   all five members** (towers 2,4,8,8,18 / 2,8,8,8,18; golden alone at
+   degree 2 in both), **A5 CERTIFIED-ONCE** (18/18 full-triple,
+   deterministic, 60-digit, by the bench whose failure was declared first;
+   the audit bench's x-only retraction stands on their side). The asymmetry
+   principle now standing: one elliptic coordinate excludes; certification
+   requires all three.
+4. **B1060 THE DIGEST opened and moving**: 58 rows fixed at open; lane 0
+   (the epoch question — era-tag, never flip; the sweep-epoch rule) and
+   lane 2 (the manual's 12 rules — 5 ACCEPTED with four same-day REBUILT
+   instances, 7 SUPERSEDED-cite) filled; running count 45/13 — R45-1 and
+   R45-15 DONE.
+5. **B1063 THE REFRESH VERDICT**: the fourth crossing CLOSED at the value
+   layer (NuFIT 6.0 all-miss, the decisive clause fired at 2.21×, the
+   one-shot spent, kill-graph routed hatch-closed) — R45-10 RESOLVED. The
+   fetch-currency rule banked from the defect.
+6. **THE NOVELTY SWEEP, whole arc in one window**
+   (`docs/NOVELTY_SWEEP_LEDGER.md`): 19/19 triaged — twelve layer-only,
+   six arithmetic-consuming, **and all six consume ONE K** (an S₃ cubic,
+   resolvent ℚ(√77); the banking seat's "cubic-cyclic" error caught and
+   proven wrong on-bench). T-INTERBREAK rests at **MECHANISM KNOWN /
+   CONTENT UNMATCHED** after a five-stage prior-art descent; the 77
+   exponent-echo (B888's own "observation, unweighted") is the sweep's
+   first mechanism-shaped candidate; independent novelty candidates: ONE.
+7. **THE COST RE-FRAME (owner-caught, both seats corrected)**: both seats
+   had measured B1044's segment and called it the chain; the end-to-end
+   documents were read whole the same day; the chain's question is COST,
+   not novelty. **THE PART-0 AUDIT then ran complete**: prices REAL (F2/F8
+   locks written same-hour, genesis 8/8); enforcement CLOSED (the
+   twelve-vs-eleven reconciliation; four gaps promoted to binding rules);
+   zero-dials HOLDS (genesis 7/7, twin-verified) with the attribution
+   corrected (§0.1: Gate 5 is an output firewall; the property is
+   true-by-construction).
+8. **THE GRAVITY LANE opened**: the Λ position paper banked with its
+   WHAT_WOULD_COUNT §5 row; G2 dropped (anchor unspent); **B1064 SEALED**
+   (the cusp-torus re-pose; gates 1–4 discharged or in-seal; O3-lean
+   declared; the seal-window declared by stub — a new pattern, adopted).
+9. **Repairs with teeth**: the E22 double-assignment → E39 rekey (tombstone,
+   history unrewritten); the doc-currency phantom-arc metric (E38 in the
+   checker); two tipped surfaces given real currency reads.
+
+## The error profile (the economic reading, third window running)
+
+Every error this window was **attribution, scope, or process — zero
+mathematics**, and every one was caught by a standing rule or the twin
+bench: the banking seat's six (cubic-cyclic; the A5 mis-credit; the 2.03
+pipe chain — caught by the pre-push layer; mid-suite edits — self-caught
+and reverted; the UNASKED misreport; the segment-measure) and the audit
+seat's five (the item-5 provisional — overturned by their own re-entry
+condition; scope-off-results twice; the x-only typing — self-caught; the
+resolvent walk-past — self-caught against their own quote). **The protocol
+survived its own authors on both benches, which is the strongest statement
+the record makes about itself this window.**
+
+## Decisions recorded
+
+The cost re-frame governs presentation; the sweep PAUSES at the one
+K-question (moves only by the three named routes; external contact
+OWNER-ELECTION only); the asymmetry principle, the relay-currency rule, the
+era-floor rule, the both-checklists rule, the which-K declaration — all
+standing; **the distillation proposal (lab + curated-repo split) is
+REGISTERED, PENDING the owner's go — nothing outward moves.**
+
+## The cloud seat's Review 1, processed pre-review (owner-directed)
+
+Delivered at 8a4d70b4 (their branch; the review arc = qB1054 in main's
+citation, correctly inside the reserved range — the reservation worked):
+thirty arcs, 72 mechanical checks, re-runnable by verify.py with no
+arguments and no network; sixteen action items with owners; qL155–qL166
+registered and deliberately undecided (the owner's). Their headline
+retraction (the debt-metric scope) is flagged BY THEM as the item most
+worth re-grading — the digest's row 4.8 takes it bodies-first.
+
+**The material finding, verified on main within the hour:** their E-class
+"cached verification" (a lock that passes when it should not — six red
+instruments behind a green suite on their branch) has exactly ONE main
+instance, and it is the corpus's oldest: B946's lock has asserted over four
+results.json keys its verify.py never produced, since B963, through every
+green suite ever pinned. Main's exposure is bounded (only 2 main
+instruments use the cache shape at all; 1 affected). **Their repair ports
+verified**: the four keys now COMPUTE via (6237|p) = (77|p) — the ONE-K
+resolvent powering the oldest instance's fix — byte-identical to the cache
+on an isolated run. Lands next bank with their freshness sweep wired as a
+suite test (ROOT-corrected; the sweep's own vacuous-green failure mode was
+hit twice while porting and is noted in the port).
+
+**The second E-collision in one day:** their class was coined "E39" while
+main's same-day rekey assigned E39 to verdict-before-certificate. Their
+class takes **E40** on main (the E38-pairing they intended — fails-when-
+shouldn't / passes-when-shouldn't — honored in the row text under the new
+numeral). New rule from the pattern: **E-numbers for branch-coined classes
+are assigned at the digest port, never on the branch** — the reserved-range
+lesson applied to the error registry.
+
+Their sixteen items, triaged: R1-3 (the alias table "does not exist") was
+checked against a stale main and is ALREADY DISCHARGED — docs/
+CLOUD_ALIAS_TABLE.md exists; R1-2 (ls-remote over branch -r) adopted into
+the review template; R1-1 (TOOLBOX, lag ~690, THIRD review undischarged —
+"the routing is the defect, not the diligence") goes to the OWNER in this
+review as a named decision: freeze it as historical or commission the
+refresh; the remainder are digest lane-4/5 rows.
+
+## R45's items, dispositioned
+
+DONE: R45-1 (the digest), R45-10 (the refresh — resolved by execution),
+R45-14 (Meditation 2), R45-15 (the epoch cell). CARRIED with owners:
+R45-2/3/4 (the LAW_MAP debt batch — consolidated into one named bank,
+R46-3), R45-5 (census check → R46-5), R45-6/7/8 (cc3-lane and mechanical
+carries → R46-6), R45-11/12/13 (→ R46-7). **R45-9 (B1024's three amendment
+controls) — THREE REVIEWS STUCK. Forced disposition: it becomes the NEXT
+SEALED CELL after B1064's compute (R46-2, this bench, named commitment —
+not a carry). The oldest live PROVISIONAL banner does not ride to R47 as a
+banner: it either discharges or converts to a typed LAW_MAP debt row.**
+
+## R46 action items
+
+- [ ] R46-1: **B1064's compute** — next action on this bench (the seal is
+      pushed; the O3-lean prior declared).
+- [ ] R46-2: **B1024's three amendment controls as the next sealed cell
+      after B1064** (R45-9's forced disposition; three-review escalation
+      honored with a commitment, not a carry).
+- [ ] R46-3: the LAW_MAP debt batch (B1042's descent row; B1043's
+      superlinear + h⁰ = 1 rows; the sector-complete wall row) — one bank.
+- [ ] R46-4: the qor5up Review 1 (inbound; digest row 4.8 waits).
+- [ ] R46-5: the census's 31 category calls (D2, bodies-first).
+- [ ] R46-6: Deligne–Milne (cc3's lane, gates gerbe banking); the ladder
+      rungs on cc3's next sync; the mechanical repairs.
+- [ ] R46-7: the per-gate re-ask; the solo-seat residue; the R37 triage.
+- [ ] R46-8: **the distillation skeleton** — built in-lab the moment the
+      owner says go; nothing external before that.
+- [ ] R46-9: **the B946 repair + freshness-sweep port bank** (verified
+      staged; E40's row; the port's vacuous-green notes).
+- [ ] R46-10: **TOOLBOX to the owner** (third review; freeze-or-refresh).
+- [ ] R46-11: R1-16's main-shaped generalization (locks over uncached keys
+      in main's OTHER lock shapes — registered, not pretended).
+- [ ] R46-12: cc3's side of A5 (their choice, no urgency — the v3 script
+      ports); the digest's 45 open rows as the standing backbone.
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: `9c0fd129` (mini-bank 3, the window's last bank)
+
