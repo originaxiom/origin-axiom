@@ -513,6 +513,36 @@ def gate_views_generated():
     return True, f"ok ({len(before)} views current)"
 
 
+def gate_atlas_generated():
+    """docs/RECURRENCE_ATLAS.md must equal what scripts/atlas/render.py produces.
+
+    R1-15 (B1054, Review 1). `views-generated` covers docs/views/ via scripts/views/generate.py.
+    THE ATLAS HAS A DIFFERENT GENERATOR AND HAD NO CHECK AT ALL, so it went stale twice in one
+    session -- once when B1054 banked (970 -> 971 probes) and again when B1054's own prose was
+    edited (a motif count moved 411 -> 412). Neither was caught by a gate.
+
+    It surfaced only because tests/test_atlas.py CALLS render.render(), which WRITES this tracked
+    file: the suite mutated the working tree on every run and staleness was visible only to
+    whoever read `git status` afterwards. A derived surface with a generator, a consumer that
+    silently regenerates it, and no freshness check is the E39 shape one level out -- so this gate
+    is the freshness check, and the atlas is now covered the way the views are."""
+    gen = os.path.join(ROOT, "scripts", "atlas", "render.py")
+    rel = "docs/RECURRENCE_ATLAS.md"
+    if not os.path.isfile(gen):
+        return False, "atlas renderer missing"                   # fail-closed
+    try:
+        before = _read(rel)
+    except Exception:
+        return False, f"{rel} missing -- broken checkout, not an empty atlas"
+    r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=300)
+    if r.returncode != 0:
+        return False, f"renderer failed: {r.stderr[-200:]}"
+    if _read(rel) != before:
+        return False, (f"{rel} out of date (regenerate: python3 scripts/atlas/render.py) -- "
+                       "it is derived from every arc's prose, so ANY banked edit can move it")
+    return True, "ok (atlas current)"
+
+
 PRACTICES = "docs/PRACTICES.md"
 
 
@@ -941,6 +971,7 @@ GATES = {
     "atlas-lexicon-current": gate_atlas_lexicon_current,
     "law-siblings": gate_law_siblings,
     "supersession": gate_supersession,
+    "atlas-generated": gate_atlas_generated,
 }
 
 

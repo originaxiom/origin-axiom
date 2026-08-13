@@ -22,8 +22,13 @@ on this container. That is too slow for a per-push gate (gates run at every bank
 inside the full suite, which already runs ~48 minutes and is the surface the failure hid behind.
 So it is wired as a test, not a gate. The per-push version is registered, not pretended.
 
-SIDE EFFECT, and it is the point: running an instrument rewrites its `results.json` with the TRUE
-state. After this runs, a stale cache shows up as a working-tree diff instead of as silence.
+NON-MUTATING, DELIBERATELY. Running an instrument rewrites its `results.json`, so this module
+snapshots every file first and puts it back unconditionally -- findings are REPORTED, never
+written. The first version did leave the regenerations in place, and that was wrong twice over:
+it DESTROYED B946's four cached values (only git still had them), and because this runs inside
+the suite alongside locks that read the same files, a mutating sweep would make their results
+depend on TEST ORDER -- the E39 shape wearing a different hat. A diagnostic must not edit its
+subject.
 """
 import glob
 import json
@@ -106,17 +111,26 @@ def sweep(lo=0, hi=10 ** 9):
         except subprocess.TimeoutExpired:
             bad.append((f"B{n}", "CRASH", f"timed out after {TIMEOUT}s"))
             continue
+        regenerated = pathlib.Path(r).read_text(encoding="utf-8")
         try:
-            lost = keys_before - set(json.loads(pathlib.Path(r).read_text(encoding="utf-8")))
+            lost = keys_before - set(json.loads(regenerated))
         except Exception:
             lost = set()
+        after = _all_pass(r)
+        # ALWAYS RESTORE. This sweep is a DIAGNOSTIC, and a diagnostic that edits the thing it
+        # inspects is a worse defect than the one it reports:
+        #   * it destroyed B946's four values on its first run (only git still had them);
+        #   * and it runs inside the suite, where OTHER locks read these same files -- so a
+        #     mutating sweep makes their results depend on TEST ORDER, which is the E39 shape
+        #     wearing a different hat (a lock whose answer depends on something invisible to it).
+        # Reading the verdict needs the regenerated file, so the read happens above and the
+        # original goes back here, unconditionally. The findings are REPORTED, never written.
+        pathlib.Path(r).write_text(snapshot, encoding="utf-8")
         if lost:
-            pathlib.Path(r).write_text(snapshot, encoding="utf-8")      # evidence preserved
             bad.append((f"B{n}", "KEY-LOSS",
                         "re-running drops " + ", ".join(sorted(lost))
                         + " -- the lock asserts over data the instrument cannot produce"))
             continue
-        after = _all_pass(r)
         if after is None:
             # No self-reported verdict: the results file holds computed VALUES and the arc's lock
             # asserts over those. The instrument's own exit code is then the only honest signal.
@@ -125,8 +139,14 @@ def sweep(lo=0, hi=10 ** 9):
                             f"exit {p.returncode}; " + (p.stderr.strip()[-200:] or "no stderr")))
         elif after is False:
             kind = "STALE-GREEN" if before is True else "RED"
-            R = json.loads(pathlib.Path(r).read_text(encoding="utf-8"))
-            fails = [k for k, x in R.get("checks", {}).items() if not x.get("pass")]
+            # Read the failing check names out of the REGENERATED text held in memory. The file on
+            # disk is the restored original by now, and reading it here would report the cache's
+            # OLD verdict -- reintroducing the exact confusion this module exists to end.
+            try:
+                fails = [k for k, x in json.loads(regenerated).get("checks", {}).items()
+                         if not x.get("pass")]
+            except Exception:
+                fails = []
             bad.append((f"B{n}", kind, ", ".join(fails[:4]) or (p.stderr.strip()[-200:])))
     return bad
 

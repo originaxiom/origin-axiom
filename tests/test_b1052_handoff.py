@@ -51,8 +51,15 @@ def test_the_arc_and_instrument_counts_match_the_tree():
 
 
 def test_the_gate_count_matches():
+    # REPAIRED BY REVIEW 1 (B1054). `== 28` is E38 -- an absolute count in a programme whose
+    # consolidation work ADDS gates; R1-15's `atlas-generated` made it 29 and this inverted.
+    # And it is the FOURTH time in this review that a repair fixed an instrument and left its
+    # sibling lock: the standing rule "sweep the FILE" needed to be "sweep the ARC AND its lock",
+    # which is now what `scripts/checks/instrument_freshness.py` plus the suite do together.
+    # The handoff's claim is HISTORICAL -- this window took the gates 26 -> 28 -- and that does
+    # not move; what must not happen is a REGRESSION.
     n = len(re.findall(r'^\s{4}"[a-z0-9-]+": gate_', _read("scripts/gates/gates.py"), re.M))
-    assert n == 28
+    assert n >= 28, n
     assert "**26 → 28**" in _read(HANDOFF)
 
 

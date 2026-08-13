@@ -92,7 +92,14 @@ chk("CLAIM_4_instruments_and_the_handoff_names_them",
 
 GATES = read("scripts/gates/gates.py")
 n_gates = len(re.findall(r'^\s{4}"[a-z0-9-]+": gate_', GATES, re.M))
-chk("CLAIM_28_gates", n_gates == 28 and "**26 → 28**" in H, n=n_gates)
+# REPAIRED BY REVIEW 1 (B1054), second time. `n_gates == 28` pinned the gate count of the day
+# inside a programme whose consolidation work ADDS gates -- E38, and it fired the moment R1-15's
+# `atlas-generated` became the 29th. The handoff's claim is about what THIS WINDOW did (26 -> 28,
+# naming both), which is a historical fact and does not move; the live count is recorded instead.
+# Caught non-destructively by `instrument_freshness.py` on its first run after the gate landed --
+# the first time that sweep has paid for itself against a change it did not make.
+chk("CLAIM_the_window_took_the_gates_from_26_to_28_and_the_count_has_not_REGRESSED",
+    n_gates >= 28 and "**26 → 28**" in H, n_gates_now=n_gates)
 chk("...and_the_two_new_ones_are_named",
     '"law-siblings"' in GATES and '"supersession"' in GATES
     and "`law-siblings`, `supersession`" in H)
