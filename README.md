@@ -2,6 +2,25 @@
 
 
 
+> ## STATE AT REVIEW 46 (2026-08-13) — the sweep-and-audit window: nineteen rows to one question
+>
+> The novelty sweep ran whole in a day and collapsed exactly as the owner's instinct said it
+> should: twelve rows provably standard E₆ (the cost claim's other half — arriving where physics
+> already is having paid nothing), six arithmetic-consuming rows that are ONE structure — the
+> S₃ cubic K with resolvent ℚ(√77), its three handles (13³ · 77 · 953) three rows of the field's
+> banked biography — resting at **MECHANISM KNOWN / CONTENT UNMATCHED**. The re-frame both seats
+> missed and the owner caught: the chain's question is COST, not novelty; the Part-0 audit then
+> ran complete same-day (prices REAL, the genesis fully locked; the two-checklist reconciliation
+> written, four gaps now binding rules; zero-dials true-by-construction, verified 7/7 twin). The
+> m = 5 blind protocol closed every grade (A8's pre-registered φ-decoy produced blind on both
+> benches; the towers twin-derived; A5 certified once, deterministically, by the bench whose
+> failure was declared first). The fourth crossing CLOSED (NuFIT 6.0, all-miss, the one-shot
+> spent). The gravity lane opened and its first sealed cell B1064 answered O3. The cloud seat's
+> Review 1 delivered and processed: its cached-verification species has exactly ONE main
+> instance — the corpus's oldest, B946, repaired verified. Eleven disclosed errors across
+> benches, zero mathematics — the protocol survived its own authors.
+> Ledger: `docs/progress/REVIEWS.md` Review 46.
+
 > ## STATE AT REVIEW 45 (2026-08-13) — the four-arrivals window: one shape from four directions
 >
 > The pattern campaign banked whole in a day (EXHIBITED · JOINED · HELD-STRICTLY), and its four
