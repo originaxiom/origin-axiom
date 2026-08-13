@@ -1,5 +1,32 @@
 # Changelog
 
+## B1063 (2026-08-13) — THE REFRESH VERDICT: the fourth crossing closes; the one-shot is spent
+
+The pre-committed refresh executed against NuFIT 6.0 (read on-bench from the
+PDF): all four sealed variants MISS both CP targets (240° family by 44/17/2/9
+degrees; 120° family by 37/137/51/129), and the decisive clause FIRED — the NO
+upper error shrank +42 → +19, a 2.21× tightening, so the miss is powered rather
+than stalled; the Jarlskog cross-read agrees. NEGATIVE; routed into the kill
+graph with the hatch honestly closed (one-shot, spent; any HK/DUNE-era re-pose
+is a new arc under a new seal). Repair banked from the defect that surfaced:
+verdict-time fetches state their release and check the arXiv mirror — 6.0
+existed ten months before the seal that read 5.2. **Banked in the same batch:**
+the digest's lane 0 (the epoch question CORRECTED/REBUILT: two grading
+languages pre-B809; era-tag, never flip; the sweep-epoch rule) with the running
+count 57/1; THE NOVELTY SWEEP LEDGER opened at denominator 19 with four rows
+disposed (T-38TRACE and T-SMT KNOWN from opened sources; T-ONENUM
+KNOWN-DERIVABLE with the mechanism completed on this bench — cubic-uniqueness
+alone was insufficient, H-uniqueness via Schur closes it; T-FMT PARTIAL with
+its Galois-clause held open) and zero NOVEL — plus the generation-count note
+stating both halves (h¹ = 3 object-forced; the generation reading refuted at
+6′; "three generations" a declared input wherever used); THE LAMBDA POSITION
+(`docs/THE_LAMBDA_POSITION.md`) with its registered-position row in
+WHAT_WOULD_COUNT §5; the gravity lane's G1 pre-seal gates 1–2 discharged (the
+B1012 OWED conductor-4 item verified for its surviving half exactly — the cusp
+torus ℂ/(ℤ + (−2√−3)ℤ) has multiplier ring ℤ+4ωℤ, the conductor-4 order; the
+four-referent "c" TERMINOLOGY row sealed in advance); the CAMPAIGN_STATUS
+double-insert corruption repaired.
+
 ## B1060 (2026-08-13) — THE DIGEST OPENS: 58 rows, 58 EMPTY, zero cherry-picks possible
 
 The adopted protocol's step 2 executed at open: the fixed denominator over the

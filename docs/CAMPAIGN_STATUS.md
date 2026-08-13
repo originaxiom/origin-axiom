@@ -13,6 +13,19 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-13, B1063 — the refresh verdict: the fourth crossing CLOSES):**
+The pre-committed refresh was executed once and spent: NuFIT 6.0 read on the
+bench, all four sealed variants miss both CP targets, and the decisive clause
+fired — the fit's upper error tightened 2.21×, so the miss is powered, not a
+stall. The one-degree story ends as a story; the value layer's channel is
+closed and the record says so in one place (the kill graph carries the routing;
+the hatch is spent — any future re-pose is a new arc under a new seal). The
+crossing question moves whole to the legal channel: the nineteen never-checked
+theorems (the novelty sweep, running), the aperiodic observables, and the
+gravity lane's G1. Repair banked alongside: verdict-time fetches must state
+their release and check the arXiv mirror — the 6.0-existed-while-5.2-was-read
+defect cannot recur silently.
+
 **LATEST (2026-08-13, the digest OPENS — B1060):** The cloud window's harvest now
 has its fixed denominator: fifty-eight rows, every disposition empty at open so
 that nothing can be cherry-picked and nothing can vanish silently — the epoch
@@ -24,7 +37,7 @@ spurious component there), with this bench's final blind number (m = 5) still
 computing. The digest fills from here; the control's verdict is already
 triple-derived where banked.
 
-**LATEST (2026-08-13, B1062**LATEST (2026-08-13, B1062 — the bridge cell answers):** The aperiodic campaign's
+**LATEST (2026-08-13, B1062 — the bridge cell answers):** The aperiodic campaign's
 genericity control EXISTS: golden is arithmetic, both siblings provably are not —
 exact, window-free, and hardened by surviving a spurious result that two benches
 killed together (a phantom √−7 that would have poisoned two other claims; the

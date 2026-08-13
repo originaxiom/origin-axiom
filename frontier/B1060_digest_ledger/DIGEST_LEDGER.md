@@ -15,7 +15,7 @@ resolver; q-citations throughout.*
 
 | row | item | disposition | grade | note |
 |---|---|---|---|---|
-| 0.1 | THE EPOCH QUESTION | **CORRECTED** | **REBUILT** | RESOLVED 2026-08-13 (B14/B16/B55 read in full; the B809 W1 measurement row): pre-B809 arcs ran TWO grading languages — the `## Verdict` block graded the DERIVATION CAMPAIGN's position (STALLED = the chain paused at a named condition; PRODUCES-PROOF-MODULE = feeds a module) while `verdict:` graded WHAT THE ARC ESTABLISHED; the §5 firewall header means nothing-promotes, never no-result. CONSEQUENCES binding on lanes 4–5: the pre-B809 cluster (13) gets ERA-TAGS, never flips (flipping would inject a word the modern vocabulary lacks); the B800+ residue (4) is the genuine drift set for the owner's arc-by-arc read; the middle band (11) reads per-arc against the B809 boundary; THE SWEEP RULE (the consequence-fix for qB1053's blindness): any sweep selecting on verdict data declares which vocabulary epoch it reads. |
+| 0.1 | THE EPOCH QUESTION | CORRECTED | REBUILT | RESOLVED 2026-08-13 (B14/B16/B55 read in full; the B809 W1 measurement row): pre-B809 arcs ran TWO grading languages — the `## Verdict` block graded the DERIVATION CAMPAIGN's position (STALLED = the chain paused at a named condition; PRODUCES-PROOF-MODULE = feeds a module) while `verdict:` graded WHAT THE ARC ESTABLISHED; the §5 firewall header means nothing-promotes, never no-result. CONSEQUENCES binding on lanes 4–5: the pre-B809 cluster (13) gets ERA-TAGS, never flips (flipping would inject a word the modern vocabulary lacks); the B800+ residue (4) is the genuine drift set for the owner's arc-by-arc read; the middle band (11) reads per-arc against the B809 boundary; THE SWEEP RULE (the consequence-fix for qB1053's blindness): any sweep selecting on verdict data declares which vocabulary epoch it reads. |
 
 ## Lane 1 — the 30 arcs (qB1024–qB1053), one row each
 
@@ -101,3 +101,7 @@ resolver; q-citations throughout.*
 **Counts at open: 58 rows, 58 EMPTY, 0 filled. The digest gate (the lock) enforces
 structure and the disposition vocabulary now; the completion lock activates with
 the closing arc.**
+
+**Running count (2026-08-13): 57 EMPTY, 1 filled — lane 0 (row 0.1, the epoch
+question) CORRECTED/REBUILT; its consequences (era-tag the pre-B809 thirteen,
+arc-by-arc the post-B809 four, the sweep-epoch rule) bind lanes 4–5.**

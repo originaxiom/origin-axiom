@@ -351,6 +351,21 @@ No invariant may be transferred between these without an explicit map.
   the dir-less-arc/two-Task-B retrieval hazard at series scale — now with its
   resolver banked.
 
+- **"c" (central charge) names FOUR referents near the gravity lane** (the row sealed in
+  advance of G1's prereg, the D-iv precedent, 2026-08-13): (1) **the Sugawara/level-1
+  charge c((E₆)₁) = 6** — Level-3 chiral arithmetic, banked exact via the conformal
+  embedding (E₆)₁ ⊃ SU(3)₂×(G₂)₁ with c: 16/5 + 14/5 = 6 (B254); (2) **c_BH = 6σ** —
+  the Brown–Henneaux charge of the gravitational dictionary, c = 3ℓ/2G with G = ℓ/4σ
+  (B1012; its σ is the D-iv row's referent 1, continuous and unquantized); (3) **the
+  cusp-torus theory's c** — G1's object: whatever charge the boundary-torus theory of
+  the banked complex CS carries. NOT banked equal to (1) or (2) — m004 is cusped, the
+  cusp torus is not a conformal boundary, and the B980 fence holds: equating cusp-c
+  with c_BH POSITS k_anyon = k_gravity; (4) **B559's c = 1 chain** — banked only as
+  "a candidate holographic *boundary*" (B559), a fourth candidate never identified
+  with the others. Numerical agreement among referents is not identification — the
+  licensing gap between (3) and (2) is exactly what G1 measures. Any sentence saying
+  only "c" near the gravity lane has not stated its subject (binding, as the σ clause).
+
 - **"trace field" names TWO objects for the metallic family** (found 2026-08-13 at
   B1062's ingredient check; load-bearing for the Maclachlan–Reid test): (1) **the
   fiber/eigenvalue field ℚ(√(m²+4))** — the monodromy eigenvalue's field (B148:

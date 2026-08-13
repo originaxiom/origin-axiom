@@ -154,6 +154,18 @@ be measured against.
 > **Two of the four are one arc from firing. That is the honest position, and it is the reason this
 > document had to be written before the next crossing, not after.**
 
+**Registered position (2026-08-13, not a falsifier row — a position row; the full
+assembly is `docs/THE_LAMBDA_POSITION.md`):** on the cosmological constant the
+object SAYS Λ = −1 exactly (a 3d Einstein solution, B259) and CANNOT SAY the
+observed 4d value — the dimensionful no-go plus the scale-torsor theorem
+(Hom(G, ℝ₊) = 0) put Λ-as-a-value permanently outside reach; Λ enters gravity
+only as the unimodular integration constant (the Silence Note, firewalled). The
+graveyard is quoted in the position paper so nothing resurrects (D1, D2, S014,
+the Kodama withdrawal, B563's ten nulls, H131). What would CHANGE the position:
+B277's two named 4d-lift blockers (the N=2→N=1 datum; the 6d type J). This row
+lives here and not in FALSIFIER_REGISTER because a position with no falsifier
+of its own would reproduce that register's named P7/P8 defect.
+
 ---
 
 ## 6. THE ANSWER TO THE WORRY

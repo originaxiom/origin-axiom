@@ -10445,3 +10445,12 @@ closed. Locks: tests/test_b1062_bridge.py (3).
 
 ## 2026-08-13 — B1060 opens the digest (58 rows, all EMPTY, vocabulary fixed);
 B1062's 3b log completed in the same batch. Locks: tests/test_b1060_digest.py (3).
+
+## 2026-08-13 — B1063 the refresh verdict: NuFIT 6.0 on-bench, all four variants
+miss, the decisive clause fires (2.21× tightening) — the fourth crossing CLOSES,
+the one-shot refresh SPENT, routed to the kill graph hatch-closed. Same batch:
+lane 0 filled (era-tag don't flip; the sweep-epoch rule; count 57/1); the novelty
+sweep ledger opens (19 rows, 4 disposed, 0 NOVEL; the governing question = does
+the McKay selection force what E₆ leaves free); the Λ position paper + its §5
+row; G1 gates 1–2 discharged (conductor-4 surviving half exact; the four-referent
+c row). Locks: tests/test_b1063_refresh.py (2).
