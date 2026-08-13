@@ -13,7 +13,18 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
-**LATEST (2026-08-13, B1062 — the bridge cell answers):** The aperiodic campaign's
+**LATEST (2026-08-13, the digest OPENS — B1060):** The cloud window's harvest now
+has its fixed denominator: fifty-eight rows, every disposition empty at open so
+that nothing can be cherry-picked and nothing can vanish silently — the epoch
+question first and blocking, the thirty arcs, the twelve rules, the instruments,
+the findings, the leads. Meanwhile the twin-derivation lattice around the
+arithmeticity control reached five members on the adversary's bench (degrees
+2, 4, 8, 8, 18 — golden alone at 2, the φ-decoy at m = 5 confirmed as the ONLY
+spurious component there), with this bench's final blind number (m = 5) still
+computing. The digest fills from here; the control's verdict is already
+triple-derived where banked.
+
+**LATEST (2026-08-13, B1062**LATEST (2026-08-13, B1062 — the bridge cell answers):** The aperiodic campaign's
 genericity control EXISTS: golden is arithmetic, both siblings provably are not —
 exact, window-free, and hardened by surviving a spurious result that two benches
 killed together (a phantom √−7 that would have poisoned two other claims; the

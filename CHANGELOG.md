@@ -1,5 +1,21 @@
 # Changelog
 
+## B1060 (2026-08-13) — THE DIGEST OPENS: 58 rows, 58 EMPTY, zero cherry-picks possible
+
+The adopted protocol's step 2 executed at open: the fixed denominator over the
+cloud window — the epoch cell first and BLOCKING (lanes 4–5 wait on it), the 30
+arcs one row each, the manual's 12 rules with the convergence-standard row marked
+(their decline-is-a-disposition ≡ cc3's NOT-REACHED), the two gate-ports and
+E37/E38, the eight findings including their Review 1's review-gets-reviewed row,
+the twelve leads. Every disposition EMPTY by design; the vocabulary fixed
+(ACCEPTED requires REBUILT; COLLIDES escalates; NOT-REACHED is the honesty row);
+triage on bodies, never verdict fields; the alias table the resolver. The digest
+closes only at zero EMPTY — the completion lock ships with the closing arc.
+Verdict OPEN, honestly: the instrument banks, the dispositions are the campaign.
+**Rider closed in the same batch**: B1062's block-3b typing completed in
+background — the full log now in the arc (the bronze octic's roots all typed;
+the verdict was already robust without them, and is now complete with them).
+
 ## B1062 (2026-08-13) — THE BRIDGE CELL: the control EXISTS, the tones are NOT labels — one gate opened, one route closed, everything twice-derived
 
 The campaign's decisive cell, computed under the owner's verify-everything order:

@@ -10442,3 +10442,6 @@ L163 (the μ-pencil not-run), L161's reopening + location clause, the provenance
 Sealed+addendum honored; battery green; Hao verified from source; three independent
 derivations of the bronze octic; V1/V3 exact. L161 gate OPEN, L164 gap-label route
 closed. Locks: tests/test_b1062_bridge.py (3).
+
+## 2026-08-13 — B1060 opens the digest (58 rows, all EMPTY, vocabulary fixed);
+B1062's 3b log completed in the same batch. Locks: tests/test_b1060_digest.py (3).
