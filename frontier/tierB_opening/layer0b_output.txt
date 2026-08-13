@@ -1,0 +1,47 @@
+LAYER 0b — every directive. Prereg d8725e4d.
+==========================================================================
+
+CASE A — any directive containing a tm step
+  rank M_fib = 2   rank M_tm = 1   det M_tm = 0
+  200 random directives containing >=1 tm: products with rank > 1 = 0
+  => every such product is rank 1; Perron = trace (rational), eigenvector rational.
+  => G is rational  =>  1/phi FORBIDDEN.   NO GOLDEN.
+
+CASE B — finitely many tm, under the PINNED convention (fib outermost)
+  directive [tm,tm,fib,fib,...] -> |w| = 242786
+  freq(a) = 75025/121393 = 0.6180339888
+  1/phi                         = 0.6180339887
+  |freq(a) - 1/phi| = 3.035e-11  -> the prefix WASHED OUT
+  => language is Fibonacci's => G = Z + Z*phi => 1/2 FORBIDDEN.  NO DYADIC.
+
+==========================================================================
+UNDER THE PREREG'S PINNED CONVENTION, BOTH CASES FAIL:
+  infinitely many tm  -> rational G   -> no golden
+  finitely many tm    -> washes out   -> no dyadic
+  *** the MIXED row is refuted for EVERY directive. ***
+
+==========================================================================
+CASE B' — the ALTERNATIVE convention: tau applied to a Fibonacci word.
+Here the prefix does NOT wash out. Two chains, one with TM content and
+one with NONE, both with an even length-scaling k:
+
+  tau = tm  (has TM content)
+    |u|/|v| = k = 2   (even: True)
+    freq(a) = 1/2 = 0.50000000
+    1/2 in (1/k)(Z + Z*phi)?  1/2 = (1/k)(m+n*phi) => n=0, m=k/2 in Z: True
+
+  tau = double a->aa,b->bb  (C4 DECOY: zero TM content)
+    |u|/|v| = k = 2   (even: True)
+    freq(a) = 75025/121393 = 0.61803399
+    1/2 in (1/k)(Z + Z*phi)?  1/2 = (1/k)(m+n*phi) => n=0, m=k/2 in Z: True
+
+==========================================================================
+*** CONTROL C4 IS THE FINDING ***
+  The doubling decoy has ZERO Thue-Morse content and admits 1/2 by exactly
+  the same even-k argument as the tm-prefixed chain. So under the alternative
+  convention "1/2 present" does NOT indicate TM ancestry -- it indicates an
+  EVEN DENOMINATOR. The 2x2 table loses its discriminating power on the one
+  cell that carried the mixed-history claim.
+
+  cc3 does not adjudicate. Both conventions are reported; cc chooses which
+  the banked claim meant, and B518 is re-worded accordingly.
