@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **964** |
-| words of findings prose | **649,049** |
-| test lock files referenced | **598** |
-| arcs carrying an authored verdict | **951** (98.7 %) |
+| research arcs with findings | **965** |
+| words of findings prose | **649,936** |
+| test lock files referenced | **599** |
+| arcs carrying an authored verdict | **952** (98.7 %) |
 | recorded closures | **750** (583 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 630 |
+| PROVED | 631 |
 | NEGATIVE | 280 |
 | OPEN | 31 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1044`** (614 words, 1 locks)  
-THE GAMMA-LEDGER (sealed 0d8776d2 pre-compute; the B1040 per-step form on the derivation stack; the audit seat's Challenge 3 settled by enumeration): 20 Layer-2/3 steps typed from their arcs' own construction-naming text -- THE GAMMA-COLUMN IS EMPTY (0 of 20 consume pi_1(m004) itself), 18 ALGEBRA (e6/e7/Jordan/Chevalley downstream of the McKay assignment; INPUT riders: chirality x3, the VEV direction, the generation count), exactly 1 CLASS at the entry (B727: the atom Q(sqrt-3) = the trace field selecting WHICH McKay), 0 UNDECIDABLE. B993's zero-steps CONFIRMED by enumeration. B803's open address CLOSES EMPTY: the framework's Layers-2/3 subject is the CLASS entered through the ALGEBRA -- the LEVEL LEDGER's restatement (a theorem about a CLASS, entered by a uniquely-doored GRAMMAR, with the object as the class's minimal representative) is now proof-by-enumeration, not conjecture. The entry fence stated: Gamma-data is real and load-bearing IN LAYERS 0-1 (kappa = tr[a,b]; the monodromy A = LR; A7's bit where phi enters) -- the object's whole contribution is EXISTING and ENTERING; everything after the door is the class's and the algebra's. FOURTH independent arrival at one shape (with B997/B1019's door, B1040's template/selection, B1042's field-descent trit -- none planned to agree). Crossing consequence: any design routing through more object data in Layers 2-3 is type-wrong -- crossings live at the door, in the coupling, or at the closings. Gate 5 clean.  
-`B1044_gamma_ledger/FINDINGS.md`
+**PROVED — `B1062`** (887 words, 1 locks)  
+THE BRIDGE CELL (sealed ad8d60f1 + binding pre-compute addendum B1062-A1; the owner's verify-everything order honored: every load-bearing claim twice-derived or rider-named, Hao's Theorem A verified from the PDF on this bench): V2 CONTROL-EXHIBITED -- the arithmeticity axis separates {golden} from {silver, bronze} EXACTLY (golden's geometric traces in Q(sqrt-3) recovered from scratch, imaginary quadratic, ARITH-side with Maclachlan-Reid boundedness vacuous; silver x^4-4x^2+8 degree 4-in-x/8-full reconciled exactly, NON-ARITH by degree; bronze's geometric component = an irreducible OCTIC, all typed roots loxodromic, NON-ARITH robustly over the unidentified root) -- the aperiodic campaign's genericity control EXISTS, window-free. The road recorded as the method's exhibit: the spurious elliptic sqrt(-7) component (killed by the relay seat's tr=-1 order-3 attack, re-derived here; the missed octic factor exposed by complete Groebner; the relay seat's own convention error caught against this bench's verified phi_m^2 = banked [[2,1],[1,1]] at m=1; a blind numeric multistart confirming) -- the compositum resonance and the cloud's bronze answer were BOTH spurious and both would have been wrong. The illustration's live lesson: m=2 is FLAT in the window yet exactly non-arithmetic -- box-flatness certifies nothing, the field-degree test leads (m=3's 106-per-box crowding makes failure visible; m=1's flatness is ENTAILED, pipeline-gate only). V1 TYPED NEGATIVE: the tones (|chi|/2) are NOT Fibonacci gap labels -- half-integer coefficients against the integral module Z + phi^-1 Z, exactly; the un-halved values' Z[phi]-membership fenced contentless (B757); THE GAP-LABEL ROUTE TO THE DOORS' EXTERNALITY IS CLOSED. V3 NOT-FOUND floor: band counts are Fibonacci numbers, intersection with {90,72,120,72,6} empty. DECIDES: L161's gate OPENS with the sharpened literature question (what observable could carry 2I structure, given labels and band counts provably do not); L164 finds externality elsewhere or states the door internal. Riders complete in FINDINGS. Gate 5-Q clean.  
+`B1062_bridge_cell/FINDINGS.md`
 
 **NEGATIVE — `B1027`** (435 words, 0 locks)  
 THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits priced; all eleven requirements cited. THE VERDICT AGAINST THE SEALED CRITERIA: quark delta_13 = 68.8 +- 4.5 deg -- pred 120 MISSES at 11.4 sigma, pred 240 at 38.0 sigma, POWERED (4 sigma-bar = 18 deg); leptonic NuFIT 5.2 NO 197 +42/-25 deg -- pred 120 MISSES at 3.1 sigma, pred 240 MISSES AT 1.02 SIGMA (43.0 deg against a 42.0 deg upper error -- ONE DEGREE beyond the sealed edge), POWERED (4 sigma-bar = 134 < 180). The chi phases {+-2pi/3} are NOT the CP phases in either sector at the sealed 1-sigma criterion; the quark exclusion is decisive at 11 sigma; THE LEPTONIC ONE-DEGREE MISS IS NOT PROMOTED (non-weakening) and is recorded as THE PRECISION FRONTIER -- a global fit shrinking delta_CP's upper error by about 2x decides +-120 sharply either way. SOURCE LIMITATION RECORDED: the fetchable publication was NuFIT 5.2 (Nov 2022) via a secondary source (nu-fit.org certificate expired, search budget exhausted); A REFRESH VERDICT IS PRE-COMMITTED at the same windows, same criterion, no weakening, against the actual latest fit when fetchable. WHAT THIS BANKS: the lane's SECOND powered exclusion (its ledger now 2 bits + 2 rows, after B856's -2.3 sigma); THE FIRST CROSSING TO DIE CLEAN -- no assumed interpolation (phases do not run), no wrong hemisphere (coupling channel, declared), no missing normalisation (no magnitude claimed), zero anchors: the prediction was exact, theorem-grade, and nature said no, by one degree in the one sector where it could have said yes. The theta-even mirror sector and the T2 runner-up remain unspent; any future attempt starts from a fresh nomination with this ledger priced. Gate 5 untouched; nothing promotes; Tier-2 status unchanged.  

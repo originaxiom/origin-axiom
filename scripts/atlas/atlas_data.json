@@ -1299,6 +1299,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1062": {
+   "slug": "bridge cell",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B757",
+    "K007",
+    "L161",
+    "L164",
+    "P0",
+    "V0",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B106": {
    "slug": "dehn filling anatomy",
    "motifs": [

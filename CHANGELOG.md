@@ -1,5 +1,25 @@
 # Changelog
 
+## B1062 (2026-08-13) — THE BRIDGE CELL: the control EXISTS, the tones are NOT labels — one gate opened, one route closed, everything twice-derived
+
+The campaign's decisive cell, computed under the owner's verify-everything order:
+**V2 CONTROL-EXHIBITED** — the arithmeticity axis separates {golden} from {silver,
+bronze} exactly (golden's ℚ(√−3) recovered from scratch; silver degree-4/8
+reconciled; bronze's geometric component an irreducible octic, non-arithmetic
+ROBUSTLY over the unidentified root). The road is half the result: the spurious
+elliptic √−7 component (killed by the relay seat, re-derived here; the missed
+octic exposed by complete Gröbner; their convention error caught against our
+verified convention; a blind multistart confirming) — **the compositum resonance
+and the cloud's bronze answer were both spurious and both would have been wrong.**
+The illustration's live lesson: silver FLAT in the window yet exactly
+non-arithmetic — windows certify nothing, field degrees decide (bronze's
+106-per-box makes failure visible). **V1 TYPED NEGATIVE: the tones are not
+Fibonacci gap labels** — half-integers against an integral module, exactly; the
+dense-module membership fenced (B757). **V3 NOT-FOUND floor** (band counts are
+Fibonacci numbers; intersection empty). DECIDES: **L161's gate OPENS** with the
+sharpened literature question; **L164's gap-label externality CLOSES**. Hao's
+Theorem A verified from the PDF on this bench; riders complete in FINDINGS.
+
 ## The registration batch (2026-08-13) — chat1's F₄-transitivity gated on Krutelevich; the blocker scrutiny harvested; P0-0 reopened on arithmeticity
 
 **L162**: chat1's exploratory result (F₄(ℤ) transitive on the split integral Albert

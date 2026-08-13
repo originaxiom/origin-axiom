@@ -13,6 +13,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-13, B1062 — the bridge cell answers):** The aperiodic campaign's
+genericity control EXISTS: golden is arithmetic, both siblings provably are not —
+exact, window-free, and hardened by surviving a spurious result that two benches
+killed together (a phantom √−7 that would have poisoned two other claims; the
+verify-everything order caught it the same day it appeared). And the first
+externality route is honestly closed: the five tones are NOT the quasicrystal's
+gap labels — off by exactly one half, a typed negative with its mechanism. The
+campaign proceeds: the literature read is unlocked with a sharper question, and
+the doors design inherits a narrower, cleaner target space.
+
 **LATEST (2026-08-13, THE GO):** The owner elected the aperiodic crossing campaign —
 the first crossing direction in the programme's history that its own theorems do not
 forbid. The order of operations is deliberately merciless: before anyone reads a

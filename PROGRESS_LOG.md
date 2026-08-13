@@ -10436,3 +10436,9 @@ the control; this bench seals.
 
 ## 2026-08-13 — the registration batch: L162 (F₄-transitivity, Krutelevich-gated),
 L163 (the μ-pencil not-run), L161's reopening + location clause, the provenance rule
+
+## 2026-08-13 — B1062 banked: CONTROL-EXHIBITED · tones-not-labels · the gate opens
+
+Sealed+addendum honored; battery green; Hao verified from source; three independent
+derivations of the bronze octic; V1/V3 exact. L161 gate OPEN, L164 gap-label route
+closed. Locks: tests/test_b1062_bridge.py (3).
