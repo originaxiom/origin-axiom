@@ -1711,7 +1711,17 @@ the 1920 count reproduces exactly; division 0; the exotic diagonal's rank-1
 signature consistent.** Their defects D1–D4 logged in the handoff (incl. their own
 hardcoded pass line — species instance, self-caught). **The verification arc
 (B1061): V0 = READ KRUTELEVICH 2002 (J. Algebra 253) FIRST — the web seat located, never
-read; if the orbit count is there, this rebanks as a cited re-derivation. Then:
+read. V0 IS THREE-VALUED (re-worded 2026-08-13 pre-run, the relay seat's adversarial
+catch from the author's 2004 restatement arXiv:math/0411104): Krutelevich's Theorem 14
+classifies **NP-orbits** (the norm-preserving split-E₆ group; F₄ is the identity-
+stabilizer INSIDE it — NP-transitivity does not imply F₄-transitivity), and the clean
+transitivity corollary (Cor. 16) **explicitly excludes n = 0** — the stratum where
+rank-1 idempotents live (the degenerate orbits are §4.5/Thm 52 territory). Verdicts:
+(1) CITED RE-DERIVATION only if the 2002 paper's n = 0 stratum contains the F₄
+statement itself (on present evidence unlikely); (2) DERIVABLE-WITH-A-NAMED-STEP —
+the NP → F₄ descent on the norm-0 stratum is REAL MATHEMATICS the cell must supply
+and verify (REBUILT-grade, the likely shape); (3) INDEPENDENT. A two-valued gate
+risked a citation that does not say what the THE_CLAIM amendment needs. Then:
 REBUILT-grade verification on B904/B883's banked machinery (never the web seat's uncoded
 pipeline): automorphy on all three slots; the 15,504-census reachability; the
 wider box. GATED ON IT: the THE_CLAIM amendment (input #5 → proved irreducible;
