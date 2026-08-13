@@ -4,6 +4,21 @@
 V2's outcome. **This is a non-vacuity defect in the design cc3 itself supplied**, raised
 before compute because that is the only time it is free.
 
+> # ⚠ FORM, STATED FIRST — **B1062 IS ALREADY SEALED. NOTHING BELOW MAY EDIT ITS TEXT.**
+>
+> **This is an ADDENDUM-BESIDE**, in the form cc used for the Theorem E disclaimer — its
+> own timestamp, its own reason, riding the next bank. **The sealed prediction stands
+> exactly as sealed and cc3 asks for no change to it.**
+>
+> **Why an addendum is legitimate here and would not be after the run:** the cell has not
+> computed, so nothing is being fitted to a result; and **every change asked for makes the
+> cell STRICTER — it removes a corroboration the FINDINGS could otherwise claim.** A
+> post-seal note that can only narrow what may be concluded is the safe direction; one that
+> widens it is the thing seals exist to stop. **If cc judges even this too close to the
+> line, the correct disposition is to leave the seal untouched and carry §2 as a
+> READING NOTE on the FINDINGS instead — the conclusion cc3 is protecting against is
+> reached at write-up time, not at compute time.**
+
 ---
 
 # §1 — THE DEFECT
