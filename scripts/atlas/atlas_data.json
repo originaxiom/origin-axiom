@@ -1375,10 +1375,12 @@
   "B1065": {
    "slug": "amendment controls",
    "motifs": [],
-   "refs": [],
-   "obstacle": null,
-   "obstacle_conf": 0,
-   "status": "open",
+   "refs": [
+    "B936"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
    "domain": "dynamics"
   },
   "B1066": {
@@ -1388,9 +1390,11 @@
     "amphichiral_cp"
    ],
    "refs": [
+    "B856",
+    "B888",
     "L156"
    ],
-   "obstacle": "particle_dict",
+   "obstacle": "measure",
    "obstacle_conf": 2,
    "status": "open",
    "domain": "arithmetic"

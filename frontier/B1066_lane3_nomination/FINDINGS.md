@@ -75,3 +75,33 @@ precision but the file stays sealed until the owner says otherwise); the
 junction fence held (nothing here touches the Hermitian/value-layer
 channel); the contamination events declared in the seal and in execution 1
 are part of this record; cc3 post-seal review welcome.
+
+---
+
+## RIDERS (same night)
+
+**CORROBORATION (closes execution 2's single-source limitation):** the NuFIT
+collaboration's own JUNO companion paper (arXiv:2601.09791, "Lessons from the
+first JUNO results") — their JUNO-included global value sin²θ₁₂ =
+0.3096+0.0057−0.0073, consistent with the citing-paper table used above.
+Verdict re-checked against the collaboration's own numbers: R-A 4.5σ;
+the δ-independent |U_e1| 2.9σ. **NEGATIVE stands on two independent sources,
+one the collaboration's own.**
+
+**LANGUAGE (the provenance discipline, owner-policed):** the tone-menu
+re-derivation (the 120 icosians built from scratch; |χ|/2 census
+{30, 24, 40, 24, 2}) is INTERNAL consistency — our mathematics re-derived
+against our own registry row. No measured data enters that check; the world
+entered this arc exactly once, at Stage 2, and declined.
+
+**WORDING (the relay audit seat's correction, adopted):** "Pythagorean" is
+retired; the tone triple is the components of a UNIT VECTOR in geometric
+progression with ratio φ (the right-triangle reading fails: 1/4 − √5/4 ≠ 0).
+
+**CROSS-KIND DISCLOSURE (B888-style: observation, unweighted):** the
+corroborated sin²θ₁₂ = 0.3096 sits within 0.1σ of the TONE 1/(2φ) = 0.30902.
+This pairs probability-kind data with the amplitude-kind menu — exactly the
+identification the kind table forbids (the B856 death) — and with five
+[0,1]-menu values against six percent-precision measurements, some
+unlicensed ~0.1σ proximity is near-guaranteed by base rate. Recorded so it
+is visible, priced at nothing, claimed as nothing.

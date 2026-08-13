@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **970** |
-| words of findings prose | **652,326** |
+| words of findings prose | **652,971** |
 | test lock files referenced | **601** |
 | arcs carrying an authored verdict | **957** (98.7 %) |
 | recorded closures | **753** (586 classified, 167 routed-only) |
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 631 |
+| PROVED | 632 |
 | NEGATIVE | 283 |
-| OPEN | 33 |
+| OPEN | 32 |
 | RETRACTED | 10 |
 
 ## How the doors were shut
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1062`** (887 words, 1 locks)  
-THE BRIDGE CELL (sealed ad8d60f1 + binding pre-compute addendum B1062-A1; the owner's verify-everything order honored: every load-bearing claim twice-derived or rider-named, Hao's Theorem A verified from the PDF on this bench): V2 CONTROL-EXHIBITED -- the arithmeticity axis separates {golden} from {silver, bronze} EXACTLY (golden's geometric traces in Q(sqrt-3) recovered from scratch, imaginary quadratic, ARITH-side with Maclachlan-Reid boundedness vacuous; silver x^4-4x^2+8 degree 4-in-x/8-full reconciled exactly, NON-ARITH by degree; bronze's geometric component = an irreducible OCTIC, all typed roots loxodromic, NON-ARITH robustly over the unidentified root) -- the aperiodic campaign's genericity control EXISTS, window-free. The road recorded as the method's exhibit: the spurious elliptic sqrt(-7) component (killed by the relay seat's tr=-1 order-3 attack, re-derived here; the missed octic factor exposed by complete Groebner; the relay seat's own convention error caught against this bench's verified phi_m^2 = banked [[2,1],[1,1]] at m=1; a blind numeric multistart confirming) -- the compositum resonance and the cloud's bronze answer were BOTH spurious and both would have been wrong. The illustration's live lesson: m=2 is FLAT in the window yet exactly non-arithmetic -- box-flatness certifies nothing, the field-degree test leads (m=3's 106-per-box crowding makes failure visible; m=1's flatness is ENTAILED, pipeline-gate only). V1 TYPED NEGATIVE: the tones (|chi|/2) are NOT Fibonacci gap labels -- half-integer coefficients against the integral module Z + phi^-1 Z, exactly; the un-halved values' Z[phi]-membership fenced contentless (B757); THE GAP-LABEL ROUTE TO THE DOORS' EXTERNALITY IS CLOSED. V3 NOT-FOUND floor: band counts are Fibonacci numbers, intersection with {90,72,120,72,6} empty. DECIDES: L161's gate OPENS with the sharpened literature question (what observable could carry 2I structure, given labels and band counts provably do not); L164 finds externality elsewhere or states the door internal. Riders complete in FINDINGS. Gate 5-Q clean.  
-`B1062_bridge_cell/FINDINGS.md`
+**PROVED — `B1065`** (479 words, 0 locks)  
+O1 — SAME-CONFIRMED AT STATED PRICE (2.6-3.4 bits, both nulls named): C1 the B936 class map is equivariant over all 64 characters (tau-equivariance; all-flip descends +(1,1); THE NODE-EXCHANGE DESCENDS TO THE TARGET SWAP — the fork-twin (1,0)/(0,1) discrepancy is a diagram-symmetry labeling convention, the anomaly closed as structure); C2 the base rate exact (surjectivity alone = 0.585/1.415 bits under the two declared nulls — thin, as sealed); C3 joint rank 2 within and across presentations with the consolidation seat class mapping EXACTLY under the C1c involution (+2.0 bits — the leg the same-day fork-twin audit supplied). R45-9 three-review escalation DISCHARGED BY EXECUTION; R11 updates to the priced form; the oldest PROVISIONAL banner converts; d<=3 unconditional and the d=4 refutation stand as before.  
+`B1065_amendment_controls/FINDINGS.md`
 
-**NEGATIVE — `B1066`** (753 words, 0 locks)  
+**NEGATIVE — `B1066`** (970 words, 0 locks)  
 NEGATIVE — both inventory-forced relations decisively excluded by the CURRENT global fit (NuFIT 6.1, Nov 2025 data, both orderings, delta profiled over the full circle): R-B (the phi-geometric row) fires NO trial anywhere — the delta-independent anchor |U_e1| = 0.8225(40) vs phi/2 = 0.80902 is 3.4 sigma and unrescuable; R-A (the listener pair) misses everywhere — sin^2th12 = 0.308(67) vs 0.27639 is 4.7 sigma. The two-execution history is the record per the covenant: execution 1 ran against superseded NuFIT 6.0 (the B1063 fetch-currency species reproduced same-day, caught by the owner + self-audit; its single wide-window firing on PMNS column 1 was a stale-release artifact, WITHDRAWN), execution 2 valid. The coupling channel — type-legal by construction, licensed by the kind table, never base-rate-tested — is now tested and closed; with the phases (B1027/B1063) and both remaining kind-rows consumed, the licensed value-contact surface is EXHAUSTED. The listener map named as the sole residual door. One-shot spent properly.  
 `B1066_lane3_nomination/FINDINGS.md`
 

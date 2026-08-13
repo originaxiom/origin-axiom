@@ -10494,3 +10494,11 @@ gate; LAW_MAP §G with four seed method-laws; the three registers watched, two
 reads landed; TOOLBOX split — frozen body + live page; qL159/160/165
 dispositions). Locks: tests/test_verdict_body_agreement.py (2),
 tests/test_instrument_freshness.py carried.
+
+## 2026-08-13 — B1065 PROVED/O1: the controls ran (C1 equivariance ×64; C1c
+the node-exchange = the target swap — the fork-twin anomaly is a diagram
+symmetry; C2 the thin price stated; C3 cross-presentation exact, +2.0 bits);
+the oldest PROVISIONAL banner converts; R45-9 discharged by execution. B1066's
+riders: the collaboration's own corroboration (4.5σ/2.9σ); the language and
+wording riders; the cross-kind disclosure. Locks: the b1024 locks carry;
+b1065_controls.log exact.

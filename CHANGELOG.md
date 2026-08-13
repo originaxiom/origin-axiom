@@ -1,5 +1,26 @@
 # Changelog
 
+## B1065 PROVED/O1 + the riders (2026-08-13, the day's fifth and closing bank) — the oldest provisional banner discharges; the fork-twin anomaly becomes a theorem
+
+The three amendment controls ran, three reviews late, and landed O1 —
+SAME-CONFIRMED AT STATED PRICE: the B936 class map is equivariant over all
+64 characters; **the node-exchange descends to exactly the target swap, so
+the fork-twin's (1,0)/(0,1) conjugation classes — two benches' independent
+runs of one sealed prereg — are ONE object under a diagram symmetry** (the
+anomaly closed as structure); the base rate priced exactly (surjectivity
+alone 0.585/1.415 bits — thin, as the seal warned); the cross-presentation
+joint rank exact (+2.0 bits — the leg the same-day fork-twin audit
+supplied). d = 2 now reads with its price visible; R11 and the LAW_MAP
+banner convert; R45-9's escalation is discharged by execution. B1066 gains
+its riders: the collaboration's own JUNO companion corroborates the
+NEGATIVE (4.5σ/2.9σ on their numbers — two independent sources); the
+internal-consistency language rider; the unit-norm wording (the audit
+seat's correction); the cross-kind disclosure (sin²θ₁₂ within 0.1σ of a
+TONE — kind-forbidden as evidence, recorded as observation-unweighted with
+the base-rate warning). §G's two seed rows gain their arc provenance (the
+law-map gate's catch).
+
+
 ## B1066 NEGATIVE + the desk bank (2026-08-13, the day's fourth bank) — Lane III adjudicated whole; the licensed value-contact surface is exhausted; seven owner decisions land
 
 **B1066 — LANE III, the two-execution record per the covenant.** The sealed
