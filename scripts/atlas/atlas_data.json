@@ -1381,6 +1381,15 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1066": {
+   "slug": "lane3 nomination",
+   "motifs": [],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B106": {
    "slug": "dehn filling anatomy",
    "motifs": [

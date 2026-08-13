@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **969** |
-| words of findings prose | **651,573** |
+| research arcs with findings | **970** |
+| words of findings prose | **651,642** |
 | test lock files referenced | **601** |
-| arcs carrying an authored verdict | **956** (98.7 %) |
-| recorded closures | **751** (584 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **957** (98.7 %) |
+| recorded closures | **752** (585 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -35,7 +35,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 |---|---|
 | PROVED | 631 |
 | NEGATIVE | 282 |
-| OPEN | 33 |
+| OPEN | 34 |
 | RETRACTED | 10 |
 
 ## How the doors were shut
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 31 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 32 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
