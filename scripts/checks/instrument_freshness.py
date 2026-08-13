@@ -81,6 +81,8 @@ def sweep(lo=0, hi=10 ** 9):
       STALE-GREEN  the committed cache said green and the live run is red -- the failure this
                    module exists to catch;
       RED          the instrument was already recording red;
+      KEY-LOSS     re-running DROPS keys the committed file had -- the lock asserts over data
+                   the instrument cannot produce. The original is restored, never destroyed;
       CRASH        the instrument could not run at all;
       NO-VERDICT   the results file records no pass/fail state, so no lock over it can mean
                    anything (reported, never guessed).
@@ -88,11 +90,31 @@ def sweep(lo=0, hi=10 ** 9):
     bad = []
     for n, v, r in instruments(lo, hi):
         before = _all_pass(r)
+        # SNAPSHOT FIRST. Re-running an instrument OVERWRITES its results file, and B946 proved
+        # that is not always safe: its `results.json` carried four keys the script has not
+        # produced since B963, so the first regeneration silently DESTROYED them and only git
+        # still had the values. A tool built to expose stale caches must not eat the evidence --
+        # so the original is restored whenever a re-run loses keys, and the loss is REPORTED.
+        snapshot = pathlib.Path(r).read_text(encoding="utf-8")
+        try:
+            keys_before = set(json.loads(snapshot))
+        except Exception:
+            keys_before = set()
         try:
             p = subprocess.run([sys.executable, v], cwd=ROOT, capture_output=True, text=True,
                                timeout=TIMEOUT)
         except subprocess.TimeoutExpired:
             bad.append((f"B{n}", "CRASH", f"timed out after {TIMEOUT}s"))
+            continue
+        try:
+            lost = keys_before - set(json.loads(pathlib.Path(r).read_text(encoding="utf-8")))
+        except Exception:
+            lost = set()
+        if lost:
+            pathlib.Path(r).write_text(snapshot, encoding="utf-8")      # evidence preserved
+            bad.append((f"B{n}", "KEY-LOSS",
+                        "re-running drops " + ", ".join(sorted(lost))
+                        + " -- the lock asserts over data the instrument cannot produce"))
             continue
         after = _all_pass(r)
         if after is None:

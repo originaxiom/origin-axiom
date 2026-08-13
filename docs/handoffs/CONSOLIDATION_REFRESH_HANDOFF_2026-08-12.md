@@ -407,3 +407,76 @@ defect and it outranks everything in §1:
 > **And the debt number this handoff publishes — 245 → 175 — selects on that same field**: it
 > counts 175 uncited arcs and is blind to 191 more. **Quote it with its qualifier: it answers
 > "how many arcs with a POSITIVE verdict are uncited," not "how much the curated surfaces miss."**
+
+---
+
+## 8. THE RETURN NOTE — Review 1 closed, and what main's digest is asked to re-grade
+
+*The commission's return deliverable. Review 1 is banked on this branch as
+`docs/progress/REVIEW_1_CONSOLIDATION_SEAT_2026-08-12.md` (arc **B1054**), anchored at `5b26e51`,
+the window's last bank. It never merges; it is harvested here.*
+
+**Condition 3's mechanism, so the digest can re-grade rather than re-read.**
+`frontier/B1054_review_one/verify.py` produces **every** countable claim the review makes. It
+takes **no arguments**, needs **no network**, and re-runs in seconds. Disagree with a number by
+re-running it, not by reading around it.
+
+### The three claims flagged for independent re-grading, in priority order
+
+0. **The first full suite run under the new sweep returned EXIT 1 and found the oldest instance
+   of all — outside this window.** `tests/test_b946_handoff6.py` has asserted since **B963** over
+   four `results.json` keys that **B946's own `verify.py` never produced**. It passed only because
+   nobody re-ran the instrument. The values were never wrong — §8 of B946 states the symbol,
+   `(6237 | p)` from B931/B937's √77 resolvent law — so they are now **computed**, byte-identical
+   to the cache. **Sweep the corpus for the same shape (R1-16).**
+1. **Six instruments were red at `5b26e51` while the suite was green** — B1042 · B1043 · B1046 ·
+   B1047 · B1049 · B1052, each shipping `results.json` with `all_pass: true`. Reproduce:
+   check out `5b26e51` into a *pristine* worktree, run `pytest` over those six arcs' locks (46
+   passed / 0 failed), then re-run the six `verify.py` and watch all six go red. **Registered as
+   E39, cached verification** — E38 is a lock that fails when it should not; **E39 is a lock that
+   passes when it should not.** All six repaired to structural claims, never to fresh integers.
+2. **All thirty arcs carry `verdict: PROVED`** against a **65.5 %** base rate over the other 930
+   (P ≈ 3 × 10⁻⁶), while eighteen bodies carry retraction/refutation/decline language and two
+   declare a NON-FINDING. The control: the same arcs' **atlas `status` discriminates four ways**
+   (banked 18 · dead 9 · dormant 1 · open 2), so this is a **routing failure between two metadata
+   fields**, not absent judgement. **Cite cc3's convergence, do not re-adjudicate alone.**
+3. **The consolidation-debt metric selects on `verdict:`** — counts **175**, blind to **191**
+   (`NEGATIVE` 171 · `OPEN` 16 · `RETRACTED` 4): **48 % of its own subject.** The figure is not
+   wrong; it answers *"how many arcs with a POSITIVE verdict are uncited."* **Quote it with that
+   qualifier.**
+
+### Owned by MAIN — three items this seat cannot discharge from a branch that never merges
+
+- **R1-1 · `TOOLBOX.md`, lag 684.** R42 escalated it as *"TWO reviews old … does not survive a
+  third review undeclared."* R43 carried it, R44 carried it, **this is the third and it is still
+  undischarged.** Each review that sees it is not the one that can fix it. **The routing is the
+  defect, not the diligence.**
+- **R1-2 · template item 1b names the wrong instrument.** `git branch -r --no-merged` answers from
+  the clone's cache; it returned **one** ref here where `git ls-remote --heads` returns **three**,
+  hiding the relay audit seat's LIVE branch. Item 1b should name `ls-remote`.
+- **R1-3 · the alias resolver is not banked.** A `CLOUD_ALIAS_TABLE.md` under `docs/` **does not
+  exist at `main@6d52d65`**, checked at `docs/` and at the repository root, though the commission
+  cites it as *"the permanent resolver, banked."* The qB/qL convention is followed as instructed,
+  but it currently travels on cc's word rather than on an artifact.
+
+### What stays the owner's
+
+**qL155–qL166 — twelve leads, registered, measured, deliberately undecided.** The review's job was
+to register them, and it did not decide one. That includes **qL166**, whose disposition is the
+subject of finding 2 above.
+
+### The systemic fix, and its honest price
+
+`scripts/checks/instrument_freshness.py` re-runs **every** arc instrument in the corpus and
+separates **STALE-GREEN** from **RED**, **CRASH** and **NO-VERDICT**. It costs **~5 m 20 s**, so
+it is wired as a **suite test**, not a per-push gate — and the per-push version is **registered as
+R1-12 rather than pretended**. It earned its place on its first real use: it caught two further
+regressions this review's own edits had created, one of them a count-lock the review had already
+repaired *in the test file* and missed *inside the arc's own instrument*. **The window's rule was
+"the repair is not complete until the FILE is swept." The rule needed to be the corpus, and it is
+now mechanical rather than remembered.**
+
+> **For whoever reads this next:** the sharpest thing this window learned about itself is that it
+> held its own metadata to a lower standard than the metadata it audited. Thirty uniform verdicts,
+> twenty-nine undeclared unsealed arcs, and a headline metric selecting on the very field its own
+> lead flagged. The mathematics is not what needed watching.
