@@ -109,9 +109,11 @@ The design notes B1062's arithmetic split lands on *"the same partition {golden}
 > agreement MIGHT be real corroboration.** **But independence has not been established,
 > and until it is, two agreeing facts may be one fact read twice.**
 >
-> **And A2 sharpens this:** if the trace-field degree is monotone in m, and the conductor
-> `m²+4` is also monotone in m, **both partitions are "m = 1 is smallest" in two
-> costumes.** **A5 and A2 stand or fall together.**
+> ## ⚠ **DOWNGRADED to K1 by A2's collapse — cc3's own attack, corrected.** The draft argued that if BOTH the degree and the conductor `m²+4` were monotone in m, the two partitions would be "m = 1 is smallest" twice over. **A2's computation killed the antecedent: the degree is NOT monotone (8, 8 at m = 3, 4) while `m²+4` IS.** **So the two partitions demonstrably do NOT track the same quantity — which is affirmative evidence FOR their independence, not merely absence of evidence against.**
+>
+> **What survives at K1:** independence is now *supported* but still not *established* —
+> non-identical behaviour on five members is not a proof of independence. **The row should
+> read "independence evidenced, not proved," and the design should not claim more.**
 
 # A6 — **K1. Door 3's "NONE NAMED" needs its SEARCH PROVENANCE.**
 
