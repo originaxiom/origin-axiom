@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 967 frontier probes; status {'open': 63, 'banked': 633, 'dead': 252, 'dormant': 19}
+  corpus: 967 frontier probes; status {'open': 62, 'banked': 634, 'dead': 252, 'dormant': 19}
   the ONE conserved first integral: kappa (recurs 225x, 23%) -- genuine unity, MUST recur
   top recurring motifs: golden(550), firewall(542), eisenstein(509), figure_eight(406), metallic(397), trace_map(374)
   recurrence is: structural-invariant 3237 mentions | conserved-integral 225 | TOOL 374
@@ -65,7 +65,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | units_scale | 97 | firewall | firewall(67), golden(61), metallic(51), eisenstein(48) |
 | gauge_dict | 57 | eisenstein | eisenstein(34), firewall(32), amphichiral_cp(29), figure_eight(28) |
 | particle_dict | 79 | eisenstein | eisenstein(57), z3_generation(52), firewall(52), golden(46) |
-| spacetime_3p1 | 108 | golden | golden(66), figure_eight(66), eisenstein(62), trace_map(54) |
+| spacetime_3p1 | 109 | golden | golden(66), figure_eight(66), eisenstein(62), trace_map(54) |
 | observable | 36 | golden | golden(27), metallic(19), torsion(18), firewall(17) |
 | numerology | 21 | golden | golden(16), firewall(16), eisenstein(16), torsion(14) |
 | bridge_construction | 6 | golden | golden(4), wrt_quantum(4), firewall(4), figure_eight(4) |
@@ -114,9 +114,9 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 |---|---|
 | source_free | 1/3 |
 | bridge_construction | 6/16 |
-| measure | 93/153 |
+| measure | 93/154 |
 | gauge_dict | 57/92 |
-| spacetime_3p1 | 108/172 |
+| spacetime_3p1 | 109/173 |
 | numerology | 21/33 |
 | observable | 36/53 |
 | cancellation | 49/72 |
