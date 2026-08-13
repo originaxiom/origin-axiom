@@ -13,6 +13,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-13, THE GO):** The owner elected the aperiodic crossing campaign —
+the first crossing direction in the programme's history that its own theorems do not
+forbid. The order of operations is deliberately merciless: before anyone reads a
+single experiment, the genericity control must be designed and sealed — a written
+statement of what the silver and bronze grammars FAIL that the golden passes. If
+that document cannot be written, the direction dies at the cost of one document. If
+it can, fifty years of quasicrystal spectroscopy becomes the programme's first
+type-correct target range. The claim language changes only if a crossing actually
+banks. L161 carries the registration; the relay seat drafts the control.
+
 **LATEST (2026-08-13, MEDITATION 2):** The post-campaign reading is banked. Its
 sharpest line: the binary/ternary split was never a split — it is one descent
 diagram, the field's own unit group factoring across the programme's channels. Its

@@ -1649,3 +1649,39 @@ the typed negative *"the E₆ leg is the one Galois bit the observer's operation
 carry."* If exhibited, the observer's bits ARE the ambient's Galois legs — the
 observer ≡ ambient identification gains its morphism (L158's other discriminator).
 FL-4-adjacent, distinct (deletion/sisters vs morphism).
+
+
+## L161 — THE APERIODIC CROSSING CAMPAIGN (OWNER-ELECTED 2026-08-13: "GO!"; Phase 0 is CONTROL-FIRST and cheap by design)
+
+**The election**: the owner green-lit the scale-factorisation direction (cc3's
+2026-08-12 document, verified on receipt: an SM value = (class invariant) ×
+(substrate scale), one factor held and one blind BY THEOREM — B518/B1012; the
+type-correct crossing is into aperiodic-order spectra, where the MATERIAL supplies
+the scale and the comparison is menu-to-menu). The substrate identification is
+already banked (B107: the metallic trace map IS the Kohmoto–Kadanoff–Tang /
+Fibonacci-Hamiltonian; K007/K010; B148's literature row). **This is the only
+crossing design on record satisfying all five clauses of
+docs/THE_WITHHOLDING_TAXONOMY.md — and that compliance is a design CONSTRAINT on
+every cell of this campaign, checked at each seal.**
+
+**Phase 0, in the meditation's binding order (Meditation 2 Part III):**
+- **P0-0 THE GENERICITY CONTROL, designed and SEALED FIRST — before any literature
+  is read.** The design must state, in advance, what the silver and bronze
+  substitutions FAIL that the golden passes (candidate handles, banked: the five
+  tones {0, 1/(2φ), ½, φ/2, 1} = |χ_golden|/2 — 2I-specific; B641's ear-independence
+  law; B997's own-conductor McKay uniqueness). **If no such control is designable,
+  the campaign dies here at the cost of one document — its cheapest honest death.
+  κ-positivity alone is FORBIDDEN as a target (substitution-generic, N5).**
+  Lane: the relay audit seat drafts; this bench seals and adjudicates.
+- **P0-1** which physical realisation carries the m = 1 (Fibonacci) grammar, and at
+  what measured spectral resolution (Sütő; Damanik–Gorodetski; the fifty-year
+  experimental literature — read ONLY after P0-0 seals).
+- **P0-2** whether the five tones are OBSERVABLES there, or transfer-matrix
+  invariants no experiment resolves.
+
+**Fences**: Gate 5-Q throughout Phase 0 (no measured value enters any main
+artifact until a sealed crossing cell exists with its prior declared);
+exploratory-numerics rigor on anything numeric; the reframe's claim-language
+("a theory of an aperiodic-order universality class; the SM's membership OPEN")
+enters THE_CLAIM only if/when a crossing cell BANKS — the election changes the
+work-queue, not the claim.

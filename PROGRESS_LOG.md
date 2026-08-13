@@ -10427,3 +10427,9 @@ aperiodic Phase-0 reordered control-first. Rank: PM-II-1 invariant line → taxo
 Five withholding classes classified with the factorisation unifier; the
 template/selection meta-row placed at four banked levels. The meditation's cheap
 tier complete; next: the digest B1060 (epoch cell first).
+
+## 2026-08-13 — L161 registered: the aperiodic crossing campaign, owner-elected
+
+GO received. Control-first order binding (P0-0 before any literature); five-clause
+compliance per seal; Gate 5-Q; claim unchanged until a crossing banks. cc3 drafts
+the control; this bench seals.

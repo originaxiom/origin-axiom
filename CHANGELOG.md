@@ -1,5 +1,18 @@
 # Changelog
 
+## L161 — THE APERIODIC CROSSING CAMPAIGN: OWNER-ELECTED ("GO!", 2026-08-13)
+
+The owner elected the scale-factorisation direction. Registered with the
+meditation's binding order: **the genericity control designs and seals FIRST** —
+before one page of the experimental literature is read — stating what silver and
+bronze must FAIL that the golden passes (the five tones / the ear law / B997's
+uniqueness are the candidate handles; κ-positivity is forbidden as
+substitution-generic). If the control is undesignable, the campaign dies for the
+price of a document. The five-clause taxonomy compliance is a per-seal constraint.
+The claim language changes only if a crossing cell banks. Lanes: the relay seat
+drafts P0-0; this bench seals and adjudicates; P0-1/P0-2 (the m = 1 realisation;
+the tones as observables) unlock only after P0-0 seals.
+
 ## The synthesis pair (2026-08-13) — the withholding taxonomy banked; the template/selection meta-row placed
 
 Meditation 2's ranked 2–3, executed: **docs/THE_WITHHOLDING_TAXONOMY.md** — the five
