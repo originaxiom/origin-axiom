@@ -24,32 +24,88 @@
    "dim": "n^2 - 1",
    "step": "2n - 1, telescoping to n^2 - 1"
   },
-  "every_restored_law_but_one_has_siblings_STILL_IN_DEBT_in_other_bands": {
+  "every_restored_law_has_KIN_IN_OTHER_BANDS__the_band_is_the_wrong_unit": {
    "pass": true,
-   "siblings": {
+   "kin": {
     "the tower (B1038)": [
      "B33",
+     "B117",
+     "B122",
      "B232",
-     "B522"
+     "B522",
+     "B1037",
+     "B1038",
+     "B1043"
     ],
     "phi-fixed reducibility (B1039)": [
-     "B564"
+     "B141",
+     "B142",
+     "B564",
+     "B1037",
+     "B1039",
+     "B1043"
     ],
     "the metallic exponent (B1039)": [
      "B75",
      "B77",
+     "B78",
+     "B90",
+     "B94",
      "B106",
-     "B257"
+     "B108",
+     "B111",
+     "B113",
+     "B114",
+     "B115",
+     "B119",
+     "B153",
+     "B154",
+     "B157",
+     "B198",
+     "B199",
+     "B203",
+     "B257",
+     "B285",
+     "B1037",
+     "B1039",
+     "B1043",
+     "B1051"
     ],
-    "isomonodromy (B1040)": []
+    "isomonodromy (B1040)": [
+     "B164",
+     "B169",
+     "B317",
+     "B944",
+     "B1037",
+     "B1040",
+     "B1043",
+     "B1045"
+    ]
    },
    "bands_spanned": [
     "B000s",
     "B100s",
     "B200s",
-    "B500s"
+    "B300s",
+    "B500s",
+    "B900s",
+    "B1000s"
+   ]
+  },
+  "MEASURED__how_much_of_that_kinship_is_STILL_in_debt": {
+   "pass": true,
+   "still_in_debt": {
+    "the tower (B1038)": [],
+    "phi-fixed reducibility (B1039)": [],
+    "the metallic exponent (B1039)": [
+     "B257"
+    ],
+    "isomonodromy (B1040)": []
+   },
+   "bands": [
+    "B200s"
    ],
-   "note": "isomonodromy is the control: B1040's cluster was already complete, so a law CAN be band-local. The finding is that most are not"
+   "note": "8+ across 4+ bands when this arc was banked; the later restorations discharged all but one. Isomonodromy remains the control -- B1040's cluster was already complete, so a law CAN be band-local. The finding was that most are not, and it was acted on."
   },
   "the_band_groups_by_WHEN_not_by_WHAT": {
    "pass": true,

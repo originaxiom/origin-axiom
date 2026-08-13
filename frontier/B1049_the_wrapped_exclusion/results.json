@@ -14,22 +14,53 @@
   "B1037s_own_check_is_green_again_and_says_why": {
    "pass": true
   },
-  "TWO_of_the_four_consumers_carried_the_defect_not_three": {
+  "MEASURED__consumers_currently_biting": {
    "pass": true,
+   "n": 3,
    "latent": {
     "B1031": [],
     "B1032": [
      "B141",
+     "B19",
+     "B21",
+     "B26",
+     "B28",
+     "B30",
+     "B34",
+     "B35",
      "B564"
     ],
     "B1037": [
      "B141",
+     "B19",
+     "B21",
+     "B26",
+     "B28",
+     "B30",
+     "B34",
+     "B35",
      "B564"
     ],
-    "B1048": []
+    "B1048": [
+     "B19",
+     "B21",
+     "B26",
+     "B28",
+     "B30",
+     "B34",
+     "B35"
+    ]
    }
   },
-  "the_RED_one_and_the_LATENT_GREEN_one_orphan_the_SAME_two_citations": {
+  "B1031s_predicate_orphans_NOTHING__the_correction_against_the_author_holds": {
+   "pass": true,
+   "b1031": []
+  },
+  "at_least_two_of_the_four_DO_orphan_citations__the_defect_is_real": {
+   "pass": true,
+   "n": 3
+  },
+  "B1032_and_B1037_orphan_the_SAME_set_and_it_still_contains_the_named_two": {
    "pass": true
   },
   "and_B1032_was_green_BY_LUCK__it_counts_B885_B889_B890_B891_not_B141": {

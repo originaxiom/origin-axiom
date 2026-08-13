@@ -20,7 +20,11 @@ def test_every_check_passes():
 def test_the_two_classes_exist_with_their_standing_rules():
     assert "| E37 |" in _EL and "Self-measurement" in _EL
     assert "| E38 |" in _EL and "Progress-eroded threshold" in _EL
-    assert len(re.findall(r"^\| E\d+ \|", _EL, re.M)) == 38
+    # REPAIRED BY REVIEW 1 (B1054). `== 38` is E38 inside the arc that REGISTERED E38: an absolute
+    # count over a register whose whole purpose is to grow. Review 1 added E39 (cached
+    # verification) and this inverted. The claim is that both classes exist and the register is at
+    # least as large as when they were added.
+    assert len(re.findall(r"^\| E\d+ \|", _EL, re.M)) >= 38
     # E37's rule is B1033's, and must say so
     e37 = [l for l in _EL.splitlines() if l.startswith("| E37 |")][0]
     assert "EXCLUSION SET" in e37 and "AUTHORSHIP" in e37
@@ -45,7 +49,15 @@ def test_the_one_offs_are_instances_not_classes():
     e36 = _EL.split("| E37 |")[0].split("| E36 |")[-1]
     assert "B1039" in e31 and "ANTI-homomorphism" in e31
     assert "B1041" in e36
-    assert "| E39 |" not in _EL                      # no class was minted for either
+    # REPAIRED BY REVIEW 1 (B1054). The original asserted `"| E39 |" not in _EL` to mean "neither
+    # one-off was promoted to a class" -- but it said so by claiming the NEXT SLOT stays empty
+    # forever, which any later finding falsifies without touching the claim. E39 now exists, for
+    # cached verification, which is neither of these two. The claim is restated as what it is:
+    # these two incidents live inside E31 and E36 and nowhere else.
+    for row in re.findall(r"^\| E\d+ \|.*$", _EL, re.M):
+        if row.startswith("| E31 |") or row.startswith("| E36 |"):
+            continue
+        assert "ANTI-homomorphism" not in row, row[:80]
 
 
 def test_the_hazard_that_earned_E37_is_still_named_at_its_origin():

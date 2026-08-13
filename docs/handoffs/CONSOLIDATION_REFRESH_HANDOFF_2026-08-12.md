@@ -26,7 +26,7 @@ To: the banking seat that picks this up.*
 | `LAW_MAP` rows added | **27** *(a first draft of this line said 11 — it counted only the restorations and missed the audit rows; the arc's own check caught it)* |
 | error classes added | **E37** (self-measurement), **E38** (progress-eroded threshold) |
 | open leads registered for the owner | **12** — L155 … L166 |
-| full suite | **48 min**, 3961 passed / 120 skipped / 0 failed, last known-green pinned in `BANKING_PROTOCOL` |
+| full suite | **48 min** + **~5 min** since B1054 (the instrument-freshness sweep re-runs every arc instrument), last known-green pinned in `BANKING_PROTOCOL` |
 
 **Nothing was promoted to `CLAIMS.md`. Gate 5 was never touched. No anchor was added. `main` was
 never touched.**
@@ -361,7 +361,7 @@ python3 scripts/checks/law_siblings.py             # coverage + untriaged siblin
 python3 scripts/checks/supersession.py             # the one-way arc graph
 python3 scripts/checks/retraction_sweep.py         # registered phrases used as live claims
 python3 frontier/B10NN_*/verify.py                 # any arc's own checks, re-run
-python3 -m pytest -q                               # 48 minutes; read the exit code
+python3 -m pytest -q                               # ~53 minutes; read the EXIT CODE, not the tail
 ```
 
 **Registries to read before restoring anything:** `docs/consolidation/DEBT_LEDGER.md` (dispositions),
@@ -372,3 +372,38 @@ E34, E36, **E37**, **E38**).
 *Last known-green full suite: `be87a51`, 3996 passed / 120 skipped / 0 failed, 49:23. Update that
 line in `BANKING_PROTOCOL` whenever a full run completes — a green suite whose commit is not recorded
 is a rumour.*
+
+---
+
+## 7. ADDENDUM — Review 1 reviewed this handoff, and corrected it (B1054, 2026-08-12)
+
+*The window did not end at B1051. Two arcs (B1052, B1053) and then the commissioned **Review 1**
+(B1054) followed, so the modulus this handoff describes as "28 arcs, B1024–B1051" is now
+**thirty arcs, qB1024–qB1053**. The review is
+`docs/progress/REVIEW_1_CONSOLIDATION_SEAT_2026-08-12.md`; read it beside this document.*
+
+**One correction to this handoff, found by the review:** §2's opening sentence partitions the
+corrections *"Twelve … six … four … and one"* — **12 + 6 + 4 + 1 = 23, and the table enumerates
+24.** §2.2's eleven rows carry **no catch-mechanism column**, so the partition is not derivable
+from the tables it summarises; it can only be repaired by attributing those eleven. **B1052's
+instrument gated that section with `n_corr >= 20`** — a lower bound standing in for an exact
+four-way claim, which is this window's own text-versus-structure species appearing inside the
+instrument built to prevent it. **The count of 24 is correct; the partition is not.** *(R1-5.)*
+
+**Two things this handoff got right that the review confirmed by measurement:** the twenty-four
+corrections are all real and all published against the author; and the standing rule *"an
+unexplained number is a signal"* paid for itself a **third** time — the container rewound again
+between the handoff and the review, fifteen arcs deep, and was caught by comparing
+`git rev-parse HEAD` to `git ls-remote origin`, exactly as §2.7 instructs.
+
+**The one finding a successor should carry above all others**, because it is this window's own
+defect and it outranks everything in §1:
+
+> **All thirty arcs say `verdict: PROVED`** — against a **65.5 %** corpus base rate measured with
+> this window excluded (P ≈ 3 × 10⁻⁶) — while **eighteen bodies** carry retraction, refutation,
+> decline or non-finding language and **two declare an outright NON-FINDING**. That is **L166,
+> committed thirty times by arcs banked after L166 was written.** The same arcs' **atlas `status`
+> discriminates four ways**, so the judgement exists and is not routed to the field the hunts read.
+> **And the debt number this handoff publishes — 245 → 175 — selects on that same field**: it
+> counts 175 uncited arcs and is blind to 191 more. **Quote it with its qualifier: it answers
+> "how many arcs with a POSITIVE verdict are uncited," not "how much the curated surfaces miss."**

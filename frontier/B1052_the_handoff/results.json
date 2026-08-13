@@ -96,7 +96,12 @@
    "fp": 6,
    "rows": 154
   },
-  "CLAIM_the_suite_is_48_minutes_and_the_green_commit_is_pinned": {
+  "CLAIM_the_suite_is_48_minutes_and_A_green_commit_is_pinned_BY_SHA_AND_COUNT": {
+   "pass": true,
+   "pinned_sha": "be87a51",
+   "pinned_passed": "3996"
+  },
+  "...and_the_handoff_CITES_the_protocol_rather_than_duplicating_the_sha": {
    "pass": true
   },
   "CLAIM_227_syspath_files_and_the_56_and_46_importers": {

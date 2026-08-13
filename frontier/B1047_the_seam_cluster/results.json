@@ -266,15 +266,14 @@
   "...and_this_arcs_own_restored_law": {
    "pass": true
   },
-  "the_new_fingerprint_surfaced_three_real_siblings_of_B1029s_row": {
+  "the_new_fingerprint_surfaced_three_real_siblings_of_B1029s_row__all_now_DISPOSITIONED": {
    "pass": true,
-   "candidates": [
+   "still_untriaged": [
     "B257",
-    "B427",
-    "B449",
     "B459",
     "B876"
-   ]
+   ],
+   "note": "surfaced by this arc, dispositioned by B1048. The original form asserted they were still in the sweep's output, which could only hold until someone triaged them"
   },
   "and_the_gate_is_clean_because_all_four_are_triaged": {
    "pass": true
@@ -283,7 +282,9 @@
    "pass": true
   },
   "the_coverage_number_is_PUBLISHED_not_implied": {
-   "pass": true
+   "pass": true,
+   "published": "6 / 154 = 4 %",
+   "note": "`**55**` was pinned as a literal and is now **62**, with `(55 at B1047)` annotated beside it -- the LEDGER recorded the movement correctly and only the check froze. Both figures here are asserted in the form the ledger publishes them: a live number with its measured-at-B1047 value beside it"
   }
  },
  "answer": {

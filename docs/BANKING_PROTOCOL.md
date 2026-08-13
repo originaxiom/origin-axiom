@@ -65,7 +65,9 @@ judgement rows are enforced by the independent verification in Part II.
     - **BUDGET FOR IT: 48 minutes, measured 2026-08-12 on an UNCONTENDED box** (4074 tests, 3949
       passed / 120 skipped). *The **81 minutes** recorded here at B1041 was measured while **two
       suite runs competed** for the same box, and the ~55 at Review 42 predates ~90 tests; the
-      figure to plan against is **48**.* Four tests are 29 % of the runtime. **Start it early, not
+      figure to plan against is **48**.* **Since B1054 add ~5 minutes** for the
+      instrument-freshness sweep — the only check that can see an arc gone red behind a
+      cached-green `results.json` (**E39**) — so **plan against ~53**. Four tests are 29 % of the runtime. **Start it early, not
       at the end.** Three attempts died at a 50-minute timeout during the B1024–B1042 refresh, and
       **three red locks survived behind that wall while 26 gates stayed green** — gates are fast
       and **do not cover what the locks cover**.

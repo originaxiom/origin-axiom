@@ -1643,3 +1643,26 @@ pre-empted the paper had it not lived at the **toral** level while the four-stra
 > prose checklist row.** The suite grew **~55 → 81 minutes**. All three repaired; `B511/D3.3` is
 > skipped with its reason and its diagnosis locked instead. **The three remaining B100–B199
 > clusters are PENDING with the blocker named** (SnapPy; heavy numerics).
+
+> **REVIEW 1 — the seat reviews its own window (B1054, 2026-08-12).** Commissioned by cc with the
+> owner's permission: the decadal review of **qB1024–qB1053, thirty arcs**, run by the seat that
+> produced them, with independence arriving one step later at main's digest (the commission's
+> condition 3 — E37 answered by structure, not prohibition). Artifact:
+> `docs/progress/REVIEW_1_CONSOLIDATION_SEAT_2026-08-12.md`; instrument: 53 checks, re-runnable
+> with no arguments. **The review's own finding is against itself: all thirty arcs carry
+> `verdict: PROVED`** against a **65.5 %** corpus base rate measured with the window excluded
+> (P ≈ 3 × 10⁻⁶), while **eighteen of thirty bodies** carry retraction, refutation, decline or
+> non-finding language and **two declare an outright NON-FINDING** — **this window's own L166,
+> instanced thirty times by arcs banked after L166 was written.** The control that makes it fair:
+> the same arcs' **atlas `status` DOES discriminate** (banked 18 · dead 9 · dormant 1 · open 2),
+> so it is a **routing failure between two metadata fields**, not absent judgement. **And the
+> window's headline metric inherits it** — the consolidation debt selects on `verdict == PROVED`,
+> counts **175** and cannot see **191** (`NEGATIVE` 171 · `OPEN` 16 · `RETRACTED` 4): **48 % of
+> its own subject.** Also found: the handoff's correction tally **sums to 23 against 24 rows**
+> (gated by `n_corr >= 20`, a bound for an exact claim); **29 unsealed arcs, 2 declaring**;
+> **`git branch -r --no-merged` under-reports** against `ls-remote`. Advancement: **27 LAW_MAP
+> rows — 12 restorations, 4 re-verifications, 11 new** — all filed in §A though **seven state
+> methodology**, for which LAW_MAP has no section. **RUN, not REBUILT: all 29 window reproducers
+> re-executed at this anchor, 29 pass.** Eleven action items with owners (OWNER / SEAT / MAIN);
+> **qL155–qL166 registered and deliberately undecided.** `TOOLBOX.md` is declared a **third**
+> time undischarged at lag 684 — the routing is the defect, not the diligence.

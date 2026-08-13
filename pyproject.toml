@@ -22,3 +22,7 @@ where = ["src"]
 # repo-root `frontier`/`scripts` namespace packages without an install step or PYTHONPATH.
 pythonpath = ["src", "."]
 testpaths = ["tests"]
+# `slow` marks the instrument-freshness sweep (B1054): it re-runs every arc instrument, ~5m20s.
+# It is a suite test rather than a gate precisely because of that cost -- and it is the only thing
+# that can see an instrument gone red behind a cached-green `results.json`.
+markers = ["slow: re-runs arc instruments; minutes, not seconds"]

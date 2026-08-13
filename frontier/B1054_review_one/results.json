@@ -1,0 +1,371 @@
+{
+ "all_pass": true,
+ "checks": {
+  "...against_mains_standard_which_declares_each_unsealed_arc_in_its_header": {
+   "pass": true
+  },
+  "...and_LAW_MAP_has_no_methodology_section_to_put_them_in": {
+   "pass": true
+  },
+  "...and_it_is_wired_as_a_SUITE_TEST_because_5m20s_is_too_slow_for_a_per_push_gate": {
+   "pass": true
+  },
+  "...and_it_names_the_six_arcs_it_was_measured_on": {
+   "pass": true
+  },
+  "...and_it_reads_all_three_live_verdict_spellings_not_just_this_windows": {
+   "pass": true
+  },
+  "...and_it_states_the_distinction_from_E38_rather_than_blurring_it": {
+   "pass": true
+  },
+  "...and_the_citations_that_ARE_there_are_correction_banners_not_promotions": {
+   "pass": true
+  },
+  "...and_the_per_push_version_is_REGISTERED_rather_than_pretended": {
+   "pass": true
+  },
+  "...and_the_ref_it_misses_is_the_relay_audit_branch": {
+   "pass": true
+  },
+  "...so_the_judgement_exists__it_is_the_verdict_field_that_does_not_carry_it": {
+   "pass": true
+  },
+  "ARTIFACT_asks_the_7d_certification_standard_of_itself": {
+   "pass": true
+  },
+  "ARTIFACT_carries_a_parseable_action_items_block": {
+   "pass": true
+  },
+  "ARTIFACT_carries_an_anchor_commit": {
+   "pass": true
+  },
+  "ARTIFACT_credits_cc3s_independent_reproduction_rather_than_re_adjudicating": {
+   "pass": true
+  },
+  "ARTIFACT_declares_its_modulus_with_edges": {
+   "pass": true
+  },
+  "ARTIFACT_marks_NOT_REACHED_as_a_first_class_disposition": {
+   "pass": true
+  },
+  "ARTIFACT_quotes_this_instruments_ACTUAL_check_count": {
+   "actual": 68,
+   "pass": true,
+   "quoted": "68/68 checks pass at this anchor"
+  },
+  "ARTIFACT_scopes_its_measurements_by_authorship": {
+   "pass": true
+  },
+  "ARTIFACT_states_it_never_merges": {
+   "pass": true
+  },
+  "ARTIFACT_uses_REBUILT_and_RUN_labels": {
+   "pass": true
+  },
+  "B1042_carries_its_repair_and_says_why": {
+   "pass": true
+  },
+  "B1043_carries_its_repair_and_says_why": {
+   "pass": true
+  },
+  "B1046_carries_its_repair_and_says_why": {
+   "pass": true
+  },
+  "B1047_carries_its_repair_and_says_why": {
+   "pass": true
+  },
+  "B1049_carries_its_repair_and_says_why": {
+   "pass": true
+  },
+  "B1052_carries_its_repair_and_says_why": {
+   "pass": true
+  },
+  "BRANCH_last_parseable_action_items_block_is_Review_37": {
+   "last": "37",
+   "pass": true
+  },
+  "BRANCH_last_review_present_is_Review_42": {
+   "last": "42",
+   "pass": true
+  },
+  "BRANCH_reviews_38_to_42_carry_NO_action_items_block": {
+   "pass": true
+  },
+  "CONTROL__the_atlas_status_field_DOES_discriminate_across_the_same_thirty_arcs": {
+   "pass": true,
+   "statuses": {
+    "banked": 18,
+    "dead": 9,
+    "dormant": 1,
+    "open": 2
+   }
+  },
+  "CORRECTION__almost_no_arc_instrument_exits_non_zero_when_it_fails": {
+   "of": 25,
+   "pass": true,
+   "propagating": [
+    1026
+   ]
+  },
+  "CORRECTION__the_commission_read_this_as_no_prior_review_existing__it_is_the_fork_instead": {
+   "pass": true
+  },
+  "E36_artifact_clobber_is_registered": {
+   "pass": true
+  },
+  "E37_self_measurement_is_registered_and_attributed_to_this_window": {
+   "pass": true
+  },
+  "E38_progress_eroded_threshold_is_registered_and_attributed_to_this_window": {
+   "pass": true
+  },
+  "E39_cached_verification_is_registered_by_THIS_review": {
+   "pass": true
+  },
+  "EVERY_arc_in_this_window_says_PROVED": {
+   "pass": true
+  },
+  "FINDING__30_of_30_is_a_base_rate_outlier_not_a_coincidence": {
+   "pass": true
+  },
+  "FINDING__B1052_gated_that_exact_claim_with_a_LOWER_BOUND_of_twenty": {
+   "pass": true
+  },
+  "FINDING__and_is_therefore_blind_to_more_arcs_than_it_counts": {
+   "counted": 175,
+   "invisible": 191,
+   "pass": true
+  },
+  "FINDING__arcs_whose_body_declares_a_NON_FINDING_still_say_PROVED": {
+   "arcs": [
+    "B1035_shadow_library",
+    "B1041_the_red_locks"
+   ],
+   "pass": true
+  },
+  "FINDING__branch_-r_UNDER-REPORTS_against_the_actual_remote": {
+   "actual": 3,
+   "pass": true,
+   "tracked": 2
+  },
+  "FINDING__every_single_window_row_landed_in_section_A_the_solo_laws": {
+   "pass": true,
+   "per_section": {
+    "A": 27,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "F": 0
+   }
+  },
+  "FINDING__methodology_rows_sit_in_the_object_arithmetic_section": {
+   "n": 7,
+   "pass": true
+  },
+  "FINDING__the_bodies_disagree_with_the_uniform_verdict_field": {
+   "bodies": 18,
+   "of": 30,
+   "pass": true
+  },
+  "FINDING__the_corpus_excl_window_is_far_from_uniform": {
+   "base": 0.6563,
+   "pass": true
+  },
+  "FINDING__the_debt_metric_SELECTS_ON_the_verdict_field": {
+   "pass": true
+  },
+  "FINDING__the_handoffs_catch_mechanism_tally_sums_to_23_not_24": {
+   "pass": true,
+   "rows": 24,
+   "tally": 23
+  },
+  "FINDING__the_metric_shows_under_sixty_percent_of_its_own_subject": {
+   "pass": true,
+   "share": 0.4781
+  },
+  "FINDING__twenty_nine_arcs_are_unsealed_and_almost_none_declares_it": {
+   "declaring": 2,
+   "pass": true,
+   "unsealed": 29
+  },
+  "L166_is_registered_as_an_OPEN_LEAD_awaiting_the_owner": {
+   "pass": true
+  },
+  "MAIN_resumed_action_items_at_R43_and_R44__so_the_gap_is_branch_local": {
+   "main_blocks": [
+    36,
+    37,
+    43,
+    44
+   ],
+   "pass": true
+  },
+  "R42_escalated_TOOLBOX_by_name_as_TWO_reviews_old": {
+   "pass": true
+  },
+  "RESTORATIONS_are_the_largest_class__this_was_a_consolidation_not_a_discovery_window": {
+   "new": 11,
+   "pass": true,
+   "restoring": 12
+  },
+  "TOOLBOX_is_still_the_largest_declared_currency_debt": {
+   "lag": 684,
+   "pass": true
+  },
+  "and_Review_42s_heading_is_single_hash_which_a_naive_sweep_misses": {
+   "pass": true
+  },
+  "and_twelve_leads_L155_to_L166_were_registered_by_this_window": {
+   "pass": true
+  },
+  "exactly_one_arc_in_the_window_is_sealed__B1024": {
+   "pass": true,
+   "sealed": [
+    1024
+   ]
+  },
+  "modulus_has_no_gaps": {
+   "pass": true
+  },
+  "modulus_is_exactly_thirty_arcs": {
+   "n": 30,
+   "pass": true
+  },
+  "modulus_runs_B1024_to_B1053": {
+   "pass": true
+  },
+  "nothing_from_this_window_was_promoted_to_CLAIMS_md__the_firewall_held": {
+   "pass": true
+  },
+  "the_handoff_enumerates_twenty_four_numbered_corrections": {
+   "n": 24,
+   "pass": true
+  },
+  "the_row_split_accounts_for_every_window_row": {
+   "pass": true
+  },
+  "the_systemic_fix_EXISTS__a_sweep_that_re_runs_every_instrument": {
+   "pass": true
+  },
+  "the_window_moved_the_LAW_MAP_substantially": {
+   "n": 27,
+   "pass": true
+  },
+  "the_windows_opening_arc_B1024_is_the_shared_fork_seal_and_carries_a_prereg": {
+   "pass": true
+  },
+  "twenty_nine_of_thirty_carry_a_reproducer": {
+   "missing": [
+    "B1025_suite_collection_repair"
+   ],
+   "pass": true
+  }
+ },
+ "measured": {
+  "actual_remote_heads": [
+   "main (the trunk)",
+   "the consolidation-refresh seat (this branch)",
+   "the relay audit seat"
+  ],
+  "arcs_declaring_a_NON_FINDING_in_the_body": [
+   "B1035_shadow_library",
+   "B1041_the_red_locks"
+  ],
+  "branch_action_item_blocks": [
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37
+  ],
+  "branch_reviews_present": [
+   37,
+   38,
+   39,
+   40,
+   41,
+   42
+  ],
+  "corpus_PROVED_base_rate_excl_window": 0.6563,
+  "corpus_verdicts_excl_window": {
+   "NEGATIVE": 279,
+   "OPEN": 31,
+   "PROVED": 611,
+   "RETRACTED": 10
+  },
+  "debt_as_the_metric_counts_it": 175,
+  "handoff_numbered_corrections": 24,
+  "instruments_silently_red_at_5b26e51": [
+   1042,
+   1043,
+   1046,
+   1047,
+   1049,
+   1052
+  ],
+  "lawmap_rows_stating_something_NEW": 11,
+  "lawmap_rows_that_RESTORE_a_lost_result": 12,
+  "lawmap_rows_that_RE_VERIFY_or_COLLECT": 4,
+  "lawmap_window_rows_per_section": {
+   "A": 27,
+   "B": 0,
+   "C": 0,
+   "D": 0,
+   "E": 0,
+   "F": 0
+  },
+  "lawmap_window_rows_total": 27,
+  "methodology_rows_filed_in_the_arithmetic_section": 7,
+  "p_of_thirty_of_thirty_under_that_base_rate": 3.2564609736728888e-06,
+  "remote_tracking_refs_in_this_clone": [
+   "main (the trunk)",
+   "the consolidation-refresh seat (this branch)"
+  ],
+  "share_of_the_uncited_population_the_metric_shows": 0.4781,
+  "toolbox_lag_at_this_anchor": 684,
+  "uncited_arcs_invisible_to_the_metric_by_verdict_field": {
+   "NEGATIVE": 171,
+   "OPEN": 16,
+   "RETRACTED": 4
+  },
+  "unsealed_arcs_that_DECLARE_being_unsealed": [
+   "B1025_suite_collection_repair",
+   "B1026_the_one_involution"
+  ],
+  "window_arcs_with_a_seal": [
+   1024
+  ],
+  "window_arcs_with_no_reproducer": [
+   "B1025_suite_collection_repair"
+  ],
+  "window_atlas_statuses": {
+   "banked": 18,
+   "dead": 9,
+   "dormant": 1,
+   "open": 2
+  },
+  "window_bodies_carrying_negative_or_retraction_language": 18,
+  "window_citations_in_CLAIMS_md": 2,
+  "window_instruments_that_propagate_failure_to_the_exit_code": [
+   1026
+  ],
+  "window_verdicts": {
+   "PROVED": 30
+  }
+ }
+}

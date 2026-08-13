@@ -74,10 +74,21 @@ chk("B408_asserts_the_OPPOSITE_of_its_own_verdict_in_its_headline",
     headline=head408[:90], verdict=v408["verdict"],
     note="a SCALE-LEVER claim, which WHAT_WOULD_COUNT grades Tier 2 on. The correction is 27 "
          "lines down; a body-reading pass meets the refuted headline first")
-chk("and_B408_has_no_RETRACTIONS_row",
-    not re.search(r"\bB408\b", read("docs/RETRACTIONS.md")),
-    note="the arc_verdict is correctly NEGATIVE and docs/views/VERDICT_LEDGER carries that; the "
-         "same-PR retraction rule was simply not applied")
+# REPAIRED BY REVIEW 1 (B1054). The original asserted `B408 not in docs/RETRACTIONS.md` -- the gap
+# this arc FOUND. B1048 then closed it ("B408's headline, and B426's slogan -- the worst case in the
+# corpus, closed"), so the check inverted and this instrument went red at the branch tip, unseen,
+# because `tests/test_b1046*.py` asserts over the committed `results.json`.
+#
+# E38, and of the most self-defeating kind: a lock that fails precisely BECAUSE the defect it
+# reported was repaired. The finding is preserved as what it is -- a historical measurement whose
+# repair landed two arcs later -- and the standing claim is the one that does not move.
+_rt = read("docs/RETRACTIONS.md")
+chk("B408s_missing_RETRACTIONS_row_was_this_arcs_finding_and_B1048_CLOSED_it",
+    re.search(r"\bB408\b", _rt) is not None and "closed (B1048)" in _rt,
+    note="the arc_verdict is correctly NEGATIVE and docs/views/VERDICT_LEDGER carried that; the "
+         "same-PR retraction rule was simply not applied at banking time, and was applied later. "
+         "The original form of this check asserted the ABSENCE and so could only ever hold until "
+         "someone acted on it")
 
 # ------------------------------------------------- 3. the instrument, and what it refuses to do
 chk("the_gate_is_wired_registered_and_fails_closed",

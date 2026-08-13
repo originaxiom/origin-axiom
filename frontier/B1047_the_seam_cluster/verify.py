@@ -388,14 +388,32 @@ chk("law_siblings_now_fingerprints_B1029s_row",
     "the seam is the ends' class field (B1029)" in _ls.FINGERPRINTS)
 chk("...and_this_arcs_own_restored_law", "the seam's darkness is termwise (B1047)" in _ls.FINGERPRINTS)
 _cands = {b for _, b, _ in _ls.candidates()}
-chk("the_new_fingerprint_surfaced_three_real_siblings_of_B1029s_row",
-    {"B427", "B449", "B459"} <= _cands, candidates=sorted(_cands))
+# REPAIRED BY REVIEW 1 (B1054). The original asserted the three siblings are STILL SURFACING as
+# untriaged candidates. B1048 restored/triaged them, so the sweep stopped returning them and this
+# check inverted -- E38 again, a lock that fails because its finding was acted on. What does not
+# move is that the fingerprint NAMES them: they are registered in LAW_SIBLINGS with a disposition.
+_reg_now = read("docs/consolidation/LAW_SIBLINGS.md")
+chk("the_new_fingerprint_surfaced_three_real_siblings_of_B1029s_row__all_now_DISPOSITIONED",
+    all(b in _reg_now for b in ("B427", "B449", "B459")),
+    still_untriaged=sorted(_cands),
+    note="surfaced by this arc, dispositioned by B1048. The original form asserted they were still "
+         "in the sweep's output, which could only hold until someone triaged them")
 chk("and_the_gate_is_clean_because_all_four_are_triaged", _ls.sweep() == [])
 _reg = read("docs/consolidation/LAW_SIBLINGS.md")
 chk("B876_is_registered_as_a_WORD_match_not_a_statement_match",
     "DISTINCT — the fingerprint matched a word" in _reg and "Lie-algebra ANNIHILATOR" in _reg)
+# REPAIRED BY REVIEW 1 (B1054). `"6 / 147"` pinned the LAW_MAP row count of the day; the corpus
+# grew to 154 rows and the published figure moved with it, correctly. E38 -- the claim is that the
+# coverage is PUBLISHED as a fraction, not that the denominator is frozen.
 chk("the_coverage_number_is_PUBLISHED_not_implied",
-    "Coverage, measured (B1047)" in _reg and "6 / 147" in _reg and "**55**" in _reg)
+    "Coverage, measured (B1047)" in _reg
+    and re.search(r"\*\*\s*6 / \d+ = \d+ %\*\*", _reg) is not None
+    and "(55 at B1047)" in _reg,
+    published=(re.search(r"\*\*\s*(6 / \d+ = \d+ %)\*\*", _reg) or [None, None])[1],
+    note="`**55**` was pinned as a literal and is now **62**, with `(55 at B1047)` annotated beside "
+         "it -- the LEDGER recorded the movement correctly and only the check froze. Both figures "
+         "here are asserted in the form the ledger publishes them: a live number with its "
+         "measured-at-B1047 value beside it")
 
 R["answer"] = {
     "the_disposition": "RESTORE B393's product-field stratification law (with B410's independent "

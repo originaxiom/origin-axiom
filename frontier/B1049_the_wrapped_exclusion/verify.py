@@ -71,7 +71,11 @@ CURATED = ["docs/LAW_MAP.md", "docs/THE_FRAMEWORK.md", "docs/THEOREM_LEDGER.md",
 LADDER = read("docs/THE_LADDER.md")
 wrapped = [(a, b) for a, b in zip(LADDER.splitlines(), LADDER.splitlines()[1:])
            if re.search(r"\bB1043\b", a) and re.search(r"\bB141\b", b)]
-chk("the_wrapped_bullet_EXISTS_in_the_live_text", len(wrapped) == 1,
+# E38 SWEEP (Review 1 / B1054): `== 1` here is the same species as the `== 2` repaired below --
+# an absolute count over a file that keeps being written to. The claim is that the wrapped bullet
+# EXISTS, not that it is unique. Repaired under this window's own rule: the repair is not complete
+# until the FILE is swept.
+chk("the_wrapped_bullet_EXISTS_in_the_live_text", len(wrapped) >= 1,
     author_line=wrapped[0][0].strip()[-60:] if wrapped else None,
     citation_line=wrapped[0][1].strip()[:60] if wrapped else None)
 
@@ -108,10 +112,38 @@ for rel, pat in CONSUMERS.items():
             - set(MB.drop_blocks(txt, rx).splitlines())
         orphans += [b for ln in kept_wrongly for b in re.findall(r"\bB\d+\b", ln)]
     latent[rel.split("/")[1][:5]] = sorted(set(orphans))
-chk("TWO_of_the_four_consumers_carried_the_defect_not_three",
-    sum(1 for v in latent.values() if v) == 2, latent=latent)
-chk("the_RED_one_and_the_LATENT_GREEN_one_orphan_the_SAME_two_citations",
-    latent["B1037"] == latent["B1032"] == ["B141", "B564"])
+# REPAIRED BY REVIEW 1 (B1054) -- AND THE THING THAT BROKE IT IS THIS ARC'S OWN SUBJECT.
+#
+# The original locked `sum(1 for v in latent.values() if v) == 2` and
+# `latent["B1037"] == latent["B1032"] == ["B141", "B564"]`. Both went red the moment Review 1
+# wrote a wrapped paragraph into `THE_LADDER.md` citing B1050/B1053/B1054: B1048's predicate
+# (`\bB104[89]\b|\bB10[5-9]\d\b`) started matching the new prose, so a THIRD consumer's latent
+# defect began to bite, and B1032/B1037 picked up seven more orphans from the same paragraph.
+#
+# Nothing about the finding changed. What changed is the amount of prose in a curated file --
+# which is E38 exactly: a lock encoding a structural claim as an ABSOLUTE COUNT inside a
+# programme whose purpose is to keep writing. It is the THIRD E38 instance in this window and the
+# first one found by a review rather than by an arc.
+#
+# The structural claims survive intact and are what is locked now:
+#   * B1031's predicate orphans NOTHING -- it targets the string "**X33**" while the ladder bullet
+#     reads "**X33 (three generations)**", so it never matched line-wise OR block-wise. This is the
+#     original correction-against-the-author and it does not move.
+#   * At least two of the four DO orphan citations, so the defect is real and not hypothetical.
+#   * B1032 and B1037 orphan the SAME set as each other (their predicates share a shape), and that
+#     set still contains the two citations the original named.
+#   * All four were converted to the block idiom anyway -- the idiom is wrong even where it does
+#     not happen to bite.
+n_biting = sum(1 for v in latent.values() if v)
+R["checks"]["MEASURED__consumers_currently_biting"] = {"pass": True, "n": n_biting,
+                                                       "latent": latent}
+chk("B1031s_predicate_orphans_NOTHING__the_correction_against_the_author_holds",
+    latent["B1031"] == [], b1031=latent["B1031"])
+chk("at_least_two_of_the_four_DO_orphan_citations__the_defect_is_real",
+    n_biting >= 2, n=n_biting)
+chk("B1032_and_B1037_orphan_the_SAME_set_and_it_still_contains_the_named_two",
+    latent["B1037"] == latent["B1032"]
+    and {"B141", "B564"} <= set(latent["B1032"]))
 chk("and_B1032_was_green_BY_LUCK__it_counts_B885_B889_B890_B891_not_B141",
     not any(b in latent["B1032"] for b in ("B885", "B889", "B890", "B891")))
 for rel in CONSUMERS:

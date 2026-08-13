@@ -34,10 +34,36 @@ def read(rel):
 
 
 EL_NOW = read("docs/ERROR_LEDGER.md")
+
 # The PRE-REPAIR state is read from git, not from memory: this arc edits the register in the same
 # commit that measures it, which is E37 itself. The exclusion is the commit boundary.
-EL = subprocess.run(["git", "show", "HEAD:docs/ERROR_LEDGER.md"], capture_output=True, text=True,
-                    cwd=ROOT).stdout
+#
+# REPAIRED BY REVIEW 1 (B1054). The boundary was written as `HEAD:docs/ERROR_LEDGER.md`, which was
+# correct for exactly one moment -- while this arc was uncommitted and HEAD was its parent. Fifteen
+# banks later `HEAD` is the POST-repair register, so all three checks below inverted and this
+# instrument has been RED AT THE BRANCH TIP ever since, invisibly: `tests/test_b1042*.py` asserts
+# over the committed `results.json`, which still records the green run from banking day.
+#
+# THE LESSON, and it is this arc's own subject one level up: an E37 exclusion anchored to a MOVING
+# reference is not an exclusion. The boundary is now derived from the commit that INTRODUCED this
+# arc, so it names the same bytes forever, and falls back to the recorded parent if the arc is not
+# yet committed (the state the original was written in).
+BOUNDARY_PARENT = "64388fd"          # the commit before B1042's bank; recorded, not assumed
+
+
+def _pre_repair(rel):
+    intro = subprocess.run(["git", "log", "--diff-filter=A", "--format=%H", "-1", "--",
+                            "frontier/B1042_the_error_ledger/FINDINGS.md"],
+                           capture_output=True, text=True, cwd=ROOT).stdout.strip()
+    for ref in ([intro + "^"] if intro else []) + [BOUNDARY_PARENT]:
+        out = subprocess.run(["git", "show", f"{ref}:{rel}"], capture_output=True, text=True,
+                             cwd=ROOT).stdout
+        if out:
+            return out
+    return ""
+
+
+EL = _pre_repair("docs/ERROR_LEDGER.md")
 assert EL, "could not read the pre-repair register from git"
 CORPUS = max(int(m.group(1)) for d in (ROOT / "frontier").iterdir()
              if d.is_dir() and (m := re.match(r"B(\d+)_", d.name)))
@@ -130,8 +156,14 @@ chk("the_register_now_carries_the_five_collisions",
 chk("and_the_two_missing_classes_exist",
     "| E37 |" in EL2 and "| E38 |" in EL2
     and "Self-measurement" in EL2 and "Progress-eroded threshold" in EL2
-    and len(re.findall(r"^\| E\d+ \|", EL2, re.M)) == 38,
-    classes=38,
+    # REPAIRED BY REVIEW 1 (B1054), AND THE SWEEP THAT FOUND IT WAS THIS ARC'S OWN LESSON.
+    # `== 38` is E38 inside the arc that REGISTERED E38 -- an absolute count over a register whose
+    # purpose is to grow. Review 1 repaired the identical lock in `tests/test_b1042_error_ledger.py`
+    # first and MISSED this one, which is precisely the "the repair is not complete until the FILE
+    # is swept" rule failing at one level up: the file was swept, the ARC was not. It was caught by
+    # `scripts/checks/instrument_freshness.py` on its first real use.
+    and len(re.findall(r"^\| E\d+ \|", EL2, re.M)) >= 38,
+    classes=len(re.findall(r"^\| E\d+ \|", EL2, re.M)),
     note="E37 credits THE_LADDER X31 and Review 42 as having named it first; E38 credits B1033's "
          "own prose as having written the correct form before the check failed to implement it")
 chk("and_the_two_one_offs_are_INSTANCES_not_classes",

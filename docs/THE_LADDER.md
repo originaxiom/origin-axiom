@@ -168,3 +168,39 @@ no rung's grade changes.** Three touch the ladder and each stops where it should
 > **The ladder stands as written.** What this window changed is that four of its supporting laws
 > are now on curated surfaces rather than only in their arcs, and that the corpus's three red locks
 > are green.
+
+---
+
+## Currency read, 2026-08-12 (B1044–B1054) — again no rung grade moves, but the file already contains the window's finding TWICE
+
+*`doc-currency` flagged this surface a second time. Same discipline as the read above: a note that
+merely bumped a citation would be the staleness the gate exists to catch.*
+
+**B1044–B1054 closed two debt bands, gated two new sweeps, and ran this branch's Review 1
+(B1054). No arc in the window computed a new physics result, so no rung's grade changes** — the
+restorations (B1047/B1048/B1050/B1051: the Dickson fixed line, the seam field's conductor law, the
+projective wall, the two-block obstruction) put **already-banked** mathematics back onto curated
+surfaces, which is by rule not a rung movement.
+
+**What is worth recording is a convergence, and this file is where two of its four instances
+already live.** The window's sharpest finding (B1053 → **L166**, and B1054 §8) is that **a
+selection surface blind to a category silently shrinks the population every downstream reader
+believes was examined.** Four independent instances, two of them rungs written here long before:
+
+| # | the surface | what it cannot see | where |
+|---|---|---|---|
+| 1 | `kill_graph` face-attachment | **positives** — it classifies kills, so faces describe what the object is NOT | **X16**, this file |
+| 2 | `scripts/forcing/build.py` | files not named exactly `FINDINGS.md` — **45 arcs never ingested**, including B1–B5 | **X17**, this file |
+| 3 | the 2026-07-21 negatives hunt | arcs whose body stalled but whose metadata says `PROVED` — **14 arcs** removed from its population | **L166** (B1050/B1053) |
+| 4 | the consolidation-debt metric | arcs whose verdict is not `PROVED` — it counts **175** and cannot see **191** | **B1054 §8**, this review |
+
+**The consequence for this file specifically, and it is rule 1's business:** *"before writing 'the
+object does not supply X', find X here — not present ⟹ the honest words are 'not checked'."*
+**A rung graded from any of the four surfaces above inherits that surface's blind spot**, and
+X16/X17 say two of them fed the face and forcing layers directly. This is the same warning B1043
+attached to band-scoped sweeps in the read above, now generalised: **it is not the band that is the
+wrong unit, it is any selector nobody measured the complement of.**
+
+**No grade moves on that observation** — it is a statement about the *provenance* of grades, not
+about any object fact. **Registered as R1-9's sibling; the ladder's own audit against the four
+surfaces is owed and NOT-REACHED here.**

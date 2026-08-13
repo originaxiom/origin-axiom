@@ -2,22 +2,22 @@
  "checks": {
   "the_frontier_is_the_size_the_sweeps_reported": {
    "pass": true,
-   "n": 1691
+   "n": 1706
   },
   "hundreds_of_frontier_files_manipulate_sys_path": {
    "pass": true,
-   "n": 228
+   "n": 234
   },
   "two_arc_directories_are_load_bearing_infrastructure": {
    "pass": true,
    "hubs": {
     "cyclo_engine": {
-     "importers": 56,
+     "importers": 57,
      "exists": true,
      "path": "frontier/B358_seam_certification/cyclo_engine.py"
     },
     "step0_exact_matrices": {
-     "importers": 46,
+     "importers": 47,
      "exists": true,
      "path": "frontier/B367_value_map/step0_exact_matrices.py"
     }
@@ -51,7 +51,7 @@
   },
   "the_founding_matrices_are_redefined_inline_in_hundreds_of_files": {
    "pass": true,
-   "n": 223
+   "n": 225
   },
   "and_NOT_ONE_of_them_imports_the_core_that_has_held_them_all_along": {
    "pass": true,
@@ -63,7 +63,7 @@
   },
   "the_trace_map_is_re_derived_across_the_corpus": {
    "pass": true,
-   "n": 81
+   "n": 85
   },
   "and_it_has_NO_home_in_the_certified_core": {
    "pass": true,
@@ -122,11 +122,11 @@
   }
  },
  "numbers": {
-  "frontier_py_files": 1691,
-  "sys_path_manipulators": 228,
+  "frontier_py_files": 1706,
+  "sys_path_manipulators": 234,
   "hub_importers": {
-   "cyclo_engine": 56,
-   "step0_exact_matrices": 46
+   "cyclo_engine": 57,
+   "step0_exact_matrices": 47
   },
   "core_importers": 6,
   "core_importer_arcs": [
@@ -137,9 +137,9 @@
    "B8_particle_spectrum",
    "B9_fusion_scattering"
   ],
-  "inline_LRA_redefiners": 223,
+  "inline_LRA_redefiners": 225,
   "of_which_import_the_core": 0,
-  "trace_map_files": 81,
+  "trace_map_files": 85,
   "trace_map_in_src": 0,
   "toolbox_highest_arc": 370,
   "unresolvable_syspath_files": 31,

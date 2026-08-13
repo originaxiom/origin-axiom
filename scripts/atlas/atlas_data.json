@@ -22686,6 +22686,30 @@
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1054": {
+   "slug": "review one, the seat reviews its own window",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B1024",
+    "B1033",
+    "B1035",
+    "B1041",
+    "B1042",
+    "B1043",
+    "B1046",
+    "B1049",
+    "B1050",
+    "B1052",
+    "B1053",
+    "L166"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "meta"
   }
  }
 }

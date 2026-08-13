@@ -67,7 +67,7 @@
    "median_newest_anchor": 197,
    "below_B250": 12,
    "of": 19,
-   "corpus_at": 1036
+   "corpus_at": 1054
   },
   "the_current_headline_label_is_gone_from_the_proven_register": {
    "pass": true
@@ -78,7 +78,7 @@
   "but_K020s_newest_anchor_is_hundreds_of_arcs_back": {
    "pass": true,
    "k020_newest": 325,
-   "corpus_at": 1036
+   "corpus_at": 1054
   },
   "and_that_is_a_currency_defect_not_a_firewall_breach": {
    "pass": true,
@@ -88,7 +88,7 @@
    "pass": true,
    "knowledge_index": 483,
    "next_oldest": 937,
-   "newest_surface": 1035
+   "newest_surface": 1054
   },
   "so_it_can_only_answer_represented_for_the_era_the_filter_already_ignores": {
    "pass": true,
@@ -144,7 +144,7 @@
   },
   "NO_retracted_phrase_appears_anywhere_in_the_room": {
    "pass": true,
-   "n_phrases_checked": 10,
+   "n_phrases_checked": 12,
    "phrases": [
     "the object does not supply a VEV",
     "stops one step short",
@@ -154,6 +154,8 @@
     "the object is hyperbolic",
     "measurement = the β=1 SSB",
     "chirality and rank compete for one resource",
+    "the one scale lever stands",
+    "every Galois-invariant functional of the orbit is < 1",
     "one contested bit",
     "measurement=the β=1 SSB"
    ],
@@ -162,7 +164,7 @@
  },
  "numbers": {
   "k_files": 26,
-  "corpus_at": 1036,
+  "corpus_at": 1054,
   "standard": [
    "K001",
    "K002",
@@ -177,12 +179,12 @@
   "own_below_B250": 12,
   "k020_newest": 325,
   "sweep_surface_freshness": {
-   "docs/LAW_MAP.md": 1035,
-   "docs/THE_SM_VERDICT.md": 1026,
-   "docs/SM_SPECIFICATION_LEDGER.md": 1017,
+   "docs/LAW_MAP.md": 1053,
+   "docs/THE_SM_VERDICT.md": 1042,
+   "docs/SM_SPECIFICATION_LEDGER.md": 1048,
    "docs/GUT_REQUIREMENTS_LEDGER.md": 952,
-   "docs/CAMPAIGN_STATUS.md": 1035,
-   "docs/OPEN_LEADS.md": 1035,
+   "docs/CAMPAIGN_STATUS.md": 1054,
+   "docs/OPEN_LEADS.md": 1053,
    "docs/OPEN_PROBLEMS.md": 1009,
    "docs/HINT_LEDGER.md": 937,
    "knowledge/INDEX.md": 483

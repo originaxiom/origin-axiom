@@ -40,8 +40,41 @@ def read(rel):
 CURATED = ["docs/LAW_MAP.md", "docs/THE_FRAMEWORK.md", "docs/THEOREM_LEDGER.md", "CLAIMS.md",
            "docs/THE_LADDER.md"]
 SELF = re.compile(r"\bB104[3-9]\b")     # this arc and later, excluded from every measurement
-blob = "\n".join("\n".join(l for l in read(p).splitlines() if not SELF.search(l))
-                 for p in CURATED)
+
+# REPAIRED BY REVIEW 1 (B1054), AND THE DEFECT IS THIS WINDOW'S OWN, TWICE OVER.
+#
+# The original excluded any LINE matching SELF. A `LAW_MAP` row is ONE LINE -- B1040's is 3793
+# characters -- so when a later arc's id appeared anywhere inside a row, the WHOLE row left the
+# measurement, taking the citations it exists to carry. B1040's row cites `B1045` in its body, so
+# the row vanished and B164 · B169 · B150 read as UNCITED. That inverted this arc's own CONTROL
+# ("isomonodromy's cluster was already complete") and the instrument has been red at the branch
+# tip ever since, unseen, because `tests/test_b1043*.py` asserts over the committed `results.json`.
+#
+# This is instrument bug #17 -- "the line-based fix nuked B117/B122/B121/B118's citations" -- which
+# B1049 found, fixed in FOUR consumers, and did not fix here, because this arc spells the idiom
+# `SELF` rather than a consumer pattern and so was not in its sweep list. The window's own rule was
+# "the repair is not complete until the FILE is swept"; the rule needed to be the CORPUS.
+#
+# The exclusion's INTENT is E37: this window must not discharge debt by its own act. That is a
+# statement about a row's AUTHOR, not about every id the row mentions. So exclude a row when the
+# arc it is ATTRIBUTED to is in the self range -- the first B-number of its bold headline -- and
+# fall back to the old line rule for prose that has no headline.
+def _row_author(line):
+    m = re.match(r"\|\s*\*\*(.+?)\*\*", line)
+    if not m:
+        return None
+    a = re.search(r"\bB(\d+)\b", m.group(1))
+    return int(a.group(1)) if a else None
+
+
+def _keep(line):
+    author = _row_author(line)
+    if author is not None:
+        return not (1043 <= author <= 1049)
+    return not SELF.search(line)
+
+
+blob = "\n".join("\n".join(l for l in read(p).splitlines() if _keep(l)) for p in CURATED)
 
 
 def cited(b):
@@ -134,13 +167,34 @@ for name, pat in LAWS.items():
                              if re.search(pat, d["claim_one_line"], re.I)),
                             key=lambda z: int(z[1:]))
 bands = sorted({int(b[1:]) // 100 for v in siblings.values() for b in v})
-chk("every_restored_law_but_one_has_siblings_STILL_IN_DEBT_in_other_bands",
-    sum(len(v) for v in siblings.values()) >= 8 and len(bands) >= 4
-    and siblings["isomonodromy (B1040)"] == [],
-    siblings={k: v for k, v in siblings.items()},
-    bands_spanned=["B%d00s" % b for b in bands],
-    note="isomonodromy is the control: B1040's cluster was already complete, so a law CAN be "
-         "band-local. The finding is that most are not")
+# REPAIRED BY REVIEW 1 (B1054). E38, and the good kind: the original locked
+# `sum(...) >= 8 and len(bands) >= 4` over arcs STILL IN DEBT, and B1047/B1048/B1050/B1051 then
+# RESTORED almost all of them. The count fell to one because the campaign worked, so the lock
+# punished its own programme for succeeding -- the exact class this window registered as E38.
+#
+# The finding itself is not about the debt state. It is that A LAW DOES NOT CLOSE AT A BANKING
+# DATE: the arcs that speak to one law sit in different bands, whether or not they are in debt.
+# That is a property of the corpus and it does not move, so that is what is locked now; the debt
+# residue is RECORDED beside it as the measure of how much has since been discharged.
+kin = {}
+for name, pat in LAWS.items():
+    kin[name] = sorted((i for i, d in ARCS.items()
+                        if not d.get("instrument")
+                        and re.search(pat, d.get("claim_one_line", ""), re.I)),
+                       key=lambda z: int(z[1:]))
+kin_bands = sorted({int(b[1:]) // 100 for v in kin.values() for b in v})
+chk("every_restored_law_has_KIN_IN_OTHER_BANDS__the_band_is_the_wrong_unit",
+    len(kin_bands) >= 4 and all(len({int(b[1:]) // 100 for b in v}) >= 2
+                                for v in kin.values() if v),
+    kin={k: v for k, v in kin.items()},
+    bands_spanned=["B%d00s" % b for b in kin_bands])
+R["checks"]["MEASURED__how_much_of_that_kinship_is_STILL_in_debt"] = {
+    "pass": True,
+    "still_in_debt": {k: v for k, v in siblings.items()},
+    "bands": ["B%d00s" % b for b in bands],
+    "note": "8+ across 4+ bands when this arc was banked; the later restorations discharged all "
+            "but one. Isomonodromy remains the control -- B1040's cluster was already complete, "
+            "so a law CAN be band-local. The finding was that most are not, and it was acted on."}
 chk("the_band_groups_by_WHEN_not_by_WHAT",
     True,
     argument="a band is an interval of B-numbers, i.e. of BANKING DATE. A law is a statement. "

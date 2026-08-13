@@ -3,8 +3,8 @@
   "the_error_ledger_has_not_moved_in_over_a_hundred_arcs": {
    "pass": true,
    "highest_arc_cited": "B920",
-   "corpus_at": "B1042",
-   "lag": 122,
+   "corpus_at": "B1054",
+   "lag": 134,
    "latest_date": "2026-08-06",
    "note": "its own header: 'Reviews check the window's disclosed errors against this taxonomy: a recurrence strengthens the class's standing rule; a new class gets a new entry'"
   },
@@ -72,7 +72,7 @@
   },
   "and_the_two_missing_classes_exist": {
    "pass": true,
-   "classes": 38,
+   "classes": 39,
    "note": "E37 credits THE_LADDER X31 and Review 42 as having named it first; E38 credits B1033's own prose as having written the correct form before the check failed to implement it"
   },
   "and_the_two_one_offs_are_INSTANCES_not_classes": {

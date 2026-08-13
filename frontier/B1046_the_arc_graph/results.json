@@ -13,7 +13,7 @@
   },
   "and_superseded_targets_are_LIVE_on_curated_surfaces": {
    "pass": true,
-   "n": 17,
+   "n": 18,
    "arcs": [
     "B13",
     "B65",
@@ -28,6 +28,7 @@
     "B210",
     "B259",
     "B273",
+    "B361",
     "B496",
     "B731",
     "B766"
@@ -36,28 +37,28 @@
   },
   "self_correcting_arcs_are_unregistered_in_RETRACTIONS": {
    "pass": true,
-   "unregistered": 31,
+   "unregistered": 29,
    "rule": "every future retraction adds its row in the PR that banks the correction",
    "note": "RETRACTIONS.md's own maintenance rule, quoted from its header"
   },
   "B408_asserts_the_OPPOSITE_of_its_own_verdict_in_its_headline": {
    "pass": true,
-   "headline": "# B408 (Phase 1b) — BANKED: THE SEAM DOES NOT CONTRACT — the one scale lever stands",
+   "headline": "# B408 (Phase 1b) — BANKED: THE SEAM DOES NOT CONTRACT — the one scale lever stands [REFUT",
    "verdict": "NEGATIVE",
    "note": "a SCALE-LEVER claim, which WHAT_WOULD_COUNT grades Tier 2 on. The correction is 27 lines down; a body-reading pass meets the refuted headline first"
   },
-  "and_B408_has_no_RETRACTIONS_row": {
+  "B408s_missing_RETRACTIONS_row_was_this_arcs_finding_and_B1048_CLOSED_it": {
    "pass": true,
-   "note": "the arc_verdict is correctly NEGATIVE and docs/views/VERDICT_LEDGER carries that; the same-PR retraction rule was simply not applied"
+   "note": "the arc_verdict is correctly NEGATIVE and docs/views/VERDICT_LEDGER carried that; the same-PR retraction rule was simply not applied at banking time, and was applied later. The original form of this check asserted the ABSENCE and so could only ever hold until someone acted on it"
   },
   "the_gate_is_wired_registered_and_fails_closed": {
    "pass": true
   },
   "it_is_TRIAGED_not_capped__and_the_backlog_is_published": {
    "pass": true,
-   "candidates": 72,
-   "load_bearing": 26,
-   "backlog": 46,
+   "candidates": 70,
+   "load_bearing": 25,
+   "backlog": 45,
    "note": "triaging all 72 would mean writing 72 judgements without reading 72 bodies -- the claim-line sin this instrument exists to name. The backlog is stated, not hidden"
   },
   "the_back_links_are_DELIBERATELY_not_written": {

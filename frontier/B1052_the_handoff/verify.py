@@ -191,9 +191,36 @@ chk("CLAIM_coverage_is_6_fingerprints_against_154_rows",
     len(LS.FINGERPRINTS) == 6 and len(five_col) == 154
     and "6 fingerprints against 154 `LAW_MAP` rows — 4 %" in HF,
     fp=len(LS.FINGERPRINTS), rows=len(five_col))
-chk("CLAIM_the_suite_is_48_minutes_and_the_green_commit_is_pinned",
-    "**48 min**" in H and "d48ab85" in H and "d48ab85" in read("docs/BANKING_PROTOCOL.md")
-    and "3961 passed" in read("docs/BANKING_PROTOCOL.md"))
+# REPAIRED BY REVIEW 1 (B1054), AND IT HAD BEEN SILENTLY RED SINCE `5b26e51`.
+#
+# The original form was `"**48 min**" in H and "d48ab85" in H and "d48ab85" in <protocol>
+# and "3961 passed" in <protocol>`. Two defects, one of each species this window has been
+# cataloguing:
+#
+#   E38 (progress-eroded threshold) -- it pinned ONE suite commit and ONE pass count by literal,
+#   inside a programme whose every bank adds locks and moves both. `5b26e51` re-pinned the
+#   known-green suite to `be87a51` / 3996 passed, exactly as the protocol instructs, and thereby
+#   broke a lock that was recording the PREVIOUS pin as if it were the standing one.
+#
+#   AND THE SECOND CONJUNCT WAS NEVER TRUE. `"d48ab85" in H` asks the HANDOFF for a commit sha
+#   the handoff has never carried -- it cites the protocol rather than repeating the sha, which is
+#   correct authorship. So this check was false the day it was written.
+#
+# WHY NOBODY SAW EITHER: `tests/test_b1052_handoff.py` reads `results.json`, and `results.json`
+# was last written at `ef6ae5c` while the files it measures changed at `5b26e51`. The lock
+# validates a CACHE, so a red instrument stays green in the suite until someone re-runs it by
+# hand. That is Review 42's governing finding -- "locks were red at HEAD and nobody knew" -- in
+# its third and worst form, because here the suite CANNOT know by construction.
+#
+# The repair asserts the STRUCTURE the handoff actually claims: the suite's duration, and that the
+# protocol pins a green run by sha with a pass count -- whichever run is current.
+BP = read("docs/BANKING_PROTOCOL.md")
+pin = re.search(r"`([0-9a-f]{7,40})`[^|\n]{0,80}?\*\*(\d{3,5}) passed", BP)
+chk("CLAIM_the_suite_is_48_minutes_and_A_green_commit_is_pinned_BY_SHA_AND_COUNT",
+    "**48 min**" in H and pin is not None and "last known-green pinned in `BANKING_PROTOCOL`" in H,
+    pinned_sha=pin.group(1) if pin else None, pinned_passed=pin.group(2) if pin else None)
+chk("...and_the_handoff_CITES_the_protocol_rather_than_duplicating_the_sha",
+    "d48ab85" not in H and "BANKING_PROTOCOL" in H)
 
 # the shadow-library figures, straight from B1035's own results
 b1035 = json.loads(read("frontier/B1035_shadow_library/results.json"))

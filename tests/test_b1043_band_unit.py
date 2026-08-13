@@ -60,11 +60,19 @@ def test_B232_is_B1038s_law_differentiated():
 
 
 def test_the_siblings_are_named_so_the_next_pass_starts_from_evidence():
-    c = _R["checks"]["every_restored_law_but_one_has_siblings_STILL_IN_DEBT_in_other_bands"]
-    sib = c["siblings"]
-    assert "B564" in sib["phi-fixed reducibility (B1039)"]
-    assert "B232" in sib["the tower (B1038)"]
-    assert sib["isomonodromy (B1040)"] == []          # the control: a law CAN be band-local
+    # REPAIRED BY REVIEW 1 (B1054). This asserted DEBT MEMBERSHIP -- "B564 is still in debt",
+    # "B232 is still in debt" -- inside a campaign whose purpose is to discharge exactly that.
+    # B1047/B1048/B1050/B1051 restored them, so the lock began failing because the work succeeded
+    # (E38). The finding was never about the debt state: it is that the arcs speaking to one law
+    # sit in DIFFERENT BANDS, which is a property of the corpus and does not move.
+    c = _R["checks"]["every_restored_law_has_KIN_IN_OTHER_BANDS__the_band_is_the_wrong_unit"]
+    kin = c["kin"]
+    assert "B564" in kin["phi-fixed reducibility (B1039)"]
+    assert "B232" in kin["the tower (B1038)"]
+    assert len(c["bands_spanned"]) >= 4, c["bands_spanned"]
+    # the control, now measured where it belongs: how much of that kinship is STILL in debt
+    residue = _R["checks"]["MEASURED__how_much_of_that_kinship_is_STILL_in_debt"]["still_in_debt"]
+    assert residue["isomonodromy (B1040)"] == []      # a law CAN be band-local
     leads = (_ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8")
     assert "L164" in leads
     for b in ("B33", "B232", "B522", "B564", "B75", "B77", "B106", "B257"):
