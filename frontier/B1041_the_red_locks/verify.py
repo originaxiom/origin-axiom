@@ -100,16 +100,27 @@ def walk(steps, every, n=1200, mix=(0.10, 0.10), seed=11):
 
 np.seterr(all="ignore")
 prof = {s: walk(s, 20) for s in (60, 120, 240)}
+# REPAIRED after cc's audit (2026-08-13): `prof[120][0] < 0.4` sat ON the overflow transition, so
+# it encoded WHERE double precision happens to give out on this bench. The finding is the COLLAPSE
+# -- everything finite at 60, nothing finite at 240, monotone in between -- and that is structural,
+# because the doubling branch preserves det while doubling log||A||. The transition value is
+# recorded, not asserted.
 chk("B511_D3_the_probe_loses_ALL_finite_values_well_before_its_own_step_count",
-    prof[60][0] == 1.0 and prof[120][0] < 0.4 and prof[240][0] == 0.0,
+    prof[60][0] == 1.0 and prof[240][0] == 0.0
+    and prof[60][0] >= prof[120][0] >= prof[240][0] and prof[120][0] < 1.0,
     finite_fraction={str(s): round(v[0], 3) for s, v in prof.items()},
+    transition_value_is_RECORDED_not_asserted=round(prof[120][0], 3),
     note="the lock calls accessibility(n=2000, steps=1500) and asserts classical > 0.8; every "
          "value is non-finite by step 240, so it measures 0.0. The banked D3_FINDINGS figure is "
          "'P(kappa~2 classical) >= 0.84'")
 
 per_step = {s: walk(s, 1) for s in (120, 240)}
+# REPAIRED after cc's audit (2026-08-13): the `< 0.10` agreement band compared two numbers that are
+# BOTH on the overflow transition, so it inherited the same platform binding twice over. The
+# refutation does not need them to agree closely -- it needs renormalising every step to fail to
+# rescue the probe, which is the assertion now.
 chk("B511_AND_THE_RENORMALISATION_INTERVAL_IS_NOT_THE_CAUSE",
-    abs(per_step[120][0] - prof[120][0]) < 0.10 and per_step[240][0] == 0.0,
+    per_step[240][0] == 0.0 and per_step[120][0] < 1.0,
     every_20={str(s): round(v[0], 3) for s, v in prof.items() if s in (120, 240)},
     every_1={str(s): round(v[0], 3) for s, v in per_step.items()},
     note="THE FIRST HYPOTHESIS, TESTED AND REFUTED. Renormalising every step instead of every 20 "
@@ -165,14 +176,43 @@ chk("B616_the_MATHEMATICS_is_stable",
     "design hash: a11491e6" in out and "same: True" in out
     and "sign pattern [-1, 1, -1, -1, 1, -1]" in out and "STILL-AMBIGUOUS" in out,
     note="the design hash, the (-1)^m sign law match, and the locked-table verdict all hold")
-chk("B616_but_the_lock_pinned_a_CENSUS_COUNT_that_moved",
-    pair is not None and (int(pair.group(1)), int(pair.group(2))) != (2, 378),
-    locked_literal="observed 2 coarse-tier matches of 378 pairs",
-    measured_now="observed %s coarse-tier matches of %s pairs" % pair.groups() if pair else None,
+# REPAIRED after cc's audit (2026-08-13), AND THE REPAIR CORRECTS THE AUDIT'S MECHANISM.
+#
+# The original asserted `(matches, pairs) != (2, 378)` -- "the census count MOVED". That is itself
+# environment-bound: it holds only where the census reads something other than the locked literal,
+# so on a bench that reads 2/378 this check INVERTS. cc found exactly that (26 of 28 instruments
+# green there) and typed it correctly as this arc's own E6 species one level up.
+#
+# BUT THE STATED CAUSE DOES NOT REPRODUCE. cc's note reads "their 3/390 came from untracked
+# working-dir files; the clean worktree reads the original 2/378". Tested: a PRISTINE worktree of
+# this commit still reads 3/390 here. `b616_heldout.py` touches no repository files -- it hashes
+# one design document and then computes. The real cause is one line of that script:
+#
+#     if 0 < val <= 1: HA[tag] = val
+#
+# a HALF-OPEN FLOAT BOUNDARY over values from `np.linalg.inv`, so membership of borderline entries
+# depends on the BLAS/LAPACK backend and numpy build. npairs = len(HA) x 6: 65 diagonals here
+# (390), 63 on cc's bench (378). Two entries land on the other side of the boundary. Scrubbing
+# untracked files would have changed nothing.
+#
+# So the claim is restated as what it always was -- a statement about the LOCK'S DESIGN, not about
+# any particular count. The observed pair is RECORDED, never asserted.
+R["checks"]["MEASURED__the_B616_census_pair_on_this_bench"] = {
+    "pass": True,
+    "observed": "observed %s coarse-tier matches of %s pairs" % pair.groups() if pair else None,
+    "locked_literal": "observed 2 coarse-tier matches of 378 pairs",
+    "note": "RECORDED, not asserted: this pair is environment-bound and differs between benches"}
+_b616 = (ROOT / "frontier/B616_heldout/b616_heldout.py").read_text(encoding="utf-8")
+chk("B616_the_lock_pins_a_count_produced_by_a_FLOAT_BOUNDARY_so_it_is_not_mathematics",
+    "if 0 < val <= 1:" in _b616 and "npairs += 1" in _b616 and pair is not None,
+    boundary="if 0 < val <= 1  -- half-open, over float output of np.linalg.inv",
+    derivation="npairs = len(HA) x len(T_M); len(HA) is the count SURVIVING that boundary",
     note="E6 in the corpus's own taxonomy -- 'a test asserting an output string rather than the "
          "mathematical fact', standing rule 'locks assert mathematics (WORKING_RULES §7)'. Four "
          "of the lock's five assertions are transcript greps; the one that broke is the only one "
-         "that pins DATA-SET-DEPENDENT counts rather than the arc's claim")
+         "that pins DATA-SET-DEPENDENT counts rather than the arc's claim. The mathematics -- the "
+         "design hash, the (-1)^m sign law, the STILL-AMBIGUOUS verdict -- is checked above and "
+         "is stable on both benches")
 
 R["all_pass"] = all(v["pass"] for v in R["checks"].values())
 if __name__ == "__main__":

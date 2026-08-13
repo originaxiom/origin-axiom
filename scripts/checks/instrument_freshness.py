@@ -22,6 +22,26 @@ on this container. That is too slow for a per-push gate (gates run at every bank
 inside the full suite, which already runs ~48 minutes and is the surface the failure hid behind.
 So it is wired as a test, not a gate. The per-push version is registered, not pretended.
 
+THE GUARANTEE IS CONTAINER-RELATIVE, AND SAYING SO IS PART OF THE TOOL (cc's audit, 2026-08-13).
+"Certifies instruments, not caches" holds only up to the BENCH. An instrument that measures
+platform numerics or working-tree state re-runs green here and red there, with no corpus error
+anywhere. cc's audit of this branch found 26 of 28 green and both deviations were this species.
+
+The worked example is B1041, and it is instructive because it is the arc that NAMED the shape:
+its B616 check asserted a census count had "moved" from the locked literal -- a claim that is
+itself bench-bound, since `b616_heldout.py` filters float output of `np.linalg.inv` through the
+half-open boundary `0 < val <= 1`, giving 65 surviving diagonals here and 63 on cc's bench
+(390 vs 378 pairs). Its B511 checks pinned a value sitting ON the double-precision overflow
+transition. Both are repaired to structural claims; the numbers are recorded, not asserted.
+
+NOTE that cc's stated mechanism -- untracked working-directory files -- did NOT reproduce: a
+pristine worktree of the same commit still reads 3/390 here. The species was right, the cause was
+float-boundary sensitivity. Verify the mechanism before adopting it, on either bench.
+
+So: a green sweep means "no instrument disagrees with its cache ON THIS BENCH." Cross-bench
+agreement is a SEPARATE claim and needs a second bench to make it. When an instrument must pin a
+platform-dependent number, RECORD it (`R["measured"]`) rather than assert it.
+
 NON-MUTATING, DELIBERATELY. Running an instrument rewrites its `results.json`, so this module
 snapshots every file first and puts it back unconditionally -- findings are REPORTED, never
 written. The first version did leave the regenerations in place, and that was wrong twice over:

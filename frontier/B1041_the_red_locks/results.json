@@ -26,6 +26,7 @@
     "120": 0.221,
     "240": 0.0
    },
+   "transition_value_is_RECORDED_not_asserted": 0.221,
    "note": "the lock calls accessibility(n=2000, steps=1500) and asserts classical > 0.8; every value is non-finite by step 240, so it measures 0.0. The banked D3_FINDINGS figure is 'P(kappa~2 classical) >= 0.84'"
   },
   "B511_AND_THE_RENORMALISATION_INTERVAL_IS_NOT_THE_CAUSE": {
@@ -65,11 +66,17 @@
    "pass": true,
    "note": "the design hash, the (-1)^m sign law match, and the locked-table verdict all hold"
   },
-  "B616_but_the_lock_pinned_a_CENSUS_COUNT_that_moved": {
+  "MEASURED__the_B616_census_pair_on_this_bench": {
    "pass": true,
+   "observed": "observed 3 coarse-tier matches of 390 pairs",
    "locked_literal": "observed 2 coarse-tier matches of 378 pairs",
-   "measured_now": "observed 3 coarse-tier matches of 390 pairs",
-   "note": "E6 in the corpus's own taxonomy -- 'a test asserting an output string rather than the mathematical fact', standing rule 'locks assert mathematics (WORKING_RULES §7)'. Four of the lock's five assertions are transcript greps; the one that broke is the only one that pins DATA-SET-DEPENDENT counts rather than the arc's claim"
+   "note": "RECORDED, not asserted: this pair is environment-bound and differs between benches"
+  },
+  "B616_the_lock_pins_a_count_produced_by_a_FLOAT_BOUNDARY_so_it_is_not_mathematics": {
+   "pass": true,
+   "boundary": "if 0 < val <= 1  -- half-open, over float output of np.linalg.inv",
+   "derivation": "npairs = len(HA) x len(T_M); len(HA) is the count SURVIVING that boundary",
+   "note": "E6 in the corpus's own taxonomy -- 'a test asserting an output string rather than the mathematical fact', standing rule 'locks assert mathematics (WORKING_RULES §7)'. Four of the lock's five assertions are transcript greps; the one that broke is the only one that pins DATA-SET-DEPENDENT counts rather than the arc's claim. The mathematics -- the design hash, the (-1)^m sign law, the STILL-AMBIGUOUS verdict -- is checked above and is stable on both benches"
   }
  },
  "all_pass": true
