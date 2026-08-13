@@ -1,5 +1,8 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+*Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
+
+
 > **State at Review 45 (2026-08-13).** The four-arrivals window: the pattern campaign's three
 > computations banked in one day and converged with the Γ-ledger on a single shape — the field
 > builds, the object enters, the class carries. The cloud seat's window closed (30 arcs, the
