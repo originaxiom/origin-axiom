@@ -10500,5 +10500,13 @@
   "faces_consulted": [],
   "fact_computed": true,
   "hatch": "NONE -- the refresh was one-shot and is SPENT (B1027's hatch, exercised here). Any future re-pose against HK/DUNE-era fits is a NEW arc under a NEW seal with its own windows; nothing pre-committed remains."
+ },
+ {
+  "id": "B1064",
+  "claim_killed": "That the Level-3 (E6)_1 stage datum attaches to the boundary-torus theory of the banked complex CS (the cusp-torus re-pose of L154's bridge, G1). O3 OBSTRUCTED-AT-TORUS on two independent banked legs: (1) the object's amphichirality deletes the quantized sector of its own boundary action (CS = 0 forces dS/dk = 0 identically, B1012) and rational (E6)_1 data is quantized-sector content -- no level exists for it to attach to; (2) the unquantized sector carries no banked chiral algebra to decompose (B1034's no-hit + B715's no-real-form), so the pre-sealed boundary-partition definition returns NOT-POSABLE. L154 stays UNDECIDED-narrowed (the route's death decides nothing about the sigmas); the c = 6 anchor does NOT convert.",
+  "kill_form": "obstruction-at-construction (sealed cell, pre-declared outcome O3)",
+  "faces_consulted": [],
+  "fact_computed": true,
+  "hatch": "THE FALSIFIABLE COMMITMENT (the cell's own clause): any future arc banking either (a) a quantized boundary sector surviving CS = 0, or (b) a rational point of the unquantized sector, CHANGES THIS CELL'S GROUND and reopens the route. Until then the cusp-torus route is closed and the bridge's missing piece is named at the action level, not the spectrum level."
  }
 ]
