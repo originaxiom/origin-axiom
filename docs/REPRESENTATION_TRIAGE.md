@@ -51,3 +51,11 @@ reader of LAW_MAP or the verdict would never learn they exist. **That is the deb
 measured, now itemised.**
 
 Marking an arc PENDING does **not** discharge it. It records that we know.
+
+## Currency read 2026-08-13 (the register joins the doc-currency watch; head B1066)
+
+The representation gate (b977's sweep) has held green through the window:
+every substantial arc B1060–B1066 is cited on a required surface at bank
+time (the gate blocked two pushes this window until citations existed —
+working as designed). The 13-arc PENDING set stands unchanged; the pending
+debt remains itemised, not hidden, and this read does not discharge it.

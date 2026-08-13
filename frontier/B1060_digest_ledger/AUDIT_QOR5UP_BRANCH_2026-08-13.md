@@ -39,11 +39,12 @@ sense.**
    finite-fractions differ by PLATFORM NUMERICS (their container loses
    finiteness by step 240; this bench keeps 1.0 throughout — the doubling
    branch's norm explosion lands differently per float handling), and
-   (b) the B616 census reads 2/378 in the clean worktree — THE ORIGINAL
-   LOCKED COUNT — so their "moved to 3/390" was a container-local
-   measurement (untracked files in their working dir). **The irony is
-   typed: their finding "the lock pinned a census count that moved" itself
-   pinned a container-relative count; the E6 species one level up.** The
+   (b) the B616 census delta — CORRECTED (the cloud seat, against this bench's
+   attribution): a HALF-OPEN FLOAT BOUNDARY over np.linalg.inv output;
+   borderline entries change side with the BLAS/LAPACK backend (65/390 vs
+   63/378). This bench's untracked-files mechanism was WRONG (the species:
+   wrong cause implies wrong remedy — scrubbing untracked files would have
+   changed nothing); the species-typing (container-relative counts) stood. The
    arc's process findings (red-locks-behind-the-slow-suite; the mechanism)
    stand untouched; row 1.18's disposition: ACCEPTED-WEAK with the
    environment-bound rider on the instrument. General rule for the digest:

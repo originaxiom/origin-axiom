@@ -1,5 +1,36 @@
 # Changelog
 
+## B1066 NEGATIVE + the desk bank (2026-08-13, the day's fourth bank) — Lane III adjudicated whole; the licensed value-contact surface is exhausted; seven owner decisions land
+
+**B1066 — LANE III, the two-execution record per the covenant.** The sealed
+inventory proved the coupling law forces exactly two target-shaped relations;
+Stage 2 ran twice: execution 1 DEFECTIVE (NuFIT 6.0 — the superseded release;
+the B1063 fetch-currency species reproduced same-day and caught by the
+owner's press + self-audit; its lone wide-window firing on PMNS column 1
+WITHDRAWN as a stale-release artifact), execution 2 VALID (NuFIT 6.1,
+Nov-2025 data, both orderings, δ profiled): **NO trial fires anywhere** —
+|U_e1| = 0.8225(40) vs φ/2 at 3.4σ δ-independent; sin²θ₁₂ at 4.7σ. With the
+ℤ/3 phase row spent historically (B1027/B1063), all three kind-licensed
+contact rows are consumed: **the coupling channel's licensed value-contact
+surface is EXHAUSTED; the value wall stands complete; M0 unmoved; the
+listener map the sole named door.** Routed with its honest hatch.
+
+**The desk bank (the owner's seven):** the verdict-body agreement gate
+(forward-only, B1060+; the era rule untouched); LAW_MAP §G created (the
+method-laws section, seeded with the day's four: the asymmetry principle ·
+port-assigns-numbers · never-pipe-the-certifier · both-checklists; the
+cloud's seven port with the digest); the three governed registers join the
+currency watch and their fired reads land same-commit (RETRACTIONS gains the
+window's four rows; REPRESENTATION_TRIAGE's read); qL159 ratified
+keep-and-declare; qL160 elected FORMALIZE (registered); qL165 elected
+RECOMPUTE; **TOOLBOX split executed** (the body frozen as history; 
+docs/TOOLBOX_LIVE.md born small with the extraction debt named — the
+third-review escalation discharged by mechanism, not diligence). The
+float-boundary correction lands (the cloud's mechanism replaces this bench's
+wrong one in the digest row and audit report); lane-2's 2.03 note now counts
+three same-day instances.
+
+
 ## The port bank (2026-08-13, after Review 46) — the cloud branch audited whole; E40 lands with its repair; B1064 answers O3; B1065 sealed
 
 The owner-directed pre-digest audit of the consolidation branch ran to its

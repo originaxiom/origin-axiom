@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **970** |
-| words of findings prose | **651,642** |
+| words of findings prose | **652,326** |
 | test lock files referenced | **601** |
 | arcs carrying an authored verdict | **957** (98.7 %) |
-| recorded closures | **752** (585 classified, 167 routed-only) |
+| recorded closures | **753** (586 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,8 +34,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 631 |
-| NEGATIVE | 282 |
-| OPEN | 34 |
+| NEGATIVE | 283 |
+| OPEN | 33 |
 | RETRACTED | 10 |
 
 ## How the doors were shut
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 32 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 33 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE BRIDGE CELL (sealed ad8d60f1 + binding pre-compute addendum B1062-A1; the owner's verify-everything order honored: every load-bearing claim twice-derived or rider-named, Hao's Theorem A verified from the PDF on this bench): V2 CONTROL-EXHIBITED -- the arithmeticity axis separates {golden} from {silver, bronze} EXACTLY (golden's geometric traces in Q(sqrt-3) recovered from scratch, imaginary quadratic, ARITH-side with Maclachlan-Reid boundedness vacuous; silver x^4-4x^2+8 degree 4-in-x/8-full reconciled exactly, NON-ARITH by degree; bronze's geometric component = an irreducible OCTIC, all typed roots loxodromic, NON-ARITH robustly over the unidentified root) -- the aperiodic campaign's genericity control EXISTS, window-free. The road recorded as the method's exhibit: the spurious elliptic sqrt(-7) component (killed by the relay seat's tr=-1 order-3 attack, re-derived here; the missed octic factor exposed by complete Groebner; the relay seat's own convention error caught against this bench's verified phi_m^2 = banked [[2,1],[1,1]] at m=1; a blind numeric multistart confirming) -- the compositum resonance and the cloud's bronze answer were BOTH spurious and both would have been wrong. The illustration's live lesson: m=2 is FLAT in the window yet exactly non-arithmetic -- box-flatness certifies nothing, the field-degree test leads (m=3's 106-per-box crowding makes failure visible; m=1's flatness is ENTAILED, pipeline-gate only). V1 TYPED NEGATIVE: the tones (|chi|/2) are NOT Fibonacci gap labels -- half-integer coefficients against the integral module Z + phi^-1 Z, exactly; the un-halved values' Z[phi]-membership fenced contentless (B757); THE GAP-LABEL ROUTE TO THE DOORS' EXTERNALITY IS CLOSED. V3 NOT-FOUND floor: band counts are Fibonacci numbers, intersection with {90,72,120,72,6} empty. DECIDES: L161's gate OPENS with the sharpened literature question (what observable could carry 2I structure, given labels and band counts provably do not); L164 finds externality elsewhere or states the door internal. Riders complete in FINDINGS. Gate 5-Q clean.  
 `B1062_bridge_cell/FINDINGS.md`
 
-**NEGATIVE — `B1064`** (751 words, 0 locks)  
-O3 — OBSTRUCTED-AT-TORUS, the obstruction named exactly on two independent banked legs: (1) the object amphichirality DELETES the quantized sector of its own boundary action (CS = 0 forces dS/dk = 0 identically, B1012) and rational (E6)_1 data is quantized-sector content by definition — there is no level for it to attach to; (2) the surviving unquantized sector carries NO banked chiral algebra to decompose (B1034 no-hit + B715 no-real-form), so P(T_cusp) is UNDEFINED and the pre-sealed definition fires NOT-POSABLE. V2 not-posable recorded as O3 evidence never skipped; the two-stage fence held trivially. L154 stays UNDECIDED-narrowed (the sealed clause — this route death decides nothing about the sigmas); the c = 6 anchor does NOT convert. Prior adjudicated against itself: right outcome, adjacent mechanism (the lean cited the spectrum mismatch; the decisive leg is the k-deletion) — partial credit only. Falsifiable commitment: any future arc banking a quantized boundary sector surviving CS = 0, or a rational point of the unquantized sector, REOPENS the route.  
-`B1064_cusp_torus_repose/FINDINGS.md`
+**NEGATIVE — `B1066`** (753 words, 0 locks)  
+NEGATIVE — both inventory-forced relations decisively excluded by the CURRENT global fit (NuFIT 6.1, Nov 2025 data, both orderings, delta profiled over the full circle): R-B (the phi-geometric row) fires NO trial anywhere — the delta-independent anchor |U_e1| = 0.8225(40) vs phi/2 = 0.80902 is 3.4 sigma and unrescuable; R-A (the listener pair) misses everywhere — sin^2th12 = 0.308(67) vs 0.27639 is 4.7 sigma. The two-execution history is the record per the covenant: execution 1 ran against superseded NuFIT 6.0 (the B1063 fetch-currency species reproduced same-day, caught by the owner + self-audit; its single wide-window firing on PMNS column 1 was a stale-release artifact, WITHDRAWN), execution 2 valid. The coupling channel — type-legal by construction, licensed by the kind table, never base-rate-tested — is now tested and closed; with the phases (B1027/B1063) and both remaining kind-rows consumed, the licensed value-contact surface is EXHAUSTED. The listener map named as the sole residual door. One-shot spent properly.  
+`B1066_lane3_nomination/FINDINGS.md`
 
 **RETRACTED — `B964`** (743 words, 0 locks)  
 TWO CORRECTIONS, prompted by the owner's doubt ('are we sure? i think were getting smth wrong') -- THEY WERE RIGHT. ERROR 1, a SCOPE error banked this morning in B962: 'the 27-VEV route provably stops one step short of the SM'. What is TRUE is that 27 -> 10+5+5bar+5bar+1+1 under SU(5) contains NO 24, so 27 VEVs ALONE cannot break SU(5) -> SM, and that branching stands. What was WRONG is the SCOPE: the 78 (ADJOINT) of E6 DOES contain a 24 (78 -> 45+16+16bar+1 under SO(10), and 45 -> 24+10+10bar+1 under SU(5)), so SU(5) -> SM is broken by an ADJOINT VEV, which E6 obviously has. The standard chain uses BOTH -- 78 VEVs for the rank-PRESERVING breaks (E6 -> SO(10)xU(1); SU(5) -> SM) and 27 VEVs for the rank-REDUCING one -- so 'stops one step short' is true ONLY for 27-ONLY breaking, the E6SSM's restriction, which exists because string constructions often supply only 27s; it is NOT a statement about the VEV route in general, and the E6SSM quotation leaned on was scoped to that setting and read as universal. ERROR 2, SUBSTANTIVE and repeatedly banked in B952, B959, B960 and echoed in B962: 'the object does not supply a VEV'. THIS IS FALSE. The unbroken group after an adjoint VEV <Phi> is the STABILIZER of <Phi> under the adjoint action -- that is, the CENTRALIZER of <Phi> -- SO 'ADJOINT VEV' AND 'MEASUREMENT / CENTRALIZER' ARE THE SAME OPERATION. The object DOES supply VEVs: the ADJOINT ones, and that IS the measurement cascade; B892's z(x1) and z(x1,y*) are the unbroken groups of adjoint VEVs, computed as centralizers. THE CORRECTED PICTURE: the object SUPPLIES the rank-PRESERVING (adjoint) VEVs -- this IS the measurement cascade -- and LACKS the rank-REDUCING (27) VEVs, with both needed. B952's rank obstruction is UNCHANGED and now has a physical name: adjoint VEVs preserve rank, which is exactly WHY the cascade preserves rank; the obstruction was never that the object 'has no VEV' but that it has ONLY THE RANK-PRESERVING HALF. THE REFRAMING: THE MEASUREMENT CASCADE IS AN ADJOINT HIGGS MECHANISM -- the programme has been doing GUT symmetry breaking all along without naming it that way, and what it lacks is precisely and only the rank-reducing 27-VEV half. That is sharper, physical, and makes the missing piece exactly one named object rather than a vague absence. WHAT SURVIVES OF B962: the 27 branching with no 24; the VEV DIRECTION being an input everywhere (Q2); the F4 = generic-VEV-stabilizer unification, now STRONGER since the generic 27 VEV and the adjoint VEV are both genuinely VEVs; OP^2 homogeneity including on triples, hence no canonical choice over R or C; the arithmetic exception (Kato-Yukie, cubic etale algebras), so L138 STANDS; and the certified Elkies-Gross null. WHAT IS WITHDRAWN: 'the 27-VEV route stops one step short' as a GENERAL statement, and 'the object does not supply a VEV' EVERYWHERE it appears. WHY IT WAS MISSABLE: both errors come from the same habit, TREATING 'VEV' AS MEANING '27 VEV' -- once the word is used loosely, 'the object supplies no VEV' sounds true and 'the 27 route stops short' sounds like a general no-go; the fix is terminological discipline, SAY WHICH REPRESENTATION THE VEV LIVES IN, EVERY TIME. Nothing in B959/B960's no-go is disturbed: that result is about CENTRALIZER constructions and is now visible as a statement about ADJOINT VEVS specifically, which is exactly what it always was.  

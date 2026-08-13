@@ -35,6 +35,12 @@ FROZEN_RE = re.compile(r"^\s*<!--\s*doc-currency:\s*frozen", re.I | re.M)
 # being current matters more than any single arc being current. Tolerance = how many arcs
 # may be banked before the document is owed a read.
 LIVING = {
+    # qL163's port (owner: YES, 2026-08-13): the three governed registers were
+    # outside the watch — the registers that RECORD debts were themselves unwatched.
+    "docs/ERROR_LEDGER.md": 40,
+    "docs/RETRACTIONS.md": 60,
+    "docs/REPRESENTATION_TRIAGE.md": 60,
+
     "docs/THE_FRAMEWORK.md": 10,
     "docs/THE_LADDER.md": 10,
     "docs/COMPUTE_THE_PROGRAM.md": 25,

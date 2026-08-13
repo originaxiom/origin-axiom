@@ -43,3 +43,25 @@ Rows cite the banked locus and the correcting locus.*
 adjoint* constructions), the 27 branching, the F₄=generic-VEV unification, and L138.
 **Cause:** using "VEV" loosely to mean "27 VEV". **Rule adopted: name the representation
 every time.** Caught by the owner's challenge, not by a gate.
+
+## Currency read 2026-08-13 (the register joins the doc-currency watch; head B1066)
+
+Four retractions this window, each banked in the PR of its correction per the
+maintenance rule:
+
+- **"cubic-cyclic K"** (the banking seat) — retracted same-day, proven wrong
+  on-bench (a cyclic cubic has square discriminant; disc μ's part is 77);
+  corrected to the S₃ cubic with resolvent ℚ(√77). Carried in
+  `docs/NOVELTY_SWEEP_LEDGER.md`'s ONE-K block and RETRACTED_PHRASES.
+- **"all 18 roots loxodromic" as x-only typing** (the relay audit seat,
+  their bdbc4267) — withdrawn under the full-triple rule they authored;
+  A5 subsequently certified properly (18/18, deterministic, 60-digit).
+  Carried in B1062's M5 addendum.
+- **The debt-metric headline** (the consolidation seat, their branch §8) —
+  "blind to 191/48%" retracted to the scoped finding (OPEN+RETRACTED
+  outside both registers; 20 of 41 uncited); their retraction re-verified
+  on this bench (qB1054's checks re-run). Carried in the digest row 4.8.
+- **B1066 execution 1's residue** (the banking seat) — the wide-window
+  firing on PMNS column 1 and the "armed-for-the-future" framing were
+  stale-release artifacts (NuFIT 6.0 vs the current 6.1); withdrawn in the
+  arc's own FINDINGS with the two-execution history side by side.

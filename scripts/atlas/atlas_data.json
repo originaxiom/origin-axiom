@@ -1383,12 +1383,17 @@
   },
   "B1066": {
    "slug": "lane3 nomination",
-   "motifs": [],
-   "refs": [],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L156"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
    "status": "open",
-   "domain": "dynamics"
+   "domain": "arithmetic"
   },
   "B106": {
    "slug": "dehn filling anatomy",

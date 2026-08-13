@@ -10486,3 +10486,11 @@ whole; 1.18; 4.8). B1064 BANKS: O3 OBSTRUCTED-AT-TORUS on two banked legs
 partial credit); L154 UNDECIDED-narrowed; the anchor unconverted. B1065
 SEALED b8440d68 (the three controls; C2 cannot pass by construction).
 Locks: tests/test_instrument_freshness.py (2).
+
+## 2026-08-13 — B1066 NEGATIVE (two executions, the defective one beside its
+correction; NuFIT 6.1 decisive: 3.4σ/4.7σ; the licensed value-contact surface
+EXHAUSTED; the listener map the sole door) + the desk bank whole (the verdict
+gate; LAW_MAP §G with four seed method-laws; the three registers watched, two
+reads landed; TOOLBOX split — frozen body + live page; qL159/160/165
+dispositions). Locks: tests/test_verdict_body_agreement.py (2),
+tests/test_instrument_freshness.py carried.

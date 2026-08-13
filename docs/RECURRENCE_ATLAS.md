@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-13 from 966 frontier probes.
+> Last generated: 2026-08-13 from 967 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 966 frontier probes; status {'open': 62, 'banked': 633, 'dead': 252, 'dormant': 19}
+  corpus: 967 frontier probes; status {'open': 63, 'banked': 633, 'dead': 252, 'dormant': 19}
   the ONE conserved first integral: kappa (recurs 225x, 23%) -- genuine unity, MUST recur
   top recurring motifs: golden(549), firewall(542), eisenstein(509), figure_eight(406), metallic(397), trace_map(374)
   recurrence is: structural-invariant 3235 mentions | conserved-integral 225 | TOOL 374
@@ -29,7 +29,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | golden | 549 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
 | firewall | 542 | 56% | structure | structural | meta | the firewall / structural theorem / form-not-values |
 | eisenstein | 509 | 52% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
-| figure_eight | 406 | 42% | object | no | topology | the simplest hyperbolic knot; the carrier object |
+| figure_eight | 406 | 41% | object | no | topology | the simplest hyperbolic knot; the carrier object |
 | metallic | 397 | 41% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 374 | 38% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | amphichiral_cp | 326 | 33% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
@@ -43,7 +43,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | apolynomial | 79 | 8% | structure | no | topology | the A-polynomial / Cooper-Long / AJ |
 | markov_cubic | 67 | 6% | invariant | structural | topology | the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it |
 | quasicrystal | 66 | 6% | dynamics | structural | quantum | the Fibonacci quasicrystal / Suto / Damanik-Gorodetski |
-| five_web | 29 | 3% | arithmetic | structural | arithmetic | the '5' recurrence web (H2): 40a1, conductor 40, Pisano |
+| five_web | 29 | 2% | arithmetic | structural | arithmetic | the '5' recurrence web (H2): 40a1, conductor 40, Pisano |
 | hyperbolicity_split | 28 | 2% | structure | structural | topology | the hyperbolicity-split motif (H4): object on both sides of the divide |
 
 ### The honest split — unity vs the hammer

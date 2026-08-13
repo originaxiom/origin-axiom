@@ -1,3 +1,6 @@
+<!-- doc-currency: frozen -->
+<!-- FROZEN 2026-08-13 (the owner: the SPLIT — R1-1, third-review escalation discharged): this body is the historical toolset record of its era, preserved verbatim. The LIVE surface is docs/TOOLBOX_LIVE.md; the extraction of a current one-pager from this body is the named next step of the split. -->
+
 # The toolbox — reusable engines and lemmas, indexed by "applies when"
 
 *(Added 2026-07-03. This is the REUSE view: CLAIMS.md says what is true; the atlas says what
