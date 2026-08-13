@@ -10464,3 +10464,11 @@ the twelve-vs-eleven reconciliation, four gaps now rules). m = 5 lands: A8
 CONFIRMED exact both benches, A2 twin complete, A5 pending-both (asymmetry
 principle standing). E22→E39 rekey. B1064 SEALED (G1; O3-lean declared).
 Locks: tests/test_b749_f2_f8_locks.py (5).
+
+## 2026-08-13 — mini-bank 3: A5 CERTIFIED (18/18 full-triple, deterministic
+60-digit; three-route history recorded; certified-once, the audit bench's side
+open) — the m=5 protocol closed on every grade. The Part-0 attribution
+corrected (§0.1: Gate 5 = output firewall; zero-dials true-by-construction,
+genesis 7/7 twin-verified); the audit's three-line close in the sweep ledger;
+the 2.03 self-instance noted in the digest's lane 2. Review 46 DUE at this
+boundary.

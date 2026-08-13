@@ -373,3 +373,22 @@ Two undetermined ratios. One firewall — **now mapped, not merely posted.**
 unsealed re-run of B915, caught and withdrawn by their own MB13 discipline)
 is cited approvingly: the seats' error-catching is symmetric, and that
 symmetry is the record's best evidence of its own honesty.*
+
+## §0.1 THE ENFORCEMENT ATTRIBUTION, CORRECTED (2026-08-13, the Part-0 audit's line 3)
+
+Part 0's parenthetical — "(Gate 5 + the Input-Completeness Ledger enforce
+this)" — over-attributes. The three-way map, verified: **Gate 5 is an OUTPUT
+firewall** (no SM quantities into CLAIMS.md — it protects the claims ledger);
+**the Input-Completeness Ledger governs COMPARISONS** (how downstream
+SM-facing tests are run; its item 11 is exactly where B1063's stale-fetch
+defect lived); **zero-dials is an INPUT property of the derivation and is
+guarded BY CONSTRUCTION alone** — no named mechanism audits the input side.
+The property itself HOLDS where load-bearing: the genesis layer swept clean
+7/7 (B89 · B92 · B120 · B125 · B285 · B313 · B749 — zero measured-physics
+vocabulary in any FINDINGS; the audit seat's sweep, twin-verified on the
+banking bench). Floors declared: one vocabulary, FINDINGS-only, seven arcs;
+Layers 2/3 unswept; the fourth-mechanism search one pass. A one-clause
+correction, not a retraction: the cost claim stands; the sentence naming its
+enforcer was wrong. The full three-line audit (prices real + locks closed;
+the two-checklist reconciliation written; zero-dials true-by-construction)
+lives in `docs/NOVELTY_SWEEP_LEDGER.md`'s closing sections.

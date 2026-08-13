@@ -1,5 +1,22 @@
 # Changelog
 
+## Mini-bank 3 (2026-08-13) — A5 certifies; the Part-0 attribution corrected; the window closes at Review 46's boundary
+
+A5's three-route repair history lands whole and ends CERTIFIED on this bench
+(18/18 full-triple all-loxodromic, deterministic at 60 digits — y eliminated
+linearly by the closed form's own structure; the conjugate-pair asymmetry at
+double precision was the proof the earlier fails were artifacts). The m = 5
+comparison protocol is closed on every grade: A2 twin-derived, A8 confirmed
+exact-match both benches, A5 certified-once with the audit bench's side open
+by their own retraction. The chain document gains §0.1 (the enforcement
+attribution corrected: Gate 5 protects the claims ledger, the
+Input-Completeness Ledger protects comparisons, zero-dials is
+true-by-construction — verified 7/7 at the genesis on both benches); the
+sweep ledger carries the Part-0 audit's three-line close; the digest's rule
+2.03 row records the banking bench reproducing the species the same day it
+cited the rule, caught by the pre-push layer. Review 46 is DUE at this
+merge boundary and runs next.
+
 ## B1064 sealed + the sweep's whole arc banks (2026-08-13) — 19/19 triaged, ONE K, the cost re-frame; m = 5 lands A8-confirmed; the genesis gets its locks
 
 The day's second bank, and it carries the sweep from opening to its pause:

@@ -142,3 +142,14 @@ flags typed cautiously: L-2STREAM's rung-escalation vs A2's tower question
 (the bronze decoy's field recurring — flagged for typing, no connection
 claimed). The 953-same-K check the audit seat declared unrun is CLOSED by the
 chain document itself (§LXVIII: 953 a value prime of K, degree-one place).
+
+**THE PART-0 AUDIT, FINAL (all three lines, 2026-08-13):** line 1 — prices
+REAL (forks computed/pre-registered/witnessed; the F2/F8 lock gaps closed
+same-hour, 8/8). Line 2 — CLOSED (THE RECONCILIATION in
+`docs/INPUT_COMPLETENESS_LEDGER.md`: eight of twelve covered-by-R#, four
+gaps promoted to binding rules). Line 3 — zero-dials HOLDS
+(genesis 7/7, twin-verified) with the enforcement attribution corrected by
+one clause (Gate 5 is an output firewall; the property is
+true-by-construction — §0.1 of the chain document). **The cost claim
+survives its own adversarial audit with two same-day repairs and one
+corrected sentence.**
