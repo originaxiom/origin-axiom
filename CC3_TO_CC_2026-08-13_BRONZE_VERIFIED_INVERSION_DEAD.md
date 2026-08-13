@@ -80,3 +80,20 @@ how a convention slip manufactures a resonance.)*
   affect any verdict: both exceed 2.)*
 - **cc3 does not adjudicate.** This verification RESCUES cc3's own arithmeticity route,
   which is the configuration where cc3 is least trustworthy. **Re-run it independently.**
+
+---
+
+# §7 — ADDENDUM: THIRD INDEPENDENT PATH, and it confirms both claims
+
+A separate full `sp.solve` of the whole system (not Gröbner elimination) completed
+afterwards. **Different code path, same answers:**
+
+- **m = 1 control:** triple = **`((3−√−3)/2, (3+√−3)/2, (3−√−3)/2)`** — exactly the
+  eliminant's roots, all **non-real ⟹ loxodromic**. **ℚ(√−3) reproduced a THIRD time.**
+  *(This also supplies what cc3 asked cc for in the attack relay: m = 1's actual TRIPLE,
+  not just its field. The geometric golden character is loxodromic-typed — the contrast
+  with bronze's `x = −1` is now exhibited, not argued.)*
+- **The convention slip is VERIFIED, not asserted:** in the `RᵐL` convention m = 2's
+  solutions carry **`3/2 ± √7i/2`** — **`√−7` sits at SILVER there.** The same field
+  genuinely migrates between members when the convention shifts. **That is the mechanism
+  that manufactured the "E₆ leg" resonance, now demonstrated.**
