@@ -168,3 +168,20 @@ reproducing it is not a prediction)** or **B2 (open — the only place credit ex
 cell claiming an achievement in B1 must say "reproduced", never "predicted".
 
 **Maintenance:** rows change only with a banked arc, cited inline.
+
+## Currency read 2026-08-13 (window B1018–B1064; head B1064)
+
+- **The CP-phase channel is CLOSED at the value layer (B1063):** the pre-committed NuFIT
+  refresh executed once against 6.0 — all four sealed variants miss both targets, the
+  decisive clause fired (2.21× tightening), the one-shot is SPENT, routed to the kill
+  graph hatch-closed. Any HK/DUNE-era re-pose is a new arc under a new seal. No row moves
+  from B2 to B1; the channel's specification row simply records its tested-and-closed state.
+- **The B1 side gained citation-grade external confirmation (the novelty sweep,
+  `docs/NOVELTY_SWEEP_LEDGER.md`):** sin²θ_W = 3/8's value AND derivation route are
+  standard (opened source), T-SMT's endpoint and SU(5)-skipping route are standard
+  (Slansky, trinification) — B1-row reproductions correctly labeled "reproduced" all
+  along; the sweep's twelve layer-only KNOWNs are the cost-claim's other half.
+- **Crossing preregs now fill BOTH checklists** (this ledger's companion rule from THE
+  RECONCILIATION in `docs/INPUT_COMPLETENESS_LEDGER.md`): the crossing lane's R1–R11 AND
+  the twelve, N/A written as a row — four gap-items (scheme, multi-modal, fit-vs-direct,
+  the matched null's hit-branch) cannot ride the R-list alone.

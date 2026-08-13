@@ -36,7 +36,13 @@ def test_v2_no_exhibit_adjudicated():
                # post-bank surfaces that quote this arc's own verdict are self-echoes:
                "PROGRESS_LOG.md", "docs/CAMPAIGN_STATUS.md", "docs/TERMINOLOGY.md",
                "TERMINOLOGY.md", "frontier/B1034_l154_sigma/FINDINGS.md",
-               "docs/OPEN_LEADS.md"}  # the lead's own disposition note (B1034 self-echo)
+               "docs/OPEN_LEADS.md",  # the lead's own disposition note (B1034 self-echo)
+               # the SEALED SUCCESSOR CELL (2026-08-13): B1064 is the L154
+               # re-pose itself — the one arc entitled to discuss the pairing;
+               # the lock still bars drive-by mentions everywhere else:
+               "frontier/B1064_cusp_torus_repose/PREREGISTRATION.md",
+               "frontier/B1064_cusp_torus_repose/FINDINGS.md",
+               "docs/SEAL_LEDGER.md"}
     for key, files in r.items():
         assert set(files) <= allowed, (key, files)
 

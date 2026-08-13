@@ -37,3 +37,24 @@ registered here and the sweep is clean.
 **This asymmetry is the registry's main limitation and is stated rather than hidden:** it can
 only police phrases specific enough to be unambiguous. Broad phrases need banners, not
 greps.
+
+## Currency read 2026-08-13 (window B1018–B1064; head B1064)
+
+Three phrases retracted in this window, registered with their treatment:
+
+- **~~"cubic-cyclic K"~~ (retracted 2026-08-13, the sweep's ONE-K block)** — the banking
+  seat's mischaracterization of the charge field, proven wrong on-bench: a cyclic cubic has
+  SQUARE discriminant; disc μ's squarefree part is 77. The correct phrase: **an S₃ cubic
+  with quadratic resolvent ℚ(√77)** (B866's own statement; B894's banked resolvent, now
+  understood as forced). Specific enough to police: any new "cubic-cyclic" near K fires.
+- **~~"A5 certified (cc3)" / "all 18 roots loxodromic" as an x-only claim~~ (retracted
+  2026-08-13, bdbc4267 + the M5 addendum)** — x-eliminant typing reported as full-triple
+  certification, withdrawn by its author under the full-triple rule they wrote. Treatment:
+  the ASYMMETRY PRINCIPLE now standing (one elliptic coordinate excludes; certification
+  requires all three), and A5 was subsequently certified properly (18/18 deterministic,
+  60-digit, this bench). The phrase "all loxodromic" without a full-triple citation fires.
+- **~~"the bridge is one step wide" as a statement about THE CHAIN~~ (corrected
+  2026-08-13, the segment-correction, both seats)** — B1044's true statement about
+  Layers 2/3 mis-scoped to the whole chain, whose Part I DERIVES m004 from C1–C6.
+  Treatment: banner-style (the phrase is true at its own scope); the sweep ledger's
+  re-frame section carries the scoping.

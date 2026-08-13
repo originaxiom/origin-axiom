@@ -1346,6 +1346,17 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1064": {
+   "slug": "cusp torus repose",
+   "motifs": [],
+   "refs": [
+    "B837"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B106": {
    "slug": "dehn filling anatomy",
    "motifs": [
