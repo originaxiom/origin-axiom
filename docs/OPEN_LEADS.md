@@ -1698,9 +1698,9 @@ enters THE_CLAIM only if/when a crossing cell BANKS — the election changes the
 work-queue, not the claim.
 
 
-## L162 — THE F₄-TRANSITIVITY VERIFICATION (chat1's handoff 2026-08-10, received 2026-08-13; KRUTELEVICH-GATED)
+## L162 — THE F₄-TRANSITIVITY VERIFICATION (a web seat's handoff 2026-08-10, received 2026-08-13; KRUTELEVICH-GATED)
 
-Chat1 (web seat, exploratory, unsealed): **F₄(ℤ) is transitive on rank-1
+The web seat (exploratory, unsealed): **F₄(ℤ) is transitive on rank-1
 idempotents of the SPLIT integral Albert algebra** — closing B962 Q4's "one live
 opening" and moving input #5 (the rank-closing VEV direction) to PROVED IRREDUCIBLE
 in every object-relevant setting (the division form's 3 rigid idempotents stand and
@@ -1710,9 +1710,9 @@ unipotents; the division form has none. **Sanity-verified on receipt (this bench
 the 1920 count reproduces exactly; division 0; the exotic diagonal's rank-1
 signature consistent.** Their defects D1–D4 logged in the handoff (incl. their own
 hardcoded pass line — species instance, self-caught). **The verification arc
-(B1061): V0 = READ KRUTELEVICH 2002 (J. Algebra 253) FIRST — chat1 located, never
+(B1061): V0 = READ KRUTELEVICH 2002 (J. Algebra 253) FIRST — the web seat located, never
 read; if the orbit count is there, this rebanks as a cited re-derivation. Then:
-REBUILT-grade verification on B904/B883's banked machinery (never chat1's uncoded
+REBUILT-grade verification on B904/B883's banked machinery (never the web seat's uncoded
 pipeline): automorphy on all three slots; the 15,504-census reachability; the
 wider box. GATED ON IT: the THE_CLAIM amendment (input #5 → proved irreducible;
 the five-input story closing: every input an orbit the object's symmetry sweeps)
