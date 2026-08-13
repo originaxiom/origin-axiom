@@ -1299,6 +1299,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1060": {
+   "slug": "digest ledger",
+   "motifs": [],
+   "refs": [
+    "B809"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B1062": {
    "slug": "bridge cell",
    "motifs": [
@@ -1322,6 +1333,18 @@
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1063": {
+   "slug": "refresh verdict",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B106": {
    "slug": "dehn filling anatomy",

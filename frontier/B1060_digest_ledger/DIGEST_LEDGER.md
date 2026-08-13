@@ -15,7 +15,7 @@ resolver; q-citations throughout.*
 
 | row | item | disposition | grade | note |
 |---|---|---|---|---|
-| 0.1 | THE EPOCH QUESTION: what did early-era `verdict: PROVED` MEAN, and when did the convention change (before ANY of the 28 corpus-wide candidates is repaired; cc3's 13/11/4 distribution + qB1053's correctness upgrade read here) | EMPTY | — | R45-15; blocks lanes 4–5 |
+| 0.1 | THE EPOCH QUESTION | **CORRECTED** | **REBUILT** | RESOLVED 2026-08-13 (B14/B16/B55 read in full; the B809 W1 measurement row): pre-B809 arcs ran TWO grading languages — the `## Verdict` block graded the DERIVATION CAMPAIGN's position (STALLED = the chain paused at a named condition; PRODUCES-PROOF-MODULE = feeds a module) while `verdict:` graded WHAT THE ARC ESTABLISHED; the §5 firewall header means nothing-promotes, never no-result. CONSEQUENCES binding on lanes 4–5: the pre-B809 cluster (13) gets ERA-TAGS, never flips (flipping would inject a word the modern vocabulary lacks); the B800+ residue (4) is the genuine drift set for the owner's arc-by-arc read; the middle band (11) reads per-arc against the B809 boundary; THE SWEEP RULE (the consequence-fix for qB1053's blindness): any sweep selecting on verdict data declares which vocabulary epoch it reads. |
 
 ## Lane 1 — the 30 arcs (qB1024–qB1053), one row each
 
