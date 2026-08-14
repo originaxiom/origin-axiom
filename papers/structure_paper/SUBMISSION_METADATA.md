@@ -48,8 +48,8 @@ decision but retained there for the record.)*
 **Primary: `math.GT`** (Geometric Topology) — the object is a hyperbolic 3-manifold and the
 genesis is a surface-bundle construction; §§3–5 are the paper's spine and live here.
 
-**Cross-list:** `math.NT` (the arithmetic of §4–§5 — trace fields, congruence structure,
-the shadow modulus) · `math.RA` (the exceptional algebra and the cascade, §§6–8).
+**Cross-list:** `math.NT` (the arithmetic of §4–§5 — the Kleinian trace field and the fiber
+field, congruence structure, the shadow modulus) · `math.RA` (the exceptional algebra and the cascade, §§6–8).
 
 > ## **NOT originating in `hep-th`.** The content that is solid is mathematical; the content that failed is the physics contact, and §9 says so. A physics-first submission is pattern-matched before it is read.
 
