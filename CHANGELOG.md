@@ -1,5 +1,23 @@
 # Changelog
 
+## B1067 (2026-08-14) — the masterplan's first bank: the ray-class asset lands double-rebuilt; the field censuses map the biographies
+
+The field-exploration masterplan (owner-elected, six workflows) opens with
+W1's harvest-and-verify: the branch-resident Q(sqrt-3) class-field
+computations — the 1/2/8 Hecke palette, the mu_6 injection boundary, the
+cusp's disc -48 CM order, h(-48) = 2, the exact class polynomial, and the
+one-object identification (ring class field = ray class field mod (4) =
+Q(zeta_12), with the ray-class Z/2 swapping the two form classes) — land on
+main with EVERY mathematical claim re-derived independently on two
+declared-different routes (enumeration vs structural). The loss-audit's
+unharvested-asset debt closes. Three field censuses (157 facts) return the
+biography roadmap as honest gap-lists; the sharpest find is that K's class
+group is OPEN (the principality of the 953-place undecided — a named
+blocker registered). The stale OPEN_LEADS header stamp is refreshed in the
+same bank. W2 — the descent inventory, the masterplan's centerpiece —
+launches on this certificate.
+
+
 ## The closing bank (2026-08-14) — the flag resolves, three small repairs land, and the Krutelevich gate narrows at page-read grade
 
 Row 1.03's axiom-clause flag closes by full read: correct at its stated
