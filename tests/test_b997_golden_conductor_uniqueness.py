@@ -56,8 +56,11 @@ def test_order_formula_matches_bruteforce():
 # Fact (1): |SL(2,Z/N)| is a McKay-group order for EXACTLY N in {3,4,5}
 # --------------------------------------------------------------------------
 
-# The binary polyhedral groups of the exceptional McKay series.
-MCKAY_ORDERS = {24: "2T -> E6", 48: "2O -> E7", 120: "2I -> E8"}
+# ORDERS of the binary polyhedral groups of the exceptional McKay series.
+# NOTE the wording: these are the orders |2T| = 24, |2O| = 48, |2I| = 120.
+# Whether SL(2,Z/N) *is* the corresponding group is a SEPARATE question, and the
+# answer is not uniformly yes -- see test_which_are_actually_binary_polyhedral.
+MCKAY_ORDERS = {24: "|2T| -> E6", 48: "|2O| -> E7", 120: "|2I| -> E8"}
 
 
 def test_the_three_exceptional_hits():
@@ -65,6 +68,88 @@ def test_the_three_exceptional_hits():
     assert sl2_order(4) == 48
     assert sl2_order(5) == 120
     assert set(MCKAY_ORDERS) == {24, 48, 120}
+
+
+def sl2_elements(N):
+    els = [(a, b, c, d)
+           for a in range(N) for b in range(N) for c in range(N) for d in range(N)
+           if (a * d - b * c) % N == 1]
+
+    def mul(x, y):
+        a, b, c, d = x
+        e, f, g, h = y
+        return ((a * e + b * g) % N, (a * f + b * h) % N,
+                (c * e + d * g) % N, (c * f + d * h) % N)
+
+    return els, mul
+
+
+def count_involutions(N):
+    """Number of elements of order exactly 2 in SL(2,Z/N)."""
+    els, mul = sl2_elements(N)
+    ident = (1, 0, 0, 1)
+    return sum(1 for x in els if x != ident and mul(x, x) == ident)
+
+
+def test_which_are_actually_binary_polyhedral():
+    """CORRECTION to B997's table, found 2026-08-15 by checking rather than trusting.
+
+    B997 tabulates N = 3, 4, 5 as 2T -> E6, 2O -> E7, 2I -> E8 and concludes
+    that these are "exactly the three exceptional McKay groups ... the whole
+    exceptional series and nothing else". The ORDER statement is correct. The
+    GROUP statement is not, at N = 4.
+
+    Every finite subgroup of SU(2) contains exactly ONE element of order 2 --
+    the centre -I -- because a finite subgroup of the unit quaternions has a
+    unique involution. So "has more than one involution" REFUTES membership in
+    the binary polyhedral family outright.
+
+        SL(2,Z/3):   1 involution  -> genuinely 2T   (classical)
+        SL(2,Z/4):   7 involutions -> NOT 2O; |48| is a coincidence
+        SL(2,Z/5):   1 involution  -> genuinely 2I   (classical)
+
+    SL(2,Z/4) additionally has NO element of order 8, while 2O does.
+    """
+    assert count_involutions(3) == 1
+    assert count_involutions(4) == 7
+    assert count_involutions(5) == 1
+
+    # 2O contains elements of order 8; SL(2,Z/4) does not.
+    els, mul = sl2_elements(4)
+    ident = (1, 0, 0, 1)
+
+    def order(x):
+        o, y = 1, x
+        while y != ident:
+            y = mul(y, x)
+            o += 1
+        return o
+
+    assert 8 not in {order(x) for x in els}
+
+
+def test_the_golden_landing_survives_the_correction():
+    """The uniqueness conclusion is UNAFFECTED, and is in fact cleaner.
+
+    The golden's landing is N = conductor(1) = 5, and SL(2,Z/5) IS genuinely 2I.
+    So the one grammar that lands, lands on a real McKay group. If one demands a
+    genuine binary polyhedral GROUP rather than a matching order, N = 4 drops
+    out of the target set entirely -- and m^2 + 4 = 4 forced the degenerate
+    m = 0 anyway, so no metallic word was ever there to lose.
+
+    What the correction DOES cost is the flourish: the three N do NOT realise
+    "the whole exceptional series". E6 and E8 are realised as groups; E7's slot
+    is an order coincidence. The paper must not repeat that sentence.
+    """
+    assert conductor(1) == 5
+    assert count_involutions(5) == 1          # genuinely 2I
+    assert sl2_order(5) == 120
+
+    genuine = [N for N in (3, 4, 5) if count_involutions(N) == 1]
+    assert genuine == [3, 5], genuine         # E6 and E8 ends; no E7
+
+    # the golden still lands, and now on a group rather than on a number
+    assert conductor(1) in genuine
 
 
 def test_prime_factor_product_bound_is_exact():
@@ -180,5 +265,5 @@ def test_the_golden_lands_on_2I_the_E8_end():
     read as claiming it does.
     """
     assert sl2_order(conductor(1)) == 120
-    assert MCKAY_ORDERS[120] == "2I -> E8"
+    assert MCKAY_ORDERS[120] == "|2I| -> E8"
     assert MCKAY_ORDERS[sl2_order(conductor(1))].endswith("E8")
