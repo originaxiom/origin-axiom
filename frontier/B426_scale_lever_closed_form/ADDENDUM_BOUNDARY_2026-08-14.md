@@ -24,3 +24,9 @@ conjugate, not an invariant) and the over-broad slogan above.
 objects — this arc's SEAM-CONTRACTION lever (a Galois-orbit average
 statement) and Layer 5's dimensionful-scale mechanism (k-blindness ⟺
 amphichirality, B1012). Say which.
+
+**A sibling convention-declare, same bank (the digest's 1.03 port):** B62's
+height-2 splits (2,0),(2,2),(4,2) and P33's closed form (1,0),(1,1),(2,1)
+are BOTH correct — B62 counts the full ±height space, P33 the positive
+roots; **B62 = 2 × P33 exactly**, totals 2(n−2). Neither declared its
+convention (E1); both now do, here.

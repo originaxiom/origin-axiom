@@ -375,3 +375,11 @@ No invariant may be transferred between these without an explicit map.
   different mathematics: arithmeticity criteria (Hao Thm 2.3) run on (2), never
   (1). Any sentence saying "the trace field of member m" without the qualifier has
   not stated its subject.
+
+- **"P" (the record swap) names TWO roles** (found at the digest's row 1.03 port,
+  2026-08-14; no document separated them before): (1) **the conjugating element** —
+  A7's based-level bit (B979: where φ enters, LR vs RL); (2) **the substrate
+  operation** — B16's exchange-symmetry axiom (class-level; outside A1–A6; load-bearing
+  for the trace-map surface, counted in COMPUTE_THE_PROGRAM §1's addendum, NOT in
+  THE_CLAIM whose chain never consumes it). Any sentence using "the swap" says which
+  role. The two-referent pattern's newest member.

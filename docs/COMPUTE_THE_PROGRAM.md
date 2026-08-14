@@ -157,3 +157,14 @@ Four checks joined the pre-compute protocol this window, each from a banked less
 And the banking order is fixed as the E39 chain (Review-43-era texts cite it as E22; re-keyed 2026-08-13 — the number belonged to B734's congruence class): **the push gates on the suite's exit
 code for the exact committed tree** — never on gates alone, never through a pipe that
 masks the exit status.
+
+## §1 addendum (2026-08-14) — the twelfth face's own axiom, counted here
+
+The twelfth face (the trace-map substrate) consumes the **exchange-symmetry
+axiom** (B16: the record swap P — *"plausible, but still an axiom"*), which is
+outside A1–A6 and distinct from A7's bit (B979: A7 is based-level; the swap
+observation is class-level). **THE_CLAIM's hypothesis list is correct as
+scoped** — the derivation theorem's chain never passes through the half-step
+or the trace map — so the axiom is counted HERE, for this surface's own
+honesty, not there. Provenance: the consolidation branch's qB1026 (six links
+independently recomputed), read whole and ported at the digest's row 1.03.

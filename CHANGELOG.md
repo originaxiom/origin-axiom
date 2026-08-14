@@ -1,5 +1,22 @@
 # Changelog
 
+## The closing bank (2026-08-14) — the flag resolves, three small repairs land, and the Krutelevich gate narrows at page-read grade
+
+Row 1.03's axiom-clause flag closes by full read: correct at its stated
+scope — the derivation theorem untouched (its chain never passes the trace
+map), the exchange-symmetry axiom genuinely uncounted for the surface where
+it IS load-bearing. Three proportionate repairs: the twelfth face's axiom
+counted where it belongs; the P-two-roles terminology row (conjugating
+element vs substrate operation — no document separated them); the P33/B62
+convention declaration (both correct, B62 = 2×P33 exactly, conventions now
+said). And the L162 gate narrows from the owner-supplied pages: NP(H₃(𝕆))
+is type E₆ with center μ₃; the 2002 paper decides the NP-level orbit
+question and cannot contain the F₄(ℤ) refinement — the web seat's claim
+sits exactly in the published/unpublished gap, with the 2003 thesis the
+remaining primary and the nine-entry verification plus the slot-convention
+clause banked so the phantom contradiction cannot recur.
+
+
 ## Lane 1 completes + the L162 advance (2026-08-14) — all thirty cloud arcs dispositioned; the VEV boundary's last hedge closes pending its gate; B426 gains its exact boundary
 
 The digest's lane 1 closes whole: 30/30 dispositioned — four at REBUILT on

@@ -1775,3 +1775,29 @@ lead): B962-Q4's last hedge — that integral structure might stratify and let t
 chain select a vacuum — CLOSES pending the gate; the VEV input's irreducibility
 becomes theorem-backed; the object's own splitness is what forbids the arithmetic
 shortcut.
+
+### L162 — GATE UPDATE 2026-08-14 (page-read grade): the 2002 half CLEARS; the claim sits in the published-NP/unpublished-F₄ gap
+
+Krutelevich's own later paper (math/0411104, READ AS PAGES from the
+owner-supplied PDF): **Def 9 + Remark 10(iv) — NP(H₃(𝕆)) is simply connected
+of TYPE E₆, center μ₃** (the third roots of unity — observation, unweighted);
+**Prop 12** — NP transitive on rank 1/2 over split fields, proof citing
+[19]'s main theorem; **Thm 14** — the INTEGRAL Smith-form classification
+under NP(H₃(O_ℤ)), "proved in [19]" = the 2002 paper. **Consequence: 2002
+decides the E₆-level orbit question (all integral rank-1 idempotents share
+ONE NP-orbit, Smith diag(1,0,0)) and CANNOT contain the F₄(ℤ) = Aut(J)
+refinement — F₄ ⊊ NP, and a larger group's transitivity says nothing
+downward. The web seat's claim is NOT a re-derivation of 2002; it sits
+exactly in the gap.** Their scope-hypothesis confirmed from the opened
+source after their own honest secondary-route retraction (their tenth
+adjacent-object instance, self-typed — the first as a coordinate
+convention). **The remaining gate: the 2003 Yale thesis** (unopened; per
+Savin the E₆(ℤ)/27-module case — typed as an unopened guess) **+ their §5
+seal-needs; the 2002 primary via DOI is now an upgrade, not a blocker.**
+Also banked here: the NINE-ENTRY idempotency verification of the
+(0,−7,8) element (full split-octonion matrix square, all entries — this
+bench), and **the slot-convention clause so no reader meets the phantom:
+x₁ sits in the (2,3) slot (the standard Freudenthal labeling, x_i opposite
+r_i), so the off-diagonal condition couples b+c = 1 — a transplant to
+(1,2) manufactures a false contradiction (the E1 species, caught live
+between two seats and settled by the full product check).**
