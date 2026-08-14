@@ -1,5 +1,28 @@
 # Changelog
 
+## Lane 1 completes + the L162 advance (2026-08-14) — all thirty cloud arcs dispositioned; the VEV boundary's last hedge closes pending its gate; B426 gains its exact boundary
+
+The digest's lane 1 closes whole: 30/30 dispositioned — four at REBUILT on
+this bench (the fork-twin same-seal cell; the seam's class-field identity by
+exact form count, h(−15) = 2 ⟹ H = the two ends' compositum; the B141
+mechanism correction from scratch; the contraction boundary p* = 5.5932 from
+main's own minpoly), one flag held (qB1026's axiom-outside-A1–A6 clause —
+a hypothesis-base read owed), the rest at honest RUN with species and ports
+typed. The digest stands 14 open. **L162 advances**: chat1's unsealed
+transitivity computation + this bench's independent substrate verification
+(exotic-diagonal integral idempotents constructed; split-rich vs
+division-rigid bench-independent); the Krutelevich read is the only gate,
+requested to the relay seat's lane; the MEANING banked — B962-Q4's last
+hedge (arithmetic might select a vacuum) closes pending the gate, and the
+object's own splitness is what forbids the shortcut. **L165 registers** (the
+pair question — either answer sharpens the boundary; the Kato–Yukie
+separation quoted). **B426's repair lands**: the over-broad contraction
+slogan retracted with its counterexamples (e₁ = 3/2; M₆ = 1.0134) and the
+exact boundary banked; the two-referent "scale wall" note filed. The
+consolidation seat's return note ships (their items discharged on main
+enumerated; their corrections adopted with provenance).
+
+
 ## The front door (2026-08-14) — the router rejoins its own spine
 
 cc3's owner-directed proposal, applied at this gate: docs/INDEX.md was dated

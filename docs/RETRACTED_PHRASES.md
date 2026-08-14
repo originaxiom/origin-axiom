@@ -58,3 +58,13 @@ Three phrases retracted in this window, registered with their treatment:
   Layers 2/3 mis-scoped to the whole chain, whose Part I DERIVES m004 from C1–C6.
   Treatment: banner-style (the phrase is true at its own scope); the sweep ledger's
   re-frame section carries the scoping.
+
+## Currency addition 2026-08-14 (the B426 boundary repair; ported from the consolidation branch's rows 9–10)
+
+- **~~"THE SEAM DOES NOT CONTRACT — the one scale lever stands … Ratio ≈ 1.2170 > 1"~~**
+  — the 1.2170 is ONE Galois conjugate, not an invariant of the orbit; retracted on
+  the branch (their row 9), ported with the boundary repair.
+- **~~"Every Galois-invariant functional of the orbit is < 1"~~** (B426's slogan) —
+  false: e₁ = 3/2 and M₆ = 1.0134 exceed 1 (verified from the banked minpoly). The
+  defensible form: **every genuine AVERAGE contracts (p < p\* = 5.5932)** — the
+  boundary computed in B426's 2026-08-14 addendum.

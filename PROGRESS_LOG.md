@@ -10509,3 +10509,10 @@ with the ENTRY PROTOCOL (action-indexed) + the registers by question + the
 alias row (both resolvers named) + the eleven formerly-absent load-bearing
 documents; the TOOLBOX split reflected; Reference/Historical/Rooms/Papers
 untouched. The router no longer predates its own spine.
+
+## 2026-08-14 — LANE 1 COMPLETE (30/30; 4 REBUILT, 1 flag; digest 14 open).
+L162 advanced (chat1's computation + this bench's substrate verification;
+Krutelevich the only gate, requested to cc3). L165 registered (the pair
+question). B426 repaired (the boundary p* = 5.5932; two phrases retracted;
+the two-referent scale-wall note). The cloud return note shipped. Locks: the
+digest gate carries; the verification computations logged in-session.

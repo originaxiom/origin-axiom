@@ -1738,3 +1738,40 @@ needs nobody's definitions — **derive the orthogonal charge frame from banked
 structure, independently**. "A separate cell" is a not-run, not an obstruction; the
 label propagated without its reason (species #14). The cell: the derivation, then
 L142's three-sites question re-poses with the μ-pencil live.
+
+## L165 — F4(ℤ) ON ORTHOGONAL PAIRS of rank-1 idempotents in the split integral Albert algebra (registered 2026-08-14; chat1's successor question; ≠ their qL165 — the alias table disambiguates)
+
+**The frontier**: rank-6 → rank-4 needs TWO orthogonal VEVs; B990's obstruction was
+rescoped to PAIR-orbits (B1025 I5 — the single-VEV line was never its subject). The
+question: is F4(ℤ) transitive on orthogonal pairs, or does arithmetic stratify them?
+**Either answer sharpens the boundary**: transitive ⟹ the pair-acceptance is
+structureless (the input's boundary theorem completes at pair level); stratified ⟹
+arithmetic constrains the second acceptance — the input's freedom SHRINKS (not
+vanishes). Tools ready: chat1's verified integral Freudenthal machinery
+(isotropy⟺nilpotency; exp(B) automorphy; BFS). **The literature separation, quoted so
+nobody repeats it**: Kato–Yukie (1603.00739) is GE₆/similitudes, classifies GENERIC
+orbits over a FIELD — three independent reasons it does not answer this;
+Nishio–Yasukura is the right group/algebra but ℝ or ℂ only. OWNER-adjacent priority.
+
+### L162 — STATUS UPDATE 2026-08-14: the computation half ADVANCED; the Krutelevich gate is the ONLY remaining blocker
+
+chat1's exploratory handoff (unsealed): F4(ℤ) transitive on rank-1 idempotents in the
+SPLIT integral algebra — BFS census (25 diagonals at depth 2, orbit >60k capped),
+automorphy 60/60 on the algebra product, controls A/B pass, control C diagnosed and
+re-run, their D1 self-caught (a hardcoded ALL-PASS over a failed control — the
+unfailable-control species) and D2–D5 logged. **This bench's independent substrate
+verification (2026-08-14, own construction, their code unused)**: the division-form
+rigidity corollary's arithmetic sound; the isotropic counts reconciled exactly (their
+1920 = nonzero isotropics; division 0); **integral rank-1 idempotents with exotic
+diagonals CONSTRUCTED independently** — (0,0,1), (0,−1,2) by search and (0,−7,8) by
+the immediate x₁ = (−7,0;0,8), N = −56, idempotency exact. Split-rich vs
+division-rigid is bench-independent. **What remains gated: the transitivity claim
+proper (their machinery, plus their §5 seal-needs: wider box, deeper BFS, slots 0/2)
+and THE KRUTELEVICH READ** — J. Algebra 253 (2002) 276 + the 2003 Yale thesis; if
+either carries the orbit count this is a re-derivation. **The read requested to the
+relay seat's lane 2026-08-14.** Their §0 scope-withdrawal (no bearing on the input
+count — B1025/B1030 resolved that) verified correct. The MEANING (banked with the
+lead): B962-Q4's last hedge — that integral structure might stratify and let the
+chain select a vacuum — CLOSES pending the gate; the VEV input's irreducibility
+becomes theorem-backed; the object's own splitness is what forbids the arithmetic
+shortcut.
