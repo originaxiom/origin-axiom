@@ -99,7 +99,12 @@ def scan(path):
 
 def main(argv):
     if len(argv) > 1:
-        files = [Path(a) for a in argv[1:]]
+        files = []
+        for a in argv[1:]:
+            p = Path(a)
+            # a directory argument expands, rather than counting as a violation
+            files.extend(sorted(list(p.glob("*.md")) + list(p.glob("*.tex")))
+                         if p.is_dir() else [p])
     else:
         files = sorted(list(HERE.glob("*.tex")) + list(HERE.glob("*.md"))
                        + list(HERE.glob("sections/*.tex")))
