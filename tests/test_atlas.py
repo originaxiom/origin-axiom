@@ -129,8 +129,23 @@ def test_gaps_finds_under_resolved_obstacles():
 
 # -- the render regenerates ------------------------------------------------------------------------
 def test_render_regenerates_the_map():
-    out, n = render.render()
-    assert os.path.exists(out) and n == N
-    with open(out, encoding="utf-8") as f:
-        head = f.read(4000)
-    assert "GENERATED" in head and "context card" in head
+    """Non-mutating, 2026-08-14 (B1054 follow-up).
+
+    `render.render()` WRITES `docs/RECURRENCE_ATLAS.md`, a tracked file, so running the suite used
+    to edit the working tree -- and that side effect is exactly how the atlas's staleness stayed
+    invisible: whoever ran the suite silently refreshed the surface, and only `git status`
+    afterwards showed it. `gate_atlas_generated` is the freshness check now; this test verifies the
+    renderer, so it restores the bytes it found. A test that changes the tree it measures is the
+    E39 shape with the direction reversed."""
+    target = os.path.join(os.path.dirname(__file__), "..", "docs", "RECURRENCE_ATLAS.md")
+    before = open(target, encoding="utf-8").read() if os.path.exists(target) else None
+    try:
+        out, n = render.render()
+        assert os.path.exists(out) and n == N
+        with open(out, encoding="utf-8") as f:
+            head = f.read(4000)
+        assert "GENERATED" in head and "context card" in head
+    finally:
+        if before is not None:
+            with open(target, "w", encoding="utf-8") as f:
+                f.write(before)

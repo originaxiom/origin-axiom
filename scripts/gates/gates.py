@@ -525,7 +525,19 @@ def gate_atlas_generated():
     file: the suite mutated the working tree on every run and staleness was visible only to
     whoever read `git status` afterwards. A derived surface with a generator, a consumer that
     silently regenerates it, and no freshness check is the E39 shape one level out -- so this gate
-    is the freshness check, and the atlas is now covered the way the views are."""
+    is the freshness check, and the atlas is now covered the way the views are.
+
+    TWO REPAIRS, 2026-08-14, both found by running the gate on the day AFTER it was banked:
+
+      1. IT FAILED ON THE CALENDAR, NOT ON STALENESS. The renderer stamps
+         "> Last generated: {today} ...", so a byte-for-byte comparison went red on any day after
+         the atlas was last committed, with no arc having moved -- the whole diff was the date.
+         A gate that reds the build daily gets routed around, which is the failure mode gates
+         exist to prevent. The volatile stamp is excluded from the comparison; everything the
+         atlas is FOR is still compared byte-for-byte.
+      2. IT MUTATED A TRACKED FILE TO CHECK IT. Running the gates rewrote the working tree --
+         the same defect the docstring above names in tests/test_atlas.py, committed by the gate
+         written to catch it. The original bytes are now restored whatever the outcome."""
     gen = os.path.join(ROOT, "scripts", "atlas", "render.py")
     rel = "docs/RECURRENCE_ATLAS.md"
     if not os.path.isfile(gen):
@@ -534,13 +546,23 @@ def gate_atlas_generated():
         before = _read(rel)
     except Exception:
         return False, f"{rel} missing -- broken checkout, not an empty atlas"
+
+    def _stable(text):
+        """Everything except the generation stamp, which moves with the clock, not the corpus."""
+        return re.sub(r"(?m)^> Last generated: .*$", "", text)
+
     r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=300)
-    if r.returncode != 0:
-        return False, f"renderer failed: {r.stderr[-200:]}"
-    if _read(rel) != before:
-        return False, (f"{rel} out of date (regenerate: python3 scripts/atlas/render.py) -- "
-                       "it is derived from every arc's prose, so ANY banked edit can move it")
-    return True, "ok (atlas current)"
+    try:
+        if r.returncode != 0:
+            return False, f"renderer failed: {r.stderr[-200:]}"
+        if _stable(_read(rel)) != _stable(before):
+            return False, (f"{rel} out of date (regenerate: python3 scripts/atlas/render.py) -- "
+                           "it is derived from every arc's prose, so ANY banked edit can move it")
+        return True, "ok (atlas current)"
+    finally:
+        # Non-mutating by construction: the check reads the tree, it does not edit it.
+        with open(os.path.join(ROOT, rel), "w", encoding="utf-8") as fh:
+            fh.write(before)
 
 
 PRACTICES = "docs/PRACTICES.md"
