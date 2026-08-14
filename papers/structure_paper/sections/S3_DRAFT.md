@@ -103,4 +103,4 @@ representation `u² + u + 1 = 0`.)*
 **Three declarations have been spent** — C3 before §3.1, C4 and C5 in §3.3.
 **Two theorems and one classical realization** carried the rest. **No numerical
 value has entered.** From here to the end of §8, the chain contains no further
-declared choice (§5.3).
+declared choice (§5.5).

@@ -70,6 +70,22 @@ theorem that the object is blind to scale.
 | G15 | The hearing multiplication law | B756/DOOR3 | `tests/test_b756_doors.py` |
 | G16 | The threefold refusal (NO-GO) | B750 | `tests/test_b750_lack_ledger.py` |
 | G17 | The SM record (NO-GO), four mechanisms | B754, B736, B751/B752, B757 | `tests/test_b736_abc.py` |
+| ## **G18** | ## **The global form `[SU(3)×SU(2)×U(1)]/ℤ₆`** — asserted in §1's headline sentence | B862 | `tests/test_b862_global_form.py` (**4 pass**) |
+
+> ## **Why G18 was added late (2026-08-15), and what it is an instance of.** §1's headline
+> sentence carried the `ℤ₆` global form **with no citation and no registry row**, in *either*
+> registry — `SKELETON.md` mentions `B862`, `ℤ₆` and "global form" **zero** times. The arc and a
+> green lock existed the whole time.
+>
+> This is the **B950 incident surviving one level downstream**. B950 wrote that the global `ℤ₆`
+> form was *"not addressed"*; **B862 derives it**, and B978 counted that as one of *"three
+> instances in one day of declaring absent what already existed"* (with B976/hypercharge and
+> B974/the frame). The synthesis layer lost the arc; the paper then inherited the loss in a new
+> shape — **not "declared absent" but "asserted without its source"**, which is the more
+> dangerous form, because it reads as confident rather than as missing.
+>
+> **The rule this vindicates:** repairs aimed at *finding lost work* miss; repairs aimed at
+> **citation-at-point-of-use** land. Every headline claim needs its row **where it is stated**.
 | **D1a** | the fiber-field-side group is `2I × ℤ/3` at congruence level 15, order 360; non-CM subgroup Q₈; five absolute tones | ## **B641** `twistframe_law` — PROVED: *"ear-independent on all **360 elements** (2e-60), exact **five-tone** pentagon census"* | `tests/test_b641_b642.py` ✓ |
 | **D1b** | ## **the congruence-level-15 form is IRREDUCIBLE** (the two sides INTERFERE; 59/60 primes falsify L-factorization) | ## **B695** `loop_e3_close` — PROVED: *"a **unique irreducible** being-arithmetic coupling (59/60 primes)"* | `tests/test_b695_e3_close.py` ✓ |
 | **D1c** | ## **E₆/E₈ at the two curvature ends** | ## **B248** `e6_e8_geometric_transition` — PROVED: *"the figure-eight's **dual McKay E₆+E₈** is realized as the **hyperbolic (ℚ(√−3), 2T)** and **spherical (ℚ(√5), 2I)** ends of **one cone-manifold geometric transition**"*; **B981** `two_ended_correction` | `tests/test_b248_e6_e8_geometric_transition.py` ✓ · `tests/test_b981_two_ended.py` ✓ |
@@ -110,7 +126,7 @@ theorem that the object is blind to scale.
 
 | Fig | content |
 |---|---|
-| **0** | ## **The doorway**: `15 = 3·5` → `SL(2,3)×SL(2,5)` → `2T × 2I` → McKay → **E₆ × E₈** |
+| **0** | ## **The entrance**: one cone-manifold geometric transition, with the **hyperbolic end** `(ℚ(√−3), 2T)` → **E₆** and the **spherical end** `(ℚ(√5), 2I)` → **E₈** — the dual McKay pair at the two *curvature ends*. **(D1c; B248, B981.)** ⚠ ## **This figure previously specified the RETRACTED chain** `15 = 3·5 → SL(2,3)×SL(2,5) → 2T×2I → McKay → E₆×E₈`. That theorem was banked (`27d9ceb9`) and **withdrawn** (`1a0b5a90`): the fiber-field-side group is `2I × ℤ/3` (order 360), **not** `2T × 2I` (2880), and the congruence-level-15 form is banked as **IRREDUCIBLE** (59/60 primes falsify the factorization), the opposite of what the figure drew. **The prose row was corrected on 2026-08-14; this figure spec was not, and would have redrawn the retracted theorem into the PDF.** Corrected 2026-08-15. |
 | **0b** | ## **The chain as a bar**: 43 links, 4 axioms marked, the C6→C17 axiom-free stretch shaded |
 | 1–8 | as in `SKELETON.md` §4 (cascade ladder, plane stratification, tiling, magic square, concordance, ε-census, 15 atoms, Klein group) |
 

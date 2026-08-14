@@ -16,8 +16,9 @@ principle, with **three declared choices whose alternatives we compute**, one re
 specific hyperbolic 3-manifold — the figure-eight knot complement. Its own arithmetic then
 determines a 78-dimensional exceptional Lie algebra with a distinguished four-element
 charge torus, and a cascade of centralizers of that torus terminates, exactly, at
-`su(3) ⊕ su(2) ⊕ u(1)³` with the global form `[SU(3)×SU(2)×U(1)]/ℤ₆`. **No measured
-quantity enters any computation at any point.**
+`su(3) ⊕ su(2) ⊕ u(1)³` with the global form `[SU(3)×SU(2)×U(1)]/ℤ₆` *(registry G18;
+`tests/test_b862_global_form.py`)*. **No measured quantity enters any computation at any
+point.**
 
 The second half is the part we ask the reader to weigh equally. The same construction is
 **provably silent** about magnitudes: the object's amphichirality forces its Chern–Simons
@@ -43,7 +44,7 @@ nothing in the body asserts a physical interpretation of them.
 Of the 43 links in the chain, **39 are theorems, identities, censuses, or no-go results**;
 **four are declared choices**. Three of the four occur **before** the manifold appears, and
 one occurs after the algebra is already in hand. **Between the manifold and the algebra
-there is not one declared choice** (§5.3).
+there is not one declared choice** (§5.5).
 
 ### 1.3 What the reader should be suspicious of
 
