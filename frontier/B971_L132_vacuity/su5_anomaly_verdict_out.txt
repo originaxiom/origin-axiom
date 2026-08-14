@@ -1,0 +1,113 @@
+==============================================================================
+DERIVED HYPERCHARGE GENERATOR ON THE 5 OF SU(5)
+==============================================================================
+  unique traceless diag(a,a,a,b,b) with 3a+2b=0, normalised b=+1/2:
+     Y(5) = ['-1/3', '-1/3', '-1/3', '1/2', '1/2']   sum = 0
+
+==============================================================================
+THE 27, STATE BY STATE  (all left-handed Weyl)
+==============================================================================
+  source       multiplet               dim       Y   chi   psi
+  16 / 10      ec (1,1)                      1       1    -1     1
+  16 / 10      Q  (3,2)                      6     1/6    -1     1
+  16 / 10      uc (3b,1)                     3    -2/3    -1     1
+  16 / 5bar    dc (3b,1)                     3     1/3     3     1
+  16 / 5bar    Hd (1,2)                      2    -1/2     3     1
+  16 / 1       N  (1,1) [nu_R]               1       0    -5     1
+  10 / 5       D  (3,1) [exotic]             3    -1/3     2    -2
+  10 / 5       Hu (1,2) [exotic]             2     1/2     2    -2
+  10 / 5bar    Dc (3b,1) [exotic]            3     1/3    -2    -2
+  10 / 5bar    Hd (1,2) [exotic]             2    -1/2    -2    -2
+  1 / 1        S  (1,1) [E6 singlet]         1       0     0     4
+               TOTAL                    27
+  consistency: sum over 27 of chi = 0
+  consistency: sum over 27 of psi = 0
+
+==============================================================================
+PART 1 -- THE FOUR SM ANOMALY COEFFICIENTS ON THE COMPLETE 27, Q = Y
+==============================================================================
+  piece                    grav=TrY     [U1]^3   [SU3]^2Y   [SU2]^2Y   [SU3]^3  doub
+  ----------------------------------------------------------------------------------
+  SU(5) 10   (in 16)              0       5/36       -1/6        1/4         1     3
+  SU(5) 5bar (in 16)              0      -5/36        1/6       -1/4        -1     1
+  SU(5) 1    (in 16)              0          0          0          0         0     0
+  SU(5) 5    (in 10)              0       5/36       -1/6        1/4         1     1
+  SU(5) 5bar (in 10)              0      -5/36        1/6       -1/4        -1     1
+  SU(5) 1    (E6 sglt)            0          0          0          0         0     0
+  ----------------------------------------------------------------------------------
+  COMPLETE 27                     0          0          0          0         0     6
+
+==============================================================================
+PART 2 -- THE DISCRIMINATING QUESTION: cancellation, or separately zero?
+==============================================================================
+  piece                    grav=TrY     [U1]^3   [SU3]^2Y   [SU2]^2Y   [SU3]^3  doub
+  ----------------------------------------------------------------------------------
+  16  (SO(10) spinor)             0          0          0          0         0     4
+  10  (SO(10) vector)             0          0          0          0         0     2
+  1   (SO(10) sglt)               0          0          0          0         0     0
+  ----------------------------------------------------------------------------------
+  SM generation (15)              0          0          0          0         0     4
+  the twelve exotics              0          0          0          0         0     2
+
+  exotic 12 is a REAL (vector-like) rep of SU(3)xSU(2)xU(1)?  True
+  SM generation 15 is a REAL rep?                            False
+  complete 27 is a REAL rep?                                 False
+
+==============================================================================
+PART 3 -- MB12: CAN THE CHECK FAIL?  (live controls)
+==============================================================================
+  piece                    grav=TrY     [U1]^3   [SU3]^2Y   [SU2]^2Y   [SU3]^3  doub
+  ----------------------------------------------------------------------------------
+  lone SU(5) 10                   0       5/36       -1/6        1/4         1     3  <-- FAILS (nonzero)
+  lone SU(5) 5bar                 0      -5/36        1/6       -1/4        -1     1  <-- FAILS (nonzero)
+  27 minus e^c                   -1         -1          0          0         0     6  <-- FAILS (nonzero)
+  27 minus the 5 of the 10          0      -5/36        1/6       -1/4        -1     5  <-- FAILS (nonzero)
+  16 minus nu_R (=15)             0          0          0          0         0     4
+  exotics only (12)               0          0          0          0         0     2
+
+==============================================================================
+PART 4 -- DOES Y FALL OUT?  general Q = aY + b*chi + c*psi
+==============================================================================
+
+  --- over the COMPLETE 27 ---
+     grav       = 0
+     [U1]^3     = 0
+     [SU3]^2 Q  = 0
+     [SU2]^2 Q  = 0
+     => EVERY abelian direction is anomaly-free  ==>  NO SELECTION (vacuous)
+
+  --- over the complete 16 (SO(10) spinor) ---
+     grav       = 16*C
+     [U1]^3     = 10*A**2*C + 240*B**2*C + 16*C**3
+     [SU3]^2 Q  = 2*C
+     [SU2]^2 Q  = 2*C
+     => solution space dimension 2 over the linear conditions: (A, B, 0)   |  cubic there = 0
+
+  --- over the chiral 15 (SM generation) ---
+     grav       = 5*B + 15*C
+     [U1]^3     = 10*A**2*C + 125*B**3 + 165*B**2*C + 15*B*C**2 + 15*C**3
+     [SU3]^2 Q  = 2*C
+     [SU2]^2 Q  = 2*C
+     => solution space dimension 1 over the linear conditions: (A, 0, 0)   |  cubic there = 0
+
+==============================================================================
+PART 5 -- REPRODUCTIONS OF PRIOR IN-CORPUS ARITHMETIC (checked after the fact)
+==============================================================================
+  psi over full 27         Tr =      0   Tr^3 =        0   [SU3]^2 =      0   [SU2]^2 =      0
+  psi over the 16          Tr =     16   Tr^3 =       16   [SU3]^2 =      2   [SU2]^2 =      2
+  chi over the 16          Tr =      0   Tr^3 =        0   [SU3]^2 =      0   [SU2]^2 =      0
+  chi over 10+5bar (=15)   Tr =      5   Tr^3 =      125   [SU3]^2 =      0   [SU2]^2 =      0
+
+==============================================================================
+PART 6 -- HOW BLIND IS THE CHECK TO THE EXOTIC SECTOR?
+==============================================================================
+  Replace the exotics' E6 hypercharges by FREE parameters y1 (the colour
+  triplet pair) and y2 (the doublet pair), keeping only the vector-like
+  pairing.  If the anomaly coefficients are identically zero in y1,y2 the
+  check carries no information about the exotic sector whatsoever.
+     grav     = 0
+     cubic    = 0
+     a33Q     = 0
+     a22Q     = 0
+  => all identically zero in y1,y2: the four SM anomaly conditions are
+     COMPLETELY BLIND to the exotic sector, for ANY vector-like charges.

@@ -1,0 +1,10 @@
+{
+ "id": "B916",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE LAMBDA BRIDGE (dispatched to reconcile 2304/953 vs 1; the dispatching hypothesis REFUTED, both seats VINDICATED): the 27/27bar bridge S is Schur-unique and a SIGNED PERMUTATION (det 1, verified on all 78 generators) and the primitive +-1 cubic transports with t = 1 EXACTLY on all 45 triples -- primitivity IS canonical across the mirror, so the factor is not convention: THE TWO SEATS USED TWO GENUINELY DIFFERENT INVARIANT HERMITIAN STRUCTURES -- the charge-equivariant H+ (Rn^T H + eps_n H Rn = 0, eps = (-,+,-,+)) vs the solo tau-twisted dual intertwiner M = P D_chi (verified NOT charge-equivariant for any sign on any charge), differing by an 11-sign diagonal flip. Both lambdas are EXACT and realization-independent: lambda(H+) = 1 with the identity c^2 = -(q_i q_j q_k) on all six couplings (unimodularity in the equivariant gauge), lambda(M) = 2304/953 (the solo 85-digit belt exactified in the Mbar tower), and the ratio is the FIELD NORM OF THE TWIST: the per-line ratios d_i are K-cubics with minpolys 2304^2 x^3 + 9123840 x^2 + 5077008 x + 953^2 (S-family) and 2304^2 x^3 - 1907712 x^2 - 2304*953 x + 953^2 (A-family), every coupling triple a Galois orbit with prod d_i = -(953/2304)^2 = N_{K/Q}(d) -- THE VALUE PRIMES ARE THE NORM ARITHMETIC OF THE H-TWIST. Programme rule adopted: pin H by equivariance pattern, never basis-primitivity. Open, registered: the D2 flip pattern's weight-character reading.",
+ "depends_on": ["B883", "B907", "B912", "B914", "B917"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "computation agent + cc banking verification (2026-08-05)"
+}

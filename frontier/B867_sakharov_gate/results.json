@@ -1,0 +1,34 @@
+{
+ "S1": {
+  "coset_dim": 12,
+  "match": true,
+  "nuR": "B865: the chain's singlets land in (1,1)_0 -- the Majorana/L-violation slot",
+  "xy_dim": 12
+ },
+ "S2": {
+  "first_N_with_phase": 3,
+  "phase_counts": {
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 3,
+   "5": 6
+  },
+  "s3_triple": "B866: the S3 orbit of distinguished charges -- the structural three (SIGNATURE, not yet a generation mechanism)"
+ },
+ "S3": {
+  "V_anti_over_kappa": "-7/12 + 5*sqrt(5)/12",
+  "V_phi_over_kappa": "-5*sqrt(5)/12 - 7/12",
+  "barrier": true,
+  "broken_below_symmetric": true,
+  "consumption": "B737-P2/B852: Dehn filling destroys the cusp = the transition consumes its own mechanism; no re-equilibration channel",
+  "galois_conjugates": true
+ },
+ "verdict": {
+  "S1_present": true,
+  "S2_present": true,
+  "S3_present": true,
+  "all_preconditions_structural": true,
+  "what_this_is_NOT": "a computation of the asymmetry (a value; Gate 5). The stage, not the play. S2 additionally inherits B866's signature-not-mechanism caveat."
+ }
+}

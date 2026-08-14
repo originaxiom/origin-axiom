@@ -1,0 +1,10 @@
+{
+ "id": "B427",
+ "verdict": "PROVED",
+ "claim_one_line": "Exchange of the two seam slots acts by the Galois element sigma_17, which fixes sqrt(-15); the projector-trace corollary is corrected to symmetrized/antisymmetrized sectors.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

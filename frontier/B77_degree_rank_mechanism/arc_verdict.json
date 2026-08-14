@@ -1,0 +1,10 @@
+{
+ "id": "B77",
+ "verdict": "PROVED",
+ "claim_one_line": "degree=rank sharpens to the signed scalar-matrix law [A,B]=(-1)^{n-1} mu^n, while the A-to-D unification with the Dickson spectrum is refuted.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

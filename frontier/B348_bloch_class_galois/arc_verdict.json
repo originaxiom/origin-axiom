@@ -1,0 +1,10 @@
+{
+ "id": "B348",
+ "verdict": "PROVED",
+ "claim_one_line": "The Bloch class β=2[e^{iπ/3}] has Galois orbit {β,−β} summing to zero, and at the Eisenstein point the duality involution z↦1−z coincides with Galois conjugation, so amphichirality self-identifies the orbit: no forced choice.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

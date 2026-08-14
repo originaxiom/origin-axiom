@@ -1,0 +1,10 @@
+{
+ "id": "B47",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Ledger verdict: lambda/h=1 is conditional, not derived; the strongest honest statement is T1 -> S1, with T1 itself underived by the framework.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

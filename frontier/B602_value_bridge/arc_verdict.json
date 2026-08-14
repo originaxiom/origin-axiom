@@ -1,0 +1,10 @@
+{
+ "id": "B602",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No declared structural normalization carries even the phase — all X1 cells fail with residual exactly −π/15 and all X2 cells fail — so the outcome is D-norm: the naive value bridge does not exist.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B36",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambda/h=1, and gap-label controls fail to distinguish I=1/4.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

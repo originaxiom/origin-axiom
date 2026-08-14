@@ -1,0 +1,45 @@
+{
+ "cmt_typing": {
+  "pairs": [
+   [
+    40013,
+    23333
+   ],
+   [
+    40037,
+    2797
+   ],
+   [
+    40039,
+    10522
+   ],
+   [
+    40039,
+    16946
+   ],
+   [
+    40039,
+    37713
+   ]
+  ],
+  "dim_z": 30,
+  "derived_ge": 28,
+  "z_cap_core": 18,
+  "center_by_count": 2,
+  "note": "five (root,prime) pairs incl. the fully-split 40039; so(8)+u(1)^2 typing uniform"
+ },
+ "kappa": "2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859 (exact; nu = c kappa^6 by nu_exact)",
+ "instrument_findings": [
+  "cpen.py: 20 CPU-h in a redundant symbolic det (sympy blowup); the quotient leg is an optional follow-up (tooling note)",
+  "cmt.py AS SHIPPED was the RETRACTED section-LIV septic instrument -- its 'wall roots' were phantom roots (kappa mod 40031 has NONE); caught by root mismatch; retraction-propagation failure routed to B920/RETRACTIONS",
+  "the corrected instrument (this arc's cmt_correct.py) uses kappa as the wall polynomial"
+ ],
+ "verified_suite": {
+  "kfield": "one-field: kappa splits [1,2] over K; canonical Galois bijection",
+  "mixed": "cross-shadow 18 (derived 15, center 3); Killing-perp 12; torus-invariance defects 0; M12 cap core = 0; SMT-block kernel-4 fingerprint",
+  "inv12": "the invisible-12 identification data",
+  "nu_exact": "nu degree 18 = c*kappa^6 exact; disc-kernel {7,11}; the six-cubic sqrt77 law",
+  "census": "the FA3 census seal CONFIRMED 8/8 (the law's fourth face)",
+  "cw": "banked separately as B919 (3/8, one-prime tier)"
+ }
+}

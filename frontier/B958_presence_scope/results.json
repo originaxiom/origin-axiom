@@ -1,0 +1,26 @@
+{
+ "repo_has_independent_M12_construction": false,
+ "how_B909_verified_LVIII": "by running the incoming material, not by rebuilding on this bench",
+ "machinery_available": [
+  "frontier/B854_centralizer_exact/e6_centralizer.py (full e6: 78 dims, 72 roots, Chevalley bracket table)"
+ ],
+ "consistency_test_run": {
+  "what": "dim Z(su(3)_colour) in e6, computed exactly on our own instrument",
+  "stacked_ad_rank": 62,
+  "dim_e6": 78,
+  "dim_centralizer": 16,
+  "standard_cross_check": "e6 contains su(3)^3, so Z(su(3)_C) = su(3)+su(3) = 16",
+  "presence_side_claim": "M12 is colour-blind with dim 12",
+  "consistency_requires": "12 <= 16",
+  "passed": true,
+  "strength": "a real constraint that could have failed; NOT a verification of the presence side"
+ },
+ "what_a_real_verification_needs": [
+  "reconstruct the frame (the orthogonal charge frame of B909/section XLIX-LVIII)",
+  "reconstruct the floor (su(3) + four charges, dim 12) independently",
+  "reconstruct M12 (the Killing-perp / invisible 12) independently",
+  "then test: [M12,M12] escapes by exactly 4 into the torus; [floor,M12] = 12 with zero escape; not a module over so(10) (escape 50); centre 0; twelve multiplicity-one colour-blind weights; closure under exactly W_frame with three free orbits; the orbit-generation bijection"
+ ],
+ "why_not_done_here": "reconstructing their frame wrong would produce a FALSE verification or a FALSE refutation, either of which is worse than an honest deferral",
+ "session_echo": "this is the same shape as B950: we verified data we never independently built, just as we compared against a target we never wrote down"
+}

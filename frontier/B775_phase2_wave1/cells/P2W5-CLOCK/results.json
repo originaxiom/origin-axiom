@@ -1,0 +1,280 @@
+{
+ "conductor": {
+  "closed_form": "N_k = ord(T_k) = 3*kappa = 3(k+3)",
+  "ok": true,
+  "verified_k": "1..40"
+ },
+ "factorization_k1_7": true,
+ "gate_b585_k2": true,
+ "headline": "the listener's clock law: clock(W,k) = ord(W in SL(2,Z/3kappa)/K_k); K_k=1 for k>=4; for the figure-eight clock = pi(3kappa)/2",
+ "kernels": {
+  "1": {
+   "name": "index-4 kernel of chi(W)=i^(#R-#L)  [rho_odd(R)=0.000+1.000j=i, rho_odd(L)=0.000-1.000j=-i, index 4]",
+   "size": 288
+  },
+  "2": {
+   "name": "1 x Q8 subset SL(2,Z/5) x SL(2,Z/3)  [all = I mod 5; 6 trace-0 + {+-I} mod 3]",
+   "size": 8
+  },
+  "3": {
+   "name": "graph of sgn: SL(2,Z/2)=S_3 -> {+-I} subset SL(2,Z/9)  [6 distinct mod-2 images; mod-9 part = +I iff odd order in S_3]",
+   "size": 6
+  },
+  "4": {
+   "name": "trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))",
+   "size": 1
+  },
+  "5": {
+   "name": "trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))",
+   "size": 1
+  },
+  "6": {
+   "name": "trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))",
+   "size": 1
+  },
+  "7": {
+   "name": "trivial (the odd block is FAITHFUL on SL(2,Z/3kappa))",
+   "size": 1
+  }
+ },
+ "law": {
+  "clock": "clock(W,k) = ord(W in SL(2,Z/3kappa)/K_k)",
+  "conductor": "ord(T_k) = 3*kappa",
+  "factorization": "theta-odd block factors through SL(2,Z/3kappa)",
+  "figure_eight": "clock(k) = pi(3kappa)/2 (half Pisano period), k>=3",
+  "kernel": {
+   "1": "ker(chi), chi(W)=i^(#R-#L), index 4",
+   "2": "1 x Q8 in SL(2,Z/5)xSL(2,Z/3), order 8",
+   "3": "graph of sgn: SL(2,Z/2)=S_3 -> {+-I} in SL(2,Z/9), order 6",
+   ">=4": "trivial (faithful)"
+  }
+ },
+ "pisano": {
+  "banked_reproduced": true,
+  "law": "clock_RL(k) = pi(3kappa)/2 for k>=3",
+  "ok": true,
+  "table": [
+   {
+    "N": 12,
+    "banked": 1,
+    "k": 1,
+    "kappa": 4,
+    "measured": 1,
+    "pisano": 24,
+    "pred": 12
+   },
+   {
+    "N": 15,
+    "banked": 10,
+    "k": 2,
+    "kappa": 5,
+    "measured": 10,
+    "pisano": 40,
+    "pred": 20
+   },
+   {
+    "N": 18,
+    "banked": 12,
+    "k": 3,
+    "kappa": 6,
+    "measured": 12,
+    "pisano": 24,
+    "pred": 12
+   },
+   {
+    "N": 21,
+    "banked": 8,
+    "k": 4,
+    "kappa": 7,
+    "measured": 8,
+    "pisano": 16,
+    "pred": 8
+   },
+   {
+    "N": 24,
+    "banked": 12,
+    "k": 5,
+    "kappa": 8,
+    "measured": 12,
+    "pisano": 24,
+    "pred": 12
+   },
+   {
+    "N": 27,
+    "banked": 36,
+    "k": 6,
+    "kappa": 9,
+    "measured": 36,
+    "pisano": 72,
+    "pred": 36
+   },
+   {
+    "N": 30,
+    "banked": 60,
+    "k": 7,
+    "kappa": 10,
+    "measured": 60,
+    "pisano": 120,
+    "pred": 60
+   },
+   {
+    "N": 33,
+    "banked": 20,
+    "k": 8,
+    "kappa": 11,
+    "measured": 20,
+    "pisano": 40,
+    "pred": 20
+   },
+   {
+    "N": 36,
+    "banked": 12,
+    "k": 9,
+    "kappa": 12,
+    "measured": 12,
+    "pisano": 24,
+    "pred": 12
+   },
+   {
+    "N": 39,
+    "banked": 28,
+    "k": 10,
+    "kappa": 13,
+    "measured": 28,
+    "pisano": 56,
+    "pred": 28
+   },
+   {
+    "N": 42,
+    "banked": 24,
+    "k": 11,
+    "kappa": 14,
+    "measured": 24,
+    "pisano": 48,
+    "pred": 24
+   },
+   {
+    "N": 45,
+    "banked": 60,
+    "k": 12,
+    "kappa": 15,
+    "measured": 60,
+    "pisano": 120,
+    "pred": 60
+   },
+   {
+    "N": 48,
+    "banked": null,
+    "k": 13,
+    "kappa": 16,
+    "measured": 12,
+    "pisano": 24,
+    "pred": 12
+   },
+   {
+    "N": 51,
+    "banked": null,
+    "k": 14,
+    "kappa": 17,
+    "measured": 36,
+    "pisano": 72,
+    "pred": 36
+   },
+   {
+    "N": 54,
+    "banked": null,
+    "k": 15,
+    "kappa": 18,
+    "measured": 36,
+    "pisano": 72,
+    "pred": 36
+   },
+   {
+    "N": 57,
+    "banked": null,
+    "k": 16,
+    "kappa": 19,
+    "measured": 36,
+    "pisano": 72,
+    "pred": 36
+   },
+   {
+    "N": 60,
+    "banked": null,
+    "k": 17,
+    "kappa": 20,
+    "measured": 60,
+    "pisano": 120,
+    "pred": 60
+   },
+   {
+    "N": 63,
+    "banked": null,
+    "k": 18,
+    "kappa": 21,
+    "measured": 24,
+    "pisano": 48,
+    "pred": 24
+   },
+   {
+    "N": 66,
+    "banked": null,
+    "k": 19,
+    "kappa": 22,
+    "measured": 60,
+    "pisano": 120,
+    "pred": 60
+   },
+   {
+    "N": 69,
+    "banked": null,
+    "k": 20,
+    "kappa": 23,
+    "measured": 24,
+    "pisano": 48,
+    "pred": 24
+   },
+   {
+    "N": 72,
+    "banked": null,
+    "k": 21,
+    "kappa": 24,
+    "measured": 12,
+    "pisano": 24,
+    "pred": 12
+   },
+   {
+    "N": 75,
+    "banked": null,
+    "k": 22,
+    "kappa": 25,
+    "measured": 100,
+    "pisano": 200,
+    "pred": 100
+   }
+  ],
+  "verified_k": "3..22"
+ },
+ "precision_seed": {
+  "dps": 40,
+  "k": 6,
+  "order": 36,
+  "pass": true
+ },
+ "runtime_s": 98.3,
+ "verdict": "RESOLVED-A",
+ "word_law": {
+  "estimator_disagreements": 0,
+  "identifiability_failures": 0,
+  "instances": 832,
+  "law_misses": 0,
+  "levels": "1..16",
+  "naive_miss_levels": [
+   1,
+   2,
+   3
+  ],
+  "naive_misses": 82,
+  "words": 52
+ }
+}

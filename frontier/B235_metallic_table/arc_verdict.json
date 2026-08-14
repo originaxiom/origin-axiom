@@ -1,0 +1,10 @@
+{
+ "id": "B235",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The trace-field ladder closes at {√5,√−3} — ℚ(√−7) never appears (arithmeticity/unimodularity) — and the F₄ footprint entry is retracted (no SU(3)_k ⊂ (F₄)₁).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

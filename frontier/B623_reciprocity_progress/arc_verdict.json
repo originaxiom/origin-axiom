@@ -1,0 +1,10 @@
+{
+ "id": "B623",
+ "verdict": "PROVED",
+ "claim_one_line": "The Weyl-Weil reciprocity reduction is proved (96/96) and the conductor identity det(h_w) = sign(w)det(A tensor w - I) derived; odd-kappa reciprocity stays open.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

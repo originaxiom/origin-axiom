@@ -1,0 +1,109 @@
+{
+ "door": "D5_state_integral",
+ "point_b": "self-dual b=1, hbar=2 pi, level k=1, PQ=1 (single residue)",
+ "phi_validation": {
+  "phi0_arg_over_pi": 0.08333333333333333,
+  "phi0_abs": 1.0,
+  "func_eq_maxresidual": 1.5779143916829534e-30,
+  "phi_validated": true,
+  "saddle_u0_ImV": "2.02988321281930725",
+  "Vol41_target": "2.02988321281930725",
+  "saddle_u0_check": 3.944304526105059e-31
+ },
+ "Vol41": "2.02988321281930725004240510855",
+ "L_chi_-3_2": "0.781302412896486296867187429624",
+ "complex_volume_V(u)": {
+  "u=phi-1": {
+   "V": "-1.62381009204514997706543151922",
+   "ImV": "0.0",
+   "ReV": "-1.62381009204514997706543151922"
+  },
+  "u=omega3-1": {
+   "V": "(32.5444323165849935881361399766 + 59.2175662007207976762743915444j)",
+   "ImV": "59.2175662007207976762743915444",
+   "ReV": "32.5444323165849935881361399766"
+  },
+  "u=zeta5-1": {
+   "V": "(35.9151031090808046133040542365 + 27.2766072993137786999953816225j)",
+   "ImV": "27.2766072993137786999953816225",
+   "ReV": "35.9151031090808046133040542365"
+  },
+  "u=zeta15-1": {
+   "V": "(15.2946510632550715065393645042 + 4.32999459493050550107117055233j)",
+   "ImV": "4.32999459493050550107117055233",
+   "ReV": "15.2946510632550715065393645042"
+  }
+ },
+ "state_integral_Z(u)": {
+  "u=phi-1": {
+   "Z": "(0.020035208647147342173363957802 - 8.73914380843324147319325428893e-29j)",
+   "absZ": "0.020035208647147342173363957802",
+   "argZ_over_pi": "-1.3884336919057923886196757339e-27",
+   "note": "rigorous(real u)"
+  },
+  "u=omega3-1": {
+   "Z": "(543.493179478272986333266441602 + 829.393308242540210789789030761j)",
+   "absZ": "991.603799860058811952964059075",
+   "argZ_over_pi": "0.315353186283864310769249843133",
+   "note": "naive continuation (Stokes)"
+  },
+  "u=zeta5-1": {
+   "Z": "(-19.5790767426187792686683837769 + 46.0893511173421594874555276755j)",
+   "absZ": "50.0756281289711287964864153676",
+   "argZ_over_pi": "0.627867348353575927493297855185",
+   "note": "naive continuation (Stokes)"
+  },
+  "u=zeta15-1": {
+   "Z": "(0.666493518602037813620244672727 + 0.140271658044370670548655905228j)",
+   "absZ": "0.6810945223601800368180926798",
+   "argZ_over_pi": "0.0660285418038641482458134050054",
+   "note": "naive continuation (Stokes)"
+  }
+ },
+ "crosscheck_u=phi-1": {
+  "residue": "(0.020035208647147342173 - 8.7391438084332414732e-29j)",
+  "direct": "(0.020036614315898993129 - 2.8180654606809442699e-6j)",
+  "reldiff": "0.000157183"
+ },
+ "base_rate": {
+  "Nq": 24,
+  "Nc": 14,
+  "window": 0.01,
+  "expected_chance": 6.72,
+  "observed_nearmisses": 3,
+  "near_list": [
+   [
+    "u=phi-1:|Re V|",
+    1.62381009,
+    [
+     [
+      "phi",
+      0.0035698281589979387
+     ]
+    ]
+   ],
+   [
+    "u=phi-1:|V|",
+    1.62381009,
+    [
+     [
+      "phi",
+      0.0035698281589979387
+     ]
+    ]
+   ],
+   [
+    "u=zeta15-1:|ReZ|",
+    0.66649352,
+    [
+     [
+      "2/3",
+      0.00025972209694327957
+     ]
+    ]
+   ]
+  ]
+ },
+ "verdict": "MISS",
+ "verdict_reason": "The only exact structured transcendental (period/L-value) carried by the fig-8 state integral is |Im V(u=0)| = Vol(4_1) = (3 sqrt3/2) L(chi_-3,2), recovered at the COMPLETE structure u=0 and already banked (B680). At the four programme points u=zeta_n-1 the complex volumes V(u) and finite-hbar values Z(u) are generic deformed dilog periods / quantum invariants; no new period/L-value/regulator with identifiable structure appears, and any numeric near-miss is within the base-rate budget. Door closes MISS."
+}

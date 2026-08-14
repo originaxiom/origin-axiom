@@ -1,0 +1,2374 @@
+{
+ "id": "B924",
+ "task": "R-INV: the three unused involution couplings on the B593 face pair",
+ "calibration": {
+  "theta_law_reproduced": true,
+  "forced_value_numeric": [
+   0.3090169943749479,
+   0.4253254041760204
+  ],
+  "forced_value_exact": "1/5 - 3/5*z^2 + 4/5*z^3 + 2/5*z^6 - 3/5*z^7",
+  "exact_equals_banked_closed_form": true
+ },
+ "stage_field": "Q(zeta_15) (the whole B593 stage: welds, twist, psi0, dial)",
+ "involution_atlas": [
+  {
+   "t": 1,
+   "order": 1,
+   "moves_sqrt5": false,
+   "involution": true
+  },
+  {
+   "t": 2,
+   "order": 4,
+   "moves_sqrt5": true,
+   "involution": false
+  },
+  {
+   "t": 4,
+   "order": 2,
+   "moves_sqrt5": false,
+   "involution": true
+  },
+  {
+   "t": 7,
+   "order": 4,
+   "moves_sqrt5": true,
+   "involution": false
+  },
+  {
+   "t": 8,
+   "order": 4,
+   "moves_sqrt5": true,
+   "involution": false
+  },
+  {
+   "t": 11,
+   "order": 2,
+   "moves_sqrt5": false,
+   "involution": true
+  },
+  {
+   "t": 13,
+   "order": 4,
+   "moves_sqrt5": true,
+   "involution": false
+  },
+  {
+   "t": 14,
+   "order": 2,
+   "moves_sqrt5": false,
+   "involution": true
+  }
+ ],
+ "operative_definitions": {
+  "theta": "label conjugation C (B593, the banked coupling)",
+  "sigma_star": "t=4: zeta5 -> zeta5^-1, zeta3 fixed (pentagonal conjugation)",
+  "c": "t=14: full complex conjugation",
+  "sigma_star_c": "t=11: zeta3 -> zeta3^-1, zeta5 fixed (triangular conjugation)",
+  "golden_no_lift": "sqrt5 -> -sqrt5 has NO involutive lift to the stage field: t^2=1 mod 15 forces t=+-1 mod 5; its lifts t in {2,7,8,13} have order 4 (verified exactly)"
+ },
+ "parity_theorem": "psi0^T W v = psi0^T W^T v = 0 exactly for all welds/twists and dial v (C-even covector vs C-odd dial); B593 needed only the antisymmetric channel, the semilinear mirrors need both -- both close",
+ "table": [
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 2*z^2 - 2*z^3 + 2*z^7",
+   "Q_num": [
+    -7.23606797749979,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 2*z^2 + 2*z^3 - 2*z^7",
+   "Q_num": [
+    7.23606797749979,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2 - 2*z^2 + 4*z^3 + 2*z^6 - 2*z^7",
+   "Q_num": [
+    2.23606797749979,
+    3.077683537175254
+   ],
+   "FV_exact": "-1/5 + 3/5*z^2 - 4/5*z^3 - 2/5*z^6 + 3/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    -0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2 + 2*z^2 - 4*z^3 - 2*z^6 + 2*z^7",
+   "Q_num": [
+    -2.23606797749979,
+    -3.077683537175254
+   ],
+   "FV_exact": "1/5 - 3/5*z^2 + 4/5*z^3 + 2/5*z^6 - 3/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-4 - 4*z^3 - 2*z^6",
+   "Q_num": [
+    -3.618033988749895,
+    -4.97979656976556
+   ],
+   "FV_exact": "3/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    0.4999999999999999,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "4 + 4*z^3 + 2*z^6",
+   "Q_num": [
+    3.618033988749895,
+    4.97979656976556
+   ],
+   "FV_exact": "-3/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    -0.4999999999999999,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 2*z^2 - 2*z^3 + 2*z^7",
+   "Q_num": [
+    -7.23606797749979,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 2*z^2 + 2*z^3 - 2*z^7",
+   "Q_num": [
+    7.23606797749979,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2*z^2 - 2*z^6 - 2*z^7",
+   "Q_num": [
+    2.2360679774997894,
+    -3.077683537175253
+   ],
+   "FV_exact": "1/5 + 2/5*z^2 - 1/5*z^3 + 2/5*z^6 + 2/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2*z^2 + 2*z^6 + 2*z^7",
+   "Q_num": [
+    -2.2360679774997894,
+    3.077683537175253
+   ],
+   "FV_exact": "-1/5 - 2/5*z^2 + 1/5*z^3 - 2/5*z^6 - 2/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2 + 2*z^2 + 2*z^3 + 2*z^6 + 2*z^7",
+   "Q_num": [
+    -3.6180339887498945,
+    4.97979656976556
+   ],
+   "FV_exact": "2/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    0.5,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2 - 2*z^2 - 2*z^3 - 2*z^6 - 2*z^7",
+   "Q_num": [
+    3.6180339887498945,
+    -4.97979656976556
+   ],
+   "FV_exact": "-2/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    -0.5,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12 + 4*z^2 - 4*z^3 + 4*z^7",
+   "Q_num": [
+    -14.47213595499958,
+    -4.440892098500626e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12 - 4*z^2 + 4*z^3 - 4*z^7",
+   "Q_num": [
+    14.47213595499958,
+    4.440892098500626e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2 - 6*z^2 + 2*z^3 - 6*z^7",
+   "Q_num": [
+    4.472135954999579,
+    -3.8042260651806137
+   ],
+   "FV_exact": "-1/10 + 4/5*z^2 - 2/5*z^3 - 1/5*z^6 + 4/5*z^7",
+   "FV_num": [
+    -0.30901699437494734,
+    0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2 + 6*z^2 - 2*z^3 + 6*z^7",
+   "Q_num": [
+    -4.472135954999579,
+    3.8042260651806137
+   ],
+   "FV_exact": "1/10 - 4/5*z^2 + 2/5*z^3 + 1/5*z^6 - 4/5*z^7",
+   "FV_num": [
+    0.30901699437494734,
+    -0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-4 + 2*z^2 + 2*z^3 + 4*z^6 + 2*z^7",
+   "Q_num": [
+    -7.23606797749979,
+    6.155367074350507
+   ],
+   "FV_exact": "3/10 + 1/10*z^2 - 3/10*z^3 - 2/5*z^6 + 1/10*z^7",
+   "FV_num": [
+    0.49999999999999994,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "4 - 2*z^2 - 2*z^3 - 4*z^6 - 2*z^7",
+   "Q_num": [
+    7.23606797749979,
+    -6.155367074350507
+   ],
+   "FV_exact": "-3/10 - 1/10*z^2 + 3/10*z^3 + 2/5*z^6 - 1/10*z^7",
+   "FV_num": [
+    -0.49999999999999994,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18 + 6*z^2 - 6*z^3 + 6*z^7",
+   "Q_num": [
+    -21.708203932499366,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18 - 6*z^2 + 6*z^3 - 6*z^7",
+   "Q_num": [
+    21.708203932499366,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 6*z^2 + 12*z^3 + 6*z^6 - 6*z^7",
+   "Q_num": [
+    6.708203932499369,
+    9.23305061152576
+   ],
+   "FV_exact": "-1/5 + 3/5*z^2 - 4/5*z^3 - 2/5*z^6 + 3/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    -0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 6*z^2 - 12*z^3 - 6*z^6 + 6*z^7",
+   "Q_num": [
+    -6.708203932499369,
+    -9.23305061152576
+   ],
+   "FV_exact": "1/5 - 3/5*z^2 + 4/5*z^3 + 2/5*z^6 - 3/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12 - 12*z^3 - 6*z^6",
+   "Q_num": [
+    -10.854101966249686,
+    -14.93938970929668
+   ],
+   "FV_exact": "3/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    0.4999999999999999,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12 + 12*z^3 + 6*z^6",
+   "Q_num": [
+    10.854101966249686,
+    14.93938970929668
+   ],
+   "FV_exact": "-3/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    -0.4999999999999999,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18 + 6*z^2 - 6*z^3 + 6*z^7",
+   "Q_num": [
+    -21.708203932499366,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18 - 6*z^2 + 6*z^3 - 6*z^7",
+   "Q_num": [
+    21.708203932499366,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6*z^2 - 6*z^6 - 6*z^7",
+   "Q_num": [
+    6.708203932499368,
+    -9.23305061152576
+   ],
+   "FV_exact": "1/5 + 2/5*z^2 - 1/5*z^3 + 2/5*z^6 + 2/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6*z^2 + 6*z^6 + 6*z^7",
+   "Q_num": [
+    -6.708203932499368,
+    9.23305061152576
+   ],
+   "FV_exact": "-1/5 - 2/5*z^2 + 1/5*z^3 - 2/5*z^6 - 2/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 6*z^2 + 6*z^3 + 6*z^6 + 6*z^7",
+   "Q_num": [
+    -10.854101966249683,
+    14.939389709296682
+   ],
+   "FV_exact": "2/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    0.5,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 6*z^2 - 6*z^3 - 6*z^6 - 6*z^7",
+   "Q_num": [
+    10.854101966249683,
+    -14.939389709296682
+   ],
+   "FV_exact": "-2/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    -0.5,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-36 + 12*z^2 - 12*z^3 + 12*z^7",
+   "Q_num": [
+    -43.41640786499873,
+    -4.440892098500626e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "36 - 12*z^2 + 12*z^3 - 12*z^7",
+   "Q_num": [
+    43.41640786499873,
+    4.440892098500626e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 18*z^2 + 6*z^3 - 18*z^7",
+   "Q_num": [
+    13.416407864998737,
+    -11.41267819554184
+   ],
+   "FV_exact": "-1/10 + 4/5*z^2 - 2/5*z^3 - 1/5*z^6 + 4/5*z^7",
+   "FV_num": [
+    -0.30901699437494734,
+    0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 18*z^2 - 6*z^3 + 18*z^7",
+   "Q_num": [
+    -13.416407864998737,
+    11.41267819554184
+   ],
+   "FV_exact": "1/10 - 4/5*z^2 + 2/5*z^3 + 1/5*z^6 - 4/5*z^7",
+   "FV_num": [
+    0.30901699437494734,
+    -0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12 + 6*z^2 + 6*z^3 + 12*z^6 + 6*z^7",
+   "Q_num": [
+    -21.708203932499366,
+    18.46610122305152
+   ],
+   "FV_exact": "3/10 + 1/10*z^2 - 3/10*z^3 - 2/5*z^6 + 1/10*z^7",
+   "FV_num": [
+    0.49999999999999994,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*",
+   "t": 4,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12 - 6*z^2 - 6*z^3 - 12*z^6 - 6*z^7",
+   "Q_num": [
+    21.708203932499366,
+    -18.46610122305152
+   ],
+   "FV_exact": "-3/10 - 1/10*z^2 + 3/10*z^3 + 2/5*z^6 - 1/10*z^7",
+   "FV_num": [
+    -0.49999999999999994,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 2*z^2 - 2*z^3 + 2*z^7",
+   "Q_num": [
+    -7.23606797749979,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 2*z^2 + 2*z^3 - 2*z^7",
+   "Q_num": [
+    7.23606797749979,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2 - 2*z^2 + 4*z^3 + 2*z^6 - 2*z^7",
+   "Q_num": [
+    2.23606797749979,
+    3.077683537175254
+   ],
+   "FV_exact": "-1/5 + 3/5*z^2 - 4/5*z^3 - 2/5*z^6 + 3/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    -0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2 + 2*z^2 - 4*z^3 - 2*z^6 + 2*z^7",
+   "Q_num": [
+    -2.23606797749979,
+    -3.077683537175254
+   ],
+   "FV_exact": "1/5 - 3/5*z^2 + 4/5*z^3 + 2/5*z^6 - 3/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-4 - 4*z^3 - 2*z^6",
+   "Q_num": [
+    -3.618033988749895,
+    -4.97979656976556
+   ],
+   "FV_exact": "3/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    0.4999999999999999,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "4 + 4*z^3 + 2*z^6",
+   "Q_num": [
+    3.618033988749895,
+    4.97979656976556
+   ],
+   "FV_exact": "-3/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    -0.4999999999999999,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 2*z^2 - 2*z^3 + 2*z^7",
+   "Q_num": [
+    -7.23606797749979,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 2*z^2 + 2*z^3 - 2*z^7",
+   "Q_num": [
+    7.23606797749979,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2*z^2 - 2*z^6 - 2*z^7",
+   "Q_num": [
+    2.2360679774997894,
+    -3.077683537175253
+   ],
+   "FV_exact": "1/5 + 2/5*z^2 - 1/5*z^3 + 2/5*z^6 + 2/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2*z^2 + 2*z^6 + 2*z^7",
+   "Q_num": [
+    -2.2360679774997894,
+    3.077683537175253
+   ],
+   "FV_exact": "-1/5 - 2/5*z^2 + 1/5*z^3 - 2/5*z^6 - 2/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2 + 2*z^2 + 2*z^3 + 2*z^6 + 2*z^7",
+   "Q_num": [
+    -3.6180339887498945,
+    4.97979656976556
+   ],
+   "FV_exact": "2/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    0.5,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2 - 2*z^2 - 2*z^3 - 2*z^6 - 2*z^7",
+   "Q_num": [
+    3.6180339887498945,
+    -4.97979656976556
+   ],
+   "FV_exact": "-2/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    -0.5,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12 + 4*z^2 - 4*z^3 + 4*z^7",
+   "Q_num": [
+    -14.47213595499958,
+    -4.440892098500626e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12 - 4*z^2 + 4*z^3 - 4*z^7",
+   "Q_num": [
+    14.47213595499958,
+    4.440892098500626e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "2 - 6*z^2 + 2*z^3 - 6*z^7",
+   "Q_num": [
+    4.472135954999579,
+    -3.8042260651806137
+   ],
+   "FV_exact": "-1/10 + 4/5*z^2 - 2/5*z^3 - 1/5*z^6 + 4/5*z^7",
+   "FV_num": [
+    -0.30901699437494734,
+    0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-2 + 6*z^2 - 2*z^3 + 6*z^7",
+   "Q_num": [
+    -4.472135954999579,
+    3.8042260651806137
+   ],
+   "FV_exact": "1/10 - 4/5*z^2 + 2/5*z^3 + 1/5*z^6 - 4/5*z^7",
+   "FV_num": [
+    0.30901699437494734,
+    -0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-4 + 2*z^2 + 2*z^3 + 4*z^6 + 2*z^7",
+   "Q_num": [
+    -7.23606797749979,
+    6.155367074350507
+   ],
+   "FV_exact": "3/10 + 1/10*z^2 - 3/10*z^3 - 2/5*z^6 + 1/10*z^7",
+   "FV_num": [
+    0.49999999999999994,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "d5",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "4 - 2*z^2 - 2*z^3 - 4*z^6 - 2*z^7",
+   "Q_num": [
+    7.23606797749979,
+    -6.155367074350507
+   ],
+   "FV_exact": "-3/10 - 1/10*z^2 + 3/10*z^3 + 2/5*z^6 - 1/10*z^7",
+   "FV_num": [
+    -0.49999999999999994,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6",
+   "Q_num": [
+    -6.0,
+    0.0
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6",
+   "Q_num": [
+    6.0,
+    0.0
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6/5 - 18/5*z^2 + 24/5*z^3 + 12/5*z^6 - 18/5*z^7",
+   "Q_num": [
+    1.854101966249685,
+    2.5519524250561196
+   ],
+   "FV_exact": "-1/5 + 3/5*z^2 - 4/5*z^3 - 2/5*z^6 + 3/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    -0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6/5 + 18/5*z^2 - 24/5*z^3 - 12/5*z^6 + 18/5*z^7",
+   "Q_num": [
+    -1.854101966249685,
+    -2.5519524250561196
+   ],
+   "FV_exact": "1/5 - 3/5*z^2 + 4/5*z^3 + 2/5*z^6 - 3/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18/5 - 6/5*z^2 - 12/5*z^3 - 6/5*z^6 - 6/5*z^7",
+   "Q_num": [
+    -3.0000000000000004,
+    -4.12914576141352
+   ],
+   "FV_exact": "3/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    0.4999999999999999,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18/5 + 6/5*z^2 + 12/5*z^3 + 6/5*z^6 + 6/5*z^7",
+   "Q_num": [
+    3.0000000000000004,
+    4.12914576141352
+   ],
+   "FV_exact": "-3/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    -0.4999999999999999,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6",
+   "Q_num": [
+    -6.0,
+    0.0
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6",
+   "Q_num": [
+    6.0,
+    0.0
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6/5 - 12/5*z^2 + 6/5*z^3 - 12/5*z^6 - 12/5*z^7",
+   "Q_num": [
+    1.8541019662496836,
+    -2.55195242505612
+   ],
+   "FV_exact": "1/5 + 2/5*z^2 - 1/5*z^3 + 2/5*z^6 + 2/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6/5 + 12/5*z^2 - 6/5*z^3 + 12/5*z^6 + 12/5*z^7",
+   "Q_num": [
+    -1.8541019662496836,
+    2.55195242505612
+   ],
+   "FV_exact": "-1/5 - 2/5*z^2 + 1/5*z^3 - 2/5*z^6 - 2/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12/5 + 6/5*z^2 + 12/5*z^3 + 6/5*z^6 + 6/5*z^7",
+   "Q_num": [
+    -2.9999999999999996,
+    4.12914576141352
+   ],
+   "FV_exact": "2/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    0.5,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12/5 - 6/5*z^2 - 12/5*z^3 - 6/5*z^6 - 6/5*z^7",
+   "Q_num": [
+    2.9999999999999996,
+    -4.12914576141352
+   ],
+   "FV_exact": "-2/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    -0.5,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12",
+   "Q_num": [
+    -12.0,
+    0.0
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12",
+   "Q_num": [
+    12.0,
+    0.0
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6/5 - 48/5*z^2 + 24/5*z^3 + 12/5*z^6 - 48/5*z^7",
+   "Q_num": [
+    3.7082039324993685,
+    -3.154386672714801
+   ],
+   "FV_exact": "-1/10 + 4/5*z^2 - 2/5*z^3 - 1/5*z^6 + 4/5*z^7",
+   "FV_num": [
+    -0.30901699437494734,
+    0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6/5 + 48/5*z^2 - 24/5*z^3 - 12/5*z^6 + 48/5*z^7",
+   "Q_num": [
+    -3.7082039324993685,
+    3.154386672714801
+   ],
+   "FV_exact": "1/10 - 4/5*z^2 + 2/5*z^3 + 1/5*z^6 - 4/5*z^7",
+   "FV_num": [
+    0.30901699437494734,
+    -0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18/5 - 6/5*z^2 + 18/5*z^3 + 24/5*z^6 - 6/5*z^7",
+   "Q_num": [
+    -5.999999999999998,
+    5.10390485011224
+   ],
+   "FV_exact": "3/10 + 1/10*z^2 - 3/10*z^3 - 2/5*z^6 + 1/10*z^7",
+   "FV_num": [
+    0.49999999999999994,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "c",
+   "t": 14,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18/5 + 6/5*z^2 - 18/5*z^3 - 24/5*z^6 + 6/5*z^7",
+   "Q_num": [
+    5.999999999999998,
+    -5.10390485011224
+   ],
+   "FV_exact": "-3/10 - 1/10*z^2 + 3/10*z^3 + 2/5*z^6 - 1/10*z^7",
+   "FV_num": [
+    -0.49999999999999994,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6",
+   "Q_num": [
+    -6.0,
+    0.0
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6",
+   "Q_num": [
+    6.0,
+    0.0
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6/5 - 18/5*z^2 + 24/5*z^3 + 12/5*z^6 - 18/5*z^7",
+   "Q_num": [
+    1.854101966249685,
+    2.5519524250561196
+   ],
+   "FV_exact": "-1/5 + 3/5*z^2 - 4/5*z^3 - 2/5*z^6 + 3/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    -0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6/5 + 18/5*z^2 - 24/5*z^3 - 12/5*z^6 + 18/5*z^7",
+   "Q_num": [
+    -1.854101966249685,
+    -2.5519524250561196
+   ],
+   "FV_exact": "1/5 - 3/5*z^2 + 4/5*z^3 + 2/5*z^6 - 3/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18/5 - 6/5*z^2 - 12/5*z^3 - 6/5*z^6 - 6/5*z^7",
+   "Q_num": [
+    -3.0000000000000004,
+    -4.12914576141352
+   ],
+   "FV_exact": "3/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    0.4999999999999999,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18/5 + 6/5*z^2 + 12/5*z^3 + 6/5*z^6 + 6/5*z^7",
+   "Q_num": [
+    3.0000000000000004,
+    4.12914576141352
+   ],
+   "FV_exact": "-3/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    -0.4999999999999999,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6",
+   "Q_num": [
+    -6.0,
+    0.0
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6",
+   "Q_num": [
+    6.0,
+    0.0
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6/5 - 12/5*z^2 + 6/5*z^3 - 12/5*z^6 - 12/5*z^7",
+   "Q_num": [
+    1.8541019662496836,
+    -2.55195242505612
+   ],
+   "FV_exact": "1/5 + 2/5*z^2 - 1/5*z^3 + 2/5*z^6 + 2/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6/5 + 12/5*z^2 - 6/5*z^3 + 12/5*z^6 + 12/5*z^7",
+   "Q_num": [
+    -1.8541019662496836,
+    2.55195242505612
+   ],
+   "FV_exact": "-1/5 - 2/5*z^2 + 1/5*z^3 - 2/5*z^6 - 2/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12/5 + 6/5*z^2 + 12/5*z^3 + 6/5*z^6 + 6/5*z^7",
+   "Q_num": [
+    -2.9999999999999996,
+    4.12914576141352
+   ],
+   "FV_exact": "2/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    0.5,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12/5 - 6/5*z^2 - 12/5*z^3 - 6/5*z^6 - 6/5*z^7",
+   "Q_num": [
+    2.9999999999999996,
+    -4.12914576141352
+   ],
+   "FV_exact": "-2/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    -0.5,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12",
+   "Q_num": [
+    -12.0,
+    0.0
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12",
+   "Q_num": [
+    12.0,
+    0.0
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6/5 - 48/5*z^2 + 24/5*z^3 + 12/5*z^6 - 48/5*z^7",
+   "Q_num": [
+    3.7082039324993685,
+    -3.154386672714801
+   ],
+   "FV_exact": "-1/10 + 4/5*z^2 - 2/5*z^3 - 1/5*z^6 + 4/5*z^7",
+   "FV_num": [
+    -0.30901699437494734,
+    0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6/5 + 48/5*z^2 - 24/5*z^3 - 12/5*z^6 + 48/5*z^7",
+   "Q_num": [
+    -3.7082039324993685,
+    3.154386672714801
+   ],
+   "FV_exact": "1/10 - 4/5*z^2 + 2/5*z^3 + 1/5*z^6 - 4/5*z^7",
+   "FV_num": [
+    0.30901699437494734,
+    -0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18/5 - 6/5*z^2 + 18/5*z^3 + 24/5*z^6 - 6/5*z^7",
+   "Q_num": [
+    -5.999999999999998,
+    5.10390485011224
+   ],
+   "FV_exact": "3/10 + 1/10*z^2 - 3/10*z^3 - 2/5*z^6 + 1/10*z^7",
+   "FV_num": [
+    0.49999999999999994,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18/5 + 6/5*z^2 - 18/5*z^3 - 24/5*z^6 + 6/5*z^7",
+   "Q_num": [
+    5.999999999999998,
+    -5.10390485011224
+   ],
+   "FV_exact": "-3/10 - 1/10*z^2 + 3/10*z^3 + 2/5*z^6 - 1/10*z^7",
+   "FV_num": [
+    -0.49999999999999994,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18 + 6*z^2 - 6*z^3 + 6*z^7",
+   "Q_num": [
+    -21.708203932499366,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18 - 6*z^2 + 6*z^3 - 6*z^7",
+   "Q_num": [
+    21.708203932499366,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 6*z^2 + 12*z^3 + 6*z^6 - 6*z^7",
+   "Q_num": [
+    6.708203932499369,
+    9.23305061152576
+   ],
+   "FV_exact": "-1/5 + 3/5*z^2 - 4/5*z^3 - 2/5*z^6 + 3/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    -0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 6*z^2 - 12*z^3 - 6*z^6 + 6*z^7",
+   "Q_num": [
+    -6.708203932499369,
+    -9.23305061152576
+   ],
+   "FV_exact": "1/5 - 3/5*z^2 + 4/5*z^3 + 2/5*z^6 - 3/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    0.4253254041760201
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12 - 12*z^3 - 6*z^6",
+   "Q_num": [
+    -10.854101966249686,
+    -14.93938970929668
+   ],
+   "FV_exact": "3/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    0.4999999999999999,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12 + 12*z^3 + 6*z^6",
+   "Q_num": [
+    10.854101966249686,
+    14.93938970929668
+   ],
+   "FV_exact": "-3/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    -0.4999999999999999,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-18 + 6*z^2 - 6*z^3 + 6*z^7",
+   "Q_num": [
+    -21.708203932499366,
+    -2.220446049250313e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "18 - 6*z^2 + 6*z^3 - 6*z^7",
+   "Q_num": [
+    21.708203932499366,
+    2.220446049250313e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6*z^2 - 6*z^6 - 6*z^7",
+   "Q_num": [
+    6.708203932499368,
+    -9.23305061152576
+   ],
+   "FV_exact": "1/5 + 2/5*z^2 - 1/5*z^3 + 2/5*z^6 + 2/5*z^7",
+   "FV_num": [
+    -0.3090169943749474,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6*z^2 + 6*z^6 + 6*z^7",
+   "Q_num": [
+    -6.708203932499368,
+    9.23305061152576
+   ],
+   "FV_exact": "-1/5 - 2/5*z^2 + 1/5*z^3 - 2/5*z^6 - 2/5*z^7",
+   "FV_num": [
+    0.3090169943749474,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 6*z^2 + 6*z^3 + 6*z^6 + 6*z^7",
+   "Q_num": [
+    -10.854101966249683,
+    14.939389709296682
+   ],
+   "FV_exact": "2/5 - 1/5*z^2 - 2/5*z^3 - 1/5*z^6 - 1/5*z^7",
+   "FV_num": [
+    0.5,
+    -0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 6*z^2 - 6*z^3 - 6*z^6 - 6*z^7",
+   "Q_num": [
+    10.854101966249683,
+    -14.939389709296682
+   ],
+   "FV_exact": "-2/5 + 1/5*z^2 + 2/5*z^3 + 1/5*z^6 + 1/5*z^7",
+   "FV_num": [
+    -0.5,
+    0.6881909602355867
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-36 + 12*z^2 - 12*z^3 + 12*z^7",
+   "Q_num": [
+    -43.41640786499873,
+    -4.440892098500626e-16
+   ],
+   "FV_exact": "1",
+   "FV_num": [
+    1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "I",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "36 - 12*z^2 + 12*z^3 - 12*z^7",
+   "Q_num": [
+    43.41640786499873,
+    4.440892098500626e-16
+   ],
+   "FV_exact": "-1",
+   "FV_num": [
+    -1.0,
+    0.0
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "6 - 18*z^2 + 6*z^3 - 18*z^7",
+   "Q_num": [
+    13.416407864998737,
+    -11.41267819554184
+   ],
+   "FV_exact": "-1/10 + 4/5*z^2 - 2/5*z^3 - 1/5*z^6 + 4/5*z^7",
+   "FV_num": [
+    -0.30901699437494734,
+    0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-6 + 18*z^2 - 6*z^3 + 18*z^7",
+   "Q_num": [
+    -13.416407864998737,
+    11.41267819554184
+   ],
+   "FV_exact": "1/10 - 4/5*z^2 + 2/5*z^3 + 1/5*z^6 - 4/5*z^7",
+   "FV_num": [
+    0.30901699437494734,
+    -0.26286555605956663
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": false,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "-12 + 6*z^2 + 6*z^3 + 12*z^6 + 6*z^7",
+   "Q_num": [
+    -21.708203932499366,
+    18.46610122305152
+   ],
+   "FV_exact": "3/10 + 1/10*z^2 - 3/10*z^3 - 2/5*z^6 + 1/10*z^7",
+   "FV_num": [
+    0.49999999999999994,
+    -0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  },
+  {
+   "involution": "sigma*c",
+   "t": 11,
+   "sector": "d5r3",
+   "direction": "u3+u6",
+   "weld": "RRLL",
+   "twisted": true,
+   "L_exact": "0",
+   "L_is_zero": true,
+   "Q_exact": "12 - 6*z^2 - 6*z^3 - 12*z^6 - 6*z^7",
+   "Q_num": [
+    21.708203932499366,
+    -18.46610122305152
+   ],
+   "FV_exact": "-3/10 - 1/10*z^2 + 3/10*z^3 + 2/5*z^6 - 1/10*z^7",
+   "FV_num": [
+    -0.49999999999999994,
+    0.42532540417602
+   ],
+   "FV_equals_theta_form": true
+  }
+ ],
+ "verdicts": {
+  "sigma*": {
+   "law_holds": true,
+   "first_order_zero": true,
+   "forced_value_per_unit_norm": "1/(2 phi) + i sin(2pi/5)/sqrt5 (== B593 theta value)",
+   "independent_of_theta": false
+  },
+  "c": {
+   "law_holds": true,
+   "first_order_zero": true,
+   "forced_value_per_unit_norm": "1/(2 phi) + i sin(2pi/5)/sqrt5 (== B593 theta value)",
+   "independent_of_theta": false
+  },
+  "sigma*c": {
+   "law_holds": true,
+   "first_order_zero": true,
+   "forced_value_per_unit_norm": "1/(2 phi) + i sin(2pi/5)/sqrt5 (== B593 theta value)",
+   "independent_of_theta": false
+  }
+ },
+ "headline": "ALL THREE substituted constructions satisfy the second-order hearing law EXACTLY, and all three forced values per unit displacement norm COINCIDE with B593's theta value 1/(2 phi) + i sin(2pi/5)/sqrt5. No independent forced value exists on this face pair: a rigidity (degeneracy) theorem. The only involution dependence is the odd-unit norm N(delta) in {3, (5+sqrt5)/2, 3(5+sqrt5)/2} -- displacement normalization, not coupling data.",
+ "mixed_cross_term_exact": "u3'Wu6 + u6'Wu3 (RL twisted) = -2 i sin(pi/5)/sqrt5",
+ "demarcation": {
+  "off_dial_first_order_open": true,
+  "example": "c-odd displacement sqrt(-3)*e_(0,0), RL twisted",
+  "L_exact": "-4/5 - 8/5*z^2 + 4/5*z^3 - 4*z^5 + 12/5*z^6 - 8/5*z^7",
+  "L_num": [
+   -6.661338147750939e-16,
+   -2.8142622226719416
+  ]
+ },
+ "alt_twist_reading": "Galois-conjugating the weld gives sigma(v'Wv): the orbit of the banked value is {A, conj(A)} -- the already-banked u3/u6 pair"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B528",
+ "verdict": "PROVED",
+ "claim_one_line": "T[4_1]'s 3d-3d gauge group is abelian U(1), computed from the Neumann-Zagier datum; the 'U(N-1) nonabelian generic gauge' reading is a structure-group conflation.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

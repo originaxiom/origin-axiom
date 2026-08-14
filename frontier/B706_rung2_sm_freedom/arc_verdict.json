@@ -1,0 +1,10 @@
+{
+ "id": "B706",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "NO-MATCH at both rungs: SM flavor ratios carry no low-height relation over Q(sqrt5), and the object's discrete F_2 seam freedom is a kind mismatch with the SM's continuous flavor moduli.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

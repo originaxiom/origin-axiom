@@ -1,0 +1,10 @@
+{
+ "id": "B782",
+ "verdict": "PROVED",
+ "claim_one_line": "The measurement torsor's 8 closings carry a free transitive (Z/2)^3-action (verified exhaustively), so it admits no equivariant section: no process internal to the object's symmetry group computes the choice of closing.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

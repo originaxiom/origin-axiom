@@ -25,12 +25,40 @@ def test_monodromy_is_hyperbolic_not_a_bang():
     assert tr == 3 and tr > 2 and det == 1
 
 def test_two_zz2_have_opposite_canonicity():
-    # the adjudication's spine: amphichirality is canonical, the fiber torsor is not
-    amphichirality_canonical = True      # K=Kbar fixes the geometric slice (CS=0)
-    fiber_torsor_canonical = False       # B701: sqrt5->-sqrt5 has no fixed basepoint
-    turok_cpt_canonical = True           # fixes the bang
-    assert turok_cpt_canonical == amphichirality_canonical      # marriage reaches A
-    assert turok_cpt_canonical != fiber_torsor_canonical        # INVERTS B
+    """Canonical <=> the Z/2 has a NON-EMPTY fixed set. Computed, 2026-07-29.
+
+    This test used to be three hand-set booleans compared to one another --
+    `turok_cpt_canonical == amphichirality_canonical` where both were literally `True`, and
+    `!= fiber_torsor_canonical` where that was literally `False`. It held for ANY assignment of
+    those three names, so the adjudication's spine was locked by its own transcription.
+    B709's mechanism is a fixed-point question, so compute the fixed sets instead.
+
+    Turok's own side stays a CITED premise (B710: method-only, thimble-level) -- it is not
+    recomputed here, and the object-side content is the CONTRAST between the two Z/2's."""
+    import sympy as sp
+    sqrt5, sqrt3 = sp.sqrt(5), sp.sqrt(3)
+
+    # Z/2-B, the fiber-functor torsor: gamma5 (sqrt5 -> -sqrt5) on the 5A/5B basepoint pair.
+    g5 = lambda e: sp.simplify(e.subs(sqrt5, -sqrt5))
+    phi = (1 + sqrt5) / 2
+    pair = [phi - 1, -phi]                                   # chi_5A, chi_5B
+    assert sp.simplify(g5(pair[0]) - pair[1]) == 0           # gamma5 SWAPS the two basepoints
+    assert sp.simplify(g5(pair[1]) - pair[0]) == 0
+    fixed_B = [p for p in pair if sp.simplify(g5(p) - p) == 0]
+    assert fixed_B == [], f"Z/2-B must have NO fixed basepoint, got {fixed_B}"
+
+    # Z/2-A, amphichirality: conjugation c on the trace field Q(sqrt-3). Its fixed set is the
+    # real locus, which is NON-empty -- the geometric slice (CS = 0) is a rational point there.
+    c = lambda e: sp.simplify(sp.conjugate(e))
+    omega = sp.Rational(-1, 2) + sp.I * sqrt3 / 2
+    candidates = [sp.Integer(0), sp.Integer(1), omega]       # CS=0 and 1 are real; omega is not
+    fixed_A = [z for z in candidates if sp.simplify(c(z) - z) == 0]
+    assert sp.simplify(c(omega) - omega) != 0                # c genuinely acts (not the identity)
+    assert sp.Integer(0) in fixed_A                          # the CS=0 slice IS fixed
+    assert len(fixed_A) == 2, f"real locus non-empty; got {fixed_A}"
+
+    # The spine: opposite canonicity, now a CONSEQUENCE of the two fixed sets.
+    assert (len(fixed_A) > 0) != (len(fixed_B) > 0)
 
 def test_dimensionful_no_go():
     # N(v0)=-6 dimensionless; a mass is dimensionful; no scale in the program (S3/B615)

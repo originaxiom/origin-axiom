@@ -1,0 +1,10 @@
+{
+ "id": "B265",
+ "verdict": "PROVED",
+ "claim_one_line": "The {4,8} deformation directions are E6-Zariski-dense (generate all 78 of e₆), establishing E6-irreducible flat connections on the figure-eight near ρ_prin.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B136",
+ "verdict": "PROVED",
+ "claim_one_line": "Any once-punctured-torus bundle is amphichiral iff its block-pair sequence is fixed by reverse-order-plus-component-swap up to cyclic rotation; the metallic recursion is the special case.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

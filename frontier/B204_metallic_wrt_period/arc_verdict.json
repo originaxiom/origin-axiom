@@ -1,0 +1,10 @@
+{
+ "id": "B204",
+ "verdict": "PROVED",
+ "claim_one_line": "A closed-form WRT level-period law holds for ALL once-punctured-torus bundles, with the metallic family as its diagonal; mechanism identified as Gauss-sum reciprocity.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B525",
+ "verdict": "PROVED",
+ "claim_one_line": "Adversarial re-audit cracked three banked negatives, retracting B519's 'no external crossing' headline and the C3 causal nugget, while the master negative survived.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": "B519",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated; verdict corrected by B818"
+}

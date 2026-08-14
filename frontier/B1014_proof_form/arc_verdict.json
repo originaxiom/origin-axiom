@@ -1,0 +1,29 @@
+{
+ "id": "B1014",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAGE -- executing two owner decisions (approved and confirmed). (1) PROOF-AS-DERIVATION IS CLOSED: docs/THE_CLAIM.md section 1 states THE DERIVATION THEOREM as one theorem -- hypotheses = the counted input list (A1-A6 + A7's bit; two F_2 bits, one scale, one Lie type; B1000/S4), conclusion = the SM structural skeleton as a graded table with every arrow banked: u(1)^3 = span(Y,chi,psi) COMPUTED (B992), the global Z_6 form DERIVED -- a choice the SM cannot make about itself (B862), the hypercharge direction DERIVED with the normalisation impossible for everyone (B864/B991), termination THEOREM (B863), endpoint rule-independence THEOREM -- all six registerable chains end at the SM (B994), matter mass in the cubic THEOREM (B978/B884/B987), theta-structure CS = 0 THEOREM (B303), no dimensionful quantity BY THEOREM (B811/B1012), and the generation structure STRUCTURAL (B897/B928) -- a STRUCTURAL grade being a named debt inside a closed proof, not a hole in an open one. The controls are stated IN the claim: waypoint genericity (B993/B996), grammar uniqueness (B997/B1002), endpoint discrimination honestly UNCOMPUTED (L149). (2) THE ANCHOR DOCTRINE, the owner's bridge principle, is NOT a relaxation but LICENSED BY THE FRAMEWORK'S OWN THEOREMS: B782 (no equivariant section computes the closing choice), B936 (values frame-relative), B1012 (dS/dk = -CS = 0) -- a theory whose values live in the observer-object coupling and which then supplied its own coupling frame would be INCONSISTENT, so a bridge datum is predicted-necessary. Codified as CROSSING_REQUIREMENTS R11 with three teeth: anchor identity SEALED IN ADVANCE (a post-hoc anchor is a fit); independent dimensionless outputs minus dimensionless anchors > 0 else vacuous (MB12 applied to anchoring); the anchor CHOICE priced in the look-elsewhere ledger. PARAMETER-FREE RETAINS ITS EXACT BANKED MEANING: ZERO FREE DIMENSIONLESS PARAMETERS -- an anchor declared in advance and subtracted from the score is not free. Worked precedent: B915's single declared input, the observer's own probe. Preparation step 0 added: declare the anchor set BEFORE L150/L149, since the junction's frame question and the anchor choice interact. (3) L151 REGISTERED -- the anchor budget as a structural prediction: the input typing derives the R11 allowance (the bits and Lie type are discrete; one dimensionful + at most one dimensionless frame anchor remain), and if the minimal working anchor set MATCHES the derived allowance, the accounting itself is a consistency theorem nobody designed; two-outcome, kind gate first. WHAT IT DOES NOT DO: weaken any gate; touch the value wall's nulls; claim Tier 2 -- the claim page's section 3 says the wall is real and names the road, not a crossing; and the deflationary controls are kept IN the claim because they are what make the surviving statement credible. The one-sentence claim: given four typed external data and at most two declared anchors, a single forced combinatorial object determines the Standard Model's structural skeleton -- including a global-form refinement the SM cannot fix about itself -- determines no dimensionful quantity by theorem, and leaves exactly one tested wall, on which it names its own next test.",
+ "depends_on": [
+  "B1013",
+  "B1012",
+  "B1011",
+  "B1000",
+  "B994",
+  "B992",
+  "B991",
+  "B978",
+  "B963",
+  "B936",
+  "B915",
+  "B897",
+  "B884",
+  "B864",
+  "B863",
+  "B862",
+  "B782",
+  "B303"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10); the owner's two decisions, executed"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B776",
+ "verdict": "PROVED",
+ "claim_one_line": "B685's Habiro leg is corroborated from first principles: the symmetrized product is pure-3 through order 50 with no 5 or 7 in any denominator.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

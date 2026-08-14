@@ -1,0 +1,10 @@
+{
+ "id": "B96",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Neumann-Zagier volume Hessian at the complete structure is negative definite (0,2), closing the Lorentzian-emergence reading; volumes rise monotonically with m.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

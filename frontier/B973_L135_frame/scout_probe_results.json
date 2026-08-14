@@ -1,0 +1,31 @@
+{
+ "ad16_kills_z_g8": true,
+ "centre_of_derived_floor": 0,
+ "charges_inside_floor": true,
+ "derived_floor_is_perfect": true,
+ "dim_derived_floor": 8,
+ "dim_derived_of_derived": 8,
+ "dim_floor": 12,
+ "dim_z_g8": 30,
+ "floor_centre_dim": 4,
+ "floor_killed_by_g16": true,
+ "floor_killed_by_g22": true,
+ "frame_gram_det_is_rational_square": true,
+ "frame_gram_diagonal": true,
+ "frame_gram_diagonal_entries": [
+  "241532928",
+  "-317708697600",
+  "988843239014400/13",
+  "-889958915112960000/19"
+ ],
+ "frame_gram_signs": [
+  1,
+  -1,
+  1,
+  -1
+ ],
+ "frame_signature": [
+  2,
+  2
+ ]
+}

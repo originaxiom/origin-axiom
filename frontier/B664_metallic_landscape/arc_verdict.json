@@ -1,0 +1,10 @@
+{
+ "id": "B664",
+ "verdict": "PROVED",
+ "claim_one_line": "The metallic hearing landscape has closed form |tr_odd(n)| = (2sqrt3/D)|cos(pi(4n-5)/10)|, values {0,1/phi,1}, period 5; chat1's uniqueness criteria are refuted.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

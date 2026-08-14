@@ -1,0 +1,10 @@
+{
+ "id": "B21",
+ "verdict": "PROVED",
+ "claim_one_line": "Under the Goldman/Weil-Petersson bracket from Fricke-Vogt, the half-step trace map is anti-Poisson and its square is Poisson.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

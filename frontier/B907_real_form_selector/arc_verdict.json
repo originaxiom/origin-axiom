@@ -1,0 +1,16 @@
+{
+ "id": "B907",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE SEALED CELL DECIDES -- OUTCOME A: THE WALL IS REAL IN e6(2), AND ONLY THERE (the joint J1 with the solo seat's XLIX-L leg; prereg cd7aae3b committed f0450d71 BEFORE compute, seal verified): sweeping all 128 frame-diagonal inner and tau-composite outer involution representatives -- the diagram flip tau constructed exactly via the general F2-cocycle solve (rank 66, zero violations; the flip-symmetric-character ansatz provably empty) -- EXACTLY TWO are C-compatible and wall-real (the sealed criterion eps14 = +1 and eps16 = -1): an outer pair related by global negation with pattern (-1,+1,-1,+1), each verified phi^2 = id, and for BOTH the composite phi o omega has fixed dimension 38 = su(6)+su(2): THE FORM IS e6(2), THE QUATERNIONIC FORM. All 27 diagonal representatives of the so(10)+u(1) class fail C-compatibility (the e6(-14) obstruction, banked); no standard alignment works (the solo seat's leg, confirmed and explained -- the wall-real conjugations are tau-twisted). THE DISCLOSED PRIOR (e6(-14)) WAS WRONG -- the third sealed cell to decide against its prior. Two bugs caught en route: the empty character ansatz, and a Rayleigh-quotient census on non-normal matrices (the oblique readout rule violated a fourth time, caught by contradiction with exact automorphisms). Completeness beyond the swept representatives is the registered follow-up. FENCED: e6(2)'s compact structure supplies the canonical Hermitian norm -- the value ladder's gate now has a name; Gate 5 untouched.",
+ "depends_on": [
+  "B854",
+  "B892",
+  "B893",
+  "B898",
+  "B901"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, joint with the solo seat (2026-08-05)"
+}

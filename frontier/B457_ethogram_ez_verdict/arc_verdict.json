@@ -1,0 +1,10 @@
+{
+ "id": "B457",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Both preregistered gates fail on the frozen ethogram catalog (EZ-2: 6 hits vs null mean 4.0, p=0.168; 0 of 3 structural predicates), so H0a is earned — the behavior catalog is class-generic or whitelist-laundered.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

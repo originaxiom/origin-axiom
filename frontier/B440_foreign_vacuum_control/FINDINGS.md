@@ -1,5 +1,7 @@
 # B440 — C3 foreign control: the SL(2,C) vacuum spectra of K(5,1) — no figure-eight-unique feature
 
+> **CORRECTION (B855, 2026-08-02): the phrase "commensurability" applied to {4₁, 5₂} in this arc is WRONG, and it inverts in the dangerous direction.** By **Reid**, 4₁ is the **unique arithmetic knot complement** in S³, and commensurability preserves arithmeticity, so **NO knot complement is commensurable with 4₁** — verified: itf(4₁) = x²−x+1 (disc −3), itf(5₂) = x³−x−1 (disc −23). A property **shared with 5₂ is shared across NON-commensurable manifolds**, which is *genericity evidence*; labelling it "commensurability-shared" recodes it as **forced** and protects it from the reading it actually supports. The genuine fact underneath is narrower and better: **at slope 5 only**, two non-commensurable parents give the same child, 4₁(5,1) ≅ −5₂(5,1) (B467 `f3_wall.py`). The arc's computations stand; only the commensurability label is withdrawn.**
+
 **Status: banked (C3 complete), then CORRECTED (2026-07-05, adversarial review). The raw
 character-variety polynomials stand; the READING was wrong — the "golden inversion" is retracted
 as an artifact (see §CORRECTION). The corrected verdict is a cleaner, stronger negative.

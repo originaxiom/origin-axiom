@@ -1,0 +1,10 @@
+{
+ "id": "B79",
+ "verdict": "PROVED",
+ "claim_one_line": "The (m,n) degree table shows d=rank on every cell the rep-search reaches (m=1 at n=3,4; m=3 at n=3), with no cell contradicting it.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

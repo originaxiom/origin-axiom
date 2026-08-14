@@ -1,0 +1,10 @@
+{
+ "id": "B202",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No silver SL(3) component carries a tidy A-variety relation [A,B]=c*mu^k, so the figure-eight's M^3=L is non-generic in the metallic family.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

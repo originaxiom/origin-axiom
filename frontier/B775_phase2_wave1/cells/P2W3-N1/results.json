@@ -1,0 +1,114 @@
+{
+ "e_n_mod5": [
+  4,
+  4,
+  1,
+  1,
+  4,
+  1,
+  1,
+  4,
+  4,
+  1
+ ],
+ "e_n_mod7": [
+  6,
+  3,
+  3,
+  3,
+  6,
+  4,
+  2,
+  3,
+  5,
+  1
+ ],
+ "e_n_exact_small": {
+  "1": "-11",
+  "2": "-809",
+  "3": "-18845089",
+  "4": "-228654672055316545291",
+  "5": "-14551745085338356602787456737044854593029948485574326872937769"
+ },
+ "norm_route_mod5": [
+  4,
+  1,
+  1,
+  4,
+  1
+ ],
+ "norm_route_mod7": [
+  3,
+  3,
+  3,
+  6,
+  4
+ ],
+ "routes_agree": true,
+ "squares_mod5": [
+  0,
+  1,
+  4
+ ],
+ "all_e_mod5_are_squares": true,
+ "residues_hit_mod5": [
+  1,
+  4
+ ],
+ "residues_excluded_mod5": [
+  0,
+  2,
+  3
+ ],
+ "squares_mod7": [
+  0,
+  1,
+  2,
+  4
+ ],
+ "nonsquares_hit_mod7": [
+  3,
+  5,
+  6
+ ],
+ "residues_hit_mod7": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "residues_excluded_mod7": [
+  0
+ ],
+ "5_divides_any_e_in_range": false,
+ "7_divides_any_e_in_range": false,
+ "matrix_range_Nmax": 9,
+ "forward_orbit_maxdeg_mod5": [
+  2,
+  4,
+  8,
+  8,
+  8,
+  16,
+  16,
+  32,
+  64
+ ],
+ "forward_orbit_maxdeg_mod7": [
+  4,
+  8,
+  16,
+  32,
+  64,
+  128,
+  128,
+  256
+ ],
+ "verdict": "UNRESOLVED",
+ "terminal_state": "WALLED: partial residue-exclusion PROVEN (e_n mod5 in {0,1,4}, residues 2,3 excluded, via golden-norm + ramification); full 0-exclusion & eventual periodicity obstructed by the unbounded forward doubling-orbit degree (no finite-state / Lucas reduction). No counterexample.",
+ "proven_exclusion_mod5_residues_2_3": true,
+ "orbit_field_degree_unbounded": true,
+ "elapsed_sec": 36.5
+}

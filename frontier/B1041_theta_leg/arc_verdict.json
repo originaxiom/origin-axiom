@@ -1,0 +1,10 @@
+{
+ "id": "B1041",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "PM1 / L160's theta-leg (sealed 165d8ef5 pre-compute): the three (Z/2)^3 cubes -- Galois (B704), operations (B766), closings (B782) -- are ONE cube at direction level, EXHIBITED: the coordinate-permutation dictionary is IMPOSSIBLE (0/6 exhaustive; c flips two axes, sigma_{-3} flips one radical -- the typed obstruction), but the linear intertwiner exists, is UNIQUE given the banked generator assignment Phi (c->s-3 via gamma3==c; gamma5->s5 via time's-arrow=sqrt5's-sign; theta->s-7 by elimination), is invertible, and all 8 affine liftings pass the full 3x8 equivariance table -- the 8-fold freedom IS B782's no-canonical-point, so the iso is canonical at group/direction level with no section smuggled. THE PAIRING UNDER TEST HOLDS: theta <-> sqrt(-7); the E6 leg IS carried by the observer's operations. THE DIAGONAL (new structure): chirality's side = the being(+)E6 diagonal s-3+s-7, the chord's direction = s-7 PURE while its geometric value is sqrt3 -- the seal's tension resolves to basis-color (value-flavor and torsor-direction are different attributes, first banked instance). B757-shape fenced: the bare existence is torsor-generic zero bits; what banks is the 0/6 obstruction + L's unique form + the pin consistency + rank-3 re-entry. L160 CLOSES; L158 gains its template-half morphism; P6's fourth-level stake passes in sharper form (the exhibition itself splits template/selection). Gate 5 clean.",
+ "depends_on": ["B766", "B782", "B704", "B733", "B1040"],
+ "supersedes": null,
+ "superseded_by": null,
+ "locks": ["tests/test_b1041_theta_leg.py"]
+}

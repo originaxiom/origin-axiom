@@ -1,5 +1,15 @@
 # THE PATHFINDER PROMPT (self-directive, 2026-07-21)
 
+> **NOTE ADDED 2026-08-08 (B948).** This is a dated handoff and is kept as written. Two
+> readings below need the reader to know B942: the **B736-P2 obstruction** ("the β=1 SSB IS
+> the pole of ζ_{ℚ(√−3)}") is a mathematical fact and was **independently re-verified** in
+> B942 cell 3(a) — it stands. But the **observer identification** built on it does not: B942
+> retracted chirality-as-Galois-label and with it β=1 cooling as an account of chirality, so
+> any Candidate-Zero reading that routes chirality through the SSB is downstream of a dead
+> clause. The observer's mechanism is **open**.
+
+
+
 *Written by the banking seat for itself / a fresh seat, at the owner's direction. Companion to
 `NEGATIVES_HUNT_HANDOFF_2026-07-21.md` (the hunt is the excavation; this is the targeting system).*
 

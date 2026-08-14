@@ -1,0 +1,133 @@
+{
+ "amphichiral": {
+  "m003": true,
+  "m004": true,
+  "m009": false,
+  "m015": false,
+  "m129": false,
+  "m135": true,
+  "m136": true
+ },
+ "candidate_nulls": [
+  {
+   "cusps": 1,
+   "name": "m009",
+   "ratio_O1": "8.73420836023",
+   "ratio_O3": "15.7649155376",
+   "volume": 2.666744783449059
+  },
+  {
+   "cusps": 1,
+   "name": "m010",
+   "ratio_O1": "8.73420836023",
+   "ratio_O3": "15.7649155376",
+   "volume": 2.6667447834490603
+  },
+  {
+   "cusps": 1,
+   "name": "m015",
+   "ratio_O1": "9.2627565041",
+   "ratio_O3": "16.718924934",
+   "volume": 2.8281220883307827
+  },
+  {
+   "cusps": 1,
+   "name": "m022",
+   "ratio_O1": "9.79006297376",
+   "ratio_O3": "17.6706931555",
+   "volume": 2.989120282929485
+  },
+  {
+   "cusps": 1,
+   "name": "m023",
+   "ratio_O1": "9.79006297376",
+   "ratio_O3": "17.6706931555",
+   "volume": 2.9891202829294845
+  },
+  {
+   "cusps": 1,
+   "name": "m039",
+   "ratio_O1": "10.4063732267",
+   "ratio_O3": "18.7831098373",
+   "volume": 3.1772932786003265
+  },
+  {
+   "cusps": 1,
+   "name": "m040",
+   "ratio_O1": "10.4063732267",
+   "ratio_O3": "18.7831098373",
+   "volume": 3.177293278600327
+  },
+  {
+   "cusps": 1,
+   "name": "m006",
+   "ratio_O1": "8.41397521021",
+   "ratio_O3": "15.1869068213",
+   "volume": 2.5689706009367086
+  },
+  {
+   "cusps": 1,
+   "name": "m007",
+   "ratio_O1": "8.41397521021",
+   "ratio_O3": "15.1869068213",
+   "volume": 2.5689706009367086
+  }
+ ],
+ "covolumes": {
+  "-3": "0.169156934401608938",
+  "-4": "0.305321864725739672"
+ },
+ "family_rows": 2,
+ "panel": [
+  {
+   "field_disc": -3,
+   "index": "11.9999999999999985",
+   "index_is_12": true,
+   "name": "m004",
+   "note": "GOLDEN m=1 -- the object",
+   "volume": "2.029883212819307"
+  },
+  {
+   "field_disc": -3,
+   "index": "11.9999999999999985",
+   "index_is_12": true,
+   "name": "m003",
+   "note": "the sister",
+   "volume": "2.029883212819307"
+  },
+  {
+   "field_disc": -3,
+   "index": "24.000000000000003",
+   "index_is_12": false,
+   "name": "m206",
+   "note": "used as a witness in B723",
+   "volume": "4.059766425638615"
+  },
+  {
+   "field_disc": -4,
+   "index": "11.9999999999999998",
+   "index_is_12": true,
+   "name": "m136",
+   "note": "SILVER m=2 -- the family's second row",
+   "volume": "3.663862376708876"
+  },
+  {
+   "field_disc": -4,
+   "index": "11.9999999999999998",
+   "index_is_12": true,
+   "name": "m129",
+   "note": "proposed by cc as a NON-commensurable null",
+   "volume": "3.663862376708876"
+  },
+  {
+   "field_disc": -4,
+   "index": "11.9999999999999998",
+   "index_is_12": true,
+   "name": "m135",
+   "note": "",
+   "volume": "3.663862376708876"
+  }
+ ],
+ "reid": "Reid 1991: the figure-eight is the unique arithmetic knot complement in S^3. Since commensurability preserves arithmeticity, NO other knot complement is commensurable with 4_1. In particular 4_1 and 5_2 are NOT commensurable.",
+ "repo_has_null_noncommensurable_with_both_rows": false
+}

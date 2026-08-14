@@ -1,0 +1,10 @@
+{
+ "id": "B564",
+ "verdict": "PROVED",
+ "claim_one_line": "The SL(3) phi-fixed locus contains no irreducible representation: phi-fixedness pins A to finite order, which forces the intertwiner to split block-diagonally.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

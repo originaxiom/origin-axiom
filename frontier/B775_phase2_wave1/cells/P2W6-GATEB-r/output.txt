@@ -1,0 +1,133 @@
+PASS  A1: 2T = 24 Hurwitz units, 7 conjugacy classes, sizes sum to 24
+PASS  A2: eps: 2T -> Z/3 is a homomorphism (all 576 pairs, exact)
+PASS  A3: ker(eps) = Q8; Hom(2T, mu_3) = Z/3 (the twist group is NON-trivial)
+PASS  A4: character table derived + gated orthonormal, sum dim^2 = 24
+PASS  A5: exactly 4 of the 7 classes have eps != 0, of orders [3, 3, 6, 6] (the two order-3 and the two order-6 classes) -- these are the classes the rigidity criterion R1 reads
+PASS  B1: rho2 is a homomorphism 2T -> SU(2) (all 576 pairs, exact)
+PASS  B2: rho3 and rho3_sl2 land in SU(3) (det 1, unitary; all 24 elements, exact)
+PASS  B3: w^3 = 1 (the mu_3 centre of E6)
+PASS  B4: <i, (1+i+j+k)/2> = 2T (generators verified by closure)
+PASS  B5: I3 invariant under the balanced route (symbolic, 27 vars, both generators)
+PASS  B6: I3 invariant under the central scalar w.Id (so every mu_3 twist stays in E6)
+PASS  B7: I3 invariant under the CHIRAL witness (symbolic, 27 vars, both generators)
+PASS  B8: I3 invariant under the SL(2)-route 3=1+2 AND under its twist (symbolic, 27 vars) -- so the Y4 counterexample is a GENUINE E6 subgroup, not a formal character
+PASS  B9: the chiral witness rho' = w^eps . Pb is an injective homomorphism (exact)
+PASS  C0 (consistency of the CITED principal content): dim 17+9+1 = 27; the E6 exponents give sum(2m+1) = 78; and 27 (x) 27* contains the adjoint 78 and a singlet exactly, with remainder of dimension 650
+
+  class reps  order/eps/size : [(1, 0, 1), (2, 0, 1), (3, 1, 4), (3, 2, 4), (4, 0, 6), (6, 2, 4), (6, 1, 4)]
+
+  route                                                       27|_2T                                        (n1,n2)   self-dual
+  principal SL2 (THE OBJECT'S ROUTE, cited B329a/B347/B351/B352/B353) {'1': 3, "1'": 3, "1''": 3, '3': 6}           (3, 3)    True
+  principal (x) 1'                                           {'1': 3, "1'": 3, "1''": 3, '3': 6}           (3, 3)    True
+  principal (x) 1''                                          {'1': 3, "1'": 3, "1''": 3, '3': 6}           (3, 3)    True
+  balanced trinification (canonical, B329b)                  {'1': 9, "1'": 3, "1''": 3, "2'": 3, "2''": 3} (0, 0)    True
+  balanced (x) 1'  = THE CHIRAL WITNESS (OI-173)             {'1': 3, "1'": 9, "1''": 3, '2': 3, "2''": 3} (9, 0)    False
+  balanced (x) 1''                                           {'1': 3, "1'": 3, "1''": 9, '2': 3, "2'": 3}  (0, 9)    False
+  SL(2)-route 3 = 1+2 (non-principal)                        {'1': 15, '2': 6}                             (0, 0)    True
+  SL(2)-route (x) 1'                                         {"1'": 15, "2'": 6}                           (9, 0)    False
+
+PASS  C1: the two CANONICAL routes reproduce Gate B (OI-128): principal 3.1+3.1'+3.1''+6.3 with n1=n2=3; balanced 9.1+3.1'+3.1''+3.2'+3.2'' with n1=n2=0
+PASS  C2 (UPHELD, recomputed): the CHIRAL WITNESS is REAL -- 27|H' = 3.1+9.1'+3.1''+3.2+3.2'', non-real character, n1 = 9 != n2 = 0.  The clean theorem is FALSE and stays falsified.
+PASS  R1: CRITERION -- rho (x) 1'^k = rho for all k  <=>  chi_rho vanishes on every eps != 0 class.  Verified in BOTH directions on all 8 routes; and the criterion is non-vacuous (both outcomes actually occur in the table).
+PASS  R2: TWIST-RIGID => the mu_3-torsor COLLAPSES to a single iso class => every member carries rho's own (n1,n2); a rigid SELF-DUAL route therefore has NO chiral member in its torsor.  Verified route-by-route (rigid <=> collapsed on all 8; and every rigid self-dual route has 0 chiral members).
+  twist torsors (route | rigid | collapsed | (n1,n2) of the 3 members | #chiral members)
+    principal SL2 (THE OBJECT'S ROUTE, cited B329a/B347/B351/B352/B353) True   True   [(3, 3), (3, 3), (3, 3)]       0
+    principal (x) 1'                                           True   True   [(3, 3), (3, 3), (3, 3)]       0
+    principal (x) 1''                                          True   True   [(3, 3), (3, 3), (3, 3)]       0
+    balanced trinification (canonical, B329b)                  False  False  [(0, 0), (9, 0), (0, 9)]       2
+    balanced (x) 1'  = THE CHIRAL WITNESS (OI-173)             False  False  [(9, 0), (0, 9), (0, 0)]       2
+    balanced (x) 1''                                           False  False  [(0, 9), (0, 0), (9, 0)]       2
+    SL(2)-route 3 = 1+2 (non-principal)                        False  False  [(0, 0), (9, 0), (0, 9)]       2
+    SL(2)-route (x) 1'                                         False  False  [(9, 0), (0, 9), (0, 0)]       2
+
+PASS  R3 (THE DISCRIMINATING FACT): the OBJECT'S route is TWIST-RIGID -- chi_principal = 0 on every eps != 0 class (exact: [0, 0, 0, 0]), so its mu_3-twist torsor collapses to itself and all three members have (n1,n2) = (3,3).  OI-173's construction applied to the object's own route returns the object's own route: Level 3 is unreachable along it.
+PASS  R4a (Y4 NON-VACUITY): twist-rigidity is NOT entailed by 'SL(2)-route'.  The non-principal SL(2)-route 3 = 1+2 is a genuine I3-invariant embedding (B8), is self-dual with (n1,n2) = (0,0), is NOT twist-rigid, and its twist is CHIRAL with (n1,n2) = (9, 0).
+PASS  R4b: twist-rigidity is NOT entailed by 'theta-compatible / inside F4'.  The balanced trinification route is self-dual and fixes a point of nonzero cubic (E1 table below, i.e. it sits pointwise inside a conjugate of F4 = E6^theta) -- and it is NOT twist-rigid: its twist IS the chiral witness.
+PASS  R4c: twist-rigidity is NOT entailed by 'self-dual / n1 = n2'.  3 of the 5 self-dual routes in the table are rigid -- the property strictly refines self-duality.
+PASS  R4d (THE FIX FOR L3): R3 is NOT a corollary of the witness's chirality.  Deleting every witness- and twist-derived row from the route table leaves R3 intact (recomputed: True) -- R3 reads only chi_principal on the eps != 0 classes.  (Contrast the two DEMOTED arguments of section E, which read the witness's chirality and nothing else.)
+PASS  R4e-0: the mod-6 tables for U_{d-1}(+-1/2) agree with sympy's Chebyshev U for d = 1..30
+PASS  R4e (CENSUS): of all 3010 27-dimensional SU(2)-reps (partitions of 27), only 208 (6.9%) restrict to a twist-rigid 2T-rep.  Rigidity is two independent linear conditions on the part-counts mod 6 -- a strict arithmetic property of the individual route, NOT a property of the class 'SL(2)-route'.
+PASS  E0: det Hess I3(v) = 2 * I3(v)^9 -- re-confirmed EXACTLY at 5 integer points, ratio {2}.  This is the identity that COLLAPSES the two 'independent reasons': 'H fixes a v with I3(v) != 0'  <=>  'H preserves a nondegenerate symmetric form on the 27'  <=>  '27|H is self-dual'  <=>  'n1 = n2'.
+  DEMOTED corollary table (route | chiral? | fixes a point with I3 != 0? | dim Fix)
+    balanced trinification (canonical, B329b)                  False   True    9
+    balanced (x) 1'  = THE CHIRAL WITNESS (OI-173)             True    False   3
+    balanced (x) 1''                                           True    False   3
+    SL(2)-route 3 = 1+2 (non-principal)                        False   True    15
+    SL(2)-route (x) 1'                                         True    False   0
+
+PASS  E1 (DEMOTION, the named defect): 'the witness lies in no conjugate of F4' is a ONE-STEP COROLLARY of 'the witness is chiral'.  Across all 5 matrix-realized routes, chirality and 'fixes no point of nonzero cubic' are EXACTLY anti-correlated -- the two facts carry the same information (via E0).  It is NOT an independent reason and is not read by the verdict.
+PASS  E2 (DEMOTION): 'the witness factors through no SL(2,C) < E6' is likewise a one-step corollary -- every SL(2)-route restricts the 27 to self-dual SL(2)-irreps hence n1 = n2 (verified on 2 independent SL(2)-routes), so 'not self-dual' immediately gives it.  Also not read by the verdict.
+PASS  V0 (the repair, mechanically checked): the verdict function reads ONLY ['witness_is_real', 'object_route_pinned', 'object_route_selfdual', 'twist_group_nontrivial', 'object_route_twist_rigid', 'rigidity_not_forced'] and reads NEITHER of the two demoted facts ['witness_outside_F4', 'witness_not_sl2'].  The closure now rests on twist-rigidity alone.
+PASS  V1: [Q8,Q8] = {+-1} so Q8^ab has order 4, coprime to 3 => Hom(Q8, mu_3) = 1 (computed in-cell).  This realizes a logically possible world in which twist-rigidity is VACUOUS.
+  L1/B414 counterfactual worlds (each realized by computed representation theory):
+    world                                                                                                verdict
+    the computed world (object route = principal SL2)                                                    RESOLVED-B
+    CF1: the premise had pinned the BALANCED trinification (a real, I3-invariant, theta-compatible route) as the object's route RESOLVED-A
+    CF2: the premise had pinned the NON-PRINCIPAL SL(2)-route 3 = 1+2                                    RESOLVED-A
+    CF3: the object's binary group had been Q8 (Hom = 1, computed V1) -- rigidity vacuous, hence FORCED  RESOLVED-A
+    CF4: the cited premises had pinned the route only up to {principal, balanced}                        UNRESOLVED
+    CF5: pinned only up to {principal, SL(2)-route 3=1+2}                                                UNRESOLVED
+
+PASS  L1/B414 NON-VACUITY: the verdict function reaches RESOLVED-A (2 ways: the object's route not rigid; 1 way: rigidity forced/vacuous), UNRESOLVED (2 ways: the premise fails to pin a unique route) and RESOLVED-B (the computed world).  Every branch can FIRE and can FAIL, and every counterfactual is realized by a representation actually computed here -- none contradicts an entailment.
+  L4/B465 DECLARED SELECTION -- 'which route is the object's' (a CITED premise):
+    principal SL2 (THE OBJECT'S ROUTE, cited B329a/B347/B351/B352/B353) -> RESOLVED-B
+    balanced trinification (canonical, B329b)                  -> RESOLVED-A
+    SL(2)-route 3 = 1+2 (non-principal)                        -> RESOLVED-A
+
+PASS  L4/B465: the ONE selection this cell makes is DECLARED and its effect SHOWN -- the verdict is sensitive to it (principal -> RESOLVED-B; balanced or non-principal SL(2) -> RESOLVED-A).  The selection is the cited premise B329a/B347/B351/B352/B353, fenced as such and NOT recomputed here.
+PASS  L2/D3: no numeric negative is asserted -- every statement in this cell is exact/symbolic (rational + sqrt(-3)); there is no estimator, no scan, no argmax, hence no underpowered negative.  The one enumeration (R4e) is a COMPLETE census of all 3010 partitions of 27, not a sample.
+PASS  L3/GATEB: FORCEDNESS AUDIT of the surviving reason.  R3 (the object's route is twist-rigid) is not a corollary of any premise: not of 'SL(2)-route' (R4a), not of 'theta-compatible' (R4b), not of 'self-dual' (R4c), not of the witness's chirality (R4d), and not generic in the class (R4e: 208/3010).  The two collapsed reasons are demoted in E1/E2.
+
+============================================================================================================
+  fact  witness_is_real                = True
+  fact  object_route_pinned            = True
+  fact  object_route_selfdual          = True
+  fact  twist_group_nontrivial         = True
+  fact  object_route_twist_rigid       = True
+  fact  rigidity_not_forced            = True
+  branch A fires: False     branch B fires: True
+============================================================================================================
+ALL GATES PASS.
+
+VERDICT: RESOLVED-B
+
+  THE RESTATED CLOSURE (twist-rigidity alone).
+
+    PREMISE (cited, fenced, DECLARED as the cell's one selection): the object's E6
+    route is the principal-SL2 one -- B329a, B347/B351/B352 (the principal-SL2 E6
+    tangent), B353 (the hyperelliptic involution induces exactly theta at the
+    geometric point and theta fixes the principal SL2 pointwise).
+
+    COMPUTED (R1-R3): chi_principal vanishes on every eps != 0 class of 2T, hence
+    rho_pr (x) 1'^k = rho_pr for k = 0,1,2.  The object's mu_3-twist torsor is a
+    SINGLE point.  OI-173's chiral witness is produced by exactly one operation --
+    twisting a route by a nonzero element of Hom(2T, Z(E6)) = Z/3 -- and that
+    operation, applied to the object's own route, returns the object's own route,
+    with (n1,n2) = (3,3).  Level 3 is unreachable along the object's supply line.
+
+    WHY THIS IS A REASON AND NOT A RESTATEMENT (R4, the L3 repair): twist-rigidity is
+    a strict arithmetic property of the individual route.  It fails for the balanced
+    trinification (theta-compatible, inside an F4, self-dual -- and it twists to the
+    witness itself), it fails for the non-principal SL(2)-route 3 = 1+2 (a genuine
+    I3-invariant embedding whose twist is chiral, (9,0)), and it holds for only 208 of
+    the 3010 27-dimensional SU(2)-reps.  It is computed from chi_principal alone and
+    survives deleting every witness-derived row from the table.
+
+    THE TWO DEMOTED ARGUMENTS.  det Hess I3(v) = 2.I3(v)^9 (E0, re-confirmed exactly),
+    so 'H fixes a v with I3 != 0' <=> 'H preserves a nondegenerate symmetric form'
+    <=> '27|H self-dual' <=> 'n1 = n2'.  Hence the F4-exclusion (E1) and the
+    SL(2)-exclusion (E2) of the witness are one-step corollaries of the witness's own
+    chirality -- of the premise being reconciled.  They are TRUE, they are not
+    reasons, and the verdict function does not read them (V0).
+
+    OI-128 WORDING (the owed fix).  'unreachable by any canonical 2T -> E6' becomes:
+    'unreachable by any theta-compatible / SL(2)-route embedding; a chiral 2T < E6
+    EXISTS (OI-173) but lies on no object supply line -- the object's own route is
+    twist-rigid, so the one construction that produces the chiral member cannot be
+    applied to it.'
+
+    RESIDUAL (unchanged, EXTERNAL/specialist): whether the arithmetic could force a
+    non-SL(2), non-theta-compatible route into E6.  Exhibiting a chiral subgroup of
+    E6 is not exhibiting an object-supplied one.  Also unchanged: this closure is
+    conditional on the DECLARED selection of the object's route (L4 table above).
+

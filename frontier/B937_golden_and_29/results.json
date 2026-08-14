@@ -1,0 +1,2348 @@
+{
+ "cell": "B937 golden entry + the 29 whitelist",
+ "checks": {
+  "K_arithmetic_rho_satisfies_mu13": {
+   "pass": true,
+   "detail": "A rho^3 + B rho^2 + C rho + D = 0 under the reduction used here"
+  },
+  "K_arithmetic_minpoly_of_rho_is_mu13": {
+   "pass": true,
+   "detail": ""
+  },
+  "monic_mu_model_correct": {
+   "pass": true,
+   "detail": "T_mu(y) = y^3 + B y^2 + AC y + A^2 D,  y = A rho"
+  },
+  "disc_K": {
+   "value": "6237 = {'3': 4, '7': 1, '11': 1}",
+   "detail": "round_two field discriminant"
+  },
+  "disc_K_is_6237": {
+   "pass": true,
+   "detail": "3^4 * 7 * 11 -- agrees with B931"
+  },
+  "integral_basis_is_a_3_element_Z_basis": {
+   "pass": true,
+   "detail": ""
+  },
+  "monogenic_generator_found": {
+   "pass": true,
+   "detail": "2 index-1 depressed generators in the search box"
+  },
+  "monogenic_model_of_K": {
+   "value": "s**3 - 12*s - 5",
+   "detail": "the reduced index-1 defining polynomial of K (K is MONOGENIC: O_K = Z[s])"
+  },
+  "monogenic_model_disc_equals_field_disc": {
+   "pass": true,
+   "detail": "index 1 -- every place of every prime is reachable by prime_decomp"
+  },
+  "monogenic_generator_is_in_O_K_and_generates": {
+   "pass": true,
+   "detail": ""
+  },
+  "transfer_matrix_invertible": {
+   "pass": true,
+   "detail": "1, s, s^2 is a Q-basis of K (s is primitive)"
+  },
+  "s_model_same_field_disc": {
+   "pass": true,
+   "detail": ""
+  },
+  "transfer_carries_rho_to_a_root_of_mu13": {
+   "pass": true,
+   "detail": "rho = -169*s**2/310464 - 169*s/1552320 + 1781/310464 in the monogenic model: the two models are the SAME field K, with this explicit isomorphism"
+  },
+  "val_norm_consistency_d_S_at_2": {
+   "pass": true,
+   "detail": "sum f*v = -16 = v_2(N) = -16"
+  },
+  "val_norm_consistency_d_S_at_3": {
+   "pass": true,
+   "detail": "sum f*v = -4 = v_3(N) = -4"
+  },
+  "val_norm_consistency_d_S_at_953": {
+   "pass": true,
+   "detail": "sum f*v = 2 = v_953(N) = 2"
+  },
+  "divisor_d_S_complete": {
+   "pass": true,
+   "detail": "N(d_S) = -908209/5308416 = {'num': {'-1': 1, '953': 2}, 'den': {'2': 16, '3': 4}}"
+  },
+  "val_norm_consistency_d_A_at_2": {
+   "pass": true,
+   "detail": "sum f*v = -16 = v_2(N) = -16"
+  },
+  "val_norm_consistency_d_A_at_3": {
+   "pass": true,
+   "detail": "sum f*v = -4 = v_3(N) = -4"
+  },
+  "val_norm_consistency_d_A_at_953": {
+   "pass": true,
+   "detail": "sum f*v = 2 = v_953(N) = 2"
+  },
+  "divisor_d_A_complete": {
+   "pass": true,
+   "detail": "N(d_A) = -908209/5308416 = {'num': {'-1': 1, '953': 2}, 'den': {'2': 16, '3': 4}}"
+  },
+  "cross_model_gate_d_S_at_2": {
+   "pass": true,
+   "detail": "[(1, -4), (2, -6)] == B931's [(1, -4), (2, -6)]"
+  },
+  "cross_model_gate_d_S_at_3": {
+   "pass": true,
+   "detail": "[(1, -4)] == B931's [(1, -4)]"
+  },
+  "cross_model_gate_d_S_at_953": {
+   "pass": true,
+   "detail": "[(1, 2), (2, 0)] == B931's [(1, 2), (2, 0)]"
+  },
+  "cross_model_gate_d_A_at_2": {
+   "pass": true,
+   "detail": "[(1, -6), (2, -5)] == B931's [(1, -6), (2, -5)]"
+  },
+  "cross_model_gate_d_A_at_3": {
+   "pass": true,
+   "detail": "[(1, -4)] == B931's [(1, -4)]"
+  },
+  "cross_model_gate_d_A_at_953": {
+   "pass": true,
+   "detail": "[(1, 0), (2, 1)] == B931's [(1, 0), (2, 1)]"
+  },
+  "W_K_coords_equal_banked_B930": {
+   "pass": true,
+   "detail": ""
+  },
+  "W_minpoly_equals_banked_B930": {
+   "pass": true,
+   "detail": "[824843587681, -230571559875, -16394578125, -244140625]"
+  },
+  "W_minpoly_lead_is_953_pow4": {
+   "pass": true,
+   "detail": ""
+  },
+  "W_minpoly_const_is_minus_5_pow12": {
+   "pass": true,
+   "detail": ""
+  },
+  "d_S_minpoly_equals_banked_B916": {
+   "pass": true,
+   "detail": ""
+  },
+  "d_A_minpoly_equals_banked_B916": {
+   "pass": true,
+   "detail": ""
+  },
+  "d_S_norm_is_minus_953_over_2304_sq": {
+   "pass": true,
+   "detail": "-908209/5308416"
+  },
+  "d_A_norm_is_minus_953_over_2304_sq": {
+   "pass": true,
+   "detail": "-908209/5308416"
+  },
+  "d_S_equals_1_minus_2_m_S": {
+   "pass": true,
+   "detail": ""
+  },
+  "d_A_equals_1_minus_2_m_A": {
+   "pass": true,
+   "detail": ""
+  },
+  "m_S_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": ""
+  },
+  "m_A_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": ""
+  },
+  "x_o_is_exactly_zero": {
+   "pass": true,
+   "detail": "the same-generation twisted overlap h'(S_g, A_g+) has ZERO tau-part: it lies in K, not merely in N -- so |h'|^2 = x_e^2 is a perfect SQUARE in K"
+  },
+  "W_equals_xe_sq_over_dq_product": {
+   "pass": true,
+   "detail": "W = x_e^2 / (d_S q_S d_A q_A) exactly -- the harvested parts are internally consistent with the banked K-coordinates"
+  },
+  "X_cross_minpoly_equals_banked_B930": {
+   "pass": true,
+   "detail": "[908209, 1049253, 253875, -15625]"
+  },
+  "X_cross_minpoly_lead_is_953_sq": {
+   "pass": true,
+   "detail": ""
+  },
+  "X_cross_minpoly_const_is_minus_5_pow6": {
+   "pass": true,
+   "detail": ""
+  },
+  "val_norm_consistency_W_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 12 = v_5(N) = 12"
+  },
+  "val_norm_consistency_W_at_953": {
+   "pass": true,
+   "detail": "sum f*v = -4 = v_953(N) = -4"
+  },
+  "divisor_W_complete": {
+   "pass": true,
+   "detail": "N(W) = 244140625/824843587681 = {'num': {'5': 12}, 'den': {'953': 4}}"
+  },
+  "val_norm_consistency_X_cross_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 6 = v_5(N) = 6"
+  },
+  "val_norm_consistency_X_cross_at_953": {
+   "pass": true,
+   "detail": "sum f*v = -2 = v_953(N) = -2"
+  },
+  "divisor_X_cross_complete": {
+   "pass": true,
+   "detail": "N(X_cross) = 15625/908209 = {'num': {'5': 6}, 'den': {'953': 2}}"
+  },
+  "u_equals_xe_sq_over_q_product": {
+   "pass": true,
+   "detail": "u := W d_S d_A = h'(S,A)^2 / (h+(S,S) h+(A,A)); both W and u are GAUGE-INVARIANT (numerator and denominator have the same homogeneity under the atom rescalings), so their divisors are properties of the object, not of B930's normalisation"
+  },
+  "val_norm_consistency_u_at_2": {
+   "pass": true,
+   "detail": "sum f*v = -32 = v_2(N) = -32"
+  },
+  "val_norm_consistency_u_at_3": {
+   "pass": true,
+   "detail": "sum f*v = -8 = v_3(N) = -8"
+  },
+  "val_norm_consistency_u_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 12 = v_5(N) = 12"
+  },
+  "divisor_u_complete": {
+   "pass": true,
+   "detail": "N(u) = 244140625/28179280429056 = {'num': {'5': 12}, 'den': {'2': 32, '3': 8}}"
+  },
+  "u_support_is_exactly_2_3_5": {
+   "pass": true,
+   "detail": "the divisor of u is supported exactly over [2, 3, 5]: the golden numerator is entirely u's and the value prime 953 is entirely the twist's"
+  },
+  "val_norm_consistency_u_at_953": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_953(N) = 0"
+  },
+  "u_is_a_953_unit": {
+   "pass": true,
+   "detail": "u has valuation 0 at BOTH places over 953"
+  },
+  "W_953_pole_is_exactly_the_two_twist_places": {
+   "pass": true,
+   "detail": "W at 953 = [(1, -2), (2, -1)] = -(d_S [(1, 2), (2, 0)] + d_A [(1, 0), (2, 1)]): the mixing element's 953-pole is the SUM of the two families' twist zeros -- the degree-one observer place (doubly, from the vacuum family) and the degree-two mirror place (simply, from the A-family)"
+  },
+  "lead_953_pow4_equals_norm_of_the_pole_ideal": {
+   "pass": true,
+   "detail": "N(P1^2 * P2) = 953^2 * 953^2 = 953^4 -- the banked minpoly lead is the norm of W's pole ideal"
+  },
+  "val_norm_consistency_d_S_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_5(N) = 0"
+  },
+  "val_norm_consistency_d_A_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_5(N) = 0"
+  },
+  "val_norm_consistency_m_S_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_5(N) = 0"
+  },
+  "val_norm_consistency_m_A_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_5(N) = 0"
+  },
+  "val_norm_consistency_x_e_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 12 = v_5(N) = 12"
+  },
+  "val_norm_consistency_q_S_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 4 = v_5(N) = 4"
+  },
+  "val_norm_consistency_q_A_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 8 = v_5(N) = 8"
+  },
+  "the_5_exponent_is_12_and_it_is_the_place_sum": {
+   "pass": true,
+   "detail": "sum over the places over 5 of f*v = 12; places (e,f) = [(1, 1), (1, 2)], valuations [(1, 6), (2, 3)]"
+  },
+  "W_and_u_have_the_same_5_divisor": {
+   "pass": true,
+   "detail": "the twist is a 5-unit, so the whole golden content is the H+-normalised mixing element's"
+  },
+  "the_two_places_over_5_contribute_EQUAL_local_norms": {
+   "pass": true,
+   "detail": "W at 5 = [(1, 6), (2, 3)]: f*v = [6, 6], i.e. 5^6 from the degree-one place and 5^6 from the degree-two place. The golden numerator splits EVENLY between the two places over 5; 12 = 6 + 6."
+  },
+  "the_5_part_of_W_is_a_perfect_cube": {
+   "pass": true,
+   "detail": "gcd of the 5-valuations [6, 3] is 3: the 5-part of (W) is the CUBE of the ideal with valuations [(1, 2), (2, 1)] (norm 5^4), so 12 = 3 * 4"
+  },
+  "same_minus_cross_at_5_is_the_degree_one_place_alone": {
+   "pass": true,
+   "detail": "same-generation [(1, 6), (2, 3)] minus cross-generation [(1, 0), (2, 3)]: the two differ ONLY at the degree-one place over 5, by exactly the 6th power. The cross-generation mixing is blind to the degree-one place; the same-generation mixing carries it to the 6th."
+  },
+  "the_cross_generation_5_content_is_the_per_place_contribution": {
+   "pass": true,
+   "detail": "X_cross at 5 = [(1, 0), (2, 3)], norm-numerator 5^6 -- exactly the local contribution of each single place in the same-generation element"
+  },
+  "val_norm_consistency_W_over_Xcross_at_5": {
+   "pass": true,
+   "detail": "sum f*v = 6 = v_5(N) = 6"
+  },
+  "val_norm_consistency_W_over_Xcross_at_953": {
+   "pass": true,
+   "detail": "sum f*v = -2 = v_953(N) = -2"
+  },
+  "divisor_W_over_Xcross_complete": {
+   "pass": true,
+   "detail": "N(W_over_Xcross) = 15625/908209 = {'num': {'5': 6}, 'den': {'953': 2}}"
+  },
+  "cross_generation_lives_ONLY_on_the_degree_two_places": {
+   "pass": true,
+   "detail": "X_cross at 5 = [(1, 0), (2, 3)] and at 953 = [(1, 0), (2, -1)]: the cross-generation mixing element is supported ENTIRELY on the degree-TWO places of both primes -- it never touches the observer's degree-one place"
+  },
+  "same_over_cross_is_EXACTLY_the_observer_places": {
+   "pass": true,
+   "detail": "the same-generation over the cross-generation overlap^2 has divisor q1(5)^6 * P1(953)^-2 -- supported ONLY on the DEGREE-ONE places, and at 953 with exactly the exponent of d_S's twist zero (B918's observer place, where the hierarchy element V has its pole). The whole difference between diagonal and off-diagonal mixing is the observer's place."
+  },
+  "belt_deg1_W_at_5": {
+   "pass": true,
+   "detail": "lattice 6 == Newton-lift evaluation 6"
+  },
+  "belt_deg1_W_at_953": {
+   "pass": true,
+   "detail": "lattice -2 == Newton-lift evaluation -2"
+  },
+  "belt_deg1_u_at_5": {
+   "pass": true,
+   "detail": "lattice 6 == Newton-lift evaluation 6"
+  },
+  "belt_deg1_u_at_953": {
+   "pass": true,
+   "detail": "lattice 0 == Newton-lift evaluation 0"
+  },
+  "belt_deg1_X_cross_at_5": {
+   "pass": true,
+   "detail": "lattice 0 == Newton-lift evaluation 0"
+  },
+  "belt_deg1_X_cross_at_953": {
+   "pass": true,
+   "detail": "lattice 0 == Newton-lift evaluation 0"
+  },
+  "belt_deg1_d_S_at_5": {
+   "pass": true,
+   "detail": "lattice 0 == Newton-lift evaluation 0"
+  },
+  "belt_deg1_d_S_at_953": {
+   "pass": true,
+   "detail": "lattice 2 == Newton-lift evaluation 2"
+  },
+  "belt_deg1_d_A_at_5": {
+   "pass": true,
+   "detail": "lattice 0 == Newton-lift evaluation 0"
+  },
+  "belt_deg1_d_A_at_953": {
+   "pass": true,
+   "detail": "lattice 0 == Newton-lift evaluation 0"
+  },
+  "W_generates_K": {
+   "pass": true,
+   "detail": "the overlap^2 has a degree-3 minimal polynomial: it GENERATES K, so the splitting field of that polynomial IS the Galois closure of K"
+  },
+  "splitting_field_quadratic_subfield_is_Q_sqrt77": {
+   "pass": true,
+   "detail": "squarefree(disc of W's minpoly) = 77 = squarefree(disc K) = 77"
+  },
+  "sqrt5_not_in_the_splitting_field_of_W": {
+   "pass": true,
+   "detail": "an irreducible cubic with Galois group S3 has EXACTLY ONE quadratic subfield in its splitting field, namely Q(sqrt disc); here that is Q(sqrt77), so Q(sqrt5) is not in it"
+  },
+  "Mbar_has_exactly_three_quadratic_subfields": {
+   "pass": true,
+   "detail": "N cap Q(sqrt-3) = Q because squarefree(disc K) = 77 != -3, so Gal(Mbar/Q) = S3 x C2 with abelianisation C2 x C2: Mbar (the degree-12 field in which every B930 quantity was computed) has exactly the three quadratic subfields Q(sqrt77), Q(sqrt-3), Q(sqrt-231)"
+  },
+  "sqrt5_not_in_Mbar": {
+   "pass": true,
+   "detail": "5 is not equal modulo squares to any of 77, -3, -231, so Q(sqrt5) is not one of Mbar's three quadratic subfields"
+  },
+  "x2_minus_5_stays_irreducible_over_K": {
+   "pass": true,
+   "detail": "5 is not a square in K (independent computational confirmation)"
+  },
+  "x2_plus_15_stays_irreducible_over_K": {
+   "pass": true,
+   "detail": "-15 is not a square in K -- this is the only other way sqrt5 could enter K(sqrt-3): (a + b tau)^2 = 5 with tau^2 = -3 forces a = 0 and b^2 = -5/3"
+  },
+  "5_is_unramified_in_K": {
+   "pass": true,
+   "detail": "disc K = 6237: 5 does not ramify, so it is not a field-theoretic distinguished prime of K at all"
+  },
+  "val_norm_consistency_m_A_at_29": {
+   "pass": true,
+   "detail": "sum f*v = 1 = v_29(N) = 1"
+  },
+  "val_norm_consistency_m_S_at_29": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_29(N) = 0"
+  },
+  "val_norm_consistency_d_A_at_29": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_29(N) = 0"
+  },
+  "val_norm_consistency_d_S_at_29": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_29(N) = 0"
+  },
+  "val_norm_consistency_W_at_29": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_29(N) = 0"
+  },
+  "val_norm_consistency_u_at_29": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_29(N) = 0"
+  },
+  "val_norm_consistency_X_cross_at_29": {
+   "pass": true,
+   "detail": "sum f*v = 0 = v_29(N) = 0"
+  },
+  "m_A_vanishes_at_the_degree_one_place_over_29": {
+   "pass": true,
+   "detail": "[(1, 1), (2, 0)]"
+  },
+  "m_S_is_29_blind_at_every_place": {
+   "pass": true,
+   "detail": "the S-family flip mass has valuation 0 at BOTH places over 29"
+  },
+  "the_overlap_elements_are_29_blind": {
+   "pass": true,
+   "detail": "W, u and X_cross all have valuation 0 at every place over 29"
+  },
+  "W3_rotation_quadratic_is_the_banked_one": {
+   "pass": true,
+   "detail": ""
+  },
+  "W6_rotation_quadratic_is_the_banked_one": {
+   "pass": true,
+   "detail": ""
+  },
+  "the_two_rotation_quadratics_SHARE_a_discriminant": {
+   "pass": true,
+   "detail": "disc = 200256 = {'2': 6, '3': 1, '7': 1, '149': 1} for BOTH the vacuum register's and the A-register's twist-vs-Galois quadratic: the two registers' principal angles live in ONE quadratic field, Q(sqrt3129)"
+  },
+  "charge_gram_indefiniteness_is_CHECKED_not_assumed": {
+   "pass": true,
+   "detail": "the charge trace Gram carries both signs: ['60383232', '-79427174400', '247210809753600/13', '-222489728778240000/19']"
+  },
+  "register_grams_are_nondegenerate_and_indefinite": {
+   "pass": true,
+   "detail": "no definiteness assumed anywhere: the register Grams are invertible and the vacuum register's diagonal is negative (B912's banked indefiniteness)"
+  },
+  "tr_W3_equals_Tr_K_m_S": {
+   "pass": true,
+   "detail": "151/64"
+  },
+  "tr_W6_equals_2_Tr_K_m_A": {
+   "pass": true,
+   "detail": "169/128"
+  },
+  "the_29_of_2088_IS_the_29_of_Tr_m_S_minus_1": {
+   "pass": true,
+   "detail": "2088/1536 = 87/64 = Tr_K(m_S) - 1, and 87 = 3 * 29; the subtracted 1 is the exact unity principal angle (the rational line F cap W3). So the 29 of the W3 rotation quadratic is the 29 of the integer 151 - 64, where 151/64 = Tr_K(m_S)."
+  },
+  "the_A_register_rotation_quadratic_is_29_free": {
+   "pass": true,
+   "detail": "1536x^2 - 984x + 125 carries no 29 -- yet the 29-PLACE lives on the A-family; and the S-register's quadratic carries the 29 -- yet the S-family flip mass is 29-blind at every place. The two 29s sit on OPPOSITE sides of the S/A dichotomy."
+  },
+  "W6_twist_block_charpoly_is_the_banked_quadratic": {
+   "pass": true,
+   "detail": "x**2 - 41*x/64 + 125/1536"
+  },
+  "the_29_in_B930s_W6_matrix_entry_is_BASIS_DEPENDENT": {
+   "pass": true,
+   "detail": "an explicit unimodular shear of the W6 twist block removes every 29 from the entries while preserving the characteristic polynomial: c = 1, entries ['-9211/96', '385/4', '-443687/4608', '18545/192']"
+  },
+  "W3_compression_charpoly_denominator_is_29_free": {
+   "pass": true,
+   "detail": "the reduction mod 29 of the W3 compression's characteristic polynomial is defined"
+  }
+ },
+ "notes": [],
+ "inputs": {
+  "mu13_descending": [
+   "500716339200",
+   "-2075673600",
+   "-4769856",
+   "2197"
+  ],
+  "banked_W_minpoly": [
+   "824843587681",
+   "-230571559875",
+   "-16394578125",
+   "-244140625"
+  ],
+  "banked_cross_minpoly": [
+   "908209",
+   "1049253",
+   "253875",
+   "-15625"
+  ],
+  "harvested_K_elements_rho_basis": {
+   "x_e": [
+    "12055276929078190080000",
+    "-5099950924513424179200000",
+    "145306899751127482368000000"
+   ],
+   "x_o": [
+    "0",
+    "0",
+    "0"
+   ],
+   "q_S": [
+    "-36777806644951683956736",
+    "-11225995912201391780659200",
+    "3046562582942039246320435200"
+   ],
+   "q_A": [
+    "-2401367095773232260710400",
+    "5916007323785802138255360000",
+    "-990969807198729249352581120000"
+   ],
+   "d_S": [
+    "-20123/32448",
+    "111650/2197",
+    "-54331200/28561"
+   ],
+   "d_A": [
+    "8933/16224",
+    "-63910/2197",
+    "-923630400/28561"
+   ],
+   "W": [
+    "-6666875/153487321",
+    "18406080000/1995335173",
+    "266005555200000/25939357249"
+   ],
+   "X_cross": [
+    "-80419/161057",
+    "257241600/2093741",
+    "-125179084800/27218633"
+   ]
+  },
+  "harvest_provenance": "re-execution of the banked B930 instrument (unchanged) in an isolated scratch namespace; every literal gated in stage [3]"
+ },
+ "field_K": {
+  "mu13_model": "y**3 - 2075673600*y**2 - 2388344834831155200*y + 550824924595043256238080000",
+  "monogenic_model": "s**3 - 12*s - 5",
+  "disc_K": "6237",
+  "disc_K_fac": {
+   "3": 4,
+   "7": 1,
+   "11": 1
+  },
+  "index_of_this_generator": 1,
+  "generator": {
+   "a": -1,
+   "b": 5,
+   "depression_shift": -7
+  },
+  "note": "sympy prime_decomp fails at p = 5 and p = 7 in BOTH banked models (h_S and monic mu13); in this index-1 model every place of every prime is reachable, which is exactly what the 5-adic story needs."
+ },
+ "partA": {
+  "W_divisor": {
+   "valuations": {
+    "p=5#0(f=1)": 6,
+    "p=5#1(f=2)": 3,
+    "p=953#0(f=1)": -2,
+    "p=953#1(f=2)": -1
+   },
+   "norm": "244140625/824843587681",
+   "norm_fac": {
+    "num": {
+     "5": 12
+    },
+    "den": {
+     "953": 4
+    }
+   },
+   "note": "the same-generation overlap^2"
+  },
+  "X_cross_divisor": {
+   "valuations": {
+    "p=5#0(f=1)": 0,
+    "p=5#1(f=2)": 3,
+    "p=953#0(f=1)": 0,
+    "p=953#1(f=2)": -1
+   },
+   "norm": "15625/908209",
+   "norm_fac": {
+    "num": {
+     "5": 6
+    },
+    "den": {
+     "953": 2
+    }
+   },
+   "note": "a cross-generation overlap^2 (it lies in K: its beta-part vanishes)"
+  },
+  "u_divisor": {
+   "valuations": {
+    "p=2#0(f=1)": -10,
+    "p=2#1(f=2)": -11,
+    "p=3#0(f=1)": -8,
+    "p=5#0(f=1)": 6,
+    "p=5#1(f=2)": 3
+   },
+   "norm": "244140625/28179280429056",
+   "norm_fac": {
+    "num": {
+     "5": 12
+    },
+    "den": {
+     "2": 32,
+     "3": 8
+    }
+   },
+   "note": "the H+-normalised twisted overlap^2"
+  },
+  "u_minpoly": [
+   "28179280429056",
+   "-3057647616000",
+   "53136000000",
+   "-244140625"
+  ],
+  "u_support": [
+   2,
+   3,
+   5
+  ],
+  "953_story": {
+   "W": [
+    [
+     1,
+     -2
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "u": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "d_S": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "d_A": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "X_cross": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     -1
+    ]
+   ]
+  },
+  "5_places": [
+   {
+    "e": 1,
+    "f": 1
+   },
+   {
+    "e": 1,
+    "f": 2
+   }
+  ],
+  "5_story": {
+   "W": [
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "u": [
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "X_cross": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "d_S": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "d_A": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "m_S": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "m_A": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "x_e_GAUGE_DEPENDENT": [
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "q_S_GAUGE_DEPENDENT": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "q_A_GAUGE_DEPENDENT": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  "same_over_cross_divisor": {
+   "valuations": {
+    "p=5#0(f=1)": 6,
+    "p=5#1(f=2)": 0,
+    "p=953#0(f=1)": -2,
+    "p=953#1(f=2)": 0
+   },
+   "norm": "15625/908209",
+   "norm_fac": {
+    "num": {
+     "5": 6
+    },
+    "den": {
+     "953": 2
+    }
+   },
+   "note": "the ratio of the same-generation to a cross-generation overlap^2"
+  },
+  "exponent_12_candidate_tests": {
+   "12 = 4 places x 3": {
+    "places_over_5": 2,
+    "verdict": "REFUTED",
+    "detail": "5 has 2 places in K ([(1, 1), (1, 2)]), not 4"
+   },
+   "12 = the D-flip count": {
+    "D2_flip_count": 11,
+    "verdict": "REFUTED",
+    "detail": "the banked flip rank is 11 exactly (tr W3 = 151/64, tr W6 = 169/64, tr W18 = 6; the three register compressions exhaust tr Pi_F = 11 exactly); 11 != 12"
+   },
+   "12 = the floor dimension": {
+    "floor_dim_banked": 12,
+    "verdict": "MATCH WITHOUT MECHANISM",
+    "detail": "Cent(C) -- the floor -- has dimension 12 (B874/B932). The integers agree, but this cell exhibits NO computation carrying the floor into the 5-divisor; recorded as a coincidence-level match, not a derivation."
+   },
+   "12 = 6 + 6, the two places over 5 balancing": {
+    "verdict": "COMPUTED",
+    "W_at_5": [
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "local_norm_exponents": [
+     6,
+     6
+    ],
+    "detail": "the divisor of W over 5 is q1^6 q2^3 with f(q1) = 1 and f(q2) = 2, so each place contributes exactly 5^6 to the norm. The exponent 12 is the SUM OF TWO EQUAL LOCAL CONTRIBUTIONS, not a dimension; and 6 is also the whole 5-content of a cross-generation overlap."
+   },
+   "12 = 3 x 4, the 5-part being a perfect cube": {
+    "verdict": "COMPUTED",
+    "detail": "the 5-valuations (6, 3) have gcd 3, so the 5-part of (W) is the cube of an ideal of norm 5^4. Recorded; no mechanism is claimed for the cube."
+   },
+   "12 = 2 x 6, the divisor being a square": {
+    "verdict": "REFUTED BY THE COMPUTATION",
+    "detail": "this cell's first pass guessed the 5-divisor would be even at every place, since W's numerator is the square x_e^2. The computation refutes it: the valuation at the degree-two place is 3, odd, because the H+ norms are NOT 5-units (v_5(N(q_S)) = 4, v_5(N(q_A)) = 8). The abort is logged as part of the instrument story."
+   }
+  },
+  "independent_padic_belt": {
+   "W@5": {
+    "lattice": 6,
+    "padic": 6
+   },
+   "W@953": {
+    "lattice": -2,
+    "padic": -2
+   },
+   "u@5": {
+    "lattice": 6,
+    "padic": 6
+   },
+   "u@953": {
+    "lattice": 0,
+    "padic": 0
+   },
+   "X_cross@5": {
+    "lattice": 0,
+    "padic": 0
+   },
+   "X_cross@953": {
+    "lattice": 0,
+    "padic": 0
+   },
+   "d_S@5": {
+    "lattice": 0,
+    "padic": 0
+   },
+   "d_S@953": {
+    "lattice": 2,
+    "padic": 2
+   },
+   "d_A@5": {
+    "lattice": 0,
+    "padic": 0
+   },
+   "d_A@953": {
+    "lattice": 0,
+    "padic": 0
+   }
+  },
+  "independent_padic_belt_note": "the degree-one place of an unramified p has completion Q_p, so the valuation there is just v_p of the element evaluated at the p-adic root of the defining polynomial -- a route sharing no code with the ideal-lattice computation. The degree-two valuations then follow from the norm identity sum_P f_P v_P = v_p(N), which every table above already checks.",
+  "golden_field_decision": {
+   "disc_W_minpoly": "2060495817692727452361093000000000000000000",
+   "disc_W_minpoly_fac": {
+    "2": 18,
+    "3": 6,
+    "5": 18,
+    "7": 3,
+    "11": 1,
+    "953": 6
+   },
+   "squarefree_part_disc_W": 77,
+   "disc_X_minpoly": "10231989428441088000000",
+   "disc_X_minpoly_fac": {
+    "2": 18,
+    "3": 6,
+    "5": 6,
+    "7": 3,
+    "11": 1,
+    "953": 2
+   },
+   "squarefree_part_disc_X": 77,
+   "galois_group_of_W_minpoly": "S3",
+   "resolvent_symbols": {
+    "5": -1,
+    "29": -1,
+    "149": -1,
+    "953": -1,
+    "1129": -1,
+    "421493": -1,
+    "72869": -1,
+    "20417473": 1,
+    "17681": -1
+   },
+   "verdict": "5 IS A RESIDUE CHARACTERISTIC, NOT THE GOLDEN FIELD. The overlap^2 generates K; the splitting field of its minimal polynomial is the S3-closure of K, whose unique quadratic subfield is Q(sqrt77). The whole tower Mbar in which B930 computed has exactly three quadratic subfields -- Q(sqrt77), Q(sqrt-3), Q(sqrt-231) -- and Q(sqrt5) is none of them; x^2 - 5 and x^2 + 15 are both irreducible over K; and 5 does not divide disc K = 3^4 * 7 * 11, so 5 is unramified. The 5 in the banked minimal polynomial is the residue characteristic of the places carrying the mixing numerator -- nothing golden."
+  },
+  "where_5_sits_upstream": {
+   "lc(mu13)": {
+    "2": 16,
+    "3": 4,
+    "5": 2,
+    "7": 3,
+    "11": 1
+   },
+   "disc(h_S)": {
+    "2": 38,
+    "3": 16,
+    "5": 2,
+    "7": 3,
+    "11": 1,
+    "199": 2,
+    "227": 2,
+    "410141": 2
+   },
+   "disc(K)": {
+    "3": 4,
+    "7": 1,
+    "11": 1
+   },
+   "reading": "5 divides the charge cubic's leading coefficient (to the second power) and the h_S discriminant (to the second power), but NOT the field discriminant: 5 is unramified in K. B931 DERIVED the twist's 2304 as the {2,3}-part of lc(mu13); this cell finds no analogous derivation of the 5-content of the mixing element. Where the integer 5 comes from is this arc's honest residue -- exactly parallel to B931's open residue for 953."
+  }
+ },
+ "whitelist_29_DECLARED_BEFORE_COMPUTE": {
+  "question": "29 appears twice in the banked record: (i) as a prime of the A-family flip mass's zero-level norm, N(m_A) numerator = 29 * 72869 (B928/B931), and (ii) inside the middle coefficient of B930's W3 twist-vs-Galois rotation quadratic 1536x^2 - 2088x + 677, where 2088 = 2^3 * 3^2 * 29. Is 29 STRUCTURAL or COINCIDENCE?",
+  "whitelist": {
+   "W29-1": "m_A's zero-divisor: the exact valuations of m_A at every place over 29, with m_S, d_S, d_A, W, u and X_cross as controls at the same places",
+   "W29-2": "the rotation quadratic 1536x^2 - 2088x + 677: its discriminant, the factorisations of lead/middle/constant, the quadratic field it generates, and its reduction mod 29 -- with the A-register's quadratic 1536x^2 - 984x + 125 alongside",
+   "W29-3": "the discriminants of every irreducible factor of the W3, W6 and W18 flip-compression characteristic polynomials, and of the full characteristic polynomials",
+   "W29-4": "the discriminant of the S-A overlap^2 minimal polynomial (same generation) and of the cross-generation one",
+   "W29-5": "the resultant grid: every pairwise resultant among {mu13, the monogenic model of K, h_S, mp_dS, mp_dA, mp_mS, mp_mA, the W3 quadratic, the W6 quadratic, the same-generation overlap minpoly, the cross-generation overlap minpoly}",
+   "W29-6": "29's place structure in K: the (e,f) pattern, the quadratic-resolvent symbol (disc K | 29), the Frobenius class, and which place carries m_A's zero",
+   "W29-7": "the Killing/trace Gram of the four charges on the 27, G_mn = tr(R_m R_n): entries, determinant, principal minors; plus the three register Gram determinants (G3, G6, G18) and the 27 H+ diagonal weights"
+  },
+  "verdict_criterion": {
+   "STRUCTURAL": "at least two whitelist appearances of 29 are linked by an EXHIBITED chain of exact identities in which one appearance is derived from the other -- e.g. the 29 dividing 2088 shown to be the residue characteristic of a place at which a named object of the SAME family degenerates, with the identity computed in this cell",
+   "COINCIDENCE": "no such chain after the whole whitelist is computed; the appearances sit in objects of different families and/or different kinds (a rational trace numerator versus a prime ideal), and the look-elsewhere budget over the whitelist's own integers makes two or more 29-divisibility hits unremarkable",
+   "note": "both outcomes are reachable and both bank; the whitelist is fixed before any of it is computed"
+  }
+ },
+ "partB": {
+  "W29-6_place_structure": {
+   "pattern": [
+    {
+     "e": 1,
+     "f": 1
+    },
+    {
+     "e": 1,
+     "f": 2
+    }
+   ],
+   "resolvent_symbol_discK_over_29": -1,
+   "frobenius_class": "transposition",
+   "ramified": false
+  },
+  "W29-1_divisors_at_29": {
+   "m_A": [
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "m_S": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "d_A": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "d_S": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "W": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "u": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "X_cross": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ]
+  },
+  "W29-3_compressions": {
+   "W3": {
+    "factors": [
+     {
+      "factor": "x - 1",
+      "mult": 1,
+      "coeff_fac": [
+       {},
+       {
+        "-1": 1
+       }
+      ],
+      "disc": "0",
+      "disc_fac": {},
+      "has_29_in_coeffs": false,
+      "has_29_in_disc": false
+     },
+     {
+      "factor": "1536*x**2 - 2088*x + 677",
+      "mult": 1,
+      "coeff_fac": [
+       {
+        "2": 9,
+        "3": 1
+       },
+       {
+        "-1": 1,
+        "2": 3,
+        "3": 2,
+        "29": 1
+       },
+       {
+        "677": 1
+       }
+      ],
+      "disc": "200256",
+      "disc_fac": {
+       "2": 6,
+       "3": 1,
+       "7": 1,
+       "149": 1
+      },
+      "has_29_in_coeffs": true,
+      "has_29_in_disc": false
+     }
+    ],
+    "full_charpoly": "1536*x**3 - 3624*x**2 + 2765*x - 677",
+    "full_charpoly_disc": "3129000000",
+    "full_charpoly_disc_fac": {
+     "2": 6,
+     "3": 1,
+     "5": 6,
+     "7": 1,
+     "149": 1
+    },
+    "full_charpoly_disc_is_zero_repeated_roots": false
+   },
+   "W6": {
+    "factors": [
+     {
+      "factor": "x - 1",
+      "mult": 2,
+      "coeff_fac": [
+       {},
+       {
+        "-1": 1
+       }
+      ],
+      "disc": "0",
+      "disc_fac": {},
+      "has_29_in_coeffs": false,
+      "has_29_in_disc": false
+     },
+     {
+      "factor": "x",
+      "mult": 2,
+      "coeff_fac": [
+       {},
+       {
+        "0": 1
+       }
+      ],
+      "disc": "0",
+      "disc_fac": {},
+      "has_29_in_coeffs": false,
+      "has_29_in_disc": false
+     },
+     {
+      "factor": "1536*x**2 - 984*x + 125",
+      "mult": 1,
+      "coeff_fac": [
+       {
+        "2": 9,
+        "3": 1
+       },
+       {
+        "-1": 1,
+        "2": 3,
+        "3": 1,
+        "41": 1
+       },
+       {
+        "5": 3
+       }
+      ],
+      "disc": "200256",
+      "disc_fac": {
+       "2": 6,
+       "3": 1,
+       "7": 1,
+       "149": 1
+      },
+      "has_29_in_coeffs": false,
+      "has_29_in_disc": false
+     }
+    ],
+    "full_charpoly": "1536*x**6 - 4056*x**5 + 3629*x**4 - 1234*x**3 + 125*x**2",
+    "full_charpoly_disc": "0",
+    "full_charpoly_disc_fac": {
+     "0": 1
+    },
+    "full_charpoly_disc_is_zero_repeated_roots": true
+   },
+   "W18": {
+    "factors": [
+     {
+      "factor": "x - 1",
+      "mult": 6,
+      "coeff_fac": [
+       {},
+       {
+        "-1": 1
+       }
+      ],
+      "disc": "0",
+      "disc_fac": {},
+      "has_29_in_coeffs": false,
+      "has_29_in_disc": false
+     },
+     {
+      "factor": "x",
+      "mult": 12,
+      "coeff_fac": [
+       {},
+       {
+        "0": 1
+       }
+      ],
+      "disc": "0",
+      "disc_fac": {},
+      "has_29_in_coeffs": false,
+      "has_29_in_disc": false
+     }
+    ],
+    "full_charpoly": "x**18 - 6*x**17 + 15*x**16 - 20*x**15 + 15*x**14 - 6*x**13 + x**12",
+    "full_charpoly_disc": "0",
+    "full_charpoly_disc_fac": {
+     "0": 1
+    },
+    "full_charpoly_disc_is_zero_repeated_roots": true
+   }
+  },
+  "W29-2_rotation_quadratics": {
+   "W3": {
+    "poly": "1536*x**2 - 2088*x + 677",
+    "coeff_fac": [
+     {
+      "2": 9,
+      "3": 1
+     },
+     {
+      "-1": 1,
+      "2": 3,
+      "3": 2,
+      "29": 1
+     },
+     {
+      "677": 1
+     }
+    ],
+    "disc": "200256",
+    "disc_fac": {
+     "2": 6,
+     "3": 1,
+     "7": 1,
+     "149": 1
+    },
+    "quadratic_field": "Q(sqrt3129)",
+    "29_divides_disc": false,
+    "29_divides_a_coefficient": true,
+    "reduction_mod_29": [
+     28,
+     0,
+     10
+    ],
+    "irreducible_mod_29": true
+   },
+   "W6": {
+    "poly": "1536*x**2 - 984*x + 125",
+    "coeff_fac": [
+     {
+      "2": 9,
+      "3": 1
+     },
+     {
+      "-1": 1,
+      "2": 3,
+      "3": 1,
+      "41": 1
+     },
+     {
+      "5": 3
+     }
+    ],
+    "disc": "200256",
+    "disc_fac": {
+     "2": 6,
+     "3": 1,
+     "7": 1,
+     "149": 1
+    },
+    "quadratic_field": "Q(sqrt3129)",
+    "29_divides_disc": false,
+    "29_divides_a_coefficient": false,
+    "reduction_mod_29": [
+     28,
+     2,
+     9
+    ],
+    "irreducible_mod_29": true
+   },
+   "shared_disc_squarefree_part": 3129
+  },
+  "W29-4_overlap_discs": {
+   "same_generation": {
+    "minpoly": [
+     "824843587681",
+     "-230571559875",
+     "-16394578125",
+     "-244140625"
+    ],
+    "coeff_fac": [
+     {
+      "953": 4
+     },
+     {
+      "-1": 1,
+      "3": 1,
+      "5": 3,
+      "677": 1,
+      "953": 2
+     },
+     {
+      "-1": 1,
+      "3": 1,
+      "5": 6,
+      "367": 1,
+      "953": 1
+     },
+     {
+      "-1": 1,
+      "5": 12
+     }
+    ],
+    "disc": "2060495817692727452361093000000000000000000",
+    "disc_fac": {
+     "2": 18,
+     "3": 6,
+     "5": 18,
+     "7": 3,
+     "11": 1,
+     "953": 6
+    },
+    "has_29": false
+   },
+   "cross_generation": {
+    "minpoly": [
+     "908209",
+     "1049253",
+     "253875",
+     "-15625"
+    ],
+    "coeff_fac": [
+     {
+      "953": 2
+     },
+     {
+      "3": 1,
+      "367": 1,
+      "953": 1
+     },
+     {
+      "3": 1,
+      "5": 3,
+      "677": 1
+     },
+     {
+      "-1": 1,
+      "5": 6
+     }
+    ],
+    "disc": "10231989428441088000000",
+    "disc_fac": {
+     "2": 18,
+     "3": 6,
+     "5": 6,
+     "7": 3,
+     "11": 1,
+     "953": 2
+    },
+    "has_29": false
+   }
+  },
+  "W29-5_resultant_grid": {
+   "mu13|K_monogenic": {
+    "num": {
+     "-1": 1,
+     "73": 1,
+     "10909": 1,
+     "60133": 1,
+     "C27:330933267990804346588910869": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|h_S": {
+    "num": {
+     "5": 1,
+     "73": 1,
+     "229": 1,
+     "229711": 1,
+     "C90:164204028138481736307260765376462302353048577147351531758128505981485641198849905030384957": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|mp_dS": {
+    "num": {
+     "2": 46,
+     "3": 12,
+     "11": 1,
+     "523": 1,
+     "C30:447280884561997866775647976391": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|mp_dA": {
+    "num": {
+     "2": 51,
+     "3": 12,
+     "5": 1,
+     "11": 1,
+     "127": 1,
+     "C29:11136521736695299057875815003": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|mp_mS": {
+    "num": {
+     "-1": 1,
+     "2": 49,
+     "3": 12,
+     "73": 2,
+     "97": 1,
+     "103": 1,
+     "71879": 1,
+     "918414360315690999809239": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|mp_mA": {
+    "num": {
+     "-1": 1,
+     "2": 52,
+     "3": 12,
+     "5": 1,
+     "11": 1,
+     "2389": 1,
+     "2393": 1,
+     "C25:1513177870075959695581349": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|W3_quad": {
+    "num": {
+     "2": 26,
+     "3": 3,
+     "5": 1,
+     "11": 1,
+     "283": 1,
+     "2723107810223568569": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|W6_quad": {
+    "num": {
+     "2": 27,
+     "3": 3,
+     "130697815717857288601": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|overlap_same": {
+    "num": {
+     "-1": 1,
+     "73": 1,
+     "5273": 1,
+     "9043": 1,
+     "C51:664492408924020742708876796444463812182800525222719": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mu13|overlap_cross": {
+    "num": {
+     "-1": 1,
+     "10909": 1,
+     "C44:40723725532782596856516185665493931280866721": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|h_S": {
+    "num": {
+     "199": 2,
+     "5783": 1,
+     "436181": 1,
+     "C51:251415800083456552953358377805137226261148707069967": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|mp_dS": {
+    "num": {
+     "7": 2,
+     "179": 1,
+     "1559": 1,
+     "264631": 1,
+     "95040331": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|mp_dA": {
+    "num": {
+     "-1": 1,
+     "5": 2,
+     "7": 2,
+     "85889": 1,
+     "451266576638071": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|mp_mS": {
+    "num": {
+     "73": 1,
+     "179": 1,
+     "251": 1,
+     "C20:63015354816425809991": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|mp_mA": {
+    "num": {
+     "97": 1,
+     "179": 1,
+     "1667": 1,
+     "3877": 1,
+     "616864903426907": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|W3_quad": {
+    "num": {
+     "215893": 1,
+     "2709737": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|W6_quad": {
+    "num": {
+     "5": 1,
+     "7": 1,
+     "137": 1,
+     "56215391": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|overlap_same": {
+    "num": {
+     "2": 7,
+     "5": 3,
+     "7": 3,
+     "11": 4,
+     "43": 1,
+     "139": 1,
+     "1097": 1,
+     "3323": 1,
+     "29867": 1,
+     "697891": 1,
+     "2986871": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "K_monogenic|overlap_cross": {
+    "num": {
+     "2": 13,
+     "5": 2,
+     "11": 1,
+     "137": 1,
+     "937": 1,
+     "1553": 1,
+     "10909": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|mp_dS": {
+    "num": {
+     "-1": 1,
+     "5": 2,
+     "11": 1,
+     "2749": 1,
+     "13723": 1,
+     "C75:362123862633223722388762618807669728445055621893641218940037792632870374299": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|mp_dA": {
+    "num": {
+     "-1": 1,
+     "5": 1,
+     "13613": 1,
+     "C80:55193715069704302442901424377244229315537381687754719247819327677705097508296143": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|mp_mS": {
+    "num": {
+     "-1": 1,
+     "5": 4,
+     "179": 1,
+     "7687": 1,
+     "469031": 1,
+     "C73:4768609954412158556390209466146180670604264555093045496012009127374390459": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|mp_mA": {
+    "num": {
+     "-1": 1,
+     "5": 1,
+     "C87:384692178528117313574166944181958830215482836810508421022999893564987268477290325935261": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|W3_quad": {
+    "num": {
+     "5": 1,
+     "11": 1,
+     "7057": 1,
+     "12347": 1,
+     "6484976223617766521735621959652610178601953": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|W6_quad": {
+    "num": {
+     "5": 2,
+     "11": 1,
+     "47": 1,
+     "139": 1,
+     "241069": 1,
+     "C41:71757282273060316654905311396162112049031": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|overlap_same": {
+    "num": {
+     "-1": 1,
+     "73": 1,
+     "227": 2,
+     "2089": 1,
+     "C91:1793578656181806255203375650177099340653186909501348290528392626896995001696257472662655289": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "h_S|overlap_cross": {
+    "num": {
+     "-1": 1,
+     "127": 1,
+     "359": 1,
+     "461": 1,
+     "1301": 1,
+     "10093": 1,
+     "740533": 1,
+     "C62:92052390359784192882537547575440769273261595369876856987380193": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dS|mp_dA": {
+    "num": {
+     "-1": 1,
+     "2": 48,
+     "3": 16,
+     "7": 5,
+     "11": 1,
+     "953": 2,
+     "17681": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dS|mp_mS": {
+    "num": {
+     "-1": 1,
+     "2": 46,
+     "3": 17,
+     "5": 2,
+     "829": 1,
+     "4597": 1,
+     "197692870099561": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dS|mp_mA": {
+    "num": {
+     "-1": 1,
+     "2": 52,
+     "3": 16,
+     "11": 2,
+     "179": 1,
+     "233": 1,
+     "461": 1,
+     "18932738311": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dS|W3_quad": {
+    "num": {
+     "2": 31,
+     "3": 3,
+     "11": 1,
+     "571104005249": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dS|W6_quad": {
+    "num": {
+     "2": 27,
+     "3": 3,
+     "5": 1,
+     "7": 3,
+     "11": 1,
+     "21929": 1,
+     "29423": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dS|overlap_same": {
+    "num": {
+     "-1": 1,
+     "107": 1,
+     "137": 1,
+     "C50:86680015174554920184484810232466525967105423026571": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dS|overlap_cross": {
+    "num": {
+     "-1": 1,
+     "5": 2,
+     "191": 1,
+     "587": 1,
+     "82163": 1,
+     "421294389981839443319": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dA|mp_mS": {
+    "num": {
+     "-1": 1,
+     "2": 49,
+     "3": 16,
+     "139": 1,
+     "C16:3654534028543091": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dA|mp_mA": {
+    "num": {
+     "-1": 1,
+     "2": 50,
+     "3": 17,
+     "5": 1,
+     "11": 1,
+     "73": 1,
+     "32189": 1,
+     "364143293": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dA|W3_quad": {
+    "num": {
+     "2": 27,
+     "3": 3,
+     "5": 3,
+     "11": 3,
+     "181": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dA|W6_quad": {
+    "num": {
+     "2": 26,
+     "3": 3,
+     "7": 3,
+     "22876193": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dA|overlap_same": {
+    "num": {
+     "-1": 1,
+     "11": 1,
+     "2473": 1,
+     "C49:2909761933096771940881434689139651580120101693563": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_dA|overlap_cross": {
+    "num": {
+     "227": 1,
+     "C34:2150796804780444071168021232871381": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mS|mp_mA": {
+    "num": {
+     "2": 57,
+     "3": 16,
+     "7": 5,
+     "11": 1,
+     "953": 2,
+     "17681": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mS|W3_quad": {
+    "num": {
+     "2": 26,
+     "3": 3,
+     "5": 3,
+     "283": 1,
+     "409": 1,
+     "433": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mS|W6_quad": {
+    "num": {
+     "2": 26,
+     "3": 3,
+     "5": 2,
+     "11": 1,
+     "1571": 1,
+     "57291029": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mS|overlap_same": {
+    "num": {
+     "C58:1068136796178898131775582594310153996887324659833808208897": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mS|overlap_cross": {
+    "num": {
+     "11": 1,
+     "107": 1,
+     "283": 1,
+     "1231": 1,
+     "252163": 1,
+     "C28:1502594530022951950223381863": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mA|W3_quad": {
+    "num": {
+     "2": 29,
+     "3": 3,
+     "5": 1,
+     "11": 1,
+     "3491": 1,
+     "90749": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mA|W6_quad": {
+    "num": {
+     "2": 31,
+     "3": 3,
+     "6308631697": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mA|overlap_same": {
+    "num": {
+     "6917": 1,
+     "C51:115547905449657019130138870841089404465020175731773": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "mp_mA|overlap_cross": {
+    "num": {
+     "857": 1,
+     "C37:1936496217024724864395186935502093833": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "W3_quad|W6_quad": {
+    "num": {
+     "2": 17,
+     "3": 3,
+     "17": 1,
+     "23": 2
+    },
+    "den": {},
+    "has_29": false
+   },
+   "W3_quad|overlap_same": {
+    "num": {
+     "5987": 1,
+     "9017876636822283106916701399": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "W3_quad|overlap_cross": {
+    "num": {
+     "C22:2867351006317940295173": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "W6_quad|overlap_same": {
+    "num": {
+     "-1": 1,
+     "5": 9,
+     "187277": 1,
+     "1452298763003996419": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "W6_quad|overlap_cross": {
+    "num": {
+     "5": 6,
+     "11": 1,
+     "583818193450399": 1
+    },
+    "den": {},
+    "has_29": false
+   },
+   "overlap_same|overlap_cross": {
+    "num": {
+     "2": 27,
+     "3": 6,
+     "5": 18,
+     "251": 1,
+     "953": 8
+    },
+    "den": {},
+    "has_29": false
+   }
+  },
+  "W29-5_resultant_grid_29_hits": [],
+  "W29-7_grams": {
+   "charge_trace_gram_diag": [
+    "60383232",
+    "-79427174400",
+    "247210809753600/13",
+    "-222489728778240000/19"
+   ],
+   "charge_trace_gram_offdiag_all_zero": true,
+   "charge_trace_gram_entry_fac": {
+    "8": {
+     "num": {
+      "2": 13,
+      "3": 4,
+      "7": 1,
+      "13": 1
+     },
+     "den": {}
+    },
+    "14": {
+     "num": {
+      "-1": 1,
+      "2": 15,
+      "3": 6,
+      "5": 2,
+      "7": 1,
+      "19": 1
+     },
+     "den": {}
+    },
+    "16": {
+     "num": {
+      "2": 23,
+      "3": 7,
+      "5": 2,
+      "7": 2,
+      "11": 1
+     },
+     "den": {
+      "13": 1
+     }
+    },
+    "22": {
+     "num": {
+      "-1": 1,
+      "2": 25,
+      "3": 9,
+      "5": 4,
+      "7": 2,
+      "11": 1
+     },
+     "den": {
+      "19": 1
+     }
+    }
+   },
+   "charge_trace_gram_det": "1067986931045048342540691093564203571609600000000",
+   "charge_trace_gram_det_fac": {
+    "num": {
+     "2": 76,
+     "3": 26,
+     "5": 8,
+     "7": 6,
+     "11": 2
+    },
+    "den": {}
+   },
+   "charge_trace_gram_principal_minors": [
+    "60383232",
+    "-4796069498899660800",
+    "-91203094189040594658797813760000",
+    "1067986931045048342540691093564203571609600000000"
+   ],
+   "G3_det": "-23922095638236364800",
+   "G3_det_fac": {
+    "num": {
+     "-1": 1,
+     "2": 32,
+     "3": 10,
+     "5": 2,
+     "7": 3,
+     "11": 1
+    },
+    "den": {}
+   },
+   "G6_det": "5174575554515040054851791749120000000000",
+   "G6_det_fac": {
+    "num": {
+     "2": 58,
+     "3": 17,
+     "5": 10,
+     "7": 6,
+     "11": 2
+    },
+    "den": {}
+   },
+   "G18_det": "1556415303506476891498390487040000000000",
+   "G18_det_fac": {
+    "num": {
+     "2": 50,
+     "3": 17,
+     "5": 10,
+     "7": 7,
+     "11": 3
+    },
+    "den": {}
+   },
+   "H_plus_diagonal_weights_distinct_values": [
+    -1,
+    1
+   ],
+   "29_anywhere": false
+  },
+  "chain_tests_POST_WHITELIST": {
+   "T1_S_family_at_29": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "T2_A_register_quadratic": {
+    "poly": "1536*x**2 - 984*x + 125",
+    "coeff_fac": [
+     {
+      "2": 9,
+      "3": 1
+     },
+     {
+      "-1": 1,
+      "2": 3,
+      "3": 1,
+      "41": 1
+     },
+     {
+      "5": 3
+     }
+    ]
+   },
+   "T3_kinds": "the 2088-appearance is the NUMERATOR of a rational trace (an additive invariant: 87 = 64*(Tr_K(m_S) - 1)); the m_A-appearance is a PRIME IDEAL of K (a place at which a multiplicative invariant vanishes). No operation in the pipeline sends one to the other -- the numerator of a rational trace is not a place of anything.",
+   "T4_W6_matrix_29_is_basis_dependent": {
+    "original_entries": [
+     "29/96",
+     "385/4",
+     "1/4608",
+     "65/192"
+    ],
+    "conjugating_shear_c": 1,
+    "entries_after": [
+     "-9211/96",
+     "385/4",
+     "-443687/4608",
+     "18545/192"
+    ],
+    "charpoly_preserved": true
+   },
+   "T5_29_in_any_divisor_computed_here": {
+    "m_A": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "m_S": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "d_A": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "d_S": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "W": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "u": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "X_cross": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   "T6_W3_compression_mod_29": {
+    "cleared_charpoly": "1536*x**3 - 3624*x**2 + 2765*x - 677",
+    "charpoly_mod_29": [
+     28,
+     1,
+     10,
+     19
+    ],
+    "quadratic_mod_29": [
+     28,
+     0,
+     10
+    ],
+    "quadratic_irreducible_mod_29": true,
+    "reading": "mod 29 the quadratic loses its linear term (2088 = 0 mod 29): the two non-unity principal cosines^2 become negatives of each other mod 29. Nothing degenerates -- the quadratic stays irreducible mod 29 (29 is inert in the shared rotation field)."
+   }
+  },
+  "post_whitelist_observations": {
+   "677_appears_in_both_worlds": {
+    "W3_rotation_quadratic_constant": 677,
+    "same_gen_overlap_x_coefficient": {
+     "-1": 1,
+     "3": 1,
+     "5": 3,
+     "677": 1,
+     "953": 2
+    },
+    "cross_gen_overlap_x_coefficient": {
+     "3": 1,
+     "5": 3,
+     "677": 1
+    },
+    "677_place_structure_in_K": [
+     {
+      "e": 1,
+      "f": 3
+     }
+    ],
+    "status": "UNEXPLAINED COINCIDENCE-LEVEL DATA. 677 was NOT on the declared whitelist; it is recorded here because it turned up in the factorisations the whitelist printed, and it is registered for a future DECLARED test, not used for anything in this arc's verdict."
+   },
+   "the_shared_rotation_field": {
+    "disc": 200256,
+    "squarefree_part": 3129,
+    "factorisation": {
+     "3": 1,
+     "7": 1,
+     "149": 1
+    },
+    "status": "3129 = 3 * 7 * 149; 3 and 7 divide disc K = 3^4 * 7 * 11 but 149 is new to the record. Recorded, not used."
+   }
+  },
+  "look_elsewhere_budget": {
+   "integers_examined_in_the_whitelist": 84,
+   "29_divisibility_hits": 2,
+   "hits": [
+    {
+     "tag": "N(m_A) numerator",
+     "value": "2113201",
+     "has_29": true
+    },
+    {
+     "tag": "W3 factor coeff",
+     "value": "-2088",
+     "has_29": true
+    }
+   ],
+   "naive_expectation": "84/29",
+   "reading": "under the crude model 'a pipeline integer is divisible by 29 with probability 1/29', the whitelist's own integer count already predicts hits of this multiplicity. Two appearances of a prime as small as 29 across a whitelist of this size is not, by itself, evidence of a mechanism."
+  }
+ },
+ "verdict": {
+  "partA": {
+   "W_divisor": {
+    "p=5#0(f=1)": 6,
+    "p=5#1(f=2)": 3,
+    "p=953#0(f=1)": -2,
+    "p=953#1(f=2)": -1
+   },
+   "953": "W's whole 953-content is a POLE, and it is exactly minus the sum of the two families' twist divisors: W [[1, -2], [2, -1]] against d_S [[1, 2], [2, 0]] and d_A [[1, 0], [2, 1]]. The mixing element is the one object that sees BOTH places of 953 at once -- the observer's degree-one place (doubly, from the vacuum family) and the degree-two mirror place (simply, from the A-family) -- while each family alone sees only its own. The banked lead 953^4 = N(P1^2 * P2) exactly.",
+   "5": "the gauge-invariant H+-normalised mixing element u = W d_S d_A has a divisor supported EXACTLY over [2, 3, 5]: the golden numerator is entirely u's, the value prime entirely the twist's. The 5-divisor is q1^6 q2^3 (f = 1, 2), so the two places over 5 contribute EQUAL local norms 5^6 each: 12 = 6 + 6, and 6 is also the whole 5-content of a cross-generation overlap.",
+   "the_observer_place_law": "the cross-generation overlap^2 is supported ENTIRELY on the DEGREE-TWO places -- q2(5)^3 P2(953)^-1 -- and the same-generation one adds exactly q1(5)^6 P1(953)^-2. The whole difference between diagonal and off-diagonal mixing is the OBSERVER'S degree-one place, at 953 with exactly d_S's twist exponent (B918's V-pole place). Off-diagonal mixing never touches the observer's place.",
+   "exponent_12": {
+    "12 = 4 places x 3": {
+     "places_over_5": 2,
+     "verdict": "REFUTED",
+     "detail": "5 has 2 places in K ([(1, 1), (1, 2)]), not 4"
+    },
+    "12 = the D-flip count": {
+     "D2_flip_count": 11,
+     "verdict": "REFUTED",
+     "detail": "the banked flip rank is 11 exactly (tr W3 = 151/64, tr W6 = 169/64, tr W18 = 6; the three register compressions exhaust tr Pi_F = 11 exactly); 11 != 12"
+    },
+    "12 = the floor dimension": {
+     "floor_dim_banked": 12,
+     "verdict": "MATCH WITHOUT MECHANISM",
+     "detail": "Cent(C) -- the floor -- has dimension 12 (B874/B932). The integers agree, but this cell exhibits NO computation carrying the floor into the 5-divisor; recorded as a coincidence-level match, not a derivation."
+    },
+    "12 = 6 + 6, the two places over 5 balancing": {
+     "verdict": "COMPUTED",
+     "W_at_5": [
+      [
+       1,
+       6
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     "local_norm_exponents": [
+      6,
+      6
+     ],
+     "detail": "the divisor of W over 5 is q1^6 q2^3 with f(q1) = 1 and f(q2) = 2, so each place contributes exactly 5^6 to the norm. The exponent 12 is the SUM OF TWO EQUAL LOCAL CONTRIBUTIONS, not a dimension; and 6 is also the whole 5-content of a cross-generation overlap."
+    },
+    "12 = 3 x 4, the 5-part being a perfect cube": {
+     "verdict": "COMPUTED",
+     "detail": "the 5-valuations (6, 3) have gcd 3, so the 5-part of (W) is the cube of an ideal of norm 5^4. Recorded; no mechanism is claimed for the cube."
+    },
+    "12 = 2 x 6, the divisor being a square": {
+     "verdict": "REFUTED BY THE COMPUTATION",
+     "detail": "this cell's first pass guessed the 5-divisor would be even at every place, since W's numerator is the square x_e^2. The computation refutes it: the valuation at the degree-two place is 3, odd, because the H+ norms are NOT 5-units (v_5(N(q_S)) = 4, v_5(N(q_A)) = 8). The abort is logged as part of the instrument story."
+    }
+   },
+   "golden_field": "5 IS A RESIDUE CHARACTERISTIC, NOT THE GOLDEN FIELD. The overlap^2 generates K; the splitting field of its minimal polynomial is the S3-closure of K, whose unique quadratic subfield is Q(sqrt77). The whole tower Mbar in which B930 computed has exactly three quadratic subfields -- Q(sqrt77), Q(sqrt-3), Q(sqrt-231) -- and Q(sqrt5) is none of them; x^2 - 5 and x^2 + 15 are both irreducible over K; and 5 does not divide disc K = 3^4 * 7 * 11, so 5 is unramified. The 5 in the banked minimal polynomial is the residue characteristic of the places carrying the mixing numerator -- nothing golden."
+  },
+  "partB": {
+   "verdict": "COINCIDENCE",
+   "grounds": [
+    "OPPOSITE SIDES: the 29-place lives on the A-family (m_A vanishes at the degree-one place over 29) while m_S has valuation 0 at every place over 29; conversely the 29 of 2088 lives in the S-register's rotation quadratic while the A-register's own rotation quadratic 1536x^2 - 984x + 125 is 29-free",
+    "DIFFERENT KINDS: 2088's 29 is a factor of the numerator of a rational trace (87 = 64*(Tr_K(m_S) - 1), an additive invariant); m_A's 29 is a prime ideal of K at which a multiplicative invariant vanishes. No pipeline map carries a trace numerator to a place",
+    "29 divides NO discriminant in the whitelist: not the two rotation quadratics' shared discriminant, not any compression charpoly's, not either overlap minimal polynomial's",
+    "29 appears in NO divisor computed in this cell except m_A's (W, u, X_cross, d_S, d_A, m_S are all 29-units)",
+    "the one further 29 in the record -- the entry 29/96 of B930's W6 compression matrix -- is shown here to be basis-dependent: an exhibited unimodular shear removes every 29 while preserving the characteristic polynomial",
+    "the look-elsewhere budget over the whitelist's own integers predicts hits of this multiplicity"
+   ],
+   "what_would_have_made_it_structural": "at least two whitelist appearances of 29 are linked by an EXHIBITED chain of exact identities in which one appearance is derived from the other -- e.g. the 29 dividing 2088 shown to be the residue characteristic of a place at which a named object of the SAME family degenerates, with the identity computed in this cell"
+  }
+ },
+ "runtime_s": 2.0
+}

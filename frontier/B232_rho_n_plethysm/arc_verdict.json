@@ -1,0 +1,10 @@
+{
+ "id": "B232",
+ "verdict": "PROVED",
+ "claim_one_line": "The ρ_n tower obeys a one-step stabilization recursion ρ_n ≅ ρ_{n−1} ⊕ Sym^n ⊕ Sym^{n−3}, verified exactly to n=8 and on the real Jacobian to n=5.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

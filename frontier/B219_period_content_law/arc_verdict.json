@@ -1,0 +1,10 @@
+{
+ "id": "B219",
+ "verdict": "PROVED",
+ "claim_one_line": "The WRT class-field period law is elementary: P(gamma)=lcm(t-2,t+2)/content(gamma) with content=gcd(b,c,a-d), verified exhaustively at f=8 and f=16, no genus dependence.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B216",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

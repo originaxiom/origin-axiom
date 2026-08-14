@@ -1,0 +1,27 @@
+{
+ "grading": "e6 = F4 (theta-even, dim 52) + 26 (theta-odd)",
+ "dim_check": true,
+ "bracket_rules": {
+  "[even,even]": "even",
+  "[even,odd]": "odd",
+  "[odd,odd]": "even"
+ },
+ "even_part_is_a_subalgebra": true,
+ "odd_part_is_a_subalgebra": false,
+ "odd_part_is_a_module_over_the_even_part": true,
+ "can_restrict_to_even_branch": true,
+ "can_restrict_to_odd_branch": false,
+ "both_branches_together": {
+  "algebra": "e6",
+  "dim": 78,
+  "rank": 6
+ },
+ "chirality_lives_in": "the theta-odd component only (B576)",
+ "therefore_chirality_requires_the_whole": true,
+ "theta_is_itself_a_rank_reducer": {
+  "from": 6,
+  "to": 4,
+  "cost": "kills chirality"
+ },
+ "the_trap": "chirality requires the odd part; the odd part exists only inside the whole; the whole has rank 6; and the object's one rank-reducer (theta) is exactly the operation that removes the odd part"
+}

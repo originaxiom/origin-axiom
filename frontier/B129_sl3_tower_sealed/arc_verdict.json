@@ -1,0 +1,10 @@
+{
+ "id": "B129",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The metallic SL(3) tower is SL(2) arithmetic in SL(3) clothing with zero fixed points escaping Q(sqrt-3), so climbing ranks acquires no new field or content.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

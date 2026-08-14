@@ -1,0 +1,14 @@
+{
+ "ambiguity_resolved": "Gamma in {1, Z2, Z3, Z6} all consistent with local SM physics (Tong 1705.01853); the SU(5) chain forces Z6.",
+ "falsifiable_in_principle": "the four quotients differ in their line-operator spectra (one-form symmetry)",
+ "global_form": "S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6",
+ "kernel_order": 6,
+ "kernel_sixth_root_indices": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "B409",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The transport 'theorem' is KILLED: count-conservation holds on only 4 of 6 pairs, failing exactly the two high-multiplicity ones.",
+ "instrument": false,
+ "depends_on": [
+  "B407"
+ ],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot",
+ "kill": {
+  "kill_form": "other",
+  "faces_consulted": [
+   "mtc-overlay"
+  ],
+  "fact_computed": true,
+  "hatch": "nonlinear-transport",
+  "revival_score": 2
+ }
+}

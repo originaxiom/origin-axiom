@@ -1,0 +1,13 @@
+{
+ "id": "B245",
+ "verdict": "PROVED",
+ "claim_one_line": "Higher-color level-rank duality for the figure-eight extends the SU(2)_k = SU(k)_2 conjugation result beyond the fundamental.",
+ "instrument": false,
+ "depends_on": [
+  "B242",
+  "B243"
+ ],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot"
+}

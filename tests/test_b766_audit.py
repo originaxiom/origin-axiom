@@ -96,15 +96,58 @@ def test_gamma5_swaps_A5_irreps():
     assert sp.simplify(chi_5A_under_g5 - chi_5B) == 0
 
 
+# --- the flip vectors, DERIVED (2026-07-29 vacuity repair) --------------------------------
+# These four vectors used to be hand-typed literals, and every lattice test below compared a
+# literal to a literal: `assert (0, 0, 1) == (0, 0, 1)`, and a "match cc" test whose two sides
+# were identical hardcoded dicts. They passed unconditionally -- the F2 rank, the T7 = T3
+# identification and T6 = T4 (+) theta could not have failed however the involutions actually
+# behaved, so the cross-seat check verified nothing but its own transcription. Each bit is now
+# computed from the same objects the tests above exercise; FINDINGS marks all of them "derived".
+def _flip_vectors():
+    """Return {axis: (c_bit, theta_bit, gamma5_bit)}, every bit from an actual computation."""
+    g5 = lambda e: e.subs(sp.sqrt(5), -sp.sqrt(5))       # the golden Galois, sqrt5 -> -sqrt5
+    vecs = {}
+
+    # T4 -- chirality: the Riley curve's two geometric roots at x = 2.
+    roots = sp.solve((y**2 - (x**2 - 1)*y + (x**2 - 1)).subs(x, 2), y)
+    c_T4 = int(sp.simplify(sp.conjugate(roots[0]) - roots[0]) != 0)   # conjugation moves it
+    th_T4 = int(sp.simplify((A * B_u).trace() - (B_u * A).trace()) != 0)  # trace symmetry fixes
+    g5_T4 = int(any(g5(r) != r for r in roots))          # roots lie in Q(sqrt-3): no sqrt5
+    vecs["T4"] = (c_T4, th_T4, g5_T4)
+
+    # T6 -- the chord: d/du[tr(AB)^2 - 1] at u = omega, whose value is purely imaginary sqrt3.
+    chord = sp.diff(sp.expand((A * B_u).trace()**2 - 1), u).subs(u, omega)
+    c_T6 = int(sp.simplify(sp.conjugate(chord) - chord) != 0)
+    S2_odd = sp.simplify(sym2((A * B_u).subs(u, omega)) - sym2((B_u * A).subs(u, omega)))
+    th_T6 = int(any(S2_odd[i, j] != 0 for i in range(3) for j in range(3)))
+    g5_T6 = int(sp.simplify(g5(chord) - chord) != 0)
+    vecs["T6"] = (c_T6, th_T6, g5_T6)
+
+    # T7 -- time's direction: the eigenvalues phi^2, phi^-2 of RL.
+    M_RL, M_LR = sp.Matrix([[2, 1], [1, 1]]), sp.Matrix([[1, 1], [1, 2]])
+    evs = list(M_RL.eigenvals())
+    c_T7 = int(any(sp.simplify(sp.im(e)) != 0 for e in evs))          # real => fixed
+    th_T7 = int(sorted(M_RL.eigenvals()) != sorted(M_LR.eigenvals()))  # reversal fixes
+    g5_T7 = int(any(sp.simplify(g5(e) - e) != 0 for e in evs))         # sqrt5 -> -sqrt5 inverts
+    vecs["T7"] = (c_T7, th_T7, g5_T7)
+
+    # T3 -- the basepoint bit: the A5 irreps 5A/5B, chi_5A = phi - 1, chi_5B = -phi.
+    chi_5A, chi_5B = phi - 1, -phi
+    c_T3 = int(sp.simplify(sp.im(chi_5A)) != 0)          # character is real => c fixes it
+    th_T3 = int(sp.simplify(sp.conjugate(chi_5A) - chi_5A) != 0)   # contragredient = conj on chi
+    g5_T3 = int(sp.simplify(g5(chi_5A) - chi_5B) == 0 and sp.simplify(chi_5A - chi_5B) != 0)
+    vecs["T3"] = (c_T3, th_T3, g5_T3)
+    return vecs
+
+
 def test_flip_vectors_match_cc():
+    """A REAL cross-seat check: cc's banked literals vs vectors derived here from scratch."""
     cc_vecs = {"T4": (1, 0, 0), "T6": (1, 1, 0), "T7": (0, 0, 1), "T3": (0, 0, 1)}
-    our_vecs = {"T4": (1, 0, 0), "T6": (1, 1, 0), "T7": (0, 0, 1), "T3": (0, 0, 1)}
-    assert our_vecs == cc_vecs
+    assert _flip_vectors() == cc_vecs
 
 
 def test_f2_rank_is_three():
-    vecs = [(1, 0, 0), (1, 1, 0), (0, 0, 1), (0, 0, 1)]
-    mat = [list(v) for v in vecs]
+    mat = [list(v) for v in _flip_vectors().values()]
     r = 0
     for col in range(3):
         piv = next((i for i in range(r, len(mat)) if mat[i][col] % 2), None)
@@ -115,23 +158,28 @@ def test_f2_rank_is_three():
             if i != r and mat[i][col] % 2:
                 mat[i] = [(a + b) % 2 for a, b in zip(mat[i], mat[r])]
         r += 1
-    assert r == 3
+    assert r == 3, "rank 3 = B733's menu rank (saturated)"
 
 
 def test_T7_equals_T3_same_flip_vector():
-    assert (0, 0, 1) == (0, 0, 1)  # T7 == T3: time = basepoint
+    v = _flip_vectors()
+    assert v["T7"] == v["T3"]          # time's arrow and the basepoint are ONE choice
+    assert v["T7"] == (0, 0, 1)        # and that choice is the gamma5 (golden) branch
 
 
 def test_T6_is_T4_xor_theta():
-    T4 = (1, 0, 0)
+    v = _flip_vectors()
     theta_vec = (0, 1, 0)
-    T6_expected = tuple((a + b) % 2 for a, b in zip(T4, theta_vec))
-    assert T6_expected == (1, 1, 0)
+    assert tuple((a + b) % 2 for a, b in zip(v["T4"], theta_vec)) == v["T6"]
 
 
 def test_T1_unmoved_by_involution_set():
-    T1 = (0, 0, 0)
-    assert all(b == 0 for b in T1)
+    """T1 is the FINDINGS' honest residue -- 'reported, uncounted; a named door'.
+
+    No computation in this arc moves it, so unlike the four above there is no bit to derive:
+    this locks that T1 is absent from the derived set, NOT that a computation found it fixed.
+    Stated as the arc states it, rather than dressed up as a verified zero."""
+    assert "T1" not in _flip_vectors()
 
 
 def test_riley_disc_minus_three():

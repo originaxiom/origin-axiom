@@ -1,0 +1,10 @@
+{
+ "id": "B358",
+ "verdict": "PROVED",
+ "claim_one_line": "Exactly certified: sqrt(-15) appears in the Heisenberg-twisted theta pair sector (44 of 49 doubles) and vanishes identically in the canonical lift.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

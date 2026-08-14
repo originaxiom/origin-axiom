@@ -1,0 +1,10 @@
+{
+ "id": "B620",
+ "verdict": "PROVED",
+ "claim_one_line": "In the Weyl-twisted Weil factorization the six signed reflections carry the only non-square conductor 4-t^2, so the object's field has exactly one door.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

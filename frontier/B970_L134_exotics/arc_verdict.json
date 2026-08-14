@@ -1,0 +1,12 @@
+{
+ "id": "B970",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "L134 WORKER CELL (banked in B978): the twelve exotic states per generation (27 = 16+10+1) given their quantum numbers under the cascade's Levi, plus the cascade's resolving power on them. Bounded structural computation, one 27, no generations/masses/couplings/values. WORKER CELL: this directory is a Phase-A multiagent worker cell whose result was banked by B978; it is not a standalone arc and carries no independent claim.",
+ "depends_on": [
+  "B978"
+ ],
+ "supersedes": null,
+ "superseded_by": "B978",
+ "authored_by": "cc banking seat (2026-08-08), retro-verdicted to close the B819 frame gap"
+}

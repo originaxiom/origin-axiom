@@ -1,0 +1,10 @@
+{
+ "id": "B848",
+ "verdict": "PROVED",
+ "claim_one_line": "The incoming handoff bundle's arrow/amphichirality census reproduces exactly (6/6) by two independent methods, but its stated metallic mechanism proves the wrong half: symmetry supplies the det=+1 (amphichirality) conjugator, not the det=-1 one 'no arrow' needs, and LLRLRR=[[2,5],[5,13]] is a symmetric counterexample with an arrow; the conclusion survives via disc=m^2+4 and the metallic mean's norm -1, and the arrow is GENERIC (56.6% of cyclic classes by length 10), not rare.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-02)"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B331",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The generation-permuting order-3 element is elliptic and conjugate to its inverse, forcing chi_27(g) real and n1=n2 in every representation - closing the proposed SL(2,C)/holomorphic escape for the object's own lift.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

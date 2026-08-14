@@ -1,0 +1,800 @@
+{
+ "cell1": {
+  "dead_at_step0": 21,
+  "eligible": [
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "D5",
+   "D7",
+   "E6"
+  ],
+  "rows": [
+   {
+    "alg": "A1",
+    "chiral_capable": false
+   },
+   {
+    "alg": "A2",
+    "chiral_capable": true
+   },
+   {
+    "alg": "A3",
+    "chiral_capable": true
+   },
+   {
+    "alg": "A4",
+    "chiral_capable": true
+   },
+   {
+    "alg": "A5",
+    "chiral_capable": true
+   },
+   {
+    "alg": "A6",
+    "chiral_capable": true
+   },
+   {
+    "alg": "A7",
+    "chiral_capable": true
+   },
+   {
+    "alg": "A8",
+    "chiral_capable": true
+   },
+   {
+    "alg": "B2",
+    "chiral_capable": false
+   },
+   {
+    "alg": "B3",
+    "chiral_capable": false
+   },
+   {
+    "alg": "B4",
+    "chiral_capable": false
+   },
+   {
+    "alg": "B5",
+    "chiral_capable": false
+   },
+   {
+    "alg": "B6",
+    "chiral_capable": false
+   },
+   {
+    "alg": "B7",
+    "chiral_capable": false
+   },
+   {
+    "alg": "B8",
+    "chiral_capable": false
+   },
+   {
+    "alg": "C3",
+    "chiral_capable": false
+   },
+   {
+    "alg": "C4",
+    "chiral_capable": false
+   },
+   {
+    "alg": "C5",
+    "chiral_capable": false
+   },
+   {
+    "alg": "C6",
+    "chiral_capable": false
+   },
+   {
+    "alg": "C7",
+    "chiral_capable": false
+   },
+   {
+    "alg": "C8",
+    "chiral_capable": false
+   },
+   {
+    "alg": "D4",
+    "chiral_capable": false
+   },
+   {
+    "alg": "D5",
+    "chiral_capable": true
+   },
+   {
+    "alg": "D6",
+    "chiral_capable": false
+   },
+   {
+    "alg": "D7",
+    "chiral_capable": true
+   },
+   {
+    "alg": "D8",
+    "chiral_capable": false
+   },
+   {
+    "alg": "G2",
+    "chiral_capable": false
+   },
+   {
+    "alg": "F4",
+    "chiral_capable": false
+   },
+   {
+    "alg": "E6",
+    "chiral_capable": true
+   },
+   {
+    "alg": "E7",
+    "chiral_capable": false
+   },
+   {
+    "alg": "E8",
+    "chiral_capable": false
+   }
+  ],
+  "total": 31
+ },
+ "cell2": {
+  "E6 27 (via banked step-1 menu)": {
+   "endpoint": "su(2) + su(3) + 3 u(1)",
+   "step1_menu": [
+    {
+     "dim": 46,
+     "option": "SO(10)xU(1)",
+     "registerable": true
+    },
+    {
+     "dim": 38,
+     "option": "SU(6)xSU(2)",
+     "registerable": true
+    },
+    {
+     "dim": 24,
+     "option": "SU(3)^3",
+     "registerable": true
+    },
+    {
+     "dim": 36,
+     "option": "Sp(8)",
+     "registerable": false
+    }
+   ],
+   "step1_winner": "SO(10)xU(1)",
+   "steps": [
+    "so(10) + 1 u(1)",
+    "su(5) + 2 u(1)",
+    "su(2) + su(3) + 3 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "so(10) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "so(10)->su(5)xu(1)",
+       "dim": 26,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->su(4)xsu(2)xsu(2) [Pati-Salam]",
+       "dim": 22,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->so(8)xu(1)",
+       "dim": 30,
+       "registerable": false
+      }
+     ]
+    },
+    {
+     "at": "su(5) + 2 u(1)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 18,
+       "registerable": false
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 14,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(3) + 3 u(1)",
+     "menu": [
+      {
+       "desc": "strip su(2)#0",
+       "dim": 12,
+       "registerable": false
+      },
+      {
+       "desc": "su(3)->su(2)xu(1)@1",
+       "dim": 10,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  },
+  "so(10) spinor 16": {
+   "endpoint": "su(2) + su(3) + 2 u(1)",
+   "steps": [
+    "so(10)",
+    "su(5) + 1 u(1)",
+    "su(2) + su(3) + 2 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "so(10)",
+     "menu": [
+      {
+       "desc": "so(10)->su(5)xu(1)",
+       "dim": 25,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->su(4)xsu(2)xsu(2) [Pati-Salam]",
+       "dim": 21,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->so(8)xu(1)",
+       "dim": 29,
+       "registerable": false
+      }
+     ]
+    },
+    {
+     "at": "su(5) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 17,
+       "registerable": false
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 13,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(3) + 2 u(1)",
+     "menu": [
+      {
+       "desc": "strip su(2)#0",
+       "dim": 11,
+       "registerable": false
+      },
+      {
+       "desc": "su(3)->su(2)xu(1)@1",
+       "dim": 9,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  },
+  "so(14) spinor 64": {
+   "endpoint": "su(2) + su(2) + su(3) + 3 u(1)",
+   "steps": [
+    "so(14)",
+    "so(10) + su(2) + su(2)",
+    "so(10) + su(2) + 1 u(1)",
+    "su(2) + su(5) + 2 u(1)",
+    "su(2) + su(2) + su(3) + 3 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "so(14)",
+     "menu": [
+      {
+       "desc": "so(14)->su(7)xu(1)",
+       "dim": 49,
+       "registerable": true
+      },
+      {
+       "desc": "so(14)->so(12)xu(1)",
+       "dim": 67,
+       "registerable": false
+      },
+      {
+       "desc": "so(14)->so(10)xso(4)",
+       "dim": 51,
+       "registerable": true
+      },
+      {
+       "desc": "so(14)->so(8)xso(6)",
+       "dim": 43,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "so(10) + su(2) + su(2)",
+     "menu": [
+      {
+       "desc": "so(10)->su(5)xu(1)",
+       "dim": 31,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->su(4)xsu(2)xsu(2) [Pati-Salam]",
+       "dim": 27,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->so(8)xu(1)",
+       "dim": 35,
+       "registerable": false
+      },
+      {
+       "desc": "strip su(2)#1",
+       "dim": 49,
+       "registerable": true
+      },
+      {
+       "desc": "strip su(2)#2",
+       "dim": 49,
+       "registerable": true
+      }
+     ],
+     "tie": 2
+    },
+    {
+     "at": "so(10) + su(2) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "so(10)->su(5)xu(1)",
+       "dim": 29,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->su(4)xsu(2)xsu(2) [Pati-Salam]",
+       "dim": 25,
+       "registerable": true
+      },
+      {
+       "desc": "so(10)->so(8)xu(1)",
+       "dim": 33,
+       "registerable": false
+      },
+      {
+       "desc": "strip su(2)#1",
+       "dim": 47,
+       "registerable": false
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(5) + 2 u(1)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 21,
+       "registerable": false
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 17,
+       "registerable": true
+      },
+      {
+       "desc": "strip su(2)#1",
+       "dim": 27,
+       "registerable": false
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(2) + su(3) + 3 u(1)",
+     "menu": [
+      {
+       "desc": "strip su(2)#0",
+       "dim": 15,
+       "registerable": false
+      },
+      {
+       "desc": "su(3)->su(2)xu(1)@1",
+       "dim": 13,
+       "registerable": false
+      },
+      {
+       "desc": "strip su(2)#2",
+       "dim": 15,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  },
+  "su(5) Georgi family": {
+   "endpoint": "su(2) + su(3) + 1 u(1)",
+   "steps": [
+    "su(5)",
+    "su(2) + su(3) + 1 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "su(5)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 16,
+       "registerable": false
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 12,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(3) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "strip su(2)#0",
+       "dim": 10,
+       "registerable": false
+      },
+      {
+       "desc": "su(3)->su(2)xu(1)@1",
+       "dim": 8,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  },
+  "su(6) Georgi family": {
+   "endpoint": "su(2) + su(3) + 2 u(1)",
+   "steps": [
+    "su(6)",
+    "su(5) + 1 u(1)",
+    "su(2) + su(3) + 2 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "su(6)",
+     "menu": [
+      {
+       "desc": "su(6)->su(5)xu(1)@0",
+       "dim": 25,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(2)xsu(4)xu(1)@0",
+       "dim": 19,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(3)xsu(3)xu(1)@0",
+       "dim": 17,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(5) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 17,
+       "registerable": false
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 13,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(3) + 2 u(1)",
+     "menu": [
+      {
+       "desc": "strip su(2)#0",
+       "dim": 11,
+       "registerable": false
+      },
+      {
+       "desc": "su(3)->su(2)xu(1)@1",
+       "dim": 9,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  },
+  "su(6) Sym2 family [NEGATIVE CONTROL]": {
+   "endpoint": "su(3) + 3 u(1)",
+   "steps": [
+    "su(6)",
+    "su(5) + 1 u(1)",
+    "su(4) + 2 u(1)",
+    "su(3) + 3 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "su(6)",
+     "menu": [
+      {
+       "desc": "su(6)->su(5)xu(1)@0",
+       "dim": 25,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(2)xsu(4)xu(1)@0",
+       "dim": 19,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(3)xsu(3)xu(1)@0",
+       "dim": 17,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(5) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 17,
+       "registerable": true
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 13,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(4) + 2 u(1)",
+     "menu": [
+      {
+       "desc": "su(4)->su(3)xu(1)@0",
+       "dim": 11,
+       "registerable": true
+      },
+      {
+       "desc": "su(4)->su(2)xsu(2)xu(1)@0",
+       "dim": 9,
+       "registerable": false
+      }
+     ]
+    },
+    {
+     "at": "su(3) + 3 u(1)",
+     "menu": [
+      {
+       "desc": "su(3)->su(2)xu(1)@0",
+       "dim": 7,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  },
+  "su(7) Georgi family": {
+   "endpoint": "su(2) + su(3) + 3 u(1)",
+   "steps": [
+    "su(7)",
+    "su(6) + 1 u(1)",
+    "su(5) + 2 u(1)",
+    "su(2) + su(3) + 3 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "su(7)",
+     "menu": [
+      {
+       "desc": "su(7)->su(6)xu(1)@0",
+       "dim": 36,
+       "registerable": true
+      },
+      {
+       "desc": "su(7)->su(2)xsu(5)xu(1)@0",
+       "dim": 28,
+       "registerable": true
+      },
+      {
+       "desc": "su(7)->su(3)xsu(4)xu(1)@0",
+       "dim": 24,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(6) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "su(6)->su(5)xu(1)@0",
+       "dim": 26,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(2)xsu(4)xu(1)@0",
+       "dim": 20,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(3)xsu(3)xu(1)@0",
+       "dim": 18,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(5) + 2 u(1)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 18,
+       "registerable": false
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 14,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(3) + 3 u(1)",
+     "menu": [
+      {
+       "desc": "strip su(2)#0",
+       "dim": 12,
+       "registerable": false
+      },
+      {
+       "desc": "su(3)->su(2)xu(1)@1",
+       "dim": 10,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  },
+  "su(8) Georgi family": {
+   "endpoint": "su(2) + su(3) + 4 u(1)",
+   "steps": [
+    "su(8)",
+    "su(7) + 1 u(1)",
+    "su(6) + 2 u(1)",
+    "su(5) + 3 u(1)",
+    "su(2) + su(3) + 4 u(1)"
+   ],
+   "trace": [
+    {
+     "at": "su(8)",
+     "menu": [
+      {
+       "desc": "su(8)->su(7)xu(1)@0",
+       "dim": 49,
+       "registerable": true
+      },
+      {
+       "desc": "su(8)->su(2)xsu(6)xu(1)@0",
+       "dim": 39,
+       "registerable": true
+      },
+      {
+       "desc": "su(8)->su(3)xsu(5)xu(1)@0",
+       "dim": 33,
+       "registerable": true
+      },
+      {
+       "desc": "su(8)->su(4)xsu(4)xu(1)@0",
+       "dim": 31,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(7) + 1 u(1)",
+     "menu": [
+      {
+       "desc": "su(7)->su(6)xu(1)@0",
+       "dim": 37,
+       "registerable": true
+      },
+      {
+       "desc": "su(7)->su(2)xsu(5)xu(1)@0",
+       "dim": 29,
+       "registerable": true
+      },
+      {
+       "desc": "su(7)->su(3)xsu(4)xu(1)@0",
+       "dim": 25,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(6) + 2 u(1)",
+     "menu": [
+      {
+       "desc": "su(6)->su(5)xu(1)@0",
+       "dim": 27,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(2)xsu(4)xu(1)@0",
+       "dim": 21,
+       "registerable": true
+      },
+      {
+       "desc": "su(6)->su(3)xsu(3)xu(1)@0",
+       "dim": 19,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(5) + 3 u(1)",
+     "menu": [
+      {
+       "desc": "su(5)->su(4)xu(1)@0",
+       "dim": 19,
+       "registerable": false
+      },
+      {
+       "desc": "su(5)->su(2)xsu(3)xu(1)@0",
+       "dim": 15,
+       "registerable": true
+      }
+     ]
+    },
+    {
+     "at": "su(2) + su(3) + 4 u(1)",
+     "menu": [
+      {
+       "desc": "strip su(2)#0",
+       "dim": 13,
+       "registerable": false
+      },
+      {
+       "desc": "su(3)->su(2)xu(1)@1",
+       "dim": 11,
+       "registerable": false
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "principle": "B861 verbatim: maximal residual symmetry among REGISTERABLE options; registerable = generation chiral with abelian factors stripped; B863 termination",
+ "summary": {
+  "e6_chain_reproduced": [
+   "so(10) + 1 u(1)",
+   "su(5) + 2 u(1)",
+   "su(2) + su(3) + 3 u(1)"
+  ],
+  "non_sm_endpoints": {
+   "so(14) spinor 64": "su(2) + su(2) + su(3) + 3 u(1)",
+   "su(6) Sym2 family [NEGATIVE CONTROL]": "su(3) + 3 u(1)"
+  },
+  "sm_core_endpoints": [
+   "E6 27 (via banked step-1 menu)",
+   "so(10) spinor 16",
+   "su(5) Georgi family",
+   "su(6) Georgi family",
+   "su(7) Georgi family",
+   "su(8) Georgi family"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B154",
+ "verdict": "PROVED",
+ "claim_one_line": "degree=rank generalizes beyond the figure-eight to the metallic family via the derived meridian mu=A^-m t, with the exponent order-determined rather than rank-determined.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B153",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,44 @@
+{
+ "derivation_arrow": "the cascade's dial-stripping rule = anomaly consistency of the chiral sector: the stripped U(1)s are exactly the ungaugeable ones, and Y is the unique gaugeable direction",
+ "dials_anomalous_over_chiral_matter": true,
+ "parent": {
+  "chi_over_16": {
+   "su5sq": "0",
+   "tr": "0",
+   "tr3": "0"
+  },
+  "psi_over_27": {
+   "so10sq": 0,
+   "tr": 0,
+   "tr3": 0
+  }
+ },
+ "parent_all_free": true,
+ "sm_Y": {
+  "all_zero": true,
+  "su2Y": "0",
+  "su3Y": "0",
+  "trY": "0",
+  "trY3": "0"
+ },
+ "truncated": {
+  "chi_over_gen": {
+   "tr": 5,
+   "tr3": 125
+  },
+  "psi_over_16": {
+   "so10sq": 2,
+   "tr": 16,
+   "tr3": 16
+  }
+ },
+ "uniqueness": {
+  "b_c_zero": true,
+  "cubic_pure_Y": "0",
+  "forced": "[{b: 0, c: 0}]",
+  "grav": "5*b + 15*c",
+  "miracle": true,
+  "su2sq": "2*c",
+  "su3sq": "2*c"
+ }
+}

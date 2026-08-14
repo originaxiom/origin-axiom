@@ -1,0 +1,10 @@
+{
+ "id": "B391",
+ "verdict": "PROVED",
+ "claim_one_line": "At general N = 3^a 5^b the value sector exists iff a and b are not both even; both registered predictions (243, 625) hit.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

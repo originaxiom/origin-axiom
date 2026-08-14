@@ -1,0 +1,10 @@
+{
+ "id": "B101",
+ "verdict": "PROVED",
+ "claim_one_line": "V0 is the Fuchsian locus of the SL(3,R) Hitchin component, with a 5-dimensional cubic-differential deformation family off it that stays Anosov.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

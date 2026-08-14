@@ -1,0 +1,10 @@
+{
+ "id": "B704",
+ "verdict": "PROVED",
+ "claim_one_line": "The per-stage torsors assemble into one F2-vector space: Gal of the maximal multiquadratic field over the stage fields is (Z/2)^k with the stage discriminants as basis and genus multiplication as the group law (verified for {-3,5,-7}).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

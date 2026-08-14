@@ -1,0 +1,10 @@
+{
+ "id": "B641",
+ "verdict": "PROVED",
+ "claim_one_line": "The twist-frame tone Re(ζ⁻¹ūM_odd u) is ear-independent on all 360 elements (2e-60), with an exact five-tone pentagon census and equal voice/overtone halves.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

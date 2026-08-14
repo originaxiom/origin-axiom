@@ -1,0 +1,10 @@
+{
+ "id": "B811",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The owed promotion gate KILLED H128 (alpha_s, on kind: a scale-free object cannot emit a scale-dependent value) and H129 (sin^2 theta_13, base rate) and PROMOTED H130, whose phi-family null proved inapplicable to a rational target.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

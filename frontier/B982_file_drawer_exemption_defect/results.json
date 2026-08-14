@@ -1,0 +1,52 @@
+{
+ "exempted_as_audited_by_B837": [
+  "B452",
+  "B473",
+  "B501",
+  "B502",
+  "B503",
+  "B506",
+  "B565",
+  "B568",
+  "B570",
+  "B580",
+  "B634",
+  "B652"
+ ],
+ "actually_named_in_B837_findings": [
+  "B452",
+  "B568",
+  "B580",
+  "B634",
+  "B652"
+ ],
+ "NOT_named": [
+  "B473",
+  "B501",
+  "B502",
+  "B503",
+  "B506",
+  "B565",
+  "B570"
+ ],
+ "collision_stated_in_B521": true,
+ "audit_seat_arc_names_in_B521": [
+  "B501_gateB_reductions",
+  "B502_gateC_commensurator",
+  "B503_tower_timebox"
+ ],
+ "main_arc_names": [
+  "B501_universe_word",
+  "B502_parity_signature",
+  "B503_external_contact",
+  "B506_critical_cancellation"
+ ],
+ "VERDICT": "THE FILE-DRAWER LOCK'S EXEMPTION LIST IS PARTLY UNEARNED. tests/test_b837_file_drawer.py exempts twelve sealed-and-ledgered preregs from the reporting obligation under the comment 'the 12 audited as REPORTED in a successor arc's findings (B837)'. B837's FINDINGS names only FIVE of the twelve (B452, B568, B580, B634, B652). SEVEN are exempted on an audit trail that does not mention them: B473, B501, B502, B503, B506, B565, B570. Worse, for three of those the apparent supporting citation is a NUMBERING COLLISION: B521's own text states 'B493-B503 collides with this trunk's B496-B503', and the arcs it cites are the AUDIT SEAT's B501_gateB_reductions, B502_gateC_commensurator and B503_tower_timebox -- different arcs from main's B501_universe_word, B502_parity_signature and B503_external_contact. So the exemption was granted on citations to ANOTHER SEAT'S ARCS THAT HAPPEN TO SHARE NUMBERS. This is the repo's own 'cited-as-sufficient' kill form, occurring inside a governance gate whose entire purpose is to prevent it, and it is why the lock PASSES while genuine file-drawer entries sit behind it.",
+ "dispositions": {
+  "B501_universe_word": "GENUINE FILE-DRAWER. Cited only in B500 as a FORWARD pointer ('B501 (stationary measure = which fields a typical history births)'); B500 PRECEDES it. No outcome reported anywhere.",
+  "B502_parity_signature": "GENUINE FILE-DRAWER. Same forward pointer in B500; the B521 hit is the colliding audit-seat B502_gateC_commensurator.",
+  "B503_external_contact": "NOT a file-drawer entry but NOT audited either: its own sealed text is OWNER-GATED ('Send = owner's hand only', 'fires only after the Closure Campaign's package merges'). Correctly unfired; owed a DISPOSITION record, not an exemption. The B521/B522 hits are the colliding audit-seat B503_tower_timebox.",
+  "B506_critical_cancellation": "GENUINELY REPORTED, but not by B837 -- by B507_beta_function, which engages its content directly ('the B506 emergent drift has its SOURCE here', 'the B506-d consistency lock'). The exemption is correct; its CITATION was wrong.",
+  "B473_B565_B570": "cited in successor findings and not checked line-by-line here; flagged for the same treatment -- their exemption cites B837, which does not name them."
+ }
+}

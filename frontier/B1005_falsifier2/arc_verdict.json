@@ -1,0 +1,18 @@
+{
+ "id": "B1005",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "claim_one_line": "FALSIFIER 2 HAS FIRED: TIER 2 HAS NO LIVE CANDIDATE. WHAT_WOULD_COUNT section 5 falsifier 2, written 2026-08-09, said B687 had already graded 22 of 23 dimensionless invariants unreachable or base-rate-dead with KOIDE ALONE SURVIVING, and that if the 23rd fell there would be nothing left to predict -- calling it the sharpest live falsifier, one arc from firing. THE 23RD HAS FALLEN, THREE INDEPENDENT WAYS, ALL BANKED BEFORE TODAY: B686 NEGATIVE, Q = 2/3 is a PARAMETRIZATION TAUTOLOGY FOR EVERY PHASE and theta_0 = 2/9 is convention-dependent and base-rate; B703 PROVED, theta_0 = 0.2222296(83) rad which is 0.89 SIGMA from 2/9 with the crude 7 sigma REFUTED, firewalled as a POST-HOC, CONVENTION-FRAMED FIT THE FRAMEWORK DOES NOT DERIVE; and B743 NEGATIVE, ZERO GATED HITS over the object-s whole real algebraic tower and canonical analytic values, with KOIDE FOUND AND CORRECTLY REJECTED. SCOPE, and it is the whole difference between two very different claims: B687-s atlas is 23 ENUMERATED invariants and NOT a proof that none exists, and B743 searched the real algebraic tower and canonical analytic values and NOT every possible construction -- so THE FALSIFIER FIRES FOR THE ENUMERATED SPACE, NOT IN PRINCIPLE, and TIER 2 IS UNREACHABLE would be an overclaim while TIER 2 HAS NO LIVE CANDIDATE is exactly right and enough to act on. WHAT FOLLOWS: every candidate the programme enumerated is dead and that enumeration was its own best attempt over three campaigns, so a Tier-2 cell now requires a candidate from OUTSIDE B687-s atlas and OUTSIDE B743-s tower; and the one new structure produced since is TIER 1 BY CONSTRUCTION, since B997/B1002-s conductor-shadow uniqueness is real and proved but yields INTEGERS -- the shadow modulus 5, the cusp conductor 4, |SL(2,Z/5)| = |2I| = 120, the McKay orders {24,48,120} -- and STRUCTURAL INTEGERS ARE NOT MEASURED DIMENSIONLESS RATIOS. RECORDED RULE: do not open a fourth crossing without a candidate that clears that bar; three are spent, and a fourth without a new candidate would spend global look-elsewhere budget on ground B743 already searched, which is the precise mistake WHAT_WOULD_COUNT was written to prevent. WHY THIS IS A RESULT AND NOT A DEFEAT: the document was written yesterday specifically so this could be RECOGNISED -- before it, a dead candidate list looked like a run of bad luck; with it, the same facts are a falsifier firing ON SCHEDULE with its scope stated. And it REDIRECTS rather than stops: the honest deliverable is now Phase 2, THE BOUNDARY THEOREM (what the commensurability class of Q(sqrt-3) forces and what it provably cannot, with the 276 negatives as the evidence it was tested), which is a real mathematical result roughly 90 percent written and which B993 makes STRONGER not weaker, since unbeatable-about-the-class is a sharper claim than a vague one about the member.",
+ "depends_on": [
+  "B687",
+  "B686",
+  "B703",
+  "B743",
+  "B997",
+  "B1002",
+  "B993"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), Tier work"
+}

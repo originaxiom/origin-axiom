@@ -1,0 +1,10 @@
+{
+ "id": "B671",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The 351-cup solo 3x3 eigenvalue ratios differ by about seven orders of magnitude between the two canonical scalarizations, so they are scalarization-gauge rather than object content and the mass-matrix reading dies.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

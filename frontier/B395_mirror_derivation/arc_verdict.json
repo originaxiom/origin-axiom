@@ -1,0 +1,10 @@
+{
+ "id": "B395",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The cell-wise sigma-law fails on 140/240 cells while the table-wide mirror holds: the mirror is summation-emergent with no cell-local Galois origin.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

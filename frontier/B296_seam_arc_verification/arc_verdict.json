@@ -1,0 +1,10 @@
+{
+ "id": "B296",
+ "verdict": "PROVED",
+ "claim_one_line": "Adversarial re-run of every seam-arc probe yields zero refutations and zero firewall leaks, strengthening B287 (homology-forced uniqueness), B288 (174 closings) and B291, with the classical math correctly attributed.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

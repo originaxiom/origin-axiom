@@ -98,6 +98,16 @@ LEXICON = {
                            gloss="the hyperbolicity-split motif (H4): object on both sides of the divide",
                            patterns=["hyperbolicity.split", "Seifert", "Sol geometry", "two bulks",
                                      "non-hyperbolic"]),
+    "markov_cubic":   dict(kind="invariant", conserved="structural", domain="topology",
+                           gloss="the trace-triple SURFACE the trace map acts on: the Markov/Fricke "
+                                 "cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). "
+                                 "Deliberately EXCLUDES the bare phrase 'character variety', which "
+                                 "B824 measured at 13.8%% of the corpus -- this programme's subject "
+                                 "matter, not a topic within it",
+                           patterns=[r"Markov", r"trace triple", r"xyz",
+                                     r"x\^?2 ?\+ ?y\^?2 ?\+ ?z\^?2", r"x²\s*\+\s*y²\s*\+\s*z²",
+                                     r"\(tr ?A, ?tr ?B, ?tr ?AB\)", r"trace coordinates",
+                                     r"Fricke (cubic|surface|identity)"]),
 }
 
 # --------------------------------------------------------------------------------------------------
@@ -130,7 +140,9 @@ def _read(path):
 
 
 def _probe_id(slug_dir):
-    m = re.match(r"(B\d{1,3})_", os.path.basename(slug_dir))
+    # B1001: was B\d{1,3} -- capped at three digits, so B1000 (the first four-digit arc)
+    # was SILENTLY INVISIBLE to the atlas. Found by atlas-fresh on the day B1000 landed.
+    m = re.match(r"(B\d{1,4})_", os.path.basename(slug_dir))
     return m.group(1) if m else None
 
 

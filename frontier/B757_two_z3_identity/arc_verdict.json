@@ -1,0 +1,10 @@
+{
+ "id": "B757",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The two Z/3's are never the same element (deck reps are torsion-free), and the mod-4 coincidence is conjugacy-forced, carrying zero information.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B819",
+ "verdict": "PROVED",
+ "claim_one_line": "The unverdicted residue is a coverage-frame gap, not a data gap: 133 of the 181 directories without a verdict do have a FINDINGS.md, and 116 arcs with real findings were never assigned to any reader.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": "B817",
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

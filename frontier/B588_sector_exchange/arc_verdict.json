@@ -1,0 +1,10 @@
+{
+ "id": "B588",
+ "verdict": "PROVED",
+ "claim_one_line": "Sector exchange proved at the projector level: -1 lies in W(A1) but not W(A2), so identical sqrt5 Gauss data is even on one stage and odd on the other.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B539",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The relations campaign returns NO-MATCH: zero SM hits survive tightening while the E8 forced-bin positive control passes, closing the reframe's last door.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

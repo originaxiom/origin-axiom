@@ -1,0 +1,38 @@
+{
+ "z6c_exact_color": {
+  "floor_dim_Q": 12,
+  "color_dim_Q": 8,
+  "singlet_space_dim": 9,
+  "casimir_eigenvalues": [["0", 9], ["4/9", 18]],
+  "triplet_space_dim": 18,
+  "color_cartan_dim_Q": 2,
+  "tr_h3_on_T18": 0,
+  "all_solo_gates": true
+ },
+ "z6d_kernel_readout": {
+  "prime": 40123,
+  "singlets_covered": [9, 9],
+  "triplets_covered": [18, 18],
+  "triplet_cells": 6,
+  "all_triplets_carry_hcp_fit": true,
+  "hcp_values_seen": 2
+ },
+ "belt639": {
+  "prime": 40639,
+  "y_solve_passing": 2,
+  "y_solve_is_conjugation_pair": true,
+  "fine_cells": 15,
+  "coarse_X1Y_classes": 11,
+  "fine_allowed_seed7": 17,
+  "fine_allowed_seed11": 17,
+  "coarse_allowed_seed7": 11,
+  "coarse_allowed_seed11": 11,
+  "b884_confirmed": true
+ },
+ "solo_suite_verdicts": {
+  "hypercharge": {"conjugation_pair_rank": 3, "mixed_rank": 4, "fit": true},
+  "g20": {"dim": 20, "derived": 19, "center": 1},
+  "z2_obstruction": {"product_c": -1, "all_commuting_config_exists": false},
+  "texture": {"allowed_cells": 11, "b884_cells": 11}
+ }
+}

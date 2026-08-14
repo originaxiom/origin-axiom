@@ -10,8 +10,13 @@ def test_typeIII_needs_external_weight():
     lam = sp.Rational(1, 2)
     spectrum = {sp.Integer(1), lam, 1/lam}
     assert len(spectrum) == 3 and lam != 1            # nontrivial (external) weight -> III_lambda
-    # object alone (lam=1): spectrum {1} -> tracial -> NOT type III
-    assert {sp.Integer(1)} == {sp.Integer(1)}
+    # object alone (lam=1): spectrum {1} -> tracial -> NOT type III.
+    # Was `assert {1} == {1}`, a literal against itself; BUILD the lam=1 spectrum the same way
+    # the lam=1/2 one is built above, so the collapse to a singleton is a computed consequence.
+    lam1 = sp.Integer(1)
+    spectrum_trivial = {sp.Integer(1), lam1, 1/lam1}
+    assert len(spectrum_trivial) == 1 and spectrum_trivial == {sp.Integer(1)}
+    assert len(spectrum_trivial) < len(spectrum)               # strictly smaller: III collapses
 
 def test_observer_is_a_phase_transition_not_one_state():
     # time (high-T III_1, Galois-symmetric) and chirality/values (low-T type-I, Galois-labeled)

@@ -1,0 +1,10 @@
+{
+ "id": "B468",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The claimed color-sees-darkness correlation is refuted exactly (dark splits 24/24/22); the det contradiction dissolves into two different operators; continents confirmed 8x15.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

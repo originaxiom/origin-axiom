@@ -1,0 +1,252 @@
+{
+  "dim_27": 27,
+  "E6_27_linear_is_zero": true,
+  "E6_27_cubic_is_zero": true,
+  "E6_27_cubic_nterms": 0,
+  "dim_27bar": 27,
+  "E6_27bar_cubic_is_zero": true,
+  "27_and_27bar_are_different_weight_sets": true,
+  "dim_su5_10": 10,
+  "CONTROL_su5_10_cubic_is_zero": false,
+  "dim_su3_3": 3,
+  "CONTROL_su3_3_cubic_is_zero": false,
+  "levi_nodes_S": [
+    1,
+    3,
+    6
+  ],
+  "levi_dim": 14,
+  "levi_centre_dim": 3,
+  "levi_centre_free_params": [
+    "t1",
+    "t2",
+    "t3"
+  ],
+  "levi_centre_solution": [
+    "t2/3",
+    "t1",
+    "2*t2/3",
+    "t2",
+    "2*t3",
+    "t3"
+  ],
+  "levi_centre_check_alpha_j_vanishes": true,
+  "levi_orbit_sizes": [
+    6,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+  ],
+  "levi_orbit_count": 11,
+  "u1_constant_on_every_levi_irrep": true,
+  "levi_orbit_charges": [
+    "-t2/3 + t3",
+    "-t1 + t2/3",
+    "2*t2/3 - 2*t3",
+    "t2/3",
+    "t1 - 2*t2/3",
+    "-t1 + t2 - t3",
+    "-t3",
+    "t1 - t3",
+    "-t1 + 2*t3",
+    "-t2 + 2*t3",
+    "t1 - t2 + 2*t3"
+  ],
+  "levi_orbit_su3_su2_dims": [
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "witten_su2_doublets_in_27": 6,
+  "witten_parity_even": true,
+  "complete27_A_U1cubed": "0",
+  "complete27_A_grav": "0",
+  "complete27_A_SU3sq_U1": "0",
+  "complete27_A_SU2sq_U1": "0",
+  "complete27_all_four_vanish": true,
+  "incomplete_drop_one_levi_irrep": [
+    {
+      "dropped_orbit_size": 6,
+      "dropped_su3_su2": [
+        3,
+        2
+      ],
+      "dropped_charge": "-t2/3 + t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": true,
+      "A_SU2sq_U1_nonzero": true
+    },
+    {
+      "dropped_orbit_size": 3,
+      "dropped_su3_su2": [
+        3,
+        1
+      ],
+      "dropped_charge": "-t1 + t2/3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": true,
+      "A_SU2sq_U1_nonzero": false
+    },
+    {
+      "dropped_orbit_size": 3,
+      "dropped_su3_su2": [
+        3,
+        1
+      ],
+      "dropped_charge": "2*t2/3 - 2*t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": true,
+      "A_SU2sq_U1_nonzero": false
+    },
+    {
+      "dropped_orbit_size": 3,
+      "dropped_su3_su2": [
+        3,
+        1
+      ],
+      "dropped_charge": "t2/3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": true,
+      "A_SU2sq_U1_nonzero": false
+    },
+    {
+      "dropped_orbit_size": 3,
+      "dropped_su3_su2": [
+        3,
+        1
+      ],
+      "dropped_charge": "t1 - 2*t2/3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": true,
+      "A_SU2sq_U1_nonzero": false
+    },
+    {
+      "dropped_orbit_size": 2,
+      "dropped_su3_su2": [
+        1,
+        2
+      ],
+      "dropped_charge": "-t1 + t2 - t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": false,
+      "A_SU2sq_U1_nonzero": true
+    },
+    {
+      "dropped_orbit_size": 2,
+      "dropped_su3_su2": [
+        1,
+        2
+      ],
+      "dropped_charge": "-t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": false,
+      "A_SU2sq_U1_nonzero": true
+    },
+    {
+      "dropped_orbit_size": 2,
+      "dropped_su3_su2": [
+        1,
+        2
+      ],
+      "dropped_charge": "t1 - t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": false,
+      "A_SU2sq_U1_nonzero": true
+    },
+    {
+      "dropped_orbit_size": 1,
+      "dropped_su3_su2": [
+        1,
+        1
+      ],
+      "dropped_charge": "-t1 + 2*t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": false,
+      "A_SU2sq_U1_nonzero": false
+    },
+    {
+      "dropped_orbit_size": 1,
+      "dropped_su3_su2": [
+        1,
+        1
+      ],
+      "dropped_charge": "-t2 + 2*t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": false,
+      "A_SU2sq_U1_nonzero": false
+    },
+    {
+      "dropped_orbit_size": 1,
+      "dropped_su3_su2": [
+        1,
+        1
+      ],
+      "dropped_charge": "t1 - t2 + 2*t3",
+      "A_U1cubed_nonzero": true,
+      "A_grav_nonzero": true,
+      "A_SU3sq_U1_nonzero": false,
+      "A_SU2sq_U1_nonzero": false
+    }
+  ],
+  "incomplete_ANY_condition_fails": true,
+  "drop_one_weight_cubic_nonzero": true,
+  "vectorlike_subset_cubic_is_zero": true
+}

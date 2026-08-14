@@ -1,0 +1,10 @@
+{
+ "id": "B374",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The pinned-exponent law is refuted at level 135 and the sector-existence law itself dies at N=225; invariant sectors are a prime-power-tower property.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

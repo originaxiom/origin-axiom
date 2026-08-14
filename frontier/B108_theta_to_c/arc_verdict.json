@@ -1,0 +1,10 @@
+{
+ "id": "B108",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The opposition involution theta=-w0 cannot predict the degree=rank scalars: it only sends c to 1/c, so the order-4 secondary c=i escapes an involution.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

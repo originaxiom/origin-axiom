@@ -1,0 +1,10 @@
+{
+ "id": "B716",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Time, 4-dimensionality and Lorentzian signature are all the observer's: no canonical arrow, no canonical 4d filling, no canonical Wick rotation.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

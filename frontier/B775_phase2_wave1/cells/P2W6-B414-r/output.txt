@@ -1,0 +1,63 @@
+== P2W6-B414-r  OI-048 content-wall frame (repair of P2W4-B414) ==
+REAL DATA (component 3, golden row a=6, Mercedes columns b=0,2,4)
+  gate(well-posedness only): equilateral=True sumzero=True dimP=2:True colfam-spans-P=True
+  |G12|=8 |G23|=12 |joint|=4 |K|=4   tau=(1,4) in G23:True in G12:False   t6=(1,6) in G12:True in G23:False
+  A0 L canonical in its own sector : False   (G12-orbit of L has 2 lines, rows [0, 4, 6, 14])
+  A1 unique candidate direction    : True   (dim Hom_K(L,P) = 1)
+  A2 candidate G23-stable          : False   (G23-orbit of the candidate line = 3 lines)
+  A3 G12 acts on P and fixes it    : False
+  K normal in G23: False   conj of (5,0) by tau = (5, 8)
+  computed (was hard-coded in P2W4): dim P^tau=0  dim (P(x)P)^tau=2
+  context, load-bearing on nothing: L perp P=True  |g|^2/|C0|^2=6
+  VERDICT(real) = RESOLVED-B   pattern A0A1A2A3 = 0100
+L1 NON-VACUITY (4500 synthetic fact-vectors, ALL passing the same gate)
+  branch tally: {'RESOLVED-B': 4462, 'RESOLVED-A': 38} ; gate-failing instance -> UNRESOLVED
+  patterns seen: {'0000': 466, '0100': 1, '0110': 14, '1000': 3925, '1100': 8, '1101': 5, '1110': 43, '1111': 38}
+  each conjunct observed true AND false: {'A0': {'true': 4019, 'false': 481}, 'A1': {'true': 109, 'false': 4391}, 'A2': {'true': 95, 'false': 4405}, 'A3': {'true': 43, 'false': 4457}}
+  RESOLVED-A witness (pattern 1111): [5, 11, 6]
+  all three branches reachable: True
+L3 REASON INDEPENDENCE: independent pairs ['A0_vs_A1', 'A0_vs_A2', 'A2_vs_A3'] ; collapsing pairs ['A0_vs_A3', 'A1_vs_A2', 'A1_vs_A3']
+  real failures ['A0', 'A2', 'A3'] -> entailed [('A3', 'entailed by A0 failing (no pattern A0=0,A3=1 in pool)')] -> 2 INDEPENDENT reason(s): ['A0', 'A2']
+  frame-direction ambiguity: golden side 2 lines x Mercedes side 3 lines = 6
+L4 DECLARED SELECTIONS
+  component: {0: 'UNRESOLVED(gate_equilateral,gate_sumzero,gate_colfam_spans_P)', 1: 'UNRESOLVED(empty sector)', 2: 'RESOLVED-B/0100', 3: 'RESOLVED-B/0100'}
+  golden-row choice: {0: 'RESOLVED-B/0100', 1: 'RESOLVED-B/0100', 4: 'RESOLVED-B/0100', 5: 'RESOLVED-B/0100', 6: 'RESOLVED-B/0100', 9: 'RESOLVED-B/0100', 11: 'RESOLVED-B/0100', 14: 'RESOLVED-B/0100', 15: 'RESOLVED-B/0100', 19: 'RESOLVED-B/0100'}
+  Mercedes-triple choice: {'(0, 1, 2)': 'UNRESOLVED', '(0, 1, 4)': 'UNRESOLVED', '(0, 1, 5)': 'UNRESOLVED', '(0, 2, 4)': 'RESOLVED-B', '(0, 2, 5)': 'UNRESOLVED', '(0, 4, 5)': 'UNRESOLVED', '(1, 2, 4)': 'UNRESOLVED', '(1, 2, 5)': 'UNRESOLVED', '(1, 4, 5)': 'UNRESOLVED', '(2, 4, 5)': 'UNRESOLVED'}
+  any selection gives RESOLVED-A: False ; any fails the gate: True ; admissible ones all agree: True
+
+DISCRIMINATING FACT (in-cell, exact over Q, from frontier/B367_value_map/step0_tables.json)
+ The gate is well-posedness ONLY (golden row nonzero; the three (2,3) columns equilateral,
+ sum to zero, span a plane P) -- it constrains the inner-product shape of the sectors and
+ says nothing about which relabelings of Z12 are symmetries.  On the real data:
+  * K = G12 & G23 & Stab(L) = the units {(1,0),(5,0),(7,0),(11,0)}, and dim Hom_K(L,P) = 1:
+    the joint group DOES single out one candidate frame direction, ell = span(C_{b=0})
+    (g and C0 share the character 5 |-> -1, 7 |-> +1).  A1 FIRES.  The A-branch is live.
+  * It dies on A0 and A2 -- TWO reasons, one per sector, and the pool shows they separate
+    (A0_vs_A2 realised both ways), each a computed contingent fact:
+    A2: the abstract Z/3 permuting the three Mercedes columns IS realised inside the label
+        space, as the affine translation tau: a |-> a+4 in G23; K is NOT normal in G23
+        (tau (5,0) tau^-1 = (5,8)), so tau carries ell onto the other two column lines --
+        the G23-orbit of the "canonical" direction has exactly 3 lines.  The frame
+        direction is a Z/3-TORSOR supplied by the object's own (2,3) symmetry.
+    A0: symmetrically, the golden line is not distinguished in its own sector either --
+        t6: a |-> a+6 lies in G12 and carries the golden row 6 onto rows 0,4; the G12-orbit
+        of L is 2 lines.  A Z/2-torsor on the golden side.
+    A3 fails too but is NOT counted (L3): in the whole pattern pool A3 true never occurs
+    with A0 false, so A3's failure is entailed by A0's, not an independent reason.
+ So the content-wall frame is EXTERNAL not by absence but by TORSOR: frames exist (a whole
+ P^1 of directions), a canonical one exists relative to the joint subgroup K, and the
+ object's own LARGER sector symmetries act on that candidate without a fixed point.  The
+ residual choice is finite and exactly located: 2 golden lines x 3 Mercedes lines = 6
+ frame directions, permuted simply-transitively-per-factor by t6 and tau, both of which
+ the object itself supplies.  Choosing a frame = choosing a point of that torsor --
+ exactly an external datum.
+ Repaired defects: the verdict no longer gates on tau's action (MATERIAL-1: RESOLVED-A
+ actually FIRES on 38 of the 4500 gate-passing counterfactual sectors, pattern 1111, e.g.
+ rows [3,0,0,0,0,3,0,0,-1,0,0,3] with the triple (e5-e11, e11-e6, e6-e5), where G23 has no
+ order-3 element and the K-canonical line is G23-stable; no REAL selection reaches it, and
+ the object's own alternatives are enumerated in L4), the sqrt(6)
+ rationality leg is deleted (MATERIAL-2), P(x)P is computed (MATERIAL-3), and "two
+ independent routes" is downgraded to one banked route (W-B1 orthogonality, reported as
+ context) plus one new symmetry-group route (MODERATE).
+
+VERDICT: RESOLVED-B

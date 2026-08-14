@@ -1,0 +1,16 @@
+{
+ "id": "B897",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE SEALED CELL DECIDES -- OUTCOME A, GENERATION-SHAPED (M2; prereg e293f095 committed 0e1cdf4c BEFORE compute, seal verified): at two independent primes (40123, 40693; all gates -- G20 dim 20/derived 19, color-centralizer 11 split 8+3, tiles 27) the 27 under (su(3)_c, su(3)', su(2)') decomposes into three 9-blocks with IDENTICAL cross-prime signature: (3_c, 3_f) with su(2)' trivial -- one color-triplet type replicated three times bound as ONE flavor multiplet (criterion A verbatim: m = 9 = 3x3, one joint isotypic); (1_c, 3_f) splitting 3+6 under su(2)' -- a w-doublet flavor-triplet plus a w-singlet flavor-triplet, the lepton pattern, each piece a single su(2)' type (A again, through exactly the disclosed prior's decision branch); (3_c, 1_f) the flavor-unreplicated third leg. Casimirs lift to the same exact rationals at both primes: C_color = C_flavor = 4/9 (the two su(3)'s are twins on the 27, = z6c's banked spectrum) and C_weak = 3/8. THE SEALED BRANCH BINDS: su(3)' is a native flavor symmetry replicating fixed color x su(2)' types into flavor triplets, in the off-diagonal trichotomy pattern. NOT decided (pre-stated): mechanism-hood -- the solo seat's section-5 fence stands.",
+ "depends_on": [
+  "B854",
+  "B866",
+  "B883",
+  "B892",
+  "B895"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

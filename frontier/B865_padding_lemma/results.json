@@ -1,0 +1,46 @@
+{
+ "full27": {
+  "step2_PatiSalam": {
+   "chiral": true,
+   "multiset": {
+    "(1,1,1)": 1,
+    "(1,2,2)": 1,
+    "(4,2,1)": 1,
+    "(4bar,1,2)": 1,
+    "(6,1,1)": 1
+   }
+  },
+  "step2_SU5xU1": {
+   "chiral": true,
+   "multiset": {
+    "1": 3,
+    "10": 1,
+    "5": 1,
+    "5bar": 2
+   }
+  },
+  "step3_SM": {
+   "chiral": true,
+   "multiset": {
+    "(1,1)": 4,
+    "(1,2)": 3,
+    "(3,1)": 1,
+    "(3,2)": 1,
+    "(3bar,1)": 3
+   }
+  },
+  "step3_SU4xU1": {
+   "chiral": false,
+   "multiset": {
+    "1": 5,
+    "4": 2,
+    "4bar": 2,
+    "6": 1
+   }
+  }
+ },
+ "padding_lemma_proof": "In the free commutative monoid of multisets, M + S = conj(M) + S iff M = conj(M) (cancellation). conj(M + S) = conj(M) + conj(S) = conj(M) + S for self-conjugate S. Hence chirality(M + S) = chirality(M). QED -- one line, exact.",
+ "padding_lemma_verified": true,
+ "singlet_fate": "The 'dropped' content is never physically dropped: 10_{-2} + 1_{+4} are the anomaly ballast making Tr psi = 16-20+4 = 0 at parent level (B864); the chain's singlets land in (1,1)_0 at the SM level -- the right-handed-neutrino slot -- and being self-conjugate dial-stripped, they never touch a verdict (the lemma).",
+ "verdicts_unchanged": true
+}

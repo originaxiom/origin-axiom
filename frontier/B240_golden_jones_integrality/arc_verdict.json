@@ -1,0 +1,10 @@
+{
+ "id": "B240",
+ "verdict": "PROVED",
+ "claim_one_line": "At q=e^{2πi/5} the quantum-dimension-weighted colored Jones of 4₁ is pure integers {1,−2,−2,1}, and 4₁ is the unique pure-ℤ case among tested amphicheiral knots.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

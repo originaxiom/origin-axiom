@@ -1,0 +1,12 @@
+{
+ "id": "B6",
+ "verdict": "OPEN",
+ "claim_one_line": "The Euler-Lagrange equation of the derived potential is box-tau + kappa(tau^2-tau-1)=0, with critical points phi (stable) and -1/phi (unstable); the field-theoretic lift is a CHOICE, not forced.",
+ "instrument": false,
+ "depends_on": [
+  "B5"
+ ],
+ "superseded_by": null,
+ "stratum": "A",
+ "authored_by": "W1-pilot"
+}

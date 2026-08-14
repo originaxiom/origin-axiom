@@ -28,7 +28,7 @@ proved n≤4, with the corrected n=2 base case) is context. The philosophical es
   machinery (Zickert) is the right tool but published only at n=2. A specialist email is the close.
 
 **Build.** `make figures && make pdf` (needs latexmk + pyenv numpy/matplotlib; fig_strat reads
-`frontier/B149/irreducibility_fp.json`). Code & a finite-field certificate to be deposited (Zenodo DOI)
+`frontier/B149_sl4_ideal_completeness/irreducibility_fp.json`). Code & a finite-field certificate to be deposited (Zenodo DOI)
 at submission; the symbolic certificates are in the appendix meanwhile.
 
 Files: `main.tex`, `sections/`, `refs.bib`, `figures/gen.py`.

@@ -1,9 +1,105 @@
 # The priced-doors campaign — every physics word, its price, and its computable next rung
 
+*Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
+
+
+
+
+> ## STATE AT REVIEW 45 (2026-08-13)
+>
+> The factorisation reading is on the record (an SM value = a class invariant × a substrate
+> scale; we hold one factor by theorem and are blind to the other by theorem — B518/B1012, read
+> as one statement this window). Crossing doors reprice accordingly: menu-to-menu targets with
+> material-supplied scale are type-correct; continuum targets are not. The aperiodic door is
+> priced OWNER-PENDING with its three Phase-0 items named. Ledger: Review 45.
+
+> ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window
+>
+> No door repriced this window; the frame's forbid 3 is now PINNED (the triple's connecting-map yield ≥ 2/seam — a priced forbid, sealed before its number exists), and the FL-4 cell's outcomes are pre-priced in its drafted prereg (field-scoped vs object-carrying, the ledger reported as computed). Ledger: `docs/progress/REVIEWS.md` Review 44.
+
+> ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
+>
+> **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every
+> time.** Tier 0 is done (the object is forced up to one bit; A7 *is* that bit, and B979 showed it is
+> where φ enters). Tier 1 is substantially done and contains every positive result: the **global ℤ₆
+> form DERIVED** (B862 — *the SM itself cannot fix it*), the **hypercharge direction DERIVED** (B864),
+> **u(1)³ = span(Y, χ, ψ) COMPUTED** (B992, no longer inferred), the algebra, the generation count.
+> **Tier 2 has zero results and, since B1005, no live candidate.** The three sealed crossings failed
+> by three *different* named mechanisms, and the obstructions are theorems, not bad luck: values are
+> **frame-relative** (B936), centralizers **preserve rank** (B952), chirality is **not self-supplied**
+> (B713/B760).
+>
+> **2. The gaps are not a list — they are a BUDGET.** B1000 measured the external inputs: **five
+> closings over four incompletenesses**, with **charge taking two** (a chirality sign *and* a
+> rank-reducing VEV). **B963 then proved those two COMPETE**: τ ≠ id *is* the 27's complexity **and**
+> τ is the only rank-reducing involution — **spend it on rank and you lose the chirality.** Two
+> resources, one budget. This is the sharpest structural fact the programme holds about its own
+> incompleteness, and it is why the missing pieces cannot be closed one at a time.
+>
+> **3. The reframe that lands this window, and it changes what confirmation could even mean.**
+> **B996: reaching E₆ is GENERIC** — five of seven metallic grammars surject onto 2T, two-thirds of
+> the family — and the arc states the consequence in its own words: this **"REMOVES THE ENDPOINT'S
+> POWER TO CONFIRM THE BEGINNING."** **B997/B1002: the golden is the UNIQUE metallic grammar whose
+> own-conductor shadow is a McKay group.** Put together:
+>
+> > ### Reaching E₆ is generic. Being the golden is unique. The object's specialness lives in its GRAMMAR, not its DESTINATION.
+>
+> **CORRECTED 2026-08-10 by the verification seat (B1009) — the original sentence here over-reached
+> and is withdrawn.** It read: *"therefore matching the Standard Model could never have confirmed the
+> axioms — even if it had worked."* **What the cited arcs support is narrower and is about the E₆
+> WAYPOINT, not the SM ENDPOINT:** B996's own words are *"reaching E6 is not evidence C1–C5 were
+> right **if a third of entry points reach E6 too**"*, and B993 says the same at the manifold level
+> (~1 in 3). **Neither computes what a NON-GOLDEN grammar produces DOWNSTREAM of E₆** — the ℤ₆ form,
+> the hypercharge direction, the generation count, the matter reps. **A repo-wide search finds no arc
+> that runs the cascade on any m ≥ 2 grammar**, so the SM-match's discriminating power beyond E₆ is
+> **UNCOMPUTED, not zero.**
+>
+> **And B997 cuts the other way, which is why the overreach matters:** at each word's *own* conductor
+> the golden **is** unique, so the family members are **demonstrably not equivalent** — evidence
+> against assuming their cascades coincide. *(cc3's independent synthesis reads B996 the same way:
+> the specificity **descends three populations and survives at the bottom as a proof**.)*
+>
+> **What stands:** **the E₆ waypoint cannot confirm the axioms**, and the uniqueness that does exist
+> lives in the **grammar**. **What is now a registered, runnable test (L149): run the cascade on a
+> non-golden metallic grammar.** If the silver also yields ℤ₆ + hypercharge + 3 generations, the
+> withdrawn sentence becomes true and is banked as such; if it does not, the SM match **does**
+> discriminate and the endpoint recovers confirming power. **Two outcomes, neither assumed.**
+>
+> **4. The crux, stated so it can be held honestly.** The observer-coupling reorientation says values
+> live in the **observer–object coupling**, not in the object. If that is right, the object *should
+> not* emit values — so **Tier 2's emptiness is exactly what our own framework predicts.** That is
+> either the deepest thing here or the most sophisticated way of being unfalsifiable, and
+> `WHAT_WOULD_COUNT` says Tier 2 is what decides whether this is physics at all. **The constructive
+> resolution follows from the statement itself: a theory whose values are coupling artifacts must
+> predict THE COUPLING, not the values.** Notably, that target sits **outside B687's atlas and
+> outside B743's tower** — precisely the bar B1005 sets for a fourth crossing. **The negative points
+> at where to look.**
+>
+> **5. What the practice keeps discovering about itself.** The recurring error of 2026-08-09 — nine
+> instances — was never a wrong computation. It was **mistaking an instrument's blindness for the
+> object's absence**: B1007 rebuilt a solver that existed, B1006 re-ran a check that existed, two
+> ladder rungs graded BLIND had computed arcs behind them, and **B1008 measured the atlas as unable
+> to see the very layer the programme now works in** (14 of 14 recent concepts have no word in it).
+> *A suggestive parallel with the object's own observer/observed structure is noted and **explicitly
+> not claimed as evidence** — it is a methodological rhyme, and the firewall applies to it as to
+> anything else.* **What it does earn is the owner's standing rule, now operative: "we don't have X"
+> is a hypothesis requiring a search, never a conclusion.**
+
+
 *(Registered 2026-07-03. FIREWALLED THROUGHOUT: this campaign computes the priced routes; it
 asserts no crossing. Each physics word is earned in one of three currencies — derived dynamics,
 a controlled limit, or physical instantiation — and shapes are free while currencies are not.
 The honest anchors are stated first; framing lock GOVERNANCE §2 applies to every row.)*
+
+> **State at Review 37 (2026-08-03).** The SM-structure window closed: the selection spine
+> (repair → fused principle → termination → anomaly split → registerability keystone → menu
+> gate) carries **zero load-bearing imports**; the **First Measurement Theorem** (the object's
+> superselection charges stratify e₆; three Galois-conjugate first breakings; triality tiling
+> with a cyclic law; matter = the two foreign sectors) is a **two-seat theorem**; **THE
+> DESCENT** shows each breaking's matter is exactly one SM generation's multiplet pattern while
+> the triple lives *across* the three breakings, not within one. Structure only — no values,
+> no generations mechanism, Gate 5 untouched. Ledger: `docs/progress/REVIEWS.md` Review 37.
+
 
 ## The two route-less items (stated up front, no probes registered)
 
@@ -44,3 +140,51 @@ its exact simulation.
   in place + prove behavioral equivalence against every existing lock
   that imports it before merge. Payoff: every future high-level cell.
   **STATUS (B679, 2026-07-18): PREPARED + CORRECTNESS-VERIFIED** — main-seat bit-identical recomputation (old vs patched, same S,T, all gates + rho, N=3..15) + agent battery bit-for-bit through N=28, N=55 real-call-site agreement vs the banked B673 log, 18 locks green; no tolerance. The engine is a SEAT CONDUIT, not repo-tracked — DEPLOYMENT (drop engine_v7_patched.py over veins/v7_conduit/) is the conduit owners' to execute; the verified patch is banked in frontier/B679_engine_patch/.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 11 days stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- **PD4 (the α gate) remains GATED and unwalked**, behind PD1.4 + PD2.2. Registered, not
+  walked — unchanged.
+- The B678/B679 engine-patch deployment remains outside this campaign (conduit owners').
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
+
+> **Review 33 (2026-07-29)** — no door repriced. Note from B799/B800: the twelve closures whose discriminating fact was never computed are resolved; **B685's remains the one genuine to-do** (reproduce GSWZ's normalisation), and it is explicitly NOT specialist-blocked — the in-sandbox route is open and unexhausted.
+
+> **Review 34 (2026-07-30)** — no door repriced. **B685's normalisation remains the one genuine to-do** among the twelve uncomputed doors, and is explicitly not specialist-blocked.
+
+> **Review 35 (2026-07-30)** — no door repriced. **B685's normalisation is still the one genuine
+> to-do** (carried R34→R35-6). Noted from B798's power box: the algebraicity falsifier's `(d, H)`
+> budget is sealed and its cost corrected, so that door's price is current.
+
+> **Review 36 (2026-08-01)** — **B685's normalisation is no longer the open to-do** (B839). New
+> priced item: complete the harvest of cc3's B792 spectrum if its extent is genuinely r ≈ 13.5 —
+> main has 17 to r = 9.84, and **completeness is unverified, not to be chased from here**.
+
+
+*Review 38 (2026-08-05): window B890–B906 reviewed — the M(𝕆,ℂ) isomorphism, the sealed generation-shaped verdict, the flavor arc with I = −1, the Kim lit-gate; five promotion candidates listed; next sealed cell: the real-form selector (B907). See docs/progress/REVIEWS.md.*
+
+
+*Mid-window update (2026-08-05, post-crossing): B907–B917 — e₆(2) selected; the norm/signature; I = −1 exact; the one-number table; THE CROSSING (MISS 16σ, the desert dead, R4b registered); the value-arc convergence with the solo seat. See CAMPAIGN_STATUS and the masterplan v5.*
+
+
+*Review 39 (2026-08-05): window B907–B919 + the register loop + THE CROSSING reviewed; suite green after hygiene; candidates listed (B908, the value-layer cluster, B912, B914 + R38 leftovers); next sealed: R4b. See docs/progress/REVIEWS.md.*
+
+*Review 43 (2026-08-11): window B1009–B1030 — the switch-verification / fourth-crossing / WHY-campaign window. The fourth crossing died clean **by one degree** (leptonic −120° vs NuFIT 5.2's upper error; refresh pre-committed at the same windows); THE WHY CAMPAIGN opened and its first cells banked — **the freedom ledger lands COMPRESSION (0.000 retroactive designer bits against a 4.585-bit conservative output floor)** and **θ is the value-kernel of the frame action** (the banked θ-triviality, placed); the input floor quantified and adopted: **one unit, two bits, one trit** (+ the J acceptance). All four of the window's disclosed errors were caught by standing rules; one new class (E22, verdict-before-certificate). TOOLBOX.md remains the named reader-standard block (R43-1). See docs/progress/REVIEWS.md.*
+
+*Review 40 (2026-08-07): window B909, B914–B941 reviewed — the three crossings all negative, D₂ decoded as the hierarchy's carrier, the value layer proved value-invisible, two precedent numbers banked (the Maass and Dirac eigenvalues), and the branch-symmetric ratio-only phrasing registered as binding on any future crossing. Three real discipline failures caught by the anti-burial locks and fixed; the priority-language asymmetry flagged (B922's unqualified claim predates the O3 gate — panel dispatched). See docs/progress/REVIEWS.md.*
+
+> **Review 41 — 2026-08-09.** Two doors repriced this window. **X8 (the Higgs doublet)** was registered as the campaign's top rung and **dissolved** — B884 had it (the 10 ⊂ 27), B978 scopes only the adjoint, and the residue (doublet–triplet splitting) is **external** by B298/B299. **L145a (is the child a short word?)** is open at **23% unchecked** with its reopen action written down — the most concrete unexplored lead in the corpus.

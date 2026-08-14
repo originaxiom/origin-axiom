@@ -1,0 +1,10 @@
+{
+ "id": "B210",
+ "verdict": "PROVED",
+ "claim_one_line": "Golden carries both exceptional McKay groups, E8 from its monodromy field Q(sqrt5) and E6 from its hyperbolic trace field Q(sqrt-3).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

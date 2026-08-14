@@ -1,0 +1,17 @@
+{
+ "id": "B995",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "claim_one_line": "THE SEPARATING-AND-RARE CENSUS: SEALED OUTCOME A, AND THE INSTRUMENT VOIDED BY ITS OWN CONTROL. Prereg a356e987 sealed AND PUSHED before compute with the declared prior OUTCOME B. THE SEALED RUN: of eight fixed invariants six fail to separate m004 from B855-s two rows (h1_torsion and h1_divisors fail on m129; isom_order = 8 for four of five; alex_degree, systole, cover2_torsions), while TWO separate -- alex_coeffs = (1,-3,1) and cover3_torsions = (16,) -- and both are RARE over the first 1000 one-cusped census manifolds with ZERO skipped: 0.10 percent and 4.40 percent, under the sealed 5 percent threshold. SO THE SEALED VERDICT IS OUTCOME A, AGAINST THE DECLARED PRIOR. THE CONTROL THE PREREG DID NOT CONTAIN, run immediately because an unexpected positive against a declared negative prior is exactly when to be most suspicious, VOIDS THE INSTRUMENT ON TWO COUNTS. FLAW 1: RARE AND SEPARATING ARE NOT INDEPENDENT -- the separation set has FIVE members so for population rate r the chance all five differ is about (1-r)^5, giving 99.5 percent for alex_coeffs and 79.9 percent for cover3_torsions, so rarity makes separation NEARLY AUTOMATIC and both survivors pass the conjunction FOR THE SAME REASON THEY PASS ONE HALF OF IT. FLAW 2: the rarity measure asked the wrong question -- 19.3 percent of the 1000 manifolds are UNIQUE in their Alexander polynomial (290 distinct values, 193 occurring once), so the seal asked how many share m004-s VALUE (one, itself) when the informative question is how surprising uniqueness is AT ALL, a 1-in-5 event not 1-in-1000; a sufficiently fine invariant separates everything and is rare for everyone, and the same holds for cover3_torsions where 17.6 percent are unique and m004 is not even unique, sharing (16,) with 43 others. ADJUDICATION: sealed outcome A, adjudicated finding that the instrument is NON-DISCRIMINATING, and BOTH stand because converting A to B by fiat would be the post-hoc rescue the seal exists to prevent, in the mirror direction. NOT ESTABLISHED: that no separating-and-rare invariant exists -- the INSTRUMENT failed, the QUESTION is untouched. ESTABLISHED and worth more than the sealed outcome: A CONJUNCTION OF SEPARATES-FROM-A-SMALL-SET AND RARE-IN-THE-POPULATION IS ILL-POSED BECAUSE RARITY IMPLIES SEPARATION, so any future object-specificity test must measure separation against a set LARGE ENOUGH TO HAVE POWER AT THE INVARIANT-S OWN RATE and must price rarity against THE BASE RATE OF BEING UNIQUE rather than the frequency of one value. SENSITIVITY NOTE, not a change: the seal fixed all five relatives including m129 which has TWO CUSPS and is why h1_torsion failed to separate; cc3 excluded m129 on the stated ground that torsion-freeness carries no information for a two-cusped manifold and this seal did not adopt that exclusion -- had it, h1_torsion would have separated and would then have been killed anyway by its 60.8 percent base rate (B985).",
+ "depends_on": [
+  "B993",
+  "B687",
+  "B743",
+  "B803",
+  "B855",
+  "B985"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), sealed a356e987"
+}

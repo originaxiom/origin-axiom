@@ -1,0 +1,10 @@
+{
+ "id": "B589",
+ "verdict": "PROVED",
+ "claim_one_line": "The three E₆₂ θ-odd pair amplitudes are exactly the ℤ/7 sine-kernel moduli times 14th-root phases {+3,−2,−1}, certified to 40+ digits.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

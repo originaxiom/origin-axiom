@@ -1,0 +1,10 @@
+{
+ "id": "B491",
+ "verdict": "OPEN",
+ "claim_one_line": "An adversarial prior-art harness leaves two candidate cores APPEARS-NOVEL/NEEDS-SPECIALIST and one classical; novelty itself is not settled in-sandbox.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

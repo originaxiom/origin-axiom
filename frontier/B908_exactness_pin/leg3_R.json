@@ -1,0 +1,77 @@
+{
+ "primes_used": [
+  40123,
+  40639,
+  40693,
+  40897,
+  40903,
+  40927,
+  40939
+ ],
+ "pivots_consistent": true,
+ "aligned_v_is_0_all_primes": true,
+ "nonS_rows_equal_by_prime": {
+  "40123": true,
+  "40639": true,
+  "40693": true,
+  "40897": true,
+  "40903": true,
+  "40927": true,
+  "40939": true
+ },
+ "reconstructions": {
+  "c_S": null,
+  "c_row1": {
+   "value": "7231878193753159/1275886846680445",
+   "height": "7231878193753159",
+   "reduces_ok": true
+  },
+  "c_row2": {
+   "value": "7231878193753159/1275886846680445",
+   "height": "7231878193753159",
+   "reduces_ok": true
+  },
+  "rows_e1": null,
+  "rows_e2": {
+   "value": "467750785676957/1041887038715526",
+   "height": "1041887038715526",
+   "reduces_ok": true
+  },
+  "cols_e1": {
+   "value": "-4436513568585942/9368868071949163",
+   "height": "9368868071949163",
+   "reduces_ok": true
+  },
+  "cols_e2": {
+   "value": "467750785676957/8682391989296050",
+   "height": "8682391989296050",
+   "reduces_ok": true
+  },
+  "cols_e3": {
+   "value": "4560968814929612/9213588086385483",
+   "height": "9213588086385483",
+   "reduces_ok": true
+  },
+  "c_col1": null,
+  "c_col2": null,
+  "c_col3": null,
+  "P_R": {
+   "value": "-4560968814929612/9213588086385483",
+   "height": "9213588086385483",
+   "reduces_ok": true
+  },
+  "P_C": {
+   "value": "4560968814929612/9213588086385483",
+   "height": "9213588086385483",
+   "reduces_ok": true
+  },
+  "u": null,
+  "v": {
+   "value": "0",
+   "height": "1",
+   "reduces_ok": true
+  }
+ },
+ "P_R_plus_P_C_exactly_0": true,
+ "P_C_equals_cols_e3": true
+}

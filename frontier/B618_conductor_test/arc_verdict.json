@@ -1,0 +1,10 @@
+{
+ "id": "B618",
+ "verdict": "PROVED",
+ "claim_one_line": "The registered third-object prediction passes: the tr-5 bundle's √21 content appears exactly at levels {14,21,35,42}, confirming the tr²−4 conductor law.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

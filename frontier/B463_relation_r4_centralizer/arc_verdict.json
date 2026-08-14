@@ -1,0 +1,10 @@
+{
+ "id": "B463",
+ "verdict": "PROVED",
+ "claim_one_line": "The centralizer of the principal sl2 in e6 is exactly zero, so the banked E6 route's 4d commutant is finite — no continuous gauge symmetry.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

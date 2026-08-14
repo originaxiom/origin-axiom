@@ -1,0 +1,40 @@
+B775 P2W4-L38 -- OI-062 / S039 Act II : the kappa = -2 deformation scale
+==========================================================================
+1) Vol(4_1)  Bloch-Wigner = 2.02988321281930725
+             Lobachevsky  = 2.02988321281930725   agree=True
+             snappy(HP)   = 2.02988321281930725   agree=True
+             CS(complete) = -1.11e-15  (amphichiral)  zero=True
+2) kappa=-2 vacuum re-derived in-cell (B67 trace map, exact):
+     Fricke on fixed locus matches B67 : True
+     identity kappa = T^4-5T^2+2       : True
+     kappa(T=2) = -2  => the complete structure IS the kappa=-2 fiber
+     deformation coordinate  kappa+2 = (T - 2)*(T - 1)*(T + 1)*(T + 2)
+3) deformation law (exact series):
+     kappa+2 = 3 u^2 + 5/4 u^4 + ...      (meridian, T=2cosh(u/2))
+     kappa+2 = -1/4 v^2 + ...   [kappa=-2cosh(v/2) exact] (longitude, L=-e^{v/2})
+     => tau^2 = (dv/du)^2 = -12 = 4*(-3)  -> tau = 2 sqrt(-3)  ATOM lock=True
+     snappy cusp shape = (8.881784197001252e-16+3.4641016151377526j)  matches 2sqrt(3)i = True
+4) volume curvature  Vol(u) = Vol0 - C|u|^2 + O(u^4):
+     C[q1_double ] = 0.866025293913
+     C[q1_HP     ] = 0.866025412357
+     C[q2_double ] = 0.866025247212
+     C[q3_HP     ] = 0.866025506717
+     C_mean = 0.866025365050   spread = 2.60e-07   stable=True   = sqrt(3)/2 ? True
+     in kappa coordinate (real-u section, leading order): Vol = Vol0 - (1/(2 sqrt3))(kappa+2)
+5) the scale  S(k,u) = exp(-(k/2pi) Vol(u)) = base(u)^k :
+     rate Vol0/2pi = 0.323065947219   base = 0.7239261119  (O(1), NOT tiny)
+     scale at k: k1:7.239e-01, k2:5.241e-01, k6:1.439e-01, k12:2.072e-02, k50:9.654e-08
+     k needed for scale < 1e-3 : 21.38  (external)
+     exponent over the WHOLE deformation family (in-cell integer fillings):
+       min Vol = 0.9813688289 at slope (5, 1) ; max = Vol0 = 2.0298832128 ; window = 1.048514
+       per-level base over family in [0.7239, 0.8554]  -> bounded O(1) = True
+       geometric slopes 36 ; no geometric solution in-cell 11 : [(-4, 1), (-3, 1), (-2, 1), (-1, 0), (-1, 1), (0, 1), (1, 0), (1, 1), (2, 1), (3, 1)]
+6) level datum / null test:
+     CS = 0  => no level quantization from the object : True
+     identify(Vol/2pi) = none ; pslq alg deg<=8 = none
+     pslq candidates rejected as lattice artifacts: [(6, '1.1357e-46'), (8, '1.4944e-46')]
+     control: |C - sqrt(3)/2| = 3.87e-08 ; identify(C, tol 1e-8) = ((12-sqrt(0))/8)/sqrt(3)
+--------------------------------------------------------------------------
+VERDICT: RESOLVED-B    terminal = EXTERNAL
+WHY: the kappa=-2 deformation scale is computed WITH its structure and contains no forced small number: exponent Vol_0=2.02988 (rate Vol/2pi=0.32307, base=0.72393, O(1)); the deformation is exactly kappa+2 = 3u^2 = -v^2/4 with the ratio tau=2*sqrt(-3) (the atom) and volume curvature C=sqrt(3)/2 (= Im(tau)/4), so Vol = Vol_0 - (1/(2*sqrt3))(kappa+2) + ... on the real-u section; the exponent is BOUNDED over the whole deformation family (in-cell window [0.98137, 2.02988], per-level base in [0.7239, 0.8554]); and CS(complete)=0 supplies no level quantization -- so the smallness of e^{-k Vol} is set ENTIRELY by the EXTERNAL level k (5th firewall mode; B213 Act I extended to the kappa=-2 vacuum deformation)
+Gate 5: structural only; no SM Higgs claim; nothing to CLAIMS; one-number pin untouched.

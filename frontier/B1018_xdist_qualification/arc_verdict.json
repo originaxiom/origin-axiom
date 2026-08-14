@@ -1,0 +1,14 @@
+{
+ "id": "B1018",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE PARALLEL QUALIFICATION: CORRECTNESS CLEAN, ONE BASELINE-DELTA, A 1.42x DIVIDEND -- sealed ed762886, verdict QUALIFIED under the ARBITER RULE. Q0 pre-sealed: the module-collision audit found 7 risk names (worst: ten verify.py files) with the fix pattern constrained to test-side importlib loading, banked paths never moving. Q1: pytest-xdist 3.8.0 pinned in the canonical pyenv env. Q2 run 1 (-n 12, 16 cores, junitxml): 43:16 against the serial baseline's 61:27 -- 1.42x -- with 3897 passed, 1 failed, 35 skipped. Q3, THE ONE FAILURE, CLASSIFIED BASELINE-DELTA AND NOT PARALLEL-UNSAFE: the file-drawer lock's unreported set grew by exactly {B1018, B1019} because this arc's own seals were pushed AFTER the serial baseline; reproduced serially in 0.37s; the anti-file-drawer lock did exactly its job and the remedy is the sealed work itself (B1019 banked in the same commit, this report closing the other). ZERO PARALLEL-UNSAFE LOCKS FOUND. On the modest dividend, measured not guessed: twelve sympy-heavy workers on eight physical x86 cores at ~87 percent CPU each, no memory pressure (64 GB, zero throttled pages) -- shared-cache/hyperthread-bound on a machine that had just run an hour of serial suite; 1.42x is the honest number and still buys ~18 minutes per merge. Q4: scripts/run_suite.sh banked (parallel default, --serial flag) and the ARBITER RULE registered in PRACTICES -- SERIAL REMAINS THE CERTIFICATE OF RECORD; any parallel-vs-serial disagreement is a failure and is investigated, never shipped. The same-tree pair (the serial certificate of this very commit + parallel run 2 on the identical tree) completes Q2's twice-criterion; its numbers are in the FINDINGS' dated addendum. SCOPE: an instrument arc about the SUITE, asserting nothing about the object; the qualification is bench-specific (this machine, this env) and re-qualifies on material env change.",
+ "depends_on": [
+  "B1008",
+  "B837",
+  "B943"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10), sealed ed762886"
+}

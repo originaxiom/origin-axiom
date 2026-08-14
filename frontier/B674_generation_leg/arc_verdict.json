@@ -1,0 +1,10 @@
+{
+ "id": "B674",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Route 1 misses: the Γ(5) twisted tower is trace-silent (tr(A₁*|H¹(Symᵐ))=0 for all m), though its modular lift is the golden order-10 rotation with trace φ.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

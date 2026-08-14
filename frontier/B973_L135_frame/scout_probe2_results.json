@@ -1,0 +1,28 @@
+{
+ "M12_cap_core": 0,
+ "M12_charge_ranks": [
+  12,
+  12,
+  12,
+  12
+ ],
+ "M12_dim": 12,
+ "M12_torus_invariant": true,
+ "compact_wall_dims": [
+  30,
+  30,
+  30
+ ],
+ "kappa": "2771822592000*s**3 + 3033676800*s**2 - 56402640*s - 6859",
+ "kappa_constant_is_minus_19cubed": true,
+ "kappa_disc_squarefree_kernel": [
+  7,
+  11
+ ],
+ "kappa_irreducible": true,
+ "killing_rank_mod_p": 78,
+ "nu_degree": 18,
+ "nu_extra_node_checks": true,
+ "prime": 40883,
+ "triple_span": 66
+}

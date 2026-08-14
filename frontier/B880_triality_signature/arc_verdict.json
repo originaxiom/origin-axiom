@@ -1,0 +1,13 @@
+{
+ "id": "B880",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The module-level magic-square signature, computed on this build (the computational half of the M(O,C) identification; B882 is the bibliographic half): so(8) = derived(core) at dim 28 exactly; each triality sector splits [8,8] under a plane charge (the O-tensor-C pair, tri(C) = the soft plane); and the Hom-matrix of the three sectors under so(8) is diag(4,4,4) with ZERO off-diagonal -- all six cross-Homs vanish with certificates <= 4e-27 (certified generic-pair method against all 28 generators), all three self-Homs = 4 = M2 of an irreducible-8 pair, exactly. The three sectors are PAIRWISE-INEQUIVALENT so(8)-modules -- the three triality frames -- which is precisely what M(O,C) = tri(O)+tri(C)+3x(O tensor C) requires. With B875 (cyclic law, core type) and B882 (literature), the naming stands on computation and bibliography simultaneously. Queued capstone: the explicit Barton-Sudbery basis isomorphism in exact arithmetic, behind the 27-representation build.",
+ "depends_on": [
+  "B875",
+  "B882"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

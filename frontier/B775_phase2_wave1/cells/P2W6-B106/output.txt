@@ -1,0 +1,59 @@
+P2W6-B106 -- rank-4 Fix(T_1^2) census completion + the exact c=i point
+==============================================================================
+
+[S1] Gamma = F_2 x|_phi Z substrate (exact normal forms)
+     {"phi_psi_inverse": true, "rel_a": true, "rel_b": true, "alpha_order": true}
+
+[S2] THE CONJUGATION MAP Phi -- exact, in the group (hence every rank, every rep)
+     alpha_conjugates_phi_to_phi_inverse: True
+     inner_word_w: aB
+     t_prime_is_monodromy: True
+     mu_prime: ('BaB', -1)
+     mu_prime_equals_conj_mu_inv: True
+     L_prime: bABa
+     L_prime_equals_conj_L: True
+     conjugate_relation_forced: True
+     => (A,B,t) |-> (B, A^-1, A B^-1 t^-1);  mu' = A^-1 mu^-1 A;  L' = A^-1 L A
+     => L = c mu^k  IMPLIES  L' mu'^k = c.   M^k L = 1 is the Phi-image of M^k = L.
+     (Phi preserves irreducibility exactly: <B,A^-1> = <A,B> as a subgroup.)
+
+[S2b] rank-3 control against the banked B71 decomposition (recomputed, not cited)
+     W1[2.3, 3.1]: M^3=L dev=1.7e-09 -> Phi: res=2.7e-09 M^3L=1 dev=6.6e-09 c=(1+0j) ; (x2,x5)=[(1-0j), (1-0j)]
+     W1[1.7, -0.9]: M^3=L dev=3.9e-10 -> Phi: res=3.1e-10 M^3L=1 dev=9.1e-10 c=(1-0j) ; (x2,x5)=[(1-0j), (1-0j)]
+     Phi carries W1 onto W2 = {x2=x5=1} with the conjugate relation: True
+
+[S3] rank-4 instantiation (B73 reps; Phi in closed form)
+     principal seed0: res=1.8e-10 ['M^4=L'] |  Phi: res=2.3e-10 ['M^4L=1']  trA(Phi)=(1.015691+0.227104j)
+     principal seed1: res=5.1e-15 ['M^4=L'] |  Phi: res=6.5e-15 ['M^4L=1']  trA(Phi)=(-0.366946+0.479641j)
+     principal seed2: res=1.6e-12 ['M^4=L'] |  Phi: res=3.5e-12 ['M^4L=1']  trA(Phi)=(-1.140873-0.053589j)
+     secondary seed0: res=7.9e-11 ['M^3=L'] |  Phi: res=1.9e-10 ['M^3L=1']  trA(Phi)=(0.138304-0.639707j)
+     secondary seed1: res=3.2e-15 ['M^2L=1', 'M^3=L'] |  Phi: res=8.6e-15 ['M^2=L', 'M^3L=1']  trA(Phi)=(1+0j)
+     secondary seed2: res=1.6e-11 ['M^3=L'] |  Phi: res=3.4e-11 ['M^3L=1']  trA(Phi)=(0.195319+1.131698j)
+     EXACT (Q(omega), B89 family): {"b89_family_on_variety_exact": "True", "detA_frozen": "spec(A) = {1,1,w,w^2} by construction (A is the constant diag)", "trB_nonconstant_exact": "True", "trB_at_3_exact_points": "['(87*sqrt(3) + 97*I)/(2*(12*sqrt(3) + 23*I))', '(-17*sqrt(3) - 41*I)/(4*sqrt(3) - 11*I)', '(19*sqrt(3) + 23*I)/(4*sqrt(3) + 11*I)']"}
+
+[S4] the exact c point
+     det[A,B]=1 and det(mu)=1 => c^4=1 (exact) ; gauge class {"principal": "mu_4/mu_4^4 = Z/4", "secondary": "mu_4/mu_4^3 = Z/1"}
+     principal seed0: c over the 4 lifts = ['(-1+0j)', '(-1+0j)', '(-1+0j)', '(-1+0j)'] (distinct=1, dev<=2.5e-10)
+     principal seed1: c over the 4 lifts = ['(-1+0j)', '(-1+0j)', '(-1+0j)', '(-1+0j)'] (distinct=1, dev<=2.0e-14)
+     principal seed2: c over the 4 lifts = ['(-1+0j)', '(-1+0j)', '(-1+0j)', '(-1+0j)'] (distinct=1, dev<=2.4e-12)
+     secondary seed0: c over the 4 lifts = ['1j', '(-1+0j)', '(-0-1j)', '(1-0j)'] (distinct=4, dev<=1.3e-10)
+     secondary seed1: c over the 4 lifts = ['(-0-1j)', '(1-0j)', '1j', '(-1+0j)'] (distinct=4, dev<=7.6e-15)
+     secondary seed2: c over the 4 lifts = ['1j', '(-1+0j)', '(-0-1j)', '(1-0j)'] (distinct=4, dev<=2.5e-11)
+     c invariant? {"principal": true, "secondary": false}
+     banked-branch c across seeds: {"principal": ["(-1+0j)"], "secondary": ["(-0-1j)", "1j"]}
+
+[S5] the EXHAUSTIVE census over ALL F_p-rational rank-n spectra (Singular; census_sweep.py)
+     n=3 p=13:  31 spectra in   2.7s | dim hist {'-1': 14, '0': 12, '1': 4, '2': 1} | distinct dim>=2: [[1, 5, 8]] (+0 repeated-spectrum upper-bounds)
+     n=3 p=17:  51 spectra in   5.1s | dim hist {'-1': 16, '0': 28, '1': 6, '2': 1} | distinct dim>=2: [[1, 4, 13]] (+0 repeated-spectrum upper-bounds)
+     n=4 p=13: 116 spectra in  78.9s | dim hist {'-1': 59, '0': 32, '1': 10, '2': 6, '3': 3, '4': 5, '5': 1} | distinct dim>=2: [] (+15 repeated-spectrum upper-bounds)
+     n=4 p=17: 245 spectra in 137.4s | dim hist {'-1': 97, '0': 94, '1': 20, '2': 20, '3': 6, '4': 8} | distinct dim>=2: [[2, 8, 9, 15]] (+33 repeated-spectrum upper-bounds)
+     n=4 p=19: 335 spectra in 220.9s | dim hist {'-1': 142, '0': 143, '1': 27, '2': 8, '3': 7, '4': 7, '5': 1} | distinct dim>=2: [[6, 14, 15, 16]] (+22 repeated-spectrum upper-bounds)
+     rank-3 control singles out ONE distinct component per prime: True
+     rank-4 exhaustive enumeration terminates (no 25-var wall): True
+     rank-4 distinct Dehn-filling components per prime: {"13": [], "17": [[2, 8, 9, 15]], "19": [[6, 14, 15, 16]]}
+     principal {1,1,w,w^2} is a REPEATED spectrum, certified exact over Q(w) in S3.
+
+==============================================================================
+GATES: {"conjugate_theorem_exact": true, "rank3_phi_control": true, "rank4_conjugates_exhibited": true, "phi_image_is_a_new_component_exact": true, "c_point_exact": true, "census_exhaustive_computable": true, "census_walls_below_25var": false}
+VERDICT: RESOLVED-A -- rank-4 Fix(T_1^2) census completed AND the c point is exact. (1) The D3 'conjugate could live on an unsearched spectrum' worry is CLOSED exactly: alpha in Aut(F_2) (a->b,b->a^-1) induces Phi:(A,B,t)|->(B,A^-1,AB^-1 t^-1) with mu'=A^-1 mu^-1 A, L'=A^-1 L A, so M^k L=1 is the exact Phi-image of M^k=L -- and Phi moves the A-spectrum, which is why an A-spectrum-indexed search never saw it (rank-3: exactly W1<->W2). (2) The census is COMPUTABLE (iterative Singular saturation, exhaustive over all F_p-rational spectra, 3 primes; no 25-var wall). (3) c is exact: c^4=1 with principal c=-1 an invariant, secondary c PURE GAUGE (all of mu_4 occurs; the banked 'c=i' is the det(t)^1/4 branch at seed 0, seed 1 gives -i) -- the seed-invariant content is L^4=M^12.
+Structural only: no SM values, nothing to CLAIMS.md, pin untouched.

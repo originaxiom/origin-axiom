@@ -1,0 +1,30 @@
+==========================================================================
+P2W4-R2 (OI-072)  R2 sealing: is Fix(T_m^2) 0-dimensional?
+  m=1 = RL = figure-eight (B71 calibration) | m=2 = R^2L^2 = b++RRLL (R2)
+==========================================================================
+
+[cert] B48 SL(3) trace map vs direct matrix traces: PASS (6 cases)
+[cert] bundle monodromy phi_1^2=[[2, 1], [1, 1]]  phi_2^2=[[5, 2], [2, 1]] (= R^2L^2, silver/m136)
+
+--- m=1  figure-eight / B71 CALIBRATION ---
+  fix polys 8 deg [2, 1, 3, 2, 1, 1, 1, 3], GB size 7
+  KRULL DIM (grevlex, indep-set)   : 2   witnesses [['x3', 'x8'], ['x6', 'x7'], ['x7', 'x8']]
+  slice certificate dim (2 seeds)  : {'11': 2, '29': 2}
+  generic fibers nonempty          : 5/5
+  OFF self-dual sub-locus, dim     : {'x1 - x4': 2, 'x2 - x5': 2, 'x3 - x8': 2, 'x6 - x7': 2}
+  OFF slice cert dim (2 seeds)     : {'11': 2, '29': 2}   fibers 5/5
+
+--- m=2  b++RRLL silver / THE R2 WORD ---
+  fix polys 8 deg [5, 2, 7, 5, 2, 3, 3, 7], GB size 29
+  KRULL DIM (grevlex, indep-set)   : 2   witnesses [['x3', 'x8'], ['x4', 'x7'], ['x5', 'x8']]
+  slice certificate dim (2 seeds)  : {'11': 2, '29': 2}
+  generic fibers nonempty          : 5/5
+  OFF self-dual sub-locus, dim     : {'x1 - x4': 2, 'x2 - x5': 2, 'x3 - x8': 2, 'x6 - x7': 2}
+  OFF slice cert dim (2 seeds)     : {'11': 2, '29': 2}   fibers 5/5
+
+==========================================================================
+VERDICT: RESOLVED-B
+R2's fixed locus Fix(T_2^2) is POSITIVE-DIMENSIONAL: Krull dim = 2, and it stays dim 2 after the entire self-dual (SL(2)-derived / Sym^2) sub-locus is removed -- so R2's finite 50-point sample can never seal; the R2 sealing FAILS as a method
+==========================================================================
+
+wrote results.json  (147.5s)

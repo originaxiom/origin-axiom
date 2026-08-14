@@ -1,0 +1,10 @@
+{
+ "id": "B276",
+ "verdict": "PROVED",
+ "claim_one_line": "The figure-eight colored-Jones degenerates at q=ζ₃,ζ₆ with periods 3,6 and values in ℤ[ζ₃], the trace field ℚ(√−3) whose ramified prime 3 yields 2T=McKay-E₆.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

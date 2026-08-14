@@ -1,0 +1,10 @@
+{
+ "id": "B533",
+ "verdict": "PROVED",
+ "claim_one_line": "The coupling is not a gauge choice: 34 observation points fall into exactly 5 depth-stable Perron types, each an integer combination of the letter frequencies.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

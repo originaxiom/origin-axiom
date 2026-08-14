@@ -1,0 +1,10 @@
+{
+ "id": "B689",
+ "verdict": "PROVED",
+ "claim_one_line": "The figure-eight's weight-2 avatar exists only at level 15 = 3*5 (X_0(3) and X_0(5) both genus 0), so the two hands are irreducibly coupled.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

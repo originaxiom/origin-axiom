@@ -1,0 +1,1 @@
+010000 A1 minimal                dim Cent(2T) = 35   dim [C,C] = 35   NON-ABELIAN   #simple ideals of [C,C] <= 26

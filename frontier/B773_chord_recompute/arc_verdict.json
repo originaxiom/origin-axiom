@@ -1,0 +1,10 @@
+{
+ "id": "B773",
+ "verdict": "PROVED",
+ "claim_one_line": "The banked level-45 'pair-sector identically zero' wall was a projection artifact: the isolated theta-odd readout is 1/4, reproduced three independent ways.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "W4-304",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

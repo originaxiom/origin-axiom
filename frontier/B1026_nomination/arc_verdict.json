@@ -1,0 +1,15 @@
+{
+ "id": "B1026",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE NOMINATION CELL, DATA-BLIND, sealed 7e798db1: NOMINATED -- the chi phases vs the CP phases at exactly 2.0 priced bits (THEOREM grade; sign 1 bit + sector 1 bit; the object set reduced to {+-2pi/3} by the banked nontriviality selector); runner-up T2 at 3.0; T1/T3 over the 3-bit cap. THE RECORDED NEAR-MISS, the gate against its own author: a first draft scored T5 (h(5) = -1 vs |V_ij|) FIRST at 1.585 and the sealed N1 killed it -- the inventory types T5 'signed amplitude' and KIND_TABLE licenses no signed-amplitude-to-modulus pairing; the nominee would have been boundary-degenerate (|h| = 1 is a no-mixing datum). The kind clause caught what the arithmetic missed; the near-miss stays in the source. Prior (a nominee at <= 3 bits, weak lean) HELD.",
+ "depends_on": [
+  "B1011",
+  "B1020",
+  "B856",
+  "B641"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-11), sealed 7e798db1"
+}

@@ -1,0 +1,95 @@
+{
+ "C1_trace3_classes": [
+  "LR"
+ ],
+ "C1_unique_class": [
+  "LR"
+ ],
+ "C1_unitdet_iff_tr3": true,
+ "C4_entangled_amphichiral": [
+  [
+   "LLRR",
+   2
+  ]
+ ],
+ "C5_d5_count": 16,
+ "C5_includes_R4L4_tr18": true,
+ "V1_counts": [
+  1,
+  2,
+  3,
+  6,
+  9,
+  18,
+  30,
+  56,
+  99,
+  186,
+  335
+ ],
+ "V1_total": 745,
+ "V2_alt": [
+  5,
+  6,
+  10,
+  17
+ ],
+ "V2_matches_rerun": true,
+ "V2_nogo_lemma": "ker(A-I) = ker(A^-1-I) since A^-1-I = -A^-1(A-I); one line, verified",
+ "V2_primary": [
+  2,
+  0,
+  0,
+  6
+ ],
+ "V3_R4L4": [
+  0.6180339887498962,
+  4.440892098500626e-16
+ ],
+ "V3_sample_worst_dev": 1.9984014443252818e-15,
+ "V3_silver": [
+  0.9999999999999993,
+  1.1102230246251565e-16
+ ],
+ "V3_table_declared": [
+  [
+   "0",
+   188
+  ],
+  [
+   "(3-sqrt5)/2 = 1/phi^2",
+   153
+  ],
+  [
+   "1",
+   249
+  ],
+  [
+   "(3+sqrt5)/2 = phi^2",
+   147
+  ],
+  [
+   "4",
+   8
+  ]
+ ],
+ "V3_value_counts": [
+  188,
+  153,
+  249,
+  147,
+  8
+ ],
+ "V4_amphichiral_count": 53,
+ "V4_prime_d_amph_joint": 11,
+ "V4_prime_d_set": [
+  5,
+  13,
+  17,
+  29,
+  37,
+  53,
+  173,
+  229
+ ]
+}

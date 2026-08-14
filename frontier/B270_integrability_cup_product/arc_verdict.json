@@ -1,0 +1,10 @@
+{
+ "id": "B270",
+ "verdict": "PROVED",
+ "claim_one_line": "Re-derived rather than cited: the quadratic cup-product obstruction vanishes in the SL(2)/exponent-1 block, and dim H¹=#cusps makes every deformation a cusp deformation.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

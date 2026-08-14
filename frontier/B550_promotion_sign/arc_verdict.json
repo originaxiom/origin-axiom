@@ -1,0 +1,10 @@
+{
+ "id": "B550",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Promotion-Sign Conjecture is refuted at n=3 by the exact tower (height-1 = (0,1), not the predicted (1,0)); the promotion uniformly consumes char(+M¹), with n=5 → (1,2) as the falsifiable test.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

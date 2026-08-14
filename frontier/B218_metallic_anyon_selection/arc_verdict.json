@@ -1,0 +1,10 @@
+{
+ "id": "B218",
+ "verdict": "PROVED",
+ "claim_one_line": "Jones-index quantization selects golden as the unique metallic mean realizable as a unitary anyon (Fibonacci, d=2cos(pi/5)); all m>=2 exceed the index-4 wall.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

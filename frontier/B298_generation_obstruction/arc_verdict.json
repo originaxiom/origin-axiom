@@ -1,0 +1,10 @@
+{
+ "id": "B298",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

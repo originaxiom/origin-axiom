@@ -1,0 +1,10 @@
+{
+ "id": "B209",
+ "verdict": "PROVED",
+ "claim_one_line": "The icosahedral tiling's exterior algebra decomposes into every A5 irrep at multiplicity exactly 4, with the four spinorial 2I irreps completing E8 absent.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

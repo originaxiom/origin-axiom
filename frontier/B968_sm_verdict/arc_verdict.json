@@ -1,0 +1,28 @@
+{
+ "id": "B968",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE SM VERDICT CRYSTALLISED (owner directive, before the programme turns to cosmology, gravity and other unexplained phenomena). docs/THE_SM_VERDICT.md supersedes every scattered statement about 'the SM problem' and is written to the standard the day's two new gates enforce: every claim carries its scope, no retracted phrasing appears as a live claim. THE ONE SENTENCE: the object supplies the ADJOINT HALF of a grand-unified symmetry breaking and NOT the 27 HALF -- and the 27 half is an input in every theory anyone has, not a defect peculiar to this object. WHAT IT GIVES: an E6 boundary with the build proved isomorphic to M(O,C); the measurement cascade landing on su(3)+su(2)+u(1)^3, now verified independently on this bench (B961); three generations structurally with D2 carrying the hierarchy; sin^2 theta_W = 3/8 at tree/GUT level, REPRODUCED not predicted; the 27 complex <=> tau != id as ONE fact not two; and the value layer's exact arithmetic (I = -1, the twist-norm law, 953, lambda forced = 2304/953). Plus the naming that changed today: THE MEASUREMENT CASCADE IS AN ADJOINT HIGGS MECHANISM, since the unbroken group after an adjoint VEV IS the centralizer of that element. WHAT IT DOES NOT GIVE, and precisely why: rank reduction, as a THEOREM -- centralizers of semisimple elements contain a maximal torus so every measurement is rank-preserving, with the closure complete across inner involutions (63 gradings fix the full Cartan), the outer route (rank 4 but tau makes the 27 self-dual on Fix(tau), inherited by restriction), abelian holonomy (H_1 = Z so cyclic, necessarily rank-preserving), the object's finite images (A4/D5/S5 elementary-abelian rank <= 2, toral by Steinberg, CITED not re-derived), and the adjoint-form escape (self-defeating: omega_1 not in the root lattice, so the adjoint form HAS NO 27). Scope: proved for the simply connected form, which B960 shows is forced by the presence of the 27. THE SINGLE CAUSE: tau does double duty -- tau != id is EQUIVALENT to the 27 being complex AND tau is the only rank-reducing involution, so spending it on rank lands in Fix(tau) where 27 = 27bar. NOT an uncertainty principle; the analogy was considered and REJECTED. VALUES: three sealed crossings, three negatives (B915 MISS 16 sigma; B925 outcome B by the chain's own algebra; B929 right shape wrong magnitude 5-9x) -- and these failed on VALUES, not on rank, so the rank obstruction is NOT a retrofit explanation for them; the deeper reason is B936, the value layer is FRAME-RELATIVE. THE MISSING PIECE NAMED EXACTLY: rank reduction with the 27 kept complex, achieved in standard physics by two rank-1 27 VEVs plus an adjoint VEV -- with three facts established today: the VEV DIRECTION is an input in every framework and nobody derives it; there is NO canonical choice, since OP^2 = F4/Spin(9) is homogeneous and F4 is transitive even on TRIPLES so the two-VEV configuration is homogeneous too; and THE F4 WALL IS THE GENERIC 27 VEV, the rank-3 full-measure orbit having stabilizer F4, with chirality surviving only on the measure-zero rank-1 orbit, which FORCES two VEVs. So the object's shortfall is the UNIVERSAL one. THE ONE LIVE OPENING: homogeneity is what kills canonicity, and homogeneity FAILS over Z and over number fields -- Kato-Yukie classify rational orbits of PAIRS OF 27s by CUBIC ETALE ALGEBRAS, and this programme owns cubics (mu, kappa, K = Q[rho]/mu). Does the object's own cubic pick out a rational two-27 orbit? That is L138, unworked, and the only route by which this object could distinguish a VEV that no real or complex framework can -- carrying the certified null that the arithmetic-27 idea exists in physics only in black-hole charge-orbit work and has NEVER touched a VEV, and the caveat that even if it fires it supplies a DIRECTION, not the values. REMAINING SURFACE, RANKED: L138; L134 the twelve exotics per generation, never addressed here; L132 amended (is the anomaly check non-vacuous on complete 27s -- probably vacuous, cheap to settle, MB12 requires it first); L135 / the presence side, owed to the solo seat with the frame instrument now existing; L137 the value/pencil split, post-hoc, needing its own seal; and the global Z6 form, strong CP, the hierarchy and neutrino mass, never addressed and listed so they are not forgotten. WHAT THIS VERDICT IS NOT: not 'the object fails' (it supplies a GUT-shaped skeleton, an exact value-layer arithmetic and two certified spectral numbers; what it lacks is the piece NOBODY supplies); not 'the SM is unreachable from here' (the 27-VEV route is standard and open; what is excluded is the class of operations the object HAS); and not a physics claim -- every SM-facing statement is structural or reproduced, no measured value is predicted, Gate 5 untouched.",
+ "depends_on": [
+  "B892",
+  "B950",
+  "B951",
+  "B952",
+  "B953",
+  "B954",
+  "B955",
+  "B959",
+  "B960",
+  "B961",
+  "B962",
+  "B963",
+  "B964",
+  "B936",
+  "B915",
+  "B925",
+  "B929"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, at the owner's direction (2026-08-08)"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B821",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The proposed self-audit motif failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%) and was reverted; the 21 blind arcs decompose as 14 stubs, 6 instrument arcs and 1 real gap, correcting B820's 'rotting' diagnosis.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": "B820",
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

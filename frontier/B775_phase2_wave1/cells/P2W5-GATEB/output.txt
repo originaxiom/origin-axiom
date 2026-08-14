@@ -1,0 +1,110 @@
+PASS  A1: 2T = 24 Hurwitz units, 7 conjugacy classes, sizes sum to 24
+PASS  A2: eps: 2T -> Z/3 is a homomorphism (all 576 pairs, exact)
+PASS  A3: ker(eps) = Q8 (the abelianization 2T/Q8 = Z/3)
+PASS  A4: character table derived + gated orthonormal, sum dim^2 = 24
+PASS  B1: rho2 is a homomorphism 2T -> SU(2) (all 576 pairs, exact)
+PASS  B2: rho3 and rho3_sl2 land in SU(3) (det 1, unitary; all 24 elements, exact)
+PASS  B3: w^3 = 1 (the mu_3 centre of E6: a scalar preserves a cubic iff w^3 = 1)
+PASS  B4: <i, (1+i+j+k)/2> = 2T (generators verified by closure)
+PASS  B5: I3 is invariant under the balanced route on both generators (symbolic, 27 vars)
+PASS  B6: I3 is invariant under the central scalar w.Id (so every twist stays in E6)
+PASS  B7: I3 is invariant under the CHIRAL witness on both generators (symbolic, 27 vars)
+PASS  B8: I3 invariant under the SL(2)-route on both generators (symbolic, 27 vars)
+PASS  B9: the chiral witness rho' = w^eps . Pb is a homomorphism (exact, 27 sampled pairs + both generator pairs; structural from A2+B1+B3)
+PASS  B10: the chiral witness is injective (Pt1(g) = Id only for g = 1; all 24, exact)
+
+  class reps            : [('1', '0', '0', '0'), ('-1', '0', '0', '0'), ('-1/2', '-1/2', '-1/2', '-1/2'), ('-1/2', '-1/2', '-1/2', '1/2'), ('0', '-1', '0', '0'), ('1/2', '-1/2', '-1/2', '-1/2'), ('1/2', '-1/2', '-1/2', '1/2')]
+  orders / eps / sizes  : [1, 2, 3, 3, 4, 6, 6] / [0, 0, 1, 2, 0, 2, 1] / [1, 1, 4, 4, 6, 4, 4]
+
+  route                                     27|_2T                                        (n1,n2)   self-dual
+  principal SU(2) (canonical, B329a)        {'1': 3, "1'": 3, "1''": 3, '3': 6}           (3, 3)    True
+  principal (x) 1'                          {'1': 3, "1'": 3, "1''": 3, '3': 6}           (3, 3)    True
+  principal (x) 1''                         {'1': 3, "1'": 3, "1''": 3, '3': 6}           (3, 3)    True
+  balanced trinification (canonical, B329b) {'1': 9, "1'": 3, "1''": 3, "2'": 3, "2''": 3} (0, 0)    True
+  balanced (x) 1'  = THE CHIRAL WITNESS     {'1': 3, "1'": 9, "1''": 3, '2': 3, "2''": 3} (9, 0)    False
+  balanced (x) 1''                          {'1': 3, "1'": 3, "1''": 9, '2': 3, "2'": 3}  (0, 9)    False
+  SL(2)-route 3 = 1+2                       {'1': 15, '2': 6}                             (0, 0)    True
+  SL(2)-route (x) 1'                        {"1'": 15, "2'": 6}                           (9, 0)    False
+
+PASS  C1: the two CANONICAL routes reproduce Gate B (OI-128): principal 3.1+3.1'+3.1''+6.3 with n1=n2=3, balanced trinification 9.1+3.1'+3.1''+3.2'+3.2'' with n1=n2=0
+PASS  C2: the CHIRAL WITNESS reproduces OI-173: 27|H' = 3.1+9.1'+3.1''+3.2+3.2'', character non-real, n1 = 9 != n2 = 0  (so the witness is REAL -- it is not being deflated)
+PASS  T1: self-dual 27|H  =>  n1 = n2  (exercised on 400 random self-dual multiplicity vectors + all 8 routes; and n1 != n2 => NOT self-dual on the witness)
+PASS  T1-nonvacuity: the self-duality test is not vacuous -- both outcomes occur among the computed routes (self-dual routes exist AND non-self-dual routes exist)
+PASS  T3: every SL(2,C)-route gives a SELF-DUAL 27|_2T hence n1 = n2 -- verified on two independent SL(2)-routes (principal; and 3 = 1+2 inside a trinification factor)
+PASS  X2: the chiral witness factors through NO SL(2,C) subgroup of E6 (27|H' non-self-dual, while every SL(2)-restriction is self-dual by T3)
+  dim Fix_27(balanced canonical) = 9      dim Fix_27(chiral witness) = 3
+PASS  E1: dim Fix_27 matches the multiplicity of the trivial irrep in each branching (balanced 9, witness 3) -- the fixed-space computation is consistent with C
+PASS  E2: the CUBIC DOES NOT VANISH on Fix_27(balanced): I3|Fix is a nonzero polynomial
+  balanced: explicit fixed point with I3(v) = -8 ; det(Hess I3 at v) = -268435456
+PASS  T2: the balanced canonical route fixes a point v with I3(v) != 0 AND nondegenerate Hessian => 27|H carries an INVARIANT NONDEGENERATE symmetric bilinear form => 27|H self-dual => n1 = n2 (this is the H < F4 = E6^theta register)
+PASS  X1a: the cubic VANISHES IDENTICALLY on the whole fixed space of the chiral witness (symbolic in 3 free parameters): I3|Fix(H') == 0
+PASS  X1b: every fixed vector of the chiral witness has RANK <= 1 in each Jordan block (all 2x2 minors vanish symbolically) -- the fixed locus is a rank-1 cone
+  chiral witness: det(Hess I3) at 4 sampled fixed points = [0, 0, 0, 0]
+PASS  X1c: the invariant symmetric form B_v is DEGENERATE at every sampled fixed point of the chiral witness (4 exact samples) -- no invariant nondegenerate form from Fix
+PASS  X1: THE DISCRIMINATING FACT -- the chiral witness lies in NO conjugate of F4 = E6^theta (it fixes no point of nonzero cubic), while the canonical balanced route lies pointwise INSIDE one.  The chiral witness is exactly the embedding that escapes the theta-fold the object certifies (B353).
+PASS  Y1: sigma INVERTS the mu_3 twist torsor: conj(chi_{rho(x)1'^k}) = conj(chi_rho).w^{-k eps} -- verified exactly for rho = balanced, k = 0,1,2
+  twist torsors: balanced -> 1/3 sigma-stable (collapsed: False) ; principal -> 3/3 sigma-stable (collapsed: True)
+PASS  Y2: the BALANCED torsor is a genuine Z/3 torsor with EXACTLY ONE sigma-stable member -- the untwisted canonical one; the two chiral members ((n1,n2) = (9,0) and (0,9)) are exchanged by sigma
+PASS  Y3: the PRINCIPAL torsor COLLAPSES (chi_principal = 0 on every eps != 0 class), so the object's own route is TWIST-RIGID: all three twists are the same embedding, n1 = n2 = 3, no chiral member exists at all
+PASS  Y4-nonvacuity: the twist is NOT inert in general -- the non-principal SL(2)-route 3 = 1+2 twists to a chiral embedding ((9, 0)), so Y3 is a genuine property of the PRINCIPAL route, not a tautology
+PASS  Y5: Hom(2T, Z(E6)) = Hom(2T, mu_3) = Z/3 and theta acts by inversion k -> -k; the ONLY theta-fixed twist is k = 0.  An amphichiral object (theta = its own hyperelliptic involution, B353) can only select the untwisted, sigma-stable member.
+PASS  MB12/B414: the verdict logic is NON-VACUOUS -- explicit counterfactual fact-vectors reach RESOLVED-A (3 distinct ways), RESOLVED-B (the computed one) and UNRESOLVED (2 ways); no branch is unreachable and none is forced
+
+================================================================================================
+  fact  witness_is_real                    = True
+  fact  selfdual_forces_equal              = True
+  fact  sl2_routes_closed                  = True
+  fact  witness_not_sl2                    = True
+  fact  witness_outside_F4                 = True
+  fact  canonical_inside_F4                = True
+  fact  torsor_has_sigma_fixed_member      = True
+  fact  object_route_twist_rigid           = True
+  fact  theta_fixes_only_trivial_twist     = True
+  branch A fires: False     branch B fires: True
+================================================================================================
+ALL GATES PASS.
+
+VERDICT: RESOLVED-B
+
+  RECONCILIATION.  OI-173's chiral 2T < E6 is REAL and is reproduced here in full
+  (C2): rho'(g) = w^{eps(g)} rho_b(g) is an injective homomorphism into Stab(I3)
+  with 27|H' = 3.1 + 9.1' + 3.1'' + 3.2 + 3.2'', non-real character, n1 = 9 != n2 = 0.
+  It refutes the CLEAN THEOREM 'no 2T < E6 has n1 != n2'.  It does NOT reopen Gate B,
+  for three independently computed reasons:
+
+    (1) F4-EXCLUSION (X1).  Gate B's sigma is the object's own amphichirality: B353
+        certified that the figure-eight's hyperelliptic involution induces exactly the
+        E6 diagram involution theta at the geometric point, and theta fixes the
+        principal SL2 pointwise -- the object's E6 datum is theta-fixed, i.e. lands in
+        F4 = E6^theta.  Computed here: the canonical balanced route fixes a point of
+        the 27 with I3 = nonzero and NONDEGENERATE Hessian (so 27|H carries an invariant
+        nondegenerate symmetric form => self-dual => n1 = n2, T2), whereas the chiral
+        witness's ENTIRE fixed space is a rank-1 cone on which I3 vanishes identically
+        -- it lies in no conjugate of F4 at all.  The witness is precisely the embedding
+        that escapes the theta-fold.
+
+    (2) SL(2)-EXCLUSION (T3/X2).  The object's 2T is a finite subgroup of its
+        commensurator SL(2,C) = PGL(2,O_-3) (the Eisenstein/Hurwitz units, B302) -- an
+        SL(2)-route.  Every SL(2,C)-route restricts the 27 to a sum of self-dual
+        SL(2)-irreps, hence n1 = n2 (verified on two independent SL(2)-routes).  The
+        witness is not self-dual, so it factors through no SL(2,C) < E6.
+
+    (3) THE TWIST TORSOR IS THETA-INVERTED (Y).  Reaching the witness from a canonical
+        route means CHOOSING a nonzero element of Hom(2T, Z(E6)) = Z/3.  sigma = theta
+        inverts that torsor (Y1/Y5): the only theta-fixed choice is the trivial one, and
+        the two chiral members are exchanged by theta ((n1,n2) = (9,0) <-> (0,9)).  An
+        amphichiral object cannot make that choice -- it is a chirality choice, exactly
+        the kind the object's amphichirality forbids.  And the object's actual route (the
+        principal SL2 used by B347/B351/B352/B353) is TWIST-RIGID: chi vanishes on every
+        eps != 0 class, so its torsor collapses and has no chiral member at all (Y3) --
+        while a non-principal SL(2)-route DOES twist to a chiral member (Y4), so Y3 is a
+        real property of the object's route, not a tautology.
+
+  NET.  Level 3 stays CLOSED for Gate B.  OI-128's statement must be re-worded once
+  ('unreachable by any canonical embedding' -> 'unreachable by any theta-compatible /
+  SL(2)-route embedding; a chiral 2T < E6 exists but sits off every supply line the
+  object has').  The residual is UNCHANGED and is the one OI-173 already flagged: whether
+  the arithmetic could force a non-SL(2), non-theta-compatible route.  That residual is
+  EXTERNAL/specialist and is not reopened by the witness -- exhibiting a chiral subgroup
+  of E6 is not exhibiting an object-supplied one.
+

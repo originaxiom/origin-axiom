@@ -1,0 +1,79 @@
+P2W5-ALLCHIRAL — L83(b): when does an SU(3)_k stage hear all-chirally?
+sweep kappa = 4..70   (train 4..43, HELD-OUT 44..70)
+
+  kappa: tr_even  tr_odd
+     4   5   6   7   8   9  10  11  12  13
+    -0  +0  -1  +1  +1  +0  -1  -0  +1  +1   <- tr_even
+    +1 -0.6  +0  -0  +1  -0 -0.6  -0  +1  +0   <- tr_odd
+    14  15  16  17  18  19  20  21  22  23
+    -1  +0  +0  +1  -0  +0  -0  -0  -0  +1   <- tr_even
+    -0 -0.6  +1  -0  +0  +0 +0.4  -0  +0  +0   <- tr_odd
+    24  25  26  27  28  29  30  31  32  33
+    +0  +0  -1  +1  +1  -0  -1  +0  +1  +1   <- tr_even
+    +1 -0.6  +0  -0  +1  +0 -0.6  -0  +1  +0   <- tr_odd
+    34  35  36  37  38  39  40  41  42  43
+    -1  +0  +0  +1  +0  -0  +0  +0  +0  +1   <- tr_even
+    -0 -0.6  +1  +0  +0  +0 +0.4  -0  +0  +0   <- tr_odd
+    44  45  46  47  48  49  50  51  52  53
+    -0  +0  -1  +1  +1  -0  -1  +0  +1  +1   <- tr_even
+    +1 -0.6  +0  -0  +1  -0 -0.6  +0  +1  -0   <- tr_odd
+    54  55  56  57  58  59  60  61  62  63
+    -1  +0  -0  +1  -0  -0  +0  -0  -0  +1   <- tr_even
+    -0 -0.6  +1  +0  -0  -0 +0.4  +0  +0  +0   <- tr_odd
+    64  65  66  67  68  69  70
+    +0  +0  -1  +1  +1  +0  -1   <- tr_even
+    +1 -0.6  -0  -0  +1  -0 -0.6   <- tr_odd
+
+GATES
+  modular_gate           PASS
+  estimators_agree       PASS
+  tr_even_integral       PASS
+  banked_B584            PASS
+  banked_B585_even       PASS
+  banked_LAW_O           PASS
+  channel_B_agrees       PASS
+  (max |imag| / |projector - N1| over all kappa = 1.24e-14;  channel-B cross-check on kappa=4..20)
+
+FIT (train kappa = 4..43):  smallest period p <= 40 : 20
+  residue table mod 20: 0:+0 1:+0 2:+0 3:+1 4:+0 5:+0 6:-1 7:+1 8:+1 9:+0 10:-1 11:+0 12:+1 13:+1 14:-1 15:+0 16:+0 17:+1 18:+0 19:+0
+  ZERO (all-chiral) residues: [0, 1, 2, 4, 5, 9, 11, 15, 16, 18, 19]   (11/20 of stages)
+  closed form  tr_even = [kappa = +-2 mod 5] - [kappa = 2 mod 4]  on train: MATCHES
+
+HELD-OUT kappa = 44..70  (27 stages, > one full period)
+  residue-table criterion : 27/27
+  closed form             : 27/27
+  DECOY (B585 dead LAW-E) : 14/27   [train 24/40]  <- the failure branch is live
+
+SCOPE — is the criterion word-generic?  even channel of heavier metallic words:
+     RRLL: -0.000 +0.000 +2.000 +1.000 +0.000 +0.000 +1.000 +1.000 -0.000 +1.000 +1.000 -1.000 +0.000 -0.000 +0.000 +1.000 -1.000
+          {0,+-1}-valued: False   max|.| = 2.000
+   RRRLLL: +2.000 +2.000 +0.000 +1.000 +3.000 +1.000 -3.000 +1.000 +3.000 -2.303 -1.000 +2.000 +2.000 +0.000 +0.000 +1.000 +1.000
+          {0,+-1}-valued: False   max|.| = 3.000
+       RL: {0,+-1}-valued: True   max|.| = 1.000   over kappa=4..70
+  => the unit {0,+-1} even chord is figure-eight-specific (B587's minimality
+     mechanism: det(A -+ I) = -+1x5 only for the golden word); the criterion
+     below is scoped to the object's own word W = RL.
+
+MECHANISM READING (B587): tr_even = (1 - chi5(kappa) - [5|kappa])/2 - ([2|kappa] - [4|kappa])
+  identity over the FULL sweep kappa=4..70: EXACT
+  -> the even channel is governed by the quadratic character mod 5 (the six
+     reflection Gauss sums of conductor +-5) plus the 2-adic split of the
+     rotation terms (d=4 vs d=16).  This is exactly why B585's LAW-E (a pure
+     DIVISIBILITY guess) had to die, and why a character law survives.
+
+==============================================================================
+VERDICT: RESOLVED-A
+  tr_even(kappa) = [kappa = +-2 mod 5] - [kappa = 2 mod 4]; all-chiral (tr_even=0) iff those two indicators AGREE — 11 of the 20 residues mod 20
+  all-chiral residues kappa mod 20: [0, 1, 2, 4, 5, 9, 11, 15, 16, 18, 19]
+  equivalently: a stage hears the object all-chirally iff
+     (kappa = +-2 mod 5)  <=>  (kappa = 2 mod 4).
+  corollaries (in-cell, checked):
+   - 5|kappa & kappa != 2 mod 4  =>  tr_even = 0: B584's 'the golden amplitude is
+     entirely theta-odd' is a corollary, but it FAILS at kappa = 10 mod 20
+     (kappa=10: tr_even=-1, kappa=30: -1) — the golden
+     stages split into all-chiral (5,15,20,25,...) and non (10,30,50,...).
+   - the even channel is a UNIT chord ({0,+-1}); the odd channel is the golden
+     two-tone chord (LAW-O). Chirality-defect never exceeds one unit.
+==============================================================================
+
+results.json written  (208.5s)

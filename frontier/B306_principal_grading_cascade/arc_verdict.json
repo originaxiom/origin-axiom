@@ -1,0 +1,10 @@
+{
+ "id": "B306",
+ "verdict": "PROVED",
+ "claim_one_line": "Established the forced E6 principal-grading cascade N=1..6, with a left-right SM-containing group at N=5 and an SU(2)^3 saddle, not Chat-1's dim-14 window.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

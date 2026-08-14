@@ -1,0 +1,10 @@
+{
+ "id": "B727",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "'E6 across three faces' is forced by one ADE classification, so the recurrence is generic not evidence; only the arithmetic atom pi1(m004) onto 2T survives.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

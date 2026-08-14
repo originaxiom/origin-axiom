@@ -1,0 +1,10 @@
+{
+ "id": "B45",
+ "verdict": "OPEN",
+ "claim_one_line": "The projective return gives the Lucas hierarchy (lambda/h)^2=L_n-2; lambda/h=1 is selected only if the primitive sector is treated as ground state.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

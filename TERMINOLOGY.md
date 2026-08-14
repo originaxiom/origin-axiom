@@ -215,3 +215,171 @@ No invariant may be transferred between these without an explicit map.
   CLASSICAL content); AMPLITUDES ℚ(√(2+φ)) + PHASE ℚ(ζ₅) + associator ℚ(√φ) are
   QUARTIC golden-MTC OVERLAYS (the quantum content), ramified away from the
   object's prime 3. The object supplies the probabilities, not the amplitudes.
+- **the First/Second Measurement Theorems (FMT/SMT)**: FMT (P69) — the object's
+  2T-superselection charges stratify e₆; three Galois-conjugate first breakings
+  (the cubic μ, constant 13³); z = so(10)⊕u(1). SMT — a second measurement of the
+  object's own charges lands on su(3)⊕su(2)⊕u(1)³ exactly, skipping SU(5); its
+  wall is complex in the split frame and REAL exactly in e₆(2) (B907, sealed).
+- **the magic-square identification**: the build IS M(𝕆,ℂ) by explicit
+  structure-constants isomorphism (P70; 0/3003 mismatches). The SELECTION of this
+  cell by the object's arithmetic is ours; the square itself is classical.
+- **the flavor atoms / the pencils**: the 27's intrinsic 15-atom basis (six 3-dim
+  colored, nine 1-dim colorless — joint eigenlines of the RATIONAL commuting
+  charge family); the colorless 3×3 grid's rows/columns = the even/odd
+  transversals of a determinant — whence **I = −1 = the Leibniz sign** (exact).
+- **the compact pencil / κ**: the compact charges' wall cubic (constant −19³,
+  resolvent √77, field K); its Kummer class EQUALS the charge class (B910's
+  One-Class theorem); the numerator law 13⁶/19⁶ per pencil.
+- **the canonical gauge / unimodularity**: the basis in which the exact atom
+  lines, the primitive ±1 cubic, and the integer H₊ live together; there the
+  colorless coupling constant is EXACTLY 1 (B917) — couplings = geometric means
+  of H-norms. Cross-observer constants (λ = 2304/953, T = σ₂(t_K)) measure
+  basis-relations, not the object (the bridge constant: B916).
+- **the value ladder / THE CROSSING**: R1–R4 (norm → scales → table → the sealed
+  one-input comparison). The crossing (B915): α_em in, the desert curve out —
+  MISS at 16σ; kills "boundary + desert" only; the failure triangle
+  (10¹³/10¹⁴/10¹⁶·⁵ GeV, α_s-dominated) is the banked input to R4b (the object's
+  D-chain as the desert's replacement, zero free parameters).
+- **the One-Class theorem**: all four matter/value cubics (μ, generic, κ, HIER)
+  share ONE Kummer class C in F*/(F*)³ (F = ℚ(√77, √−3)), the vacuum its inverse
+  (B910 → B918). The compact wall carries the charge orientation; vacuum ⊕ anything
+  = split.
+- **the observer's place**: the unique degree-one place of K above a split value
+  prime. The observer's-place theorem (B918): den(V) = 𝔭₁(953)⁴ exactly — the
+  hierarchy's pole lives entirely there; prime-role trichotomy 953-pole /
+  421493-trace-zero / 1129-e₂-zero; structure primes decorate numerators, the
+  value prime digs the denominator.
+- **"measurement" — THE RECONCILING CLAUSE (cc3 audit A3, 2026-08-05)**: the programme
+  currently holds TWO formalisms sharing the word: (i) measurement = fiber functor /
+  Galois torsor (B700 line; §D of LAW_MAP); (ii) measurement = centralizer of a
+  superselection charge (the FMT/SMT line; §F). They are DECLARED DISTINCT NOTIONS
+  pending the deciding computation (B787's ι-status question, now re-registered as a
+  lead per the audit); no banked result identifies them; any text using the bare word
+  should say which. The conjecture that they coincide is open, not assumed.
+- **the value-invisibility theorem (B936)**: the sixteen invariant Hermitian
+  structures form a torsor Z¹(⟨τ⟩, T_ad[2]) with classes H¹ = (ℤ/2)², and D₂ —
+  the hierarchy's carrier — is a COBOUNDARY; **but no value (953, 2304, the
+  norms) appears in any invariant of the pair**: the twist-norm law is diagonal,
+  frame-relative data. K020's "form, not values" sharpened one level: the object
+  does not force the values even cohomologically.
+- **the hemisphere check (review protocol item 9)**: every prereg types its
+  consumed structures by owning hemisphere (measurement-side vs matter-side);
+  an unlicensed cross-hemisphere graft may not seal. Born from B926's autopsy of
+  the two dead crossings, which were both such grafts.
+- **the three crossings**: B915 (boundary + desert — MISS 16σ), B925 (the object's
+  own D-chain as the desert's replacement — OUTCOME B, by the chain's own
+  algebra: provably not Pati–Salam), B929 (the twist's shape sheet vs measured
+  mixing shape — HIT-SHAPE: mixing-shaped, magnitudes off 5–9×, banked as a
+  fenced hint). M0 — the programme as mathematics — is the standing default.
+
+## Added 2026-08-10 (B1013) — two live terminology collisions, named before they cost an arc
+
+- **"conductor" names TWO quantities** (found by B1002 when a check looked open that was banked):
+  the **cusp order's conductor** (B675's quantization-index law: golden 4, silver 2) and the
+  **word's own conductor / shadow modulus** (B666/B997: m²+4 — golden 5, silver 8). Any sentence
+  using "conductor" must say which.
+- **"level" now names TWO quantities** (hazard registered by B1012 from the branch): the
+  **congruence level** of the Bianchi group (the (4)/(8) doors; the branch line *"the level IS the
+  cusp conductor"* is about THIS one) and the **Chern–Simons level k** (Gukov's quantized coupling
+  — the one the object is **provably blind to**, ∂S/∂k = −CS = 0). These live in different
+  theories; an identification between them would be a **category claim needing its own arc**, and
+  no such arc exists.
+- **"the value-kernel"** (B1029): the kernel of the frame group's action on the banked coupling
+  VALUES — computed to be exactly θ = c∘r (reversal-and-contragredient), because reversal acts on
+  values identically to conjugation (SU(2) traces real; unitary characters conjugate under
+  inverse). Distinct from θ's rep-level action, which is nontrivial; the scope is the sealed
+  inventory (unitary characters × SU(2) traces). "θ-odd value data" is a contradiction in terms
+  at this level.
+- **"the trit"** (B1025 retype, B1030 verified): the VEV acceptance's residual discrete content —
+  one ℤ/3 label choosing which of the 27's three 9-blocks (equivalently which surviving SU(3);
+  the two namings are one act via the singlet-bijection) receives the closing. Orbit order
+  exactly 3 under triality; log₂3 = 1.585 bits; a finite label, not a modulus. Substrate: B897's
+  banked 9-blocks.
+- **"the freedom ledger" / "COMPRESSION" / "THE ADDRESS"** (B1028): the retroactive
+  look-elsewhere audit of the whole chain. COMPRESSION = structure-bits-out (against declared
+  ambient classes) exceed retroactive designer-bits-in; THE ADDRESS = the opposite, with the
+  concentrated links named (the campaign's stop-rule trigger). "Retroactive freedom" is distinct
+  from "declared inputs" (hypotheses, published and typed): conflating them is a category error
+  the ledger prices anyway, in the open.
+- **"θ-even" names TWO banked objects** (collision found 2026-08-11 via the audit seat's
+  tone-set error and this seat's verification of it, B1032): (1) the **F₄ exponent set
+  {1, 5, 7, 11}** — a Lie parity label (B352/B569/B576/B583/B585); (2) **B1011 C6's mirror
+  VALUE set** {0, ±¼, ±1/(4φ), ±½, ±1/(2φ), ±φ/4, ±φ/2, ±1} — named "the θ-even value set"
+  in its own banked FINDINGS. Any sentence using "θ-even" must say which. Same class as
+  two conductors, two levels, three σ's.
+- **The value-set registry (B1032)** — four distinct banked menus, never to be conflated in
+  pricing: **tones (5)** = |χ_{V₂(2I)}|/2, census 30/24/40/24/2; **mirror (8 magnitudes)** =
+  the 2T⊗2I tensor character menu; **the listener family (3)** = (1∓1/√5)/2 and 1 — a
+  character-RING element, not a bare character value (the B1032 amendment); **the phases**
+  = a ℤ/3 finite label. A nomination prices against the menu it names, with that menu's own
+  base rate. Grep lesson attached: search both φ and phi — the corpus writes both.
+- **"σ" names THREE quantities** (the collision completed at B1034, after the window
+  handoff's two and B945's third): (1) the **gravitational level** σ = ℓ/4G — continuous,
+  unquantized, the object SIGHTED in it (∂S/∂σ = −Vol; B1012); (2) the **stage usage** —
+  the candidate pin σ = 1 of c = 6σ against c((E₆)₁) = 6 (L154's question; UNDECIDED at
+  B1034: unobstructed, unexhibited, the bridge named); (3) **B945's σ = the R↔L swap**
+  (fiber orientation flip = chirality) — a discrete ℤ/2 closing bit, an item of the
+  price. Any sentence saying only "σ" has not stated its subject (the D-iv clause,
+  binding).
+- **"π/6" names TWO objects of OPPOSITE TYPE** (adjudicated by the audit seat's item 2,
+  verified): (1) **arg κ = ∓π/6** — the meridian-commutator trace's phase at u = ω, a
+  conjugation-invariant TRACE (no basis freedom exists; Test-1 clean by construction),
+  the MATTER FACE's carrier (B285→B303, B1010), with |κ − 2| = 1 the unit obstruction;
+  (2) **arg Y[134] = π/6** — a cubic slot in a chosen H¹ basis, **proved pipeline GAUGE**
+  (B647 c3; the invariant carrier is cross-ratio = 1). Both sit at ±π/6 because that is
+  where √3-type elements of ℚ(√−3) live — the field's geometry, not a shared mechanism.
+  One symbol, one content-carrier, one convention: say which.
+- **ONE no-canonicity theorem, FOUR vocabularies** (the Field Ladder's FL-2, verified
+  2026-08-12): *no canonical basepoint* (B701 = B700 phase 2 — a dir-less arc, cite it
+  so), *no equivariant section* (B782), *no canonical origin* (B704), *no canonical
+  ℤ/2 representative* (B942) — the same theorem; searches must run all four phrasings.
+  **B58 is DE-LINKED** — its "non-canonical" is a pinv/numerics artifact, unrelated.
+  **Precision (the audit seat's Task B §3, textbook-verified):** H¹(F, G) is a POINTED
+  SET — its base point is the trivial torsor's class. "No canonical point" is true of
+  the (non-trivial) TORSOR, never of its classifying set. S069's "I am a vector space
+  with no origin" blurs the same line: a vector space HAS an origin (0); the seam's
+  choice-space is the AFFINE object — the torsor. The level at which no-canonicity
+  holds is the torsor, one level below where loose restatements put it (the B957
+  "one level too high" species, again).
+
+- **Bare arc IDs B1025–B1044 name TWO arcs each; B1045–B1059 are RESERVED on main**
+  (2026-08-12, the cloud fork collision — `docs/CLOUD_ALIAS_TABLE.md` is the
+  permanent resolver): the cloud consolidation branch forked at B1024's seal and
+  numbered independently. Cloud arcs are cited **qB1025…qB1053**, cloud leads
+  **qL155…qL166**; main's next arc is **B1060**, next lead **L161**. Any bare
+  ID in the colliding range written before 2026-08-12 needs the table. Species:
+  the dir-less-arc/two-Task-B retrieval hazard at series scale — now with its
+  resolver banked.
+
+- **"c" (central charge) names FOUR referents near the gravity lane** (the row sealed in
+  advance of G1's prereg, the D-iv precedent, 2026-08-13): (1) **the Sugawara/level-1
+  charge c((E₆)₁) = 6** — Level-3 chiral arithmetic, banked exact via the conformal
+  embedding (E₆)₁ ⊃ SU(3)₂×(G₂)₁ with c: 16/5 + 14/5 = 6 (B254); (2) **c_BH = 6σ** —
+  the Brown–Henneaux charge of the gravitational dictionary, c = 3ℓ/2G with G = ℓ/4σ
+  (B1012; its σ is the D-iv row's referent 1, continuous and unquantized); (3) **the
+  cusp-torus theory's c** — G1's object: whatever charge the boundary-torus theory of
+  the banked complex CS carries. NOT banked equal to (1) or (2) — m004 is cusped, the
+  cusp torus is not a conformal boundary, and the B980 fence holds: equating cusp-c
+  with c_BH POSITS k_anyon = k_gravity; (4) **B559's c = 1 chain** — banked only as
+  "a candidate holographic *boundary*" (B559), a fourth candidate never identified
+  with the others. Numerical agreement among referents is not identification — the
+  licensing gap between (3) and (2) is exactly what G1 measures. Any sentence saying
+  only "c" near the gravity lane has not stated its subject (binding, as the σ clause).
+
+- **"trace field" names TWO objects for the metallic family** (found 2026-08-13 at
+  B1062's ingredient check; load-bearing for the Maclachlan–Reid test): (1) **the
+  fiber/eigenvalue field ℚ(√(m²+4))** — the monodromy eigenvalue's field (B148:
+  m=1 → ℚ(√5) golden, m=2 → ℚ(√2), m=3 → ℚ(√13)); (2) **the Kleinian trace field**
+  — the field generated by the holonomy traces of the 3-manifold group (m=1/m004:
+  **ℚ(√−3)**, the Eisenstein field, banked corpus-wide). Same member, two fields,
+  different mathematics: arithmeticity criteria (Hao Thm 2.3) run on (2), never
+  (1). Any sentence saying "the trace field of member m" without the qualifier has
+  not stated its subject.
+
+- **"P" (the record swap) names TWO roles** (found at the digest's row 1.03 port,
+  2026-08-14; no document separated them before): (1) **the conjugating element** —
+  A7's based-level bit (B979: where φ enters, LR vs RL); (2) **the substrate
+  operation** — B16's exchange-symmetry axiom (class-level; outside A1–A6; load-bearing
+  for the trace-map surface, counted in COMPUTE_THE_PROGRAM §1's addendum, NOT in
+  THE_CLAIM whose chain never consumes it). Any sentence using "the swap" says which
+  role. The two-referent pattern's newest member.

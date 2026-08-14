@@ -1,0 +1,14 @@
+{
+ "id": "B898",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "N3, THE EXACT SIGNATURE CENSUS (charpoly over Q + factorization + Sturm, no floats): ad(x8) and ad(x16) have IDENTICAL exact signatures {0^30, 48 real, 0 imaginary, 0 complex} and ad(x14), ad(x22) have IDENTICAL exact signatures {0^12, 0 real, 66 imaginary, 0 complex} -- THE SIGNATURE DICHOTOMY IS A THEOREM: the measured plane is purely split (kernel 30 = the FMT centralizer so(8)+u(1)^2), the unmeasured slots purely compact (kernel 12 = the floor dimension), and NO generic-complex eigenvalue exists anywhere on C. Every float borderline of B893 (the 1, 1, 7 'generic-complex' counts) resolved into the kernel -- tolerance noise, now zero by construction. B894's four-column ledger's spectrum column is exact.",
+ "depends_on": [
+  "B854",
+  "B893",
+  "B894"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

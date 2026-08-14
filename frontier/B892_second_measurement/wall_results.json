@@ -1,0 +1,11 @@
+{
+ "wall_points": [
+  [
+   1.5707963267948966,
+   30
+  ]
+ ],
+ "wall_dim": 30,
+ "wall_derived": 28,
+ "smt_verified": false
+}

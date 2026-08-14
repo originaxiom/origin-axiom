@@ -1,0 +1,124 @@
+{
+  "cell": "B971_L132_vacuity",
+  "lead": "L132 (amended by B951)",
+  "date": "2026-08-08",
+  "lane": "MATHEMATICS",
+  "gate5": "untouched",
+  "claims_md": "nothing promoted",
+  "task": "Establish whether L132's NON-VACUITY prerequisite can be met before any anomaly cell runs.",
+
+  "verdict": {
+    "outcome": "VACUOUS",
+    "one_line": "The non-vacuity prerequisite cannot be met. Every decomposition of the 27 in the record is exhaustive; the object's operations act ON the 27 and never delete from it; and of 2047 sub-multiplet sets of the 27 exactly ONE has a fully anomaly-free abelian sector - the complete 27 itself.",
+    "recommendation": "CLOSE L132 as vacuous.",
+    "secondary_finding": "L132's headline question was already run and banked as B864 (2026-08-03): 'hypercharge is the unique gaugeable U(1) in the chain's abelian sector'. B951's literature panel did not surface it. This is a prior-art miss INSIDE the programme's own corpus; L132 as posed would have rediscovered B864."
+  },
+
+  "a_how_the_record_specifies_the_spectrum": {
+    "answer": "SPECIFIED, and specified as COMPLETE - not by a sentence saying so, but by the fact that every decomposition sums back to 27.",
+    "exhaustive_decompositions": [
+      {"instrument": "holonomy, rho = principal o rho_geo", "source": "B575/B632", "decomposition": "27 = V(16)+V(8)+V(0), dims 17+9+1", "sum": 27, "status_here": "RE-DERIVED IN-SANDBOX from the Cartan matrix alone (holonomy_probe.py)"},
+      {"instrument": "joint charge operators rho(x8), rho(x16)", "source": "B886", "decomposition": "two Galois orbits, mult 1 and mult 8: 3*1 + 3*8", "sum": 27, "status_here": "read from B886 (exact there)"},
+      {"instrument": "the cascade's A2+A1 Levi", "source": "B892", "decomposition": "11 Levi irreps 6+3+3+3+3+2+2+2+1+1+1", "sum": 27, "status_here": "COMPUTED HERE as W_S orbits (vacuity_probe.py)"},
+      {"instrument": "G20 block table", "source": "B897", "decomposition": "9+9+9", "sum": 27, "status_here": "read from B897"}
+    ],
+    "levi_content_is_16_10_1": "The Levi decomposition computed here is state-for-state SM-shaped: (3,2) + 4x(3,1) + 3x(1,2) + 3x(1,1) = 16+10+1. The twelve exotics of L134 are still present; nothing in the record removes them.",
+    "the_only_truncation_in_the_corpus": {
+      "where": "the cascade's 're-anchoring' (B860/B861/B863), whose anomaly ledger is B864",
+      "B864_own_words": "over the full 27 nothing is anomalous, so anomaly alone does not force keeping only the chiral core",
+      "reading": "The record does contain an incomplete spectrum - but as an IMPORTED INPUT that B864 explicitly declines to derive, never as an object-supplied fact."
+    },
+    "cohomological_reading_checked_and_closed": {
+      "proposal": "matter = H^1(M; 27_rho) = 3 rather than the module",
+      "reason_1": "B632's own binding correction: 'three inequivalent local-system modes ... three copies of one representation is exactly what this is NOT'. A Betti number is not a list of states.",
+      "reason_2_computed_here": "the centralizer of the principal sl(2) in e6 is 0-DIMENSIONAL (adjoint contains no V(0); exponents derived 1,4,5,7,8,11), so the commutant of the object's holonomy carries no continuous gauge group and there are no gauge-anomaly conditions to write at all."
+    }
+  },
+
+  "b_the_check_cannot_fail": {
+    "the_single_reduction": "For generic Cartan H = sum h_i alpha_i^vee: sum over the 27 weights of lambda(H) is identically 0 AND sum of lambda(H)^3 is identically 0, in all six h_i. Every U(1)^3, [SU(3)]^2 U(1), [SU(2)]^2 U(1) and gravitational condition is a COEFFICIENT of these two polynomials, so one identity carries them all.",
+    "provenance": "E6's vanishing symmetric third-order Casimir, DERIVED HERE from the Cartan matrix, not cited to Okubo.",
+    "27_is_complex": "verified in-sandbox: the 27bar weight set differs from the 27's; both have vanishing cubic.",
+    "on_the_objects_landing_site": {
+      "levi": "A2+A1, node set {1,3,6}, dim 14, centre 3 - all re-derived",
+      "abelian_direction": "left GENERIC over the whole 3-dim centre (t1,t2,t3 free), so all three u(1)s at once",
+      "U1_cubed": 0,
+      "U1_gravitational": 0,
+      "SU3sq_U1": 0,
+      "SU2sq_U1": 0,
+      "SU3_cubed": 0,
+      "witten_su2_doublets": 6,
+      "witten_parity": "even",
+      "note": "the doublet count reproduces B951's '6 doublets, even' independently"
+    },
+    "MB12_both_halves": {
+      "can_pass": "yes, trivially",
+      "can_fail": "YES - the instrument is real",
+      "controls_that_fail": ["su(5) 10: cubic NONZERO", "su(3) 3: cubic NONZERO"],
+      "incompleteness_makes_it_fail": "dropping any ONE of the 11 Levi irreps makes U(1)^3 and the gravitational condition nonzero in ALL 11 cases; dropping a single weight also does",
+      "conclusion": "the vacuity is a property of the INPUT, not a defect of the test"
+    },
+    "uniqueness_of_the_vacuity": {
+      "enumeration": "all 2047 non-empty subsets of the 11 Levi irreps, exact linear algebra + exact cubic",
+      "solution_space_dim_3_every_direction_works": 1,
+      "which_one": "the COMPLETE 27",
+      "solution_space_dim_2": 48,
+      "solution_space_dim_1_check_selects_a_u1": 156,
+      "headline": "Vacuity holds on exactly one spectrum out of 2047, and it is precisely the one the object supplies."
+    }
+  },
+
+  "c_what_non_vacuity_would_require": {
+    "requirements": [
+      {"n": 1, "requirement": "an unbroken gauge group with a non-vanishing cubic", "supplied": "PARTLY", "detail": "the Levi supplies it in the cascade reading; the holonomy reading supplies none (0-dim commutant, computed here)"},
+      {"n": 2, "requirement": "a list of STATES - not a module, not a Betti number", "supplied": "NO", "detail": "the record has the 27 (a module) and h1 = 3 (a multiplicity, explicitly corrected away from 'three copies')"},
+      {"n": 3, "requirement": "a HANDEDNESS assignment per state", "supplied": "NO", "detail": "computed here: a vector-like subset has vanishing cubic REGARDLESS of completeness, so the functional is undefined without handedness and identically zero with a vector-like one; banked position is that chirality is not self-supplied"},
+      {"n": 4, "requirement": "INCOMPLETENESS - some state deleted", "supplied": "NO", "detail": "theorem-grade already: knot groups have cyclic abelianization so pi_1(m004) cannot surject onto Z3xZ3 or Heisenberg (B955 sec3); abelian holonomy only (B955 sec1); finite images A4/D5/S5 toral (B959). No orbifold projection, quotient, or boundary-condition truncation exists here."}
+    ],
+    "the_mechanism_statement": "The object's operations are centralizers, holonomies and gradings. They ACT ON the 27 and DECOMPOSE it. Nothing in the kit DELETES from it - which is why all four decompositions sum to 27.",
+    "scope_guard_do_not_overclaim": "This is NOT the claim that incompleteness requires rank reduction - it does not (a rank-preserving Wilson line on an orbifold splits multiplets happily). It is the weaker and correct claim that incompleteness requires a DELETION operation, and the object has none.",
+    "pre_empting_the_revival": {
+      "question": "suppose a truncation were imported anyway - would anomaly cancellation then select the SM?",
+      "answer": "NO",
+      "evidence": "156 of the 2047 sets admit a UNIQUE anomaly-free u(1), spread over 5 to 22 states, including 18 sixteen-state sets and 15 fifteen-state sets, one of which is exactly SM-generation-shaped ((3,2)+2x(3,1)+(1,2)+(1,1) = 15)",
+      "residual_symmetry_caveat": "counts run in multiples of 3, suggesting a residual Z/3 whose equivalence classes this cell did NOT compute; even quotienting by it the 16-state count is 6, not 1",
+      "conclusion": "choosing the truncation is the entire content, and the object supplies no truncation"
+    }
+  },
+
+  "d_literature": {
+    "honest_limit_stated_first": "NO LIVE SEARCH WAS REACHABLE FROM THIS CELL - the session's web-search budget was exhausted before it began. The null is NOT certified.",
+    "in_repo_prior_art_from_B951_inspire_reached_sweep": {
+      "status": "carried, not re-verified here",
+      "statement": "anomalies become nontrivial only when the spectrum is NOT complete 27s - incomplete multiplets, projected-out exotics, string constructions; anomalous U(1)' in string constructions handled by Green-Schwarz (Langacker sec III.6.3)",
+      "answer_to_d": "YES, such settings exist - and they are exactly the projection-bearing constructions the object lacks"
+    },
+    "recalled_settings_UNVERIFIED_pointers_only": [
+      {"setting": "heterotic Wilson-line / free-quotient compactifications", "role_of_anomalies": "split multiplets generic; surviving anomalous U(1) cancelled by Green-Schwarz (Dine-Seiberg-Witten)"},
+      {"setting": "orbifold GUTs", "role_of_anomalies": "brane-localized fields are incomplete multiplets; LOCALIZED anomaly cancellation is a genuine constraint (Arkani-Hamed-Cohen-Georgi; Scrucca-Serone-Silvestrini-Zwirner; Asaka-Buchmuller-Covi)"},
+      {"setting": "F-theory GUTs with hypercharge flux", "role_of_anomalies": "flux breaking produces incomplete multiplets"},
+      {"setting": "E6-inspired phenomenology (E6SSM and relatives)", "role_of_anomalies": "complete 27s are RETAINED in the low-energy spectrum precisely BECAUSE anomaly cancellation would otherwise fail - this cell's result read backwards, and the sharpest available literature statement: where the constraint bites, its role is to FORCE completeness"}
+    ]
+  },
+
+  "computations_run_in_sandbox": [
+    {"file": "vacuity_probe.py", "out": "vacuity_probe_out.json", "content": "27 as Weyl orbit of omega_1; linear+cubic anomaly polynomials over generic Cartan identically zero; 27bar likewise and weight-set-distinct; su(5) 10 and su(3) 3 controls NONZERO; A2+A1 Levi rebuilt (dim 14, centre 3) with exact kernel; 11 W_S orbits with su3/su2 types and charges; all four anomaly families zero on the complete 27 across the whole 3-dim centre; drop-one-Levi-irrep fails in 11/11; drop-one-weight fails; vector-like subset vanishes despite incompleteness; Witten 6 doublets even"},
+    {"file": "holonomy_probe.py", "out": "holonomy_probe_out.json", "content": "principal sl(2) h-coefficients (16,22,30,42,30,16); 27 under principal sl(2) = highest weights [16,8,0], dims [17,9,1], sum 27, EXHAUSTS the 27; adjoint 78 highest weights [22,16,14,10,8,2] giving exponents 1,4,5,7,8,11; dim centralizer of principal sl(2) in e6 = 0"},
+    {"file": "nonvacuity_map.py", "out": "nonvacuity_map_out.json", "content": "all 2047 non-empty sub-multiplet sets of the 27 under the Levi: 511 pass SU(3)^3, 255 also pass Witten, 207 admit a nonzero anomaly-free abelian direction, of which dim1=156, dim2=48, dim3=1 (the complete 27)"},
+    {"file": "(inline)", "out": "-", "content": "B864's dial arithmetic independently reproduced: psi over full 27 = 0 and 0; psi over the 16 alone = 16 and 16; chi over the full 16 = 0 and 0; chi over 10+5bar = 5 and 125; psi over 10+5bar = 15"}
+  ],
+
+  "what_this_cell_does_not_establish": [
+    "It refutes nothing. B864's ledger stands exactly as banked and its arithmetic was reproduced here.",
+    "It does not certify a literature null - no live search was reachable.",
+    "The 2047-subset enumeration is scoped: it treats the 11 Levi irreps as atoms (correct for a gauge-invariant spectrum), assumes multiplicity one, and takes the A2+A1 Levi as colour+isospin, which is itself B892's identification and not an independent fact.",
+    "It computes no equivalence classes for the multiple-of-3 pattern in the subset counts.",
+    "Nothing about values, generations, the real form, or spacetime."
+  ],
+
+  "recommendations": [
+    "CLOSE L132 as VACUOUS: the prerequisite fails at three of four requirements, and the one requirement that is met is met only in a reading whose commutant is empty.",
+    "Record B864 as L132's true prior art - inside the corpus, five days earlier. Any future anomaly cell must cite it or it is a rediscovery.",
+    "SCOPE-NOTE B864's headline (not a retraction): its uniqueness result is uniqueness of the anomaly-free abelian direction OVER AN IMPORTED CHIRAL TRUNCATION. 156 different truncations of the 27 each have such a unique direction, so the selective power lives in the truncation, not in the anomaly conditions."
+  ]
+}

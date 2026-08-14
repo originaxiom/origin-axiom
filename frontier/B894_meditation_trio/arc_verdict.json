@@ -1,0 +1,15 @@
+{
+ "id": "B894",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE TORSION-PRIME BRIDGE (M4) + THE FOUR-COLUMN LEDGER (M6 keystone): the small-prime block (p<=13) of the adjoint torsion tau_ad = prod of the BANKED B581 block torsions is 2^61 3^20 5^5 7^17 11^4 13^5 with support {2,3,5,7,11,13} = supp(disc mu) EXACTLY (support identity TRUE), while NO exponent identity holds in either direction (7^17 vs 7^3, 13^5 vs 13^6 -- honest negative; the bridge is support-level) and none of tau_ad's twelve large primes (17..160453) enters disc mu -- the cut at 13 is clean on both sides. THE KEYSTONE: four independently banked structures agree on which two torus charges are measured -- measured (x8,x16) <=> theta-odd exponents (4,8) <=> tau_m > 0 (B581 sign law, banked BEFORE the FMT) <=> split ad-spectrum (B893); unmeasured (x14,x22) <=> theta-even (7,11) <=> tau_m < 0 <=> compact spectrum, with 7*11 = 77 = the shared resolvent discriminant (B888) and the golden 5 entering only by ramification. The concordance is the new object; each column was already banked.",
+ "depends_on": [
+  "B581",
+  "B866",
+  "B888",
+  "B893"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

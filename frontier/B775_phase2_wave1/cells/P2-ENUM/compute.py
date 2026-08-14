@@ -360,8 +360,8 @@ results = dict(
     discriminating_fact=disc_fact,
 )
 json.dump(results, open(
-    "/Users/dri/origin-axiom/frontier/B775_phase2_wave1/cells/P2-ENUM/results.json",
+    "<repo>/frontier/B775_phase2_wave1/cells/P2-ENUM/results.json",
     "w"), indent=2)
-open("/Users/dri/origin-axiom/frontier/B775_phase2_wave1/cells/P2-ENUM/output.txt",
+open("<repo>/frontier/B775_phase2_wave1/cells/P2-ENUM/output.txt",
      "w").write("\n".join(OUT) + "\n")
 log("\nWROTE results.json + output.txt")

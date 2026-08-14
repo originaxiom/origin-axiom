@@ -1,0 +1,581 @@
+{
+ "ALL_PASS": true,
+ "FAILURES": [],
+ "VERDICT": [
+  {
+   "check": "four ad(g_i) commute on M12 (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "12 common eigenlines, all 1-dim (p=41131)",
+   "got": [
+    12,
+    true
+   ],
+   "pass": true,
+   "want": [
+    12,
+    true
+   ]
+  },
+  {
+   "check": "weights multiplicity one (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "closed under all four W_frame elements (p=41131)",
+   "got": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "pass": true,
+   "want": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "check": "CONTROL: NOT closed under any non-W_frame flip (p=41131)",
+   "got": [
+    false
+   ],
+   "pass": true,
+   "want": [
+    false
+   ]
+  },
+  {
+   "check": "three free W_frame orbits of size 4 (p=41131)",
+   "got": [
+    3,
+    [
+     4,
+     4,
+     4
+    ]
+   ],
+   "pass": true,
+   "want": [
+    3,
+    [
+     4,
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "check": "orbit<->generation bijection (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "ratios are the cited mu-walls (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "su(3)_colour acts as 0 on M12 (p=41131)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "CONTROL su(3)_colour NOT zero on core (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "CONTROL torus rank 12 on M12 (p=41131)",
+   "got": 12,
+   "pass": true,
+   "want": 12
+  },
+  {
+   "check": "four ad(g_i) commute on M12 (p=41479)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "12 common eigenlines, all 1-dim (p=41479)",
+   "got": [
+    12,
+    true
+   ],
+   "pass": true,
+   "want": [
+    12,
+    true
+   ]
+  },
+  {
+   "check": "weights multiplicity one (p=41479)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "closed under all four W_frame elements (p=41479)",
+   "got": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "pass": true,
+   "want": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "check": "CONTROL: NOT closed under any non-W_frame flip (p=41479)",
+   "got": [
+    false
+   ],
+   "pass": true,
+   "want": [
+    false
+   ]
+  },
+  {
+   "check": "three free W_frame orbits of size 4 (p=41479)",
+   "got": [
+    3,
+    [
+     4,
+     4,
+     4
+    ]
+   ],
+   "pass": true,
+   "want": [
+    3,
+    [
+     4,
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "check": "orbit<->generation bijection (p=41479)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "ratios are the cited mu-walls (p=41479)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "su(3)_colour acts as 0 on M12 (p=41479)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "CONTROL su(3)_colour NOT zero on core (p=41479)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "CONTROL torus rank 12 on M12 (p=41479)",
+   "got": 12,
+   "pass": true,
+   "want": 12
+  },
+  {
+   "check": "cross-prime agreement",
+   "got": true,
+   "pass": true,
+   "want": true
+  }
+ ],
+ "cross_prime_agreement": {
+  "M12_dim": true,
+  "all_lines_are_1_dim": true,
+  "charpoly_surplus_checks": true,
+  "closed_under_W_frame": true,
+  "control_not_closed_under_non_W_frame": true,
+  "distinct_eigenvalues_per_charge": true,
+  "each_wall_is_exactly_one_orbit": true,
+  "lines_per_wall": true,
+  "multiplicity_one": true,
+  "n_common_eigenspaces": true,
+  "n_orbits": true,
+  "ops_commute_on_M12": true,
+  "orbit_sizes": true,
+  "orbits_are_free": true,
+  "rank_su3_on_M12": true,
+  "ratios_are_the_mu_walls": true,
+  "wall_orbit_bijection": true
+ },
+ "cross_prime_all_agree": true,
+ "n_admissible": 4,
+ "n_candidates": 10,
+ "p41131": {
+  "M12_dim": 12,
+  "all_lines_are_1_dim": true,
+  "charpoly_surplus_checks": true,
+  "closed_under_W_frame": {
+   "all_flip": true,
+   "compact_flip": true,
+   "id": true,
+   "noncompact_flip": true
+  },
+  "control_not_closed_under_non_W_frame": {
+   "lone_g14": false,
+   "lone_g16": false,
+   "lone_g8": false,
+   "mixed_g8_g14": false
+  },
+  "control_rank_su3_on_core": 26,
+  "control_rank_torus_on_M12": 12,
+  "distinct_eigenvalues_per_charge": {
+   "g14": 6,
+   "g16": 6,
+   "g22": 6,
+   "g8": 6
+  },
+  "distinct_ratios": [
+   8913,
+   26153,
+   37451
+  ],
+  "each_wall_is_exactly_one_orbit": true,
+  "lines_per_wall": [
+   4,
+   4,
+   4
+  ],
+  "mu_roots_cited": [
+   8913,
+   26153,
+   37451
+  ],
+  "multiplicity_one": true,
+  "n_common_eigenspaces": 12,
+  "n_orbits": 3,
+  "ops_commute_on_M12": true,
+  "orbit_sizes": [
+   4,
+   4,
+   4
+  ],
+  "orbits_are_free": true,
+  "rank_su3_on_M12": 0,
+  "ratios_are_the_mu_walls": true,
+  "splits_over_Fp": true,
+  "wall_orbit_bijection": true,
+  "weights": [
+   [
+    1161,
+    1259,
+    23784,
+    21994
+   ],
+   [
+    1161,
+    39872,
+    23784,
+    19137
+   ],
+   [
+    7562,
+    9988,
+    4674,
+    26736
+   ],
+   [
+    7562,
+    31143,
+    4674,
+    14395
+   ],
+   [
+    8723,
+    8729,
+    28458,
+    4742
+   ],
+   [
+    8723,
+    32402,
+    28458,
+    36389
+   ],
+   [
+    32408,
+    8729,
+    12673,
+    4742
+   ],
+   [
+    32408,
+    32402,
+    12673,
+    36389
+   ],
+   [
+    33569,
+    9988,
+    36457,
+    26736
+   ],
+   [
+    33569,
+    31143,
+    36457,
+    14395
+   ],
+   [
+    39970,
+    1259,
+    17347,
+    21994
+   ],
+   [
+    39970,
+    39872,
+    17347,
+    19137
+   ]
+  ],
+  "weights_distinct": true
+ },
+ "p41479": {
+  "M12_dim": 12,
+  "all_lines_are_1_dim": true,
+  "charpoly_surplus_checks": true,
+  "closed_under_W_frame": {
+   "all_flip": true,
+   "compact_flip": true,
+   "id": true,
+   "noncompact_flip": true
+  },
+  "control_not_closed_under_non_W_frame": {
+   "lone_g14": false,
+   "lone_g16": false,
+   "lone_g8": false,
+   "mixed_g8_g14": false
+  },
+  "control_rank_su3_on_core": 26,
+  "control_rank_torus_on_M12": 12,
+  "distinct_eigenvalues_per_charge": {
+   "g14": 6,
+   "g16": 6,
+   "g22": 6,
+   "g8": 6
+  },
+  "distinct_ratios": [
+   6995,
+   34888,
+   40083
+  ],
+  "each_wall_is_exactly_one_orbit": true,
+  "lines_per_wall": [
+   4,
+   4,
+   4
+  ],
+  "mu_roots_cited": [
+   6995,
+   34888,
+   40083
+  ],
+  "multiplicity_one": true,
+  "n_common_eigenspaces": 12,
+  "n_orbits": 3,
+  "ops_commute_on_M12": true,
+  "orbit_sizes": [
+   4,
+   4,
+   4
+  ],
+  "orbits_are_free": true,
+  "rank_su3_on_M12": 0,
+  "ratios_are_the_mu_walls": true,
+  "splits_over_Fp": true,
+  "wall_orbit_bijection": true,
+  "weights": [
+   [
+    1518,
+    7029,
+    3493,
+    1675
+   ],
+   [
+    1518,
+    34450,
+    3493,
+    39804
+   ],
+   [
+    19046,
+    3562,
+    10665,
+    2686
+   ],
+   [
+    19046,
+    37917,
+    10665,
+    38793
+   ],
+   [
+    20564,
+    3467,
+    14158,
+    40468
+   ],
+   [
+    20564,
+    38012,
+    14158,
+    1011
+   ],
+   [
+    20915,
+    3467,
+    27321,
+    40468
+   ],
+   [
+    20915,
+    38012,
+    27321,
+    1011
+   ],
+   [
+    22433,
+    3562,
+    30814,
+    2686
+   ],
+   [
+    22433,
+    37917,
+    30814,
+    38793
+   ],
+   [
+    39961,
+    7029,
+    37986,
+    1675
+   ],
+   [
+    39961,
+    34450,
+    37986,
+    39804
+   ]
+  ],
+  "weights_distinct": true
+ },
+ "prime_criterion": "denominators clear; kappa splits; all four ad(g_i)|M12 split over F_p",
+ "prime_scan": [
+  {
+   "failure": null,
+   "p": 41131,
+   "splits": true
+  },
+  {
+   "failure": {
+    "F_p_eigenvalues_found": 0,
+    "charge": "g14",
+    "piece_dim": 2,
+    "residual_degree": 2
+   },
+   "p": 41201,
+   "splits": false
+  },
+  {
+   "failure": {
+    "F_p_eigenvalues_found": 0,
+    "charge": "g14",
+    "piece_dim": 2,
+    "residual_degree": 2
+   },
+   "p": 41231,
+   "splits": false
+  },
+  {
+   "failure": null,
+   "p": 41479,
+   "splits": true
+  },
+  {
+   "failure": {
+    "F_p_eigenvalues_found": 0,
+    "charge": "g14",
+    "piece_dim": 2,
+    "residual_degree": 2
+   },
+   "p": 41597,
+   "splits": false
+  },
+  {
+   "failure": null,
+   "p": 41617,
+   "splits": true
+  },
+  {
+   "failure": {
+    "F_p_eigenvalues_found": 0,
+    "charge": "g14",
+    "piece_dim": 2,
+    "residual_degree": 2
+   },
+   "p": 41621,
+   "splits": false
+  },
+  {
+   "failure": null,
+   "p": 41641,
+   "splits": true
+  },
+  {
+   "failure": {
+    "F_p_eigenvalues_found": 0,
+    "charge": "g14",
+    "piece_dim": 2,
+    "residual_degree": 2
+   },
+   "p": 41651,
+   "splits": false
+  },
+  {
+   "failure": {
+    "F_p_eigenvalues_found": 0,
+    "charge": "g14",
+    "piece_dim": 2,
+    "residual_degree": 2
+   },
+   "p": 41681,
+   "splits": false
+  }
+ ],
+ "primes": [
+  41131,
+  41479
+ ]
+}

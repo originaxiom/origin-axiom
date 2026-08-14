@@ -1,0 +1,10 @@
+{
+ "id": "B81",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The CRT/F_p first-principles route is blocked at SL(5): char(DT_0) scatters across seeds at the doubly-degenerate char(M^2)^2 sector.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

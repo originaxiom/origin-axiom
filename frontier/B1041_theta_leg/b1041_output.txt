@@ -1,0 +1,20 @@
+[V1] operation translations: {'c': (1, 1, 0), 'theta': (0, 1, 0), 'gamma5': (0, 0, 1)}
+[V1] Galois translations: {'s-3': (1, 0, 0), 's5': (0, 1, 0), 's-7': (0, 0, 1)}
+[V1] rank of (c,theta,gamma5) translations = 3 (B766 banked: 3)
+[V2a] coordinate-permutation dictionaries intertwining Phi: 0 of 6
+[V2b] L(e_T4)=(1, 0, 1)  L(e_T6)=(0, 0, 1)  L(e_T3)=(0, 1, 0)
+[V2b] L is INVERTIBLE over F2 (rank 3)
+[V2b] affine matches passing the full 3x8 equivariance table: 8 of 8
+[V2b] banked pin check: L maps the T3 direction to (0, 1, 0) (= s5 direction: True)
+
+[V3] VERDICT INPUTS:
+  coordinate-permutation dictionary: IMPOSSIBLE (0/6) --
+    obstruction: c's flip-set has size 2 (T4 and the chord T6) while
+    sigma_{-3} flips exactly one radical; no bijection matches cardinalities.
+  linear intertwiner: EXISTS, UNIQUE given Phi, invertible; all 8 affine
+    liftings pass the full table (the 8 = the torsor's basepoint freedom,
+    B782's no-canonical-point PRESERVED -- no section smuggled).
+  the diagonal: L(e_T4) = s-3 + s-7 -- chirality's side is the being(+)E6
+    DIAGONAL, not a single leg; the chord direction maps to s-7 PURE.
+  theta <-> sqrt(-7): HOLDS inside the exhibited L (the pairing under test).
+==== B1041 compute done ====

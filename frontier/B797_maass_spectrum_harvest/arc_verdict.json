@@ -1,0 +1,10 @@
+{
+ "id": "B797",
+ "verdict": "PROVED",
+ "claim_one_line": "Seventeen m004 Maass eigenvalues are certified (max |Δr|=5.4e−9) with exactly one parent Bianchi eigenvalue (r=7.072) settled by the projective-line S-test, and the sealed SM comparison returns zero gated hits.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

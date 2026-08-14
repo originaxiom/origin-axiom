@@ -1,0 +1,233 @@
+{
+ "stage0_build_reproduces_banked_results": true,
+ "stage1_lattice": {
+  "ad22_kills_floor": true,
+  "core_dim": 30,
+  "dim_z_g14": 12,
+  "dim_z_g16": 30,
+  "dim_z_g22": 12,
+  "dim_z_g8": 30,
+  "floor_dim": 12,
+  "z_g14_equals_floor_dim": true
+ },
+ "stage2_pencil": {
+  "disc": "2068247311384221985534679973888000000",
+  "disc_is_square": false,
+  "disc_squarefree_kernel": [
+   7,
+   11
+  ],
+  "extra_node_checks": true,
+  "kappa_irreducible": true,
+  "kappa_this_build": "2771822592000*s**3 + 3033676800*s**2 - 56402640*s - 6859",
+  "nu_degree": 18,
+  "nu_is_c_times_cubic_pow6": true,
+  "one_field_factor_degrees_this_build": [
+   1,
+   2
+  ],
+  "proportional_to_ledger_after_rescale": true,
+  "quotient_dim": 18,
+  "rescale_lambda_to_ledger": "1"
+ },
+ "stage3_ledger_exact": {
+  "kappa_constant_is_minus_19cubed": true,
+  "kappa_disc": "2068247311384221985534679973888000000",
+  "kappa_disc_is_square": false,
+  "kappa_disc_squarefree_kernel": [
+   7,
+   11
+  ],
+  "kappa_irreducible": true,
+  "mu_constant_is_13cubed": true,
+  "mu_disc": "557339020487762273068236197068800",
+  "mu_disc_is_square": false,
+  "mu_disc_squarefree_kernel": [
+   7,
+   11
+  ],
+  "mu_irreducible": true,
+  "mu_solo_equals_13cubed_CUBIC_rho_over_13": true,
+  "one_field_factor_degrees_ledger": [
+   1,
+   2
+  ],
+  "sst_kappa_of_sstar_rho_is_zero_mod_mu": true
+ },
+ "stage4_fresh_prime": {
+  "compact_generic_dim": 12,
+  "compact_walls": [
+   {
+    "cap_core": 18,
+    "cap_floor": 12,
+    "center": 2,
+    "derived": 28,
+    "dim": 30,
+    "s": 9526
+   },
+   {
+    "cap_core": 18,
+    "cap_floor": 12,
+    "center": 2,
+    "derived": 28,
+    "dim": 30,
+    "s": 26243
+   },
+   {
+    "cap_core": 18,
+    "cap_floor": 12,
+    "center": 2,
+    "derived": 28,
+    "dim": 30,
+    "s": 36178
+   }
+  ],
+  "core_shadow_identity": true,
+  "cross_shadow_18": {
+   "center": 3,
+   "derived": 15,
+   "dim": 18,
+   "pair": [
+    0,
+    0
+   ]
+  },
+  "geo": {
+   "pairwise": [
+    {
+     "dim": 12,
+     "equals_floor": true,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "dim": 12,
+     "equals_floor": true,
+     "pair": [
+      0,
+      2
+     ]
+    },
+    {
+     "dim": 12,
+     "equals_floor": true,
+     "pair": [
+      1,
+      2
+     ]
+    }
+   ],
+   "triple_span": 66
+  },
+  "invisible_12": {
+   "cap_core": 0,
+   "charge_ranks_on_M12": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "dim": 12,
+   "pencil_kernel_on_M12_at_wall": 0,
+   "torus_invariant": true
+  },
+  "noncompact_generic_dim": 30,
+  "noncompact_walls": [
+   {
+    "dim": 30,
+    "t": 16558
+   },
+   {
+    "dim": 30,
+    "t": 17294
+   },
+   {
+    "dim": 30,
+    "t": 21702
+   }
+  ],
+  "pairing_is_perfect_matching": false,
+  "pairing_table": [
+   [
+    18,
+    18,
+    18
+   ],
+   [
+    18,
+    18,
+    18
+   ],
+   [
+    18,
+    18,
+    18
+   ]
+  ],
+  "prime": 40829
+ },
+ "stage5_enumerations": {
+  "dim11_rank_le6": [
+   [
+    "A1",
+    "A2"
+   ]
+  ],
+  "dim15_rank_le3": [
+   [
+    "A3"
+   ]
+  ],
+  "dim28_rank_le4": [
+   [
+    "D4"
+   ],
+   [
+    "G2",
+    "G2"
+   ]
+  ],
+  "dim45_rank_le5": [
+   [
+    "D5"
+   ]
+  ]
+ },
+ "stage6_bookkeeping": {
+  "chain_dims": [
+   12,
+   18,
+   30,
+   46,
+   78
+  ],
+  "corank_bookkeeping_3x6": 18,
+  "inclusion_exclusion_3x30_minus_3x12_plus_12": 66,
+  "invisible": 12,
+  "semisimple_plus_abelian": [
+   [
+    8,
+    4
+   ],
+   [
+    15,
+    3
+   ],
+   [
+    28,
+    2
+   ],
+   [
+    45,
+    1
+   ],
+   [
+    78,
+    0
+   ]
+  ],
+  "sums_ok": true
+ }
+}

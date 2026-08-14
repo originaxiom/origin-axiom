@@ -1,0 +1,468 @@
+{
+ "base_rates": [
+  {
+   "arrow": 0,
+   "classes": 1,
+   "length": 2,
+   "non_amphichiral": 0
+  },
+  {
+   "arrow": 0,
+   "classes": 2,
+   "length": 3,
+   "non_amphichiral": 2
+  },
+  {
+   "arrow": 0,
+   "classes": 4,
+   "length": 4,
+   "non_amphichiral": 2
+  },
+  {
+   "arrow": 0,
+   "classes": 6,
+   "length": 5,
+   "non_amphichiral": 6
+  },
+  {
+   "arrow": 2,
+   "classes": 12,
+   "length": 6,
+   "non_amphichiral": 8
+  },
+  {
+   "arrow": 4,
+   "classes": 18,
+   "length": 7,
+   "non_amphichiral": 18
+  },
+  {
+   "arrow": 12,
+   "classes": 34,
+   "length": 8,
+   "non_amphichiral": 26
+  },
+  {
+   "arrow": 28,
+   "classes": 58,
+   "length": 9,
+   "non_amphichiral": 58
+  },
+  {
+   "arrow": 60,
+   "classes": 106,
+   "length": 10,
+   "non_amphichiral": 90
+  }
+ ],
+ "census": {
+  "LLRLR": {
+   "amphichiral": false,
+   "arrow": false,
+   "box_consistent": true,
+   "box_dets": [
+    -1
+   ],
+   "cycle_leads": [
+    -1,
+    8
+   ],
+   "disc": 96,
+   "matches_handoff": true,
+   "matrix": [
+    [
+     2,
+     3
+    ],
+    [
+     5,
+     8
+    ]
+   ],
+   "symmetric": false,
+   "trace": 10
+  },
+  "LLRLRR": {
+   "amphichiral": true,
+   "arrow": true,
+   "box_consistent": true,
+   "box_dets": [
+    1
+   ],
+   "cycle_leads": [
+    -13,
+    1
+   ],
+   "disc": 221,
+   "matches_handoff": true,
+   "matrix": [
+    [
+     2,
+     5
+    ],
+    [
+     5,
+     13
+    ]
+   ],
+   "symmetric": true,
+   "trace": 15
+  },
+  "LLRR": {
+   "amphichiral": true,
+   "arrow": false,
+   "box_consistent": true,
+   "box_dets": [
+    -1,
+    1
+   ],
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 8,
+   "matches_handoff": true,
+   "matrix": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "symmetric": true,
+   "trace": 6
+  },
+  "LLRRLR": {
+   "amphichiral": true,
+   "arrow": true,
+   "box_consistent": true,
+   "box_dets": [
+    1
+   ],
+   "cycle_leads": [
+    -13,
+    1
+   ],
+   "disc": 221,
+   "matches_handoff": true,
+   "matrix": [
+    [
+     3,
+     5
+    ],
+    [
+     7,
+     12
+    ]
+   ],
+   "symmetric": false,
+   "trace": 15
+  },
+  "LR": {
+   "amphichiral": true,
+   "arrow": false,
+   "box_consistent": true,
+   "box_dets": [
+    -1,
+    1
+   ],
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 5,
+   "matches_handoff": true,
+   "matrix": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "symmetric": true,
+   "trace": 3
+  },
+  "LRR": {
+   "amphichiral": false,
+   "arrow": false,
+   "box_consistent": true,
+   "box_dets": [
+    -1
+   ],
+   "cycle_leads": [
+    -1,
+    2
+   ],
+   "disc": 12,
+   "matches_handoff": true,
+   "matrix": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "symmetric": false,
+   "trace": 4
+  }
+ },
+ "e6": {
+  "block_dims": [
+   3,
+   9,
+   11,
+   15,
+   17,
+   23
+  ],
+  "cartan_det": 3,
+  "coxeter": 12,
+  "dim_is_78": true,
+  "dim_sum": 78,
+  "exponents": [
+   1,
+   4,
+   5,
+   7,
+   8,
+   11
+  ],
+  "h1_equals_rank": true,
+  "positive_roots": 36,
+  "sum_exponents": 36,
+  "suspension_entropy": "0.962423650119"
+ },
+ "flag_convention": {
+  "C_works_standard": false,
+  "C_works_swapped": true,
+  "note": "C is correct only under the swapped L/R convention, which the handoff omits"
+ },
+ "flag_symmetry_mechanism": {
+  "counterexample": "LLRLRR",
+  "counterexample_amphichiral": true,
+  "counterexample_arrow": true,
+  "counterexample_matrix": [
+   [
+    2,
+    5
+   ],
+   [
+    5,
+    13
+   ]
+  ],
+  "counterexample_symmetric": true,
+  "det_S": 1,
+  "note": "symmetry supplies the det=+1 conjugator (amphichirality) ONLY; 'no arrow' needs det=-1, which symmetry does not give. A symmetric trace-15 matrix HAS an arrow, so the stated metallic mechanism proves the wrong half.",
+  "symmetric_identity_holds": true
+ },
+ "gky": {
+  "-1": {
+   "holds": true,
+   "max_abs_err": 9.183549615799121e-41
+  },
+  "-2": {
+   "holds": true,
+   "max_abs_err": 8.322591839317954e-41
+  },
+  "-3": {
+   "holds": true,
+   "max_abs_err": 2.4393803666966416e-41
+  },
+  "0": {
+   "holds": true,
+   "max_abs_err": 0.0
+  },
+  "1": {
+   "holds": true,
+   "max_abs_err": 7.346839692639297e-40
+  },
+  "2": {
+   "holds": true,
+   "max_abs_err": 1.8367099231598242e-39
+  }
+ },
+ "lambda_k": {
+  "res_LambdaK_at_1": "0.1666666666666666666666667",
+  "res_LambdaK_is_one_sixth": true,
+  "res_phi": "1.7065521766281616088",
+  "res_phi_matches_handoff": true,
+  "two_routes_are_algebraically_identical": true,
+  "vol_equals_12sqrt3_LK2": true
+ },
+ "metallic": [
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 5,
+   "disc_is_m2p4": true,
+   "m": 1,
+   "symmetric": true,
+   "trace": 3
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 8,
+   "disc_is_m2p4": true,
+   "m": 2,
+   "symmetric": true,
+   "trace": 6
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 13,
+   "disc_is_m2p4": true,
+   "m": 3,
+   "symmetric": true,
+   "trace": 11
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 20,
+   "disc_is_m2p4": true,
+   "m": 4,
+   "symmetric": true,
+   "trace": 18
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 29,
+   "disc_is_m2p4": true,
+   "m": 5,
+   "symmetric": true,
+   "trace": 27
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 40,
+   "disc_is_m2p4": true,
+   "m": 6,
+   "symmetric": true,
+   "trace": 38
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 53,
+   "disc_is_m2p4": true,
+   "m": 7,
+   "symmetric": true,
+   "trace": 51
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 68,
+   "disc_is_m2p4": true,
+   "m": 8,
+   "symmetric": true,
+   "trace": 66
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 85,
+   "disc_is_m2p4": true,
+   "m": 9,
+   "symmetric": true,
+   "trace": 83
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 104,
+   "disc_is_m2p4": true,
+   "m": 10,
+   "symmetric": true,
+   "trace": 102
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 125,
+   "disc_is_m2p4": true,
+   "m": 11,
+   "symmetric": true,
+   "trace": 123
+  },
+  {
+   "amphichiral": true,
+   "arrow": false,
+   "cycle_leads": [
+    -1,
+    1
+   ],
+   "disc": 148,
+   "disc_is_m2p4": true,
+   "m": 12,
+   "symmetric": true,
+   "trace": 146
+  }
+ ],
+ "riley": {
+  "both_collapse_at_x2": true,
+  "both_degree_2": true,
+  "coeff_const": "-m**2 + 3 - 1/m**2",
+  "coeff_u": "-m**2 + 3 - 1/m**2",
+  "trefoil_degree": 1,
+  "u_coeff_equals_const": true
+ }
+}

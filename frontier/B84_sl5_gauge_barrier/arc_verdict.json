@@ -1,0 +1,10 @@
+{
+ "id": "B84",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Conjecture I1 refuted: the SL(5) tower barrier is genuine non-convergence of the pinv-limit (gauge-invariant power sums scatter), not a gauge/basis artifact.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

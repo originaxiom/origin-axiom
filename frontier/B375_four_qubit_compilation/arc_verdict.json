@@ -1,0 +1,10 @@
+{
+ "id": "B375",
+ "verdict": "PROVED",
+ "claim_one_line": "The level-15 algebra compiles exactly into two four-qubit primitives, and the declared interference protocol provably returns the banked seam invariants.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

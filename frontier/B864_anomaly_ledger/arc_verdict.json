@@ -1,0 +1,14 @@
+{
+ "id": "B864",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE ANOMALY LEDGER (the critic's G3, exact): (1) over the full 27/16 every chain U(1) is anomaly-free -- nothing at parent level forces truncation; (2) over the CHIRAL matter the dials become anomalous (psi over the 16: Tr=16, Tr^3=16, [SO(10)]^2=2; chi over 10+5bar: Tr=5, Tr^3=125) -- an anomalous U(1) cannot be gauged, so the framework's dial-reading is now a CONSEQUENCE; (3) UNIQUENESS: Q = aY + b*chi + c*psi over the generation gives grav = 5b+15c, [SU(3)]^2 = 2c, [SU(2)]^2 = 2c, forcing b = c = 0 -- HYPERCHARGE IS THE UNIQUE GAUGEABLE ABELIAN DIRECTION, and its cubic vanishes for free. The derivation arrow: the cascade's dial-stripping rule = anomaly consistency of the chiral sector. L5 upgraded from cited-wrong to computed. Does NOT derive the re-anchoring itself (G2 stands).",
+ "depends_on": [
+  "B863",
+  "B861",
+  "B860"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

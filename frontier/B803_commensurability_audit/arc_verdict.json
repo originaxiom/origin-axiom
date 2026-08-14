@@ -1,0 +1,10 @@
+{
+ "id": "B803",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified in snappy that m003 and m004 share the trace field \u211a(\u221a\u22123) and are commensurable, so any derivation routing through it is class-level not the object'specific; the DKY integer-puncture mechanism is confirmed at 60 dps.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B743",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Zero gated hits: the object's whole real algebraic tower and canonical analytic values contain no SM ratio at testable precision, with Koide found and correctly rejected.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

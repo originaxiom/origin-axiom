@@ -1,0 +1,10 @@
+{
+ "id": "B557",
+ "verdict": "PROVED",
+ "claim_one_line": "ESTABLISHED exactly: the escalator's coupling rule (C,D)=(M,M^2) is FORCED at rung 1 and a CHOICE above it (B517 intertwining forces C=p(M)), plus the explicit 8-letter carrier sigma_8, both locked. UNSETTLED: the E0 lit-gate never ran, so no novelty claim is available; the saturation cells and the firewalled physics-ladder cell were never executed.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "B840 (consolidated from CARRIERS_FINDINGS.md + E2_FINDINGS.md)"
+}

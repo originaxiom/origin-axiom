@@ -1,0 +1,1108 @@
+{
+ "anchors": {
+  "v_sq_95d": [
+   "5.6949646542627022800114395018643909803511537241825032972661994700327374859995160260560968489452",
+   "8.3270641823804018236805452226598240111759437156635398384260921794314458799945227033081544639939",
+   "19.450873775663868128388849662750898517072742957098824776192855797291942760933196636972607646129"
+  ],
+  "provenance": "dps-100 relay-belt rerun on this bench (session scratchpad); residuals 953*lambda-2304 = 2.8e-85, 953*CCC-13824 = 3.5e-85",
+  "e_times_953^4": {
+   "e1": 27609909080832,
+   "e2": 264084438122496,
+   "e3": 760840571584512
+  },
+  "P9_exact": "e3 = 27*(2304/953)^4, pure integers"
+ },
+ "hier_cubic": {
+  "coeffs": [
+   824843587681,
+   -27609909080832,
+   264084438122496,
+   -760840571584512
+  ],
+  "coeff_factorizations": {
+   "lead": "953^4",
+   "x^2": "-2^8 3^9 13 421493",
+   "x^1": "2^21 3^8 17 1129",
+   "const": "-2^32 3^11 = -27*2304^4"
+  },
+  "irreducible": true,
+  "disc_factorization": {
+   "2": 64,
+   "3": 24,
+   "5": 6,
+   "7": 3,
+   "11": 1,
+   "73": 2,
+   "214189": 2
+  },
+  "disc_kernel": [
+   7,
+   11
+  ],
+  "split_over_K": [
+   1,
+   2
+  ],
+  "V_in_rho": "3020358603911646412800*rho**2/23558357707757041 + 2399403349337702400*rho/1812181362135157 + 1084447130452992/139398566318089",
+  "root_certificate": "rem(HIER(V(rho)), mu(rho)) == 0",
+  "root_reproduction_err": "7.33e-88",
+  "branch_identity": "V(rho_g) = v_g^2, identity map (ascending), max err 7.33e-88",
+  "HG2_certificate_exactified": "V*A + B == 0 mod mu, A = 19474-1154453rho-18197524rho^2, B = -152295-15081984rho-50844672rho^2"
+ },
+ "alpha_V": {
+  "vector": [
+   "971519719161915524236273846912397869056/561196311142728775801553144034942241",
+   "0",
+   "0",
+   "46841873111221379530752000/680366944138463534957761"
+  ],
+  "denominators": "953^12 (rational part), 953^8 (s231 part)",
+  "s231_numerator_content": "{2: 31, 3: 13, 5: 3, 7: 1, 73: 1, 214189: 1}"
+ },
+ "pairs": {
+  "V__mu": {
+   "ratio": {
+    "surviving_twists": [
+     [
+      0,
+      0
+     ]
+    ],
+    "witness_primes": [
+     19,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163,
+     241
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 4
+     },
+     "(0, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 5
+     },
+     "(1, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 10
+     },
+     "(1, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 3
+     },
+     "(2, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 6
+     },
+     "(2, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 17
+     },
+     "(1, 0)": {
+      "p": 61,
+      "r77": 4,
+      "rm3": 27,
+      "val": 29
+     },
+     "(2, 0)": {
+      "p": 61,
+      "r77": 4,
+      "rm3": 27,
+      "val": 40
+     }
+    },
+    "cube_proofs": {
+     "(0, 0)": [
+      "3362527904156467200/1812181362135157",
+      "0",
+      "0",
+      "-27239886398914560/1812181362135157"
+     ]
+    }
+   },
+   "product": {
+    "surviving_twists": [],
+    "witness_primes": [
+     13,
+     19,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 16
+     },
+     "(0, 0)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 4
+     },
+     "(1, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 2
+     },
+     "(1, 0)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 10
+     },
+     "(2, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 5
+     },
+     "(2, 0)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 6
+     },
+     "(0, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 15,
+      "val": 4
+     },
+     "(1, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 15,
+      "val": 13
+     },
+     "(2, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 15,
+      "val": 9
+     }
+    },
+    "cube_proofs": {}
+   }
+  },
+  "V__generic": {
+   "ratio": {
+    "surviving_twists": [
+     [
+      0,
+      0
+     ]
+    ],
+    "witness_primes": [
+     13,
+     19,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 11
+     },
+     "(0, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 6
+     },
+     "(1, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 6
+     },
+     "(1, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 3
+     },
+     "(2, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 4
+     },
+     "(2, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 2
+     },
+     "(1, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 17
+     },
+     "(2, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 15
+     }
+    },
+    "cube_proofs": {
+     "(0, 0)": [
+      "26861739/3299374350724",
+      "0",
+      "0",
+      "-41889411/635129562514370"
+     ]
+    }
+   },
+   "product": {
+    "surviving_twists": [],
+    "witness_primes": [
+     19,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163,
+     241
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 14
+     },
+     "(0, 0)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 13
+     },
+     "(1, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 16
+     },
+     "(1, 0)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 4
+     },
+     "(2, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 2
+     },
+     "(2, 0)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 10
+     },
+     "(0, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 15,
+      "val": 13
+     },
+     "(1, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 15,
+      "val": 9
+     },
+     "(2, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 15,
+      "val": 15
+     }
+    },
+    "cube_proofs": {}
+   }
+  },
+  "V__vacuum": {
+   "ratio": {
+    "surviving_twists": [],
+    "witness_primes": [
+     13,
+     19,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 9
+     },
+     "(0, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 11
+     },
+     "(1, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 10
+     },
+     "(1, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 9
+     },
+     "(2, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 7
+     },
+     "(2, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 10
+     },
+     "(0, 1)": {
+      "p": 13,
+      "r77": 8,
+      "rm3": 6,
+      "val": 9
+     },
+     "(1, 0)": {
+      "p": 13,
+      "r77": 8,
+      "rm3": 6,
+      "val": 6
+     },
+     "(2, -1)": {
+      "p": 13,
+      "r77": 8,
+      "rm3": 6,
+      "val": 4
+     }
+    },
+    "cube_proofs": {}
+   },
+   "product": {
+    "surviving_twists": [
+     [
+      0,
+      0
+     ]
+    ],
+    "witness_primes": [
+     19,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163,
+     241
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 15
+     },
+     "(0, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 14
+     },
+     "(1, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 9
+     },
+     "(1, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 16
+     },
+     "(2, -1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 13
+     },
+     "(2, 1)": {
+      "p": 19,
+      "r77": 1,
+      "rm3": 4,
+      "val": 2
+     },
+     "(1, 0)": {
+      "p": 61,
+      "r77": 4,
+      "rm3": 27,
+      "val": 17
+     },
+     "(2, 0)": {
+      "p": 61,
+      "r77": 4,
+      "rm3": 27,
+      "val": 55
+     }
+    },
+    "cube_proofs": {
+     "(0, 0)": [
+      "207516007799370547200/10722966639853",
+      "5043270396141895680/10722966639853",
+      "207516007799370547200/10722966639853",
+      "-1681090132047298560/10722966639853"
+     ]
+    }
+   }
+  },
+  "V__kappa": {
+   "ratio": {
+    "surviving_twists": [
+     [
+      0,
+      0
+     ]
+    ],
+    "witness_primes": [
+     13,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163,
+     241
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 11
+     },
+     "(0, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 6
+     },
+     "(1, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 6
+     },
+     "(1, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 3
+     },
+     "(2, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 4
+     },
+     "(2, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 2
+     },
+     "(1, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 2
+     },
+     "(2, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 6
+     }
+    },
+    "cube_proofs": {
+     "(0, 0)": [
+      "609584158276853760/5657602167903979",
+      "886945969304801280/5657602167903979",
+      "609584158276853760/5657602167903979",
+      "-295648656434933760/5657602167903979"
+     ]
+    }
+   },
+   "product": {
+    "surviving_twists": [],
+    "witness_primes": [
+     13,
+     19,
+     37,
+     61,
+     67,
+     73,
+     139,
+     163
+    ],
+    "clean_embedding_tests": 32,
+    "noncube_witnesses": {
+     "(0, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 9
+     },
+     "(0, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 11
+     },
+     "(1, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 11
+     },
+     "(1, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 6
+     },
+     "(2, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 6
+     },
+     "(2, 0)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 6,
+      "val": 3
+     },
+     "(0, -1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 7
+     },
+     "(2, 1)": {
+      "p": 13,
+      "r77": 5,
+      "rm3": 7,
+      "val": 2
+     },
+     "(1, 0)": {
+      "p": 13,
+      "r77": 8,
+      "rm3": 6,
+      "val": 9
+     }
+    },
+    "cube_proofs": {}
+   }
+  }
+ },
+ "singles": {
+  "mu": {
+   "surviving_twists": [],
+   "witness_primes": [
+    13,
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163
+   ],
+   "clean_embedding_tests": 32,
+   "noncube_witnesses": {
+    "(0, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 2
+    },
+    "(0, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 10
+    },
+    "(1, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 5
+    },
+    "(1, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 6
+    },
+    "(2, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 3
+    },
+    "(2, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 15
+    },
+    "(0, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 3
+    },
+    "(1, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 5
+    },
+    "(2, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 2
+    }
+   }
+  },
+  "generic": {
+   "surviving_twists": [],
+   "witness_primes": [
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163,
+    241
+   ],
+   "clean_embedding_tests": 32,
+   "noncube_witnesses": {
+    "(0, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 16
+    },
+    "(0, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 4
+    },
+    "(1, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 2
+    },
+    "(1, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 10
+    },
+    "(2, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 5
+    },
+    "(2, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 6
+    },
+    "(0, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 5
+    },
+    "(1, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 2
+    },
+    "(2, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 16
+    }
+   }
+  },
+  "vacuum": {
+   "surviving_twists": [],
+   "witness_primes": [
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163,
+    241
+   ],
+   "clean_embedding_tests": 32,
+   "noncube_witnesses": {
+    "(0, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 17
+    },
+    "(0, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 9
+    },
+    "(1, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 14
+    },
+    "(1, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 13
+    },
+    "(2, -1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 16
+    },
+    "(2, 0)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 4,
+     "val": 4
+    },
+    "(0, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 6
+    },
+    "(1, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 10
+    },
+    "(2, 1)": {
+     "p": 19,
+     "r77": 1,
+     "rm3": 15,
+     "val": 4
+    }
+   }
+  },
+  "kappa": {
+   "surviving_twists": [],
+   "witness_primes": [
+    13,
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163
+   ],
+   "clean_embedding_tests": 32,
+   "noncube_witnesses": {
+    "(0, -1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 9
+    },
+    "(0, 0)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 11
+    },
+    "(1, 0)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 6
+    },
+    "(1, 1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 3
+    },
+    "(2, -1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 3
+    },
+    "(2, 1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 4
+    },
+    "(0, 1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 7,
+     "val": 10
+    },
+    "(1, -1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 7,
+     "val": 4
+    },
+    "(2, 0)": {
+     "p": 13,
+     "r77": 8,
+     "rm3": 6,
+     "val": 11
+    }
+   }
+  },
+  "V": {
+   "surviving_twists": [],
+   "witness_primes": [
+    13,
+    19,
+    37,
+    61,
+    67,
+    73,
+    139,
+    163
+   ],
+   "clean_embedding_tests": 32,
+   "noncube_witnesses": {
+    "(0, -1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 4
+    },
+    "(0, 0)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 2
+    },
+    "(1, 0)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 7
+    },
+    "(1, 1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 10
+    },
+    "(2, -1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 10
+    },
+    "(2, 1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 6,
+     "val": 9
+    },
+    "(0, 1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 7,
+     "val": 10
+    },
+    "(1, -1)": {
+     "p": 13,
+     "r77": 5,
+     "rm3": 7,
+     "val": 4
+    },
+    "(2, 0)": {
+     "p": 13,
+     "r77": 8,
+     "rm3": 6,
+     "val": 11
+    }
+   }
+  }
+ },
+ "classes": {
+  "generator": "C = [alpha_mu]",
+  "assignments": {
+   "mu": "C",
+   "generic": "C",
+   "kappa": "C",
+   "V": "C",
+   "vacuum": "C^2"
+  },
+  "multiplication_table": {
+   "mu*mu": "C^2",
+   "mu*generic": "C^2",
+   "mu*vacuum": "1",
+   "mu*kappa": "C^2",
+   "mu*V": "C^2",
+   "generic*mu": "C^2",
+   "generic*generic": "C^2",
+   "generic*vacuum": "1",
+   "generic*kappa": "C^2",
+   "generic*V": "C^2",
+   "vacuum*mu": "1",
+   "vacuum*generic": "1",
+   "vacuum*vacuum": "C",
+   "vacuum*kappa": "1",
+   "vacuum*V": "1",
+   "kappa*mu": "C^2",
+   "kappa*generic": "C^2",
+   "kappa*vacuum": "1",
+   "kappa*kappa": "C^2",
+   "kappa*V": "C^2",
+   "V*mu": "C^2",
+   "V*generic": "C^2",
+   "V*vacuum": "1",
+   "V*kappa": "C^2",
+   "V*V": "C^2"
+  },
+  "consistency": "V-row consistent with all 8 scans + 4 certificates; sub-table = B910 banked"
+ },
+ "certificate_structure": {
+  "V_mu_ratio": "untwisted, in Q(sqrt-231)",
+  "V_generic_ratio": "untwisted, in Q(sqrt-231)",
+  "V_kappa_ratio": "2*zeta6 * (element of Q(sqrt-231))",
+  "V_vacuum_product": "2*zeta6 * (element of Q(sqrt-231))",
+  "denominator_law": "every V-certificate carries 953^4 alongside the partner prime (13^3 for mu, 19^3 for kappa, 13 for vacuum)"
+ },
+ "integrality_lemma": {
+  "statement": "den(e1)=den(e2)=den(e3)=953^4 exactly => V integral at every place outside 953 (char-poly valuation argument), and v_w(V) >= -4 over 953",
+  "hypothesis_check": "e_i lowest-terms denominators = 953^4, asserted"
+ },
+ "places": {
+  "953": {
+   "mu_mod_p": "[(rho + 341, 1), (rho**2 - 286*rho - 298, 1)]",
+   "rho_residue_deg1": 612,
+   "v_deg1_place": -4,
+   "v_deg2_place": 0,
+   "norm_consistency": "-4 + 2*0 = v_p(N(V)) = -4"
+  },
+  "1129": {
+   "mu_mod_p": "[(rho - 70, 1), (rho**2 + 187*rho - 439, 1)]",
+   "rho_residue_deg1": 70,
+   "v_deg1_place": 0,
+   "v_deg2_place": 0,
+   "norm_consistency": "0 + 2*0 = v_p(N(V)) = 0",
+   "V_residue_deg1": 617,
+   "V_residue_deg2": "581 + 387*y in F_p2",
+   "congruences": {
+    "trace": "res1 + Tr_deg2 = 1071 = e1*(unit) mod p",
+    "e2": "N_deg2 + res1*Tr_deg2 = 0 = e2*(unit) mod p"
+   },
+   "localization": "e2's numerator prime: the SECOND symmetric function of the V-residues vanishes mod p"
+  },
+  "421493": {
+   "mu_mod_p": "[(rho - 153127, 1), (rho**2 - 2648*rho + 100187, 1)]",
+   "rho_residue_deg1": 153127,
+   "v_deg1_place": 0,
+   "v_deg2_place": 0,
+   "norm_consistency": "0 + 2*0 = v_p(N(V)) = 0",
+   "V_residue_deg1": 107540,
+   "V_residue_deg2": "39306 + 166513*y in F_p2",
+   "congruences": {
+    "trace": "res1 + Tr_deg2 = 0 = e1*(unit) mod p",
+    "e2": "N_deg2 + res1*Tr_deg2 = 76710 = e2*(unit) mod p"
+   },
+   "localization": "e1's numerator prime: the TRACE of the V-residues vanishes mod p"
+  }
+ },
+ "H_B917_SPLIT": {
+  "question": "do V's denominators select exactly the degree-one places?",
+  "verdict": "YES (theorem-shape)",
+  "content": "V's denominator ideal is w1(953)^4 EXACTLY: the integrality lemma confines denominators to places over 953; the Hensel computation gives v = -4 at the degree-one place, v = 0 at the degree-two place. At 1129 and 421493 V is a unit at both places; those primes enter through numerator congruences instead (421493: the trace of the residues vanishes; 1129: the second symmetric function vanishes)."
+ }
+}

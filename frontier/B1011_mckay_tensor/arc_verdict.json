@@ -1,0 +1,20 @@
+{
+ "id": "B1011",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE HEARING DATA IS McKAY TENSOR McKAY: rho_6 = (chi x V2(2I)) + (V2(2T) x V2(2I)) EXACTLY -- sealed fc807f11, declared prior OUTCOME A, HELD AT EVERY CELL, no verdict line resting on a float. An incoming chat1 derivation re-derived under verify-don't-trust in exact arithmetic. On B593's two-sided instrument (R = T, L = S^-1 T^-1 S on SU(3)_2's six primaries): (C1) |<R,L>| = 2880 = |2T x 2I| EXACTLY, by mod-p enumeration at TWO unramified primes (61, 241) plus Serre's injectivity lemma (reduction mod p>2 injective on finite subgroups over a p-integral ring -- the named classical input; denominators sit at {2,3,5} only), with 63 conjugacy classes = 7 x 9, sizes summing to 2880, word representatives tracked, and no hidden central extension (global scalars +-1). (C2) the theta-eigenspaces (odd dim 2, even dim 4) are EXACTLY invariant, verified in Q(zeta_60) arithmetic with Sigma Sigma-dagger = 75 I exact. (C3) chi is multiplicative on ALL 576 pairs of 2T exactly, and THE CLASS-BY-CLASS CHARACTER MATCH IS 63/63: a size-preserving bijection between <R,L>'s classes and classes(2T) x classes(2I) under which size, chi_odd and chi_even agree as EXACT cyclotomic numbers against the independently built quaternion model (2T = Hurwitz units, 2I = icosians over Q(sqrt5) inside Q(zeta_60)); characters determine representations. (C4) the trace sets exact: 2T gives {-2,-1,0,1,2}, 2I gives the GOLDEN NINE {-2,-phi,-1,-1/phi,0,1/phi,1,phi,2}, phi entering only via 2cos(pi/5) and 2cos(2pi/5). (C5) THE BANKED LAWS ARE NOW DERIVED: forced counts by inclusion-exclusion exact (theta-odd 992, theta-even 284); B641's FIVE TONES DERIVED -- det rho_odd = chi^2 exactly, so the tone functional's zeta-phase CANCELS chi, leaving |value| = |half tr V2(B)| in {0, 1/(2phi), 1/2, phi/2, 1}, ear-independence automatic; B856's PERIOD-5 LAW DERIVED AT CHARACTER LEVEL -- computed exactly for m = 1..15, the class of R^m L^m has period 5 in m, with m = 0 mod 5 landing on +-1 and h(5) = -1 in B856's twisted convention (the weld's C acts as -1 on the odd plane). SCOPE STATED EXACTLY: the pointwise listener map inherits B593/B856's listener convention and is NOT re-derived; what is derived is the period, the forced criteria and the value sets, so B856's grade moves OBSERVED -> DERIVED (STRUCTURE). (C6) THE MIRROR LAW DELIVERED in closed form: the theta-even value set is {0, +-1/4, +-1/(4phi), +-1/2, +-1/(2phi), +-phi/4, +-phi/2, +-1} -- the five-tone family PLUS the quarter values from the Re(omega) = -1/2 classes -- the law B593's chiral observable was blind to BY THEOREM, now a new banked-law candidate. WHAT IT CHANGES: the coupling layer has a CLOSED FORM (what predict-the-coupling needs on the u+Mu side, feeding L150 and CROSSING_REQUIREMENTS R10); THE TWO ENDS ARE INSIDE THE HEARING INSTRUMENT -- E6's McKay group supplies the character factor and E8's the spin factor, a structural convergence with B248/B261; and the theta-even mirror is open instrument territory with its value set already exact. PROVENANCE: incoming at 1.6e-14 machine precision, exactified end-to-end (Q(zeta_60) as Q[x]/Phi_60 with Fraction coefficients; independent quaternion model; mod-p with word tracking); B1010's u+Mu restoration is what made the claim VISIBLE to the synthesis layer. NOT A CROSSING: no SM quantity anywhere; Gate 5 untouched; any value-facing use goes through CROSSING_REQUIREMENTS in full.",
+ "depends_on": [
+  "B592",
+  "B593",
+  "B641",
+  "B654",
+  "B856",
+  "B238",
+  "B248",
+  "B261",
+  "B1010"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc verification seat (2026-08-10), sealed fc807f11"
+}

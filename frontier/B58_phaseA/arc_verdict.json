@@ -1,0 +1,21 @@
+{
+ "id": "B58",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The n=5 char(M^2) shortfall is the pinv-limit CONSTRUCTION, not an F_p non-canonicity artifact: three independent computations of the pinv-limit all return a2=1.",
+ "instrument": false,
+ "depends_on": [
+  "B60"
+ ],
+ "superseded_by": null,
+ "stratum": "B",
+ "authored_by": "W1-pilot",
+ "kill": {
+  "kill_form": "method-limit",
+  "faces_consulted": [
+   "sln-tower"
+  ],
+  "fact_computed": true,
+  "hatch": "deepen-past-plateau",
+  "revival_score": 2
+ }
+}

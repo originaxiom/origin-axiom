@@ -1,0 +1,46 @@
+{
+ "verified": 84,
+ "mismatch": 0,
+ "unresolved": [
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_coset_action.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_representation_decomposition.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_gate3_reference.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_gate4_interface.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_gate5_protocol.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_gate6_pullback.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_gate7_hejhal.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_gate8_v1_control.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b788_maass_gate8r_v1_remediation.py"
+  ],
+  [
+   "MISSING",
+   "../../tests/test_b734_m004_congruence.py"
+  ]
+ ]
+}

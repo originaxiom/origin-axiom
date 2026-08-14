@@ -1,0 +1,31 @@
+{
+ "regimes_the_object_has": {
+  "abelian_torus_data": {
+   "source": "B892",
+   "commutant": "su(3)+su(2)+u(1)^3",
+   "rank": 6,
+   "verdict": "TOO BIG"
+  },
+  "zariski_dense": {
+   "source": "B582/B576",
+   "commutant": "the centre Z/3",
+   "rank": 0,
+   "verdict": "TOO SMALL"
+  }
+ },
+ "target": {
+  "algebra": "su(3)+su(2)+u(1)",
+  "rank": 4,
+  "needs": "complex 27 retained"
+ },
+ "target_is_strictly_between": true,
+ "reframed_question": "does the object's E6 representation variety contain points of INTERMEDIATE Zariski closure -- non-abelian but proper -- whose commutant has rank 4 and retains complex reps?",
+ "why_B582_overshoots": "B582's amalgam closure H = E6(C) because H contains BOTH glued SL(2) images, so Lie(H) contains the generated algebra = e6; the very construction that BUYS chirality forces closure to be FULL, hence commutant rank 0",
+ "the_tension_named": "the mechanism that supplies chirality (theta-odd twisting of the amalgam) is the same mechanism that maximises the closure -- so chirality and a rank-4 commutant pull in opposite directions AGAIN, one level down from the theta-even/theta-odd trade-off",
+ "wilson_line_caution": "if the holonomy is ABELIAN the commutant contains a torus and the breaking is rank-PRESERVING -- the same defect as measurement; only NON-ABELIAN holonomy can reduce rank, and pi_1(m004) is non-abelian, so the mechanism is available in principle -- PENDING the panel",
+ "repo_status": {
+  "wilson_line_hosotani_worked_before_today": false,
+  "arcs_mentioning_VEV": 11,
+  "note": "rank-reduction mechanisms are essentially unworked in this programme"
+ }
+}

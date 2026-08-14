@@ -1,0 +1,10 @@
+{
+ "id": "B710",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The figure-eight and FRW lapse integrals share the Picard-Lefschetz method but their saddle skeletons invert (real vs complex actions) — method-only.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

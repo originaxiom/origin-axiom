@@ -1,0 +1,10 @@
+{
+ "id": "B234",
+ "verdict": "PROVED",
+ "claim_one_line": "Recomputation of the two handoffs verified the trace-1 congruence law disc=1−4det (excluding E₇'s ℚ(√2)) and caught one overclaim in each chat.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

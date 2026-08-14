@@ -1,0 +1,10 @@
+{
+ "id": "B434",
+ "verdict": "PROVED",
+ "claim_one_line": "The object's exceptional-slope boundary forces slope +-5 as minimal chirality input, whose output is the Meyerhoff manifold with new arithmetic (disc -283).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

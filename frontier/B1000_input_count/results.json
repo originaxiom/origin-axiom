@@ -1,0 +1,115 @@
+{
+ "raw_hits": 25,
+ "referents": {
+  "chirality": [
+   "B713",
+   "B760",
+   "B252",
+   "B849",
+   "B944",
+   "B582",
+   "B994",
+   "B950"
+  ],
+  "the 27-VEV / rank reduction": [
+   "B952",
+   "B953",
+   "B954",
+   "B962",
+   "B955",
+   "B990"
+  ],
+  "the dimensionful anchor": [
+   "B811",
+   "B413",
+   "B167",
+   "B563",
+   "B983"
+  ],
+  "4d / the N=2->N=1 datum": [
+   "B277",
+   "B716",
+   "B487"
+  ],
+  "the 6d type": [
+   "B277",
+   "B266"
+  ],
+  "the filling slope": [
+   "B338",
+   "B432"
+  ],
+  "P5 menu completeness": [
+   "B873",
+   "B861"
+  ],
+  "time / the arrow": [
+   "B716",
+   "B717",
+   "B721",
+   "B787"
+  ]
+ },
+ "classification": {
+  "chirality": [
+   "CLOSING",
+   "charge \u2014 B717's third incompleteness; B713/B760: 'the object cannot close itself'"
+  ],
+  "the 27-VEV / rank reduction": [
+   "CLOSING",
+   "charge \u2014 it is the chirality-preserving rank reduction; B990 shows it is the SAME operation as L133/L134 (B978: three leads, one operation)"
+  ],
+  "the dimensionful anchor": [
+   "CLOSING",
+   "value \u2014 one dimensionful input, required of every theory"
+  ],
+  "4d / the N=2->N=1 datum": [
+   "CLOSING",
+   "space \u2014 the 3d->4d filling; B716 'no canonical 4d filling'"
+  ],
+  "time / the arrow": [
+   "CLOSING",
+   "time \u2014 B716 'no canonical arrow'; B721 thermal time fails on identity"
+  ],
+  "the 6d type": [
+   "ARTIFACT",
+   "a choice of the CLASS-S BRIDGE, not a deficit of the object; B277 'the fiber fixes the surface and monodromy, not the type'"
+  ],
+  "the filling slope": [
+   "ARTIFACT",
+   "a choice of the DEHN-FILLING route; the object has many fillings, the route picks one"
+  ],
+  "P5 menu completeness": [
+   "ARTIFACT",
+   "a METHOD import of the cascade construction, not a physical closing"
+  ]
+ },
+ "closings": [
+  "chirality",
+  "the 27-VEV / rank reduction",
+  "the dimensionful anchor",
+  "4d / the N=2->N=1 datum",
+  "time / the arrow"
+ ],
+ "artifacts": [
+  "the 6d type",
+  "the filling slope",
+  "P5 menu completeness"
+ ],
+ "incompletenesses_closed": 4,
+ "by_incompleteness": {
+  "charge": [
+   "chirality",
+   "the 27-VEV / rank reduction"
+  ],
+  "value": [
+   "the dimensionful anchor"
+  ],
+  "space": [
+   "4d / the N=2->N=1 datum"
+  ],
+  "time": [
+   "time / the arrow"
+  ]
+ }
+}

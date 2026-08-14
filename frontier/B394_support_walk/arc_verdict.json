@@ -1,0 +1,10 @@
+{
+ "id": "B394",
+ "verdict": "PROVED",
+ "claim_one_line": "Both registered walk rules died, and the reward is exact: singles take the form (1+c)/12 with support sum frozen at 1 across four levels.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "B971",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "claim_one_line": "L132 WORKER CELL (banked in B978): the anomaly check is VACUOUS on complete 27s, and the vacuity is TRIPLE -- reached independently by two mutually independent routes recomputed from scratch, and concordantly by the companion scout's 2047-subset map over the object's Levi. WORKER CELL: this directory is a Phase-A multiagent worker cell whose result was banked by B978; it is not a standalone arc and carries no independent claim.",
+ "depends_on": [
+  "B978"
+ ],
+ "supersedes": null,
+ "superseded_by": "B978",
+ "authored_by": "cc banking seat (2026-08-08), retro-verdicted to close the B819 frame gap"
+}

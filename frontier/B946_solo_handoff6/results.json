@@ -1,0 +1,50 @@
+{
+ "e1_over_l4": "16438227/16777216",
+ "e2_over_l4": "19193/2048",
+ "e3_over_l4": "27",
+ "RL2_line1_matches": true,
+ "RL2_line2_matches": true,
+ "RL2_line3_matches": true,
+ "residual_primes_degree1": [
+  13,
+  421493
+ ],
+ "residual_primes_degree2": [
+  17,
+  1129
+ ],
+ "residual_primes_degree3": [],
+ "primes_thin_with_degree": true,
+ "lambda4_forced_by_e3_over_27": "28179280429056/824843587681",
+ "lambda_forced": "2304/953",
+ "lambda_is_2304_over_953": true,
+ "RL4_disc_over_l12": "14412750808508024328125/3542676233405203480576",
+ "RL4_matches": true,
+ "RL4_num_factors": {
+  "5": 6,
+  "7": 3,
+  "11": 1,
+  "73": 2,
+  "214189": 2
+ },
+ "RL4_den_factors": {
+  "2": 32,
+  "953": 4
+ },
+ "RL4_is_953_free": false,
+ "b941_headline_numerator": 760840571584512,
+ "equals_2p32_3p11": true,
+ "e3_equals_27_lambda4": true,
+ "frobenius_class_of_residue_primes": {
+  "13": 1,
+  "421493": -1,
+  "17": 1,
+  "1129": -1,
+  "953": -1,
+  "20417473": 1
+ },
+ "degree1_pair_is_mixed_class": true,
+ "degree2_pair_is_mixed_class": true,
+ "mixed_pair_base_rate_two_samples": 0.25,
+ "ALL_SOLO_CLAIMS_VERIFY": true
+}

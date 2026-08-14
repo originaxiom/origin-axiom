@@ -1,0 +1,10 @@
+{
+ "id": "B44",
+ "verdict": "OPEN",
+ "claim_one_line": "Torsion-one closure |det(M-I)|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

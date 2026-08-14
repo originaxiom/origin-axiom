@@ -1,0 +1,10 @@
+{
+ "id": "B283",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The arithmetic self-generation vein collapses: the WRT period law is generic to all torus bundles (Jeffrey 1992), the trace map is the known Fibonacci Hamiltonian, and the prime-absence claim is falsified.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

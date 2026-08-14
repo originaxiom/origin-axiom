@@ -1,0 +1,41 @@
+
+==========================================================================
+L2' - ARITHMETICITY of the full length spectrum (cutoff Re(l) <= 5.0)
+==========================================================================
+
+  m004: 134 geodesics
+    every trace in Z[omega]?  True   (worst deviation 2.59e-15)
+    trace-norm multiset: {3: 2, 4: 2, 7: 4, 12: 3, 16: 3, 19: 4, 27: 2, 28: 6, 31: 4, 36: 3, 39: 4, 43: 4, 48: 3, 52: 6, 63: 4, 64: 3, 67: 4, 75: 2, 76: 6, 79: 4, 84: 6, 91: 8, 100: 3, 103: 4, 108: 3, 111: 4, 112: 6, 124: 6, 127: 4, 139: 4, 144: 3, 147: 6, 148: 4}
+
+  m003: 150 geodesics
+    every trace in Z[omega]?  True   (worst deviation 2.59e-15)
+    trace-norm multiset: {1: 2, 3: 2, 7: 2, 9: 2, 12: 1, 13: 4, 19: 4, 21: 4, 25: 2, 27: 2, 28: 2, 31: 4, 36: 1, 37: 4, 39: 4, 43: 4, 49: 6, 52: 2, 57: 4, 61: 4, 63: 4, 67: 4, 73: 4, 75: 2, 76: 2, 79: 4, 81: 2, 84: 2, 91: 8, 93: 4, 97: 4, 100: 1, 103: 4, 108: 1, 109: 4, 111: 4, 117: 4, 121: 2, 124: 2, 127: 4, 129: 4, 133: 8, 139: 4, 147: 6, 148: 2}
+
+  norms present for m004 only: [4, 16, 48, 64, 112, 144]
+  norms present for m003 only: [1, 9, 13, 21, 25, 37, 49, 57, 61, 73, 81, 93, 97, 109, 117, 121, 129, 133]
+  min trace-norm  m004 = 3   m003 = 1
+
+  => L2' OUTCOME A holds at scale: EVERY geodesic trace is an exact element of
+     Z[omega]. The length spectrum is algebraic over the programme's own field.
+     The trace-NORM multiset is an exact arithmetic invariant and it DIFFERS
+     between m004 and m003 -> an eigenvalue-free discrimination (Test 4).
+
+==========================================================================
+L3' - POWERED base-rate matching on the length spectrum (cutoff 5.0)
+==========================================================================
+  distinct lengths = 70   candidates = 2555   targets = 8
+  window = +-0.001 relative (stated BEFORE matching)
+  EXPECTED CHANCE HITS  E = 40.880
+    hit: l_0/l_51 = 0.2312719501 ~ sin^2 theta_W = 0.2312200000
+    hit: l_0/l_52 = 0.2310744965 ~ sin^2 theta_W = 0.2312200000
+    hit: l_0/l_58 = 0.2249625775 ~ sin theta_C (Cabibbo) = 0.2250000000
+    hit: l_3/l_45 = 0.4741995844 ~ m_u/m_d = 0.4740000000
+
+  observed hits = 4   expected by chance = 40.880
+  => L3' OUTCOME B (MISS), now at real power: the observed count is at or below
+     chance expectation. This is an EARNED negative - the pool is large, the
+     window was fixed in advance, and the computation ran on exact data.
+
+==========================================================================
+results_powered.json written
+==========================================================================

@@ -1,0 +1,10 @@
+{
+ "id": "B145",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Chirality cannot be forced: over the catalogued once-punctured-torus bundles the canonical/minimal locus coincides with the self-mirror (amphichiral) family.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

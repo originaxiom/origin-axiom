@@ -1,0 +1,10 @@
+{
+ "id": "B329",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "27 restricted to 2T for both natural embeddings gives n1=n2, so hierarchy Level 3 is unreachable by any canonical (sigma-stable) 2T embedding into E6.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

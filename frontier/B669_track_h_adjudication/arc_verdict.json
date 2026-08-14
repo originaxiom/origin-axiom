@@ -1,0 +1,10 @@
+{
+ "id": "B669",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Chiral words' certificate ladders are bounded exactly like the amphichiral one, refuting the amphichiral-suppression mechanism; boundedness is word-universal periodicity.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

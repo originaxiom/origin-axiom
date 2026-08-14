@@ -1,0 +1,15 @@
+{
+ "id": "B859",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The incoming SM handoff scrutinised: the Higgs-synthesis OP theorem VERIFIES exactly (OP = 818626500*sqrt3 at the cusp shape, ring class polynomial to 1e-28, and ODD under the Cl(O_4) = Z/2 swap -- supplying the state-space order parameter B849 required, on exactly the the object'specific symmetry B853 identified); the sign-law certificate runs green against this repo's own B581 data; BUT the cascade theorem's step-2 gate rests on h^v(D4) = 7 (correct: 6), making SO(8)xU(1) conformal at c = 5 and dim 29 -- which would beat SU(5)xU(1) under the handoff's own principle. REPAIRED: gating on chirality (-1 in W; D4 has all reps real, and Borel-de Siebenthal gives no A4 in D4) yields the SAME winners uniquely at steps 1-2, retires part of the Michel import, and is framework-native (the -1-in-W criterion IS the even/odd boundary of the ledger's own thesis). The step-3 trit stands unchanged.",
+ "depends_on": [
+  "B849",
+  "B853",
+  "B855",
+  "B581"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-03)"
+}

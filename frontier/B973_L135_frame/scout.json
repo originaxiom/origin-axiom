@@ -1,0 +1,212 @@
+{
+ "cell": "B973",
+ "lead": "L135",
+ "title": "the frame, the floor and M12 are already defined in this repo; the reconstruction runs end to end",
+ "date": "2026-08-08",
+ "lane": "MATHEMATICS",
+ "gate5_touched": false,
+ "claims_md_touched": false,
+ "tier": "SCOUT (archaeology + validation probes); nothing banked",
+
+ "key_deliverable": {
+  "question": "is there enough in the repo to reconstruct the frame independently, using only B961's instrument and banked facts?",
+  "answer": "YES",
+  "demonstrated": true,
+  "runtime_seconds": 1.5,
+  "fresh_prime_used": 40883,
+  "primes_previously_used_in_the_record": [40009, 40013, 40037, 40039, 40063, 40123, 40639, 40829],
+  "missing_piece": null,
+  "note": "no definition needed guessing; every ingredient is stated in frontier/B911_cmt_document/CMT_DRAFT.md and executed in that arc's own scripts"
+ },
+
+ "definitions": {
+  "the_four_charges": {
+   "status": "COMPLETE",
+   "definition": "INV[8], INV[14], INV[16], INV[22] = the 2T-invariant vectors, one in each of the principal-sl(2) blocks V8, V14, V16, V22 of e6",
+   "why_those_four_blocks": "2T (binary tetrahedral, 24 unit quaternions) has an invariant in Sym^n exactly for n in {8,14,16,22} among the six exponent blocks; they are Klein's forms PhiPsi, t.PhiPsi, (PhiPsi)^2, t.(PhiPsi)^2",
+   "sources": [
+    "frontier/B854_centralizer_exact/e6_centralizer.py:232-239",
+    "frontier/B854_centralizer_exact/e6_centralizer.py:242-252",
+    "frontier/B854_centralizer_exact/FINDINGS.md:26-28"
+   ],
+   "representation_named": "adjoint sector (elements of e6), NOT 27 vectors"
+  },
+  "the_frame": {
+   "status": "COMPLETE",
+   "definition": "the ordered tuple (g8, g14, g16, g22) with its Killing Gram K(x,y) = tr(ad x . ad y): diagonal, signature (2,2); {g8,g16} noncompact (+), {g14,g22} compact (-)",
+   "norms": ["+241532928", "-317708697600", "+988843239014400/13", "-889958915112960000/19"],
+   "sources": ["frontier/B911_cmt_document/CMT_DRAFT.md:23-31", "frontier/B911_cmt_document/CMT_DRAFT.md:145"]
+  },
+  "the_core": {
+   "status": "COMPLETE",
+   "definition": "z(g8) = z(g16) = z(g8,g16), dim 30 (type so(8)+u(1)^2, banked lineage)",
+   "sources": ["frontier/B911_cmt_document/CMT_DRAFT.md:32-34", "frontier/B911_cmt_document/CMT_DRAFT.md:43-44"]
+  },
+  "the_floor": {
+   "status": "COMPLETE",
+   "definition": "z_e6(g8,g14,g16,g22) = ker(ad g14 | core), dim 12 = A2 + u(1)^4 = su(3)_colour + the four charges",
+   "su3_colour": "derived(floor), dim 8",
+   "sources": [
+    "frontier/B911_cmt_document/CMT_DRAFT.md:32-34",
+    "frontier/B911_cmt_document/CMT_DRAFT.md:45-46",
+    "frontier/B911_cmt_document/cmt_recompute.py:118-131"
+   ]
+  },
+  "kappa_and_the_compact_walls": {
+   "status": "COMPLETE",
+   "definition": "compact pencil h(s) = g14 + s.g22 on the 18-dim quotient core/floor; nu(s) = det = c.kappa(s)^6; kappa = 2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859, irreducible, kappa(0) = -19^3, disc squarefree kernel {7,11}; W_j = ker(ad g14 + s_j ad g22), dim 30 each, triple span 66",
+   "sources": ["frontier/B911_cmt_document/CMT_DRAFT.md:62-72", "frontier/B911_cmt_document/CMT_DRAFT.md:117-120"]
+  },
+  "M12": {
+   "status": "COMPLETE",
+   "definition": "the Killing-perp of span(W1,W2,W3); dim 12 = 78 - 66; canonical",
+   "advertised_properties": ["cap core = 0", "torus-invariant", "charge ranks (12,12,12,12)", "ker((ad g8 + rho_i ad g16)|M12) = 4 at each generation wall"],
+   "sources": [
+    "frontier/B911_cmt_document/CMT_DRAFT.md:117-127",
+    "frontier/B911_cmt_document/CMT_DRAFT.md:155",
+    "frontier/B911_cmt_document/cmt_recompute.py:635-664",
+    "frontier/B911_cmt_document/cmt_recompute2.py:396-431"
+   ]
+  },
+  "the_generation_walls": {
+   "status": "COMPLETE",
+   "definition": "roots of N(t) = det(ad(g8 + t.g16) | e6/core), degree 48, N = c.(cubic)^16; equal to mu's roots; z(x_i) = so(10)+u(1), dim 46",
+   "normalization_hazard": "mu_solo(rho) = 13^3 . CUBIC_banked(rho/13); mixing lanes gives a structurally wrong all-18 pairing table, not a noisy one",
+   "sources": ["frontier/B911_cmt_document/CMT_DRAFT.md:39-42", "frontier/B911_cmt_document/CMT_DRAFT.md:249-262", "frontier/B911_cmt_document/cmt_recompute2.py:295-338"]
+  },
+  "W_frame": {
+   "status": "COMPLETE AND ALREADY REALIZED HERE",
+   "definition": "the Klein four sign group {identity, flip(g14,g22), flip(g8,g16), flip-all} on the frame coordinates; realized in Aut(e6) as P(C8), C8 = <phi+, sigma_c, sigma_-1>, kernel {1, sigma_-1}",
+   "sources": ["frontier/B939_klein_assembly/assembly.py:349-357", "docs/LAW_MAP.md:210"],
+   "note": "frontier/B911_cmt_document/CMT_DRAFT.md:190 still marks this SOLO-TIER VERIFICATION PENDING -- that row is STALE, B939 discharged it"
+  }
+ },
+
+ "computed_this_cell": {
+  "exact_over_Q": {
+   "frame_gram_diagonal": true,
+   "frame_signature": [2, 2],
+   "frame_gram_signs": [1, -1, 1, -1],
+   "frame_norms_match_record": true,
+   "dim_z_g8_core": 30,
+   "ad16_kills_core": true,
+   "dim_floor": 12,
+   "floor_killed_by_g16_and_g22": true,
+   "four_charges_inside_floor": true,
+   "dim_derived_floor": 8,
+   "floor_centre": 4,
+   "derived_floor_is_perfect": true,
+   "centre_of_derived_floor": 0,
+   "floor_type": "A2 + u(1)^4 = su(3) + the four charges",
+   "kappa": "2771822592000*s**3 + 3033676800*s**2 - 56402640*s - 6859",
+   "kappa_irreducible": true,
+   "kappa_constant_is_minus_19_cubed": true,
+   "kappa_disc_squarefree_kernel": [7, 11],
+   "nu_degree": 18,
+   "nu_extra_node_checks": true
+  },
+  "mod_p_fresh_prime_40883": {
+   "compact_wall_dims": [30, 30, 30],
+   "triple_span": 66,
+   "killing_rank": 78,
+   "M12_dim": 12,
+   "M12_cap_core": 0,
+   "M12_torus_invariant": true,
+   "M12_charge_ranks": [12, 12, 12, 12],
+   "N_degree": 48,
+   "N_extra_node_checks": true,
+   "N_is_c_times_cubic_pow16": true,
+   "derived_generation_wall_roots": [15447, 30135, 33694],
+   "derived_roots_equal_mu_roots": true,
+   "z_x1_dim": 46,
+   "dim_Z_su3_floor": 16,
+   "dim_Z_standard_A2_levi": 16
+  },
+  "presence_side_scout_tier_evidence": {
+   "disclaimer": "one fresh prime, mod-p, NOT a banking and NOT a verification of the presence side; mod-p rank <= char-0 rank so the rank-0 leg is evidence only",
+   "dim_M12_M12": 16,
+   "escape_beyond_M12": 4,
+   "M12M12_cap_core": 4,
+   "M12M12_cap_floor": 4,
+   "M12M12_cap_M12": 12,
+   "rank_floor_on_M12": 12,
+   "floor_escape": 0,
+   "so10_escape": 50,
+   "M12_centre": 0,
+   "rank_su3floor_on_M12": 0,
+   "kernel_dims_at_generation_walls": [4, 4, 4],
+   "claims_reproduced": 5,
+   "claims_not_run": ["closure under exactly W_frame with three free orbits", "the orbit-generation bijection as a labelled permutation"],
+   "controls_that_could_have_failed": {
+    "rank_torus_on_M12": 12,
+    "rank_su3floor_on_core": 26,
+    "generic_rho_kernel_on_M12": 0,
+    "so10_escape_vs_floor_escape": "50 vs 0"
+   }
+  }
+ },
+
+ "corrections_owed": [
+  {
+   "target": "frontier/B958_presence_scope/FINDINGS.md:11 and :19",
+   "quote": "The repo contains no independent construction of M12 (the 'invisible 12') ... So the invisible 12 has never been independently constructed here.",
+   "correction": "INCORRECT AS STATED. B958 inspected frontier/B909_frame_arc/ only. frontier/B911_cmt_document/ (cc computation cell, 2026-08-05) contains the definitional document CMT_DRAFT.md and two scripts that build the frame, the floor, kappa, the walls and M12 from B854's own e6, with run logs. Accurate statement: B909 verified by running incoming code; B911 had already rebuilt it."
+  },
+  {
+   "target": "frontier/B961_frame_instrument/FINDINGS.md:60-62",
+   "quote": "the specific frame, floor and M12 need either solo's definitions stated precisely enough to rebuild, or an independent derivation ...",
+   "correction": "the definitions were already stated precisely enough, in this repo, at CMT_DRAFT.md section 0 and the section 2 ingredient table. The deferral was conservative in the right direction but its premise was wrong."
+  },
+  {
+   "target": "frontier/B961_frame_instrument/frame.py:162-168",
+   "issue": "su(3)_colour is built there as the STANDARD A2 Levi of the Chevalley Cartan; the presence side's colour is derived(floor), a different subalgebra of e6",
+   "impact": "B958's necessary condition survives because it used only a dimension, and this scout computed that both give dim Z = 16; but any finer test must use derived(floor). Equal centralizer dimension is consistent with conjugacy and is NOT a proof of it (not proved here)."
+  },
+  {
+   "target": "frontier/B911_cmt_document/CMT_DRAFT.md:190",
+   "issue": "the W_frame row is marked [SOLO-TIER, VERIFICATION PENDING]",
+   "correction": "STALE -- B939 realized W_frame inside Aut(e6) as P(C8) and it is banked at docs/LAW_MAP.md:210"
+  }
+ ],
+
+ "genuinely_missing": [
+  "char-0 exactification of the walls, M12 and the presence-side dimensions (a TIER gap, not a definitional one); recipe named at CMT_DRAFT.md:268-270",
+  "the twelve weight-line decomposition of M12 under the charge torus -- reconstructible, not run here",
+  "the solo section LXXXIII-LXXXVI + XCII text itself is not in the repo (incoming material), but the repo does not need it: B958 section 3 lists all seven claims and five were re-derived here from repo-side definitions alone",
+  "import I-4 (G2+G2 not a subalgebra of e6) is the one unpinned external import; needed only for TYPING the compact walls, not for the construction"
+ ],
+
+ "errors_recorded": [
+  "probe 4's [M12,M12] cap core first returned 54 (impossible: core is 30-dim) because 66 non-independent bracket vectors were fed to a dimension formula that assumes a basis; fixed in probe 5 by basis-reducing first, giving 4 and 4. The absurd value caught it; a plausible wrong value would have looked like a finding.",
+  "probe 5's first attempt at deriving N(t) returned degree 0 from a broken quotient-basis extraction; redone correctly in probe 6 using the basis [core | complement], in which ad(g8+t g16) has first 30 columns zero (verified)."
+ ],
+
+ "mb12_vacuity": {
+  "all_checks_can_pass_and_can_fail": true,
+  "demonstrated_by": "each row of the presence-side table is paired with a control returning a different, nonzero value from the same routine",
+  "one_check_flagged_as_weak": "mod-p rank 0 as evidence for char-0 rank 0 runs the bound the wrong way; recorded as evidence only, never as certificate"
+ },
+
+ "prior_art": {
+  "everything_computed_here_is_reproduction": true,
+  "new_content": ["the archaeology itself", "a third independent prime (40883) on the presence-side legs", "the four corrections above"]
+ },
+
+ "recommended_next_cell": "the weight-line decomposition of M12 under the four charges + the W_frame orbit test + the orbit-generation bijection, at two fresh primes, then the char-0 exactification pass on the FMT recipe",
+
+ "files": [
+  "frontier/B973_L135_frame/SCOUT.md",
+  "frontier/B973_L135_frame/probe1_frame_and_floor.py",
+  "frontier/B973_L135_frame/probe2_kappa_and_m12.py",
+  "frontier/B973_L135_frame/probe3_colour_blind.py",
+  "frontier/B973_L135_frame/probe4_presence_structural.py",
+  "frontier/B973_L135_frame/probe5_intersection_fix.py",
+  "frontier/B973_L135_frame/probe6_mu_from_build.py",
+  "frontier/B973_L135_frame/scout_probe_results.json",
+  "frontier/B973_L135_frame/scout_probe2_results.json",
+  "frontier/B973_L135_frame/scout_probe3_results.json",
+  "frontier/B973_L135_frame/scout_probe4_results.json",
+  "frontier/B973_L135_frame/scout_probe5_results.json",
+  "frontier/B973_L135_frame/scout_probe6_results.json"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B151",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or volume-type invariant can source a physical scale.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

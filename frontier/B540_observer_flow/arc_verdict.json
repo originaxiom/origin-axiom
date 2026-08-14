@@ -1,0 +1,10 @@
+{
+ "id": "B540",
+ "verdict": "PROVED",
+ "claim_one_line": "The observer flow closes on 12 canonical systems with three fixed points and one ℤ/2 two-cycle, correcting B535's window-length-limited census.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B535",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

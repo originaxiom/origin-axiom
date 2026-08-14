@@ -1,0 +1,10 @@
+{
+ "id": "B35",
+ "verdict": "PROVED",
+ "claim_one_line": "The half-step action on central signs has order 3 over F_2, explaining the order-3 projective return via lift-sign topology.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

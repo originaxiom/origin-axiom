@@ -1,0 +1,10 @@
+{
+ "id": "B65",
+ "verdict": "PROVED",
+ "claim_one_line": "The full 15x15 SL(4) fixed-line Jacobian J(m) is fixed exactly over Z[m] and its char poly factors directly into the seven Dickson factors.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

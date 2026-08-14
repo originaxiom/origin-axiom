@@ -1,0 +1,10 @@
+{
+ "id": "B500",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The prereg'd child x^4-x-1 (d_K=-283) is absent from all 36 depth-4 words and from 115 of 150 depth-5 words; the wild register instead escalates to S5, S9, S10, and the depth-5 kill remains provisional.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B167",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves no internal door, only external or ratio lanes.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,50 @@
+{
+ "cell1_dimensions": {
+  "3": {
+   "dim_G": 1,
+   "dim_Lambda": -2,
+   "G*Lambda_dim": -1,
+   "G*Lambda_dimensionless": false
+  },
+  "4": {
+   "dim_G": 2,
+   "dim_Lambda": -2,
+   "G*Lambda_dim": 0,
+   "G*Lambda_dimensionless": true
+  },
+  "5": {
+   "dim_G": 3,
+   "dim_Lambda": -2,
+   "G*Lambda_dim": 1,
+   "G*Lambda_dimensionless": false
+  }
+ },
+ "cell1_verdict": "G*Lambda is dimensionless in d=4 ONLY. In d=3, [G_3*Lambda]=L^-1; the 3d dimensionless gravitational ratio is G_3*sqrt(|Lambda|) = G_3/ell, i.e. Witten's k_L+k_R = ell/(8G).",
+ "cell2_chain": {
+  "k": 3,
+  "G*Lambda": "6.283185307179586476925286766559005768394",
+  "equals_2pi": true
+ },
+ "cell3_complex_volume": {
+  "Vol_4_1": "2.0298832128193072500424051081331892499",
+  "matches_known_2.029883212819307": true,
+  "CS": 0,
+  "why_CS_zero": "the figure-eight is AMPHICHIRAL, so its Chern-Simons invariant is its own negative mod 1 -> 0"
+ },
+ "cell4_which_k": {
+  "k=3 in B259 line 17": "labelled 'Level (golden)'; B259 line 50 discusses SU(2)_3 primaries. Its provenance is the JONES/ANYON thread -- B218 (Jones-index quantization selects golden as the unique metallic mean realizable as a unitary anyon, d=2cos(pi/5)) and B224 (M(4,5), the unique unitary minimal model that is also N=1 supersymmetric). It is NOT derived from any gravitational quantity of the object.",
+  "k in Smolin eq.58": "k = 6*pi/lambda with lambda = hbar*G*Lambda, in a paper titled 'Quantum gravity with a positive cosmological constant IN 3+1 DIMENSIONS'. Its Chern-Simons theory is ALSO SU(2) (Ashtekar self-dual connection). k here is DEFINED BY the 4d cosmological constant.",
+  "k_L,k_R in Witten eq.2.2": "3d gravitational CS, SL(2,R)xSL(2,R) for Lambda<0, k_L+k_R = ell/(8G).",
+  "same_gauge_group_as_Smolin": true,
+  "SELF_CORRECTION": "this cell's FIRST version claimed the defect was compact-SU(2)-vs-noncompact. That is WRONG for the formula B259 actually used: Smolin's CS theory IS SU(2). Caught by verifying this arc's own load-bearing citation before commit. The real defect is PROVENANCE, stated below -- and it is the stronger objection.",
+  "THE_REAL_DEFECT": "the object's k=3 has NO GRAVITATIONAL PROVENANCE -- it is an independent quantum-group level from the anyon thread -- while Smolin's k is DEFINED as 6*pi/(hbar*G*Lambda). Setting them equal therefore does not COMPUTE G*Lambda; it POSITS the identification k_anyon = k_gravity and then reads off its own assumption. 'G*Lambda = 2pi' is a restatement of that assumption, not a derivation from the object.",
+  "B259_dropped_hbar": "B259 writes k = 6pi/(G*Lambda); Smolin eq.58 is k = 6pi/(hbar*G*Lambda)."
+ },
+ "VERDICT": "The chain 'k=3 -> G*Lambda=2pi -> a Planck-scale Lambda -> 122 orders from observation' is WITHDRAWN as a statement about this object, on two independent grounds. (i) DIMENSION, verified: Smolin's relation is titled 'in 3+1 DIMENSIONS' and reads k=6pi/lambda with lambda=hbar*G*Lambda (eq.58; B259 dropped the hbar). G*Lambda is dimensionless in d=4 ONLY -- computed here from [G_d]=L^(d-2). The object's level comes from a 3-MANIFOLD; the 3d dimensionless ratio is G_3/ell (Witten eq.2.2, k_L+k_R=ell/(8G)). (ii) PROVENANCE, the stronger ground: the object's k=3 comes from the JONES/ANYON thread (B218 unitary-anyon index, B224 M(4,5)) and has NO gravitational derivation, while Smolin's k is DEFINED as 6pi/(hbar*G*Lambda). Equating them POSITS k_anyon=k_gravity and then reads back the assumption; 'G*Lambda=2pi' is that assumption restated, not a derivation. NOTE: this arc's first draft claimed the defect was compact-SU(2)-vs-noncompact-gauge-group. That was WRONG -- Smolin's CS theory IS SU(2) -- and was caught by verifying this arc's own load-bearing citation before commit. The algebra was always correct (6pi/3=2pi). CONSEQUENCE: the '122 orders' is not a failure of the object; the object never made that prediction. THE POSITIVE: the object's genuine gravitational Chern-Simons quantity is B250's complex volume, Vol=6*Lobachevsky(pi/3)=2.02988321281930725... with CS=0 EXACTLY by amphichirality.",
+ "cell1_smolin_dimension_verified": {
+  "source": "Smolin, 'Quantum gravity with a positive cosmological constant in 3+1 dimensions'",
+  "verified_4d_by_title": true,
+  "lambda_is_the_dimensionless_parameter": true,
+  "consistent_with_cell1": "yes -- hbar*G*Lambda dimensionless in 4d matches [G_4]=L^2, [Lambda]=L^-2"
+ }
+}

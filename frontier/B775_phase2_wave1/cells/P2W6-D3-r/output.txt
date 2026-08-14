@@ -1,0 +1,167 @@
+======================================================================================
+P2W6-D3-r  --  REPAIR of P2W4-D3: entanglement scaling, powered + identifiable
+======================================================================================
+
+[E0] engine continuity (P2W4 CLASS result carried, not re-decided), L=610
+     conformal control  c_eff=1.0014   (expect ~1)
+     localized control  c_eff=0.0085  max S=0.168   (expect ~0, area law)
+
+[A] GOLDEN Fibonacci collective -- 6 sizes, seam-free approximant PBC, phase=0, lam=1
+    golden lattice omega_k = 2pi/(k ln phi): k=1:13.057, k=2:6.529, k=3:4.352, k=4:3.264
+        L |  c_eff |    du |  om_hat | k_hat |   pow |         CI(omega) |  CIrel |    dBIC | int | IDENT | k@CI
+      233 |  0.766 |  3.61 |   5.217 |  2.50 | 0.218 | [ 5.217,  5.704] |  0.047 |     9.5 | n   | no    | -
+      377 |  0.897 |  4.09 |  18.130 |  0.72 | 0.196 | [17.574, 18.786] |  0.033 |    10.5 | Y   | YES   | -
+      610 |  1.017 |  4.58 |   4.999 |  2.61 | 0.099 | [ 4.120,  5.868] |  0.175 |    -1.3 | n   | no    | [3]
+      987 |  1.015 |  5.06 |   8.816 |  1.48 | 0.126 | [ 8.413,  9.373] |  0.054 |     3.9 | Y   | no    | -
+     1597 |  0.912 |  5.54 |   4.371 |  2.99 | 0.096 | [ 3.965,  4.850] |  0.101 |    -0.1 | n   | no    | [3]
+     2584 |  0.859 |  6.02 |  20.113 |  0.65 | 0.071 | [19.726, 20.501] |  0.019 |    -3.7 | Y   | no    | -
+
+    omega_hat across the 6 sizes: [5.22, 18.13, 5.0, 8.82, 4.37, 20.11]  (relative spread over ALL sizes 0.627)
+    sizes passing the identifiability test: 1/6  -> omega_hat there = [18.13]
+    cross-size relative spread over the IDENTIFIABLE sizes = nan   (a LAW needs >= 3 identifiable sizes and spread < 0.1)
+    golden k admitted by the CI at every identifiable size: none
+    CI excludes ALL golden k at every identifiable size: True
+
+    resolvability of each golden harmonic: cycles of omega_k inside the window
+    (a harmonic needs > 3.0 cycles to clear the floor and > 4.0 to
+     clear the interiority margin -- below that it cannot be confirmed even if true)
+        L |    du | k=1 | k=2 | k=3 | k=4
+      233 |  3.61 |  7.5* |  3.8  |  2.5  |  1.9 
+      377 |  4.09 |  8.5* |  4.3* |  2.8  |  2.1 
+      610 |  4.58 |  9.5* |  4.8* |  3.2  |  2.4 
+      987 |  5.06 | 10.5* |  5.3* |  3.5  |  2.6 
+     1597 |  5.54 | 11.5* |  5.8* |  3.8  |  2.9 
+     2584 |  6.02 | 12.5* |  6.3* |  4.2* |  3.1 
+    (* = resolvable)  => k=1,2 are testable at these sizes; k=3 only at the largest;
+       k=4 nowhere. The golden harmonic singled out by the Fibonacci RG cycle is k=3.
+    [non-vacuity] fraction of the scan range counted as 'golden' at tol 0.08: 0.101  -> the match criterion is NOT near-automatic
+
+    is the golden lattice special in the spectrum? (power at omega_k vs scan median/max)
+        L |  pow@k=1 |  pow@k=2 |  pow@k=3 |  pow@k=4 |  median |    max | best-k z
+      233 |    0.016 |    0.128 |      nan |      nan |   0.026 |  0.218 | k=2 z=+2.54
+      377 |    0.057 |    0.095 |      nan |      nan |   0.044 |  0.196 | k=2 z=+1.16
+      610 |    0.013 |    0.042 |    0.081 |      nan |   0.013 |  0.099 | k=3 z=+2.69
+      987 |    0.006 |    0.005 |    0.055 |      nan |   0.009 |  0.126 | k=3 z=+1.56
+     1597 |    0.016 |    0.047 |    0.096 |      nan |   0.016 |  0.096 | k=3 z=+3.89
+     2584 |    0.049 |    0.020 |    0.017 |    0.046 |   0.014 |  0.071 | k=1 z=+1.97
+
+[B] POWER CALIBRATION -- inject a log-periodic term of amplitude A*sigma into the REAL
+    residual and ask when the SAME estimator recovers its frequency (8 phases each)
+
+    injected omega = 4.352  (golden_k3)
+        L | A=0.25 | A=0.5  | A=0.75 | A=1.0  | A=1.5  | A=2.0  | A=3.0  | A*
+      233 | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | >3.0
+      377 | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | >3.0
+      610 | 0.12  | 0.12  | 0.12  | 0.12  | 0.25  | 0.38  | 0.50  | >3.0
+      987 | 0.00  | 0.38  | 0.62  | 0.88  | 1.00  | 1.00  | 1.00  | 1.0
+     1597 | 0.25  | 0.25  | 0.25  | 0.38  | 0.62  | 1.00  | 1.00  | 2.0
+     2584 | 0.00  | 0.75  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 0.75
+
+    injected omega = 5.000  (nongolden_5.0)
+        L | A=0.25 | A=0.5  | A=0.75 | A=1.0  | A=1.5  | A=2.0  | A=3.0  | A*
+      233 | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | 0.00  | >3.0
+      377 | 0.12  | 0.25  | 0.12  | 0.12  | 0.12  | 0.38  | 0.62  | >3.0
+      610 | 0.25  | 0.25  | 0.25  | 0.38  | 0.50  | 0.50  | 0.75  | >3.0
+      987 | 0.00  | 0.38  | 0.75  | 0.88  | 0.88  | 1.00  | 1.00  | 1.0
+     1597 | 0.00  | 0.12  | 0.12  | 0.12  | 0.25  | 0.50  | 0.75  | >3.0
+     2584 | 0.25  | 0.75  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 0.75
+
+    OBSERVED golden-lattice modulation amplitude in the data (units of residual sigma):
+        L |  A(k=1) |  A(k=2) |  A(k=3) |  A(k=4) | A* (golden k=3)
+      233 |   0.189 |   0.476 |     nan |     nan | >3.0
+      377 |   0.333 |   0.417 |     nan |     nan | >3.0
+      610 |   0.159 |   0.281 |   0.427 |     nan | >3.0
+      987 |   0.108 |   0.093 |   0.318 |     nan | 1.0
+     1597 |   0.172 |   0.299 |   0.453 |     nan | 2.0
+     2584 |   0.307 |   0.204 |   0.181 |   0.316 | 0.75
+
+[C] CALIBRATION OBJECT -- SILVER (Pell) Sturmian chain, same pipeline.
+    Its self-similarity ratio is 1+sqrt(2) by construction, so the expected lattice is
+    omega_k = 2pi/(k ln(1+sqrt2)): k=1:7.129, k=2:3.564, k=3:2.376, k=4:1.782
+        L |  c_eff |    du |  om_hat | k_hat |   pow |  CIrel | IDENT | k@CI(silver)
+      169 |  1.018 |  3.29 |  11.363 |  0.63 | 0.331 |  0.060 | no    | -
+      408 |  0.931 |  4.17 |   4.567 |  1.56 | 0.201 |  0.063 | no    | -
+      985 |  0.777 |  5.05 |   6.660 |  1.07 | 0.248 |  0.043 | YES   | -
+     2378 |  0.679 |  5.94 |   3.437 |  2.07 | 0.326 |  0.056 | no    | [2]
+    silver: identifiable at 1/4 sizes; own lattice recovered at 1/4; cross-size spread 0.466
+
+[D] DECLARED SELECTIONS (L4): does a choice change the answer? (omega_hat / k_hat)
+               variant | L=610 | L=987 | L=1597
+               l_min=1 |   9.66(k=1.35)  |   8.88(k=1.47)  |   4.30(k=3.04) 
+               l_min=2 |   5.00(k=2.61)  |   8.82(k=1.48)  |   4.37(k=2.99) 
+               l_min=4 |   5.02(k=2.60)  |   9.17(k=1.42)  |  17.91(k=0.73) 
+               l_min=8 |   5.91(k=2.21)  |   9.13(k=1.43)  |  17.88(k=0.73) 
+              l_min=16 |  22.55(k=0.58)  |   9.18(k=1.42)* |  17.96(k=0.73)*
+            lambda=0.5 |   5.12(k=2.55)  |  22.08(k=0.59)  |  17.75(k=0.74) 
+            lambda=2.0 |   9.70(k=1.35)  |   8.93(k=1.46)  |   4.43(k=2.95) 
+            lambda=4.0 |   9.68(k=1.35)  |   8.96(k=1.46)  |   4.54(k=2.88) 
+       sampling=allint |   4.77(k=2.74)  |   9.36(k=1.39)* |  17.97(k=0.73)*
+           cycle floor | L=610 | L=987 | L=1597
+              ncyc=2.0 |   2.75(k=4.75)  |   8.82(k=1.48)  |   2.27(k=5.75) 
+              ncyc=3.0 |   5.00(k=2.61)  |   8.82(k=1.48)  |   4.37(k=2.99) 
+              ncyc=4.0 |   5.49(k=2.38)  |   8.82(k=1.48)  |  17.75(k=0.74) 
+              ncyc=6.0 |   9.71(k=1.34)  |   8.82(k=1.48)  |  17.74(k=0.74) 
+
+    phase protocol (P2W4 used the phase-AVERAGED curve -- it smooths out the signal):
+      L=610: phase0 om=4.999 pow=0.099   ->   phase-avg om=18.503 pow=0.127 (residual sigma 0.0644 -> 0.0286)
+      L=987: phase0 om=8.816 pow=0.126   ->   phase-avg om=18.538 pow=0.101 (residual sigma 0.0537 -> 0.0294)
+      L=1597: phase0 om=4.371 pow=0.096   ->   phase-avg om=11.288 pow=0.118 (residual sigma 0.0731 -> 0.0384)
+
+    omega_hat over ALL declared variants x sizes: min=2.27 max=22.55  relative range=2.08
+    => the estimate is SELECTION-DOMINATED: no analysis choice is 'the' one, and the
+       answer moves by more than the whole golden lattice spacing when they change.
+
+[E] MB12 NON-VACUITY (L1) -- every branch must be able to FIRE and to FAIL.
+    The counterfactuals are not hand-written numbers: they are the pipeline's OWN
+    output on synthetic chains built from the real trend + real noise + a planted
+    modulation.  A planted signal is logically possible (the object could have one).
+    FV1: planted GOLDEN k=2, A=3sigma      -> RESOLVED-A  : golden CONFIRMED at k=[2]
+        (ident 5/6, spread 0.011, om_hat(all) [6.48, 6.42, 6.46, 6.47, 6.61, 6.58])
+    FV2: planted NON-GOLDEN omega=9.70, A=3sigma -> RESOLVED-A  : golden REFUTED (identified omega excludes the lattice)
+        (ident 6/6, spread 0.004, om_hat(all) [9.66, 9.62, 9.73, 9.63, 9.72, 9.65])
+    FV1b: planted GOLDEN k=3, A=3sigma     -> RESOLVED-B  : underpowered -> EXTERNAL, NO negative claimed
+        (ident 1/6, spread nan, om_hat(all) [5.22, 4.6, 4.38, 4.3, 4.36, 4.39])
+    FV3: nothing planted (= real data)     -> RESOLVED-B  : underpowered -> EXTERNAL, NO negative claimed
+        (ident 1/6, spread nan, om_hat(all) [5.22, 18.13, 5.0, 8.82, 4.37, 20.11])
+    FV4: stable+identified, mixed golden   -> UNRESOLVED  : identified and size-stable, but the golden test is mixed across sizes
+    branches exercised: ['RESOLVED-A', 'RESOLVED-B', 'UNRESOLVED']
+    RESOLVED-A sub-branches exercised: ['golden CONFIRMED at k=[2]', 'golden REFUTED']
+    -> gate is NON-VACUOUS (all three verdicts AND both A-directions reachable)
+    NOTE the honest asymmetry this test exposed and priced: a planted golden k=3 at
+    3sigma is NOT confirmable at accessible sizes (it clears the cycle floor at only
+    one size), while a planted k=2 is. So the harmonic the Fibonacci RG cycle singles
+    out is exactly the one this window cannot reach. That is a power statement, and it
+    is why no negative on the golden hypothesis is claimed below.
+
+[F] L3 CHECK (no forced reason): the symptoms below are NOT independent reasons.
+      - argmax not interior / pinned at the cycle floor for some variants
+      - cross-size scatter of omega_hat
+      - selection-dominated omega_hat (l_min, lambda, sampling, cycle floor)
+      - silver calibration object's own lattice not recovered
+    All four are downstream of ONE cause, which is the only thing this cell asserts:
+    the log-periodic modulation present in S(l) is BELOW this estimator's detection
+    floor at accessible L. That single fact is measured directly in leg [B] (A* vs the
+    observed amplitude). The cell claims ONE reason, not four.
+
+[G] HINT (recorded, NOT claimed; dual protocol / docs/HINT_LEDGER.md):
+    at 3 of the 6 sizes the residual's LARGEST spectral power among the golden
+    harmonics sits at k=3 -- the harmonic the Fibonacci inflation's period-3 RG cycle
+    would predict -- and at L=1597 the k=3 power IS the global maximum of the scan:
+      L=  610: pow@k=3=0.081  median=0.013  max=0.099  z=+2.69
+      L=  987: pow@k=3=0.055  median=0.009  max=0.126  z=+1.56
+      L= 1597: pow@k=3=0.096  median=0.016  max=0.096  z=+3.89
+    This does NOT clear the identifiability bar (leg A) and is NOT stable under the
+    declared selections (leg D); it is logged as a lead for the EXTERNAL protocol,
+    not as evidence. It is the reason the honest verdict is EXTERNAL rather than a
+    negative: the data leans TOWARD the golden hypothesis, faintly, and this cell
+    cannot resolve the lean either way.
+
+======================================================================================
+VERDICT: RESOLVED-B
+EXTERNAL, NO NEGATIVE CLAIMED. The P2W4-D3 defects are repaired: the golden log-periodic question is now asked at 6 sizes (L=[233, 377, 610, 987, 1597, 2584]), on a seam-free rational-approximant chain, at fixed phase (not the phase-AVERAGED curve that smooths the very oscillation being sought), over a log-chord window du=3.6-6.0 (~4x the P2W4 window), with an estimator carrying a stated identifiability test (interior argmax, 95% profile CI, BIC gain) and a cycle floor that DETECTS and marks non-identifiable the P2W4 failure mode of an argmax running to the scan floor. Outcome: the estimator is identifiable at 1/6 sizes (a law needs >=3 of them agreeing to better than 0.1; the observed spread is n/a over the identifiable sizes and 0.63 over all six); no golden k is admitted by the CI at every identifiable size, while the 1 identifiable size(s) DO jointly exclude the whole golden lattice from their CI (so an exclusion-based refutation would be earnable IF it were powered) -- so the refutation is unearned for want of POWER (1 identifiable size, a law needs >=3), NOT for want of exclusion, and NEITHER a confirmation NOR a refutation of the golden hypothesis is earnable. The underpower is MEASURED, not asserted, on three counts that are ONE fact (leg F): (a) signal injection into the real residual puts the detection floor at A*=>3.0/>3.0/>3.0/1.0/2.0/0.75 sigma across the six sizes, while the modulation actually present at the golden k=3 frequency is only -/-/0.43/0.32/0.45/0.18 sigma; (b) the window resolves only golden harmonics k in [1, 2, 3] at all -- k=3, the harmonic the Fibonacci inflation's period-3 RG cycle singles out, clears the interiority margin at the largest size only, and a k=3 modulation PLANTED at 3 sigma is still not confirmable (leg E); (c) the identical pipeline run on a SILVER (Pell) Sturmian chain -- an object whose self-similarity ratio 1+sqrt2 is fixed by construction -- recovers that object's own lattice at 1/4 sizes, i.e. it fails a calibration it should pass. The prior cell's 'golden hypothesis fails' is therefore WITHDRAWN as unearned rather than re-banked with more sizes -- and the withdrawal is not a formality: the data leans FAINTLY THE OTHER WAY (leg G, hint only: at 3/6 sizes the largest golden-harmonic power is k=3, and at L=1597 it is the global scan maximum), which is exactly the lean a single-size non-identifiable scan could have flipped either way. What survives from P2W4-D3 is only the CLASS result (critical/log-growing EE against area-law and conformal controls), carried unchanged. The converged protocol (gap-label-commensurate filling with the Cantor-spectrum conumbering, and sizes where the log-chord window holds >10 golden k=3 cycles, i.e. L ~ 1e6) is EXTERNAL to this cell.
+======================================================================================
+
+DISCRIMINATING FACT: With the log-chord window widened ~4x (du up to 6.02), 6 sizes, a seam-free approximant chain and a cycle-floored estimator, the log-periodic frequency is identifiable at 1/6 sizes and omega_hat still scatters by 63% across sizes ([5.2, 18.1, 5.0, 8.8, 4.4, 20.1]); injection into the real residual puts the detection floor at A*=>3.0/>3.0/>3.0/1.0/2.0/0.75 sigma while the golden-k=3 modulation actually present is -/-/0.43/0.32/0.45/0.18 sigma; a golden k=3 signal PLANTED at 3 sigma is itself not confirmable at these sizes; and the same pipeline recovers the SILVER calibration object's own known lattice at only 1/4 sizes. The golden hypothesis is therefore not decidable here -- in either direction.
+
+[gate 5/5-Q] structural only (emergent lattice shape parameters, K010); no SM values; nothing to CLAIMS; pin untouched.   runtime 107s
+wrote results.json

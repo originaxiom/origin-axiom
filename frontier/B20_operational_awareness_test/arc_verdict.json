@@ -1,0 +1,10 @@
+{
+ "id": "B20",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The trace map has invariant-memory and feedback but never reads its invariant, failing the operational self-model criterion.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

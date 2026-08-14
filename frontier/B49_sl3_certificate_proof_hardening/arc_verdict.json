@@ -1,0 +1,12 @@
+{
+ "id": "B49",
+ "verdict": "OPEN",
+ "claim_one_line": "PC12's proof architecture is explicit and partly machine-checked, but is not promoted to a proven claim.",
+ "instrument": false,
+ "depends_on": [
+  "PC12"
+ ],
+ "superseded_by": null,
+ "stratum": "A",
+ "authored_by": "W1-pilot"
+}

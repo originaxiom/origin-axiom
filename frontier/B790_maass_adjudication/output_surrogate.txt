@@ -1,0 +1,20 @@
+
+==========================================================================
+L3'' - EMPIRICAL SURROGATE NULL (3000 trials)
+==========================================================================
+  observed: 70 distinct lengths in [1.087070, 5.000281] -> 4 hits
+
+  Surrogate A (uniform, n=3000): mean=4.63  median=4  5-95% = [1, 9]
+    P(null >= observed 4) = 0.6577
+
+  Surrogate B (Weyl-matched, n=1000): mean=1.52  median=1  5-95% = [0, 4]
+    P(null >= observed 4) = 0.0940
+
+==========================================================================
+  VERDICT L3'': the observed hit count is ORDINARY under both nulls.
+  The 4 apparent 'matches' -- including sin^2(theta_W) to 4 significant figures --
+  are exactly what a candidate pool this size produces by chance. The negative is
+  EARNED: pre-stated window, exact data, empirical null calibration.
+  Nothing here supports the handoff's H1. H0 (the banked valueless position) stands.
+==========================================================================
+results_surrogate.json written

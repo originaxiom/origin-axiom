@@ -1,0 +1,10 @@
+{
+ "id": "B642",
+ "verdict": "PROVED",
+ "claim_one_line": "All three sealed predictions confirmed at the Galois-conjugate stage: same icosahedral image and tone set, with tr rho(RL) = +phi against the base stage's -1/phi.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

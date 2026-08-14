@@ -1,0 +1,180 @@
+==============================================================================
+STAGE 1  reproduce the banked PD2.2 rungs (B372/B373/B374 + rung75/rung225)
+  N=  15 ord=  20 pairs=  3 sectors=[(6, 14)] phase=[108.0] banked_match=True
+  N=  45 ord=  60 pairs=  6 sectors=[(6, 54)] phase=[36.0] banked_match=True
+  N=  75 ord= 100 pairs= 13 sectors=[(25, 75)] phase=[90.0] banked_match=True
+  N= 135 ord= 180 pairs= 15 sectors=[(54, 126)] phase=[108.0] banked_match=True
+  N= 225 ord= 300 pairs= 16 sectors=[] phase=[] banked_match=True
+  ALL BANKED RUNGS REPRODUCED: True
+
+==============================================================================
+STAGE 2  DECLARED SELECTION (L4): the banked arc sampled ONLY N in 15*3^k / 15*5^k.
+         Widening to all odd N in [3,49] + {63,75,105,135,147,225,243,245}
+         + the FALSIFIERS {363=3*11^2, 605=5*11^2} the original scan omitted (L4 fix):
+  N=   3 ord=   4 4N/3=    4.00 pairs=  1 sectors=[(1, 3)] phase=[90.0]
+  N=   5 ord=  10 4N/3=    6.67 pairs=  2 sectors=[(1, 9)] phase=[36.0]
+  N=   7 ord=   8 4N/3=    9.33 pairs=  3 sectors=[] phase=[]
+  N=   9 ord=  12 4N/3=   12.00 pairs=  4 sectors=[] phase=[]
+  N=  11 ord=   5 4N/3=   14.67 pairs=  0 sectors=[] phase=[]
+  N=  13 ord=  14 4N/3=   17.33 pairs=  6 sectors=[] phase=[]
+  N=  15 ord=  20 4N/3=   20.00 pairs=  3 sectors=[(6, 14)] phase=[108.0]
+  N=  17 ord=  18 4N/3=   22.67 pairs=  8 sectors=[] phase=[]
+  N=  19 ord=   9 4N/3=   25.33 pairs=  0 sectors=[] phase=[]
+  N=  21 ord=   8 4N/3=   28.00 pairs=  0 sectors=[] phase=[]
+  N=  23 ord=  24 4N/3=   30.67 pairs= 11 sectors=[] phase=[]
+  N=  25 ord=  50 4N/3=   33.33 pairs= 12 sectors=[] phase=[]
+  N=  27 ord=  36 4N/3=   36.00 pairs= 13 sectors=[(9, 27)] phase=[90.0]
+  N=  29 ord=   7 4N/3=   38.67 pairs=  0 sectors=[] phase=[]
+  N=  31 ord=  15 4N/3=   41.33 pairs=  0 sectors=[] phase=[]
+  N=  33 ord=  20 4N/3=   44.00 pairs=  0 sectors=[] phase=[]
+  N=  35 ord=  40 4N/3=   46.67 pairs=  5 sectors=[] phase=[]
+  N=  37 ord=  38 4N/3=   49.33 pairs= 18 sectors=[] phase=[]
+  N=  39 ord=  28 4N/3=   52.00 pairs=  7 sectors=[] phase=[]
+  N=  41 ord=  20 4N/3=   54.67 pairs=  0 sectors=[] phase=[]
+  N=  43 ord=  44 4N/3=   57.33 pairs= 21 sectors=[] phase=[]
+  N=  45 ord=  60 4N/3=   60.00 pairs=  6 sectors=[(6, 54)] phase=[36.0]
+  N=  47 ord=  16 4N/3=   62.67 pairs=  0 sectors=[] phase=[]
+  N=  49 ord=  56 4N/3=   65.33 pairs= 24 sectors=[] phase=[]
+  N=  63 ord=  24 4N/3=   84.00 pairs=  3 sectors=[] phase=[]
+  N=  75 ord= 100 4N/3=  100.00 pairs= 13 sectors=[(25, 75)] phase=[90.0]
+  N= 105 ord=  40 4N/3=  140.00 pairs=  0 sectors=[] phase=[]
+  N= 135 ord= 180 4N/3=  180.00 pairs= 15 sectors=[(54, 126)] phase=[108.0]
+  N= 147 ord=  56 4N/3=  196.00 pairs=  1 sectors=[(14, 42)] phase=[90.0]
+  N= 225 ord= 300 4N/3=  300.00 pairs= 16 sectors=[] phase=[]
+  N= 243 ord= 324 4N/3=  324.00 pairs=121 sectors=[(81, 243)] phase=[90.0]
+  N= 245 ord= 280 4N/3=  326.67 pairs= 26 sectors=[(28, 252)] phase=[36.0]
+  N= 363 ord= 220 4N/3=  484.00 pairs=  0 sectors=[] phase=[]
+  N= 605 ord= 110 4N/3=  806.67 pairs=  0 sectors=[] phase=[]
+  SELECTION EFFECT phases inside the banked 3-tower {15,45,135}: [36.0, 108.0]  (the 'pentagon pair')
+  SELECTION EFFECT phases over the widened frame:              [36.0, 90.0, 108.0]
+  SELECTION EFFECT 'ord = 4N/3' FAILS at N = [21, 33, 39, 63, 105, 147, 363] (3|N but ord != 4N/3)
+
+==============================================================================
+STAGE 3  MECHANISM: the exact CRT tensor identity (independent fact #1)
+    3 x   5 =    15: D,WR,W1 tensor-exact = True  twists=(2, 2)
+    9 x   5 =    45: D,WR,W1 tensor-exact = True  twists=(2, 4)
+   27 x   5 =   135: D,WR,W1 tensor-exact = True  twists=(11, 3)
+    3 x  25 =    75: D,WR,W1 tensor-exact = True  twists=(1, 17)
+    9 x  25 =   225: D,WR,W1 tensor-exact = True  twists=(4, 14)
+    3 x   7 =    21: D,WR,W1 tensor-exact = True  twists=(1, 5)
+    5 x   7 =    35: D,WR,W1 tensor-exact = True  twists=(3, 3)
+    5 x   9 =    45: D,WR,W1 tensor-exact = True  twists=(4, 2)
+    3 x  11 =    33: D,WR,W1 tensor-exact = True  twists=(2, 4)
+    3 x  13 =    39: D,WR,W1 tensor-exact = True  twists=(1, 9)
+    7 x   9 =    63: D,WR,W1 tensor-exact = True  twists=(4, 4)
+   49 x   3 =   147: D,WR,W1 tensor-exact = True  twists=(33, 1)
+   49 x   5 =   245: D,WR,W1 tensor-exact = True  twists=(10, 4)
+    3 x  35 =   105: D,WR,W1 tensor-exact = True  twists=(2, 12)
+   15 x   7 =   105: D,WR,W1 tensor-exact = True  twists=(13, 1)
+    5 x  27 =   135: D,WR,W1 tensor-exact = True  twists=(3, 11)
+   25 x  27 =   675: D,WR,W1 tensor-exact = True  twists=(13, 13)
+   81 x   5 =   405: D,WR,W1 tensor-exact = True  twists=(65, 1)
+  TENSOR IDENTITY EXACT EVERYWHERE TESTED: True
+
+==============================================================================
+STAGE 4  THE ATOMS: lines and sectors of each prime power (independent fact #2)
+  q=   3 ord=   4  #lines=1 (all W1-eigenvalue 1: True)  #sectors=1 phase=[90.0]  TYPE=SECTOR+LINE
+  q=   9 ord=  12  #lines=1 (all W1-eigenvalue 1: True)  #sectors=0 phase=[]  TYPE=LINE
+  q=  27 ord=  36  #lines=1 (all W1-eigenvalue 1: True)  #sectors=1 phase=[90.0]  TYPE=SECTOR+LINE
+  q=  81 ord= 108  #lines=1 (all W1-eigenvalue 1: True)  #sectors=0 phase=[]  TYPE=LINE
+  q= 243 ord= 324  #lines=1 (all W1-eigenvalue 1: True)  #sectors=1 phase=[90.0]  TYPE=SECTOR+LINE
+  q=   5 ord=  10  #lines=0 (all W1-eigenvalue 1: n/a)  #sectors=1 phase=[36.0]  TYPE=SECTOR
+  q=  25 ord=  50  #lines=1 (all W1-eigenvalue 1: True)  #sectors=0 phase=[]  TYPE=LINE
+  q= 125 ord= 250  #lines=0 (all W1-eigenvalue 1: n/a)  #sectors=1 phase=[36.0]  TYPE=SECTOR
+  q=   7 ord=   8  #lines=0 (all W1-eigenvalue 1: n/a)  #sectors=0 phase=[]  TYPE=NEITHER
+  q=  49 ord=  56  #lines=1 (all W1-eigenvalue 1: True)  #sectors=0 phase=[]  TYPE=LINE
+  q= 343 ord= 392  #lines=0 (all W1-eigenvalue 1: n/a)  #sectors=0 phase=[]  TYPE=NEITHER
+  q=  11 ord=   5  #lines=0 (all W1-eigenvalue 1: n/a)  #sectors=0 phase=[]  TYPE=NEITHER   [W1 mult>=2 at 5 exponents; the sector census keeps the B374 mult-1 opposite-pair convention -- DECLARED]
+  q=  13 ord=  14  #lines=0 (all W1-eigenvalue 1: n/a)  #sectors=0 phase=[]  TYPE=NEITHER
+  q= 121 ord=  55  #lines=1 (all W1-eigenvalue 1: True)  #sectors=0 phase=[]  TYPE=LINE   [W1 mult>=2 at 55 exponents; the sector census keeps the B374 mult-1 opposite-pair convention -- DECLARED]
+  q= 169 ord= 182  #lines=1 (all W1-eigenvalue 1: True)  #sectors=0 phase=[]  TYPE=LINE
+  ATOM LAW (read off): 3^odd = SECTOR+LINE, 3^even = LINE, 5^odd = SECTOR,
+                       5^even = LINE, p^even (p>=7) = LINE, p^odd (p>=7) = NEITHER
+
+==============================================================================
+STAGE 5  EXISTENCE LAW vs the direct census (the CONVERSE direction is fact #2b:
+         the direct census is an INDEPENDENT check that no further sector exists)
+  MISMATCH N=363: predicted 1, observed 0
+  MISMATCH N=605: predicted 1, observed 0
+  existence law: 32/34 levels predicted correctly (incl. the N=225 death)
+
+==============================================================================
+STAGE 6  THE PHASE MAP: the twist -> phase map on the atoms
+  atom q=   3 twist u=1: sector phase = [90.0] deg
+  atom q=   3 twist u=2: sector phase = [90.0] deg
+  atom q=  27 twist u=1: sector phase = [90.0] deg
+  atom q=  27 twist u=2: sector phase = [90.0] deg
+  atom q=  27 twist u=4: sector phase = [90.0] deg
+  atom q=  27 twist u=5: sector phase = [90.0] deg
+  atom q=  27 twist u=7: sector phase = [90.0] deg
+  atom q=   5 twist u=1: sector phase = [36.0] deg   [(u|5) = 1]
+  atom q=   5 twist u=2: sector phase = [108.0] deg   [(u|5) = -1]
+  atom q=   5 twist u=3: sector phase = [108.0] deg   [(u|5) = -1]
+  atom q=   5 twist u=4: sector phase = [36.0] deg   [(u|5) = 1]
+  atom q= 125 twist u=1: sector phase = [36.0] deg   [(u|5) = 1]
+  atom q= 125 twist u=2: sector phase = [108.0] deg   [(u|5) = -1]
+  atom q= 125 twist u=3: sector phase = [108.0] deg   [(u|5) = -1]
+  atom q= 125 twist u=4: sector phase = [36.0] deg   [(u|5) = 1]
+  atom q= 125 twist u=6: sector phase = [36.0] deg   [(u|5) = 1]
+  atom q= 125 twist u=7: sector phase = [108.0] deg   [(u|5) = -1]
+  TWIST MAP: a 3-power atom's phase is twist-RIGID at 90 deg (eigenvalue +-i);
+             a 5-power atom's phase is 36 deg iff (u|5) = +1, else 108 deg.
+
+  CLOSED FORM (corollary; the EXISTENCE half is FALSIFIED at 363/605, see STAGE 5 --
+     the correct existence condition needs every p>=7 ABSENT, = prior-banked P63):
+     sector exists ~ (v_3 odd or v_5 odd) [with p>=7 absent].  Phase = 90 deg if
+     v_5 even (3-part supplies); else 36 deg if (N/5^v5 | 5)=+1 and 108 deg if =-1.
+  N=   3: predicted 90.0 deg, observed 90.0 deg  hit=True
+  N=   5: predicted 36.0 deg, observed 36.0 deg  hit=True
+  N=  15: predicted 108.0 deg, observed 108.0 deg  hit=True
+  N=  27: predicted 90.0 deg, observed 90.0 deg  hit=True
+  N=  45: predicted 36.0 deg, observed 36.0 deg  hit=True
+  N=  75: predicted 90.0 deg, observed 90.0 deg  hit=True
+  N= 135: predicted 108.0 deg, observed 108.0 deg  hit=True
+  N= 147: predicted 90.0 deg, observed 90.0 deg  hit=True
+  N= 243: predicted 90.0 deg, observed 90.0 deg  hit=True
+  N= 245: predicted 36.0 deg, observed 36.0 deg  hit=True
+  phase law: 10/10
+
+==============================================================================
+STAGE 7  HELD-OUT PREDICTIONS (registered in-code BEFORE the heavy census;
+         375/405/675 are exactly the three levels B374 pre-registered)
+  B374's registered pre-registration:  405 EXISTS/36deg,  375 EXISTS,  675 NO SECTOR
+  THIS CELL predicts:                  405 EXISTS/36deg,  375 EXISTS/108deg,  675 EXISTS/90deg
+  => 675 is a DECISIVE disagreement with the banked pre-registration.
+  N= 375 ord= 500 pairs= 63 sectors=[(150, 350)] phase=108.0  PREDICTED (1, 108.0)  hit=True [29s]
+  N= 405 ord= 540 pairs= 42 sectors=[(54, 486)] phase=36.0  PREDICTED (1, 36.0)  hit=True [35s]
+  N= 675 ord= 900 pairs= 25 sectors=[(225, 675)] phase=90.0  PREDICTED (1, 90.0)  hit=True [163s]
+  held-out: 3/3
+  B374's registered 'N=675: NO sector' is REFUTED by direct computation: 675 carries 1 sector at phase 90.0 deg (cross-prime confirmed).
+
+==============================================================================
+STAGE 8  VERDICT LOGIC (pure function; exercised on counterfactual fact-vectors)
+  invariant -> phase table (collision-free = True): {"('three', 0)": 90.0, "('five', 1)": 36.0, "('five', -1)": 108.0}
+  L1 non-vacuity -- the verdict function on logically possible fact-vectors:
+  counterfactual [as computed] -> UNRESOLVED  (the law is only partial)
+  counterfactual [675 had come back with phase 36 (a value the object does realise elsewhere)] -> UNRESOLVED  (the law is only partial)
+  counterfactual [phases collide: two levels, same invariants, different phase] -> RESOLVED-B  (two levels share every structural invariant yet carry different phases: the phase is genuinely free)
+  counterfactual [no structural rule reproduces any phase] -> RESOLVED-B  (no structural rule reproduces any observed phase: free)
+  counterfactual [only 2 levels carry a sector] -> UNRESOLVED  (fewer than 3 levels carry a sector: underpowered)
+  counterfactual [the tensor identity had failed] -> UNRESOLVED  (no factorisation mechanism established)
+  branches reachable on possible worlds: ['RESOLVED-B', 'UNRESOLVED']
+
+==============================================================================
+VERDICT: UNRESOLVED
+REASON : the law is only partial
+PHASE MAP (the answer to OI-133):
+  ord(W1) at level N = lcm over prime powers of  ord(3^a)=4*3^(a-1),
+    ord(5^b)=2*5^b, ord(p^c)=ord(p)*p^(c-1)  -- 'ord = 4N/3' is the 3-5 corner only.
+  NAIVE LAW (FALSIFIED at 363/605): 'sector EXISTS <=> v_p even for every p>=7 AND
+    (v_3 odd OR v_5 odd)'.  This OVERPREDICTS -- an even 11^2 line has dim>1 and kills
+    the mult-1 sector, so 363=3*11^2 and 605=5*11^2 carry 0 sectors, not 1.  The
+    CORRECT law needs every p>=7 ABSENT (v_p=0), which is the prior-banked P63/B391.
+  Its PHASE is then completely determined:
+    v_5(N) odd  -> the 5-part supplies the sector: 36 deg (trace phi) if the
+                   Legendre symbol (N/5^v5 | 5) = +1, else 108 deg (trace 1-phi);
+    v_5(N) even -> the 3-part supplies it: 90 deg (trace 0), twist-rigid.
+  The 'pentagon pair' was the 5-atom's Galois orbit seen through a fixed 5-part;
+  rung 75 broke it because at 75 = 3*5^2 the SUPPLIER changes from the 5-part to
+  the 3-part.  The phase is NOT free.
+[355s total]

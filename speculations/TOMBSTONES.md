@@ -351,3 +351,34 @@ disposition is `../docs/CROSS_SESSION_2026-06-11_disposition.md`.)
   null gives ~10.6%, with phi's fit 0.049 dex BETTER than the random-base median 0.34 dex). S014
   stays DEAD on the sound circularity argument alone (N defined by the answer); the quantitative
   null clause is struck. (Numerology-grade either way; firewalled.)
+
+## H128 — α_s(M_Z) = 1/(2φ³)  (killed 2026-07-30, B811, full promotion gate)
+
+**What died.** The observation that `1/(2φ³) = 0.1180339…` matches `α_s(M_Z) = 0.1180 ± 0.0009`
+to 0.04σ.
+
+**Why, and the reason is structural rather than statistical.** `α_s(M_Z)` is a **running** coupling:
+computed here at one loop with n_f = 5, it takes 0.13108 at `M_Z/2`, 0.11800 at `M_Z`, 0.08862 at
+`10 M_Z`. Its value exists **only relative to a chosen scale**. The object is **proved scale-free**
+(S3/B615). A quantity defined only against a scale choice is **not the kind of thing a scale-free
+structure can emit.** The base rate corroborates — **37** of 28,957 sealed φ-family expressions land
+inside the same window — but the kill is on *kind*, not on counting.
+
+**Residual hint.** The one structural thread (φ³ = the 3/2-law first step; 2 = #θ-odd directions)
+survives as *structure*, and B580 already checked it blind against every unforced number of the
+traverse and found no golden quantity anywhere. If the programme ever produces a **scale-free,
+dimensionless** analogue of a coupling, that is the object this row would attach to — not α_s(M_Z).
+
+## H129 — sin²θ₁₃ = 1/φ⁸  (killed 2026-07-30, B811, full promotion gate)
+
+**What died.** `1/φ⁸ = 0.021286…` against `sin²θ₁₃ = 0.0220 ± 0.0007` (0.7σ), plus the post-hoc
+φ-power mass-ratio table (whose own null model was already 1.7 % for three simultaneous).
+
+**Why.** **208** of 28,957 sealed φ-family expressions land inside the same window — a 3 % window is
+densely populated by construction, so the agreement carries no information. B580 independently
+checked the φ-power hypothesis **blind** against every computed number of the traverse and found no
+φ-power structure anywhere.
+
+**Residual hint.** None specific. The general lesson is recorded instead: a σ-agreement quoted
+without the size of the family that could have produced it is not evidence, and a 3 % window over a
+φ-family admits hundreds of candidates.

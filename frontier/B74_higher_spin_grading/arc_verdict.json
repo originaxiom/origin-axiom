@@ -1,0 +1,10 @@
+{
+ "id": "B74",
+ "verdict": "PROVED",
+ "claim_one_line": "The W_N charge-conjugation grading of spin-s currents and the Dickson P-grading of char(M^k) are literally the same involution -w0 of A_{n-1}.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B318",
+ "verdict": "PROVED",
+ "claim_one_line": "Split the firewall's two ends: the Eisenstein Z/2 is the geometric amphichiral involution (complex conjugation), the golden Z/2 is arithmetic-only with no geometric tau.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B311",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

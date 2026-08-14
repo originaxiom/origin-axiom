@@ -1,0 +1,91 @@
+== 0. the object (exact) ==
+  [PASS] Fricke recursion u_{n+1} = u_n u_{n-1} - u_{n-2} (n <= 26)
+  [PASS] Markov cubic is a SYMBOLIC invariant of the step (x,y,z)->(y,z,yz-x)  identity
+  [PASS] seed (6,3,15) lies on x^2+y^2+z^2 = xyz
+  [PASS] => every state triple is on the cubic (exact, n <= 25)
+  u_0..u_7 = [6, 3, 15, 39, 582, 22683, 13201467, 299448875379]   (digits at n=27: 173791)
+
+== 1. H1 MIRROR: the two-sided chain is a palindrome at n = 0 ==
+  [PASS] u_{-1} = u_1 = 3 and u_{-2} = u_2 = 15 (base of the mirror)  u_-1=3, u_-2=15
+  [PASS] u_{-n} = u_n verified exactly for 1 <= n <= 24
+  PROOF: w_n := u_{-n} satisfies the same 3-term recursion (the backward form is the
+  forward form) and agrees with u at n = 0,1,2  =>  w = u.  QED (H1).
+
+== 2. H2 PURE PERIODICITY + the surface bound ==
+  the state map T(x,y,z) = (y, z, yz - x) has the exact two-sided inverse
+  T^-1(a,b,c) = (b*a - c, a, b), so T is a BIJECTION of (Z/d)^3; the orbit of the seed
+  is therefore a pure cycle (no pre-period) and (u_n mod d) is two-sided periodic.
+  [PASS] T^-1(a,b,c) = (b*a - c, a, b) is the exact inverse (checked on 11 moduli)
+  d          pi(d)   #hits/period   H(d) mod pi(d) (sign)
+  5          10      5              1-, 4+, 5-, 6+, 9-
+  13         48      12             2+, 5-, 11-, 13+, 19+, 22-, 26-, 29+...
+  17         8       2              2-, 6-
+  29         102     12             4+, 7-, 27+, 30-, 38+, 41-, 61-, 64+...
+  37         8       2              3+, 5+
+  41         60      8              3-, 9-, 21-, 27-, 33-, 39-, 51-, 57-
+  73         186     18             4-, 8+, 19-, 43-, 54-, 58-, 66+, 70+...
+  317        42      6              6+, 8-, 20-, 22-, 34-, 36+
+  349        16      2              5-, 11-
+  613        736     8              5+, 275+, 327+, 338-, 398-, 409+, 461+, 731+
+  580        1020    12             4+, 64+, 276*, 336*, 344+, 404+, 616+, 676+...
+  584        372     12             4-, 8*, 116*, 120*, 128-, 132-, 240-, 244-...
+  22681      736     4              5+, 275+, 461+, 731+
+  22685      240     12             5-, 11-, 59-, 85-, 91-, 101-, 139-, 149-...
+  [PASS] pre-period = 0 for every modulus tested (pure periodicity)
+  [PASS] #X(F_p) = p^2 + 3p + 1 (p=1 mod 4) / p^2 - 3p + 1 (p=3 mod 4), brute-forced p<=41
+  [PASS] BOUND pi(p) <= #X(F_p) < p^2 + 3p + 1 on every prime tested
+
+== 3. H3 THE HEREDITY LAW (the conjecture, now a theorem) ==
+  If d | u_k - 2 or d | u_k + 2 then u_k = +-2 (mod d); by H2 u_n = u_{n mod pi(d)}
+  and by H1 u_{-k} = u_k; hence for EVERY n = +-k (mod pi(d)):  d | u_n^2 - 4.  QED.
+  -> the 'lattice of n' of the conjecture is exactly {+-k + pi(d) Z}: explicit, infinite,
+     symmetric.  Ancestral primes recur FOREVER, at a computable spacing.
+  k=1 d(+2)=5         pi=10     |H|=5   forced-n exact: [9, 11, 19, 21]   all exact hits n<=27: [1, 4, 5, 6, 9, 11, 14, 15, 16, 19, 21, 24, 25, 26]
+  k=2 d(-2)=13        pi=48     |H|=12  forced-n exact: []   all exact hits n<=27: [2, 5, 11, 13, 19, 22, 26]
+  k=2 d(+2)=17        pi=8      |H|=2   forced-n exact: [6, 10, 14, 18, 22, 26]   all exact hits n<=27: [2, 6, 10, 14, 18, 22, 26]
+  k=3 d(-2)=37        pi=8      |H|=2   forced-n exact: [5, 11, 13, 19, 21, 27]   all exact hits n<=27: [3, 5, 11, 13, 19, 21, 27]
+  k=3 d(+2)=41        pi=60     |H|=8   forced-n exact: []   all exact hits n<=27: [3, 9, 21, 27]
+  k=4 d(-2)=580       pi=1020   |H|=12  forced-n exact: []   all exact hits n<=27: [4]
+  k=4 d(-2)=29        pi=102    |H|=12  forced-n exact: []   all exact hits n<=27: [4, 7, 27]
+  k=4 d(+2)=584       pi=372    |H|=12  forced-n exact: []   all exact hits n<=27: [4, 8]
+  k=4 d(+2)=73        pi=186    |H|=18  forced-n exact: []   all exact hits n<=27: [4, 8, 19]
+  k=5 d(-2)=22681     pi=736    |H|=4   forced-n exact: []   all exact hits n<=27: [5]
+  k=5 d(-2)=613       pi=736    |H|=8   forced-n exact: []   all exact hits n<=27: [5]
+  k=5 d(+2)=22685     pi=240    |H|=12  forced-n exact: []   all exact hits n<=27: [5, 11]
+  k=5 d(+2)=349       pi=16     |H|=2   forced-n exact: [11, 21, 27]   all exact hits n<=27: [5, 11, 21, 27]
+  k=6 d(-2)=13201465  pi=66360  |H|=16  forced-n exact: []   all exact hits n<=27: [6]
+  k=6 d(-2)=317       pi=42     |H|=6   forced-n exact: []   all exact hits n<=27: [6, 8, 20, 22]
+  k=6 d(-2)=8329      pi=1896   |H|=4   forced-n exact: []   all exact hits n<=27: [6]
+  k=6 d(+2)=13201469  pi=5856   |H|=4   forced-n exact: []   all exact hits n<=27: [6]
+  k=6 d(+2)=776557    pi=5856   |H|=4   forced-n exact: []   all exact hits n<=27: [6]
+  [PASS] H3 forced lattice verified EXACTLY (big integers, no modular shortcut) at all 19 predicted n <= 27 over 18 ancestor divisors
+  [PASS] two-sided IFF: for every d, {n<=27 : d | u_n^2-4} equals the modular hit set exactly -- positives fire AND negatives fail
+  the B471 seed observations recovered as instances:
+  [PASS] 13 | disc(5), 37 | disc(5), 17 | disc(6)  (B471's original three)
+
+== 4. H4 THE SIEVE (a new general law: which primes can EVER appear) ==
+  On the cubic x^2+y^2+z^2 = xyz, y = 2 gives (x-z)^2 = -4; y = -2 gives (x+z)^2 = -4.
+  [PASS] symbolic: y=+-2 on the cubic <=> (x -+ z)^2 = -4
+  => -1 is a QR mod p  =>  p = 1 (mod 4)  for every odd prime p | u_n^2 - 4.  QED.
+  [PASS] 3 | u_n for all n (exact, n<=27) => 3 never divides u_n^2-4 (= 2 mod 3)
+  [PASS] odd part of u_n^2-4 = 1 (mod 4) for ALL n <= 27 (up to ~10^5-digit numbers) -- forced by H4, one prime = 3 mod 4 would break it
+  [PASS] v_2(u_n^2-4) = 5 if 4|n else 0, exactly, n <= 27
+  primes [3,3000): 429 tested, 211 are 1 mod 4, 150 have H(p) nonempty; p=3 mod 4 violations: []
+  primes [3000,7000): 470 tested, 231 are 1 mod 4, 165 have H(p) nonempty; p=3 mod 4 violations: []
+  [PASS] H4 holds on BOTH independent prime ranges (0 violations)
+  (observed, NOT a law: only 150/211 and 165/231 of the p = 1 mod 4 primes actually occur -- the sieve is necessary, not sufficient.)
+
+== 5. H5 THE WALL: rank-of-apparition (Lucas) machinery does NOT apply ==
+  [PASS] W1 p=17: alpha=2, pi=8, H={2,6}; 4 NOT in H (exact: 17 does not divide u_4^2-4=338720) => {n : p | u_n^2-4} is NOT alpha*Z, the Lucas divisibility-sequence property FAILS
+  [PASS] W2 p=41: pi=60, H={3,9,21,27,33,39,51,57} = (n=3 mod 6) MINUS {15,45} -- H is not an arithmetic progression at all
+  [PASS] W3 pi(p) divides neither p^2-1 nor |SL(2,p)| (witnesses p=29: pi=102; p=61: pi=18) => pi is an orbit length of a NONLINEAR (Vieta) map, not an element order; no Wall/Pisano-style closed form can exist for it  [{'p': 29, 'pi': 102, 'divides_p2m1': False, 'divides_|SL2p|': False}, {'p': 61, 'pi': 18, 'divides_p2m1': False, 'divides_|SL2p|': False}, {'p': 97, 'pi': 616, 'divides_p2m1': False, 'divides_|SL2p|': False}, {'p': 137, 'pi': 978, 'divides_p2m1': False, 'divides_|SL2p|': False}]
+  [PASS] W4 the forced lattice is exact for 3/18 ancestor divisors and strictly smaller for 15/18 -- the SIZE of H(d) is irregular
+  => the residual (exact pi(p), exact H(p)) = orbit lengths of the Vieta map on the
+     Markov surface X(F_p).  Named EXTERNAL (Bourgain-Gamburd-Sarnak territory).
+
+== 6. VERDICT ==
+  law_proved       = True
+  counterexamples  = none
+  wall_named       = True
+  VERDICT: RESOLVED-A
+  The B471 heredity conjecture is a THEOREM: for every ancestor k and every d | u_k -+ 2, d | u_n^2 - 4 for all n = +-k (mod pi(d)) -- explicit infinite symmetric lattice, from the chain mirror u_{-n} = u_n plus pure periodicity; plus the new sieve (every odd prime divisor is = 1 mod 4). The named rank-of-apparition route is REFUTED (H(d) is not a Lucas divisibility set, not even an AP); the residual exact period pi(p) is EXTERNAL.

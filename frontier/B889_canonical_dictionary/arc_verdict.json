@@ -1,0 +1,14 @@
+{
+ "id": "B889",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "Masterplan W3 -- the CANONICAL across-breakings dictionary: the convention problem dissolves into B886's six Pi-blocks (three vacuum lines + three 8-blocks, Galois-permuted, no Levi choices). The vacuum->frame identification is a computed bijection (each frame's 27-singlet on its own canonical line at mass 1.000000) -- the S3 torsor of frames realized as three labeled lines in the 27. The three 12x6 tables have identical zero-structure (26/72 per frame) with the laws in canonical form: a frame's Higgs-block pieces are zero on the frame's OWN vacuum line and small on the other two (Law 1's geometry); the 16-multiplets avoid ALL THREE vacuum lines (Law 2 upgraded). B885's convention-carrying fine table is superseded. THE POLARIZATION OBSERVATION, fenced: every SM multiplet is ~99% aligned with a single canonical 8-block with invariant leakages of order 1e-2..1e-3 (basis-independent subspace masses) -- the program's first naturally small invariant structural numbers; recorded as geometry, no identification with physical mixing parameters made or implied. Feeds W6: the assembled generations-decision object is now concrete.",
+ "depends_on": [
+  "B884",
+  "B885",
+  "B886"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

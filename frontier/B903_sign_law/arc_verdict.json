@@ -1,0 +1,13 @@
+{
+ "id": "B903",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "N2, THE SIGN LAW'S MECHANISM (load-bearing since B894): all six banked B581 quotients Delta_m are EXACTLY ANTI-PALINDROMIC (functional equation eps = -1 in every block, FORCING the zero at t = 1 -- the torsion's simple zero is duality, not accident), and with Delta_m = (t-1) P_m the exact sign formula sign(tau_m) = sign(lc) * (-1)^{p_m} holds where p_m = the positive-real reciprocal root-pair count of P_m (exact Sturm), with p_m = (1,2,3,3,4,5) for m = (1,4,5,7,8,11): p_m == m (mod 2) IN EVERY BLOCK. The sign law sign(tau_m) = (-1)^m is thus REDUCED with certificates to anti-palindromy (proved per block; general case = Poincare duality for the odd-dim orthogonal V_2m) plus the root-parity law (proved per block by exact count). The remaining open step, sharply posed and registered: why the positive-real pair count carries theta-parity. B581's 'the proof or the fence' resolves toward the proof: two of three steps are exact.",
+ "depends_on": [
+  "B581",
+  "B894"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

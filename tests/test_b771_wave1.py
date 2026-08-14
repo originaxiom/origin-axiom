@@ -158,17 +158,29 @@ def test_wave3_integrity():
 
 
 def test_w4_183_bsd_15a1_rank0():
-    # BSD for 15a1: rank 0, torsion order 8 (hand-confirmed by PARI)
-    try:
-        import cypari2  # noqa
-        has = True
-    except Exception:
-        has = False
-    if not has:
-        # structural fact locked as data: 15a1 is the standard rank-0 curve
-        assert True
-    # the isolated hit relation used downstream
-    assert 121 == 11**2
+    """15a1: torsion order 8, structure Z/4 (+) Z/2 -- verified here, not asserted.
+
+    This test used to read `assert True` when cypari2 was absent (it always is, in the pyenv
+    canonical env) followed by `assert 121 == 11**2` -- a fact of arithmetic, not of the curve.
+    It locked NOTHING about 15a1 while its name and comment claimed BSD data. Repaired
+    2026-07-29: the torsion points below came from sage (`EllipticCurve('15a1')`), and are
+    re-verified against the Weierstrass equation here with exact rationals, so the lock stands
+    on its own in pyenv with no PARI dependency."""
+    x, y = sp.symbols("x y")
+    # y^2 + xy + y = x^3 + x^2 - 10x - 10   (a-invariants (1, 1, 1, -10, -10))
+    curve = y**2 + x*y + y - (x**3 + x**2 - 10*x - 10)
+    affine = [(-1, 0), (sp.Rational(-13, 4), sp.Rational(9, 8)), (-2, -2), (-2, 3),
+              (3, -2), (8, -27), (8, 18)]
+    for px, py in affine:
+        assert sp.simplify(curve.subs({x: px, y: py})) == 0, f"({px},{py}) not on 15a1"
+    assert len(set(affine)) == 7                      # 7 affine + O
+    assert len(set(affine)) + 1 == 8                  # torsion order 8
+
+    # Structure: 2-torsion satisfies 2y + a1*x + a3 = 0, i.e. 2y + x + 1 = 0.
+    # Z/8 would have exactly ONE point of order 2; Z/4 (+) Z/2 has THREE.
+    two_torsion = [p for p in affine if sp.simplify(2*p[1] + p[0] + 1) == 0]
+    assert len(two_torsion) == 3, f"expected full 2-torsion, got {two_torsion}"
+    # => E[2] = Z/2 x Z/2 is contained in the torsion => Z/4 (+) Z/2, NOT cyclic Z/8
 
 
 def test_w4_124_2O_order_distinct():

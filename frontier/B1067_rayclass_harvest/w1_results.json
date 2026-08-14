@@ -1,0 +1,1112 @@
+[
+ {
+  "claims": [
+   {
+    "id": "rayclass-filtration-def",
+    "statement": "For K = Q(sqrt-3) (h(K)=1, no real places) the ray class group mod n is computed as Cl_n = (O/n)^x / im(mu_6), where O = O_K and mu_6 = O^x; this 2-power-level filtration is the named object (E23), provenance B737 P5.",
+    "source": "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:6-8 (bracketed annotation on each level row)",
+    "exact_values": "\"ray-class Cl_n = (O/n)^x / im(mu_6), h(K)=1, no real places -- B737 P5\" (verbatim, repeated on all three level rows)"
+   },
+   {
+    "id": "two-inert-in-K",
+    "statement": "The rational prime 2 is inert in K = Q(sqrt-3); consequently O/2 is the field with 4 elements and (O/2)^x has order 3.",
+    "source": "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md:56; corroborated frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:6",
+    "exact_values": "\"2 is inert in K\"; |(O/2^1)^x| = 3"
+   },
+   {
+    "id": "unit-group-orders-2powers",
+    "statement": "The unit groups of O_K modulo 2-power levels have orders |(O/2)^x| = 3, |(O/4)^x| = 12, |(O/8)^x| = 48 (consistent with 2 inert: 4^k * (1 - 1/4)).",
+    "source": "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:6-8; #(O_K/4)* = 12 also at second_round_cm_bost_connes.md:56",
+    "exact_values": "level (2^1): |(O/2^1)^x| = 3; level (2^2): |(O/2^2)^x| = 12; level (2^3): |(O/2^3)^x| = 48"
+   },
+   {
+    "id": "mu6-image-mod2-order3",
+    "statement": "The image of mu_6 in (O/2)^x has order 3 \u2014 mu_6 does NOT inject mod (2) (kernel contains -1 \u2261 1 mod 2).",
+    "source": "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:6",
+    "exact_values": "level (2^1): |im mu_6| = 3"
+   },
+   {
+    "id": "mu6-injects-mod4",
+    "statement": "mu_6 injects into (O/4)^x \u2014 its image mod (4) has full order 6; the image mod (8) also has order 6.",
+    "source": "second_round_cm_bost_connes.md:56 (\"mu_6 injects mod (4)\"); frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:7-8",
+    "exact_values": "level (2^2): |im mu_6| = 6; level (2^3): |im mu_6| = 6"
+   },
+   {
+    "id": "rayclass-mod2-trivial",
+    "statement": "The ray class group of K = Q(sqrt-3) mod (2) is trivial: |(O/2)^x| = 3 quotiented by the order-3 image of mu_6 gives order 1.",
+    "source": "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:6; palette value 1 at level (2) in frontier/B737_candidate_zero/FINDINGS.md:31-32",
+    "exact_values": "|Cl| = 1 at level (2^1); palette(2) = 1"
+   },
+   {
+    "id": "rayclass-mod4-z2",
+    "statement": "The ray class group of K = Q(sqrt-3) mod (4) is Z/2, computed as (O/4)^x of order 12 quotiented by the image of mu_6 of order 6; equivalently Gal of the mod-(4) ray class field over K is exactly Z/2 (the file's BC framing: the truncation of Gal(K^ab/K) visible at congruence level (4) is Z/2). Flagged [COMPUTED/DERIVED]; T2 asks for in-cell re-derivation via PARI bnrinit.",
+    "source": "second_round_cm_bost_connes.md:56 and :77 (T2); frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:7; frontier/B737_candidate_zero/FINDINGS.md:31-32",
+    "exact_values": "|(O/2^2)^x| = 12, |im mu_6| = 6, |Cl| = 2; \"the ray class group mod (4) is Z/2\""
+   },
+   {
+    "id": "rayclass-mod8-order8",
+    "statement": "The ray class group of K = Q(sqrt-3) mod (8) has order 8: |(O/8)^x| = 48 quotiented by the order-6 image of mu_6.",
+    "source": "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:8; palette value 8 at level (8) in frontier/B737_candidate_zero/FINDINGS.md:31-32",
+    "exact_values": "level (2^3): |(O/2^3)^x| = 48, |im mu_6| = 6, |Cl| = 8"
+   },
+   {
+    "id": "hecke-palette-128",
+    "statement": "The available Hecke-character palette grows with congruence level: |(O/2^k)^x / mu_6| = 1, 2, 8 at levels (2), (4), (8) (computed in-seat). At m003's level (palette 1) only zeta_K can appear; m004's level admits nontrivial Hecke L-functions of conductor (4)/(8) \u2014 'conductor' here = the Hecke/ray-class character modulus, NOT B675's or B666's quantity. TOMB-L241 check A1a recomputed the palette (1,2,8) and matched the B737-banked values: PASS.",
+    "source": "frontier/B737_candidate_zero/FINDINGS.md:31-34; frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:9 and :52; second_round palette implicit at second_round_cm_bost_connes.md:56",
+    "exact_values": "|(O/2^k)^x/mu_6| = 1, 2, 8 at levels (2),(4),(8); TOMB audit dict: 'palette(2)': 1, 'palette(4)': 2, 'palette(8)': 8"
+   },
+   {
+    "id": "cusp-cm-conductor4-order",
+    "statement": "The m004 cusp lattice Lambda = Z + 2*sqrt(-3)*Z has CM by the non-maximal order Z[2*sqrt(-3)] of discriminant -48 and order-conductor 4 (f = 4, disc = f^2 * d_K = 16*(-3) = -48; 'conductor' = conductor of the quadratic order, NOT B675's or B666's quantity); the index is [O_K : Lambda] = 4 and disc(Lambda) = -48. TOMB-L241 check A1b recomputed [O:Lam] = 4 and disc(Lam) = -48: PASS (cross-refs B739 L19-20 / B737 P3).",
+    "source": "second_round_cm_bost_connes.md:57; frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:10 and :52; frontier/B737_candidate_zero/FINDINGS.md:28-29",
+    "exact_values": "disc -48; conductor 4; [O:Lam] = 4; audit dict: 'disc_cusp': 48 (absolute value), '[O:Lam]': 4"
+   },
+   {
+    "id": "h48-forms-ringclass-order2",
+    "statement": "The reduced primitive binary quadratic forms of discriminant -48 are exactly (1,0,12) and (3,0,4); hence h(-48) = 2 and the ring class group of the disc -48 order Z[2*sqrt(-3)] has order 2. TOMB-L241 check A1c recomputed h(-48) = 2 and matched B737-banked: PASS.",
+    "source": "second_round_cm_bost_connes.md:57; frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:11-12; frontier/B737_candidate_zero/FINDINGS.md:28-29 (h(-48)=2)",
+    "exact_values": "forms (1,0,12) and (3,0,4); h(-48) = 2"
+   },
+   {
+    "id": "h-minus3-is-1",
+    "statement": "h(-3) = 1: the class number of K = Q(sqrt-3) (maximal order, disc -3) is 1. Recomputed in TOMB-L241 check A1c, matching B737-banked: PASS.",
+    "source": "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:11 and :6-8 (h(K)=1 in the filtration annotation) and :13 (m003 row: disc=-3, h=1)",
+    "exact_values": "h(-3) = 1; |disc K| = 3"
+   },
+   {
+    "id": "class-poly-H48",
+    "statement": "The class polynomial for discriminant -48 (called 'Hilbert class polynomial' in-file; strictly the ring class polynomial of the non-maximal disc -48 order), computed in-sandbox from the j q-expansion, is H_-48(x) = x^2 - 2835810000*x + 6549518250000.",
+    "source": "second_round_cm_bost_connes.md:57 and :79 (T3); frontier/B737_candidate_zero/FINDINGS.md:29-30; loss_audit_branch_delta.md:54 and :128",
+    "exact_values": "H_-48(x) = x^2 - 2835810000*x + 6549518250000 (coefficients 1, -2835810000, +6549518250000)"
+   },
+   {
+    "id": "j-2sqrt-minus3-exact",
+    "statement": "j(2*sqrt(-3)) = 1417905000 + 818626500*sqrt(3) (approx 2.8358e9), the LARGER root of x^2 - 2835810000x + 6549518250000; its Galois conjugate over K is j(2i/sqrt(3)) approx 2309.578, corresponding to the form (3,0,4). B737 verified numerically: mp.kleinj(2*sqrt(3)*i)*1728 matches to 1e-15.",
+    "source": "second_round_cm_bost_connes.md:57 and :79 (T3); frontier/B737_candidate_zero/FINDINGS.md:29-30; loss_audit_branch_delta.md:54",
+    "exact_values": "j(2*sqrt(-3)) = 1417905000 + 818626500*sqrt(3) ~ 2.8358e9; conjugate j(2i/sqrt(3)) ~ 2309.578; (my recompute: 2835807690.42228... and 2309.57771647, sum/product reproduce the H_-48 coefficients exactly)"
+   },
+   {
+    "id": "ringclass-eq-rayclass-mod4",
+    "statement": "The ring class field of the order Z[2*sqrt(-3)] (degree 2 over K) sits inside the ray class field of K mod (4) (also degree 2 over K), hence they coincide: ring class field of Z[2*sqrt(-3)] = ray class field of K mod (4) = K(sqrt(3)) = Q(i, sqrt(3)) = Q(zeta_12). Equivalently (T3) the splitting field of H_-48 is Q(zeta_12). Flagged [DERIVED] in-file; the file's synthesis: the level-(4), the conductor-4 cusp CM, and the 12th cyclotomic field are one object.",
+    "source": "second_round_cm_bost_connes.md:57 and :79 (T3); loss_audit_branch_delta.md:54 and :128",
+    "exact_values": "ring class field of Z[2*sqrt(-3)] = ray class field mod (4) = K(sqrt3) = Q(i,sqrt3) = Q(zeta_12); both degree 2 over K"
+   },
+   {
+    "id": "rayclass-z2-permutes-forms",
+    "statement": "The mod-(4) ray class Z/2 is identified with the involution swapping the two disc -48 form classes: the same Z/2 that permutes (1,0,12) and (3,0,4) (stated in T2 as the required cross-check; consistent with T3's conjugate-of-j statement).",
+    "source": "second_round_cm_bost_connes.md:77 (T2) and :79 (T3)",
+    "exact_values": "\"the same Z/2 that permutes the two form classes (1,0,12), (3,0,4)\""
+   },
+   {
+    "id": "zetaK-factorization-residue",
+    "statement": "zeta_K(s) = zeta(s) * L(s, chi_-3) for K = Q(sqrt-3), with residue at s=1 equal to L(1, chi_-3) = pi/(3*sqrt(3)) approx 0.604600 (B737 P1 form: Res_{s=1} zeta_K = 2pi/(6*sqrt(3)) = 0.6045997880...); an in-sandbox ideal count up to X = 2e5 measured slope 0.604625, confirming the machinery. Flagged [COMPUTED, standard].",
+    "source": "second_round_cm_bost_connes.md:55; corroborated frontier/B737_candidate_zero/FINDINGS.md:11-14 (P1); loss_audit_branch_delta.md:54",
+    "exact_values": "L(1,chi_-3) = pi/(3*sqrt(3)) = 2pi/(6*sqrt(3)) = 0.6045997880... approx 0.604600; measured slope 0.604625 at X = 2e5"
+   },
+   {
+    "id": "ideal-count-formula",
+    "statement": "The number of integral ideals of O_K of norm n is r(n) = Sum_{d|n} chi_-3(d) (stated in-file as the BC Hamiltonian degeneracy at log n; the arithmetic content is the ideal-count formula).",
+    "source": "second_round_cm_bost_connes.md:55",
+    "exact_values": "r(n) = Sigma_{d|n} chi_-3(d); spectrum {log n}"
+   },
+   {
+    "id": "units-mu6-maximal",
+    "statement": "O_K^x = mu_6 (six units) for K = Q(sqrt-3), and mu_6 is maximal among imaginary quadratic fields (in-file: the six units are exactly the subtlety that broke the pre-CMR 1997/1999 constructions).",
+    "source": "second_round_cm_bost_connes.md:95 (failure mode 5) and :53",
+    "exact_values": "|mu_6| = 6; \"maximal among imaginary quadratic fields\""
+   },
+   {
+    "id": "ideals-monoid-mod-units",
+    "statement": "Since h(K) = 1, the monoid of nonzero integral ideals of O_K is isomorphic to (O_K \\ {0}) / mu_6 (appears inside the [DERIVED] BC-algebra guess, explicitly flagged for check against LLN arXiv:0710.3452 sec.2 and Laca-Neshveyev-Trifkovic arXiv:1010.4766).",
+    "source": "second_round_cm_bost_connes.md:53",
+    "exact_values": "integral ideals \u2245 (O_K\u2216{0})/mu_6"
+   },
+   {
+    "id": "prime-support-23",
+    "statement": "Every banked object-specific continuous-channel integer has prime support {2,3} with 5 absent, and none is a nontrivial phi-power \u2014 the audited set includes exactly the class-field data: |disc K| = 3, disc_cusp 48, [O:Lam] 4, palette 1/2/8 (plus covering degree 12 and covol^2 = 12).",
+    "source": "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:51-53",
+    "exact_values": "{'disc_cusp': 48, '[O:Lam]': 4, 'covering degree': 12, 'covol^2 (2sqrt3)^2': 12, '|disc K|': 3, 'palette(2)': 1, 'palette(4)': 2, 'palette(8)': 8}; prime support = {2,3}, 5 ABSENT"
+   },
+   {
+    "id": "sister-m003-maximal-order-j0",
+    "statement": "The sister m003's cusp is the hexagonal C/O_K \u2014 CM by the MAXIMAL order (disc -3, h = 1) with singular modulus j = 0 exactly; its Hecke palette is (1,), i.e. at m003's level only zeta_K can appear (contrast: m004 carries the disc -48 suborder with palette (1,2,8)).",
+    "source": "frontier/B737_candidate_zero/FINDINGS.md:27-28 and :31-32; frontier/B754_p2_spectral/cells/TOMB-L241/output.txt:13",
+    "exact_values": "j = 0 exactly; m003 channel-part: palette=(1,), disc=-3, h=1"
+   },
+   {
+    "id": "unharvested-flag-cmbc",
+    "statement": "The loss audit explicitly flags harvest/second_round_cm_bost_connes.md as UNHARVESTED on origin/main \u2014 git grep -l \"ray class group mod|1703.10521|Sagnier\" origin/main returns 0 hits \u2014 while enumerating exactly the in-sandbox Q(sqrt-3) computations at stake (ray class group mod (4) = Z/2; cusp lattice CM by disc -48 conductor-4 order; ring class group order 2; H_-48; j(2*sqrt(-3)) = 1417905000 + 818626500*sqrt(3); ring class field = ray class field mod (4) = Q(zeta_12); residue pi/(3*sqrt(3)) = 0.604600 vs measured slope 0.604625). Reiterated as shortlist item 3; the audit also records why the hole exists (B802 triaged B796 as 'in flight \u2014 not harvestable' on 2026-07-29 and no later arc revisited).",
+    "source": "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/loss_audit/loss_audit_branch_delta.md:54 (sec.2 table row), :128 (shortlist item 3), :17 and :134 (the B802 triage fact)",
+    "exact_values": "\"UNHARVESTED \u2014 git grep -l \\\"ray class group mod\\\\|1703.10521\\\\|Sagnier\\\" origin/main \u2192 0\""
+   }
+  ],
+  "notes": "Files read whole (absolute paths): F1 = frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md; F2 = frontier/B754_p2_spectral/cells/TOMB-L241/output.txt; F3 = frontier/B737_candidate_zero/FINDINGS.md; F4 = frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/loss_audit/loss_audit_branch_delta.md (found via glob; present). Short source paths in rows resolve under . Caveats: (1) F3 was scoped by the task to the Hecke-palette lines (L31-34); rows citing F3 L11-14 (residue) and L27-30 (disc -48 / h(-48)=2 / j-root / m003 j=0) use it only as corroborating source for claims independently present in F1/F2 \u2014 drop those citations if strict scoping is wanted; the m003 j=0 row itself draws on F3 P3 beyond the scoped lines. (2) Terminology hazards handled in-row: 'conductor' appears in two senses, order-conductor (f=4 for Z[2*sqrt(-3)], disc = f^2*d_K = -48) and Hecke-character conductor/modulus ((4)/(8)); neither is B675's nor B666's quantity. In-file 'Hilbert class polynomial' for H_-48 is strictly the ring class polynomial of a non-maximal order. (3) Read-only sanity recompute (sympy/mpmath, scratchpad): claimed roots 1417905000 \u00b1 818626500*sqrt(3) reproduce the H_-48 coefficients exactly (sum 2835810000, product 6549518250000); mp.kleinj(2i*sqrt(3))*1728 = 2835807690.42228... = larger root; conjugate 2309.57771647; |(O/2^k)^x| = 3/12/48 and quotients by im(mu_6) = 1/2/8 confirmed; pi/(3*sqrt(3)) = 2pi/(6*sqrt(3)) = 0.604599788078. All transcriptions consistent. (4) Excluded as BC/physics narrative per task: the KMS/phase-diagram facts, Gal(K^ab/K) symmetry discussion, the Bianchi-BC verified-negative, Sagnier/literature table, and F1's T1-T6 test designs except their embedded arithmetic (captured in rows). Open lead L2 (do conductor-(4)/(8) characters occur with nonzero coefficient in m004's scattering?) is a question, not a claim \u2014 excluded. (5) F2's per-row attribution marks the filtration (E23) and the palette/disc/h values as recomputes matching B737-banked values (checks A1a-A1c PASS 25/25 overall), so F2 is independent confirmation, not first derivation."
+ },
+ {
+  "facts": [
+   {
+    "fact": "h(Q(sqrt5)) = 1 is load-bearing in the meeting invariant (h(-3), h(5), h(-15)) = (1, 1, 2) -> the meeting manufactures a Z/2 = Cl(Q(sqrt-15)) neither hand has (genus 2-rank = omega(-15)-1 = 1); but h(5)=1 is a STORED constant ('well known') -- the imaginary h's are computed by reduced forms in the same file, the real one is not",
+    "arc": "B698 (b698_legA.py)"
+   },
+   {
+    "fact": "L(1,chi_5) = 2*log(phi)/sqrt5 (Dirichlet class-number formula), and the banked Lyapunov entropy obeys entropy = 4*log(phi) = 4*Reg(Q(sqrt5)) = 2*sqrt5*L(1,chi_5) exact (1.92485)",
+    "arc": "B420 (TW6), identities from B401-P4/B109"
+   },
+   {
+    "fact": "The L-track destination: zeta_H = zeta * L(chi_-3) * L(chi_5) * L(chi_-15) -- the genus-character L-factorization of the Hilbert class field of Q(sqrt-15), chi_5 = the dynamics pillar's factor; bar NOT cleared (verdict NEGATIVE, no SM structure)",
+    "arc": "B420"
+   },
+   {
+    "fact": "Audibility law cell A: a prime stage p hears a real tone iff p = 1 mod 4, tone (-1+sqrt(p))/2; the tone is an algebraic UNIT iff norm -(p-1)/4 = -1 iff p = 5, where tone = 1/phi = the fundamental unit's inverse -- golden is the UNIQUE fundamental-unit stage (p = 13, 17, 29 audible non-unit, norms -3, -4, -7)",
+    "arc": "B705 (metallic hearing campaign, cells A)"
+   },
+   {
+    "fact": "The Q(sqrt5) members of the metallic family are exactly lambda_m = phi^{1,3,5,7} at m = 1, 4, 11, 29 (odd powers of the fundamental unit; banked L16 Pell sub-lead), so N(lambda_m) = (-1)^odd = -1 survives the same-field degeneracy; det X_m = -1 vs full monodromy A_m = X_m^2 det +1; a norm -1 unit is impossible in any imaginary quadratic field -- the residue lives on the golden/real axis alone",
+    "arc": "B469 (BR-N)"
+   },
+   {
+    "fact": "sqfree(m^2+4) = 5 EXACTLY for the whole odd-index-Lucas family m in {1, 4, 11, 29, 76, ...} (the earlier 'only m=1,4' was a cap artifact); and the 2I shadow appears for every m = +-1 mod 5 (5 | m^2+4) -- the shadow group is a property of the modulus",
+    "arc": "B206 (corrected re-audit)"
+   },
+   {
+    "fact": "Two-Teeth: the twisted (det -1) Markov spectrum intersect (0,3) = {sqrt5, 2*sqrt2} -- the negative-Pell filter v^2 - D_m t^2 = -4 (D_m = 9m^2-4) is solvable only for Markov m = 1 (D=5, golden) and m = 2; all Markov m >= 3 up to 5741 give unit norm +1 (novelty lit-gated, math verified)",
+    "arc": "B482 (twisted-Markov intake, A2)"
+   },
+   {
+    "fact": "Z/11 = |N_{Q(sqrt5)/Q}(phi^5 - 1)|: phi^5 - 1 = 5*phi + 2, N = -11 (prime); associate factorization (phi^5-1) = (1-3*phi)*(-phi^2) with N(1-3*phi) = -11 = det(I - 3F), F the golden companion; the matter Z/11 is UV-arithmetic bookkeeping, non-descending (chain guise: SNF(I-M4) = diag(1,1,1,11))",
+    "arc": "B715 probe 3 (origin B566-S5; B552/B565 re-verified in-sandbox)"
+   },
+   {
+    "fact": "Fibonacci closed form phi^n = F_n*phi + F_{n-1} is used as exact Z[phi] field arithmetic (phi^5 = 5*phi + 3 symbolic)",
+    "arc": "B715 (also B674-W2)"
+   },
+   {
+    "fact": "O_{Q(sqrt5)} = Z[phi] because 5 = 1 mod 4; P*A*P^{-1} = [[1,1],[1,2]] = the matrix of mult-by-phi^2 on Z[phi] in basis (1, phi), so pi1(closed golden torus bundle) = O_{Q(sqrt5)} x|_{eps^2} Z with eps = phi; Sol keeps the hearing when closing kills the being (F6 graded FRAGILE prices the puncture, the arithmetic stands)",
+    "arc": "B749 fork F6"
+   },
+   {
+    "fact": "Cyclic-cover torsion of the golden bundle: |det(A^n - I)| = L_{2n} - 2 (Lucas numbers, n = 1..12 verified), growth rate 2*log(phi) -- Lucas arithmetic as norm arithmetic on the hearing face",
+    "arc": "B749 fork F6 section 6"
+   },
+   {
+    "fact": "K0 of the Fibonacci substitution carrier (AF algebra) = Z[phi] as ordered group, and End(Z + phi*Z) = Z[phi] EXACTLY (W3 cone preservation, no larger multiplier ring); W4: no 3-torsion or Z[zeta_3] structure -- the combinatorial carrier sees ONLY Q(sqrt5); Q(sqrt-3) is bought at geometrization and nowhere earlier",
+    "arc": "B749 fork F8 + B1003 locks (LAW_MAP H-EAR clause i)"
+   },
+   {
+    "fact": "Gap labels lie in Z[phi] with frequencies (phi-1, 2-phi) exact (F8 redundancy witness W2)",
+    "arc": "B749-F8 / B1003"
+   },
+   {
+    "fact": "V1 typed negative: the door tones |chi|/2 have HALF-INTEGER coefficients against the integral module Z + phi^{-1}Z, exactly -- NOT Fibonacci gap labels; the un-halved values' Z[phi]-membership is fenced contentless (B757); the gap-label route to the doors' externality is CLOSED",
+    "arc": "B1062 (V1)"
+   },
+   {
+    "fact": "The golden object's arithmetic shadow mod its field discriminant 5 is SL(2, F_5) = 2I (binary icosahedral) = McKay affine E8; classical/quantum divide = A5 / 2I = the spin cover Z/2 = {+-I}; <R, L> surjects onto the whole SL(2, F_5) (BFS closure 120)",
+    "arc": "B206"
+   },
+   {
+    "fact": "The two-ended E6/E8 structure = the two ramified-prime reductions: E6 end = Q(sqrt-3) ramified at 3 (2T = SL(2, F_3)), E8 end = Q(sqrt5)'s ramified prime 5 (2I = SL(2, F_5)); but pi1(4_1) does NOT surject onto 2I (GAP GQuotients = 0, in-sandbox) -- the E8 end is reached through the field's reduction, not the knot group",
+    "arc": "B266"
+   },
+   {
+    "fact": "Niven's theorem (2cos(pi/n) rational only for n in {1,2,3,infinity}) forces the dual McKay to be exactly E6+E8 and excludes E7, whose field would be Q(sqrt2) (n=4); B746-F9 grades the second end (E8/spherical/Q(sqrt5)) FORCED by B247-B261",
+    "arc": "B249 (Niven trinity)"
+   },
+   {
+    "fact": "det(4_1) = |Delta(-1)| = det(gamma + I) = 5 = disc Q(sqrt5) = the McKay prime of 2I -- the four-way identity of the '5'",
+    "arc": "B208"
+   },
+   {
+    "fact": "The golden word's own shadow modulus (B666's 'conductor', NOT B675's cusp-order conductor which is 4) = m^2+4 = 5; gcd(4, 5) = 1 makes the mod-5 reduction an ISOMORPHISM (B675 quantization-index law), and |SL(2, Z/5)| = 120 = |2I| with N in {3,4,5} the complete McKay-order list -- golden is the UNIQUE metallic grammar whose shadow group is a McKay group (both conditions; silver fails both)",
+    "arc": "B1002 (joining B666 + B675 + B997)"
+   },
+   {
+    "fact": "The hearing 2I is realized as the ICOSIANS over Q(sqrt5) inside Q(zeta_60); its trace set is the GOLDEN NINE {-2, -phi, -1, -1/phi, 0, 1/phi, 1, phi, 2} (phi entering only via 2cos(pi/5), 2cos(2pi/5)); hearing data = McKay tensor McKay, rho_6 = (chi x V2(2I)) + (V2(2T) x V2(2I)) exactly; five-tone value set {0, 1/(2phi), 1/2, phi/2, 1} derived",
+    "arc": "B1011 (McKay tensor)"
+   },
+   {
+    "fact": "B206/B210's congruence-McKay 2I (monodromy arithmetic at the ramified prime 5) and B640's hearing 2I are the SAME homomorphism on ker(det) (L94 closed, DERIVED); B210's resolved negative stands: the SU(2)_3 golden-level FULL modular image is order 2880 at congruence level 20, not 2I itself",
+    "arc": "B644 (with B210)"
+   },
+   {
+    "fact": "On X(4_1), Galois (sqrt-3 conjugation) is free at the geometric point but its ONLY fixed points on Fix(amphichirality) are at disc_y = (x^2-1)(x^2-5) = 0: x^2 = 5 gives the GOLDEN point (sqrt5, 2), tr[a,b] = 2, real/reducible -- the hearing field is the Galois-FIXED real end while the being field is Galois-swapped (V4 orthogonality)",
+    "arc": "B711"
+   },
+   {
+    "fact": "The Galois-domain theorem: the hearing conjugation sqrt5 -> -sqrt5 has its real domain ON the quantum/WRT face (colored-Jones data); the child's WRT field content (sqrt5, sqrt-3, sqrt-15 inside the degree-8 level-15 field) is surgery-forced/knot-independent, not figure-eight-specific",
+    "arc": "B711 + B441 (B746-F6 FORCED)"
+   },
+   {
+    "fact": "Golden quantum values: <4_1>_5 = 46 + 2*sqrt5 (parent sqrt5 at levels 5|N, B208/B214); Jones V_{4_1}(zeta_5) = 1 - sqrt5 = -2/phi, real golden (from-scratch Kauffman bracket, matches B242); the non-fibered Whitehead link's V(zeta_5) is non-real, hence NOT in Q(sqrt5) -- a non-bundle cannot hear",
+    "arc": "B441 + B705 cell B"
+   },
+   {
+    "fact": "Golden Jones INTEGRALITY: the figure-eight's zeta_5 colored-Jones products are pure integers [1, -2, -2, 1] (object- and golden-specific); amphichiral controls 6_3, 8_9, 8_18 give real values in Z[phi] MINUS Z",
+    "arc": "B240"
+   },
+   {
+    "fact": "The Born-overlay WEIGHT field = Q(sqrt5), forced by the object's own Stokes resummation (non-uniform 1:phi^2 weights; Alexander roots phi^{+-2}); branched-cover homology orders |H1(Sigma_n)| = 5*F_n^2 / L_n^2 -- Fibonacci/Lucas squares as homology counts",
+    "arc": "B728 + B729 probe 3"
+   },
+   {
+    "fact": "The quantum overlay above hearing: phase field Q(zeta_5) contains Q(sqrt5); amplitude field Q(sqrt(2+phi)) with minpoly x^4-5x^2+5, C4-cyclic; F-symbol field Q(sqrt(phi)) with minpoly x^4-x^2-1, degree 4, NON-Galois, closure D4 of order 8, unique quadratic subfield Q(sqrt5), NOT contained in the abelian compositum Q(sqrt-3, sqrt5); all these extensions ramify only at {2, 5}, disjoint from the being prime 3",
+    "arc": "B729 (probe 1 + FINDINGS)"
+   },
+   {
+    "fact": "Q(sqrt(phi)) = Q(tau) has signature (2,1) and Dirichlet unit rank 2; tau = sqrt(phi) is itself a unit (N(tau) = 1) and beta = tau^2(1+tau) is a unit with N(beta) = det(M) = -1 (exploratory probe)",
+    "arc": "B533 probe 6"
+   },
+   {
+    "fact": "Splitting data beyond {3, 5, 11}, computed as exact Legendre batteries: 2 is the smallest prime inert in Q(sqrt5); 7 is the smallest prime split in Q(sqrt-3) AND inert in Q(sqrt5); (5|13) = -1 (13 inert -- and the golden dial prime 13 is selected by p = 13 mod 15 / p = 1 mod 12, the pure Q(sqrt5)-splitting candidate laws FAILED); (5|211) = +1",
+    "arc": "B666 cell 7"
+   },
+   {
+    "fact": "The level ladder imports Q(sqrt5) at level 3 (kappa = 15) BECAUSE the odd prime 5 of kappa is inert in Q(sqrt-3): odd block = one clean octic with the Q(sqrt5) quadratic inside; the parity control shows the EVEN block is also genuinely sqrt5-ramified (eight {5:1}-disc quadratics) -- the import is sector-blind, only the organization is chiral",
+    "arc": "B600 (level ladder packet)"
+   },
+   {
+    "fact": "The height-2 spectral sector is Q(sqrt5)-split (disc 45) while every banked voice invariant has prime support in {2, 3}: the sector's field never appears in the banked voice (two-column law exhibit -- gait transmits, name does not)",
+    "arc": "B754 cell TOMB-L334"
+   },
+   {
+    "fact": "Hecke unreachability of the golden: rational base change forces every Bianchi Hecke eigenvalue into Q, so the automorphic avatar structurally cannot carry Q(sqrt5); both routes give a_(5) = +1 (the trivial Steinberg value at the inert ideal (5), N((5)) = 25)",
+    "arc": "B694 (with B693)"
+   },
+   {
+    "fact": "5-splitting type is NOT required for golden-2I capacity: the 5-SPLIT Whitehead link already fills SL(2,5) = 2I mod (2+i) (order 120) -- filling is generic (strong approximation); killed '5-inert is necessary for golden SL(2,5) capacity'",
+    "arc": "B699"
+   },
+   {
+    "fact": "Q(sqrt5, sqrt-3) is biquadratic (Gal = Z/2 x Z/2) with THIRD quadratic subfield Q(sqrt-15) = the gluing (sqrt5 * sqrt-3, disc -15, ramified exactly at the two ends' own primes {3, 5}); the ends are the PRODUCT (RL -> Q(sqrt5) -> E8) and RATIO (-RL^{-1} -> Q(sqrt-3) -> E6) of the founding letters; Q(sqrt-15) tested arithmetically GENERIC (first-class null)",
+    "arc": "B333 (with B332)"
+   },
+   {
+    "fact": "Latimer-MacDuffee over the golden field: GL(2,Z) classes with charpoly x^2 - mx - 1 correspond to ideal classes of Z[lambda_m], counted by the form class number h(m^2+4); h = 1 for m = 1, 2, 3 but h = 2 at m = 4 -- disc 20, the CONDUCTOR-2 order over Q(sqrt5) (the companion matrix is one class of two; the original 'all conjugate to companion' corrected)",
+    "arc": "B92 (self-audit correction)"
+   },
+   {
+    "fact": "The WRT period reads the FORM CLASS of golden orders: at a fundamental discriminant (f = 1) all conjugacy classes share the period; at conductor f > 1 the period SPLITS across the ideal classes of Z[lambda] -- computed golden-field examples D = 45 (f = 3) -> periods {45, 15} and D = 320 (f = 8) -> {80, 40}",
+    "arc": "B214 (general-word period law)"
+   },
+   {
+    "fact": "Ring-conductor table of the bundle ladder R^m L^m (disc m^2(m^2+4)): golden-field rows are m = 1 (d_K = 5, f = 1) and m = 4 (d_K = 5, f = 8); f = m exactly at m = 1, 2, 3 (golden, silver, bronze)",
+    "arc": "B666 cell W35"
+   },
+   {
+    "fact": "The sector-ladder VALUE RING is (1/2)Z[sqrt5]: 120 consecutive rungs quantized at 1e-30 plus 8 banked exact anchors (cellG value-ring row); the F1/F2 coefficient streams are excluded by unboundedly growing 5-power denominators (a v_5-valuation argument -- no fixed scalar can compensate)",
+    "arc": "B666 cells W33 / 10"
+   },
+   {
+    "fact": "The slope-5 child's abelian torsion trace Tr tau = 3 + sqrt5/5 in Q(sqrt5) = the real subfield of Q(zeta_5), the child's abelian character field; CORRECTED (#562): this is NUMERATOR-FORCED by the slope, not golden inheritance -- trefoil(5,1) gives 1 - sqrt5/5, SAME field, different value; children keep golden traces in their abelian towers while losing every face (H-EAR clause iv)",
+    "arc": "B437 (+ correction #562)"
+   },
+   {
+    "fact": "Lucas-square law of the child book: |2 - L_{2p}| = L_p^2 for odd p (via L_{2n} = L_n^2 + 2); at p = 5 the child's torsion is 121 = 11^2 = L_5^2 -- the child's Z/11 is the square root of a Lucas norm",
+    "arc": "B437 (abelian_book.py)"
+   },
+   {
+    "fact": "The DD depth-2 levels (1 +- 3*sqrt5)/8 are present -- elements of Q(sqrt5) but NOT of Z[phi] (denominator 8): a banked NON-integral golden appearance",
+    "arc": "B498 (correction, locked in test_b498_mixed.py)"
+   },
+   {
+    "fact": "Chebyshev in Z[phi]: tr Sym^{5k}(sigma) = p_{5k}(phi) = (-1)^k for all k <= 40, via the recurrence p_{m+1} = phi*p_m - p_{m-1} -- pure Z[phi] arithmetic, no zeta_20 needed; sigma_A1's trace in Z[phi] is (a, b) = (0, 1) i.e. phi itself",
+    "arc": "B674 W2 (Molien cell)"
+   },
+   {
+    "fact": "Hand-verified banked identities of wave 1: disc(M) = 5; the Galois conjugate phibar = 1 - phi = -1/phi; every ladder value is an algebraic integer in Z[phi] (monic integer charpolys, lock Z1); a<->b is NOT an automorphism",
+    "arc": "B775 (phase 2 wave 1)"
+   },
+   {
+    "fact": "The AJ recursion (proved for 4_1) evaluated at the golden/E8 root q = e^{2pi i/5}: the two ends (E6 geometric / E8 golden) are two REGIMES of one operator",
+    "arc": "B261 (golden-root AJ)"
+   },
+   {
+    "fact": "supp(disc mu) = {2, 3, 5, 7, 11, 13} contains the golden 5 by RAMIFICATION ONLY: 5 sits in neither the measured (4, 8) nor the unmeasured (7, 11) exponent column of the four-column ledger",
+    "arc": "B894 (M4/M6)"
+   }
+  ],
+  "gaps": [
+   "Orders by conductor: present only piecemeal (B92: f=2/disc-20 form class h=2; B214: f=3 and f=8 period splits; B666-W35: ring-conductor table) -- the order tower Z[phi^k] = Z + F_k*phi*Z with conductor F_k (m = 4, 11, 29 giving f = 2, 5, 13) is never stated as a law, and Z[sqrt5] is never used as a named ring (it appears only inside the value-ring symbol (1/2)Z[sqrt5] and one sloppy comment)",
+   "Ray class groups / ring class fields of Q(sqrt5): entirely absent; B214's conductor-split period begs the ring-class-field statement and never makes it",
+   "Systematic prime-splitting census: absent -- only incidental primes (2, 3, 5, 7, 11, 13, 211) each computed inside some other question; no chi_5(p) = (p|5) table, no density/Chebotarev statement anywhere",
+   "Hecke palette of the field itself: zero Hilbert-modular content in the repo (grep 'Hilbert modular' = 0 hits); no Hecke eigenform OVER Q(sqrt5) ever computed -- the only Hecke facts are being-side rationality (B693/B694), and LAW_MAP itself flags the Gamma_41 discrete channel as never computed",
+   "Class-number statement: h(Q(sqrt5)) = 1 is only ever ASSERTED as a stored 'well known' constant (B698's function returns 1; B420's class-number formula presupposes it); never computed in-sandbox by reduced forms or Minkowski bound -- in the very file where h(-3) and h(-15) ARE computed",
+   "Narrow class number h+ = 1: the enabling fact N(phi) = -1 is banked (B469, B705, B749-F6) but the narrow-class conclusion is never drawn anywhere",
+   "Dedekind zeta of the field: no zeta_{Q(sqrt5)} special value anywhere (no zeta_K(-1) = 1/30, no zeta_K(2)); every zeta_K in the corpus is Q(sqrt-3)'s (B737/B739 voice); B366's real 1/30 spin-twist shift is never connected to zeta_{Q(sqrt5)}(-1)",
+   "Fundamental-unit MINIMALITY: phi is used as the fundamental unit throughout but its minimality is never proved in-sandbox (no continued-fraction or unit-bound check)",
+   "The different ideal: ramification at 5 is used constantly but the different (sqrt5) of Z[phi] is never named or used",
+   "The repo's own flagged open: WHY disc(A_1) = 5 organizes everything -- 'the golden ramification question remains the deepest open' (B663 ATLAS); the biography should carry it as the standing question"
+  ],
+  "notes": "Census discipline: every fact row was opened at its source file (grep-then-OPEN honored); READ-ONLY throughout. Terminology guards honored: 'conductor' rows always say which quantity (B675 cusp-order conductor = 4 vs B666 shadow modulus = 5, joined by B1002); the 40a1 mention (B746-F2: conductor 40 = 2^3*5) was kept distinct from 15A8 and NOT merged. Hazard found in passing: frontier/B674_generation_leg/w2_gate_cc2/w2_inputverify.py line 27 comment says 'Z[phi] = Z[sqrt5]' -- a ring-level conflation (Z[sqrt5] is the conductor-2 suborder); harmless where it sits (traces do land in Z[phi]) but a latent copy hazard for the biography. Memory's phi-decoy (x^2+x-1 as the m=5 x-tower's only spurious, 2026-08-13) is NOT in this checkout's banked record (latest arc B1066; decoy greps hit only B1043/B1062's unrelated decoys) -- excluded from the census as memory-only. Files most load-bearing: frontier/B420_tw6_lfunctions/track_lfunctions.py, frontier/B698_the_meeting_probed/b698_legA.py, frontier/B715_native_gauge/b715_probe3.py, frontier/B469_breath_campaign/br_n_norm.py, frontier/B749_genesis_forks/forks/F6/compute.py, frontier/B746_golden_ledger/FINDINGS.md (the 12-floor golden ledger -- the closest existing thing to a field biography, but it censuses golden APPEARANCES, not the field's internal arithmetic), frontier/B666_leads_campaign/cell7+cellW33+cellW35, frontier/B92_metallic_classification/FINDINGS.md, frontier/B214_general_word_period_law/period_law.py, frontier/B1011_mckay_tensor/arc_verdict.json."
+ },
+ {
+  "facts": [
+   {
+    "fact": "Splitting table for the being field (banked as a table, primes 2..13): 2 inert, 3 RAMIFIED, 5 inert, 7 split, 11 inert, 13 split in Q(sqrt-3); contrast rows for Q(i) (5 splits) and Q(sqrt5) (3 inert). Roles: a_K(5)=0 (the voice cannot say the hearing prime), a_K(3)=1 (the being prime said at every power); blindness is MUTUAL (3 inert in Q(sqrt5)); corrects H-EAR(iii) from a silence to a splitting type.",
+    "arc": "B857"
+   },
+   {
+    "fact": "3 is the UNIQUE ramified prime; residue field at p=(sqrt-3) is F_3; explicit ramification (1-zeta3)(1-zeta3^2)=3, i.e. (3)=(1-zeta3)^2 up to a unit. Role: the entire McKay/E6 selection hangs on this one prime.",
+    "arc": "B266, B276"
+   },
+   {
+    "fact": "5 is inert, computed via Legendre (-3|5)=-1 (re-derived in at least four arcs); residue field F_25, |PSL2(F_25)|=7800; A5 and 2I=SL2(5) embed in PSL2(F_25). Role: 5 = the hearing prime as an inert prime OF the being field; the inert-5 'monofocal' reading was REFUTED (sqrt5 is degenerate in char 5: 5 ramifies in Q(sqrt5), phi=phibar=3).",
+    "arc": "B680, B683, B699, B957"
+   },
+   {
+    "fact": "2 is inert (residue field F_4, |Z[omega]/4|=16). Role: the congruence-tower prime \u2014 the sisters m003/m004 sit at successive depths (2)^1 and (2)^3 of ONE 2-adic congruence tower; also the kappa=16=2^4 level-ladder rung where inert 2 delivers the Q(sqrt2) import.",
+    "arc": "B794, B734, B600"
+   },
+   {
+    "fact": "7 is the smallest split prime of Q(sqrt-3). Roles: N(tr rho(ab))=7 exactly = the Z/7 sine-kernel modulus of the level ladder (split 7 at kappa=14 -> the Z/7 sine kernel); norm echoes at level 4: quartic constants 49=7^2 (odd block) and 2401=7^4 (even block) (NOTICED-grade).",
+    "arc": "B600 packet, docs/OPEN_LEADS.md L74"
+   },
+   {
+    "fact": "11 is inert in Q(sqrt-3) but SPLITS in Q(sqrt5) (T7, cc-verified). Role: the observer's c-as-SWAP exchanges the two split Q(sqrt5)-primes over 11; being-side 11 carries no such pair.",
+    "arc": "B717"
+   },
+   {
+    "fact": "13 splits: 13 = 1 + 3*2^2, with the norm identity N(1+2*sqrt-3)=13, and the explicit Eisenstein factorization 13=(4-omega)(4-omegabar); 13 also splits in Q(i), 13=(3+2i)(3-2i) \u2014 chat1's 'inert in Q(i)' was caught and corrected. Role: 13 = the dial prime \u2014 v_13(unit-cross-ratio - 1) >= 1 on every 024-lit double, equality-to-infinity exactly on the 024-silent class; deviation units {1, zeta3, sqrt-3} are associates-shaped; kappa=13 (level 1) is the degenerate ladder rung.",
+    "arc": "B645, B700, B600"
+   },
+   {
+    "fact": "17 is inert (17 = 2 mod 3). Role: kappa5=17, the first prime conductor after degenerate k=1 \u2014 the registered decisive level-5 follow-on predicting a Q(sqrt17) import in the odd block; the level-5 clock claim independently reproduced (B635); LAW-E's kappa=17 hold-out failed on the even channel (B585). 17 also appears as 17^2 in quartic discs (norm echo).",
+    "arc": "B600 packet (B635, B585)"
+   },
+   {
+    "fact": "19: the level-7 rung kappa=19 is the splitting law's SPLIT-PRIME rung, realized via the cyclotomic cubic subfield of Q(zeta19) (no sqrt19), with Z_7=2 the first ladder value outside {0,1}; the ladder becomes {+1,+1,+1,0,+1,+1,2}, superseding B600's four-rung line. (The corpus never banks the bare Legendre row (-3|19).)",
+    "arc": "B646"
+   },
+   {
+    "fact": "One global Frobenius: Gal(Q(sqrt-3)/Q)=Z/2 reduces to the Frobenius at EVERY inert prime SIMULTANEOUSLY \u2014 verified at p=2,5,11,17,23 (cc2) and diagonally at n=10 (cc); you cannot flip Frobenius at one inert prime and not another. Role: kills omega(n)-growth of the observer space; the observer space is the bounded 2-bit V4.",
+    "arc": "B733"
+   },
+   {
+    "fact": "The (sqrt-3) door \u2014 the omega-adjacent, RAMIFIED door \u2014 contributes ZERO observer bits, and the observer construction never consumes mu6's Z/3 (0 omega-essential steps of 11 decidable); the whole stack runs on quadratic-Galois Z/2 machinery.",
+    "arc": "B1040 (quoting B733)"
+   },
+   {
+    "fact": "The being-bit is genuinely arithmetic only at (sqrt-3)^2=(3): the ramification-induced automorphism (e -> -e on the different's nilpotent) cannot be a GL(2)-conjugation \u2014 the bare (sqrt-3)^1 bit is the spurious PGL diagonal. (The only structural use of the different of Q(sqrt-3) in the corpus.)",
+    "arc": "B733 (two-seat consensus)"
+   },
+   {
+    "fact": "d=7 contrast row: E6-by-Bianchi-torsion holds for 4/5 of d in {1,2,3,7,11}, absent ONLY for d=7 \u2014 the unique class-number-1 imaginary quadratic field where 2 SPLITS (-7 = 1 mod 8); for d=3, 2 is inert.",
+    "arc": "B727"
+   },
+   {
+    "fact": "Split primes as computational instruments: exact verification mod p=99991 and 100003 (both = 1 mod 3, so t^2-t+1 splits \u2014 no precision loss); the value campaign's standing instrument choice is '8 clean primes p = 1 mod 3 with 77 and -3 QRs'.",
+    "arc": "B273, B902, B910"
+   },
+   {
+    "fact": "The surgery chain Whitehead -> figure-eight IS the 5-split (Q(i), 5=(2+i)(2-i)) -> 5-inert (Q(sqrt-3)) crossing; the fig-8 RAW holonomy mod 5 FILLS SL(2,F_25) (order 15600, generic by strong approximation) \u2014 the mod-5 capacity falsifier fired, '5-inert necessary for golden' REFUTED (and B756 later killed the general '5-inert AND fibered => golden' with five counterexamples).",
+    "arc": "B699 (scope-corrected B756)"
+   },
+   {
+    "fact": "GSWZ/Habiro Frobenius gluing: TRIVIAL at p=3 (3 | disc -3, ramified \u2014 being's constraint vacuous, being arithmetic sits in coefficients) and NONTRIVIAL at p=5 (5 does not divide -3, inert) \u2014 connecting f_1 to f_5 whose evaluation ring Z[omega, zeta5] contains phi = zeta5 + zeta5^4 + 1 as a Gaussian period. The golden enters at the zeta5 EVALUATION, not in the object's coefficients.",
+    "arc": "B697"
+   },
+   {
+    "fact": "5-inertness explains v_5(denominator)=0 at every order of the Habiro series: the computation lives over Z[omega] where 5 cannot enter denominators; verified to order 20 (object side) and n=60 (hearing side); formalizing needs the 3-integrality property (series stays in Z[omega][1/3]).",
+    "arc": "B767 (extending B685)"
+   },
+   {
+    "fact": "Dial primes do NOT generalize by splitting type: fig-8's dial prime 13 is split in Q(sqrt-3), but the silver object's dial prime 211 is inert in Q(i) (211 = 3 mod 4) \u2014 the split-prime reading of the dial fails naively (recorded HINT).",
+    "arc": "B649"
+   },
+   {
+    "fact": "The child ledger: 4_1(5,1)'s invariant trace field is the S4 quartic x^4-x-1, disc -283; child ramified prime 283 gives the FULL generic SL(2,F_283); SL(2,p) is McKay only at p=3 (E6) and p=5 (E8) \u2014 the object sits at the special 3, the child at a generic prime and authors NO ADE.",
+    "arc": "B718"
+   },
+   {
+    "fact": "Metallic obstruction: m^2+4 = 1 or 2 (mod 3) for ALL m, so 3 NEVER ramifies in the metallic trace fields \u2014 E6=2T=SL(2,F_3) never occurs in the metallic family (and E7=2O is never any SL(2,p)); only E8 occurs (Q(sqrt5) members m=1,4,11).",
+    "arc": "B207"
+   },
+   {
+    "fact": "The character-variety elliptic curve 40a1 has conductor 40=2^3*5 \u2014 it sees the golden/E8 monodromy prime 5 (Q(sqrt5) ramifies at 5) but NOT the hyperbolic prime 3 of Q(sqrt-3): the character variety is a Betti object tracking monodromy, not the hyperbolic metric data. (Distinct object from 15A8 \u2014 recorded conflation hazard.)",
+    "arc": "B213 (with B210, B225)"
+   },
+   {
+    "fact": "The A-polynomial elliptic model is isogeny class 15a (curve 15A8): conductor 15 = 3*5 = being prime x hearing prime = the banked congruence level; the branch locus is BIFOCAL \u2014 golden pair phi^2, phi^-2 and Eisenstein pair m = omega, omegabar; j = -1/15.",
+    "arc": "B509/B510 (docs/LAW_MAP.md; re-verified B743)"
+   },
+   {
+    "fact": "Level 15 = ramified(3) x inert(5) of the ONE being field \u2014 both primes of the level are primes of Q(sqrt-3) (the monofocal HINT; the stronger monofocal reading later refuted in B683 L2).",
+    "arc": "B680"
+   },
+   {
+    "fact": "Trace-law theorem: for every gamma in Gamma_41, N(tr gamma) = 0 or 3 (mod 4) \u2014 every m004 geodesic trace norm avoids 1 mod 4 at every cutoff; proof by finite computation in Z[omega]/4 (2 inert, residue field F_4).",
+    "arc": "B794 (Theorem 2)"
+   },
+   {
+    "fact": "Norm-level split (B920 reconciliation): the m004-EXCLUSIVE norms at cutoff 6 are {4,16,48,64,112,144,192,208,256,304,336,400}, all = 0 mod 4; the odd norms 7,103,127,175,367 (all = 3 mod 4) are m003-SHARED \u2014 norm 7 enters m004 via traces 3+omega and 2-omega and m003 via 1+3omega and 2+3omega (four distinct elements of norm 7); hint H-B788-NORMSPLIT survives at the norm level only.",
+    "arc": "B794 (+B920 amendment in docs/LAW_MAP.md)"
+   },
+   {
+    "fact": "The heartbeat quadratic x^2-3x+3 recurs as the field's norm-3 pair (3\u00b1sqrt-3)/2 (the primes above 3): it is the sigma-orbit of the geometric rep (T-SIGMA), m004's character-variety data ('the object provides the ambiguity', y^2-3y+3), and the golden tower member whose root field Q(sqrt-3) the B1062 pipeline recovered from scratch.",
+    "arc": "B448/B466 (docs/THEOREM_REGISTRY.md), B1040, B1062"
+   },
+   {
+    "fact": "Universal boundary ratio I_lambda/I_mu = -2*sqrt-3 \u2014 the gauge-invariant content of the peripheral restriction, equal at all six blocks; the universal parity-typed slope = the cusp modulus -2*sqrt-3.",
+    "arc": "B598 (TERMINOLOGY.md)"
+   },
+   {
+    "fact": "The hearing lines' column law names the elements 1\u00b1sqrt-3 (norm 4): N_4(1+sqrt-3) / N_8(1-sqrt-3) with N_4 = 2^9*3^2*5*7*13 and N_8 = 2^15*3^5*5^3*7^2*11 (theta-odd bending responses, rank 2, supported on m in {4,8}).",
+    "arc": "B598 step 4b (TERMINOLOGY.md)"
+   },
+   {
+    "fact": "Trace field = Q(sqrt-3): SnapPy min poly x^2-2x+4 (root 1+i*sqrt3 = 2*zeta6), disc -3; the Riley rep is manifestly over Z[omega] with t = 1+omega (= zeta6, a UNIT), t^2-t+1=0; classical Maclachlan-Reid: fig-8 = H^3/PSL2(O_3).",
+    "arc": "B266 (docs/HINT_LEDGER.md H63)"
+   },
+   {
+    "fact": "Q(sqrt-3) = Q(zeta3) = the Eisenstein field is simultaneously trace field, invariant trace field, and cusp field; cusp shape 2*sqrt-3; tetrahedron shape field x^2-x+1 (disc -3); regular-ideal-tetrahedron shape z = e^{i*pi/3} = zeta6 (a unit) shared identically by m003 and m004.",
+    "arc": "B730, B257, B727"
+   },
+   {
+    "fact": "Unit group O_3^x = mu_6 = Z/6 = Z/2 x Z/3, and the two factors are load-bearing SEPARATELY: the Z/2 = the Galois conjugation sqrt-3 -> -sqrt-3 = complex conjugation = the amphichiral involution; the Z/3 = the Eisenstein-unit rotation omega = the commensurator PGL(2,O_-3) hidden symmetry / E6-center reading \u2014 same atom, different groups, do-not-fuse.",
+    "arc": "B320 (B302, B323)"
+   },
+   {
+    "fact": "mu_6 is what makes Q(sqrt-3) unique among the h=1 imaginary-quadratic sisters, and it feeds the trit: 2T's commutator is Q8, 2T/Q8 = Z/3, and the quotient's three characters take values EXACTLY in <omega> = mu_3 inside mu_6 = O_3^x \u2014 the field's cube-root group IS the value group of the group's abelianization; tensoring by omega-valued characters is the order-3 rotation of affine E6, and deleting the center leaves su(3)^3 permuted in one 3-cycle. The trit is omega's shadow through McKay ([LEAP]->[MATH] for that row).",
+    "arc": "B1042"
+   },
+   {
+    "fact": "Class number 1 used structurally: m004 = degree-12 cover of the Bianchi orbifold PSL(2,O_3)\\H^3, and the being's automorphic spectrum pulls back into the object's voice (Koyama-type equidistribution, 'class number 1 = Q(sqrt-3)'s case'); h=1 also enters the residue formula verified for D = -3,-4,-7,-11.",
+    "arc": "B735, B754"
+   },
+   {
+    "fact": "The Euclidean transition point: the order-3 meridian omega, cone angle 2*pi/3 \u2014 'the three is geometric': n=3 = the Eisenstein cube root = the Q(sqrt-3) ramification (the discriminant branch point), NOT a generation count; the cusp torus is RECTANGULAR (2*sqrt-3), not hexagonal (corrected guess).",
+    "arc": "B257"
+   },
+   {
+    "fact": "C7 [THEOREM, two-seat]: the object's intrinsic arithmetic forces exactly three quadratic faces = one Klein-four V4: being Q(sqrt-3) * hearing Q(sqrt5) * meeting Q(sqrt-15) (fundamental disc -15, maximal order Z[(1+sqrt-15)/2], h=2); A-polynomial branches M^2 -+ M + 1 (disc -3) and M^2 -+ M - 1 (disc 5); no fourth quadratic \u2014 Q(sqrt-7) is a STAGE, proven three independent ways (Neumann-Reid rigidity: the trace field is the COMPLETE commensurability invariant).",
+    "arc": "B730 (docs/THEOREM_LEDGER.md C7), B333"
+   },
+   {
+    "fact": "The compositum Q(sqrt5, sqrt-3) is biquadratic with Gal = Z/2 x Z/2; its third subfield Q(sqrt-15) (sqrt5*sqrt-3 = sqrt-15, disc -15, ramified exactly at {3,5} = the two ends' own primes) is arithmetically GENERIC: h(-15)=2 is common (14 of 123 fundamental discs to -400), units {\u00b11} generic \u2014 the firewall holds at the seam.",
+    "arc": "B333"
+   },
+   {
+    "fact": "C8 [CENSUS]: NO closed hyperbolic filling of m004 in the |p|,q <= 8 grid (78 hyperbolic slopes) has an invariant trace field containing sqrt-3, sqrt5, OR sqrt-15 \u2014 the entire forced V4 is a property of the OPEN object (with per-slope sqrt-3 consistency re-derivation 24/24).",
+    "arc": "B288/B740 + B747/B748 (docs/THEOREM_LEDGER.md C8)"
+   },
+   {
+    "fact": "F8/W1: x^2+3 is IRREDUCIBLE over Q(sqrt5) (instrument control: it splits over Q(sqrt-3)) \u2014 the combinatorial/pre-geometric carrier sees ONLY Q(sqrt5); Q(sqrt-3) is bought at geometrization and nowhere earlier (the being/hearing split is forced by the step into geometry).",
+    "arc": "B1003 (docs/THEOREM_LEDGER.md lock note)"
+   },
+   {
+    "fact": "sqrt-3 is NOT in the splitting field of the golden monodromy char poly (proven: sqrt3 not in Q(sqrt5), so sqrt-3 not in Q(sqrt(2+sqrt5), i)); complementary mutual-blindness at the field-extension level.",
+    "arc": "B530"
+   },
+   {
+    "fact": "Metallic arithmeticity (Maclachlan-Reid Thm 8.3.2): the m=1 golden bundle is ARITHMETIC with kM = Q(sqrt-3) (Phi_6, shape e^{i*pi/3}); arithmeticity selects {m=1 golden, m=2 silver} and kills m>=3; B1062's independent pipeline recovers Q(sqrt-3) from scratch for the golden tower member (roots of x^2-3x+3) \u2014 the arithmeticity axis separates golden from silver/bronze.",
+    "arc": "B125, B1062"
+   },
+   {
+    "fact": "The value-layer Kummer field CONTAINS the being field: alpha = (-27q + 3s*sqrt-231)/2 lives in F = Q(sqrt77, sqrt-3), with classes in F*/(F*)^3 ([alpha_vac] = [alpha_mu]^{-1}; [alpha_kappa] = [alpha_mu] with NO unit twist) \u2014 degree-3 Kummer classes over F presuppose mu_3, i.e. the sqrt-3 factor.",
+    "arc": "B902, B910"
+   },
+   {
+    "fact": "The seam form's 44 values lie in Q(sqrt5, sqrt-3) (spectral sigma1=sigma2=1/24; cornerstone Q(sqrt-15)) \u2014 the compositum as the seam's value home.",
+    "arc": "B358-B367 (docs/THEOREM_REGISTRY.md L-SEAM)"
+   },
+   {
+    "fact": "Gamma_41 sits in PSL(2,O_3) at geometric index 12 (Humbert volume gives the index; Riley's subgroup); ALL 284 short-geodesic traces lie in Z[omega] exactly (worst deviation 2.6e-15) \u2014 forced by Gamma_41 < PSL(2,O_3), 'forced, not discovered'.",
+    "arc": "B790"
+   },
+   {
+    "fact": "Gamma_41 is NOT the principal congruence subgroup of level (sqrt-3): reducing the Riley holonomy mod (sqrt-3) the image is ALL of SL(2,F_3) (24 of 24), so Gamma_41 surjects onto PSL(2,F_3) = A_4; Gamma_41 and Gamma((sqrt-3)) are different index-12 subgroups.",
+    "arc": "B790 (refined by B794)"
+   },
+   {
+    "fact": "B731's surviving computations: PSL-image index of Gamma_41 is 6 at levels (2) and (4), and Gamma_41 SURJECTS onto PSL(2, O_3/3) and PSL(2, O_3/5) (index 1) \u2014 consistent with Baker-Reid (m004 does not contain Gamma(2)). Its NON-congruence headline is RETRACTED (E22: shallow level check).",
+    "arc": "B731 (retracted header; corrected by B734)"
+   },
+   {
+    "fact": "m004 IS a congruence subgroup at level (2)^3 = (8) in the PSL convention: PSL image-index by level = 6,1,6,1 at (2),(3),(4),(5) and 12 = the geometric index at (8) and (16); at level 4 the image catches only {\u00b1I} of the order-4 center, at level 8 all 8 central scalars. Flagged Serre-base-rate-defying (unique arithmetic knot), pending literature cross-check.",
+    "arc": "B734"
+   },
+   {
+    "fact": "The sisters occupy successive depths of ONE 2-adic congruence tower over the inert prime 2: m003 (non-knot) congruence at level (2)^1 with quotient PSL(2,F_4) = A_5; m004 (the knot) at level (2)^3 = (8); m004's own level-(8) observer group is the order-2560 image inside PSL(2, O_3/(8)) of order 30720 (whether B701-conjugation acts as its outer automorphism: OPEN).",
+    "arc": "B734 (with B731/B732)"
+   },
+   {
+    "fact": "In the SL-KERNEL convention the level is exactly (4): Gamma(4) contained in Gamma_41, Gamma(2) NOT (mod-2 image D_5 < A_5, index 6 not 12); |SL(2, Z[omega]/4)| = 3840, image H order 320; proof by finite computation in Z[omega]/4.",
+    "arc": "B794 (Theorem 1)"
+   },
+   {
+    "fact": "Center bookkeeping reconciliation (E23): Z(SL(2, Z[omega]/4)) has order 4 \u2014 lambda^2=1 has solutions {1, 1+2omega, 3, 3+2omega} \u2014 and Z intersect H = {\u00b1I} exactly; hence PSL-index 6 (B731) and SL/{\u00b1I}-index 12 (B794) are BOTH correct in different quotients; 1920 = |SL(2,Z[omega]/4)/{\u00b1I}|, NOT |PSL(2,Z[omega]/4)| = 960 (mislabel caught 2026-07-29).",
+    "arc": "B794 + docs/LAW_MAP.md mod-4 trace-law row"
+   },
+   {
+    "fact": "The level-1 Bianchi-form library route for the Maass spectrum is capped at ~8% (Weyl scales with volume; index-12 ceiling 1/12) \u2014 a restrict-level-1-forms argument must handle a non-regular cover.",
+    "arc": "B790"
+   },
+   {
+    "fact": "McKay entry, the selection chain (5 verified links): trace field Q(sqrt-3) -> unique ramified prime 3 -> residue F_3 -> pi_1(fig-8) SURJECTS onto SL(2,F_3) = 2T (omega=1, t=2; two parabolics generate; exactly 2 surjections) -> McKay(2T) = affine E6 (marks {1,1,1,2,2,2,3}).",
+    "arc": "B266"
+   },
+   {
+    "fact": "Canonicity: SL(2,F_q) is binary-polyhedral ONLY for q in {3,5} (corrected exclusions: q=2 -> S_3, q=4 -> A_5 the dangerous near-miss, q>=7 too large; decisive criterion = existence of a faithful 2-dim quaternionic FS=-1 irrep); for Q(sqrt-3) only 3 ramifies (5 inert gives F_25, huge) so mod-3 -> 2T -> E6 is the UNIQUE McKay reduction; E7=2O (order 48) is never an SL(2,q) \u2014 homeless, reproducing B256.",
+    "arc": "B266 (B272 correction)"
+   },
+   {
+    "fact": "The two ends are GROUP-asymmetric: pi_1(4_1) does NOT surject onto A_5 or 2I = SL(2,F_5) (Stuebner arXiv:2502.06488, verified in-sandbox: 2T -> 2 surjections, A_5 -> 0, 2I -> 0) \u2014 the E6/E8 two-ended structure holds only at the FIELD level (E8 = the companion field Q(sqrt5)'s ramified prime 5).",
+    "arc": "B266 (R6 addendum)"
+   },
+   {
+    "fact": "Base-rate adjudication of the McKay entry: over ANY imaginary quadratic field the exceptional menu is {E6} ONLY (2O forces sqrt2, 2I forces sqrt5 \u2014 both real quadratic; no birthday problem); pi_1 ->> 2T is NOT unique to the arithmetic knot (4/13 hyperbolic knots, incl. non-arithmetic 7_2, 7_3, 8_1); the sister m003 (identical volume, identical z=e^{i*pi/3}, same field, but H_1 = Z/5+Z, not a knot) carries every field-level resonance. The ONE object-specific fact: Q(sqrt-3) is the trace field of THE unique arithmetic knot (Reid).",
+    "arc": "B727"
+   },
+   {
+    "fact": "Quantum coherence at the field's roots of unity: J_N(4_1) at q=zeta3 degenerates to period 3 with values 1,1,13 and at q=zeta6 to period 6 with values 1,-1,1,-1,1,89 \u2014 ALL values algebraic integers in Z[zeta3] = O_{Q(sqrt-3)}; the state-integral saddle sits at z=e^{i*pi/3} in Q(sqrt-3) (the ramified-prime center). A coherence, NOT 2T acting on Z (wall #2 stays open).",
+    "arc": "B276 (B269)"
+   },
+   {
+    "fact": "Vol(4_1) = (3*sqrt3/2) * L(chi_-3, 2), verified to 40 digits \u2014 the volume is the Dirichlet L-value at s=2 of the quadratic character mod 3 (the BEING character); classical (Zagier zeta_K(2)); 'its absence from the record until now is the point'.",
+    "arc": "B680"
+   },
+   {
+    "fact": "m(A_{4_1}) = Vol/pi = (3*sqrt3/2pi) * L(chi_-3, 2) is the Borel regulator of K_3^ind(Q(sqrt-3)) (PSLQ-verified 40+ digits; Zagier; Boyd) \u2014 the being hand keeps K_3, while the MEETING's K_2 Beilinson regulator is the different number L'(15a,0); the 2.37% near-miss m(A_41) vs L(15a,2) is flagged as a numerical trap with no PSLQ relation.",
+    "arc": "B698 (B683)"
+   },
+   {
+    "fact": "The pole of zeta_{Q(sqrt-3)} at s=1 is verified against the class-number formula: eps * zeta_K(1+eps) -> 0.604599788135 vs 2*pi/(6*sqrt3) = 0.604599788078 (6e-11); B736-P2's reading stands as math: the observer's beta=1 symmetry-breaking IS this pole \u2014 an infinite-tower object absent at every finite congruence level ('retract the claim, keep the theorem').",
+    "arc": "B948 (re-verifying B942 cell 3a, B736-P2)"
+   },
+   {
+    "fact": "Res_{s=1} zeta_K = 2*pi*h/(w*sqrt|d|) is a PURE FIELD CONSTANT (no manifold parameter), verified for all four h=1 imaginary quadratic fields D = -3, -4, -7, -11 \u2014 spectral kill E1: the continuous voice carries field data only.",
+    "arc": "B754 (E1, from B737 P4 S9)"
+   },
+   {
+    "fact": "The completed zeta of the being field is used with explicit gamma factor: Lambda(s) = (sqrt3/2pi)^s * Gamma(s) * zeta_K(s), entering the Elstrodt-Grunewald-Mennicke counting via the scattering function phi(s) = Lambda(s-1)/Lambda(s); the scattering correction is -0.7% at T=7.35 (negligible where the Weyl gate was applied), -34% at T=3, +2.7% at T=12.",
+    "arc": "B791 (cc3's B792 cell)"
+   },
+   {
+    "fact": "Genus L-factorization at the seam: zeta_H = zeta * L(chi_-3) * L(chi_5) * L(chi_-15) for H = the Hilbert class field of Q(sqrt-15) (= the compositum landscape) \u2014 one factor per program pillar (twist chi_-3 / dynamics chi_5 / seam chi_-15); L(1, chi_-15) = 2*pi/sqrt15 = 1.62231 exact.",
+    "arc": "B420"
+   },
+   {
+    "fact": "State-integral sweep D5: at the four programme points V(u)/Z(u) are generic deformed-dilog periods with NO new identifiable period/L-value/regulator; the ONLY structured transcendental is the banked Vol = (3*sqrt3/2) L(chi_-3,2), sitting at the COMPLETE structure u=0 \u2014 a MISS/COINCIDENCE verdict guarding against L-value pareidolia.",
+    "arc": "B787"
+   },
+   {
+    "fact": "The two Z/3s of the program both trace to '3 ramifies in Q(sqrt-3)': the gauge-level Z/3 (E6 center / trinification triality, det Cartan(E6)=3) and the commensurator-level Z/3 (Eisenstein units Z/6 contain Z/3, PGL(2,O_-3)) \u2014 distinct groups, one arithmetic source; explains why the seam-Z/3 and object-Z/3 hunts were dead ends (knot group torsion-free, cusp torus rectangular).",
+    "arc": "B323 (B299, B302, B321)"
+   },
+   {
+    "fact": "mu_2-sister transplant (V2): every observer-construction step's TEMPLATE transplants verbatim to Q(sqrt-2) (and Q(-1) mutatis the mu_4 irrelevance); only field-specific VALUES change \u2014 nothing in the observer stack breaks on a mu_2 sister for unit-group reasons; sqrt-7 is NOT a clean sister (B733's k=3 extension makes it a leg of the observer's seam).",
+    "arc": "B1040"
+   },
+   {
+    "fact": "E6+A2 -> E8 prime-3 glue: det(E6)*det(A2)/3^2 = 9/9 = 1 = det(E8), with prime 3 = the Q(sqrt-3) ramified prime \u2014 the lattice-determinant arithmetic of the ends rides the same prime.",
+    "arc": "B300 (docs/HINT_LEDGER.md H87; B248/B256)"
+   },
+   {
+    "fact": "HOOK (checked, DORMANT, light): the two ends as two ramifications of ONE polynomial Delta = t^2-3t+1 \u2014 golden = ramification at p=5, Eisenstein = 'Delta = Phi_3 mod 2' \u2014 verified but automatic (-3 = 1 mod 4 makes the mod-2 identity trivial); recorded not-a-theorem.",
+    "arc": "docs/HINT_LEDGER.md H106 (S046)"
+   }
+  ],
+  "gaps": [
+   "No complete splitting census over the programme's own prime list: the only banked TABLE (B857) stops at p=13; 17 and 19 enter only as level-ladder conductors (B600/B646), 23 only as a Frobenius spot-check inside B733's INERT2; no banked (-3|p) rows exist for 29, 953, 1129, 72869, 421493 \u2014 the value-layer primes whose splitting IS banked for Q(sqrt77) (B931: all inert there) and whose mu-mod-p patterns are banked (B917: [1,2] at 953/1129/421493) but whose Q(sqrt-3) behavior is nowhere recorded (trivially computable: 953 = 2, 421493 = 2 mod 3 would be inert; 1129 = 1 mod 3 split \u2014 never stated in-corpus); 77 = 7*11 = split*inert is never remarked.",
+   "The general splitting LAW is never banked as a law: 'p splits in Q(sqrt-3) iff p = 1 mod 3' (equivalently the norm-form criterion p = a^2-ab+b^2 / x^2+3y^2) is used instance-wise (7, 13, 19, the instrument primes p = 1 mod 3) but no row states the biconditional; likewise no Chebotarev/density statement (half split, half inert) anywhere, though B733's 'one global Frobenius' comes closest structurally.",
+   "Class number h(-3)=1 is used silently (B735 Koyama argument, B754 residue formula, B790 trace integrality) but never banked as its own row with a proof; nowhere does the corpus state that Z[omega] is Euclidean / a PID / a UFD, though unique factorization underwrites every banked norm factorization (13=(4-omega)(4-omegabar), the norm-7 traces, the norm-split theorem).",
+   "The two textbook extremality facts are absent as facts: Q(sqrt-3) has the SMALLEST |disc| of any imaginary quadratic field, and w=6 is the MAXIMAL unit number (the unique field with six units) \u2014 the latter enters only refracted through B1042's 'mu_6 unique among the h=1 sisters'; no row states either extremality directly.",
+   "Zeta/L biography is thin outside s=1 and s=2: no banked row names L(1, chi_-3) = pi/(3*sqrt3) as the L-VALUE (it appears only disguised as the residue 2pi/(6*sqrt3) in B948); no zeta_K(-1)/Kronecker-limit/Chowla-Selberg/period facts; and the factorization zeta_K = zeta * L(chi_-3) for the being field ALONE is only implicit (inside B420's biquadratic product and B791's Lambda) \u2014 never its own row.",
+   "Ramification fine structure unstated: the different d = (sqrt-3) is used exactly once and only implicitly (B733's BEINGBIT nilpotent e -> -e); tameness of 3 (e=2 < p=3) is never mentioned; no banked row gives the conductor-discriminant picture of the field itself (hazard-adjacent: 'conductor' in this corpus names B675's and B666's quantities, neither of which is the field conductor 3 of chi_-3 \u2014 that number appears nowhere as such).",
+   "The Eisenstein lattice geometry is missing: no banked row on the hexagonal lattice Z[omega], its covolume sqrt3/2, or the Minkowski bound \u2014 the lattice appears only refracted as the RECTANGULAR cusp cross-section 2*sqrt-3 (B257), which is the opposite of the naive hexagonal expectation and is flagged there as a corrected guess.",
+   "B734's Serre-defying congruence level (8) is still flagged 'pending an external cross-check' (Grunewald-Schwermer and successors) \u2014 the biography's single most striking congruence fact rests on two in-house seats with no literature replication row.",
+   "B857's own carried-forward blind spot is still open: not one Hecke eigenvalue of any Gamma_41 newform has ever been computed, so every 'the arithmetic lives in the discrete channel' claim (B739's relocation) remains untested where it is checkable.",
+   "No banked splitting/behavior rows for the small primes in the OTHER direction of each dictionary: e.g., how 2 and 13 behave in Q(sqrt-15) (the meeting field) is never recorded despite B334's principality law making meeting-field splitting load-bearing; the mutual-blindness table (B857) was never extended to the meeting column."
+  ],
+  "notes": "Census method: grep-then-open over frontier/*/FINDINGS.md and docs/ (LAW_MAP, HINT_LEDGER, OPEN_LEADS, THEOREM_LEDGER, THEOREM_REGISTRY, TERMINOLOGY, PRACTICES); every cited section was opened and read. Exclusions per task scope: ray-class/Hecke/CM/idele layers deliberately omitted \u2014 Cl_(2)/Cl_(4)=Z/2 rows (B731's CMR notes), the Hilbert-class-field principality law of Q(sqrt-15) (B334), singular moduli j(2*sqrt3*i)/disc -48 CM rows (B680/B754-E4), BC/KMS/idele-class framings (B725/B851/B942/B957 beyond the Legendre re-derivations), and the Maass/Hecke certification layer of B790/B797. Hazards handled: (1) 'level' (B1013 hazard) \u2014 three distinct levels appear and are kept separate: the Bianchi PSL congruence level (2)^3=(8) (B734), the SL-kernel level (4) (B794/E23), and B600's MTC/SL(2,Z) level ord(T_k) (Bantay congruence property \u2014 a different group entirely); (2) 'conductor' \u2014 used here only for elliptic curves (40a1: 40 = 2^3*5; 15a/15A8: 15 = 3*5), i.e., neither B675's nor B666's quantity; (3) 40a1 vs 15A8 kept strictly separate per the recorded conflation hazard (40a1 = character-variety curve, B211/B213/B225; 15A8 = A-polynomial model, B509/B510) \u2014 note their conductors make the Betti-vs-hyperbolic prime contrast (5 without 3, vs 3*5). B731 is retained in-repo under a retraction header \u2014 only its surviving computations are cited (E21/E22/E23 error lineage: agent's level-(4) center over-read, B731's shallow stop, the 1920-vs-960 mislabel). B646's kappa=19 'split-prime rung' is the closest thing to a banked 19-row; the bare Legendre symbol is unbanked (hence the gap). The 953/1129/421493 splitting facts found in B917/B926/B931 belong to the VALUE-layer fields (mu mod p patterns, Q(sqrt77) inertness, the degree-one place of 953) \u2014 explicitly NOT Q(sqrt-3) facts; they ground the census gap, not rows. All prime-arithmetic assertions in the facts column are quoted from banked artifacts, not recomputed; the only in-passing computations of mine are the mod-3 residues flagged as 'trivially computable, never stated in-corpus' inside gap 1."
+ },
+ {
+  "facts": [
+   {
+    "fact": "Seam identity card: Q(sqrt-15) is the 'meeting' face, being*hearing; fundamental discriminant -15; maximal order Z[(1+sqrt-15)/2]; class number 2; the '-60' label some sources use is the NON-MAXIMAL order Z[sqrt-15] (conductor-2 suborder), same field \u2014 the banked disambiguation.",
+    "arc": "B730"
+   },
+   {
+    "fact": "The seam is FORCED and unique-third: the object's intrinsic arithmetic forces exactly three quadratic faces = the involutions of one biquadratic field, Gal(Q(sqrt-3,sqrt5)/Q) = C2xC2 (V4), group law being*hearing = meeting; sqrt-15 is genuinely present in the A-polynomial splitting field (it carries both sqrt-3 and sqrt5). Q(sqrt-7) is a stage, not a fourth face (3 independent proofs); adjoining it explodes V4 to (Z/2)^3 = the B704 seam space.",
+    "arc": "B730"
+   },
+   {
+    "fact": "First-class NULL: Q(sqrt-15) is arithmetically GENERIC \u2014 h = 2 is common (14 of the 123 fundamental discriminants down to -400), units {+-1} generic, and ramification at {3,5} is tautological (it defines the compositum's third subfield). The seam is real but empty of values by itself.",
+    "arc": "B333"
+   },
+   {
+    "fact": "Beyond the known HCF statement, B334 banks the verified splitting law: a split prime of Q(sqrt-15) is principal iff it splits completely in Q(sqrt5,sqrt-3) iff p = 1,4 (mod 15); non-principal iff p = 2,8 (mod 15); cross-checked against the principal form x^2+xy+4y^2 with 0 mismatches. Genus theory: two ramified primes give genus-field degree 2^(2-1) = 2 = h, hence genus field = Hilbert class field.",
+    "arc": "B334"
+   },
+   {
+    "fact": "B334's reconciliation with B333: the seam is distinguished RELATIONALLY (its Hilbert class field is exactly the two ends) while generic INTRINSICALLY; the Z/2 class group is the principal/non-principal partition ('needs both ends to factor'); the handoff's 137 numerology was killed.",
+    "arc": "B334"
+   },
+   {
+    "fact": "The meeting's one genuine new invariant is a genus-theory Z/2: h(Q(sqrt-3)) = h(Q(sqrt5)) = 1 but Cl(Q(sqrt-15)) = Z/2; 2-rank = omega(disc)-1 = 1, so the Z/2 exists iff BOTH primes are present \u2014 'a product that leaves a Z/2 residue'.",
+    "arc": "B698"
+   },
+   {
+    "fact": "Analytic side FACTORED: the figure-eight A-polynomial's elliptic model is the conductor-15 curve 15a8 (j = -1/15, N = 3*5; elliptic-curve conductor sense; prior art Borot-Eynard); the weight-2 level-15 newform 15.2.a.a is non-CM, rank 0, eps = +1, Atkin-Lehner W3 = +1, W5 = -1; by Flath's tensor-product theorem primes 3 and 5 are independent Euler factors \u2014 'the two faces couple at 15' is falsified for L-functions; L(15a,1) = Omega/16 with Sha = 1; PSLQ finds no relation.",
+    "arc": "B698"
+   },
+   {
+    "fact": "K-group split on one isogeny class: the being hand's quantity m(A_41) = (3sqrt3/2pi)L(chi_-3,2) is the Borel regulator of K3^ind(Q(sqrt-3)), while the meeting's K2 Beilinson regulator is L'(15a,0) = m(1+x+1/x+y+1/y) on Deninger's curve 15a1 = X0(15) \u2014 a different curve in the same class; the 2.37% numerical near-miss m(A_41) vs L(15a,2) is a flagged trap; 'the two hands share a conductor, not a regulator'.",
+    "arc": "B698"
+   },
+   {
+    "fact": "Level-existence entanglement (complementary to B698's factoring): genus X0(3) = genus X0(5) = 0, so no weight-2 cusp form exists at either prime alone \u2014 the avatar E15 exists only at 15 = 3x5; bad-prime fingerprints differ, a3 = -1 (non-split multiplicative, being) vs a5 = +1 (split multiplicative, hearing); honesty clause: '15 is the first structured level' is FALSE (11 and 14 are genus-1 first).",
+    "arc": "B689"
+   },
+   {
+    "fact": "The class group ACTS on banked constants: sigma_cl (x,y,z,s) -> (x,-y,-z,s), the lift of Gal(H/Q(sqrt-15))'s generator, maps B382's bonus face to B397's face EXACTLY \u2014 two independently banked constants are one class-group orbit; the P60 'two Galois faces' are the Z/2 class group acting; the det-class split is class-group covariant. The registered sorting bet ('seam-channel primes are non-principal-or-ramified') was KILLED honestly by 7-inert sitting bright.",
+    "arc": "B401"
+   },
+   {
+    "fact": "Gauss-sum dossier: the program's component basis {1, sqrt5, sqrt-3, sqrt-15} IS the Gauss-sum basis {1, g(chi5), g(chi-3), g(chi-15)}; the banked S-normalizer g(15) = sqrt-15 is the seam character's own Gauss sum; the genus characters chi-3 * chi5 mirror the program's CRT tensor split.",
+    "arc": "B401"
+   },
+   {
+    "fact": "L-value facts: L(1,chi-15) = 2*pi*h/(w*sqrt15) = 2pi/sqrt15 with h = 2, w = 2 \u2014 the class number sits inside the seam character's L-value; the banked Lyapunov entropy = 4*Reg(Q(sqrt5)) = 2sqrt5*L(1,chi5) (Dirichlet); these accompany the known zeta_H = zeta * L(chi-3) * L(chi5) * L(chi-15) factorization (one factor per pillar; bar NOT cleared \u2014 no SM structure).",
+    "arc": "B401/B420"
+   },
+   {
+    "fact": "Genus selection rules with a cell-level mechanism: RULE 1 upgraded to a LOCAL law \u2014 every class-1 cell with chi-3(det(gamma'-I)) = +1 is individually Q(sqrt5)-real (z = 0 AND s = 0 on all 26 such cells; the 3-side Gauss sum enters only at non-residue determinants); RULE 2: the class-5 partial splits chi-3-EVENLY (-1/96 + -1/96) across a 16-fold population asymmetry.",
+    "arc": "B401"
+   },
+   {
+    "fact": "WHERE sqrt-15 lives (CLAIMS-tier P19/E1): in exact Q(zeta60) arithmetic the theta-lift Par-inserted pair invariant carries exact rational sqrt-15 components on 44/49 doubles, the canonical Par-commuting lift is sqrt-15-free on all 49, and every single-seed control is exactly clean; flagship tr(Par*P0*Q4) = -1/48 - (1/80)sqrt5 - (1/48)sqrt-3 + (1/48)sqrt-15; computed with the Galois H-average over Gal(Q(zeta60)/H) = {1,19,31,49} \u2014 H = Q(sqrt-3,sqrt5) embedded in Q(zeta60) is itself a banked compositum datum.",
+    "arc": "B358"
+   },
+   {
+    "fact": "The seam channel's higher-level arithmetic home (CLAIMS E16): at level 45 the pair table's 144 nonzero cells all carry sqrt-15-type content with genuine Q(zeta9)+ dependence \u2014 the home is the 12-dimensional compositum Q(zeta9)+ * Q(sqrt5,sqrt-3); and the seam envelope GROWS 15 -> 45 (1/48 -> ~0.02535, ratio ~1.217): the seam does not contract.",
+    "arc": "B372/B408"
+   },
+   {
+    "fact": "Seam spatial support law on the boundary torus (dual torus Z/20 x Z/12): ACTIVE 120 / DARK 120 exactly; y = 0 mod 3 all dark (the Eisenstein character gates the support completely); x = 0 mod 10 all dark; parity acts freely (60 orbits); at value level parity partners are CONJUGATE not equal (34 orbits, sizes {2:24, 4:2, 8:8}).",
+    "arc": "B431"
+   },
+   {
+    "fact": "In the F2 stage space (the known B704 structure), sqrt-15 is the vector being+hearing \u2014 the F2-sum realized by genus-theory discriminant multiplication p* . q* -> (pq)*; the space has NO canonical origin (B701), and the audibility law types it: p* audible iff p* > 0 iff p = 1 mod 4, so the seam vector (imaginary) is SILENT.",
+    "arc": "B704"
+   },
+   {
+    "fact": "The value's home is DOUBLY separated: J_N(4_1; zeta15) is real for all N (the amphichiral object carries zero sqrt-15 component); the monodromy route is closed (SL(2,Z) discriminants t^2-4 never hit -15), the commensurator route is closed (Neumann-Reid: the object's class is Bianchi O_-3; Q(sqrt-15) = Bianchi O_-15 is a different commensurability class), the filling route is generically closed \u2014 sqrt-15 exists only as the abstract compositum/class-field, never as a geometric quantity the object reaches.",
+    "arc": "B336"
+   },
+   {
+    "fact": "V4-SILENT across children: 0/78 closed children's fields contain sqrt-15 (54 odd-degree slopes excluded by a parity theorem); with B288/B740 (sqrt-3) and B747 (sqrt5), NO closed child re-sees any face of the forced V4 \u2014 the V4, hence the seam, is a property of the OPEN object (cusp/interface only).",
+    "arc": "B748"
+   },
+   {
+    "fact": "The only banked seam-vs-K contact: x^2+15 AND x^2-5 are irreducible over K (so sqrt-15 and sqrt5 are not in K), and the value tower satisfies N cap Q(sqrt-3) = Q; K's closure-tower quadratic subfields are exactly {sqrt77, sqrt-3, sqrt-231} (Gal(Mbar/Q) = S3 x C2) \u2014 none of them the seam's.",
+    "arc": "B937"
+   },
+   {
+    "fact": "K identity card (the charge cubic mu): det(48x48 minor)(t) = c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16, the enhancement locus 30 -> 46 = so(10)+u(1); solo's normalization is rho = 13t with theirs(13t) = 2197*mine(t) (mu13: same lead, constant 2197 = 13^3); irreducible, Galois S3, three real roots \u2014 K is TOTALLY REAL; type check so(10)+u(1) confirmed (derived 45, center 1).",
+    "arc": "B866"
+   },
+   {
+    "fact": "Polynomial disc of the charge cubic, BOTH normalizations banked and both correct (verified exactly on this bench): disc(t-version) = 2^32 3^10 5^2 7^3 11 13^6 (B866/B888's number) and disc(mu13, rho-version) = 2^32 3^10 5^2 7^3 11 13^12 (the number implicit in B931's 'disc(mu13)/13^12' Gram identity) \u2014 they differ by the 13^6 of the rho = 13t rescale; squarefree kernel 77 either way.",
+    "arc": "B866/B888/B931"
+   },
+   {
+    "fact": "FIELD disc vs poly disc IS stated: disc(K) = 6237 = 3^4 * 7 * 11 computed by round_two; disc(mu13) = disc(K) * index^2 with 2 and 3 dividing the index of every pipeline model \u2014 'the odd cofactor never reaches the twist because d's poles live only over 2 and 3, where K is arithmetically singular'.",
+    "arc": "B931"
+   },
+   {
+    "fact": "lc(mu13) = 500716339200 = 2^16 3^4 * 5^2 7^3 11 = 2304^2 * 5^2 7^3 11, and 2304 is DERIVED as the {2,3}-part of lc(mu13) \u2014 the 2304^2 in every banked twist minpoly lead.",
+    "arc": "B931"
+   },
+   {
+    "fact": "K is MONOGENIC: K = Q[rho]/mu13 = Q[s]/(s^3 - 12s - 5), O_K = Z[s], index 1, disc 6237 \u2014 found by round_two search after both pipeline models failed prime_decomp at p = 5, 7; every place of every prime now reachable (B931's 5,7 blind spots gone); valuations by ideal-lattice membership plus an independent p-adic Newton-lift belt (10/10 agree).",
+    "arc": "B937"
+   },
+   {
+    "fact": "K's ramified set is exactly {3, 7, 11}: 3 = p3^3 totally (wildly) ramified \u2014 v3(disc) = 4; 11 tamely ramified; 7 tame (v7 = v11 = 1). NOTE: the task's LXVIII summary line 'ramified {7,11}' matches the banked phrase 'disc kernel {7,11}' (squarefree kernel, B909/B969/B978 language), NOT the ramified set \u2014 the banked record (B931: 'K's ramified primes are exactly {3,7,11}') includes 3.",
+    "arc": "B931"
+   },
+   {
+    "fact": "Splitting shapes banked: 2 = Q1*Q2 splits [1,2] ('like 953'); 5 splits [1,2] (q1 deg 1, q2 deg 2, unramified); 953 = P1*P2 [1,2] with f(P1) = 1 THE OBSERVER'S PLACE and f(P2) = 2 the mirror; 13/17/19 inert (known LXVIII rows) \u2014 all re-verified exactly on this bench in the monogenic model, including 13 = [3].",
+    "arc": "B931/B937"
+   },
+   {
+    "fact": "Class-field frame: Q(sqrt77) is K's OWN S3-resolvent (disc K = 3^4 * 77), and a prime has the [1,2] pattern iff it is inert in Q(sqrt77): (77|p) = -1 for 953, 29, 72869, 1129, 421493 (and 2) \u2014 the transposition Frobenius class \u2014 while the S-mass prime 20417473 has +1 and splits completely [1,1,1]; B937 adds 5, 149, 17681 to the -1 class. All symbols re-verified here.",
+    "arc": "B931/B937"
+   },
+   {
+    "fact": "The divisor map: (d_S) = P1(953)^2 Q1(2)^-4 Q2(2)^-6 p3^-4 and (d_A) = P2(953)^1 Q1(2)^-6 Q2(2)^-5 p3^-4 \u2014 both norm to -(953/2304)^2 by DIFFERENT ideal shapes (N(P1^2) = N(P2) = 953^2): the banked same-norm law is a norm-level coincidence of two distinct divisors; fingerprint: disc(mp_dA), disc(mp_mA) carry 953^2 while the S-side discs are 953-free; the S-vs-A separations carry 953^2 * 17681 (new cofactor prime).",
+    "arc": "B931"
+   },
+   {
+    "fact": "What 953 IS: the half-flip locus \u2014 the places of K where the flip mass m = 1/2; the S-family vanishes there doubly at the observer's degree-one place (tangency), the A-family simply at the degree-two place; 953 appears in NO upstream rational invariant (whitelist exhausted: discs, leads, constants, contents, 10 resultants, 23 values each, trace-Gram, block Grams, eigenline data) \u2014 it is born in the twisted-form resultant. Level song: both families sing 953^2 at m = 1/2, and the resolvent primes split by sign at the unit levels \u2014 11 at m = +1, 7^2 at m = -1, in BOTH families (unexplained, registered).",
+    "arc": "B931"
+   },
+   {
+    "fact": "den(V) = P1(953)^4 EXACTLY \u2014 the hierarchy element's entire denominator sits on the observer's degree-one place (none on the mirror); the other two value primes enter as numerator congruences: at 421493 (e1's prime) the trace of the V-residues vanishes; at 1129 (e2's prime) the second symmetric function vanishes; V's minimal cubic is led by 953^4 and is 'the seventh cubic of the sqrt77 family'; [alpha_V] = C, the charge class.",
+    "arc": "B918"
+   },
+   {
+    "fact": "The mixing element W (S-vs-A overlap^2): (W) = q1(5)^6 q2(5)^3 P1(953)^-2 P2(953)^-1, N(W) = 5^12/953^4; the banked 953^4 lead is DERIVED as N(P1^2 P2); W is the unique object seeing both 953-places; the OBSERVER-PLACE LAW: the cross-generation overlap is supported entirely on degree-TWO places (q2^3 P2^-1), so off-diagonal mixing never touches the observer's place \u2014 the diagonal carries it with exactly d_S's exponent.",
+    "arc": "B937"
+   },
+   {
+    "fact": "Q(sqrt5) does NOT enter K's arithmetic \u2014 decided four ways: (1) W generates K and an S3 cubic's splitting field has exactly one quadratic subfield, Q(sqrt77); (2) Gal(Mbar/Q) = S3 x C2 has exactly three quadratic subfields Q(sqrt77), Q(sqrt-3), Q(sqrt-231), none Q(sqrt5); (3) x^2-5 irreducible over K; (4) 5 does not divide disc K. Verdict: 5 is a residue characteristic (of the two places carrying the mixing numerator), correcting B930's 'golden prime' reading; consolation: (6237|5) = -1, so 5 joins the sqrt77 transposition class.",
+    "arc": "B937"
+   },
+   {
+    "fact": "The matter pencil P(x,lambda) = F1^1 * F2^8 (both cubic in x): the mult-8 generic-weight orbit's field is ISOMORPHIC to K (sympy field_isomorphism, exact); the mult-1 vacuum/singlet orbit's field is NOT isomorphic to K \u2014 a second cubic field, 'a brand-new arithmetic invariant'; mu is the pencil's branch-collision locus (its third independent appearance); collision design S3-equivariant (Latin-square-like).",
+    "arc": "B886"
+   },
+   {
+    "fact": "The resolvent-entangled three-field structure: vacuum-weight cubic (disc 2^70 3^18 5^6 7^9 11^3 13^6), generic-weight cubic (2^64 3^18 5^6 7^9 11^3 13^6, field = K), and mu (2^32 3^10 5^2 7^3 11 13^6) ALL share squarefree part 77 = 7*11 \u2014 one quadratic resolvent Q(sqrt77) inside all three S3 closures; vacuum not-isomorphic-to-K yet resolvent-entangled: the compositum's Galois group sits in the fiber product S3 x_C2 S3 (order 18), not S3 x S3; the two weight cubics differ only 2-adically (2^70 vs 2^64).",
+    "arc": "B888"
+   },
+   {
+    "fact": "The exponent echo (observation, no mechanism claimed): 77 = 7*11 = the product of exactly the UNMEASURED superselection-charge exponent pair (7,11) \u2014 the measured plane is the (4,8) pair; B894's concordance banks 'the resolvent field is built from exactly the unmeasured slots'; the novelty sweep priced it: (7,11) is the UNIQUE product-77 pair among all 15 E6 exponent pairs (1-of-15 base rate), and named W4/KMRT (resolvent = discriminant datum of the etale algebra) as the formalization home.",
+    "arc": "B888/B894"
+   },
+   {
+    "fact": "Knus-Paques theorem: in the group of cubic algebras with resolvent Q(sqrt77), i.e. F*/(F*)^3 with F = Q(sqrt77, sqrt-3), the vacuum and charge fields are mutually INVERSE classes \u2014 [alpha_vac] = [alpha_mu]^-1, vacuum + charge = the split algebra (they annihilate) \u2014 with no unit twist; charge = generic class (control); certificates gamma1 = (73008/7)(1+sqrt-3), gamma2 = (30901351219200/13)(1+sqrt-3) live entirely in the cyclotomic line; the twist set used eps77 = (9+sqrt77)/2, the fundamental unit of the resolvent.",
+    "arc": "B902"
+   },
+   {
+    "fact": "The One-Field / one-CLASS theorem: the compact wall cubic kappa (constant -19^3, disc 2^28 3^10 5^6 7^3 11 19^12, kernel {7,11}) splits [1,2] over K with an exact certified K-root, and [alpha_kappa] = [alpha_mu] \u2014 compact and noncompact walls are the SAME Knus-Paques element, same orientation; full Z/3 table: mu = gen = kappa = C, vac = C^-1; numerator law alpha_mu carries 13^6 (noncompact prime) vs alpha_kappa 19^6 (compact prime); direct certificate alpha_mu/alpha_gen = (const(mu)/lead(mu))^3 = (2197/500716339200)^3. The six-cubic sqrt77 law is banked by B909's nu_exact leg (nu = c*kappa^6 exact).",
+    "arc": "B910/B909"
+   },
+   {
+    "fact": "All four Pi-block LABEL cubics (vacuum/octet x c8/c16, each led by 2197 = 13^3, each with squarefree disc part 77) acquire a linear factor over K \u2014 each generates K; the exact frame 1-cocycle is the DIAGONAL S3 action on mu's roots (stronger than the fiber product's sign-equality); scope split: B888's not-isomorphic-to-K statement concerns the weight-cubic pair, the label cubics are all K-rational.",
+    "arc": "B900"
+   },
+   {
+    "fact": "The colored sector opens K(omega), omega = sqrt-231 = sqrt77 * tau: the colored sextic h_col is the K-norm form of ONE quadratic x^2+px+q with p,q in K, disc p^2-4q = -231*w_c^2 (NOT the colorless -3*w^2 mechanism) \u2014 the Kummer field F = Q(sqrt77,sqrt-3) appears INSIDE the object; and sqrt77 lies in K's Galois closure N explicitly: S77 = delta/(13^6/449810178048000) satisfies S77^2 = 77 exactly (delta = root-difference product) \u2014 a certified square root in the closure.",
+    "arc": "B923"
+   },
+   {
+    "fact": "L138 fired (Kato-Yukie): the object's canonical pair (the vacuum 3-block) has orbit invariant K \u2014 all three pencil cubics irreducible with kernel {7,11}, and the monogenic mu = s^3-12s-5 acquires a root in each Q[x]/P, so Q[x]/P = K exactly; [1,2] not [1,1,1] is the CORRECT signature since K is non-Galois; scope limit banked: orbits, not points. B978 adds the gauge-invariance statement: the disc squarefree kernel {7,11} survives the Q*-gauge while coefficient supports do not (L137 refuted on exactly this).",
+    "arc": "B969/B978"
+   },
+   {
+    "fact": "Biography verification pass: mu mod p = [1,2] at 953, 1129, 421493 and 17, 19 inert all check; the naive 13-pattern [1,1,1] in the mu13 model is an INDEX ARTIFACT (13 divides the model index; 13^12 in disc mu13) \u2014 the careful route reproduces the [1,2]/inert table; disc(HIER cubic) = 2^64 3^24 5^6 7^3 11 * 73^2 * 214189^2, introducing the new index primes 73 and 214189.",
+    "arc": "B917"
+   },
+   {
+    "fact": "Branch-symmetric layer: N(V)/N(W) = 2^32 * 3^11 / 5^12 \u2014 the observer's prime 953 cancels exactly in the ratio, and the numerator IS 27*2304^4, the product law's integer (same fact as solo's e3(V) = 27*lambda^4 reached independently; lambda = 2304/953 is FORCED by solving e3(V)/27); N(d_S) = N(d_A) exactly; the seven families' symmetric-function prime support = {2,3,5,7,11,13,17,19,23,31,71,151,349,367,677,953,1129,35257,421493,20417473}; degree grading (L130 thinning law): residual primes {13,421493} at degree 1, {17,1129} at degree 2, NONE at degree 3.",
+    "arc": "B941/B946"
+   },
+   {
+    "fact": "RETRACTION on K's biography: 'cubic-cyclic K' was retracted same-day and proven wrong on-bench \u2014 a cyclic cubic has square discriminant, disc mu's squarefree part is 77 \u2014 corrected to: K is a NON-GALOIS cubic with splitting closure S3 and quadratic resolvent Q(sqrt77), the resolvent now understood as FORCED by the S3 structure; the ONE-K finding: all six arithmetic-consuming novelty rows consume the same K via three handles (13^3 leading / 77 kernel / 953 norm) \u2014 independent novelty candidates: ONE.",
+    "arc": "RETRACTIONS/NOVELTY_SWEEP_LEDGER"
+   },
+   {
+    "fact": "29 is COINCIDENCE (pre-declared whitelist printed: 84 integers, 2 hits, budget 2.9; opposite S/A sides, different kinds, one appearance basis-dependent); side finds banked with it: both registers' rotation quadratics share disc 200256 exactly \u2014 one quadratic field Q(sqrt3129), 3129 = 3*7*149 (149 new to the record); 677 is inert in K and recurs in both overlap minpolys (coincidence-level, registered R3).",
+    "arc": "B937"
+   },
+   {
+    "fact": "The mu-normalization control also banks x_o = 0 exactly: the same-generation twisted overlap h'(S_g, A_g+) has zero tau-part \u2014 it lies in K, not merely in the tower N \u2014 so |h'|^2 is a perfect square in K; and the gauge-invariant u = W*d_S*d_A has divisor supported exactly over {2,3,5}: N(u) = 5^12/2304^4, tying the golden numerator to the twist-free part.",
+    "arc": "B937"
+   }
+  ],
+  "gaps": [
+   "K's class group is OPEN (B931 residue #2; B937 R5): principality of P1(953) and q1(5) undecided \u2014 blocks '953 = |N(pi)|' and the (num d_S) = (pi)^2 upgrade; the monogenic model makes the computation cheap now. No units/regulator/fundamental-unit data for K is banked anywhere (only 'three real roots').",
+   "Ramification SHAPES at 7 and 11 are not explicitly banked (this bench verified p^2*p' at both, tame; only 3 = p3^3 and 'tamely-ramified 11' are stated); and the LXVIII line 'ramified {7,11}' needs one reconciling sentence against the banked ramified set {3,7,11} \u2014 kernel-vs-ramified-set language currently collides (B894 even calls disc mu's 5^2 a 'ramification' channel, though 5 is unramified in K proper \u2014 poly-disc vs field-disc language unreconciled).",
+   "The 13^6 vs 13^12 disc statements (B866/B888 t-normalization vs B931's mu13 Gram identity) are both correct but never reconciled in one document \u2014 a K biography needs the normalization convention stated once (verified here: rescale rho = 13t accounts for exactly 13^6).",
+   "The six-cubic sqrt77 law's membership is not enumerated in any banked doc: B972's scout pinned five (mu, generic, vacuum, kappa, V) with HIER called 'the seventh' by B918, and could not name the sixth; B911 CMT_DRAFT registers the completeness question ('is there a seventh pencil cubic, must it share the resolvent') \u2014 register-only.",
+   "Field discriminants PROPER of the vacuum- and generic-weight cubics (vs their polynomial discs) and the ramification detail at 2 \u2014 B888's own 'priced next step' \u2014 remain unbanked; the vacuum field's full invariants (field disc, closure relation to K's beyond the shared resolvent) are B886's named follow-up, still open.",
+   "Where the integers 953 and 5 come from (pipeline-free closed forms) both OPEN (B931 residue #1, B937 R1); the 5-part of (W) being a perfect cube has no mechanism (B937 R2); the 7-vs-11 sign split at the unit flip levels (11 at m=+1, 7^2 at m=-1, both families) is new and unexplained (B931 addendum).",
+   "Seam side: nothing banked on the NON-maximal order beyond the label disambiguation \u2014 h(-60), its ring class field, and which order the A-polynomial splitting field actually selects are all absent (B730 only warns about the -60 label).",
+   "No banked statement relates the seam's tower to K's: N cap H, the compositum H*N, or any joint Galois container for {sqrt-3, sqrt5, sqrt-15} x {sqrt77, sqrt-231} \u2014 the only banked contact is B937's x^2+15 irreducible over K. A joint biography section has no source to cite.",
+   "The seam's L-function facts are special-value only (B420: 'bar NOT cleared'); no conductor/functional-equation-level data for chi-15, and B334's mod-15 splitting law has never been joined to B401's prime-class table in one document (B401 stops at p = 23).",
+   "'Seam' is overloaded in the corpus and a biography must disambiguate: TERMINOLOGY canonicalizes B704's F2 stage space as 'the seam'; the task's sense (the Q(sqrt-15) value channel: B358 seam-bearing doubles, B408 seam envelope, B401 seam character) and B286's object/nothing boundary are distinct usages; likewise 'the meeting' (B730's V4 face) vs B707's 'meeting points'.",
+   "B918's registered Galois-compatibility question is open: does the generation functor's S3-action permute V's three conjugates compatibly with the Kummer orientation \u2014 the value-layer edge of B910's wall-matching follow-up.",
+   "No archimedean biography for K: the observer is tied to 953's degree-one place, but which real embedding plays the analogous role (K is totally real) is nowhere addressed; verified-but-unbanked here: HIER's index primes 73 and 214189 both split completely ((6237|p) = +1) \u2014 worth banking when the biography lands."
+  ],
+  "notes": "Tier flags: B937, B918, B941 FINDINGS are marked DRAFT (exact tier) in-file; B972 is a worker cell banked via B978 (its 138-prime Chebotarev one-field table is scout-tier, corroborated by the banked B909/B910 One-Field theorem, B918, B937). CLAIMS.md rows P17-P19, P65, P67, E1, E16 are the seam channel's claims-tier facts (B358/B368/B369/B383/B390/B372). Verification performed in-sandbox (sympy, exact): disc(t-cubic) = 2^32 3^10 5^2 7^3 11 13^6; disc(mu13 rho-version) = ...13^12 (resolves the apparent B888-vs-B931 exponent clash as pure normalization \u2014 both banked numbers correct); lc(mu13) = 2^16 3^4 5^2 7^3 11; disc(s^3-12s-5) = 6237 = 3^4*7*11 with index^2 = (2^16 3^3 5*7*13^3)^2 against the t-version; monogenic-model splitting verified at 2,3,5,7,11,13,17,19,23,29,73,149,677,953,1129,17681,72869,214189,421493,20417473 \u2014 every banked shape and every (6237|p) class-law instance checks, incl. 3 = (lin)^3, 7 and 11 = lin*lin^2. Hazards honored: the elliptic curve in the seam biography is 15a8 (elliptic-conductor 15; 15a1 = X0(15) is the isogeny-mate carrying Deninger's measure) \u2014 never merged with 40a1; 'conductor' above always = elliptic-curve conductor (not B675's cusp-hosting sense nor B666's); 'level' in seam rows = MTC/quantum level (15/45), not B1013's congruence sense. The SM_STRUCTURE_LEDGER document itself is NOT in this repo (solo-seat handoff, integrate-don't-merge); its LXVIII biography is repo-verified through B917 and cited by NOVELTY_SWEEP_LEDGER ('953-same-K confirmed by LXVIII'). Known facts (B334/B401/B420/B704 + LXVIII rows) were re-confirmed in situ but rows above carry only what is BEYOND the task's known list, except where a banked refinement attaches to a known fact (B334 splitting law, B401 frame)."
+ },
+ {
+  "results": [
+   {
+    "id": "rayclass-filtration-def",
+    "verdict": "REBUILT",
+    "method": "Verified the formula's three hypotheses by enumeration, then instantiated the standard ray-class exact sequence 1 -> O^x/U_{n,1} -> (O/n)^x -> Cl_n -> Cl(K) -> 1 (Neukirch VI.1.9): K imaginary quadratic (minpoly disc of omega = -3 < 0) so r1=0 and the modulus has NO real-place part; h(K)=1 (reduced-form enumeration) kills the Cl(K) term; O^x = mu_6 (complete norm-1 enumeration, positive-definiteness makes the box a proof). Hence Cl_n = (O/n)^x / im(mu_6).",
+    "computed": "disc = -3 < 0 (no real places); h(-3) = 1 (only reduced form (1,1,1)); O^x = {+-1,+-omega,+-omega^2} = exactly the 6 norm-1 elements = <omega> cyclic of order 6; instantiated at n=2,4,8: |Cl| = 3/3=1, 12/6=2, 48/6=8. The E23 naming and B737-P5 provenance labels are file metadata, taken as given; the mathematical definition is rebuilt."
+   },
+   {
+    "id": "two-inert-in-K",
+    "verdict": "REBUILT",
+    "method": "Two independent routes: (a) minpoly x^2-x+1 of omega evaluated mod 2; (b) enumeration shows no element of norm 2, and h=1 means every ideal is principal, so no ideal of norm 2 exists, excluding both split and ramified. Then built O/2 explicitly.",
+    "computed": "x^2-x+1 mod 2 takes values [1,1] at x=0,1 -> irreducible -> 2 inert. O/2 has 4 elements; all 3 nonzero residues {(0,1),(1,0),(1,1)} are units (explicit inverses constructed), omega mod 2 has order 3 -> (O/2)^x cyclic of order 3 -> O/2 = F_4. |(O/2)^x| = 3."
+   },
+   {
+    "id": "unit-group-orders-2powers",
+    "verdict": "REBUILT",
+    "method": "Route A direct enumeration of (O/2^k)^x for k=1,2,3: residues (a,b) in [0,n)^2 with gcd(N(a+b*omega), n)=1, each unit-ness PROVEN by constructing the inverse conj(x)*N(x)^{-1} mod n and checking the product is 1.",
+    "computed": "|(O/2)^x| = 3, |(O/4)^x| = 12, |(O/8)^x| = 48; formula 4^k*(1-1/4) gives 3, 12, 48 \u2014 exact match at all three levels."
+   },
+   {
+    "id": "mu6-image-mod2-order3",
+    "verdict": "REBUILT",
+    "method": "Reduced all 6 units mod 2 elementwise; counted distinct images and computed the kernel.",
+    "computed": "im(mu_6) mod 2 = {(0,1),(1,0),(1,1)}, order 3; units mapping to 1 are exactly {1, -1} \u2014 kernel contains -1 (-1 = 1 mod 2), as claimed."
+   },
+   {
+    "id": "mu6-injects-mod4",
+    "verdict": "REBUILT",
+    "method": "Reduced all 6 units mod 4 and mod 8 elementwise; counted distinct images.",
+    "computed": "mod 4: {(0,1),(0,3),(1,0),(1,3),(3,0),(3,1)} \u2014 6 distinct -> injective, |im| = 6; mod 8: {(0,1),(0,7),(1,0),(1,7),(7,0),(7,1)} \u2014 6 distinct, |im| = 6."
+   },
+   {
+    "id": "rayclass-mod2-trivial",
+    "verdict": "REBUILT",
+    "method": "Elementwise coset partition of (O/2)^x by im(mu_6).",
+    "computed": "3 units / im of order 3 = exactly 1 coset -> Cl_(2) trivial, |Cl| = 1 = palette(2)."
+   },
+   {
+    "id": "rayclass-mod4-z2",
+    "verdict": "REBUILT",
+    "method": "Elementwise coset partition of (O/4)^x (12 units, each verified invertible) by the order-6 image of mu_6; a group of order 2 is Z/2. The Galois statement Gal(RCF(4)/K) = Cl_4 is Artin reciprocity (cited theorem) applied to the computed group; every abelian extension of conductor dividing (4) lies in RCF(4), so the level-(4) truncation is exactly this Z/2.",
+    "computed": "|(O/4)^x| = 12, |im mu_6| = 6, coset reps [(0,1),(1,1)] -> |Cl_4| = 2, Cl_4 = Z/2. (The file's T2 request for a PARI bnrinit re-derivation is metadata; this rebuild is by direct enumeration, matching the claimed values.)"
+   },
+   {
+    "id": "rayclass-mod8-order8",
+    "verdict": "REBUILT",
+    "method": "Elementwise coset partition of (O/8)^x (48 units) by the order-6 image of mu_6; also computed the quotient's group structure from coset element orders.",
+    "computed": "|(O/8)^x| = 48, |im mu_6| = 6, 8 cosets -> |Cl_8| = 8 as claimed; bonus: element orders [1,2,2,2,4,4,4,4] -> Cl_8 = Z/4 x Z/2."
+   },
+   {
+    "id": "hecke-palette-128",
+    "verdict": "REBUILT",
+    "method": "Same three coset computations; the interpretive clause follows: |Cl_(2)| = 1 means the only Hecke/ray-class character of modulus (2) is trivial, whose L-function is zeta_K. 'Conductor' here read as the Hecke-character modulus (neither B675's nor B666's quantity), matching the claim's own disambiguation.",
+    "computed": "palette = (|Cl_2|, |Cl_4|, |Cl_8|) = (1, 2, 8) \u2014 reproduces the banked triple and the TOMB audit dict values palette(2)=1, palette(4)=2, palette(8)=8. The PASS-record itself is file metadata; the numbers are independently rebuilt."
+   },
+   {
+    "id": "cusp-cm-conductor4-order",
+    "verdict": "REBUILT",
+    "method": "Symbolic multiplier-ring computation in sympy: alpha = x + y*sqrt(-3) with alpha*1 and alpha*(2 sqrt(-3)) forced into Lambda; maximality checked by excluding sqrt(-3) and omega as multipliers (orders between Z[2 sqrt(-3)] and O_K correspond to f | 4, and f=1,2 are excluded). Index via change-of-basis determinant; discriminants via exact trace forms.",
+    "computed": "End(Lambda) = Z + 2 sqrt(-3) Z = Z[2 sqrt(-3)] exactly; 2 sqrt(-3) = 4*omega - 2 so Lambda = Z + 4 O_K (order-conductor f = 4); [O_K : Lambda] = |det[[1,0],[-2,4]]| = 4; disc(Lambda) = -48 by trace form; disc(O_K) = -3; f^2 * d_K = 16*(-3) = -48. All four claimed values reproduced."
+   },
+   {
+    "id": "h48-forms-ringclass-order2",
+    "verdict": "REBUILT",
+    "method": "Full enumeration of reduced primitive forms of disc -48 (standard reduction -a < b <= a <= c, b >= 0 on boundary, gcd 1); independent cross-check of the ring class group: Pic(O_{-48}) = (O/4)^x / (mu_6 * (Z/4)^x), computed elementwise.",
+    "computed": "Reduced primitive forms of disc -48: exactly [(1,0,12), (3,0,4)] -> h(-48) = 2; cross-check: (Z/4)^x = {1,3} with 3 = -1 already in im(mu_6), so Pic(O_{-48}) = (O/4)^x/mu_6, order 12/6 = 2. Both routes give order 2."
+   },
+   {
+    "id": "h-minus3-is-1",
+    "verdict": "REBUILT",
+    "method": "Full enumeration of reduced primitive forms of disc -3.",
+    "computed": "Exactly one reduced form: (1,1,1) -> h(-3) = 1; |disc K| = 3 (minpoly disc of omega = 1-4 = -3)."
+   },
+   {
+    "id": "class-poly-H48",
+    "verdict": "REBUILT",
+    "method": "Computed j at both disc -48 CM points (tau = 2 sqrt(-3) for (1,0,12), tau = 2i/sqrt(3) = sqrt(-48)/6 for (3,0,4)) by TWO independent methods at mp.dps = 60: mpmath kleinj*1728 and my own Eisenstein q-series j = 1728 E4^3/(E4^3 - E6^2) with exact sympy divisor sigmas; formed (x-j1)(x-j2); verified coefficients both numerically and as exact integers; sympy minimal_polynomial on the claimed algebraic root.",
+    "computed": "Two-method agreement: |kleinj - qseries| = 7.8e-46 (tau1), 9.6e-58 (tau2). j1+j2 = 2835810000 with residual 2.7e-51; j1*j2 = 6549518250000 with residual 4.1e-48. Exact integers: 2*1417905000 = 2835810000; 1417905000^2 - 3*818626500^2 = 6549518250000. sympy minpoly(1417905000 + 818626500 sqrt3) = t^2 - 2835810000 t + 6549518250000 exactly. H_-48 reproduced coefficient-for-coefficient (strictly the ring class polynomial of the non-maximal disc -48 order, as the claim itself notes)."
+   },
+   {
+    "id": "j-2sqrt-minus3-exact",
+    "verdict": "REBUILT",
+    "method": "mpmath at 60 digits (cross-checked by independent q-series), compared against the claimed algebraic value; nsimplify recovery of sqrt(3); root ordering checked.",
+    "computed": "j(2 sqrt(-3)) = 2835807690.422283527729846052484757025197 (40 digits shown); |j1 - (1417905000 + 818626500 sqrt3)| = 2.7e-51 (>= 30-digit match); larger root: True. Conjugate j(2i/sqrt(3)) = 2309.57771647227, |j2 - (1417905000 - 818626500 sqrt3)| = 6.9e-53 \u2014 matches the claimed 2309.578 / 2309.57771647. nsimplify((j1 - 1417905000)/818626500) = sqrt(3). Sum/product reproduce the H_-48 coefficients exactly (see class-poly-H48)."
+   },
+   {
+    "id": "ringclass-eq-rayclass-mod4",
+    "verdict": "REBUILT",
+    "method": "Degree-and-ramification argument with every input computed: (1) degrees: h(-48) = 2 = |Cl_4|. (2) Same-quotient identity: (Z/4)^x sits inside im(mu_6) (3 = -1 mod 4), so Pic(O_{-48}) and Cl_4 are the SAME quotient of I(4) \u2014 ring class field and ray class field mod (4) coincide by CFT uniqueness. (3) Explicit field: verified on ALL 12 units of (O/4)^x that [u in im(mu_6)] <=> [N(u) = 1 mod 4], so the nontrivial Cl_4-character is norm-mod-4; the elementary splitting law (odd prime pi splits in K(i) iff 4 | N(pi)-1, since F_q contains i iff 4 | q-1) was checked against the coset of pi for all 94 primes 3 <= p < 500 with 0 mismatches -> RCF(4) = K(i). (4) sympy identities: zeta12 + 1/zeta12 = sqrt(3), zeta12^3 = i, zeta12^4 + zeta12^2 = sqrt(-3), minpoly(zeta12) = t^4 - t^2 + 1 (degree 4), minpoly(i + sqrt3) degree 4 -> K(i) = K(sqrt3) = Q(i, sqrt3) = Q(zeta12), degree 2 over K.",
+    "computed": "Ring class field of Z[2 sqrt(-3)] = ray class field of K mod (4) = K(sqrt3) = Q(i, sqrt3) = Q(zeta_12), both degree 2 over K \u2014 reproduced. j1 = 1417905000 + 818626500 sqrt3 lies in Q(sqrt3), so K(j1) = K(sqrt3) = Q(zeta12), consistent with H_O = K(j) (CM main theorem, cited). Precision caveat: the T3 phrase 'splitting field of H_-48 is Q(zeta_12)' holds for the splitting field OVER K (K adjoin the roots = Q(zeta12)); over Q alone the splitting field is the real quadratic Q(sqrt3) \u2014 the identification is correct in its CM context, stated here exactly."
+   },
+   {
+    "id": "rayclass-z2-permutes-forms",
+    "verdict": "REBUILT",
+    "method": "Computed that the two H_-48 roots are distinct and swapped by the nontrivial element of Gal(K(sqrt3)/K) (sqrt3 -> -sqrt3); matched each root to its form numerically (j at tau = 2 sqrt(-3) for (1,0,12), at tau = 2i/sqrt(3) for (3,0,4), each to ~50 digits); with Pic(O_{-48}) = Cl_4 computed as the same order-2 quotient, the class-group action on the 2 form classes is the regular action, so the nontrivial mod-(4) ray class is the transposition.",
+    "computed": "Nontrivial Cl_4 element = Gal(Q(zeta12)/K) generator swaps j1 = 2835807690.42... (form (1,0,12)) and j2 = 2309.5777... (form (3,0,4)); an order-2 group acting simply transitively on 2 classes has its nontrivial element = the swap of (1,0,12) and (3,0,4). Claim reproduced."
+   },
+   {
+    "id": "zetaK-factorization-residue",
+    "verdict": "REBUILT",
+    "method": "(a) Coefficientwise factorization: lattice enumeration of all elements of norm n, bucketed, divided by 6, compared to sum_{d|n} chi_-3(d) for every n <= 300 (this is the Dirichlet-coefficient identity of zeta_K = zeta * L). (b) Exact L-value: sympy expand_func gives psi(2/3) - psi(1/3) = sqrt(3)pi/3, so L(1) = pi/(3 sqrt3); numeric series and digamma routes at 60 dps. (c) Slope: full lattice count of ideals of norm <= 2e5.",
+    "computed": "r(n) identity verified for all 1 <= n <= 300 (True). L(1, chi_-3) = pi/(3 sqrt3) = 0.6045997880780726168646927525474 (series and digamma agree with the closed form to 7.8e-62); 2pi/(6 sqrt3) - pi/(3 sqrt3) = 0 exactly. Ideal count to X = 200000: 725550 lattice points / 6 = 120925 ideals -> measured slope 120925/200000 = 0.604625 \u2014 EXACT match to the claimed in-sandbox slope 0.604625."
+   },
+   {
+    "id": "ideal-count-formula",
+    "verdict": "REBUILT",
+    "method": "Same enumeration: for each n <= 300, #\\{(a,b) : a^2+ab+b^2 = n\\} counted in a complete box, checked divisible by 6, quotient compared with sum_{d|n} chi_-3(d).",
+    "computed": "r(n) = sum_{d|n} chi_-3(d) verified for all 1 <= n <= 300 with zero mismatches; spot values r(2)=0, r(3)=1, r(4)=1, r(7)=2, r(49)=3. (The BC-Hamiltonian degeneracy framing is the file's reading; the arithmetic content is what is rebuilt.)"
+   },
+   {
+    "id": "units-mu6-maximal",
+    "verdict": "REBUILT",
+    "method": "Complete enumeration of norm-1 elements (positive-definiteness bound makes the box exhaustive) and matching against powers of omega; Dirichlet rank r1 + r2 - 1 = 0 so units = torsion; maximality by sweeping ALL fundamental discriminants -3 >= d >= -200 and counting unit solutions x^2 + |d| y^2 = 4.",
+    "computed": "O_K^x = {(\u00b11,0),(0,\u00b11),(1,-1),(-1,1)\\} = <omega>, exactly 6 elements. Sweep: w(d) = 6 only at d = -3, w(d) = 4 only at d = -4, w(d) = 2 for every other fundamental disc in [-200, -3] -> mu_6 is maximal among imaginary quadratic fields. (The 1997/1999 pre-CMR failure-mode anecdote is file metadata, not a computation.)"
+   },
+   {
+    "id": "ideals-monoid-mod-units",
+    "verdict": "REBUILT",
+    "method": "h(-3) = 1 computed (forms), so every ideal is principal and (alpha) = (beta) iff alpha/beta in O^x = mu_6 (computed); the map alpha*mu_6 -> (alpha) is then a multiplicative bijection. Verified numerically in range: element-count at each norm is exactly 6 * ideal-count.",
+    "computed": "#\\{elements of norm n\\} = 6 * r(n) for all 1 <= n <= 300 (every bucket divisible by 6, quotient matching the divisor-sum ideal count) -> integral ideals = (O \\\\ 0)/mu_6 as monoids. (The LLN / Laca-Neshveyev-Trifkovic cross-check flag is the file's TODO, metadata here.)"
+   },
+   {
+    "id": "prime-support-23",
+    "verdict": "REBUILT",
+    "method": "sympy factorint on every member of the audited set; phi-power check via exact expansion phi^k = F_k phi + F_{k-1} (nonzero sqrt5-coefficient for k = 1..60 -> irrational) and phi^-k in (0,1); covolume of the cusp lattice recomputed exactly.",
+    "computed": "3 = \\{3\\}, 48 = 2^4*3, 4 = 2^2, 12 = 2^2*3 (twice), 1 = \\{\\}, 2 = 2, 8 = 2^3 -> support union \\{2,3\\}, 5 ABSENT. No member is a nontrivial phi-power (phi^k irrational for all k != 0, phi^-k in (0,1)). covol(Lambda) = Im(2 sqrt(-3)) = 2 sqrt3, covol^2 = 12 exactly. Note: the VALUE 'covering degree = 12' is a topological input of theirs \u2014 its arithmetic (2^2*3, no 5, not a phi-power) is verified; its own derivation is outside this seat."
+   },
+   {
+    "id": "sister-m003-maximal-order-j0",
+    "verdict": "REBUILT",
+    "method": "Arithmetic content rebuilt: multiplier ring of Z + omega Z is O_K itself (alpha*1 in O_K forces alpha in O_K; O_K is a ring); disc and h from the trace form and form enumeration; j at the hexagonal point via 60-digit kleinj at zeta_3 and e^{i pi/3}; palette(1) from the Cl_2 computation.",
+    "computed": "End(Z + omega Z) = O_K (maximal order, conductor 1), disc = -3, h(-3) = 1; |1728*kleinj(zeta_3)| = 3.3e-178 and |1728*kleinj(e^{i pi/3})| = 3.0e-179 -> j = 0 exactly (known exact value, confirmed to ~178 digits); palette at level (2) = 1 -> only the trivial character mod (2) -> only zeta_K, contrast with m004's (1,2,8) rebuilt above. The geometric identification 'm003 cusp = hexagonal C/O_K' is a given input (SnapPea-type data), not re-derivable in this seat; everything arithmetic downstream of it is reproduced."
+   },
+   {
+    "id": "unharvested-flag-cmbc",
+    "verdict": "NOT-COMPUTABLE-HERE",
+    "method": "This claim is about repo/git state and file contents, not arithmetic: verifying it requires (a) running git grep against origin/main \u2014 excluded by the house guards (READ-ONLY, never git), and (b) opening loss_audit_branch_delta.md / the harvest file to confirm the UNHARVESTED flag text and the B802 'in flight \u2014 not harvestable' triage note \u2014 excluded by this task's no-source-reading rule. What IS verifiable \u2014 the enumerated in-sandbox Q(sqrt-3) computations at stake (ray class mod (4) = Z/2, disc -48 conductor-4 cusp CM, h(-48) = 2, H_-48, j(2 sqrt(-3)) = 1417905000 + 818626500 sqrt3, ring class field = RCF(4) = Q(zeta_12), residue pi/(3 sqrt3) ~ 0.604600 vs slope 0.604625) \u2014 is re-derived and confirmed under the other 22 ids, all REBUILT."
+   }
+  ],
+  "notes": "Independent re-derivation, zero source files opened. Environment: python3 + sympy + mpmath (mp.dps = 60), scripts at (scratchpad) and qa_analytic.py. Conventions: omega = (1+sqrt(-3))/2, omega^2 = omega - 1, N(a + b omega) = a^2 + ab + b^2, conj(a + b omega) = (a+b) - b omega; residue-ring units proven unit-by-unit via the explicit inverse conj(x) * N(x)^{-1} mod n. Standing reasoning used for the ray-class definition (stated per task): K imaginary quadratic (disc -3 < 0) has r1 = 0, so moduli carry no real-place component; h(K) = 1 (computed) collapses the exact sequence 1 -> O^x/U_{n,1} -> (O/n)^x -> Cl_n -> Cl(K) -> 1 to Cl_n = (O/n)^x / im(mu_6); the sequence itself and Artin reciprocity are the only cited theorems \u2014 all their inputs are computed here, as is the CM main theorem H_O = K(j) (whose degree/field consequences were independently pinned by the Pic(O_-48) = Cl_4 same-quotient computation plus the 94-prime splitting-law check with 0 mismatches). Scoreboard: 22 REBUILT, 0 FAILED, 1 NOT-COMPUTABLE-HERE (unharvested-flag-cmbc: git + source-reading both forbidden). Notable exact hits: slope 120925/200000 = 0.604625 matches the claimed measured slope to the last digit; H_-48 coefficients confirmed BOTH as exact integers (2a = 2835810000, a^2 - 3b^2 = 6549518250000) and numerically to ~1e-48; j(2 sqrt(-3)) matched to 2.7e-51 by two independent methods (kleinj vs my own Eisenstein q-series, cross-agreement 7.8e-46); bonus structure Cl_8 = Z/4 x Z/2 (claim only asserts order 8 \u2014 no conflict). Terminology hazards respected: 'conductor' in hecke-palette-128 = Hecke-character modulus, in cusp-cm-conductor4-order = quadratic-order conductor (f = 4); neither is B675's nor B666's quantity, matching the claims' own disambiguations. One precision flag (not a failure): in ringclass-eq-rayclass-mod4, 'splitting field of H_-48 = Q(zeta_12)' is correct over K (K(roots) = K(sqrt3) = Q(zeta_12)); over Q alone the splitting field is the real field Q(sqrt3) \u2014 the harvested statement's CM reading is the true one."
+ },
+ {
+  "results": [
+   {
+    "id": "rayclass-filtration-def",
+    "verdict": "REBUILT",
+    "method": "Standard ray-class exact sequence 1 -> O^x/(O^x cap (1+nO)) -> (O/n)^x -> Cl_n -> Cl(K) -> 1. K = Q(sqrt-3) is imaginary quadratic: both archimedean places are complex, so there are NO real places and the modulus has no infinite part at these levels (stated reasoning, as required). h(K)=1 rebuilt independently (Minkowski bound (2/pi)sqrt(3) = 1.10266 < 2), killing the right end. Hence Cl_n = (O/n)^x / im(mu_6) with O^x = mu_6 (rebuilt in units-mu6-maximal). Consistency proof that this formula computes a real ray class group: the nontrivial character of the resulting mod-(4) group was matched to the genuine abelian extension K(i)/K via eps = chi_-4 o Norm (s1.py).",
+    "computed": "Cl_(2)=1, Cl_(4)=2, Cl_(8)=8 from the definition; formula validated. The name 'E23' and provenance 'B737 P5' are file metadata given in the claim, not independently checkable without reading sources; the mathematical definition and its output are fully rebuilt."
+   },
+   {
+    "id": "two-inert-in-K",
+    "verdict": "REBUILT",
+    "method": "Route B: Kronecker symbol (-3|2) via -3 mod 8, plus irreducibility of x^2+x+1 over F_2 (sympy factor_list, modulus=2); unit count from the field structure.",
+    "computed": "-3 mod 8 = 5 => (-3|2) = -1 => 2 inert; x^2+x+1 irreducible mod 2 => O/(2) = F_4; |(O/2)^x| = 3 (verified against full invertibility table)."
+   },
+   {
+    "id": "unit-group-orders-2powers",
+    "verdict": "REBUILT",
+    "method": "Route B structural: modulus is a power of the single inert prime (2), so no CRT factors \u2014 O/2^k is a local ring with residue field F_4, giving |(O/2^k)^x| = 4^k - 4^(k-1) = 4^k(1-1/4); unit criterion 'N(a+b*zeta) = a^2-ab+b^2 odd' proved and cross-checked against brute invertibility tables for k=1,2,3.",
+    "computed": "|(O/2)^x| = 3, |(O/4)^x| = 12, |(O/8)^x| = 48; formula 4^k - 4^(k-1) asserted and satisfied at all three levels."
+   },
+   {
+    "id": "mu6-image-mod2-order3",
+    "verdict": "REBUILT",
+    "method": "Reduce the six exact units {+-1, +-zeta, +-zeta^2} (coords (1,0),(-1,0),(0,1),(0,-1),(-1,-1),(1,1)) mod 2; count distinct.",
+    "computed": "|im mu_6 mod (2)| = 3; mod-2 reps collapse in pairs [(1,0),(1,0),(0,1),(0,1),(1,1),(1,1)] \u2014 kernel = {+-1} since -1 = 1 mod 2, exactly as claimed."
+   },
+   {
+    "id": "mu6-injects-mod4",
+    "verdict": "REBUILT",
+    "method": "Reduce mu_6 mod 4 and mod 8 (powers of -zeta in the finite ring), count distinct elements.",
+    "computed": "|im mu_6| = 6 mod (4) (injective) and = 6 mod (8)."
+   },
+   {
+    "id": "rayclass-mod2-trivial",
+    "verdict": "REBUILT",
+    "method": "Coset enumeration of (O/2)^x by im mu_6 (definition Cl_n = (O/n)^x / im mu_6; no real places, h=1 \u2014 see rayclass-filtration-def).",
+    "computed": "|(O/2)^x| = 3, |im mu_6| = 3, |Cl_(2)| = 1 (coset count 1); palette(2) = 1."
+   },
+   {
+    "id": "rayclass-mod4-z2",
+    "verdict": "REBUILT",
+    "method": "Coset enumeration: (O/4)^x order 12 mod the order-6 image of mu_6; a group of order 2 is Z/2. Galois reading: Artin map gives Gal(ray class field mod (4) / K) = Cl_4; identified concretely with Gal(K(i)/K) via the character eps = chi_-4 o N (s1.py + claim ringclass-eq-rayclass-mod4). The file's BC/truncation framing is interpretation; its computable content is |Cl_4| = 2, cyclic \u2014 rebuilt. (T2's PARI bnrinit request not needed for the verdict; the definition-level computation is exact.)",
+    "computed": "|(O/4)^x| = 12, |im mu_6| = 6, |Cl_(4)| = 2 => Z/2."
+   },
+   {
+    "id": "rayclass-mod8-order8",
+    "verdict": "REBUILT",
+    "method": "Coset enumeration of (O/8)^x (order 48) by im mu_6 (order 6).",
+    "computed": "|Cl_(8)| = 8 (coset count); extra: element orders [1,2,2,2,4,4,4,4] => Cl_(8) = Z/4 x Z/2 (structure not claimed in-file, order 8 confirmed)."
+   },
+   {
+    "id": "hecke-palette-128",
+    "verdict": "REBUILT",
+    "method": "Palette = |(O/2^k)^x / mu_6| from the three coset enumerations. Conductor-exactness: Cl_(2) trivial => the nontrivial mod-(4) character cannot factor through level (2), so its conductor is exactly (4); Cl_(8) order 8 admits characters not factoring through Cl_(4). 'Conductor' here = Hecke/ray-class character modulus (disambiguation honored: NOT B675's, NOT B666's quantity).",
+    "computed": "palette = (1, 2, 8) at levels (2),(4),(8) \u2014 matches the banked audit dict values palette(2)=1, palette(4)=2, palette(8)=8. At palette 1 only the trivial character exists => only zeta_K; level (4)/(8) admit nontrivial Hecke characters. The TOMB 'PASS' record itself is file content; the numbers it recorded are rebuilt."
+   },
+   {
+    "id": "cusp-cm-conductor4-order",
+    "verdict": "REBUILT",
+    "method": "Symbolic multiplier-ring computation: alpha = x + y*sqrt(-3) stabilizes Lambda = Z + 2sqrt(-3)Z iff alpha*1 -> (x, y/2) and alpha*2sqrt(-3) -> (-6y, x) are integral, i.e. x in Z, y in 2Z => End(Lambda) = Z[2sqrt(-3)] = Lambda. Disc two ways: minpoly(2sqrt(-3)) = X^2+12 (disc -48) and trace-form matrix [[2,0],[0,-24]] (det -48). Conductor from f^2*d_K = -48. Index from basis change 2sqrt(-3) = -2 + 4*omega.",
+    "computed": "End(Lambda) = Z[2sqrt(-3)]; disc(Lambda) = -48 = 16*(-3); order-conductor f = 4; [O_K : Lambda] = |det[[1,-2],[0,4]]| = 4; audit values disc_cusp = 48 (abs), [O:Lam] = 4 reproduced. ('Conductor' = conductor of the quadratic order \u2014 disambiguation honored.)"
+   },
+   {
+    "id": "h48-forms-ringclass-order2",
+    "verdict": "REBUILT",
+    "method": "Two independent routes: (1) reduced primitive binary quadratic form enumeration for D = -48; (2) order class-number formula h(O_f) = f*h_K/[O_K^x:O_f^x] * prod_{p|f}(1 - (d_K/p)/p) = (4*1/3)*(1-(-1)/2) with (d_K/2) = -1 from 2 inert. Ring-class-group order 2 confirmed structurally by the ideal a = (3, 2sqrt(-3)) in Z[2sqrt(-3)]: a^2 = (3) (9-12 = -3 in a^2; all generators in 3O') while a is non-principal (x^2+12y^2 = 3 has no solutions).",
+    "computed": "Reduced forms D=-48: exactly (1,0,12) and (3,0,4); h(-48) = 2 by both routes; a has class order exactly 2; norm form of a = 3x^2+4y^2 <-> (3,0,4)."
+   },
+   {
+    "id": "h-minus3-is-1",
+    "verdict": "REBUILT",
+    "method": "Two routes: reduced primitive form enumeration for D = -3, and Minkowski bound.",
+    "computed": "Forms D=-3: only (1,1,1) => h(-3) = 1; Minkowski bound (2/pi)sqrt(3) = 1.10266 < 2 => Cl(K) trivial; |disc K| = 3."
+   },
+   {
+    "id": "class-poly-H48",
+    "verdict": "REBUILT",
+    "method": "Cross-check via BOTH CM lattice representatives (the two form classes), 60-digit mpmath: j1 = 1728*kleinj(2sqrt(3)i) for (1,0,12), j2 = 1728*kleinj(2i/sqrt3) for (3,0,4) (tau = sqrt(-48)/6); reconstruct the polynomial from sum/product; exact integer identities in sympy.",
+    "computed": "j1+j2 - 2835810000 = 2.67e-51; j1*j2 - 6549518250000 = 4.11e-48; exact: 2A = 2835810000 and A^2 - 3B^2 = 6549518250000 with A = 1417905000, B = 818626500 => H_-48(x) = x^2 - 2835810000x + 6549518250000 confirmed, coefficients (1, -2835810000, +6549518250000). Naming caveat as stated in the claim (ring class polynomial of the non-maximal order) is the correct reading."
+   },
+   {
+    "id": "j-2sqrt-minus3-exact",
+    "verdict": "REBUILT",
+    "method": "mpmath at 60 dps with normalization check 1728*kleinj(i) = 1728; independent SL2(Z) cross-evaluation at -1/tau; comparison against the exact surd; exact factorization of H over Q(sqrt3) in sympy.",
+    "computed": "j(2sqrt(-3)) = 2835807690.422283527729846... with |j1 - (1417905000 + 818626500*sqrt3)| = 2.67e-51 (>= 30 digits, required threshold met); larger root (True), approx 2.8358e9; conjugate j(2i/sqrt3) = 2309.577716472270... with |j2 - (A - B*sqrt3)| = 6.85e-53; SL2 cross-check 3.01e-51; H factors over Q(sqrt3) as (x - A - B*sqrt3)(x - A + B*sqrt3) exactly. Claim's recorded decimals 2835807690.42228 / 2309.57771647 reproduced digit-for-digit."
+   },
+   {
+    "id": "ringclass-eq-rayclass-mod4",
+    "verdict": "REBUILT",
+    "method": "Degree-and-ramification/CFT argument, each step computed: (a) ring class group = (O/4)^x / <im mu_6, im(Z/4)^x>; computed subgroup order 6 = im mu_6 exactly (3 = -1 mod 4 already a unit image), so the canonical surjection Cl_4 -> Cl(O_-48) between order-2 groups is an isomorphism => ring class field = ray class field mod (4). (b) RCF(4) = K(i): eps = chi_-4 o Norm on (O/4)^x is multiplicative (checked all pairs), trivial on mu_6 (all six unit norms exactly 1), nontrivial (6 of 12 elements give -1) => it IS the unique nontrivial ray class character mod (4); Frobenius acts on i by Frob_pi(i) = i^{N(pi)} (4 prime to odd residue char), so eps governs splitting in K(i)/K => K(i) = kernel field; both degree 2 => RCF(4) = K(i). (c) Cyclotomic identification, exact sympy: sqrt(-3)/sqrt(3) = i so K(sqrt3) = K(i); z = (sqrt3+i)/2 has z^12 = 1, minpoly = x^4-x^2+1 = Phi_12, z^3 = i, z + 1/z = sqrt3 => Q(i,sqrt3) = Q(zeta_12), degree 4 over Q, degree 2 over K. (d) j-generation route agrees: ring class field = K(j(2sqrt-3)) = K(A + B*sqrt3) = K(sqrt3), B nonzero.",
+    "computed": "Ring class field of Z[2sqrt(-3)] = RCF_K(4) = K(sqrt3) = Q(i,sqrt3) = Q(zeta_12), all degree 2 over K \u2014 every equality established by computation. Precision note: the splitting field of H_-48 OVER K is Q(zeta_12); over Q it is the real field Q(sqrt3) (H splits there, computed) \u2014 the claim's chain as stated (fields over K) is correct."
+   },
+   {
+    "id": "rayclass-z2-permutes-forms",
+    "verdict": "REBUILT",
+    "method": "Composite of computed facts: Cl_4 ~ Cl(O_-48) isomorphism (subgroup computation, s1.py); the form class group of D=-48 is {[(1,0,12)] = identity (principal form), [(3,0,4)]} with the second class of order exactly 2 (ideal a = (3,2sqrt-3): a^2 = (3) principal, a non-principal, and the norm form of a is 3x^2+4y^2 which IS (3,0,4)); a group of order 2 acting on itself: the nontrivial element swaps identity and non-identity classes. Galois side: H_-48 irreducible over Q (disc = 8041792158027000000 = 12B^2, sqrt = 1637253000*sqrt3 irrational), so the nontrivial Galois element swaps the two j-roots = the two lattice/form classes.",
+    "computed": "The mod-(4) ray class Z/2 = the involution exchanging the classes of (1,0,12) and (3,0,4); consistent with the conjugate-j computation (roots swapped over K)."
+   },
+   {
+    "id": "zetaK-factorization-residue",
+    "verdict": "REBUILT",
+    "method": "Euler-factor route: for every p < 200 (p != 3) compared the splitting of x^2+x+1 mod p with chi_-3(p) \u2014 split <-> chi = +1 (all match); p = 3: (x-1)^2 mod 3, ramified, chi(3) = 0; local factors then multiply to zeta(s)*L(s,chi_-3) in all three splitting types. Residue: exact sympy simplification + analytic class number formula 2*pi*h/(w*sqrt|d|), h=1, w=6, |d|=3; direct L(1) via digamma identity sum [1/(3k+1) - 1/(3k+2)] = (psi(2/3)-psi(1/3))/3. Slope: S(X) = sum_{d<=X} chi(d)*floor(X/d) at X = 200000.",
+    "computed": "2pi/(6sqrt3) - pi/(3sqrt3) = 0 exactly; pi/(3sqrt3) = 0.604599788078072616864692752547 (30 digits, matches 0.6045997880...); digamma L(1,chi) agrees to 1.15e-41; measured slope: sum_{n<=2e5} r(n) = 120925 => S/X = 0.604625 \u2014 reproduces the file's measured slope EXACTLY."
+   },
+   {
+    "id": "ideal-count-formula",
+    "verdict": "REBUILT",
+    "method": "Double count for all n <= 300: divisor sum sum_{d|n} chi_-3(d) vs #{(a,b) : a^2-ab+b^2 = n}/6 (valid because h=1 and |O^x| = 6, so ideals of norm n = norm-n elements up to the free mu_6-action); also follows structurally from the Euler-factor match (split r(p^k) = k+1, inert = [k even], ramified = 1).",
+    "computed": "r(n) = sum_{d|n} chi_-3(d) = #{x in O : N(x) = n}/6 for ALL n <= 300 (element counts all divisible by 6). The BC-Hamiltonian phrasing (degeneracy at log n) is interpretation; its arithmetic content is rebuilt."
+   },
+   {
+    "id": "units-mu6-maximal",
+    "verdict": "REBUILT",
+    "method": "Exact norm-form enumeration a^2-ab+b^2 = 1 for O_K; comparison fields d = -4, -7, -8, -11 by their norm forms; structural bound: a root of unity zeta_m in an imaginary quadratic field needs phi(m) <= 2 => m in {1,2,3,4,6} => w <= 6.",
+    "computed": "Exactly 6 units: (+-1,0),(0,+-1),(1,1),(-1,-1) = {+-1,+-zeta,+-zeta^2} => O_K^x = mu_6; d=-4 gives 4, d=-7/-8/-11 give 2 => 6 is maximal among imaginary quadratic fields, attained only at d=-3. The historical clause (pre-CMR 1997/1999 constructions) is file content, not a computable statement."
+   },
+   {
+    "id": "ideals-monoid-mod-units",
+    "verdict": "REBUILT",
+    "method": "Derivation: h(K)=1 (rebuilt) => alpha -> (alpha) maps (O\\{0}) onto all nonzero integral ideals; (alpha) = (beta) iff alpha/beta in O^x = mu_6 (rebuilt); the map respects multiplication => monoid isomorphism (O\\{0})/mu_6 ~ integral ideals. Numeric consistency: mu_6 acts freely on O\\{0} (u*x = x => u = 1), so orbits have size exactly 6 \u2014 verified as 6 | #{N(x)=n} with quotient = r(n) for all n <= 300.",
+    "computed": "Monoid iso holds; consistency check passed at every n <= 300. The claim's flag for external comparison (LLN/LNT arXiv refs) is file content, outside sandbox scope."
+   },
+   {
+    "id": "prime-support-23",
+    "verdict": "REBUILT",
+    "method": "sympy factorint on the given audited dict {48, 4, 12, 12, 3, 1, 2, 8}; covol^2 independently recomputed from the lattice (Im(2sqrt-3))^2 = 12 and [O:Lam], |disc K|, palette values rebuilt under other ids. Phi-power test: verified phi^k = F_k*phi + F_{k-1} symbolically for k = 1..15 => phi^k is irrational for every k >= 1 => no integer is a nontrivial phi-power (strict reading holds, vacuously strong).",
+    "computed": "48 = 2^4*3, 4 = 2^2, 12 = 2^2*3 (twice), 3 = 3, 1 = {}, 2 = 2, 8 = 2^3; prime support = {2,3}; 5 ABSENT (True); none a nontrivial phi-power under the strict algebraic reading. Caveats: (a) under a nearest-integer/Lucas reading, 1,2,3,4 equal L_1,L_0,L_2,L_3 \u2014 the in-file test definition was not read (forbidden), strict reading verified; (b) the quantifier 'every banked object-specific continuous-channel integer' and the membership 'covering degree 12' are file-provenance facts \u2014 the arithmetic on the given set is what is rebuilt here."
+   },
+   {
+    "id": "sister-m003-maximal-order-j0",
+    "verdict": "REBUILT",
+    "method": "Numeric: 1728*kleinj((1+sqrt(3)i)/2) at 60 dps. Structural second route: E4 q-series at the hexagonal point (zeta_6-symmetry forces g2 = 0 hence j = 1728*g2^3/Delta-type expression = 0 exactly). Maximal-order data and palette from claims h-minus3-is-1 and rayclass-mod2-trivial.",
+    "computed": "|j((1+sqrt(-3))/2)| = 2.54e-180 (zero to precision); |E4| = 3.3e-61 at the same point => j = 0 EXACTLY by the symmetry argument; C/O_K has CM by the maximal order, disc -3, h = 1; palette at m003's level (2) = 1 => only the trivial Hecke character => only zeta_K, as claimed."
+   },
+   {
+    "id": "unharvested-flag-cmbc",
+    "verdict": "NOT-COMPUTABLE-HERE",
+    "method": "Constraint analysis only. This claim asserts repo/git state: an UNHARVESTED flag in loss_audit_branch_delta.md, a git grep over origin/main returning 0 hits, and the B802 triage history.",
+    "mismatch": "",
+    "computed": "Missing capabilities: (1) verifying 'git grep -l ... origin/main -> 0' requires running git against the repo \u2014 forbidden by house guards ('never git'); (2) verifying the flag text and the B802 triage record requires reading the loss-audit/harvest source files \u2014 excluded by the task's independent-verification rule. What CAN be said: every mathematical value the flag enumerates (ray class mod (4) = Z/2; disc -48 conductor-4 cusp CM; ring class group order 2; H_-48 coefficients; j(2sqrt-3) = 1417905000 + 818626500*sqrt3; ring class field = RCF(4) = Q(zeta_12); residue pi/(3sqrt3) = 0.604600 vs slope 0.604625) is REBUILT under the other ids in this report \u2014 the repo-state provenance facts themselves are not computable under the standing constraints."
+   }
+  ],
+  "notes": "All 23 claims processed: 22 REBUILT, 0 FAILED, 1 NOT-COMPUTABLE-HERE (the git/harvest-state claim, blocked by 'never git' + no-source-reading rules). Every computation executed in python3/sympy/mpmath; no value asserted from memory. Route B honored: 2-adic structure derived from 2-inert local-ring reasoning (modulus is a power of one inert prime, so CRT is trivial \u2014 stated); h(-48) = 2 obtained by BOTH reduced-form enumeration and the order class-number formula, plus a third structural confirmation via the ideal (3, 2sqrt(-3)) with a^2 = (3) non-principal; h(-3) = 1 via Minkowski bound as the non-enumerative route; ray-class definition used exactly as Cl_n = (O/n)^x/im(mu_6), justified by h(K) = 1 and the absence of real places (K imaginary quadratic: both infinite places complex, no sign conditions possible); the RCF(4) = Q(zeta_12) identification proved by a conductor/Frobenius argument (eps = chi_-4 o N computed to be the unique nontrivial ray class character mod (4), all six unit norms exactly 1) rather than by quoting tables; H_-48 cross-checked from BOTH CM lattice representatives (sum/product of j at tau = 2sqrt(3)i and 2i/sqrt(3), 60 dps, residuals ~1e-51/1e-48, far beyond the required 30 digits) with exact integer identities 2A = 2835810000 and A^2 - 3B^2 = 6549518250000. Notable exact hits: the file's measured ideal-count slope 0.604625 at X = 2e5 reproduced EXACTLY (S = 120925), and the recorded decimals 2835807690.42228 / 2309.57771647 match digit-for-digit. Terminology hazards honored: 'conductor' used only as (i) Hecke/ray-class character modulus and (ii) conductor of the quadratic order, never B675's or B666's quantity; no claims about 40a1/15A8; no qL leads touched. Extra (unclaimed) structure found: Cl_(8) = Z/4 x Z/2. One precision note: T3's 'splitting field of H_-48 is Q(zeta_12)' is correct over K; over Q the splitting field is Q(sqrt3) \u2014 the claim chain as given (fields over K) verifies. Scripts: (scratchpad) s2.py, s3.py, s4.py (plus an inline heredoc for the prime-support/phi check). Repo untouched (read-only guard held; no repo file was opened)."
+ }
+]

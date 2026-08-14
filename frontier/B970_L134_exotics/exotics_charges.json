@@ -1,0 +1,331 @@
+{
+ "cell": "B970 / L134 scout-support computation",
+ "sealed": false,
+ "scope": "the GUT chain E6 > SO(10) x U(1)_psi > SU(5) x U(1)_chi x U(1)_psi; 'the exotics' = the 10 + 1 of that SO(10)",
+ "n_weights_27": 27,
+ "minuscule_confirmed": true,
+ "so10_grading_by_alpha1_(level,dim)": [
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   16
+  ],
+  [
+   2,
+   10
+  ]
+ ],
+ "su5_grading_by_(alpha1,alpha2)": [
+  [
+   [
+    0,
+    0
+   ],
+   1
+  ],
+  [
+   [
+    1,
+    0
+   ],
+   5
+  ],
+  [
+   [
+    1,
+    1
+   ],
+   10
+  ],
+  [
+   [
+    1,
+    2
+   ],
+   1
+  ],
+  [
+   [
+    2,
+    1
+   ],
+   5
+  ],
+  [
+   [
+    2,
+    2
+   ],
+   5
+  ]
+ ],
+ "psi": "psi = 4 - 3*n1   [fit on the 1 and the 16; the 10 PREDICTED at -2]",
+ "chi": "chi = 3*n1 - 4*n2 [fit on the 16's 3 pieces + the singlet; the 10's 2 pieces PREDICTED at +2,-2]",
+ "Y": {
+  "form": "Y = sum_j y_j * <mu, alpha_j^vee> over the su(5) nodes 3,4,5,6 (no constant term)",
+  "coeffs_on_(lab3,lab4,lab5,lab6)": [
+   "1/3",
+   "2/3",
+   "1",
+   "1/2"
+  ],
+  "fitted_on": "the 16 only",
+  "residual": 0.0,
+  "predicted_and_correct": "Y(S) = 0, Y(nu^c) = 0, and the whole exotic 10 -> (3,1)_{-1/3} + (3,1)_{+1/3} + (1,2)_{+1/2} + (1,2)_{-1/2}"
+ },
+ "SM_table_of_the_27": [
+  {
+   "n": [
+    0,
+    0,
+    0
+   ],
+   "dim": 1,
+   "piece": "S",
+   "role": "EXOTIC (the 1 of 16+10+1)",
+   "su3_su2": "(1,1)",
+   "Y": "0",
+   "Qem": [
+    "0"
+   ],
+   "psi": "4",
+   "chi": "0"
+  },
+  {
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "dim": 3,
+   "piece": "5bar_SU5",
+   "role": "SM matter (16)",
+   "su3_su2": "(3,1)",
+   "Y": "1/3",
+   "Qem": [
+    "1/3"
+   ],
+   "psi": "1",
+   "chi": "3"
+  },
+  {
+   "n": [
+    1,
+    0,
+    1
+   ],
+   "dim": 2,
+   "piece": "5bar_SU5",
+   "role": "SM matter (16)",
+   "su3_su2": "(1,2)",
+   "Y": "-1/2",
+   "Qem": [
+    "0",
+    "-1"
+   ],
+   "psi": "1",
+   "chi": "3"
+  },
+  {
+   "n": [
+    1,
+    1,
+    0
+   ],
+   "dim": 1,
+   "piece": "10_SU5",
+   "role": "SM matter (16)",
+   "su3_su2": "(1,1)",
+   "Y": "1",
+   "Qem": [
+    "1"
+   ],
+   "psi": "1",
+   "chi": "-1"
+  },
+  {
+   "n": [
+    1,
+    1,
+    1
+   ],
+   "dim": 6,
+   "piece": "10_SU5",
+   "role": "SM matter (16)",
+   "su3_su2": "(3,2)",
+   "Y": "1/6",
+   "Qem": [
+    "2/3",
+    "-1/3"
+   ],
+   "psi": "1",
+   "chi": "-1"
+  },
+  {
+   "n": [
+    1,
+    1,
+    2
+   ],
+   "dim": 3,
+   "piece": "10_SU5",
+   "role": "SM matter (16)",
+   "su3_su2": "(3,1)",
+   "Y": "-2/3",
+   "Qem": [
+    "-2/3"
+   ],
+   "psi": "1",
+   "chi": "-1"
+  },
+  {
+   "n": [
+    1,
+    2,
+    2
+   ],
+   "dim": 1,
+   "piece": "nu^c",
+   "role": "SM matter (16), the right-handed neutrino",
+   "su3_su2": "(1,1)",
+   "Y": "0",
+   "Qem": [
+    "0"
+   ],
+   "psi": "1",
+   "chi": "-5"
+  },
+  {
+   "n": [
+    2,
+    1,
+    1
+   ],
+   "dim": 2,
+   "piece": "5_SU5",
+   "role": "EXOTIC (in the 10)",
+   "su3_su2": "(1,2)",
+   "Y": "1/2",
+   "Qem": [
+    "1",
+    "0"
+   ],
+   "psi": "-2",
+   "chi": "2"
+  },
+  {
+   "n": [
+    2,
+    1,
+    2
+   ],
+   "dim": 3,
+   "piece": "5_SU5",
+   "role": "EXOTIC (in the 10)",
+   "su3_su2": "(3,1)",
+   "Y": "-1/3",
+   "Qem": [
+    "-1/3"
+   ],
+   "psi": "-2",
+   "chi": "2"
+  },
+  {
+   "n": [
+    2,
+    2,
+    2
+   ],
+   "dim": 3,
+   "piece": "5bar_ex",
+   "role": "EXOTIC (in the 10)",
+   "su3_su2": "(3,1)",
+   "Y": "1/3",
+   "Qem": [
+    "1/3"
+   ],
+   "psi": "-2",
+   "chi": "-2"
+  },
+  {
+   "n": [
+    2,
+    2,
+    3
+   ],
+   "dim": 2,
+   "piece": "5bar_ex",
+   "role": "EXOTIC (in the 10)",
+   "su3_su2": "(1,2)",
+   "Y": "-1/2",
+   "Qem": [
+    "0",
+    "-1"
+   ],
+   "psi": "-2",
+   "chi": "-2"
+  }
+ ],
+ "STATE_COUNTS": {
+  "27": 27,
+  "16": 16,
+  "nu_R": 1,
+  "SM_15_fermion_generation": 15,
+  "10_of_SO10": 10,
+  "1_of_SO10": 1,
+  "exotics_beyond_the_16  (= 10 + 1)": 11,
+  "states_beyond_a_15_fermion_generation (= 27 - 15)": 12
+ },
+ "R1_bare_mass_bilinears_inside_one_27": [],
+ "R2_charge_any_VEV_must_carry_to_give_the_exotic_pair_a_mass": {
+  "psi": "4",
+  "chi": "0"
+ },
+ "R3_directions_inside_the_27_that_supply_it": [
+  "S"
+ ],
+ "R4_that_direction_is_the_highest_weight_omega_1": true,
+ "R5_exotic_pair_is_vectorlike_under": {
+  "SM": true,
+  "U(1)_chi": true,
+  "U(1)_psi": false
+ },
+ "R6_rep_independent": "the operator (exotic x exotic) carries psi = -4, so ANY field in ANY E6 rep whose VEV gives it a mass carries psi = +4 != 0 and therefore BREAKS U(1)_psi.  Exotic mass != 0  ==>  U(1)_psi broken.",
+ "R7_cubic_monomials_present_in_the_E6_invariant_(weight_sum_zero)": [
+  [
+   [
+    "10_SU5",
+    "10_SU5",
+    "5_SU5"
+   ],
+   15
+  ],
+  [
+   [
+    "10_SU5",
+    "5bar_SU5",
+    "5bar_ex"
+   ],
+   20
+  ],
+  [
+   [
+    "5_SU5",
+    "5bar_SU5",
+    "nu^c"
+   ],
+   5
+  ],
+  [
+   [
+    "5_SU5",
+    "5bar_ex",
+    "S"
+   ],
+   5
+  ]
+ ]
+}

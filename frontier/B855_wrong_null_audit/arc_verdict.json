@@ -1,0 +1,14 @@
+{
+ "id": "B855",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The programme's genericity controls were family members: m003 is commensurable with m004 (index 12 in PSL(2,O_-3)), and m129 -- proposed by cc as the non-commensurable fix -- is index 12 in PSL(2,O_-1), the SILVER's class-mate. The family has TWO rows and the repo has no null non-commensurable with both. Also verified: m003 IS amphichiral (B296 calls it a non-amphichiral control), and by Reid no knot complement is commensurable with 4_1, so B438/B440/B443's '4_1 ~ 5_2 commensurability class' is backwards -- an error that conceals genericity rather than creating it.",
+ "depends_on": [
+  "B803",
+  "B850",
+  "B853"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-02)"
+}

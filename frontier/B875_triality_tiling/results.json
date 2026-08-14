@@ -1,0 +1,73 @@
+{
+ "basis_condition": "1.28e+11",
+ "core_is_so8_u1u1": true,
+ "core_type_mod_p": {
+  "40009": [
+   30,
+   28,
+   2
+  ],
+  "40037": [
+   30,
+   28,
+   2
+  ]
+ },
+ "kernel_dims": [
+  46,
+  46,
+  46
+ ],
+ "law": {
+  "[V1,V1]": [
+   "1.00e+00",
+   "1.32e-23",
+   "4.44e-23",
+   "1.02e-23"
+  ],
+  "[V1,V2]": [
+   "2.63e-24",
+   "3.99e-24",
+   "2.81e-24",
+   "1.00e+00"
+  ],
+  "[V1,V3]": [
+   "1.65e-24",
+   "2.15e-24",
+   "1.00e+00",
+   "1.32e-24"
+  ],
+  "[V2,V2]": [
+   "1.00e+00",
+   "1.00e-23",
+   "3.37e-23",
+   "7.71e-24"
+  ],
+  "[V2,V3]": [
+   "2.53e-24",
+   "1.00e+00",
+   "2.99e-24",
+   "1.41e-24"
+  ],
+  "[V3,V3]": [
+   "1.00e+00",
+   "5.54e-24",
+   "1.83e-23",
+   "4.21e-24"
+  ]
+ },
+ "law_ok": true,
+ "nearly_parallel_note": "orthogonal projections read 1.0 across sectors; the law is only readable in oblique coordinates",
+ "pairwise_intersections": {
+  "K1^K2": 30,
+  "K1^K3": 30,
+  "K2^K3": 30
+ },
+ "sector_dims": [
+  16,
+  16,
+  16
+ ],
+ "span": 78,
+ "tiling_verified": true
+}

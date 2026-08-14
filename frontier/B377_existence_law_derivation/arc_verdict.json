@@ -1,0 +1,10 @@
+{
+ "id": "B377",
+ "verdict": "PROVED",
+ "claim_one_line": "The existence law is derived from exact local censuses (sector = line tensor doublet; doublets only at odd prime powers), reproducing all six banked level verdicts.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

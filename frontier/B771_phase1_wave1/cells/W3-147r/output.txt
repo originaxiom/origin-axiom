@@ -1,7 +1,7 @@
 ==============================================================================
 STEP 0 -- REPRODUCE the wave-2 defect exactly, in-cell, before fixing it
 ==============================================================================
-B581 stored data: /Users/dri/origin-axiom/frontier/B581_six_torsions/six_torsions_results.json  exists: True
+B581 stored data: <repo>/frontier/B581_six_torsions/six_torsions_results.json  exists: True
 
 Scan every banked coefficient string; compare sp.nsimplify(str)->Integer() (the
 W2-147 method) against the correct sp.Integer(str) parse, coefficient by coefficient:
@@ -41,7 +41,7 @@ STEP 1 -- THE FIX: parse banked coefficients as exact sp.Integer/sp.Rational,
   FIXED  Delta_8(t) = t**17 - 34*t**16 - 1296886*t**15 - 474015319*t**14 + 2671917981726*t**13 - 3555106266350720*t**12 + 819072580819022607*t**11 - 30814963753252727008*t**10 + 189010708578318639855*t**9 - 189010708578318639855*t**8 + 30814963753252727008*t**7 - 819072580819022607*t**6 + 3555106266350720*t**5 - 2671917981726*t**4 + 474015319*t**3 + 1296886*t**2 + 34*t - 1
   FIXED  Delta_11(t) = t**23 - 46*t**22 + 327322322*t**21 - 5285989102521*t**20 + 105386721209135510*t**19 - 317501775860813407752*t**18 + 19689672877502941824683790*t**17 - 172101915864513668276407478954*t**16 + 243641104610188104286789109075709*t**15 - 56224042184043606463501002339617272*t**14 + 2115282184517309174928886814005451154*t**13 - 12974522456834038933920113724120694121*t**12 + 12974522456834038933920113724120694121*t**11 - 2115282184517309174928886814005451154*t**10 + 56224042184043606463501002339617272*t**9 - 243641104610188104286789109075709*t**8 + 172101915864513668276407478954*t**7 - 19689672877502941824683790*t**6 + 317501775860813407752*t**5 - 105386721209135510*t**4 + 5285989102521*t**3 - 327322322*t**2 + 46*t - 1
 
-Diffing against the wave-2 cell's own artifact: /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W2-147/results.json
+Diffing against the wave-2 cell's own artifact: <repo>/frontier/B771_phase1_wave1/cells/W2-147/results.json
   m=1: FIXED == BUGGY (no corruption for this m)
   m=4: FIXED == BUGGY (no corruption for this m)
   m=5: FIXED - BUGGY = t**3   <-- corrupted in W2-147

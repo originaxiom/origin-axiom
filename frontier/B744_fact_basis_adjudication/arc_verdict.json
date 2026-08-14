@@ -1,0 +1,10 @@
+{
+ "id": "B744",
+ "verdict": "PROVED",
+ "claim_one_line": "All six disputed fact-basis rows upheld as computed with in-repo locks running green; the conflict was a corpus-scope difference, not an error.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

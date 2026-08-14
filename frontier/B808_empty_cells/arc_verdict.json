@@ -1,0 +1,10 @@
+{
+ "id": "B808",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "A margin-preserving permutation null (10,000 draws) refutes the seat's own proposal that the 35 empty (face, motif) cells are structure: 34 of 35 are artifacts and the lone survivor is below chance expectation.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

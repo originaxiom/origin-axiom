@@ -1,0 +1,10 @@
+{
+ "id": "B284",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The exact finite-image 2T representation of the figure-eight is a generic smooth point (dim H¹=1) on the canonical component, refuting chat-1's claim of a structurally distinguished 2T component.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

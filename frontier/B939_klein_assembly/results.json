@@ -1,0 +1,193 @@
+{
+ "cell": "B939 Klein assembly (sharp pair)",
+ "checks": {
+  "build_78dim_72roots_ns": {
+   "pass": true,
+   "detail": ""
+  },
+  "tau_cocycle_consistent_rank_66": {
+   "pass": true,
+   "detail": ""
+  },
+  "frame_rank_4": {
+   "pass": true,
+   "detail": ""
+  },
+  "K4_members_are_automorphisms": {
+   "pass": true,
+   "detail": ""
+  },
+  "K4_members_are_involutions": {
+   "pass": true,
+   "detail": ""
+  },
+  "K4_klein_closure_chip_o_chim_equals_allminus": {
+   "pass": true,
+   "detail": "{1, s_chi+, s_chi-, s_-1} is a Klein four-group in Inn(e6)"
+  },
+  "sigma_allminus_frame_action_TRIVIAL": {
+   "pass": true,
+   "detail": "sigma_-1 fixes all four charges (matches banked B907 inner sweep row)"
+  },
+  "sigma_chi_pm_frame_action_BROKEN": {
+   "pass": true,
+   "detail": "sigma_chi+- do NOT act +-diagonally on any charge (matches banked B907 inner sweep rows: eps None)"
+  },
+  "rank_frame_plus_sigma_chip_image": {
+   "value": 8,
+   "detail": "4 would mean span-preserving; 8 = maximal breakage"
+  },
+  "sigma_chip_does_NOT_preserve_frame_span": {
+   "pass": true,
+   "detail": ""
+  },
+  "rank_noncompact_pencil_plus_sigma_chip_image": {
+   "value": 4,
+   "detail": "2 = plane preserved"
+  },
+  "sigma_chip_does_NOT_preserve_noncompact_pencil": {
+   "pass": true,
+   "detail": ""
+  },
+  "rank_compact_pencil_plus_sigma_chip_image": {
+   "value": 4,
+   "detail": "2 = plane preserved"
+  },
+  "sigma_chip_does_NOT_preserve_compact_pencil": {
+   "pass": true,
+   "detail": ""
+  },
+  "C8_generators_are_automorphisms": {
+   "pass": true,
+   "detail": ""
+  },
+  "C8_generators_are_involutions": {
+   "pass": true,
+   "detail": ""
+  },
+  "C8_generators_commute_pairwise": {
+   "pass": true,
+   "detail": ""
+  },
+  "phi_minus_equals_phi_plus_o_sigma_allminus": {
+   "pass": true,
+   "detail": "the two wall conjugations differ by the frame-trivial leg"
+  },
+  "outer_allflip_equals_phi_plus_o_sigma_c": {
+   "pass": true,
+   "detail": "the banked B907 outer all-flip member (1,1,-1,-1,-1,1) IS phi+ o sigma_c"
+  },
+  "C8_order_8_elementary_abelian": {
+   "pass": true,
+   "detail": "<phi+, sigma_c, sigma_-1> = (Z2)^3 -- the banked 8 C-compatible census members (B907 completeness C3 table), now verified as a GROUP"
+  },
+  "C8_frame_pattern_image_is_the_KLEIN": {
+   "pass": true,
+   "detail": "P(C8) = W_frame = {identity, compact-flip, noncompact-flip, all-flip} = the solo LIII / FS4 Klein, REALIZED"
+  },
+  "C8_pattern_kernel_is_1_sigma_allminus": {
+   "pass": true,
+   "detail": "ker(P) = {1, sigma_-1}: the frame-invisible leg"
+  },
+  "V_wall_klein_inside_C8": {
+   "pass": true,
+   "detail": "{1, phi+, phi-, sigma_-1} is a Klein subgroup of C8; frame image = {identity, noncompact-flip} (a Z2 only)"
+  },
+  "K4_cap_C8_is_exactly_1_sigma_allminus": {
+   "pass": true,
+   "detail": "the two Kleins share EXACTLY one nonidentity element: sigma_-1 (= the wall twist D on the 27; frame-trivial)"
+  },
+  "joint_group_is_Z2_to_the_4": {
+   "pass": true,
+   "detail": "<K4 u C8> = (Z2)^4: 16 commuting monomial involutions"
+  },
+  "joint_group_pattern_census": {
+   "value": {
+    "(1, 1, 1, 1)": 2,
+    "BROKEN": 8,
+    "(1, -1, 1, -1)": 2,
+    "(-1, 1, -1, 1)": 2,
+    "(-1, -1, -1, -1)": 2
+   },
+   "detail": "each Klein pattern x2 carriers + 8 frame-breaking elements"
+  },
+  "joint_census_shape": {
+   "pass": true,
+   "detail": ""
+  },
+  "chi_allminus_equals_height_parity_all_72_roots": {
+   "pass": true,
+   "detail": ""
+  },
+  "principal_h_is_2rho_check_alpha_j_of_h_equals_2": {
+   "pass": true,
+   "detail": "so Ad(exp(i*pi*h/2)) e_alpha = (-1)^{ht alpha} e_alpha = sigma_-1"
+  },
+  "diag_i_minus_i_is_in_the_2T_list": {
+   "pass": true,
+   "detail": "sigma_-1 = Ad of the holonomy quaternion i (via the principal SL2); consistency: as a 2T element it MUST fix all four charges -- and its frame pattern is indeed trivial (stage [2])"
+  },
+  "s_not_in_2T": {
+   "pass": true,
+   "detail": ""
+  },
+  "s_normalizes_2T_exactly": {
+   "pass": true,
+   "detail": "s in 2O, the octahedral extension"
+  },
+  "form_x8_transforms_by_a_single_sign": {
+   "pass": true,
+   "detail": "support powers mod 8: [0]"
+  },
+  "form_x14_transforms_by_a_single_sign": {
+   "pass": true,
+   "detail": "support powers mod 8: [4]"
+  },
+  "form_x16_transforms_by_a_single_sign": {
+   "pass": true,
+   "detail": "support powers mod 8: [0]"
+  },
+  "form_x22_transforms_by_a_single_sign": {
+   "pass": true,
+   "detail": "support powers mod 8: [4]"
+  },
+  "octahedral_element_realizes_the_COMPACT_FLIP": {
+   "pass": true,
+   "detail": "Ad(s)|frame = (+,-,+,-): s flips exactly the t-carrying (compact) charges -- the hemisphere split IS t-parity, realized inside the principal SL2's normalizer of the holonomy"
+  },
+  "tau_is_automorphism_involution": {
+   "pass": true,
+   "detail": ""
+  },
+  "tau_frame_action_BROKEN": {
+   "pass": true,
+   "detail": "the bare theta-lift does NOT act +-diagonally on the frame (matches banked B907 outer sweep chi=1 row); only its chi-signed dressings phi+-, phi_all do"
+  },
+  "rank_frame_plus_tau_image": {
+   "value": 8,
+   "detail": "4 = span preserved, 8 = fully broken"
+  },
+  "shadow_sigma_allminus_is_banked_D_12_flips": {
+   "pass": true,
+   "detail": ""
+  },
+  "shadow_sigma_chim_is_banked_D2_11_flips": {
+   "pass": true,
+   "detail": ""
+  },
+  "shadow_sigma_c_is_Dc_12_flips": {
+   "pass": true,
+   "detail": "the compact-flip's 27-shadow: the census D_c (B928 flip counts 0,12,12,12 for {I, D, D_c, D_c D})"
+  },
+  "shadow_summary": {
+   "value": {
+    "sigma_-1 -> D (wall twist)": 12,
+    "sigma_chi- -> D2 (the ELEVEN)": 11,
+    "sigma_c -> D_c": 12
+   },
+   "detail": "K4's frame-invisible legs are 27-visible; W_frame's carriers cast the census D-set"
+  }
+ },
+ "verdict_sharp_pair": "DISTINCT SUBGROUPS OF Aut(e6), overlapping in exactly {1, sigma_-1}. K4 (the wall 2-torsion, inner, Cartan-fixing) does NOT act on the frame: two of its legs break every charge line and neither pencil plane survives. W_frame is realized by the OTHER Klein-carrying group C8 = <phi+, sigma_c, sigma_-1> (the C-compatible census subgroup), with P(C8) = W_frame and ker P = {1, sigma_-1}. The shared leg sigma_-1 is the frame-invisible one -- the B912/B928 wall twist D.",
+ "verdict": "COMPLETE"
+}

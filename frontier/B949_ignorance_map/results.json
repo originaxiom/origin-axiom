@@ -1,0 +1,128 @@
+{
+ "corpus_size": 865,
+ "status_counts": {
+  "banked": 573,
+  "dead": 218,
+  "open": 55,
+  "dormant": 19
+ },
+ "obstacle_table": {
+  "source_free": {
+   "banked": 0,
+   "dead": 1,
+   "open": 0,
+   "dormant": 0,
+   "total": 1,
+   "resolved_pct": 0.0
+  },
+  "cancellation": {
+   "banked": 46,
+   "dead": 17,
+   "open": 4,
+   "dormant": 1,
+   "total": 68,
+   "resolved_pct": 67.6
+  },
+  "selector": {
+   "banked": 18,
+   "dead": 3,
+   "open": 3,
+   "dormant": 0,
+   "total": 24,
+   "resolved_pct": 75.0
+  },
+  "measure": {
+   "banked": 76,
+   "dead": 45,
+   "open": 5,
+   "dormant": 2,
+   "total": 128,
+   "resolved_pct": 59.4
+  },
+  "units_scale": {
+   "banked": 90,
+   "dead": 17,
+   "open": 14,
+   "dormant": 8,
+   "total": 129,
+   "resolved_pct": 69.8
+  },
+  "gauge_dict": {
+   "banked": 48,
+   "dead": 24,
+   "open": 4,
+   "dormant": 3,
+   "total": 79,
+   "resolved_pct": 60.8
+  },
+  "particle_dict": {
+   "banked": 74,
+   "dead": 25,
+   "open": 0,
+   "dormant": 0,
+   "total": 99,
+   "resolved_pct": 74.7
+  },
+  "spacetime_3p1": {
+   "banked": 98,
+   "dead": 34,
+   "open": 12,
+   "dormant": 3,
+   "total": 147,
+   "resolved_pct": 66.7
+  },
+  "observable": {
+   "banked": 34,
+   "dead": 15,
+   "open": 0,
+   "dormant": 1,
+   "total": 50,
+   "resolved_pct": 68.0
+  },
+  "numerology": {
+   "banked": 21,
+   "dead": 8,
+   "open": 4,
+   "dormant": 0,
+   "total": 33,
+   "resolved_pct": 63.6
+  },
+  "bridge_construction": {
+   "banked": 5,
+   "dead": 8,
+   "open": 1,
+   "dormant": 0,
+   "total": 14,
+   "resolved_pct": 35.7
+  }
+ },
+ "worst_resolved": "source_free",
+ "objective_frontier": "bridge_construction",
+ "source_free_probe": {
+  "id": "B58",
+  "status": "dead",
+  "is_keyword_match_not_a_real_attack": true
+ },
+ "source_free_is_a_recorded_dead_direction": true,
+ "n_motifs_ge_60": 17,
+ "strongest_motif_avoidance": {
+  "ratio": 0.729,
+  "pair": [
+   "dickson_tower",
+   "z3_generation"
+  ],
+  "actual": 17,
+  "expected": 23.3
+ },
+ "no_structural_motif_gap": true,
+ "axioms_everything_rests_on": [
+  "A1",
+  "A2",
+  "A3",
+  "A4",
+  "A5",
+  "A6",
+  "A7"
+ ],
+ "A5_A6_are_independent_routes": true
+}

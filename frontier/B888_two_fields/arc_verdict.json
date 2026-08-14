@@ -1,0 +1,13 @@
+{
+ "id": "B888",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "Three cubics, ONE quadratic resolvent: the vacuum-weight cubic (not isomorphic to K), the generic-weight cubic (isomorphic to K), and mu itself all have squarefree discriminant part 77 = 7*11 -- one quadratic field Q(sqrt(77)) inside all three S3 Galois closures, so the vacuum and charge fields are RESOLVENT-ENTANGLED (compositum Galois group in the order-18 fiber product, not S3 x S3); the two weight-cubics differ only 2-adically (2^70 vs 2^64). THE EXPONENT ECHO, recorded as an unweighted observation: E6 exponents (1,4,5,7,8,11); the four 2T charges live in degrees 2*(4,7,8,11); the measured plane uses the (4,8) pair and the resolvent remembers exactly the complementary UNMEASURED pair (7,11) = x14, x22. Feeds W4: the KMRT trialitarian formalization should treat the resolvent-entangled pair, with Q(sqrt(77)) as the etale algebra's discriminant datum. Priced next: field discs proper + 2-adic ramification detail.",
+ "depends_on": [
+  "B866",
+  "B886"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

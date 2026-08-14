@@ -1,0 +1,10 @@
+{
+ "id": "B351",
+ "verdict": "PROVED",
+ "claim_one_line": "An exact integer Chevalley 𝔢₆ (Jacobi verified on all 76,076 triples, the forced Cartan-return sign isolated) yields the principal sl₂, exponents {1,4,5,7,8,11}, and θ with fixed 𝔣₄=52 acting on exponent lines by (−1)^{m+1}.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

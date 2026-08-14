@@ -1,0 +1,10 @@
+{
+ "id": "B170",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Machian 'external dissolves into self-referential' leap is undecidable from within and its only testable form, value-matching, fails a random-base null control.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

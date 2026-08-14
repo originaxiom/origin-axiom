@@ -1,0 +1,457 @@
+{
+ "stage0": {
+  "denominators": {
+   "8": 1,
+   "14": 1,
+   "16": 13,
+   "22": 19
+  },
+  "charges_commute": true
+ },
+ "stage1_moment_census": {
+  "moment_degrees_searched": "all (a,b,c,d), a+b<=4, c+d<=4, total<=4, each<=3",
+  "nonzero_parity_classes": [
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "gram_exact": {
+   "B(x8,x8)": "241532928",
+   "B(x8,x14)": "0",
+   "B(x8,x16)": "0",
+   "B(x8,x22)": "0",
+   "B(x14,x8)": "0",
+   "B(x14,x14)": "-317708697600",
+   "B(x14,x16)": "0",
+   "B(x14,x22)": "0",
+   "B(x16,x8)": "0",
+   "B(x16,x14)": "0",
+   "B(x16,x16)": "988843239014400/13",
+   "B(x16,x22)": "0",
+   "B(x22,x8)": "0",
+   "B(x22,x14)": "0",
+   "B(x22,x16)": "0",
+   "B(x22,x22)": "-889958915112960000/19"
+  },
+  "census": {
+   "(1, 1, 1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(1, 1, 1, -1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(1, 1, -1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(1, 1, -1, -1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(1, -1, 1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(1, -1, 1, -1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(1, -1, -1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(1, -1, -1, -1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, 1, 1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, 1, 1, -1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, 1, -1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, 1, -1, -1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, -1, 1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, -1, 1, -1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, -1, -1, 1)": {
+    "killed": false,
+    "killers": []
+   },
+   "(-1, -1, -1, -1)": {
+    "killed": false,
+    "killers": []
+   }
+  },
+  "survivors": [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    -1
+   ],
+   [
+    1,
+    1,
+    -1,
+    1
+   ],
+   [
+    1,
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1,
+    1
+   ],
+   [
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    1,
+    1
+   ],
+   [
+    -1,
+    1,
+    1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    -1,
+    1,
+    1
+   ],
+   [
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   [
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  ]
+ },
+ "stage2_sweep_reverified": {
+  "cartan_flip_invariant": true,
+  "omega_automorphism_full": true,
+  "omega_involution": true,
+  "n_C_compatible_of_128": 8,
+  "representatives": [
+   {
+    "kind": "inner",
+    "signs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "eps": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 78,
+    "composite_with_omega_fixed_dim": 36,
+    "composite_is_involution": true
+   },
+   {
+    "kind": "inner",
+    "signs": [
+     1,
+     -1,
+     -1,
+     1,
+     -1,
+     1
+    ],
+    "eps": [
+     1,
+     -1,
+     1,
+     -1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 38,
+    "composite_with_omega_fixed_dim": 36,
+    "composite_is_involution": true
+   },
+   {
+    "kind": "inner",
+    "signs": [
+     -1,
+     1,
+     1,
+     -1,
+     1,
+     -1
+    ],
+    "eps": [
+     1,
+     -1,
+     1,
+     -1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 38,
+    "composite_with_omega_fixed_dim": 36,
+    "composite_is_involution": true
+   },
+   {
+    "kind": "inner",
+    "signs": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "eps": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 38,
+    "composite_with_omega_fixed_dim": 36,
+    "composite_is_involution": true
+   },
+   {
+    "kind": "outer",
+    "signs": [
+     1,
+     1,
+     -1,
+     -1,
+     -1,
+     1
+    ],
+    "eps": [
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 36,
+    "composite_with_omega_fixed_dim": 38,
+    "composite_is_involution": true
+   },
+   {
+    "kind": "outer",
+    "signs": [
+     1,
+     -1,
+     1,
+     -1,
+     1,
+     1
+    ],
+    "eps": [
+     -1,
+     1,
+     -1,
+     1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 36,
+    "composite_with_omega_fixed_dim": 38,
+    "composite_is_involution": true
+   },
+   {
+    "kind": "outer",
+    "signs": [
+     -1,
+     1,
+     -1,
+     1,
+     -1,
+     -1
+    ],
+    "eps": [
+     -1,
+     1,
+     -1,
+     1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 52,
+    "composite_with_omega_fixed_dim": 38,
+    "composite_is_involution": true
+   },
+   {
+    "kind": "outer",
+    "signs": [
+     -1,
+     -1,
+     1,
+     1,
+     1,
+     -1
+    ],
+    "eps": [
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "automorphism_full": true,
+    "involution": true,
+    "fixed_dim": 36,
+    "composite_with_omega_fixed_dim": 38,
+    "composite_is_involution": true
+   }
+  ]
+ },
+ "stage3_structure": {
+  "dim_zC": 12,
+  "kernel_dims": {
+   "8": 30,
+   "14": 12,
+   "16": 30,
+   "22": 12
+  },
+  "dim_a_ker8_cap_ker16": 30,
+  "dim_derived_zC": 8,
+  "dim_center_zC": 4,
+  "C_central_in_zC": true
+ },
+ "stage4_wall_pair": {
+  "wall_pattern": [
+   -1,
+   1,
+   -1,
+   1
+  ],
+  "wall_signs": [
+   [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ]
+  ],
+  "phi1_fixed_dim": 36,
+  "phi2_fixed_dim": 52,
+  "phi_fix_on_a": {
+   "phi1": [
+    12,
+    18
+   ],
+   "phi2": [
+    28,
+    2
+   ]
+  },
+  "pairing_bookkeeping_ok": true,
+  "phi1_on_zC_fix_antifix": [
+   6,
+   6
+  ],
+  "g_phi1phi2": {
+   "pattern": {
+    "8": 1,
+    "14": 1,
+    "16": 1,
+    "22": 1
+   },
+   "involution": true,
+   "fixed_dim": 38,
+   "is_inner_allminus": true
+  },
+  "phi1_phi2_Aut_conjugate": false,
+  "phi1_phi2_not_conjugate_reason": "fixed dims 36 vs 52 differ (rank invariant)"
+ }
+}

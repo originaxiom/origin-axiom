@@ -1,0 +1,10 @@
+{
+ "id": "B281",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The figure-eight's character variety does not distinguish E₆ at either the dim H¹=rank or the irreducibility level, so the 3d-3d input type is computably unforced.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

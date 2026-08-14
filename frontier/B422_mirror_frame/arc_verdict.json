@@ -1,0 +1,10 @@
+{
+ "id": "B422",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal, so the content wall holds under both of the object's symmetries.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

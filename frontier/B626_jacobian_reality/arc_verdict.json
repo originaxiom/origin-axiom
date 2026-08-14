@@ -1,0 +1,10 @@
+{
+ "id": "B626",
+ "verdict": "PROVED",
+ "claim_one_line": "The adjoint Jacobian J = mu + 1/mu is real exactly for the amphichiral words and complex for the chiral ones; the naive crossover laws are refuted.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

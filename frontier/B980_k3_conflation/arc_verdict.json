@@ -1,0 +1,16 @@
+{
+ "id": "B980",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The chain 'k=3 -> G*Lambda=2pi -> a Planck-scale Lambda -> 122 orders from observation' is WITHDRAWN as a statement about this object, on two independent grounds. (i) DIMENSION, verified: Smolin's relation is titled 'in 3+1 DIMENSIONS' and reads k=6pi/lambda with lambda=hbar*G*Lambda (eq.58; B259 dropped the hbar). G*Lambda is dimensionless in d=4 ONLY -- computed here from [G_d]=L^(d-2). The object's level comes from a 3-MANIFOLD; the 3d dimensionless ratio is G_3/ell (Witten eq.2.2, k_L+k_R=ell/(8G)). (ii) PROVENANCE, the stronger ground: the object's k=3 comes from the JONES/ANYON thread (B218 unitary-anyon index, B224 M(4,5)) and has NO gravitational derivation, while Smolin's k is DEFINED as 6pi/(hbar*G*Lambda). Equating them POSITS k_anyon=k_gravity and then reads back the assumption; 'G*Lambda=2pi' is that assumption restated, not a derivation. NOTE: this arc's first draft claimed the defect was compact-SU(2)-vs-noncompact-gauge-group. That was WRONG -- Smolin's CS theory IS SU(2) -- and was caught by verifying this arc's own load-bearing citation before commit. The algebra was always correct (6pi/3=2pi). CONSEQUENCE: the '122 orders' is not a failure of the object; the object never made that prediction. THE POSITIVE: the object's genuine gravitational Chern-Simons quantity is B250's complex volume, Vol=6*Lobachevsky(pi/3)=2.02988321281930725... with CS=0 EXACTLY by amphichirality. SCOPE: B259 walls #1-#4 and its verified theorem (the Mostow metric solves 3d vacuum Einstein exactly with Lambda=-1) STAND UNTOUCHED; only wall #5's QGAP justification is withdrawn. B259 did flag the defect ('4d combo') but in a parenthesis while the conclusion travelled -- this seat quoted 'G*Lambda=2pi' to the owner as a live result earlier the same day, which is how the leak works. The 122-order figure is real as a fact about physics and is itself convention-dependent (Planck-mass cutoff ~120 orders; Lorentz-covariant dimensional regularization ~56-60); what is withdrawn is its attachment to this object as OUR shortfall. Verified on this bench: [G_d]=L^(d-2) from Einstein-Hilbert with hbar=c=1 so G*Lambda is dimensionless in d=4 ONLY; 6pi/3=2pi exactly; Vol(4_1)=6*Lobachevsky(pi/3)=2.0298832128193072500424051081 matching the known value to 28 digits. VERDICT LABEL CORRECTED 2026-08-08 (B818's rule, caught by its own gate): this arc was first filed RETRACTED. That is wrong under B818's stated invariant -- 'an arc labelled RETRACTED must withdraw ITS OWN headline; an auditor that establishes another arc's claim fails is doing positive work'. This arc's own headline STANDS; what is withdrawn is B259's chain. It is an AUDITOR, hence PROVED.",
+ "depends_on": [
+  "B259",
+  "B250",
+  "B218",
+  "B224",
+  "B277"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-08)"
+}

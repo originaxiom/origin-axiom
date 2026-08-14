@@ -1,0 +1,10 @@
+{
+ "id": "B790",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and the valueless-object null stands.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

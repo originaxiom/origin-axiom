@@ -1,0 +1,21 @@
+{
+ "A_perm_is_dual_swap": true,
+ "A_iota_trace_active_generic": true,
+ "B_object_selfdual": true,
+ "B_iota_fixes_object_traces": true,
+ "C_iota_flips_T7": true,
+ "C_gamma5_flips_T7": true,
+ "D_iota_fixes_T3": true,
+ "D_gamma5_flips_T3": true,
+ "D_A5_ambivalent": true,
+ "E_c_flips_T4": true,
+ "E_iota_fixes_T4": true,
+ "E_T6_undetermined_frame_dependent": true,
+ "F_rank_without_iota": 3,
+ "F_rank_with_iota": 4,
+ "F_iota_independent": true,
+ "F_iota_splits_T7_T3": true,
+ "F_iota_equals": null,
+ "F_robust_to_T6": true,
+ "VERDICT": "OUTCOME_B: iota independent 4th generator (rank 4); flips T7 not T3, splitting B766's T7=T3"
+}

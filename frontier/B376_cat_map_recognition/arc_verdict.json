@@ -1,0 +1,10 @@
+{
+ "id": "B376",
+ "verdict": "PROVED",
+ "claim_one_line": "The level tower's order obeys the Pisano identity ord(W1 at N)=pi(N)/2 at five levels, identifying the tower as the quantized golden cat map.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

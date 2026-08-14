@@ -1,0 +1,12 @@
+{
+ "id": "B61",
+ "verdict": "PROVED",
+ "claim_one_line": "ESTABLISHED: B60's SL(5) 'conditioning wall' was a rank-23 forward-word coordinate defect, and inverse-word coordinates at dps=60 resolve 22 of 24 multipliers onto the Cayley-Hamilton catalog. UNSETTLED: the remaining 2 modes and any symbolic proof -- this is high-precision numerics, not a proof.",
+ "instrument": false,
+ "depends_on": [
+  "B60"
+ ],
+ "superseded_by": null,
+ "stratum": "C",
+ "authored_by": "W1-pilot; corrected by B834 (24 readers, two panels, unanimous)"
+}

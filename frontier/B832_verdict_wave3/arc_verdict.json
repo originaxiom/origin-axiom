@@ -1,0 +1,10 @@
+{
+ "id": "B832",
+ "verdict": "PROVED",
+ "claim_one_line": "Wave 3's four-category calibration scored Fleiss κ=0.9305 (CI 0.83–1.00), passing the gate and refuting the seat's own prediction of a lower κ, and exposed a mixed-arc vocabulary gap behind 3 of 16 corpus disagreements.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

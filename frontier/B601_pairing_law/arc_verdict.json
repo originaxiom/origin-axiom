@@ -1,0 +1,10 @@
+{
+ "id": "B601",
+ "verdict": "PROVED",
+ "claim_one_line": "trace(B_odd)(kappa) = [5|kappa]/phi - [4|kappa] holds exactly on 14 kappa-points including two registered discriminating predictions, and coincides with B587's LAW-O, making the odd trace law stage-universal.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

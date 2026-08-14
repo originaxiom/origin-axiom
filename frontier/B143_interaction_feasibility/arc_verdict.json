@@ -1,0 +1,10 @@
+{
+ "id": "B143",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The algebraic trace venue is structurally mirror-blind, so the chirality-of-interactions campaign cannot run there and needs orientation-sensitive topological tooling not yet installed.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

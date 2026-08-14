@@ -1,0 +1,88 @@
+
+==========================================================================
+S1 - PARENT-SPECTRUM INJECTION: m004 DOES have known eigenvalues
+==========================================================================
+  Gamma_41 < PSL(2,O_3) is a SUBGROUP of index 12 (B788 Step 2, exact).
+  A Gamma_B-invariant function is Gamma_41-invariant; the Laplacian commutes with
+  pullback; finite volume keeps it L^2. Hence:
+      spec_disc(PSL(2,O_3)\H^3)  SUBSET OF  spec_disc(m004)
+  So every eigenvalue in Grunewald-Huntebrinker 1996 Table 3 IS an eigenvalue of m004.
+
+  PARTIAL list in hand (12 of 36), ~3 significant digits:
+    [51.014, 122.19, 157.29, 177.78, 222.0, 226.4, 261.5, 293.5, 304.1, 331.2, 355.9, 365.1]
+  *** PROVENANCE: transcribed from a SECONDARY report of Table 3, not read from the
+      primary in-sandbox. UNVERIFIED. Screening only; must be checked against the
+      paper before any use beyond screening. ***
+
+  => RIGOROUS (modulo that transcription): lambda_1(m004) <= 51.014
+
+==========================================================================
+S2 - SELBERG TRACE FORMULA (heat trace) on the EXACT length spectrum
+==========================================================================
+  h(r) = e^{-(1+r^2)t}  =>  Theta(t) = sum_j e^{-lambda_j t},
+  g(x) = e^{-t} e^{-x^2/(4t)} / (2 sqrt(pi t)).
+  Identity term  = Vol * e^{-t} / (8 pi^{3/2} t^{3/2})   [= the Weyl heat kernel]
+  Loxodromic sum = sum_{prim gamma} sum_{k>=1} mult * l_0 * g(k*l) / |tr(gamma^k)^2 - 4|
+  OMITTED: the cusp/Eisenstein terms (need the scattering determinant). Their size is
+  the honest error budget and is reported, not hidden.
+
+  using 134 geodesics with Re(l) <= 5.0
+
+       t         identity         geodesic              sum  geo/ident
+    0.05         3.876917         0.001967         3.878884     0.0005
+     0.1         1.303848         0.026500         1.330347     0.0203
+     0.2         0.417112         0.098036         0.515147     0.2350
+     0.4         0.120739         0.206804         0.327543     1.7128
+     0.8         0.028614         0.319881         0.348496    11.1790
+     1.5         0.005534         0.355190         0.360725    64.1776
+     3.0         0.000437         0.154063         0.154499   352.8636
+
+  Reading: at small t the identity (Weyl) term dominates and the geodesic sum is a
+  small correction -- the expected behaviour, so the pipeline is consistent. At larger
+  t the geodesic sum grows relative to it AND the omitted cusp terms grow too, so the
+  large-t column is NOT a usable lambda_1 estimate. That is the honest limit of this
+  cell: it CONSTRAINS, it does not determine.
+
+==========================================================================
+S3 - lambda_1 SCREENING (bounds + explicit base rate; NOT a match test)
+==========================================================================
+  Weyl: N(T) ~ 0.034278362 T^3.  N(T)=1 at T = r ~ 3.0784113
+  => HEURISTIC first eigenvalue  lambda_1 ~ 1 + r^2 ~ 10.476616
+  => RIGOROUS upper bound (S1)   lambda_1 <= 51.014
+  (The two are consistent: m004 is 12x denser than the parent, so its first eigenvalue
+   must lie well below the parent's 51.014.)
+
+  SCREEN: is r_1 ~ 3.07841 or lambda_1 ~ 10.4766 near a
+  programme quantity? (3-digit data => a 'hit' here is meaningless BY CONSTRUCTION.)
+     1/(phi sqrt5) = 0.276390        |r_1 - x|/x = 10.1379
+              JUNO = 0.309020        |r_1 - x|/x = 8.9619
+               phi = 1.618034        |r_1 - x|/x = 0.9026
+             sqrt3 = 1.732051        |r_1 - x|/x = 0.7773
+       sqrt(2+phi) = 1.902113        |r_1 - x|/x = 0.6184
+             sqrt5 = 2.236068        |r_1 - x|/x = 0.3767
+                 e = 2.718282        |r_1 - x|/x = 0.1325
+                pi = 3.141593        |r_1 - x|/x = 0.0201
+             2+phi = 3.618034        |r_1 - x|/x = 0.1491
+
+  Nearest programme quantity to the heuristic r_1: see column above.
+  BASE RATE: with 9 anchors spread over [0.27, 3.62] and a 3-digit-credible window of
+  ~1e-2 relative, the expected number of chance 'hits' for ONE number is ~9*2e-2 ~ 0.18;
+  at the precision actually available (3 digits, and r_1 only a HEURISTIC) no verdict
+  of 'match' is admissible at all. This cell answers only: NEAR or NOWHERE NEAR.
+
+==========================================================================
+VERDICT (screening)
+==========================================================================
+  1. m004's eigenvalue channel is NOT untouchable: >=12 eigenvalues are KNOWN by
+     inheritance from the parent group, at ~3 digits. Step 1's 'never computed' is
+     CORRECTED to 'never computed DIRECTLY; ~1/12 inherited, at 3 digits'.
+  2. lambda_1(m004) <= 51.014 rigorously; Weyl heuristic puts it near 10.6.
+  3. Both sit FAR below the 20-digit PSLQ budget => structurally incapable of a match.
+     Screening answer only: the first eigenvalue is an O(10) number, and the programme's
+     quantities are O(1). NOWHERE NEAR, at the only resolution available.
+  4. The trace formula CONSTRAINS but does not determine: the cusp/Eisenstein terms are
+     omitted and grow exactly where a lambda_1 readout would need them.
+
+==========================================================================
+results_screening.json written
+==========================================================================

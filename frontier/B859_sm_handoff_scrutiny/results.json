@@ -1,0 +1,104 @@
+{
+ "D4_correct": 6,
+ "free_fermion_check": {
+  "SO(10)_1": "5",
+  "SO(8)_1": "4"
+ },
+ "h_dual": {
+  "A1": 2,
+  "A2": 3,
+  "A3": 4,
+  "A4": 5,
+  "A5": 6,
+  "D4": 6,
+  "D5": 8,
+  "E6": 12
+ },
+ "handoff_used_D4": 7,
+ "sm_nonextremal": true,
+ "so10_c": "5",
+ "so8u1_c": "5",
+ "so8u1_is_conformal": true,
+ "step1": [
+  {
+   "coset": "16+16bar",
+   "coset_complex": true,
+   "dim": 46,
+   "option": "SO(10)xU(1)"
+  },
+  {
+   "coset": "(20,2)",
+   "coset_complex": false,
+   "dim": 38,
+   "note": "20 = Lambda^3(6) is SELF-DUAL; (20,2) self-conjugate: vector-like",
+   "option": "SU(6)xSU(2)"
+  },
+  {
+   "coset": "(3,3,3)+conj",
+   "coset_complex": true,
+   "dim": 24,
+   "option": "SU(3)^3"
+  },
+  {
+   "coset": "42",
+   "coset_complex": false,
+   "dim": 36,
+   "note": "C4: -1 in W, all reps self-dual",
+   "option": "Sp(8)"
+  },
+  {
+   "coset": "(4,1)+(1,4)",
+   "coset_complex": true,
+   "dim": 8,
+   "option": "SU(3)_9"
+  }
+ ],
+ "step1_note": "the vector-like cosets die by the framework's own even/odd criterion, retiring part of the Michel import",
+ "step1_winner": "SO(10)xU(1)",
+ "step2": [
+  {
+   "c": "5",
+   "chiral": true,
+   "conformal": true,
+   "dim": 25,
+   "note": "A4: -1 not in W; complex reps",
+   "option": "SU(5)xU(1)"
+  },
+  {
+   "c": "5",
+   "chiral": true,
+   "conformal": true,
+   "dim": 21,
+   "note": "A3 factor complex",
+   "option": "Pati-Salam SU(4)xSU(2)^2"
+  },
+  {
+   "c": "5",
+   "chiral": false,
+   "conformal": true,
+   "dim": 29,
+   "note": "D4: -1 IN W, all reps real; AND Borel-de Siebenthal: no A4 in D4",
+   "option": "SO(8)xU(1)"
+  }
+ ],
+ "step2_unique": true,
+ "step2_winner": "SU(5)xU(1)",
+ "step3": [
+  {
+   "chiral": true,
+   "dim": 16,
+   "option": "SU(4)xU(1)"
+  },
+  {
+   "chiral": true,
+   "dim": 12,
+   "option": "SM"
+  },
+  {
+   "chiral": true,
+   "dim": 10,
+   "option": "SU(3)xU(1)^2"
+  }
+ ],
+ "step3_gate_silent": true
+}

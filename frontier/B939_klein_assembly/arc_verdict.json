@@ -1,0 +1,9 @@
+{
+ "id": "B939",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE KLEIN ASSEMBLY -- THE SIX SHADOWS ARE NOT ONE GROUP: the sharpest checkable pair is DISTINCT -- K4 (the wall 2-torsion, inner, Cartan-fixing) and W_frame (the solo seat's section-LIII frame group) are DISTINCT SUBGROUPS OF Aut(e6) overlapping in exactly {1, sigma_-1}; K4 does NOT act on the frame at all (two of its legs break every charge line; neither pencil plane survives), and W_frame is realized instead by the OTHER Klein-carrying group C8 = <phi+, sigma_c, sigma_-1> (the C-compatible census subgroup) with P(C8) = W_frame and kernel {1, sigma_-1}. THE SHARED LEG IS THE FRAME-INVISIBLE ONE -- sigma_-1 = the B912/B928 wall twist D, the same element B938 showed is colorless-blind and B936 showed carries the nonzero H^1 class. The 27-shadow map is banked: sigma_-1 -> D (12 flips), sigma_chi- -> D2 (the ELEVEN), sigma_c -> D_c (12) -- K4's frame-invisible legs are 27-VISIBLE, and W_frame's carriers cast the census D-set.",
+ "depends_on": ["B909", "B912", "B928", "B936", "B938"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent + cc banking (2026-08-07)"
+}

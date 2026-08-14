@@ -1,0 +1,15 @@
+{
+ "id": "B879",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The cc3 selection-cochain harvest (packet sha256 e59df18a, 38 files, preserved verbatim; cc3's own reconciliation addendum CHECKED AND CONFIRMED accurate): six claims verified with independent legs -- C1 the collapse theorem (745 primitive classes enumerated independently, per-length exact; unit det(A-I) <=> tr = 3 over all 745; realized only by RL); C2 the deflation strata (amphichiral 53; prime-fundamental-disc set exactly {5,13,17,29,37,53,173,229}; joint 11); C3 the five-value set banked as a COMPLETE-FAMILY CORROBORATION under B665/B666 (counts 188/153/249/147/8 confirmed; 10 rows recomputed with main's B238/B664 machinery at 2e-15; NOT a new law, NOT pointwise -- the addendum's self-downgrade is correct); C4 silver-unique entangled amphichirality (own scan: exactly R^2L^2 at d = 2); C5 field communality (d = 5 x 16 classes incl R^4L^4, |tr_odd| = 1/phi real); C6 THE HEADLINE -- the quantum amalgam wall + even-solo no-go: h1(D) [2,0,0,6]/[5,6,10,17] at kappa 4..7 reproduced live AND matching stored results, with the no-go lemma verified by hand in one line (A^-1-I = -A^-1(A-I) => solo term always even => the classical 2+3 split structurally unreachable in this model class). Carried: the proposed L91 amendment (register pass, not silently applied); the pointwise shadow-class column; the SnapPy V5 cross.",
+ "depends_on": [
+  "B238",
+  "B664",
+  "B665",
+  "B666"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat harvesting the cc3 third seat (2026-08-03)"
+}

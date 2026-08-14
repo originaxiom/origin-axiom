@@ -1,0 +1,10 @@
+{
+ "id": "B740",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Recomputed across all 78 hyperbolic fillings by two seats and two methods: no closed filling of m004 re-sees sqrt(-3), upgrading B288's kill from asserted to earned.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

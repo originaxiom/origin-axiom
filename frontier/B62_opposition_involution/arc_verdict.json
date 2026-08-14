@@ -1,0 +1,10 @@
+{
+ "id": "B62",
+ "verdict": "PROVED",
+ "claim_one_line": "The exchange involution is the opposition involution theta=-w0; its height-2 root-space split identifies the 2 unresolved SL(5) modes as char(M^2), completing the degree-24 factorization.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

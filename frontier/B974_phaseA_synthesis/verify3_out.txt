@@ -1,0 +1,6 @@
+ c=1        coeffs=[1, 0, -12, -5] | P_lead=[] P_const=[5] | disc squarefree kernel=[7, 11]
+ c=13       coeffs=[1, 0, -2028, -10985] | P_lead=[] P_const=[5, 13] | disc squarefree kernel=[7, 11]
+ c=7        coeffs=[1, 0, -588, -1715] | P_lead=[] P_const=[5, 7] | disc squarefree kernel=[7, 11]
+ c=1/13     coeffs=[2197, 0, -156, -5] | P_lead=[13] P_const=[5] | disc squarefree kernel=[7, 11]
+ c=2/3      coeffs=[27, 0, -144, -40] | P_lead=[3] P_const=[2, 5] | disc squarefree kernel=[7, 11]
+ c=3/5      coeffs=[25, 0, -108, -27] | P_lead=[5] P_const=[3] | disc squarefree kernel=[7, 11]

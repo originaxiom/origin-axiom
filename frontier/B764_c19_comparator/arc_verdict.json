@@ -1,0 +1,10 @@
+{
+ "id": "B764",
+ "verdict": "PROVED",
+ "claim_one_line": "C19's sqrt|disc K| form breaks at 5_2; the corrected general law — off-block equals the geometric Riley pair's separation |u - ubar| — verified to 40 digits.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

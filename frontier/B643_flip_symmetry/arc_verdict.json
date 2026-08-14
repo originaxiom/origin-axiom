@@ -1,0 +1,10 @@
+{
+ "id": "B643",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The amphichiral flip is not a symmetry of the weld double: no invertible global companion exists (solution dimension 1, singular) in either involution class.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

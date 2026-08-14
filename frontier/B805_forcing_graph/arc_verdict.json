@@ -1,0 +1,10 @@
+{
+ "id": "B805",
+ "verdict": "PROVED",
+ "claim_one_line": "Builds the forcing graph from K024's static prose and measures that 567 of 733 arcs (77%) attach to no face and 6 of 11 faces carry no proved arc, because face-attachment existed only for the negatives.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B16",
+ "verdict": "PROVED",
+ "claim_one_line": "The record-swap P is unique up to sign as the primitive-pair exchange involution, forced by (LX)^2=A but not by axioms A1-A6.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

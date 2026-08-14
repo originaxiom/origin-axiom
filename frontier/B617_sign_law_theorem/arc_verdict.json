@@ -1,0 +1,10 @@
+{
+ "id": "B617",
+ "verdict": "PROVED",
+ "claim_one_line": "For every hyperbolic A, sign det'(I - Sym^2m A) = (-1)^m with closed form tau_m = (-1)^m prod (lambda^j - lambda^-j)^2 — the bundle sign law is pure parity.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

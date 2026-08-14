@@ -1,0 +1,41 @@
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[A] |W(E6)| = 51840  det split: 25920 / 25920
+[A] level 1: rank 3  c = 6  qdims = ['1.0', '1.0', '1.0']
+    h = ['0', '2/3', '2/3']
+    checks: unitary 2.3e-41  S^2=perm True  (ST)^3=S^2 3.13e-41  Verlinde int-err 5.97e-41  N in [0,1]
+[A] level 2: rank 9  c = 78/7  qdims = ['1.0', '2.24698', '1.0', '1.801938', '1.801938', '1.801938', '2.24698', '2.24698', '1.0']
+    h = ['0', '13/21', '4/3', '25/21', '25/21', '6/7', '13/21', '9/7', '4/3']
+    checks: unitary 3.44e-41  S^2=perm True  (ST)^3=S^2 1.75e-40  Verlinde int-err 4.79e-41  N in [0,1]
+[B] level 1: pointed=True  Z/3 fusion=True  theta_27 = exp(2pi i * 2/3)
+    (p,r) solutions of pentagon+hexagons+twist+Hopf-S : [(0, 6, 'Sbar')]
+    => associator class in H^3(Z/3,U(1)) = Z/3 is TRIVIAL: every level-1 6j symbol F^{abc}_{a+b+c} = 1 (27 of them); the braiding is the bicharacter R^{ab} = zeta_3^{2ab} = exp(2pi i * 6 ab/9), theta_a = R^{aa}.
+    => E6_1 = the Z/3 anyon theory with q(a) = exp(4 pi i a^2/3) = conj(SU(3)_1); pointed => the RT invariant of ANY knot is framing-only. LEVEL 1 IS DEAF TO THE OBJECT.
+[C] level 2: rank 9, simple currents ['000000', '000002', '200000'] (Z/3), |det S_pointed| = 0.03528 -> modular subcategory: True
+    Mueger centralizer = ['000000', '010000', '100001']  dims ['1.0', '1.801938', '2.24698']  h ['0', '6/7', '9/7']
+    Deligne factorization errors: S 2.09e-41   T 1.38e-40   N 0
+    level-2 pointed factor: theta_J = exp(2pi i * 4/3),  (p,r) = [(0, 3, 'Sbar')]
+[C] rank-3 factor: constructed SU(2)_5-even 6j at q = exp(i pi/7): pentagon 3.64e-40 on 580 eqs, hexagon 2.83e-40
+    Hopf-link S / twist match to the E6_2 centralizer: perm (0, 2, 1) conj False errS 4.41e-41 errT 4.46e-41
+    => E6_2 6j = (Z/3 cocycle omega_0) tensor (SU(2)_5-even Racah 6j):  98 nonzero rank-3 F-symbols x 27 pointed = 2646.  LEVEL-2 6j COMPUTED: True
+[D] E6 level-2 colored invariants of 4_1 (= SU(2)_5-even colored Jones at zeta_7): {'N=1 (spin 0)': '(1.0 + 0.0j)', 'N=3 (spin 1)': '(2.0881460000204 + 3.4999854577467e-41j)', 'N=5 (spin 2)': '(-0.6920214716301 - 7.0061431920628e-41j)'}
+    control: Habiro form reproduces the N=2 Jones polynomial of 4_1 (err 0.0);  level-1 (pointed) invariants are framing-only = 1.
+[E] index(principal SL2 -> E6) = 156  (control: principal su2 in su(3) = 4; closed form h^(h^+1)rank/6 = 156)
+[F] SnapPy complex volume (2 triangulations): {'4_1': {'vol': '2.02988321281931', 'cs': '-1.33227e-15'}, 'm004': {'vol': '2.02988321281931', 'cs': '-2.22045e-15'}}  -> CS(rho_geo) = 0: True
+    => CS(E6-principal geometric flat connection) = 156 * 0 = 0 (exact).
+[G] B581 sign law re-verified in-cell from the banked exact torsions: tau_1 = -3 anchor OK; sign(tau_m) = {1: -1, 4: 1, 5: -1, 7: -1, 8: 1, 11: -1} == (-1)^m: True;  theta-parity (B353, (-1)^(m+1)): {1: 'even', 4: 'odd', 5: 'even', 7: 'even', 8: 'odd', 11: 'even'}
+[G] dim H^1(M; Sym^2m rho_geo) per E6 exponent: {1: 1, 4: 1, 5: 1, 7: 1, 8: 1, 11: 1}  (h^0 = {1: 0, 4: 0, 5: 0, 7: 0, 8: 0, 11: 0}, 2 primes agree: True)
+    total = 6 = rank(E6) -> smooth point of the E6 character variety, one direction per exponent; theta-odd directions m = [4, 8] (B581 sign law).
+    char-0 control, exact over Q(zeta_6), all six blocks: h1 = {1: 1, 4: 1, 5: 1, 7: 1, 8: 1, 11: 1}, relator = I everywhere: True, agrees with F_p: True
+    peripheral dim H^1(T^2; Sym^2m) = 2 per block, total 12 = 2 rank(E6): the image is a 6-dim LAGRANGIAN -> CS along the deformation = its potential.
+[H] CS functional sampled along the theta-EVEN (m=1) direction (Dehn fillings of 4_1; CS_E6 = 156 * CS_SL2): (5,1): CS_SL2=0.07703818026, (5,2): CS_SL2=-0.2346223684, (7,1): CS_SL2=0.06061686635, (6,1): CS_SL2=0.06793167348, (8,3): CS_SL2=0.1741945983
+    (156 is EVEN, so the E6 value is well defined mod 1 even though the SL(2,C) CS of a closed manifold is only defined mod 1/2.)
+[I] wall (computed): the theta-odd directions m = [4, 8] are NOT in the image of the SL(2,C) deformation (they lie in Sym^8 / Sym^16, not the adjoint block).
+    The only implemented complex-volume machinery is PGL(N,C) Ptolemy (GTZ/Zickert). Smallest faithful E6 rep = 27 (index 6 at index(adj) = 24); Ptolemy coords on the 2-tetrahedron triangulation of 4_1 = C(30,3)-4 = 4056 per tetrahedron = 8112 variables.
+    => phase 3 is WALLED on the theta-odd sector: EXTERNAL (an extended-Bloch / CCS class for E6, or a 8112-variable Ptolemy solve, neither in-sandbox).
+
+=== VERDICT ===
+gates: modular-data True | level1-6j True | level2-6j True | A2 True | A3 False | wall True | index True | deformation True
+VERDICT: RESOLVED-A
+E6 6j COMPUTED at both levels: level 1 is pointed (Z/3, theta_27 = exp(4 pi i/3)) with TRIVIAL associator (all 27 F-symbols = 1); level 2 (rank 9, c = 78/7) SPLITS as a Deligne product of its modular Z/3 current subcategory and its Mueger centralizer, which is the even part of SU(2)_5 at q = exp(i pi/7) -- so the level-2 6j are the quantum Racah symbols (pentagon, hexagons, Hopf-link S and twists all verified), and the E6 level-2 invariants of 4_1 are the SU(2)_5 colored Jones at zeta_7. PHASE 3 splits: CS of the E6-principal geometric connection = 156 x 0 = 0 and the deformation space is exactly 6 = rank(E6) (one direction per exponent, a Lagrangian on the boundary), the CS functional is computable along the theta-EVEN m=1 direction, and WALLED (EXTERNAL, 8112-variable PGL(27) Ptolemy) along the theta-ODD m = 4, 8.
+DISCRIMINATING FACT: The Z/3 simple-current subcategory of E6 level 2 is MODULAR (|det S_pointed| = 0.0352828 != 0), so E6_2 = Pointed(Z/3) (x) Centralizer with the centralizer of rank 3 -- and that rank-3 factor's S-matrix and twists match the even part of SU(2)_5 entry-by-entry (errS 4.41e-41, errT 4.46e-41). That is what makes the level-2 6j symbols closed-form instead of an unsolved rank-9 pentagon system.
+[runtime 24.8s]

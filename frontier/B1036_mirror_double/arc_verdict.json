@@ -1,0 +1,20 @@
+{
+ "id": "B1036",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE MIRROR-DOUBLE (plan Arc 2, sealed a10ae240 pre-compute): THE DOUBLE GAINS CLASSES, NOT THE SYMMETRIC PAIRING. V2 + cross-gate: h1(dbl; 27) = 5 = 2+2+1 against the solo 3, by TWO INDEPENDENT ROUTES agreeing blockwise -- the MV assembly (identity gluing; rank(r) = 1 per block, the Poincare-Lefschetz half-lives value computed not cited; the first draft's lambda-inversion produced impossible negatives and was caught by the compatibility gate, kept as the lesson) and direct Fox on the double's 3-generator 3-relator presentation. V4: THE MULTIPLICITY BRANCH FIRES WITH ITS FENCE -- two seam-born extra classes (one per chiral block, the H0(T2)-connecting contribution): B308's multiplicity mechanism is LIVE for the first time in the record, AND the number is 5, not 3 -- a candidate, not a generations theorem. V3: THE SYMMETRIC TEXTURE'S OBSTRUCTION EXTENDS -- after two routes HALTED at their own sealed controls (the second a finding: the per-side scalar route's vacuity IS B632's O2 restated), the record route computes the seam-sector pairing (direct T2 restrictions, holonomy-invariant Bth form, gauge control PASS) and finds the symmetric support EMPTY in every cell of every block including the seam-born classes: the one scalar sector the closed double newly opens carries no mass-shaped pairing; the solo antisymmetry wall extends through the seam. Scope fence: the full V-valued double assembly is the named unrun residual. V5: h1(M; ad) = 6 EXACTLY as the audit seat's additivity theorem predicts -- a never-banked number confirmed through an independent pipeline; the four-threes dissolve survives its own falsifier. Priors: existence lean NOT REALIZED in computed sectors (recorded); multiplicity no-prior outcome 5; ad lean HELD. Gate 5 untouched; type-law obeyed; five silent failure modes pre-registered and none fired silently -- two fired LOUDLY at sealed controls, which is the system working.",
+ "depends_on": [
+  "B632",
+  "B639",
+  "B637",
+  "B575",
+  "B598",
+  "B961",
+  "B883",
+  "B308",
+  "B1033"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-12), sealed a10ae240"
+}

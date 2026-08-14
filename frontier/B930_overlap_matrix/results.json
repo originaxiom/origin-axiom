@@ -1,0 +1,1005 @@
+{
+ "cell": "B930 overlap matrix",
+ "checks": {
+  "rep27_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "banked_wall_pair_is_a_global_negation": {
+   "pass": true,
+   "detail": "chi+ = (1, -1, 1, -1, 1, 1)"
+  },
+  "weight_pairing_pi_recomputed_and_involutive": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_symmetric": {
+   "pass": true,
+   "detail": "c_{pi(b)} = c_b => the banked H+ matrix is symmetric"
+  },
+  "frame_72_roots_ns_8_14_16_22": {
+   "pass": true,
+   "detail": ""
+  },
+  "four_charges_commute_exactly": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_charge_equivariance_eps_m1_p1_m1_p1_exact": {
+   "pass": true,
+   "detail": "Rn^T H+ = -eps_n H+ Rn, eps = (-1,+1,-1,+1) -- the selection-rule input"
+  },
+  "D2_rederived_as_rep_diagonal_of_sigma_chi_minus": {
+   "pass": true,
+   "detail": "pure rep propagation, no handoff"
+  },
+  "D2_equals_banked_B916_diagonal": {
+   "pass": true,
+   "detail": ""
+  },
+  "D2_11_flips_pi_symmetric": {
+   "pass": true,
+   "detail": ""
+  },
+  "charpoly_Mc_factors_3_1__6_1__6_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "rational_blocks_dim_3_6_18": {
+   "pass": true,
+   "detail": ""
+  },
+  "register_blocks_span_Q27": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Me_W6_is_g_squared_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Mo_W6_even": {
+   "pass": true,
+   "detail": ""
+  },
+  "K_roots_xS_alpha_B_found": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_equals_minus_3_w_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_S_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_nonS_dim_1_over_K_beta": {
+   "pass": true,
+   "detail": ""
+  },
+  "S_and_A_exact_R8_R16_eigenvectors_over_K": {
+   "pass": true,
+   "detail": ""
+  },
+  "even_labels_irreducible_deg3": {
+   "pass": true,
+   "detail": "c8vac/c8oct have degree-3 minpolys => the three Galois branches are pairwise DISTINCT: the even-charge selection rule separates generations"
+  },
+  "A_norms_tau_free_both_gauges": {
+   "pass": true,
+   "detail": ""
+  },
+  "q_nonzero_all": {
+   "pass": true,
+   "detail": ""
+  },
+  "dS_dA_minpolys_equal_banked_B916": {
+   "pass": true,
+   "detail": ""
+  },
+  "m_S_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_roots_three_conjugate_pairs": {
+   "pass": true,
+   "detail": ""
+  },
+  "h_col_is_K_norm_form_of_one_quadratic": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_disc_minus_231_wc_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "delta_squared_rational": {
+   "pass": true,
+   "detail": ""
+  },
+  "disc_mu_77_times_square": {
+   "pass": true,
+   "detail": ""
+  },
+  "S77_squared_77": {
+   "pass": true,
+   "detail": ""
+  },
+  "omega_squared_minus_231_in_Mbar": {
+   "pass": true,
+   "detail": ""
+  },
+  "tinv_self_test": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_eigenspace_dim_3_over_K_omega": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_all_four_charges_scalar": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_even_labels_omega_free": {
+   "pass": true,
+   "detail": "mu8 = octet label (branch alignment); mu8, mu16 in K"
+  },
+  "colored_odd_labels_PURELY_omega_imaginary": {
+   "pass": true,
+   "detail": "mu14, mu22 have ZERO K-part and nonzero omega-part: the exact input of the (+,-) selection rule -- conj(mu_odd) = -mu_odd on every branch"
+  },
+  "colored_mu14_omega_part_K": {
+   "value": [
+    "506880/169",
+    "5331916800/2197",
+    "-15021490176000/28561"
+   ],
+   "detail": ""
+  },
+  "colored_mu22_omega_part_K": {
+   "value": [
+    "2680473600/3211",
+    "-306561024000/2197",
+    "-28841261137920000/542659"
+   ],
+   "detail": ""
+  },
+  "colored_gram_Hplus_invertible": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_gram_Hprime_invertible": {
+   "pass": true,
+   "detail": ""
+  },
+  "colored_twist_trace_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": "the abstract colored machinery reproduces the banked twist spectrum"
+  },
+  "FORCED_a_Hplus_same_generation_cross_branch_block_ZERO": {
+   "pass": true,
+   "detail": "h_{H+}(atom(g,+), atom(g,-)) = 0 EXACTLY (abstract, all branches at once): the odd labels are purely omega-imaginary and nonzero, so the selection rule kills the whole 3x3 color block"
+  },
+  "a_Hprime_same_generation_cross_branch_nonzero": {
+   "value": false,
+   "detail": "the twisted gauge DOES couple the two branches (same generation)"
+  },
+  "beta_matches_a_mu_root": {
+   "pass": true,
+   "detail": ""
+  },
+  "three_branch_roots_are_the_mu_roots": {
+   "pass": true,
+   "detail": ""
+  },
+  "generation_order_ascending_rho_code_branches": {
+   "value": [
+    0,
+    1,
+    2
+   ],
+   "detail": "reported matrices use ascending-rho generation indexing (the banked B928/B929 sheet convention = ascending v_g^2, HG2)"
+  },
+  "m_S_branches_match_banked_B928_certs": {
+   "pass": true,
+   "detail": "0.86289845162610324643 0.80011290842674547149 0.69636363994715128208"
+  },
+  "FORCED_b_Hplus_gram_is_exactly_diagonal": {
+   "pass": true,
+   "detail": "the colorless nine are pairwise H+-orthogonal INCLUDING all cross-generation and cross-register pairs (B914's identity, recomputed in Mbar): under the canonical gauge there is NO overlap to read"
+  },
+  "b_Hplus_diagonal_matches_q": {
+   "pass": true,
+   "detail": ""
+  },
+  "b_Hprime_diagonal_is_d_times_q": {
+   "pass": true,
+   "detail": ""
+  },
+  "b_Hprime_gram_hermitian": {
+   "pass": true,
+   "detail": ""
+  },
+  "b_Hprime_diag_signs_NINE_order": {
+   "value": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "detail": "['S0', 'S1', 'S2', 'A+0', 'A+1', 'A+2', 'A-0', 'A-1', 'A-2']"
+  },
+  "b_SA_plus_minus_moduli_FORCED_equal_EXACT": {
+   "pass": true,
+   "detail": "h'(S, A-) = conj h'(S, A+) (S is real): the two A-columns carry identical moduli EXACTLY -- the 3x6 collapses to one 3x3"
+  },
+  "b_same_gen_closed_form_matches_embedded": {
+   "pass": true,
+   "detail": "h'(S_g, A_g+) = sigma_g(x_e) + tau sigma_g(x_o), x_e, x_o in K"
+  },
+  "b_same_gen_overlap_sq_K_coords": {
+   "value": [
+    "-6666875/153487321",
+    "18406080000/1995335173",
+    "266005555200000/25939357249"
+   ],
+   "detail": "|Ghat(S_g, A_g)|^2 as ONE K-element (3 Galois branches)"
+  },
+  "b_same_gen_overlap_sq_minpoly": {
+   "value": [
+    824843587681,
+    -230571559875,
+    -16394578125,
+    -244140625
+   ],
+   "detail": ""
+  },
+  "FORCED_a_Hplus_ALL_cross_blocks_ZERO": {
+   "pass": true,
+   "detail": "under H+ every colored cross pairing vanishes EXACTLY -- cross-branch (odd-label rule) and cross-generation (even-label rule): the canonical gauge sees NO up/down overlap at all; the overlap can only live in D2"
+  },
+  "a_Hprime_atom_grams_match_abstract": {
+   "pass": true,
+   "detail": "embedded H' atom Grams = sigma_g of the abstract Gt (omega -> S77 tau)"
+  },
+  "a_tij_tau_free_real": {
+   "pass": true,
+   "detail": "every projector overlap tr(P_i Q_j) is real (an element of N)"
+  },
+  "a_t_diag_abstract_omega_free": {
+   "pass": true,
+   "detail": "the same-generation +- projector overlap is ONE K-element"
+  },
+  "a_t_diag_embeds_to_diagonal": {
+   "pass": true,
+   "detail": ""
+  },
+  "a_t_diag_K_coords": {
+   "value": [
+    "0",
+    "0",
+    "0"
+   ],
+   "detail": ""
+  },
+  "a_t_diag_minpoly": {
+   "value": [
+    1,
+    0
+   ],
+   "detail": ""
+  },
+  "a_minus_span_gram_invertible_Hprime": {
+   "pass": true,
+   "detail": "the 9-dim minus-triple span is H'-nondegenerate"
+  },
+  "c_traces_sum_rule_11": {
+   "pass": true,
+   "detail": "tr W3 = 151/64, tr W6 = 169/64, tr W18 = 6; the three register compressions exhaust tr Pi_F = 11 exactly"
+  },
+  "c_trace_W3_equals_Tr_m_S": {
+   "pass": true,
+   "detail": ""
+  },
+  "c_trace_W6_equals_2_Tr_m_A": {
+   "pass": true,
+   "detail": ""
+  },
+  "c_W3_charpoly_factors": {
+   "value": "[{\"deg\": 1, \"mult\": 1, \"coeffs\": [\"1\", \"-1\"]}, {\"deg\": 2, \"mult\": 1, \"coeffs\": [\"1536\", \"-2088\", \"677\"]}]",
+   "detail": ""
+  },
+  "c_W6_charpoly_factors": {
+   "value": "[{\"deg\": 1, \"mult\": 2, \"coeffs\": [\"1\", \"-1\"]}, {\"deg\": 1, \"mult\": 2, \"coeffs\": [\"1\", \"0\"]}, {\"deg\": 2, \"mult\": 1, \"coeffs\": [\"1536\", \"-984\", \"125\"]}]",
+   "detail": ""
+  },
+  "c_W18_charpoly_factors": {
+   "value": "[{\"deg\": 1, \"mult\": 6, \"coeffs\": [\"1\", \"-1\"]}, {\"deg\": 1, \"mult\": 12, \"coeffs\": [\"1\", \"0\"]}]",
+   "detail": ""
+  },
+  "c_W3_eigenvalue_1_multiplicity_one": {
+   "pass": true,
+   "detail": "the W3 compression has eigenvalue 1 with multiplicity exactly 1 (= dim(F cap W3), the banked B928 intersection)"
+  },
+  "c_intersection_line_inside_flip_span": {
+   "pass": true,
+   "detail": "the eigenvalue-1 principal direction IS the rational line F cap W3: one exact unity principal angle between the twist frame and the vacuum register"
+  },
+  "c_S_compression_equals_half_q_minus_HprimeSS": {
+   "pass": true,
+   "detail": "M_ij = (delta_ij q_i - h'(S_i, S_j))/2 EXACTLY: the (c) matrix and the S x S block of the twist gram carry the same information"
+  },
+  "c_S_compression_symmetric_exact": {
+   "pass": true,
+   "detail": ""
+  },
+  "c_vacuum_norm_signs": {
+   "value": [
+    -1,
+    -1,
+    -1
+   ],
+   "detail": "the W3 register's h-signs (indefinite is EXPECTED per B912)"
+  },
+  "c_S_frame_eigs_are_rational_charpoly_roots": {
+   "pass": true,
+   "detail": "sign-threaded: 0.53401701801096878822 0.82535798198903121178 1.0"
+  },
+  "c_rotation_orthogonal": {
+   "pass": true,
+   "detail": "R in O(3) exactly (the S-frame |h|-orthonormal; the register's uniform sign threaded): the ONE genuinely unitary overlap matrix"
+  },
+  "c_unity_column_exact_matches_numeric_R": {
+   "pass": true,
+   "detail": "the exact F-cap-W3 line reproduces the first R column entrywise"
+  },
+  "ident_atom_g0p_matches_B912": {
+   "pass": true,
+   "detail": "-> B912 atom 2"
+  },
+  "ident_atom_g0m_matches_B912": {
+   "pass": true,
+   "detail": "-> B912 atom 1"
+  },
+  "ident_atom_g1p_matches_B912": {
+   "pass": true,
+   "detail": "-> B912 atom 6"
+  },
+  "ident_atom_g1m_matches_B912": {
+   "pass": true,
+   "detail": "-> B912 atom 5"
+  },
+  "ident_atom_g2p_matches_B912": {
+   "pass": true,
+   "detail": "-> B912 atom 11"
+  },
+  "ident_atom_g2m_matches_B912": {
+   "pass": true,
+   "detail": "-> B912 atom 10"
+  },
+  "ident_triples_are_the_two_ccc_transversals": {
+   "pass": true,
+   "detail": "+ branch = [2, 6, 11], - branch = [1, 5, 10]"
+  },
+  "ident_matches_banked_B923_map": {
+   "pass": true,
+   "detail": ""
+  },
+  "belt_9_lines_6_colored_clusters": {
+   "pass": true,
+   "detail": ""
+  },
+  "belt_eigen_residual_certificates": {
+   "pass": true,
+   "detail": "worst componentwise residual 6.97e-67 (no Rayleigh)"
+  },
+  "belt_line_identification": {
+   "pass": true,
+   "detail": ""
+  },
+  "belt_colored_identification": {
+   "pass": true,
+   "detail": "worst eigenvalue match 8.86e-67"
+  },
+  "belt_b_moduli_match_exact": {
+   "pass": true,
+   "detail": "worst 4.29e-76 (independent eig route, both A lines)"
+  },
+  "belt_a_tij_match_exact": {
+   "pass": true,
+   "detail": "worst 5.13e-143"
+  },
+  "belt_c_eigs_match_exact": {
+   "pass": true,
+   "detail": "worst 3.93e-76"
+  }
+ },
+ "notes": [],
+ "b_overlap": {
+  "definition": "Ghat_ij = h'(S_i, A_j+)/sqrt(|h'(S_i,S_i)||h'(A_j,A_j)|), ascending-rho generations; H+ version is EXACTLY zero",
+  "moduli_50d": [
+   [
+    "0.15098292492360569849546390065812566797844354885054",
+    "0.67165695569909417529144203691467150688981430774831",
+    "0.22479172387406472055572336484954419348482226081762"
+   ],
+   [
+    "0.86873891854638917181229485678174502650003901430098",
+    "0.19528531909653351743535976690150558052207186024287",
+    "0.22479172387406472055572336484954419348482226081762"
+   ],
+   [
+    "0.86873891854638917181229485678174502650003901430098",
+    "0.67165695569909417529144203691467150688981430774831",
+    "0.58349453732819109518918497233344604824597016304481"
+   ]
+  ],
+  "moduli_sq_minpolys": {
+   "11": [
+    824843587681,
+    -230571559875,
+    -16394578125,
+    -244140625
+   ],
+   "12": [
+    908209,
+    1049253,
+    253875,
+    -15625
+   ],
+   "13": [
+    908209,
+    1049253,
+    253875,
+    -15625
+   ],
+   "21": [
+    908209,
+    1049253,
+    253875,
+    -15625
+   ],
+   "22": [
+    824843587681,
+    -230571559875,
+    -16394578125,
+    -244140625
+   ],
+   "23": [
+    908209,
+    1049253,
+    253875,
+    -15625
+   ],
+   "31": [
+    908209,
+    1049253,
+    253875,
+    -15625
+   ],
+   "32": [
+    908209,
+    1049253,
+    253875,
+    -15625
+   ],
+   "33": [
+    824843587681,
+    -230571559875,
+    -16394578125,
+    -244140625
+   ]
+  },
+  "same_gen_sq_K": [
+   "-6666875/153487321",
+   "18406080000/1995335173",
+   "266005555200000/25939357249"
+  ],
+  "same_gen_sq_minpoly": [
+   824843587681,
+   -230571559875,
+   -16394578125,
+   -244140625
+  ],
+  "Hprime_diag_signs": [
+   1,
+   1,
+   1,
+   -1,
+   -1,
+   1,
+   -1,
+   -1,
+   1
+  ]
+ },
+ "b_master_9x9_moduli_50d": {
+  "order": [
+   "S0(asc rho pos 0)",
+   "S1(asc rho pos 1)",
+   "S2(asc rho pos 2)",
+   "A+0(asc rho pos 0)",
+   "A+1(asc rho pos 1)",
+   "A+2(asc rho pos 2)",
+   "A-0(asc rho pos 0)",
+   "A-1(asc rho pos 1)",
+   "A-2(asc rho pos 2)"
+  ],
+  "moduli": [
+   [
+    "1.0",
+    "0.0505313191222737588584582811119",
+    "0.451123066138974955557705058073",
+    "0.150982924923605698495463900658",
+    "0.671656955699094175291442036915",
+    "0.22479172387406472055572336485",
+    "0.150982924923605698495463900658",
+    "0.671656955699094175291442036915",
+    "0.22479172387406472055572336485"
+   ],
+   [
+    "0.0505313191222737588584582811119",
+    "1.0",
+    "0.754707308597149800152799393029",
+    "0.868738918546389171812294856782",
+    "0.195285319096533517435359766902",
+    "0.22479172387406472055572336485",
+    "0.868738918546389171812294856782",
+    "0.195285319096533517435359766902",
+    "0.22479172387406472055572336485"
+   ],
+   [
+    "0.451123066138974955557705058073",
+    "0.754707308597149800152799393029",
+    "1.0",
+    "0.868738918546389171812294856782",
+    "0.671656955699094175291442036915",
+    "0.583494537328191095189184972333",
+    "0.868738918546389171812294856782",
+    "0.671656955699094175291442036915",
+    "0.583494537328191095189184972333"
+   ],
+   [
+    "0.150982924923605698495463900658",
+    "0.868738918546389171812294856782",
+    "0.868738918546389171812294856782",
+    "1.0",
+    "0.583494537328191095189184972333",
+    "0.195285319096533517435359766902",
+    "0.754707308597149800152799393029",
+    "0.22479172387406472055572336485",
+    "0.671656955699094175291442036915"
+   ],
+   [
+    "0.671656955699094175291442036915",
+    "0.195285319096533517435359766902",
+    "0.671656955699094175291442036915",
+    "0.583494537328191095189184972333",
+    "1.0",
+    "0.150982924923605698495463900658",
+    "0.22479172387406472055572336485",
+    "0.451123066138974955557705058073",
+    "0.868738918546389171812294856782"
+   ],
+   [
+    "0.22479172387406472055572336485",
+    "0.22479172387406472055572336485",
+    "0.583494537328191095189184972333",
+    "0.195285319096533517435359766902",
+    "0.150982924923605698495463900658",
+    "1.0",
+    "0.671656955699094175291442036915",
+    "0.868738918546389171812294856782",
+    "0.0505313191222737588584582811119"
+   ],
+   [
+    "0.150982924923605698495463900658",
+    "0.868738918546389171812294856782",
+    "0.868738918546389171812294856782",
+    "0.754707308597149800152799393029",
+    "0.22479172387406472055572336485",
+    "0.671656955699094175291442036915",
+    "1.0",
+    "0.583494537328191095189184972333",
+    "0.195285319096533517435359766902"
+   ],
+   [
+    "0.671656955699094175291442036915",
+    "0.195285319096533517435359766902",
+    "0.671656955699094175291442036915",
+    "0.22479172387406472055572336485",
+    "0.451123066138974955557705058073",
+    "0.868738918546389171812294856782",
+    "0.583494537328191095189184972333",
+    "1.0",
+    "0.150982924923605698495463900658"
+   ],
+   [
+    "0.22479172387406472055572336485",
+    "0.22479172387406472055572336485",
+    "0.583494537328191095189184972333",
+    "0.671656955699094175291442036915",
+    "0.868738918546389171812294856782",
+    "0.0505313191222737588584582811119",
+    "0.195285319096533517435359766902",
+    "0.150982924923605698495463900658",
+    "1.0"
+   ]
+  ]
+ },
+ "a_overlap": {
+  "definition": "t_ij = tr(P_(i,+) P_(j,-)) with H'-orthogonal projectors onto the 3-dim colored atoms; |G_ij| = sqrt(|t_ij|/3); ascending-rho generations; H+ version EXACTLY zero (all 9 blocks, forced)",
+  "t_pm_50d": [
+   [
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "0.0",
+    "0.0",
+    "0.0"
+   ]
+  ],
+  "t_pp_50d": [
+   [
+    "3.0",
+    "0.15159395736682127657537484333578437480312492250242",
+    "-1.3533691984169248666731151742178996122551515084198"
+   ],
+   [
+    "0.15159395736682127657537484333578437480312492250242",
+    "3.0",
+    "-2.2641219257914494004583981790864052242478684822883"
+   ],
+   [
+    "-1.3533691984169248666731151742178996122551515084198",
+    "-2.2641219257914494004583981790864052242478684822883",
+    "3.0"
+   ]
+  ],
+  "t_diag_K": [
+   "0",
+   "0",
+   "0"
+  ],
+  "t_diag_minpoly": [
+   1,
+   0
+  ],
+  "t_offdiag_minpolys": {
+   "12": [
+    1,
+    0
+   ],
+   "13": [
+    1,
+    0
+   ],
+   "21": [
+    1,
+    0
+   ],
+   "23": [
+    1,
+    0
+   ],
+   "31": [
+    1,
+    0
+   ],
+   "32": [
+    1,
+    0
+   ]
+  },
+  "moduli_50d": [
+   [
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "0.0",
+    "0.0",
+    "0.0"
+   ]
+  ],
+  "row_projection_onto_full_minus_span_per_color": [
+   "0.0",
+   "0.0",
+   "0.0"
+  ]
+ },
+ "c_overlap": {
+  "definition": "Pi_F = (1-D2)/2 compressed to the register blocks by the H+-orthogonal projectors; rational charpolys = exact principal spectra of the twist frame against the Galois frame; R = eigenframe of the W3 compression in the h-orthonormal S-frame (columns desc eigenvalue, ascending-rho rows)",
+  "W3_charpoly_factors": [
+   {
+    "deg": 1,
+    "mult": 1,
+    "coeffs": [
+     "1",
+     "-1"
+    ]
+   },
+   {
+    "deg": 2,
+    "mult": 1,
+    "coeffs": [
+     "1536",
+     "-2088",
+     "677"
+    ]
+   }
+  ],
+  "W6_charpoly_factors": [
+   {
+    "deg": 1,
+    "mult": 2,
+    "coeffs": [
+     "1",
+     "-1"
+    ]
+   },
+   {
+    "deg": 1,
+    "mult": 2,
+    "coeffs": [
+     "1",
+     "0"
+    ]
+   },
+   {
+    "deg": 2,
+    "mult": 1,
+    "coeffs": [
+     "1536",
+     "-984",
+     "125"
+    ]
+   }
+  ],
+  "W18_charpoly_factors": [
+   {
+    "deg": 1,
+    "mult": 6,
+    "coeffs": [
+     "1",
+     "-1"
+    ]
+   },
+   {
+    "deg": 1,
+    "mult": 12,
+    "coeffs": [
+     "1",
+     "0"
+    ]
+   }
+  ],
+  "traces": {
+   "W3": "151/64",
+   "W6": "169/64",
+   "W18": "6"
+  },
+  "W3_eigs_50d": [
+   "-0.53401701801096878821837648497762548804098533829233",
+   "-0.82535798198903121178162351502237451195901466170767",
+   "-1.0"
+  ],
+  "R_50d": [
+   [
+    "-0.57735026918962576450914878050195745564760175127013",
+    "0.77182040006139558936509074229480427548019289191541",
+    "0.26638306386805811716597798109050866923756114005095"
+   ],
+   [
+    "-0.57735026918962576450914878050195745564760175127013",
+    "-0.61660470047836873457006662036162066668046794925566",
+    "0.53522454167820803160813282986078520489447141024658"
+   ],
+   [
+    "0.57735026918962576450914878050195745564760175127013",
+    "0.15521569958302685479502412193318360879972494265975",
+    "0.80160760554626614877411081095129387413203255029753"
+   ]
+  ],
+  "R_unity_column_sq_exact": [
+   {
+    "N_value_50d": "0.33333333333333333333333333333333333333333333333333",
+    "minpoly": [
+     3,
+     -1
+    ]
+   },
+   {
+    "N_value_50d": "0.33333333333333333333333333333333333333333333333333",
+    "minpoly": [
+     3,
+     -1
+    ]
+   },
+   {
+    "N_value_50d": "0.33333333333333333333333333333333333333333333333333",
+    "minpoly": [
+     3,
+     -1
+    ]
+   }
+  ],
+  "S_frame_compression_Mhat_50d": [
+   [
+    "-0.86289845162610324642917053419193751292738850286609",
+    "-0.016676139947151282076364856358579100897903786809548",
+    "0.12042540842674547149446460944948338617470771032437"
+   ],
+   [
+    "-0.016676139947151282076364856358579100897903786809548",
+    "-0.80011290842674547149446460944948338617470771032437",
+    "0.18321095162610324642917053419193751292738850286609"
+   ],
+   [
+    "0.12042540842674547149446460944948338617470771032437",
+    "0.18321095162610324642917053419193751292738850286609",
+    "-0.69636363994715128207636485635857910089790378680955"
+   ]
+  ]
+ },
+ "identification": {
+  "plus_branch_triple_B912": [
+   2,
+   6,
+   11
+  ],
+  "minus_branch_triple_B912": [
+   1,
+   5,
+   10
+  ],
+  "map": {
+   "g0p": 2,
+   "g0m": 1,
+   "g1p": 6,
+   "g1m": 5,
+   "g2p": 11,
+   "g2m": 10
+  }
+ },
+ "shape": {
+  "a_colored_pm_Hprime": {
+   "moduli_descending": [
+    "0.0",
+    "0.0",
+    "0.0",
+    "0.0",
+    "0.0",
+    "0.0",
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   "diag": [
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   "offdiag": {
+    "12": "0.0",
+    "23": "0.0",
+    "13": "0.0",
+    "21": "0.0",
+    "32": "0.0",
+    "31": "0.0"
+   },
+   "upper": {},
+   "lower": {},
+   "diag_dominant": false,
+   "wolfenstein_perms_upper_hit_of_6": []
+  },
+  "b_S_vs_A_Hprime": {
+   "moduli_descending": [
+    "0.8687389185463891718122949",
+    "0.8687389185463891718122949",
+    "0.671656955699094175291442",
+    "0.671656955699094175291442",
+    "0.583494537328191095189185",
+    "0.2247917238740647205557234",
+    "0.2247917238740647205557234",
+    "0.1952853190965335174353598",
+    "0.1509829249236056984954639"
+   ],
+   "diag": [
+    "0.1509829249236056984954639",
+    "0.1952853190965335174353598",
+    "0.583494537328191095189185"
+   ],
+   "offdiag": {
+    "12": "0.671656955699094175291442",
+    "23": "0.2247917238740647205557234",
+    "13": "0.2247917238740647205557234",
+    "21": "0.8687389185463891718122949",
+    "32": "0.671656955699094175291442",
+    "31": "0.8687389185463891718122949"
+   },
+   "upper": {
+    "r1_23_over_12": "0.3346823433698981703136494",
+    "r2_13_over_23": "1.0",
+    "wolfenstein_ordered": false
+   },
+   "lower": {
+    "r1_23_over_12": "0.773140170608379211322398",
+    "r2_13_over_23": "1.293426519557386591526092",
+    "wolfenstein_ordered": false
+   },
+   "diag_dominant": false,
+   "wolfenstein_perms_upper_hit_of_6": []
+  },
+  "c_twist_vs_galois_rotation": {
+   "moduli_descending": [
+    "0.8016076055462661487741108",
+    "0.7718204000613955893650907",
+    "0.6166047004783687345700666",
+    "0.5773502691896257645091488",
+    "0.5773502691896257645091488",
+    "0.5773502691896257645091488",
+    "0.5352245416782080316081328",
+    "0.266383063868058117165978",
+    "0.1552156995830268547950241"
+   ],
+   "diag": [
+    "0.5773502691896257645091488",
+    "0.6166047004783687345700666",
+    "0.8016076055462661487741108"
+   ],
+   "offdiag": {
+    "12": "0.7718204000613955893650907",
+    "23": "0.5352245416782080316081328",
+    "13": "0.266383063868058117165978",
+    "21": "0.5773502691896257645091488",
+    "32": "0.1552156995830268547950241",
+    "31": "0.5773502691896257645091488"
+   },
+   "upper": {
+    "r1_23_over_12": "0.6934573660344204531532026",
+    "r2_13_over_23": "0.4977033807769881145350991",
+    "accel_index_a": "1.906082290532999605790465",
+    "wolfenstein_ordered": true
+   },
+   "lower": {
+    "r1_23_over_12": "0.2688414778101499144421548",
+    "r2_13_over_23": "3.719664123800786990726284",
+    "wolfenstein_ordered": false
+   },
+   "diag_dominant": false,
+   "wolfenstein_perms_upper_hit_of_6": []
+  }
+ },
+ "belt": {
+  "eigen_residual": "6.972e-67",
+  "b_worst": "4.286e-76",
+  "a_worst": "5.132e-143",
+  "c_worst": "3.935e-76"
+ },
+ "verdict_structure": {
+  "Hplus": "FORCED ZERO overlap for (a) and (b): exact charge-orthogonality (even labels separate generations, purely-omega-imaginary odd labels separate the branches). The canonical gauge cannot mix.",
+  "Hprime": "the twist gauge carries ALL the overlap; see shape reports",
+  "c": "the W3 compression has ONE exact unity principal angle (the rational line F cap W3) + a rational quadratic pair; R in O(3)"
+ },
+ "runtime_s": 7.5
+}

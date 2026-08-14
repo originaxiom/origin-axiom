@@ -1,0 +1,10 @@
+{
+ "id": "B1042",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "PM3 / the trit morphism (sealed b8544786 pre-compute; exact Q(omega), the McKay graph COMPUTED not cited): JOINED -- the VEV-acceptance trit's Z/3 (B1030 #1, algebra-side) IS omega's Z/3 (mu_6, field-side) carried through exhibited functorial links: (1) 2T/Q8 = Z/3 with character values EXACTLY <omega> = mu_3 (49 orthogonality pairs exact); (2) tensoring by those characters IS the affine-E6 diagram's order-3 rotation fixing the center (the McKay graph built from A_ij = <chi2 chi_i, chi_j>); (3) center-deletion = su(3)^3 and the rotation permutes the three A2 factors in ONE 3-cycle = B897's banked factor rotation; upstream links banked (B1010 kappa-2=omega^2; the 2T->E6 spine; B1011). THE CONTROL DECIDES V3: SL(2,5) is PERFECT (computed, commutator = all 120) -- the golden end admits NO such characters, no rotation, no trit; the carry is discriminating, not generic; the B757 membership-accident shape is REFUTED, not avoided. Fences: B1030 sV4's 'unrelated' parenthetical UNTOUCHED for its own pair (#1-vs-#6, the counting floor -- nothing links the terminal count to omega); the FMT's S3 untouched; alternates placed (the trit is algebra-side by residence, FIELD-SIDE BY DESCENT; #3/#4 are not its home). Crossing consequence at type level: the price's third item ('one trit') has an arithmetic pedigree -- the trit is omega's shadow through McKay; the coupling's only Z/3 channel now has a field-side source. The cosmogony row '(omega, triality, the trit)' promotes [LEAP]->[MATH] per the sealed rule, that row only. L157-2 discharged (morphism demand MET for the trit column). V0 prior-art clean (B487 = DGG tensoring, B946 = belt labels -- different objects, recorded).",
+ "depends_on": ["B897", "B1030", "B1010", "B1011", "B1040", "B757", "B860"],
+ "supersedes": null,
+ "superseded_by": null,
+ "locks": ["tests/test_b1042_trit.py"]
+}

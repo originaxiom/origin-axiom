@@ -1,0 +1,10 @@
+{
+ "id": "B638",
+ "verdict": "PROVED",
+ "claim_one_line": "The deck swap is an antilinear involution with Eisenstein-unit spectrum that forces the chord's whole phase pattern; the magnitude-24 ratio is not forced.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

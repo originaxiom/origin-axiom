@@ -1,0 +1,10 @@
+{
+ "id": "B536",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Verification deflates the measurement-architecture handoff: period 6 not reproduced, entanglement conservation trivial by CRT factorization, darkness elimination generic.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

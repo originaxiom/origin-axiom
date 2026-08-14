@@ -124,3 +124,37 @@ not the object's fundamentalness ("measurable" != "crosses"). Yields: (b) the cr
 (B181/B507/B498 = one critical-fixed-point theorem, three wordings); the A1 exact sharpening (dark seam:
 both ends live, only the product channel sqrt-15 off, [15,27,24,0] vs [24,27,24,24]). B518 Tier B
 DOWNGRADED (measurable, not a crossing). Every internal cross-connection = absorbing-loop, confirmed.
+
+## The B877–B919 window — the measurement cascade and the value layer (same-PR catch-up, 2026-08-06, B920)
+
+**The standing same-PR rule above was broken for this whole window (cc3 loss audit A5:
+"THEOREM_REGISTRY + THEOREM_LEDGER contain zero B8xx/B9xx rows"); these rows are the
+mechanical catch-up, mirroring `docs/LAW_MAP.md` §F, which carries the full statements.
+Lit-status NEEDS-LIT throughout: no novelty sweep has run on this window. Gate 5 stands —
+every row is exact structure on the object's own charges, no physics value.**
+
+| # | statement | bank | reproducer | lit-status |
+|---|---|---|---|---|
+| T-FMT | the First Measurement Theorem (P69): the 2T-charges stratify e₆; three Galois-conjugate first breakings (μ, constant 13³); z(line) = so(10)⊕u(1); the tiling with the cyclic law | B877 | `tests/test_b877_fmt_review.py` | NEEDS-LIT |
+| T-SMT | the Second Measurement Theorem: a second measurement of the object's own charges lands on su(3)⊕su(2)⊕u(1)³ exactly, skipping SU(5); the wall complex in the split frame | B892, B893 | `tests/test_b892_smt.py`, `tests/test_b893_omega.py` | NEEDS-LIT |
+| T-MAGIC | the magic-square isomorphism (P70): the build IS M(𝕆,ℂ) by explicit structure constants; 0/3003 mismatches; det φ = −2/3 | B904 | `tests/test_b904_bs.py` | NEEDS-LIT |
+| T-INTERBREAK | the inter-breaking laws: vacuum-to-Higgs; the 16/vacuum exclusion — exact minimal-polynomial theorems on the matter pencil | B885, B886 | `tests/test_b885_interbreaking.py`, `tests/test_b886_matter_pencil.py` | NEEDS-LIT |
+| T-CONCORD | the four-column concordance: measured ⟺ θ-odd exponents (4,8) ⟺ τ_m > 0 ⟺ split; unmeasured ⟺ (7,11) ⟺ compact; 7·11 = 77 the resolvent | B894, B898 | `tests/test_b894_bridge.py`, `tests/test_b898_census.py` | NEEDS-LIT |
+| T-SIGDICH | the signature dichotomy: ad(x₈) ≡ ad(x₁₆): {0³⁰, 48 real}; ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imag}; zero generic-complex on C | B898 | `tests/test_b898_census.py` | NEEDS-LIT |
+| T-SIGNLAW | the sign-law mechanism: all six torsion quotients exactly anti-palindromic; sign(τ_m) = sign(lc)·(−1)^{p_m} | B903 | `tests/test_b903_sign.py` | NEEDS-LIT |
+| T-COCYCLE | the diagonal cocycle: all four Π-label cubics have a root in K (each led by 13³); one Galois root permutation acts on both orbits | B900 | `tests/test_b900_cocycle.py` | NEEDS-LIT |
+| T-CSTAB-NOGO | the C-stabilizer no-go: n(C) = z(C) = 12; no real C-stabilizing symmetry swaps split/compact or x₈↔x₁₆ — the c-carrier must be complex | B901 | `tests/test_b901_stab.py` | NEEDS-LIT |
+| T-ANNIHIL | the annihilation theorem: [α_vac] = [α_μ]⁻¹ — vacuum ⊕ charge = the split algebra | B902 | `tests/test_b902_kp.py` | NEEDS-LIT |
+| T-ONECLASS | the one-class theorem + the numerator law + the observer's-place theorem: [α_μ]=[α_gen]=[α_κ]=[α_V]=C, vacuum = C⁻¹; den(V) = 𝔭₁(953)⁴ exactly | B910, B918 | `tests/test_b910_kappa.py`, `tests/test_b918_v.py` | NEEDS-LIT |
+| T-GENSHAPE | the sealed generation-shape (outcome A): G₂₀'s su(3)′ replicates fixed color⊗su(2)′ types into flavor triplets; Casimirs 4/9, 4/9, 3/8; mechanism-hood fenced | B897 | `tests/test_b897_g20.py` | NEEDS-LIT |
+| T-Z2LAW | the unified ℤ₂ law (three faces) + the 15 atoms + K₃,₃: matter gluing = gauge commutation = mixed-texture type; the colorless grid = two pencils of AG(2,3) | B906 | `tests/test_b906_flavor.py` | NEEDS-LIT |
+| T-E62 | the e₆(2) selection + sign-locking: the wall is real exactly in e₆(2), via τ-twisted alignments only | B907 | `tests/test_b907_selector.py` | NEEDS-LIT |
+| T-RATATOM | the rational-atoms theorem + I = −1: the four charges commute rationally on the 27; P_R = −P_C exact | B908 | `tests/test_b908_pin.py` | NEEDS-LIT |
+| T-SIGSPLIT | the signature split of matter: the canonical H has signature (15,12) = e₆(2)'s K-split; colorless atoms positive-definite, colored Lorentzian | B912 | `tests/test_b912_norm.py` | NEEDS-LIT |
+| T-ONENUM | the one-number table: all six normalization-free colorless couplings exactly equal T = σ₂(t_K); the H-unit gauge = the determinant gauge | B914 | `tests/test_b914_table.py` | NEEDS-LIT |
+| T-UNIMOD | the unimodularity identity + the twist-norm law + the product law (P9): λ = 1 exactly in the charge-equivariant gauge; ∏d_i = −(953/2304)² = N_{K/ℚ}(d); v₁v₂v₃ = 3^{3/2}λ² | B916, B917 | `tests/test_b916_bridge.py`, `tests/test_b917_value_arc.py` | NEEDS-LIT |
+| T-38TRACE | the 3/8 trace identities: Tr(T₃²) = 3, Tr(Y²) = 5, Tr(T₃·Y) = 0 exact (one-prime tier; second prime open-diagnosed); structure, not a physics value | B919 | `tests/test_b919_traces.py` | NEEDS-LIT |
+| (negative) T-CROSSING | B915's sealed crossing: one input + the object's boundary + pure desert MISSES at 16σ — a banked sealed negative, listed for window completeness, not a theorem | B915 | `tests/test_b915_crossing.py` | — |
+
+*(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
+invisible-12 — get their rows when their locks land; LAW_MAP §F's pending row governs.)*

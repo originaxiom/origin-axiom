@@ -1,0 +1,172 @@
+{
+ "cell": "B972",
+ "register": "L137",
+ "date": "2026-08-08",
+ "lane": "MATHEMATICS",
+ "status": "BOUNDED WORK COMPLETE -- design and measurement only, nothing sealed, no seal run",
+ "recommendation": "CLOSE L137 AS UNSEALABLE",
+ "recommendation_reason_verbatim": "The value/pencil partition is pre-statable and principled, but it does not predict B947's statistic. (i) T (B914), a value-layer element of K that LAW_MAP section F registers as normalisation-free, fails the pattern on both extreme clauses and fails invariantly (F >= 7). (ii) Two of the four pencil cubics hold in some coordinate of their own gauge orbit, so on that side the statistic is not an invariant of the object. (iii) The statistic's two extreme clauses are a divisor-support condition (N(alpha) = -a0/a3), which makes no reference to the taxonomy, and it splits 2/3 on the banked spectral cubics. The 5/2 observation is an observation about which nine elements of one cubic field were tabulated, and the programme cannot honestly promote it.",
+
+ "task_1_criterion_found": {
+  "a_pre_statable_criterion_exists": true,
+  "criterion": "VALUE family = an element alpha of K specified as a ratio of two commensurable quantities of the object's own Hermitian/weight data, fixed by every normalisation freedom, so its minimal polynomial is canonical with no Q* action on it. PENCIL cubic = root-locus of a determinant along a line A + t.B, whose coordinate carries a free Q*-scale t -> t/c acting by (a3,a2,a1,a0) -> (a3, a2 c, a1 c^2, a0 c^3).",
+  "criterion_separates_the_outcomes": false,
+  "therefore_sealed_cell_designed": false,
+  "why_no_design": "Branch 1 of the task is not reached: a seal built on 'value families hold, pencil cubics fail' would seal a statement whose strong half is refuted by computation in this cell."
+ },
+
+ "task_2_closure": {
+  "verdict": "CLOSE AS UNSEALABLE",
+  "stronger_note": "The specific proposition 'the thinning holds on the value layer and fails on the pencils' is not merely unsealed: its strong half is REFUTED by T, conditional on the explicit and defended judgement that T is a value family (see refutation_scope).",
+  "refutation_scope": "The refutation rests on classifying T as a value family. T shares every pre-statable property of the eight holders: element of K, dimensionless ratio of the object's own data, invariant under the construction's normalisation freedom (B914 exact identity), registered in LAW_MAP section F, branch-symmetric. The only properties that would exclude T are 'was in B941's list of seven' (the thing to be explained) and 'has small coefficients' (a size cutoff chosen after seeing the answer). Both are gerrymandering.",
+  "b947_own_decision_rule_applied_to_enlarged_census": "OUTCOME SPECIAL (again) -- the pattern fails for at least one non-excluded family"
+ },
+
+ "gates": {
+  "B946_V_table_factorisation_reproduced": true,
+  "B918_hier_cubic_agrees": true,
+  "B947_seven_family_verdict_reproduced_independently": true,
+  "B947_5_2_split_reproduced": true,
+  "B888_squarefree_discriminant_part_77_reproduced": [77, 77],
+  "T_banked_value_is_root_of_banked_cubic_rel_residual": 1.34e-54,
+  "T_banked_coefficient_vector_primitive_content": 1,
+  "instrument_failure": false
+ },
+
+ "counterexample": {
+  "family": "T",
+  "source": "B914_ratio_table, T := |c_t|^2/(s_i s_j s_k)",
+  "registry": "LAW_MAP section F, THE ONE-NUMBER TABLE, 'all six normalization-free colorless couplings EXACTLY equal'",
+  "class": "VALUE",
+  "minpoly_degree": 3,
+  "coefficient_digit_lengths": [202, 175, 144, 113],
+  "lead_factorisation": "179^3 * 1759^3 * 4889^3 * 632041^3 * C157, C157 = B53^3 with B53 (53 digits) unfactored and coprime to the four named primes",
+  "P_lead_size_lower_bound": 5,
+  "const_factorisation": "2^192 * 3^60 * 5^6 * 7^18 * 11^6",
+  "P_const": [2, 3, 5, 7, 11],
+  "P_const_size": 5,
+  "HOLDS": false,
+  "fails_both_extreme_clauses": true,
+  "F_lower_bound": 7,
+  "F_forced_primes_below_1e6": [2, 5, 11, 179, 1759, 4889, 632041],
+  "max_forced_primes_compatible_with_pattern": 4,
+  "satisfiable_by_any_rescaling": false,
+  "in_field_K": {"method": "mod-p splitting-type agreement with K = Q[s]/(s^3-12s-5)", "primes_tested": 128, "mismatches": 0},
+  "decidability_note": "the verdict is decidable without factoring C157 because 5 > 2 already fails the clause"
+ },
+
+ "task_3_enlarged_census": {
+  "note": "B941's seven were not the banked census; eleven further banked cubics were found by scanning frontier/*/results.json, including siblings of two of the seven from the same defining arcs",
+  "families": [
+   {"family": "V_hierarchy", "class": "VALUE", "source": "B918", "new": false, "coeffs": [824843587681, -27609909080832, 264084438122496, -760840571584512], "P_lead": [953], "P_const": [2, 3], "P_mid_only": [13, 17, 1129, 421493], "HOLDS": true, "F": 3},
+   {"family": "W_mixing_sq", "class": "VALUE", "source": "B930/B937", "new": false, "coeffs": [824843587681, -230571559875, -16394578125, -244140625], "P_lead": [953], "P_const": [5], "P_mid_only": [3, 367, 677], "HOLDS": true, "F": 2},
+   {"family": "X_cross_overlap_sq", "class": "VALUE", "source": "B930/B937", "new": true, "coeffs": [908209, 1049253, 253875, -15625], "factorisations": ["953^2", "3*367*953", "3*5^3*677", "-5^6"], "P_lead": [953], "P_const": [5], "P_mid_only": [3, 367, 677], "total_support": 5, "HOLDS": true},
+   {"family": "d_S_twist", "class": "VALUE", "source": "B916", "new": false, "coeffs": [5308416, 9123840, 5077008, 908209], "P_lead": [2, 3], "P_const": [953], "P_mid_only": [5, 11, 35257], "HOLDS": true, "F": 3},
+   {"family": "d_A_twist", "class": "VALUE", "source": "B916", "new": false, "coeffs": [5308416, -1907712, -2195712, 908209], "P_lead": [2, 3], "P_const": [953], "P_mid_only": [23], "HOLDS": true, "F": 3},
+   {"family": "m_S_flipmass", "class": "VALUE", "source": "B928", "new": false, "coeffs": [42467328, -100196352, 78499872, -20417473], "factorisations": ["2^19*3^4", "-2^13*3^4*151", "2^5*3^2*11*71*349", "-20417473"], "P_lead": [2, 3], "P_const": [20417473], "P_mid_only": [11, 71, 151, 349], "HOLDS": true, "F": 2},
+   {"family": "m_A_flipmass", "class": "VALUE", "source": "B928 sheet entry 2 (A-line overlaps, m_A in K)", "new": true, "coeffs": [42467328, -56070144, 19828224, -2113201], "factorisations": ["2^19*3^4", "-2^12*3^4*13^2", "2^9*3^2*13*331", "-29*72869"], "P_lead": [2, 3], "P_const": [29, 72869], "P_mid_only": [13, 331], "total_support": 6, "HOLDS": true},
+   {"family": "u", "class": "VALUE (derived = W*d_S*d_A)", "source": "B937 part A", "new": true, "coeffs": [28179280429056, -3057647616000, 53136000000, -244140625], "factorisations": ["2^32*3^8", "-2^25*3^6*5^3", "2^10*3^4*5^6*41", "-5^12"], "P_lead": [2, 3], "P_const": [5], "P_mid_only": [41], "total_support": 4, "HOLDS": true, "independence": "NOT independent -- product of three families already in the seven"},
+   {"family": "T", "class": "VALUE", "source": "B914", "new": true, "HOLDS": false, "see": "counterexample"},
+   {"family": "T_row_products", "class": "VALUE (dependent = T^3)", "source": "B914", "new": true, "HOLDS": false, "rows_equals_cols": true, "rel_diff_vs_T_cubed": 3.4e-50, "independence": "NOT independent -- it is T^3; counted as zero additional evidence"},
+   {"family": "mu_charge", "class": "PENCIL", "source": "B866", "new": false, "coeffs": [500716339200, -2075673600, -4769856, 2197], "factorisations": ["2^16*3^4*5^2*7^3*11", "-2^10*3^4*5^2*7*11*13", "-2^6*3^2*7^2*13^2", "13^3"], "P_lead": [2, 3, 5, 7, 11], "P_const": [13], "P_mid_only": [], "HOLDS": false, "F": 5, "gauge_orbit_contains_a_holding_coordinate": false},
+   {"family": "kappa_compact", "class": "PENCIL", "source": "B909/B910", "new": false, "coeffs": [2771822592000, 3033676800, -56402640, -6859], "factorisations": ["2^14*3^4*5^3*7^2*11*31", "2^10*3^4*5^2*7*11*19", "-2^4*3^2*5*7*19^2*31", "-19^3"], "P_lead": [2, 3, 5, 7, 11, 31], "P_const": [19], "P_mid_only": [], "HOLDS": false, "F": 5, "gauge_orbit_contains_a_holding_coordinate": false},
+   {"family": "vacuum_weight_cubic", "class": "PENCIL", "source": "B888", "new": true, "coeffs": [2197, 0, -6963104474726400, 2923811689117777920000], "P_lead": [13], "P_const": [2, 3, 5, 7, 11], "P_mid_only": [], "HOLDS": false, "F": 4, "gauge_orbit_contains_a_holding_coordinate": true, "witness": {"P_lead": [5, 11], "P_mid_only": [7, 13], "P_const": [2, 3]}},
+   {"family": "generic_weight_cubic", "class": "PENCIL", "source": "B888", "new": true, "coeffs": [2197, 0, -1740776118681600, -365476461139722240000], "P_lead": [13], "P_const": [2, 3, 5, 7, 11], "P_mid_only": [], "HOLDS": false, "F": 4, "gauge_orbit_contains_a_holding_coordinate": true, "witness": {"P_lead": [5, 11], "P_mid_only": [7, 13], "P_const": [2, 3]}},
+   {"family": "mu_at_B866_own_coordinate", "class": "PENCIL-ALT (same locus as mu_charge)", "source": "B866", "new": false, "coeffs": [500716339200, -159667200, -28224, 1], "P_lead": [2, 3, 5, 7, 11], "P_const": [], "P_mid_only": [], "HOLDS": false, "note": "same object as mu_charge, different banked coordinate: P_const reads {} here and {13} at B941/B947's rho=13t -- the DIAGNOSIS is a coordinate artifact"},
+   {"family": "colored_twist_trace", "class": "SPECTRAL", "source": "B928", "new": true, "coeffs": [256, -768, -828, 2859], "factorisations": ["2^8", "-2^8*3", "-2^2*3^2*23", "3*953"], "P_lead": [2], "P_const": [3, 953], "P_mid_only": [23], "HOLDS": true},
+   {"family": "colored_twist_det", "class": "SPECTRAL", "source": "B928", "new": true, "coeffs": [12230590464, -10239934464, 255728448, 865523177], "factorisations": ["2^24*3^6", "-2^16*3^5*643", "2^6*3^3*19*7789", "953^3"], "P_lead": [2, 3], "P_const": [953], "P_mid_only": [19, 643, 7789], "HOLDS": true},
+   {"family": "octet_flip_trace", "class": "SPECTRAL", "source": "B928", "new": true, "coeffs": [5308416, -45868032, 78736896, -38004841], "factorisations": ["2^16*3^4", "-2^10*3^4*7*79", "2^9*3^2*7*2441", "-7^2*523*1483"], "P_lead": [2, 3], "P_const": [7, 523, 1483], "P_mid_only": [79, 2441], "HOLDS": false},
+   {"family": "h_S_B883", "class": "SPECTRAL", "source": "B914", "new": true, "coeffs": [1, 0, -535623511707648, 2928461724187049852928], "factorisations": ["1", "0", "-2^12*3^5*7*13*5913601", "2^20*3^6*7^2*283*276267371"], "P_lead": [], "P_const": [2, 3, 7, 283, 276267371], "P_mid_only": [13, 5913601], "HOLDS": false},
+   {"family": "A_kappa", "class": "SPECTRAL", "source": "B938", "new": true, "coeffs": [557339020487762273068236, 0, -215575686144, 1], "factorisations": ["2^2*3*251*2568641*72037904648483", "0", "-2^10*3^4*7*13^5", "1"], "P_lead": [2, 3, 251, 2568641, 72037904648483], "P_const": [], "P_mid_only": [7, 13], "HOLDS": false},
+   {"family": "K_generator_s3_minus_12s_minus_5", "class": "CONTROL (field-canonical)", "source": "B937", "new": false, "coeffs": [1, 0, -12, -5], "P_lead": [], "P_const": [5], "P_mid_only": [2, 3], "total_support": 3, "HOLDS": true, "EXCLUDED_vacuous": true, "note": "for ONE field, renormalisation reaches holds, fails, and excluded-as-vacuous"}
+  ],
+  "tally": {
+   "VALUE_independent": 9,
+   "VALUE_independent_holding": 8,
+   "VALUE_independent_failing": ["T"],
+   "VALUE_dependent_listed": ["u (=W*d_S*d_A)", "T_row_products (=T^3)"],
+   "PENCIL": 4,
+   "PENCIL_holding_at_banked_coordinate": 0,
+   "PENCIL_holding_in_some_coordinate_of_own_gauge_orbit": 2,
+   "SPECTRAL": 5,
+   "SPECTRAL_holding": 2,
+   "SPECTRAL_failing": 3
+  },
+  "does_it_change_the_5_2_picture": "YES, in both directions. The naive score improves from 5/2 to 8-of-9 value holding and 0-of-4 pencils holding (12 of 13), which makes the observation MORE tempting -- that is the trap. But the one counterexample is on the value side, is invariant, and is the family the programme itself calls canonical; two of the four pencil failures are gauge artifacts; and the spectral class splits 2/3, showing the statistic does not read the taxonomy."
+ },
+
+ "what_the_statistic_actually_measures": {
+  "identity": "N(alpha) = -a0/a3 for a primitive integral cubic minimal polynomial (computed for every family)",
+  "restatement": "B947's two extreme clauses say: alpha's poles sit over at most 2 rational primes and its zeros sit over at most 2 rational primes -- a DIVISOR-SUPPORT condition, making no reference to value vs pencil",
+  "norms": {
+   "V": "2^32*3^11 / 953^4", "W": "5^12 / 953^4", "X_cross": "5^6 / 953^2",
+   "u": "5^12 / 2^32*3^8", "d_S": "953^2 / 2^16*3^4", "d_A": "953^2 / 2^16*3^4",
+   "m_S": "20417473 / 2^19*3^4", "m_A": "29*72869 / 2^19*3^4",
+   "mu": "13^3 / 2^16*3^4*5^2*7^3*11", "kappa": "19^3 / 2^14*3^4*5^3*7^2*11*31",
+   "T": "2^192*3^60*5^6*7^18*11^6 / (179*1759*4889*632041*B53)^3"
+  },
+  "deflation_of_the_pencil_half": "mu and kappa fail because the DENOMINATOR of their norm is the leading coefficient of a determinant along a pencil (2^16*3^4*5^2*7^3*11 and 2^14*3^4*5^3*7^2*11*31), highly composite by construction; their numerators are single prime cubes and pass the other clause cleanly. 'Pencil cubics fail' is close to automatic and is not evidence about the value layer.",
+  "no_structural_predictor": "The eight holders' zeros/poles sit on the structural places 953, 5, {2,3} -- EXCEPT m_S (20417473) and m_A (29*72869), primes with no structural role established anywhere in the bank (B937 section T5 records that 29 appears in no divisor computed in that cell except m_A's). So there is no clean structural predictor of divisor support in the banked material."
+ },
+
+ "mb12_vacuity_ledger": {
+  "can_PASS": true,
+  "can_FAIL": true,
+  "effectively_computable_on_banked_cubics": false,
+  "computability_note": "T's leading coefficient carries an unfactored 53-digit cofactor; B947's statistic is only computable on families whose coefficients happen to be smooth. Here the verdict survives because 5 > 2 already decides.",
+  "invariant_under_the_objects_own_gauge_freedom": false,
+  "gauge_note": "verdict flips for 2 of 4 pencils; the DIAGNOSIS flips for mu (P_const {} vs {13} for one and the same locus); and B947's pre-declared vacuity exclusion (total support <= 3) is itself not gauge-invariant -- for one field, renormalisation reaches holds, fails, and excluded",
+  "method_record_recommendation": "MB12 should check 'is the criterion invariant under the object's own gauge freedom', not only 'can it pass and can it fail'"
+ },
+
+ "successor": {
+  "recommend_opening_one": false,
+  "reason": "The divisor restatement is nearly tautological (the extreme clauses ARE a divisor-support condition), so sealing it would seal a definition. The only non-circular successor -- 'is div(alpha) confined to the structural places?' -- is already answered NO on banked material by m_S and m_A. Do not open a successor register on this line without a mechanism in hand.",
+  "do_not_seal": "No successor should be sealed in B947's coefficient-support form: it is gauge-dependent for pencils and its vacuity exclusion is gauge-dependent too."
+ },
+
+ "computed_vs_cited": {
+  "COMPUTED": [
+   "every prime factorisation reported in this cell",
+   "B946 V-table reproduction; B918 agreement",
+   "independent reproduction of B947's seven-family verdict and its 5/2 split",
+   "B888 squarefree discriminant part 77 from B888's own stored factors",
+   "T primitivity (content 1) and root residual 1.34e-54",
+   "T P_lead lower bound >= 5; P_const = {2,3,5,7,11}; lead is a perfect cube",
+   "F values for the seven and for T; full Q*-gauge-orbit scan for five pencil coordinates",
+   "T_row_products = T^3 (rel diff 3.4e-50; rows == cols exactly)",
+   "mod-p splitting-type agreement of T and all seven with K = Q[s]/(s^3-12s-5), 128-130 primes each, 0 mismatches",
+   "disc(K) = 6237 = 3^4*7*11",
+   "mu's two banked coordinates giving different P_const",
+   "N(alpha) = -a0/a3 for every family"
+  ],
+  "CITED_not_re_derived": [
+   "B937's O_K = Z[s] index-1 claim (only disc and splitting types re-derived)",
+   "B937's exact place-by-place divisors for W/X_cross/u (their norms were re-derived here and agree)",
+   "B910's One-Field theorem and its 13^6/19^6 numerator law",
+   "B918's [1,2] split",
+   "B866's det = c*mu^16 interpolation",
+   "B888's pencil factorisation (its squarefree discriminant part 77 was re-derived)",
+   "B914's T_is_sigma2_of_explicit_K_element and its exact rescaling-invariance identity",
+   "standard: for a primitive integral minimal polynomial, p | a3 iff alpha has a pole over p, and p | a0 iff alpha has a zero over p"
+  ]
+ },
+
+ "honest_limits": [
+  "T's |P_lead| is a LOWER BOUND (53-digit cofactor unfactored); 5 > 2 decides regardless",
+  "F(T) >= 7 counts forced primes below 10^6 only; a lower bound, and 7 > 4 decides",
+  "field identification is by mod-p splitting-type agreement (Chebotarev evidence), not proof; sympy field_isomorphism returns None and maximal_order raises flint CoercionFailed on these inputs -- the same failure B937 documents",
+  "the classification of the five spectral cubics as 'neither value nor pencil' is this seat's judgement, stated so it can be contested; it affects only the third reason, not the refutation",
+  "the refutation depends on classifying T as a value family; the argument is given explicitly rather than assumed"
+ ],
+
+ "not_touched": ["Gate 5", "B946's exact arithmetic (e3/lambda^4 = 27, lambda = 2304/953)", "B947's own OUTCOME SPECIAL verdict (correct; the enlarged census returns it again)", "the E6 / 27 / measurement-cascade material"],
+
+ "files": {
+  "bounded_work.py": "bounded_work_out.json -- gates, independent reproduction of B947, the enlarged census",
+  "arithmetic_detail.py": "arithmetic_detail_out.json -- full factorisations, T^3 test, field test, F invariant",
+  "pencil_coord.py": "pencil_coord_out.json -- pencil gauge orbits, norm/divisor reading",
+  "WORK.md": "the write-up",
+  "scouting_predecessors": ["SCOUT.md", "t_probe.py", "t_newton.py", "newton_probe.py", "enlarge_probe.py", "final_probe.py"]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B297",
+ "verdict": "OPEN",
+ "claim_one_line": "Folds the seam arc B286–B296 into the five-wall map v4 and relocates the structural theorem to the seam, without settling any wall or the CRUX.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": "B278",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

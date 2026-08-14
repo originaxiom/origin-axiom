@@ -1,0 +1,781 @@
+{
+ "GATE": {
+  "B946_V_table_factorisation_reproduced": true,
+  "V_coeffs": [
+   824843587681,
+   -27609909080832,
+   264084438122496,
+   -760840571584512
+  ],
+  "B918_hier_cubic_agrees": true,
+  "B947_seven_reproduced": true,
+  "B947_reproduction_detail": {
+   "V_hierarchy": {
+    "mine": true,
+    "banked": true,
+    "agree": true
+   },
+   "W_mixing_sq": {
+    "mine": true,
+    "banked": true,
+    "agree": true
+   },
+   "d_S_twist": {
+    "mine": true,
+    "banked": true,
+    "agree": true
+   },
+   "d_A_twist": {
+    "mine": true,
+    "banked": true,
+    "agree": true
+   },
+   "m_S_flipmass": {
+    "mine": true,
+    "banked": true,
+    "agree": true
+   },
+   "mu_charge": {
+    "mine": false,
+    "banked": false,
+    "agree": true
+   },
+   "kappa_compact": {
+    "mine": false,
+    "banked": false,
+    "agree": true
+   }
+  },
+  "B947_5_2_split_reproduced": true
+ },
+ "the_seven": {
+  "V_hierarchy": {
+   "content_removed": 1,
+   "P_lead": [
+    953
+   ],
+   "P_lead_size_lower_bound": 1,
+   "P_const": [
+    2,
+    3
+   ],
+   "P_const_size_lower_bound": 2,
+   "P_mid_only": [
+    13,
+    17,
+    1129,
+    421493
+   ],
+   "total_support_size_lower_bound": 7,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true
+  },
+  "W_mixing_sq": {
+   "content_removed": 1,
+   "P_lead": [
+    953
+   ],
+   "P_lead_size_lower_bound": 1,
+   "P_const": [
+    5
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    3,
+    367,
+    677
+   ],
+   "total_support_size_lower_bound": 5,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true
+  },
+  "d_S_twist": {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_lead_size_lower_bound": 2,
+   "P_const": [
+    953
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    5,
+    11,
+    35257
+   ],
+   "total_support_size_lower_bound": 6,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true
+  },
+  "d_A_twist": {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_lead_size_lower_bound": 2,
+   "P_const": [
+    953
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    23
+   ],
+   "total_support_size_lower_bound": 4,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true
+  },
+  "m_S_flipmass": {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_lead_size_lower_bound": 2,
+   "P_const": [
+    20417473
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    11,
+    71,
+    151,
+    349
+   ],
+   "total_support_size_lower_bound": 7,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true
+  },
+  "mu_charge": {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_lead_size_lower_bound": 5,
+   "P_const": [
+    13
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [],
+   "total_support_size_lower_bound": 6,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true
+  },
+  "kappa_compact": {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    31
+   ],
+   "P_lead_size_lower_bound": 6,
+   "P_const": [
+    19
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [],
+   "total_support_size_lower_bound": 7,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true
+  }
+ },
+ "census": [
+  {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_lead_size_lower_bound": 2,
+   "P_const": [
+    29,
+    72869
+   ],
+   "P_const_size_lower_bound": 2,
+   "P_mid_only": [
+    13,
+    331
+   ],
+   "total_support_size_lower_bound": 6,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true,
+   "family": "m_A_flipmass",
+   "class": "VALUE",
+   "provenance": "B928 sheet entry 2: m_A in K, the A-branch partner of m_S",
+   "coeffs": [
+    42467328,
+    -56070144,
+    19828224,
+    -2113201
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    953
+   ],
+   "P_lead_size_lower_bound": 1,
+   "P_const": [
+    5
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    3,
+    367,
+    677
+   ],
+   "total_support_size_lower_bound": 5,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true,
+   "family": "X_cross_overlap_sq",
+   "class": "VALUE",
+   "provenance": "B930/B937: cross-generation overlap^2, partner of W",
+   "coeffs": [
+    908209,
+    1049253,
+    253875,
+    -15625
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_lead_size_lower_bound": 2,
+   "P_const": [
+    5
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    41
+   ],
+   "total_support_size_lower_bound": 4,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true,
+   "family": "u_B937",
+   "class": "VALUE",
+   "provenance": "B937 partA u",
+   "coeffs": [
+    28179280429056,
+    -3057647616000,
+    53136000000,
+    -244140625
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_lead_size_lower_bound": 5,
+   "P_const": [],
+   "P_const_size_lower_bound": 0,
+   "P_mid_only": [],
+   "total_support_size_lower_bound": 5,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "mu_at_B866_own_t",
+   "class": "PENCIL-ALT",
+   "provenance": "B866's own pencil coordinate for the SAME locus as mu",
+   "coeffs": [
+    500716339200,
+    -159667200,
+    -28224,
+    1
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [],
+   "P_lead_size_lower_bound": 0,
+   "P_const": [
+    2,
+    3,
+    7,
+    283,
+    276267371
+   ],
+   "P_const_size_lower_bound": 5,
+   "P_mid_only": [
+    13,
+    5913601
+   ],
+   "total_support_size_lower_bound": 7,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "h_S_B883",
+   "class": "SPECTRAL",
+   "provenance": "B914: charpoly factor of Mc (monic)",
+   "coeffs": [
+    1,
+    0,
+    -535623511707648,
+    2928461724187049852928
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    2
+   ],
+   "P_lead_size_lower_bound": 1,
+   "P_const": [
+    3,
+    953
+   ],
+   "P_const_size_lower_bound": 2,
+   "P_mid_only": [
+    23
+   ],
+   "total_support_size_lower_bound": 4,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true,
+   "family": "colored_twist_trace",
+   "class": "SPECTRAL",
+   "provenance": "B928 colored twist trace",
+   "coeffs": [
+    256,
+    -768,
+    -828,
+    2859
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_lead_size_lower_bound": 2,
+   "P_const": [
+    953
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    19,
+    643,
+    7789
+   ],
+   "total_support_size_lower_bound": 6,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": true,
+   "verdict_decidable": true,
+   "family": "colored_twist_det",
+   "class": "SPECTRAL",
+   "provenance": "B928 colored twist det",
+   "coeffs": [
+    12230590464,
+    -10239934464,
+    255728448,
+    865523177
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3
+   ],
+   "P_lead_size_lower_bound": 2,
+   "P_const": [
+    7,
+    523,
+    1483
+   ],
+   "P_const_size_lower_bound": 3,
+   "P_mid_only": [
+    79,
+    2441
+   ],
+   "total_support_size_lower_bound": 7,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "octet_flip_trace",
+   "class": "SPECTRAL",
+   "provenance": "B928 octet flip trace",
+   "coeffs": [
+    5308416,
+    -45868032,
+    78736896,
+    -38004841
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    2,
+    3,
+    251,
+    2568641,
+    72037904648483
+   ],
+   "P_lead_size_lower_bound": 5,
+   "P_const": [],
+   "P_const_size_lower_bound": 0,
+   "P_mid_only": [
+    7,
+    13
+   ],
+   "total_support_size_lower_bound": 7,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "A_kappa_B938",
+   "class": "SPECTRAL",
+   "provenance": "B938 part A kappa Kummer element",
+   "coeffs": [
+    557339020487762273068236,
+    0,
+    -215575686144,
+    1
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [],
+   "P_lead_size_lower_bound": 0,
+   "P_const": [
+    5
+   ],
+   "P_const_size_lower_bound": 1,
+   "P_mid_only": [
+    2,
+    3
+   ],
+   "total_support_size_lower_bound": 3,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": true,
+   "HOLDS": true,
+   "verdict_decidable": true,
+   "family": "K_generator_s3_12s_5",
+   "class": "CONTROL",
+   "provenance": "B937 monogenic generator of K",
+   "coeffs": [
+    1,
+    0,
+    -12,
+    -5
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    13
+   ],
+   "P_lead_size_lower_bound": 1,
+   "P_const": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_const_size_lower_bound": 5,
+   "P_mid_only": [],
+   "total_support_size_lower_bound": 6,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "vacuum_weight_cubic_B888",
+   "class": "PENCIL",
+   "provenance": "B888 weight pencil (banked normalisation)",
+   "coeffs": [
+    2197,
+    0,
+    -6963104474726400,
+    2923811689117777920000
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    13
+   ],
+   "P_lead_size_lower_bound": 1,
+   "P_const": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_const_size_lower_bound": 5,
+   "P_mid_only": [],
+   "total_support_size_lower_bound": 6,
+   "unfactored_cofactors": {
+    "lead": 1,
+    "const": 1,
+    "mid": 1
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "generic_weight_cubic_B888",
+   "class": "PENCIL",
+   "provenance": "B888 weight pencil (banked normalisation)",
+   "coeffs": [
+    2197,
+    0,
+    -1740776118681600,
+    -365476461139722240000
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    179,
+    1759,
+    4889,
+    632041
+   ],
+   "P_lead_size_lower_bound": 5,
+   "P_const": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_const_size_lower_bound": 5,
+   "P_mid_only": [
+    822907
+   ],
+   "total_support_size_lower_bound": 11,
+   "unfactored_cofactors": {
+    "lead": 3592940143715415627486028156045360817481827259081000176471338457282863434648283516480961280729420228938187160077310220457747322049163124277596839905124025909,
+    "const": 1,
+    "mid": 20220017369944979242428984436046106659941643268333188564731443101812423449506695205184315389232003842208121198293213276845651479055886571284874791418578406137383514423691362486239103768113115234211079654561
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "T_colorless_coupling_B914",
+   "class": "VALUE",
+   "provenance": "B914: normalisation-free colorless coupling invariant (LAW_MAP SS F, THE ONE-NUMBER TABLE)",
+   "gate_root_relative_residual": 1.33621301026455e-54,
+   "coeff_digit_lengths": [
+    202,
+    175,
+    144,
+    113
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    179,
+    1759,
+    4889,
+    632041
+   ],
+   "P_lead_size_lower_bound": 5,
+   "P_const": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_const_size_lower_bound": 5,
+   "P_mid_only": [
+    13,
+    23,
+    673,
+    4441
+   ],
+   "total_support_size_lower_bound": 14,
+   "unfactored_cofactors": {
+    "lead": 46382050724745230083250908963455841936822103810233201058743284565155586152330253683129788295267851620863715154719995675466687337938541964827101241446616432143962330142024502206243569088373554477523728574780929310224442866840534687405326361287178392255349347263822369276255924028304337285429379220413323962836678612277090188844703490130616993677333944604453305257280346059598087419490371083232697751455006501040686994971989009919314476430485749704762312602464083629164429,
+    "const": 1,
+    "mid": 947130719742998312664867823804342468718006998570820529629513548770560430845939290292946487048497955897345009931032410518464301449068224044414864684202325845566888213557414712504655349457927231952828390805468298487588521291702009436454578171000828072053640193530291770041723433943469044351788049272585432737617278782095757615823974238092209977393212252168020437112688899168960163876157273368780402905014878164022275504767332379419655684147914288168155921427893729834178130842275136501496964224955270742492137265919852994359993369654710358918846928253200378635851828696597305193021426711195808487103085390915583486939641763732689
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "T_row_products[rows]",
+   "class": "VALUE",
+   "provenance": "B914: normalisation-free colorless coupling invariant (LAW_MAP SS F, THE ONE-NUMBER TABLE)",
+   "gate_root_relative_residual": 3.4165852113546025e-50,
+   "coeff_digit_lengths": [
+    605,
+    523,
+    431,
+    337
+   ]
+  },
+  {
+   "content_removed": 1,
+   "P_lead": [
+    179,
+    1759,
+    4889,
+    632041
+   ],
+   "P_lead_size_lower_bound": 5,
+   "P_const": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "P_const_size_lower_bound": 5,
+   "P_mid_only": [
+    13,
+    23,
+    673,
+    4441
+   ],
+   "total_support_size_lower_bound": 14,
+   "unfactored_cofactors": {
+    "lead": 46382050724745230083250908963455841936822103810233201058743284565155586152330253683129788295267851620863715154719995675466687337938541964827101241446616432143962330142024502206243569088373554477523728574780929310224442866840534687405326361287178392255349347263822369276255924028304337285429379220413323962836678612277090188844703490130616993677333944604453305257280346059598087419490371083232697751455006501040686994971989009919314476430485749704762312602464083629164429,
+    "const": 1,
+    "mid": 947130719742998312664867823804342468718006998570820529629513548770560430845939290292946487048497955897345009931032410518464301449068224044414864684202325845566888213557414712504655349457927231952828390805468298487588521291702009436454578171000828072053640193530291770041723433943469044351788049272585432737617278782095757615823974238092209977393212252168020437112688899168960163876157273368780402905014878164022275504767332379419655684147914288168155921427893729834178130842275136501496964224955270742492137265919852994359993369654710358918846928253200378635851828696597305193021426711195808487103085390915583486939641763732689
+   },
+   "EXCLUDED_vacuous": false,
+   "HOLDS": false,
+   "verdict_decidable": true,
+   "family": "T_row_products[cols]",
+   "class": "VALUE",
+   "provenance": "B914: normalisation-free colorless coupling invariant (LAW_MAP SS F, THE ONE-NUMBER TABLE)",
+   "gate_root_relative_residual": 3.4165852113546025e-50,
+   "coeff_digit_lengths": [
+    605,
+    523,
+    431,
+    337
+   ]
+  }
+ ],
+ "summary": {
+  "VALUE_n": 11,
+  "VALUE_holds": 8,
+  "VALUE_fails": [
+   "T_colorless_coupling_B914",
+   "T_row_products[rows]",
+   "T_row_products[cols]"
+  ],
+  "PENCIL_n": 5,
+  "PENCIL_holds": [],
+  "criterion_can_PASS": true,
+  "criterion_can_FAIL": true
+ }
+}

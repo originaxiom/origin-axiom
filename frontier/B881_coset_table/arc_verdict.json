@@ -1,0 +1,14 @@
+{
+ "id": "B881",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "Descent stage 2 -- the SM-graded coset commutation table, scoped BEFORE running as the mediation skeleton (B867's S1 X/Y channels), NOT the Yukawa skeleton (that needs the 27 rep, named follow-up). At the first enhancement point, under the commuting charges (z1, y, y2): W = 16+16bar grades into the 12 SM multiplets, K1 into the unbroken 14 (SM Levi + z1) + 32 broken directions in 8 charged multiplets. THE TABLE: all 28 nonzero cells are SINGLE-TARGET (charge conservation exact, no leakage at 30 digits in oblique coordinates) -- 6 own-conjugate channels land in the unbroken 14 (the gauge-covariance diagonal), 22 cross-pairings each land in exactly one broken multiplet; 42 same-sign cells = 0 (the 3-grading verified on EVERY cell) + 8 charge-mismatch zeros. THE TRAP, THIRD OCCURRENCE, now a standing rule: the K1-piece eigenbasis is complex non-orthogonal (non-Hermitian grading operator), transpose-projections reported every cell hitting all nine targets; every decomposition readout must be OBLIQUE unless the basis is provably orthonormal.",
+ "depends_on": [
+  "B867",
+  "B875",
+  "B876"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

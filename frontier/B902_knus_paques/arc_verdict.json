@@ -1,0 +1,14 @@
+{
+ "id": "B902",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "M5, THE KNUS-PAQUES DIFFERENCE CLASS (W4's misalignment datum, delivered): with Lagrange-resolvent Kummer elements alpha = (-27q + 3s sqrt(-231))/2 in F = Q(sqrt77, sqrt-3) for the three cubics sharing resolvent Q(sqrt77), TWO EXACT CUBE CERTIFICATES -- alpha_mu * alpha_vac = ((73008/7)(1+sqrt-3))^3 and alpha_generic * alpha_vac = ((30901351219200/13)(1+sqrt-3))^3, both verified by symbolic cubing, both certificates rational multiples of zeta_6 living entirely in the cyclotomic line (never touching sqrt77) -- hence alpha_mu/alpha_generic is a cube by composition (the same-field control calibrates the machinery) and [alpha_vac] = [alpha_mu]^{-1} in F*/(F*)^3 with NO unit twist: THE VACUUM FIELD AND THE CHARGE FIELD SIT IN MUTUALLY INVERSE KUMMER CLASSES -- under the Knus-Paques group law on cubic algebras with resolvent Q(sqrt77), vacuum + charge = the identity: the two matter fields ANNIHILATE, composing to the split algebra. Discovery by clean local scans (8 admissible primes, 32 embedding-tests per pair, the earlier p = 13 denominator pollution diagnosed and excluded); proof exact.",
+ "depends_on": [
+  "B866",
+  "B886",
+  "B888"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

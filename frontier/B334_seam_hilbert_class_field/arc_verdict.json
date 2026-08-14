@@ -1,0 +1,10 @@
+{
+ "id": "B334",
+ "verdict": "PROVED",
+ "claim_one_line": "The Hilbert class field of the seam Q(sqrt(-15)) is exactly the two-ended compositum Q(sqrt5, sqrt-3), verified by splitting law and forms; the 137 reading is dead.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,66 @@
+==============================================================================
+B787 DOOR D5 -- figure-eight state integral Z(u).  b=1, hbar=2 pi.
+==============================================================================
+
+[0] Phi_1 validation
+    phi0_arg_over_pi         = 0.08333333333333333
+    phi0_abs                 = 1.0
+    func_eq_maxresidual      = 1.5779143916829534e-30
+    phi_validated            = True
+    Phi_1(0) arg/pi          = 0.083333  (=1/12; standard QDL)
+
+[C] Semiclassical complex volume  V(u) = Li2(-mu/t*) - Li2(-t*) - 2x y*   (period)
+    u=0 self-check: |Im V(0)| = 2.02988321281930725   Vol(4_1)=2.02988321281930725
+                    |diff|    = 3.94e-31   (must be ~0)
+    [   1.4s] computed V for u=phi-1
+    u=phi-1      u=0.61803398874989                        
+                 V(u)   = -1.6238100920451499771
+                 Im V   = 0.0   Re V = -1.62381009204514998
+    [   1.5s] computed V for u=omega3-1
+    u=omega3-1   u=(-1.5 + 0.86602540378444j)              
+                 V(u)   = (32.544432316584993588 + 59.217566200720797676j)
+                 Im V   = 59.2175662007207977   Re V = 32.5444323165849936
+    [   1.6s] computed V for u=zeta5-1
+    u=zeta5-1    u=(-0.69098300562505 + 0.95105651629515j) 
+                 V(u)   = (35.915103109080804613 + 27.2766072993137787j)
+                 Im V   = 27.2766072993137787   Re V = 35.9151031090808046
+    [   1.8s] computed V for u=zeta15-1
+    u=zeta15-1   u=(-0.086454542357399 + 0.4067366430758j) 
+                 V(u)   = (15.294651063255071507 + 4.3299945949305055011j)
+                 Im V   = 4.3299945949305055   Re V = 15.2946510632550715
+
+[B] Finite-hbar state integral  Z(u) = chi_{4_1}(u; 2 pi)   (residue formula 5.16)
+    (rigorous for real u; complex u = naive analytic continuation, Stokes-flagged)
+    [   2.9s] computed Z for u=phi-1
+    u=phi-1      Z = (0.020035208647147342173 - 8.7391438084332414732e-29j)
+                 |Z| = 0.02003520864714734   arg/pi = -1.388433691905792e-27
+    [   3.8s] computed Z for u=omega3-1
+    u=omega3-1   Z = (543.49317947827298633 + 829.39330824254021079j)  [complex u: naive continuation]
+                 |Z| = 991.6037998600588   arg/pi = 0.3153531862838643
+    [   4.3s] computed Z for u=zeta5-1
+    u=zeta5-1    Z = (-19.579076742618779269 + 46.089351117342159487j)  [complex u: naive continuation]
+                 |Z| = 50.07562812897113   arg/pi = 0.6278673483535759
+    [   4.7s] computed Z for u=zeta15-1
+    u=zeta15-1   Z = (0.66649351860203781362 + 0.14027165804437067055j)  [complex u: naive continuation]
+                 |Z| = 0.68109452236018   arg/pi = 0.06602854180386415
+
+[B-check] cross-validate residue formula vs direct integral at u=phi-1 (real)
+    residue : (0.02003520864714734 - 8.739143808433241e-29j)
+    direct  : (0.02003661431589899 - 2.818065460680944e-6j)
+    |diff|  : 3.149e-6   rel=0.0001572
+
+[D] Structure & base-rate
+    candidate targets (14): JUNO, phi, 1/phi, sqrt3, sqrt5, 1/(phi5^.5), 2/3, Vol41, L(chi-3,2), pi, 2pi, pi/3, 1, 1/2
+    NEAR: u=phi-1:|Re V|         = 1.623810092    -> [('phi', 0.0035698281589979387)]
+    NEAR: u=phi-1:|V|            = 1.623810092    -> [('phi', 0.0035698281589979387)]
+    NEAR: u=zeta15-1:|ReZ|       = 0.6664935186   -> [('2/3', 0.00025972209694327957)]
+
+    quantities tested Nq=24, candidates Nc=14, window +-1%
+    EXPECTED chance near-misses (rough, Nq*Nc*2*win) ~ 6.72
+    OBSERVED near-misses within window: 3
+    => observed 3 vs expected ~6.7: consistent with pure chance.
+
+    The ONLY exact structured transcendental in the state integral:
+      |Im V(u=0)| = Vol(4_1) = (3 sqrt3 /2) L(chi_-3,2) = 2.029883212819307   [B680, KNOWN]
+      -> recovered at the COMPLETE structure u=0 (not at a programme point);
+         it is the algebraic route's KNOWN companion, not a new/ missed period.

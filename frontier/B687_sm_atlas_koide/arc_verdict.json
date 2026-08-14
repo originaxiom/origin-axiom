@@ -1,0 +1,10 @@
+{
+ "id": "B687",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The SM atlas grades 22 of 23 dimensionless invariants unreachable or base-rate-dead, leaving Koide alone; the h(27)=2/3 match is explicitly not evidence.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

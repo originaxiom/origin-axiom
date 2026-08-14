@@ -1,0 +1,125 @@
+{
+ "pairs": 36,
+ "controls_ok": true,
+ "results": [
+  {
+   "r": 3.9389168641612198,
+   "mult": 2,
+   "dev_min": 0.8295020296286028,
+   "dev_max": 1.163059831207303,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 4.900085372822588,
+   "mult": 1,
+   "dev_min": 1.1490298362025853,
+   "dev_max": 1.1490298362025853,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 5.670720034951541,
+   "mult": 2,
+   "dev_min": 0.8909520301455749,
+   "dev_max": 1.0689348343085523,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 5.9129178823978386,
+   "mult": 1,
+   "dev_min": 1.0992337630076496,
+   "dev_max": 1.0992337630076496,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 6.632802303236165,
+   "mult": 2,
+   "dev_min": 0.8489323681256928,
+   "dev_max": 1.1008223010899645,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 7.072004186674375,
+   "mult": 1,
+   "dev_min": 3.529347565467989e-10,
+   "dev_max": 3.529347565467989e-10,
+   "verdict": "PARENT (V1)"
+  },
+  {
+   "r": 7.349526640915097,
+   "mult": 2,
+   "dev_min": 0.9428315796949059,
+   "dev_max": 1.1581422225966767,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 7.4066155995422935,
+   "mult": 1,
+   "dev_min": 1.1668263645777925,
+   "dev_max": 1.1668263645777925,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 7.6876711679693255,
+   "mult": 1,
+   "dev_min": 1.1993517631055834,
+   "dev_max": 1.1993517631055834,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 7.85778326286108,
+   "mult": 2,
+   "dev_min": 1.057843386536015,
+   "dev_max": 1.1226794229256682,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 8.308224803419987,
+   "mult": 2,
+   "dev_min": 0.9019408528300408,
+   "dev_max": 1.117644619965654,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 8.863405356159115,
+   "mult": 2,
+   "dev_min": 1.0798692296992007,
+   "dev_max": 1.1853902693367522,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 9.027421524015974,
+   "mult": 1,
+   "dev_min": 1.0087025177648847,
+   "dev_max": 1.0087025177648847,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 9.04778823070338,
+   "mult": 2,
+   "dev_min": 0.9188129865988294,
+   "dev_max": 1.0842344909488286,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 9.080648624088308,
+   "mult": 1,
+   "dev_min": 1.11181449662818,
+   "dev_max": 1.11181449662818,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 9.640121030383536,
+   "mult": 2,
+   "dev_min": 1.0210071910833314,
+   "dev_max": 1.1053542364043534,
+   "verdict": "no parent component"
+  },
+  {
+   "r": 9.837116217620519,
+   "mult": 2,
+   "dev_min": 0.8314164584089568,
+   "dev_max": 1.0114636721887575,
+   "verdict": "no parent component"
+  }
+ ]
+}

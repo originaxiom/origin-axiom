@@ -1,0 +1,10 @@
+{
+ "id": "B619",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Both A5-bridge readings are refuted by computed group orders (clock order 20; projective image over 400); only a shared-arithmetic remark survives.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

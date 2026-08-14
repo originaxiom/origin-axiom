@@ -1,0 +1,10 @@
+{
+ "id": "B760",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No object-native operation (Galois, MCG powers, C, τ, coupling sign) canonically signs the theta-odd chord sector: the object cannot close itself.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

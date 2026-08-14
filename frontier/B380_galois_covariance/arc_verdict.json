@@ -1,0 +1,10 @@
+{
+ "id": "B380",
+ "verdict": "PROVED",
+ "claim_one_line": "A new proven Galois symmetry σ₃₁ holds on all six pair tables, the mirror is derived as conjugation, and a 16-element census maps where √5-conjugacy fails.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

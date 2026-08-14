@@ -1,0 +1,43 @@
+{
+ "exponent_echo": "77 = 7*11; E6 exponents (1,4,5,7,8,11); the 2T charges live in degrees 2*(4,7,8,11); the measured plane uses (4,8); the resolvent remembers (7,11) -- OBSERVATION, unweighted",
+ "generic_cubic": {
+  "disc_factorization": {
+   "11": 3,
+   "13": 6,
+   "2": 64,
+   "3": 18,
+   "5": 6,
+   "7": 9
+  },
+  "disc_sign": 1,
+  "irreducible": true,
+  "squarefree_part": 77
+ },
+ "mu": {
+  "disc_factorization": {
+   "11": 1,
+   "13": 12,
+   "2": 32,
+   "3": 10,
+   "5": 2,
+   "7": 3
+  },
+  "disc_sign": 1,
+  "irreducible": true,
+  "squarefree_part": 77
+ },
+ "shared_resolvent": true,
+ "vacuum_cubic": {
+  "disc_factorization": {
+   "11": 3,
+   "13": 6,
+   "2": 70,
+   "3": 18,
+   "5": 6,
+   "7": 9
+  },
+  "disc_sign": 1,
+  "irreducible": true,
+  "squarefree_part": 77
+ }
+}

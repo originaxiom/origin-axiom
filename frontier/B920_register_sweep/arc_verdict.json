@@ -1,0 +1,9 @@
+{
+ "id": "B920",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE REGISTER SWEEP (cc3 audit A2+A5, all 7 items, working-tree edits reviewed and accepted by the banking seat): (1) NORMSPLIT RECONCILED AND THE CONTRADICTION DEAD -- the cc3 branch's trace_norm_split artifact harvested byte-faithfully AND rerun locally before any edit (139 traces / 37 norms / one odd at trace level; 12 distinct / zero odd at norm level; 103/127/175/367 SHARED): both seats were right about different objects; HINT_LEDGER row 7 amended (the hint SURVIVES at norm level), B794's FINDINGS gains the level-reconciliation blockquote append-only, the wrong lock replaced by the reconciled 5/5-passing lock, E28's instance figures corrected; (2) ROADMAP Tier-3's three falsehoods corrected (incl. the audit's own citation being off by a section letter -- checked, not trusted); (3) the five LAW_MAP orphan rows moved into their sections; (4) COMMS_PROTOCOL v1.2 names cc3 and solo as legal seats; (5) THEOREM_REGISTRY/LEDGER gain the window's rows (C24-C43, Part V admitting no axioms -- the lock extended); (6) RETRACTIONS same-PR catch-up incl. the stale-septic instrument; (7) ERROR_LEDGER instances for the fourth oblique violation, the clobber class, and the silent-substitution near-miss. All 20 gates green after the edits.",
+ "depends_on": ["B794", "B909", "B919"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent edits + cc banking review (2026-08-06)"
+}

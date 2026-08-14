@@ -1,0 +1,104 @@
+========================================================================================
+0.  Reproduce cc3: the Fox Jacobians of sigma and sigma_mirror
+========================================================================================
+  J_sigma  = [[ d s(a)/da , d s(a)/db ],   = [[ 1 , a ],
+              [ d s(b)/da , d s(b)/db ]]      [ 1 , 0 ]]
+  J_mirror = [[ b , 1 ],
+              [ 1 , 0 ]]
+
+  det J_sigma  = -a   (=-a)   det J_mirror  = -1   (=-1)
+========================================================================================
+1.  The determinant difference is a UNIT (gauge): -a = a * (-1), a in F2 is a unit
+========================================================================================
+  det J_sigma = a . det J_mirror : True   (-a = a.(-1))
+  det J_mirror= a^-1 . det J_sigma: True   (-1 = a^-1.(-a))
+  => the two determinants are ASSOCIATES (differ by the unit a in F2).
+     Reidemeister/Alexander torsion is defined only up to +-F, so they are EQUAL torsion.
+========================================================================================
+2.  The intertwiner  M  with  J_mirror = M . J_sigma  (computed in Z[F2])
+========================================================================================
+  J_sigma^{-1} verified: [[0,1],[a^-1,-a^-1]]  (two-sided inverse in Z[F2])
+  M = J_mirror . J_sigma^{-1} = [[ a^-1 , b -a^-1 ],
+                                 [ 0 , 1 ]]
+  det M = a^-1   (a unit: a^-1)
+========================================================================================
+3.  GENUINE SL(3) reps (not Sym^2): build + verify non-self-duality (tr w != tr w^-1)
+========================================================================================
+  rep 'tri': det A=det B=1; non-self-dual (tr w != tr w^-1) = True; non-symmetric = True  => genuine SL(3), not Sym^2
+  rep 'gen': det A=det B=1; non-self-dual (tr w != tr w^-1) = True; non-symmetric = True  => genuine SL(3), not Sym^2
+========================================================================================
+4.  Evaluate the Fox Jacobians at the SL(3) reps: the det difference EVAPORATES
+========================================================================================
+  rep 'tri': det J_sigma(rho) = -1 ; det J_mirror(rho) = -1   (group-ring dets were -a vs -1)
+            det M(rho) = 1  ; identity  J_mirror(rho) = M(rho).J_sigma(rho): True
+            M(rho) is built from A^-1,B (rep data) -> reproducible from the rep/trace level
+  rep 'gen': det J_sigma(rho) = -1 ; det J_mirror(rho) = -1   (group-ring dets were -a vs -1)
+            det M(rho) = 1  ; identity  J_mirror(rho) = M(rho).J_sigma(rho): True
+            M(rho) is built from A^-1,B (rep data) -> reproducible from the rep/trace level
+
+  => at ANY SL(3) rep both determinants are +-1 (any unit in F2 has det 1 in SL(3)).
+     The -a vs -1 difference is the trivial +-F torsion unit; it cannot survive evaluation.
+========================================================================================
+5.  Reversal (theta) vs inversion (iota) at the trace level -- the discriminating fact
+========================================================================================
+  rep 'tri': reversal(theta) trace-active on 1/9 words -> theta trace-active=True
+            reversal witness: w=(1, 1, 2, 2, 1, 2) tr=2926  vs  w^R=(2, 1, 2, 2, 1, 1) tr=3766  (w^R is NOT a cyclic rotation of w => theta genuinely trace-visible at SL(3))
+            inversion(iota) trace-active on 9/9 words -> iota  trace-active=True
+  rep 'gen': reversal(theta) trace-active on 1/9 words -> theta trace-active=True
+            reversal witness: w=(1, 1, 2, 2, 1, 2) tr=14560  vs  w^R=(2, 1, 2, 2, 1, 1) tr=14224  (w^R is NOT a cyclic rotation of w => theta genuinely trace-visible at SL(3))
+            inversion(iota) trace-active on 9/9 words -> iota  trace-active=True
+========================================================================================
+6.  THE DECISIVE TEST: do TRACES distinguish sigma(w) from sigma_mirror(w)?
+========================================================================================
+  rep 'tri': tr(rho sigma(w)) vs tr(rho sigma_mirror(w)) DIFFER on 0/9 words -> trace distinguishes sigma/mirror = False
+  rep 'gen': tr(rho sigma(w)) vs tr(rho sigma_mirror(w)) DIFFER on 0/9 words -> trace distinguishes sigma/mirror = False
+========================================================================================
+7.  Fox gradients of sigma(w) vs sigma_mirror(w): group-ring difference & its trace image
+========================================================================================
+  w=(1, 2):
+     grad sigma(w)        = ( 1 + ab , a )
+     grad sigma_mirror(w) = ( b + ba , 1 )
+     group-ring differ=True ; Fox-trace image (tr d/da, tr d/db): sigma=(29, 3) mirror=(29, 3) ; trace differ=False
+  w=(1, 1, 2):
+     grad sigma(w)        = ( 1 + ab + abab , a + aba )
+     grad sigma_mirror(w) = ( b + bab + baba , 1 + ba )
+     group-ring differ=True ; Fox-trace image (tr d/da, tr d/db): sigma=(413, 52) mirror=(436, 29) ; trace differ=True
+  w=(1, 2, 2):
+     grad sigma(w)        = ( 1 + ab + aba , a )
+     grad sigma_mirror(w) = ( b + ba + baa , 1 )
+     group-ring differ=True ; Fox-trace image (tr d/da, tr d/db): sigma=(78, 3) mirror=(78, 3) ; trace differ=False
+  w=(1, 1, 2, 1, 2):
+     grad sigma(w)        = ( 1 + ab + abab + ababa + ababaab , a + aba + ababaa )
+     grad sigma_mirror(w) = ( b + bab + baba + babaab + babaaba , 1 + ba + babaa )
+     group-ring differ=True ; Fox-trace image (tr d/da, tr d/db): sigma=(15915, 1466) mirror=(18025, 868) ; trace differ=True
+  Fox derivative of every sigma/mirror image = signed (+-1) sum of SINGLE group elements (prefixes): True
+  => tr(rho . dw/dx) = SUM_prefixes (+-) tr(rho prefix): a Z-combination of ordinary trace
+     coordinates. Every Fox observable at a rep is IN THE TRACE RING -> reproducible at
+     the trace level. The step-7 sigma/mirror separation is a separation of trace
+     coordinates, NOT a bridge beyond the trace map.
+========================================================================================
+8.  Is the sigma<->sigma_mirror relation a GENUINE theta-intertwiner or R composed away?
+========================================================================================
+  sigma_mirror = R . sigma . R  holds on all test words: True
+========================================================================================
+VERDICT (D1) + base-rate assessment
+========================================================================================
+OUTCOME B (MISS): the Fox difference COLLAPSES to a gauge/trace artifact; no theta-bridge.
+  (1) det J_sigma = -a  and  det J_mirror = -1  differ ONLY by the unit a in F2 -> they are
+      ASSOCIATES -> identical Reidemeister/Alexander torsion (defined up to +-F). A unit
+      difference IS the gauge ambiguity; it is not an invariant.
+  (2) The intertwiner J_mirror = M.J_sigma has M = [[a^-1, b-a^-1],[0,1]], det a^-1 -- a
+      matrix of ORDINARY WORDS in a,b, NOT the reversal anti-automorphism R. It is a gauge
+      residue, carrying no theta datum beyond rep(a),rep(b).
+  (3) At every genuine SL(3) rep, J_mirror(rho)=M(rho).J_sigma(rho) with M(rho) polynomial in
+      A,B; det J_sigma(rho)=det J_mirror(rho)=-1 -- the -a vs -1 difference EVAPORATES (units
+      land in SL(3), det 1). Reproducible from rep data.
+  (4) DECISIVE: every Fox derivative is a signed sum of SINGLE prefix group-elements, so every
+      Fox observable tr(rho . dw/dx) = SUM (+-) tr(rho prefix) lies IN THE TRACE RING. The
+      step-7 sigma/mirror separation (e.g. w=aab: (413,52) vs (436,29)) is a separation of
+      ordinary trace coordinates -- NOT a bridge the trace map cannot provide.
+  (5) There is no theta to 'reveal' hiding from traces anyway: reversal(theta) is directly
+      TRACE-ACTIVE at the genuine (non-self-dual) SL(3) rep on non-cyclic words (step 5).
+  => NO group-ring theta-intertwiner un-reproducible at the trace level. HIT criterion NOT met.
+
+wrote output_results.json  |  outcome = B

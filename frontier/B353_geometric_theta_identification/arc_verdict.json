@@ -1,0 +1,10 @@
+{
+ "id": "B353",
+ "verdict": "PROVED",
+ "claim_one_line": "The hyperelliptic involution induces exactly the E6 diagram involution theta on the tangent space at the principal-geometric representation, verified as an operator identity with explicit line-by-line gauge certificates.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

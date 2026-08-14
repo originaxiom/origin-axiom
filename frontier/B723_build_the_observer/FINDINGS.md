@@ -1,5 +1,28 @@
 # B723 — BUILD THE OBSERVER: the apparatus IS built (type-III completion) — and the observer is a PHASE TRANSITION, not a state
 
+> ## ⚠ CORRECTED BY B942 (2026-08-07) — the chirality clause is RETRACTED
+>
+> L113, the falsifier this programme scheduled against its own observer construction,
+> fired and hit. **Complex conjugation is not an element of Gal(K^ab/K)** (computed two
+> independent ways in `frontier/B942_l113_bc_falsifier/`), so the identification
+> **"CHIRALITY = the extremal-KMS / Galois label"** below is **refuted at the level of
+> group membership**, together with "choosing a sheet = breaking the c-swap" read as the
+> β=1 SSB. The ℤ/2 the object needs is the **quotient** Gal(K/ℚ); the label group the SSB
+> produces is the **kernel** Gal(K^ab/K). Consequence: **the object's c-swap is not
+> thermodynamic** — it is arithmetic (ℚ vs K), present at every temperature, not produced
+> by any cooling. The **values/torsor clause is NOT refuted, but it is NOT certified
+> either**: whether B700/B701's torsor is the CMR torsor has the same asserted-not-
+> demonstrated shape as the clause just killed, and is now a registered open lead.
+> **AMENDED 2026-08-08 (B957): the values/torsor clause is ALSO REFUTED** — B700's torsor
+> has group **ℤ/2** over a quadratic field, CMR's is the **infinite** idèle class group of
+> ℚ(√−3), and the fields are mutually blind. **BOTH clauses were one level too high.** The
+> structure (measurement = fiber-functor choice with Galois ambiguity) survives; the group
+> assignment does not.
+>
+> The text below is retained unedited as the record of what was claimed.
+
+
+
 *cc banking seat, 2026-07-20. Sealed prereg e21d879b. Advanced multiagent loop campaign
 (web-enabled; 16 agents, 1 API drop). Probes 1&2 OUTCOME A (built, verified in-sandbox);
 probe 3 OUTCOME B (the observer is not a single state — a precise, structured partial fit).

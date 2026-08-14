@@ -1,0 +1,10 @@
+{
+ "id": "B252",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Adjudicated and failed to break the chirality obstruction: every conjugation-odd invariant of the object vanishes or pairs, so it carries no explicit CP-odd datum.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

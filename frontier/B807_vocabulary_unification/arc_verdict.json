@@ -1,0 +1,10 @@
+{
+ "id": "B807",
+ "verdict": "PROVED",
+ "claim_one_line": "Faces and motifs are orthogonal axes (163/198 pairs populated, top-5 share 0.168, NMI 0.031, all against sealed thresholds), so they must be declared not merged; the observer is a third axis touching all 18 motifs.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B486",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The figure-eight cusp is rectangular (modulus 2sqrt(3)i, disc -48), not hexagonal, so the claimed three-fold degeneracy and three generations vanish.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

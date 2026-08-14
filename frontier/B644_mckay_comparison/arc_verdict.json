@@ -1,0 +1,10 @@
+{
+ "id": "B644",
+ "verdict": "PROVED",
+ "claim_one_line": "The theta-odd hearing representation factors through literal mod-5 reduction, rho_hear = chi_golden composed with reduction into SL(2,F_5); all gates pass.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

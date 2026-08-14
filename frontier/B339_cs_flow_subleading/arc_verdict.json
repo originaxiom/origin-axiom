@@ -1,0 +1,10 @@
+{
+ "id": "B339",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The CS Dehn-filling flow's sub-leading coefficient is rational 1/24 = 1/(2h(E6)) with all even terms zero — the hoped-for sqrt(-3) signature is absent.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

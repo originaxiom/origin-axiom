@@ -1,0 +1,97 @@
+{
+ "primes_reached_by_trial_division": [
+  2,
+  3,
+  5,
+  7,
+  11,
+  179,
+  1759,
+  4889
+ ],
+ "per_prime": {
+  "2": {
+   "val_d3210": [
+    0,
+    60,
+    127,
+    192
+   ],
+   "forced_into_an_extreme": true
+  },
+  "3": {
+   "val_d3210": [
+    0,
+    21,
+    41,
+    60
+   ],
+   "forced_into_an_extreme": false
+  },
+  "5": {
+   "val_d3210": [
+    0,
+    0,
+    3,
+    6
+   ],
+   "forced_into_an_extreme": true
+  },
+  "7": {
+   "val_d3210": [
+    0,
+    6,
+    12,
+    18
+   ],
+   "forced_into_an_extreme": false
+  },
+  "11": {
+   "val_d3210": [
+    0,
+    0,
+    3,
+    6
+   ],
+   "forced_into_an_extreme": true
+  },
+  "179": {
+   "val_d3210": [
+    3,
+    0,
+    0,
+    0
+   ],
+   "forced_into_an_extreme": true
+  },
+  "1759": {
+   "val_d3210": [
+    3,
+    0,
+    0,
+    0
+   ],
+   "forced_into_an_extreme": true
+  },
+  "4889": {
+   "val_d3210": [
+    3,
+    0,
+    0,
+    0
+   ],
+   "forced_into_an_extreme": true
+  }
+ },
+ "F_lower_bound": 6,
+ "forced_primes_found": [
+  2,
+  5,
+  11,
+  179,
+  1759,
+  4889
+ ],
+ "EXCEEDS_THE_4_PRIME_CAPACITY_OF_THE_TWO_EXTREMES": true,
+ "conclusion": "F(T) >= 6.  The B947 pattern needs |P_lead| <= 2 and |P_const| <= 2, i.e. at most 4 primes may be forced into the extremes.  F(T) already exceeds 4, so NO rescaling of T satisfies the pattern -- T's failure is normalisation-invariant, exactly like mu's and kappa's."
+}

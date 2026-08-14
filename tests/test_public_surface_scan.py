@@ -64,7 +64,7 @@ def test_no_email_addresses_or_reviewer_placeholders():
     for path, text in docs.items():
         if EMAIL_RE.search(text):
             offenders.append(f"{path.relative_to(ROOT)} contains email-shaped text")
-        if "reviewer-" in text:
+        if re.search(r"reviewer-(?!style)", text):  # placeholders, not prose (R38)
             offenders.append(f"{path.relative_to(ROOT)} contains reviewer placeholder")
     assert offenders == []
 

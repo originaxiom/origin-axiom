@@ -1,0 +1,10 @@
+{
+ "id": "B113",
+ "verdict": "PROVED",
+ "claim_one_line": "The proved closed form determines the SL(5) sign sectors at heights 2-4 by theorem and confines degree=rank to the height-1/top-power interface.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

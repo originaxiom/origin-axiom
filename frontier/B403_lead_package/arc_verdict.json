@@ -1,0 +1,10 @@
+{
+ "id": "B403",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The proposed prime-filter theorem is vacuous on denominators (the DFT confines them to {2,3,5}-smooth) and refuted on numerators (inert 7, 13, 49 already banked); five of the six leads only rename known open frontier.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

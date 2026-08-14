@@ -1,0 +1,269 @@
+{
+  "arc": "B962",
+  "title": "Prior-art scout: the 27 VEV, rank-1 elements of J3(O), and where a direction could come from",
+  "prepared_by": "the scouting panel (adversarial prior-art seat)",
+  "date": "2026-08-08",
+  "companion_document": "PRIOR_ART_VEV.md",
+
+  "q1_rank1_and_stabilizer": {
+    "confirmed": true,
+    "prior_panel_claim": "rank-1 elements form OP^2 (dim 16), are the primitive idempotents; stabilizer in E6 is Spin(10), not SO(10)xU(1)",
+    "verdict": "CORRECT, with one precision correction about vector-vs-line",
+    "rank1_characterisations": {
+      "intrinsic_sharp_map": "a != 0 and a# = a x a = 0 (Freudenthal); the sharp/adjoint map is the polarisation of the cubic form",
+      "idempotent": "trace-1 projections; Baez proves rank(p) = tr(p) for every projection in h3(O)",
+      "explicit": "p = v v* with v = (x,y,z) in O^3, (xy)z = x(yz), and |x|^2+|y|^2+|z|^2 = 1",
+      "rank_stratification": {
+        "rank_1": "a != 0, a# = 0",
+        "rank_le_2": "det(a) = 0",
+        "rank_3": "det(a) != 0"
+      },
+      "cubic_form": "det(a) = (1/3)tr(a^3) - (1/2)tr(a^2)tr(a) + (1/6)tr(a)^3",
+      "note": "the rank-1 condition is projective; tr(p)=1 is a choice of scale, not part of the geometry"
+    },
+    "space_of_rank1_elements": {
+      "real_albert_algebra": "OP^2, the octonionic (Cayley) projective plane, smooth manifold of real dimension 16",
+      "complexified_27": "the complex Cayley plane E6/P1, complex dimension 16, the UNIQUE CLOSED ORBIT of E6 on P(27); one of Zak's four Severi varieties",
+      "cone": "the punctured rank-1 cone has dimension 17 = 16 + 1"
+    },
+    "stabilizers": [
+      {"group": "compact E6 on C^27", "object": "nonzero rank-1 VECTOR", "stabilizer": "Spin(10)", "dim": 45, "orbit_dim": 33, "note": "THE PHYSICALLY RELEVANT ONE - a VEV has a magnitude"},
+      {"group": "compact E6 on C^27", "object": "rank-1 LINE [v]", "stabilizer": "(Spin(10) x U(1))/Z_4", "dim": 46, "orbit_dim": 32, "note": "Baez verbatim: (C tensor O)P^2 = E6/((Spin(10)xU(1))/Z_4)"},
+      {"group": "complex / split E6", "object": "rank-1 vector", "stabilizer": "Spin(10) semidirect C^16", "dim": 61, "orbit_dim": 17},
+      {"group": "split E6(6) on real 27", "object": "rank-1 vector", "stabilizer": "O(5,5) semidirect T_16", "dim": 61, "orbit_dim": 17, "note": "Ferrara-Gunaydin, independent confirmation from supergravity"},
+      {"group": "complex E6 on P(27)", "object": "rank-1 line", "stabilizer": "parabolic P1, Levi Spin(10)xGL(1)", "dim": 62, "orbit_dim": 16},
+      {"group": "F4 = Aut(h3(O))", "object": "primitive idempotent", "stabilizer": "Spin(9)", "dim": 36, "orbit_dim": 16}
+    ],
+    "why_spin10_not_so10_u1": "Under E6 > SO(10)xU(1)_psi, 27 = 1_4 + 10_-2 + 16_1. The rank-1 (highest weight) direction is the 1_4, carrying U(1)_psi charge 4 != 0, so the U(1) is BROKEN. Dimension check: 78-45 = 33 = 32 (spinor S_10) + 1 (broken U(1)).",
+    "why_spin_not_so": "the unbroken group acts on the 16 inside the 27, a genuine spinor representation, which SO(10) does not represent",
+    "precision_correction": "SO(10)xU(1) is not simply wrong - it is the stabiliser of the rank-1 LINE, i.e. the direction with magnitude forgotten. The difference is exactly the quotient by scale.",
+    "trap_recorded": "Baez writes 'the group of collineations fixing a specific point is Spin(9,1)'. This is the Levi's semisimple part, NOT the full isotropy group: 78-16 = 62, whereas dim Spin(9,1) = 45. The full point stabiliser is the parabolic (Spin(9,1) x R+) semidirect R^16, dim 62. Do not quote it as the stabiliser.",
+    "orbit_stratification_of_27": {
+      "source": "Ferrara-Gunaydin hep-th/9708025 section 2, LaTeX source read",
+      "count": "exactly THREE nonzero orbits, labelled by Jordan rank",
+      "orbits": [
+        {"rank": 3, "condition": "I3 != 0", "orbit_dim": 26, "stabilizer": "F4(4)", "stab_dim": 52},
+        {"rank": 2, "condition": "I3 = 0, dI3 != 0", "orbit_dim": 26, "stabilizer": "O(5,4) semidirect T_16", "stab_dim": 52},
+        {"rank": 1, "condition": "dI3 = 0", "orbit_dim": 17, "stabilizer": "O(5,5) semidirect T_16", "stab_dim": 61}
+      ],
+      "structural_consequence": "The generic (open, full-measure) stratum has stabiliser F4 - which is exactly the programme's already-proved chirality-killing obstruction. Chirality survives ONLY on the closed, minimal, measure-zero rank-1 orbit. The F4 obstruction is not a separate fact; it is what the GENERIC VEV does."
+    },
+    "confidence": "high - verified against primary LaTeX source of Baez (arXiv:math/0105155) and Ferrara-Gunaydin (hep-th/9708025); all dimension identities re-derived in-sandbox"
+  },
+
+  "q2_vev_direction_is_input_or_derived": {
+    "verdict": "INPUT, in every framework found. Nothing derives it.",
+    "refinement": "Part of the problem genuinely IS derived and this should not be dismissed: the finite MENU of candidate directions (the orbit stratification and its little groups) follows from pure group theory with no potential and no parameters. What is never derived is which item on the menu is realised.",
+    "what_is_derived": {
+      "the_menu": "the orbit space / stratification of the 27 under E6 - three rank-labelled strata with fixed little groups",
+      "sources": [
+        "Ferrara-Gunaydin hep-th/9708025 (explicit orbit table, source read)",
+        "J.S. Kim, J.Math.Phys. 25 (1984) 1694, INSPIRE 13825 - orbit spaces of the defining representations of F4 and E6; minima forced toward higher-little-group boundary strata (ABSTRACT ONLY)",
+        "Kim & Gell-Mann, INSPIRE 178410 - Michel-Radicati conjecture (ABSTRACT ONLY)"
+      ],
+      "limit": "Michel-type geometry constrains the menu; it does not order off it. Which stratum is the global minimum depends on the potential's free parameters."
+    },
+    "what_is_always_input": [
+      {"item": "the direction itself", "evidence": "King-Moretti-Nevzorov hep-ph/0510419, full text read: 'Without loss of generality we can assume that only the third family Higgs doublets and singlets ... gain VEVs' - an assumption, justified only post hoc by a radiative mechanism"},
+      {"item": "D-flatness and F-flatness", "role": "CONSTRAIN the admissible directions; never single one out", "evidence": "Callaghan-King 1210.6913, full text read: flatness imposed while free integer choices remain ('we leave n31>0 unspecified for now')"},
+      {"item": "flux / Wilson line / orbifold breaking", "role": "trades a continuous choice for an equally hand-picked DISCRETE choice", "evidence": "Hebecker-March-Russell hep-ph/0107039 proves orbifold breaking is 1-to-1 with Wilson-line breaking; the automorphism is selected to reproduce the SM"},
+      {"item": "composite-Higgs vacuum alignment", "role": "same paradigm, not an exception - fixed by minimising an effective potential from explicit-breaking terms"}
+    ],
+    "load_bearing_conclusion": "No E6 framework derives the 27 VEV direction. Therefore the object 'not supplying a VEV' is NOT a defect peculiar to this object - it is the universal situation. The honest framing is not 'we lack an ingredient others have' but 'nobody has this ingredient'.",
+    "sharpening_from_q4": "Within a single orbit all directions are E6-equivalent, so choosing a direction WITHIN a stratum is physically vacuous (pure gauge). The only meaningful content in 'choosing a VEV' is choosing WHICH RANK - a choice among three, not a choice in a 27-dimensional space.",
+    "confidence": "high for the 'always an input' conclusion (two papers read in full); medium for the Michel/Kim derived-menu strand (abstract-level only, citation-trail confirmed)"
+  },
+
+  "q3_arithmetic_derivation_found": {
+    "found": false,
+    "verdict": "CERTIFIED NULL for the precise question - a GUT Higgs VEV direction in a representation space derived from arithmetic rather than potential minimisation",
+    "certification_basis": [
+      "must-pass control PASSED: Moore's 'Arithmetic and Attractors' (hep-th/9807087, 288 cites) and the standard flux literature (Donagi-Wijnholt 346 cites; Hebecker-March-Russell 276 cites) all retrieved",
+      "COMPLETE citation-graph closure on Elkies-Gross (OpenAlex W2995339545): all 39 citing papers enumerated and titles read individually; ZERO concern GUT symmetry breaking, Higgs fields, or VEVs",
+      "~30 targeted queries across INSPIRE-HEP, arXiv, and OpenAlex converged on the same negative"
+    ],
+    "why_the_citing_set_is_instructive": "The physics citers of Elkies-Gross are ALL black-hole charge-orbit / U-duality papers. There the 27 is a CHARGE vector, where integrality is physically forced by Dirac quantisation, so arithmetic structure is legitimate and used. In GUT model building the 27 is a HIGGS field whose VEV is a continuous parameter, and no one has proposed an integral structure on it. The arithmetic-27 idea exists in physics; it has never been applied to a VEV.",
+    "nearest": [
+      {
+        "name": "Flux / Wilson-line / orbifold GUT breaking",
+        "refs": ["0808.2223 Donagi-Wijnholt", "hep-ph/0107039 Hebecker-March-Russell", "1206.6132 Marsano et al", "1411.0034 Anderson et al"],
+        "what_it_shows": "genuine geometric/topological constraint on a symmetry-breaking direction; Donagi-Wijnholt show massless hypercharge is a topological constraint on the flux",
+        "why_it_fails_the_criterion": "categorically NOT a Higgs VEV - no scalar acquires an expectation value in a representation. The breaking is a gauge-bundle/flux background (a class in H^{1,1} of a divisor). The direction fixed is WHICH CARTAN GENERATOR carries the flux, not a vector in a Higgs representation.",
+        "status": "closest real analogue in physics; sidesteps the question rather than answering it"
+      },
+      {
+        "name": "Moore, Arithmetic and Attractors",
+        "refs": ["hep-th/9807087"],
+        "what_it_shows": "arithmetically distinguished (CM) points genuinely singled out",
+        "why_it_fails_the_criterion": "the distinguished points are in the COMPLEX-STRUCTURE MODULI SPACE of the Calabi-Yau, not in a representation space where a Higgs lives. Citing set filtered for Higgs/VEV terms (20 inspected); none extend the mechanism to a gauge-breaking direction."
+      },
+      {
+        "name": "The integral Albert algebra",
+        "refs": ["Elkies-Gross IMRN 1996 (DOI 10.1155/s1073792896000426)", "Elkies-Gross Duke 2001", "2205.09896 Garibaldi-Petersson-Racine", "math/0411104 Krutelevich", "1603.00739 Kato-Yukie"],
+        "what_it_shows": "real, rich arithmetic structure on exactly the right object - integral structures on J3(O), the exceptional cone, integral/rational orbit classifications",
+        "why_it_fails_the_criterion": "ZERO physics content - no GUT, no Higgs, no vacuum, no symmetry breaking. The mathematics exists; the bridge does not."
+      },
+      {
+        "name": "Singh, Fermion mass ratios from the exceptional Jordan algebra",
+        "refs": ["2508.10131"],
+        "what_it_shows": "arithmetic of the Jordan cubic form constrains fermion mass RATIOS",
+        "why_it_fails_the_criterion": "its own stated setup is 'when <X> is Jordan-diagonalised to diag(a,b,c)' - the diagonal basis, i.e. the VEV direction, is an ASSUMED starting condition. The arithmetic fixes ratios among eigenvalues once a direction is chosen; it does not explain why that point of the orbit is singled out. Textbook necessary-not-sufficient trap.",
+        "status": "nearest bridge in the entire sweep"
+      }
+    ],
+    "off_target_do_not_mistake_for_prior_art": [
+      "1604.01247 Dubois-Violette and 2006.16265 Boyle use J3(O) to encode fermion REPRESENTATION CONTENT via triality; neither addresses a Higgs mechanism or a VEV direction",
+      "Cayley-plane appearances in physics (0807.4899, 1006.0728, 2202.02050, 2309.00967) are target-space / index-theory objects, never vacuum-selection spaces"
+    ],
+    "scope_of_the_null": "Certified for the specific claim 'a GUT Higgs VEV direction derived from arithmetic'. NOT a certification that the broader idea is impossible or that no adjacent work exists under entirely different vocabulary."
+  },
+
+  "q4_OP2_homogeneous_under_F4": {
+    "homogeneous": true,
+    "transitivity_statement": "OP^2 = F4 / Spin(9), with dim F4 = dim Spin(9) + dim OP^2 = 36 + 16 = 52",
+    "verification": "Baez section 4.2, verbatim: Spin(9) is PRECISELY the subgroup of F4 = Aut(h3(O)) fixing the trace-1 projection diag(1,0,0), and F4 acts transitively on OP^2. Transitivity is CONSTRUCTED, not asserted: Baez section 3.4 gives an explicit algorithm (Spin(9) to make one octonion entry real, Spin(8) for the others, O(3) conjugation to diagonalise).",
+    "independent_confirmation": "Miyasaka & Yokota arXiv:1011.0603 - 'any element X of the exceptional Jordan algebra J is transformed to a diagonal form by the compact exceptional Lie group F4', with a direct CONSTRUCTIVE proof replacing the earlier proof by contradiction",
+    "stronger_statement_the_seat_should_use": "F4 acts transitively on ordered triples of pairwise-orthogonal primitive idempotents (JORDAN FRAMES), not merely on single idempotents. Equivalently E6 acts transitively on the punctured rank-1 cone. Consequently NO rank-1 element, NO orthogonal pair, and NO orthogonal triple is canonical.",
+    "why_the_stronger_statement_matters": "The route identified by the prior panel needs TWO VEVs. Frame-transitivity closes the obvious escape hatch - 'maybe the PAIR is canonical even if neither element is'. It is not.",
+    "clean_structural_statement": "The set of possible VEV directions is a HOMOGENEOUS SPACE of the symmetry group. A canonical point of a homogeneous space exists only if the space is a point. OP^2 has dimension 16. Therefore choosing a VEV direction is exactly and unavoidably a choice, and no symmetry-based argument can ever make it canonical.",
+    "value_of_this_result": "It is not a negative about the object - it is a theorem about E6 that applies to every E6 model ever written. It converts 'our object fails to supply a VEV' into 'no group-theoretic structure can supply one; the question is misposed'.",
+    "precise_scope": "This forbids deriving the direction FROM THE SYMMETRY. It does not forbid deriving it from extra structure that BREAKS the homogeneity.",
+    "the_exception_arithmetic": {
+      "statement": "Homogeneity is a statement over R or C. Over Z or a number field the relevant group is ARITHMETIC, not the full real/complex group, homogeneity FAILS, and there are finitely many orbits labelled by genuine arithmetic invariants.",
+      "evidence": [
+        {"ref": "Elkies-Gross IMRN 1996", "shows": "an integral structure (J,E) on the 27-dim exceptional Jordan algebra; the cone of rank-1 elements tied to Leech/Niemeier lattices"},
+        {"ref": "Elkies-Gross Duke 2001", "shows": "embeddings of totally-real cubic rings into the integral Albert algebra"},
+        {"ref": "math/0411104 Krutelevich", "shows": "integral Freudenthal construction; algorithmic approach to ORBIT SPACES over Z; related to Bhargava's higher composition laws"},
+        {"ref": "1603.00739 Kato-Yukie", "shows": "SHARPEST LEAD - for the prehomogeneous space (GE6 x GL(2), J + J), i.e. literally PAIRS OF 27s, generic RATIONAL orbits are in bijection with pairs (M, n) where M is an isotope of J and n a cubic etale subalgebra; for split O, with separable extensions of k of degree <= 3. So over a non-closed field the configuration space of two 27s is NOT homogeneous."}
+      ],
+      "honest_limit": "Choosing the integral structure is itself a choice; nothing found singles out ONE rank-1 element as canonical; and NO source connects any of this to a Higgs VEV (the Q3 null restated from the mathematics side).",
+      "status": "The opening is REAL and UNWORKED, not a result. It is also the one place where this object could differ from a generic E6 model, since it carries arithmetic (Q(sqrt(-3))) that a generic model does not. This is a motivation for a computation, NOT a claim, and must not be banked as one."
+    },
+    "confidence": "high - primary source read, plus an independent constructive proof"
+  },
+
+  "q5_no_gos": [
+    {
+      "id": "Q5a",
+      "severity": "DECISIVE - the prior panel did not flag this",
+      "claim": "27 VEVs can never break SU(5) -> the Standard Model",
+      "literature_statement": "King-Moretti-Nevzorov hep-ph/0510419 section 2.2, verbatim (full text read): 'one cannot break E6 in a conventional manner as the required Higgs fields are in larger representations than the 27.' The authors resort to the Hosotani mechanism at the string scale for the primary breaking.",
+      "independent_rederivation_in_sandbox": {
+        "branching": "27 -> 16 + 10 + 1 (SO(10)); 16 -> 10 + 5bar + 1, 10 -> 5 + 5bar, 1 -> 1 (SU(5)); so 27 -> 10 + 5 + 5bar + 5bar + 1 + 1, dimension check 10+5+5+5+1+1 = 27",
+        "key_fact": "the 24 (adjoint of SU(5)) does NOT appear in the 27",
+        "sharper_argument": "Every component of 5, 5bar, 10 carries nonzero hypercharge. The ONLY Y-neutral directions available in any number of 27s are the SU(5) SINGLETS - and those break nothing inside SU(5). Hence no combination of 27 VEVs can break SU(5) -> SU(3)xSU(2)xU(1)_Y. Any non-singlet direction that does break SU(5) necessarily also breaks U(1)_Y.",
+        "worked_example": "a VEV along the SU(3)xSU(2)-singlet (1,1) of the 10 leaves SU(3)xSU(2), rank 3 - hypercharge destroyed, not preserved"
+      },
+      "impact_on_the_prior_panel_route": "The route is CORRECT as far as it goes: two rank-1 27 VEVs give E6 -> SO(10) -> SU(5), rank 6 -> 4, with the 27 still complex. But SU(5) is NOT the Standard Model, and the last step is blocked. The route delivers rank 4 + a complex 27 and then stops one step short, needing a 78 or 351 the 27 route does not contain."
+    },
+    {
+      "id": "Q5b",
+      "severity": "high - a genuine tension the seat must be able to explain",
+      "claim": "In SUSY, D-flatness stalls the rank reduction at 5, not 4",
+      "evidence": "hep-ph/0510419 (full text read): 27 VEVs come paired as 27_H + 27bar_H along the D-flat direction <N_H^c> = <Nbar_H^c>, breaking only ONE unit of rank. The E6SSM lands on a rank-5 group (SU(5)xU(1)_N or SO(10)xU(1)-type) and the final U(1)_N is broken separately at the TeV scale by an ordinary matter singlet S.",
+      "resolution_of_the_tension": "Pure group theory says two rank-1 27 VEVs give SU(5), rank 4. The SUSY literature reports stalling at rank 5. These are CONSISTENT - the SUSY models impose D-flatness and CHOOSE directions preserving a U(1) (the E6SSM wants a TeV Z'). But a seat quoting 'two 27 VEVs give rank 4' inside a SUSY context will be contradicted by the literature and should know why."
+    },
+    {
+      "id": "Q5c",
+      "severity": "medium - unavoidable baggage of the representation",
+      "claim": "Exotics, proton decay, and doublet-triplet splitting",
+      "decomposition": "27 -> (10,1) + (5bar,2) + (5bar,-3) + (5,-2) + (1,5) + (1,0) under SU(5)xU(1)_N",
+      "details": [
+        "(10,1)+(5bar,2): one ordinary family",
+        "(5bar,-3) and (5,-2): Higgs-doublet-like states PLUS a vector-like colour-triplet pair D, Dbar of charge -/+1/3, with B-L twice that of ordinary quarks",
+        "(1,5): extra singlet S; (1,0): right-handed neutrino N^c",
+        "matches 27 = 16 + 10 + 1 exactly; the exotics come with the representation and are unavoidable"
+      ],
+      "proton_decay": "hep-ph/0510419 states plainly that 'the gauge symmetry of the models under consideration does not forbid lepton and baryon number violating operators'. Suppression requires an AD HOC discrete symmetry (Z2^L -> exotics are diquarks; Z2^B -> exotics are leptoquarks), with some parameter regions 'basically ruled out'.",
+      "doublet_triplet": "NOT solved, routed around: the D, Dbar triplets are kept LIGHT (TeV, vector-like mass from <S>) rather than split to the GUT scale. In the F-theory version (1210.6913) proton decay is suppressed by 'geometric coupling suppression ... peculiar to F-theory' - again a bypass, not a solution."
+    },
+    {
+      "id": "Q5d",
+      "severity": "structural - the cleanest statement of why two VEVs are forced",
+      "claim": "A SINGLE 27 VEV cannot give both rank 4 and a complex 27",
+      "table": [
+        {"vev_jordan_rank": 3, "unbroken": "F4", "rank": 4, "27_complex": false, "verdict": "rank 4 but chirality DEAD (27 -> 26 + 1, real)"},
+        {"vev_jordan_rank": 2, "unbroken": "Spin(9)-type", "rank": 4, "27_complex": false, "verdict": "chirality dead"},
+        {"vev_jordan_rank": 1, "unbroken": "Spin(10)", "rank": 5, "27_complex": true, "verdict": "chirality alive, rank too high"}
+      ],
+      "consequence": "Rank 4 requires the generic strata, which give real F4/Spin(9); the complex-preserving stratum is the closed orbit, which stops at rank 5. Two rank-1 VEVs are therefore FORCED, not a modelling preference. This gives the prior panel's route an orbit-theoretic derivation rather than a bookkeeping observation.",
+      "reframing_of_the_programme_result": "The programme's F4 chirality obstruction is not a separate fact - it is what the GENERIC VEV does. Chirality survives only on the closed, measure-zero rank-1 orbit, a codimension-10 condition in the 27."
+    },
+    {
+      "id": "Q5e",
+      "severity": "hygiene",
+      "claim": "Two commonly-cited items could not be located and must not be cited",
+      "not_found": [
+        "'Buccella-Ruegg-Savoy, Rank 5 and 6 subgroups of E6' - repeated author/title/full-text searches on INSPIRE returned nothing. The related Buccella-Ruegg 'Group Theoretic Determination of Minima of Higgs Potentials' (Nuovo Cim. A 67 (1982) 61, INSPIRE 165933) EXISTS but its own abstract restricts to O(8+2n), SU(3+n), O(14) - NOT E6.",
+        "Any 'Babu-Bajc-Saad' E6 paper - no matching INSPIRE record found under any search tried"
+      ],
+      "cited_from_reputation_only": [
+        "Slansky, Phys.Rept. 79 (1981) 1 (1466 citations) - tables NOT accessible to this sweep",
+        "Hewett-Rizzo, Phys.Rept. 183 (1989) 193 (1524 citations) - NOT accessible to this sweep"
+      ]
+    }
+  ],
+
+  "databases_reached": {
+    "zbMATH": {"reached": true, "endpoint": "api.zbmath.org/v1/document/_search", "used_for": "Q1, Q4 - Jordan/Albert algebra, Cayley plane, Severi varieties"},
+    "arXiv": {"reached": true, "endpoint": "export.arxiv.org/api/query", "caveat": "HTTPS ONLY - plain HTTP returns an empty body", "used_for": "Q1, Q3, Q4"},
+    "arXiv_eprint_source": {"reached": true, "endpoint": "arxiv.org/e-print/<id>", "used_for": "full LaTeX of Baez, Ferrara-Gunaydin, Krutelevich"},
+    "OpenAlex": {"reached": true, "endpoint": "api.openalex.org/works", "used_for": "citation-graph closure via filter=cites:"},
+    "INSPIRE_HEP": {"reached": true, "endpoint": "inspirehep.net/api/literature", "used_for": "Q2, Q5"},
+    "ar5iv": {"reached": "partial", "caveat": "issues a cross-host 307 redirect for some ids; worked for others"},
+    "Semantic_Scholar": {"reached": false, "reason": "HTTP 429 rate-limited throughout"},
+    "MathSciNet": {"reached": false, "reason": "HTTP 302 to an authentication wall, as expected"},
+    "gaps_are_not_load_bearing": "zbMATH covers the same mathematical literature as MathSciNet and was reached; the Q1/Q4 conclusions rest on primary text (Baez's own LaTeX source), not on indexing",
+    "disclosure": "one sub-sweep exhausted its web-search quota partway through Q3 and completed on bibliographic APIs alone; all three APIs converged independently"
+  },
+
+  "citation_graph_closure": {
+    "canonical_paper": "Elkies & Gross, 'The exceptional cone and the Leech lattice', IMRN 1996",
+    "openalex_id": "W2995339545",
+    "doi": "10.1155/s1073792896000426",
+    "retrieval_trap_recorded": "the OpenAlex record has a NULL title field, so title-search returns count 0; it must be found by DOI or author",
+    "citing_set_size": 39,
+    "enumeration": "COMPLETE - all 39 titles read individually",
+    "result": "citing set splits into (i) lattice theory and modular forms, (ii) Jordan-algebra arithmetic, (iii) black-hole charge-orbit / U-duality physics. ZERO concern GUT symmetry breaking, Higgs fields, or VEVs.",
+    "why_decisive": "this is the one paper such work would be obliged to cite, and the enumeration is complete rather than a sample"
+  },
+
+  "control_passed": true,
+  "control_detail": {
+    "requirement": "the method must retrieve the standard Albert-algebra / Cayley-plane literature and the standard E6 GUT literature before any null is trusted",
+    "retrieved": [
+      "Freudenthal, Oktaven Ausnahmegruppen und Oktavengeometrie (1951; reprints 1960, 1985) - zbMATH",
+      "Tits, Le plan projectif des octaves et les groupes de Lie exceptionnels (1953) - zbMATH",
+      "Rozenfeld, Die kompakte einfache Gruppe E6 als Bewegungsgruppe der nichteuklidischen komplexen Oktavenebenen (1954) - zbMATH, directly on point for Q1",
+      "Jacobson, Structure and Representations of Jordan Algebras (1968) - zbMATH",
+      "Springer & Veldkamp, Octonions Jordan Algebras and Exceptional Groups (2000) - zbMATH + OpenAlex W211457683",
+      "Baez, The Octonions (2001/2002) - retrieved AND full LaTeX source obtained and read",
+      "Zak, Severi varieties (1985) / Tangents and Secants (1993) - zbMATH",
+      "Gursey-Ramond-Sikivie, A Universal Gauge Theory Model Based on E6 (1975, 871 citations) - INSPIRE",
+      "Moore, Arithmetic and Attractors (hep-th/9807087, 288 citations) - INSPIRE",
+      "standard flux-compactification literature (Donagi-Wijnholt 346 cites; Hebecker-March-Russell 276 cites) - INSPIRE"
+    ],
+    "conclusion": "the control retrieved every canonical item it was supposed to; the nulls in this report are NOT artefacts of broken retrieval"
+  },
+
+  "what_the_seat_could_honestly_claim": [
+    {"tier": "safe", "claim": "Rank-1 elements of J3(O) are exactly the primitive idempotents (trace-1 projections); projectively they form OP^2, dim 16; intrinsically a != 0 with a# = a x a = 0 (Freudenthal)."},
+    {"tier": "safe", "claim": "The stabiliser of a rank-1 VECTOR in compact E6 is Spin(10) (dim 45, orbit 33). The stabiliser of the rank-1 LINE is (Spin(10) x U(1))/Z_4. The prior panel is confirmed."},
+    {"tier": "safe", "claim": "E6 has exactly THREE nonzero orbits on the 27, labelled by Jordan rank, with little groups F4 (rank 3), Spin(9)-type (rank 2), Spin(10)-type (rank 1)."},
+    {"tier": "safe", "claim": "OP^2 is F4-homogeneous (= F4/Spin(9)), and F4 is transitive on Jordan frames. Hence no rank-1 element, orthogonal pair, or triple is canonical over R or C. Choosing a VEV direction is exactly a choice with no canonical answer."},
+    {"tier": "safe", "claim": "The programme's F4/chirality obstruction is the GENERIC stratum; chirality survives only on the closed, measure-zero rank-1 orbit. A single 27 VEV can never give both rank 4 and a complex 27 - hence two VEVs are FORCED."},
+    {"tier": "safe", "claim": "27 VEVs cannot break SU(5) -> SM: the 24 is absent from the 27, and the only Y-neutral directions are SU(5) singlets, which break nothing."},
+    {"tier": "safe", "claim": "In the E6 GUT literature the VEV direction is ALWAYS an input. So the object's failure to supply one is not peculiar to it."},
+    {"tier": "safe", "claim": "Nobody has derived a GUT Higgs VEV direction from arithmetic (certified null, control passed, complete citation-graph closure on Elkies-Gross)."},
+    {"tier": "defensible_with_caveat", "claim": "Two Jordan-rank-1 27 VEVs give SU(5) (rank 4, 27 complex) - BUT in a SUSY context D-flatness pairs 27/27bar and the literature stalls at rank 5; and SU(5) is not the SM."},
+    {"tier": "defensible_with_caveat", "claim": "Over Z or a number field the rank-1 elements are NOT homogeneous - arithmetic stratifies them (Elkies-Gross; Krutelevich; Kato-Yukie's classification of PAIRS of 27s by cubic etale algebras). This is the ONLY identified route to a distinguished direction, and it is unworked."}
+  ],
+
+  "must_not_be_claimed": [
+    "That the object's arithmetic DOES single out a rank-1 element. Nothing here shows that; the arithmetic opening is a motivation for a computation, not a result.",
+    "That deriving a VEV from arithmetic is 'novel' in the strong sense. The null is certified for the precise question asked; it is not proof that no adjacent work exists under other vocabulary.",
+    "That the two-27 route reaches the Standard Model. It reaches SU(5) and provably stops.",
+    "Anything sourced to 'Buccella-Ruegg-Savoy, Rank 5 and 6 subgroups of E6' or to a Babu-Bajc-Saad E6 paper - neither was located and they may not exist as described.",
+    "Baez's 'collineations fixing a point = Spin(9,1)' as a statement about the full stabiliser - it names the Levi's semisimple part; the full isotropy group is a 62-dimensional parabolic."
+  ]
+}

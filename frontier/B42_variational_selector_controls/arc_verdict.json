@@ -1,0 +1,10 @@
+{
+ "id": "B42",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Natural variational quantities of the tangent return (eigenvalue, torsion proxy, discriminant) are monotone on I>0 with no intrinsic stationary point at I=1/4.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

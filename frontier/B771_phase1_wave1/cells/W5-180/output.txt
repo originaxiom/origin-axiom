@@ -57,4 +57,4 @@ All sanity checks: PASS
 
 VERDICT: RESOLVED-B
 
-results.json written to /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W5-180/results.json
+results.json written to <repo>/frontier/B771_phase1_wave1/cells/W5-180/results.json

@@ -1,0 +1,19 @@
+{
+ "id": "B1019",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "L149 ANSWERED -- THE ENDPOINT DISCRIMINATES AT THE WORD'S OWN CONDUCTOR, AND THE SIBLINGS HAVE NO DOOR. Sealed ce6b0329 with no confident prior (a weak DIVERGES lean, stated as a lean); outcome DIVERGES, AT THE ENTRY MAP ITSELF, for both sealed controls, by exact enumeration. C1: the own-conductor shadow <R^m, L^m> <= SL(2, Z/(m^2+4)): golden m=1 gives order 120 with a UNIQUE involution and -I present -- SL(2,5) = 2I, the banked entry, reproduced; silver m=2 gives ORDER 32 WITH SEVEN INVOLUTIONS and no -I -- and every noncyclic finite SU(2) subgroup has a unique involution, so NO SU(2) EMBEDDING, NO McKAY PARTNER, NO LIE ENTRY; bronze m=3 gives THE FULL SL(2,13), ORDER 2184 -- over the ADE cap of 120 (the classification is complete; B997's bound), so again NO DOOR. The cascade does not land somewhere else for the siblings -- IT HAS NOWHERE TO BEGIN; C2 (chirality gate) and C3 (B861's walk) are moot. TWO DESIGN-LEVEL REFUTATIONS RECORDED IN THE PROPOSE-AND-REFUTE DISCIPLINE: the seal's own D-series speculation is refuted by the computation (Q_32 has one involution, the silver's shadow has seven); and a first draft of the embeddability criterion used unique-involution alone -- NECESSARY READ AS SUFFICIENT, the exact slip the abelianization-proxy rule names -- exposed by the bronze result and fixed with the slip kept in the source as a comment. C4: through the GENERIC mod-3 door the silver reaches the full 2T just as the golden does (B996, banked) -- the discrimination lives at the word's OWN door and only there. C5, THE REPLACEMENT SENTENCE for B1009's withdrawn one: MATCHING THE SM CONFIRMS THE AXIOMS EXACTLY INSOFAR AS THE ENTRY IS THE WORD'S OWN -- at the own-conductor door the golden is not merely unique in reaching a McKay group (B997), it is THE ONLY METALLIC GRAMMAR IN THE TESTED FAMILY WITH ANY DOOR AT ALL; the endpoint's confirming power, removed at the generic door by B996, is RESTORED AT THE OWN DOOR, composing with B997 into one statement: ONE GRAMMAR, ONE DOOR, ONE CASCADE, ONE ENDPOINT. SCOPE EXACTLY: computed for m = 2, 3, the sealed controls; the all-m statement remains B997's theorem plus this pair; 'no Lie entry' is relative to the McKay route the chain actually uses (2T -> E6), and a non-McKay entry construction is not excluded -- that would be a new chain needing its own cells; no SM value anywhere; zero anchors consumed; Gate 5 untouched.",
+ "depends_on": [
+  "B996",
+  "B997",
+  "B1002",
+  "B237",
+  "B675",
+  "B861",
+  "B1009",
+  "B766"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10), sealed ce6b0329"
+}

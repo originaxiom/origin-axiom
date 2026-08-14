@@ -1,0 +1,10 @@
+{
+ "id": "B541",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Two independent pre-registered stage-2a designs both return NULL: the 17-component dictionary matches SM constants no better than chance.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

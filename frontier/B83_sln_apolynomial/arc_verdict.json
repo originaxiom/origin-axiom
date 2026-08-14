@@ -1,0 +1,10 @@
+{
+ "id": "B83",
+ "verdict": "PROVED",
+ "claim_one_line": "The SL(n) figure-eight Dehn-filling A-polynomial family is L=(-1)^{n-1}M^n on the principal component, with the SL(4) member L=-M^4 new.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

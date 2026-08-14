@@ -1,0 +1,10 @@
+{
+ "id": "B303",
+ "verdict": "PROVED",
+ "claim_one_line": "Proved the CP sign is literally the sign of Chern-Simons (CS=0 amphichiral, definite sign per closing), reducing the one live forcing to two firewalled inputs.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

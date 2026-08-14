@@ -1,0 +1,10 @@
+{
+ "id": "B524",
+ "verdict": "PROVED",
+ "claim_one_line": "Phi is certified iwip with unequal forward and inverse dilatations, so F4-by-phi is word-hyperbolic but not a 3-manifold group; higher-rank Ptolemy keeps DGG gauge abelian.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

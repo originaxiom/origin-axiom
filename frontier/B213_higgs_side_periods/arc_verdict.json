@@ -1,0 +1,10 @@
+{
+ "id": "B213",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-generic: no forced small number, no hierarchy.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

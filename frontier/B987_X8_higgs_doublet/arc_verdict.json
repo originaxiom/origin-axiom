@@ -1,0 +1,18 @@
+{
+ "id": "B987",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "X8 -- THE HIGGS DOUBLET -- IS NOT A HOLE: it is ANSWERED by B884, has NO tension with B978, and its residue is a KNOWN BOUNDARY. P0 stated before computing: this computes over the ALGEBRA (E6 and its representations), not over any manifold. THE RUNG CLAIMED 'no arc addresses where the doublet comes from' -- FALSE. (1) ORIGIN ALREADY COMPUTED: B884 banks 'THE GRADING at the enhancement point: 27 -> [1 | 3,3,2,2 | 6,3,3,2,1,1] (singlet; the so(10)-vector as the HIGGS BLOCK (3,1)+(3bar,1)+(1,2)+(1,2); the 16's SM multiplets)', verified here by dimension as 1 + 10 + 16 = 27 -- so the Higgs block IS the so(10)-vector, the 10 inside the 27, carrying TWO doublets alongside two colour triplets, computed on the object's own Chevalley frame (B883) with signs inherited rather than chosen. (2) THERE WAS NEVER A TENSION WITH B978: B978/V5 is true and its scope is THE ADJOINT (78 not in 27x27, so no adjoint VEV gives any 27 fermion a mass), but matter mass never came from the adjoint -- it comes from the CUBIC, 27^3 containing 16.16.10 + 1.10.10, matter x matter x Higgs, the classic SO(10) Yukawa; and B884 COMPUTED THAT TABLE EXACTLY (the unique e6-invariant in Sym^3(27) solved over Q from the invariance equations, nullspace dimension exactly 1, every coefficient +-1, with a 7.7-ORDER GAP separating 11 coupled cells from 275 exact zeros, the 11 accounting exactly for 27^3 > 16.16.10 + 1.10.10 SM-refined with two [2,3,6] up/down-Yukawa shapes and three lepton/mu-term cells). B978 constrains the adjoint; the Yukawa is the cubic; both are right and were simply never stated in the same paragraph. (3) THE RESIDUE IS REAL AND BOUNDED: the 10 carries BOTH the Higgs doublets AND two colour triplets, so splitting them is the classic GUT DOUBLET-TRIPLET problem -- and the repo has already placed it, B298 recording 'the doublet-triplet split is EXTERNAL (needs a color choice)' and B299 'the colored-vs-electroweak (doublet-triplet) split REQUIRES CHOOSING WHICH SU(3)'. So the split is an external input exactly like chirality, rank reduction and scale: the object supplies the structure, the closing is supplied from outside. VERDICT: X8 RE-GRADED FROM HOLE TO BOUNDED, residue named. WHY IT LOOKED LIKE A HOLE, the transferable part: three banked arcs -- B884 (Higgs block and cubic), B978 (adjoint no-go), B298/B299 (split is external) -- are individually correct and HAD NEVER BEEN STATED TOGETHER, so the apparent hole was ENTIRELY A SYNTHESIS-LAYER ARTEFACT, the same failure that produced B950, B976, B974, B979, B981 and B982. THE DIFFERENCE THIS TIME: THE PROTOCOL CAUGHT IT -- P3 (grep the claim, not the topic) ran before any computation and the rung dissolved in one query instead of a session. First of the day's six instances caught by an instrument rather than by the owner; the grounding (B983) doing the job it was built for, on its first real use.",
+ "depends_on": [
+  "B884",
+  "B883",
+  "B978",
+  "B964",
+  "B298",
+  "B299",
+  "B983"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), campaign order 7"
+}

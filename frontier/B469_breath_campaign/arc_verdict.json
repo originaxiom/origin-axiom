@@ -1,0 +1,10 @@
+{
+ "id": "B469",
+ "verdict": "PROVED",
+ "claim_one_line": "Breath wave 1: the two-register residue equals (−1)^((N−1)/2) at four levels, and every metallic bundle double-covers a non-orientable bundle (X_m²=A_m).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B291",
+ "verdict": "PROVED",
+ "claim_one_line": "A stable min-volume closing m004(±5,1) (vol 0.98137) exists and is non-arithmetic and not the fiber closing, so selection is axis-stratified with no universally distinguished closing.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

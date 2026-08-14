@@ -1,0 +1,10 @@
+{
+ "id": "B152",
+ "verdict": "PROVED",
+ "claim_one_line": "A 240-manifold census confirms amphichiral implies 2-torsion Chern-Simons with zero violations, and exhibits m208 as the unique converse failure.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

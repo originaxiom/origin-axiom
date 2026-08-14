@@ -1,0 +1,14 @@
+{
+ "id": "B865",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE PADDING LEMMA (proved, one line: in the free commutative monoid of multisets, M+S = conj(M)+S iff M = conj(M) for self-conjugate S, so adding self-conjugate content never flips a chirality verdict; machine-verified on 2000 random multisets with a non-vacuity lock showing a NON-self-conjugate pad CAN flip) + THE FULL-27 RERUN: every cascade step re-run with the entire descended 27 as ket gives identical verdicts and winners (SU(5)xU(1) and SM chiral, Pati-Salam chiral, SU(4)xU(1) vector-like), so B861's per-step re-anchoring is presentational and the referee's your-ket-changes attack closes. The dropped content is never physically dropped: 10_{-2}+1_{+4} are the anomaly ballast (B864's 16-20+4=0) and the chain's singlets land in (1,1)_0 -- the right-handed-neutrino slot. First-draft defect caught before banking: duplicate dict keys silently collapsing singlet counts.",
+ "depends_on": [
+  "B861",
+  "B863",
+  "B864"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B293",
+ "verdict": "PROVED",
+ "claim_one_line": "The clock is the peripheral symplectic pairing: κ=tr[a,b] is the Goldman Casimir whose leaves make the cusp holonomies (μ,λ) canonically conjugate, matched independently by the Neumann–Zagier frame; no trajectory k(t) is derived.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B255",
+ "verdict": "PROVED",
+ "claim_one_line": "The tetrahedron (d=3) is the unique regular simplex whose rotation group's binary cover McKay-corresponds to an exceptional Lie group with a complex fundamental.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

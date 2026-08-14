@@ -1,0 +1,10 @@
+{
+ "id": "B522",
+ "verdict": "PROVED",
+ "claim_one_line": "A formal-slice/BCH filtration argument forces the Sym-tensor-det block form of char(rho_n) for all n and proves the catalog's first arm by Chevalley, reducing the tower conjecture to a static multiplicity-splitting problem located at n=5.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -1,0 +1,218 @@
+{
+ "cell": "P2W5-LSCHAAR",
+ "oi": "OI-121",
+ "lead": "L82 residual",
+ "verdict": "RESOLVED-A",
+ "headline": "the SU(3) per-term closed form is PROVEN and the Landsberg-Schaar / multivariate-reciprocity input is ELIMINATED: t = Theta_F/Theta_K, amplitude and eighth-root phase cancel in the ratio, only a Legendre symbol survives",
+ "gates_failed": [],
+ "conductor_menu": {
+  "+w0": 1,
+  "+w1": -5,
+  "+w2": -5,
+  "+w3": 16,
+  "+w4": 16,
+  "+w5": -5,
+  "-w0": 25,
+  "-w1": -5,
+  "-w2": -5,
+  "-w3": 4,
+  "-w4": 4,
+  "-w5": -5
+ },
+ "smith_divisors": {
+  "+w0": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "+w1": [
+   1,
+   1,
+   1,
+   5
+  ],
+  "+w2": [
+   1,
+   1,
+   1,
+   5
+  ],
+  "+w3": [
+   1,
+   1,
+   4,
+   4
+  ],
+  "+w4": [
+   1,
+   1,
+   4,
+   4
+  ],
+  "+w5": [
+   1,
+   1,
+   1,
+   5
+  ],
+  "-w0": [
+   1,
+   1,
+   5,
+   5
+  ],
+  "-w1": [
+   1,
+   1,
+   1,
+   5
+  ],
+  "-w2": [
+   1,
+   1,
+   1,
+   5
+  ],
+  "-w3": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "-w4": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "-w5": [
+   1,
+   1,
+   1,
+   5
+  ]
+ },
+ "closed_forms": {
+  "+w0": "1",
+  "+w1,+w2,+w5": "g(kappa,5)/sqrt5  = (kappa|5) if 5 nmid kappa, sqrt5 if 5|kappa",
+  "-w1,-w2,-w5": "g(2 kappa,5)/sqrt5 = -(kappa|5) if 5 nmid kappa, sqrt5 if 5|kappa",
+  "+w3,+w4": "(-2)^min(v2(kappa),2)",
+  "-w3,-w4": "-(-2)^min(v2(kappa),1)",
+  "-w0": "-(-5)^min(v5(kappa),1)"
+ },
+ "theorems": {
+  "modulus": "|Theta_F(k)|^2 = 3k^2 R_F(k) (orthogonality; no reciprocity)",
+  "normalisation": "R_K = 1 => t_{+w0} = 1 exactly => t = Theta_F/Theta_K",
+  "conductor_modulus": "|t_{pm w}(k)|^2 = prod_i gcd(k, e_i(A x (pm w) - I4))",
+  "ratio": "g_F/g_K = (det B | p)^{v_p} at p nmid 2 det F (amplitude cancels)",
+  "LAW_O": "[4|k] - [5|k]/phi, proven for ALL k >= 1",
+  "LAW_E": "([5 nmid k] - (k|5))/2 if v2(k) != 1, else -(1 + [5|k] + (k|5))/2"
+ },
+ "exact_verification": {
+  "range_A": "kappa 1..60 (all)",
+  "range_B": [
+   61,
+   64,
+   71,
+   75,
+   80,
+   81,
+   96,
+   100,
+   101,
+   120,
+   121,
+   125,
+   128,
+   135,
+   144,
+   160,
+   162,
+   169,
+   175,
+   180,
+   200
+  ],
+  "range_C_deep_valuation": [
+   256,
+   384,
+   405,
+   512,
+   625,
+   729,
+   1000,
+   1024
+  ],
+  "terms": 12,
+  "mismatches": 0,
+  "arithmetic": "Z[zeta_6k]"
+ },
+ "estimators": {
+  "weil_matrix_maxdev": 4.130069055754628e-14,
+  "normalisation_maxdev": 2.021013601147341e-14,
+  "b238_stage_maxdev": 2.881070325353224e-15
+ },
+ "boundary_general_words": {
+  "RL": {
+   "A": [
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "tr": 3,
+   "c": 1,
+   "hits": 60,
+   "tot": 60
+  },
+  "RRLL": {
+   "A": [
+    [
+     5,
+     2
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "tr": 6,
+   "c": 2,
+   "hits": 16,
+   "tot": 60
+  },
+  "RRRLLL": {
+   "A": [
+    [
+     10,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "tr": 11,
+   "c": 3,
+   "hits": 9,
+   "tot": 60
+  }
+ },
+ "eliminated_inputs": [
+  "B666-R3 (I4) g0 = -i sqrt(3) kappa",
+  "B666-R3 (I5) multivariate Landsberg-Schaar / Krazer reciprocity"
+ ],
+ "classical_inputs_retained": [
+  "finite-abelian-group orthogonality (proved in-cell)",
+  "CRT multiplicativity of Gauss sums (gated G6)",
+  "binary-form local sum sum_{F_p^2} psi(aQ) = eta(-det Q) p",
+  "quadratic reciprocity (5|p) = (p|5)"
+ ],
+ "residual_open": "L24(c) proper: general words R^nL^n, n >= 2 (A_21 = n > 1)",
+ "runtime_s": 8.9
+}

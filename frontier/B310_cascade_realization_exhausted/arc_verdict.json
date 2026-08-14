@@ -1,0 +1,10 @@
+{
+ "id": "B310",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Killed the cascade's novelty: the E6 chain is standard Slansky, and the equal-pi-i/3 spacing and cusp-shape realization claims are false arithmetic.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

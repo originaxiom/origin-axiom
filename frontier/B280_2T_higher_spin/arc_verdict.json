@@ -1,0 +1,10 @@
+{
+ "id": "B280",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus Higgs from A₄/2T spin-3/2' reading.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

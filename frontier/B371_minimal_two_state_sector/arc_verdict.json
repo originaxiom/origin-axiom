@@ -1,0 +1,10 @@
+{
+ "id": "B371",
+ "verdict": "PROVED",
+ "claim_one_line": "The level-15 quantization's two-dimensional {6,14} sector is exactly Weil-invariant, dihedrally irreducible, helicity-paired, and self-coupled by the seam at the rigid value.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

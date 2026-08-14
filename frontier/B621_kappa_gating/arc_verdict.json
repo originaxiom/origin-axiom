@@ -1,0 +1,10 @@
+{
+ "id": "B621",
+ "verdict": "PROVED",
+ "claim_one_line": "The kappa-gating law: writing t^2-4 = 3^v*m with gcd(m,3)=1, the reflection coset carries the object's field content if and only if m divides kappa, verified with exclusivity controls and zero exceptions for kappa = 4..27.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

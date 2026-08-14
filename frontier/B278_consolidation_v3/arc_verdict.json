@@ -1,0 +1,10 @@
+{
+ "id": "B278",
+ "verdict": "OPEN",
+ "claim_one_line": "Consolidates B274–B277 into the five-wall map v3 and records the previously-invisible input-required walls, settling nothing new; the bridge still rests on the unproven input-E₆=output-E₆ CRUX.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": "B268",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

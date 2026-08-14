@@ -1,0 +1,10 @@
+{
+ "id": "B184",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No gauge group is forced by the collective: interaction of distinct-field units breaks the per-unit inflation symmetry and merely multiplies the SL(2,Z) dualities.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

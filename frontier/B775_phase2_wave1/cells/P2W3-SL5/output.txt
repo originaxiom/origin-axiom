@@ -1,0 +1,14 @@
+=== GATES: epsilon-pinv route reproduces the SL(3)/SL(4) tower ===
+SL(3) VALIDATION (B55 c=3): OK -- max match 4.497e-14; char(M^-1)char(M^2)char(M^3)(t-1)(t+1)
+SL(4) REGRESSION (B59): OK -- max match 2.82e-9; char(M^-1..4)char(-M^2)(t-1)^2(t+1)
+
+=== SL(5): epsilon-pinv spectrum, k=2 block, >=2 seeds ===
+seed 20: 22/24 resolved (worst 1.82e-5); k=2 copies -> near phi^2:1 near 1/phi^2:1; 2 method-limited=['(0.48986764 + 0.51879454j)', '(3.2988131 - 0.7546851j)']; cond(Dx)=[('0.04', '4.36e+5'), ('0.02', '5.74e+6'), ('0.01', '9.09e+7')] [105s]
+seed 22: 22/24 resolved (worst 5.32e-6); k=2 copies -> near phi^2:1 near 1/phi^2:1; 2 method-limited=['(0.23116006 - 0.16884761j)', '(1.5456264 - 2.1800627j)']; cond(Dx)=[('0.04', '7.23e+5'), ('0.02', '1.11e+7'), ('0.01', '1.83e+8')] [108s]
+
+=== VERDICT ===
+verdict : RESOLVED-B
+reason  : epsilon-pinv route reproduces the SL(5) tower to 22/24 including ONE k=2 copy (conditioned), but STALLS on the second char(M^2) copy: the residual 2-dim mode lands off-catalog and SCATTERS across seeds (gauge-dependent).
+wall    : svd_pinv discontinuity at the fixed-line rank-loss, at the doubly-degenerate even-k / Lambda^2=e_2 eigenspace collision (char(M^2) mult-2). Same wall hit independently by B61 (real SVD-pinv), B58-phaseA (exact F_p normal-equation pinv-limit -> a_2=1), and B66. EXTERNAL: the exact second copy needs the symbolic ambient SL(5,C) trace ring (NEEDS-SPECIALIST); recovered structurally by B62's opposition involution theta=-w0, which does NOT pass through the pinv-limit.
+
+wrote <repo>/frontier/B775_phase2_wave1/cells/P2W3-SL5/results.json

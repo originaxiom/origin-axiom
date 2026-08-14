@@ -1,0 +1,10 @@
+{
+ "id": "B254",
+ "verdict": "PROVED",
+ "claim_one_line": "Verified the arithmetic spine 4₁→ℚ(√−3)→2T→E6 and merged it with the forced quantum chain at (G₂)₁=Fibonacci inside (E₆)₁ by exact central charges.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

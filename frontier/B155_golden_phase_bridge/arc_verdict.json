@@ -1,0 +1,10 @@
+{
+ "id": "B155",
+ "verdict": "PROVED",
+ "claim_one_line": "An explicit SL(4,Z) matrix realizes figure-eight monodromy times an order-6 phase, with signature (1,3), discriminant -15 and (Z/2)^2 glue, all exact.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

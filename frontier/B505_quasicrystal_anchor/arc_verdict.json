@@ -1,0 +1,10 @@
+{
+ "id": "B505",
+ "verdict": "PROVED",
+ "claim_one_line": "kappa - 2 = 4*lambda^2 as a POLYNOMIAL IDENTITY in (E,lambda): the programme's kappa-coordinate IS the squared quasiperiodic coupling of the measured Fibonacci Hamiltonian.",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "C",
+ "authored_by": "W1-pilot"
+}

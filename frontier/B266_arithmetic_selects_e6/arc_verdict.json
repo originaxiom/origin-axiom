@@ -1,0 +1,10 @@
+{
+ "id": "B266",
+ "verdict": "PROVED",
+ "claim_one_line": "The trace field's unique ramified prime canonically selects E6: π₁(4₁) surjects onto SL(2,𝔽₃)=2T with McKay E6, and E7 is homeless since 2O is no SL(2,q).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

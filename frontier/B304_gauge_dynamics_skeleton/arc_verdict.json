@@ -1,0 +1,10 @@
+{
+ "id": "B304",
+ "verdict": "PROVED",
+ "claim_one_line": "Extended the forced set from kinematics into gauge dynamics (sin^2 theta_W=3/8, beta-signs, 24=|2T| grading count); refuted Chat-1's saddle-SU(3) claim.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

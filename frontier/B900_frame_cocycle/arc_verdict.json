@@ -1,0 +1,16 @@
+{
+ "id": "B900",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "N7, THE EXACT FRAME 1-COCYCLE: all four Pi-block label cubics (vacuum and octet, c8 and c16 -- each leading with 2197 = 13^3, each with squarefree disc part 77) are irreducible over Q and acquire a LINEAR FACTOR over K = Q[rho]/mu -- every one of the six Pi-blocks is root-indexed by mu's roots, so the Galois S3 acts on the vacuum orbit and the octet orbit by the SAME root permutation: THE COCYCLE IS THE DIAGONAL S3 ACTION (stronger than the sign-equality forced by B888's order-18 fiber product). The 35-digit index maps are vac8 [0,2,1], oct8 [2,0,1], vac16 [2,1,0], oct16 [0,1,2], and B896's puzzling frame-1 float best-fit perms EQUAL the (vac8, oct8) twist maps exactly -- the 'opposite signs' were the relative signs of the two orbits' fixed sorted-order coordinate twists, never a Galois anomaly; frame 2's alignment was already diagonal. B896's 0.99963 trivial fraction stands exact-grade; the banked vacuum_frame_map pattern {0:2, 1:0, 2:1} is now derivable as the inter-orbit twist composition.",
+ "depends_on": [
+  "B866",
+  "B886",
+  "B888",
+  "B889",
+  "B896"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

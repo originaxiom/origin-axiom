@@ -1,0 +1,10 @@
+{
+ "id": "B852",
+ "verdict": "PROVED",
+ "claim_one_line": "B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 1e-9, doubling-map control exact to 1.3e-15), only the parabolic model shows a plateau, and inducing the parabolic point away (Gauss = Farey's jump transformation) destroys the transition -- an independent echo of B737-P2's Dehn-filling argument. NOT preregistered; footing is the exact positive control.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-02)"
+}

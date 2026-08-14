@@ -1,0 +1,63 @@
+{
+ "cell1_gate": {
+  "dim_Z_su3_colour": 16,
+  "expected": 16,
+  "passed": true
+ },
+ "cell2_inner_involutions": {
+  "sign_gradings_tested": 63,
+  "all_fix_the_full_Cartan": true,
+  "fixed_subalgebra_rank": 6,
+  "conclusion": "no inner involution can reduce rank -- form-independent (algebra level)"
+ },
+ "cell3_outer_route": {
+  "diagram_automorphisms": 2,
+  "nontrivial": 1,
+  "order": 2,
+  "swapped_node_pairs": [
+   [
+    0,
+    5
+   ],
+   [
+    2,
+    4
+   ]
+  ],
+  "conclusion": "tau exchanges the fundamental weights of the 27 and 27-bar, so on Fix(tau) they are ISOMORPHIC: the 27 restricts SELF-DUAL. Self-duality is inherited by restriction to ANY subalgebra, so the entire outer route -- F4, C4 and every subalgebra of either -- makes the 27 REAL",
+  "form_independent": true
+ },
+ "cell4_hatch_ranks": {
+  "A4": {
+   "elem_ab_2_rank": 2,
+   "elem_ab_3_rank": 1
+  },
+  "D5": {
+   "elem_ab_2_rank": 1,
+   "elem_ab_3_rank": 0
+  },
+  "S5": {
+   "elem_ab_2_rank": 2,
+   "elem_ab_3_rank": 1
+  },
+  "max_over_hatch": 2
+ },
+ "torality_step": {
+  "theorem": "Steinberg: in a SIMPLY CONNECTED group the centralizer of a semisimple element is connected",
+  "argument": "for commuting involutions x,y: Z(x) is connected, x lies in its centre hence in every maximal torus of Z(x), and y semisimple lies in some maximal torus T of Z(x); so <x,y> is inside T -- TORAL, centralizer contains a torus, rank 6",
+  "breaks_at_rank": 3,
+  "why": "Z(x) need not be simply connected (this is why E8 has non-toral 2^5)",
+  "cited_not_rederived": true,
+  "assumes_simply_connected": true
+ },
+ "verdict": {
+  "outcome": "NO-GO",
+  "scope": "the simply connected form of E6",
+  "routes_closed": [
+   "inner single involutions (rank 6, form-independent)",
+   "the entire OUTER route (rank 4 but the 27 goes REAL, form-independent)",
+   "the surviving hatch A4/D5/S5 (elementary abelian rank <= 2 => toral in the simply connected form => rank 6)"
+  ],
+  "hatch_NOT_closed": "a rank-2 elementary abelian subgroup that is NON-TORAL in the ADJOINT form E6/Z3"
+ }
+}

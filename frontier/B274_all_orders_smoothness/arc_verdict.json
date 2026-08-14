@@ -1,0 +1,10 @@
+{
+ "id": "B274",
+ "verdict": "PROVED",
+ "claim_one_line": "ρ_prin is a smooth point of the figure-eight's E6 character variety of dimension 6=rank, making the {4,8} E6-irreducible flat connections exist unconditionally.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B273",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

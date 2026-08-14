@@ -357,13 +357,22 @@ prior quantum-consciousness pointer. Genuine hooks:
 
 ## H128–H131 — the July-14 data scan (seat-reported; routed here per the dual protocol; B579)
 
-- **H128** [NOTICED, seat-computed]: α_s(M_Z) = 1/(2φ³) = 0.118034 vs 0.1180±0.0009 (0.04σ). Five
+> **LIFECYCLE CORRECTED 2026-07-30 (B811).** These rows read `[NOTICED]` while carrying B580
+> Round-1 **KILL** verdicts beneath them. `METHOD.md` allows a CHECK to flag or park, **never to
+> kill** — killing requires the full promotion gate. B811 ran that gate under a sealed prereg
+> (`6fa4c2c6fa027b44`). H128 and H129 are now **legally killed**; **H130 PROMOTED** at `N_hit = 1`,
+> refuting cc's pre-stated expectation — though B811 also found its own φ-family null
+> **inapplicable to a rational target**, so the promotion is a decision to run the *correct* null,
+> not evidence for the coincidence. B580's information-free-channel finding and B686's
+> parametrisation finding stand untouched.
+
+- **H128** [KILLED via the full promotion gate — B811, legal; tombstone + residual-hint]: α_s(M_Z) = 1/(2φ³) = 0.118034 vs 0.1180±0.0009 (0.04σ). Five
   derivation attempts FAILED (the seat's own honest verdict: observed coincidence). The one
   structural thread: φ³ = the 3/2-law first step; 2 = #θ-odd directions. **Gate: a derivation, or it stays a coincidence. Cross-ref: the B533 door.** **B580 ROUND-1 VERDICT (2026-07-14): KILLED IN THE CHORD CHANNEL — checked blind against every unforced number of the traverse (state components, six torsions + factorizations, prefactors, sine kernel, closure dims): no golden quantity appears anywhere; the one structural thread (2 = #θ-odd) reappears as G1's two dial slots but yields no coupling-shaped number. The ledger row stands as a recorded coincidence.**
-- **H129** [NOTICED, seat-computed]: sin²θ₁₃ = 1/φ⁸ (0.7σ, Daya Bay final); the post-hoc φ-power
+- **H129** [KILLED via the full promotion gate — B811, legal; tombstone + residual-hint]: sin²θ₁₃ = 1/φ⁸ (0.7σ, Daya Bay final); the post-hoc φ-power
   mass-ratio table (cherry-pick caveat adopted verbatim: exponents chosen per quantity; null
   model 1.7% for three simultaneous). **B580 ROUND-1: KILLED IN THE CHORD CHANNEL** (no φ-power structure in any computed number). B533 cross-ref as above.
-- **H130** [NOTICED]: Koide Q = 2/3 ↔ h(27) at E₆ level 1 = 2/3 (banked exact). Pure numerical association — no mechanism connects a charged-lepton mass relation to a conformal weight. **B580 ROUND-1: KILLED AS A MECHANISM CANDIDATE — h(27) = 2/3 enters only as listener convention (an input), and the sector carrying it is PROVEN information-free (the level-1 chord is identical for 4₁, 5₂, and the unknot). Any bridge through it routes through a channel carrying zero object information.**
+- **H130** [PROMOTED — B811; a decision to run the correctly-specified null, NOT a claim]: Koide Q = 2/3 ↔ h(27) at E₆ level 1 = 2/3 (banked exact). Pure numerical association — no mechanism connects a charged-lepton mass relation to a conformal weight. **B580 ROUND-1: KILLED AS A MECHANISM CANDIDATE — h(27) = 2/3 enters only as listener convention (an input), and the sector carrying it is PROVEN information-free (the level-1 chord is identical for 4₁, 5₂, and the unknot). Any bridge through it routes through a channel carrying zero object information.**
 - **H131** [NULL, seat-computed — the scan's valuable row]: **no log-periodic golden-ratio
   modulation in Planck 2018 TT residuals** vs proper ΛCDM (SNR −0.7; template fit −0.3σ; the
   initial 7× excess was a Gaussian-smoothing artifact, honestly killed). Consistent with every
@@ -524,3 +533,111 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   E20-flagged: golden quantities are ubiquitous; NO mechanism links the word's Markov
   spectrum to the weld. A derivation connecting them would promote this; until then it
   is a numerical hint beside H-ITERATED-HEARING.
+
+- H-B787-INTERACTION (B787, 2026-07-25): the interaction programme's base-rate + adversarial-
+  verify survivors. NONE is a claim; the campaign is 1 structural HIT / 6 door-MISSes, nothing
+  to CLAIMS, JUNO pin untouched. Four staged hints:
+  (1) H-B787-IOTA (type MATH; the Phase-1 HIT): ι = inversion (g→g⁻¹) is a genuinely
+      independent 4th involution on the SL(3) figure-eight character variety — it FLIPS T7
+      (time; monodromy inverts the loxodromic spectrum {φ²,φ⁻²}) but FIXES T3 (basepoint;
+      A₅ is ambivalent — g∼g⁻¹ via the EVEN element (1 4)(2 3), so inversion cannot realize
+      the Out(A₅)/γ₅ 5A–5B swap). Since B766 welded T7=T3 as one choice, ι lies outside
+      ⟨c,θ,γ₅⟩ and raises the 𝔽₂-rank 3→4, forced by exact identities. EXTENDS (does not
+      contradict) B766's banked rank-3 observer menu: ι is a character-variety-native symmetry
+      whose status AS an observer/measurement closing operation is UNESTABLISHED — so "the
+      measurement torsor is rank 4" is the overreach to avoid; the cleared content is "a 4th
+      involution independent of B766's set {c,θ,γ₅,γ₃}." Proven-theorem-grade → lock-eligible
+      with a compute test (not yet written). Arms the Phase-3 relabel trigger (ι≠θ), which was
+      NOT propagated to B759/B769/Wave-5. Sharpens B786 (unconditional here; B786 was
+      conditional on a corrected intertwiner S).
+  (2) H-B787-D2-FLOOR (type MATH): the diagonal Fibonacci-R self-overlap Born
+      \|⟨ψ\|R\|ψ⟩\|² is EXACTLY V₄-invariant (c only conjugates, θ only relabels the two fusion
+      channels) with achievable floor sin²36° = (5−√5)/8 = 0.34549, below which BOTH JUNO
+      (0.30902) and the theorem \|S_ττ\|² = 1/(φ√5) = 0.27639 lie — a structural
+      unreachability, not a near-miss. (The braid matrix B=FRF gives real transition Born
+      1/φ², 1/φ, none = JUNO.)
+  (3) H-B787-D4-TAU (type MATH): the E₆→F₄ folding τ (the unique nontrivial Aut(E₆ Dynkin)=
+      ℤ/2 element) splits the exponents into τ-even {1,5,7,11} (F₄ degrees 2,6,8,12) / τ-odd
+      {4,8} (E₆-only degrees 5,9), forced by dim h^τ=4 / dim h^{−τ}=2; torsion identity
+      U_m(3/2)=F_{2m+2}. Exact but standard, and NOT c/θ-distinguished (τ is a V₄-coset,
+      neither c nor θ) — hence the D4 door MISS.
+  (4) H-B787-D1-INNER (type MATH): σ_mirror = a⁻¹·σ·a exactly — the Fibonacci substitution's
+      mirror is inner conjugation by generator a; every Fox observable is a signed sum of
+      prefix group-elements, so it lives in the trace ring. Demotes the hoped θ-content to a
+      trace-trivial gauge (explains the 0/9 whole-image trace non-separation).
+  (5) H-B788-NORMSPLIT (type MATH, OBSERVATION on truncated data): at cutoff Re(ℓ)≤5 the
+      geodesic trace-norms N(a+bω)=a²−ab+b² present for m004 but NOT m003 are {4,16,48,64,
+      112,144} — every one ≡0 (mod 4); those for m003 but not m004 are {1,9,13,21,25,37,49,
+      57,61,73,81,93,97,109,117,121,129,133} — every one ODD. Min trace-norm: m004=3 (the
+      ramified prime), m003=1 (a unit). NOT a law: one cutoff, unproved, stability unchecked.
+      Cheap in-sandbox follow-up registered (raise the cutoff; test completeness as a
+      commensurability invariant).
+  (6) H-B788-BKL (type HOOK): JHEP 11 (2025) 160 / arXiv:2507.08788 identifies the 5D BKL
+      billiard with PSL(2,O) for Gaussian OR Eisenstein integers — so the handoff's "the knot
+      and quantum cosmology share the same arithmetic group" OVERSTATES specificity (d=3 is
+      one of two). The paper is formal; no eigenvalue tables, no citation to the 1996 d=3 data.
+  (7) H-B788-NORMSPLIT — **RETRACTED 2026-07-28; RETRACTION AMENDED 2026-08-06 (B920):
+      the hint SURVIVES AT THE NORM LEVEL — its own level.** The 2026-07-28 retraction
+      ("REFUTED by B794's law") holds only for the TRACE-level reading. The cc3 level
+      reconciliation (rerun in-sandbox, B920): at cutoff 6 the TRACE-level m004-exclusives
+      are 139 traces / 37 distinct norms / exactly ONE odd (7, via traces 3+ω and 2−ω);
+      the NORM-level m004-exclusives are {4,16,48,64,112,144,192,208,256,304,336,400} —
+      12 distinct, ZERO odd, all ≡0 mod 4 (exactly the hint's statement); the odd norms
+      103/127/175/367 are SHARED (norm 7 enters m003 via the different traces 1+3ω, 2+3ω).
+      Both seats were right about different objects. B794's theorem N(tr γ) ≡ 0 or 3
+      (mod 4) supplies the hint's mechanism (every m004 norm avoids 1 mod 4; the odd
+      class 3 is m003-shared). Reconciling artifact:
+      frontier/B794_congruence_level4/trace_norm_split.{py,json,txt}.
+  (8) H-B794-A5 (type HOOK): the mod-2 image of Γ₄₁ is D₅ inside PSL(2,𝔽₄) ≅ A₅, and A₅
+      also carries B787's 5A/5B ambivalence argument. Two appearances of the smallest
+      simple group is suggestive and NOT thereby a connection. Open cell: same A₅ or not?
+  (9) H-B914-DEEP (type HOOK, fenced): √T ≈ 2.185×10⁻¹⁶ sits in the same regime as
+      M_Z/M_Pl ≈ 7.5×10⁻¹⁸ (ratio ~29). Registered as observation ONLY at the R4b design
+      notes; any use must pass an R4-style seal. Not numerology until someone computes a
+      mechanism; not physics until a sealed comparison says so.
+  (10) H-B917-SPLIT (type PATTERN, fenced by the solo seat, adopted): in K's arithmetic
+      biography the STRUCTURE primes (13, 17, 19) are inert while the VALUE primes
+      (953, 1129, 421493) are partially split [1,2], each with a unique degree-one place.
+      RESOLVED YES (B918, 2026-08-05): den(V) = (deg-1 place over 953)^4 exactly — the observer's-place theorem; promoted to LAW_MAP §F.
+  (11) H-B918-RES (type HOOK): the V-residues at the unit places — 617 in F_1129 and
+      107540 | 39306+166513y in F_421493 — and the 953-unit part at the observer's place
+      were computed exactly but carry no interpretation yet. If the residues are themselves
+      structured (e.g. images of banked constants), the biography deepens; unexplored.
+  (12) H-B929-SHAPE (type HINT, sealed-cell output, fenced): the twist's register-family
+      flip-sheet, computed blind, is a mixing-SHAPED accelerating cascade (T1 PASS, a = 1.84
+      in the declared band) while its magnitudes are NOT CKM's (T2 MISS, factors 5-9). If the
+      twist speaks to measured mixing, the map is nontrivial. Weighted down by design (two
+      priced bits, broad band). Any follow-up reading needs its own seal + the owner's word,
+      citing B929.
+
+  (m003 mod-4, AMENDED 2026-08-06 via cc3 D5; L109 closes):
+> **m003/m004 trace-norm split — cutoff-6 form (the registered
+> follow-up, executed).** At cutoff 6.0 (m004: 370 distinct canonical
+> traces / 7513 geodesics; m003: 411 / 7413; all traces in Z[ω] to
+> ≤ 2.4e−10):
+> - TRACE-level exclusives: m004-only norms ∈ {0, 3} mod 4 (one odd:
+>   7, via 3+ω and 2−ω); **m003-only norms ≡ 1 mod 4 EXACTLY** (43
+>   distinct norms, single class — sharper than the cutoff-5 "odd").
+> - NORM-level exclusives: m004-only ≡ 0 mod 4 (12 distinct, zero
+>   odd) — H-B788-NORMSPLIT's statement, at its own level.
+> - The m004 side is THEOREM (B794: all m004 norms avoid 1 mod 4).
+>   The m003 side (≡ 1 mod 4 exactly) is OBSERVATIONAL at two
+>   cutoffs — m003's holonomy is not ⟨A,B⟩, so B794's method does
+>   not transfer directly; the congruence computation for m003's
+>   holonomy is the remaining (cheap, in-sandbox) step, registered
+>   as L109.
+> Reading: for ODD traces the mod-4 norm class alone separates the
+> sisters (m004 → 3, m003 → 1); combined with B794 this is a mod-4
+> congruence discriminator consistent with the level-(4) cusp
+> structure (B737: O/Λ ≅ Z/4, disc −48).
+  (13) H-B931-SONG (type PATTERN, from a listening session): the flip-mass level table —
+      953² in unison at m = ½ (both families); the resolvent primes SPLIT BY SIGN at the
+      unit levels (11 at m = +1, 7² at m = −1, both families); private prime names at the
+      zeros; poles on {2,3}. Open: WHY the sign of full flip separates 7 from 11 — the
+      resolvent's factorization heard as an orientation. No cell designed yet; listen more
+      before asking.
+  (14) H-B930-FIVE (type PATTERN, fenced; B937 partially resolved): the S–A mixing
+      overlap² minpoly closes with 5¹² — but B937 decided the GOLDEN FIELD DOES NOT
+      ENTER (5 is a residue characteristic, four independent ways). What remains open is
+      the EXPONENT: is 12 structural (the floor dimension? the D-flip count?) or
+      incidental? Registered, not designed.

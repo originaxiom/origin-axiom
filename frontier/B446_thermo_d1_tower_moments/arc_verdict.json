@@ -1,0 +1,10 @@
+{
+ "id": "B446",
+ "verdict": "PROVED",
+ "claim_one_line": "Derived and out-of-sample verified the fixed-cofactor tower moment law N*Var = S5(m)*C3 (golden 3/8, silver 5/8); every channel launders to banked arithmetic.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

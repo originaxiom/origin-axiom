@@ -1,0 +1,10 @@
+{
+ "id": "B438",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The missing foreign control shows 4₁ and 5₂ share both the −283 exit field and the torsion value 121: nothing about the child is figure-eight-unique.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B436",
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

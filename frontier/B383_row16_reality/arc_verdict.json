@@ -1,0 +1,10 @@
+{
+ "id": "B383",
+ "verdict": "PROVED",
+ "claim_one_line": "T1 proved by finite exact verification at level 15: t(16,b) lies in Q(sqrt5) for all b in Z_12 (the sqrt-3 and sqrt-15 components vanish across row 16), with the mechanism a zero of the anti-table's zeta_5-spectrum at the 16-exponent.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

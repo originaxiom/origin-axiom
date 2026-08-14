@@ -1,0 +1,10 @@
+{
+ "id": "B322",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Null test showed the figure-eight's 6241 filling-invariant ratios match 12 SM parameters at chance level (8/12 vs null 7.6), so the invariants encode no SM values.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B817",
+ "verdict": "PROVED",
+ "claim_one_line": "Wave 2's 12 readers reach Fleiss kappa = 0.9312, establishing that wave 1's per-slice PROVED-rate spread was genuine era-difference and not reader bias, while its calibration block exercised only 2 of the 4 verdict categories.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

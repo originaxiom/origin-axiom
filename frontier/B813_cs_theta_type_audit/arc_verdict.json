@@ -1,0 +1,10 @@
+{
+ "id": "B813",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The direct CS(m004)=θ_QCD dictionary is refuted on type: a fixed PSL(2,ℂ) geometric invariant cannot fill the coefficient slot of e^{iθW(A)}, whose functional slot a Chern–Simons object already occupies.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

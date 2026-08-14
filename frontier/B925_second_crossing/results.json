@@ -1,0 +1,384 @@
+{
+ "cell": "B925 R4b second crossing",
+ "sealed_prereg": "PREREGISTRATION.md",
+ "checks": {
+  "su3c_in_su4_block_commutes_with_su2L_all_24_pairs": {
+   "pass": true,
+   "detail": ""
+  },
+  "su3c_commutes_with_BL": {
+   "pass": true,
+   "detail": ""
+  },
+  "Y_in_so10_Cartan_exact_Y_eq_sum_Yk_Hk": {
+   "pass": true,
+   "detail": "Y = -2/3(H1+H2+H3) + H4 + H5 -> the E6/so(10) u(1)_X carries NO piece of Y"
+  },
+  "C(su3c, su4=so6)_dim_1_the_BL_line": {
+   "pass": true,
+   "detail": "nullity mod p = [1, 1]; 1 exact commuting, independent members (lower bound meets upper => dim = 1)"
+  },
+  "C(su3c, so8)_dim_2": {
+   "pass": true,
+   "detail": "nullity mod p = [2, 2]; 2 exact commuting, independent members (lower bound meets upper => dim = 2)"
+  },
+  "C(su3c_so8)_is_ABELIAN": {
+   "pass": true,
+   "detail": "no su(2) fits: su(2)_L has NO home in so(8)+u(1)^2 above the banked su(3)_c"
+  },
+  "C(so6, so8)_dim_1": {
+   "pass": true,
+   "detail": "nullity mod p = [1, 1]; 1 exact commuting, independent members (lower bound meets upper => dim = 1)"
+  },
+  "C(so8, so10)_dim_1": {
+   "pass": true,
+   "detail": "nullity mod p = [1, 1]; 1 exact commuting, independent members (lower bound meets upper => dim = 1)"
+  },
+  "C(su3c, so10)_dim_7_contains_su2L": {
+   "pass": true,
+   "detail": "nullity mod p = [7, 7]; 7 exact commuting, independent members (lower bound meets upper => dim = 7)"
+  },
+  "su2L_inside_C(su3c_so10)": {
+   "pass": true,
+   "detail": "the D5 stage so(10)+u(1) is the FIRST rung that can hold the unbroken SM"
+  },
+  "Tr27_T3sq_eq_3": {
+   "pass": true,
+   "detail": "3"
+  },
+  "Tr27_YhalfSq_eq_5": {
+   "pass": true,
+   "detail": "5"
+  },
+  "Tr27_T3Y_eq_0": {
+   "pass": true,
+   "detail": ""
+  },
+  "sin2thetaW_MU_eq_3_8_banked_boundary": {
+   "pass": true,
+   "detail": "3/8"
+  },
+  "GUT_norm_g1sq_eq_5_3_gprimesq_derived": {
+   "pass": true,
+   "detail": ""
+  },
+  "embedding_index_su3c_in_so10_eq_1": {
+   "pass": true,
+   "detail": "Tr27 t3c^2 = 3 = Tr27 h_norm^2 = 3"
+  },
+  "embedding_index_su2L_in_so10_eq_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "embedding_index_u1Y_GUT_in_so10_eq_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "embedding_index_su3c_in_su4_eq_1_computed": {
+   "pass": true,
+   "detail": "Tr_4(t3^2) = 1/2 = T(4) = 1/2 -> index 1; B-L raw Tr_4 = 3 -> normalized t_BL has Tr_4 = 1/2: index 1 (the D3-stage record; window closed below)"
+  },
+  "so10_indices_T16_2_T10_1_C2G_8": {
+   "pass": true,
+   "detail": "T(16)=2, T(10)=1, C2(adj)=8"
+  },
+  "X_pattern_1_m2_4_traceless_and_cubic_invariant": {
+   "pass": true,
+   "detail": ""
+  },
+  "X_GUT_normalization_TrX2_eq_3": {
+   "pass": true,
+   "detail": "X_N = X/(2*sqrt(6))"
+  },
+  "Tr27_YX_eq_0_Y_orthogonal_X": {
+   "pass": true,
+   "detail": "Tr16(Y) = 0 (computed); Tr10(Y) = 0 (conjugation) => Tr27(YX) = 0"
+  },
+  "beta_ladder_b_so10_m67_3__bX_7": {
+   "pass": true,
+   "detail": "b_so10 = -67/3, b_X = 7; closed-window records: b_so8 = -15, b_su4 = -23/3, each normalized u(1): 7"
+  },
+  "PART0_gate_B915_reproduced_d_and_triangle": {
+   "pass": true,
+   "detail": "d_min = 15.973772 (banked 15.973772); triangle 2-loop = 1.0874e+13/1.7195e+14/2.9140e+16"
+  },
+  "M5_exact_solution_set_EMPTY": {
+   "pass": true,
+   "detail": "every branch leaves the third coupling > 3 sigma away: no single M5 exists"
+  }
+ },
+ "notes": [],
+ "algebra": {
+  "chain_typings_used": "D3 = su(4)+u(1)^3 (18), D4 = so(8)+u(1)^2 (30), D5 = so(10)+u(1) (46) -- banked B909",
+  "obstruction": "C(su3c, su4) = u(1)_{B-L} (dim 1); C(su3c, so8) = u(1)^2 abelian (dim 2) => no su(2)_L above M3 or M4: the D3/D4 windows are FORCED CLOSED (M3 = M4 = M5); first SM-compatible rung = D5 (C(su3c, so10) = 7, contains su(2)_L)",
+  "Y_decomposition": "Y = -2/3(H1+H2+H3) + H4 + H5 in the so(10) Cartan; c_X = 0 exactly",
+  "matching_at_M5": "index-1 chain: 1/alpha_i(M5) = 1/alpha_10(M5) for i = 1,2,3 (THREE conditions)",
+  "embedding_indices": {
+   "su3c_in_so10": 1,
+   "su2L_in_so10": 1,
+   "u1Y_GUT_in_so10": 1,
+   "su3c_in_su4": 1,
+   "BL_in_su4_index": 1
+  },
+  "sin2thetaW_MU": "3/8 exact (Tr identities recomputed on the 27)",
+  "beta_ladder_one_loop": {
+   "SM": [
+    "41/10",
+    "-19/6",
+    "-7"
+   ],
+   "so10_stage": {
+    "b_so10": "-67/3",
+    "b_X": "7"
+   },
+   "closed_window_records": {
+    "b_so8": "-15",
+    "b_su4": "-23/3",
+    "u1_normalized_each": "7"
+   }
+  },
+  "branchings_27": {
+   "D5": "16 + 10 + 1",
+   "D4_record": "8v + 8s + 8c + 3x1",
+   "D3_record": "6 + 2x(4+4bar) + 5x1"
+  }
+ },
+ "part0": {
+  "d_min_sigma": 15.97377227124076,
+  "banked_d": 15.97377227124076,
+  "triangle_2loop_GeV": {
+   "g1=g2": 10873671676836.49,
+   "g1=g3": 171954461565153.3,
+   "g2=g3": 2.9140267474571724e+16
+  },
+  "triangle_1loop_GeV": {
+   "g1=g2": 10308931063427.451,
+   "g1=g3": 243010379956056.9,
+   "g2=g3": 9.710443784395862e+16
+  }
+ },
+ "part1": {
+  "M3_M4": "FORCED equal to M5 (su(2)_L obstruction; Part A certificates): rho1 = rho2 = 1 exact",
+  "M5_branches": {
+   "g1=g2": {
+    "M5_2loop_GeV": 10873671676836.49,
+    "M5_1loop_GeV": 10308931063427.451,
+    "sigma_lnM5_th": 0.05333381179196546,
+    "third_coupling_gap_inv_alpha": -4.909770293815946,
+    "gap_sigma_th": 0.6729137489425696,
+    "gap_sigma_exp": 0.06197395533982302,
+    "gap_distance_sigma": 7.265536531697831
+   },
+   "g1=g3": {
+    "M5_2loop_GeV": 171954461565153.3,
+    "M5_1loop_GeV": 243010379956056.9,
+    "sigma_lnM5_th": 0.34587447488015477,
+    "third_coupling_gap_inv_alpha": 3.190205147196899,
+    "gap_sigma_th": 0.4645249468612249,
+    "gap_sigma_exp": 0.00819749346194452,
+    "gap_distance_sigma": 6.866603270014932
+   },
+   "g2=g3": {
+    "M5_2loop_GeV": 2.9140267474571724e+16,
+    "M5_1loop_GeV": 9.710443784395862e+16,
+    "sigma_lnM5_th": 1.203666098430304,
+    "third_coupling_gap_inv_alpha": -9.122061614050956,
+    "gap_sigma_th": 1.4607655278738747,
+    "gap_sigma_exp": 0.008198608574290965,
+    "gap_distance_sigma": 6.2446147366061435
+   }
+  },
+  "M5_exact": "EMPTY (over-determined: 3 matching conditions, 1 unknown; the banked triangle)",
+  "MU": {
+   "status": "UNCONSTRAINED (under-determined)",
+   "reason": "Y lies inside so(10) (c_X = 0): the E6 rung is invisible to the SM matching; 1/alpha_X(M5) = 1/alpha_10(M5) + (88/3)/(2pi) ln(MU/M5) > 0 for all MU > M5 -- every MU in (M5, M_Pl] admits a solution",
+   "d_invalphaX_dlnMU": 4.668544997362263
+  },
+  "solution_set": "as posed: EMPTY at exact tier; near-solution structure = three pairwise branches x (MU free): rho3 has NO required value"
+ },
+ "menu": {
+  "(a) scale S0": "1.6803202716718931118",
+  "(a) scale S1": "19.142020743905498524",
+  "(a) scale S2": "1.0",
+  "(a) scale A0": "53.078638438636745052",
+  "(a) scale A1": "0.78626003406867602279",
+  "(a) scale A2": "3.0889357198937381812",
+  "(b) colored r1/r2": "2.6587692450919139791",
+  "(b) colored r1/r3": "4.1346498866254121804",
+  "(b) colored r2/r3": "1.5550991851805013738",
+  "(c) sqrtT": "2.1853561103060783735e-16",
+  "(c) T": "4.7757813288521125874e-32",
+  "(d) mu |r1/r2|": "2.9334827566492669946",
+  "(d) mu |r1/r3|": "14.276569331100001945",
+  "(d) mu |r2/r3|": "4.8667643601243560455",
+  "(d) kappa |r1/r2|": "1.2395987286085639209",
+  "(d) kappa |r1/r3|": "41.658513729729790045",
+  "(d) kappa |r2/r3|": "33.606450836304921213",
+  "(e) 13/19": "0.68421052631578947368",
+  "(e) 13^3/19^3": "0.32030908295669922729",
+  "(e) 953/2304": "0.41362847222222222222",
+  "(e) N(d)=(953/2304)^2": "0.17108851303288966049",
+  "(f) lambda": "2.4176285414480587618",
+  "(f) lambda^2": "5.8449277644242679824",
+  "(f) lambda^3": "14.130864185974305804",
+  "(f) lambda^-1": "0.41362847222222222222",
+  "(f) lambda^-2": "0.17108851303288966049",
+  "(f) lambda^-3": "0.070767080260565905578",
+  "(f) 3!": "6.0",
+  "(f) 2": "2.0",
+  "(f) 3": "3.0",
+  "(f) 6": "6.0",
+  "(f) 27": "27.0",
+  "(a) scale S0 (recip)": "0.59512464192615804755",
+  "(a) scale S1 (recip)": "0.052241088512997426934",
+  "(a) scale A0 (recip)": "0.018839970832260174371",
+  "(a) scale A1 (recip)": "1.2718438642051782347",
+  "(a) scale A2 (recip)": "0.32373609899347493922",
+  "(b) colored r1/r2 (recip)": "0.37611387368271964395",
+  "(b) colored r1/r3 (recip)": "0.24185844688682276045",
+  "(b) colored r2/r3 (recip)": "0.64304580024838052347",
+  "(d) mu |r1/r2| (recip)": "0.34089172596406776137",
+  "(d) mu |r1/r3| (recip)": "0.070044838981141314635",
+  "(d) mu |r2/r3| (recip)": "0.20547532734345245777",
+  "(d) kappa |r1/r2| (recip)": "0.8067126699318973281",
+  "(d) kappa |r1/r3| (recip)": "0.02400469701074201785",
+  "(d) kappa |r2/r3| (recip)": "0.029756191895149600196"
+ },
+ "part2": {
+  "rho1_required": "1 (exact, forced: M3 = M4)",
+  "rho2_required": "1 (exact, forced: M4 = M5)",
+  "rho1_rho2_menu_note": "products of two menu entries equal to 1 exist (e.g. (a) scale S2; also (e) 953/2304 x (f) lambda): formally inside the sealed <=2-product criterion, but they certify DEGENERATE (absent) rungs, not object-owned scales",
+  "rho3_required": "NONE -- M5 has no exact value (empty solution set) and MU is unconstrained: the ladder does not DEMAND a third ratio",
+  "MU_over_MPl": "unconstrained; recorded as the free interval (M5/M_Pl, 1], M_Pl = 1.22e19 GeV",
+  "sealed_verdict": "OUTCOME B"
+ },
+ "transparency_near_misses": {
+  "triangle g1=g2/g1=g3": {
+   "value": 0.06323576357288334,
+   "sigma_ln": 0.3499623520521652,
+   "nearest": [
+    {
+     "entry": "(b) colored r1/r2 x (d) kappa |r1/r3| (recip)",
+     "abs_ln_distance": 0.009242825463712709,
+     "distance_sigma": 0.026410913658321104
+    },
+    {
+     "entry": "(e) N(d)=(953/2304)^2 x (b) colored r1/r2 (recip)",
+     "abs_ln_distance": 0.017447696333140406,
+     "distance_sigma": 0.04985592373244669
+    },
+    {
+     "entry": "(f) lambda^-2 x (b) colored r1/r2 (recip)",
+     "abs_ln_distance": 0.017447696333140406,
+     "distance_sigma": 0.04985592373244669
+    }
+   ]
+  },
+  "triangle g1=g2/g2=g3": {
+   "value": 0.00037314934347548577,
+   "sigma_ln": 1.2048471156087361,
+   "nearest": [
+    {
+     "entry": "(a) scale A0 (recip) x (a) scale A0 (recip)",
+     "abs_ln_distance": 0.0500172822330475,
+     "distance_sigma": 0.04151338504701221
+    },
+    {
+     "entry": "(a) scale A0 (recip) x (d) kappa |r1/r3| (recip)",
+     "abs_ln_distance": 0.1922515167818512,
+     "distance_sigma": 0.15956507202552267
+    },
+    {
+     "entry": "(a) scale A0 (recip) x (d) kappa |r2/r3| (recip)",
+     "abs_ln_distance": 0.40703923806625336,
+     "distance_sigma": 0.3378347616001065
+    }
+   ]
+  },
+  "triangle g1=g3/g2=g3": {
+   "value": 0.005900922553823625,
+   "sigma_ln": 1.2523742367535564,
+   "nearest": [
+    {
+     "entry": "(b) colored r1/r3 (recip) x (d) kappa |r1/r3| (recip)",
+     "abs_ln_distance": 0.016261837945998243,
+     "distance_sigma": 0.012984807151696674
+    },
+    {
+     "entry": "(e) 13^3/19^3 x (a) scale A0 (recip)",
+     "abs_ln_distance": 0.022403152108003442,
+     "distance_sigma": 0.017888544374784963
+    },
+    {
+     "entry": "(a) scale A0 (recip) x (a) scale A2 (recip)",
+     "abs_ln_distance": 0.03304541286059336,
+     "distance_sigma": 0.026386212595888834
+    }
+   ]
+  },
+  "g1=g2 / M_Pl": {
+   "value": 8.912845636751222e-07,
+   "sigma_ln": 0.05333381179196546,
+   "nearest": [
+    {
+     "entry": "(a) scale A0 (recip) x (a) scale A0 (recip)",
+     "abs_ln_distance": 5.987052968814441,
+     "distance_sigma": 112.25623610342377
+    },
+    {
+     "entry": "(a) scale A0 (recip) x (d) kappa |r1/r3| (recip)",
+     "abs_ln_distance": 6.22932176782934,
+     "distance_sigma": 116.79873533374122
+    },
+    {
+     "entry": "(a) scale A0 (recip) x (d) kappa |r2/r3| (recip)",
+     "abs_ln_distance": 6.4441094891137425,
+     "distance_sigma": 120.82596897911061
+    }
+   ]
+  },
+  "g1=g3 / M_Pl": {
+   "value": 1.4094627997143714e-05,
+   "sigma_ln": 0.34587447488015477,
+   "nearest": [
+    {
+     "entry": "(a) scale A0 (recip) x (a) scale A0 (recip)",
+     "abs_ln_distance": 3.2261677102535655,
+     "distance_sigma": 9.327568076168182
+    },
+    {
+     "entry": "(a) scale A0 (recip) x (d) kappa |r1/r3| (recip)",
+     "abs_ln_distance": 3.468436509268464,
+     "distance_sigma": 10.028021034134635
+    },
+    {
+     "entry": "(a) scale A0 (recip) x (d) kappa |r2/r3| (recip)",
+     "abs_ln_distance": 3.683224230552866,
+     "distance_sigma": 10.649020086923443
+    }
+   ]
+  },
+  "g2=g3 / M_Pl": {
+   "value": 0.002388546514309158,
+   "sigma_ln": 1.203666098430304,
+   "nearest": [
+    {
+     "entry": "(f) lambda^-3 x (d) kappa |r2/r3| (recip)",
+     "abs_ln_distance": 0.12600914115458756,
+     "distance_sigma": 0.1046877878498992
+    },
+    {
+     "entry": "(a) scale S1 (recip) x (a) scale S1 (recip)",
+     "abs_ln_distance": 0.13329833613047837,
+     "distance_sigma": 0.11074361594491378
+    },
+    {
+     "entry": "(d) mu |r1/r3| (recip) x (d) kappa |r2/r3| (recip)",
+     "abs_ln_distance": 0.13626747179816553,
+     "distance_sigma": 0.11321035956389515
+    }
+   ]
+  }
+ },
+ "sealed_verdict": "OUTCOME B"
+}

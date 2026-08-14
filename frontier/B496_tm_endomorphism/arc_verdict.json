@@ -1,0 +1,10 @@
+{
+ "id": "B496",
+ "verdict": "PROVED",
+ "claim_one_line": "The Thue-Morse trace map (z, z, xyz - x^2 - y^2 + 2) and its exact kappa-factorization kappa' - 2 = (kappa-2)(x^2+y^2-xyz) verified, with degree growth 2.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

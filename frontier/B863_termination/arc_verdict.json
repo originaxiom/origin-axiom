@@ -1,0 +1,14 @@
+{
+ "id": "B863",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE TERMINATION THEOREM: the fused cascade halts at the SM because the SM is the TERMINAL registerable algebra -- every proper descent kills registerability (su(2)->u(1) makes the colour content vector-like {3:2,3bar:2}; su(3)->su(2)xu(1) leaves only pseudoreal reps; the GENUINE conformal embedding su(2)_4 in su(3)_1 at c=2 branches the 3 to the REAL triplet and dies too; abelianization leaves dial only) while the SM itself stays chiral (positive control). The halt is principled: the (3,2) is the last unpaired complex structure -- and the kind-check from physics is that QCD+QED, what survives EW breaking, is vector-like. Answers the completeness critic's G1 before the referee can fire it. Menu import (P5) stated, not hidden.",
+ "depends_on": [
+  "B861",
+  "B860",
+  "B862"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

@@ -53,7 +53,7 @@ from collections import defaultdict
 import sympy as sp
 
 T0 = time.time()
-CELL = "/Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W4-084r"
+CELL = "<repo>/frontier/B771_phase1_wave1/cells/W4-084r"
 DMAX = 4                         # max collar depth to search before declaring non-forcing
 FAILED = []
 

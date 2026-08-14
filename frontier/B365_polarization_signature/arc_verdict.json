@@ -1,0 +1,10 @@
+{
+ "id": "B365",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "S-closure fails for both polarizations (metaplectic level-30 doubling), refuting the pre-registered prediction; only a half-period vanishing signature survives as a discriminator.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

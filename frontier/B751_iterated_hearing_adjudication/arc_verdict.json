@@ -1,0 +1,10 @@
+{
+ "id": "B751",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The 1/(2phi^3) = alpha_s identification is NOT EARNED: the per-letter assignment is constructed and drops a 0.4253 imaginary part, the target is scale-knob-dependent, and the hits are null-consistent; only the arithmetic is true.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

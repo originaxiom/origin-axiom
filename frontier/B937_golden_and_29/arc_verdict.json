@@ -1,0 +1,9 @@
+{
+ "id": "B937",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE GOLDEN ENTRY + THE 29 WHITELIST (118 checks, exact tier, no numerics): PART A -- THE GOLDEN FIELD DOES NOT ENTER: 5 is a residue characteristic only, decided four independent ways (the 5^12 in the minpoly is NOT sqrt5); the 953^4 lead IS DERIVED as N(P1^2 P2) -- the mixing element is the only object that sees BOTH places of 953; AND THE ARC'S REAL FIND, THE OBSERVER-PLACE LAW: cross-generation mixing is supported ENTIRELY on the degree-TWO places, while the same-generation element differs from it by exactly q1(5)^6 * P1(953)^-2 -- the OBSERVER'S DEGREE-ONE PLACE ALONE, at 953, with precisely d_S's twist exponent. The full divisor: (W) = q1(5)^6 q2(5)^3 P1(953)^-2 P2(953)^-1. PART B -- 29 IS COINCIDENCE, banked honestly with the whitelist declared and written BEFORE compute under a sealed two-outcome criterion. INSTRUMENT UPGRADE BANKED: K IS MONOGENIC -- K = Q[s]/(s^3 - 12s - 5), disc 6237 = 3^4 7 11, index 1, O_K = Z[s] -- every place of every prime now reachable by Dedekind, closing B931's p = 5 and p = 7 blind spots (sympy's prime_decomp fails there in both of B931's models, and its prime_valuation is unusable at these sizes -- valuations now by ideal-lattice membership).",
+ "depends_on": ["B930", "B931"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent + cc banking (2026-08-07)"
+}

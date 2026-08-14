@@ -1,0 +1,10 @@
+{
+ "id": "B804",
+ "verdict": "PROVED",
+ "claim_one_line": "m004's induced cusp spin structure is the bounding one for every spin structure (Arf = 0 by bordism), so its Dirac spectral type is determined but class-level, and leading-order Dirac counts for m003/m004 agree by identity.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

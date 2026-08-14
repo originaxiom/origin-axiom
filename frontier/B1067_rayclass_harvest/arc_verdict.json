@@ -1,0 +1,7 @@
+{
+ "id": "B1067",
+ "title": "The ray-class harvest: the branch asset double-rebuilt onto main",
+ "verdict": "PROVED",
+ "claim_one_line": "The branch-resident Q(sqrt-3) class-field asset lands on main DOUBLE-REBUILT (22/23 claims re-derived independently on two declared-different routes; the 23rd is a repo-state meta-claim typed by both): the ray-class filtration Cl_n = (O/n)x/im(mu_6) with orders 1/2/8 at levels (2)/(4)/(8); mu_6 injects mod (4) not mod (2); the cusp lattice CM order Z[2 sqrt-3] disc -48 order-conductor 4; h(-48) = 2 with forms (1,0,12),(3,0,4); H_-48(x) = x^2 - 2835810000x + 6549518250000 with j(2 sqrt-3) exact; and the one-object identification ring-class-field(Z[2 sqrt-3]) = ray-class-field mod (4) = K(sqrt3) = Q(zeta_12), the mod-(4) Z/2 swapping the two form classes. Plus the three field censuses (157 facts) whose gap-lists are the biography roadmap \u2014 sharpest find: K CLASS GROUP OPEN (principality of p1(953) undecided).",
+ "instrument": false
+}

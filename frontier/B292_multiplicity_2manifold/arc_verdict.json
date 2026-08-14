@@ -1,0 +1,10 @@
+{
+ "id": "B292",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Of the three multiplicity candidates only the fiber Σ_{1,1} is a surface; the metallic tower and filling family are 3-manifold sequences, and none supplies the N=2→N=1 chiral datum.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

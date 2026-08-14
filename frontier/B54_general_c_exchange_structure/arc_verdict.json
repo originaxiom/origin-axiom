@@ -1,0 +1,10 @@
+{
+ "id": "B54",
+ "verdict": "PROVED",
+ "claim_one_line": "Exchange commutation [J(m,c),P]=0 holds with c symbolic, generalizing the c=3 block-diagonalization to the entire fixed line; records the c=1 Eisenstein/golden twins.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,40 @@
+{
+ "pool": 557,
+ "kill_graph": 217,
+ "sample": 60,
+ "negatives": 12,
+ "p": 0.2,
+ "ci": [
+  0.09878603521911285,
+  0.3012139647808872
+ ],
+ "estimated_unregistered": 111.4,
+ "estimated_total": 328.4,
+ "ci_total": [
+  272.0238216170459,
+  384.7761783829542
+ ],
+ "coverage_pct": 66.07795371498173,
+ "negatives_found": {
+  "B114": "TESTED-NEGATIVE: the covering-degree mechanism is not supported",
+  "B142": "three items, all subtractive/clarifying",
+  "B300": "Column B = two walls",
+  "B308": "a precise negative + a precise location",
+  "B417": "Bar NOT cleared",
+  "B449": "the forcing boundary -- where forcing stops",
+  "B480": "NULL, and the reason is a structural type-mismatch",
+  "B549": "the cosmic-ratio null",
+  "B643": "the flip obstruction (honest negative)",
+  "B695": "phi unreachable => the avatar cannot carry the golden",
+  "B748": "V4-SILENT: the entire forced V4 is empty",
+  "B790": "adjudication receipt: thesis unsupported, plan mis-scoped"
+ },
+ "ambiguous_called_non_negative": [
+  "B244 quantization edge",
+  "B722 'but the ...' truncated limitation",
+  "B739 character-rigidity reads as a no-go but is stated positively",
+  "B772 negatives-adequacy audit found a systematic projection gap",
+  "B760 closure probe"
+ ],
+ "rule": "NEGATIVE = the arc's HEADLINE is that a claim/candidate/mechanism was killed, refuted, found null, or shown not to hold; ambiguous -> NON-negative (conservative)"
+}

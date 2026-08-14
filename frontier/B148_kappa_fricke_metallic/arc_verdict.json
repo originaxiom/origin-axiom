@@ -1,0 +1,10 @@
+{
+ "id": "B148",
+ "verdict": "PROVED",
+ "claim_one_line": "kappa = 4*I_FV + 2 pinned exactly, and the metallic monodromies are genuinely the SL(2,Z) mapping-class action on the character variety.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

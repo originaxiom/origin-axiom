@@ -1,0 +1,52 @@
+==============================================================================
+(A) THE 27 AS AN E6 WEYL ORBIT -- generated from the Cartan matrix alone
+==============================================================================
+  |orbit of omega_1| = 27   (expect 27)
+  sum_lambda  lambda(H)    = 0
+  sum_lambda  lambda(H)^3  = 0
+  => vanishes IDENTICALLY in h1..h6: every abelian direction in e6 is
+     gravity- and cubic-anomaly-free on the complete 27.
+  (sanity: sum lambda(H)^2 = 12*(h1**2 - h1*h3 + h2**2 - h2*h4 + h3**2 - h3*h4 + h4**2 - h4*h5 + h5**2 - h5*h6 + h6**2)  -- nonzero, so the orbit is live)
+  27bar (orbit of omega_6): size 27, weight set differs from 27? True  -> the 27 is COMPLEX (computed)
+
+==============================================================================
+(B) BRANCHINGS RECOVERED BY GRADING -- the cited pattern, now COMPUTED
+==============================================================================
+  grading by alpha_1 (removing node 1 leaves D5 = so(10)):
+     psi-grade    4/3   multiplicity 1
+     psi-grade    1/3   multiplicity 16
+     psi-grade   -2/3   multiplicity 10
+  => 27 = [16, 10, 1] under SO(10)xU(1): the 16 + 10 + 1 split is COMPUTED, not cited.
+  grade ratios (16 : 10 : 1) = [1, -2, 4]  -> matches psi = (1, -2, 4) up to overall scale: True
+
+  double grading by (alpha_1, alpha_2) -- removing nodes 1,2 leaves A4 = su(5):
+     (psi-grade, chi-grade)        size  highest A4 label -> irrep
+     ('4/3', '1')                     1  (0, 0, 0, 0) -> 1
+     ('1/3', '1')                     5  (1, 0, 0, 0) -> 5
+     ('1/3', '0')                    10  (0, 0, 1, 0) -> 10bar
+     ('1/3', '-1')                    1  (0, 0, 0, 0) -> 1
+     ('-2/3', '0')                    5  (0, 0, 0, 1) -> 5bar
+     ('-2/3', '-1')                   5  (1, 0, 0, 0) -> 5
+  => SU(5) content of the omega_1 orbit: {'1': 2, '5': 2, '10bar': 1, '5bar': 1}
+  => SU(5) content of the omega_6 orbit: {'5bar': 2, '5': 1, '10': 1, '1': 2}
+     The two orbits are conjugate labellings of the same 27; script 1's
+     convention (10 + 5 + 5bar + 5bar + 1 + 1) is one of them, and every
+     anomaly coefficient simply flips sign between them -- 0 either way.
+
+==============================================================================
+(C) MB12 CONTROLS -- the same machinery where the cubic MUST NOT vanish
+==============================================================================
+  SU(5) 5   (A4, omega_1)    size   5  sum lambda(H) = 0   cubic identically zero? False
+  SU(5) 10  (A4, omega_2)    size  10  sum lambda(H) = 0   cubic identically zero? False
+  SU(3) 3   (A2, omega_1)    size   3  sum lambda(H) = 0   cubic identically zero? False
+  => the instrument can fail.  The vanishing on the 27 is a property of the
+     INPUT (a complete E6 multiplet), not of the test.
+
+==============================================================================
+(D) WHAT IT TAKES TO MAKE IT NONZERO -- delete states from the 27
+==============================================================================
+  Removing each SO(10)-graded block in turn, and each single weight:
+     drop the psi-grade    4/3 block ( 1 states): linear==0? False   cubic==0? False
+     drop the psi-grade    1/3 block (16 states): linear==0? False   cubic==0? False
+     drop the psi-grade   -2/3 block (10 states): linear==0? False   cubic==0? False
+     dropping a single weight: linear condition nonzero in 27/27 cases

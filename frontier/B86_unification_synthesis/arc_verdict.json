@@ -1,0 +1,10 @@
+{
+ "id": "B86",
+ "verdict": "OPEN",
+ "claim_one_line": "Capstone synthesis: three threads consolidated into a paper skeleton with novelty labels, but no new theorem and the external literature check ungated.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

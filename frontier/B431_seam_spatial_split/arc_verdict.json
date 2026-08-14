@@ -1,0 +1,10 @@
+{
+ "id": "B431",
+ "verdict": "PROVED",
+ "claim_one_line": "The seam's boundary-torus support law confirmed exactly (120 active/120 dark, gated by y = 0 mod 3); two value-level readings corrected as artifacts.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

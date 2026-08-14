@@ -1,0 +1,10 @@
+{
+ "id": "B317",
+ "verdict": "PROVED",
+ "claim_one_line": "Placed the object as a transcendental positive-entropy Painleve-VI solution (entropy 2 log lambda_m), outside the algebraic Lisovyy-Tykhyy list of finite orbits.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "P010",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

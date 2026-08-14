@@ -1,0 +1,10 @@
+{
+ "id": "B336",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "√−15 is unreachable: the monodromy and commensurator routes are provably closed and fillings are generically non-arithmetic, so the value's home is doubly separated.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

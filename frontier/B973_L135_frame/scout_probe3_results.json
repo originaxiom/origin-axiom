@@ -1,0 +1,8 @@
+{
+ "control_rank_charges_on_M12": 12,
+ "control_rank_su3floor_on_core": 26,
+ "dim_Z_su3_floor": 16,
+ "dim_su3_floor": 8,
+ "floor_dim": 12,
+ "rank_su3floor_on_M12": 0
+}

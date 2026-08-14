@@ -1,0 +1,10 @@
+{
+ "id": "B633",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "On scheme-stated, uncertainty-correct inputs the last SM residual dissolves (p = 0.078 becomes 0.145-0.62): every SM-facing comparison is null.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

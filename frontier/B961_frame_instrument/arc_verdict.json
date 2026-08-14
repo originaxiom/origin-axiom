@@ -1,0 +1,16 @@
+{
+ "id": "B961",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "L135 -- THE FRAME INSTRUMENT, BUILT ON THIS BENCH. B958 found the repo had NO independent construction of the frame or of M12: B909 verified section LVIII by RUNNING INCOMING MATERIAL rather than rebuilding, so every frame-arc claim had been checked against code this bench did not write. frame.py is the missing infrastructure, providing ad(v) as an exact 78x78 adjoint matrix, killing() as the EXACT Killing form tr(ad x . ad y), centralizer(S), killing_perp(S), derived(S), dim_of(S), cartan_basis(), a2_a1_levi(), and a self_test() that exercises every export against a BANKED number. THE SELF-TEST REPRODUCES FOUR BANKED NUMBERS: the Killing form is symmetric with rank 78 (nondegenerate, as e6 is semisimple); dim Z(su(3)_colour) = 16, matching B958; the A2+A1 Levi has dim 14, derived 11, centre 3, matching B892 and B951 EXACTLY; and the Killing-perp of the Cartan is 72 = 78 - 6. SO B892'S THREE NUMBERS ARE NOW DERIVABLE FROM SCRATCH ON THIS BENCH -- the first time, since before today they were only ever checked by running incoming code. THE SELF-TEST EARNED ITS KEEP IMMEDIATELY: the first run returned derived = 4 and centre = 10 instead of 11 and 3, caused by a real bug in this module -- sympy's rref()[1] returns the tuple of PIVOT COLUMNS and it was being used to index ROWS, silently producing a wrong-dimensional space with no error. The banked-number gate caught it and nothing else would have, since a 14-dimensional algebra with 'derived 4, centre 10' is not obviously absurd and, had derived() been used first on an unbanked question, the wrong answer would have looked like a finding; the fix is in place with the trap documented in the source. WHAT IT DELIBERATELY DOES NOT DO: guess the solo seat's frame, floor or M12 -- B958's stated reason for deferral stands, since reconstructing their definitions wrongly would produce a false verification OR a false refutation. WHAT REMAINS OWED: the presence side (solo sections LXXXIII-LXXXVI + XCII) is STILL NOT VERIFIED; the specific frame, floor and M12 need either solo's definitions stated precisely enough to rebuild, or an independent derivation of the orthogonal charge frame from banked structure, and either is a separate cell. LIMITS: this is an INSTRUMENT, not a result, and asserts no new mathematics about the object; the e6 structure constants come from B854's e6_centralizer.py, which this module wraps and verifies rather than re-deriving; and self_test() covers the exports against four banked numbers, not a proof of correctness for arbitrary input.",
+ "depends_on": [
+  "B958",
+  "B909",
+  "B892",
+  "B951",
+  "B854"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-08)"
+}

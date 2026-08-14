@@ -1,0 +1,10 @@
+{
+ "id": "B763",
+ "verdict": "PROVED",
+ "claim_one_line": "Branch-reconciliation sweep classified and disposed every unmerged ref, establishing that no conclusions were lost, and minted one standing rule.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

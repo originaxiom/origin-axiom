@@ -1,0 +1,10 @@
+{
+ "id": "B426",
+ "verdict": "PROVED",
+ "claim_one_line": "The seam-envelope ratio has the exact cubic closed form (3α²+4α−1)/10, and every Galois-invariant functional of its orbit is <1 — no invariant growth.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

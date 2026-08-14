@@ -1,0 +1,10 @@
+{
+ "id": "B109",
+ "verdict": "PROVED",
+ "claim_one_line": "The void is a (2,1) saddle of kappa whose linearization has Lyapunov rates ±4log(phi) and a center manifold equal to the tower's parity sector.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B750",
+ "verdict": "PROVED",
+ "claim_one_line": "Thirteen banked refusals sort into exactly three sealed classes -- no basepoint (8), no bandwidth (3), no name-transmission (2) -- with the unclassifiable bucket empty (UNIFIED-3).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

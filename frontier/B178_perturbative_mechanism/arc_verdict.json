@@ -1,0 +1,10 @@
+{
+ "id": "B178",
+ "verdict": "PROVED",
+ "claim_one_line": "One textbook perturbative mechanism underlies both the width law and the golden privilege; the per-frequency structure width~L1^n1 L2^n2 is confirmed contamination-robustly.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

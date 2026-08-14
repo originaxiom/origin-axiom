@@ -1,0 +1,18 @@
+{
+ "id": "B981",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE OBJECT IS NOT HYPERBOLIC-ONLY, and the sign-mismatch no-go built on that reading is WITHDRAWN. Prompted by the owner ('are you sure sure sure? did you verify the object in its full maturity and relations?') -- the answer was no. The withdrawn argument: 'the object's Einstein solution has Lambda = -1 < 0, anti-de Sitter, while observed dark energy is Lambda > 0, so the SIGN is wrong before magnitude ever comes up.' It is wrong twice. ERROR 1, a category error: hyperbolic H^3 is RIEMANNIAN and anti-de Sitter is LORENTZIAN, and B716 banks exactly why the identification is illegitimate here -- time, 4-dimensionality and Lorentzian signature are all the observer's, with NO CANONICAL WICK ROTATION -- so the argument put a Lorentzian name on a Riemannian structure across a rotation already banked as non-canonical. ERROR 2, the one that matters: B248 PROVES a cone-angle transition through ALL THREE curvature signs -- hyperbolic Q(sqrt-3)/2T/E6 at alpha=0, EUCLIDEAN (flat, degenerate trace field Q) at alpha=2pi/3, and SPHERICAL Q(sqrt5)/2I/E8 at alpha=pi, the spherical end being a genuine non-abelian SU(2) rep with all word-traces real in [-2,2] and tr(ab)=phi -- with B261 one AJ recursion carrying both ends, B253 E6 the only chirality-capable end, and B249 Niven forcing clean quadratics only at the two ends. THE SHARPEST PART: the arc that refutes the claim is the arc that was being quoted -- B250's own headline reads 'the complex-volume profile of the E6-hyperbolic/E8-SPHERICAL ends: Vol=6Lambda(pi/3), CS=0 VS pi^2/5', and the seat quoted its first clause in the same session while drawing a conclusion its second clause refutes. Not a missing arc and not another seat's material: the second clause of a sentence already in hand. WHAT SURVIVES: there is still NO solution to the cosmological-constant problem here -- no derivation of Lambda's value (the cone angle is a FREE parameter, B962's homogeneity lesson again) and Gates 2 and 3 still bite (a vacuum energy needs 4d and needs dynamics; the object is a 3-manifold and is timeless); no arc in the corpus claims otherwise. WHAT OPENS: the object CONTAINS the sign transition, Lambda<0 -> Lambda=0 -> Lambda>0 on one curve, which is the structural ingredient such a story would need and was discarded on a category error -- registered as a live surface, NOT as a result. EXPLICITLY FIREWALLED AND NOT CLAIMED: that our universe sits just past the Euclidean transition on the positive side -- a hook with no preregistration, no two-outcome criterion and large numerology risk. CLASS: an unearned negative costs as much as an overclaim, and this was a DISMISSAL, the more dangerous kind -- fifth instance on 2026-08-08 of declaring absent what the repo already held (B950, B976, B974, B979, B981). It reached the owner but NEVER entered a tracked file, verified by grep. Registered in docs/RETRACTED_PHRASES.md row 6 so retraction-sweep catches the next occurrence. VERDICT LABEL CORRECTED 2026-08-08 (B818's rule, caught by its own gate): first filed RETRACTED, which is wrong -- this arc's own headline (the object spans all three curvature signs) STANDS. What is withdrawn is a claim made in session that never entered a tracked file. It is an AUDITOR plus a phrase registration, hence PROVED.",
+ "depends_on": [
+  "B248",
+  "B250",
+  "B261",
+  "B253",
+  "B249",
+  "B716",
+  "B962"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-08), on the owner's challenge"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "B856",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The hearing coupling h = u+ M_odd(R^m L^m) u obeys a PERIOD-5 law across the metallic family (bundle monodromy trace m^2+2), taking five exact golden-pentagonal values with |h|^2 in {1/(phi sqrt5), phi/sqrt5, 1}, the two golden values summing to 1 and h(5) = -1 exactly. The period collapse is NONTRIVIAL: ord(R)=ord(L)=15 and the welded matrix has period 15, but the listener's theta-odd quadratic form collapses it to 5. Re h is invariant across listener directions to 2e-16, so the coupling FORCES a value rather than carrying one. Separately: the proposed sin^2(theta_12)/JUNO reading is REFUTED ON KIND -- sin^2(theta) is a probability, the kind-correct |h|^2 = 1/(phi sqrt5) is excluded at -2.35 sigma, and the matching Re h = 1/(2phi) is the real part of an amplitude, in a 1-sigma window containing at least 17 natural candidates.",
+ "depends_on": [
+  "B593",
+  "B179",
+  "B261",
+  "B238"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-02)"
+}

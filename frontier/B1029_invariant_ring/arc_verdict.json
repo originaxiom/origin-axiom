@@ -1,0 +1,18 @@
+{
+ "id": "B1029",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE INVARIANT RING OF THE FRAME ACTION (Lane III-1, sealed 9a46975f before compute): on the banked value family h = chi(A) * (1/2) tr V2(B), REVERSAL ACTS IDENTICALLY TO CONJUGATION (unitary characters conjugate under inverse; SU(2) traces are real), so the frame group V4 acts on VALUES through Z/2 with kernel exactly theta = c*r -- THE BANKED THETA-TRIVIALITY PLACED AS THE VALUE-KERNEL OF THE FRAME ACTION (placement theorem, scope: the sealed inventory of unitary characters x SU(2) traces). The invariant ring = the REAL subring of the banked constants (tones, mirror magnitudes, |h|^2, Re chi); THE ENTIRE NON-INVARIANT COMPLEMENT IS ONE SIGN, sign(arg h) = sign(Im chi) -- exactly the bit B1027 paid for, localised. Closure relations recorded without significance claims: tone sum = phi^2, the golden pair sums to 1 (B856 reproduced), mirror magnitudes sum to (7+3sqrt5)/4. V3 prices two relational candidates under B1026's SEALED machinery with the golden-pair selector structurally free: the SUM RULE sin^2(theta_i)+sin^2(theta_j)=1 over an unordered P-pair at log2(3) = 1.585 bits, and the absolute ordered pair at 2.0 bits after N4's dead-pairing kill -- BOTH UNDER THE 3.0 CAP; NOTHING NOMINATED, NO DATA CONTACT (nomination stays a separate data-blind cell). Verdict: SHELF DELIVERED, the seal's shelf branch -- Lane III-2's first stocked, priced shelf. Prior HELD in substance. Correction recorded: the first compute printed EMPTY/blocked; the sealed pricing refutes that and the corrected verdict stands. Gate 5 untouched; nothing promotes.",
+ "depends_on": [
+  "B1024",
+  "B1026",
+  "B1027",
+  "B1011",
+  "B856",
+  "B644",
+  "B641"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-11), sealed 9a46975f"
+}

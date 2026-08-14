@@ -1,33 +1,56 @@
-"""B720 lock — the coupling-path map: 3 NO-MATCH (B706 3-way) + the thermal-time field+torsor match."""
+"""B720 — the three NO-MATCH discriminating facts, COMPUTED (B830).
 
-def test_three_nomatch_are_principled_not_adhoc():
-    # each NO-MATCH rests on a distinct banked/structural reason
-    reasons = {
-        "renormalization": "gaussian-vs-eisenstein-branch",   # mixed-Tate over Z[i] vs Q(sqrt-3)
-        "holography": "3d-no-local-dof",                        # 3d gravity, no local DOF
-        "positive-geometry": "finite-mutation-not-finite-type", # B712 not a positive geometry
-    }
-    assert len(set(reasons.values())) == 3                     # three INDEPENDENT directions
+Replaces a label-lock. The original test asserted that three hardcoded strings were distinct --
+it verified that three different strings had been typed, and could only fail if someone edited
+the dict to repeat one (B828). These locks run the computations instead.
+"""
+import importlib.util
+from pathlib import Path
 
-def test_thermal_time_field_match():
-    # CMR KMS torsor works for any imaginary quadratic K; K = Q(sqrt-3) is our being field
-    D = -3
-    assert D < 0 and D % 4 == 1                                # imaginary quadratic, fundamental disc -3
-    # class number 1 (the object's being field)
-    import math
-    def h_imag(D):
-        h=0; a=1
-        while a*a <= -D/3:
-            for b in range(-a,a+1):
-                if (b*b-D)%(4*a)==0:
-                    c=(b*b-D)//(4*a)
-                    if c>=a and not (b<0 and (a==c or a==abs(b))):
-                        if math.gcd(math.gcd(a,b),c)==1: h+=1
-            a+=1
-        return h
-    assert h_imag(-3) == 1
+ROOT = Path(__file__).resolve().parents[1]
+_SPEC = importlib.util.spec_from_file_location(
+    "b830", ROOT / "frontier" / "B830_b720_recompute" / "cells.py")
+c = importlib.util.module_from_spec(_SPEC)
+_SPEC.loader.exec_module(c)
 
-def test_kashaev_citations_reinstated():
-    # both Galakhov-Morozov papers verified real (direct arXiv fetch) -> un-excluded
-    verified_real = {"2605.31588", "2606.24497"}
-    assert "2605.31588" in verified_real and "2606.24497" in verified_real
+
+def test_nomatch_1_the_cyclotomic_branches_are_disjoint():
+    """Eisenstein Q(zeta_3) vs Gaussian Q(i): they meet only in Q."""
+    r = c.a1_branch_mismatch()
+    assert r["same_field"] is False
+    assert r["compositum_degree"] == 4          # so neither contains the other
+    assert r["intersection_is_Q"] is True
+    assert r["REFUTED"] is False
+
+
+def test_nomatch_3_markov_is_finite_mutation_but_NOT_finite_type():
+    """ABHY positive geometry needs finite TYPE; the object's quiver is finite MUTATION only."""
+    r = c.a2_markov_finite_mutation_not_finite_type()
+    assert r["mutation_finite"] is True
+    assert r["mutation_class_size"] == 1        # self-mutating up to iso
+    assert r["finite_type"] is False
+    assert r["REFUTED"] is False
+
+
+def test_the_finite_type_detector_actually_works():
+    """Positive control: without it, finite_type=False could just mean the detector is broken."""
+    r = c.a2_markov_finite_mutation_not_finite_type()
+    assert r["control_A3_finite_type"] is True, "an A3 Dynkin quiver MUST register as finite type"
+    assert r["control_A3_class_size"] == 4
+
+
+def test_nomatch_2_flat_connection_moduli_is_finite_dimensional():
+    """A local field theory has a function's worth of DOF per point; this is finite."""
+    r = c.a3_no_local_dof()
+    assert r["finite_dimensional"] is True
+    assert r["dim_H1_E6"] == 6 and r["dim_H1_SL2_geometric"] == 1
+    assert r["REFUTED"] is False
+
+
+def test_the_cited_residue_is_still_labelled_as_cited():
+    """A1 computes the OBJECT's side only. That Connes-Marcolli's cosmic Galois is mixed-Tate
+    over Z[i] is a fact about ANOTHER construction and is not computable here -- calling the
+    composite claim 'computed' would be the necessary-vs-sufficient error B525 exists to catch."""
+    f = " ".join((ROOT / "frontier" / "B830_b720_recompute" / "FINDINGS.md").read_text(
+        encoding="utf-8").split())
+    assert "PART-COMPUTED, PART-CITED" in f or "part-computed, part-cited" in f

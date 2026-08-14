@@ -1,0 +1,12 @@
+{
+ "id": "B849",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The claimed beta=1 SSB has NO order parameter at the manifold level -- CS(m004)=0 and amphichirality forces every orientation-odd invariant to 2-torsion (nine chiral controls confirm the instrument sees nonzero) -- and the nominated candidate (chirality = complex conjugation) is at the WRONG LEVEL, lying in Gal(K/Q) rather than Gal(K^ab/K); CONDITIONAL on the acting-group identification, confirmed in B851.",
+ "instrument": false,
+ "depends_on": [
+  "B851"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-02)"
+}

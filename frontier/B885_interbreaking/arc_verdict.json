@@ -1,0 +1,15 @@
+{
+ "id": "B885",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The inter-breaking dictionary on the 27 -- the same 27 graded by all three measurement frames, all pairwise tables computed obliquely. TWO STRUCTURAL LAWS, uniform across the three Galois pairs, zeros at 1e-21 to 1e-26: LAW 1 (vacuum-to-Higgs) -- each frame's 27-singlet lies ENTIRELY inside every other frame's 10-block ([0, 1, 0] rows exactly; the reason exact: the singlet is a Pi-weight vector, its position in any other frame forced by tri(C)-weight geometry) -- one measurement's vacuum axis IS a Higgs-block direction of every other measurement; LAW 2 (16/vacuum exclusion) -- no frame's 16 touches another frame's singlet direction. The 10 spreads over all three blocks; the zero PATTERN is S3-uniform while the nonzero magnitudes are NOT (recorded as computed, no symmetry claimed). Fine 11x11 table: 13/121 zeros, convention-carrying, pattern only. Flagged unweighted: Law 1 is the natural first entry of an across-breakings dictionary for the generations reading; the Pi-weight argument should make both laws exact theorems (exact-proof lane). Nothing resembling a mixing matrix of values computed or claimed.",
+ "depends_on": [
+  "B875",
+  "B876",
+  "B883",
+  "B884"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

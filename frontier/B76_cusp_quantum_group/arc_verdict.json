@@ -1,0 +1,10 @@
+{
+ "id": "B76",
+ "verdict": "PROVED",
+ "claim_one_line": "The metallic cusp k-set equals the SU(2) quantum-group root-of-unity level set: 2cos(pi/k)=[2]_q at q=e^{i pi/k}, order-2k torsion on both sides.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

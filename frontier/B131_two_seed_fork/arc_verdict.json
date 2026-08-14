@@ -1,0 +1,10 @@
+{
+ "id": "B131",
+ "verdict": "PROVED",
+ "claim_one_line": "Gluing two distinct metallic seeds along cusp tori intersects their A-polynomial curves in finitely many points, collapsing the free kappa into a discrete internal fork.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

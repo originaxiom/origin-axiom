@@ -1,0 +1,10 @@
+{
+ "id": "B206",
+ "verdict": "PROVED",
+ "claim_one_line": "The golden monodromy's mod-5 congruence shadow is SL(2,F5)=2I=McKay-E8, with the classical/quantum divide exactly the A5/2I spin double cover.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

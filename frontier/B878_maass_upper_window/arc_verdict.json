@@ -1,0 +1,15 @@
+{
+ "id": "B878",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The cc3 Wave-1 harvest (branch audit/b775-braver-questions @ cd1447b6, NEVER merged -- integrate-don't-merge): B845's missing '43 eigenvalues to r = 13.5' dataset found and verified -- the arithmetic closes exactly against main's own banked table (lower window 17 distinct/27 mult = B797/B846; upper window 26/45 = the harvested scanE_refined; combined 43/72); two-Y stability 26/26 (sigmas ~1e-10); all four parent forms present at <= 5e-10 (7.072004187 in main's own table); the relay's stale-6-entry correction and both flagged entries (the restored 10.9965 double, the 11.008 tight-bracket) verified in the data itself. Also harvested: the scalar Hejhal solver + arb Cell-9 driver = B804's named missing machinery base; the ladder alignment (25-digit validation rung under prereg 169e9042 -> B798's 100-digit falsifier box). Honest: the arb certification is the branch's (three Sec-16 passes there); this seat verified stability/consistency/arithmetic, not a re-run; no completeness claim for the 43; B797's banked table NOT extended (locks stand); lambda_2's 27-digit run still cooking on the branch side.",
+ "depends_on": [
+  "B797",
+  "B804",
+  "B845",
+  "B846"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat harvesting the cc3 audit seat (2026-08-03)"
+}

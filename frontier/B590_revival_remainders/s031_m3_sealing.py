@@ -142,7 +142,12 @@ POWERS = [GAM ** j for j in range(DEG)]
 
 def in_field(z, tag=""):
     """pari lindep membership of complex z in Q(GAMMA), with height+residual gates."""
-    v = POWERS + [pari(str(mp.nstr(z.real, 50))) + pari(str(mp.nstr(z.imag, 50))) * pari("I")]
+    # 70 digits, MATCHING the precision POWERS is built at (B840). At 50 the basis and the test
+    # element disagreed in the last 20 digits, and pari.lindep fitted that gap with a spurious
+    # relation of height ~1e18 -- residual 8.5e-59 (passing the 1e-30 gate) but blowing the 1e6
+    # height gate, so EVERY member was rejected and the prereg's positive control stopped the run.
+    # The criterion is unchanged: same lindep, same height gate, same residual gate.
+    v = POWERS + [pari(str(mp.nstr(z.real, 70))) + pari(str(mp.nstr(z.imag, 70))) * pari("I")]
     rel = pari.lindep(v)
     coeffs = [int(rel[j]) for j in range(DEG + 1)]
     if coeffs[-1] == 0:
@@ -155,9 +160,12 @@ def in_field(z, tag=""):
 
 # controls (prereg falsifier: if these fail, STOP)
 print("membership-classifier controls:")
-g = complex(GAMMA.real, GAMMA.imag)
-ok_pos = all(in_field(mp.mpc(*divmod(0, 1)) + mp.mpc(v.real, v.imag))
-             for v in (g, g * g - 3, 2 * g ** 3 + g - 7))
+# Build the control values in MPMATH, not double (B840). `complex(GAMMA...)` gave ~16 good digits
+# and the membership test demands a residual < 1e-30, so every known element was rejected. This is
+# a second, independent bug from the 50-vs-70-digit truncation inside in_field; fixing either alone
+# left the control failing, which is why the prereg's STOP fired.
+G = GAMMA
+ok_pos = all(in_field(v) for v in (G, G * G - 3, 2 * G ** 3 + G - 7))
 rng0 = np.random.default_rng(7)
 ok_neg = not any(in_field(mp.mpc(x, y)) for x, y in rng0.normal(size=(3, 2)))
 print(f"  known elements pass: {ok_pos};  random numbers fail: {ok_neg}")
@@ -251,9 +259,35 @@ def polish_mp(x0, m):
         out = []
         for z in r:
             out.extend([z.real, z.imag])
-        return out[:22]
+        # GAUGE FIX (B840). The 9 trace equations give 18 real constraints on 22 real unknowns --
+        # underdetermined by exactly 4, which is the residual SL(3) diagonal-torus conjugation
+        # preserving A = diag(a, b, 1/(ab)) (2 complex = 4 real). mdnewton needs a SQUARE system,
+        # so before this fix polish_mp raised "cannot solve underdetermined system" on EVERY input
+        # and the membership test below it was unreachable -- making the whole sealing verdict
+        # vacuous. Two entries of B are pinned to their starting values to kill the torus freedom.
+        # EXACT gauge: B[0,1] = B[0,2] = 1. The residual torus diag(t0,t1,t2) acts by
+        # B[i,j] -> (t_i/t_j) B[i,j], so these two complex conditions consume exactly the two
+        # complex torus dof. Pinning to CONSTANTS (not to the noisy least-squares start, which was
+        # this fix's first and wrong form) lets the polish improve past 1e-9. Traces are
+        # conjugation-invariant, so the gauge changes the representative, never the answer.
+        out.extend([zc[3].real - 1, zc[3].imag, zc[4].real - 1, zc[4].imag])
+        return out
 
-    sol = mp.findroot(F, [mp.mpf(v) for v in x0], tol=mp.mpf(10) ** (-45),
+    # move x0 onto the gauge slice first (same torus action), so Newton starts on it
+    z0 = [mp.mpc(x0[2 * i], x0[2 * i + 1]) for i in range(11)]
+    b01, b02 = z0[3], z0[4]
+    if abs(b01) < mp.mpf(10) ** -20 or abs(b02) < mp.mpf(10) ** -20:
+        raise ValueError("gauge unreachable: B[0,1] or B[0,2] vanishes at the start")
+    r1_, r2_ = 1 / b01, 1 / b02                      # t0/t1 and t0/t2
+    Bg = [[z0[2 + 3 * i + j] for j in range(3)] for i in range(3)]
+    sc = [[mp.mpc(1), r1_, r2_], [1 / r1_, mp.mpc(1), r2_ / r1_], [1 / r2_, r1_ / r2_, mp.mpc(1)]]
+    for i in range(3):
+        for j in range(3):
+            z0[2 + 3 * i + j] = Bg[i][j] * sc[i][j]
+    xg = []
+    for zz in z0:
+        xg.extend([zz.real, zz.imag])
+    sol = mp.findroot(F, [mp.mpf(v) for v in xg], tol=mp.mpf(10) ** (-45),
                       solver='mdnewton', verify=False)
     return [mp.mpf(sol[i]) for i in range(22)]
 
@@ -320,7 +354,10 @@ w3 = mp.sqrt(-3)
 
 def in_qsqrtm3(z):
     v = [pari("1"), pari("I*sqrt(3)"),
-         pari(str(mp.nstr(z.real, 50))) + pari(str(mp.nstr(z.imag, 50))) * pari("I")]
+         # 70 digits, matching in_field (B840). This test had the same truncation bug and was
+         # missed on the first pass; it does not change the m=1 outcome -- heights come back ~1e50
+         # at both 50 and 70 digits -- but a classifier must not differ from its sibling.
+         pari(str(mp.nstr(z.real, 70))) + pari(str(mp.nstr(z.imag, 70))) * pari("I")]
     rel = pari.lindep(v)
     c = [int(rel[j]) for j in range(3)]
     if c[-1] == 0 or max(abs(x) for x in c) > LINDEP_MAXH:

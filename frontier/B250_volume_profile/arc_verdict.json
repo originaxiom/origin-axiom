@@ -1,0 +1,10 @@
+{
+ "id": "B250",
+ "verdict": "PROVED",
+ "claim_one_line": "Computed the complex-volume profile of the E6-hyperbolic/E8-spherical ends: Vol=6Λ(π/3), CS=0 vs π²/5, CS∈(1/5)ℤ — the arithmetic invariants sit in the volumes.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,9 @@
+{
+ "id": "B930",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE OVERLAP MATRICES (blind; 81/81 with an independent dps-80 belt): (a) THE BRANCHES ARE SUPERSELECTED -- the two omega-branches (the up/down analogue) have ALL projector overlaps vanishing in BOTH gauges (the same-generation overlap is the K-element 0): the object permits no up/down mixing at projector level; (b) the S-vs-A registers under H' carry A GENUINE HIERARCHY (moduli 0.869..0.151, factor ~5.8; the 3x6 collapses exactly to one 3x3) whose same-generation overlap-squared is ONE K-element with minpoly 953^4 x^3 - ... - 5^12 -- THE VALUE PRIME LEADING, THE GOLDEN PRIME CLOSING: 5 enters the value layer through the mixing geometry; (c) the twist-vs-Galois rotation is EXACTLY ORTHOGONAL with rational spectrum (x-1)(1536x^2-2088x+677) -- principal cosines^2 {1, 0.825, 0.534}, the unity column = the banked F-cap-W3 line, the register uniformly negative (sign threaded), and the block-refined sum rule 151/64 + 169/64 + 6 = 11 EXACTLY. THE DOCTRINE AS SELECTION RULE, VERIFIED: under the canonical gauge there is NO overlap to read anywhere -- every mixing-shaped quantity lives in D2 alone. Four design amendments logged (type slip; two definiteness-blindness instances; solver-phase alignment on rational lines), all caught by the instrument's own aborts. Blind throughout; any measured-mixing comparison is a future sealed cell behind the owner's word.",
+ "depends_on": ["B912", "B916", "B923", "B928"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "computation agent + cc amendments/banking (2026-08-06)"
+}

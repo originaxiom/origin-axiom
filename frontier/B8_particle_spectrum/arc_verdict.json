@@ -1,0 +1,10 @@
+{
+ "id": "B8",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The near-miss m/g is symbolically shown to equal sqrt(5/(4 log phi)), not phi, so the golden-ratio coincidence is killed.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "B875",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "The solo seat's TRIALITY-TILING THEOREM verified on this seat's fully independent build, three legs in one reproducer: (1) skeleton at 30 digits -- kernels (46,46,46) at the three Galois enhancement points, every pairwise intersection = the 30-dim core, joint span = 78, sectors (16,16,16) via the canonical V_i = ad(z)(K_i); (2) the core typed at this seat's own two primes (40009/40037): dim 30, derived 28, center 2 -- D4 = so(8) forced: the census's soft plane IS the triality direction; (3) the cyclic multiplication law in OBLIQUE direct-sum coordinates: [Vi,Vi] -> core purely, [V1,V2] -> V3, [V1,V3] -> V2, [V2,V3] -> V1, foreign components ~1e-23. Trap documented: the sectors are NEARLY PARALLEL (roots within ~1e-3), so orthogonal projections read 1.0 everywhere -- the law is only readable in the oblique basis (condition ~1.3e11); mod-p methods are immune, floating reruns are not. Two seats, two builds, two method families. The generation reading stays a structure, not a mechanism; THE DESCENT decides it.",
+ "depends_on": [
+  "B854",
+  "B866",
+  "B872",
+  "B874"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, verifying the solo seat (2026-08-03)"
+}

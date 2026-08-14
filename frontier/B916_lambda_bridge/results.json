@@ -1,0 +1,777 @@
+{
+ "cell": "B916 lambda bridge",
+ "checks": {
+  "B883_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "handoff_rep_78_generators": {
+   "pass": true,
+   "detail": "variant A"
+  },
+  "handoff_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "weight_multisets_are_exact_negatives_27bar": {
+   "pass": true,
+   "detail": "re-verifies the B914/B912 mirror fact"
+  },
+  "both_reps_all_entries_pm1": {
+   "pass": true,
+   "detail": "=> every intertwiner ratio equation is +-1 => primitive S is a signed permutation"
+  },
+  "handoff_H_symmetric_signed_permutation": {
+   "pass": true,
+   "detail": ""
+  },
+  "handoff_cubic_45_triples_pm1_28_17": {
+   "pass": true,
+   "detail": ""
+  },
+  "handoff_cubic_support_weight_zero": {
+   "pass": true,
+   "detail": ""
+  },
+  "B883_cubic_45_triples_pm1": {
+   "pass": true,
+   "detail": "split Counter({1: 28, -1: 17})"
+  },
+  "base_ns_8_14_16_22": {
+   "pass": true,
+   "detail": ""
+  },
+  "weight_matching_permutation_bijective": {
+   "pass": true,
+   "detail": "nontrivial permutation"
+  },
+  "no_single_sided_equations_would_force_zero": {
+   "pass": true,
+   "detail": "432 two-term equations"
+  },
+  "propagation_graph_connected_schur_unique_up_to_scale": {
+   "pass": true,
+   "detail": "the two-term system alone pins S up to one overall scale"
+  },
+  "propagation_consistent_all_equations": {
+   "pass": true,
+   "detail": ""
+  },
+  "primitive_S_is_signed_permutation_all_x_pm1": {
+   "pass": true,
+   "detail": "x values [Fraction(-1, 1), Fraction(1, 1)]"
+  },
+  "intertwiner_identity_all_78_generators_EXACT": {
+   "pass": true,
+   "detail": "rho_h(x) = -S rho_B(x)^T S^{-1} verified entrywise"
+  },
+  "det_S_pm1_no_953_anywhere_in_S": {
+   "pass": true,
+   "detail": "det S = 1"
+  },
+  "handoff_cubic_exact_derivation_identity_all_78": {
+   "pass": true,
+   "detail": ""
+  },
+  "B883_cubic_exact_derivation_identity_all_78": {
+   "pass": true,
+   "detail": ""
+  },
+  "handoff_weight_zero_triples_45": {
+   "pass": true,
+   "detail": ""
+  },
+  "handoff_cubic_kernel_dim_1_their_cubic_is_THE_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "handoff_cubic_spans_the_kernel": {
+   "pass": true,
+   "detail": ""
+  },
+  "cubic_supports_correspond_under_S": {
+   "pass": true,
+   "detail": ""
+  },
+  "cubic_transport_proportional_t": {
+   "value": "1",
+   "detail": "c' = t * cub_B883 entry-by-entry on all 45 triples"
+  },
+  "transported_cubic_has_pm1_coefficients": {
+   "pass": true,
+   "detail": "|t| would be 1 whenever proportionality holds"
+  },
+  "H_transport_support_equals_H_plus_support": {
+   "pass": true,
+   "detail": "H' lives on the SAME signed-permutation support pi as the banked H+"
+  },
+  "H_transport_proportional_s": {
+   "value": null,
+   "detail": "target None"
+  },
+  "H_prime_equals_H_plus_times_diag_pm1": {
+   "pass": true,
+   "detail": "D2 signs: Counter({1: 16, -1: 11}) (pi-symmetric, consistent with H' symmetric)"
+  },
+  "handoff_H_is_NOT_charge_equivariant_either_sign_any_charge": {
+   "pass": true,
+   "detail": "their M is the tau-twisted dual intertwiner (P rho(tau X) = -rho(X)^T P), NOT the charge-family form: the two seats used DIFFERENT H-objects"
+  },
+  "handoff_M_decomposes_as_P_times_diag": {
+   "value": true,
+   "detail": "D_chi signs Counter({'-1': 15, '1': 12})"
+  },
+  "bridge_reproduces_2304_over_953": {
+   "value": false,
+   "detail": "hypothesis refuted at the H leg: no scalar s exists"
+  },
+  "lambda_B883_equals_1_EXACT_all_six_couplings": {
+   "pass": true,
+   "detail": "c^2 = sign*prod(q) with signs ['-', '-', '-', '-', '-', '-'] (all -1: the q-product is negative)"
+  },
+  "handoff_realization_nine_colorless_lines": {
+   "pass": true,
+   "detail": "9"
+  },
+  "handoff_lambda_support_six_couplings": {
+   "pass": true,
+   "detail": "6"
+  },
+  "handoff_lambda_recomputed_equals_2304_over_953": {
+   "pass": true,
+   "detail": "spread 3.9e-47, |lam - 2304/953| worst 9.16e-47"
+  },
+  "B883_realization_nine_colorless_lines": {
+   "pass": true,
+   "detail": "9"
+  },
+  "transported_handoff_lines_ARE_H_times_primal_lines": {
+   "pass": true,
+   "detail": "bijective, worst line distance 3.15e-46"
+  },
+  "dual_lines_banked_instruments_six_couplings": {
+   "pass": true,
+   "detail": "6"
+  },
+  "lambda_dual_numeric_equals_2304_over_953": {
+   "value": false,
+   "detail": "lambda(cub_B883, H+, dual lines) = 1.0, spread 1.56e-61"
+  },
+  "primal_lines_lambda_1_numeric_belt": {
+   "pass": true,
+   "detail": "worst |lam-1| 1.56e-61"
+  },
+  "dual_lines_with_transported_Hprime_equal_2304_953_numeric": {
+   "pass": true,
+   "detail": "lambda(cub, H', dual) = 2.41762854144805876180482686254"
+  },
+  "primal_lines_with_transported_Hprime_lambda": {
+   "value": "2.41762854144805876180482686254",
+   "detail": "spread 5.53e-57; residual vs 2304/953 1.23e-56"
+  },
+  "H_plus_charge_equivariance_reverified_EXACT": {
+   "pass": true,
+   "detail": "eps = (-1,+1,-1,+1)"
+  },
+  "charpoly_Mc_factors_3_1__6_1__6_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "rational_blocks_dim_3_and_6": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Me_W6_is_g_squared_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Mo_W6_even": {
+   "pass": true,
+   "detail": ""
+  },
+  "K_roots_xS_alpha_B_found": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_equals_minus_3_w_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_S_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_nonS_dim_1_over_K_beta": {
+   "pass": true,
+   "detail": ""
+  },
+  "nine_primal_atoms_exact_joint_eigenlines": {
+   "pass": true,
+   "detail": ""
+  },
+  "nine_dual_lines_exact_joint_LEFT_eigenlines": {
+   "pass": true,
+   "detail": "v = H u is a joint eigenline of the transposed charge family"
+  },
+  "dual_q_tau_free_and_nonzero": {
+   "pass": true,
+   "detail": ""
+  },
+  "dual_support_exactly_6_of_165": {
+   "pass": true,
+   "detail": "[['A0m', 'A0p', 'S0'], ['A0m', 'A1m', 'A2m'], ['A0p', 'A1p', 'A2p'], ['A1m', 'A1p', 'S1'], ['A2m', 'A2p', 'S2'], ['S0', 'S1', 'S2']]"
+  },
+  "lambda_dual_with_banked_Hplus_EQUALS_1_EXACT_all_six": {
+   "pass": true,
+   "detail": "|c|^2 = sign*prod(q) with signs ['-', '-', '-', '-', '-', '-']: the canonical lambda is REALIZATION-INDEPENDENT (1 on the 27 lines AND on the mirror lines)"
+  },
+  "dual_qprime_tau_free_and_nonzero": {
+   "pass": true,
+   "detail": ""
+  },
+  "lambda_dual_with_Hprime_EQUALS_2304_953_EXACT_all_six": {
+   "pass": true,
+   "detail": "|c|^2 = (2304/953)^2 * sign*prod(q') with signs ['+', '+', '+', '+', '+', '+']: the solo seat's 85-digit number is EXACT -- and it is the tau-twisted-H lambda"
+  },
+  "lambda_primal_with_Hprime": {
+   "value": "['2304/953', '2304/953', '2304/953', '2304/953', '2304/953', '2304/953']",
+   "detail": "the tau-twisted lambda evaluated on the PRIMAL nine lines"
+  },
+  "d_products_per_coupling_equal_953_2304_squared_EXACT": {
+   "pass": true,
+   "detail": "prod_t d_i = sign*(953/2304)^2 with signs ['-', '-', '-', '-', '-', '-']: THE structural home of 953 -- the per-line H'/H+ norm ratios"
+  },
+  "where_953_lives": {
+   "value": "{'A0m': True, 'A0p': True, 'A1m': True, 'A1p': True, 'A2m': True, 'A2p': True, 'S0': True, 'S1': True, 'S2': True}",
+   "detail": "953 in the minimal polynomials of the per-line ratios d = q^{H'}/q^{H+}"
+  }
+ },
+ "notes": [],
+ "S_permutation_pB2H": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  4,
+  6,
+  9,
+  11,
+  14,
+  7,
+  8,
+  10,
+  13,
+  16,
+  12,
+  15,
+  18,
+  17,
+  20,
+  22,
+  19,
+  21,
+  23,
+  24,
+  25,
+  26
+ ],
+ "S_signs_X": [
+  1,
+  -1,
+  -1,
+  -1,
+  -1,
+  -1,
+  -1,
+  -1,
+  -1,
+  1,
+  -1,
+  -1,
+  -1,
+  -1,
+  1,
+  -1,
+  -1,
+  1,
+  -1,
+  1,
+  1,
+  -1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "det_S": 1,
+ "cubic_transport": {
+  "proportional": true,
+  "t": "1",
+  "ratio_distribution": {
+   "1": 45
+  },
+  "abs_t_forced": "1",
+  "cprime_coeffs_pm1": true
+ },
+ "H_transport": {
+  "support_matches_H_plus": true,
+  "proportional_to": null,
+  "ratio_distribution_vs_H_plus": {
+   "1": 16,
+   "-1": 11
+  }
+ },
+ "H_prime_diag_vs_H_plus": {
+  "D2": [
+   1,
+   -1,
+   1,
+   1,
+   -1,
+   1,
+   -1,
+   -1,
+   1,
+   -1,
+   1,
+   1,
+   1,
+   -1,
+   1,
+   -1,
+   1,
+   -1,
+   1,
+   -1,
+   1,
+   1,
+   -1,
+   1,
+   1,
+   -1,
+   1
+  ],
+  "flip_count": 11,
+  "flipped_coordinates_weights": [
+   [
+    0,
+    0,
+    0,
+    0,
+    -1,
+    1
+   ],
+   [
+    -1,
+    -1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    -1,
+    1,
+    1,
+    -1,
+    0,
+    0
+   ],
+   [
+    -1,
+    0,
+    0,
+    1,
+    -1,
+    0
+   ],
+   [
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    -1,
+    0,
+    1,
+    -1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    -1,
+    0,
+    1
+   ],
+   [
+    0,
+    -1,
+    0,
+    1,
+    -1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    -1,
+    1
+   ],
+   [
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "same_as_B912_D_diag": false
+ },
+ "handoff_H_charge_equivariance": {
+  "8": {
+   "+1": false,
+   "-1": false
+  },
+  "14": {
+   "+1": false,
+   "-1": false
+  },
+  "16": {
+   "+1": false,
+   "-1": false
+  },
+  "22": {
+   "+1": false,
+   "-1": false
+  }
+ },
+ "handoff_M_eq_P_Dchi": {
+  "P_signed_permutation": true,
+  "M_eq_P_diag": true,
+  "D_chi": [
+   "1",
+   "1",
+   "1",
+   "-1",
+   "1",
+   "-1",
+   "1",
+   "-1",
+   "1",
+   "-1",
+   "-1",
+   "-1",
+   "-1",
+   "-1",
+   "-1",
+   "-1",
+   "-1",
+   "1",
+   "-1",
+   "-1",
+   "1",
+   "-1",
+   "1",
+   "-1",
+   "1",
+   "1",
+   "1"
+  ]
+ },
+ "bridge_factor": {
+  "abs_t": "1",
+  "abs_s": null,
+  "equals_2304_over_953": false,
+  "note": "NO scalar bridge exists: the cubic transports with t = 1 but the two H's are NOT proportional (H' = H+ D2, 11 sign flips) -- the 2304/953-vs-1 factor is NOT a realization convention"
+ },
+ "lambda_B883": {
+  "value": "1 (exact)",
+  "c2_vs_prodq_signs": [
+   "-",
+   "-",
+   "-",
+   "-",
+   "-",
+   "-"
+  ]
+ },
+ "lambda_handoff_independent": {
+  "value_50d": "2.4176285414480587618048268625393494228751311647429",
+  "spread": "3.901e-47",
+  "residual_953lam_minus_2304": "-7.254e-50"
+ },
+ "dual_lines_identification": {
+  "statement": "S^-1 (handoff atom lines) = H_B883 * (B883 primal atom lines), line for line",
+  "worst_line_distance": "3.15e-46"
+ },
+ "lambda_dual_numeric": {
+  "value_50d": "1.0",
+  "spread": "1.556e-61",
+  "residual_953lam_minus_2304": "-1351.0"
+ },
+ "lambda_Hprime": {
+  "dual_lines_value_50d": "2.4176285414480587618048268625393494228751311647429",
+  "primal_lines_value_50d": "2.4176285414480587618048268625393494228751311647429"
+ },
+ "lambda_dual_exact_Hplus": {
+  "value": "1 (exact)",
+  "statement": "same primitive cubic, banked H+, MIRROR (left-eigen) lines",
+  "support": [
+   [
+    "A0m",
+    "A0p",
+    "S0"
+   ],
+   [
+    "A0m",
+    "A1m",
+    "A2m"
+   ],
+   [
+    "A0p",
+    "A1p",
+    "A2p"
+   ],
+   [
+    "A1m",
+    "A1p",
+    "S1"
+   ],
+   [
+    "A2m",
+    "A2p",
+    "S2"
+   ],
+   [
+    "S0",
+    "S1",
+    "S2"
+   ]
+  ],
+  "c2_vs_prodq_signs": [
+   "-",
+   "-",
+   "-",
+   "-",
+   "-",
+   "-"
+  ]
+ },
+ "lambda_dual_exact_Hprime": {
+  "value": "2304/953 (exact)",
+  "statement": "same primitive cubic, transported handoff H' = H+ D2, mirror lines: the solo lambda exactified",
+  "c2_vs_prodq_signs": [
+   "+",
+   "+",
+   "+",
+   "+",
+   "+",
+   "+"
+  ]
+ },
+ "lambda_primal_Hprime": {
+  "per_coupling": [
+   "2304/953",
+   "2304/953",
+   "2304/953",
+   "2304/953",
+   "2304/953",
+   "2304/953"
+  ]
+ },
+ "d_ratio_minpolys_desc": {
+  "A0m": [
+   "5308416",
+   "-1907712",
+   "-2195712",
+   "908209"
+  ],
+  "A0p": [
+   "5308416",
+   "-1907712",
+   "-2195712",
+   "908209"
+  ],
+  "A1m": [
+   "5308416",
+   "-1907712",
+   "-2195712",
+   "908209"
+  ],
+  "A1p": [
+   "5308416",
+   "-1907712",
+   "-2195712",
+   "908209"
+  ],
+  "A2m": [
+   "5308416",
+   "-1907712",
+   "-2195712",
+   "908209"
+  ],
+  "A2p": [
+   "5308416",
+   "-1907712",
+   "-2195712",
+   "908209"
+  ],
+  "S0": [
+   "5308416",
+   "9123840",
+   "5077008",
+   "908209"
+  ],
+  "S1": [
+   "5308416",
+   "9123840",
+   "5077008",
+   "908209"
+  ],
+  "S2": [
+   "5308416",
+   "9123840",
+   "5077008",
+   "908209"
+  ]
+ },
+ "d_ratio_arithmetic": {
+  "A0m": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "A0p": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "A1m": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "A1p": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "A2m": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "A2p": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "S0": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "S1": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  },
+  "S2": {
+   "deg": 3,
+   "is_rational": false,
+   "value_if_rational": null,
+   "lead_factor": {
+    "2": 16,
+    "3": 4
+   },
+   "const_factor": {
+    "953": 2
+   }
+  }
+ },
+ "d_products_signs": [
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-"
+ ],
+ "verdict": "BRIDGE COMPUTED -- THE CONVENTION HYPOTHESIS IS REFUTED AND THE DISCREPANCY IS RESOLVED: S is unique up to scale and primitive S is a SIGNED PERMUTATION (both realizations have all entries +-1); the primitive cubic transports IDENTICALLY (t = 1: 'primitive +-1 in its own basis' IS canonical across the mirror); but the two H's are DIFFERENT INVARIANT OBJECTS: H'(solo, transported) = H+(B912) * diag(D2) with 11 sign flips -- the solo M is the tau-twisted dual intertwiner, not the charge-equivariant form, so NO scalar s exists and the factor 2304/953 is NOT a normalization convention.  Both pipelines are arithmetically RIGHT: with the banked H+ the lambda is 1 EXACTLY on the primal nine AND on the mirror nine (realization-independent); with the solo H' the lambda is 2304/953 EXACTLY (exactified here from their 85-digit belt) on the mirror lines.  953 enters through the per-line norm ratios d_i = q^{H'}/q^{H+} whose per-coupling products are (953/2304)^2.",
+ "runtime_s": 151.3
+}

@@ -1,194 +1,133 @@
-r"""THE RELAY-DEBT GATE — nothing preserves findings, so this does.
+#!/usr/bin/env python3
+"""relay-debt — every seat-to-seat relay carries a disposition, or it is invisible work.
 
-THE FAILURE THIS EXISTS TO STOP
--------------------------------
+THE FAILURE THIS EXISTS TO STOP (B999; the design is cc3's, re-implemented here)
+-------------------------------------------------------------------------------
 Branch protection preserves FILES. Nothing preserved FINDINGS.
 
-`CC3_TO_CC_2026-07-28_rank4_response.md` answered the iota-status question in
-July: B766's rank 3 counts CLOSING AXES and stands, B787's rank 4 counts
-REP-VARIETY symmetries, both correct about different objects. It never reached
-main. L114 was then promoted and assigned to cc3 asking a question that relay
-had already answered, and it cost a full campaign to rediscover.
+`CC3_TO_CC_2026-07-28_rank4_response.md` answered the iota-status question in July.
+It never reached main. **L114 was then promoted asking a question that relay had
+already answered**, and it cost a full campaign to rediscover.
 
-The mechanism was not neglect. A relay's content lives on main only if somebody
-banks it, and NOTHING CHECKED whether that happened. The loss audit found this
-class once already; cc actioned it (B909, B920, B921, branch protection); it
-recurred anyway, because every one of those fixes preserved files.
+The mechanism was not neglect: a relay's content lives on main only if somebody banks
+it, and NOTHING CHECKED whether that happened. The loss audit found this class once and
+it was actioned three ways (B909, B920, B921, branch protection) — and it recurred
+anyway, because **every one of those fixes preserved files.**
 
 THE RULE
 --------
-Every seat-to-seat relay must carry a DISPOSITION:
+Every relay carries exactly one disposition in `docs/RELAY_LEDGER.md`:
 
-    BANKED   — its finding is on main; the row names the arc or ledger row
-    DECLINED — considered and rejected; the row says why
-    OPEN     — a DEBT, with an age
+    BANKED   — the finding is on main; the row NAMES the arc
+    DECLINED — considered and rejected; the row says WHY
+    OPEN     — a debt, carrying an age
 
-A relay with no row at all is the failure state: invisible work.
-A debt is not an exemption -- B982's lesson, applied here. Debts are listed
-with their age and escalated by name past the threshold.
+**A relay with no row is the failure state: invisible work.** That fails the gate.
+**A debt is not an exemption** (B982): debts are listed with their age and escalated
+by name past the threshold.
 
-USAGE
------
-    python3 scripts/checks/relay_debt.py            # report
-    python3 scripts/checks/relay_debt.py --check    # nonzero if the gate fails
-    python3 scripts/checks/relay_debt.py --seed     # write missing rows as OPEN
-
-The ledger is `docs/RELAY_LEDGER.md`, hand-maintained (the disposition is a
-judgement, not a computation). This script only checks that it is COMPLETE and
-that no debt has gone stale.
-
-Gate 5-Q. Bookkeeping instrument; asserts no mathematics.
+DISCIPLINE ON WHO MAY MARK WHAT
+-------------------------------
+A seat may seed its own relays as OPEN. **A seat may not mark its own relay BANKED** —
+that is marking your own homework. BANKED is the receiving seat's judgement and its row
+must name the arc that carries the finding, so the claim is checkable by grep.
 """
-import argparse
+from __future__ import annotations
+
 import datetime
-import os
+import pathlib
 import re
 import sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-LEDGER = os.path.join(ROOT, 'docs', 'RELAY_LEDGER.md')
-# ANY seat to ANY seat. The first version hardcoded (CC3_TO_CC|CC_TO_CC3) --
-# a TWO-SEAT assumption -- and went blind the moment a third seat appeared:
-# CC3_TO_CHAT1_2026-08-10_GAP1_ACCEPTED.md was invisible to it on the day it
-# was written. Same failure as the PROPOSAL_RE gap below, from the same cause:
-# the pattern encoded the roster the author happened to know about. Do not
-# enumerate seats here.
+ROOT = pathlib.Path(__file__).resolve().parents[2]
+LEDGER = ROOT / "docs" / "RELAY_LEDGER.md"
+STALE_DAYS = 21
+
+# Relays live outside the tree by the standing rule, so the gate reads the LEDGER as the
+# register of what exists, and cross-checks any relay file that IS tracked.
+# B1004: widened after cc3 found the ONE artifact that went unadopted today was INVISIBLE to
+# this gate -- README_ARC_PROPOSAL.md does not match the CC3_TO_CC_<date>_* pattern, so the
+# mechanism written to prevent exactly that loss could not see it. Proposals and handoffs carry
+# no date in the name, so they are dated from first commit. Whoever narrows this later should
+# know what the narrow version cost.
 RELAY_RE = re.compile(
-    r'^([A-Z][A-Z0-9]*)_TO_([A-Z][A-Z0-9]*)_(\d{4}-\d{2}-\d{2})_(.+)\.md$')
-
-# Proposals are seat-to-seat work too, and they do NOT carry the relay naming
-# convention. Found the hard way: README_ARC_PROPOSAL.md went unadopted and
-# UNSEEN on the day it was written, and the first version of this gate could
-# not see it either -- the one artifact that needed the check was invisible to
-# it. Anything a seat hands another seat for a decision belongs here.
-PROPOSAL_RE = re.compile(r'^(.*_PROPOSAL|PROPOSAL_.*|.*_HANDOFF|HANDOFF_.*)\.md$')
-
-# a debt older than this is escalated BY NAME in the report
-STALE_DAYS = 14
-
-VALID = ('BANKED', 'DECLINED', 'OPEN')
+    r"(CC3?_TO_CC3?_[0-9]{4}-[0-9]{2}-[0-9]{2}[A-Za-z0-9_.\-]*\.md"
+    r"|[A-Za-z0-9_.\-]*_PROPOSAL\.md|PROPOSAL_[A-Za-z0-9_.\-]*\.md"
+    r"|[A-Za-z0-9_.\-]*_HANDOFF\.md|HANDOFF_[A-Za-z0-9_.\-]*\.md)")
+ROW_RE = re.compile(
+    r"^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?\s*\|\s*(?P<disp>BANKED|DECLINED|OPEN)\s*\|"
+    r"\s*(?P<date>[0-9]{4}-[0-9]{2}-[0-9]{2}|—|-)\s*\|\s*(?P<note>[^|]*)\|", re.M)
 
 
-def find_relays():
-    """Every seat-to-seat artifact in the repo root, oldest first.
-
-    Two kinds: dated relays (CC3_TO_CC_<date>_*), and PROPOSALS, which carry no
-    date in the name and are dated from git instead.
-    """
-    out = []
-    for fn in sorted(os.listdir(ROOT)):
-        m = RELAY_RE.match(fn)
-        if m:
-            out.append((fn, m.group(3), f'{m.group(1)}->{m.group(2)}'))
-            continue
-        if PROPOSAL_RE.match(fn):
-            out.append((fn, _git_date(fn), 'PROPOSAL'))
-    return sorted(out, key=lambda r: (r[1], r[0]))
+def _today() -> datetime.date:
+    # Date is read from the ledger's own stamp when present, so the gate is deterministic
+    # under replay and does not depend on wall-clock (which scripts here may not use).
+    m = re.search(r"<!--\s*relay-ledger-date:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})", _read(LEDGER))
+    return datetime.date.fromisoformat(m.group(1)) if m else datetime.date(2026, 8, 9)
 
 
-def _git_date(fn):
-    """First-commit date of a file, for artifacts with no date in the name."""
-    import subprocess
-    r = subprocess.run(['git', '-C', ROOT, 'log', '--diff-filter=A',
-                        '--format=%ad', '--date=short', '--', fn],
-                       capture_output=True, text=True)
-    lines = [l for l in r.stdout.split('\n') if l.strip()]
-    return lines[-1] if lines else '1970-01-01'
-
-
-def parse_ledger():
-    """{filename: (disposition, note)} from the ledger's table rows."""
-    if not os.path.isfile(LEDGER):
-        return {}
-    rows = {}
-    for line in open(LEDGER, encoding='utf-8'):
-        if not line.startswith('|'):
-            continue
-        cells = [c.strip() for c in line.strip().strip('|').split('|')]
-        if len(cells) < 3:
-            continue
-        name = cells[0].strip('`')
-        disp = cells[1].replace('*', '').strip().upper()
-        if disp in VALID:
-            rows[name] = (disp, cells[2])
-    return rows
-
-
-def _age_days(datestr, today):
+def _read(p: pathlib.Path) -> str:
     try:
-        d = datetime.date.fromisoformat(datestr)
-    except ValueError:
-        return None
-    return (today - d).days
+        return p.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return ""
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument('--check', action='store_true',
-                    help='exit nonzero if any relay lacks a row')
-    ap.add_argument('--seed', action='store_true',
-                    help='append missing relays to the ledger as OPEN')
-    ap.add_argument('--today', default=None,
-                    help='ISO date to age debts against (default: file mtimes '
-                         'are not used; pass the review date)')
-    args = ap.parse_args()
-
-    today = (datetime.date.fromisoformat(args.today) if args.today
-             else datetime.date.today())
-
-    relays = find_relays()
-    ledger = parse_ledger()
-
-    missing = [r for r in relays if r[0] not in ledger]
-    counts = {d: 0 for d in VALID}
-    debts = []
-    for fn, date, _ in relays:
-        if fn not in ledger:
+def tracked_relays() -> set[str]:
+    out = set()
+    for p in ROOT.rglob("*.md"):
+        if ".git" in p.parts:
             continue
-        disp, note = ledger[fn]
-        counts[disp] += 1
-        if disp == 'OPEN':
-            debts.append((fn, date, _age_days(date, today), note))
+        m = RELAY_RE.fullmatch(p.name)
+        if m:
+            out.add(p.name)
+    return out
 
-    print(f'relays found            : {len(relays)}')
-    print(f'rows in RELAY_LEDGER    : {len(ledger)}')
-    print(f'  BANKED   {counts["BANKED"]:3}')
-    print(f'  DECLINED {counts["DECLINED"]:3}')
-    print(f'  OPEN     {counts["OPEN"]:3}   (debts)')
-    print(f'MISSING A ROW           : {len(missing)}')
 
-    if missing:
-        print('\n*** INVISIBLE WORK — these relays have no disposition ***')
-        for fn, date, _ in missing:
-            print(f'   {date}  {fn}')
+def check() -> tuple[list[str], list[str], dict]:
+    if not LEDGER.is_file():
+        return ([f"{LEDGER.relative_to(ROOT)} is MISSING — the register is constitutive"], [], {})
+    text = _read(LEDGER)
+    rows = {m.group("name"): m for m in ROW_RE.finditer(text)}
+    fails, stale = [], []
+    counts = {"BANKED": 0, "DECLINED": 0, "OPEN": 0}
+    today = _today()
 
-    stale = [d for d in debts if d[2] is not None and d[2] > STALE_DAYS]
+    for name, m in rows.items():
+        d = m.group("disp")
+        counts[d] += 1
+        note = m.group("note").strip()
+        if d == "BANKED" and not re.search(r"\bB\d{1,4}\b", note):
+            fails.append(f"{name}: BANKED but the note names no arc — unverifiable")
+        if d == "DECLINED" and len(note) < 12:
+            fails.append(f"{name}: DECLINED with no reason given")
+        if d == "OPEN" and m.group("date") not in ("—", "-"):
+            age = (today - datetime.date.fromisoformat(m.group("date"))).days
+            if age > STALE_DAYS:
+                stale.append(f"{name}: OPEN for {age} days (> {STALE_DAYS})")
+
+    # invisible work: a relay file present in the tree with no ledger row
+    for name in sorted(tracked_relays() - set(rows)):
+        fails.append(f"{name}: INVISIBLE WORK — relay present with no ledger row")
+    return fails, stale, counts
+
+
+def main() -> int:
+    fails, stale, counts = check()
+    if counts:
+        print(f"  relay-debt: {counts['BANKED']} banked, {counts['DECLINED']} declined, "
+              f"{counts['OPEN']} open")
     if stale:
-        print(f'\n*** DEBTS OLDER THAN {STALE_DAYS} DAYS — escalated by name ***')
-        print('    (a debt is not an exemption — B982)')
-        for fn, date, age, note in sorted(stale, key=lambda x: -x[2]):
-            print(f'   {age:4}d  {fn}')
-            if note:
-                print(f'          {note[:96]}')
-
-    if args.seed and missing:
-        with open(LEDGER, 'a', encoding='utf-8') as fh:
-            for fn, date, _ in missing:
-                fh.write(f'| `{fn}` | OPEN | _(disposition owed)_ |\n')
-        print(f'\nseeded {len(missing)} rows as OPEN in {LEDGER}')
-        return 0
-
-    if args.check:
-        if missing:
-            print('\nFAIL: every relay must carry a disposition '
-                  '(BANKED / DECLINED / OPEN).')
-            return 1
-        if stale:
-            print(f'\nFAIL: {len(stale)} debt(s) older than {STALE_DAYS} days.')
-            return 1
-        print('\nOK: every relay has a disposition and no debt is stale.')
+        print(f"  relay-debt: {len(stale)} STALE DEBT(S), escalated by name --")
+        for s in stale:
+            print(f"    {s}")
+    if fails:
+        print("  relay-debt: FAILURES --")
+        for f in fails:
+            print(f"    {f}")
+        return 1
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())

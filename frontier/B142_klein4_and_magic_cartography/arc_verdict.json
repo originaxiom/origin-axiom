@@ -1,0 +1,10 @@
+{
+ "id": "B142",
+ "verdict": "PROVED",
+ "claim_one_line": "A Klein-4 argument proves the principal phi-fixed stratum reducible without any search, and the s776 Borromean/SU(3) enhancement claim fails on three counts.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": "B141",
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

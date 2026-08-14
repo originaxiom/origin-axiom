@@ -1,0 +1,61 @@
+{
+ "A4": {
+  "five": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "five_expect": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "ok": true,
+  "ten": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "ten_expect": [
+   0,
+   0,
+   1,
+   0
+  ]
+ },
+ "D5": {
+  "ok": true,
+  "sixteen": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "sixteen_expect": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ]
+ },
+ "b860_cores": {
+  "note": "B860's computed even parts -- the same involution class",
+  "sm": 4,
+  "su3u1u1": 3,
+  "su4u1": 6,
+  "su5": 10
+ },
+ "gate_is_linear": true,
+ "ok": true,
+ "separation": "gate's C = the linear outer (-w0/theta-class) involution at every level; theta(matrix form) realizes it (X -> -X^T on A-type; Ad(det=-1 reflection) on D-type); c (ANTILINEAR) appears nowhere in the cascade -- it is the real-structure/layer-8 coordinate. The three involutions are now separated at cascade level; the B780/B784/C21 conflation cannot recur here.",
+ "so10_core": {
+  "dim_so10": 45,
+  "fixed": 36,
+  "is_so9_36": true
+ }
+}

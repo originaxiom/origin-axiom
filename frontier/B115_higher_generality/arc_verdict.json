@@ -1,0 +1,10 @@
+{
+ "id": "B115",
+ "verdict": "OPEN",
+ "claim_one_line": "Off-locus SL(4) content and genus-2 degree=rank both remain unsettled, blocked by the missing SL(4) classification and genus-2 peripheral machinery.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

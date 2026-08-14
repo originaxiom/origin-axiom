@@ -1,0 +1,31 @@
+{
+ "surface_audited": "docs/LAW_MAP.md",
+ "claim_rows": 165,
+ "method": "mechanical: for each row, load every cited arc's verdict and check whether scope-limiting language present in the VERDICT is absent from the ROW",
+ "rows_flagged": 5,
+ "all_flagged_rows_are_from": "2026-08-08 (today)",
+ "older_rows_flagged": 0,
+ "adjudicated": {
+  "NO_CENTRALIZER_rank4": {
+   "verdict": "PASS",
+   "why": "carries 'SCOPE NOW UNCONDITIONAL (B960)' and names '(Steinberg)' as the citation"
+  },
+  "TWO_SEEDS": {
+   "verdict": "FIX",
+   "defect": "stated an INFERENCE as a fact",
+   "detail": "the shed directions U(1)_psi / U(1)_chi are INFERRED from the rank bookkeeping, not computed -- B953's own verdict says so explicitly, the row did not"
+  },
+  "TAU_DOUBLE_DUTY": {
+   "verdict": "FIX",
+   "defect": "presented CITED standard facts as established here",
+   "detail": "the three equivalences (w0 = -tau; -1 in W <=> self-dual; outer = tau) are standard and cited; only tau's existence and the 63 gradings were computed"
+  },
+  "F4_IS_THE_GENERIC_VEV": {
+   "verdict": "FIX",
+   "defect": "used 'VEV' bare -- the exact class B964 retracted",
+   "detail": "every VEV in that row is a 27 VEV; adjoint VEVs are the measurement cascade and behave OPPOSITELY. The error class was retracted an hour earlier and was still live in a row written today"
+  }
+ },
+ "fixes_applied": 3,
+ "headline": "the audit's own hit rate says the problem is RATE, not competence: 0 of the older rows carry unscoped claims; 5 of 5 flagged rows were written today, and 3 needed real fixes -- including one instance of an error class retracted an hour before"
+}

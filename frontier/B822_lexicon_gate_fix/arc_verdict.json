@@ -1,0 +1,10 @@
+{
+ "id": "B822",
+ "verdict": "PROVED",
+ "claim_one_line": "The lexicon gate's new size floor (FINDINGS.md >= 2000 bytes) removed 14 of the 22 blind arcs leaving 8, meeting both sealed criteria, and the ROTTING verdict text was replaced by composition reporting.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

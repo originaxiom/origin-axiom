@@ -1,0 +1,10 @@
+{
+ "id": "B458",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Every non-geometric SL(3) component of the figure-eight, including the Q(sqrt-7) pair, has complex volume 0 + i*0, while the 5_2 control is generically nonzero - there is no internal component-level asymmetry to decompose.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

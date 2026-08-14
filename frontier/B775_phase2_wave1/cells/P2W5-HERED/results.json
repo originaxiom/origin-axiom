@@ -1,0 +1,740 @@
+{
+ "H1_mirror": {
+  "proved": true,
+  "verified_to_n": 24,
+  "u_minus1": 3,
+  "u_minus2": 15
+ },
+ "H2_period": {
+  "proved": true,
+  "pure_periodic": true,
+  "periods": {
+   "5": 10,
+   "13": 48,
+   "17": 8,
+   "29": 102,
+   "37": 8,
+   "41": 60,
+   "73": 186,
+   "317": 42,
+   "349": 16,
+   "613": 736,
+   "580": 1020,
+   "584": 372,
+   "22681": 736,
+   "22685": 240
+  },
+  "bound": "pi(p) <= #X(F_p) = p^2 + 3p + 1 (p=1 mod 4)"
+ },
+ "H3_heredity": {
+  "proved": true,
+  "statement": "for every k and every d | u_k -+ 2: d | u_n^2-4 for all n = +-k mod pi(d)",
+  "exact_verification": [
+   {
+    "k": 1,
+    "side": "+2",
+    "d": 5,
+    "pi": 10,
+    "nH": 5,
+    "H_mod_pi": [
+     1,
+     4,
+     5,
+     6,
+     9
+    ],
+    "forced_n_verified_exactly": [
+     9,
+     11,
+     19,
+     21
+    ],
+    "exact_hits_n_le_27": [
+     1,
+     4,
+     5,
+     6,
+     9,
+     11,
+     14,
+     15,
+     16,
+     19,
+     21,
+     24,
+     25,
+     26
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 2,
+    "side": "-2",
+    "d": 13,
+    "pi": 48,
+    "nH": 12,
+    "H_mod_pi": [
+     2,
+     5,
+     11,
+     13,
+     19,
+     22,
+     26,
+     29,
+     35,
+     37,
+     43,
+     46
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     2,
+     5,
+     11,
+     13,
+     19,
+     22,
+     26
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 2,
+    "side": "+2",
+    "d": 17,
+    "pi": 8,
+    "nH": 2,
+    "H_mod_pi": [
+     2,
+     6
+    ],
+    "forced_n_verified_exactly": [
+     6,
+     10,
+     14,
+     18,
+     22,
+     26
+    ],
+    "exact_hits_n_le_27": [
+     2,
+     6,
+     10,
+     14,
+     18,
+     22,
+     26
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 3,
+    "side": "-2",
+    "d": 37,
+    "pi": 8,
+    "nH": 2,
+    "H_mod_pi": [
+     3,
+     5
+    ],
+    "forced_n_verified_exactly": [
+     5,
+     11,
+     13,
+     19,
+     21,
+     27
+    ],
+    "exact_hits_n_le_27": [
+     3,
+     5,
+     11,
+     13,
+     19,
+     21,
+     27
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 3,
+    "side": "+2",
+    "d": 41,
+    "pi": 60,
+    "nH": 8,
+    "H_mod_pi": [
+     3,
+     9,
+     21,
+     27,
+     33,
+     39,
+     51,
+     57
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     3,
+     9,
+     21,
+     27
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 4,
+    "side": "-2",
+    "d": 580,
+    "pi": 1020,
+    "nH": 12,
+    "H_mod_pi": [
+     4,
+     64,
+     276,
+     336,
+     344,
+     404,
+     616,
+     676,
+     684,
+     744,
+     956,
+     1016
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     4
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 4,
+    "side": "-2",
+    "d": 29,
+    "pi": 102,
+    "nH": 12,
+    "H_mod_pi": [
+     4,
+     7,
+     27,
+     30,
+     38,
+     41,
+     61,
+     64,
+     72,
+     75,
+     95,
+     98
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     4,
+     7,
+     27
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 4,
+    "side": "+2",
+    "d": 584,
+    "pi": 372,
+    "nH": 12,
+    "H_mod_pi": [
+     4,
+     8,
+     116,
+     120,
+     128,
+     132,
+     240,
+     244,
+     252,
+     256,
+     364,
+     368
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     4,
+     8
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 4,
+    "side": "+2",
+    "d": 73,
+    "pi": 186,
+    "nH": 18,
+    "H_mod_pi": [
+     4,
+     8,
+     19,
+     43,
+     54,
+     58,
+     66,
+     70,
+     81,
+     105,
+     116,
+     120,
+     128,
+     132,
+     "..."
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     4,
+     8,
+     19
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 5,
+    "side": "-2",
+    "d": 22681,
+    "pi": 736,
+    "nH": 4,
+    "H_mod_pi": [
+     5,
+     275,
+     461,
+     731
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     5
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 5,
+    "side": "-2",
+    "d": 613,
+    "pi": 736,
+    "nH": 8,
+    "H_mod_pi": [
+     5,
+     275,
+     327,
+     338,
+     398,
+     409,
+     461,
+     731
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     5
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 5,
+    "side": "+2",
+    "d": 22685,
+    "pi": 240,
+    "nH": 12,
+    "H_mod_pi": [
+     5,
+     11,
+     59,
+     85,
+     91,
+     101,
+     139,
+     149,
+     155,
+     181,
+     229,
+     235
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     5,
+     11
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 5,
+    "side": "+2",
+    "d": 349,
+    "pi": 16,
+    "nH": 2,
+    "H_mod_pi": [
+     5,
+     11
+    ],
+    "forced_n_verified_exactly": [
+     11,
+     21,
+     27
+    ],
+    "exact_hits_n_le_27": [
+     5,
+     11,
+     21,
+     27
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 6,
+    "side": "-2",
+    "d": 13201465,
+    "pi": 66360,
+    "nH": 16,
+    "H_mod_pi": [
+     6,
+     3786,
+     9486,
+     13266,
+     19914,
+     23694,
+     29394,
+     33174,
+     33186,
+     36966,
+     42666,
+     46446,
+     53094,
+     56874,
+     "..."
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     6
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 6,
+    "side": "-2",
+    "d": 317,
+    "pi": 42,
+    "nH": 6,
+    "H_mod_pi": [
+     6,
+     8,
+     20,
+     22,
+     34,
+     36
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     6,
+     8,
+     20,
+     22
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 6,
+    "side": "-2",
+    "d": 8329,
+    "pi": 1896,
+    "nH": 4,
+    "H_mod_pi": [
+     6,
+     942,
+     954,
+     1890
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     6
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 6,
+    "side": "+2",
+    "d": 13201469,
+    "pi": 5856,
+    "nH": 4,
+    "H_mod_pi": [
+     6,
+     2922,
+     2934,
+     5850
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     6
+    ],
+    "iff_ok": true,
+    "ok": true
+   },
+   {
+    "k": 6,
+    "side": "+2",
+    "d": 776557,
+    "pi": 5856,
+    "nH": 4,
+    "H_mod_pi": [
+     6,
+     2922,
+     2934,
+     5850
+    ],
+    "forced_n_verified_exactly": [],
+    "exact_hits_n_le_27": [
+     6
+    ],
+    "iff_ok": true,
+    "ok": true
+   }
+  ],
+  "exact_prediction_ok": true,
+  "n_exact_positive_confirmations": 19,
+  "exact_iff_ok": true,
+  "exact_negative_control_ok": true
+ },
+ "H4_sieve": {
+  "proved": true,
+  "law": "odd p | u_n^2-4  =>  p = 1 mod 4;  3 never;  v2 = 5 iff 4|n",
+  "oddpart_mod4_ok_to_n": 27,
+  "scans": {
+   "3-3000": {
+    "primes": 429,
+    "p_1mod4": 211,
+    "nonempty": 150,
+    "violations_p_3mod4": [],
+    "odd_periods": []
+   },
+   "3000-7000": {
+    "primes": 470,
+    "p_1mod4": 231,
+    "nonempty": 165,
+    "violations_p_3mod4": [],
+    "odd_periods": []
+   }
+  }
+ },
+ "H5_wall": {
+  "rank_of_apparition_route": "REFUTED (exact witnesses)",
+  "residual": "orbit length of the Vieta map on X(F_p) -- EXTERNAL",
+  "witnesses": {
+   "W1_not_divisibility_sequence": {
+    "p": 17,
+    "alpha": 2,
+    "pi": 8,
+    "H": [
+     2,
+     6
+    ],
+    "counter_n": 4,
+    "disc4": 338720
+   },
+   "W2_not_an_AP": {
+    "p": 41,
+    "pi": 60,
+    "H": [
+     3,
+     9,
+     21,
+     27,
+     33,
+     39,
+     51,
+     57
+    ],
+    "missing_from_AP": [
+     15,
+     45
+    ]
+   },
+   "W3_pi_not_an_element_order": [
+    {
+     "p": 29,
+     "pi": 102,
+     "divides_p2m1": false,
+     "divides_|SL2p|": false
+    },
+    {
+     "p": 61,
+     "pi": 18,
+     "divides_p2m1": false,
+     "divides_|SL2p|": false
+    },
+    {
+     "p": 97,
+     "pi": 616,
+     "divides_p2m1": false,
+     "divides_|SL2p|": false
+    },
+    {
+     "p": 137,
+     "pi": 978,
+     "divides_p2m1": false,
+     "divides_|SL2p|": false
+    }
+   ],
+   "W4_forced_lattice_vs_full_H": [
+    {
+     "k": 1,
+     "side": "+2",
+     "d": 5,
+     "pi": 10,
+     "extra_beyond_forced": 3
+    },
+    {
+     "k": 2,
+     "side": "-2",
+     "d": 13,
+     "pi": 48,
+     "extra_beyond_forced": 10
+    },
+    {
+     "k": 2,
+     "side": "+2",
+     "d": 17,
+     "pi": 8,
+     "extra_beyond_forced": 0
+    },
+    {
+     "k": 3,
+     "side": "-2",
+     "d": 37,
+     "pi": 8,
+     "extra_beyond_forced": 0
+    },
+    {
+     "k": 3,
+     "side": "+2",
+     "d": 41,
+     "pi": 60,
+     "extra_beyond_forced": 6
+    },
+    {
+     "k": 4,
+     "side": "-2",
+     "d": 580,
+     "pi": 1020,
+     "extra_beyond_forced": 10
+    },
+    {
+     "k": 4,
+     "side": "-2",
+     "d": 29,
+     "pi": 102,
+     "extra_beyond_forced": 10
+    },
+    {
+     "k": 4,
+     "side": "+2",
+     "d": 584,
+     "pi": 372,
+     "extra_beyond_forced": 10
+    },
+    {
+     "k": 4,
+     "side": "+2",
+     "d": 73,
+     "pi": 186,
+     "extra_beyond_forced": 16
+    },
+    {
+     "k": 5,
+     "side": "-2",
+     "d": 22681,
+     "pi": 736,
+     "extra_beyond_forced": 2
+    },
+    {
+     "k": 5,
+     "side": "-2",
+     "d": 613,
+     "pi": 736,
+     "extra_beyond_forced": 6
+    },
+    {
+     "k": 5,
+     "side": "+2",
+     "d": 22685,
+     "pi": 240,
+     "extra_beyond_forced": 10
+    },
+    {
+     "k": 5,
+     "side": "+2",
+     "d": 349,
+     "pi": 16,
+     "extra_beyond_forced": 0
+    },
+    {
+     "k": 6,
+     "side": "-2",
+     "d": 13201465,
+     "pi": 66360,
+     "extra_beyond_forced": 14
+    },
+    {
+     "k": 6,
+     "side": "-2",
+     "d": 317,
+     "pi": 42,
+     "extra_beyond_forced": 4
+    },
+    {
+     "k": 6,
+     "side": "-2",
+     "d": 8329,
+     "pi": 1896,
+     "extra_beyond_forced": 2
+    },
+    {
+     "k": 6,
+     "side": "+2",
+     "d": 13201469,
+     "pi": 5856,
+     "extra_beyond_forced": 2
+    },
+    {
+     "k": 6,
+     "side": "+2",
+     "d": 776557,
+     "pi": 5856,
+     "extra_beyond_forced": 2
+    }
+   ]
+  }
+ },
+ "verdict": "RESOLVED-A",
+ "headline": "The B471 heredity conjecture is a THEOREM: for every ancestor k and every d | u_k -+ 2, d | u_n^2 - 4 for all n = +-k (mod pi(d)) -- explicit infinite symmetric lattice, from the chain mirror u_{-n} = u_n plus pure periodicity; plus the new sieve (every odd prime divisor is = 1 mod 4). The named rank-of-apparition route is REFUTED (H(d) is not a Lucas divisibility set, not even an AP); the residual exact period pi(p) is EXTERNAL.",
+ "discriminating_fact": "Mirror + pure periodicity: u_{-1} = u_1*u_0 - u_2 = 3 = u_1 and u_{-2} = 15 = u_2, so u_{-n} = u_n identically; the state map T(x,y,z) = (y,z,yz-x) has the exact inverse (b*a-c, a, b), so (u_n mod d) is PURELY periodic. Hence d | u_k -+ 2 forces d | u_n^2-4 on the whole symmetric lattice n = +-k mod pi(d) -- verified with EXACT big integers (no modular shortcut) at 12 ancestor divisors, e.g. 17 | u_10^2-4 and 37 | u_11^2-4 and 349 | u_21^2-4, with the complementary n exactly failing. The sieve: y = +-2 on the Markov cubic gives (x -+ z)^2 = -4, so every odd prime divisor of any u_n^2-4 satisfies p = 1 (mod 4) -- 0 violations over 899 primes in two ranges and over the odd parts of u_n^2-4 up to n=27 (~10^5 digits). The refutation of the named route: for p = 17, alpha = 2 lies in H but 4 does not (17 does not divide u_4^2-4 = 338720), so {n : p | u_n^2-4} is not alpha*Z -- the Lucas divisibility-sequence property that rank-of-apparition rests on FAILS; and for p = 41 the set H = {3,9,21,27,33,39,51,57} mod 60 is (n = 3 mod 6) minus {15,45}, not even an AP; and pi(29) = 102, pi(61) = 18 divide neither p^2-1 nor |SL(2,p)|.",
+ "terminal_state": "general law PROVEN (H1-H4); the rank-of-apparition route REFUTED (H5); residual = exact orbit length pi(p) of the Vieta map on X(F_p), EXTERNAL",
+ "gate": {
+  "structural_only": true,
+  "no_SM_values": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true,
+  "exact_symbolic": true,
+  "floats_used": false
+ },
+ "all_checks_pass": true
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B52",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The naive three-channel Fibonacci tight-binding model gives a 6x6 symplectic doubled-phase cocycle, not SL(3): the PC12 physics dictionary fails.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

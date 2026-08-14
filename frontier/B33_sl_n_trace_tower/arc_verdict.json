@@ -1,0 +1,10 @@
+{
+ "id": "B33",
+ "verdict": "PROVED",
+ "claim_one_line": "SL(2) and SL(3) trace-map Jacobian spectra decompose exactly as symmetric powers of the half-step eigenvalues (Sym^2; Sym^3+Sym^2+trivial).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

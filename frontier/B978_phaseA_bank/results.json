@@ -1,0 +1,47 @@
+{
+ "dispositions": {
+  "L134": {
+   "verdict": "CLOSED",
+   "why": "not an independent gap -- <S> != 0 IS E6 -> SO(10), the same input at the same step as L133/L138"
+  },
+  "L132": {
+   "verdict": "CLOSED, VACUOUS (triply)",
+   "why": "reproduces B864 -- and the cell independently identified it as A PRIOR-ART MISS INSIDE OUR OWN CORPUS, corroborating B976 from a different direction"
+  },
+  "L137": {
+   "verdict": "CLOSED, REFUTED",
+   "why": "no successor; and B947's pass/fail is a property of a CHOSEN NORMALISATION of a cubic, not of the locus it describes"
+  },
+  "L135": {
+   "verdict": "DISCHARGED for the rebuild (51/51, two fresh primes)",
+   "why": "BLOCKED only on char-0 exactification over K; it unblocks L142"
+  }
+ },
+ "V5_VERIFIED_HERE": {
+  "claim": "all 27 weights lie in one nontrivial Z/3 centre class, so 27 x 27 has centre charge 2/3 and the 78 does NOT occur in it",
+  "how_verified": "by LATTICE MEMBERSHIP on this bench: omega_1 in the root basis is (4/3,1,5/3,2,4/3,2/3); 1*omega_1 and 2*omega_1 are NOT in Q, 3*omega_1 IS -- so class(27) has ORDER 3 and 2*class(27) != 0",
+  "consequence": "NO ADJOINT VEV CAN GIVE ANY 27 FERMION A MASS. A Yukawa needs total centre charge 0; a 27-bilinear carries 2*class(27) != 0 and the adjoint carries 0. Mass requires a 27 (or 27bar) VEV -- the SAME fact (omega_1 not in Q) that makes the 27 complex and that B960 used to close the adjoint-form hatch.",
+  "significance": "it gives the verdict's headline a MECHANISM it previously lacked: the adjoint half does gauge structure and provably CANNOT do matter mass"
+ },
+ "THE_SCOPING_CORRECTION": {
+  "finding": "the A2+A1 Levi does NOT label matter vs exotic -- 18 of 27 states change side across the three so(10)s above it",
+  "consequence": "'the object supplies the adjoint half' must be scoped to the PATH, not the LANDING SITE",
+  "status": "accepted; the verdict's one sentence needs the qualifier"
+ },
+ "THIRD_INSTANCE_OF_THE_SAME_FAILURE": {
+  "what": "B958/B961 stated the frame could not be rebuilt without the solo seat's definitions",
+  "reality": "they were already in CMT_DRAFT.md section 2, and B911 had already built the frame",
+  "so_today_has_three": [
+   "B950: the global Z6 form declared 'not addressed' -- B862 derives it",
+   "B976: hypercharge declared 'OPEN, the sharpest target' -- B864 derived it",
+   "B974: the frame declared unrebuildable -- CMT_DRAFT had the definitions and B911 had built it"
+  ],
+  "reading": "three instances in one day of DECLARING ABSENT WHAT EXISTS. This is precisely the class representation-sweep (B977) was built for, and it is the owner's reported exhaustion, measured."
+ },
+ "instrument_correction": {
+  "file": "frontier/B961_frame_instrument/frame.py",
+  "issue": "the self-test's su(3)_colour is the STANDARD A2 LEVI, not derived(floor)",
+  "impact": "both give dim Z = 16, so B958's dimension-only condition SURVIVES; but any finer test must use the floor's, and conjugacy is CONSISTENT WITH, not PROVED BY, equal dimension",
+  "fixed": "comment added at the call site"
+ }
+}

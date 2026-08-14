@@ -1,0 +1,171 @@
+{
+ "cell": "P2W3-S031A",
+ "OI": "OI-071",
+ "system": "A g^{-1} A g = g A g^{-1}  ==>  gAgA = Ag^2, B=g^{-1}Ag, SL(3)",
+ "reduction_verified": true,
+ "strata": {
+  "principal {1,-1,-1} (order 2, B142)": {
+   "eigs": [
+    "(1+0j)",
+    "(-1+0j)",
+    "(-1+0j)"
+   ],
+   "mult_pattern": [
+    1,
+    2
+   ],
+   "dim_ZA": 5,
+   "converged_invertible": 238,
+   "n_well_conditioned": 238,
+   "cond_number_max": 240.96808587454942,
+   "local_dim_wellcond": [
+    5
+   ],
+   "max_local_dim_wellcond": 5,
+   "char_locus_dim_wellcond": 0,
+   "algebra_dims_seen_gaprank": [
+    3
+   ],
+   "n_irreducible": 0,
+   "n_reducible_by_invariant_subspace": 238,
+   "any_irreducible": false,
+   "phi_fixed_charcoord_maxdev": 1.6653345369377348e-16
+  },
+  "{1, i, -i} (order 4)": {
+   "eigs": [
+    "(1+0j)",
+    "1j",
+    "(-0-1j)"
+   ],
+   "mult_pattern": [
+    1,
+    1,
+    1
+   ],
+   "dim_ZA": 3,
+   "converged_invertible": 171,
+   "n_well_conditioned": 171,
+   "cond_number_max": 11916.164332910252,
+   "local_dim_wellcond": [
+    3,
+    4,
+    5
+   ],
+   "max_local_dim_wellcond": 5,
+   "char_locus_dim_wellcond": 2,
+   "algebra_dims_seen_gaprank": [
+    1,
+    5,
+    7
+   ],
+   "n_irreducible": 0,
+   "n_reducible_by_invariant_subspace": 171,
+   "any_irreducible": false,
+   "phi_fixed_charcoord_maxdev": 2.953301466761327e-16
+  },
+  "{1, w, w^2} (order 3)": {
+   "eigs": [
+    "(1+0j)",
+    "(-0.5+0.8660254037844386j)",
+    "(-0.5-0.8660254037844386j)"
+   ],
+   "mult_pattern": [
+    1,
+    1,
+    1
+   ],
+   "dim_ZA": 3,
+   "converged_invertible": 0,
+   "n_well_conditioned": 0,
+   "cond_number_max": null,
+   "local_dim_wellcond": [],
+   "max_local_dim_wellcond": null,
+   "char_locus_dim_wellcond": null,
+   "algebra_dims_seen_gaprank": [],
+   "n_irreducible": 0,
+   "n_reducible_by_invariant_subspace": 0,
+   "any_irreducible": false,
+   "phi_fixed_charcoord_maxdev": null
+  },
+  "generic-regular {2,3,1/6}": {
+   "eigs": [
+    "(2+0j)",
+    "(3+0j)",
+    "(0.16666666666666666+0j)"
+   ],
+   "mult_pattern": [
+    1,
+    1,
+    1
+   ],
+   "dim_ZA": 3,
+   "converged_invertible": 0,
+   "n_well_conditioned": 0,
+   "cond_number_max": null,
+   "local_dim_wellcond": [],
+   "max_local_dim_wellcond": null,
+   "char_locus_dim_wellcond": null,
+   "algebra_dims_seen_gaprank": [],
+   "n_irreducible": 0,
+   "n_reducible_by_invariant_subspace": 0,
+   "any_irreducible": false,
+   "phi_fixed_charcoord_maxdev": null
+  },
+  "generic-regular random (mu^2!=1, not root of unity)": {
+   "eigs": [
+    "(1.7+0.4j)",
+    "(0.9-1.3j)",
+    "(0.2688524590163935+0.24262295081967217j)"
+   ],
+   "mult_pattern": [
+    1,
+    1,
+    1
+   ],
+   "dim_ZA": 3,
+   "converged_invertible": 0,
+   "n_well_conditioned": 0,
+   "cond_number_max": null,
+   "local_dim_wellcond": [],
+   "max_local_dim_wellcond": null,
+   "char_locus_dim_wellcond": null,
+   "algebra_dims_seen_gaprank": [],
+   "n_irreducible": 0,
+   "n_reducible_by_invariant_subspace": 0,
+   "any_irreducible": false,
+   "phi_fixed_charcoord_maxdev": null
+  }
+ },
+ "groebner_principal": {
+  "ok": true,
+  "p": 32003,
+  "gb_size": 8,
+  "krull_dim_with_t": 5,
+  "dim_V_det_nonzero": 5,
+  "note": "dim in (g,t); t is functionally determined so equals dim of V\u2229{det\u22600}"
+ },
+ "finite_order_pinning": {
+  "factor": "(mu - 1)**3*(mu + 1)**3*(mu**2 + 1)*(mu**2 + mu + 1)",
+  "roots_orders": [
+   [
+    "-1",
+    2
+   ],
+   [
+    "1",
+    1
+   ]
+  ],
+  "all_roots_of_unity": true,
+  "distinct_orders": [
+   1,
+   2
+  ]
+ },
+ "any_irreducible_fixed_point": false,
+ "generic_regular_strata_empty": true,
+ "max_character_locus_dim": 2,
+ "verdict": "RESOLVED-A",
+ "headline": "phi-fixed locus entirely REDUCIBLE at full SL(3) locus: A pinned to finite order, B block-diagonal 1+2; NO irreducible fixed point -> sealing generalizes",
+ "discriminating_fact": "finite-order pinning factor (mu-1)^3(mu+1)^3(mu^2+1)(mu^2+mu+1)=0 (all roots of unity); generic-regular strata empty; every occupied-stratum fixed rep reducible (common invariant subspace); 0 genuine irreducibles across 5 strata / 2 seeds. NOTE: the reducible locus is positive-dimensional (block 1+2 character curve), so the prereg's literal '0-dim isolated' proxy is corrected -- sealing generalizes via reducibility+finite-order pinning, not via 0-dimensionality."
+}

@@ -1,5 +1,90 @@
 # OPEN_PROBLEMS.md — the remaining gates (the honest specialist handoff)
 
+*Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
+
+
+
+
+> ## STATE AT REVIEW 45 (2026-08-13)
+>
+> The window's minted problems: the invariant line's identification (h⁰(M;27) = 1 — which
+> direction?); the arity test at its true home (the closed double of the 3-fold cover); the
+> gerbe's degree-2 class (reading-gated); the aperiodic Phase-0 questions (owner-pending). The
+> oldest live banner (B1024's PROVISIONAL) is escalated by name at R45-9. Ledger: Review 45.
+
+> ## STATE AT REVIEW 44 (2026-08-12) — the odyssey window
+>
+> The symmetric-mass question is now walled sector-complete on the double (the coupling creates multiplicity, not the pairing); the open problem the window minted: **the degree-2 neutrality class of the measurement gerbe** (is the banked H¹ the whole story? — L159, reading-gated), beside the standing L150 junction and the θ ↔ √−7 leg (L160). Ledger: `docs/progress/REVIEWS.md` Review 44.
+
+> ## STATE AT REVIEW 42 (2026-08-09) — stepping back: what the whole body of work is actually saying
+>
+> **1. The object gives STRUCTURE and withholds VALUES, and the withholding has a mechanism every
+> time.** Tier 0 is done (the object is forced up to one bit; A7 *is* that bit, and B979 showed it is
+> where φ enters). Tier 1 is substantially done and contains every positive result: the **global ℤ₆
+> form DERIVED** (B862 — *the SM itself cannot fix it*), the **hypercharge direction DERIVED** (B864),
+> **u(1)³ = span(Y, χ, ψ) COMPUTED** (B992, no longer inferred), the algebra, the generation count.
+> **Tier 2 has zero results and, since B1005, no live candidate.** The three sealed crossings failed
+> by three *different* named mechanisms, and the obstructions are theorems, not bad luck: values are
+> **frame-relative** (B936), centralizers **preserve rank** (B952), chirality is **not self-supplied**
+> (B713/B760).
+>
+> **2. The gaps are not a list — they are a BUDGET.** B1000 measured the external inputs: **five
+> closings over four incompletenesses**, with **charge taking two** (a chirality sign *and* a
+> rank-reducing VEV). **B963 then proved those two COMPETE**: τ ≠ id *is* the 27's complexity **and**
+> τ is the only rank-reducing involution — **spend it on rank and you lose the chirality.** Two
+> resources, one budget. This is the sharpest structural fact the programme holds about its own
+> incompleteness, and it is why the missing pieces cannot be closed one at a time.
+>
+> **3. The reframe that lands this window, and it changes what confirmation could even mean.**
+> **B996: reaching E₆ is GENERIC** — five of seven metallic grammars surject onto 2T, two-thirds of
+> the family — and the arc states the consequence in its own words: this **"REMOVES THE ENDPOINT'S
+> POWER TO CONFIRM THE BEGINNING."** **B997/B1002: the golden is the UNIQUE metallic grammar whose
+> own-conductor shadow is a McKay group.** Put together:
+>
+> > ### Reaching E₆ is generic. Being the golden is unique. The object's specialness lives in its GRAMMAR, not its DESTINATION.
+>
+> **CORRECTED 2026-08-10 by the verification seat (B1009) — the original sentence here over-reached
+> and is withdrawn.** It read: *"therefore matching the Standard Model could never have confirmed the
+> axioms — even if it had worked."* **What the cited arcs support is narrower and is about the E₆
+> WAYPOINT, not the SM ENDPOINT:** B996's own words are *"reaching E6 is not evidence C1–C5 were
+> right **if a third of entry points reach E6 too**"*, and B993 says the same at the manifold level
+> (~1 in 3). **Neither computes what a NON-GOLDEN grammar produces DOWNSTREAM of E₆** — the ℤ₆ form,
+> the hypercharge direction, the generation count, the matter reps. **A repo-wide search finds no arc
+> that runs the cascade on any m ≥ 2 grammar**, so the SM-match's discriminating power beyond E₆ is
+> **UNCOMPUTED, not zero.**
+>
+> **And B997 cuts the other way, which is why the overreach matters:** at each word's *own* conductor
+> the golden **is** unique, so the family members are **demonstrably not equivalent** — evidence
+> against assuming their cascades coincide. *(cc3's independent synthesis reads B996 the same way:
+> the specificity **descends three populations and survives at the bottom as a proof**.)*
+>
+> **What stands:** **the E₆ waypoint cannot confirm the axioms**, and the uniqueness that does exist
+> lives in the **grammar**. **What is now a registered, runnable test (L149): run the cascade on a
+> non-golden metallic grammar.** If the silver also yields ℤ₆ + hypercharge + 3 generations, the
+> withdrawn sentence becomes true and is banked as such; if it does not, the SM match **does**
+> discriminate and the endpoint recovers confirming power. **Two outcomes, neither assumed.**
+>
+> **4. The crux, stated so it can be held honestly.** The observer-coupling reorientation says values
+> live in the **observer–object coupling**, not in the object. If that is right, the object *should
+> not* emit values — so **Tier 2's emptiness is exactly what our own framework predicts.** That is
+> either the deepest thing here or the most sophisticated way of being unfalsifiable, and
+> `WHAT_WOULD_COUNT` says Tier 2 is what decides whether this is physics at all. **The constructive
+> resolution follows from the statement itself: a theory whose values are coupling artifacts must
+> predict THE COUPLING, not the values.** Notably, that target sits **outside B687's atlas and
+> outside B743's tower** — precisely the bar B1005 sets for a fourth crossing. **The negative points
+> at where to look.**
+>
+> **5. What the practice keeps discovering about itself.** The recurring error of 2026-08-09 — nine
+> instances — was never a wrong computation. It was **mistaking an instrument's blindness for the
+> object's absence**: B1007 rebuilt a solver that existed, B1006 re-ran a check that existed, two
+> ladder rungs graded BLIND had computed arcs behind them, and **B1008 measured the atlas as unable
+> to see the very layer the programme now works in** (14 of 14 recent concepts have no word in it).
+> *A suggestive parallel with the object's own observer/observed structure is noted and **explicitly
+> not claimed as evidence** — it is a methodological rhyme, and the firewall applies to it as to
+> anything else.* **What it does earn is the owner's standing rule, now operative: "we don't have X"
+> is a hypothesis requiring a search, never a conclusion.**
+
+
 > The single self-contained statement of what is left, written so a specialist (or a future session with new tools)
 > can pick each gate up cold. Governed by `GOVERNANCE.md` (firewall: physics stays firewalled; nothing here promotes to
 > `CLAIMS.md`). Written 2026-07-01, after the recontextualization audit + masterplan
@@ -123,6 +208,15 @@ extract SM *values* from the object (the structural theorem forbids that from th
 
 ### C — Multiplicity → the generation count (the sharpened gate, with a refutation condition)
 
+> **Review-37 update (2026-08-03, B866–B877).** O3 gained and lost a candidate in one window:
+> the object's three Galois-conjugate first-breaking charges (the First Measurement Theorem,
+> two-seat) supply a forced, unlabelable S₃ triple whose "3" is triality — but **THE DESCENT
+> (B876) shows the triple does NOT survive within a single breaking** (the SM grading is
+> violently transverse to the sector split; each breaking's matter is exactly ONE generation's
+> multiplet pattern). If this triple is to answer C, it must be an **across-breakings**
+> reading (three measurements ↔ three generations-as-perspectives) — reformulation flagged,
+> unweighted, on the joint queue.
+
 **Probation P13 (B562, 2026-07-13): the triality-on-27 route is TOMBSTONED** — the 27 splits 9+9+9 into trinification color/L/R blocks (the "wrong 3"), not 3×27=81 (grounded in B298/B299). Generation-count needs a different route (cover-tower multiplicities, B368). Gate D: probation P14 found a finite-N trace-map transversality witness (partial in-sandbox). Gate B: probation P12 confirmed no exceptional 3d-3d state integral exists (SPECIALIST). 
 **Question.** The SM has 3 generations; B307 proved a *single* hyperbolic knot cannot carry a symmetric (C₃) three-
 generation trace field. So 3 must come from **multiplicity/relation**. The figure-eight carries an *intrinsic*
@@ -170,3 +264,56 @@ A rigorous structural theorem — *the object forces the form of physics, not it
 amphichirality-theorem* — with four named gates (one in-sandbox hard theorem A; three specialist B/C/D) where values
 could only cross through the object's relations, not from the single monad. That is a genuine, bounded, honest frontier
 — and it is *not* a TOE one computation away. Nothing to `CLAIMS.md`; firewall intact.
+
+---
+
+## ⟳ VIEW REFRESH — 2026-07-29 (Review 32)
+
+*This file is a **navigation view**, not substrate (GOVERNANCE §12: "freeze the substrate;
+generate the views"). It is regenerated at each decadal review, and from Review 32 the
+`views-fresh` gate **fails the build** if a review does not touch it — the mechanism replacing
+the written rule that let this file go 16 days stale while ~55 arcs were banked.*
+
+**Reconciliation at this refresh:**
+- **Gate B's sub-mechanism is CLOSED-NEGATIVE** (B561/P12: no exceptional 3d-3d state
+  integral exists). This is the sharpest prior no-go for any 3d-3d-at-E₆ route and must be
+  cited as the reason, not "no definition".
+- **Gate C's triality-on-27 route is TOMBSTONED** (B562/P13: 27 splits 9+9+9, the wrong 3).
+- **Gate A's literal universal form is TOMBSTONED** (B562/P1); only the sharpened
+  representation-dependent form is live.
+
+**Current live frontier (superseding anything above that conflicts):** the Maass thread is
+closed at B797 — 17 certified m004 eigenvalues, one parent + sixteen Γ₄₁-relative, independently
+verified 7/7 (B795), with a clean rung-4 SM null that the Listening Protocol had already ruled
+inadmissible as evidence. The live campaign is **B796 (coupling)**, gated and launch-approved,
+whose falsifier is the **50+ digit Maass algebraicity test** (rung 1 — the only admissible
+comparison). Standing open gate on any physics reading: **L91**, obligations (1)–(3).
+
+> **Review 33 (2026-07-29)** — unchanged mathematically. Recorded for anyone reading a law row as settled: `docs/LAW_MAP.md` is **4 % test-locked and no gate references it**, so an unlocked row is a claim about the bank, not a checked fact. THE CHAIN (`docs/THEOREM_LEDGER.md`) *is* fully locked and gated.
+
+> **Review 34 (2026-07-30)** — the physics closures were audited: **110 of 217** classified kills are physics-facing, and the three whose discriminating fact was never computed are now dispositioned (B799/B800/B811). **Alpha-s died on *kind*, not on counting** — it is a running coupling and the object is proved scale-free.
+
+> **Review 35 (2026-07-30)** — one problem *dissolved* rather than solved: the **Gang–Kim–Yoon index
+> identity has no well-posed statement at E₆ on 4₁**, because its hypothesis (*every irreducible
+> component of `X^irr` is dimension 1*) fails — the component through the principal point is a
+> **6-fold** (B814, from B575/B370). **Strong evidence, not proof**: both sources are explicitly
+> conditional at higher orders. **The SL(2) case is untouched.**
+
+> **Review 36 (2026-08-01)** — one problem sharpened rather than solved: **B685's "integral away from
+> 3"** is now discharged *arithmetically* (`(2n)!` clears the non-3 denominator, B839) with the
+> **convention still cited, not read** — its residue is one literature line, not a computation.
+
+
+*Review 38 (2026-08-05): window B890–B906 reviewed — the M(𝕆,ℂ) isomorphism, the sealed generation-shaped verdict, the flavor arc with I = −1, the Kim lit-gate; five promotion candidates listed; next sealed cell: the real-form selector (B907). See docs/progress/REVIEWS.md.*
+
+
+*Mid-window update (2026-08-05, post-crossing): B907–B917 — e₆(2) selected; the norm/signature; I = −1 exact; the one-number table; THE CROSSING (MISS 16σ, the desert dead, R4b registered); the value-arc convergence with the solo seat. See CAMPAIGN_STATUS and the masterplan v5.*
+
+
+*Review 39 (2026-08-05): window B907–B919 + the register loop + THE CROSSING reviewed; suite green after hygiene; candidates listed (B908, the value-layer cluster, B912, B914 + R38 leftovers); next sealed: R4b. See docs/progress/REVIEWS.md.*
+
+*Review 40 (2026-08-07): window B909, B914–B941 reviewed — the three crossings all negative, D₂ decoded as the hierarchy's carrier, the value layer proved value-invisible, two precedent numbers banked (the Maass and Dirac eigenvalues), and the branch-symmetric ratio-only phrasing registered as binding on any future crossing. Three real discipline failures caught by the anti-burial locks and fixed; the priority-language asymmetry flagged (B922's unqualified claim predates the O3 gate — panel dispatched). See docs/progress/REVIEWS.md.*
+
+> **Review 43 — 2026-08-11.** The one real wall (the value layer) now has a clean sealed death on it — by one degree, with the refresh pre-committed — and the campaign attacking the WHY has its first two banked cells (COMPRESSION; the value-kernel). The open problem of the input list is now a quantified floor: one unit, two bits, one trit, one acceptance.
+>
+> **Review 41 — 2026-08-09.** The open problems are now **graded and ordered** in `docs/THE_LADDER.md` (32 rungs: BLIND / HOLE / BROKEN / BOUNDED / OPEN) and `docs/THE_CAMPAIGN.md`. **Before writing "the object does not supply X", find X on the ladder — if it is not there, the honest sentence is "not checked", not "absent".**

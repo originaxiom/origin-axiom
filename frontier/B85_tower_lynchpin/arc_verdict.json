@@ -1,0 +1,10 @@
+{
+ "id": "B85",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Lambda^2-V representation shortcut is killed: the char(M^2) double multiplicity is a root-system fact that functoriality cannot dissolve, leaving only symbolic assembly.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

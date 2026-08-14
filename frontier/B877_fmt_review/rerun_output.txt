@@ -1,0 +1,35 @@
+=== levi6 ===
+mu coefficient factorizations: {'500716339200': {2: 16, 3: 4, 5: 2, 7: 3, 11: 1}, '-2075673600': {2: 10, 3: 4, 5: 2, 7: 1, 11: 1, 13: 1}, '-4769856': {2: 6, 3: 2, 7: 2, 13: 2}, '2197': {13: 3}}
+mu real roots: ['-0.001938050209720433301044623', '0.0003982215012503527189335206', '0.005685236871735386704560082']
+block 36: det degree 36;  det == c*mu^12: True
+block 12: det degree 12;  det == c*mu^4: True
+DONE
+=== fmt_phase2b ===
+powers done
+block 36: blown matrix 108x108; computing kernel...
+  Q-kernel dim 36 (predict 36 = per-root 12 x deg 3)
+  sum-free test mod 40123: ('ok', True, [13410, 13410, 13410, 13410, 13410, 13410])
+  sum-free test mod 40493: ('ok', True, [1074, 1074, 1074, 1074, 1074, 1074])
+  sum-free test mod 40583: ('ok', True, [7026, 7026, 7026, 7026, 7026, 7026])
+block 12: blown matrix 36x36; computing kernel...
+  Q-kernel dim 12 (predict 12 = per-root 4 x deg 3)
+  sum-free test mod 40123: ('ok', True, [13410, 13410, 26713, 26713])
+  sum-free test mod 40493: ('ok', True, [1074, 1074, 39419, 39419])
+  sum-free test mod 40583: ('ok', True, [7026, 7026, 33557, 33557])
+block 18: blown matrix 54x54; computing kernel...
+  Q-kernel dim 54 (predict 18 = per-root 6 x deg 3)
+  sum-free test mod 40123: ('ok', True, [0, 0, 0, 0, 0, 0])
+  sum-free test mod 40493: ('ok', True, [0, 0, 0, 0, 0, 0])
+  sum-free test mod 40583: ('ok', True, [0, 0, 0, 0, 0, 0])
+DONE
+=== fmt_combined ===
+blocks restricted: [36, 12]
+q=40123 root 27063: combined charge multiset size 16; SUM-FREE: True
+q=40123 root 23094: combined charge multiset size 16; SUM-FREE: True
+q=40123 root 13418: combined charge multiset size 16; SUM-FREE: True
+q=40123: ALL ROOTS SUM-FREE: True
+q=40493 root 36026: combined charge multiset size 16; SUM-FREE: True
+q=40493 root 28398: combined charge multiset size 16; SUM-FREE: True
+q=40493 root 22747: combined charge multiset size 16; SUM-FREE: True
+q=40493: ALL ROOTS SUM-FREE: True
+DONE

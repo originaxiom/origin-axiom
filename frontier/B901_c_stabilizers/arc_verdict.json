@@ -1,0 +1,15 @@
+{
+ "id": "B901",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "N5, THE C-STABILIZER: (1) the continuous normalizer is trivial -- n(C) = z(C) = 12 (the floor), exact over Q: no element of e6 normalizes the measurement torus without centralizing it, so every C-stabilizing symmetry is DISCRETE; (2) the spectral obstructions from B898's exact census: no real automorphism can swap the split pair with the compact pair (real vs imaginary spectra are similarity invariants), the within-plane swap x8 <-> x16 is ALSO forbidden (exact factor multisets differ, locked), sign flips stay allowed (all factors even), and the plane action embeds in the finite symmetry group of P69's enhancement-line triple. STRUCTURAL CONCLUSION (the sharpest Lane-C no-go yet): the c -> theta carrier, if it exists, is NOT a real C-stabilizing symmetry -- the transfer must pass through the complexification, exactly where the second measurement's wall lives (B892/B893: det14 > 0 at all three roots). The real/complex alternation (M3) and the Lane-C crux point at the same door: layer 8.",
+ "depends_on": [
+  "B854",
+  "B892",
+  "B893",
+  "B898"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

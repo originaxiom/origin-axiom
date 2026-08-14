@@ -1,0 +1,10 @@
+{
+ "id": "B40",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Audit finds S1 is not derived from the A1-A7 core: it is conditional on a newly named, underived assumption T1 (filter inheritance).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

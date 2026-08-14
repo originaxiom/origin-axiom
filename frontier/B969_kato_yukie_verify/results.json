@@ -1,0 +1,64 @@
+{
+ "mu": "s**3 - 12*s - 5",
+ "disc_mu": 6237,
+ "cubics": [
+  {
+   "poly": "102060000*x**3 - 680400*x**2 + 810*x + 1",
+   "irreducible": true,
+   "disc": 53033560272000000,
+   "squarefree_kernel": [
+    7,
+    11
+   ],
+   "mu_factor_degrees": [
+    1,
+    2
+   ],
+   "isomorphic_to_K": true
+  },
+  {
+   "poly": "217275125760000000*x**3 + 431101440000*x**2 - 2721600*x + 1",
+   "irreducible": true,
+   "disc": 12713182428079971945676800000000000000,
+   "squarefree_kernel": [
+    7,
+    11
+   ],
+   "mu_factor_degrees": [
+    1,
+    2
+   ],
+   "isomorphic_to_K": true
+  },
+  {
+   "poly": "2128896000*x**3 - 1900800*x**2 - 1440*x + 1",
+   "irreducible": true,
+   "disc": 42908733407232000000,
+   "squarefree_kernel": [
+    7,
+    11
+   ],
+   "mu_factor_degrees": [
+    1,
+    2
+   ],
+   "isomorphic_to_K": true
+  }
+ ],
+ "all_irreducible": true,
+ "all_kernels_are_7_11": true,
+ "all_isomorphic_to_K": true,
+ "mu_squarefree_kernel": [
+  7,
+  11
+ ],
+ "L138_fires": true,
+ "what_it_means": "the object's distinguished pair -- the vacuum 3-block, which is the COMMON kernel of the compact charges -- has Kato-Yukie orbit invariant K, the field mu generates. The object DOES distinguish a rational two-27 orbit.",
+ "THE_SCOPE_LIMIT": "Kato-Yukie classify ORBITS, i.e. rational equivalence CLASSES of pairs. Picking out the K-orbit is NOT picking out a point in it: WITHIN the orbit the choice remains free. So this is the arithmetic refinement B962 predicted -- the rational orbit structure is genuinely finer than the complex one -- but it does NOT hand the programme a canonical VEV. A canonical ORBIT is not a canonical VEV.",
+ "solo_correction_banked": "ker R27(g14) = ker R27(g22) -- the SAME 3-plane -- so their section CXVI 'independent control' FAILS. There is ONE vacuum 3-block and no second canonical triple. Honest reading: one striking, well-controlled fact about a distinguished plane, NOT a pattern across triples.",
+ "not_verified_here": [
+  "the five controls (section 2) -- need their pair-construction",
+  "the new frame fact (section 3, compact charges alone have a kernel on the 27) -- needs their frame; this is the L135 gap again"
+ ],
+ "my_error_they_caught": "docs/SM_SPECIFICATION_LEDGER.md said the global Z6 form was 'not addressed'. WRONG: B862 derives [SU(3)xSU(2)xU(1)]/Z6 explicitly and calls it the first place the selected structure OUTPERFORMS the SM's own. Row corrected to DELIVERED."
+}

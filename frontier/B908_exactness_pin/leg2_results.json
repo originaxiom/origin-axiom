@@ -1,0 +1,19 @@
+{
+ "leg2_multiprime": {
+  "primes": [
+   40123,
+   40639,
+   40693,
+   40897,
+   40903,
+   40927,
+   40939
+  ],
+  "I_mod_p": "p-1 (== -1) at every prime",
+  "rescaling_gate": "passed at every prime",
+  "combined_modulus_approx": "4e32",
+  "status": "EVIDENCE (proof requires leg 1 + leg 3; height bounds alone insufficient)"
+ },
+ "reduction": "I = -1 iff v = prod(rows) + prod(cols) = 0, with u, v rational by the K3,3 bipartition-uniqueness + Q-definedness argument (leg 1)",
+ "leg3_target": "the pencil-swapping involution with odd orientation parity (via B900's cocycle) forcing v = 0 structurally"
+}

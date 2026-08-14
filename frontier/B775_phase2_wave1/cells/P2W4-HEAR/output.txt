@@ -1,0 +1,99 @@
+
+====================================================================
+PART 1 -- hearing filter (-w0 computed) + the exact-fit D = 2 grid
+====================================================================
+  HEARS (-w0 != 1): A2 A3 A4 A5 A6 A7 A8 A9 A10 D5 D7 D9 E6
+  DEAF  (-w0  = 1): A1 D4 D6 D8 D10 E7 E8
+  filter = A_(n>=2), D_odd, E6 : True
+  D(theta-odd) by level:
+    A2 (h^=  3): D(k=1..4) = [1, 2, 4, 6]
+    A3 (h^=  4): D(k=1..4) = [1, 3, 7, 13]
+    A4 (h^=  5): D(k=1..4) = [2, 6, 16, 32]
+    A5 (h^=  6): D(k=1..4) = [2, 8, 24, 56]
+    A6 (h^=  7): D(k=1..3) = [3, 12, 40]
+    A7 (h^=  8): D(k=1..3) = [3, 15, 55]
+    A8 (h^=  9): D(k=1..3) = [4, 20, 80]
+    D5 (h^=  8): D(k=1..4) = [1, 3, 9, 19]
+    D7 (h^= 12): D(k=1..3) = [1, 3, 11]
+    D9 (h^= 16): D(k=1..3) = [1, 3, 13]
+    E6 (h^= 12): D(k=1..3) = [1, 3, 8]
+  D = 2 at (stage, level, kappa): [('A2', 2, 5), ('A4', 1, 6), ('A5', 1, 7)]
+  reproduces the banked W32 grid [('A2', 2, 5), ('A4', 1, 6), ('A5', 1, 7)]: True
+  2nd way (closed forms level 1 / level 2, n<=20): True / True
+    D(A_n,1) n=2..20: [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10]  -> = 2 only n in {4,5}
+    D(A_n,2) n=2..14: [2, 3, 6, 8, 12, 15, 20, 24, 30, 35, 42, 48, 56]  -> = 2 only n = 2
+    D(D_odd,1),(D_odd,2) m=5,7,9: [(1, 3), (1, 3), (1, 3)]  -> 1 -> 3, skips 2
+  level-monotonicity (set inclusion) verified on the grid: True
+  => CLASSIFICATION (all families, ranks, levels) CLOSED: True
+
+====================================================================
+PART 2 -- conformal weights, projective T-order, the field door
+====================================================================
+  A2 level 2 (kappa=5, c=16/5): theta-odd phases ['2/15', '8/15']
+     projective T-ratio = 3/5 -> order 5   |  ord(T) = 15, 5 | ord(T) : True   |  T^5 scalar on the block (Gamma(5) cert): True   |  H-EAR: True
+  A4 level 1 (kappa=6, c=4): theta-odd phases ['7/30', '13/30']
+     projective T-ratio = 4/5 -> order 5   |  ord(T) = 30, 5 | ord(T) : True   |  T^5 scalar on the block (Gamma(5) cert): True   |  H-EAR: True
+  A5 level 1 (kappa=7, c=5): theta-odd phases ['5/24', '11/24']
+     projective T-ratio = 3/4 -> order 4   |  ord(T) = 24, 5 | ord(T) : False   |  T^5 scalar on the block (Gamma(5) cert): False   |  H-EAR: False
+  A5@1 walls (both exact): projective T-order 4 != 5  AND  5 does not divide 24 => sqrt5 not in Q(zeta24) [Kronecker-Weber, conductor 5]
+  H-EAR SOLUTION SET = [('A2_2', 'kappa=5'), ('A4_1', 'kappa=6')]   (count 2)
+  excluded = ['A5_1']
+
+====================================================================
+PART 3 -- the object's shadow SL(2,F5) = 2I over Q(sqrt5): TWO doublets
+====================================================================
+  |2I| = 120  (binary icosahedral = SL(2,5)) : True
+  distinct character values of the defining doublet 2^: 9 (= number of classes)
+  sum |chi|^2 = 120 + 0*sqrt5   -> irreducible: True
+  partner character chi'(g) := chi(g^37) equals sigma(chi(g)) for all g: True;  chi' != chi: True; chi' irreducible: True
+  values include phi = (1+sqrt5)/2 and -1/phi = (1-sqrt5)/2 : True
+  Q-rational class value separating them: False;  chi+chi' and chi*chi' are Q-valued: True
+  => {2^, 2^'} is ONE Galois orbit; every Q-rational invariant is
+     symmetric in the pair -- no Q-structure tells the branches apart.
+
+====================================================================
+PART 4 -- which doublet each survivor carries: the Galois bit sigma_2
+====================================================================
+  Gauss sum sqrt5 = z+z^4-z^2-z^3;  sigma_2(sqrt5) = -sqrt5 : True
+  squares mod 5 = [1, 4];  T-ratio exponents a: {'A2_2': 3, 'A4_1': 4}
+  cosets of (Z/5)^*/squares: {'A2_2': 'nQR', 'A4_1': 'QR'}
+  coset independent of the pair's ordering (-1 = 4 is a square mod 5): True
+  the two survivors sit in the TWO cosets, exchanged by sigma_2 (the sqrt5-flip): True
+  => the surviving pair {SU(3)_2 (kappa=5), SU(5)_1 (kappa=6)} is ONE
+     Galois orbit: they carry the two conjugate doublets 2^', 2^.
+
+====================================================================
+PART 5 -- the classical side carries the SAME undetermined bit
+====================================================================
+  A1 = [[2,1],[1,1]]: charpoly x^2 - 3x + 1, disc = 5 = 5 (= the conductor det(A1+I)): True
+  spectrum {phi^2, phi^-2} = (3 +- sqrt5)/2 -- a single Galois orbit;
+  the banked bridge det(I - B_odd) = phi^2 (B595-D2a) fixes ONE root.
+  Choosing an eigenvalue of A1 = choosing a square root of 5 = the
+  SAME Z/2 as the stage branch. The object is symmetric under it
+  (theta-symmetry / total non-canonicity, B711-B712 banked).
+
+====================================================================
+PART 6 -- tiebreak audit: is 'MINIMAL bearing stage' well-posed?
+====================================================================
+  A2_2: kappa=5 level=2 rank=2 dim g=8 ord(T)=15 kappa==N(=5): True
+  A4_1: kappa=6 level=1 rank=4 dim g=24 ord(T)=30 kappa==N(=5): False
+  argmin kappa  -> A2_2      argmin LEVEL -> A4_1
+  argmin rank   -> A2_2      kappa = conductor -> ['A2_2']
+  MINIMALITY IS AMBIGUOUS (kappa-min and level-min disagree): True
+  the object supplies no ordering on stages; 3 added principles
+  (kappa-min, rank-min, kappa=conductor) and H-CUSP (B672: the cusp
+  lattice Z[2sqrt-3] quantizes A2's Z[zeta3], never A4's Q(zeta5))
+  converge on kappa=5, while LEVEL-minimality picks the partner.
+  Each is an ADDED axiom: obligation (3) ('minimal bearing is a
+  theorem') is not discharged -- it is not even single-valued.
+
+====================================================================
+VERDICT
+====================================================================
+  VERDICT = RESOLVED-B
+  H-EAR forces only the Galois PAIR {kappa=5, kappa=6}; kappa=5 is a priced choice -- price = one sqrt5/orientation bit, and the 'minimal' tiebreak is not even single-valued (level-minimality picks kappa=6)
+  status of the links: classification (1)-(2) = THEOREM in-cell;
+  H-EAR itself = DEFINITION of 'bearing' (not derived: the L84/L91-4
+  functor exists only GROUP-level, wall 9 -- no equivariant classical
+  ->stage map to define 'the' bearing stage); obligation (3) = OPEN
+  and ambiguous. kappa=5 stands as a CHOICE with an explicit price.

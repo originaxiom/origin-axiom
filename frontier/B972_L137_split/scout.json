@@ -1,0 +1,150 @@
+{
+ "id": "B972",
+ "register_item": "L137",
+ "kind": "SCOUT",
+ "sealed": false,
+ "banked": false,
+ "lane": "MATHEMATICS",
+ "gate5_touched": false,
+ "date": "2026-08-08",
+ "recommendation": "CLOSE L137 AS REFUTED, not as unsealable-for-want-of-a-criterion.",
+
+ "headline": "L137 registers the post-hoc observation that B947's thinning pattern holds on the five VALUE families and fails on the two PENCIL CUBICS. Scouting finds that this description is not merely un-sealed but FALSE on material banked in this repo before B947 ran: T, B914's colorless coupling invariant -- registered in docs/LAW_MAP.md:197 as THE ONE-NUMBER TABLE, 'all six NORMALIZATION-FREE colorless couplings EXACTLY equal', filed in LAW_MAP section F 'The measurement cascade and the value layer' -- is a value-layer family by every criterion the programme applies, and it FAILS B947's pattern on BOTH extreme conditions (|P_lead| >= 4, |P_const| = 5, both > 2), and fails INVARIANTLY (F >= 6). Two further independent findings make any value/pencil seal impossible in principle: (2) all seven B941 families generate ONE AND THE SAME cubic field K = Q[s]/(s^3-12s-5), verified here at 138 primes with zero splitting-type mismatches, so the split cannot be an arithmetic distinction between classes of object -- it is a distinction between which ELEMENT of K each family picks and in which Q*-normalisation; (3) B947's statistic is NOT AN INVARIANT of a pencil cubic, and this repo banks mu in two normalisations (B866's t and B941/B947's rho = 13t) that give DIFFERENT P_const and DIFFERENT total support for the same locus. A definitional, genuinely pre-statable criterion DOES exist ('intrinsically-normalised element of K' vs 'locus in a pencil with a free coordinate scale') but it does not predict the outcome, so sealing on it would seal a false statement.",
+
+ "a_definitions": {
+  "who_defines_the_seven": "B941 alone. B941 FINDINGS: 'Seven banked families -- V (hierarchy), W (the S-A mixing overlap^2), d_S and d_A (the twist ratios), m_S (the flip mass), mu (charge cubic), kappa (compact cubic) -- each reduced to (Tr, e2, N) from its banked minimal polynomial.' B941 arc_verdict: 'seven banked VALUE FAMILIES (V, W, d_S, d_A, m_S, mu, kappa)'. PROGRESS_LOG:9299: 'seven banked value families (... mu and kappa the pencil cubics)'.",
+  "critical_documentary_fact": "The arc that CREATED the table calls all seven 'value families' and marks mu/kappa only with a parenthetical naming. There is a NAMING difference in the record; there is NO PARTITION in the record. Re-partitioning B941's table is an act B947 performed, not one it inherited.",
+  "label_pencil_cubic_pre_exists_B947": true,
+  "label_provenance": [
+   "B910 FINDINGS title: 'the Kummer class of the compact-pencil cubic kappa'",
+   "B902 FINDINGS: 'The three cubics -- mu (the charge cubic), B888's generic weight cubic ...'",
+   "B886 title: 'THE MATTER PENCIL'"
+  ],
+  "per_family": {
+   "V_hierarchy": {"arc": "B918", "quote": "the three generation weights v_g^2 are one K-element's conjugate orbit, v_g^2 = V(rho_g), with minimal cubic led by 953^4 -- the seventh cubic of the sqrt77 family", "kind": "intrinsic element of K"},
+   "W_mixing_sq": {"arc": "B930/B937", "quote": "the same-generation overlap-squared is ONE K-element with minimal polynomial", "kind": "intrinsic element of K"},
+   "d_S_twist": {"arc": "B916", "quote": "The per-line ratio d_i = q^{H'}_i / q^{H+}_i is a cubic irrationality of the value field K (branch-indexed)", "kind": "intrinsic element of K"},
+   "d_A_twist": {"arc": "B916", "quote": "same; A-family minpoly: 2304^2 x^3 - 1907712 x^2 - 2304*953 x + 953^2", "kind": "intrinsic element of K"},
+   "m_S_flipmass": {"arc": "B928", "quote": "Sheet entry 1 -- vacuum-line overlaps m_S = h_F(S,S)/h(S,S) in K", "kind": "intrinsic element of K"},
+   "mu_charge": {"arc": "B866", "quote": "det(48x48 minor)(t) = c*(500716339200 t^3 - 159667200 t^2 - 28224 t + 1)^16 -- exact interpolation from 50 rational points", "kind": "LOCUS in the pencil ad(x8 + t*x16); coordinate t carries a free Q* scale"},
+   "kappa_compact": {"arc": "B910/B909", "quote": "the compact pair's pencil g14 + s*g22 on the 18-dim core/floor quotient; nu(s) = det, 20-point exact interpolation; nu = c*kappa^6 exactly, kappa(s) = 2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859", "kind": "LOCUS in a pencil; coordinate s carries a free Q* scale"}
+  },
+  "the_only_principled_definitional_criterion_available": "intrinsically-normalised element of K (a dimensionless ratio: an overlap^2, a weight, a ratio of two Hermitian forms, a ratio of two H-norms) VERSUS a locus in a pencil A + t*B whose coordinate has a free Q*-scale. This IS pre-statable and readable without touching a coefficient. It is NOT what B947 measured and it does NOT survive contact with the data."
+ },
+
+ "b_crux": {
+  "verdict": "NO seal is possible on the value/pencil partition, and the reason is stronger than absence of a criterion: the observation is refuted.",
+  "finding_1_counterexample": {
+   "family": "T (B914 colorless coupling invariant, T := |c_t|^2/(s_i s_j s_k))",
+   "why_it_is_a_value_family": [
+    "B914 FINDINGS: 'T is CANONICAL: the cubic is the banked integer-primitive +-1 form ... and T is invariant under the one-real-scale freedom of H'",
+    "B914 FINDINGS: 'T is invariant under any per-atom complex rescaling ... verified as an EXACT identity'",
+    "docs/LAW_MAP.md:197: 'THE ONE-NUMBER TABLE | all six NORMALIZATION-FREE colorless couplings EXACTLY equal: T = sigma_2(t_K), deg-3'",
+    "filed in LAW_MAP section F, 'The measurement cascade and the value layer'"
+   ],
+   "gate_run_first": "the banked 50-digit T IS a root of the banked cubic (relative residual 1.34e-54); the banked coefficient vector IS primitive (content gcd = 1)",
+   "coeff_digit_sizes": [202, 175, 144, 113],
+   "P_lead_lower_bound_support": {"primes_found": {"179": 3, "1759": 3, "4889": 3}, "unfactored_cofactor_digits": 174, "lead_support_lower_bound": 4},
+   "P_const": [2, 3, 5, 7, 11],
+   "B947_pattern_holds": false,
+   "fails_on_both_extreme_conditions": true,
+   "failure_is_normalisation_invariant": true,
+   "F_lower_bound": 6,
+   "F_forced_primes_found": [2, 5, 11, 179, 1759, 4889],
+   "honest_limit": "|P_lead| is a LOWER BOUND: the 174-digit cofactor is not factored. The bound is sufficient (4 > 2 decides). Note also that B947's statistic is NOT COMPUTABLE for T without factoring that cofactor -- the criterion is only decidable on families whose coefficients happen to be smooth."
+  },
+  "finding_2_one_field": {
+   "claim": "all seven B941 families generate the same cubic field K = Q[s]/(s^3 - 12s - 5)",
+   "method": "mod-p splitting-type comparison, 138 primes, none dividing any family's prime support",
+   "mismatches": {"V_hierarchy": 0, "W_mixing_sq": 0, "d_S_twist": 0, "d_A_twist": 0, "m_S_flipmass": 0, "mu_charge": 0, "kappa_compact": 0},
+   "corroborating_banked_results": ["B910 One-Field theorem (kappa splits [1,2] over K)", "B918 (V splits [1,2] over K, root certified exactly)", "B937 (K monogenic, O_K = Z[s], disc 6237 = 3^4*7*11; disc re-derived here)"],
+   "consequence": "The five that hold and the two that fail are seven DIFFERENT ELEMENTS OF ONE FIELD in seven different Q*-normalisations. No arithmetic mechanism is available to make a value/pencil prediction mean anything.",
+   "honest_limit": "splitting-type agreement at 138 primes is Chebotarev evidence, not a proof. sympy's field_isomorphism returned None and maximal_order() raised a flint CoercionFailed -- the same class of sympy failure B937 itself documents. The disagreement is reported, not suppressed."
+  },
+  "finding_3_statistic_is_not_an_invariant": {
+   "gauge_freedom": "a pencil A + t*B has canonical 0 and infinity but no canonical unit; t -> t/c sends (a3,a2,a1,a0) -> (a3 b^3, a2 a b^2, a1 a^2 b, a0 a^3), re-primitivised, for c = a/b",
+   "repo_banks_mu_twice": "B866 FINDINGS: 'theirs(13t) - 2197*mine(t) = 0 identically -- same polynomial, their rho = 13t'. Re-derived here: expand(lhs-rhs) == 0.",
+   "mu_at_B866_own_t": {"coeffs": [500716339200, -159667200, -28224, 1], "P_lead": [2, 3, 5, 7, 11], "P_const": [], "P_mid_only": [], "total_support": 5, "holds": false},
+   "mu_at_B941_rho_13t": {"coeffs": [500716339200, -2075673600, -4769856, 2197], "P_lead": [2, 3, 5, 7, 11], "P_const": [13], "P_mid_only": [], "total_support": 6, "holds": false},
+   "note": "Same locus, two banked coordinates, DIFFERENT P_const and DIFFERENT total support. B947's reported diagnosis ('const {13}, empty mid-only') is a coordinate artifact; the verdict survives only because |P_lead| = 5 happens to be stable.",
+   "MB12_vacuity_by_product": {
+    "K_canonical_generator": {"poly": "s^3 - 12s - 5", "P_lead": [], "P_const": [5], "P_mid_only": [2, 3], "total_support": 3, "B947_pattern_holds": true, "would_be_excluded_by_B947_vacuity_rule": true},
+    "lesson": "For ONE AND THE SAME FIELD, renormalisation reaches 'holds', 'fails', AND 'excluded-as-vacuous'. B947's pre-declared vacuity exclusion (total support <= 3) is itself NOT normalisation-invariant."
+   }
+  }
+ },
+
+ "c_other_families": {
+  "computed_here": {
+   "vacuum_weight_cubic_B888": {"class": "PENCIL", "source": "frontier/B888_two_fields/pencil_factors.json, rebuilt with B888's own bcubic()", "banked_identity_gate": "disc squarefree part = 77, reproduces B888", "coeffs": [2197, 0, -6963104474726400, 2923811689117777920000], "P_lead": [13], "P_const": [2, 3, 5, 7, 11], "P_mid_only": [], "holds": false, "F": 4, "satisfiable_by_some_normalisation": true},
+   "generic_weight_cubic_B888": {"class": "PENCIL", "banked_identity_gate": "disc squarefree part = 77, reproduces B888", "coeffs": [2197, 0, -1740776118681600, -365476461139722240000], "P_lead": [13], "P_const": [2, 3, 5, 7, 11], "P_mid_only": [], "holds": false, "F": 4, "satisfiable_by_some_normalisation": true},
+   "T_B914": {"class": "VALUE", "holds": false, "F": ">=6", "satisfiable_by_some_normalisation": false, "role": "THE COUNTEREXAMPLE"}
+  },
+  "consolidated_table": [
+   {"class": "VALUE", "family": "V_hierarchy", "banked_holds": true, "F": 3, "satisfiable": true},
+   {"class": "VALUE", "family": "W_mixing_sq", "banked_holds": true, "F": 2, "satisfiable": true},
+   {"class": "VALUE", "family": "d_S_twist", "banked_holds": true, "F": 3, "satisfiable": true},
+   {"class": "VALUE", "family": "d_A_twist", "banked_holds": true, "F": 3, "satisfiable": true},
+   {"class": "VALUE", "family": "m_S_flipmass", "banked_holds": true, "F": 3, "satisfiable": true},
+   {"class": "VALUE", "family": "T (B914)", "banked_holds": false, "F": ">=6", "satisfiable": false},
+   {"class": "PENCIL", "family": "mu_charge", "banked_holds": false, "F": 5, "satisfiable": false},
+   {"class": "PENCIL", "family": "kappa_compact", "banked_holds": false, "F": 5, "satisfiable": false},
+   {"class": "PENCIL", "family": "vacuum_weight (B888)", "banked_holds": false, "F": 4, "satisfiable": true},
+   {"class": "PENCIL", "family": "generic_weight (B888)", "banked_holds": false, "F": 4, "satisfiable": true},
+   {"class": "ALT-COORD", "family": "mu @ B866's own t", "banked_holds": false, "F": 5, "satisfiable": false},
+   {"class": "FIELD-CANONICAL", "family": "s^3 - 12s - 5", "banked_holds": true, "F": 1, "satisfiable": true, "note": "would be EXCLUDED as vacuous by B947's own rule"}
+  ],
+  "the_trap_the_enlargement_exposes": "On B941's seven the split reads 5/2 along the naming line. Add B888's two and it reads 5 value-hold / 4 pencil-fail -- a tidy 9/9 separation, which is exactly the point at which a seal would look justified (1/126 by chance). Add T and the separation is gone. The apparent structure was an artifact of WHICH SEVEN B941 happened to tabulate.",
+  "available_but_not_computed": [
+   {"family": "T_row_products (T^3)", "arc": "B914", "class": "VALUE", "blocker": "same 100+ digit factorisation wall"},
+   {"family": "h_S_B883 / h_A_B883 (charpoly factors of Mc)", "arc": "B914", "note": "h_S = [1, 0, -535623511707648, 2928461724187049852928], already monic; a SPECTRAL not a value object -- classify before use"},
+   {"family": "the sixth cubic of the sqrt77 family", "note": "docs/LAW_MAP.md:214 and B909 bank a 'six-cubic sqrt77 law'. This scout positively identified FIVE: mu, generic-weight, vacuum-weight, kappa, and V (B918 calls HIER 'the SEVENTH cubic of the sqrt77 family'). The sixth was not pinned. B911 CMT_DRAFT section 7 item 9 already registers the matching question: 'with six cubics on one resolvent, a completeness question (is there a seventh pencil cubic in the frame, and must it share the resolvent?) -- register, do not chase.'"}
+  ]
+ },
+
+ "d_literature": {
+  "known_name_found": false,
+  "note": "No literature was needed and none is claimed. The invariant identified in section 4 of SCOUT.md is the p-adic Newton polygon of the cubic under the multiplicative reparameterisation of its variable; the statement 'p is forced into an extreme unless all three roots share one integral p-adic valuation' is elementary Newton-polygon bookkeeping, derived in-sandbox, and is labelled as such rather than attributed."
+ },
+
+ "the_salvageable_invariant": {
+  "definition": "F(P) := number of primes p that cannot be pushed out of BOTH extreme coefficients by any reparameterisation t -> t/c, c in Q*. Equivalently: the number of primes whose p-adic Newton polygon of P is not a straight segment of integer slope; equivalently, the number of primes at which the three roots do not all share one integral p-adic valuation.",
+  "why_it_is_the_real_content_of_B947": "|P_lead| <= 2 and |P_const| <= 2 REQUIRE F <= 4 (the two extremes hold at most 4 forced primes between them) -- that is the whole 'thin extremes' half; |P_mid_only| >= 1 requires at least one UNFORCED prime to be present -- that is the whole 'fat middle' half.",
+  "invariance_check": "tilt scan g in [-60, 60]; F values unchanged from the narrower [-12, 12] scan",
+  "observed_range": "1 to >=6 across ten families; both outcomes live, so the reformulation is non-vacuous",
+  "reading_for_V": "V's forced primes are {2, 3, 953}. 953^4 in the leading coefficient IS B918's 'its denominator ideal is the observer's place to the fourth power'; {2,3} is the norm. The unforced primes 13, 17, 1129, 421493 are exactly B946's degree-graded residue, unforced BECAUSE they live only in e1/e2. Same fact B946 banked, now stated normalisation-free.",
+  "honest_status": "SCOUTING-LEVEL. F is computed, not proved to be the unique right invariant, and no mechanism is claimed for why any family has the F it has."
+ },
+
+ "recommendations": [
+  "CLOSE L137 as REFUTED (not unsealable), naming T as the counterexample. B947's refusal to rescue was correct and this is its strongest vindication.",
+  "Do NOT seal any successor in the B947 coefficient-support form: it is not an invariant of a pencil-coordinate object, and its vacuity exclusion is not invariant either.",
+  "If a successor is wanted, seal the F-form against the FULL banked census rather than a chosen seven. The question worth pre-registering is the MECHANISM one: for an element of K, is F <= 3 equivalent to some banked structural property (e.g. divisor supported on the observer's place plus the norm primes)?",
+  "METHOD by-product (i): B947's pre-declared vacuity exclusion is not normalisation-invariant. MB12 checks should add 'is the criterion invariant under the object's own gauge freedom' to 'can it pass and can it fail'.",
+  "METHOD by-product (ii): B941's table is SEVEN ELEMENTS OF ONE CUBIC FIELD. Any future cross-family statistic should state this up front, because it changes what a cross-family agreement could possibly mean.",
+  "LAW_MAP row 211 should gain one sentence: the value/pencil gloss is now REFUTED, not merely unclaimed."
+ ],
+
+ "not_disturbed": [
+  "B946's exact arithmetic (e3/lambda^4 = 27, lambda = 2304/953 forced, the degree-graded residue for V) -- untouched; section 4 shows WHY the V statement is robust while the generalisation was not.",
+  "B947's own verdict OUTCOME SPECIAL -- untouched and correct.",
+  "B941's exact symmetric table and its headline N(V)/N(W) = 2^32 3^11 / 5^12 -- untouched.",
+  "B888's, B910's, B918's, B937's banked arithmetic -- each reproduced where used, none contradicted."
+ ],
+
+ "files": [
+  "frontier/B972_L137_split/SCOUT.md",
+  "frontier/B972_L137_split/scout.json",
+  "frontier/B972_L137_split/newton_probe.py",
+  "frontier/B972_L137_split/newton_probe_out.json",
+  "frontier/B972_L137_split/enlarge_probe.py",
+  "frontier/B972_L137_split/t_probe.py",
+  "frontier/B972_L137_split/t_probe_out.json",
+  "frontier/B972_L137_split/t_newton.py",
+  "frontier/B972_L137_split/t_newton_out.json",
+  "frontier/B972_L137_split/final_probe.py",
+  "frontier/B972_L137_split/final_probe_out.json"
+ ],
+
+ "authored_by": "scouting subagent for L137 (2026-08-08)"
+}

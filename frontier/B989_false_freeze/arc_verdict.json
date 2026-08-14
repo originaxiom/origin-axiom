@@ -1,0 +1,15 @@
+{
+ "id": "B989",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE DOCUMENT THAT EXPLAINED THE OPT-OUT HAD OPTED ITSELF OUT. Found by Review 41 step 7a, the first run of the document-currency reading, on the day it was written. THE BUG: doc-currency (B984) lets a document opt out with an in-file marker <!-- doc-currency: frozen --> on the stated condition that the opt-out is VISIBLE (frozen files print every run). docs/PRACTICES.md reported as frozen and was NOT -- it DOCUMENTS the marker, inside a code span, in the practice entry describing doc-currency itself, and the regex matched the documentation. So a document explaining how to opt out had opted itself out, and PRACTICES.md is a LIVING METHODS document, exactly the kind the gate exists to keep current. FIX: the marker counts only when it IS a marker -- detection tightened to line-initial (^\\s*<!--); the documentation line begins with a list bullet and no longer matches; PRACTICES is back under checking and current. WHY IT MATTERS MORE THAN ONE FILE: this is the SECOND time in one day that mention-was-read-as-use, in a SECOND INDEPENDENT GATE -- hours earlier retraction-sweep fired on B983-s OWN ERROR TABLE, a record of what was wrongly claimed sitting beside its refutation, because the mention cue was implicit. MENTION-VS-USE IS A FAILURE MODE OF TEXT-MATCHING GATES AS A CLASS, not a bug in either one: both gates were written the same week by the same seat, each with an explicit mention/use distinction in its docstring, and both got it wrong in practice -- because the SAFE DIRECTION DIFFERS. A retraction sweep must be STRICT (a missed live use is the harm) while a freeze marker must be NARROW (a false freeze silently disables the check, and silence is the harm). STANDING NOTE FOR ANY FUTURE TEXT-MATCHING GATE: decide IN THE DOCSTRING which direction of error is the harm and set the pattern-s strictness to match -- a gate whose false positives are LOUD is safe, a gate whose false NEGATIVES are silent is not. A THIRD INSTANCE AT THE DATA LAYER: Review 41 step 7c found the coverage count for MARKOV BLANKET had risen from 0 to 2, and both hits are B984 and B988, THE ARCS THAT RECORD ITS ABSENCE -- REGISTERING A GAP CREATES HITS FOR THE GAP, no gate involved, the measure inflating itself; annotated in THE_LADDER.md so a later review does not read the rung as covered. SCOPE: governance not mathematics, a one-line regex fix plus two annotations; what it changes is that PRACTICES.md is checked again and that the class -- mention read as use -- is now NAMED IN THREE PLACES rather than being rediscovered a fourth time.",
+ "depends_on": [
+  "B984",
+  "B988",
+  "B983",
+  "B967"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), Review 41 step 7a"
+}

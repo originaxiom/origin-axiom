@@ -1,0 +1,18 @@
+{
+ "killing_symmetric": true,
+ "killing_rank": 78,
+ "killing_nondegenerate": true,
+ "dim_Z_su3_colour": 16,
+ "matches_B958": true,
+ "levi_nodes": [
+  0,
+  2,
+  1
+ ],
+ "levi_dim": 14,
+ "levi_derived_dim": 11,
+ "levi_centre_dim": 3,
+ "matches_B892_numbers": true,
+ "dim_killing_perp_of_cartan": 72,
+ "perp_complements_cartan": true
+}

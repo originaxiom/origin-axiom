@@ -1,0 +1,354 @@
+{
+ "c1_b723_names_the_CMR_system": {
+  "value": true,
+  "detail": ""
+ },
+ "c1_b723_names_Gal_Kab_over_K": {
+  "value": true,
+  "detail": ""
+ },
+ "c1_b723_names_beta_1": {
+  "value": true,
+  "detail": ""
+ },
+ "c1_b723_assigns_chirality_to_the_Galois_label": {
+  "value": true,
+  "detail": ""
+ },
+ "CELL1_identification_is_explicit": {
+  "value": true,
+  "detail": "YES => the programme's system IS named as BC/CMR over K; step two is not an open question but a statement our own arc already made"
+ },
+ "c2_sqrt_minus3_in_K": {
+  "value": "sqrt(3)*I",
+  "detail": ""
+ },
+ "c2_conjugation_moves_it": {
+  "value": true,
+  "detail": "c(sqrt(-3)) = -sqrt(-3) != sqrt(-3)"
+ },
+ "c2_Gal_fixes_K_pointwise": {
+  "value": true,
+  "detail": "by definition of Gal(K^ab/K)"
+ },
+ "CELL2_c_in_Gal_Kab_over_K": {
+  "value": false,
+  "detail": "c fixes-K would be required for membership; it does not"
+ },
+ "c2_cyclotomic_layers": {
+  "value": [
+   {
+    "m": 3,
+    "order_full": 2,
+    "order_GalK": 1,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 6,
+    "order_full": 2,
+    "order_GalK": 1,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 9,
+    "order_full": 6,
+    "order_GalK": 3,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 12,
+    "order_full": 4,
+    "order_GalK": 2,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 15,
+    "order_full": 8,
+    "order_GalK": 4,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 21,
+    "order_full": 12,
+    "order_GalK": 6,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 33,
+    "order_full": 20,
+    "order_GalK": 10,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 39,
+    "order_full": 24,
+    "order_GalK": 12,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 63,
+    "order_full": 36,
+    "order_GalK": 18,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 105,
+    "order_full": 48,
+    "order_GalK": 24,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 231,
+    "order_full": 120,
+    "order_GalK": 60,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 1155,
+    "order_full": 480,
+    "order_GalK": 240,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 15015,
+    "order_full": 5760,
+    "order_GalK": 2880,
+    "index": 2,
+    "c_in_GalK": false
+   },
+   {
+    "m": 255255,
+    "order_full": 92160,
+    "order_GalK": 46080,
+    "index": 2,
+    "c_in_GalK": false
+   }
+  ],
+  "detail": ""
+ },
+ "c2_c_never_in_GalK": {
+  "value": true,
+  "detail": ""
+ },
+ "c2_index_always_2": {
+  "value": true,
+  "detail": "[Gal(Q(zeta_m)/Q) : Gal(Q(zeta_m)/K)] = 2 in every layer"
+ },
+ "c2_c_maps_to_nontrivial_element_of_Gal_K_over_Q": {
+  "value": true,
+  "detail": "c restricted to K is the nontrivial automorphism (it moves sqrt(-3)); the exact sequence 1 -> Gal(K^ab/K) -> Gal(K^ab/Q) -> Gal(K/Q) -> 1 places c OUTSIDE the kernel and ON TOP of it"
+ },
+ "c3a_zetaK_residue_at_s1_numeric": {
+  "value": [
+   "0.604600359726",
+   "0.604599793795",
+   "0.604599788135"
+  ],
+  "detail": ""
+ },
+ "c3a_zetaK_residue_predicted": {
+  "value": "0.604599788078",
+  "detail": "2*pi*h/(w*sqrt|d|) with h=1, w=6, |d|=3"
+ },
+ "c3a_pole_confirmed": {
+  "value": true,
+  "detail": "the beta=1 transition IS this pole"
+ },
+ "c3a_finite_level_partition_function_is_entire": {
+  "value": true,
+  "detail": "a finite level ((2)^3=(8), image order 2560 -- B734/B736) gives a FINITE Dirichlet sum: entire, no pole at beta=1, hence no SSB. The object-level route is obstructed, independently reconfirming B736's NEGATIVE."
+ },
+ "c3b_Z2_quotient_census": {
+  "value": [
+   {
+    "m": 3,
+    "order": 1,
+    "elements_of_order_le_2": 1,
+    "two_rank": 0,
+    "num_Z2_quotients": 0
+   },
+   {
+    "m": 6,
+    "order": 1,
+    "elements_of_order_le_2": 1,
+    "two_rank": 0,
+    "num_Z2_quotients": 0
+   },
+   {
+    "m": 9,
+    "order": 3,
+    "elements_of_order_le_2": 1,
+    "two_rank": 0,
+    "num_Z2_quotients": 0
+   },
+   {
+    "m": 12,
+    "order": 2,
+    "elements_of_order_le_2": 2,
+    "two_rank": 1,
+    "num_Z2_quotients": 1
+   },
+   {
+    "m": 15,
+    "order": 4,
+    "elements_of_order_le_2": 2,
+    "two_rank": 1,
+    "num_Z2_quotients": 1
+   },
+   {
+    "m": 21,
+    "order": 6,
+    "elements_of_order_le_2": 2,
+    "two_rank": 1,
+    "num_Z2_quotients": 1
+   },
+   {
+    "m": 33,
+    "order": 10,
+    "elements_of_order_le_2": 2,
+    "two_rank": 1,
+    "num_Z2_quotients": 1
+   },
+   {
+    "m": 39,
+    "order": 12,
+    "elements_of_order_le_2": 2,
+    "two_rank": 1,
+    "num_Z2_quotients": 1
+   },
+   {
+    "m": 63,
+    "order": 18,
+    "elements_of_order_le_2": 2,
+    "two_rank": 1,
+    "num_Z2_quotients": 1
+   },
+   {
+    "m": 105,
+    "order": 24,
+    "elements_of_order_le_2": 4,
+    "two_rank": 2,
+    "num_Z2_quotients": 3
+   },
+   {
+    "m": 231,
+    "order": 60,
+    "elements_of_order_le_2": 4,
+    "two_rank": 2,
+    "num_Z2_quotients": 3
+   },
+   {
+    "m": 1155,
+    "order": 240,
+    "elements_of_order_le_2": 8,
+    "two_rank": 3,
+    "num_Z2_quotients": 7
+   },
+   {
+    "m": 15015,
+    "order": 2880,
+    "elements_of_order_le_2": 16,
+    "two_rank": 4,
+    "num_Z2_quotients": 15
+   },
+   {
+    "m": 255255,
+    "order": 46080,
+    "elements_of_order_le_2": 32,
+    "two_rank": 5,
+    "num_Z2_quotients": 31
+   }
+  ],
+  "detail": ""
+ },
+ "c3b_counts": {
+  "value": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   3,
+   3,
+   7,
+   15,
+   31
+  ],
+  "detail": ""
+ },
+ "c3b_count_nondecreasing": {
+  "value": true,
+  "detail": ""
+ },
+ "c3b_count_strict_rises": {
+  "value": 5,
+  "detail": ""
+ },
+ "c3b_count_grows_without_bound": {
+  "value": true,
+  "detail": "the 2-rank grows with the number of primes dividing m, so the number of Z/2 quotients is unbounded in the limit -- infinitely many, none distinguished"
+ },
+ "c3b_canonical_Z2_exists": {
+  "value": false,
+  "detail": "no Z/2 quotient of Gal(K^ab/K) is distinguished by the arithmetic; a sheet label would have to be CHOSEN, which is exactly what a canonical identification cannot do"
+ },
+ "c3c_conjugation_action_on_labels_is_trivial": {
+  "value": true,
+  "detail": "in the cyclotomic tower the ambient Galois group is abelian, so c acts on the label group by the IDENTITY -- it does not even permute the labels there"
+ },
+ "c3c_repair_not_rescue": {
+  "value": true,
+  "detail": "c is an automorphism of the ambient tower and swaps the two COSETS of Gal(K^ab/K) in Gal(K^ab/Q); that is a Z/2 at the Q-level, not a label in the K-level torsor"
+ },
+ "c3d_K_signature_r1_r2": {
+  "value": [
+   0,
+   1
+  ],
+  "detail": "K is imaginary quadratic: ZERO real places, one complex place"
+ },
+ "c3d_real_place_available": {
+  "value": false,
+  "detail": "there is no archimedean Z/2 inside K; the conjugate pair of embeddings is a Z/2 of Gal(K/Q), i.e. again the QUOTIENT, not the subgroup"
+ },
+ "c4_action_is_free_and_transitive": {
+  "value": true,
+  "detail": "CMR: the idele class group acts freely and transitively on extremal KMS states (B851 quotes four separate statements of this from the source)"
+ },
+ "c4_label_set_size": {
+  "value": "|Gal(K^ab/K)| (infinite profinite)",
+  "detail": "free+transitive => the label set is a torsor under the FULL group"
+ },
+ "c4_chirality_is_Z2": {
+  "value": true,
+  "detail": "B713: the sheet is a Z/2"
+ },
+ "c4_one_label_cannot_be_both": {
+  "value": true,
+  "detail": "a Z/2-valued function on a Gal(K^ab/K)-torsor is precisely a choice of index-2 subgroup; cell 3b shows there are infinitely many and none canonical. So assigning BOTH chirality and values to 'the Galois label' either (i) collapses the torsor to Z/2, contradicting free-transitivity, or (ii) requires an arbitrary choice, contradicting canonicity."
+ },
+ "verdict": {
+  "outcome": "YES",
+  "cell1_identification_explicit": true,
+  "cell2_c_not_in_group": true,
+  "cell3_all_hatches_closed": true,
+  "cell4_level_conflict": true,
+  "kill_condition_executes": true
+ }
+}

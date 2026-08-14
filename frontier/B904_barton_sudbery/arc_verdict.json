@@ -1,0 +1,15 @@
+{
+ "id": "B904",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE BARTON-SUDBERY CAPSTONE (B880's priced gap, paid): L(O_split, C'_split) constructed explicitly over Q -- Zorn octonions, tri(O) dim 28 as an exact nullspace, EVERY product derived rather than chosen (cross products by multiplicity-one equivariance over all 28 triples x 64 pairs: (1,2)->3 = xy, (2,3)->1 = y*conj(x), (3,1)->2 = conj(y)*x, with the C'-side zw, conj(z)w, z conj(w); same-summand duals as Killing-duals, equivariant by construction), the nine remaining scalars Jacobi-fitted to the symmetric solution lambda = 1, mu = -24, nu = -12, and FULL JACOBI VERIFIED: 76076 triples, 0 failures. Then the isomorphism: the rational torus splits the adjoint into 72 one-dim rational root spaces + the 6-dim Cartan, the Cartan matrix matches E6 exactly, and the Chevalley-generator map extends to phi verified on ALL 3003 basis pairs with 0 mismatches, det phi = -2/3: THE BUILD IS M(O,C) (split form) BY EXPLICIT EXACT ISOMORPHISM -- the magic-square naming now stands on a theorem, not a signature. Two real bugs caught en route (an incomplete equivariance candidate list; an order-unnormalized tensor store that silently dropped the third cross slot and poisoned every earlier variant scan).",
+ "depends_on": [
+  "B854",
+  "B880",
+  "B882",
+  "B898"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-05)"
+}

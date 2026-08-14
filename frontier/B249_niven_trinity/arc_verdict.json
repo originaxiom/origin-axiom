@@ -1,0 +1,10 @@
+{
+ "id": "B249",
+ "verdict": "PROVED",
+ "claim_one_line": "Niven's theorem forces the orbifold trace fields to be clean quadratics only at the hyperbolic and spherical ends, making E₆+E₈ and the E₇ exclusion one arithmetic fact.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

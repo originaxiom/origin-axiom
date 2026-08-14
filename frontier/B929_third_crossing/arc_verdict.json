@@ -1,0 +1,9 @@
+{
+ "id": "B929",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE THIRD CROSSING (Twist stage 2; prereg 672b5afb pushed c8421f14 BEFORE data contact; owner word at the registered gate): SEALED VERDICT HIT-SHAPE -- TIER 1 PASS: the blind triple s = (0.8629, 0.8001, 0.6964) (the |m_S| branch values, ascending-rho, computed with zero flavor input) is a same-side descending cascade with acceleration index a = 1.838 in the declared (1,3) second-order band (the measured cascade's own index 1.39 reported transparently: same band, not close); TIER 2 MISS: r = (0.927, 0.870) vs q = (0.182, 0.094), off by factors 5-9 in both orientations -- THE DIRECT IDENTIFICATION m_S-ratios = CKM-ratios IS DEAD. The result weighs itself down by design (two priced bits; a broad T1 band): SUGGESTIVE, NOT PROBATIVE -- if the twist speaks to measured mixing it is through a nontrivial map, not a direct reading. Other sheet readings are NOT licensed retries (each needs its own seal + the owner's word, with this record cited). Secondary recorded non-verdict: m_A same character; the v-weights an ASCENDING cascade (a different shape class); the anchors printed. THE SCOREBOARD (eight sealed cells): five object-overrules (T1's lean-MISS prior mildly overruled), four disciplined wins (T2 as priored). M0 remains the standing default; the shape correspondence enters the HINT LEDGER at hint grade, fenced.",
+ "depends_on": ["B896", "B906", "B923", "B928"],
+ "supersedes": null, "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-06)"
+}

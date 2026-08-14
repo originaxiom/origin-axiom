@@ -1,0 +1,10 @@
+{
+ "id": "B685",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Neither intrinsic realization carries 5-adic structure (modular coefficients are algebraic integers; the Habiro/Nahm object is integral away from 3), so no framework-derivable generator produces the flavor streams.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

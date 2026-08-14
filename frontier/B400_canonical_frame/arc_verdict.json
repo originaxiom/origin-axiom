@@ -1,0 +1,10 @@
+{
+ "id": "B400",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "No canonical 3x3 frame exists: the golden seam is a single line exactly orthogonal to the Mercedes plane by support-disjointness in the shared W2-label space, so any mixing-type object requires arbitrary identifications.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -1,0 +1,74 @@
+====================================================================================
+A.  IOTA on the 8 trace coordinates = the dual permutation (14)(25)(38)(67)
+====================================================================================
+  base   x1..x8 = [3, 3, 26, 3, 3, -20, -20, 146]
+  iota   x1..x8 = [3, 3, 146, 3, 3, -20, -20, 26]
+  iota permutes the coords by (x1 x4)(x2 x5)(x3 x8)(x6 x7): True
+  witness  tr(W)=49  tr(W^-1)=409  -> iota trace-active: True
+====================================================================================
+B.  Self-dual OBJECT (V0 = Sym^2, geometric rep): iota fixes the traces; non-self-dual: it moves them
+====================================================================================
+  geometric (Sym^2) coords x1..x8 = [3, 3, 9/2 - 5*sqrt(3)*I/2, 3, 3, 1/2 + 3*sqrt(3)*I/2, 1/2 + 3*sqrt(3)*I/2, 9/2 - 5*sqrt(3)*I/2]
+  lies on the self-dual locus V0 (x1=x4,x2=x5,x3=x8,x6=x7): True
+  => iota fixes ALL 8 trace coords on the object (self-dual): True
+  contrast (A): iota moves them on the non-self-dual variety -> the rank-jump lives OFF V0
+====================================================================================
+C.  T7 (time-direction): iota FLIPS it -- monodromy t -> t^-1 inverts the loxodromic spectrum
+====================================================================================
+  monodromy spectrum        = [sqrt(5)/2 + 3/2, 3/2 - sqrt(5)/2]
+  iota-inverted spectrum    = [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]   (future<->past labels swap)
+  iota FLIPS T7 (time)      : True
+  gamma5 FLIPS T7 [(1-phi)^2=phi^-2]: True
+  theta FIXES T7 (reversal = conjugate monodromy, same ordered spectrum) : True  (B766)
+====================================================================================
+D.  T3 (basepoint-bit = Out(A5)/5A-5B): iota FIXES it -- A5 is AMBIVALENT (g ~ g^-1)
+====================================================================================
+  5-cycles split into 5A,5B (sizes 12,12): True
+  A5 ambivalent (every class self-inverse): True
+  iota (inversion) keeps g in its 5-class -> FIXES 5A,5B -> FIXES T3: True
+  Out(A5)=gamma5/Frobenius SWAPS 5A<->5B -> FLIPS T3: True
+====================================================================================
+E.  T4 (chirality-side) and T6 (chord-sign) under iota
+====================================================================================
+  T4 roots y_+- = [3/2 - sqrt(3)*I/2, 3/2 + sqrt(3)*I/2]
+  c FLIPS T4 (complex-conjugate roots swap): True
+  iota FIXES T4 on the object (x3=x8 self-dual, the branch datum is iota-invariant): True
+  chord C (theta-odd) trace = 0; det(C) = 0; spectrum = [-sqrt(10 - 10*sqrt(3)*I), sqrt(10 - 10*sqrt(3)*I), 0]
+  spectrum is +-symmetric => C ~ -C => the theta-odd sign is FRAME-DEPENDENT, not conj-invariant
+  => iota's T6 action is UNDETERMINED as a basis-free Z/2: True
+     (handled below by checking the rank for BOTH T6 values; the verdict is independent of it)
+====================================================================================
+F.  IOTA's flip-vector vs the B766 basis -- rank of the enlarged torsor
+====================================================================================
+  c       flips (T4,T6,T7,T3) = [1, 1, 0, 0]
+  theta   flips (T4,T6,T7,T3) = [0, 1, 0, 0]
+  gamma5  flips (T4,T6,T7,T3) = [0, 0, 1, 1]
+  iota    flips (T4,T6,T7,T3) = [0, ?, 1, 0]   (T4 fix, T6 frame-dependent, T7 FLIP, T3 fix)
+
+  rank <c,theta,gamma5>            = 3
+  in <c,theta,gamma5>: T7-col == T3-col (B766's 'T7=T3, one choice'): True
+
+  iota=(T4,T6,T7,T3)=[0, 0, 1, 0] [T6=0]: rank<...,iota>=4, independent=True, equals-(Z/2)^3-elt=NONE
+  iota=(T4,T6,T7,T3)=[0, 1, 1, 0] [T6=1]: rank<...,iota>=4, independent=True, equals-(Z/2)^3-elt=NONE
+
+  IOTA flips T7 but FIXES T3 -> SPLITS B766's T7=T3 identification: True
+  RANK-4 and 'equals no (Z/2)^3 element' hold for BOTH T6 values (robust): True
+====================================================================================
+VERDICT (B787 Phase 1 -- iota-identification)
+====================================================================================
+OUTCOME B: iota (inversion) is a GENUINELY INDEPENDENT 4th generator. It is NOT c, theta,
+gamma5, or any product. Decisive mechanism (two independent confirmations):
+  (1) ORIENTATION vs ARITHMETIC split: iota FLIPS T7 (time: monodromy t->t^-1 inverts the
+      loxodromic spectrum {phi^2,phi^-2}) but FIXES T3 (basepoint: A5 is AMBIVALENT, g~g^-1,
+      so inversion preserves 5A,5B; only Out(A5)=gamma5/Frobenius swaps them). In
+      <c,theta,gamma5> every element flips T7 IFF it flips T3 (B766's 'T7=T3, one choice'),
+      so iota, flipping one but not the other, cannot lie in the span. Rank 3 -> rank 4.
+  (2) DUAL-PAIR trace action: iota permutes the 8 coords by (x1 x4)(x2 x5)(x3 x8)(x6 x7);
+      trivial on the self-dual object V0 (=Sym^2, matching B786's collapse) but trace-active
+      on the non-self-dual variety (W1/W2, generic) -- a move no c/theta/gamma5 makes.
+CONSEQUENCE: admitting inversion, TIME'S ARROW (T7) and THE BASEPOINT BIT (T3) -- welded into
+ONE choice by {c,theta,gamma5} -- become INDEPENDENT. iota is the involution that separates
+them. This sharpens B786 (rank-4 on the full SL(3) variety) with an exact mechanism and holds
+even on the object's orientation structure. Exact identification; not a numeric coincidence.
+
+wrote results.json

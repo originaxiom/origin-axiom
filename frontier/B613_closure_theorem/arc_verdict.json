@@ -1,0 +1,10 @@
+{
+ "id": "B613",
+ "verdict": "PROVED",
+ "claim_one_line": "Closure theorem: for GHH-anti-palindromic (amphichiral) weld words, conj(W)=Q⁻¹WᵀQ with Q=PSC, so the odd hearing spectrum is conjugation-closed at every level.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

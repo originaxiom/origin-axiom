@@ -1,0 +1,10 @@
+{
+ "id": "B531",
+ "verdict": "PROVED",
+ "claim_one_line": "Gap-opening slopes converge (0.1914, 0.1524, ratio 1.2565) and gap 3's period-2 alternation is explained by the negative contracting eigenvalue; closed forms remain open.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

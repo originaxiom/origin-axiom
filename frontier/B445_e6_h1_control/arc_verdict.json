@@ -1,0 +1,10 @@
+{
+ "id": "B445",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "dim H¹(π₁, ad E₆) = 6 for the figure-eight and identically for 5₂, so the E₆ deformation count is universal, not a fingerprint.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

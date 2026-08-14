@@ -1,0 +1,299 @@
+{
+ "a1_cap_justification": {
+  "A4": 20,
+  "D5": 60,
+  "E6": 156
+ },
+ "a2g2_registerable_but_small": true,
+ "impostors": {
+  "A4": {
+   "rows": [
+    {
+     "dim": 28,
+     "disposal": "KILL: -1 in W for every factor => not registerable (no embedding needed)",
+     "label": "D4_1",
+     "rank": 4
+    },
+    {
+     "dim": 24,
+     "disposal": "KILL: full rank => regular => dim <= 16 < 24",
+     "label": "A4_1",
+     "rank": 4
+    },
+    {
+     "dim": 18,
+     "disposal": "KILL: full rank => regular => dim <= 16 < 18",
+     "label": "A1_1+A3_1",
+     "rank": 4
+    },
+    {
+     "dim": 16,
+     "disposal": "IN-MENU",
+     "label": "A3_1+1u1",
+     "rank": 4
+    },
+    {
+     "dim": 16,
+     "disposal": "KILL: full rank => inside a maximal regular H with dim H >= 16; semisimple part (rank 4, dim 16) fits no H_ss (derived-fit)",
+     "label": "A2_1+A2_1",
+     "rank": 4
+    },
+    {
+     "dim": 14,
+     "disposal": "KILL: full rank => inside a maximal regular H with dim H >= 14; semisimple part (rank 4, dim 14) fits no H_ss (derived-fit)",
+     "label": "A1_1+A1_1+A2_1",
+     "rank": 4
+    },
+    {
+     "dim": 13,
+     "disposal": "KILL: -1 in W for every factor => not registerable (no embedding needed)",
+     "label": "A1_2+B2_1",
+     "rank": 3
+    },
+    {
+     "dim": 12,
+     "disposal": "WINNER",
+     "label": "A1_1+A2_1+1u1",
+     "rank": 4
+    },
+    {
+     "dim": 12,
+     "disposal": "KILL: -1 in W for every factor => not registerable (no embedding needed)",
+     "label": "A1_1+A1_1+A1_1+A1_1",
+     "rank": 4
+    }
+   ],
+   "winner_dim": 12,
+   "winner_ties_outside_menu": 0
+  },
+  "D5": {
+   "rows": [
+    {
+     "dim": 45,
+     "disposal": "KILL: full rank => regular => dim <= 29 < 45",
+     "label": "D5_1",
+     "rank": 5
+    },
+    {
+     "dim": 35,
+     "disposal": "KILL: full rank => regular => dim <= 29 < 35",
+     "label": "A5_1",
+     "rank": 5
+    },
+    {
+     "dim": 31,
+     "disposal": "KILL: -1 in W for every factor => not registerable (no embedding needed)",
+     "label": "A1_1+D4_1",
+     "rank": 5
+    },
+    {
+     "dim": 29,
+     "disposal": "IN-MENU",
+     "label": "D4_1+1u1",
+     "rank": 5
+    },
+    {
+     "dim": 27,
+     "disposal": "KILL: full rank => inside a maximal regular H with dim H >= 27; semisimple part (rank 5, dim 27) fits no H_ss (derived-fit)",
+     "label": "A1_1+A4_1",
+     "rank": 5
+    },
+    {
+     "dim": 25,
+     "disposal": "WINNER",
+     "label": "A4_1+1u1",
+     "rank": 5
+    }
+   ],
+   "winner_dim": 25,
+   "winner_ties_outside_menu": 0
+  },
+  "E6": {
+   "rows": [
+    {
+     "dim": 66,
+     "disposal": "KILL: -1 in W for every factor => not registerable (no embedding needed)",
+     "label": "D6_1",
+     "rank": 6
+    },
+    {
+     "dim": 48,
+     "disposal": "KILL: full rank => regular => dim <= 46 < 48",
+     "label": "A6_1",
+     "rank": 6
+    },
+    {
+     "dim": 48,
+     "disposal": "KILL: full rank => regular => dim <= 46 < 48",
+     "label": "A1_1+D5_1",
+     "rank": 6
+    },
+    {
+     "dim": 46,
+     "disposal": "WINNER",
+     "label": "D5_1+1u1",
+     "rank": 6
+    }
+   ],
+   "winner_dim": 46,
+   "winner_ties_outside_menu": 0
+  }
+ },
+ "p5_gated": true,
+ "registerability": {
+  "step1 F4_1": true,
+  "step1 G2_3": true,
+  "step1 Sp(8)": true,
+  "step2 SO(5)_3": true,
+  "step2 SO(5)xSO(5)": true,
+  "step2 SO(7)xSO(3)": true,
+  "step2 SO(8)xU(1)": true,
+  "step2 SO(9)": true,
+  "step3 SO(5)_2": true
+ },
+ "residual_citations": [
+  "Dynkin maximal S-subalgebra tables (1952; recomputed de Graaf 2011)",
+  "Slansky branching 27 = (3,7)+(6bar,1) for A2+G2"
+ ],
+ "steps": {
+  "step1 (E6)_1": {
+   "menu": [
+    [
+     "SO(10)xU(1)",
+     46,
+     true
+    ],
+    [
+     "SU(6)xSU(2)",
+     38,
+     true
+    ],
+    [
+     "Sp(8)",
+     36,
+     false
+    ],
+    [
+     "SU(3)^3",
+     24,
+     true
+    ],
+    [
+     "SU(3)2xG2_1",
+     22,
+     true
+    ],
+    [
+     "G2_3",
+     14,
+     false
+    ],
+    [
+     "SU(3)_9",
+     8,
+     null
+    ]
+   ],
+   "unique": true,
+   "winner": "SO(10)xU(1)",
+   "winner_dim": 46
+  },
+  "step2 SO(10)_1": {
+   "menu": [
+    [
+     "SO(8)xU(1)",
+     29,
+     false
+    ],
+    [
+     "SU(5)xU(1)",
+     25,
+     true
+    ],
+    [
+     "SO(7)xSO(3)",
+     24,
+     false
+    ],
+    [
+     "Pati-Salam",
+     21,
+     true
+    ],
+    [
+     "SO(5)xSO(5)",
+     20,
+     false
+    ],
+    [
+     "SO(5)_3",
+     10,
+     false
+    ]
+   ],
+   "unique": true,
+   "winner": "SU(5)xU(1)",
+   "winner_dim": 25
+  },
+  "step3 SU(5)_1": {
+   "menu": [
+    [
+     "SU(4)xU(1)",
+     16,
+     false
+    ],
+    [
+     "SM",
+     12,
+     true
+    ],
+    [
+     "SO(5)_2",
+     10,
+     false
+    ]
+   ],
+   "unique": true,
+   "winner": "SM",
+   "winner_dim": 12
+  }
+ },
+ "su3_9": {
+  "decided_dead": true,
+  "solutions": [
+   {
+    "multiset": [
+     [
+      2,
+      2
+     ]
+    ],
+    "self_conjugate": true
+   }
+  ],
+  "unique": true
+ },
+ "t_checks": [
+  [
+   "C4 < E6, 27=Lam2(8)-1",
+   true
+  ],
+  [
+   "A2+G2 < E6, 27=(3,7)+(6b,1)",
+   true
+  ],
+  [
+   "B2adj < D5, 10=adj",
+   true
+  ],
+  [
+   "B3+A1 < D5, 10=(7,1)+(1,3)",
+   true
+  ],
+  [
+   "B2 < A4, 5=vector (via sp4 Lam2)",
+   true
+  ]
+ ],
+ "undisposed_total": 0
+}

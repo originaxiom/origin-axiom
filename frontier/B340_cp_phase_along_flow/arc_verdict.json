@@ -1,0 +1,10 @@
+{
+ "id": "B340",
+ "verdict": "PROVED",
+ "claim_one_line": "The CP phase arg kappa is extremal at pi/6 at the amphichiral cusp and decreases as 3.8*CS^2, i.e. second order in chirality.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

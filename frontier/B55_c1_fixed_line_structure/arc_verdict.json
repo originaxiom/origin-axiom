@@ -1,0 +1,10 @@
+{
+ "id": "B55",
+ "verdict": "PROVED",
+ "claim_one_line": "The c=1 fixed-line sector structure is settled for all m: the symmetric sector is mod-4 (Phi_6 / Phi_4 / parabolic degeneration at m=0 mod 4) and the antisymmetric sector is universally (t-1)(t+1)(t^2-mt-1).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

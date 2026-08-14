@@ -1,0 +1,54 @@
+{
+ "stabilizer_dim": 16,
+ "control_random": {
+  "I": 31572,
+  "dim": 4
+ },
+ "control_torus_twist": {
+  "I": 40122,
+  "dim": 16
+ },
+ "control_permanent": {
+  "I": 1,
+  "dim": 4
+ },
+ "detframe_consistency": true,
+ "detframe_solved": true,
+ "detframe_couplings": [
+  1,
+  40122,
+  40122,
+  1,
+  1,
+  40122
+ ],
+ "detframe_is_pm1": true,
+ "J_cycle_type": [
+  2,
+  2,
+  2,
+  1,
+  1,
+  1
+ ],
+ "J_fixed_atoms": [
+  [
+   "H1",
+   "S",
+   "H4"
+  ],
+  [
+   "H2",
+   "s16_1",
+   "L2"
+  ],
+  [
+   "s16_1",
+   "s16_2",
+   "H3"
+  ]
+ ],
+ "J_involution": true,
+ "J_antisymmetry_all_165": true,
+ "J_swaps_pencils": true
+}

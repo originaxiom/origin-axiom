@@ -1,0 +1,10 @@
+{
+ "id": "B102",
+ "verdict": "PROVED",
+ "claim_one_line": "Every irreducible SL(3) figure-eight character is Case I or trB=trB-inverse=1; W1/W2 are excluded from the Hitchin component by ellipticity, not complexity.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

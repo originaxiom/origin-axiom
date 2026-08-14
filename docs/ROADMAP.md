@@ -1,3 +1,12 @@
+> **Two roadmaps exist, and they are different documents — not copies.** This one is the
+> **tier map** (*from the object to the goal*: Tier 0 the object, Tier 1 internal completeness,
+> Tier 2 identification, Tier 3 the physics walls, Tier 4 the goal). The **phase ladder** —
+> Phase 0/A/B/C, cadences and standing rules — is `ROADMAP.md` at the repository root, and it is the
+> one the `views-fresh` gate tracks.
+>
+> **Review 35 mislabelled this file a stale fork and bannered it as such. That was wrong** and is
+> corrected here (B830): the two share **zero** headings and neither subsumes the other.
+
 # ROADMAP — from the object to the goal (the honest tier map)
 
 *The owner's goal is a full dynamical derivation (the "full TOE / full SM" program). This
@@ -31,9 +40,19 @@ claim until its wall is actually crossed with pre-registered evidence.*
       NEEDS-SPECIALIST.
 - [ ] Outreach: DORMANT until in-sandbox computation is exhausted (owner rule).
 
-## Tier 3 — the physics walls (all OPEN; the make-or-break)
-No banked theorem blocks any of these; no mechanism yet crosses any of them. W5 prices
-each with one computable probe.
+## Tier 3 — the physics walls (the make-or-break)
+[CORRECTED 2026-08-06 (B920 register sweep; the cc3 loss audit A5). The previous header —
+"all OPEN; no banked theorem blocks any of these; no mechanism yet crosses any of them" —
+was false three ways. (1) WALL 1 is not merely open: the scale no-go IS banked as a
+standalone theorem (the dimensionful no-go / scale-torsor no-go, LAW_MAP §E wall 10,
+B660/B666 cell S) — no observable carrying nontrivial mass dimension is typeable, so the
+wall stands as a proved impossibility for VALUES, not an unpriced obstacle. (2) WALL 5 HAS
+been run once: B915's sealed crossing (one input α_em + the object's boundary + pure
+desert) returned a 16σ MISS — the pre-registered confrontation machinery exists and fired;
+the negative is banked. (3) WALL 4 now carries a mechanism chain sitting AT the wall: the
+measurement cascade (B861–B863; the SMT — B892/B893 lands su(3)⊕su(2)⊕u(1)³ exactly,
+skipping SU(5); LAW_MAP §F) — structure at the wall, not yet a derivation-crossing.]
+W5 prices each with one computable probe.
 - [ ] **WALL 1 — SCALE.** The object emits pure numbers; a TOE needs dimensionful scale
       (the 122-order vacuum-energy gap lives here). Probe: does the ratio ladder RUN with
       level, or is it exactly invariant?
@@ -55,3 +74,13 @@ each with one computable probe.
 *Method (standing): pre-registration before computation; two-outcome design (kills bank);
 exact-first arithmetic; promote-at-banking through the §5 gates; verify-never-trust across
 chats; the recurring hazard is on record (Π_H does not commute with ζ-weighted sums).*
+
+> **Review 35 (2026-07-30)** — next in line: **the third verdict wave** (229 arc ids never assigned
+> to any reader; **116 carry a `FINDINGS.md`**), with a calibration block that exercises **all four**
+> verdict categories before it runs — wave 2's exercised two and licensed four, and 2 of the 11
+> untested-category writes were wrong. Still open and unscheduled: **the lexicon's full re-grounding**
+> (B806); B825 closed only the one *known* gap.
+
+> **Review 43 — 2026-08-11.** The campaign register is `docs/THE_WHY_CAMPAIGN.md` (four lanes; Lane I-1 and III-1 BANKED, the floor quantified by B1030); execution resumes at Lane II-1 (the three-generations upgrade attempt). Review 43's ten action items are the near-term queue — the serial certificate, the provisional-banner discharge, and L154's re-posed run lead it.
+>
+> **Review 41 — 2026-08-09.** `docs/ROADMAP_TOE.md` is **superseded** by `docs/THE_FRAMEWORK.md` (it described the position as *"the kinematic/symmetry frame is forced arithmetic"* for a month after B862/B863/B864 falsified that). The execution order now lives in `docs/THE_CAMPAIGN.md`: **Wave 1 repairs (4 of 6 done) → Wave 2 holes → Wave 3 live surfaces → Wave 4 blind, ledger first**.

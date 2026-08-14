@@ -1,0 +1,10 @@
+{
+ "id": "B749",
+ "verdict": "PROVED",
+ "claim_one_line": "The genesis axiom chain is priced by computation: F2/F3/F4/F7 ROBUST, F5 and F6 FRAGILE (the det −1 sibling is the Gieseking; closure keeps only the hearing face), and F8 geometry-necessary — geometry buys ℚ(√−3).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

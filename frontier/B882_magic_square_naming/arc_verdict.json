@@ -1,0 +1,15 @@
+{
+ "id": "B882",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE TILING HAS A CLASSICAL NAME -- M(O,C), the Freudenthal-Vinberg magic square entry: a 10-agent five-angle prior-art workflow (search + verify, verbatim-quote discipline) confirms the decomposition e6 = tri(O) + tri(C) + 3x(O tensor C) = so(8)+u(1)^2+3x16 verbatim in Landsberg-Manivel (their verify agent: 'exactly the user's decomposition'), Barton-Sudbery 2003, and Elduque 2007 whose bracket [iota_i, iota_{i+1}] = iota_{i+2} is the published prototype of the cyclic law (Z/3 as published; the full S3 needs its own line); tri(C) = u(1)^2 (a secondary-source 'so(3)' caught by the verify stage's own dimension arithmetic); even the fold (one copy into so(10), the other two = the 16+16bar) is in Boyle 2020. The triality<->three-generations SPECULATION goes back to Ramond 1977 (DVT, Boyle, Furey live today -- all postulate or speculate the frame, none derives it). NOVELTY SCOPED: ours = the SELECTION mechanism (the object's superselection torus derives the frame, with the exact S3 cubic and its arithmetic), the descent's two-sided verdict, and the now-well-posed KMRT question (the charge field as the cubic etale algebra of a trialitarian structure over Q -- the classical scaffolding for 'the arithmetic S3 IS the geometric S3'). Also names the soft plane: the chirality-switch charges span tri(C) -- the c-carried-into-theta crux gains a concrete home.",
+ "depends_on": [
+  "B866",
+  "B875",
+  "B876",
+  "B877"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, prior-art workflow wf_dabae8f4 (2026-08-04)"
+}

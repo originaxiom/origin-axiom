@@ -1,0 +1,81 @@
+{
+ "cell1": {
+  "known_systole": "1.087070144995",
+  "n_lengths": 27,
+  "systole": "1.08707014499574",
+  "systole_control_passes": true
+ },
+ "cell2_m004": {
+  "first_irrational": {
+   "ell": "1.6628858910586",
+   "ratio": "1.5296951155485",
+   "relation": null
+  },
+  "maxcoeff": 1000000,
+  "n_irrational": 10,
+  "n_rational": 2,
+  "n_tested": 12,
+  "verdict": "DENSE"
+ },
+ "cell3_controls": {
+  "m003": {
+   "first_irrational": {
+    "ell": "1.0870701449957",
+    "ratio": "1.2602913602611",
+    "relation": null
+   },
+   "max_traces_per_length": 3,
+   "maxcoeff": 1000000,
+   "mean_traces_per_length": 1.4666666666666666,
+   "n_irrational": 12,
+   "n_lengths": 45,
+   "n_rational": 0,
+   "n_tested": 12,
+   "note": "the sister (arithmetic)",
+   "systole": "0.862554627662",
+   "verdict": "DENSE"
+  },
+  "m015": {
+   "first_irrational": {
+    "ell": "1.1247982972918",
+    "ratio": "2.0",
+    "relation": null
+   },
+   "max_traces_per_length": 2,
+   "maxcoeff": 1000000,
+   "mean_traces_per_length": 1.0731707317073171,
+   "n_irrational": 12,
+   "n_lengths": 82,
+   "n_rational": 0,
+   "n_tested": 12,
+   "note": "5_2 complement -- NON-arithmetic (m004 is the only arithmetic knot complement)",
+   "systole": "0.562399148646",
+   "verdict": "DENSE"
+  }
+ },
+ "cell4_multiplicity": {
+  "controls": {
+   "m003": {
+    "max": 3,
+    "mean": 1.4666666666666666
+   },
+   "m015": {
+    "max": 2,
+    "mean": 1.0731707317073171
+   }
+  },
+  "m004_exceeds_nonarithmetic_control": true,
+  "m004_max_traces_per_length": 4,
+  "m004_mean": 1.6666666666666667,
+  "note": "exploratory, no verdict: arithmetic manifolds carry higher length-spectrum multiplicity (Vigneras). m015 is the non-arithmetic control."
+ },
+ "genericity": "GENERIC",
+ "relator_verified": true,
+ "seal": "f9d13b4d880301f7",
+ "type_conditional": "III_1 (CONDITIONAL on the cited reduction)",
+ "verdicts": {
+  "m003": "DENSE",
+  "m004": "DENSE",
+  "m015": "DENSE"
+ }
+}

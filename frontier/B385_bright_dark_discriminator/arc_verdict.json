@@ -1,0 +1,10 @@
+{
+ "id": "B385",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Both cheap bright/dark discriminator layers are killed - group invariants and word det-class distributions coincide on the riddle pair - so the discriminator is character-level.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

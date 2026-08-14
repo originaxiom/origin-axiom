@@ -1,0 +1,10 @@
+{
+ "id": "B248",
+ "verdict": "PROVED",
+ "claim_one_line": "The figure-eight's dual McKay E₆+E₈ is realized as the hyperbolic (ℚ(√−3), 2T) and spherical (ℚ(√5), 2I) ends of one cone-manifold geometric transition.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

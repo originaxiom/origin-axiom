@@ -1,0 +1,10 @@
+{
+ "id": "B87",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The hoped decreasing genus sequence 3,1,0 is refuted: m=2 is a genus minimum, and the m=3 trace-relation curve is genus 1, not >=2.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

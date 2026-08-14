@@ -1,0 +1,10 @@
+{
+ "id": "B23",
+ "verdict": "OPEN",
+ "claim_one_line": "The exact perturbation expansion at (1,1,1) isolates the single nonlinear term 2uw, but no BKL/Misner dictionary is derived.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

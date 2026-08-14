@@ -91,7 +91,7 @@ base-rate firewall turned inward; the two ambitious doors closed. 673 atlas prob
 Reviews through R26 (anchor 7e40985); errors through E22. Seats: cc (banking) + cc2 (independent,
 relay at `<cc2-seat>/seat-work/relay/`) + chat1 (courier; verify before banking).
 Read `WORKING_RULES.md` first (binding); deep context: `docs/LAW_MAP.md`, `docs/ERROR_LEDGER.md`,
-`docs/PROGRESS_LOG.md` (tail), `MEMORY` auto-loads.
+`PROGRESS_LOG.md` (tail), `MEMORY` auto-loads.
 
 ## Suggested opening move
 

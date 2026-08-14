@@ -1,0 +1,27 @@
+{
+ "verdict": "VACUOUS",
+ "artifact": 34,
+ "real": 1,
+ "real_gaps": [
+  [
+   [
+    "congruence-tower",
+    "apolynomial"
+   ],
+   0.0454
+  ]
+ ],
+ "p_full": {
+  "being": 0.8946,
+  "children": 0.1941,
+  "congruence-tower": 0.4509,
+  "coupled-double": 0.0556,
+  "emittance-eigenvalues": 0.0003,
+  "emittance-lengths": 0.0,
+  "hearing": 0.6013,
+  "infinite-hecke": 0.0002,
+  "meeting": 0.125,
+  "mtc-overlay": 0.462,
+  "sln-tower": 0.2954
+ }
+}

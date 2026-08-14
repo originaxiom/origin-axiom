@@ -1,0 +1,669 @@
+{
+ "cell": "B935 composition hunt",
+ "checks": {
+  "rep27_cartan_diagonal_27_distinct_weights": {
+   "pass": true,
+   "detail": ""
+  },
+  "banked_wall_pair_is_a_global_negation": {
+   "pass": true,
+   "detail": "chi+ = (1, -1, 1, -1, 1, 1)"
+  },
+  "weight_pairing_pi_recomputed_and_involutive": {
+   "pass": true,
+   "detail": ""
+  },
+  "H_plus_symmetric": {
+   "pass": true,
+   "detail": "c_{pi(b)} = c_b => the banked H+ matrix is symmetric"
+  },
+  "frame_72_roots_ns_8_14_16_22": {
+   "pass": true,
+   "detail": ""
+  },
+  "D2_rederived_as_rep_diagonal_of_sigma_chi_minus": {
+   "pass": true,
+   "detail": "pure rep propagation, no handoff"
+  },
+  "D2_equals_banked_B916_diagonal": {
+   "pass": true,
+   "detail": ""
+  },
+  "D2_11_flips_pi_symmetric": {
+   "pass": true,
+   "detail": ""
+  },
+  "charpoly_Mc_factors_3_1__6_1__6_3": {
+   "pass": true,
+   "detail": ""
+  },
+  "rational_blocks_dim_3_6": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Me_W6_is_g_squared_cubic": {
+   "pass": true,
+   "detail": ""
+  },
+  "char_Mo_W6_even": {
+   "pass": true,
+   "detail": ""
+  },
+  "K_roots_xS_alpha_B_found": {
+   "pass": true,
+   "detail": ""
+  },
+  "B_equals_minus_3_w_squared": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_S_dim_1": {
+   "pass": true,
+   "detail": ""
+  },
+  "kernel_nonS_dim_1_over_K_beta": {
+   "pass": true,
+   "detail": ""
+  },
+  "A_norms_tau_free_both_gauges": {
+   "pass": true,
+   "detail": ""
+  },
+  "q_nonzero_all": {
+   "pass": true,
+   "detail": ""
+  },
+  "dS_dA_minpolys_equal_banked_B916": {
+   "pass": true,
+   "detail": ""
+  },
+  "m_S_minpoly_equals_banked_B928": {
+   "pass": true,
+   "detail": ""
+  },
+  "beta_matches_a_mu_root": {
+   "pass": true,
+   "detail": ""
+  },
+  "three_branch_roots_are_the_mu_roots": {
+   "pass": true,
+   "detail": ""
+  },
+  "ascending_rho_order_matches_banked_B930": {
+   "pass": true,
+   "detail": "ORD = [0, 1, 2]"
+  },
+  "m_S_branches_match_banked_B928_certs": {
+   "pass": true,
+   "detail": ""
+  },
+  "G0_diagonals_equal_hpair_norms": {
+   "pass": true,
+   "detail": "h'(S_i,S_i) = sigma_i(d_S q_S), h'(A_j,A_j) = sigma_j(d_A q_A) exactly"
+  },
+  "sign_margins_certified": {
+   "pass": true,
+   "detail": ""
+  },
+  "signs_match_banked_B930": {
+   "pass": true,
+   "detail": "S diag signs [1, 1, 1], A+ diag signs [-1, -1, 1] (H' indefinite as banked)"
+  },
+  "b_same_gen_closed_form_matches_G0_diag": {
+   "pass": true,
+   "detail": ""
+  },
+  "same_gen_overlap_sq_minpoly_matches_banked_B930": {
+   "pass": true,
+   "detail": ""
+  },
+  "Ghat_moduli_match_banked_B930_50d": {
+   "pass": true,
+   "detail": "worst 4.4e-51"
+  },
+  "S_compression_symmetric_exact": {
+   "pass": true,
+   "detail": ""
+  },
+  "vacuum_norm_signs_all_negative_as_banked": {
+   "pass": true,
+   "detail": "the W3 register is uniformly NEGATIVE under h"
+  },
+  "rotation_orthogonal": {
+   "pass": true,
+   "detail": "R in O(3) (the |h|-orthonormal S-frame, uniform register sign threaded)"
+  },
+  "R_matches_banked_B930_50d": {
+   "pass": true,
+   "detail": "worst 3.92e-51"
+  },
+  "det_R_is_plus_or_minus_1": {
+   "pass": true,
+   "detail": "det R = 1.0"
+  },
+  "det_R_sign": {
+   "value": 1,
+   "detail": ""
+  },
+  "HIER_identity_953p4_charpoly_VK": {
+   "pass": true,
+   "detail": "953^4 * charpoly_Q(mult-by-V_ccl) = HIER, re-verified exactly"
+  },
+  "v_squared_positive_ascending_HG2": {
+   "pass": true,
+   "detail": "ascending rho <-> ascending v^2 (the banked identity map)"
+  },
+  "v_ratios_match_banked_B929": {
+   "pass": true,
+   "detail": "1.209206406777011698 1.5283527465039706673"
+  },
+  "X2_charpoly_coeffs_tau_free_real": {
+   "pass": true,
+   "detail": "tr, e2, det all real N-elements (Hermitian-similarity certificate)"
+  },
+  "X4_charpoly_coeffs_tau_free_real": {
+   "pass": true,
+   "detail": "tr, e2, det all real N-elements (Hermitian-similarity certificate)"
+  },
+  "det_X4_equals_det_X2_exact": {
+   "pass": true,
+   "detail": "diagonal similarity preserves the determinant -- exact internal test"
+  },
+  "X2_roots_real_nonneg": {
+   "pass": true,
+   "detail": "the sv^2 cubic has three real non-negative roots; roots = 0.0 | 0.8376994629753488302286691 | 2.076421999306410063606132"
+  },
+  "X2_rank": {
+   "value": 2,
+   "detail": "the number of NONZERO singular values (rank of the overlap matrix)"
+  },
+  "X4_roots_real_nonneg": {
+   "pass": true,
+   "detail": "the sv^2 cubic has three real non-negative roots; roots = 0.0 | 0.7899165724784932803778421 | 4.691382234959352640669118"
+  },
+  "X4_rank": {
+   "value": 2,
+   "detail": "the number of NONZERO singular values (rank of the overlap matrix)"
+  },
+  "tr_X2_equals_sum_of_9_banked_moduli_sq": {
+   "pass": true,
+   "detail": "diff 1.84e-50"
+  },
+  "Ghat_eig_two_routes_agree": {
+   "pass": true,
+   "detail": "charpoly+polyroots vs Schur worst 6.87e-151"
+  },
+  "Ci_RT_Ghat_R_eig_two_routes_agree": {
+   "pass": true,
+   "detail": "charpoly+polyroots vs Schur worst 4.58e-151"
+  },
+  "Ca_Ghat_R_eig_two_routes_agree": {
+   "pass": true,
+   "detail": "charpoly+polyroots vs Schur worst 4.22e-151"
+  },
+  "Cb_R_Ghat_eig_two_routes_agree": {
+   "pass": true,
+   "detail": "charpoly+polyroots vs Schur worst 1.53e-151"
+  },
+  "C4_Dv_conj_eig_two_routes_agree": {
+   "pass": true,
+   "detail": "charpoly+polyroots vs Schur worst 9.16e-151"
+  },
+  "FORCED_eig_Ci_equals_eig_Ghat": {
+   "pass": true,
+   "detail": "orthogonal similarity; worst 4.58e-151"
+  },
+  "FORCED_eig_C4_equals_eig_Ghat": {
+   "pass": true,
+   "detail": "diagonal similarity; worst 1.53e-151"
+  },
+  "FORCED_eig_GhatR_equals_eig_RGhat": {
+   "pass": true,
+   "detail": "AB vs BA; worst 3.05e-151"
+  },
+  "Ghat_sv_matches_exact": {
+   "pass": true,
+   "detail": "worst 3.91e-76 (bar 1e-40; the sqrt-of-small floor)"
+  },
+  "FORCED_Ci_sv_matches_exact": {
+   "pass": true,
+   "detail": "worst 7.06e-77 (bar 1e-40; the sqrt-of-small floor)"
+  },
+  "FORCED_Ca_sv_matches_exact": {
+   "pass": true,
+   "detail": "worst 1.97e-76 (bar 1e-40; the sqrt-of-small floor)"
+  },
+  "FORCED_Cb_sv_matches_exact": {
+   "pass": true,
+   "detail": "worst 4.15e-76 (bar 1e-40; the sqrt-of-small floor)"
+  },
+  "C4_sv_matches_exact": {
+   "pass": true,
+   "detail": "worst 5.13e-76 (bar 1e-40; the sqrt-of-small floor)"
+  },
+  "abs_det_Ghat_sq_equals_det_X2": {
+   "pass": true,
+   "detail": "diff 0.0"
+  },
+  "a_mS_matches_banked_B929_T1": {
+   "pass": true,
+   "detail": "1.83840623408958401225408897251"
+  },
+  "band_flag_count": {
+   "value": 0,
+   "detail": "compositions whose cascade index lands in [1.2, 1.6]"
+  }
+ },
+ "notes": [],
+ "exact_sv": {
+  "X2_similarity": "X2 = G0^dag diag(sS_i/sigma_i(dS qS)) G0 diag(sA_b/sigma_b(dA qA)) ~ Ghat^dag Ghat; sv(Ghat)^2 = roots",
+  "X2_c1_N": [
+   [
+    "324948789/153487321",
+    "-1034900697600/1995335173",
+    "0"
+   ],
+   [
+    "-1034900697600/1995335173",
+    "54828439142400/25939357249",
+    "0"
+   ]
+  ],
+  "X2_c2_N": [
+   [
+    "167211000000/146273416913",
+    "-817575897600000/1901554419869",
+    "0"
+   ],
+   [
+    "-817575897600000/1901554419869",
+    "2106763997184000000/24720207458297",
+    "0"
+   ]
+  ],
+  "X2_c3_N": [
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "0"
+   ]
+  ],
+  "X2_c1_minpoly": [
+   749130369924173329,
+   -1521532051987590711,
+   -2044113351576808149,
+   339056942490764091
+  ],
+  "X2_c2_minpoly": [
+   713921242537737182537,
+   676140785693869320000,
+   -2050872516633600000000,
+   -2235568896000000000000
+  ],
+  "X2_c3_minpoly": [
+   1,
+   0
+  ],
+  "X4_similarity": "X4 = G0^dag diag(v_i^2 sS_i/sigma_i(dS qS)) G0 diag(sA_b/(sigma_b(dA qA) v_b^2)) ~ C4^dag C4, C4 = D_v^{1/2} Ghat D_v^{-1/2}",
+  "X4_c1_N": [
+   [
+    "4044570634868477151/1062774669609110536",
+    "-1731745406798813359800/1727008838114804621",
+    "0"
+   ],
+   [
+    "-1731745406798813359800/1727008838114804621",
+    "-3827585079074136769804800/22451114895492460073",
+    "0"
+   ]
+  ],
+  "X4_c2_N": [
+   [
+    "296002093616480025000/126603032517185292601",
+    "-1620138012154926042240000/1645839422723408803813",
+    "0"
+   ],
+   [
+    "-1620138012154926042240000/1645839422723408803813",
+    "4103438707073242852761600000/21395912495404314449569",
+    "0"
+   ]
+  ],
+  "X4_c3_N": [
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "0"
+   ]
+  ],
+  "X4_c1_minpoly": [
+   3885827313127480883848647990075694459534557256,
+   -18370293513643068703642184544833047225727774571,
+   -36122836407013106516265686772352718200684164486,
+   109996702470165454638729931151587753282330233876
+  ],
+  "X4_c2_minpoly": [
+   420409200166433882574431224440622442387205992187690289,
+   1250386998443677236349901918981383934556687206217273000,
+   -5723650637977346905719081646435479667984141847073000000,
+   -17356102423503231644193831189782736915557374761000000000
+  ],
+  "X4_c3_minpoly": [
+   1,
+   0
+  ],
+  "sv_Ghat_50d": [
+   "1.4409795277193947919596652142661635233534271126187",
+   "0.91525923266326509656487602525423641922489918562462",
+   "0.0"
+  ],
+  "sv_Dv_conj_50d": [
+   "2.1659598876616696570501427127223247002055766839297",
+   "0.88877250884491993291040930555491611900686732087979",
+   "0.0"
+  ]
+ },
+ "base_classes": {
+  "v_weights_ascending": {
+   "triple_50d": [
+    "4.4103144758241297240725288484843289980246393622874",
+    "2.8856652928536950859496545386049637459416238076899",
+    "2.3864125071459674781594942833544553954460943556994"
+   ],
+   "r1": "0.654299213507777731804627613572",
+   "r2": "0.826988671574586521069137568597",
+   "a": "0.447827741772446465612490658525",
+   "in_band_1p2_1p6": false,
+   "note": "v-weights are ASCENDING; index computed on the descending reversal (same |a| class)"
+  },
+  "m_S_descending": {
+   "triple_50d": [
+    "0.86289845162610324642917053419193751292738850286609",
+    "0.80011290842674547149446460944948338617470771032437",
+    "0.69636363994715128207636485635857910089790378680955"
+   ],
+   "r1": "0.927238781016421433447510508617",
+   "r2": "0.870331715203051272253006383062",
+   "a": "1.83840623408958401225408897251",
+   "in_band_1p2_1p6": false,
+   "note": "the B928/B929 m_S sheet"
+  },
+  "rotation_cosines": {
+   "triple_50d": [
+    "1.0",
+    "0.90849214745589915405937982001638390416114698820282",
+    "0.73076468032532113355050400427333230305784350889728"
+   ],
+   "r1": "0.908492147455899154059379820016",
+   "r2": "0.804370937461288923625612885732",
+   "a": "2.26838534017806831719263056428",
+   "in_band_1p2_1p6": false,
+   "note": "the exact rotation cosines {1, sqrt roots of 1536x^2-2088x+677}"
+  },
+  "S_A_invariant_cascade_is_composition_ii": true
+ },
+ "composition_table": {
+  "(i)_RT_Ghat_R": {
+   "matrix": "R^T Ghat R",
+   "invariant": "eigenvalues (FORCED = eig(Ghat), orthogonal similarity; sv FORCED = sv(Ghat))",
+   "eig_50d": [
+    [
+     "-1.1752080264786642051865050637034842214262201167092",
+     "0.0"
+    ],
+    [
+     "0.9379817331706123259281437589296694216807653627578",
+     "0.0"
+    ],
+    [
+     "0.0",
+     "0.0"
+    ]
+   ],
+   "cascade_eig_moduli": {
+    "triple_50d": [
+     "1.1752080264786642051865050637034842214262201167092",
+     "0.9379817331706123259281437589296694216807653627578",
+     "0.0"
+    ],
+    "a": null,
+    "note": "not strictly descending-positive; index undefined "
+   },
+   "exact": "eigen moduli product anchor: |det Ghat|^2 = det X2 exactly"
+  },
+  "(ii)_sv_Ghat": {
+   "matrix": "Ghat (polar/singular decomposition)",
+   "invariant": "singular values -- EXACT (roots of the X2 cubic; coefficient N-coords + minpolys in exact_sv)",
+   "sv_50d": [
+    "1.4409795277193947919596652142661635233534271126187",
+    "0.91525923266326509656487602525423641922489918562462",
+    "0.0"
+   ],
+   "cascade_sv": {
+    "triple_50d": [
+     "1.4409795277193947919596652142661635233534271126187",
+     "0.91525923266326509656487602525423641922489918562462",
+     "0.0"
+    ],
+    "a": null,
+    "note": "not strictly descending-positive; index undefined "
+   },
+   "exact": "EXACT"
+  },
+  "(iii)_Ghat_R_and_R_Ghat": {
+   "matrix": "Ghat*R and R*Ghat",
+   "invariant": "sv FORCED = sv(Ghat) both orderings (verified); the NEW invariant is the shared eigenvalue triple eig(Ghat R) = eig(R Ghat)",
+   "eig_50d": [
+    [
+     "-1.2320920917867632998802388474749790803532720676351",
+     "0.0"
+    ],
+    [
+     "-0.4815339287273751008142069474248065322032810661003",
+     "0.0"
+    ],
+    [
+     "0.0",
+     "0.0"
+    ]
+   ],
+   "cascade_eig_moduli": {
+    "triple_50d": [
+     "1.2320920917867632998802388474749790803532720676351",
+     "0.4815339287273751008142069474248065322032810661003",
+     "0.0"
+    ],
+    "a": null,
+    "note": "not strictly descending-positive; index undefined "
+   },
+   "exact": "50d (the entries mix sqrt-normalizations with the R eigenframe; no tower representation)"
+  },
+  "(iv)_Dv_conj": {
+   "matrix": "D_v^{1/2} Ghat D_v^{-1/2}, D_v = diag(sigma_g(V_ccl))",
+   "invariant": "singular values -- EXACT (roots of the X4 cubic); eig FORCED = eig(Ghat) (diagonal similarity)",
+   "sv_50d": [
+    "2.1659598876616696570501427127223247002055766839297",
+    "0.88877250884491993291040930555491611900686732087979",
+    "0.0"
+   ],
+   "cascade_sv": {
+    "triple_50d": [
+     "2.1659598876616696570501427127223247002055766839297",
+     "0.88877250884491993291040930555491611900686732087979",
+     "0.0"
+    ],
+    "a": null,
+    "note": "not strictly descending-positive; index undefined "
+   },
+   "exact": "EXACT"
+  }
+ },
+ "entry_shapes": {
+  "base_Ghat": {
+   "moduli_50d": [
+    [
+     "0.15098292492360569849546390065812566797844354885054",
+     "0.67165695569909417529144203691467150688981430774831",
+     "0.22479172387406472055572336484954419348482226081762"
+    ],
+    [
+     "0.86873891854638917181229485678174502650003901430098",
+     "0.19528531909653351743535976690150558052207186024287",
+     "0.22479172387406472055572336484954419348482226081762"
+    ],
+    [
+     "0.86873891854638917181229485678174502650003901430098",
+     "0.67165695569909417529144203691467150688981430774831",
+     "0.58349453732819109518918497233344604824597016304481"
+    ]
+   ],
+   "upper": {
+    "r1_23_over_12": "0.33468234336989817031364944292",
+    "r2_13_over_23": "1.0",
+    "wolfenstein_ordered": true,
+    "accel_index_a": "5.58196698661317274172838062626e-151",
+    "in_band_1p2_1p6": false
+   },
+   "lower": {
+    "r1_23_over_12": "0.773140170608379211322397979447",
+    "r2_13_over_23": "1.29342651955738659152609154917",
+    "wolfenstein_ordered": false
+   }
+  },
+  "(i)_RT_Ghat_R": {
+   "moduli_50d": [
+    [
+     "0.070785718146692520617695141641757862408063255894614",
+     "0.009758928089676591491423500136671831942647227789684",
+     "0.14554130647647073776953690759770237249751039944126"
+    ],
+    [
+     "0.057877684119746321984055820063155465847967608312396",
+     "0.8380113252710417636646076686642327063036864906182",
+     "0.36045931464934452340487746689500818315169484944632"
+    ],
+    [
+     "0.62700947735760520156597497823093934012566584546407",
+     "0.58802996325395570348397828639688784933599092193685",
+     "1.1460233367257861635406641150798053684572045004642"
+    ]
+   ],
+   "upper": {
+    "r1_23_over_12": "36.9363634342847235403083141126",
+    "r2_13_over_23": "0.403766252005593433754332642088",
+    "wolfenstein_ordered": false
+   },
+   "lower": {
+    "r1_23_over_12": "10.1598737440383445684006283402",
+    "r2_13_over_23": "1.06628831273826637127976469544",
+    "wolfenstein_ordered": false
+   }
+  },
+  "(iii)_Ghat_R": {
+   "moduli_50d": [
+    [
+     "0.17082772953798447079921458909613980274928304550055",
+     "0.49578733282844239217854061245188716570211066830003",
+     "0.49946274766742352696050195290461407447424356878097"
+    ],
+    [
+     "0.25903505463880527669160572988968157504887921649862",
+     "0.82581547003230651391342020742301973888101411319653",
+     "0.30709059493519221822934317171236034403736571871473"
+    ],
+    [
+     "0.55246724445711145996725041364608729839354196596189",
+     "0.34693109648259506299599319349264627357072133950641",
+     "1.0586382800198163575802401765729056764248220660394"
+    ]
+   ],
+   "upper": {
+    "r1_23_over_12": "0.619399840619677496220034031806",
+    "r2_13_over_23": "1.62643453073784021647690170043",
+    "wolfenstein_ordered": false
+   },
+   "lower": {
+    "r1_23_over_12": "1.33932103114904950707535485403",
+    "r2_13_over_23": "1.59244083352103835511122069937",
+    "wolfenstein_ordered": false
+   }
+  },
+  "(iii)_R_Ghat": {
+   "moduli_50d": [
+    [
+     "0.98909778683286957921471524601285974089808424618936",
+     "0.35958847955974307908864163373949858664858241172168",
+     "0.19914833856443866122120653953028219503505083753391"
+    ],
+    [
+     "0.016471921200495782156712520695251632667007587324618",
+     "0.092119807792412298588048902140768125607479812906834",
+     "0.043909400453543988576857981164752030576297245026763"
+    ],
+    [
+     "0.74405961099032294024316239879355168285276525936773",
+     "0.8958753007605389261189335296553721583587141039116",
+     "0.63240842588885652289168164674615774605098907463923"
+    ]
+   ],
+   "upper": {
+    "r1_23_over_12": "0.122110142425318586104527519365",
+    "r2_13_over_23": "4.53543743497789259294226654546",
+    "wolfenstein_ordered": false
+   },
+   "lower": {
+    "r1_23_over_12": "54.3880273500564289137069810379",
+    "r2_13_over_23": "0.830539261835509363800042653993",
+    "wolfenstein_ordered": false
+   }
+  },
+  "(iv)_Dv_conj": {
+   "moduli_50d": [
+    [
+     "0.15098292492360569849546390065812566797844354885054",
+     "0.55545269354742480145514106166223830736772114685698",
+     "0.12163436061001711925755338792263832466731203363817"
+    ],
+    [
+     "1.050484666122826296937634325189507298063478357096",
+     "0.19528531909653351743535976690150558052207186024287",
+     "0.14708104813385808944789946214913841087239826686628"
+    ],
+    [
+     "1.6055111246291282023693322175970620928957668053665",
+     "1.0265287529512063366728297575017208270110425153918",
+     "0.58349453732819109518918497233344604824597016304481"
+    ]
+   ],
+   "upper": {
+    "r1_23_over_12": "0.264794913846790524623469557123",
+    "r2_13_over_23": "0.826988671574586521069137568597",
+    "wolfenstein_ordered": true,
+    "accel_index_a": "0.142959309526832267835133135997",
+    "in_band_1p2_1p6": false
+   },
+   "lower": {
+    "r1_23_over_12": "0.977195370913849253539588169869",
+    "r2_13_over_23": "1.56401963414408368728356760744",
+    "wolfenstein_ordered": false
+   }
+  }
+ },
+ "band_flags_1p2_1p6": [],
+ "verdict_structure": {
+  "degeneracy": "the closed whitelist yields EXACTLY FOUR invariant triples: sv(Ghat) [(ii), EXACT, shared FORCED with (i) and both (iii) orderings], eig(Ghat) [(i)/(iv), 50d], eig(Ghat R) [(iii), 50d], sv(D_v-conj) [(iv), EXACT]",
+  "convention": "eigen-level readouts are in the BANKED basis convention (B930 exact vS27/u27 normalization + R column-sign rule); singular values are sign-gauge invariant",
+  "index": "a = ln r2 / ln r1 (B929), descending triples"
+ },
+ "runtime_s": 1.0
+}

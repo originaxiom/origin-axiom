@@ -1,0 +1,10 @@
+{
+ "id": "B201",
+ "verdict": "PROVED",
+ "claim_one_line": "The silver (m=2) SL(3) character variety Fix(T_2^2) has exactly four dimension-2 components, one more than the figure-eight's three.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

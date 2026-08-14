@@ -1,0 +1,10 @@
+{
+ "id": "B361",
+ "verdict": "PROVED",
+ "claim_one_line": "Across 8 pairs with zero counterexamples, a level-15 pair invariant carries √−15 exactly when it contains a seed elliptic at both 3 and 5 (m=2,7); the discriminator refutes H-min and leaves H-loc standing.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "B1017",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE RECOUNT: FIVE RESOURCES, AND THE RANK CLOSING IS UNSOURCED -- cc3's tau_vs_singlet correction verified on this bench and ADOPTED, with every load-bearing input already banked on main. THE CORRECTION IS FORCED: the two closings differ on both discriminants (tau removes rank 2, E6 to F4, and KILLS chirality since F4 is all-real -- B959; the VEV <1> removes rank 1, E6 to SO(10), and KEEPS it since the 16 is complex; branching charges retraced traceless on this bench), and THE CASCADE NEVER REDUCES RANK -- B861's own table is maximal-rank at every step with spectator U(1)s, the 6 to 4 drop being entirely <1> then <nu^c>, NEITHER AN INVOLUTION -- which is what B952, B978 and B990 said all along. SO B963'S TWO THEOREMS STAND AND ITS COROLLARY FALLS: 'tau is the only rank-reducing involution' is TRUE AND IRRELEVANT to a closing not effected by an involution -- a category slip, the same shape as the theta/theta_QCD and level/level hazards. THE RECOUNT ADOPTED: bit A (reversal) on time's arrow; bit B (conjugation = tau, computed) on chirality; bit C (golden branch) on A7, internal; R+ (the bulk) on scale/value; Lie type (the two ends) on the 6d type J; and the RANK-CLOSING VEV DIRECTION UNSOURCED -- B766's three torsor bits are all committed, there is no fourth. OPEN PER cc3'S OWN SCOPE, KEPT NOT DECIDED: the VEV's magnitude is weight-1 and may fold into the R+, making the fifth resource shared rather than new -- L138/B969/B990's territory, now sharpened: THE UNSOURCED FIFTH INPUT IS THE INTERFACE'S SINGLE REMAINING UN-DERIVED SLOT. PROPAGATED IN THE SAME COMMIT: B963 FINDINGS banner; LAW_MAP twice (the B963 row and B1000's sharing-one-resource clause); THE_CLAIM section 1 corrected 4 to 5 typed external data; THE_FRAMEWORK Layer 5; SM_SPECIFICATION_LEDGER; RETRACTED_PHRASES row 8 ('chirality and rank compete for one resource' and variants). WHAT DOES NOT CHANGE: B1000's five-closings census (confirmed); the anchor declaration A1/A2 (the VEV direction is orbit-valued, not a continuous dimensionless parameter); the wall re-sort (rank stays a SPECIFICATION, its resource accounting now honest); theta_QCD stays REFUSED (functor-gated, B1009). The interface is still finite and still counted -- the count is five, one slot is unsourced, and that slot is the sharpest open item on the board.",
+ "depends_on": [
+  "B963",
+  "B1000",
+  "B952",
+  "B978",
+  "B990",
+  "B959",
+  "B861",
+  "B766",
+  "B1013",
+  "B1014"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10); cc3's correction, verified and adopted"
+}

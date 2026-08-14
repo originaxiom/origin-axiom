@@ -1,0 +1,10 @@
+{
+ "id": "B262",
+ "verdict": "PROVED",
+ "claim_one_line": "Reconstructed T[4₁] from its own triangulation: U(1) gauge, 2 chirals, monopole superpotential — abelian, confirming McKay-E6 is arithmetic-only.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

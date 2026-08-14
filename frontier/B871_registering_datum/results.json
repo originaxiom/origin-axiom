@@ -1,0 +1,91 @@
+{
+ "b599_parity_all_rows": true,
+ "can_fail": true,
+ "can_pass": true,
+ "datum": "bra chi_R | probe f_rho = chi_rho - chi_rhobar (theta-odd, dial-neutral) | invariant Kronecker contraction",
+ "j6_epsilon_intertwines": true,
+ "keystone_equivalence": true,
+ "rows": [
+  {
+   "even_part_blind": true,
+   "gate_chiral": true,
+   "max_abs_eval": 1,
+   "odd_part_carries_all": true,
+   "option": "SO(10)xU(1)",
+   "register_exists": true,
+   "registers_swap": true,
+   "step": "step1_E6"
+  },
+  {
+   "even_part_blind": true,
+   "gate_chiral": true,
+   "max_abs_eval": 1,
+   "odd_part_carries_all": true,
+   "option": "SU(6)xSU(2)",
+   "register_exists": true,
+   "registers_swap": true,
+   "step": "step1_E6"
+  },
+  {
+   "even_part_blind": true,
+   "gate_chiral": true,
+   "max_abs_eval": 1,
+   "odd_part_carries_all": true,
+   "option": "SU(3)^3",
+   "register_exists": true,
+   "registers_swap": true,
+   "step": "step1_E6"
+  },
+  {
+   "even_part_blind": true,
+   "gate_chiral": false,
+   "max_abs_eval": 0,
+   "odd_part_carries_all": true,
+   "option": "Sp(8)",
+   "register_exists": false,
+   "registers_swap": true,
+   "step": "step1_E6"
+  },
+  {
+   "even_part_blind": true,
+   "gate_chiral": true,
+   "max_abs_eval": 1,
+   "odd_part_carries_all": true,
+   "option": "SU(5)xU(1)",
+   "register_exists": true,
+   "registers_swap": true,
+   "step": "step2_SO10"
+  },
+  {
+   "even_part_blind": true,
+   "gate_chiral": true,
+   "max_abs_eval": 1,
+   "odd_part_carries_all": true,
+   "option": "Pati-Salam",
+   "register_exists": true,
+   "registers_swap": true,
+   "step": "step2_SO10"
+  },
+  {
+   "even_part_blind": true,
+   "gate_chiral": false,
+   "max_abs_eval": 0,
+   "odd_part_carries_all": true,
+   "option": "SU(4)xU(1)",
+   "register_exists": false,
+   "registers_swap": true,
+   "step": "step3_SU5"
+  },
+  {
+   "even_part_blind": true,
+   "gate_chiral": true,
+   "max_abs_eval": 2,
+   "odd_part_carries_all": true,
+   "option": "SM",
+   "register_exists": true,
+   "registers_swap": true,
+   "step": "step3_SU5"
+  }
+ ],
+ "swap_oddness_all_rows": true
+}

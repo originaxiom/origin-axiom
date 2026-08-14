@@ -1,0 +1,10 @@
+{
+ "id": "B37",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Under fixed operational definitions the trace map has feedback and an invariant but fails the self-model criterion, quarantining awareness-adjacent readings.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

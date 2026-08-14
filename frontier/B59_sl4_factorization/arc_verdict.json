@@ -1,0 +1,10 @@
+{
+ "id": "B59",
+ "verdict": "PROVED",
+ "claim_one_line": "Determines the SL(4) fixed-line spectrum numerically (five char(M^k), a new sign sector char(-M^2), degree-3 parity), refuting PC12's (n^2-1-parity)/2 prediction.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

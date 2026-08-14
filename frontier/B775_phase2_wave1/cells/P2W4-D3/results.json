@@ -1,0 +1,222 @@
+{
+ "cell": "P2W4-D3",
+ "OI": "OI-101",
+ "definition": "critical metallic (golden Sturmian) collective: ground-state entanglement entropy S(l,L) obeys Calabrese-Cardy log law S=(c_eff/3)ln[(L/pi)sin(pi l/L)]+b with log-PERIODIC oscillation (Mace et al); c_eff = phase-averaged slope",
+ "scaling_form": "S(l,L)=(c_eff/3)ln[(L/pi)sin(pi l/L)]+b (PBC chord), phase-averaged",
+ "primary_powered": {
+  "metallic": [
+   {
+    "L": 89,
+    "c_eff": 0.8665,
+    "R2_avg": 0.95601,
+    "osc_amp": 0.111,
+    "slope_rel_spread": 0.2743,
+    "fermi_gap_mean": 0.02577
+   },
+   {
+    "L": 144,
+    "c_eff": 0.9787,
+    "R2_avg": 0.98491,
+    "osc_amp": 0.1232,
+    "slope_rel_spread": 0.2657,
+    "fermi_gap_mean": 0.00759
+   },
+   {
+    "L": 233,
+    "c_eff": 0.8322,
+    "R2_avg": 0.97553,
+    "osc_amp": 0.1209,
+    "slope_rel_spread": 0.2516,
+    "fermi_gap_mean": 0.00525
+   },
+   {
+    "L": 377,
+    "c_eff": 0.9211,
+    "R2_avg": 0.97437,
+    "osc_amp": 0.1097,
+    "slope_rel_spread": 0.2212,
+    "fermi_gap_mean": 0.00492
+   }
+  ],
+  "log_periodic": {
+   "omega_best": 6.0159,
+   "k_golden_continuous": 2.17,
+   "nearest_golden_k": 2,
+   "omega_golden_k": 6.5285,
+   "golden_match": false,
+   "c_eff": 0.8948,
+   "R2": 0.97846,
+   "osc_amp": 0.0139
+  },
+  "conditioning_grid": {
+   "lams": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+   ],
+   "sizes": [
+    144,
+    200,
+    233,
+    300,
+    377,
+    610
+   ],
+   "c_eff": {
+    "144": [
+     0.9755,
+     0.9848,
+     1.0224,
+     1.0423
+    ],
+    "200": [
+     0.8981,
+     0.8712,
+     0.846,
+     0.7783
+    ],
+    "233": [
+     0.9179,
+     0.8314,
+     0.7218,
+     0.6477
+    ],
+    "300": [
+     0.796,
+     0.6828,
+     0.616,
+     0.6192
+    ],
+    "377": [
+     0.9525,
+     0.9098,
+     0.8358,
+     0.7321
+    ],
+    "610": [
+     0.9647,
+     0.869,
+     0.5971,
+     0.1814
+    ]
+   },
+   "SE_phase_mean": {
+    "144": [
+     0.033,
+     0.07,
+     0.138,
+     0.217
+    ],
+    "200": [
+     0.051,
+     0.086,
+     0.123,
+     0.149
+    ],
+    "233": [
+     0.031,
+     0.057,
+     0.092,
+     0.127
+    ],
+    "300": [
+     0.061,
+     0.095,
+     0.143,
+     0.193
+    ],
+    "377": [
+     0.032,
+     0.055,
+     0.08,
+     0.106
+    ],
+    "610": [
+     0.007,
+     0.023,
+     0.061,
+     0.103
+    ]
+   },
+   "coupling_trend_0p5_to_4": {
+    "144": 0.067,
+    "200": -0.12,
+    "233": -0.27,
+    "300": -0.177,
+    "377": -0.22,
+    "610": -0.783
+   },
+   "trend_sign_consistent": false,
+   "relspread_lam1": 0.1069,
+   "relspread_lam4": 0.3852,
+   "fit_window_c_eff": {
+    "L/24": 0.8604,
+    "L/12": 0.8247,
+    "L/6": 0.7448,
+    "L/4": 0.6638
+   },
+   "fit_window_rel_range": 0.2542
+  }
+ },
+ "controls": {
+  "uniform": {
+   "c_eff": 1.0001,
+   "R2": 0.99859
+  },
+  "AA_localized": {
+   "c_eff": -0.0004,
+   "R2": 0.0,
+   "S_at_l_20_60_116": [
+    0.0665,
+    0.0911,
+    0.0324
+   ]
+  },
+  "metallic_single_realization_R2": 0.3989
+ },
+ "secondary_interacting": {
+  "L=12,n=6": {
+   "U=0.0": 0.9433,
+   "U=1.0": 1.2542,
+   "U=2.0": 1.1481
+  },
+  "L=14,n=7": {
+   "U=0.0": 1.1678,
+   "U=1.0": 1.1346,
+   "U=2.0": 1.0528
+  }
+ },
+ "verdict": "RESOLVED-B",
+ "terminal_state": "EXTERNAL (underpowered for the LAW; the CLASS is computed): the metallic collective's ground-state EE is established as CRITICAL -- LOG growth in block size, phase-avg R^2 >0.96 at every size, against a localized control that collapses to AREA law (c_eff=-0.000, EE flat) and a conformal control recovering c=1.00. But the quantitative SCALING LAW is NOT computable at accessible sizes: c_eff is an estimator, not a converged observable -- it moves 0.25 (rel) with the arbitrary fit window at fixed (L,lam); its cross-size rel-spread is 0.11 at lam=1 and 0.39 at lam=4; and the coupling dependence d(c_eff) is NOT sign-consistent across sizes (L=144 gives +0.067, every other size is negative, L=610 gives -0.783). The golden log-periodic model also failed to lock (k=2.17, non-integer). The named obstruction: naive half filling is not a gap label of the Fibonacci Cantor spectrum, so the Fermi level sits in a size-dependent pseudo-gap; the converged protocol (Mace-Laflorencie-Alet 2019 conumbering / gap-label-commensurate filling) is EXTERNAL to this cell.",
+ "metrics": {
+  "metallic_c_eff_phase_avg_mean": 0.8996,
+  "metallic_cross_size_rel_spread": 0.0618,
+  "metallic_R2_avg_min": 0.95601,
+  "metallic_osc_amplitude": 0.1162,
+  "control_uniform_c_eff": 1.0001,
+  "control_AA_localized_c_eff": -0.0004,
+  "log_periodic_R2": 0.97846,
+  "log_periodic_golden_match": false,
+  "grid_relspread_lam1": 0.1069,
+  "grid_relspread_lam4": 0.3852,
+  "fit_window_rel_range": 0.2542,
+  "gates": {
+   "log_law_clean_full": false,
+   "log_law_soft_pure": true,
+   "robust": true,
+   "robust_strict": false,
+   "log_class": true,
+   "trend_sign_consistent": false,
+   "crit_finite": true,
+   "ctrl_area_law": true,
+   "ctrl_conformal": true,
+   "osc_present": true,
+   "golden_match": false,
+   "interacting_EE_grows_with_L": false,
+   "interacting_EE_finite": true
+  }
+ },
+ "headline": "POWER-GATED NEGATIVE, honestly reported: the entanglement CLASS is computed, the entanglement LAW is not. The metallic (golden Sturmian/Fibonacci) collective's ground-state EE is genuinely CRITICAL -- LOG growth in block size at every size probed (phase-avg R^2 0.96-0.98), three-way separated from a localized control that collapses to AREA law (c_eff=-0.000, EE flat in l) and a conformal control recovering c=1.00 (R^2=0.999). But the SCALING LAW asked for -- a conditioned, robust c_eff -- does NOT exist at accessible sizes, and the cell's own first-pass 'cross-size robust c_eff=0.900 (rel-spread 0.06)' was an ARTIFACT of a 4-size, one-coupling slice: on the full conditioning grid c_eff moves by 0.25 (rel) with nothing but the arbitrary fit window at fixed (L,lam); its cross-size rel-spread is 0.11 at lam=1 and 0.39 at lam=4; and the coupling dependence -- the object-specific NON-universal (Mace et al) signature -- is not even SIGN-consistent across sizes (L=144: +0.067; L=610: -0.783). The golden log-periodic model likewise failed to lock (best k=2.17, non-integer). NAMED OBSTRUCTION (why, not just that): naive half filling is not a gap label of the Fibonacci Cantor spectrum, so the Fermi level sits in a size-dependent pseudo-gap (mean gaps ~5e-3) and c_eff measures a finite-size crossover between the free value 1 and the true critical value rather than the value itself. The converged protocol (Mace-Laflorencie-Alet 2019 conumbering / gap-label-commensurate filling) is EXTERNAL. Powered channel = free-fermion correlation matrix (exact, L to 610); interacting ED (L<=14) is an explicitly underpowered spot-check (finite, L-growing half-cut EE only). FIREWALL: emergent CM math (K010); c_eff dimensionless and NON-universal; nothing to CLAIMS.",
+ "discriminating_fact": "c_eff is an ESTIMATOR, not a converged observable, at every accessible size -- three independent conditioning axes each break it, so no scaling law can be banked. (i) FIT-WINDOW: at fixed L=233, lam=1, moving lmin from L/24 to L/4 moves c_eff over [0.8604, 0.8247, 0.7448, 0.6638] (rel-range 0.25) -- an arbitrary analysis choice, not the object. (ii) CROSS-SIZE at fixed coupling: c_eff over L=[144, 200, 233, 300, 377, 610] is [0.985, 0.871, 0.831, 0.683, 0.91, 0.869] at lam=1 (rel-spread 0.11) and [1.042, 0.778, 0.648, 0.619, 0.732, 0.181] at lam=4 (rel-spread 0.39) -- diverging, not converging, as L grows. (iii) COUPLING TREND: d(c_eff) from lam=0.5 to 4 is negative at 5/6 sizes but POSITIVE at L=144 (+0.067) and ten times larger at L=610 (-0.783) -- the non-universal signature does not have a stable sign, let alone a stable value. What IS discriminating and robust is only the CLASS: metallic -> log growth (finite positive c_eff, every size); AA-localized -> area law (c_eff=-0.000, EE flat [0.07, 0.09, 0.03]); uniform -> conformal c=1.000 at R^2=0.999. IN-CELL NEGATIVE on the cell's own golden hypothesis: the log-periodic residual does not lock to a golden frequency (k=2.17, match=False)."
+}

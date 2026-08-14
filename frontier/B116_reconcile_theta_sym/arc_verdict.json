@@ -1,0 +1,10 @@
+{
+ "id": "B116",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The theta-split equals the tower only through n=5 and diverges at n=6, so B112's all-n sign-half claim is downgraded.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

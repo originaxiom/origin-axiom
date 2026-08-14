@@ -1,0 +1,575 @@
+{
+ "A0_control_random_pair_commutes": false,
+ "A0_frame_abelian_6_of_6": true,
+ "A1_control_random_gram_diagonal": false,
+ "A1_gram_diag_entries": [
+  "241532928",
+  "-317708697600",
+  "988843239014400/13",
+  "-889958915112960000/19"
+ ],
+ "A1_gram_diagonal": true,
+ "A1_gram_signs": [
+  1,
+  -1,
+  1,
+  -1
+ ],
+ "A1_signature": [
+  2,
+  2
+ ],
+ "A2_ad16_kills_core": true,
+ "A2_dim_core": 30,
+ "A3_charges_inside_floor": true,
+ "A3_dim_floor": 12,
+ "A3_floor_killed_by_g16": true,
+ "A3_floor_killed_by_g22": true,
+ "A4_centre_of_derived_floor": 0,
+ "A4_derived_is_perfect": true,
+ "A4_dim_derived_floor": 8,
+ "A4_floor_centre": 4,
+ "B_kappa_coeffs_asc": [
+  -6859,
+  -56402640,
+  3033676800,
+  2771822592000
+ ],
+ "B_kappa_const_is_minus_19_cubed": true,
+ "B_kappa_disc_squarefree_kernel": [
+  7,
+  11
+ ],
+ "B_kappa_irreducible": true,
+ "B_nu_degree": 18,
+ "B_nu_is_c_times_cubic_to_the_6": true,
+ "B_nu_surplus_node_checks": true,
+ "B_quotient_dim": 18,
+ "C_killing_formula_matches_ad_traces": true,
+ "C_p41131": {
+  "M12_cap_core": 0,
+  "M12_charge_ranks": [
+   12,
+   12,
+   12,
+   12
+  ],
+  "M12_dim": 12,
+  "M12_kernel_at_generic_rho": 0,
+  "M12_kernel_at_mu_walls": [
+   4,
+   4,
+   4
+  ],
+  "M12_torus_invariant": true,
+  "bracket_M12_cap_M12": 12,
+  "bracket_M12_cap_core": 4,
+  "control_dim_span66": 66,
+  "control_perp_cap_core": 12,
+  "derived_walls_equal_cited_mu_roots": true,
+  "det12_degree": 12,
+  "det12_is_c_times_cubic_to_the_4": true,
+  "det12_surplus_checks": true,
+  "dim_bracket_M12": 16,
+  "floor_inside_every_wall": true,
+  "kappa_roots": [
+   3040,
+   14577,
+   39457
+  ],
+  "killing_rank": 78,
+  "mu_solo_roots_cited": [
+   8913,
+   26153,
+   37451
+  ],
+  "mu_walls_derived_from_M12": [
+   8913,
+   26153,
+   37451
+  ],
+  "pairwise_inters": [
+   12,
+   12,
+   12
+  ],
+  "span": 66,
+  "triple_inter": 12,
+  "triple_inter_equals_floor": true,
+  "wall_dims": [
+   30,
+   30,
+   30
+  ]
+ },
+ "C_p41201": {
+  "M12_cap_core": 0,
+  "M12_charge_ranks": [
+   12,
+   12,
+   12,
+   12
+  ],
+  "M12_dim": 12,
+  "M12_kernel_at_generic_rho": 0,
+  "M12_kernel_at_mu_walls": [
+   4,
+   4,
+   4
+  ],
+  "M12_torus_invariant": true,
+  "bracket_M12_cap_M12": 12,
+  "bracket_M12_cap_core": 4,
+  "control_dim_span66": 66,
+  "control_perp_cap_core": 12,
+  "derived_walls_equal_cited_mu_roots": true,
+  "det12_degree": 12,
+  "det12_is_c_times_cubic_to_the_4": true,
+  "det12_surplus_checks": true,
+  "dim_bracket_M12": 16,
+  "floor_inside_every_wall": true,
+  "kappa_roots": [
+   12392,
+   15953,
+   28660
+  ],
+  "killing_rank": 78,
+  "mu_solo_roots_cited": [
+   4748,
+   10660,
+   25412
+  ],
+  "mu_walls_derived_from_M12": [
+   4748,
+   10660,
+   25412
+  ],
+  "pairwise_inters": [
+   12,
+   12,
+   12
+  ],
+  "span": 66,
+  "triple_inter": 12,
+  "triple_inter_equals_floor": true,
+  "wall_dims": [
+   30,
+   30,
+   30
+  ]
+ },
+ "C_primes": [
+  41131,
+  41201
+ ],
+ "GATE": [
+  {
+   "check": "MANDATED floor dim == 12",
+   "got": 12,
+   "pass": true,
+   "want": 12
+  },
+  {
+   "check": "MANDATED M12 dim == 12 (p=41131)",
+   "got": 12,
+   "pass": true,
+   "want": 12
+  },
+  {
+   "check": "MANDATED M12 cap core == 0 (p=41131)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "MANDATED M12 dim == 12 (p=41201)",
+   "got": 12,
+   "pass": true,
+   "want": 12
+  },
+  {
+   "check": "MANDATED M12 cap core == 0 (p=41201)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "frame Gram diagonal",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "frame signature (2,2)",
+   "got": [
+    2,
+    2
+   ],
+   "pass": true,
+   "want": [
+    2,
+    2
+   ]
+  },
+  {
+   "check": "frame norms (CMT_DRAFT.md:26-31)",
+   "got": [
+    "241532928",
+    "-317708697600",
+    "988843239014400/13",
+    "-889958915112960000/19"
+   ],
+   "pass": true,
+   "want": [
+    "241532928",
+    "-317708697600",
+    "988843239014400/13",
+    "-889958915112960000/19"
+   ]
+  },
+  {
+   "check": "frame abelian, 6/6 brackets",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "core dim == 30",
+   "got": 30,
+   "pass": true,
+   "want": 30
+  },
+  {
+   "check": "ad(g16) kills the core",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "floor killed by g22",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "the four charges lie in the floor",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "derived(floor) dim == 8",
+   "got": 8,
+   "pass": true,
+   "want": 8
+  },
+  {
+   "check": "floor centre == 4",
+   "got": 4,
+   "pass": true,
+   "want": 4
+  },
+  {
+   "check": "derived(floor) perfect",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "centre of derived(floor) == 0",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "nu degree == 18",
+   "got": 18,
+   "pass": true,
+   "want": 18
+  },
+  {
+   "check": "nu = c * kappa^6",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "kappa coeffs asc (CMT_DRAFT.md table row 5)",
+   "got": [
+    -6859,
+    -56402640,
+    3033676800,
+    2771822592000
+   ],
+   "pass": true,
+   "want": [
+    -6859,
+    -56402640,
+    3033676800,
+    2771822592000
+   ]
+  },
+  {
+   "check": "kappa irreducible",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "kappa const == -19^3",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "kappa disc squarefree kernel == {7,11}",
+   "got": [
+    7,
+    11
+   ],
+   "pass": true,
+   "want": [
+    7,
+    11
+   ]
+  },
+  {
+   "check": "Killing rank == 78 (p=41131)",
+   "got": 78,
+   "pass": true,
+   "want": 78
+  },
+  {
+   "check": "wall dims [30,30,30] (p=41131)",
+   "got": [
+    30,
+    30,
+    30
+   ],
+   "pass": true,
+   "want": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "check": "pairwise inters == 12 (p=41131)",
+   "got": [
+    12,
+    12,
+    12
+   ],
+   "pass": true,
+   "want": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "check": "triple inter == the floor (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "floor inside every wall (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "span == 66 (p=41131)",
+   "got": 66,
+   "pass": true,
+   "want": 66
+  },
+  {
+   "check": "M12 torus-invariant (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "M12 charge ranks [12,12,12,12] (p=41131)",
+   "got": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "pass": true,
+   "want": [
+    12,
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "check": "det12 = c*cubic^4 (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "M12 kernel 4 at each mu-wall (p=41131)",
+   "got": [
+    4,
+    4,
+    4
+   ],
+   "pass": true,
+   "want": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "check": "derived mu-walls == cited mu roots (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "Killing rank == 78 (p=41201)",
+   "got": 78,
+   "pass": true,
+   "want": 78
+  },
+  {
+   "check": "wall dims [30,30,30] (p=41201)",
+   "got": [
+    30,
+    30,
+    30
+   ],
+   "pass": true,
+   "want": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "check": "pairwise inters == 12 (p=41201)",
+   "got": [
+    12,
+    12,
+    12
+   ],
+   "pass": true,
+   "want": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "check": "triple inter == the floor (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "floor inside every wall (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "span == 66 (p=41201)",
+   "got": 66,
+   "pass": true,
+   "want": 66
+  },
+  {
+   "check": "M12 torus-invariant (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "M12 charge ranks [12,12,12,12] (p=41201)",
+   "got": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "pass": true,
+   "want": [
+    12,
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "check": "det12 = c*cubic^4 (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "M12 kernel 4 at each mu-wall (p=41201)",
+   "got": [
+    4,
+    4,
+    4
+   ],
+   "pass": true,
+   "want": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "check": "derived mu-walls == cited mu roots (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "CONTROL random pair does NOT commute",
+   "got": false,
+   "pass": true,
+   "want": false
+  },
+  {
+   "check": "CONTROL random 4-Gram NOT diagonal",
+   "got": false,
+   "pass": true,
+   "want": false
+  },
+  {
+   "check": "CONTROL K-perp CAN meet the core (p=41131)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "CONTROL M12 kernel at generic rho == 0 (p=41131)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  },
+  {
+   "check": "CONTROL K-perp CAN meet the core (p=41201)",
+   "got": true,
+   "pass": true,
+   "want": true
+  },
+  {
+   "check": "CONTROL M12 kernel at generic rho == 0 (p=41201)",
+   "got": 0,
+   "pass": true,
+   "want": 0
+  }
+ ],
+ "GATE_ALL_PASS": true,
+ "GATE_FAILURES": []
+}

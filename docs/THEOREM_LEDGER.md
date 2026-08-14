@@ -5,10 +5,13 @@ every link is labeled — **[THEOREM]** (symbolic/exact or computer-assisted-fin
 **[CENSUS]** (bounded enumeration, bound in the statement), **[IDENTITY]** (computed exact
 equality), **[NO-GO]** (dissolution/obstruction with its discriminating computation banked),
 or **[AXIOM]** (a declared choice — PRICED when its forks are computed, UNPRICED-flagged
-otherwise). Admission per the sealed prereg fd934b27: exact statement + banked computation
+otherwise), or **[COROLLARY]** (an immediate consequence of an earlier link plus a
+definition — carries NO independent computed content and must name the link its content
+is inherited from; added 2026-07-24 by the B784 audit, which found C22 had been minted as
+a computed [NO-GO] when its computation could not fail). Admission per the sealed prereg fd934b27: exact statement + banked computation
 location + green lock. **The going-forward rule: every new banked positive either enters
 this chain under one of the five labels or is explicitly a hint/open door — nothing in
-between.** This document is a VIEW of the bank; it asserts nothing new. Gate 5: no physics
+between.** This document is a VIEW of the bank; it asserts nothing new. **Every link's lock is cited as a resolvable `tests/...py` path and is gate-checked (`chain-locks`)** — a 2026-07-29 review found four [THEOREM] links citing their locks only in prose ('the B730 locks'), which no gate could verify and no reader could run. Gate 5: no physics
 statement appears below; SM-facing content enters only as NO-GO links.*
 
 ---
@@ -22,7 +25,7 @@ quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b749_genesis_fork
 **C2 [THEOREM — the self-selection, one criterion].** Hurwitz extremality at the golden
 slope IS the all-1s continued fraction (the bottom of the Lagrange spectrum): the
 minimal-description principle applied to its own parameter has a unique fixed point.
-— P019 T4 (v2, the unified form). Lock: via B749/F3+F7 controls.
+— P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` — **CORRECTED 2026-08-09 (B998): that file tests F4, F5, F6, F7 only. There is NO F3 test.** The F7 control is present; **F3 is a citation to a test that does not exist.**
 
 **C3 [AXIOM — being is inexhaustible description; PRICED].** The one deep metaphysical
 commitment (P019's A0+A2 under the honest recount). Price computed: the periodic sibling
@@ -44,13 +47,13 @@ det −1 sibling IS the Gieseking manifold — m004's own orientation double cov
 **C6 [THEOREM — Thurston/Riley; banked realization].** The mapping torus of the
 once-punctured torus under [[2,1],[1,1]] is the figure-eight knot complement: unique
 hyperbolic structure, trace field ℚ(√−3), THE arithmetic knot. — B285 (exact Riley rep,
-u² + u + 1 = 0); B282. Locks: the B285-family locks in the suite.
+u² + u + 1 = 0); B282. Lock: `tests/test_b285_commutator_phase.py`.
 
 ## Part II — the object's forced structure
 
 **C7 [THEOREM — the forced faces].** The object's intrinsic arithmetic forces exactly
 three quadratic faces = one Klein-four V₄: being ℚ(√−3) · hearing ℚ(√5) · meeting
-ℚ(√−15) (fund. disc −15). — B730 (two-seat). Locks: the B730 locks.
+ℚ(√−15) (fund. disc −15). — B730 (two-seat). Lock: `tests/test_b730_faces_cosmos.py`.
 
 **C8 [CENSUS — the interface-only V₄].** No closed hyperbolic filling of m004 in the
 |p|,q ≤ 8 grid (78 hyperbolic slopes) has an invariant trace field containing √−3, √5,
@@ -60,12 +63,12 @@ all-slopes theorem). — B288/B740 (two-seat, two-method) + B747 + B748 (with th
 
 **C9 [THEOREM — congruence, conventions named per E23].** m004 IS congruence: standard
 SL-kernel level (4); mod-center/PSL filtration realizes the geometric index 12 at (8);
-the sisters at (2). — B734 (correcting B731; two-seat). Locks: test_b734.
+the sisters at (2). — B734 (correcting B731; two-seat). Lock: `tests/test_b734_m004_congruence.py`.
 
 **C10 [THEOREM — character-rigidity + the voice].** The continuous spectrum is ONE
 channel — the pullback Eisenstein series, φ(s) = Λ_K(s−1)/Λ_K(s) exactly, with NO
 conductor character anywhere in the continuous part; Res φ = 2√3/vol(m004)
-(covering-invariant). — B739 + B737. Locks: the B737/B739 locks.
+(covering-invariant). — B739 + B737. Locks: `tests/test_b737_candidate_zero.py`, `tests/test_b739_rigidity.py`.
 
 **C11 [IDENTITY — the two-column law].** Ten of twelve structural floors carry a FORCED
 golden appearance; the emission channel carries none (the voice is pure being-field):
@@ -155,17 +158,164 @@ the basepoint bit** (both are the γ₅ choice: (1−φ)² = φ⁻² is the Galo
 **the chord's sign = c ⊕ θ**. The rank equals the banked observer-menu rank (B733) —
 RANK-SATURATED: the menu is the full discrete closing set. The continuous residue
 (anchor/values/space) stays Galois-chosen (K020), and the unmoved T1 axis is a named
-door. — B766. Lock: `tests/test_b766_torsor.py`.
+door. — B766. **[STRENGTHENED 2026-07-25, R31-4 + cc3's convergent b766-scrutiny: the
+rank-3 is now COMPUTED from c/θ/γ₅ each moving a distinct probe (was hardcoded flip-vectors);
+the chord is corrected to a MATRIX-LEVEL observable (θ is trace-trivial ⇒ the Im tangent is
+c-odd, not θ-odd — the chord is Sym²(AB)−Sym²(BA), invisible to tr); and θ=reversal
+(trace-trivial at all ranks, matrix-level only) is distinguished from ι=inversion
+(trace-active at genuine SL(3), cc3 N7 gated) — on the object's self-dual (Sym²/V0) component
+ι~θ so the rank-3 STANDS; the full SL(3) variety may carry ι as a 4th generator. **B786 pins
+the character-variety third generator = ι (inversion), with θ (reversal) the matrix-level
+chord; object rank 3 unconditional.**]** Locks: `tests/test_b766_torsor.py`,
+`tests/test_b786_theta_iota.py`.
 
 **C21 [THEOREM — the T1 structure].** The unmoved axis is DISCRETE: a 3-element torsor
 (the V₄-frame choice) under an S₃ of which the banked object-native operations realize
 only the identity — T1's fixedness under the closing set is FORCED (abelian inner
-triviality), so any instrument moving it must realize an outer V₄-automorphism. The
-candidate continuous modulus (the relative position of the c- and θ-eigensplittings) is
-GAUGE-FIXED at the geometric point: the θ-odd coordinates vanish there identically (the
-point is θ-fixed) and the tangent frames align exactly — the alignment that produces
-chord = c⊕θ. No continuous T1 content exists where the object lives. — B769. Lock:
-`tests/test_b769_t1.py`.
+triviality), so any instrument moving it must realize an outer V₄-automorphism. There is
+no continuous T1 modulus where the object lives (its invariant trace data): the candidate —
+the relative position of the c- and θ-eigensplittings — does not exist there, because on the
+Sym²(SL(2)) character variety the θ-involution (the 27↔27̄ contragredient g↦g⁻¹) acts
+TRIVIALLY. In SL(2) tr(g⁻¹)=tr(g), so every θ-odd trace coordinate and its tangent vanish
+IDENTICALLY (not merely at the geometric point): the geometric-point tangent
+d/du[tr Sym²(AB)]|_ω = −5 + i√3 has θ-odd (contragredient) part exactly 0, and its imaginary
+part is c-odd, not θ-odd. Only the c-eigensplitting exists on this module, so there is nothing
+for a θ-frame to be positioned against — the candidate modulus is vacuous. (θ's non-triviality
+is a matrix/representation-level fact, gauge from the invariant standpoint; chord = c⊕θ is the
+banked torsor relation C20/B766, NOT a tangent-frame alignment derived here.) — B769
+[mechanism corrected 2026-07-25: the earlier "tangent frames align → chord = c⊕θ" wording
+conflated the c-odd imaginary direction with a θ-odd one — the same class as the B780/B784
+c-vs-θ slip; the theorem, discrete T1 with no invariant continuous modulus, is unchanged].
+Lock: `tests/test_b769_t1.py`.
+
+**C22 [COROLLARY of C20 — no canonical closing].** Immediate from C20 and the definition
+of torsor: the closing set is a (ℤ/2)³-torsor, and a torsor has no canonical point. **The
+earned content is C20's rank-3 FAITHFULNESS**, not this restatement — note that the
+abstract set {c, θ, γ₅, γ₃} does NOT act freely (γ₃·c is trivial); freeness holds exactly
+after C20's quotient. Given that quotient, the action on the 8 closings is free, there is
+no G-fixed closing, and no G-equivariant selection exists. **The freeness/no-fixed-point
+step is DEFINITIONAL — the regular action of any group is free — and is not an independent
+computation.** — B782 (corollary cell; its compute verifies a group-theoretic identity only
+and cannot fail). Lock: `tests/test_b766_torsor.py` (the failable content);
+`tests/test_b782_c22.py` is a tautology check, NOT a regression lock. *[BRIDGE, PRICED to
+C18 and NOT asserted here: if every object-internal process is modelled as G-equivariant,
+then no internal process selects a closing and the selection is symmetry-breaking rather
+than computation. That premise is a modelling assumption, not a result of this arc.]*
+
+**C23 [NO-GO — the T1-mover; closes the door C21 opened].** C21 established that T1's
+fixedness is FORCED (abelian inner triviality) and therefore that any instrument moving
+it must realize an OUTER V₄-automorphism. **That door is now closed:** the subgroup of
+Out(V₄)=S₃ realized by the object's native operations is exactly **{identity}**. The
+three closing legs carry DISTINCT conjugation-robust signatures under two invariants —
+the orientation homomorphism (holo/antiholo) and the geometric-pair orbit type
+(fix/swap {ρ_geo, ρ̄}): c=(antiholo,swap), j₂=c·θ=(holo,swap), τ=θ=(antiholo,fix) —
+which leaves only the identity in S₃. **Scope stated honestly (per the arc's own verifier):
+the universal spine is the orientation homomorphism I1 (which needs only that the operation
+is holo/antiholo) PLUS the explicit fixed-point argument — c(ρ_geo)=ρ̄ is a free orbit
+(ρ_geo is non-real, computed) while every object-native operation stabilizes {ρ_geo,ρ̄}.
+The pair-orbit invariant I2 and that fixed-point argument SHARE the stabilization premise
+and are NOT independent of each other; the enumerated object-native list (D4 via Mostow,
+γ₅ field-disjoint, γ₃≡c, V₄ abelian) establishes membership in the holo/antiholo
+pair-stabilizing class rather than adding a third argument.** Within that class the wall is
+proven: **the T1 3-frame torsor choice is unbroken by any object-native operation; a mover
+must lie outside the object's native symmetry group.** — B775 Wave 1 (P2-T1MOVER). Lock:
+`tests/test_b783_c23.py`.
+
+---
+
+## Part V — the measurement cascade and the value layer (the B877–B919 window; same-PR catch-up 2026-08-06, B920)
+
+*The window's theorems reached LAW_MAP §F but neither theorem register — the identical gap
+the LAW SWEEP had just fixed in LAW_MAP, one register over (cc3 loss audit A5). These are
+the catch-up links, brief; each mirrors its LAW_MAP §F row, which carries the full
+statement. Gate 5 stands: every row is STRUCTURE (exact algebra on the object's own
+charges); no physics value is claimed anywhere below.*
+
+**C24 [THEOREM — the First Measurement].** The object's 2T-charges stratify e₆; three
+Galois-conjugate first breakings (μ, constant 13³); z(line) = so(10)⊕u(1); the tiling with
+the cyclic law (P69). — B877. Lock: `tests/test_b877_fmt_review.py`.
+
+**C25 [THEOREM — the Second Measurement].** A second measurement of the object's own
+charges lands on su(3)⊕su(2)⊕u(1)³ EXACTLY, skipping SU(5); the wall complex in the split
+frame, at all three roots. — B892, B893. Locks: `tests/test_b892_smt.py`,
+`tests/test_b893_omega.py`.
+
+**C26 [THEOREM — the magic-square isomorphism].** The build IS M(𝕆,ℂ) by explicit
+structure constants; 0/3003 mismatches, det φ = −2/3 (P70). — B904. Lock:
+`tests/test_b904_bs.py`.
+
+**C27 [THEOREM — the inter-breaking laws].** Vacuum-to-Higgs; the 16/vacuum exclusion —
+exact minimal-polynomial theorems on the matter pencil. — B885, B886. Locks:
+`tests/test_b885_interbreaking.py`, `tests/test_b886_matter_pencil.py`.
+
+**C28 [THEOREM — the four-column concordance].** Measured ⟺ θ-odd exponents (4,8) ⟺
+τ_m > 0 ⟺ split spectrum; unmeasured ⟺ (7,11) ⟺ compact; 7·11 = 77 the resolvent; 5 by
+ramification. — B894, B898. Locks: `tests/test_b894_bridge.py`, `tests/test_b898_census.py`.
+
+**C29 [THEOREM — the signature dichotomy].** ad(x₈) ≡ ad(x₁₆): {0³⁰, 48 real};
+ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imag}; zero generic-complex on C. — B898. Lock:
+`tests/test_b898_census.py`.
+
+**C30 [THEOREM — the sign-law mechanism].** All six torsion quotients exactly
+anti-palindromic; sign(τ_m) = sign(lc)·(−1)^{p_m}; p_m ≡ m (mod 2) in every block. —
+B903. Lock: `tests/test_b903_sign.py`.
+
+**C31 [THEOREM — the diagonal cocycle].** All four Π-label cubics have a root in K (each
+led by 13³); the Galois S₃ acts on both orbits by ONE root permutation. — B900. Lock:
+`tests/test_b900_cocycle.py`.
+
+**C32 [NO-GO — the C-stabilizer].** n(C) = z(C) = 12; no real C-stabilizing symmetry swaps
+split/compact or x₈↔x₁₆ — the c-carrier must be complex. — B901. Lock:
+`tests/test_b901_stab.py`.
+
+**C33 [THEOREM — the annihilation].** [α_vac] = [α_μ]⁻¹: vacuum ⊕ charge = the split
+algebra; certificates on the ζ₆-line. — B902. Lock: `tests/test_b902_kp.py`.
+
+**C34 [THEOREM — the one-class + the numerator law + the observer's place].**
+[α_μ] = [α_gen] = [α_κ] = [α_V] = C, vacuum = C⁻¹; each pencil's Kummer element wears its
+own prime; den(V) = 𝔭₁(953)⁴ exactly. — B910, B918. Locks: `tests/test_b910_kappa.py`,
+`tests/test_b918_v.py`.
+
+**C35 [THEOREM — the sealed generation-shape].** G₂₀'s su(3)′ replicates fixed
+color⊗su(2)′ types into flavor triplets; the lepton 3+6 split; Casimirs 4/9, 4/9, 3/8;
+mechanism-hood fenced. — B897. Lock: `tests/test_b897_g20.py`.
+
+**C36 [THEOREM — the unified ℤ₂ law + the atoms].** Matter gluing = gauge commutation =
+mixed-texture type (8/8, 48/48, two-prime); 15 atoms, bijective tri-partition; the
+colorless grid = two pencils of AG(2,3). — B906. Lock: `tests/test_b906_flavor.py`.
+
+**C37 [THEOREM — the e₆(2) selection].** The wall is real exactly in e₆(2), via τ-twisted
+alignments only; ε₈ε₁₆ = ε₁₄ε₂₂ = +1 for every C-stabilizing automorphism. — B907. Lock:
+`tests/test_b907_selector.py`.
+
+**C38 [THEOREM — the rational atoms + I = −1].** The four charges commute rationally on
+the 27; rows = even transversals, cols = odd; P_R = −P_C exact. — B908. Lock:
+`tests/test_b908_pin.py`.
+
+**C39 [THEOREM — the signature split of matter].** The canonical H has signature
+(15,12) = e₆(2)'s K-split; nine colorless atoms positive-definite with scales; all six
+colored atoms Lorentzian. — B912. Lock: `tests/test_b912_norm.py`.
+
+**C40 [THEOREM — the one-number table].** All six normalization-free colorless couplings
+EXACTLY equal: T = σ₂(t_K), deg-3; the H-unit gauge = the determinant gauge. — B914.
+Lock: `tests/test_b914_table.py`.
+
+**C41 [THEOREM — the unimodularity + the twist-norm law + the product law].** λ = 1
+exactly in the charge-equivariant gauge; ∏d_i = −(953/2304)² = N_{K/ℚ}(d);
+v₁v₂v₃ = 3^{3/2}λ² exact; structure primes (13,17,19) inert, value primes split [1,2]. —
+B916, B917. Locks: `tests/test_b916_bridge.py`, `tests/test_b917_value_arc.py`.
+
+**C42 [IDENTITY — the 3/8 traces].** Tr(T₃²) = 3, Tr(Y²) = 5, Tr(T₃·Y) = 0 exactly
+(one-prime tier, rational reconstruction; second prime open-diagnosed) ⟹ the
+trace-orthogonality ratio 3/8 — structure, not a physics value (Gate 5). — B919. Lock:
+`tests/test_b919_traces.py`.
+
+**C43 [NO-GO — the crossing, sealed].** One input (α_em) + the object's boundary + pure
+desert MISSES at 16σ, α_s-dominated; the failure triangle banked; the desert is dead as a
+mechanism. — B915. Lock: `tests/test_b915_crossing.py`.
+
+*(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
+invisible-12 — enter when their locks land; LAW_MAP §F's pending row governs.)*
 
 **C22 [NO-GO — the choice-incomputability of the closing].** The measurement torsor
 (C20) is a FREE TRANSITIVE (ℤ/2)³-action on its 8 closings — verified exhaustively: no
@@ -185,3 +335,5 @@ asserted in the chain; NOT in CLAIMS.]*
 green lock + one of the five labels); a link whose lock breaks reverts to the arc trail
 until repaired; the chain is regenerable from the bank and never a source of authority
 over it (GOVERNANCE: views don't outrank arcs).*
+
+> **LOCK AUDIT, B998 (2026-08-09).** `tests/test_b749_genesis_forks.py` tests **F4, F5, F6, F7**. It contains **no F3 test** (cited above), **no F2 test** — C3's only real price — and **no F8 test** — C4's entire price. **So C1, C2 and C4 carry no in-repo lock, and C3 is locked only by a fork pricing a different axiom.** The claims are not thereby false: **C1 (Morse–Hedlund) and C2 (Hurwitz/Lagrange extremality) are classical, cited not re-proved.** What was false is this ledger's assertion that they are locked *here*. **CORRECTED 2026-08-09 (B1003): F2 and F8 were COMPUTED all along** — B749 has `compute.py`, `output.txt` and a verdict for all seven forks. **What was missing was the LOCKS**, now written (`tests/test_b1003_f2_f8_locks.py`). **F2 = ROBUST** (pA count 0 for the whole periodic family — A2 selects the destination); **F8 = GEOMETRY-NECESSARY** (four witnesses fail; **x²+3 irreducible over ℚ(√5)** — ℚ(√−3) is bought at geometrization). **The chain's price is exactly two FRAGILE forks: F5 orientation and F6 the puncture.**

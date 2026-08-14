@@ -1,0 +1,15 @@
+{
+ "id": "B886",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE MATTER PENCIL, all exact: P(x,lambda) = det(xI - rho(x8) - lambda rho(x16)) on the 27 factors over Q as F1^1 * F2^8, both cubic in x -- the 27 carries exactly SIX joint Pi-weights in two size-3 Galois orbits (mult 1 and mult 8; the 8 = the octonion dimension as exact weight multiplicity). At each root of mu the branches COLLIDE with structure [(1,1),(10,1),(16,1)]: 1 = lone w, 10 = w+w+u, 16 = u+u -- mu's THIRD independent appearance, now as the matter pencil's branch-collision locus -- in a perfectly S3-EQUIVARIANT design (at root i: u_i participates, w_{2-i} is the lone singlet weight). THE TWO B885 LAWS ARE NOW THEOREMS (exact minimal-polynomial tests, 6/6 ordered pairs): every frame's vacuum axis is a 10-block direction of every other frame (LAW 1) and never a singlet direction (LAW 2). NEW OBJECT: the mult-8 orbit's field is isomorphic to K = Q[rho]/mu (generic matter weights live in the charge field) but the mult-1 orbit's field is NOT -- a SECOND cubic field enters, a brand-new arithmetic invariant of the object; its invariants are the named follow-up.",
+ "depends_on": [
+  "B866",
+  "B883",
+  "B884",
+  "B885"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

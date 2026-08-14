@@ -1,0 +1,10 @@
+{
+ "id": "B106",
+ "verdict": "PROVED",
+ "claim_one_line": "Dehn-filling fixed points are partially elliptic with root-of-unity neutral eigenvalues, and degree=rank holds eigenvector-by-eigenvector as L_i = c M_i^k.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B712",
+ "verdict": "PROVED",
+ "claim_one_line": "The figure-eight A-polynomial's canonical point is imaginary (cusp shape 2*sqrt(-3)) with only degenerate real points, extending non-canonicity to the object's continuum.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

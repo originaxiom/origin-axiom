@@ -1,0 +1,63 @@
+{
+ "cell": "P2W4-HEAR",
+ "lead": "OI-026 / L91",
+ "hearing_filter_ok": true,
+ "D2_grid": [
+  [
+   "A2",
+   2,
+   5
+  ],
+  [
+   "A4",
+   1,
+   6
+  ],
+  [
+   "A5",
+   1,
+   7
+  ]
+ ],
+ "grid_reproduces_W32": true,
+ "classification_closed_all_ranks_levels": true,
+ "HEAR_solution_set": [
+  [
+   "A2_2",
+   5
+  ],
+  [
+   "A4_1",
+   6
+  ]
+ ],
+ "HEAR_solution_count": 2,
+ "excluded_two_walls": [
+  "A5_1"
+ ],
+ "SL2F5_two_doublets_one_galois_orbit": true,
+ "no_rational_separator": true,
+ "survivors_in_two_cosets_mod5": true,
+ "sigma2_flips_sqrt5": true,
+ "classical_bit_same_Z2_disc5": true,
+ "minimality_ambiguous_kappa_vs_level": true,
+ "tiebreaks_picking_kappa5": [
+  "kappa-min",
+  "rank-min",
+  "kappa=conductor",
+  "H-CUSP (B672)"
+ ],
+ "tiebreak_picking_kappa6": [
+  "level-min"
+ ],
+ "reproduction": "D=2 grid + A5@1 double exclusion reproduce banked B666/W32 by an independent implementation (-w0 computed from the Cartan matrix, not cited); grid also re-derived a 2nd way by closed forms for all ranks; an earlier duplicate run of this cell (prior_run_v1/) reached the same grid and the same verdict by a partly different route (cusp-field tiebreak); sufficiency of H-EAR at A4@1 = in-cell Gamma(5) T^5-scalar certificate + banked W32 Part 4 (12/12 corpus).",
+ "verdict": "RESOLVED-B",
+ "headline": "H-EAR forces only the Galois PAIR {kappa=5, kappa=6}; kappa=5 is a priced choice -- price = one sqrt5/orientation bit, and the 'minimal' tiebreak is not even single-valued (level-minimality picks kappa=6)",
+ "discriminating_fact": "The H-EAR predicate has EXACTLY TWO solutions over all simply-laced stages (classification closed in-cell: theta-odd D=2 only at A2@2 kappa=5, A4@1 kappa=6, A5@1 kappa=7; A5@1 killed twice -- projective T-order 4!=5 and 5 does not divide ord(T)=24 so sqrt5 is not in Q(zeta24)). The two survivors carry the T-ratio exponents a=2 and a=1, which lie in the two cosets of the squares mod 5 and are exchanged by sigma_2 in Gal(Q(zeta5)/Q), the element that flips sqrt5 (Gauss sum verified exactly) -- i.e. they realize the two Galois-conjugate 2-dim irreps of the object's own shadow SL(2,F5) (built as 2I over Q(sqrt5): 120 elements, both doublets irreducible, NO Q-rational class value separates them). The classical side carries the same bit (A1 spectrum {phi^2,phi^-2}, disc = 5 = the conductor). Hence H-EAR forces the PAIR, not kappa=5. The tiebreak is an added axiom AND is not single-valued: kappa-minimality, rank-minimality, kappa=conductor and H-CUSP pick kappa=5, while LEVEL-minimality picks kappa=6.",
+ "gate_5Q": {
+  "structural_only": true,
+  "no_SM_values": true,
+  "nothing_to_CLAIMS": true,
+  "one_number_pin_untouched": true
+ }
+}

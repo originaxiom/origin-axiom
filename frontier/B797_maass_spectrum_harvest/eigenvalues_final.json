@@ -1,0 +1,211 @@
+{
+ "manifold": "m004",
+ "convention": "lambda = 1 + r^2",
+ "Y1": 0.75,
+ "Y2": 0.62,
+ "eigenvalues": [
+  {
+   "r": 3.9389168641612198,
+   "lambda": 16.515066062773656,
+   "r_Y2": 3.9389168651877355,
+   "dr": 1.0265157612820985e-09,
+   "sigma_Y1": 6.306125546863119e-10,
+   "sigma_Y2": 1.5820560633742313e-10,
+   "sv_tail": [
+    0.23436284168902588,
+    0.21612779783193078,
+    2.174227558774507e-10,
+    2.148727387763031e-10
+   ],
+   "multiplicity": 2,
+   "S_invariance_dev": 1.183370434587622,
+   "type": "NEW (Gamma_41)",
+   "n": 1,
+   "source": "cc3 B792 solver (full diagnostics)"
+  },
+  {
+   "r": 4.900085372822588,
+   "lambda": 25.010836660949877,
+   "r_Y2": 4.9000853738491035,
+   "dr": 1.0265157612820985e-09,
+   "sigma_Y1": 1.7014950321913768e-10,
+   "sigma_Y2": 2.5165824548870966e-10,
+   "sv_tail": [
+    0.5126344295369214,
+    0.23380073015989306,
+    0.21719118211450789,
+    1.6998987734605693e-10
+   ],
+   "multiplicity": 1,
+   "S_invariance_dev": 1.0893070225572283,
+   "type": "NEW (Gamma_41)",
+   "n": 2,
+   "source": "cc3 B792 solver (full diagnostics)"
+  },
+  {
+   "r": 5.670720034951541,
+   "lambda": 33.15706571480081,
+   "r_Y2": 5.670720033925026,
+   "dr": 1.0265157612820985e-09,
+   "sigma_Y1": 1.4443919781259593e-10,
+   "sigma_Y2": 1.1635842220386253e-11,
+   "sv_tail": [
+    0.2170603628618276,
+    0.1833790540952873,
+    5.924852878424149e-10,
+    5.829751680400037e-10
+   ],
+   "multiplicity": 2,
+   "S_invariance_dev": 1.087870287909475,
+   "type": "NEW (Gamma_41)",
+   "n": 3,
+   "source": "cc3 B792 solver (full diagnostics)"
+  },
+  {
+   "r": 5.9129178823978386,
+   "lambda": 35.96259788398014,
+   "r_Y2": 5.912917881371323,
+   "dr": 1.0265157612820985e-09,
+   "sigma_Y1": 3.2742485483399996e-10,
+   "sigma_Y2": 9.518951464596641e-11,
+   "sv_tail": [
+    0.2184313995587332,
+    0.1826170703417507,
+    0.17954330888374434,
+    3.535172773621673e-11
+   ],
+   "multiplicity": 1,
+   "S_invariance_dev": 1.1009142012009847,
+   "type": "NEW (Gamma_41)",
+   "n": 4,
+   "source": "cc3 B792 solver (full diagnostics)"
+  },
+  {
+   "r": 6.632802303236165,
+   "lambda": 44.994066393814975,
+   "r_Y2": 6.632802302209649,
+   "dr": 1.0265157612820985e-09,
+   "sigma_Y1": 5.80631120029257e-11,
+   "sigma_Y2": 2.6892079272054358e-11,
+   "sv_tail": [
+    0.213667534877934,
+    0.19500069922556895,
+    4.2902409112302306e-10,
+    4.252446151157718e-10
+   ],
+   "multiplicity": 2,
+   "S_invariance_dev": 1.1590338243798661,
+   "type": "NEW (Gamma_41)",
+   "n": 5,
+   "source": "cc3 B792 solver (full diagnostics)"
+  },
+  {
+   "r": 7.072004186674375,
+   "lambda": 51.013243216339895,
+   "r_Y2": 7.0720041856478595,
+   "dr": 1.0265157612820985e-09,
+   "sigma_Y1": 1.7807178331937876e-10,
+   "sigma_Y2": 2.484878139074386e-10,
+   "sv_tail": [
+    0.21658026970687275,
+    0.05010099948210186,
+    0.046749308806145466,
+    4.3915254562659386e-10
+   ],
+   "multiplicity": 1,
+   "S_invariance_dev": 7.141748979233528e-10,
+   "type": "OLD (Bianchi)",
+   "n": 6,
+   "source": "cc3 B792 solver (full diagnostics)"
+  },
+  {
+   "n": 7,
+   "r": 7.349526641,
+   "lambda": 55.015542,
+   "multiplicity": 2,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 8,
+   "r": 7.4066156,
+   "lambda": 55.857955,
+   "multiplicity": 1,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 9,
+   "r": 7.687671168,
+   "lambda": 60.100288,
+   "multiplicity": 1,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 10,
+   "r": 7.857783263,
+   "lambda": 62.744758,
+   "multiplicity": 2,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 11,
+   "r": 8.308224803,
+   "lambda": 70.026599,
+   "multiplicity": 2,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 12,
+   "r": 8.863405356,
+   "lambda": 79.559955,
+   "multiplicity": 2,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 13,
+   "r": 9.027421524,
+   "lambda": 82.494339,
+   "multiplicity": 1,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 14,
+   "r": 9.047788231,
+   "lambda": 82.862472,
+   "multiplicity": 2,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 15,
+   "r": 9.080648624,
+   "lambda": 83.458179,
+   "multiplicity": 1,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 16,
+   "r": 9.64012103,
+   "lambda": 93.931933,
+   "multiplicity": 2,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  },
+  {
+   "n": 17,
+   "r": 9.837116218,
+   "lambda": 97.768855,
+   "multiplicity": 2,
+   "source": "FINDINGS certified table (B797)",
+   "diagnostics": "NOT IN MAIN \u2014 r_Y2/sigma/sv_tail/S_invariance_dev were produced by cc3 B792 and were not harvested; absent rather than fabricated"
+  }
+ ],
+ "completeness_note": "Completed 2026-08-01 (B846): the file held 6 of the 17 eigenvalues its own FINDINGS table certifies, so anything reading the JSON silently received a third of the spectrum. All 17 are now present. The 6 original entries retain cc3's per-eigenvalue diagnostics; the 11 added carry r, lambda and multiplicity from the certified table, with diagnostics marked ABSENT rather than invented. Mode-count certification (664->900 modes, Bessel margins 21.0->27.0, max |dr| = 5.42e-9) applies to the whole table."
+}

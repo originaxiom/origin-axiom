@@ -1,0 +1,10 @@
+{
+ "id": "B603",
+ "verdict": "PROVED",
+ "claim_one_line": "Weight purity of the Omega-null state v0 makes every bent state v_m*v0 weight-homogeneous of weight 2m and hence J-isotropic at every block, so all single-generator L1 contractions are weight-forced.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

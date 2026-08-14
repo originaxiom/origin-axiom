@@ -1,0 +1,10 @@
+{
+ "id": "B429",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "First-order rigidity: no first-order deformation of the object's E₆ structure produces spinorial matter — the one geometric direction stays sl2-factored/bosonic and the five intrinsic directions leave the sl2 locus entirely.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B302",
+ "verdict": "PROVED",
+ "claim_one_line": "The order-3 symmetry absent from the torsion-free knot group lives in the commensurator PGL(2,O₋₃) as a hidden symmetry, with the figure-eight an index-12 cover of that orbifold.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

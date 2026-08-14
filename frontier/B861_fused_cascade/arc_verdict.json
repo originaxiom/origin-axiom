@@ -1,0 +1,15 @@
+{
+ "id": "B861",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "ONE principle -- maximal residual symmetry among REGISTERABLE options, registerable meaning the 27's generation stays chiral as a multiset with theta-odd abelian factors stripped (B860's theorem-grade criterion) -- selects E6 -> SO(10)xU(1) -> SU(5)xU(1) -> SM UNIQUELY at every step, applied uniformly to the GENERATION. The handoff's deviation clause dissolves: the world's chain IS the extremal registerable path; the 'deviation' was an artifact of ranking the non-registerable SU(4)xU(1). The gate bites exactly twice (Sp(8)'s self-dual 27 at step 1; SU(4)xU(1) at step 3) and is non-vacuous by construction. A first draft applied the test to COSETS and was caught by its own output (every adjoint coset is multiset-self-conjugate -- vacuous); the uniform generation criterion is the repair. Remaining external spine: menu completeness (P5) and one owed definition (registering as a B599 pairing datum). No values.",
+ "depends_on": [
+  "B859",
+  "B860",
+  "B599",
+  "B593"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

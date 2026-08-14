@@ -46,9 +46,16 @@ The agent quota was spent, so cc completed CL-W4115 and CL-LATIN by DIRECT compu
 | **CL-W4115** | **RESOLVED-B** | The fabricated "adjoint 7,815" string STRIPPED — direct recomputation shows the essential adjoint (t²−5t+1) content is [3,21,108,525,2523], no 7, no 815 (fabricated); the chord "1,5,19,71" is REAL (odd-n √(Res/2)). The wall HARDENS on the **verified field-disjointness mechanism**: chord Q(√3), adjoint Q(√21), charge Q(√5) are three DISTINCT fields (disc 12/21/5), so no value-collision law relates chord/adjoint to the charge tower; the lone T(5)=121=11² hit is an isolated abelian-Q(√5) coincidence (content ≡0 mod 11 at n=5,10, period 5). W4-115c's RESOLVED-B stands on real data, fabrication removed. |
 | **CL-LATIN** | **RESOLVED-B** | The P2W2-LATIN downgrade CONFIRMED with a computed mechanism, by TWO independent routes: (a) the cell's full E6₂ rebuild + T1–T4 forcing-candidate test (T2 Galois fails: "|.| not Galois-equivariant"); (b) cc's direct amplitude-Galois test — {A1,A2,A3}=(2/√7)sin(2πk/7) is NOT Galois-closed (minpoly 7x³−7x²+1 has roots {A1,A2,**−A3**}). |·|'s absolute value is the **non-Galois step** — the SAME step as the mirror (P2W2-MIRROR). The Latin square is exact + Z/3-current-row-forced, but the non-current block rests on |·|, not fusion/Galois forcing. |
 
-**A cross-arc unification (recorded):** CL-LATIN and P2W2-MIRROR share one root — the
+**A cross-arc unification — RETRACTED (B784).** **[RETRACTED B784, 2026-07-24: the "non-Galois motif across three arcs" was WRONG. MIRROR and CL-LATIN both reduce to "absolute value is not a field automorphism" — trivially true of any field, not a discovery about this object — while R1 (θ is geometric) is a different kind of statement. Conflating them was pattern-matching. The individual facts stand; the motif does not.]** Original text: CL-LATIN and P2W2-MIRROR share one root — the
 absolute value |·| on modular data is the non-Galois step in BOTH. The mirror is
 non-Galois (anti-diagonal axis map) and the hearing Latin square is not fully forced,
 for the same reason: |S| discards the Galois sign that would close the orbit.
 
 **B778 is now 7/7 complete.** Gate 5 / Gate 5-Q clean; nothing to CLAIMS.
+
+
+## B784 CORRECTIONS to this arc (2026-07-24)
+- **CL-W4115** — verdict RESOLVED-B (the wall hardens) STANDS, but the audit retracts the supporting facts: the 'essential adjoint content [3,21,108,525,2523]' framing does not support the conclusion as stated. The wall rests on the field-disjointness (chord ℚ(√3), adjoint ℚ(√21), charge ℚ(√5)) — that part is real; the content-sequence argument is withdrawn.
+- **CL-LATIN** — verdict RESOLVED-B STANDS. Scope narrowed: replace 'confirmed by TWO independent routes' with **'cross-checked two ways on ONE mechanism'** (the cell's T-battery and cc's Galois-orbit check share the same |·| premise — they are not independent).
+- **CL-H133** — verdict STANDS, wording restated: not 'the θ-odd sector is empty' but **'both parity-graded TRACE readouts vanish at level 4'** — a statement about the trace readouts, not about the sector itself.
+- **CL-W5139 and CL-W5100 STAND AS BANKED** (the audit's strongest two).

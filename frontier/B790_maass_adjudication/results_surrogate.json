@@ -1,0 +1,20 @@
+{
+  "observed": 4,
+  "n_lengths": 70,
+  "surrogate_A": {
+    "mean": 4.63,
+    "median": 4,
+    "p5": 1,
+    "p95": 9,
+    "p_value": 0.6576666666666666
+  },
+  "surrogate_B": {
+    "mean": 1.516,
+    "median": 1,
+    "p5": 0,
+    "p95": 4,
+    "p_value": 0.094
+  },
+  "tol": 0.001,
+  "cutoff": 5.0
+}

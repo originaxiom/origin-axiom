@@ -1,0 +1,10 @@
+{
+ "id": "B714",
+ "verdict": "PROVED",
+ "claim_one_line": "The verified physics spine: the object authors a vector-like E6 skeleton with generation count 3, while chirality, generations-as-permutable, and all values are negative.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

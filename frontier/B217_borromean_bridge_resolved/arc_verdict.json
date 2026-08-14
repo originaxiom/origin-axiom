@@ -1,0 +1,10 @@
+{
+ "id": "B217",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Borromean parent gives no geometric origin for the WRT period law: it governs the cusped volume, while the closed-bundle period stays algebraic.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

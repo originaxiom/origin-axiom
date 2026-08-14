@@ -1,0 +1,10 @@
+{
+ "id": "B94",
+ "verdict": "PROVED",
+ "claim_one_line": "The Dickson catalog survives outside the metallic slice while every sign/parity sector is det=-1-specific, splitting tower and degree=rank into two problems.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

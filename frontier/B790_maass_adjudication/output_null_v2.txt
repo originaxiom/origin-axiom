@@ -1,0 +1,10 @@
+m004: 70 distinct lengths, observed 4 hits
+stability check vs 12-dp dedup: 88 lengths
+
+POOL-MATCHED NULLS
+Null C2 - empirical, 20 manifolds truncated to 70 lengths
+  n=20 mean=1.95 median=1 5-95%=[0,5]  P(>=obs 4)=0.2000
+Null D  - gap-shuffle of m004's own spectrum
+  n=400 mean=5.43 median=5 5-95%=[2,10]  P(>=obs 4)=0.7500
+
+manifolds used: ['m003', 'm006', 'm007', 'm009', 'm010', 'm011', 'm015', 'm016', 'm017', 'm019', 'm022', 'm023', 'm026', 'm027', 'm029', 'm030', 'm032', 'm033', 'm034', 'm035']

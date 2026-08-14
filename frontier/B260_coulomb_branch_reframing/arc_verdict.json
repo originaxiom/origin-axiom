@@ -1,0 +1,10 @@
+{
+ "id": "B260",
+ "verdict": "PROVED",
+ "claim_one_line": "Identified the SL(2,ℂ) character variety as the Coulomb branch of T[4₁] (A-polynomial verified), dissolving wall #1: zero theorems block object→physics, but no bridge is built.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B98",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The Dickson tower does not appear at the geometric representation, which instead carries the adjoint torsion t^2-5t+1; the tower is a trivial-rep phenomenon.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

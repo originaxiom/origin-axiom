@@ -1,0 +1,12 @@
+{
+ "id": "B316",
+ "verdict": "PROVED",
+ "claim_one_line": "sqrt(-7) is the CHIRALITY field, not a metallic-ladder member: disc -7 is below the unimodular floor, and Q(sqrt-7) is reached by BREAKING amphichirality (non-palindromic RRL/RLL words).",
+ "instrument": false,
+ "depends_on": [
+  "B147"
+ ],
+ "superseded_by": null,
+ "stratum": "A",
+ "authored_by": "W1-pilot"
+}

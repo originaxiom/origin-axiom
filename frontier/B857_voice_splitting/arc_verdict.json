@@ -1,0 +1,15 @@
+{
+ "id": "B857",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "LAW_MAP's H-EAR clause (iii) SILENCE rested on a GREP ('zero golden markers' over B737/B739 artifacts). The exact fact replacing it: 5 is INERT in Q(sqrt-3), so a_K(5) = 0 -- the being voice's Dirichlet series has no coefficient at the hearing prime -- while 3 is RAMIFIED and spoken at every power; and the blindness is MUTUAL, since 3 is inert in Q(sqrt5). But the SCOPE was wrong: 5 SPLITS in Q(i) with a(5) = 2, so the SILVER's voice says 5 perfectly. The phenomenon is a SPLITTING TYPE of one prime in one field, NOT a property of voices. The real blind spot -- Hecke eigenvalues of the 17 certified Gamma_41 newforms -- remains uncomputed.",
+ "depends_on": [
+  "B746",
+  "B737",
+  "B739",
+  "B797"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (arc author, 2026-08-02)"
+}

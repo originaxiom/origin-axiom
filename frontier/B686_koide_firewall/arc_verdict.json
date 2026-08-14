@@ -1,0 +1,10 @@
+{
+ "id": "B686",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The 'Koide is Eisenstein arithmetic' claim is firewalled: Q = 2/3 is a parametrization tautology for every phase and theta0 = 2/9 is convention-dependent and base-rate.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

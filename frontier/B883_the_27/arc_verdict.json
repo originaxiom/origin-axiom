@@ -1,0 +1,13 @@
+{
+ "id": "B883",
+ "verdict": "PROVED",
+ "instrument": true,
+ "claim_one_line": "THE 27 REPRESENTATION built on the B854 Chevalley frame via the e7 3-grading -- the queue's top instrument gap closed with every sign inherited, none hand-fixed: e7 built by exactly the B854 recipe (63 positive roots, dim 133, Jacobi exact on 1500 triples); the epsilon-cocycle restricted to the first six nodes is IDENTICAL, so the e6 inside e7 is B854's frame VERBATIM (3000 random structure-constant pairs exact -- predicted, then checked); the grading by the 7th fundamental coweight gives e7 = 27bar + (e6+R) + 27 with (79,27,27); the 27's matrices read off e7's bracket table VERIFY AS A REPRESENTATION ON ALL 6084 BASIS PAIRS IN EXACT INTEGERS; 27 distinct weights (minuscule), dominant = omega_1; VALIDATED against banked data: rho(s1) at the enhancement point has eigenvalue multiplicities [1, 10, 16] -- the banked branching reproduced. Instrument: rep27.json (78 exact integer 27x27 matrices in B854 order + weights + conventions). Unlocks: the invariant cubic / Yukawa-support table (B884), the E-clause capstone, the DVT comparison.",
+ "depends_on": [
+  "B854",
+  "B866"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-04)"
+}

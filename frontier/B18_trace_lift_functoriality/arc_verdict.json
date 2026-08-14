@@ -1,0 +1,10 @@
+{
+ "id": "B18",
+ "verdict": "PROVED",
+ "claim_one_line": "The Fibonacci trace map is the canonical functorial trace lift of the half-step automorphism, with Fricke-Vogt preserved and parity resolving at the A level.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

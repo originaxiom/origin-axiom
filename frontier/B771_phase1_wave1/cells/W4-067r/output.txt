@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+<home>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 ==============================================================================
 STEP 0 -- baselines: recover the KNOWN single-block invariant trace fields from scratch
@@ -124,4 +124,4 @@ REASON: all 6 distinct composite words (golden+silver block mixes, evaluated und
 
 ALL CHECKS PASS
 
-[results.json written to /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W4-067r/results.json]
+[results.json written to <repo>/frontier/B771_phase1_wave1/cells/W4-067r/results.json]

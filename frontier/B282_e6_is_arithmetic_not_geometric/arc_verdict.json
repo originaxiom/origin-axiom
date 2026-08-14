@@ -1,0 +1,10 @@
+{
+ "id": "B282",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Almost everything in the E\u2086 programme is generic to any hyperbolic knot; only the arithmetic atom (4\u2081 unique arithmetic knot, \u211a(\u221a\u22123)\u21a02T) is the object'specific.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B243",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The level-rank=conjugation mechanism is universal at every level (not golden-specific), and the apparent metallic ladder V(m²+2)∈ℚ(√(m²+4)) is refuted at bronze.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

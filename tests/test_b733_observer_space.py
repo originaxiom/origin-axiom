@@ -40,8 +40,14 @@ def test_arithmetic_observer_bit_is_one_at_all_depths():
     # Aut(O_3) = Gal(Q(sqrt-3)/Q) = Z/2: the being field gives exactly ONE F_2 observer bit, every depth.
     x = sp.Symbol('x')
     assert sp.discriminant(x**2 + x + 1, x) == -3           # Z[w], the Eisenstein field
-    # exactly two ring automorphisms (w -> w, w -> w^2) -> Aut = Z/2 -> 1 bit, depth-independent
-    assert 2 == 2                                            # |Aut(Z[w])| = 2
+    # exactly two ring automorphisms (w -> w, w -> w^2) -> Aut = Z/2 -> 1 bit, depth-independent.
+    # Was `assert 2 == 2`, which locked nothing: COUNT the automorphisms instead. The Z-algebra
+    # maps of Z[w] are determined by the image of w, which must be a root of the same minimal
+    # polynomial, so |Aut| = #roots of x^2 + x + 1.
+    roots = sp.solve(x**2 + x + 1, x)
+    assert len(roots) == 2, f"|Aut(Z[w])| should be 2, got {len(roots)}"
+    assert all(sp.simplify(r**3 - 1) == 0 for r in roots)      # both are cube roots of unity
+    assert sp.simplify(roots[0] * roots[1] - 1) == 0           # w * w^2 = 1: they are the pair
 
 def test_full_diagonal_2rank_saturates_bounded():
     # even the OFF-GATE diagonal rank R*/(R*)^2 for R=O_3/2^k SATURATES (bounded), never continuous.

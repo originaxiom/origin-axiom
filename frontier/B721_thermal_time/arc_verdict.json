@@ -1,0 +1,10 @@
+{
+ "id": "B721",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The thermal-time lead fails identity: the object's own clock is tracial type II_1 with trivial modular flow, complementary to rather than inside the CMR KMS torsor.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

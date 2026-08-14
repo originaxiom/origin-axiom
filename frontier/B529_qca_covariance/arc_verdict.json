@@ -1,0 +1,10 @@
+{
+ "id": "B529",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The QCA covariance gate fails: iσ_y's exactness is generic spectral degeneracy and the golden-angle coin loses to 2 of 10 random controls.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

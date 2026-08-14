@@ -1,0 +1,10 @@
+{
+ "id": "B354",
+ "verdict": "PROVED",
+ "claim_one_line": "Exact minimal-polynomial certificates for the (1,3) and (2,3) interface pair points, the strong-channel kill (only trivial and quaternion points are shared), the odd-prime-degree seam-null, and the law R^mL^m = I mod p iff p|m.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3-wave3-fourcategory"
+}

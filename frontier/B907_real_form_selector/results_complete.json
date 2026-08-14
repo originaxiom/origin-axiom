@@ -1,0 +1,1175 @@
+{
+ "outer": [
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 52,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 52,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": -1,
+    "14": -1,
+    "16": -1,
+    "22": -1
+   },
+   "C_compatible": true
+  },
+  {
+   "signs": [
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": -1,
+    "14": 1,
+    "16": -1,
+    "22": 1
+   },
+   "C_compatible": true
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 52,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 52,
+   "eps": {
+    "8": -1,
+    "14": 1,
+    "16": -1,
+    "22": 1
+   },
+   "C_compatible": true
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": -1,
+    "14": -1,
+    "16": -1,
+    "22": -1
+   },
+   "C_compatible": true
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "fixed_dim": 24,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  },
+  {
+   "signs": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "fixed_dim": 36,
+   "eps": {
+    "8": null,
+    "14": null,
+    "16": null,
+    "22": null
+   },
+   "C_compatible": false
+  }
+ ],
+ "tau_ok": true,
+ "pattern_feasibility": {
+  "(1, 1, 1, 1)": true,
+  "(1, 1, 1, -1)": false,
+  "(1, 1, -1, 1)": false,
+  "(1, 1, -1, -1)": false,
+  "(1, -1, 1, 1)": false,
+  "(1, -1, 1, -1)": false,
+  "(1, -1, -1, 1)": false,
+  "(1, -1, -1, -1)": false,
+  "(-1, 1, 1, 1)": false,
+  "(-1, 1, 1, -1)": false,
+  "(-1, 1, -1, 1)": false,
+  "(-1, 1, -1, -1)": false,
+  "(-1, -1, 1, 1)": false,
+  "(-1, -1, 1, -1)": false,
+  "(-1, -1, -1, 1)": false,
+  "(-1, -1, -1, -1)": false
+ }
+}

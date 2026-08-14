@@ -1,0 +1,50 @@
+==============================================================================
+P2W4-D3 -- OI-101 / D3 (B450): interacting entanglement, entropy scaling
+==============================================================================
+
+[P] PRIMARY (powered, exact free-fermion correlation matrix) -- metallic critical collective
+    Fibonacci sizes L=[89, 144, 233, 377], phase-averaged over 16 Sturmian phases, half filling
+    (phase-averaging smooths the log-periodic oscillation; osc = oscillation amplitude)
+
+        L |   c_eff | R^2(avg) |    osc | slope-relspr | Fermi-gap
+       89 |  0.8665 |  0.95601 | 0.1110 |       0.2743 |   0.02577
+      144 |  0.9787 |  0.98491 | 0.1232 |       0.2657 |   0.00759
+      233 |  0.8322 |  0.97553 | 0.1209 |       0.2516 |   0.00525
+      377 |  0.9211 |  0.97437 | 0.1097 |       0.2212 |   0.00492
+
+[P2] log-periodic model on phase-averaged curve (L=377): does the residual = golden self-similarity?
+    best log-period omega=6.016 -> k=2pi/(omega*ln phi)=2.170; nearest golden k=2 (omega_k=6.529), match=False
+    log-periodic fit: c_eff=0.8948, R^2=0.97846 (vs pure-log R^2=0.97437), osc-amp=0.0139
+
+[P3] CONDITIONING GRID c_eff(L, lam) -- is c_eff a CONVERGED observable at accessible L?
+        L | lam=0.5  | lam=1.0  | lam=2.0  | lam=4.0  | d(c_eff) 0.5->4
+      144 | 0.976(0.03) | 0.985(0.07) | 1.022(0.14) | 1.042(0.22) | +0.067
+      200 | 0.898(0.05) | 0.871(0.09) | 0.846(0.12) | 0.778(0.15) | -0.120
+      233 | 0.918(0.03) | 0.831(0.06) | 0.722(0.09) | 0.648(0.13) | -0.270
+      300 | 0.796(0.06) | 0.683(0.10) | 0.616(0.14) | 0.619(0.19) | -0.177
+      377 | 0.953(0.03) | 0.910(0.05) | 0.836(0.08) | 0.732(0.11) | -0.220
+      610 | 0.965(0.01) | 0.869(0.02) | 0.597(0.06) | 0.181(0.10) | -0.783
+    lam=1: [0.985, 0.871, 0.831, 0.683, 0.91, 0.869]  rel-spread=0.107
+    lam=4: [1.042, 0.778, 0.648, 0.619, 0.732, 0.181]  rel-spread=0.385
+    coupling-trend sign consistent across ALL sizes: False (L=144 d=+0.067)
+    fit-window sensitivity (L=233, lam=1, lmin=L/24..L/4): {'L/24': 0.8604, 'L/12': 0.8247, 'L/6': 0.7448, 'L/4': 0.6638} -> rel-range=0.254
+
+    metallic c_eff (phase-avg, per size): [0.867, 0.979, 0.832, 0.921]
+    pooled mean=0.8996, cross-size rel-spread=0.062, min R^2(avg)=0.95601, mean osc-amp=0.1162
+
+[C] CONTROLS (same engine, L=233)
+    uniform  (conformal, expect c~1)  : c_eff=1.0001  R^2=0.99859
+    AA-loc   (localized, expect c~0)  : c_eff=-0.0004  R^2=0.00000
+    AA-loc EE at l=20,60,116: [0.067, 0.091, 0.032]  (flat => area law)
+    metallic single-realization pure-log R^2 (L=233): 0.3989 (low = log-periodic oscillation, removed by phase-averaging above)
+
+[S] SECONDARY (interacting ED, B187 engine) -- POWER-LIMITED (2 sizes, small N): spot-check only
+    L=12,n=6 half-cut EE: U=0.0:0.9433, U=1.0:1.2542, U=2.0:1.1481
+    L=14,n=7 half-cut EE: U=0.0:1.1678, U=1.0:1.1346, U=2.0:1.0528
+
+==============================================================================
+VERDICT: RESOLVED-B
+EXTERNAL (underpowered for the LAW; the CLASS is computed): the metallic collective's ground-state EE is established as CRITICAL -- LOG growth in block size, phase-avg R^2 >0.96 at every size, against a localized control that collapses to AREA law (c_eff=-0.000, EE flat) and a conformal control recovering c=1.00. But the quantitative SCALING LAW is NOT computable at accessible sizes: c_eff is an estimator, not a converged observable -- it moves 0.25 (rel) with the arbitrary fit window at fixed (L,lam); its cross-size rel-spread is 0.11 at lam=1 and 0.39 at lam=4; and the coupling dependence d(c_eff) is NOT sign-consistent across sizes (L=144 gives +0.067, every other size is negative, L=610 gives -0.783). The golden log-periodic model also failed to lock (k=2.17, non-integer). The named obstruction: naive half filling is not a gap label of the Fibonacci Cantor spectrum, so the Fermi level sits in a size-dependent pseudo-gap; the converged protocol (Mace-Laflorencie-Alet 2019 conumbering / gap-label-commensurate filling) is EXTERNAL to this cell.
+==============================================================================
+
+wrote results.json

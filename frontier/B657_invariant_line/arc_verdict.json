@@ -1,0 +1,10 @@
+{
+ "id": "B657",
+ "verdict": "PROVED",
+ "claim_one_line": "The 27's holonomy-invariant line is not the Spin(10) singlet; the portal P(u)=[v0 x u] is a rank-5 isomorphism H1(27)->H1(27bar) and each principal block carries exactly one H1 class, both banked as laws on two objects.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "B1016",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "L150 CLOSED: SEPARATE -- THE VALUE LAYER HAS TWO INDEPENDENT CHANNELS, AND NOW WE KNOW WHICH LAW GOVERNS WHICH. Sealed 59f51572, declared prior SEPARATE, HELD, by two exact obstructions, zero anchors consumed. J1 recomputed the pair-side inventory from the banked B936/B928 artifacts rather than quoting it: det-ratios {-1, -17/384, 17/384, 1} all rational; the K-norm -908209/5308416 = -(953/2304)^2 rational; the octet K-coords rational with an IRREDUCIBLE cubic minimal polynomial; and the W3 pencil charpoly [384,660,293,17] has discriminant 782250000 with square-free core 3129 -- INDEPENDENTLY RE-DERIVING B936's banked pencil field Q(sqrt3129) from raw coefficients. J2/O1 (ratio-field obstruction): the coupling channel's value ratios contain phi by theorem (B1011), and sqrt5 lies in NONE of the pair-side fields -- not Q, not Q(sqrt3129) (5*3129 not a square), not the odd-degree irreducible octet field -- and value ratios are invariant under any global scalar, so no lambda*Phi transports one family into the other. J2/O2 (module obstruction): the banked 27-actions (K4, C8/W_frame, the (Z/2)^3 torsor) are all 2-groups hence nilpotent, while rho_6's constituents have images Z3 x 2I and (2T x 2I)/+- each containing the PERFECT 2I as subquotient -- a common constituent would force a non-nilpotent quotient of a nilpotent group. SCOPE AS SEALED: decided against the BANKED actions; a novel 2T x 2I action on the 27 is not excluded, and constructing one is the only door back. J3, THE MEANING, and it is the richer outcome: B856 GOVERNS THE COUPLING CHANNEL (u+M_odd u -- values forced, listener-invariant, ANCHOR-FREE, golden-pentagonal, closed-form by B1011) and B936 GOVERNS THE PAIR CHANNEL (v+Hv -- frame-relative, rational/sqrt3129-valued, carrying the hierarchy in D2); THEY ARE DIFFERENT CHANNELS, R10's frame question is ANSWERED, and a crossing candidate must DECLARE WHICH CHANNEL IT LIVES ON -- the apparent B856-vs-B936 tension was two theorems about two objects. Consequences executed: WHAT_WOULD_COUNT falsifier-2's scope note actioned (the coupling family is now WEIGHED: a separate channel outside B687's atlas and B743's tower, with anchor-free values, kind-gated); CROSSING_REQUIREMENTS R10 marked answered; L150 closed with this arc cited. No measured value contacted; Gate 5 untouched.",
+ "depends_on": [
+  "B1011",
+  "B936",
+  "B928",
+  "B856",
+  "B1010",
+  "B1015"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-10), sealed 59f51572"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B679",
+ "verdict": "PROVED",
+ "claim_one_line": "The engine_v7 gate_report patch hoists the O(N^3) expression out of the max generator, verified bit-identical on all gates with up to 221x speedup.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,162 @@
+{
+  "obligation": "O3",
+  "arc": "B940",
+  "date": "2026-08-07",
+  "question": "Has anyone ever numerically computed an eigenvalue of the Dirac (spinor) operator on a hyperbolic 3-manifold (cusped or closed, any spin structure, any method)?",
+  "verdict": "NO_PRIOR_ART_FOUND_AT_ACHIEVED_DEPTH",
+  "verdict_qualified": "No numerically computed NONZERO Dirac eigenvalue on any hyperbolic 3-manifold was found. A near-miss exists that constrains the wording: Lin-Lipnowski certify ZERO eigenvalues (spectral-flow crossings) of spin^c Dirac operators on CLOSED hyperbolic 3-manifolds by computer-assisted means, without computing any eigenvalue value.",
+
+  "first_gate_ruling": {
+    "may_bank_word_first": true,
+    "conditions": [
+      "The qualifier 'nonzero' MUST be present (Lin-Lipnowski pin the eigenvalue zero).",
+      "The qualifier 'cusped' is recommended (their manifolds are closed).",
+      "Lin-Lipnowski arXiv:2506.07238 MUST be cited as nearest prior work, with the distinction stated.",
+      "The MathSciNet gap (§depth) must be carried in the caveat."
+    ],
+    "safe_phrasings": [
+      "first computed nonzero Dirac eigenvalue value on a hyperbolic 3-manifold",
+      "first numerical Dirac spectrum on a cusped hyperbolic 3-manifold"
+    ],
+    "forbidden_phrasings": [
+      "first Dirac eigenvalue on a hyperbolic 3-manifold (unqualified)",
+      "first computation of Dirac spectral data on a hyperbolic 3-manifold"
+    ],
+    "note": "B940's seal already EXCLUDES the kernel (lambda=0, dim 2). The prior art lands on exactly that excluded object. Alignment is fortunate but must be stated explicitly, not relied on silently."
+  },
+
+  "nearest_prior_art": {
+    "citation": "Francesco Lin, Michael Lipnowski, 'Dirac spectral flow and Floer theory of hyperbolic three-manifolds', arXiv:2506.07238 (2025)",
+    "doi": "10.48550/arxiv.2506.07238",
+    "manifolds": "closed, Hodgson-Weeks census #356 357 381 734 735 790 882 1155 1280 1284 3250 3673 10867",
+    "operator": "1-parameter family of spin^c Dirac operators D_{B_tau} associated to flat spin^c connections",
+    "what_is_computed": "certified localization of spectral-flow zero-crossings; e.g. s_0(tau)=0 for some tau in [0.1537, 0.1556] for the unique self-conjugate spin^c structure on census #357; second crossing tau in [0.4467, ...]",
+    "method": "odd Selberg trace formula and its derivative; complex length spectrum via SnapPy to cutoff R in [7, 8.5]; Dirichlet-domain geodesic triangulations of 150-200 tetrahedra; hours to ten days CPU per example",
+    "numbers_published": "parameter values (tau), volumes, systoles, H_1 torsion, C_Y norm bounds",
+    "eigenvalue_values_published": "NONE (the only eigenvalue pinned is exactly zero)",
+    "why_not_prior_art_for_B940": [
+      "all published numbers are parameters tau, not eigenvalues",
+      "the only eigenvalue determined is 0, which B940's seal excludes",
+      "their manifolds are closed; m004 is cusped (different spectral regime under Baer's dichotomy)",
+      "their own 'first' claim is for monopole Floer chain complexes, not Dirac eigenvalues"
+    ]
+  },
+
+  "control": {
+    "outcome": "POSITIVE",
+    "meaning": "The surface literature DOES contain numerically computed spinor eigenvalues, so the 3-manifold null is a real result and not a search artifact.",
+    "citation": "E. Gesteau, S. Pal, D. Simmons-Duffin, Y. Xu, 'Bounds on spectral gaps of hyperbolic spin surfaces', arXiv:2311.13330 (2023), publ. 2025",
+    "doi": "10.48550/arxiv.2311.13330",
+    "msc": "53C27, 58J50, 20H10, 11F72",
+    "method": "Selberg trace formula with geodesic length spectrum as input (their section 4); numerical STF method credited to Lin-Lipnowski JAMS 2022; plus SDP/bootstrap for the bounds",
+    "convention": "lambda_1^(1/2) := 1/4 + t_1^2, where |t_1| is the lowest nonzero positive Dirac eigenvalue",
+    "computed_values": [
+      {
+        "object": "[0;3,3,5] hyperbolic orbifold",
+        "lambda_half_interval": [19.6285029965, 19.70606979308],
+        "lambda_half_reported": "19.669 +/- 0.03",
+        "dirac_eigenvalue_t1_interval": [4.402102, 4.410904]
+      },
+      {
+        "object": "[1;3]_sym",
+        "lambda_half_interval": [8.255, 8.298],
+        "dirac_eigenvalue_t1_interval": [2.829311, 2.8369]
+      },
+      {
+        "object": "Bolza surface (odd spin structure)",
+        "note": "values tabulated in their Appendix B"
+      }
+    ],
+    "dimension": 2,
+    "extended_to_3d_by_anyone": false,
+    "citing_works_of_control": 1
+  },
+
+  "contrast_computed_dirac_spectra_on_non_hyperbolic_3manifolds": {
+    "note": "Explicit Dirac spectra on 3-manifolds exist only where closed forms exist (flat and spherical), never hyperbolic. This is the expected pattern and it sharpens the null.",
+    "citations": [
+      "F. Pfaeffle, 'The Dirac spectrum of Bieberbach manifolds' (2000) - flat",
+      "S. Boldt, 'Properties of the Dirac spectrum on three dimensional lens spaces' (2017) - spherical",
+      "C. Baer, 'The Dirac operator on space forms of positive curvature' (1996) - Killing spinors"
+    ]
+  },
+
+  "depth": {
+    "standard_named_by_seal": "MathSciNet/zbMATH grade",
+    "standard_met": "PARTIAL - zbMATH grade YES, MathSciNet grade NO",
+    "mathscinet_reachable": false,
+    "mathscinet_failure_mode": "HTTP 302 redirect to subscription authentication wall",
+    "zbmath_reachable": true,
+    "zbmath_access": "api.zbmath.org/v1/document/_search including MSC-code (cc:) structured queries; full reviewer texts retrieved for many records",
+    "sources_reached": [
+      "zbMATH Open (API, MSC-structured, full reviews)",
+      "OpenAlex (full-text search index + title/abstract + citation graph)",
+      "arXiv API",
+      "Semantic Scholar graph API",
+      "INSPIRE-HEP",
+      "DuckDuckGo general web (saturation cross-check)"
+    ],
+    "sources_not_reached": [
+      "MathSciNet (auth wall)",
+      "OATD theses (HTTP 403)",
+      "ProQuest, Google Scholar",
+      "paywalled journal full text"
+    ],
+    "tool_note": "This session's WebSearch budget was exhausted (200/200) before the task began; the sweep was executed over raw HTTP against bibliographic APIs instead, which yielded verbatim records, full-text search and citation-graph traversal rather than summarized keyword hits."
+  },
+
+  "methods_used": [
+    {
+      "name": "citation-graph traversal (highest yield)",
+      "detail": "Enumerated and read the COMPLETE citing set of Baer 2000: cites:W2130197549 -> 56 works, cites:W2951147165 -> 3 works. Every one is theoretical; no numerical eigenvalue computation of any kind."
+    },
+    {
+      "name": "zbMATH MSC-structured sweep",
+      "detail": "20 queries across cc:58J50, cc:53C27, cc:57M50, cc:11F72, cc:65N25 plus phrase queries; ZERO_RESULTS semantics verified against a nonsense-query control."
+    },
+    {
+      "name": "reverse direction",
+      "detail": "Identified everyone who numerically computes ANY spectrum on hyperbolic 3-manifolds (Inoue, Grunewald-Huntebrinker, Bonifacio-Mazac-Pal) and checked each for spinor crossover. All scalar or integer-spin."
+    },
+    {
+      "name": "author-level crossover check",
+      "detail": "Inoue, Then, Aurich, Grunewald, Strohmaier checked for Dirac/spinor publications. None produced a hyperbolic Dirac numerical spectrum."
+    },
+    {
+      "name": "full-text reading of decisive papers",
+      "detail": "arXiv:2506.07238 (~185k chars via HTML extraction) and arXiv:2311.13330 (~214k chars via pdftotext) read and grepped for numerics, tables, eigenvalue statements."
+    },
+    {
+      "name": "adjacent-literature sweep",
+      "detail": "eta invariants/spectral flow; analytic torsion/Ruelle zeta; quantum chaos spinor billiards; lattice/discretized Dirac; hyperbolic band theory; SnapPy/Regina/Snap tooling."
+    }
+  ],
+
+  "zbmath_zero_result_queries": [
+    "any:Dirac & any:\"knot complement\"",
+    "any:Dirac & any:\"Bianchi group\"",
+    "cc:53C27 & any:hyperbolic & any:numerical"
+  ],
+
+  "key_negatives_verified": [
+    "Baer 2000 computes accumulation RATES under degeneration and proves the discrete-vs-R dichotomy; no numerical eigenvalue. (Also the source of m004's authorization: dimension 3 with one cusp forces a non-trivial spin structure, hence discrete spectrum.)",
+    "Pfaeffle 2003/2004 is a convergence theorem (spec M_i -> spec M with multiplicity) via spinorial escaping sets; no numbers.",
+    "Park 2001/2005 eta invariants are trace-formula-analytic; no numerics. This closes the 'eta invariants sometimes need eigenvalues' lead.",
+    "Monk-Stan 2023/2024 is spectral DENSITY convergence for random Weil-Petersson surfaces; asymptotic, 2D, no individual eigenvalues.",
+    "Bolte-Stiepan 2006 is a trace formula for compact hyperbolic SURFACES; theory, no computed spectra. No 3-manifold sequel exists.",
+    "Martelli-Reid 2022/2025 classifies cusp spin structures (bounding vs Lie) and applies Baer's dichotomy; no eigenvalues.",
+    "Bonifacio-Mazac-Pal arXiv:2308.11174 covers hyperbolic 3-manifolds but only functions and powers of the cotangent bundle: integer spin, no Dirac.",
+    "SnapPy/Snap/Regina have no spinor or Dirac spectral capability; they supply length spectra only.",
+    "Camporesi-Pedon compute Dirac eigenfunctions on hyperbolic SPACE H^n (symmetric space, continuous spectrum), not on a finite-volume quotient."
+  ],
+
+  "residual_risk": [
+    "MathSciNet not consulted; its review corpus overlaps zbMATH heavily but is not identical.",
+    "A number buried in a paper body or appendix whose title/abstract/review never mentions it would be missed by metadata search. Partly mitigated: OpenAlex default search is a full-text index and was used.",
+    "English-language and modern-era bias; older print proceedings and non-indexed lecture notes are thin. Partly mitigated: zbMATH indexes German/French dissertations and returned Pfaeffle's Hamburg thesis.",
+    "Paywalled full text could not be searched systematically.",
+    "A hyperbolic-3-space fermionic eigenmode could hide in older quantum-cosmology literature under different vocabulary; INSPIRE queries returned nothing but the vocabulary space is large."
+  ],
+
+  "recommendation": "Bank OUTCOME A with the word 'first' PERMITTED but only in a phrasing carrying the qualifier 'nonzero' (and preferably 'cusped'), citing Lin-Lipnowski arXiv:2506.07238 positively as nearest prior work and stating the distinction. Carry the MathSciNet gap in the depth caveat verbatim. Citing the near-miss is stronger science than an unqualified priority claim."
+}

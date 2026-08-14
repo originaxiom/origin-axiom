@@ -1,0 +1,10 @@
+{
+ "id": "B430",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Fermionic sl2 embeddings exist in E6's landscape, but the object forces only the principal bosonic one, so the fermion door is closed as a derivation.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

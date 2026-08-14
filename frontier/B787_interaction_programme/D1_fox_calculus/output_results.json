@@ -1,0 +1,48 @@
+{
+ "step0_cc3_jacobians_reproduced": true,
+ "step0_det_Jsigma": "-a",
+ "step0_det_Jmirror": "-1",
+ "step1_dets_differ_by_unit_a": true,
+ "step1_same_torsion_up_to_pmF": true,
+ "step2_M_entries": [
+  [
+   "a^-1",
+   "b -a^-1"
+  ],
+  [
+   "0",
+   "1"
+  ]
+ ],
+ "step2_detM": "a^-1",
+ "step2_M_is_word_polynomial_not_antiauto": true,
+ "step3_rep_tri_nonselfdual": true,
+ "step3_rep_gen_nonselfdual": true,
+ "step4_rep_tri_detJsigma_rho": "-1",
+ "step4_rep_tri_detJmirror_rho": "-1",
+ "step4_rep_tri_detM_rho": "1",
+ "step4_rep_tri_identity_holds": true,
+ "step4_rep_gen_detJsigma_rho": "-1",
+ "step4_rep_gen_detJmirror_rho": "-1",
+ "step4_rep_gen_detM_rho": "1",
+ "step4_rep_gen_identity_holds": true,
+ "step5_rep_tri_theta_reversal_trace_active": true,
+ "step5_rep_tri_iota_inversion_trace_active": true,
+ "step5_rep_tri_theta_trace_hits": 1,
+ "step5_rep_gen_theta_reversal_trace_active": true,
+ "step5_rep_gen_iota_inversion_trace_active": true,
+ "step5_rep_gen_theta_trace_hits": 1,
+ "step6_rep_tri_trace_distinguishes_sigma_mirror": false,
+ "step6_rep_tri_num_distinguishing_words": 0,
+ "step6_rep_gen_trace_distinguishes_sigma_mirror": false,
+ "step6_rep_gen_num_distinguishing_words": 0,
+ "step7_fox_grads_differ_in_group_ring": true,
+ "step7_fox_grad_trace_images_also_differ": true,
+ "step7b_fox_deriv_is_signed_sum_of_single_group_elts": true,
+ "step7b_fox_observables_lie_in_trace_ring": true,
+ "step8_mirror_is_R_sigma_R": true,
+ "VERDICT_outcome": "B",
+ "VERDICT_text": "OUTCOME B (MISS): the Fox difference COLLAPSES to a gauge/trace artifact; no theta-bridge.\n  (1) det J_sigma = -a  and  det J_mirror = -1  differ ONLY by the unit a in F2 -> they are\n      ASSOCIATES -> identical Reidemeister/Alexander torsion (defined up to +-F). A unit\n      difference IS the gauge ambiguity; it is not an invariant.\n  (2) The intertwiner J_mirror = M.J_sigma has M = [[a^-1, b-a^-1],[0,1]], det a^-1 -- a\n      matrix of ORDINARY WORDS in a,b, NOT the reversal anti-automorphism R. It is a gauge\n      residue, carrying no theta datum beyond rep(a),rep(b).\n  (3) At every genuine SL(3) rep, J_mirror(rho)=M(rho).J_sigma(rho) with M(rho) polynomial in\n      A,B; det J_sigma(rho)=det J_mirror(rho)=-1 -- the -a vs -1 difference EVAPORATES (units\n      land in SL(3), det 1). Reproducible from rep data.\n  (4) DECISIVE: every Fox derivative is a signed sum of SINGLE prefix group-elements, so every\n      Fox observable tr(rho . dw/dx) = SUM (+-) tr(rho prefix) lies IN THE TRACE RING. The\n      step-7 sigma/mirror separation (e.g. w=aab: (413,52) vs (436,29)) is a separation of\n      ordinary trace coordinates -- NOT a bridge the trace map cannot provide.\n  (5) There is no theta to 'reveal' hiding from traces anyway: reversal(theta) is directly\n      TRACE-ACTIVE at the genuine (non-self-dual) SL(3) rep on non-cyclic words (step 5).\n  => NO group-ring theta-intertwiner un-reproducible at the trace level. HIT criterion NOT met.",
+ "theta_trace_visible_at_sl3": false,
+ "base_rate_note": "structural door (no numeric target); the only false-positive risk is reading the unit-a det difference as an invariant; steps 1-4 show it is a +-F gauge unit that any SL(n) rep trivializes to det 1 -> no numeric coincidence involved."
+}

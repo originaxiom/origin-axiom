@@ -1,0 +1,31 @@
+[J1] the two sides, phrase-checked:
+   B1029: the value-kernel side OK
+   B647: the defect law located in the banked FINDINGS
+executing B575 stages 0-3...
+[    0.0s] stage 1: 27 weights built; minuscule labels ok: True
+[    0.0s] stage 1: 36 edges, 10 square constraints, GF(2) solved
+[    0.5s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+[   81.4s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+[  100.8s] stage 1 complete: e6 in gl(27), coordinate solver ready
+[  101.0s] G2a PASS: principal sl2 relations exact
+[  105.1s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+[  106.9s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+prefix done in 106.9s
+cubic rebuilt: 270 ordered entries
+weld side-2 letters built
+
+[J2] the defect per banked triple: raw per order vs the class (alternating) projection:
+   triple (1, 3, 4): raw defects nonzero = 1/2; orders equal (class-projection kills): False
+   triple (0, 2, 3): raw defects nonzero = 1/2; orders equal (class-projection kills): False
+   triple (1, 2, 3): raw defects nonzero = 1/2; orders equal (class-projection kills): False
+   triple (2, 3, 4): raw defects nonzero = 2/2; orders equal (class-projection kills): False
+
+   J2 OUTCOME: raw defect present: True; class projection kills it everywhere: False
+
+[J3] the operator dictionary:
+   J^2 scalar: True; J^2[0][0] = (1)
+
+==== VERDICT: DISTINCT ====
+   the sealed JOINED criteria not met: the class (evaluation-order) projection
+   does NOT kill the defect. Recorded plainly; the prior (JOINED, weak) was
+   wrong. Positive sub-fact: J^2 = +1 exactly (an honest involution).

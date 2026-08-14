@@ -1,0 +1,891 @@
+{
+ "newton": [
+  {
+   "name": "mu  @ B866's own pencil parameter t",
+   "primes": {
+    "2": {
+     "val_d3210": [
+      16,
+      10,
+      6,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "3": {
+     "val_d3210": [
+      4,
+      4,
+      2,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "5": {
+     "val_d3210": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "7": {
+     "val_d3210": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ],
+      [
+       true,
+       true,
+       true
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "11": {
+     "val_d3210": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    }
+   }
+  },
+  {
+   "name": "mu  @ B941/B947's rho = 13t",
+   "primes": {
+    "2": {
+     "val_d3210": [
+      16,
+      10,
+      6,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "3": {
+     "val_d3210": [
+      4,
+      4,
+      2,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "5": {
+     "val_d3210": [
+      2,
+      2,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "7": {
+     "val_d3210": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ],
+      [
+       true,
+       true,
+       true
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "11": {
+     "val_d3210": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "13": {
+     "val_d3210": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "reachable_states": [
+      [
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": true,
+     "forced_into_an_extreme": false
+    }
+   }
+  },
+  {
+   "name": "kappa @ B910's pencil parameter s",
+   "primes": {
+    "2": {
+     "val_d3210": [
+      14,
+      10,
+      4,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "3": {
+     "val_d3210": [
+      4,
+      4,
+      2,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "5": {
+     "val_d3210": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": true,
+     "forced_into_an_extreme": false
+    },
+    "7": {
+     "val_d3210": [
+      2,
+      1,
+      1,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "11": {
+     "val_d3210": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "19": {
+     "val_d3210": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "reachable_states": [
+      [
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": true,
+     "forced_into_an_extreme": false
+    },
+    "31": {
+     "val_d3210": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    }
+   }
+  },
+  {
+   "name": "V hierarchy (VALUE)",
+   "primes": {
+    "2": {
+     "val_d3210": [
+      0,
+      8,
+      21,
+      32
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       true
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "3": {
+     "val_d3210": [
+      0,
+      9,
+      8,
+      11
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "13": {
+     "val_d3210": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": false
+    },
+    "17": {
+     "val_d3210": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": false
+    },
+    "953": {
+     "val_d3210": [
+      4,
+      0,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       false,
+       false
+      ],
+      [
+       true,
+       true,
+       false
+      ],
+      [
+       true,
+       true,
+       true
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "1129": {
+     "val_d3210": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": false
+    },
+    "421493": {
+     "val_d3210": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": false
+    }
+   }
+  },
+  {
+   "name": "d_S twist (VALUE)",
+   "primes": {
+    "2": {
+     "val_d3210": [
+      16,
+      11,
+      4,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ],
+      [
+       true,
+       true,
+       true
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "3": {
+     "val_d3210": [
+      4,
+      4,
+      2,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "5": {
+     "val_d3210": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": false
+    },
+    "11": {
+     "val_d3210": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": false
+    },
+    "953": {
+     "val_d3210": [
+      0,
+      0,
+      0,
+      2
+     ],
+     "reachable_states": [
+      [
+       false,
+       false,
+       true
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ],
+      [
+       true,
+       true,
+       true
+      ]
+     ],
+     "can_avoid_both_extremes": false,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": true
+    },
+    "35257": {
+     "val_d3210": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "reachable_states": [
+      [
+       false,
+       true,
+       false
+      ],
+      [
+       false,
+       true,
+       true
+      ],
+      [
+       true,
+       true,
+       false
+      ]
+     ],
+     "can_avoid_both_extremes": true,
+     "can_vanish_entirely": false,
+     "forced_into_an_extreme": false
+    }
+   }
+  }
+ ],
+ "reachability": [
+  {
+   "name": "mu  @ B866's own pencil parameter t",
+   "n_state_combinations": 48,
+   "n_combinations_satisfying_B947_pattern": 0,
+   "an_example_that_holds": null,
+   "PATTERN_IS_REACHABLE_BY_RENORMALISATION": false
+  },
+  {
+   "name": "mu  @ B941/B947's rho = 13t",
+   "n_state_combinations": 144,
+   "n_combinations_satisfying_B947_pattern": 0,
+   "an_example_that_holds": null,
+   "PATTERN_IS_REACHABLE_BY_RENORMALISATION": false
+  },
+  {
+   "name": "kappa @ B910's pencil parameter s",
+   "n_state_combinations": 288,
+   "n_combinations_satisfying_B947_pattern": 0,
+   "an_example_that_holds": null,
+   "PATTERN_IS_REACHABLE_BY_RENORMALISATION": false
+  },
+  {
+   "name": "V hierarchy (VALUE)",
+   "n_state_combinations": 1296,
+   "n_combinations_satisfying_B947_pattern": 29,
+   "an_example_that_holds": {
+    "P_lead": [
+     953
+    ],
+    "P_mid_only": [
+     13,
+     17,
+     1129,
+     421493
+    ],
+    "P_const": [
+     2,
+     3
+    ]
+   },
+   "PATTERN_IS_REACHABLE_BY_RENORMALISATION": true
+  },
+  {
+   "name": "d_S twist (VALUE)",
+   "n_state_combinations": 648,
+   "n_combinations_satisfying_B947_pattern": 41,
+   "an_example_that_holds": {
+    "P_lead": [
+     953
+    ],
+    "P_mid_only": [
+     5,
+     11,
+     35257
+    ],
+    "P_const": [
+     2,
+     3
+    ]
+   },
+   "PATTERN_IS_REACHABLE_BY_RENORMALISATION": true
+  }
+ ]
+}

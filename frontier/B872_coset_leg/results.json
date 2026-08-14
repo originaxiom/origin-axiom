@@ -1,0 +1,81 @@
+{
+ "coset_is_16_16bar": true,
+ "galois_consistent": true,
+ "leg_a": {
+  "charges_only_pm1": true,
+  "d5_count": 40,
+  "d5_diagram": true,
+  "fork_nodes": [
+   1,
+   2
+  ],
+  "minus_count": 16,
+  "ok": true,
+  "plus_count": 16,
+  "single_orbit_minus": true,
+  "single_orbit_plus": true,
+  "spinor_fundamental_split": true
+ },
+ "leg_b": [
+  {
+   "Bpm_rank": 16,
+   "adz_sq_residual": "1.32e-29",
+   "center_dim": 1,
+   "commutant_certificates": [
+    "6.26e-35",
+    "2.77e-34"
+   ],
+   "commutant_minus": 1,
+   "commutant_plus": 1,
+   "isotropy_norm": "4.88e-36",
+   "kernel_dim": 46,
+   "minus_dim": 16,
+   "plus_dim": 16,
+   "q": "(5.5210511979629707173e-6 + 0.0j)",
+   "q2_sign": 1,
+   "svd_gap_orders": 40.52631255273708,
+   "t": "-0.001938050209720433301044623",
+   "verdict_16_16bar": true
+  },
+  {
+   "Bpm_rank": 16,
+   "adz_sq_residual": "1.04e-30",
+   "center_dim": 1,
+   "commutant_certificates": [
+    "9.01e-36",
+    "7.68e-36"
+   ],
+   "commutant_minus": 1,
+   "commutant_plus": 1,
+   "isotropy_norm": "7.79e-37",
+   "kernel_dim": 46,
+   "minus_dim": 16,
+   "plus_dim": 16,
+   "q": "(0.000018634581013837260264 + 0.0j)",
+   "q2_sign": 1,
+   "svd_gap_orders": 40.42569787270049,
+   "t": "0.0003982215012503527189335206",
+   "verdict_16_16bar": true
+  },
+  {
+   "Bpm_rank": 16,
+   "adz_sq_residual": "7.05e-30",
+   "center_dim": 1,
+   "commutant_certificates": [
+    "3.68e-35",
+    "4.98e-35"
+   ],
+   "commutant_minus": 1,
+   "commutant_plus": 1,
+   "isotropy_norm": "3.78e-36",
+   "kernel_dim": 46,
+   "minus_dim": 16,
+   "plus_dim": 16,
+   "q": "(4.259177514799612221e-6 + 0.0j)",
+   "q2_sign": 1,
+   "svd_gap_orders": 40.217721154103266,
+   "t": "0.005685236871735386704560082",
+   "verdict_16_16bar": true
+  }
+ ]
+}

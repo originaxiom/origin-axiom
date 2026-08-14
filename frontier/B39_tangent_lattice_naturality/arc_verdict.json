@@ -1,0 +1,10 @@
+{
+ "id": "B39",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Tangent-lattice integrality leaves an infinite discrete family c^2=(m+2)/4; the projective quotient alone derives no canonical lattice and does not select m=3.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

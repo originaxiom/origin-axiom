@@ -1,0 +1,10 @@
+{
+ "id": "B793",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so \"parent-validated\" is unearned.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B810",
+ "verdict": "PROVED",
+ "claim_one_line": "Wave 1 authored 287 verdicts via 12 parallel readers, lifting coverage from 4.1% to 42.7%; no reader invented content for the six non-existent IDs, and the reader-conservatism offset remained confounded.",
+ "instrument": true,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

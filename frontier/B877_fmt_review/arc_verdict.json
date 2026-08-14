@@ -1,0 +1,16 @@
+{
+ "id": "B877",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "S1 REVIEW PASSED -- the solo seat's FIRST MEASUREMENT THEOREM accepted at banking grade; the charge-measurement/triality story is now a TWO-SEAT THEOREM. Every exact certificate rerun green on this build: the pencil theorem (det36 = c*mu^12, det12 = c*mu^4, exact over Q), restriction-of-scalars nullities (36/12; the 18-block fully Pi-annihilated), sum-freeness at both primes x all roots; mu-roots digit-identical to this seat's 13x values. Logic reviewed clause by clause: the weight-line lemma makes the cyclic law a priori (48 = 16x3); the squeezes use mod-p only as lower bounds; the one-prime lemma applied in its valid direction; K_i ^ K_j = z(Pi) by identity; imports I1-I5 pinned; no floating point anywhere. Review notes: levi2.py manifest gap (repaired by the squeeze; script requested), the nearly-parallel projector trap recorded. NOT banked: the generation reading -- the section-5 fence kept verbatim; the decisive test was THE DESCENT (B876). PROCESS NOTE: this verdict file was initially omitted (the banking chain died at a failing lock before the verdict step and the retry skipped it) -- caught by Review 37's sweep, restored there.",
+ "depends_on": [
+  "B854",
+  "B866",
+  "B872",
+  "B874",
+  "B875"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat reviewing the solo seat (2026-08-03)"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B419",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "The tracked quantum-invariant destination is a hyperbolic volume with golden-field arithmetic, not an SM structure; the bar is not cleared.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

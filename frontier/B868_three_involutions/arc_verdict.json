@@ -1,0 +1,15 @@
+{
+ "id": "B868",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "G6 CLOSED -- the three involutions separated at cascade level: the gate's C is the LINEAR outer involution lambda -> -w0(lambda) at every level (A4: Dynkin reversal, 5->5bar, 10->10bar; D5: spinor swap, 16->16bar; E6: the fold, 27->27bar), realized in matrix form as X -> -X^T on A-type and Ad(det=-1 reflection) on D-type (fixed cores match B860's even parts and Q3's so(9)=36, computed); and c -- the ANTILINEAR chirality/sheet bit -- appears NOWHERE in the cascade (source-scanned), entering exactly once at layer 8 (the real form), where the framework already places it. The B780/B784/C21 conflation cannot recur at cascade level. Includes the D-type subtlety that would have bitten a naive check: on so(n) in the vector realization X -> -X^T is the identity.",
+ "depends_on": [
+  "B860",
+  "B861",
+  "B863",
+  "B865"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

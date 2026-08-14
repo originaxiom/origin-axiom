@@ -1,0 +1,10 @@
+{
+ "id": "B733",
+ "verdict": "PROVED",
+ "claim_one_line": "The menu of observers at the congruence doors is a bounded discrete F_2-space (V4 of dim 2, up to 3; the full diagonal 2-rank saturating at 3, depth-independent), and at door 2 the single bit couples being and hearing.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W3b-wave3-fourcategory"
+}

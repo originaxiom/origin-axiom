@@ -1,0 +1,16 @@
+{
+ "id": "B1030",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE PRICE-LOCK VERIFICATION (incoming-results protocol on the audit seat's price_lock.py; a verification arc, no outcome-prior to protect): THE FLOOR VERIFIES AS ONE UNIT, TWO BITS, ONE TRIT -- by INDEPENDENT ROUTES, not a rerun. The two bits: H^1(<tau>, F2^6) = (Z/2)^2 by the closed permutation-module formula (H^1 = 2^fixed, f = 2, p = 2), agreeing with the incoming brute force and banked B936; carriers = the two tau-fixed nodes, valence-distinguishable, labelling canonical. THE TRIT: the trinification 9-blocks' singlet-bijection to the surviving SU(3) factors and the triality orbit of order EXACTLY 3 verified with an explicit factor rotation -- WITH THE STRENGTHENING THE RELAY DID NOT CITE: the three 9-blocks are themselves a banked sealed-before-compute computation (B897, two primes), so the trit's substrate is the record's own; the VEV acceptance quantifies to one Z/3 label = log2(3) = 1.585 bits. ONE DEFECT FOUND in the incoming lock and reported on the relay channel: item 1's in-place divisibility assertion CANNOT FAIL at length-weight 1 -- its vacuity control substitutes a DIFFERENT ledger, exercising the frame not the instance; item 1 is a type declaration (the 5/6 split, correct) plus an unfailable clause, not a theorem (MB12 on the auditor's own instrument); the one-unit claim itself stands. THE ADOPTION ARITHMETIC STATED BEFORE ANYONE ASKS: post-adoption discrete inputs = 3 + log2(3) = 4.585 bits = EXACTLY B1028's conservative output floor (a coincidence of unrelated log2(3)'s), so B1028's 'even-conflated +1.585' sentence does not survive adoption and is not carried forward -- the ledger's actual verdict (retroactive freedom 0.000 bits) is untouched, and the compression case rests where it always rested: the conflation is a category error, the floor a deliberate under-count, every uncounted credit on the output side. THE_CLAIM's hypothesis line adopts the quantified floor with this arc as cite. Gate 5 untouched; no measured quantity anywhere.",
+ "depends_on": [
+  "B1028",
+  "B1025",
+  "B936",
+  "B897",
+  "B782"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-11), verification arc"
+}

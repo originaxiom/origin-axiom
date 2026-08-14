@@ -1,0 +1,15 @@
+{
+ "P0_quantifier": "computes over the ALGEBRA e6 -- its Cartan, Levi and centralizer structure. NOT over a manifold. Nothing here is a statement about m004, its class, its rows or its child.",
+ "levi_nodes": [
+  0,
+  2,
+  1
+ ],
+ "levi_dim": 14,
+ "levi_derived_dim": 11,
+ "dim_centralizer_of_su3su2_in_e6": 9,
+ "levi_centre_dim_from_selftest": 3,
+ "VERDICT": "X12 SETTLED AFFIRMATIVELY. Computed here: z_e6(su(3)+su(2)) INTERSECT Cartan is EXACTLY 3-DIMENSIONAL, and it is the Levi's centre u(1)^3 (the Levi contains the Cartan, so its centre is the Cartan part annihilated by the Levi's roots). Y, chi and psi each centralize su(3)_C+su(2)_L -- Y by construction as the SM's own u(1); chi because su(3)+su(2) < su(5) and chi centralizes su(5); psi because su(3)+su(2) < so(10) and psi centralizes so(10) -- and all three ARE Cartan elements, being u(1) generators of a chain of REGULAR subalgebras sharing the Cartan. They are linearly independent as the three distinct abelian factors of that chain. A 3-dimensional subspace of a 3-dimensional space is the whole space, so span(Y,chi,psi) = the second measurement's u(1)^3. B953's 'almost certainly ... INFERRED from the bookkeeping, testable, NOT established here' is now ESTABLISHED. FIRST ATTEMPT FAILED AND IS RECORDED: the same count run on the FULL centralizer returns 9, not 3, so the naive dimension argument does NOT close it -- the 9 carries 6 root directions that cannot hold a Cartan element. Restricting to the Cartan is not a convenience but the content: it is where Y, chi and psi live.",
+ "dim_centralizer_intersect_cartan": 3,
+ "why_the_cartan_is_the_right_object": "Y, chi and psi are u(1) generators of a chain of REGULAR subalgebras sharing the Cartan (E6 > SO(10)xU(1)_psi > SU(5)xU(1)_chi > SM), so all three ARE Cartan elements. The full 9-dimensional centralizer contains 6 further directions that are root vectors, not Cartan elements, and those cannot contain Y, chi or psi. The Levi also CONTAINS the Cartan (a2_a1_levi returns root vectors PLUS cartan_basis), so its centre is the part of the Cartan annihilated by the Levi's roots."
+}

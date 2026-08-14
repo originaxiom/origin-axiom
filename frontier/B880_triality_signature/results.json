@@ -1,0 +1,68 @@
+{
+ "charge_split": [
+  [
+   8,
+   8
+  ],
+  [
+   8,
+   8
+  ],
+  [
+   8,
+   8
+  ]
+ ],
+ "core_dim": 30,
+ "diag_hom": [
+  4,
+  4,
+  4
+ ],
+ "hom": {
+  "11": [
+   4,
+   "2.52e-27"
+  ],
+  "12": [
+   0,
+   "0.0"
+  ],
+  "13": [
+   0,
+   "0.0"
+  ],
+  "21": [
+   0,
+   "0.0"
+  ],
+  "22": [
+   4,
+   "1.04e-28"
+  ],
+  "23": [
+   0,
+   "0.0"
+  ],
+  "31": [
+   0,
+   "0.0"
+  ],
+  "32": [
+   0,
+   "0.0"
+  ],
+  "33": [
+   4,
+   "3.81e-27"
+  ]
+ },
+ "pairwise_inequivalent": true,
+ "sector_dims": [
+  16,
+  16,
+  16
+ ],
+ "signature": "MAGIC-SQUARE COMPATIBLE: three pairwise-inequivalent so(8)-module sectors, each split 8+8 by the core charges",
+ "so8_dim": 28
+}

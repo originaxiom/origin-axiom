@@ -1,0 +1,10 @@
+{
+ "id": "B362",
+ "verdict": "PROVED",
+ "claim_one_line": "All three pre-registered seam predictions hit exactly, extending the doubly-elliptic-seed brightness law to 11 pairs with zero counterexamples.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W2-wave2-calibrated"
+}

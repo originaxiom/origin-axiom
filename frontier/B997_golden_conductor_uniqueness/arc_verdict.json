@@ -1,0 +1,17 @@
+{
+ "id": "B997",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE GOLDEN IS THE UNIQUE METALLIC GRAMMAR WHOSE OWN-CONDUCTOR SHADOW IS A McKAY GROUP -- proved, over an infinite family, at Tier 1, at the E8 end. P0: computes over the metallic family of grammars R^m L^m and over SL(2,Z/N); not a manifold and not a census but an INFINITE FAMILY WITH A PROOF, which is why this cell escapes the design flaws that voided B995 and B996. TWO FACTS MEETING ONCE. (1) |SL(2,Z/N)| is a McKay-group order for EXACTLY N in {3,4,5} -- 24 = 2T -> E6, 48 = 2O -> E7, 120 = 2I -> E8 -- and completeness is a PROOF not a bounded search, since |SL(2,Z/N)| = N^3 * prod_{p|N}(1-1/p^2) and that product is at least prod over ALL primes = 1/zeta(2) = 6/pi^2 = 0.6079, so |SL(2,Z/N)| >= 0.6079*N^3 which exceeds 120 for every N >= 6; note the coincidence that those three N are exactly the three exceptional McKay groups 2T, 2O, 2I, i.e. E6, E7, E8, the whole exceptional series and nothing else. (2) The metallic conductor is m^2+4, golden 5 and silver 8, matching B666-s two data points. THEY MEET AT EXACTLY ONE m: m^2+4 = 3 gives m^2 = -1 with NO INTEGER SOLUTION; m^2+4 = 4 gives m = 0, degenerate and not a metallic word; m^2+4 = 5 gives m = 1, THE GOLDEN, UNIQUE -- checked to m=40 and proved for all m by (1). This is exactly B666-s statement that the golden-s conductor is PRIME so its shadow IS the McKay group (SL(2,Z/5) = 2I), now with the UNIQUENESS ACROSS THE FAMILY supplied, which B666 did not compute. WHY IT SURVIVES WHAT KILLED B995 AND B996: B995 died because rarity implies separation against a small set, making its conjunction ill-posed, and that flaw CANNOT APPLY here since there is no separation set, no threshold and no sampled population; B996 died of genericity, 5 of 7 metallic words reaching 2T mod 3, but that was at a FIXED modulus whereas this cell evaluates EACH WORD AT ITS OWN CONDUCTOR and exactly one lands. It sits at the level B993 left open, since field-level is class-shared but a step depending on the GROUP itself is not, and a grammar is group data -- the first result today singling out the golden BY A PROOF RATHER THAN BY A RARITY. SCOPE, three limits, none hidden: (1) THE END REACHED IS E8, NOT E6 -- SL(2,Z/5) = 2I is the hearing/spherical end per B248, while the E6 arrival still comes via Q(sqrt-3) -> 2T which B993 showed is class-level, so this does NOT rescue the E6 chain-s object-specificity; (2) CONDUCTOR = m^2+4 IS INFERRED from B666-s two data points (5, 8), NOT proved canonical, and if the conductor is a different quantity the theorem is about a different thing -- this is the check owed before the result rises above Tier 1, named rather than assumed; (3) GRADE per WHAT_WOULD_COUNT section 3 is TIER 1, structure without values, predicting NONE of the 19 dimensionless numbers, so it is not a ToE claim and must not be quoted as one. WHAT IT IS WORTH: a genuine grammar-level uniqueness, proved, that the corpus did not have this morning -- three searches today returned separating-but-common or rare-but-class-shared, and this one returns UNIQUE-WITH-A-PROOF, the first candidate that would survive an adversarial base-rate attack because there is no base rate to attack.",
+ "depends_on": [
+  "B666",
+  "B993",
+  "B995",
+  "B996",
+  "B248",
+  "B855"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-09), from the owner-s grammar-level redirection"
+}

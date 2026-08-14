@@ -1,0 +1,10 @@
+{
+ "id": "B319",
+ "verdict": "PROVED",
+ "claim_one_line": "Resolved the woven-vs-single conflict as a false dichotomy: single-operator fractality is monotone (Hurwitz) while the two-body combination ladder is standalone; B176 banks both.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

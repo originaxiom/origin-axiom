@@ -1,0 +1,16 @@
+{
+ "id": "B867",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE SAKHAROV GATE (structural preconditions only -- the stage, not the play): all three baryogenesis preconditions are present in banked structure. S1: the SM-step coset IS the X,Y content (24-12 = 12 = dim[(3,2)+(3bar,2)]) and B865's singlets occupy the nu_R/Majorana slot. S2: physical KM phases = (N-1)(N-2)/2 gives first-N-with-a-phase = 3, and B866's S3 triple supplies EXACTLY 3 -- the minimal CP-capable count (inherits the signature-not-mechanism caveat). S3: the transition is one-time -- V(phi)/kappa = -(7+5sqrt5)/12 < 0 with barrier (5sqrt5-7)/12 > 0, exact Galois conjugates, and the mechanism consumes itself (cusp closure). NO asymmetry, rate, temperature or epoch is computed; the Big-Bang mapping stays interpretive.",
+ "depends_on": [
+  "B866",
+  "B865",
+  "B861",
+  "B853",
+  "B852"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat with the owner (2026-08-03)"
+}

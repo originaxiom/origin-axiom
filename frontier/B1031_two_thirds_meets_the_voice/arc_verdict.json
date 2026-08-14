@@ -1,0 +1,14 @@
+{
+ "id": "B1031",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE TWO-THIRDS THEOREM MEETS THE VOICE (scrutiny + corollary; verification arc on post-cutoff external literature, fetched 2026-08-11 with hashes recorded): the Lean-formalized theorem that >= 2/3 of the Riemann zeta zeros are simple and on the critical line (optimised 0.6725; distinct >= 5/6; author a large language model, Anthropic, 2026-08-10; examined by Conrey and Goldston) SCRUTINISED -- the verification verified on the archived clone (zero axiom declarations re-checked by grep; sorry only in comparator statement files; #print axioms = the three standard axioms on all 27 statements including dirichlet_two_thirds_on_critical_line; statements directly against Mathlib's riemannZeta) -- NOTHING FOR US TO ADD AT THE PROOF LEVEL, and the paper's own limits are house-grade (degree-one method: an individual GL(2) L-function gets c = 6/13 < 1/2, so our V2/McKay objects sit outside its reach BY ITS OWN WALL; RH itself out of reach of the mechanism, ceiling = proportion 1 with o(N) exceptions permitted). THE COROLLARY, desk-proved with every self-contained step verified in-sandbox: zeta_K(Q(sqrt-3)) = zeta * L(chi_-3) via r = 1*chi VERIFIED EXACTLY (lattice count (1/6)#{x^2+xy+y^2=n} vs character convolution, n <= 3000, plus a tail-tight float check at s=2 via the Hurwitz form after an nsum-acceleration failure recorded as the numerics lesson); Theorem A + Theorem E (q=3) + exact union arithmetic give: AT LEAST 2/3 (dyadic liminf, WITH MULTIPLICITY) OF THE NONTRIVIAL ZEROS OF zeta_K(Q(sqrt-3)) LIE ON THE CRITICAL LINE, UNCONDITIONALLY -- via banked B737 (the voice = Lambda_K(s)/Lambda_K(s+1)): two thirds of the numerator zeros of the object's own cusp voice are certified critical. THE FENCE STATED BEFORE ANYONE ASKS: simplicity/distinct-point counts do NOT transfer (a common zero of the factors -- existence OPEN -- would be multiple in zeta_K); location-with-multiplicity only. The B737 crux untouched: the zeta is the FIELD's, not the object's. Companion K027 records the methodological convergence (the paper's discovery appendix = this repo's protocol independently evolved: control objects where the RH-analogue is false, name-the-first-unjustified-step, blind per-failure-mode reviewers, the result arriving sideways from a vacuity check whose dual was not vacuous). Gate 5 untouched; nothing about RH claimed beyond the external theorem.",
+ "depends_on": [
+  "B737",
+  "B1011",
+  "B1029"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc seat (2026-08-11), verification arc on external literature"
+}

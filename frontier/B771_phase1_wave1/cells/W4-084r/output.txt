@@ -46,4 +46,4 @@ Matrix([[0, 0, 1, 1], [1, 0, 1, 1], [1, 1, 1, 1], [1, 1, 2, 1]])
 [   1.80s] VERDICT: RESOLVED-A
 [   1.80s] HEADLINE: sigma_4 border FORCED at collar depth d*=1; certified AP complex E=10 V=7 b1=4; Hˇ^0=Z, Hˇ^1=Z^4 (stable under extra collaring)
 [   1.80s] FAILED GATES: []
-[   1.80s] wrote /Users/dri/origin-axiom/frontier/B771_phase1_wave1/cells/W4-084r/results.json
+[   1.80s] wrote <repo>/frontier/B771_phase1_wave1/cells/W4-084r/results.json

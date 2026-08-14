@@ -1,0 +1,10 @@
+{
+ "id": "B200",
+ "verdict": "PROVED",
+ "claim_one_line": "Of a cross-chat handoff only R2 survives verification: on-site is the unique finite-range interaction preserving the Fibonacci chain's Sturmian structure.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "W1-wave1-fanout"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "B158",
+ "verdict": "PROVED",
+ "claim_one_line": "Omega is the ABELIANIZED SPECTRAL IMAGE of the metallic trace-map tower: the bundle-monodromy characteristic polynomials are reciprocal factors of the integer Omega family (L18 resolved at the spectral level).",
+ "instrument": false,
+ "depends_on": [],
+ "superseded_by": null,
+ "stratum": "A",
+ "authored_by": "W1-pilot"
+}
