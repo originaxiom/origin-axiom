@@ -14,7 +14,23 @@ its own correction (B998, 2026-08-09): "that file tests F4, F5, F6, F7 only.
 There is NO F3 test."
 
 So C2 -- a THEOREM, and the link at which phi enters the chain -- has been
-citing a lock that does not test it. This file closes that gap.
+citing a lock that does not test it.
+
+PRIOR COVERAGE, found on a second sweep after the first claim of "no lock"
+was challenged (the claim was overstated; the sweep should have come first):
+  * tests/test_b176_golden_privilege.py::test_hurwitz_irrationality_ordering
+    -- golden > silver > bronze in irrationality, but in FLOATS and only for
+       m in {1,2,3}.
+  * tests/test_b179_metallic_numbers_unified.py::test_bundle_trace_and_field_and_hurwitz
+    -- the Hurwitz constant 1/sqrt(m^2+4), exact.
+Neither is cited by C2, and neither covers the clauses below marked NEW.
+
+WHAT THIS FILE ADDS beyond that prior coverage:
+  - NEW: the all-1s continued fraction clause, in its exact form x = 1 + 1/x
+  - NEW: UNIQUENESS of the minimiser (C2's "unique fixed point")
+  - NEW: Hurwitz optimality witnessed by phi's own convergents
+  - NEW: a can-fail control
+  - the extremality ordering re-done in EXACT arithmetic (B176 uses floats)
 
 WHAT IS LOCKED (all exact; no floats in any assertion)
 ------------------------------------------------------
