@@ -1,22 +1,50 @@
 # The document map — what is living, what is reference, what is history
 
-*(Added 2026-07-03 with the promotion audit. Nothing in this repo is deleted — records are the
-credibility model (GOVERNANCE §1/§9); this map says what to read for the current state.)*
+*Currency: 2026-08-14 (Review 46). **Re-stamp this line at every decadal review** — a
+router that does not carry its own date is how this file went five weeks stale while
+looking authoritative. (Nothing in this repo is deleted — records are the credibility
+model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
+
+## ⚠ ENTRY PROTOCOL — read BEFORE working, not after
+
+| if you are about to… | read FIRST |
+|---|---|
+| **anything at all, first session** | `docs/THE_END_TO_END_CHAIN.md` **PART VIII** (the whole chain in one paragraph) |
+| **question the framework's foundations** | `philosophy/P000_what_is_not_nothing.md` — **the framework does NOT start from a 3-manifold; m004 is DERIVED at C6** |
+| **ask "is this novel / is this ours?"** | `THE_END_TO_END_CHAIN.md` **PART 0** (+ §0.1's corrected attribution) — the claim is a COST claim (ZERO dials · THREE priced axioms · TWO undetermined), not a priority claim; `docs/NOVELTY_SWEEP_LEDGER.md` for what is already known outside |
+| **touch a gate or a firewall** | `WORKING_RULES.md` §6 (**Gate 5 = no SM quantities into CLAIMS.md — an OUTPUT firewall; zero-dials is guarded by construction, not by Gate 5**) · `philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` |
+| **compare anything to measured physics** | `docs/INPUT_COMPLETENESS_LEDGER.md` — twelve items **plus the crossing lane's R1–R11, BOTH filled in the prereg as rows** (THE RECONCILIATION), before sealing; fetches state their release and check the mirror |
+| **claim something is absent / unprecedented** | **check the aliases first**: `docs/CLOUD_ALIAS_TABLE.md` (the qB/qL resolver) and `TERMINOLOGY.md`'s multi-referent registers — one object wears many names here (one field `K` appears as `13³`, `√77`, `953`, "the S₃ cubic", "the weight field"). **A search result you do not open is not a search result.** |
+| **reuse machinery** | `docs/TOOLBOX_LIVE.md` — the live one-pager (the historical body is frozen at `docs/TOOLBOX.md`) |
 
 ## Living (the current state — always start here)
 
 | file | role |
 |---|---|
-| `README.md` | the front door: what this is, phase status, honest framing |
-| `docs/CLOSURE_2026-07-05.md` | **the close** — what this is, what it found, the scrutiny package + weakest points |
-| `docs/CAMPAIGN_STATUS.md` | **the live board** — the running campaign, what's computing now, last banked |
-| `philosophy/THE_ORIGIN_POSTULATE.md` | the north star for the current campaign (D at the interface) |
-| `GOVERNANCE.md` | the constitution: labels, gates, firewall, automated gates (§11) |
-| `CLAIMS.md` | **the ledger** — proven P1–P55 · conditional C1–C12 · certified data E1–E15 · open · dead |
-| `docs/OPEN_LEADS.md` · `docs/OPEN_PROBLEMS.md` | the live frontier: leads, waves, the four gates |
-| `CHANGELOG.md` | human-facing recent history (releases/arcs) |
-| `PROGRESS_LOG.md` | append-only working log (the scrutiny record lives here; §9 roll-up pending) |
-| `docs/progress/REVIEWS.md` | the decadal-review ledger (§11) |
+| `docs/THE_END_TO_END_CHAIN.md` | **the chain, genesis → SM** — every link labelled, with its addendum-corrections carried at equal weight |
+| `THE_CLAIM.md` | the one-page theorem: what is claimed, in the proof-form it is proved in |
+| `docs/THE_FRAMEWORK.md` | the whole assembly by layers, with the level ledger and the walls |
+| `README.md` | the front door: Review banners, newest first = the true current state |
+| `docs/CAMPAIGN_STATUS.md` | **the live board** — what is computing now, last banked |
+| `CLAIMS.md` | **the ledger** — proven · conditional · certified · open · dead |
+| `GOVERNANCE.md` · `WORKING_RULES.md` | the constitution, and the working rules (**Gate 5 lives in §6**) |
+| `docs/OPEN_LEADS.md` · `docs/OPEN_PROBLEMS.md` | the live frontier |
+| `docs/progress/REVIEWS.md` | the decadal-review ledger |
+| `CHANGELOG.md` · `PROGRESS_LOG.md` | recent history · append-only working log |
+
+## The registers (permanent, load-bearing — consult by question, not by browsing)
+
+| question | register |
+|---|---|
+| is there a theorem for this? | `docs/THEOREM_REGISTRY.md` · `docs/THEOREM_LEDGER.md` |
+| what law governs this? | `docs/LAW_MAP.md` (§G = the programme's own method-laws) |
+| was this sealed, and when? | `docs/SEAL_LEDGER.md` |
+| has this failed before? | `docs/ERROR_LEDGER.md` · `docs/ARCHIVE.md` (dead ideas, with causes) |
+| is this comparison legitimate? | `docs/KIND_TABLE.md` (kinds) · `docs/INPUT_COMPLETENESS_LEDGER.md` (method) |
+| is this already known outside? | `docs/NOVELTY_SWEEP_LEDGER.md` |
+| has this recurred? | `docs/RECURRENCE_ATLAS.md` + `scripts/atlas/query.py card` |
+| what would count, and what would kill it? | `docs/WHAT_WOULD_COUNT.md` · `docs/FALSIFIER_REGISTER.md` · the kill graph (`frontier/B738_pathfinder_compiler/kill_graph.json`) |
+| what machinery exists? | `docs/TOOLBOX_LIVE.md` |
 
 ## Reference (permanent, load-bearing)
 

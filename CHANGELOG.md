@@ -1,5 +1,19 @@
 # Changelog
 
+## The front door (2026-08-14) — the router rejoins its own spine
+
+cc3's owner-directed proposal, applied at this gate: docs/INDEX.md was dated
+2026-07-03 and listed ZERO of the eleven documents that are load-bearing
+today — an agent obeying it faithfully would never reach the chain, the
+claim, the genesis, or Gate 5's definition. Refreshed in place (subtraction,
+not addition — no new document): the ENTRY PROTOCOL indexed by action; the
+registers indexed by question; the alias row at the door (the day's
+hardest-won line); the currency stamp that carries its own reason.
+Adjustments at the gate: Review-46 stamp; the TOOLBOX split reflected; the
+chain's label corrected; both alias resolvers named; the kind table and the
+falsifier surfaces added to the question index.
+
+
 ## B1065 PROVED/O1 + the riders (2026-08-13, the day's fifth and closing bank) — the oldest provisional banner discharges; the fork-twin anomaly becomes a theorem
 
 The three amendment controls ran, three reviews late, and landed O1 —

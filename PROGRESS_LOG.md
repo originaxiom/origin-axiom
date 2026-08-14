@@ -10502,3 +10502,10 @@ the oldest PROVISIONAL banner converts; R45-9 discharged by execution. B1066's
 riders: the collaboration's own corroboration (4.5σ/2.9σ); the language and
 wording riders; the cross-kind disclosure. Locks: the b1024 locks carry;
 b1065_controls.log exact.
+
+## 2026-08-14 — THE FRONT DOOR refreshed (cc3's proposal, owner-directed,
+applied at this gate with adjustments): docs/INDEX.md re-stamped (Review 46)
+with the ENTRY PROTOCOL (action-indexed) + the registers by question + the
+alias row (both resolvers named) + the eleven formerly-absent load-bearing
+documents; the TOOLBOX split reflected; Reference/Historical/Rooms/Papers
+untouched. The router no longer predates its own spine.
