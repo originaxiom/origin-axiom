@@ -117,23 +117,63 @@ Arrival at `E₆` is generic (§1.3). The **entrance** is not.
 > group — proved **at the `E₈` end**. The siblings diverge **at the entry map
 > itself**, by exact enumeration: they have no corresponding door at all.
 >
-> *(B997 — uniqueness over the infinite family, stated at the `E₈` end; B1019 —
-> the siblings' divergence at the entry map, `tests/test_b1019_l149.py`; B1002 —
-> the identification `shadow modulus = m² + 4`, which B997 had flagged as inferred from
-> two data points, discharged.)*
+> *(B997 — uniqueness over the infinite family, stated at the `E₈` end,
+> `tests/test_b997_golden_conductor_uniqueness.py`; B1019 — the siblings' divergence
+> at the entry map, `tests/test_b1019_l149.py`; B1002 — the identification
+> `shadow modulus = m² + 4`, which B997 had flagged as inferred from two data points,
+> discharged.)*
 
 This is the discriminating fact of the construction, and we state it here — beside
 the genericity caveat, not in a later discussion — so that the two are read
 together. **Reaching the algebra proves nothing; entering it the way this object
 does is what is unique.**
 
-**Two scope notes, stated with the theorem rather than after it.** First, B997's
-uniqueness is proved *at the `E₈` end*; the corresponding statement at the `E₆`
-end is not claimed here. Second, **B997 carries no dedicated lock** — B1019's
-lock covers the divergence half, and B1002 discharges the shadow-modulus
-identification, but the uniqueness statement itself is not independently
-re-runnable. **For the paper's discriminating theorem this is the weakest
-verification link, and §B records it as such.**
+### 5.4.1 Why it is the McKay group — two independent reasons, not one
+
+The uniqueness above is a counting statement. There is also a **mechanism**, and it
+is independent of the count.
+
+> **Theorem 5.4.1 (the quantization-index law).** The reduction of the object mod
+> its shadow modulus is an **isomorphism** exactly when the **cusp conductor** is
+> coprime to the shadow modulus, and acquires a **kernel line** exactly when it is
+> ramified. For the golden, `gcd(4, 5) = 1` — an **isomorphism**. For the silver,
+> `gcd(2, 8) = 2` — **ramified**.
+>
+> *(B675, the mechanism; B666, the fact; B1002, the reconciliation.)*
+
+So the golden's shadow is the McKay group because **both** independent conditions
+hold: `|SL(2,ℤ/5)| = 120 = |2I|` with `N ∈ {3,4,5}` the complete list, **and**
+`gcd(4,5) = 1`, so the reduction is faithful. **The silver satisfies neither** — `8`
+is not a McKay order, and its ramification is precisely why its group sits one
+quotient down.
+
+*(A terminology warning, since the corpus was itself confused here for a while and
+Appendix C repeats it: the bare noun names **two different quantities in adjacent
+laws** — the **cusp conductor**, golden `4`, and the **shadow modulus** `m² + 4`,
+golden `5`. B997's check looked open for months because the answer was banked under
+the other sense of the word. We use the two qualified names throughout and never the
+bare noun.)*
+
+**Three scope notes, stated with the theorem rather than after it.**
+
+**First**, the uniqueness is proved *at the `E₈` end*; the corresponding statement at
+the `E₆` end is **not** claimed — that arrival remains class-level.
+
+**Second**, the reader should not be told that the moduli `N ∈ {3,4,5}` realize *the
+whole exceptional series*. They do not. `SL(2,ℤ/3) ≅ 2T` and `SL(2,ℤ/5) ≅ 2I` are the
+classical isomorphisms and give `E₆` and `E₈` genuinely; but **`E₇ = 2O` never
+occurs**. At prime level `|SL(2,𝔽_p)| = p(p²−1)` is never `48`; and although
+`|SL(2,ℤ/4)| = 48 = |2O|`, that group has **seven** elements of order 2, whereas every
+finite subgroup of `SU(2)` has exactly **one**, so it is not `2O` — the order is a
+coincidence and `2O` appears only as a quotient. **The golden's landing is unaffected
+and is in fact cleaner: it lands on a genuine group, not on a matching number.**
+
+**Third**, B997 formerly carried **no dedicated lock**, and earlier drafts of this
+paper named that its weakest verification link. That is now closed: the lock cited
+above proves the completeness step in exact arithmetic, replacing the arc's
+`∏(1−1/p²) ≥ 6/π²` — true but irrational, and therefore not checkable — with the
+telescoping bound `∏_{p|N}(1−1/p²) ≥ (N+1)/(2N)`, whence `|SL(2,ℤ/N)| ≥ N²(N+1)/2`,
+already `126 > 120` at `N = 6`.
 
 ### 5.5 The forcedness census
 

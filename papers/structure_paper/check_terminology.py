@@ -73,21 +73,38 @@ BARE_SYMBOLS = {
 }
 
 
+# A backticked span that is a repo PATH, not prose: it contains a directory
+# separator or ends in a file extension. `tests/test_b997_golden_conductor_...py`
+# is a filename, not a use of the word "conductor", and flagging it is a false
+# positive that trains the author to ignore the gate. Masked for TIER3 and the
+# bare-symbol patterns only -- TIER1 still scans the raw line, since a banned
+# internal name appearing in a FILENAME is a genuine signal worth seeing.
+PATHISH = re.compile(r"`[^`]*(?:/[^`]*|\.(?:py|md|json|tex|bib|txt))`")
+
+
+def mask_paths(line):
+    """Blank out backticked repo paths, preserving column positions."""
+    return PATHISH.sub(lambda m: " " * len(m.group(0)), line)
+
+
 def scan(path):
     hits = []
     try:
         text = path.read_text(encoding="utf-8", errors="replace")
     except OSError as e:
         return [("READ", 0, str(e), "")]
-    for i, line in enumerate(text.splitlines(), 1):
-        low = line.lower()
+    for i, raw in enumerate(text.splitlines(), 1):
+        low = raw.lower()
         for term, sub in TIER1.items():
             if term.lower() in low:
                 hits.append(("TIER1", i, term, f"use: {sub}"))
+        line = mask_paths(raw)
+        low_masked = line.lower()
         for term, spec in TIER3.items():
             quals, why = spec[0], spec[1]
             trigger = spec[2] if len(spec) > 2 else None
-            present = re.search(trigger, line, re.I) if trigger else (term.lower() in low)
+            present = (re.search(trigger, line, re.I) if trigger
+                       else (term.lower() in low_masked))
             if present and not any(re.search(q, line, re.I) for q in quals):
                 hits.append(("TIER3", i, term, why))
         for pat, (quals, why) in BARE_SYMBOLS.items():

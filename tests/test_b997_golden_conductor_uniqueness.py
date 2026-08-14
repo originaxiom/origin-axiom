@@ -109,6 +109,24 @@ def test_which_are_actually_binary_polyhedral():
         SL(2,Z/5):   1 involution  -> genuinely 2I   (classical)
 
     SL(2,Z/4) additionally has NO element of order 8, while 2O does.
+
+    PRIOR ART, and this check is a COMPLEMENT to it, not a discovery. The corpus
+    banked the E7 exclusion on 2026-06-25:
+
+        B207: "E7 = 2O never occurs (|2O| = 48 is no |SL(2,F_p)|)"
+        L105 refinement: "2O = quotient, not subgroup"
+        CLAIMS E11: "2O absent from golden/silver/bronze" (exact GAP)
+
+    B207's statement is about PRIME FIELDS -- and it is right: |SL(2,F_p)|
+    = p(p^2-1) is 6, 24, 120, 336, ... and never 48. But B997's table row N = 4
+    is Z/4, which is NOT a prime field, so B207 does not reach it. That gap is
+    what this test closes: |SL(2,Z/4)| really is 48, and the group really is not
+    2O. Both statements are needed to retire the E7 slot completely.
+
+    B1002/B675 supply the reason the corpus already had: the golden's reduction
+    is an isomorphism because gcd(cusp conductor, shadow modulus) = gcd(4,5) = 1,
+    while the silver is ramified, gcd(2,8) = 2 -- "which is exactly why 2O sits
+    one quotient down."
     """
     assert count_involutions(3) == 1
     assert count_involutions(4) == 7
