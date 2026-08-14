@@ -54,7 +54,7 @@ theorem that the object is blind to scale.
 | # | claim | arc | lock |
 |---|---|---|---|
 | G1 | Morse–Hedlund: aperiodic ⟹ `p(n) ≥ n+1`; Sturmian achieves equality | B749/F7 | `tests/test_b749_genesis_forks.py` |
-| G2 | Self-selection: Hurwitz extremality at φ = the all-1s continued fraction | B749 | ## **GAP — see §3** |
+| G2 | Self-selection: Hurwitz extremality at φ = the all-1s continued fraction | B749 | ## **CLOSED** → `tests/test_c2_self_selection.py` (**new, mutation-tested**); prior partial coverage in `test_b176_golden_privilege.py` (floats) and `test_b179_metallic_numbers_unified.py` |
 | G3 | C3 priced: periodic sibling degenerates (F2); shadow variants degenerate/conjugate away (F4) | B749/F2,F4 | `tests/test_b749_genesis_forks.py`, `tests/test_b749_f2_f8_locks.py` |
 | G4 | C4 priced: non-geometric carriers see only the hearing; **ℚ(√−3) bought at geometrization** | B749/F8 | `tests/test_b749_f2_f8_locks.py` |
 | G5 | C5 priced: the discarded det −1 sibling **is** the Gieseking manifold | B749/F5 | `tests/test_b749_genesis_forks.py` |
@@ -63,10 +63,10 @@ theorem that the object is blind to scale.
 | G8 | The `V₄` is a property of the **open** object (census) | B288/B740/B747/B748 | `tests/test_b747_b748_sweeps.py` |
 | G9 | m004 **is** congruence | B734 | `tests/test_b734_m004_congruence.py` |
 | G10 | Character-rigidity: the continuous spectrum is ONE channel | B739, B737 | `tests/test_b737_candidate_zero.py`, `tests/test_b739_rigidity.py` |
-| G11 | The two-column law (10 of 12 floors carry a forced golden appearance) | B746, B749/F6 | ## **GAP — lock unnamed in ledger** |
-| G12 | The θ-equivariant fixed line of the trace map; odd golden powers | B48/B54/B64 | ## **GAP — "the B64/B48-family locks", not a resolvable path** |
+| G11 | The two-column law (10 of 12 floors carry a forced golden appearance) | B746, B749/F6 | `tests/test_b746_golden_ledger.py` **exists & passes** — ## **but 0 mentions of columns/floors: it locks golden APPEARANCES, not the 10-of-12 claim. GAP NARROWED, still open.** |
+| G12 | The θ-equivariant fixed line of the trace map; odd golden powers | B48/B54/B64 | `tests/test_b64_parity_mechanism.py` (B64, **passes**); ## **B48/B54 have no own-name lock — PARTIAL** |
 | G13 | The mixing structure: θ-odd block unitary, unistochastic, golden-exact | B753 | `tests/test_b753_mixing.py` |
-| G14 | The pure-3 symmetrized series | B755 cell 3 | ## **GAP — lock unnamed** |
+| G14 | The pure-3 symmetrized series | B755 cell 3 | ## **RESOLVED** → `tests/test_b755_carried.py::test_cell3_b685_gswz_gates_and_pure3` (**passes**) |
 | G15 | The hearing multiplication law | B756/DOOR3 | `tests/test_b756_doors.py` |
 | G16 | The threefold refusal (NO-GO) | B750 | `tests/test_b750_lack_ledger.py` |
 | G17 | The SM record (NO-GO), four mechanisms | B754, B736, B751/B752, B757 | `tests/test_b736_abc.py` |
@@ -87,6 +87,17 @@ theorem that the object is blind to scale.
 | N6 | ## **The value-contact surface ENUMERATED and EXHAUSTED** — exactly two target-shaped relations existed; both fired; both missed | B1066 | per arc |
 | N7 | ## **Scale-blindness by theorem**: `S = −CS·k − Vol·σ`, `∂S/∂k = −CS ≡ 0`; k-blindness **is** amphichirality | B811, B1012 | per arc |
 | N8 | Gravity route **obstructed at the torus**: amphichirality deletes the quantized boundary sector | B1064 | per arc |
+
+## 3b. Method correction (applied from 2026-08-14)
+
+> ## **SWEEP FOR EXISTING COVERAGE BEFORE WRITING ANY NEW LOCK, and record the sweep's vocabulary in the row.**
+>
+> cc3 wrote `test_c2_self_selection.py` after taking the ledger's *"there is NO F3 test"*
+> — a statement about **one file** — as a statement about **the repo**. The owner
+> challenged it; the sweep found prior partial coverage in two uncited arcs.
+> **Applying the corrected order to G11/G12/G14 then resolved two of three by FINDING
+> rather than writing.** *(Vocabulary used: file-glob on arc ID + claim keywords across
+> `tests/`, `scripts/`.)*
 
 ## 4. Gaps to close before drafting (named, not hidden)
 
