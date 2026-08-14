@@ -16,6 +16,19 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-14, THE FIELD MASTERPLAN opens — B1067 banks the ray-class harvest):**
+The owner elected the field exploration as a multi-agent workflow masterplan
+("did we explore the field until the end?" — no), and its first bank landed:
+the branch-resident ℚ(√−3) class-field asset is on main DOUBLE-REBUILT (every
+mathematical claim re-derived on two independent routes) — the Hecke palette
+1/2/8, the cusp's conductor-4 CM order, h(−48) = 2, the exact class
+polynomial, and the one-object identification (ring class field = ray class
+field mod (4) = ℚ(ζ₁₂), the ray-class ℤ/2 swapping the two form classes).
+Three field censuses (157 facts) returned the biography roadmap as honest
+gap-lists; the sharpest find: K's class group is OPEN (the 953-place's
+principality undecided — a named blocker). W2, the descent inventory, runs
+now; W3–W6 staged.
+
 **LATEST (2026-08-13, the sweep pauses at ONE question; the cost re-frame; B1064 sealed):**
 The novelty sweep ran its whole arc in one day and ended where the owner's
 instinct pointed: nineteen rows collapsed to ONE independent candidate — the
