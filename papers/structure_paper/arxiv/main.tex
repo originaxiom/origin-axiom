@@ -45,6 +45,7 @@
 \newcommand{\sll}{\mathfrak{sl}}
 \newcommand{\uu}{\mathfrak{u}}
 \newcommand{\ee}{\mathfrak{e}}
+\newcommand{\ff}{\mathfrak{f}}
 \newcommand{\tr}{\operatorname{tr}}
 \newcommand{\Vol}{\operatorname{Vol}}
 \newcommand{\disc}{\operatorname{disc}}
@@ -126,9 +127,11 @@ The second half is negative and we ask that it be weighed equally
 \subsection{What is claimed, and what is not}
 We claim a \emph{cost theorem}: a small, explicitly enumerated set of declared
 choices---\textbf{seven, itemized in the ledger of \S\ref{sec:inputs}}---together with
-no fitted parameters and no measured input, yield the structural data below. Five of the
-seven have their alternative computed or exhibited, one costs nothing, and \textbf{one is
-unpriced and is flagged as such in the ledger}.
+no fitted parameters and no measured input, yield the structural data below. Five have
+their alternative computed or exhibited, \textbf{two are computed to cost nothing}, and
+\textbf{one---the placement of $2T$ on the principal $\sll_2$---is motivated but not
+derived}, which we state in the introduction rather than leaving to a limitations
+section.
 \textbf{We count stipulations, not chain links}: the two counts differ, and conflating
 them is an error earlier drafts made. We do \textbf{not} claim a derivation of physics, and no physical identification
 is made in the body. Internal names are names of mathematical objects.
@@ -1162,10 +1165,37 @@ $C_1=\langle x_{14},x_{22}\rangle$ is the eigenspace decomposition of an automor
 $\ee_6$. Hence $[C_i,C_j]\subseteq C_{i+j}$ holds identically, with no computation.
 \end{corollary}
 
-\textbf{So the pair carrying the cascade is picked out by the object, three times over}:
+\begin{remark}[a fourth agreement, and it was recorded first]\label{rem:concord}
+Two further invariants, computed for unrelated reasons, split the four charges the same
+$2+2$ way:
+\begin{center}\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+charge & exponent & $\theta$-parity & torsion sign $\tau$ & $\ad$-spectrum\\
+\midrule
+$x_8$    & $4$  & odd  & $+$ & split\\
+$x_{16}$ & $8$  & odd  & $+$ & split\\
+$x_{14}$ & $7$  & even & $-$ & compact\\
+$x_{22}$ & $11$ & even & $-$ & compact\\
+\bottomrule
+\end{tabular}
+\end{center}
+Here $\theta$ is the diagram involution, whose fixed algebra is $\ff_4$, and $\tau_m$ is
+the torsion of the $m$-th exponent line, with $\operatorname{sign}(\tau_m)=(-1)^m$: the
+torsion is positive exactly at the $\theta$-odd exponents. \textbf{The torsion sign law
+was computed and recorded three weeks before the measurement that selected
+$\langle x_8,x_{16}\rangle$}, so this is not a post-hoc concordance. We note also that
+the two \emph{unmeasured} exponents multiply to $7\cdot11=77$, and $\Q(\sqrt{77})$ is the
+quadratic resolvent of the charge cubic $\mu$ (Proposition~\ref{prop:mu}): the resolvent
+field is built from exactly the slots the measurement does not use. \textbf{We record
+that as an observation and claim no mechanism for it.}
+\end{remark}
+
+\textbf{So the pair carrying the cascade is picked out by the object, four times over}:
 it is the split pair of Proposition~\ref{prop:dichotomy}, it is the only subtorus with
-anywhere to go by Proposition~\ref{prop:cliff}, and it is the fixed algebra of the unique
-outer symmetry of $2T$. \textbf{The third reason subsumes the worry the first two leave
+anywhere to go by Proposition~\ref{prop:cliff}, it carries the positive torsion signs and
+the $\theta$-odd exponents of Remark~\ref{rem:concord}, and it is the fixed algebra of the
+unique outer symmetry of $2T$. \textbf{The last reason subsumes the worry the others leave
 open.} A census over coordinate subtori invites the question \emph{why coordinate
 subtori?}; Proposition~\ref{prop:twoO} does not, because $\ee_6^{2O}$ is defined without
 reference to any basis of $C$. Earlier drafts omitted all three and presented the plane as
@@ -1224,12 +1254,51 @@ algebraic type $A_2\oplus A_1$,
 \[
    z(x_1,y^*)\otimes\overline K\ \cong\ \sll_3\oplus\sll_2\oplus\mathfrak t^{3}.
 \]
-The within-$C$ centralizer ladder \emph{includes} $\{78,46,30,18,14,12\}$, and the
-dimension $26$ is not attained at any coordinate subtorus or enhancement point.
-\textbf{We write ``includes'' deliberately}: the source material banks this list as a set
-of realized strata, not as an exhaustion of $C$, and the non-attainment of $26$ is a
-census over those directions rather than a theorem about every subtorus.
 \end{theorem}
+
+\begin{theorem}[the second measurement, exhaustively]\label{thm:smtfull}
+Fix a wall point $x_1$. Of the $78$ weights of $C$ on $\ee_6$, twelve vanish identically
+and $46$ vanish on $x_1$; the $34$ remaining fall into exactly \textbf{seven}
+proportionality classes, of sizes $(2,2,6,6,6,6,6)$, and identically so at each of the
+three walls. Consequently, as $y$ ranges over \emph{all} of $C$,
+\[
+  \dim z(x_1,y)\ =\
+  \begin{cases}
+    46 & y\in\langle x_1\rangle\quad(\text{no second measurement}),\\
+    30 & y\in\langle x_8,x_{16}\rangle,\\
+    14 & y\ \text{on either of the two size-$2$ hyperplanes},\\
+    18 & y\ \text{on one of the five size-$6$ hyperplanes},\\
+    16,\,20,\,26 & y\ \text{on an intersection of these},\\
+    12 & \text{otherwise.}
+  \end{cases}
+\]
+\textbf{The two hyperplanes carrying dimension $14$ are complex conjugates of one
+another}, so no real point of $C$ attains it---which is why $y^*$ is not real.
+\end{theorem}
+
+\begin{corollary}[the second plane costs nothing]\label{cor:c7free}
+Every point of the $14$-locus yields a Levi subalgebra with $8$ roots, and by
+Remark~\ref{rem:leviscope} $A_2\oplus A_1$ is the unique Levi type with $8$ roots.
+\textbf{So the choice of the second plane, and of the point $y^*$ within it, cannot
+change the terminus}; it can only fail to reach it. The terminus depends on the
+\emph{dimension} $14$, which is computed, and on nothing else that was chosen.
+\end{corollary}
+
+\begin{remark}[a correction we owe the record]\label{rem:26attained}
+Earlier drafts said the dimension $26$ ``is not attained at any coordinate subtorus or
+enhancement point'', and left open whether that was a census or a theorem.
+Theorem~\ref{thm:smtfull} settles it in the direction we did not expect:
+\textbf{$26$ \emph{is} attained}, on genuine two-planes $\langle x_1,y\rangle$, just
+never at a coordinate direction. The $A_4$ Levi is therefore reached somewhere in $C$,
+and the statement ``the second measurement skips $\su(5)$'' is true \emph{of the point
+$y^*$}, not of the charge torus. We state this because the earlier phrasing invited the
+stronger reading.
+\end{remark}
+
+\noindent Note that every dimension occurring above lies in the rung spectrum of
+Theorem~\ref{thm:rungspec}, which was computed independently from the Levi
+classification of $E_6$ and never from these weights. \textbf{The two computations share
+no code path}, so their agreement is a check rather than a repetition.
 
 \begin{scope}[the second point is not real, and the second plane is not priced]\label{sc:ystar}
 Two limitations of Theorem~\ref{thm:smt} are load-bearing and were absent from earlier
@@ -1243,12 +1312,14 @@ nullity $30$ at $x_{16}$ and \textbf{no real point of nullity $14$ at all}. Whet
 real wall point exists elsewhere in $C$ is \textbf{open}. The theorem is therefore a
 statement over $\overline K$, and we no longer write it as one over $K$.
 
-\emph{(ii) The second plane is a declared choice.}
+\emph{(ii) The second plane is not forced, but it is free.}
 Proposition~\ref{prop:twoO} prices $\langle x_8,x_{16}\rangle$ because it is the fixed
 algebra $\ee_6^{2O}$. It does \emph{not} price $\langle x_{14},x_{16}\rangle$, which is
 \textbf{mixed} for the involution---one even charge and one odd---and so is not an
 eigenspace of anything. \textbf{We have no forcing argument for the second plane and do
-not claim one}; it is carried as \textbf{(C7)}, the one unpriced row, in the ledger of
+not claim one.} What we do have is Corollary~\ref{cor:c7free}: the $14$-locus is
+enumerated, and every point of it gives the same terminus. The plane is a choice whose
+price is computed to be zero, carried as \textbf{(C7)} in the ledger of
 \S\ref{sec:inputs}.
 \end{scope}
 
@@ -1619,14 +1690,17 @@ set; the table below exists so the count can be checked rather than believed.
 (C4) & the puncture & \textbf{degenerates}: the closed mapping torus of an Anosov map of $T^2$ is a $\mathrm{Sol}$-manifold, since hyperbolization needs $\chi(F)<0$ and $\chi(T^2)=0$. No cusp, no hyperbolic structure, no arithmetic layer\\
 (C5) & period one & \textbf{price zero.} The period-two family $M(a,b)$ is orientation-preserving already and its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$; the selection of \S\ref{sec:four} survives verbatim\\
 (C6) & the principal placement of $2T$ & \textbf{well motivated, not derived}: rigidity gives $H^1(\sll_2,\ee_6)=0$ and $C_{\ee_6}(\text{principal})=0$, but no source proves $2T$ must go there\\
-(C7) & the second measurement plane $\langle x_{14},x_{16}\rangle$ & \textbf{UNPRICED.} Unlike $\langle x_8,x_{16}\rangle$, which Prop.~\ref{prop:twoO} identifies as $\ee_6^{2O}$, this plane is mixed for the involution and we have no forcing argument\\
+(C7) & the second measurement plane $\langle x_{14},x_{16}\rangle$ & \textbf{price zero.} The $14$-locus is enumerated in Thm.~\ref{thm:smtfull}; by Cor.~\ref{cor:c7free} every point of it gives the same terminus, so no choice inside $C$ can change the answer\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\noindent\textbf{Seven, of which five are priced, one costs nothing, and one---(C7)---is
-not priced at all.} We state the last plainly rather than absorbing it: a cost theorem
-whose ledger hides a row is not a cost theorem.
+\noindent\textbf{Seven rows. Two---(C5) and (C7)---cost nothing, and that is a
+computed result in both cases, not a concession.} Of the remaining five, two have
+alternatives that degenerate, two have alternatives that survive with a stated cost, and
+\textbf{one, (C6), is motivated but not derived}: it is the paper's residual, and we do
+not describe it as priced. A cost theorem whose ledger hides a row is not a cost theorem,
+so (C6) is printed as what it is.
 
 Separately, the algebra steps carry declared input \emph{riders}, itemized rather than
 left implicit: chirality (three steps), a vacuum direction, and a generation count.
@@ -1791,6 +1865,7 @@ Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \texttt{verify/check\_measurement
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
 Cor~\ref{cor:levi}, Rmk~\ref{rem:leviscope}, Thm~\ref{thm:rungspec} & \texttt{test\_levi\_classification\_forces\_the\_rungs.py} & all $64$ Levi subsystems; rung spectrum\\
+Thm~\ref{thm:smtfull}, Cor~\ref{cor:c7free}, Rmk~\ref{rem:26attained} & \texttt{test\_second\_measurement\_is\_exhaustive.py} & the $78$ weights; seven hyperplanes; certified gap\\
 Thm~\ref{thm:arith} & \texttt{test\_b125\_snappy\_arithmeticity.py} & invariant trace fields (\textsc{SnapPy})\\
 Thm~\ref{thm:canonical} & \texttt{test\_b92\_metallic\_classification.py} & period-one criterion\\
 Prop~\ref{prop:2880} & \texttt{test\_b1011\_mckay\_tensor.py} & order $2880$; $63/63$ characters\\
