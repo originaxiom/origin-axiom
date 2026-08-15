@@ -77,9 +77,12 @@ algebras, cone-manifold geometric transition}
 
 \begin{abstract}
 Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We prove that
-this family is \emph{intrinsically characterized rather than ad hoc}: it is exactly the
-class of hyperbolic unimodular classes whose dominant eigenvalue has purely periodic
-continued fraction of period one. \textbf{That is weaker than saying it is not a choice},
+this family is \emph{intrinsically characterized rather than ad hoc}: the hyperbolic
+unimodular classes whose dominant eigenvalue has purely periodic continued fraction of
+period one are exactly those of determinant $-1$, and their traces are exactly the
+integers $m\ge1$, with $X_m$ realizing each. \textbf{The characterization is by trace and
+determinant, not by conjugacy class}---at $m=6$ a second class occurs and we exhibit
+it---so the family below is a proper subfamily of that locus. \textbf{That is weaker than saying it is not a choice},
 and we do not say so: period one is itself a declared input, and we price it. Inside it we exhibit \emph{four criteria selecting the golden member $m=1$},
 each over the whole infinite family and each anchored in a classical theorem.
 \textbf{We prove first that three of them collapse to one arithmetic condition}: they
@@ -306,8 +309,9 @@ torus under $\phi_m$.
 \begin{theorem}[the family is a characterization]\label{thm:canonical}
 Let $A\in\GL(2,\Z)$ be hyperbolic with non-negative entries. The continued fraction of
 its dominant eigenvalue is purely periodic of period one if and only if $\det A=-1$; in
-that case $\tr A=m$ for some $m\ge1$, the eigenvalue is $\lambda_m$, and $X_m$ is a
-representative of the class.
+that case $\tr A=m$ for some $m\ge1$ and the eigenvalue is $\lambda_m$. \textbf{The
+classification is by $(\tr,\det)$ alone}: $X_m$ realizes each attained trace, but is
+\emph{not} in general the unique $\GL(2,\Z)$-class doing so (Scope~\ref{sc:latimer}).
 \end{theorem}
 
 \begin{proof}
@@ -317,7 +321,8 @@ $\det X_m=-1$, $\tr X_m=m$, discriminant $m^2+4$ and dominant root $\lambda_m$.
 Conversely, if $A$ is hyperbolic with non-negative entries and $\det A=-1$, its
 characteristic polynomial is $x^2-tx-1$ with $t=\tr A\ge1$; the dominant root satisfies
 $x=t+1/x$, hence has the purely periodic expansion $[t;t,t,\dots]$ of period one.
-Distinct $m$ give distinct traces, hence distinct classes.
+Distinct $m$ give distinct traces, hence distinct conjugacy classes; the converse
+direction is not injective on classes, only on traces.
 \end{proof}
 
 \begin{corollary}\label{cor:c3family}
@@ -374,12 +379,29 @@ computed and turns out to be \emph{zero}.
 \end{scope}
 \end{corollary}
 
-\begin{scope}\label{sc:latimer}
-Theorem~\ref{thm:canonical} classifies by $(\tr,\det)$ and exhibits $X_m$ as a
-representative. It does \emph{not} assert that every trace-$m$, $\det=-1$ matrix is
-$\GL(2,\Z)$-conjugate to $X_m$; that fails for $m\ge4$, where the form class number
-$h(m^2{+}4)$ exceeds one (Latimer--MacDuffee). Only the stated equivalence is used
-below.
+\begin{scope}[what Theorem~\ref{thm:canonical} does \emph{not} say, with a witness]\label{sc:latimer}
+Theorem~\ref{thm:canonical} classifies by $(\tr,\det)$ and exhibits $X_m$ as \emph{a}
+representative. \textbf{It does not assert that every trace-$m$, $\det=-1$ matrix is
+$\GL(2,\Z)$-conjugate to $X_m$, and that is false.} By Latimer--MacDuffee the classes
+with a given irreducible characteristic polynomial correspond to the ideal classes of
+$\Z[\lambda_m]$, and $h(m^2+4)>1$ for some $m$. \textbf{An explicit witness}, which an
+earlier draft did not supply:
+\[
+   A=\begin{pmatrix}1&2\\3&5\end{pmatrix}
+\]
+has non-negative entries, $\det A=-1$, $\tr A=6$, and dominant eigenvalue
+$3+\sqrt{10}=\lambda_6$ with expansion $[\,\overline{6}\,]$---so it satisfies every
+hypothesis and the characterizing property---yet $A\not\sim X_6$: the associated forms
+are $(3,4,-2)$ and $(1,-6,-1)$ of discriminant $40$, and $x^2-10y^2=\pm3$ is insoluble
+modulo~$5$. The two mapping tori are genuinely different manifolds.
+
+\textbf{The consequence, stated rather than absorbed.} The period-one class, made
+orientation-preserving, \emph{strictly contains} $\{\phi_m\}$, so \S\ref{sec:four}
+quantifies over a proper subfamily of what this section characterizes.
+Theorem~\ref{thm:canonical} therefore answers ``was the family reverse-engineered?''
+only at the level of traces, which is weaker than an earlier draft implied by writing
+``the class''. An earlier draft also placed the first failure at $m\ge4$; we do not
+assert a threshold here, having verified only the witness above.
 \end{scope}
 
 \section{Four selections of the golden, and what they share}\label{sec:four}
@@ -543,7 +565,8 @@ conclusion follows differently: $|\SL(2,\mathbb F_p)|=p(p^2-1)$ is never $48$.
 \begin{proof}
 A finite subgroup $G<\SU(2)$ has a unique element of order two: the preimage of the
 identity under $\SU(2)\to\mathrm{SO}(3)$ is $\{\pm I\}$, and any $g\in G$ with $g^2=I$,
-$g\neq I$, is conjugate to $-I$ in $\SU(2)$ and central, forcing $g=-I$. Counting
+$g\neq I$, is conjugate to $-I$ in $\SU(2)$ and central, forcing $g=-I$; so a finite
+subgroup has \emph{at most} one such element, and none when its order is odd. Counting
 solutions of $g^2=I$ in $\SL(2,\Z/4)$ gives seven non-identity solutions; counting
 element orders gives none equal to $8$. Both counts are over the full group of order
 $48$. The prime-level statement is immediate from $p(p^2-1)\in\{6,24,120,336,\dots\}$.
@@ -942,7 +965,13 @@ zero, computed; and its $\ad$-decomposition is \textbf{multiplicity-free}, with 
 weights twice the exponents \emph{recovered rather than assumed}, so placing $2T$ in it
 requires no further discrete datum to say which copy of each degree is meant.
 
-\textbf{And there is a rigidity statement, which is a forcing argument rather than a
+\textbf{One argument offered in earlier drafts is void and we strike it}: infinitesimal
+rigidity, $H^1(\sll_2,\ee_6)=0$, is Whitehead's lemma and holds for \emph{every}
+$\sll_2\subset\ee_6$, so it cannot distinguish the principal class. What remains are two
+genuine reasons---regularity and multiplicity-freeness---and they are reasons, not a
+derivation.
+
+\textbf{There is a rigidity statement, which is a
 preference.} Embeddings $\sll_2\hookrightarrow\ee_6$ are infinitesimally rigid---
 $H^1(\sll_2,\ee_6)=0$ by Whitehead, verified block by block---so the tangent space to
 ``factors through \emph{some} $\sll_2$'' is exactly the principal line. No first-order

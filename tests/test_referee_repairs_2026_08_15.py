@@ -175,3 +175,63 @@ def test_the_enhancement_rule_is_a_real_choice_at_both_measurements():
         generic_second.add(dim_z([x1, rng.normal(size=4) + 1j * rng.normal(size=4)]))
     assert generic_second == {12}, generic_second
     assert 14 > 12 and 18 > 12, "the 14-locus is a strict enhancement, hence a choice"
+
+
+# ------------------------------------------------------------------ claim 3
+
+
+def test_period_one_does_not_determine_the_conjugacy_class():
+    """The counterexample to an earlier form of the family-characterization theorem.
+
+    An earlier draft's Theorem said that for a hyperbolic A in GL(2,Z) with non-negative
+    entries whose dominant eigenvalue has purely periodic period-one continued fraction,
+    "X_m is a representative of THE class".  The definite article is false.
+
+        A = [[1,2],[3,5]]
+
+    has non-negative entries, det = -1, trace 6, and dominant eigenvalue 3+sqrt(10) =
+    lambda_6 with expansion [6;6,6,...] -- every hypothesis and the characterizing
+    property.  But A is not GL(2,Z)-conjugate to X_6 = [[6,1],[1,0]]: the associated
+    binary quadratic forms are (3,4,-2) and (1,-6,-1) of discriminant 40, and
+    x^2 - 10 y^2 = +-3 is insoluble mod 5.
+
+    So the period-one locus STRICTLY CONTAINS the metallic family, and the theorem
+    classifies by (trace, determinant) only.  This test exists so no later draft can
+    restore the stronger reading.
+    """
+    import itertools
+
+    A = ((1, 2), (3, 5))
+    X6 = ((6, 1), (1, 0))
+
+    def det(M):
+        return M[0][0] * M[1][1] - M[0][1] * M[1][0]
+
+    def tr(M):
+        return M[0][0] + M[1][1]
+
+    # A satisfies every hypothesis
+    assert all(x >= 0 for row in A for x in row)
+    assert det(A) == -1 and det(X6) == -1
+    assert tr(A) == 6 and tr(X6) == 6
+    # same characteristic polynomial x^2 - 6x - 1, so the same dominant eigenvalue
+    assert (tr(A), det(A)) == (tr(X6), det(X6))
+
+    # the mod-5 obstruction: x^2 - 10 y^2 = +-3 has no solution
+    squares = {x * x % 5 for x in range(5)}
+    assert 3 % 5 not in squares and (-3) % 5 not in squares
+
+    # and no conjugator exists with bounded entries (corroboration, not proof)
+    def conj_eq(P):
+        p, q, r, s = P
+        # P X6 == A P
+        lhs = ((p * X6[0][0] + q * X6[1][0], p * X6[0][1] + q * X6[1][1]),
+               (r * X6[0][0] + s * X6[1][0], r * X6[0][1] + s * X6[1][1]))
+        rhs = ((A[0][0] * p + A[0][1] * r, A[0][0] * q + A[0][1] * s),
+               (A[1][0] * p + A[1][1] * r, A[1][0] * q + A[1][1] * s))
+        return lhs == rhs
+
+    B = 12
+    found = [P for P in itertools.product(range(-B, B + 1), repeat=4)
+             if P[0] * P[3] - P[1] * P[2] in (1, -1) and conj_eq(P)]
+    assert found == [], f"unexpected conjugator {found[:1]}"
