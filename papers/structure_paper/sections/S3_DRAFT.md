@@ -66,6 +66,17 @@ arithmetic, with a can-fail control asserting that the silver slope `a = 2`
 exists in `tests/test_b176_golden_privilege.py` (in floating point) and
 `tests/test_b179_metallic_numbers_unified.py`.)*
 
+**The setting is classical and we name its modern reference explicitly.** The
+correspondence this section runs on — Sturmian and Christoffel words, continued
+fractions, and the Markoff/Lagrange theory — is the subject of Reutenauer's
+monograph *From Christoffel Words to Markoff Numbers* (Oxford, 2019), whose Part I
+is the classical Markoff theory and whose Part II covers finite Sturmian words, the
+free group on two generators, Christoffel bases, Nielsen's criterion, **Sturmian
+morphisms and positive automorphisms**. The link between Christoffel words and
+Markoff theory goes back to Frobenius (1913). **Nothing in §3.1 or §3.2 is offered
+as new**; what is ours is the use made of them — applying the minimality principle
+to its own parameter, which is a modelling step, not a theorem.
+
 ### 3.3 Geometrization and orientation (C4, C5)
 
 The two declarations of §2.2 now apply and produce a surface bundle.

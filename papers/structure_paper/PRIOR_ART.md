@@ -120,6 +120,52 @@ all**. That is not a defect in the theorem — B997 quantifies over **grammars**
 
 ---
 
+## 2.5 The adversarial read (2026-08-15) — and it moved the frame
+
+Run against §5.4 and §3, with the registry's own `T-UNIQ` warning as the first item.
+**It changed which literature the entrance claim has to be defended against.**
+
+> ## **The nearest prior art is not the icosahedron/`E₈` literature. It is the
+> Christoffel/Sturmian-morphism literature.**
+>
+> The metallic grammars `RᵐLᵐ` **are Sturmian morphisms**, hence positive
+> automorphisms of `F₂` — and that is precisely the subject of Part II of Reutenauer,
+> *From Christoffel Words to Markoff Numbers* (Oxford, 2019): finite Sturmian words,
+> the free group on two generators, Christoffel bases, Nielsen's criterion, Sturmian
+> morphisms, positive automorphisms. Part I is the classical Markoff theory, and the
+> Christoffel↔Markoff link goes back to **Frobenius (1913)**.
+>
+> **§3's entire apparatus is the subject of a 2019 Oxford monograph**, and the drafts
+> cited it nowhere. A referee in this area knows that book on sight. Now cited in
+> §3 and in the built paper, with an explicit *"nothing in this section is offered
+> as new."*
+
+**The `T-UNIQ` warning, resolved for this paper.** The registry flags that the
+`(1,2)` instance of `tr[A_m,A_n] = 2 − (mn(n−m))²` is **verbatim in Reutenauer**.
+Checked: **this paper does not make that claim** — §3 uses `M = [[2,1],[1,1]]` and
+Thurston/Riley, not the commutator-trace parametrization. **The warning bites a
+different programme claim, not the paper.** Recorded so the next writer does not
+re-import it.
+
+**The residue, and it is deliberately left open rather than cleared:**
+
+| source | status |
+|---|---|
+| Reutenauer 2019 (monograph) | **RESOLVED** and now cited |
+| `Christoffel Matrices and Sturmian Determinants`, arXiv:2409.09824 (2024) | ## **PARTIALLY-OPENED — abstract only. NOT CLEARED.** |
+
+That 2024 paper attaches matrices to Christoffel words, shows they have a **group
+structure**, computes their **determinants**, and relates them to the **Zolotareff
+symbol** — itself a mod-`n` object. Its abstract mentions no `SL(2,ℤ/N)`, no
+congruence image, no McKay. ## **But an abstract is not a clearance, and judging
+adjacent work from a summary is exactly how P5 died. The full PDF must be read
+before submission.**
+
+**Verdict on the entrance claim: NOT-FOUND, NOT-CLEARED.** The searches located the
+right neighbourhood and did not find the step — *each grammar evaluated at its own
+shadow modulus* — in it. That is recorded as a not-found, with the one unread
+adjacent paper named, rather than as an absence.
+
 ## 3. What remains open
 
 1. ## ✅ **The `T-TWOTEETH` caveat applied to `m²+4` — CHECKED 2026-08-15, and it comes out in
@@ -142,5 +188,8 @@ all**. That is not a defect in the theorem — B997 quantifies over **grammars**
 3. **10 EMPTY rows** in the novelty sweep, `T-MAGIC` among them.
 4. **Seven `STANDARD` entries in `refs.bib`** — bibliographic data from memory, blocking.
 5. **B727's class-consuming step** — the third entrance claim, not yet searched.
+6. ## **arXiv:2409.09824 read in full** — the single highest-value remaining check. It is
+   the nearest thing found to the entrance theorem's shape, and it is currently judged from
+   an abstract.
 
 **None of these is a reason to stop drafting. All of them are reasons not to submit.**
