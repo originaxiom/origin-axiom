@@ -15,13 +15,18 @@ What this test establishes:
   * at root counts 40, 24, 20 and 8 -- dimensions 46, 30, 26 and 14 -- exactly one Levi
     isomorphism type occurs, so the terminus A2+A1 is FORCED by classification and the
     exact computation contributes only the integer 14;
-  * at root counts 12 and 6 -- dimensions 18 and 12 -- two types occur, so the paper
-    does NOT claim a type there.  This test pins the ambiguity so no later draft can
-    quietly assert one;
+  * at root counts 6, 12 and 14 -- dimensions 12, 18 and 20 -- two types occur, so the
+    paper does NOT claim a type at any of them.  This test pins all three so no later
+    draft can quietly assert one.  ## The dim-20 case was MISSED by an earlier draft,
+    which named only 12 and 18, even though the enumeration below had printed both types
+    at 14 roots the whole time -- the claim and its own warrant had drifted apart, which
+    is the failure mode this campaign exists to catch.  It is also the sharpest of the
+    three: A3+A1 has rank 4 and 2A2+A1 has rank 5, so two Levis of DIFFERENT RANK share
+    the centralizer dimension 20;
   * the set of attainable rung dimensions is exactly
-    {6,8,10,12,14,16,18,20,26,28,30,36,46,78}.  Dimensions 22, 24, 32, 34 and 38-44 are
-    IMPOSSIBLE for any rung whatsoever -- a theorem about E6, unlike the non-attainment
-    of 26, which remains a census over measured directions.
+    {6,8,10,12,14,16,18,20,26,28,30,36,46,78}.  Dimensions 22, 24, 32, 34, 38-44 and
+    EVERY value in 47-77 are IMPOSSIBLE for any rung whatsoever -- a theorem about E6,
+    unlike the non-attainment of 26 at real points, which is a census over directions.
 
 Root system and Cartan matrix come from the exact integral Chevalley e6 of B351; no
 floats anywhere.
@@ -120,10 +125,27 @@ def test_the_terminus_is_forced_by_classification_not_by_certificate():
     assert 6 + 8 == 14
 
 
-def test_dimensions_18_and_12_are_genuinely_ambiguous():
-    """The paper must not assign a type here; this pins the ambiguity."""
-    assert TABLE[12] == {"2A2", "A3"}
-    assert TABLE[6] == {"3A1", "A2"}
+def test_dimensions_18_12_AND_20_are_genuinely_ambiguous():
+    """The paper must not assign a type at any of these; this pins all three.
+
+    The 20 case was MISSED by an earlier draft, which named only 12 and 18 -- although
+    this file's own enumeration had printed the two types at 14 roots all along.  It is
+    the sharpest of the three: A3+A1 has rank 4 and 2A2+A1 has rank 5, so two Levis of
+    DIFFERENT RANK share the centralizer dimension 20.  "The dimension pins the type" is
+    therefore false in general and true only where it is invoked.
+    """
+    assert TABLE[12] == {"2A2", "A3"}          # dim 18
+    assert TABLE[6] == {"3A1", "A2"}           # dim 12
+    assert TABLE[14] == {"A1+2A2", "A1+A3"}    # dim 20
+    for nroots in (6, 12, 14):
+        assert len(TABLE[nroots]) == 2
+
+
+def test_the_uniqueness_claims_are_not_accidentally_broader():
+    """Exactly three root counts are ambiguous; every other attained count is unique."""
+    ambiguous = sorted(n for n, t in TABLE.items() if len(t) > 1)
+    assert ambiguous == [6, 12, 14]
+    assert sorted(6 + n for n in ambiguous) == [12, 18, 20]
 
 
 def test_attainable_rung_dimensions_are_exactly_this_set():

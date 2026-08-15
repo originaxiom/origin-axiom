@@ -23,10 +23,17 @@ WHAT THIS ESTABLISHES
   * the two size-2 classes give dim 14, the five size-6 classes give dim 18.  So the
     14-locus is exactly TWO hyperplanes, and they are complex conjugates -- which is
     why B892 found y* non-real and no real 14-point;
-  * ## dimension 26 IS ATTAINED on genuine 2-planes <x1,y>.  B874's addendum sentence
-    "No 26 stratum exists" and "the complete centralizer ladder is {78,46,30,12}" are
-    correct in their stated scope (coordinate subtori and the three enhancement points)
-    but too strong as written.  Relayed, not silently overwritten.
+  * ## dimension 26 IS ATTAINED OVER THE ALGEBRAIC CLOSURE, on genuine 2-planes
+    <x1,y> -- four points, each where one size-2 and two size-6 hyperplanes meet.
+    ## BUT IT IS NOT ATTAINED OVER R: all four are non-real.  The reason is a mechanism,
+    not an accident: four of the seven hyperplanes have non-real normals and fall into
+    two conjugate pairs, so a REAL y lying on one lies on its conjugate too and picks up
+    both classes.  Hence over R the ladder is only {12,16,18} (plus 30, 46 degenerately),
+    and 14, 20, 26 are attained at no real point.  The real shadow of the 14-locus is
+    the 16-stratum.
+    So B874's "No 26 stratum exists" is RIGHT about the real question and wrong only as
+    a statement over the closure.  An earlier draft of this file and of the relay letter
+    said "26 is attained" without the field, which overstated the amendment.
 
 WHY C7's PRICE IS ZERO.  Every point of the 14-locus yields a Levi with 8 roots, and
 A2+A1 is the unique Levi type with 8 roots (test_levi_classification_forces_the_rungs).
@@ -289,6 +296,70 @@ def test_every_attained_dimension_is_a_levi_dimension():
                 seen.add(dim_z([x1, y]))
     assert seen <= LEVI, f"non-Levi dimension attained: {seen - LEVI}"
     assert {14, 18, 26} <= seen
+
+
+def _real_ladder():
+    """Dimensions attainable at REAL points of C, in the basis (x14, x16, x22)."""
+    ts, _ = _walls()
+    x1 = np.array([1, 0, ts[0], 0], dtype=complex)
+    _, cls = _classes(x1)
+    L = [np.array([W[c[0]][1], W[c[0]][2], W[c[0]][3]]) for c in cls]
+
+    def emb(v):
+        return np.array([0, v[0], v[1], v[2]], dtype=complex)
+
+    def real_upto_scale(v):
+        z = v / v[int(np.argmax(np.abs(v)))]
+        return np.max(np.abs(z.imag)) < 1e-6
+
+    seen = set()
+    rng = np.random.default_rng(17)
+    for _ in range(400):
+        seen.add(dim_z([x1, emb(rng.normal(size=3))]))
+    for n in L:
+        if not real_upto_scale(n):
+            continue
+        nul = _null([n])
+        for _ in range(6):
+            v = (nul @ rng.normal(size=nul.shape[1])).real
+            if np.max(np.abs(v)) > 1e-9:
+                seen.add(dim_z([x1, emb(v)]))
+    # the meeting of the two conjugate size-2 lines is real
+    i2 = [i for i, c in enumerate(cls) if len(c) == 2]
+    v = _null([L[i2[0]], L[i2[1]]])[:, 0]
+    return seen, bool(real_upto_scale(v)), dim_z([x1, emb(v)]), L, cls
+
+
+def test_the_seven_lines_have_six_triple_and_three_double_points():
+    """Independently predicted from the root system; reproduced here on the charges."""
+    import itertools as it
+    _, _, _, L, cls = _real_ladder()
+    triples = [c for c in it.combinations(range(7), 3) if _null([L[i] for i in c]).shape[1] >= 1]
+    pairs_in = {p for c in triples for p in it.combinations(c, 2)}
+    assert len(triples) == 6
+    assert len(set(it.combinations(range(7), 2)) - pairs_in) == 3
+
+
+def test_the_real_ladder_omits_14_20_and_26():
+    """The field matters: B874's negative is correct over R."""
+    seen, meet_real, meet_dim, _, _ = _real_ladder()
+    # the conjugate pair of size-2 lines meets at a REAL point, and there the dimension
+    # is 16 -- not 14, because a real point on one lies on both.
+    assert bool(meet_real) and meet_dim == 16
+    attained = set(seen) | {meet_dim}
+    assert 14 not in attained and 20 not in attained and 26 not in attained
+    assert {12, 16, 18} <= attained
+
+
+def test_the_two_size2_lines_are_conjugate_which_is_the_mechanism():
+    ts, _ = _walls()
+    x1 = np.array([1, 0, ts[0], 0], dtype=complex)
+    _, cls = _classes(x1)
+    small = [c for c in cls if len(c) == 2]
+    a, b = W[small[0][0]], W[small[1][0]]
+    a = a / a[int(np.argmax(np.abs(a)))]
+    b = b / b[int(np.argmax(np.abs(b)))]
+    assert np.max(np.abs(a - np.conj(b))) < 1e-6
 
 
 def test_the_numerics_are_certified_by_an_explicit_gap():

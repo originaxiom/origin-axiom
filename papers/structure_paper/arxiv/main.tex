@@ -1022,6 +1022,19 @@ Hence every $x\in C$ equals its semisimple part. An abelian subalgebra of semisi
 elements is toral, and every toral subalgebra lies in a Cartan subalgebra.
 \end{proof}
 
+\begin{scope}[both hypotheses are load-bearing]\label{sc:toralscope}
+The averaging in step~(i) needs $\lvert\Gamma\rvert$ invertible, so the honest hypothesis
+is $\operatorname{char}k\nmid\lvert\Gamma\rvert$; characteristic $0$ supplies it, and
+finiteness alone does not. Over $\mathbb F_3$ the group $\Gamma=\langle
+\Ad\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)\rangle\cong\Z/3$ acts on
+$\sll_2$ with $\sll_2^\Gamma=\langle e\rangle$: abelian, and \textbf{not toral}.
+\textbf{Semisimplicity is equally necessary and cannot be relaxed to reductive by this
+proof}: for $\g=\mathfrak{gl}_3$ with $\Gamma=\Z/3$ cyclically permuting coordinates,
+$\g^\Gamma$ is $3$-dimensional, abelian and in fact toral, yet $\kappa|_{\g^\Gamma}$ has
+corank~$1$, so step~(i) fails outright. The reductive case is true but needs a different
+argument, and we do not use it.
+\end{scope}
+
 \begin{corollary}[the rungs are Levi subalgebras]\label{cor:levi}
 $C$ lies in a Cartan subalgebra $\h\subset\ee_6$, and for any subset $S\subseteq C$
 \[
@@ -1032,6 +1045,17 @@ $\Phi_S=\Phi\cap S^{\perp}$ is the subsystem cut out by a linear subspace, and t
 isomorphism type of $z(S)$ is determined by $\lvert\Phi_S\rvert$ whenever the Levi
 subsystems of $E_6$ with that root count form a single isomorphism class.
 \end{corollary}
+
+\begin{scope}[Levi, not merely closed---and this is load-bearing]\label{sc:pseudolevi}
+$\Phi_S$ is cut out by a \emph{linear subspace}, which makes it a \textbf{Levi}
+subsystem, not merely a closed symmetric one. The distinction is not pedantry:
+Borel--de Siebenthal produces closed subsystems of $E_6$ that are not Levi, and
+\textbf{$4A_1$ is one of them, with exactly $8$ roots}. If ``closed'' were substituted for
+``Levi'' anywhere below, the statement \emph{$8$ roots forces $A_2\oplus A_1$} would be
+false and the terminus would collapse back to a certificate. The pseudo-Levi subsystems
+$4A_1$, $2A_1{+}A_3$, $3A_2$ and $A_1{+}A_5$ carry $8$, $16$, $18$ and $32$ roots
+respectively, and none of them arises as $\Phi\cap V$.
+\end{scope}
 
 \begin{proof}
 $C$ is toral by Lemma~\ref{lem:toral} and $\Gamma=2T$ is finite, so $C\subseteq\h$ for
@@ -1051,8 +1075,13 @@ Enumerating the Levi subsystems of $E_6$ by root count gives
 \]
 and \textbf{each of these four root counts is realized by exactly one Levi type}, so at
 those dimensions the certificate supplies only an integer and the classification does the
-forcing. \textbf{The counts $12$ and $18$ are genuinely ambiguous}---$6$ roots is $A_2$ or
-$3A_1$, and $12$ roots is $A_3$ or $2A_2$---and we do not claim the type there. A referee
+forcing. \textbf{Three dimensions are genuinely ambiguous and we claim no type at any of
+them}: $12$ ($6$ roots: $A_2$ or $3A_1$), $18$ ($12$ roots: $A_3$ or $2A_2$), and
+\textbf{$20$} ($14$ roots: $A_3{+}A_1$ or $2A_2{+}A_1$). The last has the sharper moral,
+because the two candidates have \emph{different ranks}, $4$ and $5$, and still the same
+centralizer dimension---$\sll_4\oplus\sll_2\oplus\mathfrak t^2$ against
+$\sll_3\oplus\sll_3\oplus\sll_2\oplus\mathfrak t$. \textbf{So ``the dimension pins the
+type'' is false in general}, and holds only at the counts where we invoke it. A referee
 who declines to run any computation still obtains the conditional statement \emph{if
 $\dim z=14$ then the type is $A_2\oplus A_1$}, which is a theorem about $E_6$ alone.
 \end{remark}
@@ -1158,6 +1187,24 @@ $\dim(\Sym^{n}\C^2)^{2O}=1$ for $n\in\{8,16\}$ and $0$ for $n\in\{2,10,14,22\}$.
 $\ee_6=\bigoplus_{m}\Sym^{2m}$ over the exponents $m\in\{1,4,5,7,8,11\}$, taking $2O$
 invariants summand by summand yields $\dim\ee_6^{2O}=2$, spanned by $x_8$ and $x_{16}$.
 \end{proof}
+
+\begin{remark}[the signs are a parity, and the invariants are explicit]\label{rem:tparity}
+The eigenvalue computation looks like a Molien accident and is not one. Write
+\[
+   \Phi,\Psi \;=\; x^4\mp2x^3y+2x^2y^2\pm2xy^3+y^4,\qquad
+   W=\Phi\Psi\ (\deg 8),\qquad t=xy(x^4-y^4)\ (\deg 6)
+\]
+for the two tetrahedral quartics, their product, and the octahedral sextic. Then the four
+charges are simply
+\[
+   x_8=W,\qquad x_{14}=t\,W,\qquad x_{16}=W^2,\qquad x_{22}=t\,W^2,
+\]
+and $w$ \textbf{fixes $W$ and negates $t$}. So $\Ad(w)$ acts by $(-1)^{\deg_t}$:
+\textbf{the $\Z/2$ grading of Corollary~\ref{cor:gradfree} is grading by the parity of the
+$t$-exponent}, and $C_0=\langle W,W^2\rangle$, $C_1=\langle tW,tW^2\rangle$. This also
+explains the transvectant computation behind Scope~\ref{sc:abelian}, in which odd-order
+transvectants vanish and even-order ones do not.
+\end{remark}
 
 \begin{corollary}\label{cor:gradfree}
 The decomposition $C=C_0\oplus C_1$ with $C_0=\langle x_8,x_{16}\rangle$ and
@@ -1276,6 +1323,18 @@ three walls. Consequently, as $y$ ranges over \emph{all} of $C$,
 another}, so no real point of $C$ attains it---which is why $y^*$ is not real.
 \end{theorem}
 
+\begin{corollary}[the real ladder is shorter, and by a mechanism]\label{cor:realladder}
+Of the seven hyperplanes, three have real normals and four fall into two conjugate pairs.
+If $y$ is real and lies on a hyperplane with non-real normal $w$, then $\bar w(y)=
+\overline{w(y)}=0$ as well, so $y$ lies on the conjugate hyperplane too and picks up
+\emph{both} classes. Consequently, over $\R$,
+\[
+   \dim z(x_1,y)\ \in\ \{12,\,16,\,18\}\qquad(\text{plus }30,46\text{ degenerately}),
+\]
+and \textbf{the values $14$, $20$ and $26$ are attained at no real point of $C$}. The real
+shadow of the $14$-locus is the $16$-stratum, where the two conjugate hyperplanes meet.
+\end{corollary}
+
 \begin{corollary}[the second plane costs nothing]\label{cor:c7free}
 Every point of the $14$-locus yields a Levi subalgebra with $8$ roots, and by
 Remark~\ref{rem:leviscope} $A_2\oplus A_1$ is the unique Levi type with $8$ roots.
@@ -1287,12 +1346,21 @@ change the terminus}; it can only fail to reach it. The terminus depends on the
 \begin{remark}[a correction we owe the record]\label{rem:26attained}
 Earlier drafts said the dimension $26$ ``is not attained at any coordinate subtorus or
 enhancement point'', and left open whether that was a census or a theorem.
-Theorem~\ref{thm:smtfull} settles it in the direction we did not expect:
-\textbf{$26$ \emph{is} attained}, on genuine two-planes $\langle x_1,y\rangle$, just
-never at a coordinate direction. The $A_4$ Levi is therefore reached somewhere in $C$,
-and the statement ``the second measurement skips $\su(5)$'' is true \emph{of the point
-$y^*$}, not of the charge torus. We state this because the earlier phrasing invited the
-stronger reading.
+Theorem~\ref{thm:smtfull} settles it, and the answer depends on the field, which is
+exactly the distinction the earlier phrasing lacked.
+
+\textbf{Over $\overline K$, $26$ \emph{is} attained}---at four points of $\mathbb P(C/\langle
+x_1\rangle)$, each the meeting of one size-$2$ and two size-$6$ hyperplanes, giving the
+$A_4$ Levi. So over the algebraic closure the second measurement does \emph{not} skip
+$\su(5)$: it passes a stratum where $\su(5)\oplus\uu(1)^2$ occurs.
+
+\textbf{Over $\R$ it is not attained}, by Corollary~\ref{cor:realladder}: all four
+$26$-points are non-real. \textbf{So the banked negative was right about the real
+question and the phrase ``no $26$ stratum exists'' was wrong about the algebraic one},
+and a reader who does not distinguish the two will draw a false conclusion in one
+direction or the other. The same distinction governs the terminus itself, which is why
+Theorem~\ref{thm:smt} is stated over $\overline K$: \textbf{the $A_2\oplus A_1$ point is
+not real either}.
 \end{remark}
 
 \noindent Note that every dimension occurring above lies in the rung spectrum of
@@ -1536,6 +1604,35 @@ $3$-cycle on $\langle x_8,x_{16}\rangle$, handling non-monomial plane actions an
 antilinear case. \textbf{Until then Theorem~\ref{thm:signs} and everything downstream of
 it is conditional}, and we mark it so rather than let a premise travel as a conclusion.
 \end{scope}
+
+\begin{proposition}[the gap is exactly $S_3$, and it cannot be closed inside $C$]\label{prop:gap}
+An automorphism $\sigma$ with $\sigma(C)=C$ satisfies $\ad(\sigma x)=\sigma\,\ad(x)\,\sigma^{-1}$,
+so it permutes the weight spaces and $g=\sigma|_C$ must stabilize the multiset of $78$
+weights of $C$ on $\ee_6$. Among the block-diagonal $g$---block-diagonality being forced
+by the split/compact obstruction above---\textbf{the stabilizer of that multiset has order
+exactly $24$}. It surjects onto the full $S_3$ on the three enhancement lines, and
+\textbf{exactly four of its elements are $\pm$-diagonal}, namely
+\[
+   (+,+,+,+),\quad (+,-,+,-),\quad (-,+,-,+),\quad (-,-,-,-).
+\]
+\end{proposition}
+
+\begin{remark}\label{rem:gapreading}
+Two consequences, in opposite directions.
+
+\emph{It confirms Theorem~\ref{thm:signs} independently.} Those four patterns are exactly
+the four the sign-locking theorem obtains from two degree-six rational trace moments. The
+weight-multiset stabilizer knows nothing of those moments. \textbf{Two unrelated
+computations return the same four patterns}, which is the strongest check the sign-locking
+theorem has.
+
+\emph{And it closes a door.} The $3$-cycle preserves the full weight multiset, so
+\textbf{no invariant of $C$ can exclude it}: Hypothesis~\ref{hyp:diag} is not provable by
+any argument that stays inside the charge torus, and an attempt must work in $\ee_6$
+itself. The hypothesis's gap is thereby measured exactly---candidate group of order $24$,
+asserted image of order $4$, quotient $S_3$ acting on the Galois orbit of $\mu$. We record
+the closed door because it is worth more to a future reader than a further open question.
+\end{remark}
 
 The wall of Theorem~\ref{thm:smt} is complex in the split frame at all three Galois
 roots of $\mu$, and the real form in which it is real is the quaternionic
