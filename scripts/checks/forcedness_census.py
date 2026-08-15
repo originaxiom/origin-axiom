@@ -42,6 +42,14 @@ EXPECTED = {
     "COROLLARY": 1,
     "CENSUS": 1,
 }
+# NOTE 2026-08-15 -- THE PAPER IS NOW STRICTER THAN THIS GATE.
+# This census certifies "no declared choice in C6..C17". The structure paper has
+# since rescoped that: the PRINCIPAL PLACEMENT of 2T inside a chosen sl2 conjugacy
+# class of e6 is a declared choice (C4), made between the manifold and the algebra,
+# and the paper prices it as an argument from economy rather than a theorem.
+# The chain ledger does not carry that step as a link, so this gate cannot see it and
+# still passes. DO NOT read a green census here as certifying the un-amended
+# sentence; the paper's Scope on the principal placement governs.
 EXPECTED_AXIOMS = [3, 4, 5, 18]
 STRETCH = (6, 17)  # the knot .. the algebra's no-gos; e6 and the 27 arrive inside
 

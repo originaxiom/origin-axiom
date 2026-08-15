@@ -37,6 +37,12 @@ def test_v2_no_exhibit_adjudicated():
                "PROGRESS_LOG.md", "docs/CAMPAIGN_STATUS.md", "docs/TERMINOLOGY.md",
                "TERMINOLOGY.md", "frontier/B1034_l154_sigma/FINDINGS.md",
                "docs/OPEN_LEADS.md",  # the lead's own disposition note (B1034 self-echo)
+               # The structure paper's TERMINOLOGY POLICY is the document that FORBIDS
+               # the bare symbol `c`; its TIER-3 row necessarily lists all four
+               # referents, including c((E6)_1) and c_BH. Naming a collision in order
+               # to ban it is the opposite of a drive-by mention -- the same
+               # self-reference the terminology checker itself has to exempt.
+               "papers/structure_paper/TERMINOLOGY_POLICY.md",
                # the SEALED SUCCESSOR CELL (2026-08-13): B1064 is the L154
                # re-pose itself — the one arc entitled to discuss the pairing;
                # the lock still bars drive-by mentions everywhere else:
