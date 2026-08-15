@@ -97,16 +97,44 @@ proceeds by splitting them is wrong at this step.
 
 ### 5.3 The exceptional algebras arrive at the two geometric ends
 
-> **Theorem 5.3.** The figure-eight complement's **dual McKay pair `E₆ + E₈`** is
-> realized as the **hyperbolic end** `(ℚ(√−3), 2T)` and the **spherical end**
-> `(ℚ(√5), 2I)` of a **single cone-manifold geometric transition**. *(D1c; B248,
-> B981; `tests/test_b248_e6_e8_geometric_transition.py`,
+**The deformation itself is classical, and we claim none of it.** The figure-eight
+complement's cone-manifold family — hyperbolic for cone angle `α < 2π/3`, **Euclidean
+exactly at `α = 2π/3`**, spherical beyond — is due to Thurston, with the figure-eight
+cone manifolds worked out by Hilden–Lozano–Montesinos and the degenerations by
+Hodgson and Porti. A reader who knows that literature should recognise every
+geometric statement in this subsection as theirs.
+
+What we add is **which arithmetic sits at each end**.
+
+> **Theorem 5.3.** Along that transition, the **hyperbolic end** carries
+> `(ℚ(√−3), 2T)` and the **spherical end** carries `(ℚ(√5), 2I)` — so the
+> object's **dual McKay pair `E₆ + E₈`** is realized as the two stable geometries
+> of a *single* object, separated by the Euclidean wall, rather than as two
+> unrelated faces.
+>
+> Concretely at the spherical end: the double cover is the lens space
+> `L(5,2) = S³/ℤ₅`, and its `|H₁| = det(4₁) = 5` — **the `5` of that end is the knot
+> determinant.** The corresponding representation is a genuine non-abelian `SU(2)`
+> rep, with all word-traces real in `[−2,2]` and `tr(ab) = φ`.
+>
+> *(D1c; B248, B981; `tests/test_b248_e6_e8_geometric_transition.py`,
 > `tests/test_b981_two_ended.py`.)*
 
 The two exceptional algebras are therefore not selected and not assumed: they are
 the **McKay images of the two binary polyhedral groups sitting at the two ends of
 one deformation of the object**, one end carrying the field bought in §2.2 (C4)
-and the other the fiber field of §4.1.
+and the other the fiber field of §4.1. The prior reading had `ℚ(√−3)` from the
+geometry and `ℚ(√5)` from the bundle monodromy — *different* objects; the content
+here is that **both arise as geometries on `4₁` itself**, as two distinguished
+points of one character-variety curve.
+
+**A firewall, carried from the source arc rather than added here.** `E₆` and `E₈`
+in this subsection are **Arnold-trinity / McKay labels**, not gauge groups, and
+nothing in §§5–8 upgrades them. The construction that would have broken `E₆` by the
+geometric holonomy **fails**, because the `E₆`-selecting connection (hyperbolic,
+`SL(2,ℂ)`) and a breaking `SU(2)` connection are different points of the variety —
+and that very distinctness is what makes the present statement clean. **The split
+that kills the physics bridge is the mathematical content.**
 
 ### 5.4 The entrance is where the uniqueness lives
 

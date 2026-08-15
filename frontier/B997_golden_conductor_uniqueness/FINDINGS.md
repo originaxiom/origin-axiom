@@ -29,9 +29,24 @@ end, after B996's first attempt tested the wrong side.
 
 > **|SL(2,ℤ/N)| ≥ 0.6079·N³, which exceeds 120 for every N ≥ 6.**
 
-Hence no N ≥ 6 can carry a McKay order, and {3,4,5} is complete. *(Note the coincidence worth its
-own line: those three N are exactly the three exceptional McKay groups — 2T, 2O, 2I — i.e. E₆, E₇,
-E₈, the whole exceptional series and nothing else.)*
+Hence no N ≥ 6 can carry a McKay order, and {3,4,5} is complete.
+
+> ⚠ **CORRECTION 2026-08-15 (cc3, `61ddb1f5`).** This paragraph originally continued: *"those
+> three N are exactly the three exceptional McKay groups — 2T, 2O, 2I — i.e. E₆, E₇, E₈,
+> ~~the whole exceptional series~~ and nothing else."* **That clause is false at N = 4 and is
+> retracted** (registry row 10). The ORDER statement above is untouched and correct. But
+> `SL(2,ℤ/4)` is **not** `2O`: it has **seven** elements of order 2, where every finite subgroup
+> of `SU(2)` has exactly **one** (the centre `−I`), and it has no element of order 8 while `2O`
+> does. The order `48` is a coincidence. This confirms **B207** (2026-06-25), which banked
+> *"E₇ = 2O never occurs (|2O| = 48 is no |SL(2,𝔽_p)|)"* at prime level — B207's argument does
+> not reach `ℤ/4`, which is not a prime field, so the two statements are complementary.
+> `SL(2,ℤ/3) ≅ 2T` and `SL(2,ℤ/5) ≅ 2I` are the classical isomorphisms and stand.
+>
+> **The uniqueness conclusion is UNAFFECTED**, and is cleaner: the golden lands at
+> `conductor(1) = 5` and `SL(2,ℤ/5)` **is** genuinely `2I`, so the one grammar that lands, lands
+> on a real McKay **group** rather than on a matching number. Demanding a genuine group drops
+> `N = 4` from the target set — and `m²+4 = 4` forced the degenerate `m = 0` anyway, so no
+> metallic word was ever there to lose. Lock: `tests/test_b997_golden_conductor_uniqueness.py`.
 
 ### (2) The metallic conductor
 
