@@ -510,22 +510,186 @@ script.
 
 ---
 
+## ROUND 3 — the repo search, run under WORKING_RULES §0
+
+> *"'We lack X' is a HYPOTHESIS REQUIRING A SEARCH, never a conclusion."*
+
+Before recommending that the paper concede F1 and cut §10.3, I searched the bank for material
+that would close the blockers upward instead. **Four of the six blockers have a third way, and
+three of them are strengthenings rather than repairs.** The recommendation on F1 flips.
+
+### T1 — F1 CLOSES UPWARD. B210 has the missing implication, with a mechanism.
+
+`frontier/B210_dual_mckay_hyperbolic/FINDINGS.md` contains exactly the step the paper does not
+state:
+
+> *"**The mod-3 → E₆ step is VERIFIED, not asserted.** The figure-eight discrete-faithful Riley
+> parameter is `u = ω` (the cube root of unity, `ω²+ω+1=0`). It is a **unit**, so mod `(√−3)` it
+> reduces to a nonzero element (`ω↦1`, `−ω↦2`), and the two parabolics `A=[[1,1],[0,1]]`,
+> `B=[[1,0],[2,1]]` **generate all of `SL(2,𝔽₃)=2T`** (order 24, verified) — the figure-eight
+> group **surjects** onto `2T=E₆`."*
+
+That is `ℚ(√−3) ⟹ 2T` as an implication about **this manifold**, obtained by reducing its
+holonomy modulo the ramified prime. It consumes the figure-eight's arithmetic — the trace field,
+the Riley parameter, the parabolic generators — and it is the step §7.3 claims to be making and
+isn't.
+
+It also carries a **mechanism**, which is more than the paper currently claims anywhere:
+
+> *"the figure-eight is **two regular ideal tetrahedra** (both shapes `e^{iπ/3}`, `z²−z+1=0 →
+> ℚ(√−3)`), so the **tetrahedral** field gives the **tetrahedral** McKay group `2T=E₆` — not a
+> numerical accident. (Silver is octahedral, shape `i → ℚ(i)`.)"*
+
+**Consequences, all in the strengthening direction:**
+
+1. **F1 is repaired by option (a), not (b).** Insert the reduction as a numbered proposition
+   *before* Theorem 7.7. Theorem 7.7 then does the job it is actually fit for — narrowing the
+   candidate set — and the arithmetic-consuming step exists. §7.3's opening sentence becomes true.
+   §1.3's census becomes coherent: the reduction consumes the arithmetic, the classification is
+   the entrance, and they are genuinely two steps.
+2. **m8 is discharged.** Scope 7.2's unsupported *"π₁(4₁) ↠ 2T is a genuine group surjection"* is
+   proved here, with the generators exhibited.
+3. **R8 / Theorem 7.1 is repaired rather than reworded.** B210 states the asymmetry exactly and
+   for a reason: mod 3 on the **holonomy** is a genuine surjection; mod 5 on the **monodromy**
+   gives `2I` only as the ambient group (the paper's own Scope 5.12), and B210 adds the
+   independent negative that *"the WRT modular-rep image at the golden level is **not** `2I` — the
+   quantum face and the congruence shadow connect only arithmetically, not as a group."* So the
+   two ends differ by a stated mechanism, not by a hedge.
+4. B210 also carries the `E₇` exclusion in the paper's own form — *"`|2O|=48` is no
+   `|SL(2,𝔽_p)|`"* — which is Proposition 5.10's prime-level clause, independently banked.
+
+**This is the single most valuable thing the search found.** It converts the paper's weakest joint
+into a proved link with a geometric explanation.
+
+### T2 — the amphichirality "iff" is provable and sourced; Scope 11.2's withdrawal is a retrieval failure
+
+Scope 11.2 withdraws the biconditional saying *"we found no source we had opened that states it in
+the form we needed."* The source is in the bank, twice, with the proof written out:
+
+- `frontier/B134_chirality_recursion_proved/` — **Goodman–Heard–Hodgson 2008, arXiv:0801.4815**
+  (*Commensurators of cusped hyperbolic manifolds*): a once-punctured-torus bundle is amphichiral
+  ⟺ its L/R monodromy word is **anti-palindromic** (`reverse(W) = swap_{L↔R}(W)` cyclically).
+  B134 derives the metallic corollary — amphichiral ⟺ the block-length sequence is a cyclic
+  palindrome — and verifies it exhaustively over 5460 sequences plus 16/16 SnapPy agreement.
+- `frontier/B136_general_amphichirality/` — the general block-pair form, 7380 cases, plus
+  non-metallic SnapPy controls.
+
+So the abstract's *"Amphichirality is an **iff** condition on the word"* is **true, citable and
+four lines long**. Restore it, cite GHH 2008, and delete Scope 11.2's withdrawal. This is the
+error class WORKING_RULES §0 names: an instrument's blindness mistaken for the object's absence.
+
+### T3 — the CS half stays corrected, but an apology becomes a theorem plus a witness
+
+`frontier/B152_cs_amphichirality_census/` scans 240 census manifolds under the **correct** test
+(`symmetry_group().is_amphicheiral()` gated on `is_full_group()` — B128 records that naive
+`is_isometric_to(mirror)` is orientation-blind and false-positives on known-chiral knots):
+
+- 7 amphichiral, **0 violations** of *amphichiral ⟹ CS 2-torsion*;
+- **three amphichiral manifolds sit at `CS = ¼`** — `m003`, `m135`, `m207`;
+- one chiral manifold at `CS = 0` (`m208`), so the converse fails too.
+
+So the family-wide claim really is `2CS ≡ 0` and **cannot** be upgraded by symmetry — and now
+there is an explicit witness that the `¼` branch is attained. That is a *sharpness* result, not a
+retreat, and it replaces Scope 11.4's apology with content.
+
+**And a fact the paper does not have.** The census gives `CS = 0` for **both** metallic members it
+covers: `m004 = M₁` and **`m136 = M₂`, the silver** (`5.6e−17`). Corollary 11.3 currently says
+`CS = 0` for `M₁` alone. The honest upgrade is: *`2CS ≡ 0` throughout the family, sharply (witness
+`m003`); `CS = 0` verified for `M₁` and `M₂`.* Two members is not a family, and saying so is
+cheaper than the current phrasing and stronger.
+
+### T4 — three declared reproducibility gaps are table omissions, not absences
+
+**(i) Scope 8.2's bracket — the paper's self-declared "sharpest outstanding defect" — has a
+script.** `frontier/B854_centralizer_exact/e6_centralizer.py` builds the E6 Chevalley algebra from
+the Cartan matrix **over ℚ with `fractions.Fraction`**, constructs the principal `sl₂` and the four
+`2T`-invariants, verifies Jacobi / dimension / Killing rank *before* using the algebra, and records
+the exact result the paper asserts — *"all six brackets vanish identically. The centralizer is
+ABELIAN — u(1)⁴"* — together with the transvectant reduction Scope 8.2 cites (*"odd order
+vanishes, even order does not"*) and the reason it collapses to the single bracket `[x₁₄,x₂₂]`.
+Its imports are the standard library plus sympy. **That makes it a block-(a) candidate, not even
+block (b).** M11 and §9.2's "sharpest outstanding defect" both dissolve.
+
+**(ii) Theorem 10.3's signature has scripts.** `frontier/B907_real_form_selector/` carries
+`real_form_selector.py`, `completeness.py`, `completeness_verify.py`, `selector_complete.py`,
+`selector_verdict.py` and their result JSONs. Scope 12.2's *"Theorems 10.2, 10.3 and 10.10 have no
+script in either block"* and §12.3's *"no self-contained script in Appendix B"* are statements
+about the paper's own table, which omits artifacts that exist.
+
+**(iii) Theorem 7.7 still has nothing.** I could not locate a certificate for the
+27-with-invariant-cubic classification. **M5 stands, and it is now the only genuine
+reproducibility gap in §§7–9.**
+
+### T5 — Appendix B's table needs an audit before submission
+
+Of the sixteen artifacts Appendix B names, **eleven are not present in this repository**, including
+**all five of block (a) and the `verify/verify_all.py` runner** — the block a referee is told can
+be run "from the arXiv tarball alone." Present: `test_b125_snappy_arithmeticity.py`,
+`test_b92_metallic_classification.py`, `test_b1011_mckay_tensor.py`,
+`test_b136_general_amphichirality.py`, `test_b307_totally_real_obstruction.py`.
+
+The paper's `.tex` source is not in this repository either, so block (a) may live beside it in an
+uncommitted tree. **This is a "confirm before submission", not a finding** — but Appendix B's own
+standard is *"a manuscript that promises runnable verification and supplies only a description does
+not meet its own standard"*, so it is the one row that must be checked by hand.
+
+### T6 — M4 disappears on a better route; M3 becomes an explicit trade
+
+`frontier/B125_snappy_arithmeticity/` cites the criterion with a theorem number the paper does not
+use: **Maclachlan–Reid, *The Arithmetic of Hyperbolic 3-Manifolds*, Thm 8.3.2** (non-cocompact) —
+a finite-covolume non-cocompact Kleinian group is arithmetic ⟺ its invariant trace field is
+imaginary quadratic **and** every trace is an algebraic integer.
+
+Routed through 8.3.2, the argument becomes: for `m ≥ 3` the invariant trace field has degree ≥ 4,
+hence is not imaginary quadratic, hence `M_m` is not arithmetic. **M4 vanishes entirely** — no
+commensurability class list, no "hence powers of the three words", no invalid inference.
+
+The cost is explicit and should be stated as a choice: 8.3.2 gives an airtight argument over a
+**computed** range (B125 covers `m = 1…6`, the paper `m ≤ 10`), whereas the BMR route claims the
+unbounded tail and carries M3's gap. My recommendation: take 8.3.2, state the tail as verified for
+`m ≤ 10`, and cite BMR only for the finiteness it actually supplies. A bounded claim that is
+proved beats an unbounded one that is asserted — which is Remark 5.17's own standard.
+
+### What the search did not find
+
+F2 is only **half** closed. `frontier/B928_d2_decode/` defines `D₂ = ±ρ₂₇(σ_{χ₋})`, the shift
+vector `a* = (1,0,1,0,1,1) = s(χ₋)`, `φ* = τ∘φ₊∘φ₋ = φ₊∘σ_{χ₋}`, `H₊`, and the 128-member census —
+so **five of the six undefined objects of Theorem 10.10 have definitions in the bank**, and §10.3
+can be repaired by importing them rather than cut. B928 also confirms M8 independently: the
+characters are `(−1)^{⟨a,w⟩}` with `a` in the **weight lattice** (rank 6), not the four-dimensional
+charge space, so "charge lattice" is the wrong name and the repo has the right one. What I did not
+find is `D` itself, the fourth member of the Klein four-group in clause (iii). One symbol, and it
+is presumably the first wall's diagonal — but the paper must name it.
+
+---
+
 ## Priority for the author
 
-1. **R1** — the abstract, Cor 11.3's closing clause, Scope 11.4, §11.1's heading and the §12.1
-   audit row. Family-wide is `2CS ≡ 0`; `CS = 0` is `M₁` alone; amphichirality is not an iff.
-   Cheapest fix in the paper and the one a referee will find first, because it is in the abstract.
-2. **F1** — decide whether `ℚ(√−3) ⟹ 2T` is a theorem or a stipulation, and rewrite §1.3, §7.3
-   and the title accordingly. Everything else is downstream of this decision.
-3. **F2** — define the six objects of §10.3 or cut it.
-4. **R2** — delete "the second plane is free" from Scope 9.19(ii) and from the §9.2 table. Both
-   forcedness tables currently carry a retracted claim.
-5. **M3 / M4** — pin the exact statement of [4] being invoked, or restate the arithmeticity tail
-   as verified for m ≤ 10. M4 is a logical gap and holds whatever [4] says.
-6. **M7 / M6 / m1 / m2** — one pass over the ledger: nine rows, a tenth for the second plane,
-   consistent tags at the point of use.
-7. **E1 / R4** — two short paragraphs; between them they remove the sharpest concession in §4 and
-   make Scope 4.7 self-contained.
+*(revised after Round 3 — four blockers now close upward rather than by concession)*
+
+1. **T1 / F1** — insert the mod-3 reduction (B210) as a numbered proposition before Theorem 7.7,
+   with the two-ideal-tetrahedra mechanism. This makes §7.3's opening sentence true, makes §1.3's
+   census coherent, discharges m8, repairs Theorem 7.1's asymmetry, and lets the title keep
+   "chain". Everything else in §7 is downstream of it.
+2. **T2 / R1a** — restore the amphichirality "iff", cite Goodman–Heard–Hodgson 2008
+   (arXiv:0801.4815), delete Scope 11.2's withdrawal.
+3. **T3 / R1b** — the CS half stays corrected but gains content: `2CS ≡ 0` family-wide and
+   **sharp**, with `m003` the witness that `¼` is attained; `CS = 0` verified for `M₁` **and `M₂`**.
+   Fix the abstract, Cor 11.3's closing clause, Scope 11.4, §11.1's heading and the §12.1 row.
+4. **T4 / M11** — list `B854/e6_centralizer.py` (block **a** — it is exact over ℚ and imports only
+   stdlib + sympy) and `B907_real_form_selector/` (block b). Two rows, and the paper's
+   self-declared sharpest defect and its weakest §10 warrant both disappear.
+5. **T6 / M3 / M4** — route the arithmeticity tail through Maclachlan–Reid Thm 8.3.2, state it as
+   verified for `m ≤ 10`, cite BMR only for finiteness. M4 vanishes.
+6. **F2** — import the five definitions from B928 and name `D`. Cutting §10.3 is no longer the
+   cheapest option.
+7. **T5** — hand-audit Appendix B: eleven of sixteen named artifacts, including all of block (a)
+   and the runner, are not in this repository. Confirm they ship with the source.
+8. **M5** — Theorem 7.7 is now the only genuine reproducibility gap in §§7–9. It needs a proof, a
+   character table, or a script.
+9. **R2 / M7 / M6 / m1 / m2** — one pass over the ledger and both forcedness tables.
+10. **E1 / R4** — two short paragraphs; between them they remove the sharpest concession in §4 and
+    make Scope 4.7 self-contained.
 
 The paper is right that it should be judged on §5, and §5 survives scrutiny intact. It is also
 right that the cost claim is the thesis; that is precisely why the ledger defects are not
