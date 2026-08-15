@@ -120,9 +120,31 @@ What we add is **which arithmetic sits at each end**.
 > *(D1c; B248, B981; `tests/test_b248_e6_e8_geometric_transition.py`,
 > `tests/test_b981_two_ended.py`.)*
 
+> ## **Scope 5.3′ — the two ends are NOT symmetric, and the asymmetry runs against
+> the direction a reader will assume.** At the hyperbolic end the object really
+> does surject onto the binary polyhedral group: `π₁(4₁) ↠ 2T` is a genuine
+> **group** surjection, with exactly two such quotients. **At the spherical end
+> there is no surjection at all** — `π₁(4₁)` does **not** surject onto `2I`, nor
+> onto `A₅`. So the `E₈` end is **field-level only** (`det = 5`, `ℚ(√5)`), and the
+> two ramified-prime reductions are symmetric **as fields but not as group
+> surjections**.
+>
+> *(The statement about `π₁(4₁)` is established by direct computation — GAP
+> `GQuotients` gives `2T → 2`, `A₅ → 0`, `2I → 0` — banked as the B266 correction.
+> Stuebner, arXiv:2502.06488, is cited as **context**: it studies binary
+> icosahedral and `A₅` representations of hyperbolic integral homology spheres,
+> and does not treat this knot specifically.)*
+
+**We state this beside the theorem rather than in a limitations section**, because
+a reader who takes "the two ends carry `2T` and `2I`" to mean two group-level
+presences has been misled by the symmetry of the phrasing, and would be right to
+distrust what follows. The symmetry is real at the level of *fields*; it is false
+at the level of *quotients*.
+
 The two exceptional algebras are therefore not selected and not assumed: they are
 the **McKay images of the two binary polyhedral groups sitting at the two ends of
-one deformation of the object**, one end carrying the field bought in §2.2 (C4)
+one deformation of the object** — with the asymmetry above understood — one end
+carrying the field bought in §2.2 (C4)
 and the other the fiber field of §4.1. The prior reading had `ℚ(√−3)` from the
 geometry and `ℚ(√5)` from the bundle monodromy — *different* objects; the content
 here is that **both arise as geometries on `4₁` itself**, as two distinguished
@@ -185,7 +207,13 @@ bare noun.)*
 **Three scope notes, stated with the theorem rather than after it.**
 
 **First**, the uniqueness is proved *at the `E₈` end*; the corresponding statement at
-the `E₆` end is **not** claimed — that arrival remains class-level.
+the `E₆` end is **not** claimed — that arrival remains class-level. **And by Scope 5.3′
+the `E₈`-end object is not a quotient of the knot group at all.** This is not a
+weakness of the theorem but a statement of what it is about: B997 quantifies over
+**grammars** `RᵐLᵐ` and over `SL(2,ℤ/N)`, *not* over manifolds and not over
+`π₁(4₁)`. The shadow whose uniqueness is proved is the **grammar's**, and the
+paper must not let the surrounding discussion of the manifold blur that. The two
+statements are compatible precisely because they quantify over different things.
 
 **Second**, the reader should not be told that the moduli `N ∈ {3,4,5}` realize *the
 whole exceptional series*. They do not. `SL(2,ℤ/3) ≅ 2T` and `SL(2,ℤ/5) ≅ 2I` are the

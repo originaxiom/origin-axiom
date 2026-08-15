@@ -55,6 +55,21 @@ Two things, and we address both where they arise rather than in a discussion sec
 3-manifold in three, and five of seven grammars in the relevant family, arrive at it.
 **Arrival there is therefore not evidence.** What is not generic is the *entrance* — §5.4.
 
+We can be quantitative about this rather than rhetorical, because the question was settled by
+enumeration. Typing each step of the descent by what it actually consumes gives:
+
+> **Census 1.3.** Of the **20** steps below the entrance, **`0` consume the manifold's
+> fundamental group**, **18 are standard algebra** downstream of the McKay assignment, and
+> **exactly `1` consumes the arithmetic** — the entry itself, where the Kleinian trace field
+> selects *which* McKay group. None is undecidable.
+>
+> *(B1044; `tests/test_b1044_gamma.py`. The 18 carry declared input riders, listed in §9.5.)*
+
+**So the paper's structure mirrors a measured fact.** Everything after the entrance is
+exceptional-algebra theory that a reader can check against the standard references (§7), and
+**the single step where this object's arithmetic does work is the one §5 is about.** A reader
+who wants to attack the paper should attack that step; attacking the cascade attacks Slansky.
+
 **Second**, the cost claim is a claim about what entered the computations, and the reader
 cannot check that by reading prose. **Appendix B supplies one runnable verification per
 numerical claim**, and every claim in the body carries a pointer to the computation that

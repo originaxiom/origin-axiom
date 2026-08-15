@@ -148,7 +148,11 @@ def check():
                 for b in S1_BOLD_RE.findall(line):
                     if FRAMING_CUES.search(b) or not FACTUAL_CUES.search(b):
                         continue
-                    ctx = "".join(lines[max(0, i - 2):i + 3])
+                    # The citation for a Section-1 assertion is often the trailing
+                    # *(arc; lock)* line of the blockquote that follows it, several
+                    # lines down. A +-2 window is too tight and produced a false
+                    # positive on the B1044 census.
+                    ctx = "".join(lines[max(0, i - 3):i + 9])
                     if not (ARC_RE.search(ctx) or LOCK_RE.search(ctx)
                             or ROW_RE.search(ctx)):
                         claims_seen += 1
