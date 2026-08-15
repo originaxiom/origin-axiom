@@ -650,8 +650,31 @@ for Theorem~\ref{thm:shadow} to have content. \textbf{So exceptionality is an in
 this classification and not an output of it}, and the honest reading of
 Theorem~\ref{thm:classify} is: \emph{given} that the entrance is to be exceptional, the
 $27$-with-invariant-cubic condition leaves only $A_4$ and $2T$, and only $2T$ is binary.
-Closing the gap---deriving exceptionality rather than assuming it---is the single most
-valuable open problem this paper leaves.
+\textbf{We closed the one route that looked available, and it fails.} The natural
+candidate criterion is \emph{chirality-capability}: among the exceptional series the
+fundamental representations are $7$ (real) for $G_2$, $26$ (real) for $F_4$, $\mathbf{27}$
+(\textbf{complex}) for $E_6$, $56$ (pseudoreal) for $E_7$ and $248$ (real) for $E_8$---so
+within that series, complexity isolates $E_6$ exactly. \textbf{Extended to the full McKay
+list it does not.} A simple Lie algebra has complex representations precisely when
+$-w_0\neq\mathrm{id}$, i.e.\ when $-1\notin W$; computing the Weyl group directly gives
+\[
+  \begin{array}{lccc}
+   & |W| & -1\in W? & \text{complex reps?}\\
+  A_1=\su(2) & 2 & \text{yes} & \text{no}\\
+  A_2=\su(3) & 6 & \text{no} & \textbf{yes}\\
+  A_3=\su(4) & 24 & \text{no} & \textbf{yes}\\
+  D_4=\so(8) & 192 & \text{yes} & \text{no}\\
+  D_5=\so(10) & 1920 & \text{no} & \textbf{yes}
+  \end{array}
+\]
+so the criterion selects $\{A_n:n\ge2\}\cup\{D_n:n\text{ odd}\}\cup\{E_6\}$. \textbf{Every
+cyclic subgroup of $\SU(2)$ of order at least three is chirality-capable}, and cyclic
+subgroups are McKay images of type $A$. \textbf{So complexity of the fundamental does not
+isolate $E_6$ among admissible entrances, and exceptionality is not derivable this way.}
+
+We record this as a \emph{closed} door rather than an open problem: the obvious route has
+been tried and does not work, so a derivation of exceptionality---if one exists---must use
+something other than chirality-capability.
 \end{scope}
 
 \subsection{An unpriced step, now priced: why the principal $\sll_2$?}\label{sec:principal}
