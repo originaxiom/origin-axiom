@@ -11,7 +11,7 @@ what gets ticked at upload time.*
 > **Dritëro Mehmetaj**
 > *Independent Researcher*
 
-- **Contact email:** *(needed at upload — not recorded here)*
+- **Contact email:** `driteroi@gmail.com` *(supplied 2026-08-15; set in the source's `\email{}`)*
 - **ORCID:** *(optional; supply if held)*
 
 ## 2. Title — ## PROPOSED (option 4, genesis-first)
@@ -81,7 +81,7 @@ expert reader the paper needs before submission, and solving it once solves both
 
 ## Upload checklist (ticked at submission, not before)
 
-- [ ] author block complete, ## **contact email supplied** *(the one blocking field)*
+- [x] author block complete, **contact email supplied** — `driteroi@gmail.com`
 - [x] title final — set in `arxiv/main.tex`
 - [ ] abstract pasted as plain text (no LaTeX macros) — abstract written; paste at upload
 - [x] primary + cross-list categories set (§3 above; `\subjclass` in the source)
