@@ -18,7 +18,7 @@ matters.
 """
 
 from fractions import Fraction
-from sympy import primefactors
+from sympy import primefactors, factorint
 
 
 # --------------------------------------------------------------------------
@@ -271,6 +271,56 @@ def test_uniqueness_over_the_whole_family():
     for m in range(2, 5000):
         assert conductor(m) >= 6, m
         assert sl2_order(conductor(m)) > 120, m
+
+
+def test_the_filter_is_finer_than_the_field_discharging_the_registry_caveat():
+    """Discharges THEOREM_REGISTRY's T-TWOTEETH caveat, applied to m^2+4.
+
+    THE CAVEAT, as the registry states it for the twisted Markov spectrum:
+    "2*sqrt(2) is realized by BOTH det(-1) disc-8 AND non-det(-1) disc-32 forms,
+    so the proof must be about ANTIPALINDROMIC-CF SQUARE-ROOTS, not disc v^2+4."
+    I.e. a discriminant-level filter can CONFLATE distinct objects, because a
+    non-fundamental discriminant carries the same field as a fundamental one.
+
+    B997's filter evaluates each grammar at m^2 + 4 -- literally the same family
+    of discriminants. So the caveat has to be applied here, not waved past.
+
+    APPLIED, AND THE ANSWER IS THE GOOD ONE. The conflation is REAL at the field
+    level: m = 1, 4, 11 all give Q(sqrt 5), since
+
+        1^2+4 = 5,   4^2+4 = 20 = 2^2 * 5,   11^2+4 = 125 = 5^3
+
+    all have squarefree kernel 5. This is the exact analogue of "2*sqrt(2) from
+    both disc 8 and disc 32", and the corpus banked the same fact from the other
+    side (B207: "only E8 (Q(sqrt 5), m = 1, 4, 11) is hit").
+
+    BUT THE GROUP-LEVEL FILTER SEPARATES THEM, which the field-level one cannot:
+
+        |SL(2,Z/5)|   =     120 = |2I|   <- lands
+        |SL(2,Z/20)|  =    5760          <- does not
+        |SL(2,Z/125)| = 1875000          <- does not
+
+    So B997's statement survives precisely BECAUSE it is a statement about the
+    group at the modulus and not about the field of the discriminant. That is
+    also why B993's field-level genericity result does not touch it.
+    """
+    same_field = [1, 4, 11]
+    kernels = []
+    for m in same_field:
+        N = conductor(m)
+        k = 1
+        for p, e in factorint(N).items():
+            if e % 2:
+                k *= p
+        kernels.append(k)
+    assert kernels == [5, 5, 5], kernels        # the conflation is real...
+
+    landing = [m for m in same_field if sl2_order(conductor(m)) in MCKAY_ORDERS]
+    assert landing == [1], landing              # ...and the group filter defeats it
+
+    assert sl2_order(conductor(1)) == 120
+    assert sl2_order(conductor(4)) == 5760
+    assert sl2_order(conductor(11)) == 1875000
 
 
 def test_the_golden_lands_on_2I_the_E8_end():

@@ -821,6 +821,23 @@ def gate_lawmap_scope():
 # live in a row written the same day. This gate sweeps every tracked .md for registered
 # retracted phrases used as LIVE CLAIMS, allowing them as MENTIONS inside retraction
 # records, correction banners and quotations of former claims.
+# The structure paper's headline claims must each resolve to a registry row whose
+# cited lock exists. Calibrated on the Z_6 defect of 2026-08-15: Section 1's headline
+# sentence asserted the global form with NO citation and NO row, while B862 and a green
+# lock had existed for weeks. `path-refs` cannot catch that -- it checks paths that ARE
+# cited; this checks claims that cite NOTHING.
+def gate_paper_claim_registry():
+    """Every headline claim in papers/structure_paper must carry its source."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import paper_claim_registry as pcr
+    except Exception as exc:
+        # FAIL-CLOSED, same reasoning as the retraction sweep.
+        return False, f"paper_claim_registry unimportable: {exc}"
+    probs = pcr.check()
+    return not probs, [f"{f}:{n} {why}" for f, n, why in probs[:5]] or "ok"
+
+
 def gate_retraction_sweep():
     """Registered retracted phrases must not appear as live claims in any tracked .md."""
     sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
@@ -896,6 +913,7 @@ GATES = {
     "seal-provenance": gate_seal_provenance,
     "lawmap-scope": gate_lawmap_scope,
     "retraction-sweep": gate_retraction_sweep,
+    "paper-claim-registry": gate_paper_claim_registry,
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
     "relay-debt": gate_relay_debt,

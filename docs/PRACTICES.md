@@ -422,6 +422,34 @@ claim line when there is a lot to say.
 **Limit.** The gate enforces that an unrepresented arc is *known*, not that it is *rowed*.
 Thirteen arcs currently sit at PENDING — that is a recorded debt, not a discharged one.
 
+## A paper claim must carry its source where it is stated — GATED (`paper-claim-registry`)
+
+**Every headline claim in `papers/structure_paper/` must resolve to a registry row or a lock,
+and every cited lock path must exist.** Blockquoted Theorem/Proposition/Census statements are
+checked directly; §1's bolded factual assertions are checked against their surrounding context.
+
+**The calibration case, kept because a gate without one is a gate nobody trusts.** On
+2026-08-15 the paper's **own headline sentence** asserted the global form
+`[SU(3)×SU(2)×U(1)]/ℤ₆` with **no citation and no registry row, in either registry** —
+while `frontier/B862_global_form` and a green lock had existed for weeks, and `SKELETON.md`
+mentioned `B862`, `ℤ₆` and "global form" **zero times**.
+
+**This is the B950 failure one level downstream.** B950 wrote that the global `ℤ₆` form was
+*"not addressed"*; **B862 derives it**; B978 counted that as one of *"three instances in one day
+of declaring absent what already existed."* The synthesis layer lost the arc, and the paper then
+inherited the loss **in a new shape — not "declared absent" but "asserted without its source"**,
+which is the more dangerous form: **a missing claim looks missing; an uncited one looks
+confident.**
+
+**Why it is a new gate and not a patch to an existing one.** `path-refs` verifies that a cited
+path *resolves* — it cannot see a claim that cites **nothing**. `representation-sweep` runs
+**arc → surface**; this runs **claim → row**, the other direction. `retraction-sweep` polices
+phrases, not sourcing.
+
+**Limit, stated rather than hidden.** The gate recognises claims by *form* (blockquote
+theorem-lines, §1 bolded assertions with factual cues). A claim written as ordinary prose is
+invisible to it. It narrows the surface; it does not close it.
+
 ## Read the code before rebuilding it — MANUAL (a discipline, nine instances in one session)
 
 *(Count updated 2026-08-12: at least three further corpus-level instances this window — B632's walked-and-dissolved cubic re-asked as an open question; B961's frame.py nearly rebuilt; rep27.json nearly re-derived. All three arcs carry double-digit inbound citations: not obscure, unretrieved. Gate-candidate against the atlas.)*

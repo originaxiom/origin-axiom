@@ -25,7 +25,8 @@ The second half is the part we ask the reader to weigh equally. The same constru
 invariant to vanish, and the vanishing deletes the only term in its action that could carry
 a scale. Five predictions derived from the construction were sealed in advance and compared
 against measurement; **all five missed**, and the surface of comparisons the construction
-licenses was subsequently **enumerated and found exhausted**. We state these results in §9
+licenses was subsequently **enumerated and found exhausted** *(registry N5, N6; B1063,
+B1066)*. We state these results in §9
 with the same weight as the positive ones, because a construction that reaches structure
 and cannot reach magnitude is a different object from one that has not yet reached
 magnitude, and only the first is what we claim.

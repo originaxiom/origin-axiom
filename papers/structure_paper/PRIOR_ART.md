@@ -91,9 +91,22 @@ FINDINGS cited all of them; the §5.3 draft had dropped the line and has been co
 
 ## 3. What remains open
 
-1. ## **The `T-TWOTEETH` caveat applied to `m²+4`** — the one that could bite. Does B997's
-   own-shadow-modulus filter have the same discriminant-vs-antipalindromic-CF gap that the
-   registry flags for the twisted Markov spectrum? **Not yet checked.**
+1. ## ✅ **The `T-TWOTEETH` caveat applied to `m²+4` — CHECKED 2026-08-15, and it comes out in
+   the paper's favour.** The conflation the registry warns about is **real at the field level**:
+   `1²+4 = 5`, `4²+4 = 20 = 2²·5`, `11²+4 = 125 = 5³` all have squarefree kernel `5`, so
+   **`m = 1, 4, 11` all give `ℚ(√5)`** — the exact analogue of "`2√2` from both disc 8 and disc
+   32", and independently banked from the other side by B207 (*"only `E₈` (`ℚ(√5)`, m = 1, 4,
+   11) is hit"*). **But the group-level filter separates them**, which a discriminant-level one
+   cannot:
+   ```
+        |SL(2,ℤ/5)|   =     120 = |2I|   ← lands
+        |SL(2,ℤ/20)|  =    5760          ← does not
+        |SL(2,ℤ/125)| = 1875000          ← does not
+   ```
+   **B997 survives precisely because it is a statement about the group at the modulus, not
+   about the field of the discriminant — which is also why B993's field-level genericity does
+   not touch it.** Locked as
+   `test_the_filter_is_finer_than_the_field_discharging_the_registry_caveat`.
 2. **`T-GIES-FAM`, `T-COHN`'s metallic reading, `T-CHAIN`'s framing** — NEEDS-LIT.
 3. **10 EMPTY rows** in the novelty sweep, `T-MAGIC` among them.
 4. **Seven `STANDARD` entries in `refs.bib`** — bibliographic data from memory, blocking.
