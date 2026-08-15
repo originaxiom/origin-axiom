@@ -371,16 +371,161 @@ argument for the size-6 pairs and not for the size-2 pair. Worth one sentence; i
 
 ---
 
+## ROUND 2 — findings adopted from a second hostile pass (2026-08-15)
+
+A second reviewer ran an independent hostile pass on the same 35-page file. Its findings were
+re-checked against the extracted text before adoption. Three are real and were missed above; one
+is a correct independent verification of a step I had confirmed by a different route; two of its
+"resolved" verdicts do not survive.
+
+### R1 [MAJOR, new] — the abstract carries two claims the body explicitly withdraws, and the audit table carries a third
+
+The abstract:
+
+> *"Amphichirality is an **iff** condition on the word, so **the vanishing** of the Chern–Simons
+> invariant is a property of the entire family rather than an accident at m = 1."*
+
+Both halves are withdrawn inside the paper.
+
+- Scope 11.2: *"we withdraw the 'only if' and keep only what the argument uses, which is the easy
+  direction applied to one explicit family."* So amphichirality is **not** an iff condition on the
+  word — by the paper's own sentence.
+- Corollary 11.3: *"an earlier draft wrote 'vanishes' where only '2CS ≡ 0' was earned. The class
+  ¼ is excluded here by computation, not by symmetry."* So the **family-wide** statement is
+  `2CS ≡ 0`, i.e. `CS ∈ {0, ¼}`; `CS = 0` is established for `M₁` alone.
+
+There are five sites, not two, and two of them are inside the machinery that is supposed to catch
+exactly this:
+
+1. the abstract, as quoted;
+2. Corollary 11.3's own closing clause — *"∂S/∂k = −CS ≡ 0"* — which holds on the `CS = 0` branch
+   only, i.e. for `M₁`, one sentence after the corollary establishes two branches;
+3. Scope 11.4: *"its force is that the vanishing is a family phenomenon … not an accident at
+   m = 1"* — which reads clause 2 the family way and so restates the withdrawn claim;
+4. the §12.1 forcedness table, row *"Cor. 11.3, **CS vanishes** — corollary of Thm. 11.1 — what
+   would have to fail: Thm. 11.1; nothing independent"*. The corollary says the opposite: the ¼
+   class is excluded *by computation*, not by Theorem 11.1, so the row's failure condition is
+   wrong as well as its statement;
+5. §11.1's heading, *"Scale-blindness, as a property of the whole family."*
+
+The correct family-wide statement is `2CS ≡ 0`; `CS(M₁) = 0` is a one-member computation. This is
+the single worst defect in the paper's accounting, because the abstract is the one place a
+withdrawn claim cannot be allowed to survive, and because the forcedness audit — the instrument
+whose whole job is to prevent this — reproduces it.
+
+### R2 [upgrade of M7] — Scope 9.19(ii) re-runs the exact argument Scope 9.17 withdrew
+
+I flagged the (C7) mislabel. The sharper defect is that the *reasoning* was already retracted two
+pages earlier.
+
+- Scope 9.17: *"**Output-stability is not zero cost, and we withdraw the claim that it is.** …
+  Corollary 9.16 says only that all successful landings agree."*
+- Scope 9.19(ii): *"The second plane is not forced, but **it is free** … What we do have is
+  Corollary 9.16: the 14-locus is enumerated, and every point of it gives the same terminus. **The
+  plane is a choice whose price is computed to be zero.**"*
+
+Same inference (output-stability ⟹ zero price), same corollary invoked, opposite verdict. And the
+§9.2 forcedness table carries the withdrawn version as a row: *"Cor. 9.16, **the second plane is
+free** — forced, given the line above."*
+
+So both forcedness tables — §9.2 and §12.1 — contain a claim the body has explicitly retracted.
+For a paper whose thesis is a cost claim and whose audit tables are its enforcement mechanism,
+that is a defect in the mechanism, not in a sentence.
+
+### R3 [MINOR, new] — Theorem 9.12 quantifies over `y` and concludes about `y*`
+
+*"There is a point y of C with dim z(x1,y) = 14 … `z(x1,y*) ⊗ K ≅ sl3⊕sl2⊕t³`."* Notation 9.11
+has just declared `y*` historical and non-reconstructible from the paper, and Scope 9.10 says the
+terminus no longer rests on it. The conclusion should read `z(x1,y)`.
+
+### R4 [confirmed by a second route] — the Scope 4.7 witness
+
+The second pass reports solving `AP = PX₆` and reducing to a Pell-type equation with no
+determinant-±1 solution. That reproduces exactly, and it is a cleaner obstruction than the
+form-content argument. The integral intertwiner lattice is
+
+> `P = [[(r+s)/3, (r−5s)/3], [r, s]]`, integral iff `r + s ≡ 0 (mod 3)`,
+> `det P = −((r−3s)² − 10s²)/3`,
+
+so `det P = ±1` requires `x² − 10y² = ∓3`, and `x² − 10y² mod 5 ∈ {0,1,4}` misses `±3`. This is
+the paper's own stated obstruction arrived at from the module side rather than the form side, and
+it is worth putting in the paper: it makes Scope 4.7 self-contained without Latimer–MacDuffee.
+Both routes are now in `verify_scrutiny.py`.
+
+### R5 [not adopted] — the arithmeticity row is not resolved
+
+The second pass grades Theorem 5.15 **STRONG**, on the ground that *"the cited
+Bowditch–Maclachlan–Reid work does indeed give a complete once-punctured-torus classification into
+three cyclic commensurability classes"* and that *"the external source confirms"* it. No theorem
+number, no statement, no quotation is given, and I could not confirm it from the paper alone.
+
+Set that aside, because **M4 does not depend on it.** Even granting exactly three arithmetic
+commensurability classes carried by RL, RRLL and RRL, the paper's next sentence — *"The arithmetic
+monodromies are therefore exactly those conjugate to a power of one of the three words above"* —
+does not follow. Commensurable manifolds share a common finite cover; neither need cover the
+other. The second pass restates that inference approvingly rather than testing it, so it endorses
+the step at issue. M3 and M4 stand unchanged.
+
+### R6 [not adopted as resolved] — §7 and §10
+
+The second pass treats *"§7 explicitly calls the entrance the one place where the manifold's
+arithmetic is consumed"* as established and asks only for a certificate for Theorem 7.7. But
+Theorem 7.7's hypotheses contain no manifold, no trace field and no `ℚ(√−3)` — that is **F1**, and
+asking for a certificate for 7.7 leaves it untouched. Its closing summary (*"once the manifold
+gets you through the 2T entrance…"*) assumes the very implication that is missing.
+
+Likewise it grades Theorem 10.10 *"computed, weakly reproducible"* and defers it. The problem is
+not reproducibility: `D` in clause (iii) is never introduced anywhere in the paper, and `φ⁺`,
+`χ⁺`, "the value arc" and "the wall-real alignment" are undefined. An unreproducible theorem can
+still be tested later; an unstatable one cannot. **F2** stands.
+
+### R7 [adopted, editorial] — the title's two adjectives
+
+Two words in the title outrun the paper: *"canonical family"* against the abstract's own
+*"intrinsically characterized rather than ad hoc … that is weaker than saying it is not a
+choice"*; and *"parameter-free"* against a ledger of nine declared choices, three of them
+underived. "Parameter-free" is defensible if it is defined in the abstract as *no fitted numerical
+parameters and no measured input* — which is what §1.2 actually claims — but undefined it invites
+precisely the objection §11.3 exists to pre-empt.
+
+### R8 [adopted, calibrated down] — Theorem 7.1's phrasing
+
+Theorem 7.1 says the dual McKay pair `E₆ + E₈` is *"realized as the two stable geometries of a
+single object"*, while Scope 5.12 has shown `2I` is the ambient group at the modulus and not the
+monodromy's image, and Scope 7.2 shows `π₁(4₁)` surjects onto `2T` but onto neither `2I` nor `A₅`.
+Real, and worth rewording — but the paper qualifies it in the very next Scope
+(*"the asymmetry runs against the direction the phrasing invites … as a statement about π₁ the E₈
+end is field-level"*), so this is a theorem-statement/scope mismatch, not an unflagged overclaim.
+
+### R9 [refinement] — what Theorem 10.3 actually needs shipped
+
+The second pass asks for a self-contained verifier for Theorem 10.3, correctly noting the paper's
+own *"if it is wrong then §10 is wrong and nothing else notices."* Two different things are being
+conflated. The **inference** — that among the five real forms only `e6(2)` can realise (15,12),
+since the K-type dimensions are `{27}`, `{27}`, `{16,10,1}`, `{26,1}`, `{15,12}` and only the last
+has a subset summing to 15 — is a finite check that runs in three lines and is in
+`verify_scrutiny.py` already. What needs shipping is the **signature computation itself** on the
+exact Hermitian matrix. The inference belongs in the paper as a table; only the matrix needs a
+script.
+
+---
+
 ## Priority for the author
 
-1. **F1** — decide whether `ℚ(√−3) ⟹ 2T` is a theorem or a stipulation, and rewrite §1.3, §7.3
+1. **R1** — the abstract, Cor 11.3's closing clause, Scope 11.4, §11.1's heading and the §12.1
+   audit row. Family-wide is `2CS ≡ 0`; `CS = 0` is `M₁` alone; amphichirality is not an iff.
+   Cheapest fix in the paper and the one a referee will find first, because it is in the abstract.
+2. **F1** — decide whether `ℚ(√−3) ⟹ 2T` is a theorem or a stipulation, and rewrite §1.3, §7.3
    and the title accordingly. Everything else is downstream of this decision.
-2. **F2** — define the six objects of §10.3 or cut it.
-3. **M3 / M4** — pin the exact statement of [4] being invoked, or restate the arithmeticity tail
-   as verified for m ≤ 10.
-4. **M7 / M6 / m1 / m2** — one pass over the ledger: nine rows, a tenth for the second plane,
+3. **F2** — define the six objects of §10.3 or cut it.
+4. **R2** — delete "the second plane is free" from Scope 9.19(ii) and from the §9.2 table. Both
+   forcedness tables currently carry a retracted claim.
+5. **M3 / M4** — pin the exact statement of [4] being invoked, or restate the arithmeticity tail
+   as verified for m ≤ 10. M4 is a logical gap and holds whatever [4] says.
+6. **M7 / M6 / m1 / m2** — one pass over the ledger: nine rows, a tenth for the second plane,
    consistent tags at the point of use.
-5. **E1** — one line, and it removes the sharpest concession in §4.
+7. **E1 / R4** — two short paragraphs; between them they remove the sharpest concession in §4 and
+   make Scope 4.7 self-contained.
 
 The paper is right that it should be judged on §5, and §5 survives scrutiny intact. It is also
 right that the cost claim is the thesis; that is precisely why the ledger defects are not

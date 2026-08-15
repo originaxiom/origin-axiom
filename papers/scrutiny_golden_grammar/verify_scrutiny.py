@@ -454,6 +454,32 @@ def sec_real_form():
 # ---------------------------------------------------------------------------
 # arithmetic of the paper's own counts
 # ---------------------------------------------------------------------------
+def sec_round2():
+    """Round-2 checks: the intertwiner obstruction, and the CS arithmetic."""
+    print("\n== Round 2 : the intertwiner lattice, and Cor 11.3 ==")
+    # Scope 4.7 again, by the intertwiner route rather than by forms.
+    # {P : A P = P X_6} = {[[(r+s)/3,(r-5s)/3],[r,s]] : r+s = 0 mod 3},
+    # det P = -((r-3s)^2 - 10 s^2)/3, so det P = +-1  <=>  x^2 - 10 y^2 = -+3.
+    r, s = sp.symbols('r s')
+    A = sp.Matrix([[1, 2], [3, 5]])
+    X6 = sp.Matrix([[6, 1], [1, 0]])
+    P = sp.Matrix([[(r + s) / 3, (r - 5 * s) / 3], [r, s]])
+    check("P intertwines A and X_6", sp.simplify(A * P - P * X6), sp.zeros(2, 2))
+    check("det P = -((r-3s)^2 - 10 s^2)/3",
+          sp.simplify(P.det() - (-((r - 3 * s) ** 2 - 10 * s ** 2) / 3)), 0)
+    check("x^2 - 10y^2 mod 5 misses +-3",
+          sorted({(x * x - 10 * y * y) % 5 for x in range(5) for y in range(5)}), [0, 1, 4])
+    check("no integral solution of x^2-10y^2 = +-3 in a box",
+          [(x, y) for x in range(-300, 301) for y in range(-300, 301)
+           if x * x - 10 * y * y in (3, -3)], [])
+    # Cor 11.3: amphichirality gives 2CS = 0 in R/(1/2)Z, i.e. CS in {0, 1/4}.
+    # It does NOT give CS = 0, so d S/d k = -CS is zero only on the CS = 0 branch.
+    branches = [sp.Integer(0), sp.Rational(1, 4)]
+    check("2CS = 0 mod 1/2 has two branches", [2 * c % sp.Rational(1, 2) for c in branches], [0, 0])
+    check("dS/dk = -CS vanishes on only one of them",
+          [c == 0 for c in branches], [True, False])
+
+
 def sec_bookkeeping():
     print("\n== The paper's own counts ==")
     check("Census 7.12: 26+6+5+1+1+4", 26 + 6 + 5 + 1 + 1 + 4, 43)
@@ -480,6 +506,7 @@ def main():
     sec_levi()
     sec_field()
     sec_real_form()
+    sec_round2()
     sec_bookkeeping()
     print(f"\n{CHECKS} checks run.")
     if FAILURES:
