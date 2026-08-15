@@ -1400,12 +1400,22 @@ Thm.~\ref{thm:fmt}, the $46$-stratum and its Galois orbit
 Thm.~\ref{thm:magic}, the magic-square identification
  & \textbf{classical} \cite{BartonSudbery}, verified
  & nothing new is claimed here\\
+Thm.~\ref{thm:rungspec}, the rung spectrum
+ & \textbf{forced} (enumeration of all $64$ Levi subsystems)
+ & a Levi subsystem of $E_6$ with a root count outside the list\\
 Thm.~\ref{thm:smt}, the terminal type
  & \textbf{forced} by Cor.~\ref{cor:levi} and Rmk.~\ref{rem:leviscope}; the
    certificate supplies only the integer $14$
  & $A_2{+}A_1$ not being the unique Levi type with $8$ roots\\
+Thm.~\ref{thm:smtfull}, the full stratification
+ & \textbf{certificate} (the $78$ weights) \textbf{+ Levi} for every type
+ & an eighth proportionality class, or different class sizes\\
+Cor.~\ref{cor:c7free}, the second plane is free
+ & \textbf{forced}, given the line above
+ & a $14$-point whose type is not $A_2{+}A_1$, i.e.\ a second Levi type at $8$ roots\\
 Thm.~\ref{thm:signs}, sign-locking
- & \textbf{certificate} (degree-six trace moments)
+ & \textbf{certificate} (degree-six trace moments), \textbf{conditional} on
+   Hyp.~\ref{hyp:diag}
  & a thirteenth admissible sign pattern\\
 \bottomrule
 \end{tabular}
@@ -1415,10 +1425,26 @@ Thm.~\ref{thm:signs}, sign-locking
 \textbf{``Certificate'' is weaker than ``proved here''}, and we do not blur them. A
 certificate is an exact finite computation, reproducible by the scripts of
 Appendix~\ref{app:verify} and failing loudly on drift, but it is not a human-checkable
-argument in these pages. The claim that \emph{no declared choice occurs between the
-manifold and the terminal algebra} rests on the certificates as much as on the proofs;
-a referee who declines to accept exact computation as evidence should read that claim as
-established only for the rows marked forced, proved or classical.
+argument in these pages. A referee who declines to accept exact computation as evidence
+should read the cost claim as established only for the rows marked forced, proved or
+classical.
+
+\textbf{What that referee still gets is now most of the section}, and the reason is
+worth stating because it is the structural gain of Lemma~\ref{lem:toral}. The
+certificates in this section no longer carry conclusions; \textbf{they supply integers
+and loci, and the classification supplies every type}. Concretely, the only certificate
+the structure theory itself consumes is the \emph{single bracket} of
+Scope~\ref{sc:abelian}: once $C$ is abelian it is toral, once toral every centralizer is
+Levi, and from there each dimension determines its own isomorphism type wherever the
+Levi count is unambiguous. \textbf{A reader who grants one bracket and declines every
+other computation still obtains the conditional chain} ``if the dimensions are
+$46,30,14$ then the types are $D_5$, $D_4$, $A_2{\oplus}A_1$'', which is a theorem about
+$E_6$ and about nothing of ours.
+
+\textbf{Two rows resist this and we do not pretend otherwise.} Theorem~\ref{thm:fmt}'s
+count of \emph{three} wall lines is a genuine certificate---the classification says what
+a $46$-dimensional rung is, not how many occur---and Theorem~\ref{thm:signs} remains
+conditional on Hypothesis~\ref{hyp:diag}, which is unproved.
 \end{scope}
 
 \section{The real form}\label{sec:realform}

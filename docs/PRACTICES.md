@@ -422,6 +422,33 @@ claim line when there is a lot to say.
 **Limit.** The gate enforces that an unrepresented arc is *known*, not that it is *rowed*.
 Thirteen arcs currently sit at PENDING — that is a recorded debt, not a discharged one.
 
+## Every "forced" must name its warrant — GATED (`forcing-audit`)
+
+**The campaign's acceptance test is one sentence: *every occurrence of "forced" must be backed
+by a theorem or an exhaustive classification*.** This gate checks it by machine, in
+`papers/structure_paper/arxiv/main.tex`:
+
+1. the forcedness-audit table's status column uses a **closed vocabulary** —
+   `forced` / `proved here` / `certificate` / `classical`, plus the two sharpening qualifiers
+   `+ Levi` and `conditional`;
+2. **hedges are banned outright** in a status cell (`essentially`, `morally`, `modulo`,
+   `largely`, `effectively`, `arguably`, `broadly`, `nearly`, …), because a hedged *forced* is
+   how a cost claim erodes without anyone deciding to weaken it;
+3. every `\ref` in the table resolves to a real `\label`;
+4. a row marked **forced** must cite a **theorem, proposition, lemma, corollary or census** —
+   a *forced* whose only citation is a Scope is precisely the defect the acceptance test names;
+5. any bolded **forced** elsewhere in the body must carry a `\ref` in its own paragraph.
+
+**Why a gate and not care.** The acceptance test had been checked by reading three times, and
+each time a drifted row was found **by eye**. The programme's own diagnosis is that its failure
+mode is retrieval — a claim and its warrant drifting apart — so the repair is mechanical.
+
+**Calibration, run as `python3 scripts/checks/forcing_audit.py --selftest`.** Four violations are
+seeded into a copy of the source and all four must be caught: a hedged status, an unresolved
+reference, a **forced** whose only citation is a Scope, and a stray bolded **forced** in the
+body. Baseline is 0 problems, so the gate is not passing by accident — it passes because the
+table is clean, and it fails the moment it is not.
+
 ## A paper claim must carry its source where it is stated — GATED (`paper-claim-registry`)
 
 **Every headline claim in `papers/structure_paper/` must resolve to a registry row or a lock,

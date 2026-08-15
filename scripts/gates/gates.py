@@ -838,6 +838,24 @@ def gate_paper_claim_registry():
     return not probs, [f"{f}:{n} {why}" for f, n, why in probs[:5]] or "ok"
 
 
+# THE FORCEDNESS GATE.  The campaign's acceptance test -- every "forced" backed by a
+# theorem or an exhaustive classification -- had been checked three times by reading, and
+# each time a drifted row was found by eye.  This checks it by machine.  Calibrated: its
+# --selftest seeds four violations (a hedged status, an unresolved ref, a "forced" whose
+# only citation is a Scope, and a stray bolded "forced" in the body) and all four are
+# caught.
+def gate_forcing_audit():
+    """Every 'forced' in the structure paper must name its warrant."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import forcing_audit as fa
+    except Exception as exc:
+        # FAIL-CLOSED, same reasoning as the retraction sweep.
+        return False, f"forcing_audit unimportable: {exc}"
+    probs = fa.check()
+    return not probs, [f"{w}: {why}" for w, why in probs[:5]] or "ok"
+
+
 def gate_retraction_sweep():
     """Registered retracted phrases must not appear as live claims in any tracked .md."""
     sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
@@ -914,6 +932,7 @@ GATES = {
     "lawmap-scope": gate_lawmap_scope,
     "retraction-sweep": gate_retraction_sweep,
     "paper-claim-registry": gate_paper_claim_registry,
+    "forcing-audit": gate_forcing_audit,
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
     "relay-debt": gate_relay_debt,
