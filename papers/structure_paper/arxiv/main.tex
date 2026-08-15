@@ -1,7 +1,7 @@
 \documentclass[11pt,reqno]{amsart}
 
 % ---------------------------------------------------------------------------
-%  The golden grammar: four independent selections inside a canonical family,
+%  The golden grammar: one arithmetic condition and four exceptionality theorems,
 %  and a parameter-free chain to an exceptional Lie algebra.
 %
 %  Self-contained for arXiv: no \input outside this directory, no local paths,
@@ -60,7 +60,8 @@
 
 \begin{document}
 
-\title[The golden grammar]{The golden grammar: four independent selections
+\title[The golden grammar]{The golden grammar: one arithmetic condition and four
+  exceptionality theorems
 inside a canonical family, and a parameter-free chain to an exceptional Lie algebra}
 
 \author{Drit\"ero Mehmetaj}
@@ -78,9 +79,15 @@ algebras, cone-manifold geometric transition}
 Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We prove that
 this family is not a modelling choice: it is exactly the class of hyperbolic
 unimodular classes whose dominant eigenvalue has purely periodic continued fraction of
-period one. Inside it we exhibit \emph{three logically independent selections of the
-golden member $m=1$, and a fourth criterion narrowing to $\{1,2\}$}---each over the
-whole infinite family and each anchored in a classical theorem: a homological one, $H_1(M_m)\cong\Z\oplus(\Z/m)^2$, so that only
+period one. Inside it we exhibit \emph{four criteria selecting the golden member $m=1$},
+each over the whole infinite family and each anchored in a classical theorem.
+\textbf{We prove first that three of them collapse to one arithmetic condition}: they
+test the values $\chi_m(1)$, $\chi_m(-1)$ and $\operatorname{tr}\phi_m$ of a single
+characteristic polynomial, and each reduces to $m^2=1$. What survives is not
+extensional independence---unattainable here, since $m=1$ is the unique trace-three
+once-punctured-torus bundle---but \emph{mechanistic} independence: a trivial cokernel,
+an exceptional binary polyhedral order and a subfactor index threshold are unrelated
+classifications that happen to be met at one value. The criteria are: a homological one, $H_1(M_m)\cong\Z\oplus(\Z/m)^2$, so that only
 $m=1$ is a knot complement; an arithmetic one, $|\SL(2,\Z/(m^2{+}4))|$ being the order
 of an exceptional binary polyhedral group only at $m=1$; a subfactor one, the metallic
 mean clearing the Jones index wall only at $m=1$; and an arithmeticity criterion which
@@ -117,7 +124,8 @@ The first half is a selection theorem. Minimal aperiodic description is Sturmian
 (Morse--Hedlund), and the slopes whose continued fractions are purely periodic of
 period one form the \emph{metallic} family. We prove that this family is canonical
 (\S\ref{sec:canonical}), and then that its golden member is singled out inside it
-\emph{four independent ways} (\S\ref{sec:four}). The golden member is the figure-eight
+\emph{four ways, three of which collapse to one arithmetic condition}
+(\S\ref{sec:four}). The golden member is the figure-eight
 knot complement, and \S\S\ref{sec:arith}--\ref{sec:realform} follow its own arithmetic
 into an exceptional Lie algebra.
 
@@ -174,7 +182,8 @@ modulo a \emph{discriminant}, with a group order as invariant, and the two agree
 in shape.
 
 What we believe to be new is the \emph{conjunction}: that the metallic family is
-canonical, and that four independent classical criteria select the same member of it.
+canonical, and that four classical criteria select the same member of it---three of
+them through a single arithmetic condition, as Lemma~\ref{lem:collapse} makes explicit.
 
 \section{The principle and its price}\label{sec:price}
 
@@ -353,7 +362,7 @@ $h(m^2{+}4)$ exceeds one (Latimer--MacDuffee). Only the stated equivalence is us
 below.
 \end{scope}
 
-\section{Four independent selections of the golden}\label{sec:four}
+\section{Four selections of the golden, and what they share}\label{sec:four}
 
 This section is the paper. Before stating the criteria we state, and prove, the sense in
 which they are and are not independent---because the honest answer is sharper than the
@@ -532,8 +541,9 @@ theorem the admissible indices below $4$ are exactly $4\cos^2(\pi/n)$, $n\ge3$~\
 admissible dimensions below $2$ are $2\cos(\pi/n)$; and $\varphi=2\cos(\pi/5)$.
 \end{proof}
 
-This selection is \emph{logically independent} of \S\ref{sec:shadow}: it uses no
-modulus, no reduction and no finite group---only the size of a real algebraic integer
+This selection is \emph{mechanistically} independent of \S\ref{sec:shadow} in the sense
+of Scope~\ref{sc:collapse}---not extensionally, which nothing here could be: it uses no
+modulus, no reduction and no finite group, only the size of a real algebraic integer
 against a classical quantization theorem. An objection to the shadow construction
 therefore does not touch it, and vice versa.
 
@@ -916,7 +926,7 @@ rigidity}
   (Theorem~\ref{thm:mh}).
 \item \textbf{In arithmetic.} All irrationals $\longrightarrow$ the golden class, by
   extremality of the Lagrange number (Theorem~\ref{thm:hurwitz}); and, within the
-  canonical family of \S\ref{sec:canonical}, the golden member by four independent
+  canonical family of \S\ref{sec:canonical}, the golden member by the four
   criteria (\S\ref{sec:four}).
 \item \textbf{In the Lie algebra.} The generic stratum \emph{of the split plane}
   $\longrightarrow$ exactly three lines where the centralizer dimension jumps from $30$
