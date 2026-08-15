@@ -850,8 +850,11 @@ algebraic type $A_2\oplus A_1$,
 \[
    z(x_1,y^*)\otimes\overline K\ \cong\ \sll_3\oplus\sll_2\oplus\mathfrak t^{3}.
 \]
-The within-$C$ centralizer ladder is $\{78,46,30,18,14,12\}$; the dimension $26$ is not
-attained.
+The within-$C$ centralizer ladder \emph{includes} $\{78,46,30,18,14,12\}$, and the
+dimension $26$ is not attained at any coordinate subtorus or enhancement point.
+\textbf{We write ``includes'' deliberately}: the source material banks this list as a set
+of realized strata, not as an exhaustion of $C$, and the non-attainment of $26$ is a
+census over those directions rather than a theorem about every subtorus.
 \end{theorem}
 
 \begin{remark}[a rank constraint that fixes a mislabelling]\label{rem:rank}
@@ -947,19 +950,47 @@ signature and not the compact form's.
 
 \subsection{Sign-locking and the selected form}
 
-\begin{theorem}[sign-locking]\label{thm:signs}
-Every $C$-stabilizing automorphism acts $\pm$-diagonally on the four charges, hence
-carries a pattern $\varepsilon=(\varepsilon_8,\varepsilon_{14},\varepsilon_{16},
+\begin{theorem}[sign-locking, \emph{conditional} on Hypothesis~\ref{hyp:diag}]\label{thm:signs}
+Assume Hypothesis~\ref{hyp:diag}, so that a $C$-stabilizing automorphism carries a
+pattern $\varepsilon=(\varepsilon_8,\varepsilon_{14},\varepsilon_{16},
 \varepsilon_{22})\in\{\pm1\}^4$. Two exact rational trace moments of degree $6$ force
 $\varepsilon_8\varepsilon_{16}=+1$ and $\varepsilon_{14}\varepsilon_{22}=+1$, so
 \textbf{twelve of the sixteen patterns are impossible for every automorphism}; the
 wall-real pattern is unique, $\varepsilon=(-1,+1,-1,+1)$.
 \end{theorem}
 
+\begin{scope}[the premise, isolated rather than assumed silently]\label{hyp:diag}
+\textbf{Hypothesis ($\pm$-diagonality).} \emph{Every $C$-stabilizing automorphism of
+$\ee_6$, linear or antilinear, acts diagonally on the four charge lines with signs.}
+
+\textbf{This is a hypothesis, not a theorem, and the source material says so}: the arc
+that uses it names it ``the $\pm$-diagonal constraint---the premise''. What is actually
+proved about $C$-stabilizers is weaker in exactly the place that matters. They form a
+\emph{discrete} group, since $\dim n(C)=\dim z(C)=12$ leaves no continuous motion; they
+preserve the measured plane \emph{setwise}; they cannot exchange a split direction with
+a compact one, the spectra being real and imaginary respectively; and the transposition
+$x_8\leftrightarrow x_{16}$ is excluded because the exact factor multisets of
+$\ad x_8$ and $\ad x_{16}$ differ.
+
+\textbf{What none of that excludes is a $3$-cycle.} A $C$-stabilizer permutes the three
+enhancement lines of Theorem~\ref{thm:fmt}, and the symmetry group of three lines in a
+plane contains an order-three rotation. Such an element is finite, preserves $C$, swaps
+nothing split with anything compact, does not transpose $x_8$ and $x_{16}$---and is
+\textbf{not $\pm$-diagonal}. It is not an idle possibility either: the three lines are
+the Galois orbit of $\mu$, and an $S_3$ acts on precisely that orbit.
+
+Closing this would require showing that no automorphism of $\ee_6$ realizes the
+$3$-cycle on $\langle x_8,x_{16}\rangle$, handling non-monomial plane actions and the
+antilinear case. \textbf{Until then Theorem~\ref{thm:signs} and everything downstream of
+it is conditional}, and we mark it so rather than let a premise travel as a conclusion.
+\end{scope}
+
 The wall of Theorem~\ref{thm:smt} is complex in the split frame at all three Galois
 roots of $\mu$, and the real form in which it is real is the quaternionic
-$\ee_{6(2)}$---consistently with Theorem~\ref{thm:signature}, which reaches the same
-form by an independent route.
+$\ee_{6(2)}$. \textbf{Theorem~\ref{thm:signature} reaches the same form by a route that
+does not use Hypothesis~\ref{hyp:diag} at all}---a signature computation on an exact
+integer matrix---so the real-form identification does not stand or fall with the
+hypothesis, and that is the reason both routes are given.
 
 \subsection{The involution that carries the ratios}\label{sec:d2}
 
