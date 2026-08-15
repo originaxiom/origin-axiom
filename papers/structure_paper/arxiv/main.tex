@@ -1005,9 +1005,11 @@ degrees $8,14,16,22$---hence the whole of \S\S\ref{sec:frame}--\ref{sec:cascade}
 on that placement.
 
 \begin{scope}[(C6), declared here rather than left implicit]\label{sc:principal}
-\textbf{The principal placement is a declared choice---(C6) in the ledger of
-\S\ref{sec:inputs}---and we price it.} Three things can be said in its favour, and the
-third is stronger than economy.
+\textbf{The principal placement is declared here rather than used silently, and it is
+carried as (C6) in the ledger of \S\ref{sec:inputs}.} Three things can be said in its
+favour; \S\ref{sec:principaldir} adds a fourth that retypes the step from a choice we
+made to a direction the object supplies, and the reader should weigh this scope together
+with Proposition~\ref{prop:geodir}.
 The principal $\sll_2$ is the unique regular class; its centralizer in $\ee_6$ is exactly
 zero, computed; and its $\ad$-decomposition is \textbf{multiplicity-free}, with highest
 weights twice the exponents \emph{recovered rather than assumed}, so placing $2T$ in it
@@ -1643,7 +1645,7 @@ Remark~\ref{rem:leviscope} $A_2\oplus A_1$ is the unique Levi type with $8$ root
 $y^*$ within it cannot change the terminus.
 \end{corollary}
 
-\begin{scope}[why this is not a price of zero, and an earlier draft said it was]\label{sc:c7price}
+\begin{scope}[why this is not a price of zero]\label{sc:c7price}
 \textbf{Output-stability is not zero cost, and we withdraw the claim that it is.} A
 generic second charge gives $\dim z=12$; the $14$-locus is two hyperplanes out of a
 three-dimensional space of choices. \textbf{So one must first arrange to land there},
@@ -1657,18 +1659,21 @@ generic point of $\ee_6^{2O}$ has $\dim z=30$. Proposition~\ref{prop:twoO} force
 plane and the Galois orbit removes the choice \emph{among} the three walls, but nothing
 so far says to go to a wall rather than to a generic point.
 
-\textbf{We therefore book one principle rather than two choices}, since it is the same
-operation both times:
-\begin{quote}
-\textbf{(C7) The enhancement rule.} At each measurement, pass to a locus on which the
-centralizer dimension jumps, rather than to a generic point of the available space.
-\end{quote}
-Applied at the first measurement it selects a wall; applied at the second it selects the
-$14$-locus. \textbf{It is a declared choice and we do not claim it is derived.} What we
-do claim, and prove, is that it is \emph{output-stable} at both applications: the three
-walls are one Galois orbit, and every point of the $14$-locus gives $A_2\oplus A_1$. A
-reader who rejects the rule obtains $\dim z=30$ and then $12$, and the cascade stops;
-they do not obtain a different terminus.
+\textbf{Both are the same operation}, and it is the \emph{tracking} of
+\S\ref{sec:price}: at each measurement, pass to a locus on which the centralizer
+dimension jumps rather than to a generic point. Applied at the first measurement it
+selects a wall; applied at the second it selects the $14$-locus.
+
+\textbf{We state it as method rather than as a per-step choice}, and the distinction is
+not cosmetic: a rule stated once and applied uniformly is exposed---if any step needed a
+\emph{different} rule, the framing of \S\ref{sec:price} would fail---whereas a choice
+re-made at each step can be re-justified locally each time. \textbf{What we do not claim
+is that the rule is derived.} A reader who rejects it samples generic points, obtains
+$30$ and then $12$, and the cascade stops; they do not obtain a different terminus.
+
+What is proved, and is the reason the rule costs nothing \emph{beyond} being adopted, is
+that it is \emph{output-stable} at both applications: the three walls form one Galois
+orbit, and every point of the $14$-locus gives $A_2\oplus A_1$.
 \end{scope}
 
 \subsection{The $A_4$ stratum determines a global form}\label{sec:globalform}
@@ -1763,9 +1768,11 @@ algebra $\ee_6^{2O}$. It does \emph{not} price $\langle x_{14},x_{16}\rangle$, w
 \textbf{mixed} for the involution---one even charge and one odd---and so is not an
 eigenspace of anything. \textbf{We have no forcing argument for the second plane and do
 not claim one.} What we do have is Corollary~\ref{cor:c7free}: the $14$-locus is
-enumerated, and every point of it gives the same terminus. The plane is a choice whose
-price is computed to be zero, carried as \textbf{(C7)} in the ledger of
-\S\ref{sec:inputs}.
+enumerated, and every point of it gives the same terminus, so the choice is
+\emph{output-stable}. \textbf{Output-stability is not zero cost}---a generic second
+charge gives $12$, so one must first arrange to land on the locus---and the operation
+that does the arranging is the \emph{tracking} of \S\ref{sec:price}, not a separate
+input.
 \end{scope}
 
 The word ``includes'' concedes that we have not exhausted $C$. Corollary~\ref{cor:levi}
@@ -2275,9 +2282,9 @@ set; the table below exists so the count can be checked rather than believed.
 (C4) & the puncture & \textbf{degenerates}: the closed mapping torus of an Anosov map of $T^2$ is a $\mathrm{Sol}$-manifold, since hyperbolization needs $\chi(F)<0$ and $\chi(T^2)=0$. No cusp, no hyperbolic structure, no arithmetic layer\\
 (C5) & period one & \textbf{price zero against the period-two relaxation, which is the only one tested.} The period-two family $M(a,b)$ is orientation-preserving already, its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$, and the selection of \S\ref{sec:four} survives verbatim. \textbf{Period three and beyond are unchecked}, so this is not zero cost globally\\
 (C6) & the principal placement of $2T$ & \textbf{dissolved to an acceptance} (Prop.~\ref{prop:geodir}). The principal $\sll_2$ is the object's own geometric deformation direction, and the principal image is what seals the field. Still not a theorem that $2T$ \emph{must} enter there\\
+(C7) & the enhancement rule & \textbf{not a row: it is the method} of \S\ref{sec:price}, stated once and not re-decided. Rejecting it means sampling generic points, which returns the floor and reports nothing. Within it the three walls are one Galois orbit and every point of the $14$-locus gives $A_2{\oplus}A_1$ (Cor.~\ref{cor:c7free})\\
 (C8) & \textbf{exceptionality} & \textbf{dissolved to an acceptance} (Prop.~\ref{prop:dimfilter}). The object nominates $E_6$; $d=3$ is the unique simplex dimension whose McKay image is exceptional with a complex fundamental, and $d=3$ is what $M_1$ is glued from. What is not derived is the interest in a complex fundamental\\
 (C9) & the measurement is made on a \emph{plane} & \textbf{not derived.} Prop.~\ref{prop:twoO} forces \emph{which} plane, once a plane is wanted; nothing forces a $2$-space over a line or a $3$-space, and Scope~\ref{sc:cliffscope} says so\\
-(C7) & the enhancement rule & \textbf{not a row: it is the method} of \S\ref{sec:price}, stated once and not re-decided. Rejecting it means sampling generic points, which returns the floor and reports nothing. Within it the three walls are one Galois orbit and every point of the $14$-locus gives $A_2{\oplus}A_1$ (Cor.~\ref{cor:c7free})\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2289,9 +2296,10 @@ object nominates (\S\ref{sec:nomination}). (C4) has an alternative that is not h
 at all, and (C3) is the standard convention for an orientable mapping torus. \textbf{What
 is left as genuine addition is (C2), the geometric carrier}---which is where
 $\Q(\sqrt{-3})$ is bought and nothing measures it into existence---together with the
-scope restrictions (C5) and (C9), whose alternatives are computed and cheap. That last is the paper's
-residual and we do not describe it as priced. \textbf{An earlier draft called (C5) and
-(C7) free without qualification; both claims were too strong and are withdrawn above.} A
+scope restrictions (C5) and (C9), whose alternatives are computed and cheap.
+\textbf{(C2) is the paper's residual addition and we do not describe it as free.} An
+earlier draft called (C5) and (C7) free without qualification; both claims were too
+strong and are withdrawn above. A
 cost theorem whose ledger hides a row is not a cost theorem---and one that prices a row
 at zero by confusing \emph{output-stability} with \emph{freedom} is not one either.
 
