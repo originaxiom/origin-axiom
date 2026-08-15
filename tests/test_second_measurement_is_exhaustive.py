@@ -362,6 +362,61 @@ def test_the_two_size2_lines_are_conjugate_which_is_the_mechanism():
     assert np.max(np.abs(a - np.conj(b))) < 1e-6
 
 
+def test_there_are_TWO_thirty_points_not_one():
+    """Caught by Wave-5 direct-rank recomputation; an earlier draft listed only one."""
+    import itertools as it
+    _, _, _, L, cls = _real_ladder()
+    ts, _ = _walls()
+    x1 = np.array([1, 0, ts[0], 0], dtype=complex)
+
+    def emb(v):
+        return np.array([0, v[0], v[1], v[2]], dtype=complex)
+
+    pts = []
+    for combo in it.combinations(range(7), 3):
+        nul = _null([L[i] for i in combo])
+        if nul.shape[1] != 1:
+            continue
+        v = nul[:, 0]
+        if dim_z([x1, emb(v)]) == 30:
+            vv = v / v[int(np.argmax(np.abs(v)))]
+            pts.append((vv, tuple(len(cls[i]) for i in combo)))
+    assert len(pts) == 2
+    for vv, sizes in pts:
+        assert sizes == (6, 6, 6)
+        assert np.max(np.abs((vv / vv[int(np.argmax(np.abs(vv)))]).imag)) < 1e-6
+    # exactly one of them is <x8,x16>, i.e. y proportional to x16 -> (p,q,r)=(0,1,0)
+    is_x16 = [abs(vv[0]) < 1e-6 and abs(vv[2]) < 1e-6 for vv, _ in pts]
+    assert sum(is_x16) == 1, "one 30-point is <x8,x16>; the other is a different plane"
+
+
+def test_24_is_avoided_by_concurrency_which_is_the_same_fact_as_26():
+    """A bare {6,6} meeting would give dim 24, which is not a Levi dimension of E6.
+
+    Every one of the ten size-6 pairs also carries a third hyperplane, so 24 never
+    occurs.  The Levi classification and the charge data agree here for no reason
+    except that both are right.
+    """
+    import itertools as it
+    _, _, _, L, cls = _real_ladder()
+    ts, _ = _walls()
+    x1 = np.array([1, 0, ts[0], 0], dtype=complex)
+
+    def emb(v):
+        return np.array([0, v[0], v[1], v[2]], dtype=complex)
+
+    six = [i for i in range(7) if len(cls[i]) == 6]
+    assert len(six) == 5
+    dims = []
+    for a, b in it.combinations(six, 2):
+        v = _null([L[a], L[b]])[:, 0]
+        dims.append(dim_z([x1, emb(v)]))
+    assert len(dims) == 10
+    assert 24 not in dims
+    assert sorted(set(dims)) == [26, 30]
+    assert dims.count(26) == 4 and dims.count(30) == 6
+
+
 def test_the_numerics_are_certified_by_an_explicit_gap():
     """A tolerance-fragile classification must fail loudly, not silently."""
     assert GAP["nonzero"] / max(GAP["zero"], 1e-300) > 1e6, (

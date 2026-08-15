@@ -1312,7 +1312,7 @@ three walls. Consequently, as $y$ ranges over \emph{all} of $C$,
   \dim z(x_1,y)\ =\
   \begin{cases}
     46 & y\in\langle x_1\rangle\quad(\text{no second measurement}),\\
-    30 & y\in\langle x_8,x_{16}\rangle,\\
+    30 & y\ \text{at either of two points, one being }\langle x_8,x_{16}\rangle,\\
     14 & y\ \text{on either of the two size-$2$ hyperplanes},\\
     18 & y\ \text{on one of the five size-$6$ hyperplanes},\\
     16,\,20,\,26 & y\ \text{on an intersection of these},\\
@@ -1320,8 +1320,26 @@ three walls. Consequently, as $y$ ranges over \emph{all} of $C$,
   \end{cases}
 \]
 \textbf{The two hyperplanes carrying dimension $14$ are complex conjugates of one
-another}, so no real point of $C$ attains it---which is why $y^*$ is not real.
+another}, so no real point of $C$ attains it---which is why $y^*$ is not real. The
+dimension $30$ occurs at \emph{two} points, both real and both meetings of three
+size-$6$ hyperplanes: the expected $\langle x_8,x_{16}\rangle$, and a second plane
+$\langle x_1,\ x_{22}-\gamma\,x_{14}\rangle$ that is \textbf{not} contained in it. An
+earlier draft listed only the first.
 \end{theorem}
+
+\begin{remark}[$26$ exists and $24$ does not, for the same reason]\label{rem:2426}
+A meeting of two size-$6$ hyperplanes would contribute $6+6$ extra roots and give
+$\dim z=24$---which Theorem~\ref{thm:rungspec} forbids, since $24$ is not a Levi
+dimension of $E_6$. The arrangement resolves this without being asked to:
+\textbf{every one of the ten size-$6$ pairs also carries a third hyperplane}, five of
+them a further size-$6$ (giving $30$) and four of them a size-$2$ (giving $26$).
+\textbf{So ``$26$ is attained'' and ``$24$ is not'' are one fact, not two}, and it is an
+exact polynomial identity between the defining forms rather than a numerical
+coincidence. We record it because the two statements were obtained by completely
+separate routes---$24$'s impossibility from the classification of Levi subsystems, the
+concurrency from the charge data---and they had no reason to agree unless both are
+right.
+\end{remark}
 
 \begin{corollary}[the real ladder is shorter, and by a mechanism]\label{cor:realladder}
 Of the seven hyperplanes, three have real normals and four fall into two conjugate pairs.

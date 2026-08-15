@@ -59,7 +59,7 @@ measurement" belongs over `K̄`, which the paper now states.
 
 ## Independence
 
-Three routes, no shared code path:
+Four routes, no shared code path:
 
 1. **Weight system**, 60 digits, relative-gap certified — largest pairing counted as zero
    `7.50e-46`, smallest counted as nonzero `1.76e-5`. A gap of 41 orders.
@@ -77,7 +77,30 @@ Three routes, no shared code path:
    and it flagged the reality question as the one thing it could not settle without the
    actual charge data. Settling it on the charges is what produced the correction above.
 
-One further structural fact from that agent, which I think is the most valuable thing in
+4. **Fully exact arithmetic**, by a fourth agent working only from `e6_centralizer.py`
+   and using **direct rank of stacked `ad`-matrices** — no eigenvectors, no weight system.
+   It worked over `ℚ`, over `K = ℚ(u)` with `u³ − 495u² − 135828u + 7470540 = 0`, and over
+   quadratic towers of degree 6 and 12, with **no numerics anywhere in the certification
+   path**. Because rank over a field is embedding-independent, **one exact rank settles all
+   three walls at once** — a theorem, not a sample. It reproduces the baseline, the seven
+   hyperplanes with multiplicities `(6,6,6,6,6,2,2)`, and the full ladder
+   `{12,14,16,18,20,26,30,46}`, and proves completeness by an exact degree-34 factorization
+   rather than by scanning.
+
+   It also caught something I had stated incompletely: **`30` occurs at TWO points**, not
+   one — `⟨x₈,x₁₆⟩` and a second real plane `⟨x₁, x₂₂ − γ·x₁₄⟩` not contained in it. I have
+   reproduced both on my own data and corrected the paper.
+
+   **And it found the cleanest fact in this whole thread.** A bare meeting of two size-6
+   hyperplanes would contribute `6+6` extra roots and give `dim = 24` — which the Levi
+   classification of `E₆` forbids, 24 being no Levi dimension. The arrangement avoids it
+   without being asked: **all ten size-6 pairs carry a third hyperplane** (six give 30,
+   four give 26). So **"26 is attained" and "24 is impossible" are the same fact**, and it
+   reduces to an exact polynomial identity `R = (c₆−c₂)·q` between the defining forms. Two
+   routes that had no reason to agree — classification of Levi subsystems on one side, the
+   actual charge data on the other — agree exactly.
+
+One further structural fact, which I think is the most valuable thing in
 this letter: **`C` is not a free choice.** `dim C = 4` with `dim z(C) = 12` forces
 `|Φ ∩ C^⊥| = 6` with `C^⊥` two-dimensional, and the only rank-≤2 system with 6 roots is
 `A₂`. So `C = (span A₂)^⊥`, and all 40 `A₂` subsystems of `D₅` form a single `W(D₅)`
