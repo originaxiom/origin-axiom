@@ -83,8 +83,7 @@ def main(argv):
         print("\nFAIL: at least one claim in the paper did not reproduce.")
         return 1
     print("\nPASS: every check in BLOCK (a) reproduced exactly.")
-    print("      This says nothing about block (b), which was not run, and")
-    print("      nothing about the abelianness bracket, which has no script.")
+    print("      This says nothing about block (b), which was not run.")
     return 0
 
 

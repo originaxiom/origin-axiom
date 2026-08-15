@@ -1887,15 +1887,18 @@ argument in these pages. A referee who declines to accept exact computation as e
 should read the cost claim as established only for the rows marked forced, proved or
 classical.
 
-\textbf{And the one input everything rests on is the least well covered, which we state
-before anything else.} Scope~\ref{sc:abelian}'s single bracket is the only certificate
-the structure theory consumes, and it has \textbf{no script in block~(a) of
-Appendix~\ref{app:verify}}: it is reproducible only from the repository snapshot. So the
-sentence ``a certificate is an exact finite computation, reproducible by the scripts of
-Appendix~\ref{app:verify}'' does not apply to the very input that matters most, and a
-referee working from the submitted source alone must take that bracket on trust or
-recompute it themselves. \textbf{We regard this as the paper's sharpest outstanding
-defect} and record it rather than let the appendix's structure imply otherwise.
+\textbf{The one input everything rests on is now covered, and it was not until
+recently.} Scope~\ref{sc:abelian}'s single bracket is the only certificate the structure
+theory consumes, and it is verified by \texttt{verify/check\_charge\_bracket.py} in
+block~(a)---which builds $\ee_6$ from the Cartan matrix by reflection closure, fixes
+structure constants by a Frenkel--Kac asymmetry function, \textbf{verifies antisymmetry
+and the full Jacobi identity on all $\binom{78}{3}$ triples rather than assuming them},
+extracts the principal $\sll_2$, embeds the $2T$-invariant binary forms by the explicit
+equivariant map, and obtains $[x_{14},x_{22}]=0$ exactly over $\Q$. A referee needs the
+submitted source and \texttt{sympy}, and nothing else.
+
+\textbf{An earlier draft of this scope named the absence of that script as the paper's
+sharpest defect}, which it was.
 
 \textbf{What that referee still gets is nonetheless most of the section}, and the reason
 is worth stating because it is the structural gain of Lemma~\ref{lem:toral}. The
@@ -2564,7 +2567,11 @@ drift. \textbf{Block~(b) is weaker on both counts and we do not pretend otherwis
 needs the repository snapshot, and the stratification row is a \emph{floating-point}
 computation that certifies itself by an explicit gap between the largest pairing treated
 as zero and the smallest treated as nonzero, not by exact arithmetic. A single runner executes block~(a) and
-\emph{fails if the suite is empty}. \textbf{The coverage is not total and we do not claim
+\emph{fails if the suite is empty}. \textbf{The equivariant identification is now pinned rather than implicit.}
+$\Sym^n(\C^2)\to$ the weight-$n$ block sends $x^n$ to a highest weight vector $v$ and
+$x^{n-k}y^k$ to $\tfrac{(n-k)!}{n!}f^k\!\cdot\!v$; this is the unique $\sll_2$-equivariant
+map up to scale, and scale cannot change whether a bracket vanishes.
+\textbf{The coverage is still not total and we do not claim
 it is}: in particular \S\ref{sec:realform}'s atoms, signature and $D_2$ statements are
 listed in block~(b) or not at all, and a reader should treat \S\ref{sec:realform} as the
 least reproducible part of this paper.
@@ -2590,6 +2597,7 @@ Thm~\ref{thm:jones} & \texttt{verify/check\_jones\_wall.py} & index wall, intege
 Prop~\ref{prop:mu} & \texttt{verify/check\_charge\_field.py} & Dedekind; Minkowski; $h=1$\\
 Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \texttt{verify/check\_measurement\_plane.py} & $\ee_6^{2O}=\langle x_8,x_{16}\rangle$; eigenvalues\\
 Prop~\ref{prop:z6} & \texttt{verify/check\_global\_form.py} & the kernel is exactly $\Z/6$, cyclic\\
+Scope~\ref{sc:abelian}, $C$ abelian & \texttt{verify/check\_charge\_bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
