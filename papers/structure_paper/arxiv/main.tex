@@ -118,9 +118,11 @@ The second half is negative and we ask that it be weighed equally
 (\S\S\ref{sec:negatives}--\ref{sec:falsifiers}).
 
 \subsection{What is claimed, and what is not}
-We claim a \emph{cost theorem}: three declared choices, whose alternatives we compute
-and exhibit, no fitted parameters, and no measured input, yield the structural data
-below. We do \textbf{not} claim a derivation of physics, and no physical identification
+We claim a \emph{cost theorem}: a small, explicitly enumerated set of declared
+choices---\textbf{six}, each with its alternative computed or exhibited---together with
+no fitted parameters and no measured input, yield the structural data below.
+\textbf{We count stipulations, not chain links}: the two counts differ, and conflating
+them is an error earlier drafts made. We do \textbf{not} claim a derivation of physics, and no physical identification
 is made in the body. Internal names are names of mathematical objects.
 
 \subsection{What the reader should be suspicious of}\label{sec:suspicious}
@@ -843,10 +845,13 @@ rigidity}
   extremality of the Lagrange number (Theorem~\ref{thm:hurwitz}); and, within the
   canonical family of \S\ref{sec:canonical}, the golden member by four independent
   criteria (\S\ref{sec:four}).
-\item \textbf{In the Lie algebra.} A generic plane in the charge torus
+\item \textbf{In the Lie algebra.} The generic stratum \emph{of the split plane}
   $\longrightarrow$ exactly three lines where the centralizer dimension jumps from $30$
-  to $46$, and those three are a single Galois orbit
-  (Theorem~\ref{thm:fmt}).
+  to $46$, and those three are a single Galois orbit (Theorem~\ref{thm:fmt}). \emph{The
+  plane itself is the first instance}: it is the unique coordinate subtorus with an
+  intermediate stratum at all (Proposition~\ref{prop:cliff}). A \emph{generic} plane of
+  $C$ would meet an unmeasured charge and resolve straight to $12$, with no $30$-stratum
+  and no $46$-lines.
 \end{enumerate}
 
 At each stage the distinguished object is not chosen from a list but is the locus where
@@ -955,6 +960,39 @@ carried by the integral model, not by the arithmetic of the field.
 The results here are consequences, and everything derivable at this layer is standard
 exceptional-algebra theory~\cite{Slansky,BartonSudbery}. We state them compactly and in
 the algebraic category, deferring real forms to \S\ref{sec:realform}.
+
+\subsection{The plane is not chosen}\label{sec:planeforced}
+
+The cascade below runs on the plane $\langle x_8,x_{16}\rangle$, one of the six coordinate
+planes of a four-dimensional torus. \textbf{That is not a selection, and it would be a
+declared choice if we could not say why.} We can, and the reason is exhaustive.
+
+\begin{proposition}[the two-value cliff]\label{prop:cliff}
+Over all $15$ coordinate subtori of $C$, the centralizer dimension takes exactly two
+values. The plane $\langle x_8,x_{16}\rangle$ is the \textbf{unique} subtorus admitting an
+intermediate stratum: every measurement inside it resolves to $30$ and no further, while
+$x_{14}$ or $x_{22}$ \emph{alone} already resolves to the floor $12$. Adding either of the
+unmeasured charges to a tuned point of the plane gives $12$ at all three roots.
+\end{proposition}
+
+\begin{proposition}[the signature dichotomy]\label{prop:dichotomy}
+The four charges split $2+2$ by $\ad$-spectrum type, exactly over $\Q$: $\ad x_8$ and
+$\ad x_{16}$ have spectrum $\{0^{30},\,48\ \text{real}\}$---split, hyperbolic flows---while
+$\ad x_{14}$ and $\ad x_{22}$ have $\{0^{12},\,66\ \text{imaginary}\}$---compact, circle
+flows. \textbf{There is no mixed and no generic-complex direction on $C$.}
+\end{proposition}
+
+\textbf{So the pair carrying the cascade is picked out by the object, twice over}: it is
+the split pair, and it is the only subtorus with anywhere to go. \textbf{This is the
+sharpest instance in the paper of its own recurring pattern}---a finite exhaustive census
+in which the distinguished object is the one place a genericity fails---and earlier drafts
+omitted it entirely, presenting the plane as though it had been chosen.
+
+\begin{scope}\label{sc:cliffscope}
+Both propositions quantify over \emph{coordinate} subtori. Non-coordinate $2$-planes of
+$C$ have not been scanned, and we do not claim uniqueness among all planes; the two mixed
+directions that were tested both resolve to $12$.
+\end{scope}
 
 \begin{theorem}[first measurement]\label{thm:fmt}
 On the plane $\langle x_8,x_{16}\rangle$ the centralizer dimension stratifies as $12$,
