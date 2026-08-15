@@ -1869,6 +1869,62 @@ ceiling is not an obstruction the cascade runs into at the end---\textbf{it is v
 every rung from the first}.
 \end{remark}
 
+\subsection{What happens if a step is removed}\label{sec:removal}
+
+A reader is entitled to ask which parts of this construction are load-bearing. The answer
+is unusually lopsided, and we would rather state it than let it be discovered.
+
+\begin{scope}[the selection layer is threefold redundant]\label{sc:redundant}
+\textbf{Any one of Selections~I, II, III selects $m=1$ on its own}, over the whole
+infinite family. So any \emph{three} of the four criteria may be deleted and the golden
+member is still selected; Selection~IV alone would leave $\{1,2\}$.
+
+\textbf{This is robustness of the conclusion, not independence of the evidence}, and
+Scope~\ref{sc:collapse} is the reason to keep the two apart: Selections~I and~II test
+$\chi_m(1)$ and $\chi_m(-1)$, two values of one characteristic polynomial, and both
+reduce to $m^2=1$. Deleting one does not weaken the case, because the other was never
+adding to it.
+\end{scope}
+
+\begin{scope}[the cascade is a stratification, not a ladder]\label{sc:notaladder}
+\textbf{No rung must be passed through.} For any $S\subseteq C$, $z(S)$ depends on the
+\emph{set} $S$ and not on any order in which its elements were taken, so
+$z(x_1,y)=z(y,x_1)=z(\operatorname{span}\{x_1,y\})$. The values $46$, $30$, $18$, $14$
+are strata of one function on subspaces of $C$, not stages of a process.
+
+\textbf{So ``removing a rung'' is not a coherent operation}, and the terminus does not
+depend on the intermediate values having been visited. What the intermediate strata do
+supply is the \emph{route}: the enhancement rule of \S\ref{sec:price} reaches the
+$14$-locus by first restricting to a wall, and a reader who measures a generic
+two-dimensional subspace of $C$ gets $12$ and stops.
+\end{scope}
+
+\begin{scope}[one link carries everything]\label{sc:onebracket}
+\textbf{Exactly one step has no redundancy and no alternative: the vanishing of
+$[x_{14},x_{22}]$.} Everything structural in \S\S\ref{sec:frame}--\ref{sec:cascade}
+descends from it in a single line of implication:
+\[
+  C\ \text{abelian}
+  \;\Rightarrow\; C\ \text{toral (Lem.~\ref{lem:toral})}
+  \;\Rightarrow\; z(S)\ \text{Levi (Cor.~\ref{cor:levi})}
+  \;\Rightarrow\;
+  \begin{cases}
+    \dim=14\Rightarrow A_2\oplus A_1,\\
+    \text{the rung spectrum (Thm.~\ref{thm:rungspec})},\\
+    \text{the rank ceiling (Thm.~\ref{thm:rankceiling})}.
+  \end{cases}
+\]
+Remove that bracket and none of the three consequences survives: the terminus reverts to
+a certificate, the spectrum is unavailable, and the ceiling---the paper's own statement
+of its limits---goes with it.
+
+\textbf{We say this plainly because it locates the whole exposure of the algebra half in
+one exact rational computation}, and because it is why that computation is the one thing
+in this paper we insisted on shipping as a script that runs from the submitted source
+(Appendix~\ref{app:verify}, block~(a)). A referee who checks nothing else should check
+that.
+\end{scope}
+
 \subsection{A forcedness audit of this section}\label{sec:audit}
 
 Because the paper's methodological claim is a cost claim, we state plainly which

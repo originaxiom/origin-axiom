@@ -235,3 +235,124 @@ def test_period_one_does_not_determine_the_conjugacy_class():
     found = [P for P in itertools.product(range(-B, B + 1), repeat=4)
              if P[0] * P[3] - P[1] * P[2] in (1, -1) and conj_eq(P)]
     assert found == [], f"unexpected conjugator {found[:1]}"
+
+
+# ------------------------------------------------------------------ claim 4
+
+
+def test_the_selection_layer_is_threefold_redundant():
+    """Any ONE of Selections I, II, III selects m=1 over the whole family.
+
+    So any three of the four criteria may be deleted and the golden member is still
+    selected.  This is robustness of the CONCLUSION, not independence of the EVIDENCE --
+    I and II test two values of one characteristic polynomial and both reduce to m^2 = 1.
+    The paper keeps those two statements apart and this test pins the first of them.
+    """
+    from fractions import Fraction
+
+    def prime_factors(n):
+        ps, d = set(), 2
+        while d * d <= n:
+            while n % d == 0:
+                ps.add(d)
+                n //= d
+            d += 1
+        if n > 1:
+            ps.add(n)
+        return ps
+
+    def order_sl2(N):
+        v = Fraction(N**3)
+        for p in prime_factors(N):
+            v *= Fraction(p * p - 1, p * p)
+        assert v.denominator == 1
+        return v.numerator
+
+    M = range(1, 400)
+    sel = {
+        "I": [m for m in M if m == 1],                      # only m=1 is a knot complement
+        "II": [m for m in M if order_sl2(m * m + 4) in (24, 48, 120)],
+        "III": [m for m in M if 4 - m > 0 and m * m + 4 < (4 - m) ** 2],
+        "IV": [m for m in M if m in (1, 2)],
+    }
+    assert sel["I"] == [1]
+    assert sel["II"] == [1]
+    assert sel["III"] == [1]
+    assert sel["IV"] == [1, 2]
+
+    import itertools
+    names = list(sel)
+    # dropping any one, or any two, still leaves {1}
+    for r in (1, 2):
+        for drop in itertools.combinations(names, r):
+            keep = [n for n in names if n not in drop]
+            joint = set(M)
+            for n in keep:
+                joint &= set(sel[n])
+            assert joint == {1}, (drop, sorted(joint))
+    # and each of I, II, III alone suffices
+    for n in ("I", "II", "III"):
+        assert set(sel[n]) == {1}
+
+
+def test_the_cascade_is_a_stratification_not_a_ladder():
+    """z(S) depends on the SET S, so no rung must be passed through.
+
+    This is why "removing a rung" is not a coherent operation: the values 46, 30, 18, 14
+    are strata of one function on subspaces of C, not stages of a process.
+    """
+    np = pytest.importorskip("numpy")
+    src = _ROOT / "frontier" / "B854_centralizer_exact" / "e6_centralizer.py"
+    g = {"__file__": str(src), "__name__": "b854_strat"}
+    exec(compile(src.read_text(), str(src), "exec"), g)
+    DIM, N, br = g["DIM"], g["N"], g["br"]
+    INV, hvec, evec, ROOTS_ = g["INV"], g["hvec"], g["evec"], g["ROOTS"]
+    NS = [8, 14, 16, 22]
+    basis = [hvec(i) for i in range(N)] + [evec(r) for r in ROOTS_]
+    trip = {}
+    for p_ in range(DIM):
+        for q_ in range(DIM):
+            for r_, c_ in enumerate(br(basis[p_], basis[q_])):
+                if c_:
+                    trip.setdefault(p_, []).append((q_, r_, float(c_)))
+
+    def admat(vec):
+        A = np.zeros((DIM, DIM))
+        for p_ in range(DIM):
+            if not vec[p_]:
+                continue
+            f = float(vec[p_])
+            for q_, r_, c_ in trip.get(p_, []):
+                A[r_, q_] += f * c_
+        return A
+
+    AD = {n: admat(INV[n]) for n in NS}
+    M = AD[8] + 3.0 * AD[14] + 7.0 * AD[16] + 13.0 * AD[22]
+    _, V = np.linalg.eig(M)
+    W = np.zeros((DIM, 4), dtype=complex)
+    for k in range(DIM):
+        col = V[:, k]
+        i = int(np.argmax(np.abs(col)))
+        for j, n in enumerate(NS):
+            W[k, j] = (AD[n] @ col)[i] / col[i]
+    W[np.abs(W) < 1e-8 * np.max(np.abs(W))] = 0
+
+    def dim_z(pts):
+        ok = np.ones(DIM, dtype=bool)
+        for y in pts:
+            ok &= np.abs(W @ np.asarray(y, dtype=complex)) < 1e-6
+        return int(ok.sum())
+
+    split = [k for k in range(DIM) if W[k, 0] != 0 and W[k, 2] != 0]
+    ts = []
+    for k in split:
+        t = -W[k, 0] / W[k, 2]
+        if not any(abs(t - u) < 1e-7 for u in ts):
+            ts.append(t)
+    ts.sort(key=lambda z: z.real)
+    x1 = np.array([1, 0, ts[0], 0], dtype=complex)
+
+    rng = np.random.default_rng(1)
+    for _ in range(12):
+        y = rng.normal(size=4) + 1j * rng.normal(size=4)
+        assert dim_z([x1, y]) == dim_z([y, x1]), "order must not matter"
