@@ -773,21 +773,97 @@ established only for the rows marked forced, proved or classical.
 
 \section{The real form}\label{sec:realform}
 
-\begin{theorem}[sign-locking]\label{thm:signs}
-Every $C$-stabilizing automorphism acts $\pm$-diagonally on the four charges. Two exact
-rational trace moments of degree $6$ force $\varepsilon_8\varepsilon_{16}=+1$ and
-$\varepsilon_{14}\varepsilon_{22}=+1$, so twelve of the sixteen sign patterns are
-impossible for every automorphism; the wall-real pattern is unique,
-$\varepsilon=(-1,+1,-1,+1)$.
+\subsection{The 27 and its atoms}\label{sec:atoms}
+
+The objects of this section are defined before they are used, since a reader cannot
+audit an involution on a space whose distinguished lines have not been named.
+
+\begin{definition}[the atoms]\label{def:atoms}
+The four charges of \S\ref{sec:frame} commute rationally in their action on the
+$27$-dimensional module. The \emph{atoms} are the joint eigenlines of this rational
+commuting family. There are fifteen; the tower never enters an atom line, so the atoms
+are defined over $\Q$ and not merely over a splitting field.
+\end{definition}
+
+\begin{theorem}[the rational-atoms theorem]\label{thm:atoms}
+The fifteen atoms partition bijectively into nine \emph{colorless} and six
+\emph{colored}. The nine colorless atoms form a $3\times3$ grid whose rows are the even
+transversals of a determinant and whose columns are the odd ones; the grid is a pair of
+pencils of $\mathrm{AG}(2,3)$, and its incidence graph is $K_{3,3}$. The orientation
+parity of that determinant---the Leibniz sign---is exact and equals $-1$.
 \end{theorem}
 
-The wall is complex in the split frame at all three Galois roots, and the real form in
-which the second wall is real is the quaternionic $\ee_{6(2)}$. A final involution $D_2$
-on the $27$ carries the ratio structure: it equals $\pm\rho_{27}(\sigma_{\chi_-})$ for
-the affine shifted character---the unique match in a $128$-member family, with all $64$
-un-shifted characters failing---and $\{I,D_2,D,D_2D\}$ realizes the wall pair's full
-$2$-torsion. From the characterization follow exact $K$-arithmetic invariants, recorded
-here as invariants of $K$ and as nothing else.
+\begin{theorem}[the signature split]\label{thm:signature}
+The canonical Hermitian structure on the $27$ has signature $(15,12)$, matching the
+$K$-type split of the real form $\ee_{6(2)}$. The nine colorless atoms are
+positive-definite, with nine exact scales; all six colored atoms are Lorentzian of type
+$(1,2,0)$.
+\end{theorem}
+
+\textbf{This is the point at which the real form is pinned}, and it is pinned by a
+signature computation rather than by a choice: $(15,12)$ is not the split form's
+signature and not the compact form's.
+
+\subsection{Sign-locking and the selected form}
+
+\begin{theorem}[sign-locking]\label{thm:signs}
+Every $C$-stabilizing automorphism acts $\pm$-diagonally on the four charges, hence
+carries a pattern $\varepsilon=(\varepsilon_8,\varepsilon_{14},\varepsilon_{16},
+\varepsilon_{22})\in\{\pm1\}^4$. Two exact rational trace moments of degree $6$ force
+$\varepsilon_8\varepsilon_{16}=+1$ and $\varepsilon_{14}\varepsilon_{22}=+1$, so
+\textbf{twelve of the sixteen patterns are impossible for every automorphism}; the
+wall-real pattern is unique, $\varepsilon=(-1,+1,-1,+1)$.
+\end{theorem}
+
+The wall of Theorem~\ref{thm:smt} is complex in the split frame at all three Galois
+roots of $\mu$, and the real form in which it is real is the quaternionic
+$\ee_{6(2)}$---consistently with Theorem~\ref{thm:signature}, which reaches the same
+form by an independent route.
+
+\subsection{The involution that carries the ratios}\label{sec:d2}
+
+\begin{definition}\label{def:twists}
+Let $\rho_{27}$ denote the action on the $27$. For a sign character $\chi$ on the charge
+lattice write $\sigma_\chi$ for the associated diagonal twist, and $\tau$ for the outer
+involution of $\ee_6$. The \emph{census} is the family of composites
+$\{\sigma_\chi\}\cup\{\sigma_\chi\circ\tau\}$, of size $64+64=128$. Write $H_+$ for the
+Hermitian structure of the wall-real alignment.
+\end{definition}
+
+\begin{theorem}[the $D_2$ characterization]\label{thm:d2}
+Let $D_2$ be the eleven-flip diagonal of the value arc. Then:
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.4em]
+\item $D_2=\pm\rho_{27}(\sigma_{\chi_-})$ for the \emph{affine}, i.e.\ shifted,
+  character with shift vector $(1,0,1,0,1,1)$---the unique match in the $128$-member
+  census, with \textbf{all $64$ un-shifted characters failing}.
+\item $H_+D_2=H(\varphi^*)$ for $\varphi^*=\varphi_+\circ\sigma_{\chi_-}$, which is
+  simultaneously an involution and an automorphism, verified on all $78^2$ bracket
+  pairs, and is the unique census member whose invariant Hermitian structure is
+  $H_+D_2$.
+\item $\{I,D_2,D,D_2D\}$ is a Klein four-group realizing the wall pair's full
+  $2$-torsion on the $27$.
+\item \textbf{Every inner twist admits no invariant pairing}---the weight support is
+  empty---while every outer composite admits exactly one,
+  $H_\chi=H_+\cdot\rho_{27}(\sigma_{\chi\cdot\chi_+})$, all $64$ verified; and $H_\chi$
+  is symmetric exactly when the composite is an involution.
+\end{enumerate}
+\end{theorem}
+
+Clause (iv) is what makes (i) a characterization rather than a search: the inner half of
+the census is excluded structurally, before any candidate is tested, and the outer half
+carries exactly one pairing each.
+
+\begin{scope}[the derived arithmetic, and where it stops]\label{sc:derived}
+From the characterization alone follow exact invariants of $K$: a norm law
+$N_{K/\Q}(d)= -(953/2304)^2$ on the atom families, cubing to $-(953/2304)^3$ on the
+three-dimensional colored atoms, and a flip-rank sum rule equal to $11$ exactly. The
+primes $953$ and $2304=2^8 3^2$ enter through the atom-solve eigenline coordinates and
+\textbf{the derivation stops exactly there}; we do not derive them further and list that
+as an open problem rather than a result. These are recorded as invariants of $K$ and as
+nothing else, and the stage at which any comparison with measured quantities would occur
+is deliberately outside this paper.
+\end{scope}
+
 
 \section{What the construction does not yield}\label{sec:negatives}
 
@@ -819,13 +895,51 @@ vanishing is a \emph{family} phenomenon by Theorem~\ref{thm:amphi}, not an accid
 $m=1$.
 \end{scope}
 
-\subsection{Five sealed comparisons, five misses}
-Each comparison was pre-registered---prediction, target and decision rule sealed before
-computation---and each is reported whatever it returned. The first missed at $16\sigma$;
-the second returned the pre-written negative; the third was a hit in shape but a miss at
-the deciding tier; the fourth missed in both sectors; the fifth, a pre-committed re-run
-with zero freedom, produced eight misses over eight pairs and met a trigger its
-predecessor had sealed in advance.
+\subsection{Five sealed comparisons, five misses}\label{sec:crossings}
+
+Each comparison was pre-registered---prediction, target and decision rule fixed and
+committed \emph{before} any contact with data---and each is reported whatever it
+returned. We give the seals, because a reported miss is only evidence of good faith if
+the reader can see that the prediction preceded the comparison.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}p{0.045\textwidth}p{0.19\textwidth}p{0.30\textwidth}p{0.36\textwidth}@{}}
+\toprule
+ & seal (pre-contact) & what was fixed in advance & outcome\\
+\midrule
+1 & \texttt{7a423aed}, committed \texttt{4c4531a6}
+  & one measured input, the object's boundary, and a pure-desert running
+  & \textbf{miss}, the nearest approach failing at $16\sigma$ and dominated by a single
+    sector\\
+2 & \texttt{5af3f099}, pushed \texttt{66fd0ba4}
+  & a disclosed prior, with the alternative outcome written out verbatim beforehand
+  & \textbf{the pre-written negative}, and in a form \emph{stronger} than the disclosed
+    prior: the structure refuses the identification \textbf{by its own algebra, before
+    data votes}\\
+3 & \texttt{672b5afb}, pushed \texttt{c8421f14}
+  & a blind triple computed with \emph{zero} input from the target domain,
+    $s=(0.8629,\,0.8001,\,0.6964)$
+  & \textbf{hit in shape, miss at the deciding tier}: same-side ordering, so tier~1
+    passes and the direct identification dies at tier~2\\
+4 & \texttt{c58c8a88}, pushed \texttt{55b9bf9b}
+  & declared prior \textsc{miss}; zero anchors consumed; two bits priced; eleven
+    requirements cited
+  & \textbf{all-miss, powered in both sectors}; the declared prior held\\
+5 & the pre-committed re-run of 4, zero freedom
+  & the trigger sealed by 4: ``an upper-error shrink of about $2\times$ decides
+    sharply''
+  & \textbf{eight misses over eight pairs}; the trigger was met at $2.21\times$, with one
+    variant $44$ degrees outside the $1\sigma$ interval\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two features of this record are worth stating explicitly. \textbf{Comparison 2 is a
+negative the construction produced against itself}, before any measurement was
+consulted---an internal refusal, not a failed fit. And \textbf{comparison 5 was decided
+by a rule its own predecessor had written down}, so the closure of that route was not a
+judgement made after seeing the outcome.
 
 \begin{census}\label{cen:exhausted}
 Exactly two target-shaped relations exist in the licensed inventory. Both were fired and
@@ -1002,6 +1116,51 @@ Census~\ref{cen:forced} & \texttt{forcedness\_census.py} & regenerated; fails on
 reproduced. \textbf{An archival snapshot with a permanent identifier accompanies the
 submitted version}; a manuscript that promises runnable verification and supplies only a
 description does not meet its own standard.
+
+\section{Glossary: one referent per term}\label{app:glossary}
+
+Several terms below are overloaded in the surrounding literature or in this programme's
+own working notes. Each is given exactly one referent here, and the paper uses it in no
+other sense. The three marked $\dagger$ are recorded because \emph{ambiguity in them has
+previously produced errors in this programme}, which is the honest reason a glossary
+exists.
+
+\begin{description}[leftmargin=0pt,style=nextline,itemsep=1pt]
+\item[atom] A joint eigenline of the rational commuting family of the four charges
+  acting on the $27$ (Definition~\ref{def:atoms}). Fifteen in total, nine colorless and
+  six colored. \emph{Not} used in any physical sense.
+\item[census] The $128$-member family $\{\sigma_\chi\}\cup\{\sigma_\chi\circ\tau\}$ of
+  Definition~\ref{def:twists}. Where a count of chain links is meant, we say
+  \emph{link count}.
+\item[charge] One of $x_8,x_{14},x_{16},x_{22}$, the $2T$-invariants of
+  Appendix~\ref{app:construct}. An internal name for a Lie-algebra element; \emph{no
+  physical charge is meant}.
+\item[conductor$^\dagger$] Always qualified. The \textbf{cusp conductor} is the
+  conductor of the cusp order (golden $4$); the \textbf{shadow modulus} is
+  $m^2+4$ (golden $5$). The bare noun is never used: conflating the two left a
+  verification looking open for months when it was already closed.
+\item[grammar] The Sturmian morphism $R^mL^m$, equivalently the conjugacy class of
+  $\phi_m$. \emph{Not} a presentation of a group.
+\item[measurement] The operation of passing to a centralizer within the charge torus.
+  An internal name for a Lie-theoretic operation; \emph{nothing observational is
+  meant}, and \S\ref{sec:negatives} is where actual comparison with data is reported.
+\item[McKay group$^\dagger$] Always qualified as \textbf{exceptional} or
+  \textbf{$E$-type}, meaning one of $2T,2O,2I$. The unqualified phrase is vacuous, since
+  cyclic subgroups of $\SU(2)$ realize every order (Remark~\ref{rem:vacuous}).
+\item[metallic family] $\{R^mL^m\}_{m\ge1}$, characterized in
+  Theorem~\ref{thm:canonical}. Not a chosen subfamily.
+\item[shadow] The reduction of the monodromy modulo the shadow modulus, landing in
+  $\SL(2,\Z/N_m)$.
+\item[trace field$^\dagger$] The \textbf{Kleinian trace field} is generated by the
+  traces of the holonomy; the \textbf{invariant trace field} is generated by traces of
+  squares and is the subfield that decides arithmeticity; the \textbf{fiber field} is
+  generated by the monodromy's eigenvalues. These are three different objects, and
+  Theorem~\ref{thm:arith} is a statement about the second. Treating a statement about
+  one as a statement about another has produced at least one contradiction in this
+  programme's own records.
+\item[wall] A line in the charge plane on which the centralizer dimension jumps to $46$
+  (Theorem~\ref{thm:fmt}); there are exactly three, forming one Galois orbit.
+\end{description}
 
 \begin{thebibliography}{9}
 
