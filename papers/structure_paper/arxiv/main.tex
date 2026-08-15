@@ -566,8 +566,9 @@ group surjections. (Cf.~\cite{Stuebner} for the surrounding representation lands
 \end{scope}
 
 \begin{proposition}[a group-level presence that survives Scope~\ref{sc:asym}]\label{prop:2880}
-Let $\rho$ be the representation of the grammar's letters carried by the level-$15$
-congruence data. Then $|\langle\rho(R),\rho(L)\rangle|=2880=|2T\times2I|$ exactly,
+Let $\rho$ be the $\mathrm{SU}(3)$ level-two modular (Kac--Peterson) representation---six
+primaries, $\mathrm{ord}\,T=15$---with $R\mapsto T$ and $L\mapsto \Sigma^{-1}T^{-1}\Sigma$.
+Then $|\langle\rho(R),\rho(L)\rangle|=2880=|2T\times2I|$ exactly,
 verified by enumeration at two unramified primes together with a Serre injectivity
 argument, with a class-by-class character match of $63=7\times9$.
 \end{proposition}
@@ -575,8 +576,17 @@ argument, with a class-by-class character match of $63=7\times9$.
 \begin{scope}\label{sc:2880}
 \textbf{The statement is about $\rho(R),\rho(L)$, not about $R,L$}: the letters
 themselves generate an infinite subgroup of $\SL(2,\Z)$, so the literal claim without
-$\rho$ would be false. We record that $\rho$ is specified in the source computation and
-\textbf{is not reconstructed in this paper}; a reader should treat
+$\rho$ would be false.
+
+\textbf{Naming $\rho$ also avoids a collision that the unqualified phrase ``level-$15$
+data'' creates.} At level $15$ there are two different groups in play: the
+\emph{two}-dimensional $\theta$-odd block has image $2I\times\Z/3$ of \textbf{order
+$360$}, while the full six-dimensional stage above has order $2880$, of index $8$. A
+claim that the level-$15$ group ``is'' $2T\times2I$ of order $2880$ is registered as
+retracted precisely because it conflates those two; the present statement is about the
+six-dimensional stage and says so. We record that $\rho$'s structure constants are
+specified in the source computation and \textbf{are not reconstructed in this paper}; a
+reader should treat
 Proposition~\ref{prop:2880} as a certificate whose ambient representation is cited
 rather than exhibited, and \S\ref{sec:entrance}'s conclusions do not rest on it---it
 supplements Scope~\ref{sc:asym} rather than repairing it.
@@ -653,18 +663,24 @@ degrees $8,14,16,22$---hence the whole of \S\S\ref{sec:frame}--\ref{sec:cascade}
 on that placement.
 
 \begin{scope}[C4, declared here rather than left implicit]\label{sc:principal}
-\textbf{The principal placement is a fourth declared choice, and we price it.} What can
-be said in its favour is real but is not a derivation: the principal $\sll_2$ is the
-unique conjugacy class that is regular, it is characterized by having its centralizer as
-small as possible, and---the property actually used---\textbf{it is the only class whose
-$\ad$-decomposition is multiplicity-free}, so that placing $2T$ in it requires no further
-discrete datum to say \emph{which} copy of each degree is meant. Any non-principal
-placement carries multiplicities and therefore needs exactly the kind of extra choice
-the cost claim forbids.
+\textbf{The principal placement is a fourth declared choice, and we price it.} Three things can be said in its favour, and the third is stronger than economy.
+The principal $\sll_2$ is the unique regular class; its centralizer in $\ee_6$ is exactly
+zero, computed; and its $\ad$-decomposition is \textbf{multiplicity-free}, with highest
+weights twice the exponents \emph{recovered rather than assumed}, so placing $2T$ in it
+requires no further discrete datum to say which copy of each degree is meant.
 
-\textbf{That is an argument from economy, not a theorem}, and until it is one the
-sentence ``between the manifold and the algebra there is no declared choice'' must be
-read as ``no declared choice \emph{after} the principal placement''.
+\textbf{And there is a rigidity statement, which is a forcing argument rather than a
+preference.} Embeddings $\sll_2\hookrightarrow\ee_6$ are infinitesimally rigid---
+$H^1(\sll_2,\ee_6)=0$ by Whitehead, verified block by block---so the tangent space to
+``factors through \emph{some} $\sll_2$'' is exactly the principal line. No first-order
+deformation leaves it.
+
+\textbf{What is still missing, and why this remains C4.} Those statements concern the
+$\sll_2$ the object's own holonomy lands in. That $2T$ should be placed \emph{there}
+follows only because $2T\subset\SU(2)$ sits inside that same $\sll_2$---and \textbf{no
+source states that inheritance as a theorem}. So the placement is well-motivated and not
+yet derived, and the sentence ``between the manifold and the algebra there is no declared
+choice'' must be read as ``no declared choice \emph{after} the principal placement''.
 Census~\ref{cen:forced} is amended accordingly: \textbf{four declared choices become
 five}, C1--C3 before the manifold, C4 here, and the observer's closing after the algebra.
 \end{scope}

@@ -1,9 +1,8 @@
-# WAVE 1 — THE CLAIM POOL (5 of 6 territories in)
+# WAVE 1 — THE CLAIM POOL (COMPLETE: 6 of 6)
 
 *Preproduction output. **Nothing is designed or written from this until it is read.**
-Five inventory agents have reported; the entrance territory is still running. Every lock
-cited below was actually executed — roughly **1,000 test functions** across the five
-reports, plus every gate.*
+All six inventory agents have reported. Every lock cited below was actually executed —
+roughly **1,200 test functions** across the six reports, plus every gate.*
 
 ---
 
@@ -97,3 +96,53 @@ Eisenstein × golden.
    are absent.
 
 **Nothing above is a decision. Wave 2 makes decisions; Wave 1 only says what exists.**
+
+
+---
+
+## 6. The entrance territory (agent 6 of 6) — the three questions answered
+
+### (a) Is exceptionality derivable? — **NO, and nothing in the corpus improves on the paper's admission.**
+Searched twice over `docs/`, all 1,028 `frontier/*/FINDINGS.md`, `knowledge/`, `tests/`.
+**The only occurrence of the concession in the whole repo is the paper's own sentence.**
+
+What *is* banked is weaker and interesting: the operative entrance filter at the word's
+own door is **SU(2)-embeddability**, which admits A- and D-type in principle — and
+`B1019` **explicitly entertained a binary-dihedral entrance and killed it by
+computation**, not by fiat. ## **The sharpest unrun move**: `B253`'s
+*complex-fundamental* criterion (`G₂` 7 real, `F₄` 26 real, **`E₆` 27 complex**, `E₇` 56
+pseudoreal, `E₈` 248 real) has never been run over the **A- and D-series** McKay images.
+That is a cheap cell and it is the only thing that could convert exceptionality from
+input to output.
+
+### (b) Why the principal `sl₂`? — **there IS a forcing argument, and I was under-citing it**
+`B429`: embeddings `sl₂ ↪ 𝔢₆` are infinitesimally rigid, **`H¹(sl₂,𝔢₆) = 0`** (Whitehead,
+verified block by block), so *"the tangent to 'factors through SOME sl₂' is precisely the
+m=1 line"*. With `B463` (`C_{𝔢₆}(principal) = 0` exact) and `B854` (multiplicities
+**recovered, not assumed**). Three green locks. **Now in the paper**, replacing "argument
+from economy". The residue is real and stated: no source proves that **`2T` must go
+there** — that inheritance is what keeps this C4.
+
+### (c) What is the 2880 representation? — **named at last**
+The **`SU(3)` level-two modular (Kac–Peterson)** representation: six primaries,
+`R ↦ T`, `L ↦ Σ⁻¹T⁻¹Σ`, target `GL(6, ℚ(ζ₆₀))`, `ord T = 15`. Order 2880 by mod-`p`
+enumeration at two unramified primes plus **Serre injectivity**; 63 = 7×9 classes.
+
+> ## **And this closed a live risk.** "2880" names **three different groups** in the
+> corpus, and my Prop 4 said "the level-15 congruence data" — which
+> `RETRACTED_PHRASES` row 9 polices, because at level 15 the **θ-odd 2-dim block has
+> order 360** (`2I × ℤ/3`) while the **full 6-dim stage has 2880**, index 8. Both true;
+> my phrasing read as the retracted claim. **Fixed by naming the representation.**
+
+### The strongest omission in this territory
+`B1019` — the silver's own door: **order 32, seven involutions, no `−I` ⟹ no `SU(2)`
+embedding, no McKay partner, no Lie entry**; bronze gives the full `SL(2,13)`, order
+2184, **over the ADE cap**. That is the *same* involution lemma the paper already proves
+for `SL(2,ℤ/4)`, applied where it discriminates — and it upgrades the negative control
+from *"fails four of five tests"* to ## **"has nowhere to begin."**
+
+### A counting inconsistency to resolve in Wave 2
+**The entrance is not a link in the chain ledger.** `THEOREM_LEDGER` runs C1→C43 and the
+step `ℚ(√−3) → 2T → E₆` **appears nowhere as a numbered link** — the chain jumps C6
+(Thurston/Riley) → C7 (forced faces) and first meets `2T` at C24, downstream. The paper's
+census counts "43 links". **The step the paper calls its only novelty is not one of them.**
