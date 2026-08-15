@@ -49,6 +49,7 @@
 \newcommand{\disc}{\operatorname{disc}}
 \newcommand{\coker}{\operatorname{coker}}
 \newcommand{\Gal}{\operatorname{Gal}}
+\newcommand{\ad}{\operatorname{ad}}
 
 \begin{document}
 
@@ -70,13 +71,15 @@ algebras, cone-manifold geometric transition}
 Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We prove that
 this family is not a modelling choice: it is exactly the class of hyperbolic
 unimodular classes whose dominant eigenvalue has purely periodic continued fraction of
-period one. Inside it we exhibit \emph{four logically independent selections of the
-golden member $m=1$}, each over the whole infinite family and each anchored in a
-classical theorem: a homological one, $H_1(M_m)\cong\Z\oplus(\Z/m)^2$, so that only
+period one. Inside it we exhibit \emph{three logically independent selections of the
+golden member $m=1$, and a fourth criterion narrowing to $\{1,2\}$}---each over the
+whole infinite family and each anchored in a classical theorem: a homological one, $H_1(M_m)\cong\Z\oplus(\Z/m)^2$, so that only
 $m=1$ is a knot complement; an arithmetic one, $|\SL(2,\Z/(m^2{+}4))|$ being the order
 of an exceptional binary polyhedral group only at $m=1$; a subfactor one, the metallic
-mean clearing the Jones index wall only at $m=1$; and, with a stated limit, an
-arithmeticity criterion selecting $\{1,2\}$ and killing $m\ge3$.
+mean clearing the Jones index wall only at $m=1$; and an arithmeticity criterion which
+selects $\{1,2\}$ and kills $m\ge3$, included with its limit stated because it is the
+criterion a hyperbolic geometer applies first and it does \emph{not} single out the
+golden.
 
 The golden member is the figure-eight knot complement. We then follow its own
 arithmetic, with no measured quantity entering any computation, to a $78$-dimensional
@@ -239,11 +242,12 @@ restatements of Hurwitz}: they distinguish one member of a family of pairwise
 non-homeomorphic manifolds, which Hurwitz cannot do.
 \end{remark}
 
-\section{The metallic family is canonical, not chosen}\label{sec:canonical}
+\section{The metallic family is intrinsically characterized}\label{sec:canonical}
 
 A referee's first objection to any ``uniqueness inside a family'' theorem is that the
-family was chosen to make it true. We remove that objection before stating any
-uniqueness.
+family was chosen to make it true. We answer the sharpest form of it---that the family
+has no description independent of the conclusion---while being explicit about what is
+\emph{not} thereby answered.
 
 \begin{definition}
 For $m\ge1$ let $\lambda_m=\tfrac12\bigl(m+\sqrt{m^2+4}\bigr)$ be the $m$-th
@@ -275,10 +279,20 @@ Distinct $m$ give distinct traces, hence distinct classes.
 \end{proof}
 
 \begin{corollary}\label{cor:c3family}
-Squaring, as C3 requires, carries this class to $\{\phi_m\}_{m\ge1}$. \textbf{The family
-quantified over in \S\ref{sec:four} is therefore not a modelling restriction: it is the
-period-one class of \S\ref{sec:genesis}'s own continued-fraction language, made
+Squaring, as C3 requires, carries this class to $\{\phi_m\}_{m\ge1}$. \textbf{The family quantified over in \S\ref{sec:four} is therefore the period-one
+class of \S\ref{sec:genesis}'s own continued-fraction language, made
 orientation-preserving.}
+
+\begin{scope}[what this does and does not settle]\label{sc:notunchosen}
+Theorem~\ref{thm:canonical} shows the metallic family is \emph{intrinsically
+characterized}: it has a description in the ambient language that does not mention its
+members. \textbf{It does not show that period one is the only admissible period.}
+Period two, bounded partial quotients, and Markov classes are equally definable
+families, and nothing proved here excludes them. So the honest statement is
+``characterized, not ad hoc'', and \emph{not} ``forced''; a reader who wants the
+stronger claim should regard the choice of period one as a fourth declared choice,
+whose price is that the results of \S\ref{sec:four} are statements about this family.
+\end{scope}
 \end{corollary}
 
 \begin{scope}\label{sc:latimer}
@@ -415,16 +429,16 @@ field of the discriminant, and it is why field-level genericity results do not t
 \subsection{Selection III: subfactor-theoretic, via the Jones index}\label{sec:jones}
 
 \begin{theorem}\label{thm:jones}
-$\lambda_m<2$ if and only if $m=1$, and $\lambda_1=\varphi=2\cos(\pi/5)$. Hence the
-golden mean is the unique metallic mean admissible as the dimension of an object in a
-unitary fusion category of index below $4$; every $m\ge2$ lies above the Jones index
-wall.
+$\lambda_m<2$ if and only if $m=1$, and $\lambda_1=\varphi=2\cos(\pi/5)$. Hence the golden mean is the unique metallic mean admissible as the \emph{statistical
+dimension of the generating bimodule of a subfactor of index below $4$}; every $m\ge2$
+lies above the Jones index wall. (We state it for subfactor bimodules rather than for
+objects of a fusion category, since it is the inclusion that carries the index.)
 \end{theorem}
 
 \begin{proof}
 $\lambda_m$ is strictly increasing in $m$, and $\lambda_2=1+\sqrt2>2$, so $\lambda_m>2$
 for all $m\ge2$; whereas $\lambda_1=\tfrac12(1+\sqrt5)=\varphi<2$. By Jones' index
-theorem the admissible indices below $4$ are exactly $4\cos^2(\pi/n)$, $n\ge3$, so the
+theorem the admissible indices below $4$ are exactly $4\cos^2(\pi/n)$, $n\ge3$~\cite{Jones}, so the
 admissible dimensions below $2$ are $2\cos(\pi/n)$; and $\varphi=2\cos(\pi/5)$.
 \end{proof}
 
@@ -435,11 +449,31 @@ therefore does not touch it, and vice versa.
 
 \subsection{Selection IV: arithmeticity, and its honest limit}\label{sec:arithmeticity}
 
-\begin{theorem}[Maclachlan--Reid]\label{thm:arith}
-There are exactly two arithmetic once-punctured-torus bundles. In the metallic family
-they are $m=1$, with invariant trace field $\Q(\sqrt{-3})$, and $m=2$, with invariant
-trace field $\Q(i)$; every $m\ge3$ is non-arithmetic.
+\begin{theorem}[cf.~\cite{MaclachlanReid}]\label{thm:arith}
+\textbf{Within the metallic family}, exactly $m=1$ and $m=2$ are arithmetic: their
+invariant trace fields are $\Q(\sqrt{-3})$ and $\Q(i)$ respectively, and every $m\ge3$
+is non-arithmetic.
 \end{theorem}
+
+\begin{remark}[why the quantifier must be restricted]\label{rem:notglobal}
+The corresponding \emph{global} statement---``there are exactly two arithmetic
+once-punctured-torus bundles''---is \textbf{false}, and we record the counterexample
+because an earlier draft of this work asserted it. Arithmeticity is a commensurability
+invariant, so every finite cover of an arithmetic manifold is arithmetic; and the
+$n$-fold cyclic cover of $M_1$ in the base direction is again a once-punctured-torus
+bundle, with monodromy $\phi_1^{\,n}$. Hence $\{M_{\phi_1^n}\}_{n\ge1}$ is an infinite
+family of arithmetic once-punctured-torus bundles.
+
+These do not disturb Theorem~\ref{thm:arith}, because for $n\ge2$ they leave the
+metallic family: $\tr\phi_1^{\,n}=m^2+2$ requires $m^2=\tr\phi_1^{\,n}-2$, which is a
+square only at $n=1,3,5,\dots$, giving $m=1,4,11,\dots$---and even there the matrices
+are \emph{not} conjugate. For instance $\phi_1^{3}$ and $\phi_4$ share trace $18$,
+determinant $1$, \emph{and} mapping-torus torsion $(\Z/4)^2$, yet no
+$P\in\GL(2,\Z)$ conjugates one to the other: a concrete illustration of the
+Latimer--MacDuffee phenomenon already flagged in Scope~\ref{sc:latimer}. \textbf{So the
+$m=1,4,11$ coincidence of Scope~\ref{sc:finer} is a trace coincidence, not a covering
+relation.}
+\end{remark}
 
 \begin{scope}\label{sc:arithlimit}
 \textbf{This criterion does not single out the golden}: it selects $\{1,2\}$. We include
@@ -532,11 +566,21 @@ group surjections. (Cf.~\cite{Stuebner} for the surrounding representation lands
 \end{scope}
 
 \begin{proposition}[a group-level presence that survives Scope~\ref{sc:asym}]\label{prop:2880}
-The group generated by the grammar's own two letters satisfies
-$|\langle R,L\rangle|=2880=|2T\times2I|$ exactly, verified by enumeration at two
-unramified primes together with a Serre injectivity argument, with a class-by-class
-character match of $63/63$.
+Let $\rho$ be the representation of the grammar's letters carried by the level-$15$
+congruence data. Then $|\langle\rho(R),\rho(L)\rangle|=2880=|2T\times2I|$ exactly,
+verified by enumeration at two unramified primes together with a Serre injectivity
+argument, with a class-by-class character match of $63=7\times9$.
 \end{proposition}
+
+\begin{scope}\label{sc:2880}
+\textbf{The statement is about $\rho(R),\rho(L)$, not about $R,L$}: the letters
+themselves generate an infinite subgroup of $\SL(2,\Z)$, so the literal claim without
+$\rho$ would be false. We record that $\rho$ is specified in the source computation and
+\textbf{is not reconstructed in this paper}; a reader should treat
+Proposition~\ref{prop:2880} as a certificate whose ambient representation is cited
+rather than exhibited, and \S\ref{sec:entrance}'s conclusions do not rest on it---it
+supplements Scope~\ref{sc:asym} rather than repairing it.
+\end{scope}
 
 This does not contradict Scope~\ref{sc:asym}: there the group is a quotient of
 $\pi_1(4_1)$; here it is generated by $R$ and $L$ inside the ambient instrument.
@@ -545,15 +589,20 @@ group level in the knot group.}
 
 \subsection{A mechanism for the shadow}
 
-\begin{theorem}[quantization-index law]\label{thm:qil}
-Reduction modulo the shadow modulus is an isomorphism exactly when the cusp conductor is
-coprime to it, and acquires a kernel line exactly when it is not. For the golden,
-$\gcd(4,5)=1$: an isomorphism. For the silver, $\gcd(2,8)=2$: ramified.
-\end{theorem}
+\begin{scope}[the quantization-index law, stated as an observation]\label{obs:qil}
+The source material records a \emph{quantization-index law}: that reduction modulo the
+shadow modulus is an isomorphism exactly when the cusp conductor is coprime to it, and
+acquires a kernel line otherwise, with $\gcd(4,5)=1$ for the golden and $\gcd(2,8)=2$
+for the silver. \textbf{We do not state this as a theorem here}, because the paper does
+not specify the source and target of the reduction map, nor the module in which a
+``kernel line'' lives, and two gcd evaluations are instances rather than a proof of an
+equivalence. It is reported as an observation consistent with
+Theorem~\ref{thm:shadow}, and \textbf{nothing in \S\ref{sec:four} depends on it}.
+\end{scope}
 
-So the golden's shadow is exceptional for \emph{two} independent reasons---the order
-count of Theorem~\ref{thm:shadow} and the coprimality of Theorem~\ref{thm:qil}---and the
-silver satisfies neither.
+So the golden's shadow is exceptional by the order count of
+Theorem~\ref{thm:shadow}, and the coprimality of Observation~\ref{obs:qil} points the
+same way without being independently established here.
 
 \begin{remark}[a terminology warning]
 The bare noun ``conductor'' names two different quantities in adjacent statements: the
@@ -567,8 +616,8 @@ The step from the manifold's arithmetic to the exceptional algebra is the one st
 the whole construction that consumes the arithmetic (\S\ref{sec:suspicious}). It is
 therefore the step at which ``we then take $2T$'' would be fatal. It is not a taking.
 
-\begin{theorem}[classification of admissible entrances]\label{thm:classify}
-Among the six candidate finite groups $\{A_4,S_4,2T,2O,A_5,2I\}$---constructed
+\begin{theorem}[classification among the polyhedral candidates]\label{thm:classify}
+Among the six finite groups $\{A_4,S_4,2T,2O,A_5,2I\}$---constructed
 concretely, the binary ones as unit quaternions ($2T$ the $24$ Hurwitz units, $2O$ the
 $48$, $2I$ the $120$ icosians), the others as permutation groups, with conjugacy
 classes, power maps and characters computed rather than transcribed---a complex
@@ -580,9 +629,76 @@ branching computation.
 
 Of the two survivors only $2T$ is binary, i.e.\ a subgroup of $\SU(2)$, which is what
 the McKay correspondence requires; $A_4$ is its image in $\mathrm{SO}(3)$ and carries no
-faithful quaternionic $2$. \textbf{So the entrance is forced by a classification over
-the candidate set, not selected from it}, and the Eisenstein $\omega$---the generator of
-the field bought at C2---is exactly the resulting window.
+faithful quaternionic $2$.
+
+\begin{scope}[the candidate set is an input]\label{sc:candidates}
+\textbf{This is a classification \emph{among the six polyhedral candidates}, not over
+all finite subgroups of $\SU(2)$}, which also include the cyclic and binary dihedral
+families. Those are excluded here by the prior restriction to the exceptional
+($E$-type) series---the same restriction Remark~\ref{rem:vacuous} shows to be necessary
+for Theorem~\ref{thm:shadow} to have content. \textbf{So exceptionality is an input to
+this classification and not an output of it}, and the honest reading of
+Theorem~\ref{thm:classify} is: \emph{given} that the entrance is to be exceptional, the
+$27$-with-invariant-cubic condition leaves only $A_4$ and $2T$, and only $2T$ is binary.
+Closing the gap---deriving exceptionality rather than assuming it---is the single most
+valuable open problem this paper leaves.
+\end{scope}
+
+\subsection{An unpriced step, now priced: why the principal $\sll_2$?}\label{sec:principal}
+
+McKay attaches $E_6$ to $2T$. It does \textbf{not} attach $2T$ to any particular
+$\sll_2\subset\ee_6$, and $\ee_6$ has many $\sll_2$-conjugacy classes. Appendix~A places
+$2T$ inside the \emph{principal} $\sll_2$ and takes invariants there, and the four
+degrees $8,14,16,22$---hence the whole of \S\S\ref{sec:frame}--\ref{sec:cascade}---depend
+on that placement.
+
+\begin{scope}[C4, declared here rather than left implicit]\label{sc:principal}
+\textbf{The principal placement is a fourth declared choice, and we price it.} What can
+be said in its favour is real but is not a derivation: the principal $\sll_2$ is the
+unique conjugacy class that is regular, it is characterized by having its centralizer as
+small as possible, and---the property actually used---\textbf{it is the only class whose
+$\ad$-decomposition is multiplicity-free}, so that placing $2T$ in it requires no further
+discrete datum to say \emph{which} copy of each degree is meant. Any non-principal
+placement carries multiplicities and therefore needs exactly the kind of extra choice
+the cost claim forbids.
+
+\textbf{That is an argument from economy, not a theorem}, and until it is one the
+sentence ``between the manifold and the algebra there is no declared choice'' must be
+read as ``no declared choice \emph{after} the principal placement''.
+Census~\ref{cen:forced} is amended accordingly: \textbf{four declared choices become
+five}, C1--C3 before the manifold, C4 here, and the observer's closing after the algebra.
+\end{scope}
+
+\subsection{A worked negative control: the silver member}\label{sec:silver}
+
+The concern of \S\ref{sec:suspicious}---that a construction reaching $E_6$ might reach it
+from anything---is best answered not by argument but by running the construction on the
+nearest live candidate and showing where it dies. The silver member $m=2$ is the right
+test: it is \emph{not} excluded by Selection~IV, being arithmetic
+(Theorem~\ref{thm:arith}), so it survives the criterion a hyperbolic geometer would apply
+first.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}p{0.30\textwidth}p{0.28\textwidth}p{0.30\textwidth}@{}}
+\toprule
+step & golden $m=1$ & silver $m=2$\\
+\midrule
+$H_1(M_m)$ (Sel.~I) & $\Z$ & $\Z\oplus(\Z/2)^2$ --- \textbf{dies}\\
+arithmetic? (Sel.~IV) & yes, $\Q(\sqrt{-3})$ & yes, $\Q(i)$ --- \emph{survives}\\
+$\lambda_m<2$ (Sel.~III) & $\varphi=2\cos(\pi/5)$ & $1+\sqrt2>2$ --- \textbf{dies}\\
+shadow modulus $N_m$ & $5$ & $8$\\
+$|\SL(2,\Z/N_m)|$ (Sel.~II) & $120=|2I|$ & $384$ --- \textbf{dies}\\
+$\gcd(\text{cusp cond.},N_m)$ & $\gcd(4,5)=1$, iso & $\gcd(2,8)=2$, ramified --- \textbf{dies}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{The silver member fails four of the five tests and passes the arithmeticity
+one}, which is precisely why Selection~IV is included with its limit stated
+(Scope~\ref{sc:arithlimit}) rather than omitted. The construction is therefore not a
+machine that manufactures an exceptional entrance from any input: on the nearest
+neighbour it stops, and one can say at which step and for what reason.
 
 \subsection{The recurring shape}\label{sec:shape}
 
@@ -616,8 +732,10 @@ terminal algebra, which \S\ref{sec:falsifiers} is at pains to keep in proportion
 
 \begin{census}\label{cen:forced}
 Of the $43$ links in the full chain, $26$ are theorems, $6$ exact identities, $5$ no-go
-results, $1$ a corollary and $1$ a census; $4$ are declared choices, at links
-$3,4,5,18$. \textbf{Between the manifold and the algebra there is no declared choice.}
+results, $1$ a corollary and $1$ a census; \textbf{$5$ are declared choices}---C1--C3
+before the manifold, C4 the principal placement (Scope~\ref{sc:principal}), and the
+observer's closing after the algebra. \textbf{Between the manifold and the algebra the
+only declared choice is C4.}
 The declared inputs carried by the algebra steps are itemized in \S\ref{sec:inputs};
 note that Census~\ref{cen:forced} counts \emph{links containing choices}, which is not
 the same as counting independent stipulations.
@@ -631,9 +749,32 @@ invariants under the principal $\sll_2$---Klein forms of degrees $8,14,16,22$, t
 exponents $4,7,8,11$.
 
 \begin{proposition}\label{prop:C}
-$C$ is abelian with $\uu(1)^4$ closure, and the four Klein forms are the complete list
-of $2T$-invariants in $\ee_6$ under the principal $\sll_2$.
+The four degrees $8,14,16,22$ are the complete list, and each invariant is unique up to
+scale. Moreover $C$ is abelian.
 \end{proposition}
+
+\begin{proof}[Proof of the completeness and uniqueness]
+Under the principal $\sll_2$, $\ee_6$ decomposes into irreducibles of highest weight
+twice the exponents, i.e.\ into degrees $2\cdot(1,4,5,7,8,11)=(2,8,10,14,16,22)$. The
+Molien series of $2T$ acting on $\mathrm{Sym}^\bullet(\C^2)$,
+\[
+   \sum_{n\ge0}\dim\bigl(\mathrm{Sym}^n\C^2\bigr)^{2T}t^n
+   =\frac{1}{24}\sum_{g\in 2T}\frac{1}{\det(1-tg)},
+\]
+has support $\{0,6,8,12,14,16,18,20,22,24,\dots\}$ in degrees $\le24$, with
+coefficient $1$ at $8,14,16,22$ and \textbf{coefficient $0$ at $2$ and $10$}.
+Intersecting the two lists leaves exactly $\{8,14,16,22\}$, each with a
+one-dimensional invariant space. Hence $C$ is $4$-dimensional and the two skipped
+exponents are skipped for a representation-theoretic reason, not by selection.
+\end{proof}
+
+\begin{scope}\label{sc:abelian}
+\textbf{Abelianness is a separate statement} and we do not claim it follows from the
+invariant theory: a Molien computation bounds dimensions of invariant subspaces and says
+nothing about brackets. It is verified as an exact rational computation over the
+Chevalley basis of Appendix~\ref{app:construct}, and is listed as a certificate rather
+than as a proof in the audit of \S\ref{sec:audit}.
+\end{scope}
 
 \begin{proposition}\label{prop:mu}
 The two pencil determinants are exact powers, up to nonzero rational constants, of an
@@ -1165,6 +1306,22 @@ exists.
 \begin{thebibliography}{9}
 
 \bibitem{Baez} J.~C. Baez, \emph{From the icosahedron to $E_8$}, arXiv:1712.06436.
+
+\bibitem{Fricke} R. Fricke and F. Klein, \emph{Vorlesungen \"uber die Theorie der
+automorphen Functionen}, Teubner, 1897; and W. Goldman, \emph{Topological components of
+spaces of representations}, Invent. Math. \textbf{93} (1988), 557--607, for the
+once-punctured-torus character variety.
+
+\bibitem{Jones} V.~F.~R. Jones, \emph{Index for subfactors}, Invent. Math. \textbf{72}
+(1983), 1--25.
+
+\bibitem{MaclachlanReid} C. Maclachlan and A.~W. Reid, \emph{The Arithmetic of
+Hyperbolic 3-Manifolds}, Graduate Texts in Mathematics \textbf{219}, Springer, 2003.
+
+\bibitem{Molien} T. Molien, \emph{\"Uber die Invarianten der linearen
+Substitutionsgruppen}, Sitzungsber. K\"onig. Preuss. Akad. Wiss. (1897), 1152--1156;
+see also T.~A. Springer, \emph{Invariant Theory}, Lecture Notes in Math. \textbf{585},
+Springer, 1977.
 
 \bibitem{BartonSudbery} C.~H. Barton and A. Sudbery, \emph{Magic squares and matrix
 models of Lie algebras}, Adv. Math. \textbf{180} (2003), no.~2, 596--647.
