@@ -16,7 +16,13 @@ what gets ticked at upload time.*
 
 ## 2. Title — ## PROPOSED (option 4, genesis-first)
 
-> ## **From minimal description to E₆: a parameter-free chain through the figure-eight knot complement**
+> ## **The golden grammar: four independent selections inside a canonical family, and a parameter-free chain to an exceptional Lie algebra**
+>
+> *(Superseded 2026-08-15: the earlier title, "From minimal description to E₆: a parameter-free
+> chain through the figure-eight knot complement", described the 8-page compressed version.
+> The paper's subject changed when the four selection theorems became its spine, and the title
+> follows the subject: it now names a **selection theorem**, which is what is proved, rather
+> than a destination, which is generic.)*
 
 **Why this one.** The owner's constraint is that the paper *starts from minimal
 description*, and the title should say so — the three inherited candidates all opened at
@@ -45,7 +51,9 @@ decision but retained there for the record.)*
 
 ## 3. Classification
 
-**Primary: `math.GT`** (Geometric Topology) — the object is a hyperbolic 3-manifold and the
+**Primary: `math.GT`** (Geometric Topology) — unchanged; the selection theorems are
+about once-punctured-torus bundles. Note the added secondary **`46L37`** (subfactors), for
+the Jones-index selection — the object is a hyperbolic 3-manifold and the
 genesis is a surface-bundle construction; §§3–5 are the paper's spine and live here.
 
 **Cross-list:** `math.NT` (the arithmetic of §4–§5 — the Kleinian trace field and the fiber
