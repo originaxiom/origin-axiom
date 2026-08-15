@@ -42,9 +42,37 @@ Three further facts are used downstream and stated here without proof.
 > **Theorem 4.3 (congruence).** The manifold's group is a congruence subgroup.
 > *(G9; `tests/test_b734_m004_congruence.py`.)*
 
-> **Theorem 4.4 (character rigidity).** The continuous spectrum is a single
-> channel, with scattering determinant `φ(s) = Λ_K(s−1)/Λ_K(s)` exactly.
-> *(G10; `tests/test_b737_candidate_zero.py`, `tests/test_b739_rigidity.py`.)*
+> ## ⚠ **Theorem 4.4 — SUSPENDED 2026-08-15, do not carry into the paper as stated.**
+> The intended claim was: the continuous spectrum is a single channel, with an exact
+> scattering determinant. **Three defects, all found by the Wave-1 inventory:**
+>
+> **(i) The corpus banks TWO CONTRADICTORY FORMULAS at equal authority.** B739 and
+> `THEOREM_LEDGER` C10 give `Λ_K(s−1)/Λ_K(s)`; B737's own verdict and `LAW_MAP` give
+> `Λ_K(s)/Λ_K(s+1)`. They differ by `s ↦ s−1`, and **no arc states the convention**.
+> This draft cited *both* arcs as locks for one sentence.
+>
+> **(ii) Neither lock covers the function-level identity.** The two tests assert the
+> `ℤ/4` coset character sum, the residue triangle, the index 12, the level palette and
+> the disc-`−48` cusp — the identity itself appears **only as a comment**. The arc's own
+> status line reads *"proven modulo 3 NAMED classical inputs … cited, not re-proven"*,
+> and multiplicity-one is source-verified rather than proved.
+>
+> **(iii) The result is GENERIC, and the corpus says so.** The programme's own audit:
+> *"φ(s) = Λ_K(s−1)/Λ_K(s) for **every** one-cusped quotient of PSL(2,O₃)\H³. **Not
+> m004-specific**"*, and *"the scattering IS generic … by the letter of the falsifier,
+> the thesis takes a hit. I report this honestly."*
+>
+> **What survives and may be used:** a one-cusp exact-transfer lemma was proved
+> directly, and the level-character escape was closed by an exact Fourier restriction —
+> so **level-dependent factors are proved absent**, which is the honest sentence. It is
+> a statement about the *field* and the cusp count, not about this manifold. The genuinely
+> m004-specific spectral data are the residue through `vol(m004)` and the conductor-4,
+> disc-`−48` cusp CM.
+>
+> **This is exactly the objection an external referee raised and I could not then
+> answer.** The answer is that the corpus is inconsistent, not that the referee was wrong.
+> *(G10; locks `tests/test_b737_candidate_zero.py`, `tests/test_b739_rigidity.py` — both
+> green, neither covering the suspended clause.)*
 
 > **Identity 4.5 (the mixing structure).** The θ-odd block of the weld is exactly
 > unitary with eigenphases `±72°`, and its overlap matrix is unistochastic and
