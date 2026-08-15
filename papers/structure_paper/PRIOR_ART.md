@@ -19,6 +19,17 @@ a **different and narrower instrument**: 19 algebra-layer `T-*` theorems, of whi
 carry a disposition; 10 rows are EMPTY**, including **`T-MAGIC`**, the magic-square
 identification that is this paper's §7.2.
 
+**And there is a third, older than both.** `docs/NOVELTY_AUDIT.md` (2026-06-09) is a deep
+adversarial pass — fan-out search → fetch → three-vote verification → cited synthesis — with a
+proper verdict enum and **65 graded verdicts: 22 KNOWN · 16 NEEDS-SPECIALIST · 14 APPEARS-NOVEL
+· 13 PARTIALLY-KNOWN**. Its stance is the right one (*"assume known, try hard to find prior art
+before concluding novel"*), and **its CLAIM 2 directly constrains §5.3** — see §2.4 below.
+
+> **So the programme has THREE prior-art instruments, built at three different times, and no
+> single document points at all three.** That is the retrieval failure in its purest form: the
+> work exists, is good, and is not reachable from where a writer stands. **This file is the
+> index that was missing**, and the paper is now written against all three.
+
 > **Consequence for the paper, stated plainly: "the novelty sweep established that the
 > algebra layer is standard" is true of the rows that were swept and NOT of the rows that were
 > not.** §7 must cite Barton–Sudbery directly (it now does) rather than lean on a ledger row
@@ -75,6 +86,26 @@ FINDINGS cited all of them; the §5.3 draft had dropped the line and has been co
 > connected to `E₈`" (known) but **"over the family `RᵐLᵐ`, each grammar evaluated at *its own*
 > shadow modulus `m²+4`, exactly one lands"** — a selection statement about a family and a
 > modulus. **That is the claim to defend, and it is a different claim.**
+
+### 2.4 The asymmetry of the two ends — `NOVELTY_AUDIT`'s CLAIM 2
+
+Found 2026-08-15, carried into §5.3 as **Scope 5.3′**, and **it runs opposite to the direction
+the phrasing invites.**
+
+| end | field | group surjection from `π₁(4₁)` |
+|---|---|---|
+| hyperbolic / `E₆` | `ℚ(√−3)` | ## **YES — `π₁(4₁) ↠ 2T`, exactly two quotients** |
+| spherical / `E₈` | `ℚ(√5)`, `det = 5` | ## **NO — `2I → 0`, and `A₅ → 0`** |
+
+Established by direct computation (GAP `GQuotients`) on the programme's own bench, banked as
+the B266 correction. **The two ramified-prime reductions are symmetric as fields and NOT as
+group surjections.** Stuebner, arXiv:2502.06488, is cited as *context* — it treats binary
+icosahedral and `A₅` representations of hyperbolic integral homology spheres, not this knot.
+
+**Consequence carried in §5.4:** B997's `E₈`-end object is **not a quotient of the knot group at
+all**. That is not a defect in the theorem — B997 quantifies over **grammars** `RᵐLᵐ` and
+`SL(2,ℤ/N)`, never over manifolds — but the paper must not let the surrounding discussion of
+`m004` blur it.
 
 ### 2.3 Corrections banked during this pass
 

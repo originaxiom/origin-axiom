@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+"""Appendix B — run every verification the paper ships, print a table, exit non-zero
+on any drift.
+
+DESIGN CONSTRAINT, and it is the whole point of the appendix. The empirical failure
+mode of this programme is RETRIEVAL, not computation: across a full day inside the
+corpus every error was navigational and every computation reproduced exactly. The
+repo's own review banner says it -- "zero mathematics, all retrieval". So the paper
+must carry its verification INLINE, and a reader must never need the corpus.
+
+Therefore every script in this directory:
+  * imports NOTHING project-internal (sympy and the stdlib only),
+  * uses EXACT arithmetic in every verdict-bearing comparison -- no float decides
+    anything,
+  * prints its own expected values, and
+  * exits non-zero on drift.
+
+This runner adds nothing to those guarantees; it just makes them one command.
+
+Run:  python3 verify_all.py            (from anywhere)
+      python3 verify_all.py --list     (names only)
+
+Exit 0 = every check reproduced. Exit 1 = at least one did not.
+"""
+
+import os
+import subprocess
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+def scripts():
+    """Every check_*.py beside this file, in stable order."""
+    return sorted(f for f in os.listdir(HERE)
+                  if f.startswith("check_") and f.endswith(".py"))
+
+
+def main(argv):
+    names = scripts()
+
+    if "--list" in argv:
+        for n in names:
+            print(n)
+        return 0
+
+    # An empty suite must FAIL. A verification appendix that verifies nothing is
+    # the exact shape of a check that cannot fail, and this file will not be it.
+    if not names:
+        print("FAIL: no check_*.py found in verify/ -- an empty suite is not a pass")
+        return 1
+
+    print("=" * 70)
+    print("Appendix B — verification suite")
+    print("=" * 70)
+
+    results = []
+    for name in names:
+        proc = subprocess.run([sys.executable, os.path.join(HERE, name)],
+                              capture_output=True, text=True)
+        ok = proc.returncode == 0
+        results.append((name, ok, proc))
+        print(f"  [{'PASS' if ok else 'FAIL'}]  {name}")
+        if not ok:
+            tail = (proc.stdout or "").rstrip().splitlines()[-15:]
+            for line in tail:
+                print(f"           {line}")
+            if proc.stderr.strip():
+                for line in proc.stderr.rstrip().splitlines()[-8:]:
+                    print(f"           ! {line}")
+
+    passed = sum(1 for _n, ok, _p in results if ok)
+    print("-" * 70)
+    print(f"  {passed} / {len(results)} verifications reproduced")
+
+    if passed != len(results):
+        print("\nFAIL: at least one claim in the paper did not reproduce.")
+        return 1
+    print("\nPASS: every numerical claim carried by Appendix B reproduces exactly.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
