@@ -16,8 +16,9 @@ WHAT IT CHECKS, in the arxiv source:
   1. The forcedness-audit table's status column uses a CLOSED vocabulary.  A new hedge
      word ("essentially forced", "morally forced", "forced modulo") is a failure, because
      hedges are how a cost claim erodes.
-  2. Every \\ref{...} appearing in either audit table resolves to a \\label{...} that
-     exists, and NEITHER table may go missing.
+  2. Every \\ref{...} in the audit table resolves to a \\label{...} that exists, and the
+     table may not go missing.  (There were two tables while the paper carried sections
+     that have since been cut for being unrefereeable; one remains.)
   3. Every row marked \\textbf{forced} cites at least one label whose environment is a
      theorem, proposition, lemma, corollary or census -- i.e. a warrant, not a scope or
      a remark.  A "forced" backed only by a Scope is exactly the defect the acceptance
@@ -52,7 +53,7 @@ HEDGES = ("essentially", "morally", "modulo", "largely", "effectively",
 
 WARRANT_ENVS = {"theorem", "proposition", "lemma", "corollary", "census", "nogo"}
 
-AUDIT_LABELS = (r"\label{sec:audit}", r"\label{sec:audit2}")
+AUDIT_LABELS = (r"\label{sec:audit}",)
 
 
 def _read(path=PAPER):
@@ -183,13 +184,14 @@ _SEEDS = [
                          r"Thm.~\ref{thm:doesnotexist}, the rung spectrum", 1)),
     ("forced with no warrant",
      lambda s: s.replace(
-         r"Cor.~\ref{cor:c7free}, the second plane is free" "\n"
-         r" & \textbf{forced}, given the line above",
-         r"Cor.~\ref{sc:audit}, the second plane is free" "\n"
-         r" & \textbf{forced}, given the line above", 1)),
+         r"Thm.~\ref{thm:rankceiling}, the rank ceiling" "\n"
+         r" & \textbf{proved here}, from Lem.~\ref{lem:toral}",
+         r"Thm.~\ref{sc:audit}, the rank ceiling" "\n"
+         r" & \textbf{forced}, from a Scope", 1)),
     ("stray forced in the body",
-     lambda s: s.replace(r"\section{The real form}",
-                         "\n\nThis step is \\textbf{forced}.\n\n\\section{The real form}", 1)),
+     lambda s: s.replace(r"\section{What the construction does not yield}",
+                         "\n\nThis step is \\textbf{forced}.\n\n"
+                         r"\section{What the construction does not yield}", 1)),
 ]
 
 
