@@ -253,13 +253,33 @@
   isbn      = {9780198827542},
 }
 
-% STATUS: PARTIALLY-OPENED (abstract only, 2026-08-15) -- *** NOT CLEARED ***
-% The nearest thing found to the entrance theorem's shape: matrices attached to
-% Christoffel words, with a GROUP STRUCTURE, their DETERMINANTS, and a relation to
-% the ZOLOTAREFF SYMBOL (itself a mod-n object). The abstract does not mention
-% SL(2,Z/N), congruence images, McKay or E8 -- but an abstract is not a clearance.
-% READ THE FULL PDF BEFORE SUBMISSION. This is precisely the P5 failure shape:
-% adjacent work, judged from a summary.
+% STATUS: OPENED (full text, 2026-08-15) -- *** CLEARED, and here is why ***
+% The nearest-looking prior art for the entrance theorem, read in full rather than
+% judged from its abstract. It is a DIFFERENT OBJECT at every step:
+%
+%   their matrix   : the BURROWS-WHEELER matrix of a Christoffel word -- an n x n
+%                    matrix whose rows are the word's conjugates in lex order,
+%                    n = the WORD LENGTH
+%   their group    : a commutative subgroup of GL_n(K), isomorphic to
+%                    K* x K* x G_n with G_n the maps x -> rx on Z/nZ
+%   their modulus  : n, the WORD LENGTH (and, in the Fibonacci application, F_m)
+%   their invariant: det M_n(a,b,r) = ((n-r)a + rb)(b-a)^{n-1} sgn(omega_r), the
+%                    sign being the ZOLOTAREFF symbol, a generalisation of Jacobi
+%
+%   B997's matrix  : the word's 2x2 SL(2,Z) monodromy
+%   B997's modulus : m^2 + 4, the DISCRIMINANT of the metallic ratio
+%   B997's invariant: whether |SL(2,Z/(m^2+4))| is a McKay-group order
+%
+% Verified absent from the full text: SL(2,Z/N), congruence subgroups, congruence
+% images, finite quotients in that sense, binary polyhedral groups, McKay, E6/E7/E8,
+% metallic ratios, and m^2+4. The only shared structure is the shape
+% "word -> matrix -> reduce mod something -> number-theoretic invariant", where the
+% matrix, the modulus and the invariant are all different.
+%
+% (One near-coincidence, recorded so it is not mistaken for an overlap later: their
+% Fibonacci application reduces mod F_m, and F_5 = 5 = 1^2 + 4 is the golden's shadow
+% modulus. The indexing is unrelated -- theirs by word generation, B997's by the
+% metallic discriminant.)
 @article{ChristoffelMatrices2024,
   title   = {Christoffel Matrices and Sturmian Determinants},
   journal = {arXiv preprint},

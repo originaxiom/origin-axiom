@@ -152,19 +152,35 @@ re-import it.
 | source | status |
 |---|---|
 | Reutenauer 2019 (monograph) | **RESOLVED** and now cited |
-| `Christoffel Matrices and Sturmian Determinants`, arXiv:2409.09824 (2024) | ## **PARTIALLY-OPENED — abstract only. NOT CLEARED.** |
+| `Christoffel Matrices and Sturmian Determinants`, arXiv:2409.09824 (2024) | ## ✅ **OPENED IN FULL — CLEARED** |
 
-That 2024 paper attaches matrices to Christoffel words, shows they have a **group
-structure**, computes their **determinants**, and relates them to the **Zolotareff
-symbol** — itself a mod-`n` object. Its abstract mentions no `SL(2,ℤ/N)`, no
-congruence image, no McKay. ## **But an abstract is not a clearance, and judging
-adjacent work from a summary is exactly how P5 died. The full PDF must be read
-before submission.**
+**Read in full 2026-08-15, not judged from its abstract.** It is a different object
+at every step:
 
-**Verdict on the entrance claim: NOT-FOUND, NOT-CLEARED.** The searches located the
-right neighbourhood and did not find the step — *each grammar evaluated at its own
-shadow modulus* — in it. That is recorded as a not-found, with the one unread
-adjacent paper named, rather than as an absence.
+| | arXiv:2409.09824 | B997 (§5.4) |
+|---|---|---|
+| the matrix | the **Burrows–Wheeler** matrix of a Christoffel word: `n × n`, rows = the word's conjugates in lex order, `n` = the **word length** | the word's **`2 × 2` `SL(2,ℤ)` monodromy** |
+| the group | a commutative subgroup of `GL_n(K)`, `≅ K* × K* × G_n`, `G_n` the maps `x ↦ rx` on `ℤ/nℤ` | `SL(2, ℤ/N)` |
+| the modulus | `n`, the **word length** (and `F_m` in the Fibonacci application) | `m² + 4`, the **discriminant of the metallic ratio** |
+| the invariant | `det = ((n−r)a+rb)(b−a)^{n−1}\,\mathrm{sgn}(ω_r)`, the sign being the **Zolotareff symbol** (a Jacobi generalisation) | whether `\|SL(2,ℤ/(m²+4))\|` is a **McKay-group order** |
+
+Verified absent from the full text: `SL(2,ℤ/N)`, congruence subgroups, congruence
+images, binary polyhedral groups, McKay, `E₆/E₇/E₈`, metallic ratios, `m²+4`. **The
+only thing shared is the shape** — *word → matrix → reduce mod something →
+number-theoretic invariant* — **and the matrix, the modulus and the invariant are
+each different.**
+
+*(One near-coincidence, recorded so a later reader does not mistake it for an
+overlap: their Fibonacci application reduces mod `F_m`, and `F₅ = 5 = 1²+4` is the
+golden's shadow modulus. The indexings are unrelated — theirs by word generation,
+B997's by the metallic discriminant.)*
+
+> ## **Verdict on the entrance claim: NOT-FOUND, and now CLEARED against the nearest
+> candidate.** Both bounding literatures have been searched — the icosahedron/`E₈`
+> cluster and the Christoffel/Sturmian-morphism literature — and the nearest paper in
+> the nearer one has been read end to end. The step *each grammar evaluated at its own
+> shadow modulus* was not found in either. **This is a not-found at the standard the
+> 19 rows were held to, not a search that stopped early.**
 
 ## 3. What remains open
 
@@ -188,8 +204,6 @@ adjacent paper named, rather than as an absence.
 3. **10 EMPTY rows** in the novelty sweep, `T-MAGIC` among them.
 4. **Seven `STANDARD` entries in `refs.bib`** — bibliographic data from memory, blocking.
 5. **B727's class-consuming step** — the third entrance claim, not yet searched.
-6. ## **arXiv:2409.09824 read in full** — the single highest-value remaining check. It is
-   the nearest thing found to the entrance theorem's shape, and it is currently judged from
-   an abstract.
+6. ## ✅ **arXiv:2409.09824 — READ IN FULL 2026-08-15, CLEARED.** See §2.5.
 
 **None of these is a reason to stop drafting. All of them are reasons not to submit.**
