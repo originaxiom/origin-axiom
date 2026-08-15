@@ -305,9 +305,49 @@ below.
 
 \section{Four independent selections of the golden}\label{sec:four}
 
-This section is the paper. Each subsection selects $m=1$ by a different classical
-criterion. \textbf{The four arguments share no lemma}, which is the point: an objection
-to any one leaves the others standing.
+This section is the paper. Before stating the criteria we state, and prove, the sense in
+which they are and are not independent---because the honest answer is sharper than the
+claim an earlier draft of this work made, and it is what a referee will test first.
+
+\begin{lemma}[the collapse lemma]\label{lem:collapse}
+Let $\chi_m(t)=\det(tI-\phi_m)=t^2-(m^2+2)t+1$. Then
+\[
+   \chi_m(1)=\det(\phi_m-I)=-m^2,\qquad
+   \chi_m(-1)=\det(\phi_m+I)=m^2+4,\qquad
+   \operatorname{tr}\phi_m=m^2+2 .
+\]
+\end{lemma}
+
+\begin{proof}
+Immediate from $\phi_m=\left(\begin{smallmatrix}m^2+1&m\\m&1\end{smallmatrix}\right)$:
+the characteristic polynomial is $t^2-(\operatorname{tr}\phi_m)t+\det\phi_m$ with
+$\operatorname{tr}\phi_m=m^2+2$ and $\det\phi_m=1$; evaluate at $t=\pm1$.
+\end{proof}
+
+\begin{scope}[what Lemma~\ref{lem:collapse} costs, stated before the criteria and not after]\label{sc:collapse}
+\textbf{The homological invariant, the shadow modulus and the coset level are the three
+values $\chi_m(1)$, $\chi_m(-1)$ and $\operatorname{tr}\phi_m$ of a single polynomial},
+and each of the corresponding criteria reduces to the same arithmetic step, $m^2=1$.
+An earlier draft asserted that the criteria ``share no lemma''. \textbf{That is false,
+and we withdraw it}: they share this one.
+
+What survives, and is worth stating precisely, is a distinction between two senses of
+independence. \emph{Extensional} independence is unattainable here and no paper should
+claim it: $m=1$ is the unique trace-three once-punctured-torus bundle, so \emph{any}
+property holding only of the figure-eight is automatically co-extensive with
+$\operatorname{tr}=3$. \emph{Mechanistic} independence is the real question---whether the
+theorems that declare the value at $m=1$ exceptional are separate theorems---and there
+the answer is genuinely affirmative: a trivial cokernel, an exceptional binary
+polyhedral order, and a subfactor index threshold are unrelated classifications that
+happen to be met at one value.
+
+\textbf{So the correct claim is not ``several independent selections'' but ``one
+arithmetic condition, and several unrelated exceptionality theorems satisfied at the
+value it picks out''}---together with genuinely separate criteria of different logical
+type (\S\ref{sec:arithmeticity}, and the pairwise condition of Scope~\ref{sc:pairwise}).
+Saying this ourselves is what makes the section survive the objection rather than invite
+it.
+\end{scope}
 
 \subsection{Selection I: homological}\label{sec:homological}
 
@@ -506,6 +546,16 @@ Inside the canonical family of \S\ref{sec:canonical}, the golden member is the u
 one satisfying any of I--III, and the unique one satisfying IV together with the
 trace-field condition of Scope~\ref{sc:arithlimit}.
 \end{corollary}
+
+\begin{scope}[the pairwise criterion, of a different logical type]\label{sc:pairwise}
+One banked criterion is not a condition on a single $m$ at all, and so escapes
+Lemma~\ref{lem:collapse} by construction: for the symmetric pair $A_m,A_n$ one has the
+Fricke-type identity $\operatorname{tr}[A_m,A_n]=2-(mn(n-m))^2$, so the commutator is
+parabolic exactly when $|mn(n-m)|=2$, whose unique solution with $1\le m<n$ is
+$(m,n)=(1,2)$. This is a two-variable Diophantine condition, not a function of $m^2$,
+and it selects the golden--silver \emph{pair} rather than a member. The identity itself
+is classical (Cohn; Fricke), and we cite rather than claim it.
+\end{scope}
 
 \begin{scope}[what this is not]
 None of the four is a statement about physics, and \textbf{none is evidence that the
