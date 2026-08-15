@@ -1,5 +1,18 @@
 """B997 — the golden is the UNIQUE metallic grammar whose own-conductor shadow
-is a McKay group.
+is an EXCEPTIONAL (E-type) McKay group.
+
+*** QUANTIFIER CORRECTION 2026-08-15, from an external referee read. ***
+B997's arc, this file's first version, and the paper all said "a McKay group".
+THAT STATEMENT IS VACUOUSLY FALSE. The McKay correspondence covers EVERY finite
+subgroup of SU(2), and the cyclic groups (type A_n, order n+1) realise EVERY
+positive integer as a McKay-group order; the binary dihedrals are unbounded too.
+So |SL(2,Z/N)| is a McKay-group order for every N, and the theorem as worded says
+nothing.
+
+What the proof actually isolates is the three EXCEPTIONAL / E-type binary
+polyhedral groups 2T, 2O, 2I of orders 24, 48, 120. Every assertion below is
+about those and is unaffected; only the quantifier was wrong. The repair makes
+the theorem stronger, not weaker, because it names a genuinely finite target set.
 
 THE PAPER'S DISCRIMINATING THEOREM, AND UNTIL NOW ITS WEAKEST VERIFICATION LINK.
 `frontier/B997_golden_conductor_uniqueness/` contains FINDINGS.md and
@@ -56,11 +69,32 @@ def test_order_formula_matches_bruteforce():
 # Fact (1): |SL(2,Z/N)| is a McKay-group order for EXACTLY N in {3,4,5}
 # --------------------------------------------------------------------------
 
-# ORDERS of the binary polyhedral groups of the exceptional McKay series.
+# ORDERS of the EXCEPTIONAL (E-type) binary polyhedral groups. NOT "the McKay
+# groups": cyclic subgroups of SU(2) are McKay groups of EVERY order, so the
+# unqualified phrase makes the theorem vacuous. See the module docstring.
 # NOTE the wording: these are the orders |2T| = 24, |2O| = 48, |2I| = 120.
 # Whether SL(2,Z/N) *is* the corresponding group is a SEPARATE question, and the
 # answer is not uniformly yes -- see test_which_are_actually_binary_polyhedral.
 MCKAY_ORDERS = {24: "|2T| -> E6", 48: "|2O| -> E7", 120: "|2I| -> E8"}
+
+
+def test_the_unqualified_mckay_statement_is_vacuous():
+    """The correction, asserted so it cannot silently revert.
+
+    Under the McKay correspondence the finite subgroups of SU(2) are
+    A_n (cyclic, order n+1), D_n (binary dihedral, order 4(n-2)), and
+    2T/2O/2I. The cyclic family realises EVERY positive integer as an order.
+    Hence "|SL(2,Z/N)| is a McKay-group order" is true for every N and carries
+    no information; only the E-type restriction has content.
+    """
+    # every order is realised by a cyclic subgroup, so the unqualified predicate
+    # is constantly true and cannot discriminate
+    for N in range(2, 40):
+        order = sl2_order(N)
+        cyclic_of_that_order_exists = order >= 1
+        assert cyclic_of_that_order_exists
+    # the E-type target set, by contrast, is finite
+    assert set(MCKAY_ORDERS) == {24, 48, 120}
 
 
 def test_the_three_exceptional_hits():

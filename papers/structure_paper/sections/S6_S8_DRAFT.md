@@ -117,12 +117,20 @@ this layer is standard exceptional-algebra theory.
 
 > **Theorem 7.3 (SMT).** Over `K`, on the block-12 matter pencil, the wall point
 > `y*` satisfies `dim z(x₁, y*) = 14`, with derived algebra of dimension `11` and
-> centre `≥ 3`, whence
+> centre of dimension `3`, whence the derived algebra has **algebraic type
+> `A₂ ⊕ A₁`**:
 > ```
->            z(x₁, y*)  =  su(3) ⊕ su(2) ⊕ u(1)³   exactly.
+>      z(x₁, y*) ⊗ K̄  ≅  sl₃ ⊕ sl₂ ⊕ t³   exactly.
 > ```
+> ## **Stated over `K`, this is a statement about ALGEBRAIC type, not about compact
+> real forms.** Writing `su(3) ⊕ su(2)` here would presuppose the answer §8 exists
+> to settle. Corrected 2026-08-15.
 > The within-`C` centralizer ladder is `{78, 46, 30, 18, 14, 12}`: the dimension
-> `26` of `su(5) ⊕ u(1)` **is not attained** — the second measurement skips it.
+> `26` **is not attained** — the second measurement skips it. ## **Label corrected
+> 2026-08-15:** `26 ≠ dim(su(5) ⊕ u(1)) = 25`. Every rung is the centralizer of a
+> subset of a **rank-6** torus and so has rank 6; `su(5) ⊕ u(1)` has rank 5 and
+> cannot be a rung at all. The rank-6 algebra of dimension 26 is
+> **`su(5) ⊕ u(1)²`**. The number was right, the label was not.
 >
 > *(Theorem C(i)–(iii); B892; `tests/test_b892_smt.py`.)*
 

@@ -16,9 +16,18 @@ principle, with **three declared choices whose alternatives we compute**, one re
 specific hyperbolic 3-manifold — the figure-eight knot complement. Its own arithmetic then
 determines a 78-dimensional exceptional Lie algebra with a distinguished four-element
 charge torus, and a cascade of centralizers of that torus terminates, exactly, at
-`su(3) ⊕ su(2) ⊕ u(1)³` with the global form `[SU(3)×SU(2)×U(1)]/ℤ₆` *(registry G18;
-`tests/test_b862_global_form.py`)*. **No measured quantity enters any computation at any
-point.**
+`su(3) ⊕ su(2) ⊕ u(1)³` *(B892; `tests/test_b892_smt.py`)*. **No measured quantity
+enters any computation at any point.**
+
+> ## ⚠ **A distinction this sentence used to blur, corrected 2026-08-15.** The terminal
+> centralizer has dimension `8+3+3 = 14` and **rank 6**, as every rung must, being the
+> centralizer of a subset of a rank-6 torus. It is **not** the 12-dimensional
+> `[SU(3)×SU(2)×U(1)]/ℤ₆` — quotienting by a finite `ℤ₆` cannot remove two continuous
+> `U(1)` directions. B862's result is about a **different object at a different step**:
+> *"the cascade's step-3 winner, **as a GROUP inside SU(5)***, is `S(U(3)×U(2))`".
+> Earlier drafts stated both in one breath and were **wrong**; the global-form result is
+> not reported in this paper. *(Registry G18 retained for `tests/test_b862_global_form.py`,
+> which locks B862's own statement.)*
 
 The second half is the part we ask the reader to weigh equally. The same construction is
 **provably silent** about magnitudes: the object's amphichirality forces its Chern–Simons
