@@ -115,18 +115,26 @@ def scan(path):
 
 
 def main(argv):
+    # The policy file necessarily QUOTES every banned term -- it is the document
+    # that defines them. Exempt it whenever it arrives via a directory expansion.
+    # Naming it explicitly on the command line still checks it, so the exemption
+    # can always be overridden deliberately.
+    SELF_EXEMPT = {"TERMINOLOGY_POLICY.md"}
+
     if len(argv) > 1:
         files = []
         for a in argv[1:]:
             p = Path(a)
-            # a directory argument expands, rather than counting as a violation
-            files.extend(sorted(list(p.glob("*.md")) + list(p.glob("*.tex")))
-                         if p.is_dir() else [p])
+            if p.is_dir():
+                # a directory argument expands, rather than counting as a violation
+                files.extend(f for f in sorted(list(p.glob("*.md")) + list(p.glob("*.tex")))
+                             if f.name not in SELF_EXEMPT)
+            else:
+                files.append(p)
     else:
         files = sorted(list(HERE.glob("*.tex")) + list(HERE.glob("*.md"))
                        + list(HERE.glob("sections/*.tex")))
-        files = [f for f in files if f.name not in
-                 ("TERMINOLOGY_POLICY.md",)]  # the policy quotes the banned terms
+        files = [f for f in files if f.name not in SELF_EXEMPT]
     if not files:
         print("FAIL: no files to check (empty is not a pass)")
         return 1
