@@ -121,9 +121,9 @@ knot. Anything reaching $2T$ through the principal $\sll_2$ meets the same cubic
 manifold's arithmetic is consumed at the entrance, once, and nothing downstream
 remembers which manifold it was.
 
-We report the negative half with equal weight. Amphichirality is an \emph{iff}
-condition on the word, so the vanishing of the Chern--Simons invariant is a property of
-the entire family rather than an accident at $m=1$; five pre-registered comparisons
+We report the negative half with equal weight. Every metallic word has the
+reversal-swap symmetry, so $2\,\mathrm{CS}\equiv0$ across the entire family rather than
+by accident at $m=1$; five pre-registered comparisons
 with measurement all missed; and the surface of comparisons the construction licenses
 was enumerated and found exhausted. We make no physical identification.
 \end{abstract}
@@ -162,7 +162,10 @@ exceptional McKay groups, and the decision to measure on a plane. We give that
 breakdown here rather than in a limitations section, and \S\ref{sec:inputs} states
 plainly that we cannot prove the list is closed.
 \textbf{We count stipulations, not chain links}: the two counts differ, and conflating
-them is an error earlier drafts made. We do \textbf{not} claim a derivation of physics, and no physical identification
+them is an error earlier drafts made. \textbf{We also record here, rather than leaving it
+to \S\ref{sec:falsifiers}, that one of the paper's four falsifiers has already fired}:
+of $23$ enumerated invariants none survives as a live candidate for a derived
+dimensionless value. A reader is entitled to know that before reaching page~30. We do \textbf{not} claim a derivation of physics, and no physical identification
 is made in the body. Internal names are names of mathematical objects.
 
 \subsection{What the reader should be suspicious of}\label{sec:suspicious}
@@ -252,10 +255,14 @@ C3 & \textbf{survives intact as a named manifold}\\
 \end{tabular}
 \end{table}
 
-\textbf{C3 is the honest scar in the argument.} It is a fork between two genuine
-objects, decided by a stipulation, and no computation in this paper forces it. We flag
-it here rather than in a limitations section because a reader who discovers it late is
-entitled to distrust everything before it.
+\textbf{C3 is a genuine fork and we price it, but we no longer call it ``the honest
+scar''}---that overstated it. Passing to the square is the condition for the monodromy to
+lie in $\SL(2,\Z)$, which is the standard convention for orientable mapping tori, and it
+is also what makes Fricke's identity available at Scope~\ref{sc:pairwise}. What remains a
+real choice is preferring the child to the parent: the Gieseking manifold is a perfectly
+good object to which the construction below does not apply, and no computation here
+forces the preference. We flag it at the point of use rather than in a limitations
+section.
 
 \section{From minimal description to a family}\label{sec:genesis}
 
@@ -408,7 +415,7 @@ assert a threshold here, having verified only the witness above.
 
 This section is the paper. Before stating the criteria we state, and prove, the sense in
 which they are and are not independent---because the honest answer is sharper than the
-claim an earlier draft of this work made, and it is what a referee will test first.
+obvious claim, and it is what a referee will test first.
 
 \begin{definition}[the letters, and the bridge to matrices]\label{def:RL}
 Write $R$ and $L$ for the two elementary Sturmian morphisms of $\{a,b\}^*$,
@@ -425,9 +432,8 @@ corresponding product in $\SL(2,\Z)$. \textbf{The metallic word is $R^mL^m$}, wi
 \[
    R^mL^m=\begin{pmatrix}m^2+1&m\\m&1\end{pmatrix}=\phi_m .
 \]
-\textbf{These letters appear in the abstract and were defined nowhere in earlier drafts},
-which is recorded rather than silently repaired: the bridge from a symbolic word to a
-matrix is half the title of this paper and it deserves a numbered statement.
+The bridge from a symbolic word to a matrix is half the title of this paper, so it is
+stated as a definition rather than left to context.
 \end{definition}
 
 \begin{lemma}[the collapse lemma]\label{lem:collapse}
@@ -673,12 +679,10 @@ where the invariant trace field has degree $8,4,18,8,>24,12,>24,18$ and is imagi
 quadratic in no case.
 \end{scope}
 
-\begin{remark}[why this is stated as a proof and not as a computation]
-An earlier draft asserted the tail ``every $m\ge3$ is non-arithmetic'' on the strength
-of a census that in fact covered $m\le6$. \textbf{An unbounded quantifier resting on six
-data points is an assertion}, and the repair is not to weaken the claim but to cite the
-classification that already implies it. We record the earlier overreach because the
-paper's methodological claim is precisely about which statements are earned.
+\begin{remark}[why this is a proof and not a census]
+\textbf{An unbounded quantifier cannot rest on a finite table.} The tail
+``every $m\ge3$'' is earned here by the classification, not by the direct computations of
+Scope~\ref{sc:bmr}, which cover $m\le10$ and serve only as a check.
 \end{remark}
 
 \begin{remark}[why the quantifier must be restricted]\label{rem:notglobal}
@@ -735,12 +739,22 @@ trace-field condition of Scope~\ref{sc:arithlimit}.
 
 \begin{scope}[the pairwise criterion, of a different logical type]\label{sc:pairwise}
 One banked criterion is not a condition on a single $m$ at all, and so escapes
-Lemma~\ref{lem:collapse} by construction: for the symmetric pair $A_m,A_n$ one has the
-Fricke-type identity $\operatorname{tr}[A_m,A_n]=2-(mn(n-m))^2$, so the commutator is
-parabolic exactly when $|mn(n-m)|=2$, whose unique solution with $1\le m<n$ is
-$(m,n)=(1,2)$. This is a two-variable Diophantine condition, not a function of $m^2$,
-and it selects the golden--silver \emph{pair} rather than a member. The identity itself
-is classical (Cohn; Fricke), and we cite rather than claim it.
+Lemma~\ref{lem:collapse} by construction. For the \emph{monodromies} $\phi_m,\phi_n$ one
+has Fricke's commutator identity
+\[
+   \operatorname{tr}[\phi_m,\phi_n]\;=\;2-\bigl(mn(n-m)\bigr)^2 ,
+\]
+so the commutator is parabolic exactly when $|mn(n-m)|=2$, whose unique solution with
+$1\le m<n$ is $(m,n)=(1,2)$. This is a two-variable Diophantine condition, not a
+function of $m^2$, and it selects the golden--silver \emph{pair} rather than a member.
+
+\textbf{The identity must be stated for $\phi_m$ and cannot be stated for $X_m$}, and the
+reason is the point rather than a technicality: Fricke's identity is an identity in
+$\SL(2,\Z)$, and $\det X_m=-1$ while $\det\phi_m=+1$. For the generators themselves it
+simply fails---$\operatorname{tr}[X_1,X_2]=1$, not $-2$. \textbf{An earlier draft wrote
+the identity for an undefined symbol $A_m$}; under the reading $A_m=X_m$ it is false, and
+the squaring of (C3) is exactly what makes the true version available. The identity is
+classical (Fricke; Cohn) and we cite rather than claim it.
 \end{scope}
 
 \begin{scope}[what this is not]
@@ -1058,9 +1072,7 @@ Of the $43$ links in the full chain, $26$ are theorems, $6$ exact identities, $5
 results, $1$ a corollary and $1$ a census, and \textbf{$4$ are axioms}. Those six figures
 sum to $43$, and \textbf{that is the only count this paper takes from the ledger}.
 
-\textbf{An earlier draft printed the same six figures and then said ``five are declared
-choices'', which sums to $44$.} The arithmetic failure was the symptom of a real error:
-the declared choices this paper prices are \emph{not} in bijection with the ledger's
+\textbf{A count of links is not a count of stipulations}, and the declared choices this paper prices are \emph{not} in bijection with the ledger's
 axiom links. The principal placement (Scope~\ref{sc:principal}) is a stipulation and
 \textbf{not a link at all}; the observer's closing is a link but lies \emph{after} the
 terminus, outside the chain this paper walks. \textbf{Counting links and counting
@@ -1396,8 +1408,7 @@ On the plane $\langle x_8,x_{16}\rangle$ the centralizer dimension takes the val
 at every point off three exceptional lines, and $46$ on those three lines, which form
 the $S_3$-Galois orbit of the roots of $\mu$. \textbf{No point of the plane gives less
 than $30$}: shrinking a set enlarges its centralizer, so every $y$ in the plane has
-$z(y)\supseteq z(\text{plane})$, which is already $30$-dimensional. An earlier draft
-listed a stratum at $12$ here; that is impossible for this reason and is withdrawn. For each such line $K_i$, $z(K_i)\cong\so(10)\oplus\uu(1)$, while
+$z(y)\supseteq z(\text{plane})$, which is already $30$-dimensional. For each such line $K_i$, $z(K_i)\cong\so(10)\oplus\uu(1)$, while
 $z(\text{plane})\cong\so(8)\oplus\uu(1)^2$. Moreover
 $\ee_6=(\so(8)\oplus\uu(1)^2)\oplus V_1\oplus V_2\oplus V_3$ with $\dim V_i=16$ and
 $[V_i,V_j]=V_k$.
@@ -1474,8 +1485,7 @@ three walls. Consequently, as $y$ ranges over \emph{all} of $C$,
 another}, so no real point of $C$ attains it---which is why $y^*$ is not real. The
 dimension $30$ occurs at \emph{two} points, both real and both meetings of three
 size-$6$ hyperplanes: the expected $\langle x_8,x_{16}\rangle$, and a second plane
-$\langle x_1,\ x_{22}-\gamma\,x_{14}\rangle$ that is \textbf{not} contained in it. An
-earlier draft listed only the first.
+$\langle x_1,\ x_{22}-\gamma\,x_{14}\rangle$ that is \textbf{not} contained in it.
 \end{theorem}
 
 \begin{remark}[$26$ exists and $24$ does not, for the same reason]\label{rem:2426}
@@ -1615,7 +1625,7 @@ locus of the route this paper takes} is a census, and the
 distinction is worth stating plainly: $26$ is an attainable Levi dimension---it is the
 $A_4$ Levi---so its absence from the ladder is a fact about the directions we measured,
 whereas the absence of $22$ and $24$ is a fact about $E_6$. \textbf{A referee should hold
-those two statements to different standards, and earlier drafts invited them not to.}
+those two statements to different standards.}
 \end{remark}
 
 \begin{remark}[a rank constraint that fixes a mislabelling]\label{rem:rank}
@@ -1638,8 +1648,7 @@ Because the paper's methodological claim is a cost claim, we state plainly which
 statements are forced, which are classical, and which are computational certificates
 rather than proofs presented here. This first table covers
 \S\S\ref{sec:frame}--\ref{sec:cascade}; \S\ref{sec:audit2} does the same for
-\S\S\ref{sec:realform}--\ref{sec:falsifiers}, \textbf{which earlier drafts left
-unaudited entirely}.
+\S\S\ref{sec:realform}--\ref{sec:falsifiers}.
 
 \begin{table}[h]
 \centering\small
@@ -1741,8 +1750,7 @@ about this one. The \emph{atoms} are the joint eigenspaces of this rational comm
 family. There are fifteen: \textbf{nine of dimension one and six of dimension three},
 so that $9\cdot1+6\cdot3=27$. \textbf{They are eigenspaces and not in general
 eigenlines}, which matters at Theorem~\ref{thm:signature}, where the six
-three-dimensional ones carry a signature; an earlier draft said ``eigenlines'' and
-could not have been describing all fifteen. The tower never enters an atom, so the
+three-dimensional ones carry a signature. The tower never enters an atom, so the
 atoms are defined over $\Q$ and not merely over a splitting field.
 \end{definition}
 
@@ -1751,8 +1759,7 @@ The fifteen atoms partition bijectively into nine \emph{colorless} and six
 \emph{colored}. The nine colorless atoms form a $3\times3$ grid. Its rows and columns are two of the
 four parallel classes of $\mathrm{AG}(2,3)$; \textbf{the even and odd transversals of the
 associated determinant are the other two}, the diagonal classes. The rows-and-columns
-incidence graph is $K_{3,3}$. (An earlier draft identified rows with the even
-transversals, which is false: rows and transversals are different parallel classes.) The orientation
+incidence graph is $K_{3,3}$. The orientation
 parity of that determinant---the Leibniz sign---is exact and equals $-1$.
 \end{theorem}
 
@@ -1938,8 +1945,7 @@ The Chern--Simons invariant of every member of the family satisfies
 $2\,\mathrm{CS}\equiv0$, so $\mathrm{CS}\in\{0,\tfrac14\}$ in $\R/\tfrac12\Z$; and
 $\mathrm{CS}=0$ for $M_1$ by direct computation. \textbf{Amphichirality alone gives only
 the two-torsion statement}---an orientation-reversing homeomorphism sends
-$\mathrm{CS}$ to $-\mathrm{CS}$---and an earlier draft wrote ``vanishes'' where only
-``$2\,\mathrm{CS}\equiv0$'' was earned. The class $\tfrac14$ is excluded here by
+$\mathrm{CS}$ to $-\mathrm{CS}$. The class $\tfrac14$ is excluded here by
 computation, not by symmetry. Consequently the reduced boundary action
 $S=-\mathrm{CS}\cdot k-\Vol\cdot\sigma$ satisfies
 $\partial S/\partial k=-\mathrm{CS}\equiv0$: \textbf{the classical action of this saddle
@@ -1950,8 +1956,7 @@ carries no term proportional to the level.}
 What is proved is that \emph{this} saddle's classical action loses its
 $k$-dependence. It is \textbf{not} proved that every quantum correction is
 $k$-independent, that every flat connection is, that every admissible boundary
-construction is, or that no dimensionless coupling can arise elsewhere. A stronger
-reading appeared in earlier drafts of this work and is withdrawn. The defensible
+construction is, or that no dimensionless coupling can arise elsewhere. The defensible
 statement is Corollary~\ref{cor:cs} exactly as written, and its force is that the
 vanishing is a \emph{family} phenomenon by Theorem~\ref{thm:amphi}, not an accident at
 $m=1$.
@@ -2014,6 +2019,23 @@ those in Census~\ref{cen:exhausted} come from different releases, and we do not 
 them as one dataset.
 \end{scope}
 
+\begin{scope}[what the seals establish, and what they cannot]\label{sc:seals}
+\textbf{The targets of these five comparisons are not named in this paper, and that
+limits what the table buys.} The commit identifiers establish \emph{pre-commitment}: a
+prediction was recorded before its comparison was run. They cannot establish
+\emph{content}, because a referee cannot evaluate a comparison whose target is withheld.
+
+\textbf{This is a genuine tension and not an oversight.} Naming the targets means naming
+measured physical quantities, which is precisely what Gate~5 of this project forbids in
+the body and what \S\ref{sec:intro} promises not to do. We resolve it in the direction of
+the promise and accept the cost: \textbf{\S\ref{sec:crossings} establishes procedure, not
+result.} A reader should take from it that five comparisons were sealed before they were
+run and all five missed---and should \emph{not} take from it any weighed evidence about
+the quantities involved, which are not here to be weighed. The alternative---naming the
+targets---would make this the section in which the paper discusses physics, and we would
+rather lose the section's evidential force than its scope.
+\end{scope}
+
 Two features of this record are worth stating explicitly. \textbf{Comparison 2 is a
 negative the construction produced against itself}, before any measurement was
 consulted---an internal refusal, not a failed fit. And \textbf{comparison 5 was decided
@@ -2050,7 +2072,7 @@ set; the table below exists so the count can be checked rather than believed.
 \midrule
 (C1) & description is inexhaustible & \textbf{degenerates}: no pseudo-Anosov element, no hyperbolic carrier\\
 (C2) & a geometric carrier & \textbf{survives}, but the tiling hull and Effros--Shen algebra see only the real quadratic data; $\Q(\sqrt{-3})$ is bought here\\
-(C3) & the monodromy is orientation-preserving & \textbf{survives intact}: the Gieseking manifold. \textbf{The honest scar}\\
+(C3) & the monodromy is orientation-preserving & \textbf{survives intact}: the Gieseking manifold, whose orientation double cover is $M_1$. Squaring is the standard convention for orientable mapping tori; the choice is preferring the child to the parent\\
 (C4) & the puncture & \textbf{degenerates}: the closed mapping torus of an Anosov map of $T^2$ is a $\mathrm{Sol}$-manifold, since hyperbolization needs $\chi(F)<0$ and $\chi(T^2)=0$. No cusp, no hyperbolic structure, no arithmetic layer\\
 (C5) & period one & \textbf{price zero against the period-two relaxation, which is the only one tested.} The period-two family $M(a,b)$ is orientation-preserving already, its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$, and the selection of \S\ref{sec:four} survives verbatim. \textbf{Period three and beyond are unchecked}, so this is not zero cost globally\\
 (C6) & the principal placement of $2T$ & \textbf{well motivated, not derived}: rigidity gives $H^1(\sll_2,\ee_6)=0$ and $C_{\ee_6}(\text{principal})=0$, but no source proves $2T$ must go there\\
@@ -2147,9 +2169,9 @@ falsifiable as mathematics and, at present, not testable as physics.}
 
 \subsection{A forcedness audit of \S\S\ref{sec:realform}--\ref{sec:falsifiers}}\label{sec:audit2}
 
-\textbf{These three sections carried no audit in earlier drafts}, which was an
-inconsistency in a paper whose thesis is a cost claim: the audit existed exactly where
-the argument was strongest and was absent where it was weakest. The table repairs that.
+A paper whose thesis is a cost claim should audit itself where its argument is weakest,
+not only where it is strongest. This table covers the three sections that carry the most
+computation and the least proof.
 
 \begin{table}[h]
 \centering\small
@@ -2214,9 +2236,7 @@ Theorem~\ref{thm:signature}'s signature is the sole support for the real-form
 identification; it is a certificate, it has \textbf{no self-contained script in
 Appendix~\ref{app:verify}}, and if it is wrong then \S\ref{sec:realform} is wrong and
 nothing else in the paper notices. The weakest warrant in these sections is now
-Theorem~\ref{thm:signature}'s alone: an earlier draft also asserted a global
-amphichirality biconditional on our own authority, and that has been withdrawn to the
-one direction we actually prove (Scope~\ref{sc:amphiscope}).
+Theorem~\ref{thm:signature}'s, which no script in either block reproduces.
 \end{scope}
 
 \appendix
@@ -2301,9 +2321,7 @@ least reproducible part of this paper.
 \texttt{sympy} and the standard library, so a referee can run them from the arXiv tarball
 alone. The remaining rows depend on the repository snapshot---because they consume an
 external census (\textsc{SnapPy}), a large character table, or the chain ledger itself---
-and \textbf{a referee who runs only the tarball will not execute them.} An earlier draft
-listed all ten rows under one runner that discovers only the first group; that overstated
-what the command does, and the table now says which is which.
+and \textbf{a referee who runs only the tarball will not execute them.}
 
 \begin{table}[h]
 \centering\small
@@ -2341,6 +2359,71 @@ suite. \textbf{An archival snapshot with a permanent identifier accompanies the 
 version} and carries block~(b); a manuscript that promises runnable verification and
 supplies only a description does not meet its own standard, and neither does one whose
 runner silently covers a third of its own table.
+
+\section{Corrections to earlier drafts}\label{app:corrections}
+
+The body retains an admission of error only where \textbf{the current statement cannot be
+understood without knowing what it replaced}---the difference between classifying by
+trace and by conjugacy class (Scope~\ref{sc:latimer}), between mechanistic and
+extensional independence (Scope~\ref{sc:collapse}), between what a modulus sees and what
+a manifold contributes (Scope~\ref{sc:landing}), why Fricke's identity is available for
+$\phi_m$ and not for $X_m$ (Scope~\ref{sc:pairwise}), why regularity and not rigidity
+supports the principal placement (\S\ref{sec:entrance}), and why two ledger rows are not
+free (Scope~\ref{sc:c7price}). \textbf{The remaining corrections are collected here
+rather than distributed through the text}, where they were making the paper read as a
+changelog.
+
+\begin{enumerate}[leftmargin=2.2em,itemsep=1pt]
+\item ``The four arguments share no lemma'' was false; three of the four test values of a
+  single characteristic polynomial (Lemma~\ref{lem:collapse}).
+\item The title and abstract claimed ``four independent selections'' after the body had
+  withdrawn the independence claim in that sense.
+\item The abstract claimed the metallic family ``is not a modelling choice''; period one
+  is a declared input, priced as (C5).
+\item Theorem~\ref{thm:canonical} said $X_m$ represents \emph{the} class. It classifies
+  by $(\tr,\det)$; a witness at $m=6$ is now given.
+\item $R$ and $L$ were used in the abstract and defined nowhere (Definition~\ref{def:RL}).
+\item Selection~IV's tail was asserted from a census over $m\le6$; it now follows from
+  the classification, applied power-closed.
+\item Selection~II's corollary said the golden member ``lands on a genuine group''; the
+  monodromy's image mod~$5$ is cyclic of order~$10$.
+\item An amphichirality biconditional was asserted for all once-punctured-torus bundles;
+  only the direction used is now claimed (Scope~\ref{sc:amphiscope}).
+\item ``$\mathrm{CS}$ vanishes'' was derived from amphichirality, which gives only
+  $2\,\mathrm{CS}\equiv0$.
+\item The census printed six figures summing to $43$ and then described five declared
+  choices, giving $44$; links and stipulations are different counts.
+\item Theorem~\ref{thm:fmt} listed a stratum at $12$ on the measurement plane, which is
+  impossible since centralizers only grow as the set shrinks.
+\item Theorem~\ref{thm:smtfull} listed one point at dimension $30$; there are two.
+\item The atoms were defined as eigen\emph{lines}; six of the fifteen are
+  three-dimensional.
+\item Theorem~\ref{thm:atoms} identified the grid's rows with the even transversals;
+  those are different parallel classes of $\mathrm{AG}(2,3)$.
+\item Lemma~\ref{lem:toral}'s proof asserted that distinct isotypic components are
+  Killing-orthogonal, which is false in general; only $K(C,C')=0$ is needed and it
+  follows from invariance of the functional.
+\item Corollary~\ref{cor:levi} used the root-space decomposition without base change.
+\item Proposition~\ref{prop:twoO} excluded larger subgroups of $\SU(2)$ by order
+  divisibility, which does not exclude the binary dihedral family.
+\item Proposition~\ref{prop:group} said a finite subgroup of $\SU(2)$ has exactly one
+  involution; it has at most one.
+\item An infinitesimal-rigidity argument was offered for the principal placement;
+  Whitehead's lemma does not distinguish it, and the argument is struck.
+\item \S\S\ref{sec:realform}--\ref{sec:falsifiers} carried no forcedness audit.
+\item Appendix~\ref{app:verify} stated that its runner covered all ten rows; it covers
+  block~(a). The submission archive itself did not contain block~(a) until this was
+  found by a reader who opened it.
+\end{enumerate}
+
+\textbf{Why this appendix exists at all.} The paper's methodological claim is that
+assertions must be earned, and a list of places where they were not is the only honest
+evidence bearing on it. \textbf{The list is also the strongest argument against the
+paper}: every entry was found by a reader other than the author, most of them after the
+claim had been written, checked and locked. A referee is entitled to ask how many remain,
+and we cannot answer that---only note that the last five entries were found by three
+independent hostile readings commissioned for the purpose, and that the rate at which
+they were found had not fallen by the last one.
 
 \section{Glossary: one referent per term}\label{app:glossary}
 
