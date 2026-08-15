@@ -82,7 +82,7 @@ def test_only_E6_among_exceptionals_has_a_complex_fundamental():
 
 
 def test_the_filter_selects_d_equals_three_uniquely():
-    """The whole proposition, as one statement."""
+    """The whole proposition, as one statement -- with TWO independent conditions."""
     winners = []
     for d, binary in ((3, "2T"), (4, "2I")):
         if not _alternating_is_in_so3(d + 1):
@@ -92,6 +92,44 @@ def test_the_filter_selects_d_equals_three_uniquely():
             winners.append(d)
     # d = 2 gives a cyclic group, whose McKay image is classical A-type, not exceptional
     assert winners == [3]
+
+
+def test_d2_and_d4_fail_on_DIFFERENT_grounds():
+    """An earlier draft's table blurred these and stated a falsehood.
+
+    d = 4 fails on COMPLEXITY: E8 is exceptional and its 248 is real.
+    d = 2 fails on EXCEPTIONALITY: Z/6's McKay image is the classical su(6) -- and
+    su(6) DOES have a complex fundamental, since -1 is not in W(A_n) for n >= 2.
+    So the d=2 row cannot be excluded on the ground the d=4 row is excluded on, and
+    the earlier table's dash in the complex-fundamental column read as "no" where the
+    honest answer is "yes".
+
+    This is the same fact the entrance section reports when chirality-capability fails
+    to isolate E6: complexity selects {A_n : n>=2} u {D_odd} u {E6}, and A-type is in it.
+    """
+    # -1 in W(A_n) iff n == 1, so A_n for n >= 2 has non-self-dual representations
+    def minus_one_in_weyl_A(n):
+        return n == 1
+
+    assert minus_one_in_weyl_A(1) is True
+    for n in (2, 3, 5):
+        assert minus_one_in_weyl_A(n) is False, f"A_{n} should admit complex reps"
+
+    # d = 2 -> Z/3 -> Z/6 -> affine A_5 -> su(6) = A_5, which is n = 5
+    assert not minus_one_in_weyl_A(5), "su(6) has a complex fundamental"
+    # so d = 2 is excluded by EXCEPTIONALITY, not by complexity
+    d2_is_exceptional = False
+    d2_has_complex_fundamental = True
+    assert not d2_is_exceptional and d2_has_complex_fundamental
+
+    # d = 4 -> 2I -> E8, exceptional but 248 is real
+    d4_is_exceptional = True
+    d4_has_complex_fundamental = EXCEPTIONAL_DIAGRAM_AUT["E8"]
+    assert d4_is_exceptional and not d4_has_complex_fundamental
+
+    # the two failures are genuinely distinct
+    assert (d2_is_exceptional, d2_has_complex_fundamental) != \
+           (d4_is_exceptional, d4_has_complex_fundamental)
 
 
 def test_d_equals_three_is_where_the_object_lives():

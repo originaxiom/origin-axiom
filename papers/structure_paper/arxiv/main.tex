@@ -842,13 +842,47 @@ Hilden--Lozano--Montesinos~\cite{HLM95} and the degenerations by Hodgson and Por
 \textbf{We claim none of this geometry.} What we add is which arithmetic sits at each
 end.
 
-\begin{theorem}\label{thm:ends}
-Along that transition the hyperbolic end carries $(\Q(\sqrt{-3}),2T)$ and the spherical
-end carries $(\Q(\sqrt5),2I)$: the dual McKay pair $E_6+E_8$ is realized as the two
-stable geometries of a single object separated by the Euclidean wall, rather than as two
-unrelated faces. At the spherical end the double cover is the lens space
-$L(5,2)=S^3/\Z_5$, with $|H_1|=\det(4_1)=5$.
+\begin{theorem}[the two ends, by Niven's theorem]\label{thm:ends}
+At the $\Z/n$ orbifold of $4_1$---meridian a rotation of order $n$, cone angle
+$2\pi/n$---the meridian trace is $x=2\cos(\pi/n)$ and the trace field is
+\[
+   \Q\Bigl(x,\ \sqrt{(5-x^2)(1-x^2)}\Bigr),
+\]
+from the character-variety relation $u^2+(5-x^2)u+(5-x^2)=0$. This is a \emph{clean}
+quadratic field---a single McKay group---if and only if $x\in\Q$. \textbf{By Niven's
+theorem $2\cos(\pi/n)\in\Q$ only for $n\in\{1,2,3\}$, together with the cusp $n=\infty$},
+and those cases are exactly
+\begin{center}\small
+\begin{tabular}{@{}ccccc@{}}
+\toprule
+$n$ & $x$ & geometry & $(5-x^2)(1-x^2)$ & field, McKay image\\
+\midrule
+$\infty,\,1$ & $\pm2$ & hyperbolic (complete cusp) & $-3$ & $\Q(\sqrt{-3})$, $2T\to E_6$\\
+$3$ & $1$ & Euclidean (the transition) & $0$ & $\Q$, degenerate\\
+$2$ & $0$ & spherical & $5$ & $\Q(\sqrt5)$, $2I\to E_8$\\
+\bottomrule
+\end{tabular}
+\end{center}
+At the spherical end the double cover is the lens space $L(5,2)=S^3/\Z_5$, with
+$|H_1|=\det(4_1)=5$.
 \end{theorem}
+
+\begin{corollary}[$E_7$ is geometrically impossible here]\label{cor:noe7}
+$E_7$'s McKay field is $\Q(\sqrt2)$, which would require $x=\sqrt2$, i.e.\ $n=4$. That
+value is irrational, so by the theorem the $n=4$ trace field is the \emph{mixed}
+$\Q(\sqrt2,\sqrt{-3})$ and never the clean $\Q(\sqrt2)$. \textbf{The middle member of
+the exceptional trio is excluded by one arithmetic fact rather than by a coincidence of
+several.}
+\end{corollary}
+
+\begin{remark}[the recurring shape, again]\label{rem:nivenshape}
+This is the pattern of \S\ref{sec:shape} again and in a third category. Rational
+trigonometry is generically irrational; Niven's theorem says the failures of that
+genericity are exactly four values of $n$; and the geometry of this object realizes a
+clean McKay field at exactly those failures. \textbf{The two ends are not two facts but
+one}, and the exclusion of the third exceptional group comes with them rather than
+separately.
+\end{remark}
 
 \begin{scope}[the two ends are not symmetric]\label{sc:asym}
 The asymmetry runs against the direction the phrasing invites. At the hyperbolic end
@@ -1137,21 +1171,39 @@ where the things it did not add came from.
 \begin{proposition}[the dimensional filter]\label{prop:dimfilter}
 Let $\Delta^d$ be the regular $d$-simplex, with rotation group $A_{d+1}$. Then $A_{d+1}$
 is a subgroup of $SO(3)$ \textbf{only for $d\in\{2,3,4\}$}, and among those three the
-binary cover's McKay image carries a complex (non-self-dual) fundamental
-\textbf{only for $d=3$}:
+binary cover's McKay image is \emph{exceptional} and carries a complex (non-self-dual)
+fundamental \textbf{only for $d=3$}:
 \begin{center}\small
-\begin{tabular}{@{}ccccc@{}}
+\begin{tabular}{@{}cccccc@{}}
 \toprule
-$d$ & rotation group & binary cover & McKay image & complex fundamental?\\
+$d$ & rotation group & binary cover & McKay image & exceptional? & complex fundamental?\\
 \midrule
-$2$ & $A_3=\Z/3$ & $\Z/6$ & classical $A$-type & ---\\
-\textbf{3} & $\mathbf{A_4=T}$ & $\mathbf{2T}$ & $\mathbf{E_6}$ & \textbf{yes, the $\mathbf{27}$}\\
-$4$ & $A_5=I$ & $2I$ & $E_8$ & no; $248$ is real\\
-$\ge5$ & $A_{d+1}$ simple & --- & none & ---\\
+$2$ & $A_3=\Z/3$ & $\Z/6$ & $\widehat{A}_5\to\su(6)$ & \textbf{no} & yes---but see below\\
+\textbf{3} & $\mathbf{A_4=T}$ & $\mathbf{2T}$ & $\mathbf{E_6}$ & \textbf{yes} & \textbf{yes, the $\mathbf{27}$}\\
+$4$ & $A_5=I$ & $2I$ & $E_8$ & yes & \textbf{no}; $248$ is real\\
+$\ge5$ & $A_{d+1}$ simple & --- & none & --- & ---\\
 \bottomrule
 \end{tabular}
 \end{center}
 \end{proposition}
+
+\begin{scope}[the two exclusions are not the same exclusion]\label{sc:twogrounds}
+\textbf{$d=2$ and $d=4$ fail for different reasons, and an earlier draft blurred them.}
+$d=4$ fails on \emph{complexity}: $E_8$ is exceptional and its $248$ is real. $d=2$ fails
+on \emph{exceptionality}: $\Z/6$'s McKay image is the classical $\su(6)$---and
+$\su(6)$ \textbf{does} have a complex fundamental, since $-1\notin W(A_n)$ for $n\ge2$.
+So the $d=2$ row cannot be excluded on the ground the $d=4$ row is excluded on, and the
+earlier table's dash in that column was wrong: it read as ``no'' where the answer is
+``yes''.
+
+\textbf{This matters beyond bookkeeping}, because it is the same fact §\ref{sec:entrance}
+reports when the chirality-capability criterion fails to isolate $E_6$: complexity of the
+fundamental selects $\{A_n:n\ge2\}\cup\{D_{\text{odd}}\}\cup\{E_6\}$, and $A$-type is in
+that set. \textbf{Complexity alone never excluded $A$-type and was never going to.}
+Exceptionality is what excludes it, and exceptionality is the input the paper declines to
+derive. The filter narrows the exceptional menu to one; it does not derive the
+restriction to that menu.
+\end{scope}
 
 \begin{proof}
 The finite subgroups of $SO(3)$ are the cyclic, dihedral, tetrahedral $A_4$, octahedral
@@ -1963,6 +2015,9 @@ Thm.~\ref{thm:fmt}, the $46$-stratum and its Galois orbit
 Thm.~\ref{thm:magic}, the magic-square identification
  & \textbf{classical} \cite{BartonSudbery}, verified
  & nothing new is claimed here\\
+Thm.~\ref{thm:ends}, the two ends
+ & \textbf{proved here} (Niven, on the character variety)
+ & a fifth rational value of $2\cos(\pi/n)$\\
 Thm.~\ref{thm:rankceiling}, the rank ceiling
  & \textbf{proved here}, from Lem.~\ref{lem:toral}
  & a rung not containing a Cartan subalgebra\\
@@ -2304,6 +2359,7 @@ Thm~\ref{thm:jones} & \texttt{verify/check\_jones\_wall.py} & index wall, intege
 Prop~\ref{prop:mu} & \texttt{verify/check\_charge\_field.py} & Dedekind; Minkowski; $h=1$\\
 Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \texttt{verify/check\_measurement\_plane.py} & $\ee_6^{2O}=\langle x_8,x_{16}\rangle$; eigenvalues\\
 Prop~\ref{prop:z6} & \texttt{verify/check\_global\_form.py} & the kernel is exactly $\Z/6$, cyclic\\
+Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \texttt{verify/check\_niven\_ends.py} & Niven; the three rational traces; the $E_7$ exclusion\\
 Scope~\ref{sc:abelian}, $C$ abelian & \texttt{verify/check\_charge\_bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
