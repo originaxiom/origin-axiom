@@ -16,7 +16,8 @@ WHAT IT CHECKS, in the arxiv source:
   1. The forcedness-audit table's status column uses a CLOSED vocabulary.  A new hedge
      word ("essentially forced", "morally forced", "forced modulo") is a failure, because
      hedges are how a cost claim erodes.
-  2. Every \\ref{...} appearing in the audit table resolves to a \\label{...} that exists.
+  2. Every \\ref{...} appearing in either audit table resolves to a \\label{...} that
+     exists, and NEITHER table may go missing.
   3. Every row marked \\textbf{forced} cites at least one label whose environment is a
      theorem, proposition, lemma, corollary or census -- i.e. a warrant, not a scope or
      a remark.  A "forced" backed only by a Scope is exactly the defect the acceptance
@@ -37,12 +38,12 @@ PAPER = os.path.join(ROOT, "papers", "structure_paper", "arxiv", "main.tex")
 
 # The only PRIMARY statuses the audit table may use.  Extend deliberately, never to
 # silence a failure.
-ALLOWED_STATUS = {"forced", "proved here", "certificate", "classical"}
+ALLOWED_STATUS = {"forced", "proved here", "certificate", "classical", "corollary"}
 
 # A row may carry a secondary bolded qualifier -- "certificate + Levi for the type",
 # "certificate, conditional on Hyp. X".  These SHARPEN a status and are legitimate;
 # what is not legitimate is a qualifier that softens "forced".
-ALLOWED_QUALIFIERS = {"+ levi", "conditional"}
+ALLOWED_QUALIFIERS = {"+ levi", "conditional", "bounded"}
 
 # Words that turn a claim into a gesture.  Banned anywhere in a status cell, because
 # the cost claim is exactly the thing they erode.
@@ -51,7 +52,7 @@ HEDGES = ("essentially", "morally", "modulo", "largely", "effectively",
 
 WARRANT_ENVS = {"theorem", "proposition", "lemma", "corollary", "census", "nogo"}
 
-AUDIT_LABEL = r"\label{sec:audit}"
+AUDIT_LABELS = (r"\label{sec:audit}", r"\label{sec:audit2}")
 
 
 def _read(path=PAPER):
@@ -72,16 +73,25 @@ def _labels_with_env(src):
     return out
 
 
-def _audit_table(src):
-    """The body of the tabular inside the forcedness-audit subsection."""
-    i = src.find(AUDIT_LABEL)
-    if i < 0:
-        return None
-    j = src.find(r"\begin{tabular}", i)
-    k = src.find(r"\end{tabular}", j)
-    if j < 0 or k < 0:
-        return None
-    return src[j:k]
+def _audit_tables(src):
+    """The tabular bodies of every forcedness-audit subsection.
+
+    There are two: one for the frame/cascade sections and one for the real-form,
+    negatives and falsifiers sections.  The second was added after an audit found that
+    a paper whose thesis is a cost claim had an audit only where its argument was
+    strongest.  Both must be checked, and a MISSING one is a failure -- otherwise
+    deleting a table would silence the gate.
+    """
+    out = []
+    for lab in AUDIT_LABELS:
+        i = src.find(lab)
+        if i < 0:
+            out.append(None)
+            continue
+        j = src.find(r"\begin{tabular}", i)
+        k = src.find(r"\end{tabular}", j)
+        out.append(src[j:k] if j >= 0 and k >= 0 else None)
+    return out
 
 
 def _rows(table):
@@ -98,12 +108,15 @@ def check(src=None):
     probs = []
     labels = _labels_with_env(src)
 
-    table = _audit_table(src)
-    if table is None:
-        probs.append(("sec:audit", "the forcedness-audit table is missing entirely"))
+    tables = _audit_tables(src)
+    for lab, table in zip(AUDIT_LABELS, tables):
+        if table is None:
+            probs.append((lab, "a forcedness-audit table is missing entirely"))
+    tables = [t for t in tables if t is not None]
+    if not tables:
         return probs
 
-    for row in _rows(table):
+    for row in [r for t in tables for r in _rows(t)]:
         cells = row.split("&")
         if len(cells) < 2:
             continue
@@ -143,8 +156,10 @@ def check(src=None):
                               "row is marked forced but cites no theorem, proposition, "
                               f"lemma, corollary or census (cites: {sorted(envs)})"))
 
-    # (4) stray bolded "forced" in the body, outside the audit table
-    body = src.replace(table, "")
+    # (4) stray bolded "forced" in the body, outside the audit tables
+    body = src
+    for t in tables:
+        body = body.replace(t, "")
     for m in re.finditer(r"\\textbf\{forced\}", body):
         start = body.rfind("\n\n", 0, m.start())
         end = body.find("\n\n", m.end())

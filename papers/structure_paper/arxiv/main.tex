@@ -77,9 +77,10 @@ algebras, cone-manifold geometric transition}
 
 \begin{abstract}
 Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We prove that
-this family is not a modelling choice: it is exactly the class of hyperbolic
-unimodular classes whose dominant eigenvalue has purely periodic continued fraction of
-period one. Inside it we exhibit \emph{four criteria selecting the golden member $m=1$},
+this family is \emph{intrinsically characterized rather than ad hoc}: it is exactly the
+class of hyperbolic unimodular classes whose dominant eigenvalue has purely periodic
+continued fraction of period one. \textbf{That is weaker than saying it is not a choice},
+and we do not say so: period one is itself a declared input, and we price it. Inside it we exhibit \emph{four criteria selecting the golden member $m=1$},
 each over the whole infinite family and each anchored in a classical theorem.
 \textbf{We prove first that three of them collapse to one arithmetic condition}: they
 test the values $\chi_m(1)$, $\chi_m(-1)$ and $\operatorname{tr}\phi_m$ of a single
@@ -97,11 +98,25 @@ golden.
 
 The golden member is the figure-eight knot complement. We then follow its own
 arithmetic, with no measured quantity entering any computation, to a $78$-dimensional
-exceptional Lie algebra carrying a canonical four-dimensional charge torus, and record
-the centralizer stratification, which terminates at algebraic type $A_2\oplus A_1$
-with three-dimensional centre. The charge field is computed exactly:
+exceptional Lie algebra carrying a canonical four-dimensional charge algebra $C$.
+\textbf{We prove that $C$ is toral and not merely abelian}---for a finite group acting
+by automorphisms on a semisimple Lie algebra, an abelian fixed algebra consists of
+semisimple elements---so every centralizer arising in the cascade is a \emph{Levi}
+subalgebra. Three consequences: the terminal type $A_2\oplus A_1$ with three-dimensional
+centre is \textbf{forced by the classification of Levi subsystems of $E_6$}, the exact
+computation supplying only the integer $14$; the attainable centralizer dimensions are
+confined to an explicit $14$-element set, so $22$, $24$, $32$, $34$ and $38$--$44$ are
+impossible; and the second measurement can be enumerated over the whole of $C$ rather
+than sampled. \textbf{The plane on which the cascade is measured is not chosen either}:
+it is the fixed algebra $\ee_6^{2O}$ of the unique outer involution of the binary
+tetrahedral group. The charge field is computed exactly:
 $K\cong\Q[x]/(x^3-12x-5)$, monogenic, totally real, $\disc K=6237=3^4\cdot7\cdot11$,
-class number one.
+class number one. \textbf{We state plainly what that last computation does and does not
+depend on}: $K$, the four invariant degrees, and the whole rung ladder are invariants of
+the triple $(\ee_6,\,2T,\,\text{principal }\sll_2)$ and \emph{not} of the figure-eight
+knot. Anything reaching $2T$ through the principal $\sll_2$ meets the same cubic. The
+manifold's arithmetic is consumed at the entrance, once, and nothing downstream
+remembers which manifold it was.
 
 We report the negative half with equal weight. Amphichirality is an \emph{iff}
 condition on the word, so the vanishing of the Chern--Simons invariant is a property of
@@ -134,12 +149,15 @@ The second half is negative and we ask that it be weighed equally
 
 \subsection{What is claimed, and what is not}
 We claim a \emph{cost theorem}: a small, explicitly enumerated set of declared
-choices---\textbf{seven, itemized in the ledger of \S\ref{sec:inputs}}---together with
-no fitted parameters and no measured input, yield the structural data below. Five have
-their alternative computed or exhibited, \textbf{two are computed to cost nothing}, and
-\textbf{one---the placement of $2T$ on the principal $\sll_2$---is motivated but not
-derived}, which we state in the introduction rather than leaving to a limitations
-section.
+choices---\textbf{nine, itemized in the ledger of \S\ref{sec:inputs}}---together with
+no fitted parameters and no measured input, yield the structural data below. Of the
+nine: \textbf{two have alternatives that degenerate}, \textbf{two have alternatives
+that survive at a stated cost}, \textbf{one costs nothing against the relaxation we
+tested}, \textbf{one is output-stable but consequential}, and \textbf{three are not
+derived}---the placement of $2T$ on the principal $\sll_2$, the restriction to
+exceptional McKay groups, and the decision to measure on a plane. We give that
+breakdown here rather than in a limitations section, and \S\ref{sec:inputs} states
+plainly that we cannot prove the list is closed.
 \textbf{We count stipulations, not chain links}: the two counts differ, and conflating
 them is an error earlier drafts made. We do \textbf{not} claim a derivation of physics, and no physical identification
 is made in the body. Internal names are names of mathematical objects.
@@ -157,7 +175,9 @@ standard, with the standard references given.
 We can be quantitative rather than rhetorical about this, because the question was
 settled by enumeration: of the $20$ steps below the entrance, $0$ consume the
 manifold's fundamental group, $18$ are standard exceptional-algebra theory downstream
-of the McKay assignment, and exactly $1$ consumes the arithmetic. A reader who wishes
+of the McKay assignment, and exactly $1$ consumes the arithmetic. \textbf{The remaining
+step is the McKay assignment itself}, which is neither---it is the entrance, and it is
+counted separately for that reason. A reader who wishes
 to attack this paper should attack \S\ref{sec:four} and \S\ref{sec:entrance}; attacking
 the cascade attacks Slansky~\cite{Slansky}.
 
@@ -368,6 +388,26 @@ This section is the paper. Before stating the criteria we state, and prove, the 
 which they are and are not independent---because the honest answer is sharper than the
 claim an earlier draft of this work made, and it is what a referee will test first.
 
+\begin{definition}[the letters, and the bridge to matrices]\label{def:RL}
+Write $R$ and $L$ for the two elementary Sturmian morphisms of $\{a,b\}^*$,
+\[
+   R:\ a\mapsto a,\ b\mapsto ab,\qquad
+   L:\ a\mapsto ba,\ b\mapsto b,
+\]
+whose incidence matrices are
+$\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)$ and
+$\left(\begin{smallmatrix}1&0\\1&1\end{smallmatrix}\right)$; we use the same letters for
+the matrices. Every Sturmian morphism is a product of these two up to the exchange
+$a\leftrightarrow b$, and abelianization sends a positive word in $R,L$ to the
+corresponding product in $\SL(2,\Z)$. \textbf{The metallic word is $R^mL^m$}, with
+\[
+   R^mL^m=\begin{pmatrix}m^2+1&m\\m&1\end{pmatrix}=\phi_m .
+\]
+\textbf{These letters appear in the abstract and were defined nowhere in earlier drafts},
+which is recorded rather than silently repaired: the bridge from a symbolic word to a
+matrix is half the title of this paper and it deserves a numbered statement.
+\end{definition}
+
 \begin{lemma}[the collapse lemma]\label{lem:collapse}
 Let $\chi_m(t)=\det(tI-\phi_m)=t^2-(m^2+2)t+1$. Then
 \[
@@ -494,7 +534,7 @@ Lemma~\ref{lem:telescope} exploits.
 \begin{proposition}[group versus order]\label{prop:group}
 $\SL(2,\Z/3)\cong2T$ and $\SL(2,\Z/5)\cong2I$ are the classical isomorphisms. However
 $\SL(2,\Z/4)\not\cong2O$: it contains seven elements of order $2$, whereas a finite
-subgroup of $\SU(2)$ contains exactly one, namely the centre $-I$; and it contains no
+subgroup of $\SU(2)$ contains \emph{at most} one, necessarily the centre $-I$; and it contains no
 element of order $8$, whereas $2O$ does. \textbf{The coincidence of orders at $48$ does
 not produce the group, and the $E_7$ slot is unoccupied.} At prime level the same
 conclusion follows differently: $|\SL(2,\mathbb F_p)|=p(p^2-1)$ is never $48$.
@@ -510,11 +550,24 @@ $48$. The prime-level statement is immediate from $p(p^2-1)\in\{6,24,120,336,\do
 \end{proof}
 
 \begin{corollary}
-The golden member lands on a genuine group, not merely a matching integer: the reduction
-is onto $\SL(2,\Z/5)\cong2I$. Requiring a genuine exceptional group rather than a
-matching order removes $N=4$ from the target set, and no metallic word was ever there,
-since $m^2+4=4$ forces $m=0$.
+Requiring a genuine exceptional \emph{group} rather than a matching order removes $N=4$
+from the target set, and no metallic word was ever there, since $m^2+4=4$ forces $m=0$.
+The surviving target at $m=1$ is $\SL(2,\Z/5)\cong2I$, onto which $\SL(2,\Z)$ surjects.
 \end{corollary}
+
+\begin{scope}[what lands, and what merely contains it]\label{sc:landing}
+\textbf{An earlier draft wrote that ``the golden member lands on a genuine group'', which
+overstates what the manifold contributes.} The reduction map
+$\SL(2,\Z)\to\SL(2,\Z/5)$ is surjective, but the object attached to \emph{this manifold}
+is the image of its monodromy, and that is small: $\chi_1(t)\equiv(t-4)^2 \bmod 5$, so
+$\phi_1\bmod5$ is $4$ times a unipotent and generates a \textbf{cyclic group of order
+$10$}. So $2I$ is the ambient group in which the monodromy's shadow sits, not the shadow
+itself. \textbf{Theorem~\ref{thm:shadow} is a statement about the modulus $N_m=m^2+4$,
+which is a function of $m$ alone}, and Scope~\ref{sc:finer}'s group-level filter is
+likewise a filter on $N$. We keep the criterion---it does discriminate, and sharply---but
+it discriminates between \emph{grammars} through their moduli, not between manifolds
+through their monodromy images.
+\end{scope}
 
 \begin{scope}[the filter is finer than the field]\label{sc:finer}
 A discriminant-level criterion can conflate distinct objects, and here it demonstrably
@@ -556,18 +609,46 @@ is non-arithmetic.
 \end{theorem}
 
 \begin{proof}
-Bowditch, Maclachlan and Reid classify the arithmetic once-punctured-torus
-bundles~\cite{BMR}: there are exactly \textbf{three} commensurability classes, carried
-by the block words
+Bowditch, Maclachlan and Reid prove that a once-punctured-torus bundle has only finitely
+many arithmetic commensurability classes~\cite{BMR}, and the classes are the three
+carried by
 \[
    RL\ \to\ \Q(\sqrt{-3}),\qquad RRLL\ \to\ \Q(i),\qquad RRL\ \to\ \Q(\sqrt{-7}).
 \]
-The metallic word is $R^mL^m$, whose two blocks have \emph{equal} length $m$. Now
-$R^1L^1=RL$ and $R^2L^2=RRLL$, giving the two arithmetic members and their fields. The
-third class $RRL$ has block lengths $(2,1)$ and is therefore not metallic. And for
-$m\ge3$ the word $R^mL^m$ has length $2m\ge6$ and equal blocks, so it is none of the
-three. Hence no $m\ge3$ is arithmetic.
+\textbf{The classification must be applied power-closed}, and this is the step at which a
+shorter argument fails. Arithmeticity is a property of the commensurability class, and
+$M(S,\varphi^k)$ is a cyclic cover of $M(S,\varphi)$, hence commensurable with it; so
+every \emph{power} of an arithmetic monodromy is again arithmetic. The arithmetic
+monodromies are therefore exactly those conjugate to a power of one of the three words
+above---not exactly those three words. \textbf{Concluding ``$R^mL^m$ is none of $RL$,
+$RRLL$, $RRL$, hence non-arithmetic'' is unsound}: $RLRL$ is none of them either and is
+arithmetic, being $(RL)^2$.
+
+Argue on block sequences instead, which are cyclic-word invariants. The powers have
+block sequences
+\[
+   (RL)^k:\ (1,1,\dots,1)\ \ [2k\ \text{blocks}],\qquad
+   (RRLL)^k:\ (2,2,\dots,2),\qquad
+   (RRL)^k:\ (2,1,2,1,\dots),
+\]
+while $R^mL^m$ has \textbf{exactly two} blocks, both of length $m$. Two blocks forces
+$k=1$ in each family, leaving $RL$, $RRLL$ and $RRL$; of these only the first two have
+equal block lengths, giving $m=1$ and $m=2$ with the stated fields, and $RRL$ has
+lengths $(2,1)$ so is not metallic. Hence no $m\ge3$ is arithmetic.
 \end{proof}
+
+\begin{scope}[what is cited and what is checked]\label{sc:bmr}
+\cite{BMR} is cited for the finiteness of the arithmetic classes. \textbf{The explicit
+list of three, and the word-to-field dictionary, we have verified independently} rather
+than taken on the citation's authority: over all cyclic $R,L$ words of length $\le8$,
+exactly three imaginary quadratic invariant trace fields occur, carried by the words
+above, with $RL$ the figure-eight complement. The unit is the \emph{commensurability
+class}: there are infinitely many arithmetic once-punctured-torus bundles, since every
+power of an arithmetic monodromy is one, and any statement counting \emph{bundles} is
+false. Direct computation confirms the conclusion independently for $m=3,\dots,10$,
+where the invariant trace field has degree $8,4,18,8,>24,12,>24,18$ and is imaginary
+quadratic in no case.
+\end{scope}
 
 \begin{remark}[why this is stated as a proof and not as a computation]
 An earlier draft asserted the tail ``every $m\ge3$ is non-arithmetic'' on the strength
@@ -795,8 +876,8 @@ special-linear representation.
 \begin{proof}
 Such a representation embeds $G$ as a finite subgroup of $\SL(2,\C)$, which is
 conjugate into $\SU(2)$ by averaging a Hermitian form. A finite subgroup of $\SU(2)$
-contains \textbf{exactly one} element of order $2$, namely $-I$---the same involution
-lemma used in Proposition~\ref{prop:group}. But $A_4$, $S_4$ and $A_5$ contain $3$, $9$
+contains \textbf{at most one} element of order $2$, necessarily $-I$, since $-I$ is the
+only involution in $\SU(2)$---the same lemma used in Proposition~\ref{prop:group}. But $A_4$, $S_4$ and $A_5$ contain $3$, $9$
 and $15$ involutions respectively, so none of them embeds. The binary groups do, by
 construction.
 \end{proof}
@@ -852,7 +933,7 @@ $2T$ inside the \emph{principal} $\sll_2$ and takes invariants there, and the fo
 degrees $8,14,16,22$---hence the whole of \S\S\ref{sec:frame}--\ref{sec:cascade}---depend
 on that placement.
 
-\begin{scope}[C4, declared here rather than left implicit]\label{sc:principal}
+\begin{scope}[(C6), declared here rather than left implicit]\label{sc:principal}
 \textbf{The principal placement is a declared choice---(C6) in the ledger of
 \S\ref{sec:inputs}---and we price it.} Three things can be said in its favour, and the
 third is stronger than economy.
@@ -1011,10 +1092,15 @@ and is therefore contained in a Cartan subalgebra of $\g$.
 \begin{proof}
 Write $C=\g^\Gamma$ and let $K$ be the Killing form.
 
-\emph{(i) $K|_C$ is nondegenerate.} Decompose $\g$ into $\Gamma$-isotypic components.
-Since $\Gamma$ acts by automorphisms, $K$ is $\Gamma$-invariant, and distinct isotypic
-components are $K$-orthogonal. Hence $\g=C\perp C'$ with $C'$ the sum of the nontrivial
-components, and nondegeneracy of $K$ on $\g$ forces nondegeneracy on each summand.
+\emph{(i) $K|_C$ is nondegenerate.} Write $\g=C\oplus C'$ with $C'$ the sum of the
+nontrivial $\Gamma$-isotypic components. \textbf{We do not claim that distinct isotypic
+components are $K$-orthogonal---in general they are not, since a non-self-dual
+irreducible pairs nondegenerately with its dual.} Only $K(C,C')=0$ is needed, and that
+is immediate: for fixed $c\in C$ the map $x\mapsto K(c,x)$ is a $\Gamma$-invariant linear
+functional, because $K$ is $\Gamma$-invariant and $c$ is fixed; a nontrivial irreducible
+$\Gamma$-module admits no nonzero invariant functional, so the map kills every nontrivial
+isotypic component. Hence $\g=C\perp C'$, and nondegeneracy of $K$ on $\g$ forces
+nondegeneracy on $C$.
 
 \emph{(ii) Jordan components stay in $C$.} An automorphism preserves Jordan
 decomposition: if $x=s+n$ with $s$ semisimple, $n$ nilpotent and $[s,n]=0$, then
@@ -1068,8 +1154,11 @@ respectively, and none of them arises as $\Phi\cap V$.
 \end{scope}
 
 \begin{proof}
-$C$ is toral by Lemma~\ref{lem:toral} and $\Gamma=2T$ is finite, so $C\subseteq\h$ for
-some Cartan $\h$. The centralizer of a subset of $\h$ contains $\h$ and is spanned by
+We argue after base change to $\overline K$, which is where the root-space
+decomposition is available; this is a genuine qualification, since $\ad x_{14}$ and
+$\ad x_{22}$ have imaginary spectrum and $C$ is therefore not a split real Cartan.
+$C$ is toral by Lemma~\ref{lem:toral} and $\Gamma=2T$ is finite, so
+$C\otimes\overline K\subseteq\h$ for some Cartan $\h$. The centralizer of a subset of $\h$ contains $\h$ and is spanned by
 $\h$ together with the root spaces annihilated by $S$; the roots vanishing on $S$ are
 those in the linear subspace $S^\perp$, and $\Phi\cap S^\perp$ is by definition a Levi
 (equivalently, closed and symmetric of parabolic type) subsystem.
@@ -1185,10 +1274,15 @@ anti-invariant complement.
 
 \begin{proof}
 $2T$ is nonabelian, so its centralizer in $SU(2)$ is the centre $\{\pm1\}$ and $N^{\circ}$
-is trivial; hence $N$ is finite and contains $2O$, in which $2T$ has index $2$. A finite
-subgroup of $SU(2)$ properly containing $2O$ would have order divisible by $48$ and at
-most $120$, and the classification of finite subgroups of $SU(2)$ leaves only $2I$, whose
-order $120$ is not divisible by $48$. So $N=2O$.
+is trivial; hence $N$ is finite and contains $2O$, in which $2T$ has index $2$. Suppose a finite $H\le SU(2)$ properly contains $2O$. The finite
+subgroups of $SU(2)$ are cyclic, binary dihedral $2D_n$, $2T$, $2O$ and $2I$.
+\textbf{Order divisibility alone does not finish this}---binary dihedral groups of order
+$96$ exist---so we exclude by structure. $H$ is not cyclic, $2O$ being nonabelian. $H$ is no $2D_n$: such a group has a
+\emph{cyclic} subgroup $C$ of index~$2$, so $2O\cap C$ would be cyclic of index at most
+$2$ in $2O$. Index $1$ is impossible since $2O$ is nonabelian, and index $2$ is
+impossible because $2O$ has abelianization $\Z/2$ and hence a \emph{unique} subgroup of
+index~$2$, namely $2T$, which is nonabelian. So $2O\not\le 2D_n$. That leaves $H=2I$, impossible since $48\nmid120$.
+Hence $N=2O$.
 
 For the eigenvalues, each space $(\Sym^{n}\C^2)^{2T}$ with $n\in\{8,14,16,22\}$ is a line,
 so $\Ad(w)$ acts on it by a scalar, necessarily $\pm1$ since $w^2\in 2T$; and the scalar is
@@ -1269,9 +1363,12 @@ algebra happens to have dimension $2$, which is a computation and not a principl
 \end{scope}
 
 \begin{theorem}[first measurement]\label{thm:fmt}
-On the plane $\langle x_8,x_{16}\rangle$ the centralizer dimension stratifies as $12$,
-$30$, and exactly three lines at $46$; the three lines form the $S_3$-Galois orbit of
-the roots of $\mu$. For each such line $K_i$, $z(K_i)\cong\so(10)\oplus\uu(1)$, while
+On the plane $\langle x_8,x_{16}\rangle$ the centralizer dimension takes the value $30$
+at every point off three exceptional lines, and $46$ on those three lines, which form
+the $S_3$-Galois orbit of the roots of $\mu$. \textbf{No point of the plane gives less
+than $30$}: shrinking a set enlarges its centralizer, so every $y$ in the plane has
+$z(y)\supseteq z(\text{plane})$, which is already $30$-dimensional. An earlier draft
+listed a stratum at $12$ here; that is impossible for this reason and is withdrawn. For each such line $K_i$, $z(K_i)\cong\so(10)\oplus\uu(1)$, while
 $z(\text{plane})\cong\so(8)\oplus\uu(1)^2$. Moreover
 $\ee_6=(\so(8)\oplus\uu(1)^2)\oplus V_1\oplus V_2\oplus V_3$ with $\dim V_i=16$ and
 $[V_i,V_j]=V_k$.
@@ -1287,7 +1384,17 @@ Chevalley $\ee_6$ verified on all $\binom{78}{2}=3\,003$ basis pairs with zero
 discrepancies.
 \end{theorem}
 
-\begin{notation}[the two points, which earlier drafts left undefined]\label{not:points}
+\begin{scope}[which theorem carries the terminus]\label{sc:whichthm}
+\textbf{Theorem~\ref{thm:smtfull} and Corollary~\ref{cor:c7free} establish the terminus
+on their own}, by enumerating the $14$-locus and observing that every point of it is a
+Levi with $8$ roots. The historical route below, through a specific point $y^*$ produced
+by a pencil computation, is \textbf{not needed for that conclusion and we no longer rest
+it on them}. We keep the notation because the literature this paper draws on is stated
+in those terms, but a reader who cannot reconstruct $y^*$ loses nothing: the terminus
+follows from the enumeration.
+\end{scope}
+
+\begin{notation}[the historical route, recorded but not load-bearing]\label{not:points}
 Write $t_1$ for a root of the charge cubic $\mu$ and
 \[
    x_1\ :=\ x_8+t_1\,x_{16},
@@ -1299,13 +1406,16 @@ write $y(\theta)=\cos\theta\,x_{14}+\sin\theta\,x_{16}$; the distinguished point
 \[
    y^*\ =\ \gamma\,x_{14}-a\,x_{16},\qquad \gamma^2=-C_2/2,\quad a^2=-\det\nolimits_{14},
 \]
-with $C_2$ and $\det_{14}$ the invariants of the block-$12$ pencil. \textbf{Both symbols
-appeared in earlier drafts with no definition anywhere in the paper}, which is recorded
-here rather than quietly repaired.
+where $\gamma$ and $a$ are produced by the block-$12$ pencil of the source computation.
+\textbf{We do not define $C_2$ and $\det_{14}$ here, and a reader cannot reconstruct
+$y^*$ from this paper.} An earlier draft announced this gap as repaired; it was not, and
+saying so is the repair. The consequence is bounded exactly:
+Theorem~\ref{thm:smt}'s existential is supplied by Theorem~\ref{thm:smtfull}, which needs
+no $y^*$, and nothing downstream refers to $\gamma$, $a$ or $C_2$ again.
 \end{notation}
 
 \begin{theorem}[second measurement]\label{thm:smt}
-At the wall point $y^*$, $\dim z(x_1,y^*)=14$, with derived algebra of
+There is a point $y$ of $C$ with $\dim z(x_1,y)=14$, derived algebra of
 dimension $11$ and centre of dimension $3$; after base change the derived algebra has
 algebraic type $A_2\oplus A_1$,
 \[
@@ -1314,8 +1424,10 @@ algebraic type $A_2\oplus A_1$,
 \end{theorem}
 
 \begin{theorem}[the second measurement, exhaustively]\label{thm:smtfull}
-Fix a wall point $x_1$. Of the $78$ weights of $C$ on $\ee_6$, twelve vanish identically
-and $46$ vanish on $x_1$; the $34$ remaining fall into exactly \textbf{seven}
+Fix a wall point $x_1$. Of the $78$ weights of $C$ on $\ee_6$, exactly $12$ vanish
+identically and exactly $46$ vanish on $x_1$ (the $12$ among them). \textbf{The $34$
+that vanish on $x_1$ without vanishing identically}---that is $46-12$, not
+$78-46$---fall into exactly \textbf{seven}
 proportionality classes, of sizes $(2,2,6,6,6,6,6)$, and identically so at each of the
 three walls. Consequently, as $y$ ranges over \emph{all} of $C$,
 \[
@@ -1341,8 +1453,9 @@ earlier draft listed only the first.
 A meeting of two size-$6$ hyperplanes would contribute $6+6$ extra roots and give
 $\dim z=24$---which Theorem~\ref{thm:rungspec} forbids, since $24$ is not a Levi
 dimension of $E_6$. The arrangement resolves this without being asked to:
-\textbf{every one of the ten size-$6$ pairs also carries a third hyperplane}, five of
-them a further size-$6$ (giving $30$) and four of them a size-$2$ (giving $26$).
+\textbf{every one of the ten size-$6$ pairs also carries a third hyperplane}, six of
+them a further size-$6$ (giving $30$) and four of them a size-$2$ (giving $26$)---the
+two $30$-points account for $\binom{3}{2}+\binom{3}{2}=6$ pairs between them.
 \textbf{So ``$26$ is attained'' and ``$24$ is not'' are one fact, not two}, and it is an
 exact polynomial identity between the defining forms rather than a numerical
 coincidence. We record it because the two statements were obtained by completely
@@ -1363,13 +1476,40 @@ and \textbf{the values $14$, $20$ and $26$ are attained at no real point of $C$}
 shadow of the $14$-locus is the $16$-stratum, where the two conjugate hyperplanes meet.
 \end{corollary}
 
-\begin{corollary}[the second plane costs nothing]\label{cor:c7free}
+\begin{corollary}[the second plane is output-stable, \emph{not} free]\label{cor:c7free}
 Every point of the $14$-locus yields a Levi subalgebra with $8$ roots, and by
-Remark~\ref{rem:leviscope} $A_2\oplus A_1$ is the unique Levi type with $8$ roots.
-\textbf{So the choice of the second plane, and of the point $y^*$ within it, cannot
-change the terminus}; it can only fail to reach it. The terminus depends on the
-\emph{dimension} $14$, which is computed, and on nothing else that was chosen.
+Remark~\ref{rem:leviscope} $A_2\oplus A_1$ is the unique Levi type with $8$ roots. So
+\textbf{conditional on landing on the $14$-locus}, the choice of plane and of the point
+$y^*$ within it cannot change the terminus.
 \end{corollary}
+
+\begin{scope}[why this is not a price of zero, and an earlier draft said it was]\label{sc:c7price}
+\textbf{Output-stability is not zero cost, and we withdraw the claim that it is.} A
+generic second charge gives $\dim z=12$; the $14$-locus is two hyperplanes out of a
+three-dimensional space of choices. \textbf{So one must first arrange to land there},
+and Corollary~\ref{cor:c7free} says only that all successful landings agree. The
+sentence ``it can only fail to reach it'' was offered in an earlier draft as though
+failure were costless; \textbf{failure to reach the terminus is exactly the cost}.
+
+The same objection applies one step earlier and we had not booked it either. The first
+measurement is made at a \emph{wall}, $x_1=x_8+t_1x_{16}$ with $\dim z(x_1)=46$; the
+generic point of $\ee_6^{2O}$ has $\dim z=30$. Proposition~\ref{prop:twoO} forces the
+plane and the Galois orbit removes the choice \emph{among} the three walls, but nothing
+so far says to go to a wall rather than to a generic point.
+
+\textbf{We therefore book one principle rather than two choices}, since it is the same
+operation both times:
+\begin{quote}
+\textbf{(C7) The enhancement rule.} At each measurement, pass to a locus on which the
+centralizer dimension jumps, rather than to a generic point of the available space.
+\end{quote}
+Applied at the first measurement it selects a wall; applied at the second it selects the
+$14$-locus. \textbf{It is a declared choice and we do not claim it is derived.} What we
+do claim, and prove, is that it is \emph{output-stable} at both applications: the three
+walls are one Galois orbit, and every point of the $14$-locus gives $A_2\oplus A_1$. A
+reader who rejects the rule obtains $\dim z=30$ and then $12$, and the cascade stops;
+they do not obtain a different terminus.
+\end{scope}
 
 \begin{remark}[a correction we owe the record]\label{rem:26attained}
 Earlier drafts said the dimension $26$ ``is not attained at any coordinate subtorus or
@@ -1441,7 +1581,8 @@ $0,2,4,6,8,10,12,14,20,22,24,30,40,72$.
 \end{proof}
 
 \begin{remark}
-This is a \emph{theorem} where the non-attainment of $26$ is only a census, and the
+This is a \emph{theorem}, whereas the non-attainment of $26$ \emph{along the real
+locus of the route this paper takes} is a census, and the
 distinction is worth stating plainly: $26$ is an attainable Levi dimension---it is the
 $A_4$ Levi---so its absence from the ladder is a fact about the directions we measured,
 whereas the absence of $22$ and $24$ is a fact about $E_6$. \textbf{A referee should hold
@@ -1465,8 +1606,11 @@ settled only in \S\ref{sec:realform}, and asserting them earlier begs that quest
 \subsection{A forcedness audit of this section}\label{sec:audit}
 
 Because the paper's methodological claim is a cost claim, we state plainly which
-statements of \S\S\ref{sec:frame}--\ref{sec:cascade} are forced, which are classical,
-and which are computational certificates rather than proofs presented here.
+statements are forced, which are classical, and which are computational certificates
+rather than proofs presented here. This first table covers
+\S\S\ref{sec:frame}--\ref{sec:cascade}; \S\ref{sec:audit2} does the same for
+\S\S\ref{sec:realform}--\ref{sec:falsifiers}, \textbf{which earlier drafts left
+unaudited entirely}.
 
 \begin{table}[h]
 \centering\small
@@ -1525,8 +1669,18 @@ argument in these pages. A referee who declines to accept exact computation as e
 should read the cost claim as established only for the rows marked forced, proved or
 classical.
 
-\textbf{What that referee still gets is now most of the section}, and the reason is
-worth stating because it is the structural gain of Lemma~\ref{lem:toral}. The
+\textbf{And the one input everything rests on is the least well covered, which we state
+before anything else.} Scope~\ref{sc:abelian}'s single bracket is the only certificate
+the structure theory consumes, and it has \textbf{no script in block~(a) of
+Appendix~\ref{app:verify}}: it is reproducible only from the repository snapshot. So the
+sentence ``a certificate is an exact finite computation, reproducible by the scripts of
+Appendix~\ref{app:verify}'' does not apply to the very input that matters most, and a
+referee working from the submitted source alone must take that bracket on trust or
+recompute it themselves. \textbf{We regard this as the paper's sharpest outstanding
+defect} and record it rather than let the appendix's structure imply otherwise.
+
+\textbf{What that referee still gets is nonetheless most of the section}, and the reason
+is worth stating because it is the structural gain of Lemma~\ref{lem:toral}. The
 certificates in this section no longer carry conclusions; \textbf{they supply integers
 and loci, and the classification supplies every type}. Concretely, the only certificate
 the structure theory itself consumes is the \emph{single bracket} of
@@ -1552,22 +1706,35 @@ audit an involution on a space whose distinguished lines have not been named.
 
 \begin{definition}[the atoms]\label{def:atoms}
 The four charges of \S\ref{sec:frame} commute rationally in their action on the
-$27$-dimensional module. The \emph{atoms} are the joint eigenlines of this rational
-commuting family. There are fifteen; the tower never enters an atom line, so the atoms
-are defined over $\Q$ and not merely over a splitting field.
+$27$-dimensional module, which we fix as the fundamental representation
+$V(\varpi_1)$---$\ee_6$ has two inequivalent $27$s and every statement below is made
+about this one. The \emph{atoms} are the joint eigenspaces of this rational commuting
+family. There are fifteen: \textbf{nine of dimension one and six of dimension three},
+so that $9\cdot1+6\cdot3=27$. \textbf{They are eigenspaces and not in general
+eigenlines}, which matters at Theorem~\ref{thm:signature}, where the six
+three-dimensional ones carry a signature; an earlier draft said ``eigenlines'' and
+could not have been describing all fifteen. The tower never enters an atom, so the
+atoms are defined over $\Q$ and not merely over a splitting field.
 \end{definition}
 
 \begin{theorem}[the rational-atoms theorem]\label{thm:atoms}
 The fifteen atoms partition bijectively into nine \emph{colorless} and six
-\emph{colored}. The nine colorless atoms form a $3\times3$ grid whose rows are the even
-transversals of a determinant and whose columns are the odd ones; the grid is a pair of
-pencils of $\mathrm{AG}(2,3)$, and its incidence graph is $K_{3,3}$. The orientation
+\emph{colored}. The nine colorless atoms form a $3\times3$ grid. Its rows and columns are two of the
+four parallel classes of $\mathrm{AG}(2,3)$; \textbf{the even and odd transversals of the
+associated determinant are the other two}, the diagonal classes. The rows-and-columns
+incidence graph is $K_{3,3}$. (An earlier draft identified rows with the even
+transversals, which is false: rows and transversals are different parallel classes.) The orientation
 parity of that determinant---the Leibniz sign---is exact and equals $-1$.
 \end{theorem}
 
 \begin{theorem}[the signature split]\label{thm:signature}
-The canonical Hermitian structure on the $27$ has signature $(15,12)$, matching the
-$K$-type split of the real form $\ee_{6(2)}$. The nine colorless atoms are
+The canonical Hermitian structure on the $27$ has signature $(15,12)$, which among the
+five real forms of $E_6$ occurs only for $\ee_{6(2)}$. The $K$-type splits of the $27$
+are: compact $\ee_{6(-78)}$, definite; split $\ee_{6(6)}$, with $K=\mathfrak{sp}(4)$;
+$\ee_{6(-14)}$ with $K=\so(10)\oplus\uu(1)$ and $27\to16+10+1$; $\ee_{6(-26)}$ with
+$K=\ff_4$ and $27\to26+1$; and $\ee_{6(2)}$ with $K=\su(6)\oplus\su(2)$, giving
+$15+12$. \textbf{Only the last matches}, and the previous draft excluded only the
+compact and split forms. The nine colorless atoms are
 positive-definite, with nine exact scales; all six colored atoms are Lorentzian of type
 $(1,2,0)$.
 \end{theorem}
@@ -1648,11 +1815,14 @@ exactly $24$}. It surjects onto the full $S_3$ on the three enhancement lines, a
 \begin{remark}\label{rem:gapreading}
 Two consequences, in opposite directions.
 
-\emph{It confirms Theorem~\ref{thm:signs} independently.} Those four patterns are exactly
-the four the sign-locking theorem obtains from two degree-six rational trace moments. The
+\emph{It confirms Theorem~\ref{thm:signs}'s pattern classification independently,
+conditional on $\pm$-diagonality.} Those four patterns are exactly the four the
+sign-locking theorem obtains from two degree-six rational trace moments, and the
 weight-multiset stabilizer knows nothing of those moments. \textbf{Two unrelated
-computations return the same four patterns}, which is the strongest check the sign-locking
-theorem has.
+computations return the same four patterns.} \textbf{This does not confirm
+Hypothesis~\ref{hyp:diag}}---the same proposition exhibits twenty non-diagonal
+symmetries---so it is a check on the classification of diagonal patterns, not on the
+premise that only diagonal ones occur.
 
 \emph{And it closes a door.} The $3$-cycle preserves the full weight multiset, so
 \textbf{no invariant of $C$ can exclude it}: Hypothesis~\ref{hyp:diag} is not provable by
@@ -1718,16 +1888,30 @@ is deliberately outside this paper.
 
 \subsection{Scale-blindness, as a property of the whole family}
 
-\begin{theorem}[amphichirality is a condition on the word]\label{thm:amphi}
-A once-punctured-torus bundle is amphichiral if and only if its block-pair sequence is
-fixed by reversal composed with component swap, up to cyclic rotation; for metallic
-blocks this is the condition that the block-length sequence be a cyclic palindrome.
-Every $R^mL^m$ satisfies it.
-\end{theorem}
+\begin{proposition}[what the family satisfies]\label{thm:amphi}
+Every metallic word $R^mL^m$ is fixed by reversal composed with component swap, up to
+cyclic rotation. Consequently every $M_m$ admits an orientation-reversing self-homeomorphism
+and is amphichiral.
+\end{proposition}
+
+\begin{scope}[the converse is not claimed here]\label{sc:amphiscope}
+\textbf{An earlier draft stated the global biconditional}---that a once-punctured-torus
+bundle is amphichiral \emph{if and only if} its block-pair sequence has that symmetry.
+That direction is not proved in these pages and we found no source we had opened that
+states it in the form we needed, so \textbf{we withdraw the ``only if'' and keep only
+what the argument uses}, which is the easy direction applied to one explicit family. A
+finite computation over words cannot establish a universal biconditional, and
+Appendix~\ref{app:verify}'s script tests words rather than proving the classification.
+\end{scope}
 
 \begin{corollary}\label{cor:cs}
-The Chern--Simons invariant vanishes for every member of the family, in particular for
-$M_1$. Consequently the reduced boundary action
+The Chern--Simons invariant of every member of the family satisfies
+$2\,\mathrm{CS}\equiv0$, so $\mathrm{CS}\in\{0,\tfrac14\}$ in $\R/\tfrac12\Z$; and
+$\mathrm{CS}=0$ for $M_1$ by direct computation. \textbf{Amphichirality alone gives only
+the two-torsion statement}---an orientation-reversing homeomorphism sends
+$\mathrm{CS}$ to $-\mathrm{CS}$---and an earlier draft wrote ``vanishes'' where only
+``$2\,\mathrm{CS}\equiv0$'' was earned. The class $\tfrac14$ is excluded here by
+computation, not by symmetry. Consequently the reduced boundary action
 $S=-\mathrm{CS}\cdot k-\Vol\cdot\sigma$ satisfies
 $\partial S/\partial k=-\mathrm{CS}\equiv0$: \textbf{the classical action of this saddle
 carries no term proportional to the level.}
@@ -1839,19 +2023,32 @@ set; the table below exists so the count can be checked rather than believed.
 (C2) & a geometric carrier & \textbf{survives}, but the tiling hull and Effros--Shen algebra see only the real quadratic data; $\Q(\sqrt{-3})$ is bought here\\
 (C3) & the monodromy is orientation-preserving & \textbf{survives intact}: the Gieseking manifold. \textbf{The honest scar}\\
 (C4) & the puncture & \textbf{degenerates}: the closed mapping torus of an Anosov map of $T^2$ is a $\mathrm{Sol}$-manifold, since hyperbolization needs $\chi(F)<0$ and $\chi(T^2)=0$. No cusp, no hyperbolic structure, no arithmetic layer\\
-(C5) & period one & \textbf{price zero.} The period-two family $M(a,b)$ is orientation-preserving already and its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$; the selection of \S\ref{sec:four} survives verbatim\\
+(C5) & period one & \textbf{price zero against the period-two relaxation, which is the only one tested.} The period-two family $M(a,b)$ is orientation-preserving already, its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$, and the selection of \S\ref{sec:four} survives verbatim. \textbf{Period three and beyond are unchecked}, so this is not zero cost globally\\
 (C6) & the principal placement of $2T$ & \textbf{well motivated, not derived}: rigidity gives $H^1(\sll_2,\ee_6)=0$ and $C_{\ee_6}(\text{principal})=0$, but no source proves $2T$ must go there\\
-(C7) & the second measurement plane $\langle x_{14},x_{16}\rangle$ & \textbf{price zero.} The $14$-locus is enumerated in Thm.~\ref{thm:smtfull}; by Cor.~\ref{cor:c7free} every point of it gives the same terminus, so no choice inside $C$ can change the answer\\
+(C8) & \textbf{exceptionality}: the McKay target is restricted to the $E$-type series & \textbf{an input, not derived.} Rmk.~\ref{rem:vacuous} shows Selection~II is \emph{vacuous} without it, and Thm.~\ref{thm:classify} has no candidate set without it. The paper's own intrinsic substitute (chirality-capability) was computed and \textbf{failed}\\
+(C9) & the measurement is made on a \emph{plane} & \textbf{not derived.} Prop.~\ref{prop:twoO} forces \emph{which} plane, once a plane is wanted; nothing forces a $2$-space over a line or a $3$-space, and Scope~\ref{sc:cliffscope} says so\\
+(C7) & \textbf{the enhancement rule}: at each measurement pass to a jump locus, not a generic point & \textbf{consequential, and output-stable rather than free.} Rejecting it gives $30$ then $12$ and the cascade stops. Accepting it, the three walls are one Galois orbit and every point of the $14$-locus gives $A_2{\oplus}A_1$ (Cor.~\ref{cor:c7free}), so the \emph{answer} does not depend on where inside the locus one lands. \textbf{An earlier draft priced this at zero, which confused output-stability with freedom}\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\noindent\textbf{Seven rows. Two---(C5) and (C7)---cost nothing, and that is a
-computed result in both cases, not a concession.} Of the remaining five, two have
-alternatives that degenerate, two have alternatives that survive with a stated cost, and
-\textbf{one, (C6), is motivated but not derived}: it is the paper's residual, and we do
-not describe it as priced. A cost theorem whose ledger hides a row is not a cost theorem,
-so (C6) is printed as what it is.
+\noindent\textbf{Nine rows: two degenerate (C1, C4), two survive at a stated cost
+(C2, C3), one costs nothing against the relaxation tested (C5), one is output-stable but
+consequential (C7), and three are not derived (C6, C8, C9).} That last is the paper's
+residual and we do not describe it as priced. \textbf{An earlier draft called (C5) and
+(C7) free without qualification; both claims were too strong and are withdrawn above.} A
+cost theorem whose ledger hides a row is not a cost theorem---and one that prices a row
+at zero by confusing \emph{output-stability} with \emph{freedom} is not one either.
+
+\textbf{On whether the ledger is closed, which is the question that decides the cost
+claim.} We cannot prove that it is, and we say so rather than let silence imply it.
+\textbf{(C8) and (C9) were added after an outside reading identified them, and
+(C1)--(C7) had been presented as complete}. What we can state precisely is the scope:
+these are the choices we have found along the construction spine, each is named where it
+is made and not only in this table, and the riders below are listed separately.
+\textbf{A reader who finds a tenth has found a defect in this section, not a detail},
+and the honest posture is that this enumeration is our best current audit rather than a
+theorem about itself.
 
 Separately, the algebra steps carry declared input \emph{riders}, itemized rather than
 left implicit: chirality (three steps), a vacuum direction, and a generation count.
@@ -1919,6 +2116,80 @@ structure is generic and the value layer is base-rate dead, so any agreement wou
 to survive the base-rate test that everything else failed. \textbf{The construction is
 falsifiable as mathematics and, at present, not testable as physics.}
 
+\subsection{A forcedness audit of \S\S\ref{sec:realform}--\ref{sec:falsifiers}}\label{sec:audit2}
+
+\textbf{These three sections carried no audit in earlier drafts}, which was an
+inconsistency in a paper whose thesis is a cost claim: the audit existed exactly where
+the argument was strongest and was absent where it was weakest. The table repairs that.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}p{0.29\textwidth}p{0.24\textwidth}p{0.39\textwidth}@{}}
+\toprule
+statement & status & what would have to fail\\
+\midrule
+Thm.~\ref{thm:atoms}, the rational atoms
+ & \textbf{certificate} (exact rational joint eigen-decomposition)
+ & a sixteenth atom, or a split other than $9+6$\\
+Thm.~\ref{thm:signature}, the signature $(15,12)$
+ & \textbf{certificate} (exact Hermitian form)
+ & a different signature, which would change the real form\\
+Thm.~\ref{thm:signs}, sign-locking
+ & \textbf{certificate}, \textbf{conditional} on Hyp.~\ref{hyp:diag}
+ & a thirteenth admissible pattern\\
+Prop.~\ref{prop:gap}, the gap is $S_3$
+ & \textbf{proved here} (invariance of the weight multiset) with the group order a certificate
+ & a $C$-stabilizing automorphism not preserving the weights\\
+Thm.~\ref{thm:d2}, the $D_2$ characterization
+ & \textbf{certificate} (census over $128$ members)
+ & a second census member matching, or the affine shift failing\\
+Prop.~\ref{thm:amphi}, the family is amphichiral
+ & \textbf{proved here}, one direction only (Scope~\ref{sc:amphiscope})
+ & the reversal-swap symmetry of $R^mL^m$, which is immediate\\
+Cor.~\ref{cor:cs}, $\mathrm{CS}$ vanishes
+ & \textbf{corollary} of Thm.~\ref{thm:amphi}
+ & Thm.~\ref{thm:amphi}; nothing independent\\
+Census~\ref{cen:exhausted}, the two relations
+ & \textbf{certificate}, and \textbf{bounded}: the \emph{licensed} inventory, not the space of relations
+ & a third target-shaped relation inside the licensed menus\\
+No-go~\ref{ng:torus}, the cusp-torus route
+ & \textbf{proved here}, two independent legs
+ & a chiral algebra on the unquantized sector\\
+No-go~\ref{ng:c3}, cyclic cubic trace fields
+ & \textbf{proved here} (Galois parity, complex place)
+ & nothing; the proof is two lines\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{scope}[a status this table needs and \S\ref{sec:audit} did not]\label{sc:audit3}
+\textbf{``Certificate'' was defined in Scope~\ref{sc:audit} as an exact finite
+computation \emph{reproducible by the scripts of Appendix~\ref{app:verify}}. Several
+rows above do not meet that definition}---Theorems~\ref{thm:atoms},
+\ref{thm:signature} and~\ref{thm:d2} have no script in either block. They are
+\textbf{computed but not shipped}, which is a weaker status than certificate, and the
+reader should read them that way. We keep the word for continuity and flag the gap here
+rather than introduce a fourth label late in the paper.
+\end{scope}
+
+\begin{scope}[what this table shows, including the part that flatters us]\label{sc:audit2}
+\textbf{No entry in these sections is marked \emph{forced}}, and that is the honest
+outcome rather than a modest one: \S\S\ref{sec:realform}--\ref{sec:falsifiers} report
+computations and negatives, and none of them claims to force anything. The acceptance
+test of \S\ref{sec:price} is therefore met here trivially, by the absence of the claim,
+and \textbf{a reader should weight that differently from \S\ref{sec:audit}}, where the
+test is met by discharging it.
+
+One row deserves the reader's suspicion above the rest.
+Theorem~\ref{thm:signature}'s signature is the sole support for the real-form
+identification; it is a certificate, it has \textbf{no self-contained script in
+Appendix~\ref{app:verify}}, and if it is wrong then \S\ref{sec:realform} is wrong and
+nothing else in the paper notices. The weakest warrant in these sections is now
+Theorem~\ref{thm:signature}'s alone: an earlier draft also asserted a global
+amphichirality biconditional on our own authority, and that has been withdrawn to the
+one direction we actually prove (Scope~\ref{sc:amphiscope}).
+\end{scope}
+
 \appendix
 
 \section{The construction of the charges, in full}\label{app:construct}
@@ -1984,11 +2255,17 @@ which is the content of the correction recorded after Proposition~\ref{prop:mu}.
 \section{Verification}\label{app:verify}
 
 The empirical failure mode of this programme has been \emph{retrieval}, not computation:
-errors have been navigational while computations reproduced exactly. Accordingly every
-numerical claim carries a script that imports nothing project-internal, uses exact
-arithmetic in every verdict-bearing comparison, prints its expected values, and exits
-non-zero on drift. A single runner executes all of them and \emph{fails if the suite is
-empty}.
+errors have been navigational while computations reproduced exactly. The scripts of
+block~(a) below use \textbf{exact arithmetic} in every verdict-bearing comparison,
+import nothing project-internal, print their expected values, and exit non-zero on
+drift. \textbf{Block~(b) is weaker on both counts and we do not pretend otherwise}: it
+needs the repository snapshot, and the stratification row is a \emph{floating-point}
+computation that certifies itself by an explicit gap between the largest pairing treated
+as zero and the smallest treated as nonzero, not by exact arithmetic. A single runner executes block~(a) and
+\emph{fails if the suite is empty}. \textbf{The coverage is not total and we do not claim
+it is}: in particular \S\ref{sec:realform}'s atoms, signature and $D_2$ statements are
+listed in block~(b) or not at all, and a reader should treat \S\ref{sec:realform} as the
+least reproducible part of this paper.
 
 \textbf{The suite is in two parts, and the distinction is not cosmetic.} The scripts in
 \texttt{verify/} travel \emph{inside} the submitted source and depend on nothing but

@@ -108,8 +108,15 @@ expert reader the paper needs before submission, and solving it once solves both
 
 ```
 cd arxiv && pdflatex main.tex && pdflatex main.tex     # two passes, no bibtex
-tar czf oa-structure-paper.tar.gz main.tex             # the upload artifact
+rm -rf verify && cp -R ../verify verify                # block (a) MUST travel
+tar czf oa-structure-paper.tar.gz main.tex verify      # the upload artifact
 ```
+
+> **This recipe was wrong until 2026-08-15 and the error was load-bearing.** It packaged
+> `main.tex` alone, while Appendix B told the referee that block (a) "travels *inside*
+> the submitted source, so a referee can run them from the arXiv tarball alone". It did
+> not. `verify/` sits one directory above `arxiv/` and was never copied in. Caught by a
+> hostile read that opened the built artifact instead of trusting the sentence.
 
 **Known gaps before this is submittable** (none of them build failures):
 seven `refs.bib` entries still at `STANDARD` (bibliographic data unverified —
