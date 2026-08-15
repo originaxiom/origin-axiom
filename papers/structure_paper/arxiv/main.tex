@@ -909,6 +909,66 @@ falsifiable as mathematics and, at present, not testable as physics.}
 
 \appendix
 
+\section{The construction of the charges, in full}\label{app:construct}
+
+The referee's fair objection to \S\ref{sec:frame} is that $x_8,x_{14},x_{16},x_{22}$
+and $\mu$ are named but not exhibited, so the bridge
+$\ee_6\text{-pencil}\Rightarrow\mu\Rightarrow K$ cannot be audited. Printing four
+$78$-component vectors with large rational entries would not help. \textbf{We give the
+construction instead}, which is short, deterministic, and reconstructs every object
+from the Cartan matrix alone.
+
+\subsection*{Step 1: the algebra}
+Take the $E_6$ Cartan matrix in Bourbaki order and build the Chevalley basis
+$\{h_1,\dots,h_6\}\cup\{e_\alpha:\alpha\in\Phi\}$, $\dim=6+72=78$, with structure
+constants $N_{\alpha\beta}=\pm(p+1)$ fixed by an asymmetry function
+$\varepsilon:\Q^6\times\Q^6\to\{\pm1\}$ that is bimultiplicative and satisfies
+$\varepsilon(\alpha_i,\alpha_i)=-1$ and
+$\varepsilon(\alpha_i,\alpha_j)=(-1)^{\langle\alpha_i,\alpha_j^\vee\rangle}$ for $i<j$.
+All arithmetic is over $\Q$; no floating point occurs at any stage.
+
+\subsection*{Step 2: the principal $\sll_2$}
+Set $e=\sum_{i=1}^{6}e_{\alpha_i}$ and let $h$ have coordinates $C^{-1}(2,2,2,2,2,2)^{T}$
+in the coroot basis; then solve $[e,f]=h$ for $f=\sum_i d_i e_{-\alpha_i}$, a linear
+system with a unique rational solution. Under $\mathrm{ad}$, $\ee_6$ decomposes into
+irreducible $\sll_2$-modules of highest weights $2\cdot(1,4,5,7,8,11)$, the doubled
+exponents.
+
+\subsection*{Step 3: the $2T$-invariants}
+Realize $2T$ as the $24$ Hurwitz units---$\pm1,\pm i,\pm j,\pm k$ and the sixteen
+$\tfrac12(\pm1\pm i\pm j\pm k)$---and map each to $\SU(2)$ by
+$a+bi+cj+dk\mapsto\left(\begin{smallmatrix}a+bi&c+di\\-c+di&a-bi\end{smallmatrix}\right)$.
+For $n\in\{8,14,16,22\}$ form the average
+$P_n=\frac{1}{24}\sum_{g\in2T}\mathrm{Sym}^n(g)$, a projector onto the
+$2T$-invariants in $\mathrm{Sym}^n$. Each $P_n$ has rank one, and $x_n$ is the highest
+weight vector of the $\sll_2$-module of highest weight $n$ paired with the image of
+$P_n$. \textbf{That the four degrees $8,14,16,22$ are exactly those for which $P_n\neq0$
+in the relevant range is Proposition~\ref{prop:C}}, and it is what makes $C$ canonical
+rather than a basis choice.
+
+\subsection*{Step 4: the pencil and the cubic}
+Form $\mathrm{ad}(x_8+t\,x_{16})$ on $\ee_6$ and restrict to the $36$- and
+$12$-dimensional isotypic blocks. Their determinants are polynomials in $t$ over $\Q$
+that factor as constants times $\mu(t)^{12}$ and $\mu(t)^{4}$, with
+\[
+   \mu(t)\;=\;500716339200\,t^{3}\;-\;159667200\,t^{2}\;-\;28224\,t\;+\;1 .
+\]
+This is the cubic of Proposition~\ref{prop:mu}, printed here so that the bridge can be
+audited. Its reduced model is obtained by clearing the leading coefficient and applying
+a Tschirnhaus transformation; explicitly, $\rho=-\tfrac{815}{338}
+-\tfrac{4934160}{169}\,t+\tfrac{13039488000}{169}\,t^{2}$ satisfies
+$\rho^{3}-12\rho-5=0$ in $\Q[t]/\mu$, which exhibits the isomorphism
+$K\cong\Q[x]/(x^{3}-12x-5)$ of Proposition~\ref{prop:mu} directly.
+
+\begin{remark}[why $\disc\mu$ and $\disc K$ differ]
+$\disc\mu=2^{32}\cdot3^{10}\cdot5^{2}\cdot7^{3}\cdot11\cdot13^{6}$ while
+$\disc K=3^{4}\cdot7\cdot11$. The extra primes---in particular the $5^2$ and the
+$13^6$---are carried by the non-maximal order $\Z[t]/\mu$, and the leading coefficient
+$500716339200=2^{16}\cdot3^{4}\cdot5^{2}\cdot7^{3}\cdot11$ already contains a $5^2$.
+\textbf{They are artifacts of the pencil's normalization, not arithmetic of the field},
+which is the content of the correction recorded after Proposition~\ref{prop:mu}.
+\end{remark}
+
 \section{Verification}\label{app:verify}
 
 The empirical failure mode of this programme has been \emph{retrieval}, not computation:
