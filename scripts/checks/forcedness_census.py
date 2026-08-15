@@ -16,9 +16,16 @@ WHAT IT ASSERTS
 ---------------
 1. the label census over all C-links
 2. THE AXIOM-FREE STRETCH: no [AXIOM] link between C6 (the knot, Thurston/Riley)
-   and C17 inclusive -- the stretch in which e6 and the 27 arrive.
+   and C17 inclusive -- the knot through the SM-record no-go.
 3. the axioms are exactly {C3, C4, C5, C18} -- three BEFORE the knot, one at the
    observer's closings, none in the stretch above.
+
+WHAT IT DOES NOT ASSERT, and an earlier version of this file wrongly implied.
+The stretch does NOT reach the algebra.  e6 and the 27 first enter the chain at
+C24 (the First Measurement), and the AXIOM at C18 (the observer's closings) sits
+between C17 and C24.  So the correct reading is: the run from the knot to the
+SM-record no-go is axiom-free -- NOT that the run from the knot to e6 is.  The
+gloss that named C17 as "where e6 and the 27 arrive" was false and is retired.
 
 Run:  python3 scripts/checks/forcedness_census.py
 Exit: 0 on match, 1 on drift (with the diff named).
@@ -51,7 +58,8 @@ EXPECTED = {
 # still passes. DO NOT read a green census here as certifying the un-amended
 # sentence; the paper's Scope on the principal placement governs.
 EXPECTED_AXIOMS = [3, 4, 5, 18]
-STRETCH = (6, 17)  # the knot .. the algebra's no-gos; e6 and the 27 arrive inside
+STRETCH = (6, 17)  # the knot .. the SM-record no-go.  e6 arrives at C24, AFTER
+                   # the axiom at C18 -- the stretch does not reach the algebra.
 
 LINK = re.compile(r"^\*\*C(\d+)\s*\[([A-Z][A-Z-]*)")
 
@@ -91,7 +99,7 @@ def main(argv):
     print("-" * 52)
     print(f"  FORCED (non-axiom): {forced} of {len(links)}")
     print(f"  axioms at: {axioms}")
-    print(f"  axioms in C{lo}..C{hi} (the knot -> the algebra): {in_stretch or 'NONE'}")
+    print(f"  axioms in C{lo}..C{hi} (the knot -> the SM-record no-go): {in_stretch or 'NONE'}")
     print()
 
     bad = []
@@ -110,8 +118,10 @@ def main(argv):
         return 1
 
     print("PASS: the census holds; the axiom-free stretch is intact.")
-    print(f"      From the knot (C{lo}) to C{hi} -- where e6 and the 27 arrive --")
-    print("      there is not one declared choice.")
+    print(f"      From the knot (C{lo}) to C{hi} -- the SM-record no-go -- there is")
+    print("      not one declared choice.")
+    print("      SCOPE: this does NOT certify a choice-free run to the algebra.")
+    print("      e6 and the 27 enter at C24, and C18 [AXIOM] lies in between.")
     return 0
 
 

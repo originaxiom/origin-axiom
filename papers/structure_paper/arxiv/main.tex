@@ -50,6 +50,11 @@
 \newcommand{\coker}{\operatorname{coker}}
 \newcommand{\Gal}{\operatorname{Gal}}
 \newcommand{\ad}{\operatorname{ad}}
+\newcommand{\Ad}{\operatorname{Ad}}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\g}{\mathfrak{g}}
+\newcommand{\h}{\mathfrak{h}}
 
 \begin{document}
 
@@ -908,10 +913,81 @@ exponents are skipped for a representation-theoretic reason, not by selection.
 \begin{scope}\label{sc:abelian}
 \textbf{Abelianness is a separate statement} and we do not claim it follows from the
 invariant theory: a Molien computation bounds dimensions of invariant subspaces and says
-nothing about brackets. It is verified as an exact rational computation over the
-Chevalley basis of Appendix~\ref{app:construct}, and is listed as a certificate rather
-than as a proof in the audit of \S\ref{sec:audit}.
+nothing about brackets. Equivariance of the transvectant reduces the six brackets to a
+single one, which is verified as an exact rational computation over the Chevalley basis
+of Appendix~\ref{app:construct}. \textbf{That single bracket is the only certificate this
+section rests on}, and it is listed as such in the audit of \S\ref{sec:audit}.
 \end{scope}
+
+Everything after it is free. The following lemma is the reason, and it is the hinge of
+the whole cascade: it converts $C$ from a merely abelian subalgebra---about which Lie
+theory says little---into a \emph{toral} one, about which it says everything.
+
+\begin{lemma}[abelian fixed algebras are toral]\label{lem:toral}
+Let $\g$ be a semisimple Lie algebra over a field of characteristic $0$, let
+$\Gamma\subset\Aut(\g)$ be a finite group, and suppose the fixed algebra $\g^\Gamma$ is
+abelian. Then every element of $\g^\Gamma$ is semisimple; that is, $\g^\Gamma$ is toral,
+and is therefore contained in a Cartan subalgebra of $\g$.
+\end{lemma}
+
+\begin{proof}
+Write $C=\g^\Gamma$ and let $K$ be the Killing form.
+
+\emph{(i) $K|_C$ is nondegenerate.} Decompose $\g$ into $\Gamma$-isotypic components.
+Since $\Gamma$ acts by automorphisms, $K$ is $\Gamma$-invariant, and distinct isotypic
+components are $K$-orthogonal. Hence $\g=C\perp C'$ with $C'$ the sum of the nontrivial
+components, and nondegeneracy of $K$ on $\g$ forces nondegeneracy on each summand.
+
+\emph{(ii) Jordan components stay in $C$.} An automorphism preserves Jordan
+decomposition: if $x=s+n$ with $s$ semisimple, $n$ nilpotent and $[s,n]=0$, then
+$\varphi(x)=\varphi(s)+\varphi(n)$ has the same three properties, so by uniqueness
+$\varphi(s)$ and $\varphi(n)$ are the components of $\varphi(x)$. If $x\in C$ then
+$\varphi(x)=x$ for all $\varphi\in\Gamma$, whence $\varphi(s)=s$ and $\varphi(n)=n$; so
+$s,n\in C$.
+
+\emph{(iii) The nilpotent part vanishes.} Let $x\in C$ with components $s,n$ as above and
+let $y\in C$ be arbitrary. Because $C$ is abelian, $[n,y]=0$, so $\ad n$ and $\ad y$
+commute; as $\ad n$ is nilpotent, the product $\ad n\,\ad y$ is nilpotent and has trace
+$0$. Thus $K(n,y)=0$ for every $y\in C$, and $n\in C$, so (i) gives $n=0$.
+
+Hence every $x\in C$ equals its semisimple part. An abelian subalgebra of semisimple
+elements is toral, and every toral subalgebra lies in a Cartan subalgebra.
+\end{proof}
+
+\begin{corollary}[the rungs are Levi subalgebras]\label{cor:levi}
+$C$ lies in a Cartan subalgebra $\h\subset\ee_6$, and for any subset $S\subseteq C$
+\[
+   z(S)\;=\;\h\ \oplus\!\!\bigoplus_{\alpha\in\Phi,\ \alpha|_S=0}\!\!(\ee_6)_\alpha ,
+\]
+a Levi subalgebra of $\ee_6$. In particular $\dim z(S)=6+\lvert\Phi_S\rvert$, where
+$\Phi_S=\Phi\cap S^{\perp}$ is the subsystem cut out by a linear subspace, and the
+isomorphism type of $z(S)$ is determined by $\lvert\Phi_S\rvert$ whenever the Levi
+subsystems of $E_6$ with that root count form a single isomorphism class.
+\end{corollary}
+
+\begin{proof}
+$C$ is toral by Lemma~\ref{lem:toral} and $\Gamma=2T$ is finite, so $C\subseteq\h$ for
+some Cartan $\h$. The centralizer of a subset of $\h$ contains $\h$ and is spanned by
+$\h$ together with the root spaces annihilated by $S$; the roots vanishing on $S$ are
+those in the linear subspace $S^\perp$, and $\Phi\cap S^\perp$ is by definition a Levi
+(equivalently, closed and symmetric of parabolic type) subsystem.
+\end{proof}
+
+\begin{remark}[what this buys, and where it stops]\label{rem:leviscope}
+Enumerating the Levi subsystems of $E_6$ by root count gives
+\[
+  46\mapsto 40\ \text{roots}\mapsto D_5,\quad
+  30\mapsto 24\mapsto D_4,\quad
+  26\mapsto 20\mapsto A_4,\quad
+  14\mapsto 8\mapsto A_2{+}A_1 ,
+\]
+and \textbf{each of these four root counts is realized by exactly one Levi type}, so at
+those dimensions the certificate supplies only an integer and the classification does the
+forcing. \textbf{The counts $12$ and $18$ are genuinely ambiguous}---$6$ roots is $A_2$ or
+$3A_1$, and $12$ roots is $A_3$ or $2A_2$---and we do not claim the type there. A referee
+who declines to run any computation still obtains the conditional statement \emph{if
+$\dim z=14$ then the type is $A_2\oplus A_1$}, which is a theorem about $E_6$ alone.
+\end{remark}
 
 \begin{proposition}\label{prop:mu}
 The two pencil determinants are exact powers, up to nonzero rational constants, of an
@@ -982,16 +1058,62 @@ $\ad x_{14}$ and $\ad x_{22}$ have $\{0^{12},\,66\ \text{imaginary}\}$---compact
 flows. \textbf{There is no mixed and no generic-complex direction on $C$.}
 \end{proposition}
 
-\textbf{So the pair carrying the cascade is picked out by the object, twice over}: it is
-the split pair, and it is the only subtorus with anywhere to go. \textbf{This is the
-sharpest instance in the paper of its own recurring pattern}---a finite exhaustive census
-in which the distinguished object is the one place a genericity fails---and earlier drafts
-omitted it entirely, presenting the plane as though it had been chosen.
+Both of these are censuses. The third reason is not, and it is the one we would keep if
+forced to keep only one.
+
+\begin{proposition}[the plane is a fixed algebra]\label{prop:twoO}
+Let $N=N_{SU(2)}(2T)$. Then $N=2O$ and $N/2T\cong\Z/2$, so $2T$ admits exactly one outer
+involution, realized by $\Ad(w)$ for any $w\in 2O\smallsetminus 2T$ acting through the
+principal $\sll_2$. On the four invariant lines $\Ad(w)$ has eigenvalues
+\[
+   (+1,\,-1,\,+1,\,-1)\quad\text{on degrees}\quad (8,\,14,\,16,\,22),
+\]
+and consequently
+\[
+   \boxed{\ \langle x_8,x_{16}\rangle\;=\;\ee_6^{\,2O}\ }
+\]
+is exactly the plane on which the cascade is run, with $\langle x_{14},x_{22}\rangle$ its
+anti-invariant complement.
+\end{proposition}
+
+\begin{proof}
+$2T$ is nonabelian, so its centralizer in $SU(2)$ is the centre $\{\pm1\}$ and $N^{\circ}$
+is trivial; hence $N$ is finite and contains $2O$, in which $2T$ has index $2$. A finite
+subgroup of $SU(2)$ properly containing $2O$ would have order divisible by $48$ and at
+most $120$, and the classification of finite subgroups of $SU(2)$ leaves only $2I$, whose
+order $120$ is not divisible by $48$. So $N=2O$.
+
+For the eigenvalues, each space $(\Sym^{n}\C^2)^{2T}$ with $n\in\{8,14,16,22\}$ is a line,
+so $\Ad(w)$ acts on it by a scalar, necessarily $\pm1$ since $w^2\in 2T$; and the scalar is
+$+1$ precisely when the line is $2O$-invariant. Molien's formula for $2O$ gives
+$\dim(\Sym^{n}\C^2)^{2O}=1$ for $n\in\{8,16\}$ and $0$ for $n\in\{2,10,14,22\}$. Since
+$\ee_6=\bigoplus_{m}\Sym^{2m}$ over the exponents $m\in\{1,4,5,7,8,11\}$, taking $2O$
+invariants summand by summand yields $\dim\ee_6^{2O}=2$, spanned by $x_8$ and $x_{16}$.
+\end{proof}
+
+\begin{corollary}\label{cor:gradfree}
+The decomposition $C=C_0\oplus C_1$ with $C_0=\langle x_8,x_{16}\rangle$ and
+$C_1=\langle x_{14},x_{22}\rangle$ is the eigenspace decomposition of an automorphism of
+$\ee_6$. Hence $[C_i,C_j]\subseteq C_{i+j}$ holds identically, with no computation.
+\end{corollary}
+
+\textbf{So the pair carrying the cascade is picked out by the object, three times over}:
+it is the split pair of Proposition~\ref{prop:dichotomy}, it is the only subtorus with
+anywhere to go by Proposition~\ref{prop:cliff}, and it is the fixed algebra of the unique
+outer symmetry of $2T$. \textbf{The third reason subsumes the worry the first two leave
+open.} A census over coordinate subtori invites the question \emph{why coordinate
+subtori?}; Proposition~\ref{prop:twoO} does not, because $\ee_6^{2O}$ is defined without
+reference to any basis of $C$. Earlier drafts omitted all three and presented the plane as
+though it had been chosen.
 
 \begin{scope}\label{sc:cliffscope}
-Both propositions quantify over \emph{coordinate} subtori. Non-coordinate $2$-planes of
-$C$ have not been scanned, and we do not claim uniqueness among all planes; the two mixed
-directions that were tested both resolve to $12$.
+Propositions~\ref{prop:cliff} and~\ref{prop:dichotomy} quantify over \emph{coordinate}
+subtori; non-coordinate $2$-planes of $C$ have not been scanned, and the two mixed
+directions that were tested both resolve to $12$. Proposition~\ref{prop:twoO} carries no
+such restriction. What none of the three settles is why one should measure on a
+\emph{plane} rather than on a line or a $3$-space, and we do not claim it: the plane's
+dimension is inherited from $\lvert 2O/2T\rvert=2$ only in the sense that the fixed
+algebra happens to have dimension $2$, which is a computation and not a principle.
 \end{scope}
 
 \begin{theorem}[first measurement]\label{thm:fmt}
@@ -1027,6 +1149,35 @@ of realized strata, not as an exhaustion of $C$, and the non-attainment of $26$ 
 census over those directions rather than a theorem about every subtorus.
 \end{theorem}
 
+The word ``includes'' concedes that we have not exhausted $C$. Corollary~\ref{cor:levi}
+lets us say exactly how much that concession costs, because it constrains every rung that
+could ever appear---measured or not.
+
+\begin{theorem}[the rung spectrum]\label{thm:rungspec}
+For every subset $S\subseteq C$,
+\[
+   \dim z(S)\ \in\ \{6,8,10,12,14,16,18,20,26,28,30,36,46,78\},
+\]
+and this list is exhaustive. In particular \textbf{no rung can have dimension $22$, $24$,
+$32$, $34$, or any value in $38$--$44$}, and no rung can have odd dimension.
+\end{theorem}
+
+\begin{proof}
+By Corollary~\ref{cor:levi} every $z(S)$ is a Levi subalgebra, so $\dim z(S)=6+\lvert
+\Phi_S\rvert$ with $\Phi_S$ a Levi subsystem of $E_6$. Every Levi subsystem is
+$W$-conjugate to the one generated by a subset of the simple roots, so enumerating the
+$2^6=64$ subsets enumerates every attainable root count; the resulting counts are
+$0,2,4,6,8,10,12,14,20,22,24,30,40,72$.
+\end{proof}
+
+\begin{remark}
+This is a \emph{theorem} where the non-attainment of $26$ is only a census, and the
+distinction is worth stating plainly: $26$ is an attainable Levi dimension---it is the
+$A_4$ Levi---so its absence from the ladder is a fact about the directions we measured,
+whereas the absence of $22$ and $24$ is a fact about $E_6$. \textbf{A referee should hold
+those two statements to different standards, and earlier drafts invited them not to.}
+\end{remark}
+
 \begin{remark}[a rank constraint that fixes a mislabelling]\label{rem:rank}
 Every rung is the centralizer of a subset of a rank-$6$ torus and therefore has rank
 $6$. The rank-$6$ algebra of dimension $26$ is $\su(5)\oplus\uu(1)^2$; the algebra
@@ -1059,15 +1210,26 @@ Prop.~\ref{prop:C}, completeness of the four invariants
 Prop.~\ref{prop:mu}, the cubic and its field
  & \textbf{proved here} (Dedekind, Minkowski)
  & an arithmetic error, checkable in one command\\
+$C$ abelian (Scope~\ref{sc:abelian})
+ & \textbf{certificate}, one bracket
+ & \textbf{this is the section's only certificate input}; the
+   transvectant reduction, or that single exact bracket\\
+Lem.~\ref{lem:toral}, $C$ toral; Cor.~\ref{cor:levi}, rungs are Levi
+ & \textbf{proved here}, given the line above
+ & a nonzero nilpotent in an abelian fixed algebra\\
+Prop.~\ref{prop:twoO}, the plane is $\ee_6^{2O}$
+ & \textbf{proved here} (normalizer + Molien)
+ & a finite subgroup of $SU(2)$ between $2O$ and $SU(2)$\\
 Thm.~\ref{thm:fmt}, the $46$-stratum and its Galois orbit
- & \textbf{certificate} (exact rank computation)
+ & \textbf{certificate} (exact rank computation) \textbf{+ Levi} for the type
  & a fourth wall line, or a wall not in the orbit\\
 Thm.~\ref{thm:magic}, the magic-square identification
  & \textbf{classical} \cite{BartonSudbery}, verified
  & nothing new is claimed here\\
 Thm.~\ref{thm:smt}, the terminal type
- & \textbf{certificate} + rank argument (Rmk.~\ref{rem:rank})
- & a rung of rank $\ne6$, which is impossible\\
+ & \textbf{forced} by Cor.~\ref{cor:levi} and Rmk.~\ref{rem:leviscope}; the
+   certificate supplies only the integer $14$
+ & $A_2{+}A_1$ not being the unique Levi type with $8$ roots\\
 Thm.~\ref{thm:signs}, sign-locking
  & \textbf{certificate} (degree-six trace moments)
  & a thirteenth admissible sign pattern\\
@@ -1451,30 +1613,48 @@ arithmetic in every verdict-bearing comparison, prints its expected values, and 
 non-zero on drift. A single runner executes all of them and \emph{fails if the suite is
 empty}.
 
+\textbf{The suite is in two parts, and the distinction is not cosmetic.} The scripts in
+\texttt{verify/} travel \emph{inside} the submitted source and depend on nothing but
+\texttt{sympy} and the standard library, so a referee can run them from the arXiv tarball
+alone. The remaining rows depend on the repository snapshot---because they consume an
+external census (\textsc{SnapPy}), a large character table, or the chain ledger itself---
+and \textbf{a referee who runs only the tarball will not execute them.} An earlier draft
+listed all ten rows under one runner that discovers only the first group; that overstated
+what the command does, and the table now says which is which.
+
 \begin{table}[h]
 \centering\small
-\begin{tabular}{@{}p{0.30\textwidth}p{0.36\textwidth}p{0.26\textwidth}@{}}
+\begin{tabular}{@{}p{0.29\textwidth}p{0.37\textwidth}p{0.26\textwidth}@{}}
 \toprule
 statement & file & content\\
 \midrule
-Thm~\ref{thm:homology} & \texttt{test\_b251\_metallic\_specificity.py} & Smith normal form; knot test\\
-Lem~\ref{lem:telescope}, Thm~\ref{thm:shadow}, Prop~\ref{prop:group} & \texttt{test\_b997\_golden\_conductor\_uniqueness.py} & order formula counted; bound; involution census\\
-Thm~\ref{thm:jones} & \texttt{test\_b218\_metallic\_anyon\_selection.py} & index wall, exact\\
-Thm~\ref{thm:arith} & \texttt{test\_b125\_snappy\_arithmeticity.py} & invariant trace fields\\
-Thm~\ref{thm:canonical} & \texttt{test\_b92\_metallic\_classification.py} & period-one criterion\\
+\multicolumn{3}{@{}l}{\textbf{(a) self-contained---runs from the submitted source}}\\
+\midrule
+Thm~\ref{thm:homology} & \texttt{verify/check\_homology.py} & Smith normal form; knot test\\
+Lem~\ref{lem:telescope}, Thm~\ref{thm:shadow}, Prop~\ref{prop:group} & \texttt{verify/check\_shadow\_modulus.py} & order formula; telescoping bound; involution census\\
+Thm~\ref{thm:jones} & \texttt{verify/check\_jones\_wall.py} & index wall, integer algebra\\
 Prop~\ref{prop:mu} & \texttt{verify/check\_charge\_field.py} & Dedekind; Minkowski; $h=1$\\
+Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \texttt{verify/check\_measurement\_plane.py} & $\ee_6^{2O}=\langle x_8,x_{16}\rangle$; eigenvalues\\
+\midrule
+\multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
+\midrule
+Cor~\ref{cor:levi}, Rmk~\ref{rem:leviscope}, Thm~\ref{thm:rungspec} & \texttt{test\_levi\_classification\_forces\_the\_rungs.py} & all $64$ Levi subsystems; rung spectrum\\
+Thm~\ref{thm:arith} & \texttt{test\_b125\_snappy\_arithmeticity.py} & invariant trace fields (\textsc{SnapPy})\\
+Thm~\ref{thm:canonical} & \texttt{test\_b92\_metallic\_classification.py} & period-one criterion\\
 Prop~\ref{prop:2880} & \texttt{test\_b1011\_mckay\_tensor.py} & order $2880$; $63/63$ characters\\
 Thm~\ref{thm:amphi} & \texttt{test\_b136\_general\_amphichirality.py} & palindrome criterion\\
 No-go~\ref{ng:c3} & \texttt{test\_b307\_totally\_real\_obstruction.py} & obstruction; census\\
-Census~\ref{cen:forced} & \texttt{forcedness\_census.py} & regenerated; fails on drift\\
+Census~\ref{cen:forced} & \texttt{forcedness\_census.py} & regenerated from the ledger\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\noindent Run \texttt{python3 verify/verify\_all.py}; exit $0$ means every check
-reproduced. \textbf{An archival snapshot with a permanent identifier accompanies the
-submitted version}; a manuscript that promises runnable verification and supplies only a
-description does not meet its own standard.
+\noindent Run \texttt{python3 verify/verify\_all.py}; it executes exactly the scripts of
+block~(a), reports the count it ran, and exits non-zero on any drift or on an empty
+suite. \textbf{An archival snapshot with a permanent identifier accompanies the submitted
+version} and carries block~(b); a manuscript that promises runnable verification and
+supplies only a description does not meet its own standard, and neither does one whose
+runner silently covers a third of its own table.
 
 \section{Glossary: one referent per term}\label{app:glossary}
 

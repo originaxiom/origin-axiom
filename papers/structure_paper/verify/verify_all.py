@@ -72,6 +72,12 @@ def main(argv):
     passed = sum(1 for _n, ok, _p in results if ok)
     print("-" * 70)
     print(f"  {passed} / {len(results)} verifications reproduced")
+    print()
+    print("  SCOPE. This runner executes block (a) of the Appendix B table -- the")
+    print("  self-contained scripts that travel inside the submitted source. Block")
+    print("  (b) of that table depends on the repository snapshot (SnapPy, the")
+    print("  character tables, the chain ledger) and is NOT run here. Exit 0 means")
+    print("  block (a) reproduced; it is not a statement about block (b).")
 
     if passed != len(results):
         print("\nFAIL: at least one claim in the paper did not reproduce.")
