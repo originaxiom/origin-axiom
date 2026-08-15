@@ -426,7 +426,17 @@ Thirteen arcs currently sit at PENDING — that is a recorded debt, not a discha
 
 **Every headline claim in `papers/structure_paper/` must resolve to a registry row or a lock,
 and every cited lock path must exist.** Blockquoted Theorem/Proposition/Census statements are
-checked directly; §1's bolded factual assertions are checked against their surrounding context.
+checked directly; §1 is scanned **by paragraph**, and a structural assertion is recognised by a
+**named mathematical object in inline code**, not by styling.
+
+> **That last clause was earned the hard way, and the correction is the point.** The gate
+> shipped claiming the `ℤ₆` defect as its calibration case **and did not catch it** — proved by
+> mutation test the same day. Two reasons, both instructive: the `ℤ₆` claim **was never bold**
+> (it is inline code in ordinary prose), and the one bold near it **spanned two lines**, so a
+> line-by-line bold scan missed that too. **A gate that advertises a calibration case it cannot
+> catch is worse than no gate**, because the documentation launders the gap. Now mutation-tested
+> in both directions: removing the citation makes it exit 1 and name the structure; restoring it
+> exits 0.
 
 **The calibration case, kept because a gate without one is a gate nobody trusts.** On
 2026-08-15 the paper's **own headline sentence** asserted the global form

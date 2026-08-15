@@ -55,9 +55,15 @@ ARC_RE = re.compile(r"\bB\d{2,4}\b")
 LOCK_RE = re.compile(r"`(tests/[A-Za-z0-9_./-]+\.py)`")
 ROW_RE = re.compile(r"\b(?:registry\s+)?([GND]\d{1,2}[a-c]?)\b")
 
-# Prose assertions outside blockquotes that are still headline claims: a bolded
-# sentence in Section 1. Calibrated on the Z_6 defect, which lived exactly there.
+# Prose assertions outside blockquotes that are still headline claims.
 S1_BOLD_RE = re.compile(r"\*\*([^*]{25,300})\*\*")
+
+# Inline code spans, and the signature of a NAMED MATHEMATICAL STRUCTURE inside
+# one. This is what actually catches the Z_6 defect: the claim was never bold,
+# it was `[SU(3)xSU(2)xU(1)]/Z_6` sitting in ordinary prose.
+CODE_RE = re.compile(r"`([^`\n]{3,80})`")
+STRUCTURE_RE = re.compile(
+    "SU\\(|su\\(|so\\(|u\\(1\\)|\\bE[6-8]\\b|\u2124|\u211A\\(|\uD835\uDD22|\u2295|E\u2086|E\u2088")
 
 # Terms that mark a Section 1 bold as a factual claim about the construction
 # rather than framing ("What is claimed", "we do NOT claim", etc.).
@@ -144,21 +150,40 @@ def check():
                                          f"{label}: arc {a} is in no registry file"))
 
             # Section 1 bolded factual assertions
-            if name.startswith("S1") and line.startswith(("This paper", "`su", "determines")) is False:
-                for b in S1_BOLD_RE.findall(line):
-                    if FRAMING_CUES.search(b) or not FACTUAL_CUES.search(b):
-                        continue
-                    # The citation for a Section-1 assertion is often the trailing
-                    # *(arc; lock)* line of the blockquote that follows it, several
-                    # lines down. A +-2 window is too tight and produced a false
-                    # positive on the B1044 census.
-                    ctx = "".join(lines[max(0, i - 3):i + 9])
-                    if not (ARC_RE.search(ctx) or LOCK_RE.search(ctx)
-                            or ROW_RE.search(ctx)):
-                        claims_seen += 1
+                pass
+
+        # Section 1's assertions, checked BY PARAGRAPH.
+        #
+        # A line-by-line bold scan was inert here and this is worth recording,
+        # because the gate advertised the Z_6 defect as its calibration case and
+        # DID NOT CATCH IT (found by mutation test, 2026-08-15). Two reasons:
+        #   (1) the Z_6 claim is not bold at all -- it is INLINE CODE in prose,
+        #       `[SU(3)xSU(2)xU(1)]/Z_6`; and
+        #   (2) the bold that does sit near it spans TWO LINES, so a single-line
+        #       regex never matched it either.
+        # So Section 1 is scanned as paragraphs, and a STRUCTURAL assertion is
+        # recognised by a named mathematical object in inline code, not by styling.
+        if name.startswith("S1_"):        # not "S1": S10_DRAFT.md is Section 10
+            text = "".join(lines)
+            offset = 1
+            for para in text.split("\n\n"):
+                nlines = para.count("\n") + 1
+                if para.lstrip().startswith((">", "|", "#")):
+                    offset += nlines + 1
+                    continue
+                asserts = [c for c in CODE_RE.findall(para) if STRUCTURE_RE.search(c)]
+                bolds = [b for b in S1_BOLD_RE.findall(para.replace("\n", " "))
+                         if FACTUAL_CUES.search(b) and not FRAMING_CUES.search(b)]
+                if asserts or bolds:
+                    claims_seen += 1
+                    if not (ARC_RE.search(para) or LOCK_RE.search(para)
+                            or ROW_RE.search(para)):
+                        what = (f"structure `{asserts[0]}`" if asserts
+                                else f"\"{bolds[0][:60]}...\"")
                         problems.append(
-                            (name, i + 1,
-                             f"Section-1 assertion unsourced: \"{b[:70]}...\""))
+                            (name, offset,
+                             f"Section-1 assertion unsourced: {what}"))
+                offset += nlines + 1
 
     if claims_seen == 0:
         problems.append(("(sections)", 0,
