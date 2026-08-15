@@ -30,6 +30,7 @@
 \newtheorem{definition}[theorem]{Definition}
 \theoremstyle{remark}
 \newtheorem{scope}[theorem]{Scope}
+\newtheorem{hypothesis}[theorem]{Hypothesis}
 \newtheorem{remark}[theorem]{Remark}
 \newtheorem{notation}[theorem]{Notation}
 
@@ -83,7 +84,8 @@ period one are exactly those of determinant $-1$, and their traces are exactly t
 integers $m\ge1$, with $X_m$ realizing each. \textbf{The characterization is by trace and
 determinant, not by conjugacy class}---at $m=6$ a second class occurs and we exhibit
 it---so the family below is a proper subfamily of that locus. \textbf{That is weaker than saying it is not a choice},
-and we do not say so: period one is itself a declared input, and we price it. Inside it we exhibit \emph{four criteria selecting the golden member $m=1$},
+and we do not say so: period one is itself a declared input, and we price it. Inside it we exhibit \emph{four exceptionality criteria on the family}---three selecting the
+golden member $m=1$ and a fourth narrowing to $\{1,2\}$---
 each over the whole infinite family and each anchored in a classical theorem.
 \textbf{We prove first that three of them collapse to one arithmetic condition}: they
 test the values $\chi_m(1)$, $\chi_m(-1)$ and $\operatorname{tr}\phi_m$ of a single
@@ -162,12 +164,12 @@ The second half is negative and we ask that it be weighed equally
 (\S\S\ref{sec:negatives}--\ref{sec:falsifiers}).
 
 \subsection{What is claimed, and what is not}
-We claim a \emph{cost theorem}: a small, explicitly enumerated set of declared
-single commitment---that description is inexhaustible---together with two operations
+We claim a \emph{cost theorem}: a single commitment---that description is
+inexhaustible---together with two operations
 that add nothing, \emph{measuring} (passing to centralizers) and \emph{tracking}
 (following the loci where the centralizer jumps), yield the structural data below.
 \textbf{We claim that what is added along the way is one thing, and that what the object
-cannot supply is three.} The addition is the geometric carrier, at which
+cannot supply is two.} The addition is the geometric carrier, at which
 $\Q(\sqrt{-3})$ is bought. The residue is one sign and one
 scale, both emitted by a single closing (Scope~\ref{sc:residue}). Two steps that an earlier draft booked as choices---the
 exceptional target and the principal placement---are supplied by the object and are
@@ -367,7 +369,9 @@ direction is not injective on classes, only on traces.
 \end{proof}
 
 \begin{corollary}\label{cor:c3family}
-Squaring, as C3 requires, carries this class to $\{\phi_m\}_{m\ge1}$. \textbf{The family quantified over in \S\ref{sec:four} is therefore the period-one
+Squaring, as (C3) requires, carries the classes of this locus into $\SL(2,\Z)$, and
+$\{\phi_m\}_{m\ge1}$ are among the results---\textbf{but they are not all of them}, by
+Scope~\ref{sc:latimer}. \textbf{The family quantified over in \S\ref{sec:four} is a proper subfamily of the period-one
 class of \S\ref{sec:genesis}'s own continued-fraction language, made
 orientation-preserving.}
 
@@ -397,7 +401,8 @@ $a=b=1$.
 \end{proof}
 
 \begin{scope}[what this buys]\label{sc:pricedperiod}
-\textbf{The period-one restriction is therefore priced, and the price is zero.} Relaxing
+\textbf{The period-one restriction is therefore priced, and against the period-two
+relaxation---the only one tested---the price is zero.} Relaxing
 it to period two adds a genuine two-parameter family---$(a,b)=(2,3)$ has trace $8$,
 which is not of the form $m^2+2$---and the homological criterion of
 \S\ref{sec:homological} selects \emph{the same member} from the larger family. So the
@@ -415,8 +420,9 @@ Period two, bounded partial quotients, and Markov classes are equally definable
 families, and nothing proved here excludes them. So the honest statement is
 ``characterized, not ad hoc'', and \emph{not} ``forced''; a reader who wants the
 stronger claim should regard the choice of period one as a declared choice; it is
-carried as \textbf{(C5)} in the ledger of \S\ref{sec:inputs}, where its price is
-computed and turns out to be \emph{zero}.
+carried as \textbf{(C5)} in the ledger of \S\ref{sec:inputs}, where its price against the period-two
+relaxation is computed and turns out to be \emph{zero}; period three and beyond are
+unchecked.
 \end{scope}
 \end{corollary}
 
@@ -425,7 +431,7 @@ Theorem~\ref{thm:canonical} classifies by $(\tr,\det)$ and exhibits $X_m$ as \em
 representative. \textbf{It does not assert that every trace-$m$, $\det=-1$ matrix is
 $\GL(2,\Z)$-conjugate to $X_m$, and that is false.} By Latimer--MacDuffee the classes
 with a given irreducible characteristic polynomial correspond to the ideal classes of
-$\Z[\lambda_m]$, and $h(m^2+4)>1$ for some $m$. \textbf{An explicit witness}, which an
+$\Z[\lambda_m]$, and $h(m^2+4)>1$ for some $m$~\cite{LatimerMacDuffee}. \textbf{An explicit witness}, which an
 earlier draft did not supply:
 \[
    A=\begin{pmatrix}1&2\\3&5\end{pmatrix}
@@ -646,7 +652,11 @@ field of the discriminant, and it is why field-level genericity results do not t
 \begin{theorem}\label{thm:jones}
 $\lambda_m<2$ if and only if $m=1$, and $\lambda_1=\varphi=2\cos(\pi/5)$. Hence the golden mean is the unique metallic mean admissible as the \emph{statistical
 dimension of the generating bimodule of a subfactor of index below $4$}; every $m\ge2$
-lies above the Jones index wall. (We state it for subfactor bimodules rather than for
+lies above the Jones index wall. \textbf{The exclusion of $m\ge2$ is the elementary
+inequality $\lambda_m\ge2$, not a subfactor theorem}: every real index $\ge4$ is
+realised, so \cite{Jones} excludes nothing on its own. What Jones contributes is that
+the admissible dimensions \emph{below} $2$ form the discrete list $2\cos(\pi/n)$ and
+that $\varphi$ lies on it. (We state it for subfactor bimodules rather than for
 objects of a fusion category, since it is the inclusion that carries the index.)
 \end{theorem}
 
@@ -672,9 +682,9 @@ is non-arithmetic.
 \end{theorem}
 
 \begin{proof}
-Bowditch, Maclachlan and Reid prove that a once-punctured-torus bundle has only finitely
-many arithmetic commensurability classes~\cite{BMR}, and the classes are the three
-carried by
+Bowditch, Maclachlan and Reid prove that for a fixed fibre type there are only finitely
+many \emph{cyclic} commensurability classes of arithmetic surface bundles, and that for
+the once-punctured torus there are \textbf{precisely three}~\cite{BMR}, carried by
 \[
    RL\ \to\ \Q(\sqrt{-3}),\qquad RRLL\ \to\ \Q(i),\qquad RRL\ \to\ \Q(\sqrt{-7}).
 \]
@@ -701,9 +711,8 @@ lengths $(2,1)$ so is not metallic. Hence no $m\ge3$ is arithmetic.
 \end{proof}
 
 \begin{scope}[what is cited and what is checked]\label{sc:bmr}
-\cite{BMR} is cited for the finiteness of the arithmetic classes. \textbf{The explicit
-list of three, and the word-to-field dictionary, we have verified independently} rather
-than taken on the citation's authority: over all cyclic $R,L$ words of length $\le8$,
+\cite{BMR} supplies both the finiteness and the count of three; the word-to-field
+dictionary we have \emph{also} verified independently rather than taken on authority: over all cyclic $R,L$ words of length $\le8$,
 exactly three imaginary quadratic invariant trace fields occur, carried by the words
 above, with $RL$ the figure-eight complement. The unit is the \emph{commensurability
 class}: there are infinitely many arithmetic once-punctured-torus bundles, since every
@@ -791,8 +800,7 @@ reason is the point rather than a technicality: Fricke's identity is an identity
 $\SL(2,\Z)$, and $\det X_m=-1$ while $\det\phi_m=+1$. For the generators themselves it
 simply fails---$\operatorname{tr}[X_1,X_2]=1$, not $-2$. \textbf{An earlier draft wrote
 the identity for an undefined symbol $A_m$}; under the reading $A_m=X_m$ it is false, and
-the squaring of (C3) is exactly what makes the true version available. The identity is
-classical (Fricke; Cohn) and we cite rather than claim it.
+the squaring of (C3) is exactly what makes the true version available. The identity is classical~\cite{Fricke,Cohn} and we cite rather than claim it.
 \end{scope}
 
 \begin{scope}[what this is not]
@@ -1019,19 +1027,15 @@ zero, computed; and its $\ad$-decomposition is \textbf{multiplicity-free}, with 
 weights twice the exponents \emph{recovered rather than assumed}, so placing $2T$ in it
 requires no further discrete datum to say which copy of each degree is meant.
 
-\textbf{One argument offered in earlier drafts is void and we strike it}: infinitesimal
-rigidity, $H^1(\sll_2,\ee_6)=0$, is Whitehead's lemma and holds for \emph{every}
-$\sll_2\subset\ee_6$, so it cannot distinguish the principal class. What remains are two
-genuine reasons---regularity and multiplicity-freeness---and they are reasons, not a
+\textbf{A fourth argument was offered in earlier drafts and is void; we strike it and do
+not replace it.} Infinitesimal rigidity, $H^1(\sll_2,\ee_6)=0$, is Whitehead's lemma and
+holds for \emph{every} $\sll_2\subset\ee_6$. It therefore cannot distinguish the
+principal class, and the inference that ``the tangent space to \emph{factors through some
+$\sll_2$} is exactly the principal line'' does not follow from it. \textbf{The three
+reasons above stand; the rigidity one does not}, and they are reasons rather than a
 derivation.
 
-\textbf{There is a rigidity statement, which is a
-preference.} Embeddings $\sll_2\hookrightarrow\ee_6$ are infinitesimally rigid---
-$H^1(\sll_2,\ee_6)=0$ by Whitehead, verified block by block---so the tangent space to
-``factors through \emph{some} $\sll_2$'' is exactly the principal line. No first-order
-deformation leaves it.
-
-\textbf{What is still missing, and why this remains C4.} Those statements concern the
+\textbf{What is still missing, and why this remains (C6).} Those statements concern the
 $\sll_2$ the object's own holonomy lands in. That $2T$ should be placed \emph{there}
 follows only because $2T\subset\SU(2)$ sits inside that same $\sll_2$---and \textbf{no
 source states that inheritance as a theorem}. So the placement is well-motivated and not
@@ -1156,8 +1160,11 @@ The finite subgroups of $SO(3)$ are the cyclic, dihedral, tetrahedral $A_4$, oct
 $S_4$ and icosahedral $A_5$ groups. $A_3=\Z/3$ is cyclic, $A_4$ and $A_5$ are on the
 list, and for $d\ge5$ the group $A_{d+1}$ is simple of order $\ge360$ and appears on it
 nowhere. For the second column: a simple Lie algebra has a non-self-dual representation
-if and only if $-1\notin W$, equivalently its Dynkin diagram admits a nontrivial
-automorphism. Among $G_2,F_4,E_6,E_7,E_8$ only $E_6$ does.
+if and only if $-1\notin W$, equivalently the diagram automorphism induced by $-w_0$ is
+nontrivial. \textbf{This is not the same as ``the diagram admits a nontrivial
+automorphism''}: $D_4$ has triality and $D_6$ has a flip, yet $-1\in W(D_{2n})$ and all
+their representations are self-dual. Among $G_2,F_4,E_6,E_7,E_8$ the induced automorphism
+is nontrivial only for $E_6$.
 \end{proof}
 
 \begin{remark}[why this is not a coincidence about simplices]\label{rem:nomination}
@@ -1313,7 +1320,7 @@ subsystems of $E_6$ with that root count form a single isomorphism class.
 \begin{scope}[Levi, not merely closed---and this is load-bearing]\label{sc:pseudolevi}
 $\Phi_S$ is cut out by a \emph{linear subspace}, which makes it a \textbf{Levi}
 subsystem, not merely a closed symmetric one. The distinction is not pedantry:
-Borel--de Siebenthal produces closed subsystems of $E_6$ that are not Levi, and
+Borel--de Siebenthal~\cite{BdS} produces closed subsystems of $E_6$ that are not Levi, and
 \textbf{$4A_1$ is one of them, with exactly $8$ roots}. If ``closed'' were substituted for
 ``Levi'' anywhere below, the statement \emph{$8$ roots forces $A_2\oplus A_1$} would be
 false and the terminus would collapse back to a certificate. The pseudo-Levi subsystems
@@ -1578,7 +1585,9 @@ where $\gamma$ and $a$ are produced by the block-$12$ pencil of the source compu
 $y^*$ from this paper.} An earlier draft announced this gap as repaired; it was not, and
 saying so is the repair. The consequence is bounded exactly:
 Theorem~\ref{thm:smt}'s existential is supplied by Theorem~\ref{thm:smtfull}, which needs
-no $y^*$, and nothing downstream refers to $\gamma$, $a$ or $C_2$ again.
+no $y^*$, The one place $\gamma$ reappears is
+Theorem~\ref{thm:smtfull}'s description of the second $30$-point, where it names a root
+of $\mu$ and nothing else; that theorem's content does not depend on the pencil.
 \end{notation}
 
 \begin{theorem}[second measurement]\label{thm:smt}
@@ -1694,7 +1703,8 @@ generator $\tfrac16\operatorname{diag}(2,2,2,-3,-3)$. On groups, the induced map
    \SU(3)\times\SU(2)\times U(1)\ \longrightarrow\ S\bigl(U(3)\times U(2)\bigr)\subset\SU(5)
 \]
 has kernel exactly $\Z/6$, generated by
-$\bigl(\omega I_3,\,-I_2,\,e^{i\pi/3}\bigr)$ with $\omega=e^{2\pi i/3}$. Hence the image
+$\bigl(\omega^2 I_3,\,-I_2,\,e^{i\pi/3}\bigr)$ with $\omega=e^{2\pi i/3}$: at
+$\theta=\pi/3$ the condition $e^{2i\theta}A=I_3$ forces $A=e^{-2i\theta}I_3=\omega^2I_3$. Hence the image
 is $\bigl[\SU(3)\times\SU(2)\times U(1)\bigr]/\Z_6$.
 \end{proposition}
 
@@ -1766,7 +1776,7 @@ nullity $30$ at $x_{16}$ and \textbf{no real point of nullity $14$ at all}. Whet
 real wall point exists elsewhere in $C$ is \textbf{open}. The theorem is therefore a
 statement over $\overline K$, and we no longer write it as one over $K$.
 
-\emph{(ii) The second plane is not forced, but it is free.}
+\emph{(ii) The second plane is not forced, and not free either.}
 Proposition~\ref{prop:twoO} prices $\langle x_8,x_{16}\rangle$ because it is the fixed
 algebra $\ee_6^{2O}$. It does \emph{not} price $\langle x_{14},x_{16}\rangle$, which is
 \textbf{mixed} for the involution---one even charge and one odd---and so is not an
@@ -1872,13 +1882,13 @@ Thm.~\ref{thm:smt}, the terminal type
 Thm.~\ref{thm:smtfull}, the full stratification
  & \textbf{certificate} (the $78$ weights) \textbf{+ Levi} for every type
  & an eighth proportionality class, or different class sizes\\
-Cor.~\ref{cor:c7free}, the second plane is free
+Cor.~\ref{cor:c7free}, the second plane is output-stable
  & \textbf{forced}, given the line above
  & a $14$-point whose type is not $A_2{+}A_1$, i.e.\ a second Levi type at $8$ roots\\
 Thm.~\ref{thm:signs}, sign-locking
  & \textbf{certificate} (degree-six trace moments), \textbf{conditional} on
    Hyp.~\ref{hyp:diag}
- & a thirteenth admissible sign pattern\\
+ & a fifth admissible sign pattern\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2023,8 +2033,7 @@ automorphism acting diagonally on $C$; Hypothesis~\ref{hyp:diag} asserts that
 remark buys is an explanation of the shape of the answer, not its premise.
 \end{remark}
 
-\begin{scope}[the premise, isolated rather than assumed silently]\label{hyp:diag}
-\textbf{Hypothesis ($\pm$-diagonality).} \emph{Every $C$-stabilizing automorphism of
+\begin{hypothesis}[$\pm$-diagonality, isolated rather than assumed silently]\label{hyp:diag} \emph{Every $C$-stabilizing automorphism of
 $\ee_6$, linear or antilinear, acts diagonally on the four charge lines with signs.}
 
 \textbf{This is a hypothesis, not a theorem, and the source material says so}: the arc
@@ -2047,7 +2056,7 @@ Closing this would require showing that no automorphism of $\ee_6$ realizes the
 $3$-cycle on $\langle x_8,x_{16}\rangle$, handling non-monomial plane actions and the
 antilinear case. \textbf{Until then Theorem~\ref{thm:signs} and everything downstream of
 it is conditional}, and we mark it so rather than let a premise travel as a conclusion.
-\end{scope}
+\end{hypothesis}
 
 \begin{proposition}[the gap is exactly $S_3$, and it cannot be closed inside $C$]\label{prop:gap}
 An automorphism $\sigma$ with $\sigma(C)=C$ satisfies $\ad(\sigma x)=\sigma\,\ad(x)\,\sigma^{-1}$,
@@ -2170,9 +2179,11 @@ What is proved is that \emph{this} saddle's classical action loses its
 $k$-dependence. It is \textbf{not} proved that every quantum correction is
 $k$-independent, that every flat connection is, that every admissible boundary
 construction is, or that no dimensionless coupling can arise elsewhere. The defensible
-statement is Corollary~\ref{cor:cs} exactly as written, and its force is that the
-vanishing is a \emph{family} phenomenon by Theorem~\ref{thm:amphi}, not an accident at
-$m=1$.
+statement is Corollary~\ref{cor:cs} exactly as written, and \textbf{What is a family phenomenon is the two-torsion
+$2\,\mathrm{CS}\equiv0$, not the vanishing}: Proposition~\ref{thm:amphi} gives
+$\mathrm{CS}\in\{0,\tfrac14\}$ for every $m$, and $\mathrm{CS}=0$ is established at
+$m=1$ by computation. The $k$-independence of the action therefore holds at $m=1$ and is
+unproved for $m\ge2$.
 \end{scope}
 
 \subsection{Five sealed comparisons, five misses}\label{sec:crossings}
@@ -2361,7 +2372,7 @@ theorem about itself.
 
 Separately, the algebra steps carry declared input \emph{riders}, itemized rather than
 left implicit: chirality (three steps), a vacuum direction, and a generation count.
-\textbf{These are independent stipulations} and are not among the seven above, because
+\textbf{These are independent stipulations} and are not among the nine above, because
 they are inputs to statements past the terminus rather than forks in the chain. The
 reader should not read Census~\ref{cen:forced}'s count of four as a count of
 stipulations; it counts links.
@@ -2445,7 +2456,7 @@ Thm.~\ref{thm:signature}, the signature $(15,12)$
  & a different signature, which would change the real form\\
 Thm.~\ref{thm:signs}, sign-locking
  & \textbf{certificate}, \textbf{conditional} on Hyp.~\ref{hyp:diag}
- & a thirteenth admissible pattern\\
+ & a fifth admissible pattern\\
 Prop.~\ref{prop:gap}, the gap is $S_3$
  & \textbf{proved here} (invariance of the weight multiset) with the group order a certificate
  & a $C$-stabilizing automorphism not preserving the weights\\
@@ -2700,7 +2711,7 @@ previously produced errors in this programme}, which is the honest reason a glos
 exists.
 
 \begin{description}[leftmargin=0pt,style=nextline,itemsep=1pt]
-\item[atom] A joint eigenline of the rational commuting family of the four charges
+\item[atom] A joint eigen\emph{space} of the rational commuting family of the four charges---nine of dimension one and six of dimension three
   acting on the $27$ (Definition~\ref{def:atoms}). Fifteen in total, nine colorless and
   six colored. \emph{Not} used in any physical sense.
 \item[census] The $128$-member family $\{\sigma_\chi\}\cup\{\sigma_\chi\circ\tau\}$ of
@@ -2741,9 +2752,33 @@ exists.
 \bibitem{Baez} J.~C. Baez, \emph{From the icosahedron to $E_8$}, arXiv:1712.06436.
 
 \bibitem{Fricke} R. Fricke and F. Klein, \emph{Vorlesungen \"uber die Theorie der
-automorphen Functionen}, Teubner, 1897; and W. Goldman, \emph{Topological components of
-spaces of representations}, Invent. Math. \textbf{93} (1988), 557--607, for the
-once-punctured-torus character variety.
+automorphen Functionen}, Erster Band, Teubner, 1897, for the trace identity; and
+W. Goldman, \emph{The modular group action on real $\SL(2)$-characters of a one-holed
+torus}, Geom. Topol. \textbf{7} (2003), 443--486, for the once-punctured-torus character
+variety.
+
+\bibitem{Cohn} H. Cohn, \emph{Approach to Markoff's minimal forms through modular
+  functions}, Ann. of Math. (2) \textbf{61} (1955), 1--12.
+
+\bibitem{McKay} J. McKay, \emph{Graphs, singularities, and finite groups}, in
+  \emph{The Santa Cruz Conference on Finite Groups}, Proc. Sympos. Pure Math.
+  \textbf{37}, Amer. Math. Soc., 1980, 183--186.
+
+\bibitem{Hurwitz} A. Hurwitz, \emph{Ueber die angen\"aherte Darstellung der
+  Irrationalzahlen durch rationale Br\"uche}, Math. Ann. \textbf{39} (1891), 279--284.
+
+\bibitem{LatimerMacDuffee} C.~G. Latimer and C.~C. MacDuffee, \emph{A correspondence
+  between classes of ideals and classes of matrices}, Ann. of Math. (2) \textbf{34}
+  (1933), 313--316.
+
+\bibitem{Reid91} A.~W. Reid, \emph{Arithmeticity of knot complements},
+  J. London Math. Soc. (2) \textbf{43} (1991), 171--184.
+
+\bibitem{BdS} A. Borel and J. de Siebenthal, \emph{Les sous-groupes ferm\'es de rang
+  maximum des groupes de Lie clos}, Comment. Math. Helv. \textbf{23} (1949), 200--221.
+
+\bibitem{Riley} R. Riley, \emph{A quadratic parabolic group}, Math. Proc. Cambridge
+  Philos. Soc. \textbf{77} (1975), 281--288.
 
 \bibitem{Jones} V.~F.~R. Jones, \emph{Index for subfactors}, Invent. Math. \textbf{72}
 (1983), 1--25.
@@ -2772,8 +2807,10 @@ icosahedron}, Proc. R. Soc. A \textbf{472} (2016), no.~2185, 20150504.
 polyhedron geometrizing the figure eight knot cone manifolds}, J. Math. Sci. Univ.
 Tokyo \textbf{2} (1995), no.~3, 501--561.
 
-\bibitem{MorseHedlund} M. Morse and G.~A. Hedlund, \emph{Symbolic dynamics II. Sturmian
-trajectories}, Amer. J. Math. \textbf{62} (1940), 1--42.
+\bibitem{MorseHedlund} M. Morse and G.~A. Hedlund, \emph{Symbolic dynamics},
+  Amer. J. Math. \textbf{60} (1938), 815--866. The complexity characterisation used here
+  is in this paper, not in the 1940 sequel \emph{Symbolic dynamics II. Sturmian
+  trajectories}, Amer. J. Math. \textbf{62} (1940), 1--42.
 
 \bibitem{Reutenauer} C. Reutenauer, \emph{From Christoffel Words to Markoff Numbers},
 Oxford University Press, 2019.
