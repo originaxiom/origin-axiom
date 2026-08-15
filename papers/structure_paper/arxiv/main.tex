@@ -31,6 +31,7 @@
 \theoremstyle{remark}
 \newtheorem{scope}[theorem]{Scope}
 \newtheorem{remark}[theorem]{Remark}
+\newtheorem{notation}[theorem]{Notation}
 
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\Z}{\mathbb{Z}}
@@ -124,8 +125,10 @@ The second half is negative and we ask that it be weighed equally
 
 \subsection{What is claimed, and what is not}
 We claim a \emph{cost theorem}: a small, explicitly enumerated set of declared
-choices---\textbf{six}, each with its alternative computed or exhibited---together with
-no fitted parameters and no measured input, yield the structural data below.
+choices---\textbf{seven, itemized in the ledger of \S\ref{sec:inputs}}---together with
+no fitted parameters and no measured input, yield the structural data below. Five of the
+seven have their alternative computed or exhibited, one costs nothing, and \textbf{one is
+unpriced and is flagged as such in the ledger}.
 \textbf{We count stipulations, not chain links}: the two counts differ, and conflating
 them is an error earlier drafts made. We do \textbf{not} claim a derivation of physics, and no physical identification
 is made in the body. Internal names are names of mathematical objects.
@@ -333,8 +336,9 @@ members. \textbf{It does not show that period one is the only admissible period.
 Period two, bounded partial quotients, and Markov classes are equally definable
 families, and nothing proved here excludes them. So the honest statement is
 ``characterized, not ad hoc'', and \emph{not} ``forced''; a reader who wants the
-stronger claim should regard the choice of period one as a fourth declared choice,
-whose price is that the results of \S\ref{sec:four} are statements about this family.
+stronger claim should regard the choice of period one as a declared choice; it is
+carried as \textbf{(C5)} in the ledger of \S\ref{sec:inputs}, where its price is
+computed and turns out to be \emph{zero}.
 \end{scope}
 \end{corollary}
 
@@ -779,7 +783,9 @@ degrees $8,14,16,22$---hence the whole of \S\S\ref{sec:frame}--\ref{sec:cascade}
 on that placement.
 
 \begin{scope}[C4, declared here rather than left implicit]\label{sc:principal}
-\textbf{The principal placement is a fourth declared choice, and we price it.} Three things can be said in its favour, and the third is stronger than economy.
+\textbf{The principal placement is a declared choice---(C6) in the ledger of
+\S\ref{sec:inputs}---and we price it.} Three things can be said in its favour, and the
+third is stronger than economy.
 The principal $\sll_2$ is the unique regular class; its centralizer in $\ee_6$ is exactly
 zero, computed; and its $\ad$-decomposition is \textbf{multiplicity-free}, with highest
 weights twice the exponents \emph{recovered rather than assumed}, so placing $2T$ in it
@@ -797,8 +803,10 @@ follows only because $2T\subset\SU(2)$ sits inside that same $\sll_2$---and \tex
 source states that inheritance as a theorem}. So the placement is well-motivated and not
 yet derived, and the sentence ``between the manifold and the algebra there is no declared
 choice'' must be read as ``no declared choice \emph{after} the principal placement''.
-Census~\ref{cen:forced} is amended accordingly: \textbf{four declared choices become
-five}, C1--C3 before the manifold, C4 here, and the observer's closing after the algebra.
+The placement is carried as \textbf{(C6)} in the ledger of \S\ref{sec:inputs}.
+\textbf{Census~\ref{cen:forced} is not amended by this}: it counts axiom \emph{links},
+and the placement is a stipulation that the chain ledger does not carry as a link at
+all---which is precisely the conflation \S\ref{sec:inputs} exists to prevent.
 \end{scope}
 
 \subsection{A worked negative control: the silver member}\label{sec:silver}
@@ -1135,8 +1143,25 @@ Chevalley $\ee_6$ verified on all $\binom{78}{2}=3\,003$ basis pairs with zero
 discrepancies.
 \end{theorem}
 
+\begin{notation}[the two points, which earlier drafts left undefined]\label{not:points}
+Write $t_1$ for a root of the charge cubic $\mu$ and
+\[
+   x_1\ :=\ x_8+t_1\,x_{16},
+\]
+a generator of one of the three wall lines $K_i$ of Theorem~\ref{thm:fmt}: the first
+measurement is made \emph{at} the wall, not at a generic point. The second measurement
+then moves in a \emph{different} plane, $\langle x_{14},x_{16}\rangle$, along which we
+write $y(\theta)=\cos\theta\,x_{14}+\sin\theta\,x_{16}$; the distinguished point is
+\[
+   y^*\ =\ \gamma\,x_{14}-a\,x_{16},\qquad \gamma^2=-C_2/2,\quad a^2=-\det\nolimits_{14},
+\]
+with $C_2$ and $\det_{14}$ the invariants of the block-$12$ pencil. \textbf{Both symbols
+appeared in earlier drafts with no definition anywhere in the paper}, which is recorded
+here rather than quietly repaired.
+\end{notation}
+
 \begin{theorem}[second measurement]\label{thm:smt}
-Over $K$, at the wall point $y^*$, $\dim z(x_1,y^*)=14$, with derived algebra of
+At the wall point $y^*$, $\dim z(x_1,y^*)=14$, with derived algebra of
 dimension $11$ and centre of dimension $3$; after base change the derived algebra has
 algebraic type $A_2\oplus A_1$,
 \[
@@ -1148,6 +1173,27 @@ dimension $26$ is not attained at any coordinate subtorus or enhancement point.
 of realized strata, not as an exhaustion of $C$, and the non-attainment of $26$ is a
 census over those directions rather than a theorem about every subtorus.
 \end{theorem}
+
+\begin{scope}[the second point is not real, and the second plane is not priced]\label{sc:ystar}
+Two limitations of Theorem~\ref{thm:smt} are load-bearing and were absent from earlier
+drafts.
+
+\emph{(i) $y^*$ is not a real point.} At the real root of $\mu$ the invariant
+$\det_{14}$ is positive, so $a^2=-\det_{14}<0$ and $a$ is imaginary: $y^*$ lives in a
+quadratic extension and \textbf{is not a point of the split real torus}. A scan of the
+real projective line $\langle x_{14},x_{16}\rangle$ finds only the known stratum of
+nullity $30$ at $x_{16}$ and \textbf{no real point of nullity $14$ at all}. Whether a
+real wall point exists elsewhere in $C$ is \textbf{open}. The theorem is therefore a
+statement over $\overline K$, and we no longer write it as one over $K$.
+
+\emph{(ii) The second plane is a declared choice.}
+Proposition~\ref{prop:twoO} prices $\langle x_8,x_{16}\rangle$ because it is the fixed
+algebra $\ee_6^{2O}$. It does \emph{not} price $\langle x_{14},x_{16}\rangle$, which is
+\textbf{mixed} for the involution---one even charge and one odd---and so is not an
+eigenspace of anything. \textbf{We have no forcing argument for the second plane and do
+not claim one}; it is carried as \textbf{(C7)}, the one unpriced row, in the ledger of
+\S\ref{sec:inputs}.
+\end{scope}
 
 The word ``includes'' concedes that we have not exhausted $C$. Corollary~\ref{cor:levi}
 lets us say exactly how much that concession costs, because it constrains every rung that
@@ -1478,10 +1524,39 @@ than merely unknown.
 \end{nogo}
 
 \subsection{The declared inputs}\label{sec:inputs}
-The algebra steps carry declared input riders, itemized rather than left implicit:
-chirality (three steps), a vacuum direction, and a generation count. \textbf{These are
-independent stipulations}, and the reader should not read Census~\ref{cen:forced}'s
-count of four as a count of stipulations; it counts links.
+
+\textbf{This subsection is the paper's ledger, and the cost claim of \S1.2 means exactly
+what it lists---nothing more.} Earlier drafts asserted a total in the introduction,
+described one choice as ``a fourth'' in two different places, and never enumerated the
+set; the table below exists so the count can be checked rather than believed.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}p{0.04\textwidth}p{0.30\textwidth}p{0.55\textwidth}@{}}
+\toprule
+ & the choice & the alternative, and what it costs\\
+\midrule
+(C1) & description is inexhaustible & \textbf{degenerates}: no pseudo-Anosov element, no hyperbolic carrier\\
+(C2) & a geometric carrier & \textbf{survives}, but the tiling hull and Effros--Shen algebra see only the real quadratic data; $\Q(\sqrt{-3})$ is bought here\\
+(C3) & the monodromy is orientation-preserving & \textbf{survives intact}: the Gieseking manifold. \textbf{The honest scar}\\
+(C4) & the puncture & \textbf{degenerates}: the closed mapping torus of an Anosov map of $T^2$ is a $\mathrm{Sol}$-manifold, since hyperbolization needs $\chi(F)<0$ and $\chi(T^2)=0$. No cusp, no hyperbolic structure, no arithmetic layer\\
+(C5) & period one & \textbf{price zero.} The period-two family $M(a,b)$ is orientation-preserving already and its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$; the selection of \S\ref{sec:four} survives verbatim\\
+(C6) & the principal placement of $2T$ & \textbf{well motivated, not derived}: rigidity gives $H^1(\sll_2,\ee_6)=0$ and $C_{\ee_6}(\text{principal})=0$, but no source proves $2T$ must go there\\
+(C7) & the second measurement plane $\langle x_{14},x_{16}\rangle$ & \textbf{UNPRICED.} Unlike $\langle x_8,x_{16}\rangle$, which Prop.~\ref{prop:twoO} identifies as $\ee_6^{2O}$, this plane is mixed for the involution and we have no forcing argument\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Seven, of which five are priced, one costs nothing, and one---(C7)---is
+not priced at all.} We state the last plainly rather than absorbing it: a cost theorem
+whose ledger hides a row is not a cost theorem.
+
+Separately, the algebra steps carry declared input \emph{riders}, itemized rather than
+left implicit: chirality (three steps), a vacuum direction, and a generation count.
+\textbf{These are independent stipulations} and are not among the seven above, because
+they are inputs to statements past the terminus rather than forks in the chain. The
+reader should not read Census~\ref{cen:forced}'s count of four as a count of
+stipulations; it counts links.
 
 On the last rider four clauses travel together. A three \emph{is} object-forced, as
 $h^1(M;\mathbf{27})=3$. That three is \emph{not} a generation triple: no $\Z/3$ acts on
