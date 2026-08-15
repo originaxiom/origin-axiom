@@ -15,7 +15,7 @@ The own-conductor shadow ⟨Rᵐ, Lᵐ⟩ ≤ SL(2, ℤ/(m²+4)), enumerated exa
 |---|---|---|---|---|---|
 | **1** (golden, control) | 5 | **120** | **1** | yes | **YES — SL(2,5) ≅ 2I** (banked, reproduced) |
 | **2** (silver) | 8 | **32** | **7** | no | **NO** — every noncyclic finite SU(2) subgroup has a *unique* involution |
-| **3** (bronze) | 13 | **2184** | 1 | yes | **NO** — the full SL(2,13); nonabelian SU(2) subgroups cap at **120** (the ADE list is complete; B997's bound) |
+| **3** (bronze) | 13 | **2184** | 1 | yes | **NO** — the full SL(2,13), order 2184. ⚠ **GLOSS CORRECTED 2026-08-15:** this row previously read *"nonabelian SU(2) subgroups cap at 120"*, which is **FALSE** — the binary dihedral groups `Q₄ₙ` have order `4n` and are **unbounded**. The exclusion is **structural, not by order**: the finite subgroups of `SU(2)` are `Cₙ`, `Q₄ₙ`, `2T`, `2O`, `2I`; `PSL(2,13)` is simple, so `SL(2,13)` is **non-solvable** and therefore neither cyclic nor binary dihedral, and `2184 ∉ {24,48,120}`. The arc's CODE enforces the complete ADE conditions correctly; only this prose was loose. Caught in Wave 2, when all three architects independently proposed promoting this arc into the paper's negative control. |
 
 > **Neither sibling's own-door shadow embeds in SU(2). No McKay partner exists. No Lie entry
 > exists. The cascade does not land somewhere else for the silver and bronze — it has nowhere to

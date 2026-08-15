@@ -283,6 +283,42 @@ Squaring, as C3 requires, carries this class to $\{\phi_m\}_{m\ge1}$. \textbf{Th
 class of \S\ref{sec:genesis}'s own continued-fraction language, made
 orientation-preserving.}
 
+\begin{proposition}[the period-one restriction, priced]\label{prop:periodtwo}
+Let $M(a,b)=\left(\begin{smallmatrix}a&1\\1&0\end{smallmatrix}\right)
+\left(\begin{smallmatrix}b&1\\1&0\end{smallmatrix}\right)
+=\left(\begin{smallmatrix}ab+1&a\\b&1\end{smallmatrix}\right)$ be the matrix of a purely
+periodic continued fraction of period two. Then:
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.4em]
+\item $\det M(a,b)=+1$ \textbf{already} --- a period-two word is orientation-preserving
+  without squaring;
+\item $M(m,m)=\phi_m$, so \textbf{the metallic family is the diagonal} of the period-two
+  family, which is therefore strictly larger; and
+\item $H_1\bigl(M_{a,b}\bigr)\cong\Z\oplus\Z/\gcd(a,b)\oplus\Z/\operatorname{lcm}(a,b)$,
+  so the \textbf{only} knot complement in the whole two-parameter family is
+  $(a,b)=(1,1)$: the golden.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(i) and (ii) are immediate from the product. For (iii),
+$M(a,b)-I=\left(\begin{smallmatrix}ab&a\\b&0\end{smallmatrix}\right)$ has entry gcd
+$\gcd(a,b)$ and determinant $-ab$, so its invariant factors are $\gcd(a,b)$ and
+$ab/\gcd(a,b)=\operatorname{lcm}(a,b)$; apply the Wang sequence as in
+Theorem~\ref{thm:homology}. The torsion vanishes iff $\gcd=\operatorname{lcm}=1$, i.e.\
+$a=b=1$.
+\end{proof}
+
+\begin{scope}[what this buys]\label{sc:pricedperiod}
+\textbf{The period-one restriction is therefore priced, and the price is zero.} Relaxing
+it to period two adds a genuine two-parameter family---$(a,b)=(2,3)$ has trace $8$,
+which is not of the form $m^2+2$---and the homological criterion of
+\S\ref{sec:homological} selects \emph{the same member} from the larger family. So the
+restriction is not doing work that the selection could not do without it. We do not
+claim this for period three or beyond, and we do not claim period one is forced; we
+claim only that the one widening a reader is most likely to propose has been computed
+and leaves the conclusion unchanged.
+\end{scope}
+
 \begin{scope}[what this does and does not settle]\label{sc:notunchosen}
 Theorem~\ref{thm:canonical} shows the metallic family is \emph{intrinsically
 characterized}: it has a description in the ambient language that does not mention its
@@ -821,10 +857,17 @@ terminal algebra, which \S\ref{sec:falsifiers} is at pains to keep in proportion
 
 \begin{census}\label{cen:forced}
 Of the $43$ links in the full chain, $26$ are theorems, $6$ exact identities, $5$ no-go
-results, $1$ a corollary and $1$ a census; \textbf{$5$ are declared choices}---C1--C3
-before the manifold, C4 the principal placement (Scope~\ref{sc:principal}), and the
-observer's closing after the algebra. \textbf{Between the manifold and the algebra the
-only declared choice is C4.}
+results, $1$ a corollary and $1$ a census, and \textbf{$4$ are axioms}. Those six figures
+sum to $43$, and \textbf{that is the only count this paper takes from the ledger}.
+
+\textbf{An earlier draft printed the same six figures and then said ``five are declared
+choices'', which sums to $44$.} The arithmetic failure was the symptom of a real error:
+the declared choices this paper prices are \emph{not} in bijection with the ledger's
+axiom links. The principal placement (Scope~\ref{sc:principal}) is a stipulation and
+\textbf{not a link at all}; the observer's closing is a link but lies \emph{after} the
+terminus, outside the chain this paper walks. \textbf{Counting links and counting
+stipulations are different operations, and conflating them is what produced the
+44.}
 The declared inputs carried by the algebra steps are itemized in \S\ref{sec:inputs};
 note that Census~\ref{cen:forced} counts \emph{links containing choices}, which is not
 the same as counting independent stipulations.
