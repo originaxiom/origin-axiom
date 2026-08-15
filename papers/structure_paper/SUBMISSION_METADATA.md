@@ -81,13 +81,30 @@ expert reader the paper needs before submission, and solving it once solves both
 
 ## Upload checklist (ticked at submission, not before)
 
-- [ ] author block complete, **contact email supplied**
-- [ ] title final
-- [ ] abstract pasted as plain text (no LaTeX macros)
-- [ ] primary + cross-list categories set
-- [ ] MSC + keywords entered
-- [ ] licence selected
-- [ ] `arxiv/` tarball: `.tex` + `.bbl` + figures, **no `.bib`**
-- [ ] clean-room compile verified in an empty directory
-- [ ] `verify_all.py` green
-- [ ] endorsement obtained
+- [ ] author block complete, ## **contact email supplied** *(the one blocking field)*
+- [x] title final — set in `arxiv/main.tex`
+- [ ] abstract pasted as plain text (no LaTeX macros) — abstract written; paste at upload
+- [x] primary + cross-list categories set (§3 above; `\subjclass` in the source)
+- [x] MSC + keywords entered in the source
+- [ ] licence selected — decision recorded in §4, selected at upload
+- [x] ## **`arxiv/` package builds**: `main.tex` only. **Bibliography is INLINE
+      (`thebibliography`), so there is no `.bib` and no `.bbl` step** — which is the
+      arXiv-preferred shape and removes a whole class of upload failure
+- [x] ## **clean-room compile VERIFIED 2026-08-15** — tarred to `main.tex` alone,
+      extracted into an empty directory with no repository present, compiled twice:
+      **exit 0 both passes, zero errors, 8 pages, byte-identical output**
+- [x] `verify_all.py` green (1/1; an empty suite fails by construction)
+- [ ] endorsement obtained — deferred by owner decision
+
+### Build
+
+```
+cd arxiv && pdflatex main.tex && pdflatex main.tex     # two passes, no bibtex
+tar czf oa-structure-paper.tar.gz main.tex             # the upload artifact
+```
+
+**Known gaps before this is submittable** (none of them build failures):
+seven `refs.bib` entries still at `STANDARD` (bibliographic data unverified —
+`refs.bib` is the working record; the inline bibliography in `main.tex` carries only
+`RESOLVED`/`OPENED` entries); no figures yet; Appendix C glossary not written; the
+adversarial read not run.

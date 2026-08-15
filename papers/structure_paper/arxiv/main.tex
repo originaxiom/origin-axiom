@@ -1,0 +1,576 @@
+\documentclass[11pt,reqno]{amsart}
+
+% ---------------------------------------------------------------------------
+%  From minimal description to E6: a parameter-free chain through the
+%  figure-eight knot complement.
+%
+%  Self-contained for arXiv: no \input of anything outside this directory, no
+%  local paths, no .bib (bibliography is inline, see \thebibliography).
+%  Gate 5: no physical identification is made in the body.
+% ---------------------------------------------------------------------------
+
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{xcolor}          % REQUIRED before hyperref for the `!' colour mixing below
+\usepackage[colorlinks=true,linkcolor=blue!60!black,citecolor=green!45!black,urlcolor=blue!70!black]{hyperref}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{census}[theorem]{Census}
+\newtheorem{nogo}[theorem]{No-go}
+\theoremstyle{remark}
+\newtheorem{scope}[theorem]{Scope}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\SL}{\mathrm{SL}}
+\newcommand{\SU}{\mathrm{SU}}
+\newcommand{\su}{\mathfrak{su}}
+\newcommand{\so}{\mathfrak{so}}
+\newcommand{\uu}{\mathfrak{u}}
+\newcommand{\ee}{\mathfrak{e}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Vol}{\operatorname{Vol}}
+\newcommand{\disc}{\operatorname{disc}}
+
+\begin{document}
+
+\title[From minimal description to $E_6$]{From minimal description to $E_6$:\\
+a parameter-free chain through the figure-eight knot complement}
+
+\author{Drit\"ero Mehmetaj}
+\address{Independent Researcher}
+
+\date{\today}
+
+\subjclass[2020]{Primary 57K10, 11R16, 57M50; Secondary 17B25, 17A75, 11J06}
+\keywords{figure-eight knot complement, Sturmian words, continued fractions,
+Lagrange spectrum, McKay correspondence, exceptional Jordan algebra,
+cone-manifold geometric transition, parameter-free derivation}
+
+\begin{abstract}
+We fix a single principle---that a description cannot terminate---and follow it
+without importing anything from outside, recording what it costs. With three
+declared choices, whose alternatives we compute and report, the principle yields a
+specific hyperbolic $3$-manifold: the figure-eight knot complement. Its own
+arithmetic then determines a $78$-dimensional exceptional Lie algebra with a
+distinguished four-element charge torus, and a cascade of centralizers of that
+torus terminates, exactly, at $\su(3)\oplus\su(2)\oplus\uu(1)^3$. No measured
+quantity enters any computation.
+
+We report the negative half with equal weight. The construction is provably silent
+about magnitudes: the object's amphichirality forces its Chern--Simons invariant to
+vanish, deleting the only term in its boundary action that could carry a scale.
+Five predictions were sealed in advance and compared against measurement; all five
+missed, and the surface of comparisons the construction licenses was subsequently
+enumerated and found exhausted. We state the arithmetic results as mathematics and
+make no physical identification.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+Fix a principle: \emph{a description that cannot terminate}. Ask what the least such
+description looks like, follow the answer without importing anything from outside,
+and record what it costs.
+
+This paper carries out that programme and reports both halves of the result. From
+the principle, with three declared choices whose alternatives we compute, one
+reaches a specific hyperbolic $3$-manifold---the figure-eight knot complement. Its
+own arithmetic then determines a $78$-dimensional exceptional Lie algebra with a
+distinguished four-element charge torus, and a cascade of centralizers of that
+torus terminates, exactly, at $\su(3)\oplus\su(2)\oplus\uu(1)^3$ with the global
+form $[\SU(3)\times\SU(2)\times \mathrm{U}(1)]/\Z_6$. \textbf{No measured quantity
+enters any computation at any point.}
+
+The second half we ask the reader to weigh equally. The same construction is
+\emph{provably} silent about magnitudes (\S\ref{sec:negatives}), and five
+pre-registered comparisons with measurement all missed.
+
+\subsection{What is claimed}
+A \emph{cost theorem}: three declared choices, no fitted parameters, and no measured
+input yield the structural data of \S\S\ref{sec:frame}--\ref{sec:realform}. We do
+\textbf{not} claim a derivation of physics. Internal names for mathematical objects
+are defined at first use.
+
+\subsection{What is unusual, stated plainly}
+Of the $43$ links in the chain, $39$ are theorems, identities, censuses or no-go
+results; four are declared choices. Three of the four occur \emph{before} the
+manifold appears, and one occurs after the algebra is in hand. Between the manifold
+and the algebra there is not one declared choice.
+
+\subsection{What the reader should be suspicious of}\label{sec:suspicious}
+Two things, addressed where they arise rather than in a discussion section.
+
+First, reaching this particular exceptional algebra is \emph{generic}: roughly one
+hyperbolic $3$-manifold in three, and five of seven grammars in the relevant
+family, arrive at it. \textbf{Arrival there is not evidence.} What is not generic
+is the \emph{entrance} (\S\ref{sec:entrance}). We can be quantitative rather than
+rhetorical, because the question was settled by enumeration.
+
+\begin{census}\label{cen:gamma}
+Of the $20$ steps below the entrance, $0$ consume the manifold's fundamental group,
+$18$ are standard algebra downstream of the McKay assignment, and exactly $1$
+consumes the arithmetic---the entry itself, where the Kleinian trace field selects
+\emph{which} McKay group. None is undecidable.
+\end{census}
+
+So the paper's structure mirrors a measured fact: everything after the entrance is
+exceptional-algebra theory checkable against the standard references, and the single
+step where this object's arithmetic does work is the one \S\ref{sec:entrance} is
+about. A reader who wishes to attack the paper should attack that step; attacking
+the cascade attacks Slansky~\cite{Slansky}.
+
+Second, the cost claim is a claim about what entered the computations, and prose
+cannot establish it. Appendix~\ref{app:verify} supplies one runnable verification
+per numerical claim.
+
+\section{The principle and its price}\label{sec:price}
+
+We take as starting point that description is inexhaustible: no finite description
+closes. The mathematical content is a minimality condition (\S\ref{sec:genesis});
+the metaphysical content is a choice, and we price it. \textbf{A declared choice
+whose alternatives are not computed is a free parameter wearing a different name},
+so the computations are part of the claim.
+
+\begin{description}[leftmargin=1.6em,style=nextline]
+\item[(C3) Description is inexhaustible.] The one metaphysical commitment.
+  \emph{Price.} Both alternatives degenerate. The periodic counterpart collapses:
+  the whole $\det=+1$, $|\tr|\le 2$ family is finite-order or reducible---no
+  pseudo-Anosov element, no hyperbolic carrier. Neither alternative supports the
+  construction at all.
+\item[(C4) The word is realized on the once-punctured torus.] A geometric carrier
+  over combinatorial ones. \emph{Price, and it is consequential.} The canonical
+  non-geometric carriers---the tiling hull, and the Effros--Shen algebra with
+  $K_0=\Z[\varphi]$---see only the real quadratic data. All four pre-registered
+  redundancy witnesses fail exactly: in particular $x^2+3$ remains irreducible over
+  $\Q(\sqrt5)$. \textbf{The imaginary quadratic field $\Q(\sqrt{-3})$ is bought at
+  geometrization and nowhere earlier.}
+\item[(C5) The monodromy is orientation-preserving.] Equivalently, the golden slope
+  is squared. \emph{Price, and it is the largest.} \textbf{The discarded alternative
+  is not degenerate.} It is the Gieseking manifold---the orientation double cover's
+  parent of the manifold we keep, with dilatation $\varphi$ upstairs against
+  $\varphi^2$ below.
+\end{description}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+choice & status of the alternative\\
+\midrule
+C3 & degenerates---no carrier exists\\
+C4 & survives, but sees only the real quadratic data\\
+C5 & \textbf{survives intact as a named manifold}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{C5 is the honest scar in the argument.} It is a fork between two genuine
+objects decided by a stipulation, and no computation in this paper forces it. We
+flag it here rather than in a limitations section because a reader who discovers it
+late is entitled to distrust everything before it.
+
+\section{From minimal description to a knot}\label{sec:genesis}
+
+\begin{theorem}[Morse--Hedlund~\cite{MorseHedlund}]\label{thm:mh}
+If an infinite word $w$ is aperiodic then its factor complexity satisfies
+$p(n)\ge n+1$ for every $n\ge1$. Words attaining $p(n)=n+1$ for all $n$ are exactly
+the Sturmian words.
+\end{theorem}
+
+Periodic words close, so under the principle they are excluded; among the words
+that do not close, Theorem~\ref{thm:mh} identifies a unique minimal complexity
+class, and it is non-empty.
+
+Sturmian words are classified by a single irrational slope $\alpha$. The slope is
+itself a parameter of the description, and applying the principle to \emph{it} is
+what removes the last freedom. The relevant notion of ``least reducible to a
+terminating description'' is worst rational approximability, measured by the
+Lagrange number $L(\alpha)$.
+
+\begin{theorem}[self-selection]\label{thm:self}
+Among slopes with eventually constant continued fraction $[a;a,a,\dots]$, $a\ge1$,
+one has $L=\sqrt{a^2+4}$. This is strictly increasing in $a$; the unique minimiser
+is $a=1$, the golden slope $\varphi$, with $L(\varphi)=\sqrt5$, the bottom of the
+Lagrange spectrum (Hurwitz).
+\end{theorem}
+
+Two features make this a theorem rather than a preference. \emph{(i) It is a fixed
+point, not a selection}: a continued fraction all of whose partial quotients equal
+$1$ is precisely a fixed point of $t\mapsto 1+1/t$, so the statements ``the
+continued fraction is all-$1$s'' and ``$x=1+1/x$'' are the same statement.
+\emph{(ii) The minimiser is unique}, by strict monotonicity.
+
+\begin{scope}\label{sc:markov}
+The extremality itself is classical (Markov; and the corresponding twisted spectrum
+statement is a corollary of Andersen--Duke). What is ours is the \emph{application}
+to grammar selection, not the spectral theorem.
+\end{scope}
+
+By C4 the word is realized on the once-punctured torus, and by C5 the monodromy is
+$M=\left(\begin{smallmatrix}2&1\\1&1\end{smallmatrix}\right)$, $\tr M=3$.
+
+\begin{theorem}[Thurston; Riley]\label{thm:thurston}
+The mapping torus of the once-punctured torus under $M$ is the complement of the
+figure-eight knot. It carries a unique complete hyperbolic structure, and its
+Kleinian trace field is $\Q(\sqrt{-3})$.
+\end{theorem}
+
+This ends the genesis. \textbf{Three declarations have been spent; two theorems and
+one classical realization carried the rest; no numerical value has entered.}
+
+\section{The object's own arithmetic}\label{sec:arith}
+
+Everything here is a property of the manifold of \S\ref{sec:genesis}; nothing is
+imported and no choice is made.
+
+\begin{theorem}\label{thm:v4}
+The manifold's intrinsic arithmetic forces exactly three quadratic subfields, and
+they close under composition into a Klein four-group:
+$\Q(\sqrt{-3})$, $\Q(\sqrt5)$, $\Q(\sqrt{-15})$.
+\end{theorem}
+
+That there are exactly three and that they close is the content. Moreover no closed
+hyperbolic Dehn filling in the surveyed slope grid carries any of the three: the
+arithmetic belongs to the \emph{cusped} object. The manifold's group is a congruence
+subgroup, and its continuous spectrum is a single channel with scattering
+determinant $\phi(s)=\Lambda_K(s-1)/\Lambda_K(s)$ exactly.
+
+\section{The entrance}\label{sec:entrance}
+
+This is the section the paper rests on: if arriving at an exceptional algebra is
+generic, what is \emph{not} generic here?
+
+The manifold's fiber-field side factors through a group of order $360$ at congruence
+level $15$. It is tempting---and we record that one of us attempted it---to read
+that level as a product of its prime parts and conclude the algebra factorizes.
+\textbf{That reading is false.} The congruence-level-$15$ form is a unique
+irreducible coupling of the two arithmetic sides: $59$ of $60$ primes falsify the
+corresponding $L$-factorization. The two sides interfere; they do not decompose.
+
+\subsection{The two curvature ends}
+The cone-manifold family of the figure-eight complement---hyperbolic below cone
+angle $2\pi/3$, \emph{Euclidean exactly at} $2\pi/3$, spherical beyond---is due to
+Thurston, with the figure-eight cone manifolds worked out by
+Hilden--Lozano--Montesinos~\cite{HLM95} and the degenerations by Hodgson and Porti.
+\textbf{We claim none of that geometry.} What we add is which arithmetic sits at
+each end.
+
+\begin{theorem}\label{thm:ends}
+Along that transition the hyperbolic end carries $(\Q(\sqrt{-3}),2T)$ and the
+spherical end carries $(\Q(\sqrt5),2I)$, so the dual McKay pair $E_6+E_8$ is
+realized as the two stable geometries of a \emph{single} object separated by the
+Euclidean wall, rather than as two unrelated faces. At the spherical end the double
+cover is the lens space $L(5,2)=S^3/\Z_5$, with $|H_1|=\det(4_1)=5$: the $5$ of that
+end is the knot determinant.
+\end{theorem}
+
+\begin{scope}\label{sc:asym}
+\textbf{The two ends are not symmetric, and the asymmetry runs against the direction
+the phrasing invites.} At the hyperbolic end $\pi_1(4_1)\twoheadrightarrow 2T$ is a
+genuine group surjection, with exactly two such quotients. At the spherical end
+there is \emph{no} surjection at all: $\pi_1(4_1)$ does not surject onto $2I$, nor
+onto $A_5$. So the $E_8$ end is \emph{field-level only}, and the two ramified-prime
+reductions are symmetric as fields but not as group surjections. (Established by
+direct computation; cf.~\cite{Stuebner} for the representation landscape.)
+\end{scope}
+
+We state this beside the theorem because a reader who takes ``the two ends carry
+$2T$ and $2I$'' to mean two group-level presences has been misled by symmetric
+phrasing.
+
+\subsection{Where the uniqueness lives}
+Arrival at $E_6$ is generic (\S\ref{sec:suspicious}). The entrance is not.
+
+\begin{theorem}\label{thm:uniq}
+Over the infinite metallic family of grammars $R^mL^m$, the golden grammar is the
+unique one whose shadow modulus $m^2+4$ reduces to a McKay group. Completeness is a
+proof, not a search: writing $|\SL(2,\Z/N)|=N^3\prod_{p\mid N}(1-p^{-2})$ and
+bounding $\prod_{p\mid N}(1-p^{-2})\ge\prod_{k=2}^{N}(1-k^{-2})=(N+1)/2N$ gives
+$|\SL(2,\Z/N)|\ge N^2(N+1)/2$, already $126>120$ at $N=6$ and increasing. Hence
+$|\SL(2,\Z/N)|$ is a McKay-group order only for $N\in\{3,4,5\}$, and $m^2+4\in\{3,4,5\}$
+has the unique metallic solution $m=1$.
+\end{theorem}
+
+\begin{theorem}[quantization-index law]\label{thm:qil}
+The reduction modulo the shadow modulus is an isomorphism exactly when the cusp
+conductor is coprime to it, and acquires a kernel line exactly when ramified. For
+the golden, $\gcd(4,5)=1$---an isomorphism. For the silver, $\gcd(2,8)=2$---ramified.
+\end{theorem}
+
+So the golden's shadow is the McKay group for \emph{two} independent reasons, and
+the silver satisfies neither.
+
+\begin{scope}\label{sc:uniqscope}
+Three limits, stated with the theorem. \emph{(i)} The uniqueness is proved at the
+$E_8$ end; the corresponding statement at the $E_6$ end is not claimed. By
+Scope~\ref{sc:asym} the $E_8$-end object is not a quotient of the knot group at all
+---which is not a weakness but a statement of what the theorem quantifies over:
+grammars and $\SL(2,\Z/N)$, never manifolds. \emph{(ii)} The moduli $\{3,4,5\}$ do
+\emph{not} realize the whole exceptional series. $\SL(2,\Z/3)\cong2T$ and
+$\SL(2,\Z/5)\cong2I$ give $E_6$ and $E_8$ genuinely, but $E_7=2O$ never occurs:
+$|\SL(2,\mathbb{F}_p)|=p(p^2-1)$ is never $48$, and although $|\SL(2,\Z/4)|=48=|2O|$
+that group has seven involutions where every finite subgroup of $\SU(2)$ has exactly
+one. The order is a coincidence. \emph{(iii)} The filter is finer than the field:
+$m=1,4,11$ all give $\Q(\sqrt5)$, but only $m=1$ lands at group level
+($120$ versus $5760$ and $1875000$).
+\end{scope}
+
+\begin{scope}\label{sc:priorart}
+That the golden ratio, icosahedral symmetry, $2I$ and $E_8$ form a connected cluster
+is well established~\cite{Baez,Dechant}; \S\ref{sec:suspicious} already concedes that
+arrival there is not evidence. The claim defended here is a \emph{selection}
+statement over a family, each member evaluated at its own modulus.
+\end{scope}
+
+\begin{census}\label{cen:forced}
+Of the $43$ links, $26$ are theorems, $6$ exact identities, $5$ no-go results, $1$ a
+corollary, $1$ a census---and $4$ are declared choices, at links $3$, $4$, $5$ and
+$18$. \textbf{Between link $6$ (the manifold) and link $17$ there is no declared
+choice.}
+\end{census}
+
+\section{The frame}\label{sec:frame}
+
+Write $\ee_6$ for the Chevalley algebra of type $E_6$ over $\Q$. Inside it sits
+$C=\langle x_8,x_{14},x_{16},x_{22}\rangle$, the span of the four binary-tetrahedral
+invariants under the principal $\mathfrak{sl}_2$---Klein forms of degrees $8,14,16,22$,
+twice the exponents $4,7,8,11$.
+
+\begin{proposition}\label{prop:C}
+$C$ is abelian with $\uu(1)^4$ closure, and the four Klein forms are the complete
+list of $2T$-invariants in $\ee_6$ under the principal $\mathfrak{sl}_2$.
+\end{proposition}
+
+\begin{proposition}\label{prop:mu}
+The pencil determinants are exact powers, up to nonzero rational constants, of an
+irreducible cubic $\mu$ with $S_3$ Galois group and three real roots. Writing
+$K=\Q[\rho]/\mu$, one has the reduced model
+\[
+   K\cong\Q[x]/(x^3-12x-5),\qquad \disc K=6237=3^4\cdot7\cdot11,
+\]
+monogenic, totally real, unit rank $2$, and \textbf{class number $h=1$}. The
+squarefree part is $7\cdot11=77$, so the quadratic resolvent of the $S_3$ closure is
+$\Q(\sqrt{77})$. Only $3,7,11$ ramify; $13,17,19$ are inert; and $2$, $5$ and the
+value primes $953$, $1129$, $421493$ are partially split with exactly one degree-one
+place each.
+\end{proposition}
+
+\begin{remark}
+A correction to the record, since the paper would otherwise inherit it. The
+resolvent $77$ is a fact about $K$; a companion clause that the golden $5$ ``enters
+by ramification'' is not. A ramified prime must divide the field discriminant, and
+$5\nmid6237$; in $K$ the prime $5$ is unramified with the same splitting shape as
+the value primes, and it is unramified in the whole $S_3$ closure. The $5$ appearing
+in $\disc\mu$---like the $13^6$, for $13$ is inert---is borne by the integral model,
+not by the arithmetic of the field.
+\end{remark}
+
+\section{The cascade}\label{sec:cascade}
+
+\begin{theorem}[first measurement]\label{thm:fmt}
+On the plane $\langle x_8,x_{16}\rangle$ the centralizer dimension stratifies as
+$12$, $30$, and exactly three lines at $46$; the three lines are the $S_3$-Galois
+orbit of the roots of $\mu$. For each such line $K_i$, $z(K_i)\cong\so(10)\oplus\uu(1)$,
+while $z(\text{plane})=\so(8)\oplus\uu(1)^2$. Moreover
+$\ee_6=(\so(8)\oplus\uu(1)^2)\oplus V_1\oplus V_2\oplus V_3$ with $\dim V_i=16$ and
+$[V_i,V_j]=V_k$, and $\ee_6/K_i\cong16\oplus\overline{16}$.
+\end{theorem}
+
+The three walls are Galois conjugates of one another---one object seen three ways.
+
+\begin{theorem}[the frame is the magic square]\label{thm:magic}
+The algebra built from split octonions and split complexes by the Freudenthal--Tits
+construction satisfies the Jacobi identity on all $76{,}076$ unordered basis
+triples, has Cartan matrix $E_6$, and admits an explicit isomorphism onto the
+Chevalley $\ee_6$ verified on all $3{,}003$ basis pairs with zero discrepancies.
+\end{theorem}
+
+This identification is the paper's ceiling: everything derivable at this layer is
+standard exceptional-algebra theory~\cite{BartonSudbery,Slansky}.
+
+\begin{theorem}[second measurement]\label{thm:smt}
+Over $K$, at the wall point $y^*$, $\dim z(x_1,y^*)=14$ with derived algebra of
+dimension $11$ and centre at least $3$, whence
+$z(x_1,y^*)=\su(3)\oplus\su(2)\oplus\uu(1)^3$ exactly. The within-$C$ centralizer
+ladder is $\{78,46,30,18,14,12\}$: the dimension $26$ is not attained, so the
+second measurement skips $\su(5)\oplus\uu(1)$.
+\end{theorem}
+
+\section{The real form}\label{sec:realform}
+
+\begin{theorem}[sign-locking]\label{thm:signs}
+Every $C$-stabilizing automorphism acts $\pm$-diagonally on the four charges. Two
+exact rational trace moments of degree $6$ force $\varepsilon_8\varepsilon_{16}=+1$ and
+$\varepsilon_{14}\varepsilon_{22}=+1$, so twelve of the sixteen sign patterns are
+impossible; the wall-real pattern is unique, $\varepsilon=(-1,+1,-1,+1)$.
+\end{theorem}
+
+The wall is complex in the split frame at all three Galois roots, and the real form
+in which the second wall is real is the quaternionic $\ee_{6(2)}$.
+
+A final involution $D_2$---an eleven-flip diagonal on the $27$---carries the ratio
+structure: $D_2=\pm\rho_{27}(\sigma_{\chi_-})$ for the \emph{affine} shifted
+character, the unique match in a $128$-member family with all $64$ un-shifted
+characters failing, and $\{I,D_2,D,D_2D\}$ realizes the wall pair's full $2$-torsion.
+From the characterization follow exact $K$-arithmetic invariants, including a norm
+law that cubes on the three-dimensional coloured atoms and a sum rule equal to $11$.
+\textbf{We record these as abstract invariants of $K$ and as nothing else}; the
+primes entering them are not derived further, and the stage at which any comparison
+would be made lies outside this paper.
+
+\medskip
+\noindent\textbf{Character of \S\S\ref{sec:frame}--\ref{sec:realform}.} Every
+statement is a theorem or an exact identity about centralizers, structure constants
+or trace moments of an algebra the construction was handed. \textbf{No choice is
+made anywhere in them.}
+
+\section{What the construction does not yield}\label{sec:negatives}
+
+We ask the reader to weigh this section equally with the preceding three. A
+construction that reaches structure and \emph{cannot} reach magnitude is a different
+object from one that has not yet reached magnitude, and only the first is what we
+claim.
+
+\subsection{Five sealed predictions, five misses}
+Each comparison was pre-registered---prediction, target and decision rule sealed
+before computation---and each is reported whatever it returned. The first missed at
+$16\sigma$; the second returned the pre-written negative; the third was a
+hit-shape but a miss at the deciding tier; the fourth missed in both sectors; and
+the fifth, a pre-committed re-run with zero freedom, produced eight misses over
+eight pairs. That fifth run met a trigger its own predecessor had sealed in advance
+(``an upper-error shrink of about $2\times$ decides sharply'') at $2.21\times$, with
+one variant $44$ degrees outside the $1\sigma$ interval.
+
+\subsection{The surface is exhausted, not merely unlucky}
+\begin{census}\label{cen:exhausted}
+Exactly two target-shaped relations exist in the inventory. Both were fired and both
+missed, against the current global fit, in both orderings, with the free phase
+profiled over the full circle: one at $3.4\sigma$ on a phase-independent anchor and
+therefore unrescuable, the other at $4.7\sigma$.
+\end{census}
+There is no third relation to try. That is the content of the census.
+
+\subsection{Scale-blindness is a theorem}
+\begin{theorem}\label{thm:scale}
+The boundary action reduces to $S=-\mathrm{CS}\cdot k-\Vol\cdot\sigma$, and the
+object's amphichirality forces $\mathrm{CS}\equiv0$. Hence
+$\partial S/\partial k=-\mathrm{CS}\equiv0$ identically: the object is blind to the
+level $k$, and $k$-blindness \emph{is} amphichirality.
+\end{theorem}
+The vanishing deletes the only term that could carry a scale. The silence about
+magnitudes is not a gap awaiting a better calculation.
+
+\begin{nogo}\label{ng:torus}
+The cusp-torus route is obstructed on two independent legs: amphichirality deletes
+the quantized sector of the boundary action, so rational level-one data has no level
+to attach to; and the surviving unquantized sector carries no chiral algebra to
+decompose, so the quantity one would evaluate is not merely unknown but undefined.
+\end{nogo}
+
+\subsection{The declared inputs}
+The $18$ algebra steps of Census~\ref{cen:gamma} carry declared input riders:
+chirality (three steps), a vacuum direction, and a generation count. On the last,
+four clauses travel together: a three \emph{is} object-forced, as
+$h^1(M;\mathbf{27})=3$; that three is \emph{not} a generation triple, since no
+$\Z/3$ acts on the object and $\mathrm{Isom}(4_1)=D_4$; therefore ``three
+generations'' is a \textbf{declared input} wherever a derivation uses it---booked and
+priced, but not an output; and the branch structure carrying the ratios is
+independent of the preceding two clauses.
+
+\section{Falsifiers}\label{sec:falsifiers}
+
+A construction that cannot fail is not a construction. Four statements would end this
+programme, each computable, none requiring a measurement. \textbf{One has already
+fired.}
+
+\begin{enumerate}[label=(F\arabic*),leftmargin=2.6em]
+\item \emph{Chirality is impossible from any closing.} Open in the falsifying
+  direction: chirality is currently an external input, not a proven impossibility.
+\item \emph{Every dimensionless invariant the object produces is base-rate
+  reachable.} \textbf{Fired.} Of $23$ enumerated invariants, $22$ were graded
+  unreachable or base-rate dead; the $23$rd fell three independent ways---a
+  parametrization tautology for every phase, an apparent sharpness refuted
+  ($0.89\sigma$, not the $7\sigma$ originally claimed), and zero gated hits over the
+  object's whole real algebraic tower.
+\item \emph{The value layer is frame-relative in every frame.} Known for one pair; a
+  proof for all frames closes the value question permanently.
+\item \emph{The rank obstruction has no escape.} Proved for the centralizer class;
+  the one escape is external, and its canonicity is structurally unreachable by
+  orbit invariants.
+\end{enumerate}
+
+\begin{scope}
+(F2) fires \textbf{for the enumerated space, not in principle}: the atlas is $23$
+enumerated invariants, not a proof that none exists. The consequence we accept is
+that the construction has no live candidate for a derived dimensionless value.
+\textbf{Theorem~\ref{thm:uniq} yields integers, not measured ratios}, and is
+therefore not a candidate under (F2) and must not be presented as one.
+\end{scope}
+
+\noindent\textbf{What would not falsify it.} A failed comparison with a measured
+quantity does not falsify \S\S\ref{sec:genesis}--\ref{sec:realform}; none of those
+theorems asserts a measured value. Conversely---and this is the direction that
+matters---a \emph{successful} comparison would not confirm them either: arrival at
+this structure is generic and the value layer is base-rate dead, so an agreement
+would have to survive the same base-rate test everything else failed.
+\textbf{The construction is falsifiable as mathematics and, at present, not testable
+as physics.}
+
+\appendix
+
+\section{Verification}\label{app:verify}
+
+The empirical failure mode of this programme has been \emph{retrieval}, not
+computation: errors have been navigational, while computations reproduced exactly.
+Accordingly the paper carries its verification inline, and a reader should never
+need an external corpus. Each script accompanying this paper imports nothing
+project-internal, uses exact arithmetic in every verdict-bearing comparison, prints
+its expected values, and exits non-zero on drift; a single runner executes all of
+them and fails if the suite is empty. Proposition~\ref{prop:mu} in particular is
+checked end to end, including $h=1$ by Minkowski reduction with an explicit
+generator exhibited for \emph{every} prime ideal of norm below the bound---both
+primes above $7$ and both above $11$ included, where a single norm-$p$ element would
+establish only that a class squares to the identity.
+
+\begin{thebibliography}{9}
+
+\bibitem{Baez} J.~C. Baez, \emph{From the icosahedron to $E_8$},
+arXiv:1712.06436.
+
+\bibitem{BartonSudbery} C.~H. Barton and A. Sudbery, \emph{Magic squares and matrix
+models of Lie algebras}, Adv. Math. \textbf{180} (2003), no.~2, 596--647.
+
+\bibitem{Dechant} P.-P. Dechant, \emph{The birth of $E_8$ out of the spinors of the
+icosahedron}, Proc. R. Soc. A \textbf{472} (2016), no.~2185, 20150504.
+
+\bibitem{HLM95} H.~M. Hilden, M.~T. Lozano and J.~M. Montesinos, \emph{On a
+remarkable polyhedron geometrizing the figure eight knot cone manifolds},
+J. Math. Sci. Univ. Tokyo \textbf{2} (1995), no.~3, 501--561.
+
+\bibitem{MorseHedlund} M. Morse and G.~A. Hedlund, \emph{Symbolic dynamics II.
+Sturmian trajectories}, Amer. J. Math. \textbf{62} (1940), 1--42.
+
+\bibitem{Slansky} R. Slansky, \emph{Group theory for unified model building},
+Phys. Rep. \textbf{79} (1981), 1--128.
+
+\bibitem{Stuebner} M. Stuebner, \emph{Hyperbolic integral homology spheres and
+binary icosahedral representations}, arXiv:2502.06488.
+
+\end{thebibliography}
+
+\end{document}
