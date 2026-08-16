@@ -34,6 +34,7 @@
 \newtheorem{remark}[theorem]{Remark}
 \newtheorem{notation}[theorem]{Notation}
 
+\usepackage{tikz}
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\F}{\mathbb{F}}
@@ -1713,19 +1714,68 @@ size-$6$ hyperplanes: the expected $\langle x_8,x_{16}\rangle$, and a second pla
 $\langle x_1,\ x_{22}-\gamma\,x_{14}\rangle$ that is \textbf{not} contained in it.
 \end{theorem}
 
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[x=0.93cm,y=0.93cm,
+  real/.style={thick}, cplx/.style={thick,dashed},
+  pt/.style={circle,fill,inner sep=1.5pt}, font=\scriptsize]
+\draw[real] (-4.150,0.000) -- (5.050,0.000);
+\node[font=\scriptsize] at (4.900,0.280) {$L_{4}$};
+\draw[cplx] (0.000,-0.750) -- (0.000,6.750);
+\node[font=\scriptsize] at (-0.420,7.030) {$L_{1}$};
+\draw[cplx] (5.050,-0.367) -- (-4.150,5.767);
+\node[font=\scriptsize] at (-4.150,6.047) {$L_{2}$};
+\draw[real] (-4.150,-0.306) -- (5.050,4.806);
+\node[font=\scriptsize] at (5.050,5.086) {$L_{3}$};
+\draw[real] (0.450,6.750) -- (-4.050,-0.750);
+\node[font=\scriptsize] at (0.450,7.030) {$L_{5}$};
+\draw[cplx] (1.904,-0.750) -- (-3.288,6.750);
+\node[font=\scriptsize] at (-3.288,7.030) {$L_{6}$};
+\draw[cplx] (-0.173,6.750) -- (1.558,-0.750);
+\node[font=\scriptsize] at (-0.173,7.030) {$L_{7}$};
+\node[pt] at (-3.600,0.000) {};
+\node[below,font=\scriptsize] at (-3.600,0.000) {30};
+\node[pt] at (1.385,0.000) {};
+\node[below,font=\scriptsize] at (1.385,0.000) {30};
+\node[pt] at (0.000,0.000) {};
+\node[below left,font=\scriptsize] at (0.000,0.000) {20};
+\node[pt] at (4.500,0.000) {};
+\node[below,font=\scriptsize] at (4.500,0.000) {20};
+\node[pt] at (0.000,3.000) {};
+\node[left,font=\scriptsize] at (0.000,3.000) {16};
+\node[pt] at (0.000,2.000) {};
+\node[right,font=\scriptsize] at (0.000,2.000) {26};
+\node[pt] at (0.000,6.000) {};
+\node[right,font=\scriptsize] at (0.000,6.000) {26};
+\node[pt] at (0.818,2.455) {};
+\node[right,font=\scriptsize] at (0.818,2.455) {26};
+\node[pt] at (-1.286,3.857) {};
+\node[left,font=\scriptsize] at (-1.286,3.857) {26};
+\end{tikzpicture}
+\caption{The jump locus in $\mathbb P(C/\langle x_1\rangle)$: seven lines meeting in six
+triple and three double points, drawn to scale---every incidence shown is exact. The
+four $26$-points form a \textbf{complete quadrangle} whose diagonal triangle is the two
+$30$-points and the $16$-point, which is what forces the pattern. Solid lines have real
+defining forms, dashed lines are the two conjugate pairs $\{L_1,L_2\}$ and
+$\{L_6,L_7\}$; a real configuration cannot realize four non-real lines, so the reality
+is carried by the line style and not by the picture. Each point is labelled with
+$\dim z(x_1,y)$ there. Off every line the value is $12$; a generic point of $L_1$ or
+$L_2$ (size $2$) gives $14$, of the size-$6$ lines gives $18$.
+\textbf{No point carries $24$}: all ten size-$6$ pairs are absorbed into triples, six by
+the two $30$-points and four by $26$-points.}
+\label{fig:arrangement}
+\end{figure}
+
 \begin{remark}[$26$ exists and $24$ does not, for the same reason]\label{rem:2426}
-A meeting of two size-$6$ hyperplanes would contribute $6+6$ extra roots and give
-$\dim z=24$---which Theorem~\ref{thm:rungspec} forbids, since $24$ is not a Levi
-dimension of $E_6$. The arrangement resolves this without being asked to:
-\textbf{every one of the ten size-$6$ pairs also carries a third hyperplane}, six of
-them a further size-$6$ (giving $30$) and four of them a size-$2$ (giving $26$)---the
-two $30$-points account for $\binom{3}{2}+\binom{3}{2}=6$ pairs between them.
-\textbf{So ``$26$ is attained'' and ``$24$ is not'' are one fact, not two}, and it is an
-exact polynomial identity between the defining forms rather than a numerical
-coincidence. We record it because the two statements were obtained by completely
-separate routes---$24$'s impossibility from the classification of Levi subsystems, the
-concurrency from the charge data---and they had no reason to agree unless both are
-right.
+Figure~\ref{fig:arrangement} makes the point that a paragraph made badly. A meeting of
+two size-$6$ lines alone would contribute $6+6$ extra roots and give $\dim z=24$, which
+Theorem~\ref{thm:rungspec} forbids since $24$ is not a Levi dimension of $E_6$. The
+arrangement resolves this without being asked to: \textbf{all ten size-$6$ pairs are
+absorbed into triple points}, six by the two $30$-points and four by $26$-points.
+\textbf{So ``$26$ is attained'' and ``$24$ is not'' are one fact}, and an exact
+polynomial identity between the defining forms rather than a coincidence---obtained by
+two separate routes, $24$'s impossibility from the Levi classification and the
+concurrency from the charge data, which had no reason to agree unless both are right.
 \end{remark}
 
 \begin{corollary}[the real ladder is shorter, and by a mechanism]\label{cor:realladder}
