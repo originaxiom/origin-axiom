@@ -184,6 +184,40 @@ into an exceptional Lie algebra.
 The second half is negative and we ask that it be weighed equally
 (\S\ref{sec:negatives}).
 
+\subsection{The shape}\label{sec:shape2}
+One pattern runs through every stage of what follows, and we take it---rather than the
+identity of any endpoint---to be the content of the paper:
+\begin{center}
+\emph{a generic family} $\ \longrightarrow\ $ \emph{an exceptional locus, selected by
+rigidity}
+\end{center}
+It occurs \textbf{four times, in four different mathematical settings, inside a single
+construction}:
+\begin{enumerate}[leftmargin=2.2em]
+\item \textbf{In symbolic dynamics.} All words $\longrightarrow$ the aperiodic ones of
+  minimal factor complexity, $p(n)=n+1$: the Sturmian locus
+  (\S\ref{sec:genesis}, Theorem~\ref{thm:mh}).
+\item \textbf{In arithmetic.} All irrationals $\longrightarrow$ the golden class, by
+  extremality of the Lagrange number (Theorem~\ref{thm:hurwitz}); and, inside the
+  canonical family of \S\ref{sec:canonical}, the golden member, by four criteria of
+  which three collapse to one (\S\ref{sec:four}).
+\item \textbf{In representation theory.} The nine-element trace set of $2I$
+  $\longrightarrow$ its Niven-rational locus, which is \emph{exactly} the five-element
+  trace set of $2T$ (Corollary~\ref{cor:ninecos}). The two curvature ends of
+  \S\ref{sec:entrance} are this single inclusion.
+\item \textbf{In the Lie algebra.} The generic stratum \emph{of the measurement plane}
+  $\longrightarrow$ the three lines where the centralizer dimension jumps from $30$ to
+  $46$, which form one Galois orbit (Theorem~\ref{thm:fmt}); and \emph{the plane itself
+  is the first instance}, being the unique coordinate subtorus with an intermediate
+  stratum at all (Proposition~\ref{prop:cliff}).
+\end{enumerate}
+At each stage the distinguished object is not chosen from a list: it is the locus where
+some genericity fails. \textbf{That one shape governs a combinatorial, an arithmetic, a
+representation-theoretic and a Lie-theoretic stage of a single construction is, in our
+view, the mathematically substantive observation of this paper}---more so than the
+identity of the terminal algebra. \S\S\ref{sec:genesis}--\ref{sec:cascade} may be read
+as its four instances, and \S\ref{sec:shape} returns to it once all four are in hand.
+
 \subsection{What is claimed, and what is not}
 We claim a \emph{cost theorem}: a single commitment---that description is
 inexhaustible---together with two operations
@@ -206,19 +240,29 @@ Two things, addressed where they arise rather than in a discussion section.
 \emph{First}, arrival at this particular exceptional algebra is \emph{generic}: roughly
 one hyperbolic $3$-manifold in three, and five of seven grammars in the relevant
 family, arrive at it. \textbf{Arrival is not evidence.} What is not generic is the
-\emph{selection} of the golden member, which is why \S\ref{sec:four} carries the paper
-and \S\S\ref{sec:frame}--\ref{sec:cascade} are presented as consequences, mostly
-standard, with the standard references given.
+\emph{selection} of the golden member, which is why \S\ref{sec:four} carries the paper.
+
+\textbf{An earlier draft added that \S\S\ref{sec:frame}--\ref{sec:cascade} were ``mostly
+standard'' and that attacking them amounted to attacking Slansky. We withdraw that.} It
+was true of the draft in which it was written and is now false of the paper: those two
+sections contain the toral lemma (Lemma~\ref{lem:toral}), which we prove here and whose
+reductive analogue we show fails; the Levi corollary (Corollary~\ref{cor:levi}); the rung
+spectrum (Theorem~\ref{thm:rungspec}); and the rank ceiling
+(Theorem~\ref{thm:rankceiling}), which is this paper's statement of its own limit. What
+\emph{is} standard there is the classification of Levi subsystems, which we cite and do
+not reprove. A reader wishing to attack this paper should attack \S\ref{sec:four},
+\S\ref{sec:entrance}, or Lemma~\ref{lem:toral}.
 
 We can be quantitative rather than rhetorical about this, because the question was
 settled by enumeration. \textbf{Counting the entrance itself, there are $20$ steps.} One
 of them---the entrance, Proposition~\ref{prop:mod3}---consumes the manifold's arithmetic;
-one is the McKay assignment it feeds; and the remaining $18$ are standard
-exceptional-algebra theory downstream of that assignment, consuming neither the arithmetic
-nor the fundamental group. \textbf{An earlier draft described the same $20$ as lying
-``below the entrance'' while counting the entrance among them.} A reader who wishes
-to attack this paper should attack \S\ref{sec:four} and \S\ref{sec:entrance}; attacking
-the cascade attacks Slansky~\cite{Slansky}.
+one is the McKay assignment it feeds; and the remaining $18$ lie downstream of that
+assignment and consume neither the arithmetic nor the fundamental group. \textbf{An
+earlier draft described the same $20$ as lying ``below the entrance'' while counting the
+entrance among them.} The census is about \emph{what each step consumes}, and we note
+that it is not a claim that those $18$ steps are unoriginal---the preceding paragraph
+withdraws that reading. Several of them are proved here; what they do not do is consume
+the manifold.
 
 \emph{Second}, the cost claim is a claim about what entered the computations, and prose
 cannot establish it. Appendix~\ref{app:verify} names a runnable check per numerical
@@ -1018,12 +1062,84 @@ $360$}, while the full six-dimensional stage above has order $2880$, of index $8
 claim that the level-$15$ group ``is'' $2T\times2I$ of order $2880$ is registered as
 retracted precisely because it conflates those two; the present statement is about the
 six-dimensional stage and says so. We record that $\rho$'s structure constants are
-specified in the source computation and \textbf{are not reconstructed in this paper}; a
-reader should treat
-Proposition~\ref{prop:2880} as a certificate whose ambient representation is cited
-rather than exhibited, and \S\ref{sec:entrance}'s conclusions do not rest on it---it
-supplements Scope~\ref{sc:asym} rather than repairing it.
+specified in the source computation and \textbf{are not reconstructed in this paper}, so
+Proposition~\ref{prop:2880} is a certificate whose ambient representation is cited rather
+than rebuilt here, and \S\ref{sec:entrance}'s conclusions do not rest on it---it
+supplements Scope~\ref{sc:asym} rather than repairing it. \textbf{What the group order
+does not by itself say is how the two factors sit inside the representation}, and that is
+the content of the next theorem.
 \end{scope}
+
+\begin{theorem}[the coupling law]\label{thm:coupling}
+With $\rho$ as in Proposition~\ref{prop:2880}, let $\theta$ be the involution whose
+eigenspaces have dimensions $2$ and $4$. As a representation of $2T\times2I$,
+\[
+  \rho\ \cong\ \bigl(\chi\otimes V_2(2I)\bigr)\ \oplus\
+              \bigl(V_2(2T)\otimes V_2(2I)\bigr),
+\]
+the two summands being \emph{exactly} the $\theta$-eigenspaces, where $V_2$ denotes the
+two-dimensional defining representation of each binary group and $\chi$ the order-three
+character of $2T$ with kernel $Q_8$. Consequently every character value of
+$\langle\rho(R),\rho(L)\rangle$ is a product of one character value and one trace:
+$\chi(A)\operatorname{tr}V_2(B)$ on the two-dimensional summand and
+$\operatorname{tr}V_2(A)\operatorname{tr}V_2(B)$ on the four-dimensional one.
+\end{theorem}
+
+\begin{proof}
+The $\theta$-eigenspaces are invariant, verified in $\Q(\zeta_{60})$ arithmetic. The
+class-by-class comparison against an independently built quaternion model of
+$2T\times2I$ is a size-preserving bijection on all $63$ classes under which the triple
+(class size, character on the odd block, character on the even block) agrees as exact
+cyclotomic numbers, the model characters being $\chi(A)\operatorname{tr}V_2(B)$ and
+$\operatorname{tr}V_2(A)\operatorname{tr}V_2(B)$. Characters determine representations in
+characteristic zero, so the factorization holds. Multiplicativity of $\chi$ is checked on
+all $576$ pairs.
+\end{proof}
+
+\begin{corollary}[the forced values: Niven, a second time and one level down]%
+\label{cor:ninecos}
+$\operatorname{tr}V_2$ takes exactly five values on $2T$ and exactly nine on $2I$:
+\[
+  \operatorname{tr}V_2(2T)=\{-2,-1,0,1,2\},\qquad
+  \operatorname{tr}V_2(2I)=\{\pm2,\ \pm\varphi,\ \pm1,\ \pm\varphi^{-1},\ 0\}.
+\]
+Every one of the nine is
+$2\cos(k\pi/n)$ with $n\in\{1,2,3,5\}$. By Niven's theorem (Theorem~\ref{thm:ends})
+exactly five of them are rational, and \textbf{those five are precisely the trace set of
+$2T$}: the subgroup's traces are the Niven-rational locus of the larger group's. Hence
+every forced coupling value is a product of a factor from a five-element rational set and
+a factor from a nine-element set generating $\Q(\sqrt5)$.
+\end{corollary}
+
+\begin{proof}
+Realize $2T$ as the $24$ Hurwitz units and $2I$ as the $120$ icosians, in which
+$\operatorname{tr}V_2(q)$ is twice the scalar part of $q$; the scalar parts are
+$\{\pm1,0,\pm\tfrac12\}$ and $\{\pm1,0,\pm\tfrac12,\pm\tfrac\varphi2,
+\pm\tfrac1{2\varphi}\}$ respectively. Niven's theorem supplies the rationality split, and
+$2T<2I$ has index $5$.
+\end{proof}
+
+\begin{scope}\label{sc:couplingscope}
+\textbf{Corollary~\ref{cor:ninecos} does not depend on $\rho$.} It is a statement about
+two finite subgroups of $\mathrm{SU}(2)$ and is proved here from their quaternion
+presentations, so the scope attached to Proposition~\ref{prop:2880} does not attach to
+it. Theorem~\ref{thm:coupling} does carry that scope: it is a statement about the cited
+$\rho$.
+
+\textbf{We claim no interpretation of these values.} They are character values of a
+finite group; no physical reading is offered here or anywhere in this paper.
+\end{scope}
+
+\begin{remark}
+The split in Corollary~\ref{cor:ninecos} is the two-ends theorem again, and by the same
+mechanism: the rational end is the $2T$ end, which is the $E_6$ end, and the quadratic
+end is the $2I$ end, which is the $E_8$ end. Theorem~\ref{thm:ends} obtained that
+dichotomy from the meridian trace of a cone manifold; here it reappears as an
+inclusion of trace sets of two finite groups, with the \emph{same} arithmetic
+criterion---rationality of $2\cos(\pi/n)$---doing the separating. This is the fourth
+instance of the shape of \S\ref{sec:shape2}, and the only one in which two earlier
+instances are visibly the same instance.
+\end{remark}
 
 This does not contradict Scope~\ref{sc:asym}: there the group is a quotient of
 $\pi_1(4_1)$; here it is generated by $R$ and $L$ inside the ambient instrument.
@@ -1215,38 +1331,25 @@ one}, which is precisely why Selection~IV is included with its limit stated
 machine that manufactures an exceptional entrance from any input: on the nearest
 neighbour it stops, and one can say at which step and for what reason.
 
-\subsection{The recurring shape}\label{sec:shape}
+\subsection{The recurring shape, with three of its four instances in hand}%
+\label{sec:shape}
 
-It is worth naming the pattern the preceding sections instantiate three times, because
-it, rather than any particular endpoint, is what we take to be the content.
+Three of the four instances of \S\ref{sec:shape2} have now been exhibited---the Sturmian
+locus (Theorem~\ref{thm:mh}), the golden class and the golden member
+(Theorem~\ref{thm:hurwitz} and \S\ref{sec:four}), and the trace-set inclusion
+(Corollary~\ref{cor:ninecos})---and the fourth, in the Lie algebra, is
+Theorem~\ref{thm:fmt} below. Two remarks are worth making now that three are visible.
 
-\begin{center}
-\emph{a generic family} $\ \longrightarrow\ $ \emph{an exceptional locus, selected by
-rigidity}
-\end{center}
+\textbf{First, the instances are not analogies.} The third is not \emph{like} the second:
+it is the same arithmetic criterion, rationality of $2\cos(\pi/n)$, applied to a
+different object. Theorem~\ref{thm:ends} and Corollary~\ref{cor:ninecos} are one theorem
+used twice.
 
-\begin{enumerate}[leftmargin=2.2em]
-\item \textbf{In symbolic dynamics.} All words $\longrightarrow$ the aperiodic ones of
-  minimal factor complexity, $p(n)=n+1$: the Sturmian locus
-  (Theorem~\ref{thm:mh}).
-\item \textbf{In arithmetic.} All irrationals $\longrightarrow$ the golden class, by
-  extremality of the Lagrange number (Theorem~\ref{thm:hurwitz}); and, within the
-  canonical family of \S\ref{sec:canonical}, the golden member by the four
-  criteria (\S\ref{sec:four}).
-\item \textbf{In the Lie algebra.} The generic stratum \emph{of the split plane}
-  $\longrightarrow$ exactly three lines where the centralizer dimension jumps from $30$
-  to $46$, and those three are a single Galois orbit (Theorem~\ref{thm:fmt}). \emph{The
-  plane itself is the first instance}: it is the unique coordinate subtorus with an
-  intermediate stratum at all (Proposition~\ref{prop:cliff}). A \emph{generic} plane of
-  $C$ would meet an unmeasured charge and resolve straight to $12$, with no $30$-stratum
-  and no $46$-lines.
-\end{enumerate}
-
-At each stage the distinguished object is not chosen from a list but is the locus where
-some genericity fails. \textbf{That the same shape governs a combinatorial, an
-arithmetic and a Lie-theoretic stage of one construction is, in our view, the
-mathematically substantive observation of this paper}---more so than the identity of the
-terminal algebra.
+\textbf{Second, the fourth instance is the one that could have failed and did not.} A
+\emph{generic} plane of $C$ would meet an unmeasured charge and resolve straight to
+dimension $12$, with no $30$-stratum and no $46$-lines---so there would be no fourth
+instance to report. That the plane is not generic is Proposition~\ref{prop:cliff}, and
+that it is not chosen is \S\ref{sec:planeforced}.
 
 \begin{census}\label{cen:forced}
 Of the $43$ links in the full chain, $26$ are theorems, $6$ exact identities, $5$ no-go
@@ -2619,6 +2722,7 @@ Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \fn{verify/check\_\allowbreak mea
 Prop~\ref{prop:z6} & \fn{verify/check\_\allowbreak global\_\allowbreak form.py} & the kernel is exactly $\Z/6$, cyclic\\
 Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \fn{verify/check\_\allowbreak niven\_\allowbreak ends.py} & Niven; the three rational traces; the $E_7$ exclusion\\
 Scope~\ref{sc:abelian}, $C$ abelian & \fn{verify/check\_\allowbreak charge\_\allowbreak bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
+Thm~\ref{thm:coupling}, Cor~\ref{cor:ninecos} & \fn{verify/check\_\allowbreak coupling\_\allowbreak law.py} & the two trace sets; Niven; the rational locus of $2I$ is $2T$\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
