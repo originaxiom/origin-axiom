@@ -63,7 +63,8 @@
 
 \title[The golden grammar]{The golden grammar: one arithmetic condition and four
   exceptionality theorems
-inside a canonical family, and a parameter-free chain to an exceptional Lie algebra}
+inside an intrinsically characterized family, and a chain to an exceptional Lie algebra
+with no measured input}
 
 \author{Drit\"ero Mehmetaj}
 \address{Independent Researcher}
@@ -78,10 +79,13 @@ algebras, cone-manifold geometric transition}
 
 \begin{abstract}
 Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We prove that
-this family is \emph{intrinsically characterized rather than ad hoc}: the hyperbolic
-unimodular classes whose dominant eigenvalue has purely periodic continued fraction of
-period one are exactly those of determinant $-1$, and their traces are exactly the
-integers $m\ge1$, with $X_m$ realizing each. \textbf{The characterization is by trace and
+this family is \emph{intrinsically characterized rather than ad hoc}: among hyperbolic
+unimodular classes \emph{with non-negative entries}, those whose dominant eigenvalue has
+purely periodic continued fraction of period one are exactly those of determinant $-1$,
+and their traces are exactly the integers $m\ge1$, with $X_m$ realizing each. (The
+sign hypothesis is not decoration: $\left(\begin{smallmatrix}-1&1\\1&0\end{smallmatrix}\right)$
+is hyperbolic with determinant $-1$ and dominant eigenvalue $-\varphi$, which has no such
+expansion.) \textbf{The characterization is by trace and
 determinant, not by conjugacy class}---at $m=6$ a second class occurs and we exhibit
 it---so the family below is a proper subfamily of that locus. \textbf{That is weaker than saying it is not a choice},
 and we do not say so: period one is itself a declared input, and we price it. Inside it we exhibit \emph{four exceptionality criteria on the family}---three selecting the
@@ -107,7 +111,9 @@ where the centralizer jumps---and no measured quantity enters any computation. T
 target algebra is not chosen from a menu either: the regular $d$-simplex has rotation
 group $A_{d+1}$, which lies in $SO(3)$ only for $d\in\{2,3,4\}$, and of those only
 $d=3$ has a McKay image that is exceptional with a complex fundamental. \textbf{$d=3$ is
-what the figure-eight is glued from.} This yields a $78$-dimensional exceptional Lie
+what the figure-eight is glued from---and glued from \emph{regular} ones, which is where
+the force lies, since every ideally triangulated $3$-manifold is glued from $3$-simplices
+while only $m003$ and $m004$ decompose into two \emph{regular} ideal tetrahedra.} This yields a $78$-dimensional exceptional Lie
 algebra carrying a canonical four-dimensional charge algebra $C$.
 \textbf{We prove that $C$ is toral and not merely abelian}---for a finite group acting
 by automorphisms on a semisimple Lie algebra, an abelian fixed algebra consists of
@@ -121,12 +127,20 @@ than sampled. \textbf{The plane on which the cascade is measured is not chosen e
 it is the fixed algebra $\ee_6^{2O}$ of the unique outer involution of the binary
 tetrahedral group. The charge field is computed exactly:
 $K\cong\Q[x]/(x^3-12x-5)$, monogenic, totally real, $\disc K=6237=3^4\cdot7\cdot11$,
-class number one. \textbf{One stratum of the cascade carries a different kind of
-information from all the others, and it is the paper's principal result}: at dimension $26$ the Levi type is $A_4$, and inside
+class number one. \textbf{One stratum of the cascade points at a different kind of
+information from all the others}: at dimension $26$ the Levi type is $A_4$, and inside
 $\su(5)$ the standard $\su(3)\oplus\su(2)\oplus\uu(1)$ exponentiates with kernel exactly
-$\Z/6$. The algebra alone admits four quotients and cannot distinguish them; \textbf{the
-route through $\su(5)$ determines the global form}, which is a statement about a group
-rather than an algebra and the only one of its kind here.
+$\Z/6$, so a route through $\su(5)$ fixes a \emph{group} where every other statement here
+fixes only an algebra. \textbf{We state that observation with its three limits attached,
+because each of them is load-bearing.} The $\Z/6$ computation is \textbf{classical}, not
+ours---it is the global form of the Standard Model gauge group in the
+Georgi--Glashow embedding, and we cite rather than claim
+it~\cite{GeorgiGlashow,Hucks,BaezHuerta,Tong}. \textbf{We do not claim the cascade
+performs the embedding}: it locates $A_4$, and the proposition says what a standard
+embedding inside it yields. And the $26$-points, like the terminal $14$-point, are
+\textbf{not real}, so the compact groups the proposition names are not supplied by
+anything in this paper---which does not treat real forms. What the stratum establishes is
+therefore an \emph{availability}, not a further link in the chain.
 \textbf{We state plainly what the field computation does and does not
 depend on}: $K$, the four invariant degrees, and the whole rung ladder are invariants of
 the triple $(\ee_6,\,2T,\,\text{principal }\sll_2)$ and \emph{not} of the figure-eight
@@ -154,8 +168,9 @@ what it costs. This paper carries that out and reports both halves of the result
 
 The first half is a selection theorem. Minimal aperiodic description is Sturmian
 (Morse--Hedlund), and the slopes whose continued fractions are purely periodic of
-period one form the \emph{metallic} family. We prove that this family is canonical
-(\S\ref{sec:canonical}), and then that its golden member is singled out inside it
+period one form the \emph{metallic} family. We prove that this family is intrinsically
+characterized (\S\ref{sec:canonical})---which is weaker than canonical, and \S\ref{sec:canonical}
+says how much weaker---and then that its golden member is singled out inside it
 \emph{four ways, three of which collapse to one arithmetic condition}
 (\S\ref{sec:four}). The golden member is the figure-eight
 knot complement, and \S\S\ref{sec:arith}--\ref{sec:cascade} follow its own arithmetic
@@ -191,13 +206,20 @@ and \S\S\ref{sec:frame}--\ref{sec:cascade} are presented as consequences, mostly
 standard, with the standard references given.
 
 We can be quantitative rather than rhetorical about this, because the question was
-settled by enumeration: of the $20$ steps below the entrance, $0$ consume the
-manifold's fundamental group, $18$ are standard exceptional-algebra theory downstream
-of the McKay assignment, and exactly $1$ consumes the arithmetic. \textbf{The remaining
-step is the McKay assignment itself}, which is neither---it is the entrance, and it is
-counted separately for that reason. A reader who wishes
-to attack this paper should attack \S\ref{sec:four} and \S\ref{sec:entrance}; attacking
-the cascade attacks Slansky~\cite{Slansky}.
+settled by enumeration. \textbf{The entrance is two steps, and they are the only two
+that touch the manifold.} The first is the reduction of the holonomy modulo the ramified
+prime (Proposition~\ref{prop:mod3}), which is where the arithmetic is consumed; the
+second is the classification that identifies what it lands
+in (Theorem~\ref{thm:classify}). \emph{Below} them there are $19$ further steps, of
+which $0$ consume the manifold's fundamental group and all $19$ are standard
+exceptional-algebra theory downstream of the McKay assignment. An earlier draft wrote
+this as ``$20$ steps below the entrance'' and then counted the entrance among them while
+saying it was counted separately; the count is repaired here and in
+Appendix~\ref{app:corrections}. A reader who wishes
+to attack this paper should attack \S\ref{sec:four} and \S\ref{sec:entrance}. Attacking
+the cascade largely attacks Slansky~\cite{Slansky}---but not entirely, and \S\ref{sec:audit}
+says which rows are ours: the count of three wall lines, the stratification, and the
+single bracket are certificates of this paper, not of the literature.
 
 \emph{Second}, the cost claim is a claim about what entered the computations, and prose
 cannot establish it. Appendix~\ref{app:verify} names a runnable check per numerical
@@ -310,7 +332,7 @@ Periodic words close, so C1 excludes them; among the words that do not close,
 Theorem~\ref{thm:mh} isolates a unique minimal complexity class, and it is non-empty.
 Sturmian words are classified by an irrational slope $\alpha$.
 
-\begin{theorem}[Hurwitz]\label{thm:hurwitz}
+\begin{theorem}[Hurwitz~\cite{Hurwitz}]\label{thm:hurwitz}
 For every irrational $\alpha$ the Lagrange number satisfies $L(\alpha)\ge\sqrt5$, with
 equality exactly on the $\GL(2,\Z)$-equivalence class of $\varphi=(1+\sqrt5)/2$.
 \end{theorem}
@@ -750,8 +772,9 @@ relation.}
 \textbf{This criterion does not single out the golden}: it selects $\{1,2\}$. We include
 it because it is the criterion a hyperbolic geometer reaches for first, and because
 stating its limit is what licenses the other three. In particular, ``the arithmetic
-knot'' is correct among \emph{knots} and false among \emph{bundles}, where silver is
-also arithmetic. What survives as golden-specific, and is what \S\ref{sec:arith} uses,
+knot'' is correct among \emph{knots}---that is Reid's theorem~\cite{Reid91}, that the
+figure-eight is the only arithmetic knot complement---and false among \emph{bundles},
+where silver is also arithmetic. What survives as golden-specific, and is what \S\ref{sec:arith} uses,
 is narrower: $m=1$ is the unique member whose invariant trace field is $\Q(\sqrt{-3})$,
 the field C2 purchased.
 \end{scope}
@@ -850,9 +873,45 @@ unrelated faces. At the spherical end the double cover is the lens space
 $L(5,2)=S^3/\Z_5$, with $|H_1|=\det(4_1)=5$.
 \end{theorem}
 
+The hyperbolic half of Theorem~\ref{thm:ends} is a group statement and we prove it,
+because it is the step at which the manifold's arithmetic is actually spent.
+
+\begin{proposition}[the reduction that consumes the arithmetic]\label{prop:mod3}
+Let $\Gamma=\pi_1(4_1)$ with its discrete faithful representation into
+$\PSL(2,\mathcal{O}_3)$, $\mathcal{O}_3=\Z[\omega]$ the Eisenstein integers. Reduction
+modulo the ramified prime $(\sqrt{-3})$ carries $\Gamma$ \emph{onto}
+$\SL(2,\F_3)\cong 2T$.
+\end{proposition}
+
+\begin{proof}
+Riley's parametrisation~\cite{Riley} presents $\Gamma$ on two parabolic generators; at
+the discrete faithful point the parameter is $u=\omega$, a root of $\omega^2+\omega+1=0$.
+Being a \emph{unit} of $\Z[\omega]$, $u$ reduces mod $(\sqrt{-3})$ to a nonzero residue
+($\omega\mapsto1$, $-\omega\mapsto2$), so the reduced generators stay parabolic and
+nontrivial: they are $A=\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)$ and
+$B=\left(\begin{smallmatrix}1&0\\2&1\end{smallmatrix}\right)$ in $\SL(2,\F_3)$. These two
+generate: the subgroup they span contains elements of order $3$ and the central $-I$, and
+enumeration over the $24$ elements of $\SL(2,\F_3)$ closes it on the whole group. Hence
+the reduction is surjective, and $\SL(2,\F_3)\cong2T$ is classical
+(Proposition~\ref{prop:group}).
+\end{proof}
+
+\begin{remark}[what this step costs, and why it is the entrance]\label{rk:entrance-cost}
+Proposition~\ref{prop:mod3} is the one place in the paper where the figure-eight itself
+enters a computation: its holonomy, its trace field, and the ramified prime of that
+field. Everything after it is a statement about $(\ee_6,2T,\text{principal }\sll_2)$ and
+would be unchanged for any other manifold arriving at $2T$---which is exactly what the
+abstract concedes and \S\ref{sec:suspicious} quantifies. \textbf{An earlier draft placed
+the arithmetic-consuming step at Theorem~\ref{thm:classify}, which is a classification of
+six finite groups and contains no manifold, no trace field and no $\Q(\sqrt{-3})$ in
+either its hypothesis or its proof.} The two are different steps and the entrance needs
+both: this one spends the arithmetic, that one says what the arithmetic bought.
+\end{remark}
+
 \begin{scope}[the two ends are not symmetric]\label{sc:asym}
 The asymmetry runs against the direction the phrasing invites. At the hyperbolic end
-$\pi_1(4_1)\twoheadrightarrow 2T$ is a genuine group surjection, with exactly two such
+$\pi_1(4_1)\twoheadrightarrow 2T$ is a genuine group surjection
+(Proposition~\ref{prop:mod3}), with exactly two such
 quotients. At the spherical end there is \emph{no} surjection: $\pi_1(4_1)$ surjects
 onto neither $2I$ nor $A_5$. So as a statement about $\pi_1$ the $E_8$ end is
 field-level, and the two ramified-prime reductions are symmetric as fields but not as
@@ -916,9 +975,12 @@ qualified names throughout.
 
 \subsection{The entrance is a classification, not an assignment}\label{sec:classification}
 
-The step from the manifold's arithmetic to the exceptional algebra is the one step of
-the whole construction that consumes the arithmetic (\S\ref{sec:suspicious}). It is
-therefore the step at which ``we then take $2T$'' would be fatal. It is not a taking.
+Proposition~\ref{prop:mod3} has already spent the arithmetic and delivered $2T$. What is
+left is to say why $2T$ is the group the construction can use, and this is the step at
+which ``we then take $2T$'' would be fatal. It is not a taking. \textbf{Note what this
+theorem does not do}: it mentions no manifold, no trace field and no $\Q(\sqrt{-3})$, so
+it consumes nothing of the object. It narrows a candidate set. The arithmetic-consuming
+step is Proposition~\ref{prop:mod3} and only that one.
 
 \begin{theorem}[classification among the polyhedral candidates]\label{thm:classify}
 Among the six finite groups $\{A_4,S_4,2T,2O,A_5,2I\}$---constructed
@@ -1008,7 +1070,7 @@ something other than chirality-capability.
 
 \subsection{An unpriced step, now priced: why the principal $\sll_2$?}\label{sec:principal}
 
-McKay attaches $E_6$ to $2T$. It does \textbf{not} attach $2T$ to any particular
+McKay~\cite{McKay} attaches $E_6$ to $2T$. It does \textbf{not} attach $2T$ to any particular
 $\sll_2\subset\ee_6$, and $\ee_6$ has many $\sll_2$-conjugacy classes. Appendix~A places
 $2T$ inside the \emph{principal} $\sll_2$ and takes invariants there, and the four
 degrees $8,14,16,22$---hence the whole of \S\S\ref{sec:frame}--\ref{sec:cascade}---depend
@@ -1230,7 +1292,7 @@ scale. Moreover $C$ is abelian.
 \begin{proof}[Proof of the completeness and uniqueness]
 Under the principal $\sll_2$, $\ee_6$ decomposes into irreducibles of highest weight
 twice the exponents, i.e.\ into degrees $2\cdot(1,4,5,7,8,11)=(2,8,10,14,16,22)$. The
-Molien series of $2T$ acting on $\mathrm{Sym}^\bullet(\C^2)$,
+Molien series~\cite{Molien} of $2T$ acting on $\mathrm{Sym}^\bullet(\C^2)$,
 \[
    \sum_{n\ge0}\dim\bigl(\mathrm{Sym}^n\C^2\bigr)^{2T}t^n
    =\frac{1}{24}\sum_{g\in 2T}\frac{1}{\det(1-tg)},
@@ -1692,8 +1754,13 @@ orbit, and every point of the $14$-locus gives $A_2\oplus A_1$.
 
 Theorem~\ref{thm:smtfull} locates a stratum of dimension $26$, of Levi type $A_4$, i.e.\
 $\su(5)\oplus\uu(1)^2$. \textbf{That stratum carries information the terminal one does
-not}, and we state it because it is the sharpest output the cascade produces: it fixes a
-\emph{group}, where every other statement in this paper fixes only an algebra.
+not}, and we state it because it points at a \emph{group} where every other statement in
+this paper fixes only an algebra. \textbf{The computation itself is classical and we
+claim none of it}: the global form of the Standard Model gauge group inside the
+Georgi--Glashow $\SU(5)$~\cite{GeorgiGlashow} is the quotient by $\Z/6$, worked out by
+Hucks~\cite{Hucks} and standard since; see also Baez--Huerta~\cite{BaezHuerta} and
+Tong~\cite{Tong} for the modern accounts and for what the quotient decides. What is ours
+is only that the cascade reaches the $A_4$ stratum at all.
 
 \begin{proposition}[the kernel is $\Z/6$]\label{prop:z6}
 Embed $\su(3)\oplus\su(2)\oplus\uu(1)$ in $\su(5)$ in the standard way, with the abelian
@@ -1714,16 +1781,20 @@ $e^{2i\theta}a=e^{-3i\theta}b=1$. Solving, $\theta\in\tfrac{\pi}{3}\Z$ and the s
 resulting triples are distinct, forming a cyclic group of order $6$.
 \end{proof}
 
-\begin{remark}[why this is the strongest thing the cascade emits]\label{rem:globalform}
+\begin{remark}[what the stratum makes available, and what it does not]\label{rem:globalform}
 The algebra $\su(3)\oplus\su(2)\oplus\uu(1)$ does not determine its group: the four
 quotients by $\Gamma\in\{1,\Z_2,\Z_3,\Z_6\}$ all have that algebra, and no statement
 about the algebra distinguishes them. \textbf{Arriving through $\su(5)$ does
 distinguish them}, by Proposition~\ref{prop:z6}, and picks $\Z_6$.
 
-\textbf{So the $A_4$ stratum answers a question that cannot be posed at the level of the
-Lie algebra at all}---which is a different kind of output from every other result here,
-all of which are statements about algebras. A reader who is counting what this
-construction produces should count this separately, and count it as the largest item.
+\textbf{So the $A_4$ stratum makes available a question that cannot be posed at the level
+of the Lie algebra at all}---a different kind of statement from every other result here,
+all of which are about algebras. A reader counting what this construction produces should
+count it separately, and should count it as an \emph{availability}: the classical fact is
+Hucks's, the stratum is ours, and the two are placed side by side rather than composed.
+An earlier draft called this the paper's principal result and put it in the abstract
+without the three limits below; that was too strong in three independent ways and is
+withdrawn.
 
 \begin{scope}
 Two limitations travel with it. \textbf{First, the $26$-points are not real}
@@ -2052,14 +2123,24 @@ cyclic rotation. Consequently every $M_m$ admits an orientation-reversing self-h
 and is amphichiral.
 \end{proposition}
 
-\begin{scope}[the converse is not claimed here]\label{sc:amphiscope}
-\textbf{An earlier draft stated the global biconditional}---that a once-punctured-torus
-bundle is amphichiral \emph{if and only if} its block-pair sequence has that symmetry.
-That direction is not proved in these pages and we found no source we had opened that
-states it in the form we needed, so \textbf{we withdraw the ``only if'' and keep only
-what the argument uses}, which is the easy direction applied to one explicit family. A
-finite computation over words cannot establish a universal biconditional, and
-Appendix~\ref{app:verify}'s script tests words rather than proving the classification.
+\begin{scope}[the converse holds, and it is classical]\label{sc:amphiscope}
+\textbf{A previous draft withdrew the biconditional} on the ground that no source we had
+opened stated it in the form we needed. That was a failure of retrieval, not of
+mathematics, and we restore the statement with its source. Goodman--Heard--Hodgson
+classify the symmetries of a once-punctured-torus bundle by its $L/R$ monodromy
+word~\cite{GHH}: the bundle admits an orientation-reversing symmetry \emph{if and only
+if} the word is \emph{anti-palindromic}, i.e.\ $\mathrm{reverse}(W)=\mathrm{swap}_{L\leftrightarrow R}(W)$
+as cyclic words. For a block word $W=R^{a_1}L^{b_1}\cdots R^{a_k}L^{b_k}$ the two sides
+read off block-pair sequences $((b_k,a_k),\dots,(b_1,a_1))$ and $((a_1,b_1),\dots,(a_k,b_k))$,
+equal as cyclic words exactly when the pair sequence is fixed by ``reverse the order and
+swap each pair''. \textbf{So the biconditional is a corollary of~\cite{GHH}}, and on the
+metallic locus $a_i=b_i$ it reduces to ``the block-length sequence is a cyclic
+palindrome''. Proposition~\ref{thm:amphi} is the case $k=1$.
+
+We flag the episode rather than quietly repairing it, because it is the one correction in
+this paper that runs in the \emph{strengthening} direction: every other entry in
+Appendix~\ref{app:corrections} removed a claim, and this one restores a claim that was
+true and had a source the author had not located.
 \end{scope}
 
 \begin{corollary}\label{cor:cs}
@@ -2106,7 +2187,7 @@ set; the table below exists so the count can be checked rather than believed.
 (C5) & period one & \textbf{price zero against the period-two relaxation, which is the only one tested.} The period-two family $M(a,b)$ is orientation-preserving already, its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$, and the selection of \S\ref{sec:four} survives verbatim. \textbf{Period three and beyond are unchecked}, so this is not zero cost globally\\
 (C6) & the principal placement of $2T$ & \textbf{dissolved to an acceptance} (Prop.~\ref{prop:geodir}). The principal $\sll_2$ is the object's own geometric deformation direction, and the principal image is what seals the field. Still not a theorem that $2T$ \emph{must} enter there\\
 (C7) & the enhancement rule & \textbf{not a row: it is the method} of \S\ref{sec:price}, stated once and not re-decided. Rejecting it means sampling generic points, which returns the floor and reports nothing. Within it the three walls are one Galois orbit and every point of the $14$-locus gives $A_2{\oplus}A_1$ (Cor.~\ref{cor:c7free})\\
-(C8) & \textbf{exceptionality} & \textbf{dissolved to an acceptance} (Prop.~\ref{prop:dimfilter}). The object nominates $E_6$; $d=3$ is the unique simplex dimension whose McKay image is exceptional with a complex fundamental, and $d=3$ is what $M_1$ is glued from. What is not derived is the interest in a complex fundamental\\
+(C8) & \textbf{exceptionality} & \textbf{dissolved to an acceptance} (Prop.~\ref{prop:dimfilter}). The object nominates $E_6$; $d=3$ is the unique simplex dimension whose McKay image is exceptional with a complex fundamental, and $d=3$ is what $M_1$ is glued from---in \emph{regular} tetrahedra, which is the part that is not generic to $3$-manifolds. What is not derived is the interest in a complex fundamental\\
 (C9) & the measurement is made on a \emph{plane} & \textbf{not derived.} Prop.~\ref{prop:twoO} forces \emph{which} plane, once a plane is wanted; nothing forces a $2$-space over a line or a $3$-space, and Scope~\ref{sc:cliffscope} says so\\
 \bottomrule
 \end{tabular}
@@ -2298,6 +2379,7 @@ statement & file & content\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(a) self-contained---runs from the submitted source}}\\
 \midrule
+Prop~\ref{prop:mod3} & \texttt{verify/check\_entrance.py} & $\omega$ a unit; the two reduced parabolics generate $\SL(2,\F_3)$; the order/involution signature of $2T$\\
 Thm~\ref{thm:homology} & \texttt{verify/check\_homology.py} & Smith normal form; knot test\\
 Lem~\ref{lem:telescope}, Thm~\ref{thm:shadow}, Prop~\ref{prop:group} & \texttt{verify/check\_shadow\_modulus.py} & order formula; telescoping bound; involution census\\
 Thm~\ref{thm:jones} & \texttt{verify/check\_jones\_wall.py} & index wall, integer algebra\\
@@ -2384,6 +2466,42 @@ changelog.
   used vocabulary the paper never defined, or rested on a computation with no script, or
   withheld the targets a reader would need to weigh it. They are not retracted as false;
   they are withdrawn as unrefereeable.
+
+\item The entrance was described as ``the one step that consumes the arithmetic'' while
+  the theorem occupying it (Theorem~\ref{thm:classify}) classifies six finite groups and
+  mentions no manifold, no trace field and no $\Q(\sqrt{-3})$. \textbf{The
+  arithmetic-consuming step was missing from the paper entirely.} It is supplied as
+  Proposition~\ref{prop:mod3}: reduction of the holonomy modulo $(\sqrt{-3})$ carries
+  $\pi_1(4_1)$ onto $\SL(2,\F_3)\cong2T$. Scope~\ref{sc:asym} had asserted that
+  surjection without proof for several drafts.
+
+\item The step census read ``of the $20$ steps below the entrance \dots\ the remaining
+  step is the McKay assignment itself, which \dots\ is counted separately'' --- counting
+  the entrance among the steps below the entrance, and not separately. The entrance is
+  two steps and there are $19$ below it.
+
+\item The amphichirality biconditional was withdrawn (entry~8) on the ground that no
+  source stated it in the form needed. The source exists---Goodman--Heard--Hodgson's
+  anti-palindromic criterion~\cite{GHH}---and the biconditional is a short corollary of
+  it. \textbf{The withdrawal itself is now withdrawn} (Scope~\ref{sc:amphiscope}). This
+  is the only correction here that restores a claim rather than removing one, and it is
+  worth separating from the rest: the failure mode was retrieval, and a paper cannot tell
+  the difference between ``no source states this'' and ``we did not find the source''
+  without looking again.
+
+\item The $\Z/6$ global form was called the paper's principal result and put in the
+  abstract without its three limits. It is classical~\cite{GeorgiGlashow,Hucks,BaezHuerta,Tong},
+  the cascade is not claimed to perform the embedding, and the $26$-points are not real
+  in a paper that does not treat real forms. All three are now stated wherever the result
+  is (Remark~\ref{rem:globalform}).
+
+\item The abstract stated Theorem~\ref{thm:canonical} without its non-negativity
+  hypothesis, which is false as an ``exactly'': $\left(\begin{smallmatrix}-1&1\\1&0\end{smallmatrix}\right)$
+  is a counterexample.
+
+\item Block~(b) of Appendix~\ref{app:verify} has not had the audit block~(a) received in
+  entry~18. Four of its rows name files a reader may not be able to locate, and we flag
+  this rather than let the table's symmetry imply otherwise.
 \end{enumerate}
 
 \textbf{Why this appendix exists at all.} The paper's methodological claim is that
@@ -2472,6 +2590,23 @@ variety.
 
 \bibitem{BMR} B.~H. Bowditch, C. Maclachlan and A.~W. Reid, \emph{Arithmetic
   hyperbolic surface bundles}, Math. Ann. \textbf{302} (1995), no.~1, 31--60.
+
+\bibitem{GHH} O. Goodman, D. Heard and C. Hodgson, \emph{Commensurators of cusped
+  hyperbolic manifolds}, Experiment. Math. \textbf{17} (2008), no.~3, 283--306;
+  arXiv:0801.4815. The anti-palindromic word criterion for orientation-reversing
+  symmetries of once-punctured-torus bundles is \S6 there.
+
+\bibitem{GeorgiGlashow} H. Georgi and S.~L. Glashow, \emph{Unity of all elementary
+  particle forces}, Phys. Rev. Lett. \textbf{32} (1974), 438--441.
+
+\bibitem{Hucks} J. Hucks, \emph{Global structure of the standard model, anomalies, and
+  charge quantization}, Phys. Rev. D \textbf{43} (1991), 2709--2717.
+
+\bibitem{BaezHuerta} J.~C. Baez and J. Huerta, \emph{The algebra of grand unified
+  theories}, Bull. Amer. Math. Soc. \textbf{47} (2010), 483--552.
+
+\bibitem{Tong} D. Tong, \emph{Line operators in the Standard Model}, J. High Energy
+  Phys. \textbf{2017} (2017), no.~7, 104.
 
 \bibitem{MaclachlanReid} C. Maclachlan and A.~W. Reid, \emph{The Arithmetic of
 Hyperbolic 3-Manifolds}, Graduate Texts in Mathematics \textbf{219}, Springer, 2003.
