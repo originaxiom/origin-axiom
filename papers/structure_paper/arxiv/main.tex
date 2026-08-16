@@ -17,7 +17,24 @@
 \usepackage{enumitem}
 \usepackage[margin=1.1in]{geometry}
 \usepackage{xcolor}
-\usepackage[colorlinks=true,linkcolor=blue!60!black,citecolor=green!45!black,urlcolor=blue!70!black]{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,shapes.misc}
+
+% hyperref is loaded LAST, as it must be, and carries the PDF metadata.
+\usepackage[
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  citecolor=green!45!black,
+  urlcolor=blue!70!black,
+  pdftitle={The golden grammar: one arithmetic condition and four exceptionality
+    theorems inside a canonical family, and a parameter-free chain to an exceptional
+    Lie algebra},
+  pdfauthor={Dritero Mehmetaj},
+  pdfsubject={57K10, 11R16, 57M50, 17B25, 46L37, 11J06},
+  pdfkeywords={once-punctured torus bundles; Sturmian words; continued fractions;
+    metallic means; McKay correspondence; Jones index; exceptional Lie algebras;
+    Levi subalgebras; cone-manifold geometric transition}
+]{hyperref}
 
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[section]
@@ -34,8 +51,6 @@
 \newtheorem{remark}[theorem]{Remark}
 \newtheorem{notation}[theorem]{Notation}
 
-\usepackage{tikz}
-\usetikzlibrary{decorations.pathreplacing,shapes.misc}
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\F}{\mathbb{F}}
@@ -61,6 +76,8 @@
 \newcommand{\Sym}{\operatorname{Sym}}
 \newcommand{\g}{\mathfrak{g}}
 \newcommand{\h}{\mathfrak{h}}
+% file names in Appendix B are long; allow them to break after underscores
+\newcommand{\fn}[1]{\texttt{\small #1}}
 
 \begin{document}
 
@@ -72,7 +89,7 @@ inside a canonical family, and a parameter-free chain to an exceptional Lie alge
 \address{Independent Researcher}
 \email{driteroi@gmail.com}
 
-\date{\today}
+\date{16 August 2026}
 
 \subjclass[2020]{Primary 57K10, 11R16, 57M50; Secondary 17B25, 46L37, 11J06}
 \keywords{once-punctured torus bundles, Sturmian and Christoffel words, continued
@@ -280,7 +297,7 @@ residue in \S\ref{sec:inputs}.
   perfectly good object, to which the construction below does not apply.
 \end{description}
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -762,7 +779,7 @@ the field C2 purchased.
 
 \subsection{What the four jointly establish}
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering\small
 \begin{tabular}{@{}llll@{}}
 \toprule
@@ -879,7 +896,7 @@ the exceptional trio is excluded by one arithmetic fact rather than by a coincid
 several.}
 \end{corollary}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \begin{tikzpicture}[font=\scriptsize,
   rat/.style={circle,fill,inner sep=1.7pt},
@@ -1176,7 +1193,7 @@ test: it is \emph{not} excluded by Selection~IV, being arithmetic
 (Theorem~\ref{thm:arith}), so it survives the criterion a hyperbolic geometer would apply
 first.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering\small
 \begin{tabular}{@{}p{0.30\textwidth}p{0.28\textwidth}p{0.30\textwidth}@{}}
 \toprule
@@ -1371,7 +1388,11 @@ scale. Moreover $C$ is abelian.
 
 \begin{proof}[Proof of the completeness and uniqueness]
 Under the principal $\sll_2$, $\ee_6$ decomposes into irreducibles of highest weight
-twice the exponents, i.e.\ into degrees $2\cdot(1,4,5,7,8,11)=(2,8,10,14,16,22)$. The
+twice the exponents, i.e.\ into degrees
+\[
+   2\cdot(1,4,5,7,8,11)=(2,8,10,14,16,22).
+\]
+The
 Molien series of $2T$ acting on $\mathrm{Sym}^\bullet(\C^2)$,
 \[
    \sum_{n\ge0}\dim\bigl(\mathrm{Sym}^n\C^2\bigr)^{2T}t^n
@@ -1765,7 +1786,7 @@ size-$6$ hyperplanes: the expected $\langle x_8,x_{16}\rangle$, and a second pla
 $\langle x_1,\ x_{22}-\gamma\,x_{14}\rangle$ that is \textbf{not} contained in it.
 \end{theorem}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \begin{tikzpicture}[x=0.93cm,y=0.93cm,
   real/.style={thick}, cplx/.style={thick,dashed},
@@ -2007,7 +2028,7 @@ $2^6=64$ subsets enumerates every attainable root count; the resulting counts ar
 $0,2,4,6,8,10,12,14,20,22,24,30,40,72$.
 \end{proof}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \begin{tikzpicture}[y=1cm, font=\scriptsize,
   hit/.style={circle,fill,inner sep=1.5pt},
@@ -2168,15 +2189,17 @@ two-dimensional subspace of $C$ gets $12$ and stops.
 $[x_{14},x_{22}]$.} Everything structural in \S\S\ref{sec:frame}--\ref{sec:cascade}
 descends from it in a single line of implication:
 \[
+  \begin{aligned}
   C\ \text{abelian}
-  \;\Rightarrow\; C\ \text{toral (Lem.~\ref{lem:toral})}
-  \;\Rightarrow\; z(S)\ \text{Levi (Cor.~\ref{cor:levi})}
-  \;\Rightarrow\;
-  \begin{cases}
-    \dim=14\Rightarrow A_2\oplus A_1,\\
-    \text{the rung spectrum (Thm.~\ref{thm:rungspec})},\\
-    \text{the rank ceiling (Thm.~\ref{thm:rankceiling})}.
-  \end{cases}
+    &\;\Longrightarrow\; C\ \text{toral (Lemma~\ref{lem:toral})}\\
+    &\;\Longrightarrow\; z(S)\ \text{Levi (Corollary~\ref{cor:levi})}\\
+    &\;\Longrightarrow\;
+      \begin{cases}
+        \dim z=14\Rightarrow A_2\oplus A_1,\\
+        \text{the rung spectrum (Thm.~\ref{thm:rungspec})},\\
+        \text{the rank ceiling (Thm.~\ref{thm:rankceiling})}.
+      \end{cases}
+  \end{aligned}
 \]
 Remove that bracket and none of the three consequences survives: the terminus reverts to
 a certificate, the spectrum is unavailable, and the ceiling---the paper's own statement
@@ -2197,7 +2220,7 @@ rather than proofs presented here. This first table covers
 \S\S\ref{sec:frame}--\ref{sec:cascade}, which is where every load-bearing claim of
 this paper now lives.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering\small
 \begin{tabular}{@{}p{0.30\textwidth}p{0.22\textwidth}p{0.40\textwidth}@{}}
 \toprule
@@ -2262,7 +2285,7 @@ classical.
 
 \textbf{The one input everything rests on is now covered, and it was not until
 recently.} Scope~\ref{sc:abelian}'s single bracket is the only certificate the structure
-theory consumes, and it is verified by \texttt{verify/check\_charge\_bracket.py} in
+theory consumes, and it is verified by \fn{verify/check\_\allowbreak charge\_\allowbreak bracket.py} in
 block~(a)---which builds $\ee_6$ from the Cartan matrix by reflection closure, fixes
 structure constants by a Frenkel--Kac asymmetry function, \textbf{verifies antisymmetry
 and the full Jacobi identity on all $\binom{78}{3}$ triples rather than assuming them},
@@ -2383,7 +2406,7 @@ what it lists---nothing more.} Earlier drafts asserted a total in the introducti
 described one choice as ``a fourth'' in two different places, and never enumerated the
 set; the table below exists so the count can be checked rather than believed.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering\small
 \begin{tabular}{@{}p{0.04\textwidth}p{0.30\textwidth}p{0.55\textwidth}@{}}
 \toprule
@@ -2580,7 +2603,7 @@ alone. The remaining rows depend on the repository snapshot---because they consu
 external census (\textsc{SnapPy}), a large character table, or the chain ledger itself---
 and \textbf{a referee who runs only the tarball will not execute them.}
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering\small
 \begin{tabular}{@{}p{0.29\textwidth}p{0.37\textwidth}p{0.26\textwidth}@{}}
 \toprule
@@ -2588,32 +2611,32 @@ statement & file & content\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(a) self-contained---runs from the submitted source}}\\
 \midrule
-Thm~\ref{thm:homology} & \texttt{verify/check\_homology.py} & Smith normal form; knot test\\
-Lem~\ref{lem:telescope}, Thm~\ref{thm:shadow}, Prop~\ref{prop:group} & \texttt{verify/check\_shadow\_modulus.py} & order formula; telescoping bound; involution census\\
-Thm~\ref{thm:jones} & \texttt{verify/check\_jones\_wall.py} & index wall, integer algebra\\
-Prop~\ref{prop:mu} & \texttt{verify/check\_charge\_field.py} & Dedekind; Minkowski; $h=1$\\
-Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \texttt{verify/check\_measurement\_plane.py} & $\ee_6^{2O}=\langle x_8,x_{16}\rangle$; eigenvalues\\
-Prop~\ref{prop:z6} & \texttt{verify/check\_global\_form.py} & the kernel is exactly $\Z/6$, cyclic\\
-Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \texttt{verify/check\_niven\_ends.py} & Niven; the three rational traces; the $E_7$ exclusion\\
-Scope~\ref{sc:abelian}, $C$ abelian & \texttt{verify/check\_charge\_bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
+Thm~\ref{thm:homology} & \fn{verify/check\_\allowbreak homology.py} & Smith normal form; knot test\\
+Lem~\ref{lem:telescope}, Thm~\ref{thm:shadow}, Prop~\ref{prop:group} & \fn{verify/check\_\allowbreak shadow\_\allowbreak modulus.py} & order formula; telescoping bound; involution census\\
+Thm~\ref{thm:jones} & \fn{verify/check\_\allowbreak jones\_\allowbreak wall.py} & index wall, integer algebra\\
+Prop~\ref{prop:mu} & \fn{verify/check\_\allowbreak charge\_\allowbreak field.py} & Dedekind; Minkowski; $h=1$\\
+Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \fn{verify/check\_\allowbreak measurement\_\allowbreak plane.py} & $\ee_6^{2O}=\langle x_8,x_{16}\rangle$; eigenvalues\\
+Prop~\ref{prop:z6} & \fn{verify/check\_\allowbreak global\_\allowbreak form.py} & the kernel is exactly $\Z/6$, cyclic\\
+Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \fn{verify/check\_\allowbreak niven\_\allowbreak ends.py} & Niven; the three rational traces; the $E_7$ exclusion\\
+Scope~\ref{sc:abelian}, $C$ abelian & \fn{verify/check\_\allowbreak charge\_\allowbreak bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
-Cor~\ref{cor:levi}, Rmk~\ref{rem:leviscope}, Thm~\ref{thm:rungspec} & \texttt{test\_levi\_classification\_forces\_the\_rungs.py} & all $64$ Levi subsystems; rung spectrum\\
-Thm~\ref{thm:smtfull}, Cor~\ref{cor:c7free}, Rmk~\ref{rem:26attained} & \texttt{test\_second\_measurement\_is\_exhaustive.py} & the $78$ weights; seven hyperplanes; certified gap\\
-Thm~\ref{thm:arith} & \texttt{test\_b125\_snappy\_arithmeticity.py} & invariant trace fields (\textsc{SnapPy})\\
-Thm~\ref{thm:canonical} & \texttt{test\_b92\_metallic\_classification.py} & period-one criterion\\
-Prop~\ref{prop:2880} & \texttt{test\_b1011\_mckay\_tensor.py} & order $2880$; $63/63$ characters\\
-Thm~\ref{thm:blockpal} & \texttt{test\_b136\_general\_amphichirality.py} & the block-sequence lift, exhaustive to length $6$\\
-No-go~\ref{ng:c3} & \texttt{test\_b307\_totally\_real\_obstruction.py} & obstruction; census\\
-Thm~\ref{thm:arith}, Cor~\ref{cor:onlybinary} & \texttt{test\_arithmetic\_tail\_and\_quaternionic\_two.py} & BMR word classification; involution counts\\
+Cor~\ref{cor:levi}, Rmk~\ref{rem:leviscope}, Thm~\ref{thm:rungspec} & \fn{test\_\allowbreak levi\_\allowbreak classification\_\allowbreak forces\_\allowbreak the\_\allowbreak rungs.py} & all $64$ Levi subsystems; rung spectrum\\
+Thm~\ref{thm:smtfull}, Cor~\ref{cor:c7free}, Rmk~\ref{rem:26attained} & \fn{test\_\allowbreak second\_\allowbreak measurement\_\allowbreak is\_\allowbreak exhaustive.py} & the $78$ weights; seven hyperplanes; certified gap\\
+Thm~\ref{thm:arith} & \fn{test\_\allowbreak b125\_\allowbreak snappy\_\allowbreak arithmeticity.py} & invariant trace fields (\textsc{SnapPy})\\
+Thm~\ref{thm:canonical} & \fn{test\_\allowbreak b92\_\allowbreak metallic\_\allowbreak classification.py} & period-one criterion\\
+Prop~\ref{prop:2880} & \fn{test\_\allowbreak b1011\_\allowbreak mckay\_\allowbreak tensor.py} & order $2880$; $63/63$ characters\\
+Thm~\ref{thm:blockpal} & \fn{test\_\allowbreak b136\_\allowbreak general\_\allowbreak amphichirality.py} & the block-sequence lift, exhaustive to length $6$\\
+No-go~\ref{ng:c3} & \fn{test\_\allowbreak b307\_\allowbreak totally\_\allowbreak real\_\allowbreak obstruction.py} & obstruction; census\\
+Thm~\ref{thm:arith}, Cor~\ref{cor:onlybinary} & \fn{test\_\allowbreak arithmetic\_\allowbreak tail\_\allowbreak and\_\allowbreak quaternionic\_\allowbreak two.py} & BMR word classification; involution counts\\
 
-Census~\ref{cen:forced} & \texttt{forcedness\_census.py} & regenerated from the ledger\\
+Census~\ref{cen:forced} & \fn{forcedness\_\allowbreak census.py} & regenerated from the ledger\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\noindent Run \texttt{python3 verify/verify\_all.py}; it executes exactly the scripts of
+\noindent Run \fn{python3 verify/verify\_\allowbreak all.py}; it executes exactly the scripts of
 block~(a), reports the count it ran, and exits non-zero on any drift or on an empty
 suite. \textbf{An archival snapshot with a permanent identifier accompanies the submitted
 version} and carries block~(b); a manuscript that promises runnable verification and
