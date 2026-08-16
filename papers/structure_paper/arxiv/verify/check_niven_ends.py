@@ -88,6 +88,43 @@ def main():
     check("n = 3: (5-x^2)(1-x^2) = 0, the degenerate wall", table[3][1], sp.Integer(0))
     check("the cusp x = 2 also gives -3", discriminant(sp.Integer(2)), sp.Integer(-3))
 
+    print("\n2b. the ONLY IF direction, which Niven does not supply")
+    # Niven says which 2cos(pi/n) are rational.  He does NOT say that an irrational one
+    # must push K_n = Q(x, sqrt D) past degree 2 -- an irrational x could be quadratic
+    # with D a square there.  Degree argument: [Q(x):Q] = phi(2n)/2 for n >= 2, so
+    # K_n quadratic forces phi(2n) <= 4, i.e. n <= 6.  Then check n = 4, 5, 6 directly.
+    t = sp.Symbol("t")
+
+    def degree_of(a):
+        return int(sp.degree(sp.minimal_polynomial(a, t), t))
+
+    bad_degree = [n for n in range(2, 40)
+                  if degree_of(meridian_trace(n)) != sp.totient(2 * n) // 2]
+    check("[Q(2cos(pi/n)):Q] = phi(2n)/2 for 2 <= n < 40", bad_degree, [])
+    check("phi(2n) <= 4 exactly for n <= 6",
+          [n for n in range(1, 40) if sp.totient(2 * n) <= 4], [1, 2, 3, 4, 5, 6])
+
+    # the three irrational-but-quadratic cases, each shown to give degree 4
+    for n in (4, 5, 6):
+        x = meridian_trace(n)
+        D = discriminant(x)
+        check(f"n = {n}: x is irrational", bool(x.is_rational), False)
+        check(f"n = {n}: [K_n:Q] = 4, so K_n is NOT quadratic",
+              degree_of(x + sp.sqrt(D)), 4)
+    print("          n=4: Q(sqrt2, sqrt-3).  n=6: Q(sqrt3, i).  n=5: D=(-1-3sqrt5)/2 has")
+    print("          real embeddings of opposite sign, so it is not a square in Q(sqrt5).")
+
+    # and the sweep: no counterexample anywhere in range
+    counter = []
+    for n in range(1, 31):
+        x = meridian_trace(n)
+        D = discriminant(x)
+        if D == 0:
+            continue
+        if degree_of(x + sp.sqrt(D)) == 2 and not x.is_rational:
+            counter.append(n)
+    check("no n <= 30 with x irrational yet K_n quadratic", counter, [])
+
     print("\n3. E7 would need n = 4, and n = 4 is irrational")
     x4 = meridian_trace(4)
     check("x = 2cos(pi/4) = sqrt2", sp.simplify(x4 - sp.sqrt(2)), sp.Integer(0))

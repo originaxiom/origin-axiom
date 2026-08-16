@@ -109,11 +109,13 @@ that survives is mechanistic rather than extensional.
 
 The golden member is the figure-eight knot complement. From there nothing is added: we
 \emph{measure}, passing to centralizers, and \emph{track}, following the loci where the
-centralizer jumps. Nor is the target algebra chosen from a menu: the regular $d$-simplex
-has rotation group $A_{d+1}$, which lies in $SO(3)$ only for $d\in\{2,3,4\}$, and of
-those only $d=3$ has a McKay image that is both exceptional and possessed of a complex
-fundamental---and $d=3$ is what the figure-eight is glued from. This yields $\ee_6$ with
-a canonical four-dimensional charge algebra $C$.
+centralizer jumps. The target algebra is reached from the manifold's own arithmetic:
+reducing the trace-field representation at the ramified prime gives a surjection
+$\pi_1(4_1)\twoheadrightarrow\SL(2,\F_3)\cong2T$, and McKay then gives $\ee_6$, carrying
+a canonical four-dimensional charge algebra $C$. A separate simplex filter shows that
+$d=3$---what the figure-eight is glued from---is the unique dimension whose McKay image
+is exceptional with a complex fundamental, though that criterion is imported rather than
+derived.
 
 We prove that $C$ is toral and not merely abelian, so every centralizer arising in the
 cascade is a Levi subalgebra. Hence the terminal type $A_2\oplus A_1$ is forced by the
@@ -189,16 +191,25 @@ identity of the terminal algebra. \S\S\ref{sec:genesis}--\ref{sec:cascade} may b
 as its four instances, and \S\ref{sec:shape} returns to it once all four are in hand.
 
 \subsection{What is claimed, and what is not}
-We claim a \emph{cost theorem}: a single commitment---that description is
-inexhaustible---together with two operations
-that add nothing, \emph{measuring} (passing to centralizers) and \emph{tracking}
-(following the loci where the centralizer jumps), yield the structural data below.
-\textbf{We claim that what is added along the way is one thing, that what the object
-cannot supply is two, and that the method has a proved ceiling at rank $6$.} The addition is the geometric carrier, at which
-$\Q(\sqrt{-3})$ is bought. The residue is one sign and one
-scale, both emitted by a single closing (Scope~\ref{sc:residue}). Two steps that an earlier draft booked as choices---the
-exceptional target and the principal placement---are supplied by the object and are
-retyped in \S\ref{sec:nomination}. \textbf{This framing is more exposed than a list of
+We claim a \emph{cost theorem in conditional form}, and the conditions are named here
+rather than discovered later. Fix four things: the geometric carrier (C2), at which
+$\Q(\sqrt{-3})$ is bought; the placement of $2T$ through the principal $\sll_2$ (C6); a
+\emph{two-dimensional} measurement frame (C9); and the enhancement rule (C7), which says
+to follow the loci where the centralizer dimension jumps. \textbf{Given those four, a
+single commitment---that description is inexhaustible---together with \emph{measuring}
+(passing to centralizers) and \emph{tracking} forces every algebraic type below, the
+rung spectrum, and the rank ceiling.} The residue not supplied by the object is one sign
+and one scale (Scope~\ref{sc:residue}).
+
+\textbf{An earlier draft claimed more than this and we withdraw it.} It said the four
+conditions were not additions---that two of them ``dissolved'' and that measuring and
+tracking ``add nothing''---while \S\ref{sec:inputs} of the same document said in plain
+words that nothing forces a $2$-space over a line or a $3$-space, that no theorem makes
+$2T$ enter through the principal $\sll_2$, and that the interest in a complex
+fundamental is not derived. \textbf{A headline a reader can defeat by turning to the
+paper's own ledger is not worth defending.} What replaces it is weaker to say and harder
+to attack: \emph{the cost is not zero; it is exactly four things, each named before it
+is used, and everything after them is forced.} \textbf{This framing is more exposed than a list of
 priced choices}: an unnamed addition anywhere below refutes it.
 \textbf{We count stipulations, not chain links}: the two counts differ, and conflating
 them is an error earlier drafts made. We do \textbf{not} claim a derivation of physics, and no physical identification
@@ -282,10 +293,11 @@ object genuinely fails to supply something and we say what.
 \begin{scope}[what would falsify the framing, not just a step]\label{sc:framing}
 \textbf{If any step below turns out to require an addition we have not named, the claim
 of this section fails even if every theorem survives.} That is a stronger exposure than
-a list of priced choices, which can absorb a new row without embarrassment. Two
-candidates that an earlier draft did book as choices have since dissolved
-(\S\ref{sec:nomination}), and one that we do not know how to dissolve is stated as
-residue in \S\ref{sec:inputs}.
+a list of priced choices, which can absorb a new row without embarrassment. \textbf{The
+exposure is now that the list of four is complete}, not that it is empty: a fifth
+condition found anywhere below refutes the claim of this section even if every theorem
+survives. Two of the four are narrowed---but \emph{not} eliminated---in
+\S\ref{sec:nomination}, and the residue is stated in \S\ref{sec:inputs}.
 \end{scope}
 
 \begin{description}[leftmargin=1.6em,style=nextline]
@@ -884,15 +896,15 @@ $2\pi/n$---the meridian trace is $x=2\cos(\pi/n)$ and the trace field is
    \Q\Bigl(x,\ \sqrt{(5-x^2)(1-x^2)}\Bigr),
 \]
 from the character-variety relation $u^2+(5-x^2)u+(5-x^2)=0$. This is a \emph{clean}
-quadratic field---a single McKay group---if and only if $x\in\Q$. \textbf{By Niven's
-theorem $2\cos(\pi/n)\in\Q$ only for $n\in\{1,2,3\}$, together with the cusp $n=\infty$},
-and those cases are exactly
+quadratic field---a single McKay group---if and only if $x\in\Q$, and \textbf{by Niven's
+theorem $2\cos(\pi/n)\in\Q$ only for $n\in\{1,2,3\}$, together with the cusp
+$n=\infty$}. Those cases are exactly
 \begin{center}\small
 \begin{tabular}{@{}ccccc@{}}
 \toprule
 $n$ & $x$ & geometry & $(5-x^2)(1-x^2)$ & field, McKay image\\
 \midrule
-$\infty,\,1$ & $\pm2$ & hyperbolic (complete cusp) & $-3$ & $\Q(\sqrt{-3})$, $2T\to E_6$\\
+$\infty$ & $\pm2$ & hyperbolic (complete cusp) & $-3$ & $\Q(\sqrt{-3})$, $2T\to E_6$\\
 $3$ & $1$ & Euclidean (the transition) & $0$ & $\Q$, degenerate\\
 $2$ & $0$ & spherical & $5$ & $\Q(\sqrt5)$, $2I\to E_8$\\
 \bottomrule
@@ -900,7 +912,36 @@ $2$ & $0$ & spherical & $5$ & $\Q(\sqrt5)$, $2I\to E_8$\\
 \end{center}
 At the spherical end the double cover is the lens space $L(5,2)=S^3/\Z_5$, with
 $|H_1|=\det(4_1)=5$.
+
+\textbf{The two signs $x=\pm2$ are the two parabolic points of the character curve}, not
+two orbifolds: $n=1$ is cone angle $2\pi$, which is the complete structure and not a
+second cusp. An earlier draft listed $n=1$ in the same cell as $n=\infty$ under the
+heading ``hyperbolic (complete cusp)'', which read as though the $\Z/1$ orbifold were a
+distinct end. It is the same end, reached at the other parabolic trace.
 \end{theorem}
+
+\begin{proof}[Proof of the \emph{only if}, which Niven's theorem does not supply]
+\textbf{An earlier draft left this direction to Niven, and Niven does not prove it}: he
+determines which $2\cos(\pi/n)$ are rational, not that an irrational one must enlarge
+$K_n=\Q(x,\sqrt{(5-x^2)(1-x^2)})$ beyond a quadratic field. An irrational $x$ could
+itself be quadratic, and the radical could conceivably stay inside $\Q(x)$. Three steps
+close it.
+
+Since $x=\zeta_{2n}+\zeta_{2n}^{-1}$ generates the maximal real subfield of
+$\Q(\zeta_{2n})$, we have $[\Q(x):\Q]=\varphi(2n)/2$ for $n\ge2$. If $K_n$ is quadratic
+then $[\Q(x):\Q]\le2$, hence $\varphi(2n)\le4$, hence $n\le6$. The rational cases are
+$n\in\{1,2,3\}$; the irrational-but-quadratic cases are therefore exactly
+$n\in\{4,5,6\}$, and each is checked directly:
+\[
+  n=4:\ x=\sqrt2,\ D=-3,\ K_4=\Q(\sqrt2,\sqrt{-3});\qquad
+  n=6:\ x=\sqrt3,\ D=-4,\ K_6=\Q(\sqrt3,i),
+\]
+both of degree $4$. For $n=5$, $x=\varphi\in\Q(\sqrt5)$ and
+$D=(5-x^2)(1-x^2)=(-1-3\sqrt5)/2$, whose two real embeddings have opposite signs; a
+square in a real quadratic field is totally positive, so $D$ is not one and $K_5$ again
+has degree $4$. Hence no irrational $x$ leaves $K_n$ quadratic, and the biconditional
+holds.
+\end{proof}
 
 \begin{corollary}[$E_7$ is geometrically impossible here]\label{cor:noe7}
 $E_7$'s McKay field is $\Q(\sqrt2)$, which would require $x=\sqrt2$, i.e.\ $n=4$. That
@@ -1337,18 +1378,19 @@ note that Census~\ref{cen:forced} counts \emph{links containing choices}, which 
 the same as counting independent stipulations.
 \end{census}
 
-\section{Two inputs that dissolve}\label{sec:nomination}
+\section{Two inputs, narrowed but not derived}\label{sec:nomination}
 
 Earlier drafts of this work booked \emph{exceptionality} and \emph{the principal
 placement} as declared choices. \textbf{Neither is one.} Both are supplied by the object,
 and we state the mechanisms because a paper claiming that nothing is added must show
 where the things it did not add came from.
 
-\subsection{Exceptionality is nominated, not chosen}\label{sec:excnom}
+\subsection{Exceptionality: a conditional uniqueness, and a route that avoids it}
+\label{sec:excnom}
 
 \begin{proposition}[the dimensional filter]\label{prop:dimfilter}
-Let $\Delta^d$ be the regular $d$-simplex, with rotation group $A_{d+1}$. Then $A_{d+1}$
-is a subgroup of $SO(3)$ \textbf{only for $d\in\{2,3,4\}$}, and among those three the
+Let $\Delta^d$ be the regular $d$-simplex, $d\ge2$, with rotation group $A_{d+1}$. Then
+$A_{d+1}$ embeds in $SO(3)$ \textbf{only for $d\in\{2,3,4\}$}, and among those three the
 binary cover's McKay image is \emph{exceptional} and carries a complex (non-self-dual)
 fundamental \textbf{only for $d=3$}:
 \begin{center}\small
@@ -1400,7 +1442,7 @@ is nontrivial only for $E_6$.
 \emph{regular} rather than by \emph{tetrahedra}. Every ideally triangulated cusped
 $3$-manifold is glued from ideal tetrahedra; what distinguishes $M_1$ is that both of its
 are \textbf{regular}, of shape $e^{i\pi/3}$ with $z^2-z+1=0$, which is what makes the
-invariant trace field $\Q(\sqrt{-3})$. And $A_4/V_4\cong\Z/3$ is the centre of $E_6$. So the tetrahedral
+invariant trace field $\Q(\sqrt{-3})$. And $A_4/V_4\cong\Z/3$ is abstractly the centre of the \emph{simply connected group} of type $E_6$---the algebra $\ee_6$ has zero centre. So the tetrahedral
 geometry the manifold is made of, the group $2T$, and the algebra $E_6$ are the same
 datum seen three ways.
 
@@ -1418,7 +1460,8 @@ which is what chirality-capability would have supplied and does not
 (\S\ref{sec:entrance}). \textbf{We claim a dissolution of the menu, not of the question.}
 \end{remark}
 
-\subsection{The principal placement is the geometric direction}\label{sec:principaldir}
+\subsection{The principal placement is geometrically distinguished, but not forced}
+\label{sec:principaldir}
 
 The second booked choice was placing $2T$ inside $\ee_6$ through the principal $\sll_2$.
 The object supplies this too, and in a sharper sense.
@@ -1830,7 +1873,7 @@ There is a point $y$ of $C$ with $\dim z(x_1,y)=14$, derived algebra of
 dimension $11$ and centre of dimension $3$; after base change the derived algebra has
 algebraic type $A_2\oplus A_1$,
 \[
-   z(x_1,y^*)\otimes\overline K\ \cong\ \sll_3\oplus\sll_2\oplus\mathfrak t^{3}.
+   z(x_1,y)\otimes\overline K\ \cong\ \sll_3\oplus\sll_2\oplus\mathfrak t^{3}.
 \]
 \end{theorem}
 
@@ -2410,35 +2453,79 @@ made it.
 
 \subsection{Scale-blindness, as a property of the whole family}
 
-\begin{corollary}[what the family satisfies]\label{thm:amphi}
-Every metallic word $R^mL^m$ has block sequence $(m)$, trivially a cyclic palindrome, so
-by Theorem~\ref{thm:blockpal} every $M_m$ is amphichiral.
-\end{corollary}
-
-\begin{theorem}[amphichirality is a condition on the block sequence]\label{thm:blockpal}
-Write a once-punctured-torus bundle's monodromy as an $L,R$ word $W$. By
-Goodman--Heard--Hodgson~\cite{GHH}, the bundle is amphichiral if and only if $W$ is
-\emph{anti-palindromic}---$\operatorname{reverse}(W)$ equals the $L\!\leftrightarrow\!R$
-swap of $W$, cyclically. For a word in blocks,
-$W=R^{m_1}L^{m_1}\cdots R^{m_k}L^{m_k}$, that holds if and only if the block sequence
-$(m_1,\dots,m_k)$ is a \textbf{cyclic palindrome}. In particular $R^mL^m$ has block
-sequence $(m)$, and every metallic bundle is amphichiral.
+\begin{theorem}[the metallic family is amphichiral]\label{thm:amphi}
+Every $M_m$, $m\ge1$, admits an orientation-reversing self-homeomorphism.
 \end{theorem}
+
+\begin{proof}
+Let $J=\left(\begin{smallmatrix}0&1\\1&0\end{smallmatrix}\right)$, so $\det J=-1$ and
+$JRJ^{-1}=L$. Writing $\varphi=R^mL^m$ for the monodromy,
+\[
+   J\varphi J^{-1}=L^mR^m=R^{-m}\varphi R^m ,
+\]
+the second equality being a cyclic rotation. Hence $g=R^mJ$ satisfies
+$g\varphi g^{-1}=\varphi$ and $\det g=-1$. So $g$ is an orientation-reversing self-map of
+the fibre torus commuting with the monodromy; it therefore descends to the mapping torus,
+where it reverses the fibre orientation and preserves the base direction, and so reverses
+the orientation of $M_m$.
+\end{proof}
+
+\begin{proposition}[the block-sequence criterion, in the direction that is proved]%
+\label{thm:blockpal}
+Call an $L,R$ word $W$ \emph{anti-palindromic} when $\operatorname{reverse}(W)$ equals
+the $L\!\leftrightarrow\!R$ swap of $W$, cyclically. For a block word
+$W=R^{m_1}L^{m_1}\cdots R^{m_k}L^{m_k}$ this holds if and only if the block sequence
+$(m_1,\dots,m_k)$ is a \textbf{cyclic palindrome}.
+
+Because $R^{\mathsf T}=L$, one has $W^{\mathsf T}=\operatorname{swap}
+(\operatorname{reverse}(W))$ as words. Hence if $\operatorname{reverse}(W)$ equals
+$\operatorname{swap}(W)$ \emph{on the nose}---call this \emph{strict}
+anti-palindromicity---then $W=W^{\mathsf T}$. \textbf{The cyclic version does not suffice
+for this}, and $W=RLLR$ is a counterexample: it is cyclically anti-palindromic, but its
+matrix $\left(\begin{smallmatrix}3&4\\2&3\end{smallmatrix}\right)$ is not symmetric. The
+metallic words are strict---$\operatorname{reverse}(R^mL^m)=L^mR^m=\operatorname{swap}
+(R^mL^m)$---which is why $\varphi_m=\varphi_m^{\mathsf T}$.
+\end{proposition}
 
 \begin{proof}
 $\operatorname{reverse}(W)=L^{m_k}R^{m_k}\cdots L^{m_1}R^{m_1}$ and the swap of $W$ is
 $L^{m_1}R^{m_1}\cdots L^{m_k}R^{m_k}$; both are $L^aR^a$-block words, so they agree
-cyclically exactly when $(m_k,\dots,m_1)$ and $(m_1,\dots,m_k)$ agree up to rotation,
-which is the definition of a cyclic palindrome. The remaining equivalence is
-\cite{GHH}'s.
+cyclically exactly when $(m_k,\dots,m_1)$ and $(m_1,\dots,m_k)$ agree up to rotation.
+The transpose identity is $R^{\mathsf T}=L$ applied termwise and the order reversed.
+\textbf{An earlier draft of this proposition asserted that cyclic anti-palindromicity is
+equivalent to symmetry of the matrix; the verification script of
+Appendix~\ref{app:verify} produced $RLLR$ against it}, and the statement above is the
+corrected one.
 \end{proof}
 
+\begin{scope}[a citation withdrawn, and this is the second reversal on it]%
+\label{sc:ghh}
+\textbf{An earlier draft stated the converse---amphichiral $\Rightarrow$
+anti-palindromic---as a theorem of Goodman--Heard--Hodgson~\cite{GHH}, and that
+attribution is wrong.} Their classification of symmetries of once-punctured-torus
+bundles is stated for the \textbf{non-arithmetic} bundles, and the arithmetic monodromy
+words are removed before the argument begins. \textbf{The removed words include $RL$ and
+$R^2L^2$}---that is, precisely $m=1$ and $m=2$, the golden and silver members, the two
+this paper cares about most. The figure-eight knot complement is the arithmetic knot
+complement, so the source's hypotheses exclude it by construction.
+
+\textbf{We record that this claim has now been reversed twice}: withdrawn once, restored
+once on the ground that~\cite{GHH} exists, and now withdrawn again on the ground that we
+read it. The restoration was made without checking the hypothesis, which is the failure
+mode this paper's verification appendix exists to prevent, and it is logged in
+Appendix~\ref{app:corrections}.
+
+\textbf{Nothing downstream depended on the converse.} What the paper uses is that the
+metallic family \emph{is} amphichiral, and Theorem~\ref{thm:amphi} now proves that
+directly from the monodromy, citing nothing. The general biconditional is left open here.
+\end{scope}
+
 \begin{scope}[what is ours here, and what is not]\label{sc:amphiscope}
-\textbf{The mechanism is Goodman--Heard--Hodgson's}, and we claim none of it: the
-biconditional between amphichirality and anti-palindromicity is theirs. \textbf{What is
-added here is only the lift to the integer block sequence}, which is the elementary
-string identity above; it has also been checked exhaustively over all block sequences of
-length $\le6$ with entries $\le4$---$5460$ cases, no exceptions.
+Theorem~\ref{thm:amphi} and Proposition~\ref{thm:blockpal} are elementary and are proved
+here; we claim no more for them than that. The block-sequence equivalence has also been
+checked exhaustively over all block sequences of length $\le6$ with entries
+$\le4$---$5460$ cases, no exceptions. What we do \emph{not} claim is the converse
+direction, for the reason given in Scope~\ref{sc:ghh}.
 
 \textbf{An earlier draft withdrew the ``only if'' entirely}, on the ground that we had
 opened no source stating it. That was over-cautious: the source exists, is cited here,
@@ -2466,7 +2553,7 @@ $k$-dependence. It is \textbf{not} proved that every quantum correction is
 $k$-independent, that every flat connection is, that every admissible boundary
 construction is, or that no dimensionless coupling can arise elsewhere. The defensible
 statement is Corollary~\ref{cor:cs} exactly as written, and \textbf{What is a family phenomenon is the two-torsion
-$2\,\mathrm{CS}\equiv0$, not the vanishing}: Corollary~\ref{thm:amphi} gives
+$2\,\mathrm{CS}\equiv0$, not the vanishing}: Corollary~\ref{cor:cs} gives
 $\mathrm{CS}\in\{0,\tfrac14\}$ for every $m$, and $\mathrm{CS}=0$ is established at
 $m=1$ by computation. The $k$-independence of the action therefore holds at $m=1$ and is
 unproved for $m\ge2$.
@@ -2490,22 +2577,29 @@ set; the table below exists so the count can be checked rather than believed.
 (C3) & the monodromy is orientation-preserving & \textbf{survives intact}: the Gieseking manifold, whose orientation double cover is $M_1$. Squaring is the standard convention for orientable mapping tori; the choice is preferring the child to the parent\\
 (C4) & the puncture & \textbf{degenerates}: the closed mapping torus of an Anosov map of $T^2$ is a $\mathrm{Sol}$-manifold, since hyperbolization needs $\chi(F)<0$ and $\chi(T^2)=0$. No cusp, no hyperbolic structure, no arithmetic layer\\
 (C5) & period one & \textbf{price zero against the period-two relaxation, which is the only one tested.} The period-two family $M(a,b)$ is orientation-preserving already, its homology is $\Z\oplus\Z/\!\gcd\oplus\Z/\!\operatorname{lcm}$, and the selection of \S\ref{sec:four} survives verbatim. \textbf{Period three and beyond are unchecked}, so this is not zero cost globally\\
-(C6) & the principal placement of $2T$ & \textbf{dissolved to an acceptance} (Prop.~\ref{prop:geodir}). The principal $\sll_2$ is the object's own geometric deformation direction, and the principal image is what seals the field. Still not a theorem that $2T$ \emph{must} enter there\\
-(C7) & the enhancement rule & \textbf{not a row: it is the method} of \S\ref{sec:price}, stated once and not re-decided. Rejecting it means sampling generic points, which returns the floor and reports nothing. Within it the three walls are one Galois orbit and every point of the $14$-locus gives $A_2{\oplus}A_1$ (Cor.~\ref{cor:c7free})\\
-(C8) & \textbf{exceptionality} & \textbf{dissolved to an acceptance} (Prop.~\ref{prop:dimfilter}). The object nominates $E_6$; $d=3$ is the unique simplex dimension whose McKay image is exceptional with a complex fundamental, and $d=3$ is what $M_1$ is glued from. What is not derived is the interest in a complex fundamental\\
+(C6) & the principal placement of $2T$ & \textbf{motivated, not derived} (Prop.~\ref{prop:geodir}). The principal $\sll_2$ is distinguished by the object's own deformation theory \emph{once the principal composition has been formed}, and the principal image is what seals the field. \textbf{That is not uniqueness}: forming $\rho_0$ already chose the embedding, so finding the surviving direction inside it is not a proof that the manifold selected it among all $\sll_2$-subalgebras. An input\\
+(C7) & the enhancement rule & \textbf{one global principle, stated once---but not free.} An earlier draft called it ``not a row: it is the method''. It changes the output: generic measurement gives $30\to12$, the rule gives $30\to46\to14$. Stating a principle once rather than re-deciding it at each stage lowers its cost; it does not zero it. Rejecting it means sampling generic points, which returns the floor and reports nothing. Within it the three walls are one Galois orbit and every point of the $14$-locus gives $A_2{\oplus}A_1$ (Cor.~\ref{cor:c7free})\\
+(C8) & \textbf{exceptionality} & \textbf{a conditional uniqueness theorem, not a dissolution} (Prop.~\ref{prop:dimfilter}): \emph{given} the criteria ``exceptional'' and ``complex fundamental'', $d=3$ is the unique simplex dimension, and $d=3$ is what $M_1$ is glued from. The criteria themselves are imported. \textbf{But (C8) is not load-bearing for the target}: Prop.~\ref{prop:mod3} reaches $2T$ from the manifold's own arithmetic, and McKay then gives $E_6$ without any menu at all\\
 (C9) & the measurement is made on a \emph{plane} & \textbf{not derived.} Prop.~\ref{prop:twoO} forces \emph{which} plane, once a plane is wanted; nothing forces a $2$-space over a line or a $3$-space, and Scope~\ref{sc:cliffscope} says so\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\noindent\textbf{The rows do not have equal status, and grouping them as ``nine choices''
-was the error of an earlier draft.} (C1) is the single commitment. (C7) is the method of
-\S\ref{sec:price}, not an input. (C6) and (C8) dissolve into acceptances of what the
-object nominates (\S\ref{sec:nomination}). (C4) has an alternative that is not hyperbolic
-at all, and (C3) is the standard convention for an orientable mapping torus. \textbf{What
-is left as genuine addition is (C2), the geometric carrier}---which is where
-$\Q(\sqrt{-3})$ is bought and nothing measures it into existence---together with the
-scope restrictions (C5) and (C9), whose alternatives are computed and cheap.
+\noindent\textbf{The rows do not have equal status, and two earlier drafts got the
+grouping wrong in opposite directions}---one by calling all nine ``choices'', the next by
+declaring two of them dissolved. The accurate grouping is this. (C1) is the single
+commitment. (C4) has an alternative that is not hyperbolic at all, and (C3) is the
+standard convention for an orientable mapping torus; neither is a live decision.
+(C5) is a scope restriction whose only tested relaxation is free. (C8) is not
+load-bearing, since the arithmetic entrance reaches $2T$ without it.
+
+\textbf{What remains are four inputs, and we now name them together rather than let them
+sit in separate rows}: the geometric carrier (C2), the principal placement (C6), the
+measurement dimension (C9), and the enhancement rule (C7). \textbf{None of the four is
+derived here.} (C9) is the sharpest of them, and the sharpest sentence in this table is
+its own: \emph{nothing forces a $2$-space over a line or a $3$-space}. A claim that the
+construction proceeds by measuring and tracking alone is refuted by that sentence, which
+is why \S\ref{sec:intro} no longer makes it.
 \textbf{(C2) is the paper's residual addition and we do not describe it as free.} An
 earlier draft called (C5) and (C7) free without qualification; both claims were too
 strong and are withdrawn above. A
@@ -2522,29 +2616,43 @@ first two are one quantity.
 
 \begin{description}[leftmargin=1.9em,style=nextline,itemsep=2pt]
 \item[\textnormal{\textbf{One sign, which is simultaneously an arrow and a hand.}}]
-  The object is amphichiral---by Corollary~\ref{thm:amphi} it equals its
-  mirror---and correspondingly sits at $\mathrm{CS}=0$, the symmetric origin. \textbf{A
-  closing is the only operation that moves it off that origin}, and the sign of the
+  The object is amphichiral---by Theorem~\ref{thm:amphi} it equals its
+  mirror---and \emph{independently}, by direct computation, its Chern--Simons invariant
+  is $0$. \textbf{The second fact is not a consequence of the first}: amphichirality
+  gives only $2\,\mathrm{CS}\equiv0$ (Corollary~\ref{cor:cs}), and an earlier draft's
+  ``correspondingly'' asserted the implication that \S\ref{sec:negatives} had just
+  denied. A closing is the only operation \emph{we have found} that moves the object off
+  that origin, and the sign of the
   resulting $\mathrm{CS}$ is at once the orientation of the closing and the direction
   along the resulting ladder. \textbf{So there is no separate handedness to choose and
   then correlate with a direction: they are the same sign}, and counting them as two
   inputs double-counts. What the object does not supply is that one sign.
-\item[\textnormal{\textbf{One scale.}}] $\operatorname{Hom}(G,\R_+)=0$, so no unit is
-  available internally, and the same closing that emits the sign is what breaks the
-  object's scale-invariance. \textbf{This is the input that has survived every attempt
-  from every direction}, including the ones that dissolved (C6) and (C8): even where a
-  dimensionless relation is pinned, the unit in which to read it is not.
+\item[\textnormal{\textbf{One scale.}}] $\operatorname{Hom}(G,\R_+)=0$: the group carries
+  no non-trivial positive real character, \textbf{so no unit arises by that route}. An
+  earlier draft wrote ``so no unit is available internally'', and \textbf{that is a
+  strictly stronger statement which the displayed argument does not support}. Ruling out
+  one mechanism is not ruling out all of them: norms of algebraic numbers, regulators,
+  volumes, spectral invariants, analytic torsion and metric normalizations are all
+  positive quantities that a character computation says nothing about. \textbf{We have
+  not searched them}, and until a universe of admissible units is defined and every
+  admissible unit shown to be such a character, ``no scale is available internally'' is
+  a conjecture and is demoted here to one. What survives is the character statement and
+  the observation that even where a dimensionless relation is pinned, the unit in which
+  to read it is not.
 \end{description}
 
-\noindent\textbf{So the honest form of this paper's claim is not ``nine choices'' but:
-from one commitment, by measuring and tracking only, everything below follows except
-what a single closing supplies---one sign and one scale}---plus the one genuine addition
-(C2) at which the imaginary quadratic field is bought.
+\noindent\textbf{So the honest form of this paper's claim is neither ``nine choices''
+nor ``no choices'', but a conditional with four named antecedents}: given the geometric
+carrier (C2), the principal placement (C6), a two-dimensional measurement frame (C9) and
+the enhancement rule (C7), everything below follows except what a closing supplies---one
+sign and one scale.
 
-\textbf{Both residues are emitted by the same operation}, which is the sharpest form we
-can give them: the closing is the unique step that breaks scale-invariance, and the
-first thing it emits is the sign. That does not make either derivable here, and we do
-not claim it does.
+\textbf{Both residues are emitted by the same operation}, and an earlier draft called
+that operation \emph{the unique} step that breaks scale-invariance. \textbf{We withdraw
+the uniqueness}: no classification of the operations available to this object is offered
+anywhere in this paper, so ``unique'' was an interpretation wearing the grammar of a
+theorem. What we can say is that a closing is the only such operation we have found, and
+that it emits both residues together.
 
 \textbf{And that is a falsifiable framing rather than a flattering one}: an arrow, a hand
 or a scale emerging from the object would refute the residue, and an unnamed addition
@@ -2690,9 +2798,10 @@ Thm~\ref{thm:jones} & \fn{verify/check\_\allowbreak jones\_\allowbreak wall.py} 
 Prop~\ref{prop:mu} & \fn{verify/check\_\allowbreak charge\_\allowbreak field.py} & Dedekind; Minkowski; $h=1$\\
 Prop~\ref{prop:twoO}, Cor~\ref{cor:gradfree} & \fn{verify/check\_\allowbreak measurement\_\allowbreak plane.py} & $\ee_6^{2O}=\langle x_8,x_{16}\rangle$; eigenvalues\\
 Prop~\ref{prop:z6} & \fn{verify/check\_\allowbreak global\_\allowbreak form.py} & the kernel is exactly $\Z/6$, cyclic\\
-Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \fn{verify/check\_\allowbreak niven\_\allowbreak ends.py} & Niven; the three rational traces; the $E_7$ exclusion\\
+Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \fn{verify/check\_\allowbreak niven\_\allowbreak ends.py} & Niven; the three rational traces; the \emph{only if} via $[\Q(x):\Q]=\varphi(2n)/2$; the $E_7$ exclusion\\
 Scope~\ref{sc:abelian}, $C$ abelian & \fn{verify/check\_\allowbreak charge\_\allowbreak bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
 Thm~\ref{thm:coupling}, Cor~\ref{cor:ninecos} & \fn{verify/check\_\allowbreak coupling\_\allowbreak law.py} & the two trace sets; Niven; the rational locus of $2I$ is $2T$\\
+Thm~\ref{thm:amphi}, Prop~\ref{thm:blockpal} & \fn{verify/check\_\allowbreak amphichirality.py} & $R^mJ$ centralizes $\varphi_m$ with $\det=-1$; the $RLLR$ counterexample\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
@@ -2744,10 +2853,14 @@ changelog.
   the classification, applied power-closed.
 \item Selection~II's corollary said the golden member ``lands on a genuine group''; the
   monodromy's image mod~$5$ is cyclic of order~$10$.
-\item An amphichirality biconditional was asserted with no source, then \emph{withdrawn}
-  when none had been opened. Both were wrong: the source is
-  Goodman--Heard--Hodgson~\cite{GHH}, the biconditional is restored as
-  Theorem~\ref{thm:blockpal}, and only the lift to block sequences is ours.
+\item An amphichirality biconditional was asserted with no source; \emph{withdrawn}
+  when none had been opened; \emph{restored} on the ground that
+  Goodman--Heard--Hodgson~\cite{GHH} exists; and now \emph{withdrawn again}, on the
+  ground that~\cite{GHH} was finally read. Its classification is stated for
+  \textbf{non-arithmetic} bundles and removes the arithmetic words---which include the
+  golden and silver members. \textbf{Three of those four moves were made without opening
+  the source.} The family's amphichirality is now proved directly
+  (Theorem~\ref{thm:amphi}) and cites nothing; see Scope~\ref{sc:ghh}.
 \item ``$\mathrm{CS}$ vanishes'' was derived from amphichirality, which gives only
   $2\,\mathrm{CS}\equiv0$.
 \item The census printed six figures summing to $43$ and then described five declared
