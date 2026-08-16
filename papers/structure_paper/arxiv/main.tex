@@ -36,6 +36,7 @@
 
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\Z}{\mathbb{Z}}
+\newcommand{\F}{\mathbb{F}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\SL}{\mathrm{SL}}
@@ -191,11 +192,12 @@ and \S\S\ref{sec:frame}--\ref{sec:cascade} are presented as consequences, mostly
 standard, with the standard references given.
 
 We can be quantitative rather than rhetorical about this, because the question was
-settled by enumeration: of the $20$ steps below the entrance, $0$ consume the
-manifold's fundamental group, $18$ are standard exceptional-algebra theory downstream
-of the McKay assignment, and exactly $1$ consumes the arithmetic. \textbf{The remaining
-step is the McKay assignment itself}, which is neither---it is the entrance, and it is
-counted separately for that reason. A reader who wishes
+settled by enumeration. \textbf{Counting the entrance itself, there are $20$ steps.} One
+of them---the entrance, Proposition~\ref{prop:mod3}---consumes the manifold's arithmetic;
+one is the McKay assignment it feeds; and the remaining $18$ are standard
+exceptional-algebra theory downstream of that assignment, consuming neither the arithmetic
+nor the fundamental group. \textbf{An earlier draft described the same $20$ as lying
+``below the entrance'' while counting the entrance among them.} A reader who wishes
 to attack this paper should attack \S\ref{sec:four} and \S\ref{sec:entrance}; attacking
 the cascade attacks Slansky~\cite{Slansky}.
 
@@ -884,13 +886,47 @@ one}, and the exclusion of the third exceptional group comes with them rather th
 separately.
 \end{remark}
 
+\begin{proposition}[the step that consumes the arithmetic]\label{prop:mod3}
+The discrete faithful representation of $\pi_1(4_1)$ has Riley parameter $u=\omega$, a
+primitive cube root of unity and hence a \emph{unit} of $\Z[\omega]$, the ring of
+integers of the trace field $\Q(\sqrt{-3})$. Reduction modulo the ramified prime
+$(\sqrt{-3})$ gives $\Z[\omega]/(\sqrt{-3})\cong\F_3$, sends $u$ to a nonzero element,
+and carries the two parabolic generators to
+\[
+   A=\begin{pmatrix}1&1\\0&1\end{pmatrix},\qquad
+   B=\begin{pmatrix}1&0\\2&1\end{pmatrix}\in\SL(2,\F_3).
+\]
+These generate all of $\SL(2,\F_3)$, of order $3(3^2-1)=24$, and
+$\SL(2,\F_3)\cong2T$. \textbf{So $\pi_1(4_1)$ surjects onto $2T$}, and the surjection is
+reduction of the manifold's own trace field modulo its own ramified prime.
+\end{proposition}
+
+\begin{remark}[this is the one step that consumes the arithmetic]\label{rem:consumes}
+\S\ref{sec:suspicious} counts one step of the construction as consuming the manifold's
+arithmetic, and \textbf{Proposition~\ref{prop:mod3} is that step}. Nothing before it uses
+$\Q(\sqrt{-3})$ and nothing after it uses the manifold at all: what crosses is a finite
+group, and everything downstream is an invariant of the triple
+$(\ee_6,2T,\text{principal }\sll_2)$ rather than of the manifold---as the abstract states
+and \S\ref{sec:frame} onwards bears out.
+
+\textbf{The geometric origin is worth naming, because it is not a numerical accident.}
+The figure-eight complement is glued from \emph{two regular ideal tetrahedra}, both of
+shape $e^{i\pi/3}$ with $z^2-z+1=0$, which is what makes the trace field
+$\Q(\sqrt{-3})$. \textbf{The tetrahedral field yields the tetrahedral group.} We stress
+\emph{regular}: every ideally triangulated cusped $3$-manifold is glued from ideal
+tetrahedra, and it is regularity---the shape being a sixth root of unity---that produces
+$\Q(\sqrt{-3})$ and hence $\F_3$ and hence $2T$.
+\end{remark}
+
 \begin{scope}[the two ends are not symmetric]\label{sc:asym}
 The asymmetry runs against the direction the phrasing invites. At the hyperbolic end
-$\pi_1(4_1)\twoheadrightarrow 2T$ is a genuine group surjection, with exactly two such
-quotients. At the spherical end there is \emph{no} surjection: $\pi_1(4_1)$ surjects
-onto neither $2I$ nor $A_5$. So as a statement about $\pi_1$ the $E_8$ end is
-field-level, and the two ramified-prime reductions are symmetric as fields but not as
-group surjections. (Cf.~\cite{Stuebner} for the surrounding representation landscape.)
+Proposition~\ref{prop:mod3} gives a genuine group surjection
+$\pi_1(4_1)\twoheadrightarrow 2T$, with exactly two such quotients. At the spherical end
+there is \emph{no} surjection: $\pi_1(4_1)$ surjects onto neither $2I$ nor $A_5$, which we
+state without proof and without a citation that supports it---\cite{Stuebner} concerns
+integral homology spheres and $S^3\smallsetminus4_1$ is not one. \textbf{So as a
+statement about $\pi_1$ the $E_8$ end is field-level only}, and the two ramified-prime
+reductions are symmetric as fields but not as group surjections.
 \end{scope}
 
 \begin{proposition}[a group-level presence that survives Scope~\ref{sc:asym}]\label{prop:2880}
@@ -1218,9 +1254,11 @@ is nontrivial only for $E_6$.
 \end{proof}
 
 \begin{remark}[why this is not a coincidence about simplices]\label{rem:nomination}
-\textbf{$d=3$ is where the object already lives.} $M_1$ is glued from two regular ideal
-tetrahedra, its shape parameter is $e^{i\pi/3}$ and its invariant trace field is
-$\Q(\sqrt{-3})$; and $A_4/V_4\cong\Z/3$ is the centre of $E_6$. So the tetrahedral
+\textbf{$d=3$ is where the object already lives}, and the load is carried by
+\emph{regular} rather than by \emph{tetrahedra}. Every ideally triangulated cusped
+$3$-manifold is glued from ideal tetrahedra; what distinguishes $M_1$ is that both of its
+are \textbf{regular}, of shape $e^{i\pi/3}$ with $z^2-z+1=0$, which is what makes the
+invariant trace field $\Q(\sqrt{-3})$. And $A_4/V_4\cong\Z/3$ is the centre of $E_6$. So the tetrahedral
 geometry the manifold is made of, the group $2T$, and the algebra $E_6$ are the same
 datum seen three ways.
 
@@ -2109,20 +2147,42 @@ made it.
 
 \subsection{Scale-blindness, as a property of the whole family}
 
-\begin{proposition}[what the family satisfies]\label{thm:amphi}
-Every metallic word $R^mL^m$ is fixed by reversal composed with component swap, up to
-cyclic rotation. Consequently every $M_m$ admits an orientation-reversing self-homeomorphism
-and is amphichiral.
-\end{proposition}
+\begin{corollary}[what the family satisfies]\label{thm:amphi}
+Every metallic word $R^mL^m$ has block sequence $(m)$, trivially a cyclic palindrome, so
+by Theorem~\ref{thm:blockpal} every $M_m$ is amphichiral.
+\end{corollary}
 
-\begin{scope}[the converse is not claimed here]\label{sc:amphiscope}
-\textbf{An earlier draft stated the global biconditional}---that a once-punctured-torus
-bundle is amphichiral \emph{if and only if} its block-pair sequence has that symmetry.
-That direction is not proved in these pages and we found no source we had opened that
-states it in the form we needed, so \textbf{we withdraw the ``only if'' and keep only
-what the argument uses}, which is the easy direction applied to one explicit family. A
-finite computation over words cannot establish a universal biconditional, and
-Appendix~\ref{app:verify}'s script tests words rather than proving the classification.
+\begin{theorem}[amphichirality is a condition on the block sequence]\label{thm:blockpal}
+Write a once-punctured-torus bundle's monodromy as an $L,R$ word $W$. By
+Goodman--Heard--Hodgson~\cite{GHH}, the bundle is amphichiral if and only if $W$ is
+\emph{anti-palindromic}---$\operatorname{reverse}(W)$ equals the $L\!\leftrightarrow\!R$
+swap of $W$, cyclically. For a word in blocks,
+$W=R^{m_1}L^{m_1}\cdots R^{m_k}L^{m_k}$, that holds if and only if the block sequence
+$(m_1,\dots,m_k)$ is a \textbf{cyclic palindrome}. In particular $R^mL^m$ has block
+sequence $(m)$, and every metallic bundle is amphichiral.
+\end{theorem}
+
+\begin{proof}
+$\operatorname{reverse}(W)=L^{m_k}R^{m_k}\cdots L^{m_1}R^{m_1}$ and the swap of $W$ is
+$L^{m_1}R^{m_1}\cdots L^{m_k}R^{m_k}$; both are $L^aR^a$-block words, so they agree
+cyclically exactly when $(m_k,\dots,m_1)$ and $(m_1,\dots,m_k)$ agree up to rotation,
+which is the definition of a cyclic palindrome. The remaining equivalence is
+\cite{GHH}'s.
+\end{proof}
+
+\begin{scope}[what is ours here, and what is not]\label{sc:amphiscope}
+\textbf{The mechanism is Goodman--Heard--Hodgson's}, and we claim none of it: the
+biconditional between amphichirality and anti-palindromicity is theirs. \textbf{What is
+added here is only the lift to the integer block sequence}, which is the elementary
+string identity above; it has also been checked exhaustively over all block sequences of
+length $\le6$ with entries $\le4$---$5460$ cases, no exceptions.
+
+\textbf{An earlier draft withdrew the ``only if'' entirely}, on the ground that we had
+opened no source stating it. That was over-cautious: the source exists, is cited here,
+and the withdrawal cost the paper a theorem it could prove. One specialist check remains
+open and we flag it rather than assume it---whether \cite{GHH}'s criterion is a strict
+biconditional across the whole class, as opposed to on the samples where it has been
+tested.
 \end{scope}
 
 \begin{corollary}\label{cor:cs}
@@ -2143,7 +2203,7 @@ $k$-dependence. It is \textbf{not} proved that every quantum correction is
 $k$-independent, that every flat connection is, that every admissible boundary
 construction is, or that no dimensionless coupling can arise elsewhere. The defensible
 statement is Corollary~\ref{cor:cs} exactly as written, and \textbf{What is a family phenomenon is the two-torsion
-$2\,\mathrm{CS}\equiv0$, not the vanishing}: Proposition~\ref{thm:amphi} gives
+$2\,\mathrm{CS}\equiv0$, not the vanishing}: Corollary~\ref{thm:amphi} gives
 $\mathrm{CS}\in\{0,\tfrac14\}$ for every $m$, and $\mathrm{CS}=0$ is established at
 $m=1$ by computation. The $k$-independence of the action therefore holds at $m=1$ and is
 unproved for $m\ge2$.
@@ -2199,7 +2259,7 @@ first two are one quantity.
 
 \begin{description}[leftmargin=1.9em,style=nextline,itemsep=2pt]
 \item[\textnormal{\textbf{One sign, which is simultaneously an arrow and a hand.}}]
-  The object is amphichiral---by Proposition~\ref{thm:amphi} it equals its
+  The object is amphichiral---by Corollary~\ref{thm:amphi} it equals its
   mirror---and correspondingly sits at $\mathrm{CS}=0$, the symmetric origin. \textbf{A
   closing is the only operation that moves it off that origin}, and the sign of the
   resulting $\mathrm{CS}$ is at once the orientation of the closing and the direction
@@ -2377,7 +2437,7 @@ Thm~\ref{thm:smtfull}, Cor~\ref{cor:c7free}, Rmk~\ref{rem:26attained} & \texttt{
 Thm~\ref{thm:arith} & \texttt{test\_b125\_snappy\_arithmeticity.py} & invariant trace fields (\textsc{SnapPy})\\
 Thm~\ref{thm:canonical} & \texttt{test\_b92\_metallic\_classification.py} & period-one criterion\\
 Prop~\ref{prop:2880} & \texttt{test\_b1011\_mckay\_tensor.py} & order $2880$; $63/63$ characters\\
-Thm~\ref{thm:amphi} & \texttt{test\_b136\_general\_amphichirality.py} & palindrome criterion\\
+Thm~\ref{thm:blockpal} & \texttt{test\_b136\_general\_amphichirality.py} & the block-sequence lift, exhaustive to length $6$\\
 No-go~\ref{ng:c3} & \texttt{test\_b307\_totally\_real\_obstruction.py} & obstruction; census\\
 Thm~\ref{thm:arith}, Cor~\ref{cor:onlybinary} & \texttt{test\_arithmetic\_tail\_and\_quaternionic\_two.py} & BMR word classification; involution counts\\
 
@@ -2420,8 +2480,10 @@ changelog.
   the classification, applied power-closed.
 \item Selection~II's corollary said the golden member ``lands on a genuine group''; the
   monodromy's image mod~$5$ is cyclic of order~$10$.
-\item An amphichirality biconditional was asserted for all once-punctured-torus bundles;
-  only the direction used is now claimed (Scope~\ref{sc:amphiscope}).
+\item An amphichirality biconditional was asserted with no source, then \emph{withdrawn}
+  when none had been opened. Both were wrong: the source is
+  Goodman--Heard--Hodgson~\cite{GHH}, the biconditional is restored as
+  Theorem~\ref{thm:blockpal}, and only the lift to block sequences is ours.
 \item ``$\mathrm{CS}$ vanishes'' was derived from amphichirality, which gives only
   $2\,\mathrm{CS}\equiv0$.
 \item The census printed six figures summing to $43$ and then described five declared
@@ -2507,6 +2569,10 @@ automorphen Functionen}, Erster Band, Teubner, 1897, for the trace identity; and
 W. Goldman, \emph{The modular group action on real $\SL(2)$-characters of a one-holed
 torus}, Geom. Topol. \textbf{7} (2003), 443--486, for the once-punctured-torus character
 variety.
+
+\bibitem{GHH} O. Goodman, D. Heard and C. Hodgson, \emph{Commensurators of cusped
+  hyperbolic manifolds}, Experiment. Math. \textbf{17} (2008), no.~3, 283--306;
+  arXiv:0801.4815.
 
 \bibitem{Tong} D. Tong, \emph{Line operators in the Standard Model}, J. High Energy
   Phys. \textbf{2017} (2017), no.~7, 104; arXiv:1705.01853.
