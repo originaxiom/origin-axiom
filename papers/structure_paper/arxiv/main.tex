@@ -121,12 +121,12 @@ than sampled. \textbf{The plane on which the cascade is measured is not chosen e
 it is the fixed algebra $\ee_6^{2O}$ of the unique outer involution of the binary
 tetrahedral group. The charge field is computed exactly:
 $K\cong\Q[x]/(x^3-12x-5)$, monogenic, totally real, $\disc K=6237=3^4\cdot7\cdot11$,
-class number one. \textbf{One stratum of the cascade carries a different kind of
-information from all the others, and it is the paper's principal result}: at dimension $26$ the Levi type is $A_4$, and inside
-$\su(5)$ the standard $\su(3)\oplus\su(2)\oplus\uu(1)$ exponentiates with kernel exactly
-$\Z/6$. The algebra alone admits four quotients and cannot distinguish them; \textbf{the
-route through $\su(5)$ determines the global form}, which is a statement about a group
-rather than an algebra and the only one of its kind here.
+class number one. One stratum of the cascade has Levi type $A_4$, i.e.\
+$\su(5)\oplus\uu(1)^2$, at dimension $26$. \textbf{We record separately, and do not claim
+as a consequence}, the textbook fact that $\SU(5)$ contains
+$\su(3)\oplus\su(2)\oplus\uu(1)$ with kernel exactly $\Z/6$: \textbf{no step in this paper
+connects the two}, since exponentiating a Levi subalgebra to a compact group needs a real
+form, we treat none, and the $26$-points are not real in any case.
 \textbf{We state plainly what the field computation does and does not
 depend on}: $K$, the four invariant degrees, and the whole rung ladder are invariants of
 the triple $(\ee_6,\,2T,\,\text{principal }\sll_2)$ and \emph{not} of the figure-eight
@@ -1740,12 +1740,13 @@ that it is \emph{output-stable} at both applications: the three walls form one G
 orbit, and every point of the $14$-locus gives $A_2\oplus A_1$.
 \end{scope}
 
-\subsection{The $A_4$ stratum determines a global form}\label{sec:globalform}
+\subsection{The $A_4$ stratum, and a global form we do \emph{not} derive}\label{sec:globalform}
 
 Theorem~\ref{thm:smtfull} locates a stratum of dimension $26$, of Levi type $A_4$, i.e.\
-$\su(5)\oplus\uu(1)^2$. \textbf{That stratum carries information the terminal one does
-not}, and we state it because it is the sharpest output the cascade produces: it fixes a
-\emph{group}, where every other statement in this paper fixes only an algebra.
+$\su(5)\oplus\uu(1)^2$. \textbf{This subsection records what that stratum would connect
+to if a bridge existed, and states plainly that this paper does not build one.} An
+earlier draft called the result below the paper's principal output; that was wrong twice
+over, and both errors are stated before the proposition rather than after it.
 
 \begin{proposition}[the kernel is $\Z/6$]\label{prop:z6}
 Embed $\su(3)\oplus\su(2)\oplus\uu(1)$ in $\su(5)$ in the standard way, with the abelian
@@ -1766,27 +1767,34 @@ $e^{2i\theta}a=e^{-3i\theta}b=1$. Solving, $\theta\in\tfrac{\pi}{3}\Z$ and the s
 resulting triples are distinct, forming a cyclic group of order $6$.
 \end{proof}
 
-\begin{remark}[why this is the strongest thing the cascade emits]\label{rem:globalform}
+\begin{remark}[what this is, and the two reasons it is not ours]\label{rem:globalform}
 The algebra $\su(3)\oplus\su(2)\oplus\uu(1)$ does not determine its group: the four
-quotients by $\Gamma\in\{1,\Z_2,\Z_3,\Z_6\}$ all have that algebra, and no statement
-about the algebra distinguishes them. \textbf{Arriving through $\su(5)$ does
-distinguish them}, by Proposition~\ref{prop:z6}, and picks $\Z_6$.
+quotients by $\Gamma\in\{1,\Z_2,\Z_3,\Z_6\}$ share it, and no statement about the algebra
+distinguishes them. Sitting inside $\SU(5)$ does distinguish them, and picks $\Z_6$.
 
-\textbf{So the $A_4$ stratum answers a question that cannot be posed at the level of the
-Lie algebra at all}---which is a different kind of output from every other result here,
-all of which are statements about algebras. A reader who is counting what this
-construction produces should count this separately, and count it as the largest item.
+\textbf{First, this is not new.} It is standard grand-unification material in the
+Georgi--Glashow lineage~\cite{GeorgiGlashow,Hucks,BaezHuerta}, and the observation that
+the four quotients are indistinguishable by local data is Tong's~\cite{Tong}.
+Proposition~\ref{prop:z6} is included because the computation is short and the paper
+should not gesture at a fact it declines to display---\textbf{not because we claim it}.
 
-\begin{scope}
-Two limitations travel with it. \textbf{First, the $26$-points are not real}
-(Corollary~\ref{cor:realladder}), exactly as the $14$-point is not; whatever real-form
-statement is eventually made must be made for both together, and this paper does not
-make it. \textbf{Second, reaching $\su(3)\oplus\su(2)\oplus\uu(1)$ inside
-$\su(5)$ requires a further step that this paper does not take}: the cascade locates
-$A_4$, and Proposition~\ref{prop:z6} says what a standard embedding inside it yields.
-\textbf{We do not claim the cascade performs that embedding}, and the reader should read
-this subsection as identifying what the $A_4$ stratum makes available, not as a further
-link in the chain.
+\textbf{Second, and more seriously, no step in this paper reaches it.} The cascade
+produces a Levi \emph{subalgebra} over $\overline K$; Proposition~\ref{prop:z6} is about
+a map of compact real \emph{groups}. Passing from one to the other requires choosing a
+real form and exponentiating, \S\ref{sec:frame} onwards treats no real form, and by
+Corollary~\ref{cor:realladder} the $26$-points are not real, so no compact slice is
+available at them in any case. \textbf{The subalgebra and the group are not connected by
+anything in these pages}, and a reader should treat this subsection as recording a place
+where a bridge would be worth building, not as a result.
+
+\begin{scope}[what would have to be shown]\label{sc:bridge}
+To make this a result rather than a juxtaposition one would need, in order: a real form
+in which the $A_4$ stratum is realized---which requires first settling
+Scope~\ref{sc:norealform2}, where the source material argues that no real form hosts the
+holonomy at all---and then an argument that the cascade's $\su(5)\oplus\uu(1)^2$
+exponentiates to \emph{this} $\SU(5)$ rather than to another group with that algebra.
+\textbf{Neither is attempted here}, and until the first is settled the second cannot even
+be posed.
 \end{scope}
 \end{remark}
 
@@ -2499,6 +2507,18 @@ automorphen Functionen}, Erster Band, Teubner, 1897, for the trace identity; and
 W. Goldman, \emph{The modular group action on real $\SL(2)$-characters of a one-holed
 torus}, Geom. Topol. \textbf{7} (2003), 443--486, for the once-punctured-torus character
 variety.
+
+\bibitem{Tong} D. Tong, \emph{Line operators in the Standard Model}, J. High Energy
+  Phys. \textbf{2017} (2017), no.~7, 104; arXiv:1705.01853.
+
+\bibitem{GeorgiGlashow} H. Georgi and S.~L. Glashow, \emph{Unity of all
+  elementary-particle forces}, Phys. Rev. Lett. \textbf{32} (1974), 438--441.
+
+\bibitem{Hucks} J. Hucks, \emph{Global structure of the standard model, anomalies, and
+  charge quantization}, Phys. Rev. D \textbf{43} (1991), 2709--2717.
+
+\bibitem{BaezHuerta} J.~C. Baez and J. Huerta, \emph{The algebra of grand unified
+  theories}, Bull. Amer. Math. Soc. \textbf{47} (2010), 483--552.
 
 \bibitem{Cohn} H. Cohn, \emph{Approach to Markoff's minimal forms through modular
   functions}, Ann. of Math. (2) \textbf{61} (1955), 1--12.
