@@ -125,91 +125,54 @@ B962/L138 (the VEV picture), B959 (the centraliser no-go this sits outside of).
 
 ---
 
-# CELL 2 — the object's own idempotent pair does NOT give SU(5)
+# CELL 2 — WITHDRAWN
 
-**Verdict: NEGATIVE, and it is the sharpest negative in the arc.**
+**Status: WITHDRAWN 2026-08-17, the same day it was written. Its conclusion is not
+established and its framing was false. Nothing in cell 1 depends on it.**
 
-## THE QUESTION CELL 1 LEFT OPEN
+Cell 2 claimed that the object's idempotent pair fails to give `su(5)` because the two
+idempotents are orthogonal, hence in a degenerate relative position. **Three errors, each
+found only when the work was challenged rather than by the checks the cell itself ran.**
 
-The standard route is `E₆ → SU(5)` by **two Jordan-rank-1 VEVs**. That result is for two
-rank-1 elements in **general position**. The two the object supplies are not in general
-position: cell 1 showed `e₁ + e₂ + e₃ = 1` exactly, so they are two members of an
-**orthogonal frame**. Whether a frame pair is a general-position pair is a question, and
-the whole physics reading turns on it.
+**Error 1 — the reductive part was inferred from a dimension.** `dim 44` is ambiguous
+between `so(8) ⋉ 16` and `su(5) ⋉ 20`. Corrected by computing the Killing form's rank
+(28, so `su(5)` is out *for that pairing*). The conclusion survived; the argument had not.
 
-## THE COMPUTATION
+**Error 2 — "orthogonality is degenerate" is FALSE.** The control was never run. Over all
+351 pairs of weight vectors of the 27 the joint-stabiliser spectrum is `{44: 135,
+49: 216}`, so **44 is the generic value** and the object's pair sits in the *generic*
+orbit. Orthogonality costs nothing. The entire explanatory story was wrong.
 
-The joint stabiliser's Lie algebra is the annihilator `{X ∈ e₆ : X·u = 0}` — a linear
-condition, so a rank computation. `e₆` is the `c₇ = c₈ = 0` part of the `e₈` carrier,
-acting on the 27-block. Done mod primes at which the idempotent coordinates split, so the
-arithmetic is exact. **Confirmed at p = 1093, 1097, 1151 — identical.**
+**Error 3 — the wrong pairing was computed.** Two vectors of the *same* 27 never give
+`su(5)`. The standard route is `27 ⊕ 27-bar`, and that reproduces correctly: over all
+729 weight-vector pairs the minimum is `dim 45` with **Killing rank 24 = su(5)**. Cell 2
+answered a question nobody asked.
 
-| stabilised | dimension | Killing rank | reductive part |
-|---|---|---|---|
-| one idempotent | **61** | — | `so(10) ⋉ 16` — **the gate**, forced by rank-1 (78 − 17) |
-| **two** | **44** | **28** | `so(8)`, rank 4 |
-| all three | **28** | **28** | `so(8)`, reductive |
+An attempt to repair it immediately produced a fourth error: reusing the 27's idempotent
+coordinates on the 27-bar side gives vectors of stabiliser dimension **52, not 61** —
+i.e. **rank 3, not rank 1** — because the 27-bar has its own cubic form which was never
+computed. That pairing was rank-1 against rank-3 and is meaningless.
 
-**A CORRECTION TO THIS CELL'S FIRST WRITE-UP, recorded rather than silently patched.**
-The first version read the reductive part off the dimension 44 together with the
-observation that the 28 sits inside it. **That is not an argument**, and 44 is genuinely
-ambiguous:
+## WHAT SURVIVES, verified
 
-```
-    so(8) (x) 16  = 28 + 16 = 44          su(5) (x) 20 = 24 + 20 = 44
-```
+| statement | status |
+|---|---|
+| every weight vector of the minuscule 27 is rank 1 (stabiliser 61) | verified |
+| the three 2T-invariant idempotents of the 27 are rank 1 | verified |
+| two rank-1 elements of the same 27: generic stabiliser 44, reductive part 28 | verified |
+| the object's idempotent pair is in that **generic** orbit | verified |
+| `27 ⊕ 27-bar`, rank-1 both: minimum 45, reductive part **24 = su(5)** | verified |
+| **cell 1 (`J^{2T} ≅ K`)** | **untouched — no dependency on cell 2** |
 
-Both fit. The question was settled only by computing the **rank of the Killing form** on
-the stabiliser, whose radical contains the nilradical, so that its rank is the dimension
-of the reductive part. That rank is **28, not 24**, which excludes `su(5)`.
+## THE QUESTION THAT REMAINS OPEN
 
-The 28 is then pinned a second way: stabilising all three idempotents fixes their sum,
-the identity, so the group lies in `F₄`, where the pointwise frame stabiliser is
-`Spin(8)` of dimension 28. Both routes agree — but the first write-up had only the second
-route and presented it as if it settled the first question. It did not.
+Compute the **27-bar's own cubic form** and its own 2T-invariant idempotents, then the
+joint stabiliser of a 27-idempotent with a 27-bar-idempotent. Only that decides whether
+the object reaches `su(5)`. **It has not been computed.**
 
-## WHAT IT DECIDES
+## THE PATTERN, named because it recurred
 
-**Not 24, not 25.** `su(5)` and `su(5) ⊕ u(1)` are both excluded by dimension. **The
-object's canonical VEV pair does not produce SU(5).**
-
-And the group it does produce is achiral: `−1 ∈ W(D₄)`, so **every** representation of
-`so(8)` is self-dual, so the 27 restricts real. Right rank, no chirality.
-
-**This is the fourth independent arrival at the same trade-off**, and they are genuinely
-independent — different mechanisms, different arcs:
-
-1. **B953** — the θ-split: `78 = 52 (F₄) + 26`; `rank F₄ = 4`, all reps real
-2. **B959** — the τ-fold: reaches rank 4, makes the 27 self-dual
-3. **cell 1 / degree-0** — the canonical VEV direction is the Jordan identity, stabiliser `F₄`
-4. **cell 2 / the pair** — `so(8) ⋉ 16`, rank 4, all reps self-dual
-
-The object reaches rank 4 by every route it has, and **kills the 27's complexity every
-time**. That is now a pattern with four instances rather than a coincidence with one.
-
-## WHY, STRUCTURALLY
-
-Orthogonality is a **special** position, not a generic one. A frame pair is exactly the
-degenerate configuration. The object hands over its rank-1 elements already mutually
-orthogonal — because they are the primitive idempotents of a *field*, hence a complete
-frame — and that orthogonality is precisely what costs the SU(5).
-
-**So L138 does not fire even over ℝ**, and the reason is not the reality of the points but
-their relative position. Cell 1's "three idempotents over ℝ" is true and is not enough.
-
-## LIMITS
-
-- Dimensions are computed; the isomorphism types are **inferred from dimension plus the
-  independent 28 = frame-stabiliser reading**. A direct structure-constant identification
-  of the 44 was not done.
-- Mod-p rank can only *over*-estimate a nullity; agreement across three primes makes an
-  artefact unlikely but does not exclude it.
-
-
-## A GATE THAT WAS NAMED AND NOT RUN
-
-`cell2_stabilizer.py` carries a comment reading `# GATE: closed under bracket?` and that
-check was **never executed**. Stabilisers are subalgebras, so it is automatic and nothing
-downstream is wrong — but a gate that is named and not run reads as coverage it does not
-provide, which is precisely the failure this repository's discipline exists to catch. It
-is recorded here rather than quietly deleted.
+Three times in one cell I computed something *adjacent* to the question and read it as the
+answer — a dimension for a type, a special case for a generic one, a same-space pair for a
+conjugate pair. Each was caught by a challenge, not by a gate. The cell had gates and they
+all passed; they simply did not test the thing that was wrong.
