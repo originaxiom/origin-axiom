@@ -122,3 +122,71 @@ substituted.
 
 **Depends on:** B874 (the measurement ladder), B1011 (the McKay tensor and the two faces),
 B962/L138 (the VEV picture), B959 (the centraliser no-go this sits outside of).
+
+---
+
+# CELL 2 — the object's own idempotent pair does NOT give SU(5)
+
+**Verdict: NEGATIVE, and it is the sharpest negative in the arc.**
+
+## THE QUESTION CELL 1 LEFT OPEN
+
+The standard route is `E₆ → SU(5)` by **two Jordan-rank-1 VEVs**. That result is for two
+rank-1 elements in **general position**. The two the object supplies are not in general
+position: cell 1 showed `e₁ + e₂ + e₃ = 1` exactly, so they are two members of an
+**orthogonal frame**. Whether a frame pair is a general-position pair is a question, and
+the whole physics reading turns on it.
+
+## THE COMPUTATION
+
+The joint stabiliser's Lie algebra is the annihilator `{X ∈ e₆ : X·u = 0}` — a linear
+condition, so a rank computation. `e₆` is the `c₇ = c₈ = 0` part of the `e₈` carrier,
+acting on the 27-block. Done mod primes at which the idempotent coordinates split, so the
+arithmetic is exact. **Confirmed at p = 1093, 1097, 1151 — identical.**
+
+| stabilised | dimension | identification |
+|---|---|---|
+| one idempotent | **61** | `so(10) ⋉ 16` — **the gate**, forced by rank-1 (78 − 17) |
+| **two** | **44** | `so(8) ⋉ 16` — reductive part `so(8)`, rank 4 |
+| all three | **28** | `so(8)` — the pointwise frame stabiliser, independent confirmation |
+
+`44 = 28 + 16`, and the 28 is pinned independently: stabilising all three fixes their sum,
+the identity, so the group lies in `F₄`, where the pointwise frame stabiliser is `Spin(8)`
+of dimension 28. The two readings agree.
+
+## WHAT IT DECIDES
+
+**Not 24, not 25.** `su(5)` and `su(5) ⊕ u(1)` are both excluded by dimension. **The
+object's canonical VEV pair does not produce SU(5).**
+
+And the group it does produce is achiral: `−1 ∈ W(D₄)`, so **every** representation of
+`so(8)` is self-dual, so the 27 restricts real. Right rank, no chirality.
+
+**This is the fourth independent arrival at the same trade-off**, and they are genuinely
+independent — different mechanisms, different arcs:
+
+1. **B953** — the θ-split: `78 = 52 (F₄) + 26`; `rank F₄ = 4`, all reps real
+2. **B959** — the τ-fold: reaches rank 4, makes the 27 self-dual
+3. **cell 1 / degree-0** — the canonical VEV direction is the Jordan identity, stabiliser `F₄`
+4. **cell 2 / the pair** — `so(8) ⋉ 16`, rank 4, all reps self-dual
+
+The object reaches rank 4 by every route it has, and **kills the 27's complexity every
+time**. That is now a pattern with four instances rather than a coincidence with one.
+
+## WHY, STRUCTURALLY
+
+Orthogonality is a **special** position, not a generic one. A frame pair is exactly the
+degenerate configuration. The object hands over its rank-1 elements already mutually
+orthogonal — because they are the primitive idempotents of a *field*, hence a complete
+frame — and that orthogonality is precisely what costs the SU(5).
+
+**So L138 does not fire even over ℝ**, and the reason is not the reality of the points but
+their relative position. Cell 1's "three idempotents over ℝ" is true and is not enough.
+
+## LIMITS
+
+- Dimensions are computed; the isomorphism types are **inferred from dimension plus the
+  independent 28 = frame-stabiliser reading**. A direct structure-constant identification
+  of the 44 was not done.
+- Mod-p rank can only *over*-estimate a nullity; agreement across three primes makes an
+  artefact unlikely but does not exclude it.
