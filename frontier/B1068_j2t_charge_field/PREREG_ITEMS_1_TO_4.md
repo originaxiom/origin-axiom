@@ -71,3 +71,43 @@ Every element used so far was rank 1. **GATE:** rank must be verified by stabili
 **Both directions are live.** This session produced seven negatives that dissolved and one
 near-miss positive (`ℚ(√77)` off a single prime on a biased sample). Neither failure mode is
 privileged.
+
+---
+
+# ITEM 2 — RESOLVED BEFORE COMPUTE: the premise was wrong
+
+**Checked immediately after sealing, at the cost of one computation.**
+
+The plan asserted that `2T/Q₈ ≅ ℤ/3` grades the 27 into `3+3+3` and that this is what an
+orbifold projection consumes. **Both halves fail.**
+
+- The `3+3+3` are multiplicities of the three **one-dimensional** characters and sum to
+  **9 of 27**. The other **18** dimensions sit in 2- and 3-dimensional `2T`-irreps. It is
+  not a grading of the 27.
+- `E₆`'s centre acts on an **irreducible** representation by a single scalar, so all 27
+  states share one central character. Orbifolding by the centre keeps everything or nothing.
+
+**The class decomposes, and is already covered:**
+
+| orbifold by | what it is | covered by |
+|---|---|---|
+| inner automorphisms | fixed algebra of a finite subgroup of `E₆` = a **centraliser** | `B959` ("measurement, holonomy, or finite image") |
+| outer automorphisms | involves `τ`; `Fix(τ)` makes the 27 **self-dual** | `B959` §2–3; chirality dies |
+
+**Verdict: EXHAUSTED-NEGATIVE, and the class is named** — orbifold projections are *not*
+outside the centraliser class. The plan misclassified them.
+
+## A finding worth more than the item
+
+**`B971`'s "no orbifold projection exists here" is CORRECT, but not for the reason it
+gives.** Its stated basis is π₁ and holonomy — cyclic abelianization, abelian holonomy,
+toral finite images. The actual reason is structural: orbifold projections *are* centraliser
+constructions, inner or outer, so the existing no-go already covers them.
+
+A right answer resting on the wrong argument would have survived indefinitely, because the
+conclusion is true and nothing would ever have flagged it. Recorded here so the next reader
+inherits the correct reason.
+
+**Consequence for item 3:** "a quotient that is not a commutant" is now the *only* genuinely
+uncovered operation class in the corpus — and it is exactly what survives this
+reclassification.
