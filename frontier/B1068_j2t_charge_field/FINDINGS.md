@@ -144,15 +144,29 @@ condition, so a rank computation. `e₆` is the `c₇ = c₈ = 0` part of the `e
 acting on the 27-block. Done mod primes at which the idempotent coordinates split, so the
 arithmetic is exact. **Confirmed at p = 1093, 1097, 1151 — identical.**
 
-| stabilised | dimension | identification |
-|---|---|---|
-| one idempotent | **61** | `so(10) ⋉ 16` — **the gate**, forced by rank-1 (78 − 17) |
-| **two** | **44** | `so(8) ⋉ 16` — reductive part `so(8)`, rank 4 |
-| all three | **28** | `so(8)` — the pointwise frame stabiliser, independent confirmation |
+| stabilised | dimension | Killing rank | reductive part |
+|---|---|---|---|
+| one idempotent | **61** | — | `so(10) ⋉ 16` — **the gate**, forced by rank-1 (78 − 17) |
+| **two** | **44** | **28** | `so(8)`, rank 4 |
+| all three | **28** | **28** | `so(8)`, reductive |
 
-`44 = 28 + 16`, and the 28 is pinned independently: stabilising all three fixes their sum,
-the identity, so the group lies in `F₄`, where the pointwise frame stabiliser is `Spin(8)`
-of dimension 28. The two readings agree.
+**A CORRECTION TO THIS CELL'S FIRST WRITE-UP, recorded rather than silently patched.**
+The first version read the reductive part off the dimension 44 together with the
+observation that the 28 sits inside it. **That is not an argument**, and 44 is genuinely
+ambiguous:
+
+```
+    so(8) (x) 16  = 28 + 16 = 44          su(5) (x) 20 = 24 + 20 = 44
+```
+
+Both fit. The question was settled only by computing the **rank of the Killing form** on
+the stabiliser, whose radical contains the nilradical, so that its rank is the dimension
+of the reductive part. That rank is **28, not 24**, which excludes `su(5)`.
+
+The 28 is then pinned a second way: stabilising all three idempotents fixes their sum,
+the identity, so the group lies in `F₄`, where the pointwise frame stabiliser is
+`Spin(8)` of dimension 28. Both routes agree — but the first write-up had only the second
+route and presented it as if it settled the first question. It did not.
 
 ## WHAT IT DECIDES
 
@@ -190,3 +204,12 @@ their relative position. Cell 1's "three idempotents over ℝ" is true and is no
   of the 44 was not done.
 - Mod-p rank can only *over*-estimate a nullity; agreement across three primes makes an
   artefact unlikely but does not exclude it.
+
+
+## A GATE THAT WAS NAMED AND NOT RUN
+
+`cell2_stabilizer.py` carries a comment reading `# GATE: closed under bracket?` and that
+check was **never executed**. Stabilisers are subalgebras, so it is automatic and nothing
+downstream is wrong — but a gate that is named and not run reads as coverage it does not
+provide, which is precisely the failure this repository's discipline exists to catch. It
+is recorded here rather than quietly deleted.
