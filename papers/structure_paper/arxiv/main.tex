@@ -1098,11 +1098,15 @@ data'' creates.} At level $15$ there are two different groups in play: the
 $360$}, while the full six-dimensional stage above has order $2880$, of index $8$. A
 claim that the level-$15$ group ``is'' $2T\times2I$ of order $2880$ is registered as
 retracted precisely because it conflates those two; the present statement is about the
-six-dimensional stage and says so. We record that $\rho$'s structure constants are
-specified in the source computation and \textbf{are not reconstructed in this paper}, so
-Proposition~\ref{prop:2880} is a certificate whose ambient representation is cited rather
-than rebuilt here, and \S\ref{sec:entrance}'s conclusions do not rest on it---it
-supplements Scope~\ref{sc:asym} rather than repairing it. \textbf{What the group order
+six-dimensional stage and says so. \textbf{$\rho$ is built rather than cited}
+(\fn{verify/check\_\allowbreak rho.py}): the six weights, the conformal weights
+$h=(a^2{+}b^2{+}ab{+}3a{+}3b)/15$ from the inverse Cartan matrix of $A_2$, and the
+Kac--Peterson Weyl sum for $S$, validated by the four modular relations $T^{15}=I$,
+$S^4=I$, $S^2=C$ and $(ST)^3=S^2$ before any result is read. Earlier drafts recorded that
+its structure constants were specified in a source computation and not reconstructed here,
+which made Proposition~\ref{prop:2880} a certificate about an absent matrix; that is no
+longer so. \S\ref{sec:entrance}'s conclusions still do not rest on it---it supplements
+Scope~\ref{sc:asym} rather than repairing it. \textbf{What the group order
 does not by itself say is how the two factors sit inside the representation}, and that is
 the content of the next theorem.
 \end{scope}
@@ -3037,6 +3041,7 @@ Thm~\ref{thm:rungspec} (attainment), Rmk~\ref{rem:spectrumscope} & \fn{verify/ch
 Cor~\ref{cor:levi}, Rmk~\ref{rem:leviscope}, Thm~\ref{thm:rungspec} & \fn{verify/check\_\allowbreak levi\_\allowbreak arrangement.py} & all $64$ Levi subsystems with their types; $24$ is not a Levi dimension; the arrangement as the roots restricted to $C$, and the $109$ flats \textbf{exact over $\Q$}\\
 Thm~\ref{thm:classify}, Scope~\ref{sc:assembly} & \fn{verify/check\_\allowbreak assembly.py} & character tables of all six candidates by Dixon's algorithm; the block-sum lemma; and the assembly witnesses showing the condition narrows \textbf{nothing}\\
 Scope~\ref{sc:assembly} (the entrance), Lem~\ref{lem:quat} & \fn{verify/check\_\allowbreak quotients.py} & every pair checked: $48$ surjections onto $2T$ ($2$ up to $\operatorname{Aut}$), and \textbf{none} onto $A_5$ or $2I$\\
+Prop~\ref{prop:2880}, Thm~\ref{thm:coupling}, Scope~\ref{sc:2880} & \fn{verify/check\_\allowbreak rho.py} & $\rho$ \textbf{built} from the Kac--Peterson data and checked against the four modular relations; $|{\rm im}\,\rho|=2880$; the $\theta$-blocks $4{+}2$ and the odd block's $360$; the $63$-class match\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule

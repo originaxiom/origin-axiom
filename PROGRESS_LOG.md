@@ -10726,3 +10726,40 @@ that (V, f) be the 27 of E₆ with its Jordan determinant, i.e. that the assembl
 inside E₆. That is a different computation from the one described, and claiming its outcome now
 would repeat the error this arc exists to catch.
 
+---
+
+## 2026-08-18 — B8081: the matrix the paper never wrote down
+
+Campaign item 5. The paper carried two statements — a group order and a full decomposition —
+about a representation it declined to construct, and said so in its own scope words: *"rho's
+structure constants are specified in the source computation and are not reconstructed in this
+paper, so Proposition (2880) is a certificate whose ambient representation is cited rather than
+rebuilt here."* Its companion verify script could therefore only check trace *sets*.
+
+Building it turned out to need nothing but the Kac–Peterson data. SU(3) at level 2 fixes
+`k+g = 5` and `c = 16/5`; the six integrable weights are the `(a,b)` with `a+b ≤ 2`; the inverse
+Cartan matrix of `A₂` gives `h = (a²+b²+ab+3a+3b)/15`, and with `c/24 = 2/15` the six `T` entries
+are `ζ₁₅` to the 13, 2, 8, 2, 7, 8. **`ord T = 15` — the paper's own stated value — falls out.**
+`S` is the Weyl sum over the six elements of `W(A₂)`. Everything lands in ℚ(ζ₆₀), which is the
+field the paper's proof of the coupling law already names, so the arithmetic can be done exactly
+at primes `p ≡ 1 mod 60`.
+
+What matters methodologically is the order of operations. The four modular relations —
+`T¹⁵ = I`, `S⁴ = I`, `S² = C`, `(ST)³ = S²` — are checked *before* any result is read. They are
+what makes the object ρ rather than some other 6×6 matrix; a wrong prefactor or a wrong sign in
+the Weyl sum fails them immediately. Only then is anything computed.
+
+And then everything the paper asserts is there: the image of order **2880**; θ turning out to be
+**charge conjugation**, whose two fixed weights and two swapped pairs give exactly the
+**4 and 2** eigenspaces the coupling law needs, commuting with the image so they are invariant;
+the θ-odd block of order **360**, which is the very number Scope (2880) exists to keep apart from
+2880 (index 8); and **63 = 7×9** classes matching, size and both characters, an independently
+built quaternion model of 2T × 2I.
+
+The pattern across this campaign is now stable enough to name. Of the six items closed, three
+moved a paper statement from *asserted* to *computed* (the rung spectrum, the Levi enumeration,
+ρ), one moved it from *asserted* to *refuted* (the assembly classification), and in every case the
+difference was **running the computation the paper described instead of trusting the description**.
+The descriptions were not dishonest; two of them were flagged by the paper itself as owed. They
+were simply never executed, and four of the six times, executing them changed what could be said.
+

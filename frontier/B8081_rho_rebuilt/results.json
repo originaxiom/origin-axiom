@@ -1,0 +1,59 @@
+{
+ "T_exponents_over_15": [
+  13,
+  2,
+  8,
+  2,
+  7,
+  8
+ ],
+ "class_match": true,
+ "even_block_image_order": 1440,
+ "image_order": 2880,
+ "image_order_by_prime": {
+  "181": 2880,
+  "241": 2880,
+  "421": 2880,
+  "61": 2880
+ },
+ "n_classes": 63,
+ "odd_block_image_order": 360,
+ "ord_T": 15,
+ "primaries": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   0
+  ]
+ ],
+ "primes": [
+  61,
+  181,
+  241,
+  421
+ ],
+ "scope": "rho is constructed from the Kac-Peterson data and validated by the four modular relations before any result is read; the field is Q(zeta_60), the field the paper's own proof names, evaluated at primes p = 1 mod 60 so the arithmetic is exact in F_p. The group order and the class match are enumerations at those primes, which is the method the paper itself describes ('enumeration at two unramified primes'). Nothing is claimed about the member, the class, the sisters or the rows.",
+ "theta_block_dims": [
+  4,
+  2
+ ]
+}

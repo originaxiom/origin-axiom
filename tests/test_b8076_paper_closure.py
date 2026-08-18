@@ -75,8 +75,12 @@ def test_every_closed_item_names_evidence_that_exists():
             # PATH CLAIM if it looks like one; those must resolve, and at least one must be
             # present.  (A first version required every backticked token to be a file, which
             # made the lock reject `dim z(S)` -- reading the typesetter again, cf. _plain.)
+            # A path claim looks like a path: a slash and no spaces, or a known
+            # extension. (An earlier version accepted any token containing "/", which
+            # flagged the inline formula h = (a^2+b^2+ab+3a+3b)/15 as a missing file.)
             claims = [x for x in toks
-                      if "/" in x or x.endswith((".py", ".md", ".json", ".txt"))]
+                      if ("/" in x and " " not in x)
+                      or x.endswith((".py", ".md", ".json", ".txt"))]
             assert claims, f"item {n} is GREEN but names no evidence path: {evidence!r}"
             for p in claims:
                 full = os.path.join(ROOT, p.split(":")[0])

@@ -1,5 +1,46 @@
 # Changelog
 
+## B8081 (2026-08-18) — rho is built, so two paper statements stop being certificates
+
+Scope (2880) said of the representation both Proposition (2880) and the coupling
+law are about: "rho's structure constants are specified in the source
+computation and ARE NOT RECONSTRUCTED IN THIS PAPER, so Proposition (2880) is a
+certificate whose ambient representation is cited rather than rebuilt here." A
+group order and a full decomposition, asserted for a matrix never written down.
+
+It is written down now, from the Kac-Peterson data alone. SU(3) at level 2: dual
+Coxeter 3, so k+g = 5 and c = 16/5; the six integrable weights are the (a,b)
+with a+b <= 2; the inverse Cartan matrix of A2 gives
+h = (a^2+b^2+ab+3a+3b)/15 and c/24 = 2/15, so the six T entries are zeta_15 to
+the 13, 2, 8, 2, 7, 8 and ord T = 15 is derived rather than assumed. S is the
+Kac-Peterson Weyl sum. Everything lands in Q(zeta_60) -- the field this paper's
+own proof of the coupling law names -- evaluated at primes p = 1 mod 60 so the
+arithmetic is exact in F_p.
+
+The controls come first and are what make this rho rather than some other
+matrix: T^15 = I, S^4 = I, S^2 = C (charge conjugation) and (ST)^3 = S^2, all
+four at every prime. A wrong normalisation fails them.
+
+Then everything the paper claims follows. The image has order 2880 = |2T x 2I|
+at four primes. theta IS charge conjugation (a,b) -> (b,a): two fixed weights
+and two swapped pairs give eigenspaces of dimensions 4 and 2, it commutes with
+the whole image, and every element is block-diagonal. The theta-odd block has
+image of order 360 -- the value Scope (2880) gives for 2I x Z/3 -- so the
+360-versus-2880 distinction that scope exists to draw is reproduced, at index 8;
+the 4-dimensional block's image has order 1440. And there are 63 = 7 x 9
+conjugacy classes, with an exact class-by-class match of (size, chi(A)trV2(B),
+trV2(A)trV2(B)) against an independently built quaternion model of 2T x 2I --
+the 24 Hurwitz units and the 120 icosians, chi the order-3 character of 2T whose
+kernel is the order-8 Q8.
+
+Paper: Scope (2880)'s "not reconstructed in this paper" is deleted, along with
+the qualification that Prop (2880) is a certificate about a cited representation.
+verify/check_rho.py ships.
+
+Campaign: items 1, 2, 3, 4, 5 and 6 GREEN; six open. Three items have now moved
+a paper statement from asserted to computed, and one from asserted to refuted.
+
+
 ## B8080 (2026-08-18) — the polyhedral assembly classification is REFUTED
 
 The paper's Scope (assembly) flagged Theorem (classify) as owed in its own words:
