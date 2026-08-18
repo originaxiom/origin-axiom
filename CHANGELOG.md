@@ -1,5 +1,58 @@
 # Changelog
 
+## B1080 (2026-08-18) — the polyhedral assembly classification is REFUTED
+
+The paper's Scope (assembly) flagged Theorem (classify) as owed in its own words:
+"its code is not deposited, so by this paper's own standard the theorem is an
+assertion ABOUT a computation ... The full six-group classification should be
+read as unverified." The code is now written, and it refutes the theorem.
+
+A 27-dimensional assembly -- in exactly the paper's sense, a direct sum of
+non-trivial complex irreducibles of total dimension 27 carrying a non-degenerate
+invariant cubic form -- exists for ALL SIX candidates, not only A4 and 2T.
+
+The decider is the block-sum lemma. If W is IRREDUCIBLE with a non-zero
+invariant cubic f, its trilinear form has zero radical: the radical is G-stable,
+hence 0 or W, and W would force f = 0. So any block-diagonal sum of such modules
+is an assembly, and 27 is reachable for every candidate: 9x3 for S4 and 2O,
+3x4 + 3x5 for A5 and 2I, and 27 copies of an order-3 linear character for A4
+and 2T.
+
+The defect is MULTIPLICITY, not triviality. The definition had already been
+repaired once, after external review found that 27 copies of the TRIVIAL module
+satisfied it; the repair excluded trivial summands. The surviving witnesses for
+A4 and 2T are 27 copies of a non-trivial LINEAR character -- the refuted
+construction, twisted just enough to pass. The two groups the theorem kept were
+kept by the very mechanism the repair was meant to exclude.
+
+This is load-bearing. The next step needs the survivor set to be {A4, 2T} so
+that binariness isolates 2T. 2O and 2I survive and both are binary, by the
+paper's own Corollary (onlybinary), which this arc also verifies. So the failure
+is not absorbed downstream.
+
+What does not break: the entrance never ran through this theorem. It is the
+arithmetic surjection pi_1(4_1) -> SL(2,F_3) = 2T, verified exhaustively -- 48
+surjections, and none onto A5 or 2I over all 3600 and 14400 pairs. What is
+withdrawn is a corroborating argument that the entrance is not an assignment.
+
+Method: the six groups built as the theorem describes, characters COMPUTED by
+Dixon's algorithm at the least prime p > C(29,3) = 3654 with p = 1 mod 120, the
+lcm of the six exponents; no character value transcribed. The S4 and A5 cubics
+are additionally checked on explicit matrices over Q, invariance on every group
+element and radical zero. Control the arc did not choose: the 3-dimensional
+icosahedral irreducibles carry no invariant cubic, matching the classical
+invariant degrees 2, 6, 10.
+
+Paper corrected: the theorem restated to what is true, Scope (assembly)
+rewritten to record both failures and name the repair a correct classification
+would need, the section retitled "The entrance is arithmetic, not an
+assignment", and the "two survivors" sentence replaced. Two verify scripts ship:
+check_assembly.py and check_quotients.py. Retraction registered and swept.
+
+Campaign: items 1, 2, 3, 4 and 6 GREEN. Item 4 is the campaign's first
+refutation, and the prereg declared that outcome in advance.
+
+
 ## B1079 (2026-08-18) — the arrangement is the E6 root system restricted to C, and it is exact over Q
 
 B1078 left one residue: its flat enumeration was exhaustive at three faithful

@@ -10677,3 +10677,52 @@ than imported, and the two agree.
 The general point, which the corpus keeps re-learning: **the seat that registers a residue is not
 always the seat that closes it, and the closing tool was already banked on another branch.**
 
+---
+
+## 2026-08-18 — B1080: the campaign's first refutation, and it was self-inflicted twice
+
+Campaign item 4 asked for the enumeration behind Theorem (classify). The paper had already
+flagged it, precisely and to its own cost: *"its code is not deposited, so by this paper's own
+standard the theorem is an assertion ABOUT a computation … The full six-group classification
+should be read as unverified."* Writing that code refutes the theorem.
+
+The condition — a 27-dimensional direct sum of non-trivial complex irreducibles carrying a
+non-degenerate invariant cubic — is satisfied by **all six** candidates. One lemma settles it: an
+irreducible module with a non-zero invariant cubic has a trilinear form with **zero radical**,
+because the radical is a submodule and `W` would force `f = 0`. Block-diagonal sums of such
+modules are therefore assemblies, and 27 is reachable everywhere: `9×3` for S₄ and 2O, `3×4+3×5`
+for A₅ and 2I, `27×`(order-3 linear character) for A₄ and 2T.
+
+The part worth keeping is the shape of the mistake. This statement has now been wrong twice, the
+same way. The first version was refuted because every group has a 27-dimensional **trivial**
+representation, on which every cubic is invariant; the repair excluded trivial summands and
+demanded non-degeneracy. But the defect was never triviality — it was **multiplicity**. And the
+witnesses that survive for A₄ and 2T are 27 copies of a non-trivial **linear** character: the
+refuted construction, twisted just enough to pass the repair. **The two groups the theorem kept
+were kept by the very mechanism the repair was meant to exclude.** A repair aimed at the instance
+rather than the mechanism buys one round.
+
+It is load-bearing. The next step needs the survivors to be exactly {A₄, 2T} so that binariness
+picks 2T; 2O and 2I survive and both are binary, by the paper's own Corollary (onlybinary), which
+this arc verifies. So §sec:classification's argument is gone, and the section is retitled: the
+entrance is **arithmetic**, not a classification.
+
+What does not break, and it is the whole difference between a correction and a collapse: the
+entrance never ran through this theorem. It is the surjection π₁(4₁) ↠ SL(2,𝔽₃) ≅ 2T, which item 6
+verified exhaustively — 48 surjections onto 2T, and **none** onto A₅ or 2I over all 3600 and 14400
+pairs. That script now ships inside the submitted source, where it belongs, because it is now
+carrying the step alone.
+
+Method note, since the theorem claims it: the six groups are built as described — 2T the 24
+Hurwitz units, 2O the 48, 2I the 120 icosians, the rest permutation groups — and the characters
+are **computed**, by Dixon's algorithm at the least prime above C(29,3) with p ≡ 1 mod 120. Two
+bugs were mine and both were the same kind: I first took p ≡ 1 mod 60, which is not 1 mod exp(2O),
+and I read degrees at class index 0, which is not the identity class once −1 is central. Both
+surfaced as impossible character tables rather than as wrong answers, which is what the
+sum-of-squares and orthogonality controls are for.
+
+The repair owed is registered, not asserted: the definition must **pin** the cubic — naturally,
+that (V, f) be the 27 of E₆ with its Jordan determinant, i.e. that the assembly realise the group
+inside E₆. That is a different computation from the one described, and claiming its outcome now
+would repeat the error this arc exists to catch.
+
