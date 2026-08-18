@@ -10763,3 +10763,37 @@ difference was **running the computation the paper described instead of trusting
 The descriptions were not dishonest; two of them were flagged by the paper itself as owed. They
 were simply never executed, and four of the six times, executing them changed what could be said.
 
+---
+
+## 2026-08-19 — B8082: computing one half of a sentence, and saying which half
+
+Campaign item 7. The paper's own scope named exactly what was missing: *"which `H¹` is
+six-dimensional, and why it is unobstructed — and this paper does not compute it."* Two clauses.
+This arc computes the first and not the second, and the discipline that matters is reporting them
+apart rather than letting the computed half carry the uncomputed one.
+
+The computation is small once the structure is seen. `ρ₀` factors through `SL(2)`, so `𝔢₆` is a
+`π₁`-module built out of `Sym^{2m}(V₂)` for the six exponents, `3+9+11+15+17+23 = 78`, and twisted
+cohomology decomposes with it. Fox calculus on the one-relator presentation then gives
+`dim H¹ = 1` in every block, `H⁰ = 0` throughout — so 6, and the 1+5 split, with the exponent-1
+block literally the adjoint of `𝔰𝔩₂`.
+
+The control is the part I would keep if I could keep only one thing: the parabolic pair satisfies
+the relator **iff `t² − t + 1 = 0`**. That is not an input, it is a consequence, and it lands the
+trace field on ℚ(√−3) — the figure-eight's. Without it I would have computed the cohomology of
+*some* representation satisfying the relator; with it, of *the geometric* one.
+
+And then the finding that is a caution rather than a result: **2, 3 and 6 are not exponents of
+`E₆`, and they give `dim H¹ = 1` too.** So the per-block 1 belongs to the manifold, not to `E₆`.
+The six is the *number* of exponents — the rank — and "1+5 by exponent" counts rather than
+discovers. The paper's phrasing invited the stronger reading; it now states the weaker one. This
+is the same species as the assembly refutation two arcs ago: a statement that is true, and true
+for a more ordinary reason than its phrasing suggests.
+
+What is not computed is flagged in the paper rather than absorbed: `dim H² = 6` by the Euler
+characteristic, so the obstruction space is not zero and no dimension count settles
+unobstructedness. And nothing here touches selection — `ρ₀` is *defined* using the principal
+embedding, so (C6) remains a fully priced choice exactly as its scope already said. **Verifying a
+count is not upgrading a choice**, and the two get confused precisely when a verification is
+reported without its scope.
+

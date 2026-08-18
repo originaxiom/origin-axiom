@@ -1803,3 +1803,5 @@ x₁ sits in the (2,3) slot (the standard Freudenthal labeling, x_i opposite
 r_i), so the off-diagonal condition couples b+c = 1 — a transplant to
 (1,2) manufactures a false contradiction (the E1 species, caught live
 between two seats and settled by the full product check).**
+
+- **`tracked-forbidden` is red for ~75 loose relays banked on 2026-08-15 (`ad000777`), not by this seat.** The gate forbids cross-seat relays committed loose at root or under `docs/`; only relays archived *inside a frontier arc* are allowed, and exactly one is grandfathered. **This seat's own two outgoing relays are now archived compliantly** under `frontier/B8076_paper_closure/relays/`. The pre-existing 75 are **not unwound here**: `GOVERNANCE` §12 forbids removing banked paths, so relocating them is a merge-gate decision, not a branch one. Registered so the red is attributed rather than inherited silently. *(Incoming `CC_TO_CC3_*` letters at root are cc's correspondence delivered by the owner and are left where they were put.)*

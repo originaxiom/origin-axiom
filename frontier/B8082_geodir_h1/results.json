@@ -1,0 +1,54 @@
+{
+ "H0_by_exponent": {
+  "1": 0,
+  "11": 0,
+  "4": 0,
+  "5": 0,
+  "7": 0,
+  "8": 0
+ },
+ "H1_by_exponent": {
+  "1": 1,
+  "11": 1,
+  "4": 1,
+  "5": 1,
+  "7": 1,
+  "8": 1
+ },
+ "block_dims": {
+  "1": 3,
+  "11": 23,
+  "4": 9,
+  "5": 11,
+  "7": 15,
+  "8": 17
+ },
+ "dim_H2_by_euler_characteristic": 6,
+ "exponents": [
+  1,
+  4,
+  5,
+  7,
+  8,
+  11
+ ],
+ "non_exponents_also_one": {
+  "2": 1,
+  "3": 1,
+  "6": 1
+ },
+ "primes": [
+  997,
+  1009,
+  1021
+ ],
+ "scope": "The H^1 dimension count is computed exactly, at three primes with 6 | p-1, from Fox calculus on the one-relator presentation, block by block under the principal-sl2 decomposition. UNOBSTRUCTEDNESS IS NOT COMPUTED: the twisted Euler characteristic is zero and H^0 = H^3 = 0, so dim H^2 = 6 and the obstruction space is non-zero; that half needs obstruction theory or a citation and is registered as owed. The proposition also still cannot select what it assumes -- rho_0 is defined using the principal embedding -- so (C6) remains a fully priced choice.",
+ "split": [
+  1,
+  5
+ ],
+ "sum_block_dims": 78,
+ "total_H1": 6,
+ "trace_field_poly": "t^2 - t + 1",
+ "unobstructedness_computed": false
+}

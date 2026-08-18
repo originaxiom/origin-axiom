@@ -1,5 +1,50 @@
 # Changelog
 
+## B8082 (2026-08-19) — the geodir H^1 is computed; the adjective in it is not
+
+Campaign item 7. Scope (geodirscope) said of Proposition (geodir): "We give
+neither a proof nor a citation for the dimension count, and it should be read as
+unverified. It is a deformation-cohomology statement -- which H^1 is
+six-dimensional, and why it is unobstructed -- and this paper does not compute
+it." The first clause is now computed. The second is not, and separating them is
+the result.
+
+rho_0 factors through SL(2), so as a pi_1-module e6 decomposes by principal-sl2
+exponent into Sym^{2m}(V_2) for m in {1,4,5,7,8,11}, of dimensions
+3+9+11+15+17+23 = 78, and twisted cohomology follows the decomposition -- six
+small problems instead of one 78-dimensional one.
+
+Control first: pi_1(4_1) = <a,b | a w = w b> with w = b^-1 a b^-1 a^-1, and the
+parabolic pair A = [[1,1],[0,1]], B = [[1,0],[t,1]] satisfies the relator
+exactly when t^2 - t + 1 = 0. So t is a primitive sixth root of unity and the
+trace field is Q(sqrt(-3)) -- the figure-eight's. That is what identifies the
+solution as the geometric representation rather than another root of the relator.
+
+Result, by Fox calculus on the one-relator presentation, exact over F_p at three
+primes with 6 | p-1: dim H^1 = 1 in every block, H^0 = 0 throughout so B^1 is
+full, hence dim H^1 = 6 with the 1+5 split, the exponent-1 block being
+Sym^2(V_2), the adjoint of sl2 -- the embedded principal sl2 itself.
+
+One caution the paper now carries. The exponents 2, 3 and 6 are NOT exponents of
+E6, and they give dim H^1 = 1 as well. So the per-block contribution is a fact
+about this manifold and Sym^{2m}, not about which exponents E6 has: the six is
+the NUMBER of exponents, i.e. the rank, and "1+5 by exponent" is a way of
+counting rather than a discovery about E6. The previous phrasing invited the
+stronger reading.
+
+Not computed: unobstructedness. The twisted Euler characteristic of a knot
+exterior vanishes and H^0 = H^3 = 0, so dim H^2 = dim H^1 = 6 -- the obstruction
+space is not zero, and unobstructedness follows from no dimension count here. It
+needs obstruction theory or a citation, and is registered as owed.
+
+Selection is unchanged: rho_0 is defined using the principal embedding, so a
+statement computed at that point cannot distinguish it from other
+sl2-subalgebras. (C6) remains a fully priced choice, exactly as its own scope
+already records. This arc verifies a count; it does not upgrade a choice.
+
+verify/check_geodir.py ships. Campaign: items 1-7 GREEN; five open.
+
+
 ## B8081 (2026-08-18) — rho is built, so two paper statements stop being certificates
 
 Scope (2880) said of the representation both Proposition (2880) and the coupling

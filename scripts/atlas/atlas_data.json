@@ -18319,6 +18319,33 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B8081": {
+   "slug": "rho rebuilt",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8082": {
+   "slug": "geodir h1",
+   "motifs": [
+    "figure_eight",
+    "dickson_tower",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dormant",
+   "domain": "topology"
+  },
   "B808": {
    "slug": "empty cells",
    "motifs": [
