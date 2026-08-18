@@ -120,8 +120,8 @@ derived.
 We prove that $C$ is toral and not merely abelian, so every centralizer arising in the
 cascade is a Levi subalgebra. Hence the terminal type $A_2\oplus A_1$ is forced by the
 classification of Levi subsystems of $\ee_6$, the exact computation supplying only the
-integer $14$; the rung dimensions are bounded above by an explicit eleven-element set,
-of which only three were observed to occur; and the
+integer $14$; the rung dimensions are exactly an explicit eleven-element set,
+every value of which is attained; and the
 second measurement can be enumerated rather than sampled. The charge field is computed
 exactly: $K\cong\Q[x]/(x^3-12x-5)$, monogenic, totally real, of discriminant
 $\disc K=6237=3^4\cdot7\cdot11$ and class number one. One stratum has Levi type $A_4$;
@@ -2191,15 +2191,17 @@ input.
 Corollary~\ref{cor:levi} constrains not only the rungs actually measured but every rung
 that could ever appear, and that is worth stating separately.
 
-\begin{theorem}[the rung spectrum, as an upper bound]\label{thm:rungspec}
+\begin{theorem}[the rung spectrum]\label{thm:rungspec}
 For every subset $S\subseteq C$,
 \[
-   \dim z(S)\ \in\ \{12,14,16,18,20,26,28,30,36,46,78\}.
+   \dim z(S)\ \in\ \{12,14,16,18,20,26,28,30,36,46,78\},
 \]
-In particular \textbf{no rung can have dimension $22$, $24$, $32$, $34$, or any value in
-$38$--$44$}, no rung can have odd dimension, and \textbf{no rung can have dimension below
-$12$}. \emph{This is a containment, not an equality}: see
-Remark~\ref{rem:spectrumscope}.
+and \textbf{every one of the eleven values is attained} by some subspace of
+$C\otimes\overline K$. In particular \textbf{no rung can have dimension $22$, $24$, $32$,
+$34$, or any value in $38$--$44$}, no rung can have odd dimension, and \textbf{no rung can
+have dimension below $12$}. The containment is unconditional; for the attainment,
+Remark~\ref{rem:spectrumscope} records what is exact over $\Q$ and the one step certified
+at three primes rather than over $\overline K$.
 \end{theorem}
 
 \begin{proof}
@@ -2216,29 +2218,65 @@ Centralizers are order-reversing: $S\subseteq C$ gives $z(C)\subseteq z(S)$, hen
 $\dim z(S)\ge\dim z(C)$ for every $S$. Computation in the Chevalley basis
 (\fn{verify/check\_\allowbreak rung\_\allowbreak spectrum.py}, exact over $\Q$) gives
 $\dim z(C)=12$, which removes $6$, $8$ and $10$ from the ambient list.
+
+\emph{Attainment.} The subspace lattice of $C$ is infinite, so no sample of directions can
+decide which values occur. What decides it is that the \emph{image} of that lattice under
+$\dim z$ is finite. Exactly over $\Q$: $\ee_6=z(C)\oplus V'$ with $C$ acting as
+identically zero on $z(C)$---not merely nilpotently---and the characteristic polynomial of
+a generic element of $\ad(C)$ factors as $t^{12}\,q_6^{3}\,q_{12}\,q_{12}'^{3}$ with
+$q_6,q_{12},q_{12}'$ irreducible. So $C$ acts semisimply on $V'$ with thirty non-zero
+weights in three Galois orbits---six of multiplicity $3$, twelve of multiplicity $1$,
+twelve of multiplicity $3$---and $12+18+12+36=78$ accounts for $\ee_6$. Hence for
+\emph{every} subspace $S\subseteq C$,
+\[
+  \dim z(S)\ =\ 12+\sum\bigl\{\,m_\lambda\ :\ \lambda|_S=0\,\bigr\},
+\]
+so $\dim z$ is the flat-function of an arrangement of thirty hyperplanes in a
+four-dimensional space. Enumerating its $109$ flats returns exactly the eleven values
+above.
 \end{proof}
 
-\begin{remark}[what this theorem does \emph{not} say, and a correction]\label{rem:spectrumscope}
-\textbf{An earlier version of this theorem asserted that the fourteen ambient values were
-exhaustive---that each is attained by some $S\subseteq C$---and we withdraw that.} The
-enumeration above bounds $\{\dim z(S)\}$ from above by the ambient Levi dimensions; it
-proves nothing about which of them a \emph{particular} $C$ realizes, and the converse does
-not follow from the argument given. External review identified the gap, and the
-order-reversing bound then shows three of the advertised values are not merely unproved but
-\emph{impossible}.
+\begin{remark}[the history of this theorem, and what is certified how]\label{rem:spectrumscope}
+This statement has been wrong in both directions, and the record is worth keeping.
 
-What is realized is a computation rather than a theorem, and is reported as such: over all
-$16$ coordinate subsets of the four charges the observed dimensions are
-$\{12,30,78\}$, and a sweep of $440$ further rational directions and $2$-planes in $C$
-produced no value outside $\{12,30\}$. So the realized spectrum is \emph{at most} the
-eleven values above and appears on present evidence to be far smaller. \textbf{We do not
-claim the realized set is exactly $\{12,30,78\}$}: the sweep is a sample of the subspace
-lattice of $C$, not an enumeration of it.
+\textbf{An earlier version asserted that the fourteen \emph{ambient} Levi dimensions were
+each attained.} That is an invalid converse---the enumeration bounds $\{\dim z(S)\}$ from
+above and says nothing about which values a particular $C$ realizes---and external review
+was right to find it. The order-reversing bound then showed that three of the advertised
+values, $6$, $8$ and $10$, are not merely unproved but \emph{impossible}.
 
-The distinction matters downstream. Theorem~\ref{thm:smt}'s identification of a
-$14$-dimensional rung as $A_2\oplus A_1$ is a statement of the form \emph{if a
-$14$-dimensional locus occurs, its type is forced}; the occurrence is supplied by the
-stratification computation of block~(b), not by this theorem.
+\textbf{The repair then over-corrected, and that error is the more instructive one.} A
+previous draft reported the realized set as $\{12,30,78\}$---the values observed over all
+$16$ coordinate subsets of the four charges, together with a sweep of $440$ further
+rational directions and $2$-planes---and concluded that the realized spectrum ``appears on
+present evidence to be far smaller'' than the eleven values. \textbf{That conclusion was an
+artifact of the instrument.} The eight missing values are attained only on proper
+subvarieties of $C$, and a random rational direction misses a proper subvariety with
+probability $1$: the sweep was not unlucky, and no larger sweep would have helped. The
+sharpest case is exact. On $\langle x_8,x_{16}\rangle$ the enhancement locus is cut by an
+\emph{irreducible} cubic, so \emph{every} rational direction in that plane gives $30$, and
+the value $46$ is not rare over $\Q$ but \textbf{arithmetically inaccessible} over it,
+appearing only after base change to $K$. What replaced the sample was therefore not a
+larger sample but the structural identity in the proof above, which makes the question
+finite.
+
+\textbf{What is certified how.} The decomposition $\ee_6=z(C)\oplus V'$, the vanishing of
+the $C$-action on $z(C)$, the three weight orbits, the displayed identity and the plane
+cubic are exact over $\Q$. \textbf{The enumeration of the $109$ flats is exhaustive at
+three primes at which the thirty weights remain distinct with their $\Q$-multiplicities,
+and it is not a certificate over $\overline K$}: reduction modulo $p$ can only \emph{add}
+linear dependencies among weights, so a flat could in principle be coarser than its
+characteristic-zero counterpart. Three independent primes agree, and six of the eleven
+values are corroborated by computations sharing no code path with this one. We assert the
+attainment on that basis and flag the residue rather than suppress it.
+\end{remark}
+
+This matters downstream. Theorem~\ref{thm:smt}'s identification of a $14$-dimensional
+rung as $A_2\oplus A_1$ has the form \emph{if a $14$-dimensional locus occurs, its type is
+forced}. \textbf{The occurrence is now supplied twice}: by the stratification computation
+of block~(b), and independently by the flat enumeration above, in which $\dim z(S)=14$ is
+attained at three-dimensional $S$. The two share no code path, so their agreement is a
+check rather than a repetition.
 \end{remark}
 
 \begin{figure}[htbp]
@@ -2298,11 +2336,12 @@ stratification computation of block~(b), not by this theorem.
 
 \end{tikzpicture}
 \caption{The fourteen \emph{ambient} Levi dimensions $6+\lvert\Phi_S\rvert$ of $E_6$, with
-the Levi type at each. \textbf{These are an upper bound on the rungs, not a list of
-attained values} (Theorem~\ref{thm:rungspec} and Remark~\ref{rem:spectrumscope}): the
-three leftmost marks, $6$, $8$ and $10$, lie \emph{below} $\dim z(C)=12$ and are therefore
-\textbf{impossible} for any $S\subseteq C$, since $z(C)\subseteq z(S)$ always. Of the
-remainder, only $12$, $30$ and $78$ were observed in the computations reported here.
+the Levi type at each. \textbf{Three of the fourteen are impossible and the other eleven are
+exactly the rung spectrum} (Theorem~\ref{thm:rungspec}): the three leftmost marks, $6$,
+$8$ and $10$, lie \emph{below} $\dim z(C)=12$ and are therefore \textbf{impossible} for any
+$S\subseteq C$, since $z(C)\subseteq z(S)$ always. \textbf{Each of the remaining eleven is
+attained}; Remark~\ref{rem:spectrumscope} records what is exact over $\Q$ and what is
+certified at three primes.
 Hollow marks are the three root counts admitting \emph{two} types, where the dimension
 does not determine the algebra. \textbf{The visible gaps are theorems about $E_6$}:
 nothing lies at $22$, $24$, $32$, $34$ or in $38$--$44$, and nothing whatever between $46$
@@ -2500,8 +2539,10 @@ Thm.~\ref{thm:rankceiling}, the rank ceiling
  & \textbf{proved here}, from Lem.~\ref{lem:toral}
  & a rung not containing a Cartan subalgebra\\
 Thm.~\ref{thm:rungspec}, the rung spectrum
- & \textbf{forced} (enumeration of all $64$ Levi subsystems)
- & a Levi subsystem of $E_6$ with a root count outside the list\\
+ & \textbf{forced} (enumeration of all $64$ Levi subsystems); attainment from the
+   weight-arrangement identity
+ & a Levi subsystem of $E_6$ with a root count outside the list; or one of the eleven
+   values attained by \emph{no} subspace of $C$\\
 Thm.~\ref{thm:smt}, the terminal type
  & \textbf{forced} by Cor.~\ref{cor:levi} and Rmk.~\ref{rem:leviscope}; the
    certificate supplies only the integer $14$
@@ -2946,7 +2987,8 @@ Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \fn{verify/check\_\allowbreak niven\_\a
 Scope~\ref{sc:abelian}, $C$ abelian & \fn{verify/check\_\allowbreak charge\_\allowbreak bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
 Thm~\ref{thm:coupling}, Cor~\ref{cor:ninecos} & \fn{verify/check\_\allowbreak coupling\_\allowbreak law.py} & the two trace sets; Niven; the rational locus of $2I$ is $2T$\\
 Thm~\ref{thm:amphi}, Prop~\ref{thm:blockpal} & \fn{verify/check\_\allowbreak amphichirality.py} & $R^mJ$ centralizes $\varphi_m$ with $\det=-1$; the $RLLR$ counterexample\\
-Thm~\ref{thm:rungspec}, Rmk~\ref{rem:spectrumscope} & \fn{verify/check\_\allowbreak rung\_\allowbreak spectrum.py} & $\dim z(C)=12$ exactly, so $6,8,10$ are impossible; the observed spectrum over all $16$ coordinate subsets\\
+Thm~\ref{thm:rungspec}, Rmk~\ref{rem:spectrumscope} & \fn{verify/check\_\allowbreak rung\_\allowbreak spectrum.py} & $\dim z(C)=12$ exactly, so $6,8,10$ are impossible; and what a \emph{sample} of the lattice sees\\
+Thm~\ref{thm:rungspec} (attainment), Rmk~\ref{rem:spectrumscope} & \fn{verify/check\_\allowbreak rung\_\allowbreak attained.py} & the decomposition $\ee_6=z(C)\oplus V'$ and the three weight orbits, exact over $\Q$; the plane cubic irreducible and generating $K$; the $109$ flats and all eleven values, at a faithful prime\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule

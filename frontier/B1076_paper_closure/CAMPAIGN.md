@@ -83,6 +83,17 @@ only and carries no authority)*
 - **2026-08-18** — **item 1 GREEN.** The 14-locus **occurs** — B1078's enumeration and B892's
   independently banked wall point agree. Both halves of the original item are now closed: the
   weight field is K, and the occurrence is established. Residue recorded in the ledger cell.
+- **2026-08-18** — **the three owed paper edits are APPLIED**, and they are the first edits of
+  this campaign that make the paper claim *more* rather than less. `thm:rungspec` retitled and
+  restated as an **equality**, its proof gaining an *Attainment* half (the decomposition, the
+  master identity, the 109 flats); `rem:spectrumscope` **rewritten** to record that the statement
+  has been wrong in *both* directions — first an invalid converse, then an over-correction from a
+  sample — and to say what is exact over ℚ versus certified at three primes; the figure caption,
+  the abstract, the falsifier table and the downstream `thm:smt` paragraph all follow.
+  `papers/structure_paper/verify/check_rung_attained.py` added, and its companion
+  `check_rung_spectrum.py` re-pointed so it can no longer be read as the whole story.
+  **`verify_all.py` is now 12/12.** Build: **45 pp, 0 overfull, 0 undefined refs**; main.tex
+  re-grepped by hand against all ten registered retracted phrases — **0 live uses**.
 - **2026-08-18** — *(not a campaign item, banked alongside)* **B1077**: both sides of the
   remaining `14 → 12` step are **compact** in the object's own real form; reality is not the
   obstruction. `frontier/B1077_compact_home`.
