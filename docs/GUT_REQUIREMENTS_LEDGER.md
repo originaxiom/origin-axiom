@@ -45,19 +45,27 @@ value-matching; nothing promotes to `CLAIMS.md`. Gate 5 untouched.
 | 1 embedding | E₆ boundary is structural and banked; the descent reaches su(3)⊕su(2)⊕u(1)³ | **see §D — rank obstruction** |
 | 2 anomaly freedom | inherited from E₆ (automatic) | reproduced, not derived |
 | 3 matter fits | the 27 and its branchings are banked (B897 and the cascade) | **structural** |
-| 3′ **the 12 exotics per generation** | **not addressed anywhere in the record** | **absent — a named gap** |
+| 3′ **the 12 exotics per generation** | **ADDRESSED (row corrected 2026-08-18).** **B884** grades the 27 at the enhancement point — `27 → [1 | 3,3,2,2 | 6,3,3,2,1,1]` — identifying the so(10)-vector as the Higgs block `(3,1)+(3̄,1)+(1,2)+(1,2)`; **B895** adds that the colour content is `3+3̄`, **vector-like**. Quantum numbers banked (B970/B978) | **structural; no values** |
 | 4 coupling unification | sin²θ_W = 3/8 tree-level; the run to M_Z **missed at 16σ** (B915) | **failed, sealed** |
-| 5 proton decay / M_GUT | not addressed | **absent** |
+| 5 proton decay / M_GUT | **PARTIALLY ADDRESSED (row corrected 2026-08-18).** **B867 S1** identifies the X,Y content exactly — the SM-step coset is `24−12 = 12 = dim[(3,2)+(3̄,2)]` — and **B881** computes the SM-graded coset commutation table as the mediation skeleton (28 nonzero cells, each single-target). **No lifetime, scale or rate is computed**, and none can be (the dimensionful no-go) | **structure yes, values no** |
 | 6 doublet–triplet | touched only via B925's Pati–Salam kill | **absent** |
 | 7 fermion mass relations | no values; three crossings negative | **absent** |
-| 8 neutrino mass | not addressed | **absent** |
+| 8 neutrino mass | **STRUCTURALLY ADDRESSED (row corrected 2026-08-18).** **B865**: the chain's singlets land in `(1,1)₀` — **the right-handed-neutrino slot** — and **B867 S1** records them occupying the `ν_R`/Majorana slot. **No mass, no seesaw scale** | **structure yes, values no** |
 | 9 monopoles | not addressed | **absent** |
-| 10 baryogenesis | not addressed | **absent** |
-| 11 explicit breaking sector | **none — see §D** | **absent, and structurally so** |
+| 10 baryogenesis | **PRECONDITIONS PRESENT (row corrected 2026-08-18).** **B867, PROVED — THE SAKHAROV GATE**: all three preconditions are present in banked structure. S1 the X,Y content `24−12 = 12`; S2 physical KM phases `(N−1)(N−2)/2` gives first-N-with-a-phase `= 3`, and B866's S₃ triple supplies **exactly 3**; S3 the transition is one-time, `V(φ)/κ = −(7+5√5)/12 < 0` with barrier `(5√5−7)/12 > 0`. **B867 fences itself: "NO asymmetry, rate, temperature or epoch is computed"** — the stage, not the play | **structure yes, values no** |
+| 11 explicit breaking sector | **NOT "none" (row corrected 2026-08-18).** **B853**: the hearing face carries a complete SSB kit — an order parameter `m = √5/3`, B6's **derived** (not fitted) potential, two vacua that are exact Galois conjugates `φ` and `−1/φ`, conjugate critical values, a barrier at `+0.348κ` and an arrow `V(φ) = −1.515κ < 0`. **B884** supplies the exact invariant cubic; **B885/B886** the vacuum-line/Higgs-block laws as theorems; **B859** the state-space order parameter, `OP = 818626500·√3`, **odd under the breaking symmetry**. What remains unsourced is the rank-reducing VEV **direction** (B1017), not the sector | **structure yes; one direction unsourced** |
 
 ---
 
-## D. THE RANK OBSTRUCTION — why the cascade cannot reach the SM
+## D. THE RANK OBSTRUCTION — why MEASUREMENT ALONE cannot reach the SM
+
+> **Heading corrected 2026-08-18.** It previously read *"why the cascade cannot reach
+> the SM"*, dropping the word **measurement** and thereby contradicting B952's own
+> LAW_MAP row: *"Does NOT say the object cannot reach the SM, only that **measurement
+> alone** cannot."* The *fused* cascade (B861/B863/B873/B994) is a subalgebra-menu
+> descent, not a centralizer computation — its dimensions run `46 → 25 → 12`, i.e.
+> rank `6 → 5 → 4` — and it is **not** rank-preserving. The theorem below is about
+> centralizers of subsets of `C`, and is true there.
 
 | algebra | rank |
 |---|---|

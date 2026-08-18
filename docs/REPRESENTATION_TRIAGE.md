@@ -31,7 +31,7 @@ when there is a lot to say.
 | `B861` | PENDING | **the cascade's ONE principle** — maximal residual symmetry among *registerable* options. Core cascade; part of the block B976 found missing. |
 | `B867` | PENDING | **the Sakharov gate** — all three baryogenesis preconditions, structural only. Substantial and entirely unrowed. |
 | `B869` | PENDING | **G4 closed** — the false-positive control passes; the cascade rule is not an SM-generator regardless of input. |
-| `B870` | PENDING | **G7 closed** — the central-extension lift obstruction, computed exactly. |
+| `B870` | RESOLVED (2026-08-18: LAW_MAP row written — the central-extension lift obstruction) | **G7 closed** — the central-extension lift obstruction, computed exactly. |
 | `B872` | PENDING | **the coset leg** — 32 = 16 + 16̄ at every enhancement point, two independent legs. |
 | `B874` | PENDING | **the measurement ladder** — the coordinate census of all 15 subtori of the 2T-torus, exact over ℚ. |
 | `B875` | PENDING | **the triality-tiling theorem** verified on an independent build, three legs in one reproducer. |

@@ -78,7 +78,50 @@ tone↔Hermitian junction) and L149 (the endpoint control) as its gating computa
 
 ---
 
-**The one-sentence claim.** *Given four typed external data and at most two declared anchors, a
+> ### ⚠ TWO LIVE QUESTIONS ON THE INPUT COUNT (added 2026-08-18, from a B600–B1000 sweep)
+>
+> Both bear on the hypotheses above and **neither is settled**; they are recorded here because
+> the sweep found them banked and cited nowhere on this surface.
+>
+> **1. "B766's three bits are all committed" has an open question attached.**
+> **B787 (PROVED)** establishes that **inversion `ι` is a 4th involution independent of B766's
+> set `{c, θ, γ₅, γ₃}`**, raising the `𝔽₂`-rank `3 → 4` unconditionally. **B787 fences its own
+> result and we keep the fence**: *"the stronger phrasing 'the measurement torsor is now rank 4'
+> assumes inversion is itself an OBSERVER/measurement closing operation; ι is a
+> character-variety-native operation whose status as a measurement choice is not established
+> here. B766's banked headline is therefore **EXTENDED, not contradicted**."* Whether `ι`
+> belongs in the observer's closing set is **L114, registered and never run**. So the premise
+> is not refuted — but it is not closed either, and the fifth-input argument leans on it.
+>
+> **2. One of the two `𝔽₂` bits is DERIVED, not imported.**
+> **B775 (P2-AABB)**: *"**γ₅ GENUINELY DERIVES from σ:a→ab**"* — the incidence matrix
+> `M = [[1,1],[1,0]]` has charpoly `λ²−λ−1`, discriminant **exactly 5**, so its splitting field
+> is `ℚ(√5)` with `Gal = ℤ/2` sending `φ ↔ 1−φ`: the same field, numbers and involution as
+> B766's `γ₅`. The arc's own summary: *"the golden Galois bit is **NOT imported** — it falls out
+> of σ:a→ab's own growth field. The object's arithmetic **self-generates one of its three closing
+> bits**."* **Scope, which the arc also states:** the same cell is `1 of 3 derives` — **`c` and
+> `θ` do NOT derive**. So the *branch structure* of `γ₅` is object-native; this does not by
+> itself retire the bit as a counted input, and no arc has re-run the count with it.
+>
+> **Neither correction is applied to the table above**, because doing so would require deciding
+> L114 and re-running the input census. They are flagged so the count is not quoted as settled.
+
+**The one-sentence claim.** *Given **five** typed external data and at most two declared anchors, a
 single forced combinatorial object determines the Standard Model's structural skeleton — including
 a global-form refinement the SM cannot fix about itself — determines no dimensionful quantity by
 theorem, and leaves exactly one tested wall, on which it names its own next test.*
+
+> **Count corrected here 2026-08-17 (an instance B1017's sweep missed).** B1017 changed the count
+> **4 → 5** and its propagation list records updating `THE_CLAIM` **§1** — which it did (line 15).
+> **This sentence, in a later section, kept the old number for nine days.** The fifth datum is the
+> **rank-closing VEV direction**: B1017 retracted *"chirality and rank compete for one resource"*
+> as a category slip, since τ and the VEV are different closings on both discriminants (τ removes
+> rank 2 and **kills** chirality, landing in F₄ where the 27 is real; ⟨1⟩ removes rank 1 and
+> **keeps** it). **The count rose because a claim was withdrawn, not because an assumption was
+> added.** Registered as an instance of the standing hazard that *retracting a claim does not
+> retract its instances* (`docs/RETRACTED_PHRASES.md` purpose note, L139/B965).
+>
+> **Do not conflate this count with the paper's.** `papers/structure_paper/` counts **stipulations**
+> — four named antecedents C2, C6, C7, C9, with the residue "one sign and one scale" — and states
+> plainly: *"We count stipulations, not chain links: the two counts differ, and conflating them is
+> an error earlier drafts made."*
