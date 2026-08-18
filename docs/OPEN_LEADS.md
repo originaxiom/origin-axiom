@@ -1812,8 +1812,13 @@ criterion in its place; B641 added to inputs). **Two symmetric closings**: a pos
 construction (a named stabilizer/Galois-orbit rule clearing AC1–AC5 with AC4′), or a
 structural NO in B1040-S3's form (the candidate symmetry group acts with no field-fixed
 point — u is intrinsically a SELECTION). Either closes the lead. **The named first
-computation** (G4, unattempted): the stabilizer/orbit computation for Aut(2T×2I) ×
-Gal(ℚ(ζ₆₀)/ℚ) acting on the unit spheres of ℂ²_odd and ℂ⁴_even. **Why it matters**: the
+computation — EXECUTED (B1070, Track A, 2026-08-18; every adversarial attack failed)**:
+the orbit/stabilizer run returned outcome (b) of the trichotomy — a distinguished
+finite orbit (12, the order-5 vertex type), with u3/u6 the UNIQUE Galois-individually-
+fixed pair inside it: existence POSITIVE, uniqueness THE PAIR. The lead's remaining
+open half is spec-compliance as a completed listener map: AC3 (the sister transplant —
+needs the silver instrument) and AC6 (type conformance on the u-dependent functionals)
+are UNATTEMPTED; the B1071 seal certifies the DERIVATION only. **Why it matters**: the
 main-goal directive (2026-08-18) — the bridge to SM physics runs through THE CROSSING
 CELL, whose one unknown is u; R11's open lane (coupling → mixing) consumes no anchors,
 so a constructed u yields sealed predictions with nothing in. Feeds: the crossing cell's

@@ -67,3 +67,35 @@ Fork point `3524b889` (B1024's seal, 2026-08-11). The cloud window: 30 arcs
 CONSOLIDATION_REFRESH_HANDOFF_2026-08-12 (in the handoffs directory of their branch — not a main path). The
 digest ledger (fixed denominator, every row dispositioned) is the companion
 artifact; this table is the resolver.
+
+---
+
+## THE AUDIT-SEAT BAND (ruled 2026-08-18 — the three-way B1068–B1070 collision, and the permanent fix)
+
+**The collision**: the audit seat banked `B1068_j2t_charge_field`, `B1069_conformal_selection`,
+`B1070_anomaly_rank_descent` *(retracted)* on its branch 2026-08-17; main landed
+`B1068_descent_inventory`, `B1069_hearing_biography`, `B1070_listener_derivation` on
+2026-08-18. Neither seat could see the other. The error registry had already collided
+FOUR times (E22/E39, E40's port assignment, E41, E42) — two seats minting from one
+sequence with no shared allocator collide by construction.
+
+**THE RULING (merge gate)**: reserved bands, permanent —
+- **main** mints the natural sequences (B…, E…) as always;
+- **the audit seat** mints arcs in **B8000+** and error classes in **E800+**;
+- **the cloud seat** keeps the qL namespace (above).
+
+The colliding three re-key on the audit branch as **B8068 / B8069 / B8070**, and the
+audit seat correctly extended the same remap to its whole 08-17/08-18 window —
+**B1068–B1080 → B8068–B8080, executed 2026-08-18** (one-digit remap, names unchanged,
+their 14 gates green including id-collisions, 81 tests across the moved arcs passing;
+the collision correspondence deliberately unrewritten as the record). Their pending
+error class takes **E843**; main's E43 stays free.
+**Port-assigns-numbers is UNCHANGED**: band numbers are branch-permanent; at
+harvest-and-rebank, content receives main-sequence numbers and this table records the
+mapping (band id ⟷ main id), exactly as the qL rows do.
+
+| audit-seat band id | content (their branch) | main id at port |
+|---|---|---|
+| B8068 | j2t charge field (e8_build; the paper's import root) | — (not yet ported) |
+| B8069 | conformal selection | — (not yet ported) |
+| B8070 | anomaly rank descent | RETRACTED on-branch; ports only as a record |

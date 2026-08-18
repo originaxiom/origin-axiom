@@ -1587,6 +1587,8 @@
    "refs": [
     "B593",
     "B641",
+    "B700",
+    "B713",
     "B856",
     "L166",
     "S3",
@@ -1594,7 +1596,7 @@
     "S5"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 3,
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },

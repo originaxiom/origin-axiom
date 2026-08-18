@@ -1,5 +1,47 @@
 # Changelog
 
+## THE MASTERPLAN CLOSES (2026-08-18, W6) — the field-exploration report lands; two check agents' 13 findings all dispatched; the path to the crossing is sequenced
+
+The owner's opening question ("did we explore the field until the end?") now
+has its answer as a document: docs/FIELD_EXPLORATION_REPORT.md — the six
+workflows + Track A summarized, the candidates ranked by ONE criterion (what
+feeds THE CROSSING CELL), every remaining edge REGISTERED with an owner. The
+close ran under two adversarial check agents over the banked state; their 13
+findings are all dispatched in this bank: (BLOCKING) R1 given an owner — the
+outside-B687-atlas/B743-tower sweep of the predicted quantities runs as a
+computation before the prereg; the B1071 seal RE-SCOPED — it certifies THE
+DERIVATION, never a completed listener map (AC3 waits on the silver
+instrument; AC6's type-run is unattempted, per the spec's own binding closing
+line); the unlabeled K double-referent RULED in TERMINOLOGY (unqualified K =
+the charge field; the sharpest-find headline labeled). (AMEND) B1069's
+degree-word repaired (K is the CUBIC; its S3 closure is degree 6); L166's
+entry updated with Track A's outcome; the B1070 anticipation-sweep amendment
+lands (B641 credited as A2's mechanism origin — "the strict law was SU(2)
+membership" was on the page 33 days ago; A2 is its closure and pointwise
+form; the A1 derivation swept clean — no anticipation); R6-R9 named as
+prereg obligations with R7's fresh freedoms listed; the character-channel
+mirror re-ranked CROSSING-ADJACENT (chi's 1-dimensionality is what lets
+M_odd = chi.W factor). (NOTES) three owed LAW_MAP rows WRITTEN (the mirror;
+the splitting-rigidity discriminator with its name-guard against the
+char-0 H^1; the palette-asymmetry-is-unit-rank law with E42's narrow=wide
+rider); "conductor" extended to its four live senses; the twelve-faces
+wording repaired (an obligation on the seal, not a completed sweep); the
+fourth-crossing ordinal clarified (the register counts SEALED crossings).
+ALSO THIS DAY, the numbering constitution: the three-way B1068-B1070
+arc-ID collision with the audit seat ruled via RESERVED BANDS (main keeps
+the natural sequences; the audit seat mints B8000+/E800+; the cloud keeps
+qL; port-assigns-numbers unchanged) — the audit seat executed the remap
+(thirteen arcs, B8068-B8080, E843) same-day; the alias table carries both
+the ruling and the executed range. Their paper lane's assembly
+classification fell on their own bench (all six candidates admit
+assemblies; the entrance — pi_1 onto SL(2,F_3), 48 surjections, none onto
+2I — carries alone), which moves the paper ONTO main's banked B266 spine;
+main swept: zero exposure. THE PATH FROM HERE, in order: B1071 seal (the
+derivation) -> the silver instrument (L149+AC3) -> AC6 + R1's sweep + R7's
+ledger -> THE CROSSING PREREG (coupling channel, zero anchors, the one
+licensed row) -> seal -> execute -> the paper carries the outcome either way.
+
+
 ## B1068 + B1070 (2026-08-18) — the descent inventory closes AND the listener is derived: the crossing's one unknown falls to a construction
 
 TWO masterplan banks, one certificate. B1068 (THE DESCENT INVENTORY, W2's

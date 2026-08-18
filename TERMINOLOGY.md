@@ -383,3 +383,22 @@ No invariant may be transferred between these without an explicit map.
   for the trace-map surface, counted in COMPUTE_THE_PROGRAM §1's addendum, NOT in
   THE_CLAIM whose chain never consumes it). Any sentence using "the swap" says which
   role. The two-referent pattern's newest member.
+
+
+## "K" (the letter) — FOUR live referents; unqualified "K" means the charge field (ruled 2026-08-18, the W6 consolidation catch)
+
+**Unqualified `K` in any corpus document = the charge field ℚ[t]/μ ≅ ℚ[x]/(x³−12x−5)**
+(the S₃ CUBIC, disc 6237 = 3⁴·7·11, resolvent ℚ(√77)). Every other field the letter has
+locally named must be written by its radical: **ℚ(√−3)** (the being field — number-theory
+convention's "K" in B1067's ray-class sections), **ℚ(√5)** (the hearing field — B1069's
+biography sections use K = ℚ(√5) locally, flagged there), **ℚ(√−15)** (the seam). The
+instance that forced this row: "K's class group OPEN" (B1067's headline) is about the
+CHARGE field's 953-place — not about B1067's subject field ℚ(√−3), whose h = 1 is a
+control row. Three documents carried the unlabeled ambiguity (CAMPAIGN_STATUS,
+LISTENER_MAP_SPEC, the W6 draft) — labeled as of this rule.
+
+**"conductor" (extension of the standing two-referent row):** the masterplan window added
+two more live senses — the ray-class MODULUS (B1067/B1069's Cl_m) and the ORDER-conductor
+f of ℤ+fφℤ / ℤ+fωℤ (B1069's tower; B675's cusp sense). Four senses now live: cusp-order
+conductor · shadow modulus · ray-class modulus · order-conductor f. Every use names its
+sense.

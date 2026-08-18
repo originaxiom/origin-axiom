@@ -64,7 +64,9 @@ and B857 verbatim.
   construction (banking a new arc, extending the Hecke-palette reading into a real ray-class arc,
   writing the B92 correction upstream) is **W2/W3's** job, not this document's.
 - **No physics.** Nothing here feeds `CLAIMS.md` or crosses Gate 5.
-- **No conflation of ℚ(√5) with K.** K = ℚ[t]/μ (the sextic, resolvent √77, disc K =
+- **No conflation of ℚ(√5) with K.** K = ℚ[t]/μ (the CUBIC — its S₃ Galois closure has
+  degree 6; the degree-word here said "sextic" until the W6 consolidation check caught
+  it, 2026-08-18 — resolvent √77, disc K =
   6237 = 3⁴·7·11) is a **different field** from this document's ℚ(√5). This is exactly the
   conflation class RETRACTED under E41/RETRACTED_PHRASES row 9 in the repo's own most recent
   commit at assembly time (694d513f, HEAD, 2026-08-18): *"True statements about ℚ(√5) ramifying at

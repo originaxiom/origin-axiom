@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **974** |
-| words of findings prose | **664,640** |
+| words of findings prose | **664,895** |
 | test lock files referenced | **602** |
 | arcs carrying an authored verdict | **961** (98.7 %) |
 | recorded closures | **753** (586 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1070`** (1026 words, 0 locks)  
+**PROVED — `B1070`** (1259 words, 0 locks)  
 THE LISTENER DERIVATION (Track A of L166; 3 compute + 3 adversarial verifiers, every attack failed): the banked listener pair u3/u6 is DERIVED, not conventional -- on CP^1_odd the projective action of the instrument is the full 60-element icosahedral group (Aut(2Tx2I) = S4 x S5 exactly, no shear; the 2T factor acts by scalars), the exceptional orbits are 12/20/30 (+ generic 60, witnessed), u3/u6 sit exactly on the order-5 vertex axis (R|_odd's own eigenvectors, projective order 5), and WITHIN the 12-orbit they are the UNIQUE pair fixed individually by all 16 elements of Gal(Q(zeta_60)/Q) (the other 10 points genuinely move; Out reproduces the Galois sqrt5-flip, no new symmetry) -- so Lambda = 'the minimal exceptional orbit's Galois-fixed directions' outputs exactly {u3, u6}: L166's existence closes POSITIVE at outcome (b), uniqueness closes as THE PAIR. Companions, both adversarially verified: B641 upgrades to THEOREM-EXACT over the whole odd line (M_odd(g) = chi(g) W(g) with W in SU(2) exactly for all 2880 elements; Re = half-trace for EVERY unit u), the discriminating complement is closed-form (Im = <n(g), Bloch(u)>, axes exact for m = 1..5, separates points); the even sector varies with u exactly at m = 1, 2, 4 (T_m eigenvalues +-sin(2pi/5), +-sqrt3/2, +-sin(2pi/5) -- the two ends' flavors), is forced-zero at m = 3, 5, admits NO joint eigenframe (the T_m pairwise non-commuting), and B1011-C6's banked mirror value set is PROVEN u-independent ((1/4)tr) -- the crossing's contact quantity therefore needs its own kind-row adjudication, flagged in the design facts. EXPLORATION-GRADE; the sealed re-derivation is the named promotion path before any crossing prereg cites it.  
 `B1070_listener_derivation/FINDINGS.md`
 

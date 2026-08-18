@@ -231,8 +231,9 @@ Net: the license table's six-fence "COMPLIANT" is accurate as far as it goes -- 
 **Explicitly NOT needed (so nobody precomputes it)**: the child family — B718's ledger is
 decisive that the child inherits nothing structured (no field law, no charged skeleton,
 golden slope generic); the SM structure does not migrate to the closing. The child is not
-crossing-relevant. The twelve faces are complete (the sweep's rows); the object side's
-one open item is C2.
+crossing-relevant. The twelve faces are the PREREG'S OWN ROWS to fill (the both-checklists
+rule — an obligation on the seal, not a completed sweep; wording corrected 2026-08-18,
+the W6 adversarial reader's catch); the object side's one open item is C2.
 
 **The execution sequence**: W2/W3 land → their banks (+ this document's bank) → Track A
 as the L166 opening arc → B1 → W6 synthesis (ranks everything by crossing-feed) → the

@@ -10624,3 +10624,20 @@ flag). L166 existence POSITIVE, uniqueness THE PAIR. The B1071 seal draft
 two check agents run over this banked state next, then the masterplan
 closes. Certificate hygiene: the arc_verdict house schema (id/title/
 instrument) restored on three arcs; THE_LADDER's currency read written.
+
+## 2026-08-18 (fifth bank) — W6: the masterplan closes; 13 check findings dispatched; the crossing path sequenced
+
+docs/FIELD_EXPLORATION_REPORT.md lands (the synthesis authored on the
+banking seat, per the tiering rule; two cheap check agents attacked it over
+the banked state). Every BLOCKING/AMEND dispatched same-bank: R1 owned (the
+atlas/tower sweep as a computation), the B1071 seal re-scoped (derivation
+only — AC3 gates on the silver build, AC6 unattempted), the K-referent
+ruled in TERMINOLOGY (four senses of "conductor" also now enumerated),
+B1069's cubic/sextic word repaired, L166 updated, the B641-credit amendment
+landed, three LAW_MAP rows written. The relay day's constitution: reserved
+numbering bands ruled and executed (audit seat B8000+/E800+, thirteen arcs
+remapped same-day, alias table updated); their assembly-classification
+refutation acknowledged (main zero-exposure; the paper moves onto B266's
+arithmetic spine). The masterplan that opened with "did we explore the
+field until the end?" closes with the field explored to its named edges
+and the crossing sequenced: seal -> silver -> AC6+R1+R7 -> prereg -> run.

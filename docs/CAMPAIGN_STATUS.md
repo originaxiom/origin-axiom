@@ -16,6 +16,20 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-18 fifth bank, W6 — THE MASTERPLAN CLOSES):** the
+field-exploration report lands (docs/FIELD_EXPLORATION_REPORT.md); the two
+check agents' 13 findings all dispatched (R1 owned; the B1071 seal re-scoped
+to THE DERIVATION — AC3 gates on the silver instrument, AC6 unattempted; the
+K-referent ruled; three LAW_MAP rows written; the B641-credit amendment
+landed). The numbering constitution ruled and executed same-day (reserved
+bands: audit seat B8000+/E800+, thirteen arcs remapped; alias table). The
+audit seat's paper lane lost its assembly classification on its own bench —
+the entrance (π₁ ↠ SL(2,𝔽₃), 48 surjections, none onto 2I) carries alone,
+moving the paper ONTO main's B266 spine (main: zero exposure, swept). THE
+PATH: B1071 seal → the silver instrument → AC6 + R1's sweep + R7's ledger →
+THE CROSSING PREREG (coupling, zero anchors, one licensed row) → run → the
+paper either way.
+
 **LATEST (2026-08-18 fourth bank, B1068 + B1070 — THE LISTENER IS DERIVED):**
 The inventory closes (31 verdicts, two headline finds bench-confirmed: the
 character-channel mirror ω↔abelian/φ↔defining; the splitting-rigidity
@@ -87,7 +101,9 @@ mathematical claim re-derived on two independent routes) — the Hecke palette
 polynomial, and the one-object identification (ring class field = ray class
 field mod (4) = ℚ(ζ₁₂), the ray-class ℤ/2 swapping the two form classes).
 Three field censuses (157 facts) returned the biography roadmap as honest
-gap-lists; the sharpest find: K's class group is OPEN (the 953-place's
+gap-lists; the sharpest find: K's class group is OPEN (K = the CHARGE field
+ℚ[t]/μ per TERMINOLOGY's K-row, not this arc's subject field ℚ(√−3), whose
+h = 1 is a control — the label added 2026-08-18, the W6 catch; the 953-place's
 principality undecided — a named blocker). W2, the descent inventory, runs
 now; W3–W6 staged.
 

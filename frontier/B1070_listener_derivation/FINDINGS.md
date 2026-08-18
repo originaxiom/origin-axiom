@@ -56,3 +56,25 @@ The even 4-dim sector genuinely varies with the listener u for m=1,2,4 (T_m has 
 
 - `track_a_results.json` (the three items + the three adversarial verdicts, verbatim).
 - The verifiers' scripts lived in the session scratchpad (READ-ONLY discipline; repo untouched by agents).
+
+---
+
+## AMENDMENT 2026-08-18 (same day; the owner-prompted anticipation sweep) — B641 credited as A2's mechanism origin
+
+The deflation rule, applied to this arc's own A2 by a full-corpus sweep the owner
+requested: **B641 (2026-07-16) had already named the mechanism** — its FINDINGS states
+verbatim *"the strict law was SU(2) membership, not a hearing theorem"* (the second web
+seat's diagnosis, as B641 records) — and its Plancherel split (*"mean-square universal
+tone = mean-square overtone = 1/4"*) already established the u-dependent complement's
+existence and mean-square. A2 is therefore **the closure and pointwise form of B641's
+law, not a fresh discovery**: what is new here is (i) the theorem-grade extension from
+B641's 6 sampled real ears at 60 digits (LAW_MAP's own grading: proof sketch) to ALL
+2880 elements and ALL complex unit u, exactly (the μ₃·SU(2) group-closure + the
+half-trace lemma), and (ii) the overtone's pointwise closed form Im(ζ⁻¹u†M_odd u) =
+⟨n(g), Bloch(u)⟩ with exact axes — no Bloch-sphere pairing appears anywhere in the
+prior corpus (earlier "Bloch" hits are the Bloch group/dilogarithm, a different
+object). The A1 derivation (u3/u6 = the unique Galois-fixed vertex pair) and the A3
+landscape were swept the same way: **no anticipation found** — B593/B856 give a
+construction recipe with no uniqueness claim, B1011 C5 explicitly declines the
+derivation, and the Galois-fixed vocabulary of B700/B713 belongs to the disjoint
+observer battery. The B1071 seal draft inherits this credit line verbatim.
