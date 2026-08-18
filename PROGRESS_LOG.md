@@ -10569,3 +10569,22 @@ owner's standing directive (compute/verify on the mid tier, grep-sweeps on the
 small tier). The owner elected the post-masterplan lead: THE PAPER — the whole
 unbroken chain from not-nothing to SM structure, sent for review; W6's
 synthesis will feed it; registered in memory and CAMPAIGN_STATUS.
+
+## 2026-08-18 (second bank) — the crossing preparation: L166 registered, the door's whole paperwork landed
+
+The owner elected THE MAIN GOAL (SM physics, not just math; "we have all we
+need for the final computation") and gave GO. This bank: the W5 spec doc
+(docs/LISTENER_MAP_SPEC.md — Lambda as classification-not-fit; two-outcome
+existence; AC4 killed-as-vacuous by the adversarial lens and repaired to
+AC4' discrimination; B641 into inputs; 6/6 fences), L166 + the leads stamp
+to L167, the W4 closure (the 77-echo IS B882's conjecture — circularity
+proved for every in-bank route; undressed datum attaches split Q^3; KMRT
+section-43 floor typed), the kind-table CONSUMPTION LEDGER (the mirror row =
+the LAST unconsumed licensed contact row; the crossing's shape: Lambda -> u
+-> mirror prediction -> one shot, zero anchors), and the preparation order
+(section 4: Tracks A/B/C; the child family explicitly not needed; the silver
+instrument fused L149+AC3). Track A launched verified-workflow-style at the
+close (orbit/stabilizer; B641 to closed form; the theta-even landscape — the
+existence question's shape decides there). W2 (52/54) and W3 (7/15) still
+computing; their banks (B1068/B1069) follow separately. All fleet agents on
+the cheap tiers per the standing directive.

@@ -3,7 +3,7 @@
 *Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
 
 
-*As of Review 45 (2026-08-13): L160 closed (B1041); the digest renumbers qL155–qL166 at B1060; main's next lead L166 (stamp refreshed 2026-08-14; was stale at L161 since Review 45). Previous stamp: newest are L158 (V-owner), L159 (the gerbe question, reading-gated), L160 (the three cubes — one open leg); L157 amended (X4/X5).*
+*As of 2026-08-18: L166 REGISTERED (the listener map, posed — `docs/LISTENER_MAP_SPEC.md`; the crossing door); main's next lead L167. Prior: L160 closed (B1041); the digest renumbers qL155–qL166 at B1060 (qL-numbers are the branch's — the alias table disambiguates); stamp history: refreshed 2026-08-14 (was stale at L161 since Review 45).*
 
 A registry of **open leads**: directions named but not yet run, ranked by value and tractability. This is a
 *pointer file*, not a results file — nothing here is a claim, nothing promotes to `../CLAIMS.md`. Each lead is a
@@ -1801,3 +1801,20 @@ x₁ sits in the (2,3) slot (the standard Freudenthal labeling, x_i opposite
 r_i), so the off-diagonal condition couples b+c = 1 — a transplant to
 (1,2) manufactures a false contradiction (the E1 species, caught live
 between two seats and settled by the full product check).**
+
+## L166 — THE LISTENER MAP, posed (registered 2026-08-18; the W5 cell; the crossing door)
+
+**The problem**: a classification rule Λ : (field-side data of the B593/B1011 instrument) →
+(admissible unit directions u), never a guessed vector, never a fit. Full spec, licensing
+table (6/6 COMPLIANT), and adversarial check: `docs/LISTENER_MAP_SPEC.md` — including the
+bench repair (AC4 demoted as vacuous by B641's ear-independence; AC4′ discrimination
+criterion in its place; B641 added to inputs). **Two symmetric closings**: a positive
+construction (a named stabilizer/Galois-orbit rule clearing AC1–AC5 with AC4′), or a
+structural NO in B1040-S3's form (the candidate symmetry group acts with no field-fixed
+point — u is intrinsically a SELECTION). Either closes the lead. **The named first
+computation** (G4, unattempted): the stabilizer/orbit computation for Aut(2T×2I) ×
+Gal(ℚ(ζ₆₀)/ℚ) acting on the unit spheres of ℂ²_odd and ℂ⁴_even. **Why it matters**: the
+main-goal directive (2026-08-18) — the bridge to SM physics runs through THE CROSSING
+CELL, whose one unknown is u; R11's open lane (coupling → mixing) consumes no anchors,
+so a constructed u yields sealed predictions with nothing in. Feeds: the crossing cell's
+prereg (CROSSING_REQUIREMENTS R1–R11 + the twelve as rows; the location clause).

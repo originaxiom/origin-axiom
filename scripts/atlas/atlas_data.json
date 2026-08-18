@@ -19716,11 +19716,12 @@
     "firewall"
    ],
    "refs": [
+    "B882",
     "B886",
     "B894"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },

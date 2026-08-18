@@ -76,3 +76,28 @@ crossing's candidate class, now derived twice over (R5 × R2), with B856's singl
 - K4: the RG ranking (classical inputs cited; no new RG computation).
 - K5: register the corollary in CROSSING_REQUIREMENTS (R5/R2 now have their tables) + the
   mixing-lane look-elsewhere ledger opened with B856's exclusion as row 1.
+
+## THE CONSUMPTION LEDGER (added 2026-08-18 at L166's registration — the A4 adjudication; `doc-currency`)
+
+The one-shot rule consumes CONTACT ROWS, not vocabulary: a row is spent when a sealed
+comparison DRAWS on it. Booking, coupling channel (arc-cited):
+
+| coupling row | status | consumed by |
+|---|---|---|
+| tones (the five-tone set) | **CONSUMED** | B1066 R-B (the φ-geometric triple; MISS, decisive) |
+| probability (\|h\|²) | **CONSUMED** | B1066 R-A (the listener pair; MISS, decisive) |
+| phases (arg h ∈ {0, ±2π/3}) | **CONSUMED** | B1027 + B1063 (the pre-committed refresh; MISS both sectors) |
+| **mirror set (θ-even)** | **UNCONSUMED — the last licensed row** | never drawn on by any sealed comparison (B1011 C6 delivered the set; no arc took it to data) |
+
+Reading note: B1066's "the kind table's current rows were both consumed here" counts the
+TWO rows its own relations drew from (tones, probability) — the plain reading, since the
+channel has four rows and the phases row was consumed by earlier arcs. The pair-channel
+rows carry their own frame-relative fences (R10) and are not booked here.
+
+**The binding consequence for the crossing (L166 / `docs/LISTENER_MAP_SPEC.md`):** any
+future contact through the mirror row is a NEW ARC under a NEW SEAL against then-current
+data (the one-shot rule, B1063's precedent), and — per the main-goal architecture — only
+AFTER a constructed Λ pins u from field data (AC2's redaction test; never a fit). The
+mirror row is where AC4′'s discriminating territory sits (the Track-A A3 landscape): the
+crossing's designed shape is Λ → u → the mirror-sector prediction → this row's one shot,
+with zero anchors consumed (R11's open lane).

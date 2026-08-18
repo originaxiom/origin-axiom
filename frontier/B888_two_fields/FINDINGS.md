@@ -31,7 +31,14 @@ resolvent field is precisely the discriminant datum of the étale algebra.
 
 - **W4 (KMRT)**: the trialitarian structure's cubic étale algebra K comes with a distinguished
   quadratic ℚ(√77); the second (vacuum) field shares it — the formalization should treat the
-  resolvent-entangled PAIR, not K alone.
+  resolvent-entangled PAIR, not K alone. *(EXECUTED 2026-08-18: C77 formalized against the
+  banked D₄ datum at the measured plane; the UNDRESSED algebra attaches the split cubic ℚ³ —
+  trivial discriminant, no 77; unconditional C77 is CIRCULAR as the bank stands (the only
+  twist-source is the enhancement triple, whose resolvent is K by construction) — the echo is
+  exactly B882's arithmetic-S₃ = geometric-S₃ conjecture; decision route + the KMRT §43
+  literature floor registered in NOVELTY_SWEEP_LEDGER row 6. This arc's "observation,
+  unweighted... no mechanism claimed" stands, now with the proof that no cheaper mechanism
+  claim was available.)*
 - The field discriminants proper (vs polynomial discs) and the ramification detail at 2 are
   the priced next step of the identity card. *(Part-paid 2026-08-18: disc K = 6237 = 3⁴·7·11
   computed exactly via the reduced model x³−12x−5 — 2, 5, 13 are all model-borne and

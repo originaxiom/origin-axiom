@@ -1,5 +1,39 @@
 # Changelog
 
+## The crossing-preparation bank (2026-08-18) — L166 REGISTERED (the listener map, posed + licensed + adversarially repaired), the 77-echo closed to its true form, and the last licensed contact row identified
+
+THE MAIN GOAL was elected by the owner this day: make the programme about SM
+physics, not just math — the bridge runs through THE CROSSING CELL, whose one
+unknown is the listener direction u, constructed from field data, never
+fitted. This bank lands the door's paperwork. (1) L166: the listener-map
+problem SPEC (docs/LISTENER_MAP_SPEC.md, from the masterplan's W5 cell, 3
+agents 0 errors): Lambda posed as a classification rule from field-side data
+to admissible directions; existence/uniqueness each with named deciding
+computations (the two-outcome form — a construction OR a structural NO in
+B1040-S3's shape); licensing 6/6 fences COMPLIANT; the adversarial lens
+KILLED AC4 as vacuous (its checkpoints are listener-independent by B641's own
+ear-independence law — MB12 on the criterion) — repaired at the bench: AC4
+demoted to sanity, AC4' discrimination criterion in its place, B641 added to
+inputs. (2) The W4 cell closed the 77-echo's unconditional form as CIRCULAR:
+the undressed D4 datum attaches the SPLIT cubic Q^3 (no 77 in the bare
+algebra); the only in-bank twist-source is the enhancement triple whose
+resolvent IS K — the echo is exactly B882's arithmetic-S3 = geometric-S3
+conjecture, nothing weaker; decision route registered (in-sandbox Clifford
+computation + KMRT section 43, a typed literature floor — not on arXiv);
+three surfaces updated (sweep-ledger row 6, the masterplan's W4 row with its
+stale 5^2-ramification clause retired per E41, B888's feeds note). (3) THE
+CONSUMPTION LEDGER (docs/KIND_TABLE.md): the one-shot rule books CONTACT
+ROWS — tones/probability/phases CONSUMED (B1066 R-B / R-A / B1027+B1063);
+THE MIRROR ROW UNCONSUMED — the last licensed contact row in the coupling
+channel, exactly where AC4''s discriminating territory sits. The crossing's
+designed shape, one sentence: Lambda -> u -> the mirror-sector prediction ->
+the last row's one shot, zero anchors (R11's open lane). Track A (the L166
+opening computations: the orbit/stabilizer run, B641 to closed form, the
+theta-even landscape) launched as a verified workflow at this bank's close;
+the preparation order is section 4 of the spec (child family explicitly NOT
+needed — B718 decisive; the silver instrument IS — L149 + AC3 fused).
+
+
 ## Corrections bank (2026-08-18) — the audit seat's two catches land verified: C28's ramification clause was a model-invariant error (E41), and B874's negative gains its true scope (over ℝ)
 
 Two relay letters from the audit seat (2026-08-15), both verified on this

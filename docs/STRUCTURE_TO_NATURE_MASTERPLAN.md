@@ -27,9 +27,14 @@ suite green before push; both remotes; the decadal-review cadence.*
 - **W3. The canonical across-breakings dictionary** — convention-free fine structure (each
   frame's Levi selected by another frame's charges, closing the triangle). Lane: INLINE-DEEP
   → JOINT with the solo seat.
-- **W4. KMRT formalization** — the charge measurement as a trialitarian structure over ℚ with
-  étale algebra K; the 5²-ramification's classical meaning. Lane: INLINE-DEEP + WF-PANEL
-  literature support.
+- **W4. KMRT formalization** — **EXECUTED 2026-08-18** (the field-masterplan cell): C77
+  formalized non-presumptively; the undressed datum attaches the SPLIT cubic ℚ³ (trivial
+  discriminant — the 77 is not in the bare algebra); unconditional C77 proved CIRCULAR as
+  the bank stands (the only twist-source is the enhancement triple whose resolvent IS K) —
+  **the echo is exactly B882's arithmetic-S₃ = geometric-S₃ conjecture**; decision route
+  registered (Clifford C(A,σ) runnable-here + KMRT §43, a typed literature floor — not on
+  arXiv). The old "5²-ramification" clause here is retired by the C28 correction (E41):
+  5² is model-borne, not K-arithmetic. Full disposition: NOVELTY_SWEEP_LEDGER row 6.
 - **W5. Hygiene with yield** — R37-1 (the 19-gate could-it-still-fail audit; lane: WF-PANEL,
   one gate per agent); R37-2 (the promotion audit, FMT first; lane: INLINE + owner);
   λ₂'s landing (JOINT/cc3); the two papers (INLINE drafting, WF-PANEL referee passes).

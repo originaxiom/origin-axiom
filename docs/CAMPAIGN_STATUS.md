@@ -16,6 +16,23 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-18 second bank, THE MAIN GOAL + L166 — the crossing door is
+posed, licensed, and repaired):** The owner elected the main goal (SM physics,
+not just math) and gave GO. L166 REGISTERED: the listener map as a
+classification rule Λ from field-side data to admissible u — never a fit
+(docs/LISTENER_MAP_SPEC.md; 6/6 fences; AC4 killed-as-vacuous by the
+adversarial lens via B641's own ear-independence, repaired to the AC4′
+discrimination criterion). The W4 cell closed the 77-echo's unconditional
+form as CIRCULAR — it IS B882's arithmetic-S₃ = geometric-S₃ conjecture,
+with the undressed D4 datum attaching the split ℚ³ (no 77 in the bare
+algebra) and a registered decision route (Clifford-in-sandbox + KMRT §43, a
+typed floor). THE CONSUMPTION LEDGER lands in the kind table: the θ-even
+MIRROR ROW is the last unconsumed licensed contact row in the coupling
+channel — the crossing's designed shape is Λ → u → the mirror-sector
+prediction → one shot, ZERO anchors (R11's open lane). Track A (the L166
+opening computations) runs now; W2/W3 mid-flight; the paper carries the
+outcome either way.
+
 **LATEST (2026-08-18, the corrections bank + W2 resumes + THE PAPER elected):**
 Two audit-seat catches verified on this bench and landed. C28's clause "the
 golden 5 enters by ramification" was a model-invariant error (E41): disc K =
