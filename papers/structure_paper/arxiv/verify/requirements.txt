@@ -1,0 +1,9 @@
+# Appendix B, block (a) -- dependencies for the verification suite.
+#
+# Tested with Python 3.12 and SymPy 1.12.  Two of the eleven scripts
+# (check_homology.py, check_shadow_modulus.py) use only the standard library;
+# the other nine use SymPy for exact rational and symbolic arithmetic.
+#
+#   python3 -m pip install -r requirements.txt
+#   python3 verify_all.py
+sympy>=1.12

@@ -86,7 +86,7 @@ a chain through the figure-eight knot complement}
 \address{Independent Researcher}
 \email{driteroi@gmail.com}
 
-\date{16 August 2026}
+\date{18 August 2026}
 
 \subjclass[2020]{Primary 57K10, 11R16, 57M50; Secondary 17B25, 46L37, 11J06}
 \keywords{once-punctured torus bundles, Sturmian and Christoffel words, continued
@@ -120,7 +120,8 @@ derived.
 We prove that $C$ is toral and not merely abelian, so every centralizer arising in the
 cascade is a Levi subalgebra. Hence the terminal type $A_2\oplus A_1$ is forced by the
 classification of Levi subsystems of $\ee_6$, the exact computation supplying only the
-integer $14$; the attainable dimensions form an explicit fourteen-element set; and the
+integer $14$; the rung dimensions are bounded above by an explicit eleven-element set,
+of which only three were observed to occur; and the
 second measurement can be enumerated rather than sampled. The charge field is computed
 exactly: $K\cong\Q[x]/(x^3-12x-5)$, monogenic, totally real, of discriminant
 $\disc K=6237=3^4\cdot7\cdot11$ and class number one. One stratum has Levi type $A_4$;
@@ -130,7 +131,8 @@ $\SU(5)$ contains $\su(3)\oplus\su(2)\oplus\uu(1)$ with kernel exactly $\Z/6$.
 We report the ceiling with equal weight, because it is a theorem about the method and
 not a limit of effort: every centralizer of a subset of $C$ contains a Cartan
 subalgebra, so every rung has rank $6$, and any target of lower rank is unreachable by
-any sequence of measurements. We make no physical identification, and we do not treat
+any sequence of measurements \emph{taken inside $C$}---a hypothesis we flag rather than
+drop, since it does not extend to operations outside a fixed Cartan. We make no physical identification, and we do not treat
 real forms.
 \end{abstract}
 
@@ -208,11 +210,22 @@ words that nothing forces a $2$-space over a line or a $3$-space, that no theore
 $2T$ enter through the principal $\sll_2$, and that the interest in a complex
 fundamental is not derived. \textbf{A headline a reader can defeat by turning to the
 paper's own ledger is not worth defending.} What replaces it is weaker to say and harder
-to attack: \emph{the cost is not zero; it is exactly four things, each named before it
-is used, and everything after them is forced.} \textbf{This framing is more exposed than a list of
-priced choices}: an unnamed addition anywhere below refutes it.
+to attack: \emph{the cost is not zero; it is the named stipulations below, and everything
+after them is forced.} \textbf{This framing is more exposed than a list of priced choices}:
+an unnamed addition anywhere below refutes it.
 \textbf{We count stipulations, not chain links}: the two counts differ, and conflating
-them is an error earlier drafts made. We do \textbf{not} claim a derivation of physics, and no physical identification
+them is an error earlier drafts made.
+
+\textbf{We do not claim the count is exact, and a second referee was right to press this.}
+An earlier version said ``\emph{exactly} four things''. That cannot be asserted while
+\S\ref{sec:inputs} openly records that (C8) and (C9) were added \emph{after} an outside
+reading found them, with (C1)--(C7) having been presented as complete at the time; a
+ledger whose past versions were incomplete, and whose closure the paper expressly cannot
+prove, supports ``four at this version'' and not ``exactly four''. \textbf{So the ledger is
+offered as a versioned, append-only dependency audit rather than as a cardinality
+theorem}: these are the inputs this version consumes, each named before use, and the
+falsifier is unchanged and still sharp---exhibit an unnamed addition and the framing
+fails. Nothing downstream depends on the number being four. We do \textbf{not} claim a derivation of physics, and no physical identification
 is made in the body. Internal names are names of mathematical objects.
 
 \subsection{What the reader should be suspicious of}\label{sec:suspicious}
@@ -501,6 +514,16 @@ assert a threshold here, having verified only the witness above.
 This section is the paper. Before stating the criteria we state, and prove, the sense in
 which they are and are not independent---because the honest answer is sharper than the
 obvious claim, and it is what a referee will test first.
+
+\textbf{One quantifier, fixed here and meant throughout.} The criteria below operate on the
+\emph{diagonal family} $\{R^mL^m\}_{m\ge1}$ and its mapping tori $\{M_m\}$. That family is a
+\emph{proper subfamily} of the period-one locus characterized in Theorem~\ref{thm:canonical}:
+the characterization there is by trace and determinant, not by integral conjugacy class,
+and Scope~\ref{sc:latimer} exhibits a second class at $m=6$. \textbf{Nothing in this section
+selects within the period-one locus}; the selections choose a member of the diagonal family,
+and phrases like ``the canonical family'' should be read at the level of trace and
+eigenvalue data only. An earlier draft let that quantifier drift between grammars and
+manifolds, and a referee was right to press it.
 
 \begin{definition}[the letters, and the bridge to matrices]\label{def:RL}
 Write $R$ and $L$ for the two elementary Sturmian morphisms of $\{a,b\}^*$,
@@ -1046,9 +1069,12 @@ $\Q(\sqrt{-3})$ and hence $\F_3$ and hence $2T$.
 The asymmetry runs against the direction the phrasing invites. At the hyperbolic end
 Proposition~\ref{prop:mod3} gives a genuine group surjection
 $\pi_1(4_1)\twoheadrightarrow 2T$, with exactly two such quotients. At the spherical end
-there is \emph{no} surjection: $\pi_1(4_1)$ surjects onto neither $2I$ nor $A_5$, which we
-state without proof and without a citation that supports it---\cite{Stuebner} concerns
-integral homology spheres and $S^3\smallsetminus4_1$ is not one. \textbf{So as a
+there is \emph{no} surjection: we \textbf{conjecture} that $\pi_1(4_1)$ surjects onto
+neither $2I$ nor $A_5$, and we label it a conjecture rather than a fact because we have
+neither proof nor supporting citation---\cite{Stuebner} concerns integral homology spheres
+and $S^3\smallsetminus4_1$ is not one. (It should be decidable cheaply by enumerating
+quotients; we have not done so.) Likewise the count \emph{exactly two} in the preceding
+sentence is read off the same unshipped enumeration and carries the same status. \textbf{So as a
 statement about $\pi_1$ the $E_8$ end is field-level only}, and the two ramified-prime
 reductions are symmetric as fields but not as group surjections.
 \end{scope}
@@ -1191,9 +1217,28 @@ Among the six finite groups $\{A_4,S_4,2T,2O,A_5,2I\}$---constructed
 concretely, the binary ones as unit quaternions ($2T$ the $24$ Hurwitz units, $2O$ the
 $48$, $2I$ the $120$ icosians), the others as permutation groups, with conjugacy
 classes, power maps and characters computed rather than transcribed---a complex
-$27$-dimensional assembly carrying an invariant cubic form exists \textbf{only for
-$A_4$ and $2T$}.
+$27$-dimensional \emph{assembly}---by which we mean a direct sum of non-trivial complex
+irreducibles of total dimension $27$, carrying a non-degenerate invariant cubic
+form---exists \textbf{only for $A_4$ and $2T$}.
 \end{theorem}
+
+\begin{scope}[what the word \emph{assembly} must exclude, and a withdrawal]\label{sc:assembly}
+\textbf{An earlier version of this theorem used the word \emph{assembly} without defining
+it, and as stated the result was false}: every finite group has a $27$-dimensional
+\emph{trivial} representation, on which every cubic form is invariant. External review
+identified this. The definition above repairs the statement by excluding trivial summands
+and requiring non-degeneracy, which is the reading the enumeration actually used.
+
+\textbf{We flag what remains owed.} The enumeration behind this theorem is a search over
+multiset decompositions of $27$ into non-trivial irreducible degrees for each of the six
+groups, together with a non-degeneracy test on the resulting cubic. That search is
+described here but its code is not deposited, so by this paper's own standard the theorem
+is an assertion \emph{about} a computation. Until the code ships, the safe reading is the
+weaker one this paper actually consumes: $2T$ admits such an assembly (exhibited
+explicitly), and $2O$, $A_5$, $2I$ and $S_4$ do not---which is what
+Lemma~\ref{lem:quat} and the McKay step use. The full six-group classification should be
+read as unverified.
+\end{scope}
 
 Of the two survivors only $2T$ is binary, i.e.\ a subgroup of $\SU(2)$, which is what
 the McKay correspondence requires. Earlier drafts closed that last step with the
@@ -1473,6 +1518,21 @@ one-dimensional summand is the exponent-$1$ block, which \textbf{is the embedded
 principal $\sll_2$ itself}; the five remaining directions carry exponents
 $\{4,5,7,8,11\}$ and leave the $\sll_2$-factoring locus at first order.
 \end{proposition}
+
+\begin{scope}[this proposition is stated without proof, and it cannot select what it
+assumes]\label{sc:geodirscope}
+\textbf{We give neither a proof nor a citation for the dimension count, and it should be
+read as unverified.} It is a deformation-cohomology statement---which $H^1$ is
+six-dimensional, and why it is unobstructed---and this paper does not compute it. External
+review flagged this, correctly, as load-bearing: it is the whole content of the move from
+``a choice we made'' to ``the direction the object hands us''.
+
+\textbf{And even if correct it is not selective}, because the base point
+$\rho_0=\text{principal}\circ\rho_{\mathrm{geo}}$ is \emph{defined} using the principal
+embedding. A statement computed at a point that presupposes the principal $\sll_2$ cannot
+distinguish it from the alternatives. \textbf{So (C6) remains a fully priced choice}, as the
+input table records it, and the retyping suggested by the surrounding prose is withdrawn.
+\end{scope}
 
 \begin{remark}
 So the principal $\sll_2$ is not a slot the representation was placed into: it is the
@@ -1832,8 +1892,12 @@ The three walls are Galois conjugates of one another: one object seen three ways
 The algebra built from split octonions and split complexes by the Freudenthal--Tits
 construction satisfies the Jacobi identity on all $\binom{78}{3}=76\,076$ unordered
 basis triples, has Cartan matrix $E_6$, and admits an explicit isomorphism onto the
-Chevalley $\ee_6$ verified on all $\binom{78}{2}=3\,003$ basis pairs with zero
-discrepancies.
+Chevalley $\ee_6$. \textbf{The isomorphism is classical}~\cite{BartonSudbery};
+an earlier version claimed it \emph{verified on all} $\binom{78}{2}=3\,003$ basis pairs,
+and we withdraw that phrasing---no script in either block performs that check, and a
+certificate claim without a certificate is exactly what Appendix~B exists to prevent.
+(The Jacobi and antisymmetry checks quoted above \emph{are} shipped, in
+\fn{verify/check\_\allowbreak charge\_\allowbreak bracket.py}.)
 \end{theorem}
 
 \begin{scope}[which theorem carries the terminus]\label{sc:whichthm}
@@ -2127,22 +2191,55 @@ input.
 Corollary~\ref{cor:levi} constrains not only the rungs actually measured but every rung
 that could ever appear, and that is worth stating separately.
 
-\begin{theorem}[the rung spectrum]\label{thm:rungspec}
+\begin{theorem}[the rung spectrum, as an upper bound]\label{thm:rungspec}
 For every subset $S\subseteq C$,
 \[
-   \dim z(S)\ \in\ \{6,8,10,12,14,16,18,20,26,28,30,36,46,78\},
+   \dim z(S)\ \in\ \{12,14,16,18,20,26,28,30,36,46,78\}.
 \]
-and this list is exhaustive. In particular \textbf{no rung can have dimension $22$, $24$,
-$32$, $34$, or any value in $38$--$44$}, and no rung can have odd dimension.
+In particular \textbf{no rung can have dimension $22$, $24$, $32$, $34$, or any value in
+$38$--$44$}, no rung can have odd dimension, and \textbf{no rung can have dimension below
+$12$}. \emph{This is a containment, not an equality}: see
+Remark~\ref{rem:spectrumscope}.
 \end{theorem}
 
 \begin{proof}
+Two steps, and the second is what bounds the list from below.
+
 By Corollary~\ref{cor:levi} every $z(S)$ is a Levi subalgebra, so $\dim z(S)=6+\lvert
 \Phi_S\rvert$ with $\Phi_S$ a Levi subsystem of $E_6$. Every Levi subsystem is
 $W$-conjugate to the one generated by a subset of the simple roots, so enumerating the
-$2^6=64$ subsets enumerates every attainable root count; the resulting counts are
-$0,2,4,6,8,10,12,14,20,22,24,30,40,72$.
+$2^6=64$ subsets enumerates every root count available in the ambient algebra; the
+resulting counts are $0,2,4,6,8,10,12,14,20,22,24,30,40,72$, giving the fourteen ambient
+dimensions $6,8,10,12,14,16,18,20,26,28,30,36,46,78$.
+
+Centralizers are order-reversing: $S\subseteq C$ gives $z(C)\subseteq z(S)$, hence
+$\dim z(S)\ge\dim z(C)$ for every $S$. Computation in the Chevalley basis
+(\fn{verify/check\_\allowbreak rung\_\allowbreak spectrum.py}, exact over $\Q$) gives
+$\dim z(C)=12$, which removes $6$, $8$ and $10$ from the ambient list.
 \end{proof}
+
+\begin{remark}[what this theorem does \emph{not} say, and a correction]\label{rem:spectrumscope}
+\textbf{An earlier version of this theorem asserted that the fourteen ambient values were
+exhaustive---that each is attained by some $S\subseteq C$---and we withdraw that.} The
+enumeration above bounds $\{\dim z(S)\}$ from above by the ambient Levi dimensions; it
+proves nothing about which of them a \emph{particular} $C$ realizes, and the converse does
+not follow from the argument given. External review identified the gap, and the
+order-reversing bound then shows three of the advertised values are not merely unproved but
+\emph{impossible}.
+
+What is realized is a computation rather than a theorem, and is reported as such: over all
+$16$ coordinate subsets of the four charges the observed dimensions are
+$\{12,30,78\}$, and a sweep of $440$ further rational directions and $2$-planes in $C$
+produced no value outside $\{12,30\}$. So the realized spectrum is \emph{at most} the
+eleven values above and appears on present evidence to be far smaller. \textbf{We do not
+claim the realized set is exactly $\{12,30,78\}$}: the sweep is a sample of the subspace
+lattice of $C$, not an enumeration of it.
+
+The distinction matters downstream. Theorem~\ref{thm:smt}'s identification of a
+$14$-dimensional rung as $A_2\oplus A_1$ is a statement of the form \emph{if a
+$14$-dimensional locus occurs, its type is forced}; the occurrence is supplied by the
+stratification computation of block~(b), not by this theorem.
+\end{remark}
 
 \begin{figure}[htbp]
 \centering
@@ -2200,13 +2297,17 @@ $0,2,4,6,8,10,12,14,20,22,24,30,40,72$.
 \node[below,font=\tiny] at (9.13,-1.74) {nothing between $46$ and $78$};
 
 \end{tikzpicture}
-\caption{The complete rung spectrum of Theorem~\ref{thm:rungspec}: the fourteen values
-$\dim z(S)=6+\lvert\Phi_S\rvert$ that occur for any $S\subseteq C$, with the Levi type at
-each. Hollow marks are the three root counts admitting \emph{two} types, where the
-dimension does not determine the algebra. \textbf{The visible gaps are theorems}: nothing
-lies at $22$, $24$, $32$, $34$ or in $38$--$44$, and nothing whatever between $46$ and
-$78$. \textbf{Every mark is a rank-$6$ algebra} (Theorem~\ref{thm:rankceiling}), so no
-point of this diagram has rank below six however the measurement is made.}
+\caption{The fourteen \emph{ambient} Levi dimensions $6+\lvert\Phi_S\rvert$ of $E_6$, with
+the Levi type at each. \textbf{These are an upper bound on the rungs, not a list of
+attained values} (Theorem~\ref{thm:rungspec} and Remark~\ref{rem:spectrumscope}): the
+three leftmost marks, $6$, $8$ and $10$, lie \emph{below} $\dim z(C)=12$ and are therefore
+\textbf{impossible} for any $S\subseteq C$, since $z(C)\subseteq z(S)$ always. Of the
+remainder, only $12$, $30$ and $78$ were observed in the computations reported here.
+Hollow marks are the three root counts admitting \emph{two} types, where the dimension
+does not determine the algebra. \textbf{The visible gaps are theorems about $E_6$}:
+nothing lies at $22$, $24$, $32$, $34$ or in $38$--$44$, and nothing whatever between $46$
+and $78$. \textbf{Every mark is a rank-$6$ algebra} (Theorem~\ref{thm:rankceiling}), so no
+point of this diagram has rank below six when the measured set lies in $C$.}
 \label{fig:spectrum}
 \end{figure}
 
@@ -2240,7 +2341,12 @@ rather than a limit of effort.
 
 \begin{theorem}[the rank ceiling]\label{thm:rankceiling}
 Every algebra arising as $z(S)$ for $S\subseteq C$ has \textbf{rank $6$}. Consequently no
-rung has rank less than $6$, whatever the measurement.
+rung of \emph{this} cascade has rank less than $6$. \textbf{The hypothesis $S\subseteq C$
+is load-bearing and the statement does not extend beyond it}: centralizers of elements
+outside a fixed Cartan---nilpotent ones in particular---need not contain that Cartan, and
+in $\sll_2$ already the centralizer of a root vector is its own one-dimensional span. The
+ceiling is a theorem about measuring inside the fixed toral $C$, not about every operation
+one might perform on $\ee_6$.
 \end{theorem}
 
 \begin{proof}
@@ -2250,18 +2356,38 @@ subalgebra of $\ee_6$ has rank $6$.
 \end{proof}
 
 \begin{remark}[what the ceiling costs, stated plainly]\label{rem:ceilingcost}
-\textbf{Measurement preserves rank.} That is the content of the method of
-\S\ref{sec:price}: passing to a centralizer can only enlarge the commutant, never shrink
-the torus. So any target of rank below $6$ is unreachable by \emph{any} sequence of
-measurements---not merely unreached by the ones performed here.
+\textbf{Measurement inside $C$ preserves rank.} That is the content of the method of
+\S\ref{sec:price}: for $S\subseteq C$ the centralizer contains the Cartan holding $C$, so
+the torus is never shrunk. So any target of rank below $6$ is unreachable by any sequence
+of measurements \emph{of subsets of $C$}---not merely unreached by the ones performed
+here. \textbf{An earlier version of this remark said ``\emph{any} sequence of
+measurements'' without that restriction, and we withdraw the wider reading}: the argument
+uses $C\subseteq\h$ and says nothing about centralizers of elements outside a fixed
+Cartan. Nilpotent centralizers are the relevant class, and they do not contain $\h$---in
+$\sll_2$ the centralizer of a root vector is its own span. Whether some operation outside
+this method descends in rank is not settled here, and the ceiling should not be quoted as
+though it were.
 
-\textbf{This is the honest boundary of the whole construction}, and it is sharper than a
-list of things not attempted. Descending in rank requires an operation that is not
-measurement, and the object does not supply one; what we have called \emph{tracking}
-follows structure, it does not break it. \textbf{A reader who wants a lower-rank terminus
-should read Theorem~\ref{thm:rankceiling} as saying that this paper's method cannot
-deliver one}, and that the extra operation would be a further declared input over and
-above the ledger of \S\ref{sec:inputs}.
+\textbf{This is the honest boundary of \emph{this method}}, and it is sharper than a list of
+things not attempted. Descending in rank requires an operation that is not
+measurement-by-centralizer; what we have called \emph{tracking} follows structure, it does
+not break it.
+
+\textbf{We are careful about what is missing, because an earlier version of this remark got
+it wrong.} It said the object \emph{does not supply} such an operation. That is too strong,
+and the algebra refutes it: a vector $v$ in the $27$ has a stabilizer of \emph{lower} rank
+than $\ee_6$---the rank-one orbit's stabilizer is $\mathrm{Spin}(10)$, of rank $5$---so
+lower-rank subalgebras are visibly present, and passing to one is an operation the algebra
+plainly admits. What this paper lacks is not the operation but a \emph{canonical choice of
+direction} for it: the relevant loci are orbits of a group acting transitively, and an
+invariant constant on an orbit cannot single out a point of it. \textbf{So the extra input
+is a direction, not a mechanism}, and that is a materially weaker gap than ``no such
+operation exists''.
+
+\textbf{A reader who wants a lower-rank terminus should read
+Theorem~\ref{thm:rankceiling} as saying that measurement inside $C$ cannot deliver one},
+and that a rank-reducing step would be a further declared input---one \emph{direction}---over
+and above the ledger of \S\ref{sec:inputs}.
 
 We state this as a theorem rather than a caveat because it also explains a structure the
 reader has already seen: the rung spectrum of Theorem~\ref{thm:rungspec} consists
@@ -2627,18 +2753,36 @@ first two are one quantity.
   along the resulting ladder. \textbf{So there is no separate handedness to choose and
   then correlate with a direction: they are the same sign}, and counting them as two
   inputs double-counts. What the object does not supply is that one sign.
-\item[\textnormal{\textbf{One scale.}}] $\operatorname{Hom}(G,\R_+)=0$: the group carries
-  no non-trivial positive real character, \textbf{so no unit arises by that route}. An
-  earlier draft wrote ``so no unit is available internally'', and \textbf{that is a
-  strictly stronger statement which the displayed argument does not support}. Ruling out
-  one mechanism is not ruling out all of them: norms of algebraic numbers, regulators,
-  volumes, spectral invariants, analytic torsion and metric normalizations are all
-  positive quantities that a character computation says nothing about. \textbf{We have
-  not searched them}, and until a universe of admissible units is defined and every
-  admissible unit shown to be such a character, ``no scale is available internally'' is
-  a conjecture and is demoted here to one. What survives is the character statement and
-  the observation that even where a dimensionless relation is pinned, the unit in which
-  to read it is not.
+\item[\textnormal{\textbf{One scale---and by rigidity it is a unit, not a geometry.}}]
+  Two statements must be kept apart here, and an earlier draft of this scope kept neither.
+
+  \emph{What is not missing.} By Mostow--Prasad rigidity the complete hyperbolic structure
+  on a finite-volume hyperbolic $3$-manifold is unique up to isometry
+  \cite{Mostow,Prasad}, so the object's geometry is \emph{not} among the things a closing
+  supplies: the metric is determined by the topology, and every quantity computed from it
+  --- the volume among them --- is an invariant rather than a choice.
+  \textbf{An earlier reading of this scope treated the residue as though a geometry had to
+  be chosen, and that is too pessimistic.} What remains undetermined is the constant
+  converting one hyperbolic unit into another: curvature $-1$ is a normalization, and
+  $g\mapsto t^{2}g$ rescales curvature by $t^{-2}$ through a family of mutually homothetic
+  structures, all isometric as shapes. \textbf{The residue is therefore exactly one
+  positive number.}
+
+  \emph{Why we nonetheless do not claim that number is unreachable.}
+  $\operatorname{Hom}(G,\R_+)=0$: the group carries no non-trivial positive real character,
+  \textbf{so no unit arises by that route}. The vanishing is not special to this
+  $G$---if $g$ has order $n$ and $\chi(g)>0$, then $\chi(g)^{n}=1$ forces $\chi(g)=1$, so
+  it holds for \emph{every} finite group---and with it the entire layer of outputs whose
+  values are pinned by such a structure. An earlier draft wrote ``so no unit is available
+  internally'', and \textbf{that is a strictly stronger statement which the displayed
+  argument does not support}. Ruling out one route, even a whole layer, is not ruling out
+  all of them: volumes, regulators, spectral invariants and analytic torsion are positive
+  quantities lying outside that argument's hypothesis, and \textbf{this paper does not
+  settle them}. Until a universe of admissible units is defined and every admissible unit
+  shown to be excluded, ``no scale is available internally'' remains a conjecture and is
+  demoted here to one. What survives is the character statement, the rigidity sharpening
+  above, and the observation that even where a dimensionless relation is pinned, the unit
+  in which to read it is not.
 \end{description}
 
 \noindent\textbf{So the honest form of this paper's claim is neither ``nine choices''
@@ -2802,6 +2946,7 @@ Thm~\ref{thm:ends}, Cor~\ref{cor:noe7} & \fn{verify/check\_\allowbreak niven\_\a
 Scope~\ref{sc:abelian}, $C$ abelian & \fn{verify/check\_\allowbreak charge\_\allowbreak bracket.py} & $\ee_6$ from the Cartan matrix, Jacobi verified, $[x_{14},x_{22}]=0$ exactly\\
 Thm~\ref{thm:coupling}, Cor~\ref{cor:ninecos} & \fn{verify/check\_\allowbreak coupling\_\allowbreak law.py} & the two trace sets; Niven; the rational locus of $2I$ is $2T$\\
 Thm~\ref{thm:amphi}, Prop~\ref{thm:blockpal} & \fn{verify/check\_\allowbreak amphichirality.py} & $R^mJ$ centralizes $\varphi_m$ with $\det=-1$; the $RLLR$ counterexample\\
+Thm~\ref{thm:rungspec}, Rmk~\ref{rem:spectrumscope} & \fn{verify/check\_\allowbreak rung\_\allowbreak spectrum.py} & $\dim z(C)=12$ exactly, so $6,8,10$ are impossible; the observed spectrum over all $16$ coordinate subsets\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
@@ -2821,10 +2966,19 @@ Census~\ref{cen:forced} & \fn{forcedness\_\allowbreak census.py} & regenerated f
 
 \noindent Run \fn{python3 verify/verify\_\allowbreak all.py}; it executes exactly the scripts of
 block~(a), reports the count it ran, and exits non-zero on any drift or on an empty
-suite. \textbf{An archival snapshot with a permanent identifier accompanies the submitted
-version} and carries block~(b); a manuscript that promises runnable verification and
-supplies only a description does not meet its own standard, and neither does one whose
-runner silently covers a third of its own table.
+suite. \textbf{Block~(b) is not deposited at the time of writing, and we state that rather than
+promise it}: the files named in the table above live in the working repository and no
+permanent identifier for them exists yet. Until one does, every block~(b) row should be
+read as an assertion \emph{about} a computation rather than a runnable one---including
+the stratification on which Theorem~\ref{thm:smt}'s occurrence claim depends. A
+manuscript that promises runnable verification and supplies only a description does not
+meet its own standard, and neither does one whose runner silently covers a third of its
+own table.
+
+\noindent\textbf{Block~(a) requires SymPy} (tested with Python~3.12 and SymPy~1.12); the
+source ships a \fn{requirements.txt} and the runner performs a dependency preflight and
+names the missing module rather than failing eight scripts one at a time. Two of the ten
+scripts use only the standard library.
 
 \section{Corrections to earlier drafts}\label{app:corrections}
 
@@ -2962,6 +3116,13 @@ variety.
 
 \bibitem{BaezHuerta} J.~C. Baez and J. Huerta, \emph{The algebra of grand unified
   theories}, Bull. Amer. Math. Soc. \textbf{47} (2010), 483--552.
+
+\bibitem{Mostow} G.~D. Mostow, \emph{Quasi-conformal mappings in $n$-space and the
+  rigidity of hyperbolic space forms}, Inst. Hautes \'Etudes Sci. Publ. Math.
+  \textbf{34} (1968), 53--104.
+
+\bibitem{Prasad} G. Prasad, \emph{Strong rigidity of $\Q$-rank $1$ lattices},
+  Invent. Math. \textbf{21} (1973), 255--286.
 
 \bibitem{Cohn} H. Cohn, \emph{Approach to Markoff's minimal forms through modular
   functions}, Ann. of Math. (2) \textbf{61} (1955), 1--12.

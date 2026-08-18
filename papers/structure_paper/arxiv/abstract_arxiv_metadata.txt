@@ -1,29 +1,28 @@
 Let R^mL^m, m >= 1, be the metallic family of Sturmian morphisms. We characterize it
 intrinsically: the hyperbolic unimodular classes whose dominant eigenvalue has purely
-periodic continued fraction of period one are exactly those of determinant -1, with
-traces exactly the integers m >= 1. The characterization is by trace and determinant,
-not by conjugacy class -- at m=6 a second class occurs -- and period one is itself a
-declared input.
+periodic continued fraction of period one are exactly those of determinant -1, with traces
+exactly the integers m >= 1. The characterization is by trace and determinant, not
+conjugacy class, and period one is itself a declared input, which we price.
 
-We exhibit four exceptionality criteria on the family, three selecting the golden member
-m=1 and a fourth narrowing to {1,2}. The three collapse to one arithmetic condition:
-they test chi_m(1), chi_m(-1) and tr(phi_m) of one characteristic polynomial, each
-reducing to m^2=1.
+Inside the family we exhibit four exceptionality criteria, three selecting the golden
+member m=1 and a fourth narrowing to {1,2}. The three collapse to one arithmetic
+condition, each reducing to m^2=1; the surviving independence is mechanistic.
 
-The golden member is the figure-eight knot complement. From there nothing is added: we
-measure (pass to centralizers) and track (follow where the centralizer jumps).
-Nor is the target algebra chosen from a menu: the regular d-simplex has rotation group
-A_{d+1}, which lies in SO(3) only for d in {2,3,4}, and of those only d=3 has a McKay
-image both exceptional and with a complex fundamental -- and d=3 is what the
-figure-eight is glued from. This yields E_6 with a canonical charge algebra C of
-dimension four.
+The golden member is the figure-eight knot complement. From there nothing is added: we measure
+(pass to centralizers) and track (follow where the centralizer jumps).
+The target algebra comes from the manifold's own arithmetic: reducing the trace-field
+representation at the ramified prime gives pi_1(4_1) ->> SL(2,F_3) = 2T, and McKay gives
+e_6, carrying a canonical four-dimensional charge algebra C. A separate simplex filter
+selects d=3, though that criterion is imported rather than derived.
 
 We prove C is toral, not merely abelian, so every centralizer in the cascade is a Levi
-subalgebra. Hence the terminal type A_2 + A_1 is forced by the classification of Levi
-subsystems of E_6; the attainable dimensions form an explicit 14-element set; and the
-second measurement is exhaustive. The charge field is K = Q[x]/(x^3-12x-5), monogenic,
-totally real, of discriminant 6237 = 3^4 * 7 * 11 and class number one.
+subalgebra, and the terminal type A_2 + A_1 is forced by the classification of Levi
+subsystems of e_6. The charge field is computed exactly: K = Q[x]/(x^3-12x-5), totally
+real, discriminant
+6237 = 3^4.7.11, class number one. One stratum has Levi type A_4; that SU(5) contains
+su(3)+su(2)+u(1) with kernel Z/6 is recorded, not claimed.
 
-We report the ceiling with equal weight: every rung has rank 6, so any lower-rank target
-is unreachable by any sequence of measurements. We make no physical identification and
-treat no real forms.
+We report the ceiling with equal weight -- a theorem about the method, not a limit of
+effort: every centralizer of a subset of C contains a Cartan subalgebra, so every rung has
+rank 6, and any lower-rank target is unreachable by any sequence of measurements. We make
+no physical identification, and we do not treat real forms.

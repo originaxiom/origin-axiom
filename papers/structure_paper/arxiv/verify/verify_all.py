@@ -54,6 +54,20 @@ def main(argv):
     print("Appendix B — verification suite")
     print("=" * 70)
 
+    # Dependency preflight.  Nine of the eleven scripts need SymPy; without it they
+    # fail one at a time with an import error that looks like nine separate defects
+    # rather than one missing package.  Name it once, up front, and say what to do.
+    try:
+        import sympy  # noqa: F401
+    except ImportError:
+        print("FAIL: SymPy is not installed, and 9 of the "
+              f"{len(names)} checks require it.")
+        print("      Install it and re-run:")
+        print("          python3 -m pip install -r requirements.txt")
+        print("      (tested with Python 3.12 and SymPy 1.12; only")
+        print("       check_homology.py and check_shadow_modulus.py are stdlib-only)")
+        return 1
+
     results = []
     for name in names:
         proc = subprocess.run([sys.executable, os.path.join(HERE, name)],
