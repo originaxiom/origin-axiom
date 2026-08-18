@@ -1466,6 +1466,39 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1068": {
+   "slug": "descent inventory",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B206",
+    "B209",
+    "B509",
+    "B510",
+    "B666",
+    "B674",
+    "B692",
+    "B693",
+    "B698",
+    "B704",
+    "B743",
+    "H36",
+    "S3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1069": {
    "slug": "hearing biography",
    "motifs": [
@@ -1540,6 +1573,29 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 12,
    "status": "open",
+   "domain": "arithmetic"
+  },
+  "B1070": {
+   "slug": "listener derivation",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B593",
+    "B641",
+    "B856",
+    "L166",
+    "S3",
+    "S4",
+    "S5"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B107": {

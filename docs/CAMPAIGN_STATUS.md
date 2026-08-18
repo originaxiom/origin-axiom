@@ -16,6 +16,20 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-18 fourth bank, B1068 + B1070 — THE LISTENER IS DERIVED):**
+The inventory closes (31 verdicts, two headline finds bench-confirmed: the
+character-channel mirror ω↔abelian/φ↔defining; the splitting-rigidity
+discriminator H¹ = 0/1/0 at 3/5/7 — the golden prime uniquely non-rigid)
+and THE CROSSING'S ONE UNKNOWN FALLS: Λ = "the minimal exceptional orbit's
+Galois-fixed directions" outputs exactly {u3, u6} — the banked listener
+convention is a theorem (the vertex axis, unique Galois-rigid pair among
+62 exceptional points; every adversarial attack failed). B641 is a theorem
+over the whole odd line; both hearing channels are closed-form; the mirror
+value set is proven u-independent (the contact-quantity kind-row flagged
+for the prereg). L166: existence POSITIVE, uniqueness THE PAIR. Staged
+next: the B1071 seal (the promotion re-derivation), W6's checks, then THE
+CROSSING PREREG — channel coupling, anchors none, one licensed row.
+
 **LATEST (2026-08-18 third bank, B1069 — the hearing biography, and E42):**
 W3 delivered ℚ(√5) exhaustively: the hearing palette is 1, 1, 2 against
 being's 1, 2, 8 (the discriminator is unit rank — the free unit outraces the

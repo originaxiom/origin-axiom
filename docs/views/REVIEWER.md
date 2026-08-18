@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **972** |
-| words of findings prose | **661,996** |
+| research arcs with findings | **974** |
+| words of findings prose | **664,640** |
 | test lock files referenced | **602** |
-| arcs carrying an authored verdict | **959** (98.7 %) |
+| arcs carrying an authored verdict | **961** (98.7 %) |
 | recorded closures | **753** (586 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 634 |
+| PROVED | 636 |
 | NEGATIVE | 283 |
 | OPEN | 32 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1069`** (5207 words, 1 locks)  
-THE HEARING BIOGRAPHY: Q(sqrt5) built exhaustively as a number field on new ground (the field-masterplan W3 cell, 9 agents 0 errors, exact throughout, two adversarial lenses + bench re-verification): the splitting census for all 12 programme primes triple-checked (5 ramifies, 3 inert, 11 splits -- the banked frame reconfirmed fresh both directions of mutual blindness); O = Z[phi] with h = h+ = 1 drawn in-sandbox; THE HEARING HECKE PALETTE IS 1, 1, 2 at (2),(4),(8) against being's 1, 2, 8 -- the discriminator is Dirichlet unit rank (1 vs 0; the free unit outraces the residue tower), with 2-inert a shared control, not a cause; narrow ray class at (4)*inf1*inf2 = Z/2 x Z/2 NON-CYCLIC (new ground); the orders tower f = 1..5 unified exactly (f = 3, 4: h_wide = 1, h_narrow = 2), catching a live B92 error (h = 2 at disc 20 from an unflagged imprimitive form; true value 1, bench-confirmed by the class-number formula with unit index 3 and by exhibiting the imprimitive inflators); CM-typing exact (totally real, never CM, the cusp-torus mechanism cannot transplant -- but real multiplication on a Z^2-lattice stays live); the F11-adjacent bridge registered not claimed: B737's p3_sister.py uses the identical multiplier-ring construction as the orders table -- the Hilbert-modular/RM route to the golden ledger's one GAP now has a named on-ramp, while B739's character-rigidity governs what the palette cannot do (no voice claim made).  
-`B1069_hearing_biography/FINDINGS.md`
+**PROVED — `B1070`** (1026 words, 0 locks)  
+THE LISTENER DERIVATION (Track A of L166; 3 compute + 3 adversarial verifiers, every attack failed): the banked listener pair u3/u6 is DERIVED, not conventional -- on CP^1_odd the projective action of the instrument is the full 60-element icosahedral group (Aut(2Tx2I) = S4 x S5 exactly, no shear; the 2T factor acts by scalars), the exceptional orbits are 12/20/30 (+ generic 60, witnessed), u3/u6 sit exactly on the order-5 vertex axis (R|_odd's own eigenvectors, projective order 5), and WITHIN the 12-orbit they are the UNIQUE pair fixed individually by all 16 elements of Gal(Q(zeta_60)/Q) (the other 10 points genuinely move; Out reproduces the Galois sqrt5-flip, no new symmetry) -- so Lambda = 'the minimal exceptional orbit's Galois-fixed directions' outputs exactly {u3, u6}: L166's existence closes POSITIVE at outcome (b), uniqueness closes as THE PAIR. Companions, both adversarially verified: B641 upgrades to THEOREM-EXACT over the whole odd line (M_odd(g) = chi(g) W(g) with W in SU(2) exactly for all 2880 elements; Re = half-trace for EVERY unit u), the discriminating complement is closed-form (Im = <n(g), Bloch(u)>, axes exact for m = 1..5, separates points); the even sector varies with u exactly at m = 1, 2, 4 (T_m eigenvalues +-sin(2pi/5), +-sqrt3/2, +-sin(2pi/5) -- the two ends' flavors), is forced-zero at m = 3, 5, admits NO joint eigenframe (the T_m pairwise non-commuting), and B1011-C6's banked mirror value set is PROVEN u-independent ((1/4)tr) -- the crossing's contact quantity therefore needs its own kind-row adjudication, flagged in the design facts. EXPLORATION-GRADE; the sealed re-derivation is the named promotion path before any crossing prereg cites it.  
+`B1070_listener_derivation/FINDINGS.md`
 
 **NEGATIVE — `B1066`** (970 words, 0 locks)  
 NEGATIVE — both inventory-forced relations decisively excluded by the CURRENT global fit (NuFIT 6.1, Nov 2025 data, both orderings, delta profiled over the full circle): R-B (the phi-geometric row) fires NO trial anywhere — the delta-independent anchor |U_e1| = 0.8225(40) vs phi/2 = 0.80902 is 3.4 sigma and unrescuable; R-A (the listener pair) misses everywhere — sin^2th12 = 0.308(67) vs 0.27639 is 4.7 sigma. The two-execution history is the record per the covenant: execution 1 ran against superseded NuFIT 6.0 (the B1063 fetch-currency species reproduced same-day, caught by the owner + self-audit; its single wide-window firing on PMNS column 1 was a stale-release artifact, WITHDRAWN), execution 2 valid. The coupling channel — type-legal by construction, licensed by the kind table, never base-rate-tested — is now tested and closed; with the phases (B1027/B1063) and both remaining kind-rows consumed, the licensed value-contact surface is EXHAUSTED. The listener map named as the sole residual door. One-shot spent properly.  

@@ -10606,3 +10606,21 @@ the bench header with the whole verification record; the F11 on-ramp
 bridge, not a claim — W6 ranks it with everything else. Meanwhile W2 is in
 its final round (the critic added rows; 53/62 at last count) and Track A's
 three opening computations run. All agents cheap-tier throughout.
+
+## 2026-08-18 (fourth bank) — B1068 + B1070: the inventory closes, the listener falls to a construction
+
+The masterplan's centerpiece and the crossing's enabling result land
+together. B1068: 31 verdicts, 62 lens checks, 12 adjudications (zero
+reversals; one re-typing to PARTIAL that BANKS the splitting-rigidity
+discriminator — H^1 = 0/1/0 at 3/5/7, bench-confirmed by a fourth
+independent construction; p = 5 uniquely non-rigid). The character-channel
+mirror banked (omega abelian-only vs phi defining-only, one Lagrange fact).
+B1070: Lambda derived — the banked u3/u6 are the unique Galois-fixed
+vertex pair; B641 now a theorem over the whole odd line; both hearing
+channels in closed form; the even T_m spectra carry the two ends' flavors;
+the mirror value set proven u-independent (the contact-quantity kind-row
+flag). L166 existence POSITIVE, uniqueness THE PAIR. The B1071 seal draft
+(the promotion re-derivation) and the W6 synthesis draft are staged; W6's
+two check agents run over this banked state next, then the masterplan
+closes. Certificate hygiene: the arc_verdict house schema (id/title/
+instrument) restored on three arcs; THE_LADDER's currency read written.

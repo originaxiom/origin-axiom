@@ -1,5 +1,46 @@
 # Changelog
 
+## B1068 + B1070 (2026-08-18) — the descent inventory closes AND the listener is derived: the crossing's one unknown falls to a construction
+
+TWO masterplan banks, one certificate. B1068 (THE DESCENT INVENTORY, W2's
+close): 31 canonical structures of Q(sqrt-3) tested through the McKay chain
+under two adversarial lenses each — 17 OBSTRUCTED, 10 DESCENDS, 4
+ALREADY-BANKED; 12 disputes bench-adjudicated with zero reversals; the
+critic's 15 unconverged proposals typed as the honest pending tail. The two
+headline finds, both bench-confirmed: the CHARACTER-CHANNEL MIRROR (omega
+enters 2T only through the abelian characters, phi enters 2I only through
+the defining character's traces — one Lagrange fact both ways: 5 does not
+divide 24, 5 divides 120; the two ends carry their irrationalities in
+complementary representation channels) and the SPLITTING-RIGIDITY
+DISCRIMINATOR, found by the verification layer itself and confirmed here by
+an independent cocycle construction: dim H^1(SL(2,F_p), sl_2) = 0 at p = 3,
+= 1 at p = 5, = 0 at 7..23 — the golden prime is the UNIQUE non-rigid one
+(prior-art gate owed at promotion; the classical p = 5 exception). Registry
+riders: the LAW_MAP 15A8 row's stale [B509/B510] bracket fixed (the exact
+40a1-vs-15A8 species the row itself guards); H36 caught as the missed
+costume three times. B1070 (THE LISTENER DERIVATION, Track A of L166; every
+adversarial attack failed): u3/u6 are NOT a convention — on CP^1_odd the
+instrument's projective action is the full icosahedral group (Aut(2Tx2I) =
+S4 x S5 exactly, no shear), the exceptional orbits are 12/20/30, u3/u6 sit
+exactly on the order-5 vertex axis (R's own eigenvectors), and within the
+12-orbit they are the UNIQUE pair fixed by all 16 Galois automorphisms —
+Lambda = "the minimal exceptional orbit's Galois-fixed directions" outputs
+exactly {u3, u6}: L166's existence closes POSITIVE, uniqueness closes as
+THE PAIR. Companions: B641 upgraded to THEOREM-EXACT over the whole odd
+line (M_odd = chi.W with W in SU(2) for all 2880 elements; Re = half-trace
+for EVERY u); the discriminating channel in closed form (Im = the Bloch
+pairing, axes exact, separates points); the even sector varies exactly at
+m = 1, 2, 4 with the two ends' flavors as eigenvalues, no joint eigenframe,
+and the banked mirror VALUE SET proven u-independent — the crossing's
+contact quantity needs its own kind-row adjudication, flagged in the design
+facts. EXPLORATION-GRADE with the promotion path named: seal the
+preregistration (drafted), re-derive independently under seal, and only
+then may the crossing prereg cite the derived listener. The B1069
+certificate's two catches this bank also carries: the arc_verdict schema
+error (three verdicts re-keyed to the house schema) and THE_LADDER's
+currency read (the masterplan window's rung movements written).
+
+
 ## B1069 (2026-08-18) — THE HEARING BIOGRAPHY lands: Q(sqrt5) built exhaustively on new ground, and a 64-day-old class-number error caught in the act
 
 The masterplan's W3 cell (9 agents, 0 errors, exact throughout, two

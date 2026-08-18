@@ -172,3 +172,32 @@ been checked, and the honest answer is *"not checked"*, not *"absent"*.
    because a broken claim is actively misleading every downstream reader.
 5. The counterpart rule from `THE_FRAMEWORK.md` applies here too: **a closure survives the
    relational re-read exactly when its scope sentence names no manifold** (cc3, 2026-08-08).
+
+## CURRENCY ADDENDUM — 2026-08-18 (B1042–B1070): the masterplan window's rung movements
+
+The read at head B1070 (the field masterplan + the crossing preparation). Rungs moved:
+
+- **THE LISTENER RUNG — was HOLE, now OPEN-at-seal**: "which u is the physical listener"
+  was the coupling layer's named hole (B1066's residual). B1070 DERIVES the pair — the
+  unique Galois-fixed vertex axis of ℂP¹_odd — and L166/`docs/LISTENER_MAP_SPEC.md` holds
+  the licensed problem statement; the sealed re-derivation (the promotion path) is the
+  one step between the derivation and the crossing prereg's right to cite it.
+- **THE VOICE RUNG (F11) — still the golden ledger's one GAP**, unchanged in grade, but
+  it gains its first named on-ramp (B1069: B737's own multiplier-ring language = the
+  orders table's; the Hilbert-modular/RM route) and a proof of what CANNOT close it
+  (B739's rigidity; the palette explains the palette — 1,1,2 vs 1,2,8 is unit rank).
+- **THE 77-MECHANISM RUNG — re-typed BOUNDED**: the unconditional mechanism question is
+  CLOSED-CIRCULAR (W4: the undressed datum attaches split ℚ³; the only twist-source is
+  the pencil triple whose resolvent IS K); what remains is exactly B882's conjecture,
+  with the KMRT §43 floor typed. Not a gap — a known edge with a named decision route.
+- **THE RAMIFICATION RUNG — BROKEN, repaired same-day (E41)**: "the golden 5 enters by
+  ramification" was a model-invariant error live 13 days; disc K = 6237 exactly; K's
+  ramified set is {3, 7, 11}. The repair sharpened the biography (the resolvent in one
+  line) rather than weakening it.
+- **NEW BOUNDED rungs from the descent inventory (B1068)**: the character-channel mirror
+  (ω↔abelian vs φ↔defining — one Lagrange fact both ways) and the splitting-rigidity
+  discriminator (H¹ = 0 at 3, 𝔽₅ at 5, 0 at 7..23 — the golden end alone non-rigid;
+  prior-art gate owed at promotion). Fifteen critic-proposed structures remain UNTESTED
+  (the honest tail — BLIND rungs by this file's own grammar, listed in B1068).
+- **THE ANCHOR RUNG**: R11's open lane confirmed consuming NOTHING (the crossing's
+  designed shape is zero-anchor); L154's σ-identification stays the strengthening prize.
