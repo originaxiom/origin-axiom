@@ -65,3 +65,29 @@ maintenance rule:
   firing on PMNS column 1 and the "armed-for-the-future" framing were
   stale-release artifacts (NuFIT 6.0 vs the current 6.1); withdrawn in the
   arc's own FINDINGS with the two-execution history side by side.
+
+- **B1070's rank descent** (2026-08-17, self-retracted the same day it was written) —
+  the claim that anomaly cancellation carries `su(3)⊕su(2)⊕u(1)³` (Lie rank 6) to
+  `su(3)⊕su(2)⊕u(1)_Y` (Lie rank 4) and so escapes the `GUT_REQUIREMENTS_LEDGER` §D rank
+  obstruction. **Withdrawn in full:** the headline was an f-string literal, not a
+  computation; the one quantity actually computed (Killing rank) is 11 on both sides; the
+  "before" algebra was degenerate (its three u(1) generators do not commute with
+  su(3)⊕su(2)); and the controls tested quantities adjacent to the claim. Independently,
+  **B971 had already closed the question NEGATIVE nine days earlier** — on the object's own
+  complete 27 every anomaly condition is identically zero. Banked as `frontier/B1070_anomaly_rank_descent`
+  (verdict `RETRACTED`), error classes **E41** (new) and **E2** (instance).
+- **B864's uniqueness, scope restored** (2026-08-17, B1070; **a sharpening, not a retraction**)
+  — *"hypercharge is the unique gaugeable U(1)"* is uniqueness **inside the chosen 3-plane**
+  `span(Y, χ, ψ)`, which B864 §3 states and which most downstream rows carry as "in the chain's
+  abelian sector". Two facts re-derived: the coefficient `a` drops out identically (`A(Y) = 0`
+  is the textbook fact, so the computation says nothing about `Y`), and over the full
+  5-dimensional charge space the cubic factors into **three** anomaly-free lines. The unscoped
+  phrasing in `docs/OPEN_LEADS.md` L144 has been corrected; B864 carries a banner.
+- **The 254-case reality negative, argument re-scoped** (2026-08-17, B1073) — the conclusion
+  (*`su(5)` is not real by this route*) **survives**; the argument does not. It measured
+  `Stab(s)` (dim 61) rather than the composed `A = (34,24)`, and its τ was the 2-torsion sign
+  slice with **no intertwining check**. B1073 tested the right object with a gated τ
+  (2106/2106 at three primes) and found Killing rank **3**, with no character in the swept
+  family giving 24. Recorded as a true-conclusion-wrong-argument, the pattern B971 already
+  carries once. `frontier/B1068_j2t_charge_field/CELL_ITEM1_FINDINGS.md` carries the banner;
+  `cell16_reality.py`, `cell18_realforms.py` and `cell20_outer.py` carry the ungated-τ note.

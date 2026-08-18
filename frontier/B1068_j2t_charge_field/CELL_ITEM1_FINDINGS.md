@@ -1,5 +1,25 @@
 # B1068 ITEM 1 — the real forms, exhausted: right rank or right chirality, never both
 
+> ## ⚠ ARGUMENT RE-SCOPED 2026-08-17 (B1073) — the conclusion survives, the argument does not
+>
+> **The 254 cases measured `Stab(s)`** — the stabiliser of the pure spinor *alone*, dim 61 — **not
+> the object's `su(5)`**, which is the composed `A = Stab(e_i, ēbar_j, s) = (34, 24)` of
+> `cell11_compose.py`. And the τ used here is the **64 inner sign gradings**, i.e. the 2-torsion
+> slice of the family of root-lattice characters, with **no check that it intertwines**
+> (`T(X·v) = θ(X)·T(v)` appears nowhere in `cell16_reality.py`, `cell18_realforms.py` or
+> `cell20_outer.py`).
+>
+> **B1073 tested the right object with a τ built and gated properly** — intertwining verified
+> 2106/2106 at three split primes — and swept ~1557 characters per prime (the 2-torsion slice, the
+> uniform μ-family over all of `F_p^*`, and 400 random characters). **`B = A ∩ τ(A)` has Killing
+> rank 3, and no character in the swept family gives 24.**
+>
+> So this cell's **conclusion stands** — `su(5)` is not real by this route — while its **argument
+> was on the wrong algebra with an unverified conjugation**. Recorded as a
+> true-conclusion-wrong-argument, the pattern B971 already carries once, so that it does not repeat
+> silently. B1073's own negative is scoped to the family it swept, never to "no conjugation
+> exists".
+
 **Date:** 2026-08-17 · **Seat:** cc3 · **Prereg:** `PREREG_ITEMS_1_TO_4.md`, committed
 `aee98999` **before** compute. **Gate 5:** algebra only.
 

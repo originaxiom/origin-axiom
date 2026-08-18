@@ -127,7 +127,22 @@ collapses. *Status:* untouched. Adjacent to E14.
 (Mexican-hat-style) is unstable to perturbation; the system spontaneously selects
 a direction. *Distinguisher:* the selected direction's structure should match
 observation in a way not already accounted for by standard SSB. *Status:*
-untouched. Risk: textbook physics is already this; the question is what's *new* about applying it to "nothing-vs-something."
+untouched **as a cosmogonic route** ("nothing-vs-something"), which is the only sense meant here.
+Risk: textbook physics is already this; the question is what's *new* about applying it to "nothing-vs-something."
+
+> **⚠ SCOPE (added 2026-08-17). "Untouched" above refers ONLY to the cosmogonic reading.**
+> SSB **as GUT symmetry breaking is extensively banked** and must not be read as absent from this
+> line: **B964** — *the measurement cascade **is** an adjoint Higgs mechanism*, since the unbroken
+> group after an adjoint VEV **is** the centraliser of that VEV, so "adjoint VEV" and
+> "measurement" are the same operation, and **the object does supply VEVs: the adjoint ones**
+> (`docs/LAW_MAP.md` row *THE MEASUREMENT CASCADE IS AN ADJOINT HIGGS MECHANISM*; the phrase *"the
+> object does not supply a VEV"* is **registered retracted**, `docs/RETRACTED_PHRASES.md` row 1).
+> **B853/B859** — a derived potential with two exact Galois-conjugate vacua, a barrier and an
+> arrow, and an order parameter **odd under the symmetry that breaks**. **B861/B862/B863** — the
+> chain E₆ → SO(10)×U(1) → SU(5)×U(1) → SM, unique at every step, with the global ℤ₆ form and a
+> termination theorem. **B962/B1017** — the vacuum stratification and the rank-reducing VEVs ⟨1⟩,
+> ⟨ν^c⟩; what is open there is the VEV **direction**, and B1017 leaves open whether its magnitude
+> folds into the existing ℝ₊ rather than being a new resource.
 
 **E10 — Action principle.** *Mechanism:* physics is governed by stationary
 action; the trivial (zero-everywhere) configuration is not a non-degenerate

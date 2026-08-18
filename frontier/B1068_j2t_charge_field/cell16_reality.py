@@ -1,3 +1,9 @@
+"""NOTE (added 2026-08-17, B1073): THIS CELL'S tau IS NOT GATED FOR INTERTWINING.
+It uses the 64 inner sign gradings -- the 2-torsion slice of the family of
+root-lattice characters -- and contains no check that T(X.v) = theta(X).T(v).
+B1073 builds tau as a general character, gates the intertwining over all 78x27
+pairs, and finds B = A ^ tau(A) of Killing rank 3, not 24.  Read B1073 before
+quoting any reality verdict computed here."""
 """AXIS 3 -- is the su(5) REAL?  Stab(s) intersect Stab(s-bar).
 
 The su(5) found stabilises a pure spinor on the OMEGA line, and the omega covariants

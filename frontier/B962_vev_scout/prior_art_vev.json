@@ -154,7 +154,7 @@
         "sharper_argument": "Every component of 5, 5bar, 10 carries nonzero hypercharge. The ONLY Y-neutral directions available in any number of 27s are the SU(5) SINGLETS - and those break nothing inside SU(5). Hence no combination of 27 VEVs can break SU(5) -> SU(3)xSU(2)xU(1)_Y. Any non-singlet direction that does break SU(5) necessarily also breaks U(1)_Y.",
         "worked_example": "a VEV along the SU(3)xSU(2)-singlet (1,1) of the 10 leaves SU(3)xSU(2), rank 3 - hypercharge destroyed, not preserved"
       },
-      "impact_on_the_prior_panel_route": "The route is CORRECT as far as it goes: two rank-1 27 VEVs give E6 -> SO(10) -> SU(5), rank 6 -> 4, with the 27 still complex. But SU(5) is NOT the Standard Model, and the last step is blocked. The route delivers rank 4 + a complex 27 and then stops one step short, needing a 78 or 351 the 27 route does not contain."
+      "impact_on_the_prior_panel_route": "The route is CORRECT as far as it goes: two rank-1 27 VEVs give E6 -> SO(10) -> SU(5), rank 6 -> 4, with the 27 still complex. But SU(5) is NOT the Standard Model, and the last step is blocked. The route delivers rank 4 + a complex 27 and then stops one step short [SCOPED BY B964: true only for 27-ONLY breaking -- the 78 contains a 24, so the standard chain completes; the bare phrase is registered retracted and must not be read as a general claim], needing a 78 or 351 the 27 route does not contain."
     },
     {
       "id": "Q5b",

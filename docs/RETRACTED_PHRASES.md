@@ -61,6 +61,34 @@ registered here and the sweep is clean.
 only police phrases specific enough to be unambiguous. Broad phrases need banners, not
 greps.
 
+- **B1070's rank descent** (retracted 2026-08-17) — the arc self-retracted the day it was
+  written and the claim **never propagated**: no other file cites it, and its own `FINDINGS.md`
+  and `arc_verdict.json` are retraction documents throughout. A phrase row would fire only on
+  those two files, i.e. on the retraction itself. **The banner and the `RETRACTIONS.md` row are
+  the correct treatment** — the same call as the "chirality = the extremal-KMS label" note above,
+  and made for the same reason.
+- **"hypercharge is the unique gaugeable U(1)"** (scope sharpened 2026-08-17 by B1070) — **not a
+  retraction and not registrable.** With its scope attached — *"in the chain's abelian sector"*,
+  i.e. inside `span(Y, χ, ψ)` — the statement is **true**, and that is how `THE_SM_VERDICT`,
+  `SM_SPECIFICATION_LEDGER` and `THE_FRAMEWORK` carry it. Only the *unscoped* reading is wrong
+  (outside the 3-plane the cubic factors into three anomaly-free lines). A phrase registry cannot
+  distinguish the scoped use from the unscoped one, exactly as with **"the Standard Model algebra"**
+  above; **B864's banner and the corrected `OPEN_LEADS` L144 phrasing are the treatment.**
+
+- **The paper's variant of row 1, found 2026-08-18 and fixed.**
+  `papers/structure_paper/arxiv/main.tex` carried *"Descending in rank requires an operation
+  that is not measurement, and **the object does not supply one**"* — the same claim as row 1
+  in different words. **The sweep is not at fault**: it covers `.tex` (widened 2026-08-15 for
+  precisely this file) and row 1's phrase simply does not occur there lexically. It was found
+  by reading, prompted by the owner noticing that the *conversation* kept re-losing B964.
+  **The phrase "does not supply one" is far too generic to register** — it would fire on
+  ordinary English throughout the corpus. The treatment is this note plus the corrected text,
+  which now says the algebra plainly admits lower-rank stabilizers (a rank-one vector of the
+  27 has stabilizer `Spin(10)`, rank 5) and that what is missing is a canonical **direction**,
+  not the operation. **Standing lesson: a lexical sweep cannot catch a paraphrase, so a
+  registered retraction also needs a periodic read of the load-bearing prose** — the registry
+  says as much about broad phrases, and this is the same limit seen from the manuscript side.
+
 ## Currency read 2026-08-13 (window B1018–B1064; head B1064)
 
 Three phrases retracted in this window, registered with their treatment:

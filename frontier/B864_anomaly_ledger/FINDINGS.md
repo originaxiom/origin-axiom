@@ -1,5 +1,26 @@
 # B864 — the anomaly ledger: the dial/gauge split is DERIVED, and hypercharge is the UNIQUE gaugeable abelian direction
 
+> ## ⚠ SCOPE SHARPENED 2026-08-17 (B1070) — NOT a retraction; this arc is correct as scoped
+>
+> Result (3)'s uniqueness is uniqueness **inside the chosen 3-plane** `span(Y, χ, ψ)`, which is
+> what §3 says and what the downstream rows carry ("in the chain's abelian sector"). Two
+> sharpenings, both re-derived from scratch on the B1070 bench:
+>
+> 1. **The coefficient `a` drops out identically.** The anomaly functionals are linear in `Q`, so
+>    `Q = aY + bχ + cψ` gives `a·A(Y) + b·A(χ) + c·A(ψ) = 0`, and `A(Y) = 0` is the textbook fact.
+>    **So the computation says nothing about `Y` itself** — it says `χ` and `ψ` are anomalous over
+>    the imported chiral 15. `Y` enters as a basis vector and is reported back.
+> 2. **Drop the 3-plane and uniqueness fails.** Over the full 5-dimensional charge space on
+>    `(Q, uᶜ, eᶜ, dᶜ, L)` the linear conditions cut to a 2-plane on which the cubic **factors into
+>    three lines**: `−2·yL·(2yL + 3yd)·(4yL − 3yd)/3` — hypercharge, the u↔d-swapped
+>    Minahan–Ramond–Warner solution, and the vector-like direction `yL = 0`.
+>
+> **Consequence for quoting:** *"hypercharge is the unique gaugeable U(1) **in the chain's abelian
+> sector**"* is correct and stands. *"Anomaly cancellation selects hypercharge"* — with the scope
+> dropped — is **not** supported: there are three anomaly-free lines and the 3-plane is what picks
+> one. See also B971, which shows the selective power lives in the imported truncation, not in the
+> anomaly conditions.
+
 cc banking seat, 2026-08-03, the critic's G3 run in full. Mathematics scope; nothing to
 `CLAIMS.md`; Gate 5 untouched. **Not preregistered** — the critic's G3 pre-stated both outcomes
 ("forces the re-anchoring or indicts the truncation") before this ran; exact arithmetic throughout.
