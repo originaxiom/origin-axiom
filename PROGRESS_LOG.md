@@ -10532,3 +10532,52 @@ harvest DOUBLE-REBUILT — 22/23 claims on two independent routes; the palette
 the loss-audit debt closed) + three field censuses (157 facts) whose gaps are
 the biography roadmap — sharpest: K's CLASS GROUP OPEN (p1(953) principality
 undecided). W2 (the descent inventory) launches on this bank's certificate.
+
+## 2026-08-18 — B1069–B1075: the audit-seat consolidation, and a B600–B1000 recovery sweep
+
+Six arcs banked to protocol; two cross-seat panel results rebuilt in-sandbox (one
+confirmed, one killed); the paper's false spectrum theorem corrected and machine-checked;
+and a sweep of B600–B1000 that recovered banked results the synthesis layer had lost.
+
+THE REBUILDS. B1074 confirms the nilpotent panel exhaustively over Q: ad(h) on the Cartan
+is diagonal with eigenvalues alpha(h), and over all 4^6-1 = 4095 integer Cartan points ZERO
+have ad nilpotent, so rank(Z_G(x)) <= 5 for every nonzero nilpotent -- the class section D's
+argument never covered. Rank 4 occurs at exactly 15 of the 64 standard Levis (5 of type A2,
+10 of type 2A1) and on every one the 27 stays complex. A SCOPE NOTE on section D, not a
+refutation. B1073 KILLS the su(5) panel result: B = A ^ tau(A) has Killing rank 3, not 24,
+at three completely-split primes over ~1557 characters each, with the intertwining gate
+T(X.v) = theta(X).T(v) passing 2106/2106 -- a check absent from cell16/cell18/cell20. The
+254-case negative is a TRUE CONCLUSION FROM A WRONG ARGUMENT.
+
+B1071 (reality gate, exact over Q): the 64 inner characters give dim k in {78,46,38} with
+counts 78x1/46x27/38x36, independently reproducing B907's sealed sweep without being given
+it; A2's centraliser su(3)+su(3) is COMPACT at 3 characters of e6(2) and never in e6(-14),
+while 2A1's so(7)+u(1) is never compact in e6(2). B1069: affine isotropy cuts B527's Stein
+cone to one ray -- the metric is determined up to ONE positive number -- with the generic
+half retracted in-script. B1072: the matching-capacity floor; nine of twelve SM parameters
+lie below it, so seven banked nulls compared against targets that could not have produced
+evidence either way. B1070: RETRACTED same day, a printed f-string headline; B971 had closed
+it NEGATIVE nine days earlier. B1075: the referee's spectrum objection verified exactly --
+dim z(C) = 12, so 6, 8, 10 are impossible.
+
+THE SWEEP, and it is the important half. B876 -- "each breaking's matter decomposes into
+exactly one SM generation plus its conjugate, no multiplet missing, none extra" -- was in NO
+navigation surface. B859's state-space order parameter (OP = 818626500*sqrt3, ODD under the
+Cl(O_4) swap, answering exactly what B849 required) was in none either; LAW_MAP carried only
+B849's negative half. The fused-cascade cluster B859-B874 (16 arcs, 15 PROVED) had ZERO
+dedicated rows, reachable only through B994's caveat row. Five GUT_REQUIREMENTS_LEDGER rows
+read "absent" against banked arcs: baryogenesis (B867's Sakharov gate, all three
+preconditions), neutrino mass (B865's nu_R slot), proton decay (B867 S1 + B881), the 12
+exotics (B884 + B895), the breaking sector (B853's complete SSB kit). Section D's heading
+had dropped the word MEASUREMENT, contradicting B952's own row.
+
+Repaired: 6 LAW_MAP rows (B876, B859, B863, B865, B867, B870), 5 ledger rows, the section D
+heading, B870's triage PENDING -> RESOLVED. THE_CLAIM annotated with two live questions its
+input count leans on: B787 (iota is a 4th involution, rank 3->4, though B787 fences it as
+EXTENDING not contradicting B766, with L114 unrun) and B775 (gamma_5 GENUINELY DERIVES from
+sigma:a->ab, disc exactly 5 -- one of the three closing bits is object-native).
+
+The standing law-harvest has run twice in forty-six reviews. R32-9b -- 105 unread candidates
+-- has been carried through six reviews without being opened, and the R32 vacuity queue has
+zero commits to any of its 43 files. B976 already diagnosed this in the owner's favour:
+"the owner was right; eleven banked arcs the synthesis layer had forgotten."

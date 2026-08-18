@@ -1,5 +1,69 @@
 # Changelog
 
+## B1069–B1074 (2026-08-17) — the audit-seat consolidation: two panel results reproduced in-sandbox, one confirmed and one killed
+
+Six arcs, banked together. The two headline results of the week existed only
+in multiagent panel transcripts, which WORKING_RULES §2/§12 forbid banking
+("every cross-seat claim is reproduced in-sandbox"; "never asserted/cited/
+proxied"). Both were rebuilt on this bench. One survived; one did not.
+
+**B1074 — the rank ceiling's hypothesis is load-bearing.** GUT_REQUIREMENTS_
+LEDGER §D states the obstruction as "a theorem, not an estimate" for
+centralizers of SEMISIMPLE elements; that word had never been tested. ad(h) on
+the Cartan is diagonal with eigenvalues alpha(h), and over all 4^6-1 = 4095
+integer Cartan points ZERO have ad nilpotent — so a maximal torus's
+centralizer holds no nonzero nilpotent and rank(Z_G(x)) <= 5 for every nonzero
+nilpotent. Exhaustively over all 64 standard Levis, rank 4 occurs at exactly
+15 — 5 of type A2, 10 of type 2A1 — and on EVERY one the 27 stays complex.
+§D verified TRUE on its own class (400/400). A SCOPE NOTE, not a refutation.
+
+**B1073 — the su(5) is NOT tau-stable, and the panel's number does not
+reproduce.** B = A ^ tau(A) has Killing rank 3, not 24, at three completely-
+split primes over ~1557 characters each. The banked A = (34,24) reproduces
+first; the intertwining gate T(X.v) = theta(X).T(v) passes 2106/2106 — a check
+ABSENT from cell16_reality.py, cell18_realforms.py and cell20_outer.py. The
+panel's stated discriminating filter tau(A) = (34,24) holds for every
+character swept, so it discriminates nothing. Instrument negative control:
+Stab(s) ^ Stab(tau s) = (45,45), the banked number, so 24 was reachable had it
+been there. CONSEQUENCE: the 254-case negative is a TRUE CONCLUSION FROM A
+WRONG ARGUMENT — conclusion stands, argument measured Stab(s) with an
+unverified tau. Banners on CELL_ITEM1_FINDINGS.md and the three cells.
+
+**B1071 — the reality gate, in characteristic zero.** A real form is named by
+dim k, an exact integer. The 64 inner characters give dim k in {78,46,38} and
+nothing else, counts 78x1/46x27/38x36 — reproducing B907's sealed sweep
+WITHOUT being given it. A2's centralizer su(3)+su(3) is COMPACT at 3
+characters of e6(2) and never in e6(-14); 2A1's so(7)+u(1) is never compact in
+e6(2). By Kostant–Sekiguchi A2 meets e6(2) at all 36 of its characters. The
+compact-e6 row returns False/False unprompted — the method validating itself.
+
+**B1069 — affine isotropy cuts B527's Stein cone to one ray.** Rank 5 of 5, so
+the metric is determined UP TO ONE POSITIVE NUMBER, composing with B167. The
+dimension count was RETRACTED IN-SCRIPT as generic (200/200 perturbations);
+what survives is the measured 6/238 = 2.5% PD-and-Stein coincidence, stated as
+suggestive and NOT significant.
+
+**B1072 — the matching-capacity floor.** rho calibrated from the corpus's own
+recorded counts (H128/H129 agree to 1.30x; B743's surrogates predict its own
+0-of-50 at 11 digits). NINE of twelve SM parameters lie below the evidential
+floor, so B563/B549/B558/B615/B724/B743/B322 compared against targets that
+could not have produced evidence either way. A first version was rejected by
+its own control. A statement about the INSTRUMENT, not the object.
+
+**B1070 — RETRACTED, self-caught the same day.** Claimed anomaly cancellation
+drops the Lie rank 6 -> 4. The headline was an f-string literal; the computed
+Killing rank is 11 on both sides; the "before" algebra was degenerate. B971
+had closed it NEGATIVE nine days earlier. Error classes E41 (minted) and E2
+(instance). Its surviving contribution is a SCOPE NOTE on B864: uniqueness
+holds inside span(Y,chi,psi); over the full charge space the cubic factors
+into THREE anomaly-free lines.
+
+Corrections propagated: B864 banner + OPEN_LEADS L144 scope restored;
+CELL_ITEM1 and the three tau cells bannered; paths/PATHS.md E9 scoped to the
+cosmogonic reading with the banked SSB cluster named; ERROR_LEDGER E41 minted
+and E2 extended; RETRACTIONS rows; retraction sweep 4 violations -> 0.
+
+
 ## B1067 (2026-08-14) — the masterplan's first bank: the ray-class asset lands double-rebuilt; the field censuses map the biographies
 
 The field-exploration masterplan (owner-elected, six workflows) opens with

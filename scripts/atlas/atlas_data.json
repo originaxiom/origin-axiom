@@ -628,7 +628,7 @@
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 2,
-   "status": "dead",
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B101": {
@@ -1466,6 +1466,43 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1068": {
+   "slug": "j2t charge field",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B874",
+    "B959",
+    "B962",
+    "L138"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1069": {
+   "slug": "conformal selection",
+   "motifs": [
+    "metallic",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B167",
+    "B416",
+    "B527"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B106": {
    "slug": "dehn filling anatomy",
    "motifs": [
@@ -1493,6 +1530,102 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 12,
    "status": "open",
+   "domain": "arithmetic"
+  },
+  "B1070": {
+   "slug": "anomaly rank descent",
+   "motifs": [
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B167",
+    "B487",
+    "B490",
+    "B861",
+    "B862",
+    "B863",
+    "B864",
+    "B963",
+    "B971",
+    "B992",
+    "B994",
+    "L144"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 16,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B1071": {
+   "slug": "reality gate",
+   "motifs": [
+    "eisenstein",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B907"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1072": {
+   "slug": "matching capacity",
+   "motifs": [
+    "metallic",
+    "golden",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B322",
+    "B549",
+    "B558",
+    "B563",
+    "B615",
+    "B724",
+    "B743",
+    "B915",
+    "H128",
+    "H129"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1073": {
+   "slug": "su5 reality",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B971"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1074": {
+   "slug": "nilpotent rank4",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 16,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B107": {
@@ -19226,11 +19359,12 @@
    "refs": [
     "B860",
     "B861",
+    "B971",
     "L5"
    ],
    "obstacle": "gauge_dict",
-   "obstacle_conf": 12,
-   "status": "banked",
+   "obstacle_conf": 13,
+   "status": "open",
    "domain": "arithmetic"
   },
   "B865": {
@@ -22277,9 +22411,12 @@
    "motifs": [
     "metallic",
     "eisenstein",
-    "golden"
+    "golden",
+    "z3_generation",
+    "torsion"
    ],
    "refs": [
+    "B207",
     "B248",
     "B666",
     "B993",
