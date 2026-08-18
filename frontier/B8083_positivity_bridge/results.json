@@ -1,0 +1,10 @@
+{
+ "bridge_holds": true,
+ "collisions": 0,
+ "max_length": 10,
+ "n_conjugacy_invariants": 241,
+ "n_cyclic_classes": 241,
+ "n_words": 2026,
+ "scope": "SL(2,Z)-conjugacy on POSITIVE words only, checked exhaustively to length 10 with a complete invariant (Latimer-MacDuffee via indefinite form cycles) rather than a bounded search. Says nothing about non-positive words or about GL(2,Z), whose orientation-reversing elements do not preserve positivity.",
+ "trace18_pair_not_conjugate": true
+}

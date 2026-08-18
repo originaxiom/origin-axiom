@@ -18346,6 +18346,18 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B8083": {
+   "slug": "positivity bridge",
+   "motifs": [
+    "trace_map",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B808": {
    "slug": "empty cells",
    "motifs": [

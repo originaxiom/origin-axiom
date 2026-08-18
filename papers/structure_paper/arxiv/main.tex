@@ -765,7 +765,10 @@ above---not exactly those three words. \textbf{Concluding ``$R^mL^m$ is none of 
 $RRLL$, $RRL$, hence non-arithmetic'' is unsound}: $RLRL$ is none of them either and is
 arithmetic, being $(RL)^2$.
 
-Argue on block sequences instead, which are cyclic-word invariants. The powers have
+Argue on block sequences instead. These are cyclic-word invariants, and
+Lemma~\ref{lem:positivity} is what makes that sufficient: on positive words,
+$\SL(2,\Z)$-conjugacy \emph{is} cyclic rotation, so a cyclic invariant separates
+conjugacy classes and the comparison answers the question actually asked. The powers have
 block sequences
 \[
    (RL)^k:\ (1,1,\dots,1)\ \ [2k\ \text{blocks}],\qquad
@@ -776,6 +779,27 @@ while $R^mL^m$ has \textbf{exactly two} blocks, both of length $m$. Two blocks f
 $k=1$ in each family, leaving $RL$, $RRLL$ and $RRL$; of these only the first two have
 equal block lengths, giving $m=1$ and $m=2$ with the stated fields, and $RRL$ has
 lengths $(2,1)$ so is not metallic. Hence no $m\ge3$ is arithmetic.
+\end{proof}
+
+\begin{lemma}[positivity bridges conjugacy and rotation]\label{lem:positivity}
+Two positive words in $R,L$ represent $\SL(2,\Z)$-conjugate matrices if and only if they
+are cyclic rotations of one another. Consequently any cyclic-word invariant---in
+particular the block sequence---is a complete conjugacy invariant on positive words.
+\end{lemma}
+
+\begin{proof}
+If $w=uv$ then $vu=u^{-1}wu$, which gives one direction. For the other, the positive
+$R,L$ word of a hyperbolic matrix is its continued-fraction reduction cycle---equivalently
+the cutting sequence of its axis on the Farey tessellation---and conjugation moves only
+the starting point of that cycle. \textbf{We also check it}
+(\fn{verify/check\_\allowbreak positivity.py}): over all $2026$ positive words of length
+$\le10$ containing both letters there are $241$ cyclic-rotation classes and exactly $241$
+distinct conjugacy invariants, with no collisions, conjugacy being decided by the complete
+Latimer--MacDuffee invariant---the cycle of reduced indefinite forms attached to
+$(c,\,d-a,\,-b)$---rather than by a bounded search for a conjugator. The same computation
+reproduces the non-conjugacy of $\phi_1^{3}$ and $\phi_4$ at equal trace $18$.
+\textbf{The lemma is about $\SL(2,\Z)$ and positive words only}: orientation-reversing
+elements of $\GL(2,\Z)$ do not preserve positivity, and nothing here extends to them.
 \end{proof}
 
 \begin{scope}[what is cited and what is checked]\label{sc:bmr}
@@ -3058,13 +3082,13 @@ Thm~\ref{thm:classify}, Scope~\ref{sc:assembly} & \fn{verify/check\_\allowbreak 
 Scope~\ref{sc:assembly} (the entrance), Lem~\ref{lem:quat} & \fn{verify/check\_\allowbreak quotients.py} & every pair checked: $48$ surjections onto $2T$ ($2$ up to $\operatorname{Aut}$), and \textbf{none} onto $A_5$ or $2I$\\
 Prop~\ref{prop:2880}, Thm~\ref{thm:coupling}, Scope~\ref{sc:2880} & \fn{verify/check\_\allowbreak rho.py} & $\rho$ \textbf{built} from the Kac--Peterson data and checked against the four modular relations; $|{\rm im}\,\rho|=2880$; the $\theta$-blocks $4{+}2$ and the odd block's $360$; the $63$-class match\\
 Prop~\ref{prop:geodir}, Scope~\ref{sc:geodirscope} & \fn{verify/check\_\allowbreak geodir.py} & twisted $H^1$ by Fox calculus, block by block under the principal-$\sll_2$ decomposition: $1$ in each of the six exponent blocks, so $\dim H^1=6$ and the $1{+}5$ split (\emph{not} unobstructedness)\\
+Lem~\ref{lem:positivity} & \fn{verify/check\_\allowbreak positivity.py} & all $2026$ positive words of length $\le10$: $241$ cyclic classes, $241$ conjugacy invariants, no collisions, by the complete Latimer--MacDuffee invariant\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
 Thm~\ref{thm:smtfull}, Cor~\ref{cor:c7free}, Rmk~\ref{rem:26attained} & \fn{test\_\allowbreak second\_\allowbreak measurement\_\allowbreak is\_\allowbreak exhaustive.py} & the $78$ weights; seven hyperplanes; certified gap\\
 Thm~\ref{thm:arith} & \fn{test\_\allowbreak b125\_\allowbreak snappy\_\allowbreak arithmeticity.py} & invariant trace fields (\textsc{SnapPy})\\
 Thm~\ref{thm:canonical} & \fn{test\_\allowbreak b92\_\allowbreak metallic\_\allowbreak classification.py} & period-one criterion\\
-Prop~\ref{prop:2880} & \fn{test\_\allowbreak b1011\_\allowbreak mckay\_\allowbreak tensor.py} & order $2880$; $63/63$ characters\\
 Thm~\ref{thm:blockpal} & \fn{test\_\allowbreak b136\_\allowbreak general\_\allowbreak amphichirality.py} & the block-sequence lift, exhaustive to length $6$\\
 No-go~\ref{ng:c3} & \fn{test\_\allowbreak b307\_\allowbreak totally\_\allowbreak real\_\allowbreak obstruction.py} & obstruction; census\\
 Thm~\ref{thm:arith}, Cor~\ref{cor:onlybinary} & \fn{test\_\allowbreak arithmetic\_\allowbreak tail\_\allowbreak and\_\allowbreak quaternionic\_\allowbreak two.py} & BMR word classification; involution counts\\

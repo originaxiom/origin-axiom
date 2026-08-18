@@ -1,0 +1,12 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "THE POSITIVITY BRIDGE: A CYCLIC-WORD INVARIANT IS A COMPLETE CONJUGACY INVARIANT ON POSITIVE WORDS. The arithmeticity theorem's proof argues on BLOCK SEQUENCES, but the classification it cites delivers the arithmetic monodromies as those CONJUGATE to a power of one of three words, and conjugacy in SL(2,Z) is a priori coarser than cyclic rotation of a positive R,L word -- nothing preserves positivity under GL(2,Z), and the paper itself warns that equal trace does not imply conjugacy (phi_1^3 and phi_4 both have trace 18 and are not conjugate). The step from 'conjugate to a power' to 'compare block sequences' therefore needs a bridge the paper does not state; without it the comparison answers a coarser question than the one asked. THE BRIDGE: on POSITIVE words the two relations coincide -- two positive words in R,L are conjugate in SL(2,Z) iff they are cyclic rotations of one another. One direction is free (w = uv gives vu = u^{-1} w u); the other is classical, the positive R,L word of a hyperbolic matrix being its continued-fraction reduction cycle, equivalently the cutting sequence of its axis on the Farey tessellation, with conjugation only moving the starting point. THE CHECK, and it is a check rather than a search: conjugacy is decided by a COMPLETE invariant -- to M = [[a,b],[c,d]] attach the indefinite binary quadratic form (c, d-a, -b), whose proper SL(2,Z)-equivalence class is a complete conjugacy invariant (Latimer-MacDuffee, which the paper already invokes elsewhere), and compute its cycle of reduced forms. RESULT over every positive word of length 2..10 containing both letters: 2026 words, 241 cyclic-rotation classes, 241 distinct (trace, form-cycle) invariants, ZERO collisions -- a perfect bijection. Had any two cyclic classes shared an invariant the block-sequence argument would be unsound as written. CONTROLS: R^m L^m = phi_m = [[m^2+1, m],[m, 1]] for m = 1..6, so the words in play are the paper's; and phi_1^3 and phi_4 share trace 18 with DIFFERENT form-cycles, reproducing independently and by a different instrument the non-conjugacy the paper asserts. SCOPE: SL(2,Z)-conjugacy on POSITIVE words only, exhaustive to length 10; nothing about non-positive words and nothing about GL(2,Z), whose orientation-reversing elements do not preserve positivity. Gate 5 untouched.",
+ "depends_on": [
+  "B8076"
+ ],
+ "id": "B8083",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

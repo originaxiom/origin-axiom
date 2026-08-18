@@ -1,5 +1,49 @@
 # Changelog
 
+## B8083 + item 8 (2026-08-19) — the positivity bridge, and one item that was already paid
+
+Campaign items 8 and 9.
+
+Item 8 asked for the order-2880 / 63-of-63 character comparison to be deposited.
+B8081 had already deposited both, because building rho to close item 5 made the
+order and the class comparison the same computation. The block-(b) row that
+cited the repository-side McKay-tensor test is retired as superseded. Two of the
+twelve items turned out to be one piece of work -- an argument for building the
+object rather than certifying around it, since a certificate has to be re-earned
+per claim while a construction covers every claim about it at once.
+
+Item 9 is a genuine gap and is now a stated lemma. The arithmeticity proof
+compares BLOCK SEQUENCES, but the classification it cites delivers the arithmetic
+monodromies as those CONJUGATE to a power of one of three words, and conjugacy in
+SL(2,Z) is a priori coarser than cyclic rotation of a positive R,L word: nothing
+preserves positivity under GL(2,Z), and the paper's own section 4 notes that
+phi_1^3 and phi_4 share trace 18 without being conjugate. Without a bridge the
+comparison answers a coarser question than the one asked.
+
+The bridge: on POSITIVE words the two relations coincide -- two positive R,L
+words are SL(2,Z)-conjugate iff they are cyclic rotations of one another, so any
+cyclic-word invariant, the block sequence included, is a complete conjugacy
+invariant. One direction is free (w = uv gives vu = u^-1 w u); the other is
+classical, the positive word being the matrix's continued-fraction reduction
+cycle, equivalently the cutting sequence of its axis on the Farey tessellation,
+with conjugation moving only the starting point.
+
+Checked with a COMPLETE invariant rather than a search for a conjugator -- a
+bounded hunt that finds nothing proves nothing. To M = [[a,b],[c,d]] attach the
+indefinite form (c, d-a, -b) and compute its Latimer-MacDuffee cycle of reduced
+forms. Over every positive word of length <= 10 containing both letters: 2026
+words, 241 cyclic classes, 241 distinct conjugacy invariants, zero collisions.
+Had two cyclic classes shared an invariant the block-sequence argument would be
+unsound as written. Control: phi_1^3 and phi_4 at equal trace 18 come out
+non-conjugate, reproducing the paper's own assertion by a different instrument.
+
+Paper: Lemma (positivity) stated and proved immediately before the step that
+uses it, with the scope named -- SL(2,Z) and positive words only.
+verify/check_positivity.py ships. Build 47pp, 0 overfull, 0 undefined.
+
+Campaign: items 1-9 GREEN; three open (folklore pass, census, refs.bib).
+
+
 ## B8082 (2026-08-19) — the geodir H^1 is computed; the adjective in it is not
 
 Campaign item 7. Scope (geodirscope) said of Proposition (geodir): "We give

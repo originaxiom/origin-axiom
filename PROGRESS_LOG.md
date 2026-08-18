@@ -10797,3 +10797,39 @@ embedding, so (C6) remains a fully priced choice exactly as its scope already sa
 count is not upgrading a choice**, and the two get confused precisely when a verification is
 reported without its scope.
 
+---
+
+## 2026-08-19 — B8083, and an item that had already been paid
+
+Two campaign items closed, and they are opposite kinds.
+
+**Item 8 cost nothing.** It asked for the order-2880 and 63-of-63 character comparison to be
+deposited. B8081 had deposited both already — building `ρ` to close item 5 made the order and the
+class comparison *the same computation*. The block-(b) row is retired as superseded. That two of
+twelve items collapsed into one piece of work is the argument for building the object rather than
+certifying around it: **a certificate has to be re-earned for each claim; a construction covers
+every claim about it at once.**
+
+**Item 9 was a real gap**, and of a kind worth naming. The arithmeticity proof compares block
+sequences. The classification it cites speaks of *conjugacy*. Those are different relations, and
+the paper's own §4 already knows it — it warns that `φ₁³` and `φ₄` share trace 18 without being
+conjugate. So the proof was, strictly, answering a coarser question than the one it was asked, and
+the missing sentence was not a stylistic nicety but a lemma.
+
+The lemma: **on positive words, `SL(2,ℤ)`-conjugacy is cyclic rotation.** One direction is free.
+The other is classical — the positive `R,L` word of a hyperbolic matrix is its continued-fraction
+reduction cycle, the cutting sequence of its axis on the Farey tessellation, and conjugating only
+moves where you start reading.
+
+The methodological point is in *how* it was checked. Conjugacy questions invite a search for a
+conjugator, and a bounded search that finds nothing proves nothing — it is the same shape of error
+as the 440-direction sweep in the rung spectrum, where absence of evidence got read as evidence of
+absence. So the check uses a **complete invariant** instead: the Latimer–MacDuffee form cycle,
+which the paper already cites elsewhere. 2026 positive words, 241 cyclic classes, **241** distinct
+conjugacy invariants, zero collisions. A perfect bijection, and had it not been, the theorem's
+proof would have been unsound as written.
+
+Nine of twelve items are GREEN. The three that remain — a literature pass on the toral lemma, the
+43-link census, and five unverified bibliography entries — are the clerical tail, and none of them
+is a computation.
+
