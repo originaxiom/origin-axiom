@@ -1,0 +1,66 @@
+{
+ "advertised_but_not_attained_by_coordinate_subsets": [
+  14,
+  16,
+  18,
+  20,
+  26,
+  28,
+  36,
+  46
+ ],
+ "all_pairwise_brackets_vanish": true,
+ "charge_degrees": [
+  8,
+  14,
+  16,
+  22
+ ],
+ "dim_e6": 78,
+ "dim_z_C": 12,
+ "dim_z_by_subset": {
+  "empty": 78,
+  "x14": 12,
+  "x14+x16": 12,
+  "x14+x16+x22": 12,
+  "x14+x22": 12,
+  "x16": 30,
+  "x16+x22": 12,
+  "x22": 12,
+  "x8": 30,
+  "x8+x14": 12,
+  "x8+x14+x16": 12,
+  "x8+x14+x16+x22": 12,
+  "x8+x14+x22": 12,
+  "x8+x16": 30,
+  "x8+x16+x22": 12,
+  "x8+x22": 12
+ },
+ "impossible_because_below_dim_z_C": [
+  6,
+  8,
+  10
+ ],
+ "observed_spectrum_coordinate_subsets": [
+  12,
+  30,
+  78
+ ],
+ "paper_advertised_spectrum": [
+  6,
+  8,
+  10,
+  12,
+  14,
+  16,
+  18,
+  20,
+  26,
+  28,
+  30,
+  36,
+  46,
+  78
+ ],
+ "scope": "coordinate subsets of the four charges; a full subspace sweep of C would only ADD values >= dim z(C) and cannot rescue any value below it, since z(C) is contained in z(V) for every subspace V of C"
+}

@@ -1,0 +1,44 @@
+{
+ "census": {
+  "38": 36,
+  "46": 27,
+  "78": 1
+ },
+ "orbits": {
+  "2A1": {
+   "by_form": {
+    "38|10": 28,
+    "38|12": 6,
+    "38|16": 2,
+    "46|10": 16,
+    "46|12": 6,
+    "46|16": 2,
+    "46|22": 3,
+    "78|22": 1
+   },
+   "compact_dim": 22,
+   "compact_in_e6_2": 0,
+   "compact_in_e6_m14": 3,
+   "dim_z_e": 46,
+   "dim_z_ehf": 22,
+   "varies": true
+  },
+  "A2": {
+   "by_form": {
+    "38|12": 6,
+    "38|16": 3,
+    "38|8": 27,
+    "46|12": 18,
+    "46|8": 9,
+    "78|16": 1
+   },
+   "compact_dim": 16,
+   "compact_in_e6_2": 3,
+   "compact_in_e6_m14": 0,
+   "dim_z_e": 36,
+   "dim_z_ehf": 16,
+   "varies": true
+  }
+ },
+ "scope": "computes which real forms are AVAILABLE to the centralisers; does NOT verify the object OCCUPIES any. The compact-e6 row is vacuous by construction (a compact form has no nonzero nilpotent) and is retained as a visible marker of that gap."
+}

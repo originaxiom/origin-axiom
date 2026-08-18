@@ -1,0 +1,28 @@
+{
+ "A_dim_killingrank": [
+  34,
+  24
+ ],
+ "B_distribution_uniform_mu": {
+  "((3, 3), (34, 24))": 984,
+  "((4, 3), (34, 24))": 4,
+  "((7, 3), (34, 24))": 2
+ },
+ "characters_giving_killing_rank_24": 0,
+ "characters_swept": {
+  "random_control": 400,
+  "two_torsion_slice": 65,
+  "uniform_mu_family": 990
+ },
+ "instrument_negative_control_Stab_s": [
+  45,
+  45
+ ],
+ "intertwining_failures": 0,
+ "intertwining_pairs_tested": 2106,
+ "prime": 991,
+ "random_characters_giving_24": 0,
+ "scope": "mod-p at split primes; swept the 2-torsion slice, the uniform mu-family over all of F_p^*, and 400 random characters; NOT swept: non-uniform characters outside those families (the full space is (p-1)^6)",
+ "tau_of_A_is_always_34_24": true,
+ "verdict": "A is NOT tau-stable; no character in the swept family gives Killing rank 24"
+}

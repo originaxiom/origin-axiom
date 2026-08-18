@@ -1,0 +1,13 @@
+{
+ "id": "B1071",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE COMPACT RANK-4 ALGEBRA IS REAL IN e6(2) AND SITS ON THE ORBIT NO TESTED ROUTE REACHES: a real form is named by dim k, the dimension of its maximal compact, so this is an exact integer computation over Q and needs no floating-point signature. The 64 inner sign characters give dim k in {78, 46, 38} and NOTHING ELSE, with counts 78x1, 46x27, 38x36 -- independently reproducing B907's sealed inner sweep without being given it. For the reductive centralizer of the A2 nilpotent orbit, su(3)+su(3) of dim 16, dim(z_red ^ k) = 16 (COMPACT) at 3 characters of e6(2) and never in e6(-14); for the 2A1 orbit's so(7)+u(1) of dim 22 the compact form occurs only in e6(-14) and NEVER in e6(2), where it is so(6,1), so(5,2) or so(4,3) only. By Kostant-Sekiguchi (real nilpotent orbits correspond to K_C-orbits on nilpotents of p_C, in the SAME complex orbit) the A2 orbit meets e6(2) at all 36 of its characters, so the headline is unconditional; nilpotency is CHECKED not assumed, since p_C is spanned by full root pairs and contains semisimple elements. The compact-e6 row returns False/False for both orbits WITHOUT being told to -- a compact real form contains no nonzero nilpotent -- which is the method validating itself, and the combinatorial shortcut was separately checked on 16 non-simple root pairs, all landing in the claimed orbits with dim z = 36 and 46 exactly over Q. SCOPE, and it is the whole difference: this computes which real forms are AVAILABLE to the centralizers, and does NOT verify that the object OCCUPIES any of them; the compact-e6 row is retained in the table precisely as a visible marker that availability is not occupancy. It does not establish that the object reaches A2 -- the nilpotent panel places it on 2A1 and that placement is itself owed. The object's own B is known only mod p, so reading dim(B ^ k) against su(5)/su(4,1)/su(3,2)/sl(5,R) = 24/16/12/10 requires a characteristic-zero rebuild and is NOT claimed. No scale, no value; the scale-torsor theorem stands; Gate 5 untouched.",
+ "depends_on": [
+  "B907",
+  "B1074"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc3 audit seat (2026-08-17)"
+}
