@@ -49,7 +49,9 @@ the step-2 charge."* **The second clause was an overgeneralization and is correc
 coordinate-direction tests (x₁₄, x₂₂ → 12) were right in scope, but the torus's *algebraic*
 wall point y* supplies exactly the step-2 charge and lands on the SM. The within-C ladder
 includes **{18, 14}** (their §XXI strata; 14 verified here). What survives of B874's negative:
-SU(5)×U(1) (26) is still not reached by these charges — **the second measurement skips SU(5)**;
+SU(5)×U(1) (26) is still not reached by these charges — **the second measurement skips SU(5)
+over ℝ** *(scope added 2026-08-18: over the algebraic closure the 26/A₄ stratum is attained at
+four non-real points; the skip is a reality phenomenon — see B874's 2026-08-18 addendum)*;
 the fused principle's step-2 role reduces to naming the wall. Correction credited to the solo
 seat's evidence-first relay; B874's FINDINGS gains a pointer to this arc.
 

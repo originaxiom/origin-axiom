@@ -64,7 +64,10 @@ mod p in B872's `cubic_modp_check`, reconfirmed here by **kern(s₁) = 46 at eve
 | x₁₄ | **12** (all three roots) |
 | x₂₂ | **12** (all three roots) |
 
-**No 26 stratum exists.** Adding either hard charge to the tuned measurement collapses straight
+**No 26 stratum exists — over ℝ** *(scope added 2026-08-18: this is the question the
+x₁₄/x₂₂ coordinate tests ask, and for it the negative is exact; over the algebraic closure
+the 26 stratum IS attained, at four non-real points carrying the A₄ Levi — see the
+2026-08-18 addendum below)*. Adding either hard charge to the tuned measurement collapses straight
 to the floor Cent(C). So the carried-forward step-2 question — *"is SU(5)×U(1) the centralizer
 of a finer charge?"* — **closes negatively for the object's 2T-charge system**: the complete
 centralizer ladder is **{78, 46, 30, 12}**, and the cascade's intermediate SU(5)×U(1) is not a
@@ -79,3 +82,54 @@ the coordinate tests were right in scope, but the torus's algebraic wall point y
 seat's Second Measurement Theorem, verified in B892) supplies a step-2 charge landing exactly
 on su(3)⊕su(2)⊕u(1)³. The within-C ladder includes {18, 14}. SU(5) remains unreached — the
 second measurement skips it. See `frontier/B892_second_measurement/`.
+
+---
+
+## ADDENDUM 2026-08-18 — the 26 stratum over the closure, the reality mechanism, and the no-moduli theorem (audit-seat relay, bench-verified backbone)
+
+The audit seat's relay of 2026-08-15 (which itself corrected and withdrew a stronger
+draft — "the banked negative is right about the question it actually asked") sharpens
+this arc's negative into a two-field statement:
+
+| field | second-measurement ladder from a wall point x₁ |
+|---|---|
+| over K̄ | {12, 14, 16, 18, 20, 26} (+ 30, 46 degenerately) |
+| over ℝ | **{12, 16, 18}** (+ 30, 46 degenerately) |
+
+- **The negative above stands** for the question its coordinate tests ask (their
+  reproduction: 12 at all three roots, exactly as banked). Over K̄ the 26 stratum is
+  attained at four points of ℙ(C/⟨x₁⟩), each carrying the A₄ Levi.
+- **The mechanism (theirs; reality kills 14, 20, 26).** The 34 active weights from a
+  wall point fall into exactly seven proportionality classes, sizes (2,2,6,6,6,6,6);
+  three of the seven hyperplane normals are real, the other four form two conjugate
+  pairs. A real point on one member of a conjugate pair lies on both — so no real point
+  takes exactly one of a pair. The 14-locus is a conjugate pair of size-2 lines; its
+  real shadow is the 16-stratum. The same argument removes real 20 and real 26 —
+  B892's "no real nullity-14 point" now has a reason rather than a scan.
+- **The terminus is not real.** The A₂⊕A₁ point — the su(3)⊕su(2)⊕u(1)³ landing of the
+  second measurement (B892's y*) — is not a real point. The Second Measurement Theorem
+  lives over K̄; "skips SU(5)" is a statement over ℝ. Scope words added in place here
+  and in B892.
+- **Bench verification (this seat, exact, independent construction).** The Levi
+  backbone recomputed from the E₆ Cartan matrix by reflection closure (72 roots): the
+  complete list of Levi centralizer dimensions of E₆ is
+  **{6, 8, 10, 12, 14, 16, 18, 20, 26, 28, 30, 36, 46, 78}** — 24 is not a Levi
+  dimension, 26 is realized by exactly the four A₄ node-subsets, and the relay's
+  hand-certificate checks: deleting Bourbaki nodes 2 and 6 leaves 20 roots (the A₄
+  chain 1–3–4–5), dim z = 26. So the relay's cleanest fact — "26 is attained" and
+  "24 is impossible" are the same fact (every size-6 hyperplane pair carries a third
+  hyperplane, avoiding the forbidden 24) — has its classification side verified here.
+- **The no-moduli theorem (theirs; consistency-checked here).** C is not a free
+  choice: dim C = 4 with dim z(C) = 12 forces |Φ ∩ C^⊥| = 6 with C^⊥ two-dimensional
+  (12 = 6 + 6 checks), the only rank-≤2 root system with 6 roots is A₂ (A₁: 2,
+  A₁×A₁: 4, A₂: 6, B₂: 8, G₂: 12), and all 40 A₂ subsystems of D₅ form a single
+  W(D₅) orbit — **the entire stratification is unique up to conjugacy**. Feeds the
+  cost ledger's zero-dials column: the four-charge torus carries no modulus.
+- **Provenance.** Audit-seat independence record: four routes with no shared code path
+  (certified-gap weight system; direct rank on stacked ad-matrices; pure root-system
+  combinatorics from the Cartan matrix, which predicted the 6-triple/3-double incidence
+  pattern before seeing charges; fully exact rank over ℚ, K, and degree-6/12 towers with
+  no numerics in the certification path — the route that also found the second real
+  30-point ⟨x₁, x₂₂ − γ·x₁₄⟩ and the R = (c₆−c₂)·q identity). Their locks live on their
+  branch and are NOT imported; nothing merged. This addendum records the corrected
+  scope + the bench-verified backbone only.

@@ -56,9 +56,13 @@ now agree on which two of the four torus charges are measured:
 - The unmeasured pair's exponents multiply to **77 = 7·11 = the squarefree
   discriminant part shared by all three cubics** (B888) — the resolvent field
   ℚ(√77) is built from exactly the unmeasured slots.
-- The golden 5 is in neither column: it enters by ramification
-  (disc μ carries 5², τ₅ is the {2,3,5,7,13}-smooth block) — the third,
-  non-slot channel.
+- The golden 5 is in neither column: it is **model-borne, not ramified** —
+  disc μ carries 5² through the integral model ℤ[t]/μ while **5 ∤ disc K =
+  6237 = 3⁴·7·11** (5 is unramified in K and in the whole S₃ closure,
+  splitting with shape [1,2], the value primes' shape); τ₅ is the
+  {2,3,5,7,13}-smooth block — the third, non-slot channel. *(Corrected
+  2026-08-18: this line formerly said "it enters by ramification"; see the
+  addendum below.)*
 
 **Claim discipline:** each column is a banked theorem or banked computation;
 the *concordance* is the new object. It is a finite check (4 slots × 4
@@ -75,3 +79,33 @@ firewalled paragraph.
 
 B581 (block torsions + sign law), B866 (μ, disc μ), B854/P69 (the FMT plane),
 B888 (77 = the shared resolvent), B893 (the signature census).
+
+---
+
+## ADDENDUM 2026-08-18 — the ramification clause corrected (audit-seat catch, bench-verified)
+
+The audit seat's relay of 2026-08-15 caught that this file's third-channel line (and its
+echoes in `THEOREM_LEDGER` C28, `LAW_MAP`'s concordance row, and the M6 line of
+`STRUCTURE_TO_NATURE_MASTERPLAN`) misnamed where the golden 5 lives. Verified on this
+bench by independent computation (sympy, exact; not the audit seat's script):
+
+- **The reduced model.** K = ℚ[t]/μ ≅ ℚ[x]/(x³ − 12x − 5) — the isomorphism is real
+  (μ acquires a linear factor over ℚ(β), β a root of the reduced cubic), the model is
+  monogenic (index 1 by Dedekind at 3: f ≡ (x+1)³ mod 3, criterion gcd = 1), so
+  **disc K = 6237 = 3⁴·7·11**, squarefree part 77 — C28's resolvent clause now has a
+  one-line derivation.
+- **The correction.** A ramified prime divides the field discriminant; **5 ∤ 6237**. In
+  K the prime 5 is unramified with splitting shape [1,2] — *the same shape as the value
+  primes 953, 1129, 421493* — and it is unramified in ℚ(√77) (77 ≡ 1 mod 4, disc 77),
+  hence in the entire S₃ closure. The 5 that M6 saw is real but **model-borne**:
+  disc μ = 2³²·3¹⁰·5²·7³·11·13⁶ vs disc K = 3⁴·7·11 — the 5² (and the 13⁶; 13 is inert,
+  and 2³² likewise: 2 is unramified) belong to the non-maximal integral model ℤ[t]/μ,
+  a property of how the pencil was normalised, not arithmetic of the field.
+- **Scope.** The keystone is untouched: the concordance is support-level, and
+  5 ∈ supp(disc μ) is true. Only the word "ramification" was wrong. The dependents sweep
+  (this bench, full-corpus grep): no argument anywhere treats 5 as an arithmetic
+  invariant of K; the sweep-ledger row 6's channel name is renamed in place. B888's own
+  priced next step ("the field discriminants proper, vs polynomial discs") is exactly
+  the computation that decided this — part-paid today.
+- **Registry.** `ERROR_LEDGER` E41 (model invariant read as field invariant);
+  `RETRACTED_PHRASES` row 9; lock `tests/test_c28_ramification.py`.

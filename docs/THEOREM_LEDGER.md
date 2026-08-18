@@ -249,8 +249,13 @@ exact minimal-polynomial theorems on the matter pencil. — B885, B886. Locks:
 `tests/test_b885_interbreaking.py`, `tests/test_b886_matter_pencil.py`.
 
 **C28 [THEOREM — the four-column concordance].** Measured ⟺ θ-odd exponents (4,8) ⟺
-τ_m > 0 ⟺ split spectrum; unmeasured ⟺ (7,11) ⟺ compact; 7·11 = 77 the resolvent; 5 by
-ramification. — B894, B898. Locks: `tests/test_b894_bridge.py`, `tests/test_b898_census.py`.
+τ_m > 0 ⟺ split spectrum; unmeasured ⟺ (7,11) ⟺ compact; 7·11 = 77 the resolvent
+(disc K = 6237 = 3⁴·7·11, one line from the reduced model x³−12x−5); the golden 5 enters
+supp(disc μ) through the model ℤ[t]/μ, **not by ramification in K** — 5 ∤ disc K, 5
+unramified in the whole S₃ closure, splitting shape [1,2] (the value primes' shape).
+*(Clause corrected 2026-08-18 — audit-seat catch, bench-verified; formerly "5 by
+ramification". See B894's addendum; E41.)* — B894, B898. Locks: `tests/test_b894_bridge.py`,
+`tests/test_b898_census.py`, `tests/test_c28_ramification.py`.
 
 **C29 [THEOREM — the signature dichotomy].** ad(x₈) ≡ ad(x₁₆): {0³⁰, 48 real};
 ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imag}; zero generic-complex on C. — B898. Lock:

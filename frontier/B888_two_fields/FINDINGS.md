@@ -33,6 +33,8 @@ resolvent field is precisely the discriminant datum of the étale algebra.
   quadratic ℚ(√77); the second (vacuum) field shares it — the formalization should treat the
   resolvent-entangled PAIR, not K alone.
 - The field discriminants proper (vs polynomial discs) and the ramification detail at 2 are
-  the priced next step of the identity card.
+  the priced next step of the identity card. *(Part-paid 2026-08-18: disc K = 6237 = 3⁴·7·11
+  computed exactly via the reduced model x³−12x−5 — 2, 5, 13 are all model-borne and
+  unramified in K; the ramified primes of K are exactly {3, 7, 11}. See B894's addendum.)*
 
 `tests/test_b888_two_fields.py`

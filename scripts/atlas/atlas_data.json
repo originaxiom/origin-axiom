@@ -19457,7 +19457,9 @@
   "B874": {
    "slug": "measurement ladder",
    "motifs": [
+    "metallic",
     "eisenstein",
+    "golden",
     "lorentzian"
    ],
    "refs": [
@@ -19470,7 +19472,7 @@
     "B892"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 17,
+   "obstacle_conf": 20,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -19714,7 +19716,8 @@
     "firewall"
    ],
    "refs": [
-    "B886"
+    "B886",
+    "B894"
    ],
    "obstacle": "measure",
    "obstacle_conf": 2,

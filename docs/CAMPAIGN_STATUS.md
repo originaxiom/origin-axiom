@@ -16,6 +16,23 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-18, the corrections bank + W2 resumes + THE PAPER elected):**
+Two audit-seat catches verified on this bench and landed. C28's clause "the
+golden 5 enters by ramification" was a model-invariant error (E41): disc K =
+6237 = 3⁴·7·11 exactly (K ≅ ℚ[x]/(x³−12x−5), monogenic), 5 unramified in the
+whole S₃ closure with the value primes' splitting shape — K's true ramified
+set is {3, 7, 11}, the object's prime plus the unmeasured pair, and the
+resolvent 77 now derives in one line. B874's "no 26 stratum" gains its true
+scope: exact over ℝ, while over the closure the 26/A₄ stratum is attained at
+four non-real points — the A₂⊕A₁ terminus is not real, the Second Measurement
+Theorem lives over K̄, and the stratification is UNIQUE up to conjugacy (no
+moduli — a zero-dials deposit). E₆'s full Levi-dimension list bench-verified:
+{6,8,10,12,14,16,18,20,26,28,30,36,46,78}. The W2 descent inventory resumed
+from its journal-harvested state, models tiered by duty (standing directive).
+THE OWNER ELECTED THE LEAD DELIVERABLE: after the masterplan, the paper — the
+whole unbroken chain from not-nothing to SM structure, sent for review; W6
+feeds it; the audit seat is already drafting on its paper lane.
+
 **LATEST (2026-08-14, THE FIELD MASTERPLAN opens — B1067 banks the ray-class harvest):**
 The owner elected the field exploration as a multi-agent workflow masterplan
 ("did we explore the field until the end?" — no), and its first bank landed:

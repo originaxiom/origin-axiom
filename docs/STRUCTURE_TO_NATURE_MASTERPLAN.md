@@ -112,7 +112,9 @@ discriminants proper; symbolic nonvanishing of the 11.
 - **M4 COMPUTED** — B894: support identity supp(τ_ad, p≤13) = supp(disc μ) TRUE; no exponent
   identity (honest negative); the twelve large torsion primes never enter disc μ. Locked.
 - **M6 KEYSTONE LANDED** — the four-column ledger (measured ⟺ θ-odd ⟺ τ>0 ⟺ split;
-  unmeasured ⟺ θ-even ⟺ τ<0 ⟺ compact; 7·11 = 77 the resolvent; 5 by ramification) is
+  unmeasured ⟺ θ-even ⟺ τ<0 ⟺ compact; 7·11 = 77 the resolvent; the golden 5 model-borne
+  via ℤ[t]/μ, not ramified in K — *clause corrected 2026-08-18, formerly "5 by
+  ramification"; B894 addendum*) is
   locked as a finite check in B894. The remaining M6 work is the *proof* of the sign law
   (registered below as N2).
 - **M7 COMPUTED** — folded into B893 as planned.

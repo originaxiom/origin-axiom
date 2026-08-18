@@ -1,5 +1,41 @@
 # Changelog
 
+## Corrections bank (2026-08-18) — the audit seat's two catches land verified: C28's ramification clause was a model-invariant error (E41), and B874's negative gains its true scope (over ℝ)
+
+Two relay letters from the audit seat (2026-08-15), both verified on this
+bench before a word moved. (1) THE C28 CORRECTION: "the golden 5 enters by
+ramification" was wrong — the charge field K = Q[t]/mu is Q[x]/(x^3-12x-5)
+exactly (isomorphism computed: mu factors linearly over Q(beta); index 1 by
+Dedekind at 3), so disc K = 6237 = 3^4*7*11 and 5 does not divide it: 5 is
+unramified in K and in the whole S3 closure, splitting with shape [1,2] —
+the value primes' shape. The 5^2 the corpus saw is model-borne (disc mu =
+2^32*3^10*5^2*7^3*11*13^6 through the non-maximal Z[t]/mu — as are the 2^32
+and 13^6). K's genuine ramified set is exactly {3, 7, 11}: the object's
+prime plus the unmeasured pair; the resolvent 77 now derives in one line
+(6237 = 81*77). Corrected in place: B894 FINDINGS + addendum, arc_verdict,
+THEOREM_LEDGER C28, LAW_MAP, the masterplan's M6 line, the sweep-ledger's
+channel name; B888's priced next step part-paid. Registered: ERROR_LEDGER
+E41 (model invariant read as field invariant — ramification adjectives
+attach to disc K, never disc(poly)), RETRACTED_PHRASES row 9, lock
+tests/test_c28_ramification.py (4 tests). Dependents sweep: no argument
+anywhere treated 5 as K-arithmetic; the exponent accounting survives with
+the channel renamed. (2) THE B874 SCOPE: the banked "no 26 stratum"
+negative is correct OVER R (the audit seat reproduced our 12s exactly);
+over the closure the 26/A4 stratum is attained at four non-real points.
+The mechanism: of the seven weight-hyperplane normals at a wall point,
+three are real and four form two conjugate pairs, and a real point can
+never take exactly one of a pair — killing real 14, 20, 26 and making the
+A2+A1 terminus (B892's SM-shaped landing) a NON-REAL point: the Second
+Measurement Theorem lives over the closure. Bench-verified backbone: the
+complete Levi-dimension list of E6 recomputed here by reflection closure —
+{6,8,10,12,14,16,18,20,26,28,30,36,46,78}; 24 impossible, 26 = exactly the
+four A4's. Their no-moduli theorem recorded: C is forced (C-perp carries 6
+roots, A2 unique at rank <= 2, one W(D5) orbit) — zero-dials column. Scope
+words added in B874 + B892; addendum in B874. Model tiering for workflow
+agents is now standing (the W2 continuation runs tiered from the harvested
+journal). The owner elected THE PAPER (the unbroken chain, not-nothing to
+SM structure, sent for review) as the post-masterplan lead deliverable.
+
 ## B1067 (2026-08-14) — the masterplan's first bank: the ray-class asset lands double-rebuilt; the field censuses map the biographies
 
 The field-exploration masterplan (owner-elected, six workflows) opens with

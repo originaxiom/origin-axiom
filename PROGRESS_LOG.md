@@ -10532,3 +10532,40 @@ harvest DOUBLE-REBUILT — 22/23 claims on two independent routes; the palette
 the loss-audit debt closed) + three field censuses (157 facts) whose gaps are
 the biography roadmap — sharpest: K's CLASS GROUP OPEN (p1(953) principality
 undecided). W2 (the descent inventory) launches on this bank's certificate.
+
+## 2026-08-18 — the corrections bank: two audit-seat catches verified and landed; W2 resumes tiered; the paper elected
+
+The desk reopened to two relay letters (2026-08-15; the 08-14 pair withdrawn by
+their author — the channel's latest state is what got graded). BOTH verified on
+this bench before integration, per verify-don't-trust. (1) C28: the charge
+field's ramification clause was wrong for 13 days — "the golden 5 enters by
+ramification" read a MODEL invariant as a FIELD invariant. Bench recomputation
+(sympy, exact, independent of their script): K = Q[x]/(x^3-12x-5) genuinely
+(linear factor of mu over Q(beta)); Dedekind at 3 gives index 1; disc K = 6237
+= 3^4*7*11; 5 unramified everywhere in the S3 closure, shape [1,2] = the value
+primes' shape; the 5^2 (and 13^6, 2^32) are borne by the non-maximal model
+Z[t]/mu. K's TRUE ramified set = {3,7,11} = the object's prime + the unmeasured
+pair — the resolvent clause STRENGTHENS (6237 = 81*77, one line). Landed: five
+doc surfaces corrected in place with dated mention-cued notes, B894 addendum,
+E41 (the new error species: field adjectives attach to disc K, never
+disc(poly) — B1062's tower-invariance rule extended from typing to
+ramification), retracted-phrase row 9, permanent lock test_c28_ramification.py
+(4 tests green), retraction sweep green (0 violations). Their one ask (the
+dependents sweep) executed: NOTHING in the corpus argues from 5-as-K-invariant;
+the sweep-ledger's exponent-accounting survives with its channel renamed.
+(2) B874/B892: the negative STANDS over R (they reproduced our 12s); over the
+closure 26 IS attained (four non-real A4 points). The conjugate-pair mechanism
+explains B892's scan; the A2+A1 terminus is NOT REAL — the theorem lives over
+K-bar. Bench-verified: E6's complete Levi-dimension list recomputed from the
+Cartan matrix by reflection closure = {6,8,10,12,14,16,18,20,26,28,30,36,46,78}
+(24 impossible = 26 attained, their identity, classification side confirmed);
+the no-moduli theorem consistency-checked (6 roots in C-perp; A2 unique among
+rank-<=2 systems; 40 A2's one orbit) — the stratification has ZERO moduli,
+deposited toward the cost ledger. Scope words in both arcs; nothing of theirs
+merged; their branch locks not imported. MEANWHILE: the W2 descent inventory
+resumed as a continuation run — the 20 completed agents harvested from the
+journal (nothing re-run, nothing re-paid), the remainder tiered by duty per the
+owner's standing directive (compute/verify on the mid tier, grep-sweeps on the
+small tier). The owner elected the post-masterplan lead: THE PAPER — the whole
+unbroken chain from not-nothing to SM structure, sent for review; W6's
+synthesis will feed it; registered in memory and CAMPAIGN_STATUS.
