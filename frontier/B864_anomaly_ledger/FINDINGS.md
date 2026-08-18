@@ -1,10 +1,10 @@
 # B864 — the anomaly ledger: the dial/gauge split is DERIVED, and hypercharge is the UNIQUE gaugeable abelian direction
 
-> ## ⚠ SCOPE SHARPENED 2026-08-17 (B1070) — NOT a retraction; this arc is correct as scoped
+> ## ⚠ SCOPE SHARPENED 2026-08-17 (B8070) — NOT a retraction; this arc is correct as scoped
 >
 > Result (3)'s uniqueness is uniqueness **inside the chosen 3-plane** `span(Y, χ, ψ)`, which is
 > what §3 says and what the downstream rows carry ("in the chain's abelian sector"). Two
-> sharpenings, both re-derived from scratch on the B1070 bench:
+> sharpenings, both re-derived from scratch on the B8070 bench:
 >
 > 1. **The coefficient `a` drops out identically.** The anomaly functionals are linear in `Q`, so
 >    `Q = aY + bχ + cψ` gives `a·A(Y) + b·A(χ) + c·A(ψ) = 0`, and `A(Y) = 0` is the textbook fact.

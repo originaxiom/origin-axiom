@@ -1078,7 +1078,7 @@ established during B979's prior-art read:
 lane"* — then dismisses it because its survivor is *"mathematics… **not the SM's gauge content**."*
 **That premise is now false.** B862 derives the global ℤ₆ form, B864 derives hypercharge as the
 unique gaugeable U(1) **in the chain's abelian sector** `span(Y, χ, ψ)` (scope restored 2026-08-17
-per B1070: outside that 3-plane the cubic factors into **three** anomaly-free lines, so anomaly
+per B8070: outside that 3-plane the cubic factors into **three** anomaly-free lines, so anomaly
 cancellation alone does not select hypercharge), and B892 lands the cascade on su(3)⊕su(2)⊕u(1)³.
 The object now *has* SM gauge content, which is exactly what door 5's dismissal assumed absent.
 

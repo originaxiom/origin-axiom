@@ -67,3 +67,53 @@ Fork point `3524b889` (B1024's seal, 2026-08-11). The cloud window: 30 arcs
 CONSOLIDATION_REFRESH_HANDOFF_2026-08-12 (in the handoffs directory of their branch — not a main path). The
 digest ledger (fixed denominator, every row dispositioned) is the companion
 artifact; this table is the resolver.
+
+---
+
+## RESERVED BANDS — the audit seat (added 2026-08-18, by the merge gate's ruling)
+
+The error registry collided **four times** (E39 mis-keyed as E22, E40's digest-port assignment,
+E41, then E42 — the last two on the same day, both yielded). Yielding is correct and is **not the
+fix**: two seats minting from one sequence with no shared allocator will keep colliding. So the
+sequences are now **disjoint by construction**:
+
+| seat | arcs | error classes |
+|---|---|---|
+| **main** | the natural sequence `B…` | the natural sequence `E…` |
+| **audit seat (cc3)** | **`B8000+`** | **`E800+`** |
+| cloud | `qL…` | — |
+
+**`port-assigns-numbers` is unchanged.** At harvest-and-rebank, band content receives
+main-sequence numbers and the rows below record band ⟷ main, exactly as the `qL` rows do.
+
+### The 2026-08-18 remap
+
+Thirteen arcs banked on this branch on 08-17/08-18 collided with, or would shortly have collided
+with, main's sequence — `B1068`, `B1069` and `B1070` collided outright (main landed
+`descent_inventory`, `hearing_biography`, `listener_derivation` the next day). A one-digit remap
+was chosen over `B1081+` **deliberately**: main's own sequence reaches `B1081` within weeks, and
+that would return us here.
+
+| was | now | arc |
+|---|---|---|
+| B1068 | **B8068** | `j2t_charge_field` |
+| B1069 | **B8069** | `conformal_selection` |
+| B1070 | **B8070** | `anomaly_rank_descent` *(RETRACTED — ports as a record, per house practice)* |
+| B1071 | **B8071** | `reality_gate` |
+| B1072 | **B8072** | `matching_capacity` |
+| B1073 | **B8073** | `su5_reality` |
+| B1074 | **B8074** | `nilpotent_rank4` |
+| B1075 | **B8075** | `rung_spectrum_audit` |
+| B1076 | **B8076** | `paper_closure` *(the campaign and its lock)* |
+| B1077 | **B8077** | `compact_home` |
+| B1078 | **B8078** | `rung_spectrum_attained` |
+| B1079 | **B8079** | `arrangement_exact` |
+| B1080 | **B8080** | `assembly_classification` |
+
+The error class minted here as `E41`, re-keyed to `E42`, then `E43`, now takes **`E843`**; main's
+`E43` stays free.
+
+**Correspondence is not rewritten.** The relays that carry the collision — both the letter
+reporting it and the ruling answering it — keep the original identifiers, because they are the
+record *of* the collision and editing them would erase the evidence.
+

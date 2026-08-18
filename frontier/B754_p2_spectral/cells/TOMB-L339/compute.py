@@ -173,9 +173,9 @@ def j_from_q(q, nmax=50):
         qn *= q
         E4 += 240 * sigma(n, 3) * qn
         E6 -= 504 * sigma(n, 5) * qn
-    E43 = E4 ** 3
-    delta = (E43 - E6 ** 2) / 1728
-    return E43 / delta
+    E843 = E4 ** 3
+    delta = (E843 - E6 ** 2) / 1728
+    return E843 / delta
 
 q4 = (-4 * PI * SQ3).exp()        # tau = 2*sqrt(-3)   : m004 cusp lattice Z+2sqrt(-3)Z
 q3 = -((-PI * SQ3).exp())         # tau = zeta_6       : m003 cusp lattice ~ O_K (j=0)

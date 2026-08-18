@@ -18,7 +18,7 @@ view can quietly imply completeness it does not have.
 
 ## Negatives absent from `kill_graph`
 
-Found among the authored arcs: `B1073`.
+Found among the authored arcs: `B8073`.
 
 ### Measured (B801), not merely flagged
 

@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-18)",
+ "claim_one_line": "THE RUNG ARRANGEMENT IS EXACT OVER Q -- B8078's residue is CLOSED, and the 64 Levi subsystems are deposited. B8078 proved the paper's eleven-element rung bound is tight but registered one residue: the flat enumeration was exhaustive at three FAITHFUL PRIMES and not a characteristic-zero certificate, since reduction mod p can only ADD linear dependencies among weights. This closes it by a construction sharing no code path. The opening is cc's no-moduli theorem (B874 addendum), REPRODUCED here rather than cited per WORKING_RULES sec.2/12: dim C = 4 with dim z(C) = 12 forces |Phi ^ C-perp| = 6 with C-perp two-dimensional, the only rank-<=2 root system with 6 roots is A2 (A1:2, A1xA1:4, A2:6, B2:8, G2:12), and all such subsystems lie in one W-orbit, so the stratification is unique up to conjugacy. CONSEQUENCE: the weights of C on e6 are simply THE 72 ROOTS OF E6 RESTRICTED TO C. Six restrict to zero, giving dim z(C) = 6+6 = 12; the other 66 = 72-6 form the arrangement as 30 distinct weights with multiplicity profile 12x1 + 18x3 -- EXACTLY what B8078 computed from the charges via ad-matrices, an exact Q charpoly factorisation and three primes, by a route that shares no code with this one. Every vector here is RATIONAL, so the arrangement is defined over Q, linear dependence among rational vectors is unchanged by any characteristic-zero extension, and the Q-enumeration IS the Qbar-enumeration: the 109 flats and the eleven values {12,14,16,18,20,26,28,30,36,46,78} are now exact, and dim z(S) = 14 is attained at 3-dimensional S over Qbar unconditionally. THE NUANCE that reconciles this with the 46: the arrangement is rational but the CHARGE BASIS's position relative to it is not, so a flat rational in root coordinates is a subspace the coordinates x8/x14/x16/x22 reach only after base change to K -- B8078's irreducible (8,16)-plane cubic and this rational lattice are statements about different coordinate systems and do not conflict. ALSO DEPOSITED (campaign item 3, moving block (b) to block (a)): all 64 Levi subsystems, with root counts 0,2,4,6,8,10,12,14,20,22,24,30,40,72, the fourteen ambient dimensions, 24 NOT a Levi dimension, 26 realized by exactly four A4 node-subsets (matching cc's bench run, reproduced independently here), exactly three dimensions carrying two types -- 12, 18, 20, which is Rmk leviscope's claim -- and the four counts the paper leans on each unambiguous. SCOPE: exact over Q, no primes, no numerics, no sympy. Nothing about the member, class, sisters, rows or any real form; the REAL-point question is a different one and is untouched -- cc's addendum shows reality kills 14, 20 and 26 over R and nothing here contradicts that. Gate 5 untouched.",
+ "depends_on": [
+  "B8078",
+  "B874",
+  "B866",
+  "B892"
+ ],
+ "id": "B8079",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

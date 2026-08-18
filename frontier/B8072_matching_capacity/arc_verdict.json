@@ -1,0 +1,15 @@
+{
+ "id": "B8072",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "SEVEN NULLS ARE ONE MEASUREMENT OF AN INSTRUMENT'S NOISE FLOOR, NOT SEVEN RESULTS ABOUT THE OBJECT: with candidate values at local density rho per unit natural log, a chance match at relative precision delta has P = 1 - exp(-2.rho.delta) and carries -log2(P) bits. rho is CALIBRATED from the corpus's own recorded counts, never assumed: TOMBSTONES H128 (37 hits) and H129 (208 hits) are INDEPENDENT windows agreeing on rho = 2794 to 1.30x for the sealed phi-expression regime, and B743's surrogates (69% hits at 5 digits) give rho = 58559 for the PSLQ tower, a calibration that then PREDICTS P = 1.2e-6 at 11 digits against B743's observed 0 of 50. The floor: p < 0.05 needs 5.0 significant digits in the phi-expression regime and 6.4 in the PSLQ regime. Against that floor, NINE of twelve SM parameters lie in the no-information band where a match is statistically guaranteed -- sin^2 theta_W, alpha_s, m_W/m_Z, m_tau/m_mu, |V_us|, |V_cb| and all three neutrino angles -- and only m_p/m_e (18.9 bits), alpha_em^-1 (15.8) and m_mu/m_e (8.6) can carry evidence. So B563, B549, B558, B615, B724, B743 and B322 all compared against targets that could not have produced evidence in either direction, and a 16-sigma miss and a 0.04-sigma hit in that band carry identical information: none. A FIRST VERSION OF THIS CELL WAS REJECTED BY ITS OWN CONTROL -- it scaled rho between regimes by raw candidate count and predicted 12.0 of 12 for B322 against that arc's observed null mean of 7.6; rho is a LOCAL density and the model is per-regime because that failure forced it. The failed version is recorded, not dropped. SCOPE, and it is the whole difference: this is a statement about the INSTRUMENT, not about the object. It does NOT say the object lacks a relation to any constant, only that comparison at achievable precision cannot detect one, and it RETRACTS none of the seven arcs -- each is correct as computed. The density model rests on four recorded counts in two regimes and would move if those counts were wrong. No value is derived, compared or promoted; the measured constants enter only as precisions; Gate 5 untouched.",
+ "depends_on": [
+  "B724",
+  "B743",
+  "B563",
+  "B322"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc3 audit seat (2026-08-17)"
+}

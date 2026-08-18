@@ -1,0 +1,13 @@
+{
+ "id": "B8074",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE RANK CEILING'S HYPOTHESIS IS LOAD-BEARING AND THE NILPOTENT CLASS ESCAPES IT: ad(h) for h in the Cartan is diagonal with eigenvalues alpha(h), and over all 4^6-1 = 4095 integer Cartan points ZERO have ad nilpotent, so a maximal torus's centralizer (the Cartan) holds no nonzero nilpotent and hence rank(Z_G(x)) <= 5 for every nonzero nilpotent x -- the class GUT_REQUIREMENTS_LEDGER section D's argument never covered. Exhaustively over all 64 standard Levi subalgebras (no sampling), rank 4 occurs at exactly 15 of them, 5 of type A2 and 10 of type 2A1, and on EVERY rank-4 Levi the 27 is non-self-dual (stays complex); self-duality of the 27 first appears only at rank <= 2. Controls: Bala-Carter agreement (dim z(e) = 36 for A2, 46 for 2A1, ad(e) verified nilpotent), section D verified TRUE on its own class (every torus element's centralizer contains the full Cartan, 400/400), and non-genericity (15 of 64, not all). SCOPE, and it is the whole difference: this is a SCOPE NOTE on section D, NOT a refutation -- section D is true as written and already says it is about what measurement ALONE cannot do. It does NOT establish that the object reaches either orbit: the omega-covariant purity reading that would place it on 2A1 is mod-p work in B8068 and is OWED, not claimed. Which real forms these centralizers admit is B8071, not this arc. Nothing about generations, values or scale; Gate 5 untouched.",
+ "depends_on": [
+  "B952",
+  "B8071"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc3 audit seat (2026-08-17)"
+}

@@ -10533,31 +10533,31 @@ the loss-audit debt closed) + three field censuses (157 facts) whose gaps are
 the biography roadmap — sharpest: K's CLASS GROUP OPEN (p1(953) principality
 undecided). W2 (the descent inventory) launches on this bank's certificate.
 
-## 2026-08-18 — B1069–B1075: the audit-seat consolidation, and a B600–B1000 recovery sweep
+## 2026-08-18 — B8069–B8075: the audit-seat consolidation, and a B600–B1000 recovery sweep
 
 Six arcs banked to protocol; two cross-seat panel results rebuilt in-sandbox (one
 confirmed, one killed); the paper's false spectrum theorem corrected and machine-checked;
 and a sweep of B600–B1000 that recovered banked results the synthesis layer had lost.
 
-THE REBUILDS. B1074 confirms the nilpotent panel exhaustively over Q: ad(h) on the Cartan
+THE REBUILDS. B8074 confirms the nilpotent panel exhaustively over Q: ad(h) on the Cartan
 is diagonal with eigenvalues alpha(h), and over all 4^6-1 = 4095 integer Cartan points ZERO
 have ad nilpotent, so rank(Z_G(x)) <= 5 for every nonzero nilpotent -- the class section D's
 argument never covered. Rank 4 occurs at exactly 15 of the 64 standard Levis (5 of type A2,
 10 of type 2A1) and on every one the 27 stays complex. A SCOPE NOTE on section D, not a
-refutation. B1073 KILLS the su(5) panel result: B = A ^ tau(A) has Killing rank 3, not 24,
+refutation. B8073 KILLS the su(5) panel result: B = A ^ tau(A) has Killing rank 3, not 24,
 at three completely-split primes over ~1557 characters each, with the intertwining gate
 T(X.v) = theta(X).T(v) passing 2106/2106 -- a check absent from cell16/cell18/cell20. The
 254-case negative is a TRUE CONCLUSION FROM A WRONG ARGUMENT.
 
-B1071 (reality gate, exact over Q): the 64 inner characters give dim k in {78,46,38} with
+B8071 (reality gate, exact over Q): the 64 inner characters give dim k in {78,46,38} with
 counts 78x1/46x27/38x36, independently reproducing B907's sealed sweep without being given
 it; A2's centraliser su(3)+su(3) is COMPACT at 3 characters of e6(2) and never in e6(-14),
-while 2A1's so(7)+u(1) is never compact in e6(2). B1069: affine isotropy cuts B527's Stein
+while 2A1's so(7)+u(1) is never compact in e6(2). B8069: affine isotropy cuts B527's Stein
 cone to one ray -- the metric is determined up to ONE positive number -- with the generic
-half retracted in-script. B1072: the matching-capacity floor; nine of twelve SM parameters
+half retracted in-script. B8072: the matching-capacity floor; nine of twelve SM parameters
 lie below it, so seven banked nulls compared against targets that could not have produced
-evidence either way. B1070: RETRACTED same day, a printed f-string headline; B971 had closed
-it NEGATIVE nine days earlier. B1075: the referee's spectrum objection verified exactly --
+evidence either way. B8070: RETRACTED same day, a printed f-string headline; B971 had closed
+it NEGATIVE nine days earlier. B8075: the referee's spectrum objection verified exactly --
 dim z(C) = 12, so 6, 8, 10 are impossible.
 
 THE SWEEP, and it is the important half. B876 -- "each breaking's matter decomposes into
@@ -10584,17 +10584,17 @@ zero commits to any of its 43 files. B976 already diagnosed this in the owner's 
 
 ---
 
-## 2026-08-18 — B1076–B1078: the campaign, and the spectrum the sample could not see
+## 2026-08-18 — B8076–B8078: the campaign, and the spectrum the sample could not see
 
 The list of what the paper cannot confidently claim was turned into a tracked artifact with a
-lock (B1076), because the failure mode is drift, not error: a thing is named, agreed to be real,
+lock (B8076), because the failure mode is drift, not error: a thing is named, agreed to be real,
 and then quietly not done while attention moves. The lock fired on its own author twice within
 the hour — rejecting an invented "PARTIAL" status, and catching a cited evidence path that had
 no directory on it. Both times it was right, and both times the fix was the ledger's, not the
 lock's. (Once it was wrong, matching `**GREEN**` against `GREEN`; that was a lock reading the
 typesetter, and PRACTICES already names the defect.)
 
-The substantive result is B1078, and it runs the other way from most audit findings.
+The substantive result is B8078, and it runs the other way from most audit findings.
 
 Theorem thm:rungspec bounds the rung dimensions above by an eleven-element set. External review
 was right that the paper had no ground to call those values ATTAINED, and the claim was properly
@@ -10634,12 +10634,12 @@ exact-over-ℚ̄ flat lattice is the next computation, and it is specified rathe
 
 ---
 
-## 2026-08-18 — B1079: the residue closed, from a fetch
+## 2026-08-18 — B8079: the residue closed, from a fetch
 
 The owner said: fetch the repo, cc has been working, maybe something helps. It did, and the
 lesson is worth more than the result.
 
-B1078 had just proved the paper's eleven-element rung bound tight, and had registered one
+B8078 had just proved the paper's eleven-element rung bound tight, and had registered one
 residue honestly: the flat enumeration was exhaustive at three faithful primes, not a
 characteristic-zero certificate, because reduction mod p can only ADD linear dependencies among
 weights. I had specified the closing computation and left it as the next thing.
@@ -10650,7 +10650,7 @@ and all such subsystems lie in a single W-orbit — says the stratification is u
 conjugacy. Reproduced in-sandbox, as §2/§12 require rather than cited, it collapses the whole
 problem: **the weights of C on e₆ are just the 72 roots of E₆ restricted to C.** Six restrict to
 zero, which is dim z(C) = 6 + 6 = 12; the other 66 = 72 − 6 are the arrangement, 30 distinct
-weights with profile 12×1 + 18×3 — the same profile B1078 had extracted from the charges through
+weights with profile 12×1 + 18×3 — the same profile B8078 had extracted from the charges through
 ad-matrices, an exact ℚ characteristic-polynomial factorisation, and three primes. Two routes
 that cannot see each other's code, one answer.
 
@@ -10679,7 +10679,7 @@ always the seat that closes it, and the closing tool was already banked on anoth
 
 ---
 
-## 2026-08-18 — B1080: the campaign's first refutation, and it was self-inflicted twice
+## 2026-08-18 — B8080: the campaign's first refutation, and it was self-inflicted twice
 
 Campaign item 4 asked for the enumeration behind Theorem (classify). The paper had already
 flagged it, precisely and to its own cost: *"its code is not deposited, so by this paper's own

@@ -1,6 +1,6 @@
 # Changelog
 
-## B1080 (2026-08-18) — the polyhedral assembly classification is REFUTED
+## B8080 (2026-08-18) — the polyhedral assembly classification is REFUTED
 
 The paper's Scope (assembly) flagged Theorem (classify) as owed in its own words:
 "its code is not deposited, so by this paper's own standard the theorem is an
@@ -53,9 +53,9 @@ Campaign: items 1, 2, 3, 4 and 6 GREEN. Item 4 is the campaign's first
 refutation, and the prereg declared that outcome in advance.
 
 
-## B1079 (2026-08-18) — the arrangement is the E6 root system restricted to C, and it is exact over Q
+## B8079 (2026-08-18) — the arrangement is the E6 root system restricted to C, and it is exact over Q
 
-B1078 left one residue: its flat enumeration was exhaustive at three faithful
+B8078 left one residue: its flat enumeration was exhaustive at three faithful
 primes, not a characteristic-zero certificate, because reduction mod p can only
 ADD linear dependencies among weights. The residue is closed the same day, by a
 route that shares no code path with it.
@@ -70,7 +70,7 @@ on their branch.
 The consequence is that the weights of C on e6 are simply the 72 roots of E6
 restricted to C. Six restrict to zero, giving dim z(C) = 6+6 = 12; the other
 66 = 72-6 form the arrangement, as 30 distinct weights with profile 12x1 + 18x3.
-That profile is exactly what B1078 computed from the charges, through
+That profile is exactly what B8078 computed from the charges, through
 ad-matrices, an exact Q charpoly factorisation and three primes. Neither route
 can see the other's code.
 
@@ -98,17 +98,17 @@ records the two routes and the coordinate-system nuance.
 Campaign: items 1, 2, 3 and 6 GREEN -- the whole terminus block. Eight open.
 
 
-## B1076–B1078 (2026-08-18) — the paper-closure campaign, and the rung spectrum turns out to be ATTAINED
+## B8076–B8078 (2026-08-18) — the paper-closure campaign, and the rung spectrum turns out to be ATTAINED
 
-The campaign (B1076) is a tracked ledger of twelve things the paper cannot
+The campaign (B8076) is a tracked ledger of twelve things the paper cannot
 confidently claim, sealed with a preregistration and locked by
-tests/test_b1076_paper_closure.py, which fails if an item is deleted, given a
+tests/test_b8076_paper_closure.py, which fails if an item is deleted, given a
 status outside the four, or marked GREEN without an evidence path that resolves
 on disk. The failure mode it exists to prevent is not error but DRIFT. It has
 already fired on its own author twice in one session — once rejecting an
 invented "PARTIAL" status, once catching a cited path with no directory.
 
-**B1078 — the paper's eleven-element rung bound is TIGHT.** Theorem thm:rungspec
+**B8078 — the paper's eleven-element rung bound is TIGHT.** Theorem thm:rungspec
 bounds dim z(S) by {12,14,16,18,20,26,28,30,36,46,78}; Remark rem:spectrumscope
 withdraws attainment and reports the realized set as "far smaller", because the
 evidence was a SAMPLE — 16 coordinate subsets plus 440 random rational
@@ -134,13 +134,13 @@ spectral gap and left its type check open; here it is exact and its
 multiplicity 16 is DERIVED as an exponent rather than recorded as 46-30.
 
 Every rung value banked before this arc by other methods lands in the enumerated
-spectrum: 12 and 30 (B874, B1075), 14 and 18 (B892 via B874's amendment), 46
+spectrum: 12 and 30 (B874, B8075), 14 and 18 (B892 via B874's amendment), 46
 (B866). Scope: the decomposition, master formula and plane are exact over Q; the
 flat enumeration is exhaustive at three faithful primes and is NOT a Qbar
 certificate, since mod-p reduction can only add dependencies among weights. That
 residue is registered, not hidden.
 
-**B1077 — the cascade's endpoint has a compact home.** C is theta-stable in 4 of
+**B8077 — the cascade's endpoint has a compact home.** C is theta-stable in 4 of
 64 inner characters, landing on the same e6(2) that B907 sealed for the wall by
 a wholly different route. The SM algebra is compact there 36/36, as is B892's
 14-dimensional endpoint. Reality is not the obstruction it has been read as;
@@ -152,14 +152,14 @@ conjecture is a theorem — and that its "exactly two quotients" onto 2T is
 correct only UP TO Aut(2T), an equivalence the paper does not state.
 
 
-## B1069–B1074 (2026-08-17) — the audit-seat consolidation: two panel results reproduced in-sandbox, one confirmed and one killed
+## B8069–B8074 (2026-08-17) — the audit-seat consolidation: two panel results reproduced in-sandbox, one confirmed and one killed
 
 Six arcs, banked together. The two headline results of the week existed only
 in multiagent panel transcripts, which WORKING_RULES §2/§12 forbid banking
 ("every cross-seat claim is reproduced in-sandbox"; "never asserted/cited/
 proxied"). Both were rebuilt on this bench. One survived; one did not.
 
-**B1074 — the rank ceiling's hypothesis is load-bearing.** GUT_REQUIREMENTS_
+**B8074 — the rank ceiling's hypothesis is load-bearing.** GUT_REQUIREMENTS_
 LEDGER §D states the obstruction as "a theorem, not an estimate" for
 centralizers of SEMISIMPLE elements; that word had never been tested. ad(h) on
 the Cartan is diagonal with eigenvalues alpha(h), and over all 4^6-1 = 4095
@@ -169,7 +169,7 @@ nilpotent. Exhaustively over all 64 standard Levis, rank 4 occurs at exactly
 15 — 5 of type A2, 10 of type 2A1 — and on EVERY one the 27 stays complex.
 §D verified TRUE on its own class (400/400). A SCOPE NOTE, not a refutation.
 
-**B1073 — the su(5) is NOT tau-stable, and the panel's number does not
+**B8073 — the su(5) is NOT tau-stable, and the panel's number does not
 reproduce.** B = A ^ tau(A) has Killing rank 3, not 24, at three completely-
 split primes over ~1557 characters each. The banked A = (34,24) reproduces
 first; the intertwining gate T(X.v) = theta(X).T(v) passes 2106/2106 — a check
@@ -181,7 +181,7 @@ been there. CONSEQUENCE: the 254-case negative is a TRUE CONCLUSION FROM A
 WRONG ARGUMENT — conclusion stands, argument measured Stab(s) with an
 unverified tau. Banners on CELL_ITEM1_FINDINGS.md and the three cells.
 
-**B1071 — the reality gate, in characteristic zero.** A real form is named by
+**B8071 — the reality gate, in characteristic zero.** A real form is named by
 dim k, an exact integer. The 64 inner characters give dim k in {78,46,38} and
 nothing else, counts 78x1/46x27/38x36 — reproducing B907's sealed sweep
 WITHOUT being given it. A2's centralizer su(3)+su(3) is COMPACT at 3
@@ -189,30 +189,30 @@ characters of e6(2) and never in e6(-14); 2A1's so(7)+u(1) is never compact in
 e6(2). By Kostant–Sekiguchi A2 meets e6(2) at all 36 of its characters. The
 compact-e6 row returns False/False unprompted — the method validating itself.
 
-**B1069 — affine isotropy cuts B527's Stein cone to one ray.** Rank 5 of 5, so
+**B8069 — affine isotropy cuts B527's Stein cone to one ray.** Rank 5 of 5, so
 the metric is determined UP TO ONE POSITIVE NUMBER, composing with B167. The
 dimension count was RETRACTED IN-SCRIPT as generic (200/200 perturbations);
 what survives is the measured 6/238 = 2.5% PD-and-Stein coincidence, stated as
 suggestive and NOT significant.
 
-**B1072 — the matching-capacity floor.** rho calibrated from the corpus's own
+**B8072 — the matching-capacity floor.** rho calibrated from the corpus's own
 recorded counts (H128/H129 agree to 1.30x; B743's surrogates predict its own
 0-of-50 at 11 digits). NINE of twelve SM parameters lie below the evidential
 floor, so B563/B549/B558/B615/B724/B743/B322 compared against targets that
 could not have produced evidence either way. A first version was rejected by
 its own control. A statement about the INSTRUMENT, not the object.
 
-**B1070 — RETRACTED, self-caught the same day.** Claimed anomaly cancellation
+**B8070 — RETRACTED, self-caught the same day.** Claimed anomaly cancellation
 drops the Lie rank 6 -> 4. The headline was an f-string literal; the computed
 Killing rank is 11 on both sides; the "before" algebra was degenerate. B971
-had closed it NEGATIVE nine days earlier. Error classes E43 and E2
+had closed it NEGATIVE nine days earlier. Error classes E843 and E2
 (instance). Its surviving contribution is a SCOPE NOTE on B864: uniqueness
 holds inside span(Y,chi,psi); over the full charge space the cubic factors
 into THREE anomaly-free lines.
 
 Corrections propagated: B864 banner + OPEN_LEADS L144 scope restored;
 CELL_ITEM1 and the three tau cells bannered; paths/PATHS.md E9 scoped to the
-cosmogonic reading with the banked SSB cluster named; ERROR_LEDGER E43 minted
+cosmogonic reading with the banked SSB cluster named; ERROR_LEDGER E843 minted
 and E2 extended; RETRACTIONS rows; retraction sweep 4 violations -> 0.
 
 

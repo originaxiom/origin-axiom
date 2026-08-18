@@ -1,0 +1,13 @@
+{
+ "id": "B8069",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "AFFINE ISOTROPY CUTS B527's SIX-DIMENSIONAL STEIN CONE TO A SINGLE RAY: the isotropy conditions have computed rank 5 of 5 on the 6-dimensional Sym(E_s), so the locus is one ray and it IS the S_aff ray -- positive definite, Stein driver [0.0989, 0.3138, 0.4439] strictly inside the cone, and the Lorentzian completion G = S - alpha.ell.ell^T has signature (3,1) and stays Stein-positive at every alpha tested, checked ON THE SELECTED RAY and not merely at S_aff. So Stein compatibility plus affine isotropy determine the metric UP TO ONE POSITIVE NUMBER and nothing else, which composes with B167's conserved-implies-no-internal-scale lemma: the object determines everything about the metric except t, and t is precisely what B167 argues cannot come from within. RETRACTED IN-SCRIPT BEFORE IT WAS EVER A CLAIM: the first falsifiability control failed -- perturbing the letters gives dim 1 in 200 of 200, so 'the isotropy locus is a ray' is GENERIC to any four points in 3-space and is NOT a fact about this object (the B416 failure mode); the dimension count is retracted as evidence and kept in the script as a recorded negative. What IS non-generic, with a real denominator: the letters fix the isotropy ray and M_* independently fixes the Stein cone, and over random contracting 4x4 nonnegative-integer operators the ray is positive definite in 238 of 238 (generic, carries nothing) but PD AND Stein-compatible in only 6 of 238 = 2.5%. SCOPE, stated at true strength: that is ONE object against a 2.5% base rate, p about 0.025, NOT significant on its own, and the comparison class (small-integer matrices) is crude. This is a statement about M_* on E_s -- a four-letter transfer operator and its stable space -- NOT a claim about spacetime; 'Lorentzian' means signature (3,1) and nothing more. Whether this conformal structure and the e6 gauge arc live on the same object is UNSEARCHED, named as open rather than absent. Gate 5 untouched.",
+ "depends_on": [
+  "B527",
+  "B167"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc3 audit seat (2026-08-17)"
+}
