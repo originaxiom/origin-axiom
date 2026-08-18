@@ -205,14 +205,14 @@ its own control. A statement about the INSTRUMENT, not the object.
 **B1070 — RETRACTED, self-caught the same day.** Claimed anomaly cancellation
 drops the Lie rank 6 -> 4. The headline was an f-string literal; the computed
 Killing rank is 11 on both sides; the "before" algebra was degenerate. B971
-had closed it NEGATIVE nine days earlier. Error classes E42 and E2
+had closed it NEGATIVE nine days earlier. Error classes E43 and E2
 (instance). Its surviving contribution is a SCOPE NOTE on B864: uniqueness
 holds inside span(Y,chi,psi); over the full charge space the cubic factors
 into THREE anomaly-free lines.
 
 Corrections propagated: B864 banner + OPEN_LEADS L144 scope restored;
 CELL_ITEM1 and the three tau cells bannered; paths/PATHS.md E9 scoped to the
-cosmogonic reading with the banked SSB cluster named; ERROR_LEDGER E42 minted
+cosmogonic reading with the banked SSB cluster named; ERROR_LEDGER E43 minted
 and E2 extended; RETRACTIONS rows; retraction sweep 4 violations -> 0.
 
 

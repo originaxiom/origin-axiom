@@ -40,7 +40,7 @@ question was under-quantified twice in ten minutes — first by grading on a mar
 searching a single 16 when the programme has both gradings, both faces, the class and the rows.
 Both were caught, and both were the same error.*
 
-**No headline may be a printed constant** (error class E42). Every reported number is bound to a
+**No headline may be a printed constant** (error class E43). Every reported number is bound to a
 computed variable, and the arc states which computed invariant **changes** between the before and
 after states. If none does, there is no result.
 

@@ -100,4 +100,4 @@ def test_the_standing_rules_survive():
     text = open(LEDGER, encoding="utf-8").read()
     assert "No item closes on prose" in text
     assert "quantifier" in text
-    assert "printed constant" in text          # error class E42, from B1070
+    assert "printed constant" in text          # error class E43, from B1070

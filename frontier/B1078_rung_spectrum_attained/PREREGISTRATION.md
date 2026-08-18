@@ -36,7 +36,7 @@ The fourth row is the one that would have killed the paper's theorem. It did not
 
 ## Controls against my own known failure modes
 
-1. **No headline may be a printed constant** (E42). The eleven values are read out of a
+1. **No headline may be a printed constant** (E43). The eleven values are read out of a
    computed dict; the exponent 16 on the plane cubic is read off `charpoly(Q)`, not asserted
    from `46 − 30`.
 2. **Every control targets the claim.** Each row above names the arc that would falsify it.

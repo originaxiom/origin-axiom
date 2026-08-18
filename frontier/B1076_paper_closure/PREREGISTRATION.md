@@ -50,7 +50,7 @@ be closed is closed *as a finding*. What is forbidden is an item silently leavin
 ## Controls against my own known failure modes
 
 1. **No headline may be a printed constant.** Every reported number is bound to a computed
-   variable. (E42 — minted as E41 and re-keyed when main took that number the same window; after B1070 printed `{2+1+3} -> {2+1+1}` as its result.)
+   variable. (E43 — minted as E41 and re-keyed when main took that number the same window; after B1070 printed `{2+1+3} -> {2+1+1}` as its result.)
 2. **Every control targets the claim, not its neighbourhood.** Before marking GREEN, state what
    would have to be true *in the world* for the check to fail. If the answer is "nothing outside
    this file", it is documentation, not a check.
