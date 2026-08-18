@@ -1,0 +1,35 @@
+ITEM 1 -- the weight field, certified exactly over Q
+
+the paper's charge field K = Q[t]/(t**3 - 12*t - 5), disc = 6237
+
+  ad(x8) factor ^8: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))
+
+  ad(x14) factor ^2: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))
+
+  ad(x14) factor ^3: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))
+
+  ad(x14) factor ^6: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))
+
+  ad(x16) factor ^8: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))
+
+  ad(x22) factor ^2: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))
+
+  ad(x22) factor ^3: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))
+
+  ad(x22) factor ^6: cubic in u=L^2, irreducible over Q: True
+     disc(u-cubic) squarefree part = 77   (K's is {3: 4, 7: 1, 11: 1})
+     => quadratic resolvent Q(sqrt(77))

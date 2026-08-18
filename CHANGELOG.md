@@ -1,5 +1,59 @@
 # Changelog
 
+## B1076–B1078 (2026-08-18) — the paper-closure campaign, and the rung spectrum turns out to be ATTAINED
+
+The campaign (B1076) is a tracked ledger of twelve things the paper cannot
+confidently claim, sealed with a preregistration and locked by
+tests/test_b1076_paper_closure.py, which fails if an item is deleted, given a
+status outside the four, or marked GREEN without an evidence path that resolves
+on disk. The failure mode it exists to prevent is not error but DRIFT. It has
+already fired on its own author twice in one session — once rejecting an
+invented "PARTIAL" status, once catching a cited path with no directory.
+
+**B1078 — the paper's eleven-element rung bound is TIGHT.** Theorem thm:rungspec
+bounds dim z(S) by {12,14,16,18,20,26,28,30,36,46,78}; Remark rem:spectrumscope
+withdraws attainment and reports the realized set as "far smaller", because the
+evidence was a SAMPLE — 16 coordinate subsets plus 440 random rational
+directions, giving {12,30,78}. The subspace lattice of C is infinite, so no
+sample can close it and no larger sample would have. Structure closes it:
+exactly over Q, e6 = z(C) (+) V' with C acting as LITERALLY ZERO on z(C), and a
+generic ad-element has charpoly t^12 q6^3 q12 q12'^3 — three Galois orbits of
+weights, 12+18+12+36 = 78. So for EVERY subspace, dim z(S) = 12 + sum of the
+multiplicities of the weights vanishing on S: the rung function is the
+flat-function of 30 hyperplanes in a 4-space, and the infinite lattice has a
+finite image. Enumerating the 109 flats attains ALL ELEVEN values. The eight the
+sample missed sit on proper subvarieties, which a random rational direction
+misses with probability 1 — the sample was not unlucky, it was the wrong
+instrument. dim z(S) = 14 is attained at 3-dimensional S, so thm:smt's "if a
+14-dimensional locus occurs" is no longer conditional.
+
+Exact over Q on the (8,16)-plane: charpoly((ad x16|W)^-1 ad x8|W) = c g(t)^16
+with g an IRREDUCIBLE cubic sharing discriminant squarefree part 77 with
+x^3-12x-5 and acquiring a root in K. So dim z = 30 at every RATIONAL direction
+and 46 only at g's roots — the 46 is arithmetically inaccessible over Q, not
+merely rare. This upgrades B866, which read that 46 off a 55-digit numeric
+spectral gap and left its type check open; here it is exact and its
+multiplicity 16 is DERIVED as an exponent rather than recorded as 46-30.
+
+Every rung value banked before this arc by other methods lands in the enumerated
+spectrum: 12 and 30 (B874, B1075), 14 and 18 (B892 via B874's amendment), 46
+(B866). Scope: the decomposition, master formula and plane are exact over Q; the
+flat enumeration is exhaustive at three faithful primes and is NOT a Qbar
+certificate, since mod-p reduction can only add dependencies among weights. That
+residue is registered, not hidden.
+
+**B1077 — the cascade's endpoint has a compact home.** C is theta-stable in 4 of
+64 inner characters, landing on the same e6(2) that B907 sealed for the wall by
+a wholly different route. The SM algebra is compact there 36/36, as is B892's
+14-dimensional endpoint. Reality is not the obstruction it has been read as;
+what remains is the single step 14 -> 12.
+
+Campaign status: items 1, 2 and 6 GREEN; nine open. Item 6 proved by exhaustive
+enumeration that pi_1(4_1) surjects onto neither 2I nor A_5 — the paper's
+conjecture is a theorem — and that its "exactly two quotients" onto 2T is
+correct only UP TO Aut(2T), an equivalence the paper does not state.
+
+
 ## B1069–B1074 (2026-08-17) — the audit-seat consolidation: two panel results reproduced in-sandbox, one confirmed and one killed
 
 Six arcs, banked together. The two headline results of the week existed only
@@ -53,14 +107,14 @@ its own control. A statement about the INSTRUMENT, not the object.
 **B1070 — RETRACTED, self-caught the same day.** Claimed anomaly cancellation
 drops the Lie rank 6 -> 4. The headline was an f-string literal; the computed
 Killing rank is 11 on both sides; the "before" algebra was degenerate. B971
-had closed it NEGATIVE nine days earlier. Error classes E41 (minted) and E2
+had closed it NEGATIVE nine days earlier. Error classes E42 and E2
 (instance). Its surviving contribution is a SCOPE NOTE on B864: uniqueness
 holds inside span(Y,chi,psi); over the full charge space the cubic factors
 into THREE anomaly-free lines.
 
 Corrections propagated: B864 banner + OPEN_LEADS L144 scope restored;
 CELL_ITEM1 and the three tau cells bannered; paths/PATHS.md E9 scoped to the
-cosmogonic reading with the banked SSB cluster named; ERROR_LEDGER E41 minted
+cosmogonic reading with the banked SSB cluster named; ERROR_LEDGER E42 minted
 and E2 extended; RETRACTIONS rows; retraction sweep 4 violations -> 0.
 
 

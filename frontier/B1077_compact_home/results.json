@@ -1,0 +1,26 @@
+{
+ "A2A1_in_k": {
+  "38": [
+   36,
+   36
+  ],
+  "46": [
+   27,
+   27
+  ]
+ },
+ "C_theta_stable_by_form": {
+  "38": 3,
+  "78": 1
+ },
+ "C_theta_stable_total": 4,
+ "b892_endpoint_dim": 14,
+ "census": {
+  "38": 36,
+  "46": 27,
+  "78": 1
+ },
+ "scope": "inner real forms only; outer forms e6(6) and e6(-26) NOT swept. Shows a compact home EXISTS for the endpoint in the object's own real form; does NOT show the object's specific subalgebra IS that one.",
+ "sm_dim": 12,
+ "so10_compact_characters": 2
+}

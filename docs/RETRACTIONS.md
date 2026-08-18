@@ -75,7 +75,7 @@ maintenance rule:
   su(3)⊕su(2)); and the controls tested quantities adjacent to the claim. Independently,
   **B971 had already closed the question NEGATIVE nine days earlier** — on the object's own
   complete 27 every anomaly condition is identically zero. Banked as `frontier/B1070_anomaly_rank_descent`
-  (verdict `RETRACTED`), error classes **E41** (new) and **E2** (instance).
+  (verdict `RETRACTED`), error classes **E42** (new) and **E2** (instance).
 - **B864's uniqueness, scope restored** (2026-08-17, B1070; **a sharpening, not a retraction**)
   — *"hypercharge is the unique gaugeable U(1)"* is uniqueness **inside the chosen 3-plane**
   `span(Y, χ, ψ)`, which B864 §3 states and which most downstream rows carry as "in the chain's

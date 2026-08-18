@@ -1,0 +1,17 @@
+{
+ "id": "B1077",
+ "verdict": "PROVED",
+ "instrument": false,
+ "claim_one_line": "THE CASCADE'S ENDPOINT HAS A COMPACT HOME IN THE OBJECT'S OWN REAL FORM, exhaustively over the 64 inner characters and exact over Q. A gauge algebra must be COMPACT (unitarity forces it), so reaching su(3)+su(2)+u(1) over C is not enough. (a) The object's charge algebra C is theta-stable in exactly 4 of 64 characters -- 1 compact form and 3 copies of e6(2) -- landing on the SAME real form B907 sealed for the wall by a wholly different route (128 swept involutions, tau-twisted alignments, dim k = 38 = su(6)+su(2)); two independent methods, one form. (b) The SM gauge algebra IS COMPACT in e6(2), 36 of 36 characters: k has root system A5+A1, A5 contains A2 by deleting nodes, so an A2+A1 subsystem sits inside k giving 8 roots + 4 Cartan = 12 = su(3)+su(2)+u(1). (c) The SAME 8 roots with the FULL rank-6 Cartan give 8+6 = 14 = su(3)+su(2)+u(1)^3, precisely B892's second-measurement endpoint z(x1,y*), inside k in 36 of 36 e6(2) characters and 27 of 27 in e6(-14). (d) Two characters give k = so(10)+u(1) (dim 46, derived 45), so the banked cascade E6 -> SO(10)xU(1) -> SU(5)xU(1) -> SM (B861/B863/B994) is a chain of COMPACT subalgebras in e6(-14). READING: both sides of the remaining step are compact and real, and what lies between them is the single step 14 -> 12, the rank-6 -> rank-4 drop, which is exactly the one row B1017's resource table marks UNSOURCED (the VEV direction). Reality is NOT the obstruction it has been read as. CONTROL: the inner census reproduces B907's sealed sweep -- 78x1, 46x27, 38x36 -- WITHOUT being given it. SCOPE, and it is the whole difference: INNER forms only (e6(6) and e6(-26) NOT swept); this shows a compact home EXISTS for the endpoint, and does NOT show the object's specific SM-shaped subalgebra IS that one -- a matching problem between C's theta-eigenstructure and the A2+A1 subsystem in k, which is open. B892's own finding that a^2 < 0, so y* is not a real point, stands untouched: what is shown is that an algebra of that TYPE is compact in the form, not that B892's particular point is real. No values, no scale; Gate 5 untouched.",
+ "depends_on": [
+  "B907",
+  "B892",
+  "B861",
+  "B994",
+  "B1017",
+  "B1071"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc3 audit seat (2026-08-18)"
+}

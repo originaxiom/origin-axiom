@@ -10581,3 +10581,54 @@ The standing law-harvest has run twice in forty-six reviews. R32-9b -- 105 unrea
 -- has been carried through six reviews without being opened, and the R32 vacuity queue has
 zero commits to any of its 43 files. B976 already diagnosed this in the owner's favour:
 "the owner was right; eleven banked arcs the synthesis layer had forgotten."
+
+---
+
+## 2026-08-18 — B1076–B1078: the campaign, and the spectrum the sample could not see
+
+The list of what the paper cannot confidently claim was turned into a tracked artifact with a
+lock (B1076), because the failure mode is drift, not error: a thing is named, agreed to be real,
+and then quietly not done while attention moves. The lock fired on its own author twice within
+the hour — rejecting an invented "PARTIAL" status, and catching a cited evidence path that had
+no directory on it. Both times it was right, and both times the fix was the ledger's, not the
+lock's. (Once it was wrong, matching `**GREEN**` against `GREEN`; that was a lock reading the
+typesetter, and PRACTICES already names the defect.)
+
+The substantive result is B1078, and it runs the other way from most audit findings.
+
+Theorem thm:rungspec bounds the rung dimensions above by an eleven-element set. External review
+was right that the paper had no ground to call those values ATTAINED, and the claim was properly
+withdrawn — the evidence was sixteen coordinate subsets and 440 random rational directions,
+giving {12, 30, 78}, and the remark concluded the realized set "appears on present evidence to be
+far smaller". The instinct then was to grow the sample. That instinct was wrong, and it would
+never have terminated: the subspace lattice of C is INFINITE.
+
+What closes it is structure. Exactly over ℚ, e₆ = z(C) ⊕ V′ with C acting as literally zero — not
+merely nilpotently — on z(C), and a generic ad-element's characteristic polynomial factors as
+t¹²·q₆³·q₁₂·q₁₂′³. So the non-zero weights fall into three Galois orbits, 12+18+12+36 = 78, and
+for EVERY subspace S ⊆ C
+
+        dim z(S) = 12 + Σ { m_λ : λ vanishes on S }.
+
+The rung function is the flat-function of an arrangement of thirty hyperplanes in a four-
+dimensional space. The lattice is infinite; its image is not. There are 109 flats, and they
+attain ALL ELEVEN values. The bound is tight.
+
+The eight values the sample missed live on proper subvarieties. A random rational direction
+misses those with probability 1 — so the sample was not unlucky, it was the wrong instrument for
+the question, and no amount of more of it would have helped. The sharpest case is exact: on the
+(8,16)-plane the enhancement locus is cut by an IRREDUCIBLE cubic, so every rational direction
+gives 30 and the 46 appears only over the cubic field K — the same K the weight field turned out
+to be. The 46 is arithmetically inaccessible over ℚ, not rare over ℚ. B866 had this 46 from a
+55-digit numeric spectral gap and left "independent type check" as its open item; it is now
+exact, with its multiplicity 16 derived as an exponent rather than recorded as 46−30.
+
+Two things worth keeping. First: every rung value the corpus had banked by other methods lands in
+the enumerated spectrum — B874's ladder entire, B892's 14 and 18, B866's 46. The synthesis layer
+had the values and had lost the fact that they were the SAME question. Second: thm:smt reads "if
+a 14-dimensional locus occurs, its type is forced". The occurrence is now supplied.
+
+Residue, registered not hidden: the flat enumeration is exhaustive at three faithful primes, not
+a ℚ̄ certificate, because mod-p reduction can only ADD dependencies among weights. The
+exact-over-ℚ̄ flat lattice is the next computation, and it is specified rather than vague.
+
