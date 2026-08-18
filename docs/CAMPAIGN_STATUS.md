@@ -16,6 +16,20 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-18 third bank, B1069 — the hearing biography, and E42):**
+W3 delivered ℚ(√5) exhaustively: the hearing palette is 1, 1, 2 against
+being's 1, 2, 8 (the discriminator is unit rank — the free unit outraces the
+residue tower; 2-inert is a shared control), narrow ray class at (4)·∞ =
+(ℤ/2)² non-cyclic (new ground), the orders tower unified (f = 3, 4 carry
+h_narrow = 2 over h_wide = 1), CM-typing exact, and the F11 on-ramp
+registered not claimed (B737's own multiplier-ring language = the orders
+table's; B739's rigidity governs what the palette cannot do). The cell's
+cross-validation caught B92's 64-day-old h = 2 at disc 20 as default-call
+inflation (E42): the primitive truth is h = 1 — the metallic companion is
+unique through m = 5, the first genuine failure is m = 6, and every
+metallic order has a norm-(−1) unit (narrow = wide family-wide). W2 in its
+final round; Track A (the L166 opening computations) mid-compute.
+
 **LATEST (2026-08-18 second bank, THE MAIN GOAL + L166 — the crossing door is
 posed, licensed, and repaired):** The owner elected the main goal (SM physics,
 not just math) and gave GO. L166 REGISTERED: the listener map as a

@@ -1466,6 +1466,53 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1069": {
+   "slug": "hearing biography",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall",
+    "five_web"
+   ],
+   "refs": [
+    "B214",
+    "B366",
+    "B420",
+    "B479",
+    "B530",
+    "B666",
+    "B672",
+    "B737",
+    "B739",
+    "B743",
+    "B746",
+    "B857",
+    "B872",
+    "B910",
+    "B918",
+    "B92",
+    "B997",
+    "K025",
+    "L2",
+    "P17",
+    "P18",
+    "P19",
+    "P3",
+    "P65"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B106": {
    "slug": "dehn filling anatomy",
    "motifs": [
@@ -20661,6 +20708,7 @@
     "wrt_quantum"
    ],
    "refs": [
+    "B533",
     "B93",
     "B94",
     "P1",

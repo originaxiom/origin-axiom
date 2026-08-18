@@ -10588,3 +10588,21 @@ close (orbit/stabilizer; B641 to closed form; the theta-even landscape — the
 existence question's shape decides there). W2 (52/54) and W3 (7/15) still
 computing; their banks (B1068/B1069) follow separately. All fleet agents on
 the cheap tiers per the standing directive.
+
+## 2026-08-18 (third bank) — B1069 the hearing biography + the B92 correction (E42)
+
+W3 landed 9/9 with the verification lenses' six FAIL rows all honest-typed:
+three scoping rules (no F11 contact claimed; the palette explains the
+palette, not the voice — B739's rigidity governs; unit rank discriminates,
+2-inert is a control), two citation slips repaired inside the assembled
+document itself, and one live catch against the banked corpus: B92's h = 2
+at disc 20 was default-call inflation (imprimitive form) — bench-confirmed
+h = 1 twice over (Gauss cycles; the order formula, unit index 3 via phi^3 =
+1+2phi), the full metallic table recomputed m = 1..10 (h > 1 exactly at
+{6, 9, 10}), the norm-(-1) rider closing narrow/wide family-wide, B92
+addendum + E42 registered, dependents swept clean. B1069's FINDINGS carries
+the bench header with the whole verification record; the F11 on-ramp
+(B737's multiplier-ring language = the orders table's) is registered as a
+bridge, not a claim — W6 ranks it with everything else. Meanwhile W2 is in
+its final round (the critic added rows; 53/62 at last count) and Track A's
+three opening computations run. All agents cheap-tier throughout.

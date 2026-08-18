@@ -1,5 +1,35 @@
 # Changelog
 
+## B1069 (2026-08-18) — THE HEARING BIOGRAPHY lands: Q(sqrt5) built exhaustively on new ground, and a 64-day-old class-number error caught in the act
+
+The masterplan's W3 cell (9 agents, 0 errors, exact throughout, two
+adversarial lenses whose every finding is folded into the document or scoped
+in its frame). The headline numbers: THE HEARING HECKE PALETTE IS 1, 1, 2 at
+(2),(4),(8) against being's 1, 2, 8 — and the discriminator is Dirichlet
+unit rank (1 vs 0: the free unit phi permanently outraces the residue
+tower), with 2-inert a shared CONTROL, not a cause; the narrow ray class at
+(4)*inf1*inf2 is Z/2 x Z/2 NON-CYCLIC (new ground); h = h+ = 1 drawn
+in-sandbox; the splitting census for all 12 programme primes triple-checked
+(the banked frame reconfirmed fresh, both directions of mutual blindness);
+the orders tower f = 1..5 unified exactly (f = 3, 4: h_wide = 1 with
+h_narrow = 2); CM-typing exact (totally real, never CM — the cusp-torus
+mechanism cannot transplant, but real multiplication on a Z^2-lattice stays
+live). THE F11-ADJACENT BRIDGE registered not claimed: B737's own sister
+script speaks the orders table's multiplier-ring language — the
+Hilbert-modular/RM route to the golden ledger's one GAP now has a named
+on-ramp, while B739's character-rigidity governs what the palette cannot do
+(no voice claim made). THE B92 CATCH: the biography's cross-validation
+exposed h = 2 at disc 20 (inside B92's own 2026-06-15 correction note) as
+DEFAULT-CALL INFLATION — an unflagged imprimitive form; the true primitive
+table (two bench routes: Gauss reduction cycles + the order formula with
+unit index 3) gives h = 1 for m = 1..5, 7, 8 and h = 2 exactly at m = 6, 9,
+10 through m = 10 — so the metallic companion IS unique at m = 4 and the
+first genuine failure is m = 6; family rider: every metallic order has a
+norm-(-1) unit, narrow = wide throughout. B92 addendum + ERROR_LEDGER E42;
+dependents swept, none consumed the wrong clause. Locks ride the standing
+suite; the biography's own three-route discipline is E42's named template.
+
+
 ## The crossing-preparation bank (2026-08-18) — L166 REGISTERED (the listener map, posed + licensed + adversarially repaired), the 77-echo closed to its true form, and the last licensed contact row identified
 
 THE MAIN GOAL was elected by the owner this day: make the programme about SM

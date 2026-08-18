@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **971** |
-| words of findings prose | **656,427** |
+| research arcs with findings | **972** |
+| words of findings prose | **661,996** |
 | test lock files referenced | **602** |
-| arcs carrying an authored verdict | **958** (98.7 %) |
+| arcs carrying an authored verdict | **959** (98.7 %) |
 | recorded closures | **753** (586 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 633 |
+| PROVED | 634 |
 | NEGATIVE | 283 |
 | OPEN | 32 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1067`** (2291 words, 0 locks)  
-The branch-resident Q(sqrt-3) class-field asset lands on main DOUBLE-REBUILT (22/23 claims re-derived independently on two declared-different routes; the 23rd is a repo-state meta-claim typed by both): the ray-class filtration Cl_n = (O/n)x/im(mu_6) with orders 1/2/8 at levels (2)/(4)/(8); mu_6 injects mod (4) not mod (2); the cusp lattice CM order Z[2 sqrt-3] disc -48 order-conductor 4; h(-48) = 2 with forms (1,0,12),(3,0,4); H_-48(x) = x^2 - 2835810000x + 6549518250000 with j(2 sqrt-3) exact; and the one-object identification ring-class-field(Z[2 sqrt-3]) = ray-class-field mod (4) = K(sqrt3) = Q(zeta_12), the mod-(4) Z/2 swapping the two form classes. Plus the three field censuses (157 facts) whose gap-lists are the biography roadmap — sharpest find: K CLASS GROUP OPEN (principality of p1(953) undecided).  
-`B1067_rayclass_harvest/FINDINGS.md`
+**PROVED — `B1069`** (5207 words, 1 locks)  
+THE HEARING BIOGRAPHY: Q(sqrt5) built exhaustively as a number field on new ground (the field-masterplan W3 cell, 9 agents 0 errors, exact throughout, two adversarial lenses + bench re-verification): the splitting census for all 12 programme primes triple-checked (5 ramifies, 3 inert, 11 splits -- the banked frame reconfirmed fresh both directions of mutual blindness); O = Z[phi] with h = h+ = 1 drawn in-sandbox; THE HEARING HECKE PALETTE IS 1, 1, 2 at (2),(4),(8) against being's 1, 2, 8 -- the discriminator is Dirichlet unit rank (1 vs 0; the free unit outraces the residue tower), with 2-inert a shared control, not a cause; narrow ray class at (4)*inf1*inf2 = Z/2 x Z/2 NON-CYCLIC (new ground); the orders tower f = 1..5 unified exactly (f = 3, 4: h_wide = 1, h_narrow = 2), catching a live B92 error (h = 2 at disc 20 from an unflagged imprimitive form; true value 1, bench-confirmed by the class-number formula with unit index 3 and by exhibiting the imprimitive inflators); CM-typing exact (totally real, never CM, the cusp-torus mechanism cannot transplant -- but real multiplication on a Z^2-lattice stays live); the F11-adjacent bridge registered not claimed: B737's p3_sister.py uses the identical multiplier-ring construction as the orders table -- the Hilbert-modular/RM route to the golden ledger's one GAP now has a named on-ramp, while B739's character-rigidity governs what the palette cannot do (no voice claim made).  
+`B1069_hearing_biography/FINDINGS.md`
 
 **NEGATIVE — `B1066`** (970 words, 0 locks)  
 NEGATIVE — both inventory-forced relations decisively excluded by the CURRENT global fit (NuFIT 6.1, Nov 2025 data, both orderings, delta profiled over the full circle): R-B (the phi-geometric row) fires NO trial anywhere — the delta-independent anchor |U_e1| = 0.8225(40) vs phi/2 = 0.80902 is 3.4 sigma and unrescuable; R-A (the listener pair) misses everywhere — sin^2th12 = 0.308(67) vs 0.27639 is 4.7 sigma. The two-execution history is the record per the covenant: execution 1 ran against superseded NuFIT 6.0 (the B1063 fetch-currency species reproduced same-day, caught by the owner + self-audit; its single wide-window firing on PMNS column 1 was a stale-release artifact, WITHDRAWN), execution 2 valid. The coupling channel — type-legal by construction, licensed by the kind table, never base-rate-tested — is now tested and closed; with the phases (B1027/B1063) and both remaining kind-rows consumed, the licensed value-contact surface is EXHAUSTED. The listener map named as the sole residual door. One-shot spent properly.  

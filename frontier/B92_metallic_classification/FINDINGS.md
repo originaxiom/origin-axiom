@@ -61,3 +61,42 @@ python frontier/B92_metallic_classification/probe.py
 python -m pytest tests/test_b92_metallic_classification.py -q
 ```
 No physics; proven core P1–P16 untouched; outreach dormant.
+
+
+---
+
+## ADDENDUM 2026-08-18 — the correction note's class-number table was itself wrong (caught by the W3 biography cell; bench-verified twice over)
+
+The 2026-06-15 correction above is right about the *principle* (period-1 is necessary,
+not sufficient; Latimer–MacDuffee counts the classes) but wrong about the *numbers* —
+its Sage `BinaryQF_reduced_representatives` call counted an **imprimitive** form at
+disc 20 ((2,±6,2) = 2·(1,±3,1), discriminant 4·5 inflated to 20) and the table
+inherited the tool's convention instead of the theorem's. The exact primitive table
+(this bench, two independent routes: direct Gauss reduced-cycle enumeration under the
+ρ-operator, and the order class-number formula h·f·∏(1−(d|p)/p)/[unit index] — for
+disc 20: 1·2·(3/2)/3 = 1 with unit index 3 via φ³ = 1+2φ; a third route in the W3
+cell cross-validated against PARI):
+
+| m | D = m²+4 | h (primitive, proper) |
+|---|---|---|
+| 1–5 | 5, 8, 13, 20, 29 | **1** |
+| 6 | 40 | **2** |
+| 7, 8 | 53, 68 | **1** |
+| 9, 10 | 85, 104 | **2** |
+
+**Corrected statements.** The companion `M_m` is the UNIQUE `GL(2,ℤ)` class for every
+m ≤ 5 (and for m = 7, 8) — in particular **at m = 4, where the note claimed h = 2**;
+the first genuine failure of uniqueness is **m = 6** (disc 40, h = 2), and the note's
+"h > 1 again at m = 6, 8, …" is also wrong about m = 8 (h = 1). Through m = 10 the
+non-unique cases are exactly m ∈ {6, 9, 10}.
+
+**A structural rider the recomputation exposed.** λ_m·λ_m′ = −1 by the characteristic
+polynomial's constant term, so every metallic order ℤ[λ_m] contains a unit of norm −1
+and **narrow = wide class number for the entire family** — the defining det = −1
+condition itself closes the narrow/wide gap, so the count above needs no convention
+caveat.
+
+**Scope.** The det = −1 ⟺ tower-parity result (B93), the systole selection, and every
+downstream use were swept (2026-08-18): no other file consumes the wrong clause
+(B533's Latimer–MacDuffee leg is over ℚ(√φ), unaffected). Registered: ERROR_LEDGER
+E42 (default-call inflation); the W3 cell's catch is recorded in B1069's FINDINGS.
