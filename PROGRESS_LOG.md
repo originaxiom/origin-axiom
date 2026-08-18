@@ -10632,3 +10632,48 @@ Residue, registered not hidden: the flat enumeration is exhaustive at three fait
 a ℚ̄ certificate, because mod-p reduction can only ADD dependencies among weights. The
 exact-over-ℚ̄ flat lattice is the next computation, and it is specified rather than vague.
 
+---
+
+## 2026-08-18 — B1079: the residue closed, from a fetch
+
+The owner said: fetch the repo, cc has been working, maybe something helps. It did, and the
+lesson is worth more than the result.
+
+B1078 had just proved the paper's eleven-element rung bound tight, and had registered one
+residue honestly: the flat enumeration was exhaustive at three faithful primes, not a
+characteristic-zero certificate, because reduction mod p can only ADD linear dependencies among
+weights. I had specified the closing computation and left it as the next thing.
+
+cc's branch already contained the idea. Their no-moduli theorem — dim C = 4 with dim z(C) = 12
+forces |Φ ∩ C^⊥| = 6 with C^⊥ two-dimensional, the only rank-≤2 root system with six roots is A₂,
+and all such subsystems lie in a single W-orbit — says the stratification is unique up to
+conjugacy. Reproduced in-sandbox, as §2/§12 require rather than cited, it collapses the whole
+problem: **the weights of C on e₆ are just the 72 roots of E₆ restricted to C.** Six restrict to
+zero, which is dim z(C) = 6 + 6 = 12; the other 66 = 72 − 6 are the arrangement, 30 distinct
+weights with profile 12×1 + 18×3 — the same profile B1078 had extracted from the charges through
+ad-matrices, an exact ℚ characteristic-polynomial factorisation, and three primes. Two routes
+that cannot see each other's code, one answer.
+
+And every vector in the root picture is rational. So the arrangement is defined over ℚ, linear
+dependence among rational vectors survives any characteristic-zero extension, and the
+ℚ-enumeration IS the ℚ̄-enumeration. 109 flats, eleven values, exact. The 14-locus occurrence is
+now unconditional.
+
+The one thing that looked like a contradiction turned out to be the most clarifying part. If the
+arrangement is rational, how can the 46 be arithmetically inaccessible over ℚ? Because the
+arrangement is rational and the *charge basis's position relative to it* is not. A flat that is
+rational in root coordinates is a subspace that x₈, x₁₄, x₁₆, x₂₂ reach only after base change to
+K. Two coordinate systems, one geometry — and stating that explicitly is now in the paper, because
+a referee would otherwise hit the same apparent tension.
+
+Campaign items 1, 2, 3 and 6 are GREEN, which is the whole terminus block. Item 3 came free: the
+same root-combinatorics script deposits all 64 Levi subsystems with their types, moving that row
+out of block (b) and into block (a) of the Appendix B table — root counts
+0,2,4,6,8,10,12,14,20,22,24,30,40,72, twenty-four not a Levi dimension, 26 realized by exactly
+four A₄ node-subsets, and exactly three dimensions carrying two types, 12, 18 and 20, which is
+what Remark (leviscope) claims. cc had bench-verified that backbone; it is reproduced here rather
+than imported, and the two agree.
+
+The general point, which the corpus keeps re-learning: **the seat that registers a residue is not
+always the seat that closes it, and the closing tool was already banked on another branch.**
+

@@ -2199,9 +2199,9 @@ For every subset $S\subseteq C$,
 and \textbf{every one of the eleven values is attained} by some subspace of
 $C\otimes\overline K$. In particular \textbf{no rung can have dimension $22$, $24$, $32$,
 $34$, or any value in $38$--$44$}, no rung can have odd dimension, and \textbf{no rung can
-have dimension below $12$}. The containment is unconditional; for the attainment,
-Remark~\ref{rem:spectrumscope} records what is exact over $\Q$ and the one step certified
-at three primes rather than over $\overline K$.
+have dimension below $12$}. Both statements are unconditional and exact over $\Q$;
+Remark~\ref{rem:spectrumscope} records the history, and the two independent routes to the
+attainment.
 \end{theorem}
 
 \begin{proof}
@@ -2221,19 +2221,24 @@ $\dim z(C)=12$, which removes $6$, $8$ and $10$ from the ambient list.
 
 \emph{Attainment.} The subspace lattice of $C$ is infinite, so no sample of directions can
 decide which values occur. What decides it is that the \emph{image} of that lattice under
-$\dim z$ is finite. Exactly over $\Q$: $\ee_6=z(C)\oplus V'$ with $C$ acting as
-identically zero on $z(C)$---not merely nilpotently---and the characteristic polynomial of
-a generic element of $\ad(C)$ factors as $t^{12}\,q_6^{3}\,q_{12}\,q_{12}'^{3}$ with
-$q_6,q_{12},q_{12}'$ irreducible. So $C$ acts semisimply on $V'$ with thirty non-zero
-weights in three Galois orbits---six of multiplicity $3$, twelve of multiplicity $1$,
-twelve of multiplicity $3$---and $12+18+12+36=78$ accounts for $\ee_6$. Hence for
+$\dim z$ is finite. By Corollary~\ref{cor:levi}, $\dim z(C)=6+\lvert\Phi\cap
+C^{\perp}\rvert$, so $\dim z(C)=12$ says exactly that \textbf{six roots vanish on $C$}.
+They lie in $C^{\perp}$, of dimension $2$; the only root system of rank $\le 2$ with six
+roots is $A_2$ (the others have $2$, $4$, $8$ and $12$); and all $A_2$ subsystems of $E_6$
+are $W$-conjugate. \textbf{So the configuration is unique up to conjugacy}---the charge
+algebra carries no modulus---and the weights of $C$ on $\ee_6$ are simply the $72$ roots
+restricted to $C$. Six restrict to $0$ and the remaining $66$ give \textbf{thirty distinct
+weights, twelve of multiplicity $1$ and eighteen of multiplicity $3$}. Hence for
 \emph{every} subspace $S\subseteq C$,
 \[
-  \dim z(S)\ =\ 12+\sum\bigl\{\,m_\lambda\ :\ \lambda|_S=0\,\bigr\},
+  \dim z(S)\ =\ 6+\#\{\alpha\in\Phi:\alpha|_S=0\}\ =\ 12+\sum\bigl\{\,m_\lambda\ :\
+  \lambda|_S=0\,\bigr\},
 \]
-so $\dim z$ is the flat-function of an arrangement of thirty hyperplanes in a
-four-dimensional space. Enumerating its $109$ flats returns exactly the eleven values
-above.
+so $\dim z$ is the flat-function of an arrangement of thirty \emph{rational} hyperplanes in
+a four-dimensional space. Enumerating its $109$ flats returns exactly the eleven values
+above. Every vector involved is rational, so linear dependence among them is unchanged by
+extension of scalars and \textbf{the enumeration over $\Q$ is the enumeration over
+$\overline K$}.
 \end{proof}
 
 \begin{remark}[the history of this theorem, and what is certified how]\label{rem:spectrumscope}
@@ -2260,15 +2265,23 @@ appearing only after base change to $K$. What replaced the sample was therefore 
 larger sample but the structural identity in the proof above, which makes the question
 finite.
 
-\textbf{What is certified how.} The decomposition $\ee_6=z(C)\oplus V'$, the vanishing of
-the $C$-action on $z(C)$, the three weight orbits, the displayed identity and the plane
-cubic are exact over $\Q$. \textbf{The enumeration of the $109$ flats is exhaustive at
-three primes at which the thirty weights remain distinct with their $\Q$-multiplicities,
-and it is not a certificate over $\overline K$}: reduction modulo $p$ can only \emph{add}
-linear dependencies among weights, so a flat could in principle be coarser than its
-characteristic-zero counterpart. Three independent primes agree, and six of the eleven
-values are corroborated by computations sharing no code path with this one. We assert the
-attainment on that basis and flag the residue rather than suppress it.
+\textbf{Two routes, no shared code path.} The proof above reaches the arrangement from the
+root system: it never builds a charge, and every step is rational. A second computation
+reaches the same arrangement from the other side---the four charges, their
+$\ad$-matrices, an exact factorisation of the characteristic polynomial of a generic
+element into $t^{12}q_6^{3}q_{12}q_{12}'^{3}$, and the resulting decomposition
+$\ee_6=z(C)\oplus V'$ with $C$ acting as identically zero on $z(C)$. \textbf{The two agree
+on the weight multiplicity profile $12\times1+18\times3$, on the $109$ flats, and on the
+eleven values}; they are checked separately in
+\fn{verify/check\_\allowbreak levi\_\allowbreak arrangement.py} and
+\fn{verify/check\_\allowbreak rung\_\allowbreak attained.py}.
+
+\textbf{One apparent tension, which is not one.} The arrangement is rational, yet the value
+$46$ was described above as inaccessible over $\Q$. Both are true: what is rational is the
+arrangement, not the \emph{position of the charge basis relative to it}. A flat that is
+rational in root coordinates is a subspace that $x_8,x_{14},x_{16},x_{22}$ reach only after
+base change to $K$. The irreducible cubic and the rational lattice are statements in two
+different coordinate systems.
 \end{remark}
 
 This matters downstream. Theorem~\ref{thm:smt}'s identification of a $14$-dimensional
@@ -2989,10 +3002,10 @@ Thm~\ref{thm:coupling}, Cor~\ref{cor:ninecos} & \fn{verify/check\_\allowbreak co
 Thm~\ref{thm:amphi}, Prop~\ref{thm:blockpal} & \fn{verify/check\_\allowbreak amphichirality.py} & $R^mJ$ centralizes $\varphi_m$ with $\det=-1$; the $RLLR$ counterexample\\
 Thm~\ref{thm:rungspec}, Rmk~\ref{rem:spectrumscope} & \fn{verify/check\_\allowbreak rung\_\allowbreak spectrum.py} & $\dim z(C)=12$ exactly, so $6,8,10$ are impossible; and what a \emph{sample} of the lattice sees\\
 Thm~\ref{thm:rungspec} (attainment), Rmk~\ref{rem:spectrumscope} & \fn{verify/check\_\allowbreak rung\_\allowbreak attained.py} & the decomposition $\ee_6=z(C)\oplus V'$ and the three weight orbits, exact over $\Q$; the plane cubic irreducible and generating $K$; the $109$ flats and all eleven values, at a faithful prime\\
+Cor~\ref{cor:levi}, Rmk~\ref{rem:leviscope}, Thm~\ref{thm:rungspec} & \fn{verify/check\_\allowbreak levi\_\allowbreak arrangement.py} & all $64$ Levi subsystems with their types; $24$ is not a Levi dimension; the arrangement as the roots restricted to $C$, and the $109$ flats \textbf{exact over $\Q$}\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
-Cor~\ref{cor:levi}, Rmk~\ref{rem:leviscope}, Thm~\ref{thm:rungspec} & \fn{test\_\allowbreak levi\_\allowbreak classification\_\allowbreak forces\_\allowbreak the\_\allowbreak rungs.py} & all $64$ Levi subsystems; rung spectrum\\
 Thm~\ref{thm:smtfull}, Cor~\ref{cor:c7free}, Rmk~\ref{rem:26attained} & \fn{test\_\allowbreak second\_\allowbreak measurement\_\allowbreak is\_\allowbreak exhaustive.py} & the $78$ weights; seven hyperplanes; certified gap\\
 Thm~\ref{thm:arith} & \fn{test\_\allowbreak b125\_\allowbreak snappy\_\allowbreak arithmeticity.py} & invariant trace fields (\textsc{SnapPy})\\
 Thm~\ref{thm:canonical} & \fn{test\_\allowbreak b92\_\allowbreak metallic\_\allowbreak classification.py} & period-one criterion\\

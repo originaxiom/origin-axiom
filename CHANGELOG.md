@@ -1,5 +1,50 @@
 # Changelog
 
+## B1079 (2026-08-18) — the arrangement is the E6 root system restricted to C, and it is exact over Q
+
+B1078 left one residue: its flat enumeration was exhaustive at three faithful
+primes, not a characteristic-zero certificate, because reduction mod p can only
+ADD linear dependencies among weights. The residue is closed the same day, by a
+route that shares no code path with it.
+
+The opening came from fetching cc's branch. Their no-moduli theorem -- dim C = 4
+with dim z(C) = 12 forces |Phi ^ C-perp| = 6 with C-perp two-dimensional, the
+only rank-<=2 root system with six roots is A2, and all such lie in one W-orbit,
+so the stratification is unique up to conjugacy -- is REPRODUCED here rather
+than cited, as WORKING_RULES sec.2/12 require. Nothing merged; their locks stay
+on their branch.
+
+The consequence is that the weights of C on e6 are simply the 72 roots of E6
+restricted to C. Six restrict to zero, giving dim z(C) = 6+6 = 12; the other
+66 = 72-6 form the arrangement, as 30 distinct weights with profile 12x1 + 18x3.
+That profile is exactly what B1078 computed from the charges, through
+ad-matrices, an exact Q charpoly factorisation and three primes. Neither route
+can see the other's code.
+
+Every vector here is rational, so the arrangement is defined over Q, linear
+dependence among rational vectors is unchanged by extension of scalars, and the
+Q-enumeration IS the Qbar-enumeration. The 109 flats and the eleven values are
+now exact, and dim z(S) = 14 is attained at 3-dimensional S unconditionally.
+
+The apparent tension with the 46 is not one: the arrangement is rational, the
+charge basis's position relative to it is not. A flat rational in root
+coordinates is a subspace that x8, x14, x16, x22 reach only after base change to
+K. Two coordinate systems, one geometry.
+
+Also deposited, and this is campaign item 3: all 64 Levi subsystems with their
+types, moving that row from block (b) of the Appendix B table into block (a).
+Root counts 0,2,4,6,8,10,12,14,20,22,24,30,40,72; the fourteen ambient
+dimensions; 24 is not a Levi dimension; 26 is realized by exactly four A4
+node-subsets; and exactly three dimensions carry two types -- 12, 18, 20 --
+which is Remark (leviscope)'s claim.
+
+Paper: the attainment proof is restated from the root side, where it is exact
+and shorter, and the "certified at three primes" hedge is gone. The remark now
+records the two routes and the coordinate-system nuance.
+
+Campaign: items 1, 2, 3 and 6 GREEN -- the whole terminus block. Eight open.
+
+
 ## B1076–B1078 (2026-08-18) — the paper-closure campaign, and the rung spectrum turns out to be ATTAINED
 
 The campaign (B1076) is a tracked ledger of twelve things the paper cannot
