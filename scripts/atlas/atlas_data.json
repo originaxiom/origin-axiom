@@ -18426,6 +18426,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8089": {
+   "slug": "anomaly door5",
+   "motifs": [
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B167",
+    "B413",
+    "B563",
+    "B666",
+    "B862",
+    "B864",
+    "B876",
+    "B892",
+    "B990",
+    "L144"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B808": {
    "slug": "empty cells",
    "motifs": [

@@ -1058,7 +1058,9 @@ clause, not the whole normalisation.
 > bit is named and is the origin of φ. What remains unproved is **why A1–A6** (B949), and the
 > unconditional "from nothing" direction is **mapped dead**.
 
-## L144 — is B167's door-map still standing after the cascade campaign? (registered 2026-08-08, B979 prior-art read)
+## L144 — CLOSED 2026-08-19 (B8089, sealed OUTCOME B): the anomaly layer over the DERIVED content is **identically zero**, so door 5's ask is **structurally unanswerable by this layer** rather than merely unanswered. Every gauge channel vanishes over the 16 **and** so does the global `B−L` anomaly — `ν^c`, the field the object *derives*, is exactly what cancels the last non-vanishing invariant, so completeness of the matter and emptiness of the layer are the same fact. **B167 STANDS and receives the first citation it has ever had**, converting an orphaned POSTULATED taxonomy into a tested one. Owed, not asserted: finer spin-structure-dependent discrete anomalies. The registered text below stands as the record of the question as posed.
+
+## L144 (as registered) — is B167's door-map still standing after the cascade campaign? (registered 2026-08-08, B979 prior-art read)
 
 **Not a Planck-scale retry.** The *scale* question is genuinely bolted: **B413** (the tower-measure
 is flat, |L(χ)|=1/4 for every character — exact) and **B563** (a preregistered Planck-ratio retry

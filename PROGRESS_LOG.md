@@ -10936,3 +10936,33 @@ stale .pyc files nine days old, which a clean worktree checkout cannot see. **A 
 compares committed state and is blind to untracked cruft** — so for any guard that globs the
 working tree, it will report inherited dirt as a fresh regression. Worth remembering the next time
 a baseline looks clean.
+
+
+## 2026-08-19 (later still) — the lane that was open, and what was in it
+
+The owner asked whether Gate 5 was blocking progress unjustly. It is not, and showing that mattered
+more than saying it: Gate 5 is not even enforced in code, it governs what may be sealed rather than
+what may be computed, and the actual obstruction is a theorem. But the theorem exempts weight-zero
+quantities in its own text, and L144 had named the lane that exemption opens eleven days ago. Its
+one attempt was retracted. Nobody had gone back.
+
+So we went back, with the seal written first because this week earned that. The prediction in the
+seal was OUTCOME B, and OUTCOME B is what came out — which is worth noting, because a preregistered
+prediction that lands is the only kind of "I expected this" that carries any weight.
+
+What the computation found is better than the null it was braced for. The anomaly layer over the
+object's derived content is identically zero — not small, not unpromising, zero — so it cannot
+supply a ratio at all. Door 5 asked a question this instrument is structurally incapable of
+answering. That is B990's shape again: the gap is structural, not evidential.
+
+The part worth remembering is the irony underneath it. nu^c is the field the object derives, the one
+that makes its matter content complete and that we have treated as a small triumph. It is also
+exactly what cancels the last non-vanishing invariant. Over the imported 15 there is a global B-L
+anomaly to match; over the derived 16 there is nothing. The object's matter is too anomaly-free to
+say anything — completeness of the content and emptiness of the layer turn out to be one fact, not
+two.
+
+B167 stands. It has been an orphaned POSTULATED taxonomy since June with zero citations, and it now
+has one, on the door it itself called the only logically-open lane. Converting an untested postulate
+into a tested one is a smaller thing than opening a door, and it is a real thing, and it is what the
+seal committed us to reporting with equal prominence either way.

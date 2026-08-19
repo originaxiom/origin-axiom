@@ -10543,5 +10543,19 @@
   "hatch": "NON-abelian holonomy. Both this census and B955 assume the flat connection is abelian (B955 via H_1 = Z cyclic, this arc via torus elements). Route B's non-abelian instance is untouched by either and remains the live hatch.",
   "priced": true,
   "note": "MOST OF THE PROPOSAL WAS RIGHT, and is recorded as right: union of rows regenerates e6 (72/72), intersection is the Cartan alone u(1)^6, and the rarest row IS D5+u(1) at 108 = 0.69%, a unique minimum, with 108 = 27x4 exactly as claimed. The failure is not arithmetic but placement. THE VALUE OF THE ARC IS THE SECOND ROUTE: B955 proved rank-preservation STRUCTURALLY (H_1 = Z is cyclic, so abelian holonomy has cyclic image, whose centraliser contains a maximal torus); this reaches the same wall by EXHAUSTIVE ENUMERATION sharing no step with that argument. The wall is therefore not an artefact of how B955 chose to argue."
+ },
+ {
+  "id": "B8089",
+  "claim_killed": "Door 5 (the ratio lane) as an open route via the 't Hooft anomaly layer. L144 proposed that because 't Hooft anomalies are RG-invariant, hence scale-free BY THEOREM and outside the scale no-go's hypothesis (w=0), the anomaly layer over the object's now-derived gauge and matter content might yield a dimensionless quantized ratio with genuine gauge content -- and might CONSTRAIN DYNAMICS, since a nontrivial anomaly forbids a trivial IR. Killed by computing the layer over the DERIVED 16 (which had never been done; every banked computation used the IMPORTED 15): every gauge channel vanishes AND the global B-L cubic and gravitational anomalies vanish too, leaving ZERO non-vanishing invariants. A layer that is identically zero cannot supply a ratio, so the ask is STRUCTURALLY unanswerable by this layer rather than merely unanswered.",
+  "kill_form": "structurally-empty-instrument",
+  "faces_consulted": [
+   "algebra",
+   "anomaly",
+   "selection"
+  ],
+  "fact_computed": true,
+  "hatch": "Finer DISCRETE anomalies -- spin-structure-dependent Z6 subtleties, and mod-N 't Hooft anomalies beyond the cubic and gravitational channels computed here. These need a framework this arc did not build and are registered as owed, not asserted. Note the hatch is narrow: the continuous layer is now closed exhaustively.",
+  "priced": true,
+  "note": "THE IRONY IS THE CONTENT: nu^c -- the field the object DERIVES (B876), and which makes its matter content complete -- is exactly what cancels the last non-vanishing invariant. Over the imported 15 the global B-L anomaly is (-1, -1) and there is something to match; over the derived 16 there is nothing. The object's matter is TOO ANOMALY-FREE to say anything, so completeness of the content and emptiness of the layer are the same fact. DISPOSITION: this is the sealed OUTCOME B of L144's two-outcome preregistration, so it is a genuine result and not a null -- B167_conserved_no_scale_lemma, self-labelled POSTULATED and ORPHANED since 2026-06-18 with zero citations, STANDS and receives the first citation it has ever had. An untested taxonomy is now a tested one, on the door it itself called the only logically-open lane."
  }
 ]

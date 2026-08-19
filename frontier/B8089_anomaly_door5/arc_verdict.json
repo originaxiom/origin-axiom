@@ -1,0 +1,18 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "DOOR 5 IS SHUT STRUCTURALLY: THE ANOMALY LAYER OVER THE OBJECT'S DERIVED CONTENT IS IDENTICALLY ZERO, SO IT CANNOT SUPPLY A RATIO AT ALL. Owner-elected run of L144, preregistered and SHA-256 sealed before the script existed. L144 held B167's door-map stale: B167 is self-labelled POSTULATED, orphaned (no arc cited it), predates the cascade campaign, and dismissed door 5 -- the ratio lane, which it called 'the only logically-open lane' -- because its survivor was 'not the SM's gauge content', a premise now false (B862 global form, B892 algebra, B876 matter). The licence is the scale theorem's OWN exemption clause, verified verbatim: dimensionless ratios, phases, mixing and counting are outside its hypothesis (w=0), and 't Hooft anomalies are RG-invariant hence scale-free by theorem. THE GAP: every banked anomaly computation runs over the IMPORTED chiral 15 (B864, B8070); B876 DERIVES the 16 with nu^c, and the layer over the derived content had never been computed. RESULT: over the 16 every gauge channel vanishes (U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), [SU(3)]^3, SU(2)-Witten) AND the global B-L cubic and gravitational anomalies vanish too, while over the imported 15 they are -1 and -1; the Z6 congruence 6Y = a*triality + b*duality mod 6 has the UNIQUE solution (4,3) by exhaustion. Non-vanishing invariants over the derived content: ZERO. THE FINDING: door 5 asked the anomaly layer for a ratio, but the layer of consistent chiral content is identically zero BY CONSTRUCTION, and a layer that vanishes identically cannot supply a ratio -- the ask is structurally unanswerable, not merely unanswered, the same shape as B990's structural gap. THE SHARPER POINT: L144 hoped a nontrivial anomaly would constrain dynamics ('forbids a trivial IR'), but nu^c -- the field the object DERIVES and which completes its matter -- is exactly what cancels the last non-vanishing invariant, the global B-L anomaly. The object's matter is TOO ANOMALY-FREE to say anything; completeness of the content and emptiness of the layer are the same fact. DISPOSITION: sealed OUTCOME B -- B167 STANDS and receives the first citation it has ever had, converting an orphaned POSTULATED taxonomy into a tested one. CONTROLS: bite control (dropping e^c returns -1, -1); second route re-derives all sixteen hypercharges from su(5) alone with no SM table load-bearing; nu^c isolation (16-vs-15 differ only in B-L). SCOPE: the RATIO lane only; the scale lane B413/B563 terminal and untouched; NO value compared to any measurement; finer spin-structure-dependent discrete anomalies registered as owed. Gate 5 untouched -- nothing enters CLAIMS.md.",
+ "depends_on": [
+  "B167",
+  "B864",
+  "B862",
+  "B876",
+  "B892",
+  "B8070",
+  "B666"
+ ],
+ "id": "B8089",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "NEGATIVE"
+}

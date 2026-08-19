@@ -1,5 +1,45 @@
 # Changelog
 
+## DOOR 5 IS SHUT, AND STRUCTURALLY (2026-08-19) — B8089 runs L144 at the owner's word
+
+The audit found that Gate 5 was not what blocked the ratio lane. The scale
+theorem carries its own exemption clause -- dimensionless ratios, phases, mixing
+and counting are outside its hypothesis -- and L144 named the lane that clause
+opens: 't Hooft anomalies are RG-invariant, hence scale-free BY THEOREM, which
+makes the anomaly layer the one part of QFT a scale-free object may speak about
+without crossing Gate 5 at all. L144 had sat registered since 2026-08-08 with its
+only attempt retracted. The owner elected it. Preregistered, SHA-256 sealed
+before the script existed, two outcomes fixed in advance.
+
+THE GAP THAT MADE IT A NEW COMPUTATION. Every anomaly computation in the bank
+runs over the IMPORTED chiral 15. B876 derives the 16, with nu^c. The layer over
+the object's own derived content had never been computed.
+
+RESULT, and it is OUTCOME B as predicted in the seal. Over the derived 16 every
+gauge channel vanishes -- and so do the global B-L cubic and gravitational
+anomalies, which over the imported 15 are -1 and -1. The Z6 congruence has the
+unique solution (4,3). Non-vanishing invariants: zero.
+
+THE FINDING IS BETTER THAN A NULL. Door 5 asked the anomaly layer for a ratio.
+The anomaly layer of consistent chiral content is identically zero by
+construction, and a layer that vanishes identically cannot supply a ratio. The
+ask is structurally unanswerable by this layer, not merely unanswered -- the same
+shape as B990's structural gap, where no sharpening of the same instrument can
+ever close it.
+
+AND THE IRONY IS THE CONTENT. L144 hoped a nontrivial anomaly would constrain
+dynamics, since one forbids a trivial IR. But nu^c -- the field the object
+DERIVES, and which makes its matter complete -- is exactly what cancels the last
+non-vanishing invariant. Over the 15 there is something to match; over the 16
+there is nothing. The object's matter is too anomaly-free to say anything.
+Completeness of the content and emptiness of the layer are the same fact.
+
+DISPOSITION. B167_conserved_no_scale_lemma -- self-labelled POSTULATED, orphaned
+since 2026-06-18 with zero citations -- STANDS, and receives the first citation it
+has ever had. An untested taxonomy is now a tested one, on the door it itself
+called the only logically-open lane. That is what the seal promised OUTCOME B
+would deliver, and it is why B is not a failure.
+
 ## THE SELECTOR IS A CONDITION, NOT A POINT (2026-08-19) — B8087, B8088
 
 The owner asked two things: make the case that all we lack is the VEV direction,

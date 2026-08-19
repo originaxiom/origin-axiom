@@ -1,0 +1,14 @@
+SEAL — B8089 preregistration
+============================
+
+ALGORITHM: SHA-256 (hashlib.sha256), computed over the raw bytes of
+PREREGISTRATION.md as it stood at seal time, before any computation was run.
+The digest is stored HERE and not inside the sealed file, so nothing is
+self-referential: re-hash PREREGISTRATION.md and compare against this line.
+
+BYTES:  6803
+DIGEST: cfe9156a0d32be1b65f47b207cdcfbf5f33799c9d530cf18558de1a24634c8e2
+
+SEALED: 2026-08-19, at the owner's word 'go', before frontier/B8089's
+anomaly_door5.py existed. Verify with:
+    python3 -c "import hashlib;print(hashlib.sha256(open('PREREGISTRATION.md','rb').read()).hexdigest())"
