@@ -17,11 +17,44 @@
  },
  "BL_anomalous_over_15": true,
  "BL_anomaly_free_over_16": true,
+ "all_channels_bitten": true,
  "anomaly_layer_identically_zero": true,
  "bite_control_nonzero": [
   "U(1)^3",
   "U(1)-grav"
  ],
+ "bite_coverage": {
+  "drop L": [
+   "SU(2)-Witten",
+   "U(1)-grav",
+   "U(1)^3",
+   "[SU(2)]^2U(1)"
+  ],
+  "drop Q": [
+   "SU(2)-Witten",
+   "U(1)-grav",
+   "U(1)^3",
+   "[SU(2)]^2U(1)",
+   "[SU(3)]^2U(1)",
+   "[SU(3)]^3"
+  ],
+  "drop d^c": [
+   "U(1)-grav",
+   "U(1)^3",
+   "[SU(3)]^2U(1)",
+   "[SU(3)]^3"
+  ],
+  "drop e^c": [
+   "U(1)-grav",
+   "U(1)^3"
+  ],
+  "drop u^c": [
+   "U(1)-grav",
+   "U(1)^3",
+   "[SU(3)]^2U(1)",
+   "[SU(3)]^3"
+  ]
+ },
  "gauge_anomalies_15": {
   "SU(2)-Witten": "0",
   "U(1)-grav": "0",
@@ -45,6 +78,7 @@
  "scope": "su(3)+su(2)+u(1) with the derived 16 and global form Z6. NO value compared to any measurement; the ratio lane only, with the scale lane (B413/B563) untouched and closed. Says nothing about the manifold. Gate 5: nothing enters CLAIMS.md.",
  "verdict": "OUTCOME B, as preregistered: the anomaly layer over the DERIVED 16 is identically zero, so it supplies no ratio at all -- door 5's ask is structurally unanswerable by this layer, not merely unanswered. B167 stands and receives its first citation.",
  "z6_consistent": true,
+ "z6_derived_not_fitted": true,
  "z6_solutions": [
   [
    4,

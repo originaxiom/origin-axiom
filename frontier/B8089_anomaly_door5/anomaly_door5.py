@@ -106,11 +106,28 @@ print()
 print("=" * 78)
 print("2. BITE CONTROL")
 print("=" * 78)
-BROKEN = [f for f in R1 if f[0] != "e^c"]
-ab = anomalies(BROKEN)
-print("    dropping e^c:", {k: str(v) for k, v in ab.items()})
+# SELF-AUDIT (2026-08-19, after the first run): the original bite dropped only e^c, which breaks
+# U(1)^3 and U(1)-grav and NOTHING ELSE -- so four of the six channels had never been shown capable
+# of detecting an anomaly at all. Reporting "all six vanish" while only two checks were known to
+# bite is exactly the defect this arc exists to avoid. Every channel is now bitten.
+BITES = {"drop e^c": [f for f in R1 if f[0] != "e^c"],
+         "drop d^c": [f for f in R1 if f[0] != "d^c"],
+         "drop L":   [f for f in R1 if f[0] != "L"],
+         "drop u^c": [f for f in R1 if f[0] != "u^c"],
+         "drop Q":   [f for f in R1 if f[0] != "Q"]}
+bitten = {}
+for name, content in BITES.items():
+    ax = anomalies(content)
+    nz = [k for k, v in ax.items() if v != 0]
+    bitten[name] = nz
+    print(f"    {name:<10} -> nonzero in {nz}")
+covered = set().union(*bitten.values())
+ab = anomalies(BITES["drop e^c"])
 gate("the instrument DETECTS an anomaly when one is present", any(v != 0 for v in ab.values()),
      f"nonzero in {[k for k,v in ab.items() if v != 0]}")
+gate("EVERY channel is exercised by at least one bite (self-audit fix)",
+     covered == set(anomalies(SIXTEEN).keys()),
+     f"covered {len(covered)}/6: {sorted(covered)}")
 
 # ---------------------------------------------------------------------------
 # 3. B-L, the global symmetry -- the 't Hooft layer L144 hoped would constrain dynamics
@@ -158,6 +175,19 @@ print(f"    (a,b) solving  6Y = a*triality + b*duality  (mod 6)  for ALL six fie
 gate("the derived matter IS consistent with the Z6 quotient (a solution exists)", len(sols) > 0)
 gate("and the solution is unique mod 6", len(sols) == 1, str(sols))
 
+# SELF-AUDIT: the above FITS a congruence; it does not derive it. Derive it independently.
+# 6Y is an INTEGER for every SM field (Q:1, u^c:-4, d^c:2, L:-3, e^c:6, nu^c:0), so parametrise
+# U(1) by the integer charge n = 6Y. The Z6 generator is z = (omega*I_3, -I_2, e^{2*pi*i/6}) with
+# omega = e^{2*pi*i/3}. Its phase on a field of triality t, duality d, integer charge n is
+#     exp(2*pi*i*t/3) * exp(i*pi*d) * exp(2*pi*i*n/6) = exp(2*pi*i*(2t + 3d + n)/6),
+# so z acts TRIVIALLY iff 2t + 3d + n = 0 (mod 6), i.e. n = -2t - 3d = 4t + 3d (mod 6).
+gate("every 6Y is an integer (so the U(1) charge lattice is well defined)",
+     all((6 * y).denominator == 1 for _, _, _, _, y in R1))
+derived_ok = all((2 * triality_unsigned(c, t) + 3 * (1 if iso == 2 else 0) + int(6 * y)) % 6 == 0
+                 for _, c, t, iso, y in R1)
+gate("DERIVED (not fitted): z = (omega, -1, e^{2pi i/6}) acts trivially on every field", derived_ok)
+gate("the derivation agrees with the exhaustive fit", sols == [(4, 3)], str(sols))
+
 # ---------------------------------------------------------------------------
 # 5. RATIOS -- door 5's actual ask
 # ---------------------------------------------------------------------------
@@ -179,6 +209,9 @@ RES = {
  "gauge_anomalies_16": {k: str(v) for k, v in a16.items()},
  "gauge_anomalies_15": {k: str(v) for k, v in a15.items()},
  "bite_control_nonzero": [k for k, v in ab.items() if v != 0],
+ "bite_coverage": {k: sorted(v) for k, v in bitten.items()},
+ "all_channels_bitten": sorted(covered) == sorted(anomalies(SIXTEEN).keys()),
+ "z6_derived_not_fitted": derived_ok,
  "BL_16": {k: str(v) for k, v in bl16.items()},
  "BL_15": {k: str(v) for k, v in bl15.items()},
  "BL_anomaly_free_over_16": bl16["U(1)^3"] == 0 and bl16["U(1)-grav"] == 0,
