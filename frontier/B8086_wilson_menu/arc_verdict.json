@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "THE Z/5 WILSON-LINE MENU CANNOT REACH THE SM: EVERY ROW HAS RANK 6, AND B955 IS RE-DERIVED BY A SECOND, UNRELATED ROUTE. An outside proposal (relayed by the owner) argued the VEV-direction gap closes via a finite Z/5 Wilson-line menu over E6: generic collapse giving the left-right group at 27.6%, exceptional collapse giving so(10)+u(1) at 0.7% with 108 = 27x4 directions, each two priced VEVs from the SM, compressing the gap to one binary bit. Recomputed from the E6 Cartan matrix over all 5^6-1 = 15624 non-identity 5-torsion elements. MOSTLY RIGHT: the union of all rows regenerates e6 (72/72 roots), the intersection is the Cartan alone u(1)^6 (0 common roots), and the rarest row IS so(10)+u(1) = D5+u(1) at 108 = 0.69%, a unique minimum, with 108 = 27x4. WRONG ON THE MODE: two rows tie at 4320 (27.65%) -- A1+A1+A2+u(1)^2 (left-right) AND A1+A3+u(1)^2 -- so 'the most probable row is the left-right group' is false and GENERIC COLLAPSE DOES NOT SELECT AT ALL; this sharpens their preferred half, since only the extremal rule returns a unique row. AND THE MECHANISM IS DEAD TWICE OVER: (1) the menu is not this object's -- the paper computes H_1(M_m) = Z + (Z/m)^2, so the golden member m=1 has H_1 = Z, TORSION-FREE, with no Z/5 at all; that menu belongs to m=5, a different manifold; (2) even granting it, EVERY one of the nine rows has RANK 6 while the SM has rank 4, and so(10)+u(1) is rank 6 too, so the exceptional collapse lands on another rank-6 row and still needs <1> and <nu^c> -- the very step the proposal set out to source. THE SECOND ROUTE IS THE POINT: this independently re-derives B955, which proved rank-preservation STRUCTURALLY from H_1 = Z being cyclic (cyclic image, one generator, centraliser contains a maximal torus, so rank is preserved NECESSARILY); here the same wall is reached by EXHAUSTIVE ENUMERATION with no shared step, so the wall is not an artefact of how B955 chose to argue. SCOPE: centralisers of 5-torsion torus elements of E6; nothing about the member, class, sisters or rows, and nothing about NON-abelian holonomy -- B955 closes the abelian instance of Route B, not Route B. Gate 5 untouched.",
+ "depends_on": [
+  "B955",
+  "B990",
+  "B861"
+ ],
+ "id": "B8086",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "NEGATIVE"
+}

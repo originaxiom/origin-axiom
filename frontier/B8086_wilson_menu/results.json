@@ -1,0 +1,106 @@
+{
+ "every_row_rank_6": true,
+ "intersection_roots": 0,
+ "modal_count": 4320,
+ "modal_rows": [
+  "A1+A1+A2",
+  "A1+A3"
+ ],
+ "mode_is_unique": false,
+ "n_elements": 15624,
+ "rarest": {
+  "count": 108,
+  "dim": 46,
+  "pct": 0.69,
+  "roots": 40,
+  "ss_rank": 5,
+  "total_rank": 6,
+  "type": "D5"
+ },
+ "rows": [
+  {
+   "count": 4320,
+   "dim": 16,
+   "pct": 27.65,
+   "roots": 10,
+   "ss_rank": 4,
+   "total_rank": 6,
+   "type": "A1+A1+A2"
+  },
+  {
+   "count": 4320,
+   "dim": 20,
+   "pct": 27.65,
+   "roots": 14,
+   "ss_rank": 4,
+   "total_rank": 6,
+   "type": "A1+A3"
+  },
+  {
+   "count": 2160,
+   "dim": 18,
+   "pct": 13.82,
+   "roots": 12,
+   "ss_rank": 3,
+   "total_rank": 6,
+   "type": "A3"
+  },
+  {
+   "count": 1728,
+   "dim": 26,
+   "pct": 11.06,
+   "roots": 20,
+   "ss_rank": 4,
+   "total_rank": 6,
+   "type": "A4"
+  },
+  {
+   "count": 1440,
+   "dim": 20,
+   "pct": 9.22,
+   "roots": 14,
+   "ss_rank": 5,
+   "total_rank": 6,
+   "type": "A1+A2+A2"
+  },
+  {
+   "count": 864,
+   "dim": 28,
+   "pct": 5.53,
+   "roots": 22,
+   "ss_rank": 5,
+   "total_rank": 6,
+   "type": "A1+A4"
+  },
+  {
+   "count": 540,
+   "dim": 30,
+   "pct": 3.46,
+   "roots": 24,
+   "ss_rank": 4,
+   "total_rank": 6,
+   "type": "D4"
+  },
+  {
+   "count": 144,
+   "dim": 36,
+   "pct": 0.92,
+   "roots": 30,
+   "ss_rank": 5,
+   "total_rank": 6,
+   "type": "A5"
+  },
+  {
+   "count": 108,
+   "dim": 46,
+   "pct": 0.69,
+   "roots": 40,
+   "ss_rank": 5,
+   "total_rank": 6,
+   "type": "D5"
+  }
+ ],
+ "scope": "Centralisers of 5-torsion torus elements of E6. Adjudicates an external proposal. Independently re-derives B955's rank-preservation by exhaustive census rather than by B955's structural argument, sharing no step with it. Nothing about the member, class, sisters or rows, and NOTHING ABOUT NON-abelian holonomy: this closes the abelian instance of Route B, not Route B. Gate 5 untouched.",
+ "union_is_e6": true,
+ "verdict": "mechanism dead: menu not the object's (H_1 = Z, torsion-free), and every row is rank 6"
+}

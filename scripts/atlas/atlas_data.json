@@ -18386,6 +18386,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B8086": {
+   "slug": "wilson menu",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B955"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B808": {
    "slug": "empty cells",
    "motifs": [

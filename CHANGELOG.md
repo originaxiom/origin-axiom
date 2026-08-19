@@ -1,5 +1,37 @@
 # Changelog
 
+## THE VEV-DIRECTION ROUTES ARE ADJUDICATED (2026-08-19) — B8085 opens, B8086 closes
+
+B990 proved the orbit-to-point gap STRUCTURAL and named exactly two routes across:
+shrink the group, or add non-invariant structure. Both were tested this session,
+and they came back opposite ways.
+
+B8085 -- ROUTE A, and B990's own UNFAVOURABLE prior did not hold. The arithmetic
+obstruction Route A was expected to meet is ABSENT: h = 1 (banked), h+ = 1 (new),
+|Cl/Cl^2| = 1, |Cl/Cl^3| = 1, so whichever class-group quantity governs the
+integral orbit count, it is trivial and the conclusion does not depend on
+resolving which. The mechanism is that the unit signature map is surjective onto
+{+-1}^3, at rank 3 of 3. Preregistered before h+ was computed; two independent
+engines. What this does NOT say: that the integral orbit count is 1. Identifying
+the counter is Kato-Yukie/Bhargava integral theory, and is owed, not asserted.
+
+B8086 -- an outside proposal, relayed by the owner, that the gap closes via a
+finite Z/5 Wilson-line menu over E6, compressing it to one binary bit. Most of
+its arithmetic is right and is recorded as right: the union of the nine rows
+regenerates e6, the intersection is the Cartan alone, and the rarest row IS
+so(10)+u(1) at 108 = 27x4, a unique minimum. Two things kill it. The menu is not
+this object's -- H_1(M_m) = Z + (Z/m)^2, so the golden member m=1 is TORSION-FREE
+-- and every one of the nine rows has rank 6 while the SM has rank 4, so(10)+u(1)
+included. The mode claim also fails on its own terms: the mode is a TIE at 4320,
+so generic collapse does not select at all.
+
+The standing value of B8086 is that it is a SECOND ROUTE to B955. That arc proved
+rank-preservation structurally, from H_1 = Z being cyclic. This one reaches the
+same wall by exhaustive enumeration of all 15624 non-identity 5-torsion elements,
+sharing no step with that argument. The wall is not an artefact of how B955 chose
+to argue. Both arcs assume ABELIAN holonomy; the non-abelian instance of Route B
+is untouched by either, and is now the live hatch in the kill graph.
+
 ## THE PAPER-CLOSURE CAMPAIGN CLOSES (2026-08-19) — twelve of twelve GREEN
 
 Items 10, 11 and 12, and with them the campaign B8076 sealed on 2026-08-18.

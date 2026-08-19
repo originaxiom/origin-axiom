@@ -10,9 +10,11 @@ after my own run. I will not soften the verdict in either direction.
 
 ## 2. BLOCKED — the scope is not pushed
 
-`B1074`, `B1075`, `B1076` **do not exist**, and `frontier/B1075_moduli_crossing/b1075_execution.json`
-does not exist. This is not "I could not find them": I searched **every remote branch**, not only
-main. Main's tip is `c05d785a`; its highest arc is **`B1073_composition_gate`**.
+`B1074`, `B1075`, `B1076` **do not exist**, and neither does the execution manifest your request
+cites at frontier/B1075\_moduli\_crossing/b1075\_execution.json *(written unlinked deliberately — it
+resolves nowhere, and `path-refs` should not be made to carry a citation whose whole content is
+that it is absent)*. This is not "I could not find them": I searched **every remote branch**, not
+only main. Main's tip is `c05d785a`; its highest arc is **`B1073_composition_gate`**.
 
 Nothing to do about it from here — push and I start. The recomputation half is blocked; the design
 half is not, and I have begun it.

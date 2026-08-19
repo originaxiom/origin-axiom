@@ -10873,3 +10873,34 @@ one exception where the lock was reading the typesetter. The campaign's premise 
 failure mode is drift, not error**; five of the six things that went wrong in closing it were drift
 of exactly the kind it was built to catch.
 
+
+
+## 2026-08-19 — the two routes out of B990, tested
+
+Route A came back favourable and Route B's abelian instance came back closed, which is the
+opposite of what the priors said in both cases. B990 had called Route A UNFAVOURABLE; its
+arithmetic obstruction turned out to be absent, with every candidate class-group quantity
+trivial and the unit signature map surjective at rank 3 of 3. That is a genuine opening, and it
+is carefully NOT the claim that the integral orbit count is 1 — the counter has to be identified
+before anything is claimed, and that is registered as owed rather than asserted.
+
+Route B arrived from outside: an AI proposal, relayed by the owner, that a Z/5 Wilson-line menu
+over E6 compresses the VEV gap to one binary bit. The instruction standing over all such
+material is the owner's — *dont take it for granted, always verify and defend when argument is
+weak and ours is stronger*. Verifying it meant recomputing the whole menu rather than checking
+its headline, and most of the proposal survived: the union regenerates e6, the intersection is
+the Cartan alone, the rarest row is so(10)+u(1) at 108 = 27x4 exactly as claimed. What did not
+survive was placement. The menu belongs to m=5; the object is m=1 and is torsion-free. And every
+row has rank 6 against the SM's 4.
+
+The part worth keeping is not the kill. B955 had already closed this, structurally, from H_1 = Z
+being cyclic. This arc closed it again by brute enumeration of all 15624 elements, sharing no
+step with B955's argument. **Multiple verifications and conclusions are strength** — a structural
+proof and an exhaustive census agreeing means the wall is not an artefact of how the first proof
+chose to argue. The same principle ran through the whole session: two engines for h+, the
+charge-side and root-side routes for the rung spectrum. Where the two routes agree, the result is
+worth more than either alone; where they would have disagreed, one of them was wrong and we would
+have learned it.
+
+Both arcs assume abelian holonomy. Neither says anything about the non-abelian instance, and the
+kill graph now carries that as the hatch rather than leaving it implied.
