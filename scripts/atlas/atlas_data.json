@@ -1829,6 +1829,92 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1083": {
+   "slug": "origin torsor typed",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1084": {
+   "slug": "g2 cone",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L79"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1085": {
+   "slug": "edge observability",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B761",
+    "L173",
+    "S072"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1086": {
+   "slug": "spectrum law",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B570",
+    "B582",
+    "B634",
+    "L79"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1087": {
+   "slug": "charge grading",
+   "motifs": [
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L173"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B108": {
    "slug": "theta to c",
    "motifs": [

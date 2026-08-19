@@ -16,6 +16,20 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 handoff wave, B1083-B1086 + B1087 computing)**: the
+outside bench verified (16/16 certs + 3 commissioned own-code rebuilds +
+their referee PASS on the paper); the arrow re-typed OUT of the origin
+torsor (Sec.0 corrected); the G2 cone banked (AW: collision yes, isolation
+no — the walls' mechanism located); edge observability banked (5-vs-6,
+digit-exact, the cut phase as the mechanism); THE SPECTRUM LAW banked and
+L79 CLOSED (5/2/5; count-achirality by PD; the 2 dial-specific). ONE
+THEOREM, THREE LANGUAGES. L171-L173 registered (CLPW bridge; golden-gate
+dictionary; the laboratory prereg spec). B1087 LANDED: THE CHARGE
+COMPLEMENTARITY -- the AW charge exists (1+8+9+8+1 exact) and cannot
+be measured on any closed assembly (charge/holonomy non-commutativity;
+the wall's FOURTH language). L174 THE 3D COMPLETION CAMPAIGN
+registered (prize-first; C1 the parameter-free action card is next).
+
 **LATEST (2026-08-19 follow-up bank, the lock + the queue + the
 unblock)**: the stale-absence lock is in the suite (the sweep is now
 regression-proof); L167-L170 registered (the audit-seat harvest:

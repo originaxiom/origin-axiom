@@ -10771,3 +10771,26 @@ anomaly and orientability arcs — each a re-derivation task, nothing
 imported. The design-audit unblocks: the cell prompts went to the seat
 verbatim, with the three places I would attack my own design named.
 The paper stands at 47 pages, clean-room green, waiting on the owner.
+
+2026-08-19 (the handoff wave). The outside bench's session verified and
+banked: the arrow was never a torsor bit (the founding typo in our own
+Sec.0, caught by an outside referee and re-derived here before landing);
+the corpus's one certified geometric absence filled by a flat G2 cone
+whose census forbids isolated chiral matter — the 32 walls' mechanism
+named in a third language; the free half proved edge-observable with both
+hands' spectra reproduced digit-for-digit; and L79 closed — the twisted
+double is chirality-capable and chirality-empty, its 5 and its 2 two
+points of one dial-parity law the corpus predicted at m=4,8 without
+knowing it. One theorem, three languages: what is closed pairs, what is
+cut shows its hand. The charge-grading residue (B1087) computes as this
+entry is written.
+
+2026-08-19 (the wave completes). B1087 lands as a theorem: the charge
+the Acharya-Witten picture promises EXISTS -- balanced, exact,
+1+8+9+8+1 -- and provably cannot be read off any closed assembly,
+because charge and holonomy do not commute. The uncertainty shape the
+owner conjectured this afternoon is now arithmetic. Four languages,
+one wall; the cut is the only reader. And the 3d completion goes into
+the queue as L174 at full volume: the prize named first, the one
+specialist hole fenced where it belongs, the action card C1 ready to
+run.

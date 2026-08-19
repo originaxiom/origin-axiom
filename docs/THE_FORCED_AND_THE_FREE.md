@@ -15,7 +15,7 @@ carrying a transitive symmetry and withholds the point.
 | 1 | the chirality sign | ρ* ≅ ρ̄, the sheets exchanged by the object's own amphichirality (B713; B945's swap) |
 | 2 | the VEV row/direction | the ℤ/5 Wilson menu — one W×Galois orbit per row, perfectly homogeneous (the new seat's enumeration; B1079's re-derivation in flight) |
 | 3 | the scale | Hom(G, ℝ₊) = 0 — no map can name a unit (banked; the value/scale closing) |
-| 4 | the basepoint / time's arrow | the torsor results (B701, B945: reversal = time's arrow) |
+| 4 | the basepoint / parity *(arrow re-typed out — B1083)* | the torsor results (B701, B945; **B1083 correction: reversal = parity, the arrow = monoid non-surjectivity, not a torsor bit**) |
 | 5 | the Sturmian intercept | slope forced golden, intercept free — the hull, a circle with transitive shift: the FIRST torsor, before the manifold exists |
 | 6 | **the coboundary gauge** (this bench, added) | B¹ acts on the gauge coset; the hierarchy's values are gauge-dependent (B1076) — the orbit supplied, the element withheld |
 
@@ -120,20 +120,32 @@ Computed live on the banking bench: **the four natural Fibonacci substitutions f
 single FREE AND TRANSITIVE orbit under the Klein group ⟨R, S⟩** — R·σ·R = the mirror
 rule (a→ba), S·σ·S = the swapped rule, RS·σ·RS = the fourth; four rules, four group
 elements, one orbit, trivial stabilizer. **The founding choice of a→ab, b→a was a
-basepoint-taking on a K₄-torsor whose two generators are exactly reversal (time's
-arrow) and swap (chirality)** — the two banked identifications of the free inventory
-(B945). The free bits recur at every level because the origin is itself a torsor-point
+basepoint-taking on a K₄-torsor whose two generators are reversal and swap** —
+**TYPING CORRECTED 2026-08-19 (B1083, the outside bench's catch re-derived here): the
+original text read "reversal (time's arrow) and swap (chirality)"; the arrow label was
+WRONG. All four orbit points are FORWARD substitutions — no K₄ element inverts the
+rule, so reversal is a PARITY bit (P-type, reading direction), swap the C-type bit,
+and THE ARROW IS NOT A TORSOR BIT AT ALL: it lives in the positive monoid's
+non-surjectivity (the word `bb` has no preimage — some configurations are
+initial-only; verified exhaustively). Two spendable bits (C, P) + one unspendable
+structure (T = the register's positivity). The B945 identifications survive re-typed:
+swap ↔ chirality stands; reversal ↔ time's-arrow is corrected to reversal ↔ parity,
+and the arrow's banked home is the monoid, not the torsor.** The free bits recur at every level because the origin is itself a torsor-point
 whose choice propagates as the FRAME, not as data. The same K₄ reappears as B945's
 grammar group, the Hermitian frame classes (B936), the wall pair (B939). THE HEARTBEAT:
 det(M) = −1 — every substitution tick reverses orientation, every second tick restores
 it; the Breath Campaign's banked sentence ("the program IS the residue (orientation
 ℤ/2) + its oscillation") is the rule's own pulse, and the arrow is its direction of
-ticking. The two selection-kinds separate at tick one: the rule is a perfect selector
+ticking *(and B1083 adds: the tick's matrix squares to the figure-eight monodromy
+exactly — M² = RL, det M = −1 — the one-tick object is the Gieseking manifold
+(non-orientable, CITED) and the object is the double tick: orientability and
+amphichirality arrive in the same purchase, at tick two)*. The two selection-kinds separate at tick one: the rule is a perfect selector
 of SUCCESSORS (forced dynamics) and no selector of INSTANCES (the hull point — the
 first torsor). Scope: this does not derive the rule's existence (A1–A6's territory);
-it proves the rule's CHOICE has the free-inventory's exact structure, with arrow and
-chirality entangled in one joint bit — the entanglement pattern (B963's competing
-bits) also starts at the origin.
+it proves the rule's CHOICE has the free-inventory's exact structure, with parity and
+chirality as the two spendable bits *(the arrow disentangled by B1083's typing — it
+was never a bit)* — the pattern of competing bits (B963) still starts at the origin,
+now with the arrow correctly outside it.
 
 ## §0b — THE PROGRAM'S OWN NEGATIVE BRANCH (unified)
 

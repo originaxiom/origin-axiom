@@ -1,5 +1,76 @@
 # Changelog
 
+## B1083-B1086 + the outside-bench handoff verified and banked (2026-08-19, the handoff wave) — the arrow leaves the torsor; the G2 hole fills; the free half is edge-observable; L79 CLOSES
+
+THE OUTSIDE BENCH'S HANDOFF (an independent hostile-verification session;
+certificates + manifest + capstone) processed under verify-incoming-results:
+all 16 certificates re-run on the canonical bench (15 verified outright; the
+one Molien FAIL resolved as sympy branch artifact — the numbers are exactly
+the claim, invariants at degrees 8/16 only; the edge cert's bulk-half
+self-flag resolved by this bench's own rebuild); THREE commissioned
+independent verifications (own code, sources unread): the G2 census
+two-implementation exact+float, the mirror=Galois identity in fresh field
+arithmetic + 50-digit numerics, the spectrum law's untwisted rows via a
+fresh Fox/MV pipeline with multi-prime modular ranks. Their referee phase
+verified cc3's paper END-TO-END (19/19 + ~90 checks; defects
+presentational) — logged for the paper lead. Their census reds b511/b616
+PASS here: bench-relative, not genuine. BANKED: B1083 THE ORIGIN TORSOR
+TYPED — the arrow is NOT a torsor bit (all four K4-orbit rules are forward
+substitutions; the arrow = monoid non-surjectivity, 'bb' has no preimage;
+reversal re-typed as PARITY; THE FORCED AND THE FREE Sec.0 corrected in
+place) + M^2 = RL exactly (the tick squares to the monodromy; Gieseking
+one-tick reading CITED: orientability and amphichirality bought together at
+tick two). B1084 THE FLAT G2 CONE — the docs sweep's one certified absence
+FILLED: |G-hat| = 96, census {3d:53, 1d:42} with NO 0-dim fixed set, E6
+locus (stabilizer exactly 2T) + three A1 families (6/12/12, Z2) + order-48
+axis lines; ACHARYA-WITTEN verdict: collision MET at the apex, isolation
+FAILS by the census — flatness => non-isolation => pairing, the 32
+chirality walls' mechanism located in M-theory language; kill node routed,
+hatch = transversal deformation -> B1087. B1085 EDGE OBSERVABILITY — the
+free half materializes at the cut: the two hands of ONE cut (rho = alpha;
+the ba-hand is NOT substitution-buildable, this bench's own catch) give
+bulk IDS blind to <= 1 state while the edges differ 5-vs-6 with every
+energy matching to every printed digit; the phase-dependence IS the
+mechanism (domain-wall register); feeds L173. B1086 THE SPECTRUM LAW —
+h1(D_t;27) = 5/2/5 (untwisted/theta-odd/theta-even): the corpus's
+separately-banked 5 (B1036) and 2 (B634's erratum — whose bends m=4,8 ARE
+the slots) are two points of ONE law; the independence probe proved the 2
+is DIAL-SPECIFIC (inner twists absorb; generic gradings are not chain
+maps — the dial's own-code rebuild is the named residual); chirality at
+count level ZERO everywhere (h1(27) = h1(27bar), PD on any closed double);
+the E6-closure sweep FULL at t in {1,2,omega} both slots — B582 extends,
+its CHIRAL correctly a closure statement; the mirror IS the Galois twist
+(gal(rho(lambda)) = rho(lambda)^{-1} exact) — B570 computed at the
+periphery; L79 CLOSED at the headline (chirality-capable, chirality-empty
+in counts), sub-item i CLOSED, ii informed (E6-native, bundle-level), iii
+fed; kill node routed, hatch = the graded pieces h1_q (B1087, computing) +
+the cut (B1085/B1084). PD-pairing = AW non-isolation = completion-kernel:
+ONE THEOREM, THREE LANGUAGES — the week's organizing result. OPEN_LEADS:
+L79 closed; L171 the CLPW crossed-product bridge (MATCH/MOOD typed in
+advance), L172 the golden-gate dictionary, L173 the edge-prediction prereg
+SPEC (the laboratory road; seal gated on the owner's aperiodic unseal).
+Locks: 15 new tests across four files, all green in under 3 seconds.
+B1087 LANDED (THE CHARGE COMPLEMENTARITY, the pre-registered
+OBSTRUCTED-O3 branch = a theorem): both dial slots complete to exact
+Jacobson-Morozov sl2-triples and the AW-U(1) spectrum on the 27 is
+exact and balanced (1+8+9+8+1 at charges {+-4,+-2,0} / {+-2,+-1,0},
+exact slot-halving, trace 0) BUT the charge operator commutes with
+NEITHER cusp holonomy: charge and holonomy cannot be simultaneously
+diagonalized -- no charge grading on the seam or any closed assembly
+(fiber no-go: twisted closure = e6); the U(1) grades the FAMILY (t
+carries weight 2). THE WALL'S FOURTH LANGUAGE: PD-pairing = AW
+non-isolation = completion-kernel = charge/holonomy
+NON-COMMUTATIVITY -- the owner's uncertainty-principle conjecture is
+now a computed fact; an edge experiment is a charge measurement the
+closed object cannot perform on itself. L174 REGISTERED at the
+owner's election: THE 3D COMPLETION CAMPAIGN (prize-first: a complete
+parameter-free 2+1d quantum gravity + matter theory -- nobody has
+one; the corpus holds most of one; C1 the action card runnable now,
+C2 the Z-bridge, C3 matter assembly, C4 the observer card, C5 the
+arithmetic-CS hole honestly fenced) -- with the importance-vs-evidence
+lesson banked to seat memory: state the prize first; rigor labels
+grade evidence, never ambition.
+
 ## The absence-stamp lock + the harvest queue L167-L170 + the design-audit unblock (2026-08-19, follow-up bank)
 
 tests/test_stale_absence_lock.py: the ninth bank's sweep made durable —

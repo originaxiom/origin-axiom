@@ -1,0 +1,7 @@
+{
+  "id": "B1084",
+  "title": "THE FLAT G2 CONE: stratification + the Acharya-Witten verdict",
+  "verdict": "PROVED",
+  "claim_one_line": "The flat G2 orbifold (C^2 x R^3)/G-hat (|G-hat| = 96) EXISTS and is fully stratified -- ONE E6 locus (stabilizer exactly 2T) + THREE A1 families (orbits 6/12/12, stabilizers exactly Z2) + three order-48 axis lines + the order-96 apex; fixed-dimension census {3d: 53, 1d: 42} with NO 0-dimensional fixed set (two-implementation verified on this bench: exact Q(sqrt2) + independent SVD/float, every number agreeing); the Acharya-Witten COLLISION criterion is MET at the apex (E6 and A1 meet -- a geometry the corpus never had; the docs sweep's one certified absence, filled) and the ISOLATION criterion FAILS by the census: every A1 locus meets E6 along a LINE, so all localized matter is vector-like -- flatness => non-isolation => pairing, the 32 chirality walls' mechanism located in M-theory language; hatch = transversal deformation (resolving the enhancement lines) = B1036/L79's multiplicity question -> B1086/B1087.",
+  "instrument": "commissioned two-implementation rebuild (exact Q(sqrt2) hand-rolled + SVD/float) agreeing on every number; source certificates g2cone.py + g2strata.py re-run green"
+}
