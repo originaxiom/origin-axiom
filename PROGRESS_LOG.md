@@ -10641,3 +10641,16 @@ refutation acknowledged (main zero-exposure; the paper moves onto B266's
 arithmetic spine). The masterplan that opened with "did we explore the
 field until the end?" closes with the field explored to its named edges
 and the crossing sequenced: seal -> silver -> AC6+R1+R7 -> prereg -> run.
+
+## 2026-08-19 — B1071: the sealed listener promoted (3/3 claims hold independently)
+
+The seal protocol's first full run under the B837-shaped flow (seal commit
+local, hash timestamps, compute, then one push carrying both). Three
+independent re-implementations, all three claims HOLD — the orbit backbone
+with the fourth-orbit exclusion proved and an MB12 negative control; the
+pair's Galois uniqueness with the bite exhibited (every rival point moved
+by >= 8/16); the channels with the all-2880 SU(2) sweep at zero failures.
+The crossing prereg may now cite the derived listener pair; AC3 (the
+silver instrument, B1072 staged) and AC6 (the type-run) remain the named
+gates before the prereg itself. THE_FRAMEWORK's currency read landed with
+this bank.

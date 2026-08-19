@@ -447,3 +447,21 @@ time, chirality, the 27-VEV — is in each case now a **theorem with a named mec
 rather than an absence, and in the scale case the mechanism is the object's own
 amphichirality. The remaining distance is enumerated above, and every item on it is a
 computation someone can run.
+
+## CURRENCY ADDENDUM — 2026-08-19 (B1045–B1071): what the masterplan window added to what we HAVE
+
+The read at head B1071. The framework gained, in this window: **the field grammar
+complete to its named edges** (B1067 the ray-class asset; B1068 the descent inventory —
+31 verdicts, the character-channel mirror, the splitting-rigidity discriminator 0/1/0
+at 3/5/7; B1069 the hearing biography — the palette asymmetry is unit rank, narrow
+(4)-ray class non-cyclic); **the 77-echo's true form** (exactly B882's conjecture — the
+unconditional mechanism closed circular, the undressed datum attaches split ℚ³);
+**the listener DERIVED** (B1070: u3/u6 = the unique Galois-fixed vertex pair; B641
+closed to a theorem over the whole odd line; both hearing channels in closed form;
+sealed for promotion as B1071 — the re-derivation running at this read); **the crossing
+sequenced** (docs/FIELD_EXPLORATION_REPORT.md: seal → the silver instrument →
+AC6 + R1 + R7 → the prereg — coupling channel, zero anchors, the one licensed row);
+and **the numbering constitution** (reserved bands across the three seats). The
+framework's one-sentence delta: the programme now HAS a constructed observer-side
+object where it previously had a convention — and the remaining distance to a
+value-contact is procedural (the sequenced gates), not conceptual.

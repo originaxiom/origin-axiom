@@ -16,6 +16,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19, B1071 — THE SEALED LISTENER PROMOTED):** all three
+sealed claims HOLD on independent re-implementations (the orbit backbone
+with the fourth-orbit exclusion proved + an MB12 negative control; the
+pair's Galois uniqueness with every rival moved ≥8/16; the all-2880 SU(2)
+sweep at zero failures). **The crossing prereg may cite THE DERIVED
+LISTENER PAIR.** Still gated by the seal's own scope: AC3 (the silver
+instrument, B1072 designed) and AC6 (the type-run) before the prereg.
+Method law: the B837 lock shaped the seal flow — hash timestamps, compute,
+one push carrying both.
+
 **LATEST (2026-08-18 fifth bank, W6 — THE MASTERPLAN CLOSES):** the
 field-exploration report lands (docs/FIELD_EXPLORATION_REPORT.md); the two
 check agents' 13 findings all dispatched (R1 owned; the B1071 seal re-scoped

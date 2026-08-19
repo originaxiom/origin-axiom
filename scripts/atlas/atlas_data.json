@@ -1600,6 +1600,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1071": {
+   "slug": "sealed listener",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B641",
+    "B837"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B107": {
    "slug": "physics connection audit",
    "motifs": [

@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-18 from 971 frontier probes.
+> Last generated: 2026-08-19 from 972 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,11 +11,11 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 971 frontier probes; status {'open': 63, 'banked': 636, 'dead': 253, 'dormant': 19}
+  corpus: 972 frontier probes; status {'open': 63, 'banked': 637, 'dead': 253, 'dormant': 19}
   the ONE conserved first integral: kappa (recurs 227x, 23%) -- genuine unity, MUST recur
-  top recurring motifs: golden(555), firewall(546), eisenstein(513), figure_eight(409), metallic(401), trace_map(375)
-  recurrence is: structural-invariant 3266 mentions | conserved-integral 227 | TOOL 375
-  the honest split: the trace-map TOOL is in 375 probes (38%) = method/selection-effect, NOT unity; only kappa is a forced first integral
+  top recurring motifs: golden(556), firewall(547), eisenstein(513), figure_eight(409), metallic(402), trace_map(376)
+  recurrence is: structural-invariant 3269 mentions | conserved-integral 227 | TOOL 376
+  the honest split: the trace-map TOOL is in 376 probes (38%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B521, B156, B598, B309, B321
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
 ```
@@ -26,12 +26,12 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
-| golden | 555 | 57% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
-| firewall | 546 | 56% | structure | structural | meta | the firewall / structural theorem / form-not-values |
+| golden | 556 | 57% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| firewall | 547 | 56% | structure | structural | meta | the firewall / structural theorem / form-not-values |
 | eisenstein | 513 | 52% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
 | figure_eight | 409 | 42% | object | no | topology | the simplest hyperbolic knot; the carrier object |
-| metallic | 401 | 41% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
-| trace_map | 375 | 38% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
+| metallic | 402 | 41% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
+| trace_map | 376 | 38% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | amphichiral_cp | 330 | 33% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | torsion | 306 | 31% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | wrt_quantum | 232 | 23% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
@@ -49,8 +49,8 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **227** probes (23%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3266** mentions — invariants of the object's transforms.
-- **The hammer (selection effect):** the trace-map **tool** appears in **375** probes (38%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3269** mentions — invariants of the object's transforms.
+- **The hammer (selection effect):** the trace-map **tool** appears in **376** probes (38%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
 
@@ -68,7 +68,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | spacetime_3p1 | 109 | golden | golden(66), figure_eight(66), eisenstein(62), trace_map(54) |
 | observable | 36 | golden | golden(27), metallic(19), torsion(18), firewall(17) |
 | numerology | 21 | golden | golden(16), firewall(16), eisenstein(16), torsion(14) |
-| bridge_construction | 6 | golden | golden(4), wrt_quantum(4), firewall(4), figure_eight(4) |
+| bridge_construction | 7 | golden | golden(5), firewall(5), wrt_quantum(4), figure_eight(4) |
 
 ## Candidate meeting-points — cross-domain re-surfacings
 
@@ -113,7 +113,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | obstacle-type | banked / touched |
 |---|---|
 | source_free | 1/3 |
-| bridge_construction | 6/16 |
+| bridge_construction | 7/17 |
 | measure | 95/156 |
 | gauge_dict | 57/92 |
 | spacetime_3p1 | 109/174 |

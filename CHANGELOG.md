@@ -1,5 +1,31 @@
 # Changelog
 
+## B1071 (2026-08-19) — THE SEALED LISTENER: all three claims HOLD on independent re-implementations; the derivation is PROMOTED
+
+Sealed before compute (the prereg's hash in the seal ledger, committed
+pre-computation); three fresh builds, one per claim, no code reuse from the
+exploration cell — each rebuilt the instrument from the banked defining
+data by hand (own cyclotomic ring from the Phi_60 recursion, own reduction
+algorithms). C1 HOLDS: the projective image is exactly 60 with the
+icosahedral profile; orbits exactly 12/20/30 + the generic-60 witness; the
+fourth-orbit exclusion PROVED (the Mobius two-fixed-point bound; every
+non-identity element fixes exactly 2 of the 62 points; incidence 118 =
+12*4 + 20*2 + 30*1) — with an MB12 negative control showing the check
+fires on a corrupted orbit. C2 HOLDS: u3/u6 on the vertex orbit (R's own
+eigen-axis, projective order 5), the UNIQUE Galois-individually-fixed pair
+(every other point moved by >= 8 of the 16 automorphisms; the two closest
+calls explicitly located; no 13th point). C3 HOLDS: M_odd = chi.W with W
+in SU(2) EXACTLY for all 2880 elements (four exact criteria, zero
+failures); Re = half-trace proven; Im = the Bloch pairing with exact axes
+and the separation witness — the B641 credit line sealed inside the claim.
+THE PROMOTION: the crossing prereg may cite THE DERIVED LISTENER PAIR.
+The scope holds: NOT a completed listener map — AC3 gates on the silver
+instrument (B1072, designed and staged), AC6's type-run unattempted.
+Method law banked: the B837 file-drawer lock rightly shaped the seal flow
+— the seal commit stays local until the computation reports; the hash
+timestamps the seal; the push carries seal and findings together.
+
+
 ## THE MASTERPLAN CLOSES (2026-08-18, W6) — the field-exploration report lands; two check agents' 13 findings all dispatched; the path to the crossing is sequenced
 
 The owner's opening question ("did we explore the field until the end?") now
