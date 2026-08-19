@@ -1,5 +1,36 @@
 # Changelog
 
+## B1077 (2026-08-19) — THE INTRINSIC LAYER IS SPLIT, exhaustively; the 77 requires a twist; B882 becomes the unique door AND gets its KMRT statement; L154 mapped
+
+The physics-first probe pair (both adversarial verifiers HOLD on full
+independent rebuilds). THE CLIFFORD THEOREM: from B904's bare norm form
+alone — Witt index 4 by exact diagonalization — the even Clifford algebra
+has associativity verified on ALL 2,097,152 even-blade triples, center
+computed by COMPLETE enumeration ({1, omega} only, omega^2 = +1 two ways):
+Z(C0) = Q x Q SPLIT, and C0 = M8(Q) x M8(Q) by an explicit isomorphism
+(exact rank 128/128, det = 2^256), the spinor spaces concrete. With W4's
+split-cubic finding, THE TWO-LEVEL INTRINSIC THEOREM IS COMPLETE: nothing
+77-shaped exists in the object's bare D4 geometry — every 77-bearing
+structure is dressing, the pencil dressing is circularity-forbidden, so
+B882 is THE unique non-circular route. THE FLOOR-LIFT, same day: the
+strongest unopened lead (Dolphin-Queguiner-Mathieu 1905.12526) opened —
+Def 4.2 + Rmk 4.8: a trialitarian TRIPLE has trivial discriminant BY
+DEFINITION, so the bare datum forms an honest split triple and Q(sqrt77)
+can only enter through the twisted 3D4 form where L is a FIELD. B882's
+conjecture restated in KMRT's own language: THE DRESSED DATUM IS THE 3D4
+TWIST OF THE SPLIT TRIPLE BY K — well-posed; the floor narrows to the 3D4
+twisting classification; the in-sandbox half complete. COMPANION: the
+L154 probe — UNDECIDED with the obstruction fully mapped (same-convention
+central charges, comparable, equal exactly at the assumed value; no
+forcing bridge; the construction site not-posable; three resolution
+routes named). A2 stays an anchor. MEANWHILE B1078 (the gauge-selection
+cell) runs: the bench found that the banked value-grammar (structure
+primes numerator, value prime denominator) selects D2 UNIQUELY among the
+coboundary gauges — chi_a's and chi_b's denominators each carry exactly
+one of the unmeasured pair {7, 11}, K's own ramified primes — the
+formalization and adversarial attack in flight.
+
+
 ## B1076 (2026-08-19) — the coboundary sweep: the mass-ratio lane decided closed by its own computation; the sweep pays in theorems; nature-supplies-the-gauge is the successor question
 
 The owner's no-excuse directive, aimed by B1074's map, run at gauges the

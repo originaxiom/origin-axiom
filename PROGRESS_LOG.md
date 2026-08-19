@@ -10707,3 +10707,15 @@ owner's sabotage question got the full treatment — the three hiding
 places audited on this bench with one live proof, and the cold audit of
 the whole chain routed to the audit seat at the owner's word. The three
 doors: the gauge-datum question, L154, B882.
+
+## 2026-08-19 (sixth bank) — B1077: the intrinsic layer split at both levels; the KMRT floor lifted; L154 mapped; the selection cell in flight
+
+The no-excuse day's harvest so far: the Clifford theorem (exhaustive
+grade), the two-level intrinsic-split completion, B882 restated as the
+3D4-twist-by-K claim in the literature's own language with the floor
+narrowed, the sigma-door's lock fully photographed, and — found on this
+bench between cells — the gauge-selection candidate: the banked
+structure-numerator/value-denominator grammar picks D2 alone (the
+unmeasured pair {7,11} disqualifying the other two gauges one prime
+each). B1078 formalizes and attacks it now. Physics first; the review
+parked drafted; the cold audit pending with cc3.

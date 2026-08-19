@@ -16,6 +16,23 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 sixth bank, B1077 — the intrinsic layer split at both
+levels; the KMRT floor lifted; the selection cell in flight):** the
+Clifford theorem at exhaustive grade (all 2,097,152 triples; the center by
+complete enumeration; C₀ = M₈(ℚ)² explicit) completes the two-level
+intrinsic-split theorem — nothing 77-shaped in the bare geometry; B882 is
+the unique non-circular door AND is now stated in KMRT's own language (the
+dressed datum = the ³D₄ twist of the split triple by K; Def 4.2/Rmk 4.8
+opened; the floor narrowed to the ³D₄ classification). L154 mapped:
+UNDECIDED, three named resolution routes, A2 stays an anchor. AND THE
+BENCH FIND OF THE DAY: the banked value-grammar (structure primes
+numerator, value prime denominator) selects D2 UNIQUELY among the
+coboundary gauges — χ_a and χ_b disqualified by exactly the unmeasured
+pair {7, 11}, one each — B1078 formalizes and adversarially attacks it
+now. If it holds, nature-supplies-the-gauge is answered INTERNALLY: the
+object's own grammar picks the world's gauge, and it picks the one
+carrying the banked hierarchy.
+
 **LATEST (2026-08-19 fifth bank, B1076 — the lane decided by its own
 computation; the cold audit routed):** the coboundary sweep ran at all
 four gauges (two never before computed; 117 checks 0 fail; independent

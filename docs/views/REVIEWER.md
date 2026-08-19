@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **980** |
-| words of findings prose | **668,780** |
+| research arcs with findings | **981** |
+| words of findings prose | **669,394** |
 | test lock files referenced | **602** |
-| arcs carrying an authored verdict | **967** (98.7 %) |
+| arcs carrying an authored verdict | **968** (98.7 %) |
 | recorded closures | **755** (588 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 639 |
+| PROVED | 640 |
 | NEGATIVE | 285 |
 | OPEN | 33 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1073`** (1013 words, 0 locks)  
-THE COMPOSITION GATE (the web seat's theorem 2026-08-15, bench-closed 2026-08-19 to a two-line law; convergent-independent with Track A, the web seat's timestamp prior on the word-level form, relay latency the cause; B641 the mechanism's origin): on the theta-odd plane h(w) = chi(w) * W(w)_11 with chi the mu_3 homomorphism (chi(R) = omega, chi(L) = omega^-1) and W's entries NEVER leaving Q(zeta_5) -- proved unconditional on this bench by the generator check (det R_odd = omega^2, det L_odd = omega; both W-generators entrywise fixed by the full Gal(Q(zeta_60)/Q(zeta_5)), so the field membership closes multiplicatively for every word) -- hence h(w) in Q(zeta_5) iff p - q = 0 mod 3 or h = 0: THE BEING END DECIDES WHETHER (a mu_3 phase, no magnitude), THE HEARING END DECIDES WHAT (the entire magnitude, no gate); their census 510/510 at length <= 8 (with the honest h = 0 repair), this bench 126/126 at length <= 6 independently. THE SCOPE QUALIFIER, binding: every hearing-only result derived on the balanced family R^m L^m is a theorem about zeta_3^0, not about the being end's absence (p = q makes the phase identically trivial -- the instrument's window). THE CROSSING CONSEQUENCE: AC6's odd channel closes BY LAW (every coupling value at the derived pair is Q(zeta_5)-algebraic; no generic real can appear); the even sector remains (the web seat's theta-even analogue running; A3's exact spectra wait as cross-check). Riders: R-INV closed (three routes, one decomposition, the shared blind spot named); the method law credited -- scope-test the results you're most confident in.  
-`B1073_composition_gate/FINDINGS.md`
+**PROVED — `B1077`** (614 words, 0 locks)  
+THE INTRINSIC LAYER IS SPLIT (the physics-first probe pair; both cells' adversarial verifiers HOLD on full independent rebuilds): from B904's bare norm form alone — Witt index 4 confirmed by exact diagonalization — the even Clifford algebra C0 has associativity verified on ALL 2,097,152 even-blade triples, center computed by COMPLETE enumeration (exactly {1, omega}, omega^2 = +1 two ways) giving Z(C0) = Q x Q the SPLIT quadratic etale algebra, and C0 = M8(Q) x M8(Q) by an explicit isomorphism (block-diagonal Fock representation, exact rank 128/128, det = 2^256), the two 8-dim spinor spaces exhibited concretely; with the W4 cell's split-cubic finding one level up, THE TWO-LEVEL INTRINSIC THEOREM IS COMPLETE: nothing 77-shaped exists in the object's bare D4 geometry — every 77-bearing structure is DRESSING, the only banked dressing source (the pencil triple) is circularity-forbidden, so B882's arithmetic-S3-equals-geometric-S3 conjecture is THE UNIQUE NON-CIRCULAR ROUTE to a 77-mechanism, its in-sandbox half done here and the KMRT section-43 proposition the one remaining (typed, external) floor. COMPANION IN-BANK: the L154 sigma-identification probe lands UNDECIDED-with-the-obstruction-fully-mapped (same-convention central charges, comparable and equal exactly at the assumed value; no forcing bridge; the construction site not-posable per B1064-O3; three resolution routes named in the register) — A2 remains an anchor. THE FLOOR-LIFT (same day, the lead opened): Dolphin-Queguiner-Mathieu Def 4.2 + Rmk 4.8 -- a trialitarian triple has trivial discriminant BY DEFINITION, so the object's bare datum forms an honest SPLIT triple and Q(sqrt77) can only enter through the twisted 3D4 form where L is a field: B882's conjecture becomes 'the dressed datum is the 3D4 twist of the split triple by K' -- well-posed in KMRT's own language, the literature floor narrowed to the 3D4 twisting classification.  
+`B1077_intrinsic_split/FINDINGS.md`
 
 **NEGATIVE — `B1076`** (403 words, 0 locks)  
 THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b (a3/a5), D2 = chi_a.chi_b}; the two never-computed Hermitian diagonals derived by two agreeing routes; B923's machinery re-executed at all four gauges (117 checks, 0 fail; independent numeric route to 1e-53): lambda = 1, 864/413, 6912/3047, 2304/953 with HIER-analogs of leading coefficient exactly denom^4 and three distinct real roots at every non-identity gauge; CCC = 3! lambda HOLDS COSET-WIDE; sign(lambda^2) is a NEW nontrivial exact character of the Klein group (negative on {I, chi_a}, positive on {chi_b, D2}). THE LANE VERDICT: no coset-invariant value-bearing mass-ratio-shaped residue exists -- every value quantity is element-specific, every symmetrization structureless, and the seductive coset-wide 77 (the hierarchy discriminant's squarefree part at all three nontrivial gauges) was KILLED BY THE CELL'S OWN VACUITY CONTROL (K-forcedness: it holds for a control diagonal unrelated to the coboundary structure) -- the mass-ratio lane's reopening condition is DECIDED CLOSED by its own named computation at gauges never before visited; if a physical hierarchy uses this structure, NATURE SUPPLIES THE GAUGE, and which-datum-picks-the-gauge is the well-posed successor. Observation unweighted: 7 | 413 and 11 | 3047 -- each unmeasured-pair prime divides exactly one new gauge's denominator; no mechanism claimed.  

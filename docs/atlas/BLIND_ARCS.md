@@ -46,6 +46,7 @@ auditable in a way a passing threshold never was.
 | `B998` | INSTRUMENT | The axiom chain's lock audit: which forks `test_b749_genesis_forks.py` actually tests versus which `THEOREM_LEDGER.md` cites. About the repository's own verification discipline — an object atlas is correct to miss it. |
 | `B1065` | INSTRUMENT | the three amendment controls for B1024's SAME — equivariance/base-rate/joint-rank checks on the programme's own class-map machinery; an OBJECT atlas is correct to miss it |
 | `B1076` | GAP | the coboundary/gauge layer of the Hermitian-frame structure (2026-08-19) — the lexicon has no term for the class-(0,0) coset, the per-gauge λ-family, or gauge-dependence-as-a-finding; a real object topic the vocabulary misses (the sweep's own theorem: the hierarchy is coboundary-carried) |
+| `B1077` | GAP | the Clifford/even-algebra layer of the bare datum (2026-08-19) — the lexicon has no term for the intrinsic-split theorem, the discriminant algebra, or the 3D4-twist statement; a real object topic the vocabulary misses |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 

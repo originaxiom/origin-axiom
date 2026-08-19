@@ -1704,6 +1704,22 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1077": {
+   "slug": "intrinsic split",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B882",
+    "B904",
+    "L154"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B107": {
    "slug": "physics connection audit",
    "motifs": [

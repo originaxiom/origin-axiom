@@ -1566,6 +1566,27 @@ any downstream use.
 > (S1-class). The anchor stands meanwhile.
 
 
+
+### PROBE UPDATE 2026-08-19 (the σ-identification cell; verify HOLDS)
+
+L154 UPDATE (2026-08-19, the σ-identification probe; 2 agents, adversarial verify HOLDS
+with from-scratch arithmetic + the E₈ sanity anchor):
+
+**Status: UNDECIDED — now with the obstruction fully mapped.** The two "6"s are exact
+Virasoro central charges in the IDENTICAL convention (no normalization factor anywhere —
+COMPARABLE, meaningfully); they coincide exactly at σ := 1, but that value is DEFINED by
+assuming the match (the circularity guard, held); the corpus contains no forcing bridge
+(B1034's NO-EXHIBIT re-confirmed) and no clash; and the most direct construction site is
+NOT-POSABLE (B1064-O3: amphichirality deletes the quantized sector; the surviving
+σ-sector hosts no banked chiral algebra, and B715's non-real trace blocks a real form).
+**The named remaining routes, either of which resolves the lead**: (i) a rational/
+discrete structure constructed on the presently non-compact σ-sector; (ii) an external
+mechanism restoring a quantized sector that survives CS = 0; (iii) an impossibility
+proof. R11-T2's anchor A2 therefore REMAINS an anchor (HELD-PENDING-L154); the
+input-list shrink is not licensed. The probe's full record: the derivation chain with
+every convention chased, in the session artifacts (l154_results.json → banks with the
+Clifford probe's arc).
+
 ## L157 — THE INTERACTION HOOKS (the seed–field frame's three computables; registered 2026-08-12)
 
 From `speculations/S_SEED_FIELD_COSMOGONY.md` (firewalled; the frame is under the audit
