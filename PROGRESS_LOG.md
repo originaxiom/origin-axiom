@@ -10719,3 +10719,20 @@ structure-numerator/value-denominator grammar picks D2 alone (the
 unmeasured pair {7,11} disqualifying the other two gauges one prime
 each). B1078 formalizes and attacks it now. Physics first; the review
 parked drafted; the cold audit pending with cc3.
+
+## 2026-08-19 (seventh bank) — the selector double-experiment + the forced/free architecture
+
+The day the programme learned what kind of theory it is. The instrument
+(banked laws run as selectors) worked on first use, both directions: the
+Wilson menu's row-choice proven FREE (the grammar's honest silence; the
+120-A2 universality behind it) with the object's own PRIOR attached (the
+counting-measure theorem-let — multiplicities are weights, the first
+Born-rule-shaped statement from structure); the gauge coset's apparent
+homogeneity broken by arithmetic (the rigidity theorem: four values,
+closed spectrum, class-level pattern). THE FORCED AND THE FREE lands
+firewalled with every speculation's calculation either run or registered.
+The physics-contact strategy inverts: derive the measure, test ensembles.
+The paper's architecture: the forced half = theorems; the free half = the
+portrait of exact silences with priors. Branch hygiene done (one archive
+tag, three named stay-opens); relays exhausted; the review parked-drafted;
+the cold audit pending.

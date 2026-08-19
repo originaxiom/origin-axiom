@@ -16,6 +16,24 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 seventh bank, B1078 + B1079 + THE FORCED AND THE FREE
+— the selector double-experiment resolves both ways as predicted):** the
+Wilson menu VERIFIED bit-for-bit with its Kac mechanism, and B932's
+grammar honestly SILENT on all nine rows (the 120-A₂ singlet universality
+behind it — LAW_MAP row): **the row-choice is FREE by computation, with
+the object's own PRIOR attached** (the counting-measure theorem-let: the
+multiplicities are the object's weights — the first Born-rule-shaped
+statement from pure structure). The gauge coset's homogeneity broken by
+arithmetic: THE RIGIDITY THEOREM — λ's spectrum closed at four values
+across all 18 gauges, the coset's pattern reproduced value-for-value at
+class level. docs/THE_FORCED_AND_THE_FREE.md lands firewalled with its
+calculation table filled same-day (the prior PROVED; the inventory
+COMPUTED with the rank-VEV mismatch registered; the reflexive argument
+tagged with its Kolmogorov debt). The physics strategy inverts: derive
+the measure, test ensembles. Riders: B932's T1 scoped; the branch
+hygiene done. Pending: the cold audit; the parked review; the mechanism
+pair at class level.
+
 **LATEST (2026-08-19 sixth bank, B1077 — the intrinsic layer split at both
 levels; the KMRT floor lifted; the selection cell in flight):** the
 Clifford theorem at exhaustive grade (all 2,097,152 triples; the center by

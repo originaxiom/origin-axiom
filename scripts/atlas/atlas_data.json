@@ -1720,6 +1720,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1078": {
+   "slug": "gauge selection",
+   "motifs": [],
+   "refs": [
+    "B918",
+    "B931"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1079": {
+   "slug": "wilson menu",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [
+    "B932"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B107": {
    "slug": "physics connection audit",
    "motifs": [

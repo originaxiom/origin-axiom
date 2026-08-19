@@ -187,3 +187,16 @@ B874 (census, Cent(C), no-26), B892 (SMT 14, within-C strata), B897 (G20 tiling,
 B909 (CMT 30, cross-shadow 18), B925 (D-chain su(4)/so(8) context), B926 (ANATOMY M3/W18).
 Feeds: the masterplan's R-EMB row (chain selected: GUT-side, structurally); W18's status
 (in-house verified); the crossing study's surviving-shapes menu (M3 closed as outcome A).
+
+---
+
+## ADDENDUM 2026-08-19 (B1079's scope flag) — the T1 bullet gains its scope word
+
+B1079's exhaustive order-m sweeps found the T1 bullet's universal reading ("every charge
+wall has center ≥ 1") computably FALSE beyond this arc's own sweep: at order 2 the
+center-0 type su(6)+su(2) is realized by 36/63 elements, at order 3 su(3)³ by 80/728 —
+while at order 5 the reading is a THEOREM (E₆'s marks (1,2,2,3,2,1) are all ≤ 3, so by
+Kac no order-5 element reaches a center-0 type). The bullet's correct scope: the charge
+walls THIS arc swept (and, by the marks mechanism, every order-5/order-≥4 wall). This
+arc's verdict is untouched — the conformal chain's disqualification rested on the
+index-(2,3,1) S-subalgebra facts, re-verified in B1079 with the 5-realization recount.

@@ -1,5 +1,49 @@
 # Changelog
 
+## B1078 + B1079 + THE FORCED AND THE FREE (2026-08-19) — the selector double-experiment resolves both ways as predicted; the row-choice is free WITH the object's own prior attached; lambda's spectrum is closed at four values
+
+The new seat's synthesis (owner-relayed) executed as computation, same day.
+B1078 THE GAUGE-SELECTION OBSERVATION: the banked value-grammar's shape
+(structure primes numerator, value prime denominator) holds at D2 ALONE
+among the coboundary gauges — chi_a and chi_b each carry exactly one of
+the unmeasured pair {7, 11}; doubly secured at D2 (B918 + B931, two
+objects one place), honestly graded (the transport PROPOSED-NOT-BANKED;
+verifier HOLDS with the deepest attack SHARPENING the self-downgrade).
+PLUS THE CONTROL SWEEP (18 gauges, verifier bit-for-bit): THE RIGIDITY
+THEOREM — lambda takes ONLY {1, 2304/953, 864/413, 6912/3047} across the
+whole structure; class (1,1) reproduces the coset's pattern value-for-
+value on provably different diagonals; the untouched classes mostly
+cannot define lambda at all (well-posedness is wall-contact); verdict
+MIXED-BITES — the spectrum has no more room. B1079 THE WILSON MENU: the
+new seat's 9-row enumeration VERIFIED bit-for-bit (twice independently;
+counts sum to 15624 exactly), the A2+A1 dim-14 point ABSENT at orders 5,
+2, AND 3 with THE MECHANISM (E6's marks all <= 3: by Kac no order-5
+element reaches center-0 — the MB12 witnesses at orders 2/3 proving the
+filter real); the apparent B932 clash dissolved (S-subalgebra vs regular
+Levi); AND THE SELECTOR'S HONEST SILENCE: B932's grammar kills NONE of
+the nine rows — behind it THE 120-A2 SINGLET UNIVERSALITY (every index-1
+su(3) in E6: exactly 9 singlets, zero exceptions; the unique deviant is
+the conformal chain's index-2 su(3), where the criterion's bite was
+already spent) — THE ROW-CHOICE IS FREE BY COMPUTATION. docs/
+THE_FORCED_AND_THE_FREE.md lands (firewalled, its calculation table
+filled same-day): the six-instance torsor pattern (RECORD); the reflexive
+argument TAGGED with its precision debt (A1-A6, not the C1 paraphrase;
+Kolmogorov formalization OPEN); THE PRIOR THEOREM-LET PROVED — the object
+cannot fix the point but MUST fix the measure (invariance forced by
+minimality; counting measure on finite menus): THE MENU'S MULTIPLICITIES
+ARE THE OBJECT'S OWN WEIGHTS — the first Born-rule-shaped statement from
+pure structure; the closing-inventory check COMPUTED with its honest
+mismatch (the rank-VEV closing unpartnered — either the bijection fails
+there or the Z/5 is the fifth symmetry, registered); THE SELECTOR
+INTERLOCK RESOLVED BOTH WAYS AS PREDICTED — honest silence on the true
+torsor, discrimination only where the closed spectrum breaks the apparent
+homogeneity. Riders: the 120-A2 universality to LAW_MAP; B932's T1 bullet
+scoped by addendum (universal reading computably false at orders 2/3, a
+THEOREM at order 5 by the marks); the branch hygiene of the day recorded
+(scrutinize-v4h3tb archived as a tag on both remotes, the paper-scrutiny
+content registered; the three stay-open branches each with named reasons).
+
+
 ## B1077 (2026-08-19) — THE INTRINSIC LAYER IS SPLIT, exhaustively; the 77 requires a twist; B882 becomes the unique door AND gets its KMRT statement; L154 mapped
 
 The physics-first probe pair (both adversarial verifiers HOLD on full
