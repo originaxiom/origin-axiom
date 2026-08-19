@@ -47,6 +47,7 @@ auditable in a way a passing threshold never was.
 | `B1065` | INSTRUMENT | the three amendment controls for B1024's SAME — equivariance/base-rate/joint-rank checks on the programme's own class-map machinery; an OBJECT atlas is correct to miss it |
 | `B1076` | GAP | the coboundary/gauge layer of the Hermitian-frame structure (2026-08-19) — the lexicon has no term for the class-(0,0) coset, the per-gauge λ-family, or gauge-dependence-as-a-finding; a real object topic the vocabulary misses (the sweep's own theorem: the hierarchy is coboundary-carried) |
 | `B1078` | GAP | the gauge-selection layer (2026-08-19) — the lexicon has no term for denominator-purity, the closed λ-spectrum, or class-level selection; a real object topic the vocabulary misses (the observation's own grammar: the value-prime shape as a selector) |
+| `B1080` | GAP | the global-form layer (2026-08-19) — the lexicon has no term for center/fundamental-group quotients, Γ = ℤ/6 as the forced global structure, or charge-lattice-vs-center arithmetic; a real object topic the vocabulary misses (the arc's own finding: the quotient is uniform across the menu, B862's local fact made global) |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 

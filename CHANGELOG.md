@@ -1,5 +1,34 @@
 # Changelog
 
+## The absence-stamp lock + the harvest queue L167-L170 + the design-audit unblock (2026-08-19, follow-up bank)
+
+tests/test_stale_absence_lock.py: the ninth bank's sweep made durable —
+every swept site's fix or currency stamp is now suite-locked (12 fixes,
+16 stamps at floor counts, the T-MAGIC ruling, and the six cold-audit
+corrections all pinned; a later edit that re-hides a banked
+breakthrough fails the suite). THE HARVEST QUEUE REGISTERED
+(OPEN_LEADS L167-L170, integrate-don't-merge, every entry a main-band
+re-derivation task): L167 B955 goes two-route (the seat's step-disjoint
+census; main's B1079 already re-derived it bit-for-bit) + the abelian
+hatch explicit — non-abelian holonomy the single live hatch; L168 the
+nu^c purity selector (rank drop ONLY at pure spinors, 34/29 stabilizer
+dims, toral 4/0, transitive cone — a CONDITION not a point; the pair
+space 27+27bar is the load-bearing reading of the one-slot count);
+L169 Route A's counter (all class-group candidates trivial, h = h+ =
+1; the governing Kato-Yukie quantity owed); L170 the two Sec.6 arcs
+(the anomaly layer's identical vanishing with nu^c the last
+cancellation; monodromy M-squared and the orientability sign bit).
+The relay channel carries back: the H(chi) answer (a SOLVE at the
+outer twist, not a conjugation — their disproof consistent with the
+construction) and THE CELL PROMPTS VERBATIM (b1074/b1076 orchestration
+scripts complete; B1075's design record = its sealed prereg) — the
+design-audit half of the owner-routed cold audit is UNBLOCKED, with
+three self-named probe points (the MB12 bite-witness demand, the
+schema-only constraint, the classes-only Gate 5 phrasing). The paper
+state logged from the seat's relay: 47 pages, clean-room verify_all
+19/19, twelve-item closure closed; endorsement and upload remain the
+owner's alone.
+
 ## B1080 + THE SPINE + the stale-absence sweep + the cold-audit corrections (2026-08-19, ninth bank) — the global form is FORCED; the record stops re-hiding its own breakthroughs
 
 B1080 THE GLOBAL FORM (verifier-corrected grade): Gamma = Z/6 is FORCED

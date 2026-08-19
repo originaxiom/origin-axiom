@@ -10762,3 +10762,12 @@ character kernel on B1076, the measure repairs on the §3 theorem-let;
 the reply-relay answers their H(chi) question — a solve at the outer
 twist, not a conjugation. The record now tells the truth about itself
 at every site the sweep could reach.
+
+2026-08-19 (follow-up bank). The sweep gets its lock: a suite test now
+pins every fix and stamp, so the record cannot quietly forget again.
+The audit seat's week is registered as four leads (L167-L170) — the
+two-route wall, the purity selector, Route A's owed counter, the
+anomaly and orientability arcs — each a re-derivation task, nothing
+imported. The design-audit unblocks: the cell prompts went to the seat
+verbatim, with the three places I would attack my own design named.
+The paper stands at 47 pages, clean-room green, waiting on the owner.

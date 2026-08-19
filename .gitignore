@@ -77,3 +77,14 @@ frontier/B500_child_hunt/b500_stragglers.py
 frontier/B500_child_hunt/b500_stragglers_out.txt
 frontier/B500_child_hunt/b500_stragglers_err.txt
 frontier/B729_amplitude_sector/b729_err.txt
+
+# The chronicle-harvest firewall (2026-08-19): raw conversation exports and
+# transcript archives must never enter the tree — the harvest workspace is
+# audit/ (already ignored) or an outside directory; only distilled,
+# privacy-clean findings may be committed, never source material.
+conversations.json
+data-*-batch-*/
+*.jsonl
+!frontier/*/stageA/journals/*.jsonl
+chronicle_raw*
+

@@ -16,6 +16,15 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 follow-up bank, the lock + the queue + the
+unblock)**: the stale-absence lock is in the suite (the sweep is now
+regression-proof); L167-L170 registered (the audit-seat harvest:
+two-route B955 + explicit abelian hatch; the nu^c purity selector —
+THE RANK WALL's sharpest known reduction; Route A's owed counter; the
+Sec.6 pair). The cell prompts went to cc3 verbatim — the cold audit's
+design half is theirs to run. Paper: 47pp clean-room green,
+owner-gated.
+
 **LATEST (2026-08-19 ninth bank, B1080 + THE SPINE + the sweep + the
 audit corrections)**: Gamma = Z/6 FORCED uniformly (B1080,
 verifier-corrected, B862 credit); THE SPINE view live (968 locks / 69
