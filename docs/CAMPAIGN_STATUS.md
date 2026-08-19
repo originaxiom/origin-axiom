@@ -16,6 +16,18 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 second bank, B1072 + B1073 — AC3 FILLED, AC6's ODD
+HALF CLOSED BY LAW):** the silver instrument (SU(4)₂ exact; the group
+18432, Goursat-subdirect, no order-5; ℂP² odd sector, five exceptional
+orbits) answers AC3 with the third shape — **Λ is field-generic, its
+selectivity object-specific** (golden: 2-of-12 by real Galois work;
+silver: a rational minimal orbit, trivially fixed); B684's ladder
+k-defect caught by four builds (addendum beside). The composition gate
+(the web seat's theorem, bench-closed to two lines): h(w) = χ(w)·W(w)₁₁,
+W never leaves ℚ(ζ₅) — being decides WHETHER, hearing decides WHAT; the
+binding scope qualifier banked verbatim; **AC6's odd channel closes by
+law**. Remaining before the prereg: AC6's even half + R1's sweep.
+
 **LATEST (2026-08-19, B1071 — THE SEALED LISTENER PROMOTED):** all three
 sealed claims HOLD on independent re-implementations (the orbit backbone
 with the fourth-orbit exclusion proved + an MB12 negative control; the

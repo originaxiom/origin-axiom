@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **975** |
-| words of findings prose | **665,410** |
+| research arcs with findings | **977** |
+| words of findings prose | **666,902** |
 | test lock files referenced | **602** |
-| arcs carrying an authored verdict | **962** (98.7 %) |
+| arcs carrying an authored verdict | **964** (98.7 %) |
 | recorded closures | **753** (586 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 637 |
+| PROVED | 639 |
 | NEGATIVE | 283 |
 | OPEN | 32 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1071`** (515 words, 0 locks)  
-THE SEALED LISTENER (sealed 2026-08-19 pre-compute; three independent re-implementations, no code reuse from the exploration cell, 0 errors): ALL THREE CLAIMS HOLD — C1 the orbit backbone (projective image exactly 60 with the icosahedral profile; orbits exactly 12/20/30 plus the generic-60 witness; the fourth-orbit exclusion PROVED via the Mobius two-fixed-point bound with every non-identity element fixing exactly 2 of the 62 points, incidence 118 = 12*4+20*2+30*1; an MB12 negative control shows the check fires on a corrupted orbit), C2 the pair (u3/u6 on the size-12 vertex orbit, R's own eigen-axis at projective order 5, and the UNIQUE pair fixed individually by all 16 Galois automorphisms — every other orbit point moved by at least 8 of 16, the two closest calls explicitly located, no 13th point), C3 the channels (M_odd(g) = chi(g)W(g) with W in SU(2) EXACTLY for all 2880 elements on four exact criteria with zero failures; Re = half-trace proven and spot-verified at three complex ears; Im = the Bloch pairing with exact axes m = 1..5 and the two-direction separation witness exhibited; the B641 credit line sealed inside the claim). THE PROMOTION: the crossing prereg may cite THE DERIVED LISTENER PAIR. THE SCOPE HOLDS: not a completed listener map — AC3 gates on the silver instrument (B1072, designed), AC6's type-run unattempted. Method note banked: the B837 file-drawer lock rightly shaped the flow — the seal commit stays local until the computation reports; the hash timestamps the seal, the push carries both.  
-`B1071_sealed_listener/FINDINGS.md`
+**PROVED — `B1073`** (759 words, 0 locks)  
+THE COMPOSITION GATE (the web seat's theorem 2026-08-15, bench-closed 2026-08-19 to a two-line law; convergent-independent with Track A, the web seat's timestamp prior on the word-level form, relay latency the cause; B641 the mechanism's origin): on the theta-odd plane h(w) = chi(w) * W(w)_11 with chi the mu_3 homomorphism (chi(R) = omega, chi(L) = omega^-1) and W's entries NEVER leaving Q(zeta_5) -- proved unconditional on this bench by the generator check (det R_odd = omega^2, det L_odd = omega; both W-generators entrywise fixed by the full Gal(Q(zeta_60)/Q(zeta_5)), so the field membership closes multiplicatively for every word) -- hence h(w) in Q(zeta_5) iff p - q = 0 mod 3 or h = 0: THE BEING END DECIDES WHETHER (a mu_3 phase, no magnitude), THE HEARING END DECIDES WHAT (the entire magnitude, no gate); their census 510/510 at length <= 8 (with the honest h = 0 repair), this bench 126/126 at length <= 6 independently. THE SCOPE QUALIFIER, binding: every hearing-only result derived on the balanced family R^m L^m is a theorem about zeta_3^0, not about the being end's absence (p = q makes the phase identically trivial -- the instrument's window). THE CROSSING CONSEQUENCE: AC6's odd channel closes BY LAW (every coupling value at the derived pair is Q(zeta_5)-algebraic; no generic real can appear); the even sector remains (the web seat's theta-even analogue running; A3's exact spectra wait as cross-check). Riders: R-INV closed (three routes, one decomposition, the shared blind spot named); the method law credited -- scope-test the results you're most confident in.  
+`B1073_composition_gate/FINDINGS.md`
 
 **NEGATIVE — `B1066`** (970 words, 0 locks)  
 NEGATIVE — both inventory-forced relations decisively excluded by the CURRENT global fit (NuFIT 6.1, Nov 2025 data, both orderings, delta profiled over the full circle): R-B (the phi-geometric row) fires NO trial anywhere — the delta-independent anchor |U_e1| = 0.8225(40) vs phi/2 = 0.80902 is 3.4 sigma and unrescuable; R-A (the listener pair) misses everywhere — sin^2th12 = 0.308(67) vs 0.27639 is 4.7 sigma. The two-execution history is the record per the covenant: execution 1 ran against superseded NuFIT 6.0 (the B1063 fetch-currency species reproduced same-day, caught by the owner + self-audit; its single wide-window firing on PMNS column 1 was a stale-release artifact, WITHDRAWN), execution 2 valid. The coupling channel — type-legal by construction, licensed by the kind table, never base-rate-tested — is now tested and closed; with the phases (B1027/B1063) and both remaining kind-rows consumed, the licensed value-contact surface is EXHAUSTED. The listener map named as the sole residual door. One-shot spent properly.  

@@ -50,3 +50,19 @@ remaining computation: the sealed design cell.
   distinct; cc2's Lucas products reproduced.)
 
 Locks: tests/test_b684_loop7.py.
+
+---
+
+## ADDENDUM 2026-08-19 — the silver ladder's k-indexing questioned by four independent builds (B1072)
+
+B1072's fresh SU(4)₂ construction (two in-cell builds cross-checked 41/41, plus an
+adversarial verifier on a different Weyl construction and different arithmetic engine;
+a six-variant convention sweep ruling out word-order/sign artifacts) finds
+tr_odd(R²L²) = **δ = 1+√2 at k = 2** — the value this arc's ladder lists at k = 6 —
+where this arc's k = 2 row says 1/δ = √2−1. **This arc's k = 1 row REPRODUCES exactly**,
+with a sharper mechanism than banked (the odd block is forced to dimension 1 — the
+"abelian" hypothesis was tried and refuted). Adjudication (B1072's FINDINGS): the
+ladder carries a k-indexing/inversion defect between its rows; the headline "silver
+hears 1/δ at SU(4)₂" is affected in its VALUE attribution, not in its structural claim
+that SU(4)₂ is the silver's own stage. The full re-derivation of this ladder's every
+row is registered follow-up work, not silently rewritten here.

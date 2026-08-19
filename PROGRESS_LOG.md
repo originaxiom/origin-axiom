@@ -10654,3 +10654,16 @@ The crossing prereg may now cite the derived listener pair; AC3 (the
 silver instrument, B1072 staged) and AC6 (the type-run) remain the named
 gates before the prereg itself. THE_FRAMEWORK's currency read landed with
 this bank.
+
+## 2026-08-19 (second bank) — B1072 + B1073: AC3 filled, AC6's odd half closed by law
+
+The silver instrument answers AC3 with the third shape (field-generic
+rule, object-specific selectivity — the golden stage is where Galois does
+real work), the group itself refusing the golden pattern (Goursat
+subdirect, {2,3}-primary, trivial scalars); B684's ladder k-defect caught
+by four builds, addendum beside. The composition gate banks the web
+seat's theorem with the convergent-independent chronology and their
+verbatim scope qualifier; AC6's odd channel now closes by field law. The
+crossing's remaining gates: AC6's even half (the theta-even run on the
+web seat's bench; A3's exact spectra waiting as cross-check) and R1's
+outside-atlas sweep, then the prereg summary to the owner.

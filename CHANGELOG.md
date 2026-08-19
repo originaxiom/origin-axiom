@@ -1,5 +1,39 @@
 # Changelog
 
+## B1072 + B1073 (2026-08-19) — AC3 fills (the transplant's third shape) and AC6's odd half closes by law (the composition gate)
+
+B1072 THE SILVER INSTRUMENT: SU(4)_2 built exactly (Sigma.Sigma-dagger =
+864 I = 4*6^3, the silver instance of the golden 75 = 3*5^2; the weld
+splits 7/3, exactly invariant); the group is 18432 = 2^11*3^2 with trivial
+scalars — purely {2,3}-primary (no order-5: kappa = 6 has no room) and NOT
+a direct product (a proper Goursat subdirect against the golden's clean
+2T x 2I); the odd sector is CP^2 with five exceptional orbits plus 27
+reflection-fixed lines; and Lambda TRANSPLANTS VERBATIM, returning the
+full minimal orbit — three RATIONAL points, the Galois criterion passing
+automatically. AC3's verdict: THE RULE IS FIELD-GENERIC, ITS SELECTIVITY
+OBJECT-SPECIFIC — at the golden stage Galois-rigidity does real work
+(2-of-12 via the sqrt5-flip); at the silver it is trivial; the
+discriminator is where the stage's irrationalities live relative to the
+odd sector. Rider: B684's silver ladder carries a k-indexing defect
+(four independent builds: the fresh k = 2 value is delta = 1+sqrt2 —
+B684's own k = 6 entry; its k = 1 row reproduces with a sharper
+mechanism) — addendum beside B684, full ladder re-derivation registered.
+B1073 THE COMPOSITION GATE (the web seat's theorem, bench-closed): on the
+theta-odd plane h(w) = chi(w).W(w)_11 with chi the mu_3 homomorphism and
+W never leaving Q(zeta_5) — being decides WHETHER (the gate: p - q mod 3),
+hearing decides WHAT (the magnitude). Convergent-independent provenance
+stated plainly (the web seat's timestamp 08-15 prior on the word-level
+form; Track A independent — the relay arrived after the seal; B641 the
+mechanism's origin). The binding scope qualifier, verbatim theirs: every
+hearing-only result derived on the balanced family R^m L^m is a theorem
+about zeta_3^0, not about the being end's absence. THE CROSSING
+CONSEQUENCE: AC6's odd channel closes BY LAW — every coupling value at
+the derived pair is Q(zeta_5)-algebraic; no generic real can appear. The
+method law credited and registered: scope-test the results you're most
+confident in. R-INV closed (three routes, one decomposition, the shared
+blind spot named).
+
+
 ## B1071 (2026-08-19) — THE SEALED LISTENER: all three claims HOLD on independent re-implementations; the derivation is PROMOTED
 
 Sealed before compute (the prereg's hash in the seal ledger, committed

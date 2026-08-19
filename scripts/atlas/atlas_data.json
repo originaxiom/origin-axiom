@@ -1617,6 +1617,48 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1072": {
+   "slug": "silver instrument",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B664",
+    "B684",
+    "L149"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1073": {
+   "slug": "composition gate",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B593",
+    "B641",
+    "B853",
+    "B856",
+    "B933"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B107": {
    "slug": "physics connection audit",
    "motifs": [
@@ -15269,6 +15311,7 @@
   "B684": {
    "slug": "loop7 close",
    "motifs": [
+    "figure_eight",
     "kappa",
     "metallic",
     "eisenstein",
