@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-20)",
+ "claim_one_line": "L173: THE EXPERIMENTAL KNOB ALREADY ON THE APPARATUS IS OUR INTERCEPT. Websearch lane 2. The photonic and cold-atom quasicrystal programmes adiabatically vary the PHASON -- 'the relative phase between the modulation and the underlying lattice' -- and pump states across the sample. THAT PHASE IS THE STURMIAN INTERCEPT: B8091 showed the founding rule forces the SLOPE (golden) and never supplies the INTERCEPT, the circle-torsor the object leaves free, and the experimental community's standard control parameter is precisely that free coordinate -- so the banked prediction shape (the FUNCTION rho -> edge content) is falsifiable with apparatus that already exists. ANCHORS: Verbin-Zilberberg-Kraus-Lahini-Silberberg arXiv:1403.7124 / PRB 91 064201 (photonic waveguide array, family interpolating Fibonacci<->Harper, introduced precisely because the Fibonacci QC has NO native pumping parameter); the off-diagonal Harper waveguide work; Nature 553 59 (2018) for 2D-quasiperiodic-as-4D-quantum-Hall boundary pumping; the cold-atom Aubry-Andre-Harper programme with tunable modulation phase and real-space edge-mode detection; and gap labeling with Chern numbers incl. third Chern numbers in 3D quasicrystals (arXiv:2201.04820). THE DISCIPLINE, STATED BEFORE ANYONE GETS EXCITED: gap labeling is standard, mature and already measured, so a prediction of the form 'N edge modes at intercept rho' is NOT automatically novel -- if it coincides with what the gap-labeling theorem already forces it is a RE-DERIVATION, not a prediction. The prereg must state what gap labeling predicts for the same configuration and where our claim DIFFERS, before any comparison; this is B724's look-elsewhere discipline transposed to an experimental lane and is the most likely route to a false positive here. WHAT THE PREREG CAN NOW SAY: any group with a photonic waveguide array or a cold-atom AAH chain that can scan the phason -- standard practice, not a bespoke request -- can falsify the FUNCTION, not a point. NOT ESTABLISHED: precision figures were not extracted (abstracts do not carry them; full texts not obtained), so no required resolution can yet be stated; and novelty against gap labeling was NOT verified, so this lane currently has an anchor list and NO established novelty. Gate 5 untouched: no measured value enters any claim.",
+ "depends_on": [
+  "B8091",
+  "B1085",
+  "B724"
+ ],
+ "id": "B8094",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

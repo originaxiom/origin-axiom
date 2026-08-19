@@ -18519,6 +18519,22 @@
    "status": "open",
    "domain": "quantum"
   },
+  "B8094": {
+   "slug": "L173 anchors",
+   "motifs": [
+    "golden",
+    "quasicrystal",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B724",
+    "L173"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "quantum"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [

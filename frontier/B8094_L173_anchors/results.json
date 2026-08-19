@@ -1,0 +1,42 @@
+{
+ "anchors": [
+  {
+   "cite": "arXiv:1403.7124; PRB 91, 064201 (2015)",
+   "measured": "topological pumping of photons across the quasicrystal",
+   "note": "introduced because the Fibonacci QC has NO native pumping parameter",
+   "scanned": "family interpolating Fibonacci<->Harper; phason varied adiabatically",
+   "system": "photonic waveguide array, Fibonacci quasicrystal"
+  },
+  {
+   "cite": "Kraus-Zilberberg lineage",
+   "measured": "light pumped across sample; edge spectrum",
+   "scanned": "relative phase between modulation and lattice",
+   "system": "photonic waveguide array, off-diagonal Harper"
+  },
+  {
+   "cite": "Nature 553, 59 (2018)",
+   "measured": "probe of 4D quantum Hall physics",
+   "scanned": "boundary pumping",
+   "system": "photonic 2D quasiperiodic"
+  },
+  {
+   "cite": "AAH cold-atom programme",
+   "measured": "real-space detection of topological edge modes; mobility edges",
+   "scanned": "tunable modulation phase and periodicity",
+   "system": "cold atoms, Aubry-Andre-Harper"
+  },
+  {
+   "cite": "arXiv:2201.04820",
+   "measured": "gap-label integers / Chern numbers incl. third Chern in 3D",
+   "scanned": "-",
+   "system": "quasicrystal gap labeling"
+  }
+ ],
+ "falsification_route_exists": true,
+ "knob_is_standard_practice": true,
+ "novelty_against_gap_labeling_established": false,
+ "precision_figures_extracted": false,
+ "scope": "A CAPABILITY inventory. No measured value enters any claim (Gate 5). Precision figures NOT extracted -- abstracts do not carry them and full texts were not obtained, so the prereg cannot yet state a required resolution. Novelty against gap labeling NOT verified: until that in-sandbox check is done this lane has an anchor list and no established novelty.",
+ "structural_fact": "the phason phase these experiments adiabatically scan IS the Sturmian intercept -- the circle-torsor coordinate B8091 showed the object never supplies",
+ "the_discipline": "gap labeling is standard and already measured; a prediction of N edge modes at intercept rho is NOT automatically novel -- if it coincides with what the gap-labeling theorem forces it is a RE-DERIVATION. The prereg must state what gap labeling predicts for the same configuration and where our claim DIFFERS, before any comparison. This is B724's look-elsewhere discipline transposed to an experimental lane."
+}
