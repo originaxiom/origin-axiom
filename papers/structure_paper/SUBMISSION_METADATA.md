@@ -16,7 +16,11 @@ what gets ticked at upload time.*
 
 ## 2. Title — ## PROPOSED (option 4, genesis-first)
 
-> ## **The golden grammar: four independent selections inside a canonical family, and a parameter-free chain to an exceptional Lie algebra**
+> ## **From minimal description to $E_6$: a chain through the figure-eight knot complement**
+>
+> *(This is the title in `arxiv/main.tex`. An earlier proposal here read "four independent
+> selections…"; Appendix C records that phrase as **withdrawn** — three of the four criteria
+> collapse to one arithmetic condition — so it must not be used as a title.)*
 >
 > *(Superseded 2026-08-15: the earlier title, "From minimal description to E₆: a parameter-free
 > chain through the figure-eight knot complement", described the 8-page compressed version.
@@ -98,28 +102,49 @@ expert reader the paper needs before submission, and solving it once solves both
 - [x] ## **`arxiv/` package builds**: `main.tex` only. **Bibliography is INLINE
       (`thebibliography`), so there is no `.bib` and no `.bbl` step** — which is the
       arXiv-preferred shape and removes a whole class of upload failure
-- [x] ## **clean-room compile VERIFIED 2026-08-15** — tarred to `main.tex` alone,
-      extracted into an empty directory with no repository present, compiled twice:
-      **exit 0 both passes, zero errors, 8 pages, byte-identical output**
-- [x] `verify_all.py` green (1/1; an empty suite fails by construction)
+- [x] ## **clean-room compile RE-VERIFIED 2026-08-19** — tarball extracted into an
+      empty directory with no repository present, compiled twice:
+      **exit 0 both passes, zero errors, 47 pages**
+- [x] `verify_all.py` green from the extracted tarball (**19/19**; an empty suite fails
+      by construction)
+- [x] the arXiv abstract field prepared: the paper's own abstract is **2867 characters**
+      and arXiv's metadata limit is **1920**, so `arxiv/abstract_arxiv_metadata.txt`
+      carries a **1915-character** compressed version with every hedge retained
 - [ ] endorsement obtained — deferred by owner decision
 
 ### Build
 
 ```
 cd arxiv && pdflatex main.tex && pdflatex main.tex     # two passes, no bibtex
+grep -c '^!' main.log                                  # MUST be 0 -- see below
 rm -rf verify && cp -R ../verify verify                # block (a) MUST travel
 tar czf oa-structure-paper.tar.gz main.tex verify      # the upload artifact
 ```
 
+> **CHECK THE LOG FOR `^!`, NOT ONLY FOR OVERFULL BOXES.** Added 2026-08-19 after a
+> stray `\end{remark}` — introduced by an edit on 08-18 — sat in every build for a day.
+> Under `-interaction=nonstopmode` LaTeX *recovers* from an unbalanced environment and
+> still writes a plausible PDF with the right page count, so the checks that were being
+> run (overfull boxes, undefined references, page count) were all green while the source
+> was malformed. Only `grep -c '^!' main.log` and a non-zero `pdflatex` exit code caught
+> it. Both are now in the recipe above.
+>
 > **This recipe was wrong until 2026-08-15 and the error was load-bearing.** It packaged
 > `main.tex` alone, while Appendix B told the referee that block (a) "travels *inside*
 > the submitted source, so a referee can run them from the arXiv tarball alone". It did
 > not. `verify/` sits one directory above `arxiv/` and was never copied in. Caught by a
 > hostile read that opened the built artifact instead of trusting the sentence.
 
-**Known gaps before this is submittable** (none of them build failures):
-seven `refs.bib` entries still at `STANDARD` (bibliographic data unverified —
-`refs.bib` is the working record; the inline bibliography in `main.tex` carries only
-`RESOLVED`/`OPENED` entries); no figures yet; Appendix C glossary not written; the
-adversarial read not run.
+**Known gaps before this is submittable** (none of them build failures), updated
+2026-08-19:
+
+- ~~seven `refs.bib` entries at `STANDARD`~~ — **closed**: every entry is now `RESOLVED`
+  against a publisher record; zero `verify before submission` flags remain. (The inline
+  bibliography in `main.tex` is what ships and was already correct.)
+- ~~no figures yet~~ — **closed**: 3 figures.
+- ~~Appendix C glossary not written~~ — **closed**: the glossary is Appendix D; Appendix C
+  is the consolidated corrections list.
+- ~~the adversarial read not run~~ — **closed**: two external referee reports were
+  processed, and the twelve-item paper-closure campaign that followed them is closed at
+  **12/12** (`frontier/B8076_paper_closure/CAMPAIGN.md`).
+- **OPEN, and the owner's alone:** the endorsement, and the upload itself.

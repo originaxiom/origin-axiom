@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-Appendix B -- the rung spectrum is an UPPER BOUND, not an attained set.
+Appendix B -- the rung spectrum: the CONTAINMENT, and what a SAMPLE of the lattice sees.
+
+COMPANION: check_rung_attained.py proves the containment is TIGHT -- every one of the
+eleven values is attained -- by replacing the sample below with a structural enumeration.
+Read the two together; this one alone understates the result.
 
 ## WHY THIS SCRIPT EXISTS
 
@@ -291,8 +295,11 @@ def main():
     check("the theorem's stated upper bound", [v for v in AMBIENT if v >= dzC],
           [12, 14, 16, 18, 20, 26, 28, 30, 36, 46, 78])
     print("      NOTE: an earlier draft called the fourteen ambient values ATTAINED.")
-    print("      They are an upper bound.  6, 8 and 10 are impossible; of the rest only")
-    print("      12, 30 and 78 were observed here.  See Remark (spectrum scope).")
+    print("      6, 8 and 10 are impossible.  The remaining eleven ARE attained, but not")
+    print("      by anything this script can see: over the 16 coordinate subsets only")
+    print("      12, 30 and 78 appear, because the other eight values live on proper")
+    print("      subvarieties that no sample of rational directions reaches.  The")
+    print("      enumeration is in check_rung_attained.py.  See Remark (spectrum scope).")
 
     print()
     if FAILURES:

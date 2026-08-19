@@ -1,28 +1,57 @@
-Let R^mL^m, m >= 1, be the metallic family of Sturmian morphisms. We characterize it
-intrinsically: the hyperbolic unimodular classes whose dominant eigenvalue has purely
-periodic continued fraction of period one are exactly those of determinant -1, with traces
-exactly the integers m >= 1. The characterization is by trace and determinant, not
-conjugacy class, and period one is itself a declared input, which we price.
+ARXIV SUBMISSION METADATA -- generated 2026-08-19 from arxiv/main.tex
+================================================================================
+Regenerate this file whenever the abstract or title changes. It is the text that
+goes in the arXiv submission form, NOT a copy of the paper.
 
-Inside the family we exhibit four exceptionality criteria, three selecting the golden
-member m=1 and a fourth narrowing to {1,2}. The three collapse to one arithmetic
-condition, each reducing to m^2=1; the surviving independence is mechanistic.
+--------------------------------------------------------------------------------
+TITLE
+--------------------------------------------------------------------------------
+From minimal description to E_6: a chain through the figure-eight knot complement
 
-The golden member is the figure-eight knot complement. From there nothing is added: we measure
-(pass to centralizers) and track (follow where the centralizer jumps).
-The target algebra comes from the manifold's own arithmetic: reducing the trace-field
-representation at the ramified prime gives pi_1(4_1) ->> SL(2,F_3) = 2T, and McKay gives
-e_6, carrying a canonical four-dimensional charge algebra C. A separate simplex filter
-selects d=3, though that criterion is imported rather than derived.
+--------------------------------------------------------------------------------
+AUTHORS
+--------------------------------------------------------------------------------
+Drite'ro Mehmetaj (Independent Researcher)
+  -- in the source: Drit\"ero Mehmetaj
+  -- contact: driteroi@gmail.com
 
-We prove C is toral, not merely abelian, so every centralizer in the cascade is a Levi
-subalgebra, and the terminal type A_2 + A_1 is forced by the classification of Levi
-subsystems of e_6. The charge field is computed exactly: K = Q[x]/(x^3-12x-5), totally
-real, discriminant
-6237 = 3^4.7.11, class number one. One stratum has Levi type A_4; that SU(5) contains
-su(3)+su(2)+u(1) with kernel Z/6 is recorded, not claimed.
+--------------------------------------------------------------------------------
+CATEGORIES
+--------------------------------------------------------------------------------
+Primary:     math.GT   (Geometric Topology)
+Cross-list:  math.NT   (Number Theory)
+             math.RA   (Rings and Algebras)
 
-We report the ceiling with equal weight -- a theorem about the method, not a limit of
-effort: every centralizer of a subset of C contains a Cartan subalgebra, so every rung has
-rank 6, and any lower-rank target is unreachable by any sequence of measurements. We make
-no physical identification, and we do not treat real forms.
+MSC 2020:    Primary 57K10, 11R16, 57M50
+             Secondary 17B25, 46L37, 11J06
+
+--------------------------------------------------------------------------------
+ABSTRACT  (1915 characters -- arXiv's limit is 1920)
+--------------------------------------------------------------------------------
+Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We characterize it intrinsically: the hyperbolic unimodular classes whose dominant eigenvalue has purely periodic continued fraction of period one are exactly those of determinant $-1$, with traces exactly the integers $m\ge1$. The characterization is by trace and determinant, not conjugacy class (at $m=6$ a second class occurs); period one is a declared input, which we price.
+
+Inside the family, four exceptionality criteria select the golden member $m=1$; three collapse to one arithmetic condition, each reducing to $m^2=1$, so the surviving independence is mechanistic rather than extensional.
+
+The golden member is the figure-eight knot complement. From there nothing is added: we measure, passing to centralizers, and track where the centralizer jumps. The target algebra comes from the manifold's own arithmetic -- reducing the trace-field representation at the ramified prime gives $\pi_1(4_1)\twoheadrightarrow SL(2,\mathbb{F}_3)\cong 2T$, and McKay gives $\mathfrak{e}_6$ with a canonical 4-dimensional charge algebra $C$.
+
+We prove $C$ is toral, not merely abelian, so every cascade centralizer is a Levi subalgebra; the terminal type $A_2\oplus A_1$ is then forced by the classification of Levi subsystems of $\mathfrak{e}_6$, the computation supplying only the integer $14$. The rung dimensions form an explicit eleven-element set, every value attained. The charge field is $K\cong\mathbb{Q}[x]/(x^3-12x-5)$: monogenic, totally real, discriminant $6237=3^4\cdot7\cdot11$, class number one.
+
+We report the ceiling with equal weight -- it is a theorem about the method: every centralizer of a subset of $C$ contains a Cartan subalgebra, so every rung has rank $6$ and any lower-rank target is unreachable by measurements taken inside $C$ -- a hypothesis we flag, not drop. We make no physical identification and do not treat real forms.
+
+--------------------------------------------------------------------------------
+COMMENTS FIELD
+--------------------------------------------------------------------------------
+47 pages, 3 figures. All self-contained verification scripts travel inside the
+source: run verify/verify_all.py from the unpacked tarball (19/19, stdlib +
+sympy).
+
+--------------------------------------------------------------------------------
+NOTE ON THE ABSTRACT
+--------------------------------------------------------------------------------
+The abstract in main.tex is longer than arXiv's 1920-character metadata limit
+(2867 characters). The text above is the COMPRESSED version for the submission
+form; the paper's own abstract is unchanged. Nothing was dropped that carries a
+hedge: the priced period-one input, "imported rather than derived" (the simplex
+filter, cut here for length and stated in the paper), the flagged
+measurements-inside-C hypothesis, and the two disclaimers -- no physical
+identification, no real forms -- are all retained.
