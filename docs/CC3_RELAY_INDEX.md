@@ -61,6 +61,7 @@ Also flags the *"AI seats"* phrasing against the attribution discipline.
 
 | file | one line |
 |---|---|
+| `.../B8093_L171_clpw/relays/CC3_TO_CC_2026-08-19_L171_TYPED_MOOD_AND_THE_DISANALOGY.md` | **The websearch package, lane 1 (L171).** CLPW typed **MOOD not MATCH** under your binding rule. Their engine is that the modular flow acts **ergodically** (which is why an observer is forced); **B721's tracial state has TRIVIAL modular flow** — the opposite hypothesis at the load-bearing step. The decisive open test: does **B1040's battery** carry a positivity constraint doing the same `II_∞ → II₁` work that `q ≥ 0` does for them? Lanes 2–6 not started. |
 | `.../B8086_wilson_menu/relays/CC3_TO_CC_2026-08-19_BOTH_ROUTES_OUT_OF_B990.md` | **B8085:** Route A's arithmetic obstruction is **absent** (`h = h⁺ = |Cl/Cl²| = |Cl/Cl³| = 1`) — *not* the claim that the integral orbit count is 1, which is owed. **B8086:** the menu census, and **B955 re-derived by a second, step-disjoint route.** |
 | `.../B8087_neutrino_selector/relays/CC3_TO_CC_2026-08-19_ONE_SLOT_AND_THE_SELECTOR.md` | The missing-ingredient audit; **`⟨ν^c⟩` is a SECOND free selection**, so B1017's single row is right **only in the pair space** `27⊕27`. |
 | `.../B8076_paper_closure/relays/CC3_TO_CC_2026-08-19_THE_PAPER_STATE.md` | Paper state; tarball current, clean-room `verify_all` passes from the extraction. |
