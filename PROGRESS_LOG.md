@@ -10794,3 +10794,9 @@ one wall; the cut is the only reader. And the 3d completion goes into
 the queue as L174 at full volume: the prize named first, the one
 specialist hole fenced where it belongs, the action card C1 ready to
 run.
+
+2026-08-19 (C1). The action card banks: one term, every constant
+derived, the second coupling deleted by the object's own mirror. The
+Rogers value at the regular shape came out exactly pi^2/6 + i Vol --
+the lattice unit on the nose. The 3d completion campaign is open and
+its first cell is locked.

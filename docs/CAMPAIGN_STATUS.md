@@ -16,6 +16,12 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19, B1088 = L174's C1)**: THE PARAMETER-FREE ACTION
+CARD locked -- S = -Vol sigma (CS = 0 by the object's own mirror;
+exact lattice-unit identity), c = 6 sigma derived twice, zero free
+dimensionless constants, sigma = the ledger's one priced unit. The 3d
+completion campaign is OPEN; C2 (Z-bridge) next.
+
 **LATEST (2026-08-19 handoff wave, B1083-B1086 + B1087 computing)**: the
 outside bench verified (16/16 certs + 3 commissioned own-code rebuilds +
 their referee PASS on the paper); the arrow re-typed OUT of the origin

@@ -1,5 +1,25 @@
 # Changelog
 
+## B1088 THE PARAMETER-FREE ACTION CARD (2026-08-19, L174's C1 — the 3d completion opens)
+
+The 3d theory's line one, locked: S = -Vol sigma on the object's own
+exact Lambda = -1 Einstein solution -- THE OBJECT'S OWN SYMMETRY
+DELETES THE k-COUPLING (CS(m004) = 0 by amphichirality; the computed
+witness is B1086's mirror = Galois identity; verified at 50 digits AND
+exactly: 2 R(e^{i pi/3}) = pi^2/6 + i Vol -- the CS part is ONE
+lattice unit precisely, a small exact gem). Vol recomputed from first
+principles (two regular ideal tetrahedra, Lobachevsky/Clausen) to a
+28-digit match with the banked complex-volume figure. c = 6 sigma now
+derived TWICE: B1012's three-entry closure and, independently,
+Brown-Henneaux c = 3l/(2 G_N) at G_N = 1/(4 sigma), l = 1 -- exact
+symbolic identity. THE CLAIM MADE PRECISE: zero free dimensionless
+constants; the single scale sigma is the input ledger's one priced
+unit (the R+ closing), fenced by B1015 and the ray's
+non-normalisability. Next: C2 the partition-function bridge, C3 the
+matter assembly, C4 the observer card, C5 the sharpened arithmetic-CS
+question (CS = 0, so the VOLUME term's arithmetic analogue is the
+whole question).
+
 ## B1083-B1086 + the outside-bench handoff verified and banked (2026-08-19, the handoff wave) — the arrow leaves the torsor; the G2 hole fills; the free half is edge-observable; L79 CLOSES
 
 THE OUTSIDE BENCH'S HANDOFF (an independent hostile-verification session;
