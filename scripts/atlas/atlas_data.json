@@ -18504,6 +18504,21 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B8093": {
+   "slug": "L171 clpw",
+   "motifs": [
+    "trace_map",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B721",
+    "L171"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "quantum"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [
