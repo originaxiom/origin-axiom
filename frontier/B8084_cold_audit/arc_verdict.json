@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "THE COLD AUDIT (owner-routed; this seat had no hand in the audited computations). IN PROGRESS. B1075 AUDITED CLEAN ON BOTH QUESTIONS: its exclusion arithmetic is exact from the pinned NuFIT 6.1 boxes -- 1/2 sits 5.08 sigma below |Ue2|'s 3-sigma edge, 1/(2phi) is 0.1535 from the nearest e-row edge, and the mu/tau union 0.55 gives 1-(1-0.55)^2 = 0.7975, their 'about 0.80' -- and, more importantly, its DESIGN IS FAIR: the exclusion-capable e-row boxes have measure 0.0737, so a hit was reachable at about 14% under the null. A negative-biased design puts that near 0 and a positive-biased one near 1; 14% is winnable and worth winning. The grading that looks pessimistic is the opposite: six landings in the delta-free mu/tau boxes were graded BELOW success precisely because that sector happens 80% of the time by chance, which is required rather than pessimistic, and the arc printed the disqualifying number rather than omitting the hit shape. NO NEGATIVE BIAS FOUND ON THIS ARC. THE ONE STANDING FINDING IS ABOUT THE REQUEST ITSELF: its premise 'after four sealed crossings missed' is contradicted by B929_third_crossing, which is PROVED -- 'TIER 1 PASS' on a blind triple computed with zero flavour input, prereg pushed before data contact -- and is neither retracted nor superseded. The crossing machinery can emit a positive because it did; a summary counting a standing pass as a miss is the same failure mode as a one-way gate, appearing in the document that commissioned the search for one. CONTEXT AGAINST A GLOBAL NEGATIVE THUMB: over 400 banked verdicts on main, PROVED 66.2% / NEGATIVE 30.2% / OPEN 2.8% / RETRACTED 0.8%. NOT YET AUDITED: B1074's parity law and frame-blind W3; B1076's 864/413 and 6912/3047 gauges, which is cc's own stated priority and is NOT PUSHED (absent from every remote branch); the cell prompts; and the kill graph's asymmetry -- 754 entries, no positive register, 167 unrouted-unclassified. Gate 5 untouched.",
+ "depends_on": [
+  "B1075",
+  "B1074",
+  "B929"
+ ],
+ "id": "B8084",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "OPEN"
+}
