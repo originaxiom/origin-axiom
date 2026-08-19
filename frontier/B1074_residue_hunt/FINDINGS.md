@@ -54,3 +54,24 @@ a block Gram can hide line-level cancellation).
 
 ## Artifacts
 - `b1074_results.json` — the three agents' returns verbatim (scrubbed).
+
+---
+
+## AMENDMENT 2026-08-19 (same day; the owner's press, and it was a catch) — "cannot seal" narrowed to its true scope
+
+The design-record paragraph above ruled the fourth crossing's value-form "CANNOT SEAL
+under R1 + R5." **That ruling over-reached, and the owner caught it.** The over-reach:
+a row-global reading of consumption (once the tones row touched any target, dead
+everywhere) that this bench had written into the consumption ledger one day earlier —
+against the BANKED precedent language (B1066's own FINDINGS: *"any re-pose is a new
+arc under a new seal against then-current data"*) and against the dual protocol's own
+warning that **an unearned negative is as bad as numerology**. What is actually true:
+the probability and phase PAIRINGS are spent; tone-vs-sin²θ is spent; bare Im has no
+rephasing-invariant partner — but **the kind table's own admissible pairing
+coupling → moduli (|tone| ↔ |V_ij|) has never been contacted**, and B856's celebrated
+kind-refutation killed the category-WRONG pairing, not this one. The one-shot rule
+spends pairings under seals, not rows forever. Corrected in place: the consumption
+ledger's reading note; the fourth crossing seals on the moduli lane with the
+second-shot status PRICED (R7), the searched-ground history DISCLOSED (R1), and the
+R6 budget deciding powered-or-not before any look — B1075's preregistration. The
+frame/coboundary mathematics of this arc is untouched by this amendment.

@@ -282,3 +282,16 @@ B993 explains why it is hard rather than merely unattempted.
   trigger). Under the type law (B1032) it was aimed at the right TYPE (a finite
   label) through the right CHANNEL (the coupling) — the first crossing attempt whose
   design the field exploration retroactively endorses.
+
+## CURRENCY ADDENDUM — 2026-08-19 (B1043–B1074): the read at the crossing's seal
+
+Since B1042: the field masterplan (B1067–B1069), the 77-echo closed to B882's conjecture,
+THE LISTENER DERIVED AND SEALED (B1070/B1071 — u3/u6 the unique Galois-fixed vertex pair;
+the crossing's one unknown became a theorem), the composition gate (B1073 — being decides
+whether, hearing decides what), the silver transplant (B1072 — the rule field-generic, the
+selectivity object-specific), and the residue hunt (B1074 — the vacuum block frame-blind;
+the hierarchy coboundary-carried, invisible to H¹). The SM verdict's frame is unchanged:
+structure delivered, values gated. What changed: the value gate's fourth sealed attempt
+(B1075, the moduli crossing — the kind table's own admissible pairing, never before
+contacted) seals with this read — MISS expected and informative either way, per its own
+declared prior. This document reports the outcome when it exists.

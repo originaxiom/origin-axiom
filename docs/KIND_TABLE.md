@@ -101,3 +101,10 @@ AFTER a constructed Λ pins u from field data (AC2's redaction test; never a fit
 mirror row is where AC4′'s discriminating territory sits (the Track-A A3 landscape): the
 crossing's designed shape is Λ → u → the mirror-sector prediction → this row's one shot,
 with zero anchors consumed (R11's open lane).
+
+**Reading note (2026-08-19, the owner's catch):** the consumption ledger above books
+CONTACT PAIRINGS under seals, not rows-forever — B1066's own language ("any re-pose is a
+new arc under a new seal") governs. The tones row's sin²θ pairing is spent; its
+kind-correct moduli pairing (K2's own admissible row) had never been contacted and seals
+as B1075 with the second-shot status priced. An unearned negative is as bad as
+numerology — the dual protocol's words, applied to this table's own reading.
