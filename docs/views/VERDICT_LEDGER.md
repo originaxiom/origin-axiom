@@ -5,7 +5,7 @@
 
 # Arc verdict ledger (generated)
 
-964 of 977 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+965 of 978 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
 ## PROVED (639)

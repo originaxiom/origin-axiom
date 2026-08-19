@@ -1,5 +1,41 @@
 # Changelog
 
+## B1074 (2026-08-19) — the residue hunt: the vacuum block is frame-blind, the parity law is exact, and THE HIERARCHY LIVES IN A COBOUNDARY DIRECTION the frame group never sees
+
+The owner's door-3 election after the crossing-design ruling (recorded in
+this arc: R1 PARTIAL — the Re-channel spent, the Im-channel
+kind-partnerless; the kind adjudication closing every coupling lane; the
+fourth crossing's value-comparison form CANNOT SEAL under R1+R5 — the
+register working as designed). The hunt (3 staged agents, adversarial
+check HOLDS after re-running B936's 92 internal checks): the four
+canonical frames assembled for the first time — G = H^1 = (Z/2)^2 as
+{I, D_c, D, D_cD}, conjugation = D_c cross-identified three ways, the
+D2D-vs-D_cD one-character naming trap flagged — and two exact theorems:
+THE FRAME-BLIND VACUUM BLOCK (the Hermitian pairing on the 3-dim vacuum
+charge block is literally the same rational matrix for every canonical
+frame; W3's 9-index support meets zero canonical sign-flips; the D2/D2D
+controls break it into Q(sqrt3129) — a different kind of object) and THE
+PARITY LAW (det-ratio_27 = (-1)^flips, exhaustive over all sixteen
+Hermitian structures, block-orthogonally factorized on G). BUT the
+reopening condition is NOT met: every value-bearing functional is either
+one pure sign character with ZERO invariant Fourier content or uncomputed
+at the canonical frames — and the hierarchy content (lambda, CCC, HIER,
+v_g^2, the flip masses) is banked only at (I, D2), where D2's class is
+(0,0): A COBOUNDARY PARTNER OF I. The hierarchy is carried by a
+coboundary direction invisible to H^1; the canonical frames all see the
+degenerate (x+3)^3. The frame-relativity blocking the mass lane is the
+within-class coboundary choice, not G-relativity. The lane STAYS CLOSED;
+the deciding computation is named and registered: the atom-line H-norm
+pipeline swept across the class-(0,0) coboundary coset. Also this bank:
+B1073's addendum (the composition law is CHANNEL-SPECIFIC — chi pulls
+out, rho_3 mixes; the web seat's even-gate negative; the forced-value law
+that DOES transfer) and THE SILENT-WORDS LAW registered (the 26-word
+vanishing locus is identical across channels AND listeners — bench-
+verified at three listeners, 254 words exact; the sampled mechanism:
+silent = trace-zero in the full 6-dim rep; the full biconditional the
+registered cheap check).
+
+
 ## B1072 + B1073 (2026-08-19) — AC3 fills (the transplant's third shape) and AC6's odd half closes by law (the composition gate)
 
 B1072 THE SILVER INSTRUMENT: SU(4)_2 built exactly (Sigma.Sigma-dagger =

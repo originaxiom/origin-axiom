@@ -16,6 +16,22 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 third bank, B1074 — THE HIERARCHY IS COBOUNDARY-CARRIED;
+the crossing's value-form cannot seal, and the register held):** the design
+record closed (R1 PARTIAL: Re spent, Im kind-partnerless; every coupling
+lane consumed or disguised; the fourth crossing's value-comparison CANNOT
+SEAL under R1+R5). Door 3's hunt: the four canonical frames assembled
+(conjugation = D_c; the D2D≠D_cD trap flagged), the vacuum block proven
+FRAME-BLIND (the same rational Gram for every canonical frame), the parity
+law det₂₇ = (−1)^flips exact over all sixteen structures — but the
+hierarchy content lives at (I, D2) and **D2 is a coboundary partner of I,
+invisible to H¹**: the mass lane stays closed, its deciding computation
+named (the atom-line pipeline across the coboundary coset). B1073 gains
+the channel-specificity addendum + the silent-words law (26 words,
+channel- and listener-independent, trace-zero mechanism sampled). The
+value frontier: three named doors (the coboundary sweep, L154, B882) —
+all computations.
+
 **LATEST (2026-08-19 second bank, B1072 + B1073 — AC3 FILLED, AC6's ODD
 HALF CLOSED BY LAW):** the silver instrument (SU(4)₂ exact; the group
 18432, Goursat-subdirect, no order-5; ℂP² odd sector, five exceptional

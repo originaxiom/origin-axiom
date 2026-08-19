@@ -1659,6 +1659,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1074": {
+   "slug": "residue hunt",
+   "motifs": [
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B743",
+    "B856",
+    "B923",
+    "B936",
+    "B939"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B107": {
    "slug": "physics connection audit",
    "motifs": [

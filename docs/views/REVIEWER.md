@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **977** |
-| words of findings prose | **666,902** |
+| research arcs with findings | **978** |
+| words of findings prose | **667,752** |
 | test lock files referenced | **602** |
-| arcs carrying an authored verdict | **964** (98.7 %) |
+| arcs carrying an authored verdict | **965** (98.7 %) |
 | recorded closures | **753** (586 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1073`** (759 words, 0 locks)  
+**PROVED — `B1073`** (1013 words, 0 locks)  
 THE COMPOSITION GATE (the web seat's theorem 2026-08-15, bench-closed 2026-08-19 to a two-line law; convergent-independent with Track A, the web seat's timestamp prior on the word-level form, relay latency the cause; B641 the mechanism's origin): on the theta-odd plane h(w) = chi(w) * W(w)_11 with chi the mu_3 homomorphism (chi(R) = omega, chi(L) = omega^-1) and W's entries NEVER leaving Q(zeta_5) -- proved unconditional on this bench by the generator check (det R_odd = omega^2, det L_odd = omega; both W-generators entrywise fixed by the full Gal(Q(zeta_60)/Q(zeta_5)), so the field membership closes multiplicatively for every word) -- hence h(w) in Q(zeta_5) iff p - q = 0 mod 3 or h = 0: THE BEING END DECIDES WHETHER (a mu_3 phase, no magnitude), THE HEARING END DECIDES WHAT (the entire magnitude, no gate); their census 510/510 at length <= 8 (with the honest h = 0 repair), this bench 126/126 at length <= 6 independently. THE SCOPE QUALIFIER, binding: every hearing-only result derived on the balanced family R^m L^m is a theorem about zeta_3^0, not about the being end's absence (p = q makes the phase identically trivial -- the instrument's window). THE CROSSING CONSEQUENCE: AC6's odd channel closes BY LAW (every coupling value at the derived pair is Q(zeta_5)-algebraic; no generic real can appear); the even sector remains (the web seat's theta-even analogue running; A3's exact spectra wait as cross-check). Riders: R-INV closed (three routes, one decomposition, the shared blind spot named); the method law credited -- scope-test the results you're most confident in.  
 `B1073_composition_gate/FINDINGS.md`
 

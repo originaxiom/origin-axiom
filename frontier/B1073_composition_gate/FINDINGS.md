@@ -69,3 +69,25 @@ remaining work is the even sector (the T_m values; the web seat's θ-even analog
 - The web seat's same handoff carries: a B933 correction owed (J COMMUTES with the 3d
   Dirac operator — quaternionic structure; separately registered, not this arc), and
   paper-review items on the paper lane (routed by the owner, not banked here).
+
+---
+
+## ADDENDUM 2026-08-19 — the law is CHANNEL-SPECIFIC (the web seat's even-gate negative), and the silent words
+
+The θ-even analogue (the web seat's run, their own two build bugs caught and repaired
+before reporting): the odd gate re-verified 254/254; **the even channel fails the gate
+exactly on the balanced words** (202/254). The structural reason, stated as sharply as
+the theorem: **χ is a character, so the being end pulls out of the odd channel as a
+phase; ρ₃ is a 2-dimensional irrep, so the being end enters the even channel as a
+matrix — and a matrix has nothing to factor out of.** The forced-VALUE law does
+transfer (even forced value = ½tr A · ½tr B — theirs, verified); the FIELD gate does
+not: forcedness and field-membership collapse into one question only in the odd
+channel. **AC6 is therefore closed by law on the odd channel and by direct typing on
+the even — exactly as scoped.** THE SILENT WORDS (their flag, this bench's
+strengthening): the h = 0 locus is the SAME 26 words (length ≤ 7) in the odd channel
+and at two different even listeners — 254 words, exact, three functionals, identical
+sets; the sampled mechanism: the silent words are trace-zero in the full 6-dim
+representation (6/6 silent samples traceless, 3/3 controls not). The full biconditional
+(silent ⟺ tr₆ = 0, all 254) is the registered cheap check; if it holds the family has
+its fourth statement, jointly the web seat's (the flag) and this bench's (set-identity
++ mechanism).

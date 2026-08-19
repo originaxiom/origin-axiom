@@ -10667,3 +10667,18 @@ verbatim scope qualifier; AC6's odd channel now closes by field law. The
 crossing's remaining gates: AC6's even half (the theta-even run on the
 web seat's bench; A3's exact spectra waiting as cross-check) and R1's
 outside-atlas sweep, then the prereg summary to the owner.
+
+## 2026-08-19 (third bank) — B1074 + the channel-specificity addendum
+
+Door 3's answer, honest: the residue that exists is structural (the
+frame-blind vacuum block; the exact parity law over all sixteen
+structures; the ordered-signature sharpening), the residue the lane needs
+is value-bearing — and the value content sits at (I, D2) where D2 is a
+COBOUNDARY partner of I, invisible to the frame group. The mass lane
+stays closed with its deciding computation named (the atom-line pipeline
+across the coboundary coset). The crossing-design record closes in the
+same arc. B1073 gains the channel-specificity addendum (the web seat's
+even negative; the silent-words law with the trace-zero mechanism
+sampled). The value-frontier's honest state after this bank: no licensed
+contact exists; three named doors remain (the coboundary sweep, L154's
+sigma-conversion, B882) — all computations, none numerology.
