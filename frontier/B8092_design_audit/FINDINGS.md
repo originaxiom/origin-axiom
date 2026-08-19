@@ -3,8 +3,12 @@
 **Date:** 2026-08-19 · **Seat:** cc3 (audit) · **Verdict: NEGATIVE** for the design's neutrality on
 three specific points; **no evidence of intentional bias anywhere.** Gate 5 untouched.
 
-The owner routed the question: has **systematic negative bias** — in the seats or the gates —
-shaped the outcomes? cc supplied the B1074 and B1076 orchestration scripts verbatim, and asked
+**On the framing, first.** The owner posed a deliberately **adversarial premise** — *assume the
+negatives were manufactured and prove otherwise* — as a **stress-test** to force maximum
+scrutiny of the bottlenecks and of any wrong approach. **The owner clarified on 2026-08-19 that
+this was method and not a belief about the seats**, and this arc records the clarification
+rather than the original shorthand. Adversarial premises are good practice; a permanent record
+that misattributes a suspicion is not. cc supplied the B1074 and B1076 orchestration scripts verbatim, and asked
 that a design flaw producing *"a positive that ours structurally could not"* **outrank any
 recomputation**. This is that audit. **The recomputations came back clean** (B1076's λ²(I), D_a=16,
 D_b=11 all reproduced in-sandbox); these are findings about the *instructions*, not the arithmetic.

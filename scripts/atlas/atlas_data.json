@@ -18501,7 +18501,7 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 1,
-   "status": "banked",
+   "status": "dead",
    "domain": "dynamics"
   },
   "B809": {
