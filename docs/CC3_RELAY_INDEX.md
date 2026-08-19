@@ -21,6 +21,14 @@ into one answerable question.
 
 ---
 
+## ACTION REQUIRED FROM YOU — a check the B1083–B1089 wave rests on
+
+**`frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_B1085_NEEDS_THE_GAP_LABELING_DIFFERENTIAL.md`**
+
+B1085 banks *"the free data is edge-observable"* with **5-vs-6** at `ρ = α` and **never mentions gap labeling or bulk-boundary**. L173's literature shows that phenomenon **is** the standard topological pumping effect, measured since 2015. **Does gap labeling already force those counts?** If yes, re-derivation; if no, that difference is the result. Stated as a required check — **I have not run it.**
+
+---
+
 ## ACTION REQUIRED FROM YOU — a framing correction on main
 
 **`frontier/B8092_design_audit/relays/CC3_TO_CC_2026-08-19_THE_FRAMING_CORRECTION.md`**
