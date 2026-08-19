@@ -1471,6 +1471,11 @@ that it is not chosen is \S\ref{sec:planeforced}.
 Of the $43$ links in the full chain, $26$ are theorems, $6$ exact identities, $5$ no-go
 results, $1$ a corollary and $1$ a census, and \textbf{$4$ are axioms}. Those six figures
 sum to $43$, and \textbf{that is the only count this paper takes from the ledger}.
+\textbf{The ledger now travels with the source}: \fn{verify/chain\_\allowbreak links.md}
+carries one row per link with its label, and \fn{verify/check\_\allowbreak census.py}
+recomputes the six figures and the axiom positions $C3$, $C4$, $C5$, $C18$ from it. An
+earlier version of this census counted a ledger a referee could not see, which is not a
+defensible thing to do in a paper about verifiability.
 
 \textbf{A count of links is not a count of stipulations}, and the declared choices this paper prices are \emph{not} in bijection with the ledger's
 axiom links. The principal placement (Scope~\ref{sc:principal}) is a stipulation and
@@ -1677,6 +1682,14 @@ and is therefore contained in a Cartan subalgebra of $\g$.
 \end{lemma}
 
 \begin{proof}
+\textbf{The statement is classical and we claim no priority for it.} That $\g^\Gamma$ is
+\emph{reductive} for $\Gamma$ finite in characteristic $0$ is due to Borel and
+Mostow~\cite{BorelMostow}, and a reductive abelian subalgebra of a semisimple Lie algebra
+is toral. We give the argument anyway because it is short, because it is where an earlier
+draft of this paper went wrong---step (i) previously asserted that distinct isotypic
+components are Killing-orthogonal, which is false---and because the reader should be able
+to check the step the rest of the paper leans on without leaving the page.
+
 Write $C=\g^\Gamma$ and let $K$ be the Killing form.
 
 \emph{(i) $K|_C$ is nondegenerate.} Write $\g=C\oplus C'$ with $C'$ the sum of the
@@ -3083,6 +3096,7 @@ Scope~\ref{sc:assembly} (the entrance), Lem~\ref{lem:quat} & \fn{verify/check\_\
 Prop~\ref{prop:2880}, Thm~\ref{thm:coupling}, Scope~\ref{sc:2880} & \fn{verify/check\_\allowbreak rho.py} & $\rho$ \textbf{built} from the Kac--Peterson data and checked against the four modular relations; $|{\rm im}\,\rho|=2880$; the $\theta$-blocks $4{+}2$ and the odd block's $360$; the $63$-class match\\
 Prop~\ref{prop:geodir}, Scope~\ref{sc:geodirscope} & \fn{verify/check\_\allowbreak geodir.py} & twisted $H^1$ by Fox calculus, block by block under the principal-$\sll_2$ decomposition: $1$ in each of the six exponent blocks, so $\dim H^1=6$ and the $1{+}5$ split (\emph{not} unobstructedness)\\
 Lem~\ref{lem:positivity} & \fn{verify/check\_\allowbreak positivity.py} & all $2026$ positive words of length $\le10$: $241$ cyclic classes, $241$ conjugacy invariants, no collisions, by the complete Latimer--MacDuffee invariant\\
+Census~\ref{cen:forced} & \fn{verify/check\_\allowbreak census.py} & the $43$ links with their labels, deposited in \fn{verify/chain\_\allowbreak links.md}: the six figures, their sum, and the axioms at $C3,C4,C5,C18$\\
 \midrule
 \multicolumn{3}{@{}l}{\textbf{(b) requires the repository snapshot}}\\
 \midrule
@@ -3274,6 +3288,9 @@ variety.
 
 \bibitem{Reid91} A.~W. Reid, \emph{Arithmeticity of knot complements},
   J. London Math. Soc. (2) \textbf{43} (1991), 171--184.
+
+\bibitem{BorelMostow} A. Borel and G.~D. Mostow, \emph{On semi-simple automorphisms of
+  Lie algebras}, Ann. of Math. (2) \textbf{61} (1955), 389--405.
 
 \bibitem{BdS} A. Borel and J. de Siebenthal, \emph{Les sous-groupes ferm\'es de rang
   maximum des groupes de Lie clos}, Comment. Math. Helv. \textbf{23} (1949), 200--221.

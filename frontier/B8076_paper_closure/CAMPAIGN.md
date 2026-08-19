@@ -4,6 +4,8 @@
 `tests/test_b8076_paper_closure.py`, which fails if an item is deleted, given a status outside the
 four, or marked `GREEN` without an evidence path that exists on disk.
 
+**ALL TWELVE ITEMS ARE GREEN** *(2026-08-19)*.
+
 **Statuses:** `GREEN` (closed, evidence path recorded) · `OPEN` (not yet worked) · `BLOCKED`
 (worked, cannot close — obstruction named) · `WITHDRAWN` (item was wrong — reason recorded).
 **`BLOCKED` and `WITHDRAWN` are legitimate closures. Silently leaving the list is not.**
@@ -23,9 +25,9 @@ four, or marked `GREEN` without an evidence path that exists on disk.
 | 7 | **Prop geodir** — 6-dimensional unobstructed moduli, `1+5` split. No proof, no citation, and load-bearing for C6's retyping | a genuine `H¹` / obstruction-theory computation — **or** accept `BLOCKED` and leave C6 a fully priced choice | algebra | **GREEN** | `frontier/B8082_geodir_h1/geodir_h1.py`, shipped as `papers/structure_paper/verify/check_geodir.py`. **The `H¹` half is computed**, which is exactly what `sc:geodirscope` said the paper does not do. `ρ₀` factors through `SL(2)`, so `𝔢₆` splits by principal-`𝔰𝔩₂` exponent into `Sym^{2m}` of dims `3+9+11+15+17+23 = 78`; Fox calculus on the one-relator presentation gives **`dim H¹ = 1` in every block**, `H⁰ = 0` throughout, hence **6** and the **1+5** split, with the exponent-1 block `Sym²(V₂)` = the adjoint of `𝔰𝔩₂`. Control: the parabolic pair satisfies the relator iff `t²−t+1 = 0`, putting the trace field at `ℚ(√−3)`. **Refinement the paper now carries:** `m = 2,3,6` are *not* `E₆` exponents and also give 1, so the six is the **number** of exponents and the split is a way of counting, not a discovery. **Residue, named:** *unobstructedness* is **not** computed — `dim H² = 6`, so no dimension count settles it. **C6 is unchanged and still fully priced** |
 | 8 | **Order 2880 / 63-of-63 characters** — block (b), undeposited | deposit the character comparison | faces | **GREEN** | closed by **B8081** — `papers/structure_paper/verify/check_rho.py` deposits both halves from a **built** `ρ`: the image order **2880** at four primes, and the **63-class** match of `(size, χ(A)trV₂(B), trV₂(A)trV₂(B))` against an independently constructed quaternion `2T×2I`. The block-(b) row that cited the repository-side McKay-tensor test is **retired as superseded**, so this moves into block (a) and travels inside the submitted source |
 | 9 | **Theorem 4.7's positivity step.** `GL(2,ℤ)`-conjugacy does **not** preserve word positivity; the block-sequence argument needs its bridging sentence | one lemma: why cyclic rotations of positive words suffice | axioms | **GREEN** | `frontier/B8083_positivity_bridge/positivity_bridge.py`, shipped as `papers/structure_paper/verify/check_positivity.py`, and **Lemma (positivity) is now stated and proved in the paper**, immediately before the step that uses it. On **positive** words `SL(2,ℤ)`-conjugacy **is** cyclic rotation, so a cyclic invariant is a complete conjugacy invariant. Checked with a **complete** invariant, not a bounded search for a conjugator: **2026** words → **241** cyclic classes → **241** conjugacy invariants (Latimer–MacDuffee form cycles), **zero collisions**. Control: `φ₁³` and `φ₄` at equal trace 18 come out **non-conjugate**, reproducing the paper's own warning by a different instrument. **Scope stated:** `SL(2,ℤ)` and positive words only — `GL(2,ℤ)`'s orientation-reversing elements do not preserve positivity |
-| 10 | **Lemma toral** — likely folklore (cf. Vinberg θ-group theory, fixed points of finite automorphisms). A literature pass is owed before any implicit priority | search; then cite, or record `APPEARS-NOVEL` in `docs/THEOREM_REGISTRY.md` | — (literature) | OPEN | — |
-| 11 | **Census 5.1 (43 links, 4 axioms)** — counts an external ledger that is not deposited. An unverifiable census in a paper about verifiability | deposit the ledger, or replace the count with what is checkable | axioms | OPEN | — |
-| 12 | **`refs.bib` — five `STANDARD` entries** flagged *"verify before submission"* (Hurwitz 1891, Slansky 1981, Georgi–Glashow 1974, McKay 1980, Conway–Smith 2003). `PRIOR_ART.md` calls this blocking | verify each against the actual source | — (bibliography) | OPEN | — |
+| 10 | **Lemma toral** — likely folklore (cf. Vinberg θ-group theory, fixed points of finite automorphisms). A literature pass is owed before any implicit priority | search; then cite, **or** record `APPEARS-NOVEL` in `docs/THEOREM_REGISTRY.md` | — (literature) | **GREEN** | `docs/THEOREM_REGISTRY.md` — **the pass says CITE, not novel.** `𝔤^Γ` is **reductive** for finite `Γ` in characteristic 0 by **Borel–Mostow, *On semi-simple automorphisms of Lie algebras*, Ann. of Math. (2) **61** (1955), 389–405**, and a reductive abelian subalgebra of a semisimple Lie algebra is toral — so the lemma is a classical theorem composed with a one-line step. The paper now carries the citation **and an explicit disclaimer of priority**; the registry row is filed under *(not novel)*. The self-contained proof is **kept**, because step (i) is exactly where an earlier draft erred |
+| 11 | **Census 5.1 (43 links, 4 axioms)** — counts an external ledger that is not deposited. An unverifiable census in a paper about verifiability | deposit the ledger, **or** replace the count with what is checkable | axioms | **GREEN** | **deposited.** `papers/structure_paper/verify/chain_links.md` carries **one row per link with its label**, extracted from the repository's chain ledger, and `papers/structure_paper/verify/check_census.py` recomputes the census from it: **43 links = 26 THEOREM + 6 IDENTITY + 5 NO-GO + 4 AXIOM + 1 CENSUS + 1 COROLLARY**, axioms at **C3, C4, C5, C18**, and **39 of 43** carrying no declared choice. The paper's six figures reproduce **exactly**. The script refuses to pass on an unparseable deposit — an empty parse is a failure, not a pass. **The census's own caveat is carried into the script:** a count of *links* is not a count of *stipulations*, and the principal placement is a stipulation and not a link, so no census over links can see it |
+| 12 | **`refs.bib` — five `STANDARD` entries** flagged *"verify before submission"* (Hurwitz 1891, Slansky 1981, Georgi–Glashow 1974, McKay 1980, Conway–Smith 2003). `papers/structure_paper/PRIOR_ART.md` calls this blocking | verify each against the actual source | — (bibliography) | **GREEN** | `papers/structure_paper/refs.bib` — **all five verified against publisher records and upgraded to `RESOLVED`; zero `verify before submission` flags remain.** Hurwitz: Math. Ann. **39**(2), 279–284 (1891), doi:10.1007/BF01206656. Slansky: Phys. Rep. **79**(1), 1–128 (1981), doi:10.1016/0370-1573(81)90092-2. Georgi–Glashow: PRL **32**(8), 438–441 (1974), doi:10.1103/PhysRevLett.32.438 — **and a correction: the canonical title hyphenates "Elementary-Particle" and the entry did not.** McKay: PSPUM **37**, 183–186, AMS, Providence RI, 1980 (conference UC Santa Cruz 1979) — publisher and address added. Conway–Smith: full subtitle, Natick MA, ISBN 1-56881-134-9. **Scope worth stating:** the paper ships an *inline* bibliography, not a `.bib` step, and the **shipped** entries were already correct — the defect was in the repository ledger. Slansky and Conway–Smith are not cited in the paper at all |
 
 ---
 
@@ -127,6 +129,33 @@ only and carries no authority)*
   63-class factorisation. Three campaign items have now moved a paper statement from *asserted* to
   *computed* (2, 3, 5) and one moved it from *asserted* to *refuted* (4); the difference each time
   was running the computation the paper described rather than trusting the description.
+- **2026-08-19** — **item 10 GREEN, and the answer is "cite", which is the outcome worth wanting.**
+  The item existed to stop an implicit priority claim, and the search settles it against us in the
+  useful direction: `𝔤^Γ` is reductive for finite `Γ` by **Borel–Mostow (1955)**, and a reductive
+  abelian subalgebra is toral — so Lemma (toral) is a classical theorem composed with one line. The
+  paper now cites it and **disclaims priority explicitly**, and the registry files it under *(not
+  novel)* rather than `APPEARS-NOVEL`. The proof stays in the paper, for one reason worth recording:
+  step (i) is where an earlier draft asserted that distinct isotypic components are
+  Killing-orthogonal, which is false. **A folklore result whose obvious proof is wrong is exactly
+  the kind a paper should still write out.**
+- **2026-08-19** — **item 12 GREEN, and the flagged file was not the shipped one.** All five
+  entries verified against publisher records and upgraded to RESOLVED with DOIs; zero
+  *"verify before submission"* flags remain. One real correction: Georgi–Glashow's canonical title
+  hyphenates **Elementary-Particle** and the entry did not — a mis-citation of a landmark paper's
+  title. But the distinction that matters for submission is this: **the paper ships an inline
+  bibliography, and its entries were already correct.** The defect lived in the repository's
+  ledger, and two of the five (Slansky, Conway–Smith) are not cited in the paper at all. Checking
+  where a flagged artifact actually reaches the reader is part of the check — `refs.bib` was
+  blocking by `PRIOR_ART.md`'s rule, and it was also not on the submission path.
+- **2026-08-19** — **item 11 GREEN, and the count was true all along.** The complaint was not that
+  the census was wrong but that it was **unverifiable** — it counted a ledger a referee could not
+  see, which is not a defensible thing to do in a paper whose subject is verifiability. Running the
+  repository's own census script reproduces the paper's six figures exactly, so the deposit was the
+  whole job: the 43 links now travel with the source, one row per link with its label, and a script
+  recomputes the figures and the axiom positions from the deposited file rather than from the repo.
+  Worth noting what was *not* done: the caveat that a count of links is not a count of stipulations
+  is carried **into the script's output**, not just the prose, because that is precisely the
+  confusion that produced the retracted 44.
 - **2026-08-19** — **item 9 GREEN.** The proof compared block sequences while the cited
   classification spoke of *conjugacy*, and those are different relations — the paper's own §4 warns
   that equal trace does not imply conjugacy. The missing sentence is a real lemma, and it is now

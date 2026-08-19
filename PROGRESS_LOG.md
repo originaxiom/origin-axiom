@@ -10833,3 +10833,43 @@ Nine of twelve items are GREEN. The three that remain — a literature pass on t
 43-link census, and five unverified bibliography entries — are the clerical tail, and none of them
 is a computation.
 
+---
+
+## 2026-08-19 — the paper-closure campaign closes: twelve of twelve
+
+The campaign was sealed on 2026-08-18 with an instruction that no item leave the list quietly, and
+a lock to enforce it. It is closed, and the closing three are worth separating because they are
+three different kinds of debt.
+
+**Item 11 was never wrong — it was unverifiable.** The census counted a ledger a referee could not
+see. Running the repository's own census script reproduced the printed figures exactly, so nothing
+needed correcting; the links simply had to travel with the source. What I would keep from it: the
+caveat that *a count of links is not a count of stipulations* is now printed by the checking
+script, not just written in the prose, because that exact confusion is what produced the retracted
+44. A caveat that lives only in prose is a caveat waiting to be dropped.
+
+**Item 12 was a correction, and the flagged file was not the shipped one.** Five entries verified
+against publisher records; Georgi–Glashow's canonical title hyphenates *Elementary-Particle* and
+ours did not, which is a mis-citation of a landmark paper. But the paper ships an *inline*
+bibliography whose entries were already right — the defect was in the repository ledger, and two of
+the five are not cited in the paper at all. Checking **where a flagged artifact actually reaches
+the reader** turned out to be half the item.
+
+**Item 10 came back "cite", which is the outcome a priority pass should want.** `𝔤^Γ` is reductive
+for finite Γ by Borel–Mostow (1955); a reductive abelian subalgebra is toral. Lemma (toral) is a
+classical theorem composed with one line, and the paper now says so and disclaims priority. The
+proof stays in, for a specific reason: step (i) is where an earlier draft asserted that distinct
+isotypic components are Killing-orthogonal, which is false. **A folklore result whose obvious proof
+is wrong is exactly the kind a paper should still write out.**
+
+Across the twelve: three items moved a paper statement from *asserted* to *computed*; one moved it
+from *asserted* to *refuted*; one was already paid by another item's work; three were deposits; two
+were corrections of fact; one was a literature disposition; one supplied a missing lemma.
+
+And the mechanism did its job on its author. The lock fired five times on me — an invented
+`PARTIAL` status, a path missing its directory, a false path claim, an evidence cell with no path
+at all, and a table row broken by a literal pipe. Each time the fix was mine, not the lock's, with
+one exception where the lock was reading the typesetter. The campaign's premise was that **the
+failure mode is drift, not error**; five of the six things that went wrong in closing it were drift
+of exactly the kind it was built to catch.
+

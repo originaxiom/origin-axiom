@@ -1,5 +1,50 @@
 # Changelog
 
+## THE PAPER-CLOSURE CAMPAIGN CLOSES (2026-08-19) — twelve of twelve GREEN
+
+Items 10, 11 and 12, and with them the campaign B8076 sealed on 2026-08-18.
+
+ITEM 11 -- the census was true all along; the complaint was that it was
+unverifiable. It counted a ledger a referee could not see, which is not
+defensible in a paper whose subject is verifiability. The repository's own census
+script reproduces the printed figures exactly, so the deposit was the whole job:
+verify/chain_links.md now carries one row per link with its label, and
+verify/check_census.py recomputes 43 = 26 THEOREM + 6 IDENTITY + 5 NO-GO +
+4 AXIOM + 1 CENSUS + 1 COROLLARY from the deposited file, with axioms at C3, C4,
+C5, C18 and 39 of 43 carrying no declared choice. The census's own caveat -- a
+count of LINKS is not a count of STIPULATIONS -- is carried into the script's
+output, not just the prose, because that confusion is what produced the retracted
+44. An unparseable deposit fails rather than passes.
+
+ITEM 12 -- all five STANDARD bibliography entries verified against publisher
+records and upgraded to RESOLVED; zero "verify before submission" flags remain.
+Hurwitz: Math. Ann. 39(2), 279-284 (1891). Slansky: Phys. Rep. 79(1), 1-128
+(1981). Georgi-Glashow: PRL 32(8), 438-441 (1974) -- and a correction, the
+canonical title hyphenates "Elementary-Particle" and the entry did not. McKay:
+PSPUM 37, 183-186, AMS Providence RI, 1980. Conway-Smith: full subtitle, Natick
+MA, ISBN 1-56881-134-9. The scope worth stating: the paper ships an INLINE
+bibliography, and its entries were already correct -- the defect was in the
+repository ledger, and two of the five are not cited in the paper at all.
+
+ITEM 10 -- the literature pass says CITE, not novel, which is the outcome worth
+wanting from a pass whose purpose is to stop an implicit priority claim. The
+fixed algebra of a finite group of automorphisms is REDUCTIVE in characteristic 0
+by Borel-Mostow, On semi-simple automorphisms of Lie algebras, Ann. of Math. (2)
+61 (1955), 389-405; a reductive abelian subalgebra of a semisimple Lie algebra is
+toral. So Lemma (toral) is a classical theorem composed with one line. The paper
+cites it and disclaims priority explicitly; THEOREM_REGISTRY files it under
+(not novel). The self-contained proof stays, because step (i) is exactly where an
+earlier draft asserted that distinct isotypic components are Killing-orthogonal,
+which is false -- a folklore result whose obvious proof is wrong is one a paper
+should still write out.
+
+Campaign totals: of the twelve items, three moved a paper statement from asserted
+to computed, one from asserted to refuted, one was already paid by another item's
+work, three were deposits, two were corrections of fact, one was a literature
+disposition, and one supplied a missing lemma. The lock fired on its own author
+five times.
+
+
 ## B8083 + item 8 (2026-08-19) — the positivity bridge, and one item that was already paid
 
 Campaign items 8 and 9.
