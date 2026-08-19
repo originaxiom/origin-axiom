@@ -16,6 +16,17 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 eighth bank, B1081 + B1082 + the origin/blanket
+additions):** THE NEUTRALITY THEOREM — hydrogen's charge cancellation is
+exact weight-lattice arithmetic (2(2/3) + (−1/3) + (−1) = 0), the e/3
+quantization PREDICTED not fitted, nothing orphaned in the atom's typed
+skeleton; the order comparison lands CONDITIONAL-ON-GUT-MODEL with its
+verifier-forced disclosure; §0 THE ORIGIN TORSOR (the founding rule = the
+first basepoint-taking on the recurring K₄, arrow+chirality one joint
+bit; det = −1 the Breath pulse); the blanket re-filed as MATH (S072/B761:
+QP-2 FLAT — no private states; awareness without choice); X31 corrected.
+B1080 computes with its B862 credit prepared.
+
 **LATEST (2026-08-19 seventh bank, B1078 + B1079 + THE FORCED AND THE FREE
 — the selector double-experiment resolves both ways as predicted):** the
 Wilson menu VERIFIED bit-for-bit with its Kac mechanism, and B932's

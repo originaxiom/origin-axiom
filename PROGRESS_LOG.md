@@ -10736,3 +10736,15 @@ The paper's architecture: the forced half = theorems; the free half = the
 portrait of exact silences with priors. Branch hygiene done (one archive
 tag, three named stay-opens); relays exhausted; the review parked-drafted;
 the cold audit pending.
+
+## 2026-08-19 (eighth bank) — the atom, the orders, the origin, the blanket
+
+Two cells banked at honest grades (the neutrality theorem; the
+conditional order-match with its verifier-forced disclosure), the origin
+torsor computed live (the founding rule = the first basepoint-taking, on
+the same K4 that recurs everywhere), the blanket re-filed as MATH on the
+new seat's record-verified catch, X31 corrected. The architecture now
+runs origin-to-atom: the first tick spends arrow+chirality jointly; the
+last theorem makes hydrogen neutral by exact fractions. B1080 (the
+global form) computes with its B862 credit prepared; the review and the
+cold audit hold their queue.

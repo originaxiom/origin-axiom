@@ -1774,6 +1774,46 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1081": {
+   "slug": "hydrogen audit",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B862",
+    "B864",
+    "B970"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1082": {
+   "slug": "order comparison",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B877",
+    "B904",
+    "B909",
+    "B952",
+    "B993",
+    "B996"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B108": {
    "slug": "theta to c",
    "motifs": [

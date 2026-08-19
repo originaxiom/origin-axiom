@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **983** |
-| words of findings prose | **670,578** |
+| research arcs with findings | **985** |
+| words of findings prose | **671,354** |
 | test lock files referenced | **602** |
-| arcs carrying an authored verdict | **970** (98.7 %) |
+| arcs carrying an authored verdict | **972** (98.7 %) |
 | recorded closures | **755** (588 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 642 |
+| PROVED | 644 |
 | NEGATIVE | 285 |
 | OPEN | 33 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1079`** (437 words, 0 locks)  
-THE WILSON MENU AND THE SELECTOR'S SILENCE (the new seat's menu under verify-don't-trust; 3 agents, verifier HOLDS both halves on full independent re-derivation): all 15,624 order-5 coweight points enumerated from scratch twice — the nine rows VERIFIED bit-for-bit (counts 4320/4320/2160/1728/1440/864/540/144/108), the A2+A1 dim-14 point ABSENT at orders 5, 2, AND 3, with THE MECHANISM: E6's marks (1,2,2,3,2,1) all <= 3 so by Kac no order-5 element reaches a center-0 type (the MB12 witnesses: su(6)+su(2) at order 2 and su(3)^3 at order 3, both center-0, both present there and absent at 5 — the Z/5 filter is a real theorem); the apparent B932 clash dissolved (the conformal chain's index-(2,3,1) S-subalgebra is not row 1's regular center-2 Levi; the 5 realizations recounted); THE SELECTOR RUN: B932's grammar kills NONE of the nine — LEG1 approves both rows it can evaluate, behind the cell's NEW UNIVERSALITY THEOREM (every index-1 su(3) in E6 gives exactly 9 singlets in the 27 — all 120 A2 subsystems, zero exceptions; the unique deviant is the conformal chain's index-2 su(3) at 0, where B932's bite was already spent), and LEG2 clears centralizers trivially: THE ROW-CHOICE IS FREE BY COMPUTATION — the free inventory's instance #2 confirmed, the Wilson menu a true torsor family, and the object's prior on the choice the counting measure (the multiplicities are the object's own weights). Riders: B932's T1 bullet scope-flagged (universal reading computably false at orders 2/3 — addendum owed); the 120-A2 universality to LAW_MAP; the selector interlock's first resolution — honest silence on the true torsor, discrimination only where homogeneity was apparent.  
-`B1079_wilson_menu/FINDINGS.md`
+**PROVED — `B1082`** (431 words, 0 locks)  
+THE ORDER COMPARISON (2 agents; the verifier FAILED the first typing on the missing model-disclosure and PASSED the computational spine — this bank carries the corrected grade): the chain's forcing DAG stands verified edge-by-edge with banked citations (axioms -> L/R -> m004 -> kappa -> Q(sqrt-3) -> 2T -> McKay E6 -> the 27/torus -> the cascade 78/46/30/18/12 with the dim-14 second-measurement landing a PARALLEL branch -> the u(1)-rich terminals under B952's rank obstruction; the 2T-access class-generic, the field m004-specific), and the cosmological verdict is CONSISTENT-ORDER CONDITIONAL-ON-GUT-MODEL on the type-comparable segment: from E6 onward the descent matches E6/SO(10)-type breaking edge-for-edge with no inversion, does NOT match minimal SU(5) (no U(1)-rich intermediate) — the conditional honest twice over: model-relative as the lens demanded, AND the corpus's own banked row excludes minimal SU(5) by proton decay so the surviving standard roads are exactly the U(1)-rich ones; the pre-E6 layers are NOT-COMPARABLE (they select the GUT algebra, they are not an era); the chain's own no-go stops the descent before cosmology's SM/EM stages (a bounded-prefix match); an order-match is a consistency of shape, never a mechanism claim. Housekeeping: the B909/B952 promotion-currency lag registered; one quote-attribution fixed.  
+`B1082_order_comparison/FINDINGS.md`
 
 **NEGATIVE — `B1076`** (403 words, 0 locks)  
 THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b (a3/a5), D2 = chi_a.chi_b}; the two never-computed Hermitian diagonals derived by two agreeing routes; B923's machinery re-executed at all four gauges (117 checks, 0 fail; independent numeric route to 1e-53): lambda = 1, 864/413, 6912/3047, 2304/953 with HIER-analogs of leading coefficient exactly denom^4 and three distinct real roots at every non-identity gauge; CCC = 3! lambda HOLDS COSET-WIDE; sign(lambda^2) is a NEW nontrivial exact character of the Klein group (negative on {I, chi_a}, positive on {chi_b, D2}). THE LANE VERDICT: no coset-invariant value-bearing mass-ratio-shaped residue exists -- every value quantity is element-specific, every symmetrization structureless, and the seductive coset-wide 77 (the hierarchy discriminant's squarefree part at all three nontrivial gauges) was KILLED BY THE CELL'S OWN VACUITY CONTROL (K-forcedness: it holds for a control diagonal unrelated to the coboundary structure) -- the mass-ratio lane's reopening condition is DECIDED CLOSED by its own named computation at gauges never before visited; if a physical hierarchy uses this structure, NATURE SUPPLIES THE GAUGE, and which-datum-picks-the-gauge is the well-posed successor. Observation unweighted: 7 | 413 and 11 | 3047 -- each unmeasured-pair prime divides exactly one new gauge's denominator; no mechanism claimed.  

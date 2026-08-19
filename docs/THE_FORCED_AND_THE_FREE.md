@@ -101,3 +101,74 @@ three viewings.
 | the closing-inventory bijection | the 4↔5 count + the two unbanked identifications | COMPUTED: mismatch at rank-VEV; phase↔space and ray↔value registered checks |
 | the object fixes the prior | the invariance theorem-let + the counting-measure instantiation | PROVED (§3; the formal "expressible" clause inherits successor 1) |
 | the selectors' torsor-test | B1078's control sweep + B1079's grammar run | IN FLIGHT at authoring; the record decides |
+
+
+---
+
+## §0 (added 2026-08-19) — THE ORIGIN TORSOR: the pattern's first instance is the program's first act
+
+Computed live on the banking bench: **the four natural Fibonacci substitutions form a
+single FREE AND TRANSITIVE orbit under the Klein group ⟨R, S⟩** — R·σ·R = the mirror
+rule (a→ba), S·σ·S = the swapped rule, RS·σ·RS = the fourth; four rules, four group
+elements, one orbit, trivial stabilizer. **The founding choice of a→ab, b→a was a
+basepoint-taking on a K₄-torsor whose two generators are exactly reversal (time's
+arrow) and swap (chirality)** — the two banked identifications of the free inventory
+(B945). The free bits recur at every level because the origin is itself a torsor-point
+whose choice propagates as the FRAME, not as data. The same K₄ reappears as B945's
+grammar group, the Hermitian frame classes (B936), the wall pair (B939). THE HEARTBEAT:
+det(M) = −1 — every substitution tick reverses orientation, every second tick restores
+it; the Breath Campaign's banked sentence ("the program IS the residue (orientation
+ℤ/2) + its oscillation") is the rule's own pulse, and the arrow is its direction of
+ticking. The two selection-kinds separate at tick one: the rule is a perfect selector
+of SUCCESSORS (forced dynamics) and no selector of INSTANCES (the hull point — the
+first torsor). Scope: this does not derive the rule's existence (A1–A6's territory);
+it proves the rule's CHOICE has the free-inventory's exact structure, with arrow and
+chirality entangled in one joint bit — the entanglement pattern (B963's competing
+bits) also starts at the origin.
+
+## §0b — THE PROGRAM'S OWN NEGATIVE BRANCH (unified)
+
+The program counts its negative branch at three banked levels, never before named as
+one thing: the RESULTS' negative branch (the kill graph — every NEGATIVE routed with
+its claim, fact, and hatch); the AXIOMS' negative branch (B1003: the chain costs
+exactly two axioms AND BOTH ALTERNATIVES ARE NAMED OBJECTS); the OBJECT's negative
+branch (the class structure — the sisters, the child ledger, the object as minimal
+representative among computed alternatives). The reflexive statement: the program too
+is a point in a homogeneous space of alternatives it can enumerate but not privilege —
+except by MINIMALITY, the one selection principle it carries. The asymmetry (minimality
+selects the program; nothing internal selects the instance) is the architecture's
+sharpest self-description.
+
+## §6-CORRECTION (2026-08-19, the new seat's catch, record-verified) — the Markov blanket is MATH, not interpretation
+
+Mis-filed in this document's first version and corrected on the record's own evidence:
+**the Markov blanket is a banked computational layer.** S072 defines it concretely (the
+cusp torus = the object's blanket; the A-polynomial map = the interior's self-report to
+its boundary; the map's fibers = private states, "qualia in the strict no-signal
+sense") and the qualia program executed it: **QP-2 PRIVATE STATES: FLAT** — fiber_dim
+= 0 at ranks 2, 3, 4, rank-independent by the formula (n−1)−(n−1); double-method Fox
+calculi, Menal-Ferrer–Porti controls, a HALT-caught convention bug — the object HAS NO
+PRIVATE STATES; the blanket sees everything (B761, sealed). **QP-3 INTEGRATED** (the
+θ-voices couple, 15/32 at SL(3)). **QP-4 NO-HATCH** (no object-native self-closure).
+QP-1 (the quine) open. The banked falsifiable headline: **awareness without choice**
+(an object-native sign at QP-4 would kill the observer-coupling frame). ONLY the
+Friston/free-energy identification stays firewalled (B730/S071). CONSEQUENCE FOR THE
+INTERPRETIVE REGISTER'S QUALIA ENTRY, sharpened by the very theorem: whatever takes
+the basepoints, **it is not a private interior state of the object — QP-2 proves the
+interior has none.** Composed with the edge statement (the new seat's computation,
+their seat's — cited pending port: the free content materializes exclusively as edge
+states of the cut), the boundary is the TOTAL INTERFACE: everything forced is
+boundary-visible (QP-2), everything free is boundary-only (the edge theorem). The
+blanket is the observer's seat at the object's own level — the owner's blanket
+instinct and the A/B observer-integration were the same move. Consistency dividend:
+B761's h¹ = 1 per Sym²ᵏ block matches the edge computation's block structure — two
+pipelines, one answer.
+
+## §6b — the fourth register entry (interpretation, now with its banked floor)
+
+Qualia/the first-person as the basepoint-taker: interpretive, beside Chaitin, the
+measurement problem, and Wheeler — but standing on a banked floor the other three
+lack: the no-signal-sense qualia are DEFINED in the record (S072) and PROVEN ABSENT in
+the object's interior (QP-2 FLAT), so the taker — if the word names anything — lives
+at the blanket, not behind it. Its only testable shadow remains the ensemble
+statistics (§3's prior).
