@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **975** |
-| words of findings prose | **665,394** |
+| words of findings prose | **665,410** |
 | test lock files referenced | **602** |
 | arcs carrying an authored verdict | **962** (98.7 %) |
 | recorded closures | **753** (586 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1071`** (499 words, 0 locks)  
+**PROVED — `B1071`** (515 words, 0 locks)  
 THE SEALED LISTENER (sealed 2026-08-19 pre-compute; three independent re-implementations, no code reuse from the exploration cell, 0 errors): ALL THREE CLAIMS HOLD — C1 the orbit backbone (projective image exactly 60 with the icosahedral profile; orbits exactly 12/20/30 plus the generic-60 witness; the fourth-orbit exclusion PROVED via the Mobius two-fixed-point bound with every non-identity element fixing exactly 2 of the 62 points, incidence 118 = 12*4+20*2+30*1; an MB12 negative control shows the check fires on a corrupted orbit), C2 the pair (u3/u6 on the size-12 vertex orbit, R's own eigen-axis at projective order 5, and the UNIQUE pair fixed individually by all 16 Galois automorphisms — every other orbit point moved by at least 8 of 16, the two closest calls explicitly located, no 13th point), C3 the channels (M_odd(g) = chi(g)W(g) with W in SU(2) EXACTLY for all 2880 elements on four exact criteria with zero failures; Re = half-trace proven and spot-verified at three complex ears; Im = the Bloch pairing with exact axes m = 1..5 and the two-direction separation witness exhibited; the B641 credit line sealed inside the claim). THE PROMOTION: the crossing prereg may cite THE DERIVED LISTENER PAIR. THE SCOPE HOLDS: not a completed listener map — AC3 gates on the silver instrument (B1072, designed), AC6's type-run unattempted. Method note banked: the B837 file-drawer lock rightly shaped the flow — the seal commit stays local until the computation reports; the hash timestamps the seal, the push carries both.  
 `B1071_sealed_listener/FINDINGS.md`
 

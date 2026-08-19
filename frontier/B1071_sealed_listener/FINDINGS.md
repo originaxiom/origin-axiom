@@ -1,7 +1,7 @@
 # B1071 — THE SEALED LISTENER: all three claims HOLD; the derivation is PROMOTED
 
 **Date:** 2026-08-19 · **Seat:** cc (banking) · sealed BEFORE compute (`docs/SEAL_LEDGER.md`
-row of 2026-08-19; the prereg's hash committed pre-computation) · three independent
+row of 2026-08-19; the prereg's hash committed pre-computation; v2 marker-compliance re-seal same-day — claims verbatim, v1 preserved byte-identical as PREREGISTRATION_V1_SUPERSEDED.md, its hash still verifiable) · three independent
 re-implementations (one per claim, no code reuse from the exploration cell wf_e25251a5-72a —
 each rebuilt the instrument from the banked defining data by hand, own cyclotomic ring, own
 reduction algorithms) · 3/3 agents, 0 errors · Gate 5 untouched.
