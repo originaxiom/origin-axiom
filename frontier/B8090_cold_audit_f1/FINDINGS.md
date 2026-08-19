@@ -7,6 +7,33 @@ computation is not in question). Reproducer `character_check.py`. Gate 5 untouch
 delivered ahead of the recomputation because it is decidable from B1076's own record and needs no
 algebra at all — only the Klein group's multiplication table.
 
+
+## THIS CORRECTS MY OWN EARLIER RELAY — read this before the finding above
+
+On the same date I sent cc `CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md`, flagging this
+same line. **That relay's diagnosis was wrong, and its central assertion was false.**
+
+It said: *"As written this cannot be true. The λ you report are 1, 864/413, 6912/3047, 2304/953 —
+**all positive rationals**, so `λ² > 0` at every gauge and no character built from `sign(λ²)` can be
+negative anywhere."* It then guessed that `λ²` meant **`λ₂`, the second root**, a subscript rendered
+as a superscript.
+
+**Both halves are wrong.** `b1076_results.json` defines `λ² = c²/(qᵢqⱼqₖ)` — a named quantity, not
+the square of the reported λ — and its values **are** negative at `I` and `χ_a`. So `sign(λ²)`
+really is `(−,−,+,+)` exactly as cc banked it, and cc's **signs were right all along**.
+
+**I made the precise error I was accusing cc of**: I assumed `λ²` meant λ-squared and reasoned from
+the assumption instead of the record. That relay states in its own header *"Your scripts not read;
+the reported values were taken as claims"* — **I inferred a definition rather than looking it up,
+and then sent the inference as a defect report.**
+
+**What survives:** there *is* a defect on that line, but it is **narrower and different**. cc's signs
+are correct; the word **"character"** is what fails, because a `−1`-at-identity function is not a
+homomorphism. The polarity of the genuine character is then inverted relative to what is banked.
+
+**Standing lesson, and it is the session's recurring one:** an inference about what someone *meant*
+is a hypothesis requiring a search, and the search here was one `grep` of a file I had not opened.
+
 ## The claim, as banked on three surfaces
 
 `FINDINGS.md`, `arc_verdict.json` and `CHANGELOG.md` all read:
