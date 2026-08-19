@@ -1,12 +1,27 @@
 # The chain, link by link — the ledger that Census~5.1 counts
 
 *Extracted from the repository's chain ledger (`docs/THEOREM_LEDGER.md`), one row per link, so
-that the paper's census can be **recomputed from the submitted source** instead of taken on trust.
-The label is reproduced exactly; the statement is truncated to its opening. The ledger's full
-entries, provenance and per-link locks remain in the repository — what travels here is what the
-census actually counts.*
+that the paper's census can be **recomputed from the submitted source** instead of taken on trust.*
 
-| link | label | statement (opening) |
+**Two warnings, because a referee met both.**
+
+**1. These identifiers are NOT the paper's input labels.** The ledger numbers its links
+`C1`–`C43`; the paper separately labels its declared inputs `(C1)`–`(C9)`. **They are different
+sequences with different meanings** and the numbers do not correspond — ledger `C3` is not paper
+`(C3)`. Read the column below as *ledger ids only*.
+
+**2. The statement column is repository vocabulary, and some of it is not defined in the paper.**
+Terms such as *the weld*, *the hearing multiplication law* and *the SM record* belong to the
+repository's own development and are **not** introduced in this manuscript. They are reproduced
+verbatim so the extract is auditable against the ledger, not because the reader is expected to
+follow them.
+
+**Why the extract is still sufficient for its one purpose.** The census counts **labels**, not
+statements: the six figures and their sum are a function of the `label` column alone, which is why
+`check_census.py` reads only that column. Nothing in the census depends on understanding the third
+column, and nothing in the paper's argument depends on the ledger's content.
+
+| ledger id | label | statement (opening), as recorded in the repository |
 |---|---|---|
 | C1 | **THEOREM** | — Morse–Hedlund]. Every aperiodic sequence has factor complexity |
 | C2 | **THEOREM** | — the self-selection, one criterion]. Hurwitz extremality at the golden |

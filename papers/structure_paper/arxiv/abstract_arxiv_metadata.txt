@@ -26,11 +26,11 @@ MSC 2020:    Primary 57K10, 11R16, 57M50
              Secondary 17B25, 46L37, 11J06
 
 --------------------------------------------------------------------------------
-ABSTRACT  (1917 characters -- arXiv's limit is 1920)
+ABSTRACT  (1907 characters -- arXiv's limit is 1920)
 --------------------------------------------------------------------------------
-Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We characterize it intrinsically: the hyperbolic unimodular classes whose dominant eigenvalue has purely periodic continued fraction of period one are exactly those of determinant $-1$, with traces exactly the integers $m\ge1$. The characterization is by trace and determinant, not conjugacy class (at $m=6$ a second class occurs); period one is a declared, priced input.
+Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We characterize it: among hyperbolic classes with non-negative entries, those whose dominant eigenvalue has purely periodic continued fraction of period one are exactly those of determinant $-1$, traces exactly the integers $m\ge1$. The characterization is by trace and determinant, not conjugacy class (a second class occurs at $m=6$); period one is a declared, priced input.
 
-Four exceptionality criteria select the golden member $m=1$; three collapse to one arithmetic condition, each reducing to $m^2=1$.
+Four criteria select the golden member $m=1$; three collapse to one arithmetic condition, each reducing to $m^2=1$.
 
 The golden member is the figure-eight knot complement. From there we add no new data: we measure, passing to centralizers, and track where the centralizer jumps. What we do add is a small number of declared choices, and we price them: of the 43 links in the chain, 39 carry no declared choice and 4 are axioms. We do not claim that list is provably complete. The target algebra comes from the manifold's own arithmetic -- reducing the trace-field representation at the ramified prime gives $\pi_1(4_1)\twoheadrightarrow SL(2,\mathbb{F}_3)\cong 2T$, and McKay gives $\mathfrak{e}_6$ with a canonical 4-dimensional charge algebra $C$.
 

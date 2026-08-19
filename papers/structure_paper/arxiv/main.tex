@@ -96,9 +96,11 @@ algebras, cone-manifold geometric transition}
 
 \begin{abstract}
 Let $R^mL^m$, $m\ge1$, be the metallic family of Sturmian morphisms. We characterize it
-intrinsically: the hyperbolic unimodular classes whose dominant eigenvalue has purely
-periodic continued fraction of period one are exactly those of determinant $-1$, and
-their traces are exactly the integers $m\ge1$. The characterization is by trace and
+intrinsically: among hyperbolic classes \emph{with non-negative entries}, those whose
+dominant eigenvalue has purely periodic continued fraction of period one are exactly
+those of determinant $-1$, and their traces are exactly the integers $m\ge1$. The
+non-negativity is not decoration: $-X_3$ has determinant $-1$ and is hyperbolic, but its
+dominant eigenvalue is negative and has no purely periodic expansion at all. The characterization is by trace and
 determinant rather than by conjugacy class---at $m=6$ a second class occurs, and we
 exhibit it---and period one is itself a declared input, which we price.
 
@@ -115,7 +117,7 @@ choices, and we price them rather than absorb them---of the $43$ links in the ch
 $39$ carry no declared choice and $4$ are axioms, a count the reader can recompute from
 the deposited ledger. \textbf{We do not claim that list is provably complete.} The target algebra is reached from the manifold's own arithmetic:
 reducing the trace-field representation at the ramified prime gives a surjection
-$\pi_1(4_1)\twoheadrightarrow\SL(2,\F_3)\cong2T$, and McKay then gives $\ee_6$, carrying
+$\pi_1(4_1)\twoheadrightarrow\SL(2,\F_3)\cong2T$, and McKay then gives $\ee_6$~\cite{McKay}, carrying
 a canonical four-dimensional charge algebra $C$. A separate simplex filter shows that
 $d=3$---what the figure-eight is glued from---is the unique dimension whose McKay image
 is exceptional with a complex fundamental, though that criterion is imported rather than
@@ -374,7 +376,7 @@ Periodic words close, so C1 excludes them; among the words that do not close,
 Theorem~\ref{thm:mh} isolates a unique minimal complexity class, and it is non-empty.
 Sturmian words are classified by an irrational slope $\alpha$.
 
-\begin{theorem}[Hurwitz]\label{thm:hurwitz}
+\begin{theorem}[Hurwitz~\cite{Hurwitz}]\label{thm:hurwitz}
 For every irrational $\alpha$ the Lagrange number satisfies $L(\alpha)\ge\sqrt5$, with
 equality exactly on the $\GL(2,\Z)$-equivalence class of $\varphi=(1+\sqrt5)/2$.
 \end{theorem}
@@ -436,6 +438,7 @@ $\{\phi_m\}_{m\ge1}$ are among the results---\textbf{but they are not all of the
 Scope~\ref{sc:latimer}. \textbf{The family quantified over in \S\ref{sec:four} is a proper subfamily of the period-one
 class of \S\ref{sec:genesis}'s own continued-fraction language, made
 orientation-preserving.}
+\end{corollary}
 
 \begin{proposition}[the period-one restriction, priced]\label{prop:periodtwo}
 Let $M(a,b)=\left(\begin{smallmatrix}a&1\\1&0\end{smallmatrix}\right)
@@ -486,7 +489,6 @@ carried as \textbf{(C5)} in the ledger of \S\ref{sec:inputs}, where its price ag
 relaxation is computed and turns out to be \emph{zero}; period three and beyond are
 unchecked.
 \end{scope}
-\end{corollary}
 
 \begin{scope}[what Theorem~\ref{thm:canonical} does \emph{not} say, with a witness]\label{sc:latimer}
 Theorem~\ref{thm:canonical} classifies by $(\tr,\det)$ and exhibits $X_m$ as \emph{a}
@@ -908,7 +910,7 @@ criteria---a mathematical fact, and the one this paper asks to be judged on.
 
 \section{The golden member and its arithmetic}\label{sec:arith}
 
-\begin{theorem}[Thurston; Riley]\label{thm:thurston}
+\begin{theorem}[Thurston; Riley]\label{thm:thurston}~\cite{Riley}
 $M_1$ is the complement of the figure-eight knot. It carries a unique complete
 hyperbolic structure, and its Kleinian trace field is $\Q(\sqrt{-3})$.
 \end{theorem}
@@ -1016,7 +1018,7 @@ several.}
 \node[rat] at (-5.10,0) {};
 \node[below,font=\tiny] at (-5.10,-0.12) {$-2$};
 \node[below,font=\tiny] at (-5.10,-0.42) {$n=1$};
-\node[above,rotate=32,anchor=west,font=\tiny] at (-5.10,0.12) {hyperbolic (the other cusp)};
+\node[above,rotate=32,anchor=west,font=\tiny] at (-5.10,0.12) {hyperbolic (the other lift)};
 \node[above,rotate=32,anchor=west,font=\tiny,gray] at (-4.80,0.12) {};
 \node[rat] at (0.00,0) {};
 \node[below,font=\tiny] at (0.00,-0.12) {$0$};
@@ -1108,7 +1110,9 @@ enumeration over all $14{,}400$ and $3{,}600$ generator pairs
 (\fn{verify/check\_\allowbreak quotients.py}). The same enumeration gives $48$ surjections
 onto $2T$---\textbf{two up to $\operatorname{Aut}(2T)$}, four up to conjugacy, and the
 count \emph{exactly two} above should be read with that equivalence named. The control is
-that the relator's exponent sums are $(1,0)$, computed independently. \textbf{So as a
+that the relator's exponent sums are $(1,0)$, computed independently. (\cite{Stuebner}
+concerns hyperbolic integral \emph{homology spheres}, and $S^3\smallsetminus4_1$ is not
+one, so it is context rather than evidence here.) \textbf{So as a
 statement about $\pi_1$ the $E_8$ end is field-level only}, and the two ramified-prime
 reductions are symmetric as fields but not as group surjections.
 \end{scope}
@@ -1181,7 +1185,11 @@ $\operatorname{tr}V_2(A)\operatorname{tr}V_2(B)$ on the four-dimensional one.
 \end{theorem}
 
 \begin{proof}
-The $\theta$-eigenspaces are invariant, verified in $\Q(\zeta_{60})$ arithmetic. The
+The $\theta$-eigenspaces are invariant. \textbf{The verification is carried out in
+$\F_p$ for primes $p\equiv1\pmod{60}$}---so that $\zeta_{60}$ is present and the
+arithmetic is exact---and \emph{not} in $\Q(\zeta_{60})$ itself, as an earlier version of
+this proof claimed; the shipped script says so in its own notes, and the characteristic-zero
+statement carries the same gap recorded in Scope~\ref{sc:2880}. The
 class-by-class comparison against an independently built quaternion model of
 $2T\times2I$ is a size-preserving bijection on all $63$ classes under which the triple
 (class size, character on the odd block, character on the even block) agrees as exact
@@ -1679,7 +1687,7 @@ twice the exponents, i.e.\ into degrees
    2\cdot(1,4,5,7,8,11)=(2,8,10,14,16,22).
 \]
 The
-Molien series of $2T$ acting on $\mathrm{Sym}^\bullet(\C^2)$,
+Molien series of $2T$ acting on $\mathrm{Sym}^\bullet(\C^2)$~\cite{Molien},
 \[
    \sum_{n\ge0}\dim\bigl(\mathrm{Sym}^n\C^2\bigr)^{2T}t^n
    =\frac{1}{24}\sum_{g\in 2T}\frac{1}{\det(1-tg)},
@@ -2806,7 +2814,7 @@ bundles is stated for the \textbf{non-arithmetic} bundles, and the arithmetic mo
 words are removed before the argument begins. \textbf{The removed words include $RL$ and
 $R^2L^2$}---that is, precisely $m=1$ and $m=2$, the golden and silver members, the two
 this paper cares about most. The figure-eight knot complement is the arithmetic knot
-complement, so the source's hypotheses exclude it by construction.
+complement~\cite{Reid91}, so the source's hypotheses exclude it by construction.
 
 \textbf{We record that this claim has now been reversed twice}: withdrawn once, restored
 once on the ground that~\cite{GHH} exists, and now withdrawn again on the ground that we
