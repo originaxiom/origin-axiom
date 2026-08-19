@@ -10682,3 +10682,15 @@ even negative; the silent-words law with the trace-zero mechanism
 sampled). The value-frontier's honest state after this bank: no licensed
 contact exists; three named doors remain (the coboundary sweep, L154's
 sigma-conversion, B882) — all computations, none numerology.
+
+## 2026-08-19 (fourth bank) — B1075: the fourth sealed crossing executes; MISS at power; the channel closes
+
+The owner caught the over-fence, elected the run, and worded the seal.
+The execution: identity gate PASS, NuFIT 6.1 pinned, nine moduli boxes
+per ordering propagated exactly, delta free (conservative in the verdict's
+direction). MISS at power; HIT-SHAPE below success per the sealed R9; the
+prior held. The coupling channel's value consumption is COMPLETE — four
+sealed pairings, four misses, each failure mode named and each better
+than the last: the desert, the hemisphere, the normalisation, and now
+nothing left to blame. The three structural doors stand. The paper
+carries the outcome verbatim.

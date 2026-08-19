@@ -1,5 +1,36 @@
 # Changelog
 
+## B1075 (2026-08-19) — THE FOURTH SEALED CROSSING: MISS at power, the prior held, and the coupling channel's value story closes clean
+
+Sealed 64414dbf pre-execution on the owner's word; the kind-correct
+coupling-to-moduli pairing — K2's own admissible row, never before
+contacted (the owner's catch that unfroze it: pairings spend, not rows;
+an unearned negative is as bad as numerology). Executed same-day against
+NuFIT 6.1 (version-pinned via the arXiv secondary; the nu-fit.org
+certificate expiry recorded as the execution-day limitation; the
+banked-identity gate PASSED before any new number was read). THE VERDICT,
+by the sealed grammar: MISS AT POWER — the delta-independent e-row, the
+only sector with genuine exclusion power, misses both sealed values
+cleanly (1/2 about 5 sigma below |Ue2|'s 3-sigma edge; 1/(2phi) near no
+e-row box); the six landings all sit in delta-free mu/tau boxes whose
+union covers about 0.55 of the unit interval — HIT-SHAPE, graded below
+success IN ADVANCE by the sealed R9 clause; both orderings identical; the
+5.17-bit freedom ledger priced and moot at this power. The declared prior
+(MISS expected, informative either way) HELD. What the miss buys: the
+tones row completes its consumption — EVERY kind-admissible coupling
+pairing has now been taken to data under seal and missed (phases,
+probability, tones-vs-sin2theta, tones-vs-moduli) — and the fourth sealed
+crossing is the first whose failure cannot be blamed on interpolation,
+hemisphere, normalisation, OR an unrun kind-correct pairing: the
+register's own definition of a real result, earned. Routed into the kill
+graph with its escape hatches: the coboundary sweep, L154, B882 — the
+three structural doors, all computations. The paper's ending is now
+written by the record itself: a programme that derived its listener,
+proved its channels, priced its freedoms, sealed before looking, looked
+once, and reported the miss with the same care it would have reported the
+hit.
+
+
 ## B1074 (2026-08-19) — the residue hunt: the vacuum block is frame-blind, the parity law is exact, and THE HIERARCHY LIVES IN A COBOUNDARY DIRECTION the frame group never sees
 
 The owner's door-3 election after the crossing-design ruling (recorded in

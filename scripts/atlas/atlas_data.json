@@ -1677,6 +1677,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1075": {
+   "slug": "moduli crossing",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [
+    "B856",
+    "B882",
+    "L154"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B107": {
    "slug": "physics connection audit",
    "motifs": [

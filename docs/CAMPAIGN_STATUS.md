@@ -16,6 +16,20 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 fourth bank, B1075 — THE FOURTH SEALED CROSSING: MISS
+at power, the prior held, the channel closes clean):** sealed 64414dbf on
+the owner's word (after the owner's catch unfroze the kind-correct
+never-contacted pairing: pairings spend, not rows); executed same-day
+against NuFIT 6.1, identity gate PASSED first. The δ-independent e-row —
+the only powered sector — excludes both sealed values (1/2 ≈5σ below
+|Ue2|'s edge); the δ-free landings are HIT-SHAPE below success per the
+sealed R9; both orderings identical; the prior (MISS expected, informative
+either way) HELD. The tones row completes its consumption: every
+kind-admissible coupling pairing has now been sealed-tested and missed —
+the first crossing whose failure has nothing left to blame. Kill-graph
+routed; escape hatches = the three structural doors (the coboundary sweep,
+L154, B882). The paper's ending is written by the record itself.
+
 **LATEST (2026-08-19 third bank, B1074 — THE HIERARCHY IS COBOUNDARY-CARRIED;
 the crossing's value-form cannot seal, and the register held):** the design
 record closed (R1 PARTIAL: Re spent, Im kind-partnerless; every coupling
