@@ -1,0 +1,47 @@
+{
+ "M": [
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "M2": [
+  [
+   2,
+   1
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "M_mirror": [
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "bite_nonvacuous": true,
+ "det_M": -1,
+ "det_M2": 1,
+ "losses": {
+  "intercept": "phase (never present, not lost)",
+  "order": "chirality (IDENTIFICATION UNPROVED)",
+  "sign": "arrow/orientation (IDENTIFICATION UNPROVED)",
+  "unit": "scale (never present, not lost)"
+ },
+ "monodromy_is_the_square": true,
+ "order_is_invisible": true,
+ "phi1_minus_I_equals_M": true,
+ "scope": "2x2 integer matrices and word combinatorics. PROVES the destruction -- order-blindness and sign-erasure -- and PROVES the square is forced by orientability. Does NOT prove the IDENTIFICATION of which loss carries which bit; that is the sharpened L169 and is registered UNPROVED. Nothing about E6, no SM content, no values. Gate 5 untouched.",
+ "squaring_forced_by_orientability": true,
+ "trace_M2": 3
+}

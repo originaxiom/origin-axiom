@@ -1906,7 +1906,17 @@ candidate lane.
 measure on projective Hilbert space; a unique invariant measure on an orbit is Haar. The
 resemblance is suggestive and is **not** an identification. **Registered as unproved.**
 
-## L169 — THE CLOSING INVENTORY CONJECTURE: a bijection between modded-out symmetries and the closings (owner-elected 2026-08-19; ranked SECOND)
+## L169 — THE CLOSING INVENTORY CONJECTURE (owner-elected 2026-08-19; **SHARPENED same day by B8091** — two of the four now have an explicit first-step mechanism)
+
+**B8091 supplies the mechanism the conjecture was missing.** The passage from the founding rule to the manifold **destroys exactly two things**, both proved: the **order** inside `σ(a)` (`a→ab` and `a→ba` have identical incidence matrices — the matrix counts, never arranges) and the **sign** of `det` (`det M = −1`, `det M² = +1`), the latter **forced** because a punctured-torus bundle is orientable only if its monodromy is orientation-preserving. **Orientability is what costs the sign.** And the monodromy **is** `M²`: `[[2,1],[1,1]]`, trace 3.
+
+**The honest asymmetry, which the conjecture must now account for:** the two **bits** are *destroyed*; the **circle** (intercept) and **ray** (unit) were **never present** — the slope fixes the hull but not the point on it, and only eigenvalue *ratios* are scale-free. **Those are different kinds of absence** and a bijection that merges them is claiming more than the mechanism supports.
+
+**What is still UNPROVED — and it is the whole conjecture:** *which* loss carries *which* bit. B945's Klein group is suggestive, but **reversal and letter-swap both send `ab → ba`**, so order↔chirality and sign↔arrow is a *table that lines up*, not a theorem. **Do not cite the mapping as established.**
+
+**Falsifier, sharpened:** every downstream construction inherits `M²`, not `M`. So a new torsor-without-basepoint should appear **exactly where a construction needs to distinguish `M` from `M²`, and nowhere else.** A wall that appears somewhere else refutes the one-loss-many-shadows reading.
+
+## L169 (as registered) — a bijection between modded-out symmetries and the closings
 
 **Status: OPEN. Two of four identifications banked, two computable.**
 

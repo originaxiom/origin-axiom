@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "THE FIRST STEP THROWS AWAY EXACTLY TWO THINGS, AND THE MONODROMY IS THE SQUARE OF THE SUBSTITUTION MATRIX. Answering the owner's question whether the founding rule a->ab, b->a already encodes arrow and chirality so that the recurring bottlenecks are ONE loss with several shadows. PROVED: (1) M = [[1,1],[1,0]] and M^2 = [[2,1],[1,1]] with trace 3 and det 1, which IS the figure-eight monodromy phi_1; (2) LOSS ONE, ORDER -- a->ab and a->ba are different rules with IDENTICAL incidence matrices, since the matrix counts letters and never arranges them, so the mirror is invisible downstream, with a bite control confirming a->aab DOES change the matrix so the blindness is not vacuous; (3) LOSS TWO, SIGN -- det M = -1 while det M^2 = +1, so squaring erases it; (4) THE SQUARING IS FORCED -- a punctured-torus bundle is orientable iff its monodromy is orientation-preserving, so M is INADMISSIBLE and M^2 is admissible, meaning ORIENTABILITY is what costs the sign. This matches the corpus's own chain, which already reads 'geometrize (priced) and orient (priced)' -- this arc says what the orientation price is denominated in. OBSERVATION, unweighted per B888: phi_1 - I equals M exactly, so the Smith normal form computation giving the torsion (Z/m)^2 runs at m=1 on the substitution matrix itself; no mechanism claimed. THE INVENTORY: order lost to counting (bit), sign lost to forced squaring (bit), intercept NEVER PRESENT since the slope fixes the hull and not the point (circle), eigenvalue unit NEVER PRESENT since only ratios are scale-free (ray) -- two bits, one circle, one ray, with the honest asymmetry that the bits are DESTROYED while the circle and ray were never there, which are different kinds of absence. NOT PROVED AND NOT TO BE READ AS PROVED: the IDENTIFICATION that order-loss IS chirality and sign-loss IS the arrow. B945's Klein group is suggestive but reversal and letter-swap BOTH send ab to ba, so which loss carries which bit is unsettled; a table that lines up is not a theorem. Registered as the sharpened L169. WHY IT REFRAMES: every downstream construction inherits M^2 not M, so each torsor-without-basepoint is the SAME discarded information resurfacing rather than an independent wall; falsifiable prediction, a new wall appears exactly where a construction must distinguish M from M^2 and nowhere else. SCOPE: 2x2 integer matrices and word combinatorics; nothing about E6 or the SM; no values. Gate 5 untouched.",
+ "depends_on": [
+  "B945",
+  "B582",
+  "B1017",
+  "B990"
+ ],
+ "id": "B8091",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
