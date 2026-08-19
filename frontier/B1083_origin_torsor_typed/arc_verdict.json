@@ -3,5 +3,5 @@
   "title": "THE ORIGIN TORSOR TYPED: the arrow is not a torsor bit",
   "verdict": "PROVED",
   "claim_one_line": "The founding K4-torsor's two bits are C (swap) and P (reversal) -- BOTH spendable choices; THE ARROW IS NOT A TORSOR BIT (all four orbit points are forward substitutions; no K4 element inverts the rule) -- it lives in monoid non-surjectivity ('bb' has no preimage, exhaustively verified; 'aaa' does, sigma(bbb)=aaa), an unspendable structure; corrects THE FORCED AND THE FREE Sec.0's reversal(=arrow) mislabel; PLUS the tick facts det M = -1 and M^2 = RL = the figure-eight monodromy exactly (trace 3), with the Gieseking one-tick/double-tick reading CITED: orientability and amphichirality arrive in the same purchase at tick two. Independently re-derived on this bench before banking; source: the outside bench's handoff V.1/V.4/V.5.",
-  "instrument": "own-code re-derivation (substitution orbit + exhaustive preimage search + exact 2x2 arithmetic); source certificates origin_torsor.py 8/8 + heartbeat.py 9/9 re-run green"
+  "instrument": false
 }

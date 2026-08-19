@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-19 from 988 frontier probes.
+> Last generated: 2026-08-20 from 990 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,10 +11,10 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 988 frontier probes; status {'open': 63, 'banked': 650, 'dead': 256, 'dormant': 19}
+  corpus: 990 frontier probes; status {'open': 63, 'banked': 652, 'dead': 256, 'dormant': 19}
   the ONE conserved first integral: kappa (recurs 229x, 23%) -- genuine unity, MUST recur
-  top recurring motifs: golden(564), firewall(552), eisenstein(522), figure_eight(415), metallic(403), trace_map(380)
-  recurrence is: structural-invariant 3304 mentions | conserved-integral 229 | TOOL 380
+  top recurring motifs: golden(564), firewall(553), eisenstein(523), figure_eight(415), metallic(404), trace_map(380)
+  recurrence is: structural-invariant 3310 mentions | conserved-integral 229 | TOOL 380
   the honest split: the trace-map TOOL is in 380 probes (38%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B521, B156, B598, B309, B321
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -26,17 +26,17 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
-| golden | 564 | 57% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
-| firewall | 552 | 55% | structure | structural | meta | the firewall / structural theorem / form-not-values |
-| eisenstein | 522 | 52% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
-| figure_eight | 415 | 42% | object | no | topology | the simplest hyperbolic knot; the carrier object |
-| metallic | 403 | 40% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
+| golden | 564 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| firewall | 553 | 55% | structure | structural | meta | the firewall / structural theorem / form-not-values |
+| eisenstein | 523 | 52% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
+| figure_eight | 415 | 41% | object | no | topology | the simplest hyperbolic knot; the carrier object |
+| metallic | 404 | 40% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 380 | 38% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
-| amphichiral_cp | 336 | 34% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
+| amphichiral_cp | 338 | 34% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | torsion | 308 | 31% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
-| wrt_quantum | 237 | 23% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
+| wrt_quantum | 238 | 24% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 229 | 23% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
-| z3_generation | 223 | 22% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
+| z3_generation | 224 | 22% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | lorentzian | 177 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | dickson_tower | 105 | 10% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
 | symplectic | 97 | 9% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
@@ -49,7 +49,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **229** probes (23%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3304** mentions — invariants of the object's transforms.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3310** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **380** probes (38%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
@@ -62,9 +62,9 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | cancellation | 51 | golden | golden(32), eisenstein(31), firewall(29), trace_map(23) |
 | selector | 18 | firewall | firewall(12), trace_map(11), eisenstein(11), golden(11) |
 | measure | 100 | golden | golden(57), eisenstein(52), firewall(50), figure_eight(41) |
-| units_scale | 97 | firewall | firewall(67), golden(61), metallic(51), eisenstein(48) |
+| units_scale | 98 | firewall | firewall(68), golden(61), metallic(51), eisenstein(48) |
 | gauge_dict | 59 | eisenstein | eisenstein(35), firewall(33), amphichiral_cp(29), figure_eight(29) |
-| particle_dict | 80 | eisenstein | eisenstein(57), z3_generation(52), firewall(52), golden(46) |
+| particle_dict | 81 | eisenstein | eisenstein(58), z3_generation(53), firewall(52), golden(46) |
 | spacetime_3p1 | 111 | golden | figure_eight(68), golden(67), eisenstein(63), trace_map(56) |
 | observable | 37 | golden | golden(28), metallic(19), torsion(18), firewall(17) |
 | numerology | 21 | golden | golden(16), firewall(16), eisenstein(16), torsion(14) |

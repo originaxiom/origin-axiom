@@ -10800,3 +10800,11 @@ derived, the second coupling deleted by the object's own mirror. The
 Rogers value at the regular shape came out exactly pi^2/6 + i Vol --
 the lattice unit on the nose. The 3d completion campaign is open and
 its first cell is locked.
+
+2026-08-20 (C3). The matter card banks: nothing about the matter
+sector lives in the bulk -- multiplicity is seam arithmetic, charge is
+family/cut data, the hand is edge data, the coupling evaluates on the
+boundary. The 3d theory's matter is interface-resident row by row,
+exactly as the blanket predicted in general. And the gate caught the
+seat writing schema from memory again -- six instrument fields
+re-typed to the house boolean; the neighbor-row rule re-learned.

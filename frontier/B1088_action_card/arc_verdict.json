@@ -3,5 +3,5 @@
   "title": "THE PARAMETER-FREE ACTION CARD (C1 of the 3d completion)",
   "verdict": "PROVED",
   "claim_one_line": "THE PARAMETER-FREE ACTION CARD (L174 C1): the object's 3d gravitational action is S = -Vol sigma on its own exact Lambda = -1 Einstein solution -- the k-coupling is DELETED BY THE OBJECT'S OWN SYMMETRY (CS(m004) = 0 by amphichirality, witness = B1086's mirror=Galois identity; verified at 50 digits AND exactly: 2 R(e^{i pi/3}) = pi^2/6 + i Vol, the CS part ONE lattice unit precisely); Vol = 2.0298832128... recomputed from first principles (two regular ideal tetrahedra, Lobachevsky) matching the banked figure to 28 digits; c = 6 sigma derived TWICE (B1012's closure + Brown-Henneaux 3l/2G_N at G_N = 1/(4 sigma), l = 1, exact); ZERO free dimensionless constants -- the single scale sigma is the input ledger's one priced unit (the R+ closing), fenced by B1015 and the ray non-normalisability.",
-  "instrument": "mpmath 60-dps (Lobachevsky/Clausen volume; Rogers dilog lattice check) + sympy exact (the Brown-Henneaux identity); assembly over B259/B1012/B1086/B1015"
+  "instrument": false
 }

@@ -1894,7 +1894,7 @@ fresh (B1084's cone). The cells:
 |---|---|---|
 | **C1 — the parameter-free action card** | **DONE (B1088, 2026-08-19):** S = −Vol·σ locked; CS = 0 exact (one lattice unit precisely: 2R(e^{iπ/3}) = π²/6 + i·Vol); c = 6σ derived twice; zero free dimensionless constants, σ = the ledger's priced unit | **BANKED** |
 | **C2 — the partition-function bridge** | type Z(m004) in quantum-CS/state-integral form (literature contact: Andersen–Kashaev; ties Path A's metallic WRT tower); compare the banked complex-volume figure; DECIDABLE-HERE vs typed floor | WebFetch arc |
-| **C3 — the matter-sector assembly** | declare the 27-cohomology sector AS the matter content under the 3d-theory header: B1086 = the multiplicity law, B1087 = the charge structure, EWSB-outside carried; a synthesis arc joining banked pieces | assembly |
+| **C3 — the matter-sector assembly** | **DONE (B1089, 2026-08-20):** the matter sector is INTERFACE-RESIDENT row by row; vector-like closed by theorem; multiplicity-not-generations fence carried | **BANKED** |
 | **C4 — the boundary/observer card** | the theory's observables live on the cut: Brown–Henneaux data + the length spectrum + B1085's edge content + the blanket (S072); "what an observer can measure" as a stated list; joins L173 | assembly |
 | **C5 — the arithmetic-CS hole** | the one true specialist gap (B708, Kim's bar), now SHARPENED: the object's CS value is 0, so the arithmetic analogue of the σ/volume term is the whole question | NEEDS-SPECIALIST, honestly fenced |
 

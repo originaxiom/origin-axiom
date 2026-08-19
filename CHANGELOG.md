@@ -1,5 +1,26 @@
 # Changelog
 
+## B1089 THE MATTER CARD + the instrument-boolean fix (2026-08-20, C3 lands) — the matter sector is the interface sector
+
+B1089 (L174's C3, assembly): the 27-local-system cohomology declared AS
+the 3d theory's matter content, every cell citing its banked source --
+solo 3 / welded 5 / theta-odd 2 as the multiplicity law (B1086, seam
+mechanism B1036), vector-like closed by theorem, the charge structure
+B1087's complementarity, the hand at the edge (B1085), the coupling
+B1073's gate. THE SYNTHESIS (a composition, flagged as such): every
+matter datum is INTERFACE-RESIDENT -- multiplicity at the seam, charge
+at the cut/family, hand at the edge, coupling boundary-evaluated; the
+blanket's boundary-is-the-total-interface now has its matter-sector
+instantiation. Fences verbatim: the h1-to-mode identification is the
+CS/AW dictionary (CITED); 3/5/2 is multiplicity NOT generations
+(B1036's fence); values stay closed; EWSB outside. THE SCHEMA FIX
+(suite44's catch, E39 blocking the push as designed): six new
+verdicts' instrument field re-typed to the house BOOLEAN
+(object-arc/instrument-arc) -- the registry-row species recurred
+(wrote from remembered schema instead of reading a neighbor row; the
+species note stands); methods prose lives in FINDINGS where it
+belongs. Atlas + views + SPINE regenerated (975 locks / 70 days).
+
 ## B1088 THE PARAMETER-FREE ACTION CARD (2026-08-19, L174's C1 — the 3d completion opens)
 
 The 3d theory's line one, locked: S = -Vol sigma on the object's own

@@ -16,6 +16,13 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-20, B1089 = L174's C3)**: THE MATTER CARD banked --
+the matter sector is INTERFACE-RESIDENT row by row (multiplicity at
+the seam, charge at the cut, hand at the edge, coupling on the
+boundary); vector-like closed by theorem; 3/5/2 is multiplicity not
+generations. C2 (B1090) awaits its state-integral numeric. The
+instrument-boolean schema fix rides (suite44's catch).
+
 **LATEST (2026-08-19, B1088 = L174's C1)**: THE PARAMETER-FREE ACTION
 CARD locked -- S = -Vol sigma (CS = 0 by the object's own mirror;
 exact lattice-unit identity), c = 6 sigma derived twice, zero free
