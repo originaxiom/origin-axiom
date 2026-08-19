@@ -1,0 +1,21 @@
+{
+ "dim_16": 16,
+ "dim_so10": 45,
+ "generic": {
+  "orbit_dim": 16,
+  "rank_after_breaking": 0,
+  "stab_dim": 29
+ },
+ "orbit_equals_cone_dim": true,
+ "pure": {
+  "orbit_dim": 11,
+  "rank_after_breaking": 4,
+  "stab_dim": 34
+ },
+ "purity_is_the_unique_rank4_condition": true,
+ "rank_so10": 5,
+ "scope": "so(10) on the 16. The rank-4 target is the SM's, but no SM quantity is produced. Shows <nu^c> is a SECOND free selection, not forced by <1>: the single 'VEV direction' row of B1017 is correct only when read in the space of PAIRS (27 + 27), which is what Kato-Yukie classify and what B990's object is. Gate 5 untouched.",
+ "second_vev_is_a_free_choice": true,
+ "transitive_on_pure_cone": true,
+ "verdict": "purity is the unique condition leaving rank 4; Spin(10) is transitive on the pure cone, so the selector is a CONDITION and not a POINT"
+}

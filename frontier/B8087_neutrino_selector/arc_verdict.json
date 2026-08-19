@@ -1,0 +1,16 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "THE NEUTRINO SELECTOR IS A CONDITION, NOT A POINT, AND <nu^c> IS A SECOND FREE SELECTION. B1017's ledger books ONE resource ('VEV direction') against a rank drop its own text calls two-step: the 6->4 drop is entirely <1> then <nu^c>. Built so(10) on the 16 explicitly over Q as fermionic bilinears on the even part of Lambda*(C^5), 45 matrices, no structure constants quoted. PURITY IS THE UNIQUE RANK-4 CONDITION: a pure spinor has stabiliser sl(5) x| Lambda^2 of dim 34, orbit dim 11, and toral part 4, so rank 5 -> 4; a GENERIC spinor has stabiliser dim 29 and toral part 0, destroying the rank entirely. So <nu^c> being the right-handed-neutrino direction is not a physics preference but the only direction leaving rank 4 standing. BUT SPIN(10) IS TRANSITIVE ON THE PURE CONE: orbit dim 45-34 = 11 equals the cone dim (the spinor variety S_10 is 10-dimensional projectively). So the selector cuts 16 dimensions down to an 11-dimensional cone -- a real reduction -- and then B990's orbit-to-point gap recurs verbatim. <nu^c> is NOT forced by <1>. CONSEQUENCE: the two VEVs are TWO selections, so B1017's single row is correct ONLY if the orbit-point is read as a point in the space of PAIRS (27 + 27), which is exactly what Kato-Yukie classify and exactly B990's object; read as one direction in a single 27 it undercounts by one. THE CONTROL THAT MATTERED: the first build omitted the spinor shift h_i = a_i^+a_i - 1/2, giving an algebra ISOMORPHIC to so(10) -- dim 45, bracket-closed, rank 5, every structural check green -- but in a CHARACTER-TWISTED representation, which moved the stabiliser to 35; only the predicted stabiliser dimension caught it, so the arc now pins the REPRESENTATION (all 16 weights are (+-1)^5 with constant sign-parity, one chiral half). An isomorphism check is not a representation check. SCOPE: so(10) on the 16; the SM enters only as the rank-4 target; nothing about the member, class, sisters or rows. Gate 5 untouched.",
+ "depends_on": [
+  "B1017",
+  "B990",
+  "B969",
+  "B8085",
+  "B8086"
+ ],
+ "id": "B8087",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

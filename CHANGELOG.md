@@ -1,5 +1,50 @@
 # Changelog
 
+## THE SELECTOR IS A CONDITION, NOT A POINT (2026-08-19) — B8087, B8088
+
+The owner asked two things: make the case that all we lack is the VEV direction,
+and compute the neutrino selector. Both were done, and the second changed the
+first.
+
+B8087 -- the neutrino selector. B1017 books ONE resource against a rank drop its
+own text calls two-step, so before relaying "one slot" it had to be known whether
+<nu^c> is forced by <1>. It is not. so(10) on the 16, built explicitly over Q as
+fermionic bilinears: purity is the UNIQUE rank-4 condition -- a pure spinor gives
+stabiliser 34 and toral part 4, while a generic spinor gives 29 and toral part 0,
+destroying the rank outright. So the second VEV being the right-handed-neutrino
+direction is not a preference, it is the only direction leaving rank 4 standing.
+But Spin(10) is transitive on the pure cone (orbit 11 = cone 11), so the selector
+is a CONDITION and not a POINT, and B990's gap recurs on it verbatim. The two
+VEVs are two selections; B1017's single row is right only when the orbit-point is
+read in the space of PAIRS, which is what Kato-Yukie classify and what B990's
+object is.
+
+The control is the part worth keeping. The first build omitted the spinor shift
+and produced an algebra ISOMORPHIC to so(10) -- dim 45, bracket-closed, rank 5,
+every structural check green -- acting in a character-twisted representation,
+which moved the stabiliser to 35. Closure and rank passed it; only the predicted
+stabiliser dimension caught it. An isomorphism check is not a representation
+check, and the arc now pins the representation.
+
+B8088 -- the rows are homogeneous, but arithmetically. The claim that the menu is
+"exactly one W x Galois orbit per row" was attributed to B8086, which never
+computed orbits; a row is a fibre of the type map and a fibre may be a union of
+orbits of one type. The claim holds: nine rows, nine W x Galois orbits, one-to-one.
+But under W ALONE there are 25 orbits and eight of the nine rows split. Galois
+fixes each vanishing set pointwise, so it can only fuse within a row, and it
+collapses 25 to 9. Since a single orbit forces a unique invariant measure while a
+union of k orbits admits a (k-1)-parameter family, any uniform-measure argument is
+forced by the ARITHMETIC symmetry and not the geometric one -- a hypothesis that
+must be stated rather than assumed. It also explains a number: 108 = 27x4 is four
+Galois-conjugate W-orbits of size 27.
+
+Housekeeping: a stale frontier/B792_* directory containing nothing but three .pyc
+files had been sitting untracked since 2026-08-14 and was tripping the guard that
+keeps cc3's arcs out of main. Removed. It is worth noting how it was found: a
+worktree baseline could not see it, because worktrees are clean checkouts and this
+was untracked cruft -- so the comparison reported it as a regression from this
+week's commits when it was nine days old.
+
 ## THE VEV-DIRECTION ROUTES ARE ADJUDICATED (2026-08-19) — B8085 opens, B8086 closes
 
 B990 proved the orbit-to-point gap STRUCTURAL and named exactly two routes across:

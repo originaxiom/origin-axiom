@@ -1863,3 +1863,105 @@ the object does not carry the direction — which is a result, not a failure.
 
 **Registered because it is the successor question, not because it is promising.** Prior: unstated.
 Nothing here asserts either outcome.
+
+## L168 — THE UNIFORM-MEASURE CONSEQUENCE: what the object leaves behind when it withholds the point (owner-elected 2026-08-19; ranked FIRST)
+
+**Status: OPEN, and it is the only one of the three successors that is already half-computed.**
+
+**The thought (the owner's, 2026-08-19).** Every missing ingredient the campaign found has one
+shape: *the object hands us a space of options carrying a transitive symmetry and withholds the
+point.* It supplies the **torsor** and cannot supply the **basepoint**. If so, then even where
+selection is free, the **measure** may not be — on a homogeneous space the invariant measure is
+unique. *"Statistics, unlike selection, is testable."*
+
+**What is already computed (B8088), and it both confirms and constrains the thought.** The nine
+rows of the ℤ/5 menu **are** each a single orbit — but **only under W × Galois**. Under **W alone
+there are 25 orbits and eight of the nine rows split.** A single orbit forces a unique invariant
+measure; a union of `k` orbits admits a **(k−1)-parameter family**. **So the uniqueness step is
+forced by the ARITHMETIC symmetry, not the geometric one, and that hypothesis must be stated.**
+
+**Two hard limits, computed rather than guessed, that bound where this can run:**
+
+1. **The ray is out, provably.** The inventory is *"two discrete bits, one circle, one ray."* The
+   bits and circle are **compact** — a normalised invariant measure exists and is unique. `ℝ₊` is
+   **not**: its Haar measure `dx/x` is **not normalisable**, so there is **no uniform probability
+   distribution on a ray**. The programme runs on three of the four closings and **cannot** run on
+   scale. Independently, B1015 already says no dimensionless number flows from the unit — **two
+   unrelated reasons landing on the same slot**, which is worth understanding on its own.
+2. **The circle needs a different theorem than homogeneity.** The shift group is `ℤ`, countable, so
+   it **cannot** act transitively on an uncountable circle — orbits are dense, the action is
+   **minimal**, not transitive. The circle is a torsor under `ℝ/ℤ`, not under the shift. **The
+   repair is stronger than the original claim:** an irrational rotation is **uniquely ergodic**
+   (Weyl), so Lebesgue is the *unique* invariant measure — a named theorem, not an appeal.
+
+**Falsifier, both ways.** If a measure-level prediction can be extracted and it fails, the "torsor
+without basepoint" reading of the gaps is wrong and the gaps are ordinary ignorance. If one can be
+extracted and holds, the programme has a *statistical* prediction where it has never had one — and
+Tier 2 (one sealed dimensionless ratio, still NOT DONE with no live candidate) acquires its first
+candidate lane.
+
+**What must NOT be assumed:** that a unique invariant measure is a *Born-rule* statement. Born is a
+measure on projective Hilbert space; a unique invariant measure on an orbit is Haar. The
+resemblance is suggestive and is **not** an identification. **Registered as unproved.**
+
+## L169 — THE CLOSING INVENTORY CONJECTURE: a bijection between modded-out symmetries and the closings (owner-elected 2026-08-19; ranked SECOND)
+
+**Status: OPEN. Two of four identifications banked, two computable.**
+
+**The conjecture (the owner's).** *The missing ingredients are exactly the symmetries the minimal
+description had to quotient out in order to be minimal — reversal, swap, phase, scale — returning
+as the choices actuality must make.* Two discrete bits, one circle, one ray.
+
+**Why it is not a mood.** It is a **bijection claim** between two independently constructed lists,
+so it is falsifiable by a counting mismatch alone, before any identification is checked.
+
+- **reversal ↔ time's arrow** — banked (B945: reversal and letter-swap generate a Klein group on
+  the grammar).
+- **swap ↔ chirality** — banked (same, with B582's construction and the 70 PROVED).
+- **phase ↔ the Dehn/space closing** — **to compute.**
+- **ray ↔ the value closing** — **to compute.**
+
+**The emblem, and it is stronger than it was stated.** A Sturmian word has two parameters, slope
+and intercept. `docs/THE_END_TO_END_CHAIN.md:247` — the corpus's own one-breath chain — reads
+*"minimal description is Sturmian → the principle self-selects the golden slope."* **The slope is
+selected in the founding sentence, and the intercept never appears anywhere in the chain.** The
+first torsor is present at step one, before the manifold exists. That is a fact about the corpus's
+own text, checked, not a reading imposed on it.
+
+**Falsifier.** If the quotiented symmetries and the closings fail to biject — either list longer
+than the other — the conjecture is dead as stated, and the residue (whichever side is unmatched) is
+itself the finding. **A mismatch is informative in both directions.**
+
+## L170 — THE SELECTOR EXISTENCE THEOREM: formalise the reflexive argument, or find where it breaks (owner-elected 2026-08-19; ranked THIRD, deliberately)
+
+**Status: OPEN. Ranked last, and the ranking is part of the registration.**
+
+**The argument (the owner's).** The founding principle forbids a description that closes. A world
+that stayed in the symmetric ensemble — every orbit un-pointed, every menu unchosen — would be
+finitely describable. Therefore the principle **forces** basepoints to be taken, while forbidding
+any theory to say which. *The selector's existence is derivable; its value is underivable; both
+follow from the same sentence.*
+
+**Where it is weak, stated plainly so the formalisation attacks the right joint:**
+
+1. **Ensemble ≠ world.** The nine rows fit in a table, but that table describes the **menu**, not
+   the **history**. A world with no selections still has a history, and nothing shows *that* is
+   finitely describable. The argument currently equivocates between describing the option-space and
+   describing the actuality.
+2. **It needs the principle to be about worlds.** The corpus states it about **descriptions of
+   nothing** (`THE_END_TO_END_CHAIN.md:247`). Transporting it to a claim about worlds is a step
+   that must be earned, not assumed.
+3. **The Chaitin identification is currently a metaphor.** Chaitin's theorem says a formal system of
+   complexity `K` cannot prove `K(x) > c` for `c ≫ K` — the **unprovability of lower bounds**. That
+   is not yet *"selector values transcend any axiom system."* The synthesis asserts *"that's not a
+   metaphor; it's the formal content"* three paragraphs before proposing to formalise it; **the
+   second statement is the honest one.**
+
+**Falsifier.** Either the reflexive step goes through under a precise complexity-theoretic statement
+of the principle — in which case the programme's silences are **corollaries** and should be
+presented as such — or it does not, and the silences remain **exactly what they are today**: priced
+inputs with theorems attached, which is already a defensible position and needs no upgrade.
+
+**Why ranked third.** It is the one where enthusiasm most outruns the theorem, and **the one that
+would most damage the programme if it appeared in public ahead of its proof.** Registered so it is
+not lost, ranked so it is not rushed.

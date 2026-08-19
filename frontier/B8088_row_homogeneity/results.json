@@ -1,0 +1,123 @@
+{
+ "W_alone_rows_that_are_single_orbits": 1,
+ "W_galois_orbit_sizes": [
+  4320,
+  4320,
+  2160,
+  1728,
+  1440,
+  864,
+  540,
+  144,
+  108
+ ],
+ "W_orbit_sizes": [
+  2160,
+  2160,
+  2160,
+  1080,
+  1080,
+  1080,
+  1080,
+  720,
+  720,
+  432,
+  432,
+  432,
+  432,
+  270,
+  270,
+  216,
+  216,
+  216,
+  216,
+  72,
+  72,
+  27,
+  27,
+  27,
+  27
+ ],
+ "b8086_row_counts": [
+  4320,
+  4320,
+  2160,
+  1728,
+  1440,
+  864,
+  540,
+  144,
+  108
+ ],
+ "every_row_is_one_W_galois_orbit": true,
+ "n_W_galois_orbits": 9,
+ "n_W_orbits": 25,
+ "n_elements": 15624,
+ "scope": "The W-action on the 5-torsion of the E6 torus. Establishes homogeneity of the rows and therefore UNIQUENESS of the invariant measure ON EACH ROW -- but only for the group W x Galois. Under W alone the invariant measures on a split row form a multi-parameter family. Says NOTHING about the manifold, and nothing about whether the Z/5 menu is this object's -- B8086 showed it is NOT (H_1 = Z, torsion-free). Gate 5 untouched.",
+ "splits": [
+  {
+   "W_orbit_size": [
+    2160
+   ],
+   "n_W_orbits": 2,
+   "row": 4320
+  },
+  {
+   "W_orbit_size": [
+    1080
+   ],
+   "n_W_orbits": 4,
+   "row": 4320
+  },
+  {
+   "W_orbit_size": [
+    2160
+   ],
+   "n_W_orbits": 1,
+   "row": 2160
+  },
+  {
+   "W_orbit_size": [
+    432
+   ],
+   "n_W_orbits": 4,
+   "row": 1728
+  },
+  {
+   "W_orbit_size": [
+    720
+   ],
+   "n_W_orbits": 2,
+   "row": 1440
+  },
+  {
+   "W_orbit_size": [
+    216
+   ],
+   "n_W_orbits": 4,
+   "row": 864
+  },
+  {
+   "W_orbit_size": [
+    270
+   ],
+   "n_W_orbits": 2,
+   "row": 540
+  },
+  {
+   "W_orbit_size": [
+    72
+   ],
+   "n_W_orbits": 2,
+   "row": 144
+  },
+  {
+   "W_orbit_size": [
+    27
+   ],
+   "n_W_orbits": 4,
+   "row": 108
+  }
+ ],
+ "verdict": "homogeneous, but ARITHMETICALLY: one W x Galois orbit per row, while W alone gives 25 orbits and splits 8 of the 9 rows"
+}

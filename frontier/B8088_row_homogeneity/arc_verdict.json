@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "THE Z/5 MENU IS HOMOGENEOUS, BUT ARITHMETICALLY: ONE W x GALOIS ORBIT PER ROW, WHILE W ALONE GIVES 25 ORBITS AND SPLITS 8 OF THE 9 ROWS. Tests the owner's claim, attributed to B8086, that the menu is 'exactly one W x Galois orbit per row -- perfectly homogeneous'. B8086 did NOT establish this: it verified the nine rows, their counts and that every row has rank 6, but never computed orbits, and 'one orbit per row' is strictly stronger than 'one centraliser type per row' since a row is a FIBRE of the type map and a fibre may be a union of orbits of the same type. THE CLAIM HOLDS: nine rows, nine W x Galois orbits, one-to-one, sizes matching B8086's banked counts exactly [4320,4320,2160,1728,1440,864,540,144,108]; argued rather than eyeballed, since each row is a UNION of orbits (type constant on orbits, controlled) and a partition into 9 parts refined by a partition into 9 parts is the same partition. THE SHARPENING: under W ALONE there are 25 orbits and eight of nine rows split -- only A3 (2160) is already a single W-orbit; D5's 108 is 4 x 27, A4's 1728 is 4 x 432, A5's 144 is 2 x 72, and so on. The Galois action (Z/5)* fixes each vanishing set POINTWISE (scaling a pairing by a unit cannot change whether it is zero) so it can only fuse WITHIN a row, and it does, collapsing 25 to 9. CONSEQUENCE, and it is the load-bearing one: a single orbit forces a UNIQUE invariant measure while a union of k orbits admits a (k-1)-parameter family, so the 'only object-consistent measure is uniform' step is forced by W x GALOIS-invariance and NOT by W-invariance -- the measure argument needs the ARITHMETIC symmetry as a stated hypothesis. Also explains a number: the external proposal's 108 = 27x4, offered as an observation, is literally four Galois-conjugate W-orbits of size 27. SCOPE: the W-action on the 5-torsion of the E6 torus; nothing about the manifold, and nothing about whether the Z/5 menu is this object's -- B8086 showed it is NOT (H_1 = Z, torsion-free). Gate 5 untouched.",
+ "depends_on": [
+  "B8086",
+  "B955",
+  "B990"
+ ],
+ "id": "B8088",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

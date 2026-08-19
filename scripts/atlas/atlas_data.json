@@ -18401,6 +18401,31 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B8087": {
+   "slug": "neutrino selector",
+   "motifs": [],
+   "refs": [
+    "B990"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B8088": {
+   "slug": "row homogeneity",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B808": {
    "slug": "empty cells",
    "motifs": [

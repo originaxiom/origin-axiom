@@ -10904,3 +10904,35 @@ have learned it.
 
 Both arcs assume abelian holonomy. Neither says anything about the non-abelian instance, and the
 kill graph now carries that as the hatch rather than leaving it implied.
+
+
+## 2026-08-19 (later) — the selector, and a lesson about baselines
+
+Two computations, both prompted by the owner asking for an argument rather than a result.
+
+The first was the neutrino selector. Asking for it turned out to be load-bearing rather than
+optional: B1017's ledger books one resource against a two-step rank drop, and before relaying
+"only one slot is unsourced" it had to be known whether the second VEV is forced by the first. It
+is not. What the computation *does* give is real — purity is the unique condition leaving rank 4,
+and a generic direction destroys the rank entirely — so the selector exists, as a condition. It
+just does not produce a point, and B990's gap reappears unchanged. The honest net is that the
+ledger's single row is correct only in the pair space.
+
+The second was homogeneity. A claim had been attributed to B8086 that B8086 did not make, and the
+distinction was not pedantic: one orbit per row forces a unique invariant measure, a union of
+orbits does not. The claim survived, but only for W x Galois — under the Weyl group alone eight of
+nine rows split. So the measure argument needs the arithmetic symmetry as a hypothesis. That is a
+better position than the one it replaced, because it is rejectable.
+
+Both arcs failed a control before they passed one. The spinor build produced an algebra isomorphic
+to so(10) with every structural check green, in the wrong representation; the homogeneity script
+first reported FAIL because its row key was coarser than B8086's. Neither error was caught by the
+checks that looked most like verification — closure, rank, dimension. Both were caught by a
+predicted number.
+
+The last thing is methodological and worth writing down. Nine suite tests failed, and attributing
+them to a worktree baseline said one was new. It was not: the culprit was an untracked directory of
+stale .pyc files nine days old, which a clean worktree checkout cannot see. **A worktree baseline
+compares committed state and is blind to untracked cruft** — so for any guard that globs the
+working tree, it will report inherited dirt as a fresh regression. Worth remembering the next time
+a baseline looks clean.
