@@ -25,7 +25,7 @@ quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b749_genesis_fork
 **C2 [THEOREM — the self-selection, one criterion].** Hurwitz extremality at the golden
 slope IS the all-1s continued fraction (the bottom of the Lagrange spectrum): the
 minimal-description principle applied to its own parameter has a unique fixed point.
-— P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` — **CORRECTED 2026-08-09 (B998): that file tests F4, F5, F6, F7 only. There is NO F3 test.** The F7 control is present; **F3 is a citation to a test that does not exist.**
+— P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` — **CORRECTED 2026-08-09 (B998): that file tests F4, F5, F6, F7 only. There is NO F3 test.** The F7 control is present; **F3 is a citation to a test that does not exist.** *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 
 **C3 [AXIOM — being is inexhaustible description; PRICED].** The one deep metaphysical
 commitment (P019's A0+A2 under the honest recount). Price computed: the periodic sibling

@@ -405,7 +405,7 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - **H135** [NOTICED, exact-at-100-digits — B629 cell J]: the whole E₆₂ hearing matrix lives in
   ONE field — B_ij = A_k·ζ₁₄^m ∈ ℚ(ζ₁₄, √7) ⊂ ℚ(ζ₂₈): the moduli field (the ℤ/7 sine kernel)
   and the phase field share the conductor 28 = 4·7. The Latin-square index pattern
-  [[1,2,3],[2,3,1],[3,1,2]] is verified numerically at 1e-100 but NOT yet derived symbolically
+  [[1,2,3],[2,3,1],[3,1,2]] is verified numerically at 1e-100 but NOT yet derived symbolically *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
   from the Kac–Peterson data. **Gate: the symbolic end-to-end proof (= L88); if proved, the
   circulant structure of |B|² becomes a theorem about the E₆ level-2 fusion geometry.**
 
@@ -491,7 +491,7 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 | H-MEET | (B707, 2026-07-19) **the top-down twin of our object is ARITHMETIC CHERN–SIMONS (Kim), on the Habiro ring of ℚ(√−3) (Scholze), whose regulators are complex-CS invariants (Lee/B680/B683).** Our bottom-up "measurement = Galois torsor" (B700/B701) + the 𝔽₂ seam (B704) structurally = Kim's H¹(Gal,−) arithmetic-CS torsor at ℚ(√−3). THREE rung-3 tests: (1) Kim's arithmetic-CS at ℚ(√−3) =? the B704 seam [STRONGEST]; (2) the A-poly through Scholze's K₃-Habiro → a Beilinson regulator class?; (3) Lee's motive-regulator=CS = our B680/B683? NOT Turok (method-only, generic-vs-arithmetic). | LEAD (structural meeting; math not physics; Gate 5) | 2026-07-19 | three well-posed rung-3 computations; Kim×seam is the sharpest | — |
 
 - H-TUROK (B709, 2026-07-19): θ₀=2/9 (B703, 0.89σ) and sin²θ₁₂=1/(2φ)=0.30902 (vs
-  PDG 0.307) are rung-4 single-ratios with NO mechanism (B685) — honest ONLY as
+  PDG 0.307) are rung-4 single-ratios with NO mechanism (B685) — honest ONLY as *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
   INDEPENDENT numerical hints, never derived predictions; NOT to be registered as
   framework predictions (would breach Gate 5). chat-1's claimed "existing hash" for
   sin²θ₁₂ is unverified — no such sealed claim exists in the record.

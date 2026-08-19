@@ -545,7 +545,7 @@ and its first computation.
 | **L85 — the D1 existence construction (the dictionary campaign proper)** | Build the candidate map: dial-direction → boundary restriction into H¹(T²; block) (rank 6/6, banked) → Weil quantization of the boundary (B587 machinery); C1 = the SL(2) Charles–Marché/Dimofte–Gukov baseline (B425's τ₁ = −3 as S₁, currently [CITED]); C3 = level-independence. Constraints any construction must satisfy: B595's trace/det bridge, B596's order-level failure, the E₆₂ 3≠2 dimension caveat, width-respect (B597 — which then forces uniqueness). Outcome A/B ⇒ the gated downstream opens per the cross-seat D1 prereg; outcome D ⇒ the physics claim dies, the mathematics stands. | MATH | ★★★★★ | RESOLVED as scoped (L85 campaign, outcome B, 2026-07-15) — the correspondence exists at golden κ=5, level-specially; downstream ran and closed (the interaction round, B629–B631) |
 | **L86 — deferred point 2: the object-scale coupling comparison (GATED)** | The interaction-round directive deferred it as RE-TESTING (couplings were 0/24 in B615): comparing the frozen B629 §4 run couplings (2-loop, Λ_A = \|τ₈\|/\|τ₄\|·GeV, Λ_B, μ_ref) to any framework number requires a NEW owner-level directive + a principled preregistered argument for WHY that scale, WHICH coupling, WHAT target — stated before any distance. The targets are frozen (sha 0ec9ac39…) so a future design cannot tune them. | SM-FACING | ★★ | GATED (no computation without the directive + prereg) |
 | **L87 — deferred point 3: the composite↔observable derivation (GATED)** | The ~40 Rosetta-weighted composites (B629 §3, frozen) may be compared only after a STRUCTURAL derivation (from the Rosetta table, the TDV embedding, or the three-layer separation) specifies WHICH composition ↔ WHICH observable before any distance — else it is N×M curve-fitting (the directive's exact words). | SM-FACING | ★★ | GATED (derivation first, comparison second) |
-| **L88 — the symbolic Latin-square proof of the hearing matrix** | B629 cell J found B_ij = A_k(i,j)·ζ₁₄^m(i,j) with the Latin square [[1,2,3],[2,3,1],[3,1,2]] — exact at 1e-100, sympy-verified gates (unitarity, trace −1, charpoly (x+1)(x²+1)), but not yet DERIVED from the Kac–Peterson S/T data end-to-end symbolically. A proof makes \|B\|²'s doubly-stochastic circulant a theorem of the E₆ level-2 fusion geometry (cf. H135; the sine-kernel moduli are already proved ℚ(ζ₈₄) identities). | MATH | ★★★ | OPEN |
+| **L88 — the symbolic Latin-square proof of the hearing matrix** | B629 cell J found B_ij = A_k(i,j)·ζ₁₄^m(i,j) with the Latin square [[1,2,3],[2,3,1],[3,1,2]] — exact at 1e-100, sympy-verified gates (unitarity, trace −1, charpoly (x+1)(x²+1)), but not yet DERIVED from the Kac–Peterson S/T data end-to-end symbolically. A proof makes \|B\|²'s doubly-stochastic circulant a theorem of the E₆ level-2 fusion geometry (cf. H135; the sine-kernel moduli are already proved ℚ(ζ₈₄) identities). | MATH | ★★★ | OPEN | *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 
 ## Note on the AI-assisted register's §E guard numbering
 
@@ -671,7 +671,7 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 > manifold-level** (m003 is not a knot), and **`CS = 0` is computed and banked** (B286/B289/B303).
 > **Three of four axes clear.** It fails only on the missing mechanism: `CS ↔ θ_QCD` is a
 > **postulated dictionary** (K021/K022/B143) and **no arc computes the map** — and, checked, **no
-> registered lead covers it**. L91 is the *stage-selection* gate; Campaign 2 is the *cusp↔gauge*
+> registered lead covers it**. L91 is the *stage-selection* gate; Campaign 2 is the *cusp↔gauge* *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 > dictionary; neither is this.
 > **Template:** L91's obligation (4) — a typed, functorial, monodromy-equivariant map — was
 > **specified and DISCHARGED** (B650/B644). That is the form an obligation set for this map should
@@ -781,7 +781,7 @@ clause, not the whole normalisation.
 | B921-23 | One-check in-repo item: L(Γ₄₁) is a II₁ factor (knot groups icc — standard folklore, marked [UNVERIFIED] in the report; verify once). | OPEN — routed from the harvest manifest §4 |
 | B921-24 | Standing cautions to carry with any Born cell: type-I mirage (state finite results as "stable along the tower," never as II₁ facts); name which additivity axiom carried any positive; Wright– Weigert GPT non-uniqueness; e | OPEN — routed from the harvest manifest §4 |
 | B921-25 | [MAIN-STATE] F_K/Ẑ for m004 EXISTS — Gukov–Manolescu 1904.06057 computes F_K for the figure-eight as the flagship example (+ S. Park 2004.02087, Willetts 2003.09854). Any main doc asserting "no Ẑ for m004" is one citatio | OPEN — routed from the harvest manifest §4 |
-| B921-26 | [MAIN-STATE] "No E6 T[M3]" must be recast as: T[M3,E6] exists by the ADE (2,0) construction but has never been made explicit or evaluated for ANY manifold; higher-rank Ẑ^G/F_K^G exist (Park 1909.13002, torus knots; Murak | OPEN — routed from the harvest manifest §4 |
+| B921-26 | [MAIN-STATE] "No E6 T[M3]" must be recast as: T[M3,E6] exists by the ADE (2,0) construction but has never been made explicit or evaluated for ANY manifold; higher-rank Ẑ^G/F_K^G exist (Park 1909.13002, torus knots; Murak | OPEN — routed from the harvest manifest §4 | *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 | B921-27 | [MAIN-STATE] Bianchi-IX name collision: Fan–Fathizadeh–Marcolli spectral-action papers (1506.06779, 1511.05321) concern the Bianchi classification of homogeneous cosmologies, NOT Bianchi groups PSL(2,O_K); citing them as | OPEN — routed from the harvest manifest §4 |
 | B921-28 | Narrowed novelty statement (Claim 1) to carry: regularized heat-trace asymptotics on cusped hyperbolic 3-manifolds are established (Müller 1501.07851, Park math/0111175, Friedman math/0605288); the open novelty is assemb | OPEN — routed from the harvest manifest §4 |
 | B921-29 | [MAIN-STATE] Main's "certified" B792 claims now have their generators in-repo (sector_projection_test.py, certify_mode_count.py, weyl_scattering_check.py — the only scattering-corrected completeness screen — and the m003 | OPEN — routed from the harvest manifest §4 |
@@ -1417,7 +1417,9 @@ owed is the decision and its re-derivation.
 **B1009 withdrew that as a scope overreach.** B996 and B993 establish that the **E₆ WAYPOINT** is
 generic — 5 of 7 metallic grammars at modulus 3, ~1 in 3 manifolds — **but nothing computes what a
 non-golden grammar produces DOWNSTREAM of E₆.** A repo-wide search over every `arc_verdict.json`
-found **no arc running the cascade on any m ≥ 2 grammar.**
+found **no arc running the cascade on any m ≥ 2 grammar** *(stamp 2026-08-19: OVERTAKEN
+on 2026-08-10 by B1019, sealed ce6b0329 — the silver/bronze grammars have NO McKay door
+at all, so no m ≥ 2 cascade can BEGIN; the absence became a theorem one level up)*.
 
 **And B997 cuts the other way:** at each word's own conductor the golden **is** unique, so the
 family members are **demonstrably not equivalent**. Assuming their cascades coincide is exactly the
@@ -1648,7 +1650,7 @@ one hit = B879's unrelated Davydov–Yetter associator) while owning
 `frontier/B700_fiber_functor`. **The open question: the classical obstruction to
 neutrality lives in DEGREE-2 nonabelian cohomology; everything banked lives in H¹
 (B701's torsor, B704's 𝔽₂-space, B782's action). Is the programme's H¹ the
-torsor-classification layer inside a gerbe whose degree-2 class was never computed — or
+torsor-classification layer inside a gerbe whose degree-2 class was never computed — or *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 is the gerbe neutral and H¹ the whole story?** Third level-mismatch of the session
 (B957's "one level too high"; the pointed-set correction; H² vs H¹). **GATE: the
 Deligne–Milne reading comes before any banking** (the audit seat's bench-exists caveat:
@@ -1837,9 +1839,13 @@ computation — EXECUTED (B1070, Track A, 2026-08-18; every adversarial attack f
 the orbit/stabilizer run returned outcome (b) of the trichotomy — a distinguished
 finite orbit (12, the order-5 vertex type), with u3/u6 the UNIQUE Galois-individually-
 fixed pair inside it: existence POSITIVE, uniqueness THE PAIR. The lead's remaining
-open half is spec-compliance as a completed listener map: AC3 (the sister transplant —
-needs the silver instrument) and AC6 (type conformance on the u-dependent functionals)
-are UNATTEMPTED; the B1071 seal certifies the DERIVATION only. **Why it matters**: the
+open half was spec-compliance as a completed listener map — **and both halves FILLED the
+day after registration** *(corrected 2026-08-19 by the stale-absence sweep; this passage
+previously said UNATTEMPTED)*: AC3 FILLED by B1072 (PROVED — the silver SU(4)-level-2
+instrument built exactly, Λ run verbatim; field-generic rule, object-specific
+selectivity); AC6 CLOSED by B1073 (PROVED + same-day addendum — every coupling value
+ℚ(ζ₅)-algebraic by construction, both channels). The B1071 seal certifies the DERIVATION;
+the spec's STATUS ADDENDUM carries the full row-by-row account. **Why it matters**: the
 main-goal directive (2026-08-18) — the bridge to SM physics runs through THE CROSSING
 CELL, whose one unknown is u; R11's open lane (coupling → mixing) consumes no anchors,
 so a constructed u yields sealed predictions with nothing in. Feeds: the crossing cell's

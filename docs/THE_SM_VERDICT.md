@@ -253,7 +253,7 @@ result would have to come from, and nowhere else.
 **Where this verdict now sits against `WHAT_WOULD_COUNT.md`:** **Tier 0 complete** (the object forced
 up to one bit, and the bit is where φ enters). **Tier 1 substantially complete** — with **ℤ₆ (B862)
 and the hypercharge direction (B864) genuinely DERIVED**, which is full credit by that document's own
-bar. **Tier 2 — one sealed dimensionless ratio no class-sibling shares — remains NOT DONE**, and
+bar. **Tier 2 — one sealed dimensionless ratio no class-sibling shares — remains NOT DONE**, and *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 B993 explains why it is hard rather than merely unattempted.
 
 

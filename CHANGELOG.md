@@ -1,5 +1,45 @@
 # Changelog
 
+## B1080 + THE SPINE + the stale-absence sweep + the cold-audit corrections (2026-08-19, ninth bank) — the global form is FORCED; the record stops re-hiding its own breakthroughs
+
+B1080 THE GLOBAL FORM (verifier-corrected grade): Gamma = Z/6 is FORCED
+uniformly on the SM core at every landing of every menu row — the
+electric-charge lattice quotients the center exactly; row 1's full
+symmetry is Z/6 x Z/2; row 4's own-level group is Z/5 (the verifier
+caught the first Gamma = 1 typing; triple-derived correction banked);
+deflation credit: the Z/6 itself was BANKED at B862 — this arc's new
+content is the UNIFORMITY across the menu and the row-4 correction. THE
+SPINE (scripts/views/spine.py -> docs/views/THE_SPINE.md): 968 living
+test locks joined to their git birth dates and arc verdicts — 69 build
+days, the true chronology, the owner's lost-track answer as a standing
+view. THE STALE-ABSENCE SWEEP APPLIED (12 fixes + 16 currency stamps +
+1 ambiguity ruled): every doc claim of absence/openness that newer arcs
+had overtaken is corrected in place with dated stamps (top fixes:
+README's cascade-absence -> B1019's no-door theorem; THE_FRAMEWORK's
+L150-open -> B1016 SEPARATE; LISTENER_MAP_SPEC gains a STATUS ADDENDUM
+— registered 2026-08-18, largely ANSWERED within 48h by B1070-B1073;
+SM_SPECIFICATION's three-crossings row -> SEVEN sealed, seven negatives;
+LAW_MAP's B932 row scoped by B1079's Kac-marks mechanism); 16 absences
+verified still-CURRENT get "as of B1082" stamps; T-MAGIC's row stamped
+AMBIGUOUS with both readings recorded. THE COLD-AUDIT CORRECTIONS
+LANDED (cc3's consolidated relay, integrate-don't-merge): B1079's
+torsion attribution SCOPED (the Z/5 menu belongs to the m = 5 FILLING —
+golden m = 1 is torsion-free; the counting-measure prior is the
+family's, the mechanism and uniqueness the object's; the W x Galois
+homogeneity hypothesis now STATED, 9 orbits <-> 9 rows, 25 under W
+alone, 108 = 4 x 27); B1076's summary phrasing corrected (the character
+of B1 with kernel {I, chi_a} — raw sign(lambda^2) is not a character;
+results JSON was always right); THE FORCED AND THE FREE Sec.3 repaired
+(Born-vs-Haar registered UNPROVED, Gleason missing; the ray OUT — Haar
+dx/x non-normalisable, no uniform prior on scale; the circle upgraded
+to unique ergodicity via Weyl). The reply-relay to cc3 answers their
+one question: H(chi) = H_plus * diag(struct[chi]) with struct[chi]
+solving the invariance equation at the outer twist sigma_chi o tau
+(B936's solve_H_outer) — a SOLVE not a conjugation, which is why odd
+flip-counts exist and their disproof of the conjugation model is
+consistent with the construction. Doc-currency reads written for
+WORKING_RULES and THE_LADDER (B1071-B1082 rung movements).
+
 ## B1081 + B1082 + the origin/blanket additions (2026-08-19) — the atom is neutral BY THEOREM; the cosmological match holds conditional; the founding rule was the first torsor-point; the blanket re-filed as MATH
 
 B1081 THE HYDROGEN AUDIT (the inverse chain; verifier HOLDS after its own

@@ -43,3 +43,19 @@ are the object's own weights.**
 
 ## Artifacts
 - `b1079_results.json` (all three agents verbatim, scrubbed).
+
+---
+
+## ADDENDUM 2026-08-19 (the cold audit's §1 — the torsion attribution, corrected)
+
+The audit seat's consolidated relay caught the banked phrase *"the object's own weights"*:
+H₁(M_m) ≅ ℤ ⊕ (ℤ/m)², so **the golden m = 1 member is TORSION-FREE — the ℤ/5 menu belongs
+to the m = 5 filling (trace 27), which is not a knot complement at all.** The census stands
+(their B8086 confirms it bit-for-bit independently; they prefer our Kac-marks mechanism
+over their own brute force), the mechanism stands, the measure-uniqueness stands — **the
+attribution is scoped**: the counting measure is the prior ON THIS ℤ/5 FAMILY, supplied by
+the closing taken (the ±5 slope — itself the free "one sign" residue), with the object
+supplying the mechanism and the uniqueness. AND the uniqueness hypothesis is now STATED
+(their B8088): the rows are single orbits under **W × Galois** (nine-to-nine, verified) but
+split into 25 orbits under W alone — the arithmetic symmetry is a named hypothesis, which
+makes the claim rejectable. Their gem recorded: 108 = 4 × 27 Galois-conjugate W-orbits.

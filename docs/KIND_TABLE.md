@@ -87,7 +87,7 @@ comparison DRAWS on it. Booking, coupling channel (arc-cited):
 | tones (the five-tone set) | **CONSUMED** | B1066 R-B (the φ-geometric triple; MISS, decisive) |
 | probability (\|h\|²) | **CONSUMED** | B1066 R-A (the listener pair; MISS, decisive) |
 | phases (arg h ∈ {0, ±2π/3}) | **CONSUMED** | B1027 + B1063 (the pre-committed refresh; MISS both sectors) |
-| **mirror set (θ-even)** | **UNCONSUMED — the last licensed row** | never drawn on by any sealed comparison (B1011 C6 delivered the set; no arc took it to data) |
+| **mirror set (θ-even)** | **UNCONSUMED — the last licensed row** | never drawn on by any sealed comparison (B1011 C6 delivered the set; no arc took it to data) | *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 
 Reading note: B1066's "the kind table's current rows were both consumed here" counts the
 TWO rows its own relations drew from (tones, probability) — the plain reading, since the

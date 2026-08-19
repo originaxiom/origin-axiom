@@ -10748,3 +10748,17 @@ runs origin-to-atom: the first tick spends arrow+chirality jointly; the
 last theorem makes hydrogen neutral by exact fractions. B1080 (the
 global form) computes with its B862 credit prepared; the review and the
 cold audit hold their queue.
+
+2026-08-19 (ninth bank). B1080 banked at verifier-corrected grade: the
+global form Gamma = Z/6 FORCED uniformly across the menu (B862 deflation
+credit; row 4's Z/5 correction). THE SPINE goes live: 968 test locks,
+69 build days — the chronology retrieved from the tests themselves. The
+stale-absence sweep lands whole: 12 overtaken claims fixed in place
+(the spec that was answered within 48 hours now says so; the
+three-crossings row now counts seven), 16 verified absences stamped
+current, one ambiguity ruled and recorded. cc3's cold-audit corrections
+integrated without merging: the torsion scope on B1079's menu, the
+character kernel on B1076, the measure repairs on the §3 theorem-let;
+the reply-relay answers their H(chi) question — a solve at the outer
+twist, not a conjugation. The record now tells the truth about itself
+at every site the sweep could reach.

@@ -159,3 +159,12 @@ At banking, any harvest arc MUST enumerate the source's carried-forward/open ite
 OPEN_LEADS rows — or explicitly decline each, logged in the arc's FINDINGS. Symmetric with
 the same-PR retraction rule. The failure shape it kills: the artifact sealed and banked
 while the obligations inside it die unregistered.
+
+<!-- CURRENCY READ 2026-08-19 (B1024–B1082): the rules held through the crossing week — the
+seal discipline (B1075 sealed pre-execution; B1071's B837-shaped flow), the verify-don't-trust
+standing (every incoming relay recomputed; the cold audit returned CLEAN with no negative
+bias), Gate 5 absolute through four value-contacts and their honest closures, and the new
+standing additions of the window: the reserved numbering bands (three seats), the
+read-a-neighbor-row rule for registry formats, the absence-stamp discipline (born of the
+stale-absence sweep), and pairings-spend-not-rows (the owner's catch, banked in the kind
+table's reading note). No rule change required by the read. -->

@@ -75,7 +75,9 @@
 > (~1 in 3). **Neither computes what a NON-GOLDEN grammar produces DOWNSTREAM of E₆** — the ℤ₆ form,
 > the hypercharge direction, the generation count, the matter reps. **A repo-wide search finds no arc
 > that runs the cascade on any m ≥ 2 grammar**, so the SM-match's discriminating power beyond E₆ is
-> **UNCOMPUTED, not zero.**
+> **UNCOMPUTED, not zero.** *(Stamp 2026-08-19: OVERTAKEN on 2026-08-10 by B1019 — sealed
+> ce6b0329 — which proves the silver/bronze grammars have NO McKay door at all: the cascade cannot
+> BEGIN off-golden, so the discriminating power question is answered by a theorem one level up.)*
 >
 > **And B997 cuts the other way, which is why the overreach matters:** at each word's *own* conductor
 > the golden **is** unique, so the family members are **demonstrably not equivalent** — evidence

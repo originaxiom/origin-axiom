@@ -201,3 +201,15 @@ The read at head B1070 (the field masterplan + the crossing preparation). Rungs 
   (the honest tail — BLIND rungs by this file's own grammar, listed in B1068).
 - **THE ANCHOR RUNG**: R11's open lane confirmed consuming NOTHING (the crossing's
   designed shape is zero-anchor); L154's σ-identification stays the strengthening prize.
+
+## CURRENCY ADDENDUM — 2026-08-19 late (B1071–B1082): the rungs after the crossing week's close
+
+B1075 executed and MISSED at power (the coupling channel's value story CLOSED by four fair
+seals); B1076 decided the mass lane (the hierarchy coboundary-carried; nature-supplies-the-
+gauge posed); B1077 proved the intrinsic layer split; B1078/B1079 ran the selector double-
+experiment (the gauge observation; the menu's honest silence + the row-choice FREE with the
+counting-measure prior — SCOPED post-audit to the ℤ/5 filling family, not the bare object);
+B1080 forced the global form ℤ/6 at every landing (B862 extended); B1081 typed the atom
+(neutrality a theorem; EWSB/spin-statistics the honest outside); B1082 verified the forcing
+DAG with the conditional cosmological match. X31 corrected (the blanket is MATH — S072/B761).
+The cold audit returned CLEAN. THE RANK WALL stands as the marked center of what remains.

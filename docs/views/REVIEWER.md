@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **985** |
-| words of findings prose | **671,354** |
+| research arcs with findings | **986** |
+| words of findings prose | **671,888** |
 | test lock files referenced | **602** |
-| arcs carrying an authored verdict | **972** (98.7 %) |
+| arcs carrying an authored verdict | **973** (98.7 %) |
 | recorded closures | **755** (588 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 644 |
+| PROVED | 645 |
 | NEGATIVE | 285 |
 | OPEN | 33 |
 | RETRACTED | 10 |
@@ -69,8 +69,8 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE ORDER COMPARISON (2 agents; the verifier FAILED the first typing on the missing model-disclosure and PASSED the computational spine — this bank carries the corrected grade): the chain's forcing DAG stands verified edge-by-edge with banked citations (axioms -> L/R -> m004 -> kappa -> Q(sqrt-3) -> 2T -> McKay E6 -> the 27/torus -> the cascade 78/46/30/18/12 with the dim-14 second-measurement landing a PARALLEL branch -> the u(1)-rich terminals under B952's rank obstruction; the 2T-access class-generic, the field m004-specific), and the cosmological verdict is CONSISTENT-ORDER CONDITIONAL-ON-GUT-MODEL on the type-comparable segment: from E6 onward the descent matches E6/SO(10)-type breaking edge-for-edge with no inversion, does NOT match minimal SU(5) (no U(1)-rich intermediate) — the conditional honest twice over: model-relative as the lens demanded, AND the corpus's own banked row excludes minimal SU(5) by proton decay so the surviving standard roads are exactly the U(1)-rich ones; the pre-E6 layers are NOT-COMPARABLE (they select the GUT algebra, they are not an era); the chain's own no-go stops the descent before cosmology's SM/EM stages (a bounded-prefix match); an order-match is a consistency of shape, never a mechanism claim. Housekeeping: the B909/B952 promotion-currency lag registered; one quote-attribution fixed.  
 `B1082_order_comparison/FINDINGS.md`
 
-**NEGATIVE — `B1076`** (403 words, 0 locks)  
-THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b (a3/a5), D2 = chi_a.chi_b}; the two never-computed Hermitian diagonals derived by two agreeing routes; B923's machinery re-executed at all four gauges (117 checks, 0 fail; independent numeric route to 1e-53): lambda = 1, 864/413, 6912/3047, 2304/953 with HIER-analogs of leading coefficient exactly denom^4 and three distinct real roots at every non-identity gauge; CCC = 3! lambda HOLDS COSET-WIDE; sign(lambda^2) is a NEW nontrivial exact character of the Klein group (negative on {I, chi_a}, positive on {chi_b, D2}). THE LANE VERDICT: no coset-invariant value-bearing mass-ratio-shaped residue exists -- every value quantity is element-specific, every symmetrization structureless, and the seductive coset-wide 77 (the hierarchy discriminant's squarefree part at all three nontrivial gauges) was KILLED BY THE CELL'S OWN VACUITY CONTROL (K-forcedness: it holds for a control diagonal unrelated to the coboundary structure) -- the mass-ratio lane's reopening condition is DECIDED CLOSED by its own named computation at gauges never before visited; if a physical hierarchy uses this structure, NATURE SUPPLIES THE GAUGE, and which-datum-picks-the-gauge is the well-posed successor. Observation unweighted: 7 | 413 and 11 | 3047 -- each unmeasured-pair prime divides exactly one new gauge's denominator; no mechanism claimed.  
+**NEGATIVE — `B1076`** (428 words, 0 locks)  
+THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b (a3/a5), D2 = chi_a.chi_b}; the two never-computed Hermitian diagonals derived by two agreeing routes; B923's machinery re-executed at all four gauges (117 checks, 0 fail; independent numeric route to 1e-53): lambda = 1, 864/413, 6912/3047, 2304/953 with HIER-analogs of leading coefficient exactly denom^4 and three distinct real roots at every non-identity gauge; CCC = 3! lambda HOLDS COSET-WIDE; the NEW nontrivial exact character of the Klein group with kernel {I, chi_a} (= sign(lambda^2) normalized by its identity value; phrasing corrected 2026-08-19 per the cold audit — the results JSON always stated it correctly). THE LANE VERDICT: no coset-invariant value-bearing mass-ratio-shaped residue exists -- every value quantity is element-specific, every symmetrization structureless, and the seductive coset-wide 77 (the hierarchy discriminant's squarefree part at all three nontrivial gauges) was KILLED BY THE CELL'S OWN VACUITY CONTROL (K-forcedness: it holds for a control diagonal unrelated to the coboundary structure) -- the mass-ratio lane's reopening condition is DECIDED CLOSED by its own named computation at gauges never before visited; if a physical hierarchy uses this structure, NATURE SUPPLIES THE GAUGE, and which-datum-picks-the-gauge is the well-posed successor. Observation unweighted: 7 | 413 and 11 | 3047 -- each unmeasured-pair prime divides exactly one new gauge's denominator; no mechanism claimed.  
 `B1076_coboundary_sweep/FINDINGS.md`
 
 **RETRACTED — `B964`** (743 words, 0 locks)  

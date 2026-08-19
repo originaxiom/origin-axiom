@@ -33,7 +33,7 @@ motivated, not forced" — the corpus's own words). The reflexive argument's tru
 A1–A6's exact text, not the paraphrase "no finite description closes." **Successor 1**
 (the Selector Existence Theorem via Kolmogorov complexity — the actual world's
 description strictly extends the object's) is the formalization that would discharge
-this; until it exists, §2 is firewalled speculation. The Chaitin identification (the
+this; until it exists, §2 is firewalled speculation. The Chaitin identification (the *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 selectors as incompressible bits provably exceeding every axiom system) is the same
 debt's second face: evocative, formalizable, not yet formal.
 
@@ -45,7 +45,16 @@ description. Any measure on T expressible from that description must be G-invari
 a non-invariant μ defines a proper, point-favoring subset of T (where μ exceeds its
 minimum), i.e. a basepoint's worth of information, which is exactly what minimality
 withholds (the same argument in both cases). Invariance + transitivity forces: on
-finite T the counting measure; on the hull-circle, Lebesgue. ∎ (The "expressible"
+finite T the counting measure. ∎ **REPAIRS 2026-08-19 (the cold audit's §3, both
+strengthening):** on the hull-circle the shift group is ℤ — countable, so the action is
+MINIMAL, not transitive; the right theorem is **unique ergodicity** (Weyl: irrational
+rotations — Lebesgue is THE invariant measure, a named theorem replacing the homogeneity
+appeal). And **the ray is provably out**: Haar on ℝ₊ is dx/x, non-normalisable — THERE IS
+NO UNIFORM PRIOR ON SCALE (converging with B1015 from an unrelated direction). The
+finite-menu instantiation is SCOPED per B1079's addendum: the ℤ/5 family's prior (the
+filling's menu; the object's mechanism and uniqueness), with the uniqueness hypothesis
+stated — W × Galois homogeneity, not W alone. Born-vs-Haar stands registered UNPROVED
+(Gleason is the missing bridge — the audit seat's fence, adopted). (The "expressible"
 clause inherits successor 1's formal frame; the finite-case core is elementary and
 unconditional.)
 

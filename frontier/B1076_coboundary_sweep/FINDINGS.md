@@ -30,8 +30,10 @@ GAUGE — 'which datum picks the gauge' is now the well-posed successor question
   own denominator; HIER-analogs with leading coefficients EXACTLY denom⁴; three distinct
   real roots at every non-identity gauge vs I's degenerate (x+3)³.
 - **CCC = 3!·λ holds at ALL FOUR gauges** — B923's law is coset-wide.
-- **A NEW exact character**: sign(λ²) is a nontrivial character of the Klein group B¹ —
-  negative on {I, χ_a}, positive on {χ_b, D2}.
+- **A NEW exact character** *(phrasing corrected 2026-08-19, the cold audit's finding —
+  the results JSON always stated it correctly)*: the nontrivial character of B¹ **with
+  kernel {I, χ_a}** — i.e. sign(λ²) normalized by its identity value (raw sign(λ²) sends
+  I to −1 and is not itself a character).
 - **An observation, unweighted (B888's discipline, the vacuity lesson fresh)**: 7 | 413
   and 11 | 3047 — each unmeasured-pair prime divides exactly one new gauge's denominator.
   Recorded as observation only; no mechanism claimed.

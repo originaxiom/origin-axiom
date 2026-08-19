@@ -176,8 +176,11 @@ metallic family the coupling obeys a **period-5 law with h(5) = −1 exact and R
 listener-invariant** — *"the coupling FORCES a value rather than carrying one"* (B856). **This is
 the observer-coupling reorientation as a theorem, and it is the banked prototype of "predict the
 coupling, not the values."** Its relation to this layer's Hermitian forms (v†Hv on the 27, D₂, the
-twist-norm law) is **an open, computable question — L150**: the two eras compute the same shape and
-have never been joined. *Honest scope: B856's one SM reading (JUNO) was refuted on kind.*
+twist-norm law) was posed as **L150 — and CLOSED the same day (2026-08-10) by B1016 (sealed
+59f51572): SEPARATE**, by two exact obstructions (the coupling ratios carry φ while no pair-side
+field does; the banked 27-actions are 2-groups while ρ₆ contains the perfect 2I). Two independent
+value structures; any crossing candidate must declare its channel (R10). *(This sentence previously
+still posed the question as open — corrected 2026-08-19 by the stale-absence sweep.)* *Honest scope: B856's one SM reading (JUNO) was refuted on kind.*
 
 Exact arithmetic, no fitting: **I = −1** as the Leibniz sign (B908); **λ = 2304/953**
 forced, with 2304² = 2¹⁶·3⁴ **derived** (B931); the **one-class theorem** and its
@@ -412,7 +415,7 @@ without it, a ToE claim and a coincidence are indistinguishable from the inside.
   The corpus cites the framework zero times while owning `B700_fiber_functor`. The
   open classical question: the neutrality obstruction lives in degree-2 nonabelian
   cohomology; everything banked lives in H¹ — is the banked H¹ the torsor layer of a
-  gerbe whose degree-2 class was never computed? Nothing banks before the
+  gerbe whose degree-2 class was never computed? Nothing banks before the *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
   Deligne–Milne reading.
 - **The three (ℤ/2)³'s are two-thirds one structure** (L160): B766 proves γ₃ ≡ c (the
   being-Galois IS conjugation) and states γ₅ = √5's sign; B733 embeds the observer

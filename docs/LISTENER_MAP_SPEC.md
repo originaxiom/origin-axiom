@@ -3,8 +3,10 @@
 **Registered 2026-08-18** · produced by the field-masterplan's W5 cell (3 agents: spec /
 license / adversarial check; the cell's outputs appear VERBATIM below; the one repair the
 adversarial lens forced is made in the bench header, never silently inside the cell text).
-Status: **REGISTERED, NOT ATTEMPTED** — this document poses the problem; solving it is the
-crossing cell's job (the main-goal directive of 2026-08-18: the bridge to SM physics runs
+Status: **REGISTERED 2026-08-18 → LARGELY ANSWERED WITHIN 48 HOURS — see the STATUS
+ADDENDUM at the end** (B1070/B1071: Λ constructed, sealed, PROVED; the registration text
+below is preserved verbatim as the record of the pose). Originally: this document poses
+the problem; solving it is the crossing cell's job (the main-goal directive of 2026-08-18: the bridge to SM physics runs
 through constructing u from field data, never fitting it). `doc-currency` living document.
 
 **Verdicts at registration**: license 6/6 fences COMPLIANT (table below) · adversarial
@@ -155,7 +157,7 @@ G7 — Whether 2T's representations other than chi (its other nontrivial irreps)
 
 G8 — No no-go exists either. It has not been shown that Lambda CANNOT exist (the S3-style obstruction form, per the existence question) — the question is open in both directions, not leaning negative by default.
 
-G9 — B1066's fuller sense of "listener map" (assigning a PHYSICAL apparatus/observable to each admissible u) is a further layer this spec does not ask to be built: no licensed pairing beyond KIND_TABLE's coarse rows is banked ("no such pairing is banked, and the kind table's current rows were both consumed here" — B1066), and Gate 5 forbids constructing one by fitting (F1). That layer is named as a boundary of this problem, not a gap this construction should try to close.
+G9 — B1066's fuller sense of "listener map" (assigning a PHYSICAL apparatus/observable to each admissible u) is a further layer this spec does not ask to be built: no licensed pairing beyond KIND_TABLE's coarse rows is banked ("no such pairing is banked, and the kind table's current rows were both consumed here" — B1066), and Gate 5 forbids constructing one by fitting (F1). That layer is named as a boundary of this problem, not a gap this construction should try to close. *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 
 ---
 
@@ -247,3 +249,40 @@ outcome either way.
 contact row in the coupling channel**; any future contact through it = a new arc under a
 new seal, only after a constructed Λ pins u. Tracks A1–A3 run as a workflow at this
 document's registration (wf_e25251a5-72a).
+
+
+---
+
+## STATUS ADDENDUM — 2026-08-19 (the stale-absence sweep; the registration text above is the POSE, this block is what happened)
+
+The spec was answered faster than any registration in the programme's record. Row by row
+against the gap list (each verdict banked, none re-derived here):
+
+- **The construction itself (G1, G2, G8)** — CLOSED POSITIVE. B1070 (PROVED) and B1071
+  (SEALED, PROVED; three independent re-implementations, zero errors) construct Λ: on
+  ℂP¹_odd the exceptional orbits under Aut(2T×2I) × Gal(ℚ(ζ₆₀)/ℚ) are 12/20/30 (+ generic
+  60); **u3/u6 are the unique pair fixed individually by all 16 Galois automorphisms in
+  the minimal (order-5 vertex) orbit** — Λ = "the minimal exceptional orbit's Galois-fixed
+  directions" outputs exactly {u3, u6}. Existence POSITIVE; uniqueness = THE PAIR, derived
+  not conventional. G8's no-go was never needed: §1.2's own "A POSITIVE CONSTRUCTION"
+  outcome is the one that happened.
+- **G3 (the B1040-S3 trichotomy on THIS instrument)** — CLOSED. B1070 runs it and lands
+  outcome (b): a distinguished finite orbit (size 12) — definitive, non-degenerate.
+  B1071 independently reproduces it.
+- **G4 (the stabilizer/orbit computation)** — CLOSED, as this spec's own Track A1. The
+  orbit census above IS that computation; B1071 proves the fourth-orbit exclusion via a
+  Möbius two-fixed-point bound.
+- **G5 (B856's invariance beyond the tested segment)** — CLOSED. B1070 upgrades B641's
+  ear-independence from an 11-point real segment to THEOREM-EXACT over the whole of
+  ℂP¹_odd: M_odd(g) = χ(g)·W(g) with W ∈ SU(2) exactly for all 2880 elements, so
+  Re h = half-trace for EVERY unit u. B1071 re-verifies at zero failures.
+- **The silver instrument (:86) and AC3/AC6** — BUILT and FILLED. B1072 (PROVED)
+  constructs SU(4) level 2 exactly (10 primaries, κ = 6, ΣΣ† = 864·I, group order
+  18432 = 2¹¹·3², proper Goursat subdirect, no order-5) and runs Λ verbatim: the rule is
+  FIELD-GENERIC, the selectivity OBJECT-SPECIFIC. B1073 (PROVED + same-day addendum)
+  closes AC6 on both channels (every coupling value ℚ(ζ₅)-algebraic by construction; the
+  composition gate h(w) = χ(w)·W(w)₁₁).
+- **Still genuinely open**: G6 (the ℤ/3 naming collision — unexamined, still flagged),
+  G7 (the non-χ irreps of 2T), G9 (the physical-apparatus layer — a boundary by design,
+  and the fourth sealed crossing B1075 that used this listener MISSED at power, closing
+  the coupling channel's value story). OPEN as of B1082.

@@ -16,6 +16,15 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 ninth bank, B1080 + THE SPINE + the sweep + the
+audit corrections)**: Gamma = Z/6 FORCED uniformly (B1080,
+verifier-corrected, B862 credit); THE SPINE view live (968 locks / 69
+days); the stale-absence sweep applied repo-wide (12 fixes + 16 stamps
++ T-MAGIC ruled); cc3's cold-audit corrections landed (B1079 torsion
+scope + W x Galois hypothesis; B1076 character kernel; FFF Sec.3
+Born/ray/circle repairs) and the H(chi) reply-relay sent. The crossing
+week's record is now self-consistent at every swept site.
+
 **LATEST (2026-08-19 eighth bank, B1081 + B1082 + the origin/blanket
 additions):** THE NEUTRALITY THEOREM — hydrogen's charge cancellation is
 exact weight-lattice arithmetic (2(2/3) + (−1/3) + (−1) = 0), the e/3
