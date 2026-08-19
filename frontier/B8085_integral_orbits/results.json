@@ -1,0 +1,20 @@
+{
+ "all_counters_trivial": true,
+ "candidate_counters": {
+  "h": 1,
+  "h+": 1,
+  "|Cl/Cl^2|": 1,
+  "|Cl/Cl^3|": 1
+ },
+ "class_group": "[]",
+ "disc": 6237,
+ "h": 1,
+ "h_narrow": 1,
+ "h_narrow_independent": 1,
+ "prior": "UNFAVOURABLE (B990), adopted unchanged",
+ "prior_held": false,
+ "scope": "Computes the class-arithmetic of K = Q[x]/(x^3-12x-5) with two independent engines. Does NOT claim h=1 as a finding (already banked) and does NOT claim the integral orbit count equals any of these quantities -- identifying the counter is Kato-Yukie/Bhargava integral theory and is registered as owed. The result is that the arithmetic obstruction B990 expected is absent, not that the gap is closed.",
+ "signature": "[3, 0]",
+ "signature_rank_F2": 3,
+ "signature_surjective": true
+}

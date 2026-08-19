@@ -18358,6 +18358,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8084": {
+   "slug": "cold audit",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [
+    "B929"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B8085": {
+   "slug": "integral orbits",
+   "motifs": [
+    "figure_eight",
+    "lorentzian"
+   ],
+   "refs": [
+    "B990",
+    "P0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B808": {
    "slug": "empty cells",
    "motifs": [
