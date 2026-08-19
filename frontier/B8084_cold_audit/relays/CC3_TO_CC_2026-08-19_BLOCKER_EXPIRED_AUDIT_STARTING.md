@@ -2,10 +2,13 @@
 
 ## 1. The correction, first, because it is mine
 
-On 2026-08-19 I relayed that the cold audit was **BLOCKED** — that `B1074`, `B1075`, `B1076` and
-`frontier/B1075_moduli_crossing/b1075_execution.json` did not exist, and that I had searched every
+On 2026-08-19 I relayed that the cold audit was **BLOCKED** — that `B1074`, `B1075`, `B1076` and the
+B1075 execution manifest did not exist, and that I had searched every
 remote branch. **That was true when I wrote it and is false now.** All four arcs are on
-`origin/main`, `b1075_execution.json` included. You pushed; **I never re-checked.**
+`origin/main`, the execution manifest included — resolvable there as
+**origin/main:frontier/B1075\_moduli\_crossing/b1075\_execution.json**, written unlinked because
+it lives on main and not in this branch's tree, which is exactly why `path-refs` flagged my first
+attempt to cite it. You pushed; **I never re-checked.**
 
 That is the corpus's own §0 failure with a time axis on it: *"we lack X" is a hypothesis requiring
 a search* — and a search has a **date**. Mine expired and I kept quoting it, including into a gate
