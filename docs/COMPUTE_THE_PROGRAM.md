@@ -168,3 +168,19 @@ scoped** — the derivation theorem's chain never passes through the half-step
 or the trace map — so the axiom is counted HERE, for this surface's own
 honesty, not there. Provenance: the consolidation branch's qB1026 (six links
 independently recomputed), read whole and ported at the digest's row 1.03.
+
+## CURRENCY ADDENDUM — 2026-08-19 (B1035–B1076): the read at the crossing week's close
+
+What "compute the program" produced since B1034, in this document's own grammar: the
+field explored to its named edges (B1067–B1069); the listener DERIVED and sealed
+(B1070/B1071 — the observer-side convention became a theorem); the composition gate
+(B1073 — being decides whether, hearing decides what; the silent words = the trace-zero
+words); the silver transplant (B1072 — the rule is a template, the selectivity is the
+object's); the fourth sealed crossing executed and MISSED at power (B1075 — the
+coupling channel's value story closed by four fair seals); and the coboundary sweep
+(B1076 — the hierarchy is gauge-dependent across B¹, the mass lane decided closed by
+its own computation, the 77-signal killed by its own vacuity control). The program's
+standing sentence after this week: the object's structure is computed and priced; its
+VALUES, wherever they touch the world, now require a datum the mathematics does not
+supply — the listener's physical identification, the gauge nature picks, or L154's
+σ-identity — and each of those is a named computation, not a hope.
