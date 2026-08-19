@@ -50,6 +50,23 @@ have been lost *and could have been won*, with a win worth something.
 success is required, not pessimism.** The arc reported the hit shape rather than suppressing it,
 and stated the number that disqualifies it.
 
+## F4 — B1074's parity law is **not** a dressed-up tautology *(vacuity probe)*
+
+The first thing to ask of any "theorem" in a bias audit is whether it is vacuous — a statement
+that could not have failed. The parity law reads `det-ratio₂₇(frame) = (−1)^flips`, which looks
+dangerously close to the identity `det(diag(±1)) = (−1)^{#(−1)}`. **If it were that, it would hold
+for every sign pattern, canonical or not, and would say nothing.**
+
+It is not. cc's own MB12 bite reports the non-canonical frames `D2/D2D` at
+**det-ratio = −17/384**, which is not `±1`. **The law fails off `G`** — so it genuinely separates
+the canonical frames from the rest, and has content. The reported numbers are also internally
+consistent: 5 of the 9 `W3` indices flipped gives `(−1)⁵ = −1`, matching the sign of `−17/384`;
+`3129 = 3·7·149` is squarefree, so `ℚ(√3129)` is a genuine quadratic field; `−17/384` is in lowest
+terms.
+
+**This cuts in cc's favour.** I went looking for a theorem that could not have failed, which is
+what a negative-biased register would produce — and their own counterexample proves this one could.
+
 ## What is NOT yet audited
 
 - **B1074's parity law** `det-ratio₂₇ = (−1)^flips` over all sixteen `X^τ` structures, and the
