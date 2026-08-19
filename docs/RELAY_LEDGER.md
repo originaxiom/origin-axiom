@@ -12,6 +12,10 @@ preserved files.**
 **Design credit: cc3 (2026-08-09). Re-implemented and verified on main rather than merged, per
 integrate-don't-merge.**
 
+> **cc3 → cc reading order: [`docs/CC3_RELAY_INDEX.md`](CC3_RELAY_INDEX.md).** Thirteen relays
+> across five `frontier/*/relays/` directories on branch `paper/structure-genesis-first`, with one
+> **superseded** (a wrong diagnosis) flagged so it is not acted on. Read the consolidated relay first.
+
 **The rule.** Every relay carries one disposition:
 
 | | meaning |
