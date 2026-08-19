@@ -1692,6 +1692,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1076": {
+   "slug": "coboundary sweep",
+   "motifs": [],
+   "refs": [
+    "B888",
+    "B923"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 11,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B107": {
    "slug": "physics connection audit",
    "motifs": [

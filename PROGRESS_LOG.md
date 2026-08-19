@@ -10694,3 +10694,16 @@ sealed pairings, four misses, each failure mode named and each better
 than the last: the desert, the hemisphere, the normalisation, and now
 nothing left to blame. The three structural doors stand. The paper
 carries the outcome verbatim.
+
+## 2026-08-19 (fifth bank) — B1076: the lane decided by its own theorem; the cold audit routed
+
+The deciding computation ran at full strength: no residue, hierarchy
+genuinely gauge-dependent, the 77-signal killed by its own control (the
+kill re-proven on this bench as a one-line classical fact). Paid in
+theorems: the coset-wide 3!-law, the new sign(lambda^2) character, the
+denom^4 leading-coefficient law, two never-visited gauges now exact. The
+successor question is the sharpest yet: nature supplies the gauge. The
+owner's sabotage question got the full treatment — the three hiding
+places audited on this bench with one live proof, and the cold audit of
+the whole chain routed to the audit seat at the owner's word. The three
+doors: the gauge-datum question, L154, B882.

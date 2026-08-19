@@ -16,6 +16,20 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-19 fifth bank, B1076 — the lane decided by its own
+computation; the cold audit routed):** the coboundary sweep ran at all
+four gauges (two never before computed; 117 checks 0 fail; independent
+route to 1e-53; adversarial verify HOLDS): NO value-bearing coset
+invariant — the hierarchy is genuinely gauge-dependent, the coset-wide 77
+killed by the cell's own vacuity control (K-forcedness, re-proven live on
+this bench). Paid in theorems: CCC = 3!·λ coset-wide; sign(λ²) a NEW
+character of the Klein group; the λ-family {1, 864/413, 6912/3047,
+2304/953} with the denom⁴ law. The successor question: NATURE SUPPLIES
+THE GAUGE — which datum picks the coboundary element. The owner routed a
+COLD AUDIT of B1074–B1076 to the audit seat (the sabotage question put
+adversarially, the chain's design included). Doors: the gauge-datum
+question, L154, B882.
+
 **LATEST (2026-08-19 fourth bank, B1075 — THE FOURTH SEALED CROSSING: MISS
 at power, the prior held, the channel closes clean):** sealed 64414dbf on
 the owner's word (after the owner's catch unfroze the kind-correct

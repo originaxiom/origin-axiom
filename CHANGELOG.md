@@ -1,5 +1,35 @@
 # Changelog
 
+## B1076 (2026-08-19) — the coboundary sweep: the mass-ratio lane decided closed by its own computation; the sweep pays in theorems; nature-supplies-the-gauge is the successor question
+
+The owner's no-excuse directive, aimed by B1074's map, run at gauges the
+corpus had never visited. B^1 identified exactly; the two never-computed
+Hermitian diagonals derived by two agreeing routes; B923's machinery
+re-executed at all four gauges (117 checks, 0 fail; an independent numeric
+route to 1e-53; the adversarial verifier HOLDS on fully independent code).
+THE LANE VERDICT: no coset-invariant, value-bearing, mass-ratio-shaped
+residue exists — every value quantity element-specific, every
+symmetrization structureless, and the seductive coset-wide 77 KILLED BY
+THE CELL'S OWN VACUITY CONTROL (K-forcedness — re-proven live on this
+bench on four random field elements: the discriminant flavor is automatic
+for ANY element of K). THE THEOREMS BANKED: CCC = 3!.lambda holds
+coset-wide; sign(lambda^2) is a NEW nontrivial character of the Klein
+group (negative on {I, chi_a}, positive on {chi_b, D2}); the lambda family
+{1, 864/413, 6912/3047, 2304/953} with HIER-analogs of leading coefficient
+exactly denom^4 and three distinct real roots at every non-identity gauge.
+Observation unweighted (B888's discipline): 7 | 413 and 11 | 3047 — each
+unmeasured-pair prime divides exactly one new gauge's denominator; no
+mechanism claimed. THE SUCCESSOR QUESTION, well-posed: if a physical
+hierarchy uses this structure, NATURE SUPPLIES THE GAUGE — which datum
+picks the coboundary element is a computation, not a comparison. Kill
+graph routed (proper schema). ALSO THIS DATE: the owner routed a COLD
+AUDIT of B1074–B1076 to the audit seat (the sabotage question put
+adversarially, the chain's design included); the request is in the relay;
+this bench's self-audit is on the record (anchors matched banked ground
+truth; the vacuity theorem re-proven live; the lambda-product hand-checked
+structureless).
+
+
 ## B1075 (2026-08-19) — THE FOURTH SEALED CROSSING: MISS at power, the prior held, and the coupling channel's value story closes clean
 
 Sealed 64414dbf pre-execution on the owner's word; the kind-correct

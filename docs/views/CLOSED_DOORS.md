@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**753 recorded closures — of which 586 are CLASSIFIED by mechanism and
+**755 recorded closures — of which 588 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -46,6 +46,8 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `powered-exclusion (the sealed refresh windows, executed once)` | 1 |  |
 | `obstruction-at-construction (sealed cell, pre-declared outcome O3)` | 1 |  |
 | `powered-exclusion (sealed inventory-forced candidates; current-release adjudication after a same-day stale-release defect was caught and corrected)` | 1 |  |
+| `powered-exclusion (sealed set-level claim, 18 comparisons priced 5.17 bits; version-pinned current release; the delta-independent e-row supplies the power, the delta-free landings pre-graded HIT-SHAPE below success by the sealed R9)` | 1 |  |
+| `exhaustive-coset computation with vacuity controls (117 exact checks; independent re-implementation to 1e-53; the seductive invariant killed by its own control)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
