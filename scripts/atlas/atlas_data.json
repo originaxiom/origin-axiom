@@ -18493,6 +18493,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8092": {
+   "slug": "design audit",
+   "motifs": [],
+   "refs": [
+    "B724"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [

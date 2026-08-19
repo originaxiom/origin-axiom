@@ -1,0 +1,56 @@
+{
+ "arithmetic_recomputations_clean": true,
+ "audited": [
+  "B1074 orchestration script",
+  "B1076 orchestration script",
+  "B1075 sealed preregistration (design record)"
+ ],
+ "cc_probe_iii_gate5_classes_only": "SOUND \u2014 no finding; a value-level search would be value-matching (B724 look-elsewhere)",
+ "common_shape": "each finding is a guard that can only remove candidates, never add them, with the strengthening beyond the banked condition undisclosed in the resulting arc",
+ "findings": [
+  {
+   "can_only": "remove candidates",
+   "condition_disqualifies": "the coupling's Re h (one named quantity)",
+   "excluded_class": "a frame-invariant residue built from BOTH channels",
+   "headline": true,
+   "id": 1,
+   "named_by_cc": false,
+   "prompt_disqualifies": "any coupling-channel quantity, plus a positive pair-channel-nativeness requirement",
+   "short": "the B1016 guard is stricter than the reopening condition it quotes"
+  },
+  {
+   "alternative": "a single global instrument bite-witness",
+   "can_only": "remove candidates",
+   "cc_answer": "no",
+   "correct_test_already_present": "Hunt (3): does the invariant's VALUE depend on the object",
+   "id": 2,
+   "my_answer": "no except at one edge",
+   "named_by_cc": true,
+   "short": "the MB12 bite-witness is per-candidate and redundant with the separate non-triviality test"
+  },
+  {
+   "asymmetry": "a partial NEGATIVE is fully expressible; a partial POSITIVE files as NOT-COMPUTABLE-HERE",
+   "can_only": "remove candidates",
+   "cc_answer": "no",
+   "enum": [
+    "THEOREM-EXACT",
+    "COMPUTED-EXACT",
+    "COMPUTED-FLOAT-ORIENTATION",
+    "NOT-COMPUTABLE-HERE"
+   ],
+   "id": 3,
+   "my_answer": "fields fine, grade ladder not",
+   "named_by_cc": true,
+   "short": "the grade enum has no rung for established-but-partial"
+  }
+ ],
+ "intentional_bias_found": false,
+ "praised": [
+  "Verify phases attack the inventory itself, not just its outputs",
+  "named classic defects: hardcoded-D2 reuse, absorbed normalizations, eigenvalue-ordering conventions",
+  "B1076's 'Either answer is the result -- computed, not hoped'"
+ ],
+ "scope": "The orchestration scripts as supplied verbatim, plus B1075's sealed prereg. NOT a re-audit of the arithmetic, which ran separately and came back clean. Says nothing about whether a frame-invariant residue exists. Gate 5 untouched.",
+ "shows_design_could_not_have_found_a_positive": true,
+ "shows_negatives_are_wrong": false
+}
