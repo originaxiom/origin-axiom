@@ -1,0 +1,31 @@
+{
+ "banked_polarity_matches_character": false,
+ "correct_character": {
+  "D2": -1,
+  "I": 1,
+  "chi_a": 1,
+  "chi_b": -1
+ },
+ "correct_is_homomorphism": true,
+ "defect": "summary-layer only; computation and NEGATIVE verdict unaffected",
+ "lambda_sq": {
+  "D2": "5308416/908209",
+  "I": "-1",
+  "chi_a": "-746496/170569",
+  "chi_b": "47775744/9284209"
+ },
+ "n_failed_products": 16,
+ "scope": "A CLAIM-LEVEL check on B1076's own recorded values, using only the Klein group multiplication table. Recomputes NONE of B1076's algebra and casts no doubt on it. Gate 5 untouched.",
+ "sign_is_homomorphism": false,
+ "sign_lambda_sq": {
+  "D2": 1,
+  "I": -1,
+  "chi_a": -1,
+  "chi_b": 1
+ },
+ "surfaces_affected": [
+  "FINDINGS.md",
+  "arc_verdict.json",
+  "CHANGELOG.md"
+ ]
+}

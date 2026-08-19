@@ -18464,6 +18464,15 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B8090": {
+   "slug": "cold audit f1",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [

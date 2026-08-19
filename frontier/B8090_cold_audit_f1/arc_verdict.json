@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-19)",
+ "claim_one_line": "COLD AUDIT FINDING 1: B1076's 'new exact character' is MIS-STATED ON EVERY SUMMARY SURFACE, while its internal record has it right. FINDINGS.md, arc_verdict.json and CHANGELOG.md all bank 'sign(lambda^2) is a NEW nontrivial character of the Klein group (negative on {I, chi_a}, positive on {chi_b, D2})'. From B1076's OWN recorded values -- lambda^2(I) = -1, chi_a = -(864/413)^2, chi_b = +(6912/3047)^2, D2 = +(2304/953)^2 -- the signs are indeed (-,-,+,+), and THAT FUNCTION IS NOT A CHARACTER: a character sends the identity to +1 always, since chi(e) = chi(e)^2, so sign(lambda^2)(I) = -1 fails multiplicativity, exhaustively on all 16 products. Two errors compounded: MIS-TYPED (called a character when it is -1 at the identity, hence not a homomorphism) and INVERTED (the genuine character is sign(lambda^2)/sign(lambda^2(I)), which is +1 on {I,chi_a} and -1 on {chi_b,D2} -- the OPPOSITE polarity to the bank). WHERE THE ERROR IS NOT: b1076_results.json states it CORRECTLY -- 'trivial on the subgroup <chi_a>={I,chi_a} and equal to -1 on the coset {chi_b,D2}' -- so the computation is right, the cell got it right, and the defect is entirely in the SUMMARY layer, having drifted on the way out and propagated to three surfaces. The arc's NEGATIVE verdict and every other banked result in it (CCC = 3!lambda coset-wide, the lambda family, the denom^4 law, the 77-vacuity kill) are UNAFFECTED. The fix is exact and free: state it as the nontrivial character of B^1 with kernel {I, chi_a}. EXPLICITLY NOT A BIAS FINDING: a polarity slip in a summary is direction-neutral and does not touch the NEGATIVE verdict; recorded as a defect in the record, not a thumb on the scale. SCOPE: a claim-level check on B1076's own values using only the Klein multiplication table; recomputes none of its algebra. The from-scratch recomputation of the two new gauges, which cc asked be taken deepest, is STILL OWED and is not what this rests on. Gate 5 untouched.",
+ "depends_on": [
+  "B1076",
+  "B8084"
+ ],
+ "id": "B8090",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
