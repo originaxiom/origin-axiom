@@ -9,7 +9,11 @@ repo's own review banner says it -- "zero mathematics, all retrieval". So the pa
 must carry its verification INLINE, and a reader must never need the corpus.
 
 Therefore every script in this directory:
-  * imports NOTHING project-internal (sympy and the stdlib only),
+  * imports nothing from OUTSIDE this directory -- sympy and the stdlib only, so a
+    reader never needs the corpus.  (One script, check_rung_attained.py, imports the
+    E6 construction from its companion check_rung_spectrum.py, which is itself
+    sympy-and-stdlib only.  That is an intra-directory reuse, not a corpus dependency;
+    an earlier wording of this line said "nothing project-internal" and overstated it.)
   * uses EXACT arithmetic in every verdict-bearing comparison -- no float decides
     anything,
   * prints its own expected values, and
@@ -63,7 +67,8 @@ def main(argv):
         print("FAIL: SymPy is not installed, and 9 of the "
               f"{len(names)} checks require it.")
         print("      Install it and re-run:")
-        print("          python3 -m pip install -r requirements.txt")
+        print("          python3 -m pip install -r "
+                  + os.path.join(HERE, "requirements.txt"))
         print("      (tested with Python 3.12 and SymPy 1.12; only")
         print("       check_homology.py and check_shadow_modulus.py are stdlib-only)")
         return 1
@@ -75,6 +80,17 @@ def main(argv):
         ok = proc.returncode == 0
         results.append((name, ok, proc))
         print(f"  [{'PASS' if ok else 'FAIL'}]  {name}")
+        # Surface each script's own scope caveats even when it PASSES.  A green line
+        # must not hide a script that says, in its own output, that something adjacent
+        # was NOT computed -- check_geodir.py says exactly that about unobstructedness.
+        if ok:
+            for line in (proc.stdout or "").splitlines():
+                s = line.strip()
+                if s.startswith(("[PASS]", "[FAIL]")):
+                    continue          # results, not caveats
+                if s.startswith(("NOT COMPUTED", "SCOPE", "NOT CLAIMED",
+                                 "WHAT IS NOT", "RESIDUE")) or "not computed" in s:
+                    print(f"           note: {s[:96]}")
         if not ok:
             tail = (proc.stdout or "").rstrip().splitlines()[-15:]
             for line in tail:

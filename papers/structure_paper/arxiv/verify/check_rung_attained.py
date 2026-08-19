@@ -192,14 +192,21 @@ def main():
           [(6, 3), (12, 1), (12, 3)])
     check("dimensions account exactly: 12 + 18 + 12 + 36 = 78",
           12 + sum(d * m for d, m in orbits), 78)
-    Rp = R.copy()
-    for _ in range(7):
-        Rp = Rp * Rp
+    # The generalised zero-space of R.  An earlier version formed R^128 by repeated
+    # squaring and took its nullspace: correct, but the entries of an exact 78x78
+    # rational 128th power are enormous and it dominated the runtime of the whole
+    # suite.  The same space is ker(R^12): the zero eigenvalue has algebraic
+    # multiplicity 12 in charpoly(R) (checked above), so the Jordan blocks at 0 have
+    # total size 12 and stabilise by step 12 at the latest.
+    Rp = R ** 12
     V0 = Rp.nullspace()
     check("the generalised zero-space is z(C), of dimension 12", len(V0), 12)
     B0 = sp.Matrix.hstack(*V0)
     check("C acts as identically ZERO on z(C), not merely nilpotently",
           all((AD[n] * B0).is_zero_matrix for n in DEG), True)
+    # and it really is the *generalised* zero-space: one more power adds nothing
+    check("ker(R^13) = ker(R^12), so the generalised zero-space has stabilised",
+          len((R ** 13).nullspace()), 12)
     print("      => for EVERY subspace S of C,  dim z(S) = 12 + sum{ m_L : L|_S = 0 }")
     print("         The lattice is infinite; its image is not.")
 

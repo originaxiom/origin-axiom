@@ -104,7 +104,7 @@ expert reader the paper needs before submission, and solving it once solves both
       arXiv-preferred shape and removes a whole class of upload failure
 - [x] ## **clean-room compile RE-VERIFIED 2026-08-19** — tarball extracted into an
       empty directory with no repository present, compiled twice:
-      **exit 0 both passes, zero errors, 47 pages**
+      **exit 0 all passes, zero errors, 49 pages**
 - [x] `verify_all.py` green from the extracted tarball (**19/19**; an empty suite fails
       by construction)
 - [x] the arXiv abstract field prepared: the paper's own abstract is **2867 characters**
@@ -117,10 +117,17 @@ expert reader the paper needs before submission, and solving it once solves both
 ```
 cd arxiv && pdflatex main.tex && pdflatex main.tex     # two passes, no bibtex
 grep -c '^!' main.log                                  # MUST be 0 -- see below
+grep -c 'Float too large' main.log                     # MUST be 0 -- see below
 rm -rf verify && cp -R ../verify verify                # block (a) MUST travel
 tar czf oa-structure-paper.tar.gz main.tex verify      # the upload artifact
 ```
 
+> **CHECK `^!` AND `Float too large`, NOT ONLY OVERFULL BOXES.** A referee found the
+> Appendix B table clipped below the media box: `Float too large for page by 520.70pt`
+> is a *different warning class* from `Overfull \\hbox`, so a check that greps only for
+> overfull boxes reports a clean build while a table is unreadable. The table is now a
+> `longtable` and breaks across pages.
+>
 > **CHECK THE LOG FOR `^!`, NOT ONLY FOR OVERFULL BOXES.** Added 2026-08-19 after a
 > stray `\end{remark}` — introduced by an edit on 08-18 — sat in every build for a day.
 > Under `-interaction=nonstopmode` LaTeX *recovers* from an unbalanced environment and

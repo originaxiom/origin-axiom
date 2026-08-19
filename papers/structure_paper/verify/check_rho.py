@@ -309,6 +309,15 @@ w = next(x for x in range(2, p) if pow(x, 3, p) == 1 and x != 1)
 cs = sorted({frozenset(q2(g, h) for h in Q8) for g in E2T}, key=lambda s: sorted(s))
 ci = {c: i for i, c in enumerate(cs)}
 chi = {g: pow(w, ci[frozenset(q2(g, h) for h in Q8)], p) for g in E2T}
+# The coupling-law proof asserts that multiplicativity of chi is checked on all 576
+# pairs.  It is checked here, because a claim in a proof that no shipped script
+# performs is exactly the kind of gap this appendix exists to close.
+gate(f"chi is multiplicative on all {len(E2T)}^2 = {len(E2T)**2} pairs of 2T",
+     all(chi[q2(a, b)] == chi[a] * chi[b] % p for a in E2T for b in E2T),
+     f"{len(E2T)**2} pairs")
+gate("chi has order 3 and kernel exactly Q8",
+     sorted({chi[g] for g in E2T}) == sorted({1, w, w * w % p})
+     and {g for g in E2T if chi[g] == 1} == set(Q8))
 model = sorted((len(A) * len(B), chi[A[0]] * (2 * toFp(B[0][0])) % p,
                 (2 * toFp(A[0][0])) * (2 * toFp(B[0][0])) % p)
                for A in c2T for B in c2I)
