@@ -18620,6 +18620,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8099": {
+   "slug": "3d completeness",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B259",
+    "B262",
+    "B269",
+    "L173"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [

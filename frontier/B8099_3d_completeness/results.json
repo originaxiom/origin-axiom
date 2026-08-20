@@ -1,0 +1,75 @@
+{
+ "3d3d_is_not_a_4d_lift": "3d-3d takes a 3-manifold to a 3d theory; 4d from the same 6d theory needs a Riemann surface (class S), so the dimensional question is untouched",
+ "checklist": [
+  {
+   "note": "verified here: 2 regular ideal tetrahedra, geometric",
+   "requirement": "classical solution",
+   "status": "PRESENT"
+  },
+  {
+   "note": "Lambda = -1 exactly (B259)",
+   "requirement": "cosmological constant",
+   "status": "PRESENT"
+  },
+  {
+   "note": "forced (B1012)",
+   "requirement": "the action",
+   "status": "PRESENT"
+  },
+  {
+   "note": "c = 6 sigma, derived twice (B1012; Brown-Henneaux)",
+   "requirement": "boundary central charge",
+   "status": "PRESENT"
+  },
+  {
+   "note": "verified here: purely REAL, CS = 0",
+   "requirement": "complex CS action Vol+iCS",
+   "status": "PRESENT"
+  },
+  {
+   "note": "B262: U(1) with 2 chirals, from the DGG dictionary",
+   "requirement": "the 3d-3d theory T[4_1]",
+   "status": "PRESENT"
+  },
+  {
+   "note": "B262/B269 rungs; not a closed evaluation",
+   "requirement": "state integral",
+   "status": "PARTIAL"
+  },
+  {
+   "note": "T[4_1] gives 2 chirals; the corpus's E6 route gives the 27",
+   "requirement": "matter spectrum",
+   "status": "AMBIGUOUS"
+  },
+  {
+   "note": "B262's own wall #2 -- open",
+   "requirement": "E6 as a DYNAMICAL gauge",
+   "status": "MISSING"
+  },
+  {
+   "note": "OPEN_PROBLEMS, flagged SPECIALIST",
+   "requirement": "E6 state integral",
+   "status": "MISSING"
+  },
+  {
+   "note": "B262's own wall #4",
+   "requirement": "the 4d lift",
+   "status": "MISSING"
+  }
+ ],
+ "chern_simons": -5.624455548099859e-17,
+ "complex_volume_purely_real": true,
+ "headline": "'complete the 3d theory' is AMBIGUOUS until (A) or (B) is named; completing A is largely literature, completing B is the programme and 3d-3d does not reach it",
+ "n_cusps": 1,
+ "n_present": 6,
+ "n_tetrahedra": 2,
+ "n_total": 11,
+ "regular_ideal_shape": true,
+ "scope": "An AUDIT, not a construction. Classical data verified in-sandbox; corpus statuses cited to their arcs and NOT re-derived. Says nothing about whether either theory can be completed -- it says which question is being asked. No measured physics value; Gate 5 untouched.",
+ "two_theories": {
+  "A": "T[4_1] = U(1) + 2 chirals (3d-3d/DGG, B262) -- ABELIAN",
+  "B": "the E6 structure with the 27 (the corpus's own route)"
+ },
+ "vol_equals_two_regular_ideal_tetrahedra": true,
+ "volume": 2.029883212819307
+}

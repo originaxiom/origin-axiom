@@ -1,0 +1,16 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-20)",
+ "claim_one_line": "THE 2+1 THEORY'S COMPLETENESS AUDIT: SIX OF ELEVEN REQUIREMENTS PRESENT, AND THE QUESTION ITSELF IS AMBIGUOUS BECAUSE THE CORPUS ATTACHES TWO DIFFERENT 3d THEORIES TO THE SAME MANIFOLD. Owner asked whether to pursue a 3d-to-4d lift or instead finish the 2+1 theory; this measures before building. CLASSICAL DATUM VERIFIED IN-SANDBOX rather than cited: geometric solution (all tetrahedra positively oriented), 2 tetrahedra and 1 cusp, BOTH shapes the REGULAR ideal tetrahedron e^{i pi/3}, Vol = 2 x 3*Lambda(pi/3) = 2.029883212819307 exact to machine precision, CS = -5.6e-17 machine zero, H_1 = Z torsion-free -- so the complex volume Vol + i*CS is PURELY REAL. CHECKLIST: PRESENT are the classical solution, Lambda = -1 (B259), the forced action (B1012), the boundary central charge c = 6 sigma, the complex CS action, and the 3d-3d theory T[4_1] (B262); PARTIAL is the state integral; AMBIGUOUS is the matter spectrum; MISSING are E6 as a DYNAMICAL gauge (B262's own wall #2), the E6 state integral (OPEN_PROBLEMS, flagged SPECIALIST), and the 4d lift (wall #4). THE HEADLINE: the corpus attaches TWO theories to one manifold -- (A) T[4_1] = U(1) with 2 chirals, ABELIAN, from the DGG dictionary at standard type A_1; and (B) the E6 structure with the 27, from the corpus's own charge-frame route. These are NOT the same theory and B262 knew it, its wall #2 being literally 'is E6 ever dynamical'. So 'complete the 3d theory' is AMBIGUOUS until one is named, and the branches differ enormously in worth: completing (A) is largely LITERATURE since DGG built T[4_1], so L173's discipline applies and reproducing it is a RE-DERIVATION; completing (B) is the programme, and 3d-3d does NOT reach it because the E6 state integral is SPECIALIST-flagged and unavailable to run. ON THE LIFT QUESTION: 3d-3d is not a lift and cannot become one -- it takes a 3-MANIFOLD to a 3d theory, which is what the name means, while obtaining a 4d theory from the same 6d (2,0) theory requires a RIEMANN SURFACE (class S). The dimensional question is untouched by this route, so 'use 3d-3d to reach 3+1' cannot succeed as posed. WHAT CS = 0 BUYS AND COSTS: the classical action's entire content is the VOLUME, with no CS phase or theta-like term -- a genuine simplification, and the reason the arithmetic-CS lane (C5) reduces to the volume analogue, since no CS term remains to be the analogue of. SCOPE: an AUDIT, not a construction; classical data verified in-sandbox, corpus statuses cited and NOT re-derived; says nothing about whether either theory can be completed, only which question is being asked. Not relayed (cc mid-process). Gate 5 untouched.",
+ "depends_on": [
+  "B262",
+  "B269",
+  "B259",
+  "B1012",
+  "L173"
+ ],
+ "id": "B8099",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
