@@ -22,6 +22,14 @@ B1071-v2's seal hash cell found mis-transcribed and repaired
 promotion of THE HATCH deferred to B1100 by its own fences; eleven
 action rows; counter reset at 61499dfe. R48 recommended COLD.
 
+**LATEST (2026-08-20, B1100 + B1101)**: the landing's matter content
+EXACT — trinification branching, THE 27 COMPLEX (witnessed; B959
+re-scoped by addendum-beside, the audit seat's flag credited),
+hypercharge cone GENERIC (trial-0 pattern hit; exact match the named
+residual). The certification envelope adopted (Sec.CE); the
+seal-digests gate live (16/16); E48 filed. Next: the doc wave, the
+R48 auto-commission, the aperiodic sitting.
+
 **LATEST (2026-08-20, Phase 1 — THE HATCH OPENS)**: B1098 — all 20
 sl2 strata decided; the A2 class leaves su(3)+su(3) at rank EXACTLY 4
 (the trinification remnant; the object eats one factor); su(6) the

@@ -86,3 +86,19 @@ the counter + the non-abelian hatch. **New: the non-abelian hatch is OPEN at its
 first stratum — the object's own holonomy reaches su(3)⊕su(3) ⊇ SM at rank exactly
 4. The wall's remaining questions: the matter content at the landing (B1100), the
 class-choice's price, and Route A's frontier counter (B1099).**
+
+## ADDENDUM 2026-08-20 — the relation to B959, stated (the audit seat's flag; one day later, computed)
+
+B959 ("every route to rank 4 makes the 27 real; no centralizer construction whatsoever
+— measurement, holonomy, or finite image — can deliver chiral matter at the SM's
+rank") is PRIOR ART this arc's stratum sits OUTSIDE, twice over: B959's §4 mechanism
+is Steinberg torality on SEMISIMPLE elements of the object's FINITE images (A₄, D₅,
+S₅; simply connected form; its own §5 names its boundary), while this arc's holonomy
+is CONTINUOUS (the Zariski-dense hyperbolic ρ — no finite quotient) and
+NILPOTENT-generated (su(3)⊕su(3) contains no maximal torus; the torality machinery
+never engages — the B1074/B8074 nilpotent gap). B1100 then computed what B959's
+sentence asserts cannot happen: **the 27 is COMPLEX at this landing, exact, witnessed**
+— falsifying the headline BEYOND its toral scope while leaving its proof untouched on
+its own ground. The re-scope addendum sits beside B959; the audit seat's
+state-the-relation flag is credited as the trigger.
+

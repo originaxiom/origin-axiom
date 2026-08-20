@@ -774,6 +774,35 @@ def gate_seal_provenance():
     return not missing, missing[:5] or "ok"
 
 
+def gate_seal_digests():
+    """Two digest-corruption routes in two days (E47: retyped at seal; E48: a bulk
+    identifier remap rewriting hex inside a digest — see docs/ERROR_LEDGER.md for both
+    classes), both invisible to the gate layer while seal-provenance stayed green. The route-agnostic fix, proposed by
+    the audit seat and adopted 2026-08-20: RECOMPUTE every recorded digest from the file
+    it claims to certify. Append-only semantics: the LAST ledger row per path governs
+    (corrected-by-append rows supersede the wrong cells above them). Rows whose path is
+    absent from this tree (branch-side seals; path-as-prose supersession notes) are
+    skipped. Catches mistyping, remapping, and every route not yet hit, because it does
+    not care how a digest got wrong."""
+    import hashlib
+    ledger = _read("docs/SEAL_LEDGER.md")
+    latest = {}
+    for line in ledger.splitlines():
+        m = re.match(r"\|\s*\d{4}-\d{2}-\d{2}\s*\|[^|]*\|\s*`([^`]+)`\s*\|\s*`([0-9a-f]{64})`", line)
+        if not m:
+            continue
+        latest[m.group(1)] = m.group(2)
+    bad = []
+    for rel, want in latest.items():
+        p = os.path.join(ROOT, rel)
+        if not os.path.isfile(p):
+            continue
+        got = hashlib.sha256(open(p, "rb").read()).hexdigest()
+        if got != want:
+            bad.append(f"{rel}: ledger {want[:12]}… != file {got[:12]}…")
+    return not bad, bad[:5] or f"ok ({len(latest)} sealed digests recomputed and matching)"
+
+
 
 # L140 (B965): every fix in the LAW_MAP scope audit was a QUALIFIER LOST when an arc's
 # verdict was compressed into a one-line row -- in each case the arc's own verdict was
@@ -894,6 +923,7 @@ GATES = {
     "views-generated": gate_views_generated,
     "practices-register": gate_practices_register,
     "seal-provenance": gate_seal_provenance,
+    "seal-digests": gate_seal_digests,
     "lawmap-scope": gate_lawmap_scope,
     "retraction-sweep": gate_retraction_sweep,
     "representation-sweep": gate_representation_sweep,

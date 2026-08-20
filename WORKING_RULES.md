@@ -168,3 +168,14 @@ standing additions of the window: the reserved numbering bands (three seats), th
 read-a-neighbor-row rule for registry formats, the absence-stamp discipline (born of the
 stale-absence sweep), and pairings-spend-not-rows (the owner's catch, banked in the kind
 table's reading note). No rule change required by the read. -->
+
+## §CE — THE CERTIFICATION ENVELOPE (adopted 2026-08-20; Review 47's methodology delta, owner-elected; record: B1101)
+
+During any certifying suite run the working tree is READ-ONLY by convention: landings
+stage in the scratchpad and land by explicit filename at bank time (never a glob;
+never a new arc dir mid-suite); pre-commit gate checks run on the STAGED state; every
+ledger digest enters by command substitution (the `seal-digests` gate recomputes all
+of them at gate time — latest-row-per-path, corrections-by-append supersede); on
+collision, fold-forward (one commit, one suite), never a stale certificate re-run.
+Evidence and error classes: E45–E48; the adoption record is B1101.
+

@@ -34,3 +34,8 @@ CS = 0, so the arithmetic analogue of the VOLUME term is the whole question).
 
 **Locks:** tests/test_b1088_action_card.py (the volume from first principles, the exact
 lattice-unit CS identity, the Brown–Henneaux closure — all fast).
+
+*Corroboration 2026-08-20 (the audit seat's B8099, independent in-sandbox): CS(m004) =
+−5.6×10⁻¹⁷ machine zero, Vol exact to machine precision, the complex volume purely
+real — the card's CS = 0 and volume verified by the second seat's own build.*
+

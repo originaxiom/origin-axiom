@@ -10865,3 +10865,13 @@ any real file, caught by the spot-check and repaired in the open;
 three error classes named, one of them the enforcement gap behind a
 rule we already had. The gates went three-for-three this window --
 every blocked push was a real catch. The next review goes cold.
+
+2026-08-20 (B1100; the landing furnished). The room behind the open
+door has the right furniture: the branching is trinification's, the
+27 is complex — witnessed, exact — and the hypercharge pattern falls
+out of the first direction tried. The old no-go keeps its proof and
+loses its over-reach: every TORAL route makes the 27 real; the
+nilpotent door was never in its quantifier, and now stands open with
+matter behind it. The certification envelope is law; the seal gate
+recomputes every digest; and the two seats spent the day correcting
+each other faster than either could drift.

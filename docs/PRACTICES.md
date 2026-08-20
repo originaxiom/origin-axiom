@@ -314,6 +314,23 @@ neighbouring statement is the hardest defect class to see, because every individ
 This is the "hypothesis nobody listed" failure, and it survives symbolic verification.
 
 
+## Every sealed digest is recomputed at gate time — GATED (`seal-digests`)
+
+**Rule (adopted 2026-08-20, from the audit seat's two-routes relay after Review 47's
+E47).** At gate time, every digest recorded in `docs/SEAL_LEDGER.md` is RECOMPUTED from
+the file it claims to certify and compared. Append-only semantics: the LAST ledger row
+per path governs, so corrected-by-append rows supersede wrong cells above them;
+branch-side and path-as-prose rows are skipped.
+
+**Why route-agnostic.** Two independent corruption routes appeared in two days — E47
+(a digest retyped by hand at seal time; caught by Review 47's protocol-integrity
+spot-check) and E48 (a bulk identifier remap rewriting hex INSIDE a digest, weeks
+after write; re-derived on main from the audit seat's E844 at their request — the
+class lives in ERROR_LEDGER as a first-class row, not buried here) — and neither route's
+procedural fix catches the other. Recomputation does not care how a digest got wrong.
+The pipe-don't-retype discipline (R47-1) stands as the write-time hygiene; this gate is
+the read-time verification that subsumes it.
+
 ## The seal carries its own provenance — GATED (`seal-provenance`)
 
 **Rule (adopted 2026-08-08, from B946's adjudication of the solo seat's handoff 6).** Every

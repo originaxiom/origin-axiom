@@ -1,5 +1,31 @@
 # Changelog
 
+## B1100 + B1101 + the seal-digests gate (2026-08-20) — the landing's matter is COMPLEX; B959 re-scoped; the certification envelope adopted
+
+B1100 THE LANDING'S MATTER CONTENT (R47-5; the audit seat's B959 flag
+promoted the reality check first-class BEFORE the run): the joint
+weight table at the A2 landing EXACT (stacked kernels tiling 27); the
+trinification branching at proof grade (sl2 {+2:6, 0:15, -2:6});
+**THE 27 IS COMPLEX — witnessed** (a multiplicity-3 class, negation
+absent; basis-free) — B959's headline FALSIFIED BEYOND ITS TORAL
+SCOPE, its proof untouched on its own ground; the mandatory re-scope
+lands as an ADDENDUM-BESIDE (sealed text untouched; the flag
+credited); B1098 carries the relation addendum. Hypercharge: the
+bijective form EXCLUDED exact; the collapse form GENERIC (the banked
+6Y degeneracy pattern hit at trial 0 — an open cone); the exact
+value-match the named residual. Chirality-at-count NOT claimed (the
+wall stands). B1101 THE CERTIFICATION ENVELOPE adopted (Review 47's
+methodology delta, owner-elected; WORKING_RULES Sec.CE; pre-proven by
+E45-E48, the gate three-for-three). THE SEAL-DIGESTS GATE live
+(16/16 on adoption day; the audit seat's proposal completed with
+latest-row-per-path — their acceptance relay records the completion;
+E48 filed on main at their request, their instance and principle
+preserved). B1088 gains the second seat's independent CS = machine-
+zero corroboration (their B8099). The day's cross-seat record: two
+flags, one adopted gate, two error classes, one falsified-and-
+re-scoped headline — every correction landing before the arc it
+protected could wobble.
+
 ## REVIEW 47 (2026-08-20) — the 46-merge window reviewed; one seal-cell mis-transcription found and repaired; three error classes filed
 
 The decadal review, run per the template's full REQUIRED core at the

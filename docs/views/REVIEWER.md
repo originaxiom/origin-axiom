@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1003** |
-| words of findings prose | **681,094** |
-| test lock files referenced | **614** |
-| arcs carrying an authored verdict | **990** (98.7 %) |
+| research arcs with findings | **1005** |
+| words of findings prose | **682,082** |
+| test lock files referenced | **615** |
+| arcs carrying an authored verdict | **992** (98.7 %) |
 | recorded closures | **759** (592 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 660 |
+| PROVED | 662 |
 | NEGATIVE | 286 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1098`** (932 words, 1 locks)  
-THE NON-ABELIAN HATCH OPENS AT ITS FIRST STRATUM (W1 of the closing campaign; the pre-registered positive branch): all TWENTY sl2 conjugacy classes of e6 enumerated constructively (saturation vs the CITED count; every centralizer dim/rank/type matching the standard table, all banked numbers exact on the verified Chevalley basis with the verified JM pattern); the density lemma (rho non-elementary => Zariski-dense) makes each centralizer THE unbroken algebra of the object's own composed holonomy; VERDICT: the A2 class -- the principal sl2 of one trinification factor, reached through the object's own rho composed with the 3-dimensional representation -- leaves EXACTLY su(3)+su(3) (dim 16 = 8+8, rank 4, THE TRINIFICATION REMNANT: color in one factor, su(2)xu(1) in the other, zero extra u(1)s); the A1 class gives su(6) (SM + one extra u(1)); the 2A1 candidate so(7)+u(1) EXCLUDED (no commuting su(2)); the other 17 classes fall below rank 4; fences: the class is a PRICED choice (1-of-20, ~4.3 bits, no selection mechanism claimed), hypercharge-match deferred to B1100 (the 27's branching at the landing), chirality untouched (the four-language wall stands), B854/B932 adjacencies declared (finite vs continuous strata).  
-`B1098_nonabelian_hatch/FINDINGS.md`
+**PROVED — `B1101`** (281 words, 0 locks)  
+THE CERTIFICATION ENVELOPE ADOPTED (Review 47's methodology delta, owner-elected): during any certifying suite the working tree is read-only by convention -- scratchpad staging with land-by-explicit-filename, staged-state pre-checks, piped digests with the seal-digests recompute gate as backstop, fold-forward on collision; arrives pre-proven by the window's three E46 instances (E39's gate three-for-three) plus the two digest routes E47/E48; consolidated into WORKING_RULES per GOVERNANCE Sec.10 with this arc as the adoption record.  
+`B1101_certification_envelope/FINDINGS.md`
 
 **NEGATIVE — `B1096`** (328 words, 1 locks)  
 DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically -- U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), SU(2)-Witten, AND (B-L)^3 and (B-L)-grav, where the imported 15 gives -1/-1: nu^c, the field the object derives, is EXACTLY what cancels the last non-vanishing invariant; the Z6 congruence 6Y = 4 triality + 3 duality (mod 6) is the UNIQUE solution (exhaustion over 36); a layer that vanishes identically cannot supply a ratio -- the ask is structurally unanswerable (B990's shape), the object's matter too anomaly-free to say anything: completeness of content and emptiness of layer are the same fact; joins B1092 (the same derived nu^c: anomaly-complete AND purity-conditioned).  

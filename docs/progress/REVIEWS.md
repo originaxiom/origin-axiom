@@ -4095,7 +4095,7 @@ the proposal is their consolidation into WORKING_RULES if the owner elects.)
 
 ### Action items (Review 47)
 - [x] R47-0: the seal-ledger correction row + E45/E46/E47 filed (this review, this bank)
-- [ ] R47-1: the seal ritual's pipe-don't-retype line added to the seal protocol text (owner: banking seat; source: E47)
+- [x] R47-1: RESOLVED BY A STRONGER FIX same-day — the `seal-digests` gate (every recorded digest recomputed from its file at gate time; latest-row-per-path; adopted from the audit seat's two-routes relay, which showed E47 and their E844 are complementary corruption routes neither procedural fix covers). The pipe-don't-retype line stands as write-time hygiene inside the PRACTICES entry. Evidence: scripts/gates/gates.py::gate_seal_digests; docs/PRACTICES.md.
 - [ ] R47-2: the arc_verdict schema-validator lock (machine-held schema; owner: banking seat; source: E45)
 - [ ] R47-3: B763 registry entries for `<cloud-seat>/new-session-qor5up` (the qor5up branch; full ref in the alias table) and `audit/b775-braver-questions` (owner: banking seat)
 - [ ] R47-4: Phase 2's doc-reflection wave + TERMINOLOGY glosses + the fresh-eyes signoff (owner: banking seat; source: the closing plan)

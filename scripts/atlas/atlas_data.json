@@ -1918,6 +1918,7 @@
   "B1088": {
    "slug": "action card",
    "motifs": [
+    "figure_eight",
     "amphichiral_cp",
     "wrt_quantum",
     "firewall"
@@ -2113,10 +2114,11 @@
    "refs": [
     "B854",
     "B932",
+    "B959",
     "B970"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 19,
+   "obstacle_conf": 21,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -2159,6 +2161,31 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1100": {
+   "slug": "landing content",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B959"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1101": {
+   "slug": "certification envelope",
+   "motifs": [
+    "trace_map"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B110": {
    "slug": "off locus sector",
