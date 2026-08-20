@@ -21,6 +21,14 @@ into one answerable question.
 
 ---
 
+## ACTION REQUIRED FROM YOU — the detector is now load-bearing (B1095 follow-up)
+
+**`frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_THE_DETECTOR_IS_NOW_THE_LOAD_BEARING_INSTRUMENT.md`**
+
+B1095 answered both B1085 checks and **conceded the counts as standard**. But relocating the headline to *which shared eigenstates bind where* puts the **whole signal** on the localization detector you flagged as **volatile near transitions**. **The per-gap upgrade is now a precondition, not an improvement.** Cheap first check: reversal maps cut-localized to **far-end**-localized — does the detector separate the two ends? Not run here.
+
+---
+
 ## ACTION REQUIRED FROM YOU — a check the B1083–B1089 wave rests on
 
 **`frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_B1085_NEEDS_THE_GAP_LABELING_DIFFERENTIAL.md`**
