@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-20)",
+ "claim_one_line": "L1 VERIFIED: TWO OF THE FIVE SELECTION CRITERIA PROVABLY CANNOT SEE THE DIFFERENCE BETWEEN THE OBJECT AND ITS SISTER. B8097 found nineteen buried results and this seat's own advice to cc was 'pay one debt rather than write another catalogue'; this takes that advice on the top-ranked item, because L1 touches the object's own selection and its sharpest sub-claims are checkable in minutes. B985 flagged L1 as OVER-WIDE: proved as 'm004 extremal along the metallic diagonal m=1..7' but banked as 'm004 is THE selected object'. VERIFIED IN-SANDBOX with SnapPy: m003 and m004 both have volume 2.029883212819307, difference EXACTLY 0.00e+00 -- they are ISOVOLUMETRIC, so the criterion that selects on volume CANNOT tell the object from its sister. And criterion 3, arithmeticity, cannot discriminate BY THEOREM: arithmeticity is a commensurability invariant (Reid; banked B803) and m003 ~ m004 at index 12 in PSL(2,O_-3), so a class invariant takes the same value on every member -- it is not that we have not measured finely enough, it is that the quantity is constant on the class and no computation can rescue it. ALSO CONFIRMED INDEPENDENTLY: L73's falsification -- m004 is torsion-free (H_1 = Z) while m003 carries Z/5 at the hearing prime, and a property failing inside the commensurability class is not a property of the class. WHAT THIS CHANGES, NARROWLY: the object's selection rests on at most THREE of five criteria, not five; two are provably blind to the very distinction they were counted toward. IT DOES NOT show the object is unselected -- the remaining criteria are untouched and m004's distinguishing facts against m003 are real, since H_1 alone separates them. What it shows is that the banked statement is wider than the proof, exactly as B985 said, and that the gap is now MEASURED rather than asserted. OBSERVATION, unweighted per B888 with no mechanism claimed: the Z/5 that the external Wilson-line proposal required, and that B8086 showed m004 does NOT have, is present on m003 -- the isovolumetric sister in the same commensurability class. This does not rescue that proposal, since m003 is not the object either and B8086's kill stands on both legs; it locates the Z/5 in the CLASS rather than on the MEMBER. SCOPE: verifies two of five criteria as non-discriminating; says nothing about the other three; does not reopen L1, it measures the gap B985 named. Gate 5 untouched.",
+ "depends_on": [
+  "B985",
+  "B8097",
+  "B8086",
+  "B803"
+ ],
+ "id": "B8098",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

@@ -18601,6 +18601,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8098": {
+   "slug": "L1 verified",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "torsion"
+   ],
+   "refs": [
+    "B803",
+    "B888",
+    "B985",
+    "L1",
+    "L73"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [

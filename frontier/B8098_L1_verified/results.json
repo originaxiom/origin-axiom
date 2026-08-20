@@ -1,0 +1,20 @@
+{
+ "L73_falsification_confirmed": true,
+ "criterion_1_can_discriminate": false,
+ "criterion_3_can_discriminate": false,
+ "criterion_3_reason": "arithmeticity is a commensurability invariant (Reid; B803) and m003 ~ m004 (index 12 in PSL(2,O_-3)) -- cannot discriminate BY THEOREM",
+ "isovolumetric": true,
+ "m003": {
+  "homology": "Z/5 + Z",
+  "volume": 2.029883212819307
+ },
+ "m003_has_Z5": true,
+ "m004": {
+  "homology": "Z",
+  "volume": 2.029883212819307
+ },
+ "m004_torsion_free": true,
+ "observation_unweighted": "the Z/5 the Wilson-menu proposal needed is on m003, not m004 -- in the class, not on the member; no mechanism claimed",
+ "scope": "Verifies TWO of L1's five criteria as non-discriminating between m004 and its sister m003: criterion 1 computationally (isovolumetric), criterion 3 by theorem (class invariance). Says NOTHING about the remaining criteria, and does NOT show the object is unselected -- it shows the selection rests on fewer criteria than banked. Gate 5 untouched.",
+ "volume_diff": 0.0
+}
