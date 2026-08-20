@@ -1,0 +1,272 @@
+{
+ "caveat": "lag is a CANDIDATE-GENERATOR, not a verdict; a glossary need not cite B1099. Only verified findings count.",
+ "corpus_tip": 1099,
+ "dated_snapshots_not_defects": 21,
+ "lagging_over_100": 57,
+ "live_surfaces": [
+  {
+   "bytes": 4340,
+   "highest_arc": 124,
+   "lag": 975,
+   "path": "ARCHITECTURE.md"
+  },
+  {
+   "bytes": 22215,
+   "highest_arc": 124,
+   "lag": 975,
+   "path": "docs/atlas/FAILURE_ATLAS.md"
+  },
+  {
+   "bytes": 5718,
+   "highest_arc": 124,
+   "lag": 975,
+   "path": "docs/atlas/GLOSSARY.md"
+  },
+  {
+   "bytes": 5144,
+   "highest_arc": 124,
+   "lag": 975,
+   "path": "docs/atlas/RESEARCH_TREE.md"
+  },
+  {
+   "bytes": 4925,
+   "highest_arc": 124,
+   "lag": 975,
+   "path": "docs/atlas/SUCCESS_ATLAS.md"
+  },
+  {
+   "bytes": 15002,
+   "highest_arc": 153,
+   "lag": 946,
+   "path": "AUDIT_REPORT.md"
+  },
+  {
+   "bytes": 7592,
+   "highest_arc": 225,
+   "lag": 874,
+   "path": "METHOD.md"
+  },
+  {
+   "bytes": 24190,
+   "highest_arc": 233,
+   "lag": 866,
+   "path": "docs/STRATEGIC_SYNTHESIS.md"
+  },
+  {
+   "bytes": 3794,
+   "highest_arc": 325,
+   "lag": 774,
+   "path": "docs/atlas/README.md"
+  },
+  {
+   "bytes": 25698,
+   "highest_arc": 329,
+   "lag": 770,
+   "path": "docs/NOVELTY_AUDIT.md"
+  },
+  {
+   "bytes": 4631,
+   "highest_arc": 370,
+   "lag": 729,
+   "path": "docs/TOOLBOX.md"
+  },
+  {
+   "bytes": 1440,
+   "highest_arc": 384,
+   "lag": 715,
+   "path": "docs/dossiers/DOSSIER_kashaev_sqrt5_novelty.md"
+  },
+  {
+   "bytes": 2298,
+   "highest_arc": 392,
+   "lag": 707,
+   "path": "docs/dossiers/DOSSIER_weil_tqft_identification.md"
+  },
+  {
+   "bytes": 9050,
+   "highest_arc": 409,
+   "lag": 690,
+   "path": "docs/dossiers/NOVELTY_MAP.md"
+  },
+  {
+   "bytes": 17153,
+   "highest_arc": 414,
+   "lag": 685,
+   "path": "docs/RECOGNITION.md"
+  },
+  {
+   "bytes": 23646,
+   "highest_arc": 577,
+   "lag": 522,
+   "path": "REPRODUCIBILITY.md"
+  },
+  {
+   "bytes": 4324,
+   "highest_arc": 581,
+   "lag": 518,
+   "path": "docs/anatomy/ATLAS_V2.md"
+  },
+  {
+   "bytes": 13405,
+   "highest_arc": 635,
+   "lag": 464,
+   "path": "PROVENANCE.md"
+  },
+  {
+   "bytes": 20322,
+   "highest_arc": 648,
+   "lag": 451,
+   "path": "GOVERNANCE.md"
+  },
+  {
+   "bytes": 11335,
+   "highest_arc": 671,
+   "lag": 428,
+   "path": "docs/anatomy/VERDICT_LEDGER.md"
+  },
+  {
+   "bytes": 29279,
+   "highest_arc": 684,
+   "lag": 415,
+   "path": "docs/dossiers/S6_theorem_inventory_cc2.md"
+  },
+  {
+   "bytes": 3545,
+   "highest_arc": 691,
+   "lag": 408,
+   "path": "docs/dossiers/S8_portfolio_current_cc2.md"
+  },
+  {
+   "bytes": 4667,
+   "highest_arc": 695,
+   "lag": 404,
+   "path": "docs/anatomy/EISENSTEIN_ATLAS.md"
+  },
+  {
+   "bytes": 3713,
+   "highest_arc": 698,
+   "lag": 401,
+   "path": "docs/dossiers/GATE3_nogo_pillars_confirmation.md"
+  },
+  {
+   "bytes": 4209,
+   "highest_arc": 767,
+   "lag": 332,
+   "path": "docs/CLOSURE_PROGRAM.md"
+  },
+  {
+   "bytes": 3373,
+   "highest_arc": 773,
+   "lag": 326,
+   "path": "docs/PHASE1_WRAP.md"
+  },
+  {
+   "bytes": 9681,
+   "highest_arc": 781,
+   "lag": 318,
+   "path": "docs/CLOSURE_MASTERPLAN.md"
+  },
+  {
+   "bytes": 9995,
+   "highest_arc": 797,
+   "lag": 302,
+   "path": "docs/LISTENING_PROTOCOL.md"
+  },
+  {
+   "bytes": 1877,
+   "highest_arc": 801,
+   "lag": 298,
+   "path": "docs/views/COVERAGE.md"
+  },
+  {
+   "bytes": 18623,
+   "highest_arc": 907,
+   "lag": 192,
+   "path": "docs/UNIFIED_STATE.md"
+  },
+  {
+   "bytes": 5925,
+   "highest_arc": 920,
+   "lag": 179,
+   "path": "docs/COMMS_PROTOCOL.md"
+  },
+  {
+   "bytes": 23787,
+   "highest_arc": 920,
+   "lag": 179,
+   "path": "docs/THEOREM_REGISTRY.md"
+  },
+  {
+   "bytes": 5919,
+   "highest_arc": 952,
+   "lag": 147,
+   "path": "docs/GUT_REQUIREMENTS_LEDGER.md"
+  },
+  {
+   "bytes": 43836,
+   "highest_arc": 968,
+   "lag": 131,
+   "path": "docs/STRUCTURE_TO_NATURE_MASTERPLAN.md"
+  },
+  {
+   "bytes": 7834,
+   "highest_arc": 980,
+   "lag": 119,
+   "path": "docs/ROADMAP_TOE.md"
+  },
+  {
+   "bytes": 8026,
+   "highest_arc": 984,
+   "lag": 115,
+   "path": "docs/BANKING_PROTOCOL.md"
+  }
+ ],
+ "method_corrections": [
+  {
+   "detail": "branch main-band tip B1067 vs origin/main B1099; 32 of cc's arcs absent because cc3 does not merge",
+   "fix": "run against origin/main",
+   "issue": "working tree is not the corpus"
+  },
+  {
+   "detail": "'no single md document is outdated' cannot mean 1985 arc FINDINGS, which are historical records and should be frozen",
+   "fix": "scope to 126 synthesis surfaces (docs/ 112 + root 14)",
+   "issue": "directive needs scoping"
+  }
+ ],
+ "mode": "COLD",
+ "modulus": "cold on cc's B1074-B1099; NOT cold on the last two days -- cc3 flagged B1085 and B1098-vs-B959, proposed the seal-digests gate, and had arcs harvested into B1092-B1094. Partly reviewing changes cc3 caused. Declared, not discovered.",
+ "phase": 1,
+ "phase2_owes": [
+  "triage the remaining 35 live surfaces individually",
+  "verify GUT_REQUIREMENTS_LEDGER (lag 147), UNIFIED_STATE (192), BANKING_PROTOCOL (115)",
+  "carry B8097's nineteen in as named items",
+  "reset the counter"
+ ],
+ "review": "R48",
+ "run_against": "origin/main",
+ "scope": "Phase 1 is MECHANICAL: inventory, currency spine, one verified finding. The 36-row list is CANDIDATES, explicitly not verdicts. Gate 5 untouched.",
+ "synthesis_surfaces": 126,
+ "undated_live_surfaces": 36,
+ "verified_findings": [
+  {
+   "arcs_of_violation": 179,
+   "corpus_tip": 1099,
+   "entries": 56,
+   "id": "R48-F1",
+   "its_own_rule": "every future bank that creates a theorem or law adds its line here IN THE SAME PR",
+   "severity": "load-bearing -- B1012 is the forced action and c = 6 sigma, cited by the paper",
+   "surface": "docs/THEOREM_REGISTRY.md",
+   "tops_out_at": 920,
+   "verified_absent": [
+    "B1012",
+    "B1076",
+    "B1080",
+    "B1085",
+    "B1088",
+    "B1094",
+    "B1098"
+   ],
+   "why_unenforced": "no gate reads that rule; representation-sweep polices synthesis surfaces generally but nothing checks the registry against new laws"
+  }
+ ]
+}

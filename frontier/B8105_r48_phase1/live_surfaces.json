@@ -1,0 +1,243 @@
+{
+ "live": [
+  {
+   "path": "ARCHITECTURE.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 4340
+  },
+  {
+   "path": "docs/atlas/FAILURE_ATLAS.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 22215
+  },
+  {
+   "path": "docs/atlas/GLOSSARY.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 5718
+  },
+  {
+   "path": "docs/atlas/RESEARCH_TREE.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 5144
+  },
+  {
+   "path": "docs/atlas/SUCCESS_ATLAS.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 4925
+  },
+  {
+   "path": "AUDIT_REPORT.md",
+   "highest_arc": 153,
+   "lag": 946,
+   "bytes": 15002
+  },
+  {
+   "path": "METHOD.md",
+   "highest_arc": 225,
+   "lag": 874,
+   "bytes": 7592
+  },
+  {
+   "path": "docs/STRATEGIC_SYNTHESIS.md",
+   "highest_arc": 233,
+   "lag": 866,
+   "bytes": 24190
+  },
+  {
+   "path": "docs/atlas/README.md",
+   "highest_arc": 325,
+   "lag": 774,
+   "bytes": 3794
+  },
+  {
+   "path": "docs/NOVELTY_AUDIT.md",
+   "highest_arc": 329,
+   "lag": 770,
+   "bytes": 25698
+  },
+  {
+   "path": "docs/TOOLBOX.md",
+   "highest_arc": 370,
+   "lag": 729,
+   "bytes": 4631
+  },
+  {
+   "path": "docs/dossiers/DOSSIER_kashaev_sqrt5_novelty.md",
+   "highest_arc": 384,
+   "lag": 715,
+   "bytes": 1440
+  },
+  {
+   "path": "docs/dossiers/DOSSIER_weil_tqft_identification.md",
+   "highest_arc": 392,
+   "lag": 707,
+   "bytes": 2298
+  },
+  {
+   "path": "docs/dossiers/NOVELTY_MAP.md",
+   "highest_arc": 409,
+   "lag": 690,
+   "bytes": 9050
+  },
+  {
+   "path": "docs/RECOGNITION.md",
+   "highest_arc": 414,
+   "lag": 685,
+   "bytes": 17153
+  },
+  {
+   "path": "REPRODUCIBILITY.md",
+   "highest_arc": 577,
+   "lag": 522,
+   "bytes": 23646
+  },
+  {
+   "path": "docs/anatomy/ATLAS_V2.md",
+   "highest_arc": 581,
+   "lag": 518,
+   "bytes": 4324
+  },
+  {
+   "path": "PROVENANCE.md",
+   "highest_arc": 635,
+   "lag": 464,
+   "bytes": 13405
+  },
+  {
+   "path": "GOVERNANCE.md",
+   "highest_arc": 648,
+   "lag": 451,
+   "bytes": 20322
+  },
+  {
+   "path": "docs/anatomy/VERDICT_LEDGER.md",
+   "highest_arc": 671,
+   "lag": 428,
+   "bytes": 11335
+  },
+  {
+   "path": "docs/dossiers/S6_theorem_inventory_cc2.md",
+   "highest_arc": 684,
+   "lag": 415,
+   "bytes": 29279
+  },
+  {
+   "path": "docs/dossiers/S8_portfolio_current_cc2.md",
+   "highest_arc": 691,
+   "lag": 408,
+   "bytes": 3545
+  },
+  {
+   "path": "docs/anatomy/EISENSTEIN_ATLAS.md",
+   "highest_arc": 695,
+   "lag": 404,
+   "bytes": 4667
+  },
+  {
+   "path": "docs/dossiers/GATE3_nogo_pillars_confirmation.md",
+   "highest_arc": 698,
+   "lag": 401,
+   "bytes": 3713
+  },
+  {
+   "path": "docs/CLOSURE_PROGRAM.md",
+   "highest_arc": 767,
+   "lag": 332,
+   "bytes": 4209
+  },
+  {
+   "path": "docs/PHASE1_WRAP.md",
+   "highest_arc": 773,
+   "lag": 326,
+   "bytes": 3373
+  },
+  {
+   "path": "docs/CLOSURE_MASTERPLAN.md",
+   "highest_arc": 781,
+   "lag": 318,
+   "bytes": 9681
+  },
+  {
+   "path": "docs/LISTENING_PROTOCOL.md",
+   "highest_arc": 797,
+   "lag": 302,
+   "bytes": 9995
+  },
+  {
+   "path": "docs/views/COVERAGE.md",
+   "highest_arc": 801,
+   "lag": 298,
+   "bytes": 1877
+  },
+  {
+   "path": "docs/UNIFIED_STATE.md",
+   "highest_arc": 907,
+   "lag": 192,
+   "bytes": 18623
+  },
+  {
+   "path": "docs/COMMS_PROTOCOL.md",
+   "highest_arc": 920,
+   "lag": 179,
+   "bytes": 5925
+  },
+  {
+   "path": "docs/THEOREM_REGISTRY.md",
+   "highest_arc": 920,
+   "lag": 179,
+   "bytes": 23787
+  },
+  {
+   "path": "docs/GUT_REQUIREMENTS_LEDGER.md",
+   "highest_arc": 952,
+   "lag": 147,
+   "bytes": 5919
+  },
+  {
+   "path": "docs/STRUCTURE_TO_NATURE_MASTERPLAN.md",
+   "highest_arc": 968,
+   "lag": 131,
+   "bytes": 43836
+  },
+  {
+   "path": "docs/ROADMAP_TOE.md",
+   "highest_arc": 980,
+   "lag": 119,
+   "bytes": 7834
+  },
+  {
+   "path": "docs/BANKING_PROTOCOL.md",
+   "highest_arc": 984,
+   "lag": 115,
+   "bytes": 8026
+  }
+ ],
+ "snapshots": [
+  "docs/CROSS_SESSION_2026-06-11_disposition.md",
+  "docs/progress/PROGRESS_2026-Q2.md",
+  "docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md",
+  "docs/AUDIT_2026-07-05.md",
+  "docs/CLOSURE_2026-07-05.md",
+  "docs/CODEX_AUDIT_RESPONSE_2026-07-12.md",
+  "docs/CLOSURE_2026-07-11.md",
+  "docs/LITERATURE_GAUGE_SM_2026-07-13.md",
+  "docs/CRYSTALLIZATION_2026-07-09.md",
+  "docs/REBASE_2026-07-12.md",
+  "docs/LITERATURE_SWEEP2_2026-07-13.md",
+  "docs/LITERATURE_CONTEXT_2026-07-15.md",
+  "docs/REBASE_2026-07-16.md",
+  "CC3_TO_CC_2026-07-22_p3_complete.md",
+  "docs/dossiers/DOSSIER_the_arithmetic_object_2026-07-18.md",
+  "docs/handoffs/NEGATIVES_HUNT_HANDOFF_2026-07-21.md",
+  "docs/audits/AUDIT_2026-07-21_cc3.md",
+  "docs/audits/AUDIT_2026-07-22_fourth_pass.md",
+  "docs/audits/AUDIT_2026-07-23_cc3_corpus.md",
+  "docs/progress/REVIEW_TEMPLATE.md",
+  "docs/handoffs/PHYSICS_PATHFINDER_PROMPT_2026-07-21.md"
+ ]
+}

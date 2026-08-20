@@ -18756,6 +18756,19 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B8105": {
+   "slug": "r48 phase1",
+   "motifs": [],
+   "refs": [
+    "B124",
+    "B920",
+    "B959"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [
