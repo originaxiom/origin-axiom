@@ -1,0 +1,29 @@
+{
+ "E6_work_found": false,
+ "exceptional_group_character_variety_work_found": false,
+ "frontier_confirmed": "SL(3): Heusener-Munoz-Porti arXiv:1505.04451 (five components of dim 2; one containing the Sym^2 curve; two from exceptional Dehn fillings); Falbel et al arXiv:1412.4711 in PGL(3,C)/PSL(3,C)",
+ "gate_status": "SUBSTANTIALLY DISCHARGED -- the novelty half is confirmable in-sandbox and confirmed twice; the remaining half is a referee-grade WRITE-UP, which is not a specialist wall",
+ "next_revisit": "B391 -- same shape, untested",
+ "not_actually_specialist_gates": [
+  {
+   "item": "B391",
+   "tested": false,
+   "why": "the row itself says the needed proof is 'plausibly already in the literature' (Gelbart/Prasad neighborhood)"
+  },
+  {
+   "item": "B264/B274/B347",
+   "tested": true,
+   "why": "asks for 'specialist confirmation of novelty', which is a LITERATURE question, resting on a sweep dated 2026-07-04"
+  }
+ ],
+ "not_claimed": [
+  "that two web searches are an exhaustive novelty sweep -- stronger than the original (none), weaker than a specialist read",
+  "that the other five rows have expired; B391 is the same shape and UNTESTED, and the remaining four (rho_n/Procesi, L22 Grobner, L5/L6, L20) are genuine tooling-or-proof walls not examined here"
+ ],
+ "novelty_claim_survives": true,
+ "register_items": 7,
+ "revisited": "B264/B274/B347 -- the E6 character variety of 4_1",
+ "scope": "A revisit of one register row plus a re-reading of all seven against the owner's thesis. Two web searches; primary papers NOT read in full. Gate 5 untouched.",
+ "searches_run": 2,
+ "thesis": "a SPECIALIST GATE HAS A DATE -- the same rule the corpus already locks for absence claims"
+}

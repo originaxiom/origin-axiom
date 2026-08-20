@@ -18721,6 +18721,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8103": {
+   "slug": "specialist revisit",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein"
+   ],
+   "refs": [
+    "B264",
+    "B274",
+    "B347",
+    "B391",
+    "L20",
+    "L22",
+    "L5",
+    "L6"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [
