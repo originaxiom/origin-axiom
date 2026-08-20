@@ -1,0 +1,37 @@
+{
+ "label_lifetime_hours": 2,
+ "not_claimed": [
+  "that we have the one-loop partition function -- we do not",
+  "that the identification is trivial -- it is the real remaining question",
+  "that Pfaff's theorem was hard to find; it was the SECOND HIT of the FIRST search, and the NEEDS-SPECIALIST label was applied before reading it -- the error was cc3's and the label premature"
+ ],
+ "nothing_unavailable": true,
+ "our_ingredients": {
+  "cusp_defect": {
+   "m=3": 0.7121142418,
+   "m=4": 0.5531518273,
+   "m=5": 0.4522787995
+  },
+  "kappa": 1,
+  "ruelle_zeta": "built from the geodesic spectrum computed in B8100",
+  "volume": 2.029883212819307,
+  "volume_factor": {
+   "m=3": 0.02071719253,
+   "m=4": 0.000117879632,
+   "m=5": 1.842144136e-07
+  }
+ },
+ "remaining_gap": "ONE IDENTIFICATION: does the AdS3 boundary-graviton one-loop determinant correspond to one of Pfaff's rho(m) (2m-th symmetric powers of the standard SL2(C) rep), and if so which? A dictionary entry, not a theorem.",
+ "retracts": "B8102's NEEDS-SPECIALIST-CONFIRMED label on the cusped one-loop gap",
+ "scope": "Theorem 1.2 read from source; cusp defect and volume term computed for our object. Does NOT assemble a partition function. Gate 5 untouched.",
+ "source": {
+  "R_is": "the Ruelle zeta function",
+  "arxiv": "1206.0228",
+  "author": "Jonathan Pfaff",
+  "c_is": "an explicit closed-form constant -- a defect caused by non-compactness, arising from a non-invariant distribution on the geometric side of the Selberg trace formula",
+  "formula": "T_X(rho(m))/T_X(rho(2)) = (c(m)/c(2))^{kappa(X)} * exp(-(1/pi) vol(X)(m(m+1)-6)) * prod_{k=3}^{m} |R(k,sigma_k)|",
+  "kappa_is": "the number of cusps",
+  "theorem": "1.2"
+ },
+ "three_term_structure_matches_B8101": true
+}

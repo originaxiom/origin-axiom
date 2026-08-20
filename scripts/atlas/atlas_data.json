@@ -18744,6 +18744,18 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B8104": {
+   "slug": "pfaff formula",
+   "motifs": [
+    "kappa",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [

@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-20)",
+ "claim_one_line": "THE CUSPED FORMULA EXISTS EXPLICITLY, AND THIS RETRACTS THIS SEAT'S OWN TWO-HOUR-OLD NEEDS-SPECIALIST LABEL. B8102 labelled the cusped one-loop gap NEEDS-SPECIALIST-CONFIRMED on the stated ground that abstracts were read and not full papers. Applying the owner's thesis -- a SPECIALIST GATE HAS A DATE -- to the main line, the paper was read and the label is WRONG; it expired in under two hours. Jonathan Pfaff, 'Analytic torsion versus Reidemeister torsion on hyperbolic 3-manifolds with cusps', arXiv:1206.0228, THEOREM 1.2, gives for m >= 3: T_X(rho(m))/T_X(rho(2)) = (c(m)/c(2))^{kappa(X)} exp(-(1/pi) vol(X)(m(m+1)-6)) prod_{k=3}^m |R(k,sigma_k)|, where kappa(X) is THE NUMBER OF CUSPS, R is the RUELLE ZETA function, and c(m) is an EXPLICIT CLOSED-FORM constant the paper calls a defect caused by non-compactness, arising via a non-invariant distribution on the geometric side of the Selberg trace formula. That is exactly the three-term structure B8101 assembled -- volume, geodesic/zeta, cusp -- derived, explicit and published in 2012. EVERY INGREDIENT IS IN HAND FOR OUR OBJECT: kappa = 1 and vol = 2.029883212819307 both verified in B8099; the cusp defect computed here as 0.7121, 0.5532, 0.4523 at m = 3,4,5; the volume factor as 0.02072, 1.179e-4, 1.842e-7; and the Ruelle zeta built from the geodesic spectrum computed in B8100. Nothing in the formula is unavailable to us. THE REMAINING GAP IS NOW SMALL AND SPECIFIC: Pfaff's rho(m) are the 2m-th symmetric powers of the standard SL2(C) representation and the object is ANALYTIC TORSION, not verbatim the AdS3 graviton one-loop partition function, so the honest remaining question is ONE IDENTIFICATION -- does the AdS3 boundary-graviton one-loop determinant correspond to one of Pfaff's rho(m), and which? That is a dictionary entry, not a theorem, and far better posed than 'the cusped test function does not exist'. NOT CLAIMED: that we have the one-loop partition function (we do not); that the identification is trivial (it is the real remaining question); and not that Pfaff was hard to find -- it was the SECOND HIT OF THE FIRST SEARCH, and the label was applied before reading it, so the error was this seat's and the label premature. Gate 5 untouched.",
+ "depends_on": [
+  "B8102",
+  "B8101",
+  "B8100",
+  "B8099"
+ ],
+ "id": "B8104",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
