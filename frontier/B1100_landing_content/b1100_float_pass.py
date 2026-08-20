@@ -3,7 +3,7 @@ Outputs: the branching table under (sl2, Cartan-of-c), the REALITY verdict
 (negation-symmetry of the c-weight multiset), the hypercharge test (linear-algebra
 form, not a scan), and the B959-relevant conjugation statement.
 """
-import json
+import json, os
 from fractions import Fraction as F
 import numpy as np
 import sympy as sp
@@ -14,7 +14,7 @@ src=open(CERT).read()
 exec(src[:src.find('print(" IDENTITY double')], G)
 br, DIM, rho27_Q = G['br'], G['DIM'], G['rho27_Q']
 
-trip=json.load(open('/Users/dri/origin-axiom/frontier/B1098_nonabelian_hatch/b1098_a2_triple.json'))
+trip=json.load(open(os.environ.get('B1098_TRIPLE', 'frontier/B1098_nonabelian_hatch/b1098_a2_triple.json')))
 de=lambda v:[F(a,b) for a,b in v]
 X,H,Y=de(trip["X"]),de(trip["H"]),de(trip["Y"])
 

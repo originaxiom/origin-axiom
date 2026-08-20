@@ -85,3 +85,54 @@ def test_ambiguity_ruling_recorded():
 def test_cold_audit_corrections_landed():
     for rel, anchor in AUDIT_CORRECTIONS:
         assert anchor in _read(rel), f"audit correction lost: {rel} lacks {anchor!r}"
+
+
+# ============================================================
+# THE DOC-REFLECTION WAVE (2026-08-20, post-B1101): the ten-surface
+# rewrite pinned. Anchors = the wave's load-bearing corrections (the
+# overclaim fix, the success tiers, the restored open questions, the
+# merge-time anchor repairs); absences = the exact overclaim strings
+# that may not return. A later rewrite that drops one of these is the
+# same species of quiet loss this lock was built for.
+# ============================================================
+
+DOCWAVE_ANCHORS = [
+    ("README.md", "Standard-Model-shaped"),
+    ("README.md", "Tier-STRUCTURE"),
+    ("README.md", "conditionally force"),
+    ("README.md", "CORRECTED 2026-08-10 by the verification seat"),
+    ("docs/THE_FRAMEWORK.md", "Standard-Model-shaped"),
+    ("docs/THE_FRAMEWORK.md", "Tier-STRUCTURE"),
+    ("docs/THE_FRAMEWORK.md", "THE GRAVITY THEORY"),
+    ("docs/THE_FRAMEWORK.md", "THE LOCATION THEOREM"),
+    ("docs/THE_FRAMEWORK.md", "non-neutral Tannakian"),  # L159 restored at merge
+    ("docs/THE_FRAMEWORK.md", "elimination is not exhibition"),  # L160 restored at merge
+    ("docs/THE_FRAMEWORK.md", "RE-SORTED 2026-08-10"),
+    ("docs/THE_LADDER.md", "THE LOCATION THEOREM"),
+    ("docs/THE_LADDER.md", "REWRITTEN WHOLE, 2026-08-20"),
+    ("docs/WHAT_WOULD_COUNT.md", "Tier-STRUCTURE"),
+    ("docs/CROSSING_REQUIREMENTS.md", "R12"),
+    ("docs/OPEN_PROBLEMS.md", "previously-untested route"),
+    ("TERMINOLOGY.md", "registerable"),
+    ("TERMINOLOGY.md", "THE LOCATION THEOREM"),
+    ("TERMINOLOGY.md", "the certification envelope"),
+]
+
+DOCWAVE_ABSENT = [
+    ("README.md", "the Standard Model's own gauge algebra"),
+    ("README.md", "derives the Standard Model's gauge algebra"),
+    ("README.md", "eleven-item"),
+    ("docs/THE_FRAMEWORK.md", "lands on the Standard Model's algebra"),
+    ("docs/THE_FRAMEWORK.md", "THE THIRD THEORY"),
+    ("docs/THE_FRAMEWORK.md", "eleven-item"),
+]
+
+
+def test_docwave_anchors_landed():
+    for rel, anchor in DOCWAVE_ANCHORS:
+        assert anchor in _read(rel), f"doc-wave anchor lost: {rel} lacks {anchor!r}"
+
+
+def test_docwave_overclaims_stay_dead():
+    for rel, phrase in DOCWAVE_ABSENT:
+        assert phrase not in _read(rel), f"overclaim returned: {rel} contains {phrase!r}"

@@ -1,8 +1,95 @@
 # The priced-doors campaign — every physics word, its price, and its computable next rung
 
-*Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
+*Review 47 (2026-08-20): the crossing week's tail plus the closing campaign's Phase 1. The coupling
+channel closes for good (B1066 R-A/R-B, B1075 — MISS on every remaining licensed row; seven sealed
+crossings, seven negatives in all) and hands off two non-data-contact structural doors in its place
+(the coboundary/hierarchy lane's successor question; Route A's literature floor). THE CLOSING
+CAMPAIGN opens on the rank wall: the four-language chirality wall completes (B1083/B1084/B1086/
+B1087) beside the parameter-free 3d completion's four cards (B1088–B1091); the wall itself moves for
+the first time since B960 — THE HATCH OPENS (B1098: su(3)⊕su(3) at rank exactly 4) with its
+landing's matter exact and its 27 proved complex (B1100), re-scoping B959 to toral routes beside its
+own sealed text. Door 5 — the last lane of B167's old "no internal door" taxonomy — closes
+structurally (B1096); its companion (B1097) reports a falsifiable prediction that had already fired
+blind inside B1095's mirror-isospectral split, which also supplies the aperiodic door's mandatory
+new seal discipline (differential-first, `docs/CROSSING_REQUIREMENTS.md` R12). Route A's literature
+floor is located (B1099). Governance closes the window: THE CERTIFICATION ENVELOPE (B1101) with the
+live `seal-digests` gate. Full integration below at STATE AT REVIEW 47; see docs/progress/REVIEWS.md
+Review 47, window 9c0fd129 → 61499dfe.*
 
 
+> ## STATE AT REVIEW 47 (2026-08-20) — the crossing week's tail, the closing campaign's Phase 1, door 5, and the certification envelope
+>
+> **1. The coupling channel closes, for good.** B1066 (R-A, the listener pair vs the mixing angles,
+> MISS at every trial, corroborated against a second, independent source; R-B, the φ-geometric tone
+> row, MISS, unrescuable by the unknown phase at the one δ-independent anchor) and B1075 (the same
+> tones against the PMNS moduli, MISS at power — the δ-independent e-row excluding both sealed
+> values cleanly) exhaust every row the kind table licenses. B1066's own verdict is the section:
+> **"the licensed value-contact surface is EXHAUSTED… the value wall stands complete."** Seven sealed
+> crossings, seven negatives in all; full account in `docs/SM_SPECIFICATION_LEDGER.md` §C/§D5 and
+> `docs/CROSSING_REQUIREMENTS.md` §4.
+>
+> **2. The two structural lanes left behind are each decided by their own computation, not left
+> hanging.** B1074: the hierarchy is coboundary-carried, invisible to H¹. B1076: the full four-gauge
+> coboundary sweep (two gauges never computed before) finds no value-bearing coset invariant
+> anywhere — paid for in theorems (CCC = 3!·λ coset-wide; a new sign character of the Klein group;
+> the denom⁴ law; the coset-wide 77 killed by its own vacuity control, re-proven live on that bench)
+> — and hands off the successor question, **nature supplies the gauge: which datum picks the
+> coboundary element**, with three named structural doors (the gauge-datum question, L154, B882) as
+> the value layer's only remaining licensed direction. None of the three is a data contact.
+>
+> **3. THE CLOSING CAMPAIGN opens on the rank wall.** The four-language chirality wall completes
+> (B1083 the origin torsor's two spendable bits, C and P; B1084 the flat G₂ orbifold, the first
+> collision geometry the corpus has had; B1086 the spectrum law closing L79 — chirality at count
+> level is ZERO on any closed assembly; B1087 the fourth language, charge/holonomy
+> non-commutativity) beside the parameter-free 3d completion's four cards (B1088–B1091: the action
+> card, S = −Vol·σ with the k-coupling deleted by the object's own amphichirality; the
+> partition-function bridge, AK's saddle landing exactly on the field generator; the matter card,
+> every matter datum interface-resident; the observer card, the forced/free boundary read off
+> physically — all firewalled, none claiming a value). Then the wall itself moves for the first
+> time since B960: B1092 (the purity selector is a CONDITION on an 11-dimensional cone, not a
+> point); B1094 (the wall goes two-route — B955 structural, B1079's 15,624-element census exhaustive
+> — and names its one live hatch: non-abelian holonomy, which torality never covered); **B1098 (THE
+> HATCH OPENS: all twenty sl₂ classes of e₆ enumerated, saturating the cited Bala–Carter count; the
+> A2 class lands the object's own holonomy at su(3)⊕su(3), rank exactly 4, a priced 1-of-20 choice,
+> ~4.3 bits, no mechanism claimed)**; and **B1100 (the landing's 27 IS complex, witnessed by a
+> basis-free asymmetry — RE-SCOPING B959's headline to "every TORAL route", the addendum sitting
+> beside B959's untouched sealed proof; the trinification branching exact; hypercharge compatible at
+> pattern/generic level, the exact match named as the residual)**.
+>
+> **4. Door 5 closes structurally, and the aperiodic door gains its mandatory seal discipline.**
+> B167's "the wall has no internal door" taxonomy named one surviving lane — the RG-invariant
+> anomaly layer — and B1096 empties it: over the object's own derived 16 (with ν^c) every anomaly
+> channel vanishes identically, the ℤ₆ congruence's unique solution reproduced by exhaustion. B1097
+> re-derives the audit seat's orientability finding and reports its own falsifiable prediction
+> already fired, blind, inside **B1095** — this window's other headline: the aperiodic cut's two
+> hands share their spectrum EXACTLY at reversal-closed windows (max difference 1.3×10⁻¹⁵), not
+> merely to within one state, answering both of the audit seat's B1085 checks. B1095 also supplies
+> the aperiodic door's (this doc's own owner-pending item, below) missing discipline: any future
+> lab-facing prereg states the differential against gap-labeling and bulk–boundary FIRST
+> (`docs/CROSSING_REQUIREMENTS.md` R12) — the cross-hand structure is the object's; the per-gap
+> counts are the literature's (B1095's own (5,6) edge-count pair recurs at seven other grid points
+> besides the object's phase — standard pumping content in kind, not golden-unique). The door stays
+> OWNER-PENDING; its content is now ready behind the gate.
+>
+> **5. Route A's literature floor, and governance.** B1099: no theorem in the reachable literature
+> counts integral orbits for this exact classifying pair (a named gap in frontier mathematics), but
+> the full-group orbit is DECIDED unique at the object's own squarefree invariant, and the
+> pair-space reading (27⊕27̄, not the bare 27) is now forced from the mathematics side as well as
+> the physics side. B1101 consolidates the window's own near-misses (three tree-freeze instances,
+> one hash mistranscription, all caught by existing gates) into **THE CERTIFICATION ENVELOPE**
+> (`WORKING_RULES.md` §CE): staged landings, staged-state gate checks, digests entered by command
+> substitution, backed by the live `seal-digests` gate.
+>
+> **No PD1–PD4 repriced this window** — the wave below is entirely the E₆-cascade/value-layer
+> strand, not the anyon/gauge-tower/spacetime strand this campaign's own table tracks; PD1's
+> aperiodic item (point 4 above) is the one point of contact. *(Flagged, not resolved, at this
+> writing: PD3's own still-open item, PD3.1, is "AK-model identification remains open
+> (NEEDS-SPECIALIST)" — and this same window's B1090, cited at point 3 above, builds and
+> evaluates the Andersen–Kashaev state integral for the figure-eight. Whether B1090 bears on,
+> advances, or is simply a different construction from PD3.1's outstanding item has not been
+> checked against PD3's own row here; that cross-check is owed before PD3 is next repriced
+> or declared untouched again, not assumed either way in this note.)* Ledger:
+> `docs/progress/REVIEWS.md` Review 47, anchor `61499dfe`.
 
 
 > ## STATE AT REVIEW 45 (2026-08-13)
@@ -73,7 +160,9 @@
 > resolution follows from the statement itself: a theory whose values are coupling artifacts must
 > predict THE COUPLING, not the values.** Notably, that target sits **outside B687's atlas and
 > outside B743's tower** — precisely the bar B1005 sets for a fourth crossing. **The negative points
-> at where to look.**
+> at where to look.** *(2026-08-20 note: it was looked at, to exhaustion — see STATE AT REVIEW 47
+> above. The coupling channel this paragraph predicted the object should be silent on was found
+> silent, four times over, under seal.)*
 >
 > **5. What the practice keeps discovering about itself.** The recurring error of 2026-08-09 — nine
 > instances — was never a wrong computation. It was **mistaking an instrument's blindness for the
@@ -113,7 +202,7 @@ The honest anchors are stated first; framing lock GOVERNANCE §2 applies to ever
 
 | door | what exists (shape, banked) | the price (currency) | the computable next rung |
 |---|---|---|---|
-| **PD1 · the anyon door** (the REORDERED nearest crossing) | the banked structure — modular matrices on a finite theta space, seam values as matrix elements — is modular-data-shaped for a (2+1)-d topological phase; the minimal two-state sector (P56) with quasi-energy ±108° | **physical instantiation** (κ's letter): the algebra realized on hardware, its invariants measured | PD1.1 ✅ **DONE (B373): MOVED — gapless-trending** (unique sector, exponent pinned at ±6, phase 108°→36° = 9π/N; `tr = φ` exactly; the pinned/anyon branch refuted at this rung); PD1.2 ✅ **SECTOR-LEVEL VERDICT (B384-T3): NO-MATCH — the slot's S-compression is TRIANGULAR (F(6,14)=0, scaling-independent), so the sector is not S-closed and cannot be a 2-anyon/U(1)_k modular block; any Weil-TQFT identification lives at full level 15 (residue). Exhibits: g(15)=√−15 (the seam radical as S-normalizer); twist diagonal h=(3/10,7/10); tr(F|slot) = −(5/16φ)(3−√−3). NEEDS-SPECIALIST for novelty.**; PD1.3 ✅ **DONE (B375, P58): compiled to two primitives; the protocol theorem exact** (the 240-word Hadamard-test post-processing provably returns the banked values; κ-word trace exactly 1; hardware = owner decision, letter/spirit firewall stated); PD1.4 the W2.11 selection-rule theorem (the forced-coupling gate) |
+| **PD1 · the anyon door** (the REORDERED nearest crossing) | the banked structure — modular matrices on a finite theta space, seam values as matrix elements — is modular-data-shaped for a (2+1)-d topological phase; the minimal two-state sector (P56) with quasi-energy ±108° | **physical instantiation** (κ's letter): the algebra realized on hardware, its invariants measured | PD1.1 ✅ **DONE (B373): MOVED — gapless-trending** (unique sector, exponent pinned at ±6, phase 108°→36° = 9π/N; `tr = φ` exactly; the pinned/anyon branch refuted at this rung); PD1.2 ✅ **SECTOR-LEVEL VERDICT (B384-T3): NO-MATCH — the slot's S-compression is TRIANGULAR (F(6,14)=0, scaling-independent), so the sector is not S-closed and cannot be a 2-anyon/U(1)_k modular block; any Weil-TQFT identification lives at full level 15 (residue). Exhibits: g(15)=√−15 (the seam radical as S-normalizer); twist diagonal h=(3/10,7/10); tr(F|slot) = −(5/16φ)(3−√−3). NEEDS-SPECIALIST for novelty.**; PD1.3 ✅ **DONE (B375, P58): compiled to two primitives; the protocol theorem exact** (the 240-word Hadamard-test post-processing provably returns the banked values; κ-word trace exactly 1; hardware = owner decision, letter/spirit firewall stated); PD1.4 the W2.11 selection-rule theorem (the forced-coupling gate); **PD1's aperiodic sub-lane (the Fibonacci laboratory road, L173): Phase 4 content now banked (B1085/B1087/B1095 — the per-gap detector, the cross-hand mirror-isospectral split, the charge/holonomy non-commutativity) and its seal step now carries the mandatory differential-first discipline (`docs/CROSSING_REQUIREMENTS.md` R12, 2026-08-20); still OWNER-PENDING on the aperiodic-design decision, its three Phase-0 items unchanged since Review 45.** |
 | **PD2 · the gauge/tower door** | the Heisenberg phase XZ = ζ·ZX is literally magnetic-translation holonomy: level-N theta = lowest-Landau-level states on a torus with N flux quanta (classical math, imported with citations); level 15 = 15 flux quanta; the forced a=½ (C6) = the unique monodromy-invariant Wilson-line modulus | **a controlled limit** (finite → continuum along the level tower) — a 15-dim space holds no field modes; the modes live in the ladder 15 → 45 → 135 → … | PD2.1 the magnetic framing banked as cited context + exact algebra checks; PD2.2 **rungs 1–3 DONE (B372/B373/B374): the phase is pinned to the pentagon pair {36°, 108°}, alternating 3-adically — NOT gapless along 15·3^k; the gapless hinge is closed on this tower as measured** (rung 75 DONE: phase 90°, trace 0 — the pentagon-pair prediction ALSO killed; the surviving four-rung law = existence + uniqueness + helicity + ord = 4N/3; **the phase-map riddle registered**; N = 225: **NO SECTOR — the existence law dies at the first mixed level; the sector lives on prime-power towers only** (preregs: 405 exists/36°, 375 exists, 675 none)); PD2.3 the wall-equivalence note: the four-way-measured wall (rate-forced, scale-external) IS the tower-limit gate — every particle word funnels through it |
 | **PD3 · the 2+1 spacetime door** | the mapping torus IS a 2+1 Euclidean spacetime; hyperbolic 3-manifolds are 2+1 gravity in the Chern–Simons form — the figure-eight is that literature's standard example; time's arrow available in-model (Anosov mixing at rate log φ², banked) | **identification against established quantum invariants** (the bridge must agree with the known 4₁ data, not with hope) | PD3.1 ✅ **FIRST LEG DONE (B384-T1/T2): ⟨4₁⟩_N is NOT rational at general N — exact Galois components banked; the √5-part is NONZERO at every 5|N level (bet b PASS; Pisano-valuation bet c KILLED); the tower transports the m=1 single-seed constant 1/4 IDENTICALLY 15→45 (first exact cross-level constant equality). AK-model identification remains open (NEEDS-SPECIALIST).**; PD3.2 the arrow note (mixing → coarse-grained irreversibility), documentation-tier, firewalled |
 | **PD4 · the α gate** | one forced-coupling *candidate* (±1/48, W2.11-pending) | **two theorems + a ratio + the null gauntlet** (the same firing squad that shot Λ) | GATED: opens only if PD1.4 lands the selection-rule theorem AND PD2.2 produces a second forced coupling at another rung. Registered, not walked. |
@@ -132,7 +221,11 @@ PD2.3, PD3.2). Every probe: pre-registration first (nulls + kill conditions comm
 computation), exact-first arithmetic, atlas/FAILURE_ATLAS consult, promotion only through the
 §5 gates, nothing physics-adjacent promoted, hardware execution (PD1.3's far end) is an OWNER
 decision outside this campaign's scope — the in-sandbox deliverable is the compiled circuit +
-its exact simulation.
+its exact simulation. **A probe sealed or executed while a certifying suite is running
+additionally follows the certification envelope** (`WORKING_RULES.md` §CE; B1101): staged in
+the scratchpad, landed by explicit filename, digests entered by command substitution and
+re-verified by the live `seal-digests` gate — this is how a probe lands, not whether it clears
+the §5 gates above.
 
 - **The engine_v7 gate_report upstream patch** (from B678): the shared
   engine recomputes an O(N³) product per (i,j) — O(N⁵) per call; cc2's
@@ -189,4 +282,11 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 
 > **Review 41 — 2026-08-09.** Two doors repriced this window. **X8 (the Higgs doublet)** was registered as the campaign's top rung and **dissolved** — B884 had it (the 10 ⊂ 27), B978 scopes only the adjoint, and the residue (doublet–triplet splitting) is **external** by B298/B299. **L145a (is the child a short word?)** is open at **23% unchecked** with its reopen action written down — the most concrete unexplored lead in the corpus.
 
-*Review 47 currency (2026-08-20, anchor 61499dfe): this surface was refreshed at the Review-47 window's close — the wave B1083–B1099 (the four-language wall, the 3d completion's cards, THE HATCH at su(3)⊕su(3), the mirror-isospectral split, door 5's closure, Route A's decided stratum) is reflected in the campaign ledgers; the full narrative integration is the doc-reflection wave's mandate (R47-4), in flight.*
+*Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
+
+*Review 47 currency (2026-08-20, anchor 61499dfe): the full integration of the wave B1083–B1101 —
+the four-language wall, the 3d completion's cards, THE HATCH at su(3)⊕su(3), the mirror-isospectral
+split, door 5's closure, Route A's decided stratum, and the certification envelope — now lives at
+STATE AT REVIEW 47, top of this file (the doc-reflection wave's mandate, R47-4, discharged). This
+trailing note stays only as the chronological pointer the file's own convention keeps at each
+review's close.*

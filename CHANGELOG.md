@@ -1,5 +1,34 @@
 # Changelog
 
+## THE DOC-REFLECTION WAVE (2026-08-20) — ten surfaces rewritten to the post-B1101 state; the E₆→SM overclaim corrected everywhere it lived; the success tiers surfaced
+
+The owner's directive ("reflect the new state of the program to the
+rest of the repo") executed as one coordinated wave over ten synthesis
+surfaces: README, THE_FRAMEWORK (layer notes integrated into prose;
+THE GRAVITY THEORY named; WHAT REMAINS re-ranked), COMPUTE_THE_PROGRAM,
+WHAT_WOULD_COUNT (+§4A: Tier-STRUCTURE / Tier-INTERFACE /
+Tier-VALUE-COMPRESSION — the MB12-licensed re-framing; the old
+one-ratio tier was vacuous against the scale-torsor theorems),
+CROSSING_REQUIREMENTS (R12: differential-first, named), PRICED_DOORS,
+SM_SPECIFICATION_LEDGER, THE_LADDER (X33–X39 minted; X19 rewritten
+whole), OPEN_PROBLEMS (§7: buried results), TERMINOLOGY (nine
+closing-campaign terms; "registerable" glossed at last). Method: three
+writer agents + a fresh-eyes reader (READY-WITH-FIXES: 2 blocking, 9
+major, 4 minor — all applied, independently re-verified at merge). THE
+CRITICAL CATCH: "carries E₆ down to the Standard Model's own gauge
+algebra" contradicted B892's boxed correction and the wave's own
+SM_SPEC §D1 — every instance now reads "a fourteen-dimensional,
+Standard-Model-shaped gauge algebra … two steps from the SM's own
+twelve, not zero." Merge-time catches (the merger's own pass): three
+lock anchors the rewrite had dropped were restored in place (B1009's
+withdrawal note on README; B1016's L150-closure and B1013's sort stamp
+on THE_FRAMEWORK), the L159/L160 open questions restored to WHAT
+REMAINS, one L154 drive-by mention rephrased out of THE_LADDER
+(B1034's lock caught it), and B1100's three scripts moved to env-var
+paths (suite54's predicted block, folded forward per §CE — one commit,
+one suite). The stale-absence lock now pins 19 wave anchors and 6 dead
+overclaims.
+
 ## B1100 + B1101 + the seal-digests gate (2026-08-20) — the landing's matter is COMPLEX; B959 re-scoped; the certification envelope adopted
 
 B1100 THE LANDING'S MATTER CONTENT (R47-5; the audit seat's B959 flag

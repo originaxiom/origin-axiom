@@ -1,7 +1,7 @@
 """B1100 hypercharge completion: collapse-form exact test.
 Find float t achieving the target degeneracy pattern; read its collapse
 assignment; solve t exactly; verify all 27 values exactly."""
-import json, random
+import json, os, random
 from fractions import Fraction as F
 from collections import Counter
 import numpy as np
@@ -11,7 +11,7 @@ CERT="cloud_handoff/certificates/twisted_double.py"
 G={}
 s=open(CERT).read(); exec(s[:s.find('print(" IDENTITY double')], G)
 br, DIM, rho27_Q = G['br'], G['DIM'], G['rho27_Q']
-trip=json.load(open('/Users/dri/origin-axiom/frontier/B1098_nonabelian_hatch/b1098_a2_triple.json'))
+trip=json.load(open(os.environ.get('B1098_TRIPLE', 'frontier/B1098_nonabelian_hatch/b1098_a2_triple.json')))
 de=lambda v:[F(a,b) for a,b in v]
 X,H,Y=de(trip["X"]),de(trip["H"]),de(trip["Y"])
 def adm_sp(Z):

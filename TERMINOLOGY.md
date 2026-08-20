@@ -402,3 +402,150 @@ two more live senses — the ray-class MODULUS (B1067/B1069's Cl_m) and the ORDE
 f of ℤ+fφℤ / ℤ+fωℤ (B1069's tower; B675's cusp sense). Four senses now live: cusp-order
 conductor · shadow modulus · ray-class modulus · order-conductor f. Every use names its
 sense.
+
+## Added at Review 47 (2026-08-20) — the B1083–B1101 closing-campaign window's terms
+
+- **the origin torsor, typed correctly (the arrow-is-not-a-bit correction, B1083)** — amends
+  `THE_FORCED_AND_THE_FREE.md` §0 (2026-08-19). The four natural Fibonacci substitution
+  rules form one free transitive K₄-orbit under reversal-conjugation and swap-conjugation;
+  the founding choice `a→ab, b→a` is a basepoint-taking on this torsor. The original typing
+  ("reversal = time's arrow, swap = chirality") is **corrected**: all four orbit points are
+  FORWARD substitutions (no K₄ element inverts the dynamics), so reversal is a **P-type**
+  bit (parity, reading direction) and swap is the **C-type** bit (chirality) — but **the
+  arrow is not on the torsor at all**. Its true home is the positive monoid's
+  non-surjectivity (the word `bb` has no preimage under the substitution, verified
+  exhaustively to length 8 — some configurations are initial-only): an intrinsic,
+  **unspendable** structure, named **T** (the register's positivity). **The corrected
+  ledger: two spendable bits (C, P) + one unspendable structure (T).** Composition fact
+  (same arc): `det M = −1` is the tick's own signature (the Breath ℤ/2 pulse), not a
+  torsor bit; `M² = [[2,1],[1,1]] = RL` exactly — the tick squares to the figure-eight
+  monodromy — and the one-tick object is the non-orientable Gieseking manifold, so
+  **orientability and amphichirality are bought together at tick two** (the object is "the
+  double tick"). B1097 (re-deriving a second, independently-authored typing of the same
+  first act) settles which physical loss is which bit by composing B1083 with B1095 (below):
+  order-loss (the substitution's blindness to letter arrangement) = the P/hand bit;
+  sign-loss (`det M = −1 → det M² = +1`, forced by orientability) = the orientability/Breath
+  tick; **the arrow is neither** — never destroyed because never a bit, structural (T) at
+  every level.
+
+- **the two hands — SECOND, UNRELATED referent (collision flag, B1085)** — `TERMINOLOGY.md`
+  already glosses **"the two hands"** (Added Review 26) as the being/hearing faces taken as
+  a pair ("one hand cannot clap" = the generation no-go, B685). **B1085 introduces an
+  unrelated second sense**: on the Fibonacci Hamiltonian at a half-line Dirichlet cut, the
+  two hands are the two SIDES of one cut of the bi-infinite golden Sturmian word (the right
+  half read forward, the left half read outward) — a 1D quasicrystal edge construction, with
+  no arithmetic being/hearing content. **Any sentence using "the two hands" from B1085 forward
+  must say which**; prefer "the cut's two hands" for this sense, matching the file's
+  standing discipline for repeated words (cf. "σ," "K," "conductor," "θ-even").
+
+- **reversal-closed window (B1095)** — a half-line cut window of size N (a Fibonacci number)
+  at which the cut's two hands' (B1085) words are letter-for-letter reversals of one
+  another. Occurs exactly at **even** Fibonacci index (verified N = F₁₆ = 987, F₁₈ = 2584);
+  fails at **odd** index (N = F₁₇ = 1597, F₁₉ = 4181), where the reversal identity breaks at
+  exactly the two cut-adjacent letters. Reversal-closure is the origin torsor's tick-parity
+  (B1083's Breath ℤ/2, `det M = −1`) surfacing at the spectral level: an even number of
+  ticks closes the palindrome around the cut, an odd number leaves it open.
+
+- **the mirror-isospectral split (B1095)** — at a reversal-closed window the cut's two hands
+  are **exactly isospectral**: the exchange matrix J conjugates one half-line Hamiltonian
+  into the other (`J·H_R·J = H_L`), forcing spectral agreement to machine precision (max
+  difference `1.3×10⁻¹⁵` over 2584 eigenvalues) — the hand is not merely IDS-blind, it is
+  spectrally **invisible**. Yet the eleven shared boundary-capable energies localize
+  **complementarily**: five bind to the right hand, six to the left (the ±1 a parity
+  remainder of one shared odd-sized family — a family of odd size cannot split evenly).
+  **The energies are P-invariant (forced); the localization is P-equivariant (free)** — the
+  origin torsor's P-bit (B1083) physically realized as *which* shared state binds where.
+  Corrects B1085's own headline ("edge-observable, and ONLY edge-observable") and B1091's
+  observer-card row to this precise form; both stand corrected in place, citing B1095.
+
+- **THE LOCATION THEOREM (the four-language wall; B1083/B1084/B1086/B1087)** — the theorem that no CLOSED
+  assembly of the object (a twisted double, a compactified 3-manifold) can be **chiral in
+  matter counts**, proved independently in four registers shown to be one fact: **PD-pairing**
+  (topology — Poincaré duality forces `h¹(D;27) = h¹(D;27̄)` in every twisted-double cell,
+  B1086, the spectrum law); **AW non-isolation** (M-theory/G₂ — on the object's flat G₂
+  cone every ADE-enhancement collision is non-isolated, so localized matter is vector-like,
+  B1084); **the completion-kernel** (the substitution rule — the arrow a completed/closed
+  register discards is exactly the structure a cut restores, B1083); **charge/holonomy
+  non-commutativity** (representation theory — the Acharya–Witten U(1) charge operator
+  exists on the θ-odd dial, spectrum 1-8-9-8-1, but fails to commute with the cusp
+  holonomies on any closed object — not merely unbalanced but **undefinable**, B1087).
+  Chirality becomes measurable exactly where the object is **not** closed: at a cut (the
+  edge, B1085/B1095) or an isolated transversal point (the hatch, B1084/B1098). Fence
+  carried verbatim at every landing: **chirality-at-count is NOT claimed** even where the
+  matter content is representation-level complex (B1100).
+
+- **the trinification remnant (B1098)** — the unbroken gauge algebra left when the object's
+  own Zariski-dense hyperbolic holonomy ρ: π₁(M) → SL(2,ℂ) is composed with the A2-class
+  sl₂-embedding into e₆ (the principal sl₂ of one su(3) factor of the trinification
+  `e₆ ⊃ su(3)³`): exactly **su(3) ⊕ su(3)**, dimension 16 = 8+8, rank **exactly 4** — color
+  in one factor, su(2)×u(1) inside the other, zero extra u(1)s. Named for the mechanism: the
+  object's own geometry, taken through its smallest faithful representation, "eats" exactly
+  one of trinification's three su(3) factors. See "the hatch / the landing."
+
+- **the hatch / the landing (B1098 / B1100)** — two stages of one construction on THE RANK
+  WALL's single live hatch (non-abelian holonomy, B1094). **The hatch**: the stratum of
+  sl₂-embeddings φ: SL(2) → E₆ (twenty conjugacy classes, exhaustively enumerated,
+  Bala–Carter-saturated) composed with the object's own holonomy; "the hatch opens" =
+  the A2 class's centralizer is the trinification remnant, rank exactly 4, matching the SM
+  (B1098; a secondary A1 landing gives su(6), SM plus one extra u(1); seventeen classes fall
+  below rank 4; the nearby 2A1 candidate is excluded). **The landing**: the matter content
+  AT that stratum — the 27's branching under the A2-class sl₂ plus the surviving rank-4
+  Cartan, computed exactly (the trinification triplets+singlets tiling the 27), with the
+  headline that **the 27 is complex at the landing, witnessed** (a basis-free asymmetry: a
+  multiplicity-3 weight class whose negation class has multiplicity 0) — falsifying B959's
+  "every route to rank 4 makes the 27 real" **beyond that theorem's own toral/finite-image
+  scope** (B959's sealed text stands untouched on its own ground; the correction lands as an
+  addendum beside it, never an edit to it) (B1100). Both the class choice (1-of-20, ≈4.3
+  bits) and the exact hypercharge value-match are **priced choices, stated as open
+  residuals**, never silently treated as forced or as done.
+
+- **the collapse-form vs bijective-form hypercharge test (B1100 §3)** — two ways a candidate
+  direction in a landing's surviving Cartan could reproduce the banked hypercharge
+  assignment. **Bijective form**: every one of the landing's fifteen exact weight classes
+  maps one-to-one onto the banked 6Y multiset's eight value classes — tested and
+  **EXCLUDED, exact** (no direction achieves it). **Collapse form**: the direction
+  reproduces only the banked target's DEGENERACY PATTERN (sizes 6,6,4,3,3,2,2,1, several
+  weight classes sharing one hypercharge value) — **ESTABLISHED at float grade, and shown
+  GENERIC** (the first randomly-tried direction already hits the pattern: the compatible
+  cone is open in the rank-4 Cartan, not a tuned point). The exact value-match (solving the
+  collapse assignment's four unknowns over the cubic-irrational Cartan coordinates and
+  verifying all 27 exactly) is the **named residual** — heavier because the raw coordinates
+  are cubic irrationalities, not silently dropped. Until it lands, the test's verdict is
+  **compatibility**, not identification.
+
+- **the certification envelope (WORKING_RULES §CE; B1101, 2026-08-20, owner-elected)** — the
+  binding procedure for any certifying suite run: the working tree is **read-only by
+  convention** — (1) landings stage in the scratchpad and land by explicit filename at bank
+  time, never a glob, never a new arc dir mid-suite; (2) pre-commit gate checks run on the
+  STAGED state; (3) every ledger digest enters by command substitution, with the
+  `seal-digests` gate as the read-time backstop recomputing every digest at gate time
+  (latest-row-per-path; corrections-by-append supersede); (4) on collision (the tree moved
+  mid-suite): **fold-forward** — bank the pending cells plus the head's currency reads in
+  ONE commit, one suite, never re-run a stale certificate. Adopted pre-proven: three
+  same-window instances of one species (E46, tree-freeze during certification) were all
+  caught by the pre-existing exact-tree gate (E39) while the surrounding procedures failed
+  under load; filed alongside E45 (schema-from-memory) and E47/E48 (hash-transcription and
+  remap-time digest hazards).
+
+- **differential-first preregistration (L173, 2026-08-20; the audit seat's warning +
+  B1095's computation, adopted verbatim)** — a discipline now binding on L173's
+  laboratory-prediction spec and generalizable to any object-vs-standard-theory comparison:
+  before comparing a candidate measurement (e.g. a photonic/polariton Fibonacci-chain edge
+  scan against B1085's ρ-sweep) to the object's prediction, the prereg's **first paragraph**
+  must state what the STANDARD theory already forces for the same configuration (here: gap
+  labeling + bulk–boundary correspondence) and name exactly where the object's prediction
+  **differs** from that standard content. Guards against re-litigating a B724-shaped
+  defusal — a prediction that is real but not distinctive, because a generic mechanism
+  already produces it; per B1095, the correctly-stated differential for L173 is the
+  cross-hand mirror-isospectral split, not the raw edge counts (which are conceded standard
+  pumping content, in kind).
+
+- **registerable / registerability (B861/B863/B994 — pre-existing term, glossed late; flagged
+  at this window's merge)** — a breaking step (and by extension an algebra reached by one) is
+  *registerable* iff the 27's generation structure survives it — *"registerable = the
+  generation stays chiral"* (`docs/LAW_MAP.md`, B994 row). The cascade's TERMINATION THEOREM
+  (B863) states the SM is the **terminal registerable algebra**; B994 proves the ENDPOINT is
+  registerability-forced (all six registerable-respecting selection functions land on the SM)
+  while the PATH is not — registerability is the **derived** half of the cascade's selection
+  principle (B860/B871), maximal-residual-symmetry the **assumed** half, selecting only the
+  path. README's opening uses the term with this gloss inline.

@@ -10875,3 +10875,12 @@ nilpotent door was never in its quantifier, and now stands open with
 matter behind it. The certification envelope is law; the seal gate
 recomputes every digest; and the two seats spent the day correcting
 each other faster than either could drift.
+
+2026-08-20 (the doc-reflection wave; ten surfaces, one voice). The
+repo now tells the story the theorems earned: Standard-Model-shaped
+and said so, two steps counted honestly, the tiers a reader meets
+before the ledger does, the wall renamed for what it proves — a
+LOCATION, not a verdict. The rewrite dropped four dated stamps and two
+open questions on its way to eloquence; the locks caught every one at
+merge, which is what locks are for. Nothing was lost that the record
+didn't already pin, and what wasn't pinned is pinned now.
