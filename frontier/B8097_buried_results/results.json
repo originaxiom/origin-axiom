@@ -1,0 +1,94 @@
+{
+ "catalogue_1_representation_debts": {
+  "count": 12,
+  "definition": "a real object result owed a row on a synthesis surface -- THIS IS A DEBT (the repo's own words)",
+  "others": [
+   "B855",
+   "B859",
+   "B869",
+   "B875",
+   "B881"
+  ],
+  "top": [
+   {
+    "arc": "B867",
+    "buried": "the Sakharov gate -- all three baryogenesis preconditions, structural",
+    "note": "substantial and entirely unrowed"
+   },
+   {
+    "arc": "B856",
+    "buried": "the hearing coupling obeys a period-5 law across the metallic family",
+    "note": "a law, unrowed"
+   },
+   {
+    "arc": "B935",
+    "buried": "a NEGATIVE with a mechanism (rank-2 overlap => no three-term cascade by that route)",
+    "note": "negatives with mechanisms are the most reusable objects the corpus makes"
+   },
+   {
+    "arc": "B874",
+    "buried": "the measurement ladder -- all 15 subtori of the 2T-torus, exact over Q"
+   },
+   {
+    "arc": "B861",
+    "buried": "the cascade's ONE principle -- maximal residual symmetry among registerable options"
+   },
+   {
+    "arc": "B872",
+    "buried": "the coset leg -- 32 = 16 + 16bar at every enhancement point"
+   }
+  ]
+ },
+ "catalogue_2_over_wide_closures": {
+  "count": 6,
+  "falsified": {
+   "fact": "m003 has |H_1 torsion| = 5 at the hearing prime; a property failing inside the commensurability class is not a property of the class",
+   "lead": "L73",
+   "verified": "6/6 independently"
+  },
+  "plus_falsified": [
+   "L73"
+  ],
+  "ranked": [
+   {
+    "banked": "m004 is THE selected object",
+    "lead": "L1",
+    "proved": "m004 extremal along the metallic diagonal m = 1..7",
+    "why_worst": "criterion 3 (arithmeticity) is class-invariant and CANNOT DISCRIMINATE AT ALL; criterion 1 already TIES with m003 on volume -- the selection of the object itself is banked wider than proved"
+   },
+   {
+    "banked": "gate A is sealed for THE OBJECT",
+    "lead": "L54",
+    "proved": "no forced choice among five invariant classes of 4_1 ALONE, to index 6",
+    "why": "B985 calls it most dangerous; covers ARE the commensurability relation, so horizon and class boundary are the same wall"
+   },
+   {
+    "banked": "the dictionary holds at the ORDER level too",
+    "lead": "L84",
+    "proved": "kappa = 6..15",
+    "why": "kappa = 5, the object's OWN bearing stage, is marked anomaly zone and EXCLUDED from the very table that discharged the clause"
+   },
+   {
+    "banked": "every seam-arc result including the level-8 pair",
+    "lead": "L57",
+    "proved": "level 15"
+   },
+   {
+    "banked": "not forced by ANY symmetry",
+    "lead": "L93",
+    "proved": "no intertwiner over Isom- union swap"
+   },
+   {
+    "banked": "the modulus law",
+    "disposition": "WITHDRAW -- a coincidence",
+    "lead": "L77",
+    "proved": "agreement only at k=4"
+   }
+  ],
+  "rule": "a lead marked STALE-CLOSED whose closure is OVER-WIDE must not be counted as closed"
+ },
+ "mechanism_is_not_gate5": true,
+ "meta_finding": "the buried results were already found, twice, by this seat -- catalogued in REPRESENTATION_TRIAGE and in OPEN_LEADS' B985 section -- and both catalogues sit unacted on. B985's header reads 'These are notes, not reopenings.' The failure mode is not that findings go unnoticed; it is that NOTICING HAS BEEN TREATED AS DISCHARGING.",
+ "no_suppressed_positive": true,
+ "scope": "A census of two EXISTING catalogues plus a ranking. Nothing re-derived; every row cites the repo's own text and the over-wide readings are B985's, not new. The contribution beyond transcription is the ranking and the observation that L1 touches the object's own selection. No row here is a suppressed crossing. Gate 5 untouched."
+}
