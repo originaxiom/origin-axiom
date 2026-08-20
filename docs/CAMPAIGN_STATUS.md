@@ -16,6 +16,12 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-20, REVIEW 47)**: the 46-merge window reviewed;
+B1071-v2's seal hash cell found mis-transcribed and repaired
+(custody unaffected); E45/E46/E47 filed; branches classified;
+promotion of THE HATCH deferred to B1100 by its own fences; eleven
+action rows; counter reset at 61499dfe. R48 recommended COLD.
+
 **LATEST (2026-08-20, Phase 1 — THE HATCH OPENS)**: B1098 — all 20
 sl2 strata decided; the A2 class leaves su(3)+su(3) at rank EXACTLY 4
 (the trinification remnant; the object eats one factor); su(6) the

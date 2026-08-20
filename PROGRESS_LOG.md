@@ -10858,3 +10858,10 @@ of twenty, four bits, no mechanism claimed -- the matter content at
 the landing is the next cell's question. And Route A's counter turns
 out to be frontier mathematics with one stratum decided free: at the
 full group, the object's integral orbit was always unique.
+
+2026-08-20 (Review 47). Forty-six merges reviewed. The review's teeth
+showed where they should: a sealed-ledger hash cell that never matched
+any real file, caught by the spot-check and repaired in the open;
+three error classes named, one of them the enforcement gap behind a
+rule we already had. The gates went three-for-three this window --
+every blocked push was a real catch. The next review goes cold.

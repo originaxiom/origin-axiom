@@ -3881,3 +3881,229 @@ banner: it either discharges or converts to a typed LAW_MAP debt row.**
 
 anchor-commit: `9c0fd129` (mini-bank 3, the window's last bank)
 
+
+
+---
+
+## Review 47 — 2026-08-20 (merges 1–46 from Review 46; THE CROSSING WEEK + THE HANDOFF WAVE + THE 3D COMPLETION + THE CLOSING CAMPAIGN'S PHASE 1)
+
+*Run per the template's REQUIRED core, items 1–8, plus the optional methodology delta.
+Reviewer: the banking seat (SELF-review — declared; see the modulus). Window:
+9c0fd129 → 61499dfe, 46 first-parent merges.*
+
+**1. The loop (Review 46's owed items).**
+- [x] **R46-1** (B1064's compute): RAN pre-masterplan — O3 banked, the quantized sector
+  deleted by amphichirality; L154 UNDECIDED-narrowed (now one of the three doors).
+- [x] **R46-2** (B1065, the three amendment controls): RAN SEALED — C1a/b/c all-64 PASS;
+  C1c's node-exchange became the frame-bits keystone R11 now cites.
+- [~] **R46-3** (the LAW_MAP debt batch): PART-PAID — §G seeded + three theorem rows this
+  window (the mirror, the rigidity discriminator, the palette law); the named B1042/B1043
+  rows still owed → R47-10.
+- [x] **R46-4** (qor5up Review 1): RECEIVED and processed (the float-boundary correction
+  adopted; E40 ported; digest row 4.8 closed).
+- [>] **R46-5** (the census's 31 category calls) → R47-10, carried honestly.
+- [>] **R46-6/7/11** (cc3-lane items; per-gate re-ask; R1-16 generalization) → R47-10.
+- [x] **R46-8** (the distillation skeleton): built in-lab, held blind for the owner.
+- [x] **R46-9** (B946 + freshness port): BANKED with E40's row and the MB12 vacuity test.
+- [x] **R46-10** (TOOLBOX): FROZEN with the visible opt-out; TOOLBOX_LIVE carries currency.
+- [x] **R46-12** (cc3's A5): CERTIFIED by them (v3, 18/18); the digest 45 → 13-14 open.
+- [x] **Memory-currency**: ran repeatedly (the tiering reaffirmation; the paper directive;
+  the main-goal bridge file; the band convention; the don't-task rule).
+
+**1b. The branch inventory (B763 rule) — four remote refs, both mirrors, none mergeable,
+each with its named reason.** (1) `audit/b775-braver-questions` — the audit seat's branch:
+LIVE (two corrections landed this window: C28/E41, B874's scope; the ID collision ruled,
+bands executed by them; the cold audit routed at the owner's word, reply pending); NEVER
+merges (integrate-don't-merge, standing). (2) the `qor5up` branch — the cloud seat's:
+window closed at Review 1; STAYS until the digest's remaining rows finish porting from it
+(13–14 open). (3) `paper/structure-genesis-first` — the audit seat's ACTIVE paper lane.
+(4) `<cloud-seat>/scrutinize-v4h3tb` (ref preserved as the archive tag; alias per the table) — SURFACED THIS REVIEW (referenced nowhere in docs until
+now): a paper-scrutiny session, tip 2026-08-16, five commits applying "the five blockers"
+to the paper's main.tex — paper-lane content the paper assembly MUST harvest (R47-3's
+input); not deletable, not mergeable, now registered. Local: only main. Nothing
+unclassified.
+
+**2. Declared modulus.** Window = `9c0fd129` → the B1076 stack's tip, 30+ merges:
+e6ddd8c3 B1076 THE COBOUNDARY SWEEP: no value-bearing residue — the mass-ratio lane decided closed by its own computation; CCC=3!.lambda coset-wide, the new sign-character, the denom^4 law; the 77 killed by its own control; the cold audit routed at the owner's word
+bbc79a44 B1075's kill-graph node repaired to the house schema (kill_form/faces_consulted/hatch) — the atlas KeyError and its five consumers green
+a77d1419 B1075 EXECUTED: the fourth sealed crossing — MISS at power, the prior held, the coupling channel's value story closes clean; kill-graph routed with the three structural doors as escape hatches
+da50e0a4 B1075 SEALED: the moduli crossing — the kind-correct pairing never before contacted; 18 comparisons priced; MISS-expected prior; + B1074's amendment (the owner's catch: pairings spend, not rows) and verdict re-key
+14111cb0 B1074 THE RESIDUE HUNT: the vacuum block is frame-blind, the parity law exact over all sixteen structures — and the hierarchy is coboundary-carried, invisible to the frame group; the mass lane stays closed with its deciding computation named; the crossing-design record closed; the channel-specificity addendum + the silent words
+c05d785a B1072 + B1073: AC3 fills with the transplant's third shape (field-generic rule, object-specific selectivity) and AC6's odd half closes by law (the composition gate, the web seat's theorem bench-closed); B684's ladder k-defect addendum
+349dcc77 B1071 v2 marker-compliance re-seal: claims verbatim from v1 (bytes preserved, hash-witnessed), the seal-provenance gate satisfied honestly; the ledger's v1 row annotated as superseded
+cdf51e4a B1071 REPORTED: all three sealed claims HOLD on independent re-implementations — the derivation is PROMOTED; the crossing prereg may cite the derived listener pair
+7c029802 B1071 SEALED: the listener derivation's promotion prereg — three claims with named fail-witnesses, scope bound to the derivation, the B641 credit inside the claim
+ab92dec4 W6 THE MASTERPLAN CLOSES: the field-exploration report, 13 check findings dispatched, the crossing path sequenced (seal -> silver -> AC6+R1+R7 -> prereg); the numbering bands ruled; the B641 credit landed
+c5a839eb B1068 + B1070: the descent inventory closes (31 verdicts, the splitting-rigidity discriminator, the character-channel mirror) and THE LISTENER IS DERIVED — u3/u6 are the unique Galois-fixed vertex pair; L166 existence POSITIVE, uniqueness THE PAIR
+3dbc0b83 B1069 THE HEARING BIOGRAPHY: the palette asymmetry is unit rank, the narrow (4)-ray class is non-cyclic, and B92's 64-day class-number error falls to the cell's own cross-validation (E42)
+a9045668 The crossing-preparation bank: L166 registered (the listener map posed, licensed, adversarially repaired), the 77-echo closed to B882's conjecture, the consumption ledger finds the last licensed row
+694d513f The corrections bank: C28's ramification clause repaired (E41, the golden 5 is model-borne; disc K = 6237) + B874/B892 scoped over R with the Levi backbone bench-verified — both audit-seat catches verified before landing
+664132ec B1067's raw agent output scrubbed of machine paths and the arc takes its surface citation: three gates, one bank, all caught
+00f698fb B1067 banks the ray-class harvest double-rebuilt: the palette, the cusp order, the class polynomial, and the one-object cyclotomic identification land on main
+a2430aa7 The flag resolves at its stated scope, the twelfth face counts its own axiom, and the Krutelevich gate narrows to the thesis
+335d6de6 The lane-1 rows regain their column and the web seat regains its role phrasing: two gate catches, both the batch-fill's
+68838b41 Lane 1 completes at thirty of thirty; the VEV boundary's last hedge closes pending Krutelevich; B426 gains its exact boundary and the pair question registers
+29f4db3c The front door rejoins its spine: the entry protocol lands, the router re-stamped at Review 46, the alias row at the door
+e97e891f B1065 triaged INSTRUMENT in the atlas blind registry: machinery arcs are the object atlas's correct blind spot
+e5adf427 B1065 lands O1: the controls run three reviews late, the fork-twin anomaly becomes a diagram symmetry, the oldest provisional banner converts with its price visible
+a2a6f555 B1066 lands NEGATIVE with its two-execution record; the desk bank whole: the verdict gate, LAW_MAP section G, the watched registers, the TOOLBOX split
+74d87f31 B1066 seals at the Stage-2 boundary: the inventory's two unique relations, the priced curves, the zero-freedom fetch rule — Lane III armed
+8cb33c66 B1064 routes into the kill graph: the obstruction-at-construction form, the falsifiable commitment as its hatch
+0e29a6b6 B1064 banks NEGATIVE/O3: the amphichirality-deleted quantized sector is the named obstruction; L154 narrows, the anchor stands unconverted
+69436c06 The port bank: the cloud branch audited to its floor, E40 lands with the B946 repair and the freshness suite test, B141's mechanism corrected beside
+5f395666 Review 46's seven remaining surfaces take their state blocks: the eight-view refresh completes
+e9fe5dba Review 46's README state block: the eighth surface refreshes in the review's own window
+82053824 REVIEW 46: the sweep-and-audit window — nineteen rows to one question, a protocol that survived its own authors, the cloud's Review 1 processed with its species verified and bounded on main
+Every bank certified on the exact committed tree before any push (suites 19–35); five
+certificates ran red and were fixed FORWARD same-day, each a distinct gate doing its
+job (the verdict schema; the seal-provenance markers; the kill-node schema; the triage
+row; four currency reads). The E39 chain discipline held throughout — nothing reached a
+remote without its suite.
+
+**3. Advancement — THE CROSSING WEEK, the window's headline.** The field masterplan
+closed (B1067–B1069 + the report: the ray-class asset, the 31-verdict descent inventory
+with the character-channel mirror and the splitting-rigidity discriminator 0/1/0, the
+hearing biography with the palette-asymmetry-is-unit-rank law). THE LISTENER WAS
+DERIVED, SEALED, AND PROMOTED (B1070/B1071: u3/u6 = the unique Galois-fixed vertex
+pair; every adversarial attack failed twice over) — the crossing's one unknown became a
+theorem. The composition gate banked (B1073: being decides WHETHER, hearing decides
+WHAT; the silent words = the trace-zero words). The silver transplant returned the
+third shape (B1072: the rule is a template, the selectivity is the object's). THE
+FOURTH SEALED CROSSING EXECUTED (B1075): MISS at power, the declared prior held, the
+coupling channel's value story closed by four fair seals — the first crossing whose
+failure has nothing left to blame. The two structural lanes were then DECIDED BY THEIR
+OWN COMPUTATIONS (B1074: the hierarchy is coboundary-carried, invisible to H¹; B1076:
+no value-bearing coset invariant — the 77-signal killed by its own vacuity control,
+re-proven live on this bench). THE SUCCESSOR QUESTION is the week's sharpest object:
+nature supplies the gauge. **The window's governance headline: the owner caught this
+seat's one real over-fence (the cannot-seal ruling) — the run happened because they
+pressed; the correction is banked in B1074's amendment and in the kind table's reading
+note.** Also: the numbering constitution (three seats, disjoint bands); the paper
+elected as the outreach lead with its material now complete through the miss.
+
+**4. Error-class recurrence.** The window's NEW species, named: **the registry-row
+format miss** — three instances (the arc_verdict schema, the kill-node schema, the
+triage row's columns), every new record type's first instance failing its consumer's
+schema; the fix pattern now standing: READ A NEIGHBOR ROW FIRST. The seal-provenance
+markers (v1 lacked the greppable strings — the v2 re-seal with bytes preserved). The
+over-fence (owner-caught, the window's most important correction — the unearned-negative
+species the dual protocol names). Five currency reads written as the counters tipped
+(LADDER, FRAMEWORK, SM_VERDICT, COMPUTE_THE_PROGRAM, +registers). One transient: the
+review-due counter crossing DUE mid-suite. NO recurrence of the pipe-swallow or
+machine-path species (the standing rules held). E41 and E42 registered with their
+sweeps; the B92 and B684 banked-value defects caught by fresh computation cells.
+
+## R47 action items
+
+- [ ] R47-1: **cc3's cold audit of B1074–B1076** (owner-routed; pending their rhythm).
+- [ ] R47-2: **the door election** (owner's): the gauge-datum question / L154 / B882.
+- [ ] R47-3: **the paper assembly** — material complete through B1075's miss; the
+      owner's design session (authorship, venue, the firewalled boundary) gates it.
+- [ ] R47-4: the descent inventory's 15-row pending tail (B1068's honest edge).
+- [ ] R47-5: the silent-words biconditional (cheap; the fourth statement's lock).
+- [ ] R47-6: B684's full ladder re-derivation (the k-indexing defect's completion).
+- [ ] R47-7: the atom-line NOT-COMPUTABLE gap (B1074's blocker, now partially paid by
+      B1076's two new gauges; the remaining line-level extension).
+- [ ] R47-8: K's class group (the 953-place; biography completeness).
+- [ ] R47-9: the B933 Dirac correction (owed; the web seat's verified J-commutes).
+- [ ] R47-10: the R46 carries (the LAW_MAP named rows; the 31 category calls; the
+      cc3-lane items; the per-gate re-ask; R1-16's generalization).
+- [ ] R47-11: the digest's remaining 13-14 open rows (the standing backbone).
+- [ ] R47-12: the web-seat theorem's θ-even negative + the channel-specificity addendum
+      are banked; their promised silent-words follow-up folds in when relayed.
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: (the B1076 stack's tip at this entry's commit)
+
+**1b. The branch inventory (B763 rule).** Three unmerged refs, mirrored on both
+remotes, classified: `paper/structure-genesis-first` — LIVE (the audit seat's active
+lane: the paper + their B8xxx band; never merges by standing rule);
+`<cloud-seat>/new-session-qor5up` (the qor5up branch; full ref in the alias table) — FROZEN-RECORD-PENDING (the cloud seat's branch, quiet
+since its review-1 delivery; registry entry owed → R47-3);
+`audit/b775-braver-questions` — FROZEN-RECORD-PENDING (an old audit-band lane; registry
+entry owed → R47-3). No unclassified refs; no stale deletions taken without the
+registry entries landing first.
+
+**2. The declared modulus.** This is a SELF-review: the window's author reviews the
+window (the owner parked, then elected post-Phase-1 timing; the alternative — routing
+to the audit seat — is the recommendation for R48, → R47-6). What offsets the
+conflict, concretely: 17 of the window's arcs carry INDEPENDENT verification by other
+benches or commissioned own-code agents (the outside bench's 16 certificates; cc3's
+cold audit CLEAN verdict on B1074–B1076; the commissioned rebuilds of the G₂ census,
+the mirror=Galois identity, the spectrum rows, the purity selector, Route A's
+arithmetic, and the hatch's verdict rows — the last cross-validated by three
+computational paths). Read in full this window: every FINDINGS banked B1067–B1099
+(this seat wrote or verified each). Locks: five full-suite certificates ran
+end-to-end (suites 45/47/48/49/51: 4034/4039/4045/4048/4057 passed, zero failures);
+three additional suite runs were correctly BLOCKED by gates (the E46 instances) and
+never pushed. Cannot certify: the window's own prose framing (self-written) — flagged
+for R48's cold pass.
+
+**3. Advancement (LAW_MAP strength classes).** Moved UP: the dimension-grammar rows
+gained their completing LAW (the spectrum law 5/2/5, B1086 — THEOREM-grade, L79
+closed); B955's wall THEOREM → two-route THEOREM (B1094); the B1012 action row
+completed to the parameter-free card (B1088); the global-form row gained uniformity
+(B1080, prior window's tail). NEW placements: the four-language chirality wall
+(B1083/84/86/87 — the window's organizing theorem); THE HATCH row (B1098 — the
+trinification remnant; MECHANISM-grade pending B1100's matter-content match); the
+mirror-isospectral split (B1095 — THEOREM). Stuck longest: the B909/B952
+promotion-currency lag (carried again → R47-9); Tier 2 (one sealed dimensionless
+ratio) remains NOT DONE — no row's stated status exceeds its banked evidence on this
+pass's sampling.
+
+**4. Error-class recurrence.** Checked against ERROR_LEDGER: ONE known-species
+recurrence — schema-from-memory (two instances this window; the read-a-neighbor-row
+rule existed, so the recurrence is an ENFORCEMENT gap) → filed as E45 with the
+machine-held fix (R47-2, the schema-validator lock). TWO new classes filed: E46
+(tree-freeze during certification; three instances, all caught by E39's exact-tree
+gate — the gate's record this window is three-for-three) and E47 (hash transcription
+at seal; found by THIS review's item 7 and repaired by append). The window's deepest
+process lesson, banked to PRACTICES at the time it was learned: rigor labels grade
+evidence, never ambition (the importance-vs-evidence axes; the L174 prize-first
+template).
+
+**5. The provenance spot-sweep.** Grep of the window's public-facing FINDINGS +
+THE_SM_VERDICT against the external-pretense phrase list: CLEAN. One borderline
+phrase examined ("was independently verified", B1086) — internal-method language in
+context (the commissioned agent's fresh field arithmetic), passes; the sweep-language
+rule stands for the paper's assembly. New load-bearing terms glossed: the
+mirror-isospectral split, reversal-closed window, the P/T/tick typings → TERMINOLOGY
+rows ride Phase 2's doc wave (R47-4).
+
+**6. The §5.1 promotion sweep.** Fresh THEOREM-grade banked as such (no deferred
+promotions found beyond the standing pair): B909/B952 promotion-currency CARRIED →
+R47-9 with the census category calls (R46-5's tail). The hatch (B1098) is NOT
+promoted beyond its fences: the class-choice is priced, the matter-content match is
+B1100's question — promotion review AFTER B1100.
+
+**7. Protocol integrity.** Spot-checks: B1075's seal `64414dbf…` VERIFIES against the
+banked line; B1071 v1's `f0b7726d…` VERIFIES against the preserved bytes; **B1071
+v2's hash cell was MIS-TRANSCRIBED at write time** (matched no version that ever
+existed; the file is git-witnessed unchanged since its creating commit; custody
+unaffected — the computation ran against v1). REPAIRED this review by an append-only
+correction row carrying the true digest `f4af5002…`; E47 filed; the pipe-don't-retype
+rule is R47-1. Hash-first order was honored on both seals this window (the B837 flow:
+seal local → compute → one push carries both).
+
+**Optional enrichment run: methodology delta.** Distilled from E45/E46/E47, one
+standing-rule proposal (files as its own arc if adopted): THE CERTIFICATION ENVELOPE —
+during any certifying suite, the working tree is read-only by convention; all
+landings stage in the scratchpad; pre-commit checks run on the STAGED state; every
+ledger hash enters by command substitution. (Three practice lines already banked;
+the proposal is their consolidation into WORKING_RULES if the owner elects.)
+
+### Action items (Review 47)
+- [x] R47-0: the seal-ledger correction row + E45/E46/E47 filed (this review, this bank)
+- [ ] R47-1: the seal ritual's pipe-don't-retype line added to the seal protocol text (owner: banking seat; source: E47)
+- [ ] R47-2: the arc_verdict schema-validator lock (machine-held schema; owner: banking seat; source: E45)
+- [ ] R47-3: B763 registry entries for `<cloud-seat>/new-session-qor5up` (the qor5up branch; full ref in the alias table) and `audit/b775-braver-questions` (owner: banking seat)
+- [ ] R47-4: Phase 2's doc-reflection wave + TERMINOLOGY glosses + the fresh-eyes signoff (owner: banking seat; source: the closing plan)
+- [ ] R47-5: B1100 — the 27's branching at the hatch's landing + the B970 hypercharge match (owner: banking seat; source: B1098)
+- [ ] R47-6: Review 48 runs COLD (route to the audit seat at the owner's word; source: the modulus's self-review declaration)
+- [>] R47-7: the LAW_MAP debt batch's named B1042/B1043 rows (carried from R46-3)
+- [>] R47-8: the census's 31 category calls (carried from R46-5)
+- [>] R47-9: the B909/B952 promotion-currency lag (carried from R46-era; promotion review after B1100)
+- [ ] R47-10: the per-gap detector → the L173 seal path (after the aperiodic decision session; source: B1095/the plan's Phase 4)
+
+anchor-commit: `61499dfe` (Phase 1's bank, the window's last)

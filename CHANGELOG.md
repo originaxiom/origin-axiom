@@ -1,5 +1,31 @@
 # Changelog
 
+## REVIEW 47 (2026-08-20) — the 46-merge window reviewed; one seal-cell mis-transcription found and repaired; three error classes filed
+
+The decadal review, run per the template's full REQUIRED core at the
+owner's elected timing (after Phase 1). The window: 9c0fd129 ->
+61499dfe, 46 merges -- the crossing week's tail, the handoff wave, the
+3d completion, the harvest, the mirror-isospectral split, and Phase 1
+(THE HATCH OPENS). SELF-review declared in the modulus, offset by the
+window's 17 independently-verified arcs and five green full-suite
+certificates; R48 recommended COLD (the audit seat). PROTOCOL
+INTEGRITY'S CATCH: B1071 v2's seal-ledger hash cell was MIS-TRANSCRIBED
+at write time (matched no version that ever existed; the file
+git-witnessed unchanged since creation; custody unaffected -- the
+computation ran against v1, whose witness verifies) -- REPAIRED by an
+append-only correction row with the true digest. THREE ERROR CLASSES
+FILED: E45 schema-from-memory (a known-rule enforcement gap; the
+machine-held fix is R47-2's schema-validator lock), E46 tree-freeze
+during certification (three instances, all caught by E39 -- the gate
+three-for-three), E47 hash transcription at seal (pipe, never retype).
+Branch inventory classified (paper LIVE; qor5up + b775
+frozen-record-pending registry entries, R47-3). Advancement:
+the spectrum law, the two-route wall, the parameter-free card, the
+four-language wall, THE HATCH (promotion review only after B1100).
+Provenance sweep CLEAN. Eleven action items (R47-0 done in-bank;
+R47-5 = B1100; R47-6 = the cold R48). Counter reset at anchor
+61499dfe.
+
 ## B1098 + B1099: PHASE 1 OF THE CLOSING CAMPAIGN — THE HATCH OPENS (2026-08-20)
 
 B1098 THE NON-ABELIAN HATCH, FIRST STRATUM DECIDED — THE PRE-REGISTERED

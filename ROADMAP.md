@@ -323,3 +323,5 @@ names as the thing physics readings wait on. L91 obligations (1)–(3) are open.
 > **Review 41 — 2026-08-09.** `docs/ROADMAP_TOE.md` is **superseded** by `docs/THE_FRAMEWORK.md`; the execution order now lives in `docs/THE_CAMPAIGN.md` (Wave 1 repairs, **4 of 6 done** → Wave 2 holes → Wave 3 live surfaces → Wave 4 blind, **ledger first**). Rungs and their grades are in `docs/THE_LADDER.md`.
 >
 > **Navigation note found by this review:** there are **two roadmap files** — this one (the gated navigation view) and `docs/ROADMAP.md`. The gate tracks **this** one. Worth consolidating; recorded rather than silently left.
+
+*Review 47 currency (2026-08-20, anchor 61499dfe): this surface was refreshed at the Review-47 window's close — the wave B1083–B1099 (the four-language wall, the 3d completion's cards, THE HATCH at su(3)⊕su(3), the mirror-isospectral split, door 5's closure, Route A's decided stratum) is reflected in the campaign ledgers; the full narrative integration is the doc-reflection wave's mandate (R47-4), in flight.*
