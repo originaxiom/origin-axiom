@@ -18535,6 +18535,24 @@
    "status": "banked",
    "domain": "quantum"
   },
+  "B8095": {
+   "slug": "related work armor",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B582",
+    "B724"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [
