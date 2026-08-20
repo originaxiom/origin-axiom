@@ -18676,6 +18676,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8100": {
+   "slug": "oneloop geodesic",
+   "motifs": [
+    "figure_eight",
+    "golden"
+   ],
+   "refs": [
+    "B739"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [
