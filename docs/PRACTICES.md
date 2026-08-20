@@ -671,3 +671,23 @@ different words this corpus had been spending as synonyms; the scrutiny's score:
 seven blockers examined, four were not blockers, and none of the three genuine ones
 was a wall). Enforcement: MANUAL at write-time; a gate-shaped check is a digest-
 window candidate.
+
+## Currency read 2026-08-20 (B1083–B1095; three practices minted by this run)
+
+1. **Gate pre-checks run on the STAGED state, and artifacts land by explicit filename**
+   (the B1090 near-leak, E39's gate catching it twice): the attribution gate scans
+   TRACKED files — a pre-check before `git add` proves nothing; and a scratchpad glob
+   (`staged/../*.py`) swept 200+ session scripts into a public-bound commit. Land by
+   name; pre-check after staging; a silent grep is not a scrub pass — the gate's own
+   pytest checkers are.
+2. **Prize-first registration** (the owner's importance-vs-evidence correction, L174's
+   worked template): rigor labels grade EVIDENCE and are stated per-cell; the PRIZE is
+   stated first, in plain language, at its true size. A gate that makes the biggest
+   prize sound like a chore is steering attention.
+3. **Differential-first preregistration for experimental lanes** (the audit seat's
+   warning, adopted at L173 after B1095's computation): before any lab comparison, the
+   prereg's FIRST paragraph states what standard theory (here gap labeling +
+   bulk–boundary) already forces for the same configuration, and where we differ —
+   B724's look-elsewhere discipline transposed to the experimental lane. The computed
+   differential, not the raw counts, is the prediction.
+

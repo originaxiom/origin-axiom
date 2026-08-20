@@ -69,3 +69,18 @@ Three phrases retracted in this window, registered with their treatment:
   defensible form: **every genuine AVERAGE contracts (p < p\* = 5.5932)** — the
   boundary computed in B426's 2026-08-14 addendum.
 | 9 | `5 by ramification` *(and any wording claiming the golden 5 is ramified in the charge field K — "enters by ramification", "5 ramifies in K")* | **B894 addendum 2026-08-18** (audit-seat catch, bench-verified; E41) | A model invariant read as a field invariant. 5 ∤ disc K = 6237 = 3⁴·7·11; 5 is unramified in K and in the whole S₃ closure, splitting with shape [1,2] — the value primes' shape. The 5² the corpus saw lives in disc μ = 2³²·3¹⁰·5²·7³·11·13⁶ through the non-maximal model ℤ[t]/μ (a normalisation property), alongside the equally model-borne 2³² and 13⁶. True statements about ℚ(√5) ramifying at 5 (disc 5) are a DIFFERENT field and unaffected. |
+
+## Currency addition 2026-08-20 (B1095 — the B1085/B1091 phrasing supersession)
+
+- **~~"the bulk is hand-blind to ≤1 state" / "the free half is edge-observable, and
+  ONLY edge-observable"~~** (B1085's banked phrasing, carried into B1091's card row) —
+  superseded 2026-08-20 by B1095, in the STRONGER direction: at reversal-closed windows
+  (even Fibonacci index) the two hands are EXACTLY ISOSPECTRAL (1.3×10⁻¹⁵ over 2584
+  eigenvalues) — the hand is spectrally INVISIBLE, and lives in WHICH of the eleven
+  shared boundary-capable states bind to the cut (5/6 complementary; the ±1 an
+  odd-family parity remainder). The defensible forms: **"energies P-invariant (forced),
+  localization P-equivariant (free)"** and **"spectrally invisible,
+  localization-visible."** Both original texts corrected in place with dated addenda
+  (correction-not-retraction: the numbers were right; the reading was weaker than the
+  truth). The counts (5-vs-6) conceded standard bulk–boundary content in kind.
+

@@ -44,6 +44,19 @@ the source's actual construction (ONE cut, two sides) was implemented, at which 
 every number reproduced exactly. Recorded as a construction hazard for every future use:
 **the two hands exist only as the two sides of one cut, not as two independent words.**
 
+## CORRECTION ADDENDUM — 2026-08-20 (B1095, triggered by the audit seat's two checks)
+
+Two phrasings sharpened by the mirror-isospectral computation: (i) "bulk hand-blind to
+≤1 state" undersells the truth — at reversal-closed windows (even Fibonacci index) the
+two hands are EXACTLY ISOSPECTRAL (1.3×10⁻¹⁵); the hand is spectrally invisible, and
+lives entirely in WHICH of the eleven shared boundary-capable states localize (5 vs 6,
+complementary; the ±1 a parity remainder of the odd shared family). (ii) The counts
+themselves are STANDARD bulk–boundary/pumping content (gap labeling verified here:
+every edge state in a labeled gap, IDS = frac(m·α); the (5,6) pair not golden-unique)
+— the arc's honest headline is the cross-hand mirror-isospectral complementary split
+and its Fibonacci-parity breaking, which the standard per-gap story does not speak of.
+Full record: B1095.
+
 **Locks:** tests/test_b1085_edge_observability.py (N=987 both hands: IDS diff ≤ 1;
 edge counts 5 and 6; the five right-hand energies to 1e-3). Own-code scripts archived in
 the arc dir.

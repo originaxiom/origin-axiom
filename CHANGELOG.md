@@ -1,5 +1,31 @@
 # Changelog
 
+## B1095 THE MIRROR-ISOSPECTRAL SPLIT (2026-08-20) — the audit seat's two checks answered same-day; B1085's headline corrected to its honest form
+
+The audit seat asked two questions of B1085 (the one-state question;
+the gap-labeling differential — questions not defects, in-sandbox
+both). Computed: at reversal-closed windows (even Fibonacci index,
+N = 987/2584) THE LEFT HAND'S WORD IS THE REVERSED RIGHT HAND'S WORD
+letter-for-letter, so J H J similarity forces EXACT isospectrality
+(1.3e-15 over 2584 eigenvalues) -- the hand is spectrally INVISIBLE,
+not merely IDS-blind; all ELEVEN boundary-capable energies are SHARED
+and localized COMPLEMENTARILY (5 vs 6 = the parity remainder of an
+odd shared family); at odd index the reversal fails at exactly the
+two cut-adjacent letters and isospectrality breaks (0.147) -- the
+tick parity at the spectral level. ENERGIES P-INVARIANT (FORCED),
+LOCALIZATION P-EQUIVARIANT (FREE): the origin torsor's P-bit
+physically realized as which shared states bind. Gap labeling
+VERIFIED (every edge state in a labeled gap, IDS = frac(m alpha));
+the counts CONCEDED standard pumping content in kind ((5,6) not
+golden-unique -- the modest B724 defusal; the threshold detector's
+transition volatility recorded, per-gap detector the named upgrade).
+THE DIFFERENTIAL: bulk-boundary speaks per gap per hand; the
+cross-hand mirror-isospectral split and its Fibonacci-parity breaking
+are what it does not speak of -- B1085's honest headline now, with
+B1085/B1091 corrected in place and L173's prereg gaining the
+differential-first requirement (the audit seat's warning verbatim).
+Reply relay sent. Lock 4/4.
+
 ## B1092-B1094: THE HARVEST TRIO (2026-08-20) — the rank wall's full current state: one slot, pair-space, purity-conditioned, arithmetically unobstructed
 
 The audit-seat harvest queue (L167-L169) re-derived and banked, each

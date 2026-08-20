@@ -10825,3 +10825,13 @@ alone; the wall gone two-route with its abelian scope and its
 non-abelian hatch said out loud. The rank wall's sentence is now
 one line: one slot, pair-space, purity-conditioned, arithmetically
 unobstructed. What remains has names.
+
+2026-08-20 (B1095). The audit seat asked whether the edge's one extra
+state was the bulk's own, and whether gap labeling already forced our
+counts. The computation answered both by finding something better:
+the two hands share their entire spectrum exactly -- the cut decides
+only which of eleven shared states bind, five to one hand, six to the
+other, the odd family unable to split evenly. The hand is invisible
+to energy and visible only to place. The counts belong to the
+textbooks; the split belongs to the object. Both banked texts now say
+so.

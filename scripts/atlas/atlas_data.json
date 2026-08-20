@@ -2055,6 +2055,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1095": {
+   "slug": "mirror isospectral",
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B724",
+    "L173"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B109": {
    "slug": "trace map dynamics",
    "motifs": [

@@ -16,6 +16,14 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-20, B1095 — the mirror-isospectral split)**: the
+audit seat's two B1085 checks answered same-day: EXACT isospectrality
+at reversal-closed windows (the hand spectrally invisible; eleven
+shared states, complementary 5/6 split = odd-family parity); gap
+labels verified; the counts conceded standard-in-kind; THE
+DIFFERENTIAL = the cross-hand split bulk-boundary does not speak of.
+B1085/B1091 corrected in place; L173 gains differential-first.
+
 **LATEST (2026-08-20, B1092-B1094 — the harvest trio)**: L167-L169
 banked stronger than their sources (purity = the unique
 rank-preserving CONDITION, transitive cone, parabolic cross-check

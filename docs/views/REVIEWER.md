@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **998** |
-| words of findings prose | **677,826** |
-| test lock files referenced | **610** |
-| arcs carrying an authored verdict | **985** (98.7 %) |
+| research arcs with findings | **999** |
+| words of findings prose | **678,781** |
+| test lock files referenced | **611** |
+| arcs carrying an authored verdict | **986** (98.7 %) |
 | recorded closures | **758** (591 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 657 |
+| PROVED | 658 |
 | NEGATIVE | 285 |
 | OPEN | 33 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1094`** (282 words, 0 locks)  
-THE RANK WALL GOES TWO-ROUTE (L167): B955's structural proof (H1 = Z cyclic => abelian holonomy centralizer contains a maximal torus) and B1079's exhaustive census (15,624 five-torsion elements, nine rows, every row rank 6 -- main's own re-derivation) reach the same wall sharing NO step -- the wall is not an artifact of the argument; THE HATCH EXPLICIT: both routes assume ABELIAN holonomy, and non-abelian holonomy is the single live hatch through the wall's holonomy face (askable; main-band re-derivation required before use); composed with B1092+B1093 the wall reads: one slot, pair-space, purity-conditioned, arithmetically unobstructed, abelian doors closed twice over.  
-`B1094_two_route_wall/FINDINGS.md`
+**PROVED — `B1095`** (800 words, 1 locks)  
+THE MIRROR-ISOSPECTRAL SPLIT (answers the audit seat's two B1085 checks): at reversal-closed windows (even Fibonacci index: N = 987, 2584) the left hand's word IS the reversed right hand's word letter-for-letter, so J H J similarity forces EXACT isospectrality (max diff 1.3e-15 over 2584 eigenvalues) -- the hand is spectrally INVISIBLE, not merely IDS-blind; all ELEVEN boundary-capable energies are SHARED (every edge energy of one hand is a bulk eigenvalue of the other at machine precision) and localized COMPLEMENTARILY (5 vs 6 -- the +-1 is the parity remainder of an odd shared family); at odd Fibonacci index the reversal fails at exactly the two cut-adjacent letters and isospectrality breaks (0.147) -- the tick-parity at the spectral level; ENERGIES ARE P-INVARIANT (FORCED), LOCALIZATION IS P-EQUIVARIANT (FREE) -- the origin torsor's P-bit physically realized as which shared states bind; gap labeling VERIFIED (every gap's IDS = frac(m alpha), every edge state in a labeled gap) and the counts conceded STANDARD pumping content in kind ((5,6) not golden-unique -- the modest B724 defusal; the 0.5-threshold detector volatile near transitions, per-gap detector the named upgrade); THE DIFFERENTIAL: bulk-boundary speaks per gap per hand -- the cross-hand mirror-isospectral complementary split and its Fibonacci-parity breaking are what it does not speak of, and THAT is B1085's honest headline; B1085 + B1091 phrasing corrected in place, L173's prereg gains the differential-first requirement.  
+`B1095_mirror_isospectral/FINDINGS.md`
 
 **NEGATIVE — `B1076`** (428 words, 0 locks)  
 THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b (a3/a5), D2 = chi_a.chi_b}; the two never-computed Hermitian diagonals derived by two agreeing routes; B923's machinery re-executed at all four gauges (117 checks, 0 fail; independent numeric route to 1e-53): lambda = 1, 864/413, 6912/3047, 2304/953 with HIER-analogs of leading coefficient exactly denom^4 and three distinct real roots at every non-identity gauge; CCC = 3! lambda HOLDS COSET-WIDE; the NEW nontrivial exact character of the Klein group with kernel {I, chi_a} (= sign(lambda^2) normalized by its identity value; phrasing corrected 2026-08-19 per the cold audit — the results JSON always stated it correctly). THE LANE VERDICT: no coset-invariant value-bearing mass-ratio-shaped residue exists -- every value quantity is element-specific, every symmetrization structureless, and the seductive coset-wide 77 (the hierarchy discriminant's squarefree part at all three nontrivial gauges) was KILLED BY THE CELL'S OWN VACUITY CONTROL (K-forcedness: it holds for a control diagonal unrelated to the coboundary structure) -- the mass-ratio lane's reopening condition is DECIDED CLOSED by its own named computation at gauges never before visited; if a physical hierarchy uses this structure, NATURE SUPPLIES THE GAUGE, and which-datum-picks-the-gauge is the well-posed successor. Observation unweighted: 7 | 413 and 11 | 3047 -- each unmeasured-pair prime divides exactly one new gauge's denominator; no mechanism claimed.  

@@ -10,7 +10,7 @@
 | the clock | the monodromy beat: one tick M (det −1, non-orientable — chirality not posable), two ticks M² = RL = the object; orientability and amphichirality bought together at tick two | B1083 |
 | the matter multiplicities | seam data: 3 solo / 5 welded / 2 θ-odd — the spectrum law, read at the interface | B1086 (mechanism B1036) |
 | the coupling | h(w) = χ(w)·W(w)₁₁, boundary-evaluated; being decides WHETHER, hearing decides WHAT | B1073; B1071 (the derived listener) |
-| the hand | edge-only: 5-vs-6 at ρ = α, the full function ρ ↦ edge content; the bulk is IDS-blind to ≤1 state | B1085 |
+| the hand | **spectrally INVISIBLE, localization-visible** *(corrected 2026-08-20, B1095)*: at reversal-closed windows the hands are exactly isospectral; the hand = WHICH of the eleven shared states bind to the cut (5-vs-6, complementary, parity remainder); the counts are standard pumping content — the mirror-isospectral split is the observer-facing fact | B1085 + B1095 |
 | the charge | cut-only: the AW-U(1) spectrum 1+8+9+8+1 — measurable at an isolated point/edge, UNMEASURABLE on any closed assembly ([H, holonomy] ≠ 0) | B1087 (hatch geometry B1084) |
 | the geodesic/length data | the closed-geodesic holonomies (tr γ = 4 for abAba; the complex length spectrum) — the boundary-reachable bulk record | the verified handoff certs (orbifold_door/vertices2, re-run green on this bench) |
 
