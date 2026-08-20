@@ -13,7 +13,7 @@ def test_the_physics_literature_excludes_cusps(r):
 
 def test_the_cusped_mathematics_exists(r):
     assert r["cusped_math_exists"] is True
-    assert any("Ruelle" in p["result"] for p in r["math_papers"])
+    assert any("ruelle" in p["result"].lower() for p in r["math_papers"])
 
 def test_the_gap_is_a_bridge(r):
     assert r["the_gap_is_a_bridge_not_a_void"] is True
