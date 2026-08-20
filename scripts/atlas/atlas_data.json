@@ -2014,6 +2014,47 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1092": {
+   "slug": "purity selector",
+   "motifs": [],
+   "refs": [
+    "B990",
+    "L168"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B1093": {
+   "slug": "route a arithmetic",
+   "motifs": [
+    "lorentzian"
+   ],
+   "refs": [
+    "B990",
+    "L169"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1094": {
+   "slug": "two route wall",
+   "motifs": [
+    "eisenstein",
+    "torsion"
+   ],
+   "refs": [
+    "B955",
+    "L167"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B109": {
    "slug": "trace map dynamics",
    "motifs": [

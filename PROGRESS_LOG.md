@@ -10816,3 +10816,12 @@ a direct numeric from Faddeev's definition at seven digits. The
 observer card closes the pass: everything forced is visible at the
 boundary, everything free is visible ONLY there, and the observer is
 the cut itself. C1-C4 banked in under a day; C5 waits on its reading.
+
+2026-08-20 (the harvest trio). Three arcs, each stronger than its
+source: purity proved as the unique rank-preserving condition with
+the parabolic cross-check landing on dim S_10 exactly; the class
+number proved rather than cited, with h+ pinned by genuine units
+alone; the wall gone two-route with its abelian scope and its
+non-abelian hatch said out loud. The rank wall's sentence is now
+one line: one slot, pair-space, purity-conditioned, arithmetically
+unobstructed. What remains has names.

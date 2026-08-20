@@ -336,3 +336,22 @@ date; nothing is deleted — dead laws move to §E with their epitaph.*
 | **THE SPLITTING-RIGIDITY DISCRIMINATOR (B1068; found BY the verification layer)** | dim H¹(SL(2,𝔽_p), sl₂(𝔽_p)) = 0 at p = 3 (E₆'s reduction splits UNIQUELY — rigid), = 1 at p = 5 (FIVE inequivalent splittings — the golden end carries an 𝔽₅ of splitting ambiguity), = 0 at 7…23 (two seeds). Four independent constructions (the lens's three + the bench's cocycle build). p = 5 is the UNIQUE non-rigid prime. PRIOR-ART GATE OWED at promotion (the classical p = 5 adjoint-cohomology exception). NAME GUARD: defining-characteristic coefficients — a DIFFERENT computation from any characteristic-0 H¹(SL(2,5), −) in the corpus (the W6 consolidation note; the two do not contradict) | frontier/B1068_descent_inventory (j1's adjudication) · B1068 |
 | **THE PALETTE ASYMMETRY IS UNIT RANK (B1069)** | the hearing Hecke palette \|(ℤ[φ]/2^k)ˣ/im(units)\| = 1, 1, 2 at k = 1, 2, 3 against being's 1, 2, 8 — the discriminator is Dirichlet unit rank (1 vs 0: the free unit φ permanently outraces the residue tower); 2-inert is SHARED (the control, not a cause — the W3 lens's own correction, folded in). Narrow ray class at (4)·∞₁∞₂ = (ℤ/2)² non-cyclic (new ground). Every metallic order has a norm-(−1) unit (λλ′ = −1 by the char poly): narrow = wide FAMILY-WIDE (the E42 repair's rider) | frontier/B1069_hearing_biography · B1069 B1067 E42 |
 | **THE 120-A₂ SINGLET UNIVERSALITY (B1079)** | every index-1 (root-generated) su(3) in E₆ yields EXACTLY 9 su(3)-singlet states in the 27 — all 120 A₂ subsystems, zero exceptions; the UNIQUE deviant is the conformal chain's index-2 S-subalgebra su(3) (0 singlets) — B932's original kill, now typed as the criterion's one-time bite. Consequence: B932's grammar cannot discriminate among Wilson-menu rows — the row-choice is FREE by computation, and the object's prior on it is the counting measure (docs/THE_FORCED_AND_THE_FREE.md §3) | frontier/B1079_wilson_menu (3 agents, verifier HOLDS on independent rebuild) · B1079 B932 |
+
+<!-- doc-currency read 2026-08-20: the handoff wave + the 3d completion + the harvest trio (B1083-B1094) -->
+
+## CURRENCY READ — 2026-08-20 (B1083–B1094)
+
+The wave's law-level additions, read against every standing row: **THE SPECTRUM LAW**
+(B1086) — h¹(D_t;27) = 5/2/5 with the dial parity as the whole switch; joins the
+dimension-grammar rows (B662's 3/5/1, B1036's 5) as their completing law; L79 closed.
+**THE CHARGE COMPLEMENTARITY** (B1087) — the AW-U(1) exists (1+8+9+8+1) and commutes
+with neither cusp holonomy: no charge readout on any closed assembly; the wall's fourth
+language. **THE ACTION CARD** (B1088) — S = −Vol·σ with CS = 0 exact; c = 6σ
+twice-derived; zero free dimensionless constants (the B1012 row's completion).
+**THE TWO-ROUTE WALL** (B1094) — B955's row upgrades: structural + exhaustive census
+(B1079), no shared step; scope ABELIAN holonomy; hatch non-abelian, routed. **THE
+PURITY SELECTOR** (B1092) — the second VEV is a condition (34/4 vs 29/0, transitive
+cone); **ROUTE A CLEAR** (B1093) — h = h⁺ = 1 at proof grade; the counter identification
+owed. No standing row is contradicted; the B932 scope clause (B1079's addendum) and the
+B952 bounded-prefix row stand unchanged through B1094.
+

@@ -213,3 +213,17 @@ B1080 forced the global form ℤ/6 at every landing (B862 extended); B1081 typed
 (neutrality a theorem; EWSB/spin-statistics the honest outside); B1082 verified the forcing
 DAG with the conditional cosmological match. X31 corrected (the blanket is MATH — S072/B761).
 The cold audit returned CLEAN. THE RANK WALL stands as the marked center of what remains.
+
+## CURRENCY ADDENDUM — 2026-08-20 (B1083–B1094)
+
+Rung movements: **the origin rung** gains the corrected torsor typing (B1083 — two
+spendable bits C/P, the arrow structural); **the geometry rung** gains its first global
+object (B1084, the flat G₂ cone) and the tick (M² = RL); **the physics-contact rung**
+gains edge observability (B1085 — the free half materializes at the cut, lab-shaped,
+L173) and the 3d completion's four cards (B1088–B1091: action/partition/matter/observer
+— the ω-saddle the week's emblem); **the interface rung** gains the spectrum law (B1086,
+L79 closed) and the charge complementarity (B1087); **the rank-wall rung** is rewritten
+in one line by the harvest trio (B1092–B1094): one slot, pair-space, purity-conditioned,
+arithmetically unobstructed — open routes named (the owed counter; the non-abelian
+hatch), abelian doors closed twice over.
+

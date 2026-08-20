@@ -1,5 +1,36 @@
 # Changelog
 
+## B1092-B1094: THE HARVEST TRIO (2026-08-20) — the rank wall's full current state: one slot, pair-space, purity-conditioned, arithmetically unobstructed
+
+The audit-seat harvest queue (L167-L169) re-derived and banked, each
+arc landing STRONGER than its source. B1092 THE PURITY SELECTOR
+(L168, own-code exact): the rank drop 5->4 happens ONLY at pure
+spinors (literal stabilizer 34 = sl(5)+Lambda^2, toral 4), a generic
+spinor is FATAL (29, toral 0 -- two independent random vectors; a
+support-sparse decoy caught non-generic by the guard, a named
+hazard), Spin(10) transitive on the 11-dim cone; SHARPENED: the
+projective stabilizer is the 35-dim parabolic and 45-35 = 10 =
+dim S_10 exactly; the parity control (constant chiral half) run as a
+precondition. The second VEV is a CONDITION, not a point. B1093
+ROUTE A'S ARITHMETIC (L169, own-code exact, no PARI): h(K) = 1
+PROVED (all eight Minkowski-bound prime ideals principal with
+explicit generators, membership-tested), Dedekind at 3 with an
+alternate-lift robustness pass, units exact by three routes,
+signature rank 3; RIGOR UPGRADE: h+ = 1 needs only genuine units --
+conditional solely on the now-proved h = 1. Every obstruction
+candidate for the integral-orbit count is trivial AT PROOF GRADE;
+the owed residual unchanged (which Kato-Yukie/Bhargava quantity
+counts orbits -- the literature lane). B1094 THE TWO-ROUTE WALL
+(L167): B955's structural proof and B1079's census (main's own
+re-derivation) reach the wall sharing NO step; THE HATCH EXPLICIT:
+both routes assume ABELIAN holonomy -- non-abelian holonomy is the
+single live hatch, routed on the kill graph. THE RANK WALL NOW
+READS: one unsourced slot, pair-space-valued (27+27bar,
+Kato-Yukie's object), purity-conditioned, arithmetically
+unobstructed; open = the owed counter + the non-abelian hatch;
+closed = every abelian door, twice over. The harvest queue empties
+to L170 (the audit seat's pending relays). Locks 6/6.
+
 ## B1090 + B1091: the partition bridge and the observer card (2026-08-20) — the 3d completion's first pass CLOSES at C1-C4
 
 B1090 (C2): the quantum theory EXISTS with the object's exact

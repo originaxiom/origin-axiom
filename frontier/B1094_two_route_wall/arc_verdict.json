@@ -1,0 +1,7 @@
+{
+  "id": "B1094",
+  "title": "THE RANK WALL TWO-ROUTE + THE HATCH EXPLICIT (L167)",
+  "verdict": "PROVED",
+  "claim_one_line": "THE RANK WALL GOES TWO-ROUTE (L167): B955's structural proof (H1 = Z cyclic => abelian holonomy centralizer contains a maximal torus) and B1079's exhaustive census (15,624 five-torsion elements, nine rows, every row rank 6 -- main's own re-derivation) reach the same wall sharing NO step -- the wall is not an artifact of the argument; THE HATCH EXPLICIT: both routes assume ABELIAN holonomy, and non-abelian holonomy is the single live hatch through the wall's holonomy face (askable; main-band re-derivation required before use); composed with B1092+B1093 the wall reads: one slot, pair-space, purity-conditioned, arithmetically unobstructed, abelian doors closed twice over.",
+  "instrument": false
+}

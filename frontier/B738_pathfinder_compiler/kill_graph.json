@@ -10548,5 +10548,13 @@
     "fact_computed": "the spectrum law verified end-to-end on this bench (identity AND Galois-mirror gluings): h1 = 5 untwisted (= B1036, independently rebuilt with own code, blockwise 2+2+1), = 2 for any theta-odd dial at t in {1,2,omega} (= B634's erratum at bends m=4,8 = the slots), = 5 theta-even; 27bar rows identical everywhere; the E6-closure sweep FULL (dim 78, all six cells)",
     "faces_consulted": "B582 (its own firewall: closure not spectrum -- confirmed); B1036 (the untwisted 5); B634 ERRATUM_1 (the twisted 2); B570 (mirror = Galois, now computed at the periphery); the AW non-isolation (B1084) and the completion-kernel (B1083) -- one theorem, three languages",
     "hatch": "the graded pieces h1_q (PD balances totals only; the antisymmetric-in-q component is unconstrained -> B1087) and the CUT (boundary/edge observability, B1085; isolated conical points, B1084's hatch)"
+  },
+  {
+    "id": "B1094",
+    "claim_killed": "rank reduction of the E6 gauge symmetry via ABELIAN holonomy on the object (any abelian route, any torsion menu)",
+    "kill_form": "two step-disjoint proofs: structural (B955: H1 = Z cyclic, centralizer contains a maximal torus) AND exhaustive (B1079's census: 15,624 five-torsion elements, nine rows, every row rank 6)",
+    "fact_computed": "the join licensed by main's own B1079 re-derivation; the audit seat's independent census agrees step-disjointly (integrate-don't-merge, nothing imported)",
+    "faces_consulted": "B955; B1079; B1092 (purity: the second VEV a condition); B1093 (Route A arithmetic clear)",
+    "hatch": "NON-ABELIAN holonomy -- the single live hatch through the wall's holonomy face (geometric representation + H1 machinery exists; main-band re-derivation required); plus Route A's owed counter identification (the orbit-count lane, B1093's residual)"
   }
 ]

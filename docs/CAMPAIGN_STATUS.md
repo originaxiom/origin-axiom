@@ -16,6 +16,14 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-20, B1092-B1094 — the harvest trio)**: L167-L169
+banked stronger than their sources (purity = the unique
+rank-preserving CONDITION, transitive cone, parabolic cross-check
+exact; h = 1 PROVED with explicit generators, h+ by genuine units
+alone; the wall two-route with the non-abelian hatch explicit). THE
+RANK WALL: one slot, pair-space, purity-conditioned, arithmetically
+unobstructed. The harvest queue empties to L170.
+
 **LATEST (2026-08-20, B1090 + B1091 — L174's first pass CLOSES)**: C2
 banked (the omega-saddle exact; pi^2/6 - i Vol = the conjugate of the
 classical value; GK's b=1 closed form reproduced at 7.6e-8 from

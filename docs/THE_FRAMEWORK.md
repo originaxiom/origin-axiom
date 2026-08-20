@@ -468,3 +468,19 @@ and **the numbering constitution** (reserved bands across the three seats). The
 framework's one-sentence delta: the programme now HAS a constructed observer-side
 object where it previously had a convention — and the remaining distance to a
 value-contact is procedural (the sequenced gates), not conceptual.
+
+<!-- doc-currency read 2026-08-20 (B1083-B1094) -->
+
+## CURRENCY READ — 2026-08-20 (B1083–B1094)
+
+The framework held through the handoff wave and the 3d completion's first pass; three
+layer-notes: (i) **the origin layer's typing corrected** (B1083): the arrow is NOT a
+torsor bit — reversal is parity; the arrow is the positive monoid's non-surjectivity
+(THE FORCED AND THE FREE §0 corrected in place). (ii) **the wall's four languages**
+(B1084/B1086/B1087 with B1083): PD-pairing = AW non-isolation = completion-kernel =
+charge/holonomy non-commutativity — chirality and charge are cut-resident, matter is
+interface-resident (B1089), the observer IS the cut (B1091). (iii) **the 3d theory's
+first stateable pass** (B1088–B1091): one-term action, ω-saddle partition function
+(B1090), matter and observer cards. The rank wall's current sentence (B1092–B1094):
+one slot, pair-space, purity-conditioned, arithmetically unobstructed.
+
