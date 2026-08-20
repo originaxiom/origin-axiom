@@ -1,0 +1,39 @@
+{
+ "77_divides_product": true,
+ "77_forced_by_per_element_facts": true,
+ "77_verdict": "VACUOUS -- the orbit-product divisibility is the product of two banked per-element observations and adds no information",
+ "denominator_product": 1199265683,
+ "denominators": {
+  "D2": 953,
+  "I": 1,
+  "chi_a": 413,
+  "chi_b": 3047
+ },
+ "guard_relaxed": "frame-invariance only; Re h disqualified by name; nativeness and per-candidate companion demands dropped",
+ "lambda": {
+  "D2": "2304/953",
+  "I": "1",
+  "chi_a": "864/413",
+  "chi_b": "6912/3047"
+ },
+ "lambda_sq": {
+  "D2": "5308416/908209",
+  "I": "-1",
+  "chi_a": "-746496/170569",
+  "chi_b": "47775744/9284209"
+ },
+ "n_survivors": 0,
+ "orbit_invariants": {
+  "e1(lambda^2)": "8074754620590579095/1438238178421456489",
+  "e2(lambda^2)": "-35435758347342978048/1438238178421456489",
+  "e3(lambda^2)": "-163398715560186347520/1438238178421456489",
+  "e4(lambda^2)": "189321481108517289984/1438238178421456489",
+  "prod(lambda)": "13759414272/1199265683",
+  "prod_coset_class": "15925248/2903791",
+  "prod_kernel_class": "864/413",
+  "sum(lambda)": "9328007219/1199265683"
+ },
+ "outcome": "B",
+ "scope": "The lambda/CCC family across B^1 using banked per-element values; NOT a re-derivation of those values. Tests B8092 finding 1 only -- whether the nativeness guard suppressed a candidate in THIS family. Says nothing about the owner's general claim, which stands on B976 and B8092 independently. No measured number; Gate 5 untouched.",
+ "survivors": []
+}

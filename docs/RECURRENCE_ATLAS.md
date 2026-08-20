@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-20 from 994 frontier probes.
+> Last generated: 2026-08-20 from 995 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 994 frontier probes; status {'open': 65, 'banked': 650, 'dead': 258, 'dormant': 21}
+  corpus: 995 frontier probes; status {'open': 65, 'banked': 651, 'dead': 258, 'dormant': 21}
   the ONE conserved first integral: kappa (recurs 227x, 22%) -- genuine unity, MUST recur
   top recurring motifs: golden(564), firewall(549), eisenstein(523), figure_eight(412), metallic(400), trace_map(377)
   recurrence is: structural-invariant 3300 mentions | conserved-integral 227 | TOOL 377
@@ -64,7 +64,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | measure | 96 | golden | golden(51), eisenstein(47), firewall(46), figure_eight(40) |
 | units_scale | 99 | firewall | firewall(68), golden(61), metallic(51), eisenstein(48) |
 | gauge_dict | 58 | eisenstein | eisenstein(36), firewall(33), amphichiral_cp(29), golden(28) |
-| particle_dict | 80 | eisenstein | eisenstein(58), z3_generation(53), firewall(52), golden(47) |
+| particle_dict | 81 | eisenstein | eisenstein(58), z3_generation(53), firewall(52), golden(47) |
 | spacetime_3p1 | 115 | golden | golden(69), eisenstein(67), figure_eight(66), trace_map(54) |
 | observable | 38 | golden | golden(29), torsion(19), metallic(19), eisenstein(17) |
 | numerology | 21 | golden | golden(16), firewall(16), eisenstein(16), torsion(14) |

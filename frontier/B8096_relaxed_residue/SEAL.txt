@@ -1,0 +1,11 @@
+SEAL - B8096 preregistration
+============================
+
+ALGORITHM: SHA-256 (hashlib.sha256) over the raw bytes of PREREGISTRATION.md as it
+stood at seal time, BEFORE relaxed_hunt.py existed. Digest stored here, not inside
+the sealed file, so nothing is self-referential.
+
+BYTES:  4116
+DIGEST: 3a85739da85d6ad2b1a2a346812b84905d962e8199d89c01d99c93c80c39b452
+
+Verify: python3 -c "import hashlib;print(hashlib.sha256(open(chr(39)+chr(39)).read()))"

@@ -18553,6 +18553,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8096": {
+   "slug": "relaxed residue",
+   "motifs": [],
+   "refs": [
+    "B864",
+    "B976"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B809": {
    "slug": "kappa gate",
    "motifs": [
