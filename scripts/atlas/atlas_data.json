@@ -2187,6 +2187,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1102": {
+   "slug": "exact hypercharge solve",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B950"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B110": {
    "slug": "off locus sector",
    "motifs": [

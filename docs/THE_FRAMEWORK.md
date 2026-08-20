@@ -728,10 +728,15 @@ catching itself.
 
 ## WHAT REMAINS — ranked, and each one named (current as of B1101)
 
-1. **The exact hypercharge value-match at the hatch's landing.** Pattern-level
-   compatibility and cone-genericity are established (B1100); the exact number is a
-   named residual, harder than usual because the natural coordinates are cubic
-   irrationalities.
+1. **The exact hypercharge value-match at the hatch's landing — DONE 2026-08-21
+   (B1102), two-sidedly.** The banked 6Y multiset is carried **exactly** (18 isolated
+   rational directions, denominators dividing 6, provably complete search; the adapted
+   crystal basis dissolved the cubic irrationalities entirely) — AND no color-commuting
+   direction achieves it (forced at Cartan level, root-level confirmed): the landing is
+   hypercharge-**valued**, not SM-**product**-structured. What remains here is the
+   sharpened successor question: whether another sl₂ stratum, another color
+   identification, or a 6Y frame map dissolves the located incompatibility — three
+   typed follow-ups, none claimed.
 2. **The A2-class selection price.** Priced at ≈4.3 bits (1 of 20 strata); no dynamical
    mechanism for why this stratum over the other nineteen is claimed or attempted.
 3. **Route A's frontier counter (B1099).** Transferring the Bhargava–Gross/Thorne

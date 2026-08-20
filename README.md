@@ -90,7 +90,11 @@ landed in (≈4.3 bits, no dynamical mechanism claimed for *why* this one). B110
 computed what lives at that landing: the matter content is exact and complex — witnessed,
 not asserted — branching into the trinification's `(3,3̄,1)⊕(3̄,1,3)⊕(1,3,3̄)` pattern,
 with the hypercharge direction landing inside a generic, open compatible cone (the exact
-value-match is the one piece still owed). One casualty of the new precision: an earlier
+value-match is the one piece still owed). *(Currency, 2026-08-21 — the owed piece is
+PAID, two-sidedly: B1102 proves the banked hypercharge multiset is carried **exactly** —
+18 isolated rational directions, a provably complete search — AND that no color-commuting
+direction achieves it: the landing is hypercharge-**valued** but not SM-**product**-structured;
+the obstruction is now located, three follow-ups typed, none claimed.)* One casualty of the new precision: an earlier
 headline (B959, *"every route to rank 4 makes the 27 real"*) is now correctly scoped to
 **"every TORAL route"** — its own proof stands untouched, filed as an addendum beside it,
 not a retraction. *(Fence, unmoved: this is rank and matter-pattern structure, not a

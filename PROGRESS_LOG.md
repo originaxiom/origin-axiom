@@ -10884,3 +10884,12 @@ LOCATION, not a verdict. The rewrite dropped four dated stamps and two
 open questions on its way to eloquence; the locks caught every one at
 merge, which is what locks are for. Nothing was lost that the record
 didn't already pin, and what wasn't pinned is pinned now.
+
+2026-08-21 (B1102; the residual paid, both ways). The landing's last
+owed number came back with both hands full: the banked hypercharge is
+carried exactly — eighteen rational ways, none of them tuned — and no
+way of carrying it leaves color standing. Hypercharge-valued, not
+SM-product-structured. The door neither opened nor closed; it got a
+lock whose shape is finally known, and three keys are named. The
+crystal basis did in twelve rational seconds what cubic
+irrationalities had priced as a day.

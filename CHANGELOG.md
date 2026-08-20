@@ -1,5 +1,40 @@
 # Changelog
 
+## B1102 — THE EXACT HYPERCHARGE SOLVE (2026-08-21): the banked multiset carried EXACTLY, and no color-commuting direction can
+
+B1100's named residual, owner-elected to run before the aperiodic
+sitting, closed TWO-SIDEDLY at proof grade: (1) the banked 6Y multiset
+{1/6×6, 1/3×6, −1/2×4, −2/3×3, −1/3×3, 0×2, 1/2×2, 1×1} IS carried
+exactly by the A2 landing's rank-4 Cartan — 18 isolated rational
+directions, denominators | 6, representative t = (1/6, 1/6, 2/3,
+−1/3), via a PROVABLY COMPLETE 5⁴ = 625 assignment search (four
+±basis-vector weight classes pin the direction); (2) NO
+color-commuting u(1) achieves it — zero of the 18 are pure on either
+ideal (forced at Cartan level; 36/36 root-level checks negative). The
+landing is hypercharge-VALUED, not SM-PRODUCT-structured; the
+obstruction is now LOCATED. su(2) side: Y-neutral root universal
+(2 per solution), Chevalley exact on the 27, commutes with the entire
+color ideal and with Y; 6 doublets + 15 singlets. The adapted crystal
+basis (built from B1098's ideal split) came out ALL-RATIONAL —
+B1100's cubic-CRootOf fallback never needed; ~12 s exact end-to-end.
+Verification ×3: independent compute bench (synthetic pre-flight; an
+nsimplify hazard caught); fresh re-runs from staging and in-tree
+(byte-identical JSONs); the banking seat's own re-derivation of every
+verdict-bearing claim (independent target transcription; the
+completeness premise; the no-pure-direction force). The e₆ bracket
+module vendored in-arc with sha256 provenance + in-arc 27-rep
+re-certification (all C(78,2) pairs). Float-measure tension with
+B1100's pattern-cone genericity FLAGGED for one clarifying check
+(both arcs' exact claims unaffected). Three follow-ups typed (other
+strata / other color identifications / the 6Y frame map), none
+claimed. Chirality-at-count NOT claimed; Gate 5 untouched.
+THEOREM_REGISTRY row T-Y18 added SAME-PR (the first rule-compliant
+bank since B920; R48-F1's full response — the backfill + creates_law
+gate per the audit seat's sharpening — follows as its own bank). Lock
+`tests/test_b1102_exact_solve.py`. Prereg sealed before compute,
+landed beside. Doc currency: README + THE_FRAMEWORK WHAT-REMAINS
+item 1 closed in place.
+
 ## THE DOC-REFLECTION WAVE (2026-08-20) — ten surfaces rewritten to the post-B1101 state; the E₆→SM overclaim corrected everywhere it lived; the success tiers surfaced
 
 The owner's directive ("reflect the new state of the program to the

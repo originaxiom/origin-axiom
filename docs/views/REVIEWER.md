@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1005** |
-| words of findings prose | **682,082** |
-| test lock files referenced | **615** |
-| arcs carrying an authored verdict | **992** (98.7 %) |
+| research arcs with findings | **1006** |
+| words of findings prose | **682,986** |
+| test lock files referenced | **616** |
+| arcs carrying an authored verdict | **993** (98.7 %) |
 | recorded closures | **759** (592 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 662 |
+| PROVED | 663 |
 | NEGATIVE | 286 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1101`** (281 words, 0 locks)  
-THE CERTIFICATION ENVELOPE ADOPTED (Review 47's methodology delta, owner-elected): during any certifying suite the working tree is read-only by convention -- scratchpad staging with land-by-explicit-filename, staged-state pre-checks, piped digests with the seal-digests recompute gate as backstop, fold-forward on collision; arrives pre-proven by the window's three E46 instances (E39's gate three-for-three) plus the two digest routes E47/E48; consolidated into WORKING_RULES per GOVERNANCE Sec.10 with this arc as the adoption record.  
-`B1101_certification_envelope/FINDINGS.md`
+**PROVED — `B1102`** (904 words, 1 locks)  
+THE EXACT HYPERCHARGE SOLVE AT THE LANDING (B1100's named residual, owner-elected): the banked 6Y multiset IS carried exactly by the A2 landing's rank-4 Cartan -- 18 isolated rational directions, denominators dividing 6 (provably complete 5^4=625 assignment search over the four +-basis-vector classes; representative t=(1/6,1/6,2/3,-1/3); adapted crystal basis all-rational, B1100's cubic fallback unneeded) -- AND no color-commuting direction achieves it (zero of the 18 pure on either ideal, forced at Cartan level; 36/36 root-level checks negative): hypercharge-VALUED, not SM-PRODUCT-structured; su(2) side PASS (Y-neutral root universal 2-per-solution; Chevalley exact on the 27; commutes with the entire color ideal and with Y; 6 doublets + 15 singlets); uniqueness = 18 points, dimension 0 (about 4.17 bits if bare; order-36 orbit lead named open); e6 bracket module vendored in-arc with re-certification (all C(78,2) pairs); float-measure tension with B1100's pattern-cone genericity FLAGGED for one clarifying check (both arcs' exact claims unaffected); three follow-ups typed (other strata; other color identifications; the 6Y frame map), none claimed; chirality-at-count NOT claimed; Gate 5 untouched.  
+`B1102_exact_hypercharge_solve/FINDINGS.md`
 
 **NEGATIVE — `B1096`** (328 words, 1 locks)  
 DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically -- U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), SU(2)-Witten, AND (B-L)^3 and (B-L)-grav, where the imported 15 gives -1/-1: nu^c, the field the object derives, is EXACTLY what cancels the last non-vanishing invariant; the Z6 congruence 6Y = 4 triality + 3 duality (mod 6) is the UNIQUE solution (exhaustion over 36); a layer that vanishes identically cannot supply a ratio -- the ask is structurally unanswerable (B990's shape), the object's matter too anomaly-free to say anything: completeness of content and emptiness of layer are the same fact; joins B1092 (the same derived nu^c: anomaly-complete AND purity-conditioned).  

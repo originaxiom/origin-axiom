@@ -158,3 +158,9 @@ every row is exact structure on the object's own charges, no physics value.**
 
 *(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
 invisible-12 — get their rows when their locks land; LAW_MAP §F's pending row governs.)*
+
+## Added 2026-08-21 — the same-PR rule honored at the bank (R48-F1's response begins here; the B920→B1101 backfill follows as its own bank)
+
+| # | statement | bank | reproducer | lit-status / search terms |
+|---|---|---|---|---|
+| T-Y18 | **The exact-hypercharge two-sided theorem at the A2 landing**: the banked 6Y multiset {1/6×6, 1/3×6, −1/2×4, −2/3×3, −1/3×3, 0×2, 1/2×2, 1×1} is carried EXACTLY by the landing's rank-4 Cartan — 18 isolated rational directions (denominators \| 6; provably complete 5⁴-assignment search; representative t = (1/6, 1/6, 2/3, −1/3)) — AND no color-commuting u(1) achieves it (zero pure directions, forced at Cartan level; 36/36 root-level checks): hypercharge-VALUED, not SM-PRODUCT-structured. su(2) side: Y-neutral root universal (2 per solution), 6 doublets + 15 singlets on the 27 | B1102 | `tests/test_b1102_exact_solve.py` | **NEEDS-LIT**: trinification hypercharge embedding; E₆ 27 branching under su(3)×su(3); hypercharge as mixed-Cartan direction; "no color-singlet hypercharge" obstructions |
