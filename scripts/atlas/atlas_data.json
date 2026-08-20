@@ -18705,6 +18705,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8102": {
+   "slug": "cusped gap",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B739",
+    "L166"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [

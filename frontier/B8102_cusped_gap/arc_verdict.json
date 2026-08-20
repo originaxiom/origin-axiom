@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-20)",
+ "claim_one_line": "THE CUSPED ONE-LOOP PROBLEM IS A LITERATURE GAP -- A BRIDGE, NOT A VOID -- AND THE OBJECT HOLDS THE INPUT THAT IS USUALLY THE OBSTACLE. B8101 ended with one named gap, the spin-2 test function for a CUSPED quotient; this asks whether that is something we failed to look up or something nobody has. FINDING 1: the physics literature EXCLUDES our case explicitly -- 'A spool for every quotient: One-loop partition functions in AdS3 gravity' (arXiv:2507.05364, 2025), the current comprehensive treatment, states its scope as 'massive spinning fields on all smooth, CUSP-FREE, solutions of Euclidean gravity with a negative cosmological constant'. Our object is finite-volume and cusped, so the exclusion is in the abstract and is deliberate. FINDING 2: but the MATHEMATICS exists -- arXiv:1206.0228 proves, for a non-compact hyperbolic 3-manifold WITH CUSPS, 'an explicit formula that relates the regularized analytic torsion' via 'special values of RUELLE ZETA functions', with arXiv:math/0111175 as companion on eta invariants and regularized determinants for odd-dimensional hyperbolic manifolds with cusps -- and Ruelle zeta is built from the geodesic spectrum, the object B8100 computed. THE FINDING: the cusped determinant machinery exists in the mathematics literature, the AdS3 one-loop application excludes cusps, and the two have NOT been joined for this case -- a materially different statement from needing to invent a test function, and the same shape as L166 (an ABSENT result, not an unfound one) except that here the absence is a CONNECTION and both endpoints are published. AND THE OBJECT HOLDS THE HARD INPUT: the literature's own remark is that the scattering determinant is generally hard to compute explicitly, while ours is closed-form (B739: phi_m004(s) = Lambda_K(s-1)/Lambda_K(s)) and was verified in B8101 to satisfy the H^3 unitarity condition phi(s)phi(2-s) = 1 to <1e-25 with phi(1) = -1. So the object is an unusually good test case for building the bridge -- the hardest input is already exact, the geodesic side computed, the volume exact; that is a claim about which end is anchored, NOT that the bridge is easy. NOT CLAIMED: that the bridge is buildable or short (it is research-level); that no cusped one-loop result exists anywhere, since abstracts were read and not full papers, so the honest label is NEEDS-SPECIALIST-CONFIRMED exactly as L166 ended; and no partition function. Gate 5 untouched.",
+ "depends_on": [
+  "B8101",
+  "B8100",
+  "B739",
+  "L166"
+ ],
+ "id": "B8102",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

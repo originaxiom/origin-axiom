@@ -1,0 +1,32 @@
+{
+ "cusped_math_exists": true,
+ "excluding_paper": {
+  "arxiv": "2507.05364",
+  "scope_quote": "massive spinning fields on all smooth, cusp-free, solutions of Euclidean gravity with a negative cosmological constant",
+  "title": "A spool for every quotient: One-loop partition functions in AdS3 gravity",
+  "year": 2025
+ },
+ "hard_input": "the scattering determinant is generally hard to compute explicitly; ours is closed-form (B739, phi = Lambda_K(s-1)/Lambda_K(s)) and verified to satisfy H^3 unitarity to <1e-25 with phi(1) = -1",
+ "honest_label": "NEEDS-SPECIALIST-CONFIRMED",
+ "math_papers": [
+  {
+   "arxiv": "1206.0228",
+   "result": "explicit formula for regularized analytic torsion on non-compact hyperbolic 3-manifolds WITH CUSPS, via special values of RUELLE ZETA functions"
+  },
+  {
+   "arxiv": "math/0111175",
+   "result": "eta invariants and regularized determinants for odd-dimensional hyperbolic manifolds with cusps"
+  }
+ ],
+ "not_claimed": [
+  "that the bridge is buildable or short -- it is research-level",
+  "that no cusped one-loop result exists anywhere; abstracts were read, not full papers",
+  "any partition function"
+ ],
+ "physics_literature_excludes_cusps": true,
+ "ruelle_zeta_is_built_from": "the geodesic spectrum -- the object B8100 computed",
+ "scope": "A literature position from abstracts plus one full-text scope statement. Primary papers NOT read in full. No measured value; Gate 5 untouched.",
+ "the_gap_is_a_bridge_not_a_void": true,
+ "we_hold_the_hard_input": true,
+ "why": "the cusped determinant machinery exists in the mathematics literature; the AdS3 one-loop application excludes cusps; the two have not been joined for this case"
+}
