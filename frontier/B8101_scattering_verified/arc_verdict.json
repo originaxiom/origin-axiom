@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-20)",
+ "claim_one_line": "B739'S SCATTERING DETERMINANT IS VERIFIED TO BE ONE, phi(1) = -1 IS THE NON-TRIVIAL SIGN, AND FIVE OF SEVEN ONE-LOOP INGREDIENTS ARE IN HAND. Second rung of the owner-elected finish-the-3d-theory line. B739 banked phi_m004(s) = Lambda_K(s-1)/Lambda_K(s); this checks it is a SCATTERING DETERMINANT rather than merely an identity. Lambda_K(s) = Lambda_K(1-s) verified to <1e-25 (K = Q(sqrt(-3)), h = 1, d_K = -3, zeta_K = zeta * L(chi_{-3})). THE LOAD-BEARING CHECK: phi(s) phi(2-s) = 1 to <1e-25 -- on H^3 the spectral parameter is s(2-s) and the critical line is Re s = 1, so unitarity reads phi(s)phi(2-s) = 1 and NOT the phi(s)phi(1-s) of the 2-dimensional case; B739's formula satisfies the THREE-dimensional condition exactly. The continuous integrand -phi'/phi(1+ir) is REAL on the critical line as unitarity requires, and is numerically computable. PHI(1) = -1: at the centre of the critical line unitarity forces phi(1)^2 = 1, and the computed limit gives -1.00000002 at s = 1 + 1e-8, so phi(1) = -1 -- the NON-TRIVIAL sign. Consequence: the trace-formula term (1 - phi(1)) equals 2, not 0, so the cusp contributes NON-TRIVIALLY at the symmetric point rather than quietly vanishing. THE ASSEMBLY, five of seven: in hand are the identity/volume term (Vol = 2.029883212819307, B8099), the geodesic/discrete term (log Z_geod = -0.272977 +/- 2.0e-3, B8100), the scattering determinant, the symmetric-point term, and the continuous integrand; MISSING are the spin-2 test function h(r) for a CUSPED quotient and hence the assembled determinant. WHAT IS MISSING IS NAMED PRECISELY: GMY's product is derived for handlebodies and closed quotients, and the boundary-graviton h(r) appropriate to a finite-volume CUSPED manifold is the one object none of these rungs supplies -- the whole remaining gap is not 'quantization' in the abstract but ONE NAMED FUNCTION. SCOPE: does not assemble the one-loop determinant and claims no partition function. Gate 5 untouched.",
+ "depends_on": [
+  "B739",
+  "B8099",
+  "B8100"
+ ],
+ "id": "B8101",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

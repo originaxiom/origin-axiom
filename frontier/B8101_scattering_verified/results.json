@@ -1,0 +1,49 @@
+{
+ "assembly": [
+  {
+   "note": "Vol = 2.029883212819307 (B8099, verified)",
+   "status": "IN HAND",
+   "term": "identity/volume term"
+  },
+  {
+   "note": "log Z_geod = -0.272977 +/- 2.0e-3 (B8100)",
+   "status": "IN HAND",
+   "term": "geodesic/discrete term"
+  },
+  {
+   "note": "phi(s) = Lambda_K(s-1)/Lambda_K(s), unitarity verified here",
+   "status": "IN HAND",
+   "term": "scattering determinant"
+  },
+  {
+   "note": "phi(1) = -1, so (1 - phi(1)) = 2",
+   "status": "IN HAND",
+   "term": "symmetric-point term"
+  },
+  {
+   "note": "-phi'/phi computable and real on Re s = 1",
+   "status": "IN HAND",
+   "term": "continuous integrand"
+  },
+  {
+   "note": "the spin-2 (boundary-graviton) h for a CUSPED quotient",
+   "status": "MISSING",
+   "term": "the test function h(r)"
+  },
+  {
+   "note": "needs h; not attempted here",
+   "status": "MISSING",
+   "term": "the assembled determinant"
+  }
+ ],
+ "functional_equation_worst_err": 3.877409121342317e-26,
+ "integrand_real_on_critical_line": true,
+ "n_in_hand": 5,
+ "n_total": 7,
+ "one_minus_phi1": 2.0,
+ "phi_at_symmetric_point": -1.0,
+ "scope": "Verifies B739's scattering determinant SATISFIES the conditions a scattering determinant must satisfy on H^3, computes phi(1) = -1, and shows the continuous integrand is computable and real. Does NOT assemble the one-loop graviton determinant -- the spin-2 test function for a cusped quotient is missing and was not attempted. No measured value; Gate 5 untouched.",
+ "unitarity_condition": "phi(s)phi(2-s) = 1  (H^3: spectral parameter s(2-s), critical line Re s = 1)",
+ "unitarity_worst_err": 9.325511075368163e-26,
+ "what_is_missing": "the spin-2 test function h(r) for a CUSPED quotient, and hence the assembled determinant"
+}

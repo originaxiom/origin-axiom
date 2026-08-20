@@ -18690,6 +18690,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B8101": {
+   "slug": "scattering verified",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B739"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [
