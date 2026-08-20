@@ -2099,6 +2099,41 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1098": {
+   "slug": "nonabelian hatch",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B854",
+    "B932",
+    "B970"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 19,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1099": {
+   "slug": "route a counter",
+   "motifs": [
+    "eisenstein",
+    "torsion"
+   ],
+   "refs": [
+    "L162"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B109": {
    "slug": "trace map dynamics",
    "motifs": [

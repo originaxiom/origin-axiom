@@ -1,0 +1,202 @@
+[
+  {
+    "label": "Levi(0,)-regular",
+    "dim_c": 35,
+    "rank_c": 5,
+    "center_dim": 0,
+    "dim_ss": 35,
+    "rank_ss": 5,
+    "ss_type": "a5",
+    "sm": "SM-compatible with ONE extra u(1): su(6) contains su(3)+su(2)+u(1) (the (3,2) embedding)"
+  },
+  {
+    "label": "Levi(0, 1)-regular",
+    "dim_c": 22,
+    "rank_c": 4,
+    "center_dim": 1,
+    "dim_ss": 21,
+    "rank_ss": 3,
+    "ss_type": "b3",
+    "sm": "NOT SM: so(7)+u(1) has no su(2) commuting with an su(3) (rank budget exhausted)"
+  },
+  {
+    "label": "Levi(0, 2)-regular",
+    "dim_c": 16,
+    "rank_c": 4,
+    "center_dim": 0,
+    "dim_ss": 16,
+    "rank_ss": 4,
+    "ss_type": "a2+a2",
+    "sm": "SM-COMPATIBLE at rank EXACTLY 4: su(3)+su(3) contains su(3)_C x (su(2)xu(1)) -- THE TRINIFICATION REMNANT"
+  },
+  {
+    "label": "Levi(0, 2, 4, 5)-regular",
+    "dim_c": 14,
+    "rank_c": 2,
+    "center_dim": 0,
+    "dim_ss": 14,
+    "rank_ss": 2,
+    "ss_type": "g2",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 4)-regular",
+    "dim_c": 11,
+    "rank_c": 3,
+    "center_dim": 0,
+    "dim_ss": 11,
+    "rank_ss": 3,
+    "ss_type": "a2+a1",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 2, 3)-regular",
+    "dim_c": 11,
+    "rank_c": 3,
+    "center_dim": 1,
+    "dim_ss": 10,
+    "rank_ss": 2,
+    "ss_type": "b2",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 2)-regular",
+    "dim_c": 9,
+    "rank_c": 3,
+    "center_dim": 1,
+    "dim_ss": 8,
+    "rank_ss": 2,
+    "ss_type": "a2",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(1, 2, 3, 4)-regular",
+    "dim_c": 8,
+    "rank_c": 2,
+    "center_dim": 0,
+    "dim_ss": 8,
+    "rank_ss": 2,
+    "ss_type": "a2",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 2, 3)-regular",
+    "dim_c": 4,
+    "rank_c": 2,
+    "center_dim": 1,
+    "dim_ss": 3,
+    "rank_ss": 1,
+    "ss_type": "a1",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 2, 4)-regular",
+    "dim_c": 4,
+    "rank_c": 2,
+    "center_dim": 1,
+    "dim_ss": 3,
+    "rank_ss": 1,
+    "ss_type": "a1",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 3, 4)-regular",
+    "dim_c": 4,
+    "rank_c": 2,
+    "center_dim": 1,
+    "dim_ss": 3,
+    "rank_ss": 1,
+    "ss_type": "a1",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 2, 4, 5)-regular",
+    "dim_c": 3,
+    "rank_c": 1,
+    "center_dim": 0,
+    "dim_ss": 3,
+    "rank_ss": 1,
+    "ss_type": "a1",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 2, 3, 4, 5)-regular",
+    "dim_c": 3,
+    "rank_c": 1,
+    "center_dim": 0,
+    "dim_ss": 3,
+    "rank_ss": 1,
+    "ss_type": "a1",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "D5?-rand0",
+    "dim_c": 2,
+    "rank_c": 2,
+    "center_dim": 2,
+    "dim_ss": 0,
+    "rank_ss": 0,
+    "ss_type": "0",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 2, 3, 4)-regular",
+    "dim_c": 1,
+    "rank_c": 1,
+    "center_dim": 1,
+    "dim_ss": 0,
+    "rank_ss": 0,
+    "ss_type": "0",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 2, 3, 5)-regular",
+    "dim_c": 1,
+    "rank_c": 1,
+    "center_dim": 1,
+    "dim_ss": 0,
+    "rank_ss": 0,
+    "ss_type": "0",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "D5?-rand3",
+    "dim_c": 1,
+    "rank_c": 1,
+    "center_dim": 1,
+    "dim_ss": 0,
+    "rank_ss": 0,
+    "ss_type": "0",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "Levi(0, 1, 2, 3, 4, 5)-regular",
+    "dim_c": 0,
+    "rank_c": 0,
+    "center_dim": 0,
+    "dim_ss": 0,
+    "rank_ss": 0,
+    "ss_type": "0",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "E6-rand0",
+    "dim_c": 0,
+    "rank_c": 0,
+    "center_dim": 0,
+    "dim_ss": 0,
+    "rank_ss": 0,
+    "ss_type": "0",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  },
+  {
+    "label": "E6-rand1",
+    "dim_c": 0,
+    "rank_c": 0,
+    "center_dim": 0,
+    "dim_ss": 0,
+    "rank_ss": 0,
+    "ss_type": "0",
+    "sm": "rank < 4 or no SM chain -- not a candidate"
+  }
+]

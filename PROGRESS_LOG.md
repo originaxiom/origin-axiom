@@ -10846,3 +10846,15 @@ breaking is that wall, confirmed before the prediction was read.
 The identification their arc left unsettled is settled: order is
 the hand, sign is the tick, and the arrow was never a bit. Four
 harvest leads, four closures, every one stronger than its source.
+
+2026-08-20 (Phase 1 of the closing campaign; THE HATCH OPENS). Twenty
+classes, one table, and the sentence the program has waited for: the
+object's own holonomy, taken through its smallest faithful
+representation, breaks E6 to su(3)+su(3) at rank exactly four -- the
+trinification remnant, with the standard-model chain inside and
+nothing left over. The wall's abelian doors closed twice; its
+non-abelian door opens on the first knock. Priced honestly: one class
+of twenty, four bits, no mechanism claimed -- the matter content at
+the landing is the next cell's question. And Route A's counter turns
+out to be frontier mathematics with one stratum decided free: at the
+full group, the object's integral orbit was always unique.

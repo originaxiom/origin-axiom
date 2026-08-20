@@ -295,3 +295,23 @@ structure delivered, values gated. What changed: the value gate's fourth sealed 
 (B1075, the moduli crossing — the kind table's own admissible pairing, never before
 contacted) seals with this read — MISS expected and informative either way, per its own
 declared prior. This document reports the outcome when it exists.
+
+## CURRENCY READ — 2026-08-20 (B1083–B1099; the verdict's structure column moves again)
+
+The wave through the closing campaign's Phase 1 adds to the STRUCTURE side: the 3d
+completion's four cards (B1088–B1091: one-term action, ω-saddle partition function,
+interface-resident matter, the observer as the cut); the four-language chirality wall
+(closed assemblies are structurally silent — B1084/B1086/B1087 with B1083); door 5
+closed (B1096: the derived 16 too anomaly-free to say anything); and **THE HATCH
+RESULT (B1098): the object's own holonomy, composed with its smallest faithful
+representation, breaks E₆ to su(3)⊕su(3) at rank exactly 4 — the trinification
+remnant, with the SM chain inside it exhibited explicitly (the su(2)×u(1) seat
+constructed inside the second factor, verifier-exhibited). Priced honestly: the class
+is 1-of-20 (~4.3 bits), no selection mechanism claimed; the matter content at the
+landing is B1100's open question.** Route A's coarse half decided (B1099: the
+full-group integral orbit UNIQUE at the object's squarefree determinant 5; the
+K-refined count = frontier mathematics; THE PAIR proved necessary from the literature
+side). The VALUES verdict is UNCHANGED: seven sealed misses, Tier 2 NOT DONE, no live
+value candidate — the structure column grows, the value column stands where its seals
+left it.
+

@@ -10555,7 +10555,7 @@
     "kill_form": "two step-disjoint proofs: structural (B955: H1 = Z cyclic, centralizer contains a maximal torus) AND exhaustive (B1079's census: 15,624 five-torsion elements, nine rows, every row rank 6)",
     "fact_computed": "the join licensed by main's own B1079 re-derivation; the audit seat's independent census agrees step-disjointly (integrate-don't-merge, nothing imported)",
     "faces_consulted": "B955; B1079; B1092 (purity: the second VEV a condition); B1093 (Route A arithmetic clear)",
-    "hatch": "NON-ABELIAN holonomy -- the single live hatch through the wall's holonomy face (geometric representation + H1 machinery exists; main-band re-derivation required); plus Route A's owed counter identification (the orbit-count lane, B1093's residual)"
+    "hatch": "NON-ABELIAN holonomy -- the single live hatch through the wall's holonomy face (geometric representation + H1 machinery exists; main-band re-derivation required); plus Route A's owed counter identification (the orbit-count lane, B1093's residual) -- HATCH STATUS 2026-08-20 (B1098): OPENED at the sl2-factored stratum: the A2 class leaves su(3)+su(3) (rank exactly 4, SM-compatible); the A1 class su(6) (SM + one u(1)); 17 classes below rank 4; the class choice priced ~4.3 bits"
   },
   {
     "id": "B1096",

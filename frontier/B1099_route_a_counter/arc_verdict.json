@@ -1,0 +1,7 @@
+{
+  "id": "B1099",
+  "title": "ROUTE A'S COUNTER: literature floor + det-5 uniqueness + the pair proved necessary",
+  "verdict": "OPEN",
+  "claim_one_line": "ROUTE A'S COUNTER (W2, MATCH-typed scoped reading): LITERATURE-FLOOR with two upgrades -- (1) ONE STRATUM DECIDED FREE: Krutelevich Cor 16 (transitivity at determinant n iff n squarefree) + our determinant 5 squarefree => the FULL norm-preserving group's integral orbit at the object's invariant is UNIQUE (the coarse half of Route A, closed positive); (2) THE PAIR PROVED NECESSARY FROM OUTSIDE: Prop 12(i) -- the full group is transitive on every nonzero-norm level set over any field, never seeing K -- so K-indexed orbits REQUIRE the basepoint-respecting group = the pair 27+27bar, forcing from the literature side what B1092/B1093/B1017 reached from the physics side; the K-refined count for the smaller group is FRONTIER MATHEMATICS (the D6/32 and E7/56 neighbors logged open since 2004; Thorne's E6 AIT is the order-2/42-dim/genus-3 grading; the named gap: the Bhargava-Gross/Thorne stabilizer-cohomology transfer to F4 or basepoint-fixed E6-on-the-pair with cubic K, unproved anywhere reached) -- NEEDS-SPECIALIST at the field's own level, the honest form; audit-seat Krutelevich read partially discharged by relay.",
+  "instrument": false
+}

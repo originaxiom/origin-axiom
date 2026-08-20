@@ -16,6 +16,14 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-20, Phase 1 — THE HATCH OPENS)**: B1098 — all 20
+sl2 strata decided; the A2 class leaves su(3)+su(3) at rank EXACTLY 4
+(the trinification remnant; the object eats one factor); su(6) the
+secondary landing; priced 1-of-20. B1099 — Route A's counter is
+frontier math; the full-group orbit UNIQUE at det 5; THE PAIR proved
+necessary from the literature side. Next: B1100 (the 27 at the
+landing); Review 47 opens on this bank.
+
 **LATEST (2026-08-20, B1096 + B1097 — the harvest queue EMPTIES)**:
 door 5 shut structurally (the anomaly layer over the derived 16
 identically zero; nu^c the last cancellation; (4,3) unique); the

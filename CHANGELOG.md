@@ -1,5 +1,42 @@
 # Changelog
 
+## B1098 + B1099: PHASE 1 OF THE CLOSING CAMPAIGN — THE HATCH OPENS (2026-08-20)
+
+B1098 THE NON-ABELIAN HATCH, FIRST STRATUM DECIDED — THE PRE-REGISTERED
+POSITIVE BRANCH: all TWENTY sl2 conjugacy classes of e6 enumerated
+constructively (saturation vs the cited count; every centralizer
+dim/rank/type matching the standard table; banked numbers exact on the
+verified Chevalley basis, the verified JM pattern, independent verifier
+on the verdict rows). The density lemma (rho non-elementary =>
+Zariski-dense) makes each centralizer THE unbroken algebra of the
+object's own composed holonomy. VERDICT: THE HATCH OPENS, TWICE --
+**the A2 class (the principal sl2 of one trinification factor, reached
+through the object's own rho composed with the 3-dimensional
+representation) leaves EXACTLY su(3)+su(3): dim 16 = 8+8, rank 4, THE
+TRINIFICATION REMNANT -- color in one factor, su(2)xu(1) in the other,
+zero extra u(1)s. THE OBJECT'S OWN GEOMETRY EATS ONE TRINIFICATION
+FACTOR.** The A1 class gives su(6) (SM + one extra u(1)); the 2A1
+candidate so(7)+u(1) EXCLUDED (no commuting su(2)); seventeen classes
+fall below rank 4. Fences: the class is a PRICED choice (1-of-20, ~4.3
+bits, no selection mechanism claimed); hypercharge-match deferred to
+B1100 (the 27's branching at the landing -- the follow-on the result
+selects); chirality untouched (the four-language wall stands); EWSB
+outside; B854/B932 adjacencies declared (finite vs continuous strata).
+B1099 ROUTE A'S COUNTER (MATCH-typed reading): LITERATURE-FLOOR with
+two upgrades -- ONE STRATUM DECIDED FREE (Krutelevich Cor 16 +
+determinant 5 squarefree: the full-group integral orbit at the
+object's invariant is UNIQUE) and THE PAIR PROVED NECESSARY FROM
+OUTSIDE (Prop 12(i): the full group never sees K -- K-indexed orbits
+REQUIRE the pair 27+27bar, forcing from the literature what the
+physics side already reached); the K-refined count = frontier
+mathematics (the named Bhargava-Gross/Thorne transfer, unproved
+anywhere; the neighbors logged open since 2004) -- NEEDS-SPECIALIST at
+the field's own level. THE RANK WALL'S NEW SENTENCE: the hatch OPEN at
+its first stratum; the wall's remaining questions are the matter
+content at the landing (B1100), the class-choice's price, and the
+frontier counter. Locks green; audit-seat Krutelevich read partially
+discharged by relay.
+
 ## B1096 + B1097: the Sec.6 pair re-derived — the harvest queue EMPTIES (2026-08-20, L170)
 
 B1096 (their B8089): THE ANOMALY LAYER OVER THE DERIVED 16 IS
