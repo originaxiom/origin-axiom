@@ -423,9 +423,9 @@ moving, sometimes fast, without touching this sentence's truth.
 
 ## 7. The buried-results ledger (B8097, 2026-08-20) — results banked too NARROW, and closures banked too WIDE
 
-**Added at Review 47, per the doc-wave mandate: this section surfaces `frontier/B8097_buried_results/FINDINGS.md`
-(the paper-lineage branch's audit) into this file's own bookkeeping, since "results banked narrower than their
-content is exactly what this document should surface."** B8097's own framing, quoted, states the point sharper than
+**Added at Review 47, per the doc-wave mandate: this section surfaces B8097 — the paper-lineage branch's
+buried-results audit, whose FINDINGS live on that branch, not as a path in this tree — into this file's own
+bookkeeping, since "results banked narrower than their content is exactly what this document should surface."** B8097's own framing, quoted, states the point sharper than
 a paraphrase would: *"the buried results have already been found. Twice. By this seat."* — catalogued once in
 `docs/REPRESENTATION_TRIAGE.md` and once in `docs/OPEN_LEADS.md`'s B985 section, **both still sitting there,
 unacted on**, because *"noticing has been treated as discharging. A row that says 'this is a debt' is not payment."*
