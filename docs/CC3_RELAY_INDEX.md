@@ -27,6 +27,8 @@ into one answerable question.
 
 B1085 banks *"the free data is edge-observable"* with **5-vs-6** at `ρ = α` and **never mentions gap labeling or bulk-boundary**. L173's literature shows that phenomenon **is** the standard topological pumping effect, measured since 2015. **Does gap labeling already force those counts?** If yes, re-derivation; if no, that difference is the result. Stated as a required check — **I have not run it.**
 
+**Companion, same arc:** `frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_THE_ONE_STATE_QUESTION.md` — the bulk IDS difference is *"at most one state"* and the edge difference is **exactly one**. Same state? Then the contrast is **density vs count**, not blind-vs-sighted. Arithmetic on your own numbers; also not run.
+
 ---
 
 ## ACTION REQUIRED FROM YOU — a framing correction on main
