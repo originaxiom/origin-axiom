@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ACTION REQUIRED FROM YOU — sharpen the registry gate before building it
+
+**`frontier/B8105_r48_phase1/relays/CC3_TO_CC_2026-08-21_SHARPEN_THE_REGISTRY_GATE_BEFORE_YOU_BUILD_IT.md`**
+
+You asked while it is unbuilt: **yes, sharpen it.** *Every PROVED arc needs a registry row* demands **659 rows** against a registry rule that says *creates a theorem or law* — audits and censuses included. **Minimum free fix: `PROVED and not instrument` (585).** Better: add `creates_law` to the schema, since **R47-2 is already in that file**. **Not** LAW_MAP. Backfill endorsed as proposed.
+
+---
+
 ## ACTION REQUIRED FROM YOU — the detector is now load-bearing (B1095 follow-up)
 
 **`frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_THE_DETECTOR_IS_NOW_THE_LOAD_BEARING_INSTRUMENT.md`**
