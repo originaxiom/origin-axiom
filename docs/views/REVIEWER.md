@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **993** |
-| words of findings prose | **675,491** |
-| test lock files referenced | **608** |
-| arcs carrying an authored verdict | **980** (98.7 %) |
+| research arcs with findings | **995** |
+| words of findings prose | **676,618** |
+| test lock files referenced | **610** |
+| arcs carrying an authored verdict | **982** (98.7 %) |
 | recorded closures | **757** (590 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 652 |
+| PROVED | 654 |
 | NEGATIVE | 285 |
 | OPEN | 33 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1089`** (586 words, 0 locks)  
-THE MATTER CARD (L174 C3, assembly of banked pieces under the 3d-theory header): the 27-local-system cohomology IS the theory's matter content -- solo h1 = 3 (B662), welded 5, theta-odd 2 (B1086's spectrum law = the multiplicity law; B1036's seam mechanism), vector-like on ANY closed assembly by theorem (PD), charge structure = B1087's complementarity (1+8+9+8+1, family-graded, unmeasurable closed), the hand at the edge (B1085), the coupling = B1073's composition gate; THE SYNTHESIS: every matter datum is INTERFACE-RESIDENT (multiplicity at the seam, charge at the cut/family, hand at the edge, coupling boundary-evaluated) -- the blanket's 'boundary is the total interface' has its matter-sector instantiation; fences carried verbatim: h1-to-mode identification is the CS/AW dictionary (CITED not proven), the 3/5/2 tower is multiplicity NOT generations (B1036's fence), values stay closed at seven misses, EWSB outside.  
-`B1089_matter_card/FINDINGS.md`
+**PROVED — `B1091`** (537 words, 1 locks)  
+THE OBSERVER CARD (L174 C4, assembly): what an observer at the cut can measure -- c = 6 sigma (twice-derived), the tick clock (M then M^2 = RL), the seam multiplicities (3/5/2), the boundary-evaluated coupling (B1073), the edge hand (5-vs-6 at rho = alpha), the cut-only charge (1+8+9+8+1) and the geodesic record -- and what NO observer can, by theorem: the bulk charge (non-commutativity), the hand from bulk data (IDS-blind), values beyond structure (seven misses), sigma as a number (the unit; no uniform prior on scale); THE SYNTHESIS (composition, flagged): the observer card is the forced/free boundary read off physically -- forced = boundary-visible (QP-2 FLAT), free = boundary-ONLY (B1085), the observer IS the cut (the positive-monoid register restored as an interface); C1-C4 of the 3d completion BANKED, C5 fenced awaiting the owner-routed reading.  
+`B1091_observer_card/FINDINGS.md`
 
 **NEGATIVE — `B1076`** (428 words, 0 locks)  
 THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b (a3/a5), D2 = chi_a.chi_b}; the two never-computed Hermitian diagonals derived by two agreeing routes; B923's machinery re-executed at all four gauges (117 checks, 0 fail; independent numeric route to 1e-53): lambda = 1, 864/413, 6912/3047, 2304/953 with HIER-analogs of leading coefficient exactly denom^4 and three distinct real roots at every non-identity gauge; CCC = 3! lambda HOLDS COSET-WIDE; the NEW nontrivial exact character of the Klein group with kernel {I, chi_a} (= sign(lambda^2) normalized by its identity value; phrasing corrected 2026-08-19 per the cold audit — the results JSON always stated it correctly). THE LANE VERDICT: no coset-invariant value-bearing mass-ratio-shaped residue exists -- every value quantity is element-specific, every symmetrization structureless, and the seductive coset-wide 77 (the hierarchy discriminant's squarefree part at all three nontrivial gauges) was KILLED BY THE CELL'S OWN VACUITY CONTROL (K-forcedness: it holds for a control diagonal unrelated to the coboundary structure) -- the mass-ratio lane's reopening condition is DECIDED CLOSED by its own named computation at gauges never before visited; if a physical hierarchy uses this structure, NATURE SUPPLIES THE GAUGE, and which-datum-picks-the-gauge is the well-posed successor. Observation unweighted: 7 | 413 and 11 | 3047 -- each unmeasured-pair prime divides exactly one new gauge's denominator; no mechanism claimed.  

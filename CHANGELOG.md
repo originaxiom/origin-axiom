@@ -1,5 +1,30 @@
 # Changelog
 
+## B1090 + B1091: the partition bridge and the observer card (2026-08-20) — the 3d completion's first pass CLOSES at C1-C4
+
+B1090 (C2): the quantum theory EXISTS with the object's exact
+ingredients -- AK's one-variable state integral (a RATIO of two
+Faddeev dilogarithms: amphichirality visible in the formula), with
+THE OMEGA-SADDLE (new, exact: the steepest-descent equation is
+u^2+u+1 = 0 -- the critical point of the object's own quantum
+partition function IS the founding field generator), the saddle value
+pi^2/6 - i Vol (the exact conjugate of B1088's classical value: one
+number, both floors), AK Thm 5 (cited, proven) making the action card
+the classical limit, and the b=1 closed form (GK eq. 2) REPRODUCED on
+this bench from Faddeev's integral definition at 7.6e-8. Ties typed:
+Path A = the same family at roots of unity; L154 sharpened not
+consumed; the T^2 Hilbert space named as the remaining quantization
+assembly. B1091 (C4): THE OBSERVER CARD -- what the cut-observer
+measures (c = 6 sigma, the tick clock, the seam multiplicities, the
+boundary coupling, the edge hand, the cut-only charge, the geodesic
+record) and what NO observer can by theorem (the bulk charge, the
+hand from bulk data, values beyond structure, sigma as a number);
+the synthesis: the observer card is the forced/free boundary read off
+physically -- the observer IS the cut. L174's FIRST FULL PASS CLOSES:
+C1-C4 BANKED, C5 fenced awaiting the owner-routed arithmetic-CS
+reading. Locks 5/5; suite45's certificate pushed the prior record to
+both remotes (4034 passed, zero failures).
+
 ## B1089 THE MATTER CARD + the instrument-boolean fix (2026-08-20, C3 lands) — the matter sector is the interface sector
 
 B1089 (L174's C3, assembly): the 27-local-system cohomology declared AS

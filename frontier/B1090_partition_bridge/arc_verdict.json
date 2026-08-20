@@ -1,0 +1,7 @@
+{
+  "id": "B1090",
+  "title": "THE PARTITION-FUNCTION BRIDGE (C2): the quantum theory exists, its saddle is omega, its b=1 value reproduced",
+  "verdict": "PROVED",
+  "claim_one_line": "THE PARTITION-FUNCTION BRIDGE (L174 C2): the object's quantum partition function EXISTS in closed state-integral form (AK eq. 38: one variable, a RATIO of two Faddeev dilogarithms -- amphichirality visible in the formula), its steepest-descent saddle is EXACTLY the programme's field generator (u^2+u+1 = 0, e^z = omega; symbolic), the saddle value is pi^2/6 - i Vol -- the exact conjugate of B1088's classical Rogers value (one number, both floors) -- with AK Thm 5 (CITED, proven) making B1088's action card the classical limit; and the b=1 closed form (GK eq. 2: (e^{i pi/6}/sqrt3)(e^{V/2pi} - e^{-V/2pi})) is REPRODUCED on this bench by direct evaluation from Faddeev's integral definition at |Delta| = 7.6e-8; ties typed: Path A = the same family at roots of unity; L154 sharpened not consumed; C5 inherits the cyclic-dilogarithm shape; the T^2 Hilbert space named as the remaining quantization assembly.",
+  "instrument": false
+}

@@ -1979,6 +1979,41 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1090": {
+   "slug": "partition bridge",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L154",
+    "L174"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1091": {
+   "slug": "observer card",
+   "motifs": [
+    "trace_map",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B761",
+    "L174",
+    "S072"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B109": {
    "slug": "trace map dynamics",
    "motifs": [

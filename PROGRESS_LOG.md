@@ -10808,3 +10808,11 @@ boundary. The 3d theory's matter is interface-resident row by row,
 exactly as the blanket predicted in general. And the gate caught the
 seat writing schema from memory again -- six instrument fields
 re-typed to the house boolean; the neighbor-row rule re-learned.
+
+2026-08-20 (C2 + C4; the first pass closes). The quantum theory turns
+out to already know the programme: its saddle is omega, its
+semiclassical action is the card's volume, and its b=1 value fell to
+a direct numeric from Faddeev's definition at seven digits. The
+observer card closes the pass: everything forced is visible at the
+boundary, everything free is visible ONLY there, and the observer is
+the cut itself. C1-C4 banked in under a day; C5 waits on its reading.

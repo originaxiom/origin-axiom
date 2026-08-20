@@ -1893,9 +1893,9 @@ fresh (B1084's cone). The cells:
 | cell | content | grade of the step |
 |---|---|---|
 | **C1 — the parameter-free action card** | **DONE (B1088, 2026-08-19):** S = −Vol·σ locked; CS = 0 exact (one lattice unit precisely: 2R(e^{iπ/3}) = π²/6 + i·Vol); c = 6σ derived twice; zero free dimensionless constants, σ = the ledger's priced unit | **BANKED** |
-| **C2 — the partition-function bridge** | type Z(m004) in quantum-CS/state-integral form (literature contact: Andersen–Kashaev; ties Path A's metallic WRT tower); compare the banked complex-volume figure; DECIDABLE-HERE vs typed floor | WebFetch arc |
+| **C2 — the partition-function bridge** | **DONE (B1090, 2026-08-20):** the ω-saddle exact (u²+u+1=0); saddle value π²/6 − i·Vol = the classical card's conjugate; AK Thm 5 makes C1 the proven classical limit; GK's b=1 closed form reproduced at 7.6×10⁻⁸ | **BANKED** |
 | **C3 — the matter-sector assembly** | **DONE (B1089, 2026-08-20):** the matter sector is INTERFACE-RESIDENT row by row; vector-like closed by theorem; multiplicity-not-generations fence carried | **BANKED** |
-| **C4 — the boundary/observer card** | the theory's observables live on the cut: Brown–Henneaux data + the length spectrum + B1085's edge content + the blanket (S072); "what an observer can measure" as a stated list; joins L173 | assembly |
+| **C4 — the boundary/observer card** | **DONE (B1091, 2026-08-20):** the full card + the negative half by theorem; the observer IS the cut | **BANKED** |
 | **C5 — the arithmetic-CS hole** | the one true specialist gap (B708, Kim's bar), now SHARPENED: the object's CS value is 0, so the arithmetic analogue of the σ/volume term is the whole question | NEEDS-SPECIALIST, honestly fenced |
 
 *Path 2's residues live in B1084's hatch + B1087's cut-side reading. Paths 1/5 converge

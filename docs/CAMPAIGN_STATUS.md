@@ -16,6 +16,13 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-20, B1090 + B1091 — L174's first pass CLOSES)**: C2
+banked (the omega-saddle exact; pi^2/6 - i Vol = the conjugate of the
+classical value; GK's b=1 closed form reproduced at 7.6e-8 from
+Faddeev's definition) and C4 banked (the observer card: the observer
+IS the cut; the negative half by theorem). C1-C4 DONE; C5 fenced on
+the owner-routed reading. Suite45 pushed everything prior (4034/0).
+
 **LATEST (2026-08-20, B1089 = L174's C3)**: THE MATTER CARD banked --
 the matter sector is INTERFACE-RESIDENT row by row (multiplicity at
 the seam, charge at the cut, hand at the edge, coupling on the
