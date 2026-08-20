@@ -16,6 +16,14 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-20, B1096 + B1097 — the harvest queue EMPTIES)**:
+door 5 shut structurally (the anomaly layer over the derived 16
+identically zero; nu^c the last cancellation; (4,3) unique); the
+first-step losses re-derived with TWO joins — their M-vs-M^2 wall
+prediction had ALREADY FIRED (B1095's parity breaking, confirmed
+blind) and the which-loss-is-which identification is SETTLED (order
+= hand, sign = tick, arrow = neither). L167-L170 all closed.
+
 **LATEST (2026-08-20, B1095 — the mirror-isospectral split)**: the
 audit seat's two B1085 checks answered same-day: EXACT isospectrality
 at reversal-closed windows (the hand spectrally invisible; eleven

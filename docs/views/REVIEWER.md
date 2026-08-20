@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **999** |
-| words of findings prose | **678,781** |
-| test lock files referenced | **611** |
-| arcs carrying an authored verdict | **986** (98.7 %) |
-| recorded closures | **758** (591 classified, 167 routed-only) |
+| research arcs with findings | **1001** |
+| words of findings prose | **679,593** |
+| test lock files referenced | **613** |
+| arcs carrying an authored verdict | **988** (98.7 %) |
+| recorded closures | **759** (592 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 658 |
-| NEGATIVE | 285 |
+| PROVED | 659 |
+| NEGATIVE | 286 |
 | OPEN | 33 |
 | RETRACTED | 10 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 38 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 39 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1095`** (800 words, 1 locks)  
-THE MIRROR-ISOSPECTRAL SPLIT (answers the audit seat's two B1085 checks): at reversal-closed windows (even Fibonacci index: N = 987, 2584) the left hand's word IS the reversed right hand's word letter-for-letter, so J H J similarity forces EXACT isospectrality (max diff 1.3e-15 over 2584 eigenvalues) -- the hand is spectrally INVISIBLE, not merely IDS-blind; all ELEVEN boundary-capable energies are SHARED (every edge energy of one hand is a bulk eigenvalue of the other at machine precision) and localized COMPLEMENTARILY (5 vs 6 -- the +-1 is the parity remainder of an odd shared family); at odd Fibonacci index the reversal fails at exactly the two cut-adjacent letters and isospectrality breaks (0.147) -- the tick-parity at the spectral level; ENERGIES ARE P-INVARIANT (FORCED), LOCALIZATION IS P-EQUIVARIANT (FREE) -- the origin torsor's P-bit physically realized as which shared states bind; gap labeling VERIFIED (every gap's IDS = frac(m alpha), every edge state in a labeled gap) and the counts conceded STANDARD pumping content in kind ((5,6) not golden-unique -- the modest B724 defusal; the 0.5-threshold detector volatile near transitions, per-gap detector the named upgrade); THE DIFFERENTIAL: bulk-boundary speaks per gap per hand -- the cross-hand mirror-isospectral complementary split and its Fibonacci-parity breaking are what it does not speak of, and THAT is B1085's honest headline; B1085 + B1091 phrasing corrected in place, L173's prereg gains the differential-first requirement.  
-`B1095_mirror_isospectral/FINDINGS.md`
+**PROVED — `B1097`** (484 words, 1 locks)  
+THE FIRST STEP'S LOSSES re-derived (the audit seat's B8091, own code): a->ab and a->ba have IDENTICAL incidence matrices (order-loss; bite control a->aab differs) and det M = -1 -> det M^2 = +1 (sign-loss, FORCED by orientability -- the price's denomination); phi_1 - I = M exact; JOIN ONE: their falsifiable prediction ('a new wall exactly where a construction must distinguish M from M^2') had ALREADY FIRED AND BEEN CONFIRMED BLIND by B1095's even/odd-window isospectrality breaking -- computed before their arc was read, a prediction-fired event banked as such; JOIN TWO: their unsettled identification SETTLED by composing B1083 + B1095: order-loss = the P/hand bit (P-invariant energies, P-equivariant localization), sign-loss = the orientability/Breath tick bit, and the arrow = NEITHER (structural monoid non-surjectivity, never a destroyed bit) -- their conjecture table corrected the same way our own Sec.0 was.  
+`B1097_first_step_losses/FINDINGS.md`
 
-**NEGATIVE — `B1076`** (428 words, 0 locks)  
-THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b (a3/a5), D2 = chi_a.chi_b}; the two never-computed Hermitian diagonals derived by two agreeing routes; B923's machinery re-executed at all four gauges (117 checks, 0 fail; independent numeric route to 1e-53): lambda = 1, 864/413, 6912/3047, 2304/953 with HIER-analogs of leading coefficient exactly denom^4 and three distinct real roots at every non-identity gauge; CCC = 3! lambda HOLDS COSET-WIDE; the NEW nontrivial exact character of the Klein group with kernel {I, chi_a} (= sign(lambda^2) normalized by its identity value; phrasing corrected 2026-08-19 per the cold audit — the results JSON always stated it correctly). THE LANE VERDICT: no coset-invariant value-bearing mass-ratio-shaped residue exists -- every value quantity is element-specific, every symmetrization structureless, and the seductive coset-wide 77 (the hierarchy discriminant's squarefree part at all three nontrivial gauges) was KILLED BY THE CELL'S OWN VACUITY CONTROL (K-forcedness: it holds for a control diagonal unrelated to the coboundary structure) -- the mass-ratio lane's reopening condition is DECIDED CLOSED by its own named computation at gauges never before visited; if a physical hierarchy uses this structure, NATURE SUPPLIES THE GAUGE, and which-datum-picks-the-gauge is the well-posed successor. Observation unweighted: 7 | 413 and 11 | 3047 -- each unmeasured-pair prime divides exactly one new gauge's denominator; no mechanism claimed.  
-`B1076_coboundary_sweep/FINDINGS.md`
+**NEGATIVE — `B1096`** (328 words, 1 locks)  
+DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically -- U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), SU(2)-Witten, AND (B-L)^3 and (B-L)-grav, where the imported 15 gives -1/-1: nu^c, the field the object derives, is EXACTLY what cancels the last non-vanishing invariant; the Z6 congruence 6Y = 4 triality + 3 duality (mod 6) is the UNIQUE solution (exhaustion over 36); a layer that vanishes identically cannot supply a ratio -- the ask is structurally unanswerable (B990's shape), the object's matter too anomaly-free to say anything: completeness of content and emptiness of layer are the same fact; joins B1092 (the same derived nu^c: anomaly-complete AND purity-conditioned).  
+`B1096_anomaly_layer/FINDINGS.md`
 
 **RETRACTED — `B964`** (743 words, 0 locks)  
 TWO CORRECTIONS, prompted by the owner's doubt ('are we sure? i think were getting smth wrong') -- THEY WERE RIGHT. ERROR 1, a SCOPE error banked this morning in B962: 'the 27-VEV route provably stops one step short of the SM'. What is TRUE is that 27 -> 10+5+5bar+5bar+1+1 under SU(5) contains NO 24, so 27 VEVs ALONE cannot break SU(5) -> SM, and that branching stands. What was WRONG is the SCOPE: the 78 (ADJOINT) of E6 DOES contain a 24 (78 -> 45+16+16bar+1 under SO(10), and 45 -> 24+10+10bar+1 under SU(5)), so SU(5) -> SM is broken by an ADJOINT VEV, which E6 obviously has. The standard chain uses BOTH -- 78 VEVs for the rank-PRESERVING breaks (E6 -> SO(10)xU(1); SU(5) -> SM) and 27 VEVs for the rank-REDUCING one -- so 'stops one step short' is true ONLY for 27-ONLY breaking, the E6SSM's restriction, which exists because string constructions often supply only 27s; it is NOT a statement about the VEV route in general, and the E6SSM quotation leaned on was scoped to that setting and read as universal. ERROR 2, SUBSTANTIVE and repeatedly banked in B952, B959, B960 and echoed in B962: 'the object does not supply a VEV'. THIS IS FALSE. The unbroken group after an adjoint VEV <Phi> is the STABILIZER of <Phi> under the adjoint action -- that is, the CENTRALIZER of <Phi> -- SO 'ADJOINT VEV' AND 'MEASUREMENT / CENTRALIZER' ARE THE SAME OPERATION. The object DOES supply VEVs: the ADJOINT ones, and that IS the measurement cascade; B892's z(x1) and z(x1,y*) are the unbroken groups of adjoint VEVs, computed as centralizers. THE CORRECTED PICTURE: the object SUPPLIES the rank-PRESERVING (adjoint) VEVs -- this IS the measurement cascade -- and LACKS the rank-REDUCING (27) VEVs, with both needed. B952's rank obstruction is UNCHANGED and now has a physical name: adjoint VEVs preserve rank, which is exactly WHY the cascade preserves rank; the obstruction was never that the object 'has no VEV' but that it has ONLY THE RANK-PRESERVING HALF. THE REFRAMING: THE MEASUREMENT CASCADE IS AN ADJOINT HIGGS MECHANISM -- the programme has been doing GUT symmetry breaking all along without naming it that way, and what it lacks is precisely and only the rank-reducing 27-VEV half. That is sharper, physical, and makes the missing piece exactly one named object rather than a vague absence. WHAT SURVIVES OF B962: the 27 branching with no 24; the VEV DIRECTION being an input everywhere (Q2); the F4 = generic-VEV-stabilizer unification, now STRONGER since the generic 27 VEV and the adjoint VEV are both genuinely VEVs; OP^2 homogeneity including on triples, hence no canonical choice over R or C; the arithmetic exception (Kato-Yukie, cubic etale algebras), so L138 STANDS; and the certified Elkies-Gross null. WHAT IS WITHDRAWN: 'the 27-VEV route stops one step short' as a GENERAL statement, and 'the object does not supply a VEV' EVERYWHERE it appears. WHY IT WAS MISSABLE: both errors come from the same habit, TREATING 'VEV' AS MEANING '27 VEV' -- once the word is used loosely, 'the object supplies no VEV' sounds true and 'the 27 route stops short' sounds like a general no-go; the fix is terminological discipline, SAY WHICH REPRESENTATION THE VEV LIVES IN, EVERY TIME. Nothing in B959/B960's no-go is disturbed: that result is about CENTRALIZER constructions and is now visible as a statement about ADJOINT VEVS specifically, which is exactly what it always was.  

@@ -10835,3 +10835,14 @@ other, the odd family unable to split evenly. The hand is invisible
 to energy and visible only to place. The counts belong to the
 textbooks; the split belongs to the object. Both banked texts now say
 so.
+
+2026-08-20 (L170; the harvest queue empties). The anomaly layer over
+the object's own matter vanishes identically -- the derived neutrino
+is the last cancellation, and a zero layer answers no ratio
+questions: door 5 shut by structure. And the audit seat's registered
+prediction -- that a wall should appear exactly where M must be told
+from M^2 -- turned out to have fired already: B1095's parity
+breaking is that wall, confirmed before the prediction was read.
+The identification their arc left unsettled is settled: order is
+the hand, sign is the tick, and the arrow was never a bit. Four
+harvest leads, four closures, every one stronger than its source.

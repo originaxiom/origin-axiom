@@ -2070,6 +2070,35 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1096": {
+   "slug": "anomaly layer",
+   "motifs": [
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B876",
+    "B990"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1097": {
+   "slug": "first step losses",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "observable",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B109": {
    "slug": "trace map dynamics",
    "motifs": [

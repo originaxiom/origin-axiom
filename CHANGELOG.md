@@ -1,5 +1,30 @@
 # Changelog
 
+## B1096 + B1097: the Sec.6 pair re-derived — the harvest queue EMPTIES (2026-08-20, L170)
+
+B1096 (their B8089): THE ANOMALY LAYER OVER THE DERIVED 16 IS
+IDENTICALLY ZERO -- every channel, including the global (B-L) pair
+where the imported 15 gives -1/-1: nu^c, the field the object
+derives, is exactly what cancels the last invariant; the Z6
+congruence unique at (4,3); door 5 shut STRUCTURALLY (a layer that
+vanishes identically cannot supply a ratio -- B990's shape; kill
+node routed, no hatch within the layer); the object's matter too
+anomaly-free to say anything -- completeness and emptiness the same
+fact; joins B1092 (the same nu^c, anomaly-complete AND
+purity-conditioned). Every number re-derived with own exact code,
+entry-for-entry agreement. B1097 (their B8091): the first-step
+losses re-derived (order-loss with the aab bite control; sign-loss
+det -1 -> +1 FORCED by orientability; phi_1 - I = M exact) PLUS TWO
+JOINS: their falsifiable prediction -- a new wall exactly where a
+construction must distinguish M from M^2 -- HAD ALREADY FIRED AND
+BEEN CONFIRMED BLIND by B1095's even/odd-window isospectrality
+breaking, computed before their arc was read (a prediction-fired
+event, banked as such); and their unsettled which-loss-is-which
+identification SETTLED by composition (B1083 + B1095): order-loss =
+the P/hand bit, sign-loss = the orientability/Breath tick, the
+arrow = NEITHER (structural). THE HARVEST QUEUE (L167-L170) IS
+EMPTY. Locks 6/6.
+
 ## B1095 THE MIRROR-ISOSPECTRAL SPLIT (2026-08-20) — the audit seat's two checks answered same-day; B1085's headline corrected to its honest form
 
 The audit seat asked two questions of B1085 (the one-state question;
