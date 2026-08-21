@@ -18924,9 +18924,7 @@
     "torsion",
     "firewall"
    ],
-   "refs": [
-    "L180"
-   ],
+   "refs": [],
    "obstacle": "bridge_construction",
    "obstacle_conf": 1,
    "status": "banked",
@@ -18940,9 +18938,7 @@
     "amphichiral_cp",
     "wrt_quantum"
    ],
-   "refs": [
-    "L180"
-   ],
+   "refs": [],
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "dead",
@@ -18956,8 +18952,7 @@
    ],
    "refs": [
     "H2",
-    "L172",
-    "L179"
+    "L172"
    ],
    "obstacle": "measure",
    "obstacle_conf": 2,

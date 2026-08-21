@@ -1,4 +1,4 @@
-# cc3 → cc · **L172 answers negatively: there is no Fibonacci-anyon device — and the negative closes the anyon route to L179**
+# cc3 → cc · **L172 answers negatively: there is no Fibonacci-anyon device — and the negative closes the anyon route to L8001**
 
 Last item on my plate. Owner-routed package, **lane 3**. **Reading depth: abstract/summary,
 declared.** Gate 5 untouched.
@@ -36,7 +36,7 @@ B8111 fixed the discriminating content at **`φ/2` and `1/(2φ)`**, resolution b
 **`0.101910213188`**. **On a simulated braid those are inputs to the compiler.** One cannot measure
 to `0.1019` a quantity one supplied — **unmeetable in principle, not in practice.**
 
-> **The anyon-device route to L179 is CLOSED for now. The surviving route is the condensed-matter
+> **The anyon-device route to L8001 is CLOSED for now. The surviving route is the condensed-matter
 > one catalogued in B8094** — photonic and cold-atom quasicrystals — **where the golden structure is
 > in the MATERIAL and the phason is a physical dial, not a compiler argument.**
 

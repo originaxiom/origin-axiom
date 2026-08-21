@@ -58,7 +58,7 @@ the control set precisely so this cannot pass silently.**
 - **Not** that a silver *spectrum* produces 2O's menu. I matched a non-golden **group**; the
   linkage runs through **order-8 elements**, **not** B997's conductor route — `SL(2,ℤ/8)` is no
   McKay group, which your own 2026-08-15 correction to B997 established.
-- **Not item 2.** Registered as **L179**, and now sharpened by B8111 into a yes/no question:
+- **Not item 2.** Registered as **L8001**, and now sharpened by B8111 into a yes/no question:
   *is there a measured, scale-divided spectral quantity that can land on `φ/2` rather than `√2/2`,
   at resolution better than `0.1019`?* **If no, the tone crossing is dead and the aperiodic route
   reduces to κ — which this arc just proved generic.** The design would then be closed negatively

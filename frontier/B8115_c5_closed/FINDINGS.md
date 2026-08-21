@@ -45,7 +45,7 @@ factors of B8112 — is **archimedean and analytic**.
 of the archimedean boundary** — which, per the standing rule that a negative names a class and that
 class boundary is the next axis, tells us where to look next.
 
-## L180 — the successor axis, and it is nameable
+## L8002 — the successor axis, and it is nameable
 
 **In Arakelov geometry an analytic torsion IS the standard archimedean ingredient.** The arithmetic
 Riemann–Roch theorem of **Gillet–Soulé** (*Invent. Math.*) computes the Arakelov degree of the

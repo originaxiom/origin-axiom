@@ -56,7 +56,7 @@ def test_the_boundary_is_simulation_versus_realization_not_precision():
 def test_it_closes_the_anyon_route_to_L179_and_names_the_survivor():
     b = R["composes_with_b8111"]
     assert "0.101910213188" in b
-    assert "ANYON-DEVICE ROUTE TO L179 IS CLOSED" in b
+    assert "ANYON-DEVICE ROUTE TO L8001 IS CLOSED" in b
     assert "B8094" in b  # the surviving route is named, not merely implied
 
 

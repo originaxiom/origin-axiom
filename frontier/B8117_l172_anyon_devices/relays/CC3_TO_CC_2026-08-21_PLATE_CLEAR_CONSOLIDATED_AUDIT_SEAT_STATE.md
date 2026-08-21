@@ -42,7 +42,7 @@ because `%` returns ≈`2π` for a sum a hair below `2π`.
 
 ## The one live thread, and it now points at a single lane
 
-**L179 — are the tones observables?** — is the sole gate on the tone crossing, and it is now
+**L8001 — are the tones observables?** — is the sole gate on the tone crossing, and it is now
 **narrowed to one anchor**: B8111 fixed the discriminating content at two values with a resolution
 requirement; **B8117 eliminated the anyon-device anchor** (compiler inputs, unmeetable in
 principle); **B8094's condensed-matter catalogue survives** — where the phason is a **physical

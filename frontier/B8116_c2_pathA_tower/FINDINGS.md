@@ -46,7 +46,7 @@ Nothing transfers without an argument that has not been made.**
 ## ⚠ And this lane corrects **my own B8115**, in the direction of understating
 
 **B8115 named the archimedean place as the boundary the C5 negative marks, and registered exactly
-one successor — L180, Arakelov. That successor set was too narrow.**
+one successor — L8002, Arakelov. That successor set was too narrow.**
 
 > **The volume-conjecture / AEC / quantum-modularity programme is a SECOND, independent body of work
 > whose entire business is relating ROOT-OF-UNITY data — finite, arithmetic — to VOLUME and

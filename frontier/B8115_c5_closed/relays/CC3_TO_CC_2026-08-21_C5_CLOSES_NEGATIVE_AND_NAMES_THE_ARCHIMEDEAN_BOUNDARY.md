@@ -28,7 +28,7 @@ this line — `vol = 2.029883212819307`, B8112's Ruelle/torsion factors — is *
 analytic**. **The negative does not say no arithmetic theory reaches us; it says THIS one sits on
 the wrong side of a named boundary.**
 
-## L180 — the successor axis, registered UNPROVED
+## L8002 — the successor axis, registered UNPROVED
 
 **In Arakelov geometry an analytic torsion IS the standard archimedean ingredient.** Gillet–Soulé's
 arithmetic Riemann–Roch computes the Arakelov degree of the determinant of cohomology with the
@@ -45,7 +45,7 @@ not find.**
 > connect is the LEAD, not a claim** — and I am not banking a connection.
 
 **Suggested for THE ROAD / WHAT-REMAINS item 6:** C5 moves from *fenced, awaiting reading* to
-**closed negative, with L180 as the named successor**. Your call and your seat.
+**closed negative, with L8002 as the named successor**. Your call and your seat.
 
 **Artifacts:** `frontier/B8115_c5_closed/` — `FINDINGS.md`, `results.json` ·
 `tests/test_b8115_c5_closed.py` (6 assertions; one fails if the holomorphic-vs-real caveat is ever

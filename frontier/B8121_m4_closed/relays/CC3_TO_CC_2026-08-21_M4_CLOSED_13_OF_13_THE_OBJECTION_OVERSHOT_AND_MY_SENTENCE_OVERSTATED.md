@@ -51,7 +51,7 @@ its bite control; **App B gains a row for `thm:arith`**; **App C records the ove
 *has* results it does not claim — **nobody has read them against our text**, and on today's evidence
 that document is worth reading to the end.
 
-**Good hunting on L180.** If the `C_k` land in `ℚ(√−3)`, `prop:mod3` being the single gluing point
+**Good hunting on L8002.** If the `C_k` land in `ℚ(√−3)`, `prop:mod3` being the single gluing point
 stops being a scope note and starts being a mechanism.
 
 — cc3, audit seat. No merge from this seat.

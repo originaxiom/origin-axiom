@@ -1980,7 +1980,15 @@ inputs with theorems attached, which is already a defensible position and needs 
 would most damage the programme if it appeared in public ahead of its proof.** Registered so it is
 not lost, ranked so it is not rushed.
 
-## L179 — ARE THE FIVE TONES OBSERVABLES? (item 2, the ONLY unmoved item of the 2026-08-12 list)
+## ⚠ LEAD-NUMBER COLLISION, 2026-08-21 — this seat moved to the L8000+ band
+
+**Both seats minted `L179` and `L180` on the same day, for different leads.** cc's are banked on main (`B1122` uses `L179` for the lift-bit meter; `B1120` uses `L180` for the Euler-product make-or-break). **This seat's two were only on its own branch, so this seat moved:** the tones lead is now **`L8001`**, the Arakelov successor **`L8002`**.
+
+**The underlying gap: the audit seat has a reserved ARC band (`B8000+`) and a reserved ERROR band (`E800+`), but no reserved LEAD band.** Taking **`L8000+`** by the same convention, and relaying the proposal rather than assuming it.
+
+---
+
+## L8001 — ARE THE FIVE TONES OBSERVABLES? (item 2, the ONLY unmoved item of the 2026-08-12 list)
 
 **Status: OPEN, untouched, and now the sole gate on the tone-level crossing.**
 
@@ -1996,28 +2004,28 @@ The 2026-08-12 document listed three not-searched items. **Item 1 is partially a
 
 The arithmetic-CS analogue of the volume term was fenced *awaiting a further owner-routed literature reading*. **The reading ran (B8114) and the fence is the wrong shape.** The real-places extension **exists and is named** — Lee–Park, *"Arithmetic Chern–Simons theory with real places"*, **`arXiv:1905.13610`** — so C5 is **not literature-empty**. Whether it carries a **volume/regulator** term (B1088's sharpened question, since our CS is `0` by amphichirality) needs the **full text**, so it is **not decidable-here** either. And by B8103's thesis that *a specialist gate has a date*, it is **a paper to read, not an expert to find** — **not needs-specialist**. **Typed NEEDS-READING; one fetch away.** The fetch has NOT been made.
 
-## C5 — CLOSED NEGATIVE 2026-08-21 (B8115); successor registered as L180
+## C5 — CLOSED NEGATIVE 2026-08-21 (B8115); successor registered as L8002
 
 The re-typing in B8114 said the fetch had not been made. **It was made the same day.** Arithmetic Chern–Simons theory is **finite-group-valued by construction** — action in `(1/n)ℤ/ℤ`, machinery étale-cohomological — so it **supplies exactly the term the object has proved to be zero and lacks entirely the volume**. **C5 is closed, negatively.**
 
-## L180 — ARAKELOV, NOT ARITHMETIC CS (successor to the C5 negative)
+## L8002 — ARAKELOV, NOT ARITHMETIC CS (successor to the C5 negative)
 
 **Status: OPEN, registered UNPROVED, and deliberately not banked as a connection.**
 
 The C5 negative names the **archimedean place** as the boundary. In **Arakelov** geometry an analytic torsion **is** a standard archimedean ingredient: Gillet–Soulé's arithmetic Riemann–Roch computes the Arakelov degree of the determinant of cohomology with the **Quillen metric**, built from **Ray–Singer analytic torsion** via regularised Laplacian determinants. **That is the slot C5 went looking for.**
 
-**The falsifier, and the reason this is ranked as a lead rather than a result.** Arakelov's torsion is **HOLOMORPHIC** — Hermitian holomorphic bundles on **compact** Hermitian manifolds. B8112's computed ratio is **REAL** Ray–Singer torsion on a **non-compact cusped** hyperbolic 3-manifold. **If those cannot be bridged, L180 is dead and the archimedean boundary stands as a wall rather than a door** — which is itself the finding. **Nothing here is claimed; B8087's lesson (an isomorphism check is not a representation check) is the standing warning.**
+**The falsifier, and the reason this is ranked as a lead rather than a result.** Arakelov's torsion is **HOLOMORPHIC** — Hermitian holomorphic bundles on **compact** Hermitian manifolds. B8112's computed ratio is **REAL** Ray–Singer torsion on a **non-compact cusped** hyperbolic 3-manifold. **If those cannot be bridged, L8002 is dead and the archimedean boundary stands as a wall rather than a door** — which is itself the finding. **Nothing here is claimed; B8087's lesson (an isomorphism check is not a representation check) is the standing warning.**
 
-## L180 — WIDENED 2026-08-21 (B8116): the archimedean boundary has TWO candidate doors
+## L8002 — WIDENED 2026-08-21 (B8116): the archimedean boundary has TWO candidate doors
 
-**L180 was registered with one successor (Arakelov). That was too narrow, and the correction is same-day and self-inflicted.** The **volume-conjecture / AEC / quantum-modularity** programme is a second, independent body of work relating **root-of-unity data** — finite, arithmetic — to **volume and Chern–Simons invariants**, which are archimedean and analytic. **Andersen–Hansen (JKTR 15 (2006) 479–548) PROVED one piece of that crossing for rational surgeries on the figure-8 knot:** stationary-phase values equal classical CS invariants.
+**L8002 was registered with one successor (Arakelov). That was too narrow, and the correction is same-day and self-inflicted.** The **volume-conjecture / AEC / quantum-modularity** programme is a second, independent body of work relating **root-of-unity data** — finite, arithmetic — to **volume and Chern–Simons invariants**, which are archimedean and analytic. **Andersen–Hansen (JKTR 15 (2006) 479–548) PROVED one piece of that crossing for rational surgeries on the figure-8 knot:** stationary-phase values equal classical CS invariants.
 
 **Fence, and it is why this is a lead and not a result:** those are **surgeries — closed manifolds** — while our object is the **cusped complement**. Adjacent, not identical.
 
 **The askable question, registered unanswered:** our CS is **zero** exactly (B1012), and AH's proved statement equates stationary-phase values with classical CS invariants — **what does that equality degenerate to when the CS invariant vanishes?** Needs the full text and an argument bridging surgeries to the complement. **Neither has been done.**
 
-## L179 — NARROWED 2026-08-21 (B8117): the anyon-device route is CLOSED
+## L8001 — NARROWED 2026-08-21 (B8117): the anyon-device route is CLOSED
 
-L179 asked whether there is a measured, scale-divided spectral quantity that can land on `φ/2` rather than `√2/2` at resolution better than `0.1019`. **One of its two candidate anchors is now eliminated.** **There is no Fibonacci-anyon device** — every demonstration is a digital simulation on a gate-based processor, and compilation runs **unitary → braid**, so **the golden content is a compiler input, not a measurement.** One cannot measure to `0.1019` a quantity one supplied: **unmeetable in principle, not in practice.**
+L8001 asked whether there is a measured, scale-divided spectral quantity that can land on `φ/2` rather than `√2/2` at resolution better than `0.1019`. **One of its two candidate anchors is now eliminated.** **There is no Fibonacci-anyon device** — every demonstration is a digital simulation on a gate-based processor, and compilation runs **unitary → braid**, so **the golden content is a compiler input, not a measurement.** One cannot measure to `0.1019` a quantity one supplied: **unmeetable in principle, not in practice.**
 
-**The surviving anchor is B8094's condensed-matter catalogue** — photonic and cold-atom quasicrystals, where the golden structure is **in the material** and the **phason is a physical dial**. L179 now points at exactly one lane, which is the same lane the edge prereg builds on.
+**The surviving anchor is B8094's condensed-matter catalogue** — photonic and cold-atom quasicrystals, where the golden structure is **in the material** and the **phason is a physical dial**. L8001 now points at exactly one lane, which is the same lane the edge prereg builds on.

@@ -49,7 +49,7 @@ INPUTS TO THE COMPILER.**
 > **One cannot measure to `0.1019` a quantity one supplied.** The resolution requirement is
 > unmeetable **in principle**, not in practice.
 
-**Therefore the anyon-device route to L179 (*are the tones observables?*) is CLOSED for now.** The
+**Therefore the anyon-device route to L8001 (*are the tones observables?*) is CLOSED for now.** The
 **surviving** route is the condensed-matter one catalogued in **B8094** — photonic and cold-atom
 quasicrystals — where the golden structure sits **in the material** and **the phason is a physical
 dial, not a compiler argument.**

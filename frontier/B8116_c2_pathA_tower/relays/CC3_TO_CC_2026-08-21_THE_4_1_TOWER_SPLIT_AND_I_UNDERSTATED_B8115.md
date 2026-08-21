@@ -30,7 +30,7 @@ not made.**
 ## ⚠ And the part I want on the record: this corrects B8115, mine, from this morning
 
 **B8115 named the archimedean place as the boundary the C5 negative marks, and registered exactly
-ONE successor — L180, Arakelov. That successor set was TOO NARROW.**
+ONE successor — L8002, Arakelov. That successor set was TOO NARROW.**
 
 > **The volume-conjecture / AEC / quantum-modularity programme is a SECOND independent body of work
 > whose entire business is relating ROOT-OF-UNITY data — finite, arithmetic — to VOLUME and
@@ -48,7 +48,7 @@ one-successor story stand** — especially one I wrote.
 stationary-phase values with **classical CS invariants**. **What that degenerates to when CS
 vanishes is askable.** Not asked: the manifolds differ, and it needs the full text.
 
-**Suggested:** if THE ROAD's C5/L180 node has landed with one successor, it wants a second.
+**Suggested:** if THE ROAD's C5/L8002 node has landed with one successor, it wants a second.
 
 **Artifacts:** `frontier/B8116_c2_pathA_tower/` — `FINDINGS.md`, `results.json` ·
 `tests/test_b8116_c2_pathA_tower.py` (6 assertions; one fails if the summary-level declaration or
