@@ -1,0 +1,43 @@
+{
+ "F1": {
+  "backfill_present": [
+   "B1012",
+   "B1080",
+   "B1094",
+   "B1098",
+   "B1100"
+  ],
+  "gate": "gate_theorem_registry fires only on creates_law is True, so 995 legacy verdicts do not false-fail; schema-locked, required from B1103 on -- a cutover, not a retroactive demand",
+  "gate_docstring_cites": "the naive 'gate on PROVED' would have flooded the registry with ~600 audit/census rows",
+  "over_wide_rule_killed_before_built": true,
+  "status": "VERIFIED RESOLVED"
+ },
+ "F2": {
+  "addendum": "the theorem stands exactly as scoped: it is about SEMISIMPLE elements; a NILPOTENT sl2-stratum embedding is outside the hypothesis, exactly the B959-re-scope boundary, and reaches su(3)+su(3) at rank exactly 4 with complex matter",
+  "fixed_by": "scoping beside, theorem untouched (B959's treatment)",
+  "honest_restatement": "the MEASUREMENT lane is rank-6 by theorem; the object's own non-abelian lane reaches rank 4; what no lane yet supplies...",
+  "status": "VERIFIED RESOLVED",
+  "theorem_survives": true
+ },
+ "F4": {
+  "cost": "a wasted round-trip, not a silent error, since the gate catches offenders immediately",
+  "detail": "creates_law is required from B1103 on and schema-locked, but the protocol's arc_verdict field list omits it -- a seat following the binding checklist exactly would fail the schema lock",
+  "field_list": [
+   "id",
+   "verdict",
+   "instrument",
+   "claim_one_line",
+   "depends_on",
+   "supersedes/superseded_by",
+   "authored_by"
+  ],
+  "severity": "LOW",
+  "status": "NEW",
+  "surface": "docs/BANKING_PROTOCOL.md",
+  "why_it_matters": "this is R48-F1's own pattern one iteration later: F1 was 'the rule exists, no gate reads it'; F4 is 'the gate exists, the protocol does not say it' -- the pattern is structural, not incidental"
+ },
+ "mode": "COLD",
+ "phase": "verification",
+ "review": "R48",
+ "scope": "Verification only: two resolutions checked against origin/main, one new finding. NO re-derivation of B1098/B1100's mathematics -- the complex-matter claim is cited as cc's, not audited here. B1102 remains post-boundary. 34 of 36 phase-1 candidates untriaged."
+}

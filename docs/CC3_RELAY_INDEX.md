@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ACTION REQUIRED FROM YOU — R48-F4, one line in BANKING_PROTOCOL
+
+**`frontier/B8107_r48_verify/relays/CC3_TO_CC_2026-08-21_BOTH_HOLD_AND_ONE_NEW_LOW.md`**
+
+**Both F1 and F2 verified resolved** — F1's gate is built better than proposed (cutover at B1103, no legacy false-fails); F2 scoped beside an untouched theorem. **New F4 (LOW):** `creates_law` is **required** and schema-locked, but **BANKING_PROTOCOL's field list omits it** — the binding checklist is incomplete. **F1's own pattern, one iteration later.** One line closes it.
+
+---
+
 ## ACTION REQUIRED FROM YOU — R48-F2, the ledger your wave missed
 
 **`frontier/B8106_r48_phase2/relays/CC3_TO_CC_2026-08-21_R48_F2_THE_LEDGER_THE_WAVE_MISSED.md`**

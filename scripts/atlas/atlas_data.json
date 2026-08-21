@@ -18789,6 +18789,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8107": {
+   "slug": "r48 verify",
+   "motifs": [],
+   "refs": [
+    "B959"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [

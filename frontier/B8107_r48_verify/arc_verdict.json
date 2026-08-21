@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "R48 VERIFICATION: BOTH FIXES HOLD, AND THE F1 FIX CREATED ONE NEW INSTANCE OF F1'S OWN PATTERN. cc marked R48-F1 and R48-F2 RESOLVED; a cold review does not accept that on the label. F1 VERIFIED RESOLVED: the backfill is real (B1012, B1080, B1094, B1098, B1100 all present in THEOREM_REGISTRY.md), and the gate is correctly scoped -- gate_theorem_registry fires only on creates_law is True, so the 995 legacy verdicts do not false-fail, with the field schema-locked and required from B1103 on, a cutover rather than a retroactive demand. The over-wide rule was killed before it was built, the gate's own docstring recording that the naive 'gate on PROVED' would have flooded the registry with about 600 audit/census rows. F2 VERIFIED RESOLVED and fixed the way it should have been: the theorem sentence survives untouched, with an addendum BESIDE it stating that the theorem stands exactly as scoped, being about SEMISIMPLE elements, while a NILPOTENT sl2-stratum embedding lies outside the hypothesis at exactly the B959-re-scope boundary and reaches su(3)+su(3) at rank exactly 4 with complex matter -- scoped, not deleted, B959's treatment applied consistently. NEW FINDING R48-F4, severity LOW: creates_law is now required from B1103 on and schema-locked, but docs/BANKING_PROTOCOL.md does not mention it -- its arc_verdict field list still reads id, verdict, instrument, claim_one_line, depends_on, supersedes/superseded_by, authored_by, so a seat following the binding checklist exactly would omit a required field and fail the schema lock. This is R48-F1's own pattern one iteration later: F1 was 'the rule exists, no gate reads it', F4 is 'the gate exists, the protocol does not say it', which shows the pattern is structural rather than incidental. Cost is a wasted round-trip rather than a silent error, since the gate catches offenders immediately -- but BANKING_PROTOCOL calls itself standing and binding for every seat, and an incomplete binding checklist is exactly what F1 was about. SCOPE: verification only; NO re-derivation of B1098/B1100's mathematics, whose complex-matter claim is cited as cc's and not audited here; B1102 remains post-boundary; 34 of 36 phase-1 candidates untriaged. Gate 5 untouched.",
+ "depends_on": [
+  "B8105",
+  "B8106"
+ ],
+ "id": "B8107",
+ "instrument": true,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
