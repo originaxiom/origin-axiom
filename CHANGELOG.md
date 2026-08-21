@@ -1,5 +1,27 @@
 # Changelog
 
+## R48-F2 answered + E46's fourth instance, self-caught (2026-08-21)
+
+The audit seat's phase-2 finding accepted as filed: the requirements
+ledger — the register of gaps — still concluded "no rank-reduction
+mechanism supplied" while the same window's B1098 reached rank 4
+through the object's own non-abelian holonomy (the ledger's second
+staleness offense, both pessimistic). The correction lands BESIDE the
+untouched theorem (semisimple-scoped, exactly the B959 boundary):
+the mechanism list gains the object's own fourth route, and
+requirement #11's residue is restated honestly — the PRODUCT
+STRUCTURE, no longer the RANK (B1102's located obstruction).
+UNIFIED_STATE's historical banner gains the live-state pointer. Both
+corrections pinned by the stale-absence lock (4 new anchors). AND the
+honest process row: while suite58 certified the prior commit, this
+seat edited the two docs in the working tree — E46's FOURTH instance,
+self-caught in minutes, the suite KILLED pre-push (zero pushes), the
+Sec.CE fold-forward applied: both commits under one fresh suite. The
+audit seat's standing question ("does Sec.CE have a hole a fourth
+instance would find?") is answered: the law held and prescribed the
+remedy; the hole was behavioral — respond-to-findings drafting now
+scratchpad-only during certification (PRACTICES).
+
 ## The theorem registry made gate-true (2026-08-21) — R48-F1's response: 28 rows backfilled, the creates_law declaration schema-locked, the naive gate killed before it was built
 
 The audit seat's R48 phase-1 verified finding (the registry's same-PR

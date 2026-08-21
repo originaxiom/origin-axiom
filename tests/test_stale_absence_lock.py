@@ -136,3 +136,20 @@ def test_docwave_anchors_landed():
 def test_docwave_overclaims_stay_dead():
     for rel, phrase in DOCWAVE_ABSENT:
         assert phrase not in _read(rel), f"overclaim returned: {rel} contains {phrase!r}"
+
+
+# R48-F2 (2026-08-21): the requirements ledger's stale consequence corrected
+# beside its untouched theorem; the historical snapshot pointed at the live
+# state. The gap-register understating the programme is the pessimistic
+# staleness direction — these anchors keep the corrections landed.
+R48F2_ANCHORS = [
+    ("docs/GUT_REQUIREMENTS_LEDGER.md", "CORRECTED 2026-08-21 (R48-F2"),
+    ("docs/GUT_REQUIREMENTS_LEDGER.md", "the theorem above is UNTOUCHED"),
+    ("docs/GUT_REQUIREMENTS_LEDGER.md", "requirement #11's"),
+    ("docs/UNIFIED_STATE.md", "Currency pointer, 2026-08-21 — R48-F2"),
+]
+
+
+def test_r48f2_corrections_landed():
+    for rel, anchor in R48F2_ANCHORS:
+        assert anchor in _read(rel), f"R48-F2 correction lost: {rel} lacks {anchor!r}"

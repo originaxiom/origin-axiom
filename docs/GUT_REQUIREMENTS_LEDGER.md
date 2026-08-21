@@ -81,10 +81,27 @@ and rank reduction is exactly what a *measurement* cannot do. It requires a genu
 breaking mechanism — a Higgs VEV, a Wilson line / Hosotani flux, or an orbifold projection
 — i.e. requirement **#11**, which the object does not currently supply.
 
+> **CORRECTED 2026-08-21 (R48-F2, the audit seat's catch — this ledger's second
+> staleness offense, both in the pessimistic direction; the theorem above is UNTOUCHED).**
+> The theorem stands exactly as scoped: it is about **semisimple** elements
+> (measurements/torus charges), and no number of measurements will ever reduce rank.
+> The stale sentence was the CONSEQUENCE: the mechanism list was closed over three
+> imported routes, and the object now supplies a **fourth, its own**: composing its
+> hyperbolic holonomy with a **nilpotent** sl₂-stratum embedding — outside the
+> theorem's semisimple hypothesis, exactly the B959-re-scope boundary — reaches
+> **su(3)⊕su(3) at rank exactly 4** (B1098, THE HATCH), with **complex matter
+> witnessed** at the landing (B1100) and the banked hypercharge multiset carried
+> **exactly** there (B1102 — 18 rational directions, none color-commuting: the
+> landing is hypercharge-VALUED, not yet SM-PRODUCT-structured, so requirement #11's
+> residue is now the PRODUCT STRUCTURE, no longer the RANK). Priced honestly: the
+> stratum choice is 1-of-20, ≈4.3 bits, no selection mechanism claimed.
+
 This is the sharpest structural statement the programme can make about its own distance
 from the SM, and it is a **theorem, not an estimate**. It also explains, after the fact,
 why the crossings failed the way they did: they were comparing a rank-6 structure against
-rank-4 physics.
+rank-4 physics. *(Post-B1098, the honest restatement: the MEASUREMENT lane is rank-6
+by theorem; the object's own non-abelian lane reaches rank 4; what no lane yet supplies
+is the color-commuting product with the exact values — B1102's located obstruction.)*
 
 ---
 

@@ -1,6 +1,6 @@
 # Origin Axiom — Unified State of Knowledge
 
-> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map).
+> 📌 **Historical snapshot — kept per GOVERNANCE §9; not the current state.** The living state: `CLAIMS.md` (the ledger) · `docs/OPEN_LEADS.md` + `docs/OPEN_PROBLEMS.md` (the frontier) · `CHANGELOG.md` (recent history) · `docs/INDEX.md` (the document map). *(Currency pointer, 2026-08-21 — R48-F2: nothing below knows the post-B1082 state; in particular THE HATCH — rank 4 reached via the object's own non-abelian holonomy, complex matter witnessed, the banked hypercharge carried exactly with the product-structure obstruction located (B1098/B1100/B1102) — lives in `docs/THE_FRAMEWORK.md`, not here.)*
 
 > ⚠️ **OUTDATED & MIXED-SOURCE (2026-06-15).** This briefing combines **two separate branches** and is now stale:
 > - **Branch A (this repo)** — the trace-map / character-variety work, then banked through ~B155; the frontier is now

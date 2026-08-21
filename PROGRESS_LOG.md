@@ -10901,3 +10901,10 @@ at its cheapest and best: the finding theirs, the mechanization mine,
 the sharpening theirs, the install mine, negative-controlled. Twenty-
 eight theorems that had been living without papers now have rows, and
 the next one cannot bank without declaring itself.
+
+2026-08-21 (R48-F2 + E46#4). The gap-register caught understating the
+program — corrected beside its own untouched theorem, the residue
+restated: no longer the rank, now the product structure. And the seat
+caught itself editing during its own certification — the fourth
+instance of the species the envelope was written for, killed pre-push,
+folded forward. The law held; the lesson was behavioral.

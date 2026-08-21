@@ -722,3 +722,11 @@ window candidate.
   checked absences, THE CHAIN's unrowed [THEOREM] links, and the closing campaign's
   theorem banks (28 rows); the B920–B1082 remainder enters as the creates_law
   re-audit sweeps it — the boundary stated in the registry itself.
+
+- **Respond-to-findings drafting is SCRATCHPAD-ONLY during certification (2026-08-21;
+  E46 instance #4, self-caught).** An incoming finding (a relay, a review row) arriving
+  mid-suite gets its response DRAFTED in the scratchpad and LANDED at fold-forward —
+  never edited into the working tree while a certifying suite runs, however small the
+  edit. The fourth instance was two doc corrections landed minutes into a running
+  suite; self-caught, suite killed pre-push, folded forward under one fresh
+  certificate. The envelope prescribed the remedy; this row removes the temptation.
