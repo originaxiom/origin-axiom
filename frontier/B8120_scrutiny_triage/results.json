@@ -10,7 +10,7 @@
  "our_paper": "papers/structure_paper/arxiv/main.tex -- 'From minimal description to E_6', 50pp, dated 2026-08-21",
  "same_lineage": true,
  "scope": "Triages 13 findings (2 fatal, 11 major) against papers/structure_paper/arxiv/main.tex by reading our text, not by trusting the scrutiny's page references, which are to a different document. Does NOT triage the MINOR findings, the five CONSTRUCTIVE items (E1-E5), or Round 2's R1-R4 -- those remain untriaged and are named as such. Gate 5 untouched.",
- "source": "P1 adversarial scrutiny, branch claude/scrutinize-v4h3tb, papers/scrutiny_golden_grammar/SCRUTINY.md",
+ "source": "P1 adversarial scrutiny, the scrutiny branch (v4h3tb), papers/scrutiny_golden_grammar/SCRUTINY.md",
  "target_audited": "papers/scrutiny_golden_grammar/v6_source/main.tex -- 'THE GOLDEN GRAMMAR', 35pp, dated 2026-08-15",
  "triage": [
   {
