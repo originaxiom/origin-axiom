@@ -146,6 +146,23 @@ sealed miss, kept as boundary.**
   open 𝔽₂-kernel sweep (B1119).
 - **VII.5 The t-meter (B1113)** — [BANKED]: free data of one object = forced class-function
   data of the coupled pair (measurement-by-coupling; the mechanism the value question needs).
+- **VII.6 The adelic object (B1117, verified 32 digits)** — [BANKED]: m004 is adelic
+  (Reid); its FINITE shadow is structure (E₆ = reduction mod the ramified prime √−3) and
+  its ARCHIMEDEAN shadow is physics — and the two are one number: Vol(m004) = 9√3·ζ_K(2)/π²,
+  the archimedean shadow a special value of the finite shadow's zeta. The observer is the
+  completion at the infinite place; the gluing cocycle is quantum modularity (proven for 4₁).
+- **VII.7 The make-or-break, POSITIVE at two orders (B1120/L180)** — [BANKED]: the Kashaev
+  tower's sub-leading coefficients are trace-field arithmetic — C₁ = (11/108)√3π·C₀ AND
+  C₂ = (697/7776)π²·C₀ to ~30 digits (four windows, N→2.9M, precision-doubled), the
+  even/odd → rational/(rational×√3) parity pattern predicted from reality BEFORE PSLQ. So
+  C₀ = 3^{−1/4} = |disc|^{−1/4} is the k=0 instance of a genuine pattern — the value door is
+  unlocked and opens onto arithmetic that reproduces. C₃ precision-gated (open, not negative).
+- **VII.8 The freedom ledger closes, and its bits do not fuse (B1118/B1122)** — [BANKED]:
+  the last hypercharge bit is P (B1118 — the mirror neg∘blockswap fuses B1102's two orbits;
+  the plain swap does not); and the spin-lift bit is PAIR-INVISIBLE (B1122/L179 — its whole
+  content is the central sign operator, unreadable by any coupled-pair trace, a stronger
+  no-go than B1087). {C, P, spin lift} is real but not one mechanism: {C,P}+dial are
+  coupling-readable, the spin lift is irreducibly the observer's.
 
 ## VIII. THE LABORATORY (the killable edge)
 

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1020** |
-| words of findings prose | **691,928** |
-| test lock files referenced | **626** |
-| arcs carrying an authored verdict | **1007** (98.7 %) |
+| research arcs with findings | **1026** |
+| words of findings prose | **694,962** |
+| test lock files referenced | **632** |
+| arcs carrying an authored verdict | **1013** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 676 |
+| PROVED | 681 |
 | NEGATIVE | 287 |
-| OPEN | 34 |
+| OPEN | 35 |
 | RETRACTED | 10 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1116`** (832 words, 1 locks)  
-THE ASYMPTOTIC VALUE CHANNEL (ASYMPTOTIC_CHANNEL.md harvest; scope audit + numeric, cloud seat credited): SCOPE AUDIT (cc's own, the B959 lesson on the no-goes) -- all four banked value/scale no-goes quantify over SINGLE-LEVEL invariants (scale-torsor = G-equivariant maps at fixed G; type law = coupling-channel single-level outputs, its own scope defers other channels; frame-relativity = basis-dependent single-pair values; k-blindness = the object's own action) -- a growth RATE of a tower (basepoint-free, frame-free, level-indexed) is outside EVERY one; the archimedean/growth-rate channel is NOT EXCLUDED, and the reason IS the adelic split (the no-goes are finite-place theorems, the rate is archimedean; B1108's 'right level-by-level wrong in the limit' restated). NUMERIC (independent mpmath dps=100, N-windows to [12800,102400], BETTER than the memo): the Kashaev tower J_N(4_1) growth exponent -> Vol at 2.2e-13, power -> 3/2 at 2.7e-13, constant -> 3^{-1/4} = |disc Q(sqrt-3)|^{-1/4} at 2.5e-12 (a genuine 12-digit limit, the being field's discriminant as the leading constant -- not coincidence). Placement: two instruments one expansion (this tower + B1107's Ruelle tower); B518's factorisation exhibited (archimedean exponent x arithmetic coefficient tower). FENCE first-class: not-excluded != delivers-SM-values; proven is Vol (geometric); SM-value reachability needs L180 (Euler-product) + the identification problem; the seven misses stand re-typed as single-completion questions. Gate 5 untouched.  
-`B1116_asymptotic_channel/FINDINGS.md`
+**PROVED — `B1122`** (538 words, 1 locks)  
+L179 THE LIFT-BIT METER (a thesis cell, clean NEGATIVE): does the t-meter mechanism (free-of-one = forced-of-pair, B1113) extend to the spin lift bit (B1112)? PAIR-INVISIBLE -- NO. The lift's entire content is the sign operator S = phi(-I) = diag((-1)^weight), which is CENTRAL (phi of the SL(2) center), so it commutes with everything and produces NO twist -- unlike the dial (a conjugation centralizing the seam A but NOT the interior B, the asymmetry a seam trace reads); the group commutator (the t-meter's own meter) is identically blind to the central S. Two roads to invisible: (1) the object's principal 27 is EVEN so S=I, the two lifts IDENTICAL; (2) the relative lift is topologically forced trivial (seam forces chi_L=chi_R; opposite-lift breaks the gluing S.A != A). In the ODD reps the bit is already a single-copy observable (meridian trace flips), not free-of-one. Controls green (B1113's tr(A.B)=141750+1011915q reproduced to the digit; 3003 brackets; both lifts valid+distinct). MEANING: B1112's 'observer's first payment' REINFORCED -- a STRONGER no-go than B1087 (unmeasurable on the pair too, not just one closed copy); consistent with B1114's all-even gravity 27. The hoped fusion (projective+Lorentz+Jordan via one pair-meter) does NOT happen: the freedom ledger's 3 bits are not one mechanism -- {C,P}+dial coupling-readable, the spin lift irreducibly the observer's. Gate 5 untouched.  
+`B1122_liftbit_meter/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

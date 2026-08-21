@@ -1,0 +1,145 @@
+{
+  "id": "L179",
+  "field": "Q(q)/(q^2-q+1); pairs (x,y)=x+y*q",
+  "single_copy": {
+    "2dim_odd": {
+      "tr_meridian_lift_plus": "2",
+      "tr_meridian_lift_minus": "-2",
+      "meridian_trace_SEES_lift": true,
+      "tr_longitude_lift_plus": "-2",
+      "tr_longitude_lift_minus": "-2",
+      "longitude_trace_sees_lift": false,
+      "single_copy_blind": false
+    },
+    "principal27_even": {
+      "tr_meridian_lift_plus": "27",
+      "tr_meridian_lift_minus": "27",
+      "meridian_trace_SEES_lift": false,
+      "tr_longitude_lift_plus": "27",
+      "tr_longitude_lift_minus": "27",
+      "longitude_trace_sees_lift": false,
+      "single_copy_blind": true
+    },
+    "singleroot27_odd": {
+      "tr_meridian_lift_plus": "27",
+      "tr_meridian_lift_minus": "3",
+      "meridian_trace_SEES_lift": true,
+      "tr_longitude_lift_plus": "3",
+      "tr_longitude_lift_minus": "3",
+      "longitude_trace_sees_lift": false,
+      "single_copy_blind": false
+    }
+  },
+  "pair": {
+    "2dim_odd": {
+      "opposite_lift_is_valid_gluing_(a_L=a_R)": false,
+      "reference_same_lift": {
+        "tr_A_BR": "2+q",
+        "tr_BL_BR": "2",
+        "tr_group_comm": "2"
+      },
+      "opposite_lift_naive": {
+        "tr_A_BR": "-2-q",
+        "tr_BL_BR": "-2",
+        "tr_group_comm": "2"
+      },
+      "symmetric_flip_both": {
+        "tr_A_BR": "2+q",
+        "tr_BL_BR": "2",
+        "tr_group_comm": "2"
+      },
+      "separates_tr_A_BR": true,
+      "separates_tr_BL_BR": true,
+      "separates_group_commutator": false,
+      "symmetric_twist_invisible": true,
+      "any_seam_trace_separates_a_VALID_config": false
+    },
+    "principal27_even": {
+      "opposite_lift_is_valid_gluing_(a_L=a_R)": true,
+      "reference_same_lift": {
+        "tr_A_BR": "141750+1011915q",
+        "tr_BL_BR": "27",
+        "tr_group_comm": "27"
+      },
+      "opposite_lift_naive": {
+        "tr_A_BR": "141750+1011915q",
+        "tr_BL_BR": "27",
+        "tr_group_comm": "27"
+      },
+      "symmetric_flip_both": {
+        "tr_A_BR": "141750+1011915q",
+        "tr_BL_BR": "27",
+        "tr_group_comm": "27"
+      },
+      "separates_tr_A_BR": false,
+      "separates_tr_BL_BR": false,
+      "separates_group_commutator": false,
+      "symmetric_twist_invisible": true,
+      "any_seam_trace_separates_a_VALID_config": false
+    },
+    "singleroot27_odd": {
+      "opposite_lift_is_valid_gluing_(a_L=a_R)": false,
+      "reference_same_lift": {
+        "tr_A_BR": "27+6q",
+        "tr_BL_BR": "27",
+        "tr_group_comm": "27"
+      },
+      "opposite_lift_naive": {
+        "tr_A_BR": "3-6q",
+        "tr_BL_BR": "3",
+        "tr_group_comm": "27"
+      },
+      "symmetric_flip_both": {
+        "tr_A_BR": "27+6q",
+        "tr_BL_BR": "27",
+        "tr_group_comm": "27"
+      },
+      "separates_tr_A_BR": true,
+      "separates_tr_BL_BR": true,
+      "separates_group_commutator": false,
+      "symmetric_twist_invisible": true,
+      "any_seam_trace_separates_a_VALID_config": false
+    }
+  },
+  "controls": {
+    "A_reproduce_b1113_dialblind_number": {
+      "tr_A27_B27": "141750+1011915q",
+      "equals_141750+1011915q": true,
+      "dial_blind_tr_A_BR_t1_equals_t0": true,
+      "t0_sharp_tr_BL_BR_equals_27": true,
+      "dial_centralizes_seam_A": true,
+      "dial_centralizes_interior_B_(must_be_False)": false
+    },
+    "B_rho27_is_a_representation_all_3003_brackets": true,
+    "C_both_lifts_valid_and_distinct": {
+      "2dim_odd": {
+        "lift_plus_valid_rep_relator=I": true,
+        "lift_minus(flip_both)_valid_rep_relator=I": true,
+        "lifts_differ_S_neq_I": true,
+        "S_central_commutes_A_and_B": true,
+        "S_squared=I": true
+      },
+      "principal27_even": {
+        "lift_plus_valid_rep_relator=I": true,
+        "lift_minus(flip_both)_valid_rep_relator=I": true,
+        "lifts_differ_S_neq_I": false,
+        "S_central_commutes_A_and_B": true,
+        "S_squared=I": true
+      },
+      "singleroot27_odd": {
+        "lift_plus_valid_rep_relator=I": true,
+        "lift_minus(flip_both)_valid_rep_relator=I": true,
+        "lifts_differ_S_neq_I": true,
+        "S_central_commutes_A_and_B": true,
+        "S_squared=I": true
+      }
+    }
+  },
+  "verdict": "PAIR-INVISIBLE",
+  "reason": "Object's rep (principal 27) is EVEN: S=phi(-I)=I, so the two lifts are the identical operator -- no seam trace can differ (single-copy AND pair blind). In ODD reps S!=I, but (i) the lift is already a SINGLE-COPY observable there (tr(meridian) flips), so it is not 'free-of-one'; and (ii) the opposite-lift pair config is NOT a valid gluing (S.A != A breaks the seam identification a_L=a_R), unlike the dial (a seam-centralizing conjugation). The group commutator -- the t-meter's separating meter -- is identically blind to the central sign S in every rep. The only valid nontrivial double spin structure (symmetric flip, H^1(DM;Z/2)=Z/2) is invisible (the two S's cancel).",
+  "object_rep_seam_separates": false,
+  "odd_rep_valid_seam_separation": false,
+  "all_controls_pass": true,
+  "runtime_seconds": 8.57,
+  "ccb_path": "<home>/origin-axiom/frontier/B1102_exact_hypercharge_solve/e6_bracket_vendored.py"
+}

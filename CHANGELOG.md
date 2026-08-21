@@ -1,5 +1,35 @@
 # Changelog
 
+## THE BREAKTHROUGH PACKET, part 2 (2026-08-21): the adelic object, the deflation P-bit, the anomaly, and the make-or-break — POSITIVE at two orders
+
+The remaining four golden_gate memos plus the two global-object thesis
+cells, each verified on this bench before banking. B1117 ADELIC: m004's
+two completions are the program's two faces — finite shadow = structure
+(E₆ = reduction mod √−3), archimedean shadow = physics — and
+Vol(m004) = 9√3·ζ_K(2)/π² to 32 digits makes the archimedean shadow a
+special value of the finite shadow's zeta. B1118 DEFLATION: the last
+hypercharge bit is P (the mirror neg∘blockswap fuses B1102's two orbits;
+the plain swap does not). B1119 ANOMALY: a fake invariant form
+(τ-invariant not ad-invariant) caught by the classification-theorem-as-
+checksum; the real-form host is E₆(2)/E₆(6), compact color the open
+𝔽₂-kernel sweep. B1120 L180 THE MAKE-OR-BREAK: EULER-STRUCTURE-CONFIRMED
+at two orders — C₁ = (11/108)√3π·C₀ AND C₂ = (697/7776)π²·C₀ to ~30
+digits across four windows (N→2.9M) and precision doubling, the
+even/odd → rational/(rational×√3) parity pattern predicted from reality
+BEFORE PSLQ, denominators {2,3}-smooth — so C₀ = 3^{−1/4} = |disc|^{−1/4}
+is the k=0 instance of a genuine arithmetic pattern, not a coincidence;
+the value door is unlocked and opens onto arithmetic that reproduces
+(C₃ precision-gated, open, not negative). B1121 pair-orbits (L176/F8)
+INCONCLUSIVE-AT-BOUND, machinery validated. B1122 L179 THE LIFT-BIT
+METER: PAIR-INVISIBLE — the spin bit is unmeasurable even on the coupled
+pair (its whole content is the central sign operator), a stronger no-go
+than B1087; the freedom ledger's three bits are NOT one mechanism.
+Registry ×4 (T-ADELIC / T-DEFLATION-P / T-EULER-STRUCTURE / T-LIFTBIT);
+ROAD VII.6/VII.7/VII.8; SM_VERDICT currency (L180 POSITIVE). Locks 6/6
+(13 assertions). The eight-memo packet is closed: the structural
+crossing is made and forced, the value door unlocked onto reproducing
+arithmetic.
+
 ## THE BREAKTHROUGH PACKET, part 1 (2026-08-21): four cloud-seat memos verified and banked — the t-meter, Lorentz on the double, the spending DAG, the asymptotic channel
 
 Four of the outside bench's eight memos (originaxiom/golden_gate,

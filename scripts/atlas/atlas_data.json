@@ -2469,6 +2469,55 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1117": {
+   "slug": "adelic object",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B737",
+    "B993"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1118": {
+   "slug": "deflation",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "L180"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1119": {
+   "slug": "anomaly resolved",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B111": {
    "slug": "sign structure",
    "motifs": [
@@ -2491,6 +2540,50 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 8,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1120": {
+   "slug": "L180 makeorbreak",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L180"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1121": {
+   "slug": "pair orbits",
+   "motifs": [
+    "trace_map"
+   ],
+   "refs": [
+    "L176",
+    "P3"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1122": {
+   "slug": "liftbit meter",
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L179"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B112": {

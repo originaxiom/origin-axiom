@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "quick_mode": false,
+    "started": "2026-08-21 12:04:31",
+    "finished": "2026-08-21 12:13:13",
+    "total_runtime_s": 522.2900779247284
+  },
+  "controls": {
+    "C0_norm_multiplicativity": "500/500",
+    "C0_alternative_law": "500/500, 500/500",
+    "C0_conjugate_antiautomorphism": "500/500",
+    "C1_leibniz_derivation": "60/60",
+    "C2_jordan_identity": "60/60",
+    "C3_N_vs_newton": "60/60",
+    "C3_N_vs_closed_form": "60/60",
+    "C3_freudenthal_identity": "60/60",
+    "external_check_0_m7_8": {
+      "idempotent": true,
+      "trace": "1",
+      "rank1_Esharp0": true
+    },
+    "C7_division_form_isotropic_count": 0,
+    "C6_total_generators": 5760,
+    "C6_nonintegral_count": 0,
+    "C6b_sampled_determinants": [
+      1
+    ],
+    "C4_automorphy": "60/60",
+    "C5_invariant_preservation": "200/200"
+  },
+  "single_idempotent_positive_control": {
+    "depth1_size": 3841,
+    "final_visited": 8257345,
+    "diag_triple_count": 29,
+    "diag_triples_sample": [
+      [
+        -7,
+        0,
+        8
+      ],
+      [
+        -7,
+        8,
+        0
+      ],
+      [
+        -5,
+        0,
+        6
+      ],
+      [
+        -5,
+        6,
+        0
+      ],
+      [
+        -4,
+        0,
+        5
+      ],
+      [
+        -4,
+        5,
+        0
+      ],
+      [
+        -3,
+        0,
+        4
+      ],
+      [
+        -3,
+        4,
+        0
+      ],
+      [
+        -2,
+        0,
+        3
+      ],
+      [
+        -2,
+        3,
+        0
+      ],
+      [
+        -1,
+        0,
+        2
+      ],
+      [
+        -1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        -1,
+        0
+      ],
+      [
+        2,
+        0,
+        -1
+      ],
+      [
+        3,
+        -2,
+        0
+      ],
+      [
+        3,
+        0,
+        -2
+      ],
+      [
+        4,
+        -3,
+        0
+      ],
+      [
+        4,
+        0,
+        -3
+      ],
+      [
+        5,
+        -4,
+        0
+      ],
+      [
+        5,
+        0,
+        -4
+      ],
+      [
+        6,
+        -5,
+        0
+      ],
+      [
+        6,
+        0,
+        -5
+      ],
+      [
+        7,
+        -6,
+        0
+      ],
+      [
+        7,
+        0,
+        -6
+      ],
+      [
+        9,
+        -8,
+        0
+      ],
+      [
+        9,
+        0,
+        -8
+      ]
+    ],
+    "trace_invariant_check": "2000/2000",
+    "quick_mode": false
+  },
+  "pair_invariant_candidates": {
+    "canonical": {
+      "trace_E": 1,
+      "trace_F": 1,
+      "trace_G": 1,
+      "G_is_rank1_idempotent": true,
+      "E_dot_F_is_zero": true,
+      "N_EplusF": 0,
+      "content_E": 1,
+      "content_F": 1,
+      "content_G": 1,
+      "d1_gcd1x1minors": 1,
+      "d2_gcd2x2minors": 1,
+      "d3_gcd3x3minors": 1
+    },
+    "hand_built": {
+      "trace_E": 1,
+      "trace_F": 1,
+      "trace_G": 1,
+      "G_is_rank1_idempotent": true,
+      "E_dot_F_is_zero": true,
+      "N_EplusF": 0,
+      "content_E": 1,
+      "content_F": 1,
+      "content_G": 1,
+      "d1_gcd1x1minors": 1,
+      "d2_gcd2x2minors": 1,
+      "d3_gcd3x3minors": 1
+    },
+    "big_exotic": {
+      "trace_E": 1,
+      "trace_F": 1,
+      "trace_G": 1,
+      "G_is_rank1_idempotent": true,
+      "E_dot_F_is_zero": true,
+      "N_EplusF": 0,
+      "content_E": 1,
+      "content_F": 1,
+      "content_G": 1,
+      "d1_gcd1x1minors": 1,
+      "d2_gcd2x2minors": 1,
+      "d3_gcd3x3minors": 1
+    },
+    "hand_built_construction_checks": {
+      "idempotent": true,
+      "trace1": true,
+      "rank1_Esharp0": true,
+      "orthogonal": true
+    },
+    "big_exotic_construction_checks": {
+      "idempotent": true,
+      "rank1": true,
+      "orthogonal": true
+    },
+    "summary": "N(E+F) and the N(E+tF) cross-coefficients are identically zero for ANY rank-1 pair (forced by E#=F#=0, independent of orthogonality); the frame [E|F|G]'s elementary divisors (d1,d2,d3) came out (1,1,1) -- unimodular -- for every example tried, canonical through large hand-built. No candidate invariant was found that separates. See f8_NOTES.md Sec 5."
+  },
+  "pair_bfs": {
+    "generator_pool_size": 900,
+    "depth_bound": 3,
+    "cap": 4000000,
+    "time_budget_s": 240.0,
+    "seed_gen_indices": {
+      "B_via": 383,
+      "C_via": [
+        4112,
+        3853
+      ]
+    },
+    "per_seed": {
+      "A_canonical": {
+        "depth_sizes": [
+          901,
+          698490,
+          4006937
+        ],
+        "capped": true,
+        "timed_out": false,
+        "final_visited": 4006937
+      },
+      "B_auto1": {
+        "depth_sizes": [
+          849,
+          737437,
+          4017028
+        ],
+        "capped": true,
+        "timed_out": false,
+        "final_visited": 4017028
+      },
+      "C_auto2": {
+        "depth_sizes": [
+          835,
+          719636,
+          4015925
+        ],
+        "capped": true,
+        "timed_out": false,
+        "final_visited": 4015925
+      },
+      "D_hand_built": {
+        "depth_sizes": [
+          884,
+          784377,
+          4014071
+        ],
+        "capped": true,
+        "timed_out": false,
+        "final_visited": 4014071
+      }
+    },
+    "cross_reachability": {
+      "A_canonical_seed_in_B_auto1_visited": true,
+      "A_canonical_seed_in_C_auto2_visited": false,
+      "A_canonical_seed_in_D_hand_built_visited": false,
+      "B_auto1_seed_in_A_canonical_visited": true,
+      "B_auto1_seed_in_C_auto2_visited": false,
+      "B_auto1_seed_in_D_hand_built_visited": false,
+      "C_auto2_seed_in_A_canonical_visited": false,
+      "C_auto2_seed_in_B_auto1_visited": false,
+      "C_auto2_seed_in_D_hand_built_visited": false,
+      "D_hand_built_seed_in_A_canonical_visited": false,
+      "D_hand_built_seed_in_B_auto1_visited": false,
+      "D_hand_built_seed_in_C_auto2_visited": false,
+      "intersection_A_canonical_B_auto1": 2637,
+      "intersection_A_canonical_C_auto2": 1138,
+      "intersection_A_canonical_D_hand_built": 0,
+      "intersection_B_auto1_C_auto2": 0,
+      "intersection_B_auto1_D_hand_built": 0,
+      "intersection_C_auto2_D_hand_built": 0
+    }
+  },
+  "verdict": "INCONCLUSIVE-AT-BOUND -- no separating invariant found (Sec. 5); BFS did NOT connect the hand-built seed D to {A,B,C} within the stated depth/pool/cap/time bound (all runs capped before exhausting the group). The automorphism-derived seeds B,C DID connect back to A (sanity check on the machinery: True), as expected by construction -- this is NOT evidence for or against transitivity, only confirmation the BFS correctly re-finds known relationships.",
+  "verdict_detail": {
+    "sanity_check_auto_derived_seeds_reconnect": true,
+    "hand_built_seed_reaches_or_intersects": false,
+    "any_bfs_capped_or_timed_out": true
+  }
+}
