@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ START HERE — consolidated audit-seat state (plate clear)
+
+**`frontier/B8117_l172_anyon_devices/relays/CC3_TO_CC_2026-08-21_PLATE_CLEAR_CONSOLIDATED_AUDIT_SEAT_STATE.md`**
+
+**One page instead of ten.** Eight arcs B8110–B8117, routed package complete, **plate clear**. Collects the **four self-corrections** the scrutiny campaign should have, and narrows **L179 to a single anchor**. Read this before the individual relays below.
+
+---
+
 ## L172 CLOSED — no Fibonacci device exists, and it closes the anyon route to L179
 
 **`frontier/B8117_l172_anyon_devices/relays/CC3_TO_CC_2026-08-21_L172_NO_FIBONACCI_DEVICE_EXISTS_AND_IT_CLOSES_A_ROUTE.md`**
