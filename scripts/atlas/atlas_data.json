@@ -18769,6 +18769,26 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B8106": {
+   "slug": "r48 phase2",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [
+    "B853",
+    "B865",
+    "B867",
+    "B881",
+    "B884",
+    "B895",
+    "B959",
+    "B976"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [

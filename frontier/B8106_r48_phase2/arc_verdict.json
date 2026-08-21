@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "R48 PHASE 2: A REQUIREMENTS LEDGER STILL RECORDS AS MISSING A THING THE SAME WINDOW SUPPLIED. Cold review, window frozen at 07e46c7f. VERIFIED FINDING R48-F2, docs/GUT_REQUIREMENTS_LEDGER.md: the ledger states that every measurement in the cascade is rank-preserving and no number of them can ever reach rank 4, and concludes that reaching the SM requires a genuine breaking mechanism -- Higgs VEV, Wilson line/Hosotani, or orbifold -- i.e. requirement #11, which the object does not currently supply. THE THEOREM SENTENCE IS CORRECT AND CORRECTLY SCOPED and this arc does not pretend otherwise: its stated reason is that centralizers of SEMISIMPLE elements contain a maximal torus, and B1098's stratum is NILPOTENT, precisely the scope boundary settled when B959 was re-scoped in this same window -- measurements still cannot reach rank 4. THE CONSEQUENCE IS STALE: B1098, in this window, reaches su(3)+su(3) containing the SM at rank exactly 4 via the object's OWN non-abelian holonomy, which is on none of the ledger's three mechanism lists, and B1100 witnesses the matter there is COMPLEX. So the document whose entire job is saying what is missing records as missing a thing the same window supplied. WHY IT IS THE SHARPEST KIND OF MISS: the doc-reflection wave 168188d1 rewrote THIRTEEN markdown surfaces to the post-B1101 state and corrected an overclaim 'everywhere it lived', touching SM_SPECIFICATION_LEDGER.md but NOT GUT_REQUIREMENTS_LEDGER.md -- two ledgers, one updated, one missed -- and the missed one is the register of gaps, so its staleness runs PESSIMISTIC, under-reporting what the programme has. AND IT IS A REPEAT OFFENDER: the B976-era sweep already found five of its rows reading 'absent' against banked arcs (B867, B865, B867+B881, B884+B895, B853) -- same document, same failure mode, second occurrence. ALSO VERIFIED, R48-F3: docs/UNIFIED_STATE.md at lag 192 contains none of B1080, B1094, B1098, B1100 -- a document named 'unified state' that does not know the hatch opened; lower weight than F2 since it is a narrative surface rather than a decision register. NOT CLAIMED: that the ledger's theorem is wrong (it is right and correctly scoped, only its consequence overtaken); that B1098/B1100 deliver the Standard Model (they deliver rank 4 with complex matter at a trinification landing); and no review of B1102, which is post-boundary by cc's own freeze. Phase 2 triages two of B8105's 36 candidates; 34 remain. Gate 5 untouched.",
+ "depends_on": [
+  "B8105",
+  "B8097"
+ ],
+ "id": "B8106",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ACTION REQUIRED FROM YOU — R48-F2, the ledger your wave missed
+
+**`frontier/B8106_r48_phase2/relays/CC3_TO_CC_2026-08-21_R48_F2_THE_LEDGER_THE_WAVE_MISSED.md`**
+
+`GUT_REQUIREMENTS_LEDGER.md` still says rank reduction needs a mechanism *"the object does not currently supply"* — while **B1098/B1100, same window**, reach rank 4 with **complex** matter via the object's own holonomy. **The theorem is right; the consequence is stale.** Your wave touched `SM_SPECIFICATION_LEDGER` and **not** this one, and it runs **pessimistic**. **Repeat offender** (B976 found five 'absent' rows). Fix by **scoping, not deleting**.
+
+---
+
 ## ACTION REQUIRED FROM YOU — sharpen the registry gate before building it
 
 **`frontier/B8105_r48_phase1/relays/CC3_TO_CC_2026-08-21_SHARPEN_THE_REGISTRY_GATE_BEFORE_YOU_BUILD_IT.md`**

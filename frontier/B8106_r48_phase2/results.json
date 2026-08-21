@@ -1,0 +1,38 @@
+{
+ "candidates_remaining": 34,
+ "candidates_triaged": 2,
+ "mode": "COLD",
+ "not_claimed": [
+  "that the ledger's theorem is wrong -- it is right and correctly scoped; only the consequence is overtaken",
+  "that B1098/B1100 deliver the Standard Model -- they deliver rank 4 with complex matter at a trinification landing",
+  "any review of B1102, which is post-boundary by cc's freeze and outside R48"
+ ],
+ "phase": 2,
+ "review": "R48",
+ "scope": "Phase 2 verifies two of B8105's 36 candidates individually and confirms both. 34 remain untriaged. Gate 5 untouched.",
+ "verified_findings": [
+  {
+   "consequence": "reaching the SM requires a genuine breaking mechanism -- Higgs VEV, Wilson line/Hosotani, or orbifold -- i.e. requirement #11, which the object does not currently supply",
+   "direction": "PESSIMISTIC -- the register of gaps under-reports what the programme has",
+   "id": "R48-F2",
+   "repeat_offender": "the B976-era sweep already found five of its rows reading 'absent' against banked arcs (B867, B865, B867+B881, B884+B895, B853); same document, same failure, second occurrence",
+   "severity": "load-bearing",
+   "sharpness": "the doc-reflection wave 168188d1 rewrote 13 surfaces and corrected an overclaim 'everywhere it lived', touching SM_SPECIFICATION_LEDGER.md but NOT GUT_REQUIREMENTS_LEDGER.md -- two ledgers, one updated, one missed",
+   "surface": "docs/GUT_REQUIREMENTS_LEDGER.md",
+   "the_consequence_is_stale": true,
+   "the_theorem_is_correct": true,
+   "theorem": "every measurement in the cascade is rank-preserving, and no number of them can ever reach rank 4 -- CORRECT and correctly scoped, since its reason is that centralizers of SEMISIMPLE elements contain a maximal torus, and B1098's stratum is NILPOTENT",
+   "why_stale": "B1098 reaches su(3)+su(3) containing SM at rank exactly 4 via the object's OWN non-abelian holonomy, on none of those three lists; B1100 witnesses the matter there is COMPLEX"
+  },
+  {
+   "detail": "lag 192; contains none of B1080, B1094, B1098, B1100 -- a document named 'unified state' that does not know the hatch opened",
+   "id": "R48-F3",
+   "severity": "medium",
+   "surface": "docs/UNIFIED_STATE.md",
+   "weight_note": "lower than F2: a narrative surface, not a decision register"
+  }
+ ],
+ "wave_touched": 13,
+ "wave_touched_gut_ledger": false,
+ "window_head": "07e46c7f"
+}
