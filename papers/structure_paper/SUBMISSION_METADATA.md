@@ -102,9 +102,10 @@ expert reader the paper needs before submission, and solving it once solves both
 - [x] ## **`arxiv/` package builds**: `main.tex` only. **Bibliography is INLINE
       (`thebibliography`), so there is no `.bib` and no `.bbl` step** — which is the
       arXiv-preferred shape and removes a whole class of upload failure
-- [x] ## **clean-room compile RE-VERIFIED 2026-08-19** — tarball extracted into an
+- [x] ## **clean-room compile RE-VERIFIED 2026-08-21** — tarball extracted into an
       empty directory with no repository present, compiled twice:
-      **exit 0 all passes, zero errors, 49 pages**
+      **exit 0 all passes, zero errors, zero overfull boxes, zero undefined
+      references, 50 pages**
 - [x] `verify_all.py` green from the extracted tarball (**19/19**; an empty suite fails
       by construction)
 - [x] the arXiv abstract field prepared: the paper's own abstract is **2867 characters**
