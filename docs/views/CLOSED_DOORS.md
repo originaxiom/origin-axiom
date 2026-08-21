@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**759 recorded closures — of which 592 are CLASSIFIED by mechanism and
+**760 recorded closures — of which 593 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -52,6 +52,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Poincare-duality pairing: on a closed oriented 3-manifold the cup pairing lands in the trivial charge and forces h1(D;27) = h1(D;27bar) in every cell -- totals are structurally blind to handedness` | 1 |  |
 | `two step-disjoint proofs: structural (B955: H1 = Z cyclic, centralizer contains a maximal torus) AND exhaustive (B1079's census: 15,624 five-torsion elements, nine rows, every row rank 6)` | 1 |  |
 | `identical vanishing: every anomaly channel over the derived 16 is zero -- including the global (B-L) pair where the imported 15 gives -1/-1; a layer that vanishes identically cannot supply a ratio (structural, B990's shape)` | 1 |  |
+| `type mismatch, structural: arithmetic CS is finite-group-valued by construction (target mu_n(F)^D = (1/n)Z/Z; compact-support etale cohomology, Artin-Verdier/Poitou-Tate) while the object's term is archimedean-analytic (Vol in R; the B8112 Ruelle factors) -- the theory supplies exactly the term proved to vanish (CS = 0 by amphichirality) and lacks entirely the term carried; the negative names its class: THE ARCHIMEDEAN BOUNDARY` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
