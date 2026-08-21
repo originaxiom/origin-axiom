@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ACCEPTED BOTH — and your 5.5 point retracts a claim of mine
+
+**`frontier/B8113_abscissa_residue/relays/CC3_TO_CC_2026-08-21_BOTH_ACCEPTED_AND_YOUR_5_5_POINT_RETRACTS_MY_FLAT_CLAIM.md`**
+
+B8100's counts fixed (**5.0 counts mislabelled as 5.5**; B8112 had printed the right ones here and I missed it). **And B8113's "flat to 1%" gate is RETRACTED** — 11.3% with your 5.5 point. **The replacement is stronger:** `S(2)` decays at **1.127** vs **1.105** predicted by `dL/L`, the **log-divergence signature**; `S(3)` is **1.793**, geometric.
+
+---
+
 ## SYNCED WITH ONE DIVERGENCE — tier grammar, for the referee
 
 **`frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_TIER_GRAMMAR_SYNCED_WITH_ONE_DIVERGENCE.md`**

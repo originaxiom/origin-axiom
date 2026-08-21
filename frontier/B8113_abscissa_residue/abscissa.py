@@ -25,7 +25,7 @@ def gate(l, ok, d=""):
     if not ok: FAILED.append(l)
 
 M = snappy.Manifold("m004")
-CUTS = [2.0, 3.0, 4.0, 4.5, 5.0]
+CUTS = [3.0, 4.0, 4.5, 5.0, 5.5]
 
 rows = []
 print("=" * 78)
@@ -59,12 +59,25 @@ gate("POSITIVE CONTROL: S(3) increments decay monotonically (convergence is visi
 gate("S(3)'s last two increments at least halve", d3[-2] / d3[-1] > 1.4,
      f"ratio {d3[-2]/d3[-1]:.2f}")
 
-# THE MEASUREMENT: at s = 2 the increments do NOT decay the same way.
+# THE MEASUREMENT.  AMENDED 2026-08-21 after cc supplied the 5.5 point: my first pass ran only to
+# 5.0 and reported the last two S(2) increments as "FLAT to 0.45%".  THAT WAS A TWO-POINT ARTIFACT
+# AND DOES NOT EXTEND -- at 5.0->5.5 the increment DROPS about 11%.  The sharper reading is better
+# than the one it replaces: under LOGARITHMIC divergence the increments over a fixed window dL
+# behave like dL/L, so they should DECAY SLOWLY, in the ratio L_new/L_old -- not stay flat.
 flat = abs(d2[-1] - d2[-2]) / max(d2[-1], d2[-2])
+r2 = d2[-2] / d2[-1]                       # observed successive-increment ratio at s = 2
+r3 = d3[-2] / d3[-1]                       # ... and at s = 3
+Lmid_old, Lmid_new = (CUTS[-3] + CUTS[-2]) / 2, (CUTS[-2] + CUTS[-1]) / 2
+r_log = Lmid_new / Lmid_old                # what 1/L (i.e. log divergence) predicts
 print()
-gate("S(2)'s last two increments are FLAT to within 1% (no sign of convergence)",
-     flat < 0.01, f"{d2[-2]:.6f} then {d2[-1]:.6f}, relative change {flat:.4f}")
-gate("and S(2)'s increments are >100x S(3)'s at the same cutoff",
+print(f"  S(2) successive-increment ratio : {r2:.4f}")
+print(f"  predicted by 1/L (log divergence): {r_log:.4f}")
+print(f"  S(3) successive-increment ratio : {r3:.4f}   (geometric decay looks like this)")
+gate("S(2)'s increments do NOT stay flat once 5.5 is included (my first pass overstated this)",
+     flat > 0.05, f"relative change {flat:.4f} -- the earlier 'flat to 0.45%' was a two-point artifact")
+gate("S(2)'s decay is consistent with 1/L (LOG divergence), not geometric",
+     abs(r2 - r_log) < 0.15 and r2 < r3 / 1.3, f"observed {r2:.3f} vs 1/L {r_log:.3f} vs S(3) {r3:.3f}")
+gate("and S(2)'s increments remain >100x S(3)'s at the same cutoff",
      d2[-1] / d3[-1] > 100, f"{d2[-1]/d3[-1]:.0f}x")
 
 print()
@@ -74,7 +87,9 @@ print("=" * 78)
 print("""
   SAYS: Pfaff's theorem states absolute convergence only for Re(s) > 2, so the n = 2 factor of
   the graviton product is NOT covered by it, and the numerics are consistent with that -- S(3)
-  converges visibly while S(2) shows no decay at all over the same cutoff steps.
+  decays GEOMETRICALLY while S(2) decays like 1/L, which is exactly the signature of LOGARITHMIC
+  divergence.  (First pass called S(2)'s increments FLAT on two points; the 5.5 point retracts
+  that, and the corrected reading is the stronger one.)
 
   DOES NOT SAY: that prod_gamma (1 - q^2) diverges.  The phases e^{2 i theta} can and evidently
   do produce cancellation -- that is exactly the OSCILLATION B8100 reported and B8112 localized.
@@ -89,7 +104,14 @@ print("""
 RES = {"cutoffs": CUTS, "rows": rows,
        "S2_last_two_increments": [d2[-2], d2[-1]],
        "S3_last_two_increments": [d3[-2], d3[-1]],
-       "S2_increments_flat_within": flat,
+       "S2_increments_relative_change": flat,
+       "S2_increment_ratio": r2, "S3_increment_ratio": r3, "log_divergence_predicted_ratio": r_log,
+       "flat_claim_retracted": ("The first pass ran only to cutoff 5.0 and reported the last two "
+                                "S(2) increments FLAT to 0.45%. cc supplied the 5.5 point: the "
+                                "increment DROPS ~11%. The flat claim was a TWO-POINT ARTIFACT and "
+                                "is RETRACTED. The replacement is stronger: decay like 1/L is what "
+                                "LOGARITHMIC divergence predicts, and flat increments would have "
+                                "been evidence of something worse than log divergence."),
        "S3_increments_decay_monotonically": all(d3[i] > d3[i+1] for i in range(len(d3)-1)),
        "abscissa_of_absolute_convergence": 2,
        "graviton_product_starts_at_n": 2,
@@ -117,7 +139,13 @@ RES = {"cutoffs": CUTS, "rows": rows,
                    "summation-order dependent -- B8100's cutoff-ordered partial products are ONE "
                    "order. Establishing that the limit exists and is order-independent is an "
                    "OPEN STEP. The load-bearing fact is the THEOREM's abscissa; these increments "
-                   "are consistent with it and are not offered as a substitute for it."),
+                   "are consistent with it and are not offered as a substitute for it. AMENDED "
+                   "2026-08-21: the first pass stopped at cutoff 5.0 and called S(2)'s last two "
+                   "increments FLAT to 0.45%; cc supplied the 5.5 point, where the increment drops "
+                   "~11%. THE FLAT CLAIM IS RETRACTED as a two-point artifact. The replacement is "
+                   "STRONGER, not weaker: increments decaying like dL/L are the signature of "
+                   "LOGARITHMIC divergence, whereas S(3)'s decay is geometric -- so the corrected "
+                   "numerics support the abscissa reading better than the flat ones did."),
        "scope": ("The complex length spectrum of m004, cutoffs 2.0-5.0. Measures increments of "
                  "two Dirichlet-type sums; does NOT prove divergence, and says nothing about "
                  "whether the conditionally-convergent limit exists. Gate 5 untouched.")}

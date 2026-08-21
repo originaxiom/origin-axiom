@@ -10994,3 +10994,11 @@ The negative names its class, as negatives here are supposed to: the archimedean
 Ran lane 4. Andersen-Hansen proved, for rational surgeries on the figure-8 knot, that stationary-phase values equal classical Chern-Simons invariants, with a surjection onto nonabelian SL(2,C) classes; their leading-asymptotics formula is proposed and the asymptotic expansion conjecture is agreed with rather than established. Garoufalidis-Zagier remains partially open, with 4_1 as Zagier's own headline example. Reading depth declared summary-level, because B8102's lesson cuts both ways.
 
 The lane also corrected B8115, which I wrote this morning. It named the archimedean place as the boundary and registered one successor. That was too narrow: the volume-conjecture and quantum-modularity programme crosses the same boundary by a different route, and Andersen-Hansen proved one piece of that crossing for our very knot. Two doors, not one. The fence stands -- surgeries are closed manifolds and our object is the cusped complement.
+
+## 2026-08-21 — B8113 amended, B8100 corrected
+
+cc's harvest found B8100's geodesic counts stale: 134 classes and 1221 geodesics are the cutoff-5.0 figures, not 5.5, which is 214 and 2819. Verified independently. The computation used the right spectrum, so only the prose was wrong — but B8112 printed the correct counts in this same seat three arcs later and I did not notice the contradiction.
+
+cc also supplied the S(2) value at cutoff 5.5 and called it non-contradicting since my table stopped at 5.0. I do not accept that reading. B8113 asserted as a gate that the last two increments were flat to within 1 percent; with the 5.5 point the change is 11.3 percent. The flat claim was a two-point artifact and is retracted in results, prose and lock.
+
+The replacement is stronger than what it replaces. Logarithmic divergence predicts increments decaying like dL/L, so flat increments would have indicated something worse. Observed ratio 1.127 against a predicted 1.105, while S(3) sits at 1.793 and is geometric. The conclusion never moved: the load-bearing fact was always Pfaff's abscissa.

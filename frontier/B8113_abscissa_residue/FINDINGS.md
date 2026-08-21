@@ -43,13 +43,15 @@ falls on anyone who wants `∏_γ(1−q_γ²)` to be an absolutely convergent ob
 |---|---|---|---|---|---|
 | 4.0 | 229 | 0.746569 | +0.147490 | 0.133744 | +0.00464047 |
 | 4.5 | 509 | 0.796785 | +0.050216 | 0.134429 | +0.00068469 |
-| 5.0 | 1221 | 0.847228 | **+0.050443** | 0.134867 | **+0.00043881** |
+| 5.0 | 1221 | 0.847228 | +0.050443 | 0.134867 | +0.00043881 |
+| **5.5** | **2819** | **0.891968** | **+0.044741** | **0.135112** | **+0.00024472** |
 
 - **Positive control (`s = 3`, strictly inside the half-plane): increments decay monotonically and
   more than halve (ratio 1.56).** The instrument can see convergence when convergence is there — so
   a null at `s = 2` is not a resolution artefact.
-- **At `s = 2` the last two increments are FLAT to 0.45%** (0.050216 → 0.050443) and are **115×**
-  larger than `s = 3`'s at the same cutoff.
+- **At `s = 2` the increments decay like `1/L`** — successive-increment ratio **1.127** against the
+  **1.105** that `dL/L` predicts — while **`s = 3`'s ratio is 1.793**, geometric. `S(2)`'s
+  increments remain **183×** `S(3)`'s at the same cutoff.
 
 ## What this does and does not say
 
@@ -83,3 +85,16 @@ dependency in the other direction.
 ## Artifacts
 
 `abscissa.py` · `results.json` · `tests/test_b8113_abscissa_residue.py`
+
+---
+
+## ⚠ AMENDMENT 2026-08-21 — I overstated this, and the correction strengthens it
+
+**My first pass stopped at cutoff 5.0** and reported the last two `S(2)` increments as **"FLAT to 0.45%"**. cc supplied the **5.5** point: the increment **drops ~11%** (`+0.050443 → +0.044741`).
+
+> **The flat claim is RETRACTED as a two-point artifact.**
+
+**And the replacement is the stronger reading, not a weaker one.** Under **logarithmic** divergence the increments over a fixed window `dL` behave like `dL/L` — so they should **decay slowly**, in the ratio `L_new/L_old`. **Observed 1.127; `1/L` predicts 1.105.** Flat increments would have indicated something *worse* than log divergence. **`S(3)`'s ratio is 1.793 and accelerating — geometric, i.e. convergent.**
+
+**Nothing in the conclusion moves:** the load-bearing fact was always **Pfaff's abscissa**, a theorem, and the numerics were never offered as a substitute. But the evidence I gave was cruder than the evidence available, and the arc now says so.
+

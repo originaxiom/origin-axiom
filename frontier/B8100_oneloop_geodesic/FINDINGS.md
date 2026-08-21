@@ -14,7 +14,9 @@ The **Giombi–Maloney–Yin graviton product** over the object's **own** comple
 
 **Controls:** the systole reproduces the known `1.087070144995739`; geodesics come in
 complex-conjugate pairs as a real manifold requires; the cutoff was pushed to `ℓ ≤ 5.5`
-(134 classes, 1221 geodesics with multiplicity).
+(**214 classes, 2819 geodesics** with multiplicity).
+
+> **CORRECTION 2026-08-21 (found by cc's B1107 harvest, verified here by three fresh fetches):** this line originally read *"134 classes, 1221 geodesics"* — **those are the cutoff-5.0 counts**, not 5.5. **The computation used the correct 5.5 spectrum** — B1107's from-scratch reproduction agrees at `3.6×10⁻¹⁵`, which could not happen otherwise — **only the prose count was stale.** Documentation defect, non-blocking. **It should have been caught here:** B8112 printed `classes below 5.5: 214 · geodesics with multiplicity: 2819` in this same seat, and the contradiction with this line went unread.
 
 ## The error is honest, and the reason matters
 

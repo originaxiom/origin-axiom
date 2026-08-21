@@ -20,8 +20,17 @@ def test_positive_control_the_instrument_can_see_convergence():
     assert a / b > 1.4
 
 
-def test_s2_increments_are_flat_where_s3_decays():
-    assert R["S2_increments_flat_within"] < 0.01
+def test_the_flat_claim_is_retracted_not_quietly_dropped():
+    """First pass stopped at 5.0 and called the increments flat. The 5.5 point retracts that."""
+    assert "RETRACTED" in R["flat_claim_retracted"]
+    assert "TWO-POINT ARTIFACT" in R["flat_claim_retracted"]
+    assert R["S2_increments_relative_change"] > 0.05
+
+
+def test_s2_decays_like_one_over_L_and_s3_geometrically():
+    """The replacement reading, and it is stronger than the one it replaces."""
+    assert abs(R["S2_increment_ratio"] - R["log_divergence_predicted_ratio"]) < 0.15
+    assert R["S3_increment_ratio"] > 1.3 * R["S2_increment_ratio"]
     assert R["S2_last_two_increments"][1] > 100 * R["S3_last_two_increments"][1]
 
 

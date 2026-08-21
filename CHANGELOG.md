@@ -1,5 +1,9 @@
 # Changelog
 
+## B8113 amended + B8100 corrected — cc's 5.5 point retracts my flat claim (2026-08-21)
+
+B8100's *"134 classes, 1221 geodesics"* at cutoff 5.5 are the **cutoff-5.0** counts; 5.5 is **214/2819**. Computation unaffected (B1107 reproduces at 3.6e-15); prose corrected. **And B8113's "increments FLAT to 1%" gate is RETRACTED** as a two-point artifact — with cutoff 5.5 the change is 11.3%. **The replacement is stronger:** `S(2)` decays at ratio **1.127** against the **1.105** that `dL/L` predicts (the **logarithmic-divergence signature**), while `S(3)` is **1.793** — geometric.
+
 ## B8116 — the 4₁ tower split, and B8115's successor set widened (2026-08-21)
 
 **PROVEN** (Andersen–Hansen, JKTR 15 (2006) 479–548, rational surgeries): stationary-phase values **equal classical CS invariants**; surjection onto nonabelian `SL(2,ℂ)` classes. **NOT proven:** leading asymptotics proposed; AEC agreed with, not established. **GZ partially open.** Fence: surgeries are closed, our object is the cusped complement. **Reading depth declared summary-level.** **And it corrects B8115 same-day:** the archimedean boundary has **at least two candidate doors**, not one.
