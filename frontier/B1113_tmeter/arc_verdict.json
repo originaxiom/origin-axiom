@@ -1,0 +1,7 @@
+{
+  "id": "B1113",
+  "verdict": "PROVED",
+  "claim_one_line": "THE t-METER (JORDAN_MEMO §B harvest, two-bench + banking-seat re-run, 12/12 exact incl. four 20-25-digit integers, certificate-free verifier): on the twisted double with theta-odd dial t in {0,1,2,omega}, tr(A.B_R(t)) is t-INDEPENDENT (141750+1011915q at every t, forced at Lie level since A commutes with the dial slot) -- seam crossings commuting with the dial are dial-blind -- while tr(B_L.B_R) and the GROUP commutator tr([B_L,B_R]) SEPARATE all four dial values (exact distinct field elements). THE LAW: free data of one object (the dial, undefinable on one closed copy per B1087) = forced class-function data of the COUPLED PAIR -- an explicit Wilson-line meter for t on seam-crossing words, measurement-by-coupling made concrete (interference not inspection). Re-derives B1016's two channels at the dial, upgrades L79-iii (dial-switch = seam observable); the whole peripheral subgroup (meridian+longitude) dial-blind, interior generator not. Operator reconstruction (slot X8, B_R=D.B_L.D^-1) pinned by calibration (nearby conventions score 9/12, 6/12). Gate 5 untouched.",
+  "instrument": false,
+  "creates_law": true
+}

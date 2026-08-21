@@ -1,0 +1,546 @@
+{
+ "id": "B1113",
+ "title": "THE JORDAN t-METER -- verification of JORDAN_MEMO.md section B",
+ "outcome": "CONFIRMED",
+ "outcome_reason": "tr(A.B_R) is dial-blind and tr(B_L.B_R), tr([B_L,B_R])_group separate all four t, on the primary slot hv8, with all positive controls passing",
+ "runtime_seconds": 14.76,
+ "field": "Q(q)/(q^2-q+1), q a primitive 6th root of unity; pairs (x,y) = x+y*q",
+ "positive_controls": {
+  "control_1_rho27_chevalley_brackets_3003_pairs": true,
+  "control_2_principal_string_content_16_8_0": true,
+  "control_3_relator_identity_on_27": true,
+  "control_4_h1_M_27_equals_3_fox_calculus": {
+   "pass": true,
+   "computed_value": 3
+  },
+  "control_5_dial_centralizes_meridian_all_slots_all_t": true,
+  "all_controls_pass": true,
+  "sanity_matrix_commutator_trace_always_zero": true,
+  "t0_sharp_prediction_confirmed": true
+ },
+ "operator_reconstruction": {
+  "A": "A27 = rho(a), the meridian/peripheral generator (the seam); shared, unsubscripted",
+  "B_L": "B27 = rho(b), untwisted, left copy",
+  "B_R(t)": "D(t).B27.D(t)^-1, D(t)=exp(t.rho(x_slot)), conjugation-twisted, right copy",
+  "bracket_convention": "[B_L,B_R] reported as the GROUP commutator B_L.B_R.B_L^-1.B_R^-1 (the Lie/matrix commutator trace is identically zero for any two square matrices and is reported separately as a sanity check, not as a candidate reading)",
+  "dial_slots_tested": [
+   "hv8",
+   "hv16"
+  ],
+  "primary_slot": "hv8"
+ },
+ "traces": {
+  "hv8": {
+   "0": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "27",
+     "q_part": "0",
+     "display": "27"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "27",
+     "q_part": "0",
+     "display": "27"
+    }
+   },
+   "1": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "-4268791455703081896933",
+     "q_part": "4496860756304889154560",
+     "display": "-4268791455703081896933+4496860756304889154560q"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "-1012494675441866094969680468476925337415653",
+     "q_part": "-19181399207157472539697602748942049339166720",
+     "display": "-1012494675441866094969680468476925337415653-19181399207157472539697602748942049339166720q"
+    }
+   },
+   "2": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "-1136640792617359937187813",
+     "q_part": "1151247446406074247229440",
+     "display": "-1136640792617359937187813+1151247446406074247229440q"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "-16755160684243541173825124529943231919652126693",
+     "q_part": "-1308432850647916106766787473050401389584509255680",
+     "display": "-16755160684243541173825124529943231919652126693-1308432850647916106766787473050401389584509255680q"
+    }
+   },
+   "omega": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "4725568716294111759387",
+     "q_part": "0",
+     "display": "4725568716294111759387"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "21245539863128390787066847414681242215854107",
+     "q_part": "0",
+     "display": "21245539863128390787066847414681242215854107"
+    }
+   }
+  },
+  "hv16": {
+   "0": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "27",
+     "q_part": "0",
+     "display": "27"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "27",
+     "q_part": "0",
+     "display": "27"
+    }
+   },
+   "1": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "-71953178286882815999973",
+     "q_part": "71953960609310072832000",
+     "display": "-71953178286882815999973+71953960609310072832000q"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "132323326000800300451478563972787994624000027",
+     "q_part": "-5308745798301474494012373437392714352984064000",
+     "display": "132323326000800300451478563972787994624000027-5308745798301474494012373437392714352984064000q"
+    }
+   },
+   "2": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "-1151250852590125055999973",
+     "q_part": "1151253981879834083328000",
+     "display": "-1151250852590125055999973+1151253981879834083328000q"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "16883794613840589911316590083674665385984000027",
+     "q_part": "-1342208728061117555838980941441030745040224256000",
+     "display": "16883794613840589911316590083674665385984000027-1342208728061117555838980941441030745040224256000q"
+    }
+   },
+   "omega": {
+    "tr_A_BR": {
+     "rational_part": "141750",
+     "q_part": "1011915",
+     "display": "141750+1011915q"
+    },
+    "tr_BL_BR": {
+     "rational_part": "782322427256832027",
+     "q_part": "-71953960609310072832000",
+     "display": "782322427256832027-71953960609310072832000q"
+    },
+    "tr_matrix_commutator_sanity": {
+     "rational_part": "0",
+     "q_part": "0",
+     "display": "0"
+    },
+    "tr_group_commutator": {
+     "rational_part": "-5176422472300674193560894873419926358360063973",
+     "q_part": "5308745798301474494012373437392714352984064000",
+     "display": "-5176422472300674193560894873419926358360063973+5308745798301474494012373437392714352984064000q"
+    }
+   }
+  }
+ },
+ "verdict_per_slot": {
+  "hv8": {
+   "dial_blind_tr_A_BR": true,
+   "dial_blind_value": "141750+1011915q",
+   "tr_BL_BR_separates_all_t": true,
+   "tr_BL_BR_pairwise": {
+    "0_vs_1": true,
+    "0_vs_2": true,
+    "0_vs_omega": true,
+    "1_vs_2": true,
+    "1_vs_omega": true,
+    "2_vs_omega": true
+   },
+   "tr_group_commutator_separates_all_t": true,
+   "tr_group_commutator_pairwise": {
+    "0_vs_1": true,
+    "0_vs_2": true,
+    "0_vs_omega": true,
+    "1_vs_2": true,
+    "1_vs_omega": true,
+    "2_vs_omega": true
+   }
+  },
+  "hv16": {
+   "dial_blind_tr_A_BR": true,
+   "dial_blind_value": "141750+1011915q",
+   "tr_BL_BR_separates_all_t": true,
+   "tr_BL_BR_pairwise": {
+    "0_vs_1": true,
+    "0_vs_2": true,
+    "0_vs_omega": true,
+    "1_vs_2": true,
+    "1_vs_omega": true,
+    "2_vs_omega": true
+   },
+   "tr_group_commutator_separates_all_t": true,
+   "tr_group_commutator_pairwise": {
+    "0_vs_1": true,
+    "0_vs_2": true,
+    "0_vs_omega": true,
+    "1_vs_2": true,
+    "1_vs_omega": true,
+    "2_vs_omega": true
+   }
+  }
+ },
+ "memo_number_cross_check": {
+  "hv8": {
+   "trA_BR": {
+    "0": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    },
+    "1": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    },
+    "2": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    },
+    "omega": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    }
+   },
+   "trBL_BR": {
+    "0": {
+     "mine": [
+      27,
+      0
+     ],
+     "memo": [
+      27,
+      0
+     ],
+     "match": true
+    },
+    "1": {
+     "mine": [
+      -4268791455703081896933,
+      4496860756304889154560
+     ],
+     "memo": [
+      -4268791455703081896933,
+      4496860756304889154560
+     ],
+     "match": true
+    },
+    "2": {
+     "mine": [
+      -1136640792617359937187813,
+      1151247446406074247229440
+     ],
+     "memo": [
+      -1136640792617359937187813,
+      1151247446406074247229440
+     ],
+     "match": true
+    },
+    "omega": {
+     "mine": [
+      4725568716294111759387,
+      0
+     ],
+     "memo": [
+      4725568716294111759387,
+      0
+     ],
+     "match": true
+    }
+   },
+   "tr_group_comm": {
+    "0": {
+     "mine": [
+      27,
+      0
+     ],
+     "memo": [
+      27,
+      0
+     ],
+     "match": true
+    },
+    "1": {
+     "mine": [
+      -1012494675441866094969680468476925337415653,
+      -19181399207157472539697602748942049339166720
+     ],
+     "memo": [
+      -1012494675441866094969680468476925337415653,
+      -19181399207157472539697602748942049339166720
+     ],
+     "match": true
+    },
+    "2": {
+     "mine": [
+      -16755160684243541173825124529943231919652126693,
+      -1308432850647916106766787473050401389584509255680
+     ],
+     "memo": [
+      -16755160684243541173825124529943231919652126693,
+      -1308432850647916106766787473050401389584509255680
+     ],
+     "match": true
+    },
+    "omega": {
+     "mine": [
+      21245539863128390787066847414681242215854107,
+      0
+     ],
+     "memo": [
+      21245539863128390787066847414681242215854107,
+      0
+     ],
+     "match": true
+    }
+   }
+  },
+  "hv16": {
+   "trA_BR": {
+    "0": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    },
+    "1": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    },
+    "2": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    },
+    "omega": {
+     "mine": [
+      141750,
+      1011915
+     ],
+     "memo": [
+      141750,
+      1011915
+     ],
+     "match": true
+    }
+   },
+   "trBL_BR": {
+    "0": {
+     "mine": [
+      27,
+      0
+     ],
+     "memo": [
+      27,
+      0
+     ],
+     "match": true
+    },
+    "1": {
+     "mine": [
+      -71953178286882815999973,
+      71953960609310072832000
+     ],
+     "memo": [
+      -4268791455703081896933,
+      4496860756304889154560
+     ],
+     "match": false
+    },
+    "2": {
+     "mine": [
+      -1151250852590125055999973,
+      1151253981879834083328000
+     ],
+     "memo": [
+      -1136640792617359937187813,
+      1151247446406074247229440
+     ],
+     "match": false
+    },
+    "omega": {
+     "mine": [
+      782322427256832027,
+      -71953960609310072832000
+     ],
+     "memo": [
+      4725568716294111759387,
+      0
+     ],
+     "match": false
+    }
+   },
+   "tr_group_comm": {
+    "0": {
+     "mine": [
+      27,
+      0
+     ],
+     "memo": [
+      27,
+      0
+     ],
+     "match": true
+    },
+    "1": {
+     "mine": [
+      132323326000800300451478563972787994624000027,
+      -5308745798301474494012373437392714352984064000
+     ],
+     "memo": [
+      -1012494675441866094969680468476925337415653,
+      -19181399207157472539697602748942049339166720
+     ],
+     "match": false
+    },
+    "2": {
+     "mine": [
+      16883794613840589911316590083674665385984000027,
+      -1342208728061117555838980941441030745040224256000
+     ],
+     "memo": [
+      -16755160684243541173825124529943231919652126693,
+      -1308432850647916106766787473050401389584509255680
+     ],
+     "match": false
+    },
+    "omega": {
+     "mine": [
+      -5176422472300674193560894873419926358360063973,
+      5308745798301474494012373437392714352984064000
+     ],
+     "memo": [
+      21245539863128390787066847414681242215854107,
+      0
+     ],
+     "match": false
+    }
+   }
+  }
+ },
+ "paths": {
+  "ccb_path_used": "<repo>/frontier/B1102_exact_hypercharge_solve/e6_bracket_vendored.py",
+  "cert_reference_path": "<session-cert>  [found, read as design reference, NOT executed -- see module docstring]"
+ }
+}

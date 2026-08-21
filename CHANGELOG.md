@@ -1,5 +1,33 @@
 # Changelog
 
+## THE BREAKTHROUGH PACKET, part 1 (2026-08-21): four cloud-seat memos verified and banked — the t-meter, Lorentz on the double, the spending DAG, the asymptotic channel
+
+Four of the outside bench's eight memos (originaxiom/golden_gate,
+session_handoff/), each independently verified on this bench before
+banking (integrate-don't-merge; cloud seat credited). B1113 THE
+t-METER (JORDAN §B): quadruple-verified (two independent agent
+benches 12/12 digit-for-digit incl 40-digit integers + banking re-run
++ Fox-calculus control h^1(M;27)=3) -- tr(A·B_R) dial-blind, tr[B_L,
+B_R] separates every dial value: FREE data of one object = FORCED
+class-function data of the coupled pair (measurement-by-coupling, the
+value mechanism). B1114 LORENTZ ON THE DOUBLE: all 4 layers CONFIRMED
++ re-run -- E6 ⊇ so(3,1)⊕su(3) (joint centralizer of two commuting A2
+triples EXACTLY su(3)); the SIGNATURE is the observer's (Q-rational
+factors unswappable by any C/Q automorphism); the 27 all-even
+bi-weights = metric-slot ⊕ SD ⊕ ASD colored (matter-or-geometry);
+real-form host E6(2)/E6(6), COMPACT color open (the fold from the
+caught fake-invariant-form anomaly, B1119). B1115 SPENDING DAG: the
+free-bit definitional order matches the cosmological freezing order
+ZERO inversions; gravity external BECAUSE its E6 slot is EW's
+(computed exclusivity). B1116 ASYMPTOTIC CHANNEL: the scope audit
+(all four value no-goes are single-level; growth RATES escape them --
+the adelic reason) + numeric (Kashaev tower -> Vol 2e-13, power 3/2,
+constant 3^{-1/4}=|disc Q(sqrt-3)|^{-1/4} to 12 digits, a genuine
+convergent-series limit, better than the memo). Registry T-TMETER,
+T-LORENTZ-DOUBLE, T-SPENDING-DAG, T-ASYMPTOTIC. ROAD VII.4/VII.5.
+Locks 4 arcs. Part 2 (B1117 adelic / B1118 deflation / B1119 anomaly)
+next.
+
 ## B1112 THE PROJECTIVE HATCH (2026-08-21): the object's own unlifted geometry SELECTS the trinification landing — SM-facing selection ambiguity ZERO bits
 
 The owner's catch, verified three ways. B1098 priced the hatch at

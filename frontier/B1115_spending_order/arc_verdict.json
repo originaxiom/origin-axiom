@@ -1,0 +1,7 @@
+{
+  "id": "B1115",
+  "verdict": "PROVED",
+  "claim_one_line": "THE SPENDING ORDER (SPENDING_ORDER.md harvest; synthesis of banked facts + B1114's two verified computations): the free-bit spendings carry a FORCED definitional-dependency DAG -- D0 rule (B1083) -> D1 double-tick/orientability (B1083) -> D2 geometric holonomy (Mostow; gravity-as-geometry + signature-as-reading, but signature-as-structure needs D4) -> D3 the spin lift the object REFUSES (B1112) -> D4 the stratum, A2 the unique projective SM landing (B1112) -> D5 THE FORK (the non-color su(3) serves EW XOR Lorentz, EXCLUSIVE by B1114's joint-centralizer=one-su(3)) -> D6 hypercharge (18 = 2 orbits, 1 bit, B1109) -> D7 VEV (condition-forced/point-free); chirality/scale/realification at the edges. THE COSMOLOGICAL MATCH: every DAG edge consistent with the standard early->late freezing order, ZERO inversions (extends B1082; falsifier stated: any inverted edge kills the reading). THE FORK PUNCHLINE: gravity is external BECAUSE its E6 slot is occupied by the electroweak sector (the exclusivity computed, not conjectured) -- the 3-gauge+1-geometric asymmetry as a single binary spending. THE 27 DOUBLE-DUTY (B1114): bi-weights all even, (1,1)⊗1_c ⊕ (1,0)⊗3_c ⊕ (0,1)⊗3bar_c -- the same 27 is matter in the gauge reading, geometry (metric+colored flux) in the gravity reading. Interpretive parts labeled; the two computed facts exact. Gate 5 untouched.",
+  "instrument": true,
+  "creates_law": false
+}

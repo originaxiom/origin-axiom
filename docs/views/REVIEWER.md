@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1016** |
-| words of findings prose | **689,004** |
-| test lock files referenced | **622** |
-| arcs carrying an authored verdict | **1003** (98.7 %) |
+| research arcs with findings | **1020** |
+| words of findings prose | **691,928** |
+| test lock files referenced | **626** |
+| arcs carrying an authored verdict | **1007** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 672 |
+| PROVED | 676 |
 | NEGATIVE | 287 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1112`** (724 words, 1 locks)  
-THE PROJECTIVE HATCH (the owner's spin-structure catch + outside-bench computation + this bench's 20-strata completion, three-way convergence): the object's canonical holonomy is PSL(2,C); the SL(2,C) lift is a spin-structure CHOICE (H^1(M;Z/2)=Z/2) the object does not supply; a stratum is PROJECTIVE (lift-free, no inserted choice) iff all 27-weights of its sl2 element are EVEN. Over ALL 20 e6 nilpotent strata: 9 are projective (6 of the 16 Levi-regular, reproducing the outside bench exactly; the bound 6-10 pinned at 9); the PRINCIPAL embedding is EVEN (the programme's whole main line was implicitly projective). THE SELECTION THEOREM: of B1098's two SM-compatible landings, exactly A2 (su(3)+su(3), rank 4) is projective (EVEN, spectrum {-2:6,0:15,2:6} = B1100's banked multiset, so EXACT) while A1 (su(6)) is ODD (needs the lift) -- the object's own unlifted geometry reaches EXACTLY ONE SM-compatible landing, the one whose 27 is COMPLEX (B1100). REPRICING: projective menu log2(9)~3.17 bits, SM-facing ambiguity 0 BITS; A1's product structure (F2, same day) costs exactly 1 spin bit; the located bit = the first thing the observer pays that the object cannot (B994's limit, the torsor no-sections, the tick Z/2). Gate 5 untouched.  
-`B1112_projective_hatch/FINDINGS.md`
+**PROVED — `B1116`** (832 words, 1 locks)  
+THE ASYMPTOTIC VALUE CHANNEL (ASYMPTOTIC_CHANNEL.md harvest; scope audit + numeric, cloud seat credited): SCOPE AUDIT (cc's own, the B959 lesson on the no-goes) -- all four banked value/scale no-goes quantify over SINGLE-LEVEL invariants (scale-torsor = G-equivariant maps at fixed G; type law = coupling-channel single-level outputs, its own scope defers other channels; frame-relativity = basis-dependent single-pair values; k-blindness = the object's own action) -- a growth RATE of a tower (basepoint-free, frame-free, level-indexed) is outside EVERY one; the archimedean/growth-rate channel is NOT EXCLUDED, and the reason IS the adelic split (the no-goes are finite-place theorems, the rate is archimedean; B1108's 'right level-by-level wrong in the limit' restated). NUMERIC (independent mpmath dps=100, N-windows to [12800,102400], BETTER than the memo): the Kashaev tower J_N(4_1) growth exponent -> Vol at 2.2e-13, power -> 3/2 at 2.7e-13, constant -> 3^{-1/4} = |disc Q(sqrt-3)|^{-1/4} at 2.5e-12 (a genuine 12-digit limit, the being field's discriminant as the leading constant -- not coincidence). Placement: two instruments one expansion (this tower + B1107's Ruelle tower); B518's factorisation exhibited (archimedean exponent x arithmetic coefficient tower). FENCE first-class: not-excluded != delivers-SM-values; proven is Vol (geometric); SM-value reachability needs L180 (Euler-product) + the identification problem; the seven misses stand re-typed as single-completion questions. Gate 5 untouched.  
+`B1116_asymptotic_channel/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

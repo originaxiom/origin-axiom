@@ -1,0 +1,1360 @@
+{
+ "setup": {
+  "stored_dim_c": 16,
+  "hatch_levi_nodes": [
+   0,
+   2
+  ],
+  "triple_relations_exact": true
+ },
+ "control": {
+  "dim_c_direct": 16,
+  "b1098_a2a2_row": [
+   {
+    "label": "Levi(0, 2)-regular",
+    "dim_c": 16,
+    "rank_c": 4,
+    "center_dim": 0,
+    "dim_ss": 16,
+    "rank_ss": 4,
+    "ss_type": "a2+a2",
+    "sm": "SM-COMPATIBLE at rank EXACTLY 4: su(3)+su(3) contains su(3)_C x (su(2)xu(1)) -- THE TRINIFICATION REMNANT"
+   }
+  ],
+  "b1098_dimc_value_set": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   8,
+   9,
+   11,
+   14,
+   16,
+   22,
+   35
+  ],
+  "pass": true
+ },
+ "layer2a_orthogonal_subsystem": {
+  "n_orthogonal_roots": 12,
+  "component_sizes": [
+   6,
+   6
+  ],
+  "cross_orthogonal": true,
+  "I1_dim": 8,
+  "I2_dim": 8,
+  "I1_simple_pair": [
+   [
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  ],
+  "I2_simple_pair": [
+   [
+    -1,
+    -2,
+    -2,
+    -3,
+    -2,
+    -1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "I1_I2_commute": true,
+  "I1_commutes_hatch": true,
+  "I2_commutes_hatch": true,
+  "rank_I1_plus_I2": 16,
+  "I1_plus_I2_equals_centralizer": true,
+  "Q_rational": true
+ },
+ "layer2b_principal_triple": {
+  "relations_exact": true,
+  "commutes_with_hatch_9_brackets": true,
+  "e2": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "h2": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -2,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "f2": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -2,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -2,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "layer2c_same_class": {
+  "dim_c2_reductive": 16,
+  "same_class_reductive_dim": true,
+  "adh_spectrum_match": true,
+  "same_class_by_b1098_key": true,
+  "dim_z_nilpositive_X": 36,
+  "dim_z_nilpositive_e2": 36,
+  "nilpositive_dims_match": true,
+  "memo_36_matches_computation": true,
+  "b1098_table_contains_36": false,
+  "note": "The memo's 'dim z_e6(e2)=36 (A2 class <=> 36)' cites B1098's dim-c table as the source, but B1098's table (checked programmatically above) contains no value 36 -- its dim_c column is the REDUCTIVE centralizer of the whole triple (max 35, the a5/minimal-orbit row), not the centralizer of the nilpositive alone. The underlying 'same class' CLAIM is nonetheless correct and is confirmed here by two independent, properly-sourced invariants: (1) B1098's actual class key (dim_c=16 + matching ad-h spectrum, both exact matches), and (2) an equal-but-different invariant dim z_g(nilpositive alone), which we compute fresh for BOTH X and e2 and find equal (36 each) -- so 36 is a real, verifiable fact about this orbit, just mis-cited as living in B1098's table."
+ },
+ "layer2d_joint_centralizer": {
+  "dim": 8,
+  "equals_I2_exactly": true,
+  "closes_under_bracket": true,
+  "center_dim": 0,
+  "reductive_rank": 2,
+  "type": "A2 (su(3), complexified) -- the unique rank-2 dim-8 semisimple Lie algebra",
+  "pass": true
+ },
+ "layer3_rationality": {
+  "I1_rational": true,
+  "I2_rational": true,
+  "dim_I1_cap_I2": 0,
+  "argument": "I1 and I2 are each cut out by Q-rational linear conditions (root-vector + coroot spans in the Chevalley Q-basis) and I1 (+) I2 is a DIRECT sum (verified: dim I1 + dim I2 = rank(I1+I2), so I1 \u2229 I2 = 0). Any field automorphism sigma of C/Q fixes every Q-rational vector pointwise (by definition of 'defined over Q'), hence fixes I1 and I2 SETWISE (sigma(I1)=I1, sigma(I2)=I2) rather than swapping them: if sigma swapped them, a nonzero v in I1 would have to map to sigma(v)=v (pointwise fixed) which must then also lie in I2 -- contradicting I1 \u2229 I2 = 0. So no Galois twist internal to the object's own arithmetic (in particular the q -> 1-q mirror) can supply the antilinear swap that glues two same-class sl2's into so(3,1) = sl(2,C)_R; that swap is extra data -- the observer's choice of real structure, not the object's.",
+  "pass": true
+ },
+ "layer1_lemma": {
+  "statement": "LEMMA. Let g be a complex Lie algebra and g0 subset g a real form (g = g0 (+) i*g0 as real vector spaces). Then g0 contains no nonzero complex subalgebra of g.",
+  "proof": "PROOF. Suppose s subset g0 is a C-subspace of g (i.e. i*s = s) and s is nonzero. Then s subset g0 and s = i*s subset i*g0, so s subset g0 \u2229 i*g0. But g0 \u2229 i*g0 = 0 by definition of a real form (g0 (+) i*g0 is a DIRECT real-vector-space sum). Hence s = 0, contradiction. QED.",
+  "formal_check_rank_XHY_is_3": true,
+  "triple_is_sl2C": true,
+  "consequence": "CONSEQUENCE (applying the lemma). The density premise -- the object's hyperbolic holonomy rho: pi_1 -> SL(2,C) is irreducible+non-elementary (tr[A,B] = 3/2+(sqrt3/2)i != 2) hence Zariski-dense in SL(2,C) -- is a CITED fact from B1086/B1098, about a hyperbolic 3-manifold representation; it is NOT re-derived here (outside this Lie-algebra sandbox's scope -- no hyperbolic-manifold data is loaded in this script). What IS verified here is the piece the lemma actually needs: span_C(X,H,Y) [and, identically, span_C(e2,h2,f2)] is confirmed (rank 3, exact triple relations) to be a genuine 3-complex-dimensional Lie subalgebra of e6(C) isomorphic to sl2(C), i.e. the Lie algebra of the group the composed holonomy is claimed dense in. Given the CITED density premise, its Zariski closure IS this full complex sl2(C) (not some smaller real slice), so by the lemma above no real form of E6 can contain it. This is a valid deduction, not a new computation; the premise's citation status is flagged, not hidden.",
+  "density_premise_status": "CITED (B1086/B1098 tr[A,B]!=2), NOT re-derived in this script",
+  "pass": true
+ },
+ "layer4_biweights": {
+  "rep_certified": {
+   "pairs_checked": 3003,
+   "fails": 0
+  },
+  "biweight_multiset": {
+   "(-2, -2)": 1,
+   "(-2, 0)": 4,
+   "(-2, 2)": 1,
+   "(0, -2)": 4,
+   "(0, 0)": 7,
+   "(0, 2)": 4,
+   "(2, -2)": 1,
+   "(2, 0)": 4,
+   "(2, 2)": 1
+  },
+  "claimed_multiset": {
+   "(-2, -2)": 1,
+   "(-2, 0)": 4,
+   "(-2, 2)": 1,
+   "(0, -2)": 4,
+   "(0, 0)": 7,
+   "(0, 2)": 4,
+   "(2, -2)": 1,
+   "(2, 0)": 4,
+   "(2, 2)": 1
+  },
+  "all_even": true,
+  "exact_match": true,
+  "exactness": "exact (Fraction throughout)"
+ },
+ "layer4_bonus_color_refinement": {
+  "I2_is_joint_centralizer": true,
+  "by_biweight_color_patterns": {
+   "(-2, -2)": [
+    [
+     "0",
+     "0"
+    ]
+   ],
+   "(-2, 0)": [
+    [
+     "-1",
+     "1"
+    ],
+    [
+     "0",
+     "-1"
+    ],
+    [
+     "0",
+     "0"
+    ],
+    [
+     "1",
+     "0"
+    ]
+   ],
+   "(-2, 2)": [
+    [
+     "0",
+     "0"
+    ]
+   ],
+   "(0, -2)": [
+    [
+     "-1",
+     "0"
+    ],
+    [
+     "0",
+     "0"
+    ],
+    [
+     "0",
+     "1"
+    ],
+    [
+     "1",
+     "-1"
+    ]
+   ],
+   "(0, 0)": [
+    [
+     "-1",
+     "0"
+    ],
+    [
+     "-1",
+     "1"
+    ],
+    [
+     "0",
+     "-1"
+    ],
+    [
+     "0",
+     "0"
+    ],
+    [
+     "0",
+     "1"
+    ],
+    [
+     "1",
+     "-1"
+    ],
+    [
+     "1",
+     "0"
+    ]
+   ],
+   "(0, 2)": [
+    [
+     "-1",
+     "0"
+    ],
+    [
+     "0",
+     "0"
+    ],
+    [
+     "0",
+     "1"
+    ],
+    [
+     "1",
+     "-1"
+    ]
+   ],
+   "(2, -2)": [
+    [
+     "0",
+     "0"
+    ]
+   ],
+   "(2, 0)": [
+    [
+     "-1",
+     "1"
+    ],
+    [
+     "0",
+     "-1"
+    ],
+    [
+     "0",
+     "0"
+    ],
+    [
+     "1",
+     "0"
+    ]
+   ],
+   "(2, 2)": [
+    [
+     "0",
+     "0"
+    ]
+   ]
+  },
+  "zero_block_singlet_count": 1,
+  "one_singlet_per_2_0_type_block": true,
+  "triangle_per_block": {
+   "(2, 0)": true,
+   "(-2, 0)": true,
+   "(0, 2)": true,
+   "(0, -2)": true
+  },
+  "pure_1_1_blocks_are_color_singlet": true,
+  "same_3c_weights_at_h1_plus_and_minus_2": true,
+  "same_3cbar_weights_at_h2_plus_and_minus_2": true,
+  "3_and_3bar_weights_are_negatives": true,
+  "reading_confirmed": "(1,1)@1_c [4 pure-singlet Lorentz corners + the (0,0) block's singlet] (+) (1,0)@3_c [(+-2,0) triplets + (0,0)'s 3 states] (+) (0,1)@3_c-bar [(0,+-2) triplets + (0,0)'s other 3 states] -- matches the memo's claimed decomposition exactly, verified as an EXACT computed fact (weight identities), not assumed.",
+  "note": "Supplementary check (not strictly required by the task's core layer-4 ask, which is the bi-weight multiset alone -- confirmed exact above). Uses I2's own root-derived coroots as the su(3)_color Cartan (valid since layer 2d proved the joint centralizer literally IS I2). Exact throughout (Fraction), no float rounding anywhere in this bonus section either."
+ },
+ "verdicts": {
+  "layer1_lemma": "CONFIRMED",
+  "layer2_algebra": "CONFIRMED",
+  "layer3_rationality": "CONFIRMED",
+  "layer4_biweights": "CONFIRMED"
+ },
+ "overall": "CONFIRMED",
+ "runtime_seconds": 5.99,
+ "log": [
+  "[   0.00s] loading the vendored e6 bracket module (B1098/B1102's convention)",
+  "[   0.04s]   e6 loaded: 72 roots, dim 78",
+  "[   0.04s] loading B1098's stored A2-class hatch triple",
+  "[   0.04s]   stored dim_c = 16",
+  "[   0.04s]   hatch triple relations exact: [X,Y]=H True, [H,X]=2X True, [H,Y]=-2Y True",
+  "[   0.04s]   hatch X identified as Levi(0, 2)-regular (own search, not assumed)",
+  "[   0.04s] ",
+  "[   0.04s] === CONTROL: z_e6(hatch triple) via own ad-matrix nullspace ===",
+  "[   0.09s]   dim z_e6(X,H,Y) [own code] = 16  (B1098 banked / stored triple: 16)",
+  "[   0.16s]     modular cross-check p=1000003 [control z(hatch triple)]: nullity=16 OK",
+  "[   0.23s]     modular cross-check p=1000033 [control z(hatch triple)]: nullity=16 OK",
+  "[   0.23s]   B1098 table row(s) tagged 'a2+a2': [{'label': 'Levi(0, 2)-regular', 'dim_c': 16, 'rank_c': 4, 'center_dim': 0, 'dim_ss': 16, 'rank_ss': 4, 'ss_type': 'a2+a2', 'sm': 'SM-COMPATIBLE at rank EXACTLY 4: su(3)+su(3) contains su(3)_C x (su(2)xu(1)) -- THE TRINIFICATION REMNANT'}]",
+  "[   0.23s]   B1098 table's full dim_c value set: [0, 1, 2, 3, 4, 8, 9, 11, 14, 16, 22, 35]",
+  "[   0.23s]   CONTROL PASS: True",
+  "[   0.23s] ",
+  "[   0.23s] === the roots orthogonal to the hatch A2 -> A2+A2 -> I1, I2 ===",
+  "[   0.23s]   roots orthogonal to the A2: 12 (expect 12)",
+  "[   0.23s]   orthogonal-subsystem components: [6, 6] (expect [6, 6])",
+  "[   0.23s]   full cross-component orthogonality (all 36 pairs): True",
+  "[   0.27s]   ideal I1: dim(span) = 8 (expect 8); simple pair ((0, 0, 0, 0, -1, -1), (0, 0, 0, 0, 0, 1))",
+  "[   0.28s]   ideal I2: dim(span) = 8 (expect 8); simple pair ((-1, -2, -2, -3, -2, -1), (0, 1, 0, 0, 0, 0))",
+  "[   0.29s]   [I1,I2]=0 (all 64 cross pairs): True",
+  "[   0.29s]   [I1,hatch triple]=0: True   [I2,hatch triple]=0: True",
+  "[   0.31s]   rank(I1 union I2) = 16 (expect 16 = 8+8, i.e. a direct sum)",
+  "[   0.31s]   I1 (+) I2 verified to EQUAL z_e6(hatch triple) exactly (same dim 16, contained by the commuting check above => equality)",
+  "[   0.31s]   Q-rationality: every I1/I2 basis-vector entry is an exact Fraction: True",
+  "[   0.31s] ",
+  "[   0.31s] === I1's principal JM triple (e2,h2,f2), general ad^2 solver ===",
+  "[   0.42s]   (e2,h2,f2) exact sl2 relations: [e2,f2]=h2, [h2,e2]=2e2, [h2,f2]=-2f2 : True",
+  "[   0.42s]   I1's triple commutes with hatch's stored triple (9 brackets exactly 0): True",
+  "[   0.42s] ",
+  "[   0.42s] === same-class checks (I1's principal vs the hatch's own A2) ===",
+  "[   0.47s]   dim z_e6(e2,h2,f2) [reductive, B1098-style] = 16 (hatch's own: 16)",
+  "[   0.54s]     modular cross-check p=1000003 [z(I1 principal triple)]: nullity=16 OK",
+  "[   0.61s]     modular cross-check p=1000033 [z(I1 principal triple)]: nullity=16 OK",
+  "[   0.61s]   reductive-centralizer-dim match (B1098's own class-key component): True",
+  "[   0.61s]   ad(H) spectrum == ad(h2) spectrum (B1098's other class-key component): True",
+  "[   0.61s]     spectrum (both, sorted 78 eigenvalues): (-4, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4)",
+  "[   0.61s]   SAME CLASS by B1098's ACTUAL (dim_c, ad-h spectrum) key: True",
+  "[   0.75s]   dim z_e6(X)  [nilpositive of hatch ALONE, not the reductive triple-centralizer] = 36",
+  "[   0.75s]   dim z_e6(e2) [nilpositive of I1's principal ALONE]                              = 36",
+  "[   0.75s]   dim z_e6(X) == dim z_e6(e2): True  (second, independent same-orbit invariant)",
+  "[   0.75s]   memo's claimed value 'dim z_e6(e2)=36': matches our computation? True",
+  "[   0.75s]   Is 36 anywhere in B1098's own dim_c table? False (that table's dim_c column is the REDUCTIVE triple-centralizer, max value 35; 36 is a DIFFERENT invariant -- dim z_g(nilpositive alone) -- not tabulated by B1098 at all)",
+  "[   0.75s] ",
+  "[   0.75s] === LAYER 2d (the crux): joint centralizer of the two commuting A2 triples ===",
+  "[   0.83s]   dim joint centralizer (own nullspace code) = 8  (claim: 8)",
+  "[   0.97s]     modular cross-check p=1000003 [joint centralizer]: nullity=8 OK",
+  "[   1.11s]     modular cross-check p=1000033 [joint centralizer]: nullity=8 OK",
+  "[   1.14s]   theory check: joint centralizer should equal I2 EXACTLY (principal-sl2-of-I1 has trivial centralizer WITHIN I1, so only I2 survives). rank(joint_basis U I2_basis) = 8 (expect 8, proving equality since both individually already span dim 8): True",
+  "[   1.50s]   joint centralizer closes under bracket (28 pairs checked): True",
+  "[   1.51s]   center of the joint centralizer: dim 0 (expect 0 -- simple, no abelian part)",
+  "[   1.55s]   reductive rank (generic-element method, 6 trials, min): 2 (expect 2)",
+  "[   1.55s]   JOINT CENTRALIZER VERDICT: dim=8, center=0, rank=2 => A2 (su(3), complexified) -- the unique rank-2 dim-8 semisimple Lie algebra",
+  "[   1.55s]   E6 \u2287 (I1's A2-triple) \u2295 (hatch's A2-triple) \u2295 (this su(3)) = realified so(3,1) \u2295 su(3): Lorentz plus color, and this su(3) IS I2 exactly.",
+  "[   1.55s] ",
+  "[   1.55s] === LAYER 3: Q-rationality of I1, I2 and the no-swap argument ===",
+  "[   1.55s]   I1 basis entirely Q-rational (exact Fraction entries, no field extension): True",
+  "[   1.55s]   I2 basis entirely Q-rational: True",
+  "[   1.55s]   dim(I1 \u2229 I2) = dim(I1)+dim(I2)-rank(I1+I2) = 8+8-16 = 0 (a genuine direct sum, not merely a spanning set)",
+  "[   1.55s]   I1 and I2 are each cut out by Q-rational linear conditions (root-vector + coroot spans in the Chevalley Q-basis) and I1 (+) I2 is a DIRECT sum (verified: dim I1 + dim I2 = rank(I1+I2), so I1 \u2229 I2 = 0). Any field automorphism sigma of C/Q fixes every Q-rational vector pointwise (by definition of 'defined over Q'), hence fixes I1 and I2 SETWISE (sigma(I1)=I1, sigma(I2)=I2) rather than swapping them: if sigma swapped them, a nonzero v in I1 would have to map to sigma(v)=v (pointwise fixed) which must then also lie in I2 -- contradicting I1 \u2229 I2 = 0. So no Galois twist internal to the object's own arithmetic (in particular the q -> 1-q mirror) can supply the antilinear swap that glues two same-class sl2's into so(3,1) = sl(2,C)_R; that swap is extra data -- the observer's choice of real structure, not the object's.",
+  "[   1.55s] ",
+  "[   1.55s] === LAYER 1: the one-line lemma (real form vs complex subalgebra) ===",
+  "[   1.55s]   LEMMA. Let g be a complex Lie algebra and g0 subset g a real form (g = g0 (+) i*g0 as real vector spaces). Then g0 contains no nonzero complex subalgebra of g.",
+  "[   1.55s]   PROOF. Suppose s subset g0 is a C-subspace of g (i.e. i*s = s) and s is nonzero. Then s subset g0 and s = i*s subset i*g0, so s subset g0 \u2229 i*g0. But g0 \u2229 i*g0 = 0 by definition of a real form (g0 (+) i*g0 is a DIRECT real-vector-space sum). Hence s = 0, contradiction. QED.",
+  "[   1.55s]   formal check: rank{X,H,Y} over C = 3 (expect 3 -- a genuine, non-degenerate 3-dim complex Lie subalgebra of e6(C), isomorphic to sl2(C))",
+  "[   1.55s]   CONSEQUENCE (applying the lemma). The density premise -- the object's hyperbolic holonomy rho: pi_1 -> SL(2,C) is irreducible+non-elementary (tr[A,B] = 3/2+(sqrt3/2)i != 2) hence Zariski-dense in SL(2,C) -- is a CITED fact from B1086/B1098, about a hyperbolic 3-manifold representation; it is NOT re-derived here (outside this Lie-algebra sandbox's scope -- no hyperbolic-manifold data is loaded in this script). What IS verified here is the piece the lemma actually needs: span_C(X,H,Y) [and, identically, span_C(e2,h2,f2)] is confirmed (rank 3, exact triple relations) to be a genuine 3-complex-dimensional Lie subalgebra of e6(C) isomorphic to sl2(C), i.e. the Lie algebra of the group the composed holonomy is claimed dense in. Given the CITED density premise, its Zariski closure IS this full complex sl2(C) (not some smaller real slice), so by the lemma above no real form of E6 can contain it. This is a valid deduction, not a new computation; the premise's citation status is flagged, not hidden.",
+  "[   1.55s] ",
+  "[   1.55s] === LAYER 4: the 27's (h1,h2) bi-weight spectrum (own crystal-of-omega1 build) ===",
+  "[   1.63s]   27 weights constructed (crystal of omega_1, own code): 27 states",
+  "[   1.63s]   certifying rho27 is a genuine representation (own code, all C(78,2)=3003 pairs)...",
+  "[   5.97s]   rep certification: 3003 pairs checked, 0 failures -- PASS",
+  "[   5.98s]   rho27(H) diagonal: True   rho27(h2) diagonal: True (both pure-Cartan elements)",
+  "[   5.98s]   ALL bi-weights even: True",
+  "[   5.98s]   computed bi-weight multiset: [((-2, -2), 1), ((-2, 0), 4), ((-2, 2), 1), ((0, -2), 4), ((0, 0), 7), ((0, 2), 4), ((2, -2), 1), ((2, 0), 4), ((2, 2), 1)]",
+  "[   5.98s]   memo's claimed multiset:     [((-2, -2), 1), ((-2, 0), 4), ((-2, 2), 1), ((0, -2), 4), ((0, 0), 7), ((0, 2), 4), ((2, -2), 1), ((2, 0), 4), ((2, 2), 1)]",
+  "[   5.98s]   EXACT MATCH to memo's {(+-2,+-2):1, (+-2,0):4, (0,+-2):4, (0,0):7}: True",
+  "[   5.98s] ",
+  "[   5.98s]   -- bonus: color refinement of the (0,0) Lorentz block via I2's own coroots --",
+  "[   5.98s]   I2's coroots commute with each other: True; with H,h2: True",
+  "[   5.98s]   rho27(c1) diagonal: True   rho27(c2) diagonal: True",
+  "[   5.98s]   the (0,0) Lorentz block has 7 states (expect 7 = 1+3+3); their (c1,c2) color weights: ['(Fraction(-1, 1), Fraction(0, 1))', '(Fraction(-1, 1), Fraction(1, 1))', '(Fraction(0, 1), Fraction(-1, 1))', '(Fraction(0, 1), Fraction(0, 1))', '(Fraction(0, 1), Fraction(1, 1))', '(Fraction(1, 1), Fraction(-1, 1))', '(Fraction(1, 1), Fraction(0, 1))']",
+  "[   5.98s]   color-singlet states (c1=c2=0) inside the (0,0) block: 1 (expect 1)",
+  "[   5.98s]   remaining 6 states' color weights: ['(Fraction(-1, 1), Fraction(0, 1))', '(Fraction(-1, 1), Fraction(1, 1))', '(Fraction(0, 1), Fraction(-1, 1))', '(Fraction(0, 1), Fraction(1, 1))', '(Fraction(1, 1), Fraction(-1, 1))', '(Fraction(1, 1), Fraction(0, 1))']",
+  "[   5.98s]   (2, 0) block (4 states): 1 color-singlet + 3 color-nonsinglet ['(Fraction(-1, 1), Fraction(1, 1))', '(Fraction(0, 1), Fraction(-1, 1))', '(Fraction(1, 1), Fraction(0, 1))']",
+  "[   5.99s]   (-2, 0) block (4 states): 1 color-singlet + 3 color-nonsinglet ['(Fraction(-1, 1), Fraction(1, 1))', '(Fraction(0, 1), Fraction(-1, 1))', '(Fraction(1, 1), Fraction(0, 1))']",
+  "[   5.99s]   (0, 2) block (4 states): 1 color-singlet + 3 color-nonsinglet ['(Fraction(-1, 1), Fraction(0, 1))', '(Fraction(0, 1), Fraction(1, 1))', '(Fraction(1, 1), Fraction(-1, 1))']",
+  "[   5.99s]   (0, -2) block (4 states): 1 color-singlet + 3 color-nonsinglet ['(Fraction(-1, 1), Fraction(0, 1))', '(Fraction(0, 1), Fraction(1, 1))', '(Fraction(1, 1), Fraction(-1, 1))']",
+  "[   5.99s]   exactly one color-singlet per block: True",
+  "[   5.99s]   remaining 3 states form a distinct-nonzero weight triangle per block: {'(2, 0)': True, '(-2, 0)': True, '(0, 2)': True, '(0, -2)': True}",
+  "[   5.99s]   the four (+-2,+-2) blocks (mult 1 each) are purely color-singlet: True",
+  "[   5.99s]   the SAME 3_c copy appears (identical weights) at h1=+2 and h1=-2 (spin carried by Lorentz alone, color factor fixed): True",
+  "[   5.99s]   the SAME 3_c-bar copy appears at h2=+2 and h2=-2: True",
+  "[   5.99s]   the (1,0) factor's color triplet and the (0,1) factor's color triplet are exact NEGATIVES of each other (3 vs 3-bar weight relation): True",
+  "[   5.99s] ",
+  "[   5.99s] === OVERALL ===",
+  "[   5.99s]   layer verdicts: {'layer1_lemma': 'CONFIRMED', 'layer2_algebra': 'CONFIRMED', 'layer3_rationality': 'CONFIRMED', 'layer4_biweights': 'CONFIRMED'}",
+  "[   5.99s]   OVERALL: CONFIRMED",
+  "[   5.99s]   (documentation flag, not a computational failure: the memo's '36 per B1098's dim-c table' mis-cites its source -- 36 is real but not in that table; see layer2c_same_class.note)"
+ ]
+}

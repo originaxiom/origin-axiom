@@ -10972,3 +10972,12 @@ without the lift, and of the two that reach the Standard Model, only
 the trinification one is. The object selects its own landing; what it
 cannot pay is the spin bit, and that bit is the observer's first
 purchase. Priced at 4.3 bits yesterday; selected at zero today.
+
+2026-08-21 (the packet, part 1). Four memos from the outside bench,
+each re-derived here before banking: the dial you cannot measure on
+one copy becomes exact on two; Lorentz and color fall out of the
+landing with the signature left for the observer; the order in which
+freedom is spent is the order the universe froze; and the value the
+object refuses at every level, it emits as the growth rate of its own
+tower. Measurement, spacetime, cosmology, and the first honest value
+channel — four faces of one object, verified.

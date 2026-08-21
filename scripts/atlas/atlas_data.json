@@ -2390,6 +2390,85 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1113": {
+   "slug": "tmeter",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "symplectic"
+   ],
+   "refs": [
+    "B856",
+    "B936",
+    "L79"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1114": {
+   "slug": "lorentz double",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B155",
+    "B517",
+    "B715",
+    "B716"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1115": {
+   "slug": "spending order",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B259",
+    "B994"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1116": {
+   "slug": "asymptotic channel",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B518",
+    "B666",
+    "B936",
+    "B959",
+    "L180"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B111": {
    "slug": "sign structure",
    "motifs": [

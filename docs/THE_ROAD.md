@@ -137,6 +137,16 @@ sealed miss, kept as boundary.**
   shape: the choice exists, the chooser does not. "The dimension we lack is the
   choice we are" — computed.
 
+- **VII.4 Lorentz + color from the object (B1114/B1115, verified)** — [BANKED, real-form
+  fenced]: E₆ ⊇ so(3,1) ⊕ su(3) at the A2 landing (joint centralizer of two commuting A2
+  triples = exactly su(3)); the SIGNATURE is the observer's (ℚ-rational factors, the mirror
+  fixes not swaps); the 27 is matter (gauge reading) or metric ⊕ colored flux (gravity
+  reading); the spending DAG matches cosmology with zero inversions and gravity is external
+  because its E₆ slot is the EW sector's. Real-form host E₆(2)/E₆(6): COMPACT color is the
+  open 𝔽₂-kernel sweep (B1119).
+- **VII.5 The t-meter (B1113)** — [BANKED]: free data of one object = forced class-function
+  data of the coupled pair (measurement-by-coupling; the mechanism the value question needs).
+
 ## VIII. THE LABORATORY (the killable edge)
 
 - **VIII.1 THE EDGE SEAL** — [SEALED] the mirror-isospectral split as falsifier;

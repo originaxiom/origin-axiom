@@ -1,0 +1,7 @@
+{
+  "id": "B1114",
+  "verdict": "PROVED",
+  "claim_one_line": "LORENTZ ON THE DOUBLE (LORENTZ_ON_THE_DOUBLE.md harvest, two-bench + banking-seat re-run, all 4 layers exact): the one-line lemma (a real form of a complex simple Lie algebra holds no complex subalgebra) + the Zariski-dense holonomy (CITED tr[A,B]!=2) EXPLAINS B715 (native gauge system complex); at the A2 landing the roots orthogonal to the hatch A2 give z = sl3+sl3 (both Q-rational), I1's principal JM triple commutes with the hatch triple and is the SAME class, and THE CRUX: the JOINT centralizer of the two commuting A2 triples is EXACTLY dim 8 = su(3) (own nullspace + modular checks, = I2 exactly) -> E6 ⊇ so(3,1)+su(3): Lorentz plus color and nothing else; the signature is the OBSERVER'S -- the two Q-rational factors form a direct sum so no C/Q automorphism (incl the object's q->1-q mirror) can supply the antilinear swap that makes so(3,1) from sl2+sl2 (B716/B155/B517 exhibited constructively; 'spacetime needs both hands' now a computation); the 27's bi-weights {(+-2,+-2):1,(+-2,0):4,(0,+-2):4,(0,0):7} ALL EVEN decompose as (1,1)⊗1_c ⊕ (1,0)⊗3_c ⊕ (0,1)⊗3bar_c -- metric-slot ⊕ self-dual ⊕ anti-self-dual colored (the same 27 is matter in the gauge reading, geometry in the gravity reading; SPENDING's crown verified here). Correction: the memo's 'dim=36 per B1098 table' is mis-sourced (36 correct but not in that table, a different invariant); the failed first method superseded. Gate 5 untouched.",
+  "instrument": false,
+  "creates_law": true
+}
