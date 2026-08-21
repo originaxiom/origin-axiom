@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1015** |
-| words of findings prose | **688,280** |
-| test lock files referenced | **621** |
-| arcs carrying an authored verdict | **1002** (98.7 %) |
+| research arcs with findings | **1016** |
+| words of findings prose | **689,004** |
+| test lock files referenced | **622** |
+| arcs carrying an authored verdict | **1003** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 671 |
+| PROVED | 672 |
 | NEGATIVE | 287 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1111`** (499 words, 1 locks)  
-THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census -- the bank as positive control): three computed layers on the stored order-96 action -- (1) per-element RIGIDITY: fixed-space dims are conjugation-invariant and affine twists only EMPTY loci (screws), never isolate them (census re-matched exactly: 42 one-dim, 53 three-dim); (2) JOINT loci are NOT rigid: exact pairwise joint-V1 dims {0:1656, 1:2556, 3:253} -- 1656 TRANSVERSAL PAIRS whose affine translates meet in ONE POINT under a single codimension coincidence: isolated joint collisions are GEOMETRICALLY AVAILABLE; (3) sampled transversal pairs generate subgroups of orders {8,16,24,96} -- ORDER-24 (2T-type) transversal pairs exist: candidate isolated-E6-point configurations, the AW shape; IV.2 sharpens to a constructive route with two named finite residues (cocycle feasibility over the full group; point-stabilizer ADE typing), neither claimed; Gate 5 untouched.  
-`B1111_w5_scoping/FINDINGS.md`
+**PROVED — `B1112`** (724 words, 1 locks)  
+THE PROJECTIVE HATCH (the owner's spin-structure catch + outside-bench computation + this bench's 20-strata completion, three-way convergence): the object's canonical holonomy is PSL(2,C); the SL(2,C) lift is a spin-structure CHOICE (H^1(M;Z/2)=Z/2) the object does not supply; a stratum is PROJECTIVE (lift-free, no inserted choice) iff all 27-weights of its sl2 element are EVEN. Over ALL 20 e6 nilpotent strata: 9 are projective (6 of the 16 Levi-regular, reproducing the outside bench exactly; the bound 6-10 pinned at 9); the PRINCIPAL embedding is EVEN (the programme's whole main line was implicitly projective). THE SELECTION THEOREM: of B1098's two SM-compatible landings, exactly A2 (su(3)+su(3), rank 4) is projective (EVEN, spectrum {-2:6,0:15,2:6} = B1100's banked multiset, so EXACT) while A1 (su(6)) is ODD (needs the lift) -- the object's own unlifted geometry reaches EXACTLY ONE SM-compatible landing, the one whose 27 is COMPLEX (B1100). REPRICING: projective menu log2(9)~3.17 bits, SM-facing ambiguity 0 BITS; A1's product structure (F2, same day) costs exactly 1 spin bit; the located bit = the first thing the observer pays that the object cannot (B994's limit, the torsor no-sections, the tick Z/2). Gate 5 untouched.  
+`B1112_projective_hatch/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

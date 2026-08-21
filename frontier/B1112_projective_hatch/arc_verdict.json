@@ -1,0 +1,7 @@
+{
+  "id": "B1112",
+  "verdict": "PROVED",
+  "claim_one_line": "THE PROJECTIVE HATCH (the owner's spin-structure catch + outside-bench computation + this bench's 20-strata completion, three-way convergence): the object's canonical holonomy is PSL(2,C); the SL(2,C) lift is a spin-structure CHOICE (H^1(M;Z/2)=Z/2) the object does not supply; a stratum is PROJECTIVE (lift-free, no inserted choice) iff all 27-weights of its sl2 element are EVEN. Over ALL 20 e6 nilpotent strata: 9 are projective (6 of the 16 Levi-regular, reproducing the outside bench exactly; the bound 6-10 pinned at 9); the PRINCIPAL embedding is EVEN (the programme's whole main line was implicitly projective). THE SELECTION THEOREM: of B1098's two SM-compatible landings, exactly A2 (su(3)+su(3), rank 4) is projective (EVEN, spectrum {-2:6,0:15,2:6} = B1100's banked multiset, so EXACT) while A1 (su(6)) is ODD (needs the lift) -- the object's own unlifted geometry reaches EXACTLY ONE SM-compatible landing, the one whose 27 is COMPLEX (B1100). REPRICING: projective menu log2(9)~3.17 bits, SM-facing ambiguity 0 BITS; A1's product structure (F2, same day) costs exactly 1 spin bit; the located bit = the first thing the observer pays that the object cannot (B994's limit, the torsor no-sections, the tick Z/2). Gate 5 untouched.",
+  "instrument": false,
+  "creates_law": true
+}

@@ -2373,6 +2373,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1112": {
+   "slug": "projective hatch",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B994"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B111": {
    "slug": "sign structure",
    "motifs": [

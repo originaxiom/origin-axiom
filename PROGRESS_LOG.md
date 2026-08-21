@@ -10963,3 +10963,12 @@ control — the archive auditing its auditors. The frame map cannot
 count to eight; the eighteen are two named orbits; the vanishing
 locus belongs to the words; silver's defect knows its address; and
 the wall's last deformation door turns out to have 1,656 hinges.
+
+2026-08-21 (B1112; the hatch was never a choice). The owner noticed
+the bit the pricing forgot: the object lives in PSL(2), and the lift
+to SL(2) is a spin structure it does not carry. Sweep the parity of
+all twenty strata and the mechanism falls out — nine are reachable
+without the lift, and of the two that reach the Standard Model, only
+the trinification one is. The object selects its own landing; what it
+cannot pay is the spin bit, and that bit is the observer's first
+purchase. Priced at 4.3 bits yesterday; selected at zero today.

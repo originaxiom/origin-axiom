@@ -39,8 +39,14 @@ sealed miss, kept as boundary.**
   centralizers); endpoint registerability-forced, path not (B994); global ℤ₆ form;
   hypercharge direction; termination at the SM-shaped 14-dim algebra (B860–B892).
 - **III.2 THE HATCH (the object's own lane)** — [BANKED] all 20 sl₂ strata; A2 →
-  su(3)⊕su(3) at rank EXACTLY 4; the class choice PRICED (1-of-20, ≈4.3 bits, no
-  mechanism claimed) (B1098).
+  su(3)⊕su(3) at rank EXACTLY 4. **The class choice is SELECTED, not priced (B1112,
+  the owner's spin-structure catch): the object's holonomy is PSL(2,ℂ); a stratum is
+  reachable without an inserted spin-lift iff its 27 is EVEN; 9 of 20 are, and of the
+  two SM-compatible landings EXACTLY A2 is projective (A1/su(6) needs the lift). The
+  object's own unlifted geometry reaches ONE SM landing — the complex-27 one.
+  SM-facing selection ambiguity = 0 bits; the residual is the spin bit the object
+  refuses (the observer's first payment).** The principal E₆ entrance is itself
+  projective — the main line was lift-free all along.
 - **III.3 THE LANDING** — [BANKED] the 27 is COMPLEX (witnessed, basis-free);
   trinification branching exact (B1100). Hypercharge: VALUED EXACTLY — 18 rational
   directions, complete search — and NO color-commuting direction achieves it: not

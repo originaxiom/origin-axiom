@@ -1,5 +1,30 @@
 # Changelog
 
+## B1112 THE PROJECTIVE HATCH (2026-08-21): the object's own unlifted geometry SELECTS the trinification landing — SM-facing selection ambiguity ZERO bits
+
+The owner's catch, verified three ways. B1098 priced the hatch at
+1-of-20 ≈ 4.3 bits "no mechanism claimed" — but the object's canonical
+holonomy is PSL(2,C), and the SL(2,C) lift is a spin-structure CHOICE
+(H^1(M;Z/2)=Z/2) the object does not supply. A stratum is PROJECTIVE
+(reachable with no inserted choice) iff all 27-weights of its sl2
+element are EVEN. Swept over ALL 20 e6 nilpotent strata (through
+B1098's own constructors): 9 projective, 6 of the 16 Levi-regular
+(reproducing an outside bench's independent count exactly; the
+principal E6 entrance itself EVEN — the main line was lift-free all
+along). THE SELECTION THEOREM: of B1098's two SM-compatible landings,
+EXACTLY A2 (su(3)+su(3), the COMPLEX-27 trinification) is projective
+(EVEN, spectrum = B1100's banked multiset, so EXACT) while A1 (su(6))
+is ODD and needs the lift. The object's own unlifted geometry reaches
+exactly one SM-compatible landing. REPRICING: projective menu
+log2(9)~3.17 bits, SM-facing ambiguity 0 BITS; A1's product structure
+(F2, same day: MATCH-UP-TO-FRAME) costs exactly 1 spin bit -- the
+first thing the observer pays that the object cannot (B994's honest
+limit, the torsor no-sections, the tick Z/2, now with a located
+referent). Second instance of the deflation pattern (priced choices
+dissolving under a forgotten quotient; here -I). Registry
+T-PROJECTIVE-HATCH; ROAD III.2 repriced SELECTED-not-priced. Cloud
+seat credited (PROJECTIVE_HATCH.md); the owner credited as source.
+
 ## THE MAP-FINALIZATION WAVE, part 1 (2026-08-21) — eight cells computed, cross-verified at the owner's demand, five road nodes move
 
 The owner: "finalize the map first" then "GO do them all" then "cross
