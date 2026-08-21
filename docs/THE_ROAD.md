@@ -84,8 +84,9 @@ sealed miss, kept as boundary.**
 
 - **VI.1 The action** — [BANKED] S = −Vol·σ, CS = 0 exact; c = 6σ twice-derived;
   the ω-saddle at the partition function's critical point (B1088–B1091, C1–C4).
-- **VI.2 The one-loop's Ruelle identification** — [BANKED at the audit band, harvest
-  queued] the boundary graviton product IS an infinite tower of one-dimensional
+- **VI.2 The one-loop's Ruelle identification** — [BANKED, two-bench (B1107
+  harvesting B8100→B8112: 15-sig-fig reproduction from an independent spectrum;
+  the found B8100 prose defect corrected in the harvest record)] the boundary graviton product IS an infinite tower of one-dimensional
   Ruelle zetas (GMY nome); Pfaff Thm 1.2 supplies the TAIL; B8100's error bar
   EXPLAINED (the n = 2 mode sits on the convergence abscissa)
   (B8100→B8104→B8112; main-band re-derivation queued). **The
@@ -100,6 +101,15 @@ sealed miss, kept as boundary.**
   narrow this node, it LOCATED a new difficulty inside it: the burden of making the
   boundary-mode factor a well-defined object is open (measured with a positive
   control: the S(2) increments still grow at cutoff 5.0 while S(3)'s shrink).
+- **VI.4 The arithmetic-CS analogue** — [NEGATIVE, closed 2026-08-21] arithmetic
+  Chern–Simons is finite-group-valued by construction: it supplies exactly the term
+  the object proves vanishes (CS = 0) and lacks the term the object carries (Vol,
+  archimedean) — the negative NAMES ITS CLASS, the archimedean boundary; the
+  meeting-point thesis survives as half a meeting; the boundary has at least TWO
+  candidate doors, both LEAD-ONLY — Arakelov, and the volume-conjecture/
+  quantum-modularity route (a proven surgery-side piece exists on this very knot,
+  scope-fenced closed-vs-cusped) — per the audit seat's same-day B8116
+  self-correction, adopted pre-bank (B1108).
 
 ## VII. TIME, THE OBSERVER, AND THE DIMENSION ABOVE
 

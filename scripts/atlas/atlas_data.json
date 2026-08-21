@@ -2276,6 +2276,33 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1107": {
+   "slug": "oneloop harvest",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1108": {
+   "slug": "c5 archimedean",
+   "motifs": [
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B110": {
    "slug": "off locus sector",
    "motifs": [

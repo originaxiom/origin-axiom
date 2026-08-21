@@ -1,5 +1,32 @@
 # Changelog
 
+## The harvest bank (2026-08-21): the one-loop chain at 15 significant figures + C5's negative with two doors
+
+B1107 THE ONE-LOOP HARVEST (two-bench): the audit seat's
+B8100→B8104→B8112 chain re-derived from a FRESH spectrum — log Z
+agreement 3.6e-15; the summation-order gap PROVEN pure roundoff by a
+50-digit cross-check not in the source; the 202× abscissa instability
+reproduced (201.8×); the identity verified by diagonalizing actual
+rotation matrices AND live quote-check of Pfaff (zero misquotes);
+S(2)/S(3) extended two steps with the 5.0→5.5 increment-drop flagged
+as data. B8113's three residues carried verbatim as scope. ONE DEFECT
+FOUND by the verification: B8100's prose quotes cutoff-5.0 spectrum
+counts for its 5.5 headline (true: 214 classes / 2819 geodesics);
+computation unaffected (15-digit reproduction); one-line fix relayed
+to the owning band; corrected counts banked here. Registry row
+T-RUELLE-TOWER same-PR. B1108 C5 CLOSED NEGATIVE (harvest +
+independent source verification: arXiv:1905.13610 fetched — Z/nZ
+target, compact-support machinery, zero archimedean content):
+arithmetic CS supplies exactly the term the object proves vanishes
+and lacks the term it carries; THE ARCHIMEDEAN BOUNDARY named as the
+class — with TWO candidate doors (B8116's same-day self-correction
+adopted PRE-BANK): Arakelov, and the volume-conjecture/quantum-
+modularity route (a surgery-side piece proven on this very knot,
+scope-fenced closed-vs-cusped); the CS = 0 degeneration question
+registered not asked. THE_FRAMEWORK item 6 closed-dated; THE ROAD
+VI.2 flipped two-bench, VI.4 added closed. The publication phase's
+scrutiny campaign launches on this bank's push.
+
 ## THE ROAD lands (2026-08-21) — the owner-directed living map: every node banked, named-open, or proven-free
 
 docs/THE_ROAD.md: ten sections seed→laboratory; five node states with

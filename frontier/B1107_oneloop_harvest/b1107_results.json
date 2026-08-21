@@ -1,0 +1,149 @@
+{
+ "claim1_algebraic_identity": {
+  "identity_checked": "R(k,sigma_k) = prod_[gamma] prime (1 - q_gamma^k), q=e^{-l+i*theta}",
+  "max_err_real_m004_data": 2.2215299868541707e-16,
+  "max_err_synthetic_500_trials": 1.1906624341363275e-15,
+  "method": "sigma_k built from eigen-decomposition of an actual SO(2) rotation matrix, not from typing e^{i k theta} directly"
+ },
+ "claim2a_logZ_geod": {
+  "agreement_with_banked": 3.552713678800501e-15,
+  "banked_value": -0.2729771708384004,
+  "cutoffs": [
+   2.0,
+   2.5,
+   3.0,
+   3.5,
+   4.0,
+   4.5,
+   5.0,
+   5.5
+  ],
+  "float64_vs_mpmath": 1.291189377639057e-13,
+  "logZ_by_cutoff": {
+   "2.0": -0.3388941588919548,
+   "2.5": -0.31315480183159766,
+   "3.0": -0.2921040959753032,
+   "3.5": -0.2791822865271445,
+   "4.0": -0.26608175705360304,
+   "4.5": -0.2740944904766638,
+   "5.0": -0.271015115394632,
+   "5.5": -0.27297717083840395
+  },
+  "logZ_gamma_outer_float64": -0.27297717083840395,
+  "logZ_gamma_outer_mpmath": "-0.272977170838533047916790290751545345037220462",
+  "logZ_n_outer_float64": -0.2729771708384856,
+  "logZ_n_outer_mpmath": "-0.27297717083853304791679029075154534503710491",
+  "mpmath_dps": 50,
+  "order_agreement_float64": 8.165690346118026e-14,
+  "order_agreement_mpmath": "1.15552e-40",
+  "top_cutoff": 5.5
+ },
+ "claim2b_cutoff_instability_table": {
+  "cutoffs": [
+   4.0,
+   4.5,
+   5.0,
+   5.5
+  ],
+  "last_step_ratio_n2_over_tail": 201.8128460567822,
+  "n2_term": {
+   "4.0": -0.34699155750374056,
+   "4.5": -0.35491215029858275,
+   "5.0": -0.3519498992587509,
+   "5.5": -0.35390228048582234
+  },
+  "n3plus_tail": {
+   "4.0": 0.08090980045013837,
+   "4.5": 0.08081765982191551,
+   "5.0": 0.0809347838641431,
+   "5.5": 0.0809251096473367
+  },
+  "reproduces_targets_4.0_4.5_5.0": true
+ },
+ "claim2c_S2_S3_dirichlet_sums": {
+  "extended_to": [
+   5.0,
+   5.5
+  ],
+  "reproduces_targets_4.0_4.5": true,
+  "rows": [
+   {
+    "S2": 0.7465687254410815,
+    "S3": 0.13374381225689502,
+    "cutoff": 4.0,
+    "dS2": null,
+    "dS3": null
+   },
+   {
+    "S2": 0.796785183698611,
+    "S3": 0.13442850542399998,
+    "cutoff": 4.5,
+    "dS2": 0.050216458257529406,
+    "dS3": 0.000684693167104955
+   },
+   {
+    "S2": 0.8472278276028169,
+    "S3": 0.13486731067283528,
+    "cutoff": 5.0,
+    "dS2": 0.05044264390420594,
+    "dS3": 0.00043880524883530003
+   },
+   {
+    "S2": 0.8919684604497355,
+    "S3": 0.13511203055453094,
+    "cutoff": 5.5,
+    "dS2": 0.04474063284691865,
+    "dS3": 0.0002447198816956653
+   }
+  ]
+ },
+ "class_geodesic_counts_by_cutoff": {
+  "2.0": {
+   "classes": 6,
+   "geodesics_with_multiplicity": 8
+  },
+  "2.5": {
+   "classes": 10,
+   "geodesics_with_multiplicity": 16
+  },
+  "3.0": {
+   "classes": 16,
+   "geodesics_with_multiplicity": 37
+  },
+  "3.5": {
+   "classes": 30,
+   "geodesics_with_multiplicity": 99
+  },
+  "4.0": {
+   "classes": 50,
+   "geodesics_with_multiplicity": 229
+  },
+  "4.5": {
+   "classes": 83,
+   "geodesics_with_multiplicity": 509
+  },
+  "5.0": {
+   "classes": 134,
+   "geodesics_with_multiplicity": 1221
+  },
+  "5.5": {
+   "classes": 214,
+   "geodesics_with_multiplicity": 2819
+  }
+ },
+ "cross_checked_manifold_name": "4_1",
+ "failures": [],
+ "fetch_timings_seconds": {
+  "2.0": 0.031749725341796875,
+  "2.5": 0.001373291015625,
+  "3.0": 0.002927064895629883,
+  "3.5": 0.007635354995727539,
+  "4.0": 0.0377810001373291,
+  "4.5": 0.40644383430480957,
+  "5.0": 5.804512977600098,
+  "5.5": 95.57603406906128
+ },
+ "manifold": "m004",
+ "systole": 1.0870701449957387,
+ "total_runtime_seconds": 119.24699115753174
+}

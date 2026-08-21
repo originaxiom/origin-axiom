@@ -1,0 +1,7 @@
+{
+  "id": "B1107",
+  "verdict": "PROVED",
+  "claim_one_line": "THE ONE-LOOP RUELLE IDENTITY HARVESTED (two-bench; the audit seat's B8100->B8104->B8112 chain with B8113's three residues as scope): R(k, sigma_k) = prod(1 - q^k) exactly (abelian SO(2) unwind -- verified by diagonalizing actual rotation matrices, 500 trials 1.19e-15, and by live quote-check of Pfaff arXiv:1206.0228, no misquotes), so Z_geod is an infinite tower of one-dimensional Ruelle zetas with Pfaff Thm 1.2 supplying the tail; THIS BENCH'S OWN fresh spectrum (cutoff 5.5): log Z = -0.27297717083840395, 15-sig-fig agreement (3.6e-15); summation-order gap 8.166e-14 PROVEN pure roundoff by a 50-digit mpmath cross-check (1.16e-40) not in the source arc; the 202x abscissa instability reproduces (201.8x); S(2)/S(3) extended two steps with the 5.0->5.5 S(2)-step drop flagged as data for the next extension; ONE DEFECT FOUND: B8100's prose quotes the cutoff-5.0 spectrum counts (134/1221) for its 5.5 headline -- true counts 214/2819; computation unaffected (15-digit reproduction), one-line fix relayed to the owning band; the three residues carried verbatim; Gate 5 untouched.",
+  "instrument": false,
+  "creates_law": true
+}

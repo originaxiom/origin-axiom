@@ -10945,3 +10945,12 @@ forced part plus the priced choices plus the named suppliers — and
 its most honest state is PROVEN-FREE, which this program reaches the
 way other programs reach theorems. Ten opens, all typed. The road is
 not a promise; it is an inventory.
+
+2026-08-21 (the harvest bank; two benches, one record). The one-loop
+chain crossed benches and lost nothing — fifteen significant figures
+from a spectrum fetched fresh, the one gap between summation orders
+proven to be arithmetic's own noise, and the verification paid for
+itself by catching a stale count in the source's prose. C5 closed
+negative with its boundary named and, by the audit seat's own
+same-day correction, two doors instead of one. Harvest means:
+verified twice, owned once, credited always.

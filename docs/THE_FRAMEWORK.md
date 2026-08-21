@@ -751,10 +751,17 @@ catching itself.
 5. **The cusped one-loop boundary-graviton function.** Named precisely as a bridge
    between two existing literatures (THE GRAVITY THEORY, above); research-level; the
    object's own scattering determinant is the one ingredient already in hand.
-6. **C5 — the arithmetic-CS analogue of the volume term.** Fenced, awaiting a
-   further owner-routed literature reading; sharpened by C1's finding that CS = 0 exactly,
-   which means there is no CS term left for an arithmetic analogue to attach to, only the
-   volume itself.
+6. **C5 — the arithmetic-CS analogue of the volume term: CLOSED NEGATIVE 2026-08-21
+   (the audit seat's B8115 reading, harvested B1108 with independent source
+   verification).** Arithmetic CS is finite-group-valued BY CONSTRUCTION
+   ((1/n)ℤ/ℤ; compact-support étale cohomology for real places) — it supplies
+   exactly the term C1 proved vanishes and lacks entirely the term the object
+   carries (Vol, archimedean). The negative names its class — THE ARCHIMEDEAN
+   BOUNDARY — with at least TWO candidate doors, both LEAD-ONLY: Arakelov, and
+   the volume-conjecture/quantum-modularity route (B8116's same-day correction:
+   root-of-unity data crossing to volume, a surgery-side piece proven on this
+   very knot, scope-fenced). The meeting-point thesis survives as half a
+   meeting.
 7. **The laboratory lane (L173).** A concrete, differential-first experimental proposal
    (a photonic or polariton Fibonacci-chain realization, required to show the
    energy/localization split rather than the raw edge count) is specified and unrun.
