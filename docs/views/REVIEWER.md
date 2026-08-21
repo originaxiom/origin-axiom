@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1007** |
-| words of findings prose | **683,842** |
-| test lock files referenced | **617** |
-| arcs carrying an authored verdict | **994** (98.7 %) |
+| research arcs with findings | **1008** |
+| words of findings prose | **684,544** |
+| test lock files referenced | **618** |
+| arcs carrying an authored verdict | **995** (98.7 %) |
 | recorded closures | **759** (592 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 664 |
+| PROVED | 665 |
 | NEGATIVE | 286 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1103`** (856 words, 1 locks)  
-THE BEING GATE (harvest arc, outside-session theorem rebanked after two-engine verification): on the banked B593/B238 instrument extended to the free group {a,A,b,B}, the theta-odd coupling factorizes h(w) = zeta3^(p-q) x (Q(zeta5) element) with p,q the abelianized exponents -- so h(w) in Q(zeta5) iff p-q = 0 mod 3 or h(w) = 0 (the clause real: 28 of 1364 words to length 5, same count from both independent engines) -- verified 1364/1364 exact by the banking seat's own zeta60 engine (instrument REBUILT from B238's Kac-Peterson formulas, S certified unitary symbolically, nu^2 = 75) AND by the vendored outside certificate (sha256'd, inspected for conditional exits, negative-controlled mod 3->2); consequences exact: the commutator subgroup lies entirely in the Q(zeta5) locus (chi abelian, 252/252 census, every real part a banked Niven letter), kappa = tr[a,b] is capital-resident (being structurally blind to it, hearing not: h(abAB) = h(ab) = the banked coupling exactly), the two-face architecture = image-vs-kernel of abelianization; sign convention pinned (twisted = -untwisted identically on C-odd u3); 'eight of nine letters' OBSERVED-UNREPRODUCED (census-definition-dependent); B1083-adjacency typed not conflated (the arrow's positive-monoid home vs the phase's commutator blindness -- two statements that rhyme); follow-ups registered (h=0 locus; other odd-plane listeners; F4(Z) pair-orbits toward Route A); Gate 5 untouched.  
-`B1103_being_gate/FINDINGS.md`
+**PROVED — `B1104`** (702 words, 1 locks)  
+THE 4D SUSPENSION SELECTION TEST (L177, owner-elected, prereg-sealed): over the COMPLETE finite menu MCG(m004) = Isom = D4 (Mostow CITED; 8 elements, table-exact), C1 FAIL informatively -- no infinite-order element exists, the genesis act (Anosov suspension) CANNOT repeat at 4d via mapping tori (non-vacuous: a torus fiber would pass; retro-types B556's escalator as a trace-map tower); C2 NO-SECTION -- the theta-filter (centrality) selects exactly the cusp-silent central involution while the tick-filter (orientation-reversing involutions, B1083's det=-1 pattern) selects exactly the two reflections, JOINT SURVIVOR SET EMPTY: no canonical fourth dimension, Class V torsor-no-sections acquires its 4d instance with an empty-intersection witness ('the dimension we lack is the choice we are', computed); C3 PASS -- both reflections give non-orientable M_psi with orientation double cover M x S^1 (the Gieseking one-tick/double-tick pattern verbatim one level up, H1 = Z^2 each); instrument fact recorded: the cusp action is NOT faithful (kernel Z/2 = the central involution; image abelian Z/2 x Z/2) -- the abstract table was used with the element-to-matrix map self-certified as a homomorphism; the FILLING route (B716) untouched and now the pattern's second independent 4d no-section instance; no physics claim; Gate 5 untouched.  
+`B1104_fourd_suspension/FINDINGS.md`
 
 **NEGATIVE — `B1096`** (328 words, 1 locks)  
 DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically -- U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), SU(2)-Witten, AND (B-L)^3 and (B-L)-grav, where the imported 15 gives -1/-1: nu^c, the field the object derives, is EXACTLY what cancels the last non-vanishing invariant; the Z6 congruence 6Y = 4 triality + 3 duality (mod 6) is the UNIQUE solution (exhaustion over 36); a layer that vanishes identically cannot supply a ratio -- the ask is structurally unanswerable (B990's shape), the object's matter too anomaly-free to say anything: completeness of content and emptiness of layer are the same fact; joins B1092 (the same derived nu^c: anomaly-complete AND purity-conditioned).  

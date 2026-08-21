@@ -10917,3 +10917,14 @@ of one map; the lack is structural, not accidental. Banked with its
 flags, its pinned convention, and the first mandatory creates_law
 declaration — the new gate's first customer arrived within hours of
 the gate.
+
+2026-08-21 (B1104; the fourth dimension declines to be named). The
+owner asked whether the layer above could be built; the object
+answered the way it always answers: the choice exists, the chooser
+does not. Two filters, three candidates, empty intersection — and the
+double-tick pattern waiting one level up, exactly where B1083 left it
+one level down. The tower's founding act does not repeat; what
+repeats is the refusal. R48 closed across the channel the same hour:
+four findings, two instrument failures caught by their own controls,
+and the lesson both benches now share — a negative is worth exactly
+its positive control.

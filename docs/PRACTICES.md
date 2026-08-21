@@ -730,3 +730,18 @@ window candidate.
   edit. The fourth instance was two doc corrections landed minutes into a running
   suite; self-caught, suite killed pre-push, folded forward under one fresh
   certificate. The envelope prescribed the remedy; this row removes the temptation.
+
+- **Every gate-read requirement lands in the checklist a seat actually follows, SAME
+  PR as the gate (2026-08-21; R48-F4, the audit seat's catch).** The creates_law
+  field was gate-read and schema-locked but absent from BANKING_PROTOCOL's binding
+  field list — F1's species one iteration up ("the gate exists, the protocol doesn't
+  say it"). Fixed one line; the rule here is the durable part.
+
+- **Document-negative scans carry a POSITIVE CONTROL (2026-08-21; B8109, the audit
+  seat's R48 close — adopted for every future doc sweep).** R48's lag scan ran a 6%
+  hit rate; its banner discriminator false-positived 7 of 13; and the
+  overturned-claim scan returned a false zero until a hard-wrap bug was caught BY
+  planting a known-positive. The rule: a documentation sweep's negative counts only
+  when the instrument first recovers a planted true positive — MB12's bite-control,
+  applied to documents. (Two false zeros in one review — an apostrophe and a
+  hard-wrap — both caught by controls, neither by re-reading.)

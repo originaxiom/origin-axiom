@@ -2219,6 +2219,27 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1104": {
+   "slug": "fourd suspension",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B556",
+    "B716",
+    "B770",
+    "L177"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B110": {
    "slug": "off locus sector",
    "motifs": [

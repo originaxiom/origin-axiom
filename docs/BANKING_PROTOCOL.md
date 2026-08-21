@@ -21,7 +21,9 @@ judgement rows are enforced by the independent verification in Part II.
    another name (B1–B5 among them). If the substance lives elsewhere, `FINDINGS.md` must exist and
    point at it.
 2. **`arc_verdict.json`** — `id`, `verdict`, `instrument`, `claim_one_line`, `depends_on`,
-   `supersedes`/`superseded_by`, `authored_by`.
+   `supersedes`/`superseded_by`, `authored_by`, **`creates_law` (bool; REQUIRED from B1103
+   on — a `true` demands a `THEOREM_REGISTRY.md` row in the SAME PR; the
+   `theorem-registry` gate reads it, the schema lock enforces it — R48-F4)**.
 3. **The verdict must be the right *kind*.** An arc that establishes *another* arc's claim fails is
    an **auditor doing positive work** — `PROVED`, never `RETRACTED`. `RETRACTED` is reserved for an
    arc withdrawing **its own** headline (B818; caught two mislabels on 2026-08-08).

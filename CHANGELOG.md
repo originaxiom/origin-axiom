@@ -1,5 +1,34 @@
 # Changelog
 
+## B1104 — THE 4D SUSPENSION SELECTION TEST (2026-08-21): NO SECTION — the object's own structures name different fourth dimensions + R48 CLOSES
+
+L177 (the owner's question at B1103's bank: "can the observer math
+embed one more layer up — the dimension we lack?") registered and RUN
+TO THE END the same day, owner-elected, prereg-sealed. Over the
+COMPLETE menu MCG(m004) = D₄ (Mostow, CITED; the abstract table, the
+element→matrix map self-certified): C1 — the genesis act CANNOT
+repeat at 4d (no infinite-order element; non-vacuous — a torus fiber
+would pass; retro-types B556's escalator as a trace-map tower); C2 —
+NO-SECTION: the θ-filter selects exactly the cusp-silent central
+involution, the tick-filter exactly the two reflections, JOINT
+SURVIVOR SET EMPTY — no canonical fourth dimension; Class V acquires
+its 4d instance with an empty-intersection witness ("the dimension we
+lack is the choice we are", computed); C3 — the Gieseking analog
+EXISTS: both reflections give non-orientable M_ψ double-covered by
+M×S¹, the one-tick/double-tick pattern verbatim one level up.
+Instrument fact recorded: the cusp action is NON-FAITHFUL (kernel
+ℤ/2) — a cusp-only enumeration would have silently halved the group.
+The filling route (B716) stands as the pattern's second independent
+4d no-section instance. Registry row T-4D-NOSECTION same-PR;
+creates_law true. RIDING THIS BANK: R48-F4's one-line fix
+(BANKING_PROTOCOL's field list gains creates_law) + two PRACTICES
+rows (the gate-and-checklist same-PR rule; B8109's positive-control
+discipline for document sweeps, adopted with credit). R48 CLOSED at
+the audit seat: four findings, all resolved or riding here; phases
+3–4 zero new; their own instrument failures self-caught twice and
+recorded — the review's durable output is the overturned-claim scan
+with positive control.
+
 ## B1103 — THE BEING GATE harvested (2026-08-21): the ζ₃ phase reads exactly the abelianization; κ lives where it cannot see
 
 An outside session's theorem (relayed by the owner with a

@@ -1,0 +1,195 @@
+{
+  "group": "D4 (SnapPy), order 8",
+  "hom_certified": true,
+  "antihom_certified": true,
+  "cusp_kernel_size": 2,
+  "element_orders": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4
+  ],
+  "conjugacy_class_sizes": [
+    1,
+    1,
+    2,
+    2,
+    2
+  ],
+  "center_elements": 2,
+  "rows": [
+    {
+      "elt": 0,
+      "order": 1,
+      "in_center": true,
+      "in_cusp_kernel": true,
+      "cusp_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "det": 1,
+      "suspension_orientable": true,
+      "h1_mu_coeff": 1,
+      "H1_suspension": "Z^2"
+    },
+    {
+      "elt": 1,
+      "order": 4,
+      "in_center": false,
+      "in_cusp_kernel": false,
+      "cusp_matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "det": -1,
+      "suspension_orientable": false,
+      "h1_mu_coeff": -1,
+      "H1_suspension": "Z + Z/2"
+    },
+    {
+      "elt": 2,
+      "order": 2,
+      "in_center": true,
+      "in_cusp_kernel": true,
+      "cusp_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "det": 1,
+      "suspension_orientable": true,
+      "h1_mu_coeff": 1,
+      "H1_suspension": "Z^2"
+    },
+    {
+      "elt": 3,
+      "order": 4,
+      "in_center": false,
+      "in_cusp_kernel": false,
+      "cusp_matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "det": -1,
+      "suspension_orientable": false,
+      "h1_mu_coeff": -1,
+      "H1_suspension": "Z + Z/2"
+    },
+    {
+      "elt": 4,
+      "order": 2,
+      "in_center": false,
+      "in_cusp_kernel": false,
+      "cusp_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "det": -1,
+      "suspension_orientable": false,
+      "h1_mu_coeff": 1,
+      "H1_suspension": "Z^2"
+    },
+    {
+      "elt": 5,
+      "order": 2,
+      "in_center": false,
+      "in_cusp_kernel": false,
+      "cusp_matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "det": 1,
+      "suspension_orientable": true,
+      "h1_mu_coeff": -1,
+      "H1_suspension": "Z + Z/2"
+    },
+    {
+      "elt": 6,
+      "order": 2,
+      "in_center": false,
+      "in_cusp_kernel": false,
+      "cusp_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "det": -1,
+      "suspension_orientable": false,
+      "h1_mu_coeff": 1,
+      "H1_suspension": "Z^2"
+    },
+    {
+      "elt": 7,
+      "order": 2,
+      "in_center": false,
+      "in_cusp_kernel": false,
+      "cusp_matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "det": 1,
+      "suspension_orientable": true,
+      "h1_mu_coeff": -1,
+      "H1_suspension": "Z + Z/2"
+    }
+  ],
+  "filters": {
+    "nontrivial": 7,
+    "theta_center_nontrivial": 1,
+    "tick_or_reversing_involutions": 2,
+    "joint_survivors": 0
+  },
+  "C1_escalator_repeat": false,
+  "C2_selection": "NO-SECTION",
+  "C3_gieseking_analog": true
+}
