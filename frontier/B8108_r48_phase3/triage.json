@@ -1,0 +1,157 @@
+{
+ "handled": [
+  "ARCHITECTURE.md",
+  "docs/atlas/RESEARCH_TREE.md",
+  "AUDIT_REPORT.md",
+  "docs/STRATEGIC_SYNTHESIS.md",
+  "docs/atlas/README.md",
+  "docs/TOOLBOX.md",
+  "PROVENANCE.md",
+  "GOVERNANCE.md",
+  "docs/dossiers/GATE3_nogo_pillars_confirmation.md",
+  "docs/CLOSURE_MASTERPLAN.md",
+  "docs/UNIFIED_STATE.md",
+  "docs/ROADMAP_TOE.md",
+  "docs/BANKING_PROTOCOL.md"
+ ],
+ "unhandled": [
+  {
+   "path": "docs/atlas/FAILURE_ATLAS.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 22215
+  },
+  {
+   "path": "docs/atlas/GLOSSARY.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 5718
+  },
+  {
+   "path": "docs/atlas/SUCCESS_ATLAS.md",
+   "highest_arc": 124,
+   "lag": 975,
+   "bytes": 4925
+  },
+  {
+   "path": "METHOD.md",
+   "highest_arc": 225,
+   "lag": 874,
+   "bytes": 7592
+  },
+  {
+   "path": "docs/NOVELTY_AUDIT.md",
+   "highest_arc": 329,
+   "lag": 770,
+   "bytes": 25698
+  },
+  {
+   "path": "docs/dossiers/DOSSIER_kashaev_sqrt5_novelty.md",
+   "highest_arc": 384,
+   "lag": 715,
+   "bytes": 1440
+  },
+  {
+   "path": "docs/dossiers/DOSSIER_weil_tqft_identification.md",
+   "highest_arc": 392,
+   "lag": 707,
+   "bytes": 2298
+  },
+  {
+   "path": "docs/dossiers/NOVELTY_MAP.md",
+   "highest_arc": 409,
+   "lag": 690,
+   "bytes": 9050
+  },
+  {
+   "path": "docs/RECOGNITION.md",
+   "highest_arc": 414,
+   "lag": 685,
+   "bytes": 17153
+  },
+  {
+   "path": "REPRODUCIBILITY.md",
+   "highest_arc": 577,
+   "lag": 522,
+   "bytes": 23646
+  },
+  {
+   "path": "docs/anatomy/ATLAS_V2.md",
+   "highest_arc": 581,
+   "lag": 518,
+   "bytes": 4324
+  },
+  {
+   "path": "docs/anatomy/VERDICT_LEDGER.md",
+   "highest_arc": 671,
+   "lag": 428,
+   "bytes": 11335
+  },
+  {
+   "path": "docs/dossiers/S6_theorem_inventory_cc2.md",
+   "highest_arc": 684,
+   "lag": 415,
+   "bytes": 29279
+  },
+  {
+   "path": "docs/dossiers/S8_portfolio_current_cc2.md",
+   "highest_arc": 691,
+   "lag": 408,
+   "bytes": 3545
+  },
+  {
+   "path": "docs/anatomy/EISENSTEIN_ATLAS.md",
+   "highest_arc": 695,
+   "lag": 404,
+   "bytes": 4667
+  },
+  {
+   "path": "docs/CLOSURE_PROGRAM.md",
+   "highest_arc": 767,
+   "lag": 332,
+   "bytes": 4209
+  },
+  {
+   "path": "docs/PHASE1_WRAP.md",
+   "highest_arc": 773,
+   "lag": 326,
+   "bytes": 3373
+  },
+  {
+   "path": "docs/LISTENING_PROTOCOL.md",
+   "highest_arc": 797,
+   "lag": 302,
+   "bytes": 9995
+  },
+  {
+   "path": "docs/views/COVERAGE.md",
+   "highest_arc": 801,
+   "lag": 298,
+   "bytes": 1877
+  },
+  {
+   "path": "docs/COMMS_PROTOCOL.md",
+   "highest_arc": 920,
+   "lag": 179,
+   "bytes": 5925
+  },
+  {
+   "path": "docs/THEOREM_REGISTRY.md",
+   "highest_arc": 920,
+   "lag": 179,
+   "bytes": 23787
+  },
+  {
+   "path": "docs/GUT_REQUIREMENTS_LEDGER.md",
+   "highest_arc": 952,
+   "lag": 147,
+   "bytes": 5919
+  },
+  {
+   "path": "docs/STRUCTURE_TO_NATURE_MASTERPLAN.md",
+   "highest_arc": 968,
+   "lag": 131,
+   "bytes": 43836
+  }
+ ]
+}

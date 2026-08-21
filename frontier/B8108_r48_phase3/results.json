@@ -1,0 +1,39 @@
+{
+ "already_verified_findings": [
+  "docs/THEOREM_REGISTRY.md",
+  "docs/GUT_REQUIREMENTS_LEDGER.md"
+ ],
+ "candidates_in": 36,
+ "caveat_on_own_instrument": "the discriminator is a header regex with false positives -- BANKING_PROTOCOL appears in the handled set and is NOT superseded, being 'standing and binding for every seat'; the 13 are candidates for a second pass, not a cleared list. My discriminator is a candidate-generator too.",
+ "correctly_handled_banner": 13,
+ "discriminator": "a supersession or archival banner in the header -- learned from ROADMAP_TOE, which carries '\u26a0 SUPERSEDED 2026-08-08 by THE_FRAMEWORK.md ... retained as the record', then mechanized rather than rediscovered 35 more times",
+ "dissolution_rate": "36% of the candidate list dissolved on one mechanical test -- the B8105 caveat (lag is a candidate-generator, not a verdict) paying for itself",
+ "general_remedy": "for most of the remaining 21 the fix is a BANNER, not a rewrite -- rewriting a superseded document to current state is often wrong; freezing it honestly and pointing forward is right, and costs one line",
+ "genuinely_untriaged": 21,
+ "handled_paths": [
+  "ARCHITECTURE.md",
+  "docs/atlas/RESEARCH_TREE.md",
+  "AUDIT_REPORT.md",
+  "docs/STRATEGIC_SYNTHESIS.md",
+  "docs/atlas/README.md",
+  "docs/TOOLBOX.md",
+  "PROVENANCE.md",
+  "GOVERNANCE.md",
+  "docs/dossiers/GATE3_nogo_pillars_confirmation.md",
+  "docs/CLOSURE_MASTERPLAN.md",
+  "docs/UNIFIED_STATE.md",
+  "docs/ROADMAP_TOE.md",
+  "docs/BANKING_PROTOCOL.md"
+ ],
+ "mode": "COLD",
+ "no_banner": 23,
+ "no_document_edited": true,
+ "phase": 3,
+ "remedy_already_in_corpus": [
+  "the supersession banner: freeze, date, point at the live document (ROADMAP_TOE -> THE_FRAMEWORK)",
+  "the live-state pointer: UNIFIED_STATE moved into the handled set because cc added one in the F2 response -- R48-F3 addressed by the same pattern"
+ ],
+ "review": "R48",
+ "scope": "Phase 3 bounds B8105's list and identifies the remedy pattern. 21 surfaces remain untriaged; the 13 'handled' need a confirming read. R48 reports, it does not repair. Gate 5 untouched.",
+ "window_head": "07e46c7f"
+}

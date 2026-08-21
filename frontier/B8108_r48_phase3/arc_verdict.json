@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "R48 PHASE 3: 13 OF 36 CANDIDATES DISSOLVE ON ONE MECHANICAL TEST, AND THE REMEDY ALREADY EXISTS IN-CORPUS. The discriminator was learned from one manual check: docs/ROADMAP_TOE.md, the highest-value candidate at lag 119 carrying none of B1094/B1098/B1100, is NOT a defect -- its header reads 'SUPERSEDED 2026-08-08 by THE_FRAMEWORK.md ... retained as the record', so it is deliberately frozen, banner-marked and pointing at the live document, which the lag scan could not see. That check taught the discriminator, which was then MECHANIZED rather than rediscovered 35 more times. RESULT: of 36 undated live surfaces lagging 100+ arcs, 13 are CORRECTLY HANDLED with a supersession or archival banner -- including the four worst lags, ARCHITECTURE.md (975), RESEARCH_TREE.md (975), AUDIT_REPORT.md (946) and STRATEGIC_SYNTHESIS.md (866) -- 23 carry no banner, of which 2 are the already-verified findings (THEOREM_REGISTRY, GUT_REQUIREMENTS_LEDGER, both since resolved post-window), leaving 21 genuinely untriaged. 36% of the candidate list dissolved on a single mechanical test, which is the B8105 caveat -- lag is a candidate-generator, not a verdict -- paying for itself. THE REMEDY IS ALREADY IN THE CORPUS in two forms: the supersession banner (freeze, date, point at the live document) and the live-state pointer, UNIFIED_STATE having moved into the handled set because cc added one in the F2 response, which is R48-F3 addressed by the same pattern. So for most of the remaining 21 the fix is a BANNER rather than a rewrite: rewriting a superseded document to current state is often wrong, while freezing it honestly and pointing forward is right and costs one line. CAVEAT ON THIS SEAT'S OWN INSTRUMENT: the discriminator is a header regex with false positives -- BANKING_PROTOCOL appears in the handled set and is NOT superseded, being 'standing and binding for every seat', so the 13 are candidates for a second pass and not a cleared list; the discriminator is itself a candidate-generator. SCOPE: phase 3 bounds the list and names the remedy; 21 remain untriaged, the 13 need a confirming read, and NO DOCUMENT WAS EDITED -- R48 reports, it does not repair. Gate 5 untouched.",
+ "depends_on": [
+  "B8105",
+  "B8106",
+  "B8107"
+ ],
+ "id": "B8108",
+ "instrument": true,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

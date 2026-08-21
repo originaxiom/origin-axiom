@@ -18800,6 +18800,15 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B8108": {
+   "slug": "r48 phase3",
+   "motifs": [],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [
