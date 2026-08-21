@@ -11002,3 +11002,13 @@ cc's harvest found B8100's geodesic counts stale: 134 classes and 1221 geodesics
 cc also supplied the S(2) value at cutoff 5.5 and called it non-contradicting since my table stopped at 5.0. I do not accept that reading. B8113 asserted as a gate that the last two increments were flat to within 1 percent; with the 5.5 point the change is 11.3 percent. The flat claim was a two-point artifact and is retracted in results, prose and lock.
 
 The replacement is stronger than what it replaces. Logarithmic divergence predicts increments decaying like dL/L, so flat increments would have indicated something worse. Observed ratio 1.127 against a predicted 1.105, while S(3) sits at 1.793 and is geometric. The conclusion never moved: the load-bearing fact was always Pfaff's abscissa.
+
+## 2026-08-21 — B8117, L172 and the last item on the plate
+
+There is no Fibonacci-anyon device. Every demonstration to date simulates Fibonacci string-nets on a gate-based processor: 27 transmons in the 2024 result, with fusion and braiding shown by applying unitary gates on the underlying physical qubits, and the 2026 universality result uses S_3 rather than Fibonacci and needs fusion as a primitive. Compilation runs from unitary to braid, so the braid is a compiler output given a target, never a measurement.
+
+That makes the negative decisive rather than early. A golden-ratio structure in a compiled braid is put in by the simulation, not read out of hardware, so a dictionary typed against real hardware claims has no hardware to type against. The boundary is simulation versus realization, not precision, and no qubit count crosses it.
+
+It composes with B8111: the discriminating values are compiler inputs on a simulated braid, so the resolution requirement is unmeetable in principle. The anyon-device route to L179 is closed, and the surviving anchor is B8094's condensed-matter catalogue, where the phason is a physical dial. Of two candidate anchors, this lane says which is live.
+
+The owner-routed websearch package is now complete on this side: lanes 3, 4, 5 and 6 delivered.

@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "L172 ANSWERS NEGATIVELY AND THE NEGATIVE IS DECISIVE: THERE IS NO FIBONACCI-ANYON DEVICE. Every demonstration to date is a DIGITAL SIMULATION of Fibonacci string-nets on a gate-based processor. The 2024 superconducting result (arXiv:2404.00091; Nat. Phys. s41567-024-02529-6) simulates the string-net on 27 TRANSMONS and demonstrates fusion and braiding 'by applying unitary gates on the underlying physical qubits'; the 2025 Nature Communications string-net condensation result has the same shape; and the current hardware state of the art for UNIVERSALITY (Nature s41586-026-10709-y, 15 July 2026, 54 qubits on Quantinuum H2) uses non-Abelian S_3 rather than Fibonacci and reaches universality only by treating FUSION as a computational primitive alongside braiding. On the compilation side, Kliuchnikov-Bocharov-Svore (PRL 112, 140504 (2014); arXiv:1310.4150) run unitary -> braid: the braid is a compiler OUTPUT given a target, never a measurement. THE CONSEQUENCE FOR THE TORSOR-TO-GATE DICTIONARY: a golden-ratio structure in a compiled Fibonacci braid is PUT IN by the simulation, not READ OUT of hardware, so a dictionary typed 'against real hardware claims' has NO HARDWARE TO TYPE AGAINST, and any crossing resting on native realization would be CIRCULAR. THE CLASS NAMED: anything requiring a NATIVE non-abelian golden substrate; the boundary is SIMULATION vs REALIZATION, which no improvement in qubit count or fidelity crosses, since the golden content enters through the compiler at every scale. AND IT COMPOSES WITH B8111: the discriminating content is phi/2 and 1/(2phi) at resolution better than 0.101910213188, and on a simulated braid those are INPUTS TO THE COMPILER -- one cannot measure to 0.1019 a quantity one supplied -- so THE ANYON-DEVICE ROUTE TO L179 IS CLOSED FOR NOW and the surviving route is the condensed-matter one catalogued in B8094, where the golden structure sits in the MATERIAL and the phason is a physical dial. NOT FOUND, recorded rather than dropped: Parzanchevski-Sarnak 'golden gates' did not appear in the returned results and is NOT cited. A literature pass dated 2026-08-21 at abstract/summary level, declared. Establishes what HOSTS the Fibonacci anyons in each demonstration -- material or processor -- which is the only question L172 asked. Does NOT assess any experiment's fidelity, and does not claim a native device is impossible, only that none exists in the literature reached. Gate 5 untouched.",
+ "creates_law": true,
+ "depends_on": [
+  "B8111",
+  "B8094",
+  "B8091"
+ ],
+ "id": "B8117",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "NEGATIVE"
+}

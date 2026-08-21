@@ -2015,3 +2015,9 @@ The C5 negative names the **archimedean place** as the boundary. In **Arakelov**
 **Fence, and it is why this is a lead and not a result:** those are **surgeries — closed manifolds** — while our object is the **cusped complement**. Adjacent, not identical.
 
 **The askable question, registered unanswered:** our CS is **zero** exactly (B1012), and AH's proved statement equates stationary-phase values with classical CS invariants — **what does that equality degenerate to when the CS invariant vanishes?** Needs the full text and an argument bridging surgeries to the complement. **Neither has been done.**
+
+## L179 — NARROWED 2026-08-21 (B8117): the anyon-device route is CLOSED
+
+L179 asked whether there is a measured, scale-divided spectral quantity that can land on `φ/2` rather than `√2/2` at resolution better than `0.1019`. **One of its two candidate anchors is now eliminated.** **There is no Fibonacci-anyon device** — every demonstration is a digital simulation on a gate-based processor, and compilation runs **unitary → braid**, so **the golden content is a compiler input, not a measurement.** One cannot measure to `0.1019` a quantity one supplied: **unmeetable in principle, not in practice.**
+
+**The surviving anchor is B8094's condensed-matter catalogue** — photonic and cold-atom quasicrystals, where the golden structure is **in the material** and the **phason is a physical dial**. L179 now points at exactly one lane, which is the same lane the edge prereg builds on.

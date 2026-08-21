@@ -18948,6 +18948,22 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B8117": {
+   "slug": "l172 anyon devices",
+   "motifs": [
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "H2",
+    "L172",
+    "L179"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [
