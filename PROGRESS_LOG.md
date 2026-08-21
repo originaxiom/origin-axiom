@@ -11005,3 +11005,18 @@ central sign operator), a stronger no-go than B1087; the freedom
 ledger's three bits are not one mechanism. The structural crossing is
 made and forced (39/43 chain-links, C6→C17 axiom-free); the value
 crossing is unlocked, not yet walked. Suite green; both remotes advanced.
+
+**2026-08-21 — THE REFLECTION WAVE + VALUE CAMPAIGN V-1 (B1123, B1124).**
+The adelic crossing consolidated across seven synthesis surfaces; the
+forcedness recovered and drift-locked (B1123: 39/43 forced, C6→C17
+axiom-free, verified on this bench, fails on drift); B1117 strengthened
+to two-seat two-route (cc3's ζ-free analytic cross-check of the volume,
+40 digits, difference 0.0). A fresh-eyes reader caught two issues, both
+fixed. Then V-1 (B1124): the tower's arithmetic EXTENDS to
+C₃ = (724351/12597120)·√3·π³·C₀ (36 digits, monotonic cross-window
+convergence, N→35M, verified this bench) — the odd-k → √3 parity law at
+a third order — with a disclosed anomaly: the denominator carries a
+factor of 5, breaking the {2,3}-smoothness of C₁/C₂ (possibly the
+object's √5/E₈ end). C₄ precision-floored. The value door is further
+confirmed arithmetic, still not walked; V-2 (compact color) computing,
+V-3 (the identification) owner-gated.

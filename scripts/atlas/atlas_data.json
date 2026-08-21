@@ -2604,6 +2604,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1124": {
+   "slug": "allorders arithmetic",
+   "motifs": [
+    "metallic",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "L180"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B112": {
    "slug": "closed form proof",
    "motifs": [

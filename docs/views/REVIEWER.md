@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1027** |
-| words of findings prose | **695,601** |
-| test lock files referenced | **633** |
-| arcs carrying an authored verdict | **1014** (98.7 %) |
+| research arcs with findings | **1028** |
+| words of findings prose | **696,222** |
+| test lock files referenced | **634** |
+| arcs carrying an authored verdict | **1015** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 682 |
+| PROVED | 683 |
 | NEGATIVE | 287 |
 | OPEN | 35 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1123`** (496 words, 1 locks)  
-THE FORCEDNESS CENSUS (harvest from cc3 branch b775 / 27d9ceb9; owner-directed 'we proved it over and over and somehow we lost it'; verified this bench): a checker regenerates the census from docs/THEOREM_LEDGER.md's 43 link labels -- THEOREM 26 / IDENTITY 6 / NO-GO 5 / AXIOM 4 / COROLLARY 1 / CENSUS 1 -> FORCED (non-axiom) 39 of 43, axioms at [3,4,5,18], axioms in C6..C17 (knot->algebra) NONE. So between the object and the algebra there is NOT ONE declared choice; the four axioms are C3/C4/C5 (frame: inexhaustible description, geometric carrier, orientation -- all before the knot) and C18 (the observer's closings, after the algebra is in hand). The doorway is THREE THEOREMS not a selection: level 15 = 3*5 (CRT) -> SL(2,3)xSL(2,5) -> 2T,2I -> (McKay) E6,E8, so E6 is not chosen, it is what level 15 factors into. VERIFIED: runs against current main's ledger (39/43 PASS, a property of the actual bank); NON-VACUOUS (MB12) -- relabel an in-stretch THEOREM->AXIOM trips 3 alarms + exit 1, an unparseable ledger FAILS not passes. BOUNDARY: C3/C4/C5 real choices upstream; 'from the substitution to E6 nothing is chosen' is exact; reaching E6 is separately GENERIC (B993/B996) so forcedness != discriminating power, this makes only the first claim. Fixes the presentation fossil: the program presented E6 as a choice when it is forced. THE_CLAIM 1's type-J row flagged for retyping (note-beside, not silent count change).  
-`B1123_forcedness_census/FINDINGS.md`
+**PROVED — `B1124`** (621 words, 1 locks)  
+V-1 ALL-ORDERS ARITHMETIC (value-campaign cell; extends B1120/L180): does the Kashaev tower's trace-field arithmetic continue past C2? THE PARITY LAW EXTENDS TO C3 -- C3 = (724351/12597120)*sqrt3*pi^3*C0, odd k -> rational x sqrt3 EXACTLY as the reality-parity law predicts, recognized to 36 digits with MONOTONIC cross-window convergence (14->20->27->32->36 as independent larger-N windows N->35,000,000 are added -- the signature of a genuine relation, not a maxcoeff artifact), reproduced on 4 algebraically-related bases, all 11 wrong-basis/wrong-parity controls null at maxcoeff 20M. Re-verified this bench: the closed form matches the computed pooled C3 to ~36 digits and the pipeline reproduces the banked C1/C2 to 40+ digits. ANOMALY disclosed: denom 12597120 = 2^7*3^9*5 is NOT {2,3}-smooth (the factor of 5 breaks C1's 108=2^2 3^3 and C2's 7776=2^5 3^5) -- so all-orders holds in the PARITY sense but the smoothness grows a prime; the naive Euler-product-over-{2,3} picture is too simple. FENCES: (1) detection not derivation (PSLQ recognition, as C1/C2; cc3's L180 fence carried -- strengthens 'value door opens onto reproducing arithmetic', does not open it to a value); (2) trust layered -- the ultra-conservative all-windows metric rates C3 at 14 digits (verdict field PRECISION-FLOOR, untouched), the 36-digit confirmation uses the large-N-windows (W3/W4/W5) bound of 27 digits, justified by the monotonic pattern not a post-hoc relaxation. C4 = genuine PRECISION-FLOOR (21 digits, height beyond reach). Firewalled motivation (labeled, NOT a claim): 5 = the object's OTHER end (Q(sqrt5), E8), a concrete next probe (factor C5/C7 denominators, watch 5's exponent). Gate 5 untouched.  
+`B1124_allorders_arithmetic/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

@@ -1,0 +1,275 @@
+{
+ "C3": {
+  "large_window_trust_digits": 27,
+  "pslq_dps": 24,
+  "pass1_original_maxcoeff": {
+   "1": {
+    "any_hit": false,
+    "best": null,
+    "expected": null
+   },
+   "pi": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q(sqrt3)"
+   },
+   "2pi": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q(sqrt3)"
+   },
+   "pi/sqrt3": {
+    "any_hit": true,
+    "best": {
+     "basis": "Q",
+     "maxcoeff": 3000000,
+     "dps": 24,
+     "relation": [
+      1399680,
+      -724351
+     ],
+     "found": true
+    },
+    "expected": "Q"
+   },
+   "2pi/sqrt3": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q"
+   },
+   "pi*sqrt3": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q"
+   },
+   "2pi*sqrt3": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q"
+   },
+   "sqrt3": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q"
+   },
+   "1/sqrt3": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q"
+   },
+   "4pi": {
+    "any_hit": false,
+    "best": null,
+    "expected": "Q(sqrt3)"
+   },
+   "pi^2": {
+    "any_hit": false,
+    "best": null,
+    "expected": null
+   }
+  },
+  "pass2_extended_maxcoeff_pi_family": {
+   "pi": {
+    "expected": "Q(sqrt3)",
+    "Q": null,
+    "Qsqrt3": [
+     12597120,
+     0,
+     -724351
+    ]
+   },
+   "2pi": {
+    "expected": "Q(sqrt3)",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "pi/sqrt3": {
+    "expected": "Q",
+    "Q": [
+     1399680,
+     -724351
+    ],
+    "Qsqrt3": [
+     -1399680,
+     724351,
+     0
+    ]
+   },
+   "2pi/sqrt3": {
+    "expected": "Q",
+    "Q": [
+     -11197440,
+     724351
+    ],
+    "Qsqrt3": [
+     11197440,
+     -724351,
+     0
+    ]
+   },
+   "pi*sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "2pi*sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "4pi": {
+    "expected": "Q(sqrt3)",
+    "Q": null,
+    "Qsqrt3": null
+   }
+  },
+  "candidate": {
+   "q3_numerator": 724351,
+   "q3_denominator": 12597120,
+   "relation_pi_basis": [
+    12597120,
+    0,
+    -724351
+   ]
+  },
+  "q3_numerator_factors": "{53: 1, 79: 1, 173: 1}",
+  "q3_denominator_factors": "{2: 7, 3: 9, 5: 1}",
+  "direct_value_comparison": [
+   {
+    "window": "W1",
+    "K": 9,
+    "diff": "3.36106e-15",
+    "agree_digits": 14
+   },
+   {
+    "window": "W2",
+    "K": 9,
+    "diff": "1.04519e-21",
+    "agree_digits": 20
+   },
+   {
+    "window": "W3",
+    "K": 9,
+    "diff": "6.47568e-28",
+    "agree_digits": 27
+   },
+   {
+    "window": "W4",
+    "K": 9,
+    "diff": "2.39899e-33",
+    "agree_digits": 32
+   },
+   {
+    "window": "W5",
+    "K": 9,
+    "diff": "7.77527e-37",
+    "agree_digits": 36
+   },
+   {
+    "window": "POOLED",
+    "K": 16,
+    "diff": "1.74236e-36",
+    "agree_digits": 35
+   }
+  ],
+  "monotonic_with_N": true,
+  "wrong_basis_controls_extended_maxcoeff": {
+   "pi": null,
+   "2pi": null,
+   "pi/sqrt3": [
+    -1399680,
+    724351,
+    0
+   ],
+   "2pi/sqrt3": [
+    11197440,
+    -724351,
+    0
+   ],
+   "pi*sqrt3": null,
+   "2pi*sqrt3": null,
+   "4pi": null,
+   "1": {
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "sqrt3": {
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "1/sqrt3": {
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "pi^2": {
+    "Q": null,
+    "Qsqrt3": null
+   }
+  }
+ },
+ "C4": {
+  "large_window_trust_digits": 21,
+  "pslq_dps": 18,
+  "safe_maxcoeff_Q": 10000000,
+  "safe_maxcoeff_Qsqrt3": 10000,
+  "sweep": {
+   "1": {
+    "expected": null,
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "pi": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "2pi": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "pi/sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "2pi/sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "pi*sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "2pi*sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "1/sqrt3": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "4pi": {
+    "expected": "Q",
+    "Q": null,
+    "Qsqrt3": null
+   },
+   "pi^2": {
+    "expected": null,
+    "Q": null,
+    "Qsqrt3": null
+   }
+  },
+  "any_hit": false,
+  "note": "clean null at this precision-calibrated ceiling; a real relation, if it exists, needs either more N (more trusted digits) or happens to sit beyond the safe search height at the current precision -- genuinely undecided, not a negative claim."
+ }
+}

@@ -1,5 +1,30 @@
 # Changelog
 
+## THE REFLECTION WAVE + VALUE CAMPAIGN V-1 (2026-08-21): the adelic crossing consolidated, the forcedness recovered (B1123), and the tower's arithmetic extended to C₃ (B1124)
+
+The owner-approved reflection wave threaded the adelic crossing across
+seven synthesis surfaces (README, THE_FRAMEWORK's ADELIC COMPLETION
+capstone, TERMINOLOGY, THE_END_TO_END_CHAIN Part 0.5, THE_CLAIM's fossil
+note, INDEX, THE_ROAD's §X F10 re-census). B1123 THE FORCEDNESS CENSUS:
+cc3's checker verified on this bench -- 39 of 43 chain-links forced
+against current main, the stretch C6->C17 axiom-free, and it FAILS
+non-vacuously on drift; E6 is not chosen, it is what level 15 factors
+into. B1117 strengthened to two-seat two-route: cc3's independent
+ζ-free analytic cross-check of the volume (Vol = (3√3/2)L(χ₋₃,2), no
+zeta_K in the route), re-verified 40 digits, difference 0.0. A fresh-eyes
+reader caught two issues (forcedness buried in README, an unbridged
+3-vs-4 axiom count in Part 0.5), both fixed. Then VALUE CAMPAIGN V-1
+(B1124): the tower's trace-field arithmetic EXTENDS to
+C₃ = (724351/12597120)·√3·π³·C₀ -- the odd-k → √3 parity law holding at a
+THIRD order, recognized to 36 digits with monotonic cross-window
+convergence (N→35,000,000), verified this bench. Disclosed anomaly: the
+denominator 2⁷·3⁹·5 is NOT {2,3}-smooth (unlike C₁'s 108, C₂'s 7776) --
+the smoothness grows a prime (5, possibly the object's √5/E₈ end, a next
+probe). C₄ precision-floored. Registry ×2 (T-FORCEDNESS, T-ALLORDERS);
+atlas/views/spine regen. The value door is further confirmed arithmetic,
+still not walked; V-2 (compact color) computing, V-3 (the identification)
+owner-gated.
+
 ## THE BREAKTHROUGH PACKET, part 2 (2026-08-21): the adelic object, the deflation P-bit, the anomaly, and the make-or-break — POSITIVE at two orders
 
 The remaining four golden_gate memos plus the two global-object thesis
