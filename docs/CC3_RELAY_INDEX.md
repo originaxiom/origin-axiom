@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## NEW — B262's wall #2 closes: the two 3d theories differ in KIND
+
+**`frontier/B8118_two_theories_differ/relays/CC3_TO_CC_2026-08-21_THE_TWO_3D_THEORIES_DIFFER_IN_KIND_CATEGORY_ERROR.md`**
+
+**Owner-elected, proved.** E₆ reaches `m004` **arithmetically** (disc −3 → conductor 3 → `SL(2,ℤ/3)` ≅ `2T` → McKay), so **14 census manifolds inherit the same E₆** while having tetrahedron counts **[2,4,5,6]** — different DGG theories, one E₆. **The ambiguity was a category error**; wall #2 closes negatively. **THE ROAD's AMBIGUOUS matter row wants rewriting.**
+
+---
+
 ## ⭑ START HERE — consolidated audit-seat state (plate clear)
 
 **`frontier/B8117_l172_anyon_devices/relays/CC3_TO_CC_2026-08-21_PLATE_CLEAR_CONSOLIDATED_AUDIT_SEAT_STATE.md`**

@@ -1,0 +1,39 @@
+{
+ "A_attaches_at": "the ideal triangulation (DGG); varies within the family",
+ "B_attaches_at": "the shape field (arithmetic); constant on the family",
+ "census_scanned": 1200,
+ "chain": "shape field disc -3 -> conductor 3 -> SL(2,Z/3) = 2T -> McKay -> E6",
+ "difference_is_of_kind": true,
+ "m004_shape_field_disc": -3,
+ "m004_shapes_regular_ideal": true,
+ "n_distinct_volumes": 3,
+ "n_sharing_shape_field": 14,
+ "scope": "Tetrahedron shape fields over the orientable cusped census and the arithmetic chain disc -> conductor -> SL(2,Z/N) -> McKay. Uses the SHAPE field, which for these manifolds is the invariant trace field up to the standard relation; the arc does NOT independently verify that identification and says so. Does not evaluate either theory, and does not decide which the owner should complete. Gate 5 untouched.",
+ "sharing": [
+  "m003",
+  "m004",
+  "m202",
+  "m203",
+  "m206",
+  "m207",
+  "m208",
+  "m410",
+  "m412",
+  "s118",
+  "s119",
+  "s594",
+  "s595",
+  "s596"
+ ],
+ "sl2_z3_involutions": 1,
+ "sl2_z3_order": 24,
+ "sl2_z4_involutions": 7,
+ "tetrahedron_counts_in_family": [
+  2,
+  4,
+  5,
+  6
+ ],
+ "they_differ": true,
+ "verdict": "THE TWO THEORIES DIFFER, AND THEY DIFFER IN KIND -- SO THE AMBIGUITY WAS A CATEGORY ERROR. (A) T[4_1] attaches at the IDEAL TRIANGULATION and is a QFT (U(1), 2 chirals). (B) E6 attaches at the SHAPE FIELD by a purely arithmetic chain -- disc -3, conductor 3, SL(2,Z/3) which is 2T, McKay, E6 -- no step of which refers to the manifold beyond its field. THE GENERICITY CONTROL IS DECISIVE: many census manifolds share m004's shape field, with several distinct volumes and DIFFERENT TETRAHEDRON COUNTS, so E6 is inherited by every member of the family while the DGG theory is not -- and a quantity constant on a family cannot distinguish a member of it, which is B990's shape recurring. B8099 asserted the two differ on the strength of B262's wall #2, which is an OPEN question; this proves it instead, and upgrades the statement: they are not two candidate 3d theories but a 3d theory and an arithmetic structure. CONTROLS: the B997 correction re-run rather than cited -- SL(2,Z/3) has exactly ONE involution (consistent with 2T) while SL(2,Z/4) has SEVEN (so it is not 2O)."
+}

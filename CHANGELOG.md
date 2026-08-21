@@ -1,5 +1,9 @@
 # Changelog
 
+## B8118 — the two 3d theories differ in KIND (2026-08-21)
+
+Owner-elected: prove they differ before choosing. **Proved.** E₆ reaches `m004` by a purely arithmetic chain (disc −3 → conductor 3 → `SL(2,ℤ/3)` ≅ `2T` → McKay), so **14 of 1200 census manifolds inherit the same E₆** — with 3 distinct volumes and tetrahedron counts **[2,4,5,6]**, hence **different DGG theories and one E₆**. **The ambiguity was a category error**: (A) attaches at the triangulation and is a QFT, (B) attaches at the shape field and is arithmetic. **B262's wall #2 closes negatively.**
+
 ## B8117 — L172: no Fibonacci-anyon device exists (2026-08-21)
 
 Every demonstration is a **digital simulation** on a gate-based processor; the **universality** result (`s41586-026-10709-y`) is **S₃, not Fibonacci**, and needs fusion as a primitive. Compilation runs **unitary → braid**, so a golden structure in a braid is **put in, not read out**. **Class named: the boundary is SIMULATION vs REALIZATION, not precision.** **Composes with B8111 to close the anyon route to L179**, leaving B8094's condensed-matter route as the live anchor.

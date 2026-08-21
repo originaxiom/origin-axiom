@@ -18964,6 +18964,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8118": {
+   "slug": "two theories differ",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B262",
+    "B990",
+    "B997"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

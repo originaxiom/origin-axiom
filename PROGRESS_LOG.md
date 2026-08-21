@@ -11012,3 +11012,11 @@ That makes the negative decisive rather than early. A golden-ratio structure in 
 It composes with B8111: the discriminating values are compiler inputs on a simulated braid, so the resolution requirement is unmeetable in principle. The anyon-device route to L179 is closed, and the surviving anchor is B8094's condensed-matter catalogue, where the phason is a physical dial. Of two candidate anchors, this lane says which is live.
 
 The owner-routed websearch package is now complete on this side: lanes 3, 4, 5 and 6 delivered.
+
+## 2026-08-21 — B8118, the two 3d theories
+
+The owner asked whether I had finished the 3d goal. I had not, and checking the record showed the reason: B8099's checklist still stands at six present, one partial, one ambiguous, three missing, and the ambiguous row is the matter spectrum -- exactly the half the owner's goal turns on. I had worked the gravity sub-line to a conclusion and never returned to it.
+
+Offered the choice of which theory to complete, the owner elected neither: prove they differ first. Done. E6 reaches the object by a purely arithmetic chain from the shape field, so every manifold with that field inherits it -- 14 of 1200 census manifolds do, with three distinct volumes and tetrahedron counts 2, 4, 5 and 6. One E6, different DGG theories. A quantity constant on a family cannot distinguish a member of it.
+
+So the two were never rival descriptions of one theory. One attaches at the triangulation and is a QFT; the other attaches at the field and is arithmetic. The ambiguity was a category error, and B262's wall #2 closes negatively.
