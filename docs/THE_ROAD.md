@@ -180,7 +180,7 @@ sealed miss, kept as boundary.**
 
 The full theory, in the proven sense, equals: **everything above marked [BANKED],
 plus this priced list of what is genuinely free, plus the named external
-suppliers.** Current census of the free: the torsor basepoint; C and P (2 bits); the
+suppliers.** Current census of the free: the torsor basepoint; C and P (2 bits, P now typed as the deflation mirror — B1118); the spin lift (1 bit, PAIR-INVISIBLE — B1122/L179, a central torsor no coupling reads, the deepest-located free bit); the
 A2 stratum (≈4.3 bits); the hypercharge direction among 18 (≈4.17 bits, orbit-lead
 pending); the ρ/phason intercept (the experiment's own dial — B8091: slope forced,
 intercept free); the 4d suspension (3 distinguished candidates, no section); the 4d
@@ -198,3 +198,17 @@ VIII.3-minor, plus L175 (the h = 0 locus) — **ten genuine open nodes (one carr
 three residues), two minor, none unpriced, none untyped.** Every one has a named
 next computation or a named external dependency. Nothing on this map is a mystery;
 everything is either done, priced, or pointed at.
+
+**Re-census 2026-08-21 (the packet B1102–B1122).** The structural crossing is made and now
+known to be FORCED — 39 of 43 chain-links, the stretch C6→C17 axiom-free (B1123, checker-
+gated: `scripts/checks/forcedness_census.py`); VII.4–VII.8 landed BANKED (the SM landing
+selected, Lorentz + color, the freedom ledger closed and non-fusing, the adelic reading).
+The **VALUES** frontier changed status: the door long excluded is **UNLOCKED onto
+arithmetic** — L180 (B1120) positive at two orders, the tower's sub-leading coefficients
+trace-field arithmetic — but **not open** (no SM number; C₁/C₂ are PSLQ detections, C₃
+precision-gated; cc3's fence carried). That converts the old "values = the one wall" into a
+sharper single open node: **THE IDENTIFICATION** — which tower / period / measurement is an
+SM ratio (the value campaign's V-3, its crux and its falsifier). The map's open count is
+unchanged; its center of gravity has moved from *"is there a value channel at all?"*
+(answered: yes, arithmetic, reproducing) to *"does any object-period equal an SM number?"*
+(open, and cleanly falsifiable).

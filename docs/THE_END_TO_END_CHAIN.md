@@ -30,6 +30,46 @@ three priced axioms, disclosed. In sense (3) — two numbers and one firewall.
 
 ---
 
+## PART 0.5 — THE FORCEDNESS CENSUS
+*(gate: `scripts/checks/forcedness_census.py` — regenerates from `docs/THEOREM_LEDGER.md`
+and FAILS on drift; B1123, verified against current main: 39 of 43, PASS)*
+
+Part 0 counts what the chain COSTS. This counts what it CHOOSES — and the two are one
+argument stated twice.
+
+| label | count |  | label | count |
+|---|---|---|---|---|
+| THEOREM | 26 |  | NO-GO | 5 |
+| IDENTITY | 6 |  | COROLLARY | 1 |
+| AXIOM | **4** |  | CENSUS | 1 |
+
+**39 of 43 links are FORCED.** The four axioms are **C3, C4, C5** — inexhaustible
+description, the geometric carrier, orientation, **all BEFORE the knot** — and **C18**,
+the observer's closings, in the measurement layer **after the algebra is already in hand**.
+*(This is Part 0's **three** genesis choices — C3/C4/C5 — plus one: Part 0 counts the
+choices made **at the genesis**, this census counts **every** axiom in the chain, and the
+one extra is C18, the observer's closing act **downstream** of the algebra. Three and four
+are consistent, not competing — the same argument, one counted at the genesis and one over
+the whole chain.)*
+
+**The axiom-free stretch.** From C6 (the knot) to C17 there is **not one declared choice**
+— Part II is theorem, census and identity throughout, and Part III *hands over* e₆ and the
+27 ("the object's own operators, not imported ones").
+
+**E₆ is not chosen; it is what level 15 factors into.** The hearing sits at congruence
+level 15; then, by theorem only: 15 = 3·5 coprime ⟹ SL(2,ℤ/15) ≅ SL(2,3) × SL(2,5) (CRT);
+SL(2,3) ≅ 2T (order 24), SL(2,5) ≅ 2I (order 120); McKay: 2T ⟶ **E₆**, 2I ⟶ **E₈**. This
+is exactly what "the object names E₆/E₈ at its ends" means — the ends are 3 and 5.
+
+**The honest boundary.** C3/C4/C5 are real choices, upstream of the substitution. "The
+whole chain needs no choices" overshoots by three; **"from the substitution to E₆ nothing
+is chosen" is exact** — and it is the stretch that does the work. (Reaching E₆ is
+separately GENERIC — ~1 in 3 manifolds, 5 of 7 grammars, B993/B996 — so arrival there
+confirms nothing; forcedness and discriminating power are different claims, and this
+census makes only the first.)
+
+---
+
 ## PART I — THE GENESIS: FROM "NOTHING" TO A KNOT
 *(THE CHAIN C1–C6; locks `tests/test_b749_genesis_forks.py`, `test_b285_*`)*
 

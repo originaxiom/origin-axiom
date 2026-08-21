@@ -2482,7 +2482,8 @@
    ],
    "refs": [
     "B737",
-    "B993"
+    "B993",
+    "L180"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 2,
@@ -2582,6 +2583,23 @@
     "L179"
    ],
    "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1123": {
+   "slug": "forcedness census",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B993",
+    "B996"
+   ],
+   "obstacle": "bridge_construction",
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"

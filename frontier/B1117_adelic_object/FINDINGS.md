@@ -77,3 +77,16 @@ Anchor B is exact (32 digits, this bench). The Humbert volume chain is CITED
 labeled, with a falsifier: the maximal-openness reading loses its selector if any
 sibling grammar's gap-structure supports the same edge-law — B1106's silver control
 (0/7) is its first surviving test. No SM value claimed; Gate 5 untouched.
+
+## Cross-check addendum — two seats, two routes (cc3 B8119, 2026-08-21)
+
+The central numerical anchor is now verified from a SECOND seat by a SECOND route with no
+ζ_K in it. cc3's B8119 reached **Vol = (3√3/2)·L(χ₋₃, 2)** from the state-integral saddle
+(2·Im Li₂(e^{iπ/3})). This is identical to Anchor B: ζ_K(2) = ζ(2)·L(χ₋₃, 2) for
+K = ℚ(√−3), so 9√3·ζ_K(2)/π² = (3√3/2)·L(χ₋₃, 2) exactly. **Re-verified this bench to 40
+digits: all three forms (ζ_K, the L-value, and 2·Im Li₂) agree at 2.029883212819307250…,
+the identity difference 0.0.** The finite-shadow route (Dedekind zeta) and the archimedean
+route (dilogarithm saddle) land on one number — which is the adelic thesis stated as a
+computation. (Relayed alongside: cc3's well-taken L180 fence — "unlocked" must not harden
+into "open"; C₁/C₂ are PSLQ detections at 30 digits, not derivations, and C₃ is open. The
+banks carry exactly that wording.)

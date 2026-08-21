@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1026** |
-| words of findings prose | **694,962** |
-| test lock files referenced | **632** |
-| arcs carrying an authored verdict | **1013** (98.7 %) |
+| research arcs with findings | **1027** |
+| words of findings prose | **695,601** |
+| test lock files referenced | **633** |
+| arcs carrying an authored verdict | **1014** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 681 |
+| PROVED | 682 |
 | NEGATIVE | 287 |
 | OPEN | 35 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1122`** (538 words, 1 locks)  
-L179 THE LIFT-BIT METER (a thesis cell, clean NEGATIVE): does the t-meter mechanism (free-of-one = forced-of-pair, B1113) extend to the spin lift bit (B1112)? PAIR-INVISIBLE -- NO. The lift's entire content is the sign operator S = phi(-I) = diag((-1)^weight), which is CENTRAL (phi of the SL(2) center), so it commutes with everything and produces NO twist -- unlike the dial (a conjugation centralizing the seam A but NOT the interior B, the asymmetry a seam trace reads); the group commutator (the t-meter's own meter) is identically blind to the central S. Two roads to invisible: (1) the object's principal 27 is EVEN so S=I, the two lifts IDENTICAL; (2) the relative lift is topologically forced trivial (seam forces chi_L=chi_R; opposite-lift breaks the gluing S.A != A). In the ODD reps the bit is already a single-copy observable (meridian trace flips), not free-of-one. Controls green (B1113's tr(A.B)=141750+1011915q reproduced to the digit; 3003 brackets; both lifts valid+distinct). MEANING: B1112's 'observer's first payment' REINFORCED -- a STRONGER no-go than B1087 (unmeasurable on the pair too, not just one closed copy); consistent with B1114's all-even gravity 27. The hoped fusion (projective+Lorentz+Jordan via one pair-meter) does NOT happen: the freedom ledger's 3 bits are not one mechanism -- {C,P}+dial coupling-readable, the spin lift irreducibly the observer's. Gate 5 untouched.  
-`B1122_liftbit_meter/FINDINGS.md`
+**PROVED — `B1123`** (496 words, 1 locks)  
+THE FORCEDNESS CENSUS (harvest from cc3 branch b775 / 27d9ceb9; owner-directed 'we proved it over and over and somehow we lost it'; verified this bench): a checker regenerates the census from docs/THEOREM_LEDGER.md's 43 link labels -- THEOREM 26 / IDENTITY 6 / NO-GO 5 / AXIOM 4 / COROLLARY 1 / CENSUS 1 -> FORCED (non-axiom) 39 of 43, axioms at [3,4,5,18], axioms in C6..C17 (knot->algebra) NONE. So between the object and the algebra there is NOT ONE declared choice; the four axioms are C3/C4/C5 (frame: inexhaustible description, geometric carrier, orientation -- all before the knot) and C18 (the observer's closings, after the algebra is in hand). The doorway is THREE THEOREMS not a selection: level 15 = 3*5 (CRT) -> SL(2,3)xSL(2,5) -> 2T,2I -> (McKay) E6,E8, so E6 is not chosen, it is what level 15 factors into. VERIFIED: runs against current main's ledger (39/43 PASS, a property of the actual bank); NON-VACUOUS (MB12) -- relabel an in-stretch THEOREM->AXIOM trips 3 alarms + exit 1, an unparseable ledger FAILS not passes. BOUNDARY: C3/C4/C5 real choices upstream; 'from the substitution to E6 nothing is chosen' is exact; reaching E6 is separately GENERIC (B993/B996) so forcedness != discriminating power, this makes only the first claim. Fixes the presentation fossil: the program presented E6 as a choice when it is forced. THE_CLAIM 1's type-J row flagged for retyping (note-beside, not silent count change).  
+`B1123_forcedness_census/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

@@ -824,6 +824,46 @@ enumerated above, and every item on it is a computation someone can run.
 
 ---
 
+## THE ADELIC COMPLETION — WHERE THE TWO FACES BECOME ONE OBJECT (B1117–B1122)
+
+The layers above treat the object's two faces — the *being* face (abelianization, class
+field theory) and the *becoming* face (the measurement cascade) — as two readings. The
+packet B1117–B1122 gives them a single name: **the object is adelic.** m004 is an
+arithmetic hyperbolic 3-manifold (Reid), and an arithmetic object has two kinds of
+completion, finite and archimedean, which are exactly its two faces:
+
+- **The finite shadow is structure.** E₆ is a reduction mod the ramified prime √−3
+  (SL(2,𝔽₃) ≅ 2T → McKay); the Chern–Simons term is finite-group-valued (B1108); the
+  being face reads the abelianization. This is the FORCED face — the Part 0.5 census
+  (`THE_END_TO_END_CHAIN.md`): 39 of 43 links, the stretch from the knot to the algebra
+  axiom-free, **E₆ what level 15 factors into**.
+- **The archimedean shadow is physics.** The volume, the action, the spectra, the growth
+  rates, and Lorentz (B1114: E₆ ⊇ so(3,1) ⊕ su(3), the signature the observer's). This is
+  the face that carries continuous numbers.
+- **The two shadows are one number.** Vol(m004) = 9√3·ζ_K(2)/π² (B1117, verified 32
+  digits): the archimedean shadow is a *special value of the finite shadow's zeta
+  function.* L-values are where finite data becomes archimedean.
+- **The observer is the completion at the infinite place**, and the gluing cocycle is
+  **quantum modularity — proven for this very knot** (Garoufalidis–Zagier).
+
+This reframes the value wall of Layer 5 without moving it. The seven misses are
+single-completion questions, and single-completion questions have no global answers. The
+one channel the no-goes never reached — tower growth-RATES (archimedean, basepoint-free) —
+is where the make-or-break ran: **L180 (B1120) came back POSITIVE at two orders.** The
+Kashaev tower's sub-leading coefficients are trace-field arithmetic (C₁ = (11/108)√3π·C₀
+and C₂ = (697/7776)π²·C₀ to ~30 digits, the even/odd → rational/(rational×√3) parity
+pattern predicted from reality before the PSLQ search), so C₀ = 3^{−1/4} = |disc|^{−1/4}
+is the k=0 instance of a genuine pattern. **The value door is unlocked and opens onto
+arithmetic that reproduces** — but it is not yet walked: no SM number is produced, and
+delivering a specific ratio needs the identification (which tower, which period, which
+measurement), the value campaign's crux. The freedom ledger closes to exactly {C, P, spin
+lift} and its bits do not fuse: the spin lift is PAIR-INVISIBLE (B1122/L179), a central
+torsor no coupling can read. *(Interpretive, labeled: reality is a description approaching
+a limit it cannot reach; the finite shadows are its matter of fact, the limit is its
+physics, and the observer is the approaching. B1117's closing sentence, carried.)*
+
+---
+
 *Integration note: this document was read whole and rewritten against the full record
 through B1101 (2026-08-20). Earlier drafts of this file had drifted into a stack of
 dated "currency addendum" sections appended at the end without being folded into the

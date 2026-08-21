@@ -13,7 +13,7 @@ nothing cannot complete.
 
 ---
 
-## The state of the programme (as of B1101, 2026-08-20)
+## The state of the programme (as of B1122, 2026-08-21)
 
 Six motivated axioms (A1–A6) plus one measured residual bit (A7) **conditionally force —
 given A1–A6, with A6 the minimality selection —** a single object:
@@ -137,6 +137,29 @@ now visible inside a single spectrum (B1095). The finding sharpened, rather than
 weakened, the laboratory proposal built on it: any photonic or polariton realization must
 now show this energy/localization differential, not just the raw edge count, before it
 counts as contact with the object rather than with generic bulk–boundary physics.
+
+**The window since (B1102–B1122, 2026-08-21) turned the structure side into a crossing —
+one now known to be FORCED, not chosen — and unlocked the value side.** Between the object
+and the algebra there is **not one declared choice**: 39 of 43 chain-links are forced, the
+stretch from the knot to the algebra is axiom-free, and **E₆ is not selected but *what
+level 15 factors into*** (CRT + McKay; B1123, checker-gated — the recovery of a fact the
+programme had proved and then lost by scattering it across 43 labels). On that forced
+algebra, and on the object's own non-abelian holonomy, the rank wall opens at
+the Standard Model's rank; the object then **selects** its own SM landing (B1112, zero
+spin-facing bits), Lorentz signature and color fall out of it (B1114: E₆ ⊇ so(3,1) ⊕ su(3),
+the signature the observer's), and the discrete freedom closes to exactly **{C, P, spin
+lift}** — three bits that do not fuse (B1118/B1122). The whole picture earns a single name:
+**the object is adelic** (B1117). Its finite shadow is structure, its archimedean shadow is
+physics, and the two are one number — Vol(m004) = 9√3·ζ_K(2)/π², verified to 32 digits and
+cross-checked from a second, ζ-free route by a second seat. That reframes the value wall
+without moving it: the seven misses are single-completion questions, and the one channel
+they never reached — tower growth-rates — is where the make-or-break ran. **L180 (B1120)
+came back positive at two orders:** the tower's coefficients are trace-field arithmetic (a
+parity pattern predicted from reality *before* the search, holding at C₁ and C₂ to thirty
+digits), so C₀ = 3^{−1/4} = |disc|^{−1/4} is no coincidence. The value door is **unlocked**
+— it opens onto arithmetic that reproduces — but it is **not open**: no SM number is
+produced, the recognitions at C₁/C₂ are detections rather than derivations, and C₃ is
+precision-gated.
 
 None of this ran loose. Review 47 (2026-08-20) audited the 46-merge window behind it,
 found and repaired one mis-transcribed seal-ledger hash (custody unaffected), filed the

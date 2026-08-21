@@ -553,3 +553,20 @@ sense.
   while the PATH is not — registerability is the **derived** half of the cascade's selection
   principle (B860/B871), maximal-residual-symmetry the **assumed** half, selecting only the
   path. README's opening uses the term with this gloss inline.
+
+## Added 2026-08-21 — the adelic crossing (B1117–B1122)
+
+- **adelic object**: the reading (B1117) that the figure-eight complement, being an
+  arithmetic hyperbolic 3-manifold (Reid), has two kinds of completion — finite and
+  archimedean — which are the program's two faces. NOT a claim that the manifold is
+  literally an adele ring; a structural analogy made precise by the volume identity below.
+- **the finite shadow / the archimedean shadow**: the object's two faces, named by
+  completion type. **Finite shadow = structure** (E₆ = reduction mod √−3; being =
+  abelianization; CS finite-group-valued). **Archimedean shadow = physics** (volume,
+  action, spectra, growth rates, Lorentz). Joined by one number: Vol(m004) = 9√3·ζ_K(2)/π²
+  (B1117) — the archimedean shadow is a special value of the finite shadow's zeta.
+- **the freedom ledger's three kinds** (B1113/B1118/B1122): {C, P, spin lift} is the
+  closed discrete freedom, but its three bits are not one mechanism. {C, P} and the dial
+  are COUPLING-READABLE (the t-meter, B1113: free-of-one = forced-of-pair); the spin lift
+  is PAIR-INVISIBLE (B1122/L179: its whole content is the central sign operator φ(−I),
+  which no seam-word trace on the coupled pair can read) — irreducibly the observer's.
