@@ -1,5 +1,41 @@
 # Changelog
 
+## THE VALUE CAMPAIGN V-2′ (B1127) + THE FORCEDNESS-DOORWAY CORRECTION (E37) (2026-08-21)
+
+Two things: the value campaign's last active cell, and a correction to
+B1123's doorway (cc3-self-caught, cc-propagated). B1127 V-2′ THE
+ANTILINEAR COMPLETION (the owner's "another-level measurer"): compact
+su(3) color IS reachable -- σ_mirror = τ·θ_A gives color I2 = (0,8),
+landing in the object's OWN E₆(−26)=M(𝕆,ℂ); specific 4/48 (the mirror's
+identity-on-color class), controls green (the σ_c detector sees compact
+when present; a secondary construction gives (5,3); the unsigned fold
+rejected), deterministic re-run. FENCE (load-bearing, the agent's own §5
+upheld OVER its headline): the object's arithmetic Galois mirror acts
+POINTWISE-TRIVIALLY on the ℚ-rational color layer (B1114), so the
+compactifying τ is the OBSERVER'S generic conjugation, NOT the object's
+own mirror -- compact color = the observer's archimedean closing INTO the
+object's own form. The agent's over-reaching "the object's own" headline
+was kept OUT of the bank (integrate math, quarantine framing); the open
+holonomy-bridge is relayed to cc3. THE VALUE CAMPAIGN CLOSES
+(V-1/V-2/V-2′/V-3; V-4 gated): object supplies STRUCTURE (algebra, the
+compact-color FORM M(𝕆,ℂ), a reproducing arithmetic tower to C₃); OBSERVER
+supplies the CLOSINGS; the SM's specific values are DISJOINT from the
+object's current periods.
+
+THE FORCEDNESS-DOORWAY CORRECTION (E37): cc3 self-caught (1a0b5a90) that
+27d9ceb9's §2.1 "doorway" -- level 15 = 3·5 → SL(2,ℤ/15) = SL(2,3)×SL(2,5)
+= 2T×2I by CRT → McKay → E₆/E₈ -- is WRONG: level 15 is IRREDUCIBLE not
+factored (B695/E-3, the being and hearing faces interfere), the CRT
+conflated the level with the group, Part III makes no such chain. The
+forced CENSUS (39/43, C6→C17 axiom-free) is independent and STANDS. The
+correct mechanism (B981/B248): 2T→E₆ / 2I→E₈ at the object's two CURVATURE
+ENDS (hyperbolic ℚ(√−3) at cone-angle 0, spherical ℚ(√5) at π). cc had
+harvested the doorway EXPLANATION into B1123 without verifying it (only
+the census) and propagated it to ~8 surfaces -- error E37, corrected in
+place everywhere + the error ledger + memory. Registry T-COLOR-ANTILINEAR;
+SM_VERDICT + CAMPAIGN_STATUS + PROGRESS_LOG; atlas/views/spine regen.
+Gate 5 untouched.
+
 ## THE VALUE CAMPAIGN V-3 (B1126, 2026-08-21): the identification — the crux returns the honest terminal negative, done exhaustively
 
 Value-campaign cell V-3, the crux and the campaign's falsifier, executed

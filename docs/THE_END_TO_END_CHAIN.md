@@ -56,10 +56,16 @@ the whole chain.)*
 — Part II is theorem, census and identity throughout, and Part III *hands over* e₆ and the
 27 ("the object's own operators, not imported ones").
 
-**E₆ is not chosen; it is what level 15 factors into.** The hearing sits at congruence
-level 15; then, by theorem only: 15 = 3·5 coprime ⟹ SL(2,ℤ/15) ≅ SL(2,3) × SL(2,5) (CRT);
-SL(2,3) ≅ 2T (order 24), SL(2,5) ≅ 2I (order 120); McKay: 2T ⟶ **E₆**, 2I ⟶ **E₈**. This
-is exactly what "the object names E₆/E₈ at its ends" means — the ends are 3 and 5.
+**E₆ is not chosen; it is handed over at the object's hyperbolic end.** The object spans
+all three curvature signs (B981/B248, `docs/THE_LAMBDA_POSITION.md`): **hyperbolic
+(ℚ(√−3) / 2T / E₆) at cone-angle 0**, Euclidean at 2π/3, **spherical (ℚ(√5) / 2I / E₈) at
+π**. "The object names E₆/E₈ at its ends" means these two **curvature ends** — 2T ⟶ E₆ and
+2I ⟶ E₈ by McKay, arriving through the hyperbolic end's ℚ(√−3), not by choice.
+*(Correction, cc3 self-caught 1a0b5a90, 2026-08-14: an earlier version of this bullet
+derived E₆ from "level 15 = 3·5 ⟹ SL(2,ℤ/15) ≅ SL(2,3)×SL(2,5) = 2T×2I by CRT." That is
+**withdrawn** — level 15 is IRREDUCIBLE, not factored (B695/E-3: the being and hearing
+faces interfere, 59/60 primes falsify L-factorization), and the CRT conflated the level
+with the group. The forced census above is independent of the doorway and unchanged.)*
 
 **The honest boundary.** C3/C4/C5 are real choices, upstream of the substitution. "The
 whole chain needs no choices" overshoots by three; **"from the substitution to E₆ nothing

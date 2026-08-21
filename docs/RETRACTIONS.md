@@ -65,3 +65,14 @@ maintenance rule:
   firing on PMNS column 1 and the "armed-for-the-future" framing were
   stale-release artifacts (NuFIT 6.0 vs the current 6.1); withdrawn in the
   arc's own FINDINGS with the two-execution history side by side.
+- **B1123's forcedness DOORWAY** (banking seat, harvested from cc3
+  27d9ceb9) — *"E₆ is what level 15 = 3·5 factors into (SL(2,ℤ/15) ≅
+  SL(2,3)×SL(2,5) = 2T×2I by CRT → McKay → E₆/E₈)"* is **WITHDRAWN**:
+  level 15 is IRREDUCIBLE, not factored (B695/E-3 — the being/hearing
+  faces interfere, 59/60 primes falsify L-factorization); the CRT
+  conflated the *level* with the *group*; Part III makes no such chain.
+  cc3 self-caught it (commit 1a0b5a90); cc had propagated it to ~8
+  surfaces (error **E37**). The forced CENSUS (39/43, C6→C17 axiom-free)
+  is independent of the doorway and STANDS; E₆ arrives at the object's
+  hyperbolic ℚ(√−3) curvature end (2T→E₆ via McKay; B981/B248). Corrected
+  in place across all surfaces in the B1127 PR. *(banked: B1123 · corrected: B1127 / E37 / cc3 1a0b5a90)*

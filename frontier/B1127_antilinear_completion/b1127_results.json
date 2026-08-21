@@ -1,0 +1,2329 @@
+{
+ "setup": {
+  "n_roots": 72,
+  "dim": 78,
+  "allowed_characters": [
+   -78,
+   -26,
+   -14,
+   2,
+   6
+  ]
+ },
+ "layer01_form": {
+  "fails_corrected": 0,
+  "fails_wrong_control": 12
+ },
+ "layer2_hatch_I1_I2": {
+  "hatch_nodes": [
+   0,
+   2
+  ],
+  "orthogonal_component_sizes": [
+   6,
+   6
+  ],
+  "I1_simple": [
+   [
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  ],
+  "I2_simple": [
+   [
+    -1,
+    -2,
+    -2,
+    -3,
+    -2,
+    -1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "comp1_I1_roots": [
+   [
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  ],
+  "comp2_I2_roots": [
+   [
+    -1,
+    -2,
+    -2,
+    -3,
+    -2,
+    -1
+   ],
+   [
+    -1,
+    -1,
+    -2,
+    -3,
+    -2,
+    -1
+   ],
+   [
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    2,
+    3,
+    2,
+    1
+   ],
+   [
+    1,
+    2,
+    2,
+    3,
+    2,
+    1
+   ]
+  ]
+ },
+ "layer3_lattice_classes": {
+  "pi_mirror_simple_permutation": {
+   "0": 5,
+   "5": 0,
+   "2": 4,
+   "4": 2,
+   "1": 1,
+   "3": 3
+  },
+  "pi_A_fixes_I2_pointwise": true,
+  "pi_B_fixes_I2_pointwise": false,
+  "all_verification_checks_pass": true
+ },
+ "layer4_fixed_I2_form": {
+  "B_restricted_to_untransformed_I2": [
+   5,
+   3,
+   0
+  ]
+ },
+ "layer5_controls": {
+  "split": {
+   "label": "split(antipodal,id)",
+   "family": "antipodal",
+   "character": 6,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": 0,
+   "global_eigendims": [
+    36,
+    42
+   ],
+   "global_sig_plus_raw": [
+    0,
+    36,
+    0
+   ],
+   "global_sig_minus_raw": [
+    42,
+    0,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    0,
+    78,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": true,
+   "antilinear_color_compact": true
+  },
+  "theta_identity_permute_id": {
+   "label": "theta=identity(permute,id,eps=1)",
+   "family": "permute",
+   "character": -78,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": 0,
+   "global_eigendims": [
+    78,
+    0
+   ],
+   "global_sig_plus_raw": [
+    42,
+    36,
+    0
+   ],
+   "global_sig_minus_raw": [
+    0,
+    0,
+    0
+   ],
+   "color_eigendims": [
+    8,
+    0
+   ],
+   "color_sig_plus_raw": [
+    5,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    0,
+    0,
+    0
+   ],
+   "linear_color_pure": false,
+   "antilinear_global_signature": [
+    42,
+    36,
+    0
+   ],
+   "antilinear_color_signature": [
+    5,
+    3,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": false
+  },
+  "variant_A_base": {
+   "label": "variantA_base(antipodal,A)",
+   "family": "antipodal",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": 0,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true
+  },
+  "all_pass": true
+ },
+ "layer6_sigma_c_control": {
+  "construction": "tau_split composed with theta_split (antipodal, pi=id)",
+  "global_signature": [
+   0,
+   78,
+   0
+  ],
+  "global_compact": true,
+  "color_I2_signature": [
+   0,
+   8,
+   0
+  ],
+  "color_I2_compact": true,
+  "detector_broken": false,
+  "naive_unflipped_reading_for_comparison": {
+   "global_raw_would_be": [
+    0,
+    36,
+    0
+   ],
+   "note": "if the antilinear i-twist were NOT applied (i.e. reading theta's raw eigenspace restriction directly, B1125's own linear-classification method), the split control's OWN linear color reading is (5,3) -- see variant_A/split rows above -- never compact. The antilinear flip on V-(theta) is what this arc adds."
+  }
+ },
+ "layer7_sigma_mirror_primary": {
+  "construction": "tau_split composed with theta_A_base (antipodal, pi=pi_mirror, base/particular sign-lift)",
+  "color_I2_signature": [
+   0,
+   8,
+   0
+  ],
+  "color_I2_compact": true,
+  "global_signature": [
+   26,
+   52,
+   0
+  ],
+  "global_compact": false
+ },
+ "layer7_full_torsor_sweep": [
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "kernel_dim": 4,
+   "n_elements": 16,
+   "characters_seen": [
+    2
+   ],
+   "n_linear_color_pure": 4,
+   "n_antilinear_color_compact": 4,
+   "elements": [
+    {
+     "bits": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": true,
+     "color_sig_plus_raw": [
+      0,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      5,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      0,
+      8,
+      0
+     ],
+     "antilinear_color_compact": true
+    },
+    {
+     "bits": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": true,
+     "color_sig_plus_raw": [
+      0,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      5,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      0,
+      8,
+      0
+     ],
+     "antilinear_color_compact": true
+    },
+    {
+     "bits": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": true,
+     "color_sig_plus_raw": [
+      0,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      5,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      0,
+      8,
+      0
+     ],
+     "antilinear_color_compact": true
+    },
+    {
+     "bits": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": true,
+     "color_sig_plus_raw": [
+      0,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      5,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      0,
+      8,
+      0
+     ],
+     "antilinear_color_compact": true
+    },
+    {
+     "bits": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    }
+   ]
+  },
+  {
+   "family": "antipodal",
+   "lattice_class": "B",
+   "kernel_dim": 3,
+   "n_elements": 8,
+   "characters_seen": [
+    2
+   ],
+   "n_linear_color_pure": 0,
+   "n_antilinear_color_compact": 0,
+   "elements": [
+    {
+     "bits": [
+      0,
+      0,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      0,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      0
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      1
+     ],
+     "character": 2,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      2,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      3,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      4,
+      4,
+      0
+     ],
+     "antilinear_color_compact": false
+    }
+   ]
+  },
+  {
+   "family": "permute",
+   "lattice_class": "A",
+   "kernel_dim": 4,
+   "n_elements": 16,
+   "characters_seen": [
+    -26,
+    6
+   ],
+   "n_linear_color_pure": 0,
+   "n_antilinear_color_compact": 0,
+   "elements": [
+    {
+     "bits": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "character": -26,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      5,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      0,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "character": -26,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      5,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      0,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "character": -26,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      5,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      0,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "character": -26,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      5,
+      3,
+      0
+     ],
+     "color_sig_minus_raw": [
+      0,
+      0,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    }
+   ]
+  },
+  {
+   "family": "permute",
+   "lattice_class": "B",
+   "kernel_dim": 3,
+   "n_elements": 8,
+   "characters_seen": [
+    6
+   ],
+   "n_linear_color_pure": 0,
+   "n_antilinear_color_compact": 0,
+   "elements": [
+    {
+     "bits": [
+      0,
+      0,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      0,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      0,
+      1,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      0,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      0
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    },
+    {
+     "bits": [
+      1,
+      1,
+      1
+     ],
+     "character": 6,
+     "checksum_pass": true,
+     "theta_sq_id": true,
+     "linear_color_pure": false,
+     "color_sig_plus_raw": [
+      3,
+      1,
+      0
+     ],
+     "color_sig_minus_raw": [
+      2,
+      2,
+      0
+     ],
+     "antilinear_color_signature": [
+      5,
+      3,
+      0
+     ],
+     "antilinear_color_compact": false
+    }
+   ]
+  }
+ ],
+ "layer7_torsor_compact_hits": [
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(0, 0, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  },
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(0, 1, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  },
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(1, 0, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  },
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(1, 1, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  }
+ ],
+ "layer8a_unsigned_pi_mirror": {
+  "theta_squared_is_identity": true,
+  "automorphism_failures_of_60": 38,
+  "valid_as_automorphism": false
+ },
+ "layer8b_secondary_compact_referenced_construction": {
+  "theta_split_and_theta_A_commute": true,
+  "product_is_involution": true,
+  "I2_stable_under_product": true,
+  "color_I2_antilinear_signature": [
+   5,
+   3,
+   0
+  ],
+  "color_I2_antilinear_compact": false
+ },
+ "verdict": "COMPACT-FROM-MIRROR",
+ "genuine_torsor_compact_hits": [
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(0, 0, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  },
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(0, 1, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  },
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(1, 0, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  },
+  {
+   "family": "antipodal",
+   "lattice_class": "A",
+   "bits": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "label": "antipodal/A#(1, 1, 0, 0)",
+   "character": 2,
+   "checksum_pass": true,
+   "theta_squared_is_identity": true,
+   "automorphism_failures": null,
+   "global_eigendims": [
+    38,
+    40
+   ],
+   "global_sig_plus_raw": [
+    14,
+    24,
+    0
+   ],
+   "global_sig_minus_raw": [
+    28,
+    12,
+    0
+   ],
+   "color_eigendims": [
+    3,
+    5
+   ],
+   "color_sig_plus_raw": [
+    0,
+    3,
+    0
+   ],
+   "color_sig_minus_raw": [
+    5,
+    0,
+    0
+   ],
+   "linear_color_pure": true,
+   "antilinear_global_signature": [
+    26,
+    52,
+    0
+   ],
+   "antilinear_color_signature": [
+    0,
+    8,
+    0
+   ],
+   "antilinear_global_compact": false,
+   "antilinear_color_compact": true,
+   "full_reverification": {
+    "automorphism_failures_of_300": 0,
+    "reconfirmed_antilinear_color_compact": true,
+    "reconfirmed_theta_squared_id": true
+   }
+  }
+ ],
+ "n_torsor_compact_hits_raw": 4,
+ "n_torsor_compact_hits_reverified": 4,
+ "sigma_mirror_primary_verdict": {
+  "signature": [
+   0,
+   8,
+   0
+  ],
+  "compact": true
+ },
+ "runtime_seconds": 199.18,
+ "log": [
+  "[   0.00s] loading vendored E6 bracket module: <home>/origin-axiom/frontier/B1102_exact_hypercharge_solve/e6_bracket_vendored.py",
+  "[   0.00s] loading B1098 A2 triple: <home>/origin-axiom/frontier/B1098_nonabelian_hatch/b1098_a2_triple.json",
+  "[   0.04s] ",
+  "[   0.04s] === LAYER 0-1: corrected ad-invariant form (reproducing V-2's control) ===",
+  "[   2.17s]   corrected form (<e_r,e_-r>=-1): ad-invariance failures/300: 0 (expect 0)",
+  "[   2.17s]   NEGATIVE CONTROL wrong (+1) form: failures/300: 12 (expect >0)",
+  "[   2.17s] ",
+  "[   2.17s] === LAYER 2: hatch / I1 / I2 (own re-derivation of B1114's construction) ===",
+  "[   2.17s]   hatch nodes (0, 2), sl2 triple relations exact: True",
+  "[   2.17s]   orthogonal A2+A2 found: comp sizes [6, 6]; I1 simple (0, 0, 0, 0, -1, -1),(0, 0, 0, 0, 0, 1); I2 simple (-1, -2, -2, -3, -2, -1),(0, 1, 0, 0, 0, 0)",
+  "[   2.17s] ",
+  "[   2.17s] === LAYER 3: the mirror diagram automorphism (the fold, theta of TERMINOLOGY.md) ===",
+  "[   2.18s]   pi_mirror verified: order-2 root automorphism, swaps hatch<->I1: True, fixes I2 pointwise: True (class A: 'identity on color')",
+  "[   2.21s]   pi_B = pi_mirror.w0(I2) verified: class B ('duality on color'), I2 fixed setwise but NOT pointwise: True",
+  "[   2.21s] ",
+  "[   2.21s] === LAYER 4: the F2 sign-lift cocycle solver ===",
+  "[   2.23s]   B|I2 (untransformed, fixed structural fact): (5, 3, 0) (expect (5,3,0))",
+  "[   2.23s] ",
+  "[   2.23s] === LAYER 5: CONTROLS -- reproduce V-2's linear-torsor numbers first ===",
+  "[   6.47s]   SPLIT control: character=6 (expect +6), dims=[36, 42] (expect [36,42]), pass=True",
+  "[  16.58s]   theta=identity control (B1125's own 'compact control' LABEL): character=-78 (expect -78), dims=[78, 0] (expect [78,0]), pass=True",
+  "[  16.58s]   eps=1 is the trivial (permute,id) particular solution: True",
+  "[  16.58s]   ANTILINEAR check on theta=identity: sigma=tau.id=tau itself -- global sig [42, 36, 0] (NOT expected to be (0,78): tau alone is just the split conjugation, not compact -- see V2prime_NOTES.md for why this LABEL is a red herring for building sigma_c, and why theta_split below is the correct linear shadow)",
+  "[  21.12s]   VARIANT A base: character=2 (expect +2), color dims=[3, 5], linear color sig_plus=[0, 3, 0], sig_minus=[5, 0, 0], matches B1119 exactly: True",
+  "[  21.12s]   All three V-2 linear-torsor controls reproduced. Machinery trusted -- proceeding to the antilinear layer.",
+  "[  21.12s] ",
+  "[  21.12s] === LAYER 6: sigma_c = tau . theta_split -- THE LOAD-BEARING CONTROL ===",
+  "[  21.12s]   theta_split = (antipodal, pi=id) -- the genuine Chevalley/Cartan involution of the split form (character +6 as a LINEAR map). sigma_c := tau_split . theta_split.",
+  "[  21.12s]   sigma_c GLOBAL antilinear signature (should be (0,78) or (78,0), fully compact E6): [0, 78, 0], compact=True",
+  "[  21.12s]   sigma_c COLOR (I2) antilinear signature (THE REQUIRED CONTROL, must be (0,8) or (8,0)): [0, 8, 0], compact=True",
+  "[  21.12s]   CONTROL PASSED: the detector sees compact color when it is genuinely present. Proceeding.",
+  "[  21.12s] ",
+  "[  21.12s] === LAYER 7: sigma_mirror = tau . theta_A  (and the full torsor, both classes, both families) ===",
+  "[  21.12s]   PRIMARY candidate: sigma_mirror_primary = tau . theta_A_base (antipodal, class A, the same base element B1119/B1125 call 'variant A').",
+  "[  21.12s]   sigma_mirror_primary COLOR (I2) antilinear signature: [0, 8, 0], compact=True",
+  "[  21.12s] ",
+  "[  21.12s]   FULL TORSOR: sweeping all 48 verified kernel elements (2 families x 2 lattice classes), each composed with tau to test compactness under the antilinear formula.",
+  "[ 114.04s]     [antipodal/A] kernel dim k=4 (16 elements); characters seen: [2]; linear-color-pure: 4/16; ANTILINEAR-color-compact: 4/16",
+  "[ 133.20s]     [antipodal/B] kernel dim k=3 (8 elements); characters seen: [2]; linear-color-pure: 0/8; ANTILINEAR-color-compact: 0/8",
+  "[ 174.65s]     [permute/A] kernel dim k=4 (16 elements); characters seen: [-26, 6]; linear-color-pure: 0/16; ANTILINEAR-color-compact: 0/16",
+  "[ 193.70s]     [permute/B] kernel dim k=3 (8 elements); characters seen: [6]; linear-color-pure: 0/8; ANTILINEAR-color-compact: 0/8",
+  "[ 193.70s] ",
+  "[ 193.70s] === LAYER 8: fences -- unsigned pi_mirror, and the compact-referenced alternative ===",
+  "[ 196.03s]   pi_mirror alone (eps=1, unsigned, family=permute): theta^2=I: True, automorphism failures/60: 38 (if either fails, the UNSIGNED diagram fold is not itself a valid antilinear-lift base -- a genuine sign lift, as used above, is required; this is checked, not assumed)",
+  "[ 196.08s]   theta_split and theta_A_base (both antipodal) commute: True; (theta_split . theta_A_base)^2 = I: True (needed for the SECONDARY 'compact-referenced' construction sigma' = tau.theta_split.theta_A to be a valid antilinear involution at all)",
+  "[ 199.18s]   secondary construction I2 antilinear signature: (5, 3, 0), compact=False",
+  "[ 199.18s] ",
+  "[ 199.18s] === VERDICT ===",
+  "[ 199.18s]   raw antilinear-color-compact flags across the 48-element torsor (pre-reverification): 4",
+  "[ 199.18s]   FULLY RE-VERIFIED genuine hits: 4",
+  "[ 199.18s]   sigma_mirror_primary (antipodal/A base) alone: compact=True, signature=[0, 8, 0]",
+  "[ 199.18s]   VERDICT: COMPACT-FROM-MIRROR"
+ ]
+}

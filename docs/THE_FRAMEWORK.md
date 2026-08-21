@@ -836,7 +836,7 @@ completion, finite and archimedean, which are exactly its two faces:
   (SL(2,𝔽₃) ≅ 2T → McKay); the Chern–Simons term is finite-group-valued (B1108); the
   being face reads the abelianization. This is the FORCED face — the Part 0.5 census
   (`THE_END_TO_END_CHAIN.md`): 39 of 43 links, the stretch from the knot to the algebra
-  axiom-free, **E₆ what level 15 factors into**.
+  axiom-free, **E₆ handed over at the object's hyperbolic ℚ(√−3) end** (2T→E₆, McKay; B981/B248 — the "level 15 factors" CRT reading withdrawn, cc3 1a0b5a90).
 - **The archimedean shadow is physics.** The volume, the action, the spectra, the growth
   rates, and Lorentz (B1114: E₆ ⊇ so(3,1) ⊕ su(3), the signature the observer's). This is
   the face that carries continuous numbers.

@@ -2593,9 +2593,12 @@
     "trace_map",
     "eisenstein",
     "golden",
-    "torsion"
+    "wrt_quantum"
    ],
    "refs": [
+    "B248",
+    "B695",
+    "B981",
     "B993",
     "B996"
    ],
@@ -2647,6 +2650,23 @@
    ],
    "obstacle": "numerology",
    "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1127": {
+   "slug": "antilinear completion",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B882"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },

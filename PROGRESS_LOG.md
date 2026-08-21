@@ -11048,3 +11048,18 @@ no instrument, found-by-scan), banked unclaimed and relayed to cc3 for a
 (B1124), the listener-map instrument uncomputed. Two bugs caught mid-run,
 cross-validated against banked ground truth. V-2′ (compact-color-from-
 mirror) still computing.
+
+**2026-08-21 — VALUE CAMPAIGN V-2′ (B1127) + THE FORCEDNESS-DOORWAY
+CORRECTION (E37).** V-2′: compact su(3) color IS reachable in the object's
+own M(𝕆,ℂ) via a second-level conjugation (σ_mirror → I2=(0,8), specific
+4/48, controls green, deterministic), but the compactifier is the
+OBSERVER'S generic conjugation — the object's arithmetic mirror is
+pointwise-trivial on the ℚ-rational color layer (B1114); the agent's
+"object's own" headline kept out of the bank, the holonomy-bridge to cc3.
+The VALUE CAMPAIGN CLOSES: object = structure + forms + reproducing
+arithmetic; observer = the closings; SM values DISJOINT from current
+periods. CORRECTION (E37): the forcedness doorway (E₆ via level-15 CRT)
+withdrawn (cc3 1a0b5a90; level 15 irreducible, B695); E₆ arrives at the
+hyperbolic ℚ(√−3) curvature end (2T→E₆, McKay; B981/B248); the forced
+count (39/43) stands; cc's propagation of the unverified doorway
+explanation corrected across ~8 surfaces + the error ledger + memory.

@@ -59,3 +59,14 @@ every substantial arc B1060–B1066 is cited on a required surface at bank
 time (the gate blocked two pushes this window until citations existed —
 working as designed). The 13-arc PENDING set stands unchanged; the pending
 debt remains itemised, not hidden, and this read does not discharge it.
+
+## Currency read 2026-08-21 (head B1127)
+
+The B1067–B1127 window (the breakthrough packet, the reflection wave + the
+forcedness census B1123, and value campaign B1124–B1127) added arcs that
+are all surface-cited — each `creates_law` arc carries a THEOREM_REGISTRY
+row and a CAMPAIGN_STATUS citation, and the representation sweep
+(`scripts/checks/representation_sweep.py`) returns empty. The 13-arc
+PENDING set is unchanged; this read does not discharge it. (The one
+correction this window — B1123's forcedness doorway, error E37 — is
+recorded in `docs/RETRACTIONS.md` and `docs/ERROR_LEDGER.md`, not here.)

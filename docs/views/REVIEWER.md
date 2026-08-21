@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1030** |
-| words of findings prose | **697,589** |
-| test lock files referenced | **636** |
-| arcs carrying an authored verdict | **1017** (98.7 %) |
+| research arcs with findings | **1031** |
+| words of findings prose | **698,433** |
+| test lock files referenced | **637** |
+| arcs carrying an authored verdict | **1018** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 685 |
+| PROVED | 686 |
 | NEGATIVE | 287 |
 | OPEN | 35 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1126`** (560 words, 1 locks)  
-V-3 THE IDENTIFICATION (value-campaign crux + falsifier, against a SEALED prereg): is any object-tower period an SM dimensionless ratio via a principled instrument? NO-OBJECT-PERIOD-IS-AN-SM-RATIO. Exhaustive symmetric scan: 16 sealed periods (Kashaev ratios C1/C0..C3/C0 + cross-ratios + bare rational parts + volume/zeta_K(2) family) x 22 live-fetched SM targets (NuFIT 6.0 PMNS, PDG 2024 masses, couplings, Koide) = 352 pairs; 351 below 2 sig figs, consistent with pure noise (expected ~3.5 trivial hits, observed 0; ~0.35 at 3-sig bar, observed 1). The EIGHTH value-crossing negative and the FIRST exhaustive/symmetric/pre-disciplined one (vs one-pairing-at-a-time). The single escalation-bar pair -- C1/C0 = 11pi/(36 sqrt3) = 0.5542165 vs sin(theta12 PMNS solar angle) = 0.5540758, 0.025% -- is DISMISSED on 3 independent grounds: look-elsewhere 16.4% (not rare), no principled instrument (repo grep for Kashaev<->PMNS = zero), fails pre-commitment (found by scan, seal D-iv disqualifies); the '0.0136 sigma' is driven by theta12's coarse 1.9% window not an extraordinary coincidence. Named a falsifiable UNCLAIMED note (worth a fresh single-pair prereg only if theta12 tightens AND an instrument is found), NOT promoted; RELAYED TO cc3 for independent adversarial look (owner 3rd-opinion rule). Re-verified this bench (C1/C0 and sin theta12 reproduce exactly). CLOSES the current-menu question with a reproducible method; does NOT close value-matching generally (C4+ precision-gated per B1124; a listener-map instrument uncomputed). 2 bugs caught mid-run + cross-validated vs banked ground truth. Gate 5 structural.  
-`B1126_identification/FINDINGS.md`
+**PROVED — `B1127`** (654 words, 1 locks)  
+V-2' THE ANTILINEAR COMPLETION (value-campaign cell; the owner's 'another-level measurer' for compact color): does the object's antilinear structure supply compact su(3) color? MATH (verified, deterministic re-run): YES it is reachable -- sigma_mirror = tau . theta_A gives color I2 = (0,8) COMPACT, global form (26,52) = E6(-26)=EIV=M(O,C) (the object's OWN magic-square algebra, B882); SPECIFIC not generic (exactly 4 of 48 torsor elements, all antipodal/class-A = the mirror's identity-on-color class, all (0,8), 300-trial reverified); controls green (sigma_c=tau.theta_split gives global (0,78)+color (0,8), the detector sees compact when present; a SECONDARY construction tau.theta_split.theta_A gives (5,3) NON-compact, so not 'any antilinear map compactifies'; the unsigned diagram fold fails the automorphism check 38/60, a signed lift required). Same real form B1125 reached LINEARLY (I2 stuck at (5,3)) is reached ANTILINEARLY with I2 genuinely compact -- the near-miss resolved. FRAMING FENCE (load-bearing; the agent's own NOTES sec5 upheld OVER its final-report headline): the object's OWN arithmetic mirror does NOT supply this -- B1114 proved I1,I2 are Q-rational, hence fixed POINTWISE by any C/Q field automorphism, so the literal Q(sqrt-3)-Galois twist (sqrt-3 -> -sqrt-3) acts as the IDENTITY on the color layer and carries no antilinear structure there (B1114's 'setwise' sharpened to pointwise since the factors are Q-rational-spanned). The tau that flips (5,3)->(0,8) is the GENERIC conjugation = B1114's 'the observer's choice of real structure, NOT the object's'. So compact color is the OBSERVER'S archimedean closing INTO the object's own M(O,C) form; the agent's headline 'the object's own mirror gives it' over-reads its own fence. OPEN BRIDGE (relayed to cc3, the B1114 seat): tau 'specializes to sqrt-3 -> -sqrt-3 on the object's HOLONOMY layer' -- a different, cited-not-rederived layer; if the holonomy-mirror descends to a nontrivial antilinear action on the combinatorial I2, 'object's own' could partially revive. SETTLED: compact color reachable, in the object's own M(O,C), by a second-level conjugation (V-2's second-level-closing made concrete). Gate 5 untouched.  
+`B1127_antilinear_completion/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

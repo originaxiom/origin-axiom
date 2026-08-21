@@ -145,8 +145,11 @@ sealed miss, kept as boundary.**
   because its E₆ slot is the EW sector's. Real-form host E₆(2)/E₆(6): COMPACT color is the
   𝔽₂-kernel sweep — the LINEAR half now closed NEGATIVE (B1125/V-2: no sign-lift gives
   compact color, exhaustive over 48 elements; even E₆(−26)=M(𝕆,ℂ) keeps color (5,3)).
-  Compactness is a SECOND-LEVEL (antilinear) closing — the sharpened open cell V-2′ asks
-  whether the object's own mirror-conjugation supplies it (B1119 the linear setup).
+  Compactness is a SECOND-LEVEL (antilinear) closing — **V-2′ RESOLVED (B1127)**: compact
+  color IS reachable in the object's own E₆(−26)=M(𝕆,ℂ), but by the OBSERVER'S generic
+  conjugation, not the object's mirror (which is pointwise-trivial on the ℚ-rational color
+  layer, B1114); the holonomy-bridge is cc3's. Compactness = the observer's archimedean
+  closing into the object's own form (the twin of B1114's signature).
 - **VII.5 The t-meter (B1113)** — [BANKED]: free data of one object = forced class-function
   data of the coupled pair (measurement-by-coupling; the mechanism the value question needs).
 - **VII.6 The adelic object (B1117, verified 32 digits)** — [BANKED]: m004 is adelic

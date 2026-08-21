@@ -141,9 +141,12 @@ counts as contact with the object rather than with generic bulk–boundary physi
 **The window since (B1102–B1122, 2026-08-21) turned the structure side into a crossing —
 one now known to be FORCED, not chosen — and unlocked the value side.** Between the object
 and the algebra there is **not one declared choice**: 39 of 43 chain-links are forced, the
-stretch from the knot to the algebra is axiom-free, and **E₆ is not selected but *what
-level 15 factors into*** (CRT + McKay; B1123, checker-gated — the recovery of a fact the
-programme had proved and then lost by scattering it across 43 labels). On that forced
+stretch from the knot to the algebra is axiom-free, and **E₆ is not selected but
+handed over at the object's hyperbolic ℚ(√−3) end** (2T → E₆ via McKay; 2I → E₈ at the
+spherical ℚ(√5) end — B981/B248; B1123's forced *count* is checker-gated and independent
+of the mechanism — the recovery of a fact the programme had proved and then lost by
+scattering it across 43 labels). *(An earlier "what level 15 factors into" reading of the
+doorway was withdrawn — cc3 1a0b5a90; level 15 is irreducible, B695.)* On that forced
 algebra, and on the object's own non-abelian holonomy, the rank wall opens at
 the Standard Model's rank; the object then **selects** its own SM landing (B1112, zero
 spin-facing bits), Lorentz signature and color fall out of it (B1114: E₆ ⊇ so(3,1) ⊕ su(3),

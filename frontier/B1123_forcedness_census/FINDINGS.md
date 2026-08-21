@@ -29,12 +29,27 @@ axioms in C6..C17 (the knot -> the algebra): NONE
 > geometric carrier, orientation, **all BEFORE the knot** — and **C18**, the observer's
 > closings, in the measurement layer **after the algebra is already in hand**.
 
-## THE DOORWAY IS THREE THEOREMS, NOT A SELECTION
+## THE DOORWAY: E₆ ARRIVES AT THE HYPERBOLIC END (§2.1 CRT explanation WITHDRAWN)
 
-The hearing sits at congruence level **15**; then, by theorem only: 15 = 3·5 coprime ⟹
-SL(2,ℤ/15) ≅ SL(2,3) × SL(2,5) (CRT); SL(2,3) ≅ 2T, SL(2,5) ≅ 2I; McKay: 2T → **E₆**,
-2I → **E₈**. **E₆ is not chosen — it is what level 15 factors into.** (Group theory
-CITED-standard: CRT, the SL(2,·) isomorphisms, McKay; orders 24/120 computed.)
+> **⚠ Correction (cc3 self-caught, commit 1a0b5a90, 2026-08-14; verified this bench).**
+> The forcedness memo's §2.1 doorway — "level 15 = 3·5 ⟹ SL(2,ℤ/15) ≅ SL(2,3)×SL(2,5) =
+> 2T×2I by CRT ⟹ McKay ⟹ E₆/E₈, so E₆ is *what level 15 factors into*" — is **WITHDRAWN**.
+> Three errors: (1) the level-15 modular form is **IRREDUCIBLE, not factored** — B695/E-3
+> banks the OPPOSITE (the being (3) and hearing (5) faces INTERFERE; 59/60 primes falsify
+> L-factorization ⇒ the unique irreducible level-15 form); (2) CRT of the *level* was
+> conflated with a factorization of the *group*; (3) Part III makes no such chain — it only
+> says the substitution "hands over" e₆. A true statement about the wrong object.
+>
+> **The census does NOT depend on §2.1 and STANDS** (39/43, checker-regenerated).
+>
+> **The correct mechanism (banked: B981/B248, `docs/THE_LAMBDA_POSITION.md`):** the object
+> spans all three curvature signs — **hyperbolic (ℚ(√−3) / 2T / E₆) at cone-angle 0**,
+> Euclidean at 2π/3, **spherical (ℚ(√5) / 2I / E₈) at π**. "The object names E₆/E₈ at its
+> ends" means these two **curvature ends** of the cone-angle deformation. **2T → E₆ via
+> McKay is correct, but arrives through the hyperbolic end's ℚ(√−3), not through CRT.**
+> (A related banked fact, distinct from the withdrawn step: B1011 proves the modular group
+> ⟨R,L⟩ = 2T×2I, order 2880 — the McKay-tensor-McKay structure — but that is not the CRT
+> chain §2.1 claimed either.)
 
 ## VERIFIED ON THIS BENCH (verify-don't-trust)
 

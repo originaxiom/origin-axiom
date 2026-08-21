@@ -251,3 +251,8 @@ first route nobody had; and the discipline that found the missing route — read
 graph's own hatch field, compute the cross-seat question instead of arguing it, verify
 three ways before trusting a saturating count — is now written down here rather than
 carried in one seat's memory of how the window went.
+
+*(Currency: verified current through **B1127** (2026-08-21). The compute methodology is
+unchanged since B1101 — the value campaign (B1124–B1127) and the reflection wave (B1123)
+added arcs and one discipline (E37: verify a harvested *explanation*, not only the
+source's headline result — see `docs/ERROR_LEDGER.md`), not new compute methods.)*
