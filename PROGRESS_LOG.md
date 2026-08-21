@@ -10982,3 +10982,9 @@ cc asked whether narrowing WHAT-REMAINS item 5 to the cusp continuum misstates a
 ## 2026-08-21 — B8114, related-work armor and the C5 re-typing
 
 Ran the owner-routed package's lanes 6 and 5. Five differentiators, every citation fetched or searched today rather than recalled, each ending in an explicit non-claim. The first turned out to be agreement rather than armor: Distler–Garibaldi prove no ToE subgroup exists in any form of E8, and their obstruction is chirality — exactly what this programme banks as a negative. Their theorem does not reach us in any case, since we never embed the gravitational SL(2,C) in the internal algebra and land on E6. C5 was offered three labels and none fitted: the real-places paper exists, so it is not literature-empty; whether it carries a volume term needs the full text, so it is not decidable here; and it is a paper to read, not an expert to find. Typed NEEDS-READING. The fetch has not been made.
+
+## 2026-08-21 — B8115, C5 closed negative
+
+B8114 re-typed C5 NEEDS-READING and said the fetch had not been made. It was made the same day. Arithmetic Chern-Simons theory is finite-group-valued by construction: the action lands in (1/n)Z/Z and the machinery is etale-cohomological, with real places entering through compact support rather than any analytic term. So the route supplies exactly the term the object has proved to be zero and lacks entirely the term it carries. C5 closes negatively.
+
+The negative names its class, as negatives here are supposed to: the archimedean place. In Arakelov geometry analytic torsion is the standard archimedean ingredient, via the Quillen metric in Gillet-Soule's arithmetic Riemann-Roch — the slot C5 could not find. Registered as L180 and explicitly not banked as a connection, because Arakelov's torsion is holomorphic on compact manifolds while ours is real on a non-compact cusped one. Cousins, not the same object.

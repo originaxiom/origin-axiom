@@ -1,0 +1,16 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "C5 CLOSES AS A NEGATIVE, AND THE NEGATIVE NAMES ITS OWN BOUNDARY. B8114 re-typed C5 NEEDS-READING and said the fetch had not been made; it has now been made. Lee-Park arXiv:1905.13610 handles real places by ETALE COHOMOLOGY WITH COMPACT SUPPORT, and the arithmetic Chern-Simons action is valued in mu_n(F)^D = (1/n)Z/Z, a FINITE CYCLIC GROUP. There is no volume, regulator, analytic torsion, archimedean height or Laplacian determinant anywhere in the theory -- absent by construction, not by omission. B1088's sharpened question therefore has a clean answer: the arithmetic-CS route supplies exactly the term the object has proved to be ZERO (CS = 0 by amphichirality, B1012) and lacks entirely the term the object actually carries (the volume). THE BOUNDARY THE NEGATIVE NAMES IS THE ARCHIMEDEAN PLACE, and the successor axis is nameable: in ARAKELOV geometry an analytic torsion IS the standard archimedean ingredient, via the Quillen metric in Gillet-Soule's arithmetic Riemann-Roch. REGISTERED AS L180 AND UNPROVED, with the near-identification named: Arakelov's torsion is HOLOMORPHIC, on compact Hermitian manifolds; ours is REAL Ray-Singer on a non-compact cusped hyperbolic 3-manifold. Cousins, not the same object. REGISTERED UNPROVED, and the near-identification is named so it cannot be smuggled: Arakelov's is HOLOMORPHIC (Quillen/Ray-Singer complex) torsion of Hermitian holomorphic bundles on compact Hermitian manifolds. Pfaff's -- and B8112's computed ratio -- is REAL Ray-Singer torsion on a NON-COMPACT hyperbolic 3-manifold with a cusp. Those are cousins, not the same object, and the corpus has been burned by exactly this shape before (B8087: an isomorphism check is not a representation check). Whether they connect is THE LEAD, not a claim. A literature reading dated 2026-08-21, full text via ar5iv for arXiv:1905.13610. States what the arithmetic-CS action's TARGET is and what machinery builds it. Computes nothing, and makes no claim about Arakelov theory beyond registering a lead. Gate 5 untouched.",
+ "creates_law": true,
+ "depends_on": [
+  "B8114",
+  "B1088",
+  "B1012",
+  "B8112"
+ ],
+ "id": "B8115",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "NEGATIVE"
+}

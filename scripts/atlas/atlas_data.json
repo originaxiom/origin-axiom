@@ -18915,6 +18915,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8115": {
+   "slug": "c5 closed",
+   "motifs": [
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "L180"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

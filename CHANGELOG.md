@@ -1,5 +1,9 @@
 # Changelog
 
+## B8115 — C5 closes NEGATIVE, and names the archimedean boundary (2026-08-21)
+
+The B8114 fetch, made same-day. Lee–Park `arXiv:1905.13610` handles real places by **compact-support étale cohomology**; the arithmetic-CS action is valued in **`(1/n)ℤ/ℤ`** — **no volume, regulator, torsion or Laplacian determinant anywhere, absent by construction**. So the route supplies exactly the term the object proved to be zero (CS = 0) and lacks the volume entirely. **Boundary named: the archimedean place.** Successor **L180 — Arakelov**, registered **unproved**, with holomorphic-vs-real Ray–Singer torsion named as the hazard.
+
 ## B8114 — the paper's related-work armor, and C5 re-typed (2026-08-21)
 
 Five differentiators with citations **fetched today, none recalled**: Lisi/Distler–Garibaldi, Furey, Connes NCG, arithmetic Chern–Simons, 3d–3d. **D–G Theorem 1.3's obstruction (ToE3) is CHIRALITY** — the property B713/B760/B1028 already bank as a negative — so the neighbourhood's most-cited refutation **kills a hypothesis we decline to assume**, and does not reach us anyway (`E₆`, not `E₈`; no gravitational `SL(2,ℂ)` in the internal algebra). **C5 re-typed `NEEDS-READING`**: Lee–Park `arXiv:1905.13610` treats real places, so it is one fetch away, not fenced.

@@ -1995,3 +1995,15 @@ The 2026-08-12 document listed three not-searched items. **Item 1 is partially a
 ## C5 — RE-TYPED 2026-08-21 (B8114): NEEDS-READING, not fenced
 
 The arithmetic-CS analogue of the volume term was fenced *awaiting a further owner-routed literature reading*. **The reading ran (B8114) and the fence is the wrong shape.** The real-places extension **exists and is named** — Lee–Park, *"Arithmetic Chern–Simons theory with real places"*, **`arXiv:1905.13610`** — so C5 is **not literature-empty**. Whether it carries a **volume/regulator** term (B1088's sharpened question, since our CS is `0` by amphichirality) needs the **full text**, so it is **not decidable-here** either. And by B8103's thesis that *a specialist gate has a date*, it is **a paper to read, not an expert to find** — **not needs-specialist**. **Typed NEEDS-READING; one fetch away.** The fetch has NOT been made.
+
+## C5 — CLOSED NEGATIVE 2026-08-21 (B8115); successor registered as L180
+
+The re-typing in B8114 said the fetch had not been made. **It was made the same day.** Arithmetic Chern–Simons theory is **finite-group-valued by construction** — action in `(1/n)ℤ/ℤ`, machinery étale-cohomological — so it **supplies exactly the term the object has proved to be zero and lacks entirely the volume**. **C5 is closed, negatively.**
+
+## L180 — ARAKELOV, NOT ARITHMETIC CS (successor to the C5 negative)
+
+**Status: OPEN, registered UNPROVED, and deliberately not banked as a connection.**
+
+The C5 negative names the **archimedean place** as the boundary. In **Arakelov** geometry an analytic torsion **is** a standard archimedean ingredient: Gillet–Soulé's arithmetic Riemann–Roch computes the Arakelov degree of the determinant of cohomology with the **Quillen metric**, built from **Ray–Singer analytic torsion** via regularised Laplacian determinants. **That is the slot C5 went looking for.**
+
+**The falsifier, and the reason this is ranked as a lead rather than a result.** Arakelov's torsion is **HOLOMORPHIC** — Hermitian holomorphic bundles on **compact** Hermitian manifolds. B8112's computed ratio is **REAL** Ray–Singer torsion on a **non-compact cusped** hyperbolic 3-manifold. **If those cannot be bridged, L180 is dead and the archimedean boundary stands as a wall rather than a door** — which is itself the finding. **Nothing here is claimed; B8087's lesson (an isomorphism check is not a representation check) is the standing warning.**

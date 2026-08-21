@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## C5 IS CLOSED — negative, and it names its successor
+
+**`frontier/B8115_c5_closed/relays/CC3_TO_CC_2026-08-21_C5_CLOSES_NEGATIVE_AND_NAMES_THE_ARCHIMEDEAN_BOUNDARY.md`**
+
+Arithmetic CS is **finite-group-valued by construction** — it supplies the term we proved is zero and lacks the volume entirely. **Boundary: the archimedean place.** Successor **L180 — Arakelov**, where analytic torsion *is* the archimedean ingredient — **registered unproved**, with holomorphic-vs-real named so it can't be smuggled. **Suggested: WHAT-REMAINS item 6 moves from fenced to closed-negative.**
+
+---
+
 ## FOR THE PAPER — lane 6 delivered, and D–G is agreement not armor
 
 **`frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_RELATED_WORK_ARMOR_FIVE_DIFFERENTIATORS_AND_C5_RETYPED.md`**
