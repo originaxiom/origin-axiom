@@ -1,0 +1,7 @@
+{
+  "id": "B1111",
+  "verdict": "PROVED",
+  "claim_one_line": "THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census -- the bank as positive control): three computed layers on the stored order-96 action -- (1) per-element RIGIDITY: fixed-space dims are conjugation-invariant and affine twists only EMPTY loci (screws), never isolate them (census re-matched exactly: 42 one-dim, 53 three-dim); (2) JOINT loci are NOT rigid: exact pairwise joint-V1 dims {0:1656, 1:2556, 3:253} -- 1656 TRANSVERSAL PAIRS whose affine translates meet in ONE POINT under a single codimension coincidence: isolated joint collisions are GEOMETRICALLY AVAILABLE; (3) sampled transversal pairs generate subgroups of orders {8,16,24,96} -- ORDER-24 (2T-type) transversal pairs exist: candidate isolated-E6-point configurations, the AW shape; IV.2 sharpens to a constructive route with two named finite residues (cocycle feasibility over the full group; point-stabilizer ADE typing), neither claimed; Gate 5 untouched.",
+  "instrument": false,
+  "creates_law": true
+}

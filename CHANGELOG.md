@@ -1,5 +1,35 @@
 # Changelog
 
+## THE MAP-FINALIZATION WAVE, part 1 (2026-08-21) — eight cells computed, cross-verified at the owner's demand, five road nodes move
+
+The owner: "finalize the map first" then "GO do them all" then "cross
+verify all F's". Executed, and the cross-verification CAUGHT one bug —
+in a verifier, not a result: B1109 (F1/F1b/F4/F4b) the frame-map key
+DEAD TWICE OVER (7 projected classes vs 8 needed AND the size-9 class
+vs max multiplicity 6; the coordinate-to-ideal pairing
+bracket-CERTIFIED, PURE-A/A/B/B against a fresh 8+8 split), the
+diagonal-color key DEAD by the trivial-centralizer lemma
+(classification ideal-or-diagonal complete), the 18 directions = TWO
+ORBITS of 9 under W(A2)^2 (price 4.17 bits -> 1 BIT, and the bit is
+NAMED: trinification's flipped-Y pair, exact (2,1/2) relative
+rescaling, swap-unrelated). B1110 (F5/F6/F9): L175 CLOSED — the h=0
+locus is a WORD PROPERTY (identical 28-word set in six channels;
+separation 5e9) with the mechanism FOUND (diagonal-free weld
+matrices, fifteen orders of separation); the silver CENTER-BREAK LAW
+exact at 11 windows to N=80782 (defect conserved at 2 letters, its
+ADDRESS carries the parity bit); L178's gate HARDENED (the naive
+tones channel never existed: kappa complex, off the real-substrate
+sheet). B1111 (F7): W5 goes CONSTRUCTIVE — per-element loci rigid,
+but 1656 TRANSVERSAL PAIRS exist (exact over Q(sqrt2)), order-24
+pairs among them: candidate isolated-E6-points; residue = two named
+finite computations. THE VERIFIER BUG: a rational-approximation of
+the 1/sqrt2 entries collapsed eigenspaces and DISAGREED with B1084's
+banked census — the bank as positive control caught it; the corrected
+Q(sqrt2) run re-matched the census exactly {1:42, 3:53}. Five
+registry rows same-PR. ROAD: III.4 down to ONE key (F2 in flight),
+III.5 re-priced-and-named, IV.2 constructive, V.3 hardened, VIII.3
+closed-observed. In flight: F2 (A1 stratum), F8 (F4(Z) pair-orbits).
+
 ## The harvest bank (2026-08-21): the one-loop chain at 15 significant figures + C5's negative with two doors
 
 B1107 THE ONE-LOOP HARVEST (two-bench): the audit seat's

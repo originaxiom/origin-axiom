@@ -10954,3 +10954,12 @@ itself by catching a stale count in the source's prose. C5 closed
 negative with its boundary named and, by the audit seat's own
 same-day correction, two doors instead of one. Harvest means:
 verified twice, owned once, credited always.
+
+2026-08-21 (the wave, part 1; the owner's three words each earned a
+bank). "Finalize the map": five nodes moved in a day. "GO do them
+all": eight cells, every one decisive. "Cross verify": one broken
+verifier caught by the banked record acting as its own positive
+control — the archive auditing its auditors. The frame map cannot
+count to eight; the eighteen are two named orbits; the vanishing
+locus belongs to the words; silver's defect knows its address; and
+the wall's last deformation door turns out to have 1,656 hinges.

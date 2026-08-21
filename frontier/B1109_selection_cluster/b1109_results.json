@@ -1,0 +1,22 @@
+{
+ "F1_colorA": {
+  "label": "color=idealA, Y pure on idealB",
+  "n_projected_classes": 7,
+  "n_merge_lines": 6,
+  "hits": []
+ },
+ "F1_colorB": {
+  "label": "color=idealB, Y pure on idealA",
+  "n_projected_classes": 7,
+  "n_merge_lines": 6,
+  "hits": []
+ },
+ "F1_verdict": "NO-MATCH",
+ "F4_group_order_tested": 72,
+ "F4_set_preserving_moves": 36,
+ "F4_n_orbits": 2,
+ "F4_orbit_sizes": [
+  9,
+  9
+ ]
+}

@@ -2303,6 +2303,20 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1109": {
+   "slug": "selection cluster",
+   "motifs": [
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B991"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B110": {
    "slug": "off locus sector",
    "motifs": [
@@ -2323,6 +2337,39 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1110": {
+   "slug": "spectral cluster",
+   "motifs": [
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B518",
+    "B593",
+    "L175",
+    "L178"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1111": {
+   "slug": "w5 scoping",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },

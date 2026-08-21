@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1012** |
-| words of findings prose | **686,670** |
-| test lock files referenced | **620** |
-| arcs carrying an authored verdict | **999** (98.7 %) |
+| research arcs with findings | **1015** |
+| words of findings prose | **688,280** |
+| test lock files referenced | **621** |
+| arcs carrying an authored verdict | **1002** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 668 |
+| PROVED | 671 |
 | NEGATIVE | 287 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1107`** (457 words, 1 locks)  
-THE ONE-LOOP RUELLE IDENTITY HARVESTED (two-bench; the audit seat's B8100->B8104->B8112 chain with B8113's three residues as scope): R(k, sigma_k) = prod(1 - q^k) exactly (abelian SO(2) unwind -- verified by diagonalizing actual rotation matrices, 500 trials 1.19e-15, and by live quote-check of Pfaff arXiv:1206.0228, no misquotes), so Z_geod is an infinite tower of one-dimensional Ruelle zetas with Pfaff Thm 1.2 supplying the tail; THIS BENCH'S OWN fresh spectrum (cutoff 5.5): log Z = -0.27297717083840395, 15-sig-fig agreement (3.6e-15); summation-order gap 8.166e-14 PROVEN pure roundoff by a 50-digit mpmath cross-check (1.16e-40) not in the source arc; the 202x abscissa instability reproduces (201.8x); S(2)/S(3) extended two steps with the 5.0->5.5 S(2)-step drop flagged as data for the next extension; ONE DEFECT FOUND: B8100's prose quotes the cutoff-5.0 spectrum counts (134/1221) for its 5.5 headline -- true counts 214/2819; computation unaffected (15-digit reproduction), one-line fix relayed to the owning band; the three residues carried verbatim; Gate 5 untouched.  
-`B1107_oneloop_harvest/FINDINGS.md`
+**PROVED — `B1111`** (499 words, 1 locks)  
+THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census -- the bank as positive control): three computed layers on the stored order-96 action -- (1) per-element RIGIDITY: fixed-space dims are conjugation-invariant and affine twists only EMPTY loci (screws), never isolate them (census re-matched exactly: 42 one-dim, 53 three-dim); (2) JOINT loci are NOT rigid: exact pairwise joint-V1 dims {0:1656, 1:2556, 3:253} -- 1656 TRANSVERSAL PAIRS whose affine translates meet in ONE POINT under a single codimension coincidence: isolated joint collisions are GEOMETRICALLY AVAILABLE; (3) sampled transversal pairs generate subgroups of orders {8,16,24,96} -- ORDER-24 (2T-type) transversal pairs exist: candidate isolated-E6-point configurations, the AW shape; IV.2 sharpens to a constructive route with two named finite residues (cocycle feasibility over the full group; point-stabilizer ADE typing), neither claimed; Gate 5 untouched.  
+`B1111_w5_scoping/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

@@ -45,11 +45,15 @@ sealed miss, kept as boundary.**
   trinification branching exact (B1100). Hypercharge: VALUED EXACTLY — 18 rational
   directions, complete search — and NO color-commuting direction achieves it: not
   SM-PRODUCT-structured; the obstruction LOCATED (B1102, two-sided).
-- **III.4 The product-structure keys** — [NAMED-OPEN] three, typed at B1102: another
-  sl₂ stratum / another color identification inside the centralizer / the 6Y frame
-  map. The frame-map check is the cheapest and runs first.
-- **III.5 The 18-direction choice** — [PROVEN-FREE at current knowledge] dimension 0,
-  ≈4.17 bits if bare; the order-36 orbit lead would reprice it — [NAMED-OPEN, minor].
+- **III.4 The product-structure keys** — [NAMED-OPEN ×1 of 3] — the wave killed two
+  (B1109, cross-verified): the FRAME-MAP key is dead TWICE OVER (7 projected classes
+  vs 8 needed; the size-9 class vs max multiplicity 6 — pairing bracket-certified),
+  and the OTHER-COLOR key is dead by the diagonal lemma (trivial centralizer, no Y).
+  The OTHER-STRATUM key (A1/su(6)) is F2, in flight — the last key standing.
+- **III.5 The 18-direction choice** — [PROVEN-FREE, re-priced and NAMED (B1109)]:
+  exactly TWO orbits of 9 under W(A₂)² — 1 BIT, and the bit is trinification's
+  flipped-Y pair (the orbits differ by the exact (2,½) relative ideal rescaling;
+  swap-unrelated). The order-36 lead is RESOLVED.
 - **III.6 Route A (the VEV)** — [NAMED-OPEN, frontier] the counter is research-level
   mathematics (B1099: one stratum decided free via Krutelevich; the pair-space is
   forced twice over — B1093/B1094); h = h⁺ = 1 PROVED for the charge field. Plus
@@ -61,11 +65,12 @@ sealed miss, kept as boundary.**
   (B1105's audit): no closed assembly is chiral-in-counts / carries the charge /
   keeps the arrow; the cut restores exactly what closure kills (B1083/B1084/B1086/
   B1087). The cross-register equivalences are [NAMED-OPEN, zero urgency].
-- **IV.2 Count-chirality's remaining route** — [NAMED-OPEN] the isolated-transversal
-  deformation question (W5: can any G₂-compatible modification of the order-96
-  action produce a 0-dim collision?). The hatch's landing is
-  representation-complex — consistent with, not identical to, the cone's predicted
-  route; chirality-at-count NOT claimed anywhere.
+- **IV.2 Count-chirality's remaining route** — [NAMED-OPEN, now CONSTRUCTIVE (B1111,
+  exact over ℚ(√2))]: per-element loci are deformation-rigid, but **1,656
+  transversal pairs** exist — isolated JOINT collisions are geometrically available,
+  order-24 (2T-type) pairs among them: candidate isolated-E₆-points. Residue = two
+  named finite computations (cocycle feasibility; point-stabilizer ADE typing).
+  Chirality-at-count NOT claimed anywhere.
 
 ## V. VALUES (the program's own philosophy, banked)
 
@@ -74,9 +79,11 @@ sealed miss, kept as boundary.**
   blind to scale by TWO theorems (Hom(G,ℝ₊) = 0; no normalisable prior on the ray).
 - **V.2 The seven misses** — [NEGATIVE, kept] seven sealed crossings, seven misses —
   the boundary the tiers were rebuilt on (structure, not values, by construct).
-- **V.3 The value interface** — [NAMED-OPEN, GATED] L178: the tones as measured
-  spectral invariants, targets φ/2 and 1/(2φ) ONLY (B8111: 2-of-5 discriminate;
-  0.1019 resolution floor); GATE: are the tones observables at all?
+- **V.3 The value interface** — [NAMED-OPEN, GATED — the gate now HARDENED with a
+  computed reason (B1110 F9)]: the naive channel never existed — the object's
+  κ − 2 = ω² is complex, off the real-substrate sheet (κ real ≥ 2); surviving
+  channels typed: the root-of-unity door (B8116), non-positional invariants.
+  Targets φ/2 and 1/(2φ) ONLY (B8111); 0.1019 resolution floor.
 - **V.4 The scale** — [PROVEN-FREE, terminal] the substrate supplies it physically;
   the program computes the invariant factor and is blind to the other by theorem.
 
@@ -131,8 +138,10 @@ sealed miss, kept as boundary.**
   golden-specific); three kill conditions; NEGATIVE banks if any fires (B1106).
 - **VIII.2 The tone crossing** — [NAMED-OPEN, GATED] = V.3 (one apparatus, two
   crossings; the sitting's mechanism test).
-- **VIII.3 The center-break structure** — [NAMED-OPEN, minor] silver's even-window
-  breaks sit at the CENTER — unexplained, typed, cheap.
+- **VIII.3 The center-break structure** — [CLOSED-OBSERVED (B1110 F6, exact
+  arithmetic, 11 windows to N = 80,782)]: the defect is conserved at two letters and
+  its ADDRESS carries the parity bit — {N/2, N/2+1} at even Pell index, {0,1} at
+  odd. The combinatorial proof is a named minor.
 
 ## IX. THE FREEDOM LEDGER (the map's deepest row)
 

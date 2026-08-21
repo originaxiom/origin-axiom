@@ -1,0 +1,7 @@
+{
+  "id": "B1110",
+  "verdict": "PROVED",
+  "claim_one_line": "THE SPECTRAL CLUSTER (wave F5/F6/F9, cross-verified): F5 L175 CLOSES -- the h=0 locus is a WORD PROPERTY (six channels spanning every listener sector share the IDENTICAL 28-word set over 1364 words; separation 5e9, no borderline; odd-u3 matches B1103's exact 28) with the MECHANISM found: the 28 are exactly the DIAGONAL-FREE weld matrices (max|diag| 1.2e-15 vs >=0.30 for every other word -- fifteen orders of separation); F6 VIII.3 CLOSES-OBSERVED -- the silver center-break LAW at 11 Pell windows to N=80782, RE-VERIFIED IN EXACT ARITHMETIC (convergent error ~1e-91): always exactly 2 breaks, at {N/2, N/2+1} for even Pell index and {0,1} for odd -- the reversal-defect is conserved and its ADDRESS carries the parity bit (combinatorial proof = named minor); F9 L178's gate HARDENS -- the naive tones channel never existed: the object's kappa-2 = omega^2 is complex, off the real-substrate sheet (kappa real >= 2; required lambda = omega/2 not real; robust to the dictionary's constant), surviving channels typed (the root-of-unity door; non-positional invariants); Gate 5 untouched.",
+  "instrument": false,
+  "creates_law": true
+}

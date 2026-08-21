@@ -1,0 +1,26 @@
+{
+ "F4b_swap_in_S": 0,
+ "F4b_preserving": 36,
+ "F4b_preserving_with_swap": 0,
+ "F4b_orbits": [
+  9,
+  9
+ ],
+ "F5_counts": {
+  "odd_u3": 28,
+  "odd_u6": 28,
+  "even_s3": 28,
+  "even_s6": 28,
+  "fixed_00": 28,
+  "fixed_11": 28
+ },
+ "F5_same_as_odd_u3": {
+  "odd_u3": true,
+  "odd_u6": true,
+  "even_s3": true,
+  "even_s6": true,
+  "fixed_00": true,
+  "fixed_11": true
+ },
+ "F5_verdict": "WORD-PROPERTY"
+}

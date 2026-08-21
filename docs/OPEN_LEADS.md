@@ -1950,3 +1950,8 @@ from silver at all. **GATES, in order:** (1) tones-as-observables (the design's 
 transfer-matrix ghosts? UNANSWERED, the crossing's own question); (2) the shared
 apparatus appendix (docs/EDGE_PREREG_SPEC.md §5) and BOTH controls bind here too.
 No seal until gate (1) resolves. ★★★★ (the value lane's only type-correct road).
+
+**L175 CLOSED (2026-08-21, B1110 — same-day as registration):** the h = 0 locus IS a
+word property — six channels spanning every listener sector share the identical
+28-word set, and the mechanism is DIAGONAL-FREEDOM of the weld matrix (fifteen orders
+of separation). The family's fourth theorem, as the outside session conjectured.
