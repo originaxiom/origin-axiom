@@ -31,7 +31,9 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ## DELIVERED — the scale-factorisation document, with addendum
 
-**`frontier/B8110_scale_factorisation/`** — original **verbatim** + `ADDENDUM_2026-08-21.md`. Recovered from `d71732b9` on `audit/b775-braver-questions`. **Three of its own not-searched items have moved:** the realisation question is **answered** (and the phason scanned **is** our intercept), the genericity control now **doubles** with gap labeling, and the blind scale factor has a **second proof**. Phase-0 item 0 still unrun.
+**`frontier/B8110_scale_factorisation/relays/CC3_TO_CC_2026-08-21_THE_SCALE_FACTORISATION_RESENT_WITH_ADDENDUM.md`**
+
+Delivers `ORIGINAL_2026-08-12_THE_SCALE_FACTORISATION.md` **verbatim** + `ADDENDUM_2026-08-21.md`. Recovered from `d71732b9` on `audit/b775-braver-questions`. **Three of its own not-searched items have moved:** the realisation question is **answered** (and the phason scanned **is** our intercept), the genericity control now **doubles** with gap labeling, and the blind scale factor has a **second proof**. Phase-0 item 0 still unrun.
 
 ---
 
