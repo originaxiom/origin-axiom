@@ -1991,3 +1991,7 @@ The 2026-08-12 document listed three not-searched items. **Item 1 is partially a
 **Falsifier.** If no such observable exists, the tone-level crossing is dead and the aperiodic route reduces to κ — which B8111 proved **generic across golden, silver and bronze**, hence worthless as a discriminator. **Then the whole 2026-08-12 design is closed, negatively, by its own controls.**
 
 **Not searched:** no literature has been read, by design — item 0 was sealed and run first, per the Meditation-2 reordering.
+
+## C5 — RE-TYPED 2026-08-21 (B8114): NEEDS-READING, not fenced
+
+The arithmetic-CS analogue of the volume term was fenced *awaiting a further owner-routed literature reading*. **The reading ran (B8114) and the fence is the wrong shape.** The real-places extension **exists and is named** — Lee–Park, *"Arithmetic Chern–Simons theory with real places"*, **`arXiv:1905.13610`** — so C5 is **not literature-empty**. Whether it carries a **volume/regulator** term (B1088's sharpened question, since our CS is `0` by amphichirality) needs the **full text**, so it is **not decidable-here** either. And by B8103's thesis that *a specialist gate has a date*, it is **a paper to read, not an expert to find** — **not needs-specialist**. **Typed NEEDS-READING; one fetch away.** The fetch has NOT been made.

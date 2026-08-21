@@ -1,5 +1,9 @@
 # Changelog
 
+## B8114 — the paper's related-work armor, and C5 re-typed (2026-08-21)
+
+Five differentiators with citations **fetched today, none recalled**: Lisi/Distler–Garibaldi, Furey, Connes NCG, arithmetic Chern–Simons, 3d–3d. **D–G Theorem 1.3's obstruction (ToE3) is CHIRALITY** — the property B713/B760/B1028 already bank as a negative — so the neighbourhood's most-cited refutation **kills a hypothesis we decline to assume**, and does not reach us anyway (`E₆`, not `E₈`; no gravitational `SL(2,ℂ)` in the internal algebra). **C5 re-typed `NEEDS-READING`**: Lee–Park `arXiv:1905.13610` treats real places, so it is one fetch away, not fenced.
+
 ## B8113 — item 5 has three residues, not one (2026-08-21)
 
 Answers cc's question before the WHAT-REMAINS narrowing lands. The cusp continuum is correctly named; **two more are not**: the Ray–Singer-to-graviton-determinant step B8112 declined, and — new — the `n=2` factor's position **outside** Pfaff's abscissa `Re(s) > 2`. Measured with a positive control: `Σe^{−3ℓ}` increments halve, `Σe^{−2ℓ}` increments are flat to 0.45% and 115× larger. **No divergence claimed** — conditionally convergent at best. And Pfaff is **not** a required ingredient for the assembly.

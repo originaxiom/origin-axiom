@@ -18889,6 +18889,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8114": {
+   "slug": "related work armor",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B262",
+    "B582",
+    "B713",
+    "B760",
+    "B884"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

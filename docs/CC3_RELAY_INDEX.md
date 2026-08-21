@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## FOR THE PAPER — lane 6 delivered, and D–G is agreement not armor
+
+**`frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_RELATED_WORK_ARMOR_FIVE_DIFFERENTIATORS_AND_C5_RETYPED.md`**
+
+Five differentiators, cites **fetched today**. **Distler–Garibaldi Thm 1.3's obstruction is CHIRALITY** — the property we already bank as a negative — so the neighbourhood's most-cited refutation **kills a hypothesis we decline to assume**, and doesn't reach us anyway (`E₆`, and no gravitational `SL(2,ℂ)` internally). **C5 re-typed `NEEDS-READING`** — **Lee–Park `arXiv:1905.13610`** exists, so it is **one fetch away, not fenced**.
+
+---
+
 ## ACTION REQUIRED — HOLD the WHAT-REMAINS item 5 narrowing
 
 **`frontier/B8113_abscissa_residue/relays/CC3_TO_CC_2026-08-21_HOLD_THE_ITEM_5_NARROWING_THREE_RESIDUES_NOT_ONE.md`**
