@@ -3140,11 +3140,14 @@ a Tschirnhaus transformation; explicitly, $\rho=-\tfrac{815}{338}
 $\rho^{3}-12\rho-5=0$ in $\Q[t]/\mu$, which exhibits the isomorphism
 $K\cong\Q[x]/(x^{3}-12x-5)$ of Proposition~\ref{prop:mu} directly.
 
-\begin{remark}[why $\disc\mu$ and $\disc K$ differ]
+\begin{remark}[why $\disc\mu$ and $\disc K$ differ]\label{rem:discmu}
 $\disc\mu=2^{32}\cdot3^{10}\cdot5^{2}\cdot7^{3}\cdot11\cdot13^{6}$ while
 $\disc K=3^{4}\cdot7\cdot11$. The extra primes---in particular the $5^2$ and the
-$13^6$---are carried by the non-maximal order $\Z[t]/\mu$, and the leading coefficient
-$500716339200=2^{16}\cdot3^{4}\cdot5^{2}\cdot7^{3}\cdot11$ already contains a $5^2$.
+$13^6$---are carried by the \emph{normalization of the pencil} rather than by the field.
+\textbf{Note that $\Z[t]/\mu$ is not an order}: $\mu$ is not monic, its leading
+coefficient being $500716339200=2^{16}\cdot3^{4}\cdot5^{2}\cdot7^{3}\cdot11$, which
+already contains a $5^2$. An order needs a monic generator, so the discrepancy is a
+statement about $\mu$'s coefficients and not about a suborder of $\mathcal O_K$.
 \textbf{They are artifacts of the pencil's normalization, not arithmetic of the field},
 which is the content of the correction recorded after Proposition~\ref{prop:mu}.
 \end{remark}
@@ -3266,6 +3269,8 @@ changelog.
 \begin{enumerate}[leftmargin=2.2em,itemsep=1pt]
 \item ``The four arguments share no lemma'' was false; three of the four test values of a
   single characteristic polynomial (Lemma~\ref{lem:collapse}).
+\item Remark~\ref{rem:discmu} called $\Z[t]/\mu$ a ``non-maximal order''. It is not an
+  order at all: $\mu$ is not monic. The arithmetic was and is correct; the phrasing was not.
 \item Theorem~\ref{thm:arith}'s proof said the arithmetic monodromies are ``exactly those
   conjugate to a power of one of the three words''. \emph{Cyclic} commensurability gives less:
   some power of one monodromy is conjugate to some power of the other. The conclusion is

@@ -1,0 +1,16 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "THE P1 SCRUTINY IS FULLY TRIAGED: 35 ITEMS, ONE LIVE DEFECT, NOW FIXED. Across 2 fatal, 11 major, 13 minor, 4 round-2 and 5 constructive findings against an ancestor of this paper, exactly one survived into the current text: m13, which called Z[t]/mu a 'non-maximal order' when mu is not monic and so generates no order at all -- the leading coefficient 500716339200 is quoted in the same sentence. Repaired with an App C entry; the arithmetic was never in question. R1, which the scrutiny calls the single worst defect in the paper's accounting, is DISCHARGED EMPHATICALLY: our abstract mentions CS and amphichirality zero times, and the body states '2 CS = 0, NOT the vanishing' verbatim -- the paper names the error R1 describes. E5 is discharged BY OUR OWN B8078, whose eleven-value rung spectrum includes the 28 that E5 says was omitted and forbids the 22 that was its other branch, superseding the seven-element list entirely. METHOD NOTE THAT EARNED ITS KEEP: every check here ran WRAP-INSENSITIVELY WITH A POSITIVE CONTROL, because the previous pass produced a false negative on a hard-wrapped phrase -- the same failure this seat had already banked twice. Triages the remaining 22 scrutiny items against the current text. Does not re-audit the 13 already closed in B8120/B8121/B8122. Gate 5 untouched.",
+ "creates_law": false,
+ "depends_on": [
+  "B8120",
+  "B8121",
+  "B8122",
+  "B8078"
+ ],
+ "id": "B8123",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
