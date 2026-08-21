@@ -18809,6 +18809,15 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B8109": {
+   "slug": "r48 close",
+   "motifs": [],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B810": {
    "slug": "verdict wave1",
    "motifs": [

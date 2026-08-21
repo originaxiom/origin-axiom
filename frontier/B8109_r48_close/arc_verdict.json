@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "R48 CLOSE: FOUR FINDINGS, ZERO NEW IN PHASES 3-4, AND THE LAG SCAN WAS THE WRONG INSTRUMENT. Findings: F1 THEOREM_REGISTRY's own same-PR rule unenforced for 179 arcs because no gate read it (RESOLVED via backfill and the creates_law gate, with this seat's over-wide sharpening adopted); F2 GUT_REQUIREMENTS_LEDGER's theorem correct but consequence stale, missed by the doc wave (RESOLVED, scoped beside an untouched theorem); F3 UNIFIED_STATE (RESOLVED in passing via a live-state pointer); F4 BANKING_PROTOCOL omitting the now-required creates_law from its binding checklist (ACCEPTED, one-line fix riding cc's next bank). PHASES 3 AND 4 PRODUCED ZERO NEW FINDINGS, which is the result rather than a failure to find one. THE METHODOLOGICAL FINDING IS THE DURABLE OUTPUT: the lag scan was the WRONG INSTRUMENT, generating 36 candidates for 2 real findings -- a ~6% hit rate, both found by reading rather than by lag. The banner discriminator was worse: 7 of 13 'handled' were false positives on a second pass, and the 6 'genuine' are only word matches, BANKING_PROTOCOL containing 'superseded' while being 'standing and binding for every seat' -- unreliable at both ends, recorded against this seat's own work. What worked was the OVERTURNED-CLAIM scan: search for a STATEMENT the window contradicts rather than a missing citation, run across all 30 no-genuine-banner surfaces with a PASSING POSITIVE CONTROL that recovers F2's hard-wrapped sentence, returning exactly one hit which is F2 itself. THE PRINCIPLE: a negative from an uncontrolled scan is worthless, while a negative from a scan whose positive control passes is a finding -- MB12's bite-control discipline applied to documents, and what makes 'zero new findings' trustworthy rather than merely comforting. INSTRUMENT FAILURE SELF-CAUGHT: the first overturned-claim scan returned 0 of 23 and nearly reported the corpus clean, because the pattern used a character class excluding newlines and cannot cross a markdown hard-wrap, while F2's stale sentence is wrapped across two lines -- caught by asking the instrument to find something already known to be there; second false-zero of the session after an apostrophe broke a grep. RECOMMENDATIONS TO R49: do not lead with a lag scan; lead with overturned-claim scanning with a positive control and normalized hard-wraps; do not trust header regexes for supersession; and the remedy for lagging-but-honest documents is a banner, not a rewrite. SCOPE: 126 synthesis surfaces at the frozen head, arc FINDINGS excluded by design as historical records, NO document edited, post-boundary banks left to R49, and 21+ lagging surfaces recorded as NOT findings -- the honest disposition, not a deferral. Gate 5 untouched.",
+ "depends_on": [
+  "B8105",
+  "B8106",
+  "B8107",
+  "B8108"
+ ],
+ "id": "B8109",
+ "instrument": true,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

@@ -1,0 +1,54 @@
+{
+ "findings": [
+  {
+   "detail": "its own same-PR rule unenforced for 179 arcs because no gate read it; backfill + creates_law gate, cc3's over-wide sharpening adopted",
+   "id": "F1",
+   "status": "RESOLVED",
+   "surface": "docs/THEOREM_REGISTRY.md"
+  },
+  {
+   "detail": "theorem correct, consequence stale; the doc wave missed it; scoped beside an untouched theorem",
+   "id": "F2",
+   "status": "RESOLVED",
+   "surface": "docs/GUT_REQUIREMENTS_LEDGER.md"
+  },
+  {
+   "detail": "live-state pointer added",
+   "id": "F3",
+   "status": "RESOLVED in passing",
+   "surface": "docs/UNIFIED_STATE.md"
+  },
+  {
+   "detail": "creates_law required but absent from the binding checklist; one-line fix riding cc's next bank",
+   "id": "F4",
+   "status": "ACCEPTED",
+   "surface": "docs/BANKING_PROTOCOL.md"
+  }
+ ],
+ "instrument_failure_self_caught": "the first overturned-claim scan returned 0 of 23 and nearly reported the corpus clean; the pattern used [^.\\n] which cannot cross a markdown hard-wrap, and F2's stale sentence is wrapped across two lines. Caught by asking the instrument to find something already known to be there. Second false-zero of the session, after an apostrophe broke a grep.",
+ "methodological_finding": {
+  "banner_discriminator": "WORSE -- 7 of 13 'handled' were false positives on a second pass, and the 6 'genuine' are only word matches; BANKING_PROTOCOL contains 'superseded' while being 'standing and binding for every seat'",
+  "lag_scan": "WRONG INSTRUMENT -- 36 candidates, 2 real findings, ~6% hit rate, and both were found by reading rather than by lag",
+  "principle": "a negative from an uncontrolled scan is worthless; a negative from a scan whose positive control passes is a finding -- MB12's bite-control discipline applied to documents",
+  "what_worked": "the overturned-claim scan -- search for a STATEMENT the window contradicts, not a missing citation; run across all 30 no-genuine-banner surfaces with a PASSING positive control (it recovers F2's hard-wrapped sentence), it returns exactly one hit, F2 itself"
+ },
+ "mode": "COLD",
+ "new_findings_phase_3_and_4": 0,
+ "phase": "close",
+ "recommendations_to_R49": [
+  "do not lead with a lag scan (6% hit rate)",
+  "lead with overturned-claim scanning against the window's own results, with a positive control from a known finding, normalizing hard-wraps first",
+  "do not trust header regexes for supersession (7/13 false positives); supersession is a judgement",
+  "the remedy for lagging-but-honest documents is a banner, not a rewrite"
+ ],
+ "review": "R48",
+ "scope": "R48 covered the 126 synthesis surfaces of origin/main at the frozen head. Arc FINDINGS excluded by design as historical records. NO document was edited. B1102/B1103 and the post-boundary banks are R49's. 21+ surfaces carry lag without a verified defect, recorded as NOT findings -- the honest disposition, not a deferral.",
+ "tally": {
+  "candidates": 36,
+  "genuine_banner": 6,
+  "overturned_claim_hits": 1,
+  "verified_findings": 2,
+  "without": 30
+ },
+ "window_head": "07e46c7f"
+}

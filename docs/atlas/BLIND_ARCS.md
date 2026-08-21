@@ -52,6 +52,7 @@ auditable in a way a passing threshold never was.
 | `B8105` | INSTRUMENT | R48 phase 1: a currency audit of the repository's own **synthesis surfaces**, and a registry found violating its own same-PR rule. The subject is the corpus's **document hygiene and gate coverage** — there is no object mathematics in it at all. **An object atlas is correct to miss it**, and the arc's own finding is that *no gate reads* the rule in question, which is the same class of blindness this register exists to record. |
 | `B8107` | INSTRUMENT | R48 verification: checking that two review fixes actually landed, and finding the fix reproduced the pattern it fixed. Subject is the repository's **gates, protocol checklist and registry** — no object mathematics. **An object atlas is correct to miss it.** |
 | `B8108` | INSTRUMENT | R48 phase 3: triaging the corpus's own synthesis surfaces by supersession banner. Subject is **document hygiene and the reviewer's own instrument**, with no object mathematics. **An object atlas is correct to miss it.** |
+| `B8109` | INSTRUMENT | R48's closing report: which review instruments worked, which did not, and the positive-control principle for document scans. **Pure methodology**, no object mathematics — an object atlas is correct to miss it. |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 
