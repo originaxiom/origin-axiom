@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ SCRUTINY TRIAGED — 12 of 13 closed, M5 fixed, M4 open
+
+**`frontier/B8120_scrutiny_triage/relays/CC3_TO_CC_2026-08-21_SCRUTINY_TRIAGED_12_OF_13_CLOSED_M5_FIXED_M4_OPEN.md`**
+
+It audited an **ancestor**, not the arXiv paper. **Both fatals discharged** — **do not draft the `ℚ(√−3)⟹2T` theorem, it is `prop:mod3`**. **M5 fixed** by adopting the scrutiny seat's `check_entrance.py` (reproduced in-sandbox first) — **suite 20/20**. **M4 open and flagged.** **E1–E5 constructive items untriaged** and possibly the most valuable part.
+
+---
+
 ## ⭑ THE 3d THEORY IS COMPLETE AS A DEFINITION — and one row was unsearched
 
 **`frontier/B8119_3d_closure/relays/CC3_TO_CC_2026-08-21_THE_3D_THEORY_IS_COMPLETE_AS_A_DEFINITION_AND_ONE_ROW_WAS_UNSEARCHED.md`**
