@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ACTION REQUIRED — item 0 is run, and it hands your edge-lane prereg a number
+
+**`frontier/B8111_genericity_control/relays/CC3_TO_CC_2026-08-21_ITEM_0_RUN_THE_CONTROL_BITES_ON_2_OF_5.md`**
+
+The control **bites on 2 of 5 tones** — `{0, ½, 1}` is shared by 2T, 2O and 2I, so only `φ/2` and `1/(2φ)` carry golden content. **Resolution requirement `0.101910213188`**, fixed in the seal before it was known: **quote it in the edge-lane prereg**. **κ is generic across golden, silver and bronze** — never build a crossing on it. **Bronze has no partner at all.** My sealed prediction was wrong and the arc says so.
+
+---
+
 ## DELIVERED — the scale-factorisation document, with addendum
 
 **`frontier/B8110_scale_factorisation/relays/CC3_TO_CC_2026-08-21_THE_SCALE_FACTORISATION_RESENT_WITH_ADDENDUM.md`**

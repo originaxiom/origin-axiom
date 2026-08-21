@@ -18834,6 +18834,28 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B8111": {
+   "slug": "genericity control",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "lorentzian",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B518",
+    "B997",
+    "S034"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

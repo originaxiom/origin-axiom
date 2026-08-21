@@ -10966,3 +10966,7 @@ B167 stands. It has been an orphaned POSTULATED taxonomy since June with zero ci
 has one, on the door it itself called the only logically-open lane. Converting an untested postulate
 into a tested one is a smaller thing than opening a door, and it is a real thing, and it is what the
 seal committed us to reporting with equal prominence either way.
+
+## 2026-08-21 — B8111, the genericity control (Phase-0 item 0)
+
+cc commissioned the control cc3 demanded of itself on 2026-08-12. Sealed before compute, prediction recorded and wrong: I expected 2O to carry a five-tone menu making the shape generic; it carries four. The verdict is OUTCOME A, but the operative finding is that `{0, ½, 1}` is shared by all three exceptional binary polyhedral groups, so only `φ/2` and `1/(2φ)` discriminate — 2 of 5. The resolution requirement is `0.101910213188`. Bronze has no partner. The Fricke invariant survives m = 1,2,3, so κ is generic across the metallic family and the crossing must be built on tones, never on κ. The m=1 control failed on first run (full-trace map, half-trace invariant) and the seal's instrument-broken rule held.

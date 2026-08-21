@@ -1,0 +1,14 @@
+SEAL -- B8111 genericity control (Phase-0 item 0)
+
+ALGORITHM: SHA-256, computed over the raw bytes of PREREGISTRATION.md.
+The digest is of the PREREGISTRATION file only. It is NOT self-referential:
+this SEAL.txt is not part of the hashed input.
+
+FILE:   PREREGISTRATION.md
+BYTES:  9416
+SHA256: f272c0065249da306e2df510ad67d5d1273cacd57aa84828a9ff1e8aa006f4f0
+
+SEALED: 2026-08-21, before any computation and before any literature or
+experiment contact. Commissioned by cc on the owner's D-2 ruling.
+
+VERIFY: shasum -a 256 PREREGISTRATION.md

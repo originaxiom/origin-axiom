@@ -1,0 +1,140 @@
+{
+ "2I_menu_contains_sqrt5": true,
+ "2O_menu_contains_sqrt2": true,
+ "2T_menu_all_rational": true,
+ "bronze_has_no_partner": true,
+ "discriminating_fraction_vs_2O": "2/5",
+ "element_orders": {
+  "2I": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   10
+  ],
+  "2O": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8
+  ],
+  "2T": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ]
+ },
+ "fricke_preserved_m": {
+  "1": true,
+  "2": true,
+  "3": true
+ },
+ "golden_minus_silver": [
+  "0.309016994374947",
+  "0.809016994374947"
+ ],
+ "menu_exprs": {
+  "2I": [
+   [
+    "-1/4+1/4*r5",
+    24
+   ],
+   [
+    "0",
+    30
+   ],
+   [
+    "1",
+    2
+   ],
+   [
+    "1/2",
+    40
+   ],
+   [
+    "1/4+1/4*r5",
+    24
+   ]
+  ],
+  "2O": [
+   [
+    "0",
+    18
+   ],
+   [
+    "1",
+    2
+   ],
+   [
+    "1/2",
+    16
+   ],
+   [
+    "1/2*r2",
+    12
+   ]
+  ],
+  "2T": [
+   [
+    "0",
+    6
+   ],
+   [
+    "1",
+    2
+   ],
+   [
+    "1/2",
+    16
+   ]
+  ]
+ },
+ "menu_sizes": {
+  "2I": 5,
+  "2O": 4,
+  "2T": 3
+ },
+ "menus": {
+  "2I": [
+   "0.000000000000000",
+   "0.309016994374947",
+   "0.500000000000000",
+   "0.809016994374947",
+   "1.000000000000000"
+  ],
+  "2O": [
+   "0.000000000000000",
+   "0.500000000000000",
+   "0.707106781186548",
+   "1.000000000000000"
+  ],
+  "2T": [
+   "0.000000000000000",
+   "0.500000000000000",
+   "1.000000000000000"
+  ]
+ },
+ "min_resolution_pair": [
+  0.8090169943749475,
+  0.7071067811865476
+ ],
+ "min_resolution_required": 0.10191021318839988,
+ "outcome": "A",
+ "same_cardinality_2O_2I": false,
+ "scope": "The three exceptional binary polyhedral groups in their DEFINING SU(2) representation, and the metallic substitutions a -> a^m b, b -> a for m=1,2,3. Tests the DISCRIMINATING POWER of cc3's own 2026-08-12 tone-level crossing proposal. NOTHING about any manifold, NOTHING about any measured spectrum, and no literature was read. Says nothing about whether the tones are observables -- that is item 2 and remains open. Gate 5 untouched: no measured value appears.",
+ "shared_by_all_three": [
+  "0.000000000000000",
+  "0.500000000000000",
+  "1.000000000000000"
+ ],
+ "silver_minus_golden": [
+  "0.707106781186548"
+ ],
+ "verdict": "OUTCOME B -- VALUE-ONLY DISCRIMINATION. 2O carries a five-tone |cos| menu structurally identical to 2I's, sharing {0,1/2,1} and differing in exactly two entries, with sqrt2 in place of phi. 'Lands on a five-tone menu' is GENERIC and must never be stated as the prediction. The crossing survives only re-specified at the VALUE level, above a resolution of 0.101910. Bronze has no binary-polyhedral partner at all."
+}

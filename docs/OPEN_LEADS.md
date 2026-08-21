@@ -1979,3 +1979,15 @@ inputs with theorems attached, which is already a defensible position and needs 
 **Why ranked third.** It is the one where enthusiasm most outruns the theorem, and **the one that
 would most damage the programme if it appeared in public ahead of its proof.** Registered so it is
 not lost, ranked so it is not rushed.
+
+## L179 — ARE THE FIVE TONES OBSERVABLES? (item 2, the ONLY unmoved item of the 2026-08-12 list)
+
+**Status: OPEN, untouched, and now the sole gate on the tone-level crossing.**
+
+The 2026-08-12 document listed three not-searched items. **Item 1 is partially answered** (B8094: the realisations exist, and the phason they scan **is** the Sturmian intercept). **Item 3 is now run** (B8111: the control bites, on 2 of 5 tones, with a resolution requirement of `0.101910213188` and no bronze partner). **Item 2 is exactly where it was:** are the tones **observables** in an aperiodic spectrum, or only invariants of the transfer matrix that no experiment resolves?
+
+**Why it is now load-bearing rather than one of three.** B8111 showed the discriminating content is **two specific values**, `φ/2` and `1/(2φ)`. So item 2 is no longer *"are the tones observable"* in general — it is the sharper and more answerable **"is there a measured spectral quantity, with the scale divided out, that can land on `φ/2` rather than `√2/2`, at a resolution better than `0.1019`?"** That is a question with a yes-or-no shape.
+
+**Falsifier.** If no such observable exists, the tone-level crossing is dead and the aperiodic route reduces to κ — which B8111 proved **generic across golden, silver and bronze**, hence worthless as a discriminator. **Then the whole 2026-08-12 design is closed, negatively, by its own controls.**
+
+**Not searched:** no literature has been read, by design — item 0 was sealed and run first, per the Meditation-2 reordering.

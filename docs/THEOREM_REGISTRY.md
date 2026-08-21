@@ -159,3 +159,4 @@ every row is exact structure on the object's own charges, no physics value.**
 
 *(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
 invisible-12 — get their rows when their locks land; LAW_MAP §F's pending row governs.)*
+| T-TONEMENU | **the tone menu `|χ|/2` of a finite `SU(2)` subgroup is an ORDER-SPECTRUM invariant, and across `2T/2O/2I` the common core is exactly `{0, ½, 1}`** — 2T `{0,½,1}`, 2O `{0,½,√2/2,1}`, 2I `{0,1/(2φ),½,φ/2,1}`; **only 2 of the golden 5 are golden-unique**. Corollary: **bronze has no binary-polyhedral partner** (no element of order 13; `√13 ∉ ℚ(√2,√5)`). Stated as a **control result**, not an APPEARS-NOVEL claim — the menus are classical character theory; **what is new here is the DISCRIMINATION MEASUREMENT against a named crossing proposal.** | B8111 | `tests/test_b8111_genericity_control.py` | — |

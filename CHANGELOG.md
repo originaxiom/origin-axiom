@@ -1,5 +1,9 @@
 # Changelog
 
+## B8111 — the genericity control bites on 2 of 5 tones (2026-08-21)
+
+Phase-0 item 0, commissioned by cc on the owner's D-2 ruling. Preregistered and SHA-256 sealed before compute; prediction recorded and **wrong**. Tone menus: 2T `{0,½,1}`, 2O `{0,½,√2/2,1}`, 2I `{0,1/(2φ),½,φ/2,1}`. Shape is **not** generic (4 vs 5) — OUTCOME A — **but `{0,½,1}` is shared by all three, so only 2 of 5 tones discriminate**. Resolution requirement `0.101910213188`. Bronze has **no** partner (proved twice). The Fricke invariant is preserved for m = 1,2,3, so **κ is provably generic across the metallic family** — S034's N5 confirmed for κ, refuted for the tones.
+
 ## DOOR 5 IS SHUT, AND STRUCTURALLY (2026-08-19) — B8089 runs L144 at the owner's word
 
 The audit found that Gate 5 was not what blocked the ratio lane. The scale
