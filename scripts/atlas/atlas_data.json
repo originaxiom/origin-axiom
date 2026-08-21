@@ -18856,6 +18856,22 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B8112": {
+   "slug": "graviton torsion dictionary",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "dickson_tower",
+    "torsion"
+   ],
+   "refs": [
+    "B739"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

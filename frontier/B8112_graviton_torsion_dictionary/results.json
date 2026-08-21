@@ -1,0 +1,70 @@
+{
+ "b8100_conjugate_control_ran_at_cutoff": 2.0,
+ "b8100_headline_used_cutoff": 5.5,
+ "b8100_reproduced": true,
+ "c_ratio_agrees": true,
+ "c_ratio_b8104": {
+  "3": 0.7121142418,
+  "4": 0.5531518273,
+  "5": 0.4522787995
+ },
+ "c_ratio_recomputed": {
+  "3": 0.712114241775042,
+  "4": 0.5531518273088916,
+  "5": 0.45227879946827315
+ },
+ "cutoffs": [
+  3.0,
+  3.5,
+  4.0,
+  4.5,
+  5.0,
+  5.5
+ ],
+ "graviton_one_loop_is": "prod_{n>=2} |R(n,sigma_n)|^{-2}",
+ "identity": "R(k,sigma_k) = prod_{[gamma] prime} (1 - q_gamma^k), q = e^{-l+i theta} = GMY nome",
+ "is_a_single_rho_m": false,
+ "kappa": 1,
+ "logZ_via_R": -0.27297717083848566,
+ "logZ_via_gamma": -0.27297717083840395,
+ "n2_last_delta": 0.0019523812270714203,
+ "n2_oscillates": true,
+ "n2_term_by_cutoff": [
+  -0.37446085976493126,
+  -0.3593009128236879,
+  -0.34699155750374056,
+  -0.35491215029858275,
+  -0.3519498992587509,
+  -0.35390228048582234
+ ],
+ "n3plus_last_delta": 9.674216806407343e-06,
+ "n3plus_oscillates": true,
+ "n3plus_tail_by_cutoff": [
+  0.08235676378962807,
+  0.08011862629653546,
+  0.08090980045013837,
+  0.08081765982191551,
+  0.0809347838641431,
+  0.0809251096473367
+ ],
+ "orderings_agree": true,
+ "ruelle_k3to6_by_cutoff": [
+  0.960503767179814,
+  0.9615792382300354,
+  0.9611989252010829,
+  0.9612432089642092,
+  0.9611869182675145,
+  0.9611915676440674
+ ],
+ "scope": "The complex length spectrum of m004 and Pfaff arXiv:1206.0228 Thm 1.2. Establishes an IDENTIFICATION and computes a torsion ratio; does NOT assemble the one-loop partition function -- the cusp's continuous spectrum (B739/B8101) is still not included, and Pfaff's torsion is Ray-Singer analytic torsion, which is identified with the graviton determinant only through the Ruelle factors made explicit here. No measured value. Gate 5 untouched.",
+ "self_conjugate_theta_pi_classes": 4,
+ "torsion_ratio": {
+  "3": 0.014292685327556946,
+  "4": 6.223621884485723e-05,
+  "5": 7.99393810725053e-08,
+  "6": 2.907261043616317e-11
+ },
+ "torsion_ratio_relative_uncertainty": 4.8370966927795415e-06,
+ "verdict": "THE DICTIONARY ENTRY IS AN IDENTITY, AND THE ANSWER TO B8104'S QUESTION IS 'NONE OF THEM'. sigma_k is ONE-DIMENSIONAL, so R(k,sigma_k) = prod_gamma (1 - q^k) with q EXACTLY the GMY nome, and the graviton one-loop is prod_{n>=2}|R(n,sigma_n)|^{-2} -- an infinite product, not a single finite torsion. Pfaff's Thm 1.2 supplies the k>=3 TAIL as a torsion ratio. The one factor it does not reach, n=2, sits AT the abscissa of absolute convergence Re(s)>2, which is why the theorem starts at m>=3 and normalises by rho(2) -- and why B8100's convergence was oscillatory.",
+ "volume": 2.029883212819307
+}

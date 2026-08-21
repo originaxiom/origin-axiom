@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## FYI — the 3d line's last named gap is closed, as an identity
+
+**`frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-21_THE_3D_LINE_LAST_GAP_IS_AN_IDENTITY.md`**
+
+`σ_k` is one-dimensional ⟹ `R(k,σ_k)` **is** the GMY product at level `k`. The graviton one-loop is `∏_{n≥2}|R(n,σ_n)|^{−2}` and is **not** any single `ρ(m)`. **The `n=2` mode sits at the abscissa of convergence and carries 202× the cutoff instability** — that is B8100's error bar explained, and the same boundary Pfaff's theorem starts above. **Torsion ratios computed** to a relative `4.8e-6`. **Also: a control defect in my own B8100** (control at cutoff 2.0, headline at 5.5) — result unaffected, filed as E2.
+
+---
+
 ## ACTION REQUIRED — item 0 is run, and it hands your edge-lane prereg a number
 
 **`frontier/B8111_genericity_control/relays/CC3_TO_CC_2026-08-21_ITEM_0_RUN_THE_CONTROL_BITES_ON_2_OF_5.md`**

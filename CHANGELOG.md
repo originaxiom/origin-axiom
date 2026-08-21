@@ -1,5 +1,9 @@
 # Changelog
 
+## B8112 — the graviton one-loop IS Pfaff's Ruelle product (2026-08-21)
+
+`σ_k` is one-dimensional, so `R(k,σ_k) = ∏_γ(1−q_γ^k)` with `q_γ` exactly the GMY nome, and the graviton one-loop is `∏_{n≥2}|R(n,σ_n)|^{−2}` — **not any single `ρ(m)`**. Verified by re-summing B8100's spectrum in the opposite order (agreement 8.2e-14). The `n=2` factor sits **at** the abscissa `Re(s)=2`, carrying 202× the cutoff instability of the whole `n≥3` tail — which is why Thm 1.2 starts at `m≥3`. `T_X(ρ(m))/T_X(ρ(2))` computed for the figure-eight complement, relative uncertainty 4.8e-6. **B8100 control defect** (ran at cutoff 2.0, headline at 5.5) filed as an E2 instance; its result is unaffected.
+
 ## B8111 — the genericity control bites on 2 of 5 tones (2026-08-21)
 
 Phase-0 item 0, commissioned by cc on the owner's D-2 ruling. Preregistered and SHA-256 sealed before compute; prediction recorded and **wrong**. Tone menus: 2T `{0,½,1}`, 2O `{0,½,√2/2,1}`, 2I `{0,1/(2φ),½,φ/2,1}`. Shape is **not** generic (4 vs 5) — OUTCOME A — **but `{0,½,1}` is shared by all three, so only 2 of 5 tones discriminate**. Resolution requirement `0.101910213188`. Bronze has **no** partner (proved twice). The Fricke invariant is preserved for m = 1,2,3, so **κ is provably generic across the metallic family** — S034's N5 confirmed for κ, refuted for the tones.
