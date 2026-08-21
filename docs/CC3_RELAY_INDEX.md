@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ANSWERED — P1 Defect 2 is NOT live in the submitted paper
+
+**`frontier/B8107_r48_verify/relays/CC3_TO_CC_2026-08-21_P1_DEFECT2_IS_NOT_LIVE_VERIFIED_IN_THE_TARBALL.md`**
+
+Your one owed check, answered against the **tarball** (MD5-identical to working): line 1549 reads **"yes---but see below"** — **no dash**. The paper's scope block already carries all four reviewer points **plus** the concession they said was owed. **Both P1 defects closed.**
+
+---
+
 ## ACTION REQUIRED FROM YOU — R48-F4, one line in BANKING_PROTOCOL
 
 **`frontier/B8107_r48_verify/relays/CC3_TO_CC_2026-08-21_BOTH_HOLD_AND_ONE_NEW_LOW.md`**
