@@ -769,9 +769,12 @@ the once-punctured torus there are \textbf{precisely three}~\cite{BMR}, carried 
 \textbf{The classification must be applied power-closed}, and this is the step at which a
 shorter argument fails. Arithmeticity is a property of the commensurability class, and
 $M(S,\varphi^k)$ is a cyclic cover of $M(S,\varphi)$, hence commensurable with it; so
-every \emph{power} of an arithmetic monodromy is again arithmetic. The arithmetic
-monodromies are therefore exactly those conjugate to a power of one of the three words
-above---not exactly those three words. \textbf{Concluding ``$R^mL^m$ is none of $RL$,
+every \emph{power} of an arithmetic monodromy is again arithmetic. \textbf{What the
+classification delivers is membership in one of three \emph{cyclic} commensurability
+classes, and that is weaker than conjugacy to a power of a listed word}: two bundles in
+one class share a common finite \emph{cyclic} cover, so \emph{some} power of one
+monodromy is conjugate to \emph{some} power of the other. \textbf{The weaker statement
+suffices, because the comparison below is made between arbitrary powers on both sides.} \textbf{Concluding ``$R^mL^m$ is none of $RL$,
 $RRLL$, $RRL$, hence non-arithmetic'' is unsound}: $RLRL$ is none of them either and is
 arithmetic, being $(RL)^2$.
 
@@ -785,10 +788,11 @@ block sequences
    (RRLL)^k:\ (2,2,\dots,2),\qquad
    (RRL)^k:\ (2,1,2,1,\dots),
 \]
-while $R^mL^m$ has \textbf{exactly two} blocks, both of length $m$. Two blocks forces
-$k=1$ in each family, leaving $RL$, $RRLL$ and $RRL$; of these only the first two have
-equal block lengths, giving $m=1$ and $m=2$ with the stated fields, and $RRL$ has
-lengths $(2,1)$ so is not metallic. Hence no $m\ge3$ is arithmetic.
+while $(R^mL^m)^j$ has $2j$ blocks, \textbf{all of length $m$}. A constant block sequence
+matches $(1,\dots,1)$ only if $m=1$ and $(2,\dots,2)$ only if $m=2$, while $(RRL)^k$
+alternates $2,1$ and is never constant. \textbf{So no pair of powers can match for
+$m\ge3$}, and the two exceptions carry the stated fields
+(\fn{verify/check\_\allowbreak arithmetic\_\allowbreak tail.py}).
 \end{proof}
 
 \begin{lemma}[positivity bridges conjugacy and rotation]\label{lem:positivity}
@@ -3182,6 +3186,7 @@ Prop~\ref{prop:2880}, Thm~\ref{thm:coupling}, Scope~\ref{sc:2880} & \fn{verify/c
 Prop~\ref{prop:geodir}, Scope~\ref{sc:geodirscope} & \fn{verify/check\_\allowbreak geodir.py} & twisted $H^1$ by Fox calculus, block by block under the principal-$\sll_2$ decomposition: $1$ in each of the six exponent blocks, so $\dim H^1=6$ and the $1{+}5$ split (\emph{not} unobstructedness)\\
 Lem~\ref{lem:positivity} & \fn{verify/check\_\allowbreak positivity.py} & all $2026$ positive words of length $\le10$: $241$ cyclic classes, $241$ conjugacy invariants, no collisions, by the complete Latimer--MacDuffee invariant\\
 Prop~\ref{prop:mod3} & \fn{verify/check\_\allowbreak entrance.py} & the step that consumes the arithmetic: $\omega$ is a unit of $\Z[\omega]$ and $(\sqrt{-3})$ the ramified prime ($\disc=-3$, $N(1+2\omega)=3$); the reduced parabolics $\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)$, $\left(\begin{smallmatrix}1&0\\2&1\end{smallmatrix}\right)$ generate all $24$ elements, so the reduction is surjective; and $\SL(2,\F_3)\cong2T$ by order distribution $\{1{:}1,2{:}1,3{:}8,4{:}6,6{:}8\}$, a single involution, centre of order $2$ with quotient $A_4$, and no element of order $8$\\
+Thm~\ref{thm:arith} & \fn{verify/check\_\allowbreak arithmetic\_\allowbreak tail.py} & the tail under the \emph{cyclic} reading: $(R^mL^m)^j$ has $2j$ blocks all of length $m$, and no pair of powers (to $8$ on each side) matches $(RL)^k$, $(RRLL)^k$ or $(RRL)^k$ for any $3\le m\le12$, while $m=1,2$ do match; bite control: $RLRL$ matches $(RL)^2$\\
 Census~\ref{cen:forced} & \fn{verify/check\_\allowbreak census.py} & the $43$ links with their labels, deposited in \fn{verify/chain\_\allowbreak links.md}: the six figures, their sum, and the axioms at $C3,C4,C5,C18$\\
 \bottomrule
 \end{longtable}
@@ -3241,6 +3246,11 @@ changelog.
 \begin{enumerate}[leftmargin=2.2em,itemsep=1pt]
 \item ``The four arguments share no lemma'' was false; three of the four test values of a
   single characteristic polynomial (Lemma~\ref{lem:collapse}).
+\item Theorem~\ref{thm:arith}'s proof said the arithmetic monodromies are ``exactly those
+  conjugate to a power of one of the three words''. \emph{Cyclic} commensurability gives less:
+  some power of one monodromy is conjugate to some power of the other. The conclusion is
+  unaffected---the block comparison is between arbitrary powers on both sides---but the stated
+  strength was wrong.
 \item The same error survived at a third address: \S\ref{sec:four} called four integers at
   $m=1$ ``independently defined''. Three are one integer under three names---for a $2$-bridge
   knot the determinant equals the fraction's numerator and equals $|H_1|$ of the double

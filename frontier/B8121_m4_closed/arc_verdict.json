@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "M4 IS CLOSED, AND IT WAS REAL BUT SMALLER THAN STATED -- THE SCRUTINY'S OBJECTION OVERSHOT AND OUR SENTENCE OVERSTATED. Fetched Bowditch's own abstract: BMR give A COMPLETE CLASSIFICATION for once-punctured torus bundles, precisely three CYCLIC commensurability classes. So M3 is fully discharged -- our attribution matches verbatim. The scrutiny's M4 objection was aimed at GENERAL commensurability ('neither need cover the other') and therefore overshot, because BMR's classes are CYCLIC. But our sentence still overstated what cyclic commensurability delivers: it yields only that SOME power of one monodromy is conjugate to SOME power of the other, not conjugacy to a power of a listed word. THE CONCLUSION IS UNAFFECTED, and this was verified rather than argued: the block-sequence comparison is made between arbitrary powers on both sides, and exhaustively over j,k <= 8, m=1 matches RL, m=2 matches RRLL, and every 3 <= m <= 12 matches nothing at any pair of powers, with RLRL matching (RL)^2 as the bite control. REPAIRED: the proof now states the cyclic strength and why it suffices, the comparison is written power-vs-power, verify/check_arithmetic_tail.py is added with its bite control, App B gains a row for thm:arith, and App C records the overstated strength. Suite 21/21 from the extracted tarball, clean-room green, 51pp. THE SCRUTINY IS NOW FULLY TRIAGED ON ITS FATAL AND MAJOR FINDINGS: 13 of 13 closed. Settles one literature question by fetching the authors' own abstract, and verifies the downstream argument exhaustively over powers to 8 and m to 12 -- a bounded check, not a proof for all j,k,m. Does not re-derive BMR. Gate 5 untouched.",
+ "creates_law": false,
+ "depends_on": [
+  "B8120"
+ ],
+ "id": "B8121",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

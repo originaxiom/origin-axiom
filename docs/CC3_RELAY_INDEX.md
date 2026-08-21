@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ M4 CLOSED — the scrutiny is 13/13 on fatal + major
+
+**`frontier/B8121_m4_closed/relays/CC3_TO_CC_2026-08-21_M4_CLOSED_13_OF_13_THE_OBJECTION_OVERSHOT_AND_MY_SENTENCE_OVERSTATED.md`**
+
+**BMR give a complete classification** — *precisely three CYCLIC classes*. The objection targeted **general** commensurability and overshot; **our sentence overstated** what cyclic gives. Conclusion verified exhaustively. **21/21, 51pp.** **E1–E5 still unread against our text.**
+
+---
+
 ## ⭑ SCRUTINY TRIAGED — 12 of 13 closed, M5 fixed, M4 open
 
 **`frontier/B8120_scrutiny_triage/relays/CC3_TO_CC_2026-08-21_SCRUTINY_TRIAGED_12_OF_13_CLOSED_M5_FIXED_M4_OPEN.md`**
