@@ -708,3 +708,17 @@ window candidate.
    B724's look-elsewhere discipline transposed to the experimental lane. The computed
    differential, not the raw counts, is the prediction.
 
+
+- **The `creates_law` declaration + `theorem-registry` gate (2026-08-21; R48-F1's
+  response, the audit seat's sharpening adopted verbatim).** THEOREM_REGISTRY's
+  standing same-PR rule went unenforced for 179 arcs because no gate read it. The
+  naive mechanization (gate on verdict PROVED) was counted over-wide by BOTH seats
+  independently (~600 audit/census rows would flood the register — "the register
+  degrades in exactly the dimension it exists to serve") and was killed BEFORE being
+  built. The adopted rule: `creates_law: true|false` declared in `arc_verdict.json`
+  (schema-locked, REQUIRED from B1103 on; legacy omission = false), and the gate
+  demands a registry row for every true. A self-declaration a gate reads beats a
+  standing rule nobody reads. Registry backfill same bank: the audit seat's seven
+  checked absences, THE CHAIN's unrowed [THEOREM] links, and the closing campaign's
+  theorem banks (28 rows); the B920–B1082 remainder enters as the creates_law
+  re-audit sweeps it — the boundary stated in the registry itself.

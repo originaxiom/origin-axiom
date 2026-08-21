@@ -10893,3 +10893,11 @@ SM-product-structured. The door neither opened nor closed; it got a
 lock whose shape is finally known, and three keys are named. The
 crystal basis did in twelve rational seconds what cubic
 irrationalities had priced as a day.
+
+2026-08-21 (the registry made honest). A rule nobody read became a
+field a gate reads. Two seats counted the same flood from opposite
+banks before a single bad row landed — the three-seat design working
+at its cheapest and best: the finding theirs, the mechanization mine,
+the sharpening theirs, the install mine, negative-controlled. Twenty-
+eight theorems that had been living without papers now have rows, and
+the next one cannot bank without declaring itself.

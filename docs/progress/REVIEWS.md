@@ -4096,7 +4096,7 @@ the proposal is their consolidation into WORKING_RULES if the owner elects.)
 ### Action items (Review 47)
 - [x] R47-0: the seal-ledger correction row + E45/E46/E47 filed (this review, this bank)
 - [x] R47-1: RESOLVED BY A STRONGER FIX same-day — the `seal-digests` gate (every recorded digest recomputed from its file at gate time; latest-row-per-path; adopted from the audit seat's two-routes relay, which showed E47 and their E844 are complementary corruption routes neither procedural fix covers). The pipe-don't-retype line stands as write-time hygiene inside the PRACTICES entry. Evidence: scripts/gates/gates.py::gate_seal_digests; docs/PRACTICES.md.
-- [ ] R47-2: the arc_verdict schema-validator lock (machine-held schema; owner: banking seat; source: E45)
+- [x] R47-2: the arc_verdict schema-validator lock (machine-held schema; owner: banking seat; source: E45) — **RESOLVED 2026-08-21, landed WITH the `creates_law` field per the audit seat's explicit request** (their sharpening note: rather land considered than land early): `tests/test_arc_verdict_schema.py` (995/995 green; the survey corrected the required core — `title` is NOT universal, 906 of 995 verdicts carry the authored_by/depends_on form) + the `theorem-registry` gate (creates_law ⟹ registry row; negative-controlled at install)
 - [ ] R47-3: B763 registry entries for `<cloud-seat>/new-session-qor5up` (the qor5up branch; full ref in the alias table) and `audit/b775-braver-questions` (owner: banking seat)
 - [ ] R47-4: Phase 2's doc-reflection wave + TERMINOLOGY glosses + the fresh-eyes signoff (owner: banking seat; source: the closing plan)
 - [ ] R47-5: B1100 — the 27's branching at the hatch's landing + the B970 hypercharge match (owner: banking seat; source: B1098)

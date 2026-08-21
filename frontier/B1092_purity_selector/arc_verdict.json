@@ -3,5 +3,6 @@
   "title": "THE PURITY SELECTOR, MAIN-BENCH PROVED (L168)",
   "verdict": "PROVED",
   "claim_one_line": "THE PURITY SELECTOR (L168, own-code exact re-derivation): on so(10)'s 16 built from verified CAR bilinears (closure 990/990, rank 5 self-centralizing, D5 roots exact, PARITY CONTROL constant -- the single-chiral-half check that catches character-twisted builds), the rank drop 5->4 happens ONLY at pure spinors -- literal stabilizer dim 34 = sl(5)+Lambda^2 with toral part 4; a GENERIC spinor is fatal (dim 29, toral 0; two independent random vectors, with a support-sparse decoy caught non-generic by the >= 2-vectors guard -- a named hazard); Spin(10) transitive on the 11-dim pure cone (45-34 = 11 = 10+1; second pure spinor identical dims); SHARPENED: the projective stabilizer is 35 = the parabolic, and 45-35 = 10 = dim S_10 exactly -- the second VEV is a CONDITION not a point, B990's orbit-to-point gap recurs on the cone, and the one-slot count is pinned to the pair space 27+27bar.",
-  "instrument": false
+  "instrument": false,
+  "creates_law": true
 }

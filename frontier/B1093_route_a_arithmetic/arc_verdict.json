@@ -3,5 +3,6 @@
   "title": "ROUTE A'S ARITHMETIC, MAIN-BENCH PROVED (L169)",
   "verdict": "PROVED",
   "claim_one_line": "ROUTE A'S ARITHMETIC (L169, own-code exact re-derivation, no PARI): for K = Q[x]/(x^3-12x-5) classifying B990's rational orbit -- disc = 6237 = 3^4*7*11 with Z[theta] = O_K (Dedekind at 3, plus an alternate-lift robustness pass), h(K) = 1 PROVED (Minkowski 17.55; all EIGHT prime ideals of norm <= bound exhibited principal with explicit generators, each membership-tested against its specific factor), units N = +1/-1 exact by three routes each, signature vectors row-reduce to the F2 identity -- rank 3, sign map surjective; RIGOR UPGRADE: surjectivity needs only genuine units (not fundamentality), so h+ = h = 1 conditional ONLY on the now-proved h = 1; |Cl/Cl^2| = |Cl/Cl^3| = 1; EVERY obstruction candidate for Route A's integral-orbit count is trivial at proof grade -- the obstruction is ABSENT; the OWED residual unchanged: identifying WHICH Kato-Yukie/Bhargava quantity counts integral orbits (the literature lane).",
-  "instrument": false
+  "instrument": false,
+  "creates_law": true
 }

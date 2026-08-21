@@ -3,5 +3,6 @@
   "title": "THE CHARGE COMPLEMENTARITY: the AW charge exists but cannot be measured on any closed assembly",
   "verdict": "PROVED",
   "claim_one_line": "THE CHARGE COMPLEMENTARITY (the pre-registered OBSTRUCTED-O3 branch, a theorem): both theta-odd dial slots complete to exact Jacobson-Morozov sl2-triples in e6 and the AW-U(1) charge spectrum on the 27 is EXACT and balanced -- multiplicities 1+8+9+8+1 at charges {+-4,+-2,0} (hv8) and {+-2,+-1,0} (hv16, exact halving), trace 0 -- BUT the charge operator commutes with NEITHER cusp holonomy ([H,rho(mu)] != 0, [H,rho(lambda)] != 0, both slots): charge and holonomy cannot be simultaneously diagonalized, so no charge grading exists on the seam or (with the fiber no-go: twisted closure = e6, only scalars commute) on ANY closed assembly; the U(1) instead grades the FAMILY (t carries charge-weight 2); the wall's FOURTH LANGUAGE: PD-pairing = AW non-isolation = completion-kernel = charge/holonomy non-commutativity -- the AW charge is definable exactly where the object is cut open, and an edge experiment (L173) is a charge measurement the closed object cannot perform on itself.",
-  "instrument": false
+  "instrument": false,
+  "creates_law": true
 }

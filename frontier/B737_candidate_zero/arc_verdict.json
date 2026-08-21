@@ -1,10 +1,11 @@
 {
- "id": "B737",
- "verdict": "NEGATIVE",
- "claim_one_line": "Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion), though the exact identity φ_m004 = Λ_K(s)/Λ_K(s+1) survives.",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W2-wave2-calibrated"
+  "id": "B737",
+  "verdict": "NEGATIVE",
+  "claim_one_line": "Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion), though the exact identity φ_m004 = Λ_K(s)/Λ_K(s+1) survives.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "W2-wave2-calibrated",
+  "creates_law": true
 }

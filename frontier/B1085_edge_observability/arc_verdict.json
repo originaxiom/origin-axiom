@@ -3,5 +3,6 @@
   "title": "EDGE OBSERVABILITY: the free half materializes at the cut (5-vs-6)",
   "verdict": "PROVED",
   "claim_one_line": "The free half is EDGE-OBSERVABLE and only edge-observable, re-derived with own code: the two hands of ONE cut of the golden Sturmian word at phase rho = alpha = 2-phi (right half forward, left half outward -- the ba-hand is NOT substitution-buildable, this bench's own construction-hazard catch) give bulk IDS differing by <= 1 state at every energy and every N in {987,1597,2584,4181} (hull theorems as finite counts) while the boundary-localized spectra differ 5-vs-6 with every energy matching the source bench to every printed digit; the cut-phase sweep shows the edge content DEPENDS on the withheld torsor point -- the phase-dependence IS the mechanism (domain-wall-fermion register); 1d, rule-level, no SM claim; feeds the laboratory lead's rho-scan prereg spec (L173).",
-  "instrument": false
+  "instrument": false,
+  "creates_law": true
 }

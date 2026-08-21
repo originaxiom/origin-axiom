@@ -1,5 +1,29 @@
 # Changelog
 
+## The theorem registry made gate-true (2026-08-21) — R48-F1's response: 28 rows backfilled, the creates_law declaration schema-locked, the naive gate killed before it was built
+
+The audit seat's R48 phase-1 verified finding (the registry's same-PR
+rule unenforced for 179 arcs; "no gate reads that rule") answered in
+full, with their sharpening adopted verbatim: the proposed
+PROVED-verdict gate was counted OVER-WIDE by both seats independently
+(~600 audit/census rows would flood the register) and replaced by the
+declared field — `creates_law: true|false` in arc_verdict.json,
+schema-locked (REQUIRED from B1103 on), with the `theorem-registry`
+gate demanding a registry row for every true (negative-controlled at
+install). R47-2 RESOLVED in the same stroke: the arc_verdict
+schema-validator lock lands WITH the field, per the audit seat's
+explicit request — and its survey corrected the assumed schema (the
+universal core is {id, verdict, claim_one_line, instrument}; `title`
+lives only in a recent subset; 995/995 green). Backfill: 28 registry
+rows — the audit seat's seven checked absences (B1012 c=6σ first),
+THE CHAIN's unrowed [THEOREM] links (B282, B285, B666, B730,
+B731+B734, B737, B739, B749, B756, B1082), and the closing campaign's
+theorem banks (B1083–B1100) — each with statement, reproducer, and
+lit-status for the novelty relaunch. The B920–B1082 remainder enters
+as the creates_law re-audit sweeps it; the boundary is stated in the
+registry itself. creates_law seeded on 31 verdicts (28 true; B731,
+B998, B1101 explicit false as worked boundary examples).
+
 ## B1102 — THE EXACT HYPERCHARGE SOLVE (2026-08-21): the banked multiset carried EXACTLY, and no color-commuting direction can
 
 B1100's named residual, owner-elected to run before the aperiodic

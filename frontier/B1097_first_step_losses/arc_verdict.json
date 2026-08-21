@@ -3,5 +3,6 @@
   "title": "THE FIRST STEP'S LOSSES + the prediction that had already fired (L170b; B8091 re-derived + two joins)",
   "verdict": "PROVED",
   "claim_one_line": "THE FIRST STEP'S LOSSES re-derived (the audit seat's B8091, own code): a->ab and a->ba have IDENTICAL incidence matrices (order-loss; bite control a->aab differs) and det M = -1 -> det M^2 = +1 (sign-loss, FORCED by orientability -- the price's denomination); phi_1 - I = M exact; JOIN ONE: their falsifiable prediction ('a new wall exactly where a construction must distinguish M from M^2') had ALREADY FIRED AND BEEN CONFIRMED BLIND by B1095's even/odd-window isospectrality breaking -- computed before their arc was read, a prediction-fired event banked as such; JOIN TWO: their unsettled identification SETTLED by composing B1083 + B1095: order-loss = the P/hand bit (P-invariant energies, P-equivariant localization), sign-loss = the orientability/Breath tick bit, and the arrow = NEITHER (structural monoid non-surjectivity, never a destroyed bit) -- their conjecture table corrected the same way our own Sec.0 was.",
-  "instrument": false
+  "instrument": false,
+  "creates_law": true
 }

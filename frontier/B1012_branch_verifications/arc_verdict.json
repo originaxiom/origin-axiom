@@ -1,16 +1,17 @@
 {
- "id": "B1012",
- "verdict": "PROVED",
- "instrument": false,
- "claim_one_line": "TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's harvest head), AND THE HARVEST REGISTERED SO NOTHING GOES SILENT. (1) K-BLINDNESS VERIFIED WITH A SHARPENING: Gukov's split at t = k + i sigma on the geometric connection with c-hat = i(Vol + i CS) gives S = -CS*k - Vol*sigma EXACTLY (sympy), hence dS/dk = -CS IDENTICALLY -- so the object's blindness to k is EQUIVALENT to its amphichirality, not merely implied: blind-to-k iff CS = 0 iff the object equals its mirror (B303's banked CS = 0). One geometric property deletes the only term that could carry the scale AND forces the CS-clock structure. H11's 'firewall relocated to k' upgrades to RELOCATED BEYOND THE OBJECT'S REACH IN PRINCIPLE: no deeper eigenvalue, face or control can bear on k, and every transport-death among the crossings was this one fact (L15, a citation not an open question). (2) THE CS NORMALISATION CLOSURE VERIFIED -- CROSSING_REQUIREMENTS R4 IS DISCHARGED: three independent dictionary entries close exactly -- Brown-Henneaux c = 3l/2G and the gravitational CS level sigma = l/4G (named classical inputs) and cc3's S2 on-shell action I = l*Vol/4piG (Einstein-Hilbert only, no CS input) -- giving G = l/(4 sigma) (the framework's G_N = 1/(4 sigma) at l = 1), c = 6 sigma FORCED NOT ASSUMED, and I = c*Vol/6pi = sigma*Vol/pi with S2 reproduced through the CS dictionary unchanged. AND THE CLOSURE EXPLAINS WHY c STAYS FREE: the surviving level is the UNQUANTIZED one (sigma, not k) -- were it k, c = 6k would be quantized, and it is not. (3) THE HARVEST REGISTER for the other 64 commits, each with a disposition: the wall/boundary reclassification ACTIONED by B1013; the rank-wall scope claims (member's not family's, turns on 3|m, m207 breaks it, arithmeticity forces it) OWED a verification cell, not adopted unverified; cell 9 rung (i) -- the PARENT Maass eigenvalue landed with a sealed powered null -- OWED, feeding L147/B1006; the conductor-4 complex OWED with cc3's own same-day withdrawal of the m004-uniqueness half noted; the 'level IS the cusp conductor' commit registered as a TERMINOLOGY HAZARD in B1013 (level now names two things, as conductor named two in B1002); the harvest manifest (29 relays, 524 branch files, 7 that must not die) OWED a disposition pass; and the theta_QCD rows STILL REFUSED per B1009, functor-gated. SCOPE: exact algebra only; the classical inputs are cited not re-derived; cc3's S2 action is verified THROUGH the closure, not independently from Einstein-Hilbert; nothing fixes k, sigma, l or any value -- the content is which term can carry scale and why the object cannot see it; Gate 5 untouched.",
- "depends_on": [
-  "B303",
-  "B1009",
-  "B1010",
-  "B932",
-  "B1002"
- ],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "cc verification seat (2026-08-10)"
+  "id": "B1012",
+  "verdict": "PROVED",
+  "instrument": false,
+  "claim_one_line": "TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's harvest head), AND THE HARVEST REGISTERED SO NOTHING GOES SILENT. (1) K-BLINDNESS VERIFIED WITH A SHARPENING: Gukov's split at t = k + i sigma on the geometric connection with c-hat = i(Vol + i CS) gives S = -CS*k - Vol*sigma EXACTLY (sympy), hence dS/dk = -CS IDENTICALLY -- so the object's blindness to k is EQUIVALENT to its amphichirality, not merely implied: blind-to-k iff CS = 0 iff the object equals its mirror (B303's banked CS = 0). One geometric property deletes the only term that could carry the scale AND forces the CS-clock structure. H11's 'firewall relocated to k' upgrades to RELOCATED BEYOND THE OBJECT'S REACH IN PRINCIPLE: no deeper eigenvalue, face or control can bear on k, and every transport-death among the crossings was this one fact (L15, a citation not an open question). (2) THE CS NORMALISATION CLOSURE VERIFIED -- CROSSING_REQUIREMENTS R4 IS DISCHARGED: three independent dictionary entries close exactly -- Brown-Henneaux c = 3l/2G and the gravitational CS level sigma = l/4G (named classical inputs) and cc3's S2 on-shell action I = l*Vol/4piG (Einstein-Hilbert only, no CS input) -- giving G = l/(4 sigma) (the framework's G_N = 1/(4 sigma) at l = 1), c = 6 sigma FORCED NOT ASSUMED, and I = c*Vol/6pi = sigma*Vol/pi with S2 reproduced through the CS dictionary unchanged. AND THE CLOSURE EXPLAINS WHY c STAYS FREE: the surviving level is the UNQUANTIZED one (sigma, not k) -- were it k, c = 6k would be quantized, and it is not. (3) THE HARVEST REGISTER for the other 64 commits, each with a disposition: the wall/boundary reclassification ACTIONED by B1013; the rank-wall scope claims (member's not family's, turns on 3|m, m207 breaks it, arithmeticity forces it) OWED a verification cell, not adopted unverified; cell 9 rung (i) -- the PARENT Maass eigenvalue landed with a sealed powered null -- OWED, feeding L147/B1006; the conductor-4 complex OWED with cc3's own same-day withdrawal of the m004-uniqueness half noted; the 'level IS the cusp conductor' commit registered as a TERMINOLOGY HAZARD in B1013 (level now names two things, as conductor named two in B1002); the harvest manifest (29 relays, 524 branch files, 7 that must not die) OWED a disposition pass; and the theta_QCD rows STILL REFUSED per B1009, functor-gated. SCOPE: exact algebra only; the classical inputs are cited not re-derived; cc3's S2 action is verified THROUGH the closure, not independently from Einstein-Hilbert; nothing fixes k, sigma, l or any value -- the content is which term can carry scale and why the object cannot see it; Gate 5 untouched.",
+  "depends_on": [
+    "B303",
+    "B1009",
+    "B1010",
+    "B932",
+    "B1002"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc verification seat (2026-08-10)",
+  "creates_law": true
 }

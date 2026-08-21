@@ -3,5 +3,6 @@
   "title": "THE CERTIFICATION ENVELOPE (governance adoption)",
   "verdict": "PROVED",
   "claim_one_line": "THE CERTIFICATION ENVELOPE ADOPTED (Review 47's methodology delta, owner-elected): during any certifying suite the working tree is read-only by convention -- scratchpad staging with land-by-explicit-filename, staged-state pre-checks, piped digests with the seal-digests recompute gate as backstop, fold-forward on collision; arrives pre-proven by the window's three E46 instances (E39's gate three-for-three) plus the two digest routes E47/E48; consolidated into WORKING_RULES per GOVERNANCE Sec.10 with this arc as the adoption record.",
-  "instrument": true
+  "instrument": true,
+  "creates_law": false
 }

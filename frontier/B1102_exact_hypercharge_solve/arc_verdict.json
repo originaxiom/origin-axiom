@@ -3,5 +3,6 @@
   "title": "THE EXACT HYPERCHARGE SOLVE: the banked multiset carried EXACTLY (18 rational directions) -- and no color-commuting direction can",
   "verdict": "PROVED",
   "claim_one_line": "THE EXACT HYPERCHARGE SOLVE AT THE LANDING (B1100's named residual, owner-elected): the banked 6Y multiset IS carried exactly by the A2 landing's rank-4 Cartan -- 18 isolated rational directions, denominators dividing 6 (provably complete 5^4=625 assignment search over the four +-basis-vector classes; representative t=(1/6,1/6,2/3,-1/3); adapted crystal basis all-rational, B1100's cubic fallback unneeded) -- AND no color-commuting direction achieves it (zero of the 18 pure on either ideal, forced at Cartan level; 36/36 root-level checks negative): hypercharge-VALUED, not SM-PRODUCT-structured; su(2) side PASS (Y-neutral root universal 2-per-solution; Chevalley exact on the 27; commutes with the entire color ideal and with Y; 6 doublets + 15 singlets); uniqueness = 18 points, dimension 0 (about 4.17 bits if bare; order-36 orbit lead named open); e6 bracket module vendored in-arc with re-certification (all C(78,2) pairs); float-measure tension with B1100's pattern-cone genericity FLAGGED for one clarifying check (both arcs' exact claims unaffected); three follow-ups typed (other strata; other color identifications; the 6Y frame map), none claimed; chirality-at-count NOT claimed; Gate 5 untouched.",
-  "instrument": false
+  "instrument": false,
+  "creates_law": true
 }

@@ -905,6 +905,31 @@ def gate_representation_sweep():
     return not missing, [f"{i} ({v}, claim {n})" for i, v, n in missing[:5]] or "ok"
 
 
+
+def gate_theorem_registry():
+    """R48-F1's mechanization (2026-08-21). THEOREM_REGISTRY's standing rule -- every
+    theorem/law-creating bank adds its row SAME-PR -- went unenforced for 179 arcs
+    because no gate read it (the audit seat's verified finding). The naive fix (gate on
+    verdict PROVED) would flood the registry with ~600 audit/census rows -- the audit
+    seat's sharpening, adopted verbatim: gate on the DECLARED field creates_law in
+    arc_verdict.json (a self-declaration a gate reads beats a standing rule nobody
+    reads; the field is schema-locked by tests/test_arc_verdict_schema.py, required
+    from B1103 on). Rule: every arc declaring creates_law true must appear in
+    docs/THEOREM_REGISTRY.md."""
+    import glob as _glob
+    import json as _json
+    reg = open(os.path.join(ROOT, "docs", "THEOREM_REGISTRY.md"), encoding="utf-8").read()
+    missing = []
+    for f in sorted(_glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json"))):
+        try:
+            d = _json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        if d.get("creates_law") is True and d.get("id") not in reg:
+            missing.append(d.get("id"))
+    ok = not missing
+    return ok, ("ok" if ok else f"creates_law arcs missing registry rows: {missing}")
+
 GATES = {
     "framing": gate_framing,
     "claims": gate_claims,
@@ -924,6 +949,7 @@ GATES = {
     "practices-register": gate_practices_register,
     "seal-provenance": gate_seal_provenance,
     "seal-digests": gate_seal_digests,
+    "theorem-registry": gate_theorem_registry,
     "lawmap-scope": gate_lawmap_scope,
     "retraction-sweep": gate_retraction_sweep,
     "representation-sweep": gate_representation_sweep,
