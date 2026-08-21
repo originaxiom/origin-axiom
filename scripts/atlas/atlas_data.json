@@ -2620,6 +2620,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1125": {
+   "slug": "compact color",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B112": {
    "slug": "closed form proof",
    "motifs": [

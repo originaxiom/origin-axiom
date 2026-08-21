@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1028** |
-| words of findings prose | **696,222** |
-| test lock files referenced | **634** |
-| arcs carrying an authored verdict | **1015** (98.7 %) |
+| research arcs with findings | **1029** |
+| words of findings prose | **697,029** |
+| test lock files referenced | **635** |
+| arcs carrying an authored verdict | **1016** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 683 |
+| PROVED | 684 |
 | NEGATIVE | 287 |
 | OPEN | 35 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1124`** (621 words, 1 locks)  
-V-1 ALL-ORDERS ARITHMETIC (value-campaign cell; extends B1120/L180): does the Kashaev tower's trace-field arithmetic continue past C2? THE PARITY LAW EXTENDS TO C3 -- C3 = (724351/12597120)*sqrt3*pi^3*C0, odd k -> rational x sqrt3 EXACTLY as the reality-parity law predicts, recognized to 36 digits with MONOTONIC cross-window convergence (14->20->27->32->36 as independent larger-N windows N->35,000,000 are added -- the signature of a genuine relation, not a maxcoeff artifact), reproduced on 4 algebraically-related bases, all 11 wrong-basis/wrong-parity controls null at maxcoeff 20M. Re-verified this bench: the closed form matches the computed pooled C3 to ~36 digits and the pipeline reproduces the banked C1/C2 to 40+ digits. ANOMALY disclosed: denom 12597120 = 2^7*3^9*5 is NOT {2,3}-smooth (the factor of 5 breaks C1's 108=2^2 3^3 and C2's 7776=2^5 3^5) -- so all-orders holds in the PARITY sense but the smoothness grows a prime; the naive Euler-product-over-{2,3} picture is too simple. FENCES: (1) detection not derivation (PSLQ recognition, as C1/C2; cc3's L180 fence carried -- strengthens 'value door opens onto reproducing arithmetic', does not open it to a value); (2) trust layered -- the ultra-conservative all-windows metric rates C3 at 14 digits (verdict field PRECISION-FLOOR, untouched), the 36-digit confirmation uses the large-N-windows (W3/W4/W5) bound of 27 digits, justified by the monotonic pattern not a post-hoc relaxation. C4 = genuine PRECISION-FLOOR (21 digits, height beyond reach). Firewalled motivation (labeled, NOT a claim): 5 = the object's OTHER end (Q(sqrt5), E8), a concrete next probe (factor C5/C7 denominators, watch 5's exponent). Gate 5 untouched.  
-`B1124_allorders_arithmetic/FINDINGS.md`
+**PROVED — `B1125`** (807 words, 1 locks)  
+V-2 COMPACT COLOR (value-campaign cell, answering C-AR1): does any sign-lift give COMPACT su(3) color? NO over the LINEAR torsor, and the negative names its own successor. Exhaustive over 48 verified elements (2 Chevalley-automorphism constructions x both lattice classes; theta^2=I enforced by falsification), deterministic re-run 164s, 0 compact hits even pre-reverification; union of real forms reached = characters {-26,+2,+6}, INCLUDING E6(-26)=M(O,C) itself (the candidate), and color is non-compact in every one. DISCRIMINATING FACT (verified): the corrected ad-invariant form (<e_r,e_-r>=-1, the B1119 fix; live negative control confirms +1 fails ad-invariance) on the color A2 I2 is ALWAYS (5,3,0) -- a split-basis fact (2 coroots (2,0) + 3 hyperbolic planes (3,3)); compact needs (0,8). E6(-26) reached but I2 stays (5,3) because theta fixes it -- the near-miss the character-checksum mis-calls (checksum NECESSARY NOT SUFFICIENT; the PURITY check decides). THE TYPE DISTINCTION: compact su(3) is the anti-Hermitian form {X:X-dagger=-X}, and compact real forms come from an ANTILINEAR conjugation, NEVER a linear inner twist -- so no linear lift can flip (5,3) to (0,8); this arc's compact-involution control confirms the antilinear conjugation returns -78 (fully compact). So the LINEAR torsor is exhausted and the missing ingredient is named: a complex conjugation. The object HAS one -- the mirror (amphichirality 27<->27bar, Galois sqrt-3 -> -sqrt-3). SHARPENED OPEN QUESTION = cell V-2' (the antilinear completion): does the object's OWN mirror-conjugation restricted to I2 give (0,8)? MEANING: compactness is a SECOND-LEVEL (antilinear) closing, never a first-level (linear) one; the object gives the color+Lorentz ALGEBRA, and compactness/signature are the observer's real-structure closings at the archimedean place (twin of B1114 'the signature is the observer's'). FENCES: 3/4 B1119 controls reproduced exactly (variant A signature (5,3) incl); B1119's variant-B (+6/su(2,1)) reached via permute/B not antipodal -- a labeling nuance not a gap (relayed to cc3); the cited abstract so(3,1)+su(3)-compact in E6(-26) via so(9,1) is a different embedding, not contradicted. Gate 5 untouched.  
+`B1125_compact_color/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

@@ -11020,3 +11020,16 @@ factor of 5, breaking the {2,3}-smoothness of C₁/C₂ (possibly the
 object's √5/E₈ end). C₄ precision-floored. The value door is further
 confirmed arithmetic, still not walked; V-2 (compact color) computing,
 V-3 (the identification) owner-gated.
+
+**2026-08-21 — THE VALUE CAMPAIGN V-2 (B1125).** Compact su(3) color is
+unreachable by any of the object's 48 sign-lifts (exhaustive, both
+lattice classes, θ²=I; the color A2 stays (5,3), never (0,8), even at
+E₆(−26)=M(𝕆,ℂ), reached but I2 θ-fixed). A TYPE fact: compact real forms
+come from an antilinear conjugation, never a linear twist (the compact-
+involution control → −78 confirms). The object's own antilinear
+structure is the mirror (amphichirality); the sharpened open cell V-2′
+asks whether the mirror-conjugation gives compact I2 — the second-level
+"a ab ba" measurer (the B1113 coupling pattern supplying a real
+structure). Compactness = the observer's archimedean closing (twin of
+B1114's signature). 3/4 B1119 controls reproduced; variant-B a labeling
+nuance, relayed to cc3.

@@ -1,5 +1,33 @@
 # Changelog
 
+## THE VALUE CAMPAIGN V-2 (B1125, 2026-08-21): compact color is a second-level (antilinear) closing, not the object's linear datum — a negative that names its successor
+
+Value-campaign cell V-2 (answers C-AR1), verified this bench
+(deterministic re-run 164s). Does any sign-lift give COMPACT su(3)
+color? NO over the LINEAR torsor: exhaustive across 48 verified elements
+(two Chevalley-automorphism constructions × both lattice classes, θ²=I
+enforced by falsification), 0 compact hits even pre-reverification. The
+union of real forms reached is characters {−26,+2,+6} -- INCLUDING
+E₆(−26) = M(𝕆,ℂ) itself, the candidate whose f₄ hosts compact su(3) --
+and the color factor is non-compact in every one. Discriminating fact
+(verified): the corrected ad-invariant form on the color A2 is always
+(5,3,0), a split-basis property; compact needs (0,8). E₆(−26) is reached
+but its I2 stays (5,3) because θ fixes it -- the near-miss the character
+checksum alone mis-calls (checksum necessary not sufficient; a purity
+check decides). THE TYPE DISTINCTION: compact real forms come from an
+ANTILINEAR conjugation, never a linear inner twist (the compact-
+involution control returns −78, confirming) -- so no linear lift can
+flip (5,3) to (0,8), and the linear torsor is genuinely exhausted. The
+missing ingredient is named: a complex conjugation, and the object HAS
+one -- the mirror (amphichirality, √−3 ↦ −√−3). The last residual is not
+closed but SHARPENED into cell V-2′: does the object's own mirror-
+conjugation give compact I2? Meaning: compactness is a second-level
+(antilinear) closing, the observer's real-structure datum at the
+archimedean place -- the twin of B1114's "the signature is the
+observer's". Registry T-COLOR-COMPACTNESS; atlas/views/spine regen. 3/4
+B1119 controls reproduced exactly; the variant-B label is a construction
+nuance (char +6 reached via permute/B), relayed to cc3.
+
 ## THE REFLECTION WAVE + VALUE CAMPAIGN V-1 (2026-08-21): the adelic crossing consolidated, the forcedness recovered (B1123), and the tower's arithmetic extended to C₃ (B1124)
 
 The owner-approved reflection wave threaded the adelic crossing across

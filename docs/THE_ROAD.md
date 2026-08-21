@@ -143,7 +143,10 @@ sealed miss, kept as boundary.**
   fixes not swaps); the 27 is matter (gauge reading) or metric ⊕ colored flux (gravity
   reading); the spending DAG matches cosmology with zero inversions and gravity is external
   because its E₆ slot is the EW sector's. Real-form host E₆(2)/E₆(6): COMPACT color is the
-  open 𝔽₂-kernel sweep (B1119).
+  𝔽₂-kernel sweep — the LINEAR half now closed NEGATIVE (B1125/V-2: no sign-lift gives
+  compact color, exhaustive over 48 elements; even E₆(−26)=M(𝕆,ℂ) keeps color (5,3)).
+  Compactness is a SECOND-LEVEL (antilinear) closing — the sharpened open cell V-2′ asks
+  whether the object's own mirror-conjugation supplies it (B1119 the linear setup).
 - **VII.5 The t-meter (B1113)** — [BANKED]: free data of one object = forced class-function
   data of the coupled pair (measurement-by-coupling; the mechanism the value question needs).
 - **VII.6 The adelic object (B1117, verified 32 digits)** — [BANKED]: m004 is adelic
