@@ -10908,3 +10908,12 @@ restated: no longer the rank, now the product structure. And the seat
 caught itself editing during its own certification — the fourth
 instance of the species the envelope was written for, killed pre-push,
 folded forward. The law held; the lesson was behavioral.
+
+2026-08-21 (B1103; the gate harvested). An outside bench proved what
+this one verified twice with different arithmetic: the being face
+reads only the word's abelian shadow, and the seed — a commutator —
+is exactly what it can never see. The two faces are image and kernel
+of one map; the lack is structural, not accidental. Banked with its
+flags, its pinned convention, and the first mandatory creates_law
+declaration — the new gate's first customer arrived within hours of
+the gate.

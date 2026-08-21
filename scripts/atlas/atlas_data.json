@@ -2202,6 +2202,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1103": {
+   "slug": "being gate",
+   "motifs": [
+    "kappa",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B238",
+    "B593"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B110": {
    "slug": "off locus sector",
    "motifs": [

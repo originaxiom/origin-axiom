@@ -1,5 +1,35 @@
 # Changelog
 
+## B1103 — THE BEING GATE harvested (2026-08-21): the ζ₃ phase reads exactly the abelianization; κ lives where it cannot see
+
+An outside session's theorem (relayed by the owner with a
+self-sufficient package), rebanked under integrate-don't-merge after
+two-engine verification: on the banked B593/B238 instrument extended
+to the free group {a,A,b,B}, the θ-odd coupling factorizes h(w) =
+ζ₃^(p−q) × (ℚ(ζ₅) element) — being a pure phase reading ONLY the
+abelianization, hearing the whole magnitude — so h ∈ ℚ(ζ₅) ⟺ p−q ≡ 0
+mod 3 or h = 0 (the clause real: 28/1364, the SAME count from both
+independent engines). Consequences exact: the commutator subgroup
+lies entirely in the ℚ(ζ₅) locus (252/252 census, every real part a
+banked Niven letter); κ = tr[a,b] is CAPITAL-RESIDENT — unwritable in
+the positive monoid, structurally invisible to the being face,
+visible to hearing (h(abAB) = h(ab) = 1/(2φ) + i·sin(2π/5)/√5, the
+banked B593 coupling, exactly); the two-face architecture = image vs
+kernel of one abelianization map. Verification: the banking seat's
+own ζ₆₀ engine (instrument REBUILT from B238's Kac–Peterson formulas;
+S certified unitary symbolically; ν² = 75) 1364/1364 zero failures +
+the vendored outside certificate (sha256'd, inspected for conditional
+exits — its author's own error ledger includes a hardcoded-pass
+catch — negative-controlled mod 3→2). Flags banked: "eight of nine
+letters" OBSERVED-UNREPRODUCED (census-definition-dependent); the
+sign convention pinned (twisted = −untwisted identically on C-odd
+u₃); B1083-adjacency typed not conflated. Follow-ups registered:
+L175 (the h=0 locus), L176 (F₄(ℤ) pair-orbits toward Route A).
+Registry row T-BEING-GATE same-PR — the FIRST bank under the
+mandatory creates_law declaration, its own gate's first customer.
+Gate 5 untouched. Lock: fast certificate at length 3 + OA_SLOW full
+sweep.
+
 ## R48-F2 answered + E46's fourth instance, self-caught (2026-08-21)
 
 The audit seat's phase-2 finding accepted as filed: the requirements

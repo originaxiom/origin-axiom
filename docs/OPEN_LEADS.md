@@ -1900,3 +1900,24 @@ fresh (B1084's cone). The cells:
 
 *Path 2's residues live in B1084's hatch + B1087's cut-side reading. Paths 1/5 converge
 in L173. This campaign is the assembly frame for all of them.* | PHYSICS | ★★★★★ | OPEN — C1 first |
+
+## L175 — the h = 0 locus of the being gate (registered 2026-08-21, B1103's first follow-up)
+
+The vanishing count of B1103's coupling was channel-independent in every channel the
+outside session tested (26 in all three; 28 on the free-group census — the count is
+census-dependent, the CHANNEL-independence is the signal). If the vanishing locus is a
+property of the WORD, independent of channel and listener, that is a fourth theorem in
+the gate's family — one run. If not, the coincidence needs explaining. Cheapest open
+item in the family; typed OPEN.
+
+## L176 — F₄(ℤ) on orthogonal PAIRS of rank-1 idempotents (registered 2026-08-21; the outside session's machinery pointed at Route A)
+
+B1025 records B990's obstruction as concerning PAIR-orbits (the Kato–Yukie setting),
+and rank 6 → rank 4 needs a pair; B1094 proved "the pair is the object" from two
+directions. The outside session's verified integral-Jordan machinery (Freudenthal
+rotations, isotropy ⟺ nilpotency, a working BFS over ℤ-split idempotents — its
+single-idempotent transitivity result carried in B1103's package at OBSERVED grade)
+fits the pair question directly and nobody has run it. Prior-art separation already
+recorded in the package (Krutelevich by scope; Kato–Yukie wrong group). Typed OPEN;
+differential vs B1099's counter question stated at registration: this is the ORBIT
+side, not the counting side.

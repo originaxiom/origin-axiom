@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1006** |
-| words of findings prose | **682,986** |
-| test lock files referenced | **616** |
-| arcs carrying an authored verdict | **993** (98.7 %) |
+| research arcs with findings | **1007** |
+| words of findings prose | **683,842** |
+| test lock files referenced | **617** |
+| arcs carrying an authored verdict | **994** (98.7 %) |
 | recorded closures | **759** (592 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 663 |
+| PROVED | 664 |
 | NEGATIVE | 286 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1102`** (904 words, 1 locks)  
-THE EXACT HYPERCHARGE SOLVE AT THE LANDING (B1100's named residual, owner-elected): the banked 6Y multiset IS carried exactly by the A2 landing's rank-4 Cartan -- 18 isolated rational directions, denominators dividing 6 (provably complete 5^4=625 assignment search over the four +-basis-vector classes; representative t=(1/6,1/6,2/3,-1/3); adapted crystal basis all-rational, B1100's cubic fallback unneeded) -- AND no color-commuting direction achieves it (zero of the 18 pure on either ideal, forced at Cartan level; 36/36 root-level checks negative): hypercharge-VALUED, not SM-PRODUCT-structured; su(2) side PASS (Y-neutral root universal 2-per-solution; Chevalley exact on the 27; commutes with the entire color ideal and with Y; 6 doublets + 15 singlets); uniqueness = 18 points, dimension 0 (about 4.17 bits if bare; order-36 orbit lead named open); e6 bracket module vendored in-arc with re-certification (all C(78,2) pairs); float-measure tension with B1100's pattern-cone genericity FLAGGED for one clarifying check (both arcs' exact claims unaffected); three follow-ups typed (other strata; other color identifications; the 6Y frame map), none claimed; chirality-at-count NOT claimed; Gate 5 untouched.  
-`B1102_exact_hypercharge_solve/FINDINGS.md`
+**PROVED — `B1103`** (856 words, 1 locks)  
+THE BEING GATE (harvest arc, outside-session theorem rebanked after two-engine verification): on the banked B593/B238 instrument extended to the free group {a,A,b,B}, the theta-odd coupling factorizes h(w) = zeta3^(p-q) x (Q(zeta5) element) with p,q the abelianized exponents -- so h(w) in Q(zeta5) iff p-q = 0 mod 3 or h(w) = 0 (the clause real: 28 of 1364 words to length 5, same count from both independent engines) -- verified 1364/1364 exact by the banking seat's own zeta60 engine (instrument REBUILT from B238's Kac-Peterson formulas, S certified unitary symbolically, nu^2 = 75) AND by the vendored outside certificate (sha256'd, inspected for conditional exits, negative-controlled mod 3->2); consequences exact: the commutator subgroup lies entirely in the Q(zeta5) locus (chi abelian, 252/252 census, every real part a banked Niven letter), kappa = tr[a,b] is capital-resident (being structurally blind to it, hearing not: h(abAB) = h(ab) = the banked coupling exactly), the two-face architecture = image-vs-kernel of abelianization; sign convention pinned (twisted = -untwisted identically on C-odd u3); 'eight of nine letters' OBSERVED-UNREPRODUCED (census-definition-dependent); B1083-adjacency typed not conflated (the arrow's positive-monoid home vs the phase's commutator blindness -- two statements that rhyme); follow-ups registered (h=0 locus; other odd-plane listeners; F4(Z) pair-orbits toward Route A); Gate 5 untouched.  
+`B1103_being_gate/FINDINGS.md`
 
 **NEGATIVE — `B1096`** (328 words, 1 locks)  
 DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically -- U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), SU(2)-Witten, AND (B-L)^3 and (B-L)-grav, where the imported 15 gives -1/-1: nu^c, the field the object derives, is EXACTLY what cancels the last non-vanishing invariant; the Z6 congruence 6Y = 4 triality + 3 duality (mod 6) is the UNIQUE solution (exhaustion over 36); a layer that vanishes identically cannot supply a ratio -- the ask is structurally unanswerable (B990's shape), the object's matter too anomaly-free to say anything: completeness of content and emptiness of layer are the same fact; joins B1092 (the same derived nu^c: anomaly-complete AND purity-conditioned).  

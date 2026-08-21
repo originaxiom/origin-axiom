@@ -1,0 +1,8 @@
+{
+  "id": "B1103",
+  "title": "THE BEING GATE: h(w) = zeta3^(p-q) x Q(zeta5) on the free group -- the being phase reads exactly the abelianization",
+  "verdict": "PROVED",
+  "claim_one_line": "THE BEING GATE (harvest arc, outside-session theorem rebanked after two-engine verification): on the banked B593/B238 instrument extended to the free group {a,A,b,B}, the theta-odd coupling factorizes h(w) = zeta3^(p-q) x (Q(zeta5) element) with p,q the abelianized exponents -- so h(w) in Q(zeta5) iff p-q = 0 mod 3 or h(w) = 0 (the clause real: 28 of 1364 words to length 5, same count from both independent engines) -- verified 1364/1364 exact by the banking seat's own zeta60 engine (instrument REBUILT from B238's Kac-Peterson formulas, S certified unitary symbolically, nu^2 = 75) AND by the vendored outside certificate (sha256'd, inspected for conditional exits, negative-controlled mod 3->2); consequences exact: the commutator subgroup lies entirely in the Q(zeta5) locus (chi abelian, 252/252 census, every real part a banked Niven letter), kappa = tr[a,b] is capital-resident (being structurally blind to it, hearing not: h(abAB) = h(ab) = the banked coupling exactly), the two-face architecture = image-vs-kernel of abelianization; sign convention pinned (twisted = -untwisted identically on C-odd u3); 'eight of nine letters' OBSERVED-UNREPRODUCED (census-definition-dependent); B1083-adjacency typed not conflated (the arrow's positive-monoid home vs the phase's commutator blindness -- two statements that rhyme); follow-ups registered (h=0 locus; other odd-plane listeners; F4(Z) pair-orbits toward Route A); Gate 5 untouched.",
+  "instrument": false,
+  "creates_law": true
+}
