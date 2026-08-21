@@ -1,0 +1,41 @@
+{
+ "adopted": [
+  {
+   "effect": "removes the conceded weakness for THREE of the four selections; only Selection IV needs the conjugacy class",
+   "id": "E1",
+   "verified": "det(A^2-I) = chi_A(1) chi_A(-1) = (-m)(m) = -m^2 exactly, checked symbolically and on explicit matrices [[m,1],[1,0]] for m=1..9",
+   "what": "Selection I extends to the whole period-one locus, not just the diagonal family"
+  },
+  {
+   "effect": "the body was more cautious than the abstract, which is the wrong way round; now it names the threshold",
+   "id": "E2",
+   "my_own_error": "my FIRST count included IMPRIMITIVE forms and gave 1,1,1,2,1,2,1,2,2,2,2 -- disagreeing with the scrutiny at m=4. The scrutiny's own E4 (content is a GL(2,Z)-invariant) is what identified the bug. Restricted to primitives, the two counts agree exactly on m=1..11.",
+   "residual_disagreement": "at m=12 I count 3 primitive classes, the scrutiny's table says 2. Not load-bearing for 'm=6 is first'; FLAGGED, and the paper states only m=1..11.",
+   "verified": "computed GL(2,Z) PRIMITIVE form-class counts at discriminant m^2+4: 1,1,1,1,1,2,1,1,2,2,1 for m=1..11, so m=6 is the first repetition",
+   "what": "the threshold the body declined to name is m=6"
+  },
+  {
+   "effect": "resolves the ambiguity at the one place dim 12 is load-bearing; the other two ambiguities stand",
+   "id": "E3",
+   "verified": "built E6's 72 roots and an explicit A_2+A_1 subsystem: its largest mutually-orthogonal root set has size 2, so it contains no 3A_1",
+   "what": "the dimension-12 Levi ambiguity closes where it is used: z(C) = sl_3 + t^4"
+  }
+ ],
+ "false_negative_self_caught": "My first triage grep reported E2 ABSENT. It is present, HARD-WRAPPED ('we do not' / newline / 'assert a threshold here'). That is the SAME instrument failure this seat banked in R48/B8109 -- a regex that cannot cross a hard wrap -- repeated by the seat that recorded it. Re-run wrap-insensitively WITH A POSITIVE CONTROL, which is what made the second pass trustworthy.",
+ "not_adopted": [
+  {
+   "id": "E4",
+   "what": "non-conjugacy by content, one line instead of Latimer-MacDuffee",
+   "why": "cosmetic simplification, not a defect; and its OBSERVATION was used here to fix my own E2 miscount, which is worth more than the edit"
+  },
+  {
+   "id": "E5",
+   "what": "the stratification list is complete only if no size-6 hyperplane passes through the 16-point",
+   "why": "NOT ADOPTED AND NOT DISMISSED -- it needs the stratification internals checked against B8078's own rung-spectrum work, which was not done here. Registered as open."
+  }
+ ],
+ "scope": "Verifies three constructive claims independently and adopts them into the paper. The class-count table is computed for m <= 12 only, and the m=12 entry disagrees with the source and is flagged. E5 is untriaged. Gate 5 untouched.",
+ "source": "the P1 scrutiny's CONSTRUCTIVE section -- 'results the paper has and does not claim'",
+ "suite": "21/21 from the extracted tarball, clean-room compile green, 51pp",
+ "verdict": "THREE OF THE FIVE CONSTRUCTIVE ITEMS VERIFIED AND ADOPTED, ONE DECLINED, ONE LEFT OPEN AND NAMED -- AND THE TRIAGE CAUGHT A FALSE NEGATIVE OF MY OWN. E1: for any A in GL(2,Z) with det -1 and trace m, det(A^2 - I) = chi_A(1) chi_A(-1) = -m^2 exactly, so the mapping torus of A^2 has torsion m^2 and is a knot complement only at m=1, where h(5)=1 makes the class unique; Selections I-III therefore select the golden across the WHOLE period-one locus and only Selection IV needs the conjugacy class -- removing a concession the paper itself said a referee would raise first. E2: the threshold the body declined to name is m=6, from PRIMITIVE class counts 1,1,1,1,1,2,1,1,2,2,1 at discriminant m^2+4 -- and my first count was WRONG because it included imprimitive forms, an error the scrutiny's own E4 observation (content is a GL(2,Z)-invariant) identified; restricted to primitives the two counts agree exactly on m=1..11, with a flagged residual disagreement at m=12 that is not load-bearing. E3: A_2+A_1's largest mutually-orthogonal root set has size 2, verified in E6's actual 72-root system, so it contains no 3A_1 and z(C) = sl_3 + t^4 -- closing the dimension-12 ambiguity exactly where it is used. E4 declined as cosmetic, though its observation repaired my own miscount. E5 NOT adopted and NOT dismissed: it needs the stratification internals checked against B8078, which was not done. AND THE PROCESS CATCH: my first triage grep reported E2 absent when it is present but HARD-WRAPPED -- the same instrument failure this seat banked in R48/B8109, repeated by the seat that recorded it; the second pass ran wrap-insensitively WITH A POSITIVE CONTROL."
+}
