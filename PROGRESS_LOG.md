@@ -11033,3 +11033,18 @@ asks whether the mirror-conjugation gives compact I2 — the second-level
 structure). Compactness = the observer's archimedean closing (twin of
 B1114's signature). 3/4 B1119 controls reproduced; variant-B a labeling
 nuance, relayed to cc3.
+
+**2026-08-21 — THE VALUE CAMPAIGN V-3 (B1126), the crux.** The
+identification, against a sealed preregistration: NO-OBJECT-PERIOD-IS-AN-
+SM-RATIO. An exhaustive symmetric 352-pair scan (16 object-periods — the
+whole current arithmetic menu, Kashaev ratios C₁/C₀…C₃/C₀ + cross-ratios
++ rational parts + volume/ζ_K(2) — × 22 live SM targets), 351 noise-
+level, consistent with chance. The eighth value negative and the first
+exhaustive one; the falsifier fired, closing the current-menu question
+with a method. One near-coincidence (C₁/C₀ = 11π/(36√3) vs the solar
+angle sin θ₁₂, 0.025%) dismissed on three grounds (look-elsewhere 16.4%,
+no instrument, found-by-scan), banked unclaimed and relayed to cc3 for a
+3rd opinion. Does NOT close value-matching generally: C₄+ precision-gated
+(B1124), the listener-map instrument uncomputed. Two bugs caught mid-run,
+cross-validated against banked ground truth. V-2′ (compact-color-from-
+mirror) still computing.

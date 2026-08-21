@@ -2635,6 +2635,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1126": {
+   "slug": "identification",
+   "motifs": [
+    "metallic"
+   ],
+   "refs": [
+    "B915",
+    "B925",
+    "L166"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B112": {
    "slug": "closed form proof",
    "motifs": [

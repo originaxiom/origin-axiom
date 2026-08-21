@@ -13,6 +13,14 @@ quotation of what was formerly claimed, or a test that enforces its absence — 
 **Adding a row is part of retracting.** A retraction is not complete until its phrase is
 registered here and the sweep is clean.
 
+**Currency (verified 2026-08-21, through B1126).** The B1096–B1126 window — the breakthrough
+packet (B1113–B1122), the reflection wave + forcedness census (B1123), and value-campaign
+V-1/V-2/V-3 (B1124–B1126) — produced **no new live-claim retractions**. The one near-miss,
+B1125's initial "compact color is external / the last residual is closed" framing, was
+rescoped to "a LINEAR negative, the antilinear (mirror) route V-2′ still open" **in staging,
+before banking** — so no public phrase is owed a sweep. The registry is current and the
+`retraction-sweep` gate is clean.
+
 | # | retracted phrase (case-insensitive) | retracted by | why it is wrong |
 |---|---|---|---|
 | 1 | `the object does not supply a VEV` | **B964** | False. An adjoint VEV's unbroken group **is** the centralizer of that element, so the measurement cascade **is** an adjoint Higgs mechanism. The object supplies the rank-preserving half; it lacks the rank-reducing **27** half. |

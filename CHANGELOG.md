@@ -1,5 +1,42 @@
 # Changelog
 
+## THE VALUE CAMPAIGN V-3 (B1126, 2026-08-21): the identification — the crux returns the honest terminal negative, done exhaustively
+
+Value-campaign cell V-3, the crux and the campaign's falsifier, executed
+against a SEALED preregistration (candidates, targets, instrument
+principle, coincidence discipline, and falsifier all fixed BEFORE any
+comparison). VERDICT: NO-OBJECT-PERIOD-IS-AN-SM-RATIO. An exhaustive,
+symmetric 352-pair scan -- 16 sealed object-periods (the whole current
+arithmetic menu: Kashaev coefficient ratios C₁/C₀…C₃/C₀, their
+cross-ratios, bare rational parts, the volume/ζ_K(2) family) × 22
+live-fetched SM targets (NuFIT 6.0 PMNS, PDG 2024 masses, couplings,
+Koide) -- with 351 of 352 pairs below 2 significant figures, squarely
+consistent with pure noise (the discipline expected ~3.5 trivial hits,
+observed 0; ~0.35 at the 3-sig bar, observed 1). This is the EIGHTH
+value-crossing negative and the FIRST built as an exhaustive symmetric
+pre-disciplined scan rather than one pairing at a time -- closing "does
+any period in the object's current menu equal an SM headline ratio" with
+a stated, reproducible method (the falsifier fired: a theorem-shaped
+answer to a question that had seven open seals). The one pair reaching
+the escalation bar -- C₁/C₀ = 11π/(36√3) = 0.5542165 vs the SOLAR mixing
+angle sin θ₁₂ = 0.5540758 (NuFIT 6.0), 0.025% -- was ATTACKED, not
+celebrated, and dismissed on three independent grounds (look-elsewhere
+≈16.4%; no principled instrument anywhere in the repo connecting Kashaev
+to PMNS; found by scan, which the seal's own pre-commitment rule
+disqualifies); the "0.0136σ" is an artifact of θ₁₂'s coarse 1.9%
+measurement window. Banked as an UNCLAIMED, falsifiable note (re-open
+only if θ₁₂ tightens AND an instrument appears), and RELAYED TO cc3 for
+an independent adversarial look (the owner's 3rd-opinion rule; re-
+verified on this bench). Does NOT close value-matching generally: C₄+ is
+precision-gated (B1124), and a genuine listener-map INSTRUMENT remains
+uncomputed -- the harder, separate question this table cannot answer.
+Two bugs caught mid-run via an implausibly-clean intermediate result,
+both fixed and cross-validated against banked B1117/B1120/B1124 ground
+truth. Registry T-VALUE-DISJOINT; SM_VERDICT + CAMPAIGN_STATUS +
+PROGRESS_LOG; atlas/views/spine regen; lock. Gate 5 structural. The
+cc→cc3 verify request (an independent adversarial look at the near-
+coincidence) is embedded in this arc's FINDINGS, which cc3 reads on main.
+
 ## THE VALUE CAMPAIGN V-2 (B1125, 2026-08-21): compact color is a second-level (antilinear) closing, not the object's linear datum — a negative that names its successor
 
 Value-campaign cell V-2 (answers C-AR1), verified this bench

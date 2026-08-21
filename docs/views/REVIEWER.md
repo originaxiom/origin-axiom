@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1029** |
-| words of findings prose | **697,029** |
-| test lock files referenced | **635** |
-| arcs carrying an authored verdict | **1016** (98.7 %) |
+| research arcs with findings | **1030** |
+| words of findings prose | **697,589** |
+| test lock files referenced | **636** |
+| arcs carrying an authored verdict | **1017** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 684 |
+| PROVED | 685 |
 | NEGATIVE | 287 |
 | OPEN | 35 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1125`** (807 words, 1 locks)  
-V-2 COMPACT COLOR (value-campaign cell, answering C-AR1): does any sign-lift give COMPACT su(3) color? NO over the LINEAR torsor, and the negative names its own successor. Exhaustive over 48 verified elements (2 Chevalley-automorphism constructions x both lattice classes; theta^2=I enforced by falsification), deterministic re-run 164s, 0 compact hits even pre-reverification; union of real forms reached = characters {-26,+2,+6}, INCLUDING E6(-26)=M(O,C) itself (the candidate), and color is non-compact in every one. DISCRIMINATING FACT (verified): the corrected ad-invariant form (<e_r,e_-r>=-1, the B1119 fix; live negative control confirms +1 fails ad-invariance) on the color A2 I2 is ALWAYS (5,3,0) -- a split-basis fact (2 coroots (2,0) + 3 hyperbolic planes (3,3)); compact needs (0,8). E6(-26) reached but I2 stays (5,3) because theta fixes it -- the near-miss the character-checksum mis-calls (checksum NECESSARY NOT SUFFICIENT; the PURITY check decides). THE TYPE DISTINCTION: compact su(3) is the anti-Hermitian form {X:X-dagger=-X}, and compact real forms come from an ANTILINEAR conjugation, NEVER a linear inner twist -- so no linear lift can flip (5,3) to (0,8); this arc's compact-involution control confirms the antilinear conjugation returns -78 (fully compact). So the LINEAR torsor is exhausted and the missing ingredient is named: a complex conjugation. The object HAS one -- the mirror (amphichirality 27<->27bar, Galois sqrt-3 -> -sqrt-3). SHARPENED OPEN QUESTION = cell V-2' (the antilinear completion): does the object's OWN mirror-conjugation restricted to I2 give (0,8)? MEANING: compactness is a SECOND-LEVEL (antilinear) closing, never a first-level (linear) one; the object gives the color+Lorentz ALGEBRA, and compactness/signature are the observer's real-structure closings at the archimedean place (twin of B1114 'the signature is the observer's'). FENCES: 3/4 B1119 controls reproduced exactly (variant A signature (5,3) incl); B1119's variant-B (+6/su(2,1)) reached via permute/B not antipodal -- a labeling nuance not a gap (relayed to cc3); the cited abstract so(3,1)+su(3)-compact in E6(-26) via so(9,1) is a different embedding, not contradicted. Gate 5 untouched.  
-`B1125_compact_color/FINDINGS.md`
+**PROVED — `B1126`** (560 words, 1 locks)  
+V-3 THE IDENTIFICATION (value-campaign crux + falsifier, against a SEALED prereg): is any object-tower period an SM dimensionless ratio via a principled instrument? NO-OBJECT-PERIOD-IS-AN-SM-RATIO. Exhaustive symmetric scan: 16 sealed periods (Kashaev ratios C1/C0..C3/C0 + cross-ratios + bare rational parts + volume/zeta_K(2) family) x 22 live-fetched SM targets (NuFIT 6.0 PMNS, PDG 2024 masses, couplings, Koide) = 352 pairs; 351 below 2 sig figs, consistent with pure noise (expected ~3.5 trivial hits, observed 0; ~0.35 at 3-sig bar, observed 1). The EIGHTH value-crossing negative and the FIRST exhaustive/symmetric/pre-disciplined one (vs one-pairing-at-a-time). The single escalation-bar pair -- C1/C0 = 11pi/(36 sqrt3) = 0.5542165 vs sin(theta12 PMNS solar angle) = 0.5540758, 0.025% -- is DISMISSED on 3 independent grounds: look-elsewhere 16.4% (not rare), no principled instrument (repo grep for Kashaev<->PMNS = zero), fails pre-commitment (found by scan, seal D-iv disqualifies); the '0.0136 sigma' is driven by theta12's coarse 1.9% window not an extraordinary coincidence. Named a falsifiable UNCLAIMED note (worth a fresh single-pair prereg only if theta12 tightens AND an instrument is found), NOT promoted; RELAYED TO cc3 for independent adversarial look (owner 3rd-opinion rule). Re-verified this bench (C1/C0 and sin theta12 reproduce exactly). CLOSES the current-menu question with a reproducible method; does NOT close value-matching generally (C4+ precision-gated per B1124; a listener-map instrument uncomputed). 2 bugs caught mid-run + cross-validated vs banked ground truth. Gate 5 structural.  
+`B1126_identification/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  
