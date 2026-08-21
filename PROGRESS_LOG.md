@@ -11063,3 +11063,19 @@ withdrawn (cc3 1a0b5a90; level 15 irreducible, B695); E₆ arrives at the
 hyperbolic ℚ(√−3) curvature end (2T→E₆, McKay; B981/B248); the forced
 count (39/43) stands; cc's propagation of the unverified doorway
 explanation corrected across ~8 surfaces + the error ledger + memory.
+
+**2026-08-22 — THE VALUE-PROBING WAVE (B1128–B1131).** Owner-directed
+four-probe push, sealed against numerology, each verified on this bench.
+B1128 P-INSTRUMENT: INSTRUMENT-NULL (the listener-map coupling predicts
+|U_e1|/|U_e2|=φ, ~5σ miss; degenerate 1→N test, a meridian unsearched).
+B1129 P-NATURALVALUES: NATURAL-VALUES-DISJOINT (22/23 object-invariants
+noise-level vs 22 SM targets, 506-pair grid). B1130 P-TWOENDED:
+PRECISION-FLOOR (C₃'s 5 = 53×79×173, no √5 fingerprint, leans generic;
+C₄/C₅ precision-gated, the N=70M extension stopped at diminishing
+returns). B1131 P-KOIDE: NO-BRIDGE (the |det φ|=2/3 vs Koide 2/3
+coincidence proven a coincidence — det φ is a Cartan basis-change
+determinant with no angle content; four bridge routes failed; ~8% base
+rate; det φ=−2/3 re-confirmed exact). THE CLOSE: the object's arithmetic
+reproduces but is DISJOINT from the SM's numbers across every route —
+"physics-shaped, not physics-valued." Side-finding for LAW_MAP:
+h(R²L²)=−φ·h(RL) (B1128). Locks 11/11.

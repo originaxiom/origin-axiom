@@ -2670,6 +2670,38 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1128": {
+   "slug": "instrument null",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B593",
+    "B856"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1129": {
+   "slug": "natural values disjoint",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B904",
+    "P70"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B112": {
    "slug": "closed form proof",
    "motifs": [
@@ -2702,6 +2734,37 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 4,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1130": {
+   "slug": "twoended tower",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B248",
+    "B981"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1131": {
+   "slug": "koide no bridge",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B904"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 7,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B113": {

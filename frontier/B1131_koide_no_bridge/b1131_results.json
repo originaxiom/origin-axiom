@@ -1,0 +1,54 @@
+{
+ "step1_koide_classical": {
+  "Q_pdg": "0.666660511477386",
+  "alpha_pdg_deg": "44.9997354978",
+  "cos2_alpha_pdg": "0.500004616434583",
+  "Q_from_angle_identity_check": "0.666660511477386",
+  "identity_residual": "1.14794e-41",
+  "reading": "Q=2/3 to 5 sig figs <=> alpha=45.00 deg <=> cos^2(alpha)=1/2 -- the STRUCTURAL content any bridge must derive is the 45 deg geometry, not the bare number 2/3 (B1129 dismissed the bare equality already)."
+ },
+ "step0_detphi_block_structure": {
+  "det_phi_full": "-2/3",
+  "det_root_block_72x72": "+1 (signed permutation, exact)",
+  "det_cartan_block_6x6": "-0.6666666667",
+  "singular_values_6x6_block": [
+   "0.50431448",
+   "0.61413433",
+   "0.63023621",
+   "0.82133982",
+   "1.0855388",
+   "3.8306488"
+  ],
+  "nearest_singular_value_to_1_over_sqrt2": "0.63023621",
+  "gap_to_cos45": "0.0768706",
+  "reading": "No eigenvalue or singular value of the only non-trivial block of phi is near cos45=1/sqrt2~0.7071 (nearest gap reported above, not small). Route (c') CLOSED: phi carries no latent angle."
+ },
+ "route_a_trit": {
+  "input": "block dimensions (9,9,9), B897 FINDINGS.md (two-prime sealed result)",
+  "Q": "0.3333333333",
+  "alpha_deg": "0.0",
+  "verdict": "NO BRIDGE -- bare permutation symmetry forces the fully democratic point (alpha=0 deg, Q=1/3, the MINIMUM of Koide's Q), the OPPOSITE of Koide's 45deg/2:3 point on the same circle (Q ranges over [1/3,1) as alpha ranges over [0,90)deg; Koide's point is near the middle, not at either extreme). No second natural 3-vector exists in the banked B897/B1030 data (su(2)' refinement is 2-of-3 blocks only; Casimirs are cross-sector, not per-block)."
+ },
+ "route_b_bare_substitution": {
+  "cos2_alpha_implied": "0.5",
+  "alpha_implied_deg": "45.0",
+  "reductio_with_unrelated_2_3_quantity_deg": "45.0",
+  "verdict": "DISQUALIFIED by construction (pre-committed) -- a bare numeric substitution with zero discriminating power; reductio confirms any unrelated X=2/3 gives the identical 'derivation'."
+ },
+ "route_c_v0_jordan_heart": {
+  "input": "v0 support (1,-1,1) at 27-indices (12,13,14); B663/B670 arc A1, sealed 247ace23...",
+  "alpha_deg": "70.52877937",
+  "cos2_alpha": "0.1111111111",
+  "verdict": "NO BRIDGE -- neither numerically 45deg (actual: arccos(1/3) =70.53deg, cos^2=1/9) nor a principled comparison in the first place (raw coordinate slots, not v0's actual Peirce eigenvalues, which are NOT a banked datum -- named as NEEDS-STRUCTURE-adjacent but does not on its own overturn the default).",
+  "uncomputed_datum_named": "v0's Peirce/eigenvalue triple (trace + quadratic invariant of the exceptional Jordan algebra on v0) -- not present in a1_results.json (T2_v0_v0: null)."
+ },
+ "step3_base_rate": {
+  "N": 30,
+  "total_reduced_fractions": 277,
+  "count_2_3_smooth_both_num_denom": 23,
+  "density": "0.083032491",
+  "reading": "2/3 is among the smallest-height fractions possible and lands inside a {2,3}-smooth set that is intrinsically dense in this construction's own native arithmetic (E6 group-theoretic invariants are pervasively 2,3-smooth) -- landing on 2/3 by chance is CHEAP, consistent with coincidence, not surprising enough on its own to indicate a forced link."
+ },
+ "verdict": "NO-BRIDGE",
+ "gate5_compliance": "lepton masses used ONLY in step1 (the Koide-side target, alpha=45deg/cos2=1/2); never fed into det phi / trit / v0 constructions."
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1031** |
-| words of findings prose | **698,433** |
-| test lock files referenced | **637** |
-| arcs carrying an authored verdict | **1018** (98.7 %) |
+| research arcs with findings | **1035** |
+| words of findings prose | **700,152** |
+| test lock files referenced | **641** |
+| arcs carrying an authored verdict | **1022** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 686 |
+| PROVED | 689 |
 | NEGATIVE | 287 |
-| OPEN | 35 |
+| OPEN | 36 |
 | RETRACTED | 10 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1127`** (654 words, 1 locks)  
-V-2' THE ANTILINEAR COMPLETION (value-campaign cell; the owner's 'another-level measurer' for compact color): does the object's antilinear structure supply compact su(3) color? MATH (verified, deterministic re-run): YES it is reachable -- sigma_mirror = tau . theta_A gives color I2 = (0,8) COMPACT, global form (26,52) = E6(-26)=EIV=M(O,C) (the object's OWN magic-square algebra, B882); SPECIFIC not generic (exactly 4 of 48 torsor elements, all antipodal/class-A = the mirror's identity-on-color class, all (0,8), 300-trial reverified); controls green (sigma_c=tau.theta_split gives global (0,78)+color (0,8), the detector sees compact when present; a SECONDARY construction tau.theta_split.theta_A gives (5,3) NON-compact, so not 'any antilinear map compactifies'; the unsigned diagram fold fails the automorphism check 38/60, a signed lift required). Same real form B1125 reached LINEARLY (I2 stuck at (5,3)) is reached ANTILINEARLY with I2 genuinely compact -- the near-miss resolved. FRAMING FENCE (load-bearing; the agent's own NOTES sec5 upheld OVER its final-report headline): the object's OWN arithmetic mirror does NOT supply this -- B1114 proved I1,I2 are Q-rational, hence fixed POINTWISE by any C/Q field automorphism, so the literal Q(sqrt-3)-Galois twist (sqrt-3 -> -sqrt-3) acts as the IDENTITY on the color layer and carries no antilinear structure there (B1114's 'setwise' sharpened to pointwise since the factors are Q-rational-spanned). The tau that flips (5,3)->(0,8) is the GENERIC conjugation = B1114's 'the observer's choice of real structure, NOT the object's'. So compact color is the OBSERVER'S archimedean closing INTO the object's own M(O,C) form; the agent's headline 'the object's own mirror gives it' over-reads its own fence. OPEN BRIDGE (relayed to cc3, the B1114 seat): tau 'specializes to sqrt-3 -> -sqrt-3 on the object's HOLONOMY layer' -- a different, cited-not-rederived layer; if the holonomy-mirror descends to a nontrivial antilinear action on the combinatorial I2, 'object's own' could partially revive. SETTLED: compact color reachable, in the object's own M(O,C), by a second-level conjugation (V-2's second-level-closing made concrete). Gate 5 untouched.  
-`B1127_antilinear_completion/FINDINGS.md`
+**PROVED — `B1131`** (544 words, 1 locks)  
+P-KOIDE (value-probing wave follow-on, owner-directed; sealed prereg): is |det phi|=2/3 (B904 E6-iso determinant) -> Koide's lepton-mass 2/3 a real bridge or a coincidence? NO-BRIDGE -- the instrument was built and FAILED, closing B1129's one flagged candidate. det phi = -2/3 re-confirmed EXACT this bench (78x78 from B904 stage4c_phi.pkl); it is a basis-change determinant on E6's rank-6 CARTAN (agent: 72-dim root block = signed permutation det +1, the -2/3 lives in a 6-dim Cartan-comparison block; fenced -- det confirmed here, the block split not corner-contiguous in default ordering so not re-derived, but NOT load-bearing). No 3-vector, no inner product with (1,1,1), no cosine, no angle -- categorically the wrong KIND of object for Koide's mass-angle geometry. Koide verified: Q=0.66666 (2/3 to 5sf), alpha=44.9997deg, Q=1/(3cos^2 alpha) to 1e-41. FOUR pre-committed bridge routes ALL FAILED: (a) the trit/three-9-blocks (only natural 3-vector) gives alpha=0/Q=1/3 -- the ANTIPODE of 45deg; (b) det=1/(3cos^2 alpha) backward is bare arithmetic, zero discriminating power (a 3-die P(>1)=2/3 'solves' it), disqualified; (c) v0 rank-3 Jordan gives alpha=70.53deg not 45; (c') phi spectrum has no 45deg (nearest SV to 1/sqrt2=0.630, gap 0.077). Coincidence base rate ~8.3% (1-in-12) of denom<=30 fractions are {2,3}-smooth; both 2/3's independently cheap (E6 arithmetic {2,3}-smooth; Koide a 3-fold democratic construction). B1129's dismissal sharpened from 'no instrument yet' to 'built and failed'. The value question is now closed from EVERY route: periods (V-3), natural forms (B1129), the coupling (B1128), and the most suggestive coincidence (this). Gate 5 held. No cc3 triggered (that gate is BRIDGE-FOUND only).  
+`B1131_koide_no_bridge/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

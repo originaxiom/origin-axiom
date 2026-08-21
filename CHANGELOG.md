@@ -1,5 +1,41 @@
 # Changelog
 
+## THE VALUE-PROBING WAVE (B1128–B1131, 2026-08-22): the value question closed from every route — instrument, natural forms, two-ended, and the det-φ/Koide coincidence
+
+Owner-directed ("run both instrument and two-ended tower and all around
+them"), a four-probe wave sealed against numerology (differential-first,
+one calibration input, coincidence accounting, Gate 5), each verified on
+this bench. **B1128 P-INSTRUMENT: INSTRUMENT-NULL** — the listener-map
+crossing cell (u one dof, built on LISTENER_MAP_SPEC's C⁶ / ⟨R,L⟩=2T×2I)
+predicts |U_e1|/|U_e2| = φ, which misses the measured PMNS e-row ratio by
+~5σ; the 1→N test self-caught as DEGENERATE (h(R²L²)=−φ·h(RL) exact to
+1e-50, θ absorbed 0 dof — the opposite of hidden-freedom fitting); a
+different meridian (the wy-component) unsearched, fenced. Extends the
+7-for-7 coupling-channel record to the continuous-calibration config.
+**B1129 P-NATURALVALUES: NATURAL-VALUES-DISJOINT** — 22 of 23 of the
+object's own natural invariants (Vol, the regulators, C₀, the tones, the
+full M(𝕆,ℂ) menu) are noise-level vs 22 live SM targets across a 506-pair
+grid; sharpens V-3 from the natural-forms direction. **B1130 P-TWOENDED:
+PRECISION-FLOOR** — C₃'s factor-of-5 (724351=53×79×173, no √5 fingerprint)
+is consistent with generic von Staudt–Clausen denominator growth AND a
+√5/E₈ signal (one data point can't decide, leans generic); the definitive
+C₄/C₅ test is precision-gated and the N=70M extension was stopped at
+diminishing returns (a banking-seat resource call). **B1131 P-KOIDE:
+NO-BRIDGE** — the campaign's single most suggestive coincidence, |det φ|=2/3
+(B904, from the 27) vs Koide's lepton 2/3, is PROVEN a coincidence: det φ
+= −2/3 is a basis-change determinant on E₆'s rank-6 Cartan (no 3-vector,
+no cosine, no angle — categorically the wrong kind of object), all four
+pre-committed bridge routes failed (the trit gives α=0°, the 45° antipode),
+coincidence base rate ~8%; det φ = −2/3 re-confirmed exact this bench.
+B1129's dismissal thus sharpened from "no instrument yet" to "instrument
+built and failed." **THE CLOSE:** the object's arithmetic reproduces (V-1)
+but is DISJOINT from the SM's numbers across every route tested — periods,
+natural forms, the coupling, the sharpest coincidence — "physics-shaped,
+not physics-valued." Side-finding flagged for a future LAW_MAP row:
+h(R²L²)=−φ·h(RL), an exact golden-ratio relation (B1128). Locks 11/11;
+atlas/views/spine regen; the det-φ/Koide + φ-law relayed to cc3 in the
+FINDINGS. Gate 5 untouched.
+
 ## THE VALUE CAMPAIGN V-2′ (B1127) + THE FORCEDNESS-DOORWAY CORRECTION (E37) (2026-08-21)
 
 Two things: the value campaign's last active cell, and a correction to
