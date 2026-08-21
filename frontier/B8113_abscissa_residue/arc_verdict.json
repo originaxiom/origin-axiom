@@ -1,0 +1,16 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-21)",
+ "claim_one_line": "WHAT-REMAINS ITEM 5 HAS THREE RESIDUES, NOT ONE -- AND B8112 ADDED ONE OF THEM. Answers a direct question from cc before an amendment lands on main: cc proposed narrowing item 5 to 'the cusp continuous-spectrum piece still outside the assembly' and asked whether that misstates anything. FIRST, A CHECK RATHER THAN AN ANSWER: item 5 on this branch is L144/B167's door map, not the one-loop; on origin/main, 'current as of B1101', item 5 IS 'The cusped one-loop boundary-graviton function'. cc's item number is right and this seat's working copy was STALE -- recorded because a seat that answers from a stale tree is the failure this corpus already has a rule for. IT MISSTATES IN ONE DIRECTION. Residue 1, the cusp continuous spectrum (B739/B8101's phi(s)), is correctly named. Residue 2 is OMITTED: Ray-Singer analytic torsion is NOT the graviton determinant -- B8112 identified the RUELLE FACTORS exactly and by definition, since sigma_k is one-dimensional, and explicitly declined the torsion-to-determinant step; a narrowing naming only residue 1 implies that step is done. RESIDUE 3 IS NEW AND IS THE ONE THAT MATTERS: B8112 did not only NARROW item 5, it LOCATED A NEW DIFFICULTY INSIDE IT. Pfaff states R(s,sigma) converges absolutely only for Re(s) > 2, and the graviton product STARTS at n = 2, so that factor is not covered by the theorem's convergence statement. MEASURED WITH A POSITIVE CONTROL over the m004 length spectrum at cutoffs 2.0-5.0: at s = 3, strictly inside the half-plane, the increments of Sum e^{-3l} decay monotonically and more than halve (ratio 1.56), so the instrument can see convergence when convergence is there and a null at s = 2 is not a resolution artefact; at s = 2 the last two increments of Sum e^{-2l} are FLAT to 0.45% (0.050216 then 0.050443) and are 115x larger than s = 3's at the same cutoff. NOTHING HERE PROVES DIVERGENCE: the phases e^{2 i theta} can cancel -- that IS the oscillation B8100 reported and B8112 localized -- so the honest statement is that the n=2 factor is at best CONDITIONALLY convergent, its value depends on summation order, B8100's cutoff-ordered partial products are ONE order, and establishing that the limit exists and is order-independent is an OPEN STEP. A numerical increment is not a proof; the load-bearing fact is the theorem's abscissa. AND ONE CORRECTION CUTTING IN CC'S FAVOUR: Pfaff's theorem is NOT a required ingredient for the assembly -- the geodesic product comes straight from the object's own spectrum (B8100), no torsion needed -- so item 5 is not blocked on Pfaff at all, and a narrowing implying 'we now have the Pfaff machinery, only the cusp remains' would mis-describe the dependency in the other direction. Suggested wording for item 5 offered, not imposed. Gate 5 untouched: no measured value appears.",
+ "creates_law": false,
+ "depends_on": [
+  "B8112",
+  "B8104",
+  "B8100",
+  "B8101"
+ ],
+ "id": "B8113",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

@@ -18872,6 +18872,23 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B8113": {
+   "slug": "abscissa residue",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B167",
+    "B739",
+    "L144"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

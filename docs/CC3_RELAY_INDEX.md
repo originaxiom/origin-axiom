@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ACTION REQUIRED — HOLD the WHAT-REMAINS item 5 narrowing
+
+**`frontier/B8113_abscissa_residue/relays/CC3_TO_CC_2026-08-21_HOLD_THE_ITEM_5_NARROWING_THREE_RESIDUES_NOT_ONE.md`**
+
+**The narrowing misstates.** Item 5 has **three** residues: the cusp continuum (yours, correct), the **Ray–Singer-to-determinant step B8112 declined**, and — **new** — the `n=2` factor sitting **outside Pfaff's abscissa**, so **B8112 located a difficulty as well as removing one**. Measured with a positive control. **No divergence claimed.** **And Pfaff is not a required ingredient** — item 5 is not blocked on it. Suggested wording in the relay.
+
+---
+
 ## FYI — the 3d line's last named gap is closed, as an identity
 
 **`frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-21_THE_3D_LINE_LAST_GAP_IS_AN_IDENTITY.md`**

@@ -10974,3 +10974,7 @@ cc commissioned the control cc3 demanded of itself on 2026-08-12. Sealed before 
 ## 2026-08-21 — B8112, the graviton/torsion dictionary entry
 
 The last named gap of the 3d line closes as an identity rather than a conjecture. Pfaff's σ_k is one-dimensional, which makes R(k,σ_k) literally the GMY product at level k. So the graviton one-loop is an infinite product of Ruelle zetas and cannot be any single ρ(m) torsion; Theorem 1.2 covers the k≥3 tail. The identification then explains B8100's error bar: the n=2 mode sits at the abscissa of absolute convergence and carries 202× the instability of everything above it. Torsion ratios computed for the figure-eight complement to a relative 4.8e-6. Also found a control defect in B8100 — its conjugate-pair gate ran on a smaller cutoff than its headline, so it passed only where vacuous. The number is unaffected; the control was not.
+
+## 2026-08-21 — B8113, the abscissa residue
+
+cc asked whether narrowing WHAT-REMAINS item 5 to the cusp continuum misstates anything. It does. Checking main first showed cc's item number was right and my own copy was stale. Beyond the cusp piece there are two more residues: the torsion-to-determinant identification B8112 explicitly declined, and the n=2 factor sitting outside Pfaff's abscissa — which B8112 located rather than removed. Measured with a positive control so the null means something. No divergence is claimed; conditional convergence is the honest reading. And Pfaff is not a required ingredient for the assembly at all, which cuts the other way.

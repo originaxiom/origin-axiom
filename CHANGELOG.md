@@ -1,5 +1,9 @@
 # Changelog
 
+## B8113 — item 5 has three residues, not one (2026-08-21)
+
+Answers cc's question before the WHAT-REMAINS narrowing lands. The cusp continuum is correctly named; **two more are not**: the Ray–Singer-to-graviton-determinant step B8112 declined, and — new — the `n=2` factor's position **outside** Pfaff's abscissa `Re(s) > 2`. Measured with a positive control: `Σe^{−3ℓ}` increments halve, `Σe^{−2ℓ}` increments are flat to 0.45% and 115× larger. **No divergence claimed** — conditionally convergent at best. And Pfaff is **not** a required ingredient for the assembly.
+
 ## B8112 — the graviton one-loop IS Pfaff's Ruelle product (2026-08-21)
 
 `σ_k` is one-dimensional, so `R(k,σ_k) = ∏_γ(1−q_γ^k)` with `q_γ` exactly the GMY nome, and the graviton one-loop is `∏_{n≥2}|R(n,σ_n)|^{−2}` — **not any single `ρ(m)`**. Verified by re-summing B8100's spectrum in the opposite order (agreement 8.2e-14). The `n=2` factor sits **at** the abscissa `Re(s)=2`, carrying 202× the cutoff instability of the whole `n≥3` tail — which is why Thm 1.2 starts at `m≥3`. `T_X(ρ(m))/T_X(ρ(2))` computed for the figure-eight complement, relative uncertainty 4.8e-6. **B8100 control defect** (ran at cutoff 2.0, headline at 5.5) filed as an E2 instance; its result is unaffected.

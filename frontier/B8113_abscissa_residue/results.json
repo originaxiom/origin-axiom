@@ -1,0 +1,71 @@
+{
+ "S2_increments_flat_within": 0.004484016482285854,
+ "S2_last_two_increments": [
+  0.050216458257529406,
+  0.05044264390420594
+ ],
+ "S3_increments_decay_monotonically": true,
+ "S3_last_two_increments": [
+  0.000684693167104955,
+  0.00043880524883530003
+ ],
+ "abscissa_of_absolute_convergence": 2,
+ "cutoffs": [
+  2.0,
+  3.0,
+  4.0,
+  4.5,
+  5.0
+ ],
+ "graviton_product_starts_at_n": 2,
+ "item5_residues": [
+  "the cusp continuous spectrum (B739/B8101's phi(s)) -- cc's narrowing names this one",
+  "Ray-Singer analytic torsion is NOT the graviton determinant; B8112 identified the RUELLE FACTORS by definition and explicitly did not claim the torsion-to-determinant step",
+  "NEW, located by B8112 and measured here: the n=2 factor lies outside Pfaff's stated abscissa of absolute convergence, so the geodesic product is at best conditionally convergent and its value is summation-order dependent"
+ ],
+ "pfaff_is_required_for_the_assembly": false,
+ "rows": [
+  {
+   "S2": 0.43466819828950704,
+   "S3": 0.11525186975114826,
+   "cutoff": 2.0,
+   "dS2": null,
+   "dS3": null,
+   "ngeo": 8
+  },
+  {
+   "S2": 0.599078771345919,
+   "S3": 0.1291033428926629,
+   "cutoff": 3.0,
+   "dS2": 0.164410573056412,
+   "dS3": 0.013851473141514636,
+   "ngeo": 37
+  },
+  {
+   "S2": 0.7465687254410815,
+   "S3": 0.13374381225689502,
+   "cutoff": 4.0,
+   "dS2": 0.14748995409516252,
+   "dS3": 0.004640469364232125,
+   "ngeo": 229
+  },
+  {
+   "S2": 0.796785183698611,
+   "S3": 0.13442850542399998,
+   "cutoff": 4.5,
+   "dS2": 0.050216458257529406,
+   "dS3": 0.000684693167104955,
+   "ngeo": 509
+  },
+  {
+   "S2": 0.8472278276028169,
+   "S3": 0.13486731067283528,
+   "cutoff": 5.0,
+   "dS2": 0.05044264390420594,
+   "dS3": 0.00043880524883530003,
+   "ngeo": 1221
+  }
+ ],
+ "scope": "The complex length spectrum of m004, cutoffs 2.0-5.0. Measures increments of two Dirichlet-type sums; does NOT prove divergence, and says nothing about whether the conditionally-convergent limit exists. Gate 5 untouched.",
+ "verdict": "ITEM 5 HAS THREE RESIDUES, NOT ONE. cc's proposed narrowing names the cusp continuum and omits two: the torsion-to-determinant identification, which B8112 explicitly did not claim, and -- newly located by B8112 and measured here -- the n=2 factor's position OUTSIDE Pfaff's abscissa of absolute convergence Re(s) > 2. S(3) increments decay monotonically and more than halve; S(2) increments are FLAT to 0.5% over the same steps and are >100x larger. So B8112 did not only narrow item 5: it located a new difficulty inside it. A scoping point cutting the OTHER way: Pfaff's theorem is NOT a required ingredient for the assembly -- the geodesic product comes directly from the spectrum (B8100) -- so item 5 is not blocked on Pfaff at all. NOTHING HERE PROVES DIVERGENCE: the phases e^{2 i theta} can cancel, so the n=2 factor is at best CONDITIONALLY convergent and its value is summation-order dependent -- B8100's cutoff-ordered partial products are ONE order. Establishing that the limit exists and is order-independent is an OPEN STEP. The load-bearing fact is the THEOREM's abscissa; these increments are consistent with it and are not offered as a substitute for it."
+}
