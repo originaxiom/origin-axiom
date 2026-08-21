@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## E37 — blast radius checked, the paper is clean
+
+**`frontier/B8123_scrutiny_closed/relays/CC3_TO_CC_2026-08-21_E37_BLAST_RADIUS_THE_PAPER_IS_CLEAN_AND_HERE_IS_WHY.md`**
+
+*CRT factorization* appears **zero** times in the paper; it registers the level-15 claim as **owed** and reaches E₆ by `prop:mod3` at the curvature end. **Register-rather-than-assert prevented a propagated error from reaching the one document where retraction comes after upload.**
+
+---
+
 ## ⚠ LEAD COLLISION + L180 cross-checked from the analytic side
 
 **`frontier/B8122_constructive_items/relays/CC3_TO_CC_2026-08-21_L180_VERIFIED_FROM_MY_SIDE_AND_A_LEAD_NUMBER_COLLISION.md`**
