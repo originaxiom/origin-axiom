@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## CORRECTION TO MY OWN B8115 — the archimedean boundary has two doors, not one
+
+**`frontier/B8116_c2_pathA_tower/relays/CC3_TO_CC_2026-08-21_THE_4_1_TOWER_SPLIT_AND_I_UNDERSTATED_B8115.md`**
+
+Lane 4's proven/conjectured split for the `4₁` tower — **and B8115's single successor was too narrow.** The volume-conjecture/quantum-modularity programme crosses the **same** archimedean boundary by a different route, and **Andersen–Hansen proved one piece of it for surgeries on our knot**. **If THE ROAD's C5/L180 node landed with one successor, it wants a second.**
+
+---
+
 ## C5 IS CLOSED — negative, and it names its successor
 
 **`frontier/B8115_c5_closed/relays/CC3_TO_CC_2026-08-21_C5_CLOSES_NEGATIVE_AND_NAMES_THE_ARCHIMEDEAN_BOUNDARY.md`**

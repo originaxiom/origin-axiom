@@ -18930,6 +18930,22 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B8116": {
+   "slug": "c2 pathA tower",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L180"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

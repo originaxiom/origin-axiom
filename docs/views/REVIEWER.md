@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1016** |
-| words of findings prose | **687,485** |
-| test lock files referenced | **607** |
-| arcs carrying an authored verdict | **1003** (98.7 %) |
+| research arcs with findings | **1017** |
+| words of findings prose | **688,002** |
+| test lock files referenced | **608** |
+| arcs carrying an authored verdict | **1004** (98.7 %) |
 | recorded closures | **756** (589 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 667 |
+| PROVED | 668 |
 | NEGATIVE | 290 |
 | OPEN | 33 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8114`** (1217 words, 1 locks)  
-FIVE VERIFIED DIFFERENTIATORS FOR THE PAPER, AND C5 IS ONE FETCH AWAY RATHER THAN FENCED. Every citation was fetched or searched this date, not recalled. THE SHARPEST FINDING IS THE FIRST: Distler-Garibaldi's Theorem 1.3 rules out any ToE subgroup in complex E8 or any real form, and the obstruction (ToE3) IS CHIRALITY -- the centralizer of any admissible SL(2,C) forces a self-conjugate structure. THAT IS THE PROPERTY THIS PROGRAMME INDEPENDENTLY BANKS AS A NEGATIVE (B713/B760 the object does not supply chirality; B1028 prices it as a declared input), so the most-cited refutation in this neighbourhood kills a hypothesis we decline to assume -- and it does not even apply, since we never embed the gravitational SL(2,C) in the internal algebra and land on E6 rather than E8. AND C5 IS RE-TYPED: not literature-empty (Lee-Park arXiv:1905.13610 treats real places), not decidable-here (whether it carries a volume/regulator term needs the full text), not needs-specialist (it is a paper to read). NEEDS-READING, one fetch away. A literature pass, dated 2026-08-21. Every claim about an external paper is sourced to an arXiv number fetched or searched today; none is recalled. Says nothing about our own mathematics and computes nothing. Gate 5 untouched: no measured value appears, and the differentiators are NON-claims by construction.  
-`B8114_related_work_armor/FINDINGS.md`
+**PROVED — `B8116`** (517 words, 1 locks)  
+THE 4_1 TOWER IS PARTIALLY PROVED AND THE HONEST SPLIT IS NARROW -- AND THIS LANE CORRECTS B8115'S OWN FRAMING. PROVEN (Andersen-Hansen, JKTR 15 (2006) 479-548, for RATIONAL SURGERIES on the figure-8 knot): phase-function values at the relevant stationary points equal classical Chern-Simons invariants; a surjection exists from stationary points onto conjugacy classes of nonabelian SL(2,C)-representations of pi_1; the invariants are expressible as complex double contour integrals. NOT PROVEN there: the leading-asymptotics formula is PROPOSED, and the Asymptotic Expansion Conjecture is AGREED WITH rather than established. GAROUFALIDIS-ZAGIER: the Quantum Modularity Conjecture predicts an arithmetically interesting formal power series in the Kashaev asymptotics at each root of unity; 4_1 is Zagier's headline example, and of the empirically-observed statements SOME ARE NOW PROVED AND OTHERS REMAIN CONJECTURAL -- partially open, not settled. SCOPE FENCE: Andersen-Hansen treats SURGERIES, i.e. CLOSED manifolds, while our object is the CUSPED COMPLEMENT; adjacent, not identical, and nothing transfers without an argument not made here. READING DEPTH DECLARED: summary-level, not theorem-level -- B8102's lesson cuts both ways, and claiming theorem precision from summaries would be the same error inverted. AND THE CORRECTION TO MY OWN B8115: it named the archimedean place as the boundary and registered ONE successor, L180 Arakelov. That successor set was TOO NARROW. The volume-conjecture / AEC / quantum-modularity programme is a SECOND independent body of work whose whole business is relating root-of-unity data -- finite and arithmetic -- to VOLUME and CHERN-SIMONS invariants, which are archimedean and analytic; it crosses the same boundary by a different route, and Andersen-Hansen PROVED one piece of that crossing for surgeries on our very knot. THE ARCHIMEDEAN BOUNDARY HAS AT LEAST TWO CANDIDATE DOORS, NOT ONE. A concrete question falls out and is deliberately NOT answered here: our CS is zero exactly, so what Andersen-Hansen's proved equality degenerates to when the CS invariant vanishes is askable -- but the manifolds differ and it needs the full text. A literature pass dated 2026-08-21 at SUMMARY level, declared. Reports a PROVEN/CONJECTURED split as the sources state it and corrects B8115's successor set. Computes nothing and transfers nothing to our object. Gate 5 untouched.  
+`B8116_c2_pathA_tower/FINDINGS.md`
 
 **NEGATIVE — `B8115`** (514 words, 1 locks)  
 C5 CLOSES AS A NEGATIVE, AND THE NEGATIVE NAMES ITS OWN BOUNDARY. B8114 re-typed C5 NEEDS-READING and said the fetch had not been made; it has now been made. Lee-Park arXiv:1905.13610 handles real places by ETALE COHOMOLOGY WITH COMPACT SUPPORT, and the arithmetic Chern-Simons action is valued in mu_n(F)^D = (1/n)Z/Z, a FINITE CYCLIC GROUP. There is no volume, regulator, analytic torsion, archimedean height or Laplacian determinant anywhere in the theory -- absent by construction, not by omission. B1088's sharpened question therefore has a clean answer: the arithmetic-CS route supplies exactly the term the object has proved to be ZERO (CS = 0 by amphichirality, B1012) and lacks entirely the term the object actually carries (the volume). THE BOUNDARY THE NEGATIVE NAMES IS THE ARCHIMEDEAN PLACE, and the successor axis is nameable: in ARAKELOV geometry an analytic torsion IS the standard archimedean ingredient, via the Quillen metric in Gillet-Soule's arithmetic Riemann-Roch. REGISTERED AS L180 AND UNPROVED, with the near-identification named: Arakelov's torsion is HOLOMORPHIC, on compact Hermitian manifolds; ours is REAL Ray-Singer on a non-compact cusped hyperbolic 3-manifold. Cousins, not the same object. REGISTERED UNPROVED, and the near-identification is named so it cannot be smuggled: Arakelov's is HOLOMORPHIC (Quillen/Ray-Singer complex) torsion of Hermitian holomorphic bundles on compact Hermitian manifolds. Pfaff's -- and B8112's computed ratio -- is REAL Ray-Singer torsion on a NON-COMPACT hyperbolic 3-manifold with a cusp. Those are cousins, not the same object, and the corpus has been burned by exactly this shape before (B8087: an isomorphism check is not a representation check). Whether they connect is THE LEAD, not a claim. A literature reading dated 2026-08-21, full text via ar5iv for arXiv:1905.13610. States what the arithmetic-CS action's TARGET is and what machinery builds it. Computes nothing, and makes no claim about Arakelov theory beyond registering a lead. Gate 5 untouched.  

@@ -2007,3 +2007,11 @@ The re-typing in B8114 said the fetch had not been made. **It was made the same 
 The C5 negative names the **archimedean place** as the boundary. In **Arakelov** geometry an analytic torsion **is** a standard archimedean ingredient: Gillet–Soulé's arithmetic Riemann–Roch computes the Arakelov degree of the determinant of cohomology with the **Quillen metric**, built from **Ray–Singer analytic torsion** via regularised Laplacian determinants. **That is the slot C5 went looking for.**
 
 **The falsifier, and the reason this is ranked as a lead rather than a result.** Arakelov's torsion is **HOLOMORPHIC** — Hermitian holomorphic bundles on **compact** Hermitian manifolds. B8112's computed ratio is **REAL** Ray–Singer torsion on a **non-compact cusped** hyperbolic 3-manifold. **If those cannot be bridged, L180 is dead and the archimedean boundary stands as a wall rather than a door** — which is itself the finding. **Nothing here is claimed; B8087's lesson (an isomorphism check is not a representation check) is the standing warning.**
+
+## L180 — WIDENED 2026-08-21 (B8116): the archimedean boundary has TWO candidate doors
+
+**L180 was registered with one successor (Arakelov). That was too narrow, and the correction is same-day and self-inflicted.** The **volume-conjecture / AEC / quantum-modularity** programme is a second, independent body of work relating **root-of-unity data** — finite, arithmetic — to **volume and Chern–Simons invariants**, which are archimedean and analytic. **Andersen–Hansen (JKTR 15 (2006) 479–548) PROVED one piece of that crossing for rational surgeries on the figure-8 knot:** stationary-phase values equal classical CS invariants.
+
+**Fence, and it is why this is a lead and not a result:** those are **surgeries — closed manifolds** — while our object is the **cusped complement**. Adjacent, not identical.
+
+**The askable question, registered unanswered:** our CS is **zero** exactly (B1012), and AH's proved statement equates stationary-phase values with classical CS invariants — **what does that equality degenerate to when the CS invariant vanishes?** Needs the full text and an argument bridging surgeries to the complement. **Neither has been done.**

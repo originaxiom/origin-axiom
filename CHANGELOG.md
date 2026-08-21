@@ -1,5 +1,9 @@
 # Changelog
 
+## B8116 — the 4₁ tower split, and B8115's successor set widened (2026-08-21)
+
+**PROVEN** (Andersen–Hansen, JKTR 15 (2006) 479–548, rational surgeries): stationary-phase values **equal classical CS invariants**; surjection onto nonabelian `SL(2,ℂ)` classes. **NOT proven:** leading asymptotics proposed; AEC agreed with, not established. **GZ partially open.** Fence: surgeries are closed, our object is the cusped complement. **Reading depth declared summary-level.** **And it corrects B8115 same-day:** the archimedean boundary has **at least two candidate doors**, not one.
+
 ## B8115 — C5 closes NEGATIVE, and names the archimedean boundary (2026-08-21)
 
 The B8114 fetch, made same-day. Lee–Park `arXiv:1905.13610` handles real places by **compact-support étale cohomology**; the arithmetic-CS action is valued in **`(1/n)ℤ/ℤ`** — **no volume, regulator, torsion or Laplacian determinant anywhere, absent by construction**. So the route supplies exactly the term the object proved to be zero (CS = 0) and lacks the volume entirely. **Boundary named: the archimedean place.** Successor **L180 — Arakelov**, registered **unproved**, with holomorphic-vs-real Ray–Singer torsion named as the hazard.
