@@ -10937,3 +10937,11 @@ first day. Silver never closes; the law is the golden's own. And the
 wall got measured for its own rhetoric: four theorems, one
 conclusion, the equivalences honestly open — stronger for saying it
 plainly.
+
+2026-08-21 (THE ROAD). The map the owner asked for exists, and it
+could only exist today: every node either done, priced, or pointed
+at. Its deepest row is the freedom ledger — the theory equals the
+forced part plus the priced choices plus the named suppliers — and
+its most honest state is PROVEN-FREE, which this program reaches the
+way other programs reach theorems. Ten opens, all typed. The road is
+not a promise; it is an inventory.

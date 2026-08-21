@@ -1,5 +1,23 @@
 # Changelog
 
+## THE ROAD lands (2026-08-21) — the owner-directed living map: every node banked, named-open, or proven-free
+
+docs/THE_ROAD.md: ten sections seed→laboratory; five node states with
+[PROVEN-FREE] as a TERMINAL state (the program's characteristic
+answer: the choice exists, the chooser provably does not — the 4d
+suspension AND filling routes, the scale, the torsor basepoint); THE
+FREEDOM LEDGER as the deepest row (the full theory in the proven
+sense = everything banked + the priced free list + the named external
+suppliers: the observer, the substrate, chirality itself). Current
+census: TEN genuine open nodes (one carrying three residues), two
+minor, none unpriced, none untyped. Node VI carries the audit seat's
+B8113 correction HELD BEFORE LANDING (three one-loop residues, not
+one: the cusp spectrum; the torsion-to-determinant step B8112
+explicitly declined; the n=2 abscissa difficulty their identity
+LOCATED). 27 main-band arc citations, all resolving (locked). The
+lock itself carries B8109's hard-wrap lesson (flat-matched phrase
+asserts — the pattern-cannot-cross-a-wrap false zero hit this bench
+too, caught by the failing lock before commit).
 ## THE EDGE SEAL + THE WALL'S SCOPE AUDIT (2026-08-21) — the first outward-facing falsifier is sealed; "one fact" corrected to "one conclusion"; L178 registered
 
 B1106 THE EDGE SEAL: docs/EDGE_PREREG_SPEC.md SEALED (digest in
