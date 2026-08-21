@@ -31,7 +31,7 @@ Furey's thesis 'Standard model physics from an algebra?' (arXiv:1611.09182) deri
 
 Chamseddine-Connes-Marcolli, 'Gravity and the standard model with neutrino mixing' (arXiv:hep-th/0610241; Adv. Theor. Math. Phys. 11 (2007) 991-1089), build an almost-commutative spectral triple whose SPECTRAL ACTION reproduces the Standard Model Lagrangian minimally coupled to gravity, with unification carried by the symplectic unitary group in Hilbert space.
 
-> **What we do NOT claim that they did.** We produce NO action functional whose asymptotic expansion yields a Lagrangian, and NO prediction of any coupling, mass or mixing angle. Gate 5 forbids any measured value entering a claim, and Tier 2 -- one sealed dimensionless ratio -- is explicitly NOT DONE with no live candidate. Where they predict numbers, we state a structural result and price the inputs.
+> **What we do NOT claim that they did.** We produce NO action functional whose asymptotic expansion yields a Lagrangian, and NO prediction of any coupling, mass or mixing angle. Gate 5 forbids any measured value entering a claim. On the bar itself we now speak main's current grammar: the single-ratio Tier-2 bar is RETIRED -- docs/WHAT_WOULD_COUNT.md section 4A (2026-08-20), CLOSED BY THEOREM (B666, B936, B1096) and by a seven-for-seven exhaustion, EXPLICITLY NOT BY LOWERED AMBITION -- and is replaced by three floors: Tier-STRUCTURE (substantially passing), Tier-INTERFACE (a differential-shaped instrument-facing prediction; B1095's cross-hand split is the standing example), and Tier-VALUE-COMPRESSION (do the measured values compress to the interface's own fixed parameter count -- one leg tested negative, three successor doors open). Where Connes et al. predict numbers, we state a structural result, price the inputs, and hold NO passing Tier-VALUE-COMPRESSION result.
 
 ## 4. Arithmetic topology and arithmetic Chern-Simons theory
 
@@ -84,3 +84,15 @@ find**.
 ## Artifacts
 
 `results.json` · `tests/test_b8114_related_work_armor.py`
+
+---
+
+## AMENDMENT 2026-08-21 — tier grammar, and one divergence from cc's shorthand
+
+cc's pre-submission sync note asked for the Connes row to speak main's current tier grammar. **Done** — but **not in cc's words.**
+
+cc wrote that the old one-ratio tier *"was vacuous against the scale-torsor theorems."* **`THE_FRAMEWORK.md` says something different**, and it is what I have adopted: *"retires the single-ratio Tier-2 bar … **closed by theorem** (B666, B936, B1096) plus this layer's own seven-for-seven exhaustion, **not by lowered ambition**."*
+
+> **The distinction is load-bearing in front of a referee.** *"Vacuous"* implies the bar was ill-formed or unmeetable — which invites exactly the reading that **the goalposts moved**. *"Closed by theorem, not by lowered ambition"* says it was **answered, negatively, by proof**.
+
+**And the mechanism would be misdescribed too:** the scale-torsor theorem does **not** forbid ratios — its own exemption clause reads *"Dimensionless ratios, phases, mixing parameters, counting: untouched by this theorem"* — so *"vacuous against the scale-torsor theorems"* names the wrong theorem for the closure. **Substance unchanged; wording is the corpus's own.**

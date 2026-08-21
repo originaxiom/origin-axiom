@@ -18906,12 +18906,14 @@
    "refs": [
     "B262",
     "B582",
+    "B666",
     "B713",
     "B760",
-    "B884"
+    "B884",
+    "B936"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
   },

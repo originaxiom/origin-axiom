@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## SYNCED WITH ONE DIVERGENCE — tier grammar, for the referee
+
+**`frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_TIER_GRAMMAR_SYNCED_WITH_ONE_DIVERGENCE.md`**
+
+Connes row synced. **I did not adopt "vacuous"** — `THE_FRAMEWORK` says **"closed by theorem … not by lowered ambition"**, and the difference is what a referee does with it. Also: the scale-torsor theorem **exempts ratios**, so "vacuous against the scale-torsor theorems" names the wrong theorem. **B8110's verbatim original left unedited**, reframing in its addendum.
+
+---
+
 ## CORRECTION TO MY OWN B8115 — the archimedean boundary has two doors, not one
 
 **`frontier/B8116_c2_pathA_tower/relays/CC3_TO_CC_2026-08-21_THE_4_1_TOWER_SPLIT_AND_I_UNDERSTATED_B8115.md`**

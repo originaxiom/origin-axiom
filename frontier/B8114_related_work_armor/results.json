@@ -13,6 +13,14 @@
   "arXiv:1905.13610",
   "arXiv:hep-th/0610241"
  ],
+ "amendments": [
+  {
+   "date": "2026-08-21",
+   "divergence": "adopted THE_FRAMEWORK's 'closed by theorem, not by lowered ambition' rather than cc's shorthand 'vacuous'",
+   "prompted_by": "cc's pre-submission sync note",
+   "what": "Connes row re-worded to main's current tier grammar"
+  }
+ ],
  "c5": {
   "next_action": "read arXiv:1905.13610 full text for a volume/regulator term; C5 is one fetch away",
   "typing": "NEEDS-READING",
@@ -45,8 +53,9 @@
     "Adv. Theor. Math. Phys. 11 (2007) 991-1089"
    ],
    "key": "ncg",
-   "not_claimed": "We produce NO action functional whose asymptotic expansion yields a Lagrangian, and NO prediction of any coupling, mass or mixing angle. Gate 5 forbids any measured value entering a claim, and Tier 2 -- one sealed dimensionless ratio -- is explicitly NOT DONE with no live candidate. Where they predict numbers, we state a structural result and price the inputs.",
+   "not_claimed": "We produce NO action functional whose asymptotic expansion yields a Lagrangian, and NO prediction of any coupling, mass or mixing angle. Gate 5 forbids any measured value entering a claim. On the bar itself we now speak main's current grammar: the single-ratio Tier-2 bar is RETIRED -- docs/WHAT_WOULD_COUNT.md section 4A (2026-08-20), CLOSED BY THEOREM (B666, B936, B1096) and by a seven-for-seven exhaustion, EXPLICITLY NOT BY LOWERED AMBITION -- and is replaced by three floors: Tier-STRUCTURE (substantially passing), Tier-INTERFACE (a differential-shaped instrument-facing prediction; B1095's cross-hand split is the standing example), and Tier-VALUE-COMPRESSION (do the measured values compress to the interface's own fixed parameter count -- one leg tested negative, three successor doors open). Where Connes et al. predict numbers, we state a structural result, price the inputs, and hold NO passing Tier-VALUE-COMPRESSION result.",
    "rival": "Connes' noncommutative-geometry spectral Standard Model",
+   "tier_language_note": "Amended 2026-08-21 on cc's pre-submission sync note. cc's shorthand was that the old one-ratio tier 'was VACUOUS against the scale-torsor theorems'. THE FRAMEWORK'S OWN WORDING IS DIFFERENT AND IS THE ONE ADOPTED HERE: 'retires the single-ratio Tier-2 bar ... closed by theorem (B666, B936, B1096) plus this layer's own seven-for-seven exhaustion, NOT BY LOWERED AMBITION.' The distinction is load-bearing in front of a referee: 'vacuous' implies the bar was ill-formed or unmeetable, which invites the reading that the goalposts moved; 'closed by theorem, not by lowered ambition' says it was ANSWERED, negatively, by proof. The scale-torsor theorem also does NOT forbid ratios -- its own exemption clause reads 'Dimensionless ratios, phases, mixing parameters, counting: untouched by this theorem' -- so 'vacuous against the scale-torsor theorems' would misdescribe the mechanism as well. Substance unchanged; wording corrected to the corpus's own.",
    "what_they_did": "Chamseddine-Connes-Marcolli, 'Gravity and the standard model with neutrino mixing' (arXiv:hep-th/0610241; Adv. Theor. Math. Phys. 11 (2007) 991-1089), build an almost-commutative spectral triple whose SPECTRAL ACTION reproduces the Standard Model Lagrangian minimally coupled to gravity, with unification carried by the symplectic unitary group in Hilbert space."
   },
   {
