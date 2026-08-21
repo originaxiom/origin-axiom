@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1008** |
-| words of findings prose | **684,544** |
-| test lock files referenced | **618** |
-| arcs carrying an authored verdict | **995** (98.7 %) |
+| research arcs with findings | **1010** |
+| words of findings prose | **685,732** |
+| test lock files referenced | **619** |
+| arcs carrying an authored verdict | **997** (98.7 %) |
 | recorded closures | **759** (592 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 665 |
+| PROVED | 667 |
 | NEGATIVE | 286 |
 | OPEN | 34 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1104`** (702 words, 1 locks)  
-THE 4D SUSPENSION SELECTION TEST (L177, owner-elected, prereg-sealed): over the COMPLETE finite menu MCG(m004) = Isom = D4 (Mostow CITED; 8 elements, table-exact), C1 FAIL informatively -- no infinite-order element exists, the genesis act (Anosov suspension) CANNOT repeat at 4d via mapping tori (non-vacuous: a torus fiber would pass; retro-types B556's escalator as a trace-map tower); C2 NO-SECTION -- the theta-filter (centrality) selects exactly the cusp-silent central involution while the tick-filter (orientation-reversing involutions, B1083's det=-1 pattern) selects exactly the two reflections, JOINT SURVIVOR SET EMPTY: no canonical fourth dimension, Class V torsor-no-sections acquires its 4d instance with an empty-intersection witness ('the dimension we lack is the choice we are', computed); C3 PASS -- both reflections give non-orientable M_psi with orientation double cover M x S^1 (the Gieseking one-tick/double-tick pattern verbatim one level up, H1 = Z^2 each); instrument fact recorded: the cusp action is NOT faithful (kernel Z/2 = the central involution; image abelian Z/2 x Z/2) -- the abstract table was used with the element-to-matrix map self-certified as a homomorphism; the FILLING route (B716) untouched and now the pattern's second independent 4d no-section instance; no physics claim; Gate 5 untouched.  
-`B1104_fourd_suspension/FINDINGS.md`
+**PROVED — `B1106`** (487 words, 1 locks)  
+THE EDGE SEAL (L173 SEALED; owner D-2/D-3 executed): docs/EDGE_PREREG_SPEC.md sealed with its digest in SEAL_LEDGER (entered by command substitution; seal-digests gate 17/17 at the seal) -- differential-first (Sec.0 concedes gap labeling + bulk-boundary content incl. the raw counts; the prediction is ONLY the cross-hand structure: exact two-hand isospectrality at even-Fibonacci windows, parity-limited complementary localization, odd-index breakage; three kill conditions; NEGATIVE banks if any fires) -- AND the genericity control RUN BEFORE THE SEAL with a bite-controlled instrument (two of this bench's own attempts failed the positive control first -- wrong cut phase, wrong comparison pair -- caught by the discipline adopted from the audit seat's B8109 the same day): golden reproduces the banked law exactly and extends it to seven windows (closed at even index 377/987/2584, broken at [0,1] at odd 233/610/1597/4181); the STRICT silver analog (1/silver^2, same convention) NEVER CLOSES across seven Pell windows to N=5741 (breaks alternate cut-adjacent and CENTER [N/2] -- the center-break structure typed OPEN-minor); the mirroring cousin parametrization (1 - 1/silver) DISCLOSED and the convention PINNED (1/metallic^2 family at rho = alpha); the tone lane is L178 under the audit seat's B8111 control (2-of-5 discriminating tones; 0.1019 resolution floor), separate seal; placeholder R6 declared/dated/amendable-by-addendum; Gate 5 untouched.  
+`B1106_edge_seal/FINDINGS.md`
 
 **NEGATIVE — `B1096`** (328 words, 1 locks)  
 DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically -- U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), SU(2)-Witten, AND (B-L)^3 and (B-L)-grav, where the imported 15 gives -1/-1: nu^c, the field the object derives, is EXACTLY what cancels the last non-vanishing invariant; the Z6 congruence 6Y = 4 triality + 3 duality (mod 6) is the UNIQUE solution (exhaustion over 36); a layer that vanishes identically cannot supply a ratio -- the ask is structurally unanswerable (B990's shape), the object's matter too anomaly-free to say anything: completeness of content and emptiness of layer are the same fact; joins B1092 (the same derived nu^c: anomaly-complete AND purity-conditioned).  

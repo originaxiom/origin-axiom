@@ -10928,3 +10928,12 @@ repeats is the refusal. R48 closed across the channel the same hour:
 four findings, two instrument failures caught by their own controls,
 and the lesson both benches now share — a negative is worth exactly
 its positive control.
+
+2026-08-21 (B1105 + B1106; the seal and the humility, one bank). The
+program's first killable claim went under seal with its control
+already run — and the control's instrument had to fail twice before
+it was allowed to speak, which is the new discipline working on its
+first day. Silver never closes; the law is the golden's own. And the
+wall got measured for its own rhetoric: four theorems, one
+conclusion, the equivalences honestly open — stronger for saying it
+plainly.

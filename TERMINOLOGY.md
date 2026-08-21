@@ -460,7 +460,11 @@ sense.
 
 - **THE LOCATION THEOREM (the four-language wall; B1083/B1084/B1086/B1087)** — the theorem that no CLOSED
   assembly of the object (a twisted double, a compactified 3-manifold) can be **chiral in
-  matter counts**, proved independently in four registers shown to be one fact: **PD-pairing**
+  matter counts**, proved independently in four registers whose conclusions converge on one
+  statement *(scope correction 2026-08-21, B1105: the four domains are pairwise different and no
+  banked result derives one register from another — FOUR INDEPENDENT THEOREMS, ONE CONCLUSION;
+  the cross-register equivalences are named opens, and independence makes the convergence
+  STRONGER as evidence, not weaker)*: **PD-pairing**
   (topology — Poincaré duality forces `h¹(D;27) = h¹(D;27̄)` in every twisted-double cell,
   B1086, the spectrum law); **AW non-isolation** (M-theory/G₂ — on the object's flat G₂
   cone every ADE-enhancement collision is non-isolated, so localized matter is vector-like,

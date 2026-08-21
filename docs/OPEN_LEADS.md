@@ -1872,7 +1872,7 @@ prereg (CROSSING_REQUIREMENTS R1–R11 + the twelve as rows; the location clause
 |---|---|---|---|
 | **L171 — the CLPW crossed-product bridge** | B721's banked negative (the object+observer algebra is tracial type II₁, trivial modular flow, thermal time fails on the identity) may be the FINGERPRINT of an observer-included algebra: Chandrasekaran–Longo–Penington–Witten (2022–23) show the observer crossed product converts de Sitter's type III to type II — II₁ for the static patch, with the tracial state as the maximum-entropy equilibrium. The bridge arc maps our observer-coupling algebra onto the CLPW construction. **MATCH/MOOD typed IN ADVANCE (the trap: hyperfinite II₁ is unique, so a coarse structural match is near-vacuous): MATCH requires a non-generic contact — what our crossed product is over, where B1040's machinery lands on their observer clock; anything less is MOOD and banks as consistent-not-distinctive.** WebFetch arXiv 2206.10780 + successors. | The typed MATCH criteria either exhibit or fail; either banks. | ★★★ (cheap; publishable contact surface if MATCH) |
 | **L172 — the golden-gate dictionary** | The figure-eight braid as the golden gate: verify Jones(4₁; e^{2πi/5}) = 1−√5 in-sandbox; then type the torsor→device dictionary — which gates and which asymmetries a Fibonacci-anyon device can natively realize (forced vs free as universality/magic-state statements). Ties to the banked κ-quasicrystal bridge and the golden TQFT family. | The Jones value is exact; each dictionary row is a theorem-or-counterexample. | ★★ (cheap first arc) |
-| **L173 — the edge-prediction prereg SPEC** *(DISCIPLINE ADDED 2026-08-20, the audit seat's warning adopted + B1095's computation: the prereg's FIRST paragraph must state what gap labeling + bulk–boundary already force for the same configuration and where we differ, BEFORE any comparison — B724 transposed to the experimental lane; the differential's computed content: the cross-hand mirror-isospectral split, not the counts)* | B1085's ρ-scan as a preregistered laboratory prediction for photonic/polariton Fibonacci chains (topological pumping scans the cut phase ρ directly): the prediction is the FUNCTION ρ ↦ edge content, gap-labeled (IDS values in the Fibonacci gaps), two hands = the two sides of one cut. SPEC ONLY until the aperiodic design's owner-pending unseal resolves whether this and the trace-map-RG channel (Kohmoto exact RG; critical exponents menu-shaped, kind-correct) are the same crossing. | Each (ρ, gap) cell predicts a definite edge count/energy; a chain measurement decides it. | ★★★★ (the laboratory road; GATED on the owner's aperiodic unseal for the seal step) |
+| **L173 — the edge-prediction prereg SPEC** **SEALED 2026-08-21 (B1106; docs/EDGE_PREREG_SPEC.md; digest in SEAL_LEDGER; C-GEN run+passed pre-seal; the owner's D-2/D-3 executed — the aperiodic unseal RESOLVED: two crossings, one apparatus; the tone lane is L178).** *(DISCIPLINE ADDED 2026-08-20, the audit seat's warning adopted + B1095's computation: the prereg's FIRST paragraph must state what gap labeling + bulk–boundary already force for the same configuration and where we differ, BEFORE any comparison — B724 transposed to the experimental lane; the differential's computed content: the cross-hand mirror-isospectral split, not the counts)* | B1085's ρ-scan as a preregistered laboratory prediction for photonic/polariton Fibonacci chains (topological pumping scans the cut phase ρ directly): the prediction is the FUNCTION ρ ↦ edge content, gap-labeled (IDS values in the Fibonacci gaps), two hands = the two sides of one cut. SPEC ONLY until the aperiodic design's owner-pending unseal resolves whether this and the trace-map-RG channel (Kohmoto exact RG; critical exponents menu-shaped, kind-correct) are the same crossing. | Each (ρ, gap) cell predicts a definite edge count/energy; a chain measurement decides it. | ★★★★ (the laboratory road; GATED on the owner's aperiodic unseal for the seal step) |
 
 ## L174 — THE 3D COMPLETION CAMPAIGN (registered 2026-08-19 at the owner's election; full treatment and exploration)
 
@@ -1935,3 +1935,18 @@ typed: what supplies the 4d choice remains outside the object at level 4 exactly
 at every level below — no further computation on THIS route is owed; the question's
 next life is philosophical registration (the layer-up self-similarity now has two
 computed instances), not bench work. **CLOSED (B1104).**
+
+## L178 — the tone crossing (the scale-factorisation design's value lane; registered 2026-08-21, GATED)
+
+The five-tone menu as measured spectral invariants with the scale divided out (the
+audit seat's 2026-08-12 design, unsealed at the owner's D-1; the sitting's mechanism
+test split it from the edge lane — one apparatus, two crossings). **Bound by the
+B8111 repairs at registration:** any tone-level prediction must target **φ/2 or
+1/(2φ) ONLY** (the 2-of-5 golden-discriminating tones — {0, ½, 1} is McKay-common
+and worthless as a target), and any apparatus resolving worse than **0.1019**
+(= |φ/2 − √2/2|, sealed before it was known to matter) cannot distinguish golden
+from silver at all. **GATES, in order:** (1) tones-as-observables (the design's item
+2 — are the tones physical observables in any B8094-catalogued realization, or
+transfer-matrix ghosts? UNANSWERED, the crossing's own question); (2) the shared
+apparatus appendix (docs/EDGE_PREREG_SPEC.md §5) and BOTH controls bind here too.
+No seal until gate (1) resolves. ★★★★ (the value lane's only type-correct road).

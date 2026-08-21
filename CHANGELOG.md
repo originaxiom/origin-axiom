@@ -1,5 +1,35 @@
 # Changelog
 
+## THE EDGE SEAL + THE WALL'S SCOPE AUDIT (2026-08-21) — the first outward-facing falsifier is sealed; "one fact" corrected to "one conclusion"; L178 registered
+
+B1106 THE EDGE SEAL: docs/EDGE_PREREG_SPEC.md SEALED (digest in
+SEAL_LEDGER by command substitution; seal-digests 17/17) — the
+mirror-isospectral split as a laboratory falsifier, differential-first
+per L173's binding discipline (§0 concedes gap labeling +
+bulk–boundary content including the raw counts; the prediction is
+ONLY the cross-hand structure; three kill conditions; NEGATIVE banks
+if any fires). THE GENERICITY CONTROL RAN BEFORE THE SEAL,
+bite-controlled (two of this bench's own attempts failed the positive
+control first — wrong cut phase, wrong comparison pair — caught by
+the discipline adopted from the audit seat's B8109 the same day):
+golden reproduces the banked law exactly and extends it to seven
+windows; THE STRICT SILVER ANALOG NEVER CLOSES (seven Pell windows to
+N=5741; breaks alternate cut-adjacent and center — the center-break
+typed OPEN-minor); the mirroring cousin parametrization DISCLOSED and
+the convention PINNED. Owner rulings D-2/D-3 executed: the tone
+crossing is L178 (registered, GATED on tones-as-observables, bound by
+the audit seat's B8111 repairs — targets φ/2 and 1/(2φ) ONLY, the
+0.1019 resolution floor); placeholder R6 declared/amendable.
+B1105 THE WALL'S SCOPE AUDIT (#279, owner-prompted, the B959 lesson
+applied proactively): the four languages' exact quantifiers side by
+side — the domains are PAIRWISE DIFFERENT and no banked result
+derives one register from another; the doc-wave's "shown to be one
+fact" OVERSTATED and is corrected in place (dated) in TERMINOLOGY and
+THE_LADDER to FOUR INDEPENDENT THEOREMS, ONE CONCLUSION — an
+epistemic upgrade (independent convergence beats one proof in four
+costumes), the prize untouched; extension map typed per language;
+three cross-register equivalences registered as named opens. Locks
+14/14 incl. the corrections pinned and the overstatement dead.
 ## B1104 — THE 4D SUSPENSION SELECTION TEST (2026-08-21): NO SECTION — the object's own structures name different fourth dimensions + R48 CLOSES
 
 L177 (the owner's question at B1103's bank: "can the observer math

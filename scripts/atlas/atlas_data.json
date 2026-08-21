@@ -2240,6 +2240,42 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1105": {
+   "slug": "wall scope",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "quasicrystal",
+    "firewall"
+   ],
+   "refs": [
+    "B959",
+    "S034"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1106": {
+   "slug": "edge seal",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L173",
+    "L178"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B110": {
    "slug": "off locus sector",
    "motifs": [
