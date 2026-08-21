@@ -1,0 +1,91 @@
+{
+ "b787_func_eq_residual": 1.5779143916829534e-30,
+ "b787_phi_validated": true,
+ "b787_point": "self-dual b=1, hbar=2 pi, level k=1, PQ=1 (single residue)",
+ "b787_saddle_check": 3.944304526105059e-31,
+ "b8099_mentions_b787": 0,
+ "definition_complete": true,
+ "novelty_claimed": false,
+ "one_loop_assembled": false,
+ "one_loop_residues": [
+  "the cusp's CONTINUOUS spectrum -- B739/B8101's phi(s) is in hand; the spin-2 cusped test function is NOT",
+  "the step from Ray-Singer analytic torsion to the graviton determinant -- B8112 declined it",
+  "the n = 2 factor's convergence -- it sits AT the abscissa Re(s) = 2; conditionally convergent at best (B8113)"
+ ],
+ "parameter_free": true,
+ "rows": [
+  {
+   "b8099": "PRESENT",
+   "now": "PRESENT",
+   "row": "classical solution",
+   "why": "2 regular ideal tetrahedra, verified (B8099)"
+  },
+  {
+   "b8099": "PRESENT",
+   "now": "PRESENT",
+   "row": "cosmological constant",
+   "why": "Lambda = -1 exactly (B259)"
+  },
+  {
+   "b8099": "PRESENT",
+   "now": "PRESENT",
+   "row": "the action",
+   "why": "forced (B1012)"
+  },
+  {
+   "b8099": "PRESENT",
+   "now": "PRESENT",
+   "row": "boundary central charge",
+   "why": "c = 6 sigma, derived twice (B1012; Brown-Henneaux)"
+  },
+  {
+   "b8099": "PRESENT",
+   "now": "PRESENT",
+   "row": "complex CS action",
+   "why": "purely real, CS = 0 (B8099)"
+  },
+  {
+   "b8099": "PRESENT",
+   "now": "PRESENT",
+   "row": "the 3d-3d theory T[4_1]",
+   "why": "U(1) + 2 chirals (B262)"
+  },
+  {
+   "b8099": "PARTIAL",
+   "now": "PRESENT",
+   "row": "state integral",
+   "why": "B787/D5: closed residue evaluation at b=1, Phi_b validated. B8099 NEVER SEARCHED B787"
+  },
+  {
+   "b8099": "AMBIGUOUS",
+   "now": "RESOLVED",
+   "row": "matter spectrum",
+   "why": "B8118: it is T[4_1]'s 2 chirals; E6/27 is ARITHMETIC, not matter"
+  },
+  {
+   "b8099": "MISSING",
+   "now": "CLOSED NEGATIVE",
+   "row": "E6 as a DYNAMICAL gauge",
+   "why": "B8118 closes B262's wall #2"
+  },
+  {
+   "b8099": "MISSING",
+   "now": "DISSOLVED",
+   "row": "E6 state integral",
+   "why": "no dynamical E6 => no such object for this manifold"
+  },
+  {
+   "b8099": "MISSING",
+   "now": "OUT OF SCOPE",
+   "row": "the 4d lift",
+   "why": "owner elected 'finish rather than lift'; B8099 proved 3d-3d cannot reach 4d"
+  }
+ ],
+ "rows_still_open": [],
+ "saddle_volume": "2.029883212819307250042405108549040571883",
+ "scope": "Re-audits B8099's eleven rows against the corpus and recomputes the state integral's saddle independently. Does NOT re-derive T[4_1] or the state integral -- both are read from B262 and B787 and, for B787, re-run in-sandbox. Claims no novelty. Gate 5 untouched.",
+ "snappy_str_truncation_caught": "str() on a SnapPy.Number gives 11 digits and produced a FALSE FAIL at 1.9e-11; float() gives the full double. The computation was correct and the comparison was not -- a precision-truncating serialisation manufactures a negative rather than hiding one.",
+ "snappy_volume": "2.02988321281930694794937153346836566925",
+ "verdict": "THE 2+1 THEORY IS COMPLETE AS A DEFINITION AND IS PARAMETER-FREE, THE QUANTUM SIDE IS NOT, AND ONE ROW OF THE ORIGINAL AUDIT WAS NEVER SEARCHED. Re-auditing B8099's eleven rows after B8118: six were already PRESENT; the MATTER SPECTRUM is RESOLVED (B8118 -- it is T[4_1]'s 2 chirals, since E6 is arithmetic and not matter); E6 AS A DYNAMICAL GAUGE is CLOSED NEGATIVE (B262's wall #2); the E6 STATE INTEGRAL DISSOLVES (no dynamical E6, no such object); and the 4d LIFT is OUT OF SCOPE by the owner's own election plus B8099's proof that 3d-3d cannot reach 4d. THE UNSEARCHED ROW: B8099 marked the state integral PARTIAL, 'not a closed evaluation', and mentions B787 ZERO times -- yet B787's D5 cell computes the figure-eight state integral in the Andersen-Kashaev normalisation with Faddeev's quantum dilogarithm VALIDATED to 1.6e-30, at the self-dual point b=1 where the exact residue evaluation collapses to a SINGLE term, with the saddle matching Vol(4_1) to 3.9e-31. That is a closed evaluation, and the PARTIAL label was a WORKING_RULES section 0 violation by this seat. So no row is left PARTIAL, AMBIGUOUS or MISSING. THE THEORY IS PARAMETER-FREE IN A STRONG SENSE: the saddle recomputed here independently gives Vol = 2 Im Li_2(e^{i pi/3}) = 2.029883212819307, which equals (3 sqrt3/2) L(chi_-3, 2) -- an L-VALUE, not a fitted constant. NOVELTY IS NOT CLAIMED AND IS EXPLICITLY DISCLAIMED: DGG built T[4_1], Andersen-Kashaev built the state integral, and 2+1 gravity with negative Lambda is standard; what the corpus did is ASSEMBLE and VERIFY the combination for this manifold and remove an ambiguity of its own making. WHAT IS NOT FINISHED, STATED FIRST RATHER THAN LAST: the ONE-LOOP PARTITION FUNCTION is NOT assembled, with three named residues -- the cusp's continuous spectrum (phi(s) in hand, the spin-2 cusped test function not), the torsion-to-determinant step B8112 declined, and the n=2 factor's convergence at the abscissa (B8113). Those were never on B8099's checklist; they are a rung this seat added. The checklist measures the theory's DEFINITION; the residues are its QUANTUM EVALUATION, and that is where a genuinely new result would live.",
+ "vol_as_L_value": "2.029883212862608736737436710294273259884"
+}

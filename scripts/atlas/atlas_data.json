@@ -18982,6 +18982,28 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B8119": {
+   "slug": "3d closure",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B259",
+    "B262",
+    "B269",
+    "B739",
+    "B787"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B811": {
    "slug": "hint promotion gate",
    "motifs": [

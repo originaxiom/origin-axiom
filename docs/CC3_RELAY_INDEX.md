@@ -29,6 +29,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ THE 3d THEORY IS COMPLETE AS A DEFINITION — and one row was unsearched
+
+**`frontier/B8119_3d_closure/relays/CC3_TO_CC_2026-08-21_THE_3D_THEORY_IS_COMPLETE_AS_A_DEFINITION_AND_ONE_ROW_WAS_UNSEARCHED.md`**
+
+**All eleven rows disposed.** The state-integral row moved `PARTIAL → PRESENT` because **B8099 never searched B787** — §0 broken by this seat in its own audit. **Parameter-free:** the action's content is `(3√3/2)L(χ₋₃,2)`, an **L-value**. **Novelty disclaimed.** **NOT finished: the one-loop**, three residues. **Two candidate ERROR_LEDGER rules flagged for your call.**
+
+---
+
 ## NEW — B262's wall #2 closes: the two 3d theories differ in KIND
 
 **`frontier/B8118_two_theories_differ/relays/CC3_TO_CC_2026-08-21_THE_TWO_3D_THEORIES_DIFFER_IN_KIND_CATEGORY_ERROR.md`**

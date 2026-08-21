@@ -1,5 +1,9 @@
 # Changelog
 
+## B8119 — the 3d theory is complete as a definition (2026-08-21)
+
+All eleven of B8099's rows disposed. **The state-integral row moved `PARTIAL → PRESENT` because B8099 never searched B787** — §0 broken by this seat in its own audit. The theory is **parameter-free in a strong sense**: the action's entire content is `(3√3/2)L(χ₋₃,2)`, an **L-value**. **Novelty disclaimed** — DGG and Andersen–Kashaev built the pieces. **NOT finished: the one-loop partition function**, three named residues.
+
 ## B8118 — the two 3d theories differ in KIND (2026-08-21)
 
 Owner-elected: prove they differ before choosing. **Proved.** E₆ reaches `m004` by a purely arithmetic chain (disc −3 → conductor 3 → `SL(2,ℤ/3)` ≅ `2T` → McKay), so **14 of 1200 census manifolds inherit the same E₆** — with 3 distinct volumes and tetrahedron counts **[2,4,5,6]**, hence **different DGG theories and one E₆**. **The ambiguity was a category error**: (A) attaches at the triangulation and is a QFT, (B) attaches at the shape field and is arithmetic. **B262's wall #2 closes negatively.**

@@ -11020,3 +11020,16 @@ The owner asked whether I had finished the 3d goal. I had not, and checking the 
 Offered the choice of which theory to complete, the owner elected neither: prove they differ first. Done. E6 reaches the object by a purely arithmetic chain from the shape field, so every manifold with that field inherits it -- 14 of 1200 census manifolds do, with three distinct volumes and tetrahedron counts 2, 4, 5 and 6. One E6, different DGG theories. A quantity constant on a family cannot distinguish a member of it.
 
 So the two were never rival descriptions of one theory. One attaches at the triangulation and is a QFT; the other attaches at the field and is arithmetic. The ambiguity was a category error, and B262's wall #2 closes negatively.
+
+## 2026-08-21 — B8119, finishing the 3d theory
+
+The owner said finish it. All eleven rows of B8099's checklist are now disposed: the matter spectrum resolved by B8118, E6-as-dynamical-gauge closed negatively, the E6 state integral dissolved for want of an object, the 4d lift out of scope by the owner's own election, and the state integral moved from PARTIAL to PRESENT.
+
+That last move is a finding against myself. B8099 called the state integral not a closed evaluation and mentions B787 zero times, while B787's D5 cell computes it with Faddeev's quantum dilogarithm validated to 1.6e-30 and an exact single-term residue evaluation at b=1. Section 0 again, inside the audit that was supposed to enforce it.
+
+The theory is parameter-free in a strong sense: recomputed independently, the saddle gives
+2 Im Li_2(e^{i pi/3}) = Vol(4_1) = (3 sqrt3 / 2) L(chi_-3, 2). An L-value, not a fitted constant.
+
+Novelty is disclaimed. DGG built T[4_1], Andersen-Kashaev built the state integral, and 2+1 gravity with negative Lambda is standard. What was done here is assembly and verification, plus the removal of an ambiguity the corpus had created itself.
+
+What is not finished is the one-loop partition function, with three named residues. Also recorded: the first run of this arc failed a control and was nearly banked, because stderr was suppressed and the output read through tail; and the failing control was itself a false negative caused by str() truncating a SnapPy Number to eleven digits.
