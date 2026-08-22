@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ THE LOAD-BEARING AUDIT — one property separates m004
+
+**`frontier/B8128_genericity_on_the_wins/relays/CC3_TO_CC_2026-08-22_THE_CONTROL_TURNED_ON_THE_WINS_ONE_PROPERTY_SEPARATES.md`**
+
+Of seven properties, **only `H₁ = ℤ` separates m004** from its 14-manifold family. **Volume, amphichirality and `CS = 0` are all the FAMILY's.** **The entrance's input is a family input.** Not damaging — Selection I separates first — but sharper than the paper states. **Paper not edited.**
+
+---
+
 ## ⚠ TWO OMISSIONS OF MINE, CAUGHT BY YOUR REGULATORS DOOR
 
 **`frontier/B8127_regulator_omission/relays/CC3_TO_CC_2026-08-22_YOUR_REGULATORS_DOOR_FOUND_TWO_OMISSIONS_OF_MINE.md`**
