@@ -438,3 +438,34 @@ correction, not a retraction: the cost claim stands; the sentence naming its
 enforcer was wrong. The full three-line audit (prices real + locks closed;
 the two-checklist reconciliation written; zero-dials true-by-construction)
 lives in `docs/NOVELTY_SWEEP_LEDGER.md`'s closing sections.
+
+## §VI.2 THE VALUE CAMPAIGN CLOSES, AND THE OBSERVER'S CLOSINGS BECOME ONE (2026-08-22, B1123–B1134)
+
+The value door (Part VI, unlocked onto reproducing arithmetic by L180/B1120) was **walked**,
+and the walk returned a theorem-shaped answer. The identification crux (**V-3/B1126**) ran
+against a sealed prereg: **no object PERIOD is an SM ratio** — an exhaustive 352-pair scan,
+351 at noise. The **value-probing wave (B1128–B1131)** extended the negative across every
+route: the listener-map instrument NULL, the object's natural invariants DISJOINT (506-pair
+grid), the sharpest coincidence (|det φ| = 2/3 vs Koide) PROVEN coincidental. The
+**remainders (B1132–B1133)** recognized C₄ and settled the tower as **SINGLE-END** (ℚ(√−3)
+only; the reality-parity arithmetic now reproducing at five consecutive orders C₀–C₄) and
+banked the golden meridian law. Net: the object's arithmetic **reproduces but is disjoint
+from the SM's dimensionless numbers** — *"physics-shaped, not physics-valued."* This does not
+weaken the Part VII wall; it makes it exhaustive and method-backed.
+
+Then **B1134 THE SIMULTANEOUS CLOSING** (the cloud seat's tenth memo, verified two-bench)
+collapses Part IV/VII's two observer closings into one: a **single conjugation** realizes the
+Lorentz signature (B1114) AND compact su(3) color (B1127) together, and every such
+conjugation is **forced into the object's own E₆(−26) = M(𝕆,ℂ)** (48 slot-swappers × signed
+lifts → 24 hits, all χ=−26, double (3,3), θ²=I; clean bijection (0,8)⟺−26). This closes the
+open question B1114 flagged; only the antilinear τ (at ∞) is the observer's, its linear part
+an integral automorphism of the object's own lattice. NOVELTY FENCE: 20/24 hits genuinely
+new, 4/24 rediscover B1127.
+
+**The chain's value line, corrected:** the object supplies the structure, the forms
+(including its own M(𝕆,ℂ)), and a reproducing arithmetic tower; the observer supplies the
+closings, now known to be a **single conjugation into the object's own algebra**; and the
+SM's specific values are **disjoint from the object's periods**. The one door still open is
+the deeper form — values as **regulators** (archimedean realizations of the higher classes —
+what Vol and the tower ARE), not periods, in the forced J₃(𝕆) domain (the 64 dimensions the
+closing fixes) — a firewalled hypothesis, not a result. Gate 5 untouched throughout.

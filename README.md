@@ -13,7 +13,7 @@ nothing cannot complete.
 
 ---
 
-## The state of the programme (as of B1122, 2026-08-21)
+## The state of the programme (as of B1134, 2026-08-22)
 
 Six motivated axioms (A1–A6) plus one measured residual bit (A7) **conditionally force —
 given A1–A6, with A6 the minimality selection —** a single object:
@@ -159,10 +159,17 @@ without moving it: the seven misses are single-completion questions, and the one
 they never reached — tower growth-rates — is where the make-or-break ran. **L180 (B1120)
 came back positive at two orders:** the tower's coefficients are trace-field arithmetic (a
 parity pattern predicted from reality *before* the search, holding at C₁ and C₂ to thirty
-digits), so C₀ = 3^{−1/4} = |disc|^{−1/4} is no coincidence. The value door is **unlocked**
-— it opens onto arithmetic that reproduces — but it is **not open**: no SM number is
-produced, the recognitions at C₁/C₂ are detections rather than derivations, and C₃ is
-precision-gated.
+digits), so C₀ = 3^{−1/4} = |disc|^{−1/4} is no coincidence. The value door is **unlocked** — it
+opens onto arithmetic that reproduces — **and it has now been walked** (2026-08-22): the
+arithmetic reproduces at five consecutive orders C₀–C₄ (single-end ℚ(√−3), B1133), and the
+identification crux returned a **theorem-shaped negative** — no object PERIOD is an SM ratio
+(V-3/B1126), disjoint across every route tested (natural forms, the coupling, the sharpest
+coincidence; B1128–B1131). *Physics-shaped, not physics-valued.* And **B1134 THE SIMULTANEOUS
+CLOSING** shows the observer's whole real-structure bill — Lorentz signature *and* compact
+color — is a **single conjugation**, forced into the object's own E₆(−26) = M(𝕆,ℂ) (closing
+the question B1114 flagged). The one door still open is the deeper form: values as
+**regulators** (not periods) of the higher classes, in that forced J₃(𝕆) domain — firewalled
+until computed.
 
 None of this ran loose. Review 47 (2026-08-20) audited the 46-merge window behind it,
 found and repaired one mis-transcribed seal-ledger hash (custody unaffected), filed the

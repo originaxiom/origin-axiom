@@ -1,5 +1,7 @@
 # The priced-doors campaign — every physics word, its price, and its computable next rung
 
+*Review 48 (2026-08-22, anchor 79e513a9): the VALUE door (unlocked by L180/B1120) was WALKED and returned a theorem-shaped negative — no object period is an SM ratio (V-3 + the wave); "physics-shaped, not physics-valued." **B1134 THE SIMULTANEOUS CLOSING** collapsed the observer's two real-structure doors (Lorentz signature + compact color) into ONE conjugation, forced into E₆(−26)=M(𝕆,ℂ). Next priced door: the values-as-regulators cell — the higher-class regulators in the forced J₃(𝕆) domain (B1134's 64 fixed dimensions), sealed vs SM ratios (R48-3). See docs/progress/REVIEWS.md Review 48.*
+
 *Review 47 (2026-08-20): the crossing week's tail plus the closing campaign's Phase 1. The coupling
 channel closes for good (B1066 R-A/R-B, B1075 — MISS on every remaining licensed row; seven sealed
 crossings, seven negatives in all) and hands off two non-data-contact structural doors in its place

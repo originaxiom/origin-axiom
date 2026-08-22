@@ -85,11 +85,16 @@ sealed miss, kept as boundary.**
   blind to scale by TWO theorems (Hom(G,ℝ₊) = 0; no normalisable prior on the ray).
 - **V.2 The seven misses** — [NEGATIVE, kept] seven sealed crossings, seven misses —
   the boundary the tiers were rebuilt on (structure, not values, by construct).
-- **V.3 The value interface** — [NAMED-OPEN, GATED — the gate now HARDENED with a
-  computed reason (B1110 F9)]: the naive channel never existed — the object's
-  κ − 2 = ω² is complex, off the real-substrate sheet (κ real ≥ 2); surviving
-  channels typed: the root-of-unity door (B8116), non-positional invariants.
-  Targets φ/2 and 1/(2φ) ONLY (B8111); 0.1019 resolution floor.
+- **V.3 The value interface** — [NEGATIVE on periods (B1126/V-3 + the wave); NAMED-OPEN on
+  regulators, firewalled]: the identification crux ran against a sealed prereg —
+  **NO OBJECT PERIOD IS AN SM RATIO** (exhaustive 352-pair scan, B1126) — and the wave
+  (B1128–B1131) extended the negative across natural forms, the coupling, and the sharpest
+  coincidence (|det φ| = 2/3 vs Koide, proven coincidental). *Physics-shaped, not
+  physics-valued.* The arithmetic reproduces at five orders C₀–C₄, single-end ℚ(√−3)
+  (B1133). What stays open is the DEEPER form: values as **regulators** (archimedean
+  realizations — what Vol and the tower ARE), not periods — untested, and after B1134
+  living in a *forced* domain (J₃(𝕆), the 64 fixed dimensions the simultaneous closing
+  leaves). A firewalled hypothesis, not a result.
 - **V.4 The scale** — [PROVEN-FREE, terminal] the substrate supplies it physically;
   the program computes the invariant factor and is blind to the other by theorem.
 
@@ -218,3 +223,5 @@ SM ratio (the value campaign's V-3, its crux and its falsifier). The map's open 
 unchanged; its center of gravity has moved from *"is there a value channel at all?"*
 (answered: yes, arithmetic, reproducing) to *"does any object-period equal an SM number?"*
 (open, and cleanly falsifiable).
+
+**Re-census 2026-08-22 (the value campaign + the wave + THE SIMULTANEOUS CLOSING, B1123–B1134) — supersedes the VALUES line above.** THE IDENTIFICATION ran and **returned a theorem-shaped negative**: no object PERIOD is an SM ratio (V-3/B1126, exhaustive), and the value-probing wave (B1128–B1133) extended the negative across natural forms, the coupling, the two-ended tower (**SINGLE-END**, ℚ(√−3) only — C₄ recognized, five orders C₀–C₄), and the sharpest coincidence (Koide, proven coincidental). The golden meridian law banked (T-GOLDEN-MERIDIAN). *"Physics-shaped, not physics-valued."* Then **B1134 THE SIMULTANEOUS CLOSING**: the observer's whole real-structure bill (Lorentz signature + compact color) is a **single conjugation**, forced into the object's own E₆(−26) = M(𝕆,ℂ) — closing the open question B1114 flagged (VII.6). The center of gravity moves again — from *"does any object-period equal an SM number?"* (answered: NO, exhaustively) to the one door still open: *"is any SM value a **regulator** (not a period) of the object's higher classes, in the forced J₃(𝕆) domain?"* — a firewalled hypothesis (V.3), the sharpest form the value question has reached.

@@ -4097,13 +4097,94 @@ the proposal is their consolidation into WORKING_RULES if the owner elects.)
 - [x] R47-0: the seal-ledger correction row + E45/E46/E47 filed (this review, this bank)
 - [x] R47-1: RESOLVED BY A STRONGER FIX same-day — the `seal-digests` gate (every recorded digest recomputed from its file at gate time; latest-row-per-path; adopted from the audit seat's two-routes relay, which showed E47 and their E844 are complementary corruption routes neither procedural fix covers). The pipe-don't-retype line stands as write-time hygiene inside the PRACTICES entry. Evidence: scripts/gates/gates.py::gate_seal_digests; docs/PRACTICES.md.
 - [x] R47-2: the arc_verdict schema-validator lock (machine-held schema; owner: banking seat; source: E45) — **RESOLVED 2026-08-21, landed WITH the `creates_law` field per the audit seat's explicit request** (their sharpening note: rather land considered than land early): `tests/test_arc_verdict_schema.py` (995/995 green; the survey corrected the required core — `title` is NOT universal, 906 of 995 verdicts carry the authored_by/depends_on form) + the `theorem-registry` gate (creates_law ⟹ registry row; negative-controlled at install)
-- [ ] R47-3: B763 registry entries for `<cloud-seat>/new-session-qor5up` (the qor5up branch; full ref in the alias table) and `audit/b775-braver-questions` (owner: banking seat)
-- [ ] R47-4: Phase 2's doc-reflection wave + TERMINOLOGY glosses + the fresh-eyes signoff (owner: banking seat; source: the closing plan)
-- [ ] R47-5: B1100 — the 27's branching at the hatch's landing + the B970 hypercharge match (owner: banking seat; source: B1098)
-- [ ] R47-6: Review 48 runs COLD (route to the audit seat at the owner's word; source: the modulus's self-review declaration)
+- [>] R47-3: B763 registry entries for `<cloud-seat>/new-session-qor5up` (the qor5up branch; full ref in the alias table) and `audit/b775-braver-questions` (owner: banking seat) — carried → R48-5
+- [x] R47-4: Phase 2's doc-reflection wave + TERMINOLOGY glosses + the fresh-eyes signoff (owner: banking seat; source: the closing plan) — DONE at Review 48 (five deep surfaces threaded: THE_FRAMEWORK, README, THE_ROAD, THE_END_TO_END_CHAIN, THE_SM_VERDICT; cold doc-reflection agent = the fresh-eyes signoff)
+- [x] R47-5: B1100 — the 27's branching at the hatch's landing + the B970 hypercharge match (owner: banking seat; source: B1098) — DONE (B1100 banked: 27 complex, branching exact, hypercharge cone generic)
+- [x] R47-6: Review 48 runs COLD (route to the audit seat at the owner's word; source: the modulus's self-review declaration) — DONE (R48 ran cold via three independent fresh-eyes agents on this bench; the cc3 audit-seat pass carried → R48-6, at the owner's word)
 - [>] R47-7: the LAW_MAP debt batch's named B1042/B1043 rows (carried from R46-3)
 - [>] R47-8: the census's 31 category calls (carried from R46-5)
 - [>] R47-9: the B909/B952 promotion-currency lag (carried from R46-era; promotion review after B1100)
-- [ ] R47-10: the per-gap detector → the L173 seal path (after the aperiodic decision session; source: B1095/the plan's Phase 4)
+- [>] R47-10: the per-gap detector → the L173 seal path (after the aperiodic decision session; source: B1095/the plan's Phase 4) — carried → R48-10
 
 anchor-commit: `61499dfe` (Phase 1's bank, the window's last)
+
+---
+
+## Review 48 — the decadal review (COLD), window B1100–B1134 (2026-08-22)
+
+*Ran COLD per R47-6: three independent fresh-eyes agents over the 26-merge window
+(math/overclaim · gate/error-integrity · doc-reflection), each re-deriving the load-bearing
+numbers and running the actual scripts rather than trusting cached results. Prior anchor:
+61499dfe (R47). This window banked the value campaign (B1124–B1127), the value-probing wave
+(B1128–B1131), the remainders (B1132–B1133), and the capstone **B1134 THE SIMULTANEOUS
+CLOSING**.*
+
+**1. Math / overclaim (cold): ZERO confirmed findings.** The auditor independently
+re-derived (not re-read) Vol(m004) = 9√3·ζ_K(2)/π² (Bloch–Wigner, 50 dps, an exact
+identity), all four Kashaev-tower denominator factorizations (108, 7776, 12597120,
+1813985280) and C₄'s prime numerator, det φ = −2/3 (78×78 exact-rational from B904's pickle),
+Koide's Q from PDG masses, and the 39/43 forcedness census (ran the checker). Every
+load-bearing number in the window reproduced. One sub-threshold observation (no
+ARTIFACT_HASHES seal on B1126–B1132) is a pre-existing systemic gap (~93% of arcs
+repo-wide), not window-specific — not actioned.
+
+**2. Gate / error-integrity (cold): three PROCEDURAL gaps, no math defect — all fixed this
+review.** (a) B1119 promised an error-ledger entry for the classification-checksum catch,
+never filed → **E49 filed** (fake invariant form, ad-invariant vs τ-invariant, caught by the
+classification theorem as checksum; now a live gate in B1125/B1127/B1134). (b) B1101 (the
+certification envelope) had no dedicated lock → **`tests/test_b1101_certification_envelope.py`
+added**. (c) The value-probe wave filed no INPUT_COMPLETENESS_LEDGER rows (a rule-6 defect)
+→ **the wave's 12-item audit added** (7 PASS / 4 N/A / 1 PARTIAL — all negatives against
+matched nulls, the branch both checklists cover). Suite green throughout; E37 present with an
+honest instance; RETRACTIONS carries the doorway withdrawal; no xfail/disabled gate found.
+
+**3. Doc-reflection (cold): five deep surfaces lagged the ledgers — all threaded this
+review.** The value close (B1124–B1133) and B1134 had landed in the status/ledger surfaces
+(CAMPAIGN_STATUS, SM_VERDICT tail, LAW_MAP, THEOREM_REGISTRY) but not the narrative crowns.
+Fixed in place with dated stamps: **THE_FRAMEWORK** (the "value door not yet walked" closing
+→ walked/disjoint + B1134 + the regulator door), **README** (state stamp B1122→B1134; the
+value paragraph), **THE_ROAD** (§V.3 NAMED-OPEN→NEGATIVE-on-periods; §X re-census
+2026-08-22), **THE_END_TO_END_CHAIN** (§VI.2 the value campaign closes + the simultaneous
+closing), **THE_SM_VERDICT** (currency tail B1132–B1134). Verified clean by the auditor: all
+creates_law arcs have registry rows; the representation sweep is empty; the CRT/doorway is
+consistently WITHDRAWN everywhere; compact color is consistently the OBSERVER's closing into
+the object's own form (never the object's own mirror); single-end correctly scoped.
+
+**4. The window's capstone — B1134 THE SIMULTANEOUS CLOSING.** The observer's whole
+real-structure bill is one conjugation, forced into E₆(−26)=M(𝕆,ℂ); verified two-bench (my
+own slot-swapper search + GF(2) solver, error-#15 bug-class avoided, checksum clean, two
+own-bugs caught); closes the open question B1114 flagged. The value question is closed on the
+object's PERIODS (disjoint, exhaustive); the one door still open is values as **REGULATORS**
+of the higher classes in the forced J₃(𝕆) domain — a firewalled hypothesis, the campaign's
+named next frontier.
+
+**5. The COLD-pass commission (R47-6).** R48 ran cold via three independent fresh-eyes
+agents on this bench (not the audit seat, which the owner had not routed). The cc3
+audit-seat cold pass over B1100–B1134 remains available at the owner's word — carried as
+R48-6.
+
+### Action items (Review 48)
+- [x] R48-0: the three cold audits' fixes landed this review (E49; the B1101 lock; the
+  value-wave input-completeness audit; the five deep-surface threads)
+- [x] R48-1: B1134 THE SIMULTANEOUS CLOSING banked + certified + pushed (79e513a9)
+- [ ] R48-2: integrate cc3's golden-meridian refinement (B8124 "one-third is a reciprocal
+  identity" + B8126 the Pauli-components split) — VERIFY on-bench, then scope the
+  T-GOLDEN-MERIDIAN row to the off-tone (w_x, w_z) components (owner: banking seat)
+- [ ] R48-3: **THE VALUES-AS-REGULATORS DOOR** — the campaign's named next frontier: compute
+  the reachable-and-untested regulators (ζ_K(3), ζ_K(4), the rank-1 ℚ(√−3) ladder; ζ_F(3) at
+  the E₈ end) in the FORCED J₃(𝕆) domain (the 64 fixed dims of B1134's closing); sealed scan
+  against SM ratios, firewalled until computed (owner: banking seat)
+- [ ] R48-4: cc3's B8127 (two omissions caught by the regulator door) — verify + integrate if
+  it survives (owner: banking seat)
+- [>] R48-5: R47-3 carried — B763 registry entries for the qor5up + b775 branches
+- [ ] R48-6: the cc3 audit-seat COLD pass over B1100–B1134 (R47-6 carried; at the owner's word)
+- [>] R48-7: R47-7 carried — the LAW_MAP debt B1042/B1043 rows
+- [>] R48-8: R47-8 carried — the census's 31 category calls
+- [>] R48-9: R47-9 carried — the B909/B952 promotion-currency lag (promotion review now UNBLOCKED post-B1100)
+- [ ] R48-10: R47-10 carried — the per-gap detector → L173 seal path (after the aperiodic decision session)
+- [ ] R48-11: **PAPERS** (the owner's "then papers") — relay the value close + B1134 to the
+  paper assembly (cc3's freeze): structure complete up to a single observer conjugation into
+  the object's own M(𝕆,ℂ), values disjoint on periods, the regulator door as the honest open
+  value section
+
+anchor-commit: `79e513a9` (the B1134 bank, this window's last substantive commit)

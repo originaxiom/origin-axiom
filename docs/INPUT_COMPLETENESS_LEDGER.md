@@ -94,3 +94,34 @@ twelve — with N/A written as a row.** The four gap-items cannot ride the
 R-list alone. (Species logged: two checklists, no cross-reference — line 1's
 fork-collision trap with the opposite sign: coverage looked absent where it
 was present. One day, both signs.)
+
+---
+
+## Third application: the value-probe wave (B1128–B1133), audited at Review 48
+
+*Audited by cc at Review 48 — the rows were missing (a rule-6 defect, itself the same
+species as the B792/B797 gap: substance covered ad hoc in each cell's PRECOMMIT, the
+ledger row never written). Recorded here rather than quietly added. The wave's cells
+(B1128 instrument-null, B1129 natural-values 506-pair grid, B1131 Koide, B1132 meridian)
+each compare object quantities to measured SM values; each carried its own
+`*_PRECOMMIT.md` with pre-registered routes, base rates, and fishing guards.*
+
+| # | Item | Status for the value-probe wave |
+|---|---|---|
+| 1 | Scheme | **N/A-by-construction.** The object side is scheme-free (Kashaev-tower ratios, listener-map holonomies, det of a Cartan basis change — topological/Laplace invariants, no renormalization). SM targets carry their own schemes via the fetched sources (item 11). |
+| 2 | Scale | **N/A on the object side** (no μ enters a knot invariant; the object supplies no scale, I6: ABSENT) — only dimensionless SM ratios/angles were targeted. |
+| 3 | Uncertainties | **PASS.** B1128/B1131 quote σ-distances (the \|U_e1\|/\|U_e2\|=φ miss reported ~5σ; Koide 2/3 to measured precision); B1129's 506-pair grid runs a matched null. |
+| 4 | Multi-modal fits | **N/A** — no octant/ordering-sensitive global-fit target drives a verdict; the PMNS e-row ratio is release-stable. Stated as a row, not a silence. |
+| 5 | Convention constants | **PASS by absence** — no M_GUT/unification/scheme-effective target. |
+| 6 | Fit-vs-direct | **N/A** — the targets used (mixing-angle ratios, Koide) are not fit/direct-ambiguous quantities. |
+| 7 | Look-elsewhere | **PASS.** B1126's 352-pair and B1129's 506-pair scans price the full grid; B1131's four bridge routes counted (~8% base rate stated). |
+| 8 | The matched null | **PASS for the exclusion verdicts** — B1129's null draws from the same measure the criterion uses; the wave's verdicts are all NEGATIVE (disjoint/null), the branch this ledger fully covers. No HIT-type claim was made (the branch with the R-list gap). |
+| 9 | MB13 grep | **PARTIAL** — the atlas/keyword check is corpus practice; each cell cites prior art (B1128←B1116/LISTENER_MAP; B1131←B904) but a dedicated grep row was not recorded. |
+| 10 | The firewall question | **PASS, and decisive.** Every cell asks the object for VALUES, and the wave's whole finding is that the answer is DISJOINT (periods) — "physics-shaped, not physics-valued." Per the firewall the admissible reframe (values-as-regulators) is named and left firewalled (B1134). |
+| 11 | Source freshness | **PASS.** SM targets fetched from PDG/NuFIT with release + date in each PRECOMMIT (the B1063 fetch-currency rule), not recalled from memory. |
+| 12 | Sealing | **PASS.** Each cell sealed its prereg (routes/base-rates/guards) before compute; outputs banked before comparison prose (E39). |
+
+**Net: 7 PASS, 4 N/A, 1 PARTIAL (item 9). No item fails.** The wave's verdicts are all
+negatives drawn against matched nulls — the branch this ledger and the R-list both fully
+cover; the four rule-gaps (items 1/4/6, and 8's hit-branch) are HIT-branch gaps, and the
+wave made no hit. Filed to close the rule-6 defect the R48 gate/integrity audit found.

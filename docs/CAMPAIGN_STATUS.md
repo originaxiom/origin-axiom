@@ -16,6 +16,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-22, REVIEW 48)**: the decadal review (COLD, three
+fresh-eyes agents over B1100–B1134) — math/overclaim ZERO findings; three
+procedural gaps fixed (E49; the B1101 lock; the value-wave input-completeness
+audit); five deep surfaces threaded to current state. Window banked: the value
+campaign + wave + remainders (value question CLOSED — disjoint on periods,
+"physics-shaped, not physics-valued") and **B1134 THE SIMULTANEOUS CLOSING**
+(the observer's whole real-structure bill is ONE conjugation, forced into
+E₆(−26)=M(𝕆,ℂ)). Counter reset at 79e513a9; next frontier = values-as-regulators
+(R48-3). See docs/progress/REVIEWS.md Review 48.
+
 **LATEST (2026-08-20, REVIEW 47)**: the 46-merge window reviewed;
 B1071-v2's seal hash cell found mis-transcribed and repaired
 (custody unaffected); E45/E46/E47 filed; branches classified;

@@ -853,12 +853,27 @@ is where the make-or-break ran: **L180 (B1120) came back POSITIVE at two orders.
 Kashaev tower's sub-leading coefficients are trace-field arithmetic (C₁ = (11/108)√3π·C₀
 and C₂ = (697/7776)π²·C₀ to ~30 digits, the even/odd → rational/(rational×√3) parity
 pattern predicted from reality before the PSLQ search), so C₀ = 3^{−1/4} = |disc|^{−1/4}
-is the k=0 instance of a genuine pattern. **The value door is unlocked and opens onto
-arithmetic that reproduces** — but it is not yet walked: no SM number is produced, and
-delivering a specific ratio needs the identification (which tower, which period, which
-measurement), the value campaign's crux. The freedom ledger closes to exactly {C, P, spin
+is the k=0 instance of a genuine pattern. **The value door is unlocked, opens onto
+arithmetic that reproduces — and has now been walked (2026-08-22).** The arithmetic
+reproduces at **five consecutive orders** (C₀–C₄, reality-parity; single-end ℚ(√−3), B1133),
+and the identification crux ran against a sealed prereg to a **theorem-shaped negative**: no
+object PERIOD is an SM ratio (V-3/B1126), and the object's arithmetic is **disjoint from the
+SM's dimensionless numbers across every route tested** — periods, natural forms, the coupling,
+and the sharpest coincidence (B1128–B1131). *Physics-shaped, not physics-valued.* What the
+walk did NOT close is the deeper form: a period and a **regulator** (the archimedean
+realization of an arithmetic class — what Vol and the tower ARE) are different objects, and
+the regulators of the object's higher classes are untested — the one door still open,
+firewalled until computed. The freedom ledger closes to exactly {C, P, spin
 lift} and its bits do not fuse: the spin lift is PAIR-INVISIBLE (B1122/L179), a central
-torsor no coupling can read. *(Interpretive, labeled: reality is a description approaching
+torsor no coupling can read. **And the observer's real-structure closings are now a SINGLE
+act (B1134, 2026-08-22):** one conjugation buys both the Lorentz signature and compact su(3)
+color together, and every such conjugation is forced into the object's own E₆(−26) = M(𝕆,ℂ)
+— closing the question B1114 left open (Lorentz + compact color together). B1114's "signature
+is the observer's" and B1127's "compact color is the observer's" are the same single closing;
+only the antilinear τ (at ∞) is the observer's, its linear part an integral automorphism of
+the object's own lattice. So the values-as-regulators door has a *forced* domain: the physical
+real form is J₃(𝕆), and the 64 dimensions that closing fixes are where the untested regulators
+(and hypercharge, 27-reality) live — the sharpest form the value question has reached. *(Interpretive, labeled: reality is a description approaching
 a limit it cannot reach; the finite shadows are its matter of fact, the limit is its
 physics, and the observer is the approaching. B1117's closing sentence, carried.)*
 
