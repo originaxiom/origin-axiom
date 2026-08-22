@@ -11131,3 +11131,16 @@ signature + own GF(2) solver; only B1102's e₆ imported). FENCES: slot→physic
 choice (3-fold symmetric); Higgs/family interpretive; 27=16⊕10⊕1 cited. Structure only,
 no SM number. Open (G-1 greenlit): the Y-selection on the E₆(−14) branch. Cloud seat
 credited. Lock test_b1135_gauge_closing.py.
+
+**2026-08-22 — THE GENERICITY CONTROL ON THE WINS (B1136).** cc3's B8128
+(owner-elected), verified two-bench via an independent SnapPy census and banked.
+Over the 14-manifold ℚ(√−3) shape-field family, of seven elementary properties
+EXACTLY ONE separates m004 — H₁=ℤ (the knot-complement-in-S³ condition B955 flagged
+load-bearing). The rest are the FAMILY's: Vol 2.02988… (with m003 → B680's Vol
+identity family-level), amphichirality (all 14), CS=0, torsion-freeness, tet/cusp
+counts; the E₆ entrance is a FAMILY entrance (all 14 share the trace field). Not
+damaging (Selection I picks m004 by H₁ before the entrance); the honest statement is
+sharper than the paper's (R48-11). Re-derived this bench (own shape-field scan + own
+SnapPy table; separators=['h1_is_Z']; both cc3 bugs reproduced). Scope notes (not
+retractions): B680 Vol identity + amphichirality are family-level. Cloud/cc3 credited.
+Gate 5 untouched. Lock test_b1136_genericity.py.

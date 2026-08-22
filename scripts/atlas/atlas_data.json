@@ -23526,6 +23526,24 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1136": {
+   "slug": "genericity on the wins",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B955",
+    "B680"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
   }
  }
 }

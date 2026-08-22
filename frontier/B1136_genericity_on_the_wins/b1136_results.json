@@ -1,0 +1,43 @@
+{
+  "family": [
+    "m003",
+    "m004",
+    "m202",
+    "m203",
+    "m206",
+    "m207",
+    "m208",
+    "m410",
+    "m412",
+    "s118",
+    "s119",
+    "s594",
+    "s595",
+    "s596"
+  ],
+  "family_size": 14,
+  "matches_cc3_14": true,
+  "separators": [
+    "h1_is_Z"
+  ],
+  "unique_separator_is_h1_Z": true,
+  "h1_Z_members": [
+    "m004"
+  ],
+  "vol_m004_eq_m003": true,
+  "vol_shared": 2.029883212819307,
+  "all_amphichiral": true,
+  "cs_zero_members": [
+    "m004",
+    "m203",
+    "m206",
+    "m208",
+    "s595",
+    "s596"
+  ],
+  "torsion_free_members": [
+    "m004",
+    "m202",
+    "m203"
+  ]
+}

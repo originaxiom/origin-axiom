@@ -1,5 +1,27 @@
 # Changelog
 
+## THE GENERICITY CONTROL, TURNED ON THE WINS (B1136, 2026-08-22): exactly one property separates m004 — H₁=ℤ; the rest is the family's
+
+cc3's B8128 (owner-elected), verified TWO-BENCH via an independent SnapPy census on this bench
+and banked. The genericity instrument — *vary what should not matter* — aimed for the first
+time at the object's OWN successes. Over the shape-field family (the 14 orientable cusped
+census manifolds with tetrahedron shape field ℚ(√−3): m003, m004, m202, m203, m206, m207,
+m208, m410, m412, s118, s119, s594, s595, s596), of seven elementary properties **exactly one
+separates m004: H₁ = ℤ** — precisely the knot-complement-in-S³ condition B955 identified as
+load-bearing (B955 was right). Everything else is the **family's**: the volume 2.029883… (with
+m003 — so **B680's Vol = (3√3/2)·L(χ₋₃,2) identity is family-level, not m004-specific**), the
+tetrahedron count, the cusp count, torsion-freeness (with m202/m203), **amphichirality (with
+ALL thirteen others)**, and CS=0 (with five others). Since all 14 share the trace field, the
+E₆ that arrives arithmetically is the family's — **the E₆ entrance is a FAMILY entrance.** NOT
+damaging to the chain: Selection I uses H₁ (the separator) to pick m004 object-level *before*
+the trace-field entrance; nothing is contradicted, but the honest statement is sharper than
+the paper's (a referee running the census will ask) — carried into the papers relay (R48-11).
+Re-derived on this bench (own quad-disc shape-field scan + own SnapPy property table, not
+cc3's wins.py; family set-identical; separators = ['h1_is_Z']; both of cc3's self-caught bugs
+reproduced — CS float-equality, torsion-free ≠ H₁=ℤ). SCOPE NOTES carried (not retractions —
+the identities hold): B680's Vol identity family-level; amphichirality family-level. Cloud/cc3
+seat credited. Gate 5 untouched (pure topology). Lock `tests/test_b1136_genericity.py`.
+
 ## THE GAUGE CLOSING (B1135, 2026-08-22): the factor-preserving branch closes into E₆(−14) (SO(10) GUT heart), completing the real-form taxonomy
 
 The cloud seat's twelfth memo (F-1, golden_gate `943db85`), verified TWO-BENCH with no
