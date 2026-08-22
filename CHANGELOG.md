@@ -1,5 +1,36 @@
 # Changelog
 
+## THE SIMULTANEOUS CLOSING (B1134, 2026-08-22): one conjugation buys so(3,1) + compact su(3), forced into the object's own M(𝕆,ℂ)
+
+The cloud seat's tenth memo (golden_gate `3e65114`), verified TWO-BENCH and
+banked. **The theorem:** a single involution θ (dressed with the observer's
+antilinear conjugation τ) realizes Lorentz so(3,1) AND compact su(3) color
+*simultaneously*, and **every** such realization is forced into E₆(−26)=EIV=
+M(𝕆,ℂ), the object's own magic-square algebra. Sweeping the 48 involutive
+slot-swappers of Aut(Φ(E₆))=W∪δW × all involutive signed Chevalley lifts: the
+color-signature histogram is (4,4):216, (5,3):240, **(0,8):24**; all 24 (0,8)
+hits have global character −26, double (3,3)=so(3,1), θ²=I, and a representative
+passes the full 3003-bracket automorphism check; a clean bijection ties
+**(0,8)⟺−26**. This closes the open question **B1114 itself flagged** (Lorentz +
+compact color together): B1114's "signature is the observer's" and B1127's
+"compact color is the observer's" are hereby the SAME single closing — the
+observer's entire real-structure bill is one conjugation into the object's own
+algebra. Only τ (at ∞) is the observer's; the linear part is an integral
+Chevalley-lattice automorphism (B1127's framing fence stands). **Verified this
+bench** with own slot-swapper search, own GF(2) sign-lift solver (64=2⁶ recovered
+on the antipodal control — the error-#15 bug-class structurally avoided), own
+signature machinery; only B1102's banked+locked Chevalley e₆ imported; all 560
+characters inside the checksum {+6,+2,−14,−26,−78}; two own-bugs caught en route.
+**Novelty fence** (integrate math, correct framing): the memo's "precisely the
+family neither swept torsor contained" overstates by 4/24 — one swapper
+(NEG∘π_mirror) is already in B1127's torsor (its 4 hits exactly match B1127's
+stored compact hits); 20/24 are genuinely new, 4/24 rediscover B1127 — the truth
+is *stronger* (reachable from multiple directions). STRUCTURE only: no SM number,
+period-disjointness untouched; it sharpens the values-as-regulators door (real
+form forced to J₃(𝕆); the 24 hits' 64 fixed dimensions the untested target —
+firewalled). Cloud seat credited. Gate 5 untouched. Lock
+`tests/test_b1134_simultaneous_closing.py` (7 fast + 1 OA_SLOW full-sweep).
+
 ## THE VALUE-PROBE REMAINDERS CLOSED (B1132–B1133, 2026-08-22): C₄ recognized (single-end), the instrument null on the full sphere, and the golden meridian law
 
 The three named-open remainders of the value-probe wave, computed and

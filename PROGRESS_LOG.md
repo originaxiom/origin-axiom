@@ -11092,3 +11092,24 @@ five orders C₀–C₄. B1132: the listener instrument is NULL on the full
 exhaustively closed) + the golden meridian law h(R²L²,u)=−φ·h(RL,u)−iφ·n_y(u)
 (new LAW_MAP row, verified 50-digit + symbolic). The value question is now
 exhaustively answered from every route; the value campaign is complete.
+
+**2026-08-22 — THE SIMULTANEOUS CLOSING (B1134).** The cloud seat's tenth
+memo (golden_gate 3e65114), verified two-bench and banked. A single
+involution θ (with the observer's antilinear τ) realizes so(3,1) Lorentz
+AND compact su(3) color TOGETHER, and every such realization is forced into
+E₆(−26)=EIV=M(𝕆,ℂ), the object's own algebra. Sweep of the 48 involutive
+slot-swappers of Aut(Φ(E₆))=W∪δW × all involutive signed lifts: histogram
+(4,4):216, (5,3):240, (0,8):24; ALL 24 (0,8) hits at χ=−26, double
+(3,3)=so(3,1), θ²=I, a representative passing the full 3003-bracket
+automorphism check; clean bijection (0,8)⟺−26. Closes the open question
+B1114 flagged (Lorentz + compact color together) — B1114's "signature is
+the observer's" and B1127's "compact color is the observer's" are the SAME
+single closing; only τ (at ∞) is the observer's. Re-derived on this bench
+(own slot-swapper search, own GF(2) solver — 64=2⁶ on the antipodal control,
+error-#15 avoided; only B1102's Chevalley e₆ imported; all 560 chars in the
+{+6,+2,−14,−26,−78} checksum; two own-bugs caught). NOVELTY FENCE: 20/24
+hits genuinely new, 4/24 rediscover B1127 (the memo overstates "precisely
+neither torsor" by 4) — the truth is stronger. Structure only (no SM number;
+period-disjointness untouched); sharpens the values-as-regulators door (real
+form forced to J₃(𝕆); 64 fixed dims the untested target, firewalled). Cloud
+seat credited. Lock test_b1134_simultaneous_closing.py.

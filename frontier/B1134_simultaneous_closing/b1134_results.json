@@ -1,0 +1,47 @@
+{
+  "provenance": "independent verification of golden_gate 3e65114 (cloud seat tenth memo); own-authored sweep; trusted e6 = B1102 vendored module",
+  "n_pairs_total": 480,
+  "swappers_with_no_lift": 0,
+  "histogram_color_sig": {
+    "4,4": 216,
+    "0,8": 24,
+    "5,3": 240
+  },
+  "joint_char_colorsig": {
+    "+6|4,4": 216,
+    "-26|0,8": 24,
+    "+2|5,3": 240
+  },
+  "hits": {
+    "n": 24,
+    "chars": {
+      "-26": 24
+    },
+    "double_sigs": {
+      "3,3,0": 24
+    },
+    "swaps": {
+      "True": 24
+    }
+  },
+  "controls": {
+    "antipodal": {
+      "-78|0,8|False|None": 1,
+      "-14|4,4|False|None": 18,
+      "+2|4,4|False|None": 30,
+      "-14|0,8|False|None": 9,
+      "+2|0,8|False|None": 6
+    },
+    "permute": {
+      "+6|4,4|True|3,3,0": 8
+    },
+    "mixed": {
+      "+2|5,3|True|3,3,0": 8
+    }
+  },
+  "novelty": {
+    "n_distinct_hit_swappers": 6,
+    "overlap_neg_pi_mirror_hits": 4,
+    "genuinely_new_hits": 20
+  }
+}

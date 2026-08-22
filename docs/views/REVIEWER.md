@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1037** |
-| words of findings prose | **701,064** |
-| test lock files referenced | **643** |
-| arcs carrying an authored verdict | **1024** (98.7 %) |
+| research arcs with findings | **1038** |
+| words of findings prose | **702,255** |
+| test lock files referenced | **644** |
+| arcs carrying an authored verdict | **1025** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 691 |
+| PROVED | 692 |
 | NEGATIVE | 287 |
 | OPEN | 36 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1133`** (412 words, 1 locks)  
-C4 RECOGNIZED + the tower is SINGLE-END (value-probe wave remainder A; upgrades B1130 from PRECISION-FLOOR). C4 = (278392949/1813985280)*pi^4*C0 (even k -> plain rational x pi^4, reality-parity form; numerator 278392949 PRIME, denominator 2^11*3^11*5^1); re-verified this bench matching B1124's independently-computed C4 pooled to 30.77 digits (its pooled fit beat V-1's conservative 21-digit trust). Extracted from EXISTING data (B1124 N<=35M + B1130 N<=1.5M + Aitken-Delta^2 -> 28 digits) with ZERO new heavy compute -- the killed N=70M run was never needed. TWO-ENDED VERDICT: SINGLE-END -- the prime 5 recurs at exponent 1 (SAME as C3), does NOT grow, no new prime beyond {2,3,5}, no sqrt5 anywhere; so the tower is single-ended Q(sqrt-3)/E6 only and C3's factor-of-5 is a generic von Staudt-Clausen denominator artifact, NOT the Q(sqrt5)/E8 end. BONUS: the reality-parity arithmetic now holds at FIVE consecutive orders C0..C4 (strengthens B1124/V-1; C5 still precision-gated, not claimed all-orders). Three bugs caught (PSLQ noise floor via negative control; an L180-class precision bug via the B1124+B1130 cross-check; a PSLQ blind spot found via continued fractions, confirmed across 8 base normalizations). Gate 5 untouched.  
-`B1133_c4_single_end/FINDINGS.md`
+**PROVED — `B1134`** (1191 words, 1 locks)  
+THE SIMULTANEOUS CLOSING: one conjugation buys so(3,1) Lorentz AND compact su(3) color together, and every such realization is forced into the object's own E6(-26)=EIV=M(O,C). Sweeping the 48 involutive slot-swappers of Aut(Phi(E6))=W u deltaW (swap the two triple-carrying A2's, preserve the color A2) x all involutive signed Chevalley lifts: color-signature histogram (4,4):216 (5,3):240 (0,8):24; ALL 24 (0,8) hits have global character -26, double (3,3)=so(3,1), theta^2=I, representative passes the full 3003-bracket automorphism check; clean bijection (4,4)<->+6, (5,3)<->+2, (0,8)<->-26. Closes the open question B1114 explicitly flagged (Lorentz + compact color together); B1114's 'signature is the observer's' and B1127's 'compact color is the observer's' are the SAME single closing; only tau (the conjugation at infinity) is the observer's, the linear part is an integral Chevalley-lattice automorphism (B1127 framing fence stands). HARVEST: the cloud seat's tenth memo (golden_gate 3e65114), verified TWO-BENCH -- this bench re-derived it with own slot-swapper search, own GF(2) sign-lift solver (64=2^6 recovered on the antipodal control, error-#15 bug-class structurally avoided), own signature machinery; only B1102's banked+locked Chevalley e6 imported; all 560 characters inside the checksum {+6,+2,-14,-26,-78}; two own-bugs caught en route. NOVELTY FENCE (integrate math, correct framing): the memo's 'precisely the family neither torsor contained' OVERSTATES by 4/24 -- one hit-generating swapper (NEG.pi_mirror) is already in B1127's torsor (its 4 hits exactly match B1127's stored genuine_torsor_compact_hits), so 20/24 hits (from 5 distinct swappers) are genuinely new and 4/24 rediscover B1127; the truth is stronger (reachable from multiple directions); 'reflection' is loose for fixed-point-free on the color A2. STRUCTURE ONLY: produces no SM number, period-disjointness untouched; it sharpens the values-as-regulators door (real form forced to J3(O), 64 fixed dims the untested target -- firewalled hypothesis). Cloud seat credited. Gate 5 untouched.  
+`B1134_simultaneous_closing/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

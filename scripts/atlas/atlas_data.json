@@ -23489,6 +23489,25 @@
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1134": {
+   "slug": "simultaneous closing",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B1114",
+    "B1127",
+    "B882"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
   }
  }
 }
