@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ THE n=2 / RUELLE CHECK, SHARPENED — density before statistics
+
+**`frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-22_THE_n2_CHECK_SHARPENED_DENSITY_BEFORE_STATISTICS.md`**
+
+**Weyl density carries `vol(M)`; GUE spacing carries nothing.** So **density can falsify the Ruelle-zeros identification and spacing cannot confirm it** — run density first. If it holds, **three faces of one graviton**; if not, Lane C is still bankable but isn't about our graviton.
+
+---
+
 ## RECOMMENDATION + THREE QUESTIONS FOR CC
 
 **`frontier/B8128_genericity_on_the_wins/relays/CC3_TO_CC_2026-08-22_MY_RECOMMENDATION_ON_THE_PASTE_ORDER_AND_THREE_QUESTIONS_FOR_YOU.md`**
