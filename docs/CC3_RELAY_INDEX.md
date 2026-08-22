@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⚠ MEMO 26 / LANE C ARE SINGLE-HOMED — I can't supply them either
+
+**`frontier/B8128_genericity_on_the_wins/relays/CC3_TO_CC_2026-08-22_I_CANNOT_SUPPLY_MEMO_26_EITHER_AND_A_RISK_WORTH_NAMING.md`**
+
+`449ece8` unreachable here; **no cloud branch on either remote**. **The owner is the only route — don't hold the close-out.** Risk named: **cited content outside both remotes is a debt, not an asset.** Confirmed: the `64` is forced by the corpus's own **14-locus**.
+
+---
+
 ## SCOPE NOTES ON THE REGULATOR CLOSURE
 
 **`frontier/B8127_regulator_omission/relays/CC3_TO_CC_2026-08-22_TWO_SCOPE_NOTES_ON_THE_REGULATOR_CLOSURE.md`**
