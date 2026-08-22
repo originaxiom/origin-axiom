@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1041** |
-| words of findings prose | **704,867** |
-| test lock files referenced | **647** |
-| arcs carrying an authored verdict | **1028** (98.8 %) |
+| research arcs with findings | **1042** |
+| words of findings prose | **705,652** |
+| test lock files referenced | **648** |
+| arcs carrying an authored verdict | **1029** (98.8 %) |
 | recorded closures | **761** (594 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 694 |
+| PROVED | 695 |
 | NEGATIVE | 288 |
 | OPEN | 36 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1136`** (835 words, 1 locks)  
-THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-field family = the 14 orientable cusped census manifolds with tetrahedron shape field Q(sqrt-3) {m003,m004,m202,m203,m206,m207,m208,m410,m412,s118,s119,s594,s595,s596}, of SEVEN elementary properties EXACTLY ONE separates m004 -- H_1 = Z. Everything else is the FAMILY's: the volume 2.029883212819307 (shared with m003 -> B680's Vol=(3sqrt3/2)L(chi_-3,2) identity is FAMILY-LEVEL, not m004-specific), the tetrahedron count 2, the cusp count, torsion-freeness (with m202/m203), AMPHICHIRALITY (with ALL thirteen others), and CS=0 (with m203/m206/m208/s595/s596). The one separator H_1=Z is exactly the knot-complement-in-S^3 condition B955 identified as making rank preservation structural -- B955 was right about the load-bearing fact. Since all 14 share the trace field, the E6 that arrives arithmetically is the FAMILY's and the E6 ENTRANCE IS A FAMILY ENTRANCE. NOT damaging: the chain's Selection I uses H_1 (the separator) to pick m004 object-level BEFORE the trace-field entrance; nothing is contradicted, but the honest statement is sharper than the paper's (a referee running the census will ask) -- carried to the papers relay (R48-11). Re-derived on this bench (own quad-disc shape-field scan + own property table via SnapPy, not cc3's wins.py; family set-identical; separators=['h1_is_Z']; both of cc3's self-caught bugs reproduced -- CS float-equality, and torsion-free != H_1=Z). SCOPE NOTES carried (NOT retractions -- the identities hold): B680's Vol identity is family-level; amphichirality is family-level. Cloud/cc3 seat credited. Gate 5 untouched (pure hyperbolic topology, no measured value).  
-`B1136_genericity_on_the_wins/FINDINGS.md`
+**PROVED — `B1138`** (785 words, 1 locks)  
+THE STRUCTURAL COMPLETION (cloud seat's phase-III structural memos 11 FORK_THEOREM, 14 AMBIENT_LADDER, 13 Y_SELECTION, 15 FAMILY_TRIPLET; golden_gate 577712f; verified TWO-BENCH, own code, no discrepancy) -- what the real-form closings (B1134/B1135) cost and complete. (1) THE FORK: on e6 the centralizer ladder dim z(T1)=16, z(T1+color)=8, z(T1,T2)=8, z(T1,T2+color)=0, slot-independent (two adjacent-simple-pair choices agree); the joint centralizer=0 is THE FORK -- any TWO of {spacetime, color, hypercharge}, never three -- the theorem grounding the B1134/B1135 correction (the closing is FORKED: spacetime E6(-26) XOR gauge E6(-14), not one act); the three A2 slots form a full S3 frame torsor, all 6 perms, 216=6^3=|W(A2)|^3 each, |W(E6)|=51840. (2) THE INSTALLMENT LADDER: room after Lorentz+color up the exceptional series is E6->0 (control 16/8/0), E7->exactly 1 (a pure-Cartan u(1)=hypercharge, 35/9/1, commutes with all 14 spent), E8->exactly 8 (a fourth orthogonal A2's sl3, mod-p sandwich meeting an explicit rank-8 exhibit); the series sells the SM one layer per step 0->1->8. FENCE: this is the ambient PRICE STRUCTURE, NOT a claim the object's geometry reaches E7/E8 (the two ends E6/Q(sqrt-3) and E8/Q(sqrt5) are curvature-related, not nested). (3) THE HYPERCHARGE SPEND (G-1): of the 128 factor-preserving involutions, 16 (all in the deltaW coset) admit a gauge-row lift; the 18 Y directions (matching B1102's exact multiset) split 9+9 across the two W-orbits, no Y ever kept split, anti-sizes give the 9/6/1 hierarchy, 9 generic pairs straddle both orbits and partition all 18; cross-bench the (0,8)/(4,4)/(4,4) row = 81 pairs matches B1135's banked menu; SELF-CORRECTION carried (literal P-mirror closure only 3/9 -- the real invariant is orbit-straddling); freedom ledger down to the spin lift alone (B1122). (4) THE E8 FAMILY TRIPLET: on an independently-built correct E8 (240 roots, dim 248), each of 4 orthogonal A2 slots has E6 complement, 248=(8,1)+(1,78)+(3,27)+(3bar,27bar), the 27 entering three times; E6's 27=16+10+1 with multiplicities [1,10,16] matching B883. FENCE (held): this is the CITED-standard ALGEBRA fact (E8 > E6xSU(3)); it does NOT force the OBJECT to reach/force E8 -- that stays EXHIBITS-NOT-FORCES (B1033); '27 enters 3x' is NOT '3 generations forced'. VERIFIED this bench: own generic Chevalley builder (flipped cocycle), own W(E6)/GF(2)/signature machinery, reusing only banked e6 (B1102) + 27 (B883); all four re-derived, no discrepancy. CERT NOTE (relayed): cloud family_triplet.py's E8 Cartan matrix was transcribed asymmetric (invalid) -- verifier rebuilt correct E8, result unaffected. Cloud seat credited. Gate 5 untouched (Lie-algebra/group structure only, no SM value).  
+`B1138_structural_completion/FINDINGS.md`
 
 **NEGATIVE — `B1137`** (763 words, 1 locks)  
 THE REGULATOR PROBE (R48-3, owner-directed; sealed prereg sha f299c0da) -- DISJOINT: no SM value is a bounded-height algebraic combination of the object's higher regulators. Rung-1 (ALGEBRAICITY, not rung-4 number-matching) probe over the regulator basis {L(n,chi-3) n=1..6, zetaK(n) n=2..6 [Q(sqrt-3)], L(n,chi5) n=1..4, zetaF(n) n=2..4 [Q(sqrt5)], pi, sqrt3, sqrt5, logphi, zeta(3)} x 18 sealed SM targets (B743) x 216 cells (D<=3, H<=1e6), coefficient-height-aware + exact-verified + an involves_regulator gate; 384-cell matched null. RESULT: 0 of 18 targets involve a regulator at all; null base rate 0.0 at every H; Sidak alpha_cell=2.4e-4. The only relations found (delta_CP=4, m_s/m_d=20) are BARE INTEGERS with zero regulator content -- the V-alone tautology, caught by the gate (cleaner than V-3, which had one genuine near-miss). Controls reproduced (Vol=9sqrt3*zetaK(2)/pi^2 ~50 dig; entropy=2sqrt5*L(1,chi5)=4logphi ~96 dig -- machinery trustworthy). CLOSES the value question from the LAST route: periods (V-3), natural forms (B1129), coupling (B1128/B1132), coincidence (B1131), AND regulators (here) -- all disjoint. Terminal verdict: structure from the object (complete up to one observer conjugation into its own algebra, B1134/B1135), values from the observer (memo 18's stop-the-beat mechanism). PRECISIONS: '27-reality' is the repo term (not 'motivic classes'); B991 already proved hypercharge normalization a convention (so G-1 is not a value door); Tier B (J3(O)/Albert Beilinson regulators) NEEDS-SPECIALIST -- the repo's first stance, no prior J3(O) computation. Owner-directed, this bench; Gate 5 untouched.  

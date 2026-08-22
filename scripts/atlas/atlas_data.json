@@ -2793,6 +2793,90 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1134": {
+   "slug": "simultaneous closing",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B882",
+    "B904"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1135": {
+   "slug": "gauge closing",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1136": {
+   "slug": "genericity on the wins",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B680",
+    "B955"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1137": {
+   "slug": "regulator probe",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B743",
+    "B991"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1138": {
+   "slug": "structural completion",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B883"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B113": {
    "slug": "sl5 resolution",
    "motifs": [
@@ -23489,79 +23573,6 @@
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "dynamics"
-  },
-  "B1134": {
-   "slug": "simultaneous closing",
-   "motifs": [
-    "trace_map",
-    "eisenstein",
-    "amphichiral_cp",
-    "lorentzian",
-    "firewall"
-   ],
-   "refs": [
-    "B1114",
-    "B1127",
-    "B882"
-   ],
-   "obstacle": null,
-   "obstacle_conf": 0,
-   "status": "banked",
-   "domain": "arithmetic"
-  },
-  "B1135": {
-   "slug": "gauge closing",
-   "motifs": [
-    "trace_map",
-    "eisenstein",
-    "amphichiral_cp",
-    "firewall"
-   ],
-   "refs": [
-    "B1134",
-    "B1114",
-    "B1119"
-   ],
-   "obstacle": null,
-   "obstacle_conf": 0,
-   "status": "banked",
-   "domain": "arithmetic"
-  },
-  "B1136": {
-   "slug": "genericity on the wins",
-   "motifs": [
-    "figure_eight",
-    "trace_map",
-    "eisenstein",
-    "amphichiral_cp",
-    "firewall"
-   ],
-   "refs": [
-    "B955",
-    "B680"
-   ],
-   "obstacle": null,
-   "obstacle_conf": 0,
-   "status": "banked",
-   "domain": "topology"
-  },
-  "B1137": {
-   "slug": "regulator probe",
-   "motifs": [
-    "trace_map",
-    "eisenstein",
-    "golden",
-    "firewall"
-   ],
-   "refs": [
-    "B1126",
-    "B1129",
-    "B991"
-   ],
-   "obstacle": null,
-   "obstacle_conf": 0,
-   "status": "banked",
-   "domain": "arithmetic"
   }
  }
 }

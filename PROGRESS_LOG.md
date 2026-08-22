@@ -11157,3 +11157,22 @@ disjoint. Terminal: structure from the object, values from the observer (memo 18
 Precisions: 27-reality (repo term); B991 hypercharge=convention (G-1 not a value door);
 Tier B (J₃(𝕆) regulators) NEEDS-SPECIALIST. Gate 5 untouched. Lock
 test_b1137_regulator_probe.py.
+
+**2026-08-22 — THE STRUCTURAL COMPLETION (B1138), phase-III digest batch C.** Four cloud
+memos (11 FORK_THEOREM, 14 AMBIENT_LADDER, 13 Y_SELECTION, 15 FAMILY_TRIPLET; golden_gate
+577712f) verified TWO-BENCH — own generic Chevalley builder + own W(E₆)/GF(2)/signature
+machinery, only banked e₆ (B1102) + 27 (B883) reused; all CONFIRMED. **(1) THE FORK:**
+centralizer ladder 16/8/8/0 on e₆, slot-independent; joint centralizer = 0 → any two of
+{spacetime, color, hypercharge}, never three (grounds the B1134/B1135 FORKED correction);
+S₃ frame torsor, 216 = 6³ each, \|W(E₆)\| = 51840 (re-derived in-lock, ~4s). **(2) THE
+LADDER:** room after Lorentz+color is E₆→0 / E₇→1 (pure-Cartan u(1) = hypercharge, 35/9/1)
+/ E₈→8 (fourth A₂'s sl₃); the exceptional series sells the SM one layer per step. FENCE:
+ambient price structure, NOT object-reaches-E₇/E₈. **(3) THE Y SPEND (G-1):** 16/128
+gauge-row lifts (all in δW); 18 Y directions split 9+9, none kept split; 9/6/1 hierarchy;
+81-pair row matches B1135; self-correction carried (literal P-closure only 3/9 → the real
+invariant is orbit-straddling); ledger down to the spin lift alone (B1122). **(4) THE
+FAMILY TRIPLET:** on an independently-built E₈, 248 = (8,1)⊕(1,78)⊕(3,27)⊕(3̄,27̄), 27 enters
+3×; 27 = 16⊕10⊕1, multiplicities [1,10,16] matching B883. FENCE (held): CITED algebra fact
+(E₈⊃E₆×SU(3)); object-forcing stays EXHIBITS-NOT-FORCES (B1033). Cert note relayed (cloud
+family_triplet.py E₈ Cartan matrix asymmetric; rebuilt; result unaffected). Cloud seat
+credited. Gate 5 untouched. Lock test_b1138_structural_completion.py.

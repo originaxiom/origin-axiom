@@ -1,5 +1,51 @@
 # Changelog
 
+## THE STRUCTURAL COMPLETION (B1138, 2026-08-22): the fork theorem, the exceptional installment ladder, the hypercharge spend, and the E₈ family triplet — what the closings cost and complete, verified two-bench
+
+The phase-III digest's structural core: four of the cloud seat's memos (11 FORK_THEOREM,
+14 AMBIENT_LADDER, 13 Y_SELECTION, 15 FAMILY_TRIPLET; golden_gate 577712f), each re-derived
+on this bench with own code (own generic Chevalley builder, own W(E₆)/GF(2)/signature
+machinery, reusing only the banked e₆ [B1102] and 27 [B883]) — **all CONFIRMED, no
+discrepancy.** Integrate-don't-merge; banked as one arc.
+
+**(1) THE FORK.** On e₆, after the Lorentz double (two A₂ triples) + color (a third), the
+centralizer ladder is **16 → 8 → 8 → 0**, slot-independent (two adjacent-pair choices agree).
+The joint centralizer **= 0** is the fork: **any two of {spacetime, color, hypercharge}, never
+three** — the theorem that grounds the B1134/B1135 correction (the closing is FORKED: spacetime
+E₆(−26) XOR gauge E₆(−14), not one act). The three A₂ slots form a full **S₃ frame torsor** (all
+6 permutations, 216 = 6³ = \|W(A₂)\|³ each, \|W(E₆)\| = 51840). Re-derived independently on this
+bench (verify_memo11_fork.py, in the lock, ~4s).
+
+**(2) THE INSTALLMENT LADDER.** Room left after buying Lorentz + color, up the exceptional
+series: **E₆ → 0** (control, 16/8/0), **E₇ → exactly 1** (a pure-Cartan u(1) = hypercharge;
+35/9/1; commutes with all 14 spent generators), **E₈ → exactly 8** (a fourth orthogonal A₂'s
+sl₃; mod-p sandwich meeting an explicit rank-8 commuting exhibit). The series sells the SM one
+layer per step: **0 → 1 → 8.** FENCE: this is the ambient **price structure**, NOT a claim the
+object's geometry reaches E₇/E₈ (the two ends E₆/ℚ(√−3) and E₈/ℚ(√5) are curvature-related, not
+nested).
+
+**(3) THE HYPERCHARGE SPEND (G-1).** Of the 128 factor-preserving involutions, **16 (all in the
+δW coset)** admit a gauge-row lift; the 18 hypercharge directions (matching B1102's exact
+multiset) split **9 + 9** across the two W-orbits, **no Y ever kept split**, the anti-set sizes
+give the **9/6/1** hierarchy, and the 9 generic pairs straddle both orbits and partition all 18.
+The (0,8)/(4,4)/(4,4) row = **81 pairs**, exact match to B1135's banked menu. **Self-correction
+carried:** literal P-mirror closure holds for only 3/9 pairs — the real invariant is
+orbit-straddling (the cloud seat's own retraction, confirmed). The freedom ledger is down to the
+spin lift alone (B1122).
+
+**(4) THE E₈ FAMILY TRIPLET.** On an independently-built correct E₈ (240 roots, dim 248), each
+of 4 orthogonal A₂ slots has E₆ complement and **248 = (8,1)⊕(1,78)⊕(3,27)⊕(3̄,27̄)** — the 27
+entering **three** times, indexed by the family A₂; E₆'s 27 = 16⊕10⊕1 with multiplicities
+**[1,10,16]** matching B883. FENCE (held): this is the **CITED-standard ALGEBRA fact** (E₈ ⊃
+E₆×SU(3)); it does NOT force the object to reach/force E₈ — that stays **EXHIBITS-NOT-FORCES**
+(B1033). "The 27 enters 3×" is NOT "3 generations forced."
+
+**Cert note (relayed to cloud seat):** `family_triplet.py`'s transcribed E₈ Cartan matrix was
+asymmetric (invalid simply-laced) — the verifier rebuilt correct E₈ data independently and the
+result stands; the cloud cert should be corrected (result unaffected). Cloud seat credited.
+Gate 5 untouched (Lie-algebra/group structure only, no SM value). Lock
+`tests/test_b1138_structural_completion.py`.
+
 ## THE REGULATOR DOOR CLOSES (B1137, R48-3, 2026-08-22): no SM value is algebraic over the object's higher regulators — the value question's last route, DISJOINT
 
 Owner-directed ("check whether it gives them as regulators — a proper probe"), run against a

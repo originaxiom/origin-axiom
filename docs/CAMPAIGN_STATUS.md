@@ -16,15 +16,29 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-22, B1138)**: THE STRUCTURAL COMPLETION — the phase-III
+digest's structural core, four cloud memos verified two-bench (own code, no
+discrepancy). **THE FORK THEOREM** (memo 11): the centralizer ladder 16/8/8/0
+on e₆, joint centralizer = 0 → the observer gets **any two of {spacetime, color,
+hypercharge}, never three** — so the real-structure closing is **FORKED**
+(spacetime E₆(−26) XOR gauge E₆(−14)), correcting the earlier "one conjugation
+for the whole bill." **THE INSTALLMENT LADDER** (memo 14): room 0/1/8 up E₆/E₇/E₈
+(E₇ = one pure-Cartan hypercharge u(1), E₈ = the fourth A₂) — the exceptional
+series sells the SM one layer per step (price structure; object-reaching-E₇/E₈
+OPEN). **THE Y SPEND** (memo 13) + **THE FAMILY TRIPLET** (memo 15, 27×3, algebra
+fact, EXHIBITS-NOT-FORCES fence held). Lock test_b1138_structural_completion.py.
+
 **LATEST (2026-08-22, REVIEW 48)**: the decadal review (COLD, three
 fresh-eyes agents over B1100–B1134) — math/overclaim ZERO findings; three
 procedural gaps fixed (E49; the B1101 lock; the value-wave input-completeness
 audit); five deep surfaces threaded to current state. Window banked: the value
 campaign + wave + remainders (value question CLOSED — disjoint on periods,
-"physics-shaped, not physics-valued") and **B1134 THE SIMULTANEOUS CLOSING**
-(the observer's whole real-structure bill is ONE conjugation, forced into
-E₆(−26)=M(𝕆,ℂ)). Counter reset at 79e513a9; next frontier = values-as-regulators
-(R48-3). See docs/progress/REVIEWS.md Review 48.
+"physics-shaped, not physics-valued") and **B1134 THE SIMULTANEOUS CLOSING** — one
+conjugation buys so(3,1) + compact su(3) TOGETHER, forced into E₆(−26)=M(𝕆,ℂ)
+(scoped by B1138's fork: this is the {Lorentz, color} pair; the full real-structure
+bill is FORKED, not one act — spacetime E₆(−26) XOR gauge E₆(−14)). Counter reset
+at 79e513a9; next frontier = values-as-regulators (R48-3). See
+docs/progress/REVIEWS.md Review 48.
 
 **LATEST (2026-08-20, REVIEW 47)**: the 46-merge window reviewed;
 B1071-v2's seal hash cell found mis-transcribed and repaired

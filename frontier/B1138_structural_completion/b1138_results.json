@@ -1,0 +1,77 @@
+{
+  "provenance": "two-bench verification of cloud memos 11/14/13/15 (golden_gate 577712f); own code, banked e6 (B1102) + 27 (B883) reused; details in verification/",
+  "memo11_fork": {
+    "z_ladder": [
+      16,
+      8,
+      8,
+      0
+    ],
+    "joint_centralizer": 0,
+    "W_E6": 51840,
+    "S3_torsor_per_perm": 216,
+    "perms_realized": 6
+  },
+  "memo14_ladder": {
+    "room_E6": 0,
+    "room_E7": 1,
+    "room_E8": 8,
+    "E6_control": [
+      16,
+      8,
+      0
+    ],
+    "E7_ladder": [
+      35,
+      9,
+      1
+    ],
+    "E7_room_pure_cartan": true,
+    "E8_room": 8,
+    "roots": {
+      "E6": 72,
+      "E7": 126,
+      "E8": 240
+    },
+    "dims": {
+      "E6": 78,
+      "E7": 133,
+      "E8": 248
+    }
+  },
+  "memo13_yselect": {
+    "n_Y": 18,
+    "orbit_split": [
+      9,
+      9
+    ],
+    "factor_preserving_involutions": 128,
+    "gauge_row_lifts": 16,
+    "gauge_row_lifts_in_dW": 16,
+    "gauge_row_pairs": 81,
+    "anti_hierarchy": {
+      "9": 2,
+      "6": 6,
+      "1": 18
+    },
+    "pairs_partition_18": true,
+    "no_Y_split": true,
+    "P_closure_literal": "3/9",
+    "real_invariant": "orbit-straddling"
+  },
+  "memo15_family": {
+    "E8_dim": 248,
+    "decomp": "(8,1)+(1,78)+(3,27)+(3bar,27bar)",
+    "dim_check": 248,
+    "twenty7_enters": 3,
+    "A2_slots": 4,
+    "27_branching": "16+10+1",
+    "charge_multiset": {
+      "4": 1,
+      "-2": 10,
+      "1": 16
+    },
+    "fence": "ALGEBRA fact (E8>E6xSU3, cited); object-forcing EXHIBITS-NOT-FORCES (B1033)"
+  },
+  "cert_note": "cloud family_triplet.py E8 Cartan matrix transcribed asymmetric (invalid); verifier rebuilt correct E8; result unaffected; relayed"
+}
