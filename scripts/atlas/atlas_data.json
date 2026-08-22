@@ -23508,6 +23508,24 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1135": {
+   "slug": "gauge closing",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B1134",
+    "B1114",
+    "B1119"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
   }
  }
 }

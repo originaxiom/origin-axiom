@@ -1,0 +1,63 @@
+{
+  "provenance": "independent verification of golden_gate 943db85 (cloud seat twelfth memo, cell F-1, GAUGE_CLOSING.md); own-authored sweep; trusted e6 = B1102 vendored module; reused-design infra from B1134's own script",
+  "n_factor_preserving_involutions": 128,
+  "n_inW": 64,
+  "n_outer": 64,
+  "n_pairs_total": 2000,
+  "elements_with_no_lift": 0,
+  "menu": {
+    "((5, 3), (5, 3), (5, 3))|+6": 1000,
+    "((4, 4), (4, 4), (4, 4))|+2": 729,
+    "((4, 4), (0, 8), (4, 4))|-14": 81,
+    "((0, 8), (4, 4), (4, 4))|-14": 81,
+    "((0, 8), (0, 8), (4, 4))|+2": 9,
+    "((4, 4), (4, 4), (0, 8))|-14": 81,
+    "((4, 4), (0, 8), (0, 8))|+2": 9,
+    "((0, 8), (4, 4), (0, 8))|+2": 9,
+    "((0, 8), (0, 8), (0, 8))|-78": 1
+  },
+  "w_coset_sterile_tally": {
+    "((5, 3), (5, 3), (5, 3))|+6": 1000
+  },
+  "dw_coset_tally": {
+    "((4, 4), (4, 4), (4, 4))|+2": 729,
+    "((4, 4), (0, 8), (4, 4))|-14": 81,
+    "((0, 8), (4, 4), (4, 4))|-14": 81,
+    "((0, 8), (0, 8), (4, 4))|+2": 9,
+    "((4, 4), (4, 4), (0, 8))|-14": 81,
+    "((4, 4), (0, 8), (0, 8))|+2": 9,
+    "((0, 8), (4, 4), (0, 8))|+2": 9,
+    "((0, 8), (0, 8), (0, 8))|-78": 1
+  },
+  "compact_count_to_char": {
+    "(0, 2)": 729,
+    "(1, -14)": 243,
+    "(2, 2)": 27,
+    "(3, -78)": 1
+  },
+  "k1_row": {
+    "n": 243,
+    "chars": {
+      "-14": 243
+    },
+    "other_slot_sigs": {
+      "((4, 4), (4, 4))": 243
+    },
+    "global_compact_dim": {
+      "46": 243
+    },
+    "representative_full3003_failures": 0,
+    "compact_slot_positions": {
+      "1": 81,
+      "0": 81,
+      "2": 81
+    }
+  },
+  "checksum_chars_witnessed": {
+    "6": 1000,
+    "2": 756,
+    "-14": 243,
+    "-78": 1
+  },
+  "checksum_compact_dim_mismatches": 0
+}

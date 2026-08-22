@@ -1,5 +1,31 @@
 # Changelog
 
+## THE GAUGE CLOSING (B1135, 2026-08-22): the factor-preserving branch closes into E₆(−14) (SO(10) GUT heart), completing the real-form taxonomy
+
+The cloud seat's twelfth memo (F-1, golden_gate `943db85`), verified TWO-BENCH with no
+discrepancy and banked — the factor-PRESERVING complement of B1134. Sweeping all 128
+factor-preserving involutions of Aut(Φ(E₆))=W∪δW × involutive signed lifts (2000
+conjugations) closes the object's GAUGE branch. **The W coset is sterile** (all 1000 →
+(sl(3,ℝ))³ in split E₆(6); gauge compactness requires the 27↔27̄ diagram flip). **The flip
+coset factorizes (9+1)³** — each A2 independently → 9 su(2,1) + exactly 1 compact su(3)
+(verified per-slot 9:1, multiplicative independence; sl(3,ℝ) never on the flip side) — and
+the global form is a function of the compact-slot count alone: 0→E₆(2), 1→**E₆(−14)**,
+2→E₆(2), 3→E₆(−78). **The physics row (one compact slot):** color compact su(3), the other
+two slots su(2,1) (max compact u(2)=SU(2)×U(1), a complex doublet's worth of non-compact
+directions), global host **E₆(−14)** whose maximal compact is **so(10)⊕u(1)** — the
+one-family SO(10) GUT (27=16⊕10⊕1, cited). **The fork now has real-form labels** — spacetime
+→ E₆(−26)=M(𝕆,ℂ) (B1134), gauge → E₆(−14), unclosed = split E₆(6), mixed → E₆(2), total →
+E₆(−78) — so **B1119's checksum set {−78,−26,−14,+2,+6} is a functional taxonomy: the five
+real forms of E₆ are the five things an observer can do to the object** (the compact-dim
+signature {36,38,46,52,78} matches on all 2000 pairs; −26 correctly absent, it needs the
+swap). Verified this bench with own factor-preserving involution search + own generalized
+per-slot signature + own GF(2) solver (only B1102's Chevalley e₆ imported); digit-for-digit,
+no correction needed. FENCES: the slot→physics assignment is a frame choice (clean 3-fold
+symmetry); the Higgs-doublet and one-family readings interpretive; 27=16⊕10⊕1 cited-standard.
+STRUCTURE only, no SM number. Open (G-1 greenlit): the Y-selection — do B1102's 18
+hypercharge directions land σ-compatibly in the gauge closing's u(2)? Cloud seat credited.
+Gate 5 untouched. Lock `tests/test_b1135_gauge_closing.py`.
+
 ## THE SIMULTANEOUS CLOSING (B1134, 2026-08-22): one conjugation buys so(3,1) + compact su(3), forced into the object's own M(𝕆,ℂ)
 
 The cloud seat's tenth memo (golden_gate `3e65114`), verified TWO-BENCH and

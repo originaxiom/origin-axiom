@@ -11113,3 +11113,21 @@ neither torsor" by 4) — the truth is stronger. Structure only (no SM number;
 period-disjointness untouched); sharpens the values-as-regulators door (real
 form forced to J₃(𝕆); 64 fixed dims the untested target, firewalled). Cloud
 seat credited. Lock test_b1134_simultaneous_closing.py.
+
+**2026-08-22 — THE GAUGE CLOSING (B1135).** The cloud seat's twelfth memo (F-1,
+golden_gate 943db85), verified two-bench (no discrepancy) and banked — the
+factor-PRESERVING complement of B1134. 128 factor-preserving involutions of
+Aut(Φ(E₆))=W∪δW × signed lifts (2000) close the GAUGE branch. W coset STERILE
+(all → (sl(3,ℝ))³, χ=+6; compactness needs the 27↔27̄ flip); flip coset factorizes
+(9+1)³ (each A2 → 9 su(2,1) + 1 compact su(3), per-slot 9:1; sl(3,ℝ) never); global
+form by compact count {0→+2, 1→−14, 2→+2, 3→−78}. Physics row (one compact, 243,
+χ=−14): color su(3) + two su(2,1) (max compact u(2)) → E₆(−14) (max compact so(10)⊕u(1)
+— one-family SO(10) GUT; 27=16⊕10⊕1 cited). THE FORK NOW HAS REAL-FORM LABELS
+(spacetime E₆(−26)=M(𝕆,ℂ), gauge E₆(−14), unclosed split E₆(6), mixed E₆(2), total
+E₆(−78)) → B1119's checksum {−78,−26,−14,+2,+6} is a FUNCTIONAL TAXONOMY: five real
+forms = five observer jobs (compact-dim {36,38,46,52,78} matches all 2000; −26 absent,
+needs the swap). Re-derived this bench (own factor-preserving search + own per-slot
+signature + own GF(2) solver; only B1102's e₆ imported). FENCES: slot→physics a frame
+choice (3-fold symmetric); Higgs/family interpretive; 27=16⊕10⊕1 cited. Structure only,
+no SM number. Open (G-1 greenlit): the Y-selection on the E₆(−14) branch. Cloud seat
+credited. Lock test_b1135_gauge_closing.py.
