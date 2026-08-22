@@ -50,6 +50,10 @@ SINGLE term**, and its saddle matches `Vol(4₁)` to `3.9×10⁻³¹`. **That is
 > **`WORKING_RULES` §0 again — *"we lack X" is a hypothesis requiring a search* — and the seat that
 > broke it is this one, in its own audit.**
 
+## ⚠ CORRECTION 2026-08-22 — this identity was ALREADY BANKED, as B680
+
+**`Vol(4₁) = (3√3/2)·L(χ₋₃,2)` is B680**, which proved it and named it *the being-character L-value*. This arc recomputed it from the state-integral saddle **without searching for it**, and presented it as though the saddle established it. **The mathematics is unaffected and the recomputation is correct; the attribution was not.** Worse, when cc's B1117 stated the same identity as `9√3·ζ_K(2)/π²` I called it *two seats, two routes, one anchor* — it was **three routes to a result banked in B680**. `WORKING_RULES` §0, by the seat that spent the day cataloguing §0 failures.
+
 ## The theory is parameter-free in a strong sense
 
 Recomputed here independently of B787: the saddle is the regular ideal tetrahedron `z = e^{iπ/3}`,

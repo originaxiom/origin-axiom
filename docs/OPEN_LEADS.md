@@ -2008,6 +2008,12 @@ The arithmetic-CS analogue of the volume term was fenced *awaiting a further own
 
 The re-typing in B8114 said the fetch had not been made. **It was made the same day.** Arithmetic Chern–Simons theory is **finite-group-valued by construction** — action in `(1/n)ℤ/ℤ`, machinery étale-cohomological — so it **supplies exactly the term the object has proved to be zero and lacks entirely the volume**. **C5 is closed, negatively.**
 
+## ⚠ L8002 — NOVELTY WITHDRAWN 2026-08-22: this door opens onto OCCUPIED ground
+
+**L8002 was registered as the successor to the C5 negative without searching the corpus's own regulator material. That search now runs, and the ground is occupied:** **B680** identifies `Vol(4₁)` with the **K₃ Borel regulator** `L(χ₋₃,2)`; **B683** settles the `m(A_{4₁})` / `L'(E₁₅,0)` question; and `HINT_LEDGER` already carries a **Beilinson-regulator** lead. **The Arakelov framing is not a new door — it is a name for a neighbourhood the corpus already occupies.** What may still be new is the specific bridge (holomorphic Quillen torsion vs the **real** Ray–Singer torsion of B8112), and that remains as stated below. **The claim to be a fresh successor is withdrawn; the lead is now a cross-reference.**
+
+---
+
 ## L8002 — ARAKELOV, NOT ARITHMETIC CS (successor to the C5 negative)
 
 **Status: OPEN, registered UNPROVED, and deliberately not banked as a connection.**
