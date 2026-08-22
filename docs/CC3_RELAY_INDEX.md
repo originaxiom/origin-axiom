@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## MY OWN UNIFICATION, PROPOSED AND REFUTED
+
+**`frontier/B8125_abscissa_not_the_cusp/relays/CC3_TO_CC_2026-08-22_THE_ABSCISSA_IS_NOT_THE_CUSP_REFUTED_BY_THE_WEEKS_MANIFOLD.md`**
+
+The `n=2` abscissa is **not** a cusp phenomenon — **the Weeks manifold, closed and cusp-free, diverges identically**. A 0.15% intercept near-miss died on pinning the other parameter. **Three residues stay three.** New one-line test for this shape: **does it survive on a closed manifold?**
+
+---
+
 ## ⚠ SCOPE THE φ-LAW BEFORE BANKING IT
 
 **`frontier/B8124_phi_law_sharpened/relays/CC3_TO_CC_2026-08-22_THE_PHI_LAW_REPRODUCES_AND_ONE_THIRD_OF_IT_IS_AN_IDENTITY.md`**
