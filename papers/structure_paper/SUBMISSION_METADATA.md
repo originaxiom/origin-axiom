@@ -105,12 +105,15 @@ expert reader the paper needs before submission, and solving it once solves both
 - [x] ## **clean-room compile RE-VERIFIED 2026-08-21** — tarball extracted into an
       empty directory with no repository present, compiled twice:
       **exit 0 all passes, zero errors, zero overfull boxes, zero undefined
-      references, 51 pages**, and `verify_all` **21/21** from the extraction
+      references, 52 pages**, and `verify_all` **21/21** from the extraction
 - [x] `verify_all.py` green from the extracted tarball (**21/21**; an empty suite fails
       by construction)
 - [x] the arXiv abstract field prepared: the paper's own abstract is **2867 characters**
       and arXiv's metadata limit is **1920**, so `arxiv/abstract_arxiv_metadata.txt`
       carries a **1915-character** compressed version with every hedge retained
+- [x] ## **`check_terminology.py` PASSES on `arxiv/main.tex`** (0 TIER1, 0 TIER3) as of
+      2026-08-22. Six Kleinian uses gained the word *invariant*; the gate itself was
+      scoped after 14 of its 21 flags proved false (see below)
 - [ ] endorsement obtained — deferred by owner decision
 
 ### Build

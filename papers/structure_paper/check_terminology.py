@@ -54,7 +54,12 @@ TIER3 = {
     "level": ([r"congruence[- ]level", r"Chern[-–]Simons[- ]level"],
               "congruence level vs Chern-Simons level k",
               r"level[-\s]*\(?\s*\d|\d\s*[-]?\s*level|level\s*k\b"),
-    "trace field": ([r"Kleinian trace field", r"fiber field", r"fiber/eigenvalue"],
+    # "invariant trace field" is the standard term of art in Kleinian group theory and
+    # names the Kleinian referent unambiguously; omitting it made this gate flag the
+    # CORRECT term as bare -- 9 of 16 hits on 2026-08-22 were false positives, which is
+    # exactly the noise this file's own header warns trains an author to skim it.
+    "trace field": ([r"Kleinian trace field", r"invariant trace field",
+                     r"fiber field", r"fiber/eigenvalue"],
                     "fiber/eigenvalue field vs the Kleinian trace field"),
     "theta-even": ([r"theta-even exponents", r"theta-even value set"],
                    "the F4 exponent set vs B1011's mirror value set"),
@@ -64,7 +69,8 @@ TIER3 = {
 BARE_SYMBOLS = {
     r"(?<![A-Za-z_0-9])c(?![A-Za-z_0-9(_])": (
         [r"c\(\(E", r"c_BH", r"c_\{", r"c_stage", r"c\s*=\s*6\s*sigma"],
-        "c names FOUR referents near the gravity lane"),
+        "c names FOUR referents near the gravity lane",
+        r"central charge|Brown|Henneaux|Virasoro|boundary\s+charge|6\s*\\?sigma"),
     r"(?<![A-Za-z_\\])sigma(?![A-Za-z_])": (
         [r"sigma_grav", r"sigma_stage", r"sigma_\{", r"R.?L swap"],
         "sigma names THREE quantities"),
@@ -98,7 +104,10 @@ def scan(path):
         for term, sub in TIER1.items():
             if term.lower() in low:
                 hits.append(("TIER1", i, term, f"use: {sub}"))
-        line = mask_paths(raw)
+        # USE vs MENTION: a term inside LaTeX quotes ``...'' is being discussed, not
+        # used -- the paper's own "a terminology warning" remark quotes ``conductor''
+        # in order to disambiguate it, and flagging that trains the author to skim.
+        line = re.sub(r"``[^']*''", " ", mask_paths(raw))
         low_masked = line.lower()
         for term, spec in TIER3.items():
             quals, why = spec[0], spec[1]
@@ -107,7 +116,16 @@ def scan(path):
                        else (term.lower() in low_masked))
             if present and not any(re.search(q, line, re.I) for q in quals):
                 hits.append(("TIER3", i, term, why))
-        for pat, (quals, why) in BARE_SYMBOLS.items():
+        for pat, spec in BARE_SYMBOLS.items():
+            quals, why = spec[0], spec[1]
+            lane = spec[2] if len(spec) > 2 else None
+            # A bare-symbol rule whose stated hazard is "near the gravity lane" must
+            # only fire near the gravity lane. Unscoped, `c` matched a matrix entry
+            # (c, d-a, -b), a bound variable c in C, and the quaternion coefficient in
+            # a+bi+cj+dk -- 4 of 4 hits false on 2026-08-22. A gate at 100% false
+            # positive on a rule is a gate that rule-users learn to ignore.
+            if lane is not None and not re.search(lane, line, re.I):
+                continue
             if re.search(pat, line):
                 if not any(re.search(q, line, re.I) for q in quals):
                     hits.append(("TIER3", i, pat, why))
