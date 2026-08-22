@@ -2877,6 +2877,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1139": {
+   "slug": "symmetry point table",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B883",
+    "B991"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B113": {
    "slug": "sl5 resolution",
    "motifs": [

@@ -16,6 +16,18 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-22, B1139)**: THE SYMMETRY-POINT TABLE — the phase-III
+digest's value core (the value-completing campaign's Lane A), cloud memos 23/24
+verified two-bench, each datum honestly TYPED. The closing's charge table is
+**one SM generation** (QUANTIZED; 27 states, Q multiset {0:5, ±1:2, ±⅓:6, ±⅔:3}).
+**sin²θ_W = 3/8** (Tr T₃L²=3, Tr Q²=8, closing-independent) is TYPED AS A
+**REPRODUCTION** — forced-direction + B991-convention normalization, not a fresh
+emission. The **8 anomaly traces = 0** is the **general E₆ anomaly-freedom theorem
+realized** on the closing's charges (e₆ has no degree-3 invariant — a consistency
+check, not a forcing). Honest negative: naive B−L = 2(Y−T₃R) is unphysical (the
+physical B−L is a different Cartan = open cell SP-1). Lock
+test_b1139_symmetry_point_table.py.
+
 **LATEST (2026-08-22, B1138)**: THE STRUCTURAL COMPLETION — the phase-III
 digest's structural core, four cloud memos verified two-bench (own code, no
 discrepancy). **THE FORK THEOREM** (memo 11): the centralizer ladder 16/8/8/0

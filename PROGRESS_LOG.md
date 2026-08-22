@@ -11176,3 +11176,19 @@ FAMILY TRIPLET:** on an independently-built E₈, 248 = (8,1)⊕(1,78)⊕(3,27)�
 (E₈⊃E₆×SU(3)); object-forcing stays EXHIBITS-NOT-FORCES (B1033). Cert note relayed (cloud
 family_triplet.py E₈ Cartan matrix asymmetric; rebuilt; result unaffected). Cloud seat
 credited. Gate 5 untouched. Lock test_b1138_structural_completion.py.
+
+**2026-08-22 — THE SYMMETRY-POINT TABLE (B1139), phase-III digest batch A = the value
+campaign's Lane A.** Cloud memos 23 (WEINBERG_POINT) + 24 (SM_TABLE), golden_gate 577712f,
+verified TWO-BENCH — own crystal-of-ω₁ BFS for the 27, own fresh trinification decomposition,
+own exhaustive assignment search pinned non-circularly by B1102's 6Y multiset; banked e₆
+(B1102) + B883's build_27 (executed live, byte-identical, zero net repo change) reused; repo
+tree untouched. Each datum TYPED: **(1)** the EW table = ONE SM generation (QUANTIZED) —
+byte-identical to the cloud cert, 27 states, Q multiset {0:5, ±1:2, ±⅓:6, ±⅔:3}, 18 colored +
+9 singlets. **(2)** sin²θ_W = 3/8 (Tr T₃L²=3, Tr Q²=8, closing-independent 72/72) TYPED AS A
+REPRODUCTION — forced-direction + B991-convention normalization, NOT a fresh emission. **(3)**
+the 8 anomaly traces = 0, honestly scoped: e₆ has no degree-3 invariant (degrees 2,5,6,8,9,12),
+so the cubic vanishing is the GENERAL E₆ anomaly-freedom theorem realized on the closing's
+charges — a consistency check, not a forcing. **(4)** naive B−L = 2(Y−T₃R) UNPHYSICAL (5/3,
+−4/3, ±2); the physical B−L = a different Cartan, the open cell SP-1 (memo 25). FENCES: no
+measured value entered; state-name labels a CITED dictionary; Gate 5 untouched. Cloud seat
+credited. Lock test_b1139_symmetry_point_table.py.

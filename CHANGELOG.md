@@ -1,5 +1,39 @@
 # Changelog
 
+## THE SYMMETRY-POINT TABLE (B1139, 2026-08-22): one SM generation, sin²θ_W = 3/8 typed as a reproduction, anomaly-freedom as the realized E₆ theorem, the honest naive-B−L negative — the value campaign's Lane A, verified two-bench
+
+The phase-III digest's value core (Lane A of the value-completing campaign): cloud memos 23
+(WEINBERG_POINT) + 24 (SM_TABLE), golden_gate 577712f, re-derived on this bench with own code
+(own crystal-of-ω₁ BFS for the 27's weights in the vendored e₆ frame; own fresh trinification
+decomposition; own exhaustive, well-posed assignment search pinned non-circularly by B1102's
+independently-banked 6Y multiset), reusing only the banked e₆ (B1102) and B883's build_27
+(actually EXECUTED as a live cross-check — byte-identical, zero net repo change). All
+CONFIRMED. **Each datum honestly TYPED** per the campaign's grammar:
+
+- **The EW table = one SM generation (QUANTIZED).** The 15-row (color, T₃L, T₃R, Y, Q, B−L)
+  table is byte-identical to the cloud certificate; **27 states, Q multiset {0:5, ±1:2, ±⅓:6,
+  ±⅔:3}** (18 colored + 9 singlets; Q_L doublet at Y=⅙, the vector-like exotic D-quark at
+  Y=−⅓, the 9-singlet trinification bidoublet grid with the e^c-role state).
+- **sin²θ_W = 3/8 (memo 23) — a REPRODUCTION, not a fresh emission.** On the same assignment,
+  **Tr T₃L² = 3, Tr Q² = 8 → sin²θ_W = 3/8** (exact, closing-independent 72/72). The honest
+  type: the *direction* (the hypercharge line, hence the ratio) is FORCED, but the
+  *normalization* (the "/6" fixing the scale) is exactly what **B991 proved is a convention**
+  (anomaly-homogeneous q→λq) — so 3/8 is **FORCED-DIRECTION + ASSUMED-NORMALIZATION**, the
+  canonical GUT value the object is consistent with, not a number it emits.
+- **The 8 anomaly traces = 0 (memo 24) — the realized E₆ theorem, honestly scoped.** All eight
+  vanish exactly, but e₆'s invariant degrees are **2, 5, 6, 8, 9, 12** (no degree-3 invariant,
+  verified), so Tr(X)³ = 0 for *any* Cartan element (spot-checked on a random non-physical
+  one). The vanishing is the **general E₆ anomaly-freedom theorem realized on the closing's
+  charges** — a consistency check, as memo 24 itself frames it, not a fresh forcing.
+- **naive B−L = 2(Y−T₃R) is UNPHYSICAL (honest negative).** Unphysical members 5/3, −4/3
+  (colored) and ±2 (singlets); the physical B−L is a different Cartan = the open cell **SP-1**
+  (memo 25). B−L as a quantity is not denied — the naive relation is.
+
+FENCES: no measured value entered (pure group theory/quantization); state-name labels a CITED
+dictionary on exact rows; the repo tree was untouched by the verification (git clean before and
+after). Cloud seat credited. Gate 5 untouched. Lock
+`tests/test_b1139_symmetry_point_table.py`.
+
 ## THE STRUCTURAL COMPLETION (B1138, 2026-08-22): the fork theorem, the exceptional installment ladder, the hypercharge spend, and the E₈ family triplet — what the closings cost and complete, verified two-bench
 
 The phase-III digest's structural core: four of the cloud seat's memos (11 FORK_THEOREM,

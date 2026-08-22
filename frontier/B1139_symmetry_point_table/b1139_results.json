@@ -1,0 +1,73 @@
+{
+  "provenance": "two-bench verification of cloud memos 23 (WEINBERG_POINT) + 24 (SM_TABLE), golden_gate 577712f; own code, banked e6 (B1102) + build_27 (B883) reused (build_27 actually executed as a live cross-check); details in verification/verify_sm_table.py (OA_SLOW, >2min: exhaustive assignment search + B883 subprocess)",
+  "table": {
+    "n_states": 27,
+    "Q_value_set": [
+      "-1",
+      "-2/3",
+      "-1/3",
+      "0",
+      "1/3",
+      "2/3",
+      "1"
+    ],
+    "Q_multiset": {
+      "0": 5,
+      "1": 2,
+      "-1": 2,
+      "1/3": 6,
+      "-1/3": 6,
+      "2/3": 3,
+      "-2/3": 3
+    },
+    "multiset_sum_check": 27,
+    "is_one_SM_generation": true,
+    "colored_states": 18,
+    "singlet_states": 9,
+    "y_multiset_matches_B1102": true
+  },
+  "weinberg_memo23": {
+    "Tr_T3L2": 3,
+    "Tr_Q2": 8,
+    "sin2_theta_W": "3/8",
+    "closing_independent": "72/72",
+    "typing": "REPRODUCTION = FORCED-DIRECTION (Tr T3L^2 / Tr Q^2 on the closing charges) + ASSUMED-NORMALIZATION (the /6 that fixes the hypercharge scale is a B991 convention, not derivable); NOT a fresh emission"
+  },
+  "anomaly_memo24": {
+    "eight_traces_all_zero": [
+      "Tr_Y",
+      "Tr_Y3",
+      "Tr_T3L2_Y",
+      "Tr_Q",
+      "Tr_Q3",
+      "Tr_BL",
+      "Tr_BL3",
+      "Tr_T3R2_Y"
+    ],
+    "all_exactly_zero": true,
+    "e6_invariant_degrees": [
+      2,
+      5,
+      6,
+      8,
+      9,
+      12
+    ],
+    "no_degree_3_invariant": true,
+    "honest_scope": "the cubic-trace vanishing is the GENERAL E6 anomaly-freedom theorem (no degree-3 invariant => Tr(X)^3=0 for ANY Cartan element, spot-checked on a random non-physical element), REALIZED on the closings charges -- a consistency check, not a fresh forcing (as memo 24 itself frames it)"
+  },
+  "naive_BL_negative_memo24": {
+    "relation": "B-L = 2(Y - T3R)",
+    "verdict": "UNPHYSICAL",
+    "unphysical_colored": [
+      "5/3",
+      "-4/3"
+    ],
+    "unphysical_singlet": [
+      "2",
+      "-2"
+    ],
+    "note": "B-L as a QUANTITY is not denied; the naive RELATION fails; a different Cartan combination = the open typed cell SP-1 (B-L 4th Cartan)"
+  },
+  "fences": "no measured value entered (pure group theory/quantization); state-name labels (Q_L, e^c, D-quark) are a CITED dictionary on exact rows; Gate 5 untouched"
+}
