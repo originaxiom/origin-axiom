@@ -11144,3 +11144,16 @@ sharper than the paper's (R48-11). Re-derived this bench (own shape-field scan +
 SnapPy table; separators=['h1_is_Z']; both cc3 bugs reproduced). Scope notes (not
 retractions): B680 Vol identity + amphichirality are family-level. Cloud/cc3 credited.
 Gate 5 untouched. Lock test_b1136_genericity.py.
+
+**2026-08-22 — THE REGULATOR DOOR CLOSES (B1137, R48-3).** Owner-directed, sealed
+prereg (sha f299c0da). Rung-1 ALGEBRAICITY probe: is any SM value a bounded-height
+algebraic combination of the object's higher regulators (ζ_K(n)/L(n,χ₋₃),
+ζ_F(n)/L(n,χ₅), π,√3,√5,logφ,ζ(3))? 18 sealed SM targets × 216 cells (D≤3, H≤10⁶) +
+384-cell matched null. **DISJOINT:** 0/18 targets involve a regulator; null base rate
+0.0; the only relations (δ_CP=4, m_s/m_d=20) are bare integers (V-alone tautology, gated
+out). Controls reproduced (Vol ~50 dig, entropy ~96 dig). CLOSES the value question from
+the last route — periods + natural forms + coupling + coincidence + regulators, all
+disjoint. Terminal: structure from the object, values from the observer (memo 18).
+Precisions: 27-reality (repo term); B991 hypercharge=convention (G-1 not a value door);
+Tier B (J₃(𝕆) regulators) NEEDS-SPECIALIST. Gate 5 untouched. Lock
+test_b1137_regulator_probe.py.

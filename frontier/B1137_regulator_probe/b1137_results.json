@@ -1,0 +1,18 @@
+{
+  "overall_verdict": "DISJOINT",
+  "n_targets": 18,
+  "n_targets_with_regulator_relation": 0,
+  "null_base_rates_by_H": {
+    "100": 0.0,
+    "1000": 0.0,
+    "10000": 0.0,
+    "1000000": 0.0
+  },
+  "alpha_cell_sidak": 0.00023744076197729225,
+  "near_misses": {
+    "delta_CP": "V=4 (bare integer, zero regulator content)",
+    "m_s/m_d": "V=20 (bare integer, zero regulator content)"
+  },
+  "tier_B": "NEEDS-SPECIALIST: Beilinson regulators of J3(O)/Albert-algebra (27-reality) classes; no prior repo computation; first stance",
+  "controls": "Vol=9*sqrt3*zetaK(2)/pi^2 reproduced ~50 dig; entropy=2*sqrt5*L(1,chi5)=4logphi reproduced ~96 dig"
+}

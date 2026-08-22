@@ -4170,10 +4170,13 @@ R48-6.
 - [ ] R48-2: integrate cc3's golden-meridian refinement (B8124 "one-third is a reciprocal
   identity" + B8126 the Pauli-components split) — VERIFY on-bench, then scope the
   T-GOLDEN-MERIDIAN row to the off-tone (w_x, w_z) components (owner: banking seat)
-- [ ] R48-3: **THE VALUES-AS-REGULATORS DOOR** — the campaign's named next frontier: compute
+- [x] R48-3: **THE VALUES-AS-REGULATORS DOOR** — the campaign's named next frontier: compute
   the reachable-and-untested regulators (ζ_K(3), ζ_K(4), the rank-1 ℚ(√−3) ladder; ζ_F(3) at
   the E₈ end) in the FORCED J₃(𝕆) domain (the 64 fixed dims of B1134's closing); sealed scan
-  against SM ratios, firewalled until computed (owner: banking seat)
+  against SM ratios, firewalled until computed (owner: banking seat) — **DONE (B1137, DISJOINT):**
+  owner-directed; rung-1 algebraicity over the reachable regulator ladder × 18 sealed SM targets
+  × 216 cells + 384-cell matched null → 0/18 involve a regulator, base rate 0.0; the value
+  question is now closed from every route. Tier B (J₃(𝕆) Beilinson regulators) NEEDS-SPECIALIST.
 - [ ] R48-4: cc3's B8127 (two omissions caught by the regulator door) — verify + integrate if
   it survives (owner: banking seat)
 - [>] R48-5: R47-3 carried — B763 registry entries for the qor5up + b775 branches

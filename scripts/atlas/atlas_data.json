@@ -23544,6 +23544,24 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1137": {
+   "slug": "regulator probe",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B1126",
+    "B1129",
+    "B991"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
   }
  }
 }

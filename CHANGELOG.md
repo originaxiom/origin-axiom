@@ -1,5 +1,28 @@
 # Changelog
 
+## THE REGULATOR DOOR CLOSES (B1137, R48-3, 2026-08-22): no SM value is algebraic over the object's higher regulators — the value question's last route, DISJOINT
+
+Owner-directed ("check whether it gives them as regulators — a proper probe"), run against a
+sealed prereg (sha256 f299c0da). The value verdict was closed on the object's PERIODS; a
+**regulator** is a different object (the archimedean realization — what Vol and the tower ARE).
+Rung-1 ALGEBRAICITY probe (not rung-4 number-matching): is any SM value a bounded-height
+algebraic combination of the object's higher regulators (L(n,χ₋₃)/ζ_K(n) for n≤6 at the ℚ(√−3)
+end, L(n,χ₅)/ζ_F(n) at the ℚ(√5) end, with π,√3,√5,logφ,ζ(3))? Over 18 sealed SM targets (B743)
+× 216 cells (D≤3, H≤10⁶), coefficient-height-aware + exact-verified + an `involves_regulator`
+gate, with a 384-cell matched null. **RESULT: DISJOINT.** 0 of 18 targets involve a regulator
+at all; the matched-null base rate is **0.0 at every height**; Šidák α_cell = 2.4e-4. The only
+relations found — δ_CP = 4 and m_s/m_d = 20 — are **bare integers with zero regulator content**
+(the V-alone tautology the gate rejects; cleaner than V-3, which had one genuine near-miss).
+Controls reproduced (Vol = 9√3·ζ_K(2)/π² to ~50 digits; entropy = 2√5·L(1,χ₅) = 4·log φ to ~96
+digits). **This closes the value question from the last route** — periods (V-3), natural forms
+(B1129), the coupling (B1128/B1132), the sharpest coincidence (B1131), and now regulators — all
+disjoint. The terminal verdict: **structure from the object (complete up to one observer
+conjugation into its own algebra, B1134/B1135), values from the observer** (memo 18's
+stop-the-beat mechanism). Precisions: "27-reality" is the repo term (not "motivic classes");
+B991 already proved hypercharge normalization a convention (so G-1 is not a value door); Tier B
+(J₃(𝕆) Beilinson regulators) NEEDS-SPECIALIST — the repo's first stance. Gate 5 untouched. Lock
+`tests/test_b1137_regulator_probe.py`.
+
 ## THE GENERICITY CONTROL, TURNED ON THE WINS (B1136, 2026-08-22): exactly one property separates m004 — H₁=ℤ; the rest is the family's
 
 cc3's B8128 (owner-elected), verified TWO-BENCH via an independent SnapPy census on this bench

@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**760 recorded closures — of which 593 are CLASSIFIED by mechanism and
+**761 recorded closures — of which 594 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -53,6 +53,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `two step-disjoint proofs: structural (B955: H1 = Z cyclic, centralizer contains a maximal torus) AND exhaustive (B1079's census: 15,624 five-torsion elements, nine rows, every row rank 6)` | 1 |  |
 | `identical vanishing: every anomaly channel over the derived 16 is zero -- including the global (B-L) pair where the imported 15 gives -1/-1; a layer that vanishes identically cannot supply a ratio (structural, B990's shape)` | 1 |  |
 | `type mismatch, structural: arithmetic CS is finite-group-valued by construction (target mu_n(F)^D = (1/n)Z/Z; compact-support etale cohomology, Artin-Verdier/Poitou-Tate) while the object's term is archimedean-analytic (Vol in R; the B8112 Ruelle factors) -- the theory supplies exactly the term proved to vanish (CS = 0 by amphichirality) and lacks entirely the term carried; the negative names its class: THE ARCHIMEDEAN BOUNDARY` | 1 |  |
+| `value-numerology guard fired (rung-1 algebraicity, sealed): 0 of 18 SM targets involve a regulator across 216 cells (D<=3, H<=1e6); 384-cell matched null base rate 0.0; the only relations found (delta_CP=4, m_s/m_d=20) are bare integers -- the V-alone tautology, gated out. The value door closes from its LAST route (regulators), matching the period-close V-3; cleaner than V-3 (which had one genuine near-miss)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
