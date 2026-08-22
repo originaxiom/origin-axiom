@@ -1,5 +1,35 @@
 # Changelog
 
+## THE VALUE-PROBE REMAINDERS CLOSED (B1132–B1133, 2026-08-22): C₄ recognized (single-end), the instrument null on the full sphere, and the golden meridian law
+
+The three named-open remainders of the value-probe wave, computed and
+verified on this bench. **B1133 C4-RECOGNIZED:** C₄ = (278392949/
+1813985280)·π⁴·C₀ (even-k plain rational, numerator prime, denom
+2¹¹·3¹¹·5¹), re-verified 30 digits vs B1124's independently-computed C₄;
+extracted via Aitken-Δ² acceleration on EXISTING data (no new heavy
+compute -- the earlier N=70M run, stopped at diminishing returns, was
+never needed). TWO-ENDED VERDICT: **SINGLE-END** -- the prime 5 recurs at
+exponent 1 (same as C₃, no growth), no new prime, no √5 → the tower is
+ℚ(√−3)/E₆ only and C₃'s factor-of-5 is a generic von Staudt–Clausen
+artifact; upgrades B1130 from PRECISION-FLOOR. The reality-parity
+arithmetic now reproduces at FIVE consecutive orders (C₀–C₄); C₅
+precision-gated (not claimed all-orders). Three bugs caught (PSLQ noise
+floor via negative control; an L180-class precision bug via the
+B1124+B1130 cross-check; a PSLQ blind spot found via continued fractions,
+confirmed across 8 base normalizations). **B1132 INSTRUMENT-NULL-FULL-
+SPHERE + THE GOLDEN MERIDIAN LAW:** B1128's listener instrument extended
+off the real great circle to the full ℂP¹_odd (the fenced wy-meridian) --
+the h(R²L²)=−φ·h(RL) degeneracy breaks off-circle (proved) but the freed
+direction carries no SM content (~6% whole-sphere coincidence rate, >50%
+under multiple-testing) -- so the instrument route is now EXHAUSTIVELY
+closed, no meridian unsearched. Plus a new exact structure law,
+**h(R²L²,u) = −φ·h(RL,u) − iφ·n_y(u)** on ℂP¹_odd (the golden meridian
+law; B1128's relation is its n_y=0 real-circle special case), verified
+50-digit two ways + symbolic, banked as LAW_MAP's newest row + registry
+T-GOLDEN-MERIDIAN. Registry ×1; LAW_MAP ×1; CAMPAIGN_STATUS + PROGRESS_LOG;
+B1130 resolved-addendum; atlas/views/spine regen; locks 6/6. All value
+remainders closed; the value campaign is exhaustively complete.
+
 ## THE VALUE-PROBING WAVE (B1128–B1131, 2026-08-22): the value question closed from every route — instrument, natural forms, two-ended, and the det-φ/Koide coincidence
 
 Owner-directed ("run both instrument and two-ended tower and all around

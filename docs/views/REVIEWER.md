@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1035** |
-| words of findings prose | **700,152** |
-| test lock files referenced | **641** |
-| arcs carrying an authored verdict | **1022** (98.7 %) |
+| research arcs with findings | **1037** |
+| words of findings prose | **701,064** |
+| test lock files referenced | **643** |
+| arcs carrying an authored verdict | **1024** (98.7 %) |
 | recorded closures | **760** (593 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 689 |
+| PROVED | 691 |
 | NEGATIVE | 287 |
 | OPEN | 36 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1131`** (544 words, 1 locks)  
-P-KOIDE (value-probing wave follow-on, owner-directed; sealed prereg): is |det phi|=2/3 (B904 E6-iso determinant) -> Koide's lepton-mass 2/3 a real bridge or a coincidence? NO-BRIDGE -- the instrument was built and FAILED, closing B1129's one flagged candidate. det phi = -2/3 re-confirmed EXACT this bench (78x78 from B904 stage4c_phi.pkl); it is a basis-change determinant on E6's rank-6 CARTAN (agent: 72-dim root block = signed permutation det +1, the -2/3 lives in a 6-dim Cartan-comparison block; fenced -- det confirmed here, the block split not corner-contiguous in default ordering so not re-derived, but NOT load-bearing). No 3-vector, no inner product with (1,1,1), no cosine, no angle -- categorically the wrong KIND of object for Koide's mass-angle geometry. Koide verified: Q=0.66666 (2/3 to 5sf), alpha=44.9997deg, Q=1/(3cos^2 alpha) to 1e-41. FOUR pre-committed bridge routes ALL FAILED: (a) the trit/three-9-blocks (only natural 3-vector) gives alpha=0/Q=1/3 -- the ANTIPODE of 45deg; (b) det=1/(3cos^2 alpha) backward is bare arithmetic, zero discriminating power (a 3-die P(>1)=2/3 'solves' it), disqualified; (c) v0 rank-3 Jordan gives alpha=70.53deg not 45; (c') phi spectrum has no 45deg (nearest SV to 1/sqrt2=0.630, gap 0.077). Coincidence base rate ~8.3% (1-in-12) of denom<=30 fractions are {2,3}-smooth; both 2/3's independently cheap (E6 arithmetic {2,3}-smooth; Koide a 3-fold democratic construction). B1129's dismissal sharpened from 'no instrument yet' to 'built and failed'. The value question is now closed from EVERY route: periods (V-3), natural forms (B1129), the coupling (B1128), and the most suggestive coincidence (this). Gate 5 held. No cc3 triggered (that gate is BRIDGE-FOUND only).  
-`B1131_koide_no_bridge/FINDINGS.md`
+**PROVED — `B1133`** (412 words, 1 locks)  
+C4 RECOGNIZED + the tower is SINGLE-END (value-probe wave remainder A; upgrades B1130 from PRECISION-FLOOR). C4 = (278392949/1813985280)*pi^4*C0 (even k -> plain rational x pi^4, reality-parity form; numerator 278392949 PRIME, denominator 2^11*3^11*5^1); re-verified this bench matching B1124's independently-computed C4 pooled to 30.77 digits (its pooled fit beat V-1's conservative 21-digit trust). Extracted from EXISTING data (B1124 N<=35M + B1130 N<=1.5M + Aitken-Delta^2 -> 28 digits) with ZERO new heavy compute -- the killed N=70M run was never needed. TWO-ENDED VERDICT: SINGLE-END -- the prime 5 recurs at exponent 1 (SAME as C3), does NOT grow, no new prime beyond {2,3,5}, no sqrt5 anywhere; so the tower is single-ended Q(sqrt-3)/E6 only and C3's factor-of-5 is a generic von Staudt-Clausen denominator artifact, NOT the Q(sqrt5)/E8 end. BONUS: the reality-parity arithmetic now holds at FIVE consecutive orders C0..C4 (strengthens B1124/V-1; C5 still precision-gated, not claimed all-orders). Three bugs caught (PSLQ noise floor via negative control; an L180-class precision bug via the B1124+B1130 cross-check; a PSLQ blind spot found via continued fractions, confirmed across 8 base normalizations). Gate 5 untouched.  
+`B1133_c4_single_end/FINDINGS.md`
 
 **NEGATIVE — `B1108`** (481 words, 1 locks)  
 C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero archimedean content): arithmetic Chern-Simons is finite-group-valued BY CONSTRUCTION -- it supplies exactly the term the object proves vanishes (CS = 0 by amphichirality, C1/B1088) and lacks entirely the term the object carries (Vol, archimedean/analytic; the B8112 Ruelle factors) -- the type mismatch is one line (R vs (1/n)Z/Z); THE NEGATIVE NAMES ITS CLASS: the archimedean boundary -- finite-place theories meet the object only on the vanishing term; the boundary has at least TWO candidate doors (the audit seat's same-day B8116 self-correction, adopted pre-bank): Arakelov, AND the volume-conjecture/quantum-modularity route (root-of-unity data crossing to volume/CS; Andersen-Hansen proved a surgery-side piece on this very knot, scope-fenced closed-vs-cusped) -- both LEAD-ONLY; the askable successor (what does stationary-phase = CS degenerate to at CS = 0) registered not asked; THE_FRAMEWORK item 6 closed-dated; THE ROAD gains node VI.4 closed; the meeting-point thesis survives as half a meeting; Gate 5 untouched.  

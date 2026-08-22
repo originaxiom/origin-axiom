@@ -33,3 +33,9 @@ already leans single-end. Reopenable only by a much larger tower (N ≫ 70M).
 Two-endedness **UNDECIDED, leaning single-end** (ℚ(√−3) only) — the C₃ factor-of-5 is most
 likely a generic denominator artifact, not the E₈ end. Honest OPEN, precision-gated. Gate 5
 untouched.
+
+> **RESOLVED by B1133 (2026-08-22): SINGLE-END confirmed.** C₄ = (278392949/1813985280)·π⁴·C₀
+> was recognized via Aitken acceleration on existing data (30 digits vs B1124's computed
+> value) — its denominator's prime 5 recurs at exponent 1 (SAME as C₃, no growth), no √5
+> anywhere → the tower is ℚ(√−3) only and the C₃ factor-of-5 is a generic von Staudt–Clausen
+> artifact. This precision-floor is lifted; the "leaning single-end" is now confirmed.

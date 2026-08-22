@@ -309,3 +309,18 @@ re-verified by the live `seal-digests` gate.
 - **THE CERTIFICATION ENVELOPE (B1101; `WORKING_RULES.md` §CE)** now governs how any future
   row-change to this ledger lands during a certifying suite, backed by the live `seal-digests`
   gate — see §E.
+
+## Currency read 2026-08-22 (head B1133) — the value question is closed: DISJOINT
+
+The value campaign + value-probe wave (B1124–B1133) tested whether the object supplies the
+SM's dimensionless VALUES through every route: tower periods (V-3/B1126), the object's own
+natural invariants (B1129), the principled listener-map coupling (B1128, null on the full
+sphere per B1132), the two-ended tower (B1133: SINGLE-END, ℚ(√−3) only), and the sharpest
+coincidence (B1131: |det φ|=2/3 vs Koide, proven a coincidence). **All negative.** The
+object's arithmetic reproduces (C₀–C₄ trace-field, B1124/B1133) but is **DISJOINT** from the
+SM's numbers — "physics-shaped, not physics-valued." So every **VALUE** slot in this ledger
+remains externally-supplied: the object supplies the STRUCTURE (algebra, the ℤ₆ form,
+hypercharge direction, generation shape, the compact-color FORM M(𝕆,ℂ)) but not the numbers.
+This is the ledger's value-side verdict, closed by a symmetric sealed sweep — not lowered
+ambition; the named-open remainders are only precision (C₅+) and any future out-of-menu
+structure. (This read joins the doc-currency watch; head B1133.)

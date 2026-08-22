@@ -11079,3 +11079,16 @@ rate; det φ=−2/3 re-confirmed exact). THE CLOSE: the object's arithmetic
 reproduces but is DISJOINT from the SM's numbers across every route —
 "physics-shaped, not physics-valued." Side-finding for LAW_MAP:
 h(R²L²)=−φ·h(RL) (B1128). Locks 11/11.
+
+**2026-08-22 — THE VALUE-PROBE REMAINDERS CLOSED (B1132–B1133).** All
+three named-open remainders computed + verified this bench. B1133: C₄ =
+(278392949/1813985280)·π⁴·C₀ RECOGNIZED (Aitken on existing data, 30
+digits vs B1124's computed; three bugs caught incl. a PSLQ blind spot
+found via continued fractions) → the tower is SINGLE-END (the 5 recurs at
+exponent 1, no growth, no √5; C₃'s 5 a generic von Staudt–Clausen
+artifact); upgrades B1130; the reality-parity arithmetic reproduces at
+five orders C₀–C₄. B1132: the listener instrument is NULL on the full
+ℂP¹_odd (B1128's fenced meridian searched — the instrument route
+exhaustively closed) + the golden meridian law h(R²L²,u)=−φ·h(RL,u)−iφ·n_y(u)
+(new LAW_MAP row, verified 50-digit + symbolic). The value question is now
+exhaustively answered from every route; the value campaign is complete.

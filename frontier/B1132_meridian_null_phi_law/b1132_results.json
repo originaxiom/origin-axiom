@@ -1,0 +1,411 @@
+{
+  "verdict_B": "INSTRUMENT-NULL-FULL-SPHERE",
+  "verdict_B_basis": {
+    "breaks_off_circle": true,
+    "branch1_target_box_frac_of_range": [
+      0.05444686039141487,
+      0.05423165540963065
+    ],
+    "branch2_target_box_frac_of_range": [
+      0.0730337751637652,
+      0.07300759327973153
+    ],
+    "uncalibrated_sphere_fraction_in_ratio_box": [
+      0.060405,
+      0.060305
+    ],
+    "absorbed_judgment_threshold": 0.2,
+    "all_below_threshold": true,
+    "reasoning": "the degeneracy breaks off-circle (a genuine new dof appears) but the resulting full-sphere test is intrinsically a RANGE/overlap test (2 real dof, 1 calibration input leaves 1 residual dof) rather than a point prediction; the target boxes fall inside the achievable ranges but occupy only a small fraction of them, and an equally-good-looking ratio occurs for an uncalibrated random point on the sphere about 1 time in 16 -- the freed dof, not the object's structure, explains the overlap (charter rule 4: 'a hit must exceed what the unknown can absorb' -- it does not here)"
+  },
+  "part_a_controls": "PASS (see stdout; matches B1128's banked b1128_results.json exactly)",
+  "golden_meridian_law": {
+    "tone_scales_exactly": true,
+    "wx_scales_exactly": true,
+    "wz_scales_exactly": true,
+    "wy_naive_residual": -1.618033988749895,
+    "wy_naive_residual_equals_negphi": true,
+    "wy_corrected_residual": 6.681911775230489e-52,
+    "d_tone": 6.681911775230489e-51,
+    "d_wx": 9.354676485322685e-51,
+    "d_wz": 2.6727647100921956e-51
+  },
+  "symbolic_proof": {
+    "available": true,
+    "closed_form_wyA": "-phi/2",
+    "closed_form_wyB": "(1-phi)/2",
+    "numeric_match_wyA": 1.3363823550460978e-51,
+    "numeric_match_wyB": 2.0045735325691467e-51,
+    "algebraic_remainder_of_wyB_plus_phi_wyA_plus_phi": "0",
+    "proof_holds_identically_mod_minimal_poly": true
+  },
+  "law_verification_full_sphere": {
+    "worst_law_residual": 1.1495995699242978e-50,
+    "worst_bruteforce_crosscheck": 5.709027923345061e-51,
+    "sample_rows": [
+      {
+        "theta": 0.0,
+        "psi": 0.0,
+        "ny": 0.0,
+        "law_residual": 7.196639227269773e-51,
+        "naive_degeneracy_residual": 7.196639227269773e-51
+      },
+      {
+        "theta": 1.5707963267948966,
+        "psi": 1.0,
+        "ny": -8.504711376052948e-52,
+        "law_residual": 7.196639227269773e-51,
+        "naive_degeneracy_residual": 6.814239706001134e-51
+      },
+      {
+        "theta": 0.37,
+        "psi": 0.0,
+        "ny": 0.0,
+        "law_residual": 1.0696277810091574e-50,
+        "naive_degeneracy_residual": 1.0696277810091574e-50
+      },
+      {
+        "theta": 1.02,
+        "psi": 3.141592653589793,
+        "ny": -9.01468485704533e-52,
+        "law_residual": 1.1495995699242978e-50,
+        "naive_degeneracy_residual": 1.0309704845381437e-50
+      },
+      {
+        "theta": 0.8283929290865812,
+        "psi": 0.8036164590277595,
+        "ny": 0.7172112102216537,
+        "law_residual": 7.79238122539387e-51,
+        "naive_degeneracy_residual": 1.1604721152510817
+      },
+      {
+        "theta": 1.2070936588930932,
+        "psi": 0.9054706941066661,
+        "ny": 0.5231140227724606,
+        "law_residual": 6.681911775230489e-51,
+        "naive_degeneracy_residual": 0.8464162688375277
+      },
+      {
+        "theta": 0.0029957082763388625,
+        "psi": 2.139136097771263,
+        "ny": 0.005049510060201786,
+        "law_residual": 7.196639227269773e-51,
+        "naive_degeneracy_residual": 0.008170278903941019
+      },
+      {
+        "theta": 1.276341781844042,
+        "psi": 0.45211132117105746,
+        "ny": 0.24265889039254732,
+        "law_residual": 7.196639227269773e-51,
+        "naive_degeneracy_residual": 0.3926303323274769
+      },
+      {
+        "theta": 0.7960890124287264,
+        "psi": 4.252684393590051,
+        "ny": -0.8959787570909338,
+        "law_residual": 7.707766977427341e-51,
+        "naive_degeneracy_residual": 1.4497240821710167
+      },
+      {
+        "theta": 0.03182795211167473,
+        "psi": 5.7534308758794515,
+        "ny": -0.032144974430397905,
+        "law_residual": 7.196639227269773e-51,
+        "naive_degeneracy_residual": 0.0520116611958801
+      },
+      {
+        "theta": 0.5916108199185479,
+        "psi": 0.27092342003949615,
+        "ny": 0.24777139298146558,
+        "law_residual": 1.0959150148372949e-50,
+        "naive_degeneracy_residual": 0.40090253528391845
+      },
+      {
+        "theta": 0.19685880812979725,
+        "psi": 2.158326889917578,
+        "ny": 0.31929507221392245,
+        "law_residual": 6.681911775230489e-51,
+        "naive_degeneracy_residual": 0.5166302792824786
+      },
+      {
+        "theta": 0.3955594491011576,
+        "psi": 6.2334097107599264,
+        "ny": -0.03538282047067665,
+        "law_residual": 1.0696277810091574e-50,
+        "naive_degeneracy_residual": 0.05725060613939038
+      },
+      {
+        "theta": 0.8036751339562447,
+        "psi": 0.11552204757136142,
+        "ny": 0.11518827245574485,
+        "law_residual": 1.0959150148372949e-50,
+        "naive_degeneracy_residual": 0.18637853993877848
+      },
+      {
+        "theta": 0.04542174426454768,
+        "psi": 2.0538674945512208,
+        "ny": 0.08033789384735811,
+        "law_residual": 6.814239706001134e-51,
+        "naive_degeneracy_residual": 0.12998944282960648
+      },
+      {
+        "theta": 0.07334146881882157,
+        "psi": 3.998978988542911,
+        "ny": -0.1105147616072377,
+        "law_residual": 6.814239706001134e-51,
+        "naive_degeneracy_residual": 0.17881664053910254
+      },
+      {
+        "theta": 0.5632406039545101,
+        "psi": 4.739606318748954,
+        "ny": -0.9025708581348558,
+        "law_residual": 6.814239706001134e-51,
+        "naive_degeneracy_residual": 1.4603903257173563
+      },
+      {
+        "theta": 0.8415580353043749,
+        "psi": 0.8611732625638633,
+        "ny": 0.7538273583002951,
+        "law_residual": 7.87962870169891e-51,
+        "naive_degeneracy_residual": 1.2197182873794226
+      },
+      {
+        "theta": 0.8099222188293375,
+        "psi": 3.3346205000518885,
+        "ny": -0.19160068299650457,
+        "law_residual": 1.0959150148372949e-50,
+        "naive_degeneracy_residual": 0.31001641735603847
+      },
+      {
+        "theta": 0.08236054904359354,
+        "psi": 2.6955081750404193,
+        "ny": 0.07074575201546646,
+        "law_residual": 6.681911775230489e-51,
+        "naive_degeneracy_residual": 0.11446903132069611
+      }
+    ]
+  },
+  "part_c_full_sphere_prediction": {
+    "ue3_screening": {
+      "curveA_min": 0.30901699437494745,
+      "curveB_min": 0.5,
+      "ue3_box_max": 0.1562,
+      "excluded_full_sphere": true
+    },
+    "branch1_full_sphere": {
+      "NO": {
+        "calibration_target_mid": 0.5493,
+        "closed_form": {
+          "in_calibration_range": true,
+          "branches": [
+            {
+              "c_cal": 0.4541354282452248,
+              "im_pred_range": [
+                -0.8249815116046522,
+                0.6698303267214966
+              ],
+              "abs_pred_range": [
+                0.5,
+                0.9646732578907207
+              ]
+            },
+            {
+              "c_cal": -0.4541354282452248,
+              "im_pred_range": [
+                -0.6698303267214966,
+                0.8249815116046522
+              ],
+              "abs_pred_range": [
+                0.5,
+                0.9646732578907207
+              ]
+            }
+          ],
+          "overall_range": [
+            0.5,
+            0.9646732578907207
+          ]
+        },
+        "Ue1_target_box": [
+          0.8092,
+          0.8345
+        ],
+        "range_overlaps_target": true,
+        "target_box_frac_of_range": 0.05444686039141487
+      },
+      "IO": {
+        "calibration_target_mid": 0.5493,
+        "closed_form": {
+          "in_calibration_range": true,
+          "branches": [
+            {
+              "c_cal": 0.4541354282452248,
+              "im_pred_range": [
+                -0.8249815116046522,
+                0.6698303267214966
+              ],
+              "abs_pred_range": [
+                0.5,
+                0.9646732578907207
+              ]
+            },
+            {
+              "c_cal": -0.4541354282452248,
+              "im_pred_range": [
+                -0.6698303267214966,
+                0.8249815116046522
+              ],
+              "abs_pred_range": [
+                0.5,
+                0.9646732578907207
+              ]
+            }
+          ],
+          "overall_range": [
+            0.5,
+            0.9646732578907207
+          ]
+        },
+        "Ue1_target_box": [
+          0.8091,
+          0.8343
+        ],
+        "range_overlaps_target": true,
+        "target_box_frac_of_range": 0.05423165540963065
+      },
+      "numeric_scan_crosscheck_NO": {
+        "scan_range": [
+          0.5000010938243795,
+          0.96465758120205
+        ]
+      }
+    },
+    "branch2_full_sphere": {
+      "NO": {
+        "calibration_target_mid": 0.82185,
+        "closed_form": {
+          "in_calibration_range": true,
+          "branches": [
+            {
+              "c_cal": 0.6522556419840306,
+              "im_pred_range": [
+                -0.7489056093383062,
+                0.48016150527163026
+              ],
+              "abs_pred_range": [
+                0.30901699437494745,
+                0.810154994128226
+              ]
+            },
+            {
+              "c_cal": -0.6522556419840306,
+              "im_pred_range": [
+                -0.48016150527163026,
+                0.7489056093383062
+              ],
+              "abs_pred_range": [
+                0.30901699437494745,
+                0.810154994128226
+              ]
+            }
+          ],
+          "overall_range": [
+            0.30901699437494745,
+            0.810154994128226
+          ]
+        },
+        "Ue2_target_box": [
+          0.531,
+          0.5676
+        ],
+        "range_overlaps_target": true,
+        "target_box_frac_of_range": 0.0730337751637652
+      },
+      "IO": {
+        "calibration_target_mid": 0.8217000000000001,
+        "closed_form": {
+          "in_calibration_range": true,
+          "branches": [
+            {
+              "c_cal": 0.6520666300310116,
+              "im_pred_range": [
+                -0.7491000213207394,
+                0.4804337944615607
+              ],
+              "abs_pred_range": [
+                0.30901699437494745,
+                0.8103347115576739
+              ]
+            },
+            {
+              "c_cal": -0.6520666300310116,
+              "im_pred_range": [
+                -0.4804337944615607,
+                0.7491000213207394
+              ],
+              "abs_pred_range": [
+                0.30901699437494745,
+                0.8103347115576739
+              ]
+            }
+          ],
+          "overall_range": [
+            0.30901699437494745,
+            0.8103347115576739
+          ]
+        },
+        "Ue2_target_box": [
+          0.531,
+          0.5676
+        ],
+        "range_overlaps_target": true,
+        "target_box_frac_of_range": 0.07300759327973153
+      },
+      "numeric_scan_crosscheck_NO": {
+        "scan_range": [
+          0.3090216312472355,
+          0.8101547313031181
+        ]
+      }
+    },
+    "sphere_ratio_coincidence_accounting": {
+      "NO": {
+        "ratio_box": [
+          1.4256518675123326,
+          1.571563088512241
+        ],
+        "n_samples": 200000,
+        "fraction_in_target_box": 0.060405,
+        "sample_ratio_min": 0.5067643111472047,
+        "sample_ratio_max": 3.188428444332104
+      },
+      "IO": {
+        "ratio_box": [
+          1.425475687103594,
+          1.571186440677966
+        ],
+        "n_samples": 200000,
+        "fraction_in_target_box": 0.060305,
+        "sample_ratio_min": 0.5067643111472047,
+        "sample_ratio_max": 3.188428444332104
+      }
+    },
+    "ckm_bonus": {
+      "Vud": {
+        "target": 0.97435,
+        "achievable_B_range_given_A_eq_target": [
+          0.5,
+          0.615606866500097
+        ]
+      },
+      "Vus": {
+        "target": 0.225,
+        "achievable_B_range_given_A_eq_target": null
+      },
+      "Vub": {
+        "target": 0.00369,
+        "achievable_B_range_given_A_eq_target": null
+      }
+    }
+  }
+}

@@ -2767,6 +2767,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1132": {
+   "slug": "meridian null phi law",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1133": {
+   "slug": "c4 single end",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "L180"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B113": {
    "slug": "sl5 resolution",
    "motifs": [
