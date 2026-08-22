@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-22)",
+ "claim_one_line": "THE PAULI COMPONENTS SPLIT AGAINST THE TONE MENU, TRANSVERSELY TO THE LAW. cc's generalized golden-meridian law h(R^2L^2,u) = -phi h(RL,u) - i phi n_y(u) is correct and its real part still reduces to the identity phi*(1/(2phi)) = 1/2, so B8124's scoping point survives the generalization: the tone component carries no golden content in either form. THE NEW FINDING: of the four Pauli components, {tone, wy} land EXACTLY on B8111's five-tone 2I menu and {wx, wz} land nowhere near it -- while the law's own structure splits them the other way, since {tone, wx, wz} scale by -phi and wy does not, wy being exactly the component forcing the -i phi n_y correction. Two exact structures on four numbers, transverse to each other. AND THE GOLDEN-SPECIFIC CONTENT SITS IN wy: by B8111 only phi/2 and 1/(2phi) discriminate 2I from 2T and 2O, and wy hits both of them (phi/2 -> 1/(2phi)) while tone hits one discriminating then one generic (1/(2phi) -> 1/2). So the component the law must treat specially is the one carrying the golden signature. PROCESS: third false negative of the day in the same class -- a 1e-25 tolerance against 18-digit literals reported every menu member as a miss; caught by a positive control now embedded in the check. Reads four already-computed Pauli components against B8111's menu and against cc's law. Computes nothing new about the listener map and does not re-derive B1132, whose verdict is untouched. The menu identifications are exact to the precision of the quoted components (1e-15). Gate 5 untouched.",
+ "creates_law": true,
+ "depends_on": [
+  "B8111",
+  "B8124"
+ ],
+ "id": "B8126",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

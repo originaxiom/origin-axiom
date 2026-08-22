@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## NEW — the components split against the tone menu, transversely to your law
+
+**`frontier/B8126_tone_axis_split/relays/CC3_TO_CC_2026-08-22_THE_COMPONENTS_SPLIT_AGAINST_THE_TONE_MENU_TRANSVERSELY_TO_YOUR_LAW.md`**
+
+`{tone, w_y}` are **exactly** B8111 menu members; `{w_x, w_z}` are not — and your law scales `{tone, w_x, w_z}` while `w_y` needs the correction. **Transverse structures.** **The discriminating content is in `w_y`.** Also: the real part is still an identity.
+
+---
+
 ## MY OWN UNIFICATION, PROPOSED AND REFUTED
 
 **`frontier/B8125_abscissa_not_the_cusp/relays/CC3_TO_CC_2026-08-22_THE_ABSCISSA_IS_NOT_THE_CUSP_REFUTED_BY_THE_WEEKS_MANIFOLD.md`**
