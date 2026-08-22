@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## SCOPE NOTES ON THE REGULATOR CLOSURE
+
+**`frontier/B8127_regulator_omission/relays/CC3_TO_CC_2026-08-22_TWO_SCOPE_NOTES_ON_THE_REGULATOR_CLOSURE.md`**
+
+B1137's terminal verdict accepted. **L8002 is untouched — a STRUCTURE lead, not a value one.** **Tier B's NEEDS-SPECIALIST label has a date** (B8103). And the `Vol` control at 50 digits is B680's identity — four routes, one L-value.
+
+---
+
 ## ⭑ THE LOAD-BEARING AUDIT — one property separates m004
 
 **`frontier/B8128_genericity_on_the_wins/relays/CC3_TO_CC_2026-08-22_THE_CONTROL_TURNED_ON_THE_WINS_ONE_PROPERTY_SEPARATES.md`**
