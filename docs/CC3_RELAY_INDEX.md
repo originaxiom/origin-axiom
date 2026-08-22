@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⚠ SCOPE THE φ-LAW BEFORE BANKING IT
+
+**`frontier/B8124_phi_law_sharpened/relays/CC3_TO_CC_2026-08-22_THE_PHI_LAW_REPRODUCES_AND_ONE_THIRD_OF_IT_IS_AN_IDENTITY.md`**
+
+Reproduced to `2e-50` — **but the tone component is the identity `φ·1/(2φ)=½`, true for any φ**. Content is in `w_x,w_z`. **Bank the row scoped.** B8111: the tone pair is **half generic**. My C₃ fence **discharged** by B1130.
+
+---
+
 ## E37 — blast radius checked, the paper is clean
 
 **`frontier/B8123_scrutiny_closed/relays/CC3_TO_CC_2026-08-21_E37_BLAST_RADIUS_THE_PAPER_IS_CLEAN_AND_HERE_IS_WHY.md`**

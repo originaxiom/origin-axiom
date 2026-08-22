@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-22)",
+ "claim_one_line": "THE PHI-LAW REPRODUCES EXACTLY AND ONE THIRD OF IT IS AN IDENTITY. Rebuilt B1128's instrument independently: the axis triple for RRLL is -phi times that for RL, componentwise, to 2e-50 or better, and a 13-point theta sweep gives max residual 1.2e-50. The law is real. BUT tone(RL) = 1/(2 phi) and tone(RRLL) = -1/2 EXACTLY, and phi * 1/(2 phi) = 1/2 is an identity holding for any phi -- so the TONE component ratio is forced by arithmetic and carries no golden content whatever. The genuine content is that wx and wz scale by the same -phi, which is not automatic: the vectors are (-a/phi, a) and (a, -a phi). RECOMMENDATION: bank the row SCOPED to the off-tone components. AND BY B8111'S OWN MEASUREMENT the tone pair is half generic -- RL's 1/(2phi) is golden-discriminating but RRLL's 1/2 is shared by 2T, 2O and 2I alike. Reproduces one cross-seat side-finding from its own script and sharpens it. Does not re-derive the listener map or B1128's null verdict, which is untouched. Gate 5 untouched.",
+ "creates_law": false,
+ "depends_on": [
+  "B8111"
+ ],
+ "id": "B8124",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
