@@ -16,6 +16,19 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-22, B1140)**: THE 64 ORGANIZED — the cloud loop's finale,
+verified two-bench (own re-derivation, slot-independent). B1134's relay computed:
+the E₆(−26) spacetime branch's 64 dimensions (= 78−14, the fork's su(2)×su(2)×su(3)
+complement) hold **a graviton (two color-singlet spin-2) + 54 colored bi-vectors**,
+and **ZERO invariant content** — so **hypercharge cannot organize there**. The
+firewalled value hypothesis closes as the campaign's **tenth honest value-negative,
+the first by STRUCTURE not scan** (the rep-level restatement of the fork z=0, B1138).
+THE CLOSING COMPOSITION: the fork's two forms split the world with nothing shared —
+**E₆(−14) took the charges** (Y, sin²θ_W=3/8, generations, anomalies, B−L), **E₆(−26)
+took the geometry** (Lorentz, compact color, the graviton). One object, one algebra,
+closed two ways. Scope: the antilinear complex-spin-2 gluing NOT checked. Routed to the
+kill-graph. Lock test_b1140_the_64_organized.py.
+
 **LATEST (2026-08-22, B1139)**: THE SYMMETRY-POINT TABLE — the phase-III
 digest's value core (the value-completing campaign's Lane A), cloud memos 23/24
 verified two-bench, each datum honestly TYPED. The closing's charge table is

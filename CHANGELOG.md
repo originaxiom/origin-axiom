@@ -1,5 +1,50 @@
 # Changelog
 
+## THE 64 ORGANIZED (B1140, 2026-08-22): the spacetime branch holds a graviton and colored bi-vectors — and ZERO invariant content, so hypercharge cannot organize there. The closing arc's finale; the tenth honest value-negative, the first by structure
+
+The cloud seat's twenty-seventh memo and the close-out of its loop (golden_gate head 449ece8,
+which lives on no shared remote), re-derived on this bench with own code — own Killing-form
+complement + own joint highest-weight enumeration — reusing only the banked e₆ (B1102) and
+B1138's own fork construction. **All checks CONFIRMED, slot-independent** (re-run on an
+independent slot choice, identical). Cloud seat credited. Gate 5 untouched.
+
+**B1134's relay computed and ruled on.** The firewalled value hypothesis was: maybe the SM's
+continuous values live in how the object's spacetime branch (E₆(−26) = M(𝕆,ℂ)) organizes its 64
+remaining dimensions — the natural, finite, untested value target where hypercharge and
+27-reality would sit. The spacetime-branch subalgebra is the fork's own 14 dimensions —
+**su(2)×su(2)×su(3)** (the Lorentz double + color; ladder 16/8/8/0, joint centralizer 0). Its
+64 = 78−14 Killing-complement decomposes, by highest-weight enumeration (complete reducibility,
+not fitting), as **exactly**:
+
+> **64 = (spin-2, 0; 1) ⊕ (0, spin-2; 1) ⊕ (1, 1; 3) ⊕ (1, 1; 3̄) = 5 + 5 + 27 + 27**
+
+— two color-singlet spin-2's (the graviton) + 54 colored bi-vectors, and **invariant content
+ZERO** (no (spin-0, spin-0; singlet) anywhere; of the 8 states at Lorentz-weight (0,0) only 2
+are color-singlets — the graviton middle weights, members of multiplets not invariants).
+
+**The verdict:** invariant content zero ⟹ no invariant direction for any u(1), no spinorial
+content ⟹ **hypercharge cannot organize in the spacetime branch's 64.** The firewalled value
+hypothesis closes as the campaign's **tenth honest value-negative — and the first closed by
+STRUCTURE, not by scan**: it is the representation-level restatement of the fork theorem's z=0
+(B1138), on the *same* 14-dim subalgebra. (cc3's second grounding: the 14 is the corpus's own
+14-locus, a rung in cc3's B8078 proved-tight set, so the complement dim 64 is forced, not chosen.)
+
+**The closing composition** — the fork's two real forms split the world with nothing shared:
+**E₆(−14)** took every charge (Y-selection, sin²θ_W = 3/8, the generation table, the anomaly
+zeros, B−L — B1135/B1138/B1139), **E₆(−26)** took the geometry (Lorentz, compact color, and now
+the graviton). One object, one algebra, closed two mutually-exclusive ways.
+
+**Honest scope:** the memo's further remark that an antilinear θ glues the two real spin-2's into
+one complex spin-2 (10 real dims) + 54 colored bi-vectors was **NOT checked** — a real-structure
+claim needing data absent from the Chevalley basis; not confirmed, not refuted (the arithmetic
+10+54=64 is consistent). The 3 vs 3̄ labeling is pure convention (no SM value breaks it). Routed
+into the kill-graph (B836). Lock `tests/test_b1140_the_64_organized.py`.
+
+**Provenance note (cc3, adopted):** memo 26 (F-3) and the Lane-C (GUE) caveat exist in exactly
+one environment with no remote copy — a demonstrated debt (content cited would-be-in-a-bank but
+living outside both remotes is a debt, not an asset, until pushed). Neither banked here; recorded
+as a standing lead in `docs/OPEN_LEADS.md`.
+
 ## THE SYMMETRY-POINT TABLE (B1139, 2026-08-22): one SM generation, sin²θ_W = 3/8 typed as a reproduction, anomaly-freedom as the realized E₆ theorem, the honest naive-B−L negative — the value campaign's Lane A, verified two-bench
 
 The phase-III digest's value core (Lane A of the value-completing campaign): cloud memos 23

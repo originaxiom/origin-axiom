@@ -11192,3 +11192,21 @@ charges — a consistency check, not a forcing. **(4)** naive B−L = 2(Y−T₃
 −4/3, ±2); the physical B−L = a different Cartan, the open cell SP-1 (memo 25). FENCES: no
 measured value entered; state-name labels a CITED dictionary; Gate 5 untouched. Cloud seat
 credited. Lock test_b1139_symmetry_point_table.py.
+
+**2026-08-22 — THE 64 ORGANIZED (B1140), the finale of the cloud loop.** Cloud memo 27
+(golden_gate head 449ece8, on no shared remote), re-derived TWO-BENCH — own Killing-complement
++ own joint highest-weight enumeration on the banked e₆ (B1102) reusing B1138's fork
+construction; slot-independent (roots 0,2 and 3,4 identical). B1134's relay computed: the
+spacetime branch's 64 = 78 − 14 (the fork's su(2)×su(2)×su(3)) decomposes as **(spin-2,0;1) ⊕
+(0,spin-2;1) ⊕ (1,1;3) ⊕ (1,1;3̄) = 5+5+27+27** — a color-singlet graviton (two spin-2) + 54
+colored bi-vectors, with **INVARIANT CONTENT ZERO**. Verdict NEGATIVE: no invariant u(1)
+direction, no spinorial content → **hypercharge cannot organize in the spacetime branch** → the
+firewalled value hypothesis closes as the campaign's **tenth honest value-negative, the first by
+STRUCTURE not scan** (= the rep-level restatement of the fork z=0, B1138, same 14-dim
+subalgebra; cc3's 2nd grounding: the 14 = B8078 rung → 64 forced). THE CLOSING COMPOSITION: the
+fork's two forms split the world with nothing shared — E₆(−14) the charges, E₆(−26) the geometry
+(now incl. the graviton). SCOPE (honest): the antilinear-θ complex-spin-2 gluing NOT checked
+(real-structure data absent from the Chevalley basis; not confirmed/refuted). Routed into the
+kill-graph (B836). Provenance: memo 26 + Lane C are single-homed (cc3 confirms) — a debt, not
+banked, recorded as an OPEN_LEADS row (cc3's rule adopted). Gate 5 untouched. Lock
+test_b1140_the_64_organized.py.

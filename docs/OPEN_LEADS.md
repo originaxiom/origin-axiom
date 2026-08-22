@@ -1957,3 +1957,15 @@ No seal until gate (1) resolves. ★★★★ (the value lane's only type-correc
 word property — six channels spanning every listener sector share the identical
 28-word set, and the mechanism is DIAGONAL-FREEDOM of the weld matrix (fifteen orders
 of separation). The family's fourth theorem, as the outside session conjectured.
+
+**L181 REGISTERED (2026-08-22, B1140 close-out — cc3's demonstrated risk, f4e26d62):**
+THE SINGLE-HOMED-CONTENT DEBT GATE. Content cited (or would-be-cited) in a bank but living
+outside BOTH remotes (origin + codeberg) is a **debt, not an asset**, until pushed — demonstrated
+concretely when cloud memo 26 (F-3) and the Lane-C (GUE) caveat proved reachable only in the
+cloud seat's environment (head 449ece8 on no remote; cc3 independently confirmed), one environment
+from unrecoverable while everything else is triple-homed (tree + origin + codeberg). The
+relay-debt gate does this accounting one layer up (`docs/RELAY_LEDGER.md`); **nothing watches this
+layer**. THE CELL: a gate that scans banked arcs' FINDINGS/verdicts for cited artifacts not present
+in the working tree (hence not on either remote after push) and lists them as debts until resolved.
+Not urgent here (memo 26 + Lane C were NOT banked — no debt incurred; the rule is prospective).
+cc3 credited. ★★ (hygiene/provenance, not math).

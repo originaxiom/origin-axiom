@@ -1,0 +1,63 @@
+{
+  "provenance": "two-bench verification of cloud memo 27 (THE 64 ORGANIZED), golden_gate head 449ece8 (not on any shared remote); own code, banked e6 (B1102) + B1138 fork construction reused; verification/verify_memo27.py ~7s; slot-independent (roots 0,2 and 3,4 agree)",
+  "subalgebra": {
+    "desc": "su(2)_T1 x su(2)_T2 x su(3)_COLOR = the fork slots (T1,T2 principal su(2), COLOR the third A2)",
+    "dim": 14,
+    "rank": 14,
+    "ladder": [
+      16,
+      8,
+      8,
+      0
+    ],
+    "joint_centralizer": 0
+  },
+  "complement": {
+    "dim": 64,
+    "construction": "Killing-form orthogonal complement of the 14-dim subalgebra in e6 (78-14)",
+    "spans_78_with_subalgebra": true
+  },
+  "decomposition": [
+    {
+      "spin_T1": 2,
+      "spin_T2": 0,
+      "su3": "1",
+      "dim": 5,
+      "role": "graviton (color-singlet spin-2)"
+    },
+    {
+      "spin_T1": 0,
+      "spin_T2": 2,
+      "su3": "1",
+      "dim": 5,
+      "role": "graviton (color-singlet spin-2)"
+    },
+    {
+      "spin_T1": 1,
+      "spin_T2": 1,
+      "su3": "3",
+      "dim": 27,
+      "role": "colored bi-vector"
+    },
+    {
+      "spin_T1": 1,
+      "spin_T2": 1,
+      "su3": "3bar",
+      "dim": 27,
+      "role": "colored bi-vector"
+    }
+  ],
+  "dim_check": 64,
+  "checks": {
+    "total_dim_64": "CONFIRMED",
+    "invariant_content_zero": "CONFIRMED",
+    "two_color_singlet_spin2_gravitons": "CONFIRMED",
+    "remaining_54_all_colored": "CONFIRMED",
+    "only_graviton_middles_are_color_singlet_at_(0,0)": "CONFIRMED (2 of 8 (0,0)-Lorentz states are color singlets)",
+    "slot_independent": "CONFIRMED (roots 0,2 and 3,4 identical)"
+  },
+  "load_bearing": "invariant content ZERO => no u(1)/hypercharge-like direction can organize group-theoretically in the spacetime branch 64 => the value hypothesis closes BY STRUCTURE (the campaign 10th honest negative); = the rep-level restatement of the fork z=0 on the SAME 14-dim subalgebra",
+  "scope_note": "the memo further remark (antilinear theta glues the two real spin-2 into one complex spin-2, 10 real dims + 54 colored bi-vectors) was NOT checked -- a real-structure/antilinear claim needing data absent from the Chevalley basis; NOT confirmed, NOT refuted",
+  "convention_note": "which Dynkin (1,0)/(0,1) is called 3 vs 3bar is pure convention (conjugate reps; no SM value breaks the tie)",
+  "cc3_second_grounding": "the 14 is the corpus own 14-locus (cc3 B8078 proved-tight rung) => the complement dim 64 is FORCED not chosen"
+}

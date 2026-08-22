@@ -2913,6 +2913,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1140": {
+   "slug": "the 64 organized",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B836"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B114": {
    "slug": "covering degree",
    "motifs": [

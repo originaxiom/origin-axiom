@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**761 recorded closures — of which 594 are CLASSIFIED by mechanism and
+**762 recorded closures — of which 595 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -54,6 +54,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `identical vanishing: every anomaly channel over the derived 16 is zero -- including the global (B-L) pair where the imported 15 gives -1/-1; a layer that vanishes identically cannot supply a ratio (structural, B990's shape)` | 1 |  |
 | `type mismatch, structural: arithmetic CS is finite-group-valued by construction (target mu_n(F)^D = (1/n)Z/Z; compact-support etale cohomology, Artin-Verdier/Poitou-Tate) while the object's term is archimedean-analytic (Vol in R; the B8112 Ruelle factors) -- the theory supplies exactly the term proved to vanish (CS = 0 by amphichirality) and lacks entirely the term carried; the negative names its class: THE ARCHIMEDEAN BOUNDARY` | 1 |  |
 | `value-numerology guard fired (rung-1 algebraicity, sealed): 0 of 18 SM targets involve a regulator across 216 cells (D<=3, H<=1e6); 384-cell matched null base rate 0.0; the only relations found (delta_CP=4, m_s/m_d=20) are bare integers -- the V-alone tautology, gated out. The value door closes from its LAST route (regulators), matching the period-close V-3; cleaner than V-3 (which had one genuine near-miss)` | 1 |  |
+| `structural impossibility, NOT a scan: the 64 (= e6 78 minus the fork's 14-dim su(2)xsu(2)xsu(3)) decomposes by own joint highest-weight enumeration as EXACTLY (spin-2,0;1)+(0,spin-2;1)+(1,1;3)+(1,1;3bar)=5+5+27+27, with INVARIANT CONTENT ZERO -- no invariant direction for any u(1), no spinorial content. Hypercharge cannot organize in the spacetime branch; what lives there is the graviton slot (two color-singlet spin-2) + 54 colored bi-vectors. This is the rep-level restatement of the fork theorem's z=0 (B1138) on the SAME 14-dim subalgebra. The campaign's TENTH honest value-negative and the FIRST closed by structure rather than by search` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
