@@ -11241,3 +11241,16 @@ does not). GRAVITON BRIDGE DEAD (cc3 B8129/B8130): Ruelle Euler product purely g
 via the cusped functional equation → graviton (geodesic) and Lane C (cusp) meet nowhere; the graviton
 is two faces, the finale (B1140) independent. Routed to the kill-graph. Cloud seat credited. Gate 5
 untouched. Lock test_b1142_lane_c_cusp_spectrum.py.
+
+**2026-08-25 — SP-1 CLOSES (B1143): the physical B−L is a genuine fourth Cartan direction; the
+cloud's stated vector was WRONG.** Cloud memo 25, re-derived TWO-BENCH (own solve + span-membership
++ anomaly batteries on B1139's banked 27; cross-checked IDENTICAL to B1139's captured run). Solve:
+rank 5, nullity 1 → family c=[0,c1,0,−1/3,1,0] (β_L auto-redundant, β_R over-constrains); Tr(B−L)=0
+and Tr(B−L)³=0 whole family; all 27 physical. LOAD-BEARING: span{Y,T3R} + span{Y,T3R,T3L} both
+UNSOLVABLE (witnesses w·B−L=3/2, 3) → B−L a genuine 4th direction. **⚠️ CORRECTION TO THE CLOUD:**
+the memo's literal c pinned to [0,−1,0,1/3,0,1] = exactly Y − T3L — in span{Y,T3L}, FAILS independence,
+not SU(2)_L-uniform; banking it literally would have been a false positive. Memo's conclusion right,
+stated vector wrong; correct family c=[0,c1,0,−1/3,1,0]. SP-3: 72 assignments, 1 table; batteries
+30/30 + 6/6 vanish; "36/36" FLAGGED. SP-4: FLAGGED (three-A₂ frame, not four; 2592 not established).
+The closing's Cartan content complete (Y,T3L,T3R,B−L). Cloud seat credited. Gate 5 untouched. Lock
+test_b1143_bl_fourth_cartan.py.

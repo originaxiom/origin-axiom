@@ -16,6 +16,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-25, B1143)**: SP-1 CLOSES — the physical **B−L is a genuine
+fourth Cartan direction** (independent of Y/T₃R/T₃L), verified two-bench on B1139's
+banked 27: rank 5/nullity 1 → family c=[0,c₁,0,−⅓,1,0]; both span-memberships
+UNSOLVABLE (witnesses 3/2, 3); Tr(B−L)=Tr(B−L)³=0. The closing's Cartan content is
+complete. **A verify-don't-trust catch:** the cloud's stated vector was exactly
+**Y − T₃L** (in span, fails independence) — banking it literally would have been a
+false positive; the conclusion holds with the corrected family. SP-3 invariant
+(72 assignments, 1 table); "36/36" and SP-4 FLAGGED. **This closes the phase-III
+digest.** Lock test_b1143_bl_fourth_cartan.py.
+
 **LATEST (2026-08-25, B1142)**: LANE C — the object's cusp/scattering
 spectrum is **ζ_K = ζ·L(χ₋₃)**, GUE-distributed but **generic** (Montgomery/
 Katz–Sarnak — a universality class, not object-specificity). Verified two-bench

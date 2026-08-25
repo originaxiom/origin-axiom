@@ -1,5 +1,33 @@
 # Changelog
 
+## SP-1 CLOSES (B1143, 2026-08-25): the physical B−L is a genuine fourth Cartan direction — and re-deriving caught a load-bearing error in the cloud's stated vector
+
+Cloud memo 25 (SP-1/SP-3/SP-4), re-derived two-bench with own code (own linear solve +
+span-membership + anomaly batteries on B1139's **actual banked 27**, cross-checked IDENTICAL to
+B1139's captured run). **SP-1 closes** — B1139's open cell is answered.
+
+**The result stands:** solving f(α₀)=f(α₂)=0 (color) + the 10 forced quantized targets on the 27
+gives **rank 5, nullity 1** — a genuine 1-parameter family **c = [0, c₁, 0, −⅓, 1, 0]** (β_L
+auto-redundant, β_R over-constrains). Tr(B−L)=0 and Tr(B−L)³=0 identically for the whole family;
+all 27 weights land in {0,±⅓,±⅔,±1} (textbook fermion assignments). **The load-bearing claim,
+exact + symbolic:** span{Y,T₃R} and span{Y,T₃R,T₃L} are **both UNSOLVABLE** (witness residuals
+w·B−L = 3/2 and 3) — B−L is independent of the existing charges. **The closing's Cartan content is
+complete** (Y, T₃L, T₃R, B−L).
+
+**⚠️ Load-bearing correction to the cloud (relayed):** the memo's literal `c = [0,−1,0,4/3−c₅,c₅−1,c₅]`
+(pinned `[0,−1,0,⅓,0,1]`) **does not solve the construction** on B1139's 27 (only 2 of 12 equations
+hold), and the pinned vector is **exactly B−L = Y − T₃L** (combo x=1,y=0,z=−1) — it sits *in*
+span{Y,T₃L}, **fails** the independence test, and isn't SU(2)_L-uniform (−⅓ vs +⅔ on the same Y=⅙
+sextet). Banking the cloud's literal numbers would have been a **false positive** — verify-don't-trust
+catching a *load-bearing* error, not a convention slip. The memo's **conclusion is right** (B−L is a
+4th direction); its **stated vector is wrong**; the correct family is c = [0, c₁, 0, −⅓, 1, 0].
+
+**SP-3:** 72 distinct physical assignments, all inducing the **same single (T₃L,Y,Q) table**
+(invariance confirmed); own anomaly batteries 30/30 and 6/6 vanish — but the memo's specific **"36/36"
+count is FLAGGED** (no natural battery reproduces 36 without fitting). **SP-4: FLAGGED** — not
+computable from the one-line spec; the "2592" needs a four-A₂ structure, but this frame is three-A₂
+(order 216). Cloud seat credited. Gate 5 untouched. Lock `tests/test_b1143_bl_fourth_cartan.py`.
+
 ## LANE C (B1142, 2026-08-25): the object's cusp/scattering spectrum is ζ_K = ζ·L(χ₋₃), GUE-distributed but generic — a placement, not a value; the graviton bridge stays dead
 
 The value campaign's GUE spectral down-payment, re-derived two-bench with own code (mpmath +
