@@ -1,0 +1,20 @@
+substitution discovered: phi(U) = V (by construction);  phi(V) = VuVV  (exact matrix match)
+abelianized substitution matrix [[0,-1],[1,3]]: det = 1, trace = 3  (cat map: det +-1, |trace| 3)
+tr[U,V] = (Fraction(-2, 1), Fraction(0, 1))   (expect -2: the fiber boundary IS the cusp; banked longitude trace -2)
+fiber triple (x,y,z) = ((Fraction(2, 1), Fraction(-1, 1)), (Fraction(2, 1), Fraction(-1, 1)), (Fraction(2, 1), Fraction(-4, 1)))
+Fricke level x^2+y^2+z^2-xyz = (Fraction(0, 1), Fraction(0, 1))   (expect 0 = tr[U,V]+2: the CUSPED surface)
+trace-map image of the triple: ((Fraction(2, 1), Fraction(-1, 1)), (Fraction(2, 1), Fraction(-1, 1)), (Fraction(2, 1), Fraction(-4, 1)))  — FIXED: True
+the triple is irrational (has q-part): True  => its Galois conjugate is a DIFFERENT point
+Galois twin ((Fraction(1, 1), Fraction(1, 1)), (Fraction(1, 1), Fraction(1, 1)), (Fraction(-2, 1), Fraction(4, 1))): level = (Fraction(0, 1), Fraction(0, 1)) (SAME surface — level 0 is rational)
+beat image of the triple: ((Fraction(1, 1), Fraction(1, 1)), (Fraction(1, 1), Fraction(1, 1)), (Fraction(-2, 1), Fraction(4, 1)))  == Galois twin: True
+
+THE FIXED POINT AND ITS TWIN, EXACT: the fiber triple of the holonomy sits on
+the CUSPED Fricke surface (level 0, boundary trace -2 = the longitude), is a
+FIXED POINT of the monodromy's trace-map dynamics, and is irrational — so its
+Galois conjugate is a second, distinct fixed point on the same rational-level
+surface.  The beat maps one to the other, computed on the nose.  The atlas's
+object=dynamics pattern (the object as the trace map's fixed locus) is here
+with its full structure: the fixed locus is a CONJUGATE PAIR, and the object's
+own Z/2 — the beat, the kappa-reflection, the mirror bit — is the deck
+transformation of that pair.  One Z/2, now seen as the exchange of the two
+fixed points of the one forced dynamics.
