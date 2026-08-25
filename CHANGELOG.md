@@ -1,5 +1,26 @@
 # Changelog
 
+## THE CONVERGENCE CAMPAIGN (B1146 + B1147, 2026-08-26)
+
+**B1146 — SEAM-B (own bench, exact).** The 2T-vs-A₄ distinction is the object's own **−I**, visible
+on BOTH the 27 and the 78 for the fermion-capable minimal-A1 stratum (adjoint 5-grading
+{−2:1, −1:20, 0:36, 1:20, 2:1} — 40 odd dims ⇒ ρ₇₈(−I)≠I; and ρ₂₇(−I)≠I). Codex's "the adjoint can't
+distinguish 2T from A₄" is a **principal-sl₂ artifact** (there the grading is 2·height, all even)
+and does **not** apply to the object — its §9 worry is **defused**; link 2 (ℚ(√−3)→2T→E₆) stands.
+NUANCED-MATCH on the seal (the clean-MATCH was too clean and is corrected — a verify-don't-trust
+catch on my *own* prereg). Converges with cloud memo 34 (PROJECTIVE ⟺ EVEN ORBIT).
+
+**B1147 — the C-lane harvest.** The cloud's **memos 30–40** (`origin/outside-bench`
+`dc937010`) reproduce-verified: all 11 self-contained certs re-run on our pyenv, verdict regions
+byte-identical (10) + 1 clean run. Highlights: memo 32 (**"no mass term" is a theorem** — the 27
+carries no invariant bilinear; the only invariant is the beat-covariant cubic), memo 36 (**the spin
+selection's third independent derivation**), memo 33 (B1140's gluing note **discharged**), memo 34
+(cross-checked by B1146), memos 38–40 (the **derived** Weyl coefficient with constant term 0, the
+π²-valuation law, the one Ohtsuki germ). Plus the **C3 large-ladder run on our i9** (N≤4000, 120
+dps): c₀·3^{1/4}=1.000…0002 exact, but c₁/c₂ **NOT-RECOGNIZED** at this depth (honest negative).
+**C4 (large-T GUE) still grinding on the i9** — banks separately. Cloud seat credited. Gate 5
+untouched. Locks `tests/test_b1146_seam_b.py`, `tests/test_b1147_clane_harvest.py`.
+
 ## SP-2 (B1145, 2026-08-25): the beat closes exactly on the fermion-capable stratum's 27 over the selected lift — the last spin-lift bit is assigned (the physical-generation reading is thesis-level, not a theorem — codex-sharpened)
 
 The single live frontier cell, sealed as a prereg (`c384dd3e`) **before** the answer was known and

@@ -37,7 +37,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | wrt_quantum | 253 | 24% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | z3_generation | 235 | 22% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | kappa | 234 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
-| lorentzian | 190 | 18% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
+| lorentzian | 191 | 18% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | dickson_tower | 105 | 10% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
 | symplectic | 100 | 9% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | apolynomial | 80 | 7% | structure | no | topology | the A-polynomial / Cooper-Long / AJ |

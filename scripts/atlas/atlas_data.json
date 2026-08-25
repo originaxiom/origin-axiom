@@ -3014,6 +3014,38 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1146": {
+   "slug": "seam b",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1147": {
+   "slug": "clane harvest",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "P1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B114": {
    "slug": "covering degree",
    "motifs": [

@@ -1,0 +1,24 @@
+{
+ "sealed_prereg": "THREE_SEAMS_PREREG.md, SEAM-B, sha256 e699ebc79c06a823 (computed before SEAM-Y/SEAM-A)",
+ "verdict": "NUANCED-MATCH: the object distinguishes 2T from A4 on both matter and gauge; codex's indistinguishability is principal-sl2-specific and off-target",
+ "discriminating_principle": "rho(-I) = exp(i*pi*ad h) acts on a weight-w space as (-1)^w; rho(-I) != I on a module iff that module carries an ODD ad(h)-weight",
+ "object_minimal_A1_stratum": {
+  "adjoint78_ad_h_spectrum": {"-2": 1, "-1": 20, "0": 36, "1": 20, "2": 1},
+  "adjoint78_odd_dims": 40,
+  "rho78_minusI_nontrivial": true,
+  "weight27_spectrum": {"-1": 6, "0": 15, "1": 6},
+  "weight27_odd_dims": 12,
+  "rho27_minusI_nontrivial": true,
+  "note": "the standard e6 minimal-nilpotent 5-grading 1+20+36+20+1=78, reproduced from scratch; ad(h) exactly diagonal in the Chevalley basis"
+ },
+ "principal_sl2_reference": {
+  "adjoint_grading": "2*height(alpha), all even",
+  "rho78_minusI_nontrivial": false,
+  "note": "reproduces codex's claim -- the principal adjoint factors through A4 -- and shows it is principal-specific"
+ },
+ "resolves": "codex §9 (principal adjoint factors through A4 => can't distinguish 2T from A4) is a PRINCIPAL-sl2 ARTIFACT; the object uses the minimal A1, where -I is visible on both 27 and 78 => 2T fully distinguishable from A4; link 2 (Q(sqrt-3)->2T->E6) stands",
+ "seal_correction": "the sealed clean-MATCH assumed the object's -I is adjoint-invisible (like the principal); it is NOT -- verify-don't-trust catch on my own prereg",
+ "converges_with": "cloud memo 34 (A5 parity lemma: PROJECTIVE <=> EVEN ORBIT, adjoint-only condition -- the 27's parity tracks the adjoint's); cross-credit on memo-34 harvest",
+ "machinery": "banked B1102 (load_ccb + build_27) only; no golden_gate import",
+ "gate5": "n/a (representation theory, no SM value)"
+}

@@ -16,6 +16,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1146 + B1147 — THE CONVERGENCE CAMPAIGN)**: **B1146 SEAM-B** — the
+2T-vs-A₄ distinction is the object's own −I, visible on BOTH the 27 and the 78 (minimal-A1
+adjoint 5-grading, 40 odd dims); codex's "adjoint can't distinguish them" is a principal-sl₂
+artifact — the §9 worry is **defused**, link 2 stands; NUANCED-MATCH on the seal. **B1147
+harvest** — the cloud's memos 30–40 reproduce-verified (11/11 certs): "no mass term" is a
+theorem (memo 32), the spin selection's third derivation (memo 36), B1140's gluing discharged
+(memo 33), the derived Weyl coefficient (memo 38), the π²-valuation law (memo 39), the one
+Ohtsuki germ (memo 40). C3 large-ladder → NOT-RECOGNIZED at N≤4000 (honest negative); C4 still
+grinding. Locks test_b1146_seam_b.py + test_b1147_clane_harvest.py.
+
 **LATEST (2026-08-25, B1145)**: SP-2 — **the beat closes EXACTLY on the fermion-capable
 odd A1/su(6) stratum's 27 over the beat-selected lift; the last discrete spin-lift bit is
 assigned.** (Minuscule → 6 fundamental-2 doublets + 15 singlets inherit B1141's lift; every

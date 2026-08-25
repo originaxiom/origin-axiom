@@ -1,0 +1,28 @@
+{
+ "primary_source": "origin/outside-bench @ dc937010 (shared remote; not single-homed)",
+ "verification_method": "reproduction -- each self-contained cert re-run on this bench's pyenv 3.12.1; verdict region diffed vs committed outputs/ (verification/reproduce.log)",
+ "reproduce": {"total_certs": 11, "byte_identical_verdict": 10, "clean_run_no_baseline": 1, "failures": 0},
+ "memos": {
+  "30": "C-P1: 20 characteristics re-derived (729-sweep); 4 distinguished strata (3 projective, 1 odd dim-64); dictionary 9/20 projective",
+  "31": "A3: beat on H1(cusp) = diag(1,-1) exactly",
+  "32": "A1+B1: the 27 admits NO invariant bilinear -- 'no mass term' is a theorem; only invariant = beat-covariant Jordan cubic",
+  "33": "A2: theta an exact bracket-equivariant bijection sl3(S0)<->sl3(S1) swapping 3<->3bar -- B1140's gluing note discharged",
+  "34": "A5: PROJECTIVE <=> EVEN ORBIT (adjoint-only) -- independently cross-checked by B1146/SEAM-B",
+  "35": "B2: trinification-invariant symmetric trilinears on the 27 = exactly 4",
+  "36": "A4: the spin selection's THIRD independent derivation (H1 arithmetic t^2=a; the restriction is the zero map)",
+  "37": "C5/QP-1: cusp character 1-bit blind to the interior fiber (beta = 0 identically)",
+  "38": "C1: the counting law DERIVED (Lambda_K func eq to 1e-30; constant term = 0, ~1/T); B1142's density rests on a derived coefficient",
+  "39": "C2: naive p-adic tower does not cohere -- v_pi(level difference) = 2 universally (6 cases, 3 primes)",
+  "40": "C2b: the one Taylor germ approximates every p-power evaluation with v_pi >= N in all 24 cells"
+ },
+ "c3_large_ladder_our_i9": {
+  "ladder": "N = 400..4000 step 200, 120 dps, 19 rungs (verification/c3_ladder.txt)",
+  "sanity_anchor_c0_times_3^0.25": "1.000...0002 (exact to ~20 digits) -- PASS",
+  "c1_stable_digits": 17,
+  "c2_stable_digits": 13,
+  "recognition_gate_digits": 60,
+  "verdict": "NOT-RECOGNIZED at this depth (honest negative, as preregistered); PSLQ returns spurious million-size coefficients; raw ladder banked for a deeper continuation"
+ },
+ "c4_large_T_gue": "still grinding on the i9 (T=3000); banks separately",
+ "gate5": "n/a (topology / representation theory / spectral placement, no SM value)"
+}

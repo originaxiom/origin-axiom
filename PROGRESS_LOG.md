@@ -11280,3 +11280,15 @@ index, no 4d chirality, three generations NOT proved; "the generation's seat clo
 program's THESIS reading, not a theorem. Fence: fermionic kinematics not dynamics. B1141 NEEDS-CERT
 dischargeable (beat trilogy now reachable). Cloud + codex credited. Gate 5 n/a. Lock
 test_b1145_sp2_fermion_seat.py.
+
+**2026-08-26 — THE CONVERGENCE CAMPAIGN (B1146 + B1147).** B1146 SEAM-B (own bench, exact): the
+2T-vs-A4 distinction is the object's own -I, visible on BOTH the 27 and the 78 for the minimal-A1
+stratum (adjoint 5-grading {-2:1,-1:20,0:36,1:20,2:1}, 40 odd dims => rho78(-I)!=I; rho27(-I)!=I);
+codex's "adjoint factors through A4" is a PRINCIPAL-sl2 artifact (grading 2*height, all even) —
+defused; link 2 stands; NUANCED-MATCH (seal corrected, verify-don't-trust on own prereg); converges
+with cloud memo 34. B1147 harvest: memos 30-40 reproduce-verified (11/11 certs byte-identical on our
+pyenv) — memo 32 "no mass term" theorem (27 has no invariant bilinear), memo 36 third spin
+derivation, memo 33 B1140 gluing discharged, memo 34 PROJECTIVE<=>EVEN (=B1146), memos 38-40 derived
+Weyl coeff / pi^2 law / the one germ. C3 large-ladder on our i9 (N<=4000, 120 dps): c0 anchor exact,
+c1/c2 NOT-RECOGNIZED at depth (honest negative). C4 large-T GUE grinding, banks separately. Cloud
+credited. Gate 5 untouched. Locks test_b1146_seam_b.py + test_b1147_clane_harvest.py.
