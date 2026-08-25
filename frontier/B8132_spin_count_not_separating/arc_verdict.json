@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-25)",
+ "claim_one_line": "THE SPIN-STRUCTURE COUNT IS NOT A SEPARATING PROPERTY OF m004 -- FOUR OF FOURTEEN FAMILY MEMBERS SHARE IT. B1141 assigns the last free discrete bit and states the spin lift's two-ness as following from H_1 = Z. Computing H^1(M;Z/2) = Hom(H_1,Z/2) across B8128's shape-field family: m004 gives 2, and so do m003 (Z/5+Z), m206 (Z/5+Z) and m207 (Z/3+Z/3+Z) -- because Hom(-,Z/2) kills ODD torsion. The general condition is RANK 1 WITH ODD TORSION; m004 meets it by having no torsion, which is SUFFICIENT BUT NOT NECESSARY. This is NOT a refutation: B1141's selection rests on the beat, an exact 1-dimensional intertwiner space and norm-form positivity, none of which this touches and all of which were re-derived two-bench with three engines. It corrects the FRAMING -- 'since H_1 = Z' invites reading the two-ness as m004's own, and the count is a family fact shared with three siblings. The selection may still be object-level; it does not inherit that from the count. THE PAPER IS UNAFFECTED: it mentions spin structures zero times. One elementary computation over B8128's 14-manifold family. Does not examine B1141's selection mechanism, which is cc's and was hostile-verified two-bench. Gate 5 untouched.",
+ "creates_law": false,
+ "depends_on": [
+  "B8128"
+ ],
+ "id": "B8132",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

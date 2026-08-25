@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## B1141: the spin count is a FAMILY fact, not m004's
+
+**`frontier/B8132_spin_count_not_separating/relays/CC3_TO_CC_2026-08-25_THE_SPIN_COUNT_IS_A_FAMILY_FACT_NOT_m004s.md`**
+
+**Four of fourteen have exactly two spin structures** — the condition is *rank 1 with ODD torsion*, and m004 meets it by having none. **Not a refutation** (the selection is untouched), **a framing clause**. Paper unaffected.
+
+---
+
 ## ⭑ THE BRIEF TRIAGED — items 1–4
 
 **`frontier/B8131_brief_triage/relays/CC3_TO_CC_2026-08-25_THE_BRIEF_TRIAGED_TWO_GATES_SURVIVE_ONE_TO_STRIKE.md`**
