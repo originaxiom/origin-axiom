@@ -1,0 +1,59 @@
+{
+ "dividend": {
+  "detail": "OA-C1061 is REFUTED (do Fried/Park/Pfaff torsion formulae or the scalar m004 cusp scattering determinant directly supply the one-loop object) and OA-C1062 is EXTERNAL_BLOCKER (can one construct a gauge-fixed spin-2 one-loop determinant for the finite-volume cusped case). Those are EXACTLY this seat's B8112/B8113 negative and its item-3 residue 1, the spin-2 cusped test function named as the one genuine literature void. Two seats, no contact, same two conclusions AND the same boundary between them.",
+  "what": "the same audit corroborates Paper III from an independent seat"
+ },
+ "flagged": {
+  "m12_disagreement": "an independent count reports 2 primitive classes at m=12 where this enumeration gives 3; UNRESOLVED, stated in the paper as Remark rem:m12, and not load-bearing since both agree on m=1..11 and the threshold claim is about the FIRST repetition"
+ },
+ "my_own_gate_slip": {
+  "gate_gap_worth_closing": "`attribution` could also scan `git log --format=%s%n%b` over the branch's own commits. Recommended, not implemented here -- a gate change is a merge-gate decision.",
+  "not_fixed": "the commit message itself. It is pushed to both remotes; rewriting shared history is more damaging than the slip and is not this seat's call. FLAGGED for the owner and cc.",
+  "pre_existing_and_not_mine": "CC_TO_CC3_2026-08-21_FOUND_THE_P1_SCRUTINY_ON_v4h3tb_F1_IS_THE_ADELIC_ENTRANCE.md carries the token via a different branch name; committed 2026-08-21, untouched here.",
+  "scope": "three tracked FILES I wrote carried the same token; those are fixed by eliding the prefix as `\u27e8prefix\u27e9/outside-bench`, with the elision explained in the relay so the branch stays findable.",
+  "what": "commit 6adfc736's SUBJECT LINE contains the token the `attribution` gate forbids in tracked files (a branch name).",
+  "why_it_passed": "the gate scans tracked FILE CONTENTS, not commit messages -- so it is green while the rule is broken."
+ },
+ "not_claimed": [
+  "canonical passage from substitution to 3-manifold (typed data, OA-C0003)",
+  "that the seed is forced",
+  "class uniqueness for m>=6",
+  "any physical interpretation"
+ ],
+ "paper": {
+  "overfull": 0,
+  "pages": 7,
+  "path": "papers/series/paper1_characterization/main.tex",
+  "sha256_tex": "d4dc921919a5b192c6edc92c62c016d8f119fd97f543af217e4c74b4a96694d8",
+  "sha256_verify": "57f2f400ef22faa6652f0751218931a7b7054f4d7742bd738c94987c51e3f28a",
+  "undefined_refs": 0
+ },
+ "plan_correction": {
+  "caught": "before drafting a line, so the false claim never entered the paper",
+  "corrected_to": "Paper I's real anchors are OA-C0001 (genesis, REFUTED), OA-C0002 (genesis, CONDITIONAL), OA-C0003 (carrier, CONDITIONAL). NONE is PROVED, and the paper says so in Appendix B.",
+  "error_class": "reading a label as a result -- the same class this seat has banked repeatedly",
+  "what": "SERIES_PLAN.md said Paper I answers the question-map's `geometry` domain (17 questions).",
+  "why_wrong": "ALL 17 `geometry` rows are ALGEBRAIC geometry of heterotic bundles -- Hoppe stability, monads, Kuranishi, short-vector descent. NOT ONE is hyperbolic geometry or 3-manifolds. I matched the word `geometry` and never opened the rows."
+ },
+ "sharpening_over_source": "the 52pp paper proved det(A^2-I) = -m^2 via chi_A(1)chi_A(-1). That fixes only the ORDER of the cokernel. The Cayley-Hamilton route A^2-I = mA fixes the INVARIANT FACTORS, ruling out a cyclic Z/m^2 that the determinant computation alone permits. Found while rewriting a proof I had first written muddled.",
+ "theorems": {
+  "characterization": "A in GL(2,Z) hyperbolic, non-negative entries: dominant eigenvalue has purely periodic CF of period one <=> det A = -1; then tr A = m >= 1 and the eigenvalue is lambda_m. Classification by (tr,det) alone.",
+  "class_threshold": "primitive GL(2,Z) form-class counts at disc m^2+4 = [1,1,1,1,1,2,1,1,2,2,1] for m=1..11; unique for m<=5; m=6 is the FIRST repetition",
+  "period_two_price": "det M(a,b) = +1 already; period-one squared is the DIAGONAL of period-two; torsion Z/gcd + Z/lcm; only (1,1) is a knot complement -- price of the restriction is ZERO against the one relaxation tested",
+  "trace_only": "A^2 - I = mA (Cayley-Hamilton); det = -m^2; Smith form (m,m); knot complement iff m=1; depends on A only via tr A"
+ },
+ "verification": {
+  "checks": 15,
+  "controls": [
+   "the det(+1) comparison family is live",
+   "the identity A^2-I=mA FAILS off the locus",
+   "Smith form is (m,m) not cyclic (m^2,1)"
+  ],
+  "passed": 15,
+  "sampled_matrices": 896,
+  "trace_range": [
+   1,
+   26
+  ]
+ }
+}

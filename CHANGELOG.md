@@ -1,5 +1,15 @@
 # Changelog
 
+## B8135 — Paper I of the series is drafted, and the plan's spine is corrected
+
+**`papers/series/paper1_characterization/` — 7pp, builds clean, 15/15 verified.** The period-one locus in `GL(2,ℤ)` is exactly `det = −1`; the primitive class is unique for `m ≤ 5` with **`m = 6` the first repetition**; and **`A² − I = mA`** by Cayley–Hamilton, so the torsion is **exactly `ℤ/m ⊕ ℤ/m`** and the knot-complement condition is `m = 1`, blind to the class ambiguity.
+
+**Sharpening over the 52pp source:** that paper computed `det(A²−I) = −m²`, fixing only the *order* of the cokernel. The Cayley–Hamilton identity fixes the *invariant factors*, ruling out a cyclic `ℤ/m²`. Found while rewriting a proof I had first written muddled.
+
+**⚠ Correction to my own `SERIES_PLAN.md`.** It said Paper I answers the question map's `geometry` domain (17 questions). **All 17 are algebraic geometry of heterotic bundles — Hoppe stability, monads, Kuranishi. Not one is hyperbolic geometry.** I matched the word and never opened the rows: *reading a label as a result*. Paper I's real anchors are `OA-C0001` (REFUTED), `OA-C0002` and `OA-C0003` (CONDITIONAL) — **none PROVED**, and Appendix B says so.
+
+**Dividend.** The same audit corroborates Paper III: `OA-C1061` REFUTED and `OA-C1062` EXTERNAL_BLOCKER are exactly this seat's B8112/B8113 negative and its item-3 spin-2 cusped void — **two seats, no contact, same conclusions and the same boundary between them.**
+
 ## B8119 — the 3d theory is complete as a definition (2026-08-21)
 
 All eleven of B8099's rows disposed. **The state-integral row moved `PARTIAL → PRESENT` because B8099 never searched B787** — §0 broken by this seat in its own audit. The theory is **parameter-free in a strong sense**: the action's entire content is `(3√3/2)L(χ₋₃,2)`, an **L-value**. **Novelty disclaimed** — DGG and Andersen–Kashaev built the pieces. **NOT finished: the one-loop partition function**, three named residues.

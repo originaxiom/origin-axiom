@@ -49,11 +49,50 @@ from a stale tree.** The `codex/seat-r001` seat has banked
    the claim-to-script table (the current paper's Appendix B, reusable verbatim).
 3. **A series footnote** naming the others by title and status.
 
-**And the map's domain counts justify the split rather than merely permitting it:**
-`vacuum` 22 · `geometry` 17 · `lie` 8 · `qft` 8 · `values` 6 · `flavor` 6 · `spectrum` 5.
-**Paper I is geometry/arithmetic, II is lie, III is qft, IV is values+framework** — the four
-largest non-vacuum domains, one community each. **`vacuum`, the largest at 22, is the current 52pp
-paper's territory and stays its own object.**
+### ⚠ CORRECTED 2026-08-26 — I read the domain labels without opening the rows
+
+**My first version of this section said: "`vacuum` 22 · `geometry` 17 · `lie` 8 · `qft` 8 ·
+`values` 6 · `flavor` 6 · `spectrum` 5. Paper I is geometry/arithmetic, II is lie, III is qft, IV
+is values+framework — the four largest non-vacuum domains, one community each." I then opened all
+81 rows. THE PAPER I ASSIGNMENT IS WRONG.**
+
+**All 17 `geometry` rows are ALGEBRAIC geometry of heterotic bundles** — Hoppe stability, monads,
+Kuranishi obstruction, short-vector descent. **Not one is hyperbolic geometry or 3-manifolds.** I
+matched on the word `geometry` and never checked the questions under it. **That is the identical
+error class this seat has banked repeatedly: reading a label as a result.**
+
+**Paper I's real anchors are three rows, in two much smaller domains:**
+
+| ID | domain | status | question |
+|---|---|---|---|
+| `OA-C0001` | `genesis` | **REFUTED** | does minimal description select a unique formal seed independently of encoding? |
+| `OA-C0002` | `genesis` | **CONDITIONAL** | do the declared substitution rules select Fibonacci at minimality? |
+| `OA-C0003` | `carrier` | **CONDITIONAL** | does the Fibonacci substitution canonically determine the oriented mapping torus `m004`? |
+
+**`OA-C0003`'s recorded answer is Paper I's own honest limit, stated by another seat before I
+drafted a line:** *"Conditionally. Squaring the determinant-minus-one incidence gives `RL`, but
+letter-to-Dehn-twist, puncture, orientation, and mapping-torus operations are extra typed data."*
+
+> **So Paper I's anchor questions are one REFUTED and two CONDITIONAL — none PROVED.** Paper I
+> proves a clean theorem; the programme questions it feeds are conditional, and the reason is
+> named. **The paper must say so, and this is strictly better than a borrowed count of 17.**
+
+**Papers II–IV survive the audit.** II → `lie` (`OA-C0005` PROVED, `OA-C0006` CONDITIONAL,
+`OA-C1057` PROVED); III → `qft` (`OA-C1061`, `OA-C1062`); IV → `values` (`OA-C1059`, `OA-C1060`,
+`OA-C1063`, `OA-C1064`).
+
+**And the audit paid a dividend on III.** `OA-C1061` is **REFUTED** — *do the cited Fried, Park or
+Pfaff torsion formulae, or the scalar `m004` cusp scattering determinant, directly supply the
+one-loop object?* — and `OA-C1062` is **EXTERNAL_BLOCKER** — *can one construct a gauge-fixed
+spin-2 one-loop determinant for the finite-volume cusped case?* **Those are exactly this seat's
+B8112/B8113 negative and its item-3 residue 1, the spin-2 cusped test function I named as the one
+genuine literature void.** Two seats, no contact, same two conclusions with the same boundary
+between them. **That corroboration belongs in Paper III and is worth more than the domain count I
+got wrong.**
+
+**`vacuum` (22) is the current 52pp paper's territory and stays its own object. The 17 heterotic
+`geometry` rows are a FIFTH object belonging to no paper in this series** — they are the codex
+seat's line, and this plan should stop implying otherwise.
 
 ## The four, and the order
 

@@ -1,0 +1,422 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\theoremstyle{remark}
+\newtheorem{scope}[theorem]{Scope}
+
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\SL}{\operatorname{SL}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\disc}{\operatorname{disc}}
+\newcommand{\lcm}{\operatorname{lcm}}
+
+\title{The period-one locus in $\GL(2,\Z)$:\\
+an intrinsic characterization, and a selection that sees only the trace}
+\author{}
+\date{26 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let $A\in\GL(2,\Z)$ be hyperbolic with non-negative entries. We show that the
+continued-fraction expansion of its dominant eigenvalue is purely periodic of period one
+\emph{if and only if} $\det A=-1$, in which case $\tr A=m\ge1$ and the eigenvalue is the
+$m$-th metallic mean $\lambda_m=\tfrac12(m+\sqrt{m^2+4})$. The locus so described is thus
+not a family chosen to make a theorem true: it is cut out by a determinant condition, and
+the classification along it is by $(\tr,\det)$ alone.
+
+Two refinements make the statement usable. First, the companion matrix $X_m$ realizes each
+attained trace but is not always the unique $\GL(2,\Z)$-class doing so; we compute the
+number of primitive $\GL(2,\Z)$-classes of binary quadratic forms of discriminant $m^2+4$
+to be $1,1,1,1,1,2,1,1,2,2,1$ for $m=1,\dots,11$, so the class is unique exactly for
+$m\le5$ and $m=6$ is the first repetition. Second --- and this is the point of the paper
+--- the invariant that singles out the golden member is insensitive to that ambiguity: for
+\emph{every} $A$ on the locus with $\tr A=m$, Cayley--Hamilton gives the integer-matrix
+identity
+\[
+   A^2-I\;=\;mA ,
+\]
+so that $\det(A^2-I)=-m^2$ and, because $A$ is unimodular, the mapping torus of $A^2$ has
+first-homology torsion exactly $\Z/m\oplus\Z/m$ --- a knot complement precisely when $m=1$. The selection therefore operates on the whole
+period-one locus and not merely on the chosen representatives, which removes the objection a
+reader raises first. We also price the period-one restriction against the period-two
+relaxation --- there the torsion is $\Z/\gcd(a,b)\oplus\Z/\lcm(a,b)$ and the only knot
+complement is again the golden one --- and we state precisely what is \emph{not} obtained:
+the passage from a substitution rule to an oriented mapping torus requires typed data that
+no result here supplies.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+\subsection{The objection this paper answers}
+
+A theorem of the form ``\emph{inside the family $\mathcal{F}$, the object $x_0$ is the unique
+member with property $P$}'' is worth exactly as much as the description of $\mathcal{F}$ is
+worth. If $\mathcal{F}$ was assembled by listing the objects that resemble $x_0$, the theorem
+is a tautology wearing a quantifier. The sharpest form of the objection is that the family
+admits no description independent of its conclusion.
+
+We answer that form of it here for one specific family, and we are explicit about the weaker
+forms we do not answer.
+
+The family is the set of hyperbolic $A\in\GL(2,\Z)$ with non-negative entries whose dominant
+eigenvalue has a purely periodic continued fraction of period one. This description mentions
+no distinguished member. Theorem~\ref{thm:canonical} shows it coincides with the determinant
+condition $\det A=-1$; Theorem~\ref{thm:traceonly} shows that the invariant which distinguishes
+one member from the rest depends only on the trace, hence is constant on each of the finitely
+many $\GL(2,\Z)$-classes sharing a trace, hence cannot be an artifact of which representative
+one writes down.
+
+\subsection{Results}
+
+Throughout, $\lambda_m=\tfrac12\bigl(m+\sqrt{m^2+4}\bigr)$ denotes the $m$-th \emph{metallic
+mean}, the positive root of $x^2-mx-1=0$; $\lambda_1=\varphi$ is the golden mean and
+$\lambda_2=1+\sqrt2$ the silver.
+
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Theorem~\ref{thm:canonical}} (characterization). Period one $\iff$ $\det A=-1$;
+      then $\tr A=m\ge1$, every $m\ge1$ occurs, and the eigenvalue is $\lambda_m$. The
+      classification is by $(\tr,\det)$ alone.
+\item \textbf{Theorem~\ref{thm:classes}} (how far the representative is canonical). The number
+      of primitive $\GL(2,\Z)$-classes at discriminant $m^2+4$ is $1$ for $m\le5$, and $m=6$
+      is the first trace carrying two. So $X_m$ \emph{is} the unique class for $m\le5$, and
+      the ambiguity is a genuine phenomenon from $m=6$ on rather than a formal caution.
+\item \textbf{Theorem~\ref{thm:traceonly}} (the selection sees only the trace). For every $A$
+      on the locus with $\tr A=m$ one has $A^2-I=mA$, hence $\det(A^2-I)=-m^2$ and torsion
+      $\Z/m\oplus\Z/m$ in the mapping torus of $A^2$, a knot complement iff $m=1$. The identity
+      fails off the locus, so it tests the locus rather than an accident of $2\times2$ matrices.
+\item \textbf{Proposition~\ref{prop:periodtwo}} (the restriction, priced). Period-two words are
+      orientation-preserving already; the period-one family is the diagonal of the period-two
+      family; and the only knot complement in the strictly larger two-parameter family is
+      still the golden one. Against the one relaxation we tested, the restriction costs
+      nothing.
+\end{itemize}
+
+\subsection{What is not claimed}\label{sec:notclaimed}
+
+We claim nothing about how one arrives at such an $A$. In particular:
+
+\begin{enumerate}[label=(\alph*),leftmargin=1.8em]
+\item \textbf{No canonical passage from a substitution to a $3$-manifold.} Squaring a
+      determinant-$(-1)$ incidence matrix produces an orientation-preserving map, but the
+      assignment of letters to Dehn twists, the choice of puncture, the orientation, and the
+      mapping-torus construction itself are additional typed data. Nothing here supplies them,
+      and we do not treat the resulting $3$-manifold as determined by the combinatorics.
+\item \textbf{No claim that the seed is forced.} That some minimal-description principle picks
+      out this substitution rather than another is not addressed and is not used.
+\item \textbf{No uniqueness of the conjugacy class for $m\ge6$}, by Theorem~\ref{thm:classes};
+      the results that survive that ambiguity are exactly the ones stated in terms of $(\tr,\det)$.
+\item \textbf{No physical interpretation.} None is offered and none is needed for any statement
+      in this paper.
+\end{enumerate}
+
+\subsection{Relation to what is classical}
+
+Galois' theorem --- a quadratic irrational has a purely periodic continued fraction exactly
+when it is \emph{reduced}, i.e.\ $\alpha>1$ and $-1<\bar\alpha<0$ --- is classical
+\cite{Perron,HardyWright}. The metallic means and their period-one expansions are elementary
+and often observed. The classification of integral binary quadratic forms up to $\GL(2,\Z)$,
+and the Latimer--MacDuffee correspondence between conjugacy classes of integral matrices and
+ideal classes \cite{LatimerMacDuffee,Taussky}, are likewise standard.
+
+What we believe is not already recorded in this combination is the packaging: the
+\emph{equivalence} of the period-one condition with a determinant condition on the locus
+(Theorem~\ref{thm:canonical}), the identification of $m=6$ as the exact threshold where the
+companion representative stops being canonical (Theorem~\ref{thm:classes}), and above all the
+observation that the homological selection is a function of the trace alone
+(Theorem~\ref{thm:traceonly}), which is what makes the selection survive the class ambiguity.
+We make no priority claim on the classical ingredients.
+
+\section{The characterization}\label{sec:char}
+
+\begin{definition}\label{def:family}
+For $m\ge1$ put
+\[
+   X_m=\begin{pmatrix}m&1\\1&0\end{pmatrix},\qquad
+   \phi_m=X_m^{2}=\begin{pmatrix}m^2+1&m\\m&1\end{pmatrix},
+\]
+so $\det X_m=-1$, $\tr X_m=m$, $\det\phi_m=+1$. Write $M_A$ for the mapping torus of the
+once-punctured torus under a homeomorphism inducing $A$ on $H_1$.
+\end{definition}
+
+\begin{theorem}[the locus is a determinant condition]\label{thm:canonical}
+Let $A\in\GL(2,\Z)$ be hyperbolic with non-negative entries. The continued fraction of its
+dominant eigenvalue is purely periodic of period one if and only if $\det A=-1$. In that
+case $\tr A=m$ for some $m\ge1$, the eigenvalue is $\lambda_m$, every $m\ge1$ is attained,
+and the classification along the locus is by $(\tr,\det)$ alone.
+\end{theorem}
+
+\begin{proof}
+($\Rightarrow$) Suppose the dominant eigenvalue $x$ has expansion $[m;m,m,\dots]$ of period
+one, $m\ge1$. Then $x=m+1/x$, i.e.\ $x^2-mx-1=0$. The companion matrix of $x^2-mx-1$ is
+$X_m$, with $\det X_m=-1$ and $\tr X_m=m$. Since $A$ and $X_m$ have the same characteristic
+polynomial, $\det A=-1$ and $\tr A=m$.
+
+($\Leftarrow$) Suppose $A$ is hyperbolic with non-negative entries and $\det A=-1$. Its
+characteristic polynomial is $x^2-tx-1$ with $t=\tr A$. Non-negativity and hyperbolicity force
+$t\ge1$: the entries are non-negative so $t\ge0$, and $t=0$ gives $x^2=1$, not hyperbolic.
+The dominant root is $\lambda_t>1$ and satisfies $x=t+1/x$, so its expansion is
+$[t;t,t,\dots]$, purely periodic of period one.
+
+For attainment, $X_m$ has non-negative entries, determinant $-1$ and trace $m$ for each
+$m\ge1$. For the final clause, the characteristic polynomial of a $2\times2$ matrix is
+determined by $(\tr,\det)$, and on this locus $\det$ is constant; so the trace determines the
+polynomial, the eigenvalue, and the expansion. Distinct $m$ give distinct traces and hence
+distinct conjugacy classes. The converse is not injective on classes --- see
+Theorem~\ref{thm:classes} --- only on traces.
+\end{proof}
+
+\begin{remark}
+The ($\Leftarrow$) direction is Galois' reducedness criterion in disguise:
+$\lambda_t>1$ and its conjugate $\bar\lambda_t=\tfrac12(t-\sqrt{t^2+4})$ satisfies
+$-1<\bar\lambda_t<0$ precisely because $0<4t$, so $\lambda_t$ is reduced and its expansion is
+purely periodic. Period \emph{one} is then the statement that the expansion's single partial
+quotient is $\lfloor\lambda_t\rfloor=t$.
+\end{remark}
+
+\section{How canonical is the representative?}\label{sec:classes}
+
+Theorem~\ref{thm:canonical} classifies by $(\tr,\det)$, not by conjugacy class. These differ,
+and it is worth knowing exactly where.
+
+\begin{scope}[Latimer--MacDuffee]\label{sc:latimer}
+Conjugacy classes in $\GL(2,\Z)$ of matrices with a given irreducible characteristic
+polynomial correspond to classes of ideals in the associated order
+\cite{LatimerMacDuffee,Taussky}. For $x^2-mx-1$ the discriminant is $m^2+4$, and the count is
+the primitive $\GL(2,\Z)$-class number of that discriminant. It need not be $1$.
+\end{scope}
+
+\begin{theorem}[the threshold is $m=6$]\label{thm:classes}
+Let $h^+(m)$ denote the number of $\GL(2,\Z)$-classes of primitive integral binary quadratic
+forms of discriminant $m^2+4$. Then
+\[
+  \bigl(h^+(m)\bigr)_{m=1}^{11}=(1,1,1,1,1,2,1,1,2,2,1).
+\]
+Consequently $X_m$ is the \emph{unique} class of trace $m$ on the locus for $1\le m\le5$, and
+$m=6$ is the first trace at which it is not.
+\end{theorem}
+
+\begin{proof}[Computation]
+By reduction theory for indefinite forms, each class contains reduced forms $(a,b,c)$ with
+$b^2-4ac=D$, $0<b<\sqrt{D}$ and $\sqrt{D}-b<2|a|<\sqrt{D}+b$, and the reduced forms in a
+class constitute a single $\rho$-cycle; $\GL(2,\Z)$-equivalence, as opposed to
+$\SL(2,\Z)$-equivalence, additionally identifies $(a,b,c)$ with $(-a,b,-c)$. Enumerating
+reduced primitive forms and grouping them into $\rho$-cycles modulo that identification gives
+the stated counts. The computation is reproduced, with controls, by the script named in
+Appendix~\ref{app:verify}.
+\end{proof}
+
+\begin{remark}[a recorded disagreement]\label{rem:m12}
+An independent count communicated to us reports $2$ primitive classes at $m=12$, where our
+enumeration gives $3$. We have not resolved the discrepancy and therefore state
+Theorem~\ref{thm:classes} only for $m\le11$. Nothing in this paper depends on $m\ge12$: the
+threshold claim concerns the \emph{first} repetition, which occurs at $m=6$, and both counts
+agree on $1\le m\le11$. We flag it rather than suppress it.
+\end{remark}
+
+\begin{remark}[the trap this exposes]
+Restricting to \emph{primitive} forms is not a technicality. Counting all forms, imprimitive
+ones included, changes the answer --- content is a $\GL(2,\Z)$-invariant, so imprimitive forms
+contribute spurious classes --- and in particular alters the count at $m=4$, which would move
+the apparent threshold. The counts above are primitive throughout.
+\end{remark}
+
+\section{The selection sees only the trace}\label{sec:traceonly}
+
+This is the section the paper exists for. Theorem~\ref{thm:classes} says the representative is
+not canonical past $m=5$. If the invariant that distinguishes the golden member were a function
+of the representative, the distinction would be suspect. It is not.
+
+\begin{theorem}[trace-only selection]\label{thm:traceonly}
+Let $A\in\GL(2,\Z)$ with $\det A=-1$ and $\tr A=m\ge1$. Then, as an identity of integer
+matrices,
+\[
+   A^2-I\;=\;mA .
+\]
+Consequently $\det(A^2-I)=m^2\det A=-m^2$ exactly, the mapping torus $M_{A^2}$ has
+\[
+   H_1(M_{A^2};\Z)\;\cong\;\Z\oplus\Z/m\oplus\Z/m ,
+\]
+and $M_{A^2}$ has the first homology of a knot complement --- torsion-free $H_1\cong\Z$ ---
+if and only if $m=1$. All of this depends on $A$ only through $\tr A$.
+\end{theorem}
+
+\begin{proof}
+Since $\det A=-1$ and $\tr A=m$, the characteristic polynomial is $\chi_A(x)=x^2-mx-1$, so
+Cayley--Hamilton gives $A^2-mA-I=0$, that is, $A^2-I=mA$. Taking determinants,
+$\det(A^2-I)=\det(mA)=m^2\det A=-m^2$.
+
+For the homology, the Wang sequence of the mapping torus of a homeomorphism inducing $B$ on
+$H_1$ of the fibre gives $H_1(M_B;\Z)\cong\Z\oplus\operatorname{coker}(B-I)$. Here
+$B-I=A^2-I=mA$, and $A\in\GL(2,\Z)$ is invertible \emph{over $\Z$}, so $A\Z^2=\Z^2$ and hence
+$(mA)\Z^2=m\Z^2$. Therefore
+\[
+   \operatorname{coker}(A^2-I)\;=\;\Z^2/(mA)\Z^2\;=\;\Z^2/m\Z^2\;\cong\;\Z/m\oplus\Z/m ,
+\]
+which is trivial precisely when $m=1$. Every quantity named depends only on $m=\tr A$.
+\end{proof}
+
+\begin{remark}[why this is the right proof]
+The determinant computation alone gives only $|\operatorname{coker}|=m^2$, which leaves the
+invariant factors undetermined --- on that information the torsion could a priori be cyclic
+$\Z/m^2$. The identity $A^2-I=mA$ settles them at once, exhibiting the cokernel as $\Z^2/m\Z^2$
+on the nose. Unimodularity of $A$ is what does the work: it is exactly what permits cancelling
+$A$ from $mA$ without changing the quotient.
+\end{remark}
+
+\begin{corollary}[the objection is answered]\label{cor:survives}
+The selection of $m=1$ is constant on $\GL(2,\Z)$-conjugacy classes of a given trace, and
+indeed on the entire set of matrices of that trace on the locus. It therefore does not depend
+on which representative of the class one writes down, and in particular is unaffected by the
+non-uniqueness of Theorem~\ref{thm:classes} for $m\ge6$.
+\end{corollary}
+
+\begin{scope}[what the identity is, and is not, sensitive to]\label{sc:control}
+The identity is specific to the locus: for $\det A=+1$ one has $\chi_A(x)=x^2-tx+1$, so
+$\chi_A(1)\chi_A(-1)=(2-t)(2+t)=4-t^2$, and $\det(A^2-I)=4-t^2\ne-t^2$. A test that passed on
+both loci would be testing arithmetic rather than the hypothesis; this one separates them. The
+verification script in Appendix~\ref{app:verify} carries that separation as an explicit control
+that must fail off the locus.
+\end{scope}
+
+\section{Pricing the period-one restriction}\label{sec:price}
+
+Period one is a restriction. A reader is entitled to ask what it costs. We can answer against
+the first relaxation, which is period two; we cannot answer in general, and we say so.
+
+\begin{proposition}[the period-two family]\label{prop:periodtwo}
+For $a,b\ge1$ let
+\[
+   M(a,b)=\begin{pmatrix}a&1\\1&0\end{pmatrix}\begin{pmatrix}b&1\\1&0\end{pmatrix}
+         =\begin{pmatrix}ab+1&a\\b&1\end{pmatrix}
+\]
+be the matrix of a purely periodic continued fraction of period two. Then:
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.4em]
+\item $\det M(a,b)=+1$ \emph{already}: a period-two word is orientation-preserving without
+      squaring;
+\item $M(m,m)=\phi_m=X_m^2$, so the period-one family, squared, is exactly the diagonal of the
+      period-two family --- which is therefore strictly larger; and
+\item $H_1\bigl(M_{M(a,b)};\Z\bigr)\cong\Z\oplus\Z/\gcd(a,b)\oplus\Z/\lcm(a,b)$, so the only
+      member of the whole two-parameter family with the homology of a knot complement is
+      $(a,b)=(1,1)$ --- the golden one.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(i) and (ii) are immediate from the displayed product. For (iii),
+$M(a,b)-I=\left(\begin{smallmatrix}ab&a\\b&0\end{smallmatrix}\right)$ has entry gcd
+$\gcd(a,b)$ and determinant $-ab$, so its invariant factors are $\gcd(a,b)$ and
+$ab/\gcd(a,b)=\lcm(a,b)$; apply the Wang sequence as above. The torsion vanishes iff
+$\gcd(a,b)=\lcm(a,b)=1$, i.e.\ $a=b=1$.
+\end{proof}
+
+\begin{scope}[the price, stated exactly]\label{sc:pricedperiod}
+Against the period-two relaxation --- the only one we tested --- the price of restricting to
+period one is \emph{zero}: enlarging the family does not produce a competing knot complement.
+We have not tested period $\ge3$, and we do not assert that the pattern continues. What we
+assert is that the restriction is not doing hidden work at the first place one would look for
+it.
+\end{scope}
+
+\section{Summary, and the boundary}\label{sec:summary}
+
+The period-one locus is cut out by $\det=-1$ and stratified by trace
+(Theorem~\ref{thm:canonical}). The companion representative is canonical exactly up to $m=5$,
+with $m=6$ the first repetition (Theorem~\ref{thm:classes}). The homological invariant that
+picks out $m=1$ is a function of the trace, hence blind to that ambiguity
+(Theorem~\ref{thm:traceonly}, Corollary~\ref{cor:survives}). Relaxing period one to period two
+enlarges the family and changes nothing about which member is a knot complement
+(Proposition~\ref{prop:periodtwo}).
+
+The boundary is where \S\ref{sec:notclaimed}(a) put it. Everything above is a statement about
+matrices, traces and the homology of mapping tori. The step from a substitution rule to a
+specific oriented $3$-manifold passes through choices --- letters to Dehn twists, the puncture,
+the orientation --- that are typed data supplied from outside. A reader who wants the
+$3$-manifold conclusion should regard that step as an assumption, and this paper as settling
+only what happens once it is granted.
+
+\appendix
+
+\section{Verification}\label{app:verify}
+
+Every numeral in this paper is recomputed by
+\texttt{verify/check\_locus.py}, which runs $15$ checks in four groups and exits non-zero on
+any failure. Each group carries at least one \emph{control} --- a check designed so that a
+plausible error would make it fail --- because a verification suite in which nothing can fail
+verifies nothing.
+
+\begin{center}
+\begin{tabular}{@{}llp{6.6cm}@{}}
+\toprule
+group & discharges & content \\
+\midrule
+C1 & Thm~\ref{thm:canonical}  & $\lambda_m=m+1/\lambda_m$ to $50$ digits, $m\le40$; $(\tr,\det)(X_m)=(m,-1)$; control that the comparison $\det=+1$ family is live \\
+C2 & Thm~\ref{thm:traceonly}  & $A^2-I=mA$, $\det(A^2-I)=-m^2$, and Smith form $(m,m)$ --- verified on all $896$ integer matrices with $\det=-1$ in a bounded box, traces $1$--$26$, \emph{not} only on $X_m$; control that the identity \emph{fails} for $\det=+1$; torsion trivial only at $m=1$ \\
+C3 & Thm~\ref{thm:classes}    & primitive class counts at $m^2+4$ for $m\le11$ by independent reduction and $\rho$-cycle enumeration; first repetition at $m=6$; uniqueness for $m\le5$ \\
+C4 & Prop~\ref{prop:periodtwo}& $\det M(a,b)=+1$; $M(m,m)$ against the closed form $\phi_m$; torsion $(\gcd,\lcm)$; only $(1,1)$ is a knot complement for $a,b\le24$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The C2 group is the one that matters. It does not check the identity on the family's chosen
+representatives; it enumerates every integer matrix of determinant $-1$ in a box and checks all
+of them, which is what makes Corollary~\ref{cor:survives} a verified statement rather than a
+restatement of the algebra.
+
+\section{Status in the programme register}\label{app:register}
+
+This paper is the first of four drawn from a larger register of questions, each carrying a
+status of \texttt{PROVED}, \texttt{REFUTED}, \texttt{CONDITIONAL}, \texttt{EXTERNAL\_BLOCKER}
+or \texttt{EMPIRICAL}. We record the register entries this paper bears on, including --- in
+fact especially --- the ones it does not close.
+
+\begin{center}
+\begin{tabular}{@{}llp{7.2cm}@{}}
+\toprule
+entry & status & relation to this paper \\
+\midrule
+\texttt{OA-C0001} & \texttt{REFUTED}    & whether minimal description selects a unique seed independently of encoding. Not addressed here; recorded as refuted in the register. \\
+\texttt{OA-C0002} & \texttt{CONDITIONAL}& whether the declared substitution rules select the Fibonacci rule at minimality. Not addressed here. \\
+\texttt{OA-C0003} & \texttt{CONDITIONAL}& whether the substitution canonically determines the oriented mapping torus. \S\ref{sec:notclaimed}(a) is this paper's statement of the same limit. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+None of the three is \texttt{PROVED}, and this paper does not change that. What it supplies is
+the part of the chain that \emph{is} unconditional --- the characterization of the locus and the
+trace-only selection along it --- while leaving the typed-data step exactly as conditional as
+the register already records it. We consider stating this more useful than a stronger-sounding
+framing that the register would not support.
+
+\begin{thebibliography}{9}
+\bibitem{Perron} O.~Perron, \emph{Die Lehre von den Kettenbr\"uchen}, Teubner, 1913.
+\bibitem{HardyWright} G.~H.~Hardy and E.~M.~Wright, \emph{An Introduction to the Theory of
+  Numbers}, 6th ed., Oxford, 2008, Ch.~X.
+\bibitem{LatimerMacDuffee} C.~G.~Latimer and C.~C.~MacDuffee, A correspondence between classes
+  of ideals and classes of matrices, \emph{Ann.\ of Math.} \textbf{34} (1933), 313--316.
+\bibitem{Taussky} O.~Taussky, On a theorem of Latimer and MacDuffee, \emph{Canad.\ J.\ Math.}
+  \textbf{1} (1949), 300--302.
+\bibitem{Buell} D.~A.~Buell, \emph{Binary Quadratic Forms}, Springer, 1989.
+\bibitem{Thurston} W.~P.~Thurston, \emph{The Geometry and Topology of Three-Manifolds},
+  Princeton lecture notes, 1980.
+\end{thebibliography}
+
+\end{document}

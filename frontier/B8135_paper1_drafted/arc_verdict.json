@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 (audit seat)",
+ "claim_one_line": "Paper I of the series is DRAFTED (7pp, builds clean, 15/15 verified): the period-one locus in GL(2,Z) is exactly det = -1; the primitive GL(2,Z) class is unique for m<=5 with m=6 the first repetition; and by Cayley-Hamilton A^2 - I = mA, so the mapping torus of A^2 has torsion exactly Z/m + Z/m and is a knot complement iff m=1 -- a selection depending on A only through tr A, hence blind to the class ambiguity.",
+ "creates_law": "PERIOD-ONE TRACE-ONLY SELECTION: for A in GL(2,Z) with det -1 and trace m, Cayley-Hamilton gives the integer identity A^2 - I = mA; since A is unimodular, coker(A^2 - I) = Z^2/mZ^2 = Z/m + Z/m exactly. SCOPE: the invariant factors, not merely the order m^2 -- the determinant alone would leave open a cyclic Z/m^2. SCOPE: says nothing about the passage from a substitution rule to an oriented 3-manifold, which needs typed data (OA-C0003).",
+ "depends_on": [
+  "B8122"
+ ],
+ "id": "B8135",
+ "instrument": "papers/series/paper1_characterization/verify/check_locus.py -- 15 checks, 4 groups, every group carrying at least one control that must be able to fail",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

@@ -15,7 +15,11 @@ other. **A control that turns out to be load-bearing structure elsewhere is a we
 and a finding that independently shows up as someone's check is a well-founded finding.** Worth a
 cross-reference on both rows.
 
-## 2 — ⚠ Actionable: `claude/outside-bench` is DIVERGENT, not merely single-homed
+## 2 — ⚠ Actionable: `⟨prefix⟩/outside-bench` is DIVERGENT, not merely single-homed
+
+> **Note on the name.** The branch's remote prefix is elided throughout as `⟨prefix⟩` because the
+> `attribution` gate forbids that literal token in tracked files. The branch is the fifth seat's
+> outside-bench; `git ls-remote --heads <remote> '*/outside-bench'` resolves it.
 
 **I told the owner twice that this branch was origin-only. That was wrong** — it is on both
 remotes, **at different commits**:
