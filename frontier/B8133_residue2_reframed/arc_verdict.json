@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-25)",
+ "claim_one_line": "RESIDUE 2 IS AN EVALUATION-POINT GAP, NOT AN EXISTENCE GAP -- AND FRIED'S THEOREM DOES NOT CLOSE IT. I expected it would. Fried gives, for acyclic orthogonal representations, that the twisted Ruelle zeta is holomorphic at 0 with R_sigma(0) = T_X(sigma)^2, and the CUSPED extension EXISTS -- Park's 'Analytic torsions for hyperbolic manifolds with cusps', the J. Funct. Anal. 'Analytic torsion and Ruelle zeta functions for hyperbolic manifolds with cusps', with the non-compact torsion defined by a regularized trace following Melrose. BUT THE EVALUATION POINT IS WRONG: Fried is at s = 0, Pfaff's ratios are at k >= 3, and B8112's graviton product is at s = n >= 2. Three different evaluations of ONE twisted Ruelle family, and Fried's is at the one point the graviton never visits. WHAT THIS BUYS: residue 2 stops being 'a further identification not claimed' and becomes 'the graviton determinant and the analytic torsion are different evaluations of the same family, and nobody has connected those points' -- which names what would close it: a relation between the family's value at 0 and its values at the positive integers. SELF-CORRECTION: this turn opened by asserting Fried was the fact that closes residue 2. Caught by checking where each theorem evaluates before writing the conclusion. A literature placement, dated 2026-08-25. Establishes that the cusped torsion-Ruelle theory exists and locates three evaluation points; does NOT prove any relation between them and does not close residue 2. Gate 5 untouched.",
+ "creates_law": true,
+ "depends_on": [
+  "B8113",
+  "B8112",
+  "B8104"
+ ],
+ "id": "B8133",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

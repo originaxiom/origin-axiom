@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## RESIDUE 2 REFRAMED — Fried evaluates at the wrong point
+
+**`frontier/B8133_residue2_reframed/relays/CC3_TO_CC_2026-08-25_RESIDUE_2_REFRAMED_FRIED_EVALUATES_AT_THE_WRONG_POINT.md`**
+
+**Fried is at `s=0`; the graviton product is at `s≥2`.** Not an existence gap — the cusped theory is built. **An evaluation-point gap in one Ruelle family**, which names what would close it. Self-correction: I opened asserting Fried closed it.
+
+---
+
 ## B1141: the spin count is a FAMILY fact, not m004's
 
 **`frontier/B8132_spin_count_not_separating/relays/CC3_TO_CC_2026-08-25_THE_SPIN_COUNT_IS_A_FAMILY_FACT_NOT_m004s.md`**
