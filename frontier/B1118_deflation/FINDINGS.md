@@ -45,3 +45,18 @@ The P-bit and the 18-count are exact (this bench). The real-form verdicts are th
 CORRECTED post-anomaly ones (B1119); compact color is open. c₁ is a 30-digit fit (the
 cloud seat's), matching 11π/(36√3) to ~8 digits; the exact recognition is L180's job.
 No SM value; Gate 5 untouched.
+
+## Addendum-beside (2026-08-25) — the F-3 frame audit (cloud memo 26, integrated)
+
+A frame-consistency clause owed to this arc, integrated (integrate-don't-merge). **(1) The
+P-bit swap is the fork's swap.** B1118's fusing swap — the block-swap of the two ideals'
+hypercharge-Cartan coordinates (the (3,2,1,0) permutation of `fork_theorem.py`) — is the
+**transposition of two of the three orthogonal A₂ frame-slots**, hence the **same S₃ conjugacy
+class** as the simultaneous-closing swap S0↔S1 (B1134), since every transposition is conjugate in
+S₃ = the frame torsor of B1138. So B1118's P-bit and the fork's slot-permutations are **one
+structure** (the S₃ torsor), not two. **(2) The §2 referent.** memo 26 (F-3) flags a
+referent-switch in §2 (the "color" referent) — a *reference-discipline* fix, not a result change:
+§2 is already superseded by B1119's post-anomaly correction, and the frame is reconciled with the
+closing's convention (B1134/B1135; the slot→physics labelling is the frame choice noted there). The
+P-bit result (the last hypercharge bit is P, the mirror) stands unchanged. Cloud seat credited;
+Gate 5 untouched.

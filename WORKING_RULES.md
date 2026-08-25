@@ -1,5 +1,17 @@
 # Working rules (binding; read before computing)
 
+> **Currency (2026-08-25, as of B1142).** The **value verdict is closed disjoint from every route
+> tested** — ten honest negatives (periods, natural forms, coupling, coincidence, regulators, and
+> B1140's spacetime-branch 64 *by structure*); no SM dimensionless value is emitted, and Gate 5 +
+> the ten value-negatives stand guard. The SM's **discrete kinematic skeleton is complete** up to
+> torsor basepoints, one exhibit (the family count *three* — EXHIBITS-NOT-FORCES, the object does
+> not force E₈; B1033/B1138), and the spin bit — now **assigned by the object's own beat** (B1141
+> THE SPIN PAYMENT, hostile-verified two-bench). The **fork** (B1138) splits the observer's closing
+> into two mutually-exclusive real branches — E₆(−14) the charges, E₆(−26) the geometry + a graviton
+> slot (B1140 THE 64 ORGANIZED). Lane C (B1142) placed the object's cusp spectrum (ζ_K = ζ·L(χ₋₃),
+> GUE-generic). Structure is the object's, values the observer's; SP-2 (the fermion-capability of the
+> beat-selected spin structure) is the live frontier cell.
+
 
 ## 0. BEFORE ANY IMPORTANT PROBE — the grounding (added 2026-08-09)
 

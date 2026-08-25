@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-25 from 1042 frontier probes.
+> Last generated: 2026-08-25 from 1043 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,10 +11,10 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1042 frontier probes; status {'open': 63, 'banked': 696, 'dead': 264, 'dormant': 19}
+  corpus: 1043 frontier probes; status {'open': 63, 'banked': 696, 'dead': 265, 'dormant': 19}
   the ONE conserved first integral: kappa (recurs 234x, 22%) -- genuine unity, MUST recur
-  top recurring motifs: golden(591), firewall(564), eisenstein(555), figure_eight(428), metallic(417), trace_map(395)
-  recurrence is: structural-invariant 3441 mentions | conserved-integral 234 | TOOL 395
+  top recurring motifs: golden(592), firewall(564), eisenstein(556), figure_eight(429), metallic(417), trace_map(395)
+  recurrence is: structural-invariant 3445 mentions | conserved-integral 234 | TOOL 395
   the honest split: the trace-map TOOL is in 395 probes (37%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B521, B156, B598, B309, B321
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -26,20 +26,20 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
-| golden | 591 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| golden | 592 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
 | firewall | 564 | 54% | structure | structural | meta | the firewall / structural theorem / form-not-values |
-| eisenstein | 555 | 53% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
-| figure_eight | 428 | 41% | object | no | topology | the simplest hyperbolic knot; the carrier object |
-| metallic | 417 | 40% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
+| eisenstein | 556 | 53% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
+| figure_eight | 429 | 41% | object | no | topology | the simplest hyperbolic knot; the carrier object |
+| metallic | 417 | 39% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 395 | 37% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | amphichiral_cp | 364 | 34% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
-| torsion | 317 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
+| torsion | 318 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | wrt_quantum | 252 | 24% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 234 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | z3_generation | 234 | 22% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | lorentzian | 190 | 18% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | dickson_tower | 105 | 10% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
-| symplectic | 99 | 9% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
+| symplectic | 100 | 9% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | apolynomial | 80 | 7% | structure | no | topology | the A-polynomial / Cooper-Long / AJ |
 | quasicrystal | 68 | 6% | dynamics | structural | quantum | the Fibonacci quasicrystal / Suto / Damanik-Gorodetski |
 | markov_cubic | 67 | 6% | invariant | structural | topology | the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it |
@@ -49,7 +49,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **234** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3441** mentions — invariants of the object's transforms.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3445** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **395** probes (37%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
@@ -119,7 +119,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | spacetime_3p1 | 124/191 |
 | numerology | 25/38 |
 | selector | 18/27 |
-| observable | 41/59 |
+| observable | 41/60 |
 
 ---
 *Generated by `scripts/atlas/` (mine → analyze → detect → render). The instrument is re-runnable; the map stays current by regeneration. See `knowledge/K023` for the vision and the honest tool-bias caveat.*

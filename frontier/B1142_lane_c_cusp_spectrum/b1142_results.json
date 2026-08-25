@@ -1,0 +1,43 @@
+{
+  "provenance": "two-bench verification of cloud Lane C (GUE spectral down-payment), own code (mpmath+scipy), nothing imported from repo; density is the load-bearing check, spacing is the generic caveat. verification/combined_analysis.py is OA_SLOW (L-function zeros via mpmath, >120s).",
+  "vol_m004_bloch_wigner": 2.029883212819307,
+  "density_discriminant": {
+    "weyl_law": "N(t)=vol*(1+t^2)^1.5/(6 pi^2)",
+    "N_10": 34.79,
+    "N_100": 34283.5,
+    "N_130": 75316.24,
+    "observed_zeros_to_t130": 108,
+    "ratio_too_sparse": 697.4,
+    "verdict": "the 108 zeros are NOT the Laplace/geodesic spectrum (697x too sparse)"
+  },
+  "placement": {
+    "the_108_are": "the zeros of Lambda_K = zeta * L(chi_-3) (the complete Dedekind zeta of Q(sqrt-3)), NOT L(chi_-3) alone",
+    "exact_count_match": "43 (zeta zeros to t130) + 65 (L(chi_-3) zeros to t130) = 108",
+    "first_L_chi3_zero": 8.03973715568,
+    "scattering_determinant": "phi(s)=Lambda_K(s-1)/Lambda_K(s) (B739); unitarity phi(s)phi(2-s)=1 to ~1e-31; Res phi = 2 sqrt3/vol = 1.7066",
+    "side": "CUSP / scattering side of the trace formula (NOT geodesic/Ruelle-graviton)"
+  },
+  "gue_statistics": {
+    "combined_108_set": {
+      "mean_spacing": 1.0,
+      "KS_GUE_D": 0.1176,
+      "KS_GUE_p": 0.0956,
+      "KS_Poisson_D": 0.2152,
+      "KS_Poisson_p": 0.0001
+    },
+    "cloud_cited": {
+      "mean": 0.9978,
+      "KS_GUE_D": 0.1177,
+      "KS_GUE_p": 0.103,
+      "KS_Poisson_D": 0.2148
+    },
+    "reproduced_to": "3-4 significant figures, independent code",
+    "L_chi3_alone_65": {
+      "KS_GUE_D": 0.1431,
+      "KS_GUE_p": 0.132
+    },
+    "verdict": "GUE-distributed, Poisson rejected"
+  },
+  "caveat": "GUE spacing is GENERIC for automorphic L-function zeros (Montgomery pair-correlation / Katz-Sarnak) -- it certifies membership in a universality class, NOT object-specificity. The DENSITY (which carries vol/the cusp) is the load-bearing, object-specific fact; the spacing is not.",
+  "graviton_bridge": "DEAD -- these are the cusp/scattering zeros (L(chi_-3)/Lambda_K), not the geodesic/Ruelle-graviton zeros; the three-faces-of-one-graviton bridge does not hold (cc3 B8129/B8130; the density check killed it). The finale (B1140) is independent."
+}

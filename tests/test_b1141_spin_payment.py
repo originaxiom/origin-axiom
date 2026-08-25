@@ -84,6 +84,15 @@ def test_findings_states_the_selection_and_fences():
     assert "SP-2" in t                                    # the live hinge
 
 
+def test_findings_holds_the_spin_count_family_scope_clause():
+    # cc3 B8132, verified this bench: the spin-structure COUNT (2) is family-level
+    # (rank-1 + odd torsion), NOT a separating property of m004 -- the selection is untouched.
+    t = FINDINGS.read_text(encoding="utf-8")
+    assert "family fact, not m004" in t.lower() or "FAMILY fact" in t
+    assert "Hom(H₁,ℤ/2)" in t or "kills ODD torsion" in t
+    assert "NOT a refutation" in t                        # the selection stays object-level
+
+
 # ---------------------------------------------------------------- reproduction present
 def test_verification_present():
     assert (VERIF / "verify_spin_payment.py").exists()

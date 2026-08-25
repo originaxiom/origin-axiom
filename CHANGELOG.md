@@ -1,5 +1,25 @@
 # Changelog
 
+## LANE C (B1142, 2026-08-25): the object's cusp/scattering spectrum is ζ_K = ζ·L(χ₋₃), GUE-distributed but generic — a placement, not a value; the graviton bridge stays dead
+
+The value campaign's GUE spectral down-payment, re-derived two-bench with own code (mpmath +
+scipy, nothing imported). Verdict **NEGATIVE for value/graviton content**, with a **proven
+placement**. Density before statistics (cc3's instrument — only density can falsify): the Laplace
+Weyl law gives N(130)≈75,316, but only **108** zeros are observed to t=130 — **697× too sparse**,
+so they are *not* the Laplace/geodesic spectrum. **The placement (proven, sharper than "L(χ₋₃)"):**
+the 108 are the zeros of the **complete Dedekind zeta Λ_K = ζ·L(χ₋₃)** of ℚ(√−3) — exact count
+**43 (ζ) + 65 (L(χ₋₃)) = 108** — exactly what the object's scattering determinant φ(s)=Λ_K(s−1)/Λ_K(s)
+(B739) is built from (unitarity φ(s)φ(2−s)=1 to ~10⁻³¹). So Lane C sits on the **cusp/scattering
+side** of the trace formula. **The statistics** are GUE (KS(GUE) D=0.1176 p=0.096, Poisson rejected
+p=1e-4 — reproducing the cloud's 0.1177/0.103 to 3–4 sig figs from independent code), **but GUE is
+generic** for automorphic L-zeros (Montgomery/Katz–Sarnak) — it certifies a universality class, not
+object-specificity, so it **discriminates nothing** (the density carries the object, the spacing does
+not). **The graviton bridge is DEAD** (confirming cc3 B8129/B8130): the Ruelle Euler product is
+purely geodesic, L(χ₋₃) enters only via the cusped functional equation, so graviton (geodesic) and
+Lane C (cusp) meet nowhere — the graviton is **two faces**, and the finale (B1140) is independent.
+Routed to the kill-graph. Cloud seat credited. Gate 5 untouched. Lock
+`tests/test_b1142_lane_c_cusp_spectrum.py`.
+
 ## THE SPIN PAYMENT (B1141, 2026-08-25): the object's own beat selects the spin structure — the last free discrete bit is assigned, not free. Hostile-verified two-bench
 
 The cloud seat's twenty-eighth memo (THE SPIN PAYMENT), re-derived on this bench with own code

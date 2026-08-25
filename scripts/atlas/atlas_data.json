@@ -2499,7 +2499,9 @@
     "lorentzian"
    ],
    "refs": [
-    "L180"
+    "L180",
+    "S0",
+    "S1"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 1,
@@ -2938,12 +2940,30 @@
     "golden",
     "z3_generation",
     "amphichiral_cp",
+    "torsion",
     "firewall"
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 2,
+   "obstacle_conf": 4,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1142": {
+   "slug": "lane c cusp spectrum",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "symplectic"
+   ],
+   "refs": [
+    "B739",
+    "B836"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B114": {

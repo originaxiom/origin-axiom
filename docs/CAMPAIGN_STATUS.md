@@ -16,6 +16,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-25, B1142)**: LANE C — the object's cusp/scattering
+spectrum is **ζ_K = ζ·L(χ₋₃)**, GUE-distributed but **generic** (Montgomery/
+Katz–Sarnak — a universality class, not object-specificity). Verified two-bench
+(own mpmath/scipy). Density before statistics: the 108 zeros are 697× too sparse
+to be the Laplace/geodesic spectrum (exact count 43ζ+65L(χ₋₃)=108, the cusp side,
+via the B739 scattering determinant). A **placement, not a value** — GUE
+discriminates nothing. The **graviton bridge stays dead** (cc3 B8129/B8130): the
+graviton is two faces, the finale independent. Routed to the kill-graph. Lock
+test_b1142_lane_c_cusp_spectrum.py.
+
 **LATEST (2026-08-25, B1141)**: THE SPIN PAYMENT — the object's own beat
 selects the spin structure, so the freedom ledger's **last free discrete bit is
 assigned, not free.** Cloud memo 28, HOSTILE-verified two-bench (own relator search,

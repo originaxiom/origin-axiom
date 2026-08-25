@@ -11227,3 +11227,17 @@ errata relayed (ω minpoly x²+x+1 not x²−x+1; norm X²−XY+Y² not X²+XY+Y
 NEEDS-CERT: the w̃ packaging + Galois∘Fibonacci naming (needs beat-trilogy). NOT fermionic fields —
 kinematics only; SP-2 is the live hinge. Gate 5 n/a. Cloud seat credited. Lock
 test_b1141_spin_payment.py.
+
+**2026-08-25 — LANE C (B1142), the cusp spectrum: a placement, not a value.** The value campaign's
+GUE spectral down-payment, re-derived TWO-BENCH (own mpmath+scipy, nothing imported). Verdict
+NEGATIVE (value/graviton) with a proven placement. DENSITY BEFORE STATISTICS (cc3's instrument):
+Laplace Weyl N(130)≈75316 vs 108 observed → 697× too sparse → NOT the Laplace/geodesic spectrum.
+PLACEMENT (proven): the 108 = zeros of the complete Dedekind ζ_K = ζ·L(χ₋₃) of ℚ(√−3), exact count
+43(ζ)+65(L(χ₋₃))=108 — what the scattering determinant φ=Λ_K(s−1)/Λ_K(s) (B739) is built from
+(unitarity to ~1e-31) → the CUSP/scattering side. STATISTICS: GUE (KS(GUE) D=0.1176 p=0.096, Poisson
+rejected), reproducing the cloud's figures to 3–4 sig figs — but GUE is GENERIC for automorphic
+L-zeros (Montgomery/Katz–Sarnak), so it discriminates nothing (density carries the object, spacing
+does not). GRAVITON BRIDGE DEAD (cc3 B8129/B8130): Ruelle Euler product purely geodesic, L(χ₋₃) only
+via the cusped functional equation → graviton (geodesic) and Lane C (cusp) meet nowhere; the graviton
+is two faces, the finale (B1140) independent. Routed to the kill-graph. Cloud seat credited. Gate 5
+untouched. Lock test_b1142_lane_c_cusp_spectrum.py.

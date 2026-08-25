@@ -64,6 +64,21 @@ by asking whether the beat closes).
   that formalism/motivation needs the beat-trilogy (memos 16/17/18) construction. The selection
   does not depend on it.
 
+## Scope clause (cc3 B8132, verified this bench): the spin-structure COUNT is a FAMILY fact, not m004's
+
+B8128's genericity instrument, turned on this arc's premise: the two-ness of the spin lift is
+stated here as following from H₁=ℤ, which *reads* as m004's own — but H¹(M;ℤ/2)=Hom(H₁,ℤ/2)
+and **Hom(−,ℤ/2) kills ODD torsion**, so the count is |Hom(H₁,ℤ/2)| = 2^(free-rank) × ∏gcd(dᵢ,2).
+The general condition for **exactly two** spin structures is **rank 1 with odd (or no) torsion** —
+m004 meets it by having *no* torsion (sufficient, not necessary), and so do its siblings **m003
+(ℤ/5⊕ℤ), m206 (ℤ/5⊕ℤ), m207 (ℤ/3²⊕ℤ)** in the ℚ(√−3) shape-field family. **Verified on this bench**
+(SnapPy elementary divisors: all four → 2; a first attempt using SnapPy's *total* generator-count
+was caught and corrected). So the **count is family-level, not a separating property of m004**. This
+is **NOT a refutation** — the *selection* (the beat, the exact 1-dimensional intertwiner [4th
+singular value ~7.6×10⁻⁵¹], norm-form positivity) is object-level and untouched; it simply does not
+*inherit* object-level status from the count. cc3 credited; the paper is unaffected (spin structures:
+zero mentions).
+
 ## What it completes, and what it does not
 
 The discrete kinematic skeleton loses its last smuggled choice: the spin bit is assigned by the
