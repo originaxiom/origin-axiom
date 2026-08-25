@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-25 from 1043 frontier probes.
+> Last generated: 2026-08-25 from 1044 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1043 frontier probes; status {'open': 63, 'banked': 696, 'dead': 265, 'dormant': 19}
+  corpus: 1044 frontier probes; status {'open': 63, 'banked': 696, 'dead': 266, 'dormant': 19}
   the ONE conserved first integral: kappa (recurs 234x, 22%) -- genuine unity, MUST recur
   top recurring motifs: golden(592), firewall(564), eisenstein(556), figure_eight(429), metallic(417), trace_map(395)
   recurrence is: structural-invariant 3445 mentions | conserved-integral 234 | TOOL 395
@@ -116,7 +116,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | bridge_construction | 9/19 |
 | gauge_dict | 61/99 |
 | measure | 103/166 |
-| spacetime_3p1 | 124/191 |
+| spacetime_3p1 | 124/192 |
 | numerology | 25/38 |
 | selector | 18/27 |
 | observable | 41/60 |

@@ -2966,6 +2966,18 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1143": {
+   "slug": "bl fourth cartan",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B114": {
    "slug": "covering degree",
    "motifs": [
