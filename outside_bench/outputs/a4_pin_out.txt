@@ -1,0 +1,17 @@
+holonomy: R(A,B) = +I and (W gal)^2 = W conj(W) = A exactly => t^2 = a  (faithfulness)
+beta(b) = BabAb: abelianized = 0 a + 1 b  (expect 0 a + 1 b: beta homologically trivial)
+relator abelianized: 1 a + -1 b = 0  => a = b in H1(M)
+H1(M): invariant factors [1], free rank 1  => Z  (H1(M;Z/2) = Z/2: 2 spin structures)
+H1(N): invariant factors [1, 1], free rank 1  => Z<t> with a = b = 2t
+H1(N;Z/2) = Z/2: exactly TWO Pin-level structures on the Gieseking
+restriction H^1(N;Z/2) -> H^1(M;Z/2): phi(a) = phi(2t) = 0 => THE ZERO MAP
+=> both Pin-level structures restrict to chi = +1 — the beat-selected spin structure
+chi=-1 extensions: chi~(t) solutions of x^2 = -1 in {+-1}: []  (NONE: does not extend)
+chi=+1 extensions: chi~(t) solutions of x^2 = +1 in {+-1}: [1, -1]  (TWO: the Pin-level pair)
+
+A4 CLOSED: the Pin-level bit is NOT the spin bit in disguise — the restriction
+map is ZERO, both structures upstairs land on the beat-selected chi = +1 spin
+structure, the chi = -1 structure does not even admit a character extension to
+the Gieseking group, and the genuinely new bit is the t-sign (which structure
+upstairs), living entirely over the selected side.  Memo 28's selection now has
+a THIRD independent derivation: pure H1 arithmetic of the extension t^2 = a.
